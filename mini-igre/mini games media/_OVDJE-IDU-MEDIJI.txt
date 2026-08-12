@@ -1,0 +1,8 @@
+Ovdje idu slike i zvukovi za mini igre.
+
+Točan popis (nazivi, dimenzije, opisi) je u ../MEDIJI-popis.md
+odnosno ../MEDIJI-popis.csv za tablični pregled.
+
+Datoteke idu ravno u ovu mapu, bez podmapa.
+Dok je mapa prazna, sve igre rade — svaka slika ima ugrađenu
+zamjenu (znak), a izgovor se jednostavno preskače.

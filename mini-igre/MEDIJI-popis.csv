@@ -1,0 +1,1833 @@
+﻿datoteka;vrsta;dimenzije;naslov / opis;koristi
+rijec-jabuka.png;slika;512×512;jabuka — apple (Hrana);sve igre
+rijec-jabuka.mp3;zvuk;—;izgovor: „jabuka”;sve igre
+rijec-banana.png;slika;512×512;banana — banana (Hrana);sve igre
+rijec-banana.mp3;zvuk;—;izgovor: „banana”;sve igre
+rijec-kruh.png;slika;512×512;kruh — bread (Hrana);sve igre
+rijec-kruh.mp3;zvuk;—;izgovor: „kruh”;sve igre
+rijec-sir.png;slika;512×512;sir — cheese (Hrana);sve igre
+rijec-sir.mp3;zvuk;—;izgovor: „sir”;sve igre
+rijec-juha.png;slika;512×512;juha — soup (Hrana);sve igre
+rijec-juha.mp3;zvuk;—;izgovor: „juha”;sve igre
+rijec-salata.png;slika;512×512;salata — salad (Hrana);sve igre
+rijec-salata.mp3;zvuk;—;izgovor: „salata”;sve igre
+rijec-riba.png;slika;512×512;riba — fish (Hrana);sve igre
+rijec-riba.mp3;zvuk;—;izgovor: „riba”;sve igre
+rijec-pita.png;slika;512×512;pita — pie (Hrana);sve igre
+rijec-pita.mp3;zvuk;—;izgovor: „pita”;sve igre
+rijec-torta.png;slika;512×512;torta — cake (Hrana);sve igre
+rijec-torta.mp3;zvuk;—;izgovor: „torta”;sve igre
+rijec-cokolada.png;slika;512×512;čokolada — chocolate (Hrana);sve igre
+rijec-cokolada.mp3;zvuk;—;izgovor: „čokolada”;sve igre
+rijec-sladoled.png;slika;512×512;sladoled — ice cream (Hrana);sve igre
+rijec-sladoled.mp3;zvuk;—;izgovor: „sladoled”;sve igre
+rijec-jaje.png;slika;512×512;jaje — egg (Hrana);sve igre
+rijec-jaje.mp3;zvuk;—;izgovor: „jaje”;sve igre
+rijec-rajcica.png;slika;512×512;rajčica — tomato (Hrana);sve igre
+rijec-rajcica.mp3;zvuk;—;izgovor: „rajčica”;sve igre
+rijec-luk.png;slika;512×512;luk — onion (Hrana);sve igre
+rijec-luk.mp3;zvuk;—;izgovor: „luk”;sve igre
+rijec-palacinke.png;slika;512×512;palačinke — pancakes (Hrana);sve igre
+rijec-palacinke.mp3;zvuk;—;izgovor: „palačinke”;sve igre
+rijec-povrce.png;slika;512×512;povrće — vegetables (Hrana);sve igre
+rijec-povrce.mp3;zvuk;—;izgovor: „povrće”;sve igre
+rijec-voce.png;slika;512×512;voće — fruit (Hrana);sve igre
+rijec-voce.mp3;zvuk;—;izgovor: „voće”;sve igre
+rijec-ananas.png;slika;512×512;ananas — pineapple (Hrana);sve igre
+rijec-ananas.mp3;zvuk;—;izgovor: „ananas”;sve igre
+rijec-sendvic.png;slika;512×512;sendvič — sandwich (Hrana);sve igre
+rijec-sendvic.mp3;zvuk;—;izgovor: „sendvič”;sve igre
+rijec-pizza.png;slika;512×512;pizza — pizza (Hrana);sve igre
+rijec-pizza.mp3;zvuk;—;izgovor: „pizza”;sve igre
+rijec-cevapi.png;slika;512×512;ćevapi — ćevapi (Hrana);sve igre
+rijec-cevapi.mp3;zvuk;—;izgovor: „ćevapi”;sve igre
+rijec-kolac.png;slika;512×512;kolač — pastry (Hrana);sve igre
+rijec-kolac.mp3;zvuk;—;izgovor: „kolač”;sve igre
+rijec-secer.png;slika;512×512;šećer — sugar (Hrana);sve igre
+rijec-secer.mp3;zvuk;—;izgovor: „šećer”;sve igre
+rijec-sol.png;slika;512×512;sol — salt (Hrana);sve igre
+rijec-sol.mp3;zvuk;—;izgovor: „sol”;sve igre
+rijec-dzem.png;slika;512×512;džem — jam (Hrana);sve igre
+rijec-dzem.mp3;zvuk;—;izgovor: „džem”;sve igre
+rijec-meso.png;slika;512×512;meso — meat (Hrana);sve igre
+rijec-meso.mp3;zvuk;—;izgovor: „meso”;sve igre
+rijec-piletina.png;slika;512×512;piletina — chicken (Hrana);sve igre
+rijec-piletina.mp3;zvuk;—;izgovor: „piletina”;sve igre
+rijec-riza.png;slika;512×512;riža — rice (Hrana);sve igre
+rijec-riza.mp3;zvuk;—;izgovor: „riža”;sve igre
+rijec-tjestenina.png;slika;512×512;tjestenina — pasta (Hrana);sve igre
+rijec-tjestenina.mp3;zvuk;—;izgovor: „tjestenina”;sve igre
+rijec-krumpir.png;slika;512×512;krumpir — potato (Hrana);sve igre
+rijec-krumpir.mp3;zvuk;—;izgovor: „krumpir”;sve igre
+rijec-mrkva.png;slika;512×512;mrkva — carrot (Hrana);sve igre
+rijec-mrkva.mp3;zvuk;—;izgovor: „mrkva”;sve igre
+rijec-kruska.png;slika;512×512;kruška — pear (Hrana);sve igre
+rijec-kruska.mp3;zvuk;—;izgovor: „kruška”;sve igre
+rijec-grozde.png;slika;512×512;grožđe — grapes (Hrana);sve igre
+rijec-grozde.mp3;zvuk;—;izgovor: „grožđe”;sve igre
+rijec-lubenica.png;slika;512×512;lubenica — watermelon (Hrana);sve igre
+rijec-lubenica.mp3;zvuk;—;izgovor: „lubenica”;sve igre
+rijec-jagoda.png;slika;512×512;jagoda — strawberry (Hrana);sve igre
+rijec-jagoda.mp3;zvuk;—;izgovor: „jagoda”;sve igre
+rijec-breskva.png;slika;512×512;breskva — peach (Hrana);sve igre
+rijec-breskva.mp3;zvuk;—;izgovor: „breskva”;sve igre
+rijec-tresnja.png;slika;512×512;trešnja — cherry (Hrana);sve igre
+rijec-tresnja.mp3;zvuk;—;izgovor: „trešnja”;sve igre
+rijec-limun.png;slika;512×512;limun — lemon (Hrana);sve igre
+rijec-limun.mp3;zvuk;—;izgovor: „limun”;sve igre
+rijec-naranca.png;slika;512×512;naranča — orange (Hrana);sve igre
+rijec-naranca.mp3;zvuk;—;izgovor: „naranča”;sve igre
+rijec-maslina.png;slika;512×512;maslina — olive (Hrana);sve igre
+rijec-maslina.mp3;zvuk;—;izgovor: „maslina”;sve igre
+rijec-orah.png;slika;512×512;orah — walnut (Hrana);sve igre
+rijec-orah.mp3;zvuk;—;izgovor: „orah”;sve igre
+rijec-med.png;slika;512×512;med — honey (Hrana);sve igre
+rijec-med.mp3;zvuk;—;izgovor: „med”;sve igre
+rijec-maslac.png;slika;512×512;maslac — butter (Hrana);sve igre
+rijec-maslac.mp3;zvuk;—;izgovor: „maslac”;sve igre
+rijec-brasno.png;slika;512×512;brašno — flour (Hrana);sve igre
+rijec-brasno.mp3;zvuk;—;izgovor: „brašno”;sve igre
+rijec-dorucak.png;slika;512×512;doručak — breakfast (Hrana);sve igre
+rijec-dorucak.mp3;zvuk;—;izgovor: „doručak”;sve igre
+rijec-rucak.png;slika;512×512;ručak — lunch (Hrana);sve igre
+rijec-rucak.mp3;zvuk;—;izgovor: „ručak”;sve igre
+rijec-vecera.png;slika;512×512;večera — dinner (Hrana);sve igre
+rijec-vecera.mp3;zvuk;—;izgovor: „večera”;sve igre
+rijec-kobasica.png;slika;512×512;kobasica — sausage (Hrana);sve igre
+rijec-kobasica.mp3;zvuk;—;izgovor: „kobasica”;sve igre
+rijec-sunka.png;slika;512×512;šunka — ham (Hrana);sve igre
+rijec-sunka.mp3;zvuk;—;izgovor: „šunka”;sve igre
+rijec-paprika.png;slika;512×512;paprika — pepper (Hrana);sve igre
+rijec-paprika.mp3;zvuk;—;izgovor: „paprika”;sve igre
+rijec-krastavac.png;slika;512×512;krastavac — cucumber (Hrana);sve igre
+rijec-krastavac.mp3;zvuk;—;izgovor: „krastavac”;sve igre
+rijec-kupus.png;slika;512×512;kupus — cabbage (Hrana);sve igre
+rijec-kupus.mp3;zvuk;—;izgovor: „kupus”;sve igre
+rijec-grah.png;slika;512×512;grah — beans (Hrana);sve igre
+rijec-grah.mp3;zvuk;—;izgovor: „grah”;sve igre
+rijec-gljiva.png;slika;512×512;gljiva — mushroom (Hrana);sve igre
+rijec-gljiva.mp3;zvuk;—;izgovor: „gljiva”;sve igre
+rijec-bombon.png;slika;512×512;bombon — candy (Hrana);sve igre
+rijec-bombon.mp3;zvuk;—;izgovor: „bombon”;sve igre
+rijec-keks.png;slika;512×512;keks — biscuit (Hrana);sve igre
+rijec-keks.mp3;zvuk;—;izgovor: „keks”;sve igre
+rijec-umak.png;slika;512×512;umak — sauce (Hrana);sve igre
+rijec-umak.mp3;zvuk;—;izgovor: „umak”;sve igre
+rijec-cesnjak.png;slika;512×512;češnjak — garlic (Hrana);sve igre
+rijec-cesnjak.mp3;zvuk;—;izgovor: „češnjak”;sve igre
+rijec-hrana.png;slika;512×512;hrana — food (Hrana);sve igre
+rijec-hrana.mp3;zvuk;—;izgovor: „hrana”;sve igre
+rijec-obrok.png;slika;512×512;obrok — meal (Hrana);sve igre
+rijec-obrok.mp3;zvuk;—;izgovor: „obrok”;sve igre
+rijec-recept.png;slika;512×512;recept — recipe (Hrana);sve igre
+rijec-recept.mp3;zvuk;—;izgovor: „recept”;sve igre
+rijec-kava.png;slika;512×512;kava — coffee (Piće);sve igre
+rijec-kava.mp3;zvuk;—;izgovor: „kava”;sve igre
+rijec-voda.png;slika;512×512;voda — water (Piće);sve igre
+rijec-voda.mp3;zvuk;—;izgovor: „voda”;sve igre
+rijec-sok.png;slika;512×512;sok — juice (Piće);sve igre
+rijec-sok.mp3;zvuk;—;izgovor: „sok”;sve igre
+rijec-vino.png;slika;512×512;vino — wine (Piće);sve igre
+rijec-vino.mp3;zvuk;—;izgovor: „vino”;sve igre
+rijec-caj.png;slika;512×512;čaj — tea (Piće);sve igre
+rijec-caj.mp3;zvuk;—;izgovor: „čaj”;sve igre
+rijec-mlijeko.png;slika;512×512;mlijeko — milk (Piće);sve igre
+rijec-mlijeko.mp3;zvuk;—;izgovor: „mlijeko”;sve igre
+rijec-pivo.png;slika;512×512;pivo — beer (Piće);sve igre
+rijec-pivo.mp3;zvuk;—;izgovor: „pivo”;sve igre
+rijec-limunada.png;slika;512×512;limunada — lemonade (Piće);sve igre
+rijec-limunada.mp3;zvuk;—;izgovor: „limunada”;sve igre
+rijec-kakao.png;slika;512×512;kakao — cocoa (Piće);sve igre
+rijec-kakao.mp3;zvuk;—;izgovor: „kakao”;sve igre
+rijec-sampanjac.png;slika;512×512;šampanjac — champagne (Piće);sve igre
+rijec-sampanjac.mp3;zvuk;—;izgovor: „šampanjac”;sve igre
+rijec-rakija.png;slika;512×512;rakija — brandy (Piće);sve igre
+rijec-rakija.mp3;zvuk;—;izgovor: „rakija”;sve igre
+rijec-casa.png;slika;512×512;čaša — glass (Piće);sve igre
+rijec-casa.mp3;zvuk;—;izgovor: „čaša”;sve igre
+rijec-boca.png;slika;512×512;boca — bottle (Piće);sve igre
+rijec-boca.mp3;zvuk;—;izgovor: „boca”;sve igre
+rijec-salica.png;slika;512×512;šalica — cup (Piće);sve igre
+rijec-salica.mp3;zvuk;—;izgovor: „šalica”;sve igre
+rijec-led.png;slika;512×512;led — ice (Piće);sve igre
+rijec-led.mp3;zvuk;—;izgovor: „led”;sve igre
+rijec-napitak.png;slika;512×512;napitak — beverage (Piće);sve igre
+rijec-napitak.mp3;zvuk;—;izgovor: „napitak”;sve igre
+rijec-kapucino.png;slika;512×512;kapučino — cappuccino (Piće);sve igre
+rijec-kapucino.mp3;zvuk;—;izgovor: „kapučino”;sve igre
+rijec-cajnik.png;slika;512×512;čajnik — teapot (Piće);sve igre
+rijec-cajnik.mp3;zvuk;—;izgovor: „čajnik”;sve igre
+rijec-slamka.png;slika;512×512;slamka — straw (Piće);sve igre
+rijec-slamka.mp3;zvuk;—;izgovor: „slamka”;sve igre
+rijec-gutljaj.png;slika;512×512;gutljaj — sip (Piće);sve igre
+rijec-gutljaj.mp3;zvuk;—;izgovor: „gutljaj”;sve igre
+rijec-pas.png;slika;512×512;pas — dog (Životinje);sve igre
+rijec-pas.mp3;zvuk;—;izgovor: „pas”;sve igre
+rijec-macka.png;slika;512×512;mačka — cat (Životinje);sve igre
+rijec-macka.mp3;zvuk;—;izgovor: „mačka”;sve igre
+rijec-konj.png;slika;512×512;konj — horse (Životinje);sve igre
+rijec-konj.mp3;zvuk;—;izgovor: „konj”;sve igre
+rijec-lav.png;slika;512×512;lav — lion (Životinje);sve igre
+rijec-lav.mp3;zvuk;—;izgovor: „lav”;sve igre
+rijec-zebra.png;slika;512×512;zebra — zebra (Životinje);sve igre
+rijec-zebra.mp3;zvuk;—;izgovor: „zebra”;sve igre
+rijec-zaba.png;slika;512×512;žaba — frog (Životinje);sve igre
+rijec-zaba.mp3;zvuk;—;izgovor: „žaba”;sve igre
+rijec-foka.png;slika;512×512;foka — seal (Životinje);sve igre
+rijec-foka.mp3;zvuk;—;izgovor: „foka”;sve igre
+rijec-golub.png;slika;512×512;golub — pigeon (Životinje);sve igre
+rijec-golub.mp3;zvuk;—;izgovor: „golub”;sve igre
+rijec-galeb.png;slika;512×512;galeb — seagull (Životinje);sve igre
+rijec-galeb.mp3;zvuk;—;izgovor: „galeb”;sve igre
+rijec-ptica.png;slika;512×512;ptica — bird (Životinje);sve igre
+rijec-ptica.mp3;zvuk;—;izgovor: „ptica”;sve igre
+rijec-mis.png;slika;512×512;miš — mouse (Životinje);sve igre
+rijec-mis.mp3;zvuk;—;izgovor: „miš”;sve igre
+rijec-zec.png;slika;512×512;zec — rabbit (Životinje);sve igre
+rijec-zec.mp3;zvuk;—;izgovor: „zec”;sve igre
+rijec-medvjed.png;slika;512×512;medvjed — bear (Životinje);sve igre
+rijec-medvjed.mp3;zvuk;—;izgovor: „medvjed”;sve igre
+rijec-vuk.png;slika;512×512;vuk — wolf (Životinje);sve igre
+rijec-vuk.mp3;zvuk;—;izgovor: „vuk”;sve igre
+rijec-lisica.png;slika;512×512;lisica — fox (Životinje);sve igre
+rijec-lisica.mp3;zvuk;—;izgovor: „lisica”;sve igre
+rijec-jelen.png;slika;512×512;jelen — deer (Životinje);sve igre
+rijec-jelen.mp3;zvuk;—;izgovor: „jelen”;sve igre
+rijec-krava.png;slika;512×512;krava — cow (Životinje);sve igre
+rijec-krava.mp3;zvuk;—;izgovor: „krava”;sve igre
+rijec-svinja.png;slika;512×512;svinja — pig (Životinje);sve igre
+rijec-svinja.mp3;zvuk;—;izgovor: „svinja”;sve igre
+rijec-ovca.png;slika;512×512;ovca — sheep (Životinje);sve igre
+rijec-ovca.mp3;zvuk;—;izgovor: „ovca”;sve igre
+rijec-koza.png;slika;512×512;koza — goat (Životinje);sve igre
+rijec-koza.mp3;zvuk;—;izgovor: „koza”;sve igre
+rijec-kokos.png;slika;512×512;kokoš — hen (Životinje);sve igre
+rijec-kokos.mp3;zvuk;—;izgovor: „kokoš”;sve igre
+rijec-patka.png;slika;512×512;patka — duck (Životinje);sve igre
+rijec-patka.mp3;zvuk;—;izgovor: „patka”;sve igre
+rijec-guska.png;slika;512×512;guska — goose (Životinje);sve igre
+rijec-guska.mp3;zvuk;—;izgovor: „guska”;sve igre
+rijec-pijetao.png;slika;512×512;pijetao — rooster (Životinje);sve igre
+rijec-pijetao.mp3;zvuk;—;izgovor: „pijetao”;sve igre
+rijec-slon.png;slika;512×512;slon — elephant (Životinje);sve igre
+rijec-slon.mp3;zvuk;—;izgovor: „slon”;sve igre
+rijec-majmun.png;slika;512×512;majmun — monkey (Životinje);sve igre
+rijec-majmun.mp3;zvuk;—;izgovor: „majmun”;sve igre
+rijec-tigar.png;slika;512×512;tigar — tiger (Životinje);sve igre
+rijec-tigar.mp3;zvuk;—;izgovor: „tigar”;sve igre
+rijec-zirafa.png;slika;512×512;žirafa — giraffe (Životinje);sve igre
+rijec-zirafa.mp3;zvuk;—;izgovor: „žirafa”;sve igre
+rijec-krokodil.png;slika;512×512;krokodil — crocodile (Životinje);sve igre
+rijec-krokodil.mp3;zvuk;—;izgovor: „krokodil”;sve igre
+rijec-zmija.png;slika;512×512;zmija — snake (Životinje);sve igre
+rijec-zmija.mp3;zvuk;—;izgovor: „zmija”;sve igre
+rijec-kornjaca.png;slika;512×512;kornjača — turtle (Životinje);sve igre
+rijec-kornjaca.mp3;zvuk;—;izgovor: „kornjača”;sve igre
+rijec-puz.png;slika;512×512;puž — snail (Životinje);sve igre
+rijec-puz.mp3;zvuk;—;izgovor: „puž”;sve igre
+rijec-pcela.png;slika;512×512;pčela — bee (Životinje);sve igre
+rijec-pcela.mp3;zvuk;—;izgovor: „pčela”;sve igre
+rijec-leptir.png;slika;512×512;leptir — butterfly (Životinje);sve igre
+rijec-leptir.mp3;zvuk;—;izgovor: „leptir”;sve igre
+rijec-mrav.png;slika;512×512;mrav — ant (Životinje);sve igre
+rijec-mrav.mp3;zvuk;—;izgovor: „mrav”;sve igre
+rijec-pauk.png;slika;512×512;pauk — spider (Životinje);sve igre
+rijec-pauk.mp3;zvuk;—;izgovor: „pauk”;sve igre
+rijec-dupin.png;slika;512×512;dupin — dolphin (Životinje);sve igre
+rijec-dupin.mp3;zvuk;—;izgovor: „dupin”;sve igre
+rijec-kit.png;slika;512×512;kit — whale (Životinje);sve igre
+rijec-kit.mp3;zvuk;—;izgovor: „kit”;sve igre
+rijec-rak.png;slika;512×512;rak — crab (Životinje);sve igre
+rijec-rak.mp3;zvuk;—;izgovor: „rak”;sve igre
+rijec-hobotnica.png;slika;512×512;hobotnica — octopus (Životinje);sve igre
+rijec-hobotnica.mp3;zvuk;—;izgovor: „hobotnica”;sve igre
+rijec-sova.png;slika;512×512;sova — owl (Životinje);sve igre
+rijec-sova.mp3;zvuk;—;izgovor: „sova”;sve igre
+rijec-orao.png;slika;512×512;orao — eagle (Životinje);sve igre
+rijec-orao.mp3;zvuk;—;izgovor: „orao”;sve igre
+rijec-vjeverica.png;slika;512×512;vjeverica — squirrel (Životinje);sve igre
+rijec-vjeverica.mp3;zvuk;—;izgovor: „vjeverica”;sve igre
+rijec-jez.png;slika;512×512;jež — hedgehog (Životinje);sve igre
+rijec-jez.mp3;zvuk;—;izgovor: „jež”;sve igre
+rijec-sismis.png;slika;512×512;šišmiš — bat (Životinje);sve igre
+rijec-sismis.mp3;zvuk;—;izgovor: „šišmiš”;sve igre
+rijec-janje.png;slika;512×512;janje — lamb (Životinje);sve igre
+rijec-janje.mp3;zvuk;—;izgovor: „janje”;sve igre
+rijec-mace.png;slika;512×512;mače — kitten (Životinje);sve igre
+rijec-mace.mp3;zvuk;—;izgovor: „mače”;sve igre
+rijec-stene.png;slika;512×512;štene — puppy (Životinje);sve igre
+rijec-stene.mp3;zvuk;—;izgovor: „štene”;sve igre
+rijec-mama.png;slika;512×512;mama — mom (Ljudi);sve igre
+rijec-mama.mp3;zvuk;—;izgovor: „mama”;sve igre
+rijec-tata.png;slika;512×512;tata — dad (Ljudi);sve igre
+rijec-tata.mp3;zvuk;—;izgovor: „tata”;sve igre
+rijec-brat.png;slika;512×512;brat — brother (Ljudi);sve igre
+rijec-brat.mp3;zvuk;—;izgovor: „brat”;sve igre
+rijec-sestra.png;slika;512×512;sestra — sister (Ljudi);sve igre
+rijec-sestra.mp3;zvuk;—;izgovor: „sestra”;sve igre
+rijec-baka.png;slika;512×512;baka — grandma (Ljudi);sve igre
+rijec-baka.mp3;zvuk;—;izgovor: „baka”;sve igre
+rijec-djed.png;slika;512×512;djed — grandpa (Ljudi);sve igre
+rijec-djed.mp3;zvuk;—;izgovor: „djed”;sve igre
+rijec-dijete.png;slika;512×512;dijete — child (Ljudi);sve igre
+rijec-dijete.mp3;zvuk;—;izgovor: „dijete”;sve igre
+rijec-djecak.png;slika;512×512;dječak — boy (Ljudi);sve igre
+rijec-djecak.mp3;zvuk;—;izgovor: „dječak”;sve igre
+rijec-djevojcica.png;slika;512×512;djevojčica — girl (Ljudi);sve igre
+rijec-djevojcica.mp3;zvuk;—;izgovor: „djevojčica”;sve igre
+rijec-prijatelj.png;slika;512×512;prijatelj — friend (Ljudi);sve igre
+rijec-prijatelj.mp3;zvuk;—;izgovor: „prijatelj”;sve igre
+rijec-student.png;slika;512×512;student — student (Ljudi);sve igre
+rijec-student.mp3;zvuk;—;izgovor: „student”;sve igre
+rijec-profesor.png;slika;512×512;profesor — professor (Ljudi);sve igre
+rijec-profesor.mp3;zvuk;—;izgovor: „profesor”;sve igre
+rijec-uciteljica.png;slika;512×512;učiteljica — teacher (Ljudi);sve igre
+rijec-uciteljica.mp3;zvuk;—;izgovor: „učiteljica”;sve igre
+rijec-turist.png;slika;512×512;turist — tourist (Ljudi);sve igre
+rijec-turist.mp3;zvuk;—;izgovor: „turist”;sve igre
+rijec-susjed.png;slika;512×512;susjed — neighbour (Ljudi);sve igre
+rijec-susjed.mp3;zvuk;—;izgovor: „susjed”;sve igre
+rijec-obitelj.png;slika;512×512;obitelj — family (Ljudi);sve igre
+rijec-obitelj.mp3;zvuk;—;izgovor: „obitelj”;sve igre
+rijec-ljudi.png;slika;512×512;ljudi — people (Ljudi);sve igre
+rijec-ljudi.mp3;zvuk;—;izgovor: „ljudi”;sve igre
+rijec-covjek.png;slika;512×512;čovjek — man (Ljudi);sve igre
+rijec-covjek.mp3;zvuk;—;izgovor: „čovjek”;sve igre
+rijec-zena.png;slika;512×512;žena — woman (Ljudi);sve igre
+rijec-zena.mp3;zvuk;—;izgovor: „žena”;sve igre
+rijec-muz.png;slika;512×512;muž — husband (Ljudi);sve igre
+rijec-muz.mp3;zvuk;—;izgovor: „muž”;sve igre
+rijec-supruga.png;slika;512×512;supruga — wife (Ljudi);sve igre
+rijec-supruga.mp3;zvuk;—;izgovor: „supruga”;sve igre
+rijec-sin.png;slika;512×512;sin — son (Ljudi);sve igre
+rijec-sin.mp3;zvuk;—;izgovor: „sin”;sve igre
+rijec-kci.png;slika;512×512;kći — daughter (Ljudi);sve igre
+rijec-kci.mp3;zvuk;—;izgovor: „kći”;sve igre
+rijec-teta.png;slika;512×512;teta — aunt (Ljudi);sve igre
+rijec-teta.mp3;zvuk;—;izgovor: „teta”;sve igre
+rijec-ujak.png;slika;512×512;ujak — uncle (Ljudi);sve igre
+rijec-ujak.mp3;zvuk;—;izgovor: „ujak”;sve igre
+rijec-bratic.png;slika;512×512;bratić — cousin (Ljudi);sve igre
+rijec-bratic.mp3;zvuk;—;izgovor: „bratić”;sve igre
+rijec-unuk.png;slika;512×512;unuk — grandson (Ljudi);sve igre
+rijec-unuk.mp3;zvuk;—;izgovor: „unuk”;sve igre
+rijec-roditelji.png;slika;512×512;roditelji — parents (Ljudi);sve igre
+rijec-roditelji.mp3;zvuk;—;izgovor: „roditelji”;sve igre
+rijec-prijateljica.png;slika;512×512;prijateljica — friend (f) (Ljudi);sve igre
+rijec-prijateljica.mp3;zvuk;—;izgovor: „prijateljica”;sve igre
+rijec-kolega.png;slika;512×512;kolega — colleague (Ljudi);sve igre
+rijec-kolega.mp3;zvuk;—;izgovor: „kolega”;sve igre
+rijec-gost.png;slika;512×512;gost — guest (Ljudi);sve igre
+rijec-gost.mp3;zvuk;—;izgovor: „gost”;sve igre
+rijec-sef.png;slika;512×512;šef — boss (Ljudi);sve igre
+rijec-sef.mp3;zvuk;—;izgovor: „šef”;sve igre
+rijec-decko.png;slika;512×512;dečko — boyfriend (Ljudi);sve igre
+rijec-decko.mp3;zvuk;—;izgovor: „dečko”;sve igre
+rijec-djevojka.png;slika;512×512;djevojka — girlfriend (Ljudi);sve igre
+rijec-djevojka.mp3;zvuk;—;izgovor: „djevojka”;sve igre
+rijec-gospodin.png;slika;512×512;gospodin — mister (Ljudi);sve igre
+rijec-gospodin.mp3;zvuk;—;izgovor: „gospodin”;sve igre
+rijec-gospoda.png;slika;512×512;gospođa — madam (Ljudi);sve igre
+rijec-gospoda.mp3;zvuk;—;izgovor: „gospođa”;sve igre
+rijec-mladic.png;slika;512×512;mladić — young man (Ljudi);sve igre
+rijec-mladic.mp3;zvuk;—;izgovor: „mladić”;sve igre
+rijec-starac.png;slika;512×512;starac — old man (Ljudi);sve igre
+rijec-starac.mp3;zvuk;—;izgovor: „starac”;sve igre
+rijec-skupina.png;slika;512×512;skupina — group (Ljudi);sve igre
+rijec-skupina.mp3;zvuk;—;izgovor: „skupina”;sve igre
+rijec-narod.png;slika;512×512;narod — nation (Ljudi);sve igre
+rijec-narod.mp3;zvuk;—;izgovor: „narod”;sve igre
+rijec-beba.png;slika;512×512;beba — baby (Ljudi);sve igre
+rijec-beba.mp3;zvuk;—;izgovor: „beba”;sve igre
+rijec-tinejdzer.png;slika;512×512;tinejdžer — teenager (Ljudi);sve igre
+rijec-tinejdzer.mp3;zvuk;—;izgovor: „tinejdžer”;sve igre
+rijec-ime.png;slika;512×512;ime — name (Ljudi);sve igre
+rijec-ime.mp3;zvuk;—;izgovor: „ime”;sve igre
+rijec-prezime.png;slika;512×512;prezime — surname (Ljudi);sve igre
+rijec-prezime.mp3;zvuk;—;izgovor: „prezime”;sve igre
+rijec-susjeda.png;slika;512×512;susjeda — neighbour (f) (Ljudi);sve igre
+rijec-susjeda.mp3;zvuk;—;izgovor: „susjeda”;sve igre
+rijec-grad.png;slika;512×512;grad — city (Mjesta);sve igre
+rijec-grad.mp3;zvuk;—;izgovor: „grad”;sve igre
+rijec-kuca.png;slika;512×512;kuća — house (Mjesta);sve igre
+rijec-kuca.mp3;zvuk;—;izgovor: „kuća”;sve igre
+rijec-hotel.png;slika;512×512;hotel — hotel (Mjesta);sve igre
+rijec-hotel.mp3;zvuk;—;izgovor: „hotel”;sve igre
+rijec-restoran.png;slika;512×512;restoran — restaurant (Mjesta);sve igre
+rijec-restoran.mp3;zvuk;—;izgovor: „restoran”;sve igre
+rijec-kafic.png;slika;512×512;kafić — café (Mjesta);sve igre
+rijec-kafic.mp3;zvuk;—;izgovor: „kafić”;sve igre
+rijec-skola.png;slika;512×512;škola — school (Mjesta);sve igre
+rijec-skola.mp3;zvuk;—;izgovor: „škola”;sve igre
+rijec-trznica.png;slika;512×512;tržnica — market (Mjesta);sve igre
+rijec-trznica.mp3;zvuk;—;izgovor: „tržnica”;sve igre
+rijec-trgovina.png;slika;512×512;trgovina — shop (Mjesta);sve igre
+rijec-trgovina.mp3;zvuk;—;izgovor: „trgovina”;sve igre
+rijec-posta.png;slika;512×512;pošta — post office (Mjesta);sve igre
+rijec-posta.mp3;zvuk;—;izgovor: „pošta”;sve igre
+rijec-pekara.png;slika;512×512;pekara — bakery (Mjesta);sve igre
+rijec-pekara.mp3;zvuk;—;izgovor: „pekara”;sve igre
+rijec-kazaliste.png;slika;512×512;kazalište — theatre (Mjesta);sve igre
+rijec-kazaliste.mp3;zvuk;—;izgovor: „kazalište”;sve igre
+rijec-kino.png;slika;512×512;kino — cinema (Mjesta);sve igre
+rijec-kino.mp3;zvuk;—;izgovor: „kino”;sve igre
+rijec-muzej.png;slika;512×512;muzej — museum (Mjesta);sve igre
+rijec-muzej.mp3;zvuk;—;izgovor: „muzej”;sve igre
+rijec-galerija.png;slika;512×512;galerija — gallery (Mjesta);sve igre
+rijec-galerija.mp3;zvuk;—;izgovor: „galerija”;sve igre
+rijec-katedrala.png;slika;512×512;katedrala — cathedral (Mjesta);sve igre
+rijec-katedrala.mp3;zvuk;—;izgovor: „katedrala”;sve igre
+rijec-most.png;slika;512×512;most — bridge (Mjesta);sve igre
+rijec-most.mp3;zvuk;—;izgovor: „most”;sve igre
+rijec-trg.png;slika;512×512;trg — square (Mjesta);sve igre
+rijec-trg.mp3;zvuk;—;izgovor: „trg”;sve igre
+rijec-ulica.png;slika;512×512;ulica — street (Mjesta);sve igre
+rijec-ulica.mp3;zvuk;—;izgovor: „ulica”;sve igre
+rijec-stanica.png;slika;512×512;stanica — stop (Mjesta);sve igre
+rijec-stanica.mp3;zvuk;—;izgovor: „stanica”;sve igre
+rijec-kolodvor.png;slika;512×512;kolodvor — train station (Mjesta);sve igre
+rijec-kolodvor.mp3;zvuk;—;izgovor: „kolodvor”;sve igre
+rijec-aerodrom.png;slika;512×512;aerodrom — airport (Mjesta);sve igre
+rijec-aerodrom.mp3;zvuk;—;izgovor: „aerodrom”;sve igre
+rijec-stadion.png;slika;512×512;stadion — stadium (Mjesta);sve igre
+rijec-stadion.mp3;zvuk;—;izgovor: „stadion”;sve igre
+rijec-apoteka.png;slika;512×512;apoteka — pharmacy (Mjesta);sve igre
+rijec-apoteka.mp3;zvuk;—;izgovor: „apoteka”;sve igre
+rijec-teretana.png;slika;512×512;teretana — gym (Mjesta);sve igre
+rijec-teretana.mp3;zvuk;—;izgovor: „teretana”;sve igre
+rijec-biblioteka.png;slika;512×512;biblioteka — library (Mjesta);sve igre
+rijec-biblioteka.mp3;zvuk;—;izgovor: „biblioteka”;sve igre
+rijec-ured.png;slika;512×512;ured — office (Mjesta);sve igre
+rijec-ured.mp3;zvuk;—;izgovor: „ured”;sve igre
+rijec-zgrada.png;slika;512×512;zgrada — building (Mjesta);sve igre
+rijec-zgrada.mp3;zvuk;—;izgovor: „zgrada”;sve igre
+rijec-selo.png;slika;512×512;selo — village (Mjesta);sve igre
+rijec-selo.mp3;zvuk;—;izgovor: „selo”;sve igre
+rijec-drzava.png;slika;512×512;država — country (Mjesta);sve igre
+rijec-drzava.mp3;zvuk;—;izgovor: „država”;sve igre
+rijec-bolnica.png;slika;512×512;bolnica — hospital (Mjesta);sve igre
+rijec-bolnica.mp3;zvuk;—;izgovor: „bolnica”;sve igre
+rijec-banka.png;slika;512×512;banka — bank (Mjesta);sve igre
+rijec-banka.mp3;zvuk;—;izgovor: „banka”;sve igre
+rijec-crkva.png;slika;512×512;crkva — church (Mjesta);sve igre
+rijec-crkva.mp3;zvuk;—;izgovor: „crkva”;sve igre
+rijec-park.png;slika;512×512;park — park (Mjesta);sve igre
+rijec-park.mp3;zvuk;—;izgovor: „park”;sve igre
+rijec-plaza.png;slika;512×512;plaža — beach (Mjesta);sve igre
+rijec-plaza.mp3;zvuk;—;izgovor: „plaža”;sve igre
+rijec-luka.png;slika;512×512;luka — port (Mjesta);sve igre
+rijec-luka.mp3;zvuk;—;izgovor: „luka”;sve igre
+rijec-kvart.png;slika;512×512;kvart — neighbourhood (Mjesta);sve igre
+rijec-kvart.mp3;zvuk;—;izgovor: „kvart”;sve igre
+rijec-dvoriste.png;slika;512×512;dvorište — yard (Mjesta);sve igre
+rijec-dvoriste.mp3;zvuk;—;izgovor: „dvorište”;sve igre
+rijec-tvornica.png;slika;512×512;tvornica — factory (Mjesta);sve igre
+rijec-tvornica.mp3;zvuk;—;izgovor: „tvornica”;sve igre
+rijec-sveuciliste.png;slika;512×512;sveučilište — university (Mjesta);sve igre
+rijec-sveuciliste.mp3;zvuk;—;izgovor: „sveučilište”;sve igre
+rijec-vrtic.png;slika;512×512;vrtić — kindergarten (Mjesta);sve igre
+rijec-vrtic.mp3;zvuk;—;izgovor: „vrtić”;sve igre
+rijec-kiosk.png;slika;512×512;kiosk — kiosk (Mjesta);sve igre
+rijec-kiosk.mp3;zvuk;—;izgovor: „kiosk”;sve igre
+rijec-autocesta.png;slika;512×512;autocesta — motorway (Mjesta);sve igre
+rijec-autocesta.mp3;zvuk;—;izgovor: „autocesta”;sve igre
+rijec-raskrizje.png;slika;512×512;raskrižje — crossroads (Mjesta);sve igre
+rijec-raskrizje.mp3;zvuk;—;izgovor: „raskrižje”;sve igre
+rijec-parkiraliste.png;slika;512×512;parkiralište — car park (Mjesta);sve igre
+rijec-parkiraliste.mp3;zvuk;—;izgovor: „parkiralište”;sve igre
+rijec-dvorana.png;slika;512×512;dvorana — hall (Mjesta);sve igre
+rijec-dvorana.mp3;zvuk;—;izgovor: „dvorana”;sve igre
+rijec-fontana.png;slika;512×512;fontana — fountain (Mjesta);sve igre
+rijec-fontana.mp3;zvuk;—;izgovor: „fontana”;sve igre
+rijec-tunel.png;slika;512×512;tunel — tunnel (Mjesta);sve igre
+rijec-tunel.mp3;zvuk;—;izgovor: „tunel”;sve igre
+rijec-granica.png;slika;512×512;granica — border (Mjesta);sve igre
+rijec-granica.mp3;zvuk;—;izgovor: „granica”;sve igre
+rijec-centar.png;slika;512×512;centar — centre (Mjesta);sve igre
+rijec-centar.mp3;zvuk;—;izgovor: „centar”;sve igre
+rijec-akvarij.png;slika;512×512;akvarij — aquarium (Mjesta);sve igre
+rijec-akvarij.mp3;zvuk;—;izgovor: „akvarij”;sve igre
+rijec-tvrdava.png;slika;512×512;tvrđava — fortress (Mjesta);sve igre
+rijec-tvrdava.mp3;zvuk;—;izgovor: „tvrđava”;sve igre
+rijec-dvorac.png;slika;512×512;dvorac — castle (Mjesta);sve igre
+rijec-dvorac.mp3;zvuk;—;izgovor: „dvorac”;sve igre
+rijec-svjetionik.png;slika;512×512;svjetionik — lighthouse (Mjesta);sve igre
+rijec-svjetionik.mp3;zvuk;—;izgovor: „svjetionik”;sve igre
+rijec-cekaonica.png;slika;512×512;čekaonica — waiting room (Mjesta);sve igre
+rijec-cekaonica.mp3;zvuk;—;izgovor: „čekaonica”;sve igre
+rijec-trzni-centar.png;slika;512×512;tržni centar — shopping centre (Mjesta);sve igre
+rijec-trzni-centar.mp3;zvuk;—;izgovor: „tržni centar”;sve igre
+rijec-soba.png;slika;512×512;soba — room (Dom);sve igre
+rijec-soba.mp3;zvuk;—;izgovor: „soba”;sve igre
+rijec-kuhinja.png;slika;512×512;kuhinja — kitchen (Dom);sve igre
+rijec-kuhinja.mp3;zvuk;—;izgovor: „kuhinja”;sve igre
+rijec-kupaonica.png;slika;512×512;kupaonica — bathroom (Dom);sve igre
+rijec-kupaonica.mp3;zvuk;—;izgovor: „kupaonica”;sve igre
+rijec-spavaca-soba.png;slika;512×512;spavaća soba — bedroom (Dom);sve igre
+rijec-spavaca-soba.mp3;zvuk;—;izgovor: „spavaća soba”;sve igre
+rijec-dnevna-soba.png;slika;512×512;dnevna soba — living room (Dom);sve igre
+rijec-dnevna-soba.mp3;zvuk;—;izgovor: „dnevna soba”;sve igre
+rijec-hodnik.png;slika;512×512;hodnik — hallway (Dom);sve igre
+rijec-hodnik.mp3;zvuk;—;izgovor: „hodnik”;sve igre
+rijec-stan.png;slika;512×512;stan — flat (Dom);sve igre
+rijec-stan.mp3;zvuk;—;izgovor: „stan”;sve igre
+rijec-vrt.png;slika;512×512;vrt — garden (Dom);sve igre
+rijec-vrt.mp3;zvuk;—;izgovor: „vrt”;sve igre
+rijec-balkon.png;slika;512×512;balkon — balcony (Dom);sve igre
+rijec-balkon.mp3;zvuk;—;izgovor: „balkon”;sve igre
+rijec-krov.png;slika;512×512;krov — roof (Dom);sve igre
+rijec-krov.mp3;zvuk;—;izgovor: „krov”;sve igre
+rijec-pod.png;slika;512×512;pod — floor (Dom);sve igre
+rijec-pod.mp3;zvuk;—;izgovor: „pod”;sve igre
+rijec-strop.png;slika;512×512;strop — ceiling (Dom);sve igre
+rijec-strop.mp3;zvuk;—;izgovor: „strop”;sve igre
+rijec-zid.png;slika;512×512;zid — wall (Dom);sve igre
+rijec-zid.mp3;zvuk;—;izgovor: „zid”;sve igre
+rijec-vrata.png;slika;512×512;vrata — door (Dom);sve igre
+rijec-vrata.mp3;zvuk;—;izgovor: „vrata”;sve igre
+rijec-prozor.png;slika;512×512;prozor — window (Dom);sve igre
+rijec-prozor.mp3;zvuk;—;izgovor: „prozor”;sve igre
+rijec-stol.png;slika;512×512;stol — table (Dom);sve igre
+rijec-stol.mp3;zvuk;—;izgovor: „stol”;sve igre
+rijec-stolica.png;slika;512×512;stolica — chair (Dom);sve igre
+rijec-stolica.mp3;zvuk;—;izgovor: „stolica”;sve igre
+rijec-krevet.png;slika;512×512;krevet — bed (Dom);sve igre
+rijec-krevet.mp3;zvuk;—;izgovor: „krevet”;sve igre
+rijec-ormar.png;slika;512×512;ormar — wardrobe (Dom);sve igre
+rijec-ormar.mp3;zvuk;—;izgovor: „ormar”;sve igre
+rijec-polica.png;slika;512×512;polica — shelf (Dom);sve igre
+rijec-polica.mp3;zvuk;—;izgovor: „polica”;sve igre
+rijec-kauc.png;slika;512×512;kauč — sofa (Dom);sve igre
+rijec-kauc.mp3;zvuk;—;izgovor: „kauč”;sve igre
+rijec-tepih.png;slika;512×512;tepih — carpet (Dom);sve igre
+rijec-tepih.mp3;zvuk;—;izgovor: „tepih”;sve igre
+rijec-lampa.png;slika;512×512;lampa — lamp (Dom);sve igre
+rijec-lampa.mp3;zvuk;—;izgovor: „lampa”;sve igre
+rijec-zavjesa.png;slika;512×512;zavjesa — curtain (Dom);sve igre
+rijec-zavjesa.mp3;zvuk;—;izgovor: „zavjesa”;sve igre
+rijec-jastuk.png;slika;512×512;jastuk — pillow (Dom);sve igre
+rijec-jastuk.mp3;zvuk;—;izgovor: „jastuk”;sve igre
+rijec-deka.png;slika;512×512;deka — blanket (Dom);sve igre
+rijec-deka.mp3;zvuk;—;izgovor: „deka”;sve igre
+rijec-hladnjak.png;slika;512×512;hladnjak — fridge (Dom);sve igre
+rijec-hladnjak.mp3;zvuk;—;izgovor: „hladnjak”;sve igre
+rijec-pecnica.png;slika;512×512;pećnica — oven (Dom);sve igre
+rijec-pecnica.mp3;zvuk;—;izgovor: „pećnica”;sve igre
+rijec-perilica.png;slika;512×512;perilica — washing machine (Dom);sve igre
+rijec-perilica.mp3;zvuk;—;izgovor: „perilica”;sve igre
+rijec-stepenice.png;slika;512×512;stepenice — stairs (Dom);sve igre
+rijec-stepenice.mp3;zvuk;—;izgovor: „stepenice”;sve igre
+rijec-dizalo.png;slika;512×512;dizalo — lift (Dom);sve igre
+rijec-dizalo.mp3;zvuk;—;izgovor: „dizalo”;sve igre
+rijec-adresa.png;slika;512×512;adresa — address (Dom);sve igre
+rijec-adresa.mp3;zvuk;—;izgovor: „adresa”;sve igre
+rijec-podrum.png;slika;512×512;podrum — cellar (Dom);sve igre
+rijec-podrum.mp3;zvuk;—;izgovor: „podrum”;sve igre
+rijec-tavan.png;slika;512×512;tavan — attic (Dom);sve igre
+rijec-tavan.mp3;zvuk;—;izgovor: „tavan”;sve igre
+rijec-garaza.png;slika;512×512;garaža — garage (Dom);sve igre
+rijec-garaza.mp3;zvuk;—;izgovor: „garaža”;sve igre
+rijec-auto.png;slika;512×512;auto — car (Prijevoz);sve igre
+rijec-auto.mp3;zvuk;—;izgovor: „auto”;sve igre
+rijec-autobus.png;slika;512×512;autobus — bus (Prijevoz);sve igre
+rijec-autobus.mp3;zvuk;—;izgovor: „autobus”;sve igre
+rijec-tramvaj.png;slika;512×512;tramvaj — tram (Prijevoz);sve igre
+rijec-tramvaj.mp3;zvuk;—;izgovor: „tramvaj”;sve igre
+rijec-vlak.png;slika;512×512;vlak — train (Prijevoz);sve igre
+rijec-vlak.mp3;zvuk;—;izgovor: „vlak”;sve igre
+rijec-taksi.png;slika;512×512;taksi — taxi (Prijevoz);sve igre
+rijec-taksi.mp3;zvuk;—;izgovor: „taksi”;sve igre
+rijec-bicikl.png;slika;512×512;bicikl — bicycle (Prijevoz);sve igre
+rijec-bicikl.mp3;zvuk;—;izgovor: „bicikl”;sve igre
+rijec-brod.png;slika;512×512;brod — boat (Prijevoz);sve igre
+rijec-brod.mp3;zvuk;—;izgovor: „brod”;sve igre
+rijec-avion.png;slika;512×512;avion — plane (Prijevoz);sve igre
+rijec-avion.mp3;zvuk;—;izgovor: „avion”;sve igre
+rijec-motor.png;slika;512×512;motor — motorbike (Prijevoz);sve igre
+rijec-motor.mp3;zvuk;—;izgovor: „motor”;sve igre
+rijec-trajekt.png;slika;512×512;trajekt — ferry (Prijevoz);sve igre
+rijec-trajekt.mp3;zvuk;—;izgovor: „trajekt”;sve igre
+rijec-metro.png;slika;512×512;metro — metro (Prijevoz);sve igre
+rijec-metro.mp3;zvuk;—;izgovor: „metro”;sve igre
+rijec-kamion.png;slika;512×512;kamion — truck (Prijevoz);sve igre
+rijec-kamion.mp3;zvuk;—;izgovor: „kamion”;sve igre
+rijec-kombi.png;slika;512×512;kombi — van (Prijevoz);sve igre
+rijec-kombi.mp3;zvuk;—;izgovor: „kombi”;sve igre
+rijec-romobil.png;slika;512×512;romobil — scooter (Prijevoz);sve igre
+rijec-romobil.mp3;zvuk;—;izgovor: „romobil”;sve igre
+rijec-helikopter.png;slika;512×512;helikopter — helicopter (Prijevoz);sve igre
+rijec-helikopter.mp3;zvuk;—;izgovor: „helikopter”;sve igre
+rijec-raketa.png;slika;512×512;raketa — rocket (Prijevoz);sve igre
+rijec-raketa.mp3;zvuk;—;izgovor: „raketa”;sve igre
+rijec-hitna.png;slika;512×512;hitna — ambulance (Prijevoz);sve igre
+rijec-hitna.mp3;zvuk;—;izgovor: „hitna”;sve igre
+rijec-peron.png;slika;512×512;peron — platform (Prijevoz);sve igre
+rijec-peron.mp3;zvuk;—;izgovor: „peron”;sve igre
+rijec-voznja.png;slika;512×512;vožnja — ride (Prijevoz);sve igre
+rijec-voznja.mp3;zvuk;—;izgovor: „vožnja”;sve igre
+rijec-gorivo.png;slika;512×512;gorivo — fuel (Prijevoz);sve igre
+rijec-gorivo.mp3;zvuk;—;izgovor: „gorivo”;sve igre
+rijec-guma.png;slika;512×512;guma — tyre (Prijevoz);sve igre
+rijec-guma.mp3;zvuk;—;izgovor: „guma”;sve igre
+rijec-volan.png;slika;512×512;volan — steering wheel (Prijevoz);sve igre
+rijec-volan.mp3;zvuk;—;izgovor: „volan”;sve igre
+rijec-sidro.png;slika;512×512;sidro — anchor (Prijevoz);sve igre
+rijec-sidro.mp3;zvuk;—;izgovor: „sidro”;sve igre
+rijec-jedro.png;slika;512×512;jedro — sail (Prijevoz);sve igre
+rijec-jedro.mp3;zvuk;—;izgovor: „jedro”;sve igre
+rijec-camac.png;slika;512×512;čamac — small boat (Prijevoz);sve igre
+rijec-camac.mp3;zvuk;—;izgovor: „čamac”;sve igre
+rijec-kolica.png;slika;512×512;kolica — cart (Prijevoz);sve igre
+rijec-kolica.mp3;zvuk;—;izgovor: „kolica”;sve igre
+rijec-knjiga.png;slika;512×512;knjiga — book (Predmeti);sve igre
+rijec-knjiga.mp3;zvuk;—;izgovor: „knjiga”;sve igre
+rijec-telefon.png;slika;512×512;telefon — telephone (Predmeti);sve igre
+rijec-telefon.mp3;zvuk;—;izgovor: „telefon”;sve igre
+rijec-slika.png;slika;512×512;slika — picture (Predmeti);sve igre
+rijec-slika.mp3;zvuk;—;izgovor: „slika”;sve igre
+rijec-kutija.png;slika;512×512;kutija — box (Predmeti);sve igre
+rijec-kutija.mp3;zvuk;—;izgovor: „kutija”;sve igre
+rijec-tava.png;slika;512×512;tava — pan (Predmeti);sve igre
+rijec-tava.mp3;zvuk;—;izgovor: „tava”;sve igre
+rijec-vrecica.png;slika;512×512;vrećica — bag (Predmeti);sve igre
+rijec-vrecica.mp3;zvuk;—;izgovor: „vrećica”;sve igre
+rijec-novine.png;slika;512×512;novine — newspaper (Predmeti);sve igre
+rijec-novine.mp3;zvuk;—;izgovor: „novine”;sve igre
+rijec-pismo.png;slika;512×512;pismo — letter (Predmeti);sve igre
+rijec-pismo.mp3;zvuk;—;izgovor: „pismo”;sve igre
+rijec-paket.png;slika;512×512;paket — package (Predmeti);sve igre
+rijec-paket.mp3;zvuk;—;izgovor: „paket”;sve igre
+rijec-karta.png;slika;512×512;karta — ticket (Predmeti);sve igre
+rijec-karta.mp3;zvuk;—;izgovor: „karta”;sve igre
+rijec-gitara.png;slika;512×512;gitara — guitar (Predmeti);sve igre
+rijec-gitara.mp3;zvuk;—;izgovor: „gitara”;sve igre
+rijec-klavir.png;slika;512×512;klavir — piano (Predmeti);sve igre
+rijec-klavir.mp3;zvuk;—;izgovor: „klavir”;sve igre
+rijec-lopta.png;slika;512×512;lopta — ball (Predmeti);sve igre
+rijec-lopta.mp3;zvuk;—;izgovor: „lopta”;sve igre
+rijec-fotoaparat.png;slika;512×512;fotoaparat — camera (Predmeti);sve igre
+rijec-fotoaparat.mp3;zvuk;—;izgovor: „fotoaparat”;sve igre
+rijec-igla.png;slika;512×512;igla — needle (Predmeti);sve igre
+rijec-igla.mp3;zvuk;—;izgovor: „igla”;sve igre
+rijec-poklon.png;slika;512×512;poklon — present (Predmeti);sve igre
+rijec-poklon.mp3;zvuk;—;izgovor: „poklon”;sve igre
+rijec-udzbenik.png;slika;512×512;udžbenik — textbook (Predmeti);sve igre
+rijec-udzbenik.mp3;zvuk;—;izgovor: „udžbenik”;sve igre
+rijec-kljuc.png;slika;512×512;ključ — key (Predmeti);sve igre
+rijec-kljuc.mp3;zvuk;—;izgovor: „ključ”;sve igre
+rijec-novcanik.png;slika;512×512;novčanik — wallet (Predmeti);sve igre
+rijec-novcanik.mp3;zvuk;—;izgovor: „novčanik”;sve igre
+rijec-novac.png;slika;512×512;novac — money (Predmeti);sve igre
+rijec-novac.mp3;zvuk;—;izgovor: „novac”;sve igre
+rijec-torba.png;slika;512×512;torba — bag (Predmeti);sve igre
+rijec-torba.mp3;zvuk;—;izgovor: „torba”;sve igre
+rijec-naocale.png;slika;512×512;naočale — glasses (Predmeti);sve igre
+rijec-naocale.mp3;zvuk;—;izgovor: „naočale”;sve igre
+rijec-rucni-sat.png;slika;512×512;ručni sat — wristwatch (Predmeti);sve igre
+rijec-rucni-sat.mp3;zvuk;—;izgovor: „ručni sat”;sve igre
+rijec-kisobran.png;slika;512×512;kišobran — umbrella (Predmeti);sve igre
+rijec-kisobran.mp3;zvuk;—;izgovor: „kišobran”;sve igre
+rijec-ogledalo.png;slika;512×512;ogledalo — mirror (Predmeti);sve igre
+rijec-ogledalo.mp3;zvuk;—;izgovor: „ogledalo”;sve igre
+rijec-cesalj.png;slika;512×512;češalj — comb (Predmeti);sve igre
+rijec-cesalj.mp3;zvuk;—;izgovor: „češalj”;sve igre
+rijec-cetkica.png;slika;512×512;četkica — toothbrush (Predmeti);sve igre
+rijec-cetkica.mp3;zvuk;—;izgovor: „četkica”;sve igre
+rijec-sapun.png;slika;512×512;sapun — soap (Predmeti);sve igre
+rijec-sapun.mp3;zvuk;—;izgovor: „sapun”;sve igre
+rijec-rucnik.png;slika;512×512;ručnik — towel (Predmeti);sve igre
+rijec-rucnik.mp3;zvuk;—;izgovor: „ručnik”;sve igre
+rijec-svijeca.png;slika;512×512;svijeća — candle (Predmeti);sve igre
+rijec-svijeca.mp3;zvuk;—;izgovor: „svijeća”;sve igre
+rijec-skare.png;slika;512×512;škare — scissors (Predmeti);sve igre
+rijec-skare.mp3;zvuk;—;izgovor: „škare”;sve igre
+rijec-ljepilo.png;slika;512×512;ljepilo — glue (Predmeti);sve igre
+rijec-ljepilo.mp3;zvuk;—;izgovor: „ljepilo”;sve igre
+rijec-olovka.png;slika;512×512;olovka — pencil (Predmeti);sve igre
+rijec-olovka.mp3;zvuk;—;izgovor: „olovka”;sve igre
+rijec-kemijska.png;slika;512×512;kemijska — pen (Predmeti);sve igre
+rijec-kemijska.mp3;zvuk;—;izgovor: „kemijska”;sve igre
+rijec-papir.png;slika;512×512;papir — paper (Predmeti);sve igre
+rijec-papir.mp3;zvuk;—;izgovor: „papir”;sve igre
+rijec-biljeznica.png;slika;512×512;bilježnica — notebook (Predmeti);sve igre
+rijec-biljeznica.mp3;zvuk;—;izgovor: „bilježnica”;sve igre
+rijec-mapa.png;slika;512×512;mapa — folder (Predmeti);sve igre
+rijec-mapa.mp3;zvuk;—;izgovor: „mapa”;sve igre
+rijec-kist.png;slika;512×512;kist — brush (Predmeti);sve igre
+rijec-kist.mp3;zvuk;—;izgovor: „kist”;sve igre
+rijec-noz.png;slika;512×512;nož — knife (Predmeti);sve igre
+rijec-noz.mp3;zvuk;—;izgovor: „nož”;sve igre
+rijec-zlica.png;slika;512×512;žlica — spoon (Predmeti);sve igre
+rijec-zlica.mp3;zvuk;—;izgovor: „žlica”;sve igre
+rijec-vilica.png;slika;512×512;vilica — fork (Predmeti);sve igre
+rijec-vilica.mp3;zvuk;—;izgovor: „vilica”;sve igre
+rijec-tanjur.png;slika;512×512;tanjur — plate (Predmeti);sve igre
+rijec-tanjur.mp3;zvuk;—;izgovor: „tanjur”;sve igre
+rijec-zdjela.png;slika;512×512;zdjela — bowl (Predmeti);sve igre
+rijec-zdjela.mp3;zvuk;—;izgovor: „zdjela”;sve igre
+rijec-metla.png;slika;512×512;metla — broom (Predmeti);sve igre
+rijec-metla.mp3;zvuk;—;izgovor: „metla”;sve igre
+rijec-alat.png;slika;512×512;alat — tool (Predmeti);sve igre
+rijec-alat.mp3;zvuk;—;izgovor: „alat”;sve igre
+rijec-cekic.png;slika;512×512;čekić — hammer (Predmeti);sve igre
+rijec-cekic.mp3;zvuk;—;izgovor: „čekić”;sve igre
+rijec-ljestve.png;slika;512×512;ljestve — ladder (Predmeti);sve igre
+rijec-ljestve.mp3;zvuk;—;izgovor: „ljestve”;sve igre
+rijec-uze.png;slika;512×512;uže — rope (Predmeti);sve igre
+rijec-uze.mp3;zvuk;—;izgovor: „uže”;sve igre
+rijec-lanac.png;slika;512×512;lanac — chain (Predmeti);sve igre
+rijec-lanac.mp3;zvuk;—;izgovor: „lanac”;sve igre
+rijec-zemljovid.png;slika;512×512;zemljovid — map (Predmeti);sve igre
+rijec-zemljovid.mp3;zvuk;—;izgovor: „zemljovid”;sve igre
+rijec-zastava.png;slika;512×512;zastava — flag (Predmeti);sve igre
+rijec-zastava.mp3;zvuk;—;izgovor: „zastava”;sve igre
+rijec-balon.png;slika;512×512;balon — balloon (Predmeti);sve igre
+rijec-balon.mp3;zvuk;—;izgovor: „balon”;sve igre
+rijec-igracka.png;slika;512×512;igračka — toy (Predmeti);sve igre
+rijec-igracka.mp3;zvuk;—;izgovor: „igračka”;sve igre
+rijec-kocka.png;slika;512×512;kocka — dice (Predmeti);sve igre
+rijec-kocka.mp3;zvuk;—;izgovor: „kocka”;sve igre
+rijec-kotac.png;slika;512×512;kotač — wheel (Predmeti);sve igre
+rijec-kotac.mp3;zvuk;—;izgovor: „kotač”;sve igre
+rijec-baterijska-svjetiljka.png;slika;512×512;baterijska svjetiljka — torch (Predmeti);sve igre
+rijec-baterijska-svjetiljka.mp3;zvuk;—;izgovor: „baterijska svjetiljka”;sve igre
+rijec-ruksak.png;slika;512×512;ruksak — backpack (Predmeti);sve igre
+rijec-ruksak.mp3;zvuk;—;izgovor: „ruksak”;sve igre
+rijec-naljepnica.png;slika;512×512;naljepnica — sticker (Predmeti);sve igre
+rijec-naljepnica.mp3;zvuk;—;izgovor: „naljepnica”;sve igre
+rijec-kutlaca.png;slika;512×512;kutlača — ladle (Predmeti);sve igre
+rijec-kutlaca.mp3;zvuk;—;izgovor: „kutlača”;sve igre
+rijec-vaza.png;slika;512×512;vaza — vase (Predmeti);sve igre
+rijec-vaza.mp3;zvuk;—;izgovor: „vaza”;sve igre
+rijec-sesir.png;slika;512×512;šešir — hat (Odjeća);sve igre
+rijec-sesir.mp3;zvuk;—;izgovor: „šešir”;sve igre
+rijec-cipela.png;slika;512×512;cipela — shoe (Odjeća);sve igre
+rijec-cipela.mp3;zvuk;—;izgovor: „cipela”;sve igre
+rijec-sal.png;slika;512×512;šal — scarf (Odjeća);sve igre
+rijec-sal.mp3;zvuk;—;izgovor: „šal”;sve igre
+rijec-dres.png;slika;512×512;dres — jersey (Odjeća);sve igre
+rijec-dres.mp3;zvuk;—;izgovor: „dres”;sve igre
+rijec-majica.png;slika;512×512;majica — T-shirt (Odjeća);sve igre
+rijec-majica.mp3;zvuk;—;izgovor: „majica”;sve igre
+rijec-kosulja.png;slika;512×512;košulja — shirt (Odjeća);sve igre
+rijec-kosulja.mp3;zvuk;—;izgovor: „košulja”;sve igre
+rijec-hlace.png;slika;512×512;hlače — trousers (Odjeća);sve igre
+rijec-hlace.mp3;zvuk;—;izgovor: „hlače”;sve igre
+rijec-traperice.png;slika;512×512;traperice — jeans (Odjeća);sve igre
+rijec-traperice.mp3;zvuk;—;izgovor: „traperice”;sve igre
+rijec-suknja.png;slika;512×512;suknja — skirt (Odjeća);sve igre
+rijec-suknja.mp3;zvuk;—;izgovor: „suknja”;sve igre
+rijec-haljina.png;slika;512×512;haljina — dress (Odjeća);sve igre
+rijec-haljina.mp3;zvuk;—;izgovor: „haljina”;sve igre
+rijec-jakna.png;slika;512×512;jakna — jacket (Odjeća);sve igre
+rijec-jakna.mp3;zvuk;—;izgovor: „jakna”;sve igre
+rijec-kaput.png;slika;512×512;kaput — coat (Odjeća);sve igre
+rijec-kaput.mp3;zvuk;—;izgovor: „kaput”;sve igre
+rijec-dzemper.png;slika;512×512;džemper — sweater (Odjeća);sve igre
+rijec-dzemper.mp3;zvuk;—;izgovor: „džemper”;sve igre
+rijec-carapa.png;slika;512×512;čarapa — sock (Odjeća);sve igre
+rijec-carapa.mp3;zvuk;—;izgovor: „čarapa”;sve igre
+rijec-rukavica.png;slika;512×512;rukavica — glove (Odjeća);sve igre
+rijec-rukavica.mp3;zvuk;—;izgovor: „rukavica”;sve igre
+rijec-kapa.png;slika;512×512;kapa — cap (Odjeća);sve igre
+rijec-kapa.mp3;zvuk;—;izgovor: „kapa”;sve igre
+rijec-tenisice.png;slika;512×512;tenisice — sneakers (Odjeća);sve igre
+rijec-tenisice.mp3;zvuk;—;izgovor: „tenisice”;sve igre
+rijec-cizma.png;slika;512×512;čizma — boot (Odjeća);sve igre
+rijec-cizma.mp3;zvuk;—;izgovor: „čizma”;sve igre
+rijec-papuca.png;slika;512×512;papuča — slipper (Odjeća);sve igre
+rijec-papuca.mp3;zvuk;—;izgovor: „papuča”;sve igre
+rijec-odijelo.png;slika;512×512;odijelo — suit (Odjeća);sve igre
+rijec-odijelo.mp3;zvuk;—;izgovor: „odijelo”;sve igre
+rijec-kravata.png;slika;512×512;kravata — tie (Odjeća);sve igre
+rijec-kravata.mp3;zvuk;—;izgovor: „kravata”;sve igre
+rijec-pojas.png;slika;512×512;pojas — belt (Odjeća);sve igre
+rijec-pojas.mp3;zvuk;—;izgovor: „pojas”;sve igre
+rijec-kupaci.png;slika;512×512;kupaći — swimsuit (Odjeća);sve igre
+rijec-kupaci.mp3;zvuk;—;izgovor: „kupaći”;sve igre
+rijec-pidzama.png;slika;512×512;pidžama — pyjamas (Odjeća);sve igre
+rijec-pidzama.mp3;zvuk;—;izgovor: „pidžama”;sve igre
+rijec-nausnica.png;slika;512×512;naušnica — earring (Odjeća);sve igre
+rijec-nausnica.mp3;zvuk;—;izgovor: „naušnica”;sve igre
+rijec-prsten.png;slika;512×512;prsten — ring (Odjeća);sve igre
+rijec-prsten.mp3;zvuk;—;izgovor: „prsten”;sve igre
+rijec-odjeca.png;slika;512×512;odjeća — clothes (Odjeća);sve igre
+rijec-odjeca.mp3;zvuk;—;izgovor: „odjeća”;sve igre
+rijec-velicina.png;slika;512×512;veličina — size (Odjeća);sve igre
+rijec-velicina.mp3;zvuk;—;izgovor: „veličina”;sve igre
+rijec-dzep.png;slika;512×512;džep — pocket (Odjeća);sve igre
+rijec-dzep.mp3;zvuk;—;izgovor: „džep”;sve igre
+rijec-gumb.png;slika;512×512;gumb — button (Odjeća);sve igre
+rijec-gumb.mp3;zvuk;—;izgovor: „gumb”;sve igre
+rijec-cvijece.png;slika;512×512;cvijeće — flowers (Priroda);sve igre
+rijec-cvijece.mp3;zvuk;—;izgovor: „cvijeće”;sve igre
+rijec-more.png;slika;512×512;more — sea (Priroda);sve igre
+rijec-more.mp3;zvuk;—;izgovor: „more”;sve igre
+rijec-sunce.png;slika;512×512;sunce — sun (Priroda);sve igre
+rijec-sunce.mp3;zvuk;—;izgovor: „sunce”;sve igre
+rijec-nebo.png;slika;512×512;nebo — sky (Priroda);sve igre
+rijec-nebo.mp3;zvuk;—;izgovor: „nebo”;sve igre
+rijec-drvo.png;slika;512×512;drvo — tree (Priroda);sve igre
+rijec-drvo.mp3;zvuk;—;izgovor: „drvo”;sve igre
+rijec-rijeka.png;slika;512×512;rijeka — river (Priroda);sve igre
+rijec-rijeka.mp3;zvuk;—;izgovor: „rijeka”;sve igre
+rijec-kisa.png;slika;512×512;kiša — rain (Priroda);sve igre
+rijec-kisa.mp3;zvuk;—;izgovor: „kiša”;sve igre
+rijec-zvijezda.png;slika;512×512;zvijezda — star (Priroda);sve igre
+rijec-zvijezda.mp3;zvuk;—;izgovor: „zvijezda”;sve igre
+rijec-otok.png;slika;512×512;otok — island (Priroda);sve igre
+rijec-otok.mp3;zvuk;—;izgovor: „otok”;sve igre
+rijec-planina.png;slika;512×512;planina — mountain (Priroda);sve igre
+rijec-planina.mp3;zvuk;—;izgovor: „planina”;sve igre
+rijec-brdo.png;slika;512×512;brdo — hill (Priroda);sve igre
+rijec-brdo.mp3;zvuk;—;izgovor: „brdo”;sve igre
+rijec-suma.png;slika;512×512;šuma — forest (Priroda);sve igre
+rijec-suma.mp3;zvuk;—;izgovor: „šuma”;sve igre
+rijec-jezero.png;slika;512×512;jezero — lake (Priroda);sve igre
+rijec-jezero.mp3;zvuk;—;izgovor: „jezero”;sve igre
+rijec-polje.png;slika;512×512;polje — field (Priroda);sve igre
+rijec-polje.mp3;zvuk;—;izgovor: „polje”;sve igre
+rijec-livada.png;slika;512×512;livada — meadow (Priroda);sve igre
+rijec-livada.mp3;zvuk;—;izgovor: „livada”;sve igre
+rijec-cvijet.png;slika;512×512;cvijet — flower (Priroda);sve igre
+rijec-cvijet.mp3;zvuk;—;izgovor: „cvijet”;sve igre
+rijec-list.png;slika;512×512;list — leaf (Priroda);sve igre
+rijec-list.mp3;zvuk;—;izgovor: „list”;sve igre
+rijec-trava.png;slika;512×512;trava — grass (Priroda);sve igre
+rijec-trava.mp3;zvuk;—;izgovor: „trava”;sve igre
+rijec-grana.png;slika;512×512;grana — branch (Priroda);sve igre
+rijec-grana.mp3;zvuk;—;izgovor: „grana”;sve igre
+rijec-korijen.png;slika;512×512;korijen — root (Priroda);sve igre
+rijec-korijen.mp3;zvuk;—;izgovor: „korijen”;sve igre
+rijec-oblak.png;slika;512×512;oblak — cloud (Priroda);sve igre
+rijec-oblak.mp3;zvuk;—;izgovor: „oblak”;sve igre
+rijec-vjetar.png;slika;512×512;vjetar — wind (Priroda);sve igre
+rijec-vjetar.mp3;zvuk;—;izgovor: „vjetar”;sve igre
+rijec-snijeg.png;slika;512×512;snijeg — snow (Priroda);sve igre
+rijec-snijeg.mp3;zvuk;—;izgovor: „snijeg”;sve igre
+rijec-munja.png;slika;512×512;munja — lightning (Priroda);sve igre
+rijec-munja.mp3;zvuk;—;izgovor: „munja”;sve igre
+rijec-grom.png;slika;512×512;grom — thunder (Priroda);sve igre
+rijec-grom.mp3;zvuk;—;izgovor: „grom”;sve igre
+rijec-magla.png;slika;512×512;magla — fog (Priroda);sve igre
+rijec-magla.mp3;zvuk;—;izgovor: „magla”;sve igre
+rijec-duga.png;slika;512×512;duga — rainbow (Priroda);sve igre
+rijec-duga.mp3;zvuk;—;izgovor: „duga”;sve igre
+rijec-val.png;slika;512×512;val — wave (Priroda);sve igre
+rijec-val.mp3;zvuk;—;izgovor: „val”;sve igre
+rijec-pijesak.png;slika;512×512;pijesak — sand (Priroda);sve igre
+rijec-pijesak.mp3;zvuk;—;izgovor: „pijesak”;sve igre
+rijec-kamen.png;slika;512×512;kamen — stone (Priroda);sve igre
+rijec-kamen.mp3;zvuk;—;izgovor: „kamen”;sve igre
+rijec-zemlja.png;slika;512×512;zemlja — earth (Priroda);sve igre
+rijec-zemlja.mp3;zvuk;—;izgovor: „zemlja”;sve igre
+rijec-vatra.png;slika;512×512;vatra — fire (Priroda);sve igre
+rijec-vatra.mp3;zvuk;—;izgovor: „vatra”;sve igre
+rijec-zrak.png;slika;512×512;zrak — air (Priroda);sve igre
+rijec-zrak.mp3;zvuk;—;izgovor: „zrak”;sve igre
+rijec-priroda.png;slika;512×512;priroda — nature (Priroda);sve igre
+rijec-priroda.mp3;zvuk;—;izgovor: „priroda”;sve igre
+rijec-spilja.png;slika;512×512;špilja — cave (Priroda);sve igre
+rijec-spilja.mp3;zvuk;—;izgovor: „špilja”;sve igre
+rijec-slap.png;slika;512×512;slap — waterfall (Priroda);sve igre
+rijec-slap.mp3;zvuk;—;izgovor: „slap”;sve igre
+rijec-izvor.png;slika;512×512;izvor — spring (Priroda);sve igre
+rijec-izvor.mp3;zvuk;—;izgovor: „izvor”;sve igre
+rijec-dolina.png;slika;512×512;dolina — valley (Priroda);sve igre
+rijec-dolina.mp3;zvuk;—;izgovor: „dolina”;sve igre
+rijec-obala.png;slika;512×512;obala — coast (Priroda);sve igre
+rijec-obala.mp3;zvuk;—;izgovor: „obala”;sve igre
+rijec-biljka.png;slika;512×512;biljka — plant (Priroda);sve igre
+rijec-biljka.mp3;zvuk;—;izgovor: „biljka”;sve igre
+rijec-sjeme.png;slika;512×512;sjeme — seed (Priroda);sve igre
+rijec-sjeme.mp3;zvuk;—;izgovor: „sjeme”;sve igre
+rijec-skoljka.png;slika;512×512;školjka — shell (Priroda);sve igre
+rijec-skoljka.mp3;zvuk;—;izgovor: „školjka”;sve igre
+rijec-koralj.png;slika;512×512;koralj — coral (Priroda);sve igre
+rijec-koralj.mp3;zvuk;—;izgovor: „koralj”;sve igre
+rijec-ruza.png;slika;512×512;ruža — rose (Priroda);sve igre
+rijec-ruza.mp3;zvuk;—;izgovor: „ruža”;sve igre
+rijec-potok.png;slika;512×512;potok — stream (Priroda);sve igre
+rijec-potok.mp3;zvuk;—;izgovor: „potok”;sve igre
+rijec-zima.png;slika;512×512;zima — winter (Vrijeme);sve igre
+rijec-zima.mp3;zvuk;—;izgovor: „zima”;sve igre
+rijec-ljeto.png;slika;512×512;ljeto — summer (Vrijeme);sve igre
+rijec-ljeto.mp3;zvuk;—;izgovor: „ljeto”;sve igre
+rijec-proljece.png;slika;512×512;proljeće — spring (Vrijeme);sve igre
+rijec-proljece.mp3;zvuk;—;izgovor: „proljeće”;sve igre
+rijec-jesen.png;slika;512×512;jesen — autumn (Vrijeme);sve igre
+rijec-jesen.mp3;zvuk;—;izgovor: „jesen”;sve igre
+rijec-dan.png;slika;512×512;dan — day (Vrijeme);sve igre
+rijec-dan.mp3;zvuk;—;izgovor: „dan”;sve igre
+rijec-jutro.png;slika;512×512;jutro — morning (Vrijeme);sve igre
+rijec-jutro.mp3;zvuk;—;izgovor: „jutro”;sve igre
+rijec-vecer.png;slika;512×512;večer — evening (Vrijeme);sve igre
+rijec-vecer.mp3;zvuk;—;izgovor: „večer”;sve igre
+rijec-noc.png;slika;512×512;noć — night (Vrijeme);sve igre
+rijec-noc.mp3;zvuk;—;izgovor: „noć”;sve igre
+rijec-podne.png;slika;512×512;podne — noon (Vrijeme);sve igre
+rijec-podne.mp3;zvuk;—;izgovor: „podne”;sve igre
+rijec-ponoc.png;slika;512×512;ponoć — midnight (Vrijeme);sve igre
+rijec-ponoc.mp3;zvuk;—;izgovor: „ponoć”;sve igre
+rijec-sat.png;slika;512×512;sat — hour (Vrijeme);sve igre
+rijec-sat.mp3;zvuk;—;izgovor: „sat”;sve igre
+rijec-minuta.png;slika;512×512;minuta — minute (Vrijeme);sve igre
+rijec-minuta.mp3;zvuk;—;izgovor: „minuta”;sve igre
+rijec-sekunda.png;slika;512×512;sekunda — second (Vrijeme);sve igre
+rijec-sekunda.mp3;zvuk;—;izgovor: „sekunda”;sve igre
+rijec-godina.png;slika;512×512;godina — year (Vrijeme);sve igre
+rijec-godina.mp3;zvuk;—;izgovor: „godina”;sve igre
+rijec-mjesec.png;slika;512×512;mjesec — month (Vrijeme);sve igre
+rijec-mjesec.mp3;zvuk;—;izgovor: „mjesec”;sve igre
+rijec-tjedan.png;slika;512×512;tjedan — week (Vrijeme);sve igre
+rijec-tjedan.mp3;zvuk;—;izgovor: „tjedan”;sve igre
+rijec-vikend.png;slika;512×512;vikend — weekend (Vrijeme);sve igre
+rijec-vikend.mp3;zvuk;—;izgovor: „vikend”;sve igre
+rijec-ponedjeljak.png;slika;512×512;ponedjeljak — Monday (Vrijeme);sve igre
+rijec-ponedjeljak.mp3;zvuk;—;izgovor: „ponedjeljak”;sve igre
+rijec-utorak.png;slika;512×512;utorak — Tuesday (Vrijeme);sve igre
+rijec-utorak.mp3;zvuk;—;izgovor: „utorak”;sve igre
+rijec-srijeda.png;slika;512×512;srijeda — Wednesday (Vrijeme);sve igre
+rijec-srijeda.mp3;zvuk;—;izgovor: „srijeda”;sve igre
+rijec-cetvrtak.png;slika;512×512;četvrtak — Thursday (Vrijeme);sve igre
+rijec-cetvrtak.mp3;zvuk;—;izgovor: „četvrtak”;sve igre
+rijec-petak.png;slika;512×512;petak — Friday (Vrijeme);sve igre
+rijec-petak.mp3;zvuk;—;izgovor: „petak”;sve igre
+rijec-subota.png;slika;512×512;subota — Saturday (Vrijeme);sve igre
+rijec-subota.mp3;zvuk;—;izgovor: „subota”;sve igre
+rijec-nedjelja.png;slika;512×512;nedjelja — Sunday (Vrijeme);sve igre
+rijec-nedjelja.mp3;zvuk;—;izgovor: „nedjelja”;sve igre
+rijec-sijecanj.png;slika;512×512;siječanj — January (Vrijeme);sve igre
+rijec-sijecanj.mp3;zvuk;—;izgovor: „siječanj”;sve igre
+rijec-travanj.png;slika;512×512;travanj — April (Vrijeme);sve igre
+rijec-travanj.mp3;zvuk;—;izgovor: „travanj”;sve igre
+rijec-srpanj.png;slika;512×512;srpanj — July (Vrijeme);sve igre
+rijec-srpanj.mp3;zvuk;—;izgovor: „srpanj”;sve igre
+rijec-listopad.png;slika;512×512;listopad — October (Vrijeme);sve igre
+rijec-listopad.mp3;zvuk;—;izgovor: „listopad”;sve igre
+rijec-prosinac.png;slika;512×512;prosinac — December (Vrijeme);sve igre
+rijec-prosinac.mp3;zvuk;—;izgovor: „prosinac”;sve igre
+rijec-rodendan.png;slika;512×512;rođendan — birthday (Vrijeme);sve igre
+rijec-rodendan.mp3;zvuk;—;izgovor: „rođendan”;sve igre
+rijec-praznik.png;slika;512×512;praznik — holiday (Vrijeme);sve igre
+rijec-praznik.mp3;zvuk;—;izgovor: „praznik”;sve igre
+rijec-odmor.png;slika;512×512;odmor — rest (Vrijeme);sve igre
+rijec-odmor.mp3;zvuk;—;izgovor: „odmor”;sve igre
+rijec-datum.png;slika;512×512;datum — date (Vrijeme);sve igre
+rijec-datum.mp3;zvuk;—;izgovor: „datum”;sve igre
+rijec-raspored.png;slika;512×512;raspored — schedule (Vrijeme);sve igre
+rijec-raspored.mp3;zvuk;—;izgovor: „raspored”;sve igre
+rijec-zora.png;slika;512×512;zora — dawn (Vrijeme);sve igre
+rijec-zora.mp3;zvuk;—;izgovor: „zora”;sve igre
+rijec-sumrak.png;slika;512×512;sumrak — dusk (Vrijeme);sve igre
+rijec-sumrak.mp3;zvuk;—;izgovor: „sumrak”;sve igre
+rijec-trenutak.png;slika;512×512;trenutak — moment (Vrijeme);sve igre
+rijec-trenutak.mp3;zvuk;—;izgovor: „trenutak”;sve igre
+rijec-buducnost.png;slika;512×512;budućnost — future (Vrijeme);sve igre
+rijec-buducnost.mp3;zvuk;—;izgovor: „budućnost”;sve igre
+rijec-proslost.png;slika;512×512;prošlost — past (Vrijeme);sve igre
+rijec-proslost.mp3;zvuk;—;izgovor: „prošlost”;sve igre
+rijec-stoljece.png;slika;512×512;stoljeće — century (Vrijeme);sve igre
+rijec-stoljece.mp3;zvuk;—;izgovor: „stoljeće”;sve igre
+rijec-nos.png;slika;512×512;nos — nose (Tijelo);sve igre
+rijec-nos.mp3;zvuk;—;izgovor: „nos”;sve igre
+rijec-oko.png;slika;512×512;oko — eye (Tijelo);sve igre
+rijec-oko.mp3;zvuk;—;izgovor: „oko”;sve igre
+rijec-uho.png;slika;512×512;uho — ear (Tijelo);sve igre
+rijec-uho.mp3;zvuk;—;izgovor: „uho”;sve igre
+rijec-glava.png;slika;512×512;glava — head (Tijelo);sve igre
+rijec-glava.mp3;zvuk;—;izgovor: „glava”;sve igre
+rijec-kosa.png;slika;512×512;kosa — hair (Tijelo);sve igre
+rijec-kosa.mp3;zvuk;—;izgovor: „kosa”;sve igre
+rijec-lice.png;slika;512×512;lice — face (Tijelo);sve igre
+rijec-lice.mp3;zvuk;—;izgovor: „lice”;sve igre
+rijec-usta.png;slika;512×512;usta — mouth (Tijelo);sve igre
+rijec-usta.mp3;zvuk;—;izgovor: „usta”;sve igre
+rijec-zub.png;slika;512×512;zub — tooth (Tijelo);sve igre
+rijec-zub.mp3;zvuk;—;izgovor: „zub”;sve igre
+rijec-jezik.png;slika;512×512;jezik — tongue (Tijelo);sve igre
+rijec-jezik.mp3;zvuk;—;izgovor: „jezik”;sve igre
+rijec-vrat.png;slika;512×512;vrat — neck (Tijelo);sve igre
+rijec-vrat.mp3;zvuk;—;izgovor: „vrat”;sve igre
+rijec-rame.png;slika;512×512;rame — shoulder (Tijelo);sve igre
+rijec-rame.mp3;zvuk;—;izgovor: „rame”;sve igre
+rijec-ruka.png;slika;512×512;ruka — hand (Tijelo);sve igre
+rijec-ruka.mp3;zvuk;—;izgovor: „ruka”;sve igre
+rijec-prst.png;slika;512×512;prst — finger (Tijelo);sve igre
+rijec-prst.mp3;zvuk;—;izgovor: „prst”;sve igre
+rijec-noga.png;slika;512×512;noga — leg (Tijelo);sve igre
+rijec-noga.mp3;zvuk;—;izgovor: „noga”;sve igre
+rijec-stopalo.png;slika;512×512;stopalo — foot (Tijelo);sve igre
+rijec-stopalo.mp3;zvuk;—;izgovor: „stopalo”;sve igre
+rijec-koljeno.png;slika;512×512;koljeno — knee (Tijelo);sve igre
+rijec-koljeno.mp3;zvuk;—;izgovor: „koljeno”;sve igre
+rijec-leda.png;slika;512×512;leđa — back (Tijelo);sve igre
+rijec-leda.mp3;zvuk;—;izgovor: „leđa”;sve igre
+rijec-trbuh.png;slika;512×512;trbuh — belly (Tijelo);sve igre
+rijec-trbuh.mp3;zvuk;—;izgovor: „trbuh”;sve igre
+rijec-srce.png;slika;512×512;srce — heart (Tijelo);sve igre
+rijec-srce.mp3;zvuk;—;izgovor: „srce”;sve igre
+rijec-mozak.png;slika;512×512;mozak — brain (Tijelo);sve igre
+rijec-mozak.mp3;zvuk;—;izgovor: „mozak”;sve igre
+rijec-krv.png;slika;512×512;krv — blood (Tijelo);sve igre
+rijec-krv.mp3;zvuk;—;izgovor: „krv”;sve igre
+rijec-kost.png;slika;512×512;kost — bone (Tijelo);sve igre
+rijec-kost.mp3;zvuk;—;izgovor: „kost”;sve igre
+rijec-koza-tijelo.png;slika;512×512;koža — skin (Tijelo);sve igre
+rijec-koza-tijelo.mp3;zvuk;—;izgovor: „koža”;sve igre
+rijec-misic.png;slika;512×512;mišić — muscle (Tijelo);sve igre
+rijec-misic.mp3;zvuk;—;izgovor: „mišić”;sve igre
+rijec-pluca.png;slika;512×512;pluća — lungs (Tijelo);sve igre
+rijec-pluca.mp3;zvuk;—;izgovor: „pluća”;sve igre
+rijec-grlo.png;slika;512×512;grlo — throat (Tijelo);sve igre
+rijec-grlo.mp3;zvuk;—;izgovor: „grlo”;sve igre
+rijec-obrva.png;slika;512×512;obrva — eyebrow (Tijelo);sve igre
+rijec-obrva.mp3;zvuk;—;izgovor: „obrva”;sve igre
+rijec-brada.png;slika;512×512;brada — chin (Tijelo);sve igre
+rijec-brada.mp3;zvuk;—;izgovor: „brada”;sve igre
+rijec-tijelo.png;slika;512×512;tijelo — body (Tijelo);sve igre
+rijec-tijelo.mp3;zvuk;—;izgovor: „tijelo”;sve igre
+rijec-zdravlje.png;slika;512×512;zdravlje — health (Tijelo);sve igre
+rijec-zdravlje.mp3;zvuk;—;izgovor: „zdravlje”;sve igre
+rijec-ljubav.png;slika;512×512;ljubav — love (Osjećaji);sve igre
+rijec-ljubav.mp3;zvuk;—;izgovor: „ljubav”;sve igre
+rijec-sreca.png;slika;512×512;sreća — happiness (Osjećaji);sve igre
+rijec-sreca.mp3;zvuk;—;izgovor: „sreća”;sve igre
+rijec-tuga.png;slika;512×512;tuga — sadness (Osjećaji);sve igre
+rijec-tuga.mp3;zvuk;—;izgovor: „tuga”;sve igre
+rijec-strah.png;slika;512×512;strah — fear (Osjećaji);sve igre
+rijec-strah.mp3;zvuk;—;izgovor: „strah”;sve igre
+rijec-ljutnja.png;slika;512×512;ljutnja — anger (Osjećaji);sve igre
+rijec-ljutnja.mp3;zvuk;—;izgovor: „ljutnja”;sve igre
+rijec-radost.png;slika;512×512;radost — joy (Osjećaji);sve igre
+rijec-radost.mp3;zvuk;—;izgovor: „radost”;sve igre
+rijec-briga.png;slika;512×512;briga — worry (Osjećaji);sve igre
+rijec-briga.mp3;zvuk;—;izgovor: „briga”;sve igre
+rijec-nada.png;slika;512×512;nada — hope (Osjećaji);sve igre
+rijec-nada.mp3;zvuk;—;izgovor: „nada”;sve igre
+rijec-zelja.png;slika;512×512;želja — wish (Osjećaji);sve igre
+rijec-zelja.mp3;zvuk;—;izgovor: „želja”;sve igre
+rijec-osjecaj.png;slika;512×512;osjećaj — feeling (Osjećaji);sve igre
+rijec-osjecaj.mp3;zvuk;—;izgovor: „osjećaj”;sve igre
+rijec-misao.png;slika;512×512;misao — thought (Osjećaji);sve igre
+rijec-misao.mp3;zvuk;—;izgovor: „misao”;sve igre
+rijec-san.png;slika;512×512;san — dream (Osjećaji);sve igre
+rijec-san.mp3;zvuk;—;izgovor: „san”;sve igre
+rijec-umor.png;slika;512×512;umor — tiredness (Osjećaji);sve igre
+rijec-umor.mp3;zvuk;—;izgovor: „umor”;sve igre
+rijec-dosada.png;slika;512×512;dosada — boredom (Osjećaji);sve igre
+rijec-dosada.mp3;zvuk;—;izgovor: „dosada”;sve igre
+rijec-iznenadenje.png;slika;512×512;iznenađenje — surprise (Osjećaji);sve igre
+rijec-iznenadenje.mp3;zvuk;—;izgovor: „iznenađenje”;sve igre
+rijec-ponos.png;slika;512×512;ponos — pride (Osjećaji);sve igre
+rijec-ponos.mp3;zvuk;—;izgovor: „ponos”;sve igre
+rijec-sram.png;slika;512×512;sram — shame (Osjećaji);sve igre
+rijec-sram.mp3;zvuk;—;izgovor: „sram”;sve igre
+rijec-hrabrost.png;slika;512×512;hrabrost — courage (Osjećaji);sve igre
+rijec-hrabrost.mp3;zvuk;—;izgovor: „hrabrost”;sve igre
+rijec-mir.png;slika;512×512;mir — peace (Osjećaji);sve igre
+rijec-mir.mp3;zvuk;—;izgovor: „mir”;sve igre
+rijec-smijeh.png;slika;512×512;smijeh — laughter (Osjećaji);sve igre
+rijec-smijeh.mp3;zvuk;—;izgovor: „smijeh”;sve igre
+rijec-suza.png;slika;512×512;suza — tear (Osjećaji);sve igre
+rijec-suza.mp3;zvuk;—;izgovor: „suza”;sve igre
+rijec-zagrljaj.png;slika;512×512;zagrljaj — hug (Osjećaji);sve igre
+rijec-zagrljaj.mp3;zvuk;—;izgovor: „zagrljaj”;sve igre
+rijec-poljubac.png;slika;512×512;poljubac — kiss (Osjećaji);sve igre
+rijec-poljubac.mp3;zvuk;—;izgovor: „poljubac”;sve igre
+rijec-prijateljstvo.png;slika;512×512;prijateljstvo — friendship (Osjećaji);sve igre
+rijec-prijateljstvo.mp3;zvuk;—;izgovor: „prijateljstvo”;sve igre
+rijec-strpljenje.png;slika;512×512;strpljenje — patience (Osjećaji);sve igre
+rijec-strpljenje.mp3;zvuk;—;izgovor: „strpljenje”;sve igre
+rijec-posao.png;slika;512×512;posao — job (Zanimanja);sve igre
+rijec-posao.mp3;zvuk;—;izgovor: „posao”;sve igre
+rijec-pekar.png;slika;512×512;pekar — baker (Zanimanja);sve igre
+rijec-pekar.mp3;zvuk;—;izgovor: „pekar”;sve igre
+rijec-kuhar.png;slika;512×512;kuhar — cook (Zanimanja);sve igre
+rijec-kuhar.mp3;zvuk;—;izgovor: „kuhar”;sve igre
+rijec-konobar.png;slika;512×512;konobar — waiter (Zanimanja);sve igre
+rijec-konobar.mp3;zvuk;—;izgovor: „konobar”;sve igre
+rijec-vozac.png;slika;512×512;vozač — driver (Zanimanja);sve igre
+rijec-vozac.mp3;zvuk;—;izgovor: „vozač”;sve igre
+rijec-doktor.png;slika;512×512;doktor — doctor (Zanimanja);sve igre
+rijec-doktor.mp3;zvuk;—;izgovor: „doktor”;sve igre
+rijec-medicinska-sestra.png;slika;512×512;medicinska sestra — nurse (Zanimanja);sve igre
+rijec-medicinska-sestra.mp3;zvuk;—;izgovor: „medicinska sestra”;sve igre
+rijec-inzenjer.png;slika;512×512;inženjer — engineer (Zanimanja);sve igre
+rijec-inzenjer.mp3;zvuk;—;izgovor: „inženjer”;sve igre
+rijec-programer.png;slika;512×512;programer — programmer (Zanimanja);sve igre
+rijec-programer.mp3;zvuk;—;izgovor: „programer”;sve igre
+rijec-novinar.png;slika;512×512;novinar — journalist (Zanimanja);sve igre
+rijec-novinar.mp3;zvuk;—;izgovor: „novinar”;sve igre
+rijec-glumac.png;slika;512×512;glumac — actor (Zanimanja);sve igre
+rijec-glumac.mp3;zvuk;—;izgovor: „glumac”;sve igre
+rijec-pjevac.png;slika;512×512;pjevač — singer (Zanimanja);sve igre
+rijec-pjevac.mp3;zvuk;—;izgovor: „pjevač”;sve igre
+rijec-slikar.png;slika;512×512;slikar — painter (Zanimanja);sve igre
+rijec-slikar.mp3;zvuk;—;izgovor: „slikar”;sve igre
+rijec-pisac.png;slika;512×512;pisac — writer (Zanimanja);sve igre
+rijec-pisac.mp3;zvuk;—;izgovor: „pisac”;sve igre
+rijec-odvjetnik.png;slika;512×512;odvjetnik — lawyer (Zanimanja);sve igre
+rijec-odvjetnik.mp3;zvuk;—;izgovor: „odvjetnik”;sve igre
+rijec-frizer.png;slika;512×512;frizer — hairdresser (Zanimanja);sve igre
+rijec-frizer.mp3;zvuk;—;izgovor: „frizer”;sve igre
+rijec-prodavac.png;slika;512×512;prodavač — shop assistant (Zanimanja);sve igre
+rijec-prodavac.mp3;zvuk;—;izgovor: „prodavač”;sve igre
+rijec-vatrogasac.png;slika;512×512;vatrogasac — firefighter (Zanimanja);sve igre
+rijec-vatrogasac.mp3;zvuk;—;izgovor: „vatrogasac”;sve igre
+rijec-mehanicar.png;slika;512×512;mehaničar — mechanic (Zanimanja);sve igre
+rijec-mehanicar.mp3;zvuk;—;izgovor: „mehaničar”;sve igre
+rijec-seljak.png;slika;512×512;seljak — farmer (Zanimanja);sve igre
+rijec-seljak.mp3;zvuk;—;izgovor: „seljak”;sve igre
+rijec-ribar.png;slika;512×512;ribar — fisherman (Zanimanja);sve igre
+rijec-ribar.mp3;zvuk;—;izgovor: „ribar”;sve igre
+rijec-arhitekt.png;slika;512×512;arhitekt — architect (Zanimanja);sve igre
+rijec-arhitekt.mp3;zvuk;—;izgovor: „arhitekt”;sve igre
+rijec-znanstvenik.png;slika;512×512;znanstvenik — scientist (Zanimanja);sve igre
+rijec-znanstvenik.mp3;zvuk;—;izgovor: „znanstvenik”;sve igre
+rijec-vojnik.png;slika;512×512;vojnik — soldier (Zanimanja);sve igre
+rijec-vojnik.mp3;zvuk;—;izgovor: „vojnik”;sve igre
+rijec-pilot.png;slika;512×512;pilot — pilot (Zanimanja);sve igre
+rijec-pilot.mp3;zvuk;—;izgovor: „pilot”;sve igre
+rijec-kapetan.png;slika;512×512;kapetan — captain (Zanimanja);sve igre
+rijec-kapetan.mp3;zvuk;—;izgovor: „kapetan”;sve igre
+rijec-policajac.png;slika;512×512;policajac — police officer (Zanimanja);sve igre
+rijec-policajac.mp3;zvuk;—;izgovor: „policajac”;sve igre
+rijec-postar.png;slika;512×512;poštar — postman (Zanimanja);sve igre
+rijec-postar.mp3;zvuk;—;izgovor: „poštar”;sve igre
+rijec-placa.png;slika;512×512;plaća — salary (Zanimanja);sve igre
+rijec-placa.mp3;zvuk;—;izgovor: „plaća”;sve igre
+rijec-sastanak.png;slika;512×512;sastanak — meeting (Zanimanja);sve igre
+rijec-sastanak.mp3;zvuk;—;izgovor: „sastanak”;sve igre
+rijec-ugovor.png;slika;512×512;ugovor — contract (Zanimanja);sve igre
+rijec-ugovor.mp3;zvuk;—;izgovor: „ugovor”;sve igre
+rijec-racunalo.png;slika;512×512;računalo — computer (Tehnika);sve igre
+rijec-racunalo.mp3;zvuk;—;izgovor: „računalo”;sve igre
+rijec-mobitel.png;slika;512×512;mobitel — mobile phone (Tehnika);sve igre
+rijec-mobitel.mp3;zvuk;—;izgovor: „mobitel”;sve igre
+rijec-ekran.png;slika;512×512;ekran — screen (Tehnika);sve igre
+rijec-ekran.mp3;zvuk;—;izgovor: „ekran”;sve igre
+rijec-tipkovnica.png;slika;512×512;tipkovnica — keyboard (Tehnika);sve igre
+rijec-tipkovnica.mp3;zvuk;—;izgovor: „tipkovnica”;sve igre
+rijec-racunalni-mis.png;slika;512×512;računalni miš — computer mouse (Tehnika);sve igre
+rijec-racunalni-mis.mp3;zvuk;—;izgovor: „računalni miš”;sve igre
+rijec-internet.png;slika;512×512;internet — internet (Tehnika);sve igre
+rijec-internet.mp3;zvuk;—;izgovor: „internet”;sve igre
+rijec-lozinka.png;slika;512×512;lozinka — password (Tehnika);sve igre
+rijec-lozinka.mp3;zvuk;—;izgovor: „lozinka”;sve igre
+rijec-poruka.png;slika;512×512;poruka — message (Tehnika);sve igre
+rijec-poruka.mp3;zvuk;—;izgovor: „poruka”;sve igre
+rijec-e-posta.png;slika;512×512;e-pošta — e-mail (Tehnika);sve igre
+rijec-e-posta.mp3;zvuk;—;izgovor: „e-pošta”;sve igre
+rijec-aplikacija.png;slika;512×512;aplikacija — app (Tehnika);sve igre
+rijec-aplikacija.mp3;zvuk;—;izgovor: „aplikacija”;sve igre
+rijec-igrica.png;slika;512×512;igrica — video game (Tehnika);sve igre
+rijec-igrica.mp3;zvuk;—;izgovor: „igrica”;sve igre
+rijec-televizor.png;slika;512×512;televizor — television (Tehnika);sve igre
+rijec-televizor.mp3;zvuk;—;izgovor: „televizor”;sve igre
+rijec-radio.png;slika;512×512;radio — radio (Tehnika);sve igre
+rijec-radio.mp3;zvuk;—;izgovor: „radio”;sve igre
+rijec-slusalice.png;slika;512×512;slušalice — headphones (Tehnika);sve igre
+rijec-slusalice.mp3;zvuk;—;izgovor: „slušalice”;sve igre
+rijec-zvucnik.png;slika;512×512;zvučnik — speaker (Tehnika);sve igre
+rijec-zvucnik.mp3;zvuk;—;izgovor: „zvučnik”;sve igre
+rijec-kamera.png;slika;512×512;kamera — camera (Tehnika);sve igre
+rijec-kamera.mp3;zvuk;—;izgovor: „kamera”;sve igre
+rijec-punjac.png;slika;512×512;punjač — charger (Tehnika);sve igre
+rijec-punjac.mp3;zvuk;—;izgovor: „punjač”;sve igre
+rijec-baterija.png;slika;512×512;baterija — battery (Tehnika);sve igre
+rijec-baterija.mp3;zvuk;—;izgovor: „baterija”;sve igre
+rijec-tipka.png;slika;512×512;tipka — button (Tehnika);sve igre
+rijec-tipka.mp3;zvuk;—;izgovor: „tipka”;sve igre
+rijec-datoteka.png;slika;512×512;datoteka — file (Tehnika);sve igre
+rijec-datoteka.mp3;zvuk;—;izgovor: „datoteka”;sve igre
+rijec-video.png;slika;512×512;video — video (Tehnika);sve igre
+rijec-video.mp3;zvuk;—;izgovor: „video”;sve igre
+rijec-snimka.png;slika;512×512;snimka — recording (Tehnika);sve igre
+rijec-snimka.mp3;zvuk;—;izgovor: „snimka”;sve igre
+rijec-struja.png;slika;512×512;struja — electricity (Tehnika);sve igre
+rijec-struja.mp3;zvuk;—;izgovor: „struja”;sve igre
+rijec-put.png;slika;512×512;put — trip (Putovanje);sve igre
+rijec-put.mp3;zvuk;—;izgovor: „put”;sve igre
+rijec-putovnica.png;slika;512×512;putovnica — passport (Putovanje);sve igre
+rijec-putovnica.mp3;zvuk;—;izgovor: „putovnica”;sve igre
+rijec-prtljaga.png;slika;512×512;prtljaga — luggage (Putovanje);sve igre
+rijec-prtljaga.mp3;zvuk;—;izgovor: „prtljaga”;sve igre
+rijec-kofer.png;slika;512×512;kofer — suitcase (Putovanje);sve igre
+rijec-kofer.mp3;zvuk;—;izgovor: „kofer”;sve igre
+rijec-rezervacija.png;slika;512×512;rezervacija — reservation (Putovanje);sve igre
+rijec-rezervacija.mp3;zvuk;—;izgovor: „rezervacija”;sve igre
+rijec-smjestaj.png;slika;512×512;smještaj — accommodation (Putovanje);sve igre
+rijec-smjestaj.mp3;zvuk;—;izgovor: „smještaj”;sve igre
+rijec-recepcija.png;slika;512×512;recepcija — reception (Putovanje);sve igre
+rijec-recepcija.mp3;zvuk;—;izgovor: „recepcija”;sve igre
+rijec-vodic.png;slika;512×512;vodič — guide (Putovanje);sve igre
+rijec-vodic.mp3;zvuk;—;izgovor: „vodič”;sve igre
+rijec-izlet.png;slika;512×512;izlet — excursion (Putovanje);sve igre
+rijec-izlet.mp3;zvuk;—;izgovor: „izlet”;sve igre
+rijec-razgledavanje.png;slika;512×512;razgledavanje — sightseeing (Putovanje);sve igre
+rijec-razgledavanje.mp3;zvuk;—;izgovor: „razgledavanje”;sve igre
+rijec-suvenir.png;slika;512×512;suvenir — souvenir (Putovanje);sve igre
+rijec-suvenir.mp3;zvuk;—;izgovor: „suvenir”;sve igre
+rijec-kamp.png;slika;512×512;kamp — camp (Putovanje);sve igre
+rijec-kamp.mp3;zvuk;—;izgovor: „kamp”;sve igre
+rijec-sator.png;slika;512×512;šator — tent (Putovanje);sve igre
+rijec-sator.mp3;zvuk;—;izgovor: „šator”;sve igre
+rijec-plan.png;slika;512×512;plan — plan (Putovanje);sve igre
+rijec-plan.mp3;zvuk;—;izgovor: „plan”;sve igre
+rijec-odrediste.png;slika;512×512;odredište — destination (Putovanje);sve igre
+rijec-odrediste.mp3;zvuk;—;izgovor: „odredište”;sve igre
+rijec-polazak.png;slika;512×512;polazak — departure (Putovanje);sve igre
+rijec-polazak.mp3;zvuk;—;izgovor: „polazak”;sve igre
+rijec-dolazak.png;slika;512×512;dolazak — arrival (Putovanje);sve igre
+rijec-dolazak.mp3;zvuk;—;izgovor: „dolazak”;sve igre
+rijec-kasnjenje.png;slika;512×512;kašnjenje — delay (Putovanje);sve igre
+rijec-kasnjenje.mp3;zvuk;—;izgovor: „kašnjenje”;sve igre
+rijec-viza.png;slika;512×512;viza — visa (Putovanje);sve igre
+rijec-viza.mp3;zvuk;—;izgovor: „viza”;sve igre
+rijec-osiguranje.png;slika;512×512;osiguranje — insurance (Putovanje);sve igre
+rijec-osiguranje.mp3;zvuk;—;izgovor: „osiguranje”;sve igre
+rijec-razglednica.png;slika;512×512;razglednica — postcard (Putovanje);sve igre
+rijec-razglednica.mp3;zvuk;—;izgovor: „razglednica”;sve igre
+rijec-fotografija.png;slika;512×512;fotografija — photograph (Putovanje);sve igre
+rijec-fotografija.mp3;zvuk;—;izgovor: „fotografija”;sve igre
+rijec-avantura.png;slika;512×512;avantura — adventure (Putovanje);sve igre
+rijec-avantura.mp3;zvuk;—;izgovor: „avantura”;sve igre
+rijec-prijevod.png;slika;512×512;prijevod — translation (Putovanje);sve igre
+rijec-prijevod.mp3;zvuk;—;izgovor: „prijevod”;sve igre
+rijec-citati.png;slika;512×512;čitati — to read (Glagoli);sve igre
+rijec-citati.mp3;zvuk;—;izgovor: „čitati”;sve igre
+rijec-pisati.png;slika;512×512;pisati — to write (Glagoli);sve igre
+rijec-pisati.mp3;zvuk;—;izgovor: „pisati”;sve igre
+rijec-raditi.png;slika;512×512;raditi — to work (Glagoli);sve igre
+rijec-raditi.mp3;zvuk;—;izgovor: „raditi”;sve igre
+rijec-uciti.png;slika;512×512;učiti — to study (Glagoli);sve igre
+rijec-uciti.mp3;zvuk;—;izgovor: „učiti”;sve igre
+rijec-piti.png;slika;512×512;piti — to drink (Glagoli);sve igre
+rijec-piti.mp3;zvuk;—;izgovor: „piti”;sve igre
+rijec-jesti.png;slika;512×512;jesti — to eat (Glagoli);sve igre
+rijec-jesti.mp3;zvuk;—;izgovor: „jesti”;sve igre
+rijec-gledati.png;slika;512×512;gledati — to watch (Glagoli);sve igre
+rijec-gledati.mp3;zvuk;—;izgovor: „gledati”;sve igre
+rijec-slusati.png;slika;512×512;slušati — to listen (Glagoli);sve igre
+rijec-slusati.mp3;zvuk;—;izgovor: „slušati”;sve igre
+rijec-spavati.png;slika;512×512;spavati — to sleep (Glagoli);sve igre
+rijec-spavati.mp3;zvuk;—;izgovor: „spavati”;sve igre
+rijec-kuhati.png;slika;512×512;kuhati — to cook (Glagoli);sve igre
+rijec-kuhati.mp3;zvuk;—;izgovor: „kuhati”;sve igre
+rijec-pjevati.png;slika;512×512;pjevati — to sing (Glagoli);sve igre
+rijec-pjevati.mp3;zvuk;—;izgovor: „pjevati”;sve igre
+rijec-igrati.png;slika;512×512;igrati — to play (Glagoli);sve igre
+rijec-igrati.mp3;zvuk;—;izgovor: „igrati”;sve igre
+rijec-svirati.png;slika;512×512;svirati — to play music (Glagoli);sve igre
+rijec-svirati.mp3;zvuk;—;izgovor: „svirati”;sve igre
+rijec-plivati.png;slika;512×512;plivati — to swim (Glagoli);sve igre
+rijec-plivati.mp3;zvuk;—;izgovor: „plivati”;sve igre
+rijec-trcati.png;slika;512×512;trčati — to run (Glagoli);sve igre
+rijec-trcati.mp3;zvuk;—;izgovor: „trčati”;sve igre
+rijec-hodati.png;slika;512×512;hodati — to walk (Glagoli);sve igre
+rijec-hodati.mp3;zvuk;—;izgovor: „hodati”;sve igre
+rijec-putovati.png;slika;512×512;putovati — to travel (Glagoli);sve igre
+rijec-putovati.mp3;zvuk;—;izgovor: „putovati”;sve igre
+rijec-voziti.png;slika;512×512;voziti — to drive (Glagoli);sve igre
+rijec-voziti.mp3;zvuk;—;izgovor: „voziti”;sve igre
+rijec-cekati.png;slika;512×512;čekati — to wait (Glagoli);sve igre
+rijec-cekati.mp3;zvuk;—;izgovor: „čekati”;sve igre
+rijec-vidjeti.png;slika;512×512;vidjeti — to see (Glagoli);sve igre
+rijec-vidjeti.mp3;zvuk;—;izgovor: „vidjeti”;sve igre
+rijec-kupovati.png;slika;512×512;kupovati — to buy (Glagoli);sve igre
+rijec-kupovati.mp3;zvuk;—;izgovor: „kupovati”;sve igre
+rijec-slati.png;slika;512×512;slati — to send (Glagoli);sve igre
+rijec-slati.mp3;zvuk;—;izgovor: „slati”;sve igre
+rijec-nositi.png;slika;512×512;nositi — to carry (Glagoli);sve igre
+rijec-nositi.mp3;zvuk;—;izgovor: „nositi”;sve igre
+rijec-zivjeti.png;slika;512×512;živjeti — to live (Glagoli);sve igre
+rijec-zivjeti.mp3;zvuk;—;izgovor: „živjeti”;sve igre
+rijec-znati.png;slika;512×512;znati — to know (Glagoli);sve igre
+rijec-znati.mp3;zvuk;—;izgovor: „znati”;sve igre
+rijec-imati.png;slika;512×512;imati — to have (Glagoli);sve igre
+rijec-imati.mp3;zvuk;—;izgovor: „imati”;sve igre
+rijec-misliti.png;slika;512×512;misliti — to think (Glagoli);sve igre
+rijec-misliti.mp3;zvuk;—;izgovor: „misliti”;sve igre
+rijec-birati.png;slika;512×512;birati — to choose (Glagoli);sve igre
+rijec-birati.mp3;zvuk;—;izgovor: „birati”;sve igre
+rijec-naruciti.png;slika;512×512;naručiti — to order (Glagoli);sve igre
+rijec-naruciti.mp3;zvuk;—;izgovor: „naručiti”;sve igre
+rijec-sjediti.png;slika;512×512;sjediti — to sit (Glagoli);sve igre
+rijec-sjediti.mp3;zvuk;—;izgovor: „sjediti”;sve igre
+rijec-govoriti.png;slika;512×512;govoriti — to speak (Glagoli);sve igre
+rijec-govoriti.mp3;zvuk;—;izgovor: „govoriti”;sve igre
+rijec-razumjeti.png;slika;512×512;razumjeti — to understand (Glagoli);sve igre
+rijec-razumjeti.mp3;zvuk;—;izgovor: „razumjeti”;sve igre
+rijec-pitati.png;slika;512×512;pitati — to ask (Glagoli);sve igre
+rijec-pitati.mp3;zvuk;—;izgovor: „pitati”;sve igre
+rijec-odgovoriti.png;slika;512×512;odgovoriti — to answer (Glagoli);sve igre
+rijec-odgovoriti.mp3;zvuk;—;izgovor: „odgovoriti”;sve igre
+rijec-otvoriti.png;slika;512×512;otvoriti — to open (Glagoli);sve igre
+rijec-otvoriti.mp3;zvuk;—;izgovor: „otvoriti”;sve igre
+rijec-zatvoriti.png;slika;512×512;zatvoriti — to close (Glagoli);sve igre
+rijec-zatvoriti.mp3;zvuk;—;izgovor: „zatvoriti”;sve igre
+rijec-uzeti.png;slika;512×512;uzeti — to take (Glagoli);sve igre
+rijec-uzeti.mp3;zvuk;—;izgovor: „uzeti”;sve igre
+rijec-dati.png;slika;512×512;dati — to give (Glagoli);sve igre
+rijec-dati.mp3;zvuk;—;izgovor: „dati”;sve igre
+rijec-staviti.png;slika;512×512;staviti — to put (Glagoli);sve igre
+rijec-staviti.mp3;zvuk;—;izgovor: „staviti”;sve igre
+rijec-traziti.png;slika;512×512;tražiti — to look for (Glagoli);sve igre
+rijec-traziti.mp3;zvuk;—;izgovor: „tražiti”;sve igre
+rijec-naci.png;slika;512×512;naći — to find (Glagoli);sve igre
+rijec-naci.mp3;zvuk;—;izgovor: „naći”;sve igre
+rijec-izgubiti.png;slika;512×512;izgubiti — to lose (Glagoli);sve igre
+rijec-izgubiti.mp3;zvuk;—;izgovor: „izgubiti”;sve igre
+rijec-pomoci.png;slika;512×512;pomoći — to help (Glagoli);sve igre
+rijec-pomoci.mp3;zvuk;—;izgovor: „pomoći”;sve igre
+rijec-prodati.png;slika;512×512;prodati — to sell (Glagoli);sve igre
+rijec-prodati.mp3;zvuk;—;izgovor: „prodati”;sve igre
+rijec-platiti.png;slika;512×512;platiti — to pay (Glagoli);sve igre
+rijec-platiti.mp3;zvuk;—;izgovor: „platiti”;sve igre
+rijec-stedjeti.png;slika;512×512;štedjeti — to save (Glagoli);sve igre
+rijec-stedjeti.mp3;zvuk;—;izgovor: „štedjeti”;sve igre
+rijec-voljeti.png;slika;512×512;voljeti — to love (Glagoli);sve igre
+rijec-voljeti.mp3;zvuk;—;izgovor: „voljeti”;sve igre
+rijec-htjeti.png;slika;512×512;htjeti — to want (Glagoli);sve igre
+rijec-htjeti.mp3;zvuk;—;izgovor: „htjeti”;sve igre
+rijec-moci.png;slika;512×512;moći — to be able (Glagoli);sve igre
+rijec-moci.mp3;zvuk;—;izgovor: „moći”;sve igre
+rijec-morati.png;slika;512×512;morati — to have to (Glagoli);sve igre
+rijec-morati.mp3;zvuk;—;izgovor: „morati”;sve igre
+rijec-trebati.png;slika;512×512;trebati — to need (Glagoli);sve igre
+rijec-trebati.mp3;zvuk;—;izgovor: „trebati”;sve igre
+rijec-poceti.png;slika;512×512;početi — to start (Glagoli);sve igre
+rijec-poceti.mp3;zvuk;—;izgovor: „početi”;sve igre
+rijec-zavrsiti.png;slika;512×512;završiti — to finish (Glagoli);sve igre
+rijec-zavrsiti.mp3;zvuk;—;izgovor: „završiti”;sve igre
+rijec-nastaviti.png;slika;512×512;nastaviti — to continue (Glagoli);sve igre
+rijec-nastaviti.mp3;zvuk;—;izgovor: „nastaviti”;sve igre
+rijec-stati.png;slika;512×512;stati — to stop (Glagoli);sve igre
+rijec-stati.mp3;zvuk;—;izgovor: „stati”;sve igre
+rijec-doci.png;slika;512×512;doći — to come (Glagoli);sve igre
+rijec-doci.mp3;zvuk;—;izgovor: „doći”;sve igre
+rijec-otici.png;slika;512×512;otići — to leave (Glagoli);sve igre
+rijec-otici.mp3;zvuk;—;izgovor: „otići”;sve igre
+rijec-vratiti-se.png;slika;512×512;vratiti se — to return (Glagoli);sve igre
+rijec-vratiti-se.mp3;zvuk;—;izgovor: „vratiti se”;sve igre
+rijec-ustati.png;slika;512×512;ustati — to get up (Glagoli);sve igre
+rijec-ustati.mp3;zvuk;—;izgovor: „ustati”;sve igre
+rijec-oprati.png;slika;512×512;oprati — to wash (Glagoli);sve igre
+rijec-oprati.mp3;zvuk;—;izgovor: „oprati”;sve igre
+rijec-ocistiti.png;slika;512×512;očistiti — to clean (Glagoli);sve igre
+rijec-ocistiti.mp3;zvuk;—;izgovor: „očistiti”;sve igre
+rijec-peci.png;slika;512×512;peći — to bake (Glagoli);sve igre
+rijec-peci.mp3;zvuk;—;izgovor: „peći”;sve igre
+rijec-rezati.png;slika;512×512;rezati — to cut (Glagoli);sve igre
+rijec-rezati.mp3;zvuk;—;izgovor: „rezati”;sve igre
+rijec-graditi.png;slika;512×512;graditi — to build (Glagoli);sve igre
+rijec-graditi.mp3;zvuk;—;izgovor: „graditi”;sve igre
+rijec-popraviti.png;slika;512×512;popraviti — to fix (Glagoli);sve igre
+rijec-popraviti.mp3;zvuk;—;izgovor: „popraviti”;sve igre
+rijec-crtati.png;slika;512×512;crtati — to draw (Glagoli);sve igre
+rijec-crtati.mp3;zvuk;—;izgovor: „crtati”;sve igre
+rijec-plesati.png;slika;512×512;plesati — to dance (Glagoli);sve igre
+rijec-plesati.mp3;zvuk;—;izgovor: „plesati”;sve igre
+rijec-smijati-se.png;slika;512×512;smijati se — to laugh (Glagoli);sve igre
+rijec-smijati-se.mp3;zvuk;—;izgovor: „smijati se”;sve igre
+rijec-plakati.png;slika;512×512;plakati — to cry (Glagoli);sve igre
+rijec-plakati.mp3;zvuk;—;izgovor: „plakati”;sve igre
+rijec-vikati.png;slika;512×512;vikati — to shout (Glagoli);sve igre
+rijec-vikati.mp3;zvuk;—;izgovor: „vikati”;sve igre
+rijec-sutjeti.png;slika;512×512;šutjeti — to be silent (Glagoli);sve igre
+rijec-sutjeti.mp3;zvuk;—;izgovor: „šutjeti”;sve igre
+rijec-zvati.png;slika;512×512;zvati — to call (Glagoli);sve igre
+rijec-zvati.mp3;zvuk;—;izgovor: „zvati”;sve igre
+rijec-prevoditi.png;slika;512×512;prevoditi — to translate (Glagoli);sve igre
+rijec-prevoditi.mp3;zvuk;—;izgovor: „prevoditi”;sve igre
+rijec-ponoviti.png;slika;512×512;ponoviti — to repeat (Glagoli);sve igre
+rijec-ponoviti.mp3;zvuk;—;izgovor: „ponoviti”;sve igre
+rijec-zapamtiti.png;slika;512×512;zapamtiti — to memorise (Glagoli);sve igre
+rijec-zapamtiti.mp3;zvuk;—;izgovor: „zapamtiti”;sve igre
+rijec-zaboraviti.png;slika;512×512;zaboraviti — to forget (Glagoli);sve igre
+rijec-zaboraviti.mp3;zvuk;—;izgovor: „zaboraviti”;sve igre
+rijec-vjerovati.png;slika;512×512;vjerovati — to believe (Glagoli);sve igre
+rijec-vjerovati.mp3;zvuk;—;izgovor: „vjerovati”;sve igre
+rijec-nadati-se.png;slika;512×512;nadati se — to hope (Glagoli);sve igre
+rijec-nadati-se.mp3;zvuk;—;izgovor: „nadati se”;sve igre
+rijec-bojati-se.png;slika;512×512;bojati se — to be afraid (Glagoli);sve igre
+rijec-bojati-se.mp3;zvuk;—;izgovor: „bojati se”;sve igre
+rijec-odmarati.png;slika;512×512;odmarati — to rest (Glagoli);sve igre
+rijec-odmarati.mp3;zvuk;—;izgovor: „odmarati”;sve igre
+rijec-setati.png;slika;512×512;šetati — to stroll (Glagoli);sve igre
+rijec-setati.mp3;zvuk;—;izgovor: „šetati”;sve igre
+rijec-penjati-se.png;slika;512×512;penjati se — to climb (Glagoli);sve igre
+rijec-penjati-se.mp3;zvuk;—;izgovor: „penjati se”;sve igre
+rijec-skakati.png;slika;512×512;skakati — to jump (Glagoli);sve igre
+rijec-skakati.mp3;zvuk;—;izgovor: „skakati”;sve igre
+rijec-letjeti.png;slika;512×512;letjeti — to fly (Glagoli);sve igre
+rijec-letjeti.mp3;zvuk;—;izgovor: „letjeti”;sve igre
+rijec-padati.png;slika;512×512;padati — to fall (Glagoli);sve igre
+rijec-padati.mp3;zvuk;—;izgovor: „padati”;sve igre
+rijec-cuvati.png;slika;512×512;čuvati — to guard (Glagoli);sve igre
+rijec-cuvati.mp3;zvuk;—;izgovor: „čuvati”;sve igre
+rijec-slaviti.png;slika;512×512;slaviti — to celebrate (Glagoli);sve igre
+rijec-slaviti.mp3;zvuk;—;izgovor: „slaviti”;sve igre
+rijec-pozvati.png;slika;512×512;pozvati — to invite (Glagoli);sve igre
+rijec-pozvati.mp3;zvuk;—;izgovor: „pozvati”;sve igre
+rijec-upoznati.png;slika;512×512;upoznati — to meet (Glagoli);sve igre
+rijec-upoznati.mp3;zvuk;—;izgovor: „upoznati”;sve igre
+rijec-pripremiti.png;slika;512×512;pripremiti — to prepare (Glagoli);sve igre
+rijec-pripremiti.mp3;zvuk;—;izgovor: „pripremiti”;sve igre
+rijec-mjeriti.png;slika;512×512;mjeriti — to measure (Glagoli);sve igre
+rijec-mjeriti.mp3;zvuk;—;izgovor: „mjeriti”;sve igre
+rijec-brojati.png;slika;512×512;brojati — to count (Glagoli);sve igre
+rijec-brojati.mp3;zvuk;—;izgovor: „brojati”;sve igre
+rijec-sanjati.png;slika;512×512;sanjati — to dream (Glagoli);sve igre
+rijec-sanjati.mp3;zvuk;—;izgovor: „sanjati”;sve igre
+rijec-probuditi-se.png;slika;512×512;probuditi se — to wake up (Glagoli);sve igre
+rijec-probuditi-se.mp3;zvuk;—;izgovor: „probuditi se”;sve igre
+rijec-obuci-se.png;slika;512×512;obući se — to get dressed (Glagoli);sve igre
+rijec-obuci-se.mp3;zvuk;—;izgovor: „obući se”;sve igre
+rijec-kupati-se.png;slika;512×512;kupati se — to bathe (Glagoli);sve igre
+rijec-kupati-se.mp3;zvuk;—;izgovor: „kupati se”;sve igre
+rijec-odluciti.png;slika;512×512;odlučiti — to decide (Glagoli);sve igre
+rijec-odluciti.mp3;zvuk;—;izgovor: „odlučiti”;sve igre
+rijec-pokusati.png;slika;512×512;pokušati — to try (Glagoli);sve igre
+rijec-pokusati.mp3;zvuk;—;izgovor: „pokušati”;sve igre
+rijec-uspjeti.png;slika;512×512;uspjeti — to succeed (Glagoli);sve igre
+rijec-uspjeti.mp3;zvuk;—;izgovor: „uspjeti”;sve igre
+rijec-velik.png;slika;512×512;velik — big (Pridjevi);sve igre
+rijec-velik.mp3;zvuk;—;izgovor: „velik”;sve igre
+rijec-mali.png;slika;512×512;mali — small (Pridjevi);sve igre
+rijec-mali.mp3;zvuk;—;izgovor: „mali”;sve igre
+rijec-nov.png;slika;512×512;nov — new (Pridjevi);sve igre
+rijec-nov.mp3;zvuk;—;izgovor: „nov”;sve igre
+rijec-star.png;slika;512×512;star — old (Pridjevi);sve igre
+rijec-star.mp3;zvuk;—;izgovor: „star”;sve igre
+rijec-dobar.png;slika;512×512;dobar — good (Pridjevi);sve igre
+rijec-dobar.mp3;zvuk;—;izgovor: „dobar”;sve igre
+rijec-lijep.png;slika;512×512;lijep — beautiful (Pridjevi);sve igre
+rijec-lijep.mp3;zvuk;—;izgovor: „lijep”;sve igre
+rijec-topao.png;slika;512×512;topao — warm (Pridjevi);sve igre
+rijec-topao.mp3;zvuk;—;izgovor: „topao”;sve igre
+rijec-hladan.png;slika;512×512;hladan — cold (Pridjevi);sve igre
+rijec-hladan.mp3;zvuk;—;izgovor: „hladan”;sve igre
+rijec-brz.png;slika;512×512;brz — fast (Pridjevi);sve igre
+rijec-brz.mp3;zvuk;—;izgovor: „brz”;sve igre
+rijec-spor.png;slika;512×512;spor — slow (Pridjevi);sve igre
+rijec-spor.mp3;zvuk;—;izgovor: „spor”;sve igre
+rijec-sladak.png;slika;512×512;sladak — sweet (Pridjevi);sve igre
+rijec-sladak.mp3;zvuk;—;izgovor: „sladak”;sve igre
+rijec-skup.png;slika;512×512;skup — expensive (Pridjevi);sve igre
+rijec-skup.mp3;zvuk;—;izgovor: „skup”;sve igre
+rijec-svjez.png;slika;512×512;svjež — fresh (Pridjevi);sve igre
+rijec-svjez.mp3;zvuk;—;izgovor: „svjež”;sve igre
+rijec-gladan.png;slika;512×512;gladan — hungry (Pridjevi);sve igre
+rijec-gladan.mp3;zvuk;—;izgovor: „gladan”;sve igre
+rijec-umoran.png;slika;512×512;umoran — tired (Pridjevi);sve igre
+rijec-umoran.mp3;zvuk;—;izgovor: „umoran”;sve igre
+rijec-sretan.png;slika;512×512;sretan — happy (Pridjevi);sve igre
+rijec-sretan.mp3;zvuk;—;izgovor: „sretan”;sve igre
+rijec-jak.png;slika;512×512;jak — strong (Pridjevi);sve igre
+rijec-jak.mp3;zvuk;—;izgovor: „jak”;sve igre
+rijec-visok.png;slika;512×512;visok — tall (Pridjevi);sve igre
+rijec-visok.mp3;zvuk;—;izgovor: „visok”;sve igre
+rijec-dug.png;slika;512×512;dug — long (Pridjevi);sve igre
+rijec-dug.mp3;zvuk;—;izgovor: „dug”;sve igre
+rijec-tezak.png;slika;512×512;težak — heavy (Pridjevi);sve igre
+rijec-tezak.mp3;zvuk;—;izgovor: „težak”;sve igre
+rijec-zdrav.png;slika;512×512;zdrav — healthy (Pridjevi);sve igre
+rijec-zdrav.mp3;zvuk;—;izgovor: „zdrav”;sve igre
+rijec-ukusan.png;slika;512×512;ukusan — tasty (Pridjevi);sve igre
+rijec-ukusan.mp3;zvuk;—;izgovor: „ukusan”;sve igre
+rijec-zanimljiv.png;slika;512×512;zanimljiv — interesting (Pridjevi);sve igre
+rijec-zanimljiv.mp3;zvuk;—;izgovor: „zanimljiv”;sve igre
+rijec-smijesan.png;slika;512×512;smiješan — funny (Pridjevi);sve igre
+rijec-smijesan.mp3;zvuk;—;izgovor: „smiješan”;sve igre
+rijec-los.png;slika;512×512;loš — bad (Pridjevi);sve igre
+rijec-los.mp3;zvuk;—;izgovor: „loš”;sve igre
+rijec-ruzan.png;slika;512×512;ružan — ugly (Pridjevi);sve igre
+rijec-ruzan.mp3;zvuk;—;izgovor: „ružan”;sve igre
+rijec-jeftin.png;slika;512×512;jeftin — cheap (Pridjevi);sve igre
+rijec-jeftin.mp3;zvuk;—;izgovor: „jeftin”;sve igre
+rijec-kratak.png;slika;512×512;kratak — short (Pridjevi);sve igre
+rijec-kratak.mp3;zvuk;—;izgovor: „kratak”;sve igre
+rijec-nizak.png;slika;512×512;nizak — low (Pridjevi);sve igre
+rijec-nizak.mp3;zvuk;—;izgovor: „nizak”;sve igre
+rijec-sirok.png;slika;512×512;širok — wide (Pridjevi);sve igre
+rijec-sirok.mp3;zvuk;—;izgovor: „širok”;sve igre
+rijec-uzak.png;slika;512×512;uzak — narrow (Pridjevi);sve igre
+rijec-uzak.mp3;zvuk;—;izgovor: „uzak”;sve igre
+rijec-debeo.png;slika;512×512;debeo — thick (Pridjevi);sve igre
+rijec-debeo.mp3;zvuk;—;izgovor: „debeo”;sve igre
+rijec-tanak.png;slika;512×512;tanak — thin (Pridjevi);sve igre
+rijec-tanak.mp3;zvuk;—;izgovor: „tanak”;sve igre
+rijec-pun.png;slika;512×512;pun — full (Pridjevi);sve igre
+rijec-pun.mp3;zvuk;—;izgovor: „pun”;sve igre
+rijec-prazan.png;slika;512×512;prazan — empty (Pridjevi);sve igre
+rijec-prazan.mp3;zvuk;—;izgovor: „prazan”;sve igre
+rijec-cist.png;slika;512×512;čist — clean (Pridjevi);sve igre
+rijec-cist.mp3;zvuk;—;izgovor: „čist”;sve igre
+rijec-prljav.png;slika;512×512;prljav — dirty (Pridjevi);sve igre
+rijec-prljav.mp3;zvuk;—;izgovor: „prljav”;sve igre
+rijec-mokar.png;slika;512×512;mokar — wet (Pridjevi);sve igre
+rijec-mokar.mp3;zvuk;—;izgovor: „mokar”;sve igre
+rijec-suh.png;slika;512×512;suh — dry (Pridjevi);sve igre
+rijec-suh.mp3;zvuk;—;izgovor: „suh”;sve igre
+rijec-glasan.png;slika;512×512;glasan — loud (Pridjevi);sve igre
+rijec-glasan.mp3;zvuk;—;izgovor: „glasan”;sve igre
+rijec-tih.png;slika;512×512;tih — quiet (Pridjevi);sve igre
+rijec-tih.mp3;zvuk;—;izgovor: „tih”;sve igre
+rijec-svijetao.png;slika;512×512;svijetao — bright (Pridjevi);sve igre
+rijec-svijetao.mp3;zvuk;—;izgovor: „svijetao”;sve igre
+rijec-taman.png;slika;512×512;taman — dark (Pridjevi);sve igre
+rijec-taman.mp3;zvuk;—;izgovor: „taman”;sve igre
+rijec-mek.png;slika;512×512;mek — soft (Pridjevi);sve igre
+rijec-mek.mp3;zvuk;—;izgovor: „mek”;sve igre
+rijec-tvrd.png;slika;512×512;tvrd — hard (Pridjevi);sve igre
+rijec-tvrd.mp3;zvuk;—;izgovor: „tvrd”;sve igre
+rijec-lagan.png;slika;512×512;lagan — light (Pridjevi);sve igre
+rijec-lagan.mp3;zvuk;—;izgovor: „lagan”;sve igre
+rijec-bogat.png;slika;512×512;bogat — rich (Pridjevi);sve igre
+rijec-bogat.mp3;zvuk;—;izgovor: „bogat”;sve igre
+rijec-siromasan.png;slika;512×512;siromašan — poor (Pridjevi);sve igre
+rijec-siromasan.mp3;zvuk;—;izgovor: „siromašan”;sve igre
+rijec-mlad.png;slika;512×512;mlad — young (Pridjevi);sve igre
+rijec-mlad.mp3;zvuk;—;izgovor: „mlad”;sve igre
+rijec-pametan.png;slika;512×512;pametan — smart (Pridjevi);sve igre
+rijec-pametan.mp3;zvuk;—;izgovor: „pametan”;sve igre
+rijec-ljubazan.png;slika;512×512;ljubazan — kind (Pridjevi);sve igre
+rijec-ljubazan.mp3;zvuk;—;izgovor: „ljubazan”;sve igre
+rijec-strog.png;slika;512×512;strog — strict (Pridjevi);sve igre
+rijec-strog.mp3;zvuk;—;izgovor: „strog”;sve igre
+rijec-hrabar.png;slika;512×512;hrabar — brave (Pridjevi);sve igre
+rijec-hrabar.mp3;zvuk;—;izgovor: „hrabar”;sve igre
+rijec-tuzan.png;slika;512×512;tužan — sad (Pridjevi);sve igre
+rijec-tuzan.mp3;zvuk;—;izgovor: „tužan”;sve igre
+rijec-ljut.png;slika;512×512;ljut — angry (Pridjevi);sve igre
+rijec-ljut.mp3;zvuk;—;izgovor: „ljut”;sve igre
+rijec-miran.png;slika;512×512;miran — calm (Pridjevi);sve igre
+rijec-miran.mp3;zvuk;—;izgovor: „miran”;sve igre
+rijec-zauzet.png;slika;512×512;zauzet — busy (Pridjevi);sve igre
+rijec-zauzet.mp3;zvuk;—;izgovor: „zauzet”;sve igre
+rijec-slobodan.png;slika;512×512;slobodan — free (Pridjevi);sve igre
+rijec-slobodan.mp3;zvuk;—;izgovor: „slobodan”;sve igre
+rijec-spreman.png;slika;512×512;spreman — ready (Pridjevi);sve igre
+rijec-spreman.mp3;zvuk;—;izgovor: „spreman”;sve igre
+rijec-vazan.png;slika;512×512;važan — important (Pridjevi);sve igre
+rijec-vazan.mp3;zvuk;—;izgovor: „važan”;sve igre
+rijec-lak.png;slika;512×512;lak — easy (Pridjevi);sve igre
+rijec-lak.mp3;zvuk;—;izgovor: „lak”;sve igre
+rijec-poznat.png;slika;512×512;poznat — famous (Pridjevi);sve igre
+rijec-poznat.mp3;zvuk;—;izgovor: „poznat”;sve igre
+rijec-cudan.png;slika;512×512;čudan — strange (Pridjevi);sve igre
+rijec-cudan.mp3;zvuk;—;izgovor: „čudan”;sve igre
+rijec-obican.png;slika;512×512;običan — ordinary (Pridjevi);sve igre
+rijec-obican.mp3;zvuk;—;izgovor: „običan”;sve igre
+rijec-poseban.png;slika;512×512;poseban — special (Pridjevi);sve igre
+rijec-poseban.mp3;zvuk;—;izgovor: „poseban”;sve igre
+rijec-slican.png;slika;512×512;sličan — similar (Pridjevi);sve igre
+rijec-slican.mp3;zvuk;—;izgovor: „sličan”;sve igre
+rijec-razlicit.png;slika;512×512;različit — different (Pridjevi);sve igre
+rijec-razlicit.mp3;zvuk;—;izgovor: „različit”;sve igre
+rijec-siguran.png;slika;512×512;siguran — safe (Pridjevi);sve igre
+rijec-siguran.mp3;zvuk;—;izgovor: „siguran”;sve igre
+rijec-opasan.png;slika;512×512;opasan — dangerous (Pridjevi);sve igre
+rijec-opasan.mp3;zvuk;—;izgovor: „opasan”;sve igre
+rijec-koristan.png;slika;512×512;koristan — useful (Pridjevi);sve igre
+rijec-koristan.mp3;zvuk;—;izgovor: „koristan”;sve igre
+rijec-dosadan.png;slika;512×512;dosadan — boring (Pridjevi);sve igre
+rijec-dosadan.mp3;zvuk;—;izgovor: „dosadan”;sve igre
+rijec-ostar.png;slika;512×512;oštar — sharp (Pridjevi);sve igre
+rijec-ostar.mp3;zvuk;—;izgovor: „oštar”;sve igre
+rijec-gorak.png;slika;512×512;gorak — bitter (Pridjevi);sve igre
+rijec-gorak.mp3;zvuk;—;izgovor: „gorak”;sve igre
+rijec-kiseo.png;slika;512×512;kiseo — sour (Pridjevi);sve igre
+rijec-kiseo.mp3;zvuk;—;izgovor: „kiseo”;sve igre
+rijec-slan.png;slika;512×512;slan — salty (Pridjevi);sve igre
+rijec-slan.mp3;zvuk;—;izgovor: „slan”;sve igre
+rijec-pikantan.png;slika;512×512;pikantan — spicy (Pridjevi);sve igre
+rijec-pikantan.mp3;zvuk;—;izgovor: „pikantan”;sve igre
+rijec-vruc.png;slika;512×512;vruć — hot (Pridjevi);sve igre
+rijec-vruc.mp3;zvuk;—;izgovor: „vruć”;sve igre
+rijec-bolestan.png;slika;512×512;bolestan — ill (Pridjevi);sve igre
+rijec-bolestan.mp3;zvuk;—;izgovor: „bolestan”;sve igre
+rijec-danas.png;slika;512×512;danas — today (Prilozi);sve igre
+rijec-danas.mp3;zvuk;—;izgovor: „danas”;sve igre
+rijec-sutra.png;slika;512×512;sutra — tomorrow (Prilozi);sve igre
+rijec-sutra.mp3;zvuk;—;izgovor: „sutra”;sve igre
+rijec-jucer.png;slika;512×512;jučer — yesterday (Prilozi);sve igre
+rijec-jucer.mp3;zvuk;—;izgovor: „jučer”;sve igre
+rijec-sada.png;slika;512×512;sada — now (Prilozi);sve igre
+rijec-sada.mp3;zvuk;—;izgovor: „sada”;sve igre
+rijec-uvijek.png;slika;512×512;uvijek — always (Prilozi);sve igre
+rijec-uvijek.mp3;zvuk;—;izgovor: „uvijek”;sve igre
+rijec-nikad.png;slika;512×512;nikad — never (Prilozi);sve igre
+rijec-nikad.mp3;zvuk;—;izgovor: „nikad”;sve igre
+rijec-cesto.png;slika;512×512;često — often (Prilozi);sve igre
+rijec-cesto.mp3;zvuk;—;izgovor: „često”;sve igre
+rijec-ponekad.png;slika;512×512;ponekad — sometimes (Prilozi);sve igre
+rijec-ponekad.mp3;zvuk;—;izgovor: „ponekad”;sve igre
+rijec-rano.png;slika;512×512;rano — early (Prilozi);sve igre
+rijec-rano.mp3;zvuk;—;izgovor: „rano”;sve igre
+rijec-kasno.png;slika;512×512;kasno — late (Prilozi);sve igre
+rijec-kasno.mp3;zvuk;—;izgovor: „kasno”;sve igre
+rijec-brzo.png;slika;512×512;brzo — quickly (Prilozi);sve igre
+rijec-brzo.mp3;zvuk;—;izgovor: „brzo”;sve igre
+rijec-polako.png;slika;512×512;polako — slowly (Prilozi);sve igre
+rijec-polako.mp3;zvuk;—;izgovor: „polako”;sve igre
+rijec-ovdje.png;slika;512×512;ovdje — here (Prilozi);sve igre
+rijec-ovdje.mp3;zvuk;—;izgovor: „ovdje”;sve igre
+rijec-tamo.png;slika;512×512;tamo — there (Prilozi);sve igre
+rijec-tamo.mp3;zvuk;—;izgovor: „tamo”;sve igre
+rijec-gore.png;slika;512×512;gore — up (Prilozi);sve igre
+rijec-gore.mp3;zvuk;—;izgovor: „gore”;sve igre
+rijec-dolje.png;slika;512×512;dolje — down (Prilozi);sve igre
+rijec-dolje.mp3;zvuk;—;izgovor: „dolje”;sve igre
+rijec-lijevo.png;slika;512×512;lijevo — left (Prilozi);sve igre
+rijec-lijevo.mp3;zvuk;—;izgovor: „lijevo”;sve igre
+rijec-desno.png;slika;512×512;desno — right (Prilozi);sve igre
+rijec-desno.mp3;zvuk;—;izgovor: „desno”;sve igre
+rijec-blizu.png;slika;512×512;blizu — near (Prilozi);sve igre
+rijec-blizu.mp3;zvuk;—;izgovor: „blizu”;sve igre
+rijec-daleko.png;slika;512×512;daleko — far (Prilozi);sve igre
+rijec-daleko.mp3;zvuk;—;izgovor: „daleko”;sve igre
+rijec-zajedno.png;slika;512×512;zajedno — together (Prilozi);sve igre
+rijec-zajedno.mp3;zvuk;—;izgovor: „zajedno”;sve igre
+rijec-mozda.png;slika;512×512;možda — maybe (Prilozi);sve igre
+rijec-mozda.mp3;zvuk;—;izgovor: „možda”;sve igre
+rijec-takoder.png;slika;512×512;također — also (Prilozi);sve igre
+rijec-takoder.mp3;zvuk;—;izgovor: „također”;sve igre
+rijec-jako.png;slika;512×512;jako — very (Prilozi);sve igre
+rijec-jako.mp3;zvuk;—;izgovor: „jako”;sve igre
+rijec-malo.png;slika;512×512;malo — a little (Prilozi);sve igre
+rijec-malo.mp3;zvuk;—;izgovor: „malo”;sve igre
+rijec-puno.png;slika;512×512;puno — a lot (Prilozi);sve igre
+rijec-puno.mp3;zvuk;—;izgovor: „puno”;sve igre
+rijec-odmah.png;slika;512×512;odmah — right away (Prilozi);sve igre
+rijec-odmah.mp3;zvuk;—;izgovor: „odmah”;sve igre
+rijec-nikamo.png;slika;512×512;nikamo — nowhere (Prilozi);sve igre
+rijec-nikamo.mp3;zvuk;—;izgovor: „nikamo”;sve igre
+rijec-crven.png;slika;512×512;crven — red (Boje);sve igre
+rijec-crven.mp3;zvuk;—;izgovor: „crven”;sve igre
+rijec-plav.png;slika;512×512;plav — blue (Boje);sve igre
+rijec-plav.mp3;zvuk;—;izgovor: „plav”;sve igre
+rijec-zut.png;slika;512×512;žut — yellow (Boje);sve igre
+rijec-zut.mp3;zvuk;—;izgovor: „žut”;sve igre
+rijec-zelen.png;slika;512×512;zelen — green (Boje);sve igre
+rijec-zelen.mp3;zvuk;—;izgovor: „zelen”;sve igre
+rijec-bijel.png;slika;512×512;bijel — white (Boje);sve igre
+rijec-bijel.mp3;zvuk;—;izgovor: „bijel”;sve igre
+rijec-crn.png;slika;512×512;crn — black (Boje);sve igre
+rijec-crn.mp3;zvuk;—;izgovor: „crn”;sve igre
+rijec-siv.png;slika;512×512;siv — grey (Boje);sve igre
+rijec-siv.mp3;zvuk;—;izgovor: „siv”;sve igre
+rijec-smed.png;slika;512×512;smeđ — brown (Boje);sve igre
+rijec-smed.mp3;zvuk;—;izgovor: „smeđ”;sve igre
+rijec-narancast.png;slika;512×512;narančast — orange (Boje);sve igre
+rijec-narancast.mp3;zvuk;—;izgovor: „narančast”;sve igre
+rijec-ruzicast.png;slika;512×512;ružičast — pink (Boje);sve igre
+rijec-ruzicast.mp3;zvuk;—;izgovor: „ružičast”;sve igre
+rijec-ljubicast.png;slika;512×512;ljubičast — purple (Boje);sve igre
+rijec-ljubicast.mp3;zvuk;—;izgovor: „ljubičast”;sve igre
+rijec-zlatan.png;slika;512×512;zlatan — golden (Boje);sve igre
+rijec-zlatan.mp3;zvuk;—;izgovor: „zlatan”;sve igre
+rijec-srebrn.png;slika;512×512;srebrn — silver (Boje);sve igre
+rijec-srebrn.mp3;zvuk;—;izgovor: „srebrn”;sve igre
+rijec-saren.png;slika;512×512;šaren — colourful (Boje);sve igre
+rijec-saren.mp3;zvuk;—;izgovor: „šaren”;sve igre
+rijec-jedan.png;slika;512×512;jedan — one (Brojevi);sve igre
+rijec-jedan.mp3;zvuk;—;izgovor: „jedan”;sve igre
+rijec-dva.png;slika;512×512;dva — two (Brojevi);sve igre
+rijec-dva.mp3;zvuk;—;izgovor: „dva”;sve igre
+rijec-tri.png;slika;512×512;tri — three (Brojevi);sve igre
+rijec-tri.mp3;zvuk;—;izgovor: „tri”;sve igre
+rijec-cetiri.png;slika;512×512;četiri — four (Brojevi);sve igre
+rijec-cetiri.mp3;zvuk;—;izgovor: „četiri”;sve igre
+rijec-pet.png;slika;512×512;pet — five (Brojevi);sve igre
+rijec-pet.mp3;zvuk;—;izgovor: „pet”;sve igre
+rijec-sest.png;slika;512×512;šest — six (Brojevi);sve igre
+rijec-sest.mp3;zvuk;—;izgovor: „šest”;sve igre
+rijec-sedam.png;slika;512×512;sedam — seven (Brojevi);sve igre
+rijec-sedam.mp3;zvuk;—;izgovor: „sedam”;sve igre
+rijec-osam.png;slika;512×512;osam — eight (Brojevi);sve igre
+rijec-osam.mp3;zvuk;—;izgovor: „osam”;sve igre
+rijec-devet.png;slika;512×512;devet — nine (Brojevi);sve igre
+rijec-devet.mp3;zvuk;—;izgovor: „devet”;sve igre
+rijec-deset.png;slika;512×512;deset — ten (Brojevi);sve igre
+rijec-deset.mp3;zvuk;—;izgovor: „deset”;sve igre
+rijec-jedanaest.png;slika;512×512;jedanaest — eleven (Brojevi);sve igre
+rijec-jedanaest.mp3;zvuk;—;izgovor: „jedanaest”;sve igre
+rijec-dvanaest.png;slika;512×512;dvanaest — twelve (Brojevi);sve igre
+rijec-dvanaest.mp3;zvuk;—;izgovor: „dvanaest”;sve igre
+rijec-trinaest.png;slika;512×512;trinaest — thirteen (Brojevi);sve igre
+rijec-trinaest.mp3;zvuk;—;izgovor: „trinaest”;sve igre
+rijec-petnaest.png;slika;512×512;petnaest — fifteen (Brojevi);sve igre
+rijec-petnaest.mp3;zvuk;—;izgovor: „petnaest”;sve igre
+rijec-dvadeset.png;slika;512×512;dvadeset — twenty (Brojevi);sve igre
+rijec-dvadeset.mp3;zvuk;—;izgovor: „dvadeset”;sve igre
+rijec-trideset.png;slika;512×512;trideset — thirty (Brojevi);sve igre
+rijec-trideset.mp3;zvuk;—;izgovor: „trideset”;sve igre
+rijec-pedeset.png;slika;512×512;pedeset — fifty (Brojevi);sve igre
+rijec-pedeset.mp3;zvuk;—;izgovor: „pedeset”;sve igre
+rijec-sto.png;slika;512×512;sto — hundred (Brojevi);sve igre
+rijec-sto.mp3;zvuk;—;izgovor: „sto”;sve igre
+rijec-tisucu.png;slika;512×512;tisuću — thousand (Brojevi);sve igre
+rijec-tisucu.mp3;zvuk;—;izgovor: „tisuću”;sve igre
+rijec-nula.png;slika;512×512;nula — zero (Brojevi);sve igre
+rijec-nula.mp3;zvuk;—;izgovor: „nula”;sve igre
+rijec-prvi.png;slika;512×512;prvi — first (Brojevi);sve igre
+rijec-prvi.mp3;zvuk;—;izgovor: „prvi”;sve igre
+rijec-drugi.png;slika;512×512;drugi — second (Brojevi);sve igre
+rijec-drugi.mp3;zvuk;—;izgovor: „drugi”;sve igre
+rijec-treci.png;slika;512×512;treći — third (Brojevi);sve igre
+rijec-treci.mp3;zvuk;—;izgovor: „treći”;sve igre
+rijec-pola.png;slika;512×512;pola — half (Brojevi);sve igre
+rijec-pola.mp3;zvuk;—;izgovor: „pola”;sve igre
+rijec-par.png;slika;512×512;par — pair (Brojevi);sve igre
+rijec-par.mp3;zvuk;—;izgovor: „par”;sve igre
+rijec-matematika.png;slika;512×512;matematika — mathematics (Škola);sve igre
+rijec-matematika.mp3;zvuk;—;izgovor: „matematika”;sve igre
+rijec-geografija.png;slika;512×512;geografija — geography (Škola);sve igre
+rijec-geografija.mp3;zvuk;—;izgovor: „geografija”;sve igre
+rijec-biologija.png;slika;512×512;biologija — biology (Škola);sve igre
+rijec-biologija.mp3;zvuk;—;izgovor: „biologija”;sve igre
+rijec-fizika.png;slika;512×512;fizika — physics (Škola);sve igre
+rijec-fizika.mp3;zvuk;—;izgovor: „fizika”;sve igre
+rijec-kemija.png;slika;512×512;kemija — chemistry (Škola);sve igre
+rijec-kemija.mp3;zvuk;—;izgovor: „kemija”;sve igre
+rijec-povijest.png;slika;512×512;povijest — history (Škola);sve igre
+rijec-povijest.mp3;zvuk;—;izgovor: „povijest”;sve igre
+rijec-knjizevnost.png;slika;512×512;književnost — literature (Škola);sve igre
+rijec-knjizevnost.mp3;zvuk;—;izgovor: „književnost”;sve igre
+rijec-informatika.png;slika;512×512;informatika — IT (Škola);sve igre
+rijec-informatika.mp3;zvuk;—;izgovor: „informatika”;sve igre
+rijec-ispit.png;slika;512×512;ispit — exam (Škola);sve igre
+rijec-ispit.mp3;zvuk;—;izgovor: „ispit”;sve igre
+rijec-lekcija.png;slika;512×512;lekcija — lesson (Škola);sve igre
+rijec-lekcija.mp3;zvuk;—;izgovor: „lekcija”;sve igre
+rijec-pauza.png;slika;512×512;pauza — break (Škola);sve igre
+rijec-pauza.mp3;zvuk;—;izgovor: „pauza”;sve igre
+rijec-zadaca.png;slika;512×512;zadaća — homework (Škola);sve igre
+rijec-zadaca.mp3;zvuk;—;izgovor: „zadaća”;sve igre
+rijec-pjesma.png;slika;512×512;pjesma — song (Škola);sve igre
+rijec-pjesma.mp3;zvuk;—;izgovor: „pjesma”;sve igre
+rijec-prica.png;slika;512×512;priča — story (Škola);sve igre
+rijec-prica.mp3;zvuk;—;izgovor: „priča”;sve igre
+rijec-jezik-skola.png;slika;512×512;jezik — language (Škola);sve igre
+rijec-jezik-skola.mp3;zvuk;—;izgovor: „jezik”;sve igre
+rijec-razred.png;slika;512×512;razred — class (Škola);sve igre
+rijec-razred.mp3;zvuk;—;izgovor: „razred”;sve igre
+rijec-ucionica.png;slika;512×512;učionica — classroom (Škola);sve igre
+rijec-ucionica.mp3;zvuk;—;izgovor: „učionica”;sve igre
+rijec-ploca.png;slika;512×512;ploča — board (Škola);sve igre
+rijec-ploca.mp3;zvuk;—;izgovor: „ploča”;sve igre
+rijec-kreda.png;slika;512×512;kreda — chalk (Škola);sve igre
+rijec-kreda.mp3;zvuk;—;izgovor: „kreda”;sve igre
+rijec-ocjena.png;slika;512×512;ocjena — grade (Škola);sve igre
+rijec-ocjena.mp3;zvuk;—;izgovor: „ocjena”;sve igre
+rijec-diploma.png;slika;512×512;diploma — diploma (Škola);sve igre
+rijec-diploma.mp3;zvuk;—;izgovor: „diploma”;sve igre
+rijec-predavanje.png;slika;512×512;predavanje — lecture (Škola);sve igre
+rijec-predavanje.mp3;zvuk;—;izgovor: „predavanje”;sve igre
+rijec-vjezba.png;slika;512×512;vježba — exercise (Škola);sve igre
+rijec-vjezba.mp3;zvuk;—;izgovor: „vježba”;sve igre
+rijec-rjecnik.png;slika;512×512;rječnik — dictionary (Škola);sve igre
+rijec-rjecnik.mp3;zvuk;—;izgovor: „rječnik”;sve igre
+rijec-rijec.png;slika;512×512;riječ — word (Škola);sve igre
+rijec-rijec.mp3;zvuk;—;izgovor: „riječ”;sve igre
+rijec-slovo.png;slika;512×512;slovo — letter (Škola);sve igre
+rijec-slovo.mp3;zvuk;—;izgovor: „slovo”;sve igre
+rijec-recenica.png;slika;512×512;rečenica — sentence (Škola);sve igre
+rijec-recenica.mp3;zvuk;—;izgovor: „rečenica”;sve igre
+rijec-pitanje.png;slika;512×512;pitanje — question (Škola);sve igre
+rijec-pitanje.mp3;zvuk;—;izgovor: „pitanje”;sve igre
+rijec-odgovor.png;slika;512×512;odgovor — answer (Škola);sve igre
+rijec-odgovor.mp3;zvuk;—;izgovor: „odgovor”;sve igre
+rijec-greska.png;slika;512×512;greška — mistake (Škola);sve igre
+rijec-greska.mp3;zvuk;—;izgovor: „greška”;sve igre
+rijec-znanje.png;slika;512×512;znanje — knowledge (Škola);sve igre
+rijec-znanje.mp3;zvuk;—;izgovor: „znanje”;sve igre
+rijec-ucenik.png;slika;512×512;učenik — pupil (Škola);sve igre
+rijec-ucenik.mp3;zvuk;—;izgovor: „učenik”;sve igre
+rijec-raspust.png;slika;512×512;raspust — school holiday (Škola);sve igre
+rijec-raspust.mp3;zvuk;—;izgovor: „raspust”;sve igre
+rijec-projekt.png;slika;512×512;projekt — project (Škola);sve igre
+rijec-projekt.mp3;zvuk;—;izgovor: „projekt”;sve igre
+rijec-nogomet.png;slika;512×512;nogomet — football (Sport);sve igre
+rijec-nogomet.mp3;zvuk;—;izgovor: „nogomet”;sve igre
+rijec-tenis.png;slika;512×512;tenis — tennis (Sport);sve igre
+rijec-tenis.mp3;zvuk;—;izgovor: „tenis”;sve igre
+rijec-sah.png;slika;512×512;šah — chess (Sport);sve igre
+rijec-sah.mp3;zvuk;—;izgovor: „šah”;sve igre
+rijec-joga.png;slika;512×512;joga — yoga (Sport);sve igre
+rijec-joga.mp3;zvuk;—;izgovor: „joga”;sve igre
+rijec-utakmica.png;slika;512×512;utakmica — match (Sport);sve igre
+rijec-utakmica.mp3;zvuk;—;izgovor: „utakmica”;sve igre
+rijec-gol.png;slika;512×512;gol — goal (Sport);sve igre
+rijec-gol.mp3;zvuk;—;izgovor: „gol”;sve igre
+rijec-trener.png;slika;512×512;trener — coach (Sport);sve igre
+rijec-trener.mp3;zvuk;—;izgovor: „trener”;sve igre
+rijec-klub.png;slika;512×512;klub — club (Sport);sve igre
+rijec-klub.mp3;zvuk;—;izgovor: „klub”;sve igre
+rijec-kosarka.png;slika;512×512;košarka — basketball (Sport);sve igre
+rijec-kosarka.mp3;zvuk;—;izgovor: „košarka”;sve igre
+rijec-rukomet.png;slika;512×512;rukomet — handball (Sport);sve igre
+rijec-rukomet.mp3;zvuk;—;izgovor: „rukomet”;sve igre
+rijec-odbojka.png;slika;512×512;odbojka — volleyball (Sport);sve igre
+rijec-odbojka.mp3;zvuk;—;izgovor: „odbojka”;sve igre
+rijec-plivanje.png;slika;512×512;plivanje — swimming (Sport);sve igre
+rijec-plivanje.mp3;zvuk;—;izgovor: „plivanje”;sve igre
+rijec-trcanje.png;slika;512×512;trčanje — running (Sport);sve igre
+rijec-trcanje.mp3;zvuk;—;izgovor: „trčanje”;sve igre
+rijec-biciklizam.png;slika;512×512;biciklizam — cycling (Sport);sve igre
+rijec-biciklizam.mp3;zvuk;—;izgovor: „biciklizam”;sve igre
+rijec-skijanje.png;slika;512×512;skijanje — skiing (Sport);sve igre
+rijec-skijanje.mp3;zvuk;—;izgovor: „skijanje”;sve igre
+rijec-ronjenje.png;slika;512×512;ronjenje — diving (Sport);sve igre
+rijec-ronjenje.mp3;zvuk;—;izgovor: „ronjenje”;sve igre
+rijec-planinarenje.png;slika;512×512;planinarenje — hiking (Sport);sve igre
+rijec-planinarenje.mp3;zvuk;—;izgovor: „planinarenje”;sve igre
+rijec-igrac.png;slika;512×512;igrač — player (Sport);sve igre
+rijec-igrac.mp3;zvuk;—;izgovor: „igrač”;sve igre
+rijec-sudac.png;slika;512×512;sudac — referee (Sport);sve igre
+rijec-sudac.mp3;zvuk;—;izgovor: „sudac”;sve igre
+rijec-navijac.png;slika;512×512;navijač — fan (Sport);sve igre
+rijec-navijac.mp3;zvuk;—;izgovor: „navijač”;sve igre
+rijec-medalja.png;slika;512×512;medalja — medal (Sport);sve igre
+rijec-medalja.mp3;zvuk;—;izgovor: „medalja”;sve igre
+rijec-pobjeda.png;slika;512×512;pobjeda — victory (Sport);sve igre
+rijec-pobjeda.mp3;zvuk;—;izgovor: „pobjeda”;sve igre
+rijec-poraz.png;slika;512×512;poraz — defeat (Sport);sve igre
+rijec-poraz.mp3;zvuk;—;izgovor: „poraz”;sve igre
+rijec-rezultat.png;slika;512×512;rezultat — result (Sport);sve igre
+rijec-rezultat.mp3;zvuk;—;izgovor: „rezultat”;sve igre
+rijec-teren.png;slika;512×512;teren — pitch (Sport);sve igre
+rijec-teren.mp3;zvuk;—;izgovor: „teren”;sve igre
+rijec-mreza.png;slika;512×512;mreža — net (Sport);sve igre
+rijec-mreza.mp3;zvuk;—;izgovor: „mreža”;sve igre
+rijec-trening.png;slika;512×512;trening — training (Sport);sve igre
+rijec-trening.mp3;zvuk;—;izgovor: „trening”;sve igre
+kraj-zagreb.png;slika;1280×720;panorama kraja: Zagreb i okolica (vizura iza mjesta);02 Put oko Hrvatske
+kraj-zagorje.png;slika;1280×720;panorama kraja: Zagorje i Međimurje (vizura iza mjesta);02 Put oko Hrvatske
+kraj-slavonija.png;slika;1280×720;panorama kraja: Slavonija i Baranja (vizura iza mjesta);02 Put oko Hrvatske
+kraj-sredisnja.png;slika;1280×720;panorama kraja: Središnja Hrvatska (vizura iza mjesta);02 Put oko Hrvatske
+kraj-lika.png;slika;1280×720;panorama kraja: Lika i Kordun (vizura iza mjesta);02 Put oko Hrvatske
+kraj-kvarner.png;slika;1280×720;panorama kraja: Kvarner (vizura iza mjesta);02 Put oko Hrvatske
+kraj-istra.png;slika;1280×720;panorama kraja: Istra (vizura iza mjesta);02 Put oko Hrvatske
+kraj-dalmacija.png;slika;1280×720;panorama kraja: Dalmacija (vizura iza mjesta);02 Put oko Hrvatske
+kraj-dubrovnik.png;slika;1280×720;panorama kraja: Dubrovnik i okolica (vizura iza mjesta);02 Put oko Hrvatske
+soba-vrata.png;slika;1280×720;Vrata tvrđave — kameni ulaz, rešetka, čuvar;04 Tvrđava
+soba-dvoriste.png;slika;1280×720;Dvorište — kaldrma, bunar, razbacani predmeti;04 Tvrđava
+soba-kuhinja.png;slika;1280×720;Kuhinja — ognjište, tave, brašno i jaja;04 Tvrđava
+soba-knjiznica.png;slika;1280×720;Knjižnica — police s knjigama, ljestve, svijeća;04 Tvrđava
+soba-toranj.png;slika;1280×720;Toranj — zvono, stepenice, pogled na krajolik;04 Tvrđava
+soba-tamnica.png;slika;1280×720;Tamnica — lanci, slama, mala rešetka;04 Tvrđava
+soba-riznica.png;slika;1280×720;Riznica — škrinje, zlatnici, svijetlo;04 Tvrđava
+soba-vrt.png;slika;1280×720;Vrt — cvijeće, drvo, klupa, sunce;04 Tvrđava
+soba-kapelica.png;slika;1280×720;Kapelica — kameni svod, svijeće, stari zapisi;04 Tvrđava
+soba-oruzarnica.png;slika;1280×720;Oružarnica — štitovi, mačevi, kovački stol;04 Tvrđava
+soba-straza.png;slika;1280×720;Stražarnica — uski prozor, dalekozor, karta zidina;04 Tvrđava
+soba-pisarnica.png;slika;1280×720;Pisarnica — pergament, tinta, pero, pješčani sat;04 Tvrđava
+soba-bunar.png;slika;1280×720;Bunar — kameni obruč, vjedra, uže, mokra kaldrma;04 Tvrđava
+soba-konjusnica.png;slika;1280×720;Konjušnica — sijeno, konji, sedla;04 Tvrđava
+soba-podrum.png;slika;1280×720;Vinski podrum — bačve, boce, prigušeno svjetlo;04 Tvrđava
+soba-dvorana.png;slika;1280×720;Prijestolna dvorana — prijestolje, zastave, dugi stol;04 Tvrđava
+gost-dolazi.mp3;zvuk;—;kratki zvon/zvuk kad gost sjedne za stol;05 Konoba

@@ -1,0 +1,284 @@
+Ana je pametna
+Ana jede kruh
+Ana piše pismo
+Ana radi
+Ana spava, pas spava. Dan je miran
+Ana čita tekst
+Automobil je brz
+Automobil je crn
+Automobil je crven
+Automobil je crven i brz
+Automobil je vani
+Banana je slatka
+Banana je žuta
+Bok!
+Bok! Ja sam Ivan. Tko si ti?
+Bok! Što radiš?
+Bok, Ana! Što radiš?
+Da, dan je savršen!
+Da, jako je dobar. Što piješ?
+Da, mi smo turisti
+Da, molim. Ja sam jako žedan
+Dan je lijep
+Dan je savršen
+Dan je topao
+Dobar dan!
+Dobar dan! Kako ste?
+Dobar tek!
+Dobra večer!
+Dobro jutro!
+Dobro sam, hvala
+Dobro sam, hvala. A vi?
+Doviđenja!
+Drago mi je!
+Drago mi je, Maja!
+Engleskinja
+Englez
+Grad je lijep
+Grad je star
+Hotel je moderan
+Hotel je velik
+Hrvat
+Hrvati su ljubazni
+Hrvatica
+Hrvatska
+Hvala!
+Hvala! Ja sam i vesela
+Hvala! Vi ste jako ljubazni
+I ja sam dobro. Vi ste turisti?
+I meni, Ivane!
+Ivana je vratarka
+Ja gledam udžbenik
+Ja jedem kruh
+Ja pijem sok. Jedeš li?
+Ja pišem e-mail
+Ja pišem pismo
+Ja pišem tekst
+Ja radim
+Ja sam Hrvat
+Ja sam Hrvat, iz Splita
+Ja sam Hrvat, iz Splita. A ti?
+Ja sam Talijanka
+Ja sam Talijanka, ali sam sada u Zagrebu
+Ja sam gladan
+Ja sam jako žedan
+Ja sam kuhar
+Ja sam umorna i gladna
+Ja sam učiteljica
+Ja sam žedan
+Ja slušam film
+Ja slušam radio
+Ja spavam
+Ja učim
+Ja učim hrvatski
+Ja čitam pismo
+Ja čitam tekst
+Ja čitam udžbenik
+Ja čitam. Udžbenik je star, ali je dobar
+Je li film dobar?
+Jesi li ti studentica?
+Kafić je moderan
+Kafić je nov
+Kafić je nov i moderan
+Kako si?
+Kako ste vi?
+Kako ste?
+Kava je crna
+Kava je hladna
+Kava je jako dobra
+Kava je topla i dobra
+Knjiga je lijepa
+Knjiga je stara
+Krevet je nov
+Kuhar je vrijedan
+Kuća je bijela
+Kuća je bijela i velika
+Kuća je lijepa
+Kuća je stara
+Kuća je stara, ali je lijepa
+Lampa je nova
+Lampa je zelena
+Marko gleda udžbenik
+Marko je jak
+Marko jede kruh
+Marko piše tekst
+Mačka jede sendvič
+Mačka spava
+Mi smo gladni
+Mi smo jaki
+Mi smo turisti
+Mi smo umorni
+Mi smo veseli
+Mi smo zauzeti
+More je hladno
+More je lijepo
+More je toplo
+More je veliko
+More je zeleno
+More je zeleno i hladno
+Muzika je dobra
+Muzika je lijepa
+Muzika je nova
+Ne, ja sam učiteljica. A ti?
+Nebo je crno
+Nebo je lijepo
+Nebo je plavo i sunce je toplo
+Nebo je veliko
+Nema na čemu
+Nema na čemu. Doviđenja!
+Nijemac
+Njemica
+Odakle si?
+Odlično! Vidimo se!
+On gleda... sendvič!
+On je drag
+On je glumac
+On je jak
+On je jak i vrijedan
+On je kuhar
+On je ljut
+On je mlad
+On je ozbiljan
+On je ozbiljan i vrijedan
+On je umoran
+On je visok
+On je vozač, a Petra je doktorica
+On je zabavan, ali je i ozbiljan
+On je zabavan, ali je ozbiljan
+On je zauzet
+On jede kruh
+On jede sendvič
+On uči
+On čita udžbenik
+Ona gleda film
+Ona je draga
+Ona je hrabra
+Ona je jaka
+Ona je ljubazna
+Ona je mlada
+Ona je mlada i sretna
+Ona je mlada i vesela
+Ona je niska
+Ona je novinarka
+Ona je ozbiljna
+Ona je pametna i draga
+Ona je sretna
+Ona je tužna
+Ona je umorna
+Ona je učiteljica
+Ona je vesela
+Ona je visoka
+Ona je vrijedna
+Ona je zabavna
+Ona je zauzeta
+Ona pije sok
+Ona piše pismo
+Ona sluša radio
+Ona čita pismo
+Ona čita tekst
+Oni su hrabri
+Oni su hrabri i jaki
+Oni su mladi
+Oni su ozbiljni
+Oni su pametni
+Oni su studenti
+Oni su tužni
+Oni su visoki
+Oni su zabavni
+Oni su zauzeti
+Oprosti!
+Ovo je Damir
+Ovo je Petra
+Ovo je grad
+Ovo je knjiga
+Ovo je susjed
+Pas jede kruh
+Pilot? To je super!
+Policajac je ozbiljan
+Posao je dobar
+Posao je dobar i zabavan
+Poslije pas spava
+Problem je velik
+Restoran je nov
+Sestra jede sendvič
+Sladoled je dobar
+Sladoled je sladak
+Soba je bijela
+Soba je lijepa
+Soba je mala
+Soba je topla
+Sok je hladan i dobar
+Sport je popularan
+Sport je život!
+Stol je star
+Sunce je crveno
+Sunce je lijepo
+Sunce je toplo
+Sunce je veliko
+Sunce je veliko i toplo
+Sunce je žuto
+Super! I ja jedem. Kruh i sir
+Super! Kava?
+Susjed je ljubazan
+Talijan
+Talijanka
+Telefon je nov
+Telefon je nov i brz
+Telefon je star
+Ti gledaš film
+Ti jedeš kruh
+Ti jedeš sendvič
+Ti piješ sok
+Ti pišeš e-mail
+Ti pišeš pismo
+Ti radiš
+Ti si jako zabavan
+Ti si jako zabavna
+Ti si ljubazna
+Ti si pametan
+Ti si pametna!
+Ti si vozač
+Ti slušaš radio
+Ti spavaš
+Ti učiš
+Ti učiš hrvatski
+Ti čitaš tekst
+Ti čitaš udžbenik
+Tko si ti?
+Tko si ti? Student?
+Trener je star
+Turisti su veseli
+Učim hrvatski. A ti?
+Učiteljica je draga
+Velika ili mala?
+Vi ste jako ljubazni
+Vi ste ljubazni
+Vi ste odlični!
+Vi ste profesor
+Vi ste turisti?
+Vi ste zauzeti
+Vidimo se!
+Zid je zelen
+automobil
+drag
+glumac
+gost
+hrabar
+hrvatski
+ime
+kuhar
+ljubazan
+nizak
+novinar
+odakle
+odvjetnik
+ozbiljan
+pjevač
+radnik
+učitelj
+vozač
+vrijedan
+zabavan
+zauzet
+Čokolada je dobra
+šef

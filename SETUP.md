@@ -56,7 +56,8 @@ configured).
 
 | Key | Value |
 |---|---|
-| `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Project Settings → API → `service_role` key |
+| `SUPABASE_URL` | Supabase → Project Settings → API → Project URL (same value hardcoded in `index.html`) |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Project Settings → API → secret key (`sb_secret_...`) |
 | `STRIPE_SECRET_KEY` | Stripe → Developers → API keys → Secret key |
 | `STRIPE_WEBHOOK_SECRET` | from step 3.4 above |
 | `STRIPE_PRICE_ID` | from step 3.2 above |

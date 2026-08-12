@@ -1,0 +1,1545 @@
+{"lema": "aerodrom", "en": ["airport"]}
+{"lema": "alarm", "en": ["alarm", "alarm clock"]}
+{"lema": "ananas", "en": ["pineapple"]}
+{"lema": "auto", "en": ["car", "automobile"]}
+{"lema": "autobus", "en": ["bus", "coach"]}
+{"lema": "avion", "en": ["airplane", "plane", "aircraft"]}
+{"lema": "badminton", "en": ["badminton"]}
+{"lema": "balkon", "en": ["balcony"]}
+{"lema": "balon", "en": ["balloon"]}
+{"lema": "bicikl", "en": ["bicycle", "bike"]}
+{"lema": "bombon", "en": ["candy", "sweet", "bonbon"]}
+{"lema": "brat", "en": ["brother"]}
+{"lema": "brod", "en": ["boat", "ship"]}
+{"lema": "broj", "en": ["number", "figure"]}
+{"lema": "buket", "en": ["bouquet", "bunch of flowers"]}
+{"lema": "centar", "en": ["centre", "center", "downtown"]}
+{"lema": "certifikat", "en": ["certificate"]}
+{"lema": "čaj", "en": ["tea"]}
+{"lema": "ćevap", "en": ["grilled minced meat roll", "kebab"]}
+{"lema": "četvrtak", "en": ["Thursday"]}
+{"lema": "čovjek", "en": ["man", "person", "human being"]}
+{"lema": "dan", "en": ["day"]}
+{"lema": "datum", "en": ["date", "calendar date"]}
+{"lema": "dečko", "en": ["boy", "guy", "boyfriend"]}
+{"lema": "djed", "en": ["grandfather", "grandpa"]}
+{"lema": "dječak", "en": ["boy"]}
+{"lema": "doktor", "en": ["doctor", "physician"]}
+{"lema": "dokumentarac", "en": ["documentary"]}
+{"lema": "dom", "en": ["home", "household"]}
+{"lema": "doručak", "en": ["breakfast"]}
+{"lema": "dres", "en": ["jersey", "kit", "sports shirt"]}
+{"lema": "džem", "en": ["jam", "preserve"]}
+{"lema": "đak", "en": ["pupil", "schoolboy", "student"]}
+{"lema": "e-mail", "en": ["email", "e-mail message"]}
+{"lema": "ekran", "en": ["screen", "display"]}
+{"lema": "euro", "en": ["euro"]}
+{"lema": "fakultet", "en": ["faculty", "university department", "college", "university"]}
+{"lema": "film", "en": ["film", "movie"]}
+{"lema": "finiš", "en": ["finish", "final stretch"]}
+{"lema": "fitnes", "en": ["fitness", "working out"]}
+{"lema": "fotoaparat", "en": ["camera"]}
+{"lema": "galeb", "en": ["seagull", "gull"]}
+{"lema": "gol", "en": ["goal", "score"]}
+{"lema": "golman", "en": ["goalkeeper", "goalie"]}
+{"lema": "golub", "en": ["pigeon", "dove"]}
+{"lema": "gost", "en": ["guest", "visitor", "customer"]}
+{"lema": "grad", "en": ["city", "town"]}
+{"lema": "hobi", "en": ["hobby", "pastime"]}
+{"lema": "horor", "en": ["horror", "horror film"]}
+{"lema": "hotel", "en": ["hotel"]}
+{"lema": "igrač", "en": ["player"]}
+{"lema": "instrument", "en": ["instrument", "musical instrument"]}
+{"lema": "interijer", "en": ["interior"]}
+{"lema": "internet", "en": ["internet"]}
+{"lema": "intervju", "en": ["interview"]}
+{"lema": "ispit", "en": ["exam", "examination", "test"]}
+{"lema": "izlazak", "en": ["night out", "going out", "exit", "sunrise"]}
+{"lema": "jelovnik", "en": ["menu"]}
+{"lema": "jezik", "en": ["language", "tongue"]}
+{"lema": "kafić", "en": ["café", "coffee bar"]}
+{"lema": "kakao", "en": ["cocoa", "hot chocolate"]}
+{"lema": "kamp", "en": ["camp", "campsite"]}
+{"lema": "kapetan", "en": ["captain"]}
+{"lema": "kilometar", "en": ["kilometre", "kilometer"]}
+{"lema": "kiosk", "en": ["kiosk", "newsstand"]}
+{"lema": "kišobran", "en": ["umbrella"]}
+{"lema": "klavir", "en": ["piano"]}
+{"lema": "klub", "en": ["club"]}
+{"lema": "kofer", "en": ["suitcase"]}
+{"lema": "kolač", "en": ["cake", "pastry", "biscuit"]}
+{"lema": "kolodvor", "en": ["station", "railway station", "bus station"]}
+{"lema": "komad", "en": ["piece", "item", "slice"]}
+{"lema": "koncert", "en": ["concert", "gig"]}
+{"lema": "konj", "en": ["horse"]}
+{"lema": "konobar", "en": ["waiter"]}
+{"lema": "kraj", "en": ["end", "ending", "area", "region"]}
+{"lema": "krevet", "en": ["bed"]}
+{"lema": "kruh", "en": ["bread"]}
+{"lema": "kupac", "en": ["customer", "buyer", "shopper"]}
+{"lema": "kvart", "en": ["neighbourhood", "district", "quarter", "area"]}
+{"lema": "kviz", "en": ["quiz"]}
+{"lema": "lav", "en": ["lion"]}
+{"lema": "led", "en": ["ice"]}
+{"lema": "limun", "en": ["lemon"]}
+{"lema": "luk", "en": ["onion", "arch", "bow"]}
+{"lema": "maraton", "en": ["marathon"]}
+{"lema": "metar", "en": ["metre", "meter"]}
+{"lema": "metro", "en": ["metro", "subway", "underground"]}
+{"lema": "milijun", "en": ["million"]}
+{"lema": "mir", "en": ["peace", "quiet", "calm"]}
+{"lema": "miris", "en": ["smell", "scent", "fragrance"]}
+{"lema": "misterij", "en": ["mystery"]}
+{"lema": "mladić", "en": ["young man", "youth", "lad"]}
+{"lema": "most", "en": ["bridge"]}
+{"lema": "motor", "en": ["motorbike", "motorcycle", "engine"]}
+{"lema": "muškarac", "en": ["man", "male"]}
+{"lema": "muzej", "en": ["museum"]}
+{"lema": "nogomet", "en": ["football", "soccer"]}
+{"lema": "nos", "en": ["nose"]}
+{"lema": "novac", "en": ["money"]}
+{"lema": "odgovor", "en": ["answer", "reply", "response"]}
+{"lema": "osmijeh", "en": ["smile"]}
+{"lema": "otok", "en": ["island"]}
+{"lema": "paket", "en": ["package", "parcel"]}
+{"lema": "parfem", "en": ["perfume"]}
+{"lema": "park", "en": ["park"]}
+{"lema": "pas", "en": ["dog"]}
+{"lema": "petak", "en": ["Friday"]}
+{"lema": "pilot", "en": ["pilot"]}
+{"lema": "plan", "en": ["plan"]}
+{"lema": "početak", "en": ["beginning", "start"]}
+{"lema": "poklon", "en": ["present", "gift"]}
+{"lema": "policajac", "en": ["policeman", "police officer"]}
+{"lema": "ponedjeljak", "en": ["Monday"]}
+{"lema": "posao", "en": ["job", "work", "business"]}
+{"lema": "poster", "en": ["poster"]}
+{"lema": "poštar", "en": ["postman", "mail carrier"]}
+{"lema": "prijatelj", "en": ["friend"]}
+{"lema": "problem", "en": ["problem", "issue"]}
+{"lema": "proces", "en": ["process"]}
+{"lema": "program", "en": ["programme", "program", "channel"]}
+{"lema": "promet", "en": ["traffic"]}
+{"lema": "prosinac", "en": ["December"]}
+{"lema": "prozor", "en": ["window"]}
+{"lema": "put", "en": ["way", "road", "journey", "time (occasion)", "time"]}
+{"lema": "račun", "en": ["bill", "check", "receipt", "account"]}
+{"lema": "radio", "en": ["radio"]}
+{"lema": "recept", "en": ["recipe", "prescription"]}
+{"lema": "restoran", "en": ["restaurant"]}
+{"lema": "rezultat", "en": ["result", "score", "outcome"]}
+{"lema": "roditelj", "en": ["parent"]}
+{"lema": "rođendan", "en": ["birthday"]}
+{"lema": "ručak", "en": ["lunch"]}
+{"lema": "san", "en": ["dream", "sleep"]}
+{"lema": "sat", "en": ["hour", "clock", "watch", "lesson"]}
+{"lema": "savjet", "en": ["advice", "piece of advice", "tip"]}
+{"lema": "semafor", "en": ["traffic light", "traffic lights"]}
+{"lema": "sendvič", "en": ["sandwich"]}
+{"lema": "sir", "en": ["cheese"]}
+{"lema": "skuter", "en": ["scooter"]}
+{"lema": "sladoled", "en": ["ice cream"]}
+{"lema": "snijeg", "en": ["snow"]}
+{"lema": "sok", "en": ["juice"]}
+{"lema": "specijalitet", "en": ["speciality", "specialty", "signature dish"]}
+{"lema": "spomenik", "en": ["monument", "memorial"]}
+{"lema": "sport", "en": ["sport", "sports"]}
+{"lema": "sportaš", "en": ["athlete", "sportsman"]}
+{"lema": "sprint", "en": ["sprint"]}
+{"lema": "stadion", "en": ["stadium"]}
+{"lema": "stan", "en": ["flat", "apartment"]}
+{"lema": "start", "en": ["start"]}
+{"lema": "stol", "en": ["table", "desk"]}
+{"lema": "strip", "en": ["comic", "comic strip", "comic book"]}
+{"lema": "student", "en": ["student", "university student"]}
+{"lema": "studio", "en": ["studio"]}
+{"lema": "susjed", "en": ["neighbour", "neighbor"]}
+{"lema": "suvenir", "en": ["souvenir"]}
+{"lema": "svjedok", "en": ["witness"]}
+{"lema": "šah", "en": ["chess"]}
+{"lema": "šal", "en": ["scarf"]}
+{"lema": "šećer", "en": ["sugar"]}
+{"lema": "šešir", "en": ["hat"]}
+{"lema": "šipak", "en": ["rosehip", "pomegranate"]}
+{"lema": "taksi", "en": ["taxi", "cab"]}
+{"lema": "tekst", "en": ["text", "lyrics"]}
+{"lema": "telefon", "en": ["telephone", "phone"]}
+{"lema": "televizor", "en": ["television set", "TV", "television"]}
+{"lema": "tenis", "en": ["tennis"]}
+{"lema": "test", "en": ["test"]}
+{"lema": "tim", "en": ["team"]}
+{"lema": "tjedan", "en": ["week"]}
+{"lema": "trajekt", "en": ["ferry"]}
+{"lema": "tramvaj", "en": ["tram", "streetcar"]}
+{"lema": "trener", "en": ["coach", "trainer", "manager"]}
+{"lema": "trening", "en": ["training", "training session", "practice"]}
+{"lema": "trg", "en": ["square", "town square", "market"]}
+{"lema": "tunel", "en": ["tunnel"]}
+{"lema": "turist", "en": ["tourist"]}
+{"lema": "udžbenik", "en": ["textbook", "coursebook"]}
+{"lema": "ured", "en": ["office"]}
+{"lema": "utorak", "en": ["Tuesday"]}
+{"lema": "val", "en": ["wave"]}
+{"lema": "vegetarijanac", "en": ["vegetarian"]}
+{"lema": "vikend", "en": ["weekend"]}
+{"lema": "vjetar", "en": ["wind"]}
+{"lema": "vlak", "en": ["train"]}
+{"lema": "vokabular", "en": ["vocabulary"]}
+{"lema": "vrt", "en": ["garden"]}
+{"lema": "zid", "en": ["wall"]}
+{"lema": "zvuk", "en": ["sound"]}
+{"lema": "život", "en": ["life"]}
+{"lema": "akcija", "en": ["action", "sale", "special offer"]}
+{"lema": "alergija", "en": ["allergy"]}
+{"lema": "apoteka", "en": ["pharmacy", "chemist's", "drugstore"]}
+{"lema": "aroma", "en": ["aroma", "flavour"]}
+{"lema": "autocesta", "en": ["motorway", "highway", "freeway"]}
+{"lema": "avantura", "en": ["adventure"]}
+{"lema": "baka", "en": ["grandmother", "grandma"]}
+{"lema": "banana", "en": ["banana"]}
+{"lema": "biblioteka", "en": ["library"]}
+{"lema": "biologija", "en": ["biology"]}
+{"lema": "boja", "en": ["colour", "color", "paint"]}
+{"lema": "braća", "en": ["brothers", "siblings"]}
+{"lema": "cesta", "en": ["road"]}
+{"lema": "cipela", "en": ["shoe"]}
+{"lema": "crkva", "en": ["church"]}
+{"lema": "čarapa", "en": ["sock", "stocking"]}
+{"lema": "čestitka", "en": ["greeting card", "congratulation", "card"]}
+{"lema": "čokolada", "en": ["chocolate"]}
+{"lema": "destinacija", "en": ["destination"]}
+{"lema": "dijeta", "en": ["diet"]}
+{"lema": "diploma", "en": ["diploma", "degree"]}
+{"lema": "djevojčica", "en": ["girl", "little girl"]}
+{"lema": "doktorica", "en": ["doctor (female)", "female physician", "doctor"]}
+{"lema": "drama", "en": ["drama"]}
+{"lema": "država", "en": ["country", "state"]}
+{"lema": "farma", "en": ["farm"]}
+{"lema": "fantazija", "en": ["fantasy", "imagination"]}
+{"lema": "fizika", "en": ["physics"]}
+{"lema": "fotografija", "en": ["photograph", "photo", "photography"]}
+{"lema": "galerija", "en": ["gallery"]}
+{"lema": "garaža", "en": ["garage"]}
+{"lema": "garderoba", "en": ["wardrobe", "cloakroom", "changing room"]}
+{"lema": "geografija", "en": ["geography"]}
+{"lema": "gitara", "en": ["guitar"]}
+{"lema": "glava", "en": ["head"]}
+{"lema": "glazba", "en": ["music"]}
+{"lema": "godina", "en": ["year"]}
+{"lema": "gospođa", "en": ["lady", "madam", "Mrs"]}
+{"lema": "gramatika", "en": ["grammar"]}
+{"lema": "greška", "en": ["mistake", "error"]}
+{"lema": "hlača", "en": ["trouser leg", "trousers (pl)", "pants (pl)"]}
+{"lema": "ideja", "en": ["idea"]}
+{"lema": "igla", "en": ["needle", "pin"]}
+{"lema": "informacija", "en": ["information", "piece of information"]}
+{"lema": "instrukcija", "en": ["instruction", "tutoring"]}
+{"lema": "jabuka", "en": ["apple"]}
+{"lema": "jahta", "en": ["yacht"]}
+{"lema": "jakna", "en": ["jacket"]}
+{"lema": "joga", "en": ["yoga"]}
+{"lema": "juha", "en": ["soup"]}
+{"lema": "kamilica", "en": ["chamomile"]}
+{"lema": "kapa", "en": ["cap", "hat", "beanie"]}
+{"lema": "karta", "en": ["ticket", "map", "card"]}
+{"lema": "katedrala", "en": ["cathedral"]}
+{"lema": "kava", "en": ["coffee"]}
+{"lema": "kemija", "en": ["chemistry"]}
+{"lema": "kiša", "en": ["rain"]}
+{"lema": "klinika", "en": ["clinic"]}
+{"lema": "knjiga", "en": ["book"]}
+{"lema": "kolekcija", "en": ["collection"]}
+{"lema": "komedija", "en": ["comedy"]}
+{"lema": "košarka", "en": ["basketball"]}
+{"lema": "krava", "en": ["cow"]}
+{"lema": "kruška", "en": ["pear"]}
+{"lema": "kuća", "en": ["house"]}
+{"lema": "kuhinja", "en": ["kitchen", "cuisine"]}
+{"lema": "kutija", "en": ["box"]}
+{"lema": "lampa", "en": ["lamp"]}
+{"lema": "lekcija", "en": ["lesson"]}
+{"lema": "lektira", "en": ["required reading", "set book"]}
+{"lema": "limunada", "en": ["lemonade"]}
+{"lema": "lopta", "en": ["ball"]}
+{"lema": "lutrija", "en": ["lottery"]}
+{"lema": "mačka", "en": ["cat"]}
+{"lema": "majica", "en": ["T-shirt", "top"]}
+{"lema": "mama", "en": ["mum", "mom", "mother"]}
+{"lema": "mapa", "en": ["map", "folder"]}
+{"lema": "marka", "en": ["stamp", "brand", "make"]}
+{"lema": "marmelada", "en": ["jam", "marmalade"]}
+{"lema": "matematika", "en": ["mathematics", "maths", "math"]}
+{"lema": "melodija", "en": ["melody", "tune"]}
+{"lema": "menta", "en": ["mint"]}
+{"lema": "minuta", "en": ["minute"]}
+{"lema": "mrkva", "en": ["carrot"]}
+{"lema": "muha", "en": ["fly"]}
+{"lema": "muzika", "en": ["music"]}
+{"lema": "naranča", "en": ["orange"]}
+{"lema": "nedjelja", "en": ["Sunday"]}
+{"lema": "noga", "en": ["leg", "foot"]}
+{"lema": "novine", "en": ["newspaper", "press"]}
+{"lema": "njuška", "en": ["snout", "muzzle"]}
+{"lema": "obitelj", "en": ["family"]}
+{"lema": "obrana", "en": ["defence", "defense"]}
+{"lema": "osoba", "en": ["person", "individual"]}
+{"lema": "palačinka", "en": ["pancake", "crepe"]}
+{"lema": "pauza", "en": ["break", "pause", "interval"]}
+{"lema": "pekara", "en": ["bakery"]}
+{"lema": "pita", "en": ["pie", "filled pastry"]}
+{"lema": "pizza", "en": ["pizza"]}
+{"lema": "pjesma", "en": ["song", "poem"]}
+{"lema": "planina", "en": ["mountain"]}
+{"lema": "plaža", "en": ["beach"]}
+{"lema": "pošta", "en": ["post office", "mail", "post"]}
+{"lema": "pozicija", "en": ["position"]}
+{"lema": "priča", "en": ["story", "tale"]}
+{"lema": "prijateljica", "en": ["friend (female)", "friend"]}
+{"lema": "profesorica", "en": ["teacher (female)", "professor (female)", "teacher"]}
+{"lema": "ptica", "en": ["bird"]}
+{"lema": "rajčica", "en": ["tomato"]}
+{"lema": "razlika", "en": ["difference"]}
+{"lema": "rezervacija", "en": ["reservation", "booking"]}
+{"lema": "riba", "en": ["fish"]}
+{"lema": "riječ", "en": ["word"]}
+{"lema": "rijeka", "en": ["river"]}
+{"lema": "riva", "en": ["seaside promenade", "waterfront"]}
+{"lema": "ruka", "en": ["arm", "hand"]}
+{"lema": "salata", "en": ["salad", "lettuce"]}
+{"lema": "sekunda", "en": ["second"]}
+{"lema": "serija", "en": ["series", "TV series"]}
+{"lema": "sestra", "en": ["sister", "nurse"]}
+{"lema": "slika", "en": ["picture", "image", "painting", "photograph"]}
+{"lema": "soba", "en": ["room", "bedroom"]}
+{"lema": "sol", "en": ["salt"]}
+{"lema": "sreća", "en": ["happiness", "luck", "fortune"]}
+{"lema": "srijeda", "en": ["Wednesday"]}
+{"lema": "stanica", "en": ["stop", "station", "cell"]}
+{"lema": "stranica", "en": ["page", "website"]}
+{"lema": "studentica", "en": ["student (female)", "student"]}
+{"lema": "subota", "en": ["Saturday"]}
+{"lema": "škola", "en": ["school"]}
+{"lema": "šuma", "en": ["forest", "woods"]}
+{"lema": "tava", "en": ["frying pan", "pan"]}
+{"lema": "televizija", "en": ["television", "TV"]}
+{"lema": "teretana", "en": ["gym", "fitness centre"]}
+{"lema": "teta", "en": ["aunt", "auntie"]}
+{"lema": "torta", "en": ["cake", "layer cake"]}
+{"lema": "trgovina", "en": ["shop", "store", "trade"]}
+{"lema": "tržnica", "en": ["market", "farmers' market"]}
+{"lema": "tura", "en": ["tour"]}
+{"lema": "turistica", "en": ["tourist (female)", "tourist"]}
+{"lema": "učiteljica", "en": ["teacher (female)", "schoolteacher", "teacher"]}
+{"lema": "ulica", "en": ["street"]}
+{"lema": "uspomena", "en": ["memory", "keepsake", "souvenir"]}
+{"lema": "utakmica", "en": ["match", "game"]}
+{"lema": "večer", "en": ["evening"]}
+{"lema": "vijest", "en": ["news", "piece of news"]}
+{"lema": "vila", "en": ["villa", "fairy"]}
+{"lema": "vožnja", "en": ["ride", "drive", "driving"]}
+{"lema": "vrećica", "en": ["bag", "plastic bag"]}
+{"lema": "zadaća", "en": ["homework", "assignment", "task"]}
+{"lema": "zebra", "en": ["zebra"]}
+{"lema": "zemlja", "en": ["country", "land", "earth", "soil"]}
+{"lema": "zgrada", "en": ["building"]}
+{"lema": "zima", "en": ["winter", "cold"]}
+{"lema": "zvijezda", "en": ["star"]}
+{"lema": "žaba", "en": ["frog"]}
+{"lema": "žena", "en": ["woman", "wife"]}
+{"lema": "žurba", "en": ["hurry", "rush", "haste"]}
+{"lema": "brašno", "en": ["flour"]}
+{"lema": "cvijeće", "en": ["flowers"]}
+{"lema": "dijete", "en": ["child", "kid"]}
+{"lema": "drvo", "en": ["tree", "wood"]}
+{"lema": "grožđe", "en": ["grapes"]}
+{"lema": "jaje", "en": ["egg"]}
+{"lema": "jezero", "en": ["lake"]}
+{"lema": "jutro", "en": ["morning"]}
+{"lema": "kazalište", "en": ["theatre", "theater"]}
+{"lema": "kino", "en": ["cinema", "movie theatre"]}
+{"lema": "ljeto", "en": ["summer"]}
+{"lema": "meso", "en": ["meat"]}
+{"lema": "mjesto", "en": ["place", "spot", "seat", "town", "room"]}
+{"lema": "mlijeko", "en": ["milk"]}
+{"lema": "more", "en": ["sea"]}
+{"lema": "nebo", "en": ["sky", "heaven"]}
+{"lema": "oko", "en": ["eye"]}
+{"lema": "piće", "en": ["drink", "beverage"]}
+{"lema": "pismo", "en": ["letter"]}
+{"lema": "pitanje", "en": ["question"]}
+{"lema": "pivo", "en": ["beer"]}
+{"lema": "plivanje", "en": ["swimming"]}
+{"lema": "podne", "en": ["noon", "midday"]}
+{"lema": "poslijepodne", "en": ["afternoon"]}
+{"lema": "povrće", "en": ["vegetables"]}
+{"lema": "putovanje", "en": ["journey", "trip", "travel"]}
+{"lema": "sunce", "en": ["sun"]}
+{"lema": "svijet", "en": ["world"]}
+{"lema": "trčanje", "en": ["running"]}
+{"lema": "učenje", "en": ["learning", "studying"]}
+{"lema": "uho", "en": ["ear"]}
+{"lema": "vino", "en": ["wine"]}
+{"lema": "voće", "en": ["fruit"]}
+{"lema": "vrata", "en": ["door", "gate"]}
+{"lema": "vrijeme", "en": ["time", "weather"]}
+{"lema": "ljudi", "en": ["people"]}
+{"lema": "djeca", "en": ["children", "kids"]}
+{"lema": "protein", "en": ["protein"]}
+{"lema": "vitamin", "en": ["vitamin"]}
+{"lema": "birati", "en": ["to choose", "to pick", "to select"]}
+{"lema": "biti", "en": ["to be"]}
+{"lema": "brisati", "en": ["to wipe", "to erase", "to delete"]}
+{"lema": "čekati", "en": ["to wait", "to wait for"]}
+{"lema": "čitati", "en": ["to read"]}
+{"lema": "čuti", "en": ["to hear"]}
+{"lema": "davati", "en": ["to give", "to be giving"]}
+{"lema": "dolaziti", "en": ["to come", "to arrive", "to be coming"]}
+{"lema": "fotografirati", "en": ["to photograph", "to take pictures"]}
+{"lema": "gledati", "en": ["to watch", "to look at", "to look"]}
+{"lema": "gubiti", "en": ["to lose", "to be losing"]}
+{"lema": "hodati", "en": ["to walk"]}
+{"lema": "igrati", "en": ["to play (a game or sport)", "to play"]}
+{"lema": "imati", "en": ["to have"]}
+{"lema": "izgledati", "en": ["to look", "to appear", "to seem"]}
+{"lema": "izlaziti", "en": ["to go out", "to exit", "to come out"]}
+{"lema": "jesti", "en": ["to eat"]}
+{"lema": "kazati", "en": ["to say", "to tell"]}
+{"lema": "koštati", "en": ["to cost"]}
+{"lema": "kretati", "en": ["to set off", "to move", "to depart"]}
+{"lema": "kuhati", "en": ["to cook", "to boil"]}
+{"lema": "kupovati", "en": ["to shop", "to be buying", "to buy"]}
+{"lema": "lajati", "en": ["to bark"]}
+{"lema": "letjeti", "en": ["to fly"]}
+{"lema": "mahati", "en": ["to wave"]}
+{"lema": "miješati", "en": ["to mix", "to stir"]}
+{"lema": "misliti", "en": ["to think"]}
+{"lema": "moći", "en": ["can", "to be able to"]}
+{"lema": "naručivati", "en": ["to order", "to be ordering"]}
+{"lema": "navijati", "en": ["to cheer", "to support a team"]}
+{"lema": "nositi", "en": ["to carry", "to wear", "to bring"]}
+{"lema": "otkrivati", "en": ["to discover", "to be discovering", "to uncover"]}
+{"lema": "otvarati", "en": ["to open", "to be opening"]}
+{"lema": "padati", "en": ["to fall", "to be falling", "to rain"]}
+{"lema": "pamtiti", "en": ["to remember", "to memorise"]}
+{"lema": "pisati", "en": ["to write"]}
+{"lema": "piti", "en": ["to drink"]}
+{"lema": "pjevati", "en": ["to sing"]}
+{"lema": "plakati", "en": ["to cry", "to weep"]}
+{"lema": "planirati", "en": ["to plan"]}
+{"lema": "plivati", "en": ["to swim"]}
+{"lema": "pljeskati", "en": ["to clap", "to applaud"]}
+{"lema": "ploviti", "en": ["to sail"]}
+{"lema": "pozdravljati", "en": ["to greet", "to say hello"]}
+{"lema": "poznavati", "en": ["to know (a person)", "to be acquainted with", "to know"]}
+{"lema": "pričati", "en": ["to talk", "to chat", "to tell a story", "to speak"]}
+{"lema": "putovati", "en": ["to travel"]}
+{"lema": "raditi", "en": ["to work", "to do", "to make"]}
+{"lema": "rasti", "en": ["to grow"]}
+{"lema": "razgovarati", "en": ["to talk", "to have a conversation", "to chat", "to speak"]}
+{"lema": "ručati", "en": ["to have lunch"]}
+{"lema": "sjati", "en": ["to shine"]}
+{"lema": "sjediti", "en": ["to sit", "to be sitting"]}
+{"lema": "slati", "en": ["to send"]}
+{"lema": "slušati", "en": ["to listen", "to listen to"]}
+{"lema": "spavati", "en": ["to sleep"]}
+{"lema": "stajati", "en": ["to stand", "to be standing"]}
+{"lema": "svirati", "en": ["to play (an instrument)", "to play"]}
+{"lema": "šetati", "en": ["to stroll", "to take a walk", "to walk"]}
+{"lema": "trajati", "en": ["to last", "to take (time)"]}
+{"lema": "trčati", "en": ["to run"]}
+{"lema": "trebati", "en": ["to need", "to should", "to be necessary", "to have to"]}
+{"lema": "trenirati", "en": ["to train", "to practise", "to coach"]}
+{"lema": "učiti", "en": ["to study", "to learn", "to teach"]}
+{"lema": "vidjeti", "en": ["to see"]}
+{"lema": "visjeti", "en": ["to hang", "to be hanging"]}
+{"lema": "voditi", "en": ["to lead", "to take (someone somewhere)", "to run"]}
+{"lema": "voljeti", "en": ["to love", "to like"]}
+{"lema": "voziti", "en": ["to drive", "to ride"]}
+{"lema": "vući", "en": ["to pull", "to drag"]}
+{"lema": "zaboravljati", "en": ["to forget", "to be forgetting"]}
+{"lema": "zvati", "en": ["to call", "to name", "to phone"]}
+{"lema": "zvučati", "en": ["to sound"]}
+{"lema": "željeti", "en": ["to wish", "to want", "to desire"]}
+{"lema": "živjeti", "en": ["to live"]}
+{"lema": "žuriti", "en": ["to hurry", "to rush"]}
+{"lema": "dati", "en": ["to give"]}
+{"lema": "dobiti", "en": ["to get", "to receive", "to win"]}
+{"lema": "doći", "en": ["to come", "to arrive"]}
+{"lema": "dodati", "en": ["to add", "to pass"]}
+{"lema": "kupiti", "en": ["to buy", "to purchase"]}
+{"lema": "napisati", "en": ["to write", "to finish writing"]}
+{"lema": "naručiti", "en": ["to order"]}
+{"lema": "naučiti", "en": ["to learn", "to teach"]}
+{"lema": "odmoriti", "en": ["to rest"]}
+{"lema": "okrenuti", "en": ["to turn", "to flip", "to turn around"]}
+{"lema": "ostati", "en": ["to stay", "to remain"]}
+{"lema": "otkriti", "en": ["to discover", "to find out", "to reveal"]}
+{"lema": "pasti", "en": ["to fall"]}
+{"lema": "peći", "en": ["to bake", "to roast", "to fry"]}
+{"lema": "početi", "en": ["to begin", "to start"]}
+{"lema": "pobijediti", "en": ["to win", "to defeat", "to beat"]}
+{"lema": "podijeliti", "en": ["to share", "to divide", "to hand out"]}
+{"lema": "pogledati", "en": ["to look", "to take a look", "to watch"]}
+{"lema": "pojesti", "en": ["to eat up", "to finish eating", "to eat"]}
+{"lema": "popiti", "en": ["to drink up", "to finish drinking", "to drink"]}
+{"lema": "poslati", "en": ["to send"]}
+{"lema": "poslužiti", "en": ["to serve"]}
+{"lema": "postati", "en": ["to become"]}
+{"lema": "požuriti", "en": ["to hurry up", "to hurry"]}
+{"lema": "prijeći", "en": ["to cross", "to go over"]}
+{"lema": "pročitati", "en": ["to read through", "to finish reading", "to read"]}
+{"lema": "reći", "en": ["to say", "to tell"]}
+{"lema": "skočiti", "en": ["to jump", "to leap"]}
+{"lema": "skrenuti", "en": ["to turn", "to turn off"]}
+{"lema": "smotati", "en": ["to roll up", "to wrap up"]}
+{"lema": "staviti", "en": ["to put", "to place"]}
+{"lema": "stići", "en": ["to arrive", "to make it in time"]}
+{"lema": "ustati", "en": ["to get up", "to stand up", "to rise"]}
+{"lema": "uzeti", "en": ["to take"]}
+{"lema": "zaboraviti", "en": ["to forget"]}
+{"lema": "zaći", "en": ["to set (of the sun)", "to go behind"]}
+{"lema": "zagrijati", "en": ["to heat up", "to warm up"]}
+{"lema": "zamisliti", "en": ["to imagine", "to picture"]}
+{"lema": "završiti", "en": ["to finish", "to end", "to complete"]}
+{"lema": "htjeti", "en": ["to want", "will (future auxiliary)"]}
+{"lema": "ići", "en": ["to go"]}
+{"lema": "bijel", "en": ["white"]}
+{"lema": "brz", "en": ["fast", "quick", "rapid"]}
+{"lema": "cijeli", "en": ["whole", "entire", "all"]}
+{"lema": "crn", "en": ["black"]}
+{"lema": "crven", "en": ["red"]}
+{"lema": "dobar", "en": ["good", "kind"]}
+{"lema": "drven", "en": ["wooden"]}
+{"lema": "dug", "en": ["long"]}
+{"lema": "glasan", "en": ["loud", "noisy"]}
+{"lema": "gladan", "en": ["hungry"]}
+{"lema": "gotov", "en": ["finished", "done", "ready"]}
+{"lema": "hladan", "en": ["cold", "cool"]}
+{"lema": "hrabar", "en": ["brave", "courageous"]}
+{"lema": "isti", "en": ["same", "identical"]}
+{"lema": "jak", "en": ["strong", "powerful"]}
+{"lema": "kratak", "en": ["short", "brief"]}
+{"lema": "lijep", "en": ["beautiful", "nice", "pretty"]}
+{"lema": "ljut", "en": ["angry", "spicy", "hot (of food)"]}
+{"lema": "malen", "en": ["small", "little", "tiny"]}
+{"lema": "mali", "en": ["small", "little"]}
+{"lema": "mekan", "en": ["soft"]}
+{"lema": "miran", "en": ["calm", "quiet", "peaceful"]}
+{"lema": "mlad", "en": ["young"]}
+{"lema": "moderan", "en": ["modern", "fashionable"]}
+{"lema": "nov", "en": ["new"]}
+{"lema": "odličan", "en": ["excellent", "great"]}
+{"lema": "omiljen", "en": ["favourite", "favorite", "popular"]}
+{"lema": "pametan", "en": ["smart", "clever", "intelligent"]}
+{"lema": "plav", "en": ["blue", "blond"]}
+{"lema": "popularan", "en": ["popular"]}
+{"lema": "pošten", "en": ["honest", "fair"]}
+{"lema": "prošli", "en": ["last", "past", "previous"]}
+{"lema": "pun", "en": ["full", "crowded"]}
+{"lema": "različit", "en": ["different", "various"]}
+{"lema": "savršen", "en": ["perfect"]}
+{"lema": "sjajan", "en": ["great", "brilliant", "shiny"]}
+{"lema": "sladak", "en": ["sweet", "cute"]}
+{"lema": "skup", "en": ["expensive"]}
+{"lema": "slobodan", "en": ["free", "available", "vacant"]}
+{"lema": "smiješan", "en": ["funny", "ridiculous"]}
+{"lema": "spor", "en": ["slow"]}
+{"lema": "star", "en": ["old"]}
+{"lema": "strog", "en": ["strict", "stern"]}
+{"lema": "sretan", "en": ["happy", "lucky"]}
+{"lema": "svjež", "en": ["fresh"]}
+{"lema": "šaren", "en": ["colourful", "colorful", "multicoloured"]}
+{"lema": "težak", "en": ["heavy", "hard", "difficult"]}
+{"lema": "topao", "en": ["warm"]}
+{"lema": "tužan", "en": ["sad"]}
+{"lema": "ukusan", "en": ["tasty", "delicious"]}
+{"lema": "umoran", "en": ["tired"]}
+{"lema": "važan", "en": ["important"]}
+{"lema": "velik", "en": ["big", "large", "great"]}
+{"lema": "veseo", "en": ["cheerful", "merry", "jolly"]}
+{"lema": "visok", "en": ["tall", "high"]}
+{"lema": "zadnji", "en": ["last", "final"]}
+{"lema": "zanimljiv", "en": ["interesting"]}
+{"lema": "zdrav", "en": ["healthy"]}
+{"lema": "zelen", "en": ["green"]}
+{"lema": "živ", "en": ["alive", "lively"]}
+{"lema": "žedan", "en": ["thirsty"]}
+{"lema": "žut", "en": ["yellow"]}
+{"lema": "ja", "en": ["I"]}
+{"lema": "ti", "en": ["you (singular, informal)", "you"]}
+{"lema": "on", "en": ["he", "it"]}
+{"lema": "ona", "en": ["she", "it"]}
+{"lema": "ono", "en": ["it"]}
+{"lema": "mi", "en": ["we"]}
+{"lema": "vi", "en": ["you (plural or polite)", "you"]}
+{"lema": "oni", "en": ["they"]}
+{"lema": "se", "en": ["oneself", "himself", "herself", "themselves"]}
+{"lema": "moj", "en": ["my", "mine"]}
+{"lema": "tvoj", "en": ["your", "yours (singular, informal)"]}
+{"lema": "njegov", "en": ["his", "its"]}
+{"lema": "njezin", "en": ["her", "hers"]}
+{"lema": "naš", "en": ["our", "ours"]}
+{"lema": "vaš", "en": ["your", "yours (plural or polite)"]}
+{"lema": "njihov", "en": ["their", "theirs"]}
+{"lema": "tko", "en": ["who"]}
+{"lema": "što", "en": ["what"]}
+{"lema": "koji", "en": ["which", "that", "who"]}
+{"lema": "čiji", "en": ["whose"]}
+{"lema": "ovaj", "en": ["this"]}
+{"lema": "taj", "en": ["that"]}
+{"lema": "onaj", "en": ["that (over there)", "that"]}
+{"lema": "nešto", "en": ["something", "anything"]}
+{"lema": "ništa", "en": ["nothing"]}
+{"lema": "netko", "en": ["someone", "somebody", "anyone"]}
+{"lema": "sav", "en": ["all", "whole", "everything"]}
+{"lema": "svaki", "en": ["every", "each"]}
+{"lema": "neki", "en": ["some", "a certain"]}
+{"lema": "drugi", "en": ["other", "another", "second"]}
+{"lema": "jedan", "en": ["one", "a"]}
+{"lema": "dva", "en": ["two"]}
+{"lema": "tri", "en": ["three"]}
+{"lema": "četiri", "en": ["four"]}
+{"lema": "pet", "en": ["five"]}
+{"lema": "šest", "en": ["six"]}
+{"lema": "sedam", "en": ["seven"]}
+{"lema": "osam", "en": ["eight"]}
+{"lema": "devet", "en": ["nine"]}
+{"lema": "deset", "en": ["ten"]}
+{"lema": "jedanaest", "en": ["eleven"]}
+{"lema": "dvanaest", "en": ["twelve"]}
+{"lema": "dvadeset", "en": ["twenty"]}
+{"lema": "trideset", "en": ["thirty"]}
+{"lema": "sto", "en": ["hundred"]}
+{"lema": "prvi", "en": ["first"]}
+{"lema": "treći", "en": ["third"]}
+{"lema": "baš", "en": ["exactly", "just", "really"]}
+{"lema": "besplatno", "en": ["for free", "free of charge"]}
+{"lema": "blizu", "en": ["near", "nearby", "close"]}
+{"lema": "bolje", "en": ["better"]}
+{"lema": "brzo", "en": ["quickly", "fast", "soon"]}
+{"lema": "često", "en": ["often", "frequently"]}
+{"lema": "dakle", "en": ["so", "therefore", "thus"]}
+{"lema": "daleko", "en": ["far", "far away"]}
+{"lema": "danas", "en": ["today"]}
+{"lema": "desno", "en": ["right", "to the right"]}
+{"lema": "dosadno", "en": ["boring", "boringly"]}
+{"lema": "doma", "en": ["at home", "home"]}
+{"lema": "dugo", "en": ["for a long time"]}
+{"lema": "gle", "en": ["look", "behold"]}
+{"lema": "glasno", "en": ["loudly", "aloud"]}
+{"lema": "hladno", "en": ["cold", "coldly"]}
+{"lema": "ipak", "en": ["still", "nevertheless", "after all"]}
+{"lema": "jako", "en": ["very", "strongly", "really"]}
+{"lema": "jučer", "en": ["yesterday"]}
+{"lema": "jutros", "en": ["this morning"]}
+{"lema": "kamo", "en": ["where to", "whither", "where"]}
+{"lema": "kasno", "en": ["late"]}
+{"lema": "lijevo", "en": ["left", "to the left"]}
+{"lema": "ljeti", "en": ["in summer"]}
+{"lema": "malo", "en": ["a little", "a bit", "few"]}
+{"lema": "mnogo", "en": ["many", "much", "a lot", "lot"]}
+{"lema": "možda", "en": ["maybe", "perhaps"]}
+{"lema": "napokon", "en": ["finally", "at last"]}
+{"lema": "naravno", "en": ["of course", "naturally"]}
+{"lema": "navečer", "en": ["in the evening"]}
+{"lema": "nažalost", "en": ["unfortunately", "sadly"]}
+{"lema": "nikad", "en": ["never"]}
+{"lema": "odmah", "en": ["immediately", "right away", "at once"]}
+{"lema": "opet", "en": ["again"]}
+{"lema": "pješice", "en": ["on foot"]}
+{"lema": "pola", "en": ["half"]}
+{"lema": "polako", "en": ["slowly", "take it easy"]}
+{"lema": "ponekad", "en": ["sometimes", "occasionally"]}
+{"lema": "poslije", "en": ["afterwards", "later", "after"]}
+{"lema": "prvo", "en": ["first", "firstly"]}
+{"lema": "puno", "en": ["a lot", "much", "many", "lot"]}
+{"lema": "rano", "en": ["early"]}
+{"lema": "ravno", "en": ["straight", "straight ahead"]}
+{"lema": "sada", "en": ["now"]}
+{"lema": "samo", "en": ["only", "just"]}
+{"lema": "skoro", "en": ["almost", "nearly"]}
+{"lema": "sutra", "en": ["tomorrow"]}
+{"lema": "također", "en": ["also", "too", "as well"]}
+{"lema": "tamo", "en": ["there", "over there"]}
+{"lema": "tiho", "en": ["quietly", "softly"]}
+{"lema": "toplo", "en": ["warm", "warmly"]}
+{"lema": "ujutro", "en": ["in the morning"]}
+{"lema": "unutra", "en": ["inside"]}
+{"lema": "usput", "en": ["by the way", "along the way"]}
+{"lema": "uvijek", "en": ["always"]}
+{"lema": "vani", "en": ["outside", "outdoors"]}
+{"lema": "večeras", "en": ["tonight", "this evening"]}
+{"lema": "zajedno", "en": ["together"]}
+{"lema": "zato", "en": ["because of that", "that's why"]}
+{"lema": "zatim", "en": ["then", "next", "after that", "afterwards"]}
+{"lema": "zimi", "en": ["in winter"]}
+{"lema": "bez", "en": ["without"]}
+{"lema": "do", "en": ["to", "until", "up to", "next to"]}
+{"lema": "ispred", "en": ["in front of"]}
+{"lema": "iz", "en": ["from", "out of", "of"]}
+{"lema": "k", "en": ["to", "towards"]}
+{"lema": "kod", "en": ["at", "at someone's place", "near"]}
+{"lema": "kroz", "en": ["through"]}
+{"lema": "na", "en": ["on", "at", "to", "in"]}
+{"lema": "o", "en": ["about", "concerning"]}
+{"lema": "od", "en": ["from", "of", "since", "than"]}
+{"lema": "pokraj", "en": ["next to", "beside", "past", "near"]}
+{"lema": "preko", "en": ["over", "across", "via"]}
+{"lema": "s", "en": ["with", "from (off)", "from"]}
+{"lema": "u", "en": ["in", "into", "at", "inside", "to"]}
+{"lema": "za", "en": ["for", "behind", "in (time)"]}
+{"lema": "i", "en": ["and", "also"]}
+{"lema": "a", "en": ["and", "whereas", "but"]}
+{"lema": "ali", "en": ["but"]}
+{"lema": "jer", "en": ["because"]}
+{"lema": "zato što", "en": ["because", "for the reason that"]}
+{"lema": "kada", "en": ["when"]}
+{"lema": "ako", "en": ["if"]}
+{"lema": "dok", "en": ["while", "until"]}
+{"lema": "iako", "en": ["although", "even though"]}
+{"lema": "kao", "en": ["like", "as"]}
+{"lema": "onda", "en": ["then"]}
+{"lema": "ni", "en": ["neither", "nor", "not even"]}
+{"lema": "li", "en": ["yes/no question particle"]}
+{"lema": "ne", "en": ["no", "not"]}
+{"lema": "da", "en": ["yes", "that (conjunction)", "that"]}
+{"lema": "zar", "en": ["really?", "question particle expressing surprise"]}
+{"lema": "nemoj", "en": ["don't"]}
+{"lema": "sin", "en": ["son"]}
+{"lema": "muž", "en": ["husband"]}
+{"lema": "ujak", "en": ["uncle (mother's brother)", "uncle"]}
+{"lema": "stric", "en": ["uncle (father's brother)", "uncle"]}
+{"lema": "nećak", "en": ["nephew"]}
+{"lema": "unuk", "en": ["grandson"]}
+{"lema": "rođak", "en": ["cousin", "relative"]}
+{"lema": "gospodin", "en": ["gentleman", "sir", "Mr"]}
+{"lema": "momak", "en": ["young man", "guy", "boyfriend"]}
+{"lema": "kolega", "en": ["colleague", "co-worker"]}
+{"lema": "šef", "en": ["boss", "chief", "head"]}
+{"lema": "radnik", "en": ["worker", "labourer"]}
+{"lema": "liječnik", "en": ["doctor", "physician"]}
+{"lema": "učitelj", "en": ["teacher", "schoolteacher"]}
+{"lema": "vozač", "en": ["driver"]}
+{"lema": "pjevač", "en": ["singer"]}
+{"lema": "glumac", "en": ["actor"]}
+{"lema": "pisac", "en": ["writer", "author"]}
+{"lema": "vojnik", "en": ["soldier"]}
+{"lema": "zub", "en": ["tooth"]}
+{"lema": "prst", "en": ["finger", "toe"]}
+{"lema": "vrat", "en": ["neck"]}
+{"lema": "mozak", "en": ["brain"]}
+{"lema": "krov", "en": ["roof"]}
+{"lema": "pod", "en": ["floor", "under"]}
+{"lema": "kat", "en": ["floor", "storey"]}
+{"lema": "ključ", "en": ["key"]}
+{"lema": "ormar", "en": ["wardrobe", "cupboard", "closet"]}
+{"lema": "jastuk", "en": ["pillow", "cushion"]}
+{"lema": "ručnik", "en": ["towel"]}
+{"lema": "sapun", "en": ["soap"]}
+{"lema": "nož", "en": ["knife"]}
+{"lema": "tanjur", "en": ["plate"]}
+{"lema": "kut", "en": ["corner", "angle"]}
+{"lema": "podrum", "en": ["basement", "cellar"]}
+{"lema": "namještaj", "en": ["furniture"]}
+{"lema": "krumpir", "en": ["potato"]}
+{"lema": "grah", "en": ["beans"]}
+{"lema": "kupus", "en": ["cabbage"]}
+{"lema": "orah", "en": ["walnut", "nut"]}
+{"lema": "umak", "en": ["sauce"]}
+{"lema": "obrok", "en": ["meal"]}
+{"lema": "mjesec", "en": ["month", "moon"]}
+{"lema": "trenutak", "en": ["moment", "instant"]}
+{"lema": "vijek", "en": ["century", "age"]}
+{"lema": "rok", "en": ["deadline", "term"]}
+{"lema": "siječanj", "en": ["January"]}
+{"lema": "veljača", "en": ["February"]}
+{"lema": "ožujak", "en": ["March"]}
+{"lema": "travanj", "en": ["April"]}
+{"lema": "svibanj", "en": ["May"]}
+{"lema": "lipanj", "en": ["June"]}
+{"lema": "srpanj", "en": ["July"]}
+{"lema": "kolovoz", "en": ["August"]}
+{"lema": "rujan", "en": ["September"]}
+{"lema": "listopad", "en": ["October"]}
+{"lema": "studeni", "en": ["November"]}
+{"lema": "kamen", "en": ["stone", "rock"]}
+{"lema": "pijesak", "en": ["sand"]}
+{"lema": "oblak", "en": ["cloud"]}
+{"lema": "zrak", "en": ["air"]}
+{"lema": "vrh", "en": ["top", "peak", "tip"]}
+{"lema": "vuk", "en": ["wolf"]}
+{"lema": "medvjed", "en": ["bear"]}
+{"lema": "zec", "en": ["rabbit", "hare"]}
+{"lema": "miš", "en": ["mouse"]}
+{"lema": "strah", "en": ["fear"]}
+{"lema": "uspjeh", "en": ["success"]}
+{"lema": "razlog", "en": ["reason"]}
+{"lema": "cilj", "en": ["goal", "aim", "target"]}
+{"lema": "izbor", "en": ["choice", "selection", "election"]}
+{"lema": "red", "en": ["order", "queue", "line", "row"]}
+{"lema": "rat", "en": ["war"]}
+{"lema": "zakon", "en": ["law"]}
+{"lema": "dogovor", "en": ["agreement", "arrangement", "deal"]}
+{"lema": "način", "en": ["way", "manner", "method"]}
+{"lema": "dio", "en": ["part", "piece", "section"]}
+{"lema": "trošak", "en": ["cost", "expense"]}
+{"lema": "smisao", "en": ["sense", "meaning", "point"]}
+{"lema": "pokušaj", "en": ["attempt", "try"]}
+{"lema": "kći", "en": ["daughter"]}
+{"lema": "supruga", "en": ["wife", "spouse"]}
+{"lema": "unuka", "en": ["granddaughter"]}
+{"lema": "djevojka", "en": ["girl", "young woman", "girlfriend"]}
+{"lema": "kosa", "en": ["hair"]}
+{"lema": "koža", "en": ["skin", "leather"]}
+{"lema": "krv", "en": ["blood"]}
+{"lema": "kost", "en": ["bone"]}
+{"lema": "kupaonica", "en": ["bathroom"]}
+{"lema": "spavaonica", "en": ["bedroom", "dormitory"]}
+{"lema": "polica", "en": ["shelf"]}
+{"lema": "zavjesa", "en": ["curtain"]}
+{"lema": "žlica", "en": ["spoon"]}
+{"lema": "vilica", "en": ["fork", "jaw"]}
+{"lema": "šalica", "en": ["cup", "mug"]}
+{"lema": "boca", "en": ["bottle"]}
+{"lema": "čaša", "en": ["glass"]}
+{"lema": "četka", "en": ["brush"]}
+{"lema": "škare", "en": ["scissors"]}
+{"lema": "breskva", "en": ["peach"]}
+{"lema": "šljiva", "en": ["plum"]}
+{"lema": "trešnja", "en": ["cherry"]}
+{"lema": "jagoda", "en": ["strawberry"]}
+{"lema": "tjestenina", "en": ["pasta"]}
+{"lema": "riža", "en": ["rice"]}
+{"lema": "prošlost", "en": ["past"]}
+{"lema": "budućnost", "en": ["future"]}
+{"lema": "jesen", "en": ["autumn", "fall"]}
+{"lema": "trava", "en": ["grass"]}
+{"lema": "magla", "en": ["fog", "mist"]}
+{"lema": "oluja", "en": ["storm"]}
+{"lema": "munja", "en": ["lightning"]}
+{"lema": "grana", "en": ["branch"]}
+{"lema": "livada", "en": ["meadow"]}
+{"lema": "obala", "en": ["coast", "shore", "bank"]}
+{"lema": "pčela", "en": ["bee"]}
+{"lema": "ovca", "en": ["sheep"]}
+{"lema": "koza", "en": ["goat"]}
+{"lema": "svinja", "en": ["pig"]}
+{"lema": "kokoš", "en": ["hen", "chicken"]}
+{"lema": "lisica", "en": ["fox"]}
+{"lema": "ljubav", "en": ["love"]}
+{"lema": "nada", "en": ["hope"]}
+{"lema": "istina", "en": ["truth"]}
+{"lema": "laž", "en": ["lie", "falsehood"]}
+{"lema": "moć", "en": ["power", "might"]}
+{"lema": "snaga", "en": ["strength", "force", "power"]}
+{"lema": "pomoć", "en": ["help", "assistance", "aid"]}
+{"lema": "promjena", "en": ["change"]}
+{"lema": "potreba", "en": ["need"]}
+{"lema": "mogućnost", "en": ["possibility", "option", "opportunity"]}
+{"lema": "prilika", "en": ["opportunity", "chance", "occasion"]}
+{"lema": "navika", "en": ["habit"]}
+{"lema": "misao", "en": ["thought"]}
+{"lema": "briga", "en": ["worry", "concern", "care"]}
+{"lema": "tuga", "en": ["sadness", "sorrow"]}
+{"lema": "radost", "en": ["joy", "gladness"]}
+{"lema": "sloboda", "en": ["freedom", "liberty"]}
+{"lema": "pravda", "en": ["justice"]}
+{"lema": "vlada", "en": ["government"]}
+{"lema": "vojska", "en": ["army", "military"]}
+{"lema": "bolnica", "en": ["hospital"]}
+{"lema": "plaća", "en": ["salary", "wage", "pay"]}
+{"lema": "cijena", "en": ["price", "cost"]}
+{"lema": "banka", "en": ["bank"]}
+{"lema": "kartica", "en": ["card", "bank card"]}
+{"lema": "nastava", "en": ["classes", "teaching", "lessons"]}
+{"lema": "ocjena", "en": ["grade", "mark", "assessment"]}
+{"lema": "vježba", "en": ["exercise", "practice", "drill"]}
+{"lema": "znanost", "en": ["science"]}
+{"lema": "umjetnost", "en": ["art"]}
+{"lema": "povijest", "en": ["history"]}
+{"lema": "srce", "en": ["heart"]}
+{"lema": "tijelo", "en": ["body"]}
+{"lema": "lice", "en": ["face"]}
+{"lema": "čelo", "en": ["forehead"]}
+{"lema": "koljeno", "en": ["knee"]}
+{"lema": "rame", "en": ["shoulder"]}
+{"lema": "usta", "en": ["mouth"]}
+{"lema": "leđa", "en": ["back"]}
+{"lema": "proljeće", "en": ["spring"]}
+{"lema": "sjećanje", "en": ["memory", "recollection"]}
+{"lema": "znanje", "en": ["knowledge"]}
+{"lema": "iskustvo", "en": ["experience"]}
+{"lema": "pravilo", "en": ["rule"]}
+{"lema": "rješenje", "en": ["solution", "answer"]}
+{"lema": "mišljenje", "en": ["opinion", "view"]}
+{"lema": "društvo", "en": ["society", "company"]}
+{"lema": "prijateljstvo", "en": ["friendship"]}
+{"lema": "djetinjstvo", "en": ["childhood"]}
+{"lema": "selo", "en": ["village", "countryside"]}
+{"lema": "polje", "en": ["field"]}
+{"lema": "brdo", "en": ["hill"]}
+{"lema": "krilo", "en": ["wing", "lap"]}
+{"lema": "gnijezdo", "en": ["nest"]}
+{"lema": "računalo", "en": ["computer"]}
+{"lema": "veselje", "en": ["joy", "merriment", "fun"]}
+{"lema": "razumjeti", "en": ["to understand"]}
+{"lema": "objasniti", "en": ["to explain"]}
+{"lema": "pitati", "en": ["to ask"]}
+{"lema": "odgovoriti", "en": ["to answer", "to reply", "to respond"]}
+{"lema": "pokazati", "en": ["to show", "to point out"]}
+{"lema": "obećati", "en": ["to promise"]}
+{"lema": "zahvaliti", "en": ["to thank"]}
+{"lema": "javiti se", "en": ["to get in touch", "to answer the phone", "to report"]}
+{"lema": "nazvati", "en": ["to call", "to phone", "to name"]}
+{"lema": "dogovoriti", "en": ["to arrange", "to agree on", "to agree"]}
+{"lema": "upoznati", "en": ["to meet", "to get to know", "to introduce"]}
+{"lema": "ponoviti", "en": ["to repeat", "to revise"]}
+{"lema": "nadati se", "en": ["to hope"]}
+{"lema": "bojati se", "en": ["to be afraid", "to fear"]}
+{"lema": "brinuti se", "en": ["to worry", "to take care of", "to care for"]}
+{"lema": "smijati se", "en": ["to laugh"]}
+{"lema": "šaliti se", "en": ["to joke", "to be kidding"]}
+{"lema": "ljutiti se", "en": ["to be angry", "to get angry"]}
+{"lema": "sjetiti se", "en": ["to remember", "to recall"]}
+{"lema": "vjerovati", "en": ["to believe", "to trust"]}
+{"lema": "sumnjati", "en": ["to doubt", "to suspect"]}
+{"lema": "razmišljati", "en": ["to think", "to reflect", "to consider"]}
+{"lema": "sanjati", "en": ["to dream"]}
+{"lema": "mrziti", "en": ["to hate"]}
+{"lema": "osjećati", "en": ["to feel"]}
+{"lema": "tražiti", "en": ["to look for", "to search for", "to ask for", "to search"]}
+{"lema": "pronaći", "en": ["to find"]}
+{"lema": "izgubiti", "en": ["to lose"]}
+{"lema": "čuvati", "en": ["to keep", "to guard", "to look after", "to care for"]}
+{"lema": "pomoći", "en": ["to help"]}
+{"lema": "popraviti", "en": ["to repair", "to fix", "to mend"]}
+{"lema": "pokvariti", "en": ["to break", "to spoil", "to ruin"]}
+{"lema": "čistiti", "en": ["to clean"]}
+{"lema": "prati", "en": ["to wash"]}
+{"lema": "rezati", "en": ["to cut", "to slice"]}
+{"lema": "graditi", "en": ["to build", "to construct"]}
+{"lema": "otvoriti", "en": ["to open"]}
+{"lema": "zatvoriti", "en": ["to close", "to shut"]}
+{"lema": "uključiti", "en": ["to turn on", "to switch on", "to include"]}
+{"lema": "isključiti", "en": ["to turn off", "to switch off", "to exclude"]}
+{"lema": "ostaviti", "en": ["to leave", "to leave behind"]}
+{"lema": "platiti", "en": ["to pay"]}
+{"lema": "prodati", "en": ["to sell"]}
+{"lema": "posuditi", "en": ["to lend", "to borrow"]}
+{"lema": "vratiti", "en": ["to return", "to give back"]}
+{"lema": "donijeti", "en": ["to bring"]}
+{"lema": "primiti", "en": ["to receive", "to accept", "to take"]}
+{"lema": "odlučiti", "en": ["to decide"]}
+{"lema": "pokušati", "en": ["to try", "to attempt"]}
+{"lema": "uspjeti", "en": ["to succeed", "to manage"]}
+{"lema": "promijeniti", "en": ["to change"]}
+{"lema": "nastaviti", "en": ["to continue", "to carry on"]}
+{"lema": "prestati", "en": ["to stop", "to quit", "to cease"]}
+{"lema": "vježbati", "en": ["to practise", "to exercise", "to work out", "to train"]}
+{"lema": "brojati", "en": ["to count"]}
+{"lema": "računati", "en": ["to calculate", "to count on", "to reckon"]}
+{"lema": "morati", "en": ["must", "to have to"]}
+{"lema": "smjeti", "en": ["may", "to be allowed to"]}
+{"lema": "kasniti", "en": ["to be late", "to run late"]}
+{"lema": "ući", "en": ["to enter", "to go in", "to come in"]}
+{"lema": "lagan", "en": ["light", "easy", "light (not heavy)"]}
+{"lema": "jednostavan", "en": ["simple", "easy", "straightforward"]}
+{"lema": "složen", "en": ["complex", "complicated"]}
+{"lema": "siguran", "en": ["safe", "sure", "certain"]}
+{"lema": "opasan", "en": ["dangerous"]}
+{"lema": "čist", "en": ["clean", "pure"]}
+{"lema": "prljav", "en": ["dirty"]}
+{"lema": "suh", "en": ["dry"]}
+{"lema": "mokar", "en": ["wet"]}
+{"lema": "prazan", "en": ["empty"]}
+{"lema": "otvoren", "en": ["open"]}
+{"lema": "zatvoren", "en": ["closed", "shut"]}
+{"lema": "širok", "en": ["wide", "broad"]}
+{"lema": "uzak", "en": ["narrow", "tight"]}
+{"lema": "dubok", "en": ["deep"]}
+{"lema": "debeo", "en": ["thick", "fat"]}
+{"lema": "tanak", "en": ["thin", "slim"]}
+{"lema": "oštar", "en": ["sharp", "harsh"]}
+{"lema": "gorak", "en": ["bitter"]}
+{"lema": "kiseo", "en": ["sour", "acidic"]}
+{"lema": "slan", "en": ["salty"]}
+{"lema": "svijetao", "en": ["light", "bright", "light (not dark)"]}
+{"lema": "taman", "en": ["dark"]}
+{"lema": "jasan", "en": ["clear", "obvious"]}
+{"lema": "koristan", "en": ["useful", "helpful"]}
+{"lema": "moguć", "en": ["possible"]}
+{"lema": "potreban", "en": ["necessary", "needed"]}
+{"lema": "spreman", "en": ["ready", "prepared"]}
+{"lema": "ozbiljan", "en": ["serious"]}
+{"lema": "čudan", "en": ["strange", "odd", "weird"]}
+{"lema": "običan", "en": ["ordinary", "usual", "plain"]}
+{"lema": "poseban", "en": ["special", "particular", "separate"]}
+{"lema": "poznat", "en": ["known", "famous", "familiar"]}
+{"lema": "bogat", "en": ["rich", "wealthy"]}
+{"lema": "jeftin", "en": ["cheap", "inexpensive"]}
+{"lema": "gore", "en": ["up", "above", "upstairs"]}
+{"lema": "dolje", "en": ["down", "below", "downstairs"]}
+{"lema": "naprijed", "en": ["forward", "ahead"]}
+{"lema": "natrag", "en": ["back", "backwards"]}
+{"lema": "ovdje", "en": ["here"]}
+{"lema": "uskoro", "en": ["soon", "shortly"]}
+{"lema": "nedavno", "en": ["recently", "not long ago"]}
+{"lema": "rijetko", "en": ["rarely", "seldom"]}
+{"lema": "obično", "en": ["usually", "normally"]}
+{"lema": "sigurno", "en": ["surely", "certainly", "safely"]}
+{"lema": "vjerojatno", "en": ["probably", "likely"]}
+{"lema": "dovoljno", "en": ["enough", "sufficiently"]}
+{"lema": "između", "en": ["between", "among"]}
+{"lema": "ispod", "en": ["under", "below", "beneath"]}
+{"lema": "iznad", "en": ["above", "over"]}
+{"lema": "prema", "en": ["towards", "according to"]}
+{"lema": "oko (prijedlog)", "en": ["around", "about", "approximately"]}
+{"lema": "protiv", "en": ["against"]}
+{"lema": "zbog", "en": ["because of", "due to", "because"]}
+{"lema": "nakon", "en": ["after"]}
+{"lema": "prije", "en": ["before", "ago"]}
+{"lema": "ili", "en": ["or"]}
+{"lema": "nego", "en": ["than", "but rather", "but"]}
+{"lema": "pa", "en": ["so", "and then", "well"]}
+{"lema": "tisuća", "en": ["thousand"]}
+{"lema": "bolest", "en": ["illness", "disease", "sickness"]}
+{"lema": "bol", "en": ["pain", "ache"]}
+{"lema": "lijek", "en": ["medicine", "drug", "remedy"]}
+{"lema": "kašalj", "en": ["cough"]}
+{"lema": "prehlada", "en": ["cold (illness)", "a cold"]}
+{"lema": "groznica", "en": ["fever"]}
+{"lema": "ozljeda", "en": ["injury"]}
+{"lema": "pregled", "en": ["check-up", "examination", "review"]}
+{"lema": "zdravlje", "en": ["health"]}
+{"lema": "bolestan", "en": ["ill", "sick"]}
+{"lema": "boljeti", "en": ["to hurt", "to ache"]}
+{"lema": "ozdraviti", "en": ["to recover", "to get well"]}
+{"lema": "sastanak", "en": ["meeting", "appointment"]}
+{"lema": "projekt", "en": ["project"]}
+{"lema": "zadatak", "en": ["task", "assignment", "problem"]}
+{"lema": "ugovor", "en": ["contract", "agreement"]}
+{"lema": "izvještaj", "en": ["report"]}
+{"lema": "prijava", "en": ["application", "registration", "report"]}
+{"lema": "potpis", "en": ["signature"]}
+{"lema": "dokument", "en": ["document"]}
+{"lema": "pisač", "en": ["printer"]}
+{"lema": "zaposlenik", "en": ["employee"]}
+{"lema": "direktor", "en": ["director", "manager", "CEO", "boss"]}
+{"lema": "odjel", "en": ["department", "division"]}
+{"lema": "otkaz", "en": ["dismissal", "notice", "the sack"]}
+{"lema": "sastati se", "en": ["to meet", "to have a meeting"]}
+{"lema": "putovnica", "en": ["passport"]}
+{"lema": "viza", "en": ["visa"]}
+{"lema": "prtljaga", "en": ["luggage", "baggage"]}
+{"lema": "peron", "en": ["platform"]}
+{"lema": "gorivo", "en": ["fuel", "petrol"]}
+{"lema": "guma", "en": ["tyre", "tire", "rubber"]}
+{"lema": "kotač", "en": ["wheel"]}
+{"lema": "benzin", "en": ["petrol", "gasoline", "gas", "fuel"]}
+{"lema": "parkiralište", "en": ["car park", "parking lot"]}
+{"lema": "raskrižje", "en": ["crossroads", "intersection", "junction"]}
+{"lema": "pješak", "en": ["pedestrian"]}
+{"lema": "dozvola", "en": ["permit", "licence", "permission"]}
+{"lema": "kazna", "en": ["fine", "penalty", "punishment"]}
+{"lema": "smjer", "en": ["direction", "course"]}
+{"lema": "štednjak", "en": ["cooker", "stove"]}
+{"lema": "pećnica", "en": ["oven"]}
+{"lema": "hladnjak", "en": ["fridge", "refrigerator"]}
+{"lema": "sudoper", "en": ["sink", "kitchen sink"]}
+{"lema": "lonac", "en": ["pot", "saucepan", "pan"]}
+{"lema": "poklopac", "en": ["lid", "cover"]}
+{"lema": "daska", "en": ["board", "plank", "chopping board"]}
+{"lema": "ubrus", "en": ["napkin", "serviette"]}
+{"lema": "začin", "en": ["spice", "seasoning"]}
+{"lema": "kvasac", "en": ["yeast"]}
+{"lema": "tijesto", "en": ["dough", "batter", "pastry"]}
+{"lema": "okus", "en": ["taste", "flavour"]}
+{"lema": "porcija", "en": ["portion", "serving", "helping"]}
+{"lema": "sastojak", "en": ["ingredient"]}
+{"lema": "haljina", "en": ["dress"]}
+{"lema": "suknja", "en": ["skirt"]}
+{"lema": "košulja", "en": ["shirt"]}
+{"lema": "džemper", "en": ["sweater", "jumper", "pullover"]}
+{"lema": "kaput", "en": ["coat", "overcoat"]}
+{"lema": "remen", "en": ["belt", "strap"]}
+{"lema": "torba", "en": ["bag", "handbag"]}
+{"lema": "novčanik", "en": ["wallet", "purse"]}
+{"lema": "popust", "en": ["discount"]}
+{"lema": "veličina", "en": ["size"]}
+{"lema": "poruka", "en": ["message", "text message"]}
+{"lema": "poziv", "en": ["call", "invitation"]}
+{"lema": "razgovor", "en": ["conversation", "talk", "interview"]}
+{"lema": "novinar", "en": ["journalist", "reporter"]}
+{"lema": "članak", "en": ["article"]}
+{"lema": "reklama", "en": ["advertisement", "advert", "commercial"]}
+{"lema": "mreža", "en": ["network", "net", "web"]}
+{"lema": "lozinka", "en": ["password"]}
+{"lema": "zaposliti", "en": ["to employ", "to hire"]}
+{"lema": "parkirati", "en": ["to park"]}
+{"lema": "presjesti", "en": ["to change (trains, buses)", "to transfer", "to change"]}
+{"lema": "prijaviti", "en": ["to report", "to register", "to sign up"]}
+{"lema": "potpisati", "en": ["to sign"]}
+{"lema": "pržiti", "en": ["to fry"]}
+{"lema": "kušati", "en": ["to taste", "to try (food)", "to try"]}
+{"lema": "probati", "en": ["to try", "to try on", "to taste"]}
+{"lema": "obući se", "en": ["to get dressed", "to put clothes on", "to dress"]}
+{"lema": "svući se", "en": ["to get undressed", "to take clothes off"]}
+{"lema": "žaliti se", "en": ["to complain"]}
+{"lema": "preporučiti", "en": ["to recommend"]}
+{"lema": "otkazati", "en": ["to cancel", "to call off"]}
+{"lema": "odgoditi", "en": ["to postpone", "to put off", "to delay"]}
+{"lema": "naplatiti", "en": ["to charge", "to collect payment"]}
+{"lema": "zamijeniti", "en": ["to replace", "to exchange", "to swap", "to change"]}
+{"lema": "zauzet", "en": ["busy", "occupied", "taken"]}
+{"lema": "hitan", "en": ["urgent", "emergency"]}
+{"lema": "uredan", "en": ["tidy", "neat", "orderly"]}
+{"lema": "neuredan", "en": ["untidy", "messy"]}
+{"lema": "začinjen", "en": ["seasoned", "spiced", "spicy"]}
+{"lema": "udoban", "en": ["comfortable", "cosy"]}
+{"lema": "praktičan", "en": ["practical", "handy"]}
+{"lema": "besplatan", "en": ["free", "free of charge"]}
+{"lema": "umjesto", "en": ["instead of"]}
+{"lema": "osim", "en": ["except", "besides", "apart from"]}
+{"lema": "tijekom", "en": ["during", "in the course of"]}
+{"lema": "čim", "en": ["as soon as"]}
+{"lema": "automobil", "en": ["car", "automobile"]}
+{"lema": "cvijet", "en": ["flower", "flowers"]}
+{"lema": "dar", "en": ["gift", "present"]}
+{"lema": "dodir", "en": ["touch"]}
+{"lema": "dućan", "en": ["shop", "store"]}
+{"lema": "izlet", "en": ["trip", "excursion"]}
+{"lema": "mobitel", "en": ["mobile phone", "phone", "cell phone"]}
+{"lema": "odmor", "en": ["break", "rest", "holiday"]}
+{"lema": "papir", "en": ["paper"]}
+{"lema": "plakat", "en": ["poster"]}
+{"lema": "podatak", "en": ["piece of information", "data", "information"]}
+{"lema": "profesor", "en": ["teacher", "professor"]}
+{"lema": "rad", "en": ["work"]}
+{"lema": "slatkiš", "en": ["candy", "sweet"]}
+{"lema": "stav", "en": ["opinion", "attitude"]}
+{"lema": "suprug", "en": ["husband"]}
+{"lema": "šport", "en": ["sport"]}
+{"lema": "tulum", "en": ["party"]}
+{"lema": "ugao", "en": ["corner", "angle"]}
+{"lema": "učenik", "en": ["pupil", "student"]}
+{"lema": "vratar", "en": ["goalkeeper", "doorman"]}
+{"lema": "zaslon", "en": ["screen"]}
+{"lema": "završetak", "en": ["end", "ending"]}
+{"lema": "čamac", "en": ["boat"]}
+{"lema": "otac", "en": ["father", "dad"]}
+{"lema": "tata", "en": ["dad", "daddy", "father"]}
+{"lema": "kopno", "en": ["land", "mainland"]}
+{"lema": "ime", "en": ["name", "first name"]}
+{"lema": "prezime", "en": ["surname", "last name", "name"]}
+{"lema": "pamćenje", "en": ["memory"]}
+{"lema": "značenje", "en": ["meaning"]}
+{"lema": "stanje", "en": ["state", "condition"]}
+{"lema": "područje", "en": ["area", "region"]}
+{"lema": "sjedalo", "en": ["seat"]}
+{"lema": "stopalo", "en": ["foot"]}
+{"lema": "staklo", "en": ["glass"]}
+{"lema": "stablo", "en": ["tree"]}
+{"lema": "slovo", "en": ["letter"]}
+{"lema": "svjetlo", "en": ["light"]}
+{"lema": "stoljeće", "en": ["century"]}
+{"lema": "sveučilište", "en": ["university"]}
+{"lema": "buka", "en": ["noise"]}
+{"lema": "dama", "en": ["lady"]}
+{"lema": "hrana", "en": ["food"]}
+{"lema": "knjižnica", "en": ["library"]}
+{"lema": "konobarica", "en": ["waitress", "waiter"]}
+{"lema": "majka", "en": ["mother", "mum"]}
+{"lema": "mašta", "en": ["imagination", "fantasy"]}
+{"lema": "nafta", "en": ["oil", "petroleum"]}
+{"lema": "narudžba", "en": ["order"]}
+{"lema": "olovka", "en": ["pencil", "pen"]}
+{"lema": "pjevačica", "en": ["singer"]}
+{"lema": "pogreška", "en": ["mistake", "error"]}
+{"lema": "polovica", "en": ["half"]}
+{"lema": "potvrda", "en": ["certificate", "confirmation"]}
+{"lema": "priroda", "en": ["nature", "countryside"]}
+{"lema": "prostorija", "en": ["room"]}
+{"lema": "regija", "en": ["region"]}
+{"lema": "rođakinja", "en": ["cousin"]}
+{"lema": "salveta", "en": ["napkin"]}
+{"lema": "sezona", "en": ["season"]}
+{"lema": "spisateljica", "en": ["writer", "author"]}
+{"lema": "sredina", "en": ["centre", "middle"]}
+{"lema": "stolica", "en": ["chair"]}
+{"lema": "stotina", "en": ["hundred"]}
+{"lema": "strana", "en": ["side", "page"]}
+{"lema": "strina", "en": ["aunt"]}
+{"lema": "susjeda", "en": ["neighbour"]}
+{"lema": "tvrtka", "en": ["company", "firm"]}
+{"lema": "ujna", "en": ["aunt"]}
+{"lema": "uputa", "en": ["instruction"]}
+{"lema": "vegetarijanka", "en": ["vegetarian"]}
+{"lema": "voda", "en": ["water"]}
+{"lema": "zabava", "en": ["party", "fun", "entertainment"]}
+{"lema": "zbirka", "en": ["collection"]}
+{"lema": "životinja", "en": ["animal"]}
+{"lema": "temperatura", "en": ["temperature", "fever"]}
+{"lema": "svjetiljka", "en": ["lamp"]}
+{"lema": "web-stranica", "en": ["website", "web page"]}
+{"lema": "novost", "en": ["piece of news", "novelty"]}
+{"lema": "susjedstvo", "en": ["neighbourhood"]}
+{"lema": "odredište", "en": ["destination"]}
+{"lema": "momčad", "en": ["team"]}
+{"lema": "stvar", "en": ["thing"]}
+{"lema": "noć", "en": ["night"]}
+{"lema": "piletina", "en": ["chicken"]}
+{"lema": "ulaznica", "en": ["ticket"]}
+{"lema": "umivaonik", "en": ["sink", "washbasin"]}
+{"lema": "rječnik", "en": ["dictionary", "vocabulary"]}
+{"lema": "ulje", "en": ["oil"]}
+{"lema": "kemijska", "en": ["pen", "ballpoint pen"]}
+{"lema": "brbljati", "en": ["to chat", "to chatter"]}
+{"lema": "buditi se", "en": ["to wake up"]}
+{"lema": "probuditi se", "en": ["to wake up"]}
+{"lema": "dijeliti", "en": ["to divide", "to share"]}
+{"lema": "dobivati", "en": ["to get", "to receive"]}
+{"lema": "dodavati", "en": ["to add"]}
+{"lema": "donositi", "en": ["to bring"]}
+{"lema": "dovršiti", "en": ["to finish"]}
+{"lema": "govoriti", "en": ["to speak", "to talk", "to say"]}
+{"lema": "imenovati", "en": ["to name", "to appoint"]}
+{"lema": "ispeći", "en": ["to bake", "to roast"]}
+{"lema": "ispričati", "en": ["to tell", "to recount"]}
+{"lema": "ispržiti", "en": ["to fry"]}
+{"lema": "izabrati", "en": ["to choose", "to select"]}
+{"lema": "izaći", "en": ["to go out", "to exit"]}
+{"lema": "izgraditi", "en": ["to build"]}
+{"lema": "izmiješati", "en": ["to mix"]}
+{"lema": "izračunati", "en": ["to calculate"]}
+{"lema": "javiti", "en": ["to report", "to let know"]}
+{"lema": "kišiti", "en": ["to rain"]}
+{"lema": "krenuti", "en": ["to start", "to set off"]}
+{"lema": "mahnuti", "en": ["to wave"]}
+{"lema": "metnuti", "en": ["to put"]}
+{"lema": "mijenjati", "en": ["to change"]}
+{"lema": "nalaziti", "en": ["to find"]}
+{"lema": "naći", "en": ["to find"]}
+{"lema": "naljutiti se", "en": ["to get angry"]}
+{"lema": "naplaćivati", "en": ["to charge"]}
+{"lema": "napraviti", "en": ["to make", "to do"]}
+{"lema": "narasti", "en": ["to grow"]}
+{"lema": "nasmijati se", "en": ["to laugh"]}
+{"lema": "nastavljati", "en": ["to continue"]}
+{"lema": "objašnjavati", "en": ["to explain"]}
+{"lema": "objesiti", "en": ["to hang"]}
+{"lema": "oblačiti se", "en": ["to dress", "to get dressed"]}
+{"lema": "obući", "en": ["to wear", "to put on"]}
+{"lema": "odabrati", "en": ["to choose"]}
+{"lema": "odgađati", "en": ["to delay", "to postpone"]}
+{"lema": "odgovarati", "en": ["to answer", "to reply", "to suit"]}
+{"lema": "odlučivati", "en": ["to decide"]}
+{"lema": "odmarati se", "en": ["to rest"]}
+{"lema": "odrezati", "en": ["to cut", "to cut off"]}
+{"lema": "odsanjati", "en": ["to dream"]}
+{"lema": "odvesti", "en": ["to drive", "to take away"]}
+{"lema": "okretati", "en": ["to turn"]}
+{"lema": "oporaviti se", "en": ["to recover"]}
+{"lema": "oprati", "en": ["to wash"]}
+{"lema": "osjetiti", "en": ["to feel"]}
+{"lema": "ostajati", "en": ["to stay", "to remain"]}
+{"lema": "ostavljati", "en": ["to leave"]}
+{"lema": "otići", "en": ["to leave", "to go away", "to go"]}
+{"lema": "otkazivati", "en": ["to cancel"]}
+{"lema": "otpjevati", "en": ["to sing"]}
+{"lema": "otputovati", "en": ["to travel", "to depart"]}
+{"lema": "očistiti", "en": ["to clean"]}
+{"lema": "plaćati", "en": ["to pay"]}
+{"lema": "plašiti se", "en": ["to fear", "to be afraid"]}
+{"lema": "plesati", "en": ["to dance"]}
+{"lema": "podučavati", "en": ["to teach"]}
+{"lema": "pokazivati", "en": ["to show"]}
+{"lema": "poletjeti", "en": ["to fly", "to take off"]}
+{"lema": "pomagati", "en": ["to help"]}
+{"lema": "ponavljati", "en": ["to repeat"]}
+{"lema": "popravljati", "en": ["to repair", "to fix"]}
+{"lema": "posjetiti", "en": ["to visit"]}
+{"lema": "posjećivati", "en": ["to visit"]}
+{"lema": "poslušati", "en": ["to listen", "to obey"]}
+{"lema": "posluživati", "en": ["to serve"]}
+{"lema": "postajati", "en": ["to become"]}
+{"lema": "posumnjati", "en": ["to doubt"]}
+{"lema": "posuđivati", "en": ["to borrow", "to lend"]}
+{"lema": "potpisivati", "en": ["to sign"]}
+{"lema": "potražiti", "en": ["to look for", "to seek"]}
+{"lema": "potrčati", "en": ["to run"]}
+{"lema": "povesti", "en": ["to lead", "to take along"]}
+{"lema": "povjerovati", "en": ["to believe"]}
+{"lema": "povući", "en": ["to pull"]}
+{"lema": "pozdraviti", "en": ["to greet"]}
+{"lema": "pozvati", "en": ["to call", "to invite"]}
+{"lema": "počinjati", "en": ["to begin", "to start"]}
+{"lema": "požaliti se", "en": ["to complain"]}
+{"lema": "praviti", "en": ["to make"]}
+{"lema": "prebrojati", "en": ["to count"]}
+{"lema": "predavati", "en": ["to teach", "to hand in"]}
+{"lema": "predstaviti", "en": ["to introduce", "to present"]}
+{"lema": "prelaziti", "en": ["to cross"]}
+{"lema": "preporučivati", "en": ["to recommend"]}
+{"lema": "pretraživati", "en": ["to search"]}
+{"lema": "prijavljivati", "en": ["to register", "to report"]}
+{"lema": "primati", "en": ["to receive"]}
+{"lema": "pristati", "en": ["to agree", "to consent"]}
+{"lema": "pričekati", "en": ["to wait"]}
+{"lema": "prodavati", "en": ["to sell"]}
+{"lema": "razbiti", "en": ["to break", "to smash"]}
+{"lema": "sagraditi", "en": ["to build"]}
+{"lema": "sačuvati", "en": ["to save", "to keep"]}
+{"lema": "shvatiti", "en": ["to understand", "to realise"]}
+{"lema": "sijati", "en": ["to shine", "to sow"]}
+{"lema": "sjesti", "en": ["to sit", "to sit down"]}
+{"lema": "sjećati se", "en": ["to remember"]}
+{"lema": "sjeći", "en": ["to cut"]}
+{"lema": "skakati", "en": ["to jump"]}
+{"lema": "skuhati", "en": ["to cook"]}
+{"lema": "slikati", "en": ["to photograph", "to paint"]}
+{"lema": "slomiti", "en": ["to break"]}
+{"lema": "smatrati", "en": ["to think", "to consider"]}
+{"lema": "spasiti", "en": ["to save", "to rescue"]}
+{"lema": "stanovati", "en": ["to live", "to reside"]}
+{"lema": "stati", "en": ["to stand", "to stop"]}
+{"lema": "stavljati", "en": ["to put"]}
+{"lema": "studirati", "en": ["to study"]}
+{"lema": "sviđati se", "en": ["to like", "to appeal"]}
+{"lema": "sresti", "en": ["to meet"]}
+{"lema": "telefonirati", "en": ["to phone", "to call"]}
+{"lema": "ugasiti", "en": ["to turn off", "to switch off"]}
+{"lema": "ulaziti", "en": ["to enter", "to go in"]}
+{"lema": "upaliti", "en": ["to turn on", "to switch on"]}
+{"lema": "upitati", "en": ["to ask"]}
+{"lema": "uspijevati", "en": ["to succeed"]}
+{"lema": "ustajati", "en": ["to get up", "to stand up"]}
+{"lema": "uzimati", "en": ["to take"]}
+{"lema": "vratiti se", "en": ["to return", "to come back"]}
+{"lema": "vraćati", "en": ["to return", "to give back"]}
+{"lema": "zabrinuti se", "en": ["to worry"]}
+{"lema": "zadržati", "en": ["to keep", "to retain"]}
+{"lema": "zagrijavati", "en": ["to heat up"]}
+{"lema": "zahvaljivati", "en": ["to thank"]}
+{"lema": "zakasniti", "en": ["to be late"]}
+{"lema": "zamišljati", "en": ["to imagine"]}
+{"lema": "zamrziti", "en": ["to hate", "to come to hate"]}
+{"lema": "zapamtiti", "en": ["to remember", "to memorise"]}
+{"lema": "zaplakati", "en": ["to cry"]}
+{"lema": "zaplivati", "en": ["to swim"]}
+{"lema": "zapošljavati", "en": ["to employ"]}
+{"lema": "zatražiti", "en": ["to ask for", "to request"]}
+{"lema": "zatvarati", "en": ["to close", "to shut"]}
+{"lema": "zaustaviti", "en": ["to stop"]}
+{"lema": "zavoljeti", "en": ["to love", "to grow fond of"]}
+{"lema": "završavati", "en": ["to finish", "to end"]}
+{"lema": "zaželjeti", "en": ["to wish"]}
+{"lema": "znati", "en": ["to know"]}
+{"lema": "činiti se", "en": ["to seem", "to appear"]}
+{"lema": "štedjeti", "en": ["to save", "to economise"]}
+{"lema": "bistar", "en": ["clear", "bright"]}
+{"lema": "bučan", "en": ["noisy", "loud"]}
+{"lema": "dobrodošao", "en": ["welcome"]}
+{"lema": "dopušten", "en": ["allowed", "permitted"]}
+{"lema": "dosadan", "en": ["boring"]}
+{"lema": "dostupan", "en": ["available"]}
+{"lema": "drag", "en": ["nice", "dear"]}
+{"lema": "fin", "en": ["nice", "fine"]}
+{"lema": "golem", "en": ["big", "huge"]}
+{"lema": "iskren", "en": ["honest", "sincere"]}
+{"lema": "izvrstan", "en": ["excellent"]}
+{"lema": "kasan", "en": ["late"]}
+{"lema": "kompliciran", "en": ["complicated"]}
+{"lema": "krasan", "en": ["beautiful", "lovely"]}
+{"lema": "kriv", "en": ["wrong", "guilty"]}
+{"lema": "mračan", "en": ["dark"]}
+{"lema": "mršav", "en": ["thin", "skinny"]}
+{"lema": "nizak", "en": ["short", "low"]}
+{"lema": "nužan", "en": ["necessary"]}
+{"lema": "ogroman", "en": ["big", "huge", "enormous"]}
+{"lema": "pogrešan", "en": ["wrong", "incorrect"]}
+{"lema": "prekrasan", "en": ["beautiful", "gorgeous"]}
+{"lema": "preplašen", "en": ["afraid", "frightened"]}
+{"lema": "radostan", "en": ["cheerful", "joyful"]}
+{"lema": "ružan", "en": ["ugly"]}
+{"lema": "slab", "en": ["weak"]}
+{"lema": "slavan", "en": ["famous"]}
+{"lema": "snažan", "en": ["strong", "powerful"]}
+{"lema": "suvremen", "en": ["modern", "contemporary"]}
+{"lema": "tih", "en": ["quiet", "silent"]}
+{"lema": "uplašen", "en": ["afraid", "scared"]}
+{"lema": "zadovoljan", "en": ["happy", "satisfied"]}
+{"lema": "sam", "en": ["alone", "by oneself"]}
+{"lema": "drukčiji", "en": ["different"]}
+{"lema": "desni", "en": ["right"]}
+{"lema": "lijevi", "en": ["left"]}
+{"lema": "jedini", "en": ["only", "sole"]}
+{"lema": "ostali", "en": ["other", "remaining"]}
+{"lema": "prijašnji", "en": ["previous", "former"]}
+{"lema": "obilazak", "en": ["tour", "sightseeing"]}
+{"lema": "hlače", "en": ["pants", "trousers"]}
+{"lema": "dobro", "en": ["well"]}
+{"lema": "gotovo", "en": ["almost", "nearly"]}
+{"lema": "konačno", "en": ["finally", "at last"]}
+{"lema": "ponovno", "en": ["again"]}
+{"lema": "sporo", "en": ["slowly"]}
+{"lema": "stvarno", "en": ["really", "truly"]}
+{"lema": "točno", "en": ["exactly", "precisely"]}
+{"lema": "previše", "en": ["too", "too much"]}
+{"lema": "vrlo", "en": ["very"]}
+{"lema": "upravo", "en": ["just", "right now"]}
+{"lema": "još", "en": ["still", "yet", "more"]}
+{"lema": "tada", "en": ["then", "at that time"]}
+{"lema": "tako", "en": ["so", "like that"]}
+{"lema": "tu", "en": ["here"]}
+{"lema": "ondje", "en": ["there"]}
+{"lema": "gdje", "en": ["where"]}
+{"lema": "kako", "en": ["how"]}
+{"lema": "koliko", "en": ["how much", "how many"]}
+{"lema": "zašto", "en": ["why"]}
+{"lema": "noćas", "en": ["tonight", "last night"]}
+{"lema": "kući", "en": ["home", "homewards"]}
+{"lema": "već", "en": ["already"]}
+{"lema": "nekoliko", "en": ["some", "a few", "several"]}
+{"lema": "super", "en": ["great", "super"]}
+{"lema": "iza", "en": ["behind", "after"]}
+{"lema": "izvan", "en": ["outside", "out of"]}
+{"lema": "među", "en": ["among", "between"]}
+{"lema": "niti", "en": ["neither", "nor"]}
+{"lema": "bok", "en": ["hi", "hello", "bye"]}
+{"lema": "hvala", "en": ["thank you", "thanks"]}
+{"lema": "molim", "en": ["please", "you are welcome", "pardon"]}
+{"lema": "zdravo", "en": ["hello", "hi"]}
+{"lema": "dobar dan", "en": ["hello", "good day", "good afternoon"]}
+{"lema": "dobro došli", "en": ["welcome"]}
+{"lema": "medicinska sestra", "en": ["nurse"]}
+{"lema": "godišnje doba", "en": ["season"]}
+{"lema": "za vrijeme", "en": ["during"]}
+{"lema": "bolji", "en": ["better"]}
+{"lema": "dvije", "en": ["two"]}
+{"lema": "svi", "en": ["all", "everyone"]}
+{"lema": "sve", "en": ["everything", "all"]}
+{"lema": "one", "en": ["they"]}
+{"lema": "nju", "en": ["her"]}
+{"lema": "joj", "en": ["her", "to her"]}
+{"lema": "ovo", "en": ["this"]}
+{"lema": "vijesti", "en": ["news"]}
+{"lema": "novosti", "en": ["news"]}
+{"lema": "sad", "en": ["now"]}
+{"lema": "sa", "en": ["with"]}
+{"lema": "kad", "en": ["when"]}
+{"lema": "šta", "en": ["what"]}
+{"lema": "narančast", "en": ["orange"]}
+{"lema": "porasti", "en": ["to grow", "to increase"]}
+{"lema": "zasjati", "en": ["to shine", "to start shining"]}
+{"lema": "odsvirati", "en": ["to play"]}
+{"lema": "prošetati", "en": ["to take a walk"]}
+{"lema": "zazvučati", "en": ["to sound"]}
+{"lema": "proživjeti", "en": ["to live through", "to experience"]}
+{"lema": "odmarati", "en": ["to rest"]}
+{"lema": "odmoriti se", "en": ["to rest", "to take a rest"]}
+{"lema": "pobjeđivati", "en": ["to win", "to defeat"]}
+{"lema": "skretati", "en": ["to turn"]}
+{"lema": "motati", "en": ["to roll", "to wind"]}
+{"lema": "stizati", "en": ["to arrive"]}
+{"lema": "zalaziti", "en": ["to set", "to go down"]}
+{"lema": "javljati se", "en": ["to get in touch", "to answer"]}
+{"lema": "javljati", "en": ["to report", "to let know"]}
+{"lema": "nazivati", "en": ["to call", "to name"]}
+{"lema": "dogovarati", "en": ["to arrange", "to agree"]}
+{"lema": "upoznavati", "en": ["to meet", "to get to know"]}
+{"lema": "uplašiti se", "en": ["to get scared", "to become afraid"]}
+{"lema": "razmisliti", "en": ["to think over", "to consider"]}
+{"lema": "pronalaziti", "en": ["to find"]}
+{"lema": "kvariti", "en": ["to spoil", "to break"]}
+{"lema": "razrezati", "en": ["to cut up"]}
+{"lema": "uključivati", "en": ["to turn on", "to include"]}
+{"lema": "isključivati", "en": ["to turn off", "to exclude"]}
+{"lema": "pokušavati", "en": ["to try"]}
+{"lema": "prestajati", "en": ["to stop", "to cease"]}
+{"lema": "uvježbati", "en": ["to practise", "to master"]}
+{"lema": "izbrojati", "en": ["to count"]}
+{"lema": "ozdravljati", "en": ["to recover", "to get well"]}
+{"lema": "sastajati se", "en": ["to meet"]}
+{"lema": "presjedati", "en": ["to change", "to transfer"]}
+{"lema": "svlačiti se", "en": ["to undress"]}
+{"lema": "zamjenjivati", "en": ["to replace", "to exchange"]}
+{"lema": "dovršavati", "en": ["to finish"]}
+{"lema": "metati", "en": ["to put"]}
+{"lema": "vješati", "en": ["to hang"]}
+{"lema": "oblačiti", "en": ["to dress"]}
+{"lema": "odabirati", "en": ["to choose"]}
+{"lema": "odvoziti", "en": ["to drive away", "to take away"]}
+{"lema": "oporavljati se", "en": ["to recover"]}
+{"lema": "odlaziti", "en": ["to leave", "to go away"]}
+{"lema": "podučiti", "en": ["to teach"]}
+{"lema": "pozivati", "en": ["to call", "to invite"]}
+{"lema": "predati", "en": ["to hand in", "to submit"]}
+{"lema": "predstavljati", "en": ["to introduce", "to represent"]}
+{"lema": "pretražiti", "en": ["to search"]}
+{"lema": "pristajati", "en": ["to agree", "to fit"]}
+{"lema": "razbijati", "en": ["to break", "to smash"]}
+{"lema": "shvaćati", "en": ["to understand"]}
+{"lema": "sjedati", "en": ["to sit down"]}
+{"lema": "odsjeći", "en": ["to cut off"]}
+{"lema": "naslikati", "en": ["to paint"]}
+{"lema": "lomiti", "en": ["to break"]}
+{"lema": "spašavati", "en": ["to save", "to rescue"]}
+{"lema": "svidjeti se", "en": ["to like", "to appeal"]}
+{"lema": "sretati", "en": ["to meet"]}
+{"lema": "gasiti", "en": ["to turn off", "to extinguish"]}
+{"lema": "paliti", "en": ["to turn on", "to light"]}
+{"lema": "vraćati se", "en": ["to return", "to come back"]}
+{"lema": "zadržavati", "en": ["to keep", "to retain"]}
+{"lema": "zaustavljati", "en": ["to stop"]}
+{"lema": "uštedjeti", "en": ["to save", "to save up"]}
+{"lema": "zaboljeti", "en": ["to start hurting", "to ache"]}
+{"lema": "obrisati", "en": ["to wipe", "to erase", "to delete"]}
+{"lema": "odigrati", "en": ["to play"]}
+{"lema": "pomisliti", "en": ["to think"]}
+{"lema": "porazgovarati", "en": ["to talk", "to have a talk"]}
+{"lema": "odspavati", "en": ["to sleep", "to have a sleep"]}
+{"lema": "našaliti se", "en": ["to joke"]}
+{"lema": "otplesati", "en": ["to dance"]}
+{"lema": "saznati", "en": ["to find out", "to learn"]}
+{"lema": "saznavati", "en": ["to find out", "to learn"]}
+{"lema": "ponijeti", "en": ["to take", "to carry"]}
+{"lema": "prohodati", "en": ["to start walking"]}
+{"lema": "zalajati", "en": ["to bark"]}
+{"lema": "zaploviti", "en": ["to set sail"]}
+{"lema": "pljesnuti", "en": ["to clap"]}
+{"lema": "svoj", "en": ["one's own"]}
+{"lema": "kakav", "en": ["what kind of", "what ... like"]}
+{"lema": "prepisati", "en": ["to copy out", "to transcribe"]}
+{"lema": "zapisati", "en": ["to note down", "to write down"]}
+{"lema": "opisati", "en": ["to describe"]}
+{"lema": "odjeća", "en": ["clothes", "clothing"]}
+{"lema": "prijevoz", "en": ["transport", "transportation"]}
+{"lema": "zbor", "en": ["choir"]}
+{"lema": "fan", "en": ["fan"]}
+{"lema": "jogurt", "en": ["yoghurt", "yogurt"]}
+{"lema": "časopis", "en": ["magazine"]}
+{"lema": "roman", "en": ["novel"]}
+{"lema": "crtić", "en": ["cartoon"]}
+{"lema": "legenda", "en": ["legend"]}
+{"lema": "foka", "en": ["seal"]}
+{"lema": "jelo", "en": ["dish", "food"]}
+{"lema": "izvoliti", "en": ["here you are", "go ahead"]}
+{"lema": "oprostiti", "en": ["to forgive", "to excuse"]}
+{"lema": "postojati", "en": ["to exist", "there is"]}
+{"lema": "crtati", "en": ["to draw"]}
+{"lema": "večerati", "en": ["to have dinner"]}
+{"lema": "šutjeti", "en": ["to be silent", "to keep quiet"]}
+{"lema": "organski", "en": ["organic"]}
+{"lema": "ovako", "en": ["like this", "this way"]}
+{"lema": "tek", "en": ["only", "just"]}
+{"lema": "dobar tek", "en": ["enjoy your meal", "bon appetit"]}
+{"lema": "halo", "en": ["hello (on the phone)"]}
+{"lema": "doviđenja", "en": ["goodbye"]}
+{"lema": "moga", "en": ["of my", "my"]}
+{"lema": "mog", "en": ["of my", "my"]}
+{"lema": "mom", "en": ["to my", "my"]}
+{"lema": "jednog", "en": ["of one", "one"]}
+{"lema": "jednom", "en": ["to one", "once"]}
+{"lema": "nemojte", "en": ["don't (plural / polite)"]}
+{"lema": "duže", "en": ["longer"]}
+{"lema": "pretežak", "en": ["too hard", "too heavy"]}

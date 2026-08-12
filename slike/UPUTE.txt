@@ -1,0 +1,18 @@
+SLIKE — upute
+
+U ovaj folder stavljaj slike (jpg, jpeg, png, gif, webp, bmp, avif, svg).
+
+Pravilo imenovanja: naziv datoteke = hrvatska riječ, fraza ili rečenica, točno kako
+glasi u md-ovima. Primjeri:
+  kuća.jpg
+  Kuća je velika.png       (točka iz rečenice se može izostaviti)
+  Kako si.webp             (upitnik nije dopušten u nazivu — samo ga izostavi)
+
+Pri sparivanju se ignoriraju velika/mala slova i interpunkcija na kraju (. ! ?),
+pa "Kuća je velika.png" pokriva i rečenicu "Kuća je velika."
+
+Nakon dodavanja ili promjene slika pokreni osvježi.bat — slike se upisuju u data.js
+i automatski se prikazuju u svim igrama gdje se tekst stavke poklapa s nazivom slike
+(kartice, parovi, izbor, upis, slaganje, razvrstavanje, memory, brzina, provjera).
+
+Ova .txt datoteka se ignorira.
