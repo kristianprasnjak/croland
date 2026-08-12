@@ -5762,12 +5762,16 @@
     var statPretplate;
     if (imaPretplatu()) {
       var datum = ENTITLEMENT.current_period_end ? new Date(ENTITLEMENT.current_period_end).toLocaleDateString() : '';
+      var portalSpreman = STRIPE_PORTAL_URL.indexOf('YOUR-PORTAL-LINK') === -1;
       statPretplate =
         '<h2 style="font-size:1rem;margin:22px 0 8px">Croland Plus ✓</h2>' +
         '<p style="color:var(--muted);font-size:.9rem;margin-bottom:10px">Active' +
           (datum ? ' · renews ' + datum : '') + '</p>' +
-        '<a class="gumb gumbSivi" style="max-width:300px;display:inline-block;text-align:center;text-decoration:none" ' +
-          'href="' + STRIPE_PORTAL_URL + '" target="_blank" rel="noopener">Manage subscription</a>';
+        (portalSpreman
+          ? '<a class="gumb gumbSivi" style="max-width:300px;display:inline-block;text-align:center;text-decoration:none" ' +
+            'href="' + STRIPE_PORTAL_URL + '" target="_blank" rel="noopener">Manage subscription</a>'
+          : '<p style="color:var(--muted);font-size:.85rem">Subscription management link not set up yet ' +
+            '(STRIPE_PORTAL_URL in index.html) — contact us to change or cancel for now.</p>');
     } else if (PRETPLATA_UCITAVA) {
       statPretplate =
         '<h2 style="font-size:1rem;margin:22px 0 8px">Croland Plus</h2>' +
