@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Croland — Lesson 0</title>
+<style>
+  :root {
+    --bg: #f2f4f8; --card: #ffffff; --ink: #1f2937; --muted: #6b7280;
+    --plava: #2563eb; --zelena: #16a34a; --crvena: #dc2626; --rub: #e5e7eb;
+    --zlatna: #d97706; --traka: 74px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--ink);
+    min-height: 100vh; padding-bottom: calc(var(--traka) + 12px); overflow-x: hidden;
+  }
+
+  header {
+    background: var(--card); border-bottom: 1px solid var(--rub);
+    padding: 12px 20px; display: flex; align-items: center; gap: 12px;
+    position: sticky; top: 0; z-index: 20;
+  }
+  header .logo { font-weight: 700; font-size: 1.15rem; color: var(--plava); }
+  header .pod { font-size: .85rem; color: var(--muted); }
+
+  #ekran { max-width: 900px; margin: 0 auto; padding: 20px 16px 24px; }
+
+  .uputa { text-align: center; font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
+  .uputa2 { text-align: center; font-size: .85rem; color: var(--muted); margin-bottom: 18px; }
+
+  .gumb {
+    display: block; margin: 22px auto 0; padding: 12px 34px; border: none;
+    border-radius: 12px; background: var(--plava); color: #fff; font-size: 1rem;
+    font-weight: 600; cursor: pointer; font-family: inherit;
+    box-shadow: 0 2px 8px rgba(37,99,235,.28); transition: transform .12s, box-shadow .15s;
+  }
+  .gumb:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37,99,235,.34); }
+  .gumb.siv { background: var(--card); color: var(--muted); border: 1px solid var(--rub); box-shadow: none; }
+
+  /* ---------- SPAJANJE ---------- */
+  .mrezaSlika { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .poljeSlika {
+    background: var(--card); border: 2px solid var(--rub); border-radius: 14px;
+    padding: 8px; text-align: center; cursor: pointer; position: relative;
+    transition: border-color .15s, transform .12s;
+  }
+  .poljeSlika img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; pointer-events: none; }
+  .poljeSlika.odabran { border-color: var(--plava); transform: translateY(-2px); }
+  .poljeSlika.rijesen { border-color: var(--zelena); }
+  .poljeSlika .natpis {
+    font-weight: 700; font-size: .95rem; color: var(--zelena); margin-top: 2px;
+    min-height: 1.25em; letter-spacing: .01em;
+  }
+  .rijeci { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+  .cip {
+    background: var(--card); border: 2px solid var(--rub); border-radius: 999px;
+    padding: 9px 18px; font-size: 1rem; font-weight: 600; cursor: pointer;
+    transition: border-color .15s, transform .12s, opacity .2s;
+  }
+  .cip.odabran { border-color: var(--plava); transform: translateY(-2px); }
+  .cip.potroseno { opacity: 0; pointer-events: none; }
+  .tresi { animation: tresi .32s; }
+  @keyframes tresi {
+    0%,100% { transform: translateX(0); } 25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+  }
+
+  /* ---------- MEMORIJA ---------- */
+  .mrezaMem { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; max-width: 560px; margin: 0 auto; }
+  .karta { aspect-ratio: 1; perspective: 700px; cursor: pointer; }
+  .karta .unut {
+    position: relative; width: 100%; height: 100%; transition: transform .4s;
+    transform-style: preserve-3d;
+  }
+  .karta.otvorena .unut { transform: rotateY(180deg); }
+  .karta .lice, .karta .nalicje {
+    position: absolute; inset: 0; backface-visibility: hidden;
+    border-radius: 12px; border: 2px solid var(--rub); background: var(--card);
+    display: flex; align-items: center; justify-content: center; padding: 6px;
+  }
+  .karta .lice { background: var(--plava); border-color: var(--plava); color: #fff; font-size: 1.6rem; }
+  .karta .nalicje { transform: rotateY(180deg); }
+  .karta .nalicje img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .karta .nalicje span { font-weight: 700; font-size: .95rem; text-align: center; }
+  .karta.spojena .nalicje { border-color: var(--zelena); background: #f0fdf4; }
+  .karta.spojena { pointer-events: none; }
+
+  /* ---------- BALONI ---------- */
+  #nebo {
+    position: relative; height: 340px; background: linear-gradient(#eaf2ff, #f7fbff);
+    border: 1px solid var(--rub); border-radius: 16px; overflow: hidden;
+  }
+  .balon {
+    position: absolute; padding: 9px 16px; border-radius: 999px; background: var(--card);
+    border: 2px solid var(--plava); font-weight: 600; font-size: .95rem; cursor: pointer;
+    white-space: nowrap; box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  }
+  .balon.pukao { animation: pukao .3s forwards; pointer-events: none; }
+  @keyframes pukao { to { transform: scale(1.6); opacity: 0; } }
+  .meta { text-align: center; margin-bottom: 12px; }
+  .meta img { width: 120px; height: 120px; object-fit: contain; }
+
+  /* ---------- VLAK ---------- */
+  #vlak { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+  .vagon {
+    background: var(--card); border: 2px dashed var(--rub); border-radius: 14px;
+    min-height: 132px; padding: 8px; text-align: center; cursor: pointer; transition: border-color .15s;
+  }
+  .vagon.ciljan { border-color: var(--plava); border-style: solid; }
+  .vagon .ime { font-weight: 700; font-size: .85rem; color: var(--muted); margin-bottom: 6px; }
+  .vagon .teret { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; }
+  .vagon .teret img { width: 34px; height: 34px; object-fit: contain; }
+  #peron { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  #peron .paket {
+    background: var(--card); border: 2px solid var(--rub); border-radius: 12px;
+    padding: 6px; cursor: pointer; width: 84px; text-align: center; transition: border-color .15s, transform .12s;
+  }
+  #peron .paket img { width: 100%; aspect-ratio: 1; object-fit: contain; }
+  #peron .paket.odabran { border-color: var(--plava); transform: translateY(-3px); }
+  #peron .paket.otislo { display: none; }
+  .odlazak { animation: odlazak .9s forwards; }
+  @keyframes odlazak { to { transform: translateX(120%); opacity: 0; } }
+
+  /* ---------- SLOVA ---------- */
+  .slagaliste {
+    display: flex; gap: 6px; justify-content: center; margin: 14px 0; min-height: 56px; flex-wrap: wrap;
+  }
+  .prazno {
+    width: 46px; height: 54px; border-bottom: 3px solid var(--rub); border-radius: 4px;
+    display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700;
+    text-transform: uppercase;
+  }
+  .prazno.pun { border-bottom-color: var(--plava); }
+  .plocice { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .plocica {
+    min-width: 46px; height: 52px; padding: 0 10px; border-radius: 10px; background: var(--card);
+    border: 2px solid var(--rub); font-size: 1.35rem; font-weight: 700; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; text-transform: uppercase;
+    transition: transform .12s, opacity .2s;
+  }
+  .plocica:hover { transform: translateY(-2px); border-color: var(--plava); }
+  .plocica.potroseno { opacity: .22; pointer-events: none; }
+
+  /* ---------- PAMTI ---------- */
+  .bljesak { display: flex; gap: 14px; justify-content: center; min-height: 150px; align-items: center; }
+  .bljesak img { width: 130px; height: 130px; object-fit: contain; }
+  .redoslijed { display: flex; gap: 8px; justify-content: center; margin-bottom: 14px; min-height: 46px; }
+  .mjesto {
+    width: 110px; height: 44px; border: 2px dashed var(--rub); border-radius: 10px;
+    display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9rem;
+  }
+  .mjesto.pun { border-style: solid; border-color: var(--plava); }
+  .mjesto.tocno { border-color: var(--zelena); background: #f0fdf4; }
+  .mjesto.krivo { border-color: var(--crvena); background: #fef2f2; }
+
+  /* ---------- ZID ---------- */
+  .zid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .zid .cigla {
+    background: var(--card); border: 1px solid var(--rub); border-radius: 10px; padding: 5px;
+    text-align: center; cursor: pointer; transition: transform .12s, border-color .15s;
+  }
+  .zid .cigla:hover { transform: translateY(-2px); border-color: var(--plava); }
+  .zid .cigla img { width: 100%; aspect-ratio: 1; object-fit: contain; }
+  .zid .cigla .r { font-size: .72rem; font-weight: 600; margin-top: 2px; }
+  .kraj { text-align: center; margin-top: 26px; }
+  .kraj h2 { font-size: 1.5rem; margin-bottom: 8px; }
+  .kraj p { color: var(--muted); margin-bottom: 4px; }
+
+  /* ---------- TRAKA ABECEDE ---------- */
+  #traka {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 15;
+    background: var(--card); border-top: 1px solid var(--rub);
+    padding: 8px 10px; display: flex; flex-wrap: wrap; gap: 4px;
+    justify-content: center; align-content: center; min-height: var(--traka);
+    box-shadow: 0 -2px 10px rgba(0,0,0,.05);
+  }
+  #traka .slovo {
+    min-width: 24px; height: 26px; padding: 0 3px; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .8rem; font-weight: 700; text-transform: lowercase;
+    background: #eef0f4; color: #c2c7d0; transition: background .2s, color .2s;
+    cursor: default; user-select: none;
+  }
+  #traka .slovo.zivo {
+    background: #fff7ed; color: var(--zlatna); box-shadow: inset 0 0 0 1.5px var(--zlatna);
+    cursor: pointer;
+  }
+  #traka .slovo.tekPalo { animation: pop .45s; }
+  @keyframes pop {
+    0% { transform: scale(1); } 40% { transform: scale(1.45); } 100% { transform: scale(1); }
+  }
+  #trakaPop {
+    position: fixed; bottom: calc(var(--traka) + 10px); left: 50%; transform: translateX(-50%);
+    background: var(--card); border: 1px solid var(--rub); border-radius: 14px; padding: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.14); z-index: 16; text-align: center; display: none;
+  }
+  #trakaPop img { width: 96px; height: 96px; object-fit: contain; display: block; }
+  #trakaPop .r { font-weight: 700; margin-top: 2px; }
+  #trakaPop .e { font-size: .8rem; color: var(--muted); }
+
+  /* ---------- LEBDEĆI RJEČNIK ---------- */
+  #lebdi {
+    position: fixed; top: 76px; right: 18px; z-index: 30;
+    width: 56px; height: 56px; border-radius: 50%; background: var(--plava); color: #fff;
+    display: flex; align-items: center; justify-content: center; cursor: grab;
+    box-shadow: 0 4px 14px rgba(37,99,235,.4); font-size: 1.5rem; user-select: none;
+    touch-action: none; transition: opacity .3s, width .15s, height .15s, font-size .15s;
+    opacity: .92;
+  }
+  #lebdi:active { cursor: grabbing; }
+  #panel {
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: 40;
+    width: 380px; max-width: 88vw; background: var(--card);
+    box-shadow: -8px 0 30px rgba(0,0,0,.22); border-left: 1px solid var(--rub);
+    transform: translateX(105%); transition: transform .26s ease; display: flex; flex-direction: column;
+    border-top-left-radius: 18px; border-bottom-left-radius: 18px;
+  }
+  #panel.otvoren { transform: translateX(0); }
+  #panel .glava {
+    padding: 14px 16px; border-bottom: 1px solid var(--rub); display: flex;
+    align-items: center; gap: 8px; flex-wrap: wrap;
+  }
+  #panel .glava .nas { font-weight: 700; margin-right: auto; }
+  #panel .glava button {
+    border: 1px solid var(--rub); background: var(--bg); border-radius: 8px; width: 30px; height: 30px;
+    font-size: 1rem; cursor: pointer; font-family: inherit; color: var(--ink);
+  }
+  #panel .trazi {
+    margin: 10px 16px; padding: 9px 12px; border: 1px solid var(--rub); border-radius: 10px;
+    font-size: .95rem; font-family: inherit; width: calc(100% - 32px);
+  }
+  #panel .popis { overflow-y: auto; padding: 0 10px 16px; flex: 1; }
+  #panel .red {
+    display: flex; align-items: center; gap: 10px; padding: 7px 6px; border-radius: 10px;
+  }
+  #panel .red:hover { background: var(--bg); }
+  #panel .red img { width: 42px; height: 42px; object-fit: contain; flex-shrink: 0; }
+  #panel .red .hr { font-weight: 700; font-size: .95rem; }
+  #panel .red .en { font-size: .8rem; color: var(--muted); }
+  #panel .red .zv { margin-left: auto; cursor: pointer; font-size: 1.1rem; opacity: .55; }
+  #panel .red .zv:hover { opacity: 1; }
+  #zastor {
+    position: fixed; inset: 0; background: rgba(15,23,42,.28); z-index: 35; display: none;
+  }
+  #zastor.vidi { display: block; }
+
+  .zvucnik {
+    display: inline-flex; align-items: center; justify-content: center; margin-left: 6px;
+    cursor: pointer; opacity: .5; font-size: .9em;
+  }
+  .zvucnik:hover { opacity: 1; }
+
+  @media (max-width: 640px) {
+    .mrezaSlika { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .mrezaMem { grid-template-columns: repeat(4, 1fr); gap: 7px; }
+    .zid { grid-template-columns: repeat(4, 1fr); }
+    #vlak { gap: 6px; }
+    .bljesak img { width: 96px; height: 96px; }
+    .mjesto { width: 96px; }
+    #ekran { padding: 16px 12px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="logo">Croland</span>
+  <span class="pod">Lesson 0 — the alphabet</span>
+</header>
+
+<div id="ekran"></div>
+
+<div id="traka"></div>
+<div id="trakaPop"></div>
+
+<div id="lebdi" title="Dictionary">📖</div>
+<div id="zastor"></div>
+<div id="panel">
+  <div class="glava">
+    <span class="nas">Dictionary</span>
+    <button id="manji" title="Smaller icon">−</button>
+    <button id="veci" title="Bigger icon">+</button>
+    <button id="zatvori" title="Close">✕</button>
+  </div>
+  <input class="trazi" id="trazi" placeholder="Search…" autocomplete="off">
+  <div class="popis" id="popis"></div>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+
+  // ---------------- PODACI ----------------
+  var R = [
+    { s:'a',  hr:'ananas',   en:'pineapple',   img:'Ananas.png',   snd:'ananas.mp3',   kat:'hrana' },
+    { s:'b',  hr:'banana',   en:'banana',      img:'Banana.png',   snd:'banana.mp3',   kat:'hrana' },
+    { s:'c',  hr:'cipela',   en:'shoe',        img:'Cipela.png',   snd:'cipela.mp3',   kat:'stvari' },
+    { s:'č',  hr:'čokolada', en:'chocolate',   img:'Čokolada.png', snd:'čokolada.mp3', kat:'hrana' },
+    { s:'ć',  hr:'ćevapi',   en:'grilled meat',img:'Ćevapi.png',   snd:'ćevapi.mp3',   kat:'hrana' },
+    { s:'d',  hr:'drvo',     en:'tree',        img:'Drvo.png',     snd:'drvo.mp3',     kat:'priroda' },
+    { s:'dž', hr:'džem',     en:'jam',         img:'Džem.png',     snd:'džem.mp3',     kat:'hrana' },
+    { s:'đ',  hr:'đak',      en:'pupil',       img:'Đak.png',      snd:'đak.mp3',      kat:'ljudi' },
+    { s:'e',  hr:'ekran',    en:'screen',      img:'Ekran.png',    snd:null,           kat:'stvari' },
+    { s:'f',  hr:'farma',    en:'farm',        img:'Farma.png',    snd:null,           kat:'mjesta' },
+    { s:'g',  hr:'gitara',   en:'guitar',      img:'Gitara.png',   snd:'gitara.mp3',   kat:'stvari' },
+    { s:'h',  hr:'hotel',    en:'hotel',       img:'Hotel.png',    snd:'hotel.mp3',    kat:'mjesta' },
+    { s:'i',  hr:'igla',     en:'needle',      img:'Igla.png',     snd:'igla.mp3',     kat:'stvari' },
+    { s:'j',  hr:'jabuka',   en:'apple',       img:'Jabuka.png',   snd:'jabuka.mp3',   kat:'hrana' },
+    { s:'k',  hr:'kuća',     en:'house',       img:'Kuća.png',     snd:'kuća.mp3',     kat:'stvari' },
+    { s:'l',  hr:'lav',      en:'lion',        img:'Lav.png',      snd:'lav.mp3',      kat:'zivotinje' },
+    { s:'lj', hr:'ljeto',    en:'summer',      img:'Ljeto.png',    snd:'ljeto.mp3',    kat:'vrijeme' },
+    { s:'m',  hr:'more',     en:'sea',         img:'More.png',     snd:'more.mp3',     kat:'priroda' },
+    { s:'n',  hr:'nos',      en:'nose',        img:'Nos.png',      snd:'nos.mp3',      kat:'tijelo' },
+    { s:'nj', hr:'njuška',   en:'snout',       img:'Njuška.png',   snd:null,           kat:'tijelo' },
+    { s:'o',  hr:'oko',      en:'eye',         img:'Oko.png',      snd:'oko.mp3',      kat:'tijelo' },
+    { s:'p',  hr:'pas',      en:'dog',         img:'Pas.png',      snd:'pas.mp3',      kat:'zivotinje' },
+    { s:'r',  hr:'riba',     en:'fish',        img:'Riba.png',     snd:'riba.mp3',     kat:'zivotinje' },
+    { s:'s',  hr:'sunce',    en:'sun',         img:'Sunce.png',    snd:'sunce.mp3',    kat:'priroda' },
+    { s:'š',  hr:'šešir',    en:'hat',         img:'Šešir.png',    snd:'šešir.mp3',    kat:'stvari' },
+    { s:'t',  hr:'torta',    en:'cake',        img:'Torta.png',    snd:'torta.mp3',    kat:'hrana' },
+    { s:'u',  hr:'uho',      en:'ear',         img:'Uho.png',      snd:'uho.mp3',      kat:'tijelo' },
+    { s:'v',  hr:'vino',     en:'wine',        img:'Vino.png',     snd:'vino.mp3',     kat:'hrana' },
+    { s:'z',  hr:'zebra',    en:'zebra',       img:'Zebra.png',    snd:'zebra.mp3',    kat:'zivotinje' },
+    { s:'ž',  hr:'žaba',     en:'frog',        img:'Žaba.png',     snd:'žaba.mp3',     kat:'zivotinje' }
+  ];
+
+  var ABECEDA = ['a','b','c','č','ć','d','dž','đ','e','f','g','h','i','j','k',
+                 'l','lj','m','n','nj','o','p','r','s','š','t','u','v','z','ž'];
+
+  function W(hr) { for (var i = 0; i < R.length; i++) if (R[i].hr === hr) return R[i]; return null; }
+  function G(lista) { return lista.map(W); }
+
+  // pet skupina, složene po težini (prve su pogodive bez pomoći)
+  var SKUPINE = [
+    G(['banana', 'čokolada', 'hotel', 'gitara', 'zebra', 'ananas']),
+    G(['torta', 'lav', 'more', 'pas', 'vino', 'ćevapi']),
+    G(['džem', 'đak', 'ekran', 'farma', 'kuća', 'riba']),
+    G(['nos', 'oko', 'igla', 'jabuka', 'ljeto', 'njuška']),
+    G(['cipela', 'drvo', 'sunce', 'šešir', 'uho', 'žaba'])
+  ];
+
+  var otkljucana = {};   // slovo -> true
+  var idx = 0;
+  var gen = 0;           // brojač ekrana — odgođeni pozivi provjeravaju je li ekran još aktualan
+
+  // ---------------- POMOĆNO ----------------
+  function promijesaj(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function el(tag, klasa, tekst) {
+    var d = document.createElement(tag);
+    if (klasa) d.className = klasa;
+    if (tekst != null) d.textContent = tekst;
+    return d;
+  }
+  function slikaEl(w) {
+    var i = document.createElement('img');
+    i.src = encodeURI('slike/' + w.img); i.alt = w.hr; i.loading = 'lazy';
+    return i;
+  }
+  var audio = null;
+  function sviraj(w) {
+    if (!w || !w.snd) return;
+    try {
+      if (audio) audio.pause();
+      audio = new Audio(encodeURI('zvuk/' + w.snd));
+      audio.play().catch(function () {});
+    } catch (e) {}
+  }
+  function zvucnikEl(w) {
+    if (!w.snd) return null;
+    var s = el('span', 'zvucnik', '🔊');
+    s.onclick = function (e) { e.stopPropagation(); sviraj(w); };
+    return s;
+  }
+
+  // ---------------- TRAKA ABECEDE ----------------
+  function crtajTraku() {
+    var t = $('traka'); t.innerHTML = '';
+    ABECEDA.forEach(function (s) {
+      var d = el('div', 'slovo' + (otkljucana[s] ? ' zivo' : ''), s);
+      d.dataset.s = s;
+      if (otkljucana[s]) {
+        d.onclick = function (e) { e.stopPropagation(); pokaziSlovo(s, d); };
+      }
+      t.appendChild(d);
+    });
+  }
+  function otkljucaj(s) {
+    if (otkljucana[s]) return;
+    otkljucana[s] = true;
+    crtajTraku();
+    var c = $('traka').querySelector('[data-s="' + s + '"]');
+    if (c) { c.classList.add('tekPalo'); setTimeout(function () { c.classList.remove('tekPalo'); }, 500); }
+  }
+  function pokaziSlovo(s, sidro) {
+    var w = null;
+    for (var i = 0; i < R.length; i++) if (R[i].s === s) w = R[i];
+    if (!w) return;
+    var p = $('trakaPop'); p.innerHTML = '';
+    p.appendChild(slikaEl(w));
+    var r = el('div', 'r', w.hr); p.appendChild(r);
+    p.appendChild(el('div', 'e', w.en));
+    p.style.display = 'block';
+    var lijevo = sidro.getBoundingClientRect().left + sidro.offsetWidth / 2;
+    p.style.left = Math.min(Math.max(lijevo, 80), window.innerWidth - 80) + 'px';
+    sviraj(w);
+    clearTimeout(pokaziSlovo.t);
+    pokaziSlovo.t = setTimeout(function () { p.style.display = 'none'; }, 2200);
+  }
+
+  // ---------------- LEBDEĆI RJEČNIK ----------------
+  var velicinaIkone = 56;
+  function crtajPopis(filtar) {
+    var p = $('popis'); p.innerHTML = '';
+    var f = (filtar || '').toLowerCase().trim();
+    R.forEach(function (w) {
+      if (f && w.hr.toLowerCase().indexOf(f) < 0 && w.en.toLowerCase().indexOf(f) < 0) return;
+      var red = el('div', 'red');
+      red.appendChild(slikaEl(w));
+      var tx = el('div');
+      tx.appendChild(el('div', 'hr', w.hr));
+      tx.appendChild(el('div', 'en', w.en));
+      red.appendChild(tx);
+      if (w.snd) {
+        var z = el('span', 'zv', '🔊');
+        z.onclick = function () { sviraj(w); };
+        red.appendChild(z);
+      }
+      p.appendChild(red);
+    });
+  }
+  function otvoriPanel() {
+    $('panel').classList.add('otvoren');
+    $('zastor').classList.add('vidi');
+    crtajPopis($('trazi').value);
+  }
+  function zatvoriPanel() {
+    $('panel').classList.remove('otvoren');
+    $('zastor').classList.remove('vidi');
+  }
+  $('lebdi').onclick = function () { if (!vukao) otvoriPanel(); };
+  $('zatvori').onclick = zatvoriPanel;
+  $('zastor').onclick = zatvoriPanel;
+  $('trazi').oninput = function () { crtajPopis(this.value); };
+  $('manji').onclick = function () {
+    velicinaIkone = Math.max(32, velicinaIkone - 8); primijeniVelicinu();
+  };
+  $('veci').onclick = function () {
+    velicinaIkone = Math.min(72, velicinaIkone + 8); primijeniVelicinu();
+  };
+  function primijeniVelicinu() {
+    var l = $('lebdi');
+    l.style.width = velicinaIkone + 'px';
+    l.style.height = velicinaIkone + 'px';
+    l.style.fontSize = (velicinaIkone * 0.42) + 'px';
+  }
+  // povlačenje gore-dolje
+  var vuce = false, vukao = false, pocetak = 0, pocetniTop = 0;
+  $('lebdi').addEventListener('pointerdown', function (e) {
+    vuce = true; vukao = false;
+    pocetak = e.clientY;
+    pocetniTop = $('lebdi').getBoundingClientRect().top;
+    $('lebdi').setPointerCapture(e.pointerId);
+  });
+  $('lebdi').addEventListener('pointermove', function (e) {
+    if (!vuce) return;
+    var d = e.clientY - pocetak;
+    if (Math.abs(d) > 4) vukao = true;
+    var novi = Math.min(Math.max(pocetniTop + d, 62), window.innerHeight - velicinaIkone - 84);
+    $('lebdi').style.top = novi + 'px';
+  });
+  $('lebdi').addEventListener('pointerup', function () { vuce = false; setTimeout(function () { vukao = false; }, 60); });
+  // swipe udesno zatvara panel
+  var sx = null;
+  $('panel').addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; });
+  $('panel').addEventListener('touchend', function (e) {
+    if (sx != null && e.changedTouches[0].clientX - sx > 70) zatvoriPanel();
+    sx = null;
+  });
+
+  // ---------------- OKVIR EKRANA ----------------
+  function okvir(uputa, pod) {
+    var e = $('ekran'); e.innerHTML = '';
+    if (uputa) e.appendChild(el('div', 'uputa', uputa));
+    if (pod) e.appendChild(el('div', 'uputa2', pod));
+    var t = el('div'); t.id = 'tijelo'; e.appendChild(t);
+    return t;
+  }
+  function dalje(tekst) {
+    var b = el('button', 'gumb', tekst || 'Next →');
+    b.onclick = function () { idx++; crtaj(); };
+    $('ekran').appendChild(b);
+    return b;
+  }
+
+  // ---------------- 1. SPAJANJE ----------------
+  function ekranSpajanje(skupina) {
+    var t = okvir('Match the pictures to the words.',
+                  'Not sure? Open the dictionary — top right.');
+    var mreza = el('div', 'mrezaSlika'); t.appendChild(mreza);
+    var traka = el('div', 'rijeci'); t.appendChild(traka);
+
+    var odabranaSlika = null, odabraniCip = null, rijeseno = 0;
+    var polja = {}, cipovi = {};
+
+    promijesaj(skupina).forEach(function (w) {
+      var p = el('div', 'poljeSlika');
+      p.appendChild(slikaEl(w));
+      p.appendChild(el('div', 'natpis', ''));
+      p.onclick = function () { kliknuoSliku(w, p); };
+      polja[w.hr] = p;
+      mreza.appendChild(p);
+    });
+    promijesaj(skupina).forEach(function (w) {
+      var c = el('div', 'cip', w.hr);
+      c.onclick = function () { kliknuoCip(w, c); };
+      cipovi[w.hr] = c;
+      traka.appendChild(c);
+    });
+
+    function ocisti() {
+      if (odabranaSlika) polja[odabranaSlika.hr].classList.remove('odabran');
+      if (odabraniCip) cipovi[odabraniCip.hr].classList.remove('odabran');
+      odabranaSlika = null; odabraniCip = null;
+    }
+    function kliknuoSliku(w, p) {
+      if (p.classList.contains('rijesen')) return;
+      if (odabraniCip) { pokusaj(w, odabraniCip); return; }
+      ocisti(); odabranaSlika = w; p.classList.add('odabran');
+    }
+    function kliknuoCip(w, c) {
+      if (c.classList.contains('potroseno')) return;
+      if (odabranaSlika) { pokusaj(odabranaSlika, w); return; }
+      ocisti(); odabraniCip = w; c.classList.add('odabran');
+    }
+    function pokusaj(slika, rijec) {
+      var p = polja[slika.hr], c = cipovi[rijec.hr];
+      if (slika.hr === rijec.hr) {
+        ocisti();
+        p.classList.add('rijesen');
+        p.querySelector('.natpis').textContent = slika.hr;
+        var zv = zvucnikEl(slika); if (zv) p.querySelector('.natpis').appendChild(zv);
+        c.classList.add('potroseno');
+        sviraj(slika);
+        otkljucaj(slika.s);
+        rijeseno++;
+      } else {
+        p.classList.add('tresi'); c.classList.add('tresi');
+        setTimeout(function () { p.classList.remove('tresi'); c.classList.remove('tresi'); }, 340);
+        ocisti();
+      }
+    }
+    dalje();
+  }
+
+  // ---------------- 2. MEMORIJA ----------------
+  function ekranMemorija(skupina) {
+    var t = okvir('Find each picture and its word.',
+                  'You just met these six.');
+    var mreza = el('div', 'mrezaMem'); t.appendChild(mreza);
+
+    var karte = [];
+    skupina.forEach(function (w) {
+      karte.push({ w: w, tip: 'slika' });
+      karte.push({ w: w, tip: 'rijec' });
+    });
+    var prva = null, blokada = false;
+
+    promijesaj(karte).forEach(function (k) {
+      var d = el('div', 'karta');
+      var u = el('div', 'unut');
+      var lice = el('div', 'lice', '?');
+      var nal = el('div', 'nalicje');
+      if (k.tip === 'slika') nal.appendChild(slikaEl(k.w));
+      else nal.appendChild(el('span', null, k.w.hr));
+      u.appendChild(lice); u.appendChild(nal); d.appendChild(u);
+      d.onclick = function () {
+        if (blokada || d.classList.contains('otvorena')) return;
+        d.classList.add('otvorena');
+        if (k.tip === 'slika') sviraj(k.w);
+        if (!prva) { prva = { k: k, d: d }; return; }
+        if (prva.k.w.hr === k.w.hr && prva.d !== d) {
+          prva.d.classList.add('spojena'); d.classList.add('spojena');
+          sviraj(k.w);
+          otkljucaj(k.w.s);
+          prva = null;
+        } else {
+          blokada = true;
+          var a = prva.d, b = d; prva = null;
+          setTimeout(function () {
+            a.classList.remove('otvorena'); b.classList.remove('otvorena'); blokada = false;
+          }, 750);
+        }
+      };
+      mreza.appendChild(d);
+    });
+    dalje();
+  }
+
+  // ---------------- 3. BALONI ----------------
+  function ekranBaloni(fond) {
+    var t = okvir('Tap the balloon with the right word.',
+                  'Miss it? It just floats away. No harm done.');
+    var meta = el('div', 'meta'); t.appendChild(meta);
+    var nebo = el('div'); nebo.id = 'nebo'; t.appendChild(nebo);
+
+    var red = promijesaj(fond).slice(0, 6), i = 0, ziv = true, baloni = [];
+
+    function novaMeta() {
+      if (i >= red.length) { ziv = false; meta.innerHTML = '<div class="uputa">All done. 🎈</div>'; return; }
+      meta.innerHTML = '';
+      meta.appendChild(slikaEl(red[i]));
+    }
+    function pusti(w) {
+      var b = el('div', 'balon', w.hr);
+      var x = 6 + Math.random() * 62;
+      b.style.left = x + '%';
+      b.style.top = '105%';
+      var brzina = 0.11 + Math.random() * 0.07;
+      b.onclick = function () {
+        if (!ziv || b.classList.contains('pukao')) return;
+        if (w.hr === red[i].hr) {
+          b.classList.add('pukao');
+          sviraj(w);
+          otkljucaj(w.s);
+          i++; novaMeta();
+        } else {
+          b.style.borderColor = '#e5e7eb';
+        }
+      };
+      nebo.appendChild(b);
+      baloni.push({ el: b, y: 105, v: brzina, w: w });
+    }
+    var zadnji = 0;
+    function petlja(ts) {
+      if (!document.body.contains(nebo)) return;
+      baloni.forEach(function (o) {
+        o.y -= o.v;
+        o.el.style.top = o.y + '%';
+      });
+      for (var k = baloni.length - 1; k >= 0; k--) {
+        if (baloni[k].y < -18) { baloni[k].el.remove(); baloni.splice(k, 1); }
+      }
+      if (ziv && ts - zadnji > 900) {
+        zadnji = ts;
+        var imaTocan = baloni.some(function (o) { return o.w.hr === red[i].hr && o.y > 5; });
+        if (!imaTocan) pusti(red[i]);
+        else pusti(fond[Math.floor(Math.random() * fond.length)]);
+      }
+      requestAnimationFrame(petlja);
+    }
+    novaMeta();
+    requestAnimationFrame(petlja);
+    dalje();
+  }
+
+  // ---------------- 4. VLAK ----------------
+  function ekranVlak() {
+    var t = okvir('Load the train before it leaves.',
+                  'Tap a picture, then its wagon.');
+    var vagoni = [
+      { k: 'hrana', ime: 'FOOD' },
+      { k: 'zivotinje', ime: 'ANIMALS' },
+      { k: 'stvari', ime: 'THINGS' }
+    ];
+    var teret = G(['banana', 'čokolada', 'džem', 'zebra', 'lav', 'riba', 'gitara', 'ekran', 'kuća']);
+
+    var v = el('div'); v.id = 'vlak'; t.appendChild(v);
+    var peron = el('div'); peron.id = 'peron'; t.appendChild(peron);
+
+    var odabran = null, odabranEl = null, ostalo = teret.length;
+    var zone = {};
+
+    vagoni.forEach(function (g) {
+      var d = el('div', 'vagon');
+      d.appendChild(el('div', 'ime', g.ime));
+      var tr = el('div', 'teret'); d.appendChild(tr);
+      d.onclick = function () {
+        if (!odabran) return;
+        if (odabran.kat === g.k) {
+          tr.appendChild(slikaEl(odabran));
+          sviraj(odabran);
+          otkljucaj(odabran.s);
+          odabranEl.classList.add('otislo');
+          odabran = null; odabranEl = null;
+          ostalo--;
+          if (ostalo === 0) { v.classList.add('odlazak'); }
+        } else {
+          d.classList.add('tresi');
+          setTimeout(function () { d.classList.remove('tresi'); }, 340);
+        }
+      };
+      zone[g.k] = d;
+      v.appendChild(d);
+    });
+
+    promijesaj(teret).forEach(function (w) {
+      var p = el('div', 'paket');
+      p.appendChild(slikaEl(w));
+      p.onclick = function () {
+        if (odabranEl) odabranEl.classList.remove('odabran');
+        odabran = w; odabranEl = p; p.classList.add('odabran');
+      };
+      peron.appendChild(p);
+    });
+    dalje();
+  }
+
+  // ---------------- 5. SLOVA ----------------
+  function ekranSlova() {
+    var mojGen = gen;
+    var zadaci = [
+      { w: W('njuška'), dijelovi: ['nj', 'u', 'š', 'k', 'a'], mamci: ['n', 'j'] },
+      { w: W('ljeto'),  dijelovi: ['lj', 'e', 't', 'o'],      mamci: ['l', 'j'] },
+      { w: W('džem'),   dijelovi: ['dž', 'e', 'm'],           mamci: ['d', 'ž'] }
+    ];
+    var n = 0;
+
+    function krug() {
+      var z = zadaci[n];
+      var t = okvir('Build the word.',
+                    'Careful — dž, lj and nj are single letters in Croatian.');
+      var meta = el('div', 'meta'); meta.appendChild(slikaEl(z.w)); t.appendChild(meta);
+
+      var slag = el('div', 'slagaliste'); t.appendChild(slag);
+      var plocice = el('div', 'plocice'); t.appendChild(plocice);
+
+      var mjesta = [], uneseno = [];
+      z.dijelovi.forEach(function () {
+        var m = el('div', 'prazno'); slag.appendChild(m); mjesta.push(m);
+      });
+
+      var sve = promijesaj(z.dijelovi.concat(z.mamci));
+      sve.forEach(function (d) {
+        var p = el('div', 'plocica', d);
+        p.onclick = function () {
+          if (uneseno.length >= z.dijelovi.length) return;
+          if (p.classList.contains('potroseno')) return;
+          uneseno.push({ d: d, p: p });
+          p.classList.add('potroseno');
+          osvjezi();
+          if (uneseno.length === z.dijelovi.length) provjeri();
+        };
+        plocice.appendChild(p);
+      });
+
+      function osvjezi() {
+        mjesta.forEach(function (m, i) {
+          m.textContent = uneseno[i] ? uneseno[i].d : '';
+          m.classList.toggle('pun', !!uneseno[i]);
+        });
+      }
+      function vrati() {
+        var z2 = uneseno.pop();
+        if (z2) z2.p.classList.remove('potroseno');
+        osvjezi();
+      }
+      function provjeri() {
+        var slozeno = uneseno.map(function (x) { return x.d; }).join('');
+        if (slozeno === z.w.hr) {
+          mjesta.forEach(function (m) { m.style.borderBottomColor = '#16a34a'; });
+          sviraj(z.w);
+          otkljucaj(z.w.s);
+          setTimeout(function () {
+            if (mojGen !== gen) return;
+            n++;
+            if (n < zadaci.length) krug(); else { idx++; crtaj(); }
+          }, 900);
+        } else {
+          slag.classList.add('tresi');
+          setTimeout(function () {
+            slag.classList.remove('tresi');
+            while (uneseno.length) vrati();
+          }, 400);
+        }
+      }
+
+      var b = el('button', 'gumb siv', '⌫ Undo');
+      b.onclick = vrati;
+      b.style.margin = '14px auto 0';
+      t.appendChild(b);
+      dalje('Skip →');
+    }
+    krug();
+  }
+
+  // ---------------- 6. PAMTI ----------------
+  function ekranPamti() {
+    var mojGen = gen;
+    var krugova = 3, n = 0;
+
+    function krug() {
+      var trojka = promijesaj(R).slice(0, 3);
+      var t = okvir('Remember these three.', 'Round ' + (n + 1) + ' of ' + krugova);
+      var b = el('div', 'bljesak'); t.appendChild(b);
+      trojka.forEach(function (w) { b.appendChild(slikaEl(w)); });
+
+      setTimeout(function () {
+        if (mojGen !== gen) return;
+        var t2 = okvir('Which three, in that order?', 'Round ' + (n + 1) + ' of ' + krugova);
+        var red = el('div', 'redoslijed'); t2.appendChild(red);
+        var mjesta = [];
+        for (var i = 0; i < 3; i++) { var m = el('div', 'mjesto'); red.appendChild(m); mjesta.push(m); }
+
+        var ponuda = promijesaj(trojka.concat(promijesaj(R.filter(function (w) {
+          return trojka.indexOf(w) < 0;
+        })).slice(0, 6)));
+
+        var uneseno = [];
+        var traka = el('div', 'rijeci'); t2.appendChild(traka);
+        ponuda.forEach(function (w) {
+          var c = el('div', 'cip', w.hr);
+          c.onclick = function () {
+            if (uneseno.length >= 3 || c.classList.contains('potroseno')) return;
+            uneseno.push(w); c.classList.add('potroseno');
+            mjesta[uneseno.length - 1].textContent = w.hr;
+            mjesta[uneseno.length - 1].classList.add('pun');
+            if (uneseno.length === 3) provjeri();
+          };
+          traka.appendChild(c);
+        });
+
+        function provjeri() {
+          uneseno.forEach(function (w, i) {
+            var ok = w.hr === trojka[i].hr;
+            mjesta[i].classList.add(ok ? 'tocno' : 'krivo');
+            if (ok) { sviraj(w); otkljucaj(w.s); }
+          });
+          setTimeout(function () {
+            if (mojGen !== gen) return;
+            n++;
+            if (n < krugova) krug(); else { idx++; crtaj(); }
+          }, 1400);
+        }
+        dalje('Skip →');
+      }, 2600);
+    }
+    krug();
+  }
+
+  // ---------------- 7. ZID ----------------
+  function ekranZid() {
+    var t = okvir('Thirty letters. Thirty words. All yours.',
+                  'Tap any picture to hear it again.');
+    var z = el('div', 'zid'); t.appendChild(z);
+    R.forEach(function (w) {
+      var c = el('div', 'cigla');
+      c.appendChild(slikaEl(w));
+      c.appendChild(el('div', 'r', w.hr));
+      c.onclick = function () { sviraj(w); };
+      z.appendChild(c);
+    });
+
+    var k = el('div', 'kraj');
+    k.appendChild(el('h2', null, 'You can read Croatian.'));
+    k.appendChild(el('p', null, 'Five minutes ago these were strange letters.'));
+    k.appendChild(el('p', null, 'Lesson 1 is where the first sentences begin.'));
+    t.appendChild(k);
+
+    var b = el('button', 'gumb', 'Open Lesson 1 — free');
+    b.id = 'cta';   // TODO: spojiti na registraciju kad postoji
+    b.onclick = function () {
+      var n = el('div', 'uputa2', 'Ovdje ide registracija.');
+      n.style.marginTop = '10px';
+      b.parentNode.insertBefore(n, b.nextSibling);
+      b.disabled = true; b.style.opacity = '.6';
+    };
+    $('ekran').appendChild(b);
+
+    var b2 = el('button', 'gumb siv', '↻ Play Lesson 0 again');
+    b2.onclick = function () { idx = 0; otkljucana = {}; crtajTraku(); crtaj(); };
+    $('ekran').appendChild(b2);
+  }
+
+  // ---------------- REDOSLIJED EKRANA ----------------
+  var EKRANI = [
+    function () { ekranSpajanje(SKUPINE[0]); },
+    function () { ekranMemorija(SKUPINE[0]); },
+    function () { ekranSpajanje(SKUPINE[1]); },
+    function () { ekranBaloni(SKUPINE[0].concat(SKUPINE[1])); },
+    function () { ekranSpajanje(SKUPINE[2]); },
+    function () { ekranVlak(); },
+    function () { ekranSpajanje(SKUPINE[3]); },
+    function () { ekranSlova(); },
+    function () { ekranSpajanje(SKUPINE[4]); },
+    function () { ekranPamti(); },
+    function () { ekranZid(); }
+  ];
+
+  function crtaj() {
+    if (idx >= EKRANI.length) idx = EKRANI.length - 1;
+    gen++;
+    window.scrollTo(0, 0);
+    EKRANI[idx]();
+  }
+
+  // ---------------- START ----------------
+  crtajTraku();
+  primijeniVelicinu();
+  crtaj();
+})();
+</script>
+</body>
+</html>

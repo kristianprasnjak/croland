@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Croland — mini igre</title>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#FFF8F0; --papir2:#FFEFE0; --tinta:#2B2118; --meko:#8B7B6B;
+  --zut:#F4B942; --koralj:#E8623A; --tirkiz:#2FA8A0; --ljub:#7B5EA7;
+  --zelena:#7CB342; --plava:#3E7CB1; --crta:3px solid #2B2118;
+  --sjena:0 4px 0 #2B2118;
+}
+html,body{height:100%}
+body{
+  font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+  background:var(--papir); color:var(--tinta);
+  -webkit-font-smoothing:antialiased; overscroll-behavior:none;
+  background-image:radial-gradient(rgba(43,33,24,.045) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.omot{max-width:1000px;margin:0 auto;padding:14px 14px 40px;min-height:100%;display:flex;flex-direction:column}
+/* ---- HUD ---- */
+.hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:#fff;border:var(--crta);border-radius:16px;box-shadow:var(--sjena);
+  padding:10px 14px;margin-bottom:14px}
+.hud .ime{font-weight:800;font-size:18px;letter-spacing:.2px;margin-right:auto}
+.hud .ime small{display:block;font-weight:600;font-size:11px;color:var(--meko);letter-spacing:.6px;text-transform:uppercase}
+.znak{display:inline-flex;align-items:center;gap:6px;background:var(--papir2);
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px;white-space:nowrap}
+.znak.srca{background:#FFE3E3}
+.natrag{text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;background:#fff}
+.natrag:hover{background:var(--zut)}
+/* ---- ploha ---- */
+.ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
+  padding:18px;flex:1;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+h2.naslov{font-size:22px;font-weight:800}
+p.uputa{font-size:15px;color:var(--meko);line-height:1.5}
+.sredina{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;flex:1;text-align:center}
+/* ---- gumbi ---- */
+.g{font:inherit;font-weight:700;font-size:15px;cursor:pointer;border:var(--crta);
+  border-radius:14px;background:#fff;padding:11px 18px;box-shadow:0 4px 0 var(--tinta);
+  transition:transform .06s,box-shadow .06s;color:var(--tinta)}
+.g:hover{background:var(--papir2)}
+.g:active{transform:translateY(3px);box-shadow:0 1px 0 var(--tinta)}
+.g.glavni{background:var(--zut)}
+.g.veliki{font-size:18px;padding:14px 28px}
+.g[disabled]{opacity:.45;cursor:default;transform:none;box-shadow:0 4px 0 var(--tinta)}
+.g.tocno{background:var(--zelena);color:#fff}
+.g.krivo{background:var(--koralj);color:#fff}
+/* ---- kartice / slike ---- */
+.slikaOkvir{position:relative;display:inline-flex;align-items:center;justify-content:center;
+  background:var(--papir2);border-radius:14px;overflow:hidden}
+.slikaOkvir img{width:100%;height:100%;object-fit:contain;display:block}
+.slikaOkvir .zamjena{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:60%;line-height:1}
+.mrlja-hrana,.mrlja-pice{background:#DCEEFF}
+.mrlja-zivotinja,.mrlja-osoba{background:#FFE0C4}
+.mrlja-mjesto,.mrlja-predmet,.mrlja-prijevoz,.mrlja-odjeca,.mrlja-priroda{background:#DCEEFF}
+.mrlja-vrijeme,.mrlja-skola,.mrlja-sport,.mrlja-tijelo{background:#E9DEF7}
+.mrlja-glagol{background:#E2F3CE}
+.mrlja-pridjev,.mrlja-boja,.mrlja-broj{background:#FFE0DC}
+/* ---- mreža ---- */
+.mreza{display:grid;gap:12px}
+/* ---- poruke ---- */
+.poruka{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);
+  background:var(--tinta);color:#fff;padding:10px 20px;border-radius:999px;font-weight:700;
+  opacity:0;pointer-events:none;transition:.25s;z-index:60;max-width:90vw;text-align:center}
+.poruka.vidi{opacity:1;transform:translateX(-50%) translateY(0)}
+.poruka.dobro{background:var(--zelena)}
+.poruka.lose{background:var(--koralj)}
+/* ---- zastor ---- */
+.zastor{position:fixed;inset:0;background:rgba(43,33,24,.72);display:flex;align-items:center;
+  justify-content:center;padding:20px;z-index:80}
+.zastor .kut{background:var(--papir);border:var(--crta);border-radius:22px;box-shadow:0 8px 0 rgba(0,0,0,.35);
+  padding:26px;max-width:460px;width:100%;text-align:center;max-height:88vh;overflow:auto}
+.zastor h3{font-size:26px;margin-bottom:8px}
+.zastor p{color:var(--meko);line-height:1.55;margin-bottom:14px;font-size:15px}
+.valute{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.valuta{border:2px solid var(--tinta);border-radius:12px;padding:8px 12px;background:#fff;min-width:66px}
+.valuta b{display:block;font-size:20px}
+.valuta span{font-size:11px;color:var(--meko);font-weight:700;letter-spacing:.5px}
+/* ---- traka napretka ---- */
+.napredak{height:12px;background:var(--papir2);border:2px solid var(--tinta);border-radius:999px;overflow:hidden}
+.napredak i{display:block;height:100%;background:var(--zut);width:0;transition:width .3s}
+/* ---- razno ---- */
+.tresi{animation:tresi .3s}
+@keyframes tresi{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.skok{animation:skok .35s}
+@keyframes skok{0%,100%{transform:scale(1)}45%{transform:scale(1.14)}}
+.blijedi{animation:blijedi .3s}
+@keyframes blijedi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.konfet{position:fixed;width:10px;height:14px;z-index:90;pointer-events:none;border-radius:2px}
+input.upis{font:inherit;font-size:20px;font-weight:700;text-align:center;padding:12px 16px;
+  border:var(--crta);border-radius:14px;background:#fff;width:min(380px,90%);color:var(--tinta)}
+input.upis:focus{outline:none;background:var(--papir2)}
+.tipke{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.dijakritik{font:inherit;font-weight:700;font-size:16px;cursor:pointer;border:2px solid var(--tinta);
+  border-radius:10px;background:#fff;width:38px;height:38px}
+.dijakritik:hover{background:var(--zut)}
+@media (max-width:640px){
+  .omot{padding:8px 8px 30px}
+  .hud{padding:8px 10px;gap:6px}
+  .hud .ime{font-size:15px;width:100%}
+  .ploha{padding:12px;border-radius:16px}
+  h2.naslov{font-size:18px}
+}
+
+.uvod{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);padding:20px;margin-bottom:16px}
+.uvod h1{font-size:28px;margin-bottom:6px}
+.uvod p{color:var(--meko);line-height:1.55;font-size:15px;max-width:70ch}
+.uvod .brojke{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.uvod .brojke span{background:var(--papir2);border:2px solid var(--tinta);border-radius:999px;
+  padding:4px 14px;font-weight:700;font-size:13px}
+.popis{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.kartica{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--tinta);
+  background:#fff;border:var(--crta);border-radius:18px;box-shadow:var(--sjena);padding:16px;position:relative;
+  transition:transform .08s}
+.kartica:hover{background:var(--papir2);transform:translateY(-2px)}
+.kartica .broj{position:absolute;right:14px;top:12px;font-size:12px;font-weight:800;color:var(--meko)}
+.kartica .emo{font-size:40px;line-height:1}
+.kartica .ime{font-size:20px;font-weight:800}
+.kartica .stil{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:var(--koralj);font-weight:800}
+.kartica .opis{font-size:13px;color:var(--meko);line-height:1.45;flex:1;margin:6px 0}
+.kartica .podnozje{font-size:12px;font-weight:700;border-top:2px dashed var(--papir2);padding-top:8px;
+  display:flex;justify-content:space-between;align-items:center;gap:6px}
+.kartica .stanjeIgre{font-style:normal;font-size:11px;color:var(--zelena);font-weight:800}
+.napomena{margin-top:18px;background:#fff;border:var(--crta);border-radius:18px;padding:16px;font-size:13px;
+  color:var(--meko);line-height:1.6}
+.napomena b{color:var(--tinta)}
+.napomena code{background:var(--papir2);border-radius:6px;padding:1px 6px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="omot">
+  <div class="uvod">
+    <h1>Croland — mini igre 🎮</h1>
+    <p>Dvanaest radnih prototipa iz plana <code>mini-igre.md</code>. Svaka igra je samostalna HTML datoteka
+    s vlastitim rječnikom — ne dira ni <code>app.html</code>, ni <code>data.js</code>, ni mape
+    <code>slike/</code> i <code>zvuk/</code>. Ilustracije i izgovor traže se u mapi
+    <code>mini games media/</code>; dok je prazna, igre rade na ugrađenim znakovima.</p>
+    <p>Svaka igra ima <b>beskonačni način</b> koji se otključa kad je pređeš — gumb
+    „Bez kraja ▶" na završnom ekranu.</p>
+    <div class="brojke">
+      <span>12 igara</span><span>903 riječi</span><span>334 rečenice</span>
+      <span>23 kategorije</span><span>830 bodova ×4 valute</span><span>+ beskonačni način</span>
+    </div>
+  </div>
+  <div class="popis">
+<a class="kartica" href="01-grad.html" data-id="grad"><span class="broj">01</span><span class="emo">🏙</span><span class="ime">Grad</span><span class="stil">Pokémon Red RPG · težina 3/5</span><span class="opis">Deset likova, petnaest zadataka: kupovina, dostava, kviz, razgovori, razvrstavanje, rečenice, upis i završna provjera. Pa slobodni grad bez kraja.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="02-put-oko-hrvatske.html" data-id="put"><span class="broj">02</span><span class="emo">🛣</span><span class="ime">Put oko Hrvatske</span><span class="stil">Oregon Trail · težina 2–4/5</span><span class="opis">Dva kruga po sto mjesta — do Dubrovnika i natrag. Devet vrsta pitanja: prijevod, crtež, anagram, upis, rod, suprotnice i rečenice.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="03-pamti-pa-pisi.html" data-id="pamti"><span class="broj">03</span><span class="emo">🧠</span><span class="ime">Pamti pa piši</span><span class="stil">memorija + upis · težina 4/5</span><span class="opis">Bljesnu crteži ili rečenica, ti to napišeš po sjećanju — strogo, s kvačicama. Sto pedeset razina i pet vrsta gradiva.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="04-tvrdjava.html" data-id="tvrdjava"><span class="broj">04</span><span class="emo">🏰</span><span class="ime">Tvrđava</span><span class="stil">point-and-click · težina 3/5</span><span class="opis">Šesnaest soba i šesnaest zagonetki: lozinka, potraga, recept, parovi, anagram, vješalo, škrinje, upis, prijevodi, praznine, suprotnice, slaganje rečenica, rodovi, dijalog i završna kušnja.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="05-konoba.html" data-id="konoba"><span class="broj">05</span><span class="emo">🍽</span><span class="ime">Konoba</span><span class="stil">posluživanje · težina 2/5</span><span class="opis">Gosti naručuju u akuzativu, ti služiš po sličicama. Dvadeset smjena, 38 jela i četiri tipa gostiju — od onih u žurbi do onih bez prijevoda.</span><span class="podnozje"><b>50</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="06-skladiste.html" data-id="skladiste"><span class="broj">06</span><span class="emo">📦</span><span class="ime">Skladište</span><span class="stil">Sokoban · težina 1–5/5</span><span class="opis">Biraš ulog, ulog određuje broj katova. Svaki kat ima drugo pravilo — kategorija, rod, vrsta riječi, prvo slovo, prijevod — i regale koji blokiraju put.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="07-postanski-vlak.html" data-id="vlak"><span class="broj">07</span><span class="emo">🚆</span><span class="ime">Poštanski vlak</span><span class="stil">razvrstavanje + sat · težina 2/5</span><span class="opis">Puni vagone prije polaska. Osamnaest krugova i osam pravila: kategorija, rod, prvo slovo, duljina, vrsta riječi, prijevod, suprotnice i rečenice.</span><span class="podnozje"><b>30</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="08-labirint.html" data-id="labirint"><span class="broj">08</span><span class="emo">🌀</span><span class="ime">Labirint</span><span class="stil">Pac-Man · težina 3/5</span><span class="opis">Deset razina i pet pravila: kategorija, rod, prvo slovo, duljina i zadani prijevodi. ⭐ zamrzne duhove.</span><span class="podnozje"><b>30</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="09-zmija.html" data-id="zmija"><span class="broj">09</span><span class="emo">🐍</span><span class="ime">Zmija</span><span class="stil">Snake · težina 3/5</span><span class="opis">Jedeš slova pravim redom da složiš riječ s crteža. Tri razine, trideset riječi, zidovi koji se množe.</span><span class="podnozje"><b>30</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="10-mario.html" data-id="mario"><span class="broj">10</span><span class="emo">🍄</span><span class="ime">Mario</span><span class="stil">platformer · težina 3/5</span><span class="opis">Skoči u blok s točnim odgovorom, uđi u cijev. Tri svijeta, trideset razina, devet vrsta pitanja i protivnici koje treba preskočiti.</span><span class="podnozje"><b>50</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="11-prezivljavanje.html" data-id="prezivljavanje"><span class="broj">11</span><span class="emo">💀</span><span class="ime">Preživljavanje</span><span class="stil">EN→HR, 3 srca · težina 3/5</span><span class="opis">Pet etapa i šezdeset zadataka pod satom: riječi u oba smjera, slike, praznine i prijevod rečenica.</span><span class="podnozje"><b>100</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+<a class="kartica" href="12-obrana-baze.html" data-id="obrana"><span class="broj">12</span><span class="emo">🛡</span><span class="ime">Obrana baze</span><span class="stil">padajuće riječi · težina 3/5</span><span class="opis">Riječi padaju prema bazi, ti klikaš odgovor. Petnaest valova i pet vrsta meta — prijevod, slika, kategorija i rečenica.</span><span class="podnozje"><b>40</b> bodova ×4 valute<em class="stanjeIgre"></em></span></a>
+  </div>
+  <div class="napomena">
+    <b>Bodovanje.</b> Svaka igra isplaćuje isti iznos u sve četiri valute (LP · VP · GP · PP).
+    Isplata je jednokratna — jednom naplaćen maksimum se ne ponavlja. Maksimum je skriven dok ga igrač ne dosegne.<br>
+    <b>Napredak</b> se sprema u <code>localStorage</code>, zasebno po igri.
+  </div>
+</div>
+<script>
+Array.prototype.forEach.call(document.querySelectorAll('.kartica'), function(k){
+  try {
+    var st = JSON.parse(localStorage.getItem('croland-mini-' + k.dataset.id) || '{}');
+    var e = k.querySelector('.stanjeIgre');
+    if (st.naplaceno) e.textContent = '✓ naplaćeno ' + st.naplaceno;
+    else if (st.najbolje) e.textContent = 'najbolje ' + st.najbolje;
+    else if (st.razina) e.textContent = 'razina ' + st.razina;
+    else if (st.mjesto) e.textContent = 'mjesto ' + st.mjesto;
+  } catch(err){}
+});
+</script>
+</body>
+</html>

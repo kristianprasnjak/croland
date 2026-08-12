@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="color-scheme" content="light">
+<title>Croland — Obrana baze</title>
+<style>
+
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#FFF8F0; --papir2:#FFEFE0; --tinta:#2B2118; --meko:#8B7B6B;
+  --zut:#F4B942; --koralj:#E8623A; --tirkiz:#2FA8A0; --ljub:#7B5EA7;
+  --zelena:#7CB342; --plava:#3E7CB1; --crta:3px solid #2B2118;
+  --sjena:0 4px 0 #2B2118;
+}
+html,body{height:100%}
+body{
+  font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+  background:var(--papir); color:var(--tinta);
+  -webkit-font-smoothing:antialiased; overscroll-behavior:none;
+  background-image:radial-gradient(rgba(43,33,24,.045) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.omot{max-width:1000px;margin:0 auto;padding:14px 14px 40px;min-height:100%;display:flex;flex-direction:column}
+/* ---- HUD ---- */
+.hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:#fff;border:var(--crta);border-radius:16px;box-shadow:var(--sjena);
+  padding:10px 14px;margin-bottom:14px}
+.hud .ime{font-weight:800;font-size:18px;letter-spacing:.2px;margin-right:auto}
+.hud .ime small{display:block;font-weight:600;font-size:11px;color:var(--meko);letter-spacing:.6px;text-transform:uppercase}
+.znak{display:inline-flex;align-items:center;gap:6px;background:var(--papir2);
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px;white-space:nowrap}
+.znak.srca{background:#FFE3E3}
+.natrag{text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;background:#fff}
+.natrag:hover{background:var(--zut)}
+/* ---- ploha ---- */
+.ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
+  padding:18px;flex:1;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+h2.naslov{font-size:22px;font-weight:800}
+p.uputa{font-size:15px;color:var(--meko);line-height:1.5}
+.sredina{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;flex:1;text-align:center}
+/* ---- gumbi ---- */
+.g{font:inherit;font-weight:700;font-size:15px;cursor:pointer;border:var(--crta);
+  border-radius:14px;background:#fff;padding:11px 18px;box-shadow:0 4px 0 var(--tinta);
+  transition:transform .06s,box-shadow .06s;color:var(--tinta)}
+.g:hover{background:var(--papir2)}
+.g:active{transform:translateY(3px);box-shadow:0 1px 0 var(--tinta)}
+.g.glavni{background:var(--zut)}
+.g.veliki{font-size:18px;padding:14px 28px}
+.g[disabled]{opacity:.45;cursor:default;transform:none;box-shadow:0 4px 0 var(--tinta)}
+.g.tocno{background:var(--zelena);color:#fff}
+.g.krivo{background:var(--koralj);color:#fff}
+/* ---- kartice / slike ---- */
+.slikaOkvir{position:relative;display:inline-flex;align-items:center;justify-content:center;
+  background:var(--papir2);border-radius:14px;overflow:hidden}
+.slikaOkvir img{width:100%;height:100%;object-fit:contain;display:block}
+.slikaOkvir .zamjena{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:60%;line-height:1}
+.mrlja-hrana,.mrlja-pice{background:#DCEEFF}
+.mrlja-zivotinja,.mrlja-osoba{background:#FFE0C4}
+.mrlja-mjesto,.mrlja-predmet,.mrlja-prijevoz,.mrlja-odjeca,.mrlja-priroda{background:#DCEEFF}
+.mrlja-vrijeme,.mrlja-skola,.mrlja-sport,.mrlja-tijelo{background:#E9DEF7}
+.mrlja-glagol{background:#E2F3CE}
+.mrlja-pridjev,.mrlja-boja,.mrlja-broj{background:#FFE0DC}
+/* ---- mreža ---- */
+.mreza{display:grid;gap:12px}
+/* ---- poruke ---- */
+.poruka{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);
+  background:var(--tinta);color:#fff;padding:10px 20px;border-radius:999px;font-weight:700;
+  opacity:0;pointer-events:none;transition:.25s;z-index:60;max-width:90vw;text-align:center}
+.poruka.vidi{opacity:1;transform:translateX(-50%) translateY(0)}
+.poruka.dobro{background:var(--zelena)}
+.poruka.lose{background:var(--koralj)}
+/* ---- zastor ---- */
+.zastor{position:fixed;inset:0;background:rgba(43,33,24,.72);display:flex;align-items:center;
+  justify-content:center;padding:20px;z-index:80}
+.zastor .kut{background:var(--papir);border:var(--crta);border-radius:22px;box-shadow:0 8px 0 rgba(0,0,0,.35);
+  padding:26px;max-width:460px;width:100%;text-align:center;max-height:88vh;overflow:auto}
+.zastor h3{font-size:26px;margin-bottom:8px}
+.zastor p{color:var(--meko);line-height:1.55;margin-bottom:14px;font-size:15px}
+.valute{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.valuta{border:2px solid var(--tinta);border-radius:12px;padding:8px 12px;background:#fff;min-width:66px}
+.valuta b{display:block;font-size:20px}
+.valuta span{font-size:11px;color:var(--meko);font-weight:700;letter-spacing:.5px}
+/* ---- traka napretka ---- */
+.napredak{height:12px;background:var(--papir2);border:2px solid var(--tinta);border-radius:999px;overflow:hidden}
+.napredak i{display:block;height:100%;background:var(--zut);width:0;transition:width .3s}
+/* ---- razno ---- */
+.tresi{animation:tresi .3s}
+@keyframes tresi{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.skok{animation:skok .35s}
+@keyframes skok{0%,100%{transform:scale(1)}45%{transform:scale(1.14)}}
+.blijedi{animation:blijedi .3s}
+@keyframes blijedi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.konfet{position:fixed;width:10px;height:14px;z-index:90;pointer-events:none;border-radius:2px}
+input.upis{font:inherit;font-size:20px;font-weight:700;text-align:center;padding:12px 16px;
+  border:var(--crta);border-radius:14px;background:#fff;width:min(380px,90%);color:var(--tinta)}
+input.upis:focus{outline:none;background:var(--papir2)}
+.tipke{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.dijakritik{font:inherit;font-weight:700;font-size:16px;cursor:pointer;border:2px solid var(--tinta);
+  border-radius:10px;background:#fff;width:38px;height:38px}
+.dijakritik:hover{background:var(--zut)}
+@media (max-width:640px){
+  .omot{padding:8px 8px 30px}
+  .hud{padding:8px 10px;gap:6px}
+  .hud .ime{font-size:15px;width:100%}
+  .ploha{padding:12px;border-radius:16px}
+  h2.naslov{font-size:18px}
+}
+
+/* ==== Obrana baze ==== */
+
+#nebo{width:100%;max-width:840px;height:auto;display:block;margin:0 auto;border:var(--crta);
+  border-radius:14px;background:linear-gradient(#20203E,#4A3A6B 70%,#6B5A3E)}
+.obrOmot{display:flex;flex-direction:column;gap:10px;align-items:center;flex:1}
+.tipkeO{display:grid;grid-template-columns:repeat(2,minmax(150px,220px));gap:8px;justify-content:center}
+.tipkeO button{font-size:16px;padding:14px 8px}
+.tipkeO.duge{grid-template-columns:repeat(1,minmax(280px,560px))}
+.tipkeO.duge button{font-size:14px;padding:10px 12px;text-align:left}
+.valTraka{display:flex;gap:10px;align-items:center;font-weight:800;font-size:13px;flex-wrap:wrap;justify-content:center}
+.valTraka .oznakaVal{background:var(--ljub);color:#fff;border:2px solid var(--tinta);border-radius:8px;padding:2px 10px}
+
+</style>
+</head>
+<body>
+<div class="omot" id="omot"></div>
+<script>
+window.IGRA_ID = "obrana";
+window.IGRA_MAKS = 40;
+
+/* =========================================================================
+   Croland mini igre — zajednička jezgra
+   Standalone: ne ovisi ni o jednoj datoteci projekta.
+   Mediji se traže u mapi "mini games media/"; ako ih nema, igra radi na
+   ugrađenim zamjenskim znakovima (emoji), pa je prototip odmah igriv.
+   ========================================================================= */
+var CL = (function () {
+  var MEDIJ = 'mini games media/';
+
+  /* ---------- rječnik ---------- */
+  /*[SADRZAJ]*/
+  var BANKA = [{"hr":"jabuka","en":"apple","kat":"hrana","rod":"ž","emo":"🍎","id":"jabuka"},{"hr":"banana","en":"banana","kat":"hrana","rod":"ž","emo":"🍌","id":"banana"},{"hr":"kruh","en":"bread","kat":"hrana","rod":"m","emo":"🍞","id":"kruh"},{"hr":"sir","en":"cheese","kat":"hrana","rod":"m","emo":"🧀","id":"sir"},{"hr":"juha","en":"soup","kat":"hrana","rod":"ž","emo":"🍲","id":"juha"},{"hr":"salata","en":"salad","kat":"hrana","rod":"ž","emo":"🥗","id":"salata"},{"hr":"riba","en":"fish","kat":"hrana","rod":"ž","emo":"🐟","id":"riba"},{"hr":"pita","en":"pie","kat":"hrana","rod":"ž","emo":"🥧","id":"pita"},{"hr":"torta","en":"cake","kat":"hrana","rod":"ž","emo":"🎂","id":"torta"},{"hr":"čokolada","en":"chocolate","kat":"hrana","rod":"ž","emo":"🍫","id":"cokolada"},{"hr":"sladoled","en":"ice cream","kat":"hrana","rod":"m","emo":"🍦","id":"sladoled"},{"hr":"jaje","en":"egg","kat":"hrana","rod":"s","emo":"🥚","id":"jaje"},{"hr":"rajčica","en":"tomato","kat":"hrana","rod":"ž","emo":"🍅","id":"rajcica"},{"hr":"luk","en":"onion","kat":"hrana","rod":"m","emo":"🧅","id":"luk"},{"hr":"palačinke","en":"pancakes","kat":"hrana","rod":"ž","emo":"🥞","id":"palacinke"},{"hr":"povrće","en":"vegetables","kat":"hrana","rod":"s","emo":"🥦","id":"povrce"},{"hr":"voće","en":"fruit","kat":"hrana","rod":"s","emo":"🍇","id":"voce"},{"hr":"ananas","en":"pineapple","kat":"hrana","rod":"m","emo":"🍍","id":"ananas"},{"hr":"sendvič","en":"sandwich","kat":"hrana","rod":"m","emo":"🥪","id":"sendvic"},{"hr":"pizza","en":"pizza","kat":"hrana","rod":"ž","emo":"🍕","id":"pizza"},{"hr":"ćevapi","en":"ćevapi","kat":"hrana","rod":"m","emo":"🍢","id":"cevapi"},{"hr":"kolač","en":"pastry","kat":"hrana","rod":"m","emo":"🧁","id":"kolac"},{"hr":"šećer","en":"sugar","kat":"hrana","rod":"m","emo":"🍬","id":"secer"},{"hr":"sol","en":"salt","kat":"hrana","rod":"ž","emo":"🧂","id":"sol"},{"hr":"džem","en":"jam","kat":"hrana","rod":"m","emo":"🍓","id":"dzem"},{"hr":"meso","en":"meat","kat":"hrana","rod":"s","emo":"🥩","id":"meso"},{"hr":"piletina","en":"chicken","kat":"hrana","rod":"ž","emo":"🍗","id":"piletina"},{"hr":"riža","en":"rice","kat":"hrana","rod":"ž","emo":"🍚","id":"riza"},{"hr":"tjestenina","en":"pasta","kat":"hrana","rod":"ž","emo":"🍝","id":"tjestenina"},{"hr":"krumpir","en":"potato","kat":"hrana","rod":"m","emo":"🥔","id":"krumpir"},{"hr":"mrkva","en":"carrot","kat":"hrana","rod":"ž","emo":"🥕","id":"mrkva"},{"hr":"kruška","en":"pear","kat":"hrana","rod":"ž","emo":"🍐","id":"kruska"},{"hr":"grožđe","en":"grapes","kat":"hrana","rod":"s","emo":"🍇","id":"grozde"},{"hr":"lubenica","en":"watermelon","kat":"hrana","rod":"ž","emo":"🍉","id":"lubenica"},{"hr":"jagoda","en":"strawberry","kat":"hrana","rod":"ž","emo":"🍓","id":"jagoda"},{"hr":"breskva","en":"peach","kat":"hrana","rod":"ž","emo":"🍑","id":"breskva"},{"hr":"trešnja","en":"cherry","kat":"hrana","rod":"ž","emo":"🍒","id":"tresnja"},{"hr":"limun","en":"lemon","kat":"hrana","rod":"m","emo":"🍋","id":"limun"},{"hr":"naranča","en":"orange","kat":"hrana","rod":"ž","emo":"🍊","id":"naranca"},{"hr":"maslina","en":"olive","kat":"hrana","rod":"ž","emo":"🫒","id":"maslina"},{"hr":"orah","en":"walnut","kat":"hrana","rod":"m","emo":"🌰","id":"orah"},{"hr":"med","en":"honey","kat":"hrana","rod":"m","emo":"🍯","id":"med"},{"hr":"maslac","en":"butter","kat":"hrana","rod":"m","emo":"🧈","id":"maslac"},{"hr":"brašno","en":"flour","kat":"hrana","rod":"s","emo":"🌾","id":"brasno"},{"hr":"doručak","en":"breakfast","kat":"hrana","rod":"m","emo":"🍳","id":"dorucak"},{"hr":"ručak","en":"lunch","kat":"hrana","rod":"m","emo":"🍽","id":"rucak"},{"hr":"večera","en":"dinner","kat":"hrana","rod":"ž","emo":"🍲","id":"vecera"},{"hr":"kobasica","en":"sausage","kat":"hrana","rod":"ž","emo":"🌭","id":"kobasica"},{"hr":"šunka","en":"ham","kat":"hrana","rod":"ž","emo":"🥓","id":"sunka"},{"hr":"paprika","en":"pepper","kat":"hrana","rod":"ž","emo":"🌶","id":"paprika"},{"hr":"krastavac","en":"cucumber","kat":"hrana","rod":"m","emo":"🥒","id":"krastavac"},{"hr":"kupus","en":"cabbage","kat":"hrana","rod":"m","emo":"🥬","id":"kupus"},{"hr":"grah","en":"beans","kat":"hrana","rod":"m","emo":"🫘","id":"grah"},{"hr":"gljiva","en":"mushroom","kat":"hrana","rod":"ž","emo":"🍄","id":"gljiva"},{"hr":"bombon","en":"candy","kat":"hrana","rod":"m","emo":"🍬","id":"bombon"},{"hr":"keks","en":"biscuit","kat":"hrana","rod":"m","emo":"🍪","id":"keks"},{"hr":"umak","en":"sauce","kat":"hrana","rod":"m","emo":"🥫","id":"umak"},{"hr":"češnjak","en":"garlic","kat":"hrana","rod":"m","emo":"🧄","id":"cesnjak"},{"hr":"hrana","en":"food","kat":"hrana","rod":"ž","emo":"🍽","id":"hrana"},{"hr":"obrok","en":"meal","kat":"hrana","rod":"m","emo":"🍱","id":"obrok"},{"hr":"recept","en":"recipe","kat":"hrana","rod":"m","emo":"📋","id":"recept"},{"hr":"kava","en":"coffee","kat":"pice","rod":"ž","emo":"☕","id":"kava"},{"hr":"voda","en":"water","kat":"pice","rod":"ž","emo":"💧","id":"voda"},{"hr":"sok","en":"juice","kat":"pice","rod":"m","emo":"🧃","id":"sok"},{"hr":"vino","en":"wine","kat":"pice","rod":"s","emo":"🍷","id":"vino"},{"hr":"čaj","en":"tea","kat":"pice","rod":"m","emo":"🍵","id":"caj"},{"hr":"mlijeko","en":"milk","kat":"pice","rod":"s","emo":"🥛","id":"mlijeko"},{"hr":"pivo","en":"beer","kat":"pice","rod":"s","emo":"🍺","id":"pivo"},{"hr":"limunada","en":"lemonade","kat":"pice","rod":"ž","emo":"🍋","id":"limunada"},{"hr":"kakao","en":"cocoa","kat":"pice","rod":"m","emo":"🍫","id":"kakao"},{"hr":"šampanjac","en":"champagne","kat":"pice","rod":"m","emo":"🍾","id":"sampanjac"},{"hr":"rakija","en":"brandy","kat":"pice","rod":"ž","emo":"🥃","id":"rakija"},{"hr":"čaša","en":"glass","kat":"pice","rod":"ž","emo":"🥛","id":"casa"},{"hr":"boca","en":"bottle","kat":"pice","rod":"ž","emo":"🍾","id":"boca"},{"hr":"šalica","en":"cup","kat":"pice","rod":"ž","emo":"☕","id":"salica"},{"hr":"led","en":"ice","kat":"pice","rod":"m","emo":"🧊","id":"led"},{"hr":"napitak","en":"beverage","kat":"pice","rod":"m","emo":"🧋","id":"napitak"},{"hr":"kapučino","en":"cappuccino","kat":"pice","rod":"m","emo":"☕","id":"kapucino"},{"hr":"čajnik","en":"teapot","kat":"pice","rod":"m","emo":"🫖","id":"cajnik"},{"hr":"slamka","en":"straw","kat":"pice","rod":"ž","emo":"🥤","id":"slamka"},{"hr":"gutljaj","en":"sip","kat":"pice","rod":"m","emo":"💦","id":"gutljaj"},{"hr":"pas","en":"dog","kat":"zivotinja","rod":"m","emo":"🐕","id":"pas"},{"hr":"mačka","en":"cat","kat":"zivotinja","rod":"ž","emo":"🐈","id":"macka"},{"hr":"konj","en":"horse","kat":"zivotinja","rod":"m","emo":"🐎","id":"konj"},{"hr":"lav","en":"lion","kat":"zivotinja","rod":"m","emo":"🦁","id":"lav"},{"hr":"zebra","en":"zebra","kat":"zivotinja","rod":"ž","emo":"🦓","id":"zebra"},{"hr":"žaba","en":"frog","kat":"zivotinja","rod":"ž","emo":"🐸","id":"zaba"},{"hr":"foka","en":"seal","kat":"zivotinja","rod":"ž","emo":"🦭","id":"foka"},{"hr":"golub","en":"pigeon","kat":"zivotinja","rod":"m","emo":"🕊","id":"golub"},{"hr":"galeb","en":"seagull","kat":"zivotinja","rod":"m","emo":"🐦","id":"galeb"},{"hr":"ptica","en":"bird","kat":"zivotinja","rod":"ž","emo":"🐦","id":"ptica"},{"hr":"miš","en":"mouse","kat":"zivotinja","rod":"m","emo":"🐁","id":"mis"},{"hr":"zec","en":"rabbit","kat":"zivotinja","rod":"m","emo":"🐇","id":"zec"},{"hr":"medvjed","en":"bear","kat":"zivotinja","rod":"m","emo":"🐻","id":"medvjed"},{"hr":"vuk","en":"wolf","kat":"zivotinja","rod":"m","emo":"🐺","id":"vuk"},{"hr":"lisica","en":"fox","kat":"zivotinja","rod":"ž","emo":"🦊","id":"lisica"},{"hr":"jelen","en":"deer","kat":"zivotinja","rod":"m","emo":"🦌","id":"jelen"},{"hr":"krava","en":"cow","kat":"zivotinja","rod":"ž","emo":"🐄","id":"krava"},{"hr":"svinja","en":"pig","kat":"zivotinja","rod":"ž","emo":"🐖","id":"svinja"},{"hr":"ovca","en":"sheep","kat":"zivotinja","rod":"ž","emo":"🐑","id":"ovca"},{"hr":"koza","en":"goat","kat":"zivotinja","rod":"ž","emo":"🐐","id":"koza"},{"hr":"kokoš","en":"hen","kat":"zivotinja","rod":"ž","emo":"🐔","id":"kokos"},{"hr":"patka","en":"duck","kat":"zivotinja","rod":"ž","emo":"🦆","id":"patka"},{"hr":"guska","en":"goose","kat":"zivotinja","rod":"ž","emo":"🦢","id":"guska"},{"hr":"pijetao","en":"rooster","kat":"zivotinja","rod":"m","emo":"🐓","id":"pijetao"},{"hr":"slon","en":"elephant","kat":"zivotinja","rod":"m","emo":"🐘","id":"slon"},{"hr":"majmun","en":"monkey","kat":"zivotinja","rod":"m","emo":"🐒","id":"majmun"},{"hr":"tigar","en":"tiger","kat":"zivotinja","rod":"m","emo":"🐅","id":"tigar"},{"hr":"žirafa","en":"giraffe","kat":"zivotinja","rod":"ž","emo":"🦒","id":"zirafa"},{"hr":"krokodil","en":"crocodile","kat":"zivotinja","rod":"m","emo":"🐊","id":"krokodil"},{"hr":"zmija","en":"snake","kat":"zivotinja","rod":"ž","emo":"🐍","id":"zmija"},{"hr":"kornjača","en":"turtle","kat":"zivotinja","rod":"ž","emo":"🐢","id":"kornjaca"},{"hr":"puž","en":"snail","kat":"zivotinja","rod":"m","emo":"🐌","id":"puz"},{"hr":"pčela","en":"bee","kat":"zivotinja","rod":"ž","emo":"🐝","id":"pcela"},{"hr":"leptir","en":"butterfly","kat":"zivotinja","rod":"m","emo":"🦋","id":"leptir"},{"hr":"mrav","en":"ant","kat":"zivotinja","rod":"m","emo":"🐜","id":"mrav"},{"hr":"pauk","en":"spider","kat":"zivotinja","rod":"m","emo":"🕷","id":"pauk"},{"hr":"dupin","en":"dolphin","kat":"zivotinja","rod":"m","emo":"🐬","id":"dupin"},{"hr":"kit","en":"whale","kat":"zivotinja","rod":"m","emo":"🐋","id":"kit"},{"hr":"rak","en":"crab","kat":"zivotinja","rod":"m","emo":"🦀","id":"rak"},{"hr":"hobotnica","en":"octopus","kat":"zivotinja","rod":"ž","emo":"🐙","id":"hobotnica"},{"hr":"sova","en":"owl","kat":"zivotinja","rod":"ž","emo":"🦉","id":"sova"},{"hr":"orao","en":"eagle","kat":"zivotinja","rod":"m","emo":"🦅","id":"orao"},{"hr":"vjeverica","en":"squirrel","kat":"zivotinja","rod":"ž","emo":"🐿","id":"vjeverica"},{"hr":"jež","en":"hedgehog","kat":"zivotinja","rod":"m","emo":"🦔","id":"jez"},{"hr":"šišmiš","en":"bat","kat":"zivotinja","rod":"m","emo":"🦇","id":"sismis"},{"hr":"janje","en":"lamb","kat":"zivotinja","rod":"s","emo":"🐑","id":"janje"},{"hr":"mače","en":"kitten","kat":"zivotinja","rod":"s","emo":"🐱","id":"mace"},{"hr":"štene","en":"puppy","kat":"zivotinja","rod":"s","emo":"🐶","id":"stene"},{"hr":"mama","en":"mom","kat":"osoba","rod":"ž","emo":"👩","id":"mama"},{"hr":"tata","en":"dad","kat":"osoba","rod":"m","emo":"👨","id":"tata"},{"hr":"brat","en":"brother","kat":"osoba","rod":"m","emo":"🧑","id":"brat"},{"hr":"sestra","en":"sister","kat":"osoba","rod":"ž","emo":"👧","id":"sestra"},{"hr":"baka","en":"grandma","kat":"osoba","rod":"ž","emo":"👵","id":"baka"},{"hr":"djed","en":"grandpa","kat":"osoba","rod":"m","emo":"👴","id":"djed"},{"hr":"dijete","en":"child","kat":"osoba","rod":"s","emo":"🧒","id":"dijete"},{"hr":"dječak","en":"boy","kat":"osoba","rod":"m","emo":"👦","id":"djecak"},{"hr":"djevojčica","en":"girl","kat":"osoba","rod":"ž","emo":"👧","id":"djevojcica"},{"hr":"prijatelj","en":"friend","kat":"osoba","rod":"m","emo":"🤝","id":"prijatelj"},{"hr":"student","en":"student","kat":"osoba","rod":"m","emo":"🎓","id":"student"},{"hr":"profesor","en":"professor","kat":"osoba","rod":"m","emo":"👨‍🏫","id":"profesor"},{"hr":"učiteljica","en":"teacher","kat":"osoba","rod":"ž","emo":"👩‍🏫","id":"uciteljica"},{"hr":"turist","en":"tourist","kat":"osoba","rod":"m","emo":"🧳","id":"turist"},{"hr":"susjed","en":"neighbour","kat":"osoba","rod":"m","emo":"🏘","id":"susjed"},{"hr":"obitelj","en":"family","kat":"osoba","rod":"ž","emo":"👨‍👩‍👧","id":"obitelj"},{"hr":"ljudi","en":"people","kat":"osoba","rod":"m","emo":"👥","id":"ljudi"},{"hr":"čovjek","en":"man","kat":"osoba","rod":"m","emo":"🧍","id":"covjek"},{"hr":"žena","en":"woman","kat":"osoba","rod":"ž","emo":"👩","id":"zena"},{"hr":"muž","en":"husband","kat":"osoba","rod":"m","emo":"🤵","id":"muz"},{"hr":"supruga","en":"wife","kat":"osoba","rod":"ž","emo":"👰","id":"supruga"},{"hr":"sin","en":"son","kat":"osoba","rod":"m","emo":"👦","id":"sin"},{"hr":"kći","en":"daughter","kat":"osoba","rod":"ž","emo":"👧","id":"kci"},{"hr":"teta","en":"aunt","kat":"osoba","rod":"ž","emo":"👩‍🦰","id":"teta"},{"hr":"ujak","en":"uncle","kat":"osoba","rod":"m","emo":"🧔","id":"ujak"},{"hr":"bratić","en":"cousin","kat":"osoba","rod":"m","emo":"👬","id":"bratic"},{"hr":"unuk","en":"grandson","kat":"osoba","rod":"m","emo":"🧒","id":"unuk"},{"hr":"roditelji","en":"parents","kat":"osoba","rod":"m","emo":"👨‍👩‍👦","id":"roditelji"},{"hr":"prijateljica","en":"friend (f)","kat":"osoba","rod":"ž","emo":"👭","id":"prijateljica"},{"hr":"kolega","en":"colleague","kat":"osoba","rod":"m","emo":"🧑‍💼","id":"kolega"},{"hr":"gost","en":"guest","kat":"osoba","rod":"m","emo":"🛎","id":"gost"},{"hr":"šef","en":"boss","kat":"osoba","rod":"m","emo":"💼","id":"sef"},{"hr":"dečko","en":"boyfriend","kat":"osoba","rod":"m","emo":"🧑","id":"decko"},{"hr":"djevojka","en":"girlfriend","kat":"osoba","rod":"ž","emo":"👩","id":"djevojka"},{"hr":"gospodin","en":"mister","kat":"osoba","rod":"m","emo":"🎩","id":"gospodin"},{"hr":"gospođa","en":"madam","kat":"osoba","rod":"ž","emo":"👒","id":"gospoda"},{"hr":"mladić","en":"young man","kat":"osoba","rod":"m","emo":"🧑","id":"mladic"},{"hr":"starac","en":"old man","kat":"osoba","rod":"m","emo":"👴","id":"starac"},{"hr":"skupina","en":"group","kat":"osoba","rod":"ž","emo":"👨‍👩‍👧‍👦","id":"skupina"},{"hr":"narod","en":"nation","kat":"osoba","rod":"m","emo":"🌍","id":"narod"},{"hr":"beba","en":"baby","kat":"osoba","rod":"ž","emo":"👶","id":"beba"},{"hr":"tinejdžer","en":"teenager","kat":"osoba","rod":"m","emo":"🧑‍🎤","id":"tinejdzer"},{"hr":"ime","en":"name","kat":"osoba","rod":"s","emo":"🏷","id":"ime"},{"hr":"prezime","en":"surname","kat":"osoba","rod":"s","emo":"📇","id":"prezime"},{"hr":"susjeda","en":"neighbour (f)","kat":"osoba","rod":"ž","emo":"🏡","id":"susjeda"},{"hr":"grad","en":"city","kat":"mjesto","rod":"m","emo":"🏙","id":"grad"},{"hr":"kuća","en":"house","kat":"mjesto","rod":"ž","emo":"🏠","id":"kuca"},{"hr":"hotel","en":"hotel","kat":"mjesto","rod":"m","emo":"🏨","id":"hotel"},{"hr":"restoran","en":"restaurant","kat":"mjesto","rod":"m","emo":"🍽","id":"restoran"},{"hr":"kafić","en":"café","kat":"mjesto","rod":"m","emo":"☕","id":"kafic"},{"hr":"škola","en":"school","kat":"mjesto","rod":"ž","emo":"🏫","id":"skola"},{"hr":"tržnica","en":"market","kat":"mjesto","rod":"ž","emo":"🏪","id":"trznica"},{"hr":"trgovina","en":"shop","kat":"mjesto","rod":"ž","emo":"🛒","id":"trgovina"},{"hr":"pošta","en":"post office","kat":"mjesto","rod":"ž","emo":"📮","id":"posta"},{"hr":"pekara","en":"bakery","kat":"mjesto","rod":"ž","emo":"🥖","id":"pekara"},{"hr":"kazalište","en":"theatre","kat":"mjesto","rod":"s","emo":"🎭","id":"kazaliste"},{"hr":"kino","en":"cinema","kat":"mjesto","rod":"s","emo":"🎬","id":"kino"},{"hr":"muzej","en":"museum","kat":"mjesto","rod":"m","emo":"🏛","id":"muzej"},{"hr":"galerija","en":"gallery","kat":"mjesto","rod":"ž","emo":"🖼","id":"galerija"},{"hr":"katedrala","en":"cathedral","kat":"mjesto","rod":"ž","emo":"⛪","id":"katedrala"},{"hr":"most","en":"bridge","kat":"mjesto","rod":"m","emo":"🌉","id":"most"},{"hr":"trg","en":"square","kat":"mjesto","rod":"m","emo":"⛲","id":"trg"},{"hr":"ulica","en":"street","kat":"mjesto","rod":"ž","emo":"🛣","id":"ulica"},{"hr":"stanica","en":"stop","kat":"mjesto","rod":"ž","emo":"🚏","id":"stanica"},{"hr":"kolodvor","en":"train station","kat":"mjesto","rod":"m","emo":"🚉","id":"kolodvor"},{"hr":"aerodrom","en":"airport","kat":"mjesto","rod":"m","emo":"🛫","id":"aerodrom"},{"hr":"stadion","en":"stadium","kat":"mjesto","rod":"m","emo":"🏟","id":"stadion"},{"hr":"apoteka","en":"pharmacy","kat":"mjesto","rod":"ž","emo":"💊","id":"apoteka"},{"hr":"teretana","en":"gym","kat":"mjesto","rod":"ž","emo":"🏋","id":"teretana"},{"hr":"biblioteka","en":"library","kat":"mjesto","rod":"ž","emo":"📚","id":"biblioteka"},{"hr":"ured","en":"office","kat":"mjesto","rod":"m","emo":"🏢","id":"ured"},{"hr":"zgrada","en":"building","kat":"mjesto","rod":"ž","emo":"🏬","id":"zgrada"},{"hr":"selo","en":"village","kat":"mjesto","rod":"s","emo":"🏘","id":"selo"},{"hr":"država","en":"country","kat":"mjesto","rod":"ž","emo":"🗺","id":"drzava"},{"hr":"bolnica","en":"hospital","kat":"mjesto","rod":"ž","emo":"🏥","id":"bolnica"},{"hr":"banka","en":"bank","kat":"mjesto","rod":"ž","emo":"🏦","id":"banka"},{"hr":"crkva","en":"church","kat":"mjesto","rod":"ž","emo":"⛪","id":"crkva"},{"hr":"park","en":"park","kat":"mjesto","rod":"m","emo":"🌳","id":"park"},{"hr":"plaža","en":"beach","kat":"mjesto","rod":"ž","emo":"🏖","id":"plaza"},{"hr":"luka","en":"port","kat":"mjesto","rod":"ž","emo":"⚓","id":"luka"},{"hr":"kvart","en":"neighbourhood","kat":"mjesto","rod":"m","emo":"🏘","id":"kvart"},{"hr":"dvorište","en":"yard","kat":"mjesto","rod":"s","emo":"🌿","id":"dvoriste"},{"hr":"tvornica","en":"factory","kat":"mjesto","rod":"ž","emo":"🏭","id":"tvornica"},{"hr":"sveučilište","en":"university","kat":"mjesto","rod":"s","emo":"🎓","id":"sveuciliste"},{"hr":"vrtić","en":"kindergarten","kat":"mjesto","rod":"m","emo":"🧸","id":"vrtic"},{"hr":"kiosk","en":"kiosk","kat":"mjesto","rod":"m","emo":"📰","id":"kiosk"},{"hr":"autocesta","en":"motorway","kat":"mjesto","rod":"ž","emo":"🛣","id":"autocesta"},{"hr":"raskrižje","en":"crossroads","kat":"mjesto","rod":"s","emo":"🚦","id":"raskrizje"},{"hr":"parkiralište","en":"car park","kat":"mjesto","rod":"s","emo":"🅿","id":"parkiraliste"},{"hr":"dvorana","en":"hall","kat":"mjesto","rod":"ž","emo":"🏛","id":"dvorana"},{"hr":"fontana","en":"fountain","kat":"mjesto","rod":"ž","emo":"⛲","id":"fontana"},{"hr":"tunel","en":"tunnel","kat":"mjesto","rod":"m","emo":"🚇","id":"tunel"},{"hr":"granica","en":"border","kat":"mjesto","rod":"ž","emo":"🛂","id":"granica"},{"hr":"centar","en":"centre","kat":"mjesto","rod":"m","emo":"📍","id":"centar"},{"hr":"akvarij","en":"aquarium","kat":"mjesto","rod":"m","emo":"🐠","id":"akvarij"},{"hr":"tvrđava","en":"fortress","kat":"mjesto","rod":"ž","emo":"🏰","id":"tvrdava"},{"hr":"dvorac","en":"castle","kat":"mjesto","rod":"m","emo":"🏰","id":"dvorac"},{"hr":"svjetionik","en":"lighthouse","kat":"mjesto","rod":"m","emo":"🗼","id":"svjetionik"},{"hr":"čekaonica","en":"waiting room","kat":"mjesto","rod":"ž","emo":"🪑","id":"cekaonica"},{"hr":"tržni centar","en":"shopping centre","kat":"mjesto","rod":"m","emo":"🏬","id":"trzni-centar"},{"hr":"soba","en":"room","kat":"dom","rod":"ž","emo":"🚪","id":"soba"},{"hr":"kuhinja","en":"kitchen","kat":"dom","rod":"ž","emo":"🍳","id":"kuhinja"},{"hr":"kupaonica","en":"bathroom","kat":"dom","rod":"ž","emo":"🛁","id":"kupaonica"},{"hr":"spavaća soba","en":"bedroom","kat":"dom","rod":"ž","emo":"🛏","id":"spavaca-soba"},{"hr":"dnevna soba","en":"living room","kat":"dom","rod":"ž","emo":"🛋","id":"dnevna-soba"},{"hr":"hodnik","en":"hallway","kat":"dom","rod":"m","emo":"🚪","id":"hodnik"},{"hr":"stan","en":"flat","kat":"dom","rod":"m","emo":"🏢","id":"stan"},{"hr":"vrt","en":"garden","kat":"dom","rod":"m","emo":"🌷","id":"vrt"},{"hr":"balkon","en":"balcony","kat":"dom","rod":"m","emo":"🪟","id":"balkon"},{"hr":"krov","en":"roof","kat":"dom","rod":"m","emo":"🏠","id":"krov"},{"hr":"pod","en":"floor","kat":"dom","rod":"m","emo":"🟫","id":"pod"},{"hr":"strop","en":"ceiling","kat":"dom","rod":"m","emo":"⬜","id":"strop"},{"hr":"zid","en":"wall","kat":"dom","rod":"m","emo":"🧱","id":"zid"},{"hr":"vrata","en":"door","kat":"dom","rod":"s","emo":"🚪","id":"vrata"},{"hr":"prozor","en":"window","kat":"dom","rod":"m","emo":"🪟","id":"prozor"},{"hr":"stol","en":"table","kat":"dom","rod":"m","emo":"🪑","id":"stol"},{"hr":"stolica","en":"chair","kat":"dom","rod":"ž","emo":"🪑","id":"stolica"},{"hr":"krevet","en":"bed","kat":"dom","rod":"m","emo":"🛏","id":"krevet"},{"hr":"ormar","en":"wardrobe","kat":"dom","rod":"m","emo":"🗄","id":"ormar"},{"hr":"polica","en":"shelf","kat":"dom","rod":"ž","emo":"📚","id":"polica"},{"hr":"kauč","en":"sofa","kat":"dom","rod":"m","emo":"🛋","id":"kauc"},{"hr":"tepih","en":"carpet","kat":"dom","rod":"m","emo":"🧶","id":"tepih"},{"hr":"lampa","en":"lamp","kat":"dom","rod":"ž","emo":"💡","id":"lampa"},{"hr":"zavjesa","en":"curtain","kat":"dom","rod":"ž","emo":"🪟","id":"zavjesa"},{"hr":"jastuk","en":"pillow","kat":"dom","rod":"m","emo":"🛏","id":"jastuk"},{"hr":"deka","en":"blanket","kat":"dom","rod":"ž","emo":"🧣","id":"deka"},{"hr":"hladnjak","en":"fridge","kat":"dom","rod":"m","emo":"🧊","id":"hladnjak"},{"hr":"pećnica","en":"oven","kat":"dom","rod":"ž","emo":"🔥","id":"pecnica"},{"hr":"perilica","en":"washing machine","kat":"dom","rod":"ž","emo":"🧺","id":"perilica"},{"hr":"stepenice","en":"stairs","kat":"dom","rod":"ž","emo":"🪜","id":"stepenice"},{"hr":"dizalo","en":"lift","kat":"dom","rod":"s","emo":"🛗","id":"dizalo"},{"hr":"adresa","en":"address","kat":"dom","rod":"ž","emo":"📍","id":"adresa"},{"hr":"podrum","en":"cellar","kat":"dom","rod":"m","emo":"🕳","id":"podrum"},{"hr":"tavan","en":"attic","kat":"dom","rod":"m","emo":"🪟","id":"tavan"},{"hr":"garaža","en":"garage","kat":"dom","rod":"ž","emo":"🚗","id":"garaza"},{"hr":"auto","en":"car","kat":"prijevoz","rod":"m","emo":"🚗","id":"auto"},{"hr":"autobus","en":"bus","kat":"prijevoz","rod":"m","emo":"🚌","id":"autobus"},{"hr":"tramvaj","en":"tram","kat":"prijevoz","rod":"m","emo":"🚊","id":"tramvaj"},{"hr":"vlak","en":"train","kat":"prijevoz","rod":"m","emo":"🚆","id":"vlak"},{"hr":"taksi","en":"taxi","kat":"prijevoz","rod":"m","emo":"🚕","id":"taksi"},{"hr":"bicikl","en":"bicycle","kat":"prijevoz","rod":"m","emo":"🚲","id":"bicikl"},{"hr":"brod","en":"boat","kat":"prijevoz","rod":"m","emo":"⛵","id":"brod"},{"hr":"avion","en":"plane","kat":"prijevoz","rod":"m","emo":"✈","id":"avion"},{"hr":"motor","en":"motorbike","kat":"prijevoz","rod":"m","emo":"🏍","id":"motor"},{"hr":"trajekt","en":"ferry","kat":"prijevoz","rod":"m","emo":"⛴","id":"trajekt"},{"hr":"metro","en":"metro","kat":"prijevoz","rod":"m","emo":"🚇","id":"metro"},{"hr":"kamion","en":"truck","kat":"prijevoz","rod":"m","emo":"🚚","id":"kamion"},{"hr":"kombi","en":"van","kat":"prijevoz","rod":"m","emo":"🚐","id":"kombi"},{"hr":"romobil","en":"scooter","kat":"prijevoz","rod":"m","emo":"🛴","id":"romobil"},{"hr":"helikopter","en":"helicopter","kat":"prijevoz","rod":"m","emo":"🚁","id":"helikopter"},{"hr":"raketa","en":"rocket","kat":"prijevoz","rod":"ž","emo":"🚀","id":"raketa"},{"hr":"hitna","en":"ambulance","kat":"prijevoz","rod":"ž","emo":"🚑","id":"hitna"},{"hr":"peron","en":"platform","kat":"prijevoz","rod":"m","emo":"🚉","id":"peron"},{"hr":"vožnja","en":"ride","kat":"prijevoz","rod":"ž","emo":"🛞","id":"voznja"},{"hr":"gorivo","en":"fuel","kat":"prijevoz","rod":"s","emo":"⛽","id":"gorivo"},{"hr":"guma","en":"tyre","kat":"prijevoz","rod":"ž","emo":"🛞","id":"guma"},{"hr":"volan","en":"steering wheel","kat":"prijevoz","rod":"m","emo":"🎛","id":"volan"},{"hr":"sidro","en":"anchor","kat":"prijevoz","rod":"s","emo":"⚓","id":"sidro"},{"hr":"jedro","en":"sail","kat":"prijevoz","rod":"s","emo":"⛵","id":"jedro"},{"hr":"čamac","en":"small boat","kat":"prijevoz","rod":"m","emo":"🛶","id":"camac"},{"hr":"kolica","en":"cart","kat":"prijevoz","rod":"s","emo":"🛒","id":"kolica"},{"hr":"knjiga","en":"book","kat":"predmet","rod":"ž","emo":"📕","id":"knjiga"},{"hr":"telefon","en":"telephone","kat":"predmet","rod":"m","emo":"📱","id":"telefon"},{"hr":"slika","en":"picture","kat":"predmet","rod":"ž","emo":"🖼","id":"slika"},{"hr":"kutija","en":"box","kat":"predmet","rod":"ž","emo":"📦","id":"kutija"},{"hr":"tava","en":"pan","kat":"predmet","rod":"ž","emo":"🍳","id":"tava"},{"hr":"vrećica","en":"bag","kat":"predmet","rod":"ž","emo":"🛍","id":"vrecica"},{"hr":"novine","en":"newspaper","kat":"predmet","rod":"ž","emo":"📰","id":"novine"},{"hr":"pismo","en":"letter","kat":"predmet","rod":"s","emo":"✉","id":"pismo"},{"hr":"paket","en":"package","kat":"predmet","rod":"m","emo":"📦","id":"paket"},{"hr":"karta","en":"ticket","kat":"predmet","rod":"ž","emo":"🎫","id":"karta"},{"hr":"gitara","en":"guitar","kat":"predmet","rod":"ž","emo":"🎸","id":"gitara"},{"hr":"klavir","en":"piano","kat":"predmet","rod":"m","emo":"🎹","id":"klavir"},{"hr":"lopta","en":"ball","kat":"predmet","rod":"ž","emo":"⚽","id":"lopta"},{"hr":"fotoaparat","en":"camera","kat":"predmet","rod":"m","emo":"📷","id":"fotoaparat"},{"hr":"igla","en":"needle","kat":"predmet","rod":"ž","emo":"🪡","id":"igla"},{"hr":"poklon","en":"present","kat":"predmet","rod":"m","emo":"🎁","id":"poklon"},{"hr":"udžbenik","en":"textbook","kat":"predmet","rod":"m","emo":"📘","id":"udzbenik"},{"hr":"ključ","en":"key","kat":"predmet","rod":"m","emo":"🗝","id":"kljuc"},{"hr":"novčanik","en":"wallet","kat":"predmet","rod":"m","emo":"👛","id":"novcanik"},{"hr":"novac","en":"money","kat":"predmet","rod":"m","emo":"💵","id":"novac"},{"hr":"torba","en":"bag","kat":"predmet","rod":"ž","emo":"👜","id":"torba"},{"hr":"naočale","en":"glasses","kat":"predmet","rod":"ž","emo":"👓","id":"naocale"},{"hr":"ručni sat","en":"wristwatch","kat":"predmet","rod":"m","emo":"⌚","id":"rucni-sat"},{"hr":"kišobran","en":"umbrella","kat":"predmet","rod":"m","emo":"☂","id":"kisobran"},{"hr":"ogledalo","en":"mirror","kat":"predmet","rod":"s","emo":"🪞","id":"ogledalo"},{"hr":"češalj","en":"comb","kat":"predmet","rod":"m","emo":"🪮","id":"cesalj"},{"hr":"četkica","en":"toothbrush","kat":"predmet","rod":"ž","emo":"🪥","id":"cetkica"},{"hr":"sapun","en":"soap","kat":"predmet","rod":"m","emo":"🧼","id":"sapun"},{"hr":"ručnik","en":"towel","kat":"predmet","rod":"m","emo":"🧻","id":"rucnik"},{"hr":"svijeća","en":"candle","kat":"predmet","rod":"ž","emo":"🕯","id":"svijeca"},{"hr":"škare","en":"scissors","kat":"predmet","rod":"ž","emo":"✂","id":"skare"},{"hr":"ljepilo","en":"glue","kat":"predmet","rod":"s","emo":"🧴","id":"ljepilo"},{"hr":"olovka","en":"pencil","kat":"predmet","rod":"ž","emo":"✏","id":"olovka"},{"hr":"kemijska","en":"pen","kat":"predmet","rod":"ž","emo":"🖊","id":"kemijska"},{"hr":"papir","en":"paper","kat":"predmet","rod":"m","emo":"📄","id":"papir"},{"hr":"bilježnica","en":"notebook","kat":"predmet","rod":"ž","emo":"📓","id":"biljeznica"},{"hr":"mapa","en":"folder","kat":"predmet","rod":"ž","emo":"📁","id":"mapa"},{"hr":"kist","en":"brush","kat":"predmet","rod":"m","emo":"🖌","id":"kist"},{"hr":"nož","en":"knife","kat":"predmet","rod":"m","emo":"🔪","id":"noz"},{"hr":"žlica","en":"spoon","kat":"predmet","rod":"ž","emo":"🥄","id":"zlica"},{"hr":"vilica","en":"fork","kat":"predmet","rod":"ž","emo":"🍴","id":"vilica"},{"hr":"tanjur","en":"plate","kat":"predmet","rod":"m","emo":"🍽","id":"tanjur"},{"hr":"zdjela","en":"bowl","kat":"predmet","rod":"ž","emo":"🥣","id":"zdjela"},{"hr":"metla","en":"broom","kat":"predmet","rod":"ž","emo":"🧹","id":"metla"},{"hr":"alat","en":"tool","kat":"predmet","rod":"m","emo":"🔧","id":"alat"},{"hr":"čekić","en":"hammer","kat":"predmet","rod":"m","emo":"🔨","id":"cekic"},{"hr":"ljestve","en":"ladder","kat":"predmet","rod":"ž","emo":"🪜","id":"ljestve"},{"hr":"uže","en":"rope","kat":"predmet","rod":"s","emo":"🪢","id":"uze"},{"hr":"lanac","en":"chain","kat":"predmet","rod":"m","emo":"⛓","id":"lanac"},{"hr":"zemljovid","en":"map","kat":"predmet","rod":"m","emo":"🗺","id":"zemljovid"},{"hr":"zastava","en":"flag","kat":"predmet","rod":"ž","emo":"🚩","id":"zastava"},{"hr":"balon","en":"balloon","kat":"predmet","rod":"m","emo":"🎈","id":"balon"},{"hr":"igračka","en":"toy","kat":"predmet","rod":"ž","emo":"🧸","id":"igracka"},{"hr":"kocka","en":"dice","kat":"predmet","rod":"ž","emo":"🎲","id":"kocka"},{"hr":"kotač","en":"wheel","kat":"predmet","rod":"m","emo":"🛞","id":"kotac"},{"hr":"baterijska svjetiljka","en":"torch","kat":"predmet","rod":"ž","emo":"🔦","id":"baterijska-svjetiljka"},{"hr":"ruksak","en":"backpack","kat":"predmet","rod":"m","emo":"🎒","id":"ruksak"},{"hr":"naljepnica","en":"sticker","kat":"predmet","rod":"ž","emo":"🏷","id":"naljepnica"},{"hr":"kutlača","en":"ladle","kat":"predmet","rod":"ž","emo":"🥄","id":"kutlaca"},{"hr":"vaza","en":"vase","kat":"predmet","rod":"ž","emo":"🏺","id":"vaza"},{"hr":"šešir","en":"hat","kat":"odjeca","rod":"m","emo":"🎩","id":"sesir"},{"hr":"cipela","en":"shoe","kat":"odjeca","rod":"ž","emo":"👞","id":"cipela"},{"hr":"šal","en":"scarf","kat":"odjeca","rod":"m","emo":"🧣","id":"sal"},{"hr":"dres","en":"jersey","kat":"odjeca","rod":"m","emo":"👕","id":"dres"},{"hr":"majica","en":"T-shirt","kat":"odjeca","rod":"ž","emo":"👕","id":"majica"},{"hr":"košulja","en":"shirt","kat":"odjeca","rod":"ž","emo":"👔","id":"kosulja"},{"hr":"hlače","en":"trousers","kat":"odjeca","rod":"ž","emo":"👖","id":"hlace"},{"hr":"traperice","en":"jeans","kat":"odjeca","rod":"ž","emo":"👖","id":"traperice"},{"hr":"suknja","en":"skirt","kat":"odjeca","rod":"ž","emo":"👗","id":"suknja"},{"hr":"haljina","en":"dress","kat":"odjeca","rod":"ž","emo":"👗","id":"haljina"},{"hr":"jakna","en":"jacket","kat":"odjeca","rod":"ž","emo":"🧥","id":"jakna"},{"hr":"kaput","en":"coat","kat":"odjeca","rod":"m","emo":"🧥","id":"kaput"},{"hr":"džemper","en":"sweater","kat":"odjeca","rod":"m","emo":"🧶","id":"dzemper"},{"hr":"čarapa","en":"sock","kat":"odjeca","rod":"ž","emo":"🧦","id":"carapa"},{"hr":"rukavica","en":"glove","kat":"odjeca","rod":"ž","emo":"🧤","id":"rukavica"},{"hr":"kapa","en":"cap","kat":"odjeca","rod":"ž","emo":"🧢","id":"kapa"},{"hr":"tenisice","en":"sneakers","kat":"odjeca","rod":"ž","emo":"👟","id":"tenisice"},{"hr":"čizma","en":"boot","kat":"odjeca","rod":"ž","emo":"👢","id":"cizma"},{"hr":"papuča","en":"slipper","kat":"odjeca","rod":"ž","emo":"🥿","id":"papuca"},{"hr":"odijelo","en":"suit","kat":"odjeca","rod":"s","emo":"🤵","id":"odijelo"},{"hr":"kravata","en":"tie","kat":"odjeca","rod":"ž","emo":"👔","id":"kravata"},{"hr":"pojas","en":"belt","kat":"odjeca","rod":"m","emo":"🥋","id":"pojas"},{"hr":"kupaći","en":"swimsuit","kat":"odjeca","rod":"m","emo":"🩱","id":"kupaci"},{"hr":"pidžama","en":"pyjamas","kat":"odjeca","rod":"ž","emo":"🛌","id":"pidzama"},{"hr":"naušnica","en":"earring","kat":"odjeca","rod":"ž","emo":"💎","id":"nausnica"},{"hr":"prsten","en":"ring","kat":"odjeca","rod":"m","emo":"💍","id":"prsten"},{"hr":"odjeća","en":"clothes","kat":"odjeca","rod":"ž","emo":"👚","id":"odjeca"},{"hr":"veličina","en":"size","kat":"odjeca","rod":"ž","emo":"📏","id":"velicina"},{"hr":"džep","en":"pocket","kat":"odjeca","rod":"m","emo":"👖","id":"dzep"},{"hr":"gumb","en":"button","kat":"odjeca","rod":"m","emo":"🔘","id":"gumb"},{"hr":"cvijeće","en":"flowers","kat":"priroda","rod":"s","emo":"💐","id":"cvijece"},{"hr":"more","en":"sea","kat":"priroda","rod":"s","emo":"🌊","id":"more"},{"hr":"sunce","en":"sun","kat":"priroda","rod":"s","emo":"☀","id":"sunce"},{"hr":"nebo","en":"sky","kat":"priroda","rod":"s","emo":"🌤","id":"nebo"},{"hr":"drvo","en":"tree","kat":"priroda","rod":"s","emo":"🌳","id":"drvo"},{"hr":"rijeka","en":"river","kat":"priroda","rod":"ž","emo":"🏞","id":"rijeka"},{"hr":"kiša","en":"rain","kat":"priroda","rod":"ž","emo":"🌧","id":"kisa"},{"hr":"zvijezda","en":"star","kat":"priroda","rod":"ž","emo":"⭐","id":"zvijezda"},{"hr":"otok","en":"island","kat":"priroda","rod":"m","emo":"🏝","id":"otok"},{"hr":"planina","en":"mountain","kat":"priroda","rod":"ž","emo":"🏔","id":"planina"},{"hr":"brdo","en":"hill","kat":"priroda","rod":"s","emo":"⛰","id":"brdo"},{"hr":"šuma","en":"forest","kat":"priroda","rod":"ž","emo":"🌲","id":"suma"},{"hr":"jezero","en":"lake","kat":"priroda","rod":"s","emo":"🏞","id":"jezero"},{"hr":"polje","en":"field","kat":"priroda","rod":"s","emo":"🌾","id":"polje"},{"hr":"livada","en":"meadow","kat":"priroda","rod":"ž","emo":"🌿","id":"livada"},{"hr":"cvijet","en":"flower","kat":"priroda","rod":"m","emo":"🌸","id":"cvijet"},{"hr":"list","en":"leaf","kat":"priroda","rod":"m","emo":"🍃","id":"list"},{"hr":"trava","en":"grass","kat":"priroda","rod":"ž","emo":"🌱","id":"trava"},{"hr":"grana","en":"branch","kat":"priroda","rod":"ž","emo":"🌿","id":"grana"},{"hr":"korijen","en":"root","kat":"priroda","rod":"m","emo":"🌱","id":"korijen"},{"hr":"oblak","en":"cloud","kat":"priroda","rod":"m","emo":"☁","id":"oblak"},{"hr":"vjetar","en":"wind","kat":"priroda","rod":"m","emo":"💨","id":"vjetar"},{"hr":"snijeg","en":"snow","kat":"priroda","rod":"m","emo":"❄","id":"snijeg"},{"hr":"munja","en":"lightning","kat":"priroda","rod":"ž","emo":"⚡","id":"munja"},{"hr":"grom","en":"thunder","kat":"priroda","rod":"m","emo":"🌩","id":"grom"},{"hr":"magla","en":"fog","kat":"priroda","rod":"ž","emo":"🌫","id":"magla"},{"hr":"duga","en":"rainbow","kat":"priroda","rod":"ž","emo":"🌈","id":"duga"},{"hr":"val","en":"wave","kat":"priroda","rod":"m","emo":"🌊","id":"val"},{"hr":"pijesak","en":"sand","kat":"priroda","rod":"m","emo":"🏖","id":"pijesak"},{"hr":"kamen","en":"stone","kat":"priroda","rod":"m","emo":"🪨","id":"kamen"},{"hr":"zemlja","en":"earth","kat":"priroda","rod":"ž","emo":"🌍","id":"zemlja"},{"hr":"vatra","en":"fire","kat":"priroda","rod":"ž","emo":"🔥","id":"vatra"},{"hr":"zrak","en":"air","kat":"priroda","rod":"m","emo":"💨","id":"zrak"},{"hr":"priroda","en":"nature","kat":"priroda","rod":"ž","emo":"🌿","id":"priroda"},{"hr":"špilja","en":"cave","kat":"priroda","rod":"ž","emo":"🕳","id":"spilja"},{"hr":"slap","en":"waterfall","kat":"priroda","rod":"m","emo":"💦","id":"slap"},{"hr":"izvor","en":"spring","kat":"priroda","rod":"m","emo":"⛲","id":"izvor"},{"hr":"dolina","en":"valley","kat":"priroda","rod":"ž","emo":"🏞","id":"dolina"},{"hr":"obala","en":"coast","kat":"priroda","rod":"ž","emo":"🏝","id":"obala"},{"hr":"biljka","en":"plant","kat":"priroda","rod":"ž","emo":"🪴","id":"biljka"},{"hr":"sjeme","en":"seed","kat":"priroda","rod":"s","emo":"🌰","id":"sjeme"},{"hr":"školjka","en":"shell","kat":"priroda","rod":"ž","emo":"🐚","id":"skoljka"},{"hr":"koralj","en":"coral","kat":"priroda","rod":"m","emo":"🪸","id":"koralj"},{"hr":"ruža","en":"rose","kat":"priroda","rod":"ž","emo":"🌹","id":"ruza"},{"hr":"potok","en":"stream","kat":"priroda","rod":"m","emo":"🏞","id":"potok"},{"hr":"zima","en":"winter","kat":"vrijeme","rod":"ž","emo":"❄","id":"zima"},{"hr":"ljeto","en":"summer","kat":"vrijeme","rod":"s","emo":"🏖","id":"ljeto"},{"hr":"proljeće","en":"spring","kat":"vrijeme","rod":"s","emo":"🌷","id":"proljece"},{"hr":"jesen","en":"autumn","kat":"vrijeme","rod":"ž","emo":"🍂","id":"jesen"},{"hr":"dan","en":"day","kat":"vrijeme","rod":"m","emo":"📅","id":"dan"},{"hr":"jutro","en":"morning","kat":"vrijeme","rod":"s","emo":"🌅","id":"jutro"},{"hr":"večer","en":"evening","kat":"vrijeme","rod":"ž","emo":"🌆","id":"vecer"},{"hr":"noć","en":"night","kat":"vrijeme","rod":"ž","emo":"🌙","id":"noc"},{"hr":"podne","en":"noon","kat":"vrijeme","rod":"s","emo":"🕛","id":"podne"},{"hr":"ponoć","en":"midnight","kat":"vrijeme","rod":"ž","emo":"🕛","id":"ponoc"},{"hr":"sat","en":"hour","kat":"vrijeme","rod":"m","emo":"🕐","id":"sat"},{"hr":"minuta","en":"minute","kat":"vrijeme","rod":"ž","emo":"⏱","id":"minuta"},{"hr":"sekunda","en":"second","kat":"vrijeme","rod":"ž","emo":"⏲","id":"sekunda"},{"hr":"godina","en":"year","kat":"vrijeme","rod":"ž","emo":"📆","id":"godina"},{"hr":"mjesec","en":"month","kat":"vrijeme","rod":"m","emo":"🗓","id":"mjesec"},{"hr":"tjedan","en":"week","kat":"vrijeme","rod":"m","emo":"🗓","id":"tjedan"},{"hr":"vikend","en":"weekend","kat":"vrijeme","rod":"m","emo":"🎉","id":"vikend"},{"hr":"ponedjeljak","en":"Monday","kat":"vrijeme","rod":"m","emo":"📅","id":"ponedjeljak"},{"hr":"utorak","en":"Tuesday","kat":"vrijeme","rod":"m","emo":"📅","id":"utorak"},{"hr":"srijeda","en":"Wednesday","kat":"vrijeme","rod":"ž","emo":"📅","id":"srijeda"},{"hr":"četvrtak","en":"Thursday","kat":"vrijeme","rod":"m","emo":"📅","id":"cetvrtak"},{"hr":"petak","en":"Friday","kat":"vrijeme","rod":"m","emo":"📅","id":"petak"},{"hr":"subota","en":"Saturday","kat":"vrijeme","rod":"ž","emo":"📅","id":"subota"},{"hr":"nedjelja","en":"Sunday","kat":"vrijeme","rod":"ž","emo":"📅","id":"nedjelja"},{"hr":"siječanj","en":"January","kat":"vrijeme","rod":"m","emo":"🗓","id":"sijecanj"},{"hr":"travanj","en":"April","kat":"vrijeme","rod":"m","emo":"🗓","id":"travanj"},{"hr":"srpanj","en":"July","kat":"vrijeme","rod":"m","emo":"🗓","id":"srpanj"},{"hr":"listopad","en":"October","kat":"vrijeme","rod":"m","emo":"🗓","id":"listopad"},{"hr":"prosinac","en":"December","kat":"vrijeme","rod":"m","emo":"🗓","id":"prosinac"},{"hr":"rođendan","en":"birthday","kat":"vrijeme","rod":"m","emo":"🎂","id":"rodendan"},{"hr":"praznik","en":"holiday","kat":"vrijeme","rod":"m","emo":"🎊","id":"praznik"},{"hr":"odmor","en":"rest","kat":"vrijeme","rod":"m","emo":"🏖","id":"odmor"},{"hr":"datum","en":"date","kat":"vrijeme","rod":"m","emo":"📆","id":"datum"},{"hr":"raspored","en":"schedule","kat":"vrijeme","rod":"m","emo":"📋","id":"raspored"},{"hr":"zora","en":"dawn","kat":"vrijeme","rod":"ž","emo":"🌅","id":"zora"},{"hr":"sumrak","en":"dusk","kat":"vrijeme","rod":"m","emo":"🌇","id":"sumrak"},{"hr":"trenutak","en":"moment","kat":"vrijeme","rod":"m","emo":"⏳","id":"trenutak"},{"hr":"budućnost","en":"future","kat":"vrijeme","rod":"ž","emo":"🔮","id":"buducnost"},{"hr":"prošlost","en":"past","kat":"vrijeme","rod":"ž","emo":"📜","id":"proslost"},{"hr":"stoljeće","en":"century","kat":"vrijeme","rod":"s","emo":"🏛","id":"stoljece"},{"hr":"nos","en":"nose","kat":"tijelo","rod":"m","emo":"👃","id":"nos"},{"hr":"oko","en":"eye","kat":"tijelo","rod":"s","emo":"👁","id":"oko"},{"hr":"uho","en":"ear","kat":"tijelo","rod":"s","emo":"👂","id":"uho"},{"hr":"glava","en":"head","kat":"tijelo","rod":"ž","emo":"🗣","id":"glava"},{"hr":"kosa","en":"hair","kat":"tijelo","rod":"ž","emo":"💇","id":"kosa"},{"hr":"lice","en":"face","kat":"tijelo","rod":"s","emo":"🙂","id":"lice"},{"hr":"usta","en":"mouth","kat":"tijelo","rod":"s","emo":"👄","id":"usta"},{"hr":"zub","en":"tooth","kat":"tijelo","rod":"m","emo":"🦷","id":"zub"},{"hr":"jezik","en":"tongue","kat":"tijelo","rod":"m","emo":"👅","id":"jezik"},{"hr":"vrat","en":"neck","kat":"tijelo","rod":"m","emo":"🧣","id":"vrat"},{"hr":"rame","en":"shoulder","kat":"tijelo","rod":"s","emo":"💪","id":"rame"},{"hr":"ruka","en":"hand","kat":"tijelo","rod":"ž","emo":"✋","id":"ruka"},{"hr":"prst","en":"finger","kat":"tijelo","rod":"m","emo":"👆","id":"prst"},{"hr":"noga","en":"leg","kat":"tijelo","rod":"ž","emo":"🦵","id":"noga"},{"hr":"stopalo","en":"foot","kat":"tijelo","rod":"s","emo":"🦶","id":"stopalo"},{"hr":"koljeno","en":"knee","kat":"tijelo","rod":"s","emo":"🦵","id":"koljeno"},{"hr":"leđa","en":"back","kat":"tijelo","rod":"s","emo":"🔙","id":"leda"},{"hr":"trbuh","en":"belly","kat":"tijelo","rod":"m","emo":"🫃","id":"trbuh"},{"hr":"srce","en":"heart","kat":"tijelo","rod":"s","emo":"❤","id":"srce"},{"hr":"mozak","en":"brain","kat":"tijelo","rod":"m","emo":"🧠","id":"mozak"},{"hr":"krv","en":"blood","kat":"tijelo","rod":"ž","emo":"🩸","id":"krv"},{"hr":"kost","en":"bone","kat":"tijelo","rod":"ž","emo":"🦴","id":"kost"},{"hr":"koža","en":"skin","kat":"tijelo","rod":"ž","emo":"🧴","id":"koza-tijelo"},{"hr":"mišić","en":"muscle","kat":"tijelo","rod":"m","emo":"💪","id":"misic"},{"hr":"pluća","en":"lungs","kat":"tijelo","rod":"s","emo":"🫁","id":"pluca"},{"hr":"grlo","en":"throat","kat":"tijelo","rod":"s","emo":"🗣","id":"grlo"},{"hr":"obrva","en":"eyebrow","kat":"tijelo","rod":"ž","emo":"👁","id":"obrva"},{"hr":"brada","en":"chin","kat":"tijelo","rod":"ž","emo":"🧔","id":"brada"},{"hr":"tijelo","en":"body","kat":"tijelo","rod":"s","emo":"🧍","id":"tijelo"},{"hr":"zdravlje","en":"health","kat":"tijelo","rod":"s","emo":"💚","id":"zdravlje"},{"hr":"ljubav","en":"love","kat":"osjecaj","rod":"ž","emo":"❤","id":"ljubav"},{"hr":"sreća","en":"happiness","kat":"osjecaj","rod":"ž","emo":"😊","id":"sreca"},{"hr":"tuga","en":"sadness","kat":"osjecaj","rod":"ž","emo":"😢","id":"tuga"},{"hr":"strah","en":"fear","kat":"osjecaj","rod":"m","emo":"😨","id":"strah"},{"hr":"ljutnja","en":"anger","kat":"osjecaj","rod":"ž","emo":"😠","id":"ljutnja"},{"hr":"radost","en":"joy","kat":"osjecaj","rod":"ž","emo":"🎉","id":"radost"},{"hr":"briga","en":"worry","kat":"osjecaj","rod":"ž","emo":"😟","id":"briga"},{"hr":"nada","en":"hope","kat":"osjecaj","rod":"ž","emo":"✨","id":"nada"},{"hr":"želja","en":"wish","kat":"osjecaj","rod":"ž","emo":"💫","id":"zelja"},{"hr":"osjećaj","en":"feeling","kat":"osjecaj","rod":"m","emo":"💭","id":"osjecaj"},{"hr":"misao","en":"thought","kat":"osjecaj","rod":"ž","emo":"🤔","id":"misao"},{"hr":"san","en":"dream","kat":"osjecaj","rod":"m","emo":"💤","id":"san"},{"hr":"umor","en":"tiredness","kat":"osjecaj","rod":"m","emo":"🥱","id":"umor"},{"hr":"dosada","en":"boredom","kat":"osjecaj","rod":"ž","emo":"😑","id":"dosada"},{"hr":"iznenađenje","en":"surprise","kat":"osjecaj","rod":"s","emo":"😲","id":"iznenadenje"},{"hr":"ponos","en":"pride","kat":"osjecaj","rod":"m","emo":"🦚","id":"ponos"},{"hr":"sram","en":"shame","kat":"osjecaj","rod":"m","emo":"😳","id":"sram"},{"hr":"hrabrost","en":"courage","kat":"osjecaj","rod":"ž","emo":"🦁","id":"hrabrost"},{"hr":"mir","en":"peace","kat":"osjecaj","rod":"m","emo":"🕊","id":"mir"},{"hr":"smijeh","en":"laughter","kat":"osjecaj","rod":"m","emo":"😂","id":"smijeh"},{"hr":"suza","en":"tear","kat":"osjecaj","rod":"ž","emo":"💧","id":"suza"},{"hr":"zagrljaj","en":"hug","kat":"osjecaj","rod":"m","emo":"🤗","id":"zagrljaj"},{"hr":"poljubac","en":"kiss","kat":"osjecaj","rod":"m","emo":"💋","id":"poljubac"},{"hr":"prijateljstvo","en":"friendship","kat":"osjecaj","rod":"s","emo":"🤝","id":"prijateljstvo"},{"hr":"strpljenje","en":"patience","kat":"osjecaj","rod":"s","emo":"⏳","id":"strpljenje"},{"hr":"posao","en":"job","kat":"posao","rod":"m","emo":"💼","id":"posao"},{"hr":"pekar","en":"baker","kat":"posao","rod":"m","emo":"🥖","id":"pekar"},{"hr":"kuhar","en":"cook","kat":"posao","rod":"m","emo":"👨‍🍳","id":"kuhar"},{"hr":"konobar","en":"waiter","kat":"posao","rod":"m","emo":"🧑‍🍳","id":"konobar"},{"hr":"vozač","en":"driver","kat":"posao","rod":"m","emo":"🚌","id":"vozac"},{"hr":"doktor","en":"doctor","kat":"posao","rod":"m","emo":"🩺","id":"doktor"},{"hr":"medicinska sestra","en":"nurse","kat":"posao","rod":"ž","emo":"👩‍⚕","id":"medicinska-sestra"},{"hr":"inženjer","en":"engineer","kat":"posao","rod":"m","emo":"👷","id":"inzenjer"},{"hr":"programer","en":"programmer","kat":"posao","rod":"m","emo":"💻","id":"programer"},{"hr":"novinar","en":"journalist","kat":"posao","rod":"m","emo":"📰","id":"novinar"},{"hr":"glumac","en":"actor","kat":"posao","rod":"m","emo":"🎭","id":"glumac"},{"hr":"pjevač","en":"singer","kat":"posao","rod":"m","emo":"🎤","id":"pjevac"},{"hr":"slikar","en":"painter","kat":"posao","rod":"m","emo":"🎨","id":"slikar"},{"hr":"pisac","en":"writer","kat":"posao","rod":"m","emo":"✍","id":"pisac"},{"hr":"odvjetnik","en":"lawyer","kat":"posao","rod":"m","emo":"⚖","id":"odvjetnik"},{"hr":"frizer","en":"hairdresser","kat":"posao","rod":"m","emo":"💇","id":"frizer"},{"hr":"prodavač","en":"shop assistant","kat":"posao","rod":"m","emo":"🛍","id":"prodavac"},{"hr":"vatrogasac","en":"firefighter","kat":"posao","rod":"m","emo":"🚒","id":"vatrogasac"},{"hr":"mehaničar","en":"mechanic","kat":"posao","rod":"m","emo":"🔧","id":"mehanicar"},{"hr":"seljak","en":"farmer","kat":"posao","rod":"m","emo":"🚜","id":"seljak"},{"hr":"ribar","en":"fisherman","kat":"posao","rod":"m","emo":"🎣","id":"ribar"},{"hr":"arhitekt","en":"architect","kat":"posao","rod":"m","emo":"📐","id":"arhitekt"},{"hr":"znanstvenik","en":"scientist","kat":"posao","rod":"m","emo":"🔬","id":"znanstvenik"},{"hr":"vojnik","en":"soldier","kat":"posao","rod":"m","emo":"🎖","id":"vojnik"},{"hr":"pilot","en":"pilot","kat":"posao","rod":"m","emo":"🧑‍✈","id":"pilot"},{"hr":"kapetan","en":"captain","kat":"posao","rod":"m","emo":"⚓","id":"kapetan"},{"hr":"policajac","en":"police officer","kat":"posao","rod":"m","emo":"👮","id":"policajac"},{"hr":"poštar","en":"postman","kat":"posao","rod":"m","emo":"📬","id":"postar"},{"hr":"plaća","en":"salary","kat":"posao","rod":"ž","emo":"💶","id":"placa"},{"hr":"sastanak","en":"meeting","kat":"posao","rod":"m","emo":"🗓","id":"sastanak"},{"hr":"ugovor","en":"contract","kat":"posao","rod":"m","emo":"📄","id":"ugovor"},{"hr":"računalo","en":"computer","kat":"tehnika","rod":"s","emo":"💻","id":"racunalo"},{"hr":"mobitel","en":"mobile phone","kat":"tehnika","rod":"m","emo":"📱","id":"mobitel"},{"hr":"ekran","en":"screen","kat":"tehnika","rod":"m","emo":"🖥","id":"ekran"},{"hr":"tipkovnica","en":"keyboard","kat":"tehnika","rod":"ž","emo":"⌨","id":"tipkovnica"},{"hr":"računalni miš","en":"computer mouse","kat":"tehnika","rod":"m","emo":"🖱","id":"racunalni-mis"},{"hr":"internet","en":"internet","kat":"tehnika","rod":"m","emo":"🌐","id":"internet"},{"hr":"lozinka","en":"password","kat":"tehnika","rod":"ž","emo":"🔑","id":"lozinka"},{"hr":"poruka","en":"message","kat":"tehnika","rod":"ž","emo":"💬","id":"poruka"},{"hr":"e-pošta","en":"e-mail","kat":"tehnika","rod":"ž","emo":"📧","id":"e-posta"},{"hr":"aplikacija","en":"app","kat":"tehnika","rod":"ž","emo":"📲","id":"aplikacija"},{"hr":"igrica","en":"video game","kat":"tehnika","rod":"ž","emo":"🎮","id":"igrica"},{"hr":"televizor","en":"television","kat":"tehnika","rod":"m","emo":"📺","id":"televizor"},{"hr":"radio","en":"radio","kat":"tehnika","rod":"m","emo":"📻","id":"radio"},{"hr":"slušalice","en":"headphones","kat":"tehnika","rod":"ž","emo":"🎧","id":"slusalice"},{"hr":"zvučnik","en":"speaker","kat":"tehnika","rod":"m","emo":"🔊","id":"zvucnik"},{"hr":"kamera","en":"camera","kat":"tehnika","rod":"ž","emo":"🎥","id":"kamera"},{"hr":"punjač","en":"charger","kat":"tehnika","rod":"m","emo":"🔌","id":"punjac"},{"hr":"baterija","en":"battery","kat":"tehnika","rod":"ž","emo":"🔋","id":"baterija"},{"hr":"tipka","en":"button","kat":"tehnika","rod":"ž","emo":"🔘","id":"tipka"},{"hr":"datoteka","en":"file","kat":"tehnika","rod":"ž","emo":"📄","id":"datoteka"},{"hr":"video","en":"video","kat":"tehnika","rod":"m","emo":"🎬","id":"video"},{"hr":"snimka","en":"recording","kat":"tehnika","rod":"ž","emo":"⏺","id":"snimka"},{"hr":"struja","en":"electricity","kat":"tehnika","rod":"ž","emo":"⚡","id":"struja"},{"hr":"put","en":"trip","kat":"putovanje","rod":"m","emo":"🧭","id":"put"},{"hr":"putovnica","en":"passport","kat":"putovanje","rod":"ž","emo":"🛂","id":"putovnica"},{"hr":"prtljaga","en":"luggage","kat":"putovanje","rod":"ž","emo":"🧳","id":"prtljaga"},{"hr":"kofer","en":"suitcase","kat":"putovanje","rod":"m","emo":"🧳","id":"kofer"},{"hr":"rezervacija","en":"reservation","kat":"putovanje","rod":"ž","emo":"📅","id":"rezervacija"},{"hr":"smještaj","en":"accommodation","kat":"putovanje","rod":"m","emo":"🏨","id":"smjestaj"},{"hr":"recepcija","en":"reception","kat":"putovanje","rod":"ž","emo":"🛎","id":"recepcija"},{"hr":"vodič","en":"guide","kat":"putovanje","rod":"m","emo":"🧭","id":"vodic"},{"hr":"izlet","en":"excursion","kat":"putovanje","rod":"m","emo":"🚌","id":"izlet"},{"hr":"razgledavanje","en":"sightseeing","kat":"putovanje","rod":"s","emo":"👀","id":"razgledavanje"},{"hr":"suvenir","en":"souvenir","kat":"putovanje","rod":"m","emo":"🎁","id":"suvenir"},{"hr":"kamp","en":"camp","kat":"putovanje","rod":"m","emo":"⛺","id":"kamp"},{"hr":"šator","en":"tent","kat":"putovanje","rod":"m","emo":"⛺","id":"sator"},{"hr":"plan","en":"plan","kat":"putovanje","rod":"m","emo":"🗺","id":"plan"},{"hr":"odredište","en":"destination","kat":"putovanje","rod":"s","emo":"📍","id":"odrediste"},{"hr":"polazak","en":"departure","kat":"putovanje","rod":"m","emo":"🛫","id":"polazak"},{"hr":"dolazak","en":"arrival","kat":"putovanje","rod":"m","emo":"🛬","id":"dolazak"},{"hr":"kašnjenje","en":"delay","kat":"putovanje","rod":"s","emo":"⏰","id":"kasnjenje"},{"hr":"viza","en":"visa","kat":"putovanje","rod":"ž","emo":"📘","id":"viza"},{"hr":"osiguranje","en":"insurance","kat":"putovanje","rod":"s","emo":"🛡","id":"osiguranje"},{"hr":"razglednica","en":"postcard","kat":"putovanje","rod":"ž","emo":"📮","id":"razglednica"},{"hr":"fotografija","en":"photograph","kat":"putovanje","rod":"ž","emo":"📸","id":"fotografija"},{"hr":"avantura","en":"adventure","kat":"putovanje","rod":"ž","emo":"🧗","id":"avantura"},{"hr":"prijevod","en":"translation","kat":"putovanje","rod":"m","emo":"🔤","id":"prijevod"},{"hr":"čitati","en":"to read","kat":"glagol","rod":"-","emo":"📖","id":"citati"},{"hr":"pisati","en":"to write","kat":"glagol","rod":"-","emo":"✍","id":"pisati"},{"hr":"raditi","en":"to work","kat":"glagol","rod":"-","emo":"🛠","id":"raditi"},{"hr":"učiti","en":"to study","kat":"glagol","rod":"-","emo":"📚","id":"uciti"},{"hr":"piti","en":"to drink","kat":"glagol","rod":"-","emo":"🥤","id":"piti"},{"hr":"jesti","en":"to eat","kat":"glagol","rod":"-","emo":"🍽","id":"jesti"},{"hr":"gledati","en":"to watch","kat":"glagol","rod":"-","emo":"👀","id":"gledati"},{"hr":"slušati","en":"to listen","kat":"glagol","rod":"-","emo":"🎧","id":"slusati"},{"hr":"spavati","en":"to sleep","kat":"glagol","rod":"-","emo":"😴","id":"spavati"},{"hr":"kuhati","en":"to cook","kat":"glagol","rod":"-","emo":"🍳","id":"kuhati"},{"hr":"pjevati","en":"to sing","kat":"glagol","rod":"-","emo":"🎤","id":"pjevati"},{"hr":"igrati","en":"to play","kat":"glagol","rod":"-","emo":"🎮","id":"igrati"},{"hr":"svirati","en":"to play music","kat":"glagol","rod":"-","emo":"🎼","id":"svirati"},{"hr":"plivati","en":"to swim","kat":"glagol","rod":"-","emo":"🏊","id":"plivati"},{"hr":"trčati","en":"to run","kat":"glagol","rod":"-","emo":"🏃","id":"trcati"},{"hr":"hodati","en":"to walk","kat":"glagol","rod":"-","emo":"🚶","id":"hodati"},{"hr":"putovati","en":"to travel","kat":"glagol","rod":"-","emo":"🧭","id":"putovati"},{"hr":"voziti","en":"to drive","kat":"glagol","rod":"-","emo":"🚙","id":"voziti"},{"hr":"čekati","en":"to wait","kat":"glagol","rod":"-","emo":"⏳","id":"cekati"},{"hr":"vidjeti","en":"to see","kat":"glagol","rod":"-","emo":"👁","id":"vidjeti"},{"hr":"kupovati","en":"to buy","kat":"glagol","rod":"-","emo":"🛒","id":"kupovati"},{"hr":"slati","en":"to send","kat":"glagol","rod":"-","emo":"📤","id":"slati"},{"hr":"nositi","en":"to carry","kat":"glagol","rod":"-","emo":"🎒","id":"nositi"},{"hr":"živjeti","en":"to live","kat":"glagol","rod":"-","emo":"🌱","id":"zivjeti"},{"hr":"znati","en":"to know","kat":"glagol","rod":"-","emo":"💡","id":"znati"},{"hr":"imati","en":"to have","kat":"glagol","rod":"-","emo":"🤲","id":"imati"},{"hr":"misliti","en":"to think","kat":"glagol","rod":"-","emo":"🤔","id":"misliti"},{"hr":"birati","en":"to choose","kat":"glagol","rod":"-","emo":"🔀","id":"birati"},{"hr":"naručiti","en":"to order","kat":"glagol","rod":"-","emo":"📋","id":"naruciti"},{"hr":"sjediti","en":"to sit","kat":"glagol","rod":"-","emo":"🪑","id":"sjediti"},{"hr":"govoriti","en":"to speak","kat":"glagol","rod":"-","emo":"🗣","id":"govoriti"},{"hr":"razumjeti","en":"to understand","kat":"glagol","rod":"-","emo":"🧩","id":"razumjeti"},{"hr":"pitati","en":"to ask","kat":"glagol","rod":"-","emo":"❓","id":"pitati"},{"hr":"odgovoriti","en":"to answer","kat":"glagol","rod":"-","emo":"💬","id":"odgovoriti"},{"hr":"otvoriti","en":"to open","kat":"glagol","rod":"-","emo":"🔓","id":"otvoriti"},{"hr":"zatvoriti","en":"to close","kat":"glagol","rod":"-","emo":"🔒","id":"zatvoriti"},{"hr":"uzeti","en":"to take","kat":"glagol","rod":"-","emo":"🤏","id":"uzeti"},{"hr":"dati","en":"to give","kat":"glagol","rod":"-","emo":"🎁","id":"dati"},{"hr":"staviti","en":"to put","kat":"glagol","rod":"-","emo":"📥","id":"staviti"},{"hr":"tražiti","en":"to look for","kat":"glagol","rod":"-","emo":"🔎","id":"traziti"},{"hr":"naći","en":"to find","kat":"glagol","rod":"-","emo":"🎯","id":"naci"},{"hr":"izgubiti","en":"to lose","kat":"glagol","rod":"-","emo":"😞","id":"izgubiti"},{"hr":"pomoći","en":"to help","kat":"glagol","rod":"-","emo":"🤝","id":"pomoci"},{"hr":"prodati","en":"to sell","kat":"glagol","rod":"-","emo":"🏷","id":"prodati"},{"hr":"platiti","en":"to pay","kat":"glagol","rod":"-","emo":"💳","id":"platiti"},{"hr":"štedjeti","en":"to save","kat":"glagol","rod":"-","emo":"🐖","id":"stedjeti"},{"hr":"voljeti","en":"to love","kat":"glagol","rod":"-","emo":"❤","id":"voljeti"},{"hr":"htjeti","en":"to want","kat":"glagol","rod":"-","emo":"🙋","id":"htjeti"},{"hr":"moći","en":"to be able","kat":"glagol","rod":"-","emo":"💪","id":"moci"},{"hr":"morati","en":"to have to","kat":"glagol","rod":"-","emo":"⚠","id":"morati"},{"hr":"trebati","en":"to need","kat":"glagol","rod":"-","emo":"📌","id":"trebati"},{"hr":"početi","en":"to start","kat":"glagol","rod":"-","emo":"▶","id":"poceti"},{"hr":"završiti","en":"to finish","kat":"glagol","rod":"-","emo":"⏹","id":"zavrsiti"},{"hr":"nastaviti","en":"to continue","kat":"glagol","rod":"-","emo":"⏩","id":"nastaviti"},{"hr":"stati","en":"to stop","kat":"glagol","rod":"-","emo":"⏸","id":"stati"},{"hr":"doći","en":"to come","kat":"glagol","rod":"-","emo":"🚪","id":"doci"},{"hr":"otići","en":"to leave","kat":"glagol","rod":"-","emo":"🚶","id":"otici"},{"hr":"vratiti se","en":"to return","kat":"glagol","rod":"-","emo":"🔄","id":"vratiti-se"},{"hr":"ustati","en":"to get up","kat":"glagol","rod":"-","emo":"🛌","id":"ustati"},{"hr":"oprati","en":"to wash","kat":"glagol","rod":"-","emo":"🧼","id":"oprati"},{"hr":"očistiti","en":"to clean","kat":"glagol","rod":"-","emo":"🧹","id":"ocistiti"},{"hr":"peći","en":"to bake","kat":"glagol","rod":"-","emo":"🔥","id":"peci"},{"hr":"rezati","en":"to cut","kat":"glagol","rod":"-","emo":"🔪","id":"rezati"},{"hr":"graditi","en":"to build","kat":"glagol","rod":"-","emo":"🏗","id":"graditi"},{"hr":"popraviti","en":"to fix","kat":"glagol","rod":"-","emo":"🔧","id":"popraviti"},{"hr":"crtati","en":"to draw","kat":"glagol","rod":"-","emo":"✏","id":"crtati"},{"hr":"plesati","en":"to dance","kat":"glagol","rod":"-","emo":"💃","id":"plesati"},{"hr":"smijati se","en":"to laugh","kat":"glagol","rod":"-","emo":"😂","id":"smijati-se"},{"hr":"plakati","en":"to cry","kat":"glagol","rod":"-","emo":"😢","id":"plakati"},{"hr":"vikati","en":"to shout","kat":"glagol","rod":"-","emo":"📢","id":"vikati"},{"hr":"šutjeti","en":"to be silent","kat":"glagol","rod":"-","emo":"🤫","id":"sutjeti"},{"hr":"zvati","en":"to call","kat":"glagol","rod":"-","emo":"☎","id":"zvati"},{"hr":"prevoditi","en":"to translate","kat":"glagol","rod":"-","emo":"🔤","id":"prevoditi"},{"hr":"ponoviti","en":"to repeat","kat":"glagol","rod":"-","emo":"🔁","id":"ponoviti"},{"hr":"zapamtiti","en":"to memorise","kat":"glagol","rod":"-","emo":"🧠","id":"zapamtiti"},{"hr":"zaboraviti","en":"to forget","kat":"glagol","rod":"-","emo":"🌀","id":"zaboraviti"},{"hr":"vjerovati","en":"to believe","kat":"glagol","rod":"-","emo":"🙏","id":"vjerovati"},{"hr":"nadati se","en":"to hope","kat":"glagol","rod":"-","emo":"✨","id":"nadati-se"},{"hr":"bojati se","en":"to be afraid","kat":"glagol","rod":"-","emo":"😨","id":"bojati-se"},{"hr":"odmarati","en":"to rest","kat":"glagol","rod":"-","emo":"😌","id":"odmarati"},{"hr":"šetati","en":"to stroll","kat":"glagol","rod":"-","emo":"🚶","id":"setati"},{"hr":"penjati se","en":"to climb","kat":"glagol","rod":"-","emo":"🧗","id":"penjati-se"},{"hr":"skakati","en":"to jump","kat":"glagol","rod":"-","emo":"🤸","id":"skakati"},{"hr":"letjeti","en":"to fly","kat":"glagol","rod":"-","emo":"🕊","id":"letjeti"},{"hr":"padati","en":"to fall","kat":"glagol","rod":"-","emo":"🍂","id":"padati"},{"hr":"čuvati","en":"to guard","kat":"glagol","rod":"-","emo":"🛡","id":"cuvati"},{"hr":"slaviti","en":"to celebrate","kat":"glagol","rod":"-","emo":"🥳","id":"slaviti"},{"hr":"pozvati","en":"to invite","kat":"glagol","rod":"-","emo":"💌","id":"pozvati"},{"hr":"upoznati","en":"to meet","kat":"glagol","rod":"-","emo":"🤝","id":"upoznati"},{"hr":"pripremiti","en":"to prepare","kat":"glagol","rod":"-","emo":"🍳","id":"pripremiti"},{"hr":"mjeriti","en":"to measure","kat":"glagol","rod":"-","emo":"📏","id":"mjeriti"},{"hr":"brojati","en":"to count","kat":"glagol","rod":"-","emo":"🔢","id":"brojati"},{"hr":"sanjati","en":"to dream","kat":"glagol","rod":"-","emo":"💤","id":"sanjati"},{"hr":"probuditi se","en":"to wake up","kat":"glagol","rod":"-","emo":"⏰","id":"probuditi-se"},{"hr":"obući se","en":"to get dressed","kat":"glagol","rod":"-","emo":"👕","id":"obuci-se"},{"hr":"kupati se","en":"to bathe","kat":"glagol","rod":"-","emo":"🛁","id":"kupati-se"},{"hr":"odlučiti","en":"to decide","kat":"glagol","rod":"-","emo":"⚖","id":"odluciti"},{"hr":"pokušati","en":"to try","kat":"glagol","rod":"-","emo":"🎯","id":"pokusati"},{"hr":"uspjeti","en":"to succeed","kat":"glagol","rod":"-","emo":"🏆","id":"uspjeti"},{"hr":"velik","en":"big","kat":"pridjev","rod":"-","emo":"🔷","id":"velik"},{"hr":"mali","en":"small","kat":"pridjev","rod":"-","emo":"🔹","id":"mali"},{"hr":"nov","en":"new","kat":"pridjev","rod":"-","emo":"✨","id":"nov"},{"hr":"star","en":"old","kat":"pridjev","rod":"-","emo":"🏺","id":"star"},{"hr":"dobar","en":"good","kat":"pridjev","rod":"-","emo":"👍","id":"dobar"},{"hr":"lijep","en":"beautiful","kat":"pridjev","rod":"-","emo":"🌸","id":"lijep"},{"hr":"topao","en":"warm","kat":"pridjev","rod":"-","emo":"🔥","id":"topao"},{"hr":"hladan","en":"cold","kat":"pridjev","rod":"-","emo":"🧊","id":"hladan"},{"hr":"brz","en":"fast","kat":"pridjev","rod":"-","emo":"💨","id":"brz"},{"hr":"spor","en":"slow","kat":"pridjev","rod":"-","emo":"🐌","id":"spor"},{"hr":"sladak","en":"sweet","kat":"pridjev","rod":"-","emo":"🍯","id":"sladak"},{"hr":"skup","en":"expensive","kat":"pridjev","rod":"-","emo":"💰","id":"skup"},{"hr":"svjež","en":"fresh","kat":"pridjev","rod":"-","emo":"🌿","id":"svjez"},{"hr":"gladan","en":"hungry","kat":"pridjev","rod":"-","emo":"😋","id":"gladan"},{"hr":"umoran","en":"tired","kat":"pridjev","rod":"-","emo":"🥱","id":"umoran"},{"hr":"sretan","en":"happy","kat":"pridjev","rod":"-","emo":"😊","id":"sretan"},{"hr":"jak","en":"strong","kat":"pridjev","rod":"-","emo":"💪","id":"jak"},{"hr":"visok","en":"tall","kat":"pridjev","rod":"-","emo":"📏","id":"visok"},{"hr":"dug","en":"long","kat":"pridjev","rod":"-","emo":"📐","id":"dug"},{"hr":"težak","en":"heavy","kat":"pridjev","rod":"-","emo":"🏋","id":"tezak"},{"hr":"zdrav","en":"healthy","kat":"pridjev","rod":"-","emo":"🥕","id":"zdrav"},{"hr":"ukusan","en":"tasty","kat":"pridjev","rod":"-","emo":"😍","id":"ukusan"},{"hr":"zanimljiv","en":"interesting","kat":"pridjev","rod":"-","emo":"🧐","id":"zanimljiv"},{"hr":"smiješan","en":"funny","kat":"pridjev","rod":"-","emo":"😄","id":"smijesan"},{"hr":"loš","en":"bad","kat":"pridjev","rod":"-","emo":"👎","id":"los"},{"hr":"ružan","en":"ugly","kat":"pridjev","rod":"-","emo":"🥀","id":"ruzan"},{"hr":"jeftin","en":"cheap","kat":"pridjev","rod":"-","emo":"🏷","id":"jeftin"},{"hr":"kratak","en":"short","kat":"pridjev","rod":"-","emo":"📏","id":"kratak"},{"hr":"nizak","en":"low","kat":"pridjev","rod":"-","emo":"📉","id":"nizak"},{"hr":"širok","en":"wide","kat":"pridjev","rod":"-","emo":"↔","id":"sirok"},{"hr":"uzak","en":"narrow","kat":"pridjev","rod":"-","emo":"↕","id":"uzak"},{"hr":"debeo","en":"thick","kat":"pridjev","rod":"-","emo":"🧱","id":"debeo"},{"hr":"tanak","en":"thin","kat":"pridjev","rod":"-","emo":"📄","id":"tanak"},{"hr":"pun","en":"full","kat":"pridjev","rod":"-","emo":"🈵","id":"pun"},{"hr":"prazan","en":"empty","kat":"pridjev","rod":"-","emo":"🈳","id":"prazan"},{"hr":"čist","en":"clean","kat":"pridjev","rod":"-","emo":"✨","id":"cist"},{"hr":"prljav","en":"dirty","kat":"pridjev","rod":"-","emo":"🧽","id":"prljav"},{"hr":"mokar","en":"wet","kat":"pridjev","rod":"-","emo":"💧","id":"mokar"},{"hr":"suh","en":"dry","kat":"pridjev","rod":"-","emo":"🏜","id":"suh"},{"hr":"glasan","en":"loud","kat":"pridjev","rod":"-","emo":"🔊","id":"glasan"},{"hr":"tih","en":"quiet","kat":"pridjev","rod":"-","emo":"🔇","id":"tih"},{"hr":"svijetao","en":"bright","kat":"pridjev","rod":"-","emo":"💡","id":"svijetao"},{"hr":"taman","en":"dark","kat":"pridjev","rod":"-","emo":"🌑","id":"taman"},{"hr":"mek","en":"soft","kat":"pridjev","rod":"-","emo":"🧸","id":"mek"},{"hr":"tvrd","en":"hard","kat":"pridjev","rod":"-","emo":"🪨","id":"tvrd"},{"hr":"lagan","en":"light","kat":"pridjev","rod":"-","emo":"🪶","id":"lagan"},{"hr":"bogat","en":"rich","kat":"pridjev","rod":"-","emo":"💰","id":"bogat"},{"hr":"siromašan","en":"poor","kat":"pridjev","rod":"-","emo":"🪙","id":"siromasan"},{"hr":"mlad","en":"young","kat":"pridjev","rod":"-","emo":"🌱","id":"mlad"},{"hr":"pametan","en":"smart","kat":"pridjev","rod":"-","emo":"🧠","id":"pametan"},{"hr":"ljubazan","en":"kind","kat":"pridjev","rod":"-","emo":"🫶","id":"ljubazan"},{"hr":"strog","en":"strict","kat":"pridjev","rod":"-","emo":"📏","id":"strog"},{"hr":"hrabar","en":"brave","kat":"pridjev","rod":"-","emo":"🦁","id":"hrabar"},{"hr":"tužan","en":"sad","kat":"pridjev","rod":"-","emo":"😢","id":"tuzan"},{"hr":"ljut","en":"angry","kat":"pridjev","rod":"-","emo":"😠","id":"ljut"},{"hr":"miran","en":"calm","kat":"pridjev","rod":"-","emo":"😌","id":"miran"},{"hr":"zauzet","en":"busy","kat":"pridjev","rod":"-","emo":"📅","id":"zauzet"},{"hr":"slobodan","en":"free","kat":"pridjev","rod":"-","emo":"🕊","id":"slobodan"},{"hr":"spreman","en":"ready","kat":"pridjev","rod":"-","emo":"✅","id":"spreman"},{"hr":"važan","en":"important","kat":"pridjev","rod":"-","emo":"⭐","id":"vazan"},{"hr":"lak","en":"easy","kat":"pridjev","rod":"-","emo":"🙂","id":"lak"},{"hr":"poznat","en":"famous","kat":"pridjev","rod":"-","emo":"🌟","id":"poznat"},{"hr":"čudan","en":"strange","kat":"pridjev","rod":"-","emo":"🌀","id":"cudan"},{"hr":"običan","en":"ordinary","kat":"pridjev","rod":"-","emo":"📎","id":"obican"},{"hr":"poseban","en":"special","kat":"pridjev","rod":"-","emo":"💫","id":"poseban"},{"hr":"sličan","en":"similar","kat":"pridjev","rod":"-","emo":"👯","id":"slican"},{"hr":"različit","en":"different","kat":"pridjev","rod":"-","emo":"🔀","id":"razlicit"},{"hr":"siguran","en":"safe","kat":"pridjev","rod":"-","emo":"🛡","id":"siguran"},{"hr":"opasan","en":"dangerous","kat":"pridjev","rod":"-","emo":"⚠","id":"opasan"},{"hr":"koristan","en":"useful","kat":"pridjev","rod":"-","emo":"🛠","id":"koristan"},{"hr":"dosadan","en":"boring","kat":"pridjev","rod":"-","emo":"😑","id":"dosadan"},{"hr":"oštar","en":"sharp","kat":"pridjev","rod":"-","emo":"🔪","id":"ostar"},{"hr":"gorak","en":"bitter","kat":"pridjev","rod":"-","emo":"😖","id":"gorak"},{"hr":"kiseo","en":"sour","kat":"pridjev","rod":"-","emo":"🍋","id":"kiseo"},{"hr":"slan","en":"salty","kat":"pridjev","rod":"-","emo":"🧂","id":"slan"},{"hr":"pikantan","en":"spicy","kat":"pridjev","rod":"-","emo":"🌶","id":"pikantan"},{"hr":"vruć","en":"hot","kat":"pridjev","rod":"-","emo":"🥵","id":"vruc"},{"hr":"bolestan","en":"ill","kat":"pridjev","rod":"-","emo":"🤒","id":"bolestan"},{"hr":"danas","en":"today","kat":"prilog","rod":"-","emo":"📅","id":"danas"},{"hr":"sutra","en":"tomorrow","kat":"prilog","rod":"-","emo":"⏭","id":"sutra"},{"hr":"jučer","en":"yesterday","kat":"prilog","rod":"-","emo":"⏮","id":"jucer"},{"hr":"sada","en":"now","kat":"prilog","rod":"-","emo":"⏰","id":"sada"},{"hr":"uvijek","en":"always","kat":"prilog","rod":"-","emo":"♾","id":"uvijek"},{"hr":"nikad","en":"never","kat":"prilog","rod":"-","emo":"🚫","id":"nikad"},{"hr":"često","en":"often","kat":"prilog","rod":"-","emo":"🔁","id":"cesto"},{"hr":"ponekad","en":"sometimes","kat":"prilog","rod":"-","emo":"🤷","id":"ponekad"},{"hr":"rano","en":"early","kat":"prilog","rod":"-","emo":"🐓","id":"rano"},{"hr":"kasno","en":"late","kat":"prilog","rod":"-","emo":"🐢","id":"kasno"},{"hr":"brzo","en":"quickly","kat":"prilog","rod":"-","emo":"💨","id":"brzo"},{"hr":"polako","en":"slowly","kat":"prilog","rod":"-","emo":"🐌","id":"polako"},{"hr":"ovdje","en":"here","kat":"prilog","rod":"-","emo":"📍","id":"ovdje"},{"hr":"tamo","en":"there","kat":"prilog","rod":"-","emo":"📌","id":"tamo"},{"hr":"gore","en":"up","kat":"prilog","rod":"-","emo":"⬆","id":"gore"},{"hr":"dolje","en":"down","kat":"prilog","rod":"-","emo":"⬇","id":"dolje"},{"hr":"lijevo","en":"left","kat":"prilog","rod":"-","emo":"⬅","id":"lijevo"},{"hr":"desno","en":"right","kat":"prilog","rod":"-","emo":"➡","id":"desno"},{"hr":"blizu","en":"near","kat":"prilog","rod":"-","emo":"🔍","id":"blizu"},{"hr":"daleko","en":"far","kat":"prilog","rod":"-","emo":"🔭","id":"daleko"},{"hr":"zajedno","en":"together","kat":"prilog","rod":"-","emo":"👥","id":"zajedno"},{"hr":"možda","en":"maybe","kat":"prilog","rod":"-","emo":"🤔","id":"mozda"},{"hr":"također","en":"also","kat":"prilog","rod":"-","emo":"➕","id":"takoder"},{"hr":"jako","en":"very","kat":"prilog","rod":"-","emo":"‼","id":"jako"},{"hr":"malo","en":"a little","kat":"prilog","rod":"-","emo":"🤏","id":"malo"},{"hr":"puno","en":"a lot","kat":"prilog","rod":"-","emo":"🧺","id":"puno"},{"hr":"odmah","en":"right away","kat":"prilog","rod":"-","emo":"⚡","id":"odmah"},{"hr":"nikamo","en":"nowhere","kat":"prilog","rod":"-","emo":"🚷","id":"nikamo"},{"hr":"crven","en":"red","kat":"boja","rod":"-","emo":"🔴","id":"crven"},{"hr":"plav","en":"blue","kat":"boja","rod":"-","emo":"🔵","id":"plav"},{"hr":"žut","en":"yellow","kat":"boja","rod":"-","emo":"🟡","id":"zut"},{"hr":"zelen","en":"green","kat":"boja","rod":"-","emo":"🟢","id":"zelen"},{"hr":"bijel","en":"white","kat":"boja","rod":"-","emo":"⚪","id":"bijel"},{"hr":"crn","en":"black","kat":"boja","rod":"-","emo":"⚫","id":"crn"},{"hr":"siv","en":"grey","kat":"boja","rod":"-","emo":"🩶","id":"siv"},{"hr":"smeđ","en":"brown","kat":"boja","rod":"-","emo":"🟤","id":"smed"},{"hr":"narančast","en":"orange","kat":"boja","rod":"-","emo":"🟠","id":"narancast"},{"hr":"ružičast","en":"pink","kat":"boja","rod":"-","emo":"🩷","id":"ruzicast"},{"hr":"ljubičast","en":"purple","kat":"boja","rod":"-","emo":"🟣","id":"ljubicast"},{"hr":"zlatan","en":"golden","kat":"boja","rod":"-","emo":"🟨","id":"zlatan"},{"hr":"srebrn","en":"silver","kat":"boja","rod":"-","emo":"⚙","id":"srebrn"},{"hr":"šaren","en":"colourful","kat":"boja","rod":"-","emo":"🌈","id":"saren"},{"hr":"jedan","en":"one","kat":"broj","rod":"-","emo":"1️⃣","id":"jedan"},{"hr":"dva","en":"two","kat":"broj","rod":"-","emo":"2️⃣","id":"dva"},{"hr":"tri","en":"three","kat":"broj","rod":"-","emo":"3️⃣","id":"tri"},{"hr":"četiri","en":"four","kat":"broj","rod":"-","emo":"4️⃣","id":"cetiri"},{"hr":"pet","en":"five","kat":"broj","rod":"-","emo":"5️⃣","id":"pet"},{"hr":"šest","en":"six","kat":"broj","rod":"-","emo":"6️⃣","id":"sest"},{"hr":"sedam","en":"seven","kat":"broj","rod":"-","emo":"7️⃣","id":"sedam"},{"hr":"osam","en":"eight","kat":"broj","rod":"-","emo":"8️⃣","id":"osam"},{"hr":"devet","en":"nine","kat":"broj","rod":"-","emo":"9️⃣","id":"devet"},{"hr":"deset","en":"ten","kat":"broj","rod":"-","emo":"🔟","id":"deset"},{"hr":"jedanaest","en":"eleven","kat":"broj","rod":"-","emo":"1️⃣","id":"jedanaest"},{"hr":"dvanaest","en":"twelve","kat":"broj","rod":"-","emo":"1️⃣","id":"dvanaest"},{"hr":"trinaest","en":"thirteen","kat":"broj","rod":"-","emo":"1️⃣","id":"trinaest"},{"hr":"petnaest","en":"fifteen","kat":"broj","rod":"-","emo":"1️⃣","id":"petnaest"},{"hr":"dvadeset","en":"twenty","kat":"broj","rod":"-","emo":"2️⃣","id":"dvadeset"},{"hr":"trideset","en":"thirty","kat":"broj","rod":"-","emo":"3️⃣","id":"trideset"},{"hr":"pedeset","en":"fifty","kat":"broj","rod":"-","emo":"5️⃣","id":"pedeset"},{"hr":"sto","en":"hundred","kat":"broj","rod":"-","emo":"💯","id":"sto"},{"hr":"tisuću","en":"thousand","kat":"broj","rod":"-","emo":"🔢","id":"tisucu"},{"hr":"nula","en":"zero","kat":"broj","rod":"-","emo":"0️⃣","id":"nula"},{"hr":"prvi","en":"first","kat":"broj","rod":"-","emo":"🥇","id":"prvi"},{"hr":"drugi","en":"second","kat":"broj","rod":"-","emo":"🥈","id":"drugi"},{"hr":"treći","en":"third","kat":"broj","rod":"-","emo":"🥉","id":"treci"},{"hr":"pola","en":"half","kat":"broj","rod":"-","emo":"➗","id":"pola"},{"hr":"par","en":"pair","kat":"broj","rod":"-","emo":"👯","id":"par"},{"hr":"matematika","en":"mathematics","kat":"skola","rod":"ž","emo":"➗","id":"matematika"},{"hr":"geografija","en":"geography","kat":"skola","rod":"ž","emo":"🗺","id":"geografija"},{"hr":"biologija","en":"biology","kat":"skola","rod":"ž","emo":"🧬","id":"biologija"},{"hr":"fizika","en":"physics","kat":"skola","rod":"ž","emo":"🧲","id":"fizika"},{"hr":"kemija","en":"chemistry","kat":"skola","rod":"ž","emo":"⚗","id":"kemija"},{"hr":"povijest","en":"history","kat":"skola","rod":"ž","emo":"🏺","id":"povijest"},{"hr":"književnost","en":"literature","kat":"skola","rod":"ž","emo":"📖","id":"knjizevnost"},{"hr":"informatika","en":"IT","kat":"skola","rod":"ž","emo":"💻","id":"informatika"},{"hr":"ispit","en":"exam","kat":"skola","rod":"m","emo":"📝","id":"ispit"},{"hr":"lekcija","en":"lesson","kat":"skola","rod":"ž","emo":"📗","id":"lekcija"},{"hr":"pauza","en":"break","kat":"skola","rod":"ž","emo":"⏸","id":"pauza"},{"hr":"zadaća","en":"homework","kat":"skola","rod":"ž","emo":"📝","id":"zadaca"},{"hr":"pjesma","en":"song","kat":"skola","rod":"ž","emo":"🎵","id":"pjesma"},{"hr":"priča","en":"story","kat":"skola","rod":"ž","emo":"📜","id":"prica"},{"hr":"jezik","en":"language","kat":"skola","rod":"m","emo":"🗣","id":"jezik-skola"},{"hr":"razred","en":"class","kat":"skola","rod":"m","emo":"🏫","id":"razred"},{"hr":"učionica","en":"classroom","kat":"skola","rod":"ž","emo":"🚪","id":"ucionica"},{"hr":"ploča","en":"board","kat":"skola","rod":"ž","emo":"🧑‍🏫","id":"ploca"},{"hr":"kreda","en":"chalk","kat":"skola","rod":"ž","emo":"🖍","id":"kreda"},{"hr":"ocjena","en":"grade","kat":"skola","rod":"ž","emo":"🔢","id":"ocjena"},{"hr":"diploma","en":"diploma","kat":"skola","rod":"ž","emo":"📜","id":"diploma"},{"hr":"predavanje","en":"lecture","kat":"skola","rod":"s","emo":"🎓","id":"predavanje"},{"hr":"vježba","en":"exercise","kat":"skola","rod":"ž","emo":"🏋","id":"vjezba"},{"hr":"rječnik","en":"dictionary","kat":"skola","rod":"m","emo":"📔","id":"rjecnik"},{"hr":"riječ","en":"word","kat":"skola","rod":"ž","emo":"🔤","id":"rijec"},{"hr":"slovo","en":"letter","kat":"skola","rod":"s","emo":"🔡","id":"slovo"},{"hr":"rečenica","en":"sentence","kat":"skola","rod":"ž","emo":"📝","id":"recenica"},{"hr":"pitanje","en":"question","kat":"skola","rod":"s","emo":"❓","id":"pitanje"},{"hr":"odgovor","en":"answer","kat":"skola","rod":"m","emo":"💬","id":"odgovor"},{"hr":"greška","en":"mistake","kat":"skola","rod":"ž","emo":"❌","id":"greska"},{"hr":"znanje","en":"knowledge","kat":"skola","rod":"s","emo":"🧠","id":"znanje"},{"hr":"učenik","en":"pupil","kat":"skola","rod":"m","emo":"🎒","id":"ucenik"},{"hr":"raspust","en":"school holiday","kat":"skola","rod":"m","emo":"🎒","id":"raspust"},{"hr":"projekt","en":"project","kat":"skola","rod":"m","emo":"📊","id":"projekt"},{"hr":"nogomet","en":"football","kat":"sport","rod":"m","emo":"⚽","id":"nogomet"},{"hr":"tenis","en":"tennis","kat":"sport","rod":"m","emo":"🎾","id":"tenis"},{"hr":"šah","en":"chess","kat":"sport","rod":"m","emo":"♟","id":"sah"},{"hr":"joga","en":"yoga","kat":"sport","rod":"ž","emo":"🧘","id":"joga"},{"hr":"utakmica","en":"match","kat":"sport","rod":"ž","emo":"🏆","id":"utakmica"},{"hr":"gol","en":"goal","kat":"sport","rod":"m","emo":"🥅","id":"gol"},{"hr":"trener","en":"coach","kat":"sport","rod":"m","emo":"📣","id":"trener"},{"hr":"klub","en":"club","kat":"sport","rod":"m","emo":"🏅","id":"klub"},{"hr":"košarka","en":"basketball","kat":"sport","rod":"ž","emo":"🏀","id":"kosarka"},{"hr":"rukomet","en":"handball","kat":"sport","rod":"m","emo":"🤾","id":"rukomet"},{"hr":"odbojka","en":"volleyball","kat":"sport","rod":"ž","emo":"🏐","id":"odbojka"},{"hr":"plivanje","en":"swimming","kat":"sport","rod":"s","emo":"🏊","id":"plivanje"},{"hr":"trčanje","en":"running","kat":"sport","rod":"s","emo":"🏃","id":"trcanje"},{"hr":"biciklizam","en":"cycling","kat":"sport","rod":"m","emo":"🚴","id":"biciklizam"},{"hr":"skijanje","en":"skiing","kat":"sport","rod":"s","emo":"🎿","id":"skijanje"},{"hr":"ronjenje","en":"diving","kat":"sport","rod":"s","emo":"🤿","id":"ronjenje"},{"hr":"planinarenje","en":"hiking","kat":"sport","rod":"s","emo":"🥾","id":"planinarenje"},{"hr":"igrač","en":"player","kat":"sport","rod":"m","emo":"🧑","id":"igrac"},{"hr":"sudac","en":"referee","kat":"sport","rod":"m","emo":"🧑‍⚖","id":"sudac"},{"hr":"navijač","en":"fan","kat":"sport","rod":"m","emo":"📣","id":"navijac"},{"hr":"medalja","en":"medal","kat":"sport","rod":"ž","emo":"🥇","id":"medalja"},{"hr":"pobjeda","en":"victory","kat":"sport","rod":"ž","emo":"🏆","id":"pobjeda"},{"hr":"poraz","en":"defeat","kat":"sport","rod":"m","emo":"😞","id":"poraz"},{"hr":"rezultat","en":"result","kat":"sport","rod":"m","emo":"📊","id":"rezultat"},{"hr":"teren","en":"pitch","kat":"sport","rod":"m","emo":"🏟","id":"teren"},{"hr":"mreža","en":"net","kat":"sport","rod":"ž","emo":"🥅","id":"mreza"},{"hr":"trening","en":"training","kat":"sport","rod":"m","emo":"💪","id":"trening"}];
+  var KAT = {"hrana":{"hr":"Hrana","en":"food"},"pice":{"hr":"Piće","en":"drinks"},"zivotinja":{"hr":"Životinje","en":"animals"},"osoba":{"hr":"Ljudi","en":"people"},"mjesto":{"hr":"Mjesta","en":"places"},"dom":{"hr":"Dom","en":"home"},"prijevoz":{"hr":"Prijevoz","en":"transport"},"predmet":{"hr":"Predmeti","en":"objects"},"odjeca":{"hr":"Odjeća","en":"clothes"},"priroda":{"hr":"Priroda","en":"nature"},"vrijeme":{"hr":"Vrijeme","en":"time"},"tijelo":{"hr":"Tijelo","en":"body"},"osjecaj":{"hr":"Osjećaji","en":"feelings"},"posao":{"hr":"Zanimanja","en":"jobs"},"tehnika":{"hr":"Tehnika","en":"technology"},"putovanje":{"hr":"Putovanje","en":"travel"},"glagol":{"hr":"Glagoli","en":"verbs"},"pridjev":{"hr":"Pridjevi","en":"adjectives"},"prilog":{"hr":"Prilozi","en":"adverbs"},"boja":{"hr":"Boje","en":"colours"},"broj":{"hr":"Brojevi","en":"numbers"},"skola":{"hr":"Škola","en":"school"},"sport":{"hr":"Sport","en":"sport"}};
+  var RECENICE = [["Kuća je velika.","The house is big.",1],["More je plavo.","The sea is blue.",1],["Kava je topla.","The coffee is warm.",1],["Auto je crven.","The car is red.",1],["Knjiga je nova.","The book is new.",1],["Grad je star.","The city is old.",1],["Sunce je žuto.","The sun is yellow.",1],["Nebo je plavo.","The sky is blue.",1],["Sladoled je hladan.","The ice cream is cold.",1],["Juha je vruća.","The soup is hot.",1],["Pas je malen.","The dog is small.",1],["Mačka je bijela.","The cat is white.",1],["Stol je velik.","The table is big.",1],["Soba je čista.","The room is clean.",1],["Prozor je otvoren.","The window is open.",1],["Vrata su zatvorena.","The door is closed.",1],["Ja sam student.","I am a student.",1],["Ti si moj prijatelj.","You are my friend.",1],["On je doktor.","He is a doctor.",1],["Ona je učiteljica.","She is a teacher.",1],["Mi smo turisti.","We are tourists.",1],["Vi ste ljubazni.","You are kind.",1],["Oni su sretni.","They are happy.",1],["Ovo je moja kuća.","This is my house.",1],["To je tvoja knjiga.","That is your book.",1],["Danas je subota.","Today is Saturday.",1],["Sutra je nedjelja.","Tomorrow is Sunday.",1],["Sada je podne.","It is noon now.",1],["Vrijeme je lijepo.","The weather is nice.",1],["Kruh je svjež.","The bread is fresh.",1],["Sir je dobar.","The cheese is good.",1],["Voda je hladna.","The water is cold.",1],["Čaj je gorak.","The tea is bitter.",1],["Torta je slatka.","The cake is sweet.",1],["Riba je svježa.","The fish is fresh.",1],["Salata je zelena.","The salad is green.",1],["Cvijeće je lijepo.","The flowers are beautiful.",1],["Planina je visoka.","The mountain is high.",1],["Rijeka je duga.","The river is long.",1],["Otok je malen.","The island is small.",1],["Plaža je prazna.","The beach is empty.",1],["Ulica je tiha.","The street is quiet.",1],["Trg je pun.","The square is full.",1],["Muzej je zatvoren.","The museum is closed.",1],["Trgovina je otvorena.","The shop is open.",1],["Škola je blizu.","The school is near.",1],["Hotel je daleko.","The hotel is far.",1],["Moj brat je visok.","My brother is tall.",1],["Moja sestra je mlada.","My sister is young.",1],["Baka je dobra.","Grandma is kind.",1],["Djed je star.","Grandpa is old.",1],["Dijete je malo.","The child is small.",1],["Pas je gladan.","The dog is hungry.",1],["Mačka je umorna.","The cat is tired.",1],["Zadaća je teška.","The homework is hard.",1],["Ispit je lak.","The exam is easy.",1],["Lekcija je zanimljiva.","The lesson is interesting.",1],["Film je dosadan.","The film is boring.",1],["Pjesma je lijepa.","The song is beautiful.",1],["Grad je velik i lijep.","The city is big and beautiful.",1],["Auto je brz i skup.","The car is fast and expensive.",1],["More je toplo i mirno.","The sea is warm and calm.",1],["Soba je mala, ali čista.","The room is small but clean.",1],["Kava je jaka i vruća.","The coffee is strong and hot.",1],["Ja sam umoran.","I am tired.",1],["Nije loše.","Not bad.",1],["To je sve.","That is all.",1],["Ovo je moj grad.","This is my city.",1],["Ja pijem kavu.","I drink coffee.",2],["Ti čitaš knjigu.","You read a book.",2],["On jede kruh.","He eats bread.",2],["Ona piše pismo.","She writes a letter.",2],["Mi učimo hrvatski.","We study Croatian.",2],["Vi gledate film.","You watch a film.",2],["Oni slušaju glazbu.","They listen to music.",2],["Ja radim u uredu.","I work in an office.",2],["Ti živiš u Zagrebu.","You live in Zagreb.",2],["On putuje u Split.","He travels to Split.",2],["Ona kuha juhu.","She cooks soup.",2],["Mi idemo u školu.","We go to school.",2],["Volim more.","I love the sea.",2],["Ne volim kišu.","I do not like rain.",2],["Imam psa.","I have a dog.",2],["Nemam vremena.","I have no time.",2],["Znam odgovor.","I know the answer.",2],["Ne znam gdje je.","I do not know where it is.",2],["Vidim planinu.","I see a mountain.",2],["Čekam autobus.","I am waiting for the bus.",2],["Tražim ključ.","I am looking for the key.",2],["Kupujem kruh.","I am buying bread.",2],["Plaćam kavu.","I am paying for the coffee.",2],["Govorim malo hrvatski.","I speak a little Croatian.",2],["Razumijem te.","I understand you.",2],["Pitam učiteljicu.","I am asking the teacher.",2],["Otvaram prozor.","I am opening the window.",2],["Zatvaram vrata.","I am closing the door.",2],["Nosim torbu.","I am carrying a bag.",2],["Šaljem pismo.","I am sending a letter.",2],["Zovem prijatelja.","I am calling a friend.",2],["Gdje je kolodvor?","Where is the train station?",2],["Kako se zoveš?","What is your name?",2],["Odakle si?","Where are you from?",2],["Koliko to košta?","How much does it cost?",2],["Što radiš danas?","What are you doing today?",2],["Kada dolazi vlak?","When does the train arrive?",2],["Zašto čekaš?","Why are you waiting?",2],["Tko je to?","Who is that?",2],["Imaš li kartu?","Do you have a ticket?",2],["Govoriš li engleski?","Do you speak English?",2],["Želiš li kavu?","Would you like a coffee?",2],["Idemo na plažu.","We are going to the beach.",2],["Sjedimo u kafiću.","We are sitting in a café.",2],["Djeca se igraju u parku.","The children are playing in the park.",2],["Pas trči po plaži.","The dog runs along the beach.",2],["Ptica leti visoko.","The bird flies high.",2],["Sunce sja.","The sun is shining.",2],["Kiša pada.","It is raining.",2],["Vjetar puše.","The wind is blowing.",2],["Snijeg pada u prosincu.","Snow falls in December.",2],["Vlak kasni.","The train is late.",2],["Autobus dolazi.","The bus is coming.",2],["Trgovina se zatvara u osam.","The shop closes at eight.",2],["Restoran radi do ponoći.","The restaurant is open until midnight.",2],["Kuham večeru.","I am cooking dinner.",2],["Perem suđe.","I am washing the dishes.",2],["Čistim sobu.","I am cleaning the room.",2],["Učim svaki dan.","I study every day.",2],["Ustajem rano.","I get up early.",2],["Spavam do devet.","I sleep until nine.",2],["Radim od devet do pet.","I work from nine to five.",2],["Vikendom putujem.","At weekends I travel.",2],["Petkom gledamo film.","On Fridays we watch a film.",2],["Ona pjeva u zboru.","She sings in a choir.",2],["On svira gitaru.","He plays the guitar.",2],["Marko igra nogomet.","Marko plays football.",2],["Ana pliva u moru.","Ana swims in the sea.",2],["Moj tata vozi auto.","My dad drives a car.",2],["Moja mama kuha ručak.","My mum cooks lunch.",2],["Baka priča priču.","Grandma tells a story.",2],["Djed čita novine.","Grandpa reads the newspaper.",2],["Konobar donosi kavu.","The waiter brings the coffee.",2],["Poštar nosi pisma.","The postman carries letters.",2],["Doktor pomaže ljudima.","The doctor helps people.",2],["Učiteljica objašnjava lekciju.","The teacher explains the lesson.",2],["Turisti fotografiraju katedralu.","Tourists photograph the cathedral.",2],["Ne razumijem pitanje.","I do not understand the question.",2],["Ne mogu doći danas.","I cannot come today.",2],["Idem u grad autobusom.","I am going to town by bus.",3],["Živim u malom stanu.","I live in a small flat.",3],["Knjiga je na stolu.","The book is on the table.",3],["Ključ je u torbi.","The key is in the bag.",3],["Mačka spava ispod stola.","The cat sleeps under the table.",3],["Pas je iza kuće.","The dog is behind the house.",3],["Trgovina je pored pekare.","The shop is next to the bakery.",3],["Kafić je preko puta muzeja.","The café is across from the museum.",3],["Idem kod prijatelja.","I am going to a friend’s place.",3],["Dolazim iz Hrvatske.","I come from Croatia.",3],["Putujem u Dubrovnik vlakom.","I travel to Dubrovnik by train.",3],["Vraćam se iz škole.","I am coming back from school.",3],["Kupujem kruh u pekari.","I buy bread at the bakery.",3],["Pijem kavu s mlijekom.","I drink coffee with milk.",3],["Jedem ribu bez soli.","I eat fish without salt.",3],["Razgovaram s učiteljicom.","I am talking with the teacher.",3],["Idem na more s obitelji.","I am going to the seaside with my family.",3],["Sjedim pored prozora.","I am sitting by the window.",3],["Čekam te ispred kina.","I am waiting for you in front of the cinema.",3],["Nalazimo se na trgu u pet.","We are meeting on the square at five.",3],["Nemam novca za kartu.","I do not have money for a ticket.",3],["Treba mi pomoć.","I need help.",3],["Sviđa mi se ovaj grad.","I like this city.",3],["Ne sviđa mi se ta boja.","I do not like that colour.",3],["Hladno mi je.","I am cold.",3],["Vruće mi je.","I am hot.",3],["Drago mi je.","Nice to meet you.",3],["Žao mi je.","I am sorry.",3],["Dosadno mi je.","I am bored.",3],["Ovo je knjiga moje sestre.","This is my sister’s book.",3],["To je auto našeg susjeda.","That is our neighbour’s car.",3],["Boja neba je siva.","The colour of the sky is grey.",3],["Cijena karte je visoka.","The price of the ticket is high.",3],["Kraj filma je tužan.","The end of the film is sad.",3],["Dajem knjigu bratu.","I am giving the book to my brother.",3],["Pišem pismo prijateljici.","I am writing a letter to a friend.",3],["Pomažem mami u kuhinji.","I am helping mum in the kitchen.",3],["Šaljem razglednicu baki.","I am sending a postcard to grandma.",3],["Idem u restoran na večeru.","I am going to the restaurant for dinner.",3],["Naručujem veliku salatu.","I am ordering a big salad.",3],["Želim hladno pivo, molim.","I would like a cold beer, please.",3],["Možemo li dobiti račun?","Can we get the bill?",3],["Ima li slobodan stol?","Is there a free table?",3],["Gdje mogu kupiti kartu?","Where can I buy a ticket?",3],["Kada polazi trajekt?","When does the ferry leave?",3],["Koliko traje vožnja?","How long does the ride take?",3],["Je li ovo pravi peron?","Is this the right platform?",3],["Trebam sobu za tri noći.","I need a room for three nights.",3],["Doručak je uključen u cijenu.","Breakfast is included in the price.",3],["Soba ima pogled na more.","The room has a sea view.",3],["Boli me glava.","I have a headache.",3],["Osjećam se bolje danas.","I feel better today.",3],["Trebam lijek iz apoteke.","I need medicine from the pharmacy.",3],["Nemoj zaboraviti ključ!","Do not forget the key!",3],["Zatvori prozor, molim te.","Close the window, please.",3],["Dođi ovamo!","Come here!",3],["Sjedni i odmori se.","Sit down and rest.",3],["Govori sporije, molim.","Speak more slowly, please.",3],["Ponovi to još jednom.","Repeat that once more.",3],["Idemo zajedno u kino.","Let us go to the cinema together.",3],["Nazovi me sutra.","Call me tomorrow.",3],["Čuvaj se!","Take care!",3],["Sretan put!","Have a good trip!",3],["Nema problema.","No problem.",3],["U redu je.","It is all right.",3],["Možda kasnije.","Maybe later.",3],["Već sam gotov.","I am already done.",3],["Imam previše posla.","I have too much work.",3],["Nemam dovoljno vremena.","I do not have enough time.",3],["Ovaj tjedan sam jako zauzet.","This week I am very busy.",3],["Volim raditi ujutro.","I like working in the morning.",3],["Više volim čaj nego kavu.","I prefer tea to coffee.",3],["Ovo je bolje od onoga.","This is better than that.",3],["Zagreb je veći od Splita.","Zagreb is bigger than Split.",3],["Ljeto je toplije od proljeća.","Summer is warmer than spring.",3],["Ovo je najbolja kava u gradu.","This is the best coffee in town.",3],["Danas je hladnije nego jučer.","Today is colder than yesterday.",3],["Vlak je brži od autobusa.","The train is faster than the bus.",3],["Slažem se s tobom.","I agree with you.",3],["Ne slažem se.","I do not agree.",3],["Jučer sam bio u Splitu.","Yesterday I was in Split.",4],["Sinoć smo gledali film.","Last night we watched a film.",4],["Ana je kupila novu haljinu.","Ana bought a new dress.",4],["Marko je jeo ćevape.","Marko ate ćevapi.",4],["Nisam čuo tvoj poziv.","I did not hear your call.",4],["Jesi li završio zadaću?","Did you finish your homework?",4],["Gdje si bila jutros?","Where were you this morning?",4],["Vlak je kasnio dva sata.","The train was two hours late.",4],["Zaboravio sam ključeve kod kuće.","I forgot the keys at home.",4],["Izgubila sam putovnicu.","I lost my passport.",4],["Našli smo lijep mali hotel.","We found a nice little hotel.",4],["Putovali smo cijeli dan.","We travelled the whole day.",4],["Stigli smo kasno navečer.","We arrived late in the evening.",4],["Spavao sam samo četiri sata.","I slept only four hours.",4],["Ustala sam u šest.","I got up at six.",4],["Radila je do ponoći.","She worked until midnight.",4],["Naučili smo puno novih riječi.","We learned a lot of new words.",4],["Pročitao sam cijelu knjigu.","I read the whole book.",4],["Nisam razumio pitanje.","I did not understand the question.",4],["Ispit je bio teži nego što sam mislio.","The exam was harder than I thought.",4],["Moram ići kući.","I have to go home.",4],["Moramo požuriti.","We have to hurry.",4],["Možeš li mi posuditi olovku?","Can you lend me a pencil?",4],["Ne smiješ pušiti ovdje.","You must not smoke here.",4],["Trebao bih više spavati.","I should sleep more.",4],["Htio bih rezervirati stol.","I would like to book a table.",4],["Željela bih čašu vode.","I would like a glass of water.",4],["Mogli bismo ići na izlet.","We could go on a trip.",4],["Znaš li plivati?","Can you swim?",4],["Ne mogu se sjetiti njegova imena.","I cannot remember his name.",4],["Sutra idem na more.","Tomorrow I am going to the seaside.",4],["Idući tjedan putujem u Beč.","Next week I am travelling to Vienna.",4],["Vidjet ćemo se u petak.","We will see each other on Friday.",4],["Nazvat ću te večeras.","I will call you tonight.",4],["Bit će lijepo vrijeme.","The weather will be nice.",4],["Kupit ću novi telefon.","I will buy a new phone.",4],["Kad završim posao, idem doma.","When I finish work, I am going home.",4],["Ako pada kiša, ostajemo doma.","If it rains, we stay home.",4],["Ako imaš vremena, dođi.","If you have time, come over.",4],["Kad bih imao novca, putovao bih.","If I had money, I would travel.",4],["Rekao je da dolazi kasnije.","He said he is coming later.",4],["Mislim da je to dobra ideja.","I think that is a good idea.",4],["Nadam se da ćeš doći.","I hope you will come.",4],["Znam da si umoran.","I know you are tired.",4],["Bojim se da nemamo vremena.","I am afraid we do not have time.",4],["Drago mi je što si došao.","I am glad you came.",4],["Žao mi je što kasnim.","I am sorry I am late.",4],["Iako je hladno, idemo van.","Although it is cold, we are going out.",4],["Kupio sam kruh, sir i mlijeko.","I bought bread, cheese and milk.",4],["Na stolu su bile dvije čaše.","There were two glasses on the table.",4],["U sobi je bilo previše ljudi.","There were too many people in the room.",4],["Bilo je jako toplo cijeli tjedan.","It was very hot all week.",4],["Nikad nisam bio u Dubrovniku.","I have never been to Dubrovnik.",4],["Već sam tri puta bio u Istri.","I have been to Istria three times already.",4],["Nitko nije došao na vrijeme.","Nobody came on time.",4],["Ništa nije bilo otvoreno.","Nothing was open.",4],["Svi su bili sretni.","Everyone was happy.",4],["Netko je zvao dok si spavao.","Someone called while you were sleeping.",4],["Ništa se nije dogodilo.","Nothing happened.",4],["Sve je bilo u redu.","Everything was fine.",4],["Trebalo mi je dva sata.","It took me two hours.",4],["Isplatilo se čekati.","It was worth waiting.",4],["Da sam znao da dolaziš, spremio bih ručak.","If I had known you were coming, I would have made lunch.",5],["Iako je bio umoran, ostao je do kraja.","Although he was tired, he stayed until the end.",5],["Što više učim, to bolje razumijem.","The more I study, the better I understand.",5],["Umjesto da se žališ, pokušaj nešto promijeniti.","Instead of complaining, try to change something.",5],["Prije nego što odeš, zatvori prozore.","Before you leave, close the windows.",5],["Nakon što smo večerali, prošetali smo obalom.","After we had dinner, we walked along the coast.",5],["Dok sam čekao vlak, čitao sam novine.","While I was waiting for the train, I read the newspaper.",5],["Čim stignem, javit ću ti se.","As soon as I arrive, I will let you know.",5],["Nisam siguran hoće li stići na vrijeme.","I am not sure whether he will arrive on time.",5],["Pitao me želim li ostati na večeri.","He asked me if I wanted to stay for dinner.",5],["Rekla mi je da se ne brinem.","She told me not to worry.",5],["Sve ovisi o vremenu.","It all depends on the weather.",5],["Ne radi se o novcu, nego o vremenu.","It is not about money, but about time.",5],["Bez obzira na sve, vrijedilo je.","Despite everything, it was worth it.",5],["Kad bolje razmislim, imaš pravo.","Now that I think about it, you are right.",5],["Da budem iskren, nisam očekivao ovo.","To be honest, I did not expect this.",5],["Koliko ja znam, muzej je danas zatvoren.","As far as I know, the museum is closed today.",5],["Prema planu, krećemo u osam ujutro.","According to the plan, we leave at eight in the morning.",5],["Što se mene tiče, možemo krenuti odmah.","As far as I am concerned, we can leave right away.",5],["Nadam se da se nećeš ljutiti.","I hope you will not be angry.",5],["Bilo bi lijepo kad bismo se češće viđali.","It would be nice if we saw each other more often.",5],["Sve više ljudi uči hrvatski.","More and more people are learning Croatian.",5],["Većina turista dolazi ljeti.","Most tourists come in summer.",5],["Malo tko zna za ovo mjesto.","Few people know about this place.",5],["Nitko nije mogao objasniti zašto.","Nobody could explain why.",5],["Uvijek ima nešto novo za naučiti.","There is always something new to learn.",5],["Trud se na kraju isplati.","Effort pays off in the end.",5],["Nikad nije kasno za početak.","It is never too late to start.",5],["Vrijeme brzo prolazi kad se zabavljaš.","Time flies when you are having fun.",5],["Bolje ikad nego nikad.","Better late than never.",5],["Tko rano rani, dvije sreće grabi.","The early bird catches the worm.",5],["Ponavljanje je majka znanja.","Repetition is the mother of learning.",5],["Riječ po riječ, jezik se gradi.","Word by word, a language is built.",5],["Ako te nešto muči, reci mi.","If something is bothering you, tell me.",5],["Ne mogu vjerovati koliko si napredovao.","I cannot believe how much you have progressed.",5],["Nakon godinu dana govorio je tečno.","After a year he spoke fluently.",5],["Bilo mi je drago što sam ih ponovno vidio.","I was glad to see them again.",5],["Uz malo strpljenja sve je moguće.","With a bit of patience everything is possible.",5],["Svaki početak je težak.","Every beginning is hard.",5],["Vježba čini majstora.","Practice makes perfect.",5],["Pomalo se sve slaže.","Little by little everything falls into place.",5],["Nije mi jasno kako je to moguće.","It is not clear to me how that is possible.",5],["Čini mi se da smo se već upoznali.","It seems to me we have already met.",5],["Ispostavilo se da je bio u pravu.","It turned out he was right.",5],["Na kraju smo ipak stigli na vrijeme.","In the end we did arrive on time.",5]];
+  var PRAZNINE = [["Kuća je ___.","The house is big.","velika","velik","veliko",1],["More je ___.","The sea is blue.","plavo","plav","plava",1],["Auto je ___.","The car is fast.","brz","brza","brzo",1],["Knjiga je ___.","The book is new.","nova","nov","novo",1],["Sunce je ___.","The sun is warm.","toplo","topao","topla",1],["Kava je ___.","The coffee is good.","dobra","dobar","dobro",1],["Nebo je ___.","The sky is grey.","sivo","siv","siva",1],["Grad je ___.","The city is old.","star","stara","staro",1],["Soba je ___.","The room is clean.","čista","čist","čisto",1],["Vino je ___.","The wine is cold.","hladno","hladan","hladna",1],["Ja ___ student.","I am a student.","sam","si","je",1],["Ti ___ moj prijatelj.","You are my friend.","si","sam","su",1],["Oni ___ sretni.","They are happy.","su","smo","ste",1],["Mi ___ turisti.","We are tourists.","smo","ste","su",1],["Ona ___ učiteljica.","She is a teacher.","je","su","si",1],["Vi ___ ljubazni.","You are kind.","ste","si","smo",1],["Ovo ___ moja kuća.","This is my house.","je","su","sam",1],["Vrata ___ zatvorena.","The door is closed.","su","je","sam",1],["Ja ___ kavu.","I drink coffee.","pijem","piješ","pije",2],["Ti ___ knjigu.","You read a book.","čitaš","čitam","čita",2],["On ___ kruh.","He eats bread.","jede","jedem","jedu",2],["Mi ___ hrvatski.","We study Croatian.","učimo","učite","uče",2],["Oni ___ glazbu.","They listen to music.","slušaju","slušamo","slušate",2],["Vi ___ film.","You watch a film.","gledate","gledaju","gledamo",2],["Ona ___ pismo.","She writes a letter.","piše","pišem","pišu",2],["Ja ___ u uredu.","I work in an office.","radim","radiš","radi",2],["Ti ___ u Zagrebu.","You live in Zagreb.","živiš","živim","živi",2],["Mi ___ u školu.","We go to school.","idemo","idete","idu",2],["Ona ___ juhu.","She cooks soup.","kuha","kuham","kuhaju",2],["Oni ___ nogomet.","They play football.","igraju","igra","igramo",2],["Idem ___ školu.","I am going to school.","u","na","iz",2],["Knjiga je ___ stolu.","The book is on the table.","na","u","iz",2],["Ključ je ___ torbi.","The key is in the bag.","u","na","pod",2],["Dolazim ___ Hrvatske.","I come from Croatia.","iz","u","na",2],["Idem ___ more.","I am going to the seaside.","na","u","iz",2],["Pijem kavu ___ mlijekom.","I drink coffee with milk.","s","od","za",2],["Jedem ribu ___ soli.","I eat fish without salt.","bez","s","na",2],["Vlak dolazi ___ pet sati.","The train arrives at five.","u","na","od",2],["Čekam te ___ kina.","I am waiting for you in front of the cinema.","ispred","iznad","kroz",3],["Mačka spava ___ stola.","The cat sleeps under the table.","ispod","iznad","preko",3],["Trgovina je ___ pekare.","The shop is next to the bakery.","pored","kroz","bez",3],["Naručujem ___ salatu.","I am ordering a big salad.","veliku","velika","veliki",3],["Vidim ___ planinu.","I see a high mountain.","visoku","visoka","visok",3],["Kupujem ___ kruh.","I am buying fresh bread.","svjež","svježa","svježe",3],["Želim ___ pivo.","I want a cold beer.","hladno","hladan","hladna",3],["Pijem ___ kavu.","I am drinking hot coffee.","vruću","vruća","vruć",3],["Nosim ___ torbu.","I am carrying a new bag.","novu","nova","nov",3],["Dajem knjigu ___.","I am giving the book to my brother.","bratu","brat","brata",3],["Pišem pismo ___.","I am writing a letter to a friend.","prijateljici","prijateljica","prijateljicu",3],["Pomažem ___ u kuhinji.","I am helping mum in the kitchen.","mami","mama","mamu",3],["Šaljem razglednicu ___.","I am sending a postcard to grandma.","baki","baka","baku",3],["Ovo je knjiga moje ___.","This is my sister’s book.","sestre","sestra","sestru",3],["To je auto našeg ___.","That is our neighbour’s car.","susjeda","susjed","susjedu",3],["Cijena ___ je visoka.","The price of the ticket is high.","karte","karta","kartu",3],["Hladno ___ je.","I am cold.","mi","me","ja",3],["Sviđa ___ se ovaj grad.","I like this city.","mi","me","ja",3],["Boli ___ glava.","I have a headache.","me","mi","ja",3],["Žao ___ je.","I am sorry.","mi","me","ja",3],["Nemam ___.","I have no time.","vremena","vrijeme","vremenu",3],["Nemam ___ za kartu.","I have no money for a ticket.","novca","novac","novcu",3],["U sobi su ___ čaše.","There are two glasses in the room.","dvije","dva","dvoje",3],["Na stolu je ___ knjiga.","There are five books on the table.","pet","petero","peti",3],["Više volim čaj ___ kavu.","I prefer tea to coffee.","nego","od","kao",3],["___ li mi pomoći?","Can you help me?","Možeš","Mogu","Može",3],["Idem ___ prijatelja.","I am going to a friend’s place.","kod","na","iz",3],["Putujem u Split ___.","I travel to Split by train.","vlakom","vlak","vlaka",3],["Razgovaram ___ učiteljicom.","I am talking with the teacher.","s","od","za",3],["Vraćam se ___ škole.","I am coming back from school.","iz","u","na",3],["Jučer sam ___ u Splitu.","Yesterday I was in Split.","bio","bila","bilo",4],["Ana je ___ novu haljinu.","Ana bought a new dress.","kupila","kupio","kupilo",4],["Sinoć smo ___ film.","Last night we watched a film.","gledali","gledala","gledao",4],["Nisam ___ tvoj poziv.","I did not hear your call.","čuo","čula","čuli",4],["Vlak je ___ dva sata.","The train was two hours late.","kasnio","kasnila","kasnili",4],["Djeca su se ___ u parku.","The children played in the park.","igrala","igrao","igrale",4],["Sutra ___ te nazvati.","I will call you tomorrow.","ću","ćeš","će",4],["Vidjet ___ se u petak.","We will see each other on Friday.","ćemo","ćete","će",4],["Bit ___ lijepo vrijeme.","The weather will be nice.","će","ću","ćeš",4],["___ ići kući.","I have to go home.","Moram","Moraš","Mora",4],["Ne ___ pušiti ovdje.","You must not smoke here.","smiješ","smijem","smije",4],["___ bih rezervirati stol.","I would like to book a table.","Htio","Htjeti","Hoću",4],["Trebao ___ više spavati.","I should sleep more.","bih","bi","bismo",4],["Ako ___ kiša, ostajemo doma.","If it rains, we stay home.","pada","padne","padao",4],["Mislim ___ je to dobra ideja.","I think that is a good idea.","da","koji","ako",4],["Nadam se ___ ćeš doći.","I hope you will come.","da","što","koji",4],["Ovo je ___ kava u gradu.","This is the best coffee in town.","najbolja","bolja","dobra",4],["Zagreb je ___ od Splita.","Zagreb is bigger than Split.","veći","velik","najveći",4],["Danas je ___ nego jučer.","Today is colder than yesterday.","hladnije","hladno","najhladnije",4],["Nikad ___ bio u Dubrovniku.","I have never been to Dubrovnik.","nisam","sam","nije",4],["Nitko ___ došao na vrijeme.","Nobody came on time.","nije","je","nisu",4],["Ništa se ___ dogodilo.","Nothing happened.","nije","je","nisu",4],["Trebam sobu za tri ___.","I need a room for three nights.","noći","noć","noćima",4],["Rezervirao sam stol za ___.","I booked a table for two.","dvoje","dva","dvije",4],["Čovjek ___ sjedi tamo je moj susjed.","The man sitting there is my neighbour.","koji","koja","koje",5],["Knjiga ___ čitam je odlična.","The book I am reading is excellent.","koju","koji","koje",5],["Grad u ___ živim je malen.","The city I live in is small.","kojem","koji","koju",5],["Prijateljica s ___ putujem govori talijanski.","The friend I travel with speaks Italian.","kojom","koja","koju",5],["Prije ___ odeš, zatvori prozore.","Before you leave, close the windows.","nego što","kad","dok",5],["___ sam čekao vlak, čitao sam novine.","While I was waiting for the train, I read the newspaper.","Dok","Čim","Ako",5],["Čim ___, javit ću ti se.","As soon as I arrive, I will let you know.","stignem","stižem","stigao",5],["Da sam ___, spremio bih ručak.","If I had known, I would have made lunch.","znao","znam","znati",5],["Što više učim, ___ bolje razumijem.","The more I study, the better I understand.","to","tako","onda",5],["Umjesto ___ se žališ, pokušaj nešto promijeniti.","Instead of complaining, try to change something.","da","što","kako",5],["Nisam siguran ___ li stići na vrijeme.","I am not sure whether he will arrive on time.","hoće","će","bi",5],["Pitao me ___ li ostati na večeri.","He asked me if I wanted to stay for dinner.","želim","želiš","želi",5],["Bez ___ na sve, vrijedilo je.","Despite everything, it was worth it.","obzira","obzir","obziru",5],["Sve ___ o vremenu.","It all depends on the weather.","ovisi","ovise","ovisim",5],["Ne radi se o novcu, ___ o vremenu.","It is not about money, but about time.","nego","ali","ili",5]];
+  var DIJALOZI = [{"id":"kafic","mjesto":"Kafić","emo":"☕","razina":2,"redci":[["npc","Dobar dan! Izvolite?","Good afternoon! What would you like?"],["ti","Dobar dan. Jednu veliku kavu, molim.","Good afternoon. One large coffee, please."],["npc","S mlijekom ili bez?","With milk or without?"],["ti","S mlijekom, hvala.","With milk, thank you."],["npc","Odmah stiže. Želite li nešto slatko?","Coming right up. Would you like something sweet?"],["ti","Može jedan kolač.","A pastry would be nice."],["npc","Izvolite. Ugodan dan!","Here you are. Have a nice day!"]]},{"id":"pekara","mjesto":"Pekara","emo":"🥖","razina":2,"redci":[["npc","Dobro jutro! Što će biti?","Good morning! What will it be?"],["ti","Dobro jutro. Trebam kruh i dva peciva.","Good morning. I need bread and two rolls."],["npc","Bijeli ili crni kruh?","White or brown bread?"],["ti","Crni, molim. Je li svjež?","Brown, please. Is it fresh?"],["npc","Jutros pečen. Još nešto?","Baked this morning. Anything else?"],["ti","To je sve. Koliko košta?","That is all. How much is it?"],["npc","Četiri eura, molim.","Four euros, please."]]},{"id":"trznica","mjesto":"Tržnica","emo":"🏪","razina":3,"redci":[["npc","Izvolite, gospodine! Rajčice su danas odlične.","Here you go, sir! The tomatoes are excellent today."],["ti","Koliko košta kilogram?","How much is a kilogram?"],["npc","Dva eura. Domaće su, iz mog vrta.","Two euros. They are home-grown, from my garden."],["ti","Uzet ću kilogram rajčica i pola kile paprika.","I will take a kilo of tomatoes and half a kilo of peppers."],["npc","Odmah. Trebate li još povrća?","Right away. Do you need any more vegetables?"],["ti","Ne, hvala. To je dovoljno za danas.","No, thank you. That is enough for today."],["npc","Hvala vam i doviđenja!","Thank you and goodbye!"]]},{"id":"kolodvor","mjesto":"Kolodvor","emo":"🚉","razina":3,"redci":[["npc","Dobar dan, kamo putujete?","Good afternoon, where are you travelling?"],["ti","U Split. Kada polazi sljedeći vlak?","To Split. When does the next train leave?"],["npc","U petnaest i trideset, s perona četiri.","At half past three, from platform four."],["ti","Koliko traje vožnja?","How long does the ride take?"],["npc","Otprilike šest sati.","About six hours."],["ti","Onda jednu kartu u jednom smjeru, molim.","Then one one-way ticket, please."],["npc","Izvolite kartu. Sretan put!","Here is your ticket. Have a good trip!"]]},{"id":"hotel","mjesto":"Hotel","emo":"🏨","razina":3,"redci":[["npc","Dobra večer, imate li rezervaciju?","Good evening, do you have a reservation?"],["ti","Da, na ime Marić. Soba za dvije noći.","Yes, under the name Marić. A room for two nights."],["npc","Našao sam. Soba dvjesto sedam, na drugom katu.","Found it. Room two hundred and seven, on the second floor."],["ti","Je li doručak uključen u cijenu?","Is breakfast included in the price?"],["npc","Jest, od sedam do deset ujutro.","Yes, from seven to ten in the morning."],["ti","Odlično. Ima li soba pogled na more?","Excellent. Does the room have a sea view?"],["npc","Ima. Evo vašeg ključa, ugodan boravak!","It does. Here is your key, enjoy your stay!"]]},{"id":"restoran","mjesto":"Restoran","emo":"🍽","razina":3,"redci":[["npc","Dobra večer! Stol za koliko osoba?","Good evening! A table for how many?"],["ti","Za dvoje, molim. Pored prozora ako može.","For two, please. By the window if possible."],["npc","Naravno. Evo jelovnika.","Of course. Here is the menu."],["ti","Što preporučujete?","What do you recommend?"],["npc","Svježa riba je danas izvrsna.","The fresh fish is excellent today."],["ti","Uzet ćemo ribu i veliku salatu.","We will take the fish and a big salad."],["npc","Odličan izbor. Za piće?","Excellent choice. And to drink?"],["ti","Jednu bocu vode i čašu bijelog vina.","A bottle of water and a glass of white wine."]]},{"id":"apoteka","mjesto":"Apoteka","emo":"💊","razina":4,"redci":[["npc","Dobar dan, kako vam mogu pomoći?","Good afternoon, how can I help you?"],["ti","Boli me grlo već tri dana.","My throat has hurt for three days."],["npc","Imate li i temperaturu?","Do you also have a fever?"],["ti","Jučer sam imao, danas mi je bolje.","I had one yesterday, today I feel better."],["npc","Onda probajte ove pastile. Tri puta na dan.","Then try these lozenges. Three times a day."],["ti","Trebam li recept?","Do I need a prescription?"],["npc","Ne trebate. Ako se ne popravi, idite liječniku.","You do not. If it does not improve, see a doctor."]]},{"id":"susjed","mjesto":"Kod susjeda","emo":"🏘","razina":4,"redci":[["npc","Bok! Dugo se nismo vidjeli.","Hi! We have not seen each other for a long time."],["ti","Bok! Bio sam mjesec dana u Italiji.","Hi! I was in Italy for a month."],["npc","Sjajno! Kako je bilo?","Great! How was it?"],["ti","Odlično, iako je bilo jako vruće.","Excellent, although it was very hot."],["npc","A hrana? Jesi li jeo dobro?","And the food? Did you eat well?"],["ti","Previše dobro — vratio sam se pet kila teži!","Too well — I came back five kilos heavier!"],["npc","Ha-ha! Onda idemo trčati sutra ujutro.","Ha-ha! Then let us go running tomorrow morning."]]},{"id":"ured","mjesto":"Ured","emo":"🏢","razina":4,"redci":[["npc","Dobro jutro, jeste li dobili moju poruku?","Good morning, did you get my message?"],["ti","Jesam, ali nisam stigao odgovoriti.","I did, but I did not get around to replying."],["npc","Nema problema. Možemo li se naći u dva?","No problem. Can we meet at two?"],["ti","U dva imam drugi sastanak. Može li u tri?","At two I have another meeting. Could we do three?"],["npc","Može. Trebam li nešto pripremiti?","That works. Should I prepare anything?"],["ti","Samo brojke za ovaj mjesec.","Just the figures for this month."],["npc","U redu, vidimo se u tri.","All right, see you at three."]]},{"id":"skola","mjesto":"Škola","emo":"🏫","razina":5,"redci":[["npc","Kako napreduje tvoj hrvatski?","How is your Croatian coming along?"],["ti","Bolje nego što sam očekivao, ali padeži su mi teški.","Better than I expected, but the cases are hard for me."],["npc","Svima su na početku. Čitaš li nešto na hrvatskom?","They are for everyone at the start. Do you read anything in Croatian?"],["ti","Čitam kratke priče i gledam vijesti s titlovima.","I read short stories and watch the news with subtitles."],["npc","To je najbolji način. Što više slušaš, to prije progovoriš.","That is the best way. The more you listen, the sooner you will speak."],["ti","Nadam se da ću do ljeta govoriti bez razmišljanja.","I hope that by summer I will speak without thinking."],["npc","Hoćeš, samo nastavi. Vježba čini majstora.","You will, just keep going. Practice makes perfect."]]},{"id":"plaza","mjesto":"Plaža","emo":"🏖","razina":5,"redci":[["npc","Je li ovo mjesto slobodno?","Is this spot free?"],["ti","Jest, slobodno sjednite.","It is, please sit down."],["npc","Hvala. Prekrasan dan, zar ne?","Thank you. A beautiful day, is it not?"],["ti","Predivan. More je toplije nego prošli tjedan.","Wonderful. The sea is warmer than last week."],["npc","Dolazite li često ovamo?","Do you come here often?"],["ti","Kad god imam slobodan dan. Ovdje se najbolje odmorim.","Whenever I have a day off. This is where I rest best."],["npc","Razumijem vas. Nakon mora čovjek je novi.","I understand. After the sea one feels like a new person."]]},{"id":"tvrdjava","mjesto":"Tvrđava","emo":"🏰","razina":5,"redci":[["npc","Dobro došao, putniče. Tražiš li nešto?","Welcome, traveller. Are you looking for something?"],["ti","Tražim ključ koji otvara istočna vrata.","I am looking for the key that opens the eastern gate."],["npc","Taj ključ čuva onaj tko zna tri riječi.","That key is kept by the one who knows three words."],["ti","Reci mi koje su, pa ću ih naučiti.","Tell me which ones and I will learn them."],["npc","Strpljenje, hrabrost i znanje. Sve ostalo dolazi samo.","Patience, courage and knowledge. Everything else comes on its own."],["ti","Onda mi treba još malo vremena.","Then I need a little more time."],["npc","Vrijeme imaš. Vrata te čekaju.","You have time. The gate is waiting for you."]]}];
+  var SAVJETI = [["Hrvatski nema članova — „kuća\" znači i „a house\" i „the house\".","Croatian has no articles."],["Pridjev se slaže s imenicom: velik grad, velika kuća, veliko more.","Adjectives agree with the noun."],["Muški rod najčešće završava na suglasnik, ženski na -a, srednji na -o ili -e.","Gender endings."],["U akuzativu ženski rod mijenja -a u -u: salata → salatu.","Accusative of feminine nouns."],["Neživo u muškom rodu ostaje isto u akuzativu: vidim stol.","Inanimate masculine stays the same."],["Živo u muškom rodu dobiva -a: vidim psa, vidim brata.","Animate masculine takes -a."],["Nakon „u\" i „na\" s mirovanjem ide lokativ: u kući, na stolu.","Locative after u/na for location."],["S kretanjem „u\" i „na\" traže akuzativ: idem u školu, idem na more.","Accusative after u/na for motion."],["„Bez\", „iz\", „od\", „do\" uvijek traže genitiv.","These prepositions take the genitive."],["Negacija: ne + glagol, ali „nemam\" i „neću\" pišu se spojeno.","Negation is written together in some verbs."],["Pitanje se često tvori s „li\": Imaš li vremena?","Questions with li."],["Prošlo vrijeme: pomoćni glagol + glagolski pridjev (bio sam, kupila je).","Past tense formation."],["Glagolski pridjev se slaže s rodom: on je bio, ona je bila, oni su bili.","Past participle agrees in gender."],["Futur: infinitiv + ću/ćeš/će (kupit ću, doći ćemo).","Future tense formation."],["Dativ odgovara na pitanje „kome\": dajem knjigu bratu.","Dative answers \"to whom\"."],["„Sviđa mi se\" doslovno znači „it is pleasing to me\".","Liking is expressed with the dative."],["Komparativ: velik → veći, dobar → bolji, hladan → hladniji.","Comparative forms."],["Superlativ se tvori s naj-: najveći, najbolji, najhladniji.","Superlative with naj-."],["Instrumental za sredstvo: putujem vlakom, pišem olovkom.","Instrumental for means."],["Uz brojeve 2, 3 i 4 imenica ide u genitiv jednine: dva stola.","Numbers 2-4 take genitive singular."],["Od pet nadalje ide genitiv množine: pet stolova.","Numbers 5+ take genitive plural."],["Dvostruka negacija je normalna: nitko ništa ne zna.","Double negation is standard."],["Red riječi je slobodan, ali enklitike (je, sam, se) idu na drugo mjesto.","Clitics go in second position."],["„Se\" se piše odvojeno i mijenja mjesto: odmori se, ja se odmaram.","Reflexive se placement."],["Slova dž, lj i nj su jedno slovo, ne dva.","Digraphs are single letters."],["Č je tvrđe, ć je mekše — čokolada, ćevapi.","Č vs ć."],["Svako slovo se uvijek čita isto — hrvatski je fonetski jezik.","Croatian is phonetic."],["Naglasak je najčešće na prvom slogu, nikad na zadnjem.","Stress is never on the last syllable."],["Vokativ se koristi za dozivanje: Marko → Marko!, Ana → Ana!","Vocative for addressing."],["„Vi\" iz poštovanja piše se velikim slovom u pismima.","Formal Vi is capitalised in letters."]];
+  var SUPROTNICE = [["velik","mali","big / small"],["nov","star","new / old"],["dobar","loš","good / bad"],["lijep","ružan","beautiful / ugly"],["topao","hladan","warm / cold"],["brz","spor","fast / slow"],["skup","jeftin","expensive / cheap"],["visok","nizak","tall / low"],["dug","kratak","long / short"],["težak","lagan","heavy / light"],["pun","prazan","full / empty"],["čist","prljav","clean / dirty"],["mokar","suh","wet / dry"],["glasan","tih","loud / quiet"],["svijetao","taman","bright / dark"],["mek","tvrd","soft / hard"],["bogat","siromašan","rich / poor"],["sretan","tužan","happy / sad"],["miran","ljut","calm / angry"],["zauzet","slobodan","busy / free"],["širok","uzak","wide / narrow"],["debeo","tanak","thick / thin"],["sladak","gorak","sweet / bitter"],["zdrav","bolestan","healthy / ill"],["siguran","opasan","safe / dangerous"],["zanimljiv","dosadan","interesting / boring"],["rano","kasno","early / late"],["brzo","polako","quickly / slowly"],["ovdje","tamo","here / there"],["gore","dolje","up / down"],["lijevo","desno","left / right"],["blizu","daleko","near / far"],["uvijek","nikad","always / never"],["puno","malo","a lot / a little"],["danas","sutra","today / tomorrow"],["otvoriti","zatvoriti","to open / to close"],["doći","otići","to come / to leave"],["početi","završiti","to start / to finish"],["kupovati","prodati","to buy / to sell"],["uzeti","dati","to take / to give"],["naći","izgubiti","to find / to lose"],["smijati se","plakati","to laugh / to cry"],["govoriti","šutjeti","to speak / to be silent"],["zapamtiti","zaboraviti","to memorise / to forget"],["ustati","spavati","to get up / to sleep"],["pitati","odgovoriti","to ask / to answer"],["jutro","večer","morning / evening"],["dan","noć","day / night"],["ljeto","zima","summer / winter"],["pobjeda","poraz","victory / defeat"],["sreća","tuga","happiness / sadness"],["ljubav","strah","love / fear"],["pitanje","odgovor","question / answer"],["polazak","dolazak","departure / arrival"],["crn","bijel","black / white"]];
+  /*[/SADRZAJ]*/
+  var POID = {};
+  BANKA.forEach(function (r) { POID[r.id] = r; });
+
+  function kat(k) { return BANKA.filter(function (r) { return r.kat === k; }); }
+  function po(id) { return POID[id]; }
+
+  /* ---------- pomoćne ---------- */
+  function mix(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function uzmi(a, n) { return mix(a).slice(0, n); }
+  function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+  function cijeli(n) { return Math.floor(Math.random() * n); }
+  function norm(s) { return String(s == null ? '' : s).trim().toLowerCase().replace(/\s+/g, ' '); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+    });
+  }
+  function el(id) { return document.getElementById(id); }
+  function slug(s) {
+    return String(s).toLowerCase()
+      .replace(/č|ć/g, 'c').replace(/đ/g, 'd').replace(/š/g, 's').replace(/ž/g, 'z')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
+  /* ---------- mediji (uvijek s ugrađenom zamjenom) ---------- */
+  function slika(datoteka, zamjena, velicina, klasa) {
+    var v = velicina || 96;
+    return '<span class="slikaOkvir ' + (klasa || '') + '" style="width:' + v + 'px;height:' + v + 'px;font-size:' + Math.round(v * 0.55) + 'px">' +
+      '<img src="' + MEDIJ + datoteka + '" alt="" loading="lazy" ' +
+      'onerror="this.remove()">' +
+      '<span class="zamjena" style="font-size:' + Math.round(v * 0.5) + 'px">' + zamjena + '</span>' +
+      '</span>';
+  }
+  function slikaRijeci(r, velicina) {
+    return slika('rijec-' + r.id + '.png', r.emo, velicina, 'mrlja-' + r.kat);
+  }
+  var ZVUK_OK = true;
+  function zvuk(datoteka) {
+    if (!ZVUK_OK) return;
+    try {
+      var a = new Audio(MEDIJ + datoteka);
+      a.volume = 0.85;
+      var p = a.play();
+      if (p && p.catch) p.catch(function () { });
+    } catch (e) { }
+  }
+  function zvukRijeci(r) { zvuk('rijec-' + r.id + '.mp3'); }
+  /* mali sintetički tonovi — rade i bez ijedne datoteke */
+  var AC = null;
+  function ton(f, t, tip) {
+    try {
+      AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+      var o = AC.createOscillator(), g = AC.createGain();
+      o.type = tip || 'sine'; o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, AC.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.14, AC.currentTime + 0.01);
+      g.gain.exponentialRampToValueAtTime(0.0001, AC.currentTime + (t || 0.15));
+      o.connect(g); g.connect(AC.destination); o.start(); o.stop(AC.currentTime + (t || 0.15) + 0.02);
+    } catch (e) { }
+  }
+  function pip(dobro) {
+    if (dobro) { ton(660, .09); setTimeout(function () { ton(880, .13); }, 80); }
+    else { ton(200, .2, 'square'); }
+  }
+
+  /* ---------- poruke ---------- */
+  var _p = null, _pt = null;
+  function poruka(tekst, vrsta) {
+    if (!_p) { _p = document.createElement('div'); _p.className = 'poruka'; document.body.appendChild(_p); }
+    _p.textContent = tekst;
+    _p.className = 'poruka vidi ' + (vrsta || '');
+    clearTimeout(_pt);
+    _pt = setTimeout(function () { _p.className = 'poruka ' + (vrsta || ''); }, 1600);
+  }
+
+  /* ---------- konfeti ---------- */
+  function konfeti(n) {
+    var boje = ['#F4B942', '#E8623A', '#2FA8A0', '#7B5EA7', '#7CB342', '#3E7CB1'];
+    for (var i = 0; i < (n || 40); i++) (function (i) {
+      var d = document.createElement('div');
+      d.className = 'konfet';
+      d.style.background = boje[i % boje.length];
+      d.style.left = (10 + Math.random() * 80) + 'vw';
+      d.style.top = '-20px';
+      document.body.appendChild(d);
+      var pad = 900 + Math.random() * 900, poc = performance.now(), zaokret = Math.random() * 720, x = (Math.random() - .5) * 220;
+      requestAnimationFrame(function korak(t) {
+        var k = (t - poc) / pad;
+        if (k >= 1) { d.remove(); return; }
+        d.style.transform = 'translate(' + (x * k) + 'px,' + (k * (window.innerHeight + 60)) + 'px) rotate(' + (zaokret * k) + 'deg)';
+        d.style.opacity = String(1 - k * k);
+        requestAnimationFrame(korak);
+      });
+    })(i);
+  }
+
+  /* ---------- spremanje ---------- */
+  function kljuc() { return 'croland-mini-' + (window.IGRA_ID || 'x'); }
+  function stanje() {
+    try { return JSON.parse(localStorage.getItem(kljuc()) || '{}'); } catch (e) { return {}; }
+  }
+  function spremi(o) {
+    try { localStorage.setItem(kljuc(), JSON.stringify(o)); } catch (e) { }
+  }
+  function najbolje() { return stanje().najbolje || 0; }
+  function zapisiRezultat(bodovi) {
+    var s = stanje();
+    if (bodovi > (s.najbolje || 0)) { s.najbolje = bodovi; s.kada = new Date().toISOString(); spremi(s); return true; }
+    return false;
+  }
+
+  /* ---------- zastor / kraj igre ---------- */
+  function zastor(html) {
+    var z = document.createElement('div');
+    z.className = 'zastor';
+    z.innerHTML = '<div class="kut">' + html + '</div>';
+    document.body.appendChild(z);
+    return z;
+  }
+  function zatvoriZastore() {
+    Array.prototype.forEach.call(document.querySelectorAll('.zastor'), function (z) { z.remove(); });
+  }
+  /**
+   * Završni ekran. Skriveni max: igraču se maksimum otkriva tek kad ga dosegne.
+   * @param opts {naslov, tekst, bodovi, maks, ponovno(fn)}
+   */
+  function kraj(opts) {
+    var b = Math.max(0, Math.round(opts.bodovi || 0));
+    var maks = opts.maks || window.IGRA_MAKS || 100;
+    var presao = b >= maks;
+    var rekord = zapisiRezultat(b);
+    var prijeNaplaceno = stanje().naplaceno || 0;
+    var isplata = Math.max(0, b - prijeNaplaceno);
+    if (isplata > 0) { var s = stanje(); s.naplaceno = b; spremi(s); }
+    if (presao) konfeti(90);
+    var html =
+      '<h3>' + esc(opts.naslov || (presao ? 'Prešao si igru!' : 'Kraj')) + '</h3>' +
+      '<p>' + (opts.tekst || '') + '</p>' +
+      '<div class="valute">' +
+      ['LP', 'VP', 'GP', 'PP'].map(function (v) {
+        return '<div class="valuta"><b>+' + isplata + '</b><span>' + v + '</span></div>';
+      }).join('') +
+      '</div>' +
+      '<p style="font-size:13px">' +
+      (isplata > 0 ? 'Zaračunato ' + isplata + ' u svakoj valuti. ' : 'Ovaj put bez nove isplate — već si naplatio ' + prijeNaplaceno + '. ') +
+      (presao
+        ? '<b>Skinuo si maksimum ove igre (' + maks + ').</b>'
+        : 'Ukupno do sada: <b>' + Math.max(b, prijeNaplaceno) + '</b>' + (rekord ? ' — novi rekord!' : '')) +
+      '</p>' +
+      '<div class="tipke" style="margin-top:16px">' +
+      '<button class="g glavni" id="_opet">Igraj ponovno</button>' +
+      (opts.beskonacno ? '<button class="g" id="_bez">Bez kraja ▶</button>' : '') +
+      '<a class="g" href="index.html">Izbornik</a></div>';
+    var z = zastor(html);
+    z.querySelector('#_opet').onclick = function () { z.remove(); if (opts.ponovno) opts.ponovno(); else location.reload(); };
+    if (opts.beskonacno) z.querySelector('#_bez').onclick = function () { z.remove(); opts.beskonacno(); };
+    return z;
+  }
+
+  /* ---------- HUD ---------- */
+  function hud(o) {
+    var d = document.createElement('header');
+    d.className = 'hud';
+    d.innerHTML =
+      '<a class="natrag" href="index.html">‹ izbornik</a>' +
+      '<div class="ime">' + esc(o.ime) + '<small>' + esc(o.podnaslov || '') + '</small></div>' +
+      (o.znakovi || []).map(function (z) {
+        return '<span class="znak ' + (z.klasa || '') + '" id="' + z.id + '">' + z.html + '</span>';
+      }).join('');
+    return d;
+  }
+  function srca(n, od) {
+    var s = '';
+    for (var i = 0; i < (od || 3); i++) s += (i < n ? '❤️' : '🤍');
+    return s;
+  }
+
+  /* ---------- strogi upis (s dijakriticima) ---------- */
+  function tipkeDijakritika(input) {
+    var znakovi = ['č', 'ć', 'đ', 'š', 'ž'];
+    var d = document.createElement('div');
+    d.className = 'tipke';
+    d.innerHTML = znakovi.map(function (z) {
+      return '<button type="button" class="dijakritik" data-z="' + z + '">' + z + '</button>';
+    }).join('');
+    d.addEventListener('click', function (e) {
+      var b = e.target.closest('.dijakritik'); if (!b) return;
+      var poc = input.selectionStart == null ? input.value.length : input.selectionStart;
+      var kraj_ = input.selectionEnd == null ? poc : input.selectionEnd;
+      input.value = input.value.slice(0, poc) + b.dataset.z + input.value.slice(kraj_);
+      input.focus();
+      input.setSelectionRange(poc + 1, poc + 1);
+    });
+    return d;
+  }
+
+  /*[CL-DODATAK]*/
+  /* ---------- rečenice, praznine, dijalozi, savjeti ---------- */
+  function recenice(raz, doRazine) {
+    if (!raz) return RECENICE.slice();
+    return RECENICE.filter(function (r) { return doRazine ? r[2] <= raz : r[2] === raz; });
+  }
+  function recenica(raz, doRazine) { return rand(recenice(raz, doRazine)); }
+  function praznine(raz, doRazine) {
+    if (!raz) return PRAZNINE.slice();
+    return PRAZNINE.filter(function (p) { return doRazine ? p[5] <= raz : p[5] === raz; });
+  }
+  function praznina(raz, doRazine) { return rand(praznine(raz, doRazine)); }
+  function dijalozi(raz) {
+    if (!raz) return DIJALOZI.slice();
+    return DIJALOZI.filter(function (d) { return d.razina <= raz; });
+  }
+  function savjet() { return rand(SAVJETI); }
+  function suprotnica() { return rand(SUPROTNICE); }
+  function suprotnice() { return SUPROTNICE.slice(); }
+
+  /* razina prema napretku: 1-5 iz rednog broja koraka i ukupne dužine */
+  function razinaZa(i, ukupno) {
+    var r = Math.floor((i / Math.max(1, ukupno)) * 5) + 1;
+    return Math.max(1, Math.min(5, r));
+  }
+
+  /* ---------- praćenje svladanih riječi (dijeli se među igrama) ---------- */
+  function ucenje(id, dobro) {
+    try {
+      var k = "croland-mini-ucenje";
+      var m = JSON.parse(localStorage.getItem(k) || "{}");
+      var z = m[id] || { t: 0, k: 0 };
+      if (dobro) z.t++; else z.k++;
+      m[id] = z;
+      localStorage.setItem(k, JSON.stringify(m));
+    } catch (e) { }
+  }
+  function ucenjeSve() {
+    try { return JSON.parse(localStorage.getItem("croland-mini-ucenje") || "{}"); }
+    catch (e) { return {}; }
+  }
+  function zaPonoviti(n) {
+    var m = ucenjeSve(), popis = [];
+    Object.keys(m).forEach(function (id) {
+      var z = m[id];
+      if (z.k > 0 && z.k >= z.t && POID[id]) popis.push({ r: POID[id], k: z.k, t: z.t });
+    });
+    popis.sort(function (a, b) { return (b.k - b.t) - (a.k - a.t); });
+    return popis.slice(0, n || 12);
+  }
+  /* riječi koje igrač još nije vidio — daje prednost novom sadržaju */
+  function svjezeRijeci(n, filtar) {
+    var m = ucenjeSve();
+    var izvor = filtar ? BANKA.filter(filtar) : BANKA;
+    var nove = izvor.filter(function (r) { return !m[r.id]; });
+    var ostalo = izvor.filter(function (r) { return m[r.id]; });
+    return mix(nove).concat(mix(ostalo)).slice(0, n);
+  }
+
+  /* ---------- savjet između razina ---------- */
+  function savjetZastor(nastavi) {
+    var s = savjet();
+    var z = zastor(
+      '<h3>💡 Savjet</h3><p style="text-align:left">' + esc(s[0]) + '</p>' +
+      '<p style="font-size:13px;color:#8B7B6B;text-align:left">' + esc(s[1]) + '</p>' +
+      '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_dalje">Dalje</button></div>');
+    z.querySelector('#_dalje').onclick = function () { z.remove(); if (nastavi) nastavi(); };
+    return z;
+  }
+  /*[/CL-DODATAK]*/
+
+  return {
+    MEDIJ: MEDIJ, BANKA: BANKA, KAT: KAT, kat: kat, po: po,
+    /*[CL-IZVOZ]*/
+    RECENICE: RECENICE, PRAZNINE: PRAZNINE, DIJALOZI: DIJALOZI, SAVJETI: SAVJETI,
+    SUPROTNICE: SUPROTNICE, suprotnica: suprotnica, suprotnice: suprotnice,
+    recenice: recenice, recenica: recenica, praznine: praznine, praznina: praznina,
+    dijalozi: dijalozi, savjet: savjet, savjetZastor: savjetZastor, razinaZa: razinaZa,
+    ucenje: ucenje, ucenjeSve: ucenjeSve, zaPonoviti: zaPonoviti, svjezeRijeci: svjezeRijeci,
+    /*[/CL-IZVOZ]*/
+    mix: mix, uzmi: uzmi, rand: rand, cijeli: cijeli, norm: norm, esc: esc, el: el, slug: slug,
+    slika: slika, slikaRijeci: slikaRijeci, zvuk: zvuk, zvukRijeci: zvukRijeci, ton: ton, pip: pip,
+    poruka: poruka, konfeti: konfeti,
+    stanje: stanje, spremi: spremi, najbolje: najbolje,
+    zastor: zastor, zatvoriZastore: zatvoriZastore, kraj: kraj,
+    hud: hud, srca: srca, tipkeDijakritika: tipkeDijakritika
+  };
+})();
+
+</script>
+<script>
+/* =====================================================================
+   Obrana baze — 15 valova, pet vrsta meta, pa beskonačna opsada
+   Mehanika: riječi padaju prema bazi; klikni odgovarajuću tipku prije
+             nego što udare. Pet načina: HR→EN, EN→HR, slika→riječ,
+             riječ→kategorija i rečenica→prijevod. Svaki peti val je
+             pojačan (više riječi, brže), ali vraća jedno srce.
+   Maksimum (skriveno od igrača): 40 bodova × 4 valute
+   ===================================================================== */
+
+var Š = 840, V = 380, BAZA = 330;
+
+var NACINI = {
+  hr2en:    {opis:'Pada hrvatska riječ — klikni engleski prijevod.'},
+  en2hr:    {opis:'Pada engleska riječ — klikni hrvatsku riječ.'},
+  slika:    {opis:'Pada slika — klikni hrvatsku riječ.'},
+  kat:      {opis:'Pada riječ — klikni njezinu kategoriju.'},
+  recenica: {opis:'Pada hrvatska rečenica — klikni engleski prijevod.'}
+};
+
+var VALOVI = [
+  {ime:'Prvi val',        rijeci:5,  brzina:0.28, odjednom:1, smjer:'hr2en'},
+  {ime:'Drugi val',       rijeci:6,  brzina:0.34, odjednom:2, smjer:'en2hr'},
+  {ime:'Treći val',       rijeci:6,  brzina:0.38, odjednom:2, smjer:'slika'},
+  {ime:'Četvrti val',     rijeci:7,  brzina:0.42, odjednom:2, smjer:'hr2en'},
+  {ime:'Peti val ⚡',      rijeci:9,  brzina:0.48, odjednom:3, smjer:'en2hr', jak:true},
+  {ime:'Šesti val',       rijeci:7,  brzina:0.44, odjednom:2, smjer:'kat'},
+  {ime:'Sedmi val',       rijeci:8,  brzina:0.48, odjednom:3, smjer:'slika'},
+  {ime:'Osmi val',        rijeci:8,  brzina:0.52, odjednom:3, smjer:'hr2en'},
+  {ime:'Deveti val',      rijeci:8,  brzina:0.54, odjednom:3, smjer:'recenica'},
+  {ime:'Deseti val ⚡',    rijeci:10, brzina:0.60, odjednom:3, smjer:'kat', jak:true},
+  {ime:'Jedanaesti val',  rijeci:9,  brzina:0.58, odjednom:3, smjer:'en2hr'},
+  {ime:'Dvanaesti val',   rijeci:9,  brzina:0.62, odjednom:4, smjer:'slika'},
+  {ime:'Trinaesti val',   rijeci:10, brzina:0.64, odjednom:4, smjer:'recenica'},
+  {ime:'Četrnaesti val',  rijeci:10, brzina:0.68, odjednom:4, smjer:'hr2en'},
+  {ime:'Posljednji val ⚡', rijeci:12, brzina:0.74, odjednom:4, smjer:'en2hr', jak:true}
+];
+var UKUPNO_VALOVA = VALOVI.length;
+
+var S = null;
+
+var O = CL.el('omot');
+O.appendChild(CL.hud({
+  ime:'Obrana baze', podnaslov:'padajuće riječi · 15 valova · pa bez kraja',
+  znakovi:[
+    {id:'zVal', html:'🌊 <b>1</b>/' + UKUPNO_VALOVA},
+    {id:'zSrca', klasa:'srca', html:CL.srca(3)},
+    {id:'zBod', html:'⭐ <b>0</b>'}
+  ]
+}));
+var ploha = document.createElement('div');
+ploha.className='ploha';
+ploha.innerHTML =
+  '<div class="valTraka"><span class="oznakaVal" id="oznakaVal">Prvi val</span><span id="opisVal"></span></div>' +
+  '<div class="obrOmot">' +
+  '<canvas id="nebo" width="' + Š + '" height="' + V + '"></canvas>' +
+  '<div class="tipkeO" id="tipkeO"></div></div>';
+O.appendChild(ploha);
+
+function novaIgra(){
+  S = {val:0, srca:3, bodovi:0, radi:true, pale:[], preostalo:0, raketa:null,
+       bez:false, odbijeno:0, srusenih:0};
+  pocniVal();
+  requestAnimationFrame(petlja);
+}
+
+/* ---------- val ---------- */
+
+function bezKrajaVal(n){
+  var nac = ['hr2en','en2hr','slika','kat','recenica'];
+  return {
+    ime:'Opsada ' + (n+1),
+    rijeci: 8 + Math.min(8, Math.floor(n/2)),
+    brzina: Math.min(1.15, 0.60 + n*0.035),
+    odjednom: Math.min(5, 3 + Math.floor(n/4)),
+    smjer: nac[n % nac.length],
+    jak: (n+1) % 5 === 0
+  };
+}
+
+function pocniVal(){
+  var v = S.bez ? bezKrajaVal(S.val) : VALOVI[S.val];
+  S.v = v; S.preostalo = v.rijeci; S.pale = []; S.uValu = 0;
+  CL.el('oznakaVal').textContent = v.ime;
+  CL.el('opisVal').textContent = NACINI[v.smjer].opis;
+  osvjezi();
+  izbaci();
+}
+
+/* ---------- mete ---------- */
+
+function novaMeta(){
+  var v = S.v;
+  if (v.smjer === 'recenica'){
+    var raz = Math.max(1, Math.min(5, Math.ceil((S.val+1) / 3)));
+    var r = CL.recenica(raz, true);
+    return {tip:'recenica', rec:r, kljuc:'rec:' + r[0], pada:r[0], emo:'💬'};
+  }
+  var uzeti = S.pale.map(function(p){ return p.rijec && p.rijec.id; });
+  var filtar = v.smjer === 'slika'
+    ? function(x){ return ['glagol','pridjev','prilog','broj'].indexOf(x.kat) < 0; }
+    : null;
+  var fond = CL.svjezeRijeci(60, filtar).filter(function(x){ return uzeti.indexOf(x.id) < 0; });
+  if (!fond.length) fond = CL.BANKA;
+  var w = CL.rand(fond);
+  if (v.smjer === 'kat'){
+    /* ne dopusti dvije mete iste kategorije — inače je klik dvosmislen */
+    var kats = S.pale.map(function(p){ return p.rijec && p.rijec.kat; });
+    var pok = 0;
+    while (kats.indexOf(w.kat) >= 0 && pok++ < 40) w = CL.rand(fond);
+    return {tip:'kat', rijec:w, kljuc:'kat:' + w.kat, pada:w.hr, emo:w.emo};
+  }
+  if (v.smjer === 'slika') return {tip:'slika', rijec:w, kljuc:'id:' + w.id, pada:'', emo:w.emo};
+  if (v.smjer === 'hr2en') return {tip:'hr2en', rijec:w, kljuc:'id:' + w.id, pada:w.hr, emo:w.emo};
+  return {tip:'en2hr', rijec:w, kljuc:'id:' + w.id, pada:w.en, emo:w.emo};
+}
+
+function izbaci(){
+  var v = S.v;
+  while (S.pale.length < v.odjednom && S.uValu < v.rijeci){
+    S.uValu++;
+    var m = novaMeta();
+    m.x = 70 + Math.random() * (Š - 200);
+    m.y = -20;
+    m.v = v.brzina * (0.85 + Math.random()*0.4);
+    S.pale.push(m);
+  }
+  postaviTipke();
+}
+
+function natpisTipke(m){
+  if (m.tip === 'recenica') return m.rec[1];
+  if (m.tip === 'kat') return CL.KAT[m.rijec.kat].hr;
+  if (m.tip === 'hr2en') return m.rijec.en;
+  return m.rijec.hr;   /* en2hr i slika */
+}
+
+function ometacTipke(n, izbjegni){
+  var v = S.v, out = [];
+  if (v.smjer === 'kat'){
+    var kljucevi = CL.mix(Object.keys(CL.KAT)).filter(function(k){
+      return izbjegni.indexOf('kat:' + k) < 0; });
+    return kljucevi.slice(0, n).map(function(k){
+      return {kljuc:'kat:' + k, natpis:CL.KAT[k].hr}; });
+  }
+  if (v.smjer === 'recenica'){
+    var raz = Math.max(1, Math.min(5, Math.ceil((S.val+1) / 3)));
+    return CL.uzmi(CL.recenice(raz, true), n).map(function(r){
+      return {kljuc:'rec:' + r[0], natpis:r[1]}; });
+  }
+  var fond = CL.uzmi(CL.BANKA.filter(function(x){
+    return izbjegni.indexOf('id:' + x.id) < 0; }), n);
+  fond.forEach(function(x){
+    out.push({kljuc:'id:' + x.id, natpis: v.smjer === 'hr2en' ? x.en : x.hr});
+  });
+  return out;
+}
+
+function postaviTipke(){
+  var el = CL.el('tipkeO');
+  if (!S.pale.length){ el.innerHTML = ''; return; }
+  var tocni = S.pale.map(function(m){ return {kljuc:m.kljuc, natpis:natpisTipke(m)}; });
+  var kljucevi = tocni.map(function(t){ return t.kljuc; });
+  var koliko = Math.max(2, (S.v.smjer === 'recenica' ? 3 : 6) - tocni.length);
+  var svi = CL.mix(tocni.concat(ometacTipke(koliko, kljucevi)));
+  el.innerHTML = svi.map(function(t){
+    return '<button class="g" data-k="' + CL.esc(t.kljuc) + '">' + CL.esc(t.natpis) + '</button>';
+  }).join('');
+  el.className = 'tipkeO' + (S.v.smjer === 'recenica' ? ' duge' : '');
+}
+
+CL.el('tipkeO').addEventListener('click', function(e){
+  var b = e.target.closest('button'); if (!b || !S || !S.radi) return;
+  var k = b.dataset.k;
+  var meta = null;
+  S.pale.forEach(function(p){ if (p.kljuc === k && !meta) meta = p; });
+  if (meta){
+    S.raketa = {x1: Š/2, y1: BAZA, x2: meta.x, y2: meta.y, t:0};
+    S.pale.splice(S.pale.indexOf(meta), 1);
+    S.srusenih++;
+    S.bodovi = Math.min(40, S.bodovi + 1);
+    S.preostalo--;
+    CL.pip(true);
+    if (meta.rijec){ CL.zvukRijeci(meta.rijec); CL.ucenje(meta.rijec.id, true); }
+    osvjezi();
+    if (S.preostalo <= 0 && S.pale.length === 0) return setTimeout(krajVala, 500);
+    izbaci();
+  } else {
+    CL.pip(false);
+    b.classList.add('krivo','tresi');
+    setTimeout(function(){ b.classList.remove('krivo','tresi'); }, 400);
+    S.pale.forEach(function(p){ p.y += 12; if (p.rijec) CL.ucenje(p.rijec.id, false); });
+    CL.poruka('Promašaj — riječi ubrzavaju.', 'lose');
+  }
+});
+
+function osvjezi(){
+  CL.el('zVal').innerHTML = S.bez
+    ? '♾ <b>' + (S.val+1) + '</b>'
+    : '🌊 <b>' + Math.min(S.val+1, UKUPNO_VALOVA) + '</b>/' + UKUPNO_VALOVA;
+  CL.el('zSrca').innerHTML = CL.srca(S.srca);
+  CL.el('zBod').innerHTML = '⭐ <b>' + (S.bez ? S.srusenih : S.bodovi) + '</b>';
+}
+
+function petlja(){
+  if (!S || !S.radi) return;
+  S.pale.forEach(function(p){ p.y += p.v * 1.6; });
+  for (var i = S.pale.length-1; i >= 0; i--){
+    if (S.pale[i].y >= BAZA - 14){
+      var p = S.pale.splice(i,1)[0];
+      S.srca--; CL.pip(false); S.preostalo--;
+      if (p.rijec) CL.ucenje(p.rijec.id, false);
+      CL.poruka('„' + (p.rijec ? p.rijec.hr : p.rec[0]) + '” je pogodila bazu!', 'lose');
+      osvjezi();
+      if (S.srca <= 0){ S.radi = false; return setTimeout(poraz, 400); }
+      if (S.preostalo <= 0 && S.pale.length === 0) return setTimeout(krajVala, 500);
+      izbaci();
+      postaviTipke();
+    }
+  }
+  crtaj();
+  requestAnimationFrame(petlja);
+}
+
+function crtaj(){
+  var C = CL.el('nebo'), G = C.getContext('2d');
+  var grad = G.createLinearGradient(0,0,0,V);
+  if (S.v && S.v.jak){ grad.addColorStop(0,'#3A1030'); grad.addColorStop(.7,'#6B2A4A'); grad.addColorStop(1,'#7A4A3A'); }
+  else { grad.addColorStop(0,'#20203E'); grad.addColorStop(.7,'#4A3A6B'); grad.addColorStop(1,'#6B5A3E'); }
+  G.fillStyle = grad; G.fillRect(0,0,Š,V);
+  G.fillStyle = 'rgba(255,255,255,.5)';
+  for (var i=0;i<40;i++){
+    var x = (i*137) % Š, y = (i*61) % (BAZA-40);
+    G.fillRect(x, y, 2, 2);
+  }
+  G.fillStyle = '#8B7B6B'; G.fillRect(0, BAZA, Š, V-BAZA);
+  G.fillStyle = '#2FA8A0';
+  G.beginPath(); G.moveTo(Š/2-46, BAZA); G.lineTo(Š/2+46, BAZA); G.lineTo(Š/2+26, BAZA-38); G.lineTo(Š/2-26, BAZA-38); G.closePath(); G.fill();
+  G.strokeStyle='#2B2118'; G.lineWidth=3; G.stroke();
+  G.font='20px serif'; G.textAlign='center'; G.textBaseline='middle';
+  G.fillText('🛡', Š/2, BAZA-18);
+  G.font='14px serif';
+  for (var h=0;h<3;h++) G.fillText(h < S.srca ? '❤️' : '🤍', Š/2 - 20 + h*20, BAZA + 16);
+
+  S.pale.forEach(function(p){
+    var blizu = p.y > BAZA - 100;
+    if (p.tip === 'slika'){
+      G.font = '44px serif';
+      G.fillStyle = blizu ? '#E8623A' : '#F4B942';
+      G.beginPath();
+      if (G.roundRect){ G.roundRect(p.x - 34, p.y - 30, 68, 60, 14); G.fill(); }
+      else G.fillRect(p.x - 34, p.y - 30, 68, 60);
+      G.strokeStyle = '#2B2118'; G.lineWidth = 2.5;
+      if (G.roundRect){ G.beginPath(); G.roundRect(p.x - 34, p.y - 30, 68, 60, 14); G.stroke(); }
+      G.fillStyle = '#2B2118';
+      G.fillText(p.emo, p.x, p.y + 2);
+      return;
+    }
+    var natpis = p.pada;
+    var duga = p.tip === 'recenica';
+    G.font = (duga ? 'bold 14px' : 'bold 17px') + ' system-ui';
+    if (duga && natpis.length > 38) natpis = natpis.slice(0, 37) + '…';
+    var w = G.measureText(natpis).width + 26;
+    G.fillStyle = blizu ? '#E8623A' : (duga ? '#7B5EA7' : '#F4B942');
+    G.beginPath();
+    if (G.roundRect){ G.roundRect(p.x - w/2, p.y - 15, w, 30, 10); G.fill(); }
+    else G.fillRect(p.x - w/2, p.y - 15, w, 30);
+    G.strokeStyle = '#2B2118'; G.lineWidth = 2.5;
+    if (G.roundRect){ G.beginPath(); G.roundRect(p.x - w/2, p.y - 15, w, 30, 10); G.stroke(); }
+    else G.strokeRect(p.x - w/2, p.y - 15, w, 30);
+    G.fillStyle = duga ? '#FFF' : '#2B2118';
+    G.fillText(natpis, p.x, p.y + 1);
+    G.font = '13px serif'; G.fillStyle = '#2B2118';
+    G.fillText(p.emo, p.x, p.y - 26);
+  });
+
+  if (S.raketa){
+    var r = S.raketa; r.t += 0.12;
+    if (r.t >= 1){ S.raketa = null; }
+    else {
+      G.strokeStyle = '#FFE08A'; G.lineWidth = 3;
+      G.beginPath(); G.moveTo(r.x1, r.y1);
+      G.lineTo(r.x1 + (r.x2-r.x1)*r.t, r.y1 + (r.y2-r.y1)*r.t); G.stroke();
+      G.fillStyle='#FFF'; G.beginPath();
+      G.arc(r.x1 + (r.x2-r.x1)*r.t, r.y1 + (r.y2-r.y1)*r.t, 5, 0, Math.PI*2); G.fill();
+    }
+  }
+}
+
+function krajVala(){
+  S.odbijeno++;
+  S.bodovi = Math.min(40, S.bodovi + 2);
+  S.val++;
+  var jakBio = S.v && S.v.jak;
+  if (jakBio && S.srca < 3){ S.srca++; }
+  osvjezi();
+  if (!S.bez && S.val >= VALOVI.length) return pobjeda();
+  CL.konfeti(16);
+  var v = S.bez ? bezKrajaVal(S.val) : VALOVI[S.val];
+  var z = CL.zastor('<h3>Val odbijen! 🛡</h3>' +
+    (jakBio ? '<p style="color:#7CB342"><b>Pojačani val svladan — vraćeno srce ❤️</b></p>' : '') +
+    '<p>Sljedeći: <b>' + CL.esc(v.ime) + '</b><br>' +
+    v.rijeci + ' meta · do ' + v.odjednom + ' odjednom<br>' +
+    '<small>' + CL.esc(NACINI[v.smjer].opis) + '</small></p>' +
+    '<div class="tipke"><button class="g glavni" id="_d">Spreman</button></div>');
+  z.querySelector('#_d').onclick = function(){
+    z.remove();
+    if (S.val % 4 === 0) CL.savjetZastor(function(){ pocniVal(); requestAnimationFrame(petlja); });
+    else { pocniVal(); requestAnimationFrame(petlja); }
+  };
+}
+
+function pokreniBezKraja(){
+  CL.zatvoriZastore();
+  S = {val:0, srca:3, bodovi:40, radi:true, pale:[], preostalo:0, raketa:null,
+       bez:true, odbijeno:0, srusenih:0};
+  CL.poruka('Beskonačna opsada — valovi više ne prestaju.', 'dobro');
+  pocniVal();
+  requestAnimationFrame(petlja);
+}
+
+function poraz(){
+  if (S.bez){
+    return CL.kraj({
+      naslov:'Baza je pala',
+      tekst:'U beskonačnoj opsadi izdržao si <b>' + S.odbijeno + '</b> valova i srušio <b>' +
+        S.srusenih + '</b> meta.',
+      bodovi:40, maks:40,
+      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+    });
+  }
+  CL.kraj({
+    naslov:'Baza je pala',
+    tekst:'Odbio si <b>' + S.val + '</b> valova od ' + UKUPNO_VALOVA + ' — srušeno ' + S.srusenih + ' meta.',
+    bodovi:Math.min(40, Math.round(S.val / UKUPNO_VALOVA * 40)), maks:40,
+    ponovno:function(){ novaIgra(); }
+  });
+}
+
+function pobjeda(){
+  S.radi = false;
+  CL.kraj({
+    naslov:'Baza je obranjena!',
+    tekst:'Petnaest valova, pet vrsta meta i ' + S.srusenih + ' srušenih riječi. ' +
+      'Opsada se nastavlja ako želiš.',
+    bodovi:40, maks:40,
+    ponovno:function(){ novaIgra(); },
+    beskonacno:pokreniBezKraja
+  });
+}
+
+novaIgra();
+
+</script>
+</body>
+</html>

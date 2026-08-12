@@ -1,0 +1,25 @@
+{
+  "verzija": 2,
+  "izvezeno": "2026-08-07T12:00:00.000Z",
+  "ime": "Ana",
+  "kartica": 1,
+  "vjezbe": {},
+  "pokrenute": {},
+  "vidjeno": {
+    "Lesson|1": 1,
+    "Vocabulary|1": 1,
+    "Grammar|1": 1,
+    "Practice|1": 1,
+    "Test|1": 1
+  },
+  "rjecnik": {},
+  "slova": {},
+  "abecedaSlavljena": 0,
+  "savjeti": {},
+  "streak": {
+    "niz": 0,
+    "zadnji": "",
+    "bodovi": 0
+  },
+  "mini": {}
+}

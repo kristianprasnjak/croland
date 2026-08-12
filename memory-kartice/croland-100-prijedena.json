@@ -1,0 +1,5981 @@
+{
+  "verzija": 2,
+  "izvezeno": "2026-08-07T12:00:00.000Z",
+  "ime": "Lucija",
+  "kartica": 1,
+  "vjezbe": {
+    "Lesson 0|1|Six words you already know": 4,
+    "Lesson 0|2|Find the pairs": 4,
+    "Lesson 0|3|Six more": 4,
+    "Lesson 0|4|Pop the right balloon": 4,
+    "Lesson 0|5|Six more": 4,
+    "Lesson 0|6|Find the pairs again": 4,
+    "Lesson 0|7|Six more": 4,
+    "Lesson 0|8|Build the word": 4,
+    "Lesson 0|9|The last six": 4,
+    "Lesson 0|10|Remember three": 4,
+    "Lesson 0|11|Everything you met": 4,
+    "Lesson 1|1|Welcome": 2,
+    "Lesson 1|2|Words you already recognise": 6,
+    "Lesson 1|3|New words: things around you": 3,
+    "Lesson 1|4|Word match": 5,
+    "Lesson 1|5|The magic word: je": 2,
+    "Lesson 1|6|Adjectives: making it interesting": 3,
+    "Lesson 1|7|Which ending fits?": 6,
+    "Lesson 1|8|Find the right outfit": 6,
+    "Lesson 1|9|Finish the word": 7,
+    "Lesson 1|10|Build your first sentences": 6,
+    "Lesson 1|11|Memory": 5,
+    "Lesson 1|12|Lesson checkpoint": 10,
+    "Lesson 1|13|Reward & preview": 2,
+    "Vocabulary 1|1|Words you already know (cognates)": 3,
+    "Vocabulary 1|2|Speed challenge: easy words": 6,
+    "Vocabulary 1|3|Things around you": 3,
+    "Vocabulary 1|4|Match the pairs": 5,
+    "Vocabulary 1|5|Memory": 5,
+    "Vocabulary 1|6|Adjectives & colors": 3,
+    "Vocabulary 1|7|Speed challenge: adjectives & colors": 6,
+    "Vocabulary 1|8|Type it in Croatian": 7,
+    "Grammar 1|1|The rule: every noun has a gender": 2,
+    "Grammar 1|2|Sort by gender": 6,
+    "Grammar 1|3|The rule: adjectives copy the noun": 2,
+    "Grammar 1|4|Pick the adjective": 6,
+    "Grammar 1|5|Type the adjective": 7,
+    "Grammar 1|6|Tap the ending": 5,
+    "Grammar 1|7|Say the missing word": 7,
+    "Grammar 1|8|The rule: nije — the other half of je": 2,
+    "Grammar 1|9|Yes or no?": 6,
+    "Grammar 1|10|Say it isn't so": 7,
+    "Grammar 1|11|Write the whole sentence": 7,
+    "Grammar 1|12|You can do this now": 2,
+    "Practice 1|1|Text 1: Dubrovnik": 2,
+    "Practice 1|2|Did you get it?": 6,
+    "Practice 1|3|Fill in from the text": 7,
+    "Practice 1|4|Text 2: The room": 2,
+    "Practice 1|5|True or false?": 6,
+    "Practice 1|6|Text 3: At the café": 2,
+    "Practice 1|7|Order the dialogue": 6,
+    "Practice 1|8|Translate by building": 6,
+    "Test 1|1|Match the words": 5,
+    "Test 1|2|What does it mean?": 6,
+    "Test 1|3|Which noun does it fit?": 6,
+    "Test 1|4|Tap the ending": 5,
+    "Test 1|5|Type the adjective": 7,
+    "Test 1|6|Build the sentence": 6,
+    "Test 1|7|Write it in Croatian": 7,
+    "Daily challenge 1|1|Intro": 2,
+    "Daily challenge 1|2|Words of the day": 3,
+    "Daily challenge 1|3|Match the morning": 5,
+    "Daily challenge 1|4|Finish the scene": 6,
+    "Daily challenge 1|5|Reward": 2,
+    "Lesson 2|1|Welcome back": 2,
+    "Lesson 2|2|Warm-up from Lesson 1": 7,
+    "Lesson 2|3|New words: the people words": 3,
+    "Lesson 2|4|The magic verb: biti": 2,
+    "Lesson 2|5|Describing people": 3,
+    "Lesson 2|6|Which ending fits?": 7,
+    "Lesson 2|7|Type the verb": 8,
+    "Lesson 2|8|Build your first sentences": 7,
+    "Lesson 2|9|Your first conversation": 4,
+    "Lesson 2|10|Lesson checkpoint": 11,
+    "Lesson 2|11|Reward & preview": 2,
+    "Vocabulary 2|1|Jobs": 3,
+    "Vocabulary 2|2|People around you": 3,
+    "Vocabulary 2|3|Speed challenge: jobs & people": 7,
+    "Vocabulary 2|4|Match the jobs": 6,
+    "Vocabulary 2|5|Memory: people": 6,
+    "Vocabulary 2|6|Make it female": 8,
+    "Vocabulary 2|7|Where are they from?": 3,
+    "Vocabulary 2|8|Man or woman?": 7,
+    "Vocabulary 2|9|Character & mood": 3,
+    "Vocabulary 2|10|Speed challenge: character": 7,
+    "Vocabulary 2|11|Memory: character": 6,
+    "Vocabulary 2|12|Match the character words": 6,
+    "Vocabulary 2|13|Greetings & everyday words": 3,
+    "Vocabulary 2|14|Match the greetings": 6,
+    "Vocabulary 2|15|Type it in Croatian": 8,
+    "Grammar 2|1|The rule: the full \"biti\" table": 2,
+    "Grammar 2|2|Tap the verb": 6,
+    "Grammar 2|3|The rule: adjectives still copy the person": 2,
+    "Grammar 2|4|Pick the adjective": 7,
+    "Grammar 2|5|Tap the ending: he, she or they?": 6,
+    "Grammar 2|6|The rule: ti or vi?": 2,
+    "Grammar 2|7|ti or vi?": 7,
+    "Grammar 2|8|The female version": 8,
+    "Grammar 2|9|The rule: the negative table": 2,
+    "Grammar 2|10|Make it negative": 8,
+    "Grammar 2|11|The grammatical sentence": 7,
+    "Grammar 2|12|Write the whole sentence": 8,
+    "Grammar 2|13|You can do this now": 2,
+    "Practice 2|1|Text 1: Who is who": 2,
+    "Practice 2|2|Did you get it?": 7,
+    "Practice 2|3|Fill in from the text": 8,
+    "Practice 2|4|Text 2: Who are you?": 2,
+    "Practice 2|5|True or false?": 7,
+    "Practice 2|6|Order the dialogue": 7,
+    "Practice 2|7|Text 3: At the café": 2,
+    "Practice 2|8|Did you get it?": 7,
+    "Practice 2|9|Text 4: They are a team": 2,
+    "Practice 2|10|Translate by building": 7,
+    "Test 2|1|Match the words": 6,
+    "Test 2|2|What does it mean?": 8,
+    "Test 2|3|Pronoun & verb": 8,
+    "Test 2|4|He, she or they?": 8,
+    "Test 2|5|Man or woman?": 8,
+    "Test 2|6|Tap the verb": 6,
+    "Test 2|7|Tap the ending": 6,
+    "Test 2|8|Type the missing word": 9,
+    "Test 2|9|Build the sentence": 8,
+    "Test 2|10|Write it in Croatian": 9,
+    "Daily challenge 2|1|Intro": 2,
+    "Daily challenge 2|2|Words of the day": 3,
+    "Daily challenge 2|3|Sort the postcard": 6,
+    "Daily challenge 2|4|Speed round": 6,
+    "Daily challenge 2|5|Reward": 2,
+    "Lesson 3|1|Time for action": 2,
+    "Lesson 3|2|Warm-up from Lesson 2": 7,
+    "Lesson 3|3|The action words": 4,
+    "Lesson 3|4|Verb match": 6,
+    "Lesson 3|5|One verb, different endings": 2,
+    "Lesson 3|6|Whose verb is it?": 7,
+    "Lesson 3|7|Pick the right form": 7,
+    "Lesson 3|8|Tap the ending": 6,
+    "Lesson 3|9|Type the verb": 9,
+    "Lesson 3|10|Build the scene": 7,
+    "Lesson 3|11|A quiet evening": 5,
+    "Lesson 3|12|Day in the apartment": 7,
+    "Lesson 3|13|Lesson checkpoint": 12,
+    "Lesson 3|14|Reward & preview": 2,
+    "Vocabulary 3|1|Verbs (infinitive → ja / ti / on-ona)": 4,
+    "Vocabulary 3|2|Three families": 7,
+    "Vocabulary 3|3|Match the pairs": 6,
+    "Vocabulary 3|4|Things that go with verbs": 4,
+    "Vocabulary 3|5|Memory": 6,
+    "Vocabulary 3|6|Speed challenge: the ja-form": 7,
+    "Vocabulary 3|7|Speed challenge: who is doing it?": 7,
+    "Vocabulary 3|8|Type the ja-form": 9,
+    "Vocabulary 3|9|Type it in Croatian": 9,
+    "Grammar 3|1|The rule: the name-tag endings": 2,
+    "Grammar 3|2|The rule: three families": 2,
+    "Grammar 3|3|Who is doing it?": 7,
+    "Grammar 3|4|Which family?": 7,
+    "Grammar 3|5|Pick the form": 7,
+    "Grammar 3|6|Tap the ending": 6,
+    "Grammar 3|7|Type the ja-form": 9,
+    "Grammar 3|8|Without the pronoun": 9,
+    "Grammar 3|9|Say the missing word": 9,
+    "Grammar 3|10|The rule: saying you don't": 2,
+    "Grammar 3|11|Positive or negative?": 7,
+    "Grammar 3|12|Make it negative": 9,
+    "Grammar 3|13|Write the whole sentence": 9,
+    "Grammar 3|14|You can do this now": 2,
+    "Practice 3|1|Text 1: A day in the apartment": 2,
+    "Practice 3|2|Did you get it?": 7,
+    "Practice 3|3|Text 2: What are you doing?": 2,
+    "Practice 3|4|True or false?": 7,
+    "Practice 3|5|Order the dialogue": 7,
+    "Practice 3|6|Text 3: Evening": 2,
+    "Practice 3|7|Type the verb from the text": 9,
+    "Practice 3|8|Did you get it? — the evening": 7,
+    "Practice 3|9|Translate by building": 7,
+    "Test 3|1|Match the words": 8,
+    "Test 3|2|What does it mean?": 9,
+    "Test 3|3|Whose verb is it?": 9,
+    "Test 3|4|Which family?": 9,
+    "Test 3|5|Tap the ending": 8,
+    "Test 3|6|Type the verb": 10,
+    "Test 3|7|Drop the pronoun": 10,
+    "Test 3|8|Build the sentence": 9,
+    "Test 3|9|Write it in Croatian": 10,
+    "Daily challenge 3|1|Intro": 2,
+    "Daily challenge 3|2|Words of the day": 3,
+    "Daily challenge 3|3|Build the conversation": 6,
+    "Daily challenge 3|4|Quick replay": 4,
+    "Daily challenge 3|5|Reward": 2,
+    "Lesson 4|1|Flow like a native": 3,
+    "Lesson 4|2|Rapid recall": 8,
+    "Lesson 4|3|Meet the family": 4,
+    "Lesson 4|4|Family match": 7,
+    "Lesson 4|5|Three little connectors": 3,
+    "Lesson 4|6|Choose the connector": 8,
+    "Lesson 4|7|Join the sentences": 8,
+    "Lesson 4|8|Type the connector": 10,
+    "Lesson 4|9|Memory": 7,
+    "Lesson 4|10|Read about the family": 8,
+    "Lesson 4|11|Lesson checkpoint": 14,
+    "Lesson 4|12|Reward & preview": 3,
+    "Vocabulary 4|1|The family": 4,
+    "Vocabulary 4|2|Home, pets & connectors": 4,
+    "Vocabulary 4|3|Match the pairs": 7,
+    "Vocabulary 4|4|Memory": 7,
+    "Vocabulary 4|5|Speed challenge": 8,
+    "Grammar 4|1|The rule: three connectors, three jobs": 3,
+    "Grammar 4|2|i, a or ali?": 8,
+    "Grammar 4|3|Comma or not?": 8,
+    "Grammar 4|4|The rule: a fourth connector — jer": 3,
+    "Grammar 4|5|Which connector?": 8,
+    "Grammar 4|6|Type the connector": 10,
+    "Grammar 4|7|Join the sentences": 8,
+    "Practice 4|1|Text 1: The family": 3,
+    "Practice 4|2|Did you get it?": 8,
+    "Practice 4|3|Text 2: One day": 3,
+    "Practice 4|4|Type the connector": 10,
+    "Practice 4|5|True or false?": 8,
+    "Practice 4|6|Text 3: The weekend": 3,
+    "Practice 4|7|Order the dialogue": 8,
+    "Practice 4|8|Translate by building": 8,
+    "Daily challenge 4|1|Intro": 2,
+    "Daily challenge 4|2|Words of the day": 3,
+    "Daily challenge 4|3|Fill the basket": 5,
+    "Daily challenge 4|4|Market memory": 5,
+    "Daily challenge 4|5|Reward": 2,
+    "Lesson 5|1|A big day": 3,
+    "Lesson 5|2|Rapid recall": 9,
+    "Lesson 5|3|Market words": 4,
+    "Lesson 5|4|Spot the pattern": 9,
+    "Lesson 5|5|The one-letter rule": 3,
+    "Lesson 5|6|Transformation drill": 10,
+    "Lesson 5|7|Pick the right form": 9,
+    "Lesson 5|8|Build your shopping sentences": 9,
+    "Lesson 5|9|At the shop": 6,
+    "Lesson 5|10|Accusative sprint": 9,
+    "Lesson 5|11|Lesson checkpoint": 15,
+    "Lesson 5|12|Reward & preview": 3,
+    "Vocabulary 5|1|Food & drink (naming → target)": 4,
+    "Vocabulary 5|2|Places, verbs & phrases": 4,
+    "Vocabulary 5|3|Match the pairs": 7,
+    "Vocabulary 5|4|Memory": 7,
+    "Vocabulary 5|5|Speed challenge": 9,
+    "Grammar 5|1|The rule: the first case, officially": 3,
+    "Grammar 5|2|Naming or target?": 9,
+    "Grammar 5|3|Type the accusative": 10,
+    "Grammar 5|4|u or na?": 9,
+    "Grammar 5|5|The rule: the adjective travels too": 3,
+    "Grammar 5|6|Naming or target — the whole phrase": 9,
+    "Grammar 5|7|Type both endings": 10,
+    "Grammar 5|8|Build the sentence": 9,
+    "Practice 5|1|Text 1: At the market": 3,
+    "Practice 5|2|Did you get it?": 9,
+    "Practice 5|3|Text 2: In the shop": 3,
+    "Practice 5|4|True or false?": 9,
+    "Practice 5|5|Order the dialogue": 9,
+    "Practice 5|6|Text 3: Breakfast": 3,
+    "Practice 5|7|Type the accusative": 10,
+    "Practice 5|8|Accusative sprint": 9,
+    "Practice 5|9|Translate by building": 9,
+    "Daily challenge 5|1|Intro": 2,
+    "Daily challenge 5|2|Words of the day": 3,
+    "Daily challenge 5|3|Color the town": 6,
+    "Daily challenge 5|4|Type the ending": 7,
+    "Daily challenge 5|5|Reward": 2,
+    "Lesson 6|1|Things vs. beings": 3,
+    "Lesson 6|2|Rapid recall": 10,
+    "Lesson 6|3|City words": 5,
+    "Lesson 6|4|City match": 8,
+    "Lesson 6|5|Things vs. living beings": 3,
+    "Lesson 6|6|Does it change?": 10,
+    "Lesson 6|7|Pick the right form": 10,
+    "Lesson 6|8|Transformation drill": 11,
+    "Lesson 6|9|Build the street scene": 10,
+    "Lesson 6|10|At the stop": 6,
+    "Lesson 6|11|Lesson checkpoint": 16,
+    "Lesson 6|12|Reward & preview": 3,
+    "Vocabulary 6|1|Around town": 5,
+    "Vocabulary 6|2|People in the city (naming → target)": 5,
+    "Vocabulary 6|3|Verbs & extra words": 5,
+    "Vocabulary 6|4|Match the pairs": 8,
+    "Vocabulary 6|5|Memory": 8,
+    "Vocabulary 6|6|Speed challenge": 10,
+    "Grammar 6|1|The rule: living & non-living": 3,
+    "Grammar 6|2|Does it change or not?": 10,
+    "Grammar 6|3|Type the accusative": 11,
+    "Grammar 6|4|The correct sentence": 10,
+    "Grammar 6|5|The rule: replacing the target with one small word": 3,
+    "Grammar 6|6|Replace the target": 11,
+    "Grammar 6|7|Pick the pronoun": 10,
+    "Grammar 6|8|Build the sentence": 10,
+    "Practice 6|1|Text 1: The tram": 3,
+    "Practice 6|2|Did you get it?": 10,
+    "Practice 6|3|Text 2: At the stop": 3,
+    "Practice 6|4|True or false?": 10,
+    "Practice 6|5|Order the dialogue": 10,
+    "Practice 6|6|Text 3: Traffic": 3,
+    "Practice 6|7|Type the accusative": 11,
+    "Practice 6|8|Changed or not?": 10,
+    "Practice 6|9|Translate by building": 10,
+    "Daily challenge 6|1|Intro": 2,
+    "Daily challenge 6|2|Words of the day": 3,
+    "Daily challenge 6|3|Who is who?": 5,
+    "Daily challenge 6|4|Introduce them": 6,
+    "Daily challenge 6|5|Reward": 2,
+    "Lesson 7|1|The world multiplies": 3,
+    "Lesson 7|2|Rapid recall": 10,
+    "Lesson 7|3|School words": 5,
+    "Lesson 7|4|One becomes many": 9,
+    "Lesson 7|5|The plural patterns": 3,
+    "Lesson 7|6|Sort the plurals": 10,
+    "Lesson 7|7|Verbs go plural too": 3,
+    "Lesson 7|8|Pick the right form": 10,
+    "Lesson 7|9|Make it plural": 12,
+    "Lesson 7|10|Build the classroom": 10,
+    "Lesson 7|11|Memory": 9,
+    "Lesson 7|12|Lesson checkpoint": 17,
+    "Lesson 7|13|Reward & preview": 3,
+    "Vocabulary 7|1|School (singular → plural)": 5,
+    "Vocabulary 7|2|Verbs, little words & school cognates": 5,
+    "Vocabulary 7|3|Match the pairs": 9,
+    "Vocabulary 7|4|Memory (singular & plural)": 9,
+    "Vocabulary 7|5|Speed challenge": 10,
+    "Grammar 7|1|The rule: plurals of nouns, adjectives & verbs": 3,
+    "Grammar 7|2|Type the plural": 12,
+    "Grammar 7|3|The adjective follows the noun": 10,
+    "Grammar 7|4|Type the verb": 12,
+    "Grammar 7|5|The rule: many targets": 3,
+    "Grammar 7|6|Does it change in the plural?": 10,
+    "Grammar 7|7|Type the plural target": 12,
+    "Grammar 7|8|Build the sentence": 10,
+    "Practice 7|1|Text 1: The school": 3,
+    "Practice 7|2|Did you get it?": 10,
+    "Practice 7|3|Text 2: The choir": 3,
+    "Practice 7|4|True or false?": 10,
+    "Practice 7|5|Type the plural verb": 12,
+    "Practice 7|6|Text 3: New pupils": 3,
+    "Practice 7|7|Did you get it?": 10,
+    "Practice 7|8|Order the dialogue": 10,
+    "Practice 7|9|Translate by building": 10,
+    "Daily challenge 7|1|Intro": 2,
+    "Daily challenge 7|2|Words of the day": 3,
+    "Daily challenge 7|3|Count the candles": 6,
+    "Daily challenge 7|4|Number rush": 6,
+    "Daily challenge 7|5|Reward": 2,
+    "Lesson 8|1|Summer is coming!": 4,
+    "Lesson 8|2|Rapid recall": 11,
+    "Lesson 8|3|Travel words": 6,
+    "Lesson 8|4|The future helpers": 4,
+    "Lesson 8|5|Match the helpers": 9,
+    "Lesson 8|6|Pick the helper": 11,
+    "Lesson 8|7|Today → tomorrow": 13,
+    "Lesson 8|8|Build the plan": 11,
+    "Lesson 8|9|Now or later?": 11,
+    "Lesson 8|10|Weekend plans": 7,
+    "Lesson 8|11|Lesson checkpoint": 18,
+    "Lesson 8|12|Reward & preview": 4,
+    "Vocabulary 8|1|Time & travel": 6,
+    "Vocabulary 8|2|Verbs, helpers & phrases": 6,
+    "Vocabulary 8|3|Match the pairs": 9,
+    "Vocabulary 8|4|Memory": 9,
+    "Vocabulary 8|5|Speed challenge": 11,
+    "Grammar 8|1|The rule: helpers & two word orders": 4,
+    "Grammar 8|2|Match pronoun & helper": 9,
+    "Grammar 8|3|The correctly written sentence": 11,
+    "Grammar 8|4|The second word order": 13,
+    "Grammar 8|5|Put it in the future": 13,
+    "Grammar 8|6|The rule: the future that won't": 4,
+    "Grammar 8|7|Positive or negative future?": 11,
+    "Grammar 8|8|Say you won't": 13,
+    "Practice 8|1|Text 1: Summer plan": 4,
+    "Practice 8|2|Did you get it?": 11,
+    "Practice 8|3|Text 2: Weekend plans": 4,
+    "Practice 8|4|True or false?": 11,
+    "Practice 8|5|Order the dialogue": 11,
+    "Practice 8|6|Text 3: The journey": 4,
+    "Practice 8|7|Type the future form": 13,
+    "Practice 8|8|Now or later?": 11,
+    "Practice 8|9|Translate by building": 11,
+    "Daily challenge 8|1|Intro": 2,
+    "Daily challenge 8|2|Words of the day": 3,
+    "Daily challenge 8|3|Match the pairs": 5,
+    "Daily challenge 8|4|Introduce the guests": 6,
+    "Daily challenge 8|5|Reward": 2,
+    "Lesson 9|1|Words you already know": 4,
+    "Lesson 9|2|Rapid recall": 12,
+    "Lesson 9|3|Sport & hobby words": 6,
+    "Lesson 9|4|Cognate blitz": 12,
+    "Lesson 9|5|The possessives": 4,
+    "Lesson 9|6|Pick the right form": 12,
+    "Lesson 9|7|Whose is it?": 10,
+    "Lesson 9|8|Type the possessive": 14,
+    "Lesson 9|9|Build it": 12,
+    "Lesson 9|10|Is this your ball?": 8,
+    "Lesson 9|11|Lesson checkpoint": 20,
+    "Lesson 9|12|Reward & preview": 4,
+    "Vocabulary 9|1|Sport & hobbies (cognates!)": 6,
+    "Vocabulary 9|2|Possessives & more": 6,
+    "Vocabulary 9|3|Match the pairs": 10,
+    "Vocabulary 9|4|Memory (possessives)": 10,
+    "Vocabulary 9|5|Speed challenge": 12,
+    "Grammar 9|1|The rule: agreeing with the thing owned": 4,
+    "Grammar 9|2|Whose ending wins?": 12,
+    "Grammar 9|3|Type the form": 14,
+    "Grammar 9|4|Sort by the gender of the thing owned": 12,
+    "Grammar 9|5|The rule: svoj — the possessive English doesn't have": 4,
+    "Grammar 9|6|svoj or njegov?": 12,
+    "Grammar 9|7|Type the possessive": 14,
+    "Grammar 9|8|Build the sentence": 12,
+    "Practice 9|1|Text 1: My hobby": 4,
+    "Practice 9|2|Did you get it?": 12,
+    "Practice 9|3|Type the possessive": 14,
+    "Practice 9|4|Text 2: Is this your ball?": 4,
+    "Practice 9|5|True or false?": 12,
+    "Practice 9|6|Order the dialogue": 12,
+    "Practice 9|7|Text 3: Our club": 4,
+    "Practice 9|8|Did you get it?": 12,
+    "Practice 9|9|Translate by building": 12,
+    "Daily challenge 9|1|Intro": 2,
+    "Daily challenge 9|2|Words of the day": 3,
+    "Daily challenge 9|3|Weather map": 5,
+    "Daily challenge 9|4|Read the forecast": 6,
+    "Daily challenge 9|5|Reward": 2,
+    "Lesson 10|1|Telling stories": 4,
+    "Lesson 10|2|Rapid recall": 12,
+    "Lesson 10|3|The past participle": 6,
+    "Lesson 10|4|Make the participle": 10,
+    "Lesson 10|5|Who's talking?": 4,
+    "Lesson 10|6|He, she or they?": 12,
+    "Lesson 10|7|Pick the right combo": 12,
+    "Lesson 10|8|Word order": 4,
+    "Lesson 10|9|Today → yesterday": 15,
+    "Lesson 10|10|Build yesterday": 12,
+    "Lesson 10|11|How was it?": 8,
+    "Lesson 10|12|Module B final checkpoint": 21,
+    "Lesson 10|13|Reward & preview": 4,
+    "Vocabulary 10|1|Free time & time words": 6,
+    "Vocabulary 10|2|Participles (m. / f. / pl.)": 6,
+    "Vocabulary 10|3|Match the pairs (verb → participle)": 10,
+    "Vocabulary 10|4|Memory": 10,
+    "Vocabulary 10|5|Speed challenge": 12,
+    "Grammar 10|1|The rule: the past tense formula": 4,
+    "Grammar 10|2|Type the participle": 15,
+    "Grammar 10|3|The correct sentence": 12,
+    "Grammar 10|4|The yesterday version": 15,
+    "Grammar 10|5|The rule: the past that didn't happen": 4,
+    "Grammar 10|6|Say it didn't happen": 15,
+    "Grammar 10|7|The correct negative": 12,
+    "Grammar 10|8|Build the story": 12,
+    "Practice 10|1|Text 1: Yesterday": 4,
+    "Practice 10|2|Did you get it?": 12,
+    "Practice 10|3|Type the past form": 15,
+    "Practice 10|4|Text 2: How was it?": 4,
+    "Practice 10|5|True or false?": 12,
+    "Practice 10|6|He or she?": 12,
+    "Practice 10|7|Order the dialogue": 12,
+    "Practice 10|8|Text 3: Last weekend": 4,
+    "Practice 10|9|Did you get it?": 12,
+    "Practice 10|10|Translate by building": 12,
+    "Daily challenge 10|1|Intro": 2,
+    "Daily challenge 10|2|True or false?": 6,
+    "Daily challenge 10|3|Fix the world": 7,
+    "Daily challenge 10|4|Hard mode": 6,
+    "Daily challenge 10|5|Reward": 2,
+    "Lesson 11|1|Time to ask": 4,
+    "Lesson 11|2|Rapid recall": 13,
+    "Lesson 11|3|The question words": 7,
+    "Lesson 11|4|Question match": 11,
+    "Lesson 11|5|Yes/no questions: the particle \"li\"": 4,
+    "Lesson 11|6|Build the question": 13,
+    "Lesson 11|7|Pick the question word": 13,
+    "Lesson 11|8|Type the question word": 15,
+    "Lesson 11|9|The interview": 13,
+    "Lesson 11|10|The present hunt": 9,
+    "Lesson 11|11|Lesson checkpoint": 22,
+    "Lesson 11|12|Reward & preview": 4,
+    "Vocabulary 11|1|Question words": 7,
+    "Vocabulary 11|2|Presents, verbs & more": 7,
+    "Vocabulary 11|3|Match the pairs": 11,
+    "Vocabulary 11|4|Memory": 11,
+    "Vocabulary 11|5|Speed challenge": 13,
+    "Grammar 11|1|The rule: three ways to ask": 4,
+    "Grammar 11|2|Make a li-question": 15,
+    "Grammar 11|3|Find the question": 13,
+    "Grammar 11|4|Which type of question?": 13,
+    "Grammar 11|5|The rule: the three question words that agree": 4,
+    "Grammar 11|6|koji or kakav?": 13,
+    "Grammar 11|7|Type the question word": 15,
+    "Grammar 11|8|Build the questions": 13,
+    "Practice 11|1|Text 1: The present": 4,
+    "Practice 11|2|Did you get it?": 13,
+    "Practice 11|3|Type the question word": 15,
+    "Practice 11|4|Text 2: The mystery": 4,
+    "Practice 11|5|Match question & answer": 11,
+    "Practice 11|6|Text 3: The quiz show": 4,
+    "Practice 11|7|True or false?": 13,
+    "Practice 11|8|Now YOU are on the quiz!": 9,
+    "Practice 11|9|Translate by building": 13,
+    "Daily challenge 11|1|Intro": 2,
+    "Daily challenge 11|2|Words of the day": 3,
+    "Daily challenge 11|3|Who said that?": 5,
+    "Daily challenge 11|4|Farm memory": 5,
+    "Daily challenge 11|5|Reward": 2,
+    "Lesson 12|1|Time to say NO": 5,
+    "Lesson 12|2|Rapid recall": 14,
+    "Lesson 12|3|The basic \"ne\" + new food": 7,
+    "Lesson 12|4|Say no to everything": 16,
+    "Lesson 12|5|Two exceptions: biti and imati": 5,
+    "Lesson 12|6|Pick the right form": 14,
+    "Lesson 12|7|Double negatives are GOOD here": 5,
+    "Lesson 12|8|Stack the negatives": 14,
+    "Lesson 12|9|Sort the forms": 14,
+    "Lesson 12|10|Build the protest": 14,
+    "Lesson 12|11|The picky eater": 9,
+    "Lesson 12|12|Lesson checkpoint": 23,
+    "Lesson 12|13|Reward & preview": 5,
+    "Vocabulary 12|1|Food": 7,
+    "Vocabulary 12|2|Negation & more": 7,
+    "Vocabulary 12|3|Match the pairs": 12,
+    "Vocabulary 12|4|Memory": 12,
+    "Vocabulary 12|5|Speed challenge": 14,
+    "Grammar 12|1|The rule: ne + three fused verbs": 5,
+    "Grammar 12|2|Make it negative": 16,
+    "Grammar 12|3|The grammatical sentence": 14,
+    "Grammar 12|4|Positive or negative?": 14,
+    "Grammar 12|5|The rule: not this — but that": 5,
+    "Grammar 12|6|ali or nego?": 14,
+    "Grammar 12|7|Correct it with nego": 16,
+    "Grammar 12|8|Build the sentence": 14,
+    "Practice 12|1|Text 1: I don't like soup": 5,
+    "Practice 12|2|True or false?": 14,
+    "Practice 12|3|Type the negation": 16,
+    "Practice 12|4|Text 2: At the restaurant": 5,
+    "Practice 12|5|Did you get it?": 14,
+    "Practice 12|6|Order the dialogue": 14,
+    "Practice 12|7|Text 3: Marko eats nothing": 5,
+    "Practice 12|8|Did you get it?": 14,
+    "Practice 12|9|Translate by building": 14,
+    "Daily challenge 12|1|Intro": 2,
+    "Daily challenge 12|2|Words of the day": 3,
+    "Daily challenge 12|3|Order dinner": 6,
+    "Daily challenge 12|4|Dinner dialogue": 4,
+    "Daily challenge 12|5|Reward": 2,
+    "Lesson 13|1|Going vs. being": 5,
+    "Lesson 13|2|Rapid recall": 15,
+    "Lesson 13|3|Place words": 7,
+    "Lesson 13|4|The rule: being somewhere": 5,
+    "Lesson 13|5|Match the place": 12,
+    "Lesson 13|6|Going or being?": 15,
+    "Lesson 13|7|Pick the right form": 15,
+    "Lesson 13|8|Type the locative": 17,
+    "Lesson 13|9|Build your day": 15,
+    "Lesson 13|10|Where is everyone?": 10,
+    "Lesson 13|11|Lesson checkpoint": 24,
+    "Lesson 13|12|Reward & preview": 5,
+    "Vocabulary 13|1|Places (with the locative)": 7,
+    "Vocabulary 13|2|People, words & extra places": 7,
+    "Vocabulary 13|3|Match the pairs": 12,
+    "Vocabulary 13|4|Memory": 12,
+    "Vocabulary 13|5|Speed challenge": 15,
+    "Grammar 13|1|The rule: where? — always with a preposition": 5,
+    "Grammar 13|2|Type the locative": 17,
+    "Grammar 13|3|Accusative or locative?": 15,
+    "Grammar 13|4|u or na?": 15,
+    "Grammar 13|5|The rule: about me, about you": 5,
+    "Grammar 13|6|Type the pronoun": 17,
+    "Grammar 13|7|Singular or plural place?": 15,
+    "Grammar 13|8|Build the sentence": 15,
+    "Practice 13|1|Text 1: My neighborhood": 5,
+    "Practice 13|2|Did you get it?": 15,
+    "Practice 13|3|Type the locative": 17,
+    "Practice 13|4|Text 2: Where are you?": 5,
+    "Practice 13|5|Who is where?": 12,
+    "Practice 13|6|Order the dialogue": 15,
+    "Practice 13|7|Text 3: A day in the city": 5,
+    "Practice 13|8|Put the day in order": 15,
+    "Practice 13|9|True or false?": 15,
+    "Practice 13|10|Translate by building": 15,
+    "Daily challenge 13|1|Intro": 2,
+    "Daily challenge 13|2|Words of the day": 3,
+    "Daily challenge 13|3|One or many?": 6,
+    "Daily challenge 13|4|Shopping list": 7,
+    "Daily challenge 13|5|Reward": 2,
+    "Lesson 14|1|December generosity": 5,
+    "Lesson 14|2|Rapid recall": 15,
+    "Lesson 14|3|Gift words": 8,
+    "Lesson 14|4|The receiver endings": 5,
+    "Lesson 14|5|Who gets what?": 13,
+    "Lesson 14|6|Pick the right form": 15,
+    "Lesson 14|7|Type the dative": 18,
+    "Lesson 14|8|Three giving verbs": 5,
+    "Lesson 14|9|Build the gift list": 15,
+    "Lesson 14|10|Memory": 13,
+    "Lesson 14|11|The generous brother": 10,
+    "Lesson 14|12|Lesson checkpoint": 26,
+    "Lesson 14|13|Reward & preview": 5,
+    "Vocabulary 14|1|Presents & things to give": 8,
+    "Vocabulary 14|2|Receivers (with the dative) & verbs": 8,
+    "Vocabulary 14|3|Match the pairs": 13,
+    "Vocabulary 14|4|Memory": 13,
+    "Vocabulary 14|5|Speed challenge": 15,
+    "Grammar 14|1|The rule: the receiver": 5,
+    "Grammar 14|2|Type the dative": 18,
+    "Grammar 14|3|Dative or locative?": 15,
+    "Grammar 14|4|Pick the form": 15,
+    "Grammar 14|5|The rule: the receiver in one syllable": 5,
+    "Grammar 14|6|Replace the receiver": 18,
+    "Grammar 14|7|Which little word?": 15,
+    "Grammar 14|8|Build the sentence": 15,
+    "Practice 14|1|Text 1: Presents": 5,
+    "Practice 14|2|Who gets what?": 13,
+    "Practice 14|3|Type the dative": 18,
+    "Practice 14|4|Text 2: Who are you writing to?": 5,
+    "Practice 14|5|Did you get it?": 15,
+    "Practice 14|6|Order the dialogue": 15,
+    "Practice 14|7|Text 3: The postman": 5,
+    "Practice 14|8|True or false?": 15,
+    "Practice 14|9|Type the receiver": 18,
+    "Practice 14|10|Translate by building": 15,
+    "Daily challenge 14|1|Intro": 2,
+    "Daily challenge 14|2|Words of the day": 3,
+    "Daily challenge 14|3|Sort the diary": 6,
+    "Daily challenge 14|4|Complete the diary": 6,
+    "Daily challenge 14|5|Reward": 2,
+    "Lesson 15|1|Friday night!": 5,
+    "Lesson 15|2|Rapid recall": 16,
+    "Lesson 15|3|The company endings": 5,
+    "Lesson 15|4|Who are you going with?": 13,
+    "Lesson 15|5|By train, by bus: means without \"s\"": 5,
+    "Lesson 15|6|s or no s?": 16,
+    "Lesson 15|7|Pick the right form": 16,
+    "Lesson 15|8|Type the instrumental": 19,
+    "Lesson 15|9|Build the night out": 16,
+    "Lesson 15|10|Concert plans": 11,
+    "Lesson 15|11|Module C checkpoint": 27,
+    "Lesson 15|12|Reward & preview": 5,
+    "Vocabulary 15|1|Going out & company": 8,
+    "Vocabulary 15|2|Transport, verbs & little words": 8,
+    "Vocabulary 15|3|Match the pairs": 13,
+    "Vocabulary 15|4|Memory": 13,
+    "Vocabulary 15|5|Speed challenge": 16,
+    "Grammar 15|1|The rule: with whom? with what?": 5,
+    "Grammar 15|2|Type the instrumental": 19,
+    "Grammar 15|3|s, sa or nothing?": 16,
+    "Grammar 15|4|Company or means?": 16,
+    "Grammar 15|5|The rule: with me, with you": 5,
+    "Grammar 15|6|Type the pronoun": 19,
+    "Grammar 15|7|Person or vehicle?": 16,
+    "Grammar 15|8|Build the sentence": 16,
+    "Practice 15|1|Text 1: Going out": 5,
+    "Practice 15|2|Did you get it?": 16,
+    "Practice 15|3|Type the instrumental": 19,
+    "Practice 15|4|Text 2: Who are you going with?": 5,
+    "Practice 15|5|True or false?": 16,
+    "Practice 15|6|Order the dialogue": 16,
+    "Practice 15|7|Text 3: A train journey": 5,
+    "Practice 15|8|Who travels with what?": 13,
+    "Practice 15|9|Company or means?": 16,
+    "Practice 15|10|Translate by building": 16,
+    "Daily challenge 15|1|Intro": 2,
+    "Daily challenge 15|2|Words of the day": 3,
+    "Daily challenge 15|3|Speed run": 6,
+    "Daily challenge 15|4|The itinerary": 6,
+    "Daily challenge 15|5|Reward": 2,
+    "Lesson 16|1|Whose? Without what? From where?": 6,
+    "Lesson 16|2|Rapid recall": 17,
+    "Lesson 16|3|House & home words": 8,
+    "Lesson 16|4|The genitive endings": 6,
+    "Lesson 16|5|Whose is it?": 14,
+    "Lesson 16|6|Pick the right form": 17,
+    "Lesson 16|7|Type the genitive": 20,
+    "Lesson 16|8|\"Nema\" — the useful no": 6,
+    "Lesson 16|9|Build it": 17,
+    "Lesson 16|10|Memory": 14,
+    "Lesson 16|11|At the café": 11,
+    "Lesson 16|12|Lesson checkpoint": 28,
+    "Lesson 16|13|Reward & preview": 6,
+    "Vocabulary 16|1|House & home (with the genitive)": 8,
+    "Vocabulary 16|2|Prepositions, phrases & cognates": 8,
+    "Vocabulary 16|3|Match the pairs": 14,
+    "Vocabulary 16|4|Memory (prepositions)": 14,
+    "Vocabulary 16|5|Speed challenge": 17,
+    "Grammar 16|1|The rule: the busiest case": 6,
+    "Grammar 16|2|Type the genitive": 20,
+    "Grammar 16|3|Which case is it?": 17,
+    "Grammar 16|4|Pick the preposition": 17,
+    "Grammar 16|5|The rule: counting reaches for the genitive": 6,
+    "Grammar 16|6|Which form after the number?": 17,
+    "Grammar 16|7|Order it": 20,
+    "Grammar 16|8|Build the sentence": 17,
+    "Practice 16|1|Text 1: My grandma's house": 6,
+    "Practice 16|2|Did you get it?": 17,
+    "Practice 16|3|Type the genitive": 20,
+    "Practice 16|4|Text 2: No sugar": 6,
+    "Practice 16|5|True or false?": 17,
+    "Practice 16|6|Order the dialogue": 17,
+    "Practice 16|7|Text 3: From Zagreb to the sea": 6,
+    "Practice 16|8|Put the journey in order": 17,
+    "Practice 16|9|Type the genitive": 20,
+    "Practice 16|10|Translate by building": 17,
+    "Daily challenge 16|1|Intro": 2,
+    "Daily challenge 16|2|Words of the day": 3,
+    "Daily challenge 16|3|Question or answer?": 5,
+    "Daily challenge 16|4|Solve the case": 4,
+    "Daily challenge 16|5|Reward": 2,
+    "Lesson 17|1|Time to give orders": 6,
+    "Lesson 17|2|Rapid recall": 18,
+    "Lesson 17|3|Kitchen & street words": 9,
+    "Lesson 17|4|Making commands": 6,
+    "Lesson 17|5|Spot the command": 15,
+    "Lesson 17|6|Pick the form": 18,
+    "Lesson 17|7|Saying \"don't\"": 6,
+    "Lesson 17|8|Make it negative": 20,
+    "Lesson 17|9|The recipe": 18,
+    "Lesson 17|10|Build the instructions": 18,
+    "Lesson 17|11|Lost in town": 12,
+    "Lesson 17|12|Lesson checkpoint": 29,
+    "Lesson 17|13|Reward & preview": 6,
+    "Vocabulary 17|1|In the kitchen & on the street": 9,
+    "Vocabulary 17|2|Commands (verb → imperative ti / vi)": 9,
+    "Vocabulary 17|3|Match the pairs": 15,
+    "Vocabulary 17|4|Memory (commands)": 15,
+    "Vocabulary 17|5|Speed challenge": 18,
+    "Grammar 17|1|The rule: commands, recipes & directions": 6,
+    "Grammar 17|2|Make the command (ti)": 20,
+    "Grammar 17|3|For a group": 20,
+    "Grammar 17|4|The gentler \"nemoj\"": 18,
+    "Grammar 17|5|Command or statement?": 18,
+    "Grammar 17|6|The rule: asking instead of ordering": 6,
+    "Grammar 17|7|Command or request?": 18,
+    "Grammar 17|8|Make it polite": 20,
+    "Grammar 17|9|Type the modal": 20,
+    "Grammar 17|10|Build the sentence": 18,
+    "Practice 17|1|Text 1: Pancakes (a recipe)": 6,
+    "Practice 17|2|Put the recipe in order": 18,
+    "Practice 17|3|Type the command": 20,
+    "Practice 17|4|Text 2: Directions": 6,
+    "Practice 17|5|Put the route in order": 18,
+    "Practice 17|6|True or false?": 18,
+    "Practice 17|7|Text 3: The coach": 6,
+    "Practice 17|8|Who gets which order?": 15,
+    "Practice 17|9|One person or a group?": 18,
+    "Practice 17|10|Translate by building": 18,
+    "Daily challenge 17|1|Intro": 2,
+    "Daily challenge 17|2|Words of the day": 3,
+    "Daily challenge 17|3|Assemble the robot": 5,
+    "Daily challenge 17|4|Robot says!": 6,
+    "Daily challenge 17|5|Reward": 2,
+    "Lesson 18|1|Imagine...": 6,
+    "Lesson 18|2|Rapid recall": 18,
+    "Lesson 18|3|The dream helpers": 6,
+    "Lesson 18|4|Match the helpers": 15,
+    "Lesson 18|5|Past or dream?": 18,
+    "Lesson 18|6|Pick the helper": 18,
+    "Lesson 18|7|The magic phrase: Htio bih...": 6,
+    "Lesson 18|8|Today → in your dreams": 21,
+    "Lesson 18|9|Build the dream": 18,
+    "Lesson 18|10|Where would you live?": 12,
+    "Lesson 18|11|Lesson checkpoint": 30,
+    "Lesson 18|12|Reward & preview": 6,
+    "Vocabulary 18|1|Dreams & helpers": 9,
+    "Vocabulary 18|2|Verbs, little words & cognates": 9,
+    "Vocabulary 18|3|Match the pairs": 15,
+    "Vocabulary 18|4|Memory": 15,
+    "Vocabulary 18|5|Speed challenge": 18,
+    "Grammar 18|1|The rule: what would be": 6,
+    "Grammar 18|2|Type the helper": 21,
+    "Grammar 18|3|The grammatical sentence": 18,
+    "Grammar 18|4|Past, future or dream?": 18,
+    "Grammar 18|5|The rule: putting a condition in front of the dream": 6,
+    "Grammar 18|6|Real or unreal?": 18,
+    "Grammar 18|7|ako or da?": 18,
+    "Grammar 18|8|Finish the condition": 21,
+    "Grammar 18|9|Build the dream": 18,
+    "Practice 18|1|Text 1: A million euros": 6,
+    "Practice 18|2|Did you get it?": 18,
+    "Practice 18|3|Type the conditional": 21,
+    "Practice 18|4|Text 2: Where would you live?": 6,
+    "Practice 18|5|True or false?": 18,
+    "Practice 18|6|Order the dialogue": 18,
+    "Practice 18|7|Text 3: The perfect day": 6,
+    "Practice 18|8|Put the perfect day in order": 18,
+    "Practice 18|9|Did you get it?": 18,
+    "Practice 18|10|Translate by building": 18,
+    "Daily challenge 18|1|Intro": 2,
+    "Daily challenge 18|2|The story": 2,
+    "Daily challenge 18|3|Did you get it?": 6,
+    "Daily challenge 18|4|Grand speed finale": 6,
+    "Daily challenge 18|5|Reward": 2,
+    "Lesson 19|1|The deepest secret": 6,
+    "Lesson 19|2|Rapid recall": 19,
+    "Lesson 19|3|Meet the twins": 9,
+    "Lesson 19|4|Find the twin": 16,
+    "Lesson 19|5|When to use which": 6,
+    "Lesson 19|6|Process or done?": 19,
+    "Lesson 19|7|Pick the twin": 19,
+    "Lesson 19|8|Type the twin": 22,
+    "Lesson 19|9|Build the story": 19,
+    "Lesson 19|10|Did you finish?": 13,
+    "Lesson 19|11|Lesson checkpoint": 32,
+    "Lesson 19|12|Reward & preview": 6,
+    "Vocabulary 19|1|Verb twins (process → done)": 9,
+    "Vocabulary 19|2|Time signals & more": 9,
+    "Vocabulary 19|3|Match the pairs (twins)": 16,
+    "Vocabulary 19|4|Memory": 16,
+    "Vocabulary 19|5|Speed challenge": 19,
+    "Grammar 19|1|The rule: is the action finished?": 6,
+    "Grammar 19|2|Match the twins": 16,
+    "Grammar 19|3|Pick the twin": 19,
+    "Grammar 19|4|Signal words": 19,
+    "Grammar 19|5|The rule: when the prefix isn't just aspect": 6,
+    "Grammar 19|6|Twin or new verb?": 19,
+    "Grammar 19|7|Which prefix?": 19,
+    "Grammar 19|8|Which command?": 19,
+    "Grammar 19|9|Build the sentence": 19,
+    "Practice 19|1|Text 1: The letter": 6,
+    "Practice 19|2|Did you get it?": 19,
+    "Practice 19|3|Process or done?": 19,
+    "Practice 19|4|Text 2: Two verbs, one day": 6,
+    "Practice 19|5|Who did it how?": 16,
+    "Practice 19|6|Type the right twin": 22,
+    "Practice 19|7|Text 3: Did you finish your homework?": 6,
+    "Practice 19|8|True or false?": 19,
+    "Practice 19|9|What does it really mean?": 19,
+    "Practice 19|10|Translate by building": 19,
+    "Daily challenge 19|1|Intro": 2,
+    "Daily challenge 19|2|Words of the day": 3,
+    "Daily challenge 19|3|Dress the model": 5,
+    "Daily challenge 19|4|Fashion critic": 6,
+    "Daily challenge 19|5|Reward": 2,
+    "Lesson 20|1|Finish strong": 7,
+    "Lesson 20|2|Rapid recall": 20,
+    "Lesson 20|3|The five connectors": 10,
+    "Lesson 20|4|Match the connector": 16,
+    "Lesson 20|5|The glue word: koji": 7,
+    "Lesson 20|6|Pick the connector": 20,
+    "Lesson 20|7|koji, koja or koje?": 20,
+    "Lesson 20|8|Join the thoughts": 23,
+    "Lesson 20|9|Build the big sentences": 20,
+    "Lesson 20|10|Why are YOU learning Croatian?": 13,
+    "Lesson 20|11|THE FINAL CHECKPOINT": 33,
+    "Lesson 20|12|CONGRATULATIONS! 🎓": 7,
+    "Vocabulary 20|1|Connectors": 10,
+    "Vocabulary 20|2|Summer, memories & final cognates": 10,
+    "Vocabulary 20|3|Match the pairs": 16,
+    "Vocabulary 20|4|Memory": 16,
+    "Vocabulary 20|5|Speed challenge": 20,
+    "Grammar 20|1|The rule: all together": 7,
+    "Grammar 20|2|Pick the connector": 20,
+    "Grammar 20|3|koji, koja, koje or koju?": 20,
+    "Grammar 20|4|Join with a connector": 23,
+    "Grammar 20|5|The rule: da — the connector that carries everything": 7,
+    "Grammar 20|6|Which connector?": 20,
+    "Grammar 20|7|koji in the right case": 20,
+    "Grammar 20|8|Join it with da": 23,
+    "Grammar 20|9|The final sentence": 20,
+    "Practice 20|1|Text 1: The summer I remember": 7,
+    "Practice 20|2|Did you get it?": 20,
+    "Practice 20|3|Type the connector": 23,
+    "Practice 20|4|Text 2: If it's sunny": 7,
+    "Practice 20|5|Match condition & plan": 16,
+    "Practice 20|6|Order the dialogue": 20,
+    "Practice 20|7|Text 3: Why I'm learning Croatian (an essay)": 7,
+    "Practice 20|8|True or false?": 20,
+    "Practice 20|9|The essay's key sentence": 23,
+    "Practice 20|10|Translate by building": 20,
+    "Practice 20|11|Final challenge": 7,
+    "Daily challenge 20|1|Intro": 2,
+    "Daily challenge 20|2|Words of the day": 3,
+    "Daily challenge 20|3|What am I doing?": 5,
+    "Daily challenge 20|4|Narrate your Sunday": 6,
+    "Daily challenge 20|5|Reward": 2,
+    "Daily challenge 21|1|Intro": 2,
+    "Daily challenge 21|2|Words of the day": 3,
+    "Daily challenge 21|3|The chalkboard": 5,
+    "Daily challenge 21|4|Order up": 6,
+    "Daily challenge 21|5|Say it smoothly": 6,
+    "Daily challenge 21|6|Reward": 2,
+    "Daily challenge 22|1|Intro": 2,
+    "Daily challenge 22|2|Words of the day": 3,
+    "Daily challenge 22|3|Shelf or hand?": 6,
+    "Daily challenge 22|4|Type the ending": 7,
+    "Daily challenge 22|5|Reward": 2,
+    "Daily challenge 23|1|Intro": 2,
+    "Daily challenge 23|2|Words of the day": 3,
+    "Daily challenge 23|3|Pin the map": 5,
+    "Daily challenge 23|4|Lost tourist": 4,
+    "Daily challenge 23|5|Reward": 2,
+    "Daily challenge 24|1|Intro": 2,
+    "Daily challenge 24|2|Words of the day": 3,
+    "Daily challenge 24|3|Cross it off": 6,
+    "Daily challenge 24|4|Number rush II": 6,
+    "Daily challenge 24|5|Reward": 2,
+    "Daily challenge 25|1|Intro": 2,
+    "Daily challenge 25|2|Words of the day": 3,
+    "Daily challenge 25|3|Match the squads": 5,
+    "Daily challenge 25|4|Stadium announcer": 6,
+    "Daily challenge 25|5|Reward": 2,
+    "Daily challenge 26|1|Intro": 2,
+    "Daily challenge 26|2|Words of the day": 3,
+    "Daily challenge 26|3|Court by court": 5,
+    "Daily challenge 26|4|What do you play?": 6,
+    "Daily challenge 26|5|Reward": 2,
+    "Daily challenge 27|1|Intro": 2,
+    "Daily challenge 27|2|Words of the day": 3,
+    "Daily challenge 27|3|Hearts and crosses": 6,
+    "Daily challenge 27|4|Your turn": 6,
+    "Daily challenge 27|5|Reward": 2,
+    "Daily challenge 28|1|Intro": 2,
+    "Daily challenge 28|2|Words of the day": 3,
+    "Daily challenge 28|3|Backstage pass": 5,
+    "Daily challenge 28|4|At the show": 6,
+    "Daily challenge 28|5|Reward": 2,
+    "Daily challenge 29|1|Intro": 2,
+    "Daily challenge 29|2|Words of the day": 3,
+    "Daily challenge 29|3|The panorama": 5,
+    "Daily challenge 29|4|Gender check at the summit": 6,
+    "Daily challenge 29|5|Describe the view": 6,
+    "Daily challenge 29|6|Reward": 2,
+    "Daily challenge 30|1|Intro": 2,
+    "Daily challenge 30|2|Words of the day": 3,
+    "Daily challenge 30|3|The interrogation board": 5,
+    "Daily challenge 30|4|Crack the case": 4,
+    "Daily challenge 30|5|Reward": 2,
+    "Daily challenge 31|1|Intro": 2,
+    "Daily challenge 31|2|Words of the day": 3,
+    "Daily challenge 31|3|Emoji match": 5,
+    "Daily challenge 31|4|How is everyone?": 6,
+    "Daily challenge 31|5|Reward": 2,
+    "Daily challenge 32|1|Intro": 2,
+    "Daily challenge 32|2|Words of the day": 3,
+    "Daily challenge 32|3|Sort the week": 6,
+    "Daily challenge 32|4|The planner": 6,
+    "Daily challenge 32|5|Reward": 2,
+    "Daily challenge 33|1|Intro": 2,
+    "Daily challenge 33|2|The story": 2,
+    "Daily challenge 33|3|Did you live it?": 6,
+    "Daily challenge 33|4|Grand speed finale II": 6,
+    "Daily challenge 33|5|Reward": 2,
+    "|1|Pick the right one — Lesson 1": 6,
+    "|1|Type the word — Lesson 1": 7,
+    "|1|Build the sentence — Lesson 1": 6,
+    "|1|Sort the adjectives — Lesson 1": 6
+  },
+  "pokrenute": {
+    "Lesson 0": 1,
+    "Lesson 1": 1,
+    "Vocabulary 1": 1,
+    "Grammar 1": 1,
+    "Practice 1": 1,
+    "Test 1": 1,
+    "Daily challenge 1": 1,
+    "Lesson 2": 1,
+    "Vocabulary 2": 1,
+    "Grammar 2": 1,
+    "Practice 2": 1,
+    "Test 2": 1,
+    "Daily challenge 2": 1,
+    "Lesson 3": 1,
+    "Vocabulary 3": 1,
+    "Grammar 3": 1,
+    "Practice 3": 1,
+    "Test 3": 1,
+    "Daily challenge 3": 1,
+    "Lesson 4": 1,
+    "Vocabulary 4": 1,
+    "Grammar 4": 1,
+    "Practice 4": 1,
+    "Daily challenge 4": 1,
+    "Lesson 5": 1,
+    "Vocabulary 5": 1,
+    "Grammar 5": 1,
+    "Practice 5": 1,
+    "Daily challenge 5": 1,
+    "Lesson 6": 1,
+    "Vocabulary 6": 1,
+    "Grammar 6": 1,
+    "Practice 6": 1,
+    "Daily challenge 6": 1,
+    "Lesson 7": 1,
+    "Vocabulary 7": 1,
+    "Grammar 7": 1,
+    "Practice 7": 1,
+    "Daily challenge 7": 1,
+    "Lesson 8": 1,
+    "Vocabulary 8": 1,
+    "Grammar 8": 1,
+    "Practice 8": 1,
+    "Daily challenge 8": 1,
+    "Lesson 9": 1,
+    "Vocabulary 9": 1,
+    "Grammar 9": 1,
+    "Practice 9": 1,
+    "Daily challenge 9": 1,
+    "Lesson 10": 1,
+    "Vocabulary 10": 1,
+    "Grammar 10": 1,
+    "Practice 10": 1,
+    "Daily challenge 10": 1,
+    "Lesson 11": 1,
+    "Vocabulary 11": 1,
+    "Grammar 11": 1,
+    "Practice 11": 1,
+    "Daily challenge 11": 1,
+    "Lesson 12": 1,
+    "Vocabulary 12": 1,
+    "Grammar 12": 1,
+    "Practice 12": 1,
+    "Daily challenge 12": 1,
+    "Lesson 13": 1,
+    "Vocabulary 13": 1,
+    "Grammar 13": 1,
+    "Practice 13": 1,
+    "Daily challenge 13": 1,
+    "Lesson 14": 1,
+    "Vocabulary 14": 1,
+    "Grammar 14": 1,
+    "Practice 14": 1,
+    "Daily challenge 14": 1,
+    "Lesson 15": 1,
+    "Vocabulary 15": 1,
+    "Grammar 15": 1,
+    "Practice 15": 1,
+    "Daily challenge 15": 1,
+    "Lesson 16": 1,
+    "Vocabulary 16": 1,
+    "Grammar 16": 1,
+    "Practice 16": 1,
+    "Daily challenge 16": 1,
+    "Lesson 17": 1,
+    "Vocabulary 17": 1,
+    "Grammar 17": 1,
+    "Practice 17": 1,
+    "Daily challenge 17": 1,
+    "Lesson 18": 1,
+    "Vocabulary 18": 1,
+    "Grammar 18": 1,
+    "Practice 18": 1,
+    "Daily challenge 18": 1,
+    "Lesson 19": 1,
+    "Vocabulary 19": 1,
+    "Grammar 19": 1,
+    "Practice 19": 1,
+    "Daily challenge 19": 1,
+    "Lesson 20": 1,
+    "Vocabulary 20": 1,
+    "Grammar 20": 1,
+    "Practice 20": 1,
+    "Daily challenge 20": 1,
+    "Daily challenge 21": 1,
+    "Daily challenge 22": 1,
+    "Daily challenge 23": 1,
+    "Daily challenge 24": 1,
+    "Daily challenge 25": 1,
+    "Daily challenge 26": 1,
+    "Daily challenge 27": 1,
+    "Daily challenge 28": 1,
+    "Daily challenge 29": 1,
+    "Daily challenge 30": 1,
+    "Daily challenge 31": 1,
+    "Daily challenge 32": 1,
+    "Daily challenge 33": 1
+  },
+  "vidjeno": {
+    "Lesson|1": 1,
+    "Lesson|2": 1,
+    "Lesson|3": 1,
+    "Lesson|4": 1,
+    "Lesson|5": 1,
+    "Lesson|6": 1,
+    "Lesson|7": 1,
+    "Lesson|8": 1,
+    "Lesson|9": 1,
+    "Lesson|10": 1,
+    "Lesson|11": 1,
+    "Lesson|12": 1,
+    "Lesson|13": 1,
+    "Lesson|14": 1,
+    "Lesson|15": 1,
+    "Lesson|16": 1,
+    "Lesson|17": 1,
+    "Lesson|18": 1,
+    "Lesson|19": 1,
+    "Lesson|20": 1,
+    "Vocabulary|1": 1,
+    "Vocabulary|2": 1,
+    "Vocabulary|3": 1,
+    "Vocabulary|4": 1,
+    "Vocabulary|5": 1,
+    "Vocabulary|6": 1,
+    "Vocabulary|7": 1,
+    "Vocabulary|8": 1,
+    "Vocabulary|9": 1,
+    "Vocabulary|10": 1,
+    "Vocabulary|11": 1,
+    "Vocabulary|12": 1,
+    "Vocabulary|13": 1,
+    "Vocabulary|14": 1,
+    "Vocabulary|15": 1,
+    "Vocabulary|16": 1,
+    "Vocabulary|17": 1,
+    "Vocabulary|18": 1,
+    "Vocabulary|19": 1,
+    "Vocabulary|20": 1,
+    "Grammar|1": 1,
+    "Grammar|2": 1,
+    "Grammar|3": 1,
+    "Grammar|4": 1,
+    "Grammar|5": 1,
+    "Grammar|6": 1,
+    "Grammar|7": 1,
+    "Grammar|8": 1,
+    "Grammar|9": 1,
+    "Grammar|10": 1,
+    "Grammar|11": 1,
+    "Grammar|12": 1,
+    "Grammar|13": 1,
+    "Grammar|14": 1,
+    "Grammar|15": 1,
+    "Grammar|16": 1,
+    "Grammar|17": 1,
+    "Grammar|18": 1,
+    "Grammar|19": 1,
+    "Grammar|20": 1,
+    "Practice|1": 1,
+    "Practice|2": 1,
+    "Practice|3": 1,
+    "Practice|4": 1,
+    "Practice|5": 1,
+    "Practice|6": 1,
+    "Practice|7": 1,
+    "Practice|8": 1,
+    "Practice|9": 1,
+    "Practice|10": 1,
+    "Practice|11": 1,
+    "Practice|12": 1,
+    "Practice|13": 1,
+    "Practice|14": 1,
+    "Practice|15": 1,
+    "Practice|16": 1,
+    "Practice|17": 1,
+    "Practice|18": 1,
+    "Practice|19": 1,
+    "Practice|20": 1,
+    "Test|1": 1,
+    "Test|2": 1,
+    "Test|3": 1
+  },
+  "rjecnik": {
+    "ananas": {
+      "hr": "ananas",
+      "en": "pineapple",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "banana": {
+      "hr": "banana → bananu",
+      "en": "banana → bananas",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "cipela": {
+      "hr": "cipela",
+      "en": "shoe",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "čokolada": {
+      "hr": "čokolada → čokoladu",
+      "en": "chocolate",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "ćevapi": {
+      "hr": "ćevapi",
+      "en": "grilled meat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "drvo": {
+      "hr": "drvo",
+      "en": "tree",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "džem": {
+      "hr": "džem",
+      "en": "jam",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "đak": {
+      "hr": "đak",
+      "en": "pupil",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "ekran": {
+      "hr": "ekran",
+      "en": "screen",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "farma": {
+      "hr": "farma",
+      "en": "farm",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "gitara": {
+      "hr": "gitara",
+      "en": "guitar",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "hotel": {
+      "hr": "hotel → u hotelu",
+      "en": "hotel → hotels",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "igla": {
+      "hr": "igla",
+      "en": "needle",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "jabuka": {
+      "hr": "jabuka → jabuku",
+      "en": "apple → apples",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "kuća": {
+      "hr": "kuća",
+      "en": "house",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "lav": {
+      "hr": "lav",
+      "en": "lion",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "ljeto": {
+      "hr": "ljeto",
+      "en": "summer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "more": {
+      "hr": "more",
+      "en": "mora",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "nos": {
+      "hr": "nos",
+      "en": "nose",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "njuška": {
+      "hr": "njuška",
+      "en": "snout",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "oko": {
+      "hr": "oko",
+      "en": "eye",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "pas": {
+      "hr": "pas → psa",
+      "en": "dog",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "riba": {
+      "hr": "riba → ribu",
+      "en": "fish",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "sunce": {
+      "hr": "sunce",
+      "en": "sun",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "šešir": {
+      "hr": "šešir",
+      "en": "hat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "torta": {
+      "hr": "torta",
+      "en": "cake",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "uho": {
+      "hr": "uho",
+      "en": "ear",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "vino": {
+      "hr": "vino",
+      "en": "wine",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "zebra": {
+      "hr": "zebra",
+      "en": "zebra",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "žaba": {
+      "hr": "žaba",
+      "en": "frog",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 0"
+    },
+    "automobil": {
+      "hr": "automobil",
+      "en": "car",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "bijel": {
+      "hr": "bijel / bijela / bijelo",
+      "en": "white",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "brz": {
+      "hr": "brz / brza / brzo",
+      "en": "fast",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "crn": {
+      "hr": "crn / crna / crno",
+      "en": "black",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "crven": {
+      "hr": "crven / crvena / crveno",
+      "en": "red",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "dan": {
+      "hr": "dan",
+      "en": "day",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "dobar": {
+      "hr": "dobar / dobra / dobro",
+      "en": "good",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "grad": {
+      "hr": "grad",
+      "en": "city",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "hladan": {
+      "hr": "hladan / hladna / hladno",
+      "en": "cold",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "kava": {
+      "hr": "kava → kavu",
+      "en": "coffee",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "knjiga": {
+      "hr": "knjiga → knjigu",
+      "en": "knjige",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "krevet": {
+      "hr": "krevet",
+      "en": "bed",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "lampa": {
+      "hr": "lampa",
+      "en": "lamp",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "lijep": {
+      "hr": "lijep / lijepa / lijepo",
+      "en": "beautiful",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "mali": {
+      "hr": "mali / mala / malo",
+      "en": "small",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "nebo": {
+      "hr": "nebo",
+      "en": "sky",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "nov": {
+      "hr": "nov / nova / novo",
+      "en": "new",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "plav": {
+      "hr": "plav / plava / plavo",
+      "en": "blue",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "prozor": {
+      "hr": "prozor",
+      "en": "window",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "sladoled": {
+      "hr": "sladoled",
+      "en": "ice cream",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "soba": {
+      "hr": "soba",
+      "en": "room",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "star": {
+      "hr": "star / stara / staro",
+      "en": "old",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "stol": {
+      "hr": "stol",
+      "en": "stolovi",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "topao": {
+      "hr": "topao / topla / toplo",
+      "en": "warm",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "velik": {
+      "hr": "velik / velika / veliko",
+      "en": "big",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "zelen": {
+      "hr": "zelen / zelena / zeleno",
+      "en": "green",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "žut": {
+      "hr": "žut / žuta / žuto",
+      "en": "yellow",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 1"
+    },
+    "i": {
+      "hr": "i",
+      "en": "and (adding)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "je": {
+      "hr": "je",
+      "en": "is",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "mekan": {
+      "hr": "mekan",
+      "en": "soft",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "moderan": {
+      "hr": "moderan",
+      "en": "modern",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "muzika": {
+      "hr": "muzika",
+      "en": "music",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "ovo": {
+      "hr": "ovo",
+      "en": "this",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "problem": {
+      "hr": "problem",
+      "en": "problem",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "restoran": {
+      "hr": "restoran → u restoranu",
+      "en": "restaurant",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "sladak": {
+      "hr": "sladak",
+      "en": "sweet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "sport": {
+      "hr": "sport",
+      "en": "sport",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "taksi": {
+      "hr": "taksi",
+      "en": "taxi",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "telefon": {
+      "hr": "telefon → telefoni",
+      "en": "telephone → telephones",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 1"
+    },
+    "doručak": {
+      "hr": "doručak",
+      "en": "breakfast",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 1"
+    },
+    "jutro": {
+      "hr": "jutro",
+      "en": "morning",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 1"
+    },
+    "kruh": {
+      "hr": "kruh",
+      "en": "bread",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 1"
+    },
+    "mlijeko": {
+      "hr": "mlijeko",
+      "en": "milk",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 1"
+    },
+    "šećer": {
+      "hr": "šećer → šećera",
+      "en": "sugar",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 1"
+    },
+    "bok": {
+      "hr": "Bok!",
+      "en": "Hi!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "dobar dan": {
+      "hr": "Dobar dan!",
+      "en": "Good day!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "doktor": {
+      "hr": "doktor",
+      "en": "doctor",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "drago mi je": {
+      "hr": "Drago mi je!",
+      "en": "Nice to meet you!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "ja": {
+      "hr": "ja",
+      "en": "I",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "jak": {
+      "hr": "jak",
+      "en": "strong",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "konobar": {
+      "hr": "konobar → konobara",
+      "en": "waiter",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "mi": {
+      "hr": "mi",
+      "en": "we",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "mlad": {
+      "hr": "mlad",
+      "en": "young",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "on": {
+      "hr": "on",
+      "en": "he",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "ona": {
+      "hr": "ona",
+      "en": "she",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "oni": {
+      "hr": "oni",
+      "en": "they",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "pametan": {
+      "hr": "pametan",
+      "en": "smart",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "prijatelj": {
+      "hr": "prijatelj → prijatelja",
+      "en": "friend",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "profesor": {
+      "hr": "profesor",
+      "en": "professor",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "sretan": {
+      "hr": "sretan",
+      "en": "happy 😊",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "student": {
+      "hr": "student",
+      "en": "student",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "ti": {
+      "hr": "ti",
+      "en": "you (one friend)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "tko": {
+      "hr": "tko",
+      "en": "who?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "umoran": {
+      "hr": "umoran",
+      "en": "tired 🥱",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "veseo": {
+      "hr": "veseo",
+      "en": "cheerful",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "vi": {
+      "hr": "vi",
+      "en": "you (plural or polite)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "visok": {
+      "hr": "visok",
+      "en": "tall",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 2"
+    },
+    "čovjek": {
+      "hr": "čovjek → čovjeka",
+      "en": "man / person",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "dobra večer": {
+      "hr": "Dobra večer!",
+      "en": "Good evening!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "dobro jutro": {
+      "hr": "Dobro jutro!",
+      "en": "Good morning!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "dobro sam": {
+      "hr": "Dobro sam.",
+      "en": "I'm fine.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "doviđenja": {
+      "hr": "Doviđenja!",
+      "en": "Goodbye!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "drag": {
+      "hr": "drag",
+      "en": "kind, dear",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "engleskinja": {
+      "hr": "Engleskinja",
+      "en": "English person (she)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "englez": {
+      "hr": "Englez",
+      "en": "English person",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "gladan": {
+      "hr": "gladan / gladna",
+      "en": "hungry 😋",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "glumac": {
+      "hr": "glumac",
+      "en": "actor",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "gost": {
+      "hr": "gost",
+      "en": "guest",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "hrabar": {
+      "hr": "hrabar",
+      "en": "brave",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "hrvat": {
+      "hr": "Hrvat",
+      "en": "Croat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "hrvatica": {
+      "hr": "Hrvatica",
+      "en": "Croat (she)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "hrvatska": {
+      "hr": "Hrvatska",
+      "en": "Croatia",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "hvala": {
+      "hr": "Hvala!",
+      "en": "Thank you!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "ime": {
+      "hr": "ime",
+      "en": "name",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "jako": {
+      "hr": "jako",
+      "en": "very",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "kako si": {
+      "hr": "Kako si?",
+      "en": "How are you?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "kako ste": {
+      "hr": "Kako ste?",
+      "en": "How are you? (polite)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "kuhar": {
+      "hr": "kuhar",
+      "en": "cook, chef",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "ljubazan": {
+      "hr": "ljubazan",
+      "en": "polite",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "ljut": {
+      "hr": "ljut",
+      "en": "angry 😠",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "naravno": {
+      "hr": "naravno",
+      "en": "of course",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "nema na čemu": {
+      "hr": "Nema na čemu.",
+      "en": "You're welcome.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "nijemac": {
+      "hr": "Nijemac",
+      "en": "German",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "nizak": {
+      "hr": "nizak",
+      "en": "short",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "novinar": {
+      "hr": "novinar",
+      "en": "journalist",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "njemica": {
+      "hr": "Njemica",
+      "en": "German (she)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "odakle": {
+      "hr": "odakle",
+      "en": "from where",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "odvjetnik": {
+      "hr": "odvjetnik",
+      "en": "lawyer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "oprosti": {
+      "hr": "Oprosti!",
+      "en": "Sorry!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "ozbiljan": {
+      "hr": "ozbiljan",
+      "en": "serious",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "pilot": {
+      "hr": "pilot",
+      "en": "pilot",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "pjevač": {
+      "hr": "pjevač",
+      "en": "singer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "policajac": {
+      "hr": "policajac → policajca",
+      "en": "police officer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "posao": {
+      "hr": "posao",
+      "en": "job, work",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "radnik": {
+      "hr": "radnik",
+      "en": "worker",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "susjed": {
+      "hr": "susjed → susjedu",
+      "en": "neighbour",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "šef": {
+      "hr": "šef",
+      "en": "boss",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "talijan": {
+      "hr": "Talijan",
+      "en": "Italian",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "talijanka": {
+      "hr": "Talijanka",
+      "en": "Italian (she)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "tim": {
+      "hr": "tim",
+      "en": "team",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "turist": {
+      "hr": "turist → turista",
+      "en": "tourist",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "tužan": {
+      "hr": "tužan",
+      "en": "sad 😢",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "učitelj": {
+      "hr": "učitelj",
+      "en": "teacher",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "vidimo se": {
+      "hr": "Vidimo se!",
+      "en": "See you!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "vozač": {
+      "hr": "vozač",
+      "en": "driver",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "vrijedan": {
+      "hr": "vrijedan",
+      "en": "hard-working",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "zabavan": {
+      "hr": "zabavan",
+      "en": "fun",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "zauzet": {
+      "hr": "zauzet",
+      "en": "busy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "žedan": {
+      "hr": "žedan",
+      "en": "thirsty 🥤",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 2"
+    },
+    "brod": {
+      "hr": "brod",
+      "en": "boat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 2"
+    },
+    "galeb": {
+      "hr": "galeb",
+      "en": "seagull",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 2"
+    },
+    "plaža": {
+      "hr": "plaža",
+      "en": "beach",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 2"
+    },
+    "čitati": {
+      "hr": "čitati → čitam, čitaš, čita",
+      "en": "čitao / čitala / čitali",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "gledati": {
+      "hr": "gledati → gledam, gledaš, gleda",
+      "en": "watch → take a look / watch whole",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "jesti": {
+      "hr": "jesti → jedem, jedeš, jede",
+      "en": "jeo / jela / jeli",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "pisati": {
+      "hr": "pisati → pišem, pišeš, piše",
+      "en": "write → finish writing",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "piti": {
+      "hr": "piti → pijem, piješ, pije",
+      "en": "pio / pila / pili",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "raditi": {
+      "hr": "raditi → radim, radiš, radi",
+      "en": "to work",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "slušati": {
+      "hr": "slušati → slušam, slušaš, sluša",
+      "en": "to listen",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "spavati": {
+      "hr": "spavati → spavam, spavaš, spava",
+      "en": "spavao / spavala / spavali",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "učiti": {
+      "hr": "učiti → učim, učiš, uči",
+      "en": "study → learn (master)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 3"
+    },
+    "film": {
+      "hr": "film",
+      "en": "film, movie",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "mačka": {
+      "hr": "mačka",
+      "en": "cat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "miran": {
+      "hr": "miran / mirna / mirno",
+      "en": "calm, quiet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "pismo": {
+      "hr": "pismo",
+      "en": "letter",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "radio": {
+      "hr": "radio / radila / radili",
+      "en": "worked",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "sendvič": {
+      "hr": "sendvič",
+      "en": "sandwich",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "sok": {
+      "hr": "sok",
+      "en": "juice",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "tekst": {
+      "hr": "tekst",
+      "en": "text",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "udžbenik": {
+      "hr": "udžbenik",
+      "en": "textbook",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 3"
+    },
+    "kafić": {
+      "hr": "kafić → u kafiću",
+      "en": "café",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 3"
+    },
+    "molim": {
+      "hr": "molim",
+      "en": "please",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 3"
+    },
+    "račun": {
+      "hr": "račun",
+      "en": "bill / check",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 3"
+    },
+    "baka": {
+      "hr": "baka → baki",
+      "en": "grandma",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "brat": {
+      "hr": "brat → bratu",
+      "en": "brother",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "djed": {
+      "hr": "djed → djedu",
+      "en": "grandpa",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "dom": {
+      "hr": "dom",
+      "en": "home",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "kuhati": {
+      "hr": "kuhati → kuham, kuhaš, kuha",
+      "en": "to cook",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "mama": {
+      "hr": "mama → mami",
+      "en": "mami",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "obitelj": {
+      "hr": "obitelj",
+      "en": "family",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "sestra": {
+      "hr": "sestra → sestri",
+      "en": "sister",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "stan": {
+      "hr": "stan",
+      "en": "apartment",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "tata": {
+      "hr": "tata → tati",
+      "en": "dad",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 4"
+    },
+    "a": {
+      "hr": "a",
+      "en": "and / whereas",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 4"
+    },
+    "ali": {
+      "hr": "ali",
+      "en": "but",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 4"
+    },
+    "još": {
+      "hr": "još",
+      "en": "still, yet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 4"
+    },
+    "puno": {
+      "hr": "puno",
+      "en": "a lot, much",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 4"
+    },
+    "grožđe": {
+      "hr": "grožđe",
+      "en": "grapes",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 4"
+    },
+    "kruška": {
+      "hr": "kruška",
+      "en": "pear",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 4"
+    },
+    "limun": {
+      "hr": "limun",
+      "en": "lemon",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 4"
+    },
+    "naranča": {
+      "hr": "naranča",
+      "en": "orange",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 4"
+    },
+    "tržnica": {
+      "hr": "tržnica → tržnicu",
+      "en": "market",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 4"
+    },
+    "ići": {
+      "hr": "ići → idem",
+      "en": "to go",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "juha": {
+      "hr": "juha → juhu",
+      "en": "soup",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "kupovati": {
+      "hr": "kupovati → kupujem",
+      "en": "shop for → buy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "pita": {
+      "hr": "pita → pitu",
+      "en": "pie",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "salata": {
+      "hr": "salata → salatu",
+      "en": "salad / lettuce",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "subota": {
+      "hr": "subota",
+      "en": "Saturday (≈ Sabbath)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "trebati": {
+      "hr": "trebati → trebam",
+      "en": "to need",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "trgovina": {
+      "hr": "trgovina → trgovinu",
+      "en": "shop, store",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "voda": {
+      "hr": "voda → vodu",
+      "en": "water",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "voljeti": {
+      "hr": "voljeti → volim",
+      "en": "to love",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "vrećica": {
+      "hr": "vrećica → vrećicu",
+      "en": "bag",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 5"
+    },
+    "danas": {
+      "hr": "danas",
+      "en": "today",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "idem": {
+      "hr": "idem",
+      "en": "I go",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "izvolite": {
+      "hr": "Izvolite?",
+      "en": "How can I help you? / Here you are.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "jedna": {
+      "hr": "jedna",
+      "en": "one (f.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "kupujem": {
+      "hr": "kupujem",
+      "en": "I buy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "odličan": {
+      "hr": "odličan / odlična",
+      "en": "excellent",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "skup": {
+      "hr": "skup / skupa",
+      "en": "expensive",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "svjež": {
+      "hr": "svjež / svježa",
+      "en": "fresh",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "trebam": {
+      "hr": "trebam",
+      "en": "I need",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "volim": {
+      "hr": "volim",
+      "en": "I like / I love",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 5"
+    },
+    "autobus": {
+      "hr": "autobus",
+      "en": "bus",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "broj": {
+      "hr": "broj",
+      "en": "number",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "čekati": {
+      "hr": "čekati → čekam",
+      "en": "to wait (for)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "čuti": {
+      "hr": "čuti → čujem",
+      "en": "to hear",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "fotografirati": {
+      "hr": "fotografirati → fotografiram",
+      "en": "to photograph",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "pričati": {
+      "hr": "pričati → pričam",
+      "en": "to chat, to talk",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "promet": {
+      "hr": "promet",
+      "en": "traffic",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "stanica": {
+      "hr": "stanica",
+      "en": "station / stop",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "tramvaj": {
+      "hr": "tramvaj",
+      "en": "tram",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "ulica": {
+      "hr": "ulica",
+      "en": "street",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "vidjeti": {
+      "hr": "vidjeti → vidim",
+      "en": "to see",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "voziti": {
+      "hr": "voziti → vozim",
+      "en": "to drive",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "zvati": {
+      "hr": "zvati → zovem",
+      "en": "to call",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 6"
+    },
+    "čekam": {
+      "hr": "čekam",
+      "en": "I wait",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "čujem": {
+      "hr": "čujem",
+      "en": "I hear",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "galerija": {
+      "hr": "galerija",
+      "en": "gallery",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "katedrala": {
+      "hr": "katedrala",
+      "en": "cathedral",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "kiosk": {
+      "hr": "kiosk",
+      "en": "kiosk",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "most": {
+      "hr": "most",
+      "en": "bridge",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "muzej": {
+      "hr": "muzej",
+      "en": "museum",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "pričam": {
+      "hr": "pričam",
+      "en": "I chat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "pun": {
+      "hr": "pun / puna / puno",
+      "en": "full",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "semafor": {
+      "hr": "semafor",
+      "en": "traffic light",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "trg": {
+      "hr": "trg",
+      "en": "square",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "tunel": {
+      "hr": "tunel",
+      "en": "tunnel",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "vidim": {
+      "hr": "vidim",
+      "en": "I see",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "vozim": {
+      "hr": "vozim",
+      "en": "I drive",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "zovem": {
+      "hr": "zovem",
+      "en": "I call",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 6"
+    },
+    "dijete": {
+      "hr": "dijete → djeca",
+      "en": "child → children",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "dječak": {
+      "hr": "dječak → dječaci",
+      "en": "boy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "djevojčica": {
+      "hr": "djevojčica → djevojčice",
+      "en": "girl",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "igrati": {
+      "hr": "igrati → igram, igramo, igraju",
+      "en": "to play (a game)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "klavir": {
+      "hr": "klavir",
+      "en": "piano",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "nogomet": {
+      "hr": "nogomet",
+      "en": "football / soccer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "pjesma": {
+      "hr": "pjesma → pjesme",
+      "en": "song",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "pjevati": {
+      "hr": "pjevati → pjevam, pjevamo, pjevaju",
+      "en": "to sing",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "svirati": {
+      "hr": "svirati → sviram, sviramo, sviraju",
+      "en": "to play (an instrument)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "škola": {
+      "hr": "škola → škole",
+      "en": "school",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "učenik": {
+      "hr": "učenik → učenici",
+      "en": "pupil",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "učiteljica": {
+      "hr": "učiteljica → učiteljice",
+      "en": "teacher (f.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 7"
+    },
+    "-ju": {
+      "hr": "-ju / -u (čitaju, piju)",
+      "en": "they ...",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "biologija": {
+      "hr": "biologija",
+      "en": "biology",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "braća": {
+      "hr": "braća",
+      "en": "brothers",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "dobro došli": {
+      "hr": "Dobro došli!",
+      "en": "Welcome!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "dug": {
+      "hr": "dug / duga / dugo",
+      "en": "long",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "fizika": {
+      "hr": "fizika",
+      "en": "physics",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "geografija": {
+      "hr": "geografija",
+      "en": "geography",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "glasno": {
+      "hr": "glasno",
+      "en": "loudly",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "kemija": {
+      "hr": "kemija",
+      "en": "chemistry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "lekcija": {
+      "hr": "lekcija",
+      "en": "lesson",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "matematika": {
+      "hr": "matematika",
+      "en": "mathematics",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "pauza": {
+      "hr": "pauza",
+      "en": "break",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "test": {
+      "hr": "test",
+      "en": "test",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "tiho": {
+      "hr": "tiho",
+      "en": "quietly",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "zajedno": {
+      "hr": "zajedno",
+      "en": "together",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 7"
+    },
+    "četiri": {
+      "hr": "četiri",
+      "en": "four (4)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "dva": {
+      "hr": "dva",
+      "en": "two (2)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "jedan": {
+      "hr": "jedan",
+      "en": "one (1)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "pet": {
+      "hr": "pet",
+      "en": "five (5)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "šest": {
+      "hr": "šest",
+      "en": "six (6)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "tri": {
+      "hr": "tri",
+      "en": "three (3)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 7"
+    },
+    "nedjelja": {
+      "hr": "nedjelja",
+      "en": "Sunday (\"ne djelati\" — no working 😴)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "plivati": {
+      "hr": "plivati → plivam",
+      "en": "to swim",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "ponedjeljak": {
+      "hr": "ponedjeljak",
+      "en": "Monday (\"po nedjelji\" — after Sunday)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "putovati": {
+      "hr": "putovati → putujem",
+      "en": "to travel",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "ručati": {
+      "hr": "ručati → ručam",
+      "en": "to have lunch",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "sat": {
+      "hr": "sat",
+      "en": "hour; clock",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "šetati": {
+      "hr": "šetati → šetam",
+      "en": "to walk / stroll",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "trenirati": {
+      "hr": "trenirati → treniram",
+      "en": "to train",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "ustati": {
+      "hr": "ustati → ustanem",
+      "en": "to get up",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "utakmica": {
+      "hr": "utakmica",
+      "en": "match, game",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "vikend": {
+      "hr": "vikend",
+      "en": "weekend",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "vlak": {
+      "hr": "vlak",
+      "en": "train",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 8"
+    },
+    "aerodrom": {
+      "hr": "aerodrom",
+      "en": "airport",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "avantura": {
+      "hr": "avantura",
+      "en": "adventure",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "cijeli": {
+      "hr": "cijeli / cijela / cijelo",
+      "en": "whole",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "ću": {
+      "hr": "ću, ćeš, će, ćemo, ćete, će",
+      "en": "will (the future helpers)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "destinacija": {
+      "hr": "destinacija",
+      "en": "destination",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "kamp": {
+      "hr": "kamp",
+      "en": "camp, campsite",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "karta": {
+      "hr": "karta",
+      "en": "ticket; map",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "navečer": {
+      "hr": "navečer",
+      "en": "in the evening",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "plan": {
+      "hr": "plan",
+      "en": "plan",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "planirati": {
+      "hr": "planirati",
+      "en": "to plan",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "rano": {
+      "hr": "rano",
+      "en": "early",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "rezervacija": {
+      "hr": "rezervacija",
+      "en": "reservation",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "savršen": {
+      "hr": "savršen / savršena",
+      "en": "perfect",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "sretan put": {
+      "hr": "Sretan put!",
+      "en": "Have a good trip!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "sutra": {
+      "hr": "sutra",
+      "en": "tomorrow",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "tura": {
+      "hr": "tura",
+      "en": "tour",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "ujutro": {
+      "hr": "ujutro",
+      "en": "in the morning",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 8"
+    },
+    "dres": {
+      "hr": "dres",
+      "en": "jersey",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "fotoaparat": {
+      "hr": "fotoaparat",
+      "en": "camera",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "fotografija": {
+      "hr": "fotografija",
+      "en": "photography",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "glazba": {
+      "hr": "glazba",
+      "en": "music",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "gol": {
+      "hr": "gol",
+      "en": "goal",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "golman": {
+      "hr": "golman",
+      "en": "goalkeeper",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "hobi": {
+      "hr": "hobi",
+      "en": "hobby",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "kapetan": {
+      "hr": "kapetan",
+      "en": "captain",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "klub": {
+      "hr": "klub",
+      "en": "club",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "lopta": {
+      "hr": "lopta",
+      "en": "ball",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "obrana": {
+      "hr": "obrana",
+      "en": "defense",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "pozicija": {
+      "hr": "pozicija",
+      "en": "position",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "trener": {
+      "hr": "trener",
+      "en": "coach, trainer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 9"
+    },
+    "badminton": {
+      "hr": "badminton",
+      "en": "badminton",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "bicikl": {
+      "hr": "bicikl",
+      "en": "bicycle",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "fitnes": {
+      "hr": "fitnes",
+      "en": "fitness",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "instrument": {
+      "hr": "instrument",
+      "en": "instrument",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "joga": {
+      "hr": "joga",
+      "en": "yoga",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "kolekcija": {
+      "hr": "kolekcija",
+      "en": "collection",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "moj": {
+      "hr": "moj / moja / moje",
+      "en": "my",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "naš": {
+      "hr": "naš / naša / naše",
+      "en": "our",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "navijati": {
+      "hr": "navijati → navijam",
+      "en": "to cheer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "njegov": {
+      "hr": "njegov / njegova / njegovo",
+      "en": "his",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "njezin": {
+      "hr": "njezin / njezina / njezino",
+      "en": "her",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "njihov": {
+      "hr": "njihov / njihova / njihovo",
+      "en": "their",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "pošten": {
+      "hr": "pošten / poštena",
+      "en": "fair, honest",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "različit": {
+      "hr": "različit / različita",
+      "en": "different",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "slobodan": {
+      "hr": "slobodan / slobodna",
+      "en": "free",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "strog": {
+      "hr": "strog / stroga",
+      "en": "strict",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "šah": {
+      "hr": "šah",
+      "en": "chess",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "tenis": {
+      "hr": "tenis",
+      "en": "tennis",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "tvoj": {
+      "hr": "tvoj / tvoja / tvoje",
+      "en": "your (ti)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "uvijek": {
+      "hr": "uvijek",
+      "en": "always",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "vaš": {
+      "hr": "vaš / vaša / vaše",
+      "en": "your (vi)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 9"
+    },
+    "hladno": {
+      "hr": "hladno",
+      "en": "cold",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "kiša": {
+      "hr": "kiša",
+      "en": "rain",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "snijeg": {
+      "hr": "snijeg",
+      "en": "snow",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "toplo": {
+      "hr": "toplo",
+      "en": "warm",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "vjetar": {
+      "hr": "vjetar",
+      "en": "wind",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "vrijeme": {
+      "hr": "vrijeme",
+      "en": "weather",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 9"
+    },
+    "biti": {
+      "hr": "biti",
+      "en": "bio / bila / bili",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 10"
+    },
+    "imati": {
+      "hr": "imati → imam, imaš, ima",
+      "en": "to have",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 10"
+    },
+    "pobijediti": {
+      "hr": "pobijediti → pobijedio/pobijedila",
+      "en": "to win",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 10"
+    },
+    "znati": {
+      "hr": "znati → znam, znaš, zna",
+      "en": "to know",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 10"
+    },
+    "akcija": {
+      "hr": "akcija",
+      "en": "action",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "bio": {
+      "hr": "bio / bila / bili",
+      "en": "was, were",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "čitao": {
+      "hr": "čitao / čitala / čitali",
+      "en": "read",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "dokumentarac": {
+      "hr": "dokumentarac",
+      "en": "documentary",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "drama": {
+      "hr": "drama",
+      "en": "drama",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "gledao": {
+      "hr": "gledao / gledala / gledali",
+      "en": "watched",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "horor": {
+      "hr": "horor",
+      "en": "horror",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "igrao": {
+      "hr": "igrao / igrala / igrali",
+      "en": "played",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "ispit": {
+      "hr": "ispit",
+      "en": "exam",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "jeo": {
+      "hr": "jeo / jela / jeli",
+      "en": "ate",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "jučer": {
+      "hr": "jučer",
+      "en": "yesterday",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "kino": {
+      "hr": "kino",
+      "en": "cinema",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "komedija": {
+      "hr": "komedija",
+      "en": "comedy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "koncert": {
+      "hr": "koncert",
+      "en": "concert",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "kratak": {
+      "hr": "kratak / kratka",
+      "en": "short",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "kuhao": {
+      "hr": "kuhao / kuhala / kuhali",
+      "en": "cooked",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "petak": {
+      "hr": "petak",
+      "en": "Friday (pet — 5th day!)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "pio": {
+      "hr": "pio / pila / pili",
+      "en": "drank",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "pizza": {
+      "hr": "pizza",
+      "en": "pizza",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "pjevao": {
+      "hr": "pjevao / pjevala / pjevali",
+      "en": "sang",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "plivao": {
+      "hr": "plivao / plivala / plivali",
+      "en": "swam",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "program": {
+      "hr": "program",
+      "en": "programme",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "prošli": {
+      "hr": "prošli / prošla / prošlo",
+      "en": "last (past)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "serija": {
+      "hr": "serija",
+      "en": "series",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "spavao": {
+      "hr": "spavao / spavala / spavali",
+      "en": "slept",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "učio": {
+      "hr": "učio / učila / učili",
+      "en": "studied",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 10"
+    },
+    "gdje": {
+      "hr": "gdje?",
+      "en": "where?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "kada": {
+      "hr": "kada?",
+      "en": "when?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "kako": {
+      "hr": "kako?",
+      "en": "how?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "koji": {
+      "hr": "koji? / koja? / koje?",
+      "en": "which, that, who",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "koliko": {
+      "hr": "koliko?",
+      "en": "how much / how many?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "što": {
+      "hr": "što?",
+      "en": "what?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "zašto": {
+      "hr": "zašto?",
+      "en": "why?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 11"
+    },
+    "datum": {
+      "hr": "datum",
+      "en": "date",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "euro": {
+      "hr": "euro",
+      "en": "euro",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "godina": {
+      "hr": "godina",
+      "en": "year",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "ideja": {
+      "hr": "ideja",
+      "en": "idea",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "informacija": {
+      "hr": "informacija",
+      "en": "information",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "intervju": {
+      "hr": "intervju",
+      "en": "interview",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "jer": {
+      "hr": "jer / zato što",
+      "en": "because (Učim hrvatski jer volim jezik.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "koliko godina imaš": {
+      "hr": "Koliko godina imaš?",
+      "en": "How old are you?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "kutija": {
+      "hr": "kutija",
+      "en": "box",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "kviz": {
+      "hr": "kviz",
+      "en": "quiz",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "li": {
+      "hr": "li",
+      "en": "yes/no question particle",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "misterij": {
+      "hr": "misterij",
+      "en": "mystery",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "ne znam": {
+      "hr": "Ne znam.",
+      "en": "I don't know.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "odgovor": {
+      "hr": "odgovor",
+      "en": "answer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "onda": {
+      "hr": "onda",
+      "en": "then",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "parfem": {
+      "hr": "parfem",
+      "en": "perfume",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "pitanje": {
+      "hr": "pitanje",
+      "en": "question",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "poklon": {
+      "hr": "poklon",
+      "en": "present, gift",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "rođendan": {
+      "hr": "rođendan",
+      "en": "birthday",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "za koga": {
+      "hr": "za koga?",
+      "en": "for whom?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "živjeti": {
+      "hr": "živjeti → živim",
+      "en": "to live",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 11"
+    },
+    "konj": {
+      "hr": "konj",
+      "en": "horse",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 11"
+    },
+    "krava": {
+      "hr": "krava",
+      "en": "cow",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 11"
+    },
+    "ptica": {
+      "hr": "ptica",
+      "en": "bird",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 11"
+    },
+    "luk": {
+      "hr": "luk",
+      "en": "onion",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 12"
+    },
+    "palačinke": {
+      "hr": "palačinke",
+      "en": "pancakes",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 12"
+    },
+    "povrće": {
+      "hr": "povrće",
+      "en": "vegetables",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 12"
+    },
+    "rajčica": {
+      "hr": "rajčica",
+      "en": "tomato",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 12"
+    },
+    "voće": {
+      "hr": "voće",
+      "en": "fruit",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 12"
+    },
+    "alergija": {
+      "hr": "alergija",
+      "en": "allergy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "čaj": {
+      "hr": "čaj",
+      "en": "tea",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "dijeta": {
+      "hr": "dijeta",
+      "en": "diet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "drugo": {
+      "hr": "drugo",
+      "en": "else, other",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "kazati": {
+      "hr": "kazati → kažem",
+      "en": "to say",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "nažalost": {
+      "hr": "nažalost",
+      "en": "unfortunately",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "ne": {
+      "hr": "ne",
+      "en": "not / no (before verb)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "nemam": {
+      "hr": "nemam, nemaš, nema, nemamo, nemate, nemaju",
+      "en": "don't have...",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "nešto": {
+      "hr": "nešto",
+      "en": "something",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "nikad": {
+      "hr": "nikad",
+      "en": "never",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "nisam": {
+      "hr": "nisam, nisi, nije, nismo, niste, nisu",
+      "en": "am not, aren't, isn't...",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "ništa": {
+      "hr": "ništa",
+      "en": "nothing",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "omiljen": {
+      "hr": "omiljen / omiljena",
+      "en": "favorite",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "organski": {
+      "hr": "organski",
+      "en": "organic",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "proteini": {
+      "hr": "proteini",
+      "en": "proteins",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "samo": {
+      "hr": "samo",
+      "en": "only",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "također": {
+      "hr": "također",
+      "en": "also, too",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "ukusan": {
+      "hr": "ukusan / ukusna",
+      "en": "tasty",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "vegetarijanac": {
+      "hr": "vegetarijanac",
+      "en": "vegetarian",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "vitamini": {
+      "hr": "vitamini",
+      "en": "vitamins",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "zdrav": {
+      "hr": "zdrav / zdrava / zdravo",
+      "en": "healthy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "željeti": {
+      "hr": "željeti → želim",
+      "en": "to want",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 12"
+    },
+    "jelovnik": {
+      "hr": "jelovnik",
+      "en": "menu",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 12"
+    },
+    "meso": {
+      "hr": "meso",
+      "en": "meat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 12"
+    },
+    "kazalište": {
+      "hr": "kazalište → u kazalištu",
+      "en": "theater",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "kvart": {
+      "hr": "kvart → u kvartu",
+      "en": "neighborhood",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "ljudi": {
+      "hr": "ljudi",
+      "en": "people",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "pekara": {
+      "hr": "pekara → u pekari",
+      "en": "bakery",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "pošta": {
+      "hr": "pošta → u pošti",
+      "en": "post office",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "rijeka": {
+      "hr": "rijeka → na rijeci",
+      "en": "river",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "teretana": {
+      "hr": "teretana → u teretani",
+      "en": "gym",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "ured": {
+      "hr": "ured → u uredu",
+      "en": "office",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "zgrada": {
+      "hr": "zgrada → u zgradi",
+      "en": "building",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 13"
+    },
+    "apoteka": {
+      "hr": "apoteka → u apoteci",
+      "en": "pharmacy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "biblioteka": {
+      "hr": "biblioteka → u biblioteci",
+      "en": "library",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "dosadno": {
+      "hr": "dosadno",
+      "en": "boring",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "fakultet": {
+      "hr": "fakultet → na fakultetu",
+      "en": "university (faculty)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "halo": {
+      "hr": "Halo!",
+      "en": "Hello! (phone)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "klinika": {
+      "hr": "klinika → u klinici",
+      "en": "clinic",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "mir": {
+      "hr": "mir",
+      "en": "peace, quiet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "sjediti": {
+      "hr": "sjediti → sjedim",
+      "en": "to sit",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "stadion": {
+      "hr": "stadion → na stadionu",
+      "en": "stadium",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "studio": {
+      "hr": "studio → u studiju",
+      "en": "studio",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "teta": {
+      "hr": "teta",
+      "en": "aunt",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 13"
+    },
+    "cvijeće": {
+      "hr": "cvijeće",
+      "en": "flowers",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "davati": {
+      "hr": "davati → dajem",
+      "en": "to give",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "kolač": {
+      "hr": "kolač → kolači",
+      "en": "cake, pastry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "nositi": {
+      "hr": "nositi → nosim",
+      "en": "to carry, to bring",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "novine": {
+      "hr": "novine",
+      "en": "newspaper",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "paket": {
+      "hr": "paket",
+      "en": "package",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "slati": {
+      "hr": "slati → šaljem",
+      "en": "send → send off",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "šal": {
+      "hr": "šal",
+      "en": "scarf",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 14"
+    },
+    "besplatno": {
+      "hr": "besplatno",
+      "en": "for free",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "bombon": {
+      "hr": "bombon",
+      "en": "candy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "buket": {
+      "hr": "buket",
+      "en": "bouquet",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "čestitka": {
+      "hr": "čestitka",
+      "en": "greeting card",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "dajem": {
+      "hr": "dajem",
+      "en": "I give",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "komu": {
+      "hr": "Komu?",
+      "en": "To whom?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "nosim": {
+      "hr": "nosim",
+      "en": "I carry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "osmijeh": {
+      "hr": "osmijeh",
+      "en": "smile",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "poster": {
+      "hr": "poster",
+      "en": "poster",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "poštar": {
+      "hr": "poštar",
+      "en": "postman",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "prijateljica": {
+      "hr": "prijateljica → prijateljici",
+      "en": "friend (f.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "prosinac": {
+      "hr": "prosinac",
+      "en": "December",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "savjet": {
+      "hr": "savjet",
+      "en": "advice",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "suvenir": {
+      "hr": "suvenir",
+      "en": "souvenir",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "šaljem": {
+      "hr": "šaljem",
+      "en": "I send",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "vijest": {
+      "hr": "vijest → vijesti",
+      "en": "news",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 14"
+    },
+    "tjedan": {
+      "hr": "tjedan",
+      "en": "week",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 14"
+    },
+    "autobusom": {
+      "hr": "autobusom",
+      "en": "by bus",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "autom": {
+      "hr": "autom",
+      "en": "by car",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "balon": {
+      "hr": "balon",
+      "en": "balloon",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "biciklom": {
+      "hr": "biciklom",
+      "en": "by bike",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "blizu": {
+      "hr": "blizu",
+      "en": "nearby",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "bolje": {
+      "hr": "bolje",
+      "en": "better",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "doma": {
+      "hr": "doma",
+      "en": "(at/to) home",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "gospođa": {
+      "hr": "gospođa",
+      "en": "lady, Mrs.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "hodati": {
+      "hr": "hodati → hodam",
+      "en": "to walk",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "izlazak": {
+      "hr": "izlazak",
+      "en": "a night out",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "izlaziti": {
+      "hr": "izlaziti → izlazim",
+      "en": "to go out",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "metro": {
+      "hr": "metro",
+      "en": "metro",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "motor": {
+      "hr": "motor",
+      "en": "motorbike",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "pješice": {
+      "hr": "pješice",
+      "en": "on foot",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "priča": {
+      "hr": "priča",
+      "en": "story",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "put": {
+      "hr": "put",
+      "en": "way, journey",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "razgovarati": {
+      "hr": "razgovarati → razgovaram",
+      "en": "to talk, converse",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "s": {
+      "hr": "s / sa",
+      "en": "with",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "s gitarom": {
+      "hr": "s gitarom / s knjigom",
+      "en": "with a guitar / a book",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "s kim": {
+      "hr": "S kim?",
+      "en": "With whom?",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "s markom": {
+      "hr": "s Markom / s bratom",
+      "en": "with Marko / my brother",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "s mlijekom": {
+      "hr": "s mlijekom / s limunom",
+      "en": "with milk / lemon",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "sa sestrom": {
+      "hr": "sa sestrom / s Anom",
+      "en": "with my sister / Ana",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "skuter": {
+      "hr": "skuter",
+      "en": "scooter",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "spor": {
+      "hr": "spor / spora",
+      "en": "slow",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "taksijem": {
+      "hr": "taksijem",
+      "en": "by taxi",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "tramvajem": {
+      "hr": "tramvajem",
+      "en": "by tram",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "trčati": {
+      "hr": "trčati → trčim",
+      "en": "to run",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "vlakom": {
+      "hr": "vlakom",
+      "en": "by train",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 15"
+    },
+    "avion": {
+      "hr": "avion",
+      "en": "airplane",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 15"
+    },
+    "kofer": {
+      "hr": "kofer",
+      "en": "suitcase",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 15"
+    },
+    "komad": {
+      "hr": "komad → komada",
+      "en": "piece",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "kuhinja": {
+      "hr": "kuhinja → kuhinje",
+      "en": "kitchen",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "miris": {
+      "hr": "miris → mirisa",
+      "en": "smell",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "mjesto": {
+      "hr": "mjesto → mjesta",
+      "en": "place",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "slika": {
+      "hr": "slika → slike",
+      "en": "picture",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "svijet": {
+      "hr": "svijet → svijeta",
+      "en": "world",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "vrata": {
+      "hr": "vrata",
+      "en": "door",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "vrt": {
+      "hr": "vrt → vrta",
+      "en": "garden",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "zid": {
+      "hr": "zid → zida",
+      "en": "wall",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 16"
+    },
+    "aroma": {
+      "hr": "aroma",
+      "en": "aroma",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "autocesta": {
+      "hr": "autocesta",
+      "en": "highway",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "bez": {
+      "hr": "bez",
+      "en": "without",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "boja": {
+      "hr": "boja → boje",
+      "en": "color",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "do": {
+      "hr": "do",
+      "en": "to, until",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "garderoba": {
+      "hr": "garderoba",
+      "en": "wardrobe",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "interijer": {
+      "hr": "interijer",
+      "en": "interior",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "iz": {
+      "hr": "iz",
+      "en": "from, out of",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "kod": {
+      "hr": "kod",
+      "en": "at (someone's place)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "menta": {
+      "hr": "menta",
+      "en": "mint",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "nema interneta": {
+      "hr": "Nema interneta.",
+      "en": "There's no internet.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "nema mjesta": {
+      "hr": "Nema mjesta.",
+      "en": "There's no room.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "nema problema": {
+      "hr": "Nema problema!",
+      "en": "No problem!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "nema žurbe": {
+      "hr": "Nema žurbe.",
+      "en": "No hurry.",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "od": {
+      "hr": "od",
+      "en": "from, of",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "pokraj": {
+      "hr": "pokraj",
+      "en": "next to, past",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "specijalitet": {
+      "hr": "specijalitet",
+      "en": "specialty",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 16"
+    },
+    "brašno": {
+      "hr": "brašno",
+      "en": "flour",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "cesta": {
+      "hr": "cesta",
+      "en": "road",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "desno": {
+      "hr": "desno",
+      "en": "right",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "jaje": {
+      "hr": "jaje → jaja",
+      "en": "egg → eggs",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "kolodvor": {
+      "hr": "kolodvor",
+      "en": "train station",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "lijevo": {
+      "hr": "lijevo",
+      "en": "left",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "marmelada": {
+      "hr": "marmelada",
+      "en": "jam",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "minuta": {
+      "hr": "minuta",
+      "en": "minute",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "ravno": {
+      "hr": "ravno",
+      "en": "straight",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "sol": {
+      "hr": "sol",
+      "en": "salt",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "tava": {
+      "hr": "tava",
+      "en": "pan",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 17"
+    },
+    "daleko": {
+      "hr": "daleko",
+      "en": "far",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "doći": {
+      "hr": "doći → dođi / dođite",
+      "en": "come",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "dodaj": {
+      "hr": "dodaj",
+      "en": "add",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "dodati": {
+      "hr": "dodati → dodaj / dodajte",
+      "en": "add; pass",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "dođi": {
+      "hr": "dođi",
+      "en": "come",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "instrukcija": {
+      "hr": "instrukcija",
+      "en": "instruction",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "kilometar": {
+      "hr": "kilometar",
+      "en": "kilometer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "mapa": {
+      "hr": "mapa",
+      "en": "map",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "metar": {
+      "hr": "metar",
+      "en": "meter",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "miješaj": {
+      "hr": "miješaj",
+      "en": "mix",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "miješati": {
+      "hr": "miješati → miješaj / miješajte",
+      "en": "mix",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "nemoj": {
+      "hr": "nemoj / nemojte + infinitiv",
+      "en": "don't (softer)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "odmoriti": {
+      "hr": "odmoriti → odmori / odmorite",
+      "en": "rest",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "okrenuti": {
+      "hr": "okrenuti → okreni / okrenite",
+      "en": "flip, turn",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "peci": {
+      "hr": "peci",
+      "en": "fry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "peći": {
+      "hr": "peći → peci / pecite",
+      "en": "fry, bake",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "podijeliti": {
+      "hr": "podijeliti → podijeli / podijelite",
+      "en": "share",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "požuri": {
+      "hr": "požuri",
+      "en": "hurry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "požuriti": {
+      "hr": "požuriti → požuri / požurite",
+      "en": "hurry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "recept": {
+      "hr": "recept",
+      "en": "recipe",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "skočiti": {
+      "hr": "skočiti → skoči / skočite",
+      "en": "jump",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "skreni": {
+      "hr": "skreni",
+      "en": "turn",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "skrenuti": {
+      "hr": "skrenuti → skreni / skrenite",
+      "en": "turn (left/right)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "stavi": {
+      "hr": "stavi",
+      "en": "put",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "staviti": {
+      "hr": "staviti → stavi / stavite",
+      "en": "put",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "trening": {
+      "hr": "trening",
+      "en": "training (session)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "uzeti": {
+      "hr": "uzeti → uzmi / uzmite",
+      "en": "take",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "uzmi": {
+      "hr": "uzmi",
+      "en": "take",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "zagrijati": {
+      "hr": "zagrijati → zagrij / zagrijte",
+      "en": "heat up",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 17"
+    },
+    "glava": {
+      "hr": "glava",
+      "en": "head",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 17"
+    },
+    "noga": {
+      "hr": "noga",
+      "en": "leg",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 17"
+    },
+    "ruka": {
+      "hr": "ruka",
+      "en": "arm / hand",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 17"
+    },
+    "alarm": {
+      "hr": "alarm",
+      "en": "alarm",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "balkon": {
+      "hr": "balkon",
+      "en": "balcony",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "bih": {
+      "hr": "bih, bi, bi, bismo, biste, bi",
+      "en": "would (the conditional helpers)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "dobiti": {
+      "hr": "dobiti → dobio/dobila bi",
+      "en": "to get",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "dogovoreno": {
+      "hr": "Dogovoreno!",
+      "en": "Deal!",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "fantazija": {
+      "hr": "fantazija",
+      "en": "fantasy",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "htio bih": {
+      "hr": "Htio bih... / Htjela bih...",
+      "en": "I would like... (m./f.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "isto": {
+      "hr": "isto / isti",
+      "en": "the same",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "jahta": {
+      "hr": "jahta",
+      "en": "yacht",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "lutrija": {
+      "hr": "lutrija",
+      "en": "lottery",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "milijun": {
+      "hr": "milijun",
+      "en": "million",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "možda": {
+      "hr": "možda",
+      "en": "maybe",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "ostati": {
+      "hr": "ostati → ostao/ostala bi",
+      "en": "to stay",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "prvo": {
+      "hr": "prvo",
+      "en": "first",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "ručak": {
+      "hr": "ručak",
+      "en": "lunch",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "san": {
+      "hr": "san → snovi",
+      "en": "dream → dreams",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "sjati": {
+      "hr": "sjati → sunce sja",
+      "en": "to shine",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "sreća": {
+      "hr": "sreća",
+      "en": "happiness, luck",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "val": {
+      "hr": "val → valovi",
+      "en": "wave → waves",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "vila": {
+      "hr": "vila",
+      "en": "villa",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "zamisliti": {
+      "hr": "zamisliti → zamisli!",
+      "en": "to imagine",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "zima": {
+      "hr": "zima",
+      "en": "winter",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "zvijezda": {
+      "hr": "zvijezda → zvijezde",
+      "en": "star",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "žuriti": {
+      "hr": "žuriti → žurim",
+      "en": "to hurry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 18"
+    },
+    "brisati": {
+      "hr": "brisati → brišem",
+      "en": "to erase",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "dva puta": {
+      "hr": "dva puta",
+      "en": "twice",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "finiš": {
+      "hr": "finiš",
+      "en": "finish",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "maraton": {
+      "hr": "maraton",
+      "en": "marathon",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "marka": {
+      "hr": "marka",
+      "en": "stamp",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "napokon": {
+      "hr": "napokon",
+      "en": "finally",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "odmah": {
+      "hr": "odmah",
+      "en": "right away",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "plakati": {
+      "hr": "plakati → plačem",
+      "en": "to cry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "pola": {
+      "hr": "pola",
+      "en": "half",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "polako": {
+      "hr": "polako",
+      "en": "slowly",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "proces": {
+      "hr": "proces",
+      "en": "process",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "rezultat": {
+      "hr": "rezultat",
+      "en": "result",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "skoro": {
+      "hr": "skoro",
+      "en": "almost",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "sprint": {
+      "hr": "sprint",
+      "en": "sprint",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "start": {
+      "hr": "start",
+      "en": "start",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "stranica": {
+      "hr": "stranica",
+      "en": "page",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "zadaća": {
+      "hr": "zadaća",
+      "en": "homework",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "završiti": {
+      "hr": "završiti",
+      "en": "to finish",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 19"
+    },
+    "cipele": {
+      "hr": "cipele",
+      "en": "shoes",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "čarape": {
+      "hr": "čarape",
+      "en": "socks",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "hlače": {
+      "hr": "hlače",
+      "en": "trousers / pants",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "jakna": {
+      "hr": "jakna",
+      "en": "jacket",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "kapa": {
+      "hr": "kapa",
+      "en": "cap / hat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "majica": {
+      "hr": "majica",
+      "en": "t-shirt",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 19"
+    },
+    "ako": {
+      "hr": "ako",
+      "en": "if (Ako bude sunca, idemo na rijeku!)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 20"
+    },
+    "dok": {
+      "hr": "dok",
+      "en": "while (Dok ti biraš film, ja kuham ručak.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 20"
+    },
+    "iako": {
+      "hr": "iako",
+      "en": "although (Iako je film dug, odličan je.)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 20"
+    },
+    "kad": {
+      "hr": "kad",
+      "en": "when (Kad sam prvi put čuo hrvatski...)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Lesson 20"
+    },
+    "birati": {
+      "hr": "birati → biram",
+      "en": "to choose",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "certifikat": {
+      "hr": "certifikat",
+      "en": "certificate",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "diploma": {
+      "hr": "diploma",
+      "en": "diploma",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "gramatika": {
+      "hr": "gramatika",
+      "en": "grammar",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "greška": {
+      "hr": "greška",
+      "en": "mistake",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "jezik": {
+      "hr": "jezik",
+      "en": "language",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "kao": {
+      "hr": "kao",
+      "en": "like, as",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "melodija": {
+      "hr": "melodija",
+      "en": "melody",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "misliti": {
+      "hr": "misliti → mislim",
+      "en": "to think",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "mnogo": {
+      "hr": "mnogo",
+      "en": "many, a lot",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "naručiti": {
+      "hr": "naručiti → naručim",
+      "en": "to order",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "otkriti": {
+      "hr": "otkriti → otkrijem",
+      "en": "to discover",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "otok": {
+      "hr": "otok",
+      "en": "island",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "pamtiti": {
+      "hr": "pamtiti → pamtim",
+      "en": "to remember",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "riva": {
+      "hr": "riva",
+      "en": "seaside promenade",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "trajati": {
+      "hr": "trajati → traje",
+      "en": "to last",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "trajekt": {
+      "hr": "trajekt",
+      "en": "ferry",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "uspomena": {
+      "hr": "uspomena",
+      "en": "memory",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "vokabular": {
+      "hr": "vokabular",
+      "en": "vocabulary",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "zaboraviti": {
+      "hr": "zaboraviti → zaboravim",
+      "en": "to forget",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "zemlja": {
+      "hr": "zemlja",
+      "en": "country, land",
+      "rod": "",
+      "broj": "",
+      "izvor": "Vocabulary 20"
+    },
+    "čitam": {
+      "hr": "čitam",
+      "en": "I read",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "gledam": {
+      "hr": "gledam",
+      "en": "I watch",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "jedem": {
+      "hr": "jedem",
+      "en": "I eat",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "pijem": {
+      "hr": "pijem",
+      "en": "I drink",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "pišem": {
+      "hr": "pišem",
+      "en": "I write",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "slušam": {
+      "hr": "slušam",
+      "en": "I listen",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 20"
+    },
+    "kakao": {
+      "hr": "kakao",
+      "en": "cocoa",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 21"
+    },
+    "led": {
+      "hr": "led",
+      "en": "ice",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 21"
+    },
+    "limunada": {
+      "hr": "limunada → limunadu",
+      "en": "lemonade",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 21"
+    },
+    "pivo": {
+      "hr": "pivo",
+      "en": "beer",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 21"
+    },
+    "crkva": {
+      "hr": "crkva",
+      "en": "church",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 23"
+    },
+    "deset": {
+      "hr": "deset",
+      "en": "ten (10)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "devet": {
+      "hr": "devet",
+      "en": "nine (9)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "dvanaest": {
+      "hr": "dvanaest",
+      "en": "twelve (12)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "jedanaest": {
+      "hr": "jedanaest",
+      "en": "eleven (11)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "osam": {
+      "hr": "osam",
+      "en": "eight (8)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "sedam": {
+      "hr": "sedam",
+      "en": "seven (7)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 24"
+    },
+    "igram": {
+      "hr": "igram",
+      "en": "I play",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 26"
+    },
+    "košarka": {
+      "hr": "košarka",
+      "en": "basketball",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 26"
+    },
+    "plivanje": {
+      "hr": "plivanje",
+      "en": "swimming",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 26"
+    },
+    "trčanje": {
+      "hr": "trčanje",
+      "en": "running",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 26"
+    },
+    "ne volim kišu": {
+      "hr": "ne volim kišu",
+      "en": "I don't like rain",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 27"
+    },
+    "volim kavu": {
+      "hr": "volim kavu",
+      "en": "I like coffee",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 27"
+    },
+    "ples": {
+      "hr": "ples",
+      "en": "dance",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 28"
+    },
+    "cvijet": {
+      "hr": "cvijet",
+      "en": "flower",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 29"
+    },
+    "jezero": {
+      "hr": "jezero",
+      "en": "lake",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 29"
+    },
+    "planina": {
+      "hr": "planina",
+      "en": "mountain",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 29"
+    },
+    "šuma": {
+      "hr": "šuma",
+      "en": "forest",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 29"
+    },
+    "zato": {
+      "hr": "zato",
+      "en": "because",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 30"
+    },
+    "četvrtak": {
+      "hr": "četvrtak",
+      "en": "Thursday (četiri — 4th day!)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 32"
+    },
+    "srijeda": {
+      "hr": "srijeda",
+      "en": "Wednesday (sredina — the middle!)",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 32"
+    },
+    "utorak": {
+      "hr": "utorak",
+      "en": "Tuesday",
+      "rod": "",
+      "broj": "",
+      "izvor": "Daily challenge 32"
+    }
+  },
+  "slova": {
+    "a": 1,
+    "b": 1,
+    "c": 1,
+    "č": 1,
+    "ć": 1,
+    "d": 1,
+    "dž": 1,
+    "đ": 1,
+    "e": 1,
+    "f": 1,
+    "g": 1,
+    "h": 1,
+    "i": 1,
+    "j": 1,
+    "k": 1,
+    "l": 1,
+    "lj": 1,
+    "m": 1,
+    "n": 1,
+    "nj": 1,
+    "o": 1,
+    "p": 1,
+    "r": 1,
+    "s": 1,
+    "š": 1,
+    "t": 1,
+    "u": 1,
+    "v": 1,
+    "z": 1,
+    "ž": 1
+  },
+  "abecedaSlavljena": 1,
+  "savjeti": {
+    "bodovi": 1,
+    "ponovno": 1,
+    "sat": 1
+  },
+  "streak": {
+    "niz": 0,
+    "zadnji": "",
+    "bodovi": 0
+  },
+  "mini": {}
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Croland</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.6; color: #2a2420; background: #fbf6ee; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.1rem; margin-top: 2em; }
+  p, li { font-size: .95rem; }
+  .muted { color: #7a6f62; font-size: .85rem; }
+  a { color: #b3452c; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: .9rem; }
+  td, th { border: 1px solid #e3d9c8; padding: 6px 10px; text-align: left; vertical-align: top; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p class="muted">Croland — last updated 2026-08-12</p>
+
+<p>This page explains what personal data Croland collects, why, and how you can control it.</p>
+
+<h2>1. What we collect</h2>
+<table>
+  <tr><th>Data</th><th>Why</th><th>Where it's stored</th></tr>
+  <tr><td>Email address</td><td>Account login, subscription receipts</td><td>Supabase (auth)</td></tr>
+  <tr><td>Password (if you use email sign-in)</td><td>Account login</td><td>Supabase (hashed, we never see it in plain text)</td></tr>
+  <tr><td>Google account identifier (if you use Google sign-in)</td><td>Account login</td><td>Supabase (auth), via Google OAuth</td></tr>
+  <tr><td>Lesson progress, scores, streak, dictionary words, settings</td><td>Save your place and unlock levels</td><td>Supabase (database)</td></tr>
+  <tr><td>Payment details</td><td>Subscription billing</td><td>Stripe — Croland never receives or stores your card number</td></tr>
+  <tr><td>Subscription status</td><td>Determine whether Level 2+ is unlocked</td><td>Supabase (database), synced from Stripe</td></tr>
+</table>
+
+<h2>2. Who processes it</h2>
+<p><strong>Supabase</strong> (authentication and database hosting) and <strong>Stripe</strong>
+(payment processing) act as our data processors. We don't sell your data, and we don't use
+advertising trackers.</p>
+
+<h2>3. Cookies / local storage</h2>
+<p>Croland stores your login session in your browser (via Supabase's standard session storage)
+so you don't have to log in every visit. We don't use analytics or advertising cookies.</p>
+
+<h2>4. Your rights</h2>
+<p>You can request a copy of your data, ask us to correct it, or ask us to delete your account
+and associated data at any time by emailing
+<a href="mailto:kristian.prasnjak@gmail.com">kristian.prasnjak@gmail.com</a>. We'll respond
+within 30 days, consistent with EU/GDPR data-portability and erasure rights.</p>
+
+<h2>5. Data retention</h2>
+<p>We keep your account and progress data for as long as your account exists. If you ask us to
+delete your account, we delete your profile and progress data, except billing records Stripe
+must retain for legal/accounting purposes.</p>
+
+<h2>6. International transfers</h2>
+<p>Supabase and Stripe may process data outside your country; both provide standard contractual
+safeguards for such transfers.</p>
+
+<h2>7. Changes</h2>
+<p>We may update this policy from time to time; the "last updated" date above will change
+accordingly.</p>
+
+<h2>8. Contact</h2>
+<p><a href="mailto:kristian.prasnjak@gmail.com">kristian.prasnjak@gmail.com</a></p>
+
+<p><a href="/">← Back to Croland</a> · <a href="/terms.html">Terms of Service</a></p>
+</body>
+</html>

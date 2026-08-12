@@ -1,0 +1,372 @@
+# Test 1: Describing the World
+cjelina: Test 1
+
+## Match the words
+format: parovi
+trajanje: 1080
+opis: Match each Croatian word with its English meaning.
+- hotel | hotel
+- banana | banana
+- čokolada | chocolate
+- restoran | restaurant
+- automobil | car
+- telefon | telephone
+- muzika | music
+- problem | problem
+- sport | sport
+- taksi | taxi
+- kuća | house
+- knjiga | book
+- stol | table
+- prozor | window
+- krevet | bed
+- lampa | lamp
+- soba | room
+- grad | city
+- more | sea
+- sunce | sun
+- nebo | sky
+- kava | coffee
+- sladoled | ice cream
+- dan | day
+- velik | big
+- mali | small
+- nov | new
+- star | old
+- dobar | good
+- lijep | beautiful
+- topao | warm
+- hladan | cold
+- brz | fast
+- mekan | soft
+- sladak | sweet
+- moderan | modern
+- crven | red
+- plav | blue
+- žut | yellow
+- zelen | green
+- bijel | white
+- crn | black
+- ovo | this
+- i | and
+
+## What does it mean?
+format: izbor
+opis: Pick the correct meaning.
+- kuća | house | room | city
+- more | sea | sky | sun
+- sunce | sun | sky | sea
+- nebo | sky | wall | window
+- knjiga | book | table | bed
+- stol | table | chair | wall
+- prozor | window | door | wall
+- krevet | bed | room | table
+- lampa | lamp | sun | light
+- soba | room | house | city
+- grad | city | wall | café
+- kava | coffee | chocolate | ice cream
+- sladoled | ice cream | chocolate | banana
+- dan | day | sun | sky
+- velik | big | small | new
+- mali | small | big | old
+- nov | new | old | good
+- star | old | new | fast
+- dobar | good | beautiful | warm
+- lijep | beautiful | good | soft
+- topao | warm | cold | sweet
+- hladan | cold | warm | soft
+- brz | fast | big | new
+- mekan | soft | sweet | warm
+- sladak | sweet | soft | good
+- moderan | modern | new | popular
+- house | kuća | soba | grad
+- sea | more | nebo | sunce
+- book | knjiga | lampa | kava
+- window | prozor | krevet | stol
+- coffee | kava | čokolada | sladoled
+- city | grad | kuća | restoran
+- day | dan | sunce | nebo
+- red | crven | plav | žut
+- blue | plav | zelen | crn
+- yellow | žut | bijel | crven
+- green | zelen | plav | žut
+- white | bijel | crn | žut
+- black | crn | bijel | plav
+- big | velik | mali | brz
+- old | star | nov | dobar
+- warm | topao | hladan | mekan
+- this | ovo | i | je
+- and | i | ovo | je
+
+## Which noun does it fit?
+format: razvrstavanje
+stupci: GRAD | KUĆA | MORE
+opis: Each adjective form belongs to one noun. Tap an adjective, then the noun it fits.
+- velik | GRAD
+- velika | KUĆA
+- veliko | MORE
+- nov | GRAD
+- nova | KUĆA
+- novo | MORE
+- star | GRAD
+- stara | KUĆA
+- staro | MORE
+- lijep | GRAD
+- lijepa | KUĆA
+- lijepo | MORE
+- brz | GRAD
+- brza | KUĆA
+- brzo | MORE
+- crven | GRAD
+- crvena | KUĆA
+- crveno | MORE
+- plav | GRAD
+- plava | KUĆA
+- plavo | MORE
+- žut | GRAD
+- žuta | KUĆA
+- žuto | MORE
+- zelen | GRAD
+- zelena | KUĆA
+- zeleno | MORE
+- bijel | GRAD
+- bijela | KUĆA
+- bijelo | MORE
+- crn | GRAD
+- crna | KUĆA
+- crno | MORE
+- mekan | GRAD
+- mekana | KUĆA
+- mekano | MORE
+- dobar | GRAD
+- dobra | KUĆA
+- dobro | MORE
+- topao | GRAD
+- topla | KUĆA
+- toplo | MORE
+- hladan | GRAD
+- hladna | KUĆA
+- hladno | MORE
+- sladak | GRAD
+- slatka | KUĆA
+- slatko | MORE
+- moderan | GRAD
+- moderna | KUĆA
+- moderno | MORE
+
+## Tap the ending
+format: nastavak
+nastavci: - | a | o
+opis: The English is above. The adjective is waiting for its ending — one tap.
+- Hotel je velik___. | The hotel is big. | -
+- Grad je star___. | The city is old. | -
+- Grad je lijep___. | The city is beautiful. | -
+- Stol je nov___. | The table is new. | -
+- Stol je star___. | The table is old. | -
+- Krevet je mekan___. | The bed is soft. | -
+- Krevet je nov___. | The bed is new. | -
+- Prozor je velik___. | The window is big. | -
+- Automobil je brz___. | The car is fast. | -
+- Automobil je crn___. | The car is black. | -
+- Automobil je crven___. | The car is red. | -
+- Sladoled je hladan___. | The ice cream is cold. | -
+- Sladoled je sladak___. | The ice cream is sweet. | -
+- Sladoled je dobar___. | The ice cream is good. | -
+- Dan je lijep___. | The day is beautiful. | -
+- Dan je topao___. | The day is warm. | -
+- Telefon je nov___. | The telephone is new. | -
+- Telefon je star___. | The telephone is old. | -
+- Hotel je moderan___. | The hotel is modern. | -
+- Problem je velik___. | The problem is big. | -
+- Restoran je nov___. | The restaurant is new. | -
+- Kuća je velik___. | The house is big. | a
+- Kuća je bijel___. | The house is white. | a
+- Kuća je star___. | The house is old. | a
+- Kuća je crven___. | The house is red. | a
+- Kuća je lijep___. | The house is beautiful. | a
+- Knjiga je nov___. | The book is new. | a
+- Knjiga je star___. | The book is old. | a
+- Knjiga je lijep___. | The book is beautiful. | a
+- Lampa je žut___. | The lamp is yellow. | a
+- Lampa je zelen___. | The lamp is green. | a
+- Lampa je nov___. | The lamp is new. | a
+- Soba je velik___. | The room is big. | a
+- Soba je topl___. | The room is warm. | a
+- Soba je bijel___. | The room is white. | a
+- Soba je lijep___. | The room is beautiful. | a
+- Kava je dobr___. | The coffee is good. | a
+- Kava je topl___. | The coffee is warm. | a
+- Kava je hladn___. | The coffee is cold. | a
+- Kava je crn___. | The coffee is black. | a
+- Banana je žut___. | The banana is yellow. | a
+- Banana je slatk___. | The banana is sweet. | a
+- Čokolada je slatk___. | The chocolate is sweet. | a
+- Čokolada je dobr___. | The chocolate is good. | a
+- Muzika je lijep___. | The music is beautiful. | a
+- Muzika je nov___. | The music is new. | a
+- Muzika je dobr___. | The music is good. | a
+- More je plav___. | The sea is blue. | o
+- More je topl___. | The sea is warm. | o
+- More je hladn___. | The sea is cold. | o
+- More je zelen___. | The sea is green. | o
+- More je lijep___. | The sea is beautiful. | o
+- More je velik___. | The sea is big. | o
+- Nebo je plav___. | The sky is blue. | o
+- Nebo je crn___. | The sky is black. | o
+- Nebo je lijep___. | The sky is beautiful. | o
+- Nebo je velik___. | The sky is big. | o
+- Sunce je topl___. | The sun is warm. | o
+- Sunce je žut___. | The sun is yellow. | o
+- Sunce je velik___. | The sun is big. | o
+- Sunce je crven___. | The sun is red. | o
+- Sunce je lijep___. | The sun is beautiful. | o
+## Type the adjective
+format: upis
+opis: Read the English in brackets and type the Croatian adjective in the form that matches the noun.
+- Hotel je ___. (big) | velik
+- Grad je ___. (old) | star
+- Grad je ___. (beautiful) | lijep
+- Stol je ___. (new) | nov
+- Stol je ___. (old) | star
+- Krevet je ___. (soft) | mekan
+- Krevet je ___. (new) | nov
+- Prozor je ___. (big) | velik
+- Automobil je ___. (fast) | brz
+- Automobil je ___. (black) | crn
+- Automobil je ___. (red) | crven
+- Sladoled je ___. (cold) | hladan
+- Sladoled je ___. (sweet) | sladak
+- Sladoled je ___. (good) | dobar
+- Dan je ___. (beautiful) | lijep
+- Dan je ___. (warm) | topao
+- Telefon je ___. (new) | nov
+- Telefon je ___. (old) | star
+- Hotel je ___. (modern) | moderan
+- Problem je ___. (big) | velik
+- Restoran je ___. (new) | nov
+- Kuća je ___. (big) | velika
+- Kuća je ___. (white) | bijela
+- Kuća je ___. (old) | stara
+- Kuća je ___. (red) | crvena
+- Kuća je ___. (beautiful) | lijepa
+- Knjiga je ___. (new) | nova
+- Knjiga je ___. (old) | stara
+- Knjiga je ___. (beautiful) | lijepa
+- Lampa je ___. (yellow) | žuta
+- Lampa je ___. (green) | zelena
+- Lampa je ___. (new) | nova
+- Soba je ___. (big) | velika
+- Soba je ___. (warm) | topla
+- Soba je ___. (white) | bijela
+- Soba je ___. (beautiful) | lijepa
+- Kava je ___. (good) | dobra
+- Kava je ___. (warm) | topla
+- Kava je ___. (cold) | hladna
+- Kava je ___. (black) | crna
+- Banana je ___. (yellow) | žuta
+- Banana je ___. (sweet) | slatka
+- Čokolada je ___. (sweet) | slatka
+- Čokolada je ___. (good) | dobra
+- Muzika je ___. (beautiful) | lijepa
+- Muzika je ___. (new) | nova
+- Muzika je ___. (good) | dobra
+- More je ___. (blue) | plavo
+- More je ___. (warm) | toplo
+- More je ___. (cold) | hladno
+- More je ___. (green) | zeleno
+- More je ___. (beautiful) | lijepo
+- More je ___. (big) | veliko
+- Nebo je ___. (blue) | plavo
+- Nebo je ___. (black) | crno
+- Nebo je ___. (beautiful) | lijepo
+- Nebo je ___. (big) | veliko
+- Sunce je ___. (warm) | toplo
+- Sunce je ___. (yellow) | žuto
+- Sunce je ___. (big) | veliko
+- Sunce je ___. (red) | crveno
+- Sunce je ___. (beautiful) | lijepo
+## Build the sentence
+format: slaganje
+opis: The English is above — tap the tiles to say the same thing in Croatian.
+- Kuća je velika. | en: The house is big.
+- More je plavo. | en: The sea is blue.
+- Nebo je plavo. | en: The sky is blue.
+- Kava je dobra. | en: The coffee is good.
+- Automobil je brz. | en: The car is fast.
+- Knjiga je nova. | en: The book is new.
+- Stol je star. | en: The table is old.
+- Lampa je žuta. | en: The lamp is yellow.
+- Krevet je mekan. | en: The bed is soft.
+- Soba je mala. | en: The room is small.
+- Prozor je velik. | en: The window is big.
+- Sunce je toplo. | en: The sun is warm.
+- Dan je lijep. | en: The day is beautiful.
+- Ovo je kuća. | en: This is a house.
+- Ovo je soba. | en: This is a room.
+- Ovo je grad. | en: This is a city.
+- Ovo je knjiga. | en: This is a book.
+- Dubrovnik je grad. | en: Dubrovnik is a city.
+- Hotel je velik i moderan. | en: The hotel is big and modern.
+- Restoran je mali. | en: The restaurant is small.
+- Sladoled je hladan i sladak. | en: The ice cream is cold and sweet.
+- More je plavo i toplo. | en: The sea is blue and warm.
+- Kava je topla i dobra. | en: The coffee is warm and good.
+- Automobil je crven i brz. | en: The car is red and fast.
+- Knjiga je nova i lijepa. | en: The book is new and beautiful.
+- Stol je velik i star. | en: The table is big and old.
+- Grad je star i lijep. | en: The city is old and beautiful.
+- Soba je mala i lijepa. | en: The room is small and beautiful.
+- Kuća je stara i lijepa. | en: The house is old and beautiful.
+- Dan je lijep, sunce je toplo. | en: The day is beautiful, the sun is warm.
+- Nebo je plavo i sunce je toplo. | en: The sky is blue and the sun is warm.
+- Kuća je bijela i velika. | en: The house is white and big.
+- Telefon je nov i brz. | en: The telephone is new and fast.
+- Muzika je dobra. | en: The music is good.
+- Čokolada je slatka. | en: The chocolate is sweet.
+- Banana je žuta. | en: The banana is yellow.
+- Sunce je veliko i toplo. | en: The sun is big and warm.
+- More je zeleno i hladno. | en: The sea is green and cold.
+
+## Write it in Croatian
+format: upis
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. Word order is free, so more than one answer is accepted.
+- The house is big. | Kuća je velika. / Velika je kuća.
+- The sea is blue. | More je plavo. / Plavo je more.
+- The sky is blue. | Nebo je plavo. / Plavo je nebo.
+- The coffee is good. | Kava je dobra. / Dobra je kava.
+- The car is fast. | Automobil je brz. / Brz je automobil.
+- The book is new. | Knjiga je nova. / Nova je knjiga.
+- The table is old. | Stol je star. / Star je stol.
+- The lamp is yellow. | Lampa je žuta. / Žuta je lampa.
+- The bed is soft. | Krevet je mekan. / Mekan je krevet.
+- The room is small. | Soba je mala. / Mala je soba.
+- The window is big. | Prozor je velik. / Velik je prozor.
+- The sun is warm. | Sunce je toplo. / Toplo je sunce.
+- The day is beautiful. | Dan je lijep. / Lijep je dan.
+- This is a house. | Ovo je kuća.
+- This is a room. | Ovo je soba.
+- This is a city. | Ovo je grad.
+- This is a book. | Ovo je knjiga.
+- This is a table. | Ovo je stol.
+- The city is old. | Grad je star. / Star je grad.
+- The hotel is modern. | Hotel je moderan. / Moderan je hotel.
+- The restaurant is small. | Restoran je mali. / Mali je restoran.
+- The ice cream is cold. | Sladoled je hladan. / Hladan je sladoled.
+- The chocolate is sweet. | Čokolada je slatka. / Slatka je čokolada.
+- The banana is yellow. | Banana je žuta. / Žuta je banana.
+- The music is good. | Muzika je dobra. / Dobra je muzika.
+- The telephone is new. | Telefon je nov. / Nov je telefon.
+- The sea is warm. | More je toplo. / Toplo je more.
+- The sea is green. | More je zeleno. / Zeleno je more.
+- The house is white. | Kuća je bijela. / Bijela je kuća.
+- The car is red. | Automobil je crven. / Crven je automobil.
+- The sun is big. | Sunce je veliko. / Veliko je sunce.
+- The sky is black. | Nebo je crno. / Crno je nebo.
+- The coffee is cold. | Kava je hladna. / Hladna je kava.
+- The book is beautiful. | Knjiga je lijepa. / Lijepa je knjiga.
+- The room is warm. | Soba je topla. / Topla je soba.
+- The problem is big. | Problem je velik. / Velik je problem.
+- The city is beautiful. | Grad je lijep. / Lijep je grad.
+- The bed is new. | Krevet je nov. / Nov je krevet.
+- The lamp is green. | Lampa je zelena. / Zelena je lampa.
+- The table is black. | Stol je crn. / Crn je stol.
