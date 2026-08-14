@@ -30,9 +30,11 @@ async function resolveUserId(supabaseAdmin, stripe, eventType, obj) {
 }
 
 async function upsertFromSubscription(supabaseAdmin, sub, userId) {
-  const priceId = (sub.items && sub.items.data && sub.items.data[0] && sub.items.data[0].price)
-    ? sub.items.data[0].price.id
-    : null;
+  const item = sub.items && sub.items.data && sub.items.data[0];
+  const priceId = item && item.price ? item.price.id : null;
+  // API 2025-03-31.basil+ moved current_period_end from the subscription to the item level;
+  // fall back to the top-level field for older API versions.
+  const periodEnd = (item && item.current_period_end) || sub.current_period_end || null;
   await supabaseAdmin
     .from('profiles')
     .update({
@@ -40,9 +42,7 @@ async function upsertFromSubscription(supabaseAdmin, sub, userId) {
       stripe_subscription_id: sub.id,
       subscription_status: sub.status,
       price_id: priceId,
-      current_period_end: sub.current_period_end
-        ? new Date(sub.current_period_end * 1000).toISOString()
-        : null,
+      current_period_end: periodEnd ? new Date(periodEnd * 1000).toISOString() : null,
       updated_at: new Date().toISOString(),
     })
     .eq('id', userId);
