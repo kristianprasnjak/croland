@@ -12,6 +12,9 @@ create table public.profiles (
   subscription_status text,
   price_id text,
   current_period_end timestamptz,
+  -- Manually flipped in the table editor to grant free lifetime access, no Stripe involved.
+  -- The webhook (netlify/functions/stripe-webhook.js) never writes this column.
+  komplimentarno boolean not null default false,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );

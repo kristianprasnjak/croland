@@ -665,6 +665,34 @@
   #zastorRj { position: fixed; inset: 0; background: rgba(29,27,23,.28); z-index: 35; display: none; }
   #zastorRj.vidi { display: block; }
 
+  /* -- lebdeći info: pravilo koje vrijedi za ovu vježbu -- */
+  /* Treća okrugla tipka u istom nizu: rječnik → igrica → info. Sadržaj dolazi iz
+     meta.info same vježbe, pa se panel puni tek pri otvaranju. U testu se ne prikazuje. */
+  #lebdiInfo { position: fixed; top: 216px; right: 20px; z-index: 30; width: 48px; height: 48px;
+    border-radius: 50%; background: var(--card); color: var(--plava); border: 2px solid var(--plava);
+    display: none; align-items: center; justify-content: center; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(154,91,82,.22); font-size: 1.2rem; font-weight: 700; user-select: none;
+    touch-action: none; opacity: .92; transition: opacity .3s, width .15s, height .15s, font-size .15s; }
+  #lebdiInfo.vidi { display: flex; }
+  #lebdiInfo:hover { opacity: 1; }
+  #panelInfo { position: fixed; top: 0; right: 0; bottom: 0; z-index: 40; width: 380px; max-width: 88vw;
+    background: var(--card); box-shadow: -8px 0 30px rgba(0,0,0,.22); border-left: 1px solid var(--rub);
+    transform: translateX(105%); transition: transform .26s ease; display: flex; flex-direction: column;
+    border-top-left-radius: 18px; border-bottom-left-radius: 18px; }
+  #panelInfo.otvoren { transform: translateX(0); }
+  #panelInfo .glavaRj { padding: 14px 16px; border-bottom: 1px solid var(--rub);
+    display: flex; align-items: center; gap: 8px; }
+  #panelInfo .glavaRj .nasRj { font-weight: 700; margin-right: auto; }
+  #panelInfo .glavaRj button { border: 1px solid var(--rub); background: var(--bg); border-radius: 8px;
+    width: 30px; height: 30px; font-size: 1rem; cursor: pointer; font-family: inherit; color: var(--ink); }
+  #panelInfo .infoTijelo { overflow-y: auto; padding: 16px; flex: 1; }
+  #panelInfo .infoNaslov { font-weight: 700; font-size: .95rem; margin-bottom: 3px; }
+  #panelInfo .infoGdje { font-size: .78rem; color: var(--muted); margin-bottom: 14px; }
+  #panelInfo .infoTekst { font-size: .95rem; line-height: 1.62; }
+  #panelInfo .infoTekst strong { color: var(--plava); }
+  #panelInfo .infoOpis { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--rub);
+    font-size: .84rem; color: var(--muted); line-height: 1.5; }
+
   /* -- lebdeća mini-igrica prijevoda -- */
   /* Otvara se istim mehanizmom kao lebdeći rječnik: okrugla tipka + bočni panel.
      Ikona sjedi ispod ikone rječnika i prati je kad je polaznik povuče. */
@@ -1030,6 +1058,14 @@
     <span class="igReset" id="igReset">Reset</span>
   </div>
 </div>
+<div id="lebdiInfo" title="Why this works">ℹ</div>
+<div id="panelInfo">
+  <div class="glavaRj">
+    <span class="nasRj">Why this works</span>
+    <button id="infoZatvori" title="Close">✕</button>
+  </div>
+  <div class="infoTijelo" id="infoTijelo"></div>
+</div>
 
 <script src="data.js"></script>
 <script src="rjecnik.js"></script>
@@ -1066,8 +1102,11 @@
 
   function imaRacun() { return !!(SESSION && SESSION.user); }
   function imaPretplatu() {
-    return !!(ENTITLEMENT && (ENTITLEMENT.subscription_status === 'active' ||
-      ENTITLEMENT.subscription_status === 'trialing'));
+    if (!ENTITLEMENT) return false;
+    // komplimentarno: manually flipped in the Supabase table editor, no Stripe involved —
+    // the webhook never writes this column, so it can't be overwritten by a sync.
+    if (ENTITLEMENT.komplimentarno) return true;
+    return ENTITLEMENT.subscription_status === 'active' || ENTITLEMENT.subscription_status === 'trialing';
   }
   // Jedina točka odluke o pristupu — poziva se i iz UI-ja (prikaz) i iz "tvrdih" provjera
   // (idi/renderUnit/renderMiniIgra), pa kasniji prelazak na server-side sadržaj ne mora
@@ -3430,7 +3469,7 @@
   }
   function rjecnikVidljiv(da, tip, razina) {
     var l = $('lebdi'); if (!l) return;
-    if (!da) { l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj(); igraVidljiva(false); return; }
+    if (!da) { l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj(); igraVidljiva(false); infoVidljiv(false); return; }
     // nova vježba = nova sesija igrice: brojači i vreća riječi kreću ispočetka
     if (rjTip !== tip || rjRazina !== razina) {
       igTocno = 0; igNetocno = 0; igRed = []; igZadnji = null;
@@ -3445,6 +3484,7 @@
     $('rjTrazi').value = '';
     l.classList.add('vidi');
     igraVidljiva(true);
+    infoVidljiv(true);
     // popis riječi cjeline se gradi iz svih zadataka pa zna potrajati pola sekunde —
     // zagrij ga u pozadini da otvaranje rječnika bude trenutačno
     setTimeout(function () { try { rijeciCjeline(tip, razina); } catch (e) {} }, 400);
@@ -3464,6 +3504,7 @@
     g.style.fontSize = (v * 0.42) + 'px';
     g.style.top = (rjTop + rjVelicina + 10) + 'px';
     g.style.right = (18 + (rjVelicina - v) / 2) + 'px';
+    postaviIkonuInfo();
   }
 
   // ================= LEBDEĆA MINI-IGRICA: PRIJEVOD HR ↔ EN =================
@@ -3644,6 +3685,56 @@
     var g = $('lebdiIgra'); if (!g) return;
     if (da) { g.classList.add('vidi'); postaviIkonuIgre(); }
     else { g.classList.remove('vidi'); zatvoriIgru(); }
+  }
+
+  // ================= LEBDEĆI INFO: PRAVILO UZ OVU VJEŽBU =================
+  // Tekst dolazi iz meta.info svake vježbe (polje "info:" u igre/*.md). Ikona se
+  // pojavljuje samo kad ta vježba ima info — i nikad u testu, jednako kao rječnik.
+  function infoTekstIgre() {
+    return (igra && igra.meta && igra.meta.info) ? String(igra.meta.info).trim() : '';
+  }
+  function popuniInfo() {
+    var t = $('infoTijelo'); if (!t) return;
+    var tekst = infoTekstIgre();
+    var gdje = igra ? ((igra.cjelina || '') + (igra.stranica ? ' · page ' + igra.stranica : '')) : '';
+    t.innerHTML =
+      '<div class="infoNaslov">' + mdInline(igra && igra.naslov ? igra.naslov : '') + '</div>' +
+      '<div class="infoGdje">' + gdje + '</div>' +
+      '<div class="infoTekst">' + mdInline(tekst) + '</div>' +
+      ((igra && igra.meta && igra.meta.opis)
+        ? '<div class="infoOpis">' + mdInline(igra.meta.opis) + '</div>' : '');
+  }
+  function otvoriInfo() {
+    if (!infoTekstIgre()) return;
+    popuniInfo();
+    $('panelInfo').classList.add('otvoren');
+    $('zastorRj').classList.add('vidi');
+  }
+  function zatvoriInfo() {
+    var p = $('panelInfo'); if (!p) return;
+    p.classList.remove('otvoren');
+    if (!$('panelRj').classList.contains('otvoren') && !$('panelIgra').classList.contains('otvoren')) {
+      $('zastorRj').classList.remove('vidi');
+    }
+  }
+  function infoVidljiv(da) {
+    var b = $('lebdiInfo'); if (!b) return;
+    if (da && infoTekstIgre()) {
+      b.classList.add('vidi'); postaviIkonuInfo();
+      // pri prelasku na sljedeću vježbu s otvorenim panelom sadržaj se mora osvježiti
+      if ($('panelInfo').classList.contains('otvoren')) popuniInfo();
+    } else {
+      b.classList.remove('vidi'); zatvoriInfo();
+    }
+  }
+  // ikona infa visi ispod ikone igrice i prati cijeli niz pri povlačenju
+  function postaviIkonuInfo() {
+    var b = $('lebdiInfo'); if (!b) return;
+    var v = Math.round(rjVelicina * 0.86);
+    b.style.width = v + 'px'; b.style.height = v + 'px';
+    b.style.fontSize = (v * 0.46) + 'px';
+    b.style.top = (rjTop + rjVelicina + 10 + v + 10) + 'px';
+    b.style.right = (18 + (rjVelicina - v) / 2) + 'px';
   }
 
   // ---- mehanika 1: spajanje (crtež ↔ riječ) ----
@@ -5821,7 +5912,7 @@
     var vuce = false, vukao = false, pocetak = 0, pocetniTop = 0;
     l.onclick = function () { if (!vukao) otvoriRj(); };
     $('rjZatvori').onclick = zatvoriRj;
-    $('zastorRj').onclick = function () { zatvoriRj(); zatvoriIgru(); };
+    $('zastorRj').onclick = function () { zatvoriRj(); zatvoriIgru(); zatvoriInfo(); };
     $('rjTrazi').oninput = crtajPopisRj;
     vezeKlikPopisa($('rjPopis'));
     $('rjManji').onclick = function () { rjVelicina = Math.max(32, rjVelicina - 8); postaviVelicinuIkone(); };
@@ -5845,7 +5936,7 @@
       var d = e.clientY - pocetak;
       if (Math.abs(d) > 4) vukao = true;
       // donja granica ostavlja mjesta i za ikonu igrice koja visi ispod
-      rjTop = Math.min(Math.max(pocetniTop + d, 70), window.innerHeight - rjVelicina - 150);
+      rjTop = Math.min(Math.max(pocetniTop + d, 70), window.innerHeight - rjVelicina - 210);
       l.style.top = rjTop + 'px';
       postaviIkonuIgre();
     });
@@ -5891,6 +5982,19 @@
     $('panelIgra').addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; });
     $('panelIgra').addEventListener('touchend', function (e) {
       if (sx != null && e.changedTouches[0].clientX - sx > 70) zatvoriIgru();
+      sx = null;
+    });
+  })();
+
+  // -- lebdeći info: otvaranje i zatvaranje --
+  (function () {
+    var b = $('lebdiInfo'); if (!b) return;
+    b.onclick = otvoriInfo;
+    $('infoZatvori').onclick = zatvoriInfo;
+    var sx = null;
+    $('panelInfo').addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; });
+    $('panelInfo').addEventListener('touchend', function (e) {
+      if (sx != null && e.changedTouches[0].clientX - sx > 70) zatvoriInfo();
       sx = null;
     });
   })();
