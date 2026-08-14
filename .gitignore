@@ -8,6 +8,11 @@ node_modules/
 .env
 .env.*
 !.env.example
+deno.lock
+.tools/
+
+# Local dev tooling (e.g. downloaded Stripe CLI binary) — never committed
+.tools/
 
 # Genuinely disposable files only — the repo is private, so source/working files (.ps1, .txt,
 # .csv, .jsonl, .md, data1.js, etc.) stay tracked and double as offsite backup.

@@ -1687,7 +1687,12 @@
   function registrirajEmail(email, lozinka, cb) {
     if (!supa) { cb('Sign-in isn\'t configured yet.'); return; }
     supa.auth.signUp({ email: email, password: lozinka }).then(function (res) {
-      cb(res.error ? (res.error.message || 'Sign-up failed') : null, res.data);
+      if (res.error) { cb(res.error.message || 'Sign-up failed'); return; }
+      // "Confirm email" on in Supabase: signUp succeeds but grants no session until the
+      // user clicks the emailed link — onAuthStateChange never fires, so callers must
+      // show this explicitly instead of silently doing nothing.
+      var cekaPotvrdu = !!(res.data && res.data.user && !res.data.session);
+      cb(null, cekaPotvrdu);
     });
   }
   function prijaviGoogle() {
@@ -2049,8 +2054,14 @@
         $('prGreska').textContent = 'Enter an email and a password of at least 6 characters.'; return;
       }
       PRIJAVA_TIP = 'signup';
-      registrirajEmail(p.email, p.lozinka, function (greska) {
+      registrirajEmail(p.email, p.lozinka, function (greska, cekaPotvrdu) {
         if (greska) { PRIJAVA_TIP = null; $('prGreska').textContent = greska; return; }
+        if (cekaPotvrdu) {
+          PRIJAVA_TIP = null;
+          $('prGreska').style.color = 'var(--zelena)';
+          $('prGreska').textContent = 'Almost there — check your inbox and click the confirmation link, then log in.';
+          return;
+        }
         ov.remove();
       });
     };
@@ -5836,8 +5847,13 @@
           $('accGreska').textContent = 'Enter an email and a password of at least 6 characters.'; return;
         }
         PRIJAVA_TIP = 'signup';
-        registrirajEmail(p.email, p.lozinka, function (greska) {
-          if (greska) { PRIJAVA_TIP = null; $('accGreska').textContent = greska; }
+        registrirajEmail(p.email, p.lozinka, function (greska, cekaPotvrdu) {
+          if (greska) { PRIJAVA_TIP = null; $('accGreska').textContent = greska; return; }
+          if (cekaPotvrdu) {
+            PRIJAVA_TIP = null;
+            $('accGreska').style.color = 'var(--zelena)';
+            $('accGreska').textContent = 'Almost there — check your inbox and click the confirmation link, then log in.';
+          }
         });
       };
       $('accGoogle').onclick = function () {
