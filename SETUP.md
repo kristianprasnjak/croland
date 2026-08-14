@@ -65,7 +65,17 @@ configured).
 Redeploy after adding env vars (Netlify does this automatically on the next push, or trigger a
 manual deploy).
 
-## 5. Test before going live
+## 5. Test locally (auto-deploy is off — this is the only test loop until the final deploy)
+
+Netlify auto-builds are paused to conserve build credits; pushes to `main` no longer deploy.
+All testing happens against `netlify dev`, which reads a local `.env` (gitignored):
+
+```bash
+cp .env.example .env    # then fill in the real values — never commit this file
+netlify dev              # serves the site + Functions at localhost:8888
+stripe listen --forward-to localhost:8888/.netlify/functions/stripe-webhook
+# stripe listen prints a whsec_... — put that in .env as STRIPE_WEBHOOK_SECRET, restart netlify dev
+```
 
 With Stripe still in **test mode**:
 
@@ -75,8 +85,10 @@ With Stripe still in **test mode**:
   Level 2+ unlocks within ~10s of returning to the site (the account page shows "Confirming your
   subscription…" while it waits for the webhook).
 - Cancel the test subscription via **Manage subscription** → confirm Level 2+ locks again.
-- Optional: `netlify dev` + `stripe listen --forward-to localhost:8888/.netlify/functions/stripe-webhook`
-  lets you test the whole flow locally before it's even deployed.
+- To test complimentary access without Stripe: Supabase Table editor → `profiles` → your row →
+  set `komplimentarno` to `true` → reload the app → Level 2+ should unlock immediately.
+- Once everything above passes, re-enable Netlify auto-builds and trigger the one remaining
+  deploy — see step 6.
 
 ## 6. Go live
 
