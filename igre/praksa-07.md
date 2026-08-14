@@ -3,6 +3,7 @@ cjelina: Practice 7
 
 ## Text 1: The school
 format: tekst
+info: A text to read, not a drill. Almost every noun is plural, so track the endings: *učenici* and *prozori* are masculine **-i**, *knjige* and *učiteljice* feminine **-e**, and the adjectives repeat the same ending.
 - A school day in the plural — classmates, books and all.
 - Passive words: *zidovi* (walls), *dani* (days), *žuti* (yellow, pl.), *veliki* (big, pl.), *dugi* (long, pl.).
 - Ovo je škola. | This is a school.
@@ -16,6 +17,7 @@ format: tekst
 
 ## Did you get it?
 format: izbor
+info: Comprehension questions on the text above. The answers hang on plural adjectives agreeing with their nouns, so *mladi* points back to *učenici* and *stari* to *stolovi*.
 tekst: Ovo je škola. Učenici su mladi i veseli. Učiteljice su dobre. Knjige su nove, ali stolovi su stari. Dječaci igraju nogomet, a djevojčice pjevaju pjesme. Prozori su veliki, a zidovi su žuti. Udžbenici su teški, ali su zanimljivi. Dani su dugi, ali su lijepi.
 opis: Answer from the text.
 - Učenici su... | mladi i veseli | stari i umorni | tihi
@@ -26,6 +28,7 @@ opis: Answer from the text.
 
 ## Text 2: The timetable
 format: tekst
+info: Real-world reading rather than a story — scan for what you need. The plurals to spot are *ispiti* with masculine **-i**, and *zadaće* and *ocjene* with feminine **-e**.
 - No story this time — just what is written on the classroom wall. Read it the way you'd read a real timetable: skip around, don't start at the top. Passive words: *raspored* (timetable), *razred* (class), *ponedjeljak* (Monday), *utorak* (Tuesday), *srijeda* (Wednesday), *dvadeset* (twenty), *minuta* (minute), *zadnji* (last).
 - RASPORED — 5. razred | TIMETABLE — class 5
 - Ponedjeljak: matematika, hrvatski, glazba | Monday: mathematics, Croatian, music
@@ -38,6 +41,7 @@ format: tekst
 
 ## Reading a timetable
 format: izbor
+info: Questions on the timetable, some needing you to work the answer out rather than read it off. Keep the plural endings in view: *ispiti* is masculine **-i**, *zadaće* and *ocjene* are feminine **-e**.
 tekst: RASPORED — 5. razred. Ponedjeljak: matematika, hrvatski, glazba. Utorak: biologija, geografija, sport. Srijeda: fizika, kemija, matematika. Pauza je duga dvadeset minuta. Dječaci igraju nogomet svaki odmor. Ispiti su u srijedu. Zadaće su duge, ali su ocjene dobre!
 opis: Some answers are written down, some you have to work out.
 - Koji dan ima glazbu? | ponedjeljak | utorak | srijeda
@@ -49,6 +53,7 @@ opis: Some answers are written down, some you have to work out.
 
 ## Text 3: The choir
 format: tekst
+info: A scene built almost entirely on plural verbs. Watch the *they* forms and their families: *pjevaju* and *slušaju* come from *-am* verbs, but *broje* comes from *brojim*, an *-im* verb.
 - Passive words: *zbor* (choir), *plješću* (they applaud), *roditelji* (parents), *zadnja* (the last), *svi* (everyone), *na kraju* (at the end).
 - Djeca pjevaju pjesme. | The children are singing songs.
 - Pjesme su stare, ali su lijepe. | The songs are old, but they are beautiful.
@@ -61,6 +66,7 @@ format: tekst
 
 ## True or false?
 format: izbor
+info: Check each statement against the text. The meaning sits in the endings — the plural adjectives (*Pjesme su stare*) and the plural verbs (*Ivan i Luka broje*) — so read those, not just the word stems.
 tekst: Djeca pjevaju pjesme. Pjesme su stare, ali su lijepe. Dječaci pjevaju glasno, a djevojčice pjevaju tiho. Učiteljica svira klavir. Roditelji slušaju i plješću. Braća Ivan i Luka ne pjevaju — oni broje minute. Na kraju svi pjevaju zadnju pjesmu zajedno.
 opis: Tap true or false.
 - Pjesme su nove. | FALSE | TRUE
@@ -71,6 +77,7 @@ opis: Tap true or false.
 
 ## Type the plural verb
 format: upis
+info: Type the verb to match its subject. *mi* takes **-mo** and *vi* takes **-te** every time; for *they* the family decides — *pjevaju* and *slušaju* end in *-aju*, but *brojati* gives *broje*.
 tekst: Djeca pjevaju pjesme. Dječaci pjevaju glasno. Roditelji slušaju i plješću. Braća Ivan i Luka ne pjevaju — oni broje minute. Na kraju svi pjevaju zajedno.
 opis: Fill in the plural verb from the text.
 - Djeca ___ pjesme. (pjevati) | pjevaju
@@ -84,6 +91,7 @@ opis: Fill in the plural verb from the text.
 
 ## Text 4: Four classmates
 format: tekst
+info: A logic puzzle in Croatian, so read all of it before deciding anything. The grammar at play is negation with the present tense: *ne voli* is *doesn't like*, and *Nitko ne voli* keeps its negative verb.
 - A puzzle, not a story. Four pupils, four favourite subjects — but nobody tells you who likes what. Read the whole thing before you answer. Passive words: *nitko* (nobody), *samo* (only), *brzo* (fast), *sportaš* (athlete).
 - Ana, Marko, Iva i Luka su prijatelji. | Ana, Marko, Iva and Luka are friends.
 - Ana ne voli brojeve, ali voli riječi. | Ana doesn't like numbers, but she likes words.
@@ -95,6 +103,7 @@ format: tekst
 
 ## Solve the puzzle
 format: izbor
+info: Deduce the answers — none of them are stated outright. The Croatian you need is small: *voli* and *ne voli*, plus the singular target form after them, as in *Marko voli matematik**u***.
 tekst: Ana, Marko, Iva i Luka su prijatelji. Ana ne voli brojeve, ali voli riječi. Marko i Luka su sportaši. Oni trče brzo. Iva svira klavir i pjeva pjesme. Marko voli matematiku, a Luka ne voli matematiku. Luka voli samo sport. Nitko ne voli fiziku.
 opis: Nobody says outright who likes which subject. Work it out.
 - Tko voli hrvatski? | Ana | Marko | Luka
@@ -106,6 +115,7 @@ opis: Nobody says outright who likes which subject. Work it out.
 
 ## Text 5: New pupils
 format: tekst
+info: A classroom dialogue to read. Two things to notice: the plural of *biti* in *Jesu li oni braća?*, and the plural target in *Mi trebamo brz**e** igrač**e*** — masculine plural targets end in **-e**.
 - Passive words: *dečki* (guys), *sportaši* (athletes), *igrači* (players), *Jesu li...?* (Are they...?), *imamo* (we have), *jako* (very).
 - — Dobro jutro, djeco! | — Good morning, children!
 - — Dobro jutro! | — Good morning!
@@ -118,6 +128,7 @@ format: tekst
 
 ## Order the dialogue
 format: poredak
+info: Rebuild the conversation in order — a question has to come before its answer. *Jesu li oni braća?* is answered by *Da, oni su braća*, and the greeting pair opens the scene.
 opis: Rebuild the classroom conversation.
 - — Dobro jutro, djeco!
 - — Dobro jutro!
@@ -130,6 +141,7 @@ opis: Rebuild the classroom conversation.
 
 ## Talking about the class
 format: dijalog
+info: You reply in a conversation, and nearly everything is plural. Match the verb to its subject (*Oni igraju*, *One pjevaju*) and keep the adjectives agreeing: *Učenici su veseli*, *Učiteljice su dobre*.
 opis: A new pupil is asking about your class. Answer him — everything is plural now. Passive words: *Koliko?* (How many?), *najbolji* (the best), *svi* (everyone).
 - npc | Bok! Ja sam nov. Kakvi su učenici ovdje?
 - ti | Učenici su veseli i dobri. | Učenici su mladi, ali su tihi.
@@ -148,6 +160,7 @@ opis: A new pupil is asking about your class. Answer him — everything is plura
 
 ## Tap the plural ending from the texts
 format: nastavak
+info: Fill in the plural ending on sentences taken from the readings. Masculine **-i**, feminine **-e**, neuter **-a** — and the adjective confirms your choice, since *su žuti* can only follow a masculine plural like *zidovi*.
 nastavci: i | e | a
 opis: Every sentence came out of the five texts. Masculine takes **-i**, feminine **-e**, neuter **-a**.
 - Učenic___ su mladi i veseli. | The pupils are young and cheerful. | i
@@ -169,6 +182,7 @@ opis: Every sentence came out of the five texts. Masculine takes **-i**, feminin
 
 ## Make it a target
 format: upis
+info: Turn a naming plural into the target of a verb. Only masculine moves, *-i* to **-e**, with *c* going back to *k*: *dječaci* gives *Vidim dječak**e***. Feminine and neuter plurals stay exactly as they are.
 opis: The plural is naming something. Say it again as the target of *vidim* — only masculine moves.
 - učenici → Vidim ___ | učenike
 - dječaci → Vidim ___ | dječake
@@ -183,6 +197,7 @@ opis: The plural is naming something. Say it again as the target of *vidim* — 
 
 ## A school morning, in order
 format: poredak
+info: Sequence the day by sense, not by grammar. Everything is present tense with plural subjects — *Djeca dolaze*, *Učenici otvaraju* — so the clues are the events themselves.
 opis: Seven moments from a school day, shuffled. Nobody wrote this down — put it in the order it would actually happen. Passive words: *dolaze* (they arrive), *kaže* (says), *otvaraju* (they open), *gotov* (finished), *doma* (home).
 - Djeca dolaze u školu.
 - Učiteljica kaže: "Dobro jutro!"
@@ -194,6 +209,7 @@ opis: Seven moments from a school day, shuffled. Nobody wrote this down — put 
 
 ## Translate by building
 format: slaganje
+info: English prompt, Croatian built from tiles. Every piece must agree: a plural noun with a plural adjective and a plural verb, and a target noun in its target form — *Vidim učenik**e***, *Čitam nov**e** knjige*.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the five texts.
 - Ovo je škola. | en: This is a school.
 - Učenici su mladi i veseli. | en: The pupils are young and cheerful.
@@ -224,6 +240,7 @@ opis: Read the English sentence, then build its Croatian translation from the ti
 
 ## Pop the right balloon
 format: baloni
+info: Fast picture-to-word tapping, all singular forms. Use the moment to lock in the final letter of each word — that letter is the gender, and gender is what chooses the plural ending.
 opis: The bell has gone. A picture appears — tap the balloon with its word before it floats away.
 - škola | school
 - učenik | pupil

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Croland</title>
+<title>Croland · info-v1</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,10 +13,12 @@
     --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
     --zlatna: #8a6d1f;
     --plavaVok: #23407a; --tinta: #1d1b17; --tiho: #f0ece4; --papir: #faf7f1;
-    --naslov: "Space Grotesk", "Public Sans", system-ui, sans-serif;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: "Public Sans", system-ui, sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+  body {
+    font-family: var(--tekst); font-size: var(--font-size); line-height: var(--font-visina);
+    background: var(--bg); color: var(--ink); min-height: 100vh;
+  }
 
   header {
     background: var(--card); border-bottom: 1px solid var(--rub);
@@ -40,6 +42,10 @@
   header nav a.aktivna { background: var(--tiho); color: var(--ink); font-weight: 600; }
   header .valute { margin-left: auto; font-size: .82rem; color: var(--muted); white-space: nowrap;
     font-family: var(--naslov); font-weight: 600; padding: 6px 12px; border-radius: 10px; background: var(--tiho); }
+
+  /* -- pozadina iza sklopivog izbornika (mobitel) -- */
+  #izbornikPozadina { position: fixed; inset: 0; background: rgba(29,27,23,.28); z-index: 19; display: none; }
+  #izbornikPozadina.vidi { display: block; }
 
   #view { max-width: 900px; margin: 0 auto; padding: 24px 16px 60px; }
 
@@ -852,9 +858,10 @@
     border: 1px solid var(--rub); border-radius: 14px; background: var(--card); display: block;
   }
   @media (max-width: 900px) { .miniMreza { grid-template-columns: repeat(2, 1fr); } }
+  /* bez fiksne trake na dnu na mobitelu igra dobiva skoro cijeli preostali ekran */
+  @media (max-width: 720px) { .miniOkvir iframe { height: calc(100vh - 120px); } }
   @media (max-width: 640px) {
     .miniMreza { grid-template-columns: 1fr; }
-    .miniOkvir iframe { height: calc(100vh - 170px); }
   }
 
   /* ================= COLOR SCHEMES =================
@@ -884,6 +891,44 @@
     --plava: #6f3a5c; --zelena: #3f6b52; --zlatna: #8a6a24; --plavaVok: #3f4c86;
     --rub: #e5dde3; --tiho: #eee7ec; --papir: #f9f5f8;
   }
+
+  /* ---- Pismo: isti princip kao teme — jedan atribut na <body>. ---- */
+  :root, body[data-font="sistem"] {
+    --tekst: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --naslov: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-size: 1rem; --font-visina: 1.6;
+  }
+  body[data-font="inter"]    { --tekst: "Inter", system-ui, sans-serif;                 --naslov: "Inter", system-ui, sans-serif; }
+  body[data-font="grotesk"]  { --tekst: "Space Grotesk", system-ui, sans-serif;         --naslov: "Space Grotesk", system-ui, sans-serif; }
+  body[data-font="atkinson"] { --tekst: "Atkinson Hyperlegible", system-ui, sans-serif; --naslov: "Atkinson Hyperlegible", system-ui, sans-serif; }
+  body[data-font="lexend"]   { --tekst: "Lexend", system-ui, sans-serif;                --naslov: "Lexend", system-ui, sans-serif; --font-visina: 1.65; }
+  body[data-font="literata"] { --tekst: "Literata", Georgia, serif;                     --naslov: "Literata", Georgia, serif; --font-size: .97rem; }
+
+  /* ---- stranica Options: teme lijevo, pisma desno, stupci jednake visine ---- */
+  .postavkeDva { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 720px; }
+  .postavkeDva > div { display: flex; flex-direction: column; min-width: 0; }
+  .nasP {
+    font-family: var(--naslov); font-size: .72rem; font-weight: 700; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--muted); margin: 0 0 9px 2px;
+  }
+  .stupacP { flex: 1; display: grid; gap: 10px; grid-auto-rows: 1fr; }
+  .fontK {
+    background: var(--card); border: 1px solid var(--rub); border-radius: 14px;
+    padding: 12px 14px; cursor: pointer; text-align: center; position: relative;
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color .15s, transform .12s;
+  }
+  .fontK:hover { border-color: var(--plava); transform: translateY(-2px); }
+  .fontK.aktivna { border-color: var(--plava); box-shadow: inset 0 0 0 1px var(--plava); }
+  .fontK .imeF { font-size: 1.02rem; font-weight: 600; line-height: 1.25; letter-spacing: -.01em; }
+  .fontK .kvaka { position: absolute; top: 7px; right: 9px; color: var(--plava); font-size: .74rem; font-weight: 700; }
+  @media (max-width: 640px) { .postavkeDva { grid-template-columns: 1fr; gap: 22px; } }
+  .pregledP { max-width: 720px; margin-top: 26px; }
+  .pregledP .ploca {
+    background: var(--card); border: 1px solid var(--rub); border-radius: 14px;
+    padding: 20px; box-shadow: 0 1px 2px rgba(25,23,19,.05);
+  }
+  .pregledP .opcija.tocno { border-color: var(--zelena); background: #eaf3ec; color: var(--zelena); }
 
   /* ---- stranica Options ---- */
   .opcijeMreza { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; max-width: 640px; }
@@ -969,40 +1014,44 @@
   header nav a { font-size: .88rem; transition: background .15s, color .15s; }
   #view { padding: 28px 20px 64px; }
 
-  /* ---- mobitel: navigacija ide na dno, pogled ostaje slobodan ---- */
+  /* ---- mobitel: izbornik se sklapa iza ikonice (☰ → C kad je otvoren), pogled ostaje slobodan ---- */
   @media (max-width: 720px) {
-    body { padding-bottom: 68px; }
-    body.imaTraku { padding-bottom: 152px; }
-    header { padding: 10px 14px; gap: 10px; }
-    header .logo { width: 26px; height: 26px; font-size: .86rem; }
+    header { padding: 10px 14px; gap: 10px; position: relative; }
+    header .logo { width: 34px; height: 34px; font-size: 0; position: relative; }
+    header .logo::before { content: "\2630"; font-size: 1.1rem; }
+    body.izbornikOtvoren header .logo {
+      background: var(--plava);
+    }
+    body.izbornikOtvoren header .logo::before {
+      content: "C"; font-size: .92rem; font-family: var(--naslov); font-weight: 700;
+    }
     header .valute { font-size: .74rem; padding: 5px 9px; }
     #view { padding: 16px 14px 24px; }
 
     header nav {
-      position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-      display: flex; gap: 0; flex-wrap: nowrap; justify-content: space-around;
-      background: var(--card); border-top: 1px solid var(--rub);
-      padding: 6px 4px calc(8px + env(safe-area-inset-bottom, 0px));
-      box-shadow: 0 -2px 12px rgba(25,23,19,.06);
+      display: none; position: fixed; left: 0; right: 0; top: 54px; z-index: 20;
+      flex-direction: column; gap: 2px; flex-wrap: nowrap;
+      background: var(--card); border-bottom: 1px solid var(--rub);
+      padding: 8px 10px calc(10px + env(safe-area-inset-bottom, 0px));
+      box-shadow: 0 10px 24px rgba(25,23,19,.16);
+      max-height: calc(100vh - 54px); overflow-y: auto;
     }
-    body.imaTraku header nav { display: none; }
-    body.imaTraku { padding-bottom: 84px; }
+    body.izbornikOtvoren header nav { display: flex; }
     header nav a {
-      flex: 1; min-width: 0; min-height: 46px; border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0; padding: 4px 2px; text-align: center;
+      flex: none; min-width: 0; min-height: 0; border-radius: 10px;
+      display: block; text-align: left;
+      font-size: 1rem; padding: 13px 14px;
     }
-    header nav a::after {
-      content: attr(data-kratko); font-size: .74rem; font-weight: 600; letter-spacing: .01em;
-    }
-    header nav a.aktivna { color: var(--plava); background: none; }
-    header nav a.aktivna::after { font-weight: 700; }
+    header nav a::after { content: none; }
+    header nav a.aktivna { color: var(--plava); background: var(--tiho); }
+    /* lebdeće ikonice (rječnik/igra/info) ne smiju plutati preko otvorenog izbornika */
+    body.izbornikOtvoren #lebdi, body.izbornikOtvoren #lebdiIgra, body.izbornikOtvoren #lebdiInfo { display: none !important; }
   }
 </style>
 </head>
 <body>
 <header>
-  <div class="logo" onclick="idi('main')" title="Croland">C</div>
+  <div class="logo" id="logoBtn" onclick="klikLogo()" title="Croland">C</div>
   <nav>
     <a data-view="lessons" data-kratko="Lessons" onclick="idi('lessons')">Lessons</a>
     <a data-view="dictionary" data-kratko="Words" onclick="idi('dictionary')">Dictionary</a>
@@ -1013,6 +1062,7 @@
   </nav>
   <div class="valute" id="valuteHeader"></div>
 </header>
+<div id="izbornikPozadina" onclick="zatvoriIzbornik()"></div>
 <div id="view"></div>
 
 <div id="trakaAbc"></div>
@@ -1100,13 +1150,37 @@
   var ENTITLEMENT = null;      // current user's profiles row, or null
   var SESSION_SPREMNA = false; // je li početna provjera sesije (getSession) gotova
 
+  // Globalne postavke iz tablice `postavke` — jedino mjesto gdje se pravila pristupa mijenjaju
+  // bez novog buildа. Čita se javno (i bez prijave), jer ovdje nema ničeg tajnog.
+  var POSTAVKE = {};
+  // Akcija "upadaj": dok datum nije prošao, svaki prijavljeni korisnik ima puni pristup.
+  // Datum se mijenja u Supabaseu (Table editor → postavke → svima_pristup_do), null ga gasi.
+  function akcijaAktivna() {
+    var doKad = POSTAVKE.svima_pristup_do;
+    if (!doKad) return false;
+    var t = Date.parse(doKad);
+    // Neispravan datum ne otvara pristup — tipfeler ne smije pokloniti sadržaj svima.
+    return !isNaN(t) && Date.now() < t;
+  }
+
   function imaRacun() { return !!(SESSION && SESSION.user); }
   function imaPretplatu() {
+    if (!imaRacun()) return false;
+    // Akcija ide prva i ne ovisi o profilu — vrijedi i ako `profiles` red kasni za signupom.
+    if (akcijaAktivna()) return true;
     if (!ENTITLEMENT) return false;
     // komplimentarno: manually flipped in the Supabase table editor, no Stripe involved —
     // the webhook never writes this column, so it can't be overwritten by a sync.
     if (ENTITLEMENT.komplimentarno) return true;
     return ENTITLEMENT.subscription_status === 'active' || ENTITLEMENT.subscription_status === 'trialing';
+  }
+  // Razlog pristupa — samo za prikaz na stranici računa. Odluku donosi imaPretplatu().
+  function razlogPristupa() {
+    if (!imaPretplatu()) return null;
+    if (ENTITLEMENT && ENTITLEMENT.komplimentarno) return 'komplimentarno';
+    if (ENTITLEMENT && (ENTITLEMENT.subscription_status === 'active' ||
+        ENTITLEMENT.subscription_status === 'trialing')) return 'pretplata';
+    return 'akcija';
   }
   // Jedina točka odluke o pristupu — poziva se i iz UI-ja (prikaz) i iz "tvrdih" provjera
   // (idi/renderUnit/renderMiniIgra), pa kasniji prelazak na server-side sadržaj ne mora
@@ -1132,18 +1206,21 @@
     if (!m) return null;
     return { tip: m[1].trim(), razina: parseInt(m[2], 10) };
   }
+  function normalizirajIgru(g) {
+    var stavke = g.stavke || (g.parovi ? g.parovi.map(function (p) { return [p.hr, p.en]; }) : []);
+    stavke = stavke.map(function (s) { return typeof s === 'string' ? [s] : s; });
+    var pc = parsirajCjelinu(g.cjelina);
+    return {
+      cjelina: g.cjelina || null, cjelinaNaslov: g.cjelinanaslov || null,
+      tip: pc ? pc.tip : null, razina: pc ? pc.razina : 0,
+      stranica: g.stranica || 0, format: g.format, naslov: g.naslov,
+      meta: g.meta || {}, stavke: stavke, bodovi: g.bodovi || 5,
+      // true dok je ovo samo kostur iz javnog data.js — sadržaj stiže iz zaštićenog dijela
+      zakljucano: !!g.zakljucano
+    };
+  }
   if (window.PODACI && Array.isArray(window.PODACI.igre)) {
-    window.PODACI.igre.forEach(function (g) {
-      var stavke = g.stavke || (g.parovi ? g.parovi.map(function (p) { return [p.hr, p.en]; }) : []);
-      stavke = stavke.map(function (s) { return typeof s === 'string' ? [s] : s; });
-      var pc = parsirajCjelinu(g.cjelina);
-      IGRE.push({
-        cjelina: g.cjelina || null, cjelinaNaslov: g.cjelinanaslov || null,
-        tip: pc ? pc.tip : null, razina: pc ? pc.razina : 0,
-        stranica: g.stranica || 0, format: g.format, naslov: g.naslov,
-        meta: g.meta || {}, stavke: stavke, bodovi: g.bodovi || 5
-      });
-    });
+    window.PODACI.igre.forEach(function (g) { IGRE.push(normalizirajIgru(g)); });
   }
   function igreCjeline(tip, razina) {
     return IGRE.filter(function (g) { return g.tip === tip && g.razina === razina; });
@@ -1341,11 +1418,94 @@
   }
   function ucitajEntitlement(cb) {
     if (!imaRacun()) { ENTITLEMENT = null; if (cb) cb(); return; }
-    supa.from('profiles').select('*').eq('id', SESSION.user.id).single().then(function (res) {
+    supa.from('profiles').select('*').eq('id', SESSION.user.id).maybeSingle().then(function (res) {
       ENTITLEMENT = res.data || null;
       if (cb) cb();
     });
   }
+  // Globalna pravila pristupa. Namjerno se čita i bez prijave, jer o njima ovisi što piše
+  // na zaključanim pločicama. Ako dohvat padne, POSTAVKE ostaju prazne i vrijedi strože
+  // pravilo (samo pretplatnici) — ispad baze ne smije nikome pokloniti sadržaj.
+  function ucitajPostavke(cb) {
+    if (!supa) { if (cb) cb(); return; }
+    supa.from('postavke').select('kljuc, vrijednost').then(function (res) {
+      var nove = {};
+      (res.data || []).forEach(function (r) { nove[r.kljuc] = r.vrijednost; });
+      POSTAVKE = nove;
+      if (cb) cb();
+    });
+  }
+  // ---- zaštićeni sadržaj ----
+  // Vježbe od razine 2 naviše ne postoje u javnom data.js — ondje su samo kosturi (naslov,
+  // broj bodova) da se zaključane razine mogu prikazati. Pravi sadržaj leži u privatnom
+  // Supabase bucketu i dohvaća se ovdje, jednom po učitavanju stranice, i to samo za onoga
+  // tko na njega ima pravo. Provjeru prava radi server (/api/sadrzaj), ne ovaj kod.
+  var PLUS_STANJE = 'ne';   // 'ne' | 'ucitava' | 'da' | 'greska'
+  var PLUS_CEKAJU = [];     // pozivi koji čekaju da isto dohvaćanje završi
+
+  function spojiPlusSadrzaj(podaci) {
+    if (!podaci) return;
+    var poKljucu = {};
+    IGRE.forEach(function (g) {
+      poKljucu[(g.cjelina || '') + '|' + g.stranica + '|' + g.naslov] = g;
+    });
+    (podaci.igre || []).forEach(function (sirovo) {
+      var puna = normalizirajIgru(sirovo);
+      var k = (puna.cjelina || '') + '|' + puna.stranica + '|' + puna.naslov;
+      var kostur = poKljucu[k];
+      if (kostur) {
+        // Kostur se puni na mjestu, da sve već postojeće reference na njega ostanu ispravne.
+        kostur.stavke = puna.stavke;
+        kostur.meta = puna.meta;
+        kostur.zakljucano = false;
+      } else {
+        IGRE.push(puna);   // vježba koje u javnom dijelu nema — ne bi se smjelo dogoditi
+      }
+    });
+    // Zvukovi plaćenih rečenica: njihovi ključevi su same rečenice, pa u javnom dijelu ne
+    // smiju stajati. Stižu zajedno sa sadržajem.
+    var z = podaci.zvukovi || {};
+    Object.keys(z).forEach(function (k) { ZVUK[k] = z[k]; });
+  }
+
+  function ucitajPlusSadrzaj(cb) {
+    cb = cb || function () {};
+    if (PLUS_STANJE === 'da' || PLUS_STANJE === 'greska') { cb(PLUS_STANJE === 'da'); return; }
+    if (!imaRacun() || !imaPretplatu()) { cb(false); return; }
+    PLUS_CEKAJU.push(cb);
+    if (PLUS_STANJE === 'ucitava') return;
+    PLUS_STANJE = 'ucitava';
+
+    var gotovo = function (uspjeh) {
+      PLUS_STANJE = uspjeh ? 'da' : 'greska';
+      var red = PLUS_CEKAJU; PLUS_CEKAJU = [];
+      red.forEach(function (f) { f(uspjeh); });
+    };
+
+    fetch('/api/sadrzaj?f=data-plus.json', {
+      headers: { 'Authorization': 'Bearer ' + SESSION.access_token }
+    }).then(function (r) {
+      if (!r.ok) throw new Error('sadrzaj ' + r.status);
+      return r.json();
+    }).then(function (d) {
+      if (!d || !d.url) throw new Error('nema url');
+      return fetch(d.url);
+    }).then(function (r) {
+      if (!r.ok) throw new Error('preuzimanje ' + r.status);
+      return r.json();
+    }).then(function (podaci) {
+      spojiPlusSadrzaj(podaci);
+      gotovo(true);
+    }).catch(function (e) {
+      console.error('Zasticeni sadrzaj nije ucitan:', e);
+      gotovo(false);
+    });
+  }
+  // Nakon promjene prava (uspjela naplata, istekla akcija) sljedeći pokušaj mora ići ispočetka.
+  function resetirajPlusSadrzaj() {
+    if (PLUS_STANJE === 'greska') PLUS_STANJE = 'ne';
+  }
+
   function ucitajProgress(cb) {
     if (!imaRacun()) {
       PROGRESS = PROGRESS_PRAZAN();
@@ -1357,7 +1517,7 @@
       if (cb) cb();
       return;
     }
-    supa.from('progress').select('*').eq('user_id', SESSION.user.id).single()
+    supa.from('progress').select('*').eq('user_id', SESSION.user.id).maybeSingle()
       .then(function (res) {
         PROGRESS = res.data ? PROGRESS_odRetka(res.data) : PROGRESS_PRAZAN();
         spojiPredracunskoStanje();
@@ -1370,10 +1530,18 @@
   // ---- immediate write + short coalescing window for bursty (non-gameplay) writes ----
   var SPREMI_TAJMER = null;
   var REDCEKANJA = [];   // failed writes, retried rather than silently dropped
+  // upsert, ne update: ako `progress` red iz bilo kojeg razloga ne postoji (signup trigger
+  // je zakazao, korisnik je nastao prije njega, red je ručno obrisan), update bi pogodio nula
+  // redaka i vratio se BEZ greške — napredak bi tiho nestajao, a red za ponovni pokušaj se
+  // nikad ne bi ni napunio jer greške nema. upsert u tom slučaju red napravi.
+  function upisiProgress(payload) {
+    var redak = Object.assign({ user_id: SESSION.user.id }, payload);
+    return supa.from('progress').upsert(redak, { onConflict: 'user_id' });
+  }
   function posaljiProgress() {
     if (!imaRacun()) return;
     var payload = redakOdPROGRESS();
-    supa.from('progress').update(payload).eq('user_id', SESSION.user.id).then(function (res) {
+    upisiProgress(payload).then(function (res) {
       if (res.error) zakaziPonovniPokusaj(payload);
     });
   }
@@ -1382,7 +1550,7 @@
     setTimeout(function () {
       if (!REDCEKANJA.length || !imaRacun()) return;
       var p = REDCEKANJA.shift();
-      supa.from('progress').update(p).eq('user_id', SESSION.user.id).then(function (res) {
+      upisiProgress(p).then(function (res) {
         if (res.error) zakaziPonovniPokusaj(p);
       });
     }, 5000);
@@ -1722,8 +1890,9 @@
     var novoPrijavljen = !imaRacun() && !!(session && session.user);
     SESSION = session;
     SESSION_SPREMNA = true;
-    ucitajEntitlement(function () { ucitajProgress(function () {
+    ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
       postaviTemu(temaSad());
+      postaviFont(fontSad());
       var svjez = session && session.user && session.user.created_at &&
         (Date.now() - new Date(session.user.created_at).getTime() < 60000);
       var celebriraj = novoPrijavljen && (PRIJAVA_TIP === 'signup' || (izGooglePreusmjerenja && svjez));
@@ -1743,7 +1912,14 @@
       if (celebriraj) proslaviRegistraciju(nastavi); else nastavi();
       provjeriNakonNaplate();
       osvjeziHeader();
-    }); });
+      // Zaštićeni sadržaj se povlači u pozadini, da prvo otvaranje lekcije 2 ne čeka mrežu.
+      // Ako ne stigne, renderUnit ga svejedno dohvati u trenutku ulaska.
+      ucitajPlusSadrzaj(function (uspjeh) {
+        // Tablica lekcija se ne mijenja sadržajem, ali naslovnica ("nastavi gdje si stao")
+        // može, pa je vrijedi osvježiti ako je korisnik još na njoj.
+        if (uspjeh && ZADNJI_VIEW && ZADNJI_VIEW.view === 'main') renderMain();
+      });
+    }); }); });
   }
   function initAuth() {
     if (!supa) { SESSION_SPREMNA = true; poslijeAuthPromjene(null); return; }
@@ -3711,12 +3887,13 @@
     t.innerHTML =
       '<div class="infoNaslov">' + mdInline(igra && igra.naslov ? igra.naslov : '') + '</div>' +
       '<div class="infoGdje">' + gdje + '</div>' +
-      '<div class="infoTekst">' + mdInline(tekst) + '</div>' +
+      '<div class="infoTekst">' + (tekst ? mdInline(tekst) :
+        'This exercise has no note yet. If you expected one here, the app is running on an older ' +
+        '<em>data.js</em> — regenerate it and reload the page.') + '</div>' +
       ((igra && igra.meta && igra.meta.opis)
         ? '<div class="infoOpis">' + mdInline(igra.meta.opis) + '</div>' : '');
   }
   function otvoriInfo() {
-    if (!infoTekstIgre()) return;
     popuniInfo();
     $('panelInfo').classList.add('otvoren');
     $('zastorRj').classList.add('vidi');
@@ -3730,7 +3907,9 @@
   }
   function infoVidljiv(da) {
     var b = $('lebdiInfo'); if (!b) return;
-    if (da && infoTekstIgre()) {
+    // Ikona stoji kroz cijelu vježbu, i kad ta stranica nema svoju bilješku — tako se
+    // ne pojavljuje i nestaje između stranica, a i sama kaže kad bilješke nema.
+    if (da) {
       b.classList.add('vidi'); postaviIkonuInfo();
       // pri prelasku na sljedeću vježbu s otvorenim panelom sadržaj se mora osvježiti
       if ($('panelInfo').classList.contains('otvoren')) popuniInfo();
@@ -4056,6 +4235,24 @@
     }
   }
 
+  // ---- sklopivi izbornik na mobitelu: ☰ otvara popis, C (isto mjesto) ga zatvara ----
+  function otvoriIzbornik() {
+    document.body.classList.add('izbornikOtvoren');
+    $('izbornikPozadina').classList.add('vidi');
+  }
+  function zatvoriIzbornik() {
+    document.body.classList.remove('izbornikOtvoren');
+    $('izbornikPozadina').classList.remove('vidi');
+  }
+  function klikLogo() {
+    if (window.innerWidth <= 720) {
+      if (document.body.classList.contains('izbornikOtvoren')) zatvoriIzbornik();
+      else otvoriIzbornik();
+    } else idi('main');
+  }
+  window.zatvoriIzbornik = zatvoriIzbornik;
+  window.klikLogo = klikLogo;
+
   // ================= COLOR SCHEMES =================
   var TEME = [
     { id: 'zagreb',  ime: 'Zagreb',   opis: 'Warm paper and brick red — the default.',
@@ -4089,20 +4286,91 @@
   }
   window.odaberiTemu = odaberiTemu;
 
+  // ================= READING FONTS =================
+  // Isti put kao teme: izbor živi u PROGRESS.postavke, postaviFont() samo crta.
+  var FONTOVI = [
+    { id: 'sistem',   ime: 'System',                css: null },
+    { id: 'inter',    ime: 'Inter',                 css: 'Inter:wght@400;500;600;700' },
+    { id: 'grotesk',  ime: 'Space Grotesk',         css: 'Space+Grotesk:wght@400;500;600;700' },
+    { id: 'atkinson', ime: 'Atkinson Hyperlegible', css: 'Atkinson+Hyperlegible:wght@400;700' },
+    { id: 'lexend',   ime: 'Lexend',                css: 'Lexend:wght@400;500;600;700' },
+    { id: 'literata', ime: 'Literata',              css: 'Literata:opsz,wght@7..72,400;7..72,600' }
+  ];
+  // pismo se skida tek kad zatreba — tko ostane na sistemskom ne plaća ništa
+  var FONT_UCITAN = {};
+  function ucitajFont(id) {
+    var f = null, i;
+    for (i = 0; i < FONTOVI.length; i++) if (FONTOVI[i].id === id) f = FONTOVI[i];
+    if (!f || !f.css || FONT_UCITAN[id]) return;
+    FONT_UCITAN[id] = true;
+    var l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css2?family=' + f.css + '&display=swap';
+    document.head.appendChild(l);
+  }
+  function fontSad() {
+    var f = (PROGRESS.postavke && PROGRESS.postavke.font) || '';
+    for (var i = 0; i < FONTOVI.length; i++) if (FONTOVI[i].id === f) return f;
+    return 'sistem';
+  }
+  function postaviFont(id) {
+    ucitajFont(id);
+    document.body.setAttribute('data-font', id);
+  }
+  function odaberiFont(id) {
+    postaviFont(id);
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    PROGRESS.postavke.font = id;
+    spremiProgress();
+    renderOptions();
+  }
+  window.odaberiFont = odaberiFont;
+
   function renderOptions() {
-    var sad = temaSad();
+    var sad = temaSad(), sadF = fontSad();
+    // nazivi pisama moraju biti ispisani svojim pismom — zato se učitavaju
+    // tek ovdje, kad je Options otvoren, a ne pri svakom pokretanju appa
+    FONTOVI.forEach(function (f) { ucitajFont(f.id); });
+
     var html = '<h1 class="sekcija">Options</h1>' +
-      '<p class="dcNapomena" style="margin:0 0 16px 2px">Color scheme — applies everywhere and is remembered on this device.</p>' +
-      '<div class="opcijeMreza">';
+      '<div class="postavkeDva" style="margin-top:16px">';
+
+    html += '<div><div class="nasP">Color scheme</div><div class="stupacP">';
     TEME.forEach(function (t) {
       html += '<div class="temaK' + (t.id === sad ? ' aktivna' : '') + '" onclick="odaberiTemu(\'' + t.id + '\')">' +
-        '<div class="imeT">' + esc(t.ime) + (t.id === sad ? '<span class="kvaka">✓ in use</span>' : '') + '</div>' +
+        '<div class="imeT">' + esc(t.ime) + (t.id === sad ? '<span class="kvaka">\u2713 in use</span>' : '') + '</div>' +
         '<div class="podT">' + esc(t.opis) + '</div>' +
         '<div class="uzorak">' +
           t.boje.map(function (b) { return '<span style="background:' + b + '"></span>'; }).join('') +
         '</div></div>';
     });
-    html += '</div>';
+    html += '</div></div>';
+
+    html += '<div><div class="nasP">Reading font</div><div class="stupacP">';
+    FONTOVI.forEach(function (f) {
+      var st = f.css ? ' style="font-family:\'' + f.ime + '\', system-ui, sans-serif"' : '';
+      html += '<div class="fontK' + (f.id === sadF ? ' aktivna' : '') + '" onclick="odaberiFont(\'' + f.id + '\')">' +
+        '<span class="imeF"' + st + '>' + esc(f.ime) + '</span>' +
+        (f.id === sadF ? '<span class="kvaka">\u2713</span>' : '') +
+        '</div>';
+    });
+    html += '</div></div></div>';
+
+    // pregled: ista vježba kao u lekciji, da se izbor vidi na pravom sadržaju
+    html += '<div class="pregledP"><div class="nasP">Preview</div><div class="ploca">' +
+      '<div class="pricaBox">Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.</div>' +
+      '<div class="pitanjeText">Kupujem <b>___</b> na tr\u017Enici.</div>' +
+      '<div class="opcije">' +
+        '<div class="opcija tocno">jabuku</div>' +
+        '<div class="opcija">jabuka</div>' +
+        '<div class="opcija">jabukom</div>' +
+      '</div>' +
+      '<div class="odlomak" style="margin-top:16px"><span class="vodilja">Why this works</span>' +
+      'Croatian marks the object of a sentence with its ending, not with word order. ' +
+      '<em>Jabuka</em> is the apple sitting on the table; <em>jabuku</em> is the apple somebody ' +
+      'is doing something to. Change the ending and you change who is acting on what.</div>' +
+      '</div></div>';
+
     VIEW.innerHTML = html;
   }
 
@@ -4115,6 +4383,7 @@
   function idi(view, arg1, arg2, arg3) {
     ZADNJI_VIEW = { view: view, arg1: arg1, arg2: arg2, arg3: arg3 };
     oznaciNav(view);
+    zatvoriIzbornik();
     var jeNulaCilj = (view === 'unit' && arg1 === L0_TIP && arg2 === L0_RAZINA);
     // Lesson 0 je otvorena svima. Svaka druga cjelina i svaka mini-igra traže pristup:
     // barem račun (razina 1, daily/weekly, mini-igre), a razina 2+ traži pretplatu.
@@ -4747,6 +5016,17 @@
     if (tip === 'Daily challenge' && razina !== dailyDanasnji()) { renderDaily(); return; }
     var igre = igreCjeline(tip, razina);
     if (igre.length === 0) { renderLessons(); return; }
+    // Cjelina je otključana, ali njezin sadržaj još nije stigao iz zaštićenog dijela —
+    // dohvati ga pa se vrati ovamo. Bez ovoga bi se otvorila prazna vježba.
+    if (igre.some(function (g) { return g.zakljucano; })) {
+      VIEW.innerHTML = '<div class="zakljBanner">Loading this unit…</div>';
+      ucitajPlusSadrzaj(function (uspjeh) {
+        if (uspjeh) renderUnit(tip, razina, indeks);
+        else VIEW.innerHTML = '<div class="zakljBanner">This unit could not be loaded. ' +
+          'Check your connection and try again.</div>';
+      });
+      return;
+    }
     oznaciPokrenuto(igre[0].cjelina);
     if (indeks >= igre.length) { renderSummary(tip, razina); return; }
     igra = igre[indeks];
@@ -5814,7 +6094,12 @@
     (function pokusaj() {
       pokusaji++;
       ucitajEntitlement(function () {
-        if (imaPretplatu() || pokusaji >= 5) { renderAccount(); osvjeziHeader(); return; }
+        if (imaPretplatu() || pokusaji >= 5) {
+          // Pravo pristupa se upravo promijenilo — zaštićeni sadržaj smije ispočetka.
+          resetirajPlusSadrzaj();
+          ucitajPlusSadrzaj();
+          renderAccount(); osvjeziHeader(); return;
+        }
         setTimeout(pokusaj, 2000);
       });
     })();
@@ -5867,8 +6152,17 @@
     var v = valute();
     var odigrano = Object.keys(PROGRESS.vjezbe).length;
     var statPretplate;
-    if (imaPretplatu()) {
-      var datum = ENTITLEMENT.current_period_end ? new Date(ENTITLEMENT.current_period_end).toLocaleDateString() : '';
+    if (razlogPristupa() === 'akcija') {
+      // Akcija "upadaj" — pristup bez plaćanja dok traje. Namjerno se ne nudi pretplata:
+      // nema smisla naplaćivati nešto što je trenutno besplatno.
+      var doKad = Date.parse(POSTAVKE.svima_pristup_do);
+      statPretplate =
+        '<h2 style="font-size:1rem;margin:22px 0 8px">Everything unlocked ✓</h2>' +
+        '<p style="color:var(--muted);font-size:.9rem;margin-bottom:10px">Every level is open to ' +
+          'all accounts right now' + (isNaN(doKad) ? '' : ', until ' + new Date(doKad).toLocaleDateString()) +
+          '. No subscription needed.</p>';
+    } else if (imaPretplatu()) {
+      var datum = (ENTITLEMENT && ENTITLEMENT.current_period_end) ? new Date(ENTITLEMENT.current_period_end).toLocaleDateString() : '';
       var portalSpreman = STRIPE_PORTAL_URL.indexOf('YOUR-PORTAL-LINK') === -1;
       statPretplate =
         '<h2 style="font-size:1rem;margin:22px 0 8px">Croland Plus ✓</h2>' +
@@ -5921,6 +6215,7 @@
   // ================= INIT =================
   VIEW = $('view');
   postaviTemu(temaSad());  // default 'zagreb' paint before any hydration — avoids a flash
+  postaviFont(fontSad());
 
   // -- lebdeći rječnik: otvaranje, pretraga, opseg, veličina, povlačenje gore-dolje --
   (function () {
@@ -6014,6 +6309,22 @@
       sx = null;
     });
   })();
+  // Kratka dijagnostika za konzolu: kaže je li učitan ovaj index.html i ovaj data.js.
+  // Upiši u konzolu: zastoNemaInfo()
+  window.zastoNemaInfo = function () {
+    var b = document.getElementById('lebdiInfo');
+    return {
+      verzijaStranice: 'info-v1',
+      ikonaPostojiUHTMLu: !!b,
+      ikonaVidljiva: b ? b.classList.contains('vidi') : false,
+      trenutnaVjezba: igra ? (igra.cjelina + ' — str. ' + igra.stranica) : 'nisi unutar vježbe',
+      ovaVjezbaImaInfo: !!infoTekstIgre(),
+      vjezbiSInfoUData: (window.PODACI && window.PODACI.igre)
+        ? window.PODACI.igre.filter(function (x) { return x.meta && x.meta.info; }).length : 0
+    };
+  };
+  console.log('CROLAND info-v1 — upiši zastoNemaInfo() za provjeru');
+
   // Session check + first hydration + first render all happen inside initAuth()'s
   // onAuthStateChange handler (poslijeAuthPromjene) — see the AUTH section above.
   initAuth();

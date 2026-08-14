@@ -342,7 +342,6 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Nećemo ići u kino. | en: We won't go to the cinema.
 - On hoće, ali ja neću. | en: He wants to, but I won't.
 - Sutra ću putovati u Zagreb. | en: Tomorrow I will travel to Zagreb.
-- Putovat ću tri sata. | en: I will travel for three hours.
 - Čitat ću knjigu i slušat ću glazbu. | en: I will read a book and listen to music.
 - Tamo ću vidjeti prijatelja. | en: There I will see my friend.
 - Ručat ćemo zajedno. | en: We will have lunch together.

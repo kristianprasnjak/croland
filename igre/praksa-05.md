@@ -3,6 +3,7 @@ cjelina: Practice 5
 
 ## Text 1: At the market
 format: tekst
+info: A short story with the English beside it. Read for the endings: everything Ana acts on is feminine in **-u** (*kupuje jabuk**u***, *bira mal**u** vrećic**u***), while *riba je svježa* only names and describes.
 - Your accusative in action — passive words: *šarena* (colorful), *poslije* (afterwards), *jaka* (strong), *ujutro* (in the morning), *u podne* (at noon), *navečer* (in the evening), *svaki dan* (every day), *imamo* (we have), *onda* (then), *gladna* (hungry), *žedna* (thirsty).
 - Subota je i Ana ide na tržnicu. | It is Saturday and Ana is going to the market.
 - Tržnica je velika i šarena. | The market is big and colorful.
@@ -16,6 +17,7 @@ format: tekst
 
 ## Bought it, or only looked at it?
 format: razvrstavanje
+info: Sorting from what the text said, not from the endings — the words are shown in their naming form. *Gleda* means she only looked at it; *kupuje* means it actually went into the bag.
 stupci: KUPUJE | SAMO GLEDA
 opis: Read Text 1 again in your head. Ana walked away with some of these and left the others on the stall.
 - jabuka | KUPUJE
@@ -28,6 +30,7 @@ opis: Read Text 1 again in your head. Ana walked away with some of these and lef
 
 ## Did you get it?
 format: izbor
+info: Comprehension questions on Text 1. Answers about what Ana buys or drinks come back in the target form ending in **-u** (*kavu*, *jabuku*), while answers that describe something keep **-a** (*svježa*, *slatka*).
 tekst: Subota je i Ana ide na tržnicu. Tržnica je velika i šarena. Ana kupuje jabuku, bananu i salatu. Ona gleda ribu — riba je svježa, ali je skupa. Ana gleda i tortu, ali torta je skupa. Ana kupuje i čokoladu jer voli čokoladu! Ona bira malu vrećicu i plaća račun. Poslije pije kavu i jede pitu. Kava je jaka, a pita je slatka.
 opis: Answer from the text.
 - Što Ana kupuje? | jabuku, bananu i salatu | ribu i juhu | kruh i sir
@@ -39,6 +42,7 @@ opis: Answer from the text.
 
 ## Text 2: A note on the fridge
 format: tekst
+info: A note rather than a story, with the same rule at work: *Trebamo riž**u***, *kuham juh**u***, *Ne trebamo čokolad**u***. *Kruh* and *mlijeko* sit there unchanged because they are not feminine.
 - A different kind of reading: no story, just a note your mother left you. Passive words: *trebamo* (we need), *hrana* (food), *rano* (early), *navečer* (in the evening), *i* here means "also".
 - Bok! Danas idem na posao rano. | Hi! Today I'm going to work early.
 - Ti kupuješ hranu, a ja plaćam račun. | You buy the food, and I'll pay the bill.
@@ -51,6 +55,7 @@ format: tekst
 
 ## Remember the list
 format: pamti
+info: A short-term memory game with shopping words. They flash in their naming form, but on a real errand you would still say *Trebam rib**u*** — anything you need is a target and takes **-u**.
 opis: Three things flash, then vanish — pick them again in the same order. Exactly what happens when you leave the note on the fridge and walk to the shop anyway.
 - kruh | bread
 - mlijeko | milk
@@ -67,6 +72,7 @@ opis: Three things flash, then vanish — pick them again in the same order. Exa
 
 ## What does the note actually say?
 format: izbor
+info: Questions that need working out, not just spotting. Note *Ja plaćam račun* against *Ti kupuješ hranu*: the verb ending alone tells you who does what, since Croatian happily drops *ja* and *ti*.
 tekst: Bok! Danas idem na posao rano. Ti kupuješ hranu, a ja plaćam račun. Trebamo kruh, mlijeko i rižu. Trebamo i jednu bocu i jednu vrećicu. Riba je danas svježa — kupuješ ribu? Ja kuham juhu navečer. Ne trebamo čokoladu! Hvala! Mama
 opis: Careful — some of these you have to work out, not just find.
 - Tko plaća račun? | mama | ti | nitko
@@ -77,6 +83,7 @@ opis: Careful — some of these you have to work out, not just find.
 
 ## At the shop
 format: dijalog
+info: A shopping dialogue where you choose your replies. Feminine things you ask for end in **-u** (*Trebam jedn**u** boc**u***), and *Trebate li još nešto?* is the yes-or-no pattern — verb first, then *li*.
 opis: Now you are the one at the counter. Choose your replies and get through a whole Croatian shop without English. Passive words: *odličnu* (excellent), *jednu* (one), *Imate li?* (Do you have?), *To je sve?* (Is that everything?).
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Trebam kruh, mlijeko i rižu. | Dobar dan! Samo gledam, hvala.
@@ -93,6 +100,7 @@ opis: Now you are the one at the counter. Choose your replies and get through a 
 
 ## Text 3: Three friends, three bags
 format: tekst
+info: A logic puzzle in Croatian. Nobody says whose bag is whose, so match each person's habits to the contents; note that the colour agrees with its noun, *žut**a** vrećic**a***, and moves with it.
 - A puzzle, not a story. Nobody tells you whose bag is whose — you have to work it out. Passive words: *žuta* (yellow), *crvena* (red), *zelena* (green), *nešto* (something).
 - Ana, Marko i Ivana idu na tržnicu. | Ana, Marko and Ivana are going to the market.
 - Ana ne voli ribu, ali voli voće. | Ana doesn't like fish, but she loves fruit.
@@ -104,6 +112,7 @@ format: tekst
 
 ## Solve the puzzle
 format: izbor
+info: Deduction questions on Text 3. The questions themselves stand in the target form — *Tko nosi žut**u** vrećic**u***? — because the bag is what gets carried, and colour and noun both carry the **-u**.
 tekst: Ana, Marko i Ivana idu na tržnicu. Ana ne voli ribu, ali voli voće. Marko je gladan. On kupuje kruh i sir. Ivana kuha juhu navečer. Žuta vrećica ima jabuku, krušku i bananu. Crvena vrećica ima kruh i sir. Zelena vrećica ima rajčicu, mrkvu i luk.
 opis: Nobody says whose bag is whose. Work it out from what each person likes and does.
 - Tko nosi žutu vrećicu? | Ana | Marko | Ivana
@@ -115,6 +124,7 @@ opis: Nobody says whose bag is whose. Work it out from what each person likes an
 
 ## Text 4: Breakfast
 format: tekst
+info: An ordinary day, thick with **-u** endings. Count them as they go by: *pijem vod**u***, *jedem jabuk**u***, *idem u pekar**u***, *volim subot**u***. Targets and destinations use the very same ending.
 - Back to a normal day — but count how many **-u** endings go past you. Passive words: *ujutro* (in the morning), *u podne* (at noon), *svaki dan* (every day), *televizija* (television), *idemo* (we go), *jedemo* (we eat).
 - Ujutro pijem vodu, a poslije pijem kavu. | In the morning I drink water, and afterwards I drink coffee.
 - Volim kavu! | I love coffee!
@@ -128,6 +138,7 @@ format: tekst
 
 ## Tap the ending from the texts
 format: nastavak
+info: One tap per sentence, every sentence lifted from the four texts. Naming beside *je* takes **-a**; whatever a verb acts on takes **-u**. Compare *Juh**a** je topla* with *Mama kuha juh**u***.
 nastavci: a | u
 opis: Every sentence here came out of the four texts you just read. Naming takes **-a**, target takes **-u**.
 - Tržnic___ je velika i šarena. | The market is big and colorful. | a
@@ -149,6 +160,7 @@ opis: Every sentence here came out of the four texts you just read. Naming takes
 
 ## Type the accusative
 format: upis
+info: You type the target form, with the text above as a safety net. Drop the final **-a** and add **-u**: *televizija → televizij**u***, *škola → škol**u***. A destination after *u* behaves in exactly the same way.
 tekst: Ujutro pijem vodu, a poslije pijem kavu. Jedem jabuku i bananu. Mama kuha juhu, a tata gleda televiziju. Poslije idem u pekaru i kupujem kruh. Volim subotu jer ne idem u školu!
 opis: Type the accusative form — the text has the answer.
 - Ujutro pijem ___ . (voda) | vodu
@@ -162,6 +174,7 @@ opis: Type the accusative form — the text has the answer.
 
 ## Ana's Saturday, in order
 format: poredak
+info: Ordering seven moments into a sequence that makes sense. No times are given, so use meaning: you choose and check the price before *plaća račun*. Every feminine thing she handles carries **-u**.
 opis: Seven moments from a market morning, shuffled. Nobody wrote this story down — put it in the order it would actually happen.
 - Ana je gladna i žedna.
 - Ana ide na tržnicu.
@@ -173,6 +186,7 @@ opis: Seven moments from a market morning, shuffled. Nobody wrote this story dow
 
 ## Translate by building
 format: slaganje
+info: English in, Croatian tiles out. Two habits decide most of these: a feminine target ends in **-u** with its adjective matching (*mal**u** vrećic**u***), and a comma comes before *a* and *ali*.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the four texts.
 - Ana ide na tržnicu. | en: Ana is going to the market.
 - Tržnica je velika. | en: The market is big.
@@ -205,6 +219,7 @@ opis: Read the English sentence, then build its Croatian translation from the ti
 
 ## Pop the right balloon
 format: baloni
+info: A timed picture-to-word tap, all words in the naming form. That is why you see *jabuka* here and not *jabuku* — the **-u** shows up only once a verb acts on the word.
 opis: The market is closing. A picture appears — tap the balloon with its word before it floats away.
 - jabuka | apple
 - banana | banana

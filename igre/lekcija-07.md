@@ -3,11 +3,13 @@ cjelina: Lesson 7
 
 ## The world multiplies
 format: tekst
+info: Your opening map for Lesson 7. From here on nouns come in groups — *knjiga* becomes *knjige*, *učenik* becomes *učenici* — and the present tense finally gets its **we**, **you all** and **they** forms.
 - One coffee, one friend, one tram — so far, everything came one at a time. Today the world multiplies: *knjiga* becomes *knjige*, *učenik* becomes *učenici*, and verbs finally learn to say **we**, **you all** and **they**.
 - We'll practice in the liveliest place possible: a Croatian school full of children and songs.
 
 ## Rapid recall
 format: brzina
+info: A timed warm-up on the **singular target form** from Lesson 6. Feminine swaps *-a* for *-u* (*kava* to *kavu*), masculine living words add *-a* (*pas* to *psa*), and non-living masculine words stay exactly as they are (*most*).
 trajanje: 60
 opis: City warm-up from Lesson 6 — tap the correct target form. Careful: things don't change at all.
 - prijatelj | prijatelja
@@ -28,6 +30,7 @@ opis: City warm-up from Lesson 6 — tap the correct target form. Careful: thing
 
 ## School words
 format: kartice
+info: New school vocabulary, all shown in the **singular**. Note each word's gender from its ending — *-a* is feminine (*škola*), a consonant is masculine (*ispit*), *-o* or *-e* is neuter (*pismo*) — because gender decides the plural you build next.
 opis: School vocabulary — plus three new verbs for playing and singing. Every noun is shown in the singular; making it plural is today's job.
 - škola | school
 - učenik | pupil
@@ -55,6 +58,7 @@ opis: School vocabulary — plus three new verbs for playing and singing. Every 
 
 ## One becomes many
 format: parovi
+info: Singular meets plural. Listen for the three endings: masculine **-i**, feminine **-e**, neuter **-a**. Two traps here — *k* softens to *c* (*dječak* to *dječaci*), and short words like *stol* pad out to *stolovi*.
 opis: Match each singular with its plural. Listen for the new ending!
 - knjiga | knjige
 - učenik | učenici
@@ -71,6 +75,7 @@ opis: Match each singular with its plural. Listen for the new ending!
 
 ## The plural patterns
 format: tekst
+info: The core rule of the whole lesson on one page: **-i / -e / -a**, the same trio you already use for adjectives. Learn it here and *knjige*, *učenici* and *pisma* stop being three problems and become one.
 - Three genders, three endings — the same trio you know from adjectives:
 - **Masculine → -i:** učenik → učenic**i**, dječak → dječac**i** (short words stretch: stol → stol**ovi**)
 - **Feminine → -e:** knjiga → knjig**e**, pjesma → pjesm**e**
@@ -79,6 +84,7 @@ format: tekst
 
 ## Sort the plurals
 format: razvrstavanje
+info: Work backwards from a plural to its gender. An **-i** word is masculine (*prozori*), **-e** is feminine (*olovke*), **-a** is neuter (*jutra*). Watch *stolovi* and *gradovi* — the *-ov-* padding is still just the masculine *-i*.
 stupci: -I (m.) | -E (f.) | -A (n.)
 opis: Sort the plural words by their ending pattern.
 - učenici | -I (m.)
@@ -102,6 +108,7 @@ opis: Sort the plural words by their ending pattern.
 
 ## Tap the plural ending
 format: nastavak
+info: One tap fills the plural ending. Masculine takes **-i**, feminine **-e**, neuter **-a**; the adjective in the sentence agrees with the same trio, so *Knjige su nove* but *Pisma su duga*.
 nastavci: i | e | a
 opis: English above, Croatian below. The word is waiting for its plural ending — one tap. Masculine takes **-i**, feminine **-e**, neuter **-a**.
 - Učenic___ su mladi. | The pupils are young. | i
@@ -125,6 +132,7 @@ opis: English above, Croatian below. The word is waiting for its plural ending �
 
 ## Verbs go plural too
 format: tekst
+info: The other half of Lesson 7: the plural persons. **mi** is always **-mo** and **vi** is always **-te**, for every verb in the language. Only **oni** depends on the verb family — *čitaju*, *uče*, *jedu*.
 - The endings you know (*-m, -š, —*) get three big siblings:
 - **mi** (we) always takes **-mo**, and **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide: *čita**mo** · uči**mo** · jede**mo*** · *čita**te** · uči**te** · jede**te***.
 - **oni** (they) is the only one that looks at the verb family — the same three families from Lesson 3: *čita**ju*** (-am) · *uč**e*** (-im) · *jed**u*** (-em). Grammar 7 gives you the full picture; here just notice that *they* is the fussy one.
@@ -133,6 +141,7 @@ format: tekst
 
 ## Tap the person
 format: nastavak
+info: You pick the person ending. **-mo** means *we*, **-te** means *you all*, **-ju** means *they* — and *-ju* is safe here only because every verb on this page is an *-am* verb like *pjevati*.
 nastavci: mo | te | ju
 opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every verb here is from the **-am** family, where *oni* really does end in **-ju**; the other two families get their own page in Grammar 7.
 - Mi pjeva___ pjesme. | We sing songs. | mo
@@ -154,6 +163,7 @@ opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every
 
 ## Pick the right form
 format: izbor
+info: Match the verb to its subject. Look at the subject first: a plural noun like *dječaci* needs the *they* form, and *djeca* counts as **they** even though it ends in *-a* — *Djeca pjevaju*.
 opis: Choose the correct verb form.
 - Djeca ___ pjesme. | pjevaju | pjevam | pjevamo
 - Mi ___ film. | gledamo | gledate | gledaju
@@ -168,6 +178,7 @@ opis: Choose the correct verb form.
 
 ## Make it plural
 format: upis
+info: Type the plural yourself, so spelling counts. Remember the two changes the ear notices: *k* becomes *c* before *-i* (*učenik* to *učenici*), and one-syllable masculines grow *-ov-* (*stol* to *stolovi*). *Dijete* follows no rule at all: *djeca*.
 opis: Type the plural.
 - knjiga → | knjige
 - učenik → | učenici
@@ -186,6 +197,7 @@ opis: Type the plural.
 
 ## Build the classroom
 format: slaganje
+info: Build whole sentences, so every part has to agree. A plural noun needs a plural adjective **and** a plural verb: *Učenici su mladi*, *Knjige su nove*, *Djeca čitaju knjige*.
 opis: Arrange the tiles to build the sentence.
 - Učenici su mladi i veseli.
 - Djevojčice pjevaju pjesme.
@@ -200,6 +212,7 @@ opis: Arrange the tiles to build the sentence.
 
 ## Morning at school
 format: dijalog
+info: A real conversation, so your reply has to fit the question. Most answers here are plural — pick the form that matches who is doing it: *Dobro **smo***, *Oni **igraju** nogomet*.
 opis: The first bell has gone and your new class is settling in. Choose your replies. Passive words: *Kako ste?* (How are you?), *počinjemo* (we're starting), *otvorite* (open), *uvijek* (always).
 - npc | Dobro jutro, djeco! Kako ste?
 - ti | Dobro jutro! Dobro smo. | Dobro jutro! Umorni smo.
@@ -216,6 +229,7 @@ opis: The first bell has gone and your new class is settling in. Choose your rep
 
 ## Memory
 format: memorija
+info: Pair each singular with its plural. Mixed in are the irregulars you cannot derive: *dijete* to **djeca** and *brat* to **braća**. Learn those two as words, not as patterns.
 opis: Find the pairs — singular and its plural.
 - knjiga | knjige
 - učenik | učenici
@@ -230,6 +244,7 @@ opis: Find the pairs — singular and its plural.
 
 ## A day in the classroom
 format: izbor
+info: Read the scene, then answer. Nearly every noun is plural, so let the endings guide you — *knjige* and *djevojčice* are feminine **-e**, *stolovi* and *prozori* masculine **-i**, and the adjectives copy them.
 tekst: Ovo je škola. Učenici su mladi i veseli. Knjige su nove, ali stolovi su stari. Dječaci igraju nogomet, a djevojčice pjevaju pjesme. Učiteljica svira klavir. Prozori su veliki, a zidovi su žuti. Dani su dugi, ali su lijepi.
 opis: Read the classroom scene, then answer the questions. Passive words: *zidovi* (walls), *žuti* (yellow, plural).
 - Kakvi su učenici? | mladi i veseli | stari i umorni | tihi i tužni
@@ -240,6 +255,7 @@ opis: Read the classroom scene, then answer the questions. Passive words: *zidov
 
 ## Lesson checkpoint
 format: provjera
+info: The end-of-lesson check, mixing everything from Lesson 7: the three plural endings, the *-ovi* words, the irregular *djeca*, and the plural verb persons **-mo**, **-te**, **-ju/-u**.
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 8.
 - slaganje | Djeca pjevaju pjesme.
@@ -257,5 +273,6 @@ opis: Final check! Score 80% to be ready for Lesson 8.
 
 ## Reward & preview
 format: tekst
+info: A wrap-up of what you can now say: any noun in the plural, any adjective agreeing with it, and the present tense in all six persons. Grammar 7 next turns those plurals into targets.
 - Sjajno! You can now talk about many things at once — and your verbs finally have their full present-tense family.
 - **Next up:** Grammar 7 turns all those plurals into targets — and hands you a piece of good news: in the plural, the living/non-living split from Lesson 6 simply disappears. Then Lesson 8 looks ahead: summer plans, travel, and the future tense.

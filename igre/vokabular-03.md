@@ -3,6 +3,7 @@ cjelina: Vocabulary 3
 
 ## Verbs (infinitive → ja / ti / on-ona)
 format: kartice
+info: Each card gives one verb as a set of three forms. Memorise the *ja* form, the first of the three: strip its **-m** for on/ona (*pijem* → *pije*) and swap in **-š** for ti. The infinitive on its own cannot predict them.
 opis: The nine verbs from Lesson 3. Learn each one as a set of three — the *ja* form is the one worth remembering, because the other two follow from it.
 - čitati → čitam, čitaš, čita | to read
 - pisati → pišem, pišeš, piše | to write
@@ -16,6 +17,7 @@ opis: The nine verbs from Lesson 3. Learn each one as a set of three — the *ja
 
 ## Ten more verbs
 format: kartice
+info: Ten new verbs in the same three-form layout. The trap is trusting the infinitive: *trčati* looks like *spavati* but says *trčim*, and *prati* says *perem*. Learn the *ja* form and the rest of the verb follows from it.
 opis: Ten new ones, same three-form pattern. Three of them hide a surprise: *trčati* looks like it should say -am, *prati* and *poznavati* barely resemble their own *ja* forms. Learn the *ja* form and the surprise disappears.
 - crtati → crtam, crtaš, crta | to draw
 - hodati → hodam, hodaš, hoda | to walk
@@ -30,6 +32,7 @@ opis: Ten new ones, same three-form pattern. Three of them hide a surprise: *tr�
 
 ## Three families
 format: razvrstavanje
+info: Sorting into the three conjugation families, and only the *ja* form decides which. Say the verb about yourself first: *čitam* lands in **-am**, *radim* in **-im**, *pišem* in **-em**. The infinitive is a false friend here.
 stupci: -AM | -IM | -EM
 opis: Sort each verb by the *ja* form it makes. Seven say -am, six say -im, six say -em. Sort by the ending you hear, never by the infinitive — *trčati* and *spavati* look alike and land in different columns.
 - čitati | -AM
@@ -54,6 +57,7 @@ opis: Sort each verb by the *ja* form it makes. Seven say -am, six say -im, six 
 
 ## Match the pairs
 format: parovi
+info: Meaning only, no endings at play. The useful separations: *gledati* is to watch while *slušati* is to listen, and *učiti* is to study while *misliti* is to think and *razumjeti* is to understand.
 opis: Match each verb with its English meaning.
 - čitati | to read
 - pisati | to write
@@ -73,6 +77,7 @@ opis: Match each verb with its English meaning.
 
 ## Things that go with verbs
 format: kartice
+info: Objects for your new verbs. Each one goes straight after the verb unchanged — *Pijem čaj*, *Gledam film* — and its ending still gives you the gender, so *mačka* is feminine, *film* masculine, *pismo* neuter. The reshaping rules come in Lesson 5.
 opis: The things you read, eat, drink and watch. Every one of these keeps the same shape when it becomes the object — *Pijem čaj*, *Gledam film* — so you can use them today, with no new endings.
 - sok | juice
 - čaj | tea
@@ -105,6 +110,7 @@ opis: The things you read, eat, drink and watch. Every one of these keeps the sa
 
 ## How often?
 format: kartice
+info: Five frequency words that never change shape, sitting in front of the verb: *Često čitam*, *Ponekad gledam film*. With *nikad* Croatian still keeps the *ne* — *Nikad ne spavam* — a double negative that is simply the correct form.
 opis: Five words that turn a verb into a habit. They never change shape, and they sit happily in front of the verb: *Uvijek čitam. Nikad ne spavam.*
 - uvijek | always
 - često | often
@@ -114,6 +120,7 @@ opis: Five words that turn a verb into a habit. They never change shape, and the
 
 ## Memory
 format: memorija
+info: A pairing game over the nouns you just met, so this is recognition rather than grammar. Use the ending as a free gender clue while you flip: *mačka* is feminine, *sok*, *čaj* and *pas* are masculine, *pismo* is neuter.
 opis: Flip the cards and find the pairs.
 - sok | juice
 - čaj | tea
@@ -128,6 +135,7 @@ opis: Flip the cards and find the pairs.
 
 ## Speed challenge: the ja-form
 format: brzina
+info: Timed recognition of **-m** forms only, so every English answer begins with *I*. The stem-shifters are what cost you seconds: *perem* is I wash, *poznajem* is I know, *razumijem* is I understand.
 trajanje: 60
 opis: The "ja" form flashes — tap the English meaning!
 - čitam | I read
@@ -152,6 +160,7 @@ opis: The "ja" form flashes — tap the English meaning!
 
 ## Speed challenge: who is doing it?
 format: brzina
+info: Now the person changes, so check the last letter before you tap: **-m** is *I*, **-š** is *you*, and no ending at all is *he* or *she*. *Piješ* and *pije* differ by a single character and by who is drinking.
 trajanje: 60
 opis: Same verbs, but now the ending decides. Tap the English — watch for that **-š**.
 - čitam | I read
@@ -181,6 +190,7 @@ opis: Same verbs, but now the ending decides. Tap the English — watch for that
 
 ## Type the ja-form
 format: upis
+info: Production from the infinitive: type the form you would use about yourself, always ending in **-m**. All three families turn up — *hodati* gives *hodam*, *govoriti* gives *govorim*, *prati* gives *perem* — and the stem may shift on the way.
 opis: You get the infinitive — type the form you would use about yourself.
 - čitati → | čitam
 - pisati → | pišem
@@ -204,6 +214,7 @@ opis: You get the infinitive — type the form you would use about yourself.
 
 ## Type it in Croatian
 format: upis
+info: Spelling practice, and Croatian is written exactly as it sounds, one letter per sound. Keep the diacritics — *čitati*, *učiti*, *čaj*, *mačka* — and note that the verbs are wanted as infinitives here, not as *ja* forms.
 opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - to read | čitati
 - to write | pisati

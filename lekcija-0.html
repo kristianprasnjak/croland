@@ -245,6 +245,45 @@
   }
   #zastor.vidi { display: block; }
 
+  /* -- lebdeći info: podrška uz zadatak + poziv da se nastavi -- */
+  /* Druga okrugla tipka u nizu: rječnik → info. Sadržaj dolazi iz polja INFO za
+     svaki ekran, pa se panel puni tek pri otvaranju. Ikona visi ispod rječnika
+     i prati ga kad ga polaznik povuče. */
+  #lebdiInfo {
+    position: fixed; top: 146px; right: 20px; z-index: 30; width: 48px; height: 48px;
+    border-radius: 50%; background: var(--card); color: var(--plava); border: 2px solid var(--plava);
+    display: none; align-items: center; justify-content: center; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(37,99,235,.22); font-size: 1.2rem; font-weight: 700;
+    user-select: none; touch-action: none; opacity: .92;
+    transition: opacity .3s, width .15s, height .15s, font-size .15s;
+  }
+  #lebdiInfo.vidi { display: flex; }
+  #lebdiInfo:hover { opacity: 1; }
+  #panelInfo {
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: 40; width: 380px; max-width: 88vw;
+    background: var(--card); box-shadow: -8px 0 30px rgba(0,0,0,.22); border-left: 1px solid var(--rub);
+    transform: translateX(105%); transition: transform .26s ease; display: flex; flex-direction: column;
+    border-top-left-radius: 18px; border-bottom-left-radius: 18px;
+  }
+  #panelInfo.otvoren { transform: translateX(0); }
+  #panelInfo .glavaRj {
+    padding: 14px 16px; border-bottom: 1px solid var(--rub); display: flex; align-items: center; gap: 8px;
+  }
+  #panelInfo .glavaRj .nasRj { font-weight: 700; margin-right: auto; }
+  #panelInfo .glavaRj button {
+    border: 1px solid var(--rub); background: var(--bg); border-radius: 8px;
+    width: 30px; height: 30px; font-size: 1rem; cursor: pointer; font-family: inherit; color: var(--ink);
+  }
+  #panelInfo .infoTijelo { overflow-y: auto; padding: 16px; flex: 1; }
+  #panelInfo .infoNaslov { font-weight: 700; font-size: .95rem; margin-bottom: 3px; }
+  #panelInfo .infoGdje { font-size: .78rem; color: var(--muted); margin-bottom: 14px; }
+  #panelInfo .infoTekst { font-size: .95rem; line-height: 1.62; }
+  #panelInfo .infoTekst strong { color: var(--plava); }
+  #panelInfo .infoOpis {
+    margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--rub);
+    font-size: .84rem; color: var(--muted); line-height: 1.5;
+  }
+
   .zvucnik {
     display: inline-flex; align-items: center; justify-content: center; margin-left: 6px;
     cursor: pointer; opacity: .5; font-size: .9em;
@@ -285,6 +324,15 @@
   </div>
   <input class="trazi" id="trazi" placeholder="Search…" autocomplete="off">
   <div class="popis" id="popis"></div>
+</div>
+
+<div id="lebdiInfo" title="Why this works">ℹ</div>
+<div id="panelInfo">
+  <div class="glavaRj">
+    <span class="nasRj">Why this works</span>
+    <button id="infoZatvori" title="Close">✕</button>
+  </div>
+  <div class="infoTijelo" id="infoTijelo"></div>
 </div>
 
 <script>
@@ -446,7 +494,7 @@
   }
   $('lebdi').onclick = function () { if (!vukao) otvoriPanel(); };
   $('zatvori').onclick = zatvoriPanel;
-  $('zastor').onclick = zatvoriPanel;
+  $('zastor').onclick = function () { zatvoriInfo(); zatvoriPanel(); };
   $('trazi').oninput = function () { crtajPopis(this.value); };
   $('manji').onclick = function () {
     velicinaIkone = Math.max(32, velicinaIkone - 8); primijeniVelicinu();
@@ -459,6 +507,7 @@
     l.style.width = velicinaIkone + 'px';
     l.style.height = velicinaIkone + 'px';
     l.style.fontSize = (velicinaIkone * 0.42) + 'px';
+    postaviIkonuInfo();
   }
   // povlačenje gore-dolje
   var vuce = false, vukao = false, pocetak = 0, pocetniTop = 0;
@@ -474,6 +523,7 @@
     if (Math.abs(d) > 4) vukao = true;
     var novi = Math.min(Math.max(pocetniTop + d, 62), window.innerHeight - velicinaIkone - 84);
     $('lebdi').style.top = novi + 'px';
+    postaviIkonuInfo();
   });
   $('lebdi').addEventListener('pointerup', function () { vuce = false; setTimeout(function () { vukao = false; }, 60); });
   // swipe udesno zatvara panel
@@ -483,6 +533,162 @@
     if (sx != null && e.changedTouches[0].clientX - sx > 70) zatvoriPanel();
     sx = null;
   });
+
+  // ---------------- LEBDEĆI INFO ----------------
+  // Jedan zapis po ekranu, istim redoslijedom kao EKRANI. Svaki nosi troje:
+  // podršku ("ide ti"), savjet za sam zadatak, i tihi poziv da se ide dalje.
+  var INFO = [
+    {
+      naslov: 'Match the pictures to the words',
+      gdje: 'Lesson 0 · screen 1 of 11',
+      tekst: 'You are about to learn your first six Croatian words without anyone explaining a single rule to you. ' +
+             'Look at the picture, then find the word that *feels* right — **banana**, **hotel**, **zebra** and **ananas** ' +
+             'look almost like English, so start with those and the rest narrows down on its own. ' +
+             'Nothing here can go wrong: a wrong pair just shakes and lets you try again.',
+      opis: 'Every word you match lights up a letter in the alphabet bar at the bottom. Thirty letters, thirty words — and you get them all in about five minutes.'
+    },
+    {
+      naslov: 'Memory: picture ↔ word',
+      gdje: 'Lesson 0 · screen 2 of 11',
+      tekst: 'Same six words you just met — now your memory does the work instead of your eyes. ' +
+             'The trick is not speed: **turn one card, say the word out loud, then hunt for its pair.** ' +
+             'Speaking it once is worth ten silent readings, and the sound plays for you every time you hit a picture.',
+      opis: 'This is how Croland teaches the whole language: you meet a word, you use it, you keep it. No vocabulary lists, ever.'
+    },
+    {
+      naslov: 'Six new words',
+      gdje: 'Lesson 0 · screen 3 of 11',
+      tekst: 'These six are less obvious than the first round, and that is on purpose — you are ready for it. ' +
+             '**Torta**, **lav**, **more**, **pas**, **vino**, **ćevapi**: two of them you can guess, and the guessing is the lesson. ' +
+             'Stuck? The **📖 dictionary** in the corner has all thirty words with pictures and sound, and using it is not cheating.',
+      opis: 'Twelve words in, and you have not been asked to memorise anything. Lesson 1 works exactly the same way — only there the words start turning into sentences.'
+    },
+    {
+      naslov: 'Pop the right balloon',
+      gdje: 'Lesson 0 · screen 4 of 11',
+      tekst: 'Twelve words, floating past, and you have to recognise one under gentle time pressure — this is the moment a word stops being a picture and starts being a word. ' +
+             '**Look at the picture at the top first, then scan the sky.** Miss a balloon and it simply floats away; the right word comes back around. ' +
+             'There is no score, no life lost, nothing to lose.',
+      opis: 'Recognition under a little pressure is what makes speech possible later. The full course keeps this feeling and adds listening, typing and speaking.'
+    },
+    {
+      naslov: 'The tricky six',
+      gdje: 'Lesson 0 · screen 5 of 11',
+      tekst: 'Now you meet the letters that exist only here: **dž** in *džem*, **đ** in *đak*, **ć** in *kuća*. ' +
+             'Do not try to pronounce them perfectly yet — just pair them with the picture and let the sound do the teaching. ' +
+             'Tap the speaker next to any solved word to hear a native voice again.',
+      opis: 'Croatian is spelled exactly as it sounds. Once these letters click, you can read any Croatian word out loud — including ones you have never seen.'
+    },
+    {
+      naslov: 'Load the train',
+      gdje: 'Lesson 0 · screen 6 of 11',
+      tekst: 'Nine words, three wagons: **FOOD**, **ANIMALS**, **THINGS**. Tap a picture first, then the wagon it belongs to. ' +
+             'You are no longer matching a word to a picture — you are sorting by *meaning*, which means you already know what these words mean. ' +
+             'Wrong wagon? It just shakes. The train waits for you.',
+      opis: 'Grouping words by meaning is how the brain files them for good. Croland builds every later lesson on families like these — food, home, travel, work.'
+    },
+    {
+      naslov: 'Body and everyday things',
+      gdje: 'Lesson 0 · screen 7 of 11',
+      tekst: 'Round four of matching, and by now you probably notice you are getting faster. ' +
+             '**Nos**, **oko**, **igla**, **jabuka**, **ljeto**, **njuška** — short words, easy wins. ' +
+             'If one refuses to stick, open the dictionary, listen to it twice, and move on. It will come back later and you will get it then.',
+      opis: 'You are two thirds through the Croatian alphabet. Look at the bar at the bottom — that gold is all yours.'
+    },
+    {
+      naslov: 'Build the word',
+      gdje: 'Lesson 0 · screen 8 of 11',
+      tekst: 'The one real trap in Croatian spelling: **dž**, **lj** and **nj** are *single letters*, not two. ' +
+             'So *njuška* starts with one tile, not with **n** + **j** — and the decoy tiles on screen are there to test exactly that. ' +
+             'Tap **⌫ Undo** as often as you like; wrong answers cost nothing and the tiles come straight back.',
+      opis: 'This is the kind of thing a course usually buries in a grammar note on page 40. You just learned it by doing it once.'
+    },
+    {
+      naslov: 'The last six',
+      gdje: 'Lesson 0 · screen 9 of 11',
+      tekst: 'The final six words of the alphabet: **cipela**, **drvo**, **sunce**, **šešir**, **uho**, **žaba**. ' +
+             'Take them at your own pace — there is no timer on this screen and never was. ' +
+             'When these are matched, every one of the thirty Croatian letters is unlocked.',
+      opis: 'Thirty words, learned by playing. That is one screen of Lesson 1 — and Lesson 1 is free.'
+    },
+    {
+      naslov: 'Remember the three',
+      gdje: 'Lesson 0 · screen 10 of 11',
+      tekst: 'Three pictures, a few seconds, then the words **in the same order**. ' +
+             'Do not stare — say the three words to yourself as they appear, and the order will still be there when the pictures are gone. ' +
+             'Get one wrong and nothing happens: the next round starts anyway, with new words.',
+      opis: 'Order matters more than you would think — it is the first step towards sentences, which is exactly where Lesson 1 picks up.'
+    },
+    {
+      naslov: 'You can read Croatian',
+      gdje: 'Lesson 0 · screen 11 of 11',
+      tekst: 'Thirty letters, thirty words, no rules memorised, no list revised — and you can now read every one of them out loud. ' +
+             'Tap any picture on the wall to hear it once more; this wall stays yours. ' +
+             'What comes next is the good part: **Lesson 1 turns these words into your first real sentences** — *This is a house. The coffee is good.* — and it is free.',
+      opis: 'Create a free account to keep your unlocked letters, your progress and your dictionary, and to open the full course: grammar in plain language, native audio, mini-games, and a daily challenge that keeps the streak going.'
+    }
+  ];
+
+  function mdInline(s) {
+    s = String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return s;
+  }
+  function infoZaEkran() { return INFO[idx] || null; }
+  function popuniInfo() {
+    var t = $('infoTijelo'); if (!t) return;
+    var o = infoZaEkran();
+    if (!o) { t.innerHTML = ''; return; }
+    t.innerHTML =
+      '<div class="infoNaslov">' + mdInline(o.naslov) + '</div>' +
+      '<div class="infoGdje">' + mdInline(o.gdje) + '</div>' +
+      '<div class="infoTekst">' + mdInline(o.tekst) + '</div>' +
+      (o.opis ? '<div class="infoOpis">' + mdInline(o.opis) + '</div>' : '');
+  }
+  function otvoriInfo() {
+    if (!infoZaEkran()) return;
+    popuniInfo();
+    $('panelInfo').classList.add('otvoren');
+    $('zastor').classList.add('vidi');
+  }
+  function zatvoriInfo() {
+    $('panelInfo').classList.remove('otvoren');
+    if (!$('panel').classList.contains('otvoren')) $('zastor').classList.remove('vidi');
+  }
+  function infoVidljiv() {
+    var b = $('lebdiInfo'); if (!b) return;
+    if (infoZaEkran()) {
+      b.classList.add('vidi');
+      postaviIkonuInfo();
+      if ($('panelInfo').classList.contains('otvoren')) popuniInfo();
+    } else {
+      b.classList.remove('vidi');
+      zatvoriInfo();
+    }
+  }
+  // ikona infa visi ispod ikone rječnika i prati je pri povlačenju i mijenjanju veličine
+  function postaviIkonuInfo() {
+    var b = $('lebdiInfo'); if (!b) return;
+    var v = Math.round(velicinaIkone * 0.86);
+    var vrh = $('lebdi').getBoundingClientRect().top;
+    b.style.width = v + 'px';
+    b.style.height = v + 'px';
+    b.style.fontSize = (v * 0.46) + 'px';
+    b.style.top = (vrh + velicinaIkone + 10) + 'px';
+    b.style.right = (18 + (velicinaIkone - v) / 2) + 'px';
+  }
+  $('lebdiInfo').onclick = otvoriInfo;
+  $('infoZatvori').onclick = zatvoriInfo;
+  (function () {
+    var ix = null;
+    $('panelInfo').addEventListener('touchstart', function (e) { ix = e.touches[0].clientX; });
+    $('panelInfo').addEventListener('touchend', function (e) {
+      if (ix != null && e.changedTouches[0].clientX - ix > 70) zatvoriInfo();
+      ix = null;
+    });
+  })();
 
   // ---------------- OKVIR EKRANA ----------------
   function okvir(uputa, pod) {
@@ -898,6 +1104,7 @@
     gen++;
     window.scrollTo(0, 0);
     EKRANI[idx]();
+    infoVidljiv();
   }
 
   // ---------------- START ----------------

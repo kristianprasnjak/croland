@@ -3,6 +3,7 @@ cjelina: Vocabulary 5
 
 ## Feminine food — the ones that change
 format: kartice
+info: Flashcards learned as pairs. The left form names the thing, the right form is what you say after a verb that acts on it: *jagoda → jedem jagod**u***. Only the last letter differs, so store the pair as one item.
 opis: Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it or buy it. Learn each one as a pair.
 - kava → kavu | coffee
 - voda → vodu | water
@@ -24,6 +25,7 @@ opis: Every word here ends in **-a**, and every one of them turns that -a into *
 
 ## The quiet ones — no change at all
 format: kartice
+info: Flashcards for nouns that end in a consonant or in *-o* or *-e*. They look the same whether they name or are the target: *Sir je dobar* and *Jedem sir*. There is no ending to add here, only the meaning to learn.
 opis: These don't end in -a, so nothing happens to them. *Pijem sok. Jedem kruh.* You have been using this group since Lesson 3 without noticing it was a case at all.
 - kruh | bread
 - sir | cheese
@@ -44,6 +46,7 @@ opis: These don't end in -a, so nothing happens to them. *Pijem sok. Jedem kruh.
 
 ## Shopping
 format: kartice
+info: Places, containers and money. The **-a** words behave like every feminine noun — *Idem u trgovin**u***, *Trebam vrećic**u*** — while *dućan*, *kafić*, *račun* and *novac* end in a consonant and never move.
 opis: Where you buy it, what you carry it in, what you pay. **tržnica** is the open-air farmers' market; **trgovina** and **dućan** are both a shop, and Croatians use them interchangeably.
 - tržnica → tržnicu | market
 - trgovina → trgovinu | shop, store
@@ -59,6 +62,7 @@ opis: Where you buy it, what you carry it in, what you pay. **tržnica** is the 
 
 ## Ten new verbs
 format: kartice
+info: Ten verbs with their present-tense forms. Each can take a target, so a feminine noun after it ends in **-u**: *Kupujem jabuk**u***, *Tražim rib**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ.
 opis: All ten take a target — and if that target is feminine, it ends in **-u**. *Kupujem jabuku. Plaćam kavu. Tražim ribu.*
 - kupovati → kupujem, kupuješ, kupuje | to buy
 - trebati → trebam, trebaš, treba | to need
@@ -73,6 +77,7 @@ opis: All ten take a target — and if that target is feminine, it ends in **-u*
 
 ## At the counter
 format: kartice
+info: Counter phrases plus describing words. The adjectives come in both shapes (*svjež / svježa*) because they must agree with their noun: *svježa riba*, but *svjež kruh*.
 opis: The words that make you sound like you have done this before. *Izvolite?* is the single most useful word in a Croatian shop — it means both "How can I help you?" and "Here you are."
 - Izvolite? | How can I help you? / Here you are.
 - molim | please
@@ -91,6 +96,7 @@ opis: The words that make you sound like you have done this before. *Izvolite?* 
 
 ## Does it change?
 format: razvrstavanje
+info: Sorting by ending. Ends in **-a** → it becomes **-u** as the target of a verb. Anything else — a consonant, *-o*, *-e* — keeps the identical form, which is why *kruh* and *mlijeko* sit in the quiet column.
 stupci: MIJENJA SE (-a → -u) | OSTAJE ISTO
 opis: The single most useful sort on this level. Ends in **-a** → it changes. Anything else → it stays exactly as it is.
 - kava | MIJENJA SE (-a → -u)
@@ -118,6 +124,7 @@ opis: The single most useful sort on this level. Ends in **-a** → it changes. 
 
 ## Which family?
 format: razvrstavanje
+info: Sorting verbs into the three present-tense families from Lesson 3, judged by the ja-form: **-am** (*trebam*), **-im** (*tražim*), **-em** (*kupujem*). The infinitive can mislead — *kupovati* and *prodavati* are both -em verbs.
 stupci: -AM | -IM | -EM
 opis: The three verb families from Lesson 3, now with the shopping verbs. Note *prodavati* and *kupovati*: the infinitive says -ova-, the ja-form says -uje-.
 - trebati | -AM
@@ -133,6 +140,7 @@ opis: The three verb families from Lesson 3, now with the shopping verbs. Note *
 
 ## Match the pictures
 format: spajanje
+info: Picture-to-word matching, all in the naming form. That is why the feminine ones end in **-a** here; the **-u** appears only once a verb acts on them, as in *Kupujem jabuk**u***.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - jabuka | apple
 - banana | banana
@@ -149,6 +157,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 
 ## Match the pairs
 format: parovi
+info: Croatian-to-English pairs, every word in its naming form. Use the ending as a free clue: **-a** means feminine, which means this word will end in **-u** the moment you buy, eat or need it.
 opis: Match each market word with its English meaning.
 - voda | water
 - jabuka | apple
@@ -171,6 +180,7 @@ opis: Match each market word with its English meaning.
 
 ## Memory
 format: memorija
+info: A flip-and-find game mixing verbs with nouns. The verbs are all ja-forms (*kupujem*, *tražim*, *nosim*), so each one is ready to take a target — and a feminine target always ends in **-u**.
 opis: Flip the cards and find the pairs — the shopping edition.
 - kupujem | I buy
 - trebam | I need
@@ -185,6 +195,7 @@ opis: Flip the cards and find the pairs — the shopping edition.
 
 ## Speed challenge: naming → target
 format: brzina
+info: A timed swap from the naming form to the target form. One letter, always the last: *breskva → breskv**u***, *kutija → kutij**u***. Do not rebuild the word, just replace that final -a.
 trajanje: 60
 opis: A word flashes in its naming form — tap the target form before it disappears.
 - kava | kavu
@@ -212,6 +223,7 @@ opis: A word flashes in its naming form — tap the target form before it disapp
 
 ## Speed challenge: what is it?
 format: brzina
+info: A timed meaning sprint with no endings to change. Read the ending anyway as a hint: *-a* words are feminine and will take **-u** as targets, while *jaje*, *meso* and *vino* stay as they are.
 trajanje: 60
 opis: Food sprint — tap the English meaning.
 - kruh | bread
@@ -242,6 +254,7 @@ opis: Food sprint — tap the English meaning.
 
 ## Build the word
 format: slova
+info: Spelling from letter tiles. Croatian writes one letter per sound, so if you can say it you can spell it — but **č, ć, š, ž, đ** are separate letters, and *vrećica* or *tržnica* is simply wrong without them.
 opis: Croatian is written exactly as it sounds — so if you can say it, you can spell it. Watch the diacritics: **č, ć, š, ž, đ** are all separate letters.
 - čokolada | chocolate
 - kruška | pear
@@ -256,6 +269,7 @@ opis: Croatian is written exactly as it sounds — so if you can say it, you can
 
 ## Type the target form
 format: upis
+info: Typed production of the target form. Take the naming form, drop the final **-a**, add **-u**: *pekara → pekar**u***, *cijena → cijen**u***. Everything else in the word, diacritics included, stays untouched.
 opis: You get the naming form — type the form you would use after *kupujem*, *jedem* or *pijem*.
 - kava → | kavu
 - voda → | vodu
@@ -284,6 +298,7 @@ opis: You get the naming form — type the form you would use after *kupujem*, *
 
 ## Type it in Croatian
 format: upis
+info: Recall in the other direction — English in, Croatian out, in the naming form. So feminine words end in **-a** here (*jabuka*, not *jabuku*), and the verbs are wanted as infinitives such as *kupovati*.
 opis: The final round — type each word in Croatian, in its naming form.
 - apple | jabuka
 - pear | kruška

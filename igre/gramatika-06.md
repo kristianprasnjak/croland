@@ -3,6 +3,7 @@ cjelina: Grammar 6
 
 ## The rule: living & non-living
 format: tekst
+info: The page that completes your accusative singular. Masculine nouns split by animacy: a living one adds **-a** (*Čekam prijatelja*), a thing adds nothing (*Čekam autobus*). *Tko* counts as living, so it becomes **koga**.
 - With this page, you complete the accusative singular — the whole map of "target forms".
 - **The animacy rule:** masculine nouns split in two. Non-living (things) — no change: *Vidim tramvaj. Čekam autobus.* Living (people, animals) — add **-a**: *Vidim čovjeka. Čekam prijatelja.* Croatian likes to mark *who can be affected* by an action. Things can't care; beings can.
 - tab: Word | Naming | Target | Changes?
@@ -15,6 +16,7 @@ format: tekst
 
 ## Does it change or not?
 format: razvrstavanje
+info: A sort testing the finished map. Feminine **-a** words become **-u** and masculine beings add **-a**, while masculine things and neuters such as *pismo* and *more* never move. *Mačka* changes for the feminine reason, not animacy.
 stupci: MIJENJA SE | OSTAJE ISTO
 opis: Sort by whether the word changes after *vidim*. Careful — *mačka* is feminine, so it changes by the Lesson 5 rule, not this one.
 - doktor | MIJENJA SE
@@ -40,6 +42,7 @@ opis: Sort by whether the word changes after *vidim*. Careful — *mačka* is fe
 
 ## Tap the ending: living or thing?
 format: nastavak
+info: Masculine words only, one tap each. Alive means **-a** (*Vidim studenta*); a thing means the dash (*Vidim kiosk*). Animals count as alive, so *golub* becomes *goluba* exactly like a person does.
 nastavci: a | -
 opis: Masculine words only. A being takes **-a**; a thing takes nothing. The **—** button is "no ending".
 - Vidim konobar___ . | I see the waiter. | a
@@ -65,6 +68,7 @@ opis: Masculine words only. A being takes **-a**; a thing takes nothing. The **�
 
 ## The rule: the letter that falls out
 format: tekst
+info: The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -ar, -er, -ik, -aj and -ač never squeeze.
 - You already met this in Lesson 2, under a different name. **Nepostojano a** — the fleeting *a* — is the letter that only exists in the naming form and disappears the moment an ending is added.
 - tab: Naming | Target | What fell out
 - tab: polic**a**jac | policajca | the **a** before -c
@@ -77,6 +81,7 @@ format: tekst
 
 ## Does it squeeze?
 format: razvrstavanje
+info: A sort about the fleeting **a**. The reliable signal is the ending **-ac**, which nearly always loses its vowel (*kupac* to *kupca*), while -ar, -er, -ik and -ač keep everything (*konobar* to *konobara*). *Pas* to *psa* is a one-off.
 stupci: STEŽE SE | NE STEŽE SE
 opis: Say the target form in your head before you drop the tile. Anything ending in **-ac** almost certainly squeezes.
 - policajac | STEŽE SE
@@ -98,6 +103,7 @@ opis: Say the target form in your head before you drop the tile. Anything ending
 
 ## Type the accusative
 format: upis
+info: Typed accusatives with the squeezers mixed in. Check the ending before you type: **-ac** drops its vowel (*Amerikanac* to *Amerikanca*), other beings simply add **-a**, and things come back exactly as they went in.
 opis: Type the accusative form. Watch the *-ac* words.
 - prijatelj → | prijatelja
 - policajac → | policajca
@@ -120,6 +126,7 @@ opis: Type the accusative form. Watch the *-ac* words.
 
 ## The whole map in one tap
 format: nastavak
+info: Three buttons for the complete accusative singular. Feminine takes **-u** (*kavu*), a masculine being takes **-a** (*konobara*), a masculine thing takes nothing (*tramvaj*). Settle the gender first, then ask about animacy.
 nastavci: a | u | -
 opis: Three buttons, three outcomes — everything you have learned about the accusative singular in one place. Feminine takes **-u**, a masculine being takes **-a**, a masculine thing takes nothing.
 - Pijem kav___ . | I'm drinking coffee. | u
@@ -143,6 +150,7 @@ opis: Three buttons, three outcomes — everything you have learned about the ac
 
 ## The correct sentence
 format: izbor
+info: Two whole sentences, one right. The wrong one usually adds **-a** to a thing (*Vidim tramvaja*) or leaves a being bare (*Čekam prijatelj*). Remember that *policajca* has one *a* fewer than you would expect.
 opis: Choose the correct sentence.
 - waiting for a friend | Čekam prijatelja. | Čekam prijatelj.
 - seeing a tram | Vidim tramvaj. | Vidim tramvaja.
@@ -157,6 +165,7 @@ opis: Choose the correct sentence.
 
 ## The rule: replacing the target with one small word
 format: tekst
+info: Your first pronouns: **me, te, ga, je, nas, vas, ih** stand in for a target already named. Gender decides, not life, so *film* and *tramvaj* both become *ga*, while *knjigu* becomes *je*.
 - Once everyone knows *who* or *what* you mean, Croatian doesn't repeat the noun. It swaps the whole thing for a one-syllable pronoun — in the accusative, because it's still the target.
 - tab: Instead of | Say | Example
 - tab: me (as target) | **me** | Ana **me** čeka.
@@ -171,6 +180,7 @@ format: tekst
 
 ## Which pronoun replaces it?
 format: razvrstavanje
+info: Sorting nouns by the pronoun that replaces them. Masculine and neuter both go to **ga** (*most*, *pismo*), feminine goes to **je** (*kava*, *karta*). Whether the noun is alive makes no difference here at all.
 stupci: GA | JE
 opis: *ga* stands in for masculine and neuter, *je* for feminine. The noun's gender decides — not whether it is alive.
 - tramvaj | GA
@@ -196,6 +206,7 @@ opis: *ga* stands in for masculine and neuter, *je* for feminine. The noun's gen
 
 ## Replace the target
 format: upis
+info: Rewriting a sentence with a pronoun instead of the noun. Copy the gender of the word you removed — *Zovem doktora* becomes *Zovem ga*, *Pijem kavu* becomes *Pijem je* — and leave the pronoun sitting after the verb.
 opis: Say the same sentence again, with a pronoun instead of the noun. Watch the gender of the word you're replacing.
 - Vidim tramvaj. → | Vidim ga
 - Čekam prijatelja. → | Čekam ga
@@ -216,6 +227,7 @@ opis: Say the same sentence again, with a pronoun instead of the noun. Watch the
 
 ## Pick the pronoun
 format: izbor
+info: Choosing the right little word and the right slot. **ga** covers masculine and neuter, **je** covers feminine, and the short pronoun never opens a sentence, so it is *Ana me čeka*, not *Ana čeka me*.
 opis: Which little word replaces the noun in CAPITALS?
 - Čekam AUTOBUS. | Čekam ga. | Čekam je. | Čekam ih.
 - Vidim STANICU. | Vidim je. | Vidim ga. | Vidim ih.
@@ -230,6 +242,7 @@ opis: Which little word replaces the noun in CAPITALS?
 
 ## The rule: they lean
 format: tekst
+info: Why these pronouns are so fussy about position. They are clitics, like *sam* and *je*: unstressed, leaning on the word in front, and unable to start a sentence. For first place or emphasis use *mene, tebe, njega, nju*.
 - These seven words are **clitics** — the same restless family as *sam, si, je* from Lesson 2. They carry no stress of their own, so they lean on the word in front of them.
 - **The consequence:** a clitic can never open a sentence. *Vidim ga* — always. *Ga vidim* — never, in any dialect, ever.
 - **If you really want to start with the pronoun**, Croatian hands you a longer, stressed twin: *Njega vidim, ne tebe.* — "It's *him* I see, not you." Long forms are for emphasis and contrast; the short ones are for everything else.
@@ -242,6 +255,7 @@ format: tekst
 
 ## Where does the pronoun go?
 format: izbor
+info: A pure position drill. Only the short forms are banned from first place, so *Vidim ga* is right and *Ga vidim* is impossible; when you want the pronoun up front, its stressed twin takes over, as in *Njega vidim*.
 opis: Only one of these is a sentence a Croatian would actually say. The short pronoun never comes first.
 - I see him. | Vidim ga. | Ga vidim.
 - Ana is waiting for me. | Ana me čeka. | Ana čeka me.
@@ -254,6 +268,7 @@ opis: Only one of these is a sentence a Croatian would actually say. The short p
 
 ## Answer without repeating
 format: upis
+info: Short answers that drop the noun. Say *Da*, then the verb, then the pronoun — *Da, čekam ga* — taking **ga** or **je** from the gender of the noun in the question rather than naming that noun again.
 opis: Answer *Da*, but don't say the noun again — swap it for its pronoun. Two words after *Da,*.
 - Čekaš li prijatelja? → Da, ___ . | čekam ga
 - Vidiš li tramvaj? → Da, ___ . | vidim ga
@@ -268,6 +283,7 @@ opis: Answer *Da*, but don't say the noun again — swap it for its pronoun. Two
 
 ## Build the sentence
 format: slaganje
+info: Sentence building that mixes everything on this page. Full nouns keep their accusative ending, and a short pronoun can never take the opening tile: *Ana me čeka*, while *Njega vidim* uses the stressed form instead.
 opis: Build the sentence.
 - Zovem doktora.
 - Čovjek čeka autobus.

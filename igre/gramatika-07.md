@@ -3,6 +3,7 @@ cjelina: Grammar 7
 
 ## The rule: plurals of nouns & adjectives
 format: tekst
+info: The reference page for plural forms. Masculine **-i**, feminine **-e**, neuter **-a**, with one-syllable masculines padding to *-ovi*; adjectives take the very same three endings, so *Knjige su nove* and *Pisma su duga*.
 - With this page your present tense is *complete* — all six persons — and nouns can finally come in groups.
 - **Noun plurals — the gender trio again:** m. → **-i** (učenik → učenici, prozor → prozori); f. → **-a → -e** (knjiga → knjige, pjesma → pjesme); n. → **-o/-e → -a** (pismo → pisma).
 - tab: Gender | Singular | Plural | Ending
@@ -15,6 +16,7 @@ format: tekst
 
 ## The rule: when k, g and h soften
 format: tekst
+info: Why it is *učenici* and not *učeniki*. Before the plural **-i** the sounds *k*, *g* and *h* soften to *c*, *z* and *s* — *vojnik* to *vojnici*. The page also lists the four irregulars, including *djeca*, which takes a plural verb.
 - **Sound shift:** before the plural **-i**, a final **k** turns into **c**: učeni**k** → učeni**ci**, dječa**k** → dječa**ci**, udžbeni**k** → udžbeni**ci**, jezi**k** → jezi**ci**.
 - It isn't only *k*. The same softening hits **g → z** and **h → s**: *bubre**g*** → *bubre**zi***, *ora**h*** → *ora**si***. You'll meet more of these later; for now the *k → c* pairs are the ones you use daily.
 - **Why it happens:** *učeniki* is genuinely hard to say in Croatian. The language softened the sound centuries ago and never changed back. It is a pronunciation rule that fossilised into spelling.
@@ -23,6 +25,7 @@ format: tekst
 
 ## Which plural ending?
 format: razvrstavanje
+info: Sorting by ending, straight from gender. A consonant ending is masculine and takes **-i**, *-a* is feminine and takes **-e**, *-o* and *-e* are neuter and take **-a** — *ispit*, *torba*, *more*.
 stupci: -I | -E | -A
 opis: Sort each singular by the plural ending it takes.
 - učenik | -I
@@ -48,6 +51,7 @@ opis: Sort each singular by the plural ending it takes.
 
 ## Tap the plural ending
 format: nastavak
+info: One tap per gap, the same trio again: **-i** masculine, **-e** feminine, **-a** neuter. Use the adjective as a check — *su duga* can only belong to a neuter plural like *pisma*.
 nastavci: i | e | a
 opis: One tap. Masculine takes **-i**, feminine **-e**, neuter **-a**.
 - Učenic___ su mladi. | The pupils are young. | i
@@ -71,6 +75,7 @@ opis: One tap. Masculine takes **-i**, feminine **-e**, neuter **-a**.
 
 ## Regular or rebel?
 format: razvrstavanje
+info: Three piles, not two. Regular words take the plain **-i / -e / -a**; one-syllable masculines take **-ovi** (*test* to *testovi*); and *dijete*, *brat*, *čovjek* and *riječ* follow nothing at all.
 stupci: PRAVILNO | -OVI | IZNIMKA
 opis: Three groups. Most words follow the trio, one-syllable masculines pad with **-ovi**, and four words do their own thing entirely.
 - učenik | PRAVILNO
@@ -94,6 +99,7 @@ opis: Three groups. Most words follow the trio, one-syllable masculines pad with
 
 ## Type the plural
 format: upis
+info: Typed plurals with both spelling changes in play: *k* softens to *c* before *-i* (*jezik* to *jezici*), and short masculines insert *-ov-* (*zid* to *zidovi*). A feminine *k* is safe — *olovka* gives *olovke*.
 opis: Type the plural. Watch the *k → c* words and the one-syllable ones.
 - grad → | gradovi
 - jabuka → | jabuke
@@ -116,6 +122,7 @@ opis: Type the plural. Watch the *k → c* words and the one-syllable ones.
 
 ## The adjective follows the noun
 format: izbor
+info: Agreement in the plural. The adjective copies the noun's gender ending exactly: masculine *-i* (*Prozori su veliki*), feminine *-e* (*Knjige su nove*), neuter *-a* (*Mora su topla*).
 opis: Choose the matching adjective. Same trio as the nouns: -i / -e / -a.
 - Pjesme su ___ . | stare | stari | stara
 - Učenici su ___ . | veseli | vesele | vesela
@@ -130,6 +137,7 @@ opis: Choose the matching adjective. Same trio as the nouns: -i / -e / -a.
 
 ## The rule: the complete present tense
 format: tekst
+info: The full six-person table. **-mo** for *mi* and **-te** for *vi* are fixed for every verb in the language; only *oni* varies by family — *-am* verbs give *-aju*, *-im* verbs *-e*, *-em* verbs *-u*.
 - Three endings you know, three you meet today. That's the whole Croatian present tense — there is nothing else to learn.
 - tab: Person | čitati (-am) | učiti (-im) | jesti (-em)
 - tab: ja | čita**m** | uči**m** | jede**m**
@@ -149,6 +157,7 @@ format: tekst
 
 ## Tap the person
 format: nastavak
+info: Choose the person ending. **-mo** is *we*, **-te** is *you all*, **-ju** is *they*; the *-ju* option works throughout because every verb here belongs to the *-am* family, like *igrati* and *vježbati*.
 nastavci: mo | te | ju
 opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every verb here belongs to the -am family.
 - Mi pjeva___ pjesme. | We sing songs. | mo
@@ -172,6 +181,7 @@ opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every
 
 ## Tap what THEY do
 format: nastavak
+info: Only the *oni* form, and the bracketed *ja* form is your clue. If *ja* is *-am*, *oni* is **-aju**; if *-im*, **-e**; if *-em*, **-u**. So *čitam* gives *čitaju*, while *čujem* gives *čuju* — stem *j* plus a plain *-u*.
 nastavci: aju | e | u
 opis: Only the *oni* form. Look at the *ja* form in brackets and let the family decide: **-am → -aju**, **-im → -e**, **-em → -u**.
 - Djeca čit___ knjige. (čitam) | The children read books. | aju
@@ -193,6 +203,7 @@ opis: Only the *oni* form. Look at the *ja* form in brackets and let the family 
 
 ## What do THEY do?
 format: razvrstavanje
+info: Sort the verbs by what their *they* form does. The family is set by the *ja* form: *čitam* and *znam* land in **-aju**, *radim* and *brojim* in **-e**, *pijem* and *plešem* in **-u**.
 stupci: -AJU | -E | -U
 opis: The *oni* form, sorted by verb family. **-am** verbs say **-aju**, **-im** verbs say **-e**, **-em** verbs say **-u**.
 - čitati | -AJU
@@ -220,6 +231,7 @@ opis: The *oni* form, sorted by verb family. **-am** verbs say **-aju**, **-im**
 
 ## Type the verb
 format: upis
+info: Type the full form for the given subject. Find the person first, then the family: *mi* and *vi* are always **-mo** and **-te**, and only the *they* forms need the family — *jedu*, *plešu*, *slušaju*.
 opis: Type the verb form.
 - Mi ___ pjesme. (pjevati) | pjevamo
 - Oni ___ nogomet. (igrati) | igraju
@@ -238,6 +250,7 @@ opis: Type the verb form.
 
 ## The rule: many targets
 format: tekst
+info: The plural target form, and it is simpler than the singular. Only masculine changes, *-i* to **-e** (*učenici* to *učenike*, with *c* back to *k*); feminine and neuter plurals stay put, and living versus non-living no longer matters.
 - Plurals become targets too — and here's the good news: **the plural accusative is easier than the singular**, because the living/non-living split from Lesson 6 disappears.
 - tab: Gender | Naming (plural) | Target (plural)
 - tab: m. | učenici, prijatelji, gradovi | učenik**e**, prijatelj**e**, gradov**e**
@@ -250,6 +263,7 @@ format: tekst
 
 ## Does it change in the plural?
 format: razvrstavanje
+info: Decide whether each plural moves after *vidim*. Masculine plurals do — *gradovi* becomes *gradove* — while feminine **-e** and neuter **-a** plurals look identical in both roles: *Knjige su nove*, *Čitam knjige*.
 stupci: MIJENJA SE | OSTAJE ISTO
 opis: After *vidim* — does the plural form change, or is it identical to the naming form?
 - učenici | MIJENJA SE
@@ -271,6 +285,7 @@ opis: After *vidim* — does the plural form change, or is it identical to the n
 
 ## Tap the plural target
 format: nastavak
+info: The same noun twice, first naming, then as the target. Masculine plurals swap **-i** for **-e**, and the softened *c* reverts to *k*, because that *c* only ever appears in front of an *-i*: *učenici* but *Vidim učenike*.
 nastavci: i | e
 opis: The same word twice — once naming, once as the target. Only masculine plurals move, and watch the **c** turn back into a **k**.
 - Učenic___ pjevaju. | The pupils are singing. | i
@@ -292,6 +307,7 @@ opis: The same word twice — once naming, once as the target. Only masculine pl
 
 ## Type the plural target
 format: upis
+info: Type the plural target form. Masculine takes **-e** (*prozori* to *prozore*), feminine and neuter stay as they are (*knjige*, *pisma*), and the irregular *djeca* behaves like one feminine word: *Vidim **djecu***.
 opis: Put the plural into the target form — after *vidim*.
 - učenici → Vidim ___ | učenike
 - gradovi → Vidim ___ | gradove
@@ -310,6 +326,7 @@ opis: Put the plural into the target form — after *vidim*.
 
 ## Build the sentence
 format: slaganje
+info: Full sentences, so noun, adjective and verb all have to agree in the plural, and any target noun must be in its target form: *Vidim star**e** gradov**e***, *Mi čeka**mo** prijatelj**e***.
 opis: Build the sentence.
 - Gradovi su stari, ali su lijepi.
 - Djeca jedu jabuke.

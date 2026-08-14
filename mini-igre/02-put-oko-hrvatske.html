@@ -103,10 +103,13 @@ input.upis:focus{outline:none;background:var(--papir2)}
   border-radius:10px;background:#fff;width:38px;height:38px}
 .dijakritik:hover{background:var(--zut)}
 @media (max-width:640px){
-  .omot{padding:8px 8px 30px}
-  .hud{padding:8px 10px;gap:6px}
-  .hud .ime{font-size:15px;width:100%}
-  .ploha{padding:12px;border-radius:16px}
+  .omot{padding:6px 6px 16px}
+  .hud{padding:6px 8px;gap:6px;margin-bottom:8px}
+  .hud .ime{font-size:15px}
+  .hud .ime small{display:none}
+  .natrag{padding:4px 8px;font-size:12px}
+  .znak{padding:3px 9px;font-size:12px}
+  .ploha{padding:10px;border-radius:14px;gap:8px}
   h2.naslov{font-size:18px}
 }
 
@@ -146,6 +149,29 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .slovoT.iskoristen{opacity:.25;pointer-events:none}
 .upisano{min-height:52px;display:flex;gap:6px;justify-content:center;align-items:center;
   border-bottom:3px dashed var(--meko);margin-bottom:8px;font-size:24px;font-weight:800;letter-spacing:2px}
+
+@media (max-width:640px){
+  .putOmot{gap:8px}
+  .ruta{padding:5px}
+  .vizura{height:110px}
+  .vizura .veliki{font-size:48px}
+  .vizura .oznakaMjesta{padding:3px 9px;font-size:13px}
+  .vizura .oznakaKraja,.vizura .km{font-size:11px;padding:2px 8px}
+  .lik{padding:8px;gap:8px}
+  .lik .glava{font-size:28px}
+  .lik .ime{font-size:11px}
+  .lik .rec{font-size:14px;margin:1px 0}
+  .lik .pr{font-size:11px}
+  .pitanjeKut{padding:8px}
+  .pitanjeKut .zadatak{font-size:15px;margin-bottom:6px}
+  .pitanjeKut .tip{margin-bottom:4px}
+  .izbori{gap:5px}
+  .izbori.duge button{padding:8px 12px;font-size:13px}
+  .g{padding:8px 12px;font-size:13px}
+  .slova{margin:5px 0;gap:4px}
+  .slovoT{width:34px;height:38px;font-size:16px}
+  .upisano{min-height:38px;font-size:18px;margin-bottom:5px}
+}
 
 </style>
 </head>

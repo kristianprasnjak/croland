@@ -3,6 +3,7 @@ cjelina: Practice 4
 
 ## Text 1: The family
 format: tekst
+info: A read-along text with the English beside each line. Use it to watch the connectors working: **i** simply adds, **a** hands the sentence to a different person (*Tata kuha, a brat uči*), and **ali** announces the opposite of what you expect.
 - A family in one page. See if you can tell who does what.
 - Passive words: *doktorica* (female doctor), *puno* (a lot), *još* (still), *veseo* (cheerful), *topao* (warm), *tih* (quiet), *glasan* (loud). Everything else you met in the lesson.
 - Ovo je obitelj. | This is a family.
@@ -16,6 +17,7 @@ format: tekst
 
 ## Did you get it?
 format: izbor
+info: Comprehension questions on the text above, asked in Croatian. *Tko* asks who and *što* asks what; for the last one, the answer is the half that follows **ali** — the surprising side of the sentence.
 tekst: Ovo je obitelj. Mama je doktorica i radi puno. Tata kuha, a brat uči. Sestra je mala i još spava. Baka čita, a djed gleda film. Pas je star, ali je veseo. Mačka je tiha, a pas je glasan. Stan je mali, ali je dom topao.
 opis: Answer from the text.
 - Tko kuha? | tata | mama | baka
@@ -26,6 +28,7 @@ opis: Answer from the text.
 
 ## Text 2: One day
 format: tekst
+info: A second read-along, following two people through one day. All four connectors appear, including **jer**: in *On radi brzo jer je kasno* everything after *jer* is the reason, not a new event.
 - Two people, one day. Passive words: *ustaje* (gets up), *rano* (early), *kasno* (late), *poslije* (afterwards), *dug* (long), *odličan* (excellent), *posao* (work), *jutro* (morning), *večer* (evening).
 - Jutro je. | It is morning.
 - Ana ustaje rano, ali Marko još spava. | Ana gets up early, but Marko is still sleeping.
@@ -39,6 +42,7 @@ format: tekst
 
 ## Type the connector
 format: upis
+info: You retype the connector that stood in the text. Let punctuation narrow it: with no comma it is **i** or **jer**, and *jer* only fits where the second half explains why. With a comma it is **a** (a new subject) or **ali** (a twist).
 tekst: Jutro je. Ana ustaje rano, ali Marko još spava. Ana pije čaj i jede kruh. Marko ustaje kasno, a posao čeka! On radi brzo jer je kasno. Poslije, Ana uči hrvatski, a Marko sluša radio. Oni gledaju film i jedu sladoled. Film je dug, ali je odličan.
 opis: Type the missing connector — i, a, ali or jer — exactly as it stands in the text.
 - Ana ustaje rano, ___ Marko još spava. | ali
@@ -51,6 +55,7 @@ opis: Type the missing connector — i, a, ali or jer — exactly as it stands i
 
 ## True or false?
 format: izbor
+info: True or false statements about the text, and the trap is who did what. **a** switches subject and **ali** reverses the idea, so *Ana ustaje rano, ali Marko još spava* makes any claim about Marko getting up early false.
 tekst: Jutro je. Ana ustaje rano, ali Marko još spava. Ana pije čaj i jede kruh. Marko ustaje kasno, a posao čeka! Poslije, Ana uči hrvatski, a Marko sluša radio. Večer je. Oni gledaju film i jedu sladoled. Film je dug, ali je odličan.
 opis: Tap true or false — careful who does what!
 - Marko ustaje rano. | FALSE | TRUE
@@ -61,6 +66,7 @@ opis: Tap true or false — careful who does what!
 
 ## Text 3: The weekend
 format: tekst
+info: A read-along chat between two friends. Notice how **a** organises the whole conversation: it keeps two different people's plans side by side, as in *Brat i ja gledamo film, a mama i tata slušaju koncert* — always with a comma.
 - A chat between two friends. Passive words: *ujutro* (in the morning), *ništa* (nothing), *samo* (only), *malo* (a little), *večeras* (tonight), *koncert* (concert), *cijeli* (whole), *savršen* (perfect), *vikend* (weekend).
 - — Što radiš danas? | — What are you doing today?
 - — Ujutro radim, a poslije ne radim ništa! | — In the morning I work, and afterwards I do nothing!
@@ -72,6 +78,7 @@ format: tekst
 
 ## Order the dialogue
 format: poredak
+info: You put the chat lines back into their original order. Follow the question-and-answer chain and the time words *danas*, *ujutro*, *poslije* and *večeras*, and remember that the last line reacts to whatever came right before it.
 opis: Rebuild the weekend chat — put the lines into order.
 - — Što radiš danas?
 - — Ujutro radim, a poslije ne radim ništa!
@@ -83,6 +90,7 @@ opis: Rebuild the weekend chat — put the lines into order.
 
 ## Text 4: Why Saturday is the best
 format: tekst
+info: The longest text yet, built around **jer**. Each time it appears the sentence stops describing and starts explaining — *Sestra ne uči jer je subota* — and note that *ne* still sits directly in front of its verb.
 - The longest text yet — and this time watch for one little word: **jer**. Every time it appears, the sentence stops describing and starts explaining. Passive words: *subota* (Saturday), *svi* (everyone), *sada* (now), *uskoro* (soon), *ručak* (lunch), *kuhinja* (kitchen), *gladan* (hungry), *uvijek* (always).
 - Subota je. | It is Saturday.
 - Baka kuha jer danas svi jedu zajedno. | Grandma is cooking because today everyone eats together.
@@ -100,6 +108,7 @@ format: tekst
 
 ## Did you get it? — Saturday
 format: izbor
+info: Comprehension questions, most of them opening with *zašto* (why). A *zašto* question is answered by the *jer*-half alone, so find the *jer* in the matching line and read what follows it; nothing else needs repeating.
 tekst: Subota je. Baka kuha jer danas svi jedu zajedno. Kuhinja je mala, ali je topla. Djed čisti, a mama i tata rade. Sestra ne uči jer je subota. Ona sjedi i gleda film. Brat šeta jer je dan lijep. Ja ne šetam jer sam umoran. Ja sjedim i čekam jer sam gladan. Dom je mali, ali je veseo. Subota je savršena jer je obitelj zajedno.
 opis: Answer from the text. Every question is a *why* question in disguise.
 - Zašto baka kuha? | jer svi jedu zajedno | jer je gladna | jer je kuhinja topla
@@ -111,6 +120,7 @@ opis: Answer from the text. Every question is a *why* question in disguise.
 
 ## Translate by building
 format: slaganje
+info: English in, Croatian out, built from tiles, all taken from the four texts. Two things earn the points: the right connector for the job (**i**, **a**, **ali**, **jer**) and the comma — always with **a** and **ali**, never with **i**.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the four texts you just read.
 - Ovo je obitelj. | en: This is a family.
 - Tata kuha, a brat uči. | en: Dad is cooking, while my brother is studying.

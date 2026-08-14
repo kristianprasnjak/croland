@@ -103,10 +103,13 @@ input.upis:focus{outline:none;background:var(--papir2)}
   border-radius:10px;background:#fff;width:38px;height:38px}
 .dijakritik:hover{background:var(--zut)}
 @media (max-width:640px){
-  .omot{padding:8px 8px 30px}
-  .hud{padding:8px 10px;gap:6px}
-  .hud .ime{font-size:15px;width:100%}
-  .ploha{padding:12px;border-radius:16px}
+  .omot{padding:6px 6px 16px}
+  .hud{padding:6px 8px;gap:6px;margin-bottom:8px}
+  .hud .ime{font-size:15px}
+  .hud .ime small{display:none}
+  .natrag{padding:4px 8px;font-size:12px}
+  .znak{padding:3px 9px;font-size:12px}
+  .ploha{padding:10px;border-radius:14px;gap:8px}
   h2.naslov{font-size:18px}
 }
 
@@ -154,6 +157,30 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .abc button.upotrijebljen{opacity:.28;pointer-events:none}
 .torba{display:flex;gap:6px;align-items:center;font-size:13px;font-weight:700;flex-wrap:wrap}
 .torba .kom{background:#fff;border:2px solid var(--tinta);border-radius:999px;padding:2px 10px}
+
+/* manje soba na uskom ekranu — više prostora za scenu i zagonetku */
+@media (max-width:640px){
+  .tlocrt{gap:5px;grid-template-columns:repeat(5,1fr)}
+  .sobaGumb{padding:4px 2px;font-size:10px}
+  .sobaGumb .ikonaS{font-size:16px;margin-bottom:0}
+  .scena{min-height:110px}
+  .scena .veliki{font-size:48px}
+  .scena .imeSobe{padding:2px 8px;font-size:12px}
+  .govor{padding:8px;gap:8px}
+  .govor .glava{font-size:24px}
+  .govor .ime{font-size:11px}
+  .govor .rec{font-size:14px}
+  .govor .pr{font-size:11px}
+  .torba{font-size:11px}
+  .zagonetka{padding:8px}
+  .zagonetka h3{font-size:13px;margin-bottom:2px}
+  .zagonetka .mala{font-size:11px;margin-bottom:6px}
+  .redak{gap:5px;margin-bottom:5px}
+  .g{padding:8px 12px;font-size:13px}
+  .skrinja{min-height:60px;padding:5px}
+  .vjesalo{font-size:26px;letter-spacing:5px;margin:6px 0}
+  .abc button{width:28px;height:30px;font-size:12px}
+}
 
 </style>
 </head>

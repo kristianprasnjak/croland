@@ -18,3 +18,7 @@ deno.lock
 # .csv, .jsonl, .md, data1.js, etc.) stay tracked and double as offsite backup.
 *.bak*
 __kartice-tmp.html
+
+# Zasticeni sadrzaj — nastaje pri buildu, uploada se rucno u Supabase Storage.
+# Ne ide u repozitorij i NIKAD ne smije zavrsiti u dist/.
+zasticeno/

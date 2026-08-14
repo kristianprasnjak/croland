@@ -3,6 +3,7 @@ cjelina: Grammar 1
 
 ## The rule: every noun has a gender
 format: tekst
+info: The page that names what you have been doing by ear: every noun is **masculine**, **feminine** or **neuter**, and its last letter tells you which, as in consonant *grad*, **-a** *kuća*, and **-o** or **-e** *nebo* and *more*. Croatian has no articles at all.
 - You've already *used* everything on this page — now let's name it.
 - **No articles. Ever.** Croatian has no *a* and no *the*. *Kuća* means "house", "a house" and "the house" all at once. Context does the work, and you have one less thing to learn.
 - **Every noun has a gender.** You don't have to memorise it — the word's last letter almost always tells you.
@@ -14,6 +15,7 @@ format: tekst
 
 ## Sort by gender
 format: razvrstavanje
+info: You drop each noun into M, F or N by its final letter alone. A consonant means masculine (*stol*, *krevet*), **-a** means feminine (*kava*, *knjiga*), and **-o** or **-e** means neuter (*nebo*, *sunce*). Meaning never decides, only the ending.
 stupci: M | F | N
 opis: Sort each noun into its gender column. Let the last letter guide you.
 - grad | M
@@ -31,6 +33,7 @@ opis: Sort each noun into its gender column. Let the last letter guide you.
 
 ## The rule: adjectives copy the noun
 format: tekst
+info: The core agreement rule plus two extras: an adjective takes **consonant, -a, -o** to match its noun, the masculine also has a longer **-i** form used in front of a noun (*veliki grad*), and *mali* only ever appears in that **-i** form.
 - **Adjectives copy the noun.** Same word, three endings — and the two always rhyme.
 - tab: Noun ends in | Adjective ends in | Together
 - tab: a consonant | — | velik grad
@@ -46,6 +49,7 @@ format: tekst
 
 ## Pick the adjective
 format: izbor
+info: Choose the adjective form that agrees with the noun given. Read the noun's last letter first, then pick the rhyme: *velika kuća*, *dobar dan*, *plavo more*. Note that *sladak* reshapes slightly to *slatka* before the **-a** ending.
 opis: Choose the adjective that agrees with the noun.
 - ___ kuća | velika | velik | veliko
 - ___ dan | dobar | dobra | dobro
@@ -58,6 +62,7 @@ opis: Choose the adjective that agrees with the noun.
 
 ## Type the adjective
 format: upis
+info: Typing the agreeing form, so you have to commit to an ending. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).
 opis: Type the full adjective — choose the form that matches the noun.
 - Soba je mali/mala/malo. | mala
 - Nebo je plav/plava/plavo. | plavo
@@ -69,6 +74,7 @@ opis: Type the full adjective — choose the form that matches the noun.
 
 ## Tap the ending
 format: nastavak
+info: One tap supplies the missing ending, and the dash means *no ending at all*. Masculine nouns take the dash (*Automobil je brz*), feminine ones take **-a** (*Kuća je velika*), neuter ones take **-o** (*More je plavo*, *Nebo je plavo*).
 nastavci: - | a | o
 opis: English above, Croatian below. The adjective is waiting for its ending — one tap. Get it right and you'll hear the sentence.
 - Kuća je velik___. | The house is big. | a
@@ -86,6 +92,7 @@ opis: English above, Croatian below. The adjective is waiting for its ending —
 
 ## Say the missing word
 format: upis
+info: Nothing is offered now, so you retrieve both the adjective and its ending from the English hint. The noun still decides: *Kuća je velika*, *More je plavo*, *Grad je lijep*. Remember *hladan* keeps its **a** inside the masculine form.
 opis: This time nothing is offered. Read the English, type the Croatian adjective in the right form. Stuck on a word? The dictionary is one tap away.
 - Kuća je ___. (big) | velika
 - Automobil je ___. (fast) | brz
@@ -100,6 +107,7 @@ opis: This time nothing is offered. Read the English, type the Croatian adjectiv
 
 ## The rule: nije — the other half of je
 format: tekst
+info: The negative counterpart: **nije** means *isn't* and is written as one word, never *ne je*. Only the verb changes, and the adjective goes on agreeing exactly as before, as in *Kuća nije velika* and *More nije plavo*.
 - One more word, and you can disagree with everything you just learned to say. **je** = is. **nije** = isn't.
 - tab: Positive | Negative | English
 - tab: Kava je dobra. | Kava **nije** dobra. | The coffee isn't good.
@@ -111,6 +119,7 @@ format: tekst
 
 ## Yes or no?
 format: izbor
+info: Pick the positive or the negative version, watching two traps at once: *ne je* is never correct Croatian, and the adjective must still agree with its noun, so the sea is *More nije toplo*, never *topao*.
 opis: Positive or negative — pick the sentence that matches the English.
 - The sea isn't warm. | More nije toplo. | More je toplo. | More nije topao.
 - The house is big. | Kuća je velika. | Kuća nije velika. | Kuća je velik.
@@ -121,6 +130,7 @@ opis: Positive or negative — pick the sentence that matches the English.
 
 ## Say it isn't so
 format: upis
+info: You turn each statement into a denial by swapping **je** for **nije** and touching nothing else. The ending stays exactly as it was: *Soba je mala* becomes *Soba nije mala*, and *Sunce je toplo* becomes *Sunce nije toplo*.
 opis: Make each sentence negative. Only one word changes — the adjective stays exactly as it is.
 - Kava je dobra. → | Kava nije dobra
 - Grad je velik. → | Grad nije velik
@@ -133,6 +143,7 @@ opis: Make each sentence negative. Only one word changes — the adjective stays
 
 ## Write the whole sentence
 format: upis
+info: Free production from an English prompt. Two frames cover all of it: noun plus **je** or **nije** plus adjective, and *Ovo je* plus a noun. Word order is flexible, so *Kuća je velika* and *Velika je kuća* are both fine.
 opis: The last step — the English sentence, and you write the Croatian. Word order is free in Croatian, so more than one answer is accepted.
 - The house is big. | Kuća je velika. / Velika je kuća.
 - The sea is blue. | More je plavo. / Plavo je more.
@@ -150,6 +161,7 @@ opis: The last step — the English sentence, and you write the Croatian. Word o
 
 ## You can do this now
 format: tekst
+info: A closing summary of the one rule behind this unit: read the noun's last letter and let the adjective rhyme with it, then use **je** or **nije** to state or deny it. That is already enough for any simple description.
 - **Bravo.** You just wrote Croatian sentences from nothing but an English prompt — no tiles, no options, no answer hidden in the question.
 - And you did it with a rule you can carry anywhere: **look at the noun's last letter, and let the adjective rhyme with it.** Plus one word — *nije* — that lets you say the opposite of anything.
 - **Next up:** Practice 1 puts these sentences into short real texts, then Test 1 checks the whole unit. After that, Lesson 2 hands you the verb that unlocks everything else: *biti* (to be).

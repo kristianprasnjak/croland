@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croland — prije / poslije</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* ============================================================
+   DEMO CHROME  (sve klase s prefiksom d-)
+   ============================================================ */
+:root { view-transition-name: none; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: "Public Sans", system-ui, sans-serif;
+  background: #efeae2; color: #191713; min-height: 100vh;
+}
+.d-top {
+  position: sticky; top: 0; z-index: 50;
+  background: #201d18; color: #f6f3ee;
+  padding: 12px 18px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.d-brand { font-weight: 700; letter-spacing: -.02em; font-size: .95rem; }
+.d-brand span { color: #d59b8f; font-weight: 400; margin-left: 8px; font-size: .8rem; letter-spacing: 0; }
+.d-seg { display: flex; gap: 2px; background: #2f2b24; padding: 3px; border-radius: 10px; }
+.d-seg button {
+  border: 0; background: none; color: #b9b0a2; font: inherit; font-size: .82rem;
+  padding: 6px 13px; border-radius: 8px; cursor: pointer; transition: background .18s, color .18s;
+}
+.d-seg button:hover { color: #f6f3ee; }
+.d-seg button.on { background: #f6f3ee; color: #201d18; font-weight: 600; }
+.d-right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
+.d-check { display: flex; align-items: center; gap: 7px; font-size: .78rem; color: #b9b0a2; cursor: pointer; }
+.d-check input { accent-color: #d59b8f; }
+
+.d-stage { display: grid; gap: 18px; padding: 18px; align-items: start; }
+.d-stage.dva { grid-template-columns: 1fr 1fr; }
+.d-stage.jedan { grid-template-columns: minmax(0, 980px); justify-content: center; }
+@media (max-width: 1100px) { .d-stage.dva { grid-template-columns: 1fr; } }
+
+.d-pane { min-width: 0; }
+.d-oznaka {
+  display: flex; align-items: center; gap: 9px;
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: #8b8377; margin: 0 0 9px 4px;
+}
+.d-oznaka b { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #b7ada0; }
+.d-pane.novi .d-oznaka b { background: #2f6d4f; }
+.d-okvir {
+  border: 1px solid #ddd5c9; border-radius: 16px; overflow: hidden; background: #f6f3ee;
+  box-shadow: 0 1px 2px rgba(25,23,19,.05);
+}
+.d-pane.novi .d-okvir { box-shadow: 0 10px 34px -14px rgba(25,23,19,.35), 0 1px 2px rgba(25,23,19,.06); }
+.d-biljeske {
+  margin: 12px 4px 0; font-size: .8rem; color: #6f675c; line-height: 1.65;
+}
+.d-biljeske li { margin: 0 0 4px 16px; }
+.d-biljeske b { color: #191713; font-weight: 600; }
+
+/* ============================================================
+   BAZA = postojeći Croland stil (vrijedi za oba panela)
+   ============================================================ */
+.app {
+  --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
+  --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
+  --zlatna: #8a6d1f; --plavaVok: #23407a; --tinta: #1d1b17; --tiho: #f0ece4; --papir: #faf7f1;
+  --naslov: system-ui, sans-serif;   /* app traži Space Grotesk, ali ga ne učitava */
+  background: var(--bg); color: var(--ink); font-family: system-ui, sans-serif;
+  display: block; position: relative; isolation: isolate;
+}
+.app header {
+  background: var(--card); border-bottom: 1px solid var(--rub);
+  padding: 13px 20px; display: flex; align-items: center; gap: 18px;
+}
+.app header .logo {
+  width: 28px; height: 28px; flex: none; border-radius: 8px;
+  background: var(--plava); color: #fff; display: flex; align-items: center; justify-content: center;
+  font-family: var(--naslov); font-weight: 700; font-size: .92rem; line-height: 1; cursor: pointer;
+  transition: filter .15s;
+}
+.app header nav { display: flex; gap: 4px; flex-wrap: wrap; }
+.app header nav a {
+  padding: 6px 11px; border-radius: 8px; color: var(--muted);
+  text-decoration: none; font-size: .85rem; cursor: pointer; transition: background .15s, color .15s;
+}
+.app header nav a:hover { background: var(--tiho); color: var(--ink); }
+.app header nav a.aktivna { background: var(--tiho); color: var(--ink); font-weight: 600; }
+.app header .valute {
+  margin-left: auto; font-size: .78rem; color: var(--muted); white-space: nowrap;
+  font-family: var(--naslov); font-weight: 600; padding: 6px 12px; border-radius: 10px; background: var(--tiho);
+}
+.app .view { padding: 24px 20px 34px; }
+
+/* — naslovnica — */
+.app .pocetna { display: grid; grid-template-columns: 1fr 270px; gap: 18px; align-items: start; }
+@media (max-width: 620px) { .app .pocetna { grid-template-columns: 1fr; } }
+.app .nastavakK {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 18px;
+  padding: 24px 26px; cursor: pointer; transition: border-color .15s, box-shadow .15s;
+}
+.app .nastavakK:hover { border-color: var(--plava); box-shadow: 0 6px 20px rgba(25,23,19,.07); }
+.app .oznakaN { font-size: .7rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.app .imeN { font-family: var(--naslov); font-size: 1.5rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.2; margin: 9px 0 6px; }
+.app .podN { font-size: .9rem; color: var(--muted); }
+.app .trakaN { height: 8px; border-radius: 4px; background: var(--tiho); overflow: hidden; margin: 16px 0 0; }
+.app .trakaN i { display: block; height: 100%; width: 0; border-radius: 4px; background: var(--plava); transition: width .7s cubic-bezier(.22,1,.36,1); }
+.app .cta {
+  display: inline-block; margin-top: 17px; padding: 11px 24px; border-radius: 11px;
+  background: var(--plava); color: #fff; font-weight: 600; font-size: .92rem;
+}
+.app .stanjeVal { background: var(--card); border: 1px solid var(--rub); border-radius: 16px; padding: 17px 19px; }
+.app .nasV { font-size: .7rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 13px; }
+.app .redV { margin-bottom: 13px; }
+.app .redV:last-child { margin-bottom: 0; }
+.app .redV .gornji { display: flex; justify-content: space-between; align-items: baseline; font-size: .85rem; }
+.app .redV .broj { font-family: var(--naslov); font-weight: 600; font-size: .84rem; }
+.app .redV .bar { height: 6px; border-radius: 3px; background: var(--tiho); overflow: hidden; margin: 7px 0 5px; }
+.app .redV .bar i { display: block; height: 100%; width: 0; border-radius: 3px; transition: width .7s cubic-bezier(.22,1,.36,1); }
+.app .redV .do { font-size: .74rem; color: var(--muted); }
+.app .redV.lp .broj { color: var(--plava); } .app .redV.lp .bar i { background: var(--plava); }
+.app .redV.vp .broj { color: var(--plavaVok); } .app .redV.vp .bar i { background: var(--plavaVok); }
+.app .redV.gp .broj { color: var(--zelena); } .app .redV.gp .bar i { background: var(--zelena); }
+.app .redV.pp .broj { color: var(--zlatna); } .app .redV.pp .bar i { background: var(--zlatna); }
+.app .maleP { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+.app .malaP {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 14px;
+  padding: 15px 17px; cursor: pointer; transition: border-color .15s, transform .12s;
+}
+.app .malaP:hover { border-color: var(--plava); transform: translateY(-2px); }
+.app .imeM { font-family: var(--naslov); font-weight: 600; font-size: .98rem; }
+.app .podM { font-size: .78rem; color: var(--muted); margin-top: 6px; line-height: 1.45; }
+
+/* — mreža lekcija — */
+.app .redNula { display: flex; margin: 0 0 12px; }
+.app .plocicaNula {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 12px;
+  padding: 12px 16px; cursor: pointer; flex: 1; transition: border-color .15s, transform .12s;
+}
+.app .plocicaNula:hover { border-color: var(--plava); transform: translateY(-1px); }
+.app .plocicaNula .imeF { font-weight: 700; font-size: .9rem; font-family: var(--naslov); }
+.app .plocicaNula .bod { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+.app .plocicaNula.gotovo { background: #eaf3ec; border-color: var(--zelena); }
+.app .plocicaNula.gotovo .imeF { color: var(--zelena); }
+.app table.mreza { width: 100%; border-collapse: separate; border-spacing: 6px; }
+.app td.faza {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 10px;
+  padding: 10px 8px; text-align: center; cursor: pointer; font-size: .82rem;
+  transition: border-color .15s; vertical-align: top;
+}
+.app td.faza:hover { border-color: var(--plava); }
+.app td.faza .imeF { font-weight: 600; font-size: .84rem; font-family: var(--naslov); }
+.app td.faza .tr { height: 6px; border-radius: 3px; background: var(--rub); overflow: hidden; margin: 7px 1px 5px; }
+.app td.faza .tr i { display: block; height: 100%; width: 0; border-radius: 3px; background: var(--plava); transition: width .7s cubic-bezier(.22,1,.36,1); }
+.app td.faza.gotovo { border-color: var(--zelena); }
+.app td.faza.gotovo .tr i { background: var(--zelena); }
+.app td.faza.zakljucano { opacity: .55; cursor: not-allowed; background: #f4f0e9; }
+.app td.faza.zakljucano .tr i { background: var(--zlatna); }
+.app td.faza .bodM { font-size: .7rem; color: var(--muted); line-height: 1.35; }
+.app td.faza .bodM strong { color: var(--ink); }
+.app tr.dalek1 td.faza { opacity: .62; filter: blur(.4px); }
+.app tr.dalek2 td.faza { opacity: .42; filter: blur(1px); }
+.app tr.dalek1 td.faza, .app tr.dalek2 td.faza { transition: opacity .2s, filter .2s, border-color .15s; }
+.app tr.dalek1:hover td.faza, .app tr.dalek2:hover td.faza { opacity: 1; filter: none; }
+
+/* — vježba — */
+.app .traka { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.app .natrag { padding: 6px 14px; border: 1px solid var(--rub); border-radius: 8px; background: var(--card); cursor: pointer; font-size: .84rem; font-family: inherit; }
+.app .traka h2 { font-size: 1rem; font-family: var(--naslov); font-weight: 600; }
+.app .progresBar { flex: 1; min-width: 110px; height: 8px; background: var(--rub); border-radius: 4px; overflow: hidden; }
+.app .progresBar div { height: 100%; width: 0; background: var(--plava); border-radius: 4px; transition: width .5s; }
+.app .vjezbeNav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.app .vnav {
+  display: inline-flex; flex-direction: column; gap: 4px; padding: 5px 10px 6px;
+  border: 1px solid var(--rub); border-radius: 8px; background: var(--card); cursor: pointer;
+  font-size: .82rem; color: var(--muted); min-width: 38px; text-align: center;
+  transition: border-color .15s, background .15s;
+}
+.app .vnav:hover { border-color: var(--plava); }
+.app .vnav.aktivna { border-color: var(--plava); background: #f4ebe9; color: var(--ink); font-weight: 600; }
+.app .vnav.zavrsena { border-color: var(--zelena); color: var(--zelena); }
+.app .vtr { display: block; height: 4px; border-radius: 2px; background: var(--rub); overflow: hidden; }
+.app .vtr i { display: block; height: 100%; width: 0; border-radius: 2px; background: var(--zlatna); transition: width .6s cubic-bezier(.22,1,.36,1); }
+.app .vnav.zavrsena .vtr i { background: var(--zelena); }
+.app .ploca {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 14px;
+  padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.06); max-width: 560px; margin: 0 auto;
+}
+.app .pricaBox {
+  background: var(--papir); border: 1px solid var(--rub); border-radius: 10px;
+  padding: 12px 14px; margin-bottom: 14px; font-size: .92rem; line-height: 1.6; font-style: italic;
+}
+.app .pitanjeText { font-size: 1.12rem; text-align: center; margin-bottom: 16px; line-height: 1.5; }
+.app .opcije { display: flex; flex-direction: column; gap: 10px; }
+.app .opcija {
+  padding: 12px 10px; border: 2px solid var(--rub); border-radius: 10px; background: #fffdfa;
+  font-size: 1rem; cursor: pointer; text-align: center; user-select: none;
+  transition: background .15s, border-color .15s;
+}
+.app .opcija:hover { border-color: var(--plava); }
+.app .opcija.tocno { border-color: var(--zelena) !important; background: #eaf3ec !important; color: var(--zelena); cursor: default; }
+.app .opcija.krivo { border-color: var(--crvena) !important; background: #fbeceb !important; animation: tres .3s; }
+@keyframes tres { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+.app .gumb {
+  margin-top: 14px; width: 100%; padding: 12px; border: none; border-radius: 10px;
+  background: var(--plava); color: #fff; font-size: 1rem; font-family: inherit; font-weight: 600; cursor: pointer;
+  transition: filter .15s;
+}
+.app .gumb:hover { filter: brightness(1.08); }
+
+/* — sažetak — */
+.app .sazetak {
+  background: var(--card); border: 1px solid var(--rub); border-radius: 14px;
+  padding: 24px; max-width: 520px; margin: 0 auto; text-align: center; position: relative;
+}
+.app .sazetak h2 { font-family: var(--naslov); font-size: 1.2rem; }
+.app .sazetak .podnas { color: var(--muted); font-size: .88rem; margin-top: 4px; }
+.app .prsten { position: relative; width: 178px; height: 178px; margin: 10px auto 2px; }
+.app .prsten svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.app .prsten .pozadina { fill: none; stroke: var(--rub); stroke-width: 14; }
+.app .prsten .luk {
+  fill: none; stroke: var(--plava); stroke-width: 14; stroke-linecap: round;
+  transition: stroke-dashoffset 1.2s cubic-bezier(.22,1,.36,1), stroke .4s;
+}
+.app .prstenSred {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+}
+.app .prstenPct { font-family: var(--naslov); font-size: 2.2rem; font-weight: 700; letter-spacing: -.02em; }
+.app .prstenPod { font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.app .sazetak ul { list-style: none; margin: 14px 0 4px; text-align: left; }
+.app .sazetak li { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px dashed var(--rub); font-size: .88rem; }
+.app .sazetak li:last-child { border-bottom: 0; }
+.app .sazetak li b { font-family: var(--naslov); font-weight: 600; }
+.app .zaslon { display: flex; gap: 10px; margin-top: 8px; }
+.app .zaslon .gumb { margin-top: 6px; }
+.app .gumbSivi { background: #6f675c; }
+
+.app .konfeti { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 5; }
+
+/* plutajući gumb (postoji u appu) */
+.app .lebdi {
+  position: absolute; right: 16px; bottom: 16px; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--card); border: 1px solid var(--rub); display: flex; align-items: center; justify-content: center;
+  font-size: 1.15rem; cursor: pointer; box-shadow: 0 2px 8px rgba(25,23,19,.08);
+}
+
+/* ============================================================
+   POSLIJE — sloj nadogradnje (samo .novi)
+   ============================================================ */
+/* Font koji app već traži u CSS-u, ali ga nikad ne učita (vidi <link> u <head>). */
+.novi .app {
+  font-family: "Public Sans", system-ui, sans-serif;
+  --naslov: "Space Grotesk", system-ui, sans-serif;
+  --rub: #e6dfd3; --sjena1: 0 1px 2px rgba(25,23,19,.04);
+  --sjena2: 0 2px 4px rgba(25,23,19,.04), 0 8px 18px -8px rgba(25,23,19,.16);
+  --sjena3: 0 4px 8px rgba(25,23,19,.05), 0 18px 34px -12px rgba(25,23,19,.26);
+  --spring: linear(0,.32 4.6%,.87 12.7%,1.06 18.2%,1.11 23.5%,1.03 33.6%,.99 45.2%,1);
+  background:
+    radial-gradient(1100px 460px at 12% -8%, #fdf6ec 0%, rgba(253,246,236,0) 60%),
+    radial-gradient(900px 420px at 100% 0%, #f5eee9 0%, rgba(245,238,233,0) 55%),
+    #f4f0e9;
+}
+/* zrnce papira — daje toplinu bez šuma u sadržaju */
+.novi .app::before {
+  content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; opacity: .5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+}
+.novi .app > * { position: relative; z-index: 1; }
+
+/* zaglavlje: staklo + klizni indikator aktivne stavke */
+.novi .app header {
+  background: rgba(255,253,250,.78);
+  -webkit-backdrop-filter: saturate(1.5) blur(12px);
+  backdrop-filter: saturate(1.5) blur(12px);
+  border-bottom: 1px solid rgba(227,221,210,.8);
+}
+.novi .app header .logo {
+  background: linear-gradient(145deg, #b06a5f, #8a4e46);
+  box-shadow: 0 1px 2px rgba(138,78,70,.4), inset 0 1px 0 rgba(255,255,255,.28);
+  transition: transform .35s var(--spring), box-shadow .25s;
+}
+.novi .app header .logo:hover { transform: rotate(-6deg) scale(1.08); box-shadow: 0 4px 12px rgba(138,78,70,.34); }
+.novi .app header nav { position: relative; }
+.novi .app header nav a { position: relative; z-index: 1; background: none !important; }
+.novi .app header nav a.aktivna { color: var(--ink); }
+.novi .app header nav .klizac {
+  position: absolute; z-index: 0; top: 0; height: 100%; border-radius: 8px;
+  background: var(--tiho); transition: left .42s var(--spring), width .42s var(--spring);
+}
+.novi .app header .valute { position: relative; overflow: hidden; }
+
+/* kartice: mekši rub, slojevita sjena, lift na spring krivulji */
+.novi .app .nastavakK, .novi .app .malaP, .novi .app .stanjeVal,
+.novi .app .plocicaNula, .novi .app .ploca, .novi .app .sazetak {
+  box-shadow: var(--sjena2);
+  transition: transform .38s var(--spring), box-shadow .3s ease, border-color .2s ease;
+}
+.novi .app .nastavakK:hover, .novi .app .malaP:hover, .novi .app .plocicaNula:hover {
+  transform: translateY(-4px); box-shadow: var(--sjena3); border-color: #d8c4bd;
+}
+/* kartice dobivaju blagi vertikalni gradijent i svijetlu gornju liniju — papir, ne ploha */
+.novi .app .nastavakK, .novi .app .malaP, .novi .app .stanjeVal,
+.novi .app .plocicaNula, .novi .app .ploca, .novi .app .sazetak, .novi .app td.faza {
+  background-image: linear-gradient(180deg, #fffefc 0%, #fdfaf3 100%);
+  border-color: #e8e1d6;
+}
+.novi .app .nastavakK, .novi .app .stanjeVal, .novi .app .ploca, .novi .app .sazetak {
+  box-shadow: var(--sjena2), inset 0 1px 0 #fff;
+}
+.novi .app .nastavakK { border-radius: 20px; position: relative; overflow: hidden; }
+/* topli odsjaj u kutu kartice „nastavi" — daje joj težinu glavne radnje */
+.novi .app .nastavakK::before {
+  content: ''; position: absolute; right: -70px; top: -90px; width: 240px; height: 240px;
+  background: radial-gradient(circle, rgba(176,106,95,.16), rgba(176,106,95,0) 68%);
+  pointer-events: none;
+}
+.novi .app .nastavakK > * { position: relative; }
+.novi .app .imeN { font-size: 1.5rem; letter-spacing: -.03em; }
+.novi .app .oznakaN { color: var(--plava); }
+.novi .app .oznakaN::before {
+  content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--plava); margin-right: 7px; vertical-align: 1px;
+  animation: tocka 2.4s ease-out infinite;
+}
+/* male pločice dobivaju ikonu u obojenom kvadratiću — mreža prestaje biti zid teksta */
+.novi .app .malaP { display: grid; grid-template-columns: 32px 1fr; gap: 0 11px; align-items: center; }
+.novi .app .malaP .imeM { grid-column: 2; }
+.novi .app .malaP .podM { grid-column: 1 / -1; margin-top: 9px; }
+.novi .app .malaP::before {
+  content: attr(data-ikona); grid-column: 1; grid-row: 1;
+  width: 32px; height: 32px; border-radius: 10px; background: #f3ece4;
+  display: flex; align-items: center; justify-content: center; font-size: 1rem;
+  box-shadow: inset 0 0 0 1px rgba(25,23,19,.05);
+  transition: transform .4s var(--spring), background .2s;
+}
+.novi .app .malaP:hover::before { transform: rotate(-7deg) scale(1.08); background: #f0e2de; }
+/* stanje: brojke veće i poravnate, trake s unutarnjom sjenom */
+.novi .app .redV .broj { font-size: .98rem; font-variant-numeric: tabular-nums; }
+.novi .app .redV .bar, .novi .app .trakaN, .novi .app .progresBar, .novi .app td.faza .tr {
+  box-shadow: inset 0 1px 2px rgba(25,23,19,.08);
+}
+.novi .app .nasV, .novi .app .oznakaN { letter-spacing: .1em; }
+/* CTA: gradijent + odsjaj koji prijeđe preko gumba na hover */
+.novi .app .cta, .novi .app .gumb {
+  position: relative; overflow: hidden;
+  background: linear-gradient(140deg, #a9655b, #8b4f47);
+  box-shadow: 0 1px 2px rgba(138,78,70,.28), 0 8px 18px -8px rgba(138,78,70,.55), inset 0 1px 0 rgba(255,255,255,.2);
+  transition: transform .34s var(--spring), box-shadow .25s, filter .2s;
+}
+.novi .app .gumbSivi { background: linear-gradient(140deg, #7b7266, #5f584e); box-shadow: var(--sjena2); }
+.novi .app .cta::after, .novi .app .gumb::after {
+  content: ''; position: absolute; top: 0; bottom: 0; left: -60%; width: 45%;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,.34), transparent);
+  transform: skewX(-18deg); transition: left .55s ease;
+}
+.novi .app .nastavakK:hover .cta::after, .novi .app .gumb:hover::after { left: 130%; }
+.novi .app .nastavakK:hover .cta, .novi .app .gumb:hover { transform: translateY(-2px); box-shadow: 0 3px 6px rgba(138,78,70,.24), 0 14px 26px -10px rgba(138,78,70,.6); }
+.novi .app .gumb:active { transform: translateY(0) scale(.985); }
+
+/* trake: gradijent + tanki odsjaj koji putuje (napredak izgleda „živ") */
+.novi .app .trakaN, .novi .app .redV .bar, .novi .app td.faza .tr, .novi .app .progresBar { position: relative; overflow: hidden; }
+.novi .app .trakaN i, .novi .app .redV .bar i, .novi .app td.faza .tr i, .novi .app .progresBar div {
+  position: relative; overflow: hidden;
+  transition: width 1.05s cubic-bezier(.22,1,.36,1);
+}
+.novi .app .trakaN i { background: linear-gradient(90deg, #b06a5f, #8a4e46); }
+.novi .app .trakaN i::after, .novi .app .progresBar div::after {
+  content: ''; position: absolute; inset: 0; border-radius: inherit;
+  background: linear-gradient(100deg, transparent 20%, rgba(255,255,255,.45) 50%, transparent 80%);
+  animation: sjaj 2.6s linear infinite;
+}
+@keyframes sjaj { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+
+/* mreža lekcija: dubina + otključana polja imaju tihi puls */
+.novi .app td.faza {
+  border-radius: 13px; box-shadow: var(--sjena1);
+  transition: transform .38s var(--spring), box-shadow .28s, border-color .2s, opacity .25s, filter .25s;
+}
+.novi .app td.faza:not(.zakljucano):hover { transform: translateY(-3px) scale(1.015); box-shadow: var(--sjena2); }
+.novi .app td.faza.gotovo { background-image: linear-gradient(160deg, #eef7f0, #fffdfa 68%); border-color: #c3dccb; }
+.novi .app .plocicaNula.gotovo { background-image: linear-gradient(150deg, #eaf3ec, #f7fbf8 75%); border-color: #b9d6c2; }
+.novi .app td.faza.zakljucano { background-image: linear-gradient(180deg, #f5f1ea, #efeae1); }
+.novi .app td.faza.sljedeca {
+  border-color: var(--plava);
+  box-shadow: 0 0 0 3px rgba(154,91,82,.13), var(--sjena2);
+  animation: puls 3.4s ease-in-out infinite;
+}
+@keyframes puls {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(154,91,82,.13), var(--sjena2); }
+  50%      { box-shadow: 0 0 0 7px rgba(154,91,82,.05), var(--sjena2); }
+}
+
+/* ulazak sadržaja: stagger, plus scroll-driven varijanta gdje je podržana */
+.novi .stagger > * { animation: ulaz .62s cubic-bezier(.22,1,.36,1) both; animation-delay: calc(var(--i, 0) * 65ms); }
+@keyframes ulaz { from { opacity: 0; transform: translateY(16px) scale(.985); } to { opacity: 1; transform: none; } }
+@supports (animation-timeline: view()) {
+  .novi .skrol { animation: otkrij linear both; animation-timeline: view(); animation-range: entry 0% entry 62%; }
+  @keyframes otkrij { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+}
+
+/* odgovori: klizni hover, pravi „pop" na točno, mekši trzaj na krivo */
+.novi .app .opcija {
+  position: relative; border-radius: 13px; box-shadow: var(--sjena1); text-align: left; padding-left: 46px;
+  transition: transform .32s var(--spring), border-color .18s, background .18s, box-shadow .25s;
+}
+.novi .app .opcija::before {
+  content: attr(data-slovo); position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  width: 24px; height: 24px; border-radius: 7px; background: var(--tiho); color: var(--muted);
+  font-size: .74rem; font-weight: 700; display: flex; align-items: center; justify-content: center;
+  transition: background .2s, color .2s, transform .35s var(--spring);
+}
+.novi .app .opcija:hover { transform: translateX(4px); box-shadow: var(--sjena2); }
+.novi .app .opcija:hover::before { background: #f0e2de; color: var(--plava); }
+.novi .app .opcija.tocno { animation: popTocno .5s cubic-bezier(.22,1,.36,1); }
+.novi .app .opcija.tocno::before { content: '✓'; background: var(--zelena); color: #fff; transform: translateY(-50%) scale(1.1); }
+.novi .app .opcija.krivo { animation: mekiTres .42s cubic-bezier(.36,.07,.19,.97); }
+.novi .app .opcija.krivo::before { content: '✕'; background: var(--crvena); color: #fff; }
+@keyframes popTocno { 0% { transform: scale(1); } 40% { transform: scale(1.032); } 100% { transform: scale(1); } }
+@keyframes mekiTres { 10%,90% { transform: translateX(-2px); } 20%,80% { transform: translateX(4px); } 30%,50%,70% { transform: translateX(-7px); } 40%,60% { transform: translateX(7px); } }
+
+/* fokus koji se vidi tipkovnicom — nedostajao je posve */
+.novi .app :focus-visible { outline: 3px solid rgba(154,91,82,.45); outline-offset: 3px; border-radius: 10px; }
+
+/* prsten: sjaj, zaokruženi kraj, brojka koja se odbroji */
+.novi .app .prsten .luk { filter: drop-shadow(0 3px 7px rgba(154,91,82,.35)); }
+.novi .app .prstenPct { font-variant-numeric: tabular-nums; }
+.novi .app .sazetak { border-radius: 20px; }
+.novi .app .sazetak li { animation: ulaz .5s cubic-bezier(.22,1,.36,1) both; animation-delay: calc(320ms + var(--i, 0) * 80ms); }
+
+/* plutajući gumb: diskretan „ima nešto novo" puls */
+.novi .app .lebdi {
+  box-shadow: var(--sjena2); transition: transform .38s var(--spring), box-shadow .25s;
+}
+.novi .app .lebdi:hover { transform: translateY(-3px) scale(1.06); box-shadow: var(--sjena3); }
+.novi .app .lebdi::after {
+  content: ''; position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--crvena); box-shadow: 0 0 0 0 rgba(194,65,60,.55); animation: tocka 2.4s ease-out infinite;
+}
+@keyframes tocka { 0% { box-shadow: 0 0 0 0 rgba(194,65,60,.5); } 70%, 100% { box-shadow: 0 0 0 9px rgba(194,65,60,0); } }
+
+/* prijelaz ekrana — View Transitions samo na novom panelu */
+.novi .telo { view-transition-name: novoTijelo; }
+::view-transition-old(novoTijelo) { animation: vtVan .22s ease both; }
+::view-transition-new(novoTijelo) { animation: vtUnutra .34s cubic-bezier(.22,1,.36,1) both; }
+@keyframes vtVan { to { opacity: 0; transform: translateY(-8px); } }
+@keyframes vtUnutra { from { opacity: 0; transform: translateY(12px); } }
+
+/* ============================================================
+   POŠTOVANJE KORISNIKA KOJI NE ŽELI ANIMACIJE
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important; scroll-behavior: auto !important;
+  }
+}
+body.bezPokreta *, body.bezPokreta *::before, body.bezPokreta *::after {
+  animation-duration: .001ms !important; animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+}
+</style>
+</head>
+<body>
+
+<div class="d-top">
+  <div class="d-brand">Croland <span>prije / poslije</span></div>
+  <div class="d-seg" id="tabovi">
+    <button data-e="pocetna" class="on">Naslovnica</button>
+    <button data-e="lekcije">Lekcije</button>
+    <button data-e="vjezba">Vježba</button>
+    <button data-e="rezultat">Rezultat</button>
+  </div>
+  <div class="d-seg" id="nacin">
+    <button data-n="dva" class="on">Usporedo</button>
+    <button data-n="staro">Samo prije</button>
+    <button data-n="novo">Samo poslije</button>
+  </div>
+  <div class="d-right">
+    <label class="d-check"><input type="checkbox" id="cbPokret"> bez animacija</label>
+    <label class="d-check"><input type="checkbox" id="cbPonovi" onclick="crtaj(true)"> ↻ ponovi</label>
+  </div>
+</div>
+
+<div class="d-stage dva" id="pozornica">
+  <div class="d-pane stari" id="paneStari">
+    <div class="d-oznaka"><b></b> Prije — kako je sada</div>
+    <div class="d-okvir"><div class="app"></div></div>
+  </div>
+  <div class="d-pane novi" id="paneNovi">
+    <div class="d-oznaka"><b></b> Poslije — nadogradnja</div>
+    <div class="d-okvir"><div class="app"></div></div>
+  </div>
+</div>
+
+<ul class="d-biljeske" id="biljeske" style="padding:0 22px 30px"></ul>
+
+<script>
+/* ---------------- podaci za prikaz ---------------- */
+const NAV = ['Lessons','Dictionary','Games','Daily','You','Options'];
+
+const VAL = [
+  { k:'lp', ime:'Lesson points',  broj:'1 240', pct:62, do:'760 do razine 6' },
+  { k:'vp', ime:'Vocabulary',     broj:'318',   pct:44, do:'182 riječi do 500' },
+  { k:'gp', ime:'Grammar',        broj:'96',    pct:78, do:'24 do sljedeće značke' },
+  { k:'pp', ime:'Practice',       broj:'27',    pct:35, do:'serija: 6 dana' }
+];
+
+const MALE = [
+  ['Dictionary','318 riječi spremljeno — 12 za ponavljanje danas','📖'],
+  ['Mini games','Memory, Match, Sprint — 4 nove razine','🎯'],
+  ['Daily challenge','Riješeno danas — vrati se sutra','🗓'],
+  ['Your account','Serija 6 dana · razina 5','⭑']
+];
+
+const FAZE = [
+  { ime:'1 · Hello',        pct:100, bod:'40 / 40', st:'gotovo' },
+  { ime:'2 · Numbers',      pct:100, bod:'38 / 40', st:'gotovo' },
+  { ime:'3 · Family',       pct:100, bod:'40 / 40', st:'gotovo' },
+  { ime:'4 · Food',         pct:100, bod:'36 / 40', st:'gotovo' },
+  { ime:'5 · The city',     pct:100, bod:'40 / 40', st:'gotovo' },
+  { ime:'6 · Time',         pct:100, bod:'34 / 40', st:'gotovo' },
+  { ime:'7 · At the market',pct:30,  bod:'12 / 40', st:'sljedeca' },
+  { ime:'8 · Travel',       pct:0,   bod:'0 / 40',  st:'' },
+  { ime:'9 · Weather',      pct:0,   bod:'0 / 40',  st:'zakljucano' },
+  { ime:'10 · At home',     pct:0,   bod:'0 / 40',  st:'zakljucano' },
+  { ime:'11 · Work',        pct:0,   bod:'0 / 40',  st:'zakljucano' },
+  { ime:'12 · Feelings',    pct:0,   bod:'0 / 40',  st:'zakljucano' }
+];
+
+const OPCIJE = ['jabuku','jabuka','jabukom','jabuke'];
+const TOCNA = 0;
+
+const REZ = [
+  ['Točno iz prve','32 / 40'],
+  ['Nove riječi','+14'],
+  ['Vrijeme','6 min 12 s'],
+  ['Serija','6 dana']
+];
+
+/* ---------------- predlošci ekrana ---------------- */
+function zaglavlje(akt) {
+  return `<header>
+    <div class="logo">C</div>
+    <nav>${NAV.map(n => `<a class="${n===akt?'aktivna':''}">${n}</a>`).join('')}<span class="klizac"></span></nav>
+    <div class="valute">★ 1 240 · 318 riječi</div>
+  </header>`;
+}
+
+const EKRANI = {
+  pocetna: () => `
+    <div class="view telo">
+      <div class="pocetna stagger">
+        <div style="--i:0">
+          <div class="nastavakK">
+            <div class="oznakaN">Nastavi gdje si stao</div>
+            <div class="imeN">Lesson 7 — At the market</div>
+            <div class="podN">Vježba 4 od 12 · Kupovanje i količine</div>
+            <div class="trakaN"><i data-w="30"></i></div>
+            <div class="cta">Nastavi →</div>
+          </div>
+          <div class="redNula" style="margin-top:14px">
+            <div class="plocicaNula gotovo">
+              <div class="imeF">Lesson 0 — The alphabet</div>
+              <div class="bod">Završeno · ponovi kad god želiš</div>
+            </div>
+          </div>
+          <div class="maleP">
+            ${MALE.map(([a,b,ik]) => `<div class="malaP skrol" data-ikona="${ik}"><div class="imeM">${a}</div><div class="podM">${b}</div></div>`).join('')}
+          </div>
+        </div>
+        <div class="stanjeVal" style="--i:1">
+          <div class="nasV">Tvoje stanje</div>
+          ${VAL.map(v => `<div class="redV ${v.k}">
+            <div class="gornji"><b>${v.ime}</b><span class="broj" data-broj="${v.broj}">${v.broj}</span></div>
+            <div class="bar"><i data-w="${v.pct}"></i></div>
+            <div class="do">${v.do}</div>
+          </div>`).join('')}
+        </div>
+      </div>
+      <div class="lebdi">📖</div>
+    </div>`,
+
+  lekcije: () => {
+    let red = '';
+    for (let r = 0; r < 3; r++) {
+      const kl = r === 1 ? 'dalek1' : r === 2 ? 'dalek2' : '';
+      red += `<tr class="${kl}">` + FAZE.slice(r*4, r*4+4).map((f, i) => `
+        <td class="faza ${f.st} stagUnos" style="--i:${r*4+i}">
+          <div class="imeF">${f.ime}</div>
+          <div class="tr"><i data-w="${f.pct}"></i></div>
+          <div class="bodM"><strong>${f.bod}</strong> bodova</div>
+        </td>`).join('') + '</tr>';
+    }
+    return `<div class="view telo">
+      <div class="traka"><h2>Lessons — razina 5</h2></div>
+      <div class="redNula">
+        <div class="plocicaNula gotovo">
+          <div class="imeF">Lesson 0 — The alphabet</div>
+          <div class="bod">Uvod · uvijek otključano</div>
+        </div>
+      </div>
+      <div class="stagger"><table class="mreza"><tbody>${red}</tbody></table></div>
+      <div class="lebdi">📖</div>
+    </div>`;
+  },
+
+  vjezba: () => `
+    <div class="view telo stagger">
+      <div class="traka" style="--i:0">
+        <button class="natrag">← Natrag</button>
+        <h2>Lesson 7 — At the market</h2>
+        <div class="progresBar"><div data-w="33"></div></div>
+      </div>
+      <div class="vjezbeNav" style="--i:1">
+        ${[1,2,3,4,5,6,7,8].map(n => `<div class="vnav ${n<4?'zavrsena':''} ${n===4?'aktivna':''}">
+          ${n}<span class="vtr"><i data-w="${n<4?100:n===4?40:0}"></i></span></div>`).join('')}
+      </div>
+      <div class="ploca" style="--i:2">
+        <div class="pricaBox">Na tržnici je gužva. Ana traži nešto za doručak.</div>
+        <div class="pitanjeText">Kupujem <b>___</b> na tržnici.</div>
+        <div class="opcije">
+          ${OPCIJE.map((o, i) => `<div class="opcija" data-i="${i}" data-slovo="${'ABCD'[i]}">${o}</div>`).join('')}
+        </div>
+        <button class="gumb">Provjeri</button>
+      </div>
+      <div class="lebdi">📖</div>
+    </div>`,
+
+  rezultat: () => `
+    <div class="view telo">
+      <div class="sazetak">
+        <canvas class="konfeti"></canvas>
+        <h2>Lesson 7 završen</h2>
+        <div class="podnas">At the market · 12 vježbi</div>
+        <div class="prsten">
+          <svg viewBox="0 0 178 178">
+            <circle class="pozadina" cx="89" cy="89" r="72"></circle>
+            <circle class="luk" cx="89" cy="89" r="72"
+              stroke-dasharray="452.4" stroke-dashoffset="452.4"></circle>
+          </svg>
+          <div class="prstenSred">
+            <div class="prstenPct" data-pct="86">0%</div>
+            <div class="prstenPod">točnost</div>
+          </div>
+        </div>
+        <ul>${REZ.map(([a,b], i) => `<li style="--i:${i}"><span>${a}</span><b>${b}</b></li>`).join('')}</ul>
+        <div class="zaslon">
+          <button class="gumb gumbSivi">Ponovi</button>
+          <button class="gumb">Sljedeća lekcija →</button>
+        </div>
+      </div>
+      <div class="lebdi">📖</div>
+    </div>`
+};
+
+const BILJESKE = {
+  pocetna: [
+    '<b>Podloga:</b> topli radijalni gradijent + jedva vidljivo zrnce papira umjesto plohe boje — dubina bez ijedne slike.',
+    '<b>Zaglavlje:</b> poluprozirno staklo (<code>backdrop-filter</code>) i indikator aktivne stavke koji <i>klizi</i> između linkova umjesto da preskoči.',
+    '<b>Kartice:</b> slojevita sjena (dvije razine), podizanje na spring krivulji <code>linear()</code>, ne na linearnoj — zato djeluje fizički.',
+    '<b>CTA:</b> gradijent + odsjaj koji prijeđe preko gumba na hover.',
+    '<b>Trake i brojke:</b> pune se od nule i odbrojavaju do vrijednosti, uz tihi sjaj koji putuje — napredak se osjeti, ne samo pročita.',
+    '<b>Ulazak:</b> stagger od 65 ms po elementu; male pločice koriste <code>animation-timeline: view()</code> gdje preglednik podržava.',
+    '<b>Font:</b> tvoj CSS već traži <i>Space Grotesk</i>, ali ga stranica nikad ne učita — desni panel ga učitava. Jedan <code>&lt;link&gt;</code>, a promjena je vidljiva na svakom naslovu.'
+  ],
+  lekcije: [
+    '<b>Stagger po ćelijama:</b> mreža se slaže u valu umjesto da bljesne odjednom.',
+    '<b>Sljedeća lekcija</b> ima mirni puls prstena — oko odmah zna gdje nastaviti.',
+    '<b>Završene</b> dobivaju blagi zeleni gradijent umjesto samo obruba.',
+    '<b>Hover:</b> podizanje + 1.5 % uvećanja; zaključana polja ostaju mirna, pa se granica osjeti bez teksta.',
+    'Tvoj postojeći trik s zamućenom „dalekom budućnošću" je zadržan — samo s mekšim prijelazom.'
+  ],
+  vjezba: [
+    '<b>Odgovori:</b> slovo A–D u kvadratiću, hover pomiče opciju za 4 px udesno — jasno je što je pod mišem.',
+    '<b>Točno:</b> kvadratić postane zelena kvačica + kratki „pop" (1.03×), ne skok.',
+    '<b>Krivo:</b> mekši, gušći trzaj (6 titraja koji se stišavaju) umjesto dva gruba pomaka.',
+    '<b>Fokus:</b> <code>:focus-visible</code> prsten — trenutno ga app nema, a bez njega tipkovnica je slijepa.',
+    'Klikni odgovor u oba panela da vidiš razliku.'
+  ],
+  rezultat: [
+    '<b>Prsten</b> se crta 1.2 s, a postotak se <b>odbrojava</b> u istom ritmu — dvije animacije koje govore isto.',
+    '<b>Konfeti:</b> ~70 čestica na canvasu, vlastitih 25 linija koda, bez ijedne biblioteke.',
+    '<b>Stavke sažetka</b> ulaze redom nakon prstena, pa se rezultat čita kao mala priča.',
+    'Sve poštuje <code>prefers-reduced-motion</code> — kvačica gore simulira taj način rada.'
+  ]
+};
+
+/* ---------------- crtanje ---------------- */
+let ekran = 'pocetna';
+
+function crtaj(pon) {
+  const stari = document.querySelector('#paneStari .app');
+  const novi  = document.querySelector('#paneNovi .app');
+  const html  = zaglavlje(ekran === 'pocetna' ? '' : 'Lessons') + EKRANI[ekran]();
+  stari.innerHTML = html;
+  const upisi = () => { novi.innerHTML = html; poslije(novi); };
+  if (document.startViewTransition && !pon && !document.body.classList.contains('bezPokreta')) {
+    document.startViewTransition(upisi);
+  } else upisi();
+  prije(stari);
+  biljeske();
+}
+
+function biljeske() {
+  document.getElementById('biljeske').innerHTML =
+    BILJESKE[ekran].map(t => `<li>${t}</li>`).join('');
+}
+
+/* zajedničko: trake se pune (to app već radi) */
+function napuni(root) {
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    root.querySelectorAll('[data-w]').forEach(el => el.style.width = el.dataset.w + '%');
+  }));
+}
+
+function prije(root) {
+  napuni(root);
+  klik(root, false);
+  const luk = root.querySelector('.luk');
+  if (luk) requestAnimationFrame(() => requestAnimationFrame(() => {
+    luk.style.strokeDashoffset = 452.4 * (1 - 0.86);
+  }));
+  const pct = root.querySelector('.prstenPct');
+  if (pct) pct.textContent = '86%';
+}
+
+function poslije(root) {
+  napuni(root);
+  klik(root, true);
+  klizac(root);
+
+  // prsten + odbrojavanje
+  const luk = root.querySelector('.luk');
+  const pct = root.querySelector('.prstenPct');
+  if (luk) {
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      luk.style.strokeDashoffset = 452.4 * (1 - 0.86);
+    }));
+    odbroji(pct, 86, 1200);
+    setTimeout(() => konfeti(root), 420);
+  }
+  // brojke u sidebaru
+  root.querySelectorAll('.broj[data-broj]').forEach((el, i) => {
+    const cilj = parseInt(el.dataset.broj.replace(/\s/g, ''), 10);
+    el.textContent = '0';
+    setTimeout(() => odbroji(el, cilj, 900, true), 180 + i * 90);
+  });
+}
+
+function odbroji(el, cilj, ms, razmak) {
+  if (!el || document.body.classList.contains('bezPokreta')
+      || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (el) el.textContent = razmak ? cilj.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : cilj + '%';
+    return;
+  }
+  const t0 = performance.now();
+  (function tik(t) {
+    const p = Math.min(1, (t - t0) / ms);
+    const e = 1 - Math.pow(1 - p, 3);           // ista krivulja kao traka
+    const v = Math.round(cilj * e);
+    el.textContent = razmak ? v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : v + '%';
+    if (p < 1) requestAnimationFrame(tik);
+  })(t0);
+}
+
+/* klizni indikator u navigaciji */
+function klizac(root) {
+  const nav = root.querySelector('nav'), kl = root.querySelector('.klizac');
+  if (!nav || !kl) return;
+  const post = a => {
+    kl.style.left = a.offsetLeft + 'px';
+    kl.style.width = a.offsetWidth + 'px';
+    kl.style.opacity = 1;
+  };
+  const akt = nav.querySelector('a.aktivna');
+  kl.style.opacity = 0;
+  if (akt) requestAnimationFrame(() => post(akt));
+  nav.querySelectorAll('a').forEach(a => {
+    a.addEventListener('mouseenter', () => post(a));
+  });
+  nav.addEventListener('mouseleave', () => { if (akt) post(akt); else kl.style.opacity = 0; });
+}
+
+/* odgovori */
+function klik(root, jeNovi) {
+  root.querySelectorAll('.opcija').forEach(o => {
+    o.addEventListener('click', () => {
+      if (root.querySelector('.opcija.tocno')) return;
+      const dobar = +o.dataset.i === TOCNA;
+      o.classList.add(dobar ? 'tocno' : 'krivo');
+      if (!dobar) setTimeout(() => o.classList.remove('krivo'), 500);
+      if (dobar && jeNovi) {
+        const p = root.querySelector('.progresBar div');
+        if (p) p.style.width = '41%';
+      }
+    });
+  });
+}
+
+/* konfeti — bez biblioteke */
+function konfeti(root) {
+  const c = root.querySelector('.konfeti');
+  if (!c || document.body.classList.contains('bezPokreta')
+      || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const box = c.parentElement.getBoundingClientRect();
+  const dpr = Math.min(2, devicePixelRatio || 1);
+  c.width = box.width * dpr; c.height = box.height * dpr;
+  const x = c.getContext('2d'); x.scale(dpr, dpr);
+  const boje = ['#9a5b52', '#2f6d4f', '#8a6d1f', '#23407a', '#c2413c'];
+  const p = Array.from({ length: 70 }, () => ({
+    x: box.width / 2 + (Math.random() - .5) * 60, y: box.height * .42,
+    vx: (Math.random() - .5) * 7, vy: -Math.random() * 9 - 3,
+    r: 3 + Math.random() * 4, a: Math.random() * 6.3, va: (Math.random() - .5) * .3,
+    b: boje[(Math.random() * boje.length) | 0], z: 1
+  }));
+  (function tik() {
+    x.clearRect(0, 0, box.width, box.height);
+    let ziv = 0;
+    p.forEach(o => {
+      o.vy += .28; o.x += o.vx; o.y += o.vy; o.a += o.va; o.z -= .008;
+      if (o.z <= 0) return;
+      ziv++;
+      x.save(); x.globalAlpha = Math.max(0, o.z); x.translate(o.x, o.y); x.rotate(o.a);
+      x.fillStyle = o.b; x.fillRect(-o.r / 2, -o.r / 2, o.r, o.r * 1.6); x.restore();
+    });
+    if (ziv) requestAnimationFrame(tik); else x.clearRect(0, 0, box.width, box.height);
+  })();
+}
+
+/* ---------------- kontrole ---------------- */
+document.getElementById('tabovi').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+  ekran = b.dataset.e; crtaj();
+});
+document.getElementById('nacin').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  [...e.currentTarget.children].forEach(x => x.classList.toggle('on', x === b));
+  const n = b.dataset.n, poz = document.getElementById('pozornica');
+  poz.className = 'd-stage ' + (n === 'dva' ? 'dva' : 'jedan');
+  document.getElementById('paneStari').style.display = n === 'novo' ? 'none' : '';
+  document.getElementById('paneNovi').style.display  = n === 'staro' ? 'none' : '';
+  crtaj(true);
+});
+document.getElementById('cbPokret').addEventListener('change', e => {
+  document.body.classList.toggle('bezPokreta', e.target.checked);
+  crtaj(true);
+});
+
+crtaj(true);
+</script>
+</body>
+</html>

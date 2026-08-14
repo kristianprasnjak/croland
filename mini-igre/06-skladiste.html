@@ -103,10 +103,13 @@ input.upis:focus{outline:none;background:var(--papir2)}
   border-radius:10px;background:#fff;width:38px;height:38px}
 .dijakritik:hover{background:var(--zut)}
 @media (max-width:640px){
-  .omot{padding:8px 8px 30px}
-  .hud{padding:8px 10px;gap:6px}
-  .hud .ime{font-size:15px;width:100%}
-  .ploha{padding:12px;border-radius:16px}
+  .omot{padding:6px 6px 16px}
+  .hud{padding:6px 8px;gap:6px;margin-bottom:8px}
+  .hud .ime{font-size:15px}
+  .hud .ime small{display:none}
+  .natrag{padding:4px 8px;font-size:12px}
+  .znak{padding:3px 9px;font-size:12px}
+  .ploha{padding:10px;border-radius:14px;gap:8px}
   h2.naslov{font-size:18px}
 }
 
@@ -130,6 +133,19 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .dpad2{display:grid;grid-template-columns:repeat(3,52px);grid-template-rows:repeat(3,52px);gap:6px}
 .dpad2 button{font-size:20px;border:var(--crta);border-radius:12px;background:#fff;box-shadow:0 3px 0 var(--tinta);cursor:pointer}
 .dpad2 .prazno{visibility:hidden}
+
+@media (max-width:640px){
+  .sklOmot{gap:6px}
+  .katNatpis{font-size:12px;padding:4px 10px;margin-bottom:5px}
+  .legenda{font-size:11px;gap:4px}
+  .nosim{padding:5px 10px;font-size:12px}
+  .ulozi{gap:8px;margin-top:5px}
+  .ulog{padding:9px}
+  .ulog b{font-size:18px;margin-bottom:2px}
+  .ulog small{font-size:11px}
+  .dpad2{grid-template-columns:repeat(3,42px);grid-template-rows:repeat(3,42px);gap:4px}
+  .dpad2 button{font-size:16px}
+}
 
 </style>
 </head>

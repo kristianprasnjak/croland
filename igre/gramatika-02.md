@@ -3,6 +3,7 @@ cjelina: Grammar 2
 
 ## The rule: the full "biti" table
 format: tekst
+info: The reference table for **biti**: *sam, si, je, smo, ste, su*. Two rules travel with it. The pronoun is optional, because the verb already names the person, but the verb can never stand first — *Ja sam student* shortens to *Student sam*, never *Sam student*.
 - You've already *used* everything on this page — now let's name it.
 - **One verb, six forms.** Here is the complete map of the most important verb in Croatian.
 - tab: Pronoun | biti | English
@@ -22,6 +23,7 @@ format: tekst
 
 ## Tap the verb
 format: nastavak
+info: Tap the one form of **biti** the subject asks for: *ja sam, ti si, on and ona je, mi smo, vi ste, oni su*. A name and *ovo* behave like *on* or *ona*, so they take *je*, and *Tko ___ ti?* takes the *ti* form because you are asking one person.
 nastavci: sam | si | je | smo | ste | su
 opis: English above, Croatian below. The sentence is waiting for its verb — one tap. Get it right and you'll hear it.
 - Ja ___ kuhar. | I am a cook. | sam
@@ -43,6 +45,7 @@ opis: English above, Croatian below. The sentence is waiting for its verb — on
 
 ## The rule: adjectives still copy the person
 format: tekst
+info: The agreement rule from Lesson 1, now applied to people: the adjective copies whoever it describes — bare for *on*, **-a** for *ona*, **-i** for *mi, vi* and *oni*. Watch the vowel that disappears (*umoran → umorna*) and the single oddity *veseo → vesela*.
 - **Nothing new here — the Lesson 1 rule just met people.** The adjective copies whoever it describes.
 - tab: Who | Ending | Example
 - tab: on (he) | — | On je visok.
@@ -57,6 +60,7 @@ format: tekst
 
 ## Pick the adjective
 format: izbor
+info: Pick the adjective form that agrees with the subject in front of it. A name counts as *on* or *ona*: *Ana je pametna*, *Marko je gladan*. After *mi, vi, oni* the ending is **-i**, and the disappearing vowel goes with it: *umoran → umorni*.
 opis: Choose the form that agrees with the person.
 - On je ___ | visok | visoka | visoki
 - Ona je ___ | vesela | veseo | veseli
@@ -73,6 +77,7 @@ opis: Choose the form that agrees with the person.
 
 ## Tap the ending: he, she or they?
 format: nastavak
+info: Only the ending is missing: nothing for *on*, **-a** for *ona*, **-i** for a plural subject. The stem on screen is already trimmed, which is why *pametn-*, *umorn-* and *hrabr-* have lost the vowel that only the male form keeps.
 nastavci: - | a | i
 opis: The person decides the ending. Consonant is his, -a is hers, -i is theirs.
 - On je visok___. | He is tall. | -
@@ -98,6 +103,7 @@ opis: The person decides the ending. Consonant is his, -a is hers, -i is theirs.
 
 ## The rule: ti or vi?
 format: tekst
+info: A two-part rule page. First the politeness choice: *ti* for a friend, child or close relative, *vi* for a group **or** for one person you are being polite to, always with *ste*. Then the female job endings — usually **-ica**, but *novinar → novinarka*.
 - **ti** = one friend, a family member, a child, a colleague you know well.
 - **vi** = several people — or **one** person you're being polite to. Same word, and the verb is always **ste**.
 - *Kako si?* to a friend. *Kako ste?* to a stranger, a waiter, a doctor, anyone older.
@@ -109,6 +115,7 @@ format: tekst
 
 ## ti or vi?
 format: izbor
+info: Choose *ti* or *vi* for each situation. One friend, child or close relative takes *ti*; a stranger, someone older, someone in a professional role, or any group takes *vi*, even a single person. Unsure in Croatia? Start with *vi* and let them offer *ti*.
 opis: Choose the right pronoun for each situation.
 - Your best friend | ti | vi
 - A waiter you've never met | vi | ti
@@ -123,6 +130,7 @@ opis: Choose the right pronoun for each situation.
 
 ## The female version
 format: upis
+info: Type the female form. The default is **-ica** (*kuhar → kuharica*), with a consonant dropping where the word demands it (*odvjetnik → odvjetnica*, *glumac → glumica*). Two here take **-ka** instead: *novinar → novinarka*, *policajac → policajka*.
 opis: Make it female — type the correct form.
 - student → | studentica
 - profesor → | profesorica
@@ -141,6 +149,7 @@ opis: Make it female — type the correct form.
 
 ## The rule: the negative table
 format: tekst
+info: The negative half of **biti**: *nisam, nisi, nije, nismo, niste, nisu*, always one word — there is no *ne sam*. Unlike the positive forms these are stressed, so they may open a sentence (*Nisam gladan*) and can even stand alone as a full answer.
 - Grammar 1 gave you **nije**. Here is the rest of its family — the same six slots you just filled, flipped.
 - tab: Pronoun | is | isn't
 - tab: ja | sam | **nisam**
@@ -156,6 +165,7 @@ format: tekst
 
 ## Make it negative
 format: upis
+info: Swap each positive form for its negative twin: *sam → nisam*, *si → nisi*, *je → nije*, *smo → nismo*, *ste → niste*, *su → nisu*. Nothing else moves, and the adjective keeps agreeing with the person: *Ona nije vesela*, *Oni nisu zauzeti*.
 opis: Flip each sentence. Only the verb changes — the pronoun and the adjective stay put.
 - Ja sam gladan. → | Ja nisam gladan
 - Ti si umoran. → | Ti nisi umoran
@@ -168,6 +178,7 @@ opis: Flip each sentence. Only the verb changes — the pronoun and the adjectiv
 
 ## The grammatical sentence
 format: izbor
+info: Pick the sentence a Croatian would actually say. Two things decide it: the negative of **biti** is a single word, so *ne je* and *ne su* are impossible, and the adjective must still match the speaker — a man says *Nisam gladan*, a woman *Nisam gladna*.
 opis: One of these is how a Croatian would say it.
 - I'm not hungry. (a man speaking) | Nisam gladan. | Ne sam gladan. | Nisam gladna.
 - She isn't a journalist. | Ona nije novinarka. | Ona ne je novinarka. | Ona nije novinar.
@@ -178,6 +189,7 @@ opis: One of these is how a Croatian would say it.
 
 ## Write the whole sentence
 format: upis
+info: Free production from English, the hardest step on this page. Build it as pronoun plus **biti** plus a noun or adjective, drop the pronoun if you like, but never let *sam, si* or *je* stand first: *Gladan sam* is right, *Sam gladan* is not.
 opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional, so both versions are accepted — as long as the verb isn't first.
 - I am a student. | Ja sam student. / Student sam.
 - You are a driver. | Ti si vozač. / Vozač si.
@@ -199,6 +211,7 @@ opis: The last step — the English sentence, and you write the Croatian. The pr
 
 ## You can do this now
 format: tekst
+info: A closing summary rather than an exercise. It gathers the one idea behind everything you drilled here — find the person first, then let the verb form and the adjective ending follow that person — and points ahead to Practice 2 and Test 2.
 - **Bravo.** You just wrote Croatian sentences about people from nothing but an English prompt — six verb forms, six negative forms, three adjective endings, and the -ica trick.
 - And you did it with a rule you can carry anywhere: **look at who you're talking about, and let the ending follow them.**
 - **Next up:** Practice 2 puts these people into short real conversations — introductions, a café, a team — and Test 2 closes the unit. Then Lesson 3 hands you the rest of the verbs: reading, writing, eating, drinking.
