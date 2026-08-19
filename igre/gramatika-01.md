@@ -60,9 +60,26 @@ opis: Choose the adjective that agrees with the noun.
 - ___ grad | lijep | lijepa | lijepo
 - ___ krevet | mekan | mekana | mekano
 
+## The rule: the disappearing a
+format: tekst
+info: The page that explains the extra vowel in *dobar*, *hladan* and *topao*: it belongs to the masculine form only and falls out the moment an ending is added, giving *dobra*, *hladna*, *topla*. *sladak* goes one step further and becomes *slatka*, while *mekan* keeps its vowel all the way through.
+- You just met a strange pair: *dobar dan*, but *dobra kava*. Where did the **a** go?
+- **Some masculine forms carry an extra vowel** — and it falls out the moment an ending arrives. Only the masculine does this. The **-a** and **-o** forms are perfectly regular, and they always show you the real stem.
+- tab: Masculine | Feminine | Neuter
+- tab: dob**a**r | dobra | dobro
+- tab: hlad**a**n | hladna | hladno
+- tab: moder**a**n | moderna | moderno
+- tab: slad**a**k | sla**t**ka | sla**t**ko
+- tab: top**ao** | to**pl**a | to**pl**o
+- *sladak* does one thing more: its **d** turns into **t**. Say *sladka* and then *slatka* out loud — the second one is simply easier to say, and that is the whole reason.
+- *topao* is the same trick in disguise. The stem is *topl-*, and a lone **l** at the end of a Croatian word turns into **o**. Add any ending and the **l** comes straight back: *topla*, *toplo*.
+- **Not every word does this.** *mekan* keeps everything it has: *mekan krevet*, *mekana soba*, *mekano more*. So don't assume every **-an** drops its vowel.
+- The safe habit: **learn the masculine and the feminine together** — *dobar / dobra*, *topao / topla*, *sladak / slatka*, *mekan / mekana*. Once you have that pair, the neuter is just the feminine with **-o**.
+- Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it.
+
 ## Type the adjective
 format: upis
-info: Typing the agreeing form, so you have to commit to an ending. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).
+info: Typing the agreeing form, so you have to commit to an ending. Watch the vanishing vowel from the page before — it is *Kava je topla*, never *topaa*. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).
 opis: Type the full adjective — choose the form that matches the noun.
 - Soba je mali/mala/malo. | mala
 - Nebo je plav/plava/plavo. | plavo

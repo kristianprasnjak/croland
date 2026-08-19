@@ -656,6 +656,10 @@ var ZADACI = [
 var S = {x:11, y:16, smjer:'d', zadatak:0, gotovi:{}, bodovi:0, nosi:[], korak:0,
          bez:false, bezZadataka:0};
 var T = 32, ROW = MAPA[0].length, COL = MAPA.length;
+/* vidno polje (u pločicama) — manje = veći zum na igrača */
+var VID_W = Math.min(ROW, 13), VID_H = Math.min(COL, 9);
+var kam = {x:0, y:0};          // trenutni pomak kamere u pikselima
+var kamAnim = null;
 
 MAPA.forEach(function(r,i){ if(r.length!==ROW) console.warn('redak '+i+' ima '+r.length+' znakova'); });
 
@@ -670,7 +674,7 @@ ploha.className = 'ploha';
 ploha.innerHTML =
   '<div class="zadatakTraka"><span class="oznaka">ZADATAK</span><span id="zadTekst">Popričaj s ljudima u gradu (priđi i pritisni razmaknicu ili gumb ✋).</span></div>' +
   '<div class="gradOmot">' +
-  '<canvas id="platno" width="' + (ROW*T) + '" height="' + (COL*T) + '"></canvas>' +
+  '<canvas id="platno" width="' + (VID_W*T) + '" height="' + (VID_H*T) + '"></canvas>' +
   '<div class="dpad">' +
     '<span class="prazno"></span><button data-s="u">▲</button><span class="prazno"></span>' +
     '<button data-s="l">◀</button><button class="akcija" data-s="x">✋</button><button data-s="r">▶</button>' +
@@ -679,6 +683,30 @@ ploha.innerHTML =
 O.appendChild(ploha);
 
 var C = CL.el('platno'), G = C.getContext('2d');
+
+/* ---------------- kamera ---------------- */
+function stegni(v, min, max){ return v < min ? min : (v > max ? max : v); }
+function ciljKamere(){
+  return {
+    x: stegni(S.x*T + T/2 - C.width/2,  0, Math.max(0, ROW*T - C.width)),
+    y: stegni(S.y*T + T/2 - C.height/2, 0, Math.max(0, COL*T - C.height))
+  };
+}
+function namjestiKameru(odmah){
+  var c = ciljKamere();
+  if (odmah){ kam.x = c.x; kam.y = c.y; if(kamAnim){ cancelAnimationFrame(kamAnim); kamAnim=null; } crtaj(); return; }
+  if (kamAnim) return;                       // animacija već trči, sama gađa novi cilj
+  kamAnim = requestAnimationFrame(function korakKamere(){
+    var c = ciljKamere();
+    kam.x += (c.x - kam.x) * 0.22;
+    kam.y += (c.y - kam.y) * 0.22;
+    if (Math.abs(c.x - kam.x) < 0.5 && Math.abs(c.y - kam.y) < 0.5){
+      kam.x = c.x; kam.y = c.y; kamAnim = null; crtaj(); return;
+    }
+    crtaj();
+    kamAnim = requestAnimationFrame(korakKamere);
+  });
+}
 
 function znak(x,y){ if(y<0||y>=COL||x<0||x>=ROW) return '#'; return MAPA[y][x]; }
 function prohodno(x,y){
@@ -695,7 +723,11 @@ function likNa(x,y){
 /* ---------------- crtanje ---------------- */
 function crtaj(){
   G.clearRect(0,0,C.width,C.height);
-  for (var y=0;y<COL;y++) for (var x=0;x<ROW;x++){
+  G.save();
+  G.translate(-Math.round(kam.x), -Math.round(kam.y));
+  var x0 = Math.max(0, Math.floor(kam.x/T) - 1), x1 = Math.min(ROW, Math.ceil((kam.x + C.width)/T) + 1);
+  var y0 = Math.max(0, Math.floor(kam.y/T) - 1), y1 = Math.min(COL, Math.ceil((kam.y + C.height)/T) + 1);
+  for (var y=y0;y<y1;y++) for (var x=x0;x<x1;x++){
     var z = znak(x,y), px = x*T, py = y*T;
     // podloga
     G.fillStyle = (x+y)%2 ? '#BFE3A8' : '#B7DDA0';
@@ -739,6 +771,7 @@ function crtaj(){
   // igrač
   var sk = {u:'🧍',d:'🧍',l:'🚶',r:'🚶'}[S.smjer] || '🧍';
   G.fillText(sk, S.x*T+T/2, S.y*T+T/2+2);
+  G.restore();
 }
 
 function trebaLik(id){
@@ -753,7 +786,7 @@ function pomak(dx,dy,smjer){
   var nx = S.x+dx, ny = S.y+dy;
   if (!prohodno(nx,ny) || likNa(nx,ny)) { crtaj(); return; }
   S.x = nx; S.y = ny; S.korak++;
-  crtaj();
+  namjestiKameru();
   var z = znak(nx,ny);
   if (ZGRADE[z]) usaoUZgradu(z);
 }
@@ -1167,6 +1200,7 @@ function kraj(){
   });
 }
 
+namjestiKameru(true);
 osvjezi();
 CL.poruka('Kreći se strelicama ili gumbima. ✋ = razgovor.');
 

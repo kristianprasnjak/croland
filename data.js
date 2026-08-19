@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-    "generirano":  "2026-08-14 10:44:24",
+    "generirano":  "2026-08-19 13:09:32",
     "slike":  {
                   "aerodrom":  "slike/Aerodrom.png",
                   "ananas":  "slike/Ananas.png",
@@ -2809,6 +2809,7 @@ window.PODACI = {
                      "format":  "spajanje",
                      "naslov":  "Six words you already know",
                      "meta":  {
+                                  "info":  "In the next five minutes you\u0027ll learn the whole Croatian alphabet — thirty letters, thirty words, no memorising. The entire course works like this: you learn by playing, a few minutes a day, and in **6–12 months you can reach A1 — even A2**. Mistakes cost nothing, here or anywhere else in the course. Just start.",
                                   "opis":  "Match the pictures to the words. Not sure? Open the dictionary — the floating icon on the right."
                               },
                      "stavke":  [
@@ -2848,6 +2849,7 @@ window.PODACI = {
                      "format":  "memorija",
                      "naslov":  "Find the pairs",
                      "meta":  {
+                                  "info":  "Flip a card, **say the word out loud**, then find its picture. Saying it once beats reading it ten times — and you\u0027ll hear a native voice every time a pair closes. Flip as many times as you need; nothing is counted.",
                                   "opis":  "Flip the cards and find each picture\u0027s word. You just met these six."
                               },
                      "stavke":  [
@@ -2887,6 +2889,7 @@ window.PODACI = {
                      "format":  "spajanje",
                      "naslov":  "Six more",
                      "meta":  {
+                                  "info":  "Some of these you can guess — guessing is the point. Stuck? Tap the **📖 icon on the right**: every word of this lesson, with picture and sound. Use it freely — it\u0027s part of the lesson, not cheating.",
                                   "opis":  "Same game, new words. The dictionary is always one tap away."
                               },
                      "stavke":  [
@@ -2926,6 +2929,7 @@ window.PODACI = {
                      "format":  "baloni",
                      "naslov":  "Pop the right balloon",
                      "meta":  {
+                                  "info":  "Look at the picture at the top, then tap the balloon with its word. Miss one? It floats away and comes back around. No clock, no lives — that\u0027s true for the whole course.",
                                   "opis":  "A picture appears — tap the balloon with its word. Miss it and it just floats away."
                               },
                      "stavke":  [
@@ -2989,6 +2993,7 @@ window.PODACI = {
                      "format":  "spajanje",
                      "naslov":  "Six more",
                      "meta":  {
+                                  "info":  "Meet the letters only Croatian has: **dž**, **đ**, **ć**. Don\u0027t try to pronounce them yet — just match the pair and listen. Croatian is written exactly as it sounds, so once you know the letters, you can read *anything*.",
                                   "opis":  "Match the pictures to the words."
                               },
                      "stavke":  [
@@ -3028,6 +3033,7 @@ window.PODACI = {
                      "format":  "memorija",
                      "naslov":  "Find the pairs again",
                      "meta":  {
+                                  "info":  "The six hardest words again — this time from memory, which is where they stick. Needing a few extra flips is normal. Say each word out loud, especially **dž**, **đ** and **ć**.",
                                   "opis":  "Flip the cards and find each picture\u0027s word. Harder than the first round — these six are new."
                               },
                      "stavke":  [
@@ -3067,6 +3073,7 @@ window.PODACI = {
                      "format":  "spajanje",
                      "naslov":  "Six more",
                      "meta":  {
+                                  "info":  "Check the bar at the bottom — two thirds of the alphabet is already yours. This is the pace of the whole course: small wins that add up, every day.",
                                   "opis":  "Match the pictures to the words."
                               },
                      "stavke":  [
@@ -3106,6 +3113,7 @@ window.PODACI = {
                      "format":  "slova",
                      "naslov":  "Build the word",
                      "meta":  {
+                                  "info":  "One thing to know: **dž**, **lj** and **nj** are *single letters* in Croatian. So *njuška* starts with one tile — not **n** + **j**. Build the word under the picture; **⌫ Undo** takes back a tile any time.",
                                   "opis":  "Careful — dž, lj and nj are single letters in Croatian. Taking n and then j will not work."
                               },
                      "stavke":  [
@@ -3133,6 +3141,7 @@ window.PODACI = {
                      "format":  "spajanje",
                      "naslov":  "The last six",
                      "meta":  {
+                                  "info":  "The last six. Match them and you\u0027ll have **all thirty Croatian letters** — about ten minutes after you first opened this page.",
                                   "opis":  "Match the pictures to the words."
                               },
                      "stavke":  [
@@ -3172,6 +3181,7 @@ window.PODACI = {
                      "format":  "pamti",
                      "naslov":  "Remember three",
                      "meta":  {
+                                  "info":  "Say the three words to yourself while the pictures are on screen — the order will stay in your head after they vanish. A miss costs nothing; the next round just starts.",
                                   "opis":  "Three pictures flash, then vanish. Pick them again — in the same order."
                               },
                      "stavke":  [
@@ -3307,6 +3317,7 @@ window.PODACI = {
                      "format":  "zid",
                      "naslov":  "Everything you met",
                      "meta":  {
+                                  "info":  "Thirty letters, thirty words — learned in minutes, not memorised from a list. That\u0027s the whole method. **Create a free account** and these words go into your dictionary, your progress is saved, and **Lesson 1 — also free** — turns them into your first sentences: *Kava je dobra.* Keep this pace and A1 is months away, not years.",
                                   "opis":  "Thirty letters, thirty words, all yours. Tap any picture to hear it again."
                               },
                      "stavke":  [
@@ -4880,10 +4891,76 @@ window.PODACI = {
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
                      "stranica":  5,
                      "broj":  9999,
+                     "format":  "tekst",
+                     "naslov":  "The rule: the disappearing a",
+                     "meta":  {
+                                  "info":  "The page that explains the extra vowel in *dobar*, *hladan* and *topao*: it belongs to the masculine form only and falls out the moment an ending is added, giving *dobra*, *hladna*, *topla*. *sladak* goes one step further and becomes *slatka*, while *mekan* keeps its vowel all the way through."
+                              },
+                     "stavke":  [
+                                    [
+                                        "You just met a strange pair: *dobar dan*, but *dobra kava*. Where did the **a** go?"
+                                    ],
+                                    [
+                                        "**Some masculine forms carry an extra vowel** — and it falls out the moment an ending arrives. Only the masculine does this. The **-a** and **-o** forms are perfectly regular, and they always show you the real stem."
+                                    ],
+                                    [
+                                        "tab: Masculine",
+                                        "Feminine",
+                                        "Neuter"
+                                    ],
+                                    [
+                                        "tab: dob**a**r",
+                                        "dobra",
+                                        "dobro"
+                                    ],
+                                    [
+                                        "tab: hlad**a**n",
+                                        "hladna",
+                                        "hladno"
+                                    ],
+                                    [
+                                        "tab: moder**a**n",
+                                        "moderna",
+                                        "moderno"
+                                    ],
+                                    [
+                                        "tab: slad**a**k",
+                                        "sla**t**ka",
+                                        "sla**t**ko"
+                                    ],
+                                    [
+                                        "tab: top**ao**",
+                                        "to**pl**a",
+                                        "to**pl**o"
+                                    ],
+                                    [
+                                        "*sladak* does one thing more: its **d** turns into **t**. Say *sladka* and then *slatka* out loud — the second one is simply easier to say, and that is the whole reason."
+                                    ],
+                                    [
+                                        "*topao* is the same trick in disguise. The stem is *topl-*, and a lone **l** at the end of a Croatian word turns into **o**. Add any ending and the **l** comes straight back: *topla*, *toplo*."
+                                    ],
+                                    [
+                                        "**Not every word does this.** *mekan* keeps everything it has: *mekan krevet*, *mekana soba*, *mekano more*. So don\u0027t assume every **-an** drops its vowel."
+                                    ],
+                                    [
+                                        "The safe habit: **learn the masculine and the feminine together** — *dobar / dobra*, *topao / topla*, *sladak / slatka*, *mekan / mekana*. Once you have that pair, the neuter is just the feminine with **-o**."
+                                    ],
+                                    [
+                                        "Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it."
+                                    ]
+                                ],
+                     "sortkljuc":  103005,
+                     "bodovi":  2
+                 },
+                 {
+                     "cjelina":  "Grammar 1",
+                     "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
+                     "stranica":  6,
+                     "broj":  9999,
                      "format":  "upis",
                      "naslov":  "Type the adjective",
                      "meta":  {
-                                  "info":  "Typing the agreeing form, so you have to commit to an ending. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).",
+                                  "info":  "Typing the agreeing form, so you have to commit to an ending. Watch the vanishing vowel from the page before — it is *Kava je topla*, never *topaa*. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).",
                                   "opis":  "Type the full adjective — choose the form that matches the noun."
                               },
                      "stavke":  [
@@ -4916,13 +4993,13 @@ window.PODACI = {
                                         "stara"
                                     ]
                                 ],
-                     "sortkljuc":  103005,
+                     "sortkljuc":  103006,
                      "bodovi":  7
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  6,
+                     "stranica":  7,
                      "broj":  9999,
                      "format":  "nastavak",
                      "naslov":  "Tap the ending",
@@ -4993,13 +5070,13 @@ window.PODACI = {
                                         "-"
                                     ]
                                 ],
-                     "sortkljuc":  103006,
+                     "sortkljuc":  103007,
                      "bodovi":  5
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  7,
+                     "stranica":  8,
                      "broj":  9999,
                      "format":  "upis",
                      "naslov":  "Say the missing word",
@@ -5049,13 +5126,13 @@ window.PODACI = {
                                         "lijep"
                                     ]
                                 ],
-                     "sortkljuc":  103007,
+                     "sortkljuc":  103008,
                      "bodovi":  7
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  8,
+                     "stranica":  9,
                      "broj":  9999,
                      "format":  "tekst",
                      "naslov":  "The rule: nije — the other half of je",
@@ -5096,13 +5173,13 @@ window.PODACI = {
                                         "**A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*"
                                     ]
                                 ],
-                     "sortkljuc":  103008,
+                     "sortkljuc":  103009,
                      "bodovi":  2
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  9,
+                     "stranica":  10,
                      "broj":  9999,
                      "format":  "izbor",
                      "naslov":  "Yes or no?",
@@ -5148,13 +5225,13 @@ window.PODACI = {
                                         "Lampa ne je žuta."
                                     ]
                                 ],
-                     "sortkljuc":  103009,
+                     "sortkljuc":  103010,
                      "bodovi":  6
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  10,
+                     "stranica":  11,
                      "broj":  9999,
                      "format":  "upis",
                      "naslov":  "Say it isn\u0027t so",
@@ -5196,13 +5273,13 @@ window.PODACI = {
                                         "Sunce nije toplo"
                                     ]
                                 ],
-                     "sortkljuc":  103010,
+                     "sortkljuc":  103011,
                      "bodovi":  7
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  11,
+                     "stranica":  12,
                      "broj":  9999,
                      "format":  "upis",
                      "naslov":  "Write the whole sentence",
@@ -5264,13 +5341,13 @@ window.PODACI = {
                                         "Ovo nije soba."
                                     ]
                                 ],
-                     "sortkljuc":  103011,
+                     "sortkljuc":  103012,
                      "bodovi":  7
                  },
                  {
                      "cjelina":  "Grammar 1",
                      "cjelinanaslov":  "Gender \u0026 the \"je\" Sentence",
-                     "stranica":  12,
+                     "stranica":  13,
                      "broj":  9999,
                      "format":  "tekst",
                      "naslov":  "You can do this now",
@@ -5288,7 +5365,7 @@ window.PODACI = {
                                         "**Next up:** Practice 1 puts these sentences into short real texts, then Test 1 checks the whole unit. After that, Lesson 2 hands you the verb that unlocks everything else: *biti* (to be)."
                                     ]
                                 ],
-                     "sortkljuc":  103012,
+                     "sortkljuc":  103013,
                      "bodovi":  2
                  },
                  {
@@ -46568,14 +46645,19 @@ window.PODACI = {
                      "format":  "tekst",
                      "naslov":  "Words you already know",
                      "meta":  {
-
+                                  "info":  "Sport is where Croatian gives you the most words for free. *Hobi, klub, trener, kapetan, gol, tenis, joga* — you can read all of them right now, without learning anything. **Start every new word by asking whether it looks like English**, because in this lesson it usually does. The one new idea is small: how to say that something is *yours*.",
+                                  "infoodmah":  "da",
+                                  "opis":  "Read it through — the whole lesson rests on one rule, and you already own half of it."
                               },
                      "stavke":  [
                                     [
-                                        "Today\u0027s lesson is full of words you already know: *hobi, gitara, klub, trener, kapetan, gol...* Sport is international, and so is its vocabulary."
+                                        "Today\u0027s lesson is full of words you already know: *hobi, gitara, klub, trener, kapetan, gol, tenis, joga, šah...* Sport is international, and so is its vocabulary."
                                     ],
                                     [
-                                        "The new bit: making things *yours*. **Moj** klub, **tvoja** gitara, **naš** trener. And yes — these little words dance with gender exactly like adjectives do. By now, that\u0027s your superpower."
+                                        "The new bit is making things **yours**. *Moj klub. Tvoja gitara. Naš trener.* Three words, three shapes — and the shape does not come from the owner."
+                                    ],
+                                    [
+                                        "It comes from the **thing owned**. That is the whole lesson: *moj dres*, but *moja lopta*, because *dres* and *lopta* are different genders. You have done this dance twice already, with adjectives in Lesson 1 and again in Lesson 5."
                                     ]
                                 ],
                      "sortkljuc":  901001,
@@ -46589,8 +46671,9 @@ window.PODACI = {
                      "format":  "brzina",
                      "naslov":  "Rapid recall",
                      "meta":  {
+                                  "info":  "A timed warm-up on last lesson\u0027s future before anything new arrives. The helper takes its shape from the subject, never from the verb — *ja* takes *ću*, *ti* takes *ćeš*, and any group with *ja* in it takes *ćemo*. **Answer from the subject alone** and you will never need to read the rest.",
                                   "trajanje":  "60",
-                                  "opis":  "Future sprint! Tap the correct helper."
+                                  "opis":  "Future sprint from Lesson 8 — tap the helper before the timer runs out."
                               },
                      "stavke":  [
                                     [
@@ -46612,6 +46695,34 @@ window.PODACI = {
                                     [
                                         "Vi ___ putovati",
                                         "ćete"
+                                    ],
+                                    [
+                                        "Ona ___ trčati",
+                                        "će"
+                                    ],
+                                    [
+                                        "Brat i ja ___ vježbati",
+                                        "ćemo"
+                                    ],
+                                    [
+                                        "Tata ___ voziti",
+                                        "će"
+                                    ],
+                                    [
+                                        "Ja ___ učiti",
+                                        "ću"
+                                    ],
+                                    [
+                                        "Ti ___ pjevati",
+                                        "ćeš"
+                                    ],
+                                    [
+                                        "Djeca ___ plesati",
+                                        "će"
+                                    ],
+                                    [
+                                        "Vi ___ kuhati",
+                                        "ćete"
                                     ]
                                 ],
                      "sortkljuc":  901002,
@@ -46625,24 +46736,13 @@ window.PODACI = {
                      "format":  "kartice",
                      "naslov":  "Sport \u0026 hobby words",
                      "meta":  {
-                                  "opis":  "You know these! Sport vocabulary is international."
+                                  "info":  "Eighteen words, and most of them are gifts: *hobi, klub, trener, kapetan, gol, tenis, joga, fitnes, šah* all arrived in Croatian from the same places they arrived in English. **Read each one out loud before you look at the translation** — Croatian is spelled exactly as it sounds, so hearing yourself say it is half the learning. Nothing here has to be memorised in one pass.",
+                                  "opis":  "Sport vocabulary is international — you can guess most of these before you flip the card."
                               },
                      "stavke":  [
                                     [
                                         "hobi",
                                         "hobby"
-                                    ],
-                                    [
-                                        "fotografija",
-                                        "photography"
-                                    ],
-                                    [
-                                        "fotoaparat",
-                                        "camera"
-                                    ],
-                                    [
-                                        "gitara",
-                                        "guitar"
                                     ],
                                     [
                                         "klub",
@@ -46655,6 +46755,18 @@ window.PODACI = {
                                     [
                                         "kapetan",
                                         "captain"
+                                    ],
+                                    [
+                                        "momčad",
+                                        "team"
+                                    ],
+                                    [
+                                        "pozicija",
+                                        "position"
+                                    ],
+                                    [
+                                        "obrana",
+                                        "defence"
                                     ],
                                     [
                                         "gol",
@@ -46665,24 +46777,40 @@ window.PODACI = {
                                         "goalkeeper"
                                     ],
                                     [
-                                        "pozicija",
-                                        "position"
+                                        "lopta",
+                                        "ball"
                                     ],
                                     [
                                         "dres",
                                         "jersey"
                                     ],
                                     [
-                                        "lopta",
-                                        "ball"
+                                        "trening",
+                                        "training"
                                     ],
                                     [
-                                        "glazba",
-                                        "music"
+                                        "utakmica",
+                                        "match"
                                     ],
                                     [
-                                        "obrana",
-                                        "defense"
+                                        "nogomet",
+                                        "football"
+                                    ],
+                                    [
+                                        "košarka",
+                                        "basketball"
+                                    ],
+                                    [
+                                        "tenis",
+                                        "tennis"
+                                    ],
+                                    [
+                                        "šah",
+                                        "chess"
+                                    ],
+                                    [
+                                        "joga",
+                                        "yoga"
                                     ]
                                 ],
                      "sortkljuc":  901003,
@@ -46693,82 +46821,388 @@ window.PODACI = {
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
                      "stranica":  4,
                      "broj":  9999,
-                     "format":  "brzina",
-                     "naslov":  "Cognate blitz",
+                     "format":  "kartice",
+                     "naslov":  "The body",
                      "meta":  {
-                                  "trajanje":  "45",
-                                  "opis":  "These Croatian words are old friends. Match them to English at top speed!"
+                                  "info":  "The parts of the body you will need to talk about sport. Notice the endings as they go past, because the next page turns them into a rule: *dres* ends in a consonant, *ruka* in **-a**, *koljeno* in **-o**. **That last letter is the only thing that decides** which shape *moj* takes.",
+                                  "opis":  "From head to knee. Watch the last letter of each word — you will need it in a minute."
                               },
                      "stavke":  [
                                     [
-                                        "hobi",
-                                        "hobby"
+                                        "glava",
+                                        "head"
                                     ],
                                     [
-                                        "gitara",
-                                        "guitar"
+                                        "kosa",
+                                        "hair"
                                     ],
                                     [
-                                        "klub",
-                                        "club"
+                                        "oko",
+                                        "eye"
                                     ],
                                     [
-                                        "trener",
-                                        "coach"
+                                        "uho",
+                                        "ear"
                                     ],
                                     [
-                                        "kapetan",
-                                        "captain"
+                                        "nos",
+                                        "nose"
                                     ],
                                     [
-                                        "gol",
-                                        "goal"
+                                        "zub",
+                                        "tooth"
                                     ],
                                     [
-                                        "pozicija",
-                                        "position"
+                                        "ruka",
+                                        "arm, hand"
                                     ],
                                     [
-                                        "fotografija",
-                                        "photography"
+                                        "prst",
+                                        "finger"
+                                    ],
+                                    [
+                                        "noga",
+                                        "leg, foot"
+                                    ],
+                                    [
+                                        "koljeno",
+                                        "knee"
+                                    ],
+                                    [
+                                        "leđa",
+                                        "back"
+                                    ],
+                                    [
+                                        "rame",
+                                        "shoulder"
+                                    ],
+                                    [
+                                        "srce",
+                                        "heart"
+                                    ],
+                                    [
+                                        "tijelo",
+                                        "body"
                                     ]
                                 ],
                      "sortkljuc":  901004,
-                     "bodovi":  12
+                     "bodovi":  6
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
                      "stranica":  5,
                      "broj":  9999,
-                     "format":  "tekst",
-                     "naslov":  "The possessives",
+                     "format":  "kartice",
+                     "naslov":  "Ten new verbs",
                      "meta":  {
-
+                                  "info":  "Ten verbs of sport and free time, each shown with its *ja* form. That form is the one worth storing, because from *trčim* you can build *trčiš* and *trči* without being told how — the pattern from Lesson 3 has not changed. **Two are worth a second look:** *skakati → skačem* and *plesati → plešem* both swap a consonant.",
+                                  "opis":  "Ten new verbs, each with its *ja* form — the shape everything else is built from."
                               },
                      "stavke":  [
                                     [
-                                        "my: **moj / moja / moje** · your (ti): **tvoj / tvoja / tvoje** · his: **njegov / njegova / njegovo** · her: **njezin / njezina / njezino** · our: **naš / naša / naše** · your (vi): **vaš / vaša / vaše** · their: **njihov / njihova / njihovo**"
+                                        "trčati → trčim",
+                                        "to run"
                                     ],
                                     [
-                                        "*Moj dres je plav. Moja gitara je nova. Naše more je lijepo.*"
+                                        "skakati → skačem",
+                                        "to jump"
                                     ],
                                     [
-                                        "The familiar trio again — consonant / -a / -o(-e). You\u0027ve done this dance twice already."
+                                        "vježbati → vježbam",
+                                        "to exercise"
+                                    ],
+                                    [
+                                        "trenirati → treniram",
+                                        "to train"
+                                    ],
+                                    [
+                                        "navijati → navijam",
+                                        "to cheer, to support"
+                                    ],
+                                    [
+                                        "pobijediti → pobijedim",
+                                        "to win"
+                                    ],
+                                    [
+                                        "izgubiti → izgubim",
+                                        "to lose"
+                                    ],
+                                    [
+                                        "plesati → plešem",
+                                        "to dance"
+                                    ],
+                                    [
+                                        "crtati → crtam",
+                                        "to draw"
+                                    ],
+                                    [
+                                        "slikati → slikam",
+                                        "to paint, to take pictures"
                                     ]
                                 ],
                      "sortkljuc":  901005,
-                     "bodovi":  4
+                     "bodovi":  6
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
                      "stranica":  6,
                      "broj":  9999,
+                     "format":  "spajanje",
+                     "naslov":  "Match the pictures",
+                     "meta":  {
+                                  "info":  "The same words again, this time without English to lean on — a picture and a word, nothing in between. **Tap the picture first, then hunt for the word**, because recognising the thing is faster than reading. A wrong pair just shakes and comes straight back; nothing here can be lost.",
+                                  "opis":  "Picture to word. No English this time — you do not need it any more."
+                              },
+                     "stavke":  [
+                                    [
+                                        "lopta",
+                                        "ball"
+                                    ],
+                                    [
+                                        "dres",
+                                        "jersey"
+                                    ],
+                                    [
+                                        "gitara",
+                                        "guitar"
+                                    ],
+                                    [
+                                        "glava",
+                                        "head"
+                                    ],
+                                    [
+                                        "ruka",
+                                        "arm"
+                                    ],
+                                    [
+                                        "oko",
+                                        "eye"
+                                    ],
+                                    [
+                                        "uho",
+                                        "ear"
+                                    ],
+                                    [
+                                        "nos",
+                                        "nose"
+                                    ],
+                                    [
+                                        "šah",
+                                        "chess"
+                                    ],
+                                    [
+                                        "utakmica",
+                                        "match"
+                                    ]
+                                ],
+                     "sortkljuc":  901006,
+                     "bodovi":  10
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  7,
+                     "broj":  9999,
+                     "format":  "tekst",
+                     "naslov":  "The rule: it follows the thing, not the owner",
+                     "meta":  {
+                                  "info":  "The single rule of this lesson, and it runs opposite to English. In *her jersey* the English word *her* tells you about the owner; in *njezin dres* the Croatian word tells you about the **jersey**. **Look at the noun, never at the owner** — *dres* ends in a consonant, so nothing is added, no matter who owns it.",
+                                  "infoodmah":  "da",
+                                  "opis":  "One rule, three endings. Read the table, then say the last line out loud."
+                              },
+                     "stavke":  [
+                                    [
+                                        "English tells you about the owner: *his* jersey, *her* jersey. Croatian does not care who owns it. It looks at the **thing**."
+                                    ],
+                                    [
+                                        "tab: The thing",
+                                        "What you say"
+                                    ],
+                                    [
+                                        "tab: dres (consonant)",
+                                        "**moj** dres · **njegov** dres · **naš** dres"
+                                    ],
+                                    [
+                                        "tab: lopta (-a)",
+                                        "**moja** lopta · **njegova** lopta · **naša** lopta"
+                                    ],
+                                    [
+                                        "tab: koljeno (-o)",
+                                        "**moje** koljeno · **njegovo** koljeno · **naše** koljeno"
+                                    ],
+                                    [
+                                        "The full set: **moj/moja/moje** (my) · **tvoj/tvoja/tvoje** (your, one person) · **njegov/njegova/njegovo** (his) · **njezin/njezina/njezino** (her) · **naš/naša/naše** (our) · **vaš/vaša/vaše** (your, plural or polite) · **njihov/njihova/njihovo** (their)."
+                                    ],
+                                    [
+                                        "**One wrinkle, and it is the only one.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does."
+                                    ],
+                                    [
+                                        "To ask, use **čiji**: *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*"
+                                    ],
+                                    [
+                                        "*Njegov dres je plav, a moj je crven.*"
+                                    ]
+                                ],
+                     "sortkljuc":  901007,
+                     "bodovi":  4
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  8,
+                     "broj":  9999,
+                     "format":  "parovi",
+                     "naslov":  "Whose is it?",
+                     "meta":  {
+                                  "info":  "English on one side, Croatian on the other, so you can watch the rule work in whole sentences. **Read the Croatian noun first and check its last letter** — that letter, not the English, tells you which of the two possessives on offer is the right partner.",
+                                  "opis":  "Match each English sentence with its Croatian partner."
+                              },
+                     "stavke":  [
+                                    [
+                                        "My ball is red.",
+                                        "Moja lopta je crvena."
+                                    ],
+                                    [
+                                        "His jersey is blue.",
+                                        "Njegov dres je plav."
+                                    ],
+                                    [
+                                        "Her guitar is new.",
+                                        "Njezina gitara je nova."
+                                    ],
+                                    [
+                                        "Our coach is strict.",
+                                        "Naš trener je strog."
+                                    ],
+                                    [
+                                        "Their defence is strong.",
+                                        "Njihova obrana je jaka."
+                                    ],
+                                    [
+                                        "My knee hurts.",
+                                        "Moje koljeno boli."
+                                    ],
+                                    [
+                                        "Your team is fast.",
+                                        "Tvoja momčad je brza."
+                                    ],
+                                    [
+                                        "Our club is small.",
+                                        "Naš klub je mali."
+                                    ],
+                                    [
+                                        "His position is goalkeeper.",
+                                        "Njegova pozicija je golman."
+                                    ],
+                                    [
+                                        "Whose ball is this?",
+                                        "Čija je ovo lopta?"
+                                    ]
+                                ],
+                     "sortkljuc":  901008,
+                     "bodovi":  10
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  9,
+                     "broj":  9999,
+                     "format":  "razvrstavanje",
+                     "naslov":  "Sort by the thing",
+                     "meta":  {
+                                  "info":  "Eighteen nouns, three columns, and the sorting is done entirely on the last letter. A consonant sends the word to **MOJ**, an *-a* to **MOJA**, an *-o* or *-e* to **MOJE**. **Say *moj*, *moja*, *moje* under your breath as you drag** — the wrong one will sound wrong before you finish it.",
+                                  "stupci":  "MOJ | MOJA | MOJE",
+                                  "opis":  "Which form does each noun take? The last letter of the noun decides everything."
+                              },
+                     "stavke":  [
+                                    [
+                                        "dres",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "lopta",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "koljeno",
+                                        "MOJE"
+                                    ],
+                                    [
+                                        "klub",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "gitara",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "oko",
+                                        "MOJE"
+                                    ],
+                                    [
+                                        "trener",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "ruka",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "srce",
+                                        "MOJE"
+                                    ],
+                                    [
+                                        "hobi",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "glava",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "uho",
+                                        "MOJE"
+                                    ],
+                                    [
+                                        "kapetan",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "noga",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "tijelo",
+                                        "MOJE"
+                                    ],
+                                    [
+                                        "trening",
+                                        "MOJ"
+                                    ],
+                                    [
+                                        "obrana",
+                                        "MOJA"
+                                    ],
+                                    [
+                                        "more",
+                                        "MOJE"
+                                    ]
+                                ],
+                     "sortkljuc":  901009,
+                     "bodovi":  12
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  10,
+                     "broj":  9999,
                      "format":  "izbor",
                      "naslov":  "Pick the right form",
                      "meta":  {
-                                  "opis":  "Choose the possessive that fits the noun."
+                                  "info":  "Choose the possessive that fits the noun beside it. The owner in the English hint never changes the ending — only the noun does — so *her guitar* and *his guitar* are both *gitara*, both take *-a*: *njezina*, *njegova*. **Cover the English and decide from the Croatian noun alone.**",
+                                  "opis":  "Choose the form that fits the noun."
                               },
                      "stavke":  [
                                     [
@@ -46800,55 +47234,160 @@ window.PODACI = {
                                         "tvoj",
                                         "tvoja",
                                         "tvoje"
+                                    ],
+                                    [
+                                        "___ koljeno boli.",
+                                        "moje",
+                                        "moj",
+                                        "moja"
+                                    ],
+                                    [
+                                        "___ momčad je jaka.",
+                                        "naša",
+                                        "naš",
+                                        "naše"
+                                    ],
+                                    [
+                                        "___ trener je strog.",
+                                        "njihov",
+                                        "njihova",
+                                        "njihovo"
+                                    ],
+                                    [
+                                        "___ srce je veliko.",
+                                        "njezino",
+                                        "njezin",
+                                        "njezina"
+                                    ],
+                                    [
+                                        "___ pozicija je golman.",
+                                        "njegova",
+                                        "njegov",
+                                        "njegovo"
+                                    ],
+                                    [
+                                        "___ tijelo je umorno.",
+                                        "moje",
+                                        "moj",
+                                        "moja"
+                                    ],
+                                    [
+                                        "___ obrana je brza.",
+                                        "vaša",
+                                        "vaš",
+                                        "vaše"
                                     ]
                                 ],
-                     "sortkljuc":  901006,
+                     "sortkljuc":  901010,
                      "bodovi":  12
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  7,
+                     "stranica":  11,
                      "broj":  9999,
-                     "format":  "parovi",
-                     "naslov":  "Whose is it?",
+                     "format":  "nastavak",
+                     "naslov":  "One tap decides it",
                      "meta":  {
-                                  "opis":  "Match the English sentence with its Croatian partner."
+                                  "info":  "The whole rule reduced to a single tap. The base of the possessive is given; you add nothing for a consonant, **-a** for a word in *-a*, and for a neuter word **-o** or **-e** — *-o* after a hard consonant (*njegovo*), *-e* after *j* or *š* (*moje*, *naše*). **Read the Croatian noun, not the English.**",
+                                  "nastavci":  "- | a | e | o",
+                                  "opis":  "The noun decides the ending. One tap — and a wrong tap costs nothing."
                               },
                      "stavke":  [
                                     [
+                                        "Moj___ dres je plav.",
+                                        "My jersey is blue.",
+                                        "-"
+                                    ],
+                                    [
+                                        "Moj___ lopta je crvena.",
                                         "My ball is red.",
-                                        "Moja lopta je crvena."
+                                        "a"
                                     ],
                                     [
-                                        "His jersey is blue.",
-                                        "Njegov dres je plav."
+                                        "Moj___ koljeno boli.",
+                                        "My knee hurts.",
+                                        "e"
                                     ],
                                     [
-                                        "Her guitar is new.",
-                                        "Njezina gitara je nova."
-                                    ],
-                                    [
+                                        "Naš___ trener je strog.",
                                         "Our coach is strict.",
-                                        "Naš trener je strog."
+                                        "-"
                                     ],
                                     [
-                                        "Their defense is strong.",
-                                        "Njihova obrana je jaka."
+                                        "Naš___ momčad je jaka.",
+                                        "Our team is strong.",
+                                        "a"
+                                    ],
+                                    [
+                                        "Naš___ more je toplo.",
+                                        "Our sea is warm.",
+                                        "e"
+                                    ],
+                                    [
+                                        "Njegov___ klub je star.",
+                                        "His club is old.",
+                                        "-"
+                                    ],
+                                    [
+                                        "Njegov___ gitara je nova.",
+                                        "His guitar is new.",
+                                        "a"
+                                    ],
+                                    [
+                                        "Njegov___ srce je jako.",
+                                        "His heart is strong.",
+                                        "o"
+                                    ],
+                                    [
+                                        "Tvoj___ hobi je fotografija.",
+                                        "Your hobby is photography.",
+                                        "-"
+                                    ],
+                                    [
+                                        "Tvoj___ ruka je jaka.",
+                                        "Your arm is strong.",
+                                        "a"
+                                    ],
+                                    [
+                                        "Tvoj___ oko je crveno.",
+                                        "Your eye is red.",
+                                        "e"
+                                    ],
+                                    [
+                                        "Njezin___ trening je težak.",
+                                        "Her training is hard.",
+                                        "-"
+                                    ],
+                                    [
+                                        "Njezin___ pozicija je golman.",
+                                        "Her position is goalkeeper.",
+                                        "a"
+                                    ],
+                                    [
+                                        "Njezin___ tijelo je umorno.",
+                                        "Her body is tired.",
+                                        "o"
+                                    ],
+                                    [
+                                        "Vaš___ obrana je dobra.",
+                                        "Your defence is good.",
+                                        "a"
                                     ]
                                 ],
-                     "sortkljuc":  901007,
+                     "sortkljuc":  901011,
                      "bodovi":  10
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  8,
+                     "stranica":  12,
                      "broj":  9999,
                      "format":  "upis",
                      "naslov":  "Type the possessive",
                      "meta":  {
-                                  "opis":  "Type the correct form of the possessive in brackets."
+                                  "info":  "Now you write it instead of tapping it. The English in brackets tells you *who*; the Croatian noun tells you *which ending* — and only the second one changes what you type. **Build it in two steps:** pick the base from the brackets, then let the noun finish it.",
+                                  "opis":  "Type the possessive. The bracket says who, the noun says how it ends."
                               },
                      "stavke":  [
                                     [
@@ -46860,30 +47399,172 @@ window.PODACI = {
                                         "Moja"
                                     ],
                                     [
+                                        "___ koljeno boli. (my)",
+                                        "Moje"
+                                    ],
+                                    [
                                         "___ klub trenira danas. (our)",
                                         "Naš"
+                                    ],
+                                    [
+                                        "___ momčad pobjeđuje. (our)",
+                                        "Naša"
+                                    ],
+                                    [
+                                        "___ more je toplo. (our)",
+                                        "Naše"
                                     ],
                                     [
                                         "___ pozicija je golman. (his)",
                                         "Njegova"
                                     ],
                                     [
-                                        "___ pjesme su lijepe. (her)",
-                                        "Njezine"
+                                        "___ dres je nov. (his)",
+                                        "Njegov"
+                                    ],
+                                    [
+                                        "___ srce je jako. (his)",
+                                        "Njegovo"
+                                    ],
+                                    [
+                                        "___ gitara je stara. (her)",
+                                        "Njezina"
+                                    ],
+                                    [
+                                        "___ trening je težak. (their)",
+                                        "Njihov"
+                                    ],
+                                    [
+                                        "___ obrana je brza. (their)",
+                                        "Njihova"
                                     ]
                                 ],
-                     "sortkljuc":  901008,
+                     "sortkljuc":  901012,
                      "bodovi":  14
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  9,
+                     "stranica":  13,
+                     "broj":  9999,
+                     "format":  "tekst",
+                     "naslov":  "The rule: *svoj*, the one English is missing",
+                     "meta":  {
+                                  "info":  "A word English simply does not have, so it has to be learned by contrast rather than by translation. **When the owner is the same person as the subject of the sentence, Croatian uses *svoj*.** *Marko voli svoju sestru* is his own sister; *Marko voli njegovu sestru* is someone else\u0027s — one letter apart, two different families.",
+                                  "infoodmah":  "da",
+                                  "opis":  "The one possessive English cannot translate. Read both sentences in the table slowly."
+                              },
+                     "stavke":  [
+                                    [
+                                        "There is one more possessive, and English has no word for it: **svoj**."
+                                    ],
+                                    [
+                                        "Use **svoj** when the owner is the same person as the one doing the action."
+                                    ],
+                                    [
+                                        "tab: What you say",
+                                        "What it means"
+                                    ],
+                                    [
+                                        "tab: Marko voli **svoju** sestru.",
+                                        "his own sister"
+                                    ],
+                                    [
+                                        "tab: Marko voli **njegovu** sestru.",
+                                        "someone else\u0027s sister"
+                                    ],
+                                    [
+                                        "It changes shape like all the others, following the thing owned: **svoj** dres · **svoja** lopta · **svoje** koljeno."
+                                    ],
+                                    [
+                                        "*Ja treniram u **svom** klubu. Ti voliš **svoj** hobi. Ana slika **svoju** sestru.*"
+                                    ],
+                                    [
+                                        "**The short version:** if the sentence is about me and my thing, or you and your thing, or Ana and Ana\u0027s thing — use *svoj*. Only reach for *njegov* or *njezin* when the thing belongs to somebody else."
+                                    ],
+                                    [
+                                        "Croatian speakers hear the difference immediately, and it is one of the few places where the wrong word says something you did not mean."
+                                    ]
+                                ],
+                     "sortkljuc":  901013,
+                     "bodovi":  4
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  14,
+                     "broj":  9999,
+                     "format":  "izbor",
+                     "naslov":  "*svoj* or *njegov*?",
+                     "meta":  {
+                                  "info":  "One question decides every item here: does the thing belong to the person doing the action? **Yes → *svoj*. No → *njegov* or *njezin*.** Look for the subject at the front of the sentence and compare it with the owner, and the choice makes itself.",
+                                  "opis":  "Does the thing belong to the person doing the action? Then it is *svoj*."
+                              },
+                     "stavke":  [
+                                    [
+                                        "Marko voli ___ sestru. (his own)",
+                                        "svoju",
+                                        "njegovu"
+                                    ],
+                                    [
+                                        "Marko voli ___ sestru. (Ivan\u0027s)",
+                                        "njegovu",
+                                        "svoju"
+                                    ],
+                                    [
+                                        "Ana čita ___ knjigu. (her own)",
+                                        "svoju",
+                                        "njezinu"
+                                    ],
+                                    [
+                                        "Ja treniram u ___ klubu.",
+                                        "svom",
+                                        "mojem"
+                                    ],
+                                    [
+                                        "Ti voliš ___ hobi.",
+                                        "svoj",
+                                        "tvoj"
+                                    ],
+                                    [
+                                        "Ana slika ___ brata. (her own)",
+                                        "svoga",
+                                        "njezinog"
+                                    ],
+                                    [
+                                        "Trener gleda ___ momčad. (his own)",
+                                        "svoju",
+                                        "njegovu"
+                                    ],
+                                    [
+                                        "Djeca nose ___ dresove. (their own)",
+                                        "svoje",
+                                        "njihove"
+                                    ],
+                                    [
+                                        "Ona vozi ___ auto. (her own)",
+                                        "svoj",
+                                        "njezin"
+                                    ],
+                                    [
+                                        "On nosi ___ dres. (Marko\u0027s)",
+                                        "njegov",
+                                        "svoj"
+                                    ]
+                                ],
+                     "sortkljuc":  901014,
+                     "bodovi":  12
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  15,
                      "broj":  9999,
                      "format":  "slaganje",
                      "naslov":  "Build it",
                      "meta":  {
-                                  "opis":  "Arrange the tiles."
+                                  "info":  "Whole sentences from tiles, so the possessive has to land in the right place as well as the right shape. It stands **in front of** the thing it belongs to — *moj dres*, never *dres moj* — and the two halves joined by *a* each keep their own possessive.",
+                                  "opis":  "Arrange the tiles into a sentence."
                               },
                      "stavke":  [
                                     [
@@ -46900,30 +47581,61 @@ window.PODACI = {
                                     ],
                                     [
                                         "Naš trener je strog, ali je pošten."
+                                    ],
+                                    [
+                                        "Moje koljeno boli."
+                                    ],
+                                    [
+                                        "Čija je ovo lopta?"
+                                    ],
+                                    [
+                                        "Ana voli svoju sestru."
+                                    ],
+                                    [
+                                        "Njihova obrana je jaka."
+                                    ],
+                                    [
+                                        "Ja treniram u svom klubu."
+                                    ],
+                                    [
+                                        "Vaša momčad će pobijediti."
+                                    ],
+                                    [
+                                        "Tvoje oko je crveno."
                                     ]
                                 ],
-                     "sortkljuc":  901009,
+                     "sortkljuc":  901015,
                      "bodovi":  12
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  10,
+                     "stranica":  16,
                      "broj":  9999,
                      "format":  "dijalog",
                      "naslov":  "Is this your ball?",
                      "meta":  {
-                                  "opis":  "A ball lands at your feet in the park. Choose your replies."
+                                  "info":  "A ball lands at your feet in the park, and every reply needs a possessive in the right shape. Two words are worth having in advance: *čiji* (whose) and *naravno* (of course). **Read your two options out loud before choosing** — the wrong ending is easier to hear than to see.",
+                                  "opis":  "A ball rolls up to you in the park. Choose your replies. Passive words: *čiji* (whose), *naravno* (of course), *super* (great)."
                               },
                      "stavke":  [
                                     [
                                         "npc",
-                                        "Je li ovo tvoja lopta?"
+                                        "Bok! Je li ovo tvoja lopta?"
                                     ],
                                     [
                                         "ti",
                                         "Ne, moja lopta je crvena. To je njegova lopta.",
                                         "Da, to je moja lopta! Hvala!"
+                                    ],
+                                    [
+                                        "npc",
+                                        "A čiji je ovaj dres?"
+                                    ],
+                                    [
+                                        "ti",
+                                        "To je moj dres.",
+                                        "Mislim da je njezin."
                                     ],
                                     [
                                         "npc",
@@ -46936,28 +47648,105 @@ window.PODACI = {
                                     ],
                                     [
                                         "npc",
-                                        "Super! Naš klub trenira danas."
+                                        "Super! Naš klub trenira danas. Naš trener je strog, ali je pošten."
                                     ],
                                     [
                                         "ti",
-                                        "Vaš park ili naš park?"
+                                        "Vaš park ili naš park?",
+                                        "Kada trenirate?"
                                     ],
                                     [
                                         "npc",
-                                        "Naš — naš park je velik!"
+                                        "Naš — naš park je velik! Dođi, momčad te čeka."
+                                    ],
+                                    [
+                                        "ti",
+                                        "Naravno! Gdje je moje mjesto?",
+                                        "Hvala, ali moje koljeno boli."
+                                    ],
+                                    [
+                                        "npc",
+                                        "Ti si u obrani. Ana je kapetan, a njezina sestra je golman."
+                                    ],
+                                    [
+                                        "ti",
+                                        "Njihova obitelj voli nogomet!",
+                                        "Onda ću navijati."
+                                    ],
+                                    [
+                                        "npc",
+                                        "Svi ovdje vole svoj klub. Vidimo se na treningu!"
+                                    ],
+                                    [
+                                        "ti",
+                                        "Vidimo se!"
                                     ]
                                 ],
-                     "sortkljuc":  901010,
+                     "sortkljuc":  901016,
                      "bodovi":  8
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  11,
+                     "stranica":  17,
+                     "broj":  9999,
+                     "format":  "izbor",
+                     "naslov":  "Read: our club",
+                     "meta":  {
+                                  "info":  "A short text where almost every sentence carries a possessive. Read it once for the story and once for the endings, and watch what happens in the last line: *svoj klub* is used because the people who love the club are the same people doing the loving.",
+                                  "tekst":  "Naš klub je mali. Naš trener je strog, ali je pošten. Njegova momčad trenira svaki dan. Ana je kapetan i njezina pozicija je golman. Njezin dres je zelen, a moj je plav. Marko voli svoju loptu i nosi je na svaki trening. Danas je utakmica. Njihova obrana je jaka, ali naša momčad je brza. Mi ćemo pobijediti! Svi u ovom gradu vole svoj klub.",
+                                  "opis":  "Read the text, then answer. Passive words: *svaki dan* (every day), *nosi* (carries), *svi* (everyone)."
+                              },
+                     "stavke":  [
+                                    [
+                                        "Kakav je naš trener?",
+                                        "strog, ali pošten",
+                                        "mlad i brz",
+                                        "umoran"
+                                    ],
+                                    [
+                                        "Koja je Anina pozicija?",
+                                        "golman",
+                                        "kapetan obrane",
+                                        "trener"
+                                    ],
+                                    [
+                                        "Koje je boje njezin dres?",
+                                        "zelen",
+                                        "plav",
+                                        "crven"
+                                    ],
+                                    [
+                                        "Što Marko nosi na svaki trening?",
+                                        "svoju loptu",
+                                        "svoj dres",
+                                        "svoju gitaru"
+                                    ],
+                                    [
+                                        "Kakva je njihova obrana?",
+                                        "jaka",
+                                        "brza",
+                                        "mala"
+                                    ],
+                                    [
+                                        "Zašto se kaže \"svoj klub\" na kraju?",
+                                        "jer ljudi vole vlastiti klub",
+                                        "jer je klub malen",
+                                        "jer trener to kaže"
+                                    ]
+                                ],
+                     "sortkljuc":  901017,
+                     "bodovi":  12
+                 },
+                 {
+                     "cjelina":  "Lesson 9",
+                     "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
+                     "stranica":  18,
                      "broj":  9999,
                      "format":  "provjera",
                      "naslov":  "Lesson checkpoint",
                      "meta":  {
+                                  "info":  "A mixed check on the whole lesson. Two things decide nearly every answer: the ending comes from the **thing owned**, never from the owner, and *svoj* appears whenever the owner is also the one doing the action.",
                                   "prag":  "80",
                                   "opis":  "Final check! Score 80% to be ready for Lesson 10."
                               },
@@ -47005,32 +47794,56 @@ window.PODACI = {
                                         "true"
                                     ],
                                     [
+                                        "upis",
+                                        "___ koljeno boli. (my)",
+                                        "Moje"
+                                    ],
+                                    [
+                                        "izbor",
+                                        "Marko voli ___ sestru. (his own)",
+                                        "svoju",
+                                        "njegovu"
+                                    ],
+                                    [
+                                        "izbor",
+                                        "Što znači \"čiji\"?",
+                                        "whose",
+                                        "which",
+                                        "whether"
+                                    ],
+                                    [
                                         "slaganje",
                                         "Njihova obrana je jaka, ali naš kapetan je brz."
+                                    ],
+                                    [
+                                        "upis",
+                                        "Prevedi: my ball →",
+                                        "moja lopta"
                                     ]
                                 ],
-                     "sortkljuc":  901011,
+                     "sortkljuc":  901018,
                      "bodovi":  20
                  },
                  {
                      "cjelina":  "Lesson 9",
                      "cjelinanaslov":  "Sport \u0026 Hobbies: Making It Yours",
-                     "stranica":  12,
+                     "stranica":  19,
                      "broj":  9999,
                      "format":  "tekst",
                      "naslov":  "Reward \u0026 preview",
                      "meta":  {
-
+                                  "info":  "A closing summary. You now have the whole possessive set, the *-o* / *-e* wrinkle, and *svoj* — the one Croatian has and English does not. What comes next is the last piece of Module B, and it is the big one: the past.",
+                                  "opis":  "Module B is nearly done. One lesson to go."
                               },
                      "stavke":  [
                                     [
-                                        "Bravo! Things are officially *yours* now — your club, your guitar, your Croatian."
+                                        "Bravo! Things are officially *yours* now — your club, your guitar, your Croatian. And with *svoj* you can say something English cannot say in one word."
                                     ],
                                     [
-                                        "**Next up:** the grand finale of Module B. In Lesson 10 you\u0027ll tell stories about *yesterday* — the past tense: *Gledao sam film. Bio je odličan!*"
+                                        "**Next up:** the grand finale of Module B. In Lesson 10 you will tell stories about *yesterday* — the past tense: *Gledao sam film. Bio je odličan!*"
                                     ]
                                 ],
-                     "sortkljuc":  901012,
+                     "sortkljuc":  901019,
                      "bodovi":  4
                  },
                  {

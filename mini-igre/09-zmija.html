@@ -117,6 +117,7 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .zmOmot{display:flex;flex-direction:column;gap:10px;align-items:center}
 .ciljRijec{display:flex;gap:14px;align-items:center;justify-content:center;background:var(--papir2);
   border:var(--crta);border-radius:14px;padding:8px 16px;flex-wrap:wrap}
+.ciljRijec .engl{font-size:22px;font-weight:800;color:var(--tinta);letter-spacing:.5px}
 .ciljRijec .slova2{font-size:28px;font-weight:800;letter-spacing:6px;font-variant-numeric:tabular-nums}
 .ciljRijec .slova2 b{color:var(--zelena)}
 .ciljRijec .znacenje{font-size:13px;color:var(--meko);font-weight:700}
@@ -464,7 +465,7 @@ var S = null;
 
 var O = CL.el('omot');
 O.appendChild(CL.hud({
-  ime:'Zmija', podnaslov:'jedi slova pravim redom · ' + UKUPNO + ' riječi',
+  ime:'Zmija', podnaslov:'engleska riječ → skupi hrvatski prijevod · ' + UKUPNO + ' riječi',
   znakovi:[
     {id:'zRaz', html:'🟩 <b>1</b>/3'},
     {id:'zRijec', html:'📝 <b>1</b>/' + UKUPNO},
@@ -508,7 +509,7 @@ function rijeciZaRazinu(i){
 function novaIgra(){
   S = {razina:0, i:0, uRazini:0, srca:3, bodovi:0,
        tijelo:[[3,7],[2,7],[1,7]], smjer:[1,0], zeljeni:[1,0],
-       slova:[], zidovi:[], poz:0, radi:true, tik:null, brzina:200, bez:false, bezRijeci:0};
+       slova:[], zidovi:[], poz:0, pomoc:false, radi:true, tik:null, brzina:200, bez:false, bezRijeci:0};
   S.rijeci = rijeciZaRazinu(0);
   uvod();
 }
@@ -516,8 +517,9 @@ function novaIgra(){
 function uvod(){
   var z = CL.zastor(
     '<h3>Zmija</h3>' +
-    '<p>Tri razine, ukupno <b>' + UKUPNO + '</b> riječi. Riječi rastu, zidovi se množe, ' +
-    'zmija ubrzava. Nakon zadnje razine otvara se beskonačni način.</p>' +
+    '<p>Gore piše <b>engleska</b> riječ — zmija skuplja slova <b>hrvatskog prijevoda</b>, redom. ' +
+    'Na ploči je uvijek nekoliko slova: neka pripadaju riječi, neka ne. ' +
+    'Tri razine, ukupno <b>' + UKUPNO + '</b> riječi; riječi rastu, zidovi se množe, zmija ubrzava.</p>' +
     '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">Kreni</button></div>');
   z.querySelector('#_k').onclick = function(){ z.remove(); postaviRijec(); };
 }
@@ -538,6 +540,7 @@ function postaviRijec(){
   var r = S.rijeci[S.uRazini];
   S.ciljna = Array.from(r.hr);
   S.poz = 0;
+  S.pomoc = false;
   postaviZidove();
   postaviSlova();
   crtajCilj();
@@ -554,31 +557,68 @@ function zauzeto(x,y){
          (S.slova||[]).some(function(s){ return s.x===x && s.y===y; }) ||
          (S.zidovi||[]).some(function(s){ return s.x===x && s.y===y; });
 }
-function slobodnoMjesto(daljeOdGlave){
+function slobodnoMjesto(daljeOdGlave, izbjegniRavninu){
   var g = S.tijelo[0];
-  for (var i=0;i<500;i++){
+  for (var i=0;i<600;i++){
     var x = 1 + CL.cijeli(W-2), y = 1 + CL.cijeli(H-2);
     if (zauzeto(x,y)) continue;
     if (daljeOdGlave && g && Math.abs(x-g[0]) + Math.abs(y-g[1]) < 4) continue;
+    // novo slovo ne smije biti u istom retku ni stupcu kao glava zmije
+    if (izbjegniRavninu && g && (x === g[0] || y === g[1])) continue;
     return {x:x,y:y};
   }
-  return {x:1,y:1};
+  return izbjegniRavninu ? slobodnoMjesto(daljeOdGlave, false) : {x:1,y:1};
 }
 
+var ABC = 'abcčćdđefghijklmnoprsštuvzž'.split('');
+
+function trebaSlovo(){ return S.ciljna[S.poz]; }
+function imaTrazeno(){
+  var t = trebaSlovo();
+  return S.slova.some(function(sl){ return sl.s === t; });
+}
+function pocetnoSlova(){ return (S.bez ? 6 : RAZINE[S.razina].ometaci + 2); }
+function maksSlova(){ return pocetnoSlova() + 3; }
+
+/* slučajno slovo: dio riječi (ali ne ono koje se upravo traži) ili posve drugo */
+function slucajnoSlovo(){
+  var t = trebaSlovo();
+  var ostatak = S.ciljna.filter(function(c){ return c !== t; });
+  if (ostatak.length && Math.random() < 0.45) return CL.rand(ostatak);
+  var c = CL.rand(ABC);
+  if (c === t) c = CL.rand(ABC.filter(function(x){ return x !== t; }));
+  return c;
+}
+
+function dodajSlovo(znak, izbjegniRavninu){
+  var p = slobodnoMjesto(false, izbjegniRavninu);
+  if (!p) return false;
+  S.slova.push({s:znak, x:p.x, y:p.y});
+  return true;
+}
+
+/* cijela nova ploča slova (na početku riječi i nakon sudara) */
 function postaviSlova(){
   S.slova = [];
-  var tocno = S.ciljna[S.poz];
-  var p = slobodnoMjesto();
-  S.slova.push({s:tocno, x:p.x, y:p.y, dobro:true});
-  var abc = 'abcčćdđefghijklmnoprsštuvzž'.split('');
-  var koliko = S.bez ? 6 : RAZINE[S.razina].ometaci;
-  for (var i=0;i<koliko;i++){
-    var kandidat;
-    if (i < 2 && S.ciljna.length > S.poz+1) kandidat = S.ciljna[S.poz + 1 + (i % Math.max(1, S.ciljna.length - S.poz - 1))];
-    else kandidat = CL.rand(abc);
-    if (kandidat === tocno) kandidat = CL.rand(abc.filter(function(c){ return c !== tocno; }));
-    var q = slobodnoMjesto();
-    S.slova.push({s:kandidat, x:q.x, y:q.y, dobro:false});
+  dodajSlovo(trebaSlovo(), true);
+  var koliko = pocetnoSlova();
+  for (var i=0;i<koliko;i++) dodajSlovo(slucajnoSlovo(), true);
+}
+
+/* nakon pojedenog slova: doda 1–2 nova, izvan retka i stupca glave */
+function nadopuniSlova(){
+  var n = 1 + CL.cijeli(2);
+  for (var i=0;i<n;i++){
+    var znak = (i === 0 && !imaTrazeno()) ? trebaSlovo() : slucajnoSlovo();
+    dodajSlovo(znak, true);
+  }
+  if (!imaTrazeno()) dodajSlovo(trebaSlovo(), true);
+  var maks = maksSlova();
+  while (S.slova.length > maks){
+    var idx = -1, t = trebaSlovo();
+    for (var j=0;j<S.slova.length;j++){ if (S.slova[j].s !== t){ idx = j; break; } }
+    if (idx < 0) break;
+    S.slova.splice(idx, 1);
   }
 }
 
@@ -586,9 +626,11 @@ function crtajCilj(){
   var r = S.rijeci[S.uRazini];
   var prikaz = S.ciljna.map(function(c,i){ return i < S.poz ? '<b>' + c + '</b>' : '_'; }).join(' ');
   CL.el('cilj').innerHTML = CL.slikaRijeci(r, 64) +
-    '<div><div class="slova2">' + prikaz + '</div>' +
-    '<div class="znacenje">' + CL.esc(r.en) + ' · ' + CL.esc(CL.KAT[r.kat].hr) +
-    ' · sljedeće slovo: <b>' + CL.esc(S.ciljna[S.poz] || '✓') + '</b></div></div>';
+    '<div><div class="engl">' + CL.esc(r.en) + '</div>' +
+    '<div class="slova2">' + prikaz + '</div>' +
+    '<div class="znacenje">' + CL.esc(CL.KAT[r.kat].hr) + ' · ' + S.ciljna.length + ' slova' +
+    (S.pomoc ? ' · sljedeće slovo: <b>' + CL.esc(S.ciljna[S.poz] || '✓') + '</b>' : '') +
+    '</div></div>';
 }
 
 function osvjezi(){
@@ -623,14 +665,18 @@ function korak(){
   var pojedeno = null;
   S.slova.forEach(function(sl){ if (sl.x===nx && sl.y===ny) pojedeno = sl; });
   if (pojedeno){
-    if (pojedeno.dobro){
+    var tocno = pojedeno.s === S.ciljna[S.poz];
+    S.slova.splice(S.slova.indexOf(pojedeno), 1);
+    if (tocno){
       CL.ton(700 + S.poz*60, .08);
       S.poz++;
       if (S.poz >= S.ciljna.length) return rijecGotova();
-      postaviSlova(); crtajCilj();
+      nadopuniSlova(); crtajCilj();
     } else {
       S.tijelo.pop();
-      return izgubiSrce('Krivo slovo — trebalo je „' + S.ciljna[S.poz] + '”.');
+      S.pomoc = true;
+      nadopuniSlova(); crtajCilj();
+      return izgubiSrce('Krivo slovo — trebalo je „' + S.ciljna[S.poz] + '”.', false);
     }
   } else {
     S.tijelo.pop();
@@ -667,12 +713,15 @@ function rijecGotova(){
   postaviRijec();
 }
 
-function izgubiSrce(poruka){
+function izgubiSrce(poruka, vratiNaPocetak){
   var r = S.rijeci[S.uRazini];
   if (r) CL.ucenje(r.id, false);
   S.srca--; CL.pip(false); CL.poruka(poruka, 'lose'); osvjezi();
-  S.tijelo = [[3,7],[2,7],[1,7]]; S.smjer=[1,0]; S.zeljeni=[1,0];
-  postaviSlova(); crtaj();
+  if (vratiNaPocetak !== false){
+    S.tijelo = [[3,7],[2,7],[1,7]]; S.smjer=[1,0]; S.zeljeni=[1,0];
+    postaviSlova();
+  }
+  crtaj();
   if (S.srca <= 0){ S.radi = false; clearInterval(S.tik); poraz(); }
 }
 
