@@ -675,6 +675,37 @@
   #popSlovo .r { font-weight: 700; margin-top: 0.125rem; }
   #popSlovo .e { font-size: var(--t-s); color: var(--muted); }
 
+  /* -- povremeno isticanje lebdećih ikona (Lesson 0) -- */
+  /* Mekani puls + halo prsten: dovoljno da ga periferni vid uhvati, premalo da smeta.
+     Klasu .pazi dodaje istakniLebdece() pri otvaranju svake nove stranice Lesson 0.
+     box-shadow je zadan samo u središnjem kadru, pa svaka ikona kreće i završava
+     na svojoj vlastitoj sjeni. */
+  @keyframes lebdiPuls {
+    0%   { transform: scale(1); }
+    35%  { transform: scale(1.13); box-shadow: 0 8px 24px rgba(154,91,82,.42); }
+    70%  { transform: scale(.99); }
+    100% { transform: scale(1); }
+  }
+  @keyframes lebdiHalo {
+    from { transform: scale(1);   opacity: .45; }
+    to   { transform: scale(2.1); opacity: 0; }
+  }
+  #lebdi.pazi, #lebdiIgra.pazi, #lebdiInfo.pazi {
+    opacity: 1;
+    animation: lebdiPuls 1.1s cubic-bezier(.34,1.35,.64,1) 2;
+  }
+  #lebdi.pazi::after, #lebdiIgra.pazi::after, #lebdiInfo.pazi::after {
+    content: ''; position: absolute; inset: 0; border-radius: 50%;
+    border: 2px solid var(--plava); pointer-events: none;
+    animation: lebdiHalo 1.1s ease-out 2;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #lebdi.pazi, #lebdiIgra.pazi, #lebdiInfo.pazi {
+      animation: none; box-shadow: 0 0 0 3px rgba(154,91,82,.30);
+    }
+    #lebdi.pazi::after, #lebdiIgra.pazi::after, #lebdiInfo.pazi::after { animation: none; }
+  }
+
   /* -- lebdeći rječnik -- */
   #lebdi { position: fixed; top: 84px; right: 18px; z-index: 30; width: 3.5rem; height: 3.5rem;
     border-radius: 50%; background: var(--plava); color: #fff; display: none;
@@ -3765,7 +3796,7 @@
   }
   function rjecnikVidljiv(da, tip, razina) {
     var l = $('lebdi'); if (!l) return;
-    if (!da) { l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj(); igraVidljiva(false); infoVidljiv(false); return; }
+    if (!da) { paziZadnja = null; l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj(); igraVidljiva(false); infoVidljiv(false); return; }
     // nova vježba = nova sesija igrice: brojači i vreća riječi kreću ispočetka
     if (rjTip !== tip || rjRazina !== razina) {
       igTocno = 0; igNetocno = 0; igRed = []; igZadnji = null;
@@ -4034,6 +4065,31 @@
     b.style.fontSize = (v * 0.46) + 'px';
     b.style.top = (rjTop + rjVelicina + 10 + v + 10) + 'px';
     b.style.right = (18 + (rjVelicina - v) / 2) + 'px';
+  }
+
+  // ---- povremeno isticanje lebdećih ikona ----
+  // Pri otvaranju svake nove stranice Lesson 0 sve tri ikone kratko pulsiraju, s malim
+  // razmakom u vremenu, pa efekt putuje niz stupac kao val. Kljuc pamti zadnju stranicu
+  // da se puls ne ponovi kad se ista vjezba prerenderira (npr. "Play again").
+  var paziZadnja = null;
+  function istakniLebdece(kljuc) {
+    if (kljuc && kljuc === paziZadnja) return;
+    paziZadnja = kljuc || null;
+    ['lebdi', 'lebdiIgra', 'lebdiInfo'].forEach(function (id, i) {
+      setTimeout(function () {
+        var e = $(id);
+        if (!e || !e.classList.contains('vidi')) return;
+        if (document.body.classList.contains('izbornikOtvoren')) return;
+        // ako je polaznik već otvorio neki panel, ne odvlači mu pažnju natrag na ikone
+        if ($('panelRj').classList.contains('otvoren') ||
+            $('panelIgra').classList.contains('otvoren') ||
+            $('panelInfo').classList.contains('otvoren')) return;
+        e.classList.remove('pazi');
+        void e.offsetWidth;                       // restart animacije
+        e.classList.add('pazi');
+        setTimeout(function () { e.classList.remove('pazi'); }, 2400);
+      }, 700 + i * 180);
+    });
   }
 
   // ---- mehanika 1: spajanje (crtež ↔ riječ) ----
@@ -5206,6 +5262,8 @@
     // Lesson 0: traka abecede JE traka napretka — bez postotka i brojača stranica
     trakaVidljiva(jeNula);
     rjecnikVidljiv(true, tip, razina);
+    // Lesson 0: svaka nova stranica kratko istakne lebdeće ikone (val: rječnik → igrica → info)
+    if (jeNula) istakniLebdece(tip + '|' + razina + '|' + indeks);
     VIEW.innerHTML =
       '<div class="traka">' +
       '<button class="natrag" onclick="idi(\'' + natragView + '\')">' + (jeNula ? '‹ Explore the app' : '‹ Back') + '</button>' +

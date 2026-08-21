@@ -6,7 +6,7 @@
    RECENICE  [hr, en, razina 1-5]
    PRAZNINE  [hr s ___, en, točno, krivo1, krivo2, razina]
    DIJALOZI  { id, mjesto, emo, razina, redci:[[tko, hr, en], ...] }
-   SAVJETI   [hr, en]  — kratke gramatičke natuknice između razina
+   SAVJETI   [en, hr]  — kratka gramatička natuknica: engleski prikaz + hrvatski original
    ===================================================================== */
 
 var RECENICE = [
@@ -599,36 +599,36 @@ var DIJALOZI = [
 ];
 
 var SAVJETI = [
-  ['Hrvatski nema članova — „kuća" znači i „a house" i „the house".','Croatian has no articles.'],
-  ['Pridjev se slaže s imenicom: velik grad, velika kuća, veliko more.','Adjectives agree with the noun.'],
-  ['Muški rod najčešće završava na suglasnik, ženski na -a, srednji na -o ili -e.','Gender endings.'],
-  ['U akuzativu ženski rod mijenja -a u -u: salata → salatu.','Accusative of feminine nouns.'],
-  ['Neživo u muškom rodu ostaje isto u akuzativu: vidim stol.','Inanimate masculine stays the same.'],
-  ['Živo u muškom rodu dobiva -a: vidim psa, vidim brata.','Animate masculine takes -a.'],
-  ['Nakon „u" i „na" s mirovanjem ide lokativ: u kući, na stolu.','Locative after u/na for location.'],
-  ['S kretanjem „u" i „na" traže akuzativ: idem u školu, idem na more.','Accusative after u/na for motion.'],
-  ['„Bez", „iz", „od", „do" uvijek traže genitiv.','These prepositions take the genitive.'],
-  ['Negacija: ne + glagol, ali „nemam" i „neću" pišu se spojeno.','Negation is written together in some verbs.'],
-  ['Pitanje se često tvori s „li": Imaš li vremena?','Questions with li.'],
-  ['Prošlo vrijeme: pomoćni glagol + glagolski pridjev (bio sam, kupila je).','Past tense formation.'],
-  ['Glagolski pridjev se slaže s rodom: on je bio, ona je bila, oni su bili.','Past participle agrees in gender.'],
-  ['Futur: infinitiv + ću/ćeš/će (kupit ću, doći ćemo).','Future tense formation.'],
-  ['Dativ odgovara na pitanje „kome": dajem knjigu bratu.','Dative answers "to whom".'],
-  ['„Sviđa mi se" doslovno znači „it is pleasing to me".','Liking is expressed with the dative.'],
-  ['Komparativ: velik → veći, dobar → bolji, hladan → hladniji.','Comparative forms.'],
-  ['Superlativ se tvori s naj-: najveći, najbolji, najhladniji.','Superlative with naj-.'],
-  ['Instrumental za sredstvo: putujem vlakom, pišem olovkom.','Instrumental for means.'],
-  ['Uz brojeve 2, 3 i 4 imenica ide u genitiv jednine: dva stola.','Numbers 2-4 take genitive singular.'],
-  ['Od pet nadalje ide genitiv množine: pet stolova.','Numbers 5+ take genitive plural.'],
-  ['Dvostruka negacija je normalna: nitko ništa ne zna.','Double negation is standard.'],
-  ['Red riječi je slobodan, ali enklitike (je, sam, se) idu na drugo mjesto.','Clitics go in second position.'],
-  ['„Se" se piše odvojeno i mijenja mjesto: odmori se, ja se odmaram.','Reflexive se placement.'],
-  ['Slova dž, lj i nj su jedno slovo, ne dva.','Digraphs are single letters.'],
-  ['Č je tvrđe, ć je mekše — čokolada, ćevapi.','Č vs ć.'],
-  ['Svako slovo se uvijek čita isto — hrvatski je fonetski jezik.','Croatian is phonetic.'],
-  ['Naglasak je najčešće na prvom slogu, nikad na zadnjem.','Stress is never on the last syllable.'],
-  ['Vokativ se koristi za dozivanje: Marko → Marko!, Ana → Ana!','Vocative for addressing.'],
-  ['„Vi" iz poštovanja piše se velikim slovom u pismima.','Formal Vi is capitalised in letters.']
+  ['Croatian has no articles — „kuća" means both „a house" and „the house".','Hrvatski nema članova — „kuća" znači i „a house" i „the house".'],
+  ['An adjective agrees with its noun: velik grad, velika kuća, veliko more.','Pridjev se slaže s imenicom: velik grad, velika kuća, veliko more.'],
+  ['Masculine nouns usually end in a consonant, feminine in -a, neuter in -o or -e.','Muški rod najčešće završava na suglasnik, ženski na -a, srednji na -o ili -e.'],
+  ['In the accusative, feminine -a becomes -u: salata → salatu.','U akuzativu ženski rod mijenja -a u -u: salata → salatu.'],
+  ['Inanimate masculine nouns do not change in the accusative: vidim stol.','Neživo u muškom rodu ostaje isto u akuzativu: vidim stol.'],
+  ['Animate masculine nouns take -a in the accusative: vidim psa, vidim brata.','Živo u muškom rodu dobiva -a: vidim psa, vidim brata.'],
+  ['„U" and „na" take the locative when nothing moves: u kući, na stolu.','Nakon „u" i „na" s mirovanjem ide lokativ: u kući, na stolu.'],
+  ['With motion, „u" and „na" take the accusative: idem u školu, idem na more.','S kretanjem „u" i „na" traže akuzativ: idem u školu, idem na more.'],
+  ['„Bez", „iz", „od" and „do" always take the genitive.','„Bez", „iz", „od", „do" uvijek traže genitiv.'],
+  ['Negation is ne + verb, but „nemam" and „neću" are written as one word.','Negacija: ne + glagol, ali „nemam" i „neću" pišu se spojeno.'],
+  ['Yes/no questions are often formed with „li": Imaš li vremena?','Pitanje se često tvori s „li": Imaš li vremena?'],
+  ['Past tense = auxiliary verb + participle: bio sam, kupila je.','Prošlo vrijeme: pomoćni glagol + glagolski pridjev (bio sam, kupila je).'],
+  ['The past participle agrees in gender: on je bio, ona je bila, oni su bili.','Glagolski pridjev se slaže s rodom: on je bio, ona je bila, oni su bili.'],
+  ['Future = infinitive + ću/ćeš/će: kupit ću, doći ćemo.','Futur: infinitiv + ću/ćeš/će (kupit ću, doći ćemo).'],
+  ['The dative answers „to whom": dajem knjigu bratu.','Dativ odgovara na pitanje „kome": dajem knjigu bratu.'],
+  ['„Sviđa mi se" literally means „it is pleasing to me" — liking uses the dative.','„Sviđa mi se" doslovno znači „it is pleasing to me".'],
+  ['Comparatives: velik → veći, dobar → bolji, hladan → hladniji.','Komparativ: velik → veći, dobar → bolji, hladan → hladniji.'],
+  ['Superlatives add naj-: najveći, najbolji, najhladniji.','Superlativ se tvori s naj-: najveći, najbolji, najhladniji.'],
+  ['The instrumental expresses means: putujem vlakom, pišem olovkom.','Instrumental za sredstvo: putujem vlakom, pišem olovkom.'],
+  ['After 2, 3 and 4 the noun takes the genitive singular: dva stola.','Uz brojeve 2, 3 i 4 imenica ide u genitiv jednine: dva stola.'],
+  ['From five on, the noun takes the genitive plural: pet stolova.','Od pet nadalje ide genitiv množine: pet stolova.'],
+  ['Double negation is standard: nitko ništa ne zna.','Dvostruka negacija je normalna: nitko ništa ne zna.'],
+  ['Word order is free, but clitics (je, sam, se) go in second position.','Red riječi je slobodan, ali enklitike (je, sam, se) idu na drugo mjesto.'],
+  ['„Se" is written separately and moves around: odmori se, ja se odmaram.','„Se" se piše odvojeno i mijenja mjesto: odmori se, ja se odmaram.'],
+  ['Dž, lj and nj are single letters, not two.','Slova dž, lj i nj su jedno slovo, ne dva.'],
+  ['Č is harder, ć is softer — čokolada, ćevapi.','Č je tvrđe, ć je mekše — čokolada, ćevapi.'],
+  ['Every letter is always read the same way — Croatian spelling is phonetic.','Svako slovo se uvijek čita isto — hrvatski je fonetski jezik.'],
+  ['Stress is usually on the first syllable and never on the last.','Naglasak je najčešće na prvom slogu, nikad na zadnjem.'],
+  ['The vocative is used to address someone: Marko → Marko!, Ana → Ana!','Vokativ se koristi za dozivanje: Marko → Marko!, Ana → Ana!'],
+  ['Formal „Vi" is capitalised in letters as a mark of respect.','„Vi" iz poštovanja piše se velikim slovom u pismima.']
 ];
 
 /* parovi suprotnica — [riječ, suprotnica, en] */

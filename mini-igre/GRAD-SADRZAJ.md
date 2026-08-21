@@ -402,43 +402,85 @@ Označeno **✍** = napisan u cijelosti, **○** = tek skica.
 
 ---
 
-## 5. Zadaci — 28
+## 5. Zadaci — 27 napisanih i u igri
 
-Prvih 15 su prepisani iz stare igre, ostali su novi. Svaki ima: tko ga daje,
-gdje se rješava, koja vrsta vježbe, i jednu rečenicu priče.
+Svih 27 je **ugrađeno i prohodno** — testirano automatski, bez zaglavljivanja.
+Od 38 likova, **27 daje zadatak**, 22 su nečiji cilj, **34 su uključena** u barem
+jedan. Preostala četvorica (blizanke, dijete s udicom, svirač…) su tu za atmosferu.
 
-| # | id | daje | gdje | vrsta | o čemu |
-|---|---|---|---|---|---|
-| 1 | kruh | Mara | pekara | kupovina | Baki treba kruh, a ti ne znaš reći „kruh". |
-| 2 | biljeznica | Bruno | knjižnica | uvod | Dobivaš bilježnicu i prvih deset riječi. |
-| 3 | kava | Ivo | tržnica | kupovina | Konobaru treba mlijeko i šećer. |
-| 4 | pismo | Zoran | škola | dostava | Pismo treba odnijeti kroz pola grada. |
-| 5 | natpisi | Ema | muzej | prijevod | Turistkinja ne razumije natpise. |
-| 6 | kino | Luka | kino | dijalog | Razgovor na blagajni, s izborima. |
-| 7 | trznica | Jela | tržnica | razvrstavanje | Roba se pomiješala po vrstama. |
-| 8 | zadaca | Damir | škola | praznine | Iz zadaće su ispale riječi. |
-| 9 | razglednice | Ema | pošta | prijevod rečenica | Piše razglednice kući. |
-| 10 | dorucak | Vesna | pekara | kupovina | Kruh, sir i jaje za doručak. |
-| 11 | stanice | Slaven | kolodvor | upis | Imena stanica na hrvatskom. |
-| 12 | ispit | Damir | škola | kviz | Mali ispit iz značenja. |
-| 13 | premijera | razvodnik | kino | dijalog | Razgovor s razvodnikom. |
-| 14 | suprotno | Bruno | knjižnica | suprotnice | Katalog traži parove. |
-| 15 | pregled | Petra | ambulanta | završna provjera | Sve odjednom. |
-| 16 | mica | Mara | park | traženje | Nađi mačku Micu u parku. |
-| 17 | riba | Mate | riva | kategorije | Kako se zove koja riba. |
-| 18 | vaga | Anka | riva | brojevi | Koliko kila, koliko eura. |
-| 19 | hans | turist | trg | prijevod | Ti prevodiš turistu koji ne zna hrvatski. |
-| 20 | trening | Boris | dvorana | zapovjedni | Trči! Dodaj! Stani! |
-| 21 | rezultat | Dario | stadion | prošlo vrijeme | Tko je pobijedio i koliko. |
-| 22 | mjere | Lana | stadion | brojevi | Vrijeme, metri, krugovi. |
-| 23 | kljucevi | Stipe | dvorana | upute | Gdje je koji ključ. |
-| 24 | sat | don Ante | crkva | vrijeme | Koliko je sati, kad zvoni. |
-| 25 | ruza | Ruža | gornji grad | slušanje | Govori sporo i tiho, treba pažnje. |
-| 26 | alat | Šime | gornji grad | predmeti | Dodaj mi ono, pa ono. |
-| 27 | biljke | Zdravko | park | priroda | Što raste kad. |
-| 28 | selidba | Tomislav | tvoja kuća | završni | Useljavaš se konačno. |
+**Tri mehanike, sve tri su „obavi za mene":**
 
----
+- **donesi** — pošalju te k nekome, on ti da stvar, vraćaš se davatelju
+- **odnesi** — odmah dobiješ stvar, nosiš je primatelju, tu i završava
+- **poruka** — preneseš pitanje ili poruku, pa se vraćaš s odgovorom
+
+**Jezična provjera je na predaji.** Kad dođeš do druge strane, ona te nešto pita i
+biraš između tri odgovora. Krivi odgovor te ne blokira — lik te ispravi i pokušavaš
+opet — ali se broji. Redoslijed ponuđenih odgovora je svaki put drukčiji.
+
+### Niti koje povezuju priče
+
+Zadaci nisu izolirani. Nekoliko ih se međusobno dodiruje, pa grad djeluje kao mjesto
+gdje se ljudi znaju:
+
+- **Posuđeno pa zaboravljeno** — Tomislavov čekić kod Šime, Šimin klin kod Stipe,
+  Matina igla kod Anke, Brunina knjiga kod Sare. Četiri različita čovjeka, isti ljudski
+  propust. Igrač to primijeti sam, nitko mu ne kaže.
+- **Jure i Ruža** — on je na trgu, ona u Gornjem gradu, plesali su u lipnju šezdeset
+  i prve. On pita sjeća li se; ona kaže da je gazio po nogama, ali da su plesali do zore.
+  Nakon toga on govori da će „ovih dana gore, kad malo zahladi".
+- **Tiha zahvalnost** — Vesna Ruži šalje pecivo i ne naplaćuje; Anka sestri Mariji
+  nosi ribu jer joj je zimus pomogla; Dario Kreši daje ulaznice i traži da se ne kaže
+  od koga su. Nitko od njih to ne izgovara naglas.
+- **Hans uči hrvatski** — traži da za njega pitaš ima li knjižnica rječnik za strance.
+  Bruno poruči da dođe osobno jer „i tako mora vježbati". Poslije Hans kaže: „Bio sam
+  u knjižnici. Sam! I razumio sam pola."
+- **Škola** — Sari treba popis lektire od Damira, Damiru kreda od Kate, a Kata poručuje
+  da ne baca komadiće po podu. Kad joj to preneseš, Damir kaže: „Prenio si vjerno, vidim."
+
+### Likovi pamte što si napravio
+
+Svaki davatelj ima i **replike za poslije**. Baka Mara više ne traži kruh nego zove na
+kavu; Tomislav javlja da krov ne kaplje; Luka priznaje da mu je Stipe jučer mahnuo.
+To je jedina „memorija" u igri i dovoljna je da se ne čini da hodaš kroz kulise.
+
+### Svih 27
+
+| # | id | daje | tip | druga strana | o čemu je | provjera na predaji |
+|---|---|---|---|---|---|---|
+| 1 | `kruh` | Baka Mara | donesi | Pekarica Vesna | Donesi baki Mari kruh iz pekare (Dućani) | „Izvolite? Što trebate?" → **Jedan kruh, molim.** |
+| 2 | `pismo` | Poštar Zoran | odnesi | Don Ante | Odnesi pismo don Anti u crkvu (Gornji grad) | „Nosiš mi nešto, sinko?" → **Pismo od poštara Zorana.** |
+| 3 | `cekic` | Susjed Tomislav | donesi | Klesar Šime | Uzmi Tomislavov čekić od klesara Šime (Gornji grad) | „Tebe šalje Tomislav? Po što?" → **Po čekić.** |
+| 4 | `pecivo` | Pekarica Vesna | odnesi | Starica Ruža | Odnesi vrećicu peciva starici Ruži (Gornji grad) | „Što mi to nosiš, dijete?" → **Pecivo iz pekare.** |
+| 5 | `knjiga` | Knjižničar Bruno | donesi | Učenica Sara | Uzmi od Sare knjigu za knjižnicu (Školski kvart) | „Šalje te Bruno? Zbog čega?" → **Zbog knjige koju nisi vratila.** |
+| 6 | `riba` | Konobar Ivo | donesi | Ribarica Anka | Donesi Ivi ribu od Anke s rive | „Za koga je riba?" → **Za konobu, Ivo me šalje.** |
+| 7 | `rajcice` | Jela | odnesi | Konobar Ivo | Odnesi sanduk rajčica Ivi u konobu (Dućani) | „Što je u sanduku?" → **Rajčice s tržnice.** |
+| 8 | `muzej` | Turistkinja Ema | poruka | Čuvar Filip | Pitaj čuvara Filipa u muzeju kad je ulaz besplatan, pa javi Emi | „Izvolite? Imate pitanje?" → **Kada je ulaz u muzej besplatan?** |
+| 9 | `lopta` | Dječak Luka | donesi | Domar Stipe | Uzmi Lukinu loptu od domara Stipe u dvorani (Sportski kvart) | „A ti si čiji? Što tražiš?" → **Lukinu loptu s krova.** |
+| 10 | `trening` | Trener Boris | poruka | Vratar Dario | Prenesi Dariju kod stadiona: trening je sutra u sedam | „Šalje te trener? Što poručuje?" → **Trening je sutra u sedam.** |
+| 11 | `lijek` | Liječnica Petra | odnesi | Starac Jure | Odnesi Juri na trg njegov lijek iz ambulante | „Što je to, mladiću?" → **Vaš lijek iz ambulante.** |
+| 12 | `novine` | Prodavačica Vera | odnesi | Ribar Mate | Odnesi Mati novine na rivu | „Što mi nosiš?" → **Novine, već su plaćene.** |
+| 13 | `paket` | Vozač Slaven | poruka | Šalterica Nada | Javi Nadi u pošti (Zanatska četvrt) za paket iz autobusa | „Izvolite? Šalter jedan ili dva?" → **U autobusu je ostao paket.** |
+| 14 | `zica` | Svirač Rene | donesi | Susjed Tomislav | Uzmi od Tomislava žicu za gitaru (Stambeno naselje) | „Reci, susjede, po što si došao?" → **Po žicu za gitaru.** |
+| 15 | `ples` | Starac Jure | poruka | Starica Ruža | Pitaj staricu Ružu sjeća li se plesa u lipnju (Gornji grad) | „Reci, dijete, što te dovodi k meni?" → **Sjećate li se plesa u lipnju?** |
+| 16 | `adresa` | Dostavljač | odnesi | Šalterica Nada | Odnesi paket bez adrese Nadi u poštu (Zanatska četvrt) | „Izvolite? Šalje vas netko?" → **Paket je bez čitke adrese.** |
+| 17 | `lektira` | Učenica Sara | donesi | Učitelj Damir | Uzmi popis lektire od učitelja Damira u školi | „Uđi. Trebaš nešto?" → **Trebam popis lektire.** |
+| 18 | `svijece` | Starica Ruža | odnesi | Don Ante | Odnesi don Anti novac za svijeće (crkva, Gornji grad) | „Izvoli, sinko. Nosiš li mi nešto?" → **Novac za svijeće, od Ruže.** |
+| 19 | `klin` | Klesar Šime | donesi | Domar Stipe | Uzmi klesarov klin od domara Stipe u dvorani (Sportski kvart) | „Reci, po što si došao?" → **Po Šimin klin.** |
+| 20 | `sjemenke` | Vrtlar Zdravko | odnesi | Sanja sa psom | Odnesi Sanji vrećicu sjemenki (park) | „Dobar dan! Nosite li to nešto?" → **Sjemenke od vrtlara.** |
+| 21 | `ogrebotina` | Sanja sa psom | poruka | Liječnica Petra | Pitaj liječnicu Petru treba li ogrebotinu nečim namazati (park) | „Dobar dan. Trebate nešto?" → **Treba li se ogrebotina nečim namazati?** |
+| 22 | `igla` | Ribar Mate | donesi | Ribarica Anka | Uzmi Matinu iglu za mrežu od Anke na rivi | „Izvoli? Trebaš ribu?" → **Trebam Matinu iglu za mrežu.** |
+| 23 | `ribasestra` | Ribarica Anka | odnesi | Sestra Marija | Odnesi sestri Mariji ribu u ambulantu (Stambeno naselje) | „Dobar dan. Je li hitno?" → **Nije hitno, nosim vam ribu od Anke.** |
+| 24 | `rjecnik` | Turist Hans | poruka | Knjižničar Bruno | Pitaj knjižničara Brunu ima li rječnik za strance (knjižnica, Trg) | „Dobar dan. Tražite nešto određeno?" → **Imate li rječnik za strance?** |
+| 25 | `ulaznice` | Vratar Dario | odnesi | Navijač Krešo | Odnesi Kreši ulaznice za utakmicu (Sportski kvart) | „Ej! Što ima?" → **Nosim ti ulaznice za nedjelju.** |
+| 26 | `mjerenje` | Atletičarka Lana | poruka | Trener Boris | Pitaj trenera Borisa hoće li Lani mjeriti vrijeme u subotu (Sportski kvart) | „Da? Brzo, imam trening." → **Hoćete li Lani mjeriti vrijeme u subotu?** |
+| 27 | `kreda` | Učitelj Damir | donesi | Spremačica Kata | Uzmi kutiju krede od spremačice Kate (u školi) | „Pazi, oprano je! Trebaš nešto?" → **Trebam kutiju krede za učitelja.** |
+
+### Ekonomija u praksi
+
+Odigrano od početka do kraja, s točnim odgovorima iz prve: **202 novčića** zarađeno
+(40 početnih + 27×5 za zadatke + 27×1 za točne odgovore). To se poklapa s procjenom
+od ~210 iz poglavlja 1a — dovoljno za oko 200 pogleda u rječnik.
 
 ## 6. Tekstovi sustava — 30
 

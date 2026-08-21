@@ -22,6 +22,46 @@ Uz to sve igre dijele `croland-mini-ucenje` — zajedničku evidenciju svladanih
 riječi, koju koriste za biranje novog gradiva (`CL.svjezeRijeci`) i popis za ponoviti
 (`CL.zaPonoviti`).
 
+## Jezik: sučelje engleski, gradivo hrvatski
+
+Pravilo kroz sve igre: **sve čime se igra obraća igraču je na engleskom** — naslovi,
+upute, gumbi, poruke, HUD, međuekrani i završni ekrani. **Na hrvatskom ostaje samo
+gradivo** — riječi iz `rijeci.js`, rečenice, praznine, dijalozi, suprotnice, replike
+likova (uvijek uz engleski prijevod ispod) i gramatički primjeri u savjetima.
+
+Detalji:
+
+- imena igara su dvojezična: `Snake (Zmija)`, `Maze (Labirint)`…
+- kategorije (`CL.KAT`) prikazuju se preko `.en`; `.hr` ide kao mala oznaka gdje ima smisla
+- gramatički pojmovi prikazuju se engleski, a hrvatski naziv (`muški rod`) ostaje u zagradi
+  ili kao podnaslov — to je gradivo
+- savjeti (`SAVJETI` u `recenice.js`) su `[engleski, hrvatski]`: engleski se prikazuje kao
+  glavno objašnjenje (s hrvatskim primjerima u rečenici), hrvatski original stoji ispod sitno
+- kad dodaješ nove tekstove, drži se toga: interface → engleski, sadržaj → hrvatski
+
+### Skriveni prijevod
+
+Tamo gdje bi engleski prijevod riješio zadatak umjesto igrača, prijevod stoji **skriven** iza
+oznake `👁 translation` — klik ga otkriva. Pomoćnik je u zajedničkoj jezgri:
+
+```js
+CL.skritEN(tekst)               // <button> koji se klikom pretvori u tekst
+CL.skritEN(tekst, 'oznaka')     // druga oznaka umjesto „👁 translation"
+CL.skritEN(tekst, oznaka, true) // <span> varijanta — kad stoji unutar drugog <button>
+```
+
+Otkrivanje hvata jedan delegirani listener (`.otkrijEN`, faza hvatanja), pa klik na oznaku
+ne okine klik na karticu ili paket ispod nje. Stil je klasa `.otkrijEN` u svakoj igri.
+
+Skriveno je: replike likova i njihovi prijevodi (Grad, Tvrđava, Put oko Hrvatske), narudžbe
+gostiju (Konoba), prijevod rečenice kod praznina i slaganja rečenice, značenje para kod
+suprotnica, prijevod rečenice koja bljesne (Pamti pa piši) te prijevod riječi koja se nosi
+ili razvrstava (Skladište, Poštanski vlak).
+
+Vidljivo ostaje ono što je **zadatak**, a ne pomoć: engleska riječ koja se prevodi na hrvatski,
+engleske opcije kad se bira prijevod, i nazivi kategorija po kojima se razvrstava. Gost tipa
+`🤫 no translation` u Konobi nema ni skriveni prijevod — to mu je i poanta.
+
 ## Uređivanje sadržaja
 
 Sadržaj se **ne uređuje u HTML datotekama** nego u mapi `_sadrzaj/`:

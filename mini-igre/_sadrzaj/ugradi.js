@@ -136,9 +136,9 @@ var BLOK_DODATAK = [
   '  function savjetZastor(nastavi) {',
   '    var s = savjet();',
   '    var z = zastor(',
-  '      \'<h3>💡 Savjet</h3><p style="text-align:left">\' + esc(s[0]) + \'</p>\' +',
+  '      \'<h3>💡 Tip</h3><p style="text-align:left">\' + esc(s[0]) + \'</p>\' +',
   '      \'<p style="font-size:13px;color:#8B7B6B;text-align:left">\' + esc(s[1]) + \'</p>\' +',
-  '      \'<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_dalje">Dalje</button></div>\');',
+  '      \'<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_dalje">Next</button></div>\');',
   '    z.querySelector(\'#_dalje\').onclick = function () { z.remove(); if (nastavi) nastavi(); };',
   '    return z;',
   '  }',
@@ -156,12 +156,12 @@ var IZVOZ =
 
 /* dodatak funkciji kraj(): gumb za beskonačni način */
 var KRAJ_STARO =
-  "      '<button class=\"g glavni\" id=\"_opet\">Igraj ponovno</button>' +\n" +
-  "      '<a class=\"g\" href=\"index.html\">Izbornik</a></div>';";
+  "      '<button class=\"g glavni\" id=\"_opet\">Play again</button>' +\n" +
+  "      '<a class=\"g\" href=\"index.html\">Menu</a></div>';";
 var KRAJ_NOVO =
-  "      '<button class=\"g glavni\" id=\"_opet\">Igraj ponovno</button>' +\n" +
-  "      (opts.beskonacno ? '<button class=\"g\" id=\"_bez\">Bez kraja ▶</button>' : '') +\n" +
-  "      '<a class=\"g\" href=\"index.html\">Izbornik</a></div>';";
+  "      '<button class=\"g glavni\" id=\"_opet\">Play again</button>' +\n" +
+  "      (opts.beskonacno ? '<button class=\"g\" id=\"_bez\">Endless ▶</button>' : '') +\n" +
+  "      '<a class=\"g\" href=\"index.html\">Menu</a></div>';";
 var KRAJ_VEZ_STARO =
   "    z.querySelector('#_opet').onclick = function () { z.remove(); if (opts.ponovno) opts.ponovno(); else location.reload(); };";
 var KRAJ_VEZ_NOVO =

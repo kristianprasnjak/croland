@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="color-scheme" content="light">
-<title>Croland — Survival</title>
+<title>Croland — City</title>
 <style>
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -110,33 +110,28 @@ input.upis:focus{outline:none;background:var(--papir2)}
   h2.naslov{font-size:18px}
 }
 
-/* ==== Preživljavanje ==== */
+/* ==== Grad ==== */
 
-.prezOmot{display:flex;flex-direction:column;gap:16px;flex:1;align-items:center;justify-content:center}
-.satPrez{width:min(520px,96%);height:14px;background:var(--papir2);border:2px solid var(--tinta);
-  border-radius:999px;overflow:hidden}
-.satPrez i{display:block;height:100%;background:var(--zelena);width:100%;transition:width .1s linear}
-.pitanjeP{font-size:38px;font-weight:800;text-align:center;line-height:1.2;max-width:min(680px,96%)}
-.pitanjeP.duga{font-size:24px;line-height:1.35}
-.pitanjeP.jakoDuga{font-size:19px;line-height:1.45}
-.pitanjeP u{text-decoration:none;border-bottom:4px solid var(--zut);padding:0 4px}
-.etapaTrak{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-bottom:2px}
-.etapaTrak span{font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;
-  border:2px solid var(--tinta);border-radius:999px;padding:2px 10px;background:#fff;opacity:.45}
-.etapaTrak span.sad{background:var(--zut);opacity:1}
-.etapaTrak span.ok{background:var(--zelena);color:#fff;opacity:1}
-.pitanjeP small{display:block;font-size:13px;color:var(--meko);font-weight:600;letter-spacing:.8px;
-  text-transform:uppercase;margin-bottom:6px}
-.odgovoriP{display:grid;grid-template-columns:repeat(2,minmax(140px,200px));gap:10px}
-.odgovoriP button{font-size:17px;padding:16px 10px}
-.napredakP{display:flex;gap:4px;flex-wrap:wrap;justify-content:center;width:min(520px,96%)}
-.napredakP i{width:16px;height:16px;border-radius:4px;border:2px solid var(--tinta);background:#fff;display:block}
-.napredakP i.ok{background:var(--zelena)}
-.svladane{margin-top:10px;font-size:13px;text-align:left;max-height:180px;overflow:auto}
-.svladane b{display:block;margin-bottom:4px}
-.svladane span{display:inline-block;background:#fff;border:2px solid var(--tinta);border-radius:999px;
-  padding:1px 9px;margin:2px;font-weight:700}
-.svladane span.pao{background:#FBDCD5}
+#platno{image-rendering:pixelated;width:100%;max-width:768px;height:auto;display:block;margin:0 auto;
+  border:var(--crta);border-radius:14px;background:#BFE3A8}
+.gradOmot{display:flex;flex-direction:column;gap:10px;align-items:center}
+.zadatakTraka{width:100%;background:var(--papir2);border:2px solid var(--tinta);border-radius:12px;
+  padding:8px 14px;font-size:14px;font-weight:700;display:flex;gap:10px;align-items:center}
+.zadatakTraka .oznaka{background:var(--zut);border:2px solid var(--tinta);border-radius:8px;padding:1px 8px;font-size:12px}
+.dpad{display:grid;grid-template-columns:repeat(3,56px);grid-template-rows:repeat(3,56px);gap:6px}
+.dpad button{font-size:22px;border:var(--crta);border-radius:12px;background:#fff;box-shadow:0 3px 0 var(--tinta);cursor:pointer}
+.dpad button:active{transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
+.dpad .prazno{visibility:hidden}
+.dpad .akcija{background:var(--zut);font-size:15px;font-weight:800}
+.prica{position:absolute;left:14px;right:14px;bottom:14px;background:#fff;border:var(--crta);
+  border-radius:16px;box-shadow:var(--sjena);padding:14px 16px;z-index:20}
+.prica .tko{font-weight:800;font-size:13px;color:var(--koralj);text-transform:uppercase;letter-spacing:.6px}
+.prica .rec{font-size:18px;margin:6px 0 4px;line-height:1.4}
+.prica .prijevod{font-size:13px;color:var(--meko);font-style:italic}
+.prica .odabir{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.prica .odabir button{text-align:left;font-size:15px}
+.roba{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+.roba button{display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px;font-size:13px}
 
 
 /* ---- skriveni prijevod: otkriva se klikom ---- */
@@ -150,7 +145,7 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <body>
 <div class="omot" id="omot"></div>
 <script>
-window.IGRA_ID = "prezivljavanje";
+window.IGRA_ID = "grad";
 window.IGRA_MAKS = 100;
 
 /* =========================================================================
@@ -493,323 +488,756 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Preživljavanje — pet etapa pod satom, pa beskonačni način
-   Mehanika: 60 točnih kroz 5 vrsta zadataka (riječi u oba smjera, slike,
-             rečenice s prazninom, prijevod rečenica); 3 srca, sat se steže.
-             Nakon 60 otvara se beskonačni način bez gornje granice.
+   Grad — RPG · questovi na hrvatskom
+   Mehanika: hodanje po gradu, NPC dijalozi, 5 questova (kupovina, dostava, kviz, dijalog)
    Maksimum (skriveno od igrača): 100 bodova × 4 valute
    ===================================================================== */
 
-var ETAPE = [
-  {id:'en-hr',    ime:'Words',     opis:'english → croatian',        broj:12, sat:9.0,  raz:1},
-  {id:'hr-en',    ime:'Reverse',   opis:'croatian → english',        broj:12, sat:8.0,  raz:2},
-  {id:'slika',    ime:'Pictures',  opis:'picture → croatian word',   broj:12, sat:8.0,  raz:3},
-  {id:'praznina', ime:'Sentences', opis:'fill in the sentence',      broj:12, sat:11.0, raz:4},
-  {id:'prijevod', ime:'Translation', opis:'croatian → english',      broj:12, sat:12.0, raz:5}
-];
-var CILJ = ETAPE.reduce(function(a,e){ return a + e.broj; }, 0);
-
-var S = {
-  etapa:0, uEtapi:0, tocno:0, srca:3, sat:null, preostalo:0, maksSat:9,
-  svladane:[], promasene:[], radi:true, bez:false, niz:0, najNiz:0, bezTocno:0
-};
-
 var O = CL.el('omot');
+
+/* ---------------- karta ---------------- */
+var MAPA = [
+'########################',
+'#....TT......TT........#',
+'#..1111..2222..3333....#',
+'#..1a11..2b22..3c33....#',
+'#......................#',
+'#...T..............T...#',
+'#..4444.........5555...#',
+'#..4d44.........5e55...#',
+'#......................#',
+'#~~~~~~....TT....~~~~~~#',
+'#~~~~~~..........~~~~~~#',
+'#......................#',
+'#..6666.......7777.....#',
+'#..6f66.......7g77.....#',
+'#......................#',
+'#....TT.....TT.....TT..#',
+'#......................#',
+'########################'
+];
+var ZGRADE = {
+  a:{ime:'Pekara',   en:'bakery',      emo:'🥖', boja:'#E8B96A'},
+  b:{ime:'Tržnica',  en:'market',      emo:'🏪', boja:'#8FCB7A'},
+  c:{ime:'Kafić',    en:'café',        emo:'☕', boja:'#C89B72'},
+  d:{ime:'Pošta',    en:'post office', emo:'📮', boja:'#E88A8A'},
+  e:{ime:'Škola',    en:'school',      emo:'🏫', boja:'#8FB8E8'},
+  f:{ime:'Kino',     en:'cinema',      emo:'🎬', boja:'#B79BE0'},
+  g:{ime:'Muzej',    en:'museum',      emo:'🏛', boja:'#D8CBA6'}
+};
+var ZID = '#123456789';
+var VODA = '~';
+
+/* ---------------- likovi ---------------- */
+var LIKOVI = [
+  {id:'baka',    ime:'Grandma Mara', emo:'👵', x:6,  y:5},
+  {id:'konobar', ime:'Ivo the Waiter', emo:'🧑‍🍳', x:18, y:4},
+  {id:'postar',  ime:'Zoran the Postman', emo:'📬', x:5,  y:8},
+  {id:'turist',  ime:'Ema the Tourist', emo:'🧳', x:16, y:11},
+  {id:'djecak',  ime:'Luka the Boy', emo:'👦', x:11, y:14},
+  {id:'kuharica',  ime:'Jela the Cook',      emo:'👩‍🍳', x:20, y:8},
+  {id:'ucitelj',   ime:'Damir the Teacher',  emo:'👨‍🏫', x:3,  y:11},
+  {id:'vozac',     ime:'Slaven the Driver',  emo:'🧑‍✈️', x:21, y:14},
+  {id:'lijecnica', ime:'Doctor Petra',       emo:'👩‍⚕️', x:2,  y:16},
+  {id:'knjiznicar',ime:'Bruno the Librarian', emo:'🧙',   x:13, y:4}
+];
+
+/* ---------------- zadaci (5 × 20 bodova) ---------------- */
+var ZADACI = [
+  {
+    id:'kruh', lik:'baka', vrata:'a', bodovi:7,
+    uvod:['Dobar dan! Ja sam baka Mara.','Good day! I am grandma Mara.'],
+    nalog:['Idi u pekaru i kupi kruh, molim te.','Go to the bakery and buy bread, please.'],
+    podsjetnik:'Buy bread at the bakery.',
+    kraj:['Hvala! Ovo je svjež kruh.','Thank you! This bread is fresh.'],
+    tip:'kupovina', trazi:['kruh'], ometaci:['sir','torta','kolac','pizza','jaje']
+  },
+  {
+    id:'kava', lik:'konobar', vrata:'b', bodovi:7,
+    uvod:['Bok! Radim u kafiću.','Hi! I work at the café.'],
+    nalog:['Trebam mlijeko i šećer s tržnice.','I need milk and sugar from the market.'],
+    podsjetnik:'Bring milk and sugar from the market.',
+    kraj:['Super! Sada mogu skuhati kavu.','Great! Now I can make the coffee.'],
+    tip:'kupovina', trazi:['mlijeko','secer'], ometaci:['sol','sok','vino','caj']
+  },
+  {
+    id:'pismo', lik:'postar', vrata:'e', bodovi:7,
+    uvod:['Ja sam poštar. Danas imam puno posla.','I am the postman. I have a lot of work today.'],
+    nalog:['Odnesi ovo pismo u školu.','Take this letter to the school.'],
+    podsjetnik:'Take the letter to the school (🏫).',
+    kraj:['Pismo je stiglo. Hvala!','The letter arrived. Thank you!'],
+    tip:'dostava'
+  },
+  {
+    id:'muzej', lik:'turist', vrata:'g', bodovi:7,
+    uvod:['Oprostite, ja sam turistkinja.','Excuse me, I am a tourist.'],
+    nalog:['Ne razumijem natpise u muzeju. Pomozi mi!','I do not understand the museum labels. Help me!'],
+    podsjetnik:'Go to the museum and translate the labels.',
+    kraj:['Sada razumijem sve! Hvala!','Now I understand everything! Thank you!'],
+    tip:'kviz', pitanja:['slika','zvijezda','more','knjiga','sunce']
+  },
+  {
+    id:'kino', lik:'djecak', vrata:'f', bodovi:7,
+    uvod:['Bok! Ja sam Luka.','Hi! I am Luka.'],
+    nalog:['Idem u kino, ali ne znam što reći na blagajni.','I am going to the cinema but I do not know what to say at the counter.'],
+    podsjetnik:'Go to the cinema and handle the talk at the counter.',
+    kraj:['Bio si odličan! Idemo gledati film.','You were great! Let us go watch the film.'],
+    tip:'dijalog',
+    linije:[
+      {tko:'Blagajnica', rec:'Dobar dan! Izvolite?', pr:'Good day! How can I help you?',
+       izbori:[['Dobar dan! Jednu kartu, molim.',true],['Dobar dan! Jedan kruh, molim.',false],['Doviđenja!',false]]},
+      {tko:'Blagajnica', rec:'Koji film gledate?', pr:'Which film are you watching?',
+       izbori:[['Gledam komediju.',true],['Pijem kavu.',false],['Ja sam film.',false]]},
+      {tko:'Blagajnica', rec:'To je osam eura.', pr:'That is eight euros.',
+       izbori:[['Izvolite. Hvala!',true],['Ne znam.',false],['Osam sati.',false]]}
+    ]
+  },
+
+  /* ---- drugi dio grada ---- */
+  {
+    id:'kuhinja', lik:'kuharica', vrata:'b', bodovi:7,
+    uvod:['Ja sam Jela, kuham u konobi.','I am Jela, I cook at the tavern.'],
+    nalog:['Na tržnici mi se sve pomiješalo. Razvrstaj robu po vrstama.','Everything got mixed up at the market. Sort the goods by kind.'],
+    podsjetnik:'Sort the goods at the market by kind.',
+    kraj:['Sad je sve na svom mjestu. Hvala!','Now everything is in its place. Thank you!'],
+    tip:'razvrstaj'
+  },
+  {
+    id:'zadaca', lik:'ucitelj', vrata:'e', bodovi:7,
+    uvod:['Ja predajem hrvatski u školi.','I teach Croatian at the school.'],
+    nalog:['Iz zadaće su ispale riječi. Vrati ih u rečenice.','Words fell out of the homework. Put them back into the sentences.'],
+    podsjetnik:'Go to the school and complete the sentences.',
+    kraj:['Odlično! Sad zadaća ima smisla.','Excellent! Now the homework makes sense.'],
+    tip:'praznina', koliko:5
+  },
+  {
+    id:'razglednice', lik:'turist', vrata:'c', bodovi:7,
+    uvod:['Opet ja! Pišem razglednice kući.','Me again! I am writing postcards home.'],
+    nalog:['Prevedi mi ove rečenice, molim te.','Translate these sentences for me, please.'],
+    podsjetnik:'Go to the café and translate the sentences.',
+    kraj:['Sve je jasno. Hvala ti!','It is all clear. Thank you!'],
+    tip:'recenica', koliko:5
+  },
+  {
+    id:'adrese', lik:'postar', vrata:'d', bodovi:7,
+    uvod:['Opet posao za tebe.','Work for you again.'],
+    nalog:['Na paketima se izbrisalo ime robe. Napiši ga na hrvatskom.','The names of the goods got erased. Write them in Croatian.',],
+    podsjetnik:'Go to the post office and write the names on the parcels.',
+    kraj:['Paketi mogu dalje. Hvala!','The parcels can go on. Thank you!'],
+    tip:'upis', koliko:4
+  },
+  {
+    id:'katalog', lik:'knjiznicar', vrata:'g', bodovi:7,
+    uvod:['Vodim katalog muzeja.','I keep the museum catalogue.'],
+    nalog:['Svaki natpis ima svoju suprotnost. Nađi je.','Every label has its opposite. Find it.'],
+    podsjetnik:'Go to the museum and find the opposites.',
+    kraj:['Katalog je potpun!','The catalogue is complete!'],
+    tip:'suprotno', koliko:6
+  },
+  {
+    id:'dorucak', lik:'kuharica', vrata:'a', bodovi:6,
+    uvod:['Trebam još nešto za doručak.','I need a few more things for breakfast.'],
+    nalog:['Kupi u pekari kruh, sir i jaje.','Buy bread, cheese and an egg at the bakery.'],
+    podsjetnik:'Buy bread, cheese and an egg at the bakery.',
+    kraj:['Doručak je spreman!','Breakfast is ready!'],
+    tip:'kupovina', trazi:['kruh','sir','jaje'], ometaci:['torta','kolac','pizza','sol','med','sok']
+  },
+  {
+    id:'karta', lik:'vozac', vrata:'b', bodovi:6,
+    uvod:['Vozim autobus po gradu.','I drive the city bus.'],
+    nalog:['Napiši mi imena stanica na hrvatskom.','Write me the names of the stops in Croatian.'],
+    podsjetnik:'Go to the market and write the words in Croatian.',
+    kraj:['Sad znam gdje stajem. Hvala!','Now I know where I stop. Thank you!'],
+    tip:'upis', koliko:4
+  },
+  {
+    id:'ispit', lik:'ucitelj', vrata:'e', bodovi:6,
+    uvod:['Sutra imamo mali ispit.','Tomorrow we have a small test.'],
+    nalog:['Provjeri znaš li značenja ovih riječi.','Check whether you know the meanings of these words.'],
+    podsjetnik:'Go to the school and take the little test.',
+    kraj:['Prošao si! Bravo.','You passed! Well done.'],
+    tip:'kviz', koliko:6
+  },
+  {
+    id:'premijera', lik:'djecak', vrata:'f', bodovi:6,
+    uvod:['Večeras je premijera u kinu!','Tonight is the premiere at the cinema!'],
+    nalog:['Ovaj put razgovaraj s razvodnikom.','This time talk to the usher.'],
+    podsjetnik:'Go to the cinema and talk to the usher.',
+    kraj:['Sjedimo u prvom redu. Idemo!','We are sitting in the front row. Let us go!'],
+    tip:'dijalog',
+    linije:[
+      {tko:'Razvodnik', rec:'Dobra večer! Imate li kartu?', pr:'Good evening! Do you have a ticket?',
+       izbori:[['Dobra večer! Evo karte.',true],['Dobra večer! Evo kruha.',false],['Ne, ja sam karta.',false]]},
+      {tko:'Razvodnik', rec:'Vaše mjesto je u prvom redu.', pr:'Your seat is in the front row.',
+       izbori:[['Hvala, gdje je to?',true],['Ja sam prvi red.',false],['Ne volim mjesto.',false]]},
+      {tko:'Razvodnik', rec:'Lijevo, pa ravno do kraja.', pr:'Left, then straight to the end.',
+       izbori:[['Razumijem, hvala vam!',true],['Desno i natrag?',false],['To je osam eura.',false]]},
+      {tko:'Razvodnik', rec:'Uživajte u filmu!', pr:'Enjoy the film!',
+       izbori:[['Hvala, i vama ugodnu večer!',true],['Ne razumijem film.',false],['Doviđenja jučer.',false]]}
+    ]
+  },
+  {
+    id:'pregled', lik:'lijecnica', vrata:'g', bodovi:6,
+    uvod:['Ja sam Petra, radim u ambulanti.','I am Petra, I work at the clinic.'],
+    nalog:['Zadnja provjera: sve odjednom, u muzeju.','A final check: everything at once, at the museum.'],
+    podsjetnik:'Go to the museum for the final check.',
+    kraj:['Zdrav si i znaš hrvatski. Grad je tvoj!','You are healthy and you know Croatian. The city is yours!'],
+    tip:'zavrsni'
+  }
+];
+
+/* ---------------- stanje ---------------- */
+var S = {x:11, y:16, smjer:'d', zadatak:0, gotovi:{}, bodovi:0, nosi:[], korak:0,
+         bez:false, bezZadataka:0};
+var T = 32, ROW = MAPA[0].length, COL = MAPA.length;
+/* vidno polje (u pločicama) — manje = veći zum na igrača */
+var VID_W = Math.min(ROW, 13), VID_H = Math.min(COL, 9);
+var kam = {x:0, y:0};          // trenutni pomak kamere u pikselima
+var kamAnim = null;
+
+MAPA.forEach(function(r,i){ if(r.length!==ROW) console.warn('redak '+i+' ima '+r.length+' znakova'); });
+
+/* ---------------- sučelje ---------------- */
+document.body.appendChild(Object.assign(document.createElement('div'),{}));
 O.appendChild(CL.hud({
-  ime:'Survival (Preživljavanje)', podnaslov:'five stages · ' + CILJ + ' correct · then endless',
-  znakovi:[
-    {id:'zEtapa', html:'🎯 <b>1</b>/5'},
-    {id:'zNiz', html:'✅ <b>0</b>/' + CILJ},
-    {id:'zSrca', klasa:'srca', html:CL.srca(3)},
-    {id:'zSat', html:'⏱ <b>9.0</b>'}
-  ]
+  ime:'City (Grad)', podnaslov:'RPG · quests in Croatian',
+  znakovi:[{id:'zBod', html:'⭐ <b>0</b>'},{id:'zQ', html:'📜 0/5'}]
 }));
 var ploha = document.createElement('div');
-ploha.className='ploha';
+ploha.className = 'ploha';
 ploha.innerHTML =
-  '<div class="etapaTrak" id="etapaTrak"></div>' +
-  '<div class="napredakP" id="napredakP"></div>' +
-  '<div class="prezOmot">' +
-    '<div class="satPrez"><i id="satI"></i></div>' +
-    '<div class="pitanjeP" id="pit"></div>' +
-    '<div class="odgovoriP" id="odg"></div>' +
-  '</div>';
+  '<div class="zadatakTraka"><span class="oznaka">TASK</span><span id="zadTekst">Talk to the people around town (walk up and press space or the ✋ button).</span></div>' +
+  '<div class="gradOmot">' +
+  '<canvas id="platno" width="' + (VID_W*T) + '" height="' + (VID_H*T) + '"></canvas>' +
+  '<div class="dpad">' +
+    '<span class="prazno"></span><button data-s="u">▲</button><span class="prazno"></span>' +
+    '<button data-s="l">◀</button><button class="akcija" data-s="x">✋</button><button data-s="r">▶</button>' +
+    '<span class="prazno"></span><button data-s="d">▼</button><span class="prazno"></span>' +
+  '</div></div>';
 O.appendChild(ploha);
 
-/* rječnik svladanih se pamti između sesija */
-function rjecnik(){ var st = CL.stanje(); return st.rjecnik || {}; }
-function upisiURjecnik(r, dobro){
-  if (!r || !r.id) return;
-  var st = CL.stanje();
-  st.rjecnik = st.rjecnik || {};
-  var e = st.rjecnik[r.id] || {hr:r.hr, en:r.en, tocno:0, krivo:0};
-  if (dobro) e.tocno++; else e.krivo++;
-  st.rjecnik[r.id] = e;
-  CL.spremi(st);
-  CL.ucenje(r.id, dobro);
+var C = CL.el('platno'), G = C.getContext('2d');
+
+/* ---------------- kamera ---------------- */
+function stegni(v, min, max){ return v < min ? min : (v > max ? max : v); }
+function ciljKamere(){
+  return {
+    x: stegni(S.x*T + T/2 - C.width/2,  0, Math.max(0, ROW*T - C.width)),
+    y: stegni(S.y*T + T/2 - C.height/2, 0, Math.max(0, COL*T - C.height))
+  };
+}
+function namjestiKameru(odmah){
+  var c = ciljKamere();
+  if (odmah){ kam.x = c.x; kam.y = c.y; if(kamAnim){ cancelAnimationFrame(kamAnim); kamAnim=null; } crtaj(); return; }
+  if (kamAnim) return;                       // animacija već trči, sama gađa novi cilj
+  kamAnim = requestAnimationFrame(function korakKamere(){
+    var c = ciljKamere();
+    kam.x += (c.x - kam.x) * 0.22;
+    kam.y += (c.y - kam.y) * 0.22;
+    if (Math.abs(c.x - kam.x) < 0.5 && Math.abs(c.y - kam.y) < 0.5){
+      kam.x = c.x; kam.y = c.y; kamAnim = null; crtaj(); return;
+    }
+    crtaj();
+    kamAnim = requestAnimationFrame(korakKamere);
+  });
 }
 
-function crtajTrak(){
-  CL.el('etapaTrak').innerHTML = ETAPE.map(function(e,i){
-    var k = S.bez ? 'ok' : (i < S.etapa ? 'ok' : (i === S.etapa ? 'sad' : ''));
-    return '<span class="' + k + '">' + CL.esc(e.ime) + '</span>';
-  }).join('') + (S.bez ? '<span class="sad">Endless</span>' : '');
+function znak(x,y){ if(y<0||y>=COL||x<0||x>=ROW) return '#'; return MAPA[y][x]; }
+function prohodno(x,y){
+  var z = znak(x,y);
+  if (ZID.indexOf(z) >= 0) return false;
+  if (z === VODA) return false;
+  return true;
+}
+function likNa(x,y){
+  for (var i=0;i<LIKOVI.length;i++) if (LIKOVI[i].x===x && LIKOVI[i].y===y) return LIKOVI[i];
+  return null;
 }
 
-function crtajNapredak(){
-  if (S.bez){
-    CL.el('napredakP').innerHTML = '';
-    return;
+/* ---------------- crtanje ---------------- */
+function crtaj(){
+  G.clearRect(0,0,C.width,C.height);
+  G.save();
+  G.translate(-Math.round(kam.x), -Math.round(kam.y));
+  var x0 = Math.max(0, Math.floor(kam.x/T) - 1), x1 = Math.min(ROW, Math.ceil((kam.x + C.width)/T) + 1);
+  var y0 = Math.max(0, Math.floor(kam.y/T) - 1), y1 = Math.min(COL, Math.ceil((kam.y + C.height)/T) + 1);
+  for (var y=y0;y<y1;y++) for (var x=x0;x<x1;x++){
+    var z = znak(x,y), px = x*T, py = y*T;
+    // podloga
+    G.fillStyle = (x+y)%2 ? '#BFE3A8' : '#B7DDA0';
+    G.fillRect(px,py,T,T);
+    if (z === VODA){ G.fillStyle = (x+y)%2 ? '#7EC8E3' : '#74BEDC'; G.fillRect(px,py,T,T); }
+    if (z === '#'){ G.fillStyle = '#6E5B48'; G.fillRect(px,py,T,T); }
+    if (/[1-7]/.test(z)){
+      var kljucevi = {1:'a',2:'b',3:'c',4:'d',5:'e',6:'f',7:'g'};
+      var zg = ZGRADE[kljucevi[z]];
+      G.fillStyle = zg.boja; G.fillRect(px,py,T,T);
+      G.strokeStyle = 'rgba(43,33,24,.25)'; G.lineWidth = 1; G.strokeRect(px+.5,py+.5,T-1,T-1);
+    }
+    if (ZGRADE[z]){
+      G.fillStyle = ZGRADE[z].boja; G.fillRect(px,py,T,T);
+      G.fillStyle = '#4A3826'; G.fillRect(px+6,py+8,T-12,T-8);
+      G.font = '18px serif'; G.textAlign='center'; G.textBaseline='middle';
+      G.fillText(ZGRADE[z].emo, px+T/2, py+T/2+2);
+    }
+    if (z === 'T'){ G.font = (T-6)+'px serif'; G.textAlign='center'; G.textBaseline='middle';
+      G.fillText('🌳', px+T/2, py+T/2+2); }
   }
-  var e = ETAPE[S.etapa], h = '';
-  for (var i=0;i<e.broj;i++) h += '<i class="' + (i < S.uEtapi ? 'ok' : '') + '"></i>';
-  CL.el('napredakP').innerHTML = h;
+  // natpisi zgrada
+  G.font = 'bold 10px system-ui'; G.textAlign='center'; G.textBaseline='middle';
+  for (var k in ZGRADE){
+    for (var yy=0;yy<COL;yy++){ var xx = MAPA[yy].indexOf(k);
+      if (xx>=0){
+        G.fillStyle='rgba(255,255,255,.85)';
+        G.fillRect(xx*T-14, yy*T-16, T+28, 13);
+        G.fillStyle='#2B2118';
+        G.fillText(ZGRADE[k].ime, xx*T+T/2, yy*T-9);
+      } }
+  }
+  // likovi
+  G.font = (T-8)+'px serif'; G.textAlign='center'; G.textBaseline='middle';
+  LIKOVI.forEach(function(l){
+    G.fillText(l.emo, l.x*T+T/2, l.y*T+T/2+2);
+    if (trebaLik(l.id)){
+      G.font='16px serif'; G.fillText('❗', l.x*T+T/2+11, l.y*T+T/2-12); G.font=(T-8)+'px serif';
+    }
+  });
+  // igrač
+  var sk = {u:'🧍',d:'🧍',l:'🚶',r:'🚶'}[S.smjer] || '🧍';
+  G.fillText(sk, S.x*T+T/2, S.y*T+T/2+2);
+  G.restore();
 }
 
-function osvjezi(){
-  CL.el('zEtapa').innerHTML = S.bez ? '♾ <b>endless</b>' : '🎯 <b>' + (S.etapa+1) + '</b>/5';
-  CL.el('zNiz').innerHTML = S.bez
-    ? '🔥 <b>' + S.niz + '</b> in a row'
-    : '✅ <b>' + S.tocno + '</b>/' + CILJ;
-  CL.el('zSrca').innerHTML = CL.srca(S.srca);
-  CL.el('zSat').innerHTML = '⏱ <b>' + S.preostalo.toFixed(1) + '</b>';
-  crtajTrak(); crtajNapredak();
+function trebaLik(id){
+  var z = ZADACI[S.zadatak];
+  return z && z.lik === id && !S.gotovi[z.id];
 }
 
-function trajanje(){
-  var e = ETAPE[S.bez ? CL.cijeli(ETAPE.length) : S.etapa];
-  if (S.bez) return Math.max(4, 8 - Math.min(30, S.bezTocno) * 0.12);
-  return Math.max(4.5, e.sat - S.uEtapi * 0.25);
+/* ---------------- kretanje ---------------- */
+function pomak(dx,dy,smjer){
+  if (razgovorOtvoren()) return;
+  S.smjer = smjer;
+  var nx = S.x+dx, ny = S.y+dy;
+  if (!prohodno(nx,ny) || likNa(nx,ny)) { crtaj(); return; }
+  S.x = nx; S.y = ny; S.korak++;
+  namjestiKameru();
+  var z = znak(nx,ny);
+  if (ZGRADE[z]) usaoUZgradu(z);
+}
+function akcija(){
+  if (razgovorOtvoren()) return;
+  var d = {u:[0,-1],d:[0,1],l:[-1,0],r:[1,0]}[S.smjer];
+  var l = likNa(S.x+d[0], S.y+d[1]) || likNa(S.x,S.y-1) || likNa(S.x,S.y+1) || likNa(S.x-1,S.y) || likNa(S.x+1,S.y);
+  if (l) return razgovor(l);
+  var z = znak(S.x,S.y);
+  if (ZGRADE[z]) return usaoUZgradu(z);
+  CL.poruka('Nobody here. Walk up to a character marked ❗');
 }
 
-/* ---------- generatori pitanja ---------- */
+document.addEventListener('keydown', function(e){
+  var k = e.key;
+  if (['ArrowUp','w','W'].indexOf(k)>=0){ e.preventDefault(); pomak(0,-1,'u'); }
+  else if (['ArrowDown','s','S'].indexOf(k)>=0){ e.preventDefault(); pomak(0,1,'d'); }
+  else if (['ArrowLeft','a','A'].indexOf(k)>=0){ e.preventDefault(); pomak(-1,0,'l'); }
+  else if (['ArrowRight','d','D'].indexOf(k)>=0){ e.preventDefault(); pomak(1,0,'r'); }
+  else if (k===' '||k==='Enter'||k==='e'||k==='E'){ e.preventDefault(); akcija(); }
+});
+ploha.querySelector('.dpad').addEventListener('click', function(e){
+  var b = e.target.closest('button'); if(!b) return;
+  ({u:function(){pomak(0,-1,'u');}, d:function(){pomak(0,1,'d');},
+    l:function(){pomak(-1,0,'l');}, r:function(){pomak(1,0,'r');}, x:akcija})[b.dataset.s]();
+});
 
-function novaRijec(filtar){
-  var vec = S.svladane.map(function(x){ return x.id; });
-  var fond = CL.svjezeRijeci(40, filtar).filter(function(r){ return vec.indexOf(r.id) < 0; });
-  if (!fond.length) fond = filtar ? CL.BANKA.filter(filtar) : CL.BANKA;
-  return CL.rand(fond);
-}
-function ometaci(r, n){
-  var isti = CL.BANKA.filter(function(x){ return x.id !== r.id && x.kat === r.kat; });
-  var k = CL.uzmi(isti, n);
-  if (k.length < n) k = k.concat(CL.uzmi(CL.BANKA.filter(function(x){
-    return x.id !== r.id && k.indexOf(x) < 0;
-  }), n - k.length));
-  return k;
-}
-
-function pitanjeEnHr(){
-  var r = novaRijec();
-  return {
-    rijec:r, klasa:'',
-    html:'<small>english → croatian</small>' + CL.esc(r.en),
-    opcije: CL.mix([{t:r.hr, ok:true}].concat(ometaci(r,3).map(function(x){ return {t:x.hr}; })))
-  };
-}
-function pitanjeHrEn(){
-  var r = novaRijec();
-  return {
-    rijec:r, klasa:'',
-    html:'<small>croatian → english</small>' + CL.esc(r.hr),
-    opcije: CL.mix([{t:r.en, ok:true}].concat(ometaci(r,3).map(function(x){ return {t:x.en}; })))
-  };
-}
-function pitanjeSlika(){
-  var r = novaRijec(function(x){ return ['glagol','pridjev','prilog','broj'].indexOf(x.kat) < 0; });
-  return {
-    rijec:r, klasa:'',
-    html:'<small>what is this?</small>' + CL.slikaRijeci(r, 120),
-    opcije: CL.mix([{t:r.hr, ok:true}].concat(ometaci(r,3).map(function(x){ return {t:x.hr}; })))
-  };
-}
-function pitanjePraznina(){
-  var raz = S.bez ? 1 + CL.cijeli(5) : ETAPE[S.etapa].raz;
-  var p = CL.praznina(raz, true) || CL.praznina(0);
-  return {
-    rijec:null, klasa:'duga',
-    html:'<small>' + CL.skritEN(p[1]) + '</small>' + CL.esc(p[0]).replace('___','<u>&nbsp;?&nbsp;</u>'),
-    opcije: CL.mix([{t:p[2], ok:true},{t:p[3]},{t:p[4]}])
-  };
-}
-function pitanjePrijevod(){
-  var raz = S.bez ? 1 + CL.cijeli(5) : ETAPE[S.etapa].raz;
-  var fond = CL.recenice(raz, true);
-  var r = CL.rand(fond);
-  var krivi = CL.uzmi(fond.filter(function(x){ return x[0] !== r[0]; }), 3);
-  return {
-    rijec:null, klasa:'jakoDuga',
-    html:'<small>what does this mean?</small>' + CL.esc(r[0]),
-    opcije: CL.mix([{t:r[1], ok:true}].concat(krivi.map(function(x){ return {t:x[1]}; })))
-  };
-}
-
-var GENERATORI = {
-  'en-hr':pitanjeEnHr, 'hr-en':pitanjeHrEn, 'slika':pitanjeSlika,
-  'praznina':pitanjePraznina, 'prijevod':pitanjePrijevod
-};
-
-/* ---------- tijek ---------- */
-
-function pitanje(){
-  if (!S.radi) return;
-  var vrsta = S.bez ? CL.rand(ETAPE).id : ETAPE[S.etapa].id;
-  var q = GENERATORI[vrsta]();
-  S.q = q;
-
-  var pit = CL.el('pit');
-  pit.className = 'pitanjeP ' + (q.klasa || '');
-  pit.innerHTML = q.html;
-
-  var el = CL.el('odg'); el.innerHTML = '';
-  el.style.gridTemplateColumns = q.opcije.length === 3
-    ? 'repeat(1,minmax(220px,420px))' : 'repeat(2,minmax(140px,220px))';
-  q.opcije.forEach(function(o){
+/* ---------------- razgovor ---------------- */
+function razgovorOtvoren(){ return !!document.querySelector('.prica'); }
+function zatvoriPricu(){ var p = document.querySelector('.prica'); if(p) p.remove(); crtaj(); }
+function prica(tko, rec, pr, izbori, skrijPr){
+  zatvoriPricu();
+  var d = document.createElement('div');
+  d.className = 'prica blijedi';
+  d.innerHTML = '<div class="tko">' + CL.esc(tko) + '</div>' +
+    '<div class="rec">' + CL.esc(rec) + '</div>' +
+    '<div class="prijevod">' + (skrijPr ? CL.skritEN(pr) : (/<button/.test(pr||'') ? pr : CL.esc(pr||''))) + '</div>' +
+    '<div class="odabir"></div>';
+  var o = d.querySelector('.odabir');
+  (izbori||[['Next ›', null]]).forEach(function(iz,i){
     var b = document.createElement('button');
-    b.className='g'; b.textContent = o.t;
-    b.onclick = function(){ odgovori(q, o, b); };
-    el.appendChild(b);
+    b.className = 'g'; b.textContent = iz[0];
+    b.onclick = function(){ if (iz[1]) iz[1](); else zatvoriPricu(); };
+    o.appendChild(b);
   });
-
-  S.maksSat = trajanje();
-  S.preostalo = S.maksSat;
-  clearInterval(S.sat);
-  S.sat = setInterval(function(){
-    S.preostalo -= 0.1;
-    if (S.preostalo <= 0){ S.preostalo = 0; clearInterval(S.sat); istek(q); return; }
-    CL.el('satI').style.width = (S.preostalo / S.maksSat * 100) + '%';
-    CL.el('satI').style.background = S.preostalo < S.maksSat*0.3 ? 'var(--koralj)'
-      : S.preostalo < S.maksSat*0.6 ? 'var(--zut)' : 'var(--zelena)';
-    CL.el('zSat').innerHTML = '⏱ <b>' + S.preostalo.toFixed(1) + '</b>';
-  }, 100);
-  osvjezi();
+  ploha.appendChild(d);
+  return d;
 }
 
-function zakljucaj(){
-  Array.prototype.forEach.call(CL.el('odg').children, function(c){ c.disabled = true; });
-}
-function pokaziTocan(q){
-  Array.prototype.forEach.call(CL.el('odg').children, function(c, i){
-    if (q.opcije[i] && q.opcije[i].ok) c.classList.add('tocno');
-  });
-}
-
-function odgovori(q, o, b){
-  clearInterval(S.sat); zakljucaj();
-  if (o.ok){
-    b.classList.add('tocno');
-    CL.pip(true);
-    if (q.rijec) CL.zvukRijeci(q.rijec);
-    S.tocno++; S.niz++; if (S.niz > S.najNiz) S.najNiz = S.niz;
-    if (S.bez) S.bezTocno++; else S.uEtapi++;
-    if (q.rijec){ S.svladane.push(q.rijec); upisiURjecnik(q.rijec, true); }
-    osvjezi();
-    if (!S.bez && S.uEtapi >= ETAPE[S.etapa].broj) return setTimeout(krajEtape, 500);
-    setTimeout(pitanje, 380);
-  } else {
-    b.classList.add('krivo'); pokaziTocan(q);
-    CL.pip(false);
-    S.srca--; S.niz = 0;
-    if (q.rijec){ S.promasene.push(q.rijec); upisiURjecnik(q.rijec, false); }
-    osvjezi();
-    if (S.srca <= 0) return setTimeout(poraz, 900);
-    setTimeout(pitanje, 1100);
+function razgovor(l){
+  var z = ZADACI[S.zadatak];
+  if (!z || z.lik !== l.id || S.gotovi[z.id]){
+    var mala = {
+      baka:['Danas je lijep dan.','It is a beautiful day today.'],
+      konobar:['Kava je uvijek topla.','The coffee is always warm.'],
+      postar:['Pisma, paketi, novine — sve nosim.','Letters, packages, newspapers — I carry it all.'],
+      turist:['Ovaj grad je prekrasan!','This city is beautiful!'],
+      djecak:['Volim nogomet i filmove.','I love football and films.']
+    }[l.id];
+    return prica(l.ime, mala[0], mala[1], null, true);
   }
+  if (!z.pokrenut){
+    return prica(l.ime, z.uvod[0], z.uvod[1], [['Next ›', function(){
+      prica(l.ime, z.nalog[0], z.nalog[1], [['Može! (Sure!)', function(){
+        z.pokrenut = true; S.nosi = [];
+        osvjezi(); zatvoriPricu();
+        CL.poruka('New task: ' + z.podsjetnik);
+      }],['Nemam vremena. (No time.)', function(){ zatvoriPricu(); }]], true);
+    }]], true);
+  }
+  if (zadovoljen(z)) return zavrsi(z, l);
+  return prica(l.ime, z.nalog[0], z.nalog[1], [['Idem odmah! (On my way!)', null]], true);
 }
 
-function istek(q){
-  zakljucaj(); pokaziTocan(q);
-  CL.pip(false); S.srca--; S.niz = 0;
-  if (q.rijec){ S.promasene.push(q.rijec); upisiURjecnik(q.rijec, false); }
-  CL.poruka('Time is up.', 'lose');
-  osvjezi();
-  if (S.srca <= 0) return setTimeout(poraz, 900);
-  setTimeout(pitanje, 1100);
+function zadovoljen(z){
+  if (z.tip === 'kupovina') return z.trazi.every(function(t){ return S.nosi.indexOf(t)>=0; });
+  return !!z.rijeseno;
+}
+function zavrsi(z, l){
+  S.gotovi[z.id] = true; S.bodovi += z.bodovi;
+  CL.pip(true); CL.konfeti(24);
+  prica(l ? l.ime : '—', z.kraj[0], z.kraj[1], [['+' + z.bodovi + ' ⭐', function(){
+    zatvoriPricu();
+    S.nosi = [];
+    if (S.bez){
+      S.bezZadataka++;
+      ZADACI.push(noviBezZadatak());
+      S.zadatak++;
+      osvjezi();
+      return;
+    }
+    S.zadatak++;
+    osvjezi();
+    if (S.zadatak >= ZADACI.length) kraj();
+  }]], true);
 }
 
-function krajEtape(){
-  S.etapa++;
-  if (S.etapa >= ETAPE.length) return pobjeda();
-  S.uEtapi = 0;
-  if (S.srca < 3){ S.srca++; CL.poruka('Stage complete — one heart restored ❤️', 'dobro'); }
-  osvjezi();
-  var e = ETAPE[S.etapa];
-  var z = CL.zastor(
-    '<h3>Stage ' + (S.etapa+1) + '/5 — ' + CL.esc(e.ime) + '</h3>' +
-    '<p>' + CL.esc(e.opis) + ' · ' + e.broj + ' tasks</p>' +
-    '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">Start</button></div>');
-  z.querySelector('#_k').onclick = function(){
-    z.remove();
-    CL.savjetZastor(pitanje);
+/* ---------------- zgrade ---------------- */
+function usaoUZgradu(k){
+  var zg = ZGRADE[k], z = ZADACI[S.zadatak];
+  if (!z || !z.pokrenut || z.vrata !== k || S.gotovi[z.id]){
+    return prica(zg.ime, 'Ovo je ' + zg.ime.toLowerCase() + '.', 'This is the ' + zg.en + '.', null, true);
+  }
+  if (z.tip === 'kupovina') return kupovina(z, zg);
+  if (z.tip === 'dostava'){ z.rijeseno = true; return zavrsi(z, null); }
+  if (z.tip === 'kviz') return kviz(z, zg);
+  if (z.tip === 'dijalog') return dijalog(z, zg, 0);
+  if (z.tip === 'razvrstaj') return razvrstaj(z, zg);
+  if (z.tip === 'praznina') return prazninaZ(z, zg);
+  if (z.tip === 'recenica') return recenicaZ(z, zg);
+  if (z.tip === 'upis') return upisZ(z, zg);
+  if (z.tip === 'suprotno') return suprotnoZ(z, zg);
+  if (z.tip === 'zavrsni') return zavrsniZ(z, zg);
+}
+
+/* ---- razvrstavanje robe po kategorijama ---- */
+function razvrstaj(z, zg){
+  var kats = CL.uzmi(Object.keys(CL.KAT).filter(function(k){ return CL.kat(k).length >= 8; }), 3);
+  var stavke = [];
+  kats.forEach(function(k){ stavke = stavke.concat(CL.uzmi(CL.kat(k), 3)); });
+  stavke = CL.mix(stavke);
+  var ostalo = stavke.length, i = 0;
+  function pitaj(){
+    if (i >= stavke.length){ z.rijeseno = true; zatvoriPricu();
+      return CL.poruka('All sorted! Go back to the cook.', 'dobro'); }
+    var r = stavke[i];
+    var d = prica(zg.ime, r.hr, 'Where does “' + r.hr + '” go? (' + (i+1) + '/' + stavke.length + ')',
+      CL.mix(kats).map(function(k){
+        return [CL.KAT[k].en, function(){
+          if (k === r.kat){ CL.pip(true); CL.ucenje(r.id, true); i++; }
+          else { CL.pip(false); CL.ucenje(r.id, false); CL.poruka('It does not go there.', 'lose'); }
+          pitaj();
+        }];
+      }));
+    d.querySelector('.rec').innerHTML = CL.slikaRijeci(r, 64) + '<div>' + CL.esc(r.hr) + '</div>';
+  }
+  pitaj();
+}
+
+/* ---- rečenice s prazninom ---- */
+function prazninaZ(z, zg){
+  var mete = CL.uzmi(CL.praznine(3, true), z.koliko || 5), i = 0;
+  function pitaj(){
+    if (i >= mete.length){ z.rijeseno = true; zatvoriPricu();
+      return CL.poruka('The homework is done! Go back to the teacher.', 'dobro'); }
+    var p = mete[i];
+    var d = prica(zg.ime, p[0], '(' + (i+1) + '/' + mete.length + ') ' + CL.skritEN(p[1]),
+      CL.mix([{t:p[2], ok:true},{t:p[3]},{t:p[4]}]).map(function(o){
+        return [o.t, function(){
+          if (o.ok){ CL.pip(true); i++; } else { CL.pip(false); CL.poruka('That does not fit.', 'lose'); }
+          pitaj();
+        }];
+      }));
+    d.querySelector('.rec').innerHTML = CL.esc(p[0])
+      .replace('___','<u style="text-decoration:none;border-bottom:4px solid var(--zut);padding:0 6px">&nbsp;?&nbsp;</u>');
+  }
+  pitaj();
+}
+
+/* ---- prijevod rečenica ---- */
+function recenicaZ(z, zg){
+  var fond = CL.recenice(3, true);
+  var mete = CL.uzmi(fond, z.koliko || 5), i = 0;
+  function pitaj(){
+    if (i >= mete.length){ z.rijeseno = true; zatvoriPricu();
+      return CL.poruka('The postcards are ready! Go back to the tourist.', 'dobro'); }
+    var r = mete[i];
+    var krivi = CL.uzmi(fond.filter(function(x){ return x[0] !== r[0]; }), 2);
+    prica(zg.ime, r[0], 'What does this mean? (' + (i+1) + '/' + mete.length + ')',
+      CL.mix([{t:r[1], ok:true}].concat(krivi.map(function(x){ return {t:x[1]}; }))).map(function(o){
+        return [o.t, function(){
+          if (o.ok){ CL.pip(true); i++; } else { CL.pip(false); CL.poruka('Not that one.', 'lose'); }
+          pitaj();
+        }];
+      }));
+  }
+  pitaj();
+}
+
+/* ---- upis riječi ---- */
+function upisZ(z, zg){
+  var mete = CL.uzmi(CL.svjezeRijeci(60, function(r){ return !/\s/.test(r.hr); }), z.koliko || 4);
+  var d = prica(zg.ime, 'Write the names in Croatian.', 'Diacritics count — use the buttons below.', []);
+  var g = document.createElement('div');
+  g.style.display='flex'; g.style.flexDirection='column'; g.style.gap='8px'; g.style.alignItems='center';
+  mete.forEach(function(r,i){
+    var red = document.createElement('div');
+    red.style.display='flex'; red.style.alignItems='center'; red.style.gap='8px';
+    red.innerHTML = CL.slikaRijeci(r, 46) +
+      '<input class="upis" style="font-size:16px;width:220px" autocomplete="off" spellcheck="false" data-i="' + i +
+      '" placeholder="' + CL.esc(r.en) + '"><span class="ispravak" style="font-weight:700;color:var(--koralj)"></span>';
+    g.appendChild(red);
+  });
+  var dij = document.createElement('div'); dij.style.margin='8px 0';
+  var prvi = g.querySelector('input');
+  dij.appendChild(CL.tipkeDijakritika(prvi));
+  g.addEventListener('focusin', function(e){
+    if (e.target.tagName==='INPUT'){ dij.innerHTML=''; dij.appendChild(CL.tipkeDijakritika(e.target)); }
+  });
+  var ok = document.createElement('button'); ok.className='g glavni'; ok.textContent='Check';
+  ok.onclick = function(){
+    var polja = g.querySelectorAll('input'), sve = true;
+    mete.forEach(function(r,i){
+      var dobro = CL.norm(polja[i].value) === CL.norm(r.hr);
+      polja[i].classList.add(dobro ? 'tocno' : 'krivo');
+      CL.ucenje(r.id, dobro);
+      if (!dobro){ sve = false; polja[i].parentNode.querySelector('.ispravak').textContent = r.hr; }
+    });
+    if (sve){ z.rijeseno = true; zatvoriPricu(); CL.poruka('All correct! Go back to the one who asked.', 'dobro'); }
+    else { CL.pip(false); CL.poruka('Fix the mistakes and try again.', 'lose'); }
   };
+  d.appendChild(g); d.appendChild(dij); d.appendChild(ok);
+  setTimeout(function(){ prvi.focus(); }, 60);
 }
 
-function popis(){
-  var h = '';
-  var jed = {};
-  S.svladane.forEach(function(r){ jed[r.id] = r; });
-  var sv = Object.keys(jed).map(function(k){ return jed[k]; });
-  if (sv.length) h += '<div class="svladane"><b>Added to your learned words (' + sv.length + '):</b>' +
-    sv.map(function(r){ return '<span>' + CL.esc(r.hr) + '</span>'; }).join('') + '</div>';
-  var pon = CL.zaPonoviti(14);
-  if (pon.length) h += '<div class="svladane"><b>To review (' + pon.length + '):</b>' +
-    pon.map(function(z){ return '<span class="pao">' + CL.esc(z.r.hr) + ' — ' + CL.esc(z.r.en) + '</span>'; }).join('') + '</div>';
-  return h;
+/* ---- suprotnice ---- */
+function suprotnoZ(z, zg){
+  var svi = CL.suprotnice();
+  var mete = CL.uzmi(svi, z.koliko || 6), i = 0;
+  function pitaj(){
+    if (i >= mete.length){ z.rijeseno = true; zatvoriPricu();
+      return CL.poruka('The catalogue is done! Go back to the librarian.', 'dobro'); }
+    var par = mete[i];
+    var obrni = Math.random() < 0.5;
+    var zadana = obrni ? par[1] : par[0], trazena = obrni ? par[0] : par[1];
+    var krivi = CL.uzmi(svi.filter(function(p){ return p !== par; }), 2)
+      .map(function(p){ return Math.random()<0.5 ? p[0] : p[1]; });
+    prica(zg.ime, 'The opposite of: ' + zadana, '(' + (i+1) + '/' + mete.length + ') ' + CL.skritEN(par[2]),
+      CL.mix([{t:trazena, ok:true}].concat(krivi.map(function(t){ return {t:t}; }))).map(function(o){
+        return [o.t, function(){
+          if (o.ok){ CL.pip(true); i++; } else { CL.pip(false); CL.poruka('Not that one.', 'lose'); }
+          pitaj();
+        }];
+      }));
+  }
+  pitaj();
 }
 
-function bodovi(){
-  return Math.min(100, Math.round(S.tocno / CILJ * 100));
+/* ---- završna provjera ---- */
+function zavrsniZ(z, zg){
+  var pitanja = [];
+  CL.uzmi(CL.BANKA, 3).forEach(function(r){
+    pitanja.push({p:r.en, m:'english → hrvatski',
+      op:CL.mix([{t:r.hr, ok:true}].concat(CL.uzmi(CL.BANKA.filter(function(x){ return x.kat===r.kat && x.id!==r.id; }), 2)
+        .map(function(x){ return {t:x.hr}; })))});
+  });
+  CL.uzmi(CL.praznine(4, true), 3).forEach(function(p){
+    pitanja.push({p:p[0].replace('___','____'), m:p[1],
+      op:CL.mix([{t:p[2], ok:true},{t:p[3]},{t:p[4]}])});
+  });
+  var fond = CL.recenice(4, true);
+  CL.uzmi(fond, 2).forEach(function(r){
+    pitanja.push({p:r[0], m:'what does this mean?',
+      op:CL.mix([{t:r[1], ok:true}].concat(CL.uzmi(fond.filter(function(x){ return x[0]!==r[0]; }), 2)
+        .map(function(x){ return {t:x[1]}; })))});
+  });
+  pitanja = CL.mix(pitanja);
+  var i = 0, greske = 0;
+  function pitaj(){
+    if (i >= pitanja.length){
+      if (greske <= 2){ z.rijeseno = true; zatvoriPricu();
+        return CL.poruka('Check passed! Go back to the doctor.', 'dobro'); }
+      i = 0; greske = 0;
+      CL.poruka('Too many mistakes — from the top.', 'lose');
+      return pitaj();
+    }
+    var q = pitanja[i];
+    prica(zg.ime, q.p, q.m + ' (' + (i+1) + '/' + pitanja.length + ' · mistakes ' + greske + '/2)',
+      q.op.map(function(o){
+        return [o.t, function(){
+          if (o.ok){ CL.pip(true); } else { CL.pip(false); greske++; }
+          i++; pitaj();
+        }];
+      }));
+  }
+  pitaj();
+}
+
+function kupovina(z, zg){
+  var sve = z.trazi.concat(z.ometaci).map(function(id){ return CL.po(id); }).filter(Boolean);
+  var red = CL.mix(sve);
+  var d = prica(zg.ime, 'Izvolite? Što trebate?', 'How can I help you? What do you need?', [], true);
+  var ostalo = z.trazi.filter(function(t){ return S.nosi.indexOf(t)<0; });
+  var traz = ostalo.map(function(t){ return CL.po(t).hr; }).join(' + ');
+  d.querySelector('.rec').textContent = 'I need: ' + traz;
+  d.querySelector('.prijevod').innerHTML = 'Tap the right picture. ' +
+    CL.skritEN(ostalo.map(function(t){return CL.po(t).en;}).join(' + '), '👁 what am I asking for?');
+  var g = document.createElement('div'); g.className = 'roba';
+  red.forEach(function(r){
+    var b = document.createElement('button'); b.className = 'g';
+    b.innerHTML = CL.slikaRijeci(r, 56) + '<span>' + CL.esc(r.hr) + '</span>';
+    b.onclick = function(){
+      if (z.trazi.indexOf(r.id) >= 0 && S.nosi.indexOf(r.id) < 0){
+        S.nosi.push(r.id); CL.pip(true); CL.zvukRijeci(r);
+        b.classList.add('tocno'); b.disabled = true;
+        if (zadovoljen(z)){
+          CL.poruka('You have everything! Go back to the character.', 'dobro');
+          setTimeout(zatvoriPricu, 700);
+        } else {
+          d.querySelector('.rec').textContent = 'Still need: ' +
+            z.trazi.filter(function(t){return S.nosi.indexOf(t)<0;}).map(function(t){return CL.po(t).hr;}).join(' + ');
+        }
+      } else {
+        CL.pip(false); b.classList.add('krivo'); b.classList.add('tresi');
+        setTimeout(function(){ b.classList.remove('krivo','tresi'); }, 400);
+      }
+    };
+    g.appendChild(b);
+  });
+  d.appendChild(g);
+}
+
+function kviz(z, zg){
+  if (!z.pitanja) z.pitanja = CL.uzmi(CL.svjezeRijeci(60), z.koliko || 5).map(function(r){ return r.id; });
+  var i = 0, tocno = 0;
+  function pitaj(){
+    if (i >= z.pitanja.length){
+      if (tocno >= z.pitanja.length){ z.rijeseno = true; zatvoriPricu(); CL.poruka('All correct! Go back to the one who asked.', 'dobro'); }
+      else { i = 0; tocno = 0; CL.poruka('Try again — you need them all correct.', 'lose'); pitaj(); }
+      return;
+    }
+    var r = CL.po(z.pitanja[i]);
+    var krivi = CL.uzmi(CL.BANKA.filter(function(x){ return x.id !== r.id && x.kat === r.kat; }), 2);
+    if (krivi.length < 2) krivi = CL.uzmi(CL.BANKA.filter(function(x){ return x.id !== r.id; }), 2);
+    var opcije = CL.mix([r].concat(krivi));
+    var d = prica('Museum label', r.hr, 'Which English word fits? (' + (i+1) + '/' + z.pitanja.length + ')',
+      opcije.map(function(o){
+        return [o.en, function(){
+          if (o.id === r.id){ tocno++; CL.pip(true); i++; }
+          else { CL.pip(false); tocno = 0; i = 0; CL.poruka('Not quite — start over.', 'lose'); }
+          pitaj();
+        }];
+      }));
+    d.querySelector('.rec').innerHTML = CL.slikaRijeci(r, 64) + '<div>' + CL.esc(r.hr) + '</div>';
+  }
+  pitaj();
+}
+
+function dijalog(z, zg, i){
+  if (i >= z.linije.length){ z.rijeseno = true; zatvoriPricu(); CL.poruka('Great conversation! Go back to Luka.', 'dobro'); return; }
+  var l = z.linije[i];
+  prica(l.tko, l.rec, l.pr, CL.mix(l.izbori).map(function(iz){
+    return [iz[0], function(){
+      if (iz[1]){ CL.pip(true); dijalog(z, zg, i+1); }
+      else { CL.pip(false); CL.poruka('They do not understand you. Try something else.', 'lose'); dijalog(z, zg, i); }
+    }];
+  }), true);
+}
+
+/* ---------------- kraj ---------------- */
+function osvjezi(){
+  CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>';
+  CL.el('zQ').textContent = '📜 ' + Object.keys(S.gotovi).length + '/' + ZADACI.length;
+  var z = ZADACI[S.zadatak];
+  CL.el('zadTekst').textContent = !z ? 'Every task done!' :
+    (z.pokrenut ? z.podsjetnik : 'Find the character marked ❗ and talk to them.');
+  crtaj();
+}
+/* ---------------- slobodni grad (bez kraja) ---------------- */
+var TIPOVI_BEZ = ['kupovina','kviz','razvrstaj','praznina','recenica','upis','suprotno'];
+var VRATA_BEZ = ['a','b','c','d','e','f','g'];
+
+function noviBezZadatak(){
+  var tip = CL.rand(TIPOVI_BEZ);
+  var lik = CL.rand(LIKOVI);
+  var vrata = CL.rand(VRATA_BEZ);
+  var zg = ZGRADE[vrata];
+  var z = {
+    id:'bez-' + S.bezZadataka, lik:lik.id, vrata:vrata, bodovi:0, tip:tip, koliko:4,
+    uvod:['Imam još jedan posao za tebe.','I have one more job for you.'],
+    nalog:['Pogledaj u ' + zg.ime.toLowerCase() + '.','Have a look at the ' + zg.en + '.'],
+    podsjetnik:'Free roam: go to the ' + zg.en + '.',
+    kraj:['Odlično! Idemo dalje.','Excellent! Let us go on.']
+  };
+  if (tip === 'kupovina'){
+    var trazi = CL.uzmi(CL.kat('hrana').concat(CL.kat('pice')), 3);
+    z.trazi = trazi.map(function(r){ return r.id; });
+    z.ometaci = CL.uzmi(CL.BANKA.filter(function(r){
+      return z.trazi.indexOf(r.id) < 0 && (r.kat==='hrana'||r.kat==='pice'||r.kat==='predmet'); }), 5)
+      .map(function(r){ return r.id; });
+  }
+  if (tip === 'kviz') z.pitanja = CL.uzmi(CL.BANKA, 5).map(function(r){ return r.id; });
+  return z;
 }
 
 function pokreniBezKraja(){
-  S.bez = true; S.radi = true; S.srca = 3; S.niz = 0; S.bezTocno = 0;
   CL.zatvoriZastore();
-  CL.poruka('Endless mode — how long can you last?', 'dobro');
-  osvjezi(); pitanje();
+  S.bez = true; S.bezZadataka = 0; S.gotovi = {}; S.nosi = [];
+  ZADACI.length = 0;
+  ZADACI.push(noviBezZadatak());
+  S.zadatak = 0;
+  osvjezi();
+  CL.poruka('Free roam — the tasks stop counting now.', 'dobro');
 }
 
-function poraz(){
-  S.radi = false; clearInterval(S.sat);
+function kraj(){
   if (S.bez){
     return CL.kraj({
-      naslov:'End of the endless run',
-      tekst:'In endless mode you solved <b>' + S.bezTocno + '</b> tasks, longest streak <b>' + S.najNiz + '</b>.' + popis(),
-      bodovi:100, maks:100,
-      ponovno:pokreniBezKraja,
-      beskonacno:pokreniBezKraja
+      naslov:'End of the tour',
+      tekst:'In the free city you finished <b>' + S.bezZadataka + '</b> tasks.',
+      bodovi:window.IGRA_MAKS, maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
     });
   }
   CL.kraj({
-    naslov:'No hearts left',
-    tekst:'You reached stage <b>' + (S.etapa+1) + '/5</b> — ' + S.tocno + ' of ' + CILJ +
-      ' correct. Longest streak: ' + S.najNiz + '.' + popis(),
-    bodovi:bodovi(), maks:100,
-    ponovno:function(){ location.reload(); }
-  });
-}
-
-function pobjeda(){
-  S.radi = false; clearInterval(S.sat);
-  CL.kraj({
-    naslov:'All five stages!',
-    tekst:'You made it through all ' + CILJ + ' tasks with ' + (3 - S.srca) + ' hearts lost. ' +
-      'Longest streak: <b>' + S.najNiz + '</b>.' + popis(),
-    bodovi:100, maks:100,
+    naslov:'The city is yours!',
+    tekst:'You finished all ' + ZADACI.length + ' tasks: shopping, a delivery, a quiz, conversations, ' +
+      'sorting, gap-fill sentences, translations, typing, opposites and the final check.',
+    bodovi:S.bodovi, maks:window.IGRA_MAKS,
     ponovno:function(){ location.reload(); },
     beskonacno:pokreniBezKraja
   });
 }
 
-/* uvod */
-(function(){
-  var z = CL.zastor(
-    '<h3>Survival (Preživljavanje)</h3>' +
-    '<p>Five stages, <b>' + CILJ + '</b> tasks in all, against the clock: words in both directions, ' +
-    'pictures, gap-fill sentences and sentence translation. Three hearts — and the clock tightens with every correct answer.</p>' +
-    '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">Start</button></div>');
-  z.querySelector('#_k').onclick = function(){ z.remove(); pitanje(); };
-  osvjezi();
-})();
+namjestiKameru(true);
+osvjezi();
+CL.poruka('Move with the arrow keys or the buttons. ✋ = talk.');
 
 </script>
 </body>
