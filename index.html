@@ -1283,6 +1283,15 @@
   var SUPABASE_ANON_KEY = 'sb_publishable_OssEp6bYxcGaD7JWArEdag_4S08MtjV';
   // Stripe Dashboard → Settings → Billing → Customer portal → "Portal link" (static, no backend needed).
   var STRIPE_PORTAL_URL = 'https://billing.stripe.com/p/login/test_dRm14oesha5w6RighWcMM00';
+  // Supabase Edge Functions. Prije je ovo bilo relativno '/api/...' preko Netlifyjevog
+  // proxyja; GitHub Pages ne zna izvoditi kod, pa se funkcije zovu punom adresom. Time
+  // pozivi prelaze granicu podrijetla, pa uz Authorization ide i apikey — Supabase gateway
+  // traži jedno od to dvoje, a same funkcije vraćaju CORS zaglavlja
+  // (vidi supabase/functions/_shared/lib.ts, gdje je i popis dozvoljenih podrijetla).
+  var FUNKCIJE_URL = SUPABASE_URL + '/functions/v1';
+  function zaglavljaFunkcije() {
+    return { 'Authorization': 'Bearer ' + SESSION.access_token, 'apikey': SUPABASE_ANON_KEY };
+  }
   var supa = (window.supabase && SUPABASE_URL.indexOf('YOUR-PROJECT') === -1)
     ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
     : null;
@@ -1579,7 +1588,7 @@
   // Vježbe od razine 2 naviše ne postoje u javnom data.js — ondje su samo kosturi (naslov,
   // broj bodova) da se zaključane razine mogu prikazati. Pravi sadržaj leži u privatnom
   // Supabase bucketu i dohvaća se ovdje, jednom po učitavanju stranice, i to samo za onoga
-  // tko na njega ima pravo. Provjeru prava radi server (/api/sadrzaj), ne ovaj kod.
+  // tko na njega ima pravo. Provjeru prava radi server (Edge Function `sadrzaj`), ne ovaj kod.
   var PLUS_STANJE = 'ne';   // 'ne' | 'ucitava' | 'da' | 'greska'
   var PLUS_CEKAJU = [];     // pozivi koji čekaju da isto dohvaćanje završi
 
@@ -1622,8 +1631,8 @@
       red.forEach(function (f) { f(uspjeh); });
     };
 
-    fetch('/api/sadrzaj?f=data-plus.json', {
-      headers: { 'Authorization': 'Bearer ' + SESSION.access_token }
+    fetch(FUNKCIJE_URL + '/sadrzaj?f=data-plus.json', {
+      headers: zaglavljaFunkcije()
     }).then(function (r) {
       if (!r.ok) throw new Error('sadrzaj ' + r.status);
       return r.json();
@@ -6295,9 +6304,9 @@
     if (!SESSION) return;
     PRETPLATA_UCITAVA = true;
     renderAccount();
-    fetch('/api/create-checkout-session', {
+    fetch(FUNKCIJE_URL + '/create-checkout-session', {
       method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + SESSION.access_token }
+      headers: zaglavljaFunkcije()
     }).then(function (r) { return r.json(); }).then(function (data) {
       if (data && data.url) window.location.href = data.url;
       else { PRETPLATA_UCITAVA = false; renderAccount(); }
@@ -6428,7 +6437,7 @@
         ' streak points (added to each currency)</p>' +
       statPretplate +
       '<p style="color:var(--muted);font-size:var(--t-s);margin-top:26px">Want a copy of your data, or want it ' +
-        'deleted? See our <a href="/privacy.html">Privacy Policy</a> for how to request that.</p>';
+        'deleted? See our <a href="privacy.html">Privacy Policy</a> for how to request that.</p>';
     $('btnOdjava').onclick = function () { odjava(); };
     var btnP = $('btnPretplati');
     if (btnP) btnP.onclick = pokreniPretplatu;

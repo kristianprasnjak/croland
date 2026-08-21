@@ -1,0 +1,7 @@
+project_id = "krunohdgohuebmafepmb"
+
+# Stripe ne šalje Supabase JWT, pa bi gateway odbio webhook prije nego što funkcija dođe do
+# provjere potpisa. Sigurnost ove funkcije počiva na stripe.webhooks.constructEventAsync,
+# ne na JWT-u. Ostale dvije funkcije namjerno ostaju na defaultu (verify_jwt = true).
+[functions.stripe-webhook]
+verify_jwt = false

@@ -1,4 +1,4 @@
-// Assembles dist/ — the only folder Netlify publishes — from an explicit allowlist of
+// Assembles dist/ — the only folder GitHub Pages publishes — from an explicit allowlist of
 // runtime files/folders. Anything not listed here (scratch files, source .md/.txt/.csv,
 // backups, dev tooling) can never end up on the live site even by accident.
 //
@@ -77,6 +77,11 @@ const spojeniZvukovi = Object.assign({}, javniPodaci.zvukovi, rezultat.placeni.z
 if (Object.keys(spojeniZvukovi).length !== Object.keys(izvorni.zvukovi || {}).length) {
   throw new Error('build: podjela je izgubila zvukove');
 }
+
+// GitHub Pages inače provuče objavljeno kroz Jekyll, koji preskače datoteke i mape s donjom
+// crtom na početku (npr. mini-igre/_sadrzaj). Deploy preko Actions to ne radi, ali .nojekyll
+// je jeftino osiguranje ako se izvor Pagesa ikad vrati na granu.
+fs.writeFileSync(path.join(DIST, '.nojekyll'), '');
 
 const kb = (p) => Math.round(fs.statSync(p).size / 1024) + ' KB';
 console.log('dist/ built:', FILES.concat(DIRS).join(', '));

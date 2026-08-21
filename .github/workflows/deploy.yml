@@ -1,0 +1,55 @@
+# Gradi dist/ i objavljuje ga na GitHub Pages.
+#
+# Zašto uopće postoji: Pages inače servira korijen repozitorija, a u korijenu stoji puni
+# data.js sa svim plaćenim vježbama. Jedino `npm run build` dijeli sadržaj na javni dio
+# (dist/data.js) i plaćeni (zasticeno/data-plus.json, koji nikad ne ide van). Bez ovog
+# workflowa cijela podjela ne radi ništa.
+#
+# U Settings → Pages izvor mora biti postavljen na "GitHub Actions", ne na granu.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Dva paralelna deploya bi se pregazila; novi push čeka da prethodni završi.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Namjerno bez `npm ci` — scripts/build.js koristi samo fs/path iz Node jezgre,
+      # pa nema što instalirati. Ako build ikad dobije pravu ovisnost, ovdje ide npm ci.
+      - name: Build dist/
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

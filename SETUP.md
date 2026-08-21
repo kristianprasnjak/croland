@@ -3,6 +3,12 @@
 Everything in code is done. What's left needs your own accounts/credentials, which I can't
 create for you. Follow these in order — later steps depend on earlier ones.
 
+**Stack:** GitHub Pages (statična stranica) + Supabase (auth, baza, Storage, Edge Functions)
++ Stripe (naplata). Netlifyja više nema nigdje u lancu.
+
+Adresa stranice: `https://kristianprasnjak.github.io/croland/`
+Adresa funkcija: `https://krunohdgohuebmafepmb.supabase.co/functions/v1/`
+
 ## 1. Supabase (auth + database)
 
 1. Create a free project at [supabase.com](https://supabase.com).
@@ -10,19 +16,29 @@ create for you. Follow these in order — later steps depend on earlier ones.
    This creates the `profiles`, `progress` and `stripe_events` tables, their RLS policies, and
    the signup trigger.
 3. **Authentication → Providers**: enable **Email**, and enable **Google** (needs step 2 below first).
-4. **Authentication → URL Configuration**: add your site's URL (and `http://localhost:8888` for
-   local testing) to the Redirect URLs allow-list.
-5. **Project Settings → API**: copy the **Project URL** and the **anon public key**.
-6. Open [`index.html`](index.html), find `SUPABASE_URL` and `SUPABASE_ANON_KEY` near the top of
-   the `<script>` block, and paste them in.
+4. **Authentication → URL Configuration**:
+   - **Site URL**: `https://kristianprasnjak.github.io/croland/`
+   - **Redirect URLs**: `https://kristianprasnjak.github.io/croland/**` i `http://localhost:8000/**`
+
+   Ovo nije kozmetika. `signInWithOAuth` u `index.html` šalje `redirectTo: window.location.href`,
+   ali Supabase taj zahtjev **ignorira** ako adresa nije na popisu i tada vrati korisnika na
+   Site URL. Zaostala Site URL adresa je razlog zašto je Google prijava nekad završavala na
+   staroj hosting adresi.
+5. **Storage**: napravi privatni bucket `sadrzaj` (bez javnog pristupa) i u njega uploadaj
+   `zasticeno/data-plus.json` koji nastane pri `npm run build`.
+6. **Project Settings → API**: copy the **Project URL** and the **anon/publishable key**.
+7. Open [`index.html`](index.html), find `SUPABASE_URL` and `SUPABASE_ANON_KEY` near the top of
+   the `<script>` block, and paste them in. `FUNKCIJE_URL` se izvodi iz `SUPABASE_URL`, ne dira se.
 
 ## 2. Google sign-in
 
 1. In [Google Cloud Console](https://console.cloud.google.com), create an OAuth 2.0 Client ID
    (Web application).
-2. Authorized redirect URI: `https://YOUR-PROJECT.supabase.co/auth/v1/callback` (from step 1.5 above).
-3. Google's consent-screen verification will ask for public Terms/Privacy URLs — use your
-   deployed `/terms.html` and `/privacy.html` (see step 4).
+2. Authorized redirect URI: `https://krunohdgohuebmafepmb.supabase.co/auth/v1/callback`.
+   **Ovo se ne mijenja pri selidbi hostinga** — Google uvijek gađa Supabase, a Supabase potom
+   korisnika vraća na adrese iz koraka 1.4.
+3. Google's consent-screen verification will ask for public Terms/Privacy URLs — use
+   `https://kristianprasnjak.github.io/croland/terms.html` and `.../privacy.html`.
 4. Paste the Client ID and Client Secret into Supabase → **Authentication → Providers → Google**.
 
 ## 3. Stripe (subscriptions)
@@ -32,50 +48,95 @@ create for you. Follow these in order — later steps depend on earlier ones.
    Price. Copy the **Price ID** (`price_...`).
 3. **Settings → Billing → Customer portal**: turn it on, then copy the **portal login link**.
    Paste it into `index.html` as `STRIPE_PORTAL_URL`.
-4. **Developers → Webhooks → Add endpoint**: URL = `https://YOUR-SITE/.netlify/functions/stripe-webhook`
-   (only works once deployed — see step 5). Select events: `checkout.session.completed`,
-   `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`,
-   `invoice.payment_failed`. Copy the **signing secret** (`whsec_...`).
+4. **Developers → Webhooks → Add endpoint**:
+   URL = `https://krunohdgohuebmafepmb.supabase.co/functions/v1/stripe-webhook`
+   Select events: `checkout.session.completed`, `customer.subscription.created`,
+   `customer.subscription.updated`, `customer.subscription.deleted`, `invoice.payment_failed`.
+   Copy the **signing secret** (`whsec_...`).
 
-## 4. GitHub + Netlify (deploy pipeline)
+## 4. Supabase Edge Functions (backend)
 
-Netlify Drop can't run the Functions this needs — you confirmed git-based deploy instead.
+Tri funkcije žive u `supabase/functions/`. Trebaju [Supabase CLI](https://supabase.com/docs/guides/cli).
 
-```bash
-# create an empty repo on GitHub first (no README/license), then:
-git remote add origin https://github.com/YOUR-USERNAME/croland.git
-git branch -M main
-git push -u origin main
-```
-
-Then in Netlify: **Add new site → Import an existing project** → pick the GitHub repo. Netlify
-will read `netlify.toml` automatically (build command, publish dir, functions dir already
-configured).
-
-**Site settings → Environment variables**, add:
-
-| Key | Value |
-|---|---|
-| `SUPABASE_URL` | Supabase → Project Settings → API → Project URL (same value hardcoded in `index.html`) |
-| `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Project Settings → API → secret key (`sb_secret_...`) |
-| `STRIPE_SECRET_KEY` | Stripe → Developers → API keys → Secret key |
-| `STRIPE_WEBHOOK_SECRET` | from step 3.4 above |
-| `STRIPE_PRICE_ID` | from step 3.2 above |
-
-Redeploy after adding env vars (Netlify does this automatically on the next push, or trigger a
-manual deploy).
-
-## 5. Test locally (auto-deploy is off — this is the only test loop until the final deploy)
-
-Netlify auto-builds are paused to conserve build credits; pushes to `main` no longer deploy.
-All testing happens against `netlify dev`, which reads a local `.env` (gitignored):
+`npm install -g supabase` **ne radi** — Supabase je globalnu npm instalaciju ugasio i javlja
+"Installing Supabase CLI as a global module is not supported". Na Windowsu su dvije opcije:
+`npx supabase@latest <naredba>` (ništa se ne instalira, treba Node 20+) ili
+`scoop install supabase`. Niže je svugdje `npx` oblik.
 
 ```bash
-cp .env.example .env    # then fill in the real values — never commit this file
-netlify dev              # serves the site + Functions at localhost:8888
-stripe listen --forward-to localhost:8888/.netlify/functions/stripe-webhook
-# stripe listen prints a whsec_... — put that in .env as STRIPE_WEBHOOK_SECRET, restart netlify dev
+npx supabase@latest login
+npx supabase@latest link --project-ref krunohdgohuebmafepmb
 ```
+
+`link` traži lozinku baze — za rad s funkcijama nije potrebna, može se preskočiti Enterom.
+
+Tajne (jednom, i ponovno kad se mijenjaju):
+
+```bash
+npx supabase@latest secrets set STRIPE_SECRET_KEY=sk_test_...
+npx supabase@latest secrets set STRIPE_PRICE_ID=price_...
+npx supabase@latest secrets set STRIPE_WEBHOOK_SECRET=whsec_...
+npx supabase@latest secrets set SITE_URL=https://kristianprasnjak.github.io/croland
+```
+
+`SUPABASE_URL` i `SUPABASE_SERVICE_ROLE_KEY` se **ne postavljaju** — Supabase ih sam ubrizgava
+u svaku Edge Function, a prefiks `SUPABASE_` je rezerviran pa ga `secrets set` odbija.
+
+`SITE_URL` je obavezan. Stranica je na poddirektoriju (`/croland/`), a fallback bi uzeo samo
+`Origin` zaglavlje (bez putanje) i vratio korisnika iz Stripe Checkouta u 404.
+
+Deploy:
+
+```bash
+npx supabase@latest functions deploy create-checkout-session --use-api
+npx supabase@latest functions deploy sadrzaj --use-api
+npx supabase@latest functions deploy stripe-webhook --use-api
+```
+
+`--use-api` znači "spakiraj funkciju na Supabaseovoj strani". Bez toga stariji CLI traži
+lokalni Docker, koji ovom projektu inače nigdje ne treba.
+
+`supabase/config.toml` postavlja `verify_jwt = false` za `stripe-webhook`. Stripe ne šalje
+Supabase JWT, pa bi ga gateway odbio prije nego što funkcija stigne provjeriti potpis;
+sigurnost te funkcije počiva na provjeri Stripeova potpisa, ne na JWT-u. Druge dvije ostaju
+na defaultu i traže valjani korisnički token.
+
+## 5. GitHub Pages (deploy pipeline)
+
+```bash
+git push origin main
+```
+
+`.github/workflows/deploy.yml` na svaki push u `main` pokrene `npm run build` i objavi
+**`dist/`**. Jednom, ručno: **Settings → Pages → Source = GitHub Actions**.
+
+Zašto ovo mora ostati ovako: ako Pages servira granu umjesto Actions artifacta, objavi se
+korijen repozitorija — a ondje stoji puni `data.js` sa svim plaćenim vježbama. Jedino
+`npm run build` dijeli sadržaj na javni (`dist/data.js`) i plaćeni
+(`zasticeno/data-plus.json`, koji nikad ne ide van).
+
+Nakon svakog builda koji mijenja sadržaj, novi `zasticeno/data-plus.json` treba ručno
+uploadati u Storage bucket `sadrzaj` (korak 1.5).
+
+## 6. Test locally
+
+Dva procesa, u dva terminala:
+
+```bash
+npm run build
+npx serve dist -l 8000        # stranica na http://localhost:8000
+```
+
+```bash
+cp .env.example .env          # popuni prave vrijednosti — nikad ne commitaj
+npx supabase@latest functions serve --env-file .env
+stripe listen --forward-to localhost:54321/functions/v1/stripe-webhook
+# stripe listen ispiše whsec_... — stavi ga u .env kao STRIPE_WEBHOOK_SECRET i restartaj serve
+```
+
+Za lokalni rad privremeno prebaci `FUNKCIJE_URL` u `index.html` na
+`http://localhost:54321/functions/v1` (i vrati prije commita). `http://localhost:8000` je već
+na popisu dozvoljenih podrijetla u `supabase/functions/_shared/lib.ts`.
 
 With Stripe still in **test mode**:
 
@@ -87,12 +148,12 @@ With Stripe still in **test mode**:
 - Cancel the test subscription via **Manage subscription** → confirm Level 2+ locks again.
 - To test complimentary access without Stripe: Supabase Table editor → `profiles` → your row →
   set `komplimentarno` to `true` → reload the app → Level 2+ should unlock immediately.
-- Once everything above passes, re-enable Netlify auto-builds and trigger the one remaining
-  deploy — see step 6.
 
-## 6. Go live
+## 7. Go live
 
-1. Switch `STRIPE_SECRET_KEY` and `STRIPE_PRICE_ID` in Netlify to their **live mode** values.
-2. Register a **new** webhook endpoint in Stripe's live mode (same URL, new signing secret) →
-   update `STRIPE_WEBHOOK_SECRET` in Netlify.
-3. Do one small real subscription yourself to confirm the whole path works, then refund it.
+1. `npx supabase@latest secrets set STRIPE_SECRET_KEY=...` i `STRIPE_PRICE_ID=...` na **live**
+   vrijednosti.
+2. Register a **new** webhook endpoint in Stripe's live mode (ista URL adresa, novi signing
+   secret) → `npx supabase@latest secrets set STRIPE_WEBHOOK_SECRET=...`.
+3. Redeploy sve tri funkcije (secrets se primjenjuju i bez toga, ali redeploy je sigurniji).
+4. Do one small real subscription yourself to confirm the whole path works, then refund it.
