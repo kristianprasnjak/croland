@@ -2822,6 +2822,11 @@
   function takeKartice() {
     // Učenje novih riječi: klik na karticu otkriva prijevod (= pročitano),
     // zatim se riječ ručno dodaje u rječnik. Bodovi: (pročitano + dodano) / (2 × ukupno).
+    // Daily challenge je iznimka: to je dnevna razgibavanja, ne gradivo. Njegove
+    // riječi se NE spremaju u rječnik polaznika — nema gumba, nema oznake
+    // "already yours", a bodovi su čisto pročitano/ukupno. (Riječi ipak moraju
+    // postojati u općem rječniku rjecnik.js zbog izgovora i tablica oblika.)
+    var bezRjecnika = (igra.tip === 'Daily challenge');
     var ukupno = igra.stavke.length, procitano = 0;
     // fraze/gramatički obrasci se ne dodaju u rječnik pa ne ulaze u nazivnik
     var ukupnoRj = igra.stavke.filter(function (st) { return jeNatuknica(st[0]); }).length;
@@ -2830,9 +2835,15 @@
       igra.stavke.forEach(function (st) { if (jeNatuknica(st[0]) && uRjecniku(st[0])) n++; });
       return n;
     }
-    function osvjezi() { setStat('Read: ' + procitano + '/' + ukupno, 'In dictionary: ' + brojDodanih() + '/' + ukupnoRj); }
+    function osvjezi() {
+      if (bezRjecnika) { setStat('Read: ' + procitano + '/' + ukupno, 'tap every card'); return; }
+      setStat('Read: ' + procitano + '/' + ukupno, 'In dictionary: ' + brojDodanih() + '/' + ukupnoRj);
+    }
     osvjezi();
     predaja = function () {
+      if (bezRjecnika) {
+        return { s: 'Read: ' + procitano + '/' + ukupno, pct: ukupno ? procitano / ukupno : 0 };
+      }
       var d = brojDodanih();
       return {
         s: 'Read: ' + procitano + '/' + ukupno + ' · Added to dictionary: ' + d + '/' + ukupnoRj,
@@ -2848,7 +2859,7 @@
       var en = document.createElement('div'); en.className = 'en'; en.textContent = st[1] || '';
       k.appendChild(hr); k.appendChild(en); ukrasi(k, st[0], 'slikaIgra');
       // riječ koju polaznik već ima (npr. iz Lesson 0) — reci mu to prije nego okrene karticu
-      if (jeNatuknica(st[0]) && uRjecniku(st[0])) {
+      if (!bezRjecnika && jeNatuknica(st[0]) && uRjecniku(st[0])) {
         var oz = document.createElement('div'); oz.className = 'vecZnas';
         oz.textContent = '✓ already yours';
         k.appendChild(oz); k.classList.add('imaVec');
@@ -2856,7 +2867,7 @@
       var btn = document.createElement('button');
       btn.className = 'gumb';
       btn.style.cssText = 'display:none;margin:8px auto 0;padding:5px 12px;font-size:.8em;';
-      var natuknica = jeNatuknica(st[0]);
+      var natuknica = !bezRjecnika && jeNatuknica(st[0]);
       function btnStanje() {
         var u = uRjecniku(st[0]);
         var n = natuknice(st[0], '').length;
@@ -2887,6 +2898,10 @@
     var b = document.createElement('button'); b.className = 'gumb'; b.textContent = '✓ Done';
     b.onclick = function () {
       if (gotovo) return;
+      if (bezRjecnika) {
+        kraj('Read: ' + procitano + '/' + ukupno, ukupno ? procitano / ukupno : 0);
+        return;
+      }
       var dod = brojDodanih();
       kraj('Read: ' + procitano + '/' + ukupno + ' · Added to dictionary: ' + dod + '/' + ukupnoRj,
         ukupnoRj ? (procitano / ukupno + dod / ukupnoRj) / 2 : procitano / ukupno);
@@ -4774,10 +4789,33 @@
 
   // ---- mini igre: jedna igra u okviru ----
   var miniOsvjezavanje = null;
+  var MINI_AKTIVNA = null;        // id igre koja je trenutno otvorena u okviru
+  var MINI_ZADNJE_SIROVO = null;  // zadnje viđeno stanje te igre, da se ne šalje bez promjene
+
+  // Pročita stanje aktivne igre iz localStorage i, ako se promijenilo, prepiše ga u PROGRESS
+  // i pogura na server. Vraća true ako je bilo promjene.
+  // `odmah` preskače sekundni debounce — koristi se na izlasku, kad drugog pokušaja nema.
+  function miniPokupi(odmah) {
+    var id = MINI_AKTIVNA;
+    if (!id) return false;
+    var sirovo = null;
+    try { sirovo = localStorage.getItem('croland-mini-' + id) || ''; } catch (e) {}
+    if (sirovo === MINI_ZADNJE_SIROVO) return false;
+    MINI_ZADNJE_SIROVO = sirovo;
+    if (!PROGRESS.mini_igre) PROGRESS.mini_igre = {};
+    try { PROGRESS.mini_igre[id] = sirovo ? JSON.parse(sirovo) : {}; }
+    catch (e) { PROGRESS.mini_igre[id] = {}; }
+    spremiProgress(!!odmah);
+    return true;
+  }
+
   function renderMiniIgra(id) {
     var g = miniPoId(id);
     if (!g) { renderMini(); return; }
     if (imaPristup('MiniGame', 0) !== 'ok') { renderMini(); return; }
+    // Zadnji upis prethodne igre mora ići prije sijanja ispod — inače bi novo sijanje moglo
+    // pregaziti stanje koje još nije otišlo na server.
+    miniSatStop();
     // Must seed from the server BEFORE the iframe is created — otherwise the game reads an
     // empty score and overwrites the real value with zero (progress.mini_igre was already
     // fetched into PROGRESS at login, so this is a synchronous, in-memory seed).
@@ -4796,20 +4834,13 @@
       '</div>';
     // Igra piše bodove u localStorage; zaglavlje se osvježava dok se igra, a promjena se
     // gura na server — samo kad se stvarno promijeni, ne na svaki otkucaj.
-    miniSatStop();
+    MINI_AKTIVNA = g.id;
+    try { MINI_ZADNJE_SIROVO = localStorage.getItem('croland-mini-' + g.id) || ''; }
+    catch (e) { MINI_ZADNJE_SIROVO = ''; }
     var zadnje = miniBodovi();
-    var zadnjeSirovo = null;
-    try { zadnjeSirovo = localStorage.getItem('croland-mini-' + g.id) || ''; } catch (e) {}
     miniOsvjezavanje = setInterval(function () {
       if (!$('miniOkno')) { miniSatStop(); return; }
-      var sirovo = null;
-      try { sirovo = localStorage.getItem('croland-mini-' + g.id) || ''; } catch (e) {}
-      if (sirovo !== zadnjeSirovo) {
-        zadnjeSirovo = sirovo;
-        if (!PROGRESS.mini_igre) PROGRESS.mini_igre = {};
-        try { PROGRESS.mini_igre[g.id] = sirovo ? JSON.parse(sirovo) : {}; } catch (e) { PROGRESS.mini_igre[g.id] = {}; }
-        spremiProgress();
-      }
+      miniPokupi();
       var sad = miniBodovi();
       if (sad === zadnje) return;
       zadnje = sad;
@@ -4818,9 +4849,41 @@
       if (nova.length) prikaziOtkljucanje(nova);
     }, 2000);
   }
+  // Gašenje sata je ujedno i izlazak iz igre: prije nego što se prestane gledati, jednom se
+  // pročita stanje i odmah pošalje. Bez toga bodovi upisani u zadnjih par sekundi ostaju
+  // samo u localStorage, a idući `posijiMiniIgre()` ih prepiše serverskom vrijednošću.
   function miniSatStop() {
     if (miniOsvjezavanje) { clearInterval(miniOsvjezavanje); miniOsvjezavanje = null; }
+    if (miniPokupi(true)) {
+      osvjeziHeader();
+      var nova = noveOtkljucane();
+      if (nova.length) prikaziOtkljucanje(nova);
+    }
+    MINI_AKTIVNA = null;
+    MINI_ZADNJE_SIROVO = null;
   }
+  // Zatvaranje kartice ili prelazak u pozadinu prolazi mimo `idi()` — isti zadnji upis.
+  window.addEventListener('pagehide', function () { miniPokupi(true); });
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'hidden') miniPokupi(true);
+  });
+  // Igra otvorena u zasebnoj kartici piše u isti localStorage, ali izvan dosega intervala
+  // ove kartice. `storage` javlja promjenu odmah, pa i ti bodovi stignu na server.
+  window.addEventListener('storage', function (e) {
+    if (!e.key || e.key.indexOf('croland-mini-') !== 0) return;
+    var id = e.key.slice('croland-mini-'.length);
+    if (!miniPoId(id)) return;
+    var sirovo = e.newValue || '';
+    var stanje;
+    try { stanje = sirovo ? JSON.parse(sirovo) : {}; } catch (ex) { return; }
+    if (!PROGRESS.mini_igre) PROGRESS.mini_igre = {};
+    PROGRESS.mini_igre[id] = stanje;
+    if (id === MINI_AKTIVNA) MINI_ZADNJE_SIROVO = sirovo;
+    spremiProgress(true);
+    osvjeziHeader();
+    var nova = noveOtkljucane();
+    if (nova.length) prikaziOtkljucanje(nova);
+  });
   function miniPonovno() {
     var f = $('miniOkno');
     if (f) f.src = f.src;
@@ -6018,9 +6081,11 @@
   // ================= TEST RIJEČI (Dictionary → Word test) =================
   // Nebodovana vježba: jedna riječ po ekranu, upisuje se prijevod, odmah slijedi
   // točno/netočno i ispravan odgovor. Vrti se u krug dok korisnik ne izađe.
-  // Filter: My Dictionary (uvijek početno) ili odabir lekcija 0–20, više njih naraz.
+  // Filter: My Dictionary, Full dictionary ili odabir lekcija 0–20, više njih naraz.
+  // Početni opseg preuzima se iz Dictionaryja: tko je ondje bio na Full dictionary,
+  // tome i test počinje na cijelom rječniku.
   var wtSmjer = 'mix';        // 'en-hr' | 'mix' | 'hr-en'
-  var wtOpseg = 'moje';       // 'moje' | 'lekcije'
+  var wtOpseg = 'moje';       // 'moje' | 'sve' | 'lekcije'
   var wtLekcije = [];         // odabrani brojevi lekcija
   var wtFilterOtvoren = false;
   var wtNiz = [], wtPoz = 0, wtVidjeno = 0, wtTocno = 0;
@@ -6040,6 +6105,8 @@
     var izvor = [];
     if (wtOpseg === 'lekcije') {
       wtLekcije.forEach(function (n) { izvor = izvor.concat(wtRijeciLekcije(n)); });
+    } else if (wtOpseg === 'sve') {
+      izvor = sveNatukniceHr();
     } else {
       izvor = rjecnikRijeci();
     }
@@ -6092,8 +6159,9 @@
   }
 
   function wtPokreni() {
-    // svaki ulazak počinje čisto: My Dictionary, miješani smjer, nula brojača
-    wtSmjer = 'mix'; wtOpseg = 'moje'; wtLekcije = [];
+    // svaki ulazak počinje čisto: miješani smjer, nula brojača, bez odabranih lekcija.
+    // Opseg se nasljeđuje od Dictionaryja — Full dictionary ostaje Full dictionary.
+    wtSmjer = 'mix'; wtOpseg = (dictOpseg === 'sve' ? 'sve' : 'moje'); wtLekcije = [];
     wtFilterOtvoren = false; wtVidjeno = 0; wtTocno = 0;
     idi('dictTest');
   }
@@ -6142,9 +6210,10 @@
     var h = '<div class="wtFilterPanel">' +
       '<div class="dictPrekidac" id="wtOpsegP">' +
       '<div data-o="moje">My Dictionary</div>' +
+      '<div data-o="sve">Full dictionary</div>' +
       '<div data-o="lekcije">By lesson</div>' +
       '</div>';
-    // My Dictionary je cijeli rječnik — brojevi lekcija se tu ne prikazuju.
+    // Brojevi lekcija se prikazuju samo uz "By lesson".
     if (wtOpseg === 'lekcije') {
       h += '<p class="wtNapomena">Tap one or more lesson numbers — 0 to ' + MAX_RAZINA + '.</p>' +
         '<div class="wtBrojevi" id="wtBrojeviP">';
@@ -6153,6 +6222,8 @@
           (wtLekcije.indexOf(n) !== -1 ? ' class="aktivan"' : '') + '>' + n + '</button>';
       }
       h += '</div>';
+    } else if (wtOpseg === 'sve') {
+      h += '<p class="wtNapomena">Every entry in the dictionary, not just your own words.</p>';
     } else {
       h += '<p class="wtNapomena">Every word you have added, all lessons together.</p>';
     }
@@ -6165,7 +6236,7 @@
       var c = e.target.closest ? e.target.closest('[data-o]') : null;
       if (!c || c.getAttribute('data-o') === wtOpseg) return;
       wtOpseg = c.getAttribute('data-o');
-      if (wtOpseg === 'moje') wtLekcije = [];
+      if (wtOpseg !== 'lekcije') wtLekcije = [];
       wtCrtajFilter(); wtMijesaj(); wtCrtajZad();
     };
     if ($('wtBrojeviP')) {
@@ -6182,7 +6253,8 @@
   function wtCrtajStat() {
     var el = $('wtStat');
     if (!el) return;
-    var opis = wtOpseg !== 'lekcije' ? 'My Dictionary'
+    var opis = wtOpseg === 'moje' ? 'My Dictionary'
+      : wtOpseg === 'sve' ? 'Full dictionary'
       : (wtLekcije.length === 0 ? 'No lesson selected'
         : 'Lesson' + (wtLekcije.length > 1 ? 's' : '') + ' ' +
           wtLekcije.slice().sort(function (a, b) { return a - b; }).join(', '));
@@ -6198,7 +6270,9 @@
         ? (wtLekcije.length === 0
           ? 'Pick at least one lesson in the Filter. 🔢'
           : 'No word pairs in the selected lessons yet.')
-        : 'Your dictionary is empty — open a lesson and add words first. 📚') + '</div>';
+        : wtOpseg === 'sve'
+          ? 'The dictionary file is missing — run osvježi.bat to generate rjecnik.js.'
+          : 'Your dictionary is empty — open a lesson and add words first. 📚') + '</div>';
       return;
     }
     if (wtPoz >= wtNiz.length) wtMijesaj();     // krug je pun — novi prolaz, novi raspored

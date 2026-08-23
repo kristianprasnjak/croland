@@ -1,5 +1,5 @@
 {"en": "about", "hr": ["o", "oko (prijedlog)"]}
-{"en": "above", "hr": ["iznad", "gore"]}
+{"en": "above", "hr": ["iznad", "gore", "nad"]}
 {"en": "to accept", "hr": ["primiti"]}
 {"en": "account", "hr": ["račun"]}
 {"en": "ache", "hr": ["bol"]}
@@ -35,7 +35,7 @@
 {"en": "also", "hr": ["također", "i"]}
 {"en": "always", "hr": ["uvijek"]}
 {"en": "among", "hr": ["između", "među"]}
-{"en": "and", "hr": ["i", "a"]}
+{"en": "and", "hr": ["i", "a", "te"]}
 {"en": "angry", "hr": ["ljut"]}
 {"en": "to get angry", "hr": ["ljutiti se", "naljutiti se"]}
 {"en": "animal", "hr": ["životinja"]}
@@ -50,7 +50,7 @@
 {"en": "area", "hr": ["kraj", "kvart", "područje"]}
 {"en": "arm", "hr": ["ruka"]}
 {"en": "army", "hr": ["vojska"]}
-{"en": "around", "hr": ["oko (prijedlog)"]}
+{"en": "around", "hr": ["oko (prijedlog)", "okolo", "po"]}
 {"en": "to arrive", "hr": ["stići", "doći", "dolaziti", "stizati"]}
 {"en": "art", "hr": ["umjetnost"]}
 {"en": "article", "hr": ["članak"]}
@@ -65,7 +65,7 @@
 {"en": "aunt", "hr": ["teta", "ujna", "strina"]}
 {"en": "autumn", "hr": ["jesen"]}
 {"en": "available", "hr": ["slobodan", "dostupan"]}
-{"en": "back", "hr": ["leđa", "natrag"]}
+{"en": "back", "hr": ["leđa", "natrag", "nazad"]}
 {"en": "bag", "hr": ["torba", "vrećica"]}
 {"en": "to bake", "hr": ["peći", "ispeći"]}
 {"en": "bakery", "hr": ["pekara"]}
@@ -83,7 +83,7 @@
 {"en": "beans", "hr": ["grah"]}
 {"en": "bear", "hr": ["medvjed"]}
 {"en": "beautiful", "hr": ["lijep", "krasan", "prekrasan"]}
-{"en": "because", "hr": ["jer", "zato što", "zbog"]}
+{"en": "because", "hr": ["jer", "zato što", "zbog", "budući da"]}
 {"en": "to become", "hr": ["postati", "postajati"]}
 {"en": "bed", "hr": ["krevet"]}
 {"en": "bedroom", "hr": ["spavaonica", "soba"]}
@@ -116,7 +116,7 @@
 {"en": "booking", "hr": ["rezervacija"]}
 {"en": "boring", "hr": ["dosadan", "dosadno"]}
 {"en": "to borrow", "hr": ["posuditi", "posuđivati"]}
-{"en": "boss", "hr": ["šef", "direktor"]}
+{"en": "boss", "hr": ["šef", "direktor", "šefica"]}
 {"en": "bottle", "hr": ["boca"]}
 {"en": "bouquet", "hr": ["buket"]}
 {"en": "box", "hr": ["kutija"]}
@@ -137,7 +137,7 @@
 {"en": "building", "hr": ["zgrada"]}
 {"en": "bus", "hr": ["autobus"]}
 {"en": "busy", "hr": ["zauzet"]}
-{"en": "but", "hr": ["ali", "a", "nego"]}
+{"en": "but", "hr": ["ali", "a", "nego", "no"]}
 {"en": "to buy", "hr": ["kupiti", "kupovati"]}
 {"en": "by the way", "hr": ["usput"]}
 {"en": "cabbage", "hr": ["kupus"]}
@@ -170,7 +170,7 @@
 {"en": "chair", "hr": ["stolica"]}
 {"en": "chamomile", "hr": ["kamilica"]}
 {"en": "chance", "hr": ["prilika"]}
-{"en": "change", "hr": ["promjena"]}
+{"en": "change", "hr": ["promjena", "kusur"]}
 {"en": "to change", "hr": ["promijeniti", "mijenjati", "zamijeniti", "presjesti", "presjedati"]}
 {"en": "to charge", "hr": ["naplatiti", "naplaćivati"]}
 {"en": "to chat", "hr": ["pričati", "razgovarati", "brbljati"]}
@@ -206,9 +206,9 @@
 {"en": "coat", "hr": ["kaput"]}
 {"en": "cocoa", "hr": ["kakao"]}
 {"en": "coffee", "hr": ["kava"]}
-{"en": "cold", "hr": ["hladan", "zima", "hladno"]}
+{"en": "cold", "hr": ["hladan", "zima", "hladno", "hladnoća"]}
 {"en": "a cold", "hr": ["prehlada"]}
-{"en": "colleague", "hr": ["kolega"]}
+{"en": "colleague", "hr": ["kolega", "kolegica"]}
 {"en": "collection", "hr": ["kolekcija", "zbirka"]}
 {"en": "colour", "hr": ["boja"]}
 {"en": "colourful", "hr": ["šaren"]}
@@ -262,7 +262,7 @@
 {"en": "difficult", "hr": ["težak"]}
 {"en": "diploma", "hr": ["diploma"]}
 {"en": "direction", "hr": ["smjer"]}
-{"en": "director", "hr": ["direktor"]}
+{"en": "director", "hr": ["direktor", "direktorica"]}
 {"en": "dirty", "hr": ["prljav"]}
 {"en": "discount", "hr": ["popust"]}
 {"en": "to discover", "hr": ["otkriti", "otkrivati"]}
@@ -281,14 +281,14 @@
 {"en": "drink", "hr": ["piće"]}
 {"en": "to drink", "hr": ["piti", "popiti"]}
 {"en": "to drive", "hr": ["voziti", "odvesti"]}
-{"en": "driver", "hr": ["vozač"]}
+{"en": "driver", "hr": ["vozač", "vozačica"]}
 {"en": "dry", "hr": ["suh"]}
 {"en": "during", "hr": ["tijekom", "za vrijeme"]}
 {"en": "each", "hr": ["svaki"]}
 {"en": "ear", "hr": ["uho"]}
 {"en": "early", "hr": ["rano"]}
 {"en": "earth", "hr": ["zemlja"]}
-{"en": "easy", "hr": ["lagan", "jednostavan"]}
+{"en": "easy", "hr": ["lagan", "jednostavan", "lak"]}
 {"en": "to eat", "hr": ["jesti", "pojesti"]}
 {"en": "egg", "hr": ["jaje"]}
 {"en": "eight", "hr": ["osam"]}
@@ -340,17 +340,17 @@
 {"en": "fish", "hr": ["riba"]}
 {"en": "fitness", "hr": ["fitnes"]}
 {"en": "five", "hr": ["pet"]}
-{"en": "flat", "hr": ["stan"]}
+{"en": "flat", "hr": ["stan", "ravan"]}
 {"en": "floor", "hr": ["pod", "kat"]}
 {"en": "flour", "hr": ["brašno"]}
 {"en": "flowers", "hr": ["cvijeće", "cvijet"]}
 {"en": "fly", "hr": ["muha"]}
 {"en": "to fly", "hr": ["letjeti", "poletjeti"]}
 {"en": "fog", "hr": ["magla"]}
-{"en": "food", "hr": ["hrana"]}
+{"en": "food", "hr": ["hrana", "jelo"]}
 {"en": "foot", "hr": ["noga", "stopalo"]}
 {"en": "football", "hr": ["nogomet"]}
-{"en": "for", "hr": ["za"]}
+{"en": "for", "hr": ["za", "po"]}
 {"en": "forehead", "hr": ["čelo"]}
 {"en": "forest", "hr": ["šuma"]}
 {"en": "to forget", "hr": ["zaboraviti", "zaboravljati"]}
@@ -388,7 +388,7 @@
 {"en": "to go", "hr": ["ići", "otići"]}
 {"en": "to go out", "hr": ["izaći", "izlaziti"]}
 {"en": "goal", "hr": ["gol", "cilj"]}
-{"en": "goalkeeper", "hr": ["golman", "vratar"]}
+{"en": "goalkeeper", "hr": ["golman", "vratar", "vratarka"]}
 {"en": "goat", "hr": ["koza"]}
 {"en": "good", "hr": ["dobar"]}
 {"en": "government", "hr": ["vlada"]}
@@ -408,7 +408,7 @@
 {"en": "guitar", "hr": ["gitara"]}
 {"en": "habit", "hr": ["navika"]}
 {"en": "hair", "hr": ["kosa"]}
-{"en": "half", "hr": ["pola", "polovica"]}
+{"en": "half", "hr": ["pola", "polovica", "polovina"]}
 {"en": "hand", "hr": ["ruka"]}
 {"en": "to hang", "hr": ["visjeti", "objesiti", "vješati"]}
 {"en": "happiness", "hr": ["sreća"]}
@@ -458,14 +458,14 @@
 {"en": "ice", "hr": ["led"]}
 {"en": "ice cream", "hr": ["sladoled"]}
 {"en": "idea", "hr": ["ideja"]}
-{"en": "if", "hr": ["ako"]}
+{"en": "if", "hr": ["ako", "ukoliko"]}
 {"en": "ill", "hr": ["bolestan"]}
 {"en": "illness", "hr": ["bolest"]}
 {"en": "to imagine", "hr": ["zamisliti", "zamišljati"]}
 {"en": "immediately", "hr": ["odmah"]}
 {"en": "important", "hr": ["važan"]}
 {"en": "in", "hr": ["u", "na"]}
-{"en": "in front of", "hr": ["ispred"]}
+{"en": "in front of", "hr": ["ispred", "pred"]}
 {"en": "information", "hr": ["informacija", "podatak"]}
 {"en": "ingredient", "hr": ["sastojak"]}
 {"en": "injury", "hr": ["ozljeda"]}
@@ -484,14 +484,14 @@
 {"en": "jersey", "hr": ["dres"]}
 {"en": "job", "hr": ["posao"]}
 {"en": "to joke", "hr": ["šaliti se", "našaliti se"]}
-{"en": "journalist", "hr": ["novinar"]}
+{"en": "journalist", "hr": ["novinar", "novinarka"]}
 {"en": "journey", "hr": ["putovanje", "put"]}
 {"en": "joy", "hr": ["radost", "veselje"]}
 {"en": "juice", "hr": ["sok"]}
 {"en": "July", "hr": ["srpanj"]}
 {"en": "to jump", "hr": ["skočiti", "skakati"]}
 {"en": "June", "hr": ["lipanj"]}
-{"en": "just", "hr": ["samo", "baš", "upravo"]}
+{"en": "just", "hr": ["samo", "baš", "upravo", "tek"]}
 {"en": "to keep", "hr": ["čuvati", "zadržati", "sačuvati", "zadržavati"]}
 {"en": "key", "hr": ["ključ"]}
 {"en": "kilometre", "hr": ["kilometar"]}
@@ -507,7 +507,7 @@
 {"en": "land", "hr": ["zemlja", "kopno"]}
 {"en": "language", "hr": ["jezik"]}
 {"en": "large", "hr": ["velik"]}
-{"en": "last", "hr": ["zadnji", "prošli"]}
+{"en": "last", "hr": ["zadnji", "prošli", "posljednji"]}
 {"en": "to last", "hr": ["trajati"]}
 {"en": "late", "hr": ["kasan", "kasno"]}
 {"en": "to be late", "hr": ["kasniti", "zakasniti"]}
@@ -529,11 +529,11 @@
 {"en": "licence", "hr": ["dozvola"]}
 {"en": "lie", "hr": ["laž"]}
 {"en": "life", "hr": ["život"]}
-{"en": "light", "hr": ["svjetlo", "lagan", "svijetao"]}
+{"en": "light", "hr": ["svjetlo", "lagan", "svijetao", "lak"]}
 {"en": "light (not heavy)", "hr": ["lagan"]}
 {"en": "light (not dark)", "hr": ["svijetao"]}
 {"en": "lightning", "hr": ["munja"]}
-{"en": "like", "hr": ["kao"]}
+{"en": "like", "hr": ["kao", "poput"]}
 {"en": "to like", "hr": ["voljeti", "sviđati se", "svidjeti se"]}
 {"en": "lion", "hr": ["lav"]}
 {"en": "to listen", "hr": ["slušati", "poslušati"]}
@@ -610,7 +610,7 @@
 {"en": "to name", "hr": ["nazvati", "imenovati", "zvati", "nazivati"]}
 {"en": "napkin", "hr": ["ubrus", "salveta"]}
 {"en": "narrow", "hr": ["uzak"]}
-{"en": "near", "hr": ["blizu", "pokraj", "kod"]}
+{"en": "near", "hr": ["blizu", "pokraj", "kod", "blizu (prijedlog)"]}
 {"en": "necessary", "hr": ["potreban", "nužan"]}
 {"en": "neck", "hr": ["vrat"]}
 {"en": "to need", "hr": ["trebati"]}
@@ -627,7 +627,7 @@
 {"en": "news", "hr": ["vijest", "vijesti", "novosti"]}
 {"en": "newspaper", "hr": ["novine"]}
 {"en": "next to", "hr": ["pokraj", "do"]}
-{"en": "nice", "hr": ["lijep", "fin", "drag"]}
+{"en": "nice", "hr": ["lijep", "fin", "drag", "simpatičan"]}
 {"en": "night", "hr": ["noć"]}
 {"en": "nine", "hr": ["devet"]}
 {"en": "no", "hr": ["ne"]}
@@ -651,7 +651,7 @@
 {"en": "on", "hr": ["na"]}
 {"en": "one", "hr": ["jedan"]}
 {"en": "onion", "hr": ["luk"]}
-{"en": "only", "hr": ["samo", "jedini"]}
+{"en": "only", "hr": ["samo", "jedini", "tek"]}
 {"en": "to open", "hr": ["otvoriti", "otvarati"]}
 {"en": "open", "hr": ["otvoren"]}
 {"en": "opinion", "hr": ["mišljenje", "stav"]}
@@ -709,7 +709,7 @@
 {"en": "pig", "hr": ["svinja"]}
 {"en": "pigeon", "hr": ["golub"]}
 {"en": "pillow", "hr": ["jastuk"]}
-{"en": "pilot", "hr": ["pilot"]}
+{"en": "pilot", "hr": ["pilot", "pilotkinja"]}
 {"en": "pineapple", "hr": ["ananas"]}
 {"en": "pizza", "hr": ["pizza"]}
 {"en": "place", "hr": ["mjesto"]}
@@ -753,7 +753,7 @@
 {"en": "quick", "hr": ["brz"]}
 {"en": "quickly", "hr": ["brzo"]}
 {"en": "quiet", "hr": ["tih", "miran", "mir"]}
-{"en": "past", "hr": ["prošlost", "prošli", "pokraj"]}
+{"en": "past", "hr": ["prošlost", "prošli", "pokraj", "mimo"]}
 {"en": "previous", "hr": ["prošli", "prijašnji"]}
 {"en": "quietly", "hr": ["tiho"]}
 {"en": "quiz", "hr": ["kviz"]}
@@ -845,7 +845,7 @@
 {"en": "to show", "hr": ["pokazati", "pokazivati"]}
 {"en": "to shine", "hr": ["sjati", "sijati", "zasjati"]}
 {"en": "sick", "hr": ["bolestan"]}
-{"en": "side", "hr": ["strana"]}
+{"en": "side", "hr": ["strana", "bok (dio tijela)"]}
 {"en": "to sign", "hr": ["potpisati", "potpisivati"]}
 {"en": "signature", "hr": ["potpis"]}
 {"en": "simple", "hr": ["jednostavan"]}
@@ -894,8 +894,8 @@
 {"en": "spicy", "hr": ["ljut", "začinjen"]}
 {"en": "spoon", "hr": ["žlica"]}
 {"en": "sport", "hr": ["sport", "šport"]}
-{"en": "spring", "hr": ["proljeće"]}
-{"en": "square", "hr": ["trg"]}
+{"en": "spring", "hr": ["proljeće", "izvor"]}
+{"en": "square", "hr": ["trg", "četvrtast"]}
 {"en": "stadium", "hr": ["stadion"]}
 {"en": "stamp", "hr": ["marka"]}
 {"en": "to stand", "hr": ["stajati", "stati"]}
@@ -911,7 +911,7 @@
 {"en": "store", "hr": ["trgovina", "dućan"]}
 {"en": "storm", "hr": ["oluja"]}
 {"en": "story", "hr": ["priča"]}
-{"en": "straight", "hr": ["ravno"]}
+{"en": "straight", "hr": ["ravno", "ravan"]}
 {"en": "strange", "hr": ["čudan"]}
 {"en": "strawberry", "hr": ["jagoda"]}
 {"en": "street", "hr": ["ulica"]}
@@ -930,7 +930,7 @@
 {"en": "sure", "hr": ["siguran"]}
 {"en": "sweater", "hr": ["džemper"]}
 {"en": "sweet", "hr": ["sladak", "bombon", "slatkiš"]}
-{"en": "to swim", "hr": ["plivati", "zaplivati"]}
+{"en": "to swim", "hr": ["plivati", "zaplivati", "kupati se"]}
 {"en": "swimming", "hr": ["plivanje"]}
 {"en": "table", "hr": ["stol"]}
 {"en": "to take", "hr": ["uzeti", "uzimati", "primiti", "ponijeti"]}
@@ -952,10 +952,10 @@
 {"en": "tennis", "hr": ["tenis"]}
 {"en": "test", "hr": ["test", "ispit"]}
 {"en": "text", "hr": ["tekst"]}
-{"en": "than", "hr": ["nego", "od"]}
+{"en": "than", "hr": ["nego", "od", "nego što"]}
 {"en": "to thank", "hr": ["zahvaliti", "zahvaljivati"]}
 {"en": "thank you", "hr": ["hvala"]}
-{"en": "that", "hr": ["taj", "onaj", "da", "koji"]}
+{"en": "that", "hr": ["taj", "onaj", "da", "koji", "da (veznik)"]}
 {"en": "theatre", "hr": ["kazalište"]}
 {"en": "their", "hr": ["njihov"]}
 {"en": "then", "hr": ["onda", "zatim", "tada"]}
@@ -990,7 +990,7 @@
 {"en": "top", "hr": ["vrh", "majica"]}
 {"en": "touch", "hr": ["dodir"]}
 {"en": "tour", "hr": ["tura", "obilazak"]}
-{"en": "tourist", "hr": ["turist", "turistica"]}
+{"en": "tourist", "hr": ["turist", "turistica", "turistkinja"]}
 {"en": "towel", "hr": ["ručnik"]}
 {"en": "town", "hr": ["grad", "mjesto"]}
 {"en": "towards", "hr": ["prema", "k"]}
@@ -1018,12 +1018,12 @@
 {"en": "ugly", "hr": ["ružan"]}
 {"en": "umbrella", "hr": ["kišobran"]}
 {"en": "uncle", "hr": ["ujak", "stric"]}
-{"en": "under", "hr": ["ispod", "pod"]}
+{"en": "under", "hr": ["ispod", "pod", "pod (prijedlog)"]}
 {"en": "to understand", "hr": ["razumjeti", "shvatiti", "shvaćati"]}
 {"en": "unfortunately", "hr": ["nažalost"]}
 {"en": "university", "hr": ["sveučilište", "fakultet"]}
 {"en": "until", "hr": ["do", "dok"]}
-{"en": "up", "hr": ["gore"]}
+{"en": "up", "hr": ["gore", "uz"]}
 {"en": "urgent", "hr": ["hitan"]}
 {"en": "useful", "hr": ["koristan"]}
 {"en": "usually", "hr": ["obično"]}
@@ -1091,7 +1091,7 @@
 {"en": "word", "hr": ["riječ"]}
 {"en": "work", "hr": ["posao", "rad"]}
 {"en": "to work", "hr": ["raditi"]}
-{"en": "worker", "hr": ["radnik"]}
+{"en": "worker", "hr": ["radnik", "radnica"]}
 {"en": "world", "hr": ["svijet"]}
 {"en": "worry", "hr": ["briga"]}
 {"en": "to worry", "hr": ["brinuti se", "zabrinuti se"]}
@@ -1162,7 +1162,7 @@
 {"en": "kilometer", "hr": ["kilometar"]}
 {"en": "newsstand", "hr": ["kiosk"]}
 {"en": "pastry", "hr": ["kolač", "tijesto"]}
-{"en": "biscuit", "hr": ["kolač"]}
+{"en": "biscuit", "hr": ["kolač", "keks"]}
 {"en": "railway station", "hr": ["kolodvor"]}
 {"en": "bus station", "hr": ["kolodvor"]}
 {"en": "item", "hr": ["komad"]}
@@ -1172,7 +1172,7 @@
 {"en": "buyer", "hr": ["kupac"]}
 {"en": "shopper", "hr": ["kupac"]}
 {"en": "district", "hr": ["kvart"]}
-{"en": "quarter", "hr": ["kvart"]}
+{"en": "quarter", "hr": ["kvart", "četvrtina"]}
 {"en": "arch", "hr": ["luk"]}
 {"en": "bow", "hr": ["luk"]}
 {"en": "meter", "hr": ["metar"]}
@@ -1201,7 +1201,7 @@
 {"en": "outcome", "hr": ["rezultat"]}
 {"en": "sleep", "hr": ["san"]}
 {"en": "piece of advice", "hr": ["savjet"]}
-{"en": "tip", "hr": ["savjet", "vrh"]}
+{"en": "tip", "hr": ["savjet", "vrh", "napojnica"]}
 {"en": "traffic lights", "hr": ["semafor"]}
 {"en": "scooter", "hr": ["skuter"]}
 {"en": "specialty", "hr": ["specijalitet"]}
@@ -1223,18 +1223,18 @@
 {"en": "television set", "hr": ["televizor"]}
 {"en": "TV", "hr": ["televizor", "televizija"]}
 {"en": "streetcar", "hr": ["tramvaj"]}
-{"en": "trainer", "hr": ["trener"]}
+{"en": "trainer", "hr": ["trener", "tenisica"]}
 {"en": "manager", "hr": ["trener", "direktor"]}
 {"en": "training session", "hr": ["trening"]}
 {"en": "practice", "hr": ["trening", "vježba"]}
 {"en": "town square", "hr": ["trg"]}
 {"en": "textbook", "hr": ["udžbenik"]}
 {"en": "coursebook", "hr": ["udžbenik"]}
-{"en": "sale", "hr": ["akcija"]}
+{"en": "sale", "hr": ["akcija", "sniženje"]}
 {"en": "special offer", "hr": ["akcija"]}
-{"en": "pharmacy", "hr": ["apoteka"]}
-{"en": "chemist's", "hr": ["apoteka"]}
-{"en": "drugstore", "hr": ["apoteka"]}
+{"en": "pharmacy", "hr": ["apoteka", "ljekarna"]}
+{"en": "chemist's", "hr": ["apoteka", "ljekarna"]}
+{"en": "drugstore", "hr": ["apoteka", "ljekarna"]}
 {"en": "aroma", "hr": ["aroma"]}
 {"en": "flavour", "hr": ["aroma", "okus"]}
 {"en": "highway", "hr": ["autocesta"]}
@@ -1286,7 +1286,7 @@
 {"en": "pause", "hr": ["pauza"]}
 {"en": "interval", "hr": ["pauza"]}
 {"en": "filled pastry", "hr": ["pita"]}
-{"en": "post", "hr": ["pošta"]}
+{"en": "post", "hr": ["pošta", "objava"]}
 {"en": "position", "hr": ["pozicija"]}
 {"en": "tale", "hr": ["priča"]}
 {"en": "friend (female)", "hr": ["prijateljica"]}
@@ -1310,7 +1310,7 @@
 {"en": "layer cake", "hr": ["torta"]}
 {"en": "trade", "hr": ["trgovina"]}
 {"en": "farmers' market", "hr": ["tržnica"]}
-{"en": "tourist (female)", "hr": ["turistica"]}
+{"en": "tourist (female)", "hr": ["turistica", "turistkinja"]}
 {"en": "schoolteacher", "hr": ["učiteljica", "učitelj"]}
 {"en": "keepsake", "hr": ["uspomena"]}
 {"en": "game", "hr": ["utakmica"]}
@@ -1330,7 +1330,7 @@
 {"en": "movie theatre", "hr": ["kino"]}
 {"en": "spot", "hr": ["mjesto"]}
 {"en": "heaven", "hr": ["nebo"]}
-{"en": "approximately", "hr": ["oko (prijedlog)"]}
+{"en": "approximately", "hr": ["oko (prijedlog)", "otprilike"]}
 {"en": "beverage", "hr": ["piće"]}
 {"en": "midday", "hr": ["podne"]}
 {"en": "travel", "hr": ["putovanje"]}
@@ -1354,7 +1354,7 @@
 {"en": "to exit", "hr": ["izlaziti", "izaći"]}
 {"en": "to come out", "hr": ["izlaziti"]}
 {"en": "to set off", "hr": ["kretati", "krenuti"]}
-{"en": "to move", "hr": ["kretati"]}
+{"en": "to move", "hr": ["kretati", "premještati"]}
 {"en": "to depart", "hr": ["kretati", "otputovati"]}
 {"en": "to boil", "hr": ["kuhati"]}
 {"en": "to be buying", "hr": ["kupovati"]}
@@ -1497,7 +1497,7 @@
 {"en": "to get well", "hr": ["ozdraviti", "ozdravljati"]}
 {"en": "to have a meeting", "hr": ["sastati se"]}
 {"en": "rapid", "hr": ["brz"]}
-{"en": "kind", "hr": ["dobar"]}
+{"en": "kind", "hr": ["dobar", "ljubazan"]}
 {"en": "wooden", "hr": ["drven"]}
 {"en": "finished", "hr": ["gotov"]}
 {"en": "done", "hr": ["gotov"]}
@@ -1572,7 +1572,7 @@
 {"en": "you (singular, informal)", "hr": ["ti"]}
 {"en": "it", "hr": ["on", "ona", "ono"]}
 {"en": "you (plural or polite)", "hr": ["vi"]}
-{"en": "oneself", "hr": ["se"]}
+{"en": "oneself", "hr": ["se", "sebe"]}
 {"en": "himself", "hr": ["se"]}
 {"en": "herself", "hr": ["se"]}
 {"en": "themselves", "hr": ["se"]}
@@ -1583,16 +1583,16 @@
 {"en": "yours (plural or polite)", "hr": ["vaš"]}
 {"en": "theirs", "hr": ["njihov"]}
 {"en": "that (over there)", "hr": ["onaj"]}
-{"en": "anything", "hr": ["nešto"]}
+{"en": "anything", "hr": ["nešto", "išta"]}
 {"en": "somebody", "hr": ["netko"]}
-{"en": "anyone", "hr": ["netko"]}
+{"en": "anyone", "hr": ["netko", "itko"]}
 {"en": "a certain", "hr": ["neki"]}
 {"en": "a", "hr": ["jedan"]}
 {"en": "for free", "hr": ["besplatno"]}
 {"en": "nearby", "hr": ["blizu"]}
 {"en": "close", "hr": ["blizu"]}
 {"en": "frequently", "hr": ["često"]}
-{"en": "therefore", "hr": ["dakle"]}
+{"en": "therefore", "hr": ["dakle", "stoga"]}
 {"en": "thus", "hr": ["dakle"]}
 {"en": "far away", "hr": ["daleko"]}
 {"en": "boringly", "hr": ["dosadno"]}
@@ -1613,7 +1613,7 @@
 {"en": "a lot", "hr": ["mnogo", "puno"]}
 {"en": "at last", "hr": ["napokon", "konačno"]}
 {"en": "naturally", "hr": ["naravno"]}
-{"en": "in the evening", "hr": ["navečer"]}
+{"en": "in the evening", "hr": ["navečer", "uvečer"]}
 {"en": "sadly", "hr": ["nažalost"]}
 {"en": "right away", "hr": ["odmah"]}
 {"en": "at once", "hr": ["odmah"]}
@@ -1648,14 +1648,14 @@
 {"en": "surely", "hr": ["sigurno"]}
 {"en": "certainly", "hr": ["sigurno"]}
 {"en": "safely", "hr": ["sigurno"]}
-{"en": "probably", "hr": ["vjerojatno"]}
+{"en": "probably", "hr": ["vjerojatno", "valjda"]}
 {"en": "likely", "hr": ["vjerojatno"]}
 {"en": "sufficiently", "hr": ["dovoljno"]}
 {"en": "up to", "hr": ["do"]}
 {"en": "out of", "hr": ["iz", "izvan"]}
 {"en": "at someone's place", "hr": ["kod"]}
 {"en": "concerning", "hr": ["o"]}
-{"en": "since", "hr": ["od"]}
+{"en": "since", "hr": ["od", "otkako", "budući da"]}
 {"en": "across", "hr": ["preko"]}
 {"en": "via", "hr": ["preko"]}
 {"en": "from (off)", "hr": ["s"]}
@@ -1668,9 +1668,9 @@
 {"en": "besides", "hr": ["osim"]}
 {"en": "apart from", "hr": ["osim"]}
 {"en": "in the course of", "hr": ["tijekom"]}
-{"en": "whereas", "hr": ["a"]}
+{"en": "whereas", "hr": ["a", "pak"]}
 {"en": "for the reason that", "hr": ["zato što"]}
-{"en": "although", "hr": ["iako"]}
+{"en": "although", "hr": ["iako", "premda"]}
 {"en": "even though", "hr": ["iako"]}
 {"en": "nor", "hr": ["ni", "niti"]}
 {"en": "not even", "hr": ["ni"]}
@@ -1759,7 +1759,7 @@
 {"en": "view", "hr": ["mišljenje"]}
 {"en": "lap", "hr": ["krilo"]}
 {"en": "merriment", "hr": ["veselje"]}
-{"en": "fun", "hr": ["veselje", "zabava"]}
+{"en": "fun", "hr": ["veselje", "zabava", "zabavan"]}
 {"en": "disease", "hr": ["bolest"]}
 {"en": "sickness", "hr": ["bolest"]}
 {"en": "drug", "hr": ["lijek"]}
@@ -1817,7 +1817,7 @@
 {"en": "mobile phone", "hr": ["mobitel"]}
 {"en": "cell phone", "hr": ["mobitel"]}
 {"en": "rest", "hr": ["odmor"]}
-{"en": "holiday", "hr": ["odmor"]}
+{"en": "holiday", "hr": ["odmor", "blagdan"]}
 {"en": "data", "hr": ["podatak"]}
 {"en": "professor", "hr": ["profesor"]}
 {"en": "attitude", "hr": ["stav"]}
@@ -1848,7 +1848,7 @@
 {"en": "to put on", "hr": ["obući"]}
 {"en": "to suit", "hr": ["odgovarati"]}
 {"en": "to cut off", "hr": ["odrezati", "odsjeći"]}
-{"en": "to take away", "hr": ["odvesti", "odvoziti"]}
+{"en": "to take away", "hr": ["odvesti", "odvoziti", "oduzimati"]}
 {"en": "to go away", "hr": ["otići", "odlaziti"]}
 {"en": "to take off", "hr": ["poletjeti"]}
 {"en": "to obey", "hr": ["poslušati"]}
@@ -1899,11 +1899,11 @@
 {"en": "too much", "hr": ["previše"]}
 {"en": "right now", "hr": ["upravo"]}
 {"en": "yet", "hr": ["još"]}
-{"en": "more", "hr": ["još"]}
+{"en": "more", "hr": ["još", "više"]}
 {"en": "at that time", "hr": ["tada"]}
-{"en": "like that", "hr": ["tako"]}
+{"en": "like that", "hr": ["tako", "takav", "onakav"]}
 {"en": "how many", "hr": ["koliko"]}
-{"en": "last night", "hr": ["noćas"]}
+{"en": "last night", "hr": ["noćas", "sinoć"]}
 {"en": "homewards", "hr": ["kući"]}
 {"en": "a few", "hr": ["nekoliko"]}
 {"en": "several", "hr": ["nekoliko"]}
@@ -1915,7 +1915,7 @@
 {"en": "pardon", "hr": ["molim"]}
 {"en": "good day", "hr": ["dobar dan"]}
 {"en": "good afternoon", "hr": ["dobar dan"]}
-{"en": "everyone", "hr": ["svi"]}
+{"en": "everyone", "hr": ["svi", "svatko"]}
 {"en": "to her", "hr": ["joj"]}
 {"en": "to increase", "hr": ["porasti"]}
 {"en": "to start shining", "hr": ["zasjati"]}
@@ -1945,3 +1945,502 @@
 {"en": "to start walking", "hr": ["prohodati"]}
 {"en": "to set sail", "hr": ["zaploviti"]}
 {"en": "one's own", "hr": ["svoj"]}
+{"en": "nowhere", "hr": ["nigdje"]}
+{"en": "somewhere", "hr": ["negdje"]}
+{"en": "everywhere", "hr": ["svugdje"]}
+{"en": "all around", "hr": ["posvuda"]}
+{"en": "nowhere (direction)", "hr": ["nikamo"]}
+{"en": "(to) here", "hr": ["ovamo"]}
+{"en": "(to) there", "hr": ["onamo"]}
+{"en": "from here", "hr": ["odavde"]}
+{"en": "from there", "hr": ["odande"]}
+{"en": "from outside", "hr": ["izvana"]}
+{"en": "the day before yesterday", "hr": ["prekjučer"]}
+{"en": "the day after tomorrow", "hr": ["prekosutra"]}
+{"en": "in the afternoon", "hr": ["popodne"]}
+{"en": "always (since forever)", "hr": ["oduvijek"]}
+{"en": "so far", "hr": ["dosad"]}
+{"en": "suddenly", "hr": ["odjednom"]}
+{"en": "soon after", "hr": ["ubrzo"]}
+{"en": "at the same time", "hr": ["istovremeno"]}
+{"en": "regularly", "hr": ["redovito"]}
+{"en": "daily", "hr": ["svakodnevno"]}
+{"en": "weekly", "hr": ["tjedno"]}
+{"en": "monthly", "hr": ["mjesečno"]}
+{"en": "yearly", "hr": ["godišnje"]}
+{"en": "twice", "hr": ["dvaput"]}
+{"en": "at least", "hr": ["barem"]}
+{"en": "barely", "hr": ["jedva"]}
+{"en": "even", "hr": ["čak"]}
+{"en": "mostly", "hr": ["uglavnom"]}
+{"en": "especially", "hr": ["posebno"]}
+{"en": "at all", "hr": ["uopće"]}
+{"en": "actually", "hr": ["zapravo"]}
+{"en": "I guess", "hr": ["valjda"]}
+{"en": "allegedly", "hr": ["navodno"]}
+{"en": "no way", "hr": ["nikako"]}
+{"en": "by all means", "hr": ["svakako"]}
+{"en": "less", "hr": ["manje"]}
+{"en": "most", "hr": ["najviše"]}
+{"en": "least", "hr": ["najmanje"]}
+{"en": "fairly", "hr": ["prilično"]}
+{"en": "completely", "hr": ["potpuno"]}
+{"en": "partly", "hr": ["djelomično"]}
+{"en": "underneath", "hr": ["pod (prijedlog)"]}
+{"en": "along", "hr": ["po", "duž"]}
+{"en": "by", "hr": ["po"]}
+{"en": "alongside", "hr": ["uz"]}
+{"en": "down along", "hr": ["niz"]}
+{"en": "in the middle of", "hr": ["nasred", "sredinom"]}
+{"en": "opposite", "hr": ["nasuprot"]}
+{"en": "despite", "hr": ["unatoč"]}
+{"en": "in spite of", "hr": ["usprkos"]}
+{"en": "for the sake of", "hr": ["radi"]}
+{"en": "bypassing", "hr": ["mimo"]}
+{"en": "at the end of", "hr": ["krajem"]}
+{"en": "at the beginning of", "hr": ["početkom"]}
+{"en": "close to", "hr": ["blizu (prijedlog)"]}
+{"en": "in case", "hr": ["ukoliko"]}
+{"en": "that is", "hr": ["odnosno"]}
+{"en": "respectively", "hr": ["odnosno"]}
+{"en": "as if", "hr": ["kao da"]}
+{"en": "here (is)", "hr": ["evo"]}
+{"en": "there you go", "hr": ["eto"]}
+{"en": "there (is)", "hr": ["eno"]}
+{"en": "let", "hr": ["neka"]}
+{"en": "however", "hr": ["pak"]}
+{"en": "good morning", "hr": ["dobro jutro"]}
+{"en": "good evening", "hr": ["dobra večer"]}
+{"en": "good night", "hr": ["laku noć"]}
+{"en": "see you", "hr": ["vidimo se"]}
+{"en": "nice to meet you", "hr": ["drago mi je"]}
+{"en": "how are you (informal)", "hr": ["kako si"]}
+{"en": "how are you (formal)", "hr": ["kako ste"]}
+{"en": "I'm sorry", "hr": ["žao mi je"]}
+{"en": "you're welcome", "hr": ["nema na čemu"]}
+{"en": "excuse me", "hr": ["oprostite"]}
+{"en": "sorry", "hr": ["oprostite"]}
+{"en": "here you go", "hr": ["izvolite"]}
+{"en": "go ahead", "hr": ["izvolite", "izvoliti"]}
+{"en": "good luck", "hr": ["sretno"]}
+{"en": "congratulations", "hr": ["čestitam"]}
+{"en": "happy birthday", "hr": ["sretan rođendan"]}
+{"en": "have a good trip", "hr": ["sretan put"]}
+{"en": "cheers", "hr": ["živjeli"]}
+{"en": "no problem", "hr": ["nema problema"]}
+{"en": "OK", "hr": ["u redu"]}
+{"en": "alright", "hr": ["u redu"]}
+{"en": "just a moment", "hr": ["samo malo"]}
+{"en": "never mind", "hr": ["nema veze"]}
+{"en": "thank you very much", "hr": ["hvala lijepa"]}
+{"en": "bless you", "hr": ["na zdravlje"]}
+{"en": "to your health", "hr": ["na zdravlje"]}
+{"en": "I don't understand", "hr": ["ne razumijem"]}
+{"en": "what time is it", "hr": ["koliko je sati"]}
+{"en": "how much does it cost", "hr": ["koliko košta"]}
+{"en": "what's your name", "hr": ["kako se zoveš"]}
+{"en": "could you repeat that", "hr": ["možete li ponoviti"]}
+{"en": "do you speak English", "hr": ["govorite li engleski"]}
+{"en": "slowly please", "hr": ["polako molim"]}
+{"en": "what does it mean", "hr": ["što znači"]}
+{"en": "zero", "hr": ["nula"]}
+{"en": "thirteen", "hr": ["trinaest"]}
+{"en": "fourteen", "hr": ["četrnaest"]}
+{"en": "fifteen", "hr": ["petnaest"]}
+{"en": "sixteen", "hr": ["šesnaest"]}
+{"en": "seventeen", "hr": ["sedamnaest"]}
+{"en": "eighteen", "hr": ["osamnaest"]}
+{"en": "nineteen", "hr": ["devetnaest"]}
+{"en": "forty", "hr": ["četrdeset"]}
+{"en": "fifty", "hr": ["pedeset"]}
+{"en": "sixty", "hr": ["šezdeset"]}
+{"en": "seventy", "hr": ["sedamdeset"]}
+{"en": "eighty", "hr": ["osamdeset"]}
+{"en": "ninety", "hr": ["devedeset"]}
+{"en": "two hundred", "hr": ["dvjesto"]}
+{"en": "three hundred", "hr": ["tristo"]}
+{"en": "fourth", "hr": ["četvrti"]}
+{"en": "fifth", "hr": ["peti"]}
+{"en": "sixth", "hr": ["šesti"]}
+{"en": "seventh", "hr": ["sedmi"]}
+{"en": "eighth", "hr": ["osmi"]}
+{"en": "ninth", "hr": ["deveti"]}
+{"en": "tenth", "hr": ["deseti"]}
+{"en": "twentieth", "hr": ["dvadeseti"]}
+{"en": "both", "hr": ["oboje"]}
+{"en": "nobody", "hr": ["nitko"]}
+{"en": "not a single one", "hr": ["nijedan"]}
+{"en": "no kind of", "hr": ["nikakav"]}
+{"en": "nobody's", "hr": ["ničiji"]}
+{"en": "all sorts of things", "hr": ["svašta"]}
+{"en": "such", "hr": ["takav"]}
+{"en": "like this", "hr": ["ovakav", "ovako"]}
+{"en": "grey", "hr": ["siv"]}
+{"en": "brown", "hr": ["smeđ"]}
+{"en": "purple", "hr": ["ljubičast"]}
+{"en": "pink", "hr": ["ružičast", "roza"]}
+{"en": "golden", "hr": ["zlatan"]}
+{"en": "silver", "hr": ["srebrn"]}
+{"en": "dark blue", "hr": ["tamnoplav"]}
+{"en": "round", "hr": ["okrugao"]}
+{"en": "smooth", "hr": ["gladak"]}
+{"en": "blunt", "hr": ["tup"]}
+{"en": "hot", "hr": ["vruć"]}
+{"en": "lukewarm", "hr": ["mlak"]}
+{"en": "chilly", "hr": ["prohladan"]}
+{"en": "icy", "hr": ["leden"]}
+{"en": "sunny", "hr": ["sunčan"]}
+{"en": "cloudy", "hr": ["oblačan"]}
+{"en": "windy", "hr": ["vjetrovit"]}
+{"en": "rainy", "hr": ["kišovit"]}
+{"en": "snowy", "hr": ["snježan"]}
+{"en": "patient", "hr": ["strpljiv"]}
+{"en": "impatient", "hr": ["nestrpljiv"]}
+{"en": "proud", "hr": ["ponosan"]}
+{"en": "jealous", "hr": ["ljubomoran"]}
+{"en": "shy", "hr": ["sramežljiv"]}
+{"en": "lazy", "hr": ["lijen"]}
+{"en": "persistent", "hr": ["uporan"]}
+{"en": "stubborn", "hr": ["tvrdoglav"]}
+{"en": "polite", "hr": ["pristojan", "ljubazan"]}
+{"en": "nervous", "hr": ["nervozan"]}
+{"en": "excited", "hr": ["uzbuđen"]}
+{"en": "disappointed", "hr": ["razočaran"]}
+{"en": "surprised", "hr": ["iznenađen"]}
+{"en": "confused", "hr": ["zbunjen"]}
+{"en": "curious", "hr": ["znatiželjan"]}
+{"en": "belly", "hr": ["trbuh"]}
+{"en": "chest", "hr": ["prsa"]}
+{"en": "throat", "hr": ["grlo"]}
+{"en": "chin", "hr": ["brada"]}
+{"en": "beard", "hr": ["brada"]}
+{"en": "cheek", "hr": ["obraz"]}
+{"en": "lip", "hr": ["usna"]}
+{"en": "eyebrow", "hr": ["obrva"]}
+{"en": "eyelash", "hr": ["trepavica"]}
+{"en": "nail", "hr": ["nokat"]}
+{"en": "elbow", "hr": ["lakat"]}
+{"en": "ankle", "hr": ["gležanj"]}
+{"en": "palm", "hr": ["dlan"]}
+{"en": "thumb", "hr": ["palac"]}
+{"en": "heel", "hr": ["peta"]}
+{"en": "hip", "hr": ["bok (dio tijela)"]}
+{"en": "muscle", "hr": ["mišić"]}
+{"en": "stomach", "hr": ["želudac"]}
+{"en": "lungs", "hr": ["pluća"]}
+{"en": "spine", "hr": ["kralježnica"]}
+{"en": "hallway", "hr": ["hodnik"]}
+{"en": "staircase", "hr": ["stubište"]}
+{"en": "lift", "hr": ["dizalo"]}
+{"en": "terrace", "hr": ["terasa"]}
+{"en": "yard", "hr": ["dvorište"]}
+{"en": "shower", "hr": ["tuš"]}
+{"en": "bathtub", "hr": ["kada (imenica)"]}
+{"en": "tub", "hr": ["kada (imenica)"]}
+{"en": "toilet", "hr": ["zahod"]}
+{"en": "mirror", "hr": ["ogledalo"]}
+{"en": "rug", "hr": ["tepih"]}
+{"en": "blanket", "hr": ["deka"]}
+{"en": "bedsheet", "hr": ["plahta"]}
+{"en": "mattress", "hr": ["madrac"]}
+{"en": "drawer", "hr": ["ladica"]}
+{"en": "washing machine", "hr": ["perilica"]}
+{"en": "vacuum cleaner", "hr": ["usisavač"]}
+{"en": "light bulb", "hr": ["žarulja"]}
+{"en": "socket", "hr": ["utičnica"]}
+{"en": "switch", "hr": ["prekidač"]}
+{"en": "lock", "hr": ["brava"]}
+{"en": "ceiling", "hr": ["strop"]}
+{"en": "heating", "hr": ["grijanje"]}
+{"en": "rubbish", "hr": ["smeće"]}
+{"en": "garbage", "hr": ["smeće"]}
+{"en": "trash", "hr": ["smeće"]}
+{"en": "bin", "hr": ["kanta"]}
+{"en": "butter", "hr": ["maslac"]}
+{"en": "cream", "hr": ["vrhnje"]}
+{"en": "honey", "hr": ["med"]}
+{"en": "pepper", "hr": ["papar"]}
+{"en": "vinegar", "hr": ["ocat"]}
+{"en": "garlic", "hr": ["češnjak"]}
+{"en": "cucumber", "hr": ["krastavac"]}
+{"en": "bell pepper", "hr": ["paprika"]}
+{"en": "mushroom", "hr": ["gljiva"]}
+{"en": "peas", "hr": ["grašak"]}
+{"en": "watermelon", "hr": ["lubenica"]}
+{"en": "melon", "hr": ["dinja"]}
+{"en": "apricot", "hr": ["marelica"]}
+{"en": "blueberry", "hr": ["borovnica"]}
+{"en": "fig", "hr": ["smokva"]}
+{"en": "almond", "hr": ["badem"]}
+{"en": "sausage", "hr": ["kobasica"]}
+{"en": "ham", "hr": ["šunka"]}
+{"en": "beef", "hr": ["govedina"]}
+{"en": "tuna", "hr": ["tuna"]}
+{"en": "starter", "hr": ["predjelo"]}
+{"en": "dessert", "hr": ["desert"]}
+{"en": "side dish", "hr": ["prilog"]}
+{"en": "adverb", "hr": ["prilog"]}
+{"en": "checkout", "hr": ["blagajna"]}
+{"en": "basket", "hr": ["košarica"]}
+{"en": "jeans", "hr": ["traperice"]}
+{"en": "suit", "hr": ["odijelo"]}
+{"en": "tie", "hr": ["kravata"]}
+{"en": "glove", "hr": ["rukavica"]}
+{"en": "boot", "hr": ["čizma"]}
+{"en": "sneaker", "hr": ["tenisica"]}
+{"en": "sandal", "hr": ["sandala"]}
+{"en": "slipper", "hr": ["papuča"]}
+{"en": "pyjamas", "hr": ["pidžama"]}
+{"en": "glasses", "hr": ["naočale"]}
+{"en": "spectacles", "hr": ["naočale"]}
+{"en": "ring", "hr": ["prsten"]}
+{"en": "necklace", "hr": ["ogrlica"]}
+{"en": "earring", "hr": ["naušnica"]}
+{"en": "backpack", "hr": ["ruksak"]}
+{"en": "laundry", "hr": ["rublje"]}
+{"en": "underwear", "hr": ["rublje"]}
+{"en": "fitting", "hr": ["proba"]}
+{"en": "rehearsal", "hr": ["proba"]}
+{"en": "blazer", "hr": ["sako"]}
+{"en": "thunder", "hr": ["grmljavina"]}
+{"en": "hail", "hr": ["tuča"]}
+{"en": "frost", "hr": ["mraz"]}
+{"en": "rainbow", "hr": ["duga"]}
+{"en": "heat", "hr": ["vrućina"]}
+{"en": "humidity", "hr": ["vlaga"]}
+{"en": "bura wind", "hr": ["bura"]}
+{"en": "south wind", "hr": ["jugo"]}
+{"en": "jugo", "hr": ["jugo"]}
+{"en": "forecast", "hr": ["prognoza"]}
+{"en": "north", "hr": ["sjever"]}
+{"en": "south", "hr": ["jug"]}
+{"en": "east", "hr": ["istok"]}
+{"en": "west", "hr": ["zapad"]}
+{"en": "valley", "hr": ["dolina"]}
+{"en": "cove", "hr": ["uvala"]}
+{"en": "bay", "hr": ["zaljev"]}
+{"en": "peninsula", "hr": ["poluotok"]}
+{"en": "cave", "hr": ["špilja"]}
+{"en": "stream", "hr": ["potok"]}
+{"en": "waterfall", "hr": ["vodopad"]}
+{"en": "source", "hr": ["izvor"]}
+{"en": "desert", "hr": ["pustinja"]}
+{"en": "border", "hr": ["granica"]}
+{"en": "continent", "hr": ["kontinent"]}
+{"en": "ocean", "hr": ["ocean"]}
+{"en": "leaf", "hr": ["list"]}
+{"en": "sheet", "hr": ["list"]}
+{"en": "root", "hr": ["korijen"]}
+{"en": "seed", "hr": ["sjeme"]}
+{"en": "ATM", "hr": ["bankomat"]}
+{"en": "cash", "hr": ["gotovina"]}
+{"en": "banknote", "hr": ["novčanica"]}
+{"en": "coin", "hr": ["kovanica"]}
+{"en": "crowd", "hr": ["gužva"]}
+{"en": "traffic jam", "hr": ["gužva"]}
+{"en": "sign", "hr": ["znak"]}
+{"en": "address", "hr": ["adresa"]}
+{"en": "departure", "hr": ["polazak"]}
+{"en": "arrival", "hr": ["dolazak"]}
+{"en": "delay", "hr": ["kašnjenje"]}
+{"en": "headache", "hr": ["glavobolja"]}
+{"en": "flu", "hr": ["gripa"]}
+{"en": "inflammation", "hr": ["upala"]}
+{"en": "pill", "hr": ["tableta"]}
+{"en": "bandage", "hr": ["zavoj"]}
+{"en": "vaccine", "hr": ["cjepivo"]}
+{"en": "referral", "hr": ["uputnica"]}
+{"en": "dentist", "hr": ["zubar"]}
+{"en": "doctor's office", "hr": ["ordinacija"]}
+{"en": "waiting room", "hr": ["čekaonica"]}
+{"en": "symptom", "hr": ["simptom"]}
+{"en": "surgery", "hr": ["operacija"]}
+{"en": "fatigue", "hr": ["umor"]}
+{"en": "anger", "hr": ["ljutnja"]}
+{"en": "rage", "hr": ["bijes"]}
+{"en": "pride", "hr": ["ponos"]}
+{"en": "shame", "hr": ["sram"]}
+{"en": "surprise", "hr": ["iznenađenje"]}
+{"en": "boredom", "hr": ["dosada"]}
+{"en": "patience", "hr": ["strpljenje"]}
+{"en": "trust", "hr": ["povjerenje"]}
+{"en": "respect", "hr": ["poštovanje"]}
+{"en": "app", "hr": ["aplikacija"]}
+{"en": "charger", "hr": ["punjač"]}
+{"en": "battery", "hr": ["baterija"]}
+{"en": "keyboard", "hr": ["tipkovnica"]}
+{"en": "file", "hr": ["datoteka"]}
+{"en": "comment", "hr": ["komentar"]}
+{"en": "profile", "hr": ["profil"]}
+{"en": "user", "hr": ["korisnik"]}
+{"en": "recording", "hr": ["snimka"]}
+{"en": "search", "hr": ["pretraga"]}
+{"en": "notification", "hr": ["obavijest"]}
+{"en": "headphones", "hr": ["slušalice"]}
+{"en": "earphones", "hr": ["slušalice"]}
+{"en": "laptop", "hr": ["prijenosnik"]}
+{"en": "billion", "hr": ["milijarda"]}
+{"en": "third (fraction)", "hr": ["trećina"]}
+{"en": "pair", "hr": ["par"]}
+{"en": "couple", "hr": ["par"]}
+{"en": "both (m)", "hr": ["obojica"]}
+{"en": "fast food", "hr": ["brza hrana"]}
+{"en": "swimsuit", "hr": ["kupaći kostim"]}
+{"en": "capital city", "hr": ["glavni grad"]}
+{"en": "pedestrian crossing", "hr": ["pješački prijelaz"]}
+{"en": "roundabout", "hr": ["kružni tok"]}
+{"en": "petrol station", "hr": ["benzinska postaja"]}
+{"en": "return ticket", "hr": ["povratna karta"]}
+{"en": "emergency services", "hr": ["hitna pomoć"]}
+{"en": "to throw", "hr": ["baciti", "bacati"]}
+{"en": "to catch", "hr": ["uhvatiti", "hvatati"]}
+{"en": "to hold", "hr": ["držati"]}
+{"en": "to push", "hr": ["gurnuti", "gurati"]}
+{"en": "to touch", "hr": ["dodirnuti"]}
+{"en": "to kiss", "hr": ["poljubiti"]}
+{"en": "to hug", "hr": ["zagrliti"]}
+{"en": "to shout", "hr": ["viknuti", "vikati"]}
+{"en": "to whisper", "hr": ["šaptati"]}
+{"en": "to calm down", "hr": ["smiriti se"]}
+{"en": "to relax", "hr": ["opustiti se"]}
+{"en": "to look forward to", "hr": ["radovati se"]}
+{"en": "to fall asleep", "hr": ["zaspati"]}
+{"en": "to shower", "hr": ["tuširati se"]}
+{"en": "to bathe", "hr": ["kupati se", "okupati se"]}
+{"en": "to put on shoes", "hr": ["obuti se", "obuvati se"]}
+{"en": "to take off shoes", "hr": ["izuti se", "izuvati se"]}
+{"en": "to tidy up", "hr": ["spremiti", "spremati"]}
+{"en": "to prepare", "hr": ["spremiti", "spremati"]}
+{"en": "to clean up", "hr": ["počistiti"]}
+{"en": "to lock", "hr": ["zaključati", "zaključavati"]}
+{"en": "to unlock", "hr": ["otključati", "otključavati"]}
+{"en": "to hide", "hr": ["sakriti", "skrivati"]}
+{"en": "to cover", "hr": ["pokriti", "pokrivati"]}
+{"en": "to move something", "hr": ["premjestiti"]}
+{"en": "to subtract", "hr": ["oduzeti", "oduzimati"]}
+{"en": "take away", "hr": ["oduzeti"]}
+{"en": "to add up", "hr": ["zbrojiti", "zbrajati"]}
+{"en": "to measure", "hr": ["mjeriti", "izmjeriti"]}
+{"en": "to chew", "hr": ["žvakati"]}
+{"en": "to swallow", "hr": ["progutati", "gutati"]}
+{"en": "to pour", "hr": ["natočiti", "natakati"]}
+{"en": "to spill", "hr": ["proliti", "prolijevati"]}
+{"en": "to book", "hr": ["rezervirati"]}
+{"en": "to confirm", "hr": ["potvrditi", "potvrđivati"]}
+{"en": "to refuse", "hr": ["odbiti", "odbijati"]}
+{"en": "to suggest", "hr": ["predložiti", "predlagati"]}
+{"en": "to advise", "hr": ["savjetovati"]}
+{"en": "to offer", "hr": ["ponuditi", "nuditi"]}
+{"en": "to notice", "hr": ["primijetiti"]}
+{"en": "to recognise", "hr": ["prepoznati", "prepoznavati"]}
+{"en": "to apologise", "hr": ["ispričati se"]}
+{"en": "to have breakfast", "hr": ["doručkovati"]}
+{"en": "to ring", "hr": ["zvoniti", "zazvoniti"]}
+{"en": "dance", "hr": ["ples"]}
+{"en": "American", "hr": ["Amerikanac", "Amerikanka"]}
+{"en": "American man", "hr": ["Amerikanac"]}
+{"en": "American (female)", "hr": ["Amerikanka"]}
+{"en": "Austrian", "hr": ["Austrijanac", "Austrijanka"]}
+{"en": "Austrian man", "hr": ["Austrijanac"]}
+{"en": "Austrian (female)", "hr": ["Austrijanka"]}
+{"en": "director (female)", "hr": ["direktorica"]}
+{"en": "manager (female)", "hr": ["direktorica"]}
+{"en": "Englishwoman", "hr": ["Engleskinja"]}
+{"en": "English (female)", "hr": ["Engleskinja"]}
+{"en": "Englishman", "hr": ["Englez"]}
+{"en": "English", "hr": ["Englez"]}
+{"en": "Frenchwoman", "hr": ["Francuskinja"]}
+{"en": "French (female)", "hr": ["Francuskinja"]}
+{"en": "Frenchman", "hr": ["Francuz"]}
+{"en": "French", "hr": ["Francuz"]}
+{"en": "hairdresser", "hr": ["frizer", "frizerka"]}
+{"en": "barber", "hr": ["frizer"]}
+{"en": "hairdresser (female)", "hr": ["frizerka"]}
+{"en": "actress", "hr": ["glumica"]}
+{"en": "actor (female)", "hr": ["glumica"]}
+{"en": "Croat", "hr": ["Hrvat"]}
+{"en": "Croatian", "hr": ["Hrvat"]}
+{"en": "Croat (female)", "hr": ["Hrvatica"]}
+{"en": "Croatian woman", "hr": ["Hrvatica"]}
+{"en": "Croatia", "hr": ["Hrvatska"]}
+{"en": "colleague (female)", "hr": ["kolegica"]}
+{"en": "cook", "hr": ["kuhar"]}
+{"en": "chef", "hr": ["kuhar"]}
+{"en": "cook (female)", "hr": ["kuharica"]}
+{"en": "chef (female)", "hr": ["kuharica"]}
+{"en": "cookbook", "hr": ["kuharica"]}
+{"en": "friendly", "hr": ["ljubazan", "simpatičan"]}
+{"en": "German", "hr": ["Nijemac", "Njemica"]}
+{"en": "German man", "hr": ["Nijemac"]}
+{"en": "German (female)", "hr": ["Njemica"]}
+{"en": "journalist (female)", "hr": ["novinarka"]}
+{"en": "reporter (female)", "hr": ["novinarka"]}
+{"en": "from where", "hr": ["odakle"]}
+{"en": "where from", "hr": ["odakle"]}
+{"en": "lawyer (female)", "hr": ["odvjetnica"]}
+{"en": "attorney (female)", "hr": ["odvjetnica"]}
+{"en": "lawyer", "hr": ["odvjetnica", "odvjetnik"]}
+{"en": "attorney", "hr": ["odvjetnik"]}
+{"en": "solicitor", "hr": ["odvjetnik"]}
+{"en": "pilot (female)", "hr": ["pilotkinja"]}
+{"en": "policewoman", "hr": ["policajka"]}
+{"en": "police officer (female)", "hr": ["policajka"]}
+{"en": "worker (female)", "hr": ["radnica"]}
+{"en": "likeable", "hr": ["simpatičan"]}
+{"en": "Italian", "hr": ["Talijan", "Talijanka"]}
+{"en": "Italian man", "hr": ["Talijan"]}
+{"en": "Italian (female)", "hr": ["Talijanka"]}
+{"en": "driver (female)", "hr": ["vozačica"]}
+{"en": "goalkeeper (female)", "hr": ["vratarka"]}
+{"en": "hardworking", "hr": ["vrijedan"]}
+{"en": "diligent", "hr": ["vrijedan"]}
+{"en": "valuable", "hr": ["vrijedan"]}
+{"en": "entertaining", "hr": ["zabavan"]}
+{"en": "amusing", "hr": ["zabavan"]}
+{"en": "boss (female)", "hr": ["šefica"]}
+{"en": "Spaniard", "hr": ["Španjolac"]}
+{"en": "Spanish man", "hr": ["Španjolac"]}
+{"en": "Spaniard (female)", "hr": ["Španjolka"]}
+{"en": "Spanish woman", "hr": ["Španjolka"]}
+{"en": "to draw", "hr": ["crtati", "nacrtati"]}
+{"en": "cartoon", "hr": ["crtić"]}
+{"en": "enjoy your meal", "hr": ["dobar tek"]}
+{"en": "bon appetit", "hr": ["dobar tek"]}
+{"en": "goodbye", "hr": ["doviđenja"]}
+{"en": "fan", "hr": ["fan"]}
+{"en": "seal", "hr": ["foka"]}
+{"en": "hello (on the phone)", "hr": ["halo"]}
+{"en": "here you are", "hr": ["izvoliti"]}
+{"en": "dish", "hr": ["jelo"]}
+{"en": "yoghurt", "hr": ["jogurt"]}
+{"en": "yogurt", "hr": ["jogurt"]}
+{"en": "what kind of", "hr": ["kakav"]}
+{"en": "what ... like", "hr": ["kakav"]}
+{"en": "legend", "hr": ["legenda"]}
+{"en": "clothes", "hr": ["odjeća"]}
+{"en": "clothing", "hr": ["odjeća"]}
+{"en": "to describe", "hr": ["opisati", "opisivati"]}
+{"en": "to forgive", "hr": ["oprostiti", "opraštati"]}
+{"en": "to excuse", "hr": ["oprostiti"]}
+{"en": "organic", "hr": ["organski"]}
+{"en": "this way", "hr": ["ovako"]}
+{"en": "to exist", "hr": ["postojati"]}
+{"en": "there is", "hr": ["postojati"]}
+{"en": "to copy out", "hr": ["prepisati"]}
+{"en": "to transcribe", "hr": ["prepisati", "prepisivati"]}
+{"en": "transport", "hr": ["prijevoz"]}
+{"en": "transportation", "hr": ["prijevoz"]}
+{"en": "novel", "hr": ["roman"]}
+{"en": "to have dinner", "hr": ["večerati"]}
+{"en": "to note down", "hr": ["zapisati", "zapisivati"]}
+{"en": "to write down", "hr": ["zapisati", "zapisivati"]}
+{"en": "choir", "hr": ["zbor"]}
+{"en": "magazine", "hr": ["časopis"]}
+{"en": "to be silent", "hr": ["šutjeti"]}
+{"en": "to keep quiet", "hr": ["šutjeti"]}
+{"en": "to reject", "hr": ["odbijati"]}
+{"en": "to propose", "hr": ["predlagati"]}
+{"en": "to relocate", "hr": ["premještati"]}
+{"en": "to recognize", "hr": ["prepoznavati"]}
+{"en": "to have a bath", "hr": ["okupati se"]}
+{"en": "to copy", "hr": ["prepisivati"]}

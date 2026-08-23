@@ -4,6 +4,7 @@ Ana piše pismo
 Ana radi
 Ana spava, pas spava. Dan je miran
 Ana čita tekst
+automobil
 Automobil je brz
 Automobil je crn
 Automobil je crven
@@ -30,23 +31,29 @@ Dobro jutro!
 Dobro sam, hvala
 Dobro sam, hvala. A vi?
 Doviđenja!
+drag
 Drago mi je!
 Drago mi je, Maja!
 Engleskinja
 Englez
+glumac
+gost
 Grad je lijep
 Grad je star
 Hotel je moderan
 Hotel je velik
+hrabar
 Hrvat
 Hrvati su ljubazni
 Hrvatica
 Hrvatska
+hrvatski
 Hvala!
 Hvala! Ja sam i vesela
 Hvala! Vi ste jako ljubazni
 I ja sam dobro. Vi ste turisti?
 I meni, Ivane!
+ime
 Ivana je vratarka
 Ja gledam udžbenik
 Ja jedem kruh
@@ -55,14 +62,14 @@ Ja pišem e-mail
 Ja pišem pismo
 Ja pišem tekst
 Ja radim
+Ja sam gladan
 Ja sam Hrvat
 Ja sam Hrvat, iz Splita
 Ja sam Hrvat, iz Splita. A ti?
-Ja sam Talijanka
-Ja sam Talijanka, ali sam sada u Zagrebu
-Ja sam gladan
 Ja sam jako žedan
 Ja sam kuhar
+Ja sam Talijanka
+Ja sam Talijanka, ali sam sada u Zagrebu
 Ja sam umorna i gladna
 Ja sam učiteljica
 Ja sam žedan
@@ -90,6 +97,7 @@ Kava je topla i dobra
 Knjiga je lijepa
 Knjiga je stara
 Krevet je nov
+kuhar
 Kuhar je vrijedan
 Kuća je bijela
 Kuća je bijela i velika
@@ -98,6 +106,7 @@ Kuća je stara
 Kuća je stara, ali je lijepa
 Lampa je nova
 Lampa je zelena
+ljubazan
 Marko gleda udžbenik
 Marko je jak
 Marko jede kruh
@@ -127,9 +136,13 @@ Nebo je veliko
 Nema na čemu
 Nema na čemu. Doviđenja!
 Nijemac
+nizak
 Njemica
+novinar
+odakle
 Odakle si?
 Odlično! Vidimo se!
+odvjetnik
 On gleda... sendvič!
 On je drag
 On je glumac
@@ -188,17 +201,21 @@ Oni su zabavni
 Oni su zauzeti
 Oprosti!
 Ovo je Damir
-Ovo je Petra
 Ovo je grad
 Ovo je knjiga
+Ovo je Petra
 Ovo je susjed
+ozbiljan
 Pas jede kruh
 Pilot? To je super!
+pjevač
 Policajac je ozbiljan
+popodne
 Posao je dobar
 Posao je dobar i zabavan
 Poslije pas spava
 Problem je velik
+radnik
 Restoran je nov
 Sestra jede sendvič
 Sladoled je dobar
@@ -249,6 +266,7 @@ Tko si ti? Student?
 Trener je star
 Turisti su veseli
 Učim hrvatski. A ti?
+učitelj
 Učiteljica je draga
 Velika ili mala?
 Vi ste jako ljubazni
@@ -258,27 +276,10 @@ Vi ste profesor
 Vi ste turisti?
 Vi ste zauzeti
 Vidimo se!
-Zid je zelen
-automobil
-drag
-glumac
-gost
-hrabar
-hrvatski
-ime
-kuhar
-ljubazan
-nizak
-novinar
-odakle
-odvjetnik
-ozbiljan
-pjevač
-radnik
-učitelj
 vozač
 vrijedan
 zabavan
 zauzet
+Zid je zelen
 Čokolada je dobra
 šef
