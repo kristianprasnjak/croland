@@ -20,8 +20,8 @@
 {"en": "to agree", "hr": ["dogovoriti", "pristati", "dogovarati", "pristajati"]}
 {"en": "agreement", "hr": ["dogovor", "ugovor"]}
 {"en": "air", "hr": ["zrak"]}
-{"en": "airplane", "hr": ["avion"]}
-{"en": "airport", "hr": ["aerodrom"]}
+{"en": "airplane", "hr": ["avion", "zrakoplov"]}
+{"en": "airport", "hr": ["aerodrom", "zračna luka"]}
 {"en": "alarm", "hr": ["alarm"]}
 {"en": "alive", "hr": ["živ"]}
 {"en": "all", "hr": ["sav", "cijeli", "svi", "sve"]}
@@ -1112,7 +1112,7 @@
 {"en": "alarm clock", "hr": ["alarm"]}
 {"en": "automobile", "hr": ["auto", "automobil"]}
 {"en": "plane", "hr": ["avion"]}
-{"en": "aircraft", "hr": ["avion"]}
+{"en": "aircraft", "hr": ["avion", "zrakoplov"]}
 {"en": "badminton", "hr": ["badminton"]}
 {"en": "bike", "hr": ["bicikl"]}
 {"en": "bonbon", "hr": ["bombon"]}
@@ -1789,7 +1789,7 @@
 {"en": "kitchen sink", "hr": ["sudoper"]}
 {"en": "saucepan", "hr": ["lonac"]}
 {"en": "lid", "hr": ["poklopac"]}
-{"en": "cover", "hr": ["poklopac"]}
+{"en": "cover", "hr": ["poklopac", "pokrivač"]}
 {"en": "board", "hr": ["daska"]}
 {"en": "plank", "hr": ["daska"]}
 {"en": "chopping board", "hr": ["daska"]}
@@ -2138,9 +2138,9 @@
 {"en": "bathtub", "hr": ["kada (imenica)"]}
 {"en": "tub", "hr": ["kada (imenica)"]}
 {"en": "toilet", "hr": ["zahod"]}
-{"en": "mirror", "hr": ["ogledalo"]}
-{"en": "rug", "hr": ["tepih"]}
-{"en": "blanket", "hr": ["deka"]}
+{"en": "mirror", "hr": ["ogledalo", "zrcalo"]}
+{"en": "rug", "hr": ["tepih", "sag"]}
+{"en": "blanket", "hr": ["deka", "pokrivač"]}
 {"en": "bedsheet", "hr": ["plahta"]}
 {"en": "mattress", "hr": ["madrac"]}
 {"en": "drawer", "hr": ["ladica"]}
@@ -2408,7 +2408,7 @@
 {"en": "bon appetit", "hr": ["dobar tek"]}
 {"en": "goodbye", "hr": ["doviđenja"]}
 {"en": "fan", "hr": ["fan"]}
-{"en": "seal", "hr": ["foka"]}
+{"en": "seal", "hr": ["foka", "tuljan"]}
 {"en": "hello (on the phone)", "hr": ["halo"]}
 {"en": "here you are", "hr": ["izvoliti"]}
 {"en": "dish", "hr": ["jelo"]}
@@ -2444,3 +2444,6 @@
 {"en": "to recognize", "hr": ["prepoznavati"]}
 {"en": "to have a bath", "hr": ["okupati se"]}
 {"en": "to copy", "hr": ["prepisivati"]}
+{"en": "carpet", "hr": ["sag"]}
+{"en": "waist", "hr": ["struk"]}
+{"en": "peanut", "hr": ["kikiriki"]}

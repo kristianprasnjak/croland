@@ -1299,6 +1299,55 @@
   var ENTITLEMENT = null;      // current user's profiles row, or null
   var SESSION_SPREMNA = false; // je li početna provjera sesije (getSession) gotova
 
+  // Adresa na koju se korisnik vraća iz prijave. Namjerno bez fragmenta i querya: Supabase
+  // na nju nadovezuje #access_token=..., pa bi zaostali #error= od prethodnog pokušaja dao
+  // dvostruki fragment koji supabase-js više ne zna pročitati — prijava bi tiho pala, a
+  // ?checkout=success s povratka iz Stripea nema što tražiti u adresi prijave.
+  var POVRATAK_PRIJAVE = window.location.origin + window.location.pathname;
+  // Neuspjeh prijave Supabase vraća kao #error=...&error_description=... u adresi. Čita se
+  // sinkrono, prije nego supabase-js pospremi svoje — inače od kvara ne ostane nikakav trag
+  // i korisniku se čini da klik na prijavu nije napravio ništa.
+  var GRESKA_PRIJAVE = pokupiGreskuPrijave();
+
+  function pokupiGreskuPrijave() {
+    var izvori = [window.location.hash.replace(/^#/, ''), window.location.search.replace(/^\?/, '')];
+    for (var i = 0; i < izvori.length; i++) {
+      if (izvori[i].indexOf('error') === -1) continue;
+      var p = new URLSearchParams(izvori[i]);
+      var kod = p.get('error_code') || p.get('error');
+      if (!kod) continue;
+      // Adresa se čisti odmah: inače osvježavanje ponovi istu poruku, a sljedeći pokušaj
+      // prijave odvuče taj fragment sa sobom.
+      try { history.replaceState(null, '', window.location.pathname); } catch (e) {}
+      return { kod: kod, opis: p.get('error_description') || '' };
+    }
+    return null;
+  }
+
+  // Jedina poruka koja ne ovisi o trenutnom prikazu. Nakon povratka s prijave aplikacija se
+  // tek gradi i VIEW se svaki čas prepisuje, pa poruka o neuspjeloj prijavi mora živjeti
+  // iznad svega i sama se maknuti na klik.
+  function banerPoruka(tekst) {
+    var star = document.getElementById('banerPoruka');
+    if (star) star.remove();
+    var d = document.createElement('div');
+    d.id = 'banerPoruka';
+    d.style.cssText = 'position:fixed;left:50%;transform:translateX(-50%);top:12px;z-index:400;' +
+      'max-width:min(92vw,32rem);background:var(--card);color:var(--ink);' +
+      'border:1px solid var(--crvena);border-radius:var(--rad-m);' +
+      'padding:.7rem 2.2rem .7rem .9rem;font-size:var(--t-m);box-shadow:0 6px 24px rgba(0,0,0,.18);';
+    var t = document.createElement('div');
+    t.textContent = tekst;
+    var x = document.createElement('button');
+    x.textContent = '✕';
+    x.setAttribute('aria-label', 'Dismiss');
+    x.style.cssText = 'position:absolute;top:.35rem;right:.45rem;background:none;border:0;' +
+      'color:var(--muted);font-size:var(--t-l);cursor:pointer;line-height:1;';
+    x.onclick = function () { d.remove(); };
+    d.appendChild(t); d.appendChild(x);
+    document.body.appendChild(d);
+  }
+
   // Globalne postavke iz tablice `postavke` — jedino mjesto gdje se pravila pristupa mijenjaju
   // bez novog buildа. Čita se javno (i bez prijave), jer ovdje nema ničeg tajnog.
   var POSTAVKE = {};
@@ -2013,8 +2062,19 @@
     });
   }
   function prijaviGoogle() {
-    if (!supa) return;
-    supa.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+    // Bez knjižnice je ovo prije bio prazan `return`: klik na gumb nije radio baš ništa i
+    // korisnik nije imao što prijaviti. Najčešći uzrok je blokiran cdn.jsdelivr.net.
+    if (!supa) {
+      banerPoruka('Sign-in is unavailable — the app could not load its login library. ' +
+        'Check your connection or any content blocker, then reload the page.');
+      return;
+    }
+    supa.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: POVRATAK_PRIJAVE } })
+      .then(function (res) {
+        // Preusmjeravanje inače krene odmah; ako se izvođenje vrati ovamo s greškom, klik je
+        // pao u prazno i to se mora vidjeti.
+        if (res && res.error) banerPoruka('Sign-in failed: ' + (res.error.message || 'unknown error'));
+      });
   }
   function odjava(cb) {
     if (!supa) { cb && cb(); return; }
@@ -2039,6 +2099,7 @@
     var novoPrijavljen = !imaRacun() && !!(session && session.user);
     SESSION = session;
     SESSION_SPREMNA = true;
+    if (!session) javiNeuspjeluPrijavu(izGooglePreusmjerenja);
     ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
       postaviTemu(temaSad());
       postaviFont(fontSad());
@@ -2070,6 +2131,28 @@
       });
     }); }); });
   }
+  // Zove se kad se sesija nije uspostavila. Poruka o kvaru vrijedi više od tihog povratka
+  // na istu stranicu — bez nje se svaki neuspjeh prijave prijavljuje kao "ništa se ne dogodi",
+  // što se ne da ni ponoviti ni popraviti.
+  function javiNeuspjeluPrijavu(izPreusmjerenja) {
+    if (GRESKA_PRIJAVE) {
+      var g = GRESKA_PRIJAVE; GRESKA_PRIJAVE = null;
+      banerPoruka('Sign-in failed: ' + (g.opis || g.kod) + ' [' + g.kod + ']');
+      return;
+    }
+    // Bez ijedne poruke, a vratili smo se s prijave: dajmo knjižnici trenutak, jer
+    // INITIAL_SESSION zna stići prije nego što se token iz adrese obradi.
+    if (!izPreusmjerenja || !supa) return;
+    setTimeout(function () {
+      supa.auth.getSession().then(function (res) {
+        if (res && res.data && res.data.session) return;
+        banerPoruka('Sign-in did not complete. If you opened Croland from inside another app ' +
+          '(Messenger, Instagram, Facebook), open it in your browser instead — Google blocks ' +
+          'sign-in in embedded browsers.');
+      });
+    }, 2500);
+  }
+
   function initAuth() {
     if (!supa) { SESSION_SPREMNA = true; poslijeAuthPromjene(null); return; }
     supa.auth.onAuthStateChange(function (event, session) { poslijeAuthPromjene(session); });

@@ -1,72 +1,104 @@
-# Proširenje rječnika — 1586 → 2024 leme
-
-## Što je dodano (438 novih zapisa)
+# Proširenje rječnika — 1586 → 2032 leme
 
 | Vrsta | Prije | Dodano | Sada |
 |---|---:|---:|---:|
-| imenice | 774 | 172 | 946 |
+| imenice | 774 | 179 | 953 |
 | glagoli | 426 | 72 | 498 |
 | pridjevi | 154 | 39 | 193 |
 | prilozi | 102 | 46 | 148 |
 | zamjenice | 42 | 12 | 54 |
-| **izrazi** | **12** | **38** | **50** |
+| **izrazi** | **12** | **39** | **51** |
 | prijedlozi | 31 | 18 | 49 |
 | brojevi | 21 | 25 | 46 |
 | veznici | 18 | 11 | 29 |
 | čestice | 6 | 5 | 11 |
-| **ukupno** | **1586** | **438** | **2024** |
+| **ukupno** | **1586** | **446** | **2032** |
 
-Svaki zapis ima punu morfologiju u istoj shemi kao postojeći: imenice 14 padeža, pridjevi 21 oblik s komparativom i superlativom, glagoli do 25 oblika (prezent, imperativ, radni i trpni pridjev, futurska osnova, glagolski prilog), plus `napomena` s gramatičkim objašnjenjem i prijevod u oba smjera.
-
-**Sve 2024 leme sada imaju prijevod** — prije ih je 39 bilo bez njega.
+Svaki zapis ima punu morfologiju u istoj shemi kao postojeći, napomenu i prijevod u oba smjera. **Sve 2032 leme imaju prijevod** — prije ih je 39 bilo bez njega.
 
 ## Popunjene rupe
 
-- **Brojevi 13–19 i sve desetice** — prije ih nije bilo, pa učenik nije mogao reći svoje godine ni pročitati cijenu. Dodani i redni brojevi 4.–10., 20., te `nula`, `dvjesto`, `tristo`, `oboje`.
-- **Niječne i neodređene riječi** — `nitko`, `nijedan`, `nikakav`, `ničiji`, `svatko`, `svašta`, `itko`, `išta`, `sebe`, `takav`/`ovakav`/`onakav`, `nigdje`/`negdje`/`svugdje`/`nikamo`. Bez njih se nije mogla složiti obična niječna rečenica.
+- **Brojevi 13–19 i sve desetice**, redni brojevi 4.–10. i 20., `nula`, `dvjesto`, `tristo`, `oboje`.
+- **Niječne i neodređene riječi** — `nitko`, `nijedan`, `nikakav`, `ničiji`, `svatko`, `svašta`, `itko`, `išta`, `sebe`, `takav`/`ovakav`/`onakav`, `nigdje`/`negdje`/`svugdje`/`nikamo`.
 - **Prijedlozi** `pod`, `nad`, `pred`, `po`, `uz`, `niz`, `nasuprot`, `unatoč`, `radi`, `poput`, `duž`, `krajem`, `početkom`, `sredinom` — s oznakom padeža.
-- **38 izraza** — pozdravi (`dobro jutro`, `laku noć`, `vidimo se`), uljudnost (`drago mi je`, `žao mi je`, `nema na čemu`, `izvolite`), snalaženje (`koliko je sati`, `koliko košta`, `ne razumijem`, `možete li ponoviti`, `govorite li engleski`).
-- **Boje** `siv`, `smeđ`, `ljubičast`, `ružičast`, `roza`, `zlatan`, `srebrn`.
-- **Tijelo iznutra i izvana** — `trbuh`, `prsa`, `grlo`, `usna`, `nokat`, `lakat`, `gležanj`, `dlan`, `palac`, `mišić`, `želudac`, `pluća`, `kralježnica`.
-- **Nove teme** — kućanstvo, hrana, odjeća i obuća, vremenska prognoza, priroda i strane svijeta, grad i novac, zdravlje, emocije i karakter, digitalni život.
-- **25 vidskih parova** — `gutati`/`progutati`, `skrivati`/`sakriti`, `zaključavati`/`zaključati`, `nuditi`/`ponuditi`, `predlagati`/`predložiti`, `zbrajati`/`zbrojiti`, `oduzimati`/`oduzeti`… Svaki glagol koji je u polju `svrseni`/`nesvrseni` navodio partnera sada tog partnera stvarno ima u rječniku.
+- **39 izraza** — pozdravi, uljudnost, snalaženje (`koliko je sati`, `ne razumijem`, `možete li ponoviti`).
+- **Boje, dijelovi tijela, kućanstvo, hrana, odjeća, prognoza, priroda, grad i novac, zdravlje, emocije, digitalni život.**
+- **25 vidskih parova** — svaki glagol koji u polju `svrseni`/`nesvrseni` navodi partnera sada tog partnera stvarno ima u rječniku.
 
-## Homonimi
+## Jezično poliranje
 
-Pet lema nosi razlikovnu oznaku u zagradi, po uzoru na postojeće `oko (prijedlog)`, da se ne sudare s već postojećom lemom istog oblika:
+**Srbizmi i nestandardne riječi — dodane hrvatske istoznačnice, napomene jasno označene:**
 
-`pod (prijedlog)` · `blizu (prijedlog)` · `da (veznik)` · `bok (dio tijela)` · `kada (imenica)`
+| Bilo | Dodano / označeno |
+|---|---|
+| `foka` | dodan **`tuljan`**; foka označena kao srbizam |
+| `žarulja` — „inačica: sijalica" | sijalica označena kao srbizam |
+| `češnjak` — „inačica: bijeli luk" | bijeli luk označen kao srbizam |
+| `kralježnica` — „inačica: kičma" | kičma označena kao srbizam |
+| `ocean` — „inačica: okean" | okean označen kao srbizam |
+| `ogledalo` | dodano **`zrcalo`** kao standardnije |
+| `deka` | dodan **`pokrivač`**; deka označena kao razgovorni germanizam |
+| `tepih` | dodan **`sag`** |
+| `avion` | dodan **`zrakoplov`** kao službeni naziv |
+| `aerodrom` | dodana **`zračna luka`** kao službeni naziv |
+| `polovina`, `istovremeno`, `kusur` | označeno da su `polovica`, `istodobno` i `ostatak novca` standardni |
+| `špilja`, `dizalo` | `pećina` i `lift` označeni točno (rjeđe / razgovorno), **ne** kao srbizmi |
+
+Parovi su povezani poljem `sinonimi`, pa se u Full dictionary vide zajedno.
+
+**Pravopis:** `doviđenja` — napomena je tvrdila da se piše i „do viđenja"; sada stoji da se piše sastavljeno. `do viđenja` nije ni ušlo kao zasebna natuknica.
+
+**Naknadno dodano:** `struk` i `kikiriki` — bili su na popisu prijedloga, a ispali iz izrade.
+
+## Napomene — sada s dijakriticima
+
+Svih 1228 napomena bilo je pisano bez kvačica, pa je dio njih bio i **netočan**, ne samo neuredan:
+
+| Bilo | Sada |
+|---|---|
+| `brisati` — „jotacija s>s u prezentu: brisem" | „jotacija s > š u prezentu: **brišem**" |
+| `bolest` — „Ijd bolescu (jotacija st > sc)" | „Ijd **bolešću** (jotacija st > **šć**)" |
+| `graditi` — „jotacija d>d u trpnom: graden" | „jotacija d > **đ** u trpnom: **građen**" |
+| `prošlost` — „Ijd proslocu" | „Ijd **prošlošću**" |
+| `dlan` — „unutrasnja strana sake" | „unutrašnja strana **šake**" |
+| `moći` — „ostalo palatalizirano g>z" | „ostalo palatalizirano g > **ž**" |
+| `poslati` — „prezentska osnova posalj-" | „prezentska osnova **pošalj**-" |
+| `pljeskati` — „jotacija sk>sc: pljescem" | „jotacija sk > **šć**: **plješćem**" |
+
+Ukupno: **662 napomene** prepisane, 935 zamjena riječi i 63 ispravka zapisa glasovne promjene.
+
+Rječnik zamjena sastavljen je iz stvarnog popisa svih 1308 riječi s c/s/z/d koje se u napomenama pojavljuju, a svaki dvoznačan slučaj provjeren je u kontekstu prije zamjene:
+
+- `prelazak ceste` i `zavoj na cesti` ostali su **ceste** (a ne „česte"),
+- `kosi padeži` ostali su **kosi** (a ne „koši"),
+- `zdravica pri kucanju čašama` ostalo je **kucanju** (a ne „kućanju"),
+- `mrzenje` i `vozenje` ostali su takvi jer su **namjerno navedeni neispravni oblici** („glagolska imenica je mržnja, ne mrzenje"),
+- `sto` je posvuda postao **što**, osim u napomeni uz `tisuća`, gdje je broj.
 
 ## Ispravljeno u postojećim zapisima
 
-- `desni`, `jedini`, `lijevi`, `ostali` — polje `s_odr` imalo je ženski oblik množine (`desne`) umjesto srednjeg roda (`desno`).
-- `simpatičan` — `osnova` je bila označena kao `meka`, a osnova završava na *n*, dakle `tvrda`.
-- `apoteka` — napomena dopunjena time da je razgovorna; standardna `ljekarna` sada postoji kao zasebna natuknica.
-- Sinonimni parovi `muzika`/`glazba`, `sport`/`šport`, `auto`/`automobil`, `apoteka`/`ljekarna` povezani su poljem `sinonimi`.
-- **39 lema bez prijevoda** (narodnosti i zanimanja u ženskom rodu: `Amerikanka`, `Engleskinja`, `direktorica`, `frizerka`, `glumica`, `vozačica`… te pridjevi `ljubazan`, `vrijedan`, `zabavan`, `simpatičan`) — dobile su prijevode u oba smjera, u istom stilu kao postojeći (`teacher (female)`, `teacher`).
-- **74 nove en → hr veze** — leme koje su imale hrvatsko-engleski prijevod, ali se nisu mogle naći pretragom na engleskom (`crtati`, `foka`, `jogurt`, `časopis`, `šutjeti`, `doviđenja`…).
-- **5 vidskih parova koji su i prije nedostajali** — `opisivati`, `opraštati`, `prepisivati`, `zapisivati`, `nacrtati` bili su navedeni kao partneri, ali ih rječnik nije imao.
-- `počistiti` ↔ `čistiti` — veza je bila jednosmjerna.
-- Šest napomena imalo je dijakritike (`riječ`, `vozačica`, `čistiti`, `Španjolac`, `Španjolka`, `šefica`), za razliku od ostalih ~860; normalizirane su.
+- `desni`, `jedini`, `lijevi`, `ostali` — `s_odr` je imao ženski oblik množine umjesto srednjeg roda.
+- `simpatičan` — `osnova` označena kao meka, a završava na *n*.
+- 39 lema bez prijevoda dobilo je prijevode u oba smjera; dodane 74 nove veze en → hr.
+- 5 vidskih parova koje je rječnik navodio, a nije ih imao (`opisivati`, `opraštati`, `prepisivati`, `zapisivati`, `nacrtati`).
+- `počistiti` ↔ `čistiti` — jednosmjerna veza.
+- `čistiti` je imao poluispravljen oblik `cisćen`; sada `čišćen, čišćenje`.
+- `koza` — napomena „ne miješati s koza (skin), koja ima z" nije imala smisla bez kvačica; sada „ne miješati s **koža**, koja ima **ž**".
+
+## Izvan rječnika
+
+`tuljan` je dodan i u `mini-igre/_sadrzaj/rijeci.js` uz postojeću `foka` — pokreni `node ugradi.js` u mapi `mini-igre` da se ugradi u svih 12 igara. Dodan je i u `rijeci.txt`, pa će mu `generiraj-zvuk.ps1` pri sljedećem pokretanju napraviti `zvuk/tuljan.mp3`.
 
 ## Završna provjera
 
-Automatski provjereno svih 2024 zapisa: jedinstvenost lema, potpunost padežnih i glagolskih paradigmi po vrsti riječi, prijevodi u oba smjera, prazni i neuredni oblici, valjanost unakrsnih veza, uzajamnost vidskih parova, te da se `rjecnik.js` učitava i da Full dictionary u oba smjera nema praznih natuknica.
+Provjereno svih 2032 zapisa: jedinstvenost lema, potpunost paradigmi po vrsti riječi, prijevodi u oba smjera, prazni i neuredni oblici, valjanost unakrsnih veza, uzajamnost vidskih parova, učitavanje `rjecnik.js` i Full dictionary u oba smjera.
 
-**U 438 novih zapisa nije ostao nijedan nalaz.**
+**U 446 novih zapisa nije ostao nijedan strukturni nalaz.**
 
-Ono što provjera i dalje prijavljuje odnosi se na starije zapise i nije greška:
-
-- 13 glagola i imenica s nepotpunom paradigmom — `kišiti` je bezličan, `moći`, `htjeti`, `morati`, `smjeti`, `boljeti` nemaju imperativ, `plivanje`, `trčanje`, `učenje`, `podne` nemaju množinu, `studeni` ima pridjevsku sklonidbu. Sve točno.
-- 8 lema bez veze u smjeru en → hr — sve su sklonjeni oblici (`mog`, `moga`, `mom`, `jednog`, `jednom`, `duže`, `pretežak`, `nemojte`) i namjerno se ne nude kao zasebne engleske natuknice.
-- 41 lema upućuje poljem `slicne` ili `sinonimi` na riječ koje nema u rječniku (`dopustiti`, `moliti`, `promatrati`…). To je labava veza „srodne riječi" i očito je tako i zamišljena — ali svaka od tih 41 riječi je ujedno prirodan kandidat za sljedeće proširenje.
+Ono što provjera i dalje prijavljuje u starijim zapisima nije greška: 13 riječi s namjerno nepotpunom paradigmom (`kišiti` je bezličan, `moći` i `htjeti` nemaju imperativ, `plivanje` i `podne` nemaju množinu, `studeni` ima pridjevsku sklonidbu), 8 sklonjenih oblika koji se namjerno ne nude kao engleske natuknice, i 41 lema koja poljem `slicne` ili `sinonimi` upućuje na riječ izvan rječnika — labava veza „srodne riječi", ujedno i gotov popis za sljedeće proširenje.
 
 ## Datoteke
 
-Zamijenjene su četiri: `rjecnik.jsonl`, `prijevodi.jsonl`, `rjecnik-en-hr.jsonl`, `rjecnik.js`.
+`rjecnik.jsonl`, `prijevodi.jsonl`, `rjecnik-en-hr.jsonl`, `rjecnik.js`, `mini-igre/_sadrzaj/rijeci.js`, `rijeci.txt`.
 
-`rjecnik.js` je regeneriran istom logikom koju ima `osvjezi.js` (redci 198–215), pa aplikacija radi odmah; ako pokreneš `osvježi.bat`, rezultat je identičan.
-
-```
-git diff --stat
-```
+`rjecnik.js` je regeneriran istom logikom koju ima `osvjezi.js` (redci 198–215), pa aplikacija radi odmah.

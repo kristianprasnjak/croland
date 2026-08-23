@@ -74,7 +74,7 @@ pice: [
 zivotinja: [
   ['pas','dog','m','🐕'], ['mačka','cat','ž','🐈'], ['konj','horse','m','🐎'],
   ['lav','lion','m','🦁'], ['zebra','zebra','ž','🦓'], ['žaba','frog','ž','🐸'],
-  ['foka','seal','ž','🦭'], ['golub','pigeon','m','🕊'], ['galeb','seagull','m','🐦'],
+  ['foka','seal','ž','🦭'], ['tuljan','seal','m','🦭'], ['golub','pigeon','m','🕊'], ['galeb','seagull','m','🐦'],
   ['ptica','bird','ž','🐦'], ['miš','mouse','m','🐁'], ['zec','rabbit','m','🐇'],
   ['medvjed','bear','m','🐻'], ['vuk','wolf','m','🐺'], ['lisica','fox','ž','🦊'],
   ['jelen','deer','m','🦌'], ['krava','cow','ž','🐄'], ['svinja','pig','ž','🐖'],
