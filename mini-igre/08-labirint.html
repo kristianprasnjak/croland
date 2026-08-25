@@ -131,13 +131,41 @@ input.upis:focus{outline:none;background:var(--papir2)}
   padding:0 2px;margin:0;cursor:pointer;opacity:.7;letter-spacing:.2px;text-align:left}
 .otkrijEN:hover{opacity:1;color:var(--tinta);border-bottom-color:var(--zut)}
 .otkrijEN.otkriven{border-bottom:0;cursor:default;opacity:1;color:inherit;padding:0}
+
+/* ==== izbor kategorije prije razine ==== */
+.izborSloj{position:fixed;inset:0;z-index:70;display:flex;align-items:center;justify-content:center;
+  padding:18px;background:rgba(43,33,24,.74);transition:background .35s}
+.izborSloj.proziran{background:transparent;pointer-events:none}
+.izborKut{width:100%;max-width:860px;text-align:center}
+.izborNaslov{color:#fff;font-weight:800;font-size:21px;margin-bottom:4px}
+.izborPod{color:#FFE3BE;font-size:14px;font-weight:600;margin-bottom:20px}
+.izborRed{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.katKarta{flex:1 1 210px;max-width:260px;min-height:110px;
+  background:var(--zut);border:var(--crta);border-radius:16px;box-shadow:var(--sjena);
+  padding:16px 12px;font:inherit;font-weight:800;font-size:19px;line-height:1.2;color:var(--tinta);
+  cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;
+  transition:transform .16s,box-shadow .16s,opacity .3s}
+.katKarta small{display:block;font-weight:700;font-size:12px;color:#6B5A3E;letter-spacing:.7px;text-transform:uppercase}
+.katKarta:hover{transform:translateY(-3px);box-shadow:0 7px 0 var(--tinta)}
+.katKarta.blijedi{opacity:0;transform:scale(.92)}
+.katKarta.leti{position:fixed;margin:0;z-index:90;overflow:hidden;pointer-events:none;
+  transition:left .6s cubic-bezier(.5,.02,.2,1),top .6s cubic-bezier(.5,.02,.2,1),
+             width .6s cubic-bezier(.5,.02,.2,1),height .6s cubic-bezier(.5,.02,.2,1),
+             font-size .6s ease,box-shadow .6s ease}
+.trazimo.cekaKarticu{opacity:0}
+.trazimo b{font-size:19px;letter-spacing:.3px}
+@media (max-width:640px){
+  .izborNaslov{font-size:18px}
+  .katKarta{flex:1 1 100%;max-width:none;min-height:78px;font-size:17px}
+  .trazimo b{font-size:16px}
+}
 </style>
 </head>
 <body>
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "labirint";
-window.IGRA_MAKS = 30;
+window.IGRA_MAKS = 100;
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -479,119 +507,128 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Labirint — Pac-Man s riječima: 10 razina, pet pravila, pa bez kraja
-   Mehanika: svaka razina zadaje drugo pravilo (kategorija, rod, prvo
-             slovo, duljina riječi, zadani prijevodi). Uljezi koštaju
-             srce, duhovi jure, a ⭐ ih na tren zamrzne.
-   Maksimum (skriveno od igrača): 30 bodova × 4 valute
+   Labirint — Pac-Man s riječima
+   Deset razina po deset riječi. Prije svake razine igrač bira jednu od
+   tri ponuđene kategorije; kartica koju odabere otklizi na mjesto naziva
+   kategorije i razina počinje. Razina ide u dva vala po pet točnih i pet
+   netočnih riječi. Tri života za cijeli prolaz, bez obnavljanja.
+   Kamera prati igrača da riječi mogu biti dovoljno velike za čitanje.
+   Maksimum (skriveno od igrača): 100 bodova × 4 valute
    ===================================================================== */
 
+/*[KATEGORIJE]*/
+var KATEGORIJE = [
+{id:"zivotinje",hr:"ŽIVOTINJE",en:"ANIMALS",
+ t:["pas", "mačka", "konj", "krava", "svinja", "ovca", "koza", "kokoš", "patka", "zec", "vuk", "lisica", "medvjed", "jelen", "vjeverica", "miš", "štakor", "jež", "lav", "tigar", "slon", "majmun", "žirafa", "zmija", "žaba", "riba", "ptica", "golub", "orao", "sova"],
+ n:["tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "cjedilo", "kutlača", "majica", "košulja", "hlače", "suknja", "haljina", "jakna", "kaput", "džemper", "čarapa", "šešir", "hodnik", "podrum", "tavan", "garaža", "balkon", "krov", "zid", "prozor", "dimnjak", "stubište", "gitara", "violina", "klavir", "harmonika", "flauta", "truba", "bubanj", "harfa", "saksofon", "ksilofon", "bilježnica", "olovka", "gumica", "šiljilo", "ravnalo", "pernica", "ljepilo", "ocjena", "zadaća", "ispit", "radost", "tuga", "strah", "nada", "ponos", "sram", "dosada", "hrabrost", "strpljenje", "povjerenje"]},
+{id:"biljke",hr:"BILJKE",en:"PLANTS",
+ t:["hrast", "bor", "breza", "lipa", "vrba", "kesten", "palma", "maslina", "ruža", "tulipan", "ljiljan", "tratinčica", "suncokret", "maslačak", "ljubičica", "karanfil", "orhideja", "lavanda", "kaktus", "bršljan", "djetelina", "kopriva", "trava", "mahovina", "paprat", "bosiljak", "ružmarin", "peršin", "metvica", "mimoza"],
+ n:["automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "helikopter", "trajekt", "glava", "oko", "nos", "uho", "zub", "rame", "lakat", "koljeno", "stopalo", "srce", "čekić", "pila", "odvijač", "kliješta", "bušilica", "čavao", "vijak", "lopata", "ljestve", "sjekira", "tanjur", "šalica", "vilica", "lonac", "tava", "pladanj", "sito", "kutlača", "čajnik", "salveta", "sreća", "ljutnja", "bijes", "tjeskoba", "ljubav", "ljubomora", "zavist", "znatiželja", "lijenost", "samoća", "most", "bolnica", "knjižnica", "muzej", "kazalište", "kino", "pošta", "banka", "kolodvor", "hotel"]},
+{id:"hrana",hr:"HRANA I PIĆE",en:"FOOD AND DRINK",
+ t:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "riba", "juha", "riža", "tjestenina", "krumpir", "mrkva", "luk", "rajčica", "paprika", "jabuka", "kruška", "banana", "grožđe", "jagoda", "šećer", "sol", "papar", "ulje", "med", "čokolada", "kolač", "sladoled", "voda", "sok"],
+ n:["čekić", "pila", "odvijač", "kliješta", "bušilica", "brusilica", "turpija", "čavao", "vijak", "lopata", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "helikopter", "podmornica", "gitara", "violina", "klavir", "harmonika", "flauta", "klarinet", "truba", "trombon", "bubanj", "činele", "hodnik", "podrum", "tavan", "garaža", "balkon", "krov", "zid", "strop", "prozor", "dimnjak", "majka", "otac", "brat", "sestra", "baka", "djed", "unuk", "stric", "teta", "nećak", "radost", "tuga", "bijes", "strah", "nada", "mržnja", "ponos", "sram", "hrabrost", "umor"]},
+{id:"tijelo",hr:"DIJELOVI TIJELA",en:"BODY PARTS",
+ t:["glava", "kosa", "čelo", "oko", "obrva", "nos", "usta", "usna", "zub", "jezik", "uho", "obraz", "brada", "vrat", "rame", "ruka", "lakat", "šaka", "prst", "nokat", "prsa", "trbuh", "leđa", "struk", "koljeno", "noga", "stopalo", "peta", "srce", "mozak"],
+ n:["automobil", "autobus", "kamion", "kombi", "motocikl", "bicikl", "traktor", "vlak", "tramvaj", "trajekt", "podrum", "tavan", "garaža", "balkon", "terasa", "krov", "strop", "prozor", "dimnjak", "ograda", "bilježnica", "udžbenik", "olovka", "bojica", "flomaster", "gumica", "šiljilo", "ravnalo", "pernica", "zadaća", "gitara", "violina", "klavir", "harfa", "flauta", "saksofon", "truba", "bubanj", "triangl", "tamburica", "kiša", "snijeg", "tuča", "magla", "oblak", "vjetar", "oluja", "munja", "grom", "duga", "trg", "most", "park", "bolnica", "knjižnica", "muzej", "kazalište", "tržnica", "pošta", "banka"]},
+{id:"odjeca",hr:"ODJEĆA I OBUĆA",en:"CLOTHES AND FOOTWEAR",
+ t:["majica", "košulja", "hlače", "traperice", "suknja", "haljina", "jakna", "kaput", "prsluk", "džemper", "pidžama", "kupaći kostim", "čarapa", "rukavica", "šal", "kapa", "šešir", "remen", "kravata", "odijelo", "ogrtač", "trenirka", "kratke hlače", "cipela", "tenisica", "čizma", "papuča", "sandala", "japanka", "gležnjača"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "vuk", "lisica", "medvjed", "vjeverica", "kruh", "mlijeko", "sir", "jaje", "juha", "riža", "krumpir", "jabuka", "šećer", "sok", "čekić", "pila", "odvijač", "kliješta", "bušilica", "čavao", "vijak", "lopata", "motika", "sjekira", "brdo", "planina", "dolina", "špilja", "livada", "šuma", "jezero", "rijeka", "slap", "otok", "gitara", "violina", "klavir", "harmonika", "flauta", "truba", "bubanj", "harfa", "činele", "frula", "majka", "otac", "sin", "kći", "baka", "djed", "stric", "ujak", "teta", "kum"]},
+{id:"namjestaj",hr:"NAMJEŠTAJ I KUĆANSKI PREDMETI",en:"FURNITURE AND HOUSEHOLD ITEMS",
+ t:["stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "komoda", "polica", "ladica", "ogledalo", "tepih", "zavjesa", "jastuk", "deka", "madrac", "svjetiljka", "sat", "vaza", "slika", "hladnjak", "štednjak", "pećnica", "perilica", "glačalo", "usisavač", "televizor", "koš", "vješalica", "klupa", "ležaljka"],
+ n:["pas", "mačka", "konj", "krava", "ovca", "koza", "kokoš", "zec", "medvjed", "sova", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "suncokret", "maslačak", "kaktus", "lavanda", "kruh", "mlijeko", "sir", "jaje", "meso", "juha", "riža", "krumpir", "jabuka", "čokolada", "glava", "kosa", "oko", "nos", "uho", "zub", "rame", "koljeno", "stopalo", "srce", "kiša", "snijeg", "magla", "oblak", "vjetar", "oluja", "munja", "grom", "duga", "poplava", "radost", "tuga", "ljutnja", "strah", "nada", "ljubav", "ponos", "sram", "dosada", "hrabrost"]},
+{id:"prostorije",hr:"PROSTORIJE I DIJELOVI KUĆE",en:"ROOMS AND PARTS OF THE HOUSE",
+ t:["kuhinja", "kupaonica", "spavaća soba", "dnevni boravak", "blagovaonica", "hodnik", "predsoblje", "podrum", "tavan", "garaža", "balkon", "terasa", "dvorište", "vrt", "stubište", "krov", "zid", "pod", "strop", "vrata", "prozor", "prag", "dimnjak", "ograda", "stan", "kuća", "zvono", "brava", "ključ", "lift"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "vuk", "jež", "lav", "hrast", "bor", "lipa", "vrba", "ruža", "tulipan", "ljiljan", "suncokret", "kopriva", "bosiljak", "kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "tjestenina", "jagoda", "med", "glava", "kosa", "oko", "obrva", "nos", "usta", "jezik", "lakat", "prst", "peta", "gitara", "violina", "čelo", "klavir", "harmonika", "flauta", "saksofon", "truba", "bubanj", "mandolina", "sreća", "tuga", "bijes", "tjeskoba", "nada", "ljubomora", "zavist", "znatiželja", "strpljenje", "umor"]},
+{id:"zanimanja",hr:"ZANIMANJA",en:"JOBS",
+ t:["liječnik", "medicinska sestra", "učitelj", "profesor", "odgojitelj", "vozač", "pilot", "kuhar", "konobar", "pekar", "mesar", "frizer", "krojač", "zidar", "stolar", "vodoinstalater", "električar", "mehaničar", "poljoprivrednik", "ribar", "policajac", "vatrogasac", "vojnik", "odvjetnik", "sudac", "novinar", "glumac", "pjevač", "prodavač", "programer"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "juha", "riža", "krumpir", "jabuka", "sladoled", "stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "polica", "tepih", "zavjesa", "vaza", "brdo", "planina", "dolina", "špilja", "livada", "šuma", "jezero", "rijeka", "slap", "pijesak", "kiša", "snijeg", "tuča", "mraz", "magla", "oblak", "oluja", "munja", "duga", "suša", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "čamac", "sanjke", "hrast", "bor", "breza", "ruža", "tulipan", "suncokret", "maslačak", "lavanda", "kaktus", "djetelina"]},
+{id:"prijevoz",hr:"PRIJEVOZNA SREDSTVA",en:"VEHICLES",
+ t:["automobil", "autobus", "kamion", "kombi", "motocikl", "bicikl", "romobil", "traktor", "vlak", "tramvaj", "metro", "zrakoplov", "helikopter", "brod", "trajekt", "čamac", "jedrilica", "podmornica", "taksi", "kolica", "sanjke", "skije", "koturaljke", "žičara", "raketa", "bager", "vagon", "kamp-kućica", "gliser", "kanu"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "čokolada", "glava", "kosa", "oko", "nos", "usta", "zub", "uho", "rame", "koljeno", "stopalo", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "ljiljan", "suncokret", "bosiljak", "paprat", "tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "sito", "čajnik", "radost", "tuga", "ljutnja", "strah", "nada", "ljubav", "mržnja", "ponos", "sram", "dosada", "majka", "otac", "sin", "kći", "brat", "sestra", "baka", "djed", "teta", "kum"]},
+{id:"alati",hr:"ALATI I STROJEVI",en:"TOOLS AND MACHINES",
+ t:["čekić", "pila", "odvijač", "kliješta", "ključ", "bušilica", "brusilica", "turpija", "čavao", "vijak", "metar", "lopata", "motika", "grablje", "vile", "škare", "nož", "sjekira", "ljestve", "kolica", "kosilica", "pumpa", "dizalica", "ljepilo", "traka", "četka", "valjak", "kist", "baterija", "produžni kabel"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "med", "pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "lisica", "slon", "sova", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "suncokret", "maslačak", "lavanda", "bršljan", "glava", "kosa", "oko", "nos", "usta", "zub", "jezik", "rame", "koljeno", "stopalo", "radost", "sreća", "tuga", "strah", "nada", "ljubav", "ponos", "sram", "dosada", "hrabrost", "majka", "otac", "sin", "kći", "brat", "sestra", "baka", "djed", "stric", "nećak"]},
+{id:"vrijeme",hr:"VRIJEME I VREMENSKE POJAVE",en:"WEATHER",
+ t:["sunce", "kiša", "snijeg", "tuča", "led", "mraz", "magla", "oblak", "vjetar", "bura", "jugo", "oluja", "grmljavina", "munja", "grom", "pljusak", "rosa", "duga", "poplava", "suša", "vrućina", "hladnoća", "vlaga", "temperatura", "prognoza", "nevrijeme", "sjena", "zima", "ljeto", "nebo"],
+ n:["stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "komoda", "polica", "tepih", "vaza", "gitara", "violina", "klavir", "harfa", "harmonika", "flauta", "truba", "bubanj", "činele", "ukulele", "tanjur", "zdjela", "šalica", "žlica", "vilica", "lonac", "tava", "cjedilo", "kutlača", "čajnik", "liječnik", "učitelj", "vozač", "pilot", "kuhar", "konobar", "pekar", "frizer", "zidar", "glumac", "majka", "otac", "sin", "kći", "brat", "sestra", "baka", "djed", "teta", "stric", "kruh", "mlijeko", "sir", "jaje", "meso", "riža", "krumpir", "jabuka", "čokolada", "kolač"]},
+{id:"priroda",hr:"PRIRODA I KRAJOLIK",en:"NATURE AND LANDSCAPE",
+ t:["brdo", "planina", "vrh", "dolina", "špilja", "stijena", "litica", "ravnica", "polje", "livada", "šuma", "močvara", "pustinja", "more", "ocean", "jezero", "rijeka", "potok", "izvor", "slap", "obala", "plaža", "otok", "poluotok", "zaljev", "val", "pijesak", "zemlja", "blato", "put"],
+ n:["majica", "košulja", "hlače", "suknja", "haljina", "jakna", "kaput", "džemper", "čarapa", "cipela", "tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "sito", "salveta", "bilježnica", "udžbenik", "olovka", "bojica", "gumica", "šiljilo", "ravnalo", "pernica", "zadaća", "ispit", "gitara", "violina", "klavir", "harmonika", "flauta", "saksofon", "truba", "bubanj", "triangl", "frula", "liječnik", "učitelj", "vozač", "pilot", "kuhar", "konobar", "frizer", "zidar", "novinar", "glumac", "stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "polica", "zavjesa", "jastuk", "svjetiljka"]},
+{id:"posude",hr:"KUHINJSKO POSUĐE I PRIBOR",en:"KITCHENWARE",
+ t:["tanjur", "zdjela", "šalica", "čaša", "vrč", "žlica", "vilica", "nož", "žličica", "lonac", "tava", "poklopac", "pladanj", "kalup", "cjedilo", "sito", "lijevak", "kutlača", "lopatica", "ribež", "daska za rezanje", "otvarač", "pjenjača", "čajnik", "džezva", "termosica", "salveta", "krpa", "spužva", "aluminijska folija"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "vuk", "slon", "sova", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "suncokret", "maslačak", "kaktus", "paprat", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "brod", "sanjke", "glava", "kosa", "oko", "nos", "usta", "zub", "uho", "rame", "koljeno", "stopalo", "kiša", "snijeg", "tuča", "magla", "oblak", "vjetar", "oluja", "munja", "grom", "duga", "radost", "tuga", "ljutnja", "strah", "nada", "ljubav", "ponos", "sram", "dosada", "umor"]},
+{id:"instrumenti",hr:"GLAZBENI INSTRUMENTI",en:"MUSICAL INSTRUMENTS",
+ t:["gitara", "bas-gitara", "violina", "čelo", "kontrabas", "harfa", "klavir", "orgulje", "harmonika", "sintesajzer", "flauta", "klarinet", "saksofon", "truba", "trombon", "tuba", "bubanj", "činele", "triangl", "ksilofon", "zvono", "tamburica", "mandolina", "ukulele", "bendžo", "frula", "gajde", "usna harmonika", "zvečka", "mikrofon"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "sladoled", "pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "lisica", "medvjed", "žirafa", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "ljiljan", "suncokret", "bosiljak", "mahovina", "majica", "košulja", "hlače", "suknja", "haljina", "jakna", "kaput", "džemper", "čarapa", "čizma", "hodnik", "podrum", "tavan", "garaža", "balkon", "terasa", "krov", "strop", "prozor", "dimnjak", "radost", "tuga", "ljutnja", "strah", "nada", "ljubav", "ponos", "sram", "dosada", "hrabrost"]},
+{id:"sport",hr:"SPORT I SPORTSKA OPREMA",en:"SPORTS AND EQUIPMENT",
+ t:["nogomet", "košarka", "rukomet", "odbojka", "tenis", "plivanje", "atletika", "gimnastika", "boks", "skijanje", "klizanje", "veslanje", "biciklizam", "trčanje", "lopta", "mreža", "reket", "palica", "rukavice", "kaciga", "dres", "tenisice", "štitnik", "uteg", "strunjača", "koš", "gol", "stadion", "sudac", "medalja"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "kolač", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "suncokret", "maslačak", "kopriva", "lavanda", "tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "kutlača", "čajnik", "stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "komoda", "tepih", "zavjesa", "vaza", "majka", "otac", "sin", "kći", "brat", "sestra", "baka", "djed", "teta", "kum", "kiša", "snijeg", "magla", "oblak", "vjetar", "oluja", "munja", "grom", "duga", "mraz"]},
+{id:"skola",hr:"ŠKOLA I PRIBOR ZA PISANJE",en:"SCHOOL AND STATIONERY",
+ t:["škola", "razred", "učionica", "ploča", "klupa", "knjiga", "bilježnica", "udžbenik", "olovka", "kemijska", "bojica", "flomaster", "gumica", "šiljilo", "ravnalo", "šestar", "torba", "pernica", "papir", "ljepilo", "škare", "blok", "atlas", "rječnik", "ocjena", "zadaća", "ispit", "odmor", "raspored", "dnevnik"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "vuk", "medvjed", "sova", "kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "sladoled", "hrast", "bor", "breza", "lipa", "ruža", "tulipan", "suncokret", "maslačak", "kaktus", "bosiljak", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "brod", "traktor", "glava", "kosa", "oko", "nos", "usta", "zub", "uho", "rame", "koljeno", "stopalo", "kiša", "snijeg", "tuča", "magla", "oblak", "vjetar", "oluja", "munja", "grom", "duga"]},
+{id:"rodbina",hr:"RODBINA I OBITELJ",en:"FAMILY AND RELATIVES",
+ t:["majka", "otac", "sin", "kći", "brat", "sestra", "baka", "djed", "unuk", "unuka", "stric", "ujak", "teta", "tetak", "ujna", "strina", "nećak", "nećakinja", "bratić", "sestrična", "suprug", "supruga", "svekar", "svekrva", "punac", "punica", "zet", "snaha", "šogor", "kum"],
+ n:["kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "čokolada", "stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "polica", "tepih", "zavjesa", "jastuk", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "brod", "čamac", "čekić", "pila", "odvijač", "kliješta", "bušilica", "čavao", "vijak", "lopata", "ljestve", "sjekira", "brdo", "planina", "dolina", "špilja", "livada", "šuma", "jezero", "rijeka", "slap", "otok", "hrast", "bor", "breza", "ruža", "tulipan", "suncokret", "maslačak", "lavanda", "kaktus", "paprat"]},
+{id:"grad",hr:"GRAD I JAVNE USTANOVE",en:"THE CITY AND PUBLIC PLACES",
+ t:["trg", "ulica", "cesta", "most", "park", "bolnica", "škola", "vrtić", "fakultet", "knjižnica", "muzej", "kazalište", "kino", "crkva", "tržnica", "trgovina", "pekarnica", "ljekarna", "pošta", "banka", "policija", "vatrogasci", "kolodvor", "zračna luka", "hotel", "restoran", "kavana", "stadion", "groblje", "bazen"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "vuk", "medvjed", "žirafa", "kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "med", "glava", "kosa", "oko", "nos", "usta", "zub", "uho", "rame", "koljeno", "stopalo", "majica", "košulja", "hlače", "suknja", "haljina", "jakna", "džemper", "čarapa", "šešir", "čizma", "tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "sito", "kutlača", "radost", "tuga", "ljutnja", "strah", "nada", "ljubav", "ponos", "sram", "dosada", "umor"]},
+{id:"osjecaji",hr:"OSJEĆAJI I OSOBINE",en:"FEELINGS AND TRAITS",
+ t:["radost", "sreća", "tuga", "ljutnja", "bijes", "strah", "tjeskoba", "briga", "nada", "ljubav", "mržnja", "ljubomora", "zavist", "ponos", "sram", "krivnja", "iznenađenje", "dosada", "znatiželja", "hrabrost", "strpljenje", "upornost", "poštenje", "dobrota", "skromnost", "lijenost", "samopouzdanje", "povjerenje", "umor", "samoća"],
+ n:["pas", "mačka", "konj", "krava", "svinja", "ovca", "zec", "vuk", "medvjed", "slon", "kruh", "mlijeko", "sir", "maslac", "jaje", "meso", "juha", "riža", "jabuka", "sladoled", "stol", "stolica", "fotelja", "kauč", "krevet", "ormar", "polica", "tepih", "zavjesa", "svjetiljka", "automobil", "autobus", "kamion", "motocikl", "bicikl", "vlak", "tramvaj", "zrakoplov", "brod", "traktor", "čekić", "pila", "odvijač", "kliješta", "bušilica", "čavao", "vijak", "lopata", "ljestve", "sjekira", "tanjur", "zdjela", "šalica", "čaša", "žlica", "vilica", "lonac", "tava", "cjedilo", "čajnik"]}
+];
+/*[/KATEGORIJE]*/
+
 var PLAN = [
-'####################',
-'#........##........#',
-'#.##.###.##.###.##.#',
-'#.##.###.##.###.##.#',
-'#..................#',
-'#.##.#.######.#.##.#',
-'#....#...##...#....#',
-'####.###.##.###.####',
-'#......#....#......#',
-'#.####.#.##.#.####.#',
-'#.#..............#.#',
-'#.#.##.######.##.#.#',
-'#......#....#......#',
-'#.####.#.##.#.####.#',
-'#.#..............#.#',
-'#.#.############.#.#',
-'#..................#',
-'####################'
+'###############',
+'#.....#.#.....#',
+'#.###.#.#.###.#',
+'#.#.........#.#',
+'#.#.###.###.#.#',
+'#.....#.#.....#',
+'###.#.#.#.#.###',
+'#.....#.#.....#',
+'#.#.###.###.#.#',
+'#.#.........#.#',
+'#.###.#.#.###.#',
+'#.....#.#.....#',
+'###############'
 ];
-var W = PLAN[0].length, H = PLAN.length, T = 36;
+var W = PLAN[0].length, H = PLAN.length;
+var T  = 96;              /* piksela po polju unutar canvasa */
+var LW = 4;               /* debljina crte */
+var VW = 8, VH = 7;       /* koliko se polja vidi — kamera prati igrača */
 
-/* ---------- pravila ---------- */
-
-var SLOVA = 'bkpsmtvdgnrlj'.split('');
-
-function praviloKat(){
-  var k = CL.rand(Object.keys(CL.KAT).filter(function(x){ return CL.kat(x).length >= 10; }));
-  return {
-    ime: CL.KAT[k].en.toUpperCase(), en: CL.KAT[k].hr,
-    opis: 'Collect every word from the group',
-    test: function(r){ return r.kat === k; }
-  };
-}
-function praviloRod(){
-  var rod = CL.rand(['m','ž','s']);
-  var ime = {m:'MASCULINE', 'ž':'FEMININE', s:'NEUTER'}[rod];
-  var en = {m:'muški rod', 'ž':'ženski rod', s:'srednji rod'}[rod];
-  return {
-    ime:ime, en:en, opis:'Collect only the nouns of gender',
-    test: function(r){ return r.rod === rod; }
-  };
-}
-function praviloSlovo(){
-  var s = CL.rand(SLOVA);
-  return {
-    ime:'LETTER ' + s.toUpperCase(), en:'riječi na slovo ' + s, 
-    opis:'Collect the words that start with the',
-    test: function(r){ return r.hr.charAt(0).toLowerCase() === s; }
-  };
-}
-function praviloDuljina(){
-  var n = 3 + CL.cijeli(3);   /* 3, 4 ili 5 */
-  return {
-    ime:'EXACTLY ' + n + ' LETTERS', en:'riječi od ' + n + ' slova',
-    opis:'Collect the words of length',
-    test: function(r){ return r.hr.replace(/\s/g,'').length === n; }
-  };
-}
-function praviloPrijevod(){
-  var mete = CL.uzmi(CL.BANKA.filter(function(r){ return !/\s/.test(r.hr); }), 6);
-  var ids = mete.map(function(r){ return r.id; });
-  return {
-    ime: mete.map(function(r){ return r.en; }).join(' · '),
-    en:'translate into Croatian',
-    opis:'Collect the Croatian words for:',
-    kratko:true,
-    fiksne: mete,
-    test: function(r){ return ids.indexOf(r.id) >= 0; }
-  };
-}
-
-var PRAVILA = [praviloKat, praviloRod, praviloSlovo, praviloDuljina, praviloPrijevod];
-
-var RAZINE = [
-  {pravilo:praviloKat,      duhova:2, brzinaD:540, meta:8,  moci:1},
-  {pravilo:praviloRod,      duhova:2, brzinaD:500, meta:8,  moci:1},
-  {pravilo:praviloSlovo,    duhova:3, brzinaD:470, meta:7,  moci:1},
-  {pravilo:praviloKat,      duhova:3, brzinaD:440, meta:9,  moci:1},
-  {pravilo:praviloPrijevod, duhova:3, brzinaD:420, meta:6,  moci:2},
-  {pravilo:praviloDuljina,  duhova:4, brzinaD:400, meta:8,  moci:2},
-  {pravilo:praviloRod,      duhova:4, brzinaD:380, meta:10, moci:2},
-  {pravilo:praviloSlovo,    duhova:5, brzinaD:350, meta:8,  moci:2},
-  {pravilo:praviloPrijevod, duhova:5, brzinaD:330, meta:6,  moci:2},
-  {pravilo:praviloKat,      duhova:6, brzinaD:300, meta:10, moci:3}
-];
-var UKUPNO = RAZINE.length;
+var RAZINA_UK = 10;       /* razina u igri */
+var VALOVA    = 2;        /* valova po razini */
+var META_VAL  = 5;        /* točnih riječi po valu */
+var ULJEZ_VAL = 5;        /* netočnih riječi po valu */
+var DUHOVA    = 2;        /* stalno, ne raste s razinom */
+var BRZ_D = 620, BRZ_I = 175;
+var MIR = 10;             /* koraka nedodirljivosti nakon gubitka srca */
+var POCETAK = [1,1];
+var DOM_DUHOVA = [[7,5],[7,7],[7,6]];
+var BOJE_DUHOVA = ['#E8623A','#7B5EA7','#2FA8A0','#F4B942','#3E7CB1'];
 
 var S = null;
-var TRAJNO = {srca:3, bodovi:0, ukupnoRijeci:0};
+var TRAJNO = { srca:3, bodovi:0, rijeci:0, koristene:[] };
+
+/* ---------- okvir stranice ---------- */
 
 var O = CL.el('omot');
 O.appendChild(CL.hud({
-  ime:'Maze (Labirint)', podnaslov:'Pac-Man · ten levels · five rules',
+  ime:'Maze (Labirint)', podnaslov:'Pac-Man · ten levels · ten words each',
   znakovi:[
-    {id:'zRaz', html:'🌀 <b>1</b>/' + UKUPNO},
+    {id:'zRaz',  html:'🌀 <b>1</b>/' + RAZINA_UK},
     {id:'zSrca', klasa:'srca', html:CL.srca(3)},
-    {id:'zBod', html:'⭐ <b>0</b>'}
+    {id:'zBod',  html:'⭐ <b>0</b>'}
   ]
 }));
 var ploha = document.createElement('div');
-ploha.className='ploha';
+ploha.className = 'ploha';
 ploha.innerHTML =
   '<div class="trazimo" id="trazimo"></div>' +
   '<div class="labOmot">' +
-  '<canvas id="lab" width="' + (W*T) + '" height="' + (H*T) + '"></canvas>' +
+  '<canvas id="lab" width="' + (VW*T) + '" height="' + (VH*T) + '"></canvas>' +
   '<div class="pojedeno" id="pojedeno"></div>' +
   '<div class="dpad3">' +
     '<span class="prazno"></span><button data-s="u">▲</button><span class="prazno"></span>' +
@@ -599,123 +636,424 @@ ploha.innerHTML =
     '<span class="prazno"></span><button data-s="d">▼</button><span class="prazno"></span>' +
   '</div></div>';
 O.appendChild(ploha);
+
 ploha.querySelector('.dpad3').addEventListener('click', function(e){
-  var b = e.target.closest('button'); if(!b) return;
-  var m = {u:[0,-1],d:[0,1],l:[-1,0],r:[1,0]}[b.dataset.s];
-  if (m && S) { S.zeljeni = m; }
+  var b = e.target.closest('button'); if (!b || !S) return;
+  S.zeljeni = {u:[0,-1], d:[0,1], l:[-1,0], r:[1,0]}[b.dataset.s];
 });
 
-function zid(x,y){ return x<0||y<0||x>=W||y>=H || PLAN[y][x]==='#'; }
-function slobodna(){
+/* povlačenje prstom po labirintu */
+(function(){
+  var C = CL.el('lab'), x0=0, y0=0;
+  C.addEventListener('touchstart', function(e){
+    var t = e.changedTouches[0]; x0 = t.clientX; y0 = t.clientY;
+  }, {passive:true});
+  C.addEventListener('touchend', function(e){
+    if (!S) return;
+    var t = e.changedTouches[0], dx = t.clientX-x0, dy = t.clientY-y0;
+    if (Math.abs(dx) < 18 && Math.abs(dy) < 18) return;
+    S.zeljeni = Math.abs(dx) > Math.abs(dy) ? [dx>0?1:-1, 0] : [0, dy>0?1:-1];
+  }, {passive:true});
+})();
+
+/* ---------- labirint ---------- */
+
+function zid(x,y){ return x<0 || y<0 || x>=W || y>=H || PLAN[y][x] === '#'; }
+function slobodne(){
   var p = [];
-  for (var y=1;y<H-1;y++) for (var x=1;x<W-1;x++) if (!zid(x,y)) p.push([x,y]);
+  for (var y=1; y<H-1; y++) for (var x=1; x<W-1; x++) if (!zid(x,y)) p.push([x,y]);
   return p;
 }
 
-function razinaOpis(ir){
-  return S && S.bez
-    ? {duhova: Math.min(7, 3 + Math.floor(S.bezRazina/2)), brzinaD: Math.max(220, 420 - S.bezRazina*20),
-       meta:8, moci:2, pravilo: CL.rand(PRAVILA)}
-    : RAZINE[ir];
+/* Riječi se pišu vodoravno preko dva-tri polja, pa ih razmještamo tako da
+   se natpisi ne preklapaju: u istom retku traži se veliki razmak, inače
+   je dovoljno da polja nisu susjedna. Ako ne uspije, uvjeti popuštaju. */
+function razmjesti(n, zabrana){
+  var polja = CL.mix(slobodne()).filter(function(p){
+    return !zabrana.some(function(z){
+      return Math.abs(z[0]-p[0]) + Math.abs(z[1]-p[1]) < 3;
+    });
+  });
+  var uzeto = [], pravila = [[5,4],[4,3],[3,2],[0,1]];
+  for (var r=0; r<pravila.length && uzeto.length<n; r++){
+    var uRedu = pravila[r][0], najmanje = pravila[r][1];
+    for (var i=0; i<polja.length && uzeto.length<n; i++){
+      var p = polja[i];
+      if (uzeto.indexOf(p) >= 0) continue;
+      var ok = uzeto.every(function(q){
+        var dx = Math.abs(q[0]-p[0]), dy = Math.abs(q[1]-p[1]);
+        if (dy === 0 && dx < uRedu) return false;
+        return (dx + dy) >= najmanje;
+      });
+      if (ok) uzeto.push(p);
+    }
+  }
+  return uzeto;
 }
 
-function pocni(ir){
-  var def = razinaOpis(ir);
-  var pr = def.pravilo();
-  var mjesta = CL.mix(slobodna());
+/* ---------- izbor kategorije ---------- */
 
-  var mete;
-  if (pr.fiksne) mete = pr.fiksne;
-  else {
-    var fond = CL.BANKA.filter(pr.test);
-    mete = CL.uzmi(fond, Math.min(def.meta, fond.length));
+function ponuda(){
+  var slobodno = KATEGORIJE.filter(function(k){ return TRAJNO.koristene.indexOf(k.id) < 0; });
+  if (slobodno.length < 3){ TRAJNO.koristene = []; slobodno = KATEGORIJE.slice(); }
+  return CL.uzmi(slobodno, 3);
+}
+
+function izborKategorije(ir){
+  var tri = ponuda();
+  var sloj = document.createElement('div');
+  sloj.className = 'izborSloj';
+  sloj.innerHTML =
+    '<div class="izborKut">' +
+      '<div class="izborNaslov">Level ' + (ir+1) + (S && S.bez ? '' : '/' + RAZINA_UK) + ' — pick a category</div>' +
+      '<div class="izborPod">Ten words to collect · five decoys in each wave</div>' +
+      '<div class="izborRed">' +
+        tri.map(function(k, i){
+          return '<button class="katKarta" data-i="' + i + '">' +
+                 CL.esc(k.hr) + '<small>' + CL.esc(k.en.toLowerCase()) + '</small></button>';
+        }).join('') +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(sloj);
+  sloj.addEventListener('click', function(e){
+    var b = e.target.closest('.katKarta');
+    if (!b || sloj.dataset.gotovo) return;
+    sloj.dataset.gotovo = '1';
+    odaberi(ir, tri[+b.dataset.i], b, sloj);
+  });
+}
+
+/* Odabrana kartica otklizi na traku iznad labirinta i tamo ostane
+   kao naziv kategorije. */
+function odaberi(ir, kat, karta, sloj){
+  TRAJNO.koristene.push(kat.id);
+  var traka = CL.el('trazimo');
+  natpisTrake(kat, 0, META_VAL);
+  traka.classList.add('cekaKarticu');
+
+  var a = karta.getBoundingClientRect();
+  var b = traka.getBoundingClientRect();
+
+  Array.prototype.forEach.call(sloj.querySelectorAll('.katKarta'), function(k){
+    if (k !== karta) k.classList.add('blijedi');
+  });
+  sloj.classList.add('proziran');
+
+  document.body.appendChild(karta);
+  karta.classList.add('leti');
+  karta.style.left = a.left+'px'; karta.style.top = a.top+'px';
+  karta.style.width = a.width+'px'; karta.style.height = a.height+'px';
+  void karta.offsetWidth;                       /* prisili preračun */
+  karta.style.left = b.left+'px'; karta.style.top = b.top+'px';
+  karta.style.width = b.width+'px'; karta.style.height = b.height+'px';
+  karta.style.fontSize = '17px';
+
+  setTimeout(function(){
+    karta.remove(); sloj.remove();
+    traka.classList.remove('cekaKarticu');
+    pocniRazinu(ir, kat);
+  }, 660);
+}
+
+function natpisTrake(kat, val, ostalo){
+  CL.el('trazimo').innerHTML =
+    '🎯 <b>' + CL.esc(kat.hr) + '</b> ' +
+    '<small>(' + CL.esc(kat.en.toLowerCase()) + ')</small> ' +
+    '<small>· wave <b>' + (val+1) + '</b>/' + VALOVA +
+    ' · left: <b id="ostalo">' + ostalo + '</b></small>';
+}
+
+/* ---------- razina i valovi ---------- */
+
+function pocniRazinu(ir, kat){
+  if (S){ clearInterval(S.tikI); clearInterval(S.tikD); cancelAnimationFrame(S.raf); }
+  var bez = !!(S && S.bez), bezR = (S && S.bezRaz) || 0;
+  S = {
+    ir:ir, kat:kat, val:0,
+    plan: { t: CL.uzmi(kat.t, VALOVA*META_VAL), n: CL.uzmi(kat.n, VALOVA*ULJEZ_VAL) },
+    x:POCETAK[0], y:POCETAK[1], px:POCETAK[0], py:POCETAK[1], t0:performance.now(),
+    smjer:[1,0], zeljeni:[1,0],
+    srca:TRAJNO.srca, bodovi:TRAJNO.bodovi, rijeci:TRAJNO.rijeci,
+    tocke:[], moci:[], duhovi:[], pojedeno:[],
+    zamrznuto:0, mir:MIR, radi:true, cx:0, cy:0, bez:bez, bezRaz:bezR
+  };
+  var k = kamera(S.x, S.y); S.cx = k[0]; S.cy = k[1];
+  postaviDuhove();
+  pocniVal(0);
+  osvjezi();
+  S.tikI = setInterval(korakIgraca, BRZ_I);
+  S.tikD = setInterval(korakDuhova, BRZ_D);
+  crtajPetlju();
+}
+
+function postaviDuhove(){
+  S.duhovi = [];
+  for (var i=0; i<DUHOVA; i++){
+    var p = DOM_DUHOVA[i % DOM_DUHOVA.length];
+    S.duhovi.push({ x:p[0], y:p[1], px:p[0], py:p[1], t0:performance.now(),
+                    boja:BOJE_DUHOVA[i % BOJE_DUHOVA.length], smjer:[0,-1] });
   }
-  if (mete.length < 3){        /* zaštita: pravilo bez dovoljno riječi */
-    pr = praviloKat();
-    mete = CL.uzmi(CL.BANKA.filter(pr.test), def.meta);
-  }
-  var uljezi = CL.uzmi(CL.BANKA.filter(function(x){ return !pr.test(x); }), 12);
+}
+
+function pocniVal(nv){
+  S.val = nv;
+  var mete   = S.plan.t.slice(nv*META_VAL,  nv*META_VAL  + META_VAL);
+  var uljezi = S.plan.n.slice(nv*ULJEZ_VAL, nv*ULJEZ_VAL + ULJEZ_VAL);
+  var zabrana = [[S.x, S.y]].concat(DOM_DUHOVA);
+  var polja = razmjesti(mete.length + uljezi.length + 1, zabrana);
 
   var tocke = [];
-  mete.forEach(function(m){ tocke.push({r:m, meta:true, p:mjesta.pop()}); });
-  uljezi.forEach(function(u){ tocke.push({r:u, meta:false, p:mjesta.pop()}); });
-  tocke = tocke.filter(function(t){ return t.p; });
+  mete.forEach(function(r){   tocke.push({ r:r, meta:true,  p:polja.pop() }); });
+  uljezi.forEach(function(r){ tocke.push({ r:r, meta:false, p:polja.pop() }); });
+  S.tocke = CL.mix(tocke).filter(function(t){ return t.p; });
 
-  var moci = [];
-  for (var i=0;i<def.moci;i++){ var p = mjesta.pop(); if (p) moci.push({p:p}); }
+  var pz = polja.pop();
+  S.moci = pz ? [{ p:pz }] : [];
+  osvjezi();
+}
 
-  var duhovi = [];
-  for (var i2=0;i2<def.duhova;i2++){
-    duhovi.push({x: 9 + (i2%2), y: 8 + Math.floor(i2/2), emo:['👻','👾','🤖','💀','🎃','🦇','🐙'][i2%7], smjer:[0,-1]});
-  }
-
-  var bez = S && S.bez, bezR = (S && S.bezRazina) || 0;
-  S = {ir:ir, def:def, pr:pr, tocke:tocke, moci:moci, duhovi:duhovi,
-       x:1, y:1, smjer:[1,0], zeljeni:[1,0],
-       srca:TRAJNO.srca, bodovi:TRAJNO.bodovi, pojedeno:[], radi:true,
-       meta:mete.length, zamrznuto:0, bez:bez, bezRazina:bezR};
-
-  CL.el('trazimo').innerHTML =
-    '🎯 ' + CL.esc(pr.opis) + ' <b>' + CL.esc(pr.ime) + '</b> ' +
-    '<small>(' + CL.esc(pr.en) + ')</small>' +
-    ' <small>· left: <b id="ostalo">' + mete.length + '</b></small>';
-  osvjezi(); crtaj();
-  clearInterval(S.tikD); clearInterval(S.tikI);
-  S.tikI = setInterval(korakIgraca, 190);
-  S.tikD = setInterval(korakDuhova, def.brzinaD);
+function preostalo(){
+  return S.tocke.filter(function(t){ return t.meta && !t.uzeta; }).length;
 }
 
 function osvjezi(){
   CL.el('zRaz').innerHTML = S.bez
-    ? '♾ <b>' + (S.bezRazina+1) + '</b>'
-    : '🌀 <b>' + (S.ir+1) + '</b>/' + UKUPNO;
+    ? '♾ <b>' + (S.bezRaz+1) + '</b>'
+    : '🌀 <b>' + (S.ir+1) + '</b>/' + RAZINA_UK;
   CL.el('zSrca').innerHTML = CL.srca(S.srca);
   CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>' +
     (S.zamrznuto > 0 ? ' <small>❄ ' + S.zamrznuto + '</small>' : '');
-  CL.el('pojedeno').innerHTML = S.pojedeno.map(function(t){ return '<span>' + t + '</span>'; }).join('');
-  var o = CL.el('ostalo'); if (o) o.textContent = S.tocke.filter(function(t){ return t.meta && !t.uzeta; }).length;
+  CL.el('pojedeno').innerHTML = S.pojedeno.map(function(t){
+    return '<span>' + CL.esc(t) + '</span>';
+  }).join('');
+  natpisTrake(S.kat, S.val, preostalo());
 }
 
+/* ---------- crtanje ---------- */
+
+function kamera(ix, iy){
+  var cx = ix - (VW-1)/2, cy = iy - (VH-1)/2;
+  return [ Math.max(0, Math.min(W-VW, cx)), Math.max(0, Math.min(H-VH, cy)) ];
+}
+
+function zaobljeni(G,x,y,w,h,r){
+  G.beginPath();
+  G.moveTo(x+r,y);
+  G.arcTo(x+w, y,   x+w, y+h, r);
+  G.arcTo(x+w, y+h, x,   y+h, r);
+  G.arcTo(x,   y+h, x,   y,   r);
+  G.arcTo(x,   y,   x+w, y,   r);
+  G.closePath();
+}
+
+function crtajPetlju(){
+  if (!S) return;
+  crtaj();
+  S.raf = requestAnimationFrame(crtajPetlju);
+}
+
+function medu(a, b, k){ return a + (b-a)*k; }
+
 function crtaj(){
-  var C = CL.el('lab'), G = C.getContext('2d');
-  G.fillStyle = S.zamrznuto > 0 ? '#14203A' : '#1B1430'; G.fillRect(0,0,C.width,C.height);
-  for (var y=0;y<H;y++) for (var x=0;x<W;x++){
-    if (PLAN[y][x] === '#'){
-      G.fillStyle = S.zamrznuto > 0 ? '#2C4670' : '#3E2C63'; G.fillRect(x*T,y*T,T,T);
-      G.strokeStyle = S.zamrznuto > 0 ? '#4A6EA8' : '#5B448C'; G.lineWidth = 2; G.strokeRect(x*T+1,y*T+1,T-2,T-2);
+  var C = CL.el('lab'); if (!C) return;
+  var G = C.getContext('2d');
+  var sad = performance.now();
+
+  var ki = Math.min(1, (sad - S.t0) / BRZ_I);
+  var ix = medu(S.px, S.x, ki), iy = medu(S.py, S.y, ki);
+
+  var cilj = kamera(ix, iy);
+  S.cx = medu(S.cx, cilj[0], 0.20);
+  S.cy = medu(S.cy, cilj[1], 0.20);
+  if (Math.abs(cilj[0]-S.cx) < 0.004) S.cx = cilj[0];
+  if (Math.abs(cilj[1]-S.cy) < 0.004) S.cy = cilj[1];
+
+  G.setTransform(1,0,0,1,0,0);
+  G.fillStyle = S.zamrznuto > 0 ? '#14203A' : '#1B1430';
+  G.fillRect(0,0,C.width,C.height);
+
+  G.save();
+  G.translate(-Math.round(S.cx*T), -Math.round(S.cy*T));
+
+  var x0 = Math.floor(S.cx)-1, x1 = Math.ceil(S.cx+VW)+1;
+  var y0 = Math.floor(S.cy)-1, y1 = Math.ceil(S.cy+VH)+1;
+  for (var y=Math.max(0,y0); y<Math.min(H,y1); y++){
+    for (var x=Math.max(0,x0); x<Math.min(W,x1); x++){
+      if (PLAN[y][x] !== '#') continue;
+      G.fillStyle   = S.zamrznuto > 0 ? '#2C4670' : '#3E2C63';
+      G.strokeStyle = S.zamrznuto > 0 ? '#4A6EA8' : '#5B448C';
+      G.lineWidth = LW;
+      zaobljeni(G, x*T+3, y*T+3, T-6, T-6, 13);
+      G.fill(); G.stroke();
     }
   }
-  G.textAlign='center'; G.textBaseline='middle';
-  S.moci.forEach(function(m){
-    if (m.uzeta) return;
-    G.font = '20px serif'; G.fillText('⭐', m.p[0]*T+T/2, m.p[1]*T+T/2);
-  });
+
+  S.moci.forEach(function(m){ if (!m.uzeta) crtajZvijezdu(G, m.p[0], m.p[1], sad); });
+
+  G.textAlign = 'center'; G.textBaseline = 'middle';
   S.tocke.forEach(function(t){
     if (t.uzeta) return;
-    G.font = '18px serif';
-    G.fillText(t.r.emo, t.p[0]*T+T/2, t.p[1]*T+T/2-5);
-    G.font = 'bold 8px system-ui'; G.fillStyle = t.meta ? '#FFE8A3' : '#C7B9E8';
-    var s = t.r.hr;
-    G.fillText(s.length>7 ? s.slice(0,6)+'.' : s, t.p[0]*T+T/2, t.p[1]*T+T/2+11);
+    if (t.p[0] < x0-4 || t.p[0] > x1+4 || t.p[1] < y0-2 || t.p[1] > y1+2) return;
+    crtajRijec(G, t);
   });
-  G.font = (T-8)+'px serif';
-  S.duhovi.forEach(function(d){ G.fillText(S.zamrznuto > 0 ? '🧊' : d.emo, d.x*T+T/2, d.y*T+T/2); });
-  G.fillText('🟡', S.x*T+T/2, S.y*T+T/2);
+
+  S.duhovi.forEach(function(d){
+    var kd = Math.min(1, (sad - d.t0) / BRZ_D);
+    crtajDuha(G, medu(d.px, d.x, kd), medu(d.py, d.y, kd), d, sad);
+  });
+
+  crtajIgraca(G, ix, iy, sad);
+  G.restore();
+  crtajMapu(G, C, ix, iy);
 }
+
+/* Mala karta u kutu — kamera pokazuje samo dio labirinta, pa karta govori
+   gdje su preostale riječi. Točne i netočne izgledaju jednako. */
+function crtajMapu(G, C, ix, iy){
+  var m = Math.max(5, Math.round(T*0.085));       /* piksela po polju */
+  var pw = W*m, ph = H*m;
+  /* karta bježi u lijevi kut kad je igrač u desnom gornjem dijelu ekrana */
+  var uDesnom = (ix - S.cx) > VW*0.55 && (iy - S.cy) < VH*0.45;
+  var ox = uDesnom ? m*2.4 : C.width - pw - m*2.4, oy = m*1.4;
+  G.save();
+  G.globalAlpha = 0.88;
+  G.fillStyle = '#0E0A1C'; G.strokeStyle = '#5B448C'; G.lineWidth = 2;
+  zaobljeni(G, ox-m*0.7, oy-m*0.7, pw+m*1.4, ph+m*1.4, 6);
+  G.fill(); G.stroke();
+  G.fillStyle = '#3E2C63';
+  for (var y=0; y<H; y++) for (var x=0; x<W; x++)
+    if (PLAN[y][x] === '#') G.fillRect(ox+x*m, oy+y*m, m, m);
+  G.fillStyle = '#FFF3DC';
+  S.tocke.forEach(function(t){
+    if (t.uzeta) return;
+    G.fillRect(ox+t.p[0]*m+m*0.15, oy+t.p[1]*m+m*0.15, m*0.7, m*0.7);
+  });
+  S.moci.forEach(function(z){
+    if (z.uzeta) return;
+    G.fillStyle = '#F4B942';
+    G.fillRect(ox+z.p[0]*m+m*0.15, oy+z.p[1]*m+m*0.15, m*0.7, m*0.7);
+  });
+  S.duhovi.forEach(function(d){
+    G.fillStyle = S.zamrznuto > 0 ? '#8FD3F4' : d.boja;
+    G.fillRect(ox+d.x*m, oy+d.y*m, m, m);
+  });
+  G.fillStyle = '#FFD24A';
+  G.fillRect(ox+ix*m-m*0.1, oy+iy*m-m*0.1, m*1.2, m*1.2);
+  G.restore();
+}
+
+/* Riječ se piše na svijetloj pločici — točne i netočne izgledaju isto. */
+function crtajRijec(G, t){
+  var cx = t.p[0]*T + T/2, cy = t.p[1]*T + T/2;
+  var f = Math.round(T*0.34), naj = Math.round(T*0.235), s = t.r;
+  G.font = '800 ' + f + 'px system-ui, "Segoe UI", sans-serif';
+  var w = G.measureText(s).width;
+  while (w > T*3.05 && f > naj){
+    f--; G.font = '800 ' + f + 'px system-ui, "Segoe UI", sans-serif';
+    w = G.measureText(s).width;
+  }
+  var pw = w + T*0.30, ph = f + T*0.24;
+  G.fillStyle = '#FFF3DC'; G.strokeStyle = '#2B2118'; G.lineWidth = LW;
+  zaobljeni(G, cx-pw/2, cy-ph/2, pw, ph, 12);
+  G.fill(); G.stroke();
+  G.fillStyle = '#2B2118';
+  G.fillText(s, cx, cy+1);
+}
+
+function crtajZvijezdu(G, gx, gy, sad){
+  var cx = gx*T + T/2, cy = gy*T + T/2;
+  var r = T*0.26 * (1 + 0.08*Math.sin(sad/240));
+  G.beginPath();
+  for (var i=0; i<10; i++){
+    var k = (i % 2 === 0) ? r : r*0.45;
+    var a = -Math.PI/2 + i*Math.PI/5;
+    G[i ? 'lineTo' : 'moveTo'](cx + Math.cos(a)*k, cy + Math.sin(a)*k);
+  }
+  G.closePath();
+  G.fillStyle = '#F4B942'; G.strokeStyle = '#2B2118'; G.lineWidth = LW;
+  G.fill(); G.stroke();
+}
+
+function crtajIgraca(G, ix, iy, sad){
+  var cx = ix*T + T/2, cy = iy*T + T/2, r = T*0.36;
+  var usta = 0.04 + Math.abs(Math.sin(sad/115)) * 0.26;
+  var kut = Math.atan2(S.smjer[1], S.smjer[0]);
+  if (S.mir > 0) G.globalAlpha = 0.45 + 0.4*Math.abs(Math.sin(sad/90));
+  G.beginPath();
+  G.moveTo(cx, cy);
+  G.arc(cx, cy, r, kut + usta*Math.PI, kut - usta*Math.PI);
+  G.closePath();
+  G.fillStyle = '#FFD24A'; G.strokeStyle = '#2B2118'; G.lineWidth = LW;
+  G.fill(); G.stroke();
+  G.beginPath();
+  G.arc(cx - S.smjer[1]*r*0.30, cy - Math.abs(S.smjer[0])*r*0.34 - S.smjer[1]*r*0.10, r*0.13, 0, 7);
+  G.fillStyle = '#2B2118'; G.fill();
+  G.globalAlpha = 1;
+}
+
+function crtajDuha(G, gx, gy, d, sad){
+  var cx = gx*T + T/2, cy = gy*T + T/2, r = T*0.33;
+  var led = S.zamrznuto > 0;
+  var val = Math.sin(sad/180 + cx) * r*0.06;
+  G.beginPath();
+  G.arc(cx, cy - r*0.12, r, Math.PI, 0);
+  G.lineTo(cx + r, cy + r*0.72 + val);
+  for (var i=1; i<=4; i++){
+    var xx = cx + r - (2*r)*i/4;
+    var yy = cy + r*0.72 + val - (i % 2 === 1 ? r*0.30 : 0);
+    G.lineTo(xx, yy);
+  }
+  G.closePath();
+  G.fillStyle = led ? '#8FD3F4' : d.boja;
+  G.strokeStyle = '#2B2118'; G.lineWidth = LW;
+  G.fill(); G.stroke();
+  if (led) return;
+  var sm = d.smjer || [0,0];
+  [-1,1].forEach(function(z){
+    var ox = cx + z*r*0.38, oy = cy - r*0.22;
+    G.beginPath(); G.ellipse(ox, oy, r*0.24, r*0.29, 0, 0, 7);
+    G.fillStyle = '#fff'; G.fill();
+    G.beginPath(); G.arc(ox + sm[0]*r*0.10, oy + sm[1]*r*0.12, r*0.12, 0, 7);
+    G.fillStyle = '#2B2118'; G.fill();
+  });
+}
+
+/* ---------- kretanje ---------- */
 
 function korakIgraca(){
   if (!S || !S.radi) return;
   var z = S.zeljeni;
   if (!zid(S.x+z[0], S.y+z[1])) S.smjer = z;
   var nx = S.x + S.smjer[0], ny = S.y + S.smjer[1];
+  S.px = S.x; S.py = S.y; S.t0 = performance.now();
   if (!zid(nx,ny)){ S.x = nx; S.y = ny; }
-  if (S.zamrznuto > 0){ S.zamrznuto--; if (S.zamrznuto === 0) CL.poruka('The ghosts have thawed!', 'lose'); }
-  provjeriMoc(); provjeriTocku(); provjeriDuha(); crtaj();
+  if (S.mir > 0) S.mir--;
+  if (S.zamrznuto > 0){
+    S.zamrznuto--;
+    if (S.zamrznuto === 0){ CL.poruka('The ghosts have thawed!', 'lose'); osvjezi(); }
+  }
+  provjeriMoc(); provjeriTocku(); provjeriDuha();
+}
+
+function korakDuhova(){
+  if (!S || !S.radi || S.zamrznuto > 0 || S.mir > 0) return;   /* duhovi čekaju dok igrač ne krene */
+  S.duhovi.forEach(function(d){
+    var opcije = [[1,0],[-1,0],[0,1],[0,-1]].filter(function(m){ return !zid(d.x+m[0], d.y+m[1]); });
+    if (!opcije.length) return;
+    opcije.sort(function(a,b){
+      return (Math.abs(d.x+a[0]-S.x) + Math.abs(d.y+a[1]-S.y)) -
+             (Math.abs(d.x+b[0]-S.x) + Math.abs(d.y+b[1]-S.y));
+    });
+    var m = Math.random() < 0.38 ? opcije[0] : CL.rand(opcije);
+    d.px = d.x; d.py = d.y; d.t0 = performance.now();
+    d.smjer = m; d.x += m[0]; d.y += m[1];
+  });
+  provjeriDuha();
 }
 
 function provjeriMoc(){
   S.moci.forEach(function(m){
-    if (m.uzeta || m.p[0]!==S.x || m.p[1]!==S.y) return;
+    if (m.uzeta || m.p[0] !== S.x || m.p[1] !== S.y) return;
     m.uzeta = true; S.zamrznuto = 40;
     CL.ton(1200,.12); CL.poruka('Ghosts frozen! ❄', 'dobro');
     osvjezi();
@@ -723,134 +1061,144 @@ function provjeriMoc(){
 }
 
 function provjeriTocku(){
-  S.tocke.forEach(function(t){
-    if (t.uzeta || t.p[0]!==S.x || t.p[1]!==S.y) return;
+  for (var i=0; i<S.tocke.length; i++){
+    var t = S.tocke[i];
+    if (t.uzeta || t.p[0] !== S.x || t.p[1] !== S.y) continue;
     t.uzeta = true;
     if (t.meta){
-      S.bodovi = Math.min(30, S.bodovi + 1);
-      TRAJNO.ukupnoRijeci++;
-      S.pojedeno.push(t.r.hr);
-      CL.ton(880,.07); CL.zvukRijeci(t.r); CL.ucenje(t.r.id, true);
+      S.bodovi = Math.min(RAZINA_UK*VALOVA*META_VAL, S.bodovi + 1);
+      S.rijeci++;
+      S.pojedeno.push(t.r);
+      CL.ton(880,.07); CL.ucenje(CL.slug(t.r), true);
       osvjezi();
-      if (S.tocke.filter(function(x){ return x.meta && !x.uzeta; }).length === 0) return zavrsiRazinu();
+      if (preostalo() === 0) return zavrsiVal();
     } else {
-      S.srca--; CL.pip(false); CL.ucenje(t.r.id, false);
-      CL.poruka('“' + t.r.hr + '” does not match the rule!', 'lose');
+      S.srca--; CL.pip(false); CL.ucenje(CL.slug(t.r), false);
+      CL.poruka('“' + t.r + '” is not in this category!', 'lose');
       osvjezi();
       if (S.srca <= 0) return poraz();
     }
-  });
-}
-
-function korakDuhova(){
-  if (!S || !S.radi || S.zamrznuto > 0) return;
-  S.duhovi.forEach(function(d){
-    var opcije = [[1,0],[-1,0],[0,1],[0,-1]].filter(function(m){ return !zid(d.x+m[0], d.y+m[1]); });
-    if (!opcije.length) return;
-    opcije.sort(function(a,b){
-      var da = Math.abs(d.x+a[0]-S.x) + Math.abs(d.y+a[1]-S.y);
-      var db = Math.abs(d.x+b[0]-S.x) + Math.abs(d.y+b[1]-S.y);
-      return da - db;
-    });
-    var m = Math.random() < 0.6 ? opcije[0] : CL.rand(opcije);
-    d.x += m[0]; d.y += m[1];
-  });
-  provjeriDuha(); crtaj();
+  }
 }
 
 function provjeriDuha(){
-  if (S.zamrznuto > 0) return;
-  for (var i=0;i<S.duhovi.length;i++){
+  if (!S || !S.radi || S.zamrznuto > 0 || S.mir > 0) return;
+  for (var i=0; i<S.duhovi.length; i++){
     var d = S.duhovi[i];
-    if (d.x === S.x && d.y === S.y){
-      S.srca--; CL.pip(false); osvjezi();
-      CL.poruka('A ghost caught you!', 'lose');
-      S.x = 1; S.y = 1; S.smjer=[1,0]; S.zeljeni=[1,0];
-      S.duhovi.forEach(function(g,j){ g.x = 9 + (j%2); g.y = 8 + Math.floor(j/2); });
-      if (S.srca <= 0) poraz();
-      return;
-    }
+    if (d.x !== S.x || d.y !== S.y) continue;
+    S.srca--; CL.pip(false);
+    CL.poruka('A ghost caught you!', 'lose');
+    S.x = POCETAK[0]; S.y = POCETAK[1]; S.px = S.x; S.py = S.y;
+    S.t0 = performance.now(); S.smjer = [1,0]; S.zeljeni = [1,0];
+    S.mir = MIR;
+    var k = kamera(S.x, S.y); S.cx = k[0]; S.cy = k[1];
+    postaviDuhove();
+    osvjezi();
+    if (S.srca <= 0) poraz();
+    return;
   }
 }
 
+/* ---------- kraj vala, razine, igre ---------- */
+
+function zavrsiVal(){
+  if (S.val + 1 < VALOVA){
+    CL.ton(1050,.10);
+    CL.poruka('Wave ' + (S.val+2) + ' of ' + VALOVA + ' — ' + META_VAL + ' more words', 'dobro');
+    return pocniVal(S.val + 1);
+  }
+  zavrsiRazinu();
+}
+
 function zavrsiRazinu(){
-  S.radi = false; clearInterval(S.tikD); clearInterval(S.tikI);
+  S.radi = false;
+  clearInterval(S.tikD); clearInterval(S.tikI);
+  cancelAnimationFrame(S.raf);
   CL.konfeti(24);
-  TRAJNO.srca = S.srca; TRAJNO.bodovi = S.bodovi;
+  TRAJNO.srca = S.srca; TRAJNO.bodovi = S.bodovi; TRAJNO.rijeci = S.rijeci;
 
   if (S.bez){
-    S.bezRazina++;
-    if (TRAJNO.srca < 3) TRAJNO.srca++;
-    return pocni(0);
+    S.bezRaz++;
+    return izborKategorije(S.bezRaz);
   }
   var sljedeca = S.ir + 1;
-  if (sljedeca >= RAZINE.length) return pobjeda();
-  if ((sljedeca % 3) === 0 && TRAJNO.srca < 3){ TRAJNO.srca++; }
-  var def = RAZINE[sljedeca];
-  var z = CL.zastor('<h3>Level cleared! 🌀</h3>' +
-    '<p>Next level: <b>' + (sljedeca+1) + '/' + UKUPNO + '</b><br>' +
-    def.duhova + ' ghosts · ' + def.moci + ' ⭐ to freeze them' +
-    (TRAJNO.srca > S.srca ? '<br><b style="color:#7CB342">One heart restored ❤️</b>' : '') + '</p>' +
+  if (sljedeca >= RAZINA_UK) return pobjeda();
+  var z = CL.zastor(
+    '<h3>Level cleared! 🌀</h3>' +
+    '<p>All ten words from <b>' + CL.esc(S.kat.hr) + '</b> collected.<br>' +
+    'Level <b>' + (sljedeca+1) + '/' + RAZINA_UK + '</b> is next — ' + CL.srca(S.srca) + '</p>' +
     '<div class="tipke"><button class="g glavni" id="_d">Next</button></div>');
   z.querySelector('#_d').onclick = function(){
     z.remove();
-    if (sljedeca % 4 === 0) CL.savjetZastor(function(){ pocni(sljedeca); });
-    else pocni(sljedeca);
+    if (sljedeca % 4 === 0) CL.savjetZastor(function(){ izborKategorije(sljedeca); });
+    else izborKategorije(sljedeca);
   };
 }
 
 function pokreniBezKraja(){
   CL.zatvoriZastore();
-  TRAJNO = {srca:3, bodovi:30, ukupnoRijeci:TRAJNO.ukupnoRijeci};
-  S.bez = true; S.bezRazina = 0;
-  CL.poruka('Endless maze — the rule changes with every level.', 'dobro');
-  pocni(0);
+  TRAJNO = { srca:3, bodovi:RAZINA_UK*VALOVA*META_VAL, rijeci:TRAJNO.rijeci, koristene:[] };
+  if (!S) S = {};
+  S.bez = true; S.bezRaz = 0;
+  CL.poruka('Endless maze — a new category every level.', 'dobro');
+  izborKategorije(0);
+}
+
+function odPocetka(){
+  TRAJNO = { srca:3, bodovi:0, rijeci:0, koristene:[] };
+  S = null;
+  izborKategorije(0);
 }
 
 function poraz(){
-  S.radi = false; clearInterval(S.tikD); clearInterval(S.tikI);
+  S.radi = false;
+  clearInterval(S.tikD); clearInterval(S.tikI);
+  cancelAnimationFrame(S.raf);
   if (S.bez){
     return CL.kraj({
       naslov:'The ghosts got you',
-      tekst:'In the endless maze you cleared <b>' + S.bezRazina + '</b> levels, ' +
-        TRAJNO.ukupnoRijeci + ' words in all.',
-      bodovi:30, maks:30,
+      tekst:'In the endless maze you cleared <b>' + S.bezRaz + '</b> levels.',
+      bodovi:RAZINA_UK*VALOVA*META_VAL, maks:RAZINA_UK*VALOVA*META_VAL,
       ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
     });
   }
   CL.kraj({
-    naslov:'The ghosts got you',
-    tekst:'You reached level <b>' + (S.ir+1) + '/' + UKUPNO + '</b> and picked up ' +
-      TRAJNO.ukupnoRijeci + ' correct words.',
-    bodovi:S.bodovi, maks:30,
-    ponovno:function(){ TRAJNO = {srca:3, bodovi:0, ukupnoRijeci:0}; S = null; pocni(0); }
+    naslov:'Out of hearts',
+    tekst:'You reached level <b>' + (S.ir+1) + '/' + RAZINA_UK + '</b> and collected <b>' +
+      S.rijeci + '</b> correct words.',
+    bodovi:S.bodovi, maks:RAZINA_UK*VALOVA*META_VAL,
+    ponovno:odPocetka
   });
 }
+
 function pobjeda(){
   CL.kraj({
     naslov:'The maze is empty!',
-    tekst:'Ten levels and five different rules — ' + TRAJNO.ukupnoRijeci + ' words collected.',
-    bodovi:30, maks:30,
-    ponovno:function(){ TRAJNO = {srca:3, bodovi:0, ukupnoRijeci:0}; S = null; pocni(0); },
+    tekst:'Ten categories, one hundred words — and three hearts were enough.',
+    bodovi:RAZINA_UK*VALOVA*META_VAL, maks:RAZINA_UK*VALOVA*META_VAL,
+    ponovno:odPocetka,
     beskonacno:pokreniBezKraja
   });
 }
 
 document.addEventListener('keydown', function(e){
   if (!S) return;
-  var m = {ArrowUp:[0,-1],ArrowDown:[0,1],ArrowLeft:[-1,0],ArrowRight:[1,0],
-           w:[0,-1],s:[0,1],a:[-1,0],d:[1,0],W:[0,-1],S:[0,1],A:[-1,0],D:[1,0]}[e.key];
+  var m = {ArrowUp:[0,-1], ArrowDown:[0,1], ArrowLeft:[-1,0], ArrowRight:[1,0],
+           w:[0,-1], s:[0,1], a:[-1,0], d:[1,0],
+           W:[0,-1], S:[0,1], A:[-1,0], D:[1,0]}[e.key];
   if (m){ e.preventDefault(); S.zeljeni = m; }
 });
 
 (function(){
   var z = CL.zastor(
     '<h3>Maze (Labirint)</h3>' +
-    '<p>Ten levels, and each one sets a different rule: category, gender, first letter, ' +
-    'word length or a given set of translations. ⭐ freezes the ghosts for a moment. ' +
-    'After the tenth level the maze keeps going.</p>' +
+    '<p>Ten levels, ten words each. Before every level you pick one of three ' +
+    'categories, then eat only the words that belong to it — each level brings ' +
+    'two waves of five correct words and five decoys. A decoy costs a heart, and ' +
+    'so does a ghost. You get three hearts for the whole run and they do not come ' +
+    'back. ⭐ freezes the ghosts for a moment.</p>' +
     '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">Start</button></div>');
-  z.querySelector('#_k').onclick = function(){ z.remove(); pocni(0); };
+  z.querySelector('#_k').onclick = function(){ z.remove(); izborKategorije(0); };
 })();
 
 </script>

@@ -77,6 +77,11 @@ _sadrzaj/provjeri.js   headless provjera svih igara       → node _sadrzaj/prov
 `ugradi.js` je idempotentan — pokreni ga koliko god puta treba. Provjerava i sam sadržaj
 (rod, kategorije, praznine bez `___`) i prekida s greškom ako nešto ne valja.
 
+**Iznimka: Labirint.** Osma igra ne vuče riječi iz zajedničkog rječnika nego iz vlastitog
+popisa od 19 kategorija (30 točnih + 60 netočnih riječi po kategoriji). Taj popis stoji u
+`08-labirint.html` unutar bloka `/*[KATEGORIJE]*/ … /*[/KATEGORIJE]*/` i tamo se uređuje.
+`ugradi.js` ga ne dira.
+
 ## Mediji
 
 Igre traže slike i zvuk u mapi **`mini games media/`**. Popis svega što tamo ide —
@@ -96,13 +101,13 @@ se preskače. Mediji su nadogradnja, ne uvjet.
 | 05 | Konoba | posluživanje | 20 smjena · 85 gostiju | 50 | 38 jela, 12 pridjeva, 20 uzoraka narudžbe, 4 tipa gostiju |
 | 06 | Skladište | Sokoban | 2–9 katova (po ulogu) | 100 | 5 pravila razvrstavanja, regali koji blokiraju put |
 | 07 | Poštanski vlak | razvrstavanje + sat | 18 krugova | 30 | 8 pravila: kategorija, rod, slovo, duljina, vrsta riječi, prijevod, suprotnice, rečenice |
-| 08 | Labirint | Pac-Man | 10 razina | 30 | 5 pravila skupljanja, uljezi, duhovi, ⭐ za zamrzavanje |
+| 08 | Labirint | Pac-Man | 10 razina × 10 riječi | 100 | izbor jedne od tri kategorije po razini, 19 kategorija, 2 vala po 5 točnih i 5 netočnih, kamera prati igrača, 3 života bez obnove |
 | 09 | Zmija | Snake | 3 razine · 30 riječi | 30 | riječi 3–11 slova, zidovi, ubrzanje |
 | 10 | Mario | platformer | 3 svijeta · 30 razina | 50 | 9 vrsta pitanja, protivnici koje treba preskočiti |
 | 11 | Preživljavanje | pod satom | 5 etapa · 60 zadataka | 100 | riječi u oba smjera, slike, praznine, prijevod rečenica |
 | 12 | Obrana baze | padajuće riječi | 15 valova | 40 | 5 vrsta meta, pojačani valovi svakih 5 |
 
-**Ukupno: 830 bodova po valuti.**
+**Ukupno: 900 bodova po valuti.**
 
 ## Beskonačni način
 
