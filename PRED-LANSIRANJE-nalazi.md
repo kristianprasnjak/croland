@@ -1,3 +1,10 @@
+> **ZASTARJELO — ne čitati kao trenutno stanje.**
+> Ovaj pregled opisuje Netlify verziju projekta (14. 8. 2026.). Netlifyja više nema u lancu:
+> stack je GitHub Pages + Supabase (auth, baza, Storage, Edge Functions) + Stripe — vidi `SETUP.md`.
+> Nalaz 1 (sadržaj iza paywalla) i nalaz 6 (`SITE_URL`) su riješeni. Nalazi 2, 3, 5 i 7 odnose se
+> na logiku koja je u međuvremenu preselila u `supabase/functions/` i vrijede tek nakon ponovne
+> provjere ondje. Zadržano kao zapis o donesenim odlukama.
+
 # Croland — pregled backenda prije lansiranja
 
 Datum: 14.8.2026. Pregledano bez ijedne izmjene koda i bez deploya.

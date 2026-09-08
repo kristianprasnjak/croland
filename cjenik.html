@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croland — izračun cijene licenci</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#10262B; --teal:#14545F; --teal-deep:#0C3A43;
+    --gold:#A8862B; --forest:#2C6B4F; --rust:#9C4A2F;
+    --paper:#E9EEEC; --card:#FFF; --line:#C7D3D2; --muted:#5C7176;
+    --accent:var(--teal);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 20px 64px}
+  header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+  .brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:20px;letter-spacing:-.02em;color:var(--teal-deep)}
+  .brand span{color:var(--gold)}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(28px,5vw,42px);line-height:1.05;letter-spacing:-.03em;margin:0 0 10px}
+  .lede{margin:0 0 30px;max-width:54ch;color:var(--muted)}
+  .step{margin-bottom:22px}
+  .step-label{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;display:block}
+  .types{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  @media(max-width:640px){.types{grid-template-columns:repeat(2,1fr)}}
+  .type{
+    text-align:left;cursor:pointer;background:var(--card);
+    border:1px solid var(--line);border-radius:12px;padding:13px 14px;
+    font-family:"Inter",sans-serif;color:var(--ink);
+    transition:border-color .15s,background .15s;
+  }
+  .type:hover{border-color:var(--accent)}
+  .type strong{display:block;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:17px;letter-spacing:-.02em}
+  .type em{font-style:normal;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+  .type[aria-pressed="true"]{background:var(--accent);border-color:var(--accent)}
+  .type[aria-pressed="true"] strong,.type[aria-pressed="true"] em{color:#fff}
+  .type[aria-pressed="true"] em{opacity:.8}
+  .qty{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .qty-top{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;justify-content:space-between}
+  #seats{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:38px;letter-spacing:-.02em;width:150px;padding:4px 12px;border:2px solid var(--accent);border-radius:10px;background:#fff;color:var(--teal-deep)}
+  .presets{display:flex;gap:8px;flex-wrap:wrap}
+  .preset{font-family:"IBM Plex Mono",monospace;font-size:13px;padding:7px 12px;border-radius:999px;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--accent)}
+  .preset:hover{border-color:var(--accent)}
+  .preset[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+  #slider{width:100%;margin-top:18px;height:26px;accent-color:var(--accent)}
+  :is(#seats,#slider,.preset,.type):focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+  .chart{margin-top:6px}
+  .chart svg{display:block;width:100%;height:auto}
+  .chart-cap{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);margin-top:2px}
+  .result{background:var(--teal-deep);color:#DCEAE9;border-radius:14px;padding:24px;margin-top:26px}
+  .result-head{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.7;margin-bottom:14px}
+  .big{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(38px,9vw,62px);line-height:1;letter-spacing:-.035em;color:#fff}
+  .big-note{margin-top:8px;font-size:14px;opacity:.8}
+  .rows{margin-top:22px;padding-top:18px;border-top:1px dotted rgba(220,234,233,.3);display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  @media(max-width:560px){.rows{grid-template-columns:repeat(2,1fr);gap:14px}}
+  .rows span{display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.65;margin-bottom:3px}
+  .rows b{font-family:"IBM Plex Mono",monospace;font-size:17px;font-weight:600;color:#fff}
+  .sys{margin-top:40px;border-top:1px solid var(--line);padding-top:26px}
+  .sys h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:22px;letter-spacing:-.02em;margin:0 0 16px}
+  .sys dl{margin:0;display:grid;grid-template-columns:180px 1fr;gap:14px 22px;max-width:66ch}
+  @media(max-width:600px){.sys dl{grid-template-columns:1fr;gap:4px 0}.sys dd{margin-bottom:14px}}
+  .sys dt{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em}
+  .sys dd{margin:0;font-size:14px;color:#3D5155}
+  .note{margin-top:26px;font-size:13px;color:var(--muted);border-left:2px solid var(--gold);padding-left:14px;max-width:62ch}
+  .note code{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--teal)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Cro<span>land</span></div>
+    <div class="eyebrow">Cjenik &middot; izračun licenci</div>
+  </header>
+
+  <h1>Izračun cijene licenci</h1>
+  <p class="lede">Odaberite vrstu licence i količinu. Cijena po licenci pada sa svakom sljedećom — bez razreda i bez skokova. Na 100 licenci popust je točno pola.</p>
+
+  <div class="step">
+    <span class="step-label">Vrsta licence</span>
+    <div class="types" id="types">
+      <button class="type" data-k="d" aria-pressed="false"><strong>Dnevna</strong><em>2 € osnovica</em></button>
+      <button class="type" data-k="w" aria-pressed="false"><strong>Tjedna</strong><em>5 € osnovica</em></button>
+      <button class="type" data-k="m" aria-pressed="true"><strong>Mjesečna</strong><em>10 € osnovica</em></button>
+      <button class="type" data-k="y" aria-pressed="false"><strong>Godišnja</strong><em>60 € osnovica</em></button>
+    </div>
+  </div>
+
+  <div class="step">
+    <span class="step-label">Količina</span>
+    <div class="qty">
+      <div class="qty-top">
+        <input id="seats" type="number" min="1" max="5000" value="1" inputmode="numeric" aria-label="Broj licenci">
+        <div class="presets" id="presets">
+          <button class="preset" data-n="1">1</button>
+          <button class="preset" data-n="5">5</button>
+          <button class="preset" data-n="10">10</button>
+          <button class="preset" data-n="25">25</button>
+          <button class="preset" data-n="50">50</button>
+          <button class="preset" data-n="100">100</button>
+          <button class="preset" data-n="500">500</button>
+        </div>
+      </div>
+      <input id="slider" type="range" min="0" max="1000" value="0" aria-label="Količina (klizač)">
+      <div class="chart" id="chart"></div>
+      <div class="chart-cap" id="chartCap"></div>
+    </div>
+  </div>
+
+  <div class="result" role="status" aria-live="polite">
+    <div class="result-head" id="rHead">Ukupno — mjesečna licenca</div>
+    <div class="big" id="rTotal">10,00 €</div>
+    <div class="big-note" id="rNote">1 licenca × 10,00 €</div>
+    <div class="rows">
+      <div><span>Po licenci</span><b id="rPer">10,00 €</b></div>
+      <div><span>Po danu</span><b id="rDay">0,33 €</b></div>
+      <div><span>Popust</span><b id="rDisc">0 %</b></div>
+      <div><span>Ušteda</span><b id="rSave">0 €</b></div>
+    </div>
+  </div>
+
+  <div class="sys">
+    <h2>Kako licence rade</h2>
+    <dl>
+      <dt>Što je licenca</dt>
+      <dd>Pristup Croland Plusu na određeno vrijeme — dan, tjedan, mjesec ili godinu. Vrijeme teče od aktivacije, ne od kupnje.</dd>
+
+      <dt>Kupujete za sebe</dt>
+      <dd>Platite i pristup se otključa odmah. Nema koda ni unosa, ništa ne čekate u mailu.</dd>
+
+      <dt>Kupujete za druge</dt>
+      <dd>Kodovi stižu mailom i stoje u vašoj nadzornoj ploči. Ondje vidite koji su iskorišteni, koji još čekaju i tko ih je aktivirao. Dijelite ih kako vam odgovara — poveznicom, porukom ili ispisom.</dd>
+
+      <dt>Rok aktivacije</dt>
+      <dd>365 dana od kupnje. Nakon toga neiskorišten kod prestaje vrijediti.</dd>
+
+      <dt>Kodovi se zbrajaju</dt>
+      <dd>Aktivira li netko kod dok mu pristup još traje, dani se dodaju na kraj. Ništa se ne preklapa i ništa ne propada.</dd>
+
+      <dt>Napredak</dt>
+      <dd>Pri aktivaciji korisniku kažemo tko mu je dao licencu i pitamo smije li ta osoba pratiti njegov napredak. Pristane li, vidite odrađene lekcije, bodove i datume. Ne pristane li, vidite samo da je kod iskorišten. Za maloljetnike pristanak daje roditelj ili škola.</dd>
+
+      <dt>Plaćanje</dt>
+      <dd>Karticom, bez obzira na količinu. Popust se računa za svaku kupnju zasebno.</dd>
+    </dl>
+  </div>
+
+  <p class="note">
+    Cijena po licenci = osnovica × <code>n^-0,1505</code>, s podom na trećini osnovice (nastupa kod 1479 licenci).
+    Eksponent je izveden iz pravila da na 100 licenci popust bude točno 50 %.
+    Osnovice: dnevna 2 €, tjedna 5 €, mjesečna 10 €, godišnja 60 €. Iznosi su bez PDV-a.
+  </p>
+</div>
+
+<script>
+(function(){
+  var EXP = Math.log(2) / Math.log(100);   // 50 % popusta na točno 100 licenci
+  var FLOOR = 1/3;                          // najdublji popust: 67 %
+  var NMAX = 2000;                          // gornja granica klizača
+  var NFLOOR = Math.round(Math.exp(Math.log(1/FLOOR)/EXP));
+
+  var T = {
+    d:{base:2,  label:"dnevna licenca",  per:"dnevno",   dani:1,     accent:"#9C4A2F"},
+    w:{base:5,  label:"tjedna licenca",  per:"tjedno",   dani:7,     accent:"#A8862B"},
+    m:{base:10, label:"mjesečna licenca",per:"mjesečno", dani:30.44, accent:"#14545F"},
+    y:{base:60, label:"godišnja licenca",per:"godišnje", dani:365,   accent:"#2C6B4F"}
+  };
+
+  var kind = 'm', n = 1;
+  var eur  = new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',minimumFractionDigits:2});
+  var eur0 = new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  var eur3 = new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',minimumFractionDigits:2,maximumFractionDigits:3});
+
+  var seats  = document.getElementById('seats');
+  var slider = document.getElementById('slider');
+  var chart  = document.getElementById('chart');
+
+  function mult(k){ return Math.max(Math.pow(k,-EXP), FLOOR); }
+
+  // hrvatska množina: ravna se po zadnjoj znamenki, uz iznimku 11–14
+  function plural(k){
+    var d1 = k % 10, d2 = k % 100;
+    if (d1 === 1 && d2 !== 11) return 'licenca';
+    if (d1 >= 2 && d1 <= 4 && (d2 < 12 || d2 > 14)) return 'licence';
+    return 'licenci';
+  }
+
+  function sliderToN(v){ return Math.max(1, Math.round(Math.exp(v/1000 * Math.log(NMAX)))); }
+  function nToSlider(k){ return Math.round(Math.log(Math.min(k,NMAX))/Math.log(NMAX) * 1000); }
+
+  var W = 640, H = 190, PL = 40, PR = 14, PT = 14, PB = 26;
+  function xOf(k){ return PL + Math.log(Math.min(Math.max(k,1),NMAX))/Math.log(NMAX) * (W-PL-PR); }
+  function yOf(mv){ return PT + (1-mv) * (H-PT-PB); }
+
+  function drawChart(){
+    var acc = T[kind].accent, d = '', i;
+    for (i = 0; i <= 240; i++){
+      var k = Math.exp(i/240 * Math.log(NMAX));
+      d += (i ? 'L' : 'M') + xOf(k).toFixed(1) + ' ' + yOf(mult(k)).toFixed(1) + ' ';
+    }
+    var ticks = [1,10,100,1000,NMAX];
+    var gx = ticks.map(function(t){
+      return '<line x1="'+xOf(t).toFixed(1)+'" y1="'+PT+'" x2="'+xOf(t).toFixed(1)+'" y2="'+(H-PB)+'" stroke="#C7D3D2" stroke-width="1" stroke-dasharray="2 4"/>' +
+             '<text x="'+xOf(t).toFixed(1)+'" y="'+(H-PB+15)+'" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C7176">'+t+'</text>';
+    }).join('');
+    var gy = [[1,'0 %'],[0.5,'50 %'],[FLOOR,'67 %']].map(function(p){
+      return '<line x1="'+PL+'" y1="'+yOf(p[0]).toFixed(1)+'" x2="'+(W-PR)+'" y2="'+yOf(p[0]).toFixed(1)+'" stroke="#C7D3D2" stroke-width="1"'+(p[0]===1?'':' stroke-dasharray="3 4"')+'/>' +
+             '<text x="'+(PL-7)+'" y="'+(yOf(p[0])+3.5).toFixed(1)+'" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5C7176">'+p[1]+'</text>';
+    }).join('');
+    var anchor = '<circle cx="'+xOf(100).toFixed(1)+'" cy="'+yOf(0.5).toFixed(1)+'" r="3.5" fill="none" stroke="#5C7176" stroke-width="1.5"/>';
+    var cx = xOf(n), cy = yOf(mult(n));
+    var dot = '<line x1="'+cx.toFixed(1)+'" y1="'+cy.toFixed(1)+'" x2="'+cx.toFixed(1)+'" y2="'+(H-PB)+'" stroke="'+acc+'" stroke-width="1"/>' +
+              '<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="5" fill="'+acc+'"/>';
+    chart.innerHTML =
+      '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Krivulja popusta po količini">' +
+      gy + gx +
+      '<path d="'+d+'" fill="none" stroke="'+acc+'" stroke-width="2.5" stroke-linejoin="round"/>' +
+      anchor + dot + '</svg>';
+    document.getElementById('chartCap').textContent =
+      'Popust po količini · pod od 67 % nastupa kod ' + NFLOOR + ' licenci';
+  }
+
+  function render(){
+    var t = T[kind], mv = mult(n), per = t.base * mv, total = per * n;
+    document.documentElement.style.setProperty('--accent', t.accent);
+    document.getElementById('rHead').textContent  = 'Ukupno — ' + t.label;
+    document.getElementById('rTotal').textContent = eur.format(total);
+    document.getElementById('rNote').textContent  = n + ' ' + plural(n) + ' × ' + eur.format(per) + ' ' + t.per;
+    document.getElementById('rPer').textContent   = eur.format(per);
+    document.getElementById('rDay').textContent   = eur3.format(per / t.dani);
+    document.getElementById('rDisc').textContent  = Math.round((1-mv)*100) + ' %';
+    document.getElementById('rSave').textContent  = eur0.format((t.base - per) * n);
+    drawChart();
+    if (+seats.value !== n) seats.value = n;
+    if (sliderToN(+slider.value) !== n) slider.value = nToSlider(n);
+    document.querySelectorAll('.preset').forEach(function(b){ b.setAttribute('aria-pressed', String(+b.dataset.n === n)); });
+    document.querySelectorAll('.type').forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.k === kind)); });
+  }
+
+  function setN(v){ n = Math.max(1, Math.min(5000, Math.round(v) || 1)); render(); }
+
+  seats.addEventListener('input', function(){ setN(+seats.value); });
+  slider.addEventListener('input', function(){ setN(sliderToN(+slider.value)); });
+  document.querySelectorAll('.preset').forEach(function(b){ b.addEventListener('click', function(){ setN(+b.dataset.n); }); });
+  document.querySelectorAll('.type').forEach(function(b){ b.addEventListener('click', function(){ kind = b.dataset.k; render(); }); });
+
+  render();
+})();
+</script>
+</body>
+</html>

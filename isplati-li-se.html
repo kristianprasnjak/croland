@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isplati li se Croland</title>
+<style>
+  :root{
+    --surface:#fcfcfb; --plane:#f4f4f1; --card:#fff;
+    --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --line:#e1e0d9; --rule:#c3c2b7;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+    --good:#006300; --crit:#d03b3b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
+      --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+      --line:#2c2c2a; --rule:#383835;
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+      --good:#0ca30c; --crit:#e66767;
+    }
+  }
+  :root[data-theme="dark"]{
+    --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
+    --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+    --line:#2c2c2a; --rule:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+    --good:#0ca30c; --crit:#e66767;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--plane);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 90px}
+
+  .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  h1{font-size:clamp(28px,5.5vw,42px);line-height:1.08;letter-spacing:-.03em;margin:8px 0 16px;font-weight:700}
+  h2{font-size:23px;letter-spacing:-.02em;margin:52px 0 4px;font-weight:700}
+  h2 + .podnaslov{color:var(--muted);font-size:14px;margin:0 0 18px}
+  h3{font-size:16px;margin:26px 0 6px;font-weight:650}
+  p{margin:14px 0;max-width:66ch}
+  a{color:var(--s1)}
+
+  .presuda{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--s1);
+    border-radius:0 12px 12px 0;padding:20px 22px;margin:26px 0 8px}
+  .presuda p{margin:0 0 12px}
+  .presuda p:last-child{margin-bottom:0}
+
+  .brojka{display:flex;gap:26px;flex-wrap:wrap;margin:22px 0}
+  .stat{flex:1;min-width:150px}
+  .stat b{display:block;font-size:31px;line-height:1.1;letter-spacing:-.02em;font-weight:700}
+  .stat span{display:block;font-size:13px;color:var(--ink2);margin-top:3px;max-width:28ch}
+
+  .model{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin:24px 0}
+  .ulaz{display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:center;margin-bottom:14px}
+  .ulaz label{font-size:14px;color:var(--ink2)}
+  .ulaz output{font-variant-numeric:tabular-nums;font-size:14px;font-weight:600;text-align:right;min-width:82px}
+  .ulaz input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--s1);height:22px;margin:0}
+  .hint{grid-column:1/-1;font-size:12px;color:var(--muted);margin:-2px 0 6px}
+
+  .ishod{border-top:1px solid var(--line);margin-top:18px;padding-top:18px}
+  .hero{font-size:clamp(34px,8vw,52px);line-height:1;letter-spacing:-.035em;font-weight:700}
+  .hero-note{font-size:14px;color:var(--ink2);margin-top:6px}
+
+  .bars{margin-top:22px}
+  .bar-red{display:grid;grid-template-columns:118px 1fr 78px;gap:12px;align-items:center;margin:9px 0;font-size:13.5px}
+  .bar-ime{color:var(--ink2)}
+  .bar-tr{background:var(--plane);border-radius:4px;height:22px;overflow:hidden}
+  .bar-tr i{display:block;height:100%;border-radius:0 4px 4px 0;transition:width .25s}
+  .bar-val{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+
+  .protiv,.za{border-left:3px solid;padding-left:18px;margin:20px 0}
+  .protiv{border-color:var(--crit)}
+  .za{border-color:var(--good)}
+  .protiv h3,.za h3{margin-top:18px}
+  .protiv h3:first-child,.za h3:first-child{margin-top:0}
+
+  .pravilo{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:24px;margin:24px 0}
+  .pravilo .veliko{font-size:19px;font-weight:650;letter-spacing:-.01em;margin:0 0 10px;max-width:none}
+
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted)}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">Croland · odluka</div>
+<h1>Isplati li se?</h1>
+
+<div class="presuda">
+  <p><strong>Da — ali ne kao ono što si nazvao poduzetničkim projektom.</strong> Ovo nije posao
+  koji će zamijeniti tvoju plaću, ni ove ni sljedeće godine, a vjerojatno ni treće.</p>
+  <p>Isplati se kao <strong>ograničen pokus s unaprijed određenim krajem</strong>: mala uložena
+  svota, tvoje večeri, i jedan datum na koji provjeriš je li se dogodilo ono što se moralo
+  dogoditi. Ako nije, staneš bez drame.</p>
+  <p>Razlog zašto je odgovor ipak „da" nije veličina tržišta. Nego to što je <em>trošak
+  nastavka gotovo nikakav, a proizvod je već napravljen.</em></p>
+</div>
+
+<h2>Što tržište stvarno kaže</h2>
+<p class="podnaslov">Četiri brojke koje vrijede više od bilo kakve procjene.</p>
+
+<div class="brojka">
+  <div class="stat"><b>0</b><span>Duolingo tečajeva hrvatskog, nakon petnaest godina</span></div>
+  <div class="stat"><b>~350</b><span>polaznika Croaticuma u zimskom semestru 2025/26.</span></div>
+  <div class="stat"><b>3,2 mil.</b><span>ljudi hrvatskog podrijetla u svijetu</span></div>
+  <div class="stat"><b>32.755</b><span>produljenja radnih dozvola u pet mjeseci 2026.</span></div>
+</div>
+
+<p><strong>Duolingova nula je najvažnija.</strong> U travnju 2025. objavili su 148 novih tečajeva —
+ali radilo se o tome da sedam najpopularnijih jezika postanu dostupni na svim sučeljima, ne o
+novim ciljnim jezicima. Hrvatskog nema ni danas. Tvrtka koja živi od toga da pogodi gdje ima
+potražnje petnaest godina zaključuje da je ondje nema dovoljno. To je dokaz, ne samo prilika.</p>
+
+<p><strong>Croaticum je druga hladna tuš.</strong> Nacionalni centar za hrvatski kao strani jezik,
+osnovan 1962., pri Filozofskom fakultetu u Zagrebu — dakle najpoznatija adresa koja postoji —
+ima oko 350 polaznika po semestru. To je gornja granica onoga što „ljudi uče hrvatski" znači
+u praksi kad se plati i dođe.</p>
+
+<p><strong>Onih 3,2 milijuna je lijep broj i gotovo posve beskoristan.</strong> Treća generacija
+iseljenika izražava interes bez posljedica — to je klasičan problem nasljednih jezika. Broj
+koji te zanima nije koliko ljudi ima hrvatske pretke, nego koliko će ih platiti 60 € i doći do
+druge razine. Taj broj ne znaš i ne možeš ga saznati bez pokušaja.</p>
+
+<h3>A1.1 je stvaran, ali upola manji nego što izgleda</h3>
+<p>U prvih pet mjeseci 2026. izdano je 80.780 dozvola za boravak i rad, od toga <strong>32.755
+produljenja</strong> — a produljenje je točno ono što obveza pogađa. Ali pogledaj odakle ljudi
+dolaze:</p>
+
+<table>
+  <tr><th>Zemlja</th><th class="n">Dozvole (I–V 2026.)</th><th>Treba li im hrvatski?</th></tr>
+  <tr><td>Bosna i Hercegovina</td><td class="n">14.799</td><td>ne — govore ga</td></tr>
+  <tr><td>Srbija</td><td class="n">12.911</td><td>ne — govore ga</td></tr>
+  <tr><td>Filipini</td><td class="n">12.622</td><td><strong>da</strong></td></tr>
+  <tr><td>Nepal</td><td class="n">11.441</td><td><strong>da</strong></td></tr>
+  <tr><td>Sjeverna Makedonija</td><td class="n">6.849</td><td>uglavnom ne</td></tr>
+  <tr><td>Indija</td><td class="n">4.969</td><td><strong>da</strong></td></tr>
+  <tr><td>Uzbekistan</td><td class="n">3.515</td><td><strong>da</strong></td></tr>
+  <tr><td>Kosovo</td><td class="n">2.723</td><td>djelomično</td></tr>
+</table>
+
+<p>Blizu <strong>polovice</strong> stranih radnika dolazi iz zemalja gdje se govori jezik
+međusobno razumljiv s hrvatskim. Oni će A1.1 položiti bez ijednog tečaja. Ostaje otprilike
+34.000 dozvola u pet mjeseci iz zemalja gdje je hrvatski stvarno stran — recimo 70–80 tisuća
+godišnje, od čega je produljenja manji dio.</p>
+
+<p>To je i dalje puno ljudi. Ali nije 136 tisuća, i nisu svi tvoji: poslodavac koji mora
+dokazati položen ispit radije će platiti akreditiranog provoditelja koji ispit i provodi.
+Ti to ne možeš — barem ne bez partnera.</p>
+
+<h2>Model</h2>
+<p class="podnaslov">Pomakni pretpostavke i vidi što ispada. Nemam ti pravi broj — imam ti raspon.</p>
+
+<div class="model">
+  <div class="ulaz">
+    <label for="posjet">Posjetitelja u prvoj godini</label>
+    <output id="o-posjet">15 000</output>
+    <input type="range" id="posjet" min="2000" max="60000" step="1000" value="15000">
+    <div class="hint">Bez proračuna za oglase, sa stranicom na engleskom i nešto usmene predaje u dijaspori.</div>
+  </div>
+  <div class="ulaz">
+    <label for="reg">Postotak koji otvori besplatan račun</label>
+    <output id="o-reg">12 %</output>
+    <input type="range" id="reg" min="3" max="25" step="1" value="12">
+  </div>
+  <div class="ulaz">
+    <label for="konv">Od njih plati pretplatu</label>
+    <output id="o-konv">4 %</output>
+    <input type="range" id="konv" min="1" max="12" step="0.5" value="4">
+    <div class="hint">Mjerila za 2026.: besplatan plan bez kartice pretvara 3–5 % dobro, 8–12 % odlično.</div>
+  </div>
+  <div class="ulaz">
+    <label for="god">Udio koji uzme godišnju umjesto mjesečne</label>
+    <output id="o-god">50 %</output>
+    <input type="range" id="god" min="0" max="100" step="5" value="50">
+    <div class="hint">Godišnja nosi 60 €. Mjesečni prosječno izdrže tri mjeseca, dakle 30 €.</div>
+  </div>
+  <div class="ulaz">
+    <label for="inst">Institucionalnih poslova u prvoj godini</label>
+    <output id="o-inst">1</output>
+    <input type="range" id="inst" min="0" max="6" step="1" value="1">
+    <div class="hint">Instruktor, škola ili poslodavac. Računam 800 € po poslu.</div>
+  </div>
+  <div class="ulaz">
+    <label for="sati">Sati koje uložiš u godinu dana</label>
+    <output id="o-sati">300 h</output>
+    <input type="range" id="sati" min="50" max="800" step="25" value="300">
+  </div>
+
+  <div class="ishod">
+    <div class="hero" id="hero">0 €</div>
+    <div class="hero-note" id="hero-note"></div>
+
+    <div class="bars">
+      <div class="bar-red">
+        <div class="bar-ime">Croland</div>
+        <div class="bar-tr"><i id="b1" style="background:var(--s1)"></i></div>
+        <div class="bar-val" id="v1">0 €/h</div>
+      </div>
+      <div class="bar-red">
+        <div class="bar-ime">Svirke</div>
+        <div class="bar-tr"><i style="background:var(--s2);width:60%"></i></div>
+        <div class="bar-val">≈ 15 €/h</div>
+      </div>
+      <div class="bar-red">
+        <div class="bar-ime">Škola</div>
+        <div class="bar-tr"><i style="background:var(--s3);width:36%"></i></div>
+        <div class="bar-val">≈ 9 €/h</div>
+      </div>
+    </div>
+    <p style="font-size:12.5px;color:var(--muted);margin:12px 0 0">
+      Usporedba je po satu, jer je sat jedino čime stvarno plaćaš. Skala ide do 25 €/h.
+    </p>
+  </div>
+</div>
+
+<p>Pomakni klizače kako god hoćeš — <strong>u prvoj godini je gotovo nemoguće doći do brojke
+koja mijenja tvoj život.</strong> Da bi Croland u prvoj godini nosio 10.000 €, treba ti 40.000
+posjetitelja i konverzija na gornjoj granici mjerila. To se ne događa slučajno.</p>
+
+<p>Ali pogledaj i drugu stranu: uz razumne pretpostavke izlaziš na <strong>satnicu usporedivu s
+onim što već radiš</strong> — i to u godini u kojoj gradiš, ne u godini u kojoj žanješ. Sat
+uložen u sviranje donese 15 € i tu priča staje. Sat uložen u Croland gradi nešto što
+sljedeće godine može zaraditi bez tebe.</p>
+
+<h2>Slučaj protiv</h2>
+<p class="podnaslov">Ovo bih ti rekao da si me pitao smijem li te odgovoriti.</p>
+
+<div class="protiv">
+  <h3>Tržište je malo i dokazi su obeshrabrujući</h3>
+  <p>Duolingova nula i Croaticumovih 350 nisu slučajnost. Hrvatski nije jezik koji ljudi masovno
+  uče, i nema razloga vjerovati da će to promijeniti bolja aplikacija.</p>
+
+  <h3>Nemaš distribuciju, a ona je jedino usko grlo</h3>
+  <p>Nemaš publiku, popis mailova, ime, proračun ni vrijeme. Sagradio si proizvod prije nego
+  publiku — što je najčešća greška koju ljudi rade, i najskuplja, jer je proizvod zabavan a
+  distribucija nije.</p>
+
+  <h3>Institucionalni proizvod ne postoji</h3>
+  <p>Poslodavac ili škola trebaju podračune, pregled napretka i izvještaj. Aplikacija danas zna
+  samo jedan račun po osobi. To je najveći komad posla koji te dijeli od jedinog tržišta koje bi
+  moglo ozbiljno platiti — i nisi ga ni počeo.</p>
+
+  <h3>Vrijeme ti je već potrošeno</h3>
+  <p>29/40 sati u školi, tri do četiri svirke mjesečno, obitelj. Svaki sat u Crolandu je sat koji
+  nije otišao u svirku koja pouzdano plaća, ili doma. Prva godina je najgora jer se radi najviše
+  a zarađuje najmanje.</p>
+
+  <h3>Nisi u utrci u kojoj možeš pobijediti brzinom</h3>
+  <p>Ako se ispostavi da tržište postoji, netko s novcem to vidi i napravi za tri mjeseca ono
+  što si ti radio tri godine. Tvoja prednost nije tehnologija nego sadržaj — 1372 zvučna zapisa i
+  rječnik koji netko mora napisati. To je stvarna prepreka, ali nije neprobojna.</p>
+</div>
+
+<h2>Slučaj za</h2>
+<p class="podnaslov">I ovo bih ti rekao, jednako iskreno.</p>
+
+<div class="za">
+  <h3>Ovo nije pitanje „počinjem li", nego „dovršavam li"</h3>
+  <p>Skupi dio je gotov. 242 slike, 1372 zvučna zapisa, rječnik, lekcije, igre, dnevni izazovi.
+  Ekonomika započinjanja i ekonomika dovršavanja nisu ista stvar — trošak nastavka ti je mali,
+  a već potrošeno se ne vraća bez obzira što odlučiš.</p>
+
+  <h3>Trošak nastavka je doslovno mali</h3>
+  <p>Obrt u prvom razredu, uz posao u školi: oko 500 € godišnje. Hosting i alati: nekoliko
+  stotina. Ne riskiraš ušteđevinu, ne riskiraš plaću, ne riskiraš stan. Riskiraš večeri.</p>
+
+  <h3>Mjesto je prazno</h3>
+  <p>Duolingova nula reže na obje strane. Tržište je malo — ali ga nitko ne opslužuje. U 2026.
+  je vrlo malo niša koje su stvarno prazne, a ova jest. Ako itko ikad bude „ono gdje se uči
+  hrvatski", mjesto je slobodno.</p>
+
+  <h3>A1.1 je vanjska sila s datumom</h3>
+  <p>Ovo je jedino u cijeloj priči što ne ovisi o tvom marketingu. Zakon stvara potrebu, potreba
+  ima rok, a poslodavac koji riskira gubitak radnika nije cjenovno osjetljiv. Ništa drugo u tvom
+  životu neće ti dodijeliti tržište s pravnim rokom.</p>
+
+  <h3>Gubitak je ograničen, dobitak nije</h3>
+  <p>Zadržavaš plaću. U najgorem slučaju izgubiš dvije godine večeri i dobiješ registriran obrt,
+  naučen zanat i nešto što postoji. U najboljem, imaš prihod koji ne ovisi o tome jesi li tog
+  dana ustao.</p>
+
+  <h3>Jedino je ovo što radiš a nije sat-za-novac</h3>
+  <p>Škola i svirke su linearne i zauvijek ostaju linearne. Croland je jedina stvar u tvom
+  rasporedu koja može zaraditi dok spavaš. To ne mora uspjeti da bi bilo vrijedno pokušaja —
+  ali mora se pokušati da bi se saznalo.</p>
+</div>
+
+<h2>Odluka</h2>
+<p class="podnaslov">Ne oslanjaj se na osjećaj za godinu dana. Postavi pravilo sada, dok ti je glava hladna.</p>
+
+<div class="pravilo">
+  <p class="veliko">Do 28. kolovoza 2027. mora se dogoditi jedno od dvoje:</p>
+  <p><strong>1.000 € prihoda od ljudi koje ne poznaješ</strong>, ili <strong>jedan sklopljen
+  institucionalni posao.</strong></p>
+  <p>Tisuću eura nije novac. Ali je dokaz da stranci plaćaju — a to je jedina stvar koju ne možeš
+  saznati razmišljanjem, samo pokušajem. Institucionalni posao je dokaz da druga, veća priča
+  postoji.</p>
+  <p><strong>Ako se dogodi jedno od toga:</strong> nastavljaš, i sljedeća odluka je hoćeš li
+  graditi podračune i izvještaje za institucije.</p>
+  <p><strong>Ako se ne dogodi ni jedno:</strong> prestaješ ulagati nove sate. Ne gasiš — pustiš da
+  stoji i zarađuje što zaradi, a večeri vratiš sebi. To nije poraz nego rezultat pokusa.</p>
+</div>
+
+<h2>Što napraviti prvo — i nije proizvod</h2>
+
+<p>Najveća greška koju možeš napraviti u sljedeća tri mjeseca je dorađivati aplikaciju. Ona je
+dovoljno dobra. Ono što ne znaš je <strong>možeš li dovesti ljude</strong>, a to je jedino
+pitanje koje odlučuje sve ostalo.</p>
+
+<p>Devedeset dana, jedno pitanje: <em>mogu li dovesti tisuću ljudi na stranicu?</em> Ako možeš,
+model gore odjednom postaje stvaran. Ako ne možeš, nikakav proizvod to ne popravlja i bolje je
+da to saznaš u studenom nego u kolovozu.</p>
+
+<p>Konkretno, i ništa od toga ne traži obrt: napiši u grupe dijaspore, javi se hrvatskim
+nastavama u inozemstvu, nađi pet instruktora hrvatskog i daj im pristup besplatno, skupljaj
+mailove od prvog dana. Instruktor koji dva mjeseca radi s osmero učenika preko Crolanda vrijedi
+više od svake nove lekcije.</p>
+
+<h2>Pitanje koje si sebi nisi postavio</h2>
+
+<p>Cijela ova analiza pretpostavlja da igraš igru u kojoj se pobjeđuje novcem. Postoji i druga.</p>
+
+<p>Ti si nastavnik glazbe iz Osijeka koji je napravio aplikaciju za učenje hrvatskog za ljude
+razasute po svijetu. Ako je nikad ne koristi više od petsto ljudi, ali među njima bude baka iz
+Toronta koja s unucima uči hrvatski jer si ti to napravio — to je stvarna stvar koja postoji na
+svijetu, i ne treba joj poslovni plan da bi bila opravdana.</p>
+
+<p>Obje igre su legitimne. Ali <strong>moraš znati koju igraš</strong>, jer se odluke razlikuju.
+Ako je novac, distribucija je sve i A1.1 je glavna priča. Ako je ono drugo, onda prestani sam
+sebe pritiskati brojkama i pusti da raste koliko raste.</p>
+
+<p>Moj dojam iz svega što si mi pokazao je da igraš drugu igru, a govoriš jezikom prve. To nije
+problem — samo nemoj sam sebe ocijeniti mjerilima igre koju zapravo ne igraš.</p>
+
+<footer>
+  <p>Podaci: Duolingo, objava o 148 novih tečajeva, travanj 2025. · Croaticum, Filozofski fakultet
+  u Zagrebu, zimski semestar 2025/26. · Središnji državni ured za Hrvate izvan RH · MUP, dozvole
+  za boravak i rad, siječanj–svibanj 2026. · Mjerila konverzije: ChartMogul 2026.</p>
+  <p>Sve projekcije u modelu su moje pretpostavke, ne predviđanja. Jedini pouzdan podatak
+  o Crolandu dobit ćeš iz prvih šest mjeseci prodaje.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var el = function(id){ return document.getElementById(id); };
+  var eur = new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  var num = new Intl.NumberFormat('hr-HR');
+
+  var polja = ['posjet','reg','konv','god','inst','sati'];
+
+  function racun(){
+    var posjet = +el('posjet').value,
+        reg    = +el('reg').value,
+        konv   = +el('konv').value,
+        god    = +el('god').value,
+        inst   = +el('inst').value,
+        sati   = +el('sati').value;
+
+    el('o-posjet').textContent = num.format(posjet);
+    el('o-reg').textContent    = reg + ' %';
+    el('o-konv').textContent   = konv + ' %';
+    el('o-god').textContent    = god + ' %';
+    el('o-inst').textContent   = inst;
+    el('o-sati').textContent   = sati + ' h';
+
+    var racuni  = posjet * reg/100;
+    var placeni = racuni * konv/100;
+    var prosjek = (god/100)*60 + (1-god/100)*30;
+    var samoposluga = placeni * prosjek;
+    var institucije = inst * 800;
+    var ukupno = samoposluga + institucije;
+
+    // Paddle uzima ~5% + 0,50 po transakciji; institucije idu izravno
+    var naknada = samoposluga * 0.05 + placeni * 0.45;
+    var trosak  = 500 + 300; // obrt u 1. razredu + hosting i alati
+    var neto    = ukupno - naknada - trosak;
+
+    el('hero').textContent = eur.format(ukupno);
+    el('hero-note').textContent =
+      Math.round(racuni) + ' računa → ' + Math.round(placeni) + ' pretplatnika · '
+      + eur.format(samoposluga) + ' samoposluga + ' + eur.format(institucije) + ' institucije · '
+      + 'nakon naknada i troškova ostaje ' + eur.format(neto);
+
+    var satnica = sati > 0 ? Math.max(neto,0)/sati : 0;
+    el('v1').textContent = satnica.toFixed(1).replace('.',',') + ' €/h';
+    el('b1').style.width = Math.min(satnica/25*100, 100) + '%';
+  }
+
+  polja.forEach(function(p){ el(p).addEventListener('input', racun); });
+  racun();
+})();
+</script>
+</body>
+</html>
