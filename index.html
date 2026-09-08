@@ -325,6 +325,17 @@
     user-select: none; vertical-align: middle; line-height: 1.5;
   }
   .prijevodGumb:hover { border-color: var(--plava); color: var(--plava); }
+  /* ---- ikone sucelja ----
+     Velicina je u em-ovima da ikona prati tekst uz koji stoji: isti element radi
+     i u recku od 0.75rem i u lebdecoj tipki od 3.5rem, bez posebnih pravila. */
+  .ikn {
+    width: 1.15em; height: 1.15em; flex: none; display: inline-block;
+    vertical-align: -0.2em; fill: none; stroke: currentColor;
+    stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round;
+  }
+  .ikn.uz { margin-right: 0.4em; }
+  .ikn.krupna { width: 1em; height: 1em; stroke-width: 1.25; vertical-align: 0; }
+
   .zvucnik {
     font-size: .85em; opacity: .45; cursor: pointer; margin-left: 0.375rem;
     user-select: none; vertical-align: middle; display: inline-block;
@@ -491,7 +502,12 @@
   .dictBrojac { color: var(--muted); font-size: var(--t-s); margin: 0.25rem 0 0; }
   .dictAlat { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.875rem; }
   .dictAlat[hidden] { display: none; }
-  .dictAlat .rjecnikTraka { flex: 1 1 12rem; min-width: 0; margin: 0; }
+  .dictAlat .rjecnikTraka { flex: 1 1 12rem; min-width: 0; margin: 0; position: relative; }
+  .dictAlat .rjecnikTraka .ikTrazi {
+    position: absolute; left: 0.875rem; top: 50%; margin-top: -0.55em;
+    width: 1.1em; height: 1.1em; color: var(--muted); pointer-events: none;
+  }
+  .dictAlat .rjecnikTraka input { padding-left: 2.6rem; }
   .smjerG, .testG {
     display: inline-flex; align-items: center; gap: 0.4rem; flex: none;
     padding: 0.5rem 0.875rem; border-radius: 999px; cursor: pointer;
@@ -1255,7 +1271,8 @@
   }
   .brzaK:hover { border-color: var(--plava); }
   .brzaK:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
-  .brzaK .emoB { font-size: var(--t-xl); flex: none; line-height: 1; }
+  .brzaK .emoB { font-size: var(--t-xl); flex: none; line-height: 1; color: var(--muted); }
+  .brzaK:hover .emoB, .brzaK.istaknuta .emoB { color: var(--plava); }
   .brzaK .tekstB { min-width: 0; display: block; }
   .brzaK .imeB { display: block; font-family: var(--naslov); font-weight: 600; font-size: var(--t-m); line-height: 1.25; }
   .brzaK .podB { display: block; font-size: var(--t-2xs); color: var(--muted); line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1377,12 +1394,15 @@
   <div class="valute" id="valuteHeader"></div>
 </header>
 <div id="izbornikPozadina" onclick="zatvoriIzbornik()"></div>
+<!-- Ikone sucelja: Lucide 1.43 (ISC, lucide.dev). Jedan sprite, bez mreznog zahtjeva;
+     boju i velicinu uzimaju iz teksta u kojem stoje. -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol></svg>
 <div id="view"></div>
 
 <div id="trakaAbc"></div>
 <div id="popSlovo"></div>
 <div id="savjetRj"></div>
-<div id="lebdi" title="Dictionary">📖</div>
+<div id="lebdi" title="Dictionary"><svg class="ikn krupna" aria-hidden="true"><use href="#ik-knjiga"></use></svg></div>
 <div id="zastorRj"></div>
 <div id="panelRj">
   <div class="glavaRj">
@@ -1398,7 +1418,7 @@
   <input class="traziRj" id="rjTrazi" placeholder="Search…" autocomplete="off">
   <div class="popisRj" id="rjPopis"></div>
 </div>
-<div id="lebdiIgra" title="Word game">🎯</div>
+<div id="lebdiIgra" title="Word game"><svg class="ikn krupna" aria-hidden="true"><use href="#ik-meta"></use></svg></div>
 <div id="panelIgra">
   <div class="glavaRj">
     <span class="nasRj">Word game</span>
@@ -1651,7 +1671,7 @@
   // podnaslov pločice na naslovnici: današnji challenge i je li već odigran
   function dailyPodnaslov() {
     var niz = streakNiz();
-    var pre = niz > 0 ? '🔥 ' + niz + ' day streak · ' : '';
+    var pre = niz > 0 ? niz + ' day streak · ' : '';
     var n = dailyDanasnji();
     var igre = n === null ? [] : igreCjeline('Daily challenge', n);
     if (igre.length === 0) return pre + 'no challenge today';
@@ -2482,7 +2502,7 @@
   function zvucnik(txt) {
     if (!imaZvuk(txt)) return null;
     var s = document.createElement('span');
-    s.className = 'zvucnik'; s.textContent = '🔊'; s.title = 'Play pronunciation';
+    s.className = 'zvucnik'; s.innerHTML = IK('zvuk'); s.title = 'Play pronunciation';
     s.onclick = function (e) { e.stopPropagation(); sviraj(txt); };
     return s;
   }
@@ -2588,7 +2608,7 @@
     var star = $('otkljOverlay'); if (star) star.remove();
     var ov = document.createElement('div'); ov.id = 'otkljOverlay';
     var m = document.createElement('div'); m.className = 'otkljModal';
-    m.innerHTML = '<div class="otkljIkona">🔓</div>' +
+    m.innerHTML = '<div class="otkljIkona">' + IK('otvorena', 'krupna') + '</div>' +
       '<h2>' + (lista.length > 1 ? 'New units unlocked!' : 'New unit unlocked!') + '</h2>' +
       '<p class="otkljPod">You\'ve earned enough points — nicely done! 🎉</p>';
     lista.forEach(function (c) {
@@ -2617,7 +2637,7 @@
       'display:flex;align-items:center;justify-content:center;padding:16px;';
     var m = document.createElement('div'); m.className = 'otkljModal';
     m.innerHTML =
-      '<div class="otkljIkona">🔑</div>' +
+      '<div class="otkljIkona">' + IK('kljuc', 'krupna') + '</div>' +
       '<h2>Log in or create a free account</h2>' +
       '<p class="otkljPod">A free account unlocks Lesson 1 across every track, plus daily ' +
       'challenges and mini games.</p>' +
@@ -2681,7 +2701,7 @@
       'display:flex;align-items:center;justify-content:center;padding:16px;';
     var m = document.createElement('div'); m.className = 'otkljModal';
     m.innerHTML =
-      '<div class="otkljIkona">🔒</div>' +
+      '<div class="otkljIkona">' + IK('brava', 'krupna') + '</div>' +
       '<h2>Croland Plus</h2>' +
       '<p class="otkljPod">Level 2 and above need an active subscription. Manage it from your account page.</p>';
     var idi_ = document.createElement('button'); idi_.className = 'gumb'; idi_.textContent = 'Go to account';
@@ -2703,9 +2723,9 @@
     var redci = ['Vocabulary 1', 'Grammar 1', 'Practice 1'].filter(function (n) {
       var d = n.split(' ');
       return igreCjeline(d[0], parseInt(d[1], 10)).length > 0;
-    }).map(function (n) { return '<div style="font-weight:700;color:var(--zelena)">🔓 ' + n + '</div>'; }).join('');
+    }).map(function (n) { return '<div style="font-weight:700;color:var(--zelena)">' + IK('otvorena', 'uz') + n + '</div>'; }).join('');
     m.innerHTML =
-      '<div class="otkljIkona">🔓</div>' +
+      '<div class="otkljIkona">' + IK('otvorena', 'krupna') + '</div>' +
       '<h2>Account created!</h2>' +
       '<p class="otkljPod">The course is open. Alongside Lesson 1 you can now play:</p>' +
       '<div style="margin-bottom:12px">' + redci + '</div>';
@@ -2805,7 +2825,7 @@
     // streak se zaključava prvom odigranom vježbom današnjeg challengea
     if (streakNovi) {
       var nz = streakNiz();
-      html += '<div class="stanjeLekcije">🔥 <strong>Day ' + nz + ' streak</strong> · +' + nz +
+      html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + '<strong>Day ' + nz + ' streak</strong> · +' + nz +
         ' points to every currency' +
         '<span class="opusti">Come back tomorrow for +' + (nz + 1) + '. Miss a day and the streak restarts.</span></div>';
     }
@@ -2815,7 +2835,7 @@
       var cilj = sljedeciCilj(igra.tip);
       if (cilj) {
         var pctC = Math.min(100, Math.round(cilj.ima / cilj.prag * 100));
-        html += '<div class="ciljBox"><strong>' + cilj.manjka + ' ' + cilj.val + '</strong> more to unlock 🔓 ' +
+        html += '<div class="ciljBox"><strong>' + cilj.manjka + ' ' + cilj.val + '</strong> more to unlock ' + IK('otvorena', 'uz') + 
           cilj.tip + ' ' + cilj.razina +
           '<div class="ciljBar"><div style="width:' + pctC + '%"></div></div></div>';
       } else {
@@ -3352,7 +3372,11 @@
     var pit = document.createElement('div'); pit.className = 'pitanjeText'; s.appendChild(pit);
     var ops = document.createElement('div'); ops.className = 'opcije'; s.appendChild(ops);
     function hudOsvjezi() {
-      hudVrijeme.textContent = '⏱ ' + preostalo + ' s';
+      if (hudVrijeme.getAttribute('data-ik') !== 'sat') {
+        hudVrijeme.setAttribute('data-ik', 'sat');
+        hudVrijeme.innerHTML = IK('sat', 'uz') + '<span></span>';
+      }
+      hudVrijeme.lastChild.textContent = preostalo + ' s';
       hudVrijeme.style.color = preostalo <= 10 ? 'var(--crvena)' : '';
       hudBodovi.textContent = '★ ' + bodovi + '/' + cilj;
       setStat('Time: ' + preostalo + ' s', 'Score: ' + bodovi + '/' + cilj);
@@ -4064,13 +4088,13 @@
     gresakaUVjezbi++;
     if (gresakaUVjezbi !== 2 && gresakaUVjezbi !== 5) return;
     setTimeout(function () {
-      pokaziSavjetRj('Stuck? The <strong>dictionary</strong> holds every word on this page. 📖');
+      pokaziSavjetRj('Stuck? The <strong>dictionary</strong> holds every word on this page. ' + IK('knjiga'));
     }, 600);
   }
   var SAVJETI_L0 = {
-    1: 'Not sure what a picture means? Tap here — every word on this page is listed, with 🔊.',
-    4: 'The dictionary follows you around. Drag the icon wherever it suits you. 📖',
-    7: 'Digraphs tripping you up? Open the dictionary and hear the word first. 🔊'
+    1: 'Not sure what a picture means? Tap here — every word on this page is listed, with ' + IK('zvuk') + '.',
+    4: 'The dictionary follows you around. Drag the icon wherever it suits you. ' + IK('knjiga'),
+    7: 'Digraphs tripping you up? Open the dictionary and hear the word first. ' + IK('zvuk')
   };
 
   // ---- oblačići o bodovima ----
@@ -4198,7 +4222,7 @@
       igTren = null;
       t.innerHTML = '<div class="rjPrazno">No words yet.<br><br>' +
         'Words from this lesson appear here as soon as you add them to your dictionary ' +
-        'with <strong>“+ Add to dictionary”</strong>. 📖</div>';
+        'with <strong>“+ Add to dictionary”</strong>. ' + IK('knjiga') + '</div>';
       return;
     }
     var r = (zadrzi === true && igTren && !igTren.gotovo) ? igTren.r : igSljedeca(sve);
@@ -5052,7 +5076,7 @@
     var m = manjkaZa(z);
     return '<div class="slajd" role="button" tabindex="0" data-cilj="view:lessons" ' +
       'title="' + esc(z.naslov + ' — locked') + '">' +
-      '<div class="tipS">🔒 ' + esc(z.tip + ' ' + z.razina) + '</div>' +
+      '<div class="tipS">' + IK('brava', 'uz') + esc(z.tip + ' ' + z.razina) + '</div>' +
       '<div class="imeS">' + esc(z.naslov) + '</div>' +
       '<div class="metaS">' + (m
         ? m.treba + ' more ' + m.val + ' and this opens'
@@ -5184,12 +5208,12 @@
     var brze = [];
     var rj = brojRijeci();
     if (rj > 0) {
-      brze.push(brzaKarticaHtml('view:dictTest', '🎯', 'Test your words',
+      brze.push(brzaKarticaHtml('view:dictTest', IK('meta'), 'Test your words',
         rj + ' word' + (rj === 1 ? '' : 's') + ' · practice only, no points', true));
     }
-    brze.push(brzaKarticaHtml('view:daily', '📅', 'Daily challenge', dailyPodnaslov(), false));
+    brze.push(brzaKarticaHtml('view:daily', IK('kalendar'), 'Daily challenge', dailyPodnaslov(), false));
     var gotovih = miniPrijedena();
-    brze.push(brzaKarticaHtml('view:mini', '🎮', 'Mini games',
+    brze.push(brzaKarticaHtml('view:mini', IK('igra'), 'Mini games',
       gotovih >= MINI_IGRE.length
         ? 'all ' + MINI_IGRE.length + ' finished · replay any time'
         : gotovih + ' of ' + MINI_IGRE.length + ' finished', false));
@@ -5343,7 +5367,7 @@
   // ---- mini igre: popis ----
   function renderMini() {
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();
-    var html = '<h1 class="sekcija">Mini games 🎮</h1>' +
+    var html = '<h1 class="sekcija">Mini games ' + IK('igra') + '</h1>' +
       '<div class="miniSaz">' +
       '<span><strong>' + uk + '</strong> of ' + maks + ' points earned</span>' +
       '<span>·</span><span><strong>' + gotovih + '</strong> of ' + MINI_IGRE.length + ' completed</span>' +
@@ -5488,7 +5512,7 @@
     var sve = (imaSlova >= ABECEDA.length);
     return '<div class="redNula"><div class="plocicaNula' + (sve || got ? ' gotovo' : '') + '" ' +
       'onclick="idi(\'unit\',\'' + L0_TIP + '\',' + L0_RAZINA + ')">' +
-      '<div class="imeF">' + (sve ? '✓' : '✨') + ' Lesson 0 — Welcome to Croatian</div>' +
+      '<div class="imeF">' + (sve ? '✓ ' : IK('iskra', 'uz')) + 'Lesson 0 — Welcome to Croatian</div>' +
       '<div class="bod">' + (sve
         ? 'the whole alphabet is yours · replay any time'
         : (imaSlova ? imaSlova + ' of 30 letters unlocked' : 'free intro, no account, about 5 minutes')) +
@@ -5537,7 +5561,7 @@
         var pct, opis, redak, naslovA;
         if (trebaPretplatu) {
           pct = maks > 0 ? Math.min(1, osv / maks) : 0;
-          redak = '<div class="bodM">🔒 Croland Plus</div>' +
+          redak = '<div class="bodM">' + IK('brava', 'uz') + 'Croland Plus</div>' +
             '<div class="ostalo">' + osv + '/' + maks + ' pts waiting</div>';
           naslovA = tip + ' ' + r + ' needs an active Croland Plus subscription';
         } else if (otklj) {
@@ -5551,7 +5575,7 @@
           var p = val ? prag(tip, r) : 0;
           var ima = val ? vv[val] : 0;
           pct = (val && p > 0) ? Math.min(1, ima / p) : 0;
-          redak = '<div class="bodM">🔒 ' + (val ? ima + '/' + p + ' ' + val : 'locked') + '</div>' +
+          redak = '<div class="bodM">' + IK('brava', 'uz') + (val ? ima + '/' + p + ' ' + val : 'locked') + '</div>' +
             '<div class="ostalo">' + (val ? (Math.max(0, p - ima) + ' ' + val + ' to go') : 'unlock this row') + '</div>';
           naslovA = val
             ? ('Locked — needs ' + p + ' ' + val + ', you have ' + ima + ' (' + maks + ' points waiting inside)')
@@ -5619,7 +5643,7 @@
     html += '<button class="vnav vfin' + (indeks >= igre.length ? ' aktivna' : '') +
       (sviPuni ? ' zavrsena' : '') + '" title="Lesson summary — ' + sad + '/' + uk + ' pts" ' +
       'onclick="idi(\'unit\',\'' + tip + '\',' + razina + ',' + igre.length + ')">' +
-      '<span>🏁</span><span class="vtr"><i id="' + idF + '"></i></span></button>';
+      '<span>' + IK('zastava') + '</span><span class="vtr"><i id="' + idF + '"></i></span></button>';
     html += '</div>';
     navTrakeCekaju = trake;
     return html;
@@ -5676,12 +5700,12 @@
       '<div class="testUvod">' +
       '<h2>Before you start</h2>' +
       '<ul>' +
-      '<li><span class="ik">📝</span><span><strong>' + igre.length + ' exercises</strong>, ' + maks + ' points — everything from level ' + razina + '.</span></li>' +
-      '<li><span class="ik">⏱</span><span><strong>' + Math.round(sek / 60) + ' minutes</strong> for the whole test. The clock runs across all exercises.</span></li>' +
-      '<li><span class="ik">➡️</span><span>One sitting: exercises follow one another and you cannot go back.</span></li>' +
-      '<li><span class="ik">🏁</span><span>No scores in between — your result appears only at the end.</span></li>' +
-      '<li><span class="ik">⏸</span><span>Pause whenever you like. The clock stops with you.</span></li>' +
-      '<li><span class="ik">📖</span><span>No dictionary. Where a word is needed, the English is written into the question.</span></li>' +
+      '<li><span class="ik">' + IK('popis') + '</span><span><strong>' + igre.length + ' exercises</strong>, ' + maks + ' points — everything from level ' + razina + '.</span></li>' +
+      '<li><span class="ik">' + IK('sat') + '</span><span><strong>' + Math.round(sek / 60) + ' minutes</strong> for the whole test. The clock runs across all exercises.</span></li>' +
+      '<li><span class="ik">' + IK('strelica') + '</span><span>One sitting: exercises follow one another and you cannot go back.</span></li>' +
+      '<li><span class="ik">' + IK('zastava') + '</span><span>No scores in between — your result appears only at the end.</span></li>' +
+      '<li><span class="ik">' + IK('pauza') + '</span><span>Pause whenever you like. The clock stops with you.</span></li>' +
+      '<li><span class="ik">' + IK('knjiga') + '</span><span>No dictionary. Where a word is needed, the English is written into the question.</span></li>' +
       '</ul>' +
       (prije > 0 ? '<div class="testUpozorenje">Your best so far: <strong>' + prije + '</strong>/' + maks + ' points. Only a better result replaces it.</div>' : '') +
       '<button class="gumb" id="btnTestStart">Start the test →</button>' +
@@ -5722,7 +5746,7 @@
       '<div class="progresBar"><div style="width:' + Math.round(T.i / T.igre.length * 100) + '%"></div></div>' +
       '<span style="font-size:var(--t-s);color:var(--muted)">' + (T.i + 1) + '/' + T.igre.length + '</span>' +
       '<span class="testSat" id="testSat">' + mmss(T.preostalo) + '</span>' +
-      '<button class="testPauza" id="btnTestPauza">⏸ Pause</button>' +
+      '<button class="testPauza" id="btnTestPauza">' + IK('pauza', 'uz') + 'Pause</button>' +
       '</div>' +
       '<div id="opisIgre"></div>' +
       '<div id="ploca">' +
@@ -5732,7 +5756,7 @@
       '<button class="gumb" id="btnDalje" style="display:none"></button>' +
       '<button class="gumb gumbSivi" id="btnPonovno" style="display:none"></button></div>' +
       '<div id="kontrole">' +
-      '<button class="gumb gumbSivi" id="btnPredaj">⏭ Skip this exercise</button>' +
+      '<button class="gumb gumbSivi" id="btnPredaj">' + IK('preskoci', 'uz') + 'Skip this exercise</button>' +
       '</div></div>';
     $('opisIgre').textContent = (igra.naslov ? igra.naslov + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
       ((igra.meta && igra.meta.opis) ? igra.meta.opis : '');
@@ -5774,7 +5798,12 @@
   }
   function testSatOsvjezi() {
     var el = $('testSat'); if (!el || !TEST) return;
-    el.textContent = (TEST.pauza ? '⏸ ' : '⏱ ') + mmss(TEST.preostalo);
+    var ikSat = TEST.pauza ? 'pauza' : 'sat';
+    if (el.getAttribute('data-ik') !== ikSat) {
+      el.setAttribute('data-ik', ikSat);
+      el.innerHTML = IK(ikSat, 'uz') + '<span></span>';
+    }
+    el.lastChild.textContent = mmss(TEST.preostalo);
     el.classList.toggle('zadnjaMinuta', TEST.preostalo <= 60);
   }
 
@@ -5786,7 +5815,7 @@
     var z = document.createElement('div');
     z.className = 'testZastor'; z.id = 'testZastor';
     z.innerHTML =
-      '<div class="naslovP">⏸ Paused</div>' +
+      '<div class="naslovP">' + IK('pauza', 'uz') + 'Paused</div>' +
       '<div class="podP">The clock is stopped. <strong>' + mmss(TEST.preostalo) + '</strong> left when you come back.</div>' +
       '<button class="gumb" id="btnTestNastavi">▶ Resume</button>';
     document.body.appendChild(z);
@@ -5938,7 +5967,7 @@
       '<button class="gumb" id="btnDalje">Next →</button>' +
       '<button class="gumb gumbSivi" id="btnPonovno">↻ Play again</button></div>' +
       '<div id="kontrole">' +
-      '<button class="gumb gumbSivi" id="btnPredaj">' + (jeNula ? 'Skip →' : '🏁 Finish now') + '</button>' +
+      '<button class="gumb gumbSivi" id="btnPredaj">' + (jeNula ? 'Skip →' : IK('zastava', 'uz') + 'Finish now') + '</button>' +
       '<button class="gumb gumbSivi" id="btnOpet">↻ Try again</button></div>' +
       '</div>';
     animirajTrake(navTrakeCekaju); navTrakeCekaju = null;
@@ -6007,7 +6036,7 @@
         '<div style="font-size:var(--t-l);margin:10px 0 4px">You can read Croatian.</div>' +
         '<div style="color:var(--muted)">Five minutes ago these were strange letters.</div>' +
         htmlSkupljenihSlova() +
-        '<div style="color:var(--zelena);margin-top:12px">📖 ' +
+        '<div style="color:var(--zelena);margin-top:12px">' + IK('knjiga', 'uz') + 
           (novihRijeci > 0
             ? 'All ' + ukupnoL0 + ' words from this lesson are now in your <strong>Dictionary</strong>.'
             : 'Your first ' + ukupnoL0 + ' words are waiting in your <strong>Dictionary</strong>.') +
@@ -6049,7 +6078,7 @@
         btnNext = '<button class="gumb" onclick="idi(\'unit\',\'' + sljedeci.tip + '\',' + sljedeci.razina + ')">Next: ' + sljedeci.tip + ' ' + sljedeci.razina + ' →</button>';
       } else {
         var val = VALUTA_TIPA[sljedeci.tip];
-        btnNext = '<div style="color:var(--muted);margin-top:12px">🔒 ' + sljedeci.tip + ' ' + sljedeci.razina +
+        btnNext = '<div style="color:var(--muted);margin-top:12px">' + IK('brava', 'uz') + sljedeci.tip + ' ' + sljedeci.razina +
           (val ? ' — needs ' + prag(sljedeci.tip, sljedeci.razina) + ' ' + val : '') + '. Go back and improve your scores!</div>';
       }
     }
@@ -6080,9 +6109,9 @@
     });
 
     var kutija = sve
-      ? '<div class="preostaloBox sve">🏆 Everything in this unit is yours — all <strong>' + maks +
+      ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + 'Everything in this unit is yours — all <strong>' + maks +
         '</strong> points earned. Nothing left to win here.</div>'
-      : '<div class="preostaloBox">💪 <strong>' + ostalo + ' points</strong> are still waiting in ' + tip + ' ' + razina +
+      : '<div class="preostaloBox">' + IK('munja', 'uz') + '<strong>' + ostalo + ' points</strong> are still waiting in ' + tip + ' ' + razina +
         '. Replay any exercise above — only your best attempt counts, so a weaker run can never cost you points.</div>';
 
     VIEW.innerHTML =
@@ -6090,7 +6119,7 @@
       '<button class="natrag" onclick="idi(\'' + natragView + '\')">‹ Back</button>' +
       '<h2>' + esc(naslovC) + ' — summary</h2>' +
       '<div class="progresBar"><div style="width:100%"></div></div>' +
-      '<span style="font-size:var(--t-s);color:var(--muted)">🏁 finish</span>' +
+      '<span style="font-size:var(--t-s);color:var(--muted)">' + IK('zastava', 'uz') + 'finish</span>' +
       '</div>' +
       navigacijaVjezbi(tip, razina, igre.length, igre) +
       '<div class="sazetak sazUlaz">' +
@@ -6145,6 +6174,11 @@
 
   // ---- Dictionary ----
   // Natuknica se prikazuje u OSNOVNOM obliku; ostali oblici i izgovor se otkrivaju klikom.
+  // Ikona iz spritea. Boju i velicinu uzima iz teksta u kojem stoji.
+  function IK(ime, dodatno) {
+    return '<svg class="ikn' + (dodatno ? ' ' + dodatno : '') + '" aria-hidden="true">' +
+      '<use href="#ik-' + ime + '"></use></svg>';
+  }
   function esc(s) {
     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
       .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -6300,7 +6334,7 @@
   function brojRijeci() { return rjecnikRijeci().length; }
 
   function zvHtml(txt) {
-    return imaZvuk(txt) ? '<span class="zvucnik" data-rijec="' + esc(txt) + '">🔊</span>' : '';
+    return imaZvuk(txt) ? '<span class="zvucnik" data-rijec="' + esc(txt) + '">' + IK('zvuk') + '</span>' : '';
   }
   function odgovaraFilteru(r, f) {
     if (!f) return true;
@@ -6669,8 +6703,8 @@
         ], dictOpseg) +
       '</div>' +
       '<div class="dictAlat" id="dictAlat">' +
-        '<div class="rjecnikTraka"><input id="trazi" type="text" ' +
-          'placeholder="Search for a word or translation…"></div>' +
+        '<div class="rjecnikTraka">' + IK('trazi', 'ikTrazi') +
+          '<input id="trazi" type="text" placeholder="Search for a word or translation…"></div>' +
         '<button type="button" class="smjerG" id="dictSmjerG">' +
           '<span id="dictSmjerT"></span><span class="zam">⇄</span></button>' +
         '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
@@ -6849,7 +6883,7 @@
       segmentHtml('wtSmjerP', 'data-s', [
         { v: 'en-hr', t: 'EN → HR' }, { v: 'mix', t: 'Mixed' }, { v: 'hr-en', t: 'HR → EN' }
       ], wtSmjer) +
-      '<button class="wtFilterG" id="wtFilterG">Filter</button>' +
+      '<button class="wtFilterG" id="wtFilterG">' + IK('postavke', 'uz') + 'Filter</button>' +
       '</div>' +
       '<div id="wtFilterMj"></div>' +
       '<p class="wtStat" id="wtStat"></p>' +
@@ -6935,11 +6969,11 @@
     if (!wtNiz.length) {
       box.innerHTML = '<div class="rjPrazno">' + (wtOpseg === 'lekcije'
         ? (wtLekcije.length === 0
-          ? 'Pick at least one lesson in the Filter. 🔢'
+          ? 'Pick at least one lesson in the Filter.'
           : 'No word pairs in the selected lessons yet.')
         : wtOpseg === 'sve'
           ? 'The dictionary file is missing — run osvježi.bat to generate rjecnik.js.'
-          : 'Your dictionary is empty — open a lesson and add words first. 📚') + '</div>';
+          : 'Your dictionary is empty — open a lesson and add words first.') + '</div>';
       return;
     }
     if (wtPoz >= wtNiz.length) wtMijesaj();     // krug je pun — novi prolaz, novi raspored
@@ -7007,7 +7041,7 @@
     var igre = n === null ? [] : igreCjeline('Daily challenge', n);
     var niz = streakNiz(), danasOdradjen = (streakRazmak() === 0);
     html += '<div class="streakK">' +
-      '<div class="streakBroj">🔥 ' + niz + '</div>' +
+      '<div class="streakBroj">' + IK('plamen', 'uz') + niz + '</div>' +
       '<div class="streakOpis"><strong>Day streak</strong>' +
       '<div>' + streakBodovi() + ' streak points earned · counts toward LP, VP, GP and PP</div>' +
       '<div>' + (danasOdradjen
@@ -7018,7 +7052,7 @@
     if (igre.length === 0) {
       html += dailyIndeksDana() >= dailyBrojevi().length
         ? '<div class="zakljBanner">You have reached the end of the daily challenges. 🎉 New ones are on the way.</div>'
-        : '<div class="zakljBanner">Today\'s challenge is not ready yet. Check back soon. 🔥</div>';
+        : '<div class="zakljBanner">Today\'s challenge is not ready yet. Check back soon.</div>';
     } else {
       var maks = 0, osv = 0;
       igre.forEach(function (g) { maks += g.bodovi; osv += najbolji(g); });
@@ -7026,15 +7060,15 @@
       var naslov = igre[0].cjelinaNaslov || ('Daily challenge ' + n);
       html += '<div class="dcDatum">' + dailyDatumTekst() + '</div>' +
         '<div class="dcRed" onclick="idi(\'unit\',\'Daily challenge\',' + n + ')">' +
-        '<span>🔥 <strong>Today</strong> — ' + naslov + '</span>' +
+        '<span>' + IK('plamen', 'uz') + '<strong>Today</strong> — ' + naslov + '</span>' +
         '<span class="pct">' + (osv > 0 ? pct + '%' : '') + '</span></div>' +
         '<div class="dcNapomena">One challenge per day. A new one unlocks tomorrow.</div>';
     }
     var wk = weeklyBrojevi();
     html += '<h1 class="sekcija" style="margin-top:24px">Weekly challenge</h1>';
-    if (wk.length === 0) html += '<div class="zakljBanner">Weekly challenges are coming soon. 🗓</div>';
+    if (wk.length === 0) html += '<div class="zakljBanner">Weekly challenges are coming soon.</div>';
     wk.forEach(function (n) {
-      html += '<div class="dcRed" onclick="idi(\'unit\',\'Weekly challenge\',' + n + ')"><span>🗓 <strong>Week ' + n + '</strong></span></div>';
+      html += '<div class="dcRed" onclick="idi(\'unit\',\'Weekly challenge\',' + n + ')"><span>' + IK('kalendar', 'uz') + '<strong>Week ' + n + '</strong></span></div>';
     });
     VIEW.innerHTML = html;
   }
@@ -7173,7 +7207,7 @@
       '<div class="valutaK"><div class="broj">' + v.PP + '</div><div class="imeV">Practice points</div></div>' +
       '</div>' +
       '<p style="color:var(--muted);font-size:var(--t-m)">Exercises played: ' + odigrano + ' · Words learned: ' + brojRijeci() + '</p>' +
-      '<p style="color:var(--muted);font-size:var(--t-m)">Daily streak: 🔥 <strong>' + streakNiz() + '</strong> ' +
+      '<p style="color:var(--muted);font-size:var(--t-m)">Daily streak: ' + IK('plamen', 'uz') + '<strong>' + streakNiz() + '</strong> ' +
         (streakNiz() === 1 ? 'day' : 'days') + ' · ' + streakBodovi() +
         ' streak points (added to each currency)</p>' +
       statPretplate +
