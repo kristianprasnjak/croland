@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Croland · prijedlog naslovnice</title>
+<style>
+:root{
+  --t-2xs:.66rem; --t-xs:.75rem; --t-s:.82rem; --t-m:.9rem; --t-l:1rem;
+  --t-xl:1.15rem; --t-2xl:1.35rem; --t-3xl:1.6rem;
+  --rad-xs:.1875rem; --rad-s:.5rem; --rad-m:.625rem; --rad-l:.875rem; --rad-xl:1.125rem;
+  --bg:#f6f3ee; --card:#fffdfa; --ink:#191713; --muted:#8b8377;
+  --plava:#9a5b52; --zelena:#2f6d4f; --rub:#e3ddd2; --zlatna:#8a6d1f;
+  --plavaVok:#23407a; --tiho:#f0ece4;
+  --tekst:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --naslov:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--tekst);line-height:1.6;padding:24px}
+h1{font-size:1.5rem;margin:0 0 4px}
+.uvod{color:var(--muted);font-size:var(--t-m);max-width:62ch;margin:0 0 24px}
+.okviri{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.okvir{background:var(--bg);border:1px solid var(--rub);border-radius:var(--rad-xl);padding:12px;box-shadow:0 8px 28px rgba(25,23,19,.06)}
+.okvir > .oznaka{font-size:var(--t-xs);font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;display:block}
+.f-mob{width:390px} .f-tab{width:830px} .f-lap{width:100%;max-width:1320px}
+
+/* ===================== NASLOVNICA ===================== */
+.pocetna{container-type:inline-size;display:grid;grid-template-columns:1fr;gap:14px}
+.stupci{display:grid;grid-template-columns:1fr;gap:14px;align-items:start}
+.lijevo{display:grid;gap:12px}
+
+/* --- polica 1: dva špila --- */
+.spilovi{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.spil{background:var(--card);border:1px solid var(--rub);border-radius:var(--rad-l);padding:10px 10px 8px;display:flex;flex-direction:column;min-width:0}
+.spil > .zag{display:flex;align-items:center;gap:6px;margin-bottom:8px;min-height:1.2rem}
+.spil .oznakaS{font-size:var(--t-2xs);font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spil .strelice{margin-left:auto;display:none;gap:4px}
+.strelice button{width:1.4rem;height:1.4rem;border:1px solid var(--rub);background:var(--card);border-radius:var(--rad-s);color:var(--muted);cursor:pointer;line-height:1;font-size:var(--t-s);padding:0}
+.strelice button:hover{border-color:var(--plava);color:var(--plava)}
+.traka{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;gap:10px;scrollbar-width:none;-ms-overflow-style:none;margin:0 -10px;padding:0 10px}
+.traka::-webkit-scrollbar{display:none}
+.slajd{flex:0 0 100%;scroll-snap-align:center;min-width:0;cursor:pointer;display:flex;flex-direction:column}
+.slajd .tip{font-size:var(--t-2xs);font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.slajd .ime{font-family:var(--naslov);font-weight:600;font-size:var(--t-l);line-height:1.25;margin:2px 0 4px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.5em}
+.slajd .meta{font-size:var(--t-2xs);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar{height:.5rem;border-radius:var(--rad-xs);background:var(--tiho);overflow:hidden;margin:8px 0 4px;position:relative}
+.bar i{display:block;height:100%;border-radius:var(--rad-xs);background:var(--plava);transition:width .7s cubic-bezier(.22,1,.36,1)}
+.postotak{display:flex;justify-content:space-between;font-size:var(--t-2xs);color:var(--muted)}
+.postotak b{font-family:var(--naslov);color:var(--ink)}
+.tockice{display:flex;gap:4px;justify-content:center;margin-top:8px}
+.tockice span{width:5px;height:5px;border-radius:50%;background:var(--rub);transition:background .2s,width .2s}
+.tockice span.on{background:var(--plava);width:12px;border-radius:3px}
+.spil.novo .slajd .tip{color:var(--zelena)} .spil.novo .bar i{background:var(--zelena)}
+.spil.nastavak .slajd .tip{color:var(--plava)}
+.cta{display:none;margin-top:8px;padding:.45rem .9rem;border-radius:var(--rad-s);background:var(--plava);color:#fff;font-weight:600;font-size:var(--t-s);text-align:center}
+.spil.novo .cta{background:var(--zelena)}
+
+/* --- polica 2: pet tipova --- */
+.tipovi{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tipK{background:var(--card);border:1px solid var(--rub);border-radius:var(--rad-m);padding:8px 10px 9px;min-width:0}
+.tipK .naslovT{display:flex;align-items:center;gap:6px;font-family:var(--naslov);font-weight:600;font-size:var(--t-s);margin-bottom:6px}
+.tipK .tocka{width:.5rem;height:.5rem;border-radius:50%;flex:none}
+.red{display:flex;align-items:baseline;gap:6px;font-size:var(--t-2xs);padding:3px 0;cursor:pointer;min-width:0}
+.red:hover .naz{text-decoration:underline}
+.red .kljuc{color:var(--muted);flex:none;width:3.4rem}
+.red .naz{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.red .pct{margin-left:auto;color:var(--muted);flex:none;font-family:var(--naslov)}
+.mini{height:.25rem;border-radius:var(--rad-xs);background:var(--tiho);overflow:hidden;margin-top:3px}
+.mini i{display:block;height:100%}
+.t-lesson{--boja:var(--plava)} .t-vocab{--boja:var(--plavaVok)} .t-gram{--boja:var(--zelena)}
+.t-prac{--boja:var(--zlatna)} .t-test{--boja:#4a4640}
+.tipK .tocka{background:var(--boja)} .tipK .mini i{background:var(--boja)}
+.zaglavljeP{font-size:var(--t-2xs);font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:4px 0 -4px}
+
+/* --- ostalo --- */
+.brza{display:grid;grid-template-columns:1fr;gap:8px}
+.brzaK{background:var(--card);border:1px solid var(--rub);border-radius:var(--rad-m);padding:10px 12px;cursor:pointer;display:flex;align-items:center;gap:10px;min-width:0}
+.brzaK:hover{border-color:var(--plava)}
+.brzaK .emo{font-size:1.25rem;flex:none;line-height:1}
+.brzaK .tekstB{min-width:0}
+.brzaK .imeB{font-family:var(--naslov);font-weight:600;font-size:var(--t-m);line-height:1.2}
+.brzaK .podB{font-size:var(--t-2xs);color:var(--muted);line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brzaK.istaknuta{border-color:var(--plava);background:linear-gradient(0deg,rgba(154,91,82,.05),rgba(154,91,82,.05)),var(--card)}
+.brzaK .strelicaB{margin-left:auto;color:var(--muted);flex:none}
+.maleP{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.malaP{background:var(--card);border:1px solid var(--rub);border-radius:var(--rad-m);padding:9px 11px;cursor:pointer}
+.malaP .imeM{font-family:var(--naslov);font-weight:600;font-size:var(--t-m)}
+.malaP .podM{font-size:var(--t-2xs);color:var(--muted);margin-top:2px;line-height:1.4}
+.stanjeVal{background:var(--card);border:1px solid var(--rub);border-radius:var(--rad-l);padding:12px}
+.stanjeVal .nasV{font-size:var(--t-2xs);font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.redV{margin-bottom:10px} .redV:last-child{margin-bottom:0}
+.redV .gornji{display:flex;justify-content:space-between;align-items:baseline;font-size:var(--t-s)}
+.redV .bar2{height:.35rem;border-radius:var(--rad-xs);background:var(--tiho);overflow:hidden;margin:4px 0 3px}
+.redV .bar2 i{display:block;height:100%}
+.redV .do{font-size:var(--t-2xs);color:var(--muted)}
+.nulaP{background:var(--card);border:1px dashed var(--rub);border-radius:var(--rad-m);padding:8px 11px;font-size:var(--t-s);cursor:pointer;display:flex;justify-content:space-between;gap:8px}
+.nulaP span:last-child{color:var(--muted);font-size:var(--t-2xs)}
+
+/* ===================== BREAKPOINTOVI (container queries) ===================== */
+@container (min-width: 560px){
+  .spilovi{gap:14px}
+  .spil{padding:14px 14px 12px}
+  .spil .strelice{display:flex}
+  .slajd .ime{font-size:var(--t-xl);min-height:2.4em}
+  .slajd .meta{white-space:normal}
+  .cta{display:block}
+  .tipovi{grid-template-columns:repeat(3,1fr);gap:10px}
+  .brza{grid-template-columns:repeat(3,1fr)}
+  .maleP{grid-template-columns:repeat(2,1fr)}
+  .red .kljuc{width:4rem}
+}
+@container (min-width: 1000px){
+  .stupci{grid-template-columns:1fr 19rem}
+  .tipovi{grid-template-columns:repeat(5,1fr)}
+  .slajd .ime{font-size:var(--t-2xl)}
+}
+</style>
+</head>
+<body>
+<h1>Croland — prijedlog nove naslovnice</h1>
+<p class="uvod">Isti HTML u tri širine. Prekretnice su na kontejneru (<code>@container</code>), ne na prozoru,
+pa se sva tri okvira ponašaju kao pravi uređaji. Vodoravno klizanje unutar oba špila radi prstom, trackpadom
+i strelicama; točkice ispod pokazuju koji je slajd na redu.</p>
+
+<p class="uvod" style="margin-top:-12px">
+  <label style="cursor:pointer"><input type="checkbox" id="l0gotova"> Lesson 0 je odrađena (svih 30 slova) — pločica nestaje</label>
+</p>
+<div class="okviri">
+  <div class="okvir f-mob"><span class="oznaka">Mobitel · 390 px</span><div id="m1"></div></div>
+  <div class="okvir f-tab"><span class="oznaka">Tablet · 830 px</span><div id="m2"></div></div>
+</div>
+<div class="okviri" style="margin-top:24px">
+  <div class="okvir f-lap"><span class="oznaka">Laptop · puna širina</span><div id="m3"></div></div>
+</div>
+
+<script>
+var NOVO = [
+  {tip:'Grammar 3', ime:'Cases in motion', meta:'8 exercises · 40 pts waiting'},
+  {tip:'Practice 3', ime:'Market day', meta:'6 exercises · 30 pts waiting'},
+  {tip:'Vocabulary 4', ime:'In the kitchen', meta:'10 exercises · 50 pts waiting'}
+];
+var NASTAVAK = [
+  {tip:'Lesson 2', ime:'Coffee and small talk', meta:'18 of 40 pts', pct:45},
+  {tip:'Vocabulary 2', ime:'Around the house', meta:'30 of 50 pts', pct:60},
+  {tip:'Grammar 2', ime:'The accusative, gently', meta:'8 of 40 pts', pct:20}
+];
+var TIPOVI = [
+  {kl:'t-lesson', ime:'Lesson',     novo:'Lesson 3 · Getting around',      nast:'Lesson 2 · Coffee and small talk', pct:45},
+  {kl:'t-vocab',  ime:'Vocabulary', novo:'Vocabulary 4 · In the kitchen',  nast:'Vocabulary 2 · Around the house',  pct:60},
+  {kl:'t-gram',   ime:'Grammar',    novo:'Grammar 3 · Cases in motion',    nast:'Grammar 2 · The accusative',       pct:20},
+  {kl:'t-prac',   ime:'Practice',   novo:'Practice 3 · Market day',        nast:'Practice 1 · First words',         pct:80},
+  {kl:'t-test',   ime:'Test',       novo:'Test 2 · Level 2 check',         nast:'Test 1 · Level 1 check',           pct:30}
+];
+var VALUTE = [
+  {ime:'Lesson points', val:'LP', broj:120, pct:70, boja:'var(--plava)',    do:'50 LP to unlock Lesson 4'},
+  {ime:'Vocabulary points', val:'VP', broj:85, pct:52, boja:'var(--plavaVok)', do:'75 VP to unlock Vocabulary 4'},
+  {ime:'Grammar points', val:'GP', broj:40, pct:31, boja:'var(--zelena)',   do:'90 GP to unlock Grammar 3'},
+  {ime:'Practice points', val:'PP', broj:30, pct:24, boja:'var(--zlatna)',  do:'95 PP to unlock Practice 3'}
+];
+
+function spil(kl, oznaka, stavke, imaBar){
+  var h = '<div class="spil '+kl+'"><div class="zag"><span class="oznakaS">'+oznaka+'</span>'+
+    '<span class="strelice"><button data-smjer="-1">&#8249;</button><button data-smjer="1">&#8250;</button></span></div>'+
+    '<div class="traka">';
+  stavke.forEach(function(s){
+    h += '<div class="slajd"><div class="tip">'+s.tip+'</div><div class="ime">'+s.ime+'</div>'+
+         '<div class="meta">'+s.meta+'</div>';
+    if (imaBar){
+      h += '<div class="bar"><i style="width:'+s.pct+'%"></i></div>'+
+           '<div class="postotak"><span>done so far</span><b>'+s.pct+'%</b></div>';
+    } else {
+      h += '<div class="bar"><i style="width:0%"></i></div>'+
+           '<div class="postotak"><span>not started</span><b>0%</b></div>';
+    }
+    h += '<div class="cta">'+(imaBar?'Continue':'Start')+'</div></div>';
+  });
+  h += '</div><div class="tockice">'+stavke.map(function(_,i){return '<span'+(i?'':' class="on"')+'></span>';}).join('')+'</div></div>';
+  return h;
+}
+
+function naslovnica(){
+  var h = '<div class="pocetna"><div class="stupci"><div class="lijevo">';
+  h += '<div class="spilovi">'+
+       spil('novo','Start something new', NOVO, false)+
+       spil('nastavak','Continue where you left off', NASTAVAK, true)+
+       '</div>';
+  h += '<div class="zaglavljeP">By track — next new · pick up again</div><div class="tipovi">';
+  TIPOVI.forEach(function(t){
+    h += '<div class="tipK '+t.kl+'">'+
+      '<div class="naslovT"><span class="tocka"></span>'+t.ime+'</div>'+
+      '<div class="red"><span class="kljuc">New</span><span class="naz">'+t.novo+'</span></div>'+
+      '<div class="red"><span class="kljuc">Resume</span><span class="naz">'+t.nast+'</span><span class="pct">'+t.pct+'%</span></div>'+
+      '<div class="mini"><i style="width:'+t.pct+'%"></i></div>'+
+      '</div>';
+  });
+  h += '</div>';
+  h += '<div class="nulaP" data-nula><span>Lesson 0 — the alphabet</span><span>24 of 30 letters</span></div>';
+  h += '<div class="zaglavljeP">Quick practice — no unit, no unlock needed</div><div class="brza">'+
+    '<div class="brzaK istaknuta"><span class="emo">🎯</span><span class="tekstB">'+
+      '<span class="imeB">Test your words</span><span class="podB">312 words · EN→HR · last run 84%</span></span>'+
+      '<span class="strelicaB">›</span></div>'+
+    '<div class="brzaK"><span class="emo">📅</span><span class="tekstB">'+
+      '<span class="imeB">Daily challenge</span><span class="podB">day 12 · not done yet</span></span>'+
+      '<span class="strelicaB">›</span></div>'+
+    '<div class="brzaK"><span class="emo">🎮</span><span class="tekstB">'+
+      '<span class="imeB">Mini games</span><span class="podB">4 of 12 finished</span></span>'+
+      '<span class="strelicaB">›</span></div>'+
+    '</div>';
+  h += '<div class="maleP">'+
+    '<div class="malaP"><div class="imeM">Dictionary</div><div class="podM">312 words learned</div></div>'+
+    '<div class="malaP"><div class="imeM">User account</div><div class="podM">memory card · import / export</div></div>'+
+    '</div>';
+  h += '</div><div class="stanjeVal"><div class="nasV">Your four currencies</div>';
+  VALUTE.forEach(function(v){
+    h += '<div class="redV"><div class="gornji"><b>'+v.ime+'</b><span>'+v.broj+'</span></div>'+
+      '<div class="bar2"><i style="width:'+v.pct+'%;background:'+v.boja+'"></i></div>'+
+      '<div class="do">'+v.do+'</div></div>';
+  });
+  h += '</div></div></div>';
+  return h;
+}
+
+['m1','m2','m3'].forEach(function(id){ document.getElementById(id).innerHTML = naslovnica(); });
+
+document.getElementById('l0gotova').onchange = function(){
+  var sakrij = this.checked;
+  document.querySelectorAll('[data-nula]').forEach(function(el){ el.style.display = sakrij ? 'none' : ''; });
+};
+
+// klizanje: strelice + točkice
+document.querySelectorAll('.spil').forEach(function(sp){
+  var traka = sp.querySelector('.traka');
+  var tockice = sp.querySelectorAll('.tockice span');
+  sp.querySelectorAll('.strelice button').forEach(function(b){
+    b.onclick = function(){ traka.scrollBy({left: (+b.dataset.smjer) * traka.clientWidth, behavior:'smooth'}); };
+  });
+  traka.addEventListener('scroll', function(){
+    var i = Math.round(traka.scrollLeft / traka.clientWidth);
+    tockice.forEach(function(t, j){ t.classList.toggle('on', j === i); });
+  });
+});
+</script>
+</body>
+</html>

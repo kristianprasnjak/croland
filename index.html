@@ -1083,29 +1083,134 @@
   .temaK .uzorak span { flex: 1; height: 1.75rem; border-radius: var(--rad-s); border: 1px solid rgba(0,0,0,.06); }
   @media (max-width: 640px) { .opcijeMreza { grid-template-columns: 1fr; } }
 
-  /* ---- naslovnica: nastavak prvi, valute kao stanje, ostalo tiho ---- */
+  /* ---- naslovnica: dva spila gore, sve ostalo tiho ispod ---- */
   .pocetna { display: grid; grid-template-columns: 1fr 18.75rem; gap: 1.25rem; align-items: start; margin-top: 0.25rem; }
-  .nastavakK {
-    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-xl);
-    padding: 1.75rem 1.75rem; cursor: pointer; transition: border-color .15s, box-shadow .15s;
+  .lijevo { display: grid; gap: 0.875rem; min-width: 0; container: glavni / inline-size; }
+
+  /* --- spilovi: nastavi / kreni novo --- */
+  .spilovi { display: grid; grid-template-columns: 1fr 1fr; gap: 0.625rem; }
+  .spilovi.jedan { grid-template-columns: 1fr; }
+  .spil {
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 0.75rem 0.75rem 0.625rem; min-width: 0; display: flex; flex-direction: column;
+    container: spil / inline-size;
   }
-  .nastavakK:hover { border-color: var(--plava); box-shadow: 0 6px 20px rgba(25,23,19,.07); }
-  .nastavakK .oznakaN {
-    font-size: var(--t-xs); font-weight: 600; letter-spacing: .08em;
-    text-transform: uppercase; color: var(--muted);
+  .spil .zag { display: flex; align-items: flex-start; gap: 0.375rem; min-height: 2.2rem; margin-bottom: 0.375rem; }
+  .spil .oznakaS {
+    font-size: var(--t-2xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted); line-height: 1.3; min-width: 0;
   }
-  .nastavakK .imeN {
-    font-family: var(--naslov); font-size: var(--t-3xl); font-weight: 600;
-    letter-spacing: -.02em; line-height: 1.2; margin: 0.625rem 0 0.375rem;
+  .spil .strelice { margin-left: auto; display: none; gap: 0.25rem; flex: none; padding-top: 0.05rem; }
+  .strelice button {
+    width: 1.4rem; height: 1.4rem; padding: 0; line-height: 1; font-size: var(--t-s);
+    border: 1px solid var(--rub); background: var(--card); color: var(--muted);
+    border-radius: var(--rad-s); cursor: pointer;
   }
-  .nastavakK .podN { font-size: var(--t-m); color: var(--muted); }
-  .nastavakK .trakaN { height: 0.5rem; border-radius: var(--rad-xs); background: var(--tiho); overflow: hidden; margin: 1rem 0 0; }
-  .nastavakK .trakaN i { display: block; height: 100%; border-radius: var(--rad-xs); background: var(--plava);
-    transition: width .7s cubic-bezier(.22,1,.36,1); }
-  .nastavakK .cta {
-    display: inline-block; margin-top: 1.25rem; padding: 0.75rem 1.5rem; border-radius: var(--rad-m);
-    background: var(--plava); color: #fff; font-weight: 600; font-size: var(--t-l);
+  .strelice button:hover:not(:disabled) { border-color: var(--plava); color: var(--plava); }
+  .strelice button:disabled { opacity: .3; cursor: default; }
+  .spilTraka {
+    display: flex; flex-wrap: nowrap; gap: 0.625rem; overflow-x: auto;
+    scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none;
+    overscroll-behavior-x: contain;
   }
+  .spilTraka::-webkit-scrollbar { display: none; }
+  .slajd {
+    flex: 0 0 90%; scroll-snap-align: start; min-width: 0; cursor: pointer;
+    display: flex; flex-direction: column; border-radius: var(--rad-s);
+  }
+  .slajd:focus-visible { outline: 2px solid var(--plava); outline-offset: 3px; }
+  .slajd .tipS {
+    font-size: var(--t-2xs); font-weight: 600; letter-spacing: .04em;
+    text-transform: uppercase; color: var(--plava);
+  }
+  .slajd .imeS {
+    font-family: var(--naslov); font-weight: 600; font-size: var(--t-l); line-height: 1.25;
+    margin: 0.125rem 0 0.25rem; display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden; min-height: 2.5em;
+  }
+  .slajd .metaS {
+    font-size: var(--t-2xs); color: var(--muted); line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; min-height: 2.8em;
+  }
+  .slajd .barS {
+    height: 0.4375rem; border-radius: var(--rad-xs); background: var(--tiho);
+    overflow: hidden; margin: 0.5rem 0 0.25rem;
+  }
+  .slajd .barS i {
+    display: block; height: 100%; width: 0; border-radius: var(--rad-xs);
+    background: var(--plava); transition: width .7s cubic-bezier(.22,1,.36,1);
+  }
+  .slajd .podBar { display: flex; justify-content: space-between; gap: 0.5rem; font-size: var(--t-2xs); color: var(--muted); }
+  .slajd .podBar b { font-family: var(--naslov); font-weight: 600; color: var(--ink); }
+  .slajd .ctaS {
+    display: none; margin-top: 0.625rem; padding: 0.45rem 0.9rem; border-radius: var(--rad-s);
+    background: var(--plava); color: #fff; font-weight: 600; font-size: var(--t-s); text-align: center;
+  }
+  .spil.novo .slajd .tipS { color: var(--zelena); }
+  .spil.novo .slajd .barS i { background: var(--zelena); }
+  .spil.novo .ctaS { background: var(--zelena); }
+  .spil.zakljucan .slajd .tipS { color: var(--zlatna); }
+  .spil.zakljucan .slajd .barS i { background: var(--zlatna); }
+  .spil.zakljucan .ctaS { background: none; color: var(--zlatna); border: 1px solid var(--zlatna); }
+  .tockice { display: flex; gap: 0.25rem; justify-content: center; margin-top: 0.5rem; }
+  .tockice span { width: 5px; height: 5px; border-radius: 50%; background: var(--rub); transition: background .2s, width .2s; }
+  .tockice span.on { background: var(--plava); width: 12px; border-radius: 3px; }
+  .spil.novo .tockice span.on { background: var(--zelena); }
+
+  /* --- police po tipovima: zatvoreno dok se ne zatraži --- */
+  .trakeBlok { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); overflow: hidden; }
+  .trakeZag {
+    display: flex; align-items: center; gap: 0.5rem; width: 100%; padding: 0.625rem 0.875rem;
+    background: none; border: 0; color: inherit; font-family: inherit; font-size: var(--t-s);
+    text-align: left; cursor: pointer;
+  }
+  .trakeZag:hover { background: var(--tiho); }
+  .trakeZag .nasZ { font-family: var(--naslov); font-weight: 600; flex: none; }
+  .trakeZag .sazZ { color: var(--muted); font-size: var(--t-2xs); min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .trakeZag .kvaka { margin-left: auto; color: var(--muted); flex: none; transition: transform .2s; }
+  .trakeBlok.otvoren .trakeZag .kvaka { transform: rotate(180deg); }
+  .tipovi { display: none; grid-template-columns: 1fr; gap: 0.5rem; padding: 0 0.625rem 0.75rem; }
+  .trakeBlok.otvoren .tipovi { display: grid; }
+  .tipK { border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.5rem 0.625rem 0.625rem; min-width: 0; }
+  .tipK .nasT { display: flex; align-items: center; gap: 0.375rem; font-family: var(--naslov); font-weight: 600; font-size: var(--t-s); margin-bottom: 0.25rem; }
+  .tipK .tocka { width: 0.5rem; height: 0.5rem; border-radius: 50%; flex: none; background: var(--boja); }
+  .redT { display: flex; align-items: baseline; gap: 0.375rem; min-width: 0; font-size: var(--t-2xs); padding: 0.15rem 0; border-radius: var(--rad-xs); cursor: pointer; }
+  .redT:hover .nazT { text-decoration: underline; }
+  .redT:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .redT .kljucT { color: var(--muted); flex: none; width: 3.2rem; }
+  .redT .nazT { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .redT .pctT { margin-left: auto; color: var(--muted); flex: none; font-family: var(--naslov); }
+  .redT.tiho { cursor: default; color: var(--muted); }
+  .redT.tiho .nazT { font-weight: 400; }
+  .redT.tiho:hover .nazT { text-decoration: none; }
+  .miniT { height: 0.25rem; border-radius: var(--rad-xs); background: var(--tiho); overflow: hidden; margin-top: 0.25rem; }
+  .miniT i { display: block; height: 100%; width: 0; background: var(--boja); transition: width .7s cubic-bezier(.22,1,.36,1); }
+  .t-Lesson { --boja: var(--plava); }
+  .t-Vocabulary { --boja: var(--plavaVok); }
+  .t-Grammar { --boja: var(--zelena); }
+  .t-Practice { --boja: var(--zlatna); }
+  .t-Test { --boja: #4a4640; }
+
+  /* --- brza vjezba: rjecnik, daily, mini --- */
+  .zaglavljeP {
+    font-size: var(--t-2xs); font-weight: 700; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--muted); margin: 0.25rem 0 -0.375rem;
+  }
+  .brza { display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
+  .brzaK {
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m);
+    padding: 0.625rem 0.75rem; cursor: pointer; display: flex; align-items: center;
+    gap: 0.625rem; min-width: 0; transition: border-color .15s;
+  }
+  .brzaK:hover { border-color: var(--plava); }
+  .brzaK:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .brzaK .emoB { font-size: var(--t-xl); flex: none; line-height: 1; }
+  .brzaK .tekstB { min-width: 0; display: block; }
+  .brzaK .imeB { display: block; font-family: var(--naslov); font-weight: 600; font-size: var(--t-m); line-height: 1.25; }
+  .brzaK .podB { display: block; font-size: var(--t-2xs); color: var(--muted); line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brzaK .strB { margin-left: auto; color: var(--muted); flex: none; }
+  .brzaK.istaknuta { border-color: var(--plava); }
 
   .stanjeVal { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 1.25rem 1.25rem; }
   .stanjeVal .nasV {
@@ -1120,30 +1225,49 @@
   .redV .bar { height: 0.375rem; border-radius: var(--rad-xs); background: var(--tiho); overflow: hidden; margin: 0.5rem 0 0.375rem; }
   .redV .bar i { display: block; height: 100%; border-radius: var(--rad-xs); transition: width .7s cubic-bezier(.22,1,.36,1); }
   .redV .do { font-size: var(--t-xs); color: var(--muted); }
-  .redV.lp .broj, .redV.lp .bar i { color: var(--plava); background-color: var(--plava); }
-  .redV.vp .broj, .redV.vp .bar i { color: var(--plavaVok); background-color: var(--plavaVok); }
-  .redV.gp .broj, .redV.gp .bar i { color: var(--zelena); background-color: var(--zelena); }
-  .redV.pp .broj, .redV.pp .bar i { color: var(--zlatna); background-color: var(--zlatna); }
-  .redV .broj { background: none; }
+  .redV.lp .broj { color: var(--plava); }  .redV.lp .bar i { background-color: var(--plava); }
+  .redV.vp .broj { color: var(--plavaVok); }  .redV.vp .bar i { background-color: var(--plavaVok); }
+  .redV.gp .broj { color: var(--zelena); }  .redV.gp .bar i { background-color: var(--zelena); }
+  .redV.pp .broj { color: var(--zlatna); }  .redV.pp .bar i { background-color: var(--zlatna); }
 
-  .pocetna .redNula { justify-content: stretch; margin: 0.875rem 0 0; }
-  .pocetna .plocicaNula { flex: 1; text-align: left; padding: 1rem 1.25rem; border-radius: var(--rad-l); }
-  .pocetna .plocicaNula .imeF { font-size: var(--t-l); }
-  .pocetna .plocicaNula .bod { font-size: var(--t-s); margin-top: 0.375rem; }
+  .pocetna .redNula { justify-content: stretch; margin: 0; }
+  .pocetna .plocicaNula { flex: 1; text-align: left; padding: 0.75rem 0.875rem; border-radius: var(--rad-m); }
+  .pocetna .plocicaNula .imeF { font-size: var(--t-m); }
+  .pocetna .plocicaNula .bod { font-size: var(--t-2xs); margin-top: 0.25rem; }
 
-  .maleP { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-top: 0.875rem; }
+  .maleP { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
   .malaP {
-    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
-    padding: 1rem 1.25rem; cursor: pointer; transition: border-color .15s, transform .12s;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m);
+    padding: 0.625rem 0.75rem; cursor: pointer; transition: border-color .15s;
   }
-  .malaP:hover { border-color: var(--plava); transform: translateY(-2px); }
-  .malaP .imeM { font-family: var(--naslov); font-weight: 600; font-size: var(--t-l); }
-  .malaP .podM { font-size: var(--t-s); color: var(--muted); margin-top: 0.375rem; line-height: 1.45; }
+  .malaP:hover { border-color: var(--plava); }
+  .malaP:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .malaP .imeM { font-family: var(--naslov); font-weight: 600; font-size: var(--t-m); }
+  .malaP .podM { font-size: var(--t-2xs); color: var(--muted); margin-top: 0.2rem; line-height: 1.4; }
+
+  /* spil ima mjesta za strelice i gumb tek kad sam nije uzak */
+  @container spil (min-width: 210px) {
+    .spil { padding: 1rem 1rem 0.875rem; }
+    .spil .strelice { display: flex; }
+    .slajd { flex: 0 0 100%; }
+    .slajd .imeS { font-size: var(--t-xl); min-height: 2.4em; }
+    .slajd .metaS { min-height: 0; }
+    .slajd .ctaS { display: block; }
+  }
+  @container spil (min-width: 320px) {
+    .slajd .imeS { font-size: var(--t-2xl); }
+  }
+  /* police po tipovima: naslovi cjelina su dugi, pa se stupci dodaju oprezno */
+  @container glavni (min-width: 420px) {
+    .spilovi { gap: 0.875rem; }
+    .tipovi { grid-template-columns: repeat(2, 1fr); }
+    .redT .kljucT { width: 3.6rem; }
+  }
+  @container glavni (min-width: 760px) {
+    .tipovi { grid-template-columns: repeat(3, 1fr); }
+  }
   @media (max-width: 860px) {
     .pocetna { grid-template-columns: 1fr; }
-    .nastavakK { padding: 1.25rem 1.25rem 1.5rem; }
-    .nastavakK .imeN { font-size: var(--t-2xl); }
-    .maleP { grid-template-columns: 1fr 1fr; }
   }
 
   /* ---- zaglavlje: mirnije, s razmakom koji drži liniju ---- */
@@ -1601,7 +1725,14 @@
     ['vjezbe', 'pokrenute', 'vidjeno', 'rjecnik', 'slova', 'savjeti'].forEach(function (polje) {
       if (!pred[polje]) return;
       PROGRESS[polje] = PROGRESS[polje] || {};
-      for (var k in pred[polje]) PROGRESS[polje][k] = pred[polje][k];
+      for (var k in pred[polje]) {
+        // pokrenute drži vrijeme: dva uređaja ne smiju vratiti stariji trenutak
+        if (polje === 'pokrenute' && typeof pred[polje][k] === 'number' && typeof PROGRESS[polje][k] === 'number') {
+          PROGRESS[polje][k] = Math.max(PROGRESS[polje][k], pred[polje][k]);
+        } else {
+          PROGRESS[polje][k] = pred[polje][k];
+        }
+      }
     });
     if (pred.abecedaSlavljena) PROGRESS.abecedaSlavljena = pred.abecedaSlavljena;
     spremiProgress(true);
@@ -1774,8 +1905,17 @@
     if (osvojeno > (PROGRESS.vjezbe[k] || 0)) { PROGRESS.vjezbe[k] = osvojeno; spremiProgress(true); }
     if (jeDanasnjiDaily(g)) streakOznaci();
   }
+  // Bilježi ne samo DA je cjelina dirana nego i KADA — naslovnica po tome zna koja je
+  // "posljednja započeta". Stare vrijednosti (1) ostaju istinite i samo padnu na dno
+  // sortiranja, pa nema migracije. Upis se osvježava najviše jednom u minuti po cjelini.
   function oznaciPokrenuto(cjelina) {
-    if (cjelina && !PROGRESS.pokrenute[cjelina]) { PROGRESS.pokrenute[cjelina] = 1; spremiProgress(); }
+    if (!cjelina) return;
+    if (!PROGRESS.pokrenute) PROGRESS.pokrenute = {};
+    var sad = Date.now(), staro = PROGRESS.pokrenute[cjelina] || 0;
+    if (typeof staro !== 'number') staro = 1;
+    if (staro && sad - staro < 60000) return;
+    PROGRESS.pokrenute[cjelina] = sad;
+    spremiProgress();
   }
 
   // ---- daily streak ----
@@ -1957,7 +2097,11 @@
   }
 
   // ---- valute: LP/GP/VP/PP ----
+  // Naslovnica jednim crtanjem pita otkljucano() stotinjak puta, a svaki upit vrti
+  // cijeli IGRE. KES_VAL drzi rezultat dok traje to crtanje i gasi se odmah poslije.
+  var KES_VAL = null;
   function valute() {
+    if (KES_VAL) return KES_VAL;
     var v = { LP: 0, VP: 0, GP: 0, PP: 0 };
     var testovi = {};    // razina -> earned
     var izazovi = {};    // 'daily|N' / 'weekly|N' -> {earned, max, tezina}
@@ -4747,25 +4891,78 @@
   }
   window.idi = idi;
 
-  // Naslovnica: prvo nastavak, pa stanje četiriju valuta, pa ostalo.
-  // Sve brojke dolaze iz istih funkcija kojima se služe i ostali pogledi.
-  function sljedecaCjelina() {
-    for (var r = 1; r <= 20; r++) {
+  // ================= NASLOVNICA =================
+  // Dva spila gore (nastavi / kreni novo), tihe police ispod. Svaki tekst ovisi o
+  // stanju: prazan spil se ne crta, tocke i strelice se ne crtaju za jedan slajd,
+  // Lesson 0 nestaje kad su sva slova skupljena.
+
+  function kljucCjeline(tip, razina) {
+    var igre = igreCjeline(tip, razina);
+    return (igre[0] && igre[0].cjelina) || (tip + ' ' + razina);
+  }
+  function zapisCjeline(tip, razina) {
+    var igre = igreCjeline(tip, razina);
+    var maks = 0, osv = 0;
+    igre.forEach(function (g) { maks += g.bodovi; osv += najbolji(g); });
+    var pok = (PROGRESS.pokrenute || {})[(igre[0] && igre[0].cjelina) || (tip + ' ' + razina)] || 0;
+    return {
+      tip: tip, razina: razina, broj: igre.length, maks: maks, osv: osv,
+      naslov: (igre[0] && igre[0].cjelinaNaslov) || (tip + ' ' + razina),
+      pct: maks ? Math.round(osv / maks * 100) : 0,
+      otklj: otkljucano(tip, razina),
+      pokrenuta: (typeof pok === 'number' ? pok : 1)
+    };
+  }
+  // Ista putanja kojom ide i mreza u Lessons: razina po razina, unutar nje po tipovima.
+  function prolazCjelina(uzmi, granica) {
+    var out = [];
+    for (var r = 1; r <= MAX_RAZINA; r++) {
       for (var i = 0; i < TIPOVI.length; i++) {
-        var tip = TIPOVI[i];
-        if (!otkljucano(tip, r)) continue;
-        var maks = maksCjeline(tip, r);
-        if (!maks) continue;
-        if (osvojenoCjeline(tip, r) < maks) {
-          var igre = igreCjeline(tip, r);
-          return { tip: tip, razina: r, maks: maks, osv: osvojenoCjeline(tip, r),
-            naslov: (igre[0] && igre[0].cjelinaNaslov) || (tip + ' ' + r), broj: igre.length };
-        }
+        if (igreCjeline(TIPOVI[i], r).length === 0) continue;
+        var z = zapisCjeline(TIPOVI[i], r);
+        if (z.maks <= 0 || !uzmi(z)) continue;
+        out.push(z);
+        if (granica && out.length >= granica) return out;
       }
     }
-    return null;
+    return out;
   }
-  // najniža zaključana razina te vrste i koliko još treba do nje
+  function jeZapoceta(z) { return z.otklj && z.osv > 0 && z.osv < z.maks; }
+  function jeNetaknuta(z) { return z.otklj && z.osv === 0; }
+  // "Posljednja zapoceta" ide po vremenu upisa, ne po mjestu u mrezi.
+  function zapocete(n) {
+    var sve = prolazCjelina(jeZapoceta, 0);
+    sve.sort(function (a, b) { return b.pokrenuta - a.pokrenuta; });
+    return sve.slice(0, n || 3);
+  }
+  function netaknute(n) { return prolazCjelina(jeNetaknuta, n || 3); }
+  function prvaZakljucana() { return prolazCjelina(function (z) { return !z.otklj; }, 1)[0] || null; }
+  function imaNapretka() { return prolazCjelina(function (z) { return z.osv > 0; }, 1).length > 0; }
+
+  // Za jedan tip: sljedeca netaknuta, posljednja zapoceta, i prva zakljucana kao rezerva.
+  function stanjeTipa(tip) {
+    var st = { tip: tip, ima: false, novo: null, nastavak: null, zakljucana: null };
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      if (igreCjeline(tip, r).length === 0) continue;
+      var z = zapisCjeline(tip, r);
+      if (z.maks <= 0) continue;
+      st.ima = true;
+      if (!z.otklj) { if (!st.zakljucana) st.zakljucana = z; continue; }
+      if (!st.novo && jeNetaknuta(z)) st.novo = z;
+      if (jeZapoceta(z) && (!st.nastavak || z.pokrenuta > st.nastavak.pokrenuta)) st.nastavak = z;
+    }
+    return st;
+  }
+  // koliko jos treba do otkljucavanja te cjeline, izrazeno u njezinoj valuti
+  function manjkaZa(z) {
+    var val = VALUTA_TIPA[z.tip];
+    if (!val) return null;
+    var p = prag(z.tip, z.razina), ima = valute()[val] || 0;
+    return { val: val, prag: p, ima: ima, treba: Math.max(0, p - ima),
+      pct: p > 0 ? Math.min(100, Math.round(ima / p * 100)) : 100 };
+  }
+
+  // najniza zakljucana razina te vrste i koliko jos treba do nje
   function sljedeciPrag(tip) {
     for (var r = 2; r <= 20; r++) {
       if (!maksCjeline(tip, r)) continue;
@@ -4778,44 +4975,188 @@
     return null;
   }
 
-  function renderMain() {
-    var v = valute();
-    var n = sljedecaCjelina();
-    var html = '<div class="pocetna"><div>';
-
-    if (n) {
-      var pct = n.maks ? Math.round(n.osv / n.maks * 100) : 0;
-      html +=
-        '<div class="nastavakK" onclick="idi(\'unit\',\'' + n.tip + '\',' + n.razina + ')">' +
-        '<div class="oznakaN">Continue where you left off</div>' +
-        '<div class="imeN">' + esc(n.naslov) + '</div>' +
-        '<div class="podN">' + n.tip + ' ' + n.razina + ' · ' + n.broj + ' exercises · ' +
-          n.osv + ' of ' + n.maks + ' points in this unit</div>' +
-        '<div class="trakaN"><i style="width:' + pct + '%"></i></div>' +
-        '<div class="cta">Continue</div>' +
-        '</div>';
+  // ---- gradivni dijelovi naslovnice ----
+  function slajdHtml(z, vrsta) {
+    var h = '<div class="slajd" role="button" tabindex="0" data-cilj="unit:' + z.tip + ':' + z.razina + '" ' +
+      'title="' + esc(z.naslov + ' — ' + z.tip + ' ' + z.razina) + '">' +
+      '<div class="tipS">' + esc(z.tip + ' ' + z.razina) + '</div>' +
+      '<div class="imeS">' + esc(z.naslov) + '</div>';
+    if (vrsta === 'novo') {
+      h += '<div class="metaS">' + z.broj + ' exercise' + (z.broj === 1 ? '' : 's') +
+        ' · ' + z.maks + ' points waiting</div>' +
+        '<div class="barS"><i data-pct="0"></i></div>' +
+        '<div class="podBar"><span>nothing done here yet</span></div>' +
+        '<div class="ctaS">Start</div>';
     } else {
-      html += '<div class="nastavakK" onclick="idi(\'lessons\')">' +
-        '<div class="oznakaN">Everything unlocked so far is done</div>' +
-        '<div class="imeN">Pick your next unit</div>' +
-        '<div class="cta">All lessons</div></div>';
+      h += '<div class="metaS">' + z.osv + ' of ' + z.maks + ' points earned</div>' +
+        '<div class="barS"><i data-pct="' + z.pct + '"></i></div>' +
+        '<div class="podBar"><span>done so far</span><b>' + z.pct + '%</b></div>' +
+        '<div class="ctaS">Continue</div>';
+    }
+    return h + '</div>';
+  }
+  // Kad nema nijedne netaknute otkljucane cjeline, spil "novo" pokazuje prvu koja ceka bodove.
+  function slajdZakljucan(z) {
+    var m = manjkaZa(z);
+    return '<div class="slajd" role="button" tabindex="0" data-cilj="view:lessons" ' +
+      'title="' + esc(z.naslov + ' — locked') + '">' +
+      '<div class="tipS">🔒 ' + esc(z.tip + ' ' + z.razina) + '</div>' +
+      '<div class="imeS">' + esc(z.naslov) + '</div>' +
+      '<div class="metaS">' + (m
+        ? m.treba + ' more ' + m.val + ' and this opens'
+        : 'finish this row to open it') + '</div>' +
+      '<div class="barS"><i data-pct="' + (m ? m.pct : 0) + '"></i></div>' +
+      '<div class="podBar"><span>towards unlocking</span><b>' + (m ? m.pct : 0) + '%</b></div>' +
+      '<div class="ctaS">See the map</div></div>';
+  }
+  function spilHtml(klasa, oznaka, slajdovi) {
+    var vise = slajdovi.length > 1;
+    var h = '<div class="spil ' + klasa + '"><div class="zag">' +
+      '<span class="oznakaS">' + esc(oznaka) + '</span>';
+    if (vise) {
+      h += '<span class="strelice">' +
+        '<button type="button" data-smjer="-1" aria-label="Previous" disabled>‹</button>' +
+        '<button type="button" data-smjer="1" aria-label="Next">›</button></span>';
+    }
+    h += '</div><div class="spilTraka">' + slajdovi.join('') + '</div>';
+    if (vise) {
+      h += '<div class="tockice">';
+      for (var i = 0; i < slajdovi.length; i++) h += '<span' + (i ? '' : ' class="on"') + '></span>';
+      h += '</div>';
+    }
+    return h + '</div>';
+  }
+
+  function redTipa(kljuc, z, sPostotkom) {
+    return '<div class="redT" role="button" tabindex="0" data-cilj="unit:' + z.tip + ':' + z.razina + '" ' +
+      'title="' + esc(z.naslov) + '">' +
+      '<span class="kljucT">' + kljuc + '</span>' +
+      '<span class="nazT">' + esc(z.naslov) + '</span>' +
+      (sPostotkom ? '<span class="pctT">' + z.pct + '%</span>' : '') +
+      '</div>';
+  }
+  function karticaTipa(st) {
+    var h = '<div class="tipK t-' + st.tip + '">' +
+      '<div class="nasT"><span class="tocka"></span>' + st.tip + '</div>';
+    var prazna = true;
+    if (st.novo) { h += redTipa('New', st.novo, false); prazna = false; }
+    else if (st.zakljucana) {
+      var m = manjkaZa(st.zakljucana);
+      h += '<div class="redT tiho"><span class="kljucT">Next</span>' +
+        '<span class="nazT">' + esc(st.zakljucana.naslov) + '</span></div>' +
+        '<div class="redT tiho"><span class="kljucT"></span><span class="nazT">' +
+        (m ? m.treba + ' ' + m.val + ' to go' : 'finish the row first') + '</span></div>';
+      prazna = false;
+    }
+    if (st.nastavak) {
+      h += redTipa('Resume', st.nastavak, true) +
+        '<div class="miniT"><i data-pct="' + st.nastavak.pct + '"></i></div>';
+      prazna = false;
+    }
+    if (prazna) h += '<div class="redT tiho"><span class="nazT">everything here is done ✓</span></div>';
+    return h + '</div>';
+  }
+
+  function brzaKarticaHtml(cilj, emo, ime, pod, istaknuta) {
+    return '<div class="brzaK' + (istaknuta ? ' istaknuta' : '') + '" role="button" tabindex="0" ' +
+      'data-cilj="' + cilj + '">' +
+      '<span class="emoB">' + emo + '</span>' +
+      '<span class="tekstB"><span class="imeB">' + esc(ime) + '</span>' +
+      '<span class="podB">' + esc(pod) + '</span></span>' +
+      '<span class="strB">›</span></div>';
+  }
+
+  function renderMain() {
+    try { renderMainUnutra(); } finally { KES_VAL = null; }
+  }
+  function renderMainUnutra() {
+    KES_VAL = valute();
+    var v = KES_VAL;
+    var napredak = imaNapretka();
+    var nastavak = zapocete(3);
+    var nova = netaknute(3);
+    var html = '<div class="pocetna"><div class="lijevo">';
+
+    // Lesson 0 stoji na vrhu dok nije rijesena; kad su sva slova skupljena, nestaje s naslovnice.
+    if (!zavrsenaL0()) html += plocicaNulaHtml();
+
+    // --- spilovi ---
+    var spilovi = [];
+    if (nastavak.length) {
+      spilovi.push(spilHtml('nastavak', 'Pick up where you left off',
+        nastavak.map(function (z) { return slajdHtml(z, 'nastavak'); })));
+    }
+    if (nova.length) {
+      spilovi.push(spilHtml('novo', napredak ? 'Start something new' : 'Start here',
+        nova.map(function (z) { return slajdHtml(z, 'novo'); })));
+    } else {
+      var zak = prvaZakljucana();
+      if (zak) spilovi.push(spilHtml('zakljucan novo', 'Next to unlock', [slajdZakljucan(zak)]));
+    }
+    if (spilovi.length) {
+      // trazeni redoslijed je "novo lijevo, nastavak desno" — zato se okrece na kraju
+      html += '<div class="spilovi' + (spilovi.length === 1 ? ' jedan' : '') + '">' +
+        spilovi.reverse().join('') + '</div>';
+    } else {
+      html += '<div class="spilovi jedan">' + spilHtml('nastavak', 'Nothing waiting',
+        ['<div class="slajd" role="button" tabindex="0" data-cilj="view:lessons">' +
+         '<div class="tipS">All clear</div>' +
+         '<div class="imeS">Everything open is finished</div>' +
+         '<div class="metaS">Earn points anywhere and the next level opens by itself.</div>' +
+         '<div class="ctaS">Open the map</div></div>']) + '</div>';
     }
 
-    html += plocicaNulaHtml();
+    // --- police po tipovima: samo kad ima sto reci, i zatvorene dok se ne zatraze ---
+    if (napredak) {
+      var stanja = TIPOVI.map(stanjeTipa).filter(function (st) { return st.ima; });
+      var brNovih = 0, brNastavaka = 0;
+      stanja.forEach(function (st) { if (st.novo) brNovih++; if (st.nastavak) brNastavaka++; });
+      // Kad nijedna traka nema ni novo ni nedovrseno, blok bi samo ponavljao ono
+      // sto veliki natpis gore vec kaze — onda ga nema.
+      if (stanja.length && (brNovih || brNastavaka)) {
+        var saz;
+        if (brNastavaka && brNovih) saz = brNastavaka + ' in progress · ' + brNovih + ' waiting to be opened';
+        else if (brNastavaka) saz = brNastavaka + ' track' + (brNastavaka === 1 ? '' : 's') + ' still unfinished';
+        else saz = brNovih + ' track' + (brNovih === 1 ? '' : 's') + ' with something new';
+        var otvorene = !!(PROGRESS.postavke && PROGRESS.postavke.trakeOtvorene);
+        html += '<div class="trakeBlok' + (otvorene ? ' otvoren' : '') + '">' +
+          '<button type="button" class="trakeZag" data-akcija="trake" aria-expanded="' + otvorene + '">' +
+          '<span class="nasZ">By track</span><span class="sazZ">' + esc(saz) + '</span>' +
+          '<span class="kvaka">▾</span></button>' +
+          '<div class="tipovi">' + stanja.map(karticaTipa).join('') + '</div></div>';
+      }
+    }
 
+    // --- brza vjezba ---
+    var brze = [];
+    var rj = brojRijeci();
+    if (rj > 0) {
+      brze.push(brzaKarticaHtml('view:dictTest', '🎯', 'Test your words',
+        rj + ' word' + (rj === 1 ? '' : 's') + ' · practice only, no points', true));
+    }
+    brze.push(brzaKarticaHtml('view:daily', '📅', 'Daily challenge', dailyPodnaslov(), false));
+    var gotovih = miniPrijedena();
+    brze.push(brzaKarticaHtml('view:mini', '🎮', 'Mini games',
+      gotovih >= MINI_IGRE.length
+        ? 'all ' + MINI_IGRE.length + ' finished · replay any time'
+        : gotovih + ' of ' + MINI_IGRE.length + ' finished', false));
+    html += '<div class="zaglavljeP">Quick practice</div>' +
+      '<div class="brza">' + brze.join('') + '</div>';
+
+    // --- tihe police: rjecnik i racun ---
     html += '<div class="maleP">' +
-      '<div class="malaP" onclick="idi(\'daily\')"><div class="imeM">Daily challenge</div>' +
-        '<div class="podM">' + esc(dailyPodnaslov()) + '</div></div>' +
-      '<div class="malaP" onclick="idi(\'dictionary\')"><div class="imeM">Dictionary</div>' +
-        '<div class="podM">' + brojRijeci() + ' words learned</div></div>' +
-      '<div class="malaP" onclick="idi(\'mini\')"><div class="imeM">Mini games</div>' +
-        '<div class="podM">' + miniPrijedena() + ' of ' + MINI_IGRE.length + ' finished · ' +
-          miniBodovi() + '/' + miniMaks() + ' pts</div></div>' +
-      '<div class="malaP" onclick="idi(\'account\')"><div class="imeM">User account</div>' +
+      '<div class="malaP" role="button" tabindex="0" data-cilj="view:dictionary">' +
+        '<div class="imeM">Dictionary</div><div class="podM">' +
+        (rj ? rj + ' word' + (rj === 1 ? '' : 's') + ' learned' : 'words you meet get saved here') +
+        '</div></div>' +
+      '<div class="malaP" role="button" tabindex="0" data-cilj="view:account">' +
+        '<div class="imeM">User account</div>' +
         '<div class="podM">memory card · import / export</div></div>' +
-      '</div></div>';
+      '</div>';
 
-    // desna traka: četiri valute, svaka s pragom sljedećeg otključavanja
+    html += '</div>';
+
+    // --- desna traka: cetiri valute, svaka s pragom sljedeceg otkljucavanja ---
     var imena = { LP: 'Lesson points', VP: 'Vocabulary points', GP: 'Grammar points', PP: 'Practice points' };
     var razred = { LP: 'lp', VP: 'vp', GP: 'gp', PP: 'pp' };
     html += '<div class="stanjeVal"><div class="nasV">Your four currencies</div>';
@@ -4836,6 +5177,104 @@
     html += '</div></div>';
 
     VIEW.innerHTML = html;
+    KES_VAL = null;
+    vezisNaslovnicu();
+  }
+
+  // ---- naslovnica: klizanje, tipkovnica, klik koji ne okida na povlacenje ----
+  function otvoriCilj(c) {
+    if (!c) return;
+    var d = c.split(':');
+    if (d[0] === 'unit') idi('unit', d[1], parseInt(d[2], 10));
+    else idi(d[1]);
+  }
+  function trenutniSlajd(traka) {
+    if (!traka.children.length) return 0;
+    var baza = traka.children[0].offsetLeft, naj = 0, razlika = Infinity;
+    for (var i = 0; i < traka.children.length; i++) {
+      var d = Math.abs((traka.children[i].offsetLeft - baza) - traka.scrollLeft);
+      if (d < razlika) { razlika = d; naj = i; }
+    }
+    return naj;
+  }
+  function naSlajd(traka, i) {
+    var dijete = traka.children[i];
+    if (!dijete) return;
+    traka.scrollTo({ left: dijete.offsetLeft - traka.children[0].offsetLeft, behavior: 'smooth' });
+  }
+  function vezisNaslovnicu() {
+    var pocetna = VIEW.querySelector ? VIEW.querySelector('.pocetna') : null;
+    if (!pocetna) return;
+
+    // trake krenu s nule pa naraste u sljedecem kadru — bez toga nema prijelaza
+    var trake = pocetna.querySelectorAll('[data-pct]');
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        [].forEach.call(trake, function (el) { el.style.width = (el.getAttribute('data-pct') || 0) + '%'; });
+      });
+    });
+
+    // Povlacenje ne smije zavrsiti kao klik: pamti se pocetna tocka pritiska.
+    var x0 = 0, y0 = 0, vuce = false, dolje = false;
+    pocetna.addEventListener('pointerdown', function (e) { x0 = e.clientX; y0 = e.clientY; vuce = false; dolje = true; }, true);
+    pocetna.addEventListener('pointermove', function (e) {
+      if (!dolje) return;
+      if (Math.abs(e.clientX - x0) > 10 || Math.abs(e.clientY - y0) > 10) vuce = true;
+    }, true);
+    pocetna.addEventListener('pointerup', function () { dolje = false; }, true);
+    pocetna.addEventListener('pointercancel', function () { dolje = false; vuce = false; }, true);
+
+    pocetna.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t.closest && t.closest('.strelice')) return;
+      var akcija = t.closest ? t.closest('[data-akcija]') : null;
+      if (akcija) {
+        if (vuce) { vuce = false; return; }
+        var blok = akcija.parentNode;
+        var sad = !blok.classList.contains('otvoren');
+        blok.classList.toggle('otvoren', sad);
+        akcija.setAttribute('aria-expanded', sad ? 'true' : 'false');
+        if (!PROGRESS.postavke) PROGRESS.postavke = {};
+        PROGRESS.postavke.trakeOtvorene = sad ? 1 : 0;
+        spremiProgress();
+        return;
+      }
+      var el = t.closest ? t.closest('[data-cilj]') : null;
+      if (!el) return;
+      if (vuce) { vuce = false; return; }
+      otvoriCilj(el.getAttribute('data-cilj'));
+    });
+
+    pocetna.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var t = e.target;
+      if (!t.getAttribute) return;
+      if (t.hasAttribute('data-cilj')) { e.preventDefault(); otvoriCilj(t.getAttribute('data-cilj')); }
+    });
+
+    [].forEach.call(pocetna.querySelectorAll('.spil'), function (sp) {
+      var traka = sp.querySelector('.spilTraka');
+      var tockice = sp.querySelectorAll('.tockice span');
+      var strelice = sp.querySelectorAll('.strelice button');
+      if (!traka) return;
+      [].forEach.call(strelice, function (b) {
+        b.addEventListener('click', function (ev) {
+          ev.stopPropagation();
+          naSlajd(traka, trenutniSlajd(traka) + parseInt(b.getAttribute('data-smjer'), 10));
+        });
+      });
+      if (!tockice.length) return;
+      var osvjezi = function () {
+        var i = trenutniSlajd(traka);
+        for (var j = 0; j < tockice.length; j++) tockice[j].className = (j === i ? 'on' : '');
+        if (strelice.length === 2) {
+          strelice[0].disabled = (i <= 0);
+          strelice[1].disabled = (i >= traka.children.length - 1);
+        }
+      };
+      traka.addEventListener('scroll', osvjezi);
+      osvjezi();
+    });
   }
 
   // ---- mini igre: popis ----
