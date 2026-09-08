@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croland među jezičnim aplikacijama</title>
+<style>
+  :root{
+    --plane:#f4f4f1; --card:#fff; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+    --line:#e1e0d9; --rule:#c3c2b7;
+    --ima:#1baf7a; --nema:#d03b3b; --dio:#eda100; --akcent:#2a78d6;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --plane:#0d0d0d; --card:#1f1f1e; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+    --line:#2c2c2a; --rule:#383835;
+    --ima:#199e70; --nema:#e66767; --dio:#c98500; --akcent:#3987e5; } }
+  :root[data-theme="dark"]{
+    --plane:#0d0d0d; --card:#1f1f1e; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+    --line:#2c2c2a; --rule:#383835;
+    --ima:#199e70; --nema:#e66767; --dio:#c98500; --akcent:#3987e5; }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--plane);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:800px;margin:0 auto;padding:40px 20px 90px}
+  .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  h1{font-size:clamp(28px,5.5vw,40px);line-height:1.08;letter-spacing:-.03em;margin:8px 0 14px;font-weight:700}
+  h2{font-size:23px;letter-spacing:-.02em;margin:54px 0 4px;font-weight:700}
+  h2+.pod{color:var(--muted);font-size:14px;margin:0 0 18px}
+  h3{font-size:16.5px;margin:28px 0 6px;font-weight:650}
+  p{margin:14px 0;max-width:68ch}
+  .lede{font-size:17px;color:var(--ink2);max-width:60ch}
+  a{color:var(--akcent)}
+
+  .nalaz{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--akcent);
+    border-radius:0 12px 12px 0;padding:20px 22px;margin:24px 0}
+  .nalaz p{margin:0 0 12px} .nalaz p:last-child{margin:0}
+
+  table{width:100%;border-collapse:collapse;margin:18px 0;font-size:14px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  td.c{text-align:center;width:56px;font-weight:700}
+  .ok{color:var(--ima)} .ne{color:var(--nema)} .pola{color:var(--dio)}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+
+  .igre{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:7px;margin:16px 0}
+  .igra{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:13px}
+
+  .cit{border-left:2px solid var(--rule);padding-left:16px;margin:18px 0;color:var(--ink2);font-style:italic}
+  .cit span{font-style:normal;font-size:12.5px;color:var(--muted);display:block;margin-top:6px}
+
+  ol.rang{counter-reset:r;list-style:none;padding:0;margin:18px 0}
+  ol.rang li{counter-increment:r;position:relative;padding:14px 0 14px 46px;border-bottom:1px solid var(--line)}
+  ol.rang li::before{content:counter(r);position:absolute;left:0;top:14px;width:30px;height:30px;
+    border-radius:50%;background:var(--akcent);color:#fff;display:grid;place-items:center;
+    font-size:14px;font-weight:700}
+  ol.rang b{display:block;font-size:15.5px;margin-bottom:2px}
+  ol.rang span{font-size:14px;color:var(--ink2)}
+
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted)}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">Croland · konkurentska analiza</div>
+<h1>Mehanike, ne značajke</h1>
+<p class="lede">Usporedba s poljem jezičnih aplikacija na razini onoga što stvarno drži ljude
+unutra. Popisano iz tvog koda, ne iz opisa.</p>
+
+<h2>Prvo: što stvarno imaš</h2>
+<p class="pod">Prebrojano u <code>index.html</code> i mapama projekta.</p>
+
+<p>Prošli put sam te uspoređivao s Lingom po sadržaju. To je bila kriva os. Evo što ti je
+zapravo u kodu:</p>
+
+<table>
+  <tr><th>Sustav</th><th>Stanje</th></tr>
+  <tr><td><strong>Nizovi (streak)</strong></td><td>65 pojavljivanja, s prikazom 🔥 i logikom razmaka u danima</td></tr>
+  <tr><td><strong>Četiri valute</strong></td><td>LP, VP, GP, PP — bodovi odvojeni po traku učenja</td></tr>
+  <tr><td><strong>Dnevni i tjedni izazov</strong></td><td>136 unaprijed napisanih dnevnih izazova</td></tr>
+  <tr><td><strong>Mini-igre</strong></td><td>12 zasebnih igara, s atlasom i kartom za jednu od njih</td></tr>
+  <tr><td><strong>Memorijske kartice</strong></td><td>5 špilova stupnjevanih po napretku (0 / 25 / 50 / 75 / 100 %)</td></tr>
+  <tr><td><strong>Testovi po razinama</strong></td><td>192 pojavljivanja, s otključavanjem</td></tr>
+  <tr><td><strong>Zvuk</strong></td><td>1.372 snimke, prosjek 13 KB — kratke, po riječi i rečenici</td></tr>
+  <tr><td><strong>Jezični alati</strong></td><td>hrvatska tipkovnica, lebdeći rječnik, traka abecede</td></tr>
+</table>
+
+<div class="igre">
+  <div class="igra">Grad <em>(s kartom)</em></div>
+  <div class="igra">Put oko Hrvatske</div>
+  <div class="igra">Pamti pa piši</div>
+  <div class="igra">Tvrđava</div>
+  <div class="igra">Konoba</div>
+  <div class="igra">Skladište</div>
+  <div class="igra">Poštanski vlak</div>
+  <div class="igra">Labirint</div>
+  <div class="igra">Zmija</div>
+  <div class="igra">Mario</div>
+  <div class="igra">Preživljavanje</div>
+  <div class="igra">Obrana baze</div>
+</div>
+
+<div class="nalaz">
+  <p><strong>Ovo je bitno drukčija situacija nego što sam prije opisao.</strong> Nemaš tečaj s
+  malo gejmifikacije. Imaš dvanaest zasebnih igara, četiri paralelne valute, nizove, dnevne i
+  tjedne izazove i stupnjevane špilove.</p>
+  <p>Duolingo nema dvanaest igara. Duolingo ima desetak <em>tipova vježbe</em> koji izgledaju kao
+  igra. Ti imaš zmiju, labirint i obranu baze. To u jezičnim aplikacijama praktički nitko nema.</p>
+</div>
+
+<h2>Stroj za zadržavanje</h2>
+<p class="pod">Što polje radi, s brojkama — i gdje si ti.</p>
+
+<p>Duolingo je narastao s oko 5 milijuna dnevnih korisnika 2020. na preko 40 milijuna 2024. To
+nije zbog sadržaja. Sadržaj im je osrednji i to svi znaju. Narasli su na mehanikama, a mehanike
+imaju izmjerene učinke:</p>
+
+<div class="cit">
+  Korisnici sa zaštitom niza (streak freeze) drže niz <strong>4,5 puta dulje do 21. dana</strong>.
+  Do 14. dana: 30,63 dana s zaštitom naspram 18,87 bez nje.
+  <span>Analiza Duolingovih mehanika, 2026.</span>
+</div>
+
+<div class="cit">
+  <strong>43,1 %</strong> korisnika koji otključaju postignuće učine to prvog dana. Teža
+  postignuća koreliraju s <strong>74,17 %</strong> zadržavanja, laka s 32,26 %.
+  <span>Ista analiza.</span>
+</div>
+
+<table>
+  <tr><th>Mehanika</th><th class="c">Ti</th><th>Što radi</th></tr>
+  <tr><td>Niz (streak)</td><td class="c ok">✓</td><td>gubitak-averzija, temelj svega</td></tr>
+  <tr><td><strong>Zaštita niza</strong></td><td class="c ne">✗</td><td><strong>4,5× dulji nizovi. Jedan dan posla.</strong></td></tr>
+  <tr><td>Podesiv dnevni cilj</td><td class="c ne">✗</td><td>sprječava odustajanje od fiksnog cilja koji korisnik stalno promašuje</td></tr>
+  <tr><td>Bodovi / XP</td><td class="c pola">◐</td><td>imaš četiri valute umjesto jedne — vidi niže</td></tr>
+  <tr><td>Postignuća</td><td class="c ne">✗</td><td>43 % ih otključa prvog dana; teža vežu jače</td></tr>
+  <tr><td>Dnevni izazov</td><td class="c ok">✓</td><td>razlog za povratak koji nije lekcija</td></tr>
+  <tr><td>Tjedni izazov</td><td class="c ok">✓</td><td>duži ritam iznad dnevnog</td></tr>
+  <tr><td>Lige / ljestvica</td><td class="c ne">✗</td><td>~30 ljudi tjedno, napredovanje i ispadanje</td></tr>
+  <tr><td>Nizovi s prijateljem</td><td class="c ne">✗</td><td>uzajamna obveza drži bolje od anonimnog natjecanja</td></tr>
+  <tr><td>Srca / životi</td><td class="c ne">✗</td><td>umjetna oskudica koja tjera na pretplatu</td></tr>
+  <tr><td>Push obavijesti</td><td class="c ne">✗</td><td>cijeli Duolingov motor podsjećanja</td></tr>
+  <tr><td>Razmaknuto ponavljanje</td><td class="c pola">◐</td><td>imaš špilove, ali nema algoritma intervala</td></tr>
+  <tr><td>Prepoznavanje govora</td><td class="c ne">✗</td><td>Ling i Busuu imaju</td></tr>
+  <tr><td>AI razgovor</td><td class="c ne">✗</td><td>fronta 2026. — vidi dolje</td></tr>
+</table>
+
+<p><strong>Zaštita niza je tvoj najveći promašeni dobitak.</strong> Imaš niz, ali nemaš ono što
+niz čuva. Korisnik koji jedan dan zaboravi gubi trideset dana truda i najčešće se ne vrati.
+Jedan dan programiranja za četiri i pol puta dulje nizove je najbolji odnos uloženog i dobivenog
+u cijeloj ovoj tablici.</p>
+
+<h2>Pitanje četiri valute</h2>
+<p class="pod">Tvoja najoriginalnija odluka, i vjerojatno pogrešna.</p>
+
+<p>LP, VP, GP i PP odvajaju bodove po traku — lekcija, vokabular, gramatika, vježba. Strukturno
+je to zanimljivije od Duolingova jednog XP-a: govori korisniku <em>gdje</em> je jak.</p>
+
+<p>Ali Duolingo je počeo sa složenijim sustavom pa se skupio na jedan XP, i to nije bila lijenost.
+Jedna valuta ima svojstvo koje četiri nemaju: <strong>uvijek ide gore i uvijek je jedan broj.</strong>
+Korisnik ga vidi, pamti, uspoređuje sa sobom od jučer. Četiri broja ne pamti nitko, i onaj koji
+najmanje raste izgleda kao neuspjeh čak i kad ostala tri lete.</p>
+
+<p>Ne bih ih ukidao — vodi ih dalje kao dijagnostiku. Ali <strong>iznad njih treba jedan zbroj</strong>
+koji je jedini broj na naslovnoj i jedini koji ulazi u niz, ligu i postignuća.</p>
+
+<h2>Igre: tvoja najveća prednost i najveće nerazriješeno pitanje</h2>
+
+<p>Dvanaest igara je ozbiljna imovina. Nitko u jezičnim aplikacijama to nema, i to je razlog
+zašto bi netko odabrao tebe umjesto Linga — ne padeži, nego to što je zabavno.</p>
+
+<p><strong>Ali moram postaviti neugodno pitanje: uče li one išta?</strong></p>
+
+<p>Zmija, Mario i obrana baze su arkadne igre s vokabularom nalijepljenim odozgo. Kognitivno,
+prijenos iz takvog konteksta je slab — pažnja ide na izbjegavanje prepreke, a riječ je usputna.
+„Pamti pa piši" i „Poštanski vlak" zvuče kao da su mehanikom vezani uz gradivo. Ostale ne znam
+bez igranja.</p>
+
+<p>To je razlika između igre koja <em>je</em> vježba i igre koja <em>okružuje</em> vježbu. Prva
+opravdava svoje postojanje, druga je zabava koju održavaš besplatno.</p>
+
+<p>Preporuka: prođi ih i podijeli na te dvije skupine. One iz prve gurni naprijed i vezuj uz
+napredak. Za one iz druge odluči jesu li vrijedne održavanja — dvanaest igara je dvanaest stvari
+koje se kvare, a ti si jedan čovjek.</p>
+
+<h2>Fronta 2026., i najvažniji nalaz u ovoj analizi</h2>
+<p class="pod">Ovdje se polje pomaknulo, a hrvatski je ostao prazan.</p>
+
+<p>Cijela industrija je 2025. i 2026. otišla u <strong>AI razgovor</strong>. Duolingo je pokrenuo
+<em>Video Call</em> s likom Lily, opisujući ga kao <em>„the kind of teaching tool we've dreamed of
+building for years"</em>. Cijena: Duolingo Max, oko 30 $ mjesečno. Langua, Speak, TalkPal i
+Praktika rade isto za 10–20 $.</p>
+
+<p>A sad brojke koje odlučuju:</p>
+
+<table>
+  <tr><th>Proizvod</th><th class="n">Jezika s AI razgovorom</th><th class="c">Hrvatski</th></tr>
+  <tr><td>Duolingo Video Call</td><td class="n">8</td><td class="c ne">✗</td></tr>
+  <tr><td>Langua</td><td class="n">23</td><td class="c ne">✗</td></tr>
+  <tr><td>Speak</td><td class="n">—</td><td class="c ne">✗</td></tr>
+  <tr><td>TalkPal</td><td class="n">—</td><td class="c ne">✗</td></tr>
+  <tr><td>Praktika</td><td class="n">—</td><td class="c ne">✗</td></tr>
+</table>
+
+<div class="nalaz">
+  <p><strong>Nijedan proizvod na svijetu danas ne nudi AI razgovor na hrvatskom.</strong>
+  Duolingo je na osam jezika i to su sve veliki. Langua na 23 i hrvatskog nema.</p>
+  <p>A tehnologija koja to radi je <strong>komoditet</strong>. Modeli koje danas svatko zove
+  preko API-ja govore hrvatski dobro. Prepoznavanje govora radi za hrvatski. Sinteza glasa radi
+  za hrvatski. Razlog zašto to nitko nije napravio nije težina — nego to što nitko ne gradi za
+  hrvatski.</p>
+  <p>Ti gradiš za hrvatski. To znači da <strong>možeš imati ono što Duolingo naplaćuje 30 $
+  mjesečno, na jeziku na kojem to nema nitko, prije svih.</strong> Ne za godinu dana — za
+  nekoliko tjedana rada.</p>
+</div>
+
+<p>I to nije samo značajka. To je jedina stvar koja rješava tvoju najveću strukturnu slabost:
+protiv instruktora na iTalkiju za 20 € po satu nemaš nikakav odgovor. AI sugovornik nije
+zamjena za čovjeka, ali je ono što učenik radi <em>između</em> sati s čovjekom — a to je točno
+pozicija koju si već izabrao s instruktorskim kanalom.</p>
+
+<h2>Što bih napravio, po redu</h2>
+
+<ol class="rang">
+  <li><b>Zaštita niza</b><span>Jedan dan posla, 4,5 puta dulji nizovi. Ništa drugo u tablici
+  nema takav odnos.</span></li>
+  <li><b>Jedan zbrojni bodovni broj iznad četiri valute</b><span>Valute ostaju kao dijagnostika,
+  ali korisnik prati jedan broj. Nekoliko sati.</span></li>
+  <li><b>AI sugovornik na hrvatskom</b><span>Nekoliko tjedana. Jedina stvar u cijeloj analizi
+  koja te stavlja ispred svih, a ne uz njih.</span></li>
+  <li><b>Podesiv dnevni cilj i postignuća</b><span>Jeftino, izmjereno djeluje, i postignuća su
+  razlog da netko ostane prvog dana.</span></li>
+  <li><b>Trijaža dvanaest igara</b><span>Odluči koje uče a koje zabavljaju. Održavati ono što ne
+  radi ništa je trošak koji plaćaš svaki mjesec.</span></li>
+  <li><b>Web push obavijesti</b><span>Web aplikacija ih može slati. Nije isto što i native, ali
+  je jedina alternativa dok nisi na trgovini.</span></li>
+  <li><b>Lige tek kad imaš ljude</b><span>Liga od trideset ljudi kad ih ukupno imaš četrdeset je
+  tužna. Ovo dolazi poslije, ne prije.</span></li>
+</ol>
+
+<p>Prepoznavanje govora namjerno nisam stavio na popis — AI sugovornik ga nosi sa sobom, pa nema
+smisla graditi ga zasebno.</p>
+
+<h2>Sažetak u tri rečenice</h2>
+
+<p>Tvoje mehanike su bliže vrhu polja nego što sam prvi put pretpostavio, a dvanaest igara je
+nešto što nitko drugi nema. Fali ti nekoliko jeftinih, izmjerenih stvari — zaštita niza prije
+svih — i jedna skupa koja te ne bi stavila uz konkurenciju nego ispred nje.</p>
+
+<p>Ta jedna je AI razgovor na hrvatskom, i prozor u kojem si ondje sam neće ostati otvoren
+zauvijek.</p>
+
+<footer>
+  <p>Izvori: <a href="https://trophy.so/blog/duolingo-gamification-case-study">Duolingo gamification case study, 2026.</a> ·
+  <a href="https://investors.duolingo.com/news-releases/news-release-details/duolingo-launches-ai-powered-video-call-android">Duolingo — AI Video Call</a> ·
+  <a href="https://languatalk.com/blog/whats-the-best-ai-for-language-learning/">Pregled AI aplikacija za učenje jezika, 2026.</a> ·
+  <a href="https://www.clozemaster.com/blog/best-apps-to-learn-croatian-2026/">Aplikacije za hrvatski</a></p>
+  <p>Popis tvojih mehanika je prebrojan iz koda 28. kolovoza 2026. Nisam igrao igre niti prošao
+  lekcije — procjena njihove pedagoške vrijednosti je po nazivima i mehanici, ne po iskustvu.</p>
+</footer>
+
+</div>
+</body>
+</html>

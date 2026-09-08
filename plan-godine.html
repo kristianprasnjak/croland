@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan godine — od danas do kolovoza 2027.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12262A; --teal:#14545F; --deep:#0C3A43; --gold:#A8862B;
+    --forest:#2C6B4F; --rust:#9C4A2F;
+    --paper:#EDF1EF; --card:#FFF; --line:#CBD6D4; --muted:#5F757A;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 80px}
+
+  header{margin-bottom:28px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(28px,5vw,40px);line-height:1.05;letter-spacing:-.03em;margin:6px 0 12px}
+  .lede{margin:0;max-width:58ch;color:var(--muted)}
+
+  .postavka{background:#F4F8F7;border:1px solid var(--line);border-radius:11px;padding:13px 16px;margin:22px 0 26px;font-size:13.5px;color:var(--muted)}
+  .postavka b{color:var(--ink);font-weight:600}
+
+  .progress{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:26px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .bar{flex:1;min-width:160px;height:8px;background:var(--paper);border-radius:99px;overflow:hidden}
+  .bar span{display:block;height:100%;width:0;background:var(--forest);transition:width .3s}
+  .progress b{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500;color:var(--muted)}
+
+  .faza{margin-bottom:12px;border-left:2px solid var(--line);padding-left:22px;position:relative}
+  .faza::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--teal);border:3px solid var(--paper)}
+  .faza.gotova::before{background:var(--forest)}
+  .faza-kad{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500}
+  .faza-ime{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:21px;letter-spacing:-.02em;margin:2px 0 4px}
+  .faza-sazetak{color:var(--muted);font-size:14px;margin:0 0 14px;max-width:60ch}
+
+  .korak{background:var(--card);border:1px solid var(--line);border-radius:11px;margin-bottom:8px;overflow:hidden}
+  .korak-glava{display:flex;align-items:flex-start;gap:12px;padding:13px 15px;cursor:pointer}
+  .korak-glava:hover{background:#FBFCFC}
+  .kv{flex:none;margin-top:2px;width:19px;height:19px;border:2px solid var(--line);border-radius:5px;background:#fff;cursor:pointer;position:relative}
+  .kv[aria-checked="true"]{background:var(--forest);border-color:var(--forest)}
+  .kv[aria-checked="true"]::after{content:"";position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .korak-tekst{flex:1;min-width:0}
+  .korak-ime{font-weight:600;font-size:15px;letter-spacing:-.01em}
+  .korak.gotov .korak-ime{text-decoration:line-through;color:var(--muted)}
+  .korak-jedno{font-size:13.5px;color:var(--muted);margin-top:2px}
+  .strelica{flex:none;color:var(--muted);font-size:12px;margin-top:4px;transition:transform .2s}
+  .korak.otvoren .strelica{transform:rotate(90deg)}
+  .korak-tijelo{display:none;padding:2px 15px 16px 46px;font-size:14.5px;border-top:1px solid var(--paper)}
+  .korak.otvoren .korak-tijelo{display:block}
+  .korak-tijelo p{margin:12px 0}
+  .korak-tijelo ul{margin:10px 0;padding-left:18px}
+  .korak-tijelo li{margin:5px 0}
+
+  .oznaka{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:4px;margin-left:8px;vertical-align:2px}
+  .o-rok{background:#F6E9E4;color:var(--rust)}
+  .o-novac{background:#F5EEDC;color:var(--gold)}
+  .o-odluka{background:#E4EDEA;color:var(--forest)}
+
+  .pojam{border-bottom:1px dotted var(--teal);cursor:help;color:var(--teal)}
+  .def{display:none;background:#F4F8F7;border-left:2px solid var(--teal);padding:9px 13px;margin:9px 0;font-size:13.5px;border-radius:0 6px 6px 0}
+  .def.vidljiv{display:block}
+
+  .paznja{background:#FBF3EF;border-left:2px solid var(--rust);padding:11px 14px;margin:13px 0;font-size:14px;border-radius:0 6px 6px 0}
+
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13.5px}
+  th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--paper)}
+  th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+  td.n{text-align:right;font-family:"IBM Plex Mono",monospace}
+
+  footer{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Croland · plan</div>
+  <h1>Od danas do kolovoza 2027.</h1>
+  <p class="lede">Redoslijed poteza, s objašnjenjima. Klikni na korak da vidiš detalje, na
+  <span class="pojam" data-def="Ovako izgleda pojam. Klikni ga i objašnjenje se otvori ispod.">podcrtane pojmove</span>
+  da vidiš što znače. Kvadratić lijevo označava da je gotovo.</p>
+</header>
+
+<div class="postavka">
+  Plan pretpostavlja dvije već donesene odluke: <b>ostaješ u školi</b>, pa ti je obrt druga
+  djelatnost s doprinosima jednom godišnje; i <b>naplata ide preko Paddlea</b>, ne Stripea.
+</div>
+
+<div class="progress">
+  <b id="brojac">0 / 0</b>
+  <div class="bar"><span id="traka"></span></div>
+</div>
+
+<!-- ═══════════ 1 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Rujan 2026.</div>
+  <div class="faza-ime">Odluke prije nego išta poduzmeš</div>
+  <p class="faza-sazetak">Ništa od ovoga ne košta i sve se može predomisliti. Ali svaki korak poslije ovoga ovisi o njima.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Traži pisanu suglasnost škole <span class="oznaka o-odluka">blokira sve</span></div>
+        <div class="korak-jedno">Zakon traži odobrenje poslodavca za djelatnost iz njegovog djelokruga.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Zakon o radu, članak 101.: <em>„Radnik ne smije bez odobrenja poslodavca, za svoj ili tuđi
+      račun, sklapati poslove iz djelatnosti koju obavlja poslodavac."</em></p>
+      <p>Djelatnost škole je odgoj i obrazovanje. Croland je obrazovna usluga, a poduka to svakako jest.
+      Nastupi i studijska snimanja vjerojatno nisu.</p>
+      <p><strong>Napiši zamolbu ravnatelju</strong> s popisom djelatnosti koje upisuješ, s izričitom
+      napomenom da se obavljaju izvan radnog vremena i ne uključuju učenike tvoje škole. Suglasnost
+      čuvaj u papiru.</p>
+      <div class="paznja">Ako škola odbije, mijenja ti se opseg obrta — zato ovo ide prvo, a ne
+      zadnje. Provjeri i ima li kolektivni ugovor ili pravilnik škole svoju odredbu; pitaj tajništvo.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Izmjeri besplatno razdoblje</div>
+        <div class="korak-jedno">Koliki postotak registriranih uopće dođe do razine 2?</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Dok je sve otključano svima, imaš jedini čist podatak koji ćeš ikad imati o tome gdje
+      ljudi stanu. Taj broj odlučuje stoji li paywall na pravom mjestu — a nikakva cijena ne
+      popravlja paywall na krivom mjestu.</p>
+      <p>Izvuci iz Supabasea: koliko registriranih, koliki postotak dođe do razine 2, gdje je
+      najveći pad, i koliko dana prosječno traje niz.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Odaberi NKD šifre <span class="oznaka o-odluka">odluka</span></div>
+        <div class="korak-jedno">Popis djelatnosti koje upisuješ u obrt.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p><span class="pojam" data-def="Nacionalna klasifikacija djelatnosti. Šifrarnik kojim država opisuje čime se tko bavi. Od 2025. vrijedi verzija NKD 2025.">NKD</span>
+      šifre nisu formalnost — o njima ovisi jesi li obveznik turističke članarine i kako te se
+      tumači u drugim propisima.</p>
+      <p>Za tvoj slučaj dolaze u obzir:</p>
+      <ul>
+        <li><strong>62.10</strong> — Računalno programiranje</li>
+        <li><strong>59.20</strong> — Djelatnosti snimanja zvučnih zapisa i izdavanja glazbenih zapisa</li>
+        <li><strong>59.11</strong> — Proizvodnja filmova, videofilmova i televizijskog programa</li>
+        <li><strong>85.52</strong> — Obrazovanje i poučavanje u području kulture</li>
+        <li><strong>85.59</strong> — Ostalo obrazovanje i poučavanje</li>
+      </ul>
+      <p>Šifre za umjetničko stvaralaštvo i izvedbene umjetnosti su u sekciji S — nađi ih u
+      <a href="https://web.dzs.hr/App/NKD_Browser/" target="_blank" rel="noopener">NKD pretraživaču</a>.</p>
+      <div class="paznja"><strong>Fotografske djelatnosti (74.20) su vezani obrt</strong> i traže zvanje
+      fotografa s majstorskim ispitom ili fotografskog dizajnera. Ne upisuj ih.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Otvori račun na Paddleu i prođi odobrenje</div>
+        <div class="korak-jedno">Odobrenje traje, pa kreni rano — prije nego što ti zatreba.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Paddle je <span class="pojam" data-def="Merchant of record — tvrtka koja pravno postaje prodavatelj tvog proizvoda. Kupac kupuje od njih, oni naplaćuju i uplaćuju PDV u cijelom svijetu, a tebi jednom mjesečno isplate zbroj.">merchant of record</span>:
+      preuzima PDV u cijelom svijetu, izdaje račune kupcima i tebi šalje jednu isplatu mjesečno.
+      Umjesto tisuću računa imaš dvanaest, i nikad ne trebaš fiskalizaciju.</p>
+      <p>Provode provjeru prodavatelja prije nego te puste u rad — aplikacija za učenje jezika je
+      bezproblemska, ali traje. Prijavi se dok još slažeš ostalo.</p>
+      <p><strong>Što te to košta:</strong> naknada oko 5 % + 0,50 $ po transakciji, i Paddle
+      hrvatskom i EU kupcu naplaćuje PDV koji ti kao mali porezni obveznik ne bi naplatio —
+      godišnja licenca od 60 € hrvatskom kupcu kroz njih košta 75 €. Za dijasporu izvan EU to
+      gotovo ne boli, a ona ti je i tržište.</p>
+      <div class="paznja">Provjeri u njihovim obračunima <strong>kako dokumentiraju naknadu</strong>.
+      Ako je čista preprodaja, kupuju po nižoj cijeni i nema usluge pružene tebi. Ako ti naknadu
+      zaračunavaju kao uslugu, to je primljena usluga iz inozemstva i na nju ide 25 % PDV-a.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 2 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Listopad 2026.</div>
+  <div class="faza-ime">Otvaranje</div>
+  <p class="faza-sazetak">Redoslijed je bitan. Doprinosi teku od dana upisa, pa ne otvaraj dok naplata nije spremna za test.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Prijavi obrt preko eObrta</div>
+        <div class="korak-jedno">Besplatno, rješenje u roku od 15 dana.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Na <a href="https://start.gov.hr" target="_blank" rel="noopener">start.gov.hr</a> upisuješ
+      naziv obrta, datum početka poslovanja, sjedište, svoje podatke i djelatnosti po NKD 2025.
+      Prilažeš vlasnički list ili suglasnost vlasnika prostora ako sjedište nije tvoje.</p>
+      <p>Naziv mora sadržavati tvoje ime i prezime te naznaku djelatnosti. Sjedište može biti tvoj stan.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Otvori poslovni račun u banci</div>
+        <div class="korak-jedno">Odvojen od privatnog. Vodi se mjesečna naknada.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Poslovni računi koštaju osjetno više od privatnih — usporedi nekoliko banaka prije nego
+      otvoriš, jer je to trajni mjesečni trošak.</p>
+      <p><strong>Ono što ljudi ne znaju:</strong> ti nisi zaposlenik svog obrta. Nema plaće, nema
+      obračuna. Novac s poslovnog na privatni račun prebacuješ slobodno, kad hoćeš i koliko hoćeš.
+      To nije dohodak, ne upisuje se nigdje i ne oporezuje se ponovno — paušalni porez si već platio.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Predaj RPO obrazac i izaberi paušal <span class="oznaka o-rok">lako se propusti</span></div>
+        <div class="korak-jedno">Bez ovog koraka si automatski u redovnom sustavu s knjigama.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p><span class="pojam" data-def="Obrazac kojim se upisuješ u Registar poreznih obveznika. Predaje se preko ePorezne. Njime biraš način na koji će ti se utvrđivati dohodak.">RPO obrazac</span>
+      predaješ preko <a href="https://e-porezna.porezna-uprava.hr" target="_blank" rel="noopener">ePorezne</a>.</p>
+      <p>Ovo je najlakši korak za promašiti i najskuplji za popraviti. Ako ga propustiš, po
+      automatizmu vodiš poslovne knjige i plaćaš porez na stvarnu razliku prihoda i rashoda.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Zatraži PDV identifikacijski broj <span class="oznaka o-rok">15 dana prije</span></div>
+        <div class="korak-jedno">Trebaš ga čim počneš plaćati strani softver iz obrta.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p><span class="pojam" data-def="Broj u obliku HR + tvoj OIB. Dobivaš ga na zahtjev, a ne čini te obveznikom PDV-a za domaće isporuke — služi samo za poslovanje s inozemstvom.">PDV ID broj</span>
+      moraš zatražiti <strong>15 dana prije</strong> prve od ovih situacija:</p>
+      <ul>
+        <li>primaš uslugu od inozemnog poreznog obveznika — <strong>bez ikakvog praga</strong>,
+        od prve takve usluge (Supabase, GitHub, domena, Paddle);</li>
+        <li>pružaš uslugu poreznom obvezniku u inozemstvu (npr. izdaješ račun Paddleu).</li>
+      </ul>
+      <p>Na primljene strane usluge obračunavaš <strong>25 % hrvatskog PDV-a i uplaćuješ ga</strong>,
+      bez prava na odbitak. Praktično: strani softver te košta 25 % više nego što piše na računu.</p>
+      <div class="paznja">Ovo je jedina obveza koja se ponavlja mjesečno i najlakše se zaboravi.
+      Ne ostaje ti izbor — čim obrt plati Supabase, obveza postoji.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Napiši interni akt o numeraciji računa</div>
+        <div class="korak-jedno">Pola stranice. Mora postojati prije prvog izdanog računa.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Broj računa ima tri dijela: <strong>redni broj – oznaka poslovnog prostora – oznaka
+      naplatnog uređaja</strong>, npr. <code>1-POSL1-1</code>. Interni akt je dokument kojim sam
+      sebi propisuješ te oznake.</p>
+      <p>Redni broj kreće od 1 svake kalendarske godine i teče <strong>neprekinuto</strong>. Ako
+      pogriješiš, ne brišeš račun nego izdaješ storno — rupa u nizu je problem.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Postavi Knjigu prometa</div>
+        <div class="korak-jedno">Jedina obvezna poslovna knjiga. Tablica s pet stupaca.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>U <span class="pojam" data-def="Obrazac KPR. Jedina poslovna knjiga koju paušalist vodi. U nju se upisuju primici, razvrstani na naplaćeno u gotovini i naplaćeno bezgotovinski.">Knjigu prometa</span>
+      upisuješ <strong>primitke</strong> — novac koji ti je stvarno ušao. Upis ide na kraju radnog
+      dana, najkasnije prije početka idućeg.</p>
+      <table>
+        <tr><th>Rb.</th><th>Datum</th><th>Broj računa</th><th>Gotovina</th><th>Bezgotovinski</th></tr>
+        <tr><td>1</td><td>15.11.2026.</td><td>1-POSL1-1</td><td class="n">—</td><td class="n">412,50</td></tr>
+      </table>
+      <p><strong>Tri stvari koje se griješe:</strong> ovo nije knjiga izdanih računa nego naplaćenog
+      novca — račun iz prosinca naplaćen u siječnju ide u siječanj. Podizanje novca za sebe nije
+      primitak. I upisuje se bruto iznos, ne ono što ti sjedne nakon naknada.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 3 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Studeni – prosinac 2026.</div>
+  <div class="faza-ime">Prve prodaje</div>
+  <p class="faza-sazetak">Naplata proradi, izdaješ prve račune, i završavaš besplatnu akciju kako treba.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Poveži naplatu i testiraj do kraja</div>
+        <div class="korak-jedno">Webhook, pristup, povrat, otkazivanje — sve prođi u testnom modu.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Logika koju već imaš za Stripe — webhook koji postavlja status pretplate u Supabaseu — ista
+      je i za Paddle. Mijenja se izvor događaja i nazivi polja, ne struktura.</p>
+      <p>Prođi cijeli put: kupnja, otključavanje razine 2, otkazivanje, istek, povrat. I posebno
+      slučaj kad webhook zakasni — korisnik se vraća na stranicu prije nego pristup stigne.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Izdaj prvi račun Paddleu</div>
+        <div class="korak-jedno">Najlakši račun koji ćeš izdati. Naučiš ga jednom.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Paddle je britanska tvrtka, dakle <strong>treća zemlja</strong>. To znači: običan PDF,
+      <strong>nema fiskalizacije, nema eRačuna</strong>.</p>
+      <p>Na račun ide napomena o <span class="pojam" data-def="Mehanizam kojim porezna obveza prelazi s prodavatelja na kupca. Ti ne obračunavaš PDV, nego ga kupac obračunava u svojoj državi.">prijenosu porezne obveze</span>
+      (reverse charge). Iznos upisuješ u PDV obrazac, polje I.5 — obavljene usluge osobama bez
+      sjedišta u EU. <strong>ZP obrazac ne treba.</strong></p>
+      <p>Isti taj obrazac koristiš i kad ti se javi američki poslodavac koji uzima 400 licenci.
+      Za kupca iz EU treba još provjera u <span class="pojam" data-def="Baza Europske komisije u kojoj provjeravaš je li PDV broj tvog kupca valjan. Provjeru je pametno spremiti kao dokaz.">VIES bazi</span>
+      i dodatno ZP obrazac.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Predaj prvi PDV obrazac <span class="oznaka o-rok">do zadnjeg dana mjeseca</span></div>
+        <div class="korak-jedno">Za prethodni mjesec, preko ePorezne. Ponavlja se svaki mjesec.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>U njemu iskazuješ dvoje: <strong>usluge koje si pružio</strong> inozemnim poreznim
+      obveznicima (Paddle), i <strong>usluge koje si primio</strong> iz inozemstva, na koje
+      obračunavaš i plaćaš 25 % PDV-a.</p>
+      <p>Prvi put traje sat vremena. Poslije je desetak minuta mjesečno.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Završi besplatnu akciju događajem</div>
+        <div class="korak-jedno">Zid koji se vraća je tvoj najbolji trenutak za konverziju i događa se jednom.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Prije nego akcija istekne trebaš imati popis mailova i pripremljenu ponudu. Ljudi koji su
+      mjesecima koristili sve besplatno su najtopliji kupci koje ćeš ikad imati — ali samo u tom
+      tjednu.</p>
+      <p>Ako naplata do tada nije spremna, <strong>produži akciju</strong>. Nemoj je potrošiti u prazno.</p>
+      <div class="paznja">Uvodnu cijenu daj kao <em>imenovanu, ograničenu i s rokom</em> — „redovno
+      60 €, uvodno 39 € do 31. prosinca". Nikad ne spuštaj sam cjenik: cijena koju objaviš postaje
+      orijentir koji poslije ne možeš podići.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Plati paušalni porez za IV. kvartal <span class="oznaka o-rok">31. prosinca</span></div>
+        <div class="korak-jedno">Prema rješenju koje ti stigne nakon upisa.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Porez se plaća tromjesečno: <strong>31. ožujka, 30. lipnja, 30. rujna i 31. prosinca</strong>.
+      Iznos ovisi o razredu.</p>
+      <table>
+        <tr><th>Razred</th><th>Godišnji primici</th><th>Tromjesečno</th></tr>
+        <tr><td>1</td><td>do 11.300 €</td><td class="n">50,85 €</td></tr>
+        <tr><td>2</td><td>do 15.300 €</td><td class="n">68,85 €</td></tr>
+        <tr><td>3</td><td>do 19.900 €</td><td class="n">89,55 €</td></tr>
+        <tr><td>4</td><td>do 30.600 €</td><td class="n">137,70 €</td></tr>
+        <tr><td>5</td><td>do 40.000 €</td><td class="n">180,00 €</td></tr>
+        <tr><td>6</td><td>do 50.000 €</td><td class="n">225,00 €</td></tr>
+        <tr><td>7</td><td>do 60.000 €</td><td class="n">270,00 €</td></tr>
+      </table>
+      <p>Ako obrt počne tijekom godine, iznos za prvu godinu je razmjeran broju mjeseci — vidjet ćeš
+      to u rješenju.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 4 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Siječanj 2027.</div>
+  <div class="faza-ime">Prvi godišnji krug</div>
+  <p class="faza-sazetak">Jedan obrazac, jedan broj. I rješenje koje iz njega slijedi.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Predaj PO-SD <span class="oznaka o-rok">do 15. siječnja</span></div>
+        <div class="korak-jedno">Zbroj primitaka iz Knjige prometa. To je sve.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p><span class="pojam" data-def="Godišnje izvješće o ostvarenim primicima kod paušalnog oporezivanja. Predaje se preko ePorezne do 15. siječnja za prethodnu godinu.">PO-SD</span>
+      predaješ preko ePorezne. Upisuješ zbroj primitaka — nema rashoda, nema amortizacije, nema bilance.</p>
+      <p>Na temelju njega Porezna uprava utvrđuje u koji si razred <strong>stvarno</strong> pao i
+      izdaje novo rješenje za tekuću godinu.</p>
+      <div class="paznja">Ako si prešao u viši razred, <strong>doplaćuješ razliku za prošlu godinu</strong>.
+      Zato kroz godinu prati u kojem si razredu i ostavljaj razliku sa strane.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Čekaj rješenje o doprinosima, pa plati <span class="oznaka o-novac">15 dana od rješenja</span></div>
+        <div class="korak-jedno">Jednom godišnje, 17,5 % na paušalnu osnovicu tvog razreda.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Budući da si osiguran po radnom odnosu, obrt ti je <strong>druga djelatnost</strong>.
+      Doprinosi se ne plaćaju mjesečno nego jednom godišnje, po rješenju koje stiže nakon PO-SD-a.</p>
+      <p>Stope: mirovinsko I. stup 7,5 %, mirovinsko II. stup 2,5 %, zdravstveno 7,5 % —
+      ukupno <strong>17,5 %</strong>, i to ne na neku mjesečnu osnovicu nego na paušalnu osnovicu razreda.</p>
+      <table>
+        <tr><th>Razred</th><th>Osnovica</th><th>Doprinosi</th><th>+ porez</th><th>Ukupno godišnje</th></tr>
+        <tr><td>1</td><td class="n">1.695 €</td><td class="n">296,63</td><td class="n">203,40</td><td class="n">≈ 500 €</td></tr>
+        <tr><td>2</td><td class="n">2.295 €</td><td class="n">401,63</td><td class="n">275,40</td><td class="n">≈ 677 €</td></tr>
+        <tr><td>3</td><td class="n">2.985 €</td><td class="n">522,38</td><td class="n">358,20</td><td class="n">≈ 881 €</td></tr>
+        <tr><td>4</td><td class="n">4.590 €</td><td class="n">803,25</td><td class="n">550,80</td><td class="n">1.354 €</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 5 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Veljača – svibanj 2027.</div>
+  <div class="faza-ime">Ritam</div>
+  <p class="faza-sazetak">Od sada je sve ponavljanje. Ovo je cijeli posao koji ti ostaje.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Uspostavi mjesečnu rutinu</div>
+        <div class="korak-jedno">Oko pola sata mjesečno, uvijek isto.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <ul>
+        <li>Uskladiš Paddleovu isplatu i izdaš im račun</li>
+        <li>Upišeš jedan redak u Knjigu prometa</li>
+        <li>Zbrojiš strane usluge koje si platio i obračunaš 25 % PDV-a</li>
+        <li>Predaš PDV obrazac do zadnjeg dana mjeseca i platiš</li>
+      </ul>
+      <p>Stavi to u kalendar kao ponavljajući zadatak za isti dan u mjesecu. Ovo je jedina stvar
+      koja se lako zaboravi jer nema nikoga da te podsjeti.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Prati prag od 60.000 €</div>
+        <div class="korak-jedno">Prelazak znači kraj paušala i ulazak u PDV.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Nitko te neće upozoriti — praćenje je tvoja obveza. Ako kroz godinu vidiš da ideš prema tom
+      broju, javi se računovođi <strong>prije</strong> nego ga prijeđeš.</p>
+      <p>Postoji i drugi prag: <strong>10.000 €</strong> godišnje za digitalne usluge fizičkim
+      osobama u EU izvan Hrvatske. Ako ideš preko Paddlea, to nije tvoj problem nego njihov.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Prvi izravni računi institucijama</div>
+        <div class="korak-jedno">Instruktori, škole, poslodavci — ne idu kroz checkout.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Podjela nije po veličini narudžbe nego po tome <strong>može li kupac platiti karticom</strong>.
+      Tko može, ide kroz stranicu. Tko treba račun na svoje ime s rokom plaćanja, ide izravno.</p>
+      <ul>
+        <li><strong>Hrvatska tvrtka ili škola</strong> — račun s tvojim OIB-om, uplata na račun.
+        Nije krajnja potrošnja pa <strong>nema fiskalizacije</strong>. Od 1. 1. 2027. mora biti
+        <span class="pojam" data-def="Strukturirani elektronički račun koji se šalje kroz posrednika, a ne kao PDF. Država nudi besplatnu aplikaciju MIKROeRAČUN za obveznike izvan sustava PDV-a.">eRačun</span>.</li>
+        <li><strong>Tvrtka izvan EU</strong> — običan PDF, prijenos porezne obveze, PDV obrazac polje I.5.</li>
+        <li><strong>Tvrtka u EU</strong> — isto plus VIES provjera i ZP obrazac.</li>
+      </ul>
+      <div class="paznja">Ako ti se hrvatska <em>privatna</em> osoba javi i traži račun, uputi je na
+      stranicu. Čim izdaš makar jedan račun hrvatskom građaninu, moraš imati fiskalizaciju — neovisno
+      o tome što je to jedini takav račun u godini.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 6 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Lipanj 2027.</div>
+  <div class="faza-ime">Otvara se drugo tržište</div>
+  <p class="faza-sazetak">Izmjene Zakona o strancima uvode obvezu znanja hrvatskog za produljenje dozvola. To ti stvara kupca kakvog dosad nisi imao.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Provjeri stvarni rok primjene obveze A1.1</div>
+        <div class="korak-jedno">Izvori se razilaze oko datuma. Podzakonski akt MUP-a definira detalje.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Strani radnici iz trećih zemalja moraju položiti ispit iz hrvatskog na razini <strong>A1.1</strong>
+      kao uvjet za produljenje dozvole za boravak i rad, nakon prve godine boravka. U prvih pet
+      mjeseci 2026. izdano je 80.780 dozvola, od toga <strong>32.755 produljenja</strong> — a
+      produljenje je ono što obveza pogađa.</p>
+      <p><strong>Tržište je upola manje nego što ta brojka sugerira.</strong> BiH (14.799), Srbija
+      (12.911), Sjeverna Makedonija (6.849) i Kosovo (2.723) čine blizu polovice, a ti ljudi jezik
+      već govore i položit će bez tečaja. Stvarna publika su Filipini (12.622), Nepal (11.441),
+      Indija (4.969) i Uzbekistan (3.515) — oko 34.000 dozvola u pet mjeseci.</p>
+      <p>Referentna cijena na tržištu je <strong>350–900 € po radniku</strong> za tečaj plus 60–110 €
+      za ispit. Tvoja godišnja licenca je desetina toga.</p>
+      <div class="paznja">Ne možeš to prodavati kao rješenje za ispit dok gradivo nije poravnato s
+      A1.1 po ZEROJ-u i dok nemaš partnera akreditiranog za provedbu ispita. Ali priprema ništa ne
+      košta — usporedba gradiva i razgovor s Croaticumom ili sveučilišnim centrom mogu ići odmah.</div>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Pripremi ponudu za poslodavce</div>
+        <div class="korak-jedno">To su hrvatske tvrtke — izravni račun, ne checkout.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Poslodavac s tristo radnika ne traži popust nego sigurnost — njegova alternativa nije
+      „neću kupiti" nego „izgubit ću radnike kojima ne mogu produljiti dozvolu". To je najmanje
+      cjenovno osjetljiv kupac koji postoji.</p>
+      <p>Ono što mu treba nije niža cijena nego: račun s OIB-om i rokom plaćanja, način da podijeli
+      pristup radnicima, izvještaj o napretku koji može pokazati, i ugovor o obradi podataka.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 7 ═══════════ -->
+<div class="faza">
+  <div class="faza-kad">Kolovoz 2027.</div>
+  <div class="faza-ime">Godina dana</div>
+  <p class="faza-sazetak">Prva usporedba sa stvarnošću.</p>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Preispitaj cjenik na temelju brojki</div>
+        <div class="korak-jedno">Sad prvi put imaš podatke umjesto pretpostavki.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Tri broja koja odlučuju sve ostalo: koliki je udio godišnjih naspram mjesečnih pretplata,
+      koliko traje prosječni pretplatnik, i koliki je udio prihoda došao kroz instruktore i institucije.</p>
+      <p>Tek s tim brojevima ima smisla dirati krivulju popusta ili osnovne cijene.</p>
+    </div>
+  </div>
+
+  <div class="korak">
+    <div class="korak-glava">
+      <div class="kv" role="checkbox" aria-checked="false" tabindex="0"></div>
+      <div class="korak-tekst">
+        <div class="korak-ime">Odluči hoćeš li graditi za institucije <span class="oznaka o-odluka">odluka</span></div>
+        <div class="korak-jedno">Podračuni, pregled za voditelja, izvještaj o napretku.</div>
+      </div>
+      <div class="strelica">▶</div>
+    </div>
+    <div class="korak-tijelo">
+      <p>Poslodavac ili škola ne kupuju licencu nego <strong>rješenje problema koje mogu pokazati</strong>.
+      Trebaju im: način da podijele pristup radnicima ili učenicima, pregled tko je aktivirao i
+      dokle je stigao, i izvještaj kojim opravdavaju trošak.</p>
+      <p>Ništa od toga aplikacija danas nema — jedan račun je jedna osoba. To je najveći komad
+      posla koji te dijeli od tog tržišta, veći od bilo koje odluke o cijeni.</p>
+      <p>Odluku donosiš s brojkama iz prve godine: koliko se institucija uopće javilo i koliko su
+      bili spremni platiti prije nego što si im to mogao isporučiti.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p><strong>Što ovaj plan ne pokriva.</strong> Četiri pitanja nemaju javno jednoznačan odgovor:
+  treba li fiskalizirati kartičnu prodaju stranoj fizičkoj osobi; odnosi li se poseban postupak za
+  male porezne obveznike i na digitalne usluge; je li primitak bruto ili neto od naknade procesora;
+  i može li autorski honorar kroz paušalni obrt. Za njih traži pisano mišljenje Porezne uprave
+  i sačuvaj odgovor.</p>
+  <p>Nisam porezni savjetnik. Iznosi vrijede za 2026. i mijenjaju se svakog siječnja.
+  Kvačice se ne pamte nakon zatvaranja stranice.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  // pojmovi
+  document.querySelectorAll('.pojam').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.stopPropagation();
+      var next = el.parentNode.querySelector(':scope > .def[data-for="'+ (el.dataset.def||'') +'"]');
+      if (el._def && el._def.parentNode){
+        el._def.classList.toggle('vidljiv');
+        return;
+      }
+      var d = document.createElement('div');
+      d.className = 'def vidljiv';
+      d.textContent = el.dataset.def || '';
+      var host = el.closest('p, li, div');
+      if (host && host.parentNode) host.parentNode.insertBefore(d, host.nextSibling);
+      el._def = d;
+    });
+  });
+
+  // otvaranje koraka
+  document.querySelectorAll('.korak-glava').forEach(function(g){
+    g.addEventListener('click', function(){ g.closest('.korak').classList.toggle('otvoren'); });
+  });
+
+  // kvačice
+  var svi = Array.prototype.slice.call(document.querySelectorAll('.kv'));
+  function osvjezi(){
+    var n = svi.filter(function(k){ return k.getAttribute('aria-checked') === 'true'; }).length;
+    document.getElementById('brojac').textContent = n + ' / ' + svi.length;
+    document.getElementById('traka').style.width = (svi.length ? (n/svi.length*100) : 0) + '%';
+    document.querySelectorAll('.faza').forEach(function(f){
+      var k = f.querySelectorAll('.kv');
+      var done = Array.prototype.every.call(k, function(x){ return x.getAttribute('aria-checked')==='true'; });
+      f.classList.toggle('gotova', done && k.length>0);
+    });
+  }
+  svi.forEach(function(k){
+    function toggle(e){
+      e.stopPropagation();
+      var on = k.getAttribute('aria-checked') === 'true';
+      k.setAttribute('aria-checked', String(!on));
+      k.closest('.korak').classList.toggle('gotov', !on);
+      osvjezi();
+    }
+    k.addEventListener('click', toggle);
+    k.addEventListener('keydown', function(e){ if(e.key===' '||e.key==='Enter'){ e.preventDefault(); toggle(e); } });
+  });
+  osvjezi();
+})();
+</script>
+</body>
+</html>
