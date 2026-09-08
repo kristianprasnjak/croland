@@ -2188,15 +2188,33 @@
   }
   // Cijela cjelina odjednom — koristi se za lekciju 0, koja nema kartice
   // pa se njezinih 30 riječi ne bi imalo gdje ručno dodati.
-  function dodajCjelinuURjecnik(tip, razina) {
+  // Panel igrice i lebdeci rjecnik crtaju se iz PROGRESS.rjecnik. Ako su otvoreni
+  // dok se rijec dodaje, moraju to odmah pokazati — inace igrica jos uvijek pise
+  // "No words yet" nad rijecju koja je upravo dodana.
+  function osvjeziOtvorenePanele() {
+    try {
+      var pi = $('panelIgra');
+      if (pi && pi.classList.contains('otvoren')) crtajIgru(true);
+      var pr = $('panelRj');
+      if (pr && pr.classList.contains('otvoren')) crtajPopisRj();
+    } catch (e) {}
+  }
+  function dodajPopisURjecnik(popis) {
     var n = 0;
-    natukniceCjeline(tip, razina).forEach(function (r) {
+    popis.forEach(function (r) {
       var k = kljucRijeci(r.hr);
       var novo = !(PROGRESS.rjecnik && PROGRESS.rjecnik[k]);
       dodajURjecnik(r.hr, r.en, r.izvor);
       if (novo) n++;
     });
+    if (n) osvjeziOtvorenePanele();
     return n;
+  }
+  function dodajCjelinuURjecnik(tip, razina) {
+    return dodajPopisURjecnik(natukniceCjeline(tip, razina));
+  }
+  function dodajIgruURjecnik(g) {
+    return dodajPopisURjecnik(natukniceIgre(g));
   }
   // Stariji spremljeni rječnici: ključ je mogao sadržavati "(m.)" pa su nastali dvostruki unosi.
   function migrirajRjecnik() {
@@ -2910,6 +2928,11 @@
     var prije = najbolji(igra);
     var streakBioDanas = (streakRazmak() === 0);
     zabiljezi(igra, osvojeno);
+    // Lekcija 0 nema kartice pa nema gumba "+ Add to dictionary". Bez ovoga bi
+    // lebdeca igrica u njoj bila prazna cijelo vrijeme, a upucivala na gumb kojeg
+    // ondje nema. Rijeci te vjezbe ulaze u rjecnik cim je vjezba gotova.
+    var noveRijeci = 0;
+    if (igra.tip === L0_TIP && igra.razina === L0_RAZINA) noveRijeci = dodajIgruURjecnik(igra);
     var streakNovi = (!streakBioDanas && streakRazmak() === 0);   // ova vježba je zaključala današnji dan
     osvjeziHeader();
     $('rezNaslov').textContent =
@@ -2917,6 +2940,11 @@
     // Lesson 0 je besplatni izlog: bez bodova, postotaka i rekorda
     var jeNulaK = (igra.tip === L0_TIP && igra.razina === L0_RAZINA);
     var html = jeNulaK ? sazetak : (sazetak + ' · Points: ' + osvojeno + '/' + igra.bodovi);
+    if (jeNulaK && noveRijeci > 0) {
+      html += '<div class="stanjeLekcije">' + IK('knjiga', 'uz') + '<strong>' + noveRijeci +
+        (noveRijeci === 1 ? '</strong> new word' : '</strong> new words') +
+        ' saved to your dictionary — the word game can use them now.</div>';
+    }
     if (!jeNulaK) {
       if (osvojeno > prije && prije > 0) html += ' · 🏆 New record!';
       else if (najbolji(igra) > osvojeno) html += ' (best: ' + najbolji(igra) + ')';
@@ -3127,7 +3155,7 @@
     return false;
   }
   function blobbySlucajna() {
-    return 'slike/Blobby' + (1 + Math.floor(Math.random() * 9)) + '.png';
+    return 'slike/Blobby' + (1 + Math.floor(Math.random() * 9)) + '.webp';
   }
 
   function takeTekst() {
@@ -3287,6 +3315,7 @@
         e.stopPropagation();
         if (gotovo || !natuknica || uRjecniku(st[0])) return;
         dodajURjecnik(st[0], st[1] || '', igra.cjelina || '');
+        osvjeziOtvorenePanele();
         btnStanje(); osvjezi();
       };
       if (natuknica) k.appendChild(btn);
@@ -6147,7 +6176,7 @@
         '<div style="color:var(--zelena);margin-top:12px">' + IK('knjiga', 'uz') + 
           (novihRijeci > 0
             ? 'All ' + ukupnoL0 + ' words from this lesson are now in your <strong>Dictionary</strong>.'
-            : 'Your first ' + ukupnoL0 + ' words are waiting in your <strong>Dictionary</strong>.') +
+            : 'All ' + ukupnoL0 + ' words from this lesson are already in your <strong>Dictionary</strong>.') +
         '</div>' +
         (sve
           ? '<div style="color:var(--zelena);margin-top:12px">All 30 letters unlocked. <strong>Hvala!</strong></div>'
@@ -6341,20 +6370,28 @@
     return jeNatuknica(s);
   }
   // Sve natuknice jedne cjeline (lekcije) — bez obzira je li ih korisnik dodao.
+  // Natuknice jedne vjezbe. natukniceCjeline gradi se iz ovoga da filtar
+  // (koji je format rjecnicki, koja je stavka natuknica) postoji na jednom mjestu.
+  function natukniceIgre(g, vidjeno) {
+    var red = [];
+    if (!g || !FORMATI_RIJECI[g.format]) return red;
+    vidjeno = vidjeno || {};
+    g.stavke.forEach(function (st) {
+      var hr = String(st[0] || '').trim(), en = String(st[1] || '').trim();
+      if (!jeRjecnickaStavka(hr, en)) return;
+      natuknice(hr, en).forEach(function (p) {
+        var k = kljucRijeci(p.hr);
+        if (!k || vidjeno[k]) return;
+        vidjeno[k] = 1;
+        red.push({ hr: p.hr, en: p.en, rod: p.rod || '', broj: p.broj || '', izvor: g.cjelina || '' });
+      });
+    });
+    return red;
+  }
   function natukniceCjeline(tip, razina) {
     var vidjeno = {}, red = [];
     igreCjeline(tip, razina).forEach(function (g) {
-      if (!FORMATI_RIJECI[g.format]) return;
-      g.stavke.forEach(function (st) {
-        var hr = String(st[0] || '').trim(), en = String(st[1] || '').trim();
-        if (!jeRjecnickaStavka(hr, en)) return;
-        natuknice(hr, en).forEach(function (p) {
-          var k = kljucRijeci(p.hr);
-          if (!k || vidjeno[k]) return;
-          vidjeno[k] = 1;
-          red.push({ hr: p.hr, en: p.en, rod: p.rod || '', broj: p.broj || '', izvor: g.cjelina || '' });
-        });
-      });
+      red = red.concat(natukniceIgre(g, vidjeno));
     });
     return poredajNatuknice(red);
   }
