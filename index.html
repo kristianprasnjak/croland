@@ -460,29 +460,78 @@
   .gramNapomena { font-size: var(--t-s); opacity: .8; margin-top: 0.375rem; font-style: italic; }
 
   /* Prekidači na stranici Dictionary — smjer i opseg */
-  .dictPrekidac { display: flex; gap: 0.375rem; margin-bottom: 0.5rem; max-width: 32.5rem; }
-  .dictPrekidac div { flex: 1; text-align: center; padding: 0.5rem 0.375rem; border-radius: var(--rad-s); cursor: pointer;
-    border: 1px solid var(--rub); background: var(--card); font-size: var(--t-s); user-select: none; }
-  .dictPrekidac div:hover { border-color: var(--plava); }
-  .dictPrekidac div.aktivan { background: var(--plava); color: #fff; border-color: var(--plava); }
-  .dictBrojac { color: var(--muted); font-size: var(--t-s); margin: 0 0 0.625rem; }
+  /* ---- segmentirani prekidac: tiha podloga, klizac klizne ispod aktivnog ----
+     Pun brend-ton na aktivnoj polovici pretvarao je postavku u gumb; ovdje boju
+     nosi samo tekst, a poziciju bijeli klizac. Klizac se mjeri iz JS-a
+     (segmentKlizac) jer sirine ovise o pismu koje korisnik izabere. */
+  .segment {
+    position: relative; display: inline-flex; flex-wrap: wrap; max-width: 100%;
+    padding: 0.1875rem; background: var(--tiho); border: 1px solid var(--rub); border-radius: 999px;
+  }
+  .segment .klizac {
+    position: absolute; left: 0; top: 0; width: 0; height: 0; border-radius: 999px;
+    background: var(--card); pointer-events: none;
+    box-shadow: 0 1px 2px rgba(25,23,19,.10), 0 2px 8px rgba(25,23,19,.06);
+    transition: transform .3s cubic-bezier(.32,.72,0,1), width .3s cubic-bezier(.32,.72,0,1);
+  }
+  .segment button {
+    position: relative; z-index: 1; border: 0; background: none; cursor: pointer; min-width: 0;
+    padding: 0.4rem 0.875rem; border-radius: 999px; white-space: nowrap;
+    font-family: inherit; font-size: var(--t-s); color: var(--muted); transition: color .2s;
+  }
+  .segment button:hover { color: var(--ink); }
+  .segment button.aktivan { color: var(--ink); font-weight: 600; }
+  .segment button:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .segment .klizac { transition: none; } }
 
-  /* Dictionary → Word test (nebodovana vježba upisa) */
-  .wtPokreni { display: block; width: 100%; max-width: 32.5rem; margin: 0 0 0.875rem; padding: 0.75rem 0.875rem;
-    border-radius: var(--rad-m); border: 1px solid var(--plava); background: var(--plava); color: #fff;
-    font-family: inherit; font-size: var(--t-m); font-weight: 600; cursor: pointer; }
-  .wtPokreni:hover { filter: brightness(1.08); }
+  /* ---- Dictionary: naslov i opseg u istom retku, alat ispod ---- */
+  .dictZag { display: flex; align-items: flex-end; justify-content: space-between; gap: 0.875rem;
+    flex-wrap: wrap; margin-bottom: 1rem; }
+  .dictZag h1.sekcija { margin: 0; }
+  .dictBrojac { color: var(--muted); font-size: var(--t-s); margin: 0.25rem 0 0; }
+  .dictAlat { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.875rem; }
+  .dictAlat[hidden] { display: none; }
+  .dictAlat .rjecnikTraka { flex: 1 1 12rem; min-width: 0; margin: 0; }
+  .smjerG, .testG {
+    display: inline-flex; align-items: center; gap: 0.4rem; flex: none;
+    padding: 0.5rem 0.875rem; border-radius: 999px; cursor: pointer;
+    font-family: inherit; font-size: var(--t-s); font-weight: 600;
+    border: 1px solid var(--rub); background: var(--card); color: var(--ink);
+    transition: border-color .15s, background .15s, color .15s;
+  }
+  .smjerG:hover { border-color: var(--plava); }
+  .smjerG .zam { color: var(--muted); transition: transform .3s cubic-bezier(.32,.72,0,1); }
+  .smjerG.okrenut .zam { transform: rotate(180deg); }
+  .testG { background: none; border-color: var(--plava); color: var(--plava); }
+  .testG:hover { background: var(--plava); color: #fff; }
+  .smjerG:focus-visible, .testG:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .smjerG .zam { transition: none; } }
+  @media (max-width: 640px) {
+    .dictZag { align-items: stretch; gap: 0.75rem; }
+    .dictZag .segment { width: 100%; }
+    .dictZag .segment button { flex: 1; }
+    .dictAlat .rjecnikTraka { flex: 1 1 100%; }
+    .smjerG, .testG { flex: 1; justify-content: center; }
+  }
+  .dictPrazno {
+    border: 1px dashed var(--rub); border-radius: var(--rad-l); background: var(--card);
+    padding: 2.25rem 1.25rem; text-align: center; max-width: 32.5rem;
+  }
+  .dictPrazno h2 { font-family: var(--naslov); font-size: var(--t-xl); font-weight: 600; margin: 0 0 0.5rem; }
+  .dictPrazno p { color: var(--muted); font-size: var(--t-m); line-height: 1.6; margin: 0 auto 1.25rem; max-width: 30rem; }
+  .dictPrazno .radnje { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; }
+  .dictPrazno .gumb { margin: 0; }
   .wtOkvir { max-width: 32.5rem; }
-  .wtTraka { display: flex; justify-content: space-between; align-items: center; gap: 0.625rem; margin-bottom: 0.625rem; }
-  .wtSmjer { display: flex; gap: 0.375rem; }
-  .wtSmjer button, .wtFilterG { padding: 0.5rem 0.75rem; border-radius: var(--rad-s); border: 1px solid var(--rub);
-    background: var(--card); cursor: pointer; font-family: inherit; font-size: var(--t-m); color: var(--ink); }
-  .wtSmjer button:hover, .wtFilterG:hover { border-color: var(--plava); }
-  .wtSmjer button.aktivan { background: var(--plava); color: #fff; border-color: var(--plava); }
-  .wtFilterG.otvoren { background: var(--plava); color: #fff; border-color: var(--plava); }
+  .wtTraka { display: flex; justify-content: space-between; align-items: center; gap: 0.625rem;
+    margin-bottom: 0.75rem; flex-wrap: wrap; }
+  .wtFilterG { padding: 0.45rem 0.875rem; border-radius: 999px; border: 1px solid var(--rub);
+    background: var(--card); cursor: pointer; font-family: inherit; font-size: var(--t-s);
+    font-weight: 600; color: var(--ink); flex: none; }
+  .wtFilterG:hover { border-color: var(--plava); }
+  .wtFilterG.otvoren { border-color: var(--plava); color: var(--plava); }
   .wtFilterPanel { border: 1px solid var(--rub); background: var(--card); border-radius: var(--rad-m);
     padding: 0.75rem; margin-bottom: 0.75rem; }
-  .wtFilterPanel .dictPrekidac { margin-bottom: 0.25rem; max-width: none; }
+  .wtFilterPanel .segment { margin-bottom: 0.25rem; }
   .wtNapomena { color: var(--muted); font-size: var(--t-s); margin: 0.5rem 0 0; }
   .wtBrojevi { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.375rem; margin-top: 0.5rem; }
   .wtBrojevi button { padding: 0.5rem 0; border-radius: var(--rad-s); border: 1px solid var(--rub); background: var(--bg);
@@ -969,14 +1018,14 @@
     min-width: max(2.75rem, 44px);
     min-height: max(2.75rem, 44px);
   }
-  button.gumbSitni, .wtSmjer button, .wtFilterG, .wtBrojevi button {
+  button.gumbSitni, .wtFilterG, .wtBrojevi button, .segment button, .smjerG, .testG {
     min-height: max(2.75rem, 44px);
   }
   .traka .natrag, .testPauza, .igDalje {
     display: inline-flex; align-items: center; justify-content: center;
     min-height: max(2.75rem, 44px);
   }
-  .dictPrekidac div, #panelRj .prekidac div, #panelIgra .prekidac div {
+  #panelRj .prekidac div, #panelIgra .prekidac div {
     display: flex; align-items: center; justify-content: center;
     min-height: max(2.75rem, 44px);
   }
@@ -1085,6 +1134,7 @@
 
   /* ---- naslovnica: dva spila gore, sve ostalo tiho ispod ---- */
   .pocetna { display: grid; grid-template-columns: 1fr 18.75rem; gap: 1.25rem; align-items: start; margin-top: 0.25rem; }
+  .pocetna.bezTrake { grid-template-columns: 1fr; }
   .lijevo { display: grid; gap: 0.875rem; min-width: 0; container: glavni / inline-size; }
 
   /* --- spilovi: nastavi / kreni novo --- */
@@ -2475,7 +2525,8 @@
   var skrijValute = false;
   function osvjeziHeader() {
     var el = $('valuteHeader');
-    if (skrijValute) { el.textContent = ''; el.style.display = 'none'; return; }
+    // Odjavljenom posjetitelju "0 LP · 0 VP · 0 GP · 0 PP" nije podatak nego obeshrabrenje.
+    if (skrijValute || !imaRacun()) { el.textContent = ''; el.style.display = 'none'; return; }
     el.style.display = '';
     var v = valute();
     el.textContent = v.LP + ' LP · ' + v.VP + ' VP · ' + v.GP + ' GP · ' + v.PP + ' PP';
@@ -2500,6 +2551,7 @@
   }
   function plusBodovi(n) {
     var v = $('valuteHeader');
+    if (!v || v.style.display === 'none') return;   // nema odakle poletjeti
     var r = v.getBoundingClientRect();
     var d = document.createElement('div');
     d.textContent = '+' + n;
@@ -5075,7 +5127,8 @@
     var napredak = imaNapretka();
     var nastavak = zapocete(3);
     var nova = netaknute(3);
-    var html = '<div class="pocetna"><div class="lijevo">';
+    var prijavljen = imaRacun();
+    var html = '<div class="pocetna' + (prijavljen ? '' : ' bezTrake') + '"><div class="lijevo">';
 
     // Lesson 0 stoji na vrhu dok nije rijesena; kad su sva slova skupljena, nestaje s naslovnice.
     if (!zavrsenaL0()) html += plocicaNulaHtml();
@@ -5150,13 +5203,23 @@
         (rj ? rj + ' word' + (rj === 1 ? '' : 's') + ' learned' : 'words you meet get saved here') +
         '</div></div>' +
       '<div class="malaP" role="button" tabindex="0" data-cilj="view:account">' +
-        '<div class="imeM">User account</div>' +
-        '<div class="podM">memory card · import / export</div></div>' +
+        '<div class="imeM">' + (imaRacun() ? 'User account' : 'Log in') + '</div>' +
+        '<div class="podM">' + (imaRacun()
+          ? 'signed in · progress is saved'
+          : 'save your progress across devices') + '</div></div>' +
       '</div>';
 
     html += '</div>';
 
     // --- desna traka: cetiri valute, svaka s pragom sljedeceg otkljucavanja ---
+    // Odjavljenom se ne crta: cetiri prazne trake nisu stanje nego prijekor.
+    if (!prijavljen) {
+      html += '</div>';
+      VIEW.innerHTML = html;
+      KES_VAL = null;
+      vezisNaslovnicu();
+      return;
+    }
     var imena = { LP: 'Lesson points', VP: 'Vocabulary points', GP: 'Grammar points', PP: 'Practice points' };
     var razred = { LP: 'lp', VP: 'vp', GP: 'gp', PP: 'pp' };
     html += '<div class="stanjeVal"><div class="nasV">Your four currencies</div>';
@@ -6542,62 +6605,150 @@
   // ---- Dictionary ----
   // Natuknica se prikazuje u OSNOVNOM obliku; ostali oblici se otkrivaju klikom.
   var dictSmjer = 'hr-en', dictOpseg = 'moje';
+  // ---- segmentirani prekidac ----
+  // Klizac se ne da opisati u CSS-u jer sirine segmenata ovise o pismu koje je
+  // korisnik izabrao u Options; zato se mjeri iz DOM-a nakon crtanja.
+  function segmentHtml(id, atr, opcije, aktivna) {
+    var h = '<div class="segment" id="' + id + '" role="group"><span class="klizac"></span>';
+    opcije.forEach(function (o) {
+      var akt = (o.v === aktivna);
+      h += '<button type="button" ' + atr + '="' + o.v + '"' + (akt ? ' class="aktivan"' : '') +
+        ' aria-pressed="' + (akt ? 'true' : 'false') + '">' + esc(o.t) + '</button>';
+    });
+    return h + '</div>';
+  }
+  function segmentKlizac(el) {
+    if (!el) return;
+    var akt = el.querySelector('button.aktivan') || el.querySelector('button');
+    var kl = el.querySelector('.klizac');
+    if (!akt || !kl) return;
+    var re = el.getBoundingClientRect(), ra = akt.getBoundingClientRect();
+    if (!ra.width) return;
+    kl.style.width = ra.width + 'px';
+    kl.style.height = ra.height + 'px';
+    kl.style.transform = 'translate(' + (ra.left - re.left - el.clientLeft) + 'px,' +
+      (ra.top - re.top - el.clientTop) + 'px)';
+  }
+  function segmentOznaci(el, atr, vrijednost) {
+    if (!el) return;
+    [].forEach.call(el.querySelectorAll('button[' + atr + ']'), function (b) {
+      var akt = (b.getAttribute(atr) === vrijednost);
+      b.classList.toggle('aktivan', akt);
+      b.setAttribute('aria-pressed', akt ? 'true' : 'false');
+    });
+    segmentKlizac(el);
+  }
+  // Prvo crtanje: pricekaj kadar da se izmjeri stvarna sirina, pa jos jednom kad
+  // se pismo ucita — inace klizac ostane na sirini zamjenskog pisma.
+  function segmentiPostavi(korijen) {
+    var svi = function () {
+      [].forEach.call((korijen || document).querySelectorAll('.segment'), segmentKlizac);
+    };
+    requestAnimationFrame(function () { requestAnimationFrame(svi); });
+    if (document.fonts && document.fonts.ready && document.fonts.ready.then) {
+      document.fonts.ready.then(svi).catch(function () {});
+    }
+  }
+  var SEG_TAJMER = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(SEG_TAJMER);
+    SEG_TAJMER = setTimeout(function () {
+      [].forEach.call(document.querySelectorAll('.segment'), segmentKlizac);
+    }, 80);
+  });
+
   function renderDictionary() {
+    // Hijerarhija: naslov i opseg su ono sto gledas, alat je ono cime to prebires,
+    // a test rijeci je posljedica popisa — zato tih obrub, ne puni gumb na vrhu.
     VIEW.innerHTML =
-      '<h1 class="sekcija">Dictionary</h1>' +
-      '<button class="wtPokreni" onclick="wtPokreni()">📝 Test your words</button>' +
-      '<div class="dictPrekidac" id="dictSmjerP">' +
-      '<div data-smjer="hr-en">Croatian → English</div>' +
-      '<div data-smjer="en-hr">English → Croatian</div>' +
+      '<div class="dictZag">' +
+        '<div><h1 class="sekcija">Dictionary</h1>' +
+        '<p class="dictBrojac" id="dictBrojac"></p></div>' +
+        segmentHtml('dictOpsegP', 'data-opseg', [
+          { v: 'moje', t: 'My words' }, { v: 'sve', t: 'Full dictionary' }
+        ], dictOpseg) +
       '</div>' +
-      '<div class="dictPrekidac" id="dictOpsegP">' +
-      '<div data-opseg="moje">My words</div>' +
-      '<div data-opseg="sve">Full dictionary</div>' +
+      '<div class="dictAlat" id="dictAlat">' +
+        '<div class="rjecnikTraka"><input id="trazi" type="text" ' +
+          'placeholder="Search for a word or translation…"></div>' +
+        '<button type="button" class="smjerG" id="dictSmjerG">' +
+          '<span id="dictSmjerT"></span><span class="zam">⇄</span></button>' +
+        '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
       '</div>' +
-      '<p class="dictBrojac" id="dictBrojac"></p>' +
-      '<div class="rjecnikTraka"><input id="trazi" type="text" placeholder="Search for a word or translation..."></div>' +
       '<div id="popisRijeci"></div>';
 
     function lista() {
       if (dictSmjer === 'en-hr') return dictOpseg === 'sve' ? sveNatukniceEn() : mojeNatukniceEn();
       return dictOpseg === 'sve' ? sveNatukniceHr() : rjecnikRijeci();
     }
+    // Prazan popis ne treba ni trazilicu ni smjer ni test — treba put do prvih rijeci.
+    function praznoHtml() {
+      if (dictOpseg === 'sve') {
+        return '<div class="dictPrazno"><h2>The dictionary file is missing</h2>' +
+          '<p>rjecnik.js was not generated — run osvježi.bat and reload the page.</p></div>';
+      }
+      var imaSve = sveNatukniceHr().length > 0;
+      return '<div class="dictPrazno"><h2>No words saved yet</h2>' +
+        '<p>Every word you meet in a lesson can be kept here — tap ' +
+        '<b>+ Add to dictionary</b> underneath it. This list is what the word test drills.</p>' +
+        '<div class="radnje">' +
+        '<button type="button" class="gumb" style="max-width:14rem" data-dcilj="lessons">Open a lesson</button>' +
+        (imaSve ? '<button type="button" class="smjerG" data-dcilj="sve">Browse the full dictionary</button>' : '') +
+        '</div></div>';
+    }
     function crtaj(filter) {
       var l = lista();
-      $('dictBrojac').textContent = l.length + (dictOpseg === 'sve' ? ' entries' : ' words added');
+      var praznoStanje = (l.length === 0 && !filter);
+      $('dictBrojac').textContent = dictOpseg === 'sve'
+        ? (l.length ? l.length + ' entries in the full dictionary' : 'dictionary not loaded')
+        : (l.length ? l.length + (l.length === 1 ? ' word added' : ' words added') : 'nothing saved yet');
+      $('dictAlat').hidden = praznoStanje;
+      if (praznoStanje) { $('popisRijeci').innerHTML = praznoHtml(); return; }
       $('popisRijeci').innerHTML = htmlPopisRijeci(l, filter, {
         smjer: dictSmjer,
         // slika i izvor lekcije postoje samo za riječi koje je korisnik dodao
         slikaUDetalju: dictSmjer === 'hr-en' && dictOpseg === 'moje',
         izvor: dictOpseg === 'moje',
-        prazno: dictOpseg === 'sve'
-          ? 'The dictionary file is missing — run osvježi.bat to generate rjecnik.js.'
-          : 'Your dictionary is empty — open a lesson and tap “+ Add to dictionary” on the words you learn. 📚'
+        prazno: 'Nothing matches that search.'
       });
     }
-    function oznaci() {
-      [].forEach.call($('dictSmjerP').children, function (c) {
-        c.classList.toggle('aktivan', c.getAttribute('data-smjer') === dictSmjer);
-      });
-      [].forEach.call($('dictOpsegP').children, function (c) {
-        c.classList.toggle('aktivan', c.getAttribute('data-opseg') === dictOpseg);
-      });
+    function oznaciSmjer() {
+      var hrPrvi = (dictSmjer === 'hr-en');
+      $('dictSmjerT').textContent = hrPrvi ? 'HR → EN' : 'EN → HR';
+      $('dictSmjerG').title = hrPrvi
+        ? 'Croatian first — switch to English first'
+        : 'English first — switch to Croatian first';
+      $('dictSmjerG').classList.toggle('okrenut', !hrPrvi);
     }
-    $('dictSmjerP').onclick = function (e) {
-      var c = e.target.closest ? e.target.closest('[data-smjer]') : null;
-      if (!c || c.getAttribute('data-smjer') === dictSmjer) return;
-      dictSmjer = c.getAttribute('data-smjer');
-      oznaci(); crtaj($('trazi').value);
-    };
+    function postaviOpseg(novi) {
+      if (novi === dictOpseg) return;
+      dictOpseg = novi;
+      segmentOznaci($('dictOpsegP'), 'data-opseg', dictOpseg);
+      crtaj($('trazi').value);
+    }
+
     $('dictOpsegP').onclick = function (e) {
-      var c = e.target.closest ? e.target.closest('[data-opseg]') : null;
-      if (!c || c.getAttribute('data-opseg') === dictOpseg) return;
-      dictOpseg = c.getAttribute('data-opseg');
-      oznaci(); crtaj($('trazi').value);
+      var c = e.target.closest ? e.target.closest('button[data-opseg]') : null;
+      if (c) postaviOpseg(c.getAttribute('data-opseg'));
     };
+    $('dictSmjerG').onclick = function () {
+      dictSmjer = (dictSmjer === 'hr-en') ? 'en-hr' : 'hr-en';
+      oznaciSmjer(); crtaj($('trazi').value);
+    };
+    $('dictTestG').onclick = wtPokreni;
+    // Radnje iz praznog stanja žive u istom spremniku kao i popis riječi, pa idu
+    // prije njegova vlastitog rukovatelja klikom.
+    $('popisRijeci').addEventListener('click', function (e) {
+      var b = e.target.closest ? e.target.closest('[data-dcilj]') : null;
+      if (!b) return;
+      e.stopPropagation();
+      var c = b.getAttribute('data-dcilj');
+      if (c === 'sve') postaviOpseg('sve'); else idi(c);
+    });
     vezeKlikPopisa($('popisRijeci'));
     $('trazi').oninput = function () { crtaj(this.value); };
-    oznaci(); crtaj('');
+    oznaciSmjer(); crtaj('');
+    segmentiPostavi(VIEW);
   }
 
   // ================= TEST RIJEČI (Dictionary → Word test) =================
@@ -6695,12 +6846,10 @@
       '<h1 class="sekcija">Word test</h1>' +
       '<div class="wtOkvir">' +
       '<div class="wtTraka">' +
-      '<div class="wtSmjer" id="wtSmjerP">' +
-      '<button data-s="en-hr" title="English → Croatian">EN→HR</button>' +
-      '<button data-s="mix" title="Mixed — random direction each word">🔀 MIX</button>' +
-      '<button data-s="hr-en" title="Croatian → English">HR→EN</button>' +
-      '</div>' +
-      '<button class="wtFilterG" id="wtFilterG">⚙ Filter</button>' +
+      segmentHtml('wtSmjerP', 'data-s', [
+        { v: 'en-hr', t: 'EN → HR' }, { v: 'mix', t: 'Mixed' }, { v: 'hr-en', t: 'HR → EN' }
+      ], wtSmjer) +
+      '<button class="wtFilterG" id="wtFilterG">Filter</button>' +
       '</div>' +
       '<div id="wtFilterMj"></div>' +
       '<p class="wtStat" id="wtStat"></p>' +
@@ -6709,7 +6858,7 @@
       '</div>';
 
     $('wtSmjerP').onclick = function (e) {
-      var b = e.target.closest ? e.target.closest('[data-s]') : null;
+      var b = e.target.closest ? e.target.closest('button[data-s]') : null;
       if (!b || b.getAttribute('data-s') === wtSmjer) return;
       wtSmjer = b.getAttribute('data-s');
       wtOznaciSmjer(); wtCrtajZad();
@@ -6719,22 +6868,19 @@
       wtCrtajFilter();
     };
     wtOznaciSmjer(); wtCrtajFilter(); wtCrtajZad();
+    segmentiPostavi(VIEW);
   }
   function wtOznaciSmjer() {
-    [].forEach.call($('wtSmjerP').children, function (b) {
-      b.classList.toggle('aktivan', b.getAttribute('data-s') === wtSmjer);
-    });
+    segmentOznaci($('wtSmjerP'), 'data-s', wtSmjer);
     $('wtFilterG').classList.toggle('otvoren', wtFilterOtvoren);
   }
   function wtCrtajFilter() {
     var mj = $('wtFilterMj');
     if (!wtFilterOtvoren) { mj.innerHTML = ''; wtOznaciSmjer(); return; }
     var h = '<div class="wtFilterPanel">' +
-      '<div class="dictPrekidac" id="wtOpsegP">' +
-      '<div data-o="moje">My Dictionary</div>' +
-      '<div data-o="sve">Full dictionary</div>' +
-      '<div data-o="lekcije">By lesson</div>' +
-      '</div>';
+      segmentHtml('wtOpsegP', 'data-o', [
+        { v: 'moje', t: 'My words' }, { v: 'sve', t: 'Full dictionary' }, { v: 'lekcije', t: 'By lesson' }
+      ], wtOpseg);
     // Brojevi lekcija se prikazuju samo uz "By lesson".
     if (wtOpseg === 'lekcije') {
       h += '<p class="wtNapomena">Tap one or more lesson numbers — 0 to ' + MAX_RAZINA + '.</p>' +
@@ -6751,11 +6897,10 @@
     }
     mj.innerHTML = h + '</div>';
 
-    [].forEach.call($('wtOpsegP').children, function (c) {
-      c.classList.toggle('aktivan', c.getAttribute('data-o') === wtOpseg);
-    });
+    segmentOznaci($('wtOpsegP'), 'data-o', wtOpseg);
+    segmentiPostavi(mj);
     $('wtOpsegP').onclick = function (e) {
-      var c = e.target.closest ? e.target.closest('[data-o]') : null;
+      var c = e.target.closest ? e.target.closest('button[data-o]') : null;
       if (!c || c.getAttribute('data-o') === wtOpseg) return;
       wtOpseg = c.getAttribute('data-o');
       if (wtOpseg !== 'lekcije') wtLekcije = [];
