@@ -918,6 +918,67 @@
   @media (max-width: 640px) { #savjetRj { max-width: 12.5rem; font-size: var(--t-s); } }
 
   /* -- memorijska kartica (registracija) -- */
+  /* ---- prijava / registracija ----
+     Jedna kartica, jedan primarni put. Google gore jer je najbrzi, e-mail ispod
+     crte kao alternativa, a prebacivanje login/signup je veza, ne treci gumb. */
+  .prijavaOkvir { max-width: 24rem; margin: 0 auto; padding: 0.5rem 0 0; }
+  .prijavaKart {
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 1.5rem 1.5rem 1.25rem;
+  }
+  .prijavaKart h1 {
+    font-family: var(--naslov); font-size: var(--t-2xl); font-weight: 600;
+    letter-spacing: -.02em; margin: 0 0 0.375rem;
+  }
+  .prijavaKart .uvodP { color: var(--muted); font-size: var(--t-m); line-height: 1.55; margin: 0 0 1.25rem; }
+  .gumbGoogle {
+    display: flex; align-items: center; justify-content: center; gap: 0.625rem; width: 100%;
+    padding: 0.7rem 1rem; border-radius: var(--rad-m); border: 1px solid var(--rub);
+    background: #fff; color: #1f1f1f; cursor: pointer;
+    font-family: inherit; font-size: var(--t-l); font-weight: 600;
+    min-height: max(2.75rem, 44px); transition: border-color .15s, box-shadow .15s;
+  }
+  .gumbGoogle:hover { border-color: #b8b0a4; box-shadow: 0 1px 3px rgba(25,23,19,.12); }
+  .gumbGoogle .gZnak { width: 1.15em; height: 1.15em; flex: none; }
+  .crtaIli {
+    display: flex; align-items: center; gap: 0.75rem; margin: 1.125rem 0;
+    color: var(--muted); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .1em;
+  }
+  .crtaIli::before, .crtaIli::after { content: ""; flex: 1; height: 1px; background: var(--rub); }
+  .poljeP { margin-bottom: 0.75rem; }
+  .poljeP label {
+    display: block; font-size: var(--t-xs); font-weight: 600; color: var(--muted);
+    margin-bottom: 0.3rem; letter-spacing: .02em;
+  }
+  .poljeP input {
+    width: 100%; padding: 0.7rem 0.875rem; border: 1px solid var(--rub); border-radius: var(--rad-m);
+    font-family: inherit; font-size: var(--t-l); background: var(--papir); color: var(--ink);
+    min-height: max(2.75rem, 44px);
+  }
+  .poljeP input:focus { outline: none; border-color: var(--plava); box-shadow: 0 0 0 3px rgba(154,91,82,.15); }
+  .greskaP { color: var(--crvena); font-size: var(--t-s); line-height: 1.4; min-height: 1.3em; margin: 0 0 0.5rem; }
+  .greskaP.dobro { color: var(--zelena); }
+  .prijavaKart button.gumb { margin-top: 0; }
+  .prebaciP { text-align: center; font-size: var(--t-s); color: var(--muted); margin: 1rem 0 0; }
+  .prebaciP button {
+    border: 0; background: none; padding: 0; font: inherit; font-weight: 600;
+    color: var(--plava); cursor: pointer; text-decoration: underline; text-underline-offset: 2px;
+  }
+  .dobitiP { list-style: none; padding: 0; margin: 1.25rem 0 0; display: grid; gap: 0.5rem; }
+  .dobitiP li {
+    display: flex; gap: 0.5rem; align-items: flex-start;
+    font-size: var(--t-s); color: var(--muted); line-height: 1.5;
+  }
+  .dobitiP .ikn { color: var(--zelena); margin-top: 0.15em; }
+  /* modal prijave dijeli iste dijelove sa stranicom, samo u uzem okviru */
+  .otkljModal.prijavaModal { text-align: left; max-width: 24rem; }
+  .otkljModal.prijavaModal h2 { text-align: left; }
+  .otkljModal.prijavaModal .otkljPod { text-align: left; margin-bottom: 1.125rem; }
+  .otkljModal.prijavaModal .prebaciP { margin-top: 0.75rem; }
+  /* odustajanje je izlaz, ne ponuda — ne smije nositi brend-boju */
+  .otkljModal.prijavaModal #prOdustani { color: var(--muted); font-weight: 400; }
+  .otkljModal.prijavaModal #prOdustani:hover { color: var(--ink); }
+
   .karticaPolje {
     width: 100%; padding: 0.75rem 0.875rem; border: 1px solid var(--rub); border-radius: var(--rad-m);
     font-size: var(--t-l); font-family: inherit; margin: 0.25rem 0 0.75rem; text-align: center;
@@ -1396,7 +1457,7 @@
 <div id="izbornikPozadina" onclick="zatvoriIzbornik()"></div>
 <!-- Ikone sucelja: Lucide 1.43 (ISC, lucide.dev). Jedan sprite, bez mreznog zahtjeva;
      boju i velicinu uzimaju iz teksta u kojem stoje. -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol></svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-kvaka" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol></svg>
 <div id="view"></div>
 
 <div id="trakaAbc"></div>
@@ -1718,7 +1779,11 @@
     catch (e) { return {}; }
   }
   // Koliko je svaka igra isplatila — isti iznos ide u svaku valutu.
+  // Mini igre traze racun, pa gost po definiciji ima nula. Bez ove provjere
+  // gost naslijedi localStorage prethodnog korisnika ovog preglednika i vidi
+  // tudi rezultat prije nego se uopce prijavio.
   function miniBodovi() {
+    if (!imaRacun()) return 0;
     var uk = 0;
     MINI_IGRE.forEach(function (g) {
       var n = miniStanje(g.id).naplaceno;
@@ -1732,6 +1797,7 @@
     return m;
   }
   function miniPrijedena() {
+    if (!imaRacun()) return 0;
     var n = 0;
     MINI_IGRE.forEach(function (g) { if ((miniStanje(g.id).naplaceno || 0) >= g.maks) n++; });
     return n;
@@ -2290,7 +2356,22 @@
         if (res && res.error) banerPoruka('Sign-in failed: ' + (res.error.message || 'unknown error'));
       });
   }
+  // Stanje mini-igara zivi u localStorageu ovog preglednika, a ne u sesiji.
+  // Ako ostane nakon odjave, sljedeci posjetitelj vidi tudje bodove.
+  function ocistiMiniLokalno() {
+    try {
+      var za = [];
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k && k.indexOf('croland-mini-') === 0) za.push(k);
+      }
+      for (var j = 0; j < za.length; j++) localStorage.removeItem(za[j]);
+    } catch (e) {}
+  }
   function odjava(cb) {
+    miniSatStop();
+    ocistiMiniLokalno();
+    if (PROGRESS) PROGRESS.mini_igre = {};
     if (!supa) { cb && cb(); return; }
     supa.auth.signOut().then(function () { cb && cb(); });
   }
@@ -2635,64 +2716,91 @@
     var ov = document.createElement('div'); ov.id = 'karticaOverlay';
     ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
       'display:flex;align-items:center;justify-content:center;padding:16px;';
-    var m = document.createElement('div'); m.className = 'otkljModal';
-    m.innerHTML =
-      '<div class="otkljIkona">' + IK('kljuc', 'krupna') + '</div>' +
-      '<h2>Log in or create a free account</h2>' +
-      '<p class="otkljPod">A free account unlocks Lesson 1 across every track, plus daily ' +
-      'challenges and mini games.</p>' +
-      '<input class="karticaPolje" id="prEmail" type="email" placeholder="Email" autocomplete="email">' +
-      '<input class="karticaPolje" id="prLozinka" type="password" placeholder="Password" autocomplete="current-password">' +
-      '<div id="prGreska" style="color:var(--crvena);font-size:var(--t-s);min-height:1.1em"></div>';
-    var login = document.createElement('button'); login.className = 'gumb'; login.textContent = 'Log in';
-    var reg = document.createElement('button'); reg.className = 'gumb gumbSivi'; reg.textContent = 'Create account';
-    var google = document.createElement('button'); google.className = 'gumb gumbSivi';
-    google.textContent = 'Continue with Google';
-    var odustani = document.createElement('button');
-    odustani.className = 'gumb gumbSivi'; odustani.textContent = 'Not now';
-    odustani.onclick = function () { ov.remove(); };
-    m.appendChild(login); m.appendChild(reg); m.appendChild(google); m.appendChild(odustani);
+    var m = document.createElement('div'); m.className = 'otkljModal prijavaModal';
+    // Isti raspored kao stranica prijave: najbrzi put gore, e-mail ispod crte,
+    // prebacivanje login/signup je veza, a odustajanje je tiho.
+    var nacin = 'signup';
+    function crtaj() {
+      var jeSignup = (nacin === 'signup');
+      m.innerHTML =
+        '<h2>' + (jeSignup ? 'Create your free account' : 'Welcome back') + '</h2>' +
+        '<p class="otkljPod">' + (jeSignup
+          ? 'A free account opens Level 1 across every track, plus daily challenges and mini games.'
+          : 'Log in to carry on where you left off.') + '</p>' +
+        '<button type="button" class="gumbGoogle" id="prGoogle">' +
+          '<img class="gZnak" src="slike/google.svg" alt="" onerror="this.style.display=\'none\'">' +
+          '<span>Continue with Google</span></button>' +
+        '<div class="crtaIli">or</div>' +
+        '<div class="poljeP"><label for="prEmail">Email</label>' +
+          '<input id="prEmail" type="email" autocomplete="email" placeholder="you@example.com"></div>' +
+        '<div class="poljeP"><label for="prLozinka">Password</label>' +
+          '<input id="prLozinka" type="password" autocomplete="' +
+          (jeSignup ? 'new-password' : 'current-password') + '" placeholder="' +
+          (jeSignup ? 'at least 6 characters' : 'your password') + '"></div>' +
+        '<p class="greskaP" id="prGreska"></p>' +
+        '<button class="gumb" id="prGlavni">' + (jeSignup ? 'Create account' : 'Log in') + '</button>' +
+        '<p class="prebaciP">' + (jeSignup
+          ? 'Already have an account? <button type="button" id="prPrebaci">Log in</button>'
+          : 'New here? <button type="button" id="prPrebaci">Create a free account</button>') + '</p>' +
+        '<p class="prebaciP"><button type="button" id="prOdustani">Not now</button></p>';
+
+      var polja = function () {
+        return { email: String(($('prEmail') || {}).value || '').trim(),
+                 lozinka: String(($('prLozinka') || {}).value || '') };
+      };
+      var poruka = function (t, dobro) {
+        var e = $('prGreska'); if (!e) return;
+        e.textContent = t || '';
+        e.classList.toggle('dobro', !!dobro);
+      };
+      $('prOdustani').onclick = function () { ov.remove(); };
+      $('prPrebaci').onclick = function () {
+        nacin = jeSignup ? 'login' : 'signup';
+        crtaj();
+        var e = $('prEmail'); if (e) e.focus();
+      };
+      // Sva tri puta zavrsavaju u poslijeAuthPromjene, koji navigira na ZADNJI_VIEW;
+      // ovi rukovatelji samo pozovu i zatvore modal, nikad ne navigiraju sami.
+      $('prGlavni').onclick = function () {
+        var p = polja();
+        if (jeSignup) {
+          if (!p.email || p.lozinka.length < 6) {
+            poruka('Enter an email and a password of at least 6 characters.'); return;
+          }
+          PRIJAVA_TIP = 'signup';
+          registrirajEmail(p.email, p.lozinka, function (greska, cekaPotvrdu) {
+            if (greska) { PRIJAVA_TIP = null; poruka(greska); return; }
+            if (cekaPotvrdu) {
+              PRIJAVA_TIP = null;
+              poruka('Almost there — check your inbox and click the confirmation link, then log in.', true);
+              return;
+            }
+            ov.remove();
+          });
+        } else {
+          if (!p.email || !p.lozinka) { poruka('Enter an email and password.'); return; }
+          PRIJAVA_TIP = 'login';
+          prijaviEmail(p.email, p.lozinka, function (greska) {
+            if (greska) { PRIJAVA_TIP = null; poruka(greska); return; }
+            ov.remove();
+          });
+        }
+      };
+      [$('prEmail'), $('prLozinka')].forEach(function (el) {
+        if (el) el.onkeydown = function (e) { if (e.key === 'Enter') $('prGlavni').click(); };
+      });
+      $('prGoogle').onclick = function () {
+        try { sessionStorage.setItem(POSLIJE_PRIJAVE_KLJUC, JSON.stringify(cilj)); } catch (e) {}
+        prijaviGoogle();
+      };
+    }
+    // Modal mora biti u dokumentu prije crtanja: rukovatelji se vezu preko
+    // getElementById, a to ne nalazi cvorove koji jos nisu umetnuti.
     ov.appendChild(m);
     ov.onclick = function (e) { if (e.target === ov) ov.remove(); };
     document.body.appendChild(ov);
+    crtaj();
     setTimeout(function () { var f = $('prEmail'); if (f) f.focus(); }, 60);
-
-    function polja() {
-      return { email: String($('prEmail').value || '').trim(), lozinka: String($('prLozinka').value || '') };
-    }
-    // All three flows converge on the single onAuthStateChange handler (poslijeAuthPromjene),
-    // which navigates to ZADNJI_VIEW and decides whether to show the signup celebration — these
-    // handlers just make the call and close the modal, never navigate directly themselves.
-    login.onclick = function () {
-      var p = polja();
-      if (!p.email || !p.lozinka) { $('prGreska').textContent = 'Enter an email and password.'; return; }
-      PRIJAVA_TIP = 'login';
-      prijaviEmail(p.email, p.lozinka, function (greska) {
-        if (greska) { PRIJAVA_TIP = null; $('prGreska').textContent = greska; return; }
-        ov.remove();
-      });
-    };
-    reg.onclick = function () {
-      var p = polja();
-      if (!p.email || p.lozinka.length < 6) {
-        $('prGreska').textContent = 'Enter an email and a password of at least 6 characters.'; return;
-      }
-      PRIJAVA_TIP = 'signup';
-      registrirajEmail(p.email, p.lozinka, function (greska, cekaPotvrdu) {
-        if (greska) { PRIJAVA_TIP = null; $('prGreska').textContent = greska; return; }
-        if (cekaPotvrdu) {
-          PRIJAVA_TIP = null;
-          $('prGreska').style.color = 'var(--zelena)';
-          $('prGreska').textContent = 'Almost there — check your inbox and click the confirmation link, then log in.';
-          return;
-        }
-        ov.remove();
-      });
-    };
-    google.onclick = function () {
-      try { sessionStorage.setItem(POSLIJE_PRIJAVE_KLJUC, JSON.stringify(cilj)); } catch (e) {}
-      prijaviGoogle();
-    };
   }
   function prikaziModalPretplata() {
     var star = $('pretplataOverlay'); if (star) star.remove();
@@ -7110,50 +7218,90 @@
       });
     })();
   }
-  function renderAccount() {
-    if (!imaRacun()) {
-      VIEW.innerHTML =
-        '<h1 class="sekcija">User account</h1>' +
-        '<p class="otkljPod" style="margin:0 0 14px">Log in or create a free account to save your progress.</p>' +
-        '<input class="karticaPolje" id="accEmail" style="max-width:300px" type="email" placeholder="Email" autocomplete="email">' +
-        '<input class="karticaPolje" id="accLozinka" style="max-width:300px" type="password" placeholder="Password" autocomplete="current-password">' +
-        '<div id="accGreska" style="color:var(--crvena);font-size:var(--t-s);min-height:1.1em;margin-bottom:6px"></div>' +
-        '<button class="gumb" style="max-width:300px" id="accPrijava">Log in</button>' +
-        '<button class="gumb gumbSivi" style="max-width:300px" id="accRegistracija">Create account</button>' +
-        '<button class="gumb gumbSivi" style="max-width:300px" id="accGoogle">Continue with Google</button>';
-      var polja = function () {
-        return { email: String(($('accEmail') || {}).value || '').trim(), lozinka: String(($('accLozinka') || {}).value || '') };
-      };
-      $('accPrijava').onclick = function () {
-        var p = polja();
-        if (!p.email || !p.lozinka) { $('accGreska').textContent = 'Enter an email and password.'; return; }
-        PRIJAVA_TIP = 'login';
-        prijaviEmail(p.email, p.lozinka, function (greska) {
-          if (greska) { PRIJAVA_TIP = null; $('accGreska').textContent = greska; }
-        });
-      };
-      $('accRegistracija').onclick = function () {
-        var p = polja();
+  // 'signup' | 'login'. Prvi dolazak je registracija — nju posjetitelj treba;
+  // povratnik se prebaci vezom ispod, ne trecim gumbom u nizu.
+  var PRIJAVA_NACIN = 'signup';
+  function crtajPrijavu() {
+    var jeSignup = (PRIJAVA_NACIN === 'signup');
+    VIEW.innerHTML =
+      '<div class="prijavaOkvir"><div class="prijavaKart">' +
+      '<h1>' + (jeSignup ? 'Create your free account' : 'Welcome back') + '</h1>' +
+      '<p class="uvodP">' + (jeSignup
+        ? 'Takes a minute, and no card. Here is what it opens:'
+        : 'Log in and pick up exactly where you left off.') + '</p>' +
+      // Najbrzi put ide prvi. Znak je vanjska datoteka: sluzbeni Google asset
+      // preuzima se s Googleovih brand resursa i spusti u slike/google.svg.
+      '<button type="button" class="gumbGoogle" id="accGoogle">' +
+        '<img class="gZnak" src="slike/google.svg" alt="" onerror="this.style.display=\'none\'">' +
+        '<span>Continue with Google</span></button>' +
+      '<div class="crtaIli">or</div>' +
+      '<div class="poljeP"><label for="accEmail">Email</label>' +
+        '<input id="accEmail" type="email" autocomplete="email" placeholder="you@example.com"></div>' +
+      '<div class="poljeP"><label for="accLozinka">Password</label>' +
+        '<input id="accLozinka" type="password" autocomplete="' +
+        (jeSignup ? 'new-password' : 'current-password') + '" placeholder="' +
+        (jeSignup ? 'at least 6 characters' : 'your password') + '"></div>' +
+      '<p class="greskaP" id="accGreska"></p>' +
+      '<button class="gumb" id="accGlavni">' + (jeSignup ? 'Create account' : 'Log in') + '</button>' +
+      '<p class="prebaciP">' + (jeSignup
+        ? 'Already have an account? <button type="button" id="accPrebaci">Log in</button>'
+        : 'New here? <button type="button" id="accPrebaci">Create a free account</button>') + '</p>' +
+      '</div>' +
+      '<ul class="dobitiP">' +
+        '<li>' + IK('kvaka') + '<span>Level 1, the daily challenge and all mini games — free.</span></li>' +
+        '<li>' + IK('kvaka') + '<span>Points and dictionary follow you to any device.</span></li>' +
+        '<li>' + IK('kvaka') + '<span>Lesson 0 needs no account at all — it is open right now.</span></li>' +
+      '</ul></div>';
+
+    var polja = function () {
+      return { email: String(($('accEmail') || {}).value || '').trim(),
+               lozinka: String(($('accLozinka') || {}).value || '') };
+    };
+    var poruka = function (t, dobro) {
+      var e = $('accGreska');
+      if (!e) return;
+      e.textContent = t || '';
+      e.classList.toggle('dobro', !!dobro);
+    };
+    $('accPrebaci').onclick = function () {
+      PRIJAVA_NACIN = jeSignup ? 'login' : 'signup';
+      crtajPrijavu();
+      var e = $('accEmail'); if (e) e.focus();
+    };
+    $('accGlavni').onclick = function () {
+      var p = polja();
+      if (jeSignup) {
         if (!p.email || p.lozinka.length < 6) {
-          $('accGreska').textContent = 'Enter an email and a password of at least 6 characters.'; return;
+          poruka('Enter an email and a password of at least 6 characters.'); return;
         }
         PRIJAVA_TIP = 'signup';
-        registrirajEmail(p.email, p.lozinka, function (greska, cekaPotvrdu) {
-          if (greska) { PRIJAVA_TIP = null; $('accGreska').textContent = greska; return; }
+        registrirajEmail(p.email, p.lozinka, function (g, cekaPotvrdu) {
+          if (g) { PRIJAVA_TIP = null; poruka(g); return; }
           if (cekaPotvrdu) {
             PRIJAVA_TIP = null;
-            $('accGreska').style.color = 'var(--zelena)';
-            $('accGreska').textContent = 'Almost there — check your inbox and click the confirmation link, then log in.';
+            poruka('Almost there — check your inbox and click the confirmation link, then log in.', true);
           }
         });
-      };
-      $('accGoogle').onclick = function () {
-        ZADNJI_VIEW = { view: 'account' };
-        try { sessionStorage.setItem(POSLIJE_PRIJAVE_KLJUC, JSON.stringify(ZADNJI_VIEW)); } catch (e) {}
-        prijaviGoogle();
-      };
-      return;
-    }
+      } else {
+        if (!p.email || !p.lozinka) { poruka('Enter an email and password.'); return; }
+        PRIJAVA_TIP = 'login';
+        prijaviEmail(p.email, p.lozinka, function (g) {
+          if (g) { PRIJAVA_TIP = null; poruka(g); }
+        });
+      }
+    };
+    [$('accEmail'), $('accLozinka')].forEach(function (el) {
+      if (el) el.onkeydown = function (e) { if (e.key === 'Enter') $('accGlavni').click(); };
+    });
+    $('accGoogle').onclick = function () {
+      ZADNJI_VIEW = { view: 'account' };
+      try { sessionStorage.setItem(POSLIJE_PRIJAVE_KLJUC, JSON.stringify(ZADNJI_VIEW)); } catch (e) {}
+      prijaviGoogle();
+    };
+  }
+
+  function renderAccount() {
+    if (!imaRacun()) { crtajPrijavu(); return; }
 
     var v = valute();
     var odigrano = Object.keys(PROGRESS.vjezbe).length;
