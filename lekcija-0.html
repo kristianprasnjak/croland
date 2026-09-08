@@ -408,7 +408,7 @@
   }
   function slikaEl(w) {
     var i = document.createElement('img');
-    i.src = encodeURI('slike/' + w.img); i.alt = w.hr; i.loading = 'lazy';
+    i.src = encodeURI('slike/' + w.img.replace(/\.[^.]+$/, '.webp')); i.alt = w.hr; i.loading = 'lazy';
     return i;
   }
   var audio = null;

@@ -1,5 +1,5 @@
 /*
-  konvertiraj-slike.js — PNG/JPG iz mape `slike/` u WebP u mapu `slike-web/`.
+  konvertiraj-slike.js — PNG/JPG/JFIF iz `slike nekompresirano/` u WebP u `slike/`.
 
   Originali se NE diraju. Nazivi datoteka ostaju isti (uključujući dijakritiku),
   mijenja se samo ekstenzija: slike/Ananas.png -> slike-web/Ananas.webp
@@ -16,9 +16,10 @@
 
   Opcije:
       --velicina=512     najveća strana u px (zadano 512)
+                         podmape (npr. Gradovi/) se ne diraju
       --kvaliteta=82     WebP kvaliteta 1-100 (zadano 82)
-      --izlaz=slike-web  izlazna mapa
-      --ulaz=slike       ulazna mapa
+      --izlaz=slike      izlazna mapa
+      --ulaz=...         ulazna mapa (zadano: slike nekompresirano)
       --sve              ponovno konvertiraj i ono što već postoji
       --probno           samo ispiši što bi se dogodilo, bez pisanja
 
@@ -47,14 +48,14 @@ function opcija(ime, zadano) {
 }
 const korijen = __dirname;
 // path.resolve umjesto join — tako i apsolutne putanje rade
-const ULAZ = path.resolve(korijen, opcija('ulaz', 'slike'));
-const IZLAZ = path.resolve(korijen, opcija('izlaz', 'slike-web'));
+const ULAZ = path.resolve(korijen, opcija('ulaz', 'slike nekompresirano'));
+const IZLAZ = path.resolve(korijen, opcija('izlaz', 'slike'));
 const VELICINA = parseInt(opcija('velicina', '512'), 10);
 const KVALITETA = parseInt(opcija('kvaliteta', '82'), 10);
 const SVE = process.argv.includes('--sve');
 const PROBNO = process.argv.includes('--probno');
 
-const PODRZANO = /\.(png|jpe?g|webp|bmp|tiff?)$/i;
+const PODRZANO = /\.(png|jpe?g|jfif|webp|bmp|tiff?)$/i;
 
 // ---------- pomoćno ----------
 function mb(bajta) {
@@ -71,10 +72,32 @@ if (!fs.existsSync(ULAZ)) {
 }
 if (!PROBNO && !fs.existsSync(IZLAZ)) fs.mkdirSync(IZLAZ, { recursive: true });
 
-const datoteke = fs
+let datoteke = fs
   .readdirSync(ULAZ)
   .filter((f) => PODRZANO.test(f))
   .sort();
+
+// Dvije datoteke istog naziva s razlicitim ekstenzijama (Kofer.png + Kofer.jfif)
+// dale bi isti .webp i tiho se prepisale. Zadrzavamo PNG (bezgubitni izvor),
+// ostale prijavljujemo.
+const dvojnici = [];
+{
+  const prema = new Map();
+  for (const f of datoteke) {
+    const k = f.replace(/\.[^.]+$/, '').toLowerCase();
+    if (!prema.has(k)) prema.set(k, []);
+    prema.get(k).push(f);
+  }
+  const zadrzi = new Set();
+  for (const [, lista] of prema) {
+    if (lista.length === 1) { zadrzi.add(lista[0]); continue; }
+    const png = lista.find((f) => /\.png$/i.test(f));
+    const izabran = png || lista[0];
+    zadrzi.add(izabran);
+    dvojnici.push({ izabran, odbaceni: lista.filter((f) => f !== izabran) });
+  }
+  datoteke = datoteke.filter((f) => zadrzi.has(f));
+}
 
 if (datoteke.length === 0) {
   console.log('U mapi ' + ULAZ + ' nema slika za konverziju.');
@@ -87,6 +110,13 @@ console.log('  Izlaz:     ' + IZLAZ);
 console.log('  Najveća strana: ' + VELICINA + ' px, kvaliteta ' + KVALITETA);
 if (PROBNO) console.log('  PROBNI RAD — ništa se ne zapisuje');
 console.log('  Nađeno slika: ' + datoteke.length);
+if (dvojnici.length) {
+  console.log('');
+  console.log('  PAŽNJA — isti naziv, više ekstenzija (' + dvojnici.length + '):');
+  for (const d of dvojnici) {
+    console.log('    koristim ' + d.izabran + ', preskačem ' + d.odbaceni.join(', '));
+  }
+}
 console.log('');
 
 // ---------- obrada ----------
@@ -125,6 +155,7 @@ async function obradi(f) {
   }
 
   await sharp(izvor)
+    .flatten({ background: '#ffffff' }) // makni alpha kanal
     .resize({
       width: VELICINA,
       height: VELICINA,

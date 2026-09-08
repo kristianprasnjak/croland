@@ -4,5 +4,8 @@
   "version": "0.12.0",
   "scripts": {
     "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
   }
 }
