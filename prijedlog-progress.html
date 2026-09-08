@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croland — Progress (prijedlog)</title>
+<style>
+  :root {
+    --t-2xs: 0.66rem; --t-xs: 0.75rem; --t-s: 0.82rem; --t-m: 0.9rem; --t-l: 1rem;
+    --t-xl: 1.15rem; --t-2xl: 1.35rem; --t-3xl: 1.6rem; --t-4xl: 2.1rem; --t-5xl: 3rem;
+    --rad-xs: 0.1875rem; --rad-s: 0.5rem; --rad-m: 0.625rem; --rad-l: 0.875rem; --rad-xl: 1.125rem;
+    --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
+    --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
+    --zlatna: #8a6d1f; --plavaVok: #23407a; --tinta: #1d1b17; --tiho: #f0ece4; --papir: #faf7f1;
+    --tekst: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --naslov: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-visina: 1.6;
+    /* jedna boja po valuti — ista svugdje: pločica, mreža, stupci, tuđi redci */
+    --cLP: #9a5b52; --cVP: #23407a; --cGP: #8a6d1f; --cPP: #2f6d4f; --cTest: #6b5a8a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--tekst); font-size: var(--t-l); line-height: var(--font-visina); }
+
+  /* ---------- zaglavlje kao u aplikaciji ---------- */
+  header { position: sticky; top: 0; z-index: 10; display: flex; align-items: center;
+    gap: 1.5rem; padding: 0.875rem 1.5rem; background: var(--card); border-bottom: 1px solid var(--rub); }
+  header .logo { width: 2.25rem; height: 2.25rem; flex: none; border-radius: 50%;
+    background: var(--tinta); color: #fff; display: grid; place-items: center;
+    font-family: var(--naslov); font-weight: 700; font-size: var(--t-m); }
+  header nav { display: flex; gap: 0.25rem; flex-wrap: wrap; flex: 1; min-width: 0; }
+  header nav a { padding: 0.375rem 0.625rem; border-radius: var(--rad-s); color: var(--muted);
+    font-size: var(--t-m); text-decoration: none; cursor: pointer; white-space: nowrap; }
+  header nav a:hover { background: var(--tiho); color: var(--ink); }
+  header nav a.aktivna { color: var(--plava); background: var(--tiho); font-weight: 600; }
+  header .valute { font-family: var(--naslov); font-weight: 600; font-size: var(--t-s);
+    padding: 0.375rem 0.75rem; border-radius: var(--rad-m); background: var(--tiho); white-space: nowrap; }
+
+  #view { max-width: 62rem; margin: 0 auto; padding: 1.75rem 1.25rem 5rem; }
+  h1.sekcija { font-size: var(--t-3xl); font-family: var(--naslov); font-weight: 700;
+    margin: 0 0 0.25rem; letter-spacing: -0.015em; }
+  .podnaslov { color: var(--muted); font-size: var(--t-m); margin: 0 0 1.5rem; max-width: 44rem; }
+  h2.nas { font-family: var(--naslov); font-size: var(--t-xl); font-weight: 600;
+    margin: 2.25rem 0 0.25rem; letter-spacing: -0.01em; }
+  h2.nas:first-child { margin-top: 0; }
+  .nasOpis { color: var(--muted); font-size: var(--t-s); margin: 0 0 0.875rem; max-width: 46rem; }
+
+  .mockNota { max-width: 62rem; margin: 1rem auto -0.5rem; padding: 0 1.25rem; }
+  .mockNota div { background: #fff6e6; border: 1px solid #e8d5ae; color: #6b5320;
+    border-radius: var(--rad-m); padding: 0.625rem 0.875rem; font-size: var(--t-s); }
+
+  /* ---------- kartice ---------- */
+  .ploca { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 1rem 1.125rem; }
+
+  /* ---------- tabovi ---------- */
+  .tabovi { display: flex; gap: 0.25rem; background: var(--tiho); padding: 0.25rem;
+    border-radius: var(--rad-m); margin-bottom: 1.75rem; width: fit-content; max-width: 100%; flex-wrap: wrap; }
+  .tabovi button { border: 0; background: transparent; font-family: var(--naslov); font-weight: 600;
+    font-size: var(--t-m); color: var(--muted); padding: 0.5rem 1rem; border-radius: var(--rad-s); cursor: pointer; }
+  .tabovi button.aktivan { background: var(--card); color: var(--ink); box-shadow: 0 1px 2px rgba(25,23,19,.08); }
+  .tabovi button .br { font-size: var(--t-xs); color: var(--muted); font-weight: 500; }
+
+  /* ---------- valutne pločice ---------- */
+  .valutaRed { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-bottom: 0.75rem; }
+  .valutaK { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 0.875rem 1rem; position: relative; overflow: hidden; }
+  .valutaK::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--boja); }
+  .valutaK .imeV { font-size: var(--t-xs); color: var(--muted); text-transform: uppercase;
+    letter-spacing: .06em; font-weight: 600; }
+  .valutaK .broj { font-family: var(--naslov); font-size: var(--t-4xl); font-weight: 700;
+    color: var(--boja); line-height: 1.05; margin: 0.125rem 0 0.375rem; }
+  .valutaK .staza { height: 5px; background: var(--tiho); border-radius: var(--rad-xs); overflow: hidden; }
+  .valutaK .staza i { display: block; height: 100%; width: 0; background: var(--boja);
+    border-radius: var(--rad-xs); transition: width 1s cubic-bezier(.2,.7,.3,1); }
+  .valutaK .doKud { font-size: var(--t-xs); color: var(--muted); margin-top: 0.375rem; }
+  .valutaK .doKud b { color: var(--ink); font-weight: 700; }
+  .valutaK.pun .doKud { color: var(--zelena); }
+
+  .statRed { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
+  .statK { background: var(--papir); border: 1px solid var(--rub); border-radius: var(--rad-m);
+    padding: 0.625rem 0.75rem; }
+  .statK .b { font-family: var(--naslov); font-size: var(--t-2xl); font-weight: 700; line-height: 1.1; }
+  .statK .l { font-size: var(--t-xs); color: var(--muted); }
+
+  /* ---------- mreža cjelina ---------- */
+  .mrezaOkvir { overflow-x: auto; padding-bottom: 0.25rem; }
+  .mreza { display: grid; grid-template-columns: 2.5rem repeat(5, minmax(5.75rem, 1fr)); gap: 0.3125rem; min-width: 36rem; }
+  .mrezaGlava { font-size: var(--t-xs); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); padding: 0 0 0.25rem 0.125rem; position: sticky; top: 0; }
+  .mrezaRazina { display: flex; align-items: center; justify-content: flex-end; padding-right: 0.375rem;
+    font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .celija { position: relative; border: 1px solid var(--rub); border-radius: var(--rad-m);
+    background: var(--card); padding: 0.3125rem 0.4375rem 0.375rem; cursor: pointer; text-align: left;
+    font: inherit; color: inherit; min-height: 2.5rem; display: flex; flex-direction: column;
+    justify-content: space-between; transition: transform .12s, box-shadow .12s, border-color .12s; }
+  .celija:hover { transform: translateY(-1px); box-shadow: 0 3px 10px rgba(25,23,19,.09); border-color: var(--boja); }
+  .celija .pct { font-family: var(--naslov); font-size: var(--t-s); font-weight: 700;
+    font-variant-numeric: tabular-nums; }
+  .celija .odn { font-size: var(--t-2xs); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .celija .staza { height: 3px; background: var(--tiho); border-radius: var(--rad-xs); overflow: hidden; margin-top: 0.25rem; }
+  .celija .staza i { display: block; height: 100%; width: 0; background: var(--boja);
+    border-radius: var(--rad-xs); transition: width .8s cubic-bezier(.2,.7,.3,1); }
+  .celija.nula .pct { color: var(--muted); font-weight: 600; }
+  .celija.puna { background: color-mix(in srgb, var(--boja) 9%, var(--card)); border-color: color-mix(in srgb, var(--boja) 35%, var(--rub)); }
+  .celija.puna .pct { color: var(--boja); }
+  .celija.puna .kvaka { position: absolute; top: 0.375rem; right: 0.5rem; color: var(--boja); font-size: var(--t-s); }
+  .celija.zakljucana { background: var(--tiho); border-style: dashed; cursor: help; }
+  .celija.zakljucana .pct { color: var(--muted); font-size: var(--t-s); font-weight: 600; }
+  .celija.odabrana { border-color: var(--boja); box-shadow: 0 0 0 2px color-mix(in srgb, var(--boja) 25%, transparent); }
+  .celija.prazno { border: 0; background: transparent; cursor: default; min-height: 0; }
+  .celija.prazno:hover { transform: none; box-shadow: none; }
+
+  .legenda { display: flex; flex-wrap: wrap; gap: 0.875rem; margin-top: 0.75rem;
+    font-size: var(--t-xs); color: var(--muted); }
+  .legenda span { display: inline-flex; align-items: center; gap: 0.375rem; }
+  .legenda i { width: 0.875rem; height: 0.875rem; border-radius: 3px; border: 1px solid var(--rub);
+    background: var(--card); display: inline-block; }
+  .legenda i.pun { background: color-mix(in srgb, var(--cVP) 25%, var(--card)); border-color: var(--cVP); }
+  .legenda i.pola { background: linear-gradient(90deg, color-mix(in srgb, var(--cVP) 45%, var(--card)) 50%, var(--card) 50%); }
+  .legenda i.zak { background: var(--tiho); border-style: dashed; }
+
+  /* ---------- ladica s vježbama ---------- */
+  .ladica { margin-top: 0.875rem; background: var(--card); border: 1px solid var(--rub);
+    border-radius: var(--rad-l); overflow: hidden; animation: otvori .28s cubic-bezier(.2,.7,.3,1); }
+  @keyframes otvori { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  .ladicaGlava { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap;
+    padding: 0.875rem 1.125rem; border-bottom: 1px solid var(--rub); background: var(--papir); }
+  .ladicaGlava h3 { font-family: var(--naslov); font-size: var(--t-xl); font-weight: 700; margin: 0; letter-spacing: -0.01em; }
+  .ladicaGlava .znak { font-size: var(--t-xs); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--boja); }
+  .ladicaGlava .rez { margin-left: auto; font-family: var(--naslov); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .ladicaGlava .rez small { color: var(--muted); font-weight: 500; }
+  .ladicaGlava .x { border: 0; background: transparent; color: var(--muted); font-size: var(--t-xl);
+    cursor: pointer; line-height: 1; padding: 0 0.25rem; }
+  .vjezbe { list-style: none; margin: 0; padding: 0.375rem; }
+  .vjezbe li { display: grid; grid-template-columns: 1.75rem 1fr 5.5rem 6rem; align-items: center;
+    gap: 0.5rem; padding: 0.5rem 0.75rem; border-radius: var(--rad-m); cursor: pointer; }
+  .vjezbe li:hover { background: var(--tiho); }
+  .vjezbe .br { font-size: var(--t-xs); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .vjezbe .ime { font-size: var(--t-m); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .vjezbe .pts { text-align: right; font-family: var(--naslov); font-size: var(--t-m);
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .vjezbe .pts b { font-weight: 700; }
+  .vjezbe .pts small { color: var(--muted); }
+  .vjezbe .sbar { height: 6px; background: var(--tiho); border-radius: var(--rad-xs); overflow: hidden; }
+  .vjezbe .sbar i { display: block; height: 100%; width: 0; background: var(--boja);
+    border-radius: var(--rad-xs); transition: width .7s cubic-bezier(.2,.7,.3,1); }
+  .vjezbe li.pun .pts b { color: var(--boja); }
+  .vjezbe li.nula .ime { color: var(--muted); }
+  .vjezbe li.nula .pts { color: var(--muted); }
+  .oznaka { font-size: var(--t-2xs); text-transform: uppercase; letter-spacing: .05em;
+    background: var(--tiho); color: var(--muted); border-radius: var(--rad-xs); padding: 0.0625rem 0.375rem; margin-left: 0.5rem; }
+  .ladicaPod { padding: 0.75rem 1.125rem 1rem; border-top: 1px solid var(--rub); background: var(--papir);
+    font-size: var(--t-s); color: var(--muted); display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+  .ladicaPod b { color: var(--ink); }
+
+  /* ---------- popis "vrijedi se vratiti" ---------- */
+  .popravi { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+  .popravi li { display: grid; grid-template-columns: 8.5rem 1fr auto; gap: 0.75rem; align-items: center;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m);
+    padding: 0.625rem 0.875rem; cursor: pointer; transition: border-color .12s, transform .12s; }
+  .popravi li:hover { border-color: var(--boja); transform: translateX(2px); }
+  .popravi .gdje { font-size: var(--t-xs); font-weight: 700; color: var(--boja);
+    text-transform: uppercase; letter-spacing: .04em; }
+  .popravi .sto { font-size: var(--t-m); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .popravi .sto small { color: var(--muted); display: block; font-size: var(--t-xs); }
+  .popravi .koliko { text-align: right; font-family: var(--naslov); font-weight: 700; white-space: nowrap; }
+  .popravi .koliko small { display: block; color: var(--muted); font-weight: 500; font-size: var(--t-xs); }
+
+  /* ---------- daily točkice ---------- */
+  .tockice { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 0.5rem; }
+  .tockice i { width: 0.875rem; height: 0.875rem; border-radius: 3px; background: var(--tiho);
+    border: 1px solid var(--rub); display: block; }
+  .tockice i.d { background: color-mix(in srgb, var(--zelena) 55%, var(--card)); border-color: var(--zelena); }
+  .tockice i.p { background: color-mix(in srgb, var(--zlatna) 40%, var(--card)); border-color: var(--zlatna); }
+
+  /* ---------- mini igre ---------- */
+  .miniPopis { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+  .miniR { display: grid; grid-template-columns: 1.5rem 1fr 4.5rem; gap: 0.625rem; align-items: center;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.5rem 0.75rem; }
+  .miniR .e { font-size: var(--t-l); }
+  .miniR .n { font-size: var(--t-m); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .miniR .n small { display: block; font-size: var(--t-xs); color: var(--muted); }
+  .miniR .p { text-align: right; font-family: var(--naslov); font-weight: 700;
+    font-size: var(--t-m); font-variant-numeric: tabular-nums; }
+  .miniR .p small { color: var(--muted); font-weight: 500; }
+  .miniR.nula .n, .miniR.nula .p { color: var(--muted); }
+  .miniR { cursor: pointer; transition: border-color .12s, transform .12s; }
+  .miniR:hover { border-color: var(--plava); transform: translateX(2px); }
+  .miniR.pun .p { color: var(--zelena); }
+
+  /* ---------- filteri i značke veze ---------- */
+  .filteri { display: flex; gap: 0.375rem; flex-wrap: wrap; margin-bottom: 0.875rem; }
+  .filteri button { border: 1px solid var(--rub); background: var(--card); color: var(--muted);
+    font-family: var(--naslov); font-weight: 600; font-size: var(--t-s); padding: 0.375rem 0.75rem;
+    border-radius: 999px; cursor: pointer; }
+  .filteri button.aktivan { background: var(--tinta); border-color: var(--tinta); color: #fff; }
+  .filteri button .n { opacity: .6; font-weight: 500; }
+  .vez { font-size: var(--t-2xs); text-transform: uppercase; letter-spacing: .05em; font-weight: 700;
+    border-radius: var(--rad-xs); padding: 0.125rem 0.375rem; white-space: nowrap; }
+  .vez.vprij { background: color-mix(in srgb, var(--plavaVok) 12%, var(--card)); color: var(--plavaVok); }
+  .vez.vkod  { background: color-mix(in srgb, var(--zlatna) 16%, var(--card)); color: var(--zlatna); }
+  .vez.vspon { background: color-mix(in srgb, var(--zelena) 14%, var(--card)); color: var(--zelena); }
+  .ljudi td.veze { text-align: left; }
+  .ljudi td.veze span + span { margin-left: 0.25rem; }
+
+  /* ---------- prazno stanje ---------- */
+  .prazno { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 1.5rem 1.5rem 1.375rem; text-align: center; }
+  .prazno h3 { font-family: var(--naslov); font-size: var(--t-xl); font-weight: 700; margin: 0 0 0.375rem; }
+  .prazno p { color: var(--muted); font-size: var(--t-m); margin: 0 auto 1rem; max-width: 30rem; }
+  .prazno .dugmad { display: flex; gap: 0.625rem; justify-content: center; flex-wrap: wrap; }
+
+  /* ---------- prekidač uloge (samo u mockupu) ---------- */
+  .ulogaRed { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 0.625rem;
+    padding-top: 0.625rem; border-top: 1px solid #e8d5ae; }
+  .ulogaRed button { border: 1px solid #e8d5ae; background: #fffdf7; color: #6b5320;
+    font-family: var(--naslov); font-weight: 600; font-size: var(--t-xs); padding: 0.3125rem 0.625rem;
+    border-radius: var(--rad-s); cursor: pointer; }
+  .ulogaRed button.aktivan { background: #6b5320; border-color: #6b5320; color: #fff; }
+
+  /* ---------- tablica ljudi ---------- */
+  .ljudi { width: 100%; border-collapse: collapse; background: var(--card);
+    border: 1px solid var(--rub); border-radius: var(--rad-l); overflow: hidden; }
+  .ljudi th { text-align: right; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .05em;
+    color: var(--muted); font-weight: 700; padding: 0.625rem 0.75rem; border-bottom: 1px solid var(--rub);
+    background: var(--papir); white-space: nowrap; }
+  .ljudi th:first-child, .ljudi td:first-child { text-align: left; }
+  .ljudi th:last-child, .ljudi td:last-child { text-align: left; }
+  .ljudi td { padding: 0.625rem 0.75rem; border-bottom: 1px solid var(--rub); font-size: var(--t-m);
+    text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .ljudi tr:last-child td { border-bottom: 0; }
+  .ljudi tr.ja td { background: color-mix(in srgb, var(--plava) 6%, var(--card)); }
+  .ljudi .ime { font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+  .ljudi .ime .id { font-family: ui-monospace, Consolas, monospace; font-size: var(--t-xs);
+    color: var(--muted); background: var(--tiho); border-radius: var(--rad-xs); padding: 0.0625rem 0.375rem; font-weight: 500; }
+  .ljudi .uk { font-family: var(--naslov); font-weight: 700; }
+  .ljudi tbody tr.klik { cursor: pointer; }
+  .ljudi tbody tr.klik:hover td { background: var(--tiho); }
+  .znacka { font-size: var(--t-2xs); text-transform: uppercase; letter-spacing: .05em;
+    border-radius: var(--rad-xs); padding: 0.125rem 0.375rem; font-weight: 700; }
+  .znacka.otv { background: color-mix(in srgb, var(--zelena) 14%, var(--card)); color: var(--zelena); }
+  .znacka.zat { background: var(--tiho); color: var(--muted); }
+  .znacka.cek { background: color-mix(in srgb, var(--zlatna) 16%, var(--card)); color: var(--zlatna); }
+
+  .gumb { border: 0; background: var(--tinta); color: #fff; font-family: var(--naslov); font-weight: 600;
+    font-size: var(--t-m); padding: 0.5rem 1rem; border-radius: var(--rad-s); cursor: pointer; }
+  .gumb:hover { opacity: .9; }
+  .gumbSivi { background: var(--tiho); color: var(--ink); border: 1px solid var(--rub); }
+  .gumbSitni { font-size: var(--t-s); padding: 0.3125rem 0.625rem; }
+
+  .kodKutija { display: flex; align-items: center; gap: 0.875rem; flex-wrap: wrap; }
+  .kod { font-family: ui-monospace, Consolas, monospace; font-size: var(--t-3xl); font-weight: 700;
+    letter-spacing: .16em; background: var(--tiho); border: 1px dashed var(--rub);
+    border-radius: var(--rad-m); padding: 0.375rem 0.875rem; }
+  .unos { font: inherit; font-family: ui-monospace, Consolas, monospace; font-size: var(--t-l);
+    letter-spacing: .12em; text-transform: uppercase; width: 8.5rem; padding: 0.5rem 0.75rem;
+    border: 1px solid var(--rub); border-radius: var(--rad-m); background: var(--card); color: var(--ink); }
+  .prekidacRed { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .izbor { display: flex; gap: 0.625rem; align-items: flex-start; background: var(--card);
+    border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.75rem 0.875rem; cursor: pointer; flex: 1 1 15rem; }
+  .izbor.aktivan { border-color: var(--plava); box-shadow: 0 0 0 2px color-mix(in srgb, var(--plava) 18%, transparent); }
+  .izbor .t { font-size: var(--t-m); font-weight: 600; }
+  .izbor .o { font-size: var(--t-xs); color: var(--muted); }
+  .izbor input { margin-top: 0.3125rem; accent-color: var(--plava); }
+
+  /* ---------- dijalog ---------- */
+  #zastor { position: fixed; inset: 0; background: rgba(25,23,19,.34); z-index: 40;
+    display: none; align-items: center; justify-content: center; padding: 1.25rem;
+    animation: pojavi .16s ease-out; }
+  #zastor.otvoren { display: flex; }
+  @keyframes pojavi { from { opacity: 0; } to { opacity: 1; } }
+  .dijalog { background: var(--card); border-radius: var(--rad-xl); max-width: 26rem; width: 100%;
+    padding: 1.375rem 1.5rem 1.25rem; box-shadow: 0 24px 60px rgba(25,23,19,.28);
+    animation: dolazi .2s cubic-bezier(.2,.7,.3,1); }
+  @keyframes dolazi { from { opacity: 0; transform: translateY(10px) scale(.98); } to { opacity: 1; transform: none; } }
+  .dijalog h3 { font-family: var(--naslov); font-size: var(--t-xl); font-weight: 700; margin: 0 0 0.375rem; }
+  .dijalog .gdje2 { font-size: var(--t-s); color: var(--muted); margin: 0 0 0.75rem; }
+  .dijalog .gdje2 b { color: var(--ink); font-weight: 600; }
+  .dijalog p { font-size: var(--t-m); color: var(--muted); margin: 0 0 1.125rem; }
+  .dijalog .dugmad { display: flex; gap: 0.625rem; justify-content: flex-end; }
+
+  @media (max-width: 860px) {
+    .valutaRed, .statRed { grid-template-columns: repeat(2, 1fr); }
+    .miniPopis { grid-template-columns: 1fr; }
+    .vjezbe li { grid-template-columns: 1.5rem 1fr 4.75rem; }
+    .vjezbe .sbar { display: none; }
+    .popravi li { grid-template-columns: 1fr auto; }
+    .popravi .gdje { grid-column: 1 / -1; }
+    header nav { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">C</div>
+  <nav>
+    <a>Home</a><a>Lessons</a><a>Dictionary</a><a>Mini games</a><a>Daily challenge</a>
+    <a class="aktivna">Progress</a><a>User account</a><a>Options</a>
+  </nav>
+  <div class="valute" id="valuteHeader"></div>
+</header>
+
+<div class="mockNota"><div>
+  <b>Mockup</b> — izgled i ponašanje stranice <i>Progress</i>. Brojke su simulirane (stvarna struktura
+  lekcija i vježbi, izmišljeni rezultati); ljudi su izmišljeni jer taj dio backenda još ne postoji.
+  <div class="ulogaRed">
+    <span>Prikaži kao:</span>
+    <button data-uloga="ucenik" class="aktivan">polaznik koji uči</button>
+    <button data-uloga="platitelj">platitelj bez pretplate</button>
+  </div>
+</div></div>
+
+<div id="view">
+  <h1 class="sekcija">Progress</h1>
+  <p class="podnaslov">Everything you have earned, and the shortest way to more of it.
+    Click any unit to see it exercise by exercise.</p>
+
+  <div class="tabovi" id="tabovi">
+    <button data-tab="ja" class="aktivan">You</button>
+    <button data-tab="ljudi">Friends &amp; groups <span class="br" id="tabBroj">· 13</span></button>
+  </div>
+
+  <section id="tab-ja"></section>
+  <section id="tab-ljudi" hidden></section>
+</div>
+
+<div id="zastor"><div class="dijalog" id="dijalogTijelo"></div></div>
+
+<script>
+/* ================= PODACI O CJELINAMA ================= */
+/* Ubacuje se iz data.js — struktura: { "Vocabulary 5": { naslov, v: [[stranica, naslov, bodovi], ...] } } */
+var CJELINE = {"Lesson 0":{"naslov":"Welcome to Croatian","v":[[1,"Six words you already know",4],[2,"Find the pairs",4],[3,"Six more",4],[4,"Pop the right balloon",7],[5,"Six more",4],[6,"Find the pairs again",4],[7,"Six more",4],[8,"Build the word",6],[9,"The last six",4],[10,"Remember three",7],[11,"Everything you met",2]]},"Lesson 1":{"naslov":"Describing the World: Nouns, Adjectives & \"je\"","v":[[1,"Welcome",3],[2,"Words you already recognise",6],[3,"New words: things around you",6],[4,"Word match",6],[5,"The magic word: je",3],[6,"Adjectives: making it interesting",6],[7,"Which ending fits?",7],[8,"Find the right outfit",6],[9,"Finish the word",8],[10,"Build your first sentences",7],[11,"Memory",5],[12,"Lesson checkpoint",8],[13,"Reward & preview",3]]},"Vocabulary 1":{"naslov":"Things, Colors & Sizes","v":[[1,"Words you already know (cognates)",4],[2,"Speed challenge: easy words",6],[3,"Things around you",6],[4,"Match the pairs",6],[5,"Memory",5],[6,"Adjectives & colors",6],[7,"Speed challenge: adjectives & colors",6],[8,"Type it in Croatian",8]]},"Grammar 1":{"naslov":"Gender & the \"je\" Sentence","v":[[1,"The rule: every noun has a gender",5],[2,"Sort by gender",6],[3,"The rule: adjectives copy the noun",5],[4,"Pick the adjective",7],[5,"The rule: the disappearing a",5],[6,"Type the adjective",8],[7,"Tap the ending",7],[8,"Say the missing word",8],[9,"The rule: nije — the other half of je",5],[10,"Yes or no?",7],[11,"Say it isn't so",8],[12,"Write the whole sentence",8],[13,"You can do this now",3]]},"Practice 1":{"naslov":"Reading: Describing the World","v":[[1,"Text 1: Dubrovnik",5],[2,"Did you get it?",5],[3,"Fill in from the text",6],[4,"Text 2: The room",5],[5,"True or false?",6],[6,"Text 3: At the café",5],[7,"Order the dialogue",6],[8,"Translate by building",7]]},"Test 1":{"naslov":"Test 1: Describing the World","v":[[1,"Match the words",6],[2,"What does it mean?",7],[3,"Which noun does it fit?",7],[4,"Tap the ending",7],[5,"Type the adjective",8],[6,"Build the sentence",7],[7,"Write it in Croatian",8]]},"Lesson 2":{"naslov":"Talking About People: Pronouns & \"biti\"","v":[[1,"Welcome back",4],[2,"Warm-up from Lesson 1",7],[3,"New words: the people words",6],[4,"The magic verb: biti",4],[5,"Describing people",5],[6,"His job and hers",4],[7,"Which ending fits?",8],[8,"Type the verb",9],[9,"Build your first sentences",8],[10,"Your first conversation",6],[11,"Lesson checkpoint",13],[12,"Reward & preview",4]]},"Vocabulary 2":{"naslov":"Jobs, Nationalities & Character","v":[[1,"Jobs",5],[2,"People around you",4],[3,"Speed challenge: jobs & people",7],[4,"Match the jobs",7],[5,"Memory: people",6],[6,"Make it female",9],[7,"Where are they from?",5],[8,"Man or woman?",8],[9,"Character & mood",6],[10,"Speed challenge: character",7],[11,"Memory: character",6],[12,"Match the character words",7],[13,"Greetings & everyday words",6],[14,"Match the greetings",7],[15,"Type it in Croatian",9]]},"Grammar 2":{"naslov":"Pronouns & the Verb \"biti\"","v":[[1,"The rule: the full \"biti\" table",5],[2,"Tap the verb",8],[3,"The rule: adjectives still copy the person",5],[4,"Pick the adjective",8],[5,"Tap the ending: he, she or they?",8],[6,"The rule: ti or vi?",5],[7,"ti or vi?",8],[8,"The female version",9],[9,"The rule: the negative table",5],[10,"Make it negative",9],[11,"The grammatical sentence",8],[12,"Write the whole sentence",9],[13,"You can do this now",4]]},"Practice 2":{"naslov":"Reading: People & Introductions","v":[[1,"Text 1: Who is who",5],[2,"Did you get it?",8],[3,"Fill in from the text",9],[4,"Text 2: Who are you?",5],[5,"True or false?",8],[6,"Order the dialogue",7],[7,"Text 3: At the café",5],[8,"Did you get it?",7],[9,"Text 4: They are a team",5],[10,"Translate by building",8]]},"Test 2":{"naslov":"Test 2: Talking About People","v":[[1,"Match the words",7],[2,"What does it mean?",8],[3,"Pronoun & verb",8],[4,"He, she or they?",8],[5,"Man or woman?",8],[6,"Tap the verb",8],[7,"Tap the ending",8],[8,"Type the missing word",9],[9,"Build the sentence",8],[10,"Write it in Croatian",9]]},"Lesson 3":{"naslov":"Making Things Happen: The Present Tense","v":[[1,"Time for action",4],[2,"Warm-up from Lesson 2",7],[3,"The action words",5],[4,"Verb match",7],[5,"One verb, different endings",4],[6,"Whose verb is it?",7],[7,"Pick the right form",9],[8,"Tap the ending",9],[9,"Type the verb",10],[10,"Build the scene",9],[11,"A quiet evening",7],[12,"Day in the apartment",6],[13,"Lesson checkpoint",15],[14,"Reward & preview",4]]},"Vocabulary 3":{"naslov":"Everyday Verbs & Their Objects","v":[[1,"Verbs (infinitive → ja / ti / on-ona)",5],[2,"Ten more verbs",5],[3,"Three families",9],[4,"Match the pairs",7],[5,"Things that go with verbs",7],[6,"How often?",5],[7,"Memory",7],[8,"Speed challenge: the ja-form",7],[9,"Speed challenge: who is doing it?",7],[10,"Type the ja-form",10],[11,"Type it in Croatian",10]]},"Grammar 3":{"naslov":"The Present Tense","v":[[1,"The rule: the name-tag endings",6],[2,"The rule: three families",6],[3,"Who is doing it?",9],[4,"Which family?",6],[5,"Pick the form",9],[6,"Tap the ending",9],[7,"Type the ja-form",10],[8,"Without the pronoun",10],[9,"Say the missing word",10],[10,"The rule: saying you don't",6],[11,"Positive or negative?",6],[12,"Make it negative",10],[13,"Write the whole sentence",10],[14,"You can do this now",4]]},"Practice 3":{"naslov":"Reading: A Day of Actions","v":[[1,"Text 1: A day in the apartment",6],[2,"Did you get it?",6],[3,"Text 2: What are you doing?",6],[4,"True or false?",6],[5,"Text 3: Evening",6],[6,"Type the verb from the text",10],[7,"Did you get it? — the evening",9],[8,"Text 4: Sunday",6],[9,"Translate by building",9]]},"Test 3":{"naslov":"Test 3: Making Things Happen","v":[[1,"Match the words",7],[2,"What does it mean?",9],[3,"Whose verb is it?",9],[4,"Which family?",6],[5,"Tap the ending",9],[6,"Type the verb",10],[7,"Drop the pronoun",10],[8,"Build the sentence",9],[9,"Write it in Croatian",10]]},"Lesson 4":{"naslov":"The Family & Connectors","v":[[1,"Flow like a native",4],[2,"Rapid recall",8],[3,"Meet the family",8],[4,"Boy word, girl word",10],[5,"Three little connectors",5],[6,"Choose the connector",10],[7,"Join the sentences",10],[8,"Sunday at the family's",8],[9,"Type the connector",11],[10,"Memory",8],[11,"Reading the questions",7],[12,"Read about the family",8],[13,"Lesson checkpoint",16],[14,"Reward & preview",4]]},"Vocabulary 4":{"naslov":"The Family & Connectors","v":[[1,"Close family",8],[2,"The wider circle",8],[3,"Home and around it",7],[4,"Eleven new verbs",6],[5,"Three families again",8],[6,"Little words that hold a sentence together",5],[7,"Match the pairs",8],[8,"Memory",8],[9,"Speed challenge: people",8],[10,"Speed challenge: the ja-form",8],[11,"Type the ja-form",11],[12,"Type it in Croatian",11]]},"Grammar 4":{"naslov":"Joining Sentences: i, a, ali, jer","v":[[1,"The rule: three connectors, three jobs",6],[2,"i, a or ali?",10],[3,"The comma rule",5],[4,"Comma or not?",8],[5,"Sort by the job",8],[6,"The rule: a fourth connector — jer",5],[7,"Four connectors, four jobs",6],[8,"Which connector?",10],[9,"Say it the heavier way",8],[10,"Type the connector",11],[11,"Join the sentences",10]]},"Practice 4":{"naslov":"Reading: Family Life","v":[[1,"Text 1: The family",7],[2,"Did you get it?",8],[3,"Text 2: One day",7],[4,"Type the connector",11],[5,"True or false?",8],[6,"Text 3: The weekend",7],[7,"Order the dialogue",7],[8,"Text 4: Why Saturday is the best",7],[9,"Did you get it? — Saturday",10],[10,"Translate by building",10]]},"Test 4":{"naslov":"Test 4: The Family & Connectors","v":[[1,"Match the words",8],[2,"What does it mean?",10],[3,"Adds, contrasts or twists?",10],[4,"Boy word, girl word",10],[5,"Which family?",8],[6,"Comma or no comma?",10],[7,"Tap the ending",10],[8,"Type the connector",11],[9,"Type the verb",11],[10,"Build the sentence",10],[11,"Write it in Croatian",11]]},"Lesson 5":{"naslov":"Shopping & Your First Case: Feminine Accusative","v":[[1,"A big day",5],[2,"Rapid recall",9],[3,"Market words",9],[4,"Spot the pattern",11],[5,"The one-letter rule",5],[6,"Tap the ending",11],[7,"Transformation drill",13],[8,"Pick the right form",11],[9,"Build your shopping sentences",11],[10,"Asking a yes-or-no question: li",7],[11,"At the shop",9],[12,"Accusative sprint",9],[13,"Saturday at the market",9],[14,"Lesson checkpoint",18],[15,"Reward & preview",5]]},"Vocabulary 5":{"naslov":"Shopping & Food","v":[[1,"Feminine food — the ones that change",9],[2,"The quiet ones — no change at all",9],[3,"Shopping",7],[4,"Ten new verbs",6],[5,"At the counter",9],[6,"Does it change?",11],[7,"Which family?",8],[8,"Match the pictures",8],[9,"Match the pairs",9],[10,"Memory",9],[11,"Speed challenge: naming → target",9],[12,"Speed challenge: what is it?",9],[13,"Build the word",11],[14,"Type the target form",13],[15,"Type it in Croatian",13]]},"Grammar 5":{"naslov":"The Accusative (Feminine): -a → -u","v":[[1,"The rule: the first case, officially",7],[2,"Naming or target?",11],[3,"Tap the ending",11],[4,"Type the accusative",13],[5,"The rule: the adjective travels too",7],[6,"Naming or target — the whole phrase",11],[7,"Tap the adjective's ending",11],[8,"Type both endings",13],[9,"The rule: where are you going?",7],[10,"u or na?",11],[11,"Open or enclosed?",11],[12,"Type the whole direction",13],[13,"Build the sentence",11]]},"Practice 5":{"naslov":"Reading: At the Market","v":[[1,"Text 1: At the market",7],[2,"Bought it, or only looked at it?",7],[3,"Did you get it?",11],[4,"Text 2: A note on the fridge",7],[5,"Remember the list",11],[6,"What does the note actually say?",9],[7,"At the shop",9],[8,"Text 3: Three friends, three bags",7],[9,"Solve the puzzle",11],[10,"Text 4: Breakfast",7],[11,"Tap the ending from the texts",11],[12,"Type the accusative",13],[13,"Ana's Saturday, in order",8],[14,"Translate by building",11],[15,"Pop the right balloon",11]]},"Test 5":{"naslov":"Test 5: Shopping & the Feminine Accusative","v":[[1,"Match the words",9],[2,"What does it mean?",11],[3,"Does it change?",11],[4,"Naming or target?",11],[5,"u or na?",11],[6,"Tap the ending",11],[7,"Tap the adjective's ending",11],[8,"Type the accusative",13],[9,"Type both endings",13],[10,"Where are you going?",13],[11,"Build the sentence",11],[12,"Write it in Croatian",13]]},"Lesson 6":{"naslov":"In the City: Accusative for Living Things","v":[[1,"Things vs. beings",5],[2,"Rapid recall",10],[3,"City words",10],[4,"Things vs. living beings",5],[5,"Does it change?",12],[6,"Tap the ending",12],[7,"Transformation drill",14],[8,"Pick the right form",12],[9,"Build the street scene",12],[10,"At the stop",10],[11,"Living-beings sprint",10],[12,"A street in Zagreb",10],[13,"Lesson checkpoint",20],[14,"Reward & preview",5]]},"Vocabulary 6":{"naslov":"The City & Traffic","v":[[1,"People — the ones that change",10],[2,"Transport — nothing changes",9],[3,"Places in the city",10],[4,"Ten new verbs",7],[5,"Around town",8],[6,"Does it change after \"vidim\"?",12],[7,"Which family?",8],[8,"Match the pictures",8],[9,"Match the pairs",10],[10,"Memory",10],[11,"Speed challenge: naming → target",10],[12,"Speed challenge: what is it?",10],[13,"Build the word",12],[14,"Type the target form",14],[15,"Type it in Croatian",14]]},"Grammar 6":{"naslov":"The Accusative (Masculine): Living vs. Non-living","v":[[1,"The rule: living & non-living",8],[2,"Does it change or not?",12],[3,"Tap the ending: living or thing?",12],[4,"The rule: the letter that falls out",8],[5,"Does it squeeze?",12],[6,"Type the accusative",14],[7,"The whole map in one tap",12],[8,"The correct sentence",12],[9,"The rule: replacing the target with one small word",8],[10,"Which pronoun replaces it?",12],[11,"Replace the target",14],[12,"Pick the pronoun",12],[13,"The rule: they lean",8],[14,"Where does the pronoun go?",12],[15,"Answer without repeating",14],[16,"Build the sentence",12]]},"Practice 6":{"naslov":"Reading: City Life","v":[[1,"Text 1: The tram",8],[2,"Did you get it?",12],[3,"Text 2: Who sees whom?",8],[4,"Solve the puzzle",12],[5,"Changed or not?",12],[6,"Text 3: Lost and found",8],[7,"About the notice",12],[8,"Answer without repeating",10],[9,"Text 4: Traffic",8],[10,"Tap the ending from the texts",12],[11,"Type the accusative",14],[12,"Say it with a pronoun",14],[13,"Ana's tram ride, in order",9],[14,"Translate by building",12],[15,"Pop the right balloon",12]]},"Test 6":{"naslov":"Test 6: The City & the Full Accusative","v":[[1,"Match the words",10],[2,"What does it mean?",12],[3,"Does it change after \"vidim\"?",12],[4,"Does it squeeze?",12],[5,"Which pronoun replaces it?",12],[6,"Tap the ending: living or thing?",12],[7,"The whole map in one tap",12],[8,"Type the accusative",14],[9,"Replace the target",14],[10,"Where does the pronoun go?",12],[11,"Answer without repeating",14],[12,"Build the sentence",12],[13,"Write it in Croatian",14]]},"Lesson 7":{"naslov":"At School: The Plural","v":[[1,"The world multiplies",6],[2,"Rapid recall",11],[3,"School words",11],[4,"One becomes many",11],[5,"The plural patterns",6],[6,"Sort the plurals",13],[7,"Tap the plural ending",13],[8,"Verbs go plural too",6],[9,"Tap the person",13],[10,"Pick the right form",13],[11,"Make it plural",16],[12,"Build the classroom",13],[13,"Morning at school",11],[14,"Memory",11],[15,"A day in the classroom",11],[16,"Lesson checkpoint",22],[17,"Reward & preview",6]]},"Vocabulary 7":{"naslov":"School & Songs","v":[[1,"Masculine — one becomes many with -i",11],[2,"Short masculine words stretch to -ovi",7],[3,"Feminine — -a becomes -e",11],[4,"Neuter — -o or -e becomes -a",7],[5,"The rebels",7],[6,"Ten new verbs",8],[7,"School subjects",7],[8,"Small words for the classroom",9],[9,"Which plural ending?",13],[10,"Regular or rebel?",13],[11,"Match the pictures",9],[12,"Match the pairs",11],[13,"Memory: singular & plural",11],[14,"Speed challenge: make it plural",11],[15,"Speed challenge: what is it?",11],[16,"Build the word",13],[17,"Type the plural",16],[18,"Type it in Croatian",16]]},"Grammar 7":{"naslov":"The Plural System","v":[[1,"The rule: plurals of nouns & adjectives",9],[2,"The rule: when k, g and h soften",6],[3,"Which plural ending?",13],[4,"Tap the plural ending",13],[5,"Regular or rebel?",13],[6,"Type the plural",16],[7,"The adjective follows the noun",13],[8,"The rule: the complete present tense",9],[9,"Tap the person",13],[10,"Tap what THEY do",13],[11,"What do THEY do?",13],[12,"Type the verb",16],[13,"The rule: many targets",9],[14,"Does it change in the plural?",13],[15,"Tap the plural target",13],[16,"Type the plural target",16],[17,"Build the sentence",13]]},"Practice 7":{"naslov":"Reading: School Days","v":[[1,"Text 1: The school",9],[2,"Did you get it?",11],[3,"Text 2: The timetable",9],[4,"Reading a timetable",13],[5,"Text 3: The choir",9],[6,"True or false?",11],[7,"Type the plural verb",16],[8,"Text 4: Four classmates",9],[9,"Solve the puzzle",13],[10,"Text 5: New pupils",9],[11,"Order the dialogue",11],[12,"Talking about the class",11],[13,"Tap the plural ending from the texts",13],[14,"Make it a target",16],[15,"A school morning, in order",10],[16,"Translate by building",13],[17,"Pop the right balloon",13]]},"Test 7":{"naslov":"Test 7: The Plural System","v":[[1,"Match the words",11],[2,"What does it mean?",13],[3,"Regular, -ovi or rebel?",13],[4,"What do THEY do?",13],[5,"Tap what THEY do",13],[6,"Does it change in the plural?",13],[7,"Tap the plural ending",13],[8,"Tap the person",13],[9,"Tap the plural target",13],[10,"Type the plural",16],[11,"The adjective follows the noun",13],[12,"Type the verb",16],[13,"Type the plural target",16],[14,"Build the sentence",13],[15,"Write it in Croatian",16]]},"Lesson 8":{"naslov":"Summer Plans: The Future Tense","v":[[1,"Summer is coming!",7],[2,"Rapid recall",12],[3,"Travel words",12],[4,"The future helpers",7],[5,"Match the helpers",10],[6,"Who will it be?",15],[7,"Pick the helper",15],[8,"Long or short?",15],[9,"Today → tomorrow",17],[10,"Saying which day",10],[11,"Build the plan",15],[12,"Now or later?",15],[13,"Helper sprint",12],[14,"Weekend plans",12],[15,"A summer plan",12],[16,"Lesson checkpoint",25],[17,"Reward & preview",7]]},"Vocabulary 8":{"naslov":"Plans & Travel","v":[[1,"Where you're going",12],[2,"Getting there",12],[3,"What you'll pack",8],[4,"When",12],[5,"Ten new verbs",9],[6,"Words for the road",10],[7,"Sea or suitcase?",15],[8,"Which family?",10],[9,"Match the pictures",10],[10,"Match the pairs",12],[11,"Memory",12],[12,"Speed challenge: the future stem",12],[13,"Speed challenge: what is it?",12],[14,"Build the word",15],[15,"Type the future stem",17],[16,"Type it in Croatian",17]]},"Grammar 8":{"naslov":"Futur I","v":[[1,"The rule: helpers & two word orders",10],[2,"The rule: the third time you meet this",10],[3,"Match pronoun & helper",10],[4,"Who will it be?",15],[5,"Long or short?",15],[6,"The correctly written sentence",15],[7,"The second word order",17],[8,"Put it in the future",17],[9,"The rule: the future that won't",10],[10,"Leans or opens?",15],[11,"Positive or negative future?",15],[12,"Say you won't",17],[13,"The rule: the helper's stressed twin",10],[14,"Short or full form?",15],[15,"Build the sentence",15]]},"Practice 8":{"naslov":"Reading: Plans & Journeys","v":[[1,"Text 1: Summer plan",10],[2,"Did you get it?",15],[3,"Text 2: The packing list",10],[4,"Remember the list",15],[5,"What's in the suitcase?",15],[6,"Text 3: The ticket",10],[7,"Reading a ticket",12],[8,"Text 4: Four friends, four plans",10],[9,"Solve the puzzle",15],[10,"Text 5: The journey",10],[11,"Long or short, from the texts",15],[12,"Type the future form",17],[13,"Say you won't",17],[14,"Now or later?",12],[15,"Weekend plans",12],[16,"The journey, in order",11],[17,"Translate by building",15],[18,"Pop the right balloon",15]]},"Test 8":{"naslov":"Test 8: Summer Plans & the Future","v":[[1,"Match the words",12],[2,"What does it mean?",15],[3,"Who will it be?",15],[4,"Leans or opens?",15],[5,"Now or later?",15],[6,"Long or short?",15],[7,"The correctly written sentence",15],[8,"Positive or negative future?",15],[9,"Type the future stem",17],[10,"Put it in the future",17],[11,"The second word order",17],[12,"Say you won't",17],[13,"Build the sentence",15],[14,"Write it in Croatian",17]]},"Lesson 9":{"naslov":"Sport & Hobbies: Making It Yours","v":[[1,"Words you already know",7],[2,"Rapid recall",14],[3,"Sport & hobby words",14],[4,"The body",13],[5,"Ten new verbs",10],[6,"Match the pictures",10],[7,"The rule: it follows the thing, not the owner",11],[8,"Whose is it?",14],[9,"Sort by the thing",17],[10,"Pick the right form",17],[11,"One tap decides it",17],[12,"Type the possessive",19],[13,"The rule: *svoj*, the one English is missing",11],[14,"*svoj* or *njegov*?",17],[15,"Build it",17],[16,"Is this your ball?",14],[17,"Read: our club",17],[18,"Lesson checkpoint",28],[19,"Reward & preview",7]]},"Vocabulary 9":{"naslov":"Sport & Hobbies","v":[[1,"Sport & hobbies (cognates!)",14],[2,"Possessives & more",14],[3,"Match the pairs",14],[4,"Memory (possessives)",9],[5,"Speed challenge",14]]},"Grammar 9":{"naslov":"Possessive Pronouns","v":[[1,"The rule: agreeing with the thing owned",7],[2,"Whose ending wins?",11],[3,"Type the form",13],[4,"Sort by the gender of the thing owned",11],[5,"The rule: svoj — the possessive English doesn't have",11],[6,"svoj or njegov?",17],[7,"Type the possessive",19],[8,"Build the sentence",14]]},"Practice 9":{"naslov":"Reading: Our Club, My Hobby","v":[[1,"Text 1: My hobby",11],[2,"Did you get it?",11],[3,"Type the possessive",13],[4,"Text 2: Is this your ball?",11],[5,"True or false?",11],[6,"Order the dialogue",12],[7,"Text 3: Our club",11],[8,"Did you get it?",11],[9,"Translate by building",11]]},"Lesson 10":{"naslov":"Yesterday: The Past Tense","v":[[1,"Telling stories",8],[2,"Rapid recall",15],[3,"The past participle",10],[4,"Make the participle",15],[5,"Who's talking?",8],[6,"He, she or they?",12],[7,"Pick the right combo",12],[8,"Word order",8],[9,"Today → yesterday",14],[10,"Build yesterday",15],[11,"How was it?",11],[12,"Module B final checkpoint",26],[13,"Reward & preview",8]]},"Vocabulary 10":{"naslov":"Yesterday & Free Time","v":[[1,"Free time & time words",14],[2,"Participles (m. / f. / pl.)",15],[3,"Match the pairs (verb → participle)",15],[4,"Memory",13],[5,"Speed challenge",15]]},"Grammar 10":{"naslov":"The Perfekt (Past Tense)","v":[[1,"The rule: the past tense formula",9],[2,"Type the participle",18],[3,"The correct sentence",12],[4,"The yesterday version",14],[5,"The rule: the past that didn't happen",12],[6,"Say it didn't happen",21],[7,"The correct negative",15],[8,"Build the story",15]]},"Practice 10":{"naslov":"Reading: Last Weekend","v":[[1,"Text 1: Yesterday",12],[2,"Did you get it?",12],[3,"Type the past form",14],[4,"Text 2: How was it?",12],[5,"True or false?",12],[6,"He or she?",12],[7,"Order the dialogue",17],[8,"Text 3: Last weekend",10],[9,"Did you get it?",12],[10,"Translate by building",12]]},"Lesson 11":{"naslov":"The Perfect Present: Asking Questions","v":[[1,"Time to ask",9],[2,"Rapid recall",17],[3,"The question words",11],[4,"Question match",17],[5,"Yes/no questions: the particle \"li\"",9],[6,"Build the question",14],[7,"Pick the question word",20],[8,"Type the question word",20],[9,"The interview",17],[10,"The present hunt",14],[11,"Lesson checkpoint",23],[12,"Reward & preview",9]]},"Vocabulary 11":{"naslov":"Presents & Questions","v":[[1,"Question words",13],[2,"Presents, verbs & more",17],[3,"Match the pairs",17],[4,"Memory",14],[5,"Speed challenge",17]]},"Grammar 11":{"naslov":"Questions","v":[[1,"The rule: three ways to ask",9],[2,"Make a li-question",16],[3,"Find the question",14],[4,"Which type of question?",14],[5,"The rule: the three question words that agree",14],[6,"koji or kakav?",20],[7,"Type the question word",24],[8,"Build the questions",17]]},"Practice 11":{"naslov":"Reading: The Present Mystery","v":[[1,"Text 1: The present",14],[2,"Did you get it?",14],[3,"Type the question word",16],[4,"Text 2: The mystery",14],[5,"Match question & answer",11],[6,"Text 3: The quiz show",14],[7,"True or false?",14],[8,"Now YOU are on the quiz!",16],[9,"Translate by building",14]]},"Lesson 12":{"naslov":"The Art of Saying No: Negation","v":[[1,"Time to say NO",10],[2,"Rapid recall",19],[3,"The basic \"ne\" + new food",13],[4,"Say no to everything",18],[5,"Two exceptions: biti and imati",10],[6,"Pick the right form",19],[7,"Double negatives are GOOD here",10],[8,"Stack the negatives",15],[9,"Sort the forms",15],[10,"Build the protest",19],[11,"The picky eater",16],[12,"Lesson checkpoint",25],[13,"Reward & preview",10]]},"Vocabulary 12":{"naslov":"Food We (Don't) Like","v":[[1,"Food",13],[2,"Negation & more",19],[3,"Match the pairs",19],[4,"Memory",16],[5,"Speed challenge",19]]},"Grammar 12":{"naslov":"Negation","v":[[1,"The rule: ne + three fused verbs",10],[2,"Make it negative",18],[3,"The grammatical sentence",15],[4,"Positive or negative?",15],[5,"The rule: not this — but that",15],[6,"ali or nego?",23],[7,"Correct it with nego",22],[8,"Build the sentence",19]]},"Practice 12":{"naslov":"Reading: The Picky Eaters","v":[[1,"Text 1: I don't like soup",15],[2,"True or false?",15],[3,"Type the negation",18],[4,"Text 2: At the restaurant",15],[5,"Did you get it?",15],[6,"Order the dialogue",19],[7,"Text 3: Marko eats nothing",15],[8,"Did you get it?",15],[9,"Translate by building",15]]},"Lesson 13":{"naslov":"Where Are You? The Locative","v":[[1,"Going vs. being",11],[2,"Rapid recall",21],[3,"Place words",15],[4,"The rule: being somewhere",11],[5,"Match the place",21],[6,"Going or being?",17],[7,"Pick the right form",25],[8,"Type the locative",29],[9,"Build your day",21],[10,"Where is everyone?",17],[11,"Lesson checkpoint",28],[12,"Reward & preview",11]]},"Vocabulary 13":{"naslov":"Places & Institutions","v":[[1,"Places (with the locative)",14],[2,"People, words & extra places",21],[3,"Match the pairs",21],[4,"Memory",14],[5,"Speed challenge",21]]},"Grammar 13":{"naslov":"The Locative","v":[[1,"The rule: where? — always with a preposition",14],[2,"Type the locative",24],[3,"Accusative or locative?",17],[4,"u or na?",17],[5,"The rule: about me, about you",17],[6,"Type the pronoun",29],[7,"Singular or plural place?",21],[8,"Build the sentence",21]]},"Practice 13":{"naslov":"Reading: Around Town","v":[[1,"Text 1: My neighborhood",17],[2,"Did you get it?",17],[3,"Type the locative",20],[4,"Text 2: Where are you?",17],[5,"Who is where?",14],[6,"Order the dialogue",24],[7,"Text 3: A day in the city",17],[8,"Put the day in order",17],[9,"True or false?",17],[10,"Translate by building",17]]},"Lesson 14":{"naslov":"Giving: The Dative","v":[[1,"December generosity",12],[2,"Rapid recall",23],[3,"Gift words",16],[4,"The receiver endings",12],[5,"Who gets what?",23],[6,"Pick the right form",28],[7,"Type the dative",33],[8,"Three giving verbs",12],[9,"Build the gift list",23],[10,"Memory",16],[11,"The generous brother",19],[12,"Lesson checkpoint",31],[13,"Reward & preview",12]]},"Vocabulary 14":{"naslov":"Giving & Receivers","v":[[1,"Presents & things to give",16],[2,"Receivers (with the dative) & verbs",23],[3,"Match the pairs",23],[4,"Memory",19],[5,"Speed challenge",23]]},"Grammar 14":{"naslov":"The Dative","v":[[1,"The rule: the receiver",13],[2,"Type the dative",27],[3,"Dative or locative?",19],[4,"Pick the form",19],[5,"The rule: the receiver in one syllable",19],[6,"Replace the receiver",33],[7,"Which little word?",23],[8,"Build the sentence",23]]},"Practice 14":{"naslov":"Reading: December Gifts","v":[[1,"Text 1: Presents",19],[2,"Who gets what?",23],[3,"Type the dative",22],[4,"Text 2: Who are you writing to?",19],[5,"Did you get it?",19],[6,"Order the dialogue",23],[7,"Text 3: The postman",19],[8,"True or false?",19],[9,"Type the receiver",22],[10,"Translate by building",19]]},"Lesson 15":{"naslov":"Going Out: The Instrumental","v":[[1,"Friday night!",14],[2,"Rapid recall",26],[3,"The company endings",14],[4,"Who are you going with?",26],[5,"By train, by bus: means without \"s\"",14],[6,"s or no s?",21],[7,"Pick the right form",31],[8,"Type the instrumental",36],[9,"Build the night out",26],[10,"Concert plans",22],[11,"Module C checkpoint",43],[12,"Reward & preview",14]]},"Vocabulary 15":{"naslov":"Company & Going Out","v":[[1,"Going out & company",20],[2,"Transport, verbs & little words",26],[3,"Match the pairs",26],[4,"Memory",22],[5,"Speed challenge",26]]},"Grammar 15":{"naslov":"The Instrumental","v":[[1,"The rule: with whom? with what?",14],[2,"Type the instrumental",30],[3,"s, sa or nothing?",21],[4,"Company or means?",21],[5,"The rule: with me, with you",21],[6,"Type the pronoun",36],[7,"Person or vehicle?",31],[8,"Build the sentence",26]]},"Practice 15":{"naslov":"Reading: Friday Night & Train Rides","v":[[1,"Text 1: Going out",21],[2,"Did you get it?",21],[3,"Type the instrumental",24],[4,"Text 2: Who are you going with?",21],[5,"True or false?",21],[6,"Order the dialogue",26],[7,"Text 3: A train journey",20],[8,"Who travels with what?",17],[9,"Company or means?",21],[10,"Translate by building",21]]},"Lesson 16":{"naslov":"Grandma's House: The Genitive","v":[[1,"Whose? Without what? From where?",15],[2,"Rapid recall",29],[3,"House & home words",20],[4,"The genitive endings",15],[5,"Whose is it?",29],[6,"Pick the right form",34],[7,"Type the genitive",40],[8,"\"Nema\" — the useful no",15],[9,"Build it",29],[10,"Memory",19],[11,"At the café",21],[12,"Lesson checkpoint",38],[13,"Reward & preview",15]]},"Vocabulary 16":{"naslov":"House, Home & Belonging","v":[[1,"House & home (with the genitive)",22],[2,"Prepositions, phrases & cognates",29],[3,"Match the pairs",29],[4,"Memory (prepositions)",19],[5,"Speed challenge",29]]},"Grammar 16":{"naslov":"The Genitive","v":[[1,"The rule: the busiest case",19],[2,"Type the genitive",33],[3,"Which case is it?",23],[4,"Pick the preposition",23],[5,"The rule: counting reaches for the genitive",23],[6,"Which form after the number?",34],[7,"Order it",40],[8,"Build the sentence",29]]},"Practice 16":{"naslov":"Reading: Grandma's House & the Road to the Sea","v":[[1,"Text 1: My grandma's house",23],[2,"Did you get it?",23],[3,"Type the genitive",27],[4,"Text 2: No sugar",23],[5,"True or false?",23],[6,"Order the dialogue",29],[7,"Text 3: From Zagreb to the sea",19],[8,"Put the journey in order",23],[9,"Type the genitive",27],[10,"Translate by building",23]]},"Lesson 17":{"naslov":"Take Command: The Imperative","v":[[1,"Time to give orders",17],[2,"Rapid recall",32],[3,"Kitchen & street words",24],[4,"Making commands",17],[5,"Spot the command",32],[6,"Pick the form",32],[7,"Saying \"don't\"",17],[8,"Make it negative",30],[9,"The recipe",32],[10,"Build the instructions",32],[11,"Lost in town",27],[12,"Lesson checkpoint",42],[13,"Reward & preview",17]]},"Vocabulary 17":{"naslov":"Recipes & Directions","v":[[1,"In the kitchen & on the street",31],[2,"Commands (verb → imperative ti / vi)",32],[3,"Match the pairs",32],[4,"Memory (commands)",27],[5,"Speed challenge",32]]},"Grammar 17":{"naslov":"The Imperative","v":[[1,"The rule: commands, recipes & directions",21],[2,"Make the command (ti)",37],[3,"For a group",30],[4,"The gentler \"nemoj\"",25],[5,"Command or statement?",25],[6,"The rule: asking instead of ordering",25],[7,"Command or request?",25],[8,"Make it polite",37],[9,"Type the modal",37],[10,"Build the sentence",32]]},"Practice 17":{"naslov":"Reading: Recipes, Directions & Coach Zvone","v":[[1,"Text 1: Pancakes (a recipe)",25],[2,"Put the recipe in order",32],[3,"Type the command",30],[4,"Text 2: Directions",25],[5,"Put the route in order",25],[6,"True or false?",25],[7,"Text 3: The coach",25],[8,"Who gets which order?",21],[9,"One person or a group?",25],[10,"Translate by building",25]]},"Lesson 18":{"naslov":"A Million Euros: The Conditional","v":[[1,"Imagine...",19],[2,"Rapid recall",35],[3,"The dream helpers",19],[4,"Match the helpers",24],[5,"Past or dream?",28],[6,"Pick the helper",35],[7,"The magic phrase: Htio bih...",19],[8,"Today → in your dreams",33],[9,"Build the dream",35],[10,"Where would you live?",26],[11,"Lesson checkpoint",47],[12,"Reward & preview",19]]},"Vocabulary 18":{"naslov":"Wishes & Dreams","v":[[1,"Dreams & helpers",24],[2,"Verbs, little words & cognates",35],[3,"Match the pairs",35],[4,"Memory",29],[5,"Speed challenge",35]]},"Grammar 18":{"naslov":"The Conditional (Kondicional I)","v":[[1,"The rule: what would be",20],[2,"Type the helper",33],[3,"The grammatical sentence",28],[4,"Past, future or dream?",28],[5,"The rule: putting a condition in front of the dream",28],[6,"Real or unreal?",28],[7,"ako or da?",35],[8,"Finish the condition",33],[9,"Build the dream",35]]},"Practice 18":{"naslov":"Reading: A Million Euros & the Perfect Day","v":[[1,"Text 1: A million euros",28],[2,"Did you get it?",28],[3,"Type the conditional",33],[4,"Text 2: Where would you live?",28],[5,"True or false?",28],[6,"Order the dialogue",35],[7,"Text 3: The perfect day",28],[8,"Put the perfect day in order",28],[9,"Did you get it?",28],[10,"Translate by building",28]]},"Lesson 19":{"naslov":"Verb Twins: Aspect","v":[[1,"The deepest secret",21],[2,"Rapid recall",39],[3,"Meet the twins",26],[4,"Find the twin",39],[5,"When to use which",21],[6,"Process or done?",31],[7,"Pick the twin",47],[8,"Type the twin",55],[9,"Build the story",39],[10,"Did you finish?",37],[11,"Lesson checkpoint",52],[12,"Reward & preview",21]]},"Vocabulary 19":{"naslov":"Stories & Events","v":[[1,"Verb twins (process → done)",26],[2,"Time signals & more",39],[3,"Match the pairs (twins)",39],[4,"Memory",33],[5,"Speed challenge",39]]},"Grammar 19":{"naslov":"Verbal Aspect (Glagolski vid)","v":[[1,"The rule: is the action finished?",22],[2,"Match the twins",33],[3,"Pick the twin",31],[4,"Signal words",31],[5,"The rule: when the prefix isn't just aspect",31],[6,"Twin or new verb?",31],[7,"Which prefix?",39],[8,"Which command?",39],[9,"Build the sentence",39]]},"Practice 19":{"naslov":"Reading: The Letter & the Homework Interrogation","v":[[1,"Text 1: The letter",31],[2,"Did you get it?",31],[3,"Process or done?",31],[4,"Text 2: Two verbs, one day",26],[5,"Who did it how?",26],[6,"Type the right twin",37],[7,"Text 3: Did you finish your homework?",31],[8,"True or false?",31],[9,"What does it really mean?",31],[10,"Translate by building",31]]},"Lesson 20":{"naslov":"The Grand Finale: Complex Sentences","v":[[1,"Finish strong",23],[2,"Rapid recall",44],[3,"The five connectors",29],[4,"Match the connector",44],[5,"The glue word: koji",23],[6,"Pick the connector",44],[7,"koji, koja or koje?",44],[8,"Join the thoughts",41],[9,"Build the big sentences",44],[10,"Why are YOU learning Croatian?",32],[11,"THE FINAL CHECKPOINT",87],[12,"CONGRATULATIONS! 🎓",23]]},"Vocabulary 20":{"naslov":"Memories & Big Sentences","v":[[1,"Connectors",29],[2,"Summer, memories & final cognates",44],[3,"Match the pairs",44],[4,"Memory",36],[5,"Speed challenge",44]]},"Grammar 20":{"naslov":"Complex Sentences","v":[[1,"The rule: all together",29],[2,"Pick the connector",35],[3,"koji, koja, koje or koju?",35],[4,"Join with a connector",41],[5,"The rule: da — the connector that carries everything",35],[6,"Which connector?",52],[7,"koji in the right case",44],[8,"Join it with da",51],[9,"The final sentence",35]]},"Practice 20":{"naslov":"Reading: The Summer I Remember","v":[[1,"Text 1: The summer I remember",35],[2,"Did you get it?",35],[3,"Type the connector",41],[4,"Text 2: If it's sunny",35],[5,"Match condition & plan",29],[6,"Order the dialogue",44],[7,"Text 3: Why I'm learning Croatian (an essay)",29],[8,"True or false?",35],[9,"The essay's key sentence",41],[10,"Translate by building",35],[11,"Final challenge",23]]},"Daily challenge 1":{"naslov":"Jutarnja kava ☕","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Match the morning",6],[4,"Finish the scene",5],[5,"Reward",3]]},"Daily challenge 2":{"naslov":"Na moru 🌊","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Sort the postcard",5],[4,"Speed round",6],[5,"Reward",3]]},"Daily challenge 3":{"naslov":"U kafiću 🥤","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Build the conversation",5],[4,"Quick replay",4],[5,"Reward",3]]},"Daily challenge 4":{"naslov":"Na tržnici 🍎","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Fill the basket",6],[4,"Market memory",4],[5,"Reward",3]]},"Daily challenge 5":{"naslov":"Grad u bojama 🎨","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Color the town",7],[4,"Type the ending",6],[5,"Reward",3]]},"Daily challenge 6":{"naslov":"Obitelj 👨‍👩‍👧","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Who is who?",6],[4,"Introduce them",5],[5,"Reward",3]]},"Daily challenge 7":{"naslov":"Rođendan 🎂","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Count the candles",7],[4,"Number rush",6],[5,"Reward",3]]},"Daily challenge 8":{"naslov":"Tko si ti? 👋","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Match the pairs",4],[4,"Introduce the guests",5],[5,"Reward",3]]},"Daily challenge 9":{"naslov":"Kakvo je vrijeme? ⛅","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Weather map",6],[4,"Read the forecast",5],[5,"Reward",3]]},"Daily challenge 10":{"naslov":"Dan suprotnosti 🙃","v":[[1,"Intro",3],[2,"True or false?",5],[3,"Fix the world",6],[4,"Hard mode",5],[5,"Reward",3]]},"Daily challenge 11":{"naslov":"Na selu 🐄","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Who said that?",6],[4,"Farm memory",4],[5,"Reward",3]]},"Daily challenge 12":{"naslov":"U restoranu 🍽","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Order dinner",5],[4,"Dinner dialogue",5],[5,"Reward",3]]},"Daily challenge 13":{"naslov":"Dvije banane, molim 🍌🍌","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"One or many?",5],[4,"Shopping list",6],[5,"Reward",3]]},"Daily challenge 14":{"naslov":"Vrijeme leti 📅","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Sort the diary",5],[4,"Complete the diary",5],[5,"Reward",3]]},"Daily challenge 15":{"naslov":"Na put! ✈️","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Speed run",6],[4,"The itinerary",5],[5,"Reward",3]]},"Daily challenge 16":{"naslov":"Detektiv 🕵️","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Question or answer?",4],[4,"Solve the case",4],[5,"Reward",3]]},"Daily challenge 17":{"naslov":"Robot 🤖","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Assemble the robot",6],[4,"Robot says!",6],[5,"Reward",3]]},"Daily challenge 18":{"naslov":"Tvoj hrvatski dan 🏆","v":[[1,"Intro",3],[2,"The story",4],[3,"Did you get it?",6],[4,"Grand speed finale",6],[5,"Reward",3]]},"Daily challenge 19":{"naslov":"Modna revija 👕","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Dress the model",6],[4,"Fashion critic",5],[5,"Reward",3]]},"Daily challenge 20":{"naslov":"Lijena nedjelja 📖","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"What am I doing?",6],[4,"Narrate your Sunday",5],[5,"Reward",3]]},"Daily challenge 21":{"naslov":"Beach bar 🍹","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"The chalkboard",6],[4,"Order up",5],[5,"Say it smoothly",5],[6,"Reward",3]]},"Daily challenge 22":{"naslov":"Kavu, molim! ☕➡️","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Shelf or hand?",7],[4,"Type the ending",6],[5,"Reward",3]]},"Daily challenge 23":{"naslov":"Razgledavanje 🗺","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Pin the map",6],[4,"Lost tourist",5],[5,"Reward",3]]},"Daily challenge 24":{"naslov":"Tombola! 🎱","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Cross it off",7],[4,"Number rush II",6],[5,"Reward",3]]},"Daily challenge 25":{"naslov":"Mi smo tim! ⚽","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Match the squads",6],[4,"Stadium announcer",5],[5,"Reward",3]]},"Daily challenge 26":{"naslov":"Sportski dan 🏀","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Court by court",6],[4,"What do you play?",5],[5,"Reward",3]]},"Daily challenge 27":{"naslov":"Volim / ne volim ❤️","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Hearts and crosses",5],[4,"Your turn",5],[5,"Reward",3]]},"Daily challenge 28":{"naslov":"Koncert 🎸","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Backstage pass",6],[4,"At the show",5],[5,"Reward",3]]},"Daily challenge 29":{"naslov":"U prirodi 🏞","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"The panorama",6],[4,"Gender check at the summit",5],[5,"Describe the view",5],[6,"Reward",3]]},"Daily challenge 30":{"naslov":"Detektiv 2: Nestala gitara 🕵️🎸","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"The interrogation board",6],[4,"Crack the case",4],[5,"Reward",3]]},"Daily challenge 31":{"naslov":"Kako si? 😊","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Emoji match",6],[4,"How is everyone?",6],[5,"Reward",3]]},"Daily challenge 32":{"naslov":"Sedam dana 📆","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Sort the week",5],[4,"The planner",5],[5,"Reward",3]]},"Daily challenge 33":{"naslov":"Vikend u Hrvatskoj 🏆","v":[[1,"Intro",3],[2,"The story",5],[3,"Did you live it?",6],[4,"Grand speed finale II",6],[5,"Reward",3]]},"Daily challenge 34":{"naslov":"Ključevi od kuće 🔑","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Which room?",6],[4,"Show me around",5],[5,"Reward",3]]},"Daily challenge 35":{"naslov":"Gdje je mačka? 🙈","v":[[1,"Intro",3],[2,"The pattern",4],[3,"Change the shape",6],[4,"The search",6],[5,"Reward",3]]},"Daily challenge 36":{"naslov":"Selidba 📦","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Unpack the boxes",4],[4,"Where does it go?",6],[5,"Reward",3]]},"Daily challenge 37":{"naslov":"Što imaš u torbi? 🎒","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Fill the form",7],[4,"The inspection",6],[5,"Reward",3]]},"Daily challenge 38":{"naslov":"Prvi dan škole 🍎","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"People or things?",5],[4,"The lesson",6],[5,"Reward",3]]},"Daily challenge 39":{"naslov":"Tko radi što? 👮‍♀️","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Who do you need?",6],[4,"At the doctor's",5],[5,"Reward",3]]},"Daily challenge 40":{"naslov":"Intervju 🎤","v":[[1,"Intro",3],[2,"The pattern",4],[3,"On air",7],[4,"Ask the guest",6],[5,"Reward",3]]},"Daily challenge 41":{"naslov":"Zadnji tramvaj 🚋","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Rush hour",6],[4,"Thirteen minutes",6],[5,"Reward",3]]},"Daily challenge 42":{"naslov":"Koliko je sati? 🕐","v":[[1,"Intro",3],[2,"Words of the day",4],[3,"Around the clock",6],[4,"Catching the train",6],[5,"Reward",3]]},"Daily challenge 43":{"naslov":"Dan u gradu 🌆","v":[[1,"Intro",3],[2,"The story",4],[3,"Did you follow?",6],[4,"City speed run",6],[5,"Reward",3]]}};
+
+/* ================= PRAVILA (preslikana iz index.html) ================= */
+var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];
+var VALUTA_TIPA = { Lesson: 'LP', Vocabulary: 'VP', Grammar: 'GP', Practice: 'PP' };
+var BOJA_TIPA = { Lesson: 'var(--cLP)', Vocabulary: 'var(--cVP)', Grammar: 'var(--cGP)',
+                  Practice: 'var(--cPP)', Test: 'var(--cTest)' };
+var PUNO_IME = { LP: 'Lesson points', VP: 'Vocabulary points', GP: 'Grammar points', PP: 'Practice points' };
+var K_PRAG = { 2:0.50, 3:0.56, 4:0.61, 5:0.64, 6:0.67, 7:0.70, 8:0.73, 9:0.75, 10:0.78,
+               11:0.80, 12:0.82, 13:0.85, 14:0.87, 15:0.89, 16:0.91, 17:0.93, 18:0.95, 19:0.97, 20:0.99 };
+var MAX_RAZINA = 20;
+
+var MINI_IGRE = [
+  { id:'grad', emo:'🏙', ime:'Grad', stil:'RPG · 3/5', maks:100 },
+  { id:'put', emo:'🛣', ime:'Put oko Hrvatske', stil:'Oregon Trail · 2–4/5', maks:100 },
+  { id:'pamti', emo:'🧠', ime:'Pamti pa piši', stil:'memory + typing · 4/5', maks:100 },
+  { id:'tvrdjava', emo:'🏰', ime:'Tvrđava', stil:'point-and-click · 3/5', maks:100 },
+  { id:'konoba', emo:'🍽', ime:'Konoba', stil:'serving · 2/5', maks:50 },
+  { id:'skladiste', emo:'📦', ime:'Skladište', stil:'Sokoban · 1–5/5', maks:100 },
+  { id:'vlak', emo:'🚆', ime:'Poštanski vlak', stil:'sorting · 2/5', maks:30 },
+  { id:'labirint', emo:'🌀', ime:'Labirint', stil:'Pac-Man · 3/5', maks:30 },
+  { id:'zmija', emo:'🐍', ime:'Zmija', stil:'Snake · 3/5', maks:30 },
+  { id:'mario', emo:'🍄', ime:'Mario', stil:'platformer · 3/5', maks:50 },
+  { id:'prezivljavanje', emo:'💀', ime:'Preživljavanje', stil:'EN→HR · 3/5', maks:100 },
+  { id:'obrana', emo:'🛡', ime:'Obrana baze', stil:'falling words · 3/5', maks:40 }
+];
+
+/* ================= SIMULIRANO STANJE ================= */
+/* Deterministički "šum" da mockup uvijek izgleda isto. */
+function sum(s) { var h = 2166136261; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return ((h >>> 0) % 1000) / 1000; }
+/* Dokle je polaznik stigao po vrsti, i koliko čisto radi. */
+var DOSEG = { Lesson: 8, Vocabulary: 7, Grammar: 6, Practice: 6, Test: 6 };
+var VJEZBE = {};   /* "Cjelina|stranica|naslov" -> osvojeno */
+
+function kljucV(c, s, n) { return c + '|' + s + '|' + n; }
+function napuni() {
+  Object.keys(CJELINE).forEach(function (c) {
+    var d = razlomi(c); if (!d) return;
+    var doseg = DOSEG[d.tip];
+    CJELINE[c].v.forEach(function (v) {
+      var k = kljucV(c, v[0], v[1]), r = sum(k), udio;
+      if (d.tip === 'Daily challenge') { udio = (d.razina <= 43 && r > 0.62) ? 0.6 + r * 0.4 : 0; }
+      else if (d.razina === 0) { udio = 1; }
+      else if (!doseg || d.razina > doseg) { udio = 0; }
+      else if (d.razina < doseg - 1) { udio = r > 0.14 ? 0.72 + r * 0.28 : 0.3 + r; }
+      else if (d.razina === doseg - 1) { udio = r > 0.3 ? 0.55 + r * 0.45 : (r > 0.12 ? r : 0); }
+      else { udio = r > 0.55 ? 0.4 + r * 0.5 : 0; }
+      /* Grammar namjerno slabiji — da se vidi čemu služi "worth going back to" */
+      if (d.tip === 'Grammar') udio *= 0.78;
+      VJEZBE[k] = Math.min(v[2], Math.round(v[2] * Math.max(0, Math.min(1, udio))));
+    });
+  });
+}
+var STREAK_NIZ = 6, STREAK_BODOVI = 84, BROJ_RIJECI = 214;
+var MINI_STANJE = { grad: 100, put: 62, pamti: 0, tvrdjava: 45, konoba: 50, skladiste: 0,
+                    vlak: 30, labirint: 18, zmija: 0, mario: 50, prezivljavanje: 0, obrana: 40 };
+
+/* ================= IZVEDENO ================= */
+function razlomi(c) {
+  var m = /^(.*?)\s+(\d+)$/.exec(c);
+  if (!m) return null;
+  return { tip: m[1], razina: +m[2] };
+}
+function cjelina(tip, razina) { return CJELINE[tip + ' ' + razina] || null; }
+function maksCjeline(tip, razina) {
+  var c = cjelina(tip, razina); if (!c) return 0;
+  var s = 0; c.v.forEach(function (v) { s += v[2]; }); return s;
+}
+function osvCjeline(tip, razina) {
+  var c = cjelina(tip, razina); if (!c) return 0;
+  var s = 0, k = tip + ' ' + razina;
+  c.v.forEach(function (v) { s += VJEZBE[kljucV(k, v[0], v[1])] || 0; });
+  return s;
+}
+function miniBodovi() { var s = 0; MINI_IGRE.forEach(function (g) { s += Math.min(MINI_STANJE[g.id] || 0, g.maks); }); return s; }
+
+var KES_VAL = null;
+function valute() {
+  if (KES_VAL) return KES_VAL;
+  var v = { LP: 0, VP: 0, GP: 0, PP: 0 }, tf = { LP: 0, VP: 0, GP: 0, PP: 0 };
+  Object.keys(CJELINE).forEach(function (c) {
+    var d = razlomi(c); if (!d || d.razina === 0) return;
+    var osv = osvCjeline(d.tip, d.razina);
+    if (VALUTA_TIPA[d.tip]) v[VALUTA_TIPA[d.tip]] += osv;
+    else if (d.tip === 'Test') ['LP','VP','GP','PP'].forEach(function (x) { tf[x] += osv / 4; });
+    else if (d.tip === 'Daily challenge') {
+      var m = maksCjeline(d.tip, d.razina);
+      if (m > 0) ['LP','VP','GP','PP'].forEach(function (x) { tf[x] += 5 * osv / m; });
+    }
+  });
+  ['LP','VP','GP','PP'].forEach(function (x) { v[x] += Math.round(tf[x]); });
+  var mb = miniBodovi();
+  ['LP','VP','GP','PP'].forEach(function (x) { v[x] += mb + STREAK_BODOVI; });
+  KES_VAL = v; return v;
+}
+function prag(tip, razina) {
+  if (razina <= 1) return 0;
+  var kum = 0;
+  for (var r = 1; r < razina; r++) kum += maksCjeline(tip, r) + maksCjeline('Test', r) / 4;
+  return Math.round((K_PRAG[razina] || 0.99) * kum / 5) * 5;
+}
+function otkljucano(tip, razina) {
+  if (razina <= 1) return true;
+  var val = VALUTA_TIPA[tip];
+  if (!val) return TIPOVI.slice(0, 4).every(function (t) { return otkljucano(t, razina); });
+  return valute()[val] >= prag(tip, razina);
+}
+function sljedeciPrag(tip) {
+  for (var r = 2; r <= MAX_RAZINA; r++) {
+    if (!maksCjeline(tip, r)) continue;
+    if (!otkljucano(tip, r)) return { razina: r, prag: prag(tip, r), naslov: (cjelina(tip, r) || {}).naslov || '' };
+  }
+  return null;
+}
+
+/* ================= POMOĆNO ================= */
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' })[c]; }); }
+function $(id) { return document.getElementById(id); }
+function brojiDo(el, do_, ms, sufiks) {
+  var t0 = null, od = 0;
+  function kadar(t) {
+    if (!t0) t0 = t;
+    var p = Math.min(1, (t - t0) / ms), e = 1 - Math.pow(1 - p, 3);
+    el.textContent = Math.round(od + (do_ - od) * e) + (sufiks || '');
+    if (p < 1) requestAnimationFrame(kadar);
+  }
+  requestAnimationFrame(kadar);
+}
+function animirajTrake(korijen) {
+  requestAnimationFrame(function () {
+    Array.prototype.forEach.call((korijen || document).querySelectorAll('[data-w]'), function (el, i) {
+      setTimeout(function () { el.style.width = el.getAttribute('data-w') + '%'; }, 40 + i * 18);
+    });
+  });
+}
+
+/* ================= TAB: YOU ================= */
+function crtajJa() {
+  var v = valute(), h = '';
+
+  /* --- valutne pločice s pragom --- */
+  h += '<div class="valutaRed">';
+  TIPOVI.slice(0, 4).forEach(function (tip) {
+    var val = VALUTA_TIPA[tip], sp = sljedeciPrag(tip), ima = v[val];
+    var pct = sp ? Math.min(100, Math.round(ima / sp.prag * 100)) : 100;
+    var doKud = sp
+      ? '<b>' + (sp.prag - ima) + '</b> more → ' + tip + ' ' + sp.razina
+      : 'every level open';
+    h += '<div class="valutaK' + (sp ? '' : ' pun') + '" style="--boja:' + BOJA_TIPA[tip] + '">' +
+      '<div class="imeV">' + PUNO_IME[val] + '</div>' +
+      '<div class="broj" data-do="' + ima + '">0</div>' +
+      '<div class="staza"><i data-w="' + pct + '"></i></div>' +
+      '<div class="doKud">' + doKud + '</div></div>';
+  });
+  h += '</div>';
+
+  /* --- sitne brojke --- */
+  var odigrano = 0, ukupnoVj = 0;
+  Object.keys(VJEZBE).forEach(function (k) { ukupnoVj++; if (VJEZBE[k] > 0) odigrano++; });
+  h += '<div class="statRed">' +
+    '<div class="statK"><div class="b">' + STREAK_NIZ + ' <span style="font-size:var(--t-m);color:var(--muted)">days</span></div>' +
+      '<div class="l">Daily streak · ' + STREAK_BODOVI + ' streak points</div></div>' +
+    '<div class="statK"><div class="b">' + BROJ_RIJECI + '</div><div class="l">Words in your dictionary</div></div>' +
+    '<div class="statK"><div class="b">' + odigrano + ' <span style="font-size:var(--t-m);color:var(--muted)">/ ' + ukupnoVj + '</span></div>' +
+      '<div class="l">Exercises played</div></div>' +
+    '<div class="statK"><div class="b">' + miniBodovi() + '</div><div class="l">Mini game points</div></div>' +
+    '</div>';
+
+  /* --- mreža --- */
+  h += '<h2 class="nas">Where you stand</h2>' +
+    '<p class="nasOpis">One square per unit. Click one to open it exercise by exercise — that is where you can ' +
+      'see which single exercise is still holding points, and jump straight back into it.</p>' +
+    '<div class="mrezaOkvir"><div class="mreza">' +
+    '<div></div>';
+  TIPOVI.forEach(function (t) { h += '<div class="mrezaGlava" style="color:' + BOJA_TIPA[t] + '">' + t + '</div>'; });
+  for (var r = 1; r <= MAX_RAZINA; r++) {
+    h += '<div class="mrezaRazina">' + r + '</div>';
+    for (var i = 0; i < TIPOVI.length; i++) {
+      var tip = TIPOVI[i], maks = maksCjeline(tip, r);
+      if (!maks) { h += '<div class="celija prazno"></div>'; continue; }
+      var osv = osvCjeline(tip, r), pct = Math.round(osv / maks * 100);
+      var otk = otkljucano(tip, r), boja = BOJA_TIPA[tip];
+      if (!otk) {
+        var val = VALUTA_TIPA[tip], p = prag(tip, r);
+        var opis = val ? (v[val] + ' / ' + p + ' ' + val) : 'all four types at level ' + r;
+        h += '<button class="celija zakljucana" style="--boja:' + boja + '" ' +
+          'title="Locked — needs ' + esc(opis) + '" data-zak="' + esc(tip + ' ' + r) + '">' +
+          '<div class="pct">🔒 locked</div>' +
+          '<div class="odn">' + esc(opis) + '</div></button>';
+      } else {
+        var kl = 'celija' + (pct >= 100 ? ' puna' : (osv === 0 ? ' nula' : ''));
+        h += '<button class="' + kl + '" style="--boja:' + boja + '" data-cjelina="' + esc(tip + ' ' + r) + '" ' +
+          'title="' + esc(tip + ' ' + r + ((cjelina(tip, r) || {}).naslov ? ' — ' + cjelina(tip, r).naslov : '')) + '">' +
+          (pct >= 100 ? '<span class="kvaka">✓</span>' : '') +
+          '<div><div class="pct">' + pct + '%</div>' +
+          '<div class="odn">' + osv + ' / ' + maks + '</div></div>' +
+          '<div class="staza"><i data-w="' + pct + '"></i></div></button>';
+      }
+    }
+  }
+  h += '</div></div>' +
+    '<div class="legenda">' +
+      '<span><i></i> not started</span>' +
+      '<span><i class="pola"></i> in progress</span>' +
+      '<span><i class="pun"></i> everything earned</span>' +
+      '<span><i class="zak"></i> locked — hover to see what it needs</span>' +
+    '</div>' +
+    '<div id="ladica"></div>';
+
+  /* --- vrijedi se vratiti --- */
+  h += '<h2 class="nas">Worth going back to</h2>' +
+    '<p class="nasOpis">The unlocked exercises holding the most points. Only your best attempt ever counts, ' +
+      'so replaying one can add points but never take them away.</p>' +
+    '<ul class="popravi">' + popraviHtml(6) + '</ul>';
+
+  /* --- daily --- */
+  var dOdr = 0, dDio = 0, dUk = 0, tock = '';
+  for (var q = 1; q <= 60; q++) {
+    var cd = cjelina('Daily challenge', q); if (!cd) continue;
+    dUk++;
+    var m = maksCjeline('Daily challenge', q), o = osvCjeline('Daily challenge', q);
+    var kls = o <= 0 ? '' : (o >= m ? 'd' : 'p');
+    if (o >= m) dOdr++; else if (o > 0) dDio++;
+    tock += '<i class="' + kls + '" title="Day ' + q + ' — ' + o + '/' + m + '"></i>';
+  }
+  h += '<h2 class="nas">Daily challenges</h2>' +
+    '<p class="nasOpis">' + dOdr + ' finished, ' + dDio + ' partly done, ' + (dUk - dOdr - dDio) + ' untouched. ' +
+      'Current streak ' + STREAK_NIZ + ' days — day 7 will be worth 7 points in every currency.</p>' +
+    '<div class="ploca"><div class="tockice">' + tock + '</div></div>';
+
+  /* --- mini igre --- */
+  var mh = '';
+  MINI_IGRE.forEach(function (g) {
+    var o = MINI_STANJE[g.id] || 0, pun = o >= g.maks;
+    mh += '<div class="miniR' + (o ? (pun ? ' pun' : '') : ' nula') + '" data-mini="' + g.id + '" ' +
+      'title="Open this mini game"><div class="e">' + g.emo + '</div>' +
+      '<div class="n">' + esc(g.ime) + '<small>' + esc(g.stil) + '</small></div>' +
+      '<div class="p">' + o + '<small>/' + g.maks + '</small></div></div>';
+  });
+  h += '<h2 class="nas">Mini games</h2>' +
+    '<p class="nasOpis">Each one pays out once, the same amount into all four currencies. ' +
+      'Click one to open it.</p>' +
+    '<div class="miniPopis">' + mh + '</div>';
+
+  $('tab-ja').innerHTML = h;
+
+  Array.prototype.forEach.call(document.querySelectorAll('#tab-ja .broj[data-do]'), function (el) {
+    brojiDo(el, +el.getAttribute('data-do'), 900);
+  });
+  animirajTrake($('tab-ja'));
+  Array.prototype.forEach.call(document.querySelectorAll('#tab-ja [data-cjelina]'), function (b) {
+    b.onclick = function () { otvoriLadicu(b.getAttribute('data-cjelina'), b); };
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('#tab-ja [data-vjezba]'), function (b) {
+    b.onclick = function () { pitajZaVjezbu(b.getAttribute('data-vjezba')); };
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('#tab-ja [data-mini]'), function (b) {
+    b.onclick = function () { pitajZaMini(b.getAttribute('data-mini')); };
+  });
+  $('valuteHeader').textContent = v.LP + ' LP · ' + v.VP + ' VP · ' + v.GP + ' GP · ' + v.PP + ' PP';
+}
+
+/* Platitelj: ima račun, nema (ili više nema) pretplatu i nikad nije ništa igrao.
+   Stranica mu i dalje mora imati smisla — zato ovo, a ne mreža od samih nula. */
+function crtajJaPrazno() {
+  $('valuteHeader').textContent = '0 LP · 0 VP · 0 GP · 0 PP';
+  $('tab-ja').innerHTML =
+    '<div class="prazno">' +
+      '<h3>Nothing here yet — and that is fine</h3>' +
+      '<p>You have not played anything, so there is nothing to show. Your account works either way: ' +
+        'you can follow everyone you added under <b>Friends &amp; groups</b>, with or without a subscription ' +
+        'of your own.</p>' +
+      '<div class="dugmad">' +
+        '<button class="gumb" id="idiLjudi">See how the others are doing</button>' +
+        '<button class="gumb gumbSivi" id="idiNula">Try Lesson 0 — it is free</button>' +
+      '</div>' +
+    '</div>' +
+    '<h2 class="nas">If you ever start</h2>' +
+    '<p class="nasOpis">This is what the page turns into: every unit as a square, every exercise with its own ' +
+      'points, and the shortest way to the next unlock.</p>' +
+    '<div class="ploca" style="text-align:center;color:var(--muted);font-size:var(--t-s)">' +
+      'Switch the banner at the top to <b>polaznik koji uči</b> to see it filled in.</div>';
+  $('idiLjudi').onclick = function () { prebaci('ljudi'); };
+  $('idiNula').onclick = function () {
+    otvoriDijalog('<h3>Open Lesson 0?</h3>' +
+      '<p class="gdje2"><b>Lesson 0</b> · the Croatian alphabet</p>' +
+      '<p>Lesson 0 is open to everyone, with or without a subscription. Nothing here costs you anything.</p>' +
+      '<div class="dugmad"><button class="gumb gumbSivi" data-ne>Cancel</button>' +
+      '<button class="gumb" data-da>Open Lesson 0</button></div>');
+  };
+}
+
+function pitajZaMini(id) {
+  var g = null;
+  MINI_IGRE.forEach(function (x) { if (x.id === id) g = x; });
+  if (!g) return;
+  var o = MINI_STANJE[id] || 0;
+  var tekst = o >= g.maks
+    ? 'You have already earned all ' + g.maks + ' points from this one. Playing it again is purely for the fun ' +
+      'of it — the payout happens once.'
+    : (o > 0
+        ? 'You have earned ' + o + ' of ' + g.maks + ' points here. The rest is still waiting, and points ' +
+          'already earned cannot be lost.'
+        : 'All ' + g.maks + ' points are still there. They go into every currency at once.');
+  otvoriDijalog(
+    '<h3>Open this mini game?</h3>' +
+    '<p class="gdje2">' + g.emo + ' <b>' + esc(g.ime) + '</b> · ' + esc(g.stil) + '</p>' +
+    '<p>' + tekst + '</p>' +
+    '<div class="dugmad">' +
+      '<button class="gumb gumbSivi" data-ne>Cancel</button>' +
+      '<button class="gumb" data-da>Open ' + esc(g.ime) + '</button>' +
+    '</div>');
+}
+
+function popraviHtml(n) {
+  var kand = [];
+  Object.keys(CJELINE).forEach(function (c) {
+    var d = razlomi(c);
+    if (!d || d.razina === 0 || d.tip === 'Daily challenge') return;
+    if (!otkljucano(d.tip, d.razina)) return;
+    if (osvCjeline(d.tip, d.razina) <= 0) return;   /* samo ondje gdje je polaznik stvarno bio */
+    CJELINE[c].v.forEach(function (vj) {
+      var k = kljucV(c, vj[0], vj[1]), o = VJEZBE[k] || 0, m = vj[2];
+      if (o >= m) return;
+      kand.push({ c: c, tip: d.tip, str: vj[0], ime: vj[1], o: o, m: m, ost: m - o, k: k });
+    });
+  });
+  /* Napola odigrana vježba je bliži plijen od netaknute, pa nosi težinu. */
+  kand.forEach(function (x) { x.tez = x.ost * (x.o > 0 ? 1.45 : 1); });
+  kand.sort(function (a, b) { return b.tez - a.tez || b.ost - a.ost; });
+  return kand.slice(0, n).map(function (x) {
+    return '<li style="--boja:' + BOJA_TIPA[x.tip] + '" data-vjezba="' + esc(x.k) + '">' +
+      '<span class="gdje">' + esc(x.c) + '</span>' +
+      '<span class="sto">' + esc(x.ime) + '<small>' + (x.o === 0 ? 'never played' : 'best so far ' + x.o + ' of ' + x.m) + '</small></span>' +
+      '<span class="koliko">+' + x.ost + '<small>points waiting</small></span></li>';
+  }).join('');
+}
+
+/* ================= LADICA ================= */
+var LADICA_OTVORENA = null;
+function otvoriLadicu(kljuc, gumb) {
+  Array.prototype.forEach.call(document.querySelectorAll('.celija.odabrana'), function (e) { e.classList.remove('odabrana'); });
+  if (LADICA_OTVORENA === kljuc) { LADICA_OTVORENA = null; $('ladica').innerHTML = ''; return; }
+  LADICA_OTVORENA = kljuc;
+  if (gumb) gumb.classList.add('odabrana');
+  var d = razlomi(kljuc), c = CJELINE[kljuc], boja = BOJA_TIPA[d.tip];
+  var maks = maksCjeline(d.tip, d.razina), osv = osvCjeline(d.tip, d.razina);
+  var redci = '', preostalo = 0;
+  c.v.forEach(function (vj) {
+    var k = kljucV(kljuc, vj[0], vj[1]), o = VJEZBE[k] || 0, m = vj[2];
+    var p = m ? Math.round(o / m * 100) : 0;
+    if (o < m) preostalo += m - o;
+    redci += '<li class="' + (o >= m ? 'pun' : (o === 0 ? 'nula' : '')) + '" data-vjezba="' + esc(k) + '" ' +
+      'title="Open this exercise">' +
+      '<span class="br">' + vj[0] + '.</span>' +
+      '<span class="ime">' + esc(vj[1]) + (o === 0 ? '<span class="oznaka">not played</span>' : '') + '</span>' +
+      '<span class="pts"><b>' + o + '</b><small>/' + m + '</small></span>' +
+      '<span class="sbar"><i data-w="' + p + '"></i></span></li>';
+  });
+  var pct = maks ? Math.round(osv / maks * 100) : 0;
+  $('ladica').innerHTML =
+    '<div class="ladica" style="--boja:' + boja + '">' +
+      '<div class="ladicaGlava">' +
+        '<span class="znak">' + esc(d.tip) + ' ' + d.razina + '</span>' +
+        '<h3>' + esc(c.naslov || (d.tip + ' ' + d.razina)) + '</h3>' +
+        '<span class="rez">' + osv + ' <small>/ ' + maks + ' pts · ' + pct + '%</small></span>' +
+        '<button class="x" id="ladicaX" title="Close">✕</button>' +
+      '</div>' +
+      '<ul class="vjezbe">' + redci + '</ul>' +
+      '<div class="ladicaPod">' +
+        (preostalo > 0
+          ? '<span><b>' + preostalo + ' points</b> are still waiting in this unit.</span>'
+          : '<span>Everything here is yours — all <b>' + maks + '</b> points earned.</span>') +
+        '<span style="margin-left:auto">Click any exercise to replay it.</span>' +
+      '</div>' +
+    '</div>';
+  animirajTrake($('ladica'));
+  $('ladicaX').onclick = function () { LADICA_OTVORENA = null; $('ladica').innerHTML = '';
+    Array.prototype.forEach.call(document.querySelectorAll('.celija.odabrana'), function (e) { e.classList.remove('odabrana'); }); };
+  Array.prototype.forEach.call($('ladica').querySelectorAll('[data-vjezba]'), function (b) {
+    b.onclick = function () { pitajZaVjezbu(b.getAttribute('data-vjezba')); };
+  });
+  $('ladica').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+/* ================= DIJALOG ================= */
+function pitajZaVjezbu(k) {
+  var p = k.split('|'), c = p[0], str = p[1], ime = p.slice(2).join('|');
+  var o = VJEZBE[k] || 0, m = 0;
+  (CJELINE[c] || { v: [] }).v.forEach(function (v) { if (String(v[0]) === str) m = v[2]; });
+  otvoriDijalog(
+    '<h3>Open this exercise?</h3>' +
+    '<p class="gdje2"><b>' + esc(c) + '</b> · ' + esc(str) + '. ' + esc(ime) + '</p>' +
+    '<p>You will leave Progress and go straight into the exercise. ' +
+      (o === 0 ? 'You have not played it yet — all ' + m + ' points are still there.'
+               : 'Your best result (' + o + ' of ' + m + ') is kept: a weaker run can never cost you points.') + '</p>' +
+    '<div class="dugmad">' +
+      '<button class="gumb gumbSivi" data-ne>Cancel</button>' +
+      '<button class="gumb" data-da>Open exercise</button>' +
+    '</div>');
+}
+function otvoriDijalog(html) {
+  $('dijalogTijelo').innerHTML = html;
+  $('zastor').classList.add('otvoren');
+  var ne = $('dijalogTijelo').querySelector('[data-ne]'), da = $('dijalogTijelo').querySelector('[data-da]');
+  if (ne) ne.onclick = zatvoriDijalog;
+  if (da) da.onclick = function () { zatvoriDijalog(); };
+  if (da) da.focus();
+}
+function zatvoriDijalog() { $('zastor').classList.remove('otvoren'); }
+$('zastor').onclick = function (e) { if (e.target === $('zastor')) zatvoriDijalog(); };
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape') zatvoriDijalog(); });
+
+/* ================= LJUDI (izmišljeno) ================= */
+/* Jedna jedina institucija: Friends & groups. Svaki čovjek koga smo dodali —
+   bilo zahtjevom, bilo tako da mu plaćamo pretplatu — stoji u istom popisu.
+   "veze" kaže zašto je tu; čovjek može biti i prijatelj i na našem kodu. */
+var MOJ_ID = 'K7F2M';
+var LICENCA = { mjesta: 12, aktivirano: 6, vrijedi: '12 Mar 2027' };
+var LJUDI = [
+  { ime: 'Tomislav', id: 'H2QW8', LP: 903, VP: 845, GP: 712, PP: 788, javno: true,  zadnje: '2 min ago',  veze: ['prijatelj'] },
+  { ime: 'Ana Marić', id: 'R3TQ9', LP: 612, VP: 704, GP: 388, PP: 501, javno: true,  zadnje: '1 h ago',    veze: ['prijatelj', 'kod'] },
+  { ime: 'Marko', id: 'B8H4C', LP: 470, VP: 512, GP: 344, PP: 402, javno: false, zadnje: 'yesterday',  veze: ['kod'] },
+  { ime: 'kolega s tečaja', id: 'V3MB9', LP: 455, VP: 402, GP: 371, PP: 419, javno: false, zadnje: '6 days ago', veze: ['prijatelj'] },
+  { ime: 'Petra K.', id: 'W2NJ6', LP: 388, VP: 421, GP: 402, PP: 355, javno: true,  zadnje: '3 days ago', veze: ['kod'] },
+  { ime: 'Iva & Filip', id: 'P8ZT4', LP: 322, VP: 366, GP: 244, PP: 290, javno: false, zadnje: '4 days ago', veze: ['prijatelj'] },
+  { ime: 'Ivan Horvat', id: 'M5DX7', LP: 251, VP: 288, GP: 190, PP: 233, javno: false, zadnje: '6 days ago', veze: ['kod'] },
+  { ime: 'Lucija', id: 'T9GP3', LP: 190, VP: 244, GP: 141, PP: 176, javno: true,  zadnje: '2 days ago', veze: ['kod'] },
+  { ime: 'mama', id: 'D5NK3', LP: 141, VP: 205, GP: 88,  PP: 122, javno: true,  zadnje: 'yesterday',  veze: ['prijatelj', 'sponzor'] },
+  { ime: 'Domagoj', id: 'C4KR8', LP: 122, VP: 98,  GP: 77,  PP: 110, javno: false, zadnje: '2 weeks ago', veze: ['kod'] },
+  { ime: 'Sara B.', id: 'X6VL2', LP: 74,  VP: 91,  GP: 55,  PP: 68,  javno: false, zadnje: '3 weeks ago', veze: ['kod'] },
+  { ime: 'Nikola', id: 'J7SF5', LP: 0, VP: 0, GP: 0, PP: 0, javno: false, zadnje: 'never signed in', veze: ['kod'] }
+];
+var ZAHTJEVI = [{ ime: 'Karlo', id: 'F6YH2', smjer: 'in' }, { ime: '—', id: 'Q4RD7', smjer: 'out' }];
+var MOJA_VIDLJIVOST = 'bodovi';
+var FILTER = 'sve';
+var OZNAKA = { prijatelj: ['vprij', 'friend'], kod: ['vkod', 'your code'], sponzor: ['vspon', 'pays for you'] };
+
+function brojPo(vrsta) {
+  if (vrsta === 'sve') return LJUDI.length;
+  return LJUDI.filter(function (p) { return p.veze.indexOf(vrsta) >= 0; }).length;
+}
+
+function tablicaLjudi(popis) {
+  var v = valute();
+  var ja = { ime: 'You', id: MOJ_ID, LP: v.LP, VP: v.VP, GP: v.GP, PP: v.PP,
+             javno: MOJA_VIDLJIVOST === 'sve', zadnje: 'now', veze: [], ja: true };
+  var redci = popis.concat([ja]).map(function (p) {
+    return { p: p, uk: p.LP + p.VP + p.GP + p.PP };
+  }).sort(function (a, b) { return b.uk - a.uk; });
+
+  var h = '<table class="ljudi"><thead><tr>' +
+    '<th>Who</th><th>LP</th><th>VP</th><th>GP</th><th>PP</th><th>Total</th><th>Shares</th><th>Updated</th>' +
+    '</tr></thead><tbody>';
+  redci.forEach(function (x) {
+    var p = x.p, znacke = '';
+    p.veze.forEach(function (z) {
+      znacke += '<span class="vez ' + OZNAKA[z][0] + '">' + OZNAKA[z][1] + '</span>';
+    });
+    h += '<tr class="' + (p.ja ? 'ja' : '') + (p.javno ? ' klik' : '') + '"' +
+      (p.javno ? ' data-tko="' + esc(p.id) + '"' : '') + '>' +
+      '<td><span class="ime">' + esc(p.ime) + '<span class="id">' + esc(p.id) + '</span>' + znacke + '</span></td>' +
+      '<td style="color:var(--cLP)">' + p.LP + '</td>' +
+      '<td style="color:var(--cVP)">' + p.VP + '</td>' +
+      '<td style="color:var(--cGP)">' + p.GP + '</td>' +
+      '<td style="color:var(--cPP)">' + p.PP + '</td>' +
+      '<td class="uk">' + x.uk + '</td>' +
+      '<td><span class="znacka ' + (p.javno ? 'otv' : 'zat') + '">' +
+        (p.javno ? 'full progress' : 'points only') + '</span></td>' +
+      '<td style="color:var(--muted);font-size:var(--t-s)">' + esc(p.zadnje || '') + '</td></tr>';
+  });
+  return h + '</tbody></table>';
+}
+
+function crtajLjudi() {
+  var ulazni = ZAHTJEVI.filter(function (z) { return z.smjer === 'in'; });
+  var izlazni = ZAHTJEVI.filter(function (z) { return z.smjer === 'out'; });
+  var vidljivi = FILTER === 'sve' ? LJUDI
+    : LJUDI.filter(function (p) { return p.veze.indexOf(FILTER) >= 0; });
+
+  var h =
+    '<div class="ploca" style="margin-bottom:1.25rem">' +
+      '<h2 class="nas" style="margin:0 0 0.5rem">Your ID</h2>' +
+      '<div class="kodKutija">' +
+        '<span class="kod">' + MOJ_ID + '</span>' +
+        '<button class="gumb gumbSivi gumbSitni" id="kopiraj">Copy</button>' +
+        '<span style="font-size:var(--t-s);color:var(--muted);flex:1 1 16rem">The only way anyone can find you. ' +
+          'Your e-mail is never shown — not to friends, not to whoever pays for your access.</span>' +
+      '</div>' +
+    '</div>' +
+
+    '<h2 class="nas">Add someone</h2>' +
+    '<p class="nasOpis">Five characters. No zero and no letter O, so there is nothing to mistype. ' +
+      'Anyone who redeems a code you bought lands in this list on their own — you do not add them by hand.</p>' +
+    '<div class="ploca" style="display:flex;gap:0.625rem;align-items:center;flex-wrap:wrap">' +
+      '<input class="unos" id="unosId" placeholder="A1B2C" maxlength="5">' +
+      '<button class="gumb" id="posalji">Send request</button>' +
+      '<span style="font-size:var(--t-s);color:var(--muted)" id="unosPoruka">They see only the name you chose, ' +
+        'and nothing else until they accept.</span>' +
+    '</div>';
+
+  if (ulazni.length || izlazni.length) {
+    h += '<h2 class="nas">Waiting</h2><div class="ploca" style="display:grid;gap:0.625rem">';
+    ulazni.forEach(function (z) {
+      h += '<div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">' +
+        '<span class="ime" style="font-weight:600">' + esc(z.ime) + ' <span class="id">' + esc(z.id) + '</span></span>' +
+        '<span style="font-size:var(--t-s);color:var(--muted)">wants to see your points</span>' +
+        '<span style="margin-left:auto;display:flex;gap:0.5rem">' +
+          '<button class="gumb gumbSitni">Accept</button>' +
+          '<button class="gumb gumbSivi gumbSitni">Decline</button></span></div>';
+    });
+    izlazni.forEach(function (z) {
+      h += '<div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;color:var(--muted)">' +
+        '<span class="id">' + esc(z.id) + '</span>' +
+        '<span style="font-size:var(--t-s)">your request — not answered yet</span>' +
+        '<span style="margin-left:auto"><button class="gumb gumbSivi gumbSitni">Cancel</button></span></div>';
+    });
+    h += '</div>';
+  }
+
+  h += '<h2 class="nas">Everyone you added</h2>' +
+    '<p class="nasOpis">Points are always visible. Everything else only if that person set their progress to ' +
+      'public — those rows open up when you click them. ' +
+      brojPo('kod') + ' of your ' + LICENCA.mjesta + ' codes are in use, running until ' + LICENCA.vrijedi +
+      '; someone on a code drops off this list when the code expires, and keeps everything they earned.</p>' +
+    '<div class="filteri" id="filteri">' +
+      ['sve', 'prijatelj', 'kod', 'sponzor'].map(function (f) {
+        var ime = { sve: 'All', prijatelj: 'Friends', kod: 'On your codes', sponzor: 'Pays for you' }[f];
+        return '<button data-f="' + f + '"' + (FILTER === f ? ' class="aktivan"' : '') + '>' +
+          ime + ' <span class="n">' + brojPo(f) + '</span></button>';
+      }).join('') +
+    '</div>' +
+    tablicaLjudi(vidljivi) +
+    '<div id="tudjeLjudi"></div>' +
+
+    '<h2 class="nas">What others see of you</h2>' +
+    '<p class="nasOpis">This applies to everyone in the list above, and to nobody else.</p>' +
+    '<div class="prekidacRed">' +
+      '<label class="izbor' + (MOJA_VIDLJIVOST === 'bodovi' ? ' aktivan' : '') + '" data-vid="bodovi">' +
+        '<input type="radio" name="vid"' + (MOJA_VIDLJIVOST === 'bodovi' ? ' checked' : '') + '>' +
+        '<span><span class="t">Points only</span><span class="o">Your four totals and nothing else. This is the ' +
+          'default and it never changes on its own.</span></span></label>' +
+      '<label class="izbor' + (MOJA_VIDLJIVOST === 'sve' ? ' aktivan' : '') + '" data-vid="sve">' +
+        '<input type="radio" name="vid"' + (MOJA_VIDLJIVOST === 'sve' ? ' checked' : '') + '>' +
+        '<span><span class="t">Full progress</span><span class="o">Every unit, every exercise, mini games and ' +
+          'streak — the same page you are looking at now.</span></span></label>' +
+    '</div>';
+
+  $('tab-ljudi').innerHTML = h;
+  $('kopiraj').onclick = function () {
+    try { navigator.clipboard.writeText(MOJ_ID); } catch (e) {}
+    this.textContent = 'Copied ✓'; var b = this; setTimeout(function () { b.textContent = 'Copy'; }, 1600);
+  };
+  $('unosId').oninput = function () { this.value = this.value.toUpperCase().replace(/[^A-NP-Z1-9]/g, ''); };
+  $('posalji').onclick = function () {
+    var val = $('unosId').value;
+    $('unosPoruka').textContent = val.length === 5
+      ? 'Request sent to ' + val + '. They will see the name you chose, nothing more.'
+      : 'An ID is exactly five characters.';
+  };
+  Array.prototype.forEach.call($('filteri').children, function (b) {
+    b.onclick = function () { FILTER = b.getAttribute('data-f'); crtajLjudi(); };
+  });
+  Array.prototype.forEach.call($('tab-ljudi').querySelectorAll('[data-vid]'), function (el) {
+    el.onclick = function () { MOJA_VIDLJIVOST = el.getAttribute('data-vid'); crtajLjudi(); };
+  });
+  veziTudje('tab-ljudi', 'tudjeLjudi', LJUDI);
+  $('tabBroj').textContent = '· ' + LJUDI.length;
+  var v = valute();
+  $('valuteHeader').textContent = v.LP + ' LP · ' + v.VP + ' VP · ' + v.GP + ' GP · ' + v.PP + ' PP';
+}
+
+/* Tuđi progres: ista mreža, samo bez klika na vježbe. */
+function veziTudje(tabId, ciljId, popis) {
+  Array.prototype.forEach.call($(tabId).querySelectorAll('[data-tko]'), function (tr) {
+    tr.onclick = function () {
+      var id = tr.getAttribute('data-tko');
+      var osoba = null;
+      popis.forEach(function (p) { if (p.id === id) osoba = p; });
+      if (!osoba) return;
+      var cilj = $(ciljId);
+      if (cilj.getAttribute('data-otvoren') === id) { cilj.innerHTML = ''; cilj.removeAttribute('data-otvoren'); return; }
+      cilj.setAttribute('data-otvoren', id);
+      cilj.innerHTML =
+        '<div class="ladica" style="--boja:var(--plava)">' +
+          '<div class="ladicaGlava">' +
+            '<span class="znak">public progress</span>' +
+            '<h3>' + esc(osoba.ime) + '</h3>' +
+            '<span class="rez">' + (osoba.LP + osoba.VP + osoba.GP + osoba.PP) + ' <small>points in total</small></span>' +
+          '</div>' +
+          '<div style="padding:1rem 1.125rem">' + tudjaMreza(osoba) + '</div>' +
+          '<div class="ladicaPod">Read-only. You can see where they are, never change anything — and never ' +
+            'their e-mail.</div>' +
+        '</div>';
+      animirajTrake(cilj);
+      cilj.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+  });
+}
+function tudjaMreza(osoba) {
+  /* Simulirano: napredak razmjeran njihovim bodovima. */
+  var h = '<div class="mrezaOkvir"><div class="mreza"><div></div>';
+  TIPOVI.forEach(function (t) { h += '<div class="mrezaGlava" style="color:' + BOJA_TIPA[t] + '">' + t + '</div>'; });
+  for (var r = 1; r <= MAX_RAZINA; r++) {
+    h += '<div class="mrezaRazina">' + r + '</div>';
+    for (var i = 0; i < TIPOVI.length; i++) {
+      var tip = TIPOVI[i], maks = maksCjeline(tip, r);
+      if (!maks) { h += '<div class="celija prazno"></div>'; continue; }
+      var baza = (osoba[VALUTA_TIPA[tip]] || osoba.LP) / 900;
+      var s = sum(osoba.id + tip + r);
+      var pct = Math.max(0, Math.min(100, Math.round((baza * 9 - r + 1) * 45 + s * 25)));
+      var boja = BOJA_TIPA[tip];
+      var kl = 'celija' + (pct >= 100 ? ' puna' : (pct === 0 ? ' nula' : ''));
+      h += '<div class="' + kl + '" style="--boja:' + boja + ';cursor:default">' +
+        (pct >= 100 ? '<span class="kvaka">✓</span>' : '') +
+        '<div><div class="pct">' + pct + '%</div><div class="odn">' + Math.round(maks * pct / 100) + ' / ' + maks + '</div></div>' +
+        '<div class="staza"><i data-w="' + pct + '"></i></div></div>';
+    }
+  }
+  return h + '</div></div>';
+}
+
+/* ================= TABOVI ================= */
+function prebaci(t) {
+  Array.prototype.forEach.call($('tabovi').children, function (x) {
+    x.classList.toggle('aktivan', x.getAttribute('data-tab') === t);
+  });
+  ['ja', 'ljudi'].forEach(function (id) { $('tab-' + id).hidden = (id !== t); });
+  if (t === 'ja') { ULOGA === 'platitelj' ? crtajJaPrazno() : crtajJa(); }
+  if (t === 'ljudi') crtajLjudi();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+Array.prototype.forEach.call($('tabovi').children, function (b) {
+  b.onclick = function () { prebaci(b.getAttribute('data-tab')); };
+});
+
+/* ================= PREKIDAČ ULOGE (samo mockup) ================= */
+var ULOGA = 'ucenik';
+Array.prototype.forEach.call(document.querySelectorAll('[data-uloga]'), function (b) {
+  b.onclick = function () {
+    ULOGA = b.getAttribute('data-uloga');
+    Array.prototype.forEach.call(document.querySelectorAll('[data-uloga]'), function (x) {
+      x.classList.toggle('aktivan', x === b);
+    });
+    if (ULOGA === 'platitelj') {
+      /* platitelj nema svoj progres: sve na nulu, i landa na popisu ljudi */
+      Object.keys(VJEZBE).forEach(function (k) { VJEZBE[k] = 0; });
+      Object.keys(MINI_STANJE).forEach(function (k) { MINI_STANJE[k] = 0; });
+      STREAK_NIZ = 0; STREAK_BODOVI = 0; BROJ_RIJECI = 0;
+      KES_VAL = null;
+      prebaci('ljudi');
+    } else {
+      VJEZBE = {}; napuni();
+      MINI_STANJE = { grad: 100, put: 62, pamti: 0, tvrdjava: 45, konoba: 50, skladiste: 0,
+                      vlak: 30, labirint: 18, zmija: 0, mario: 50, prezivljavanje: 0, obrana: 40 };
+      STREAK_NIZ = 6; STREAK_BODOVI = 84; BROJ_RIJECI = 214;
+      KES_VAL = null;
+      prebaci('ja');
+    }
+  };
+});
+
+/* ================= START ================= */
+napuni();
+crtajJa();
+$('tabBroj').textContent = '· ' + LJUDI.length;
+</script>
+</body>
+</html>

@@ -1,0 +1,661 @@
+
+  // ================= PROGRESS =================
+  // Jedna stranica na kojoj stoji sve što je netko zaradio i najkraći put do idućeg.
+  // Namjerno ne računa ništa svoje: bodovi, pragovi i otključavanja dolaze iz istih
+  // funkcija kojima se služe naslovnica i Lessons, pa se promjena pravila nikad ne
+  // mora pisati dvaput. Otvorena je svakome tko ima račun — i onome bez pretplate,
+  // i onome tko je odigrao jednu jedinu vježbu.
+  var PROG_TAB = 'ja';
+  var PROG_LADICA = null;        // "Vocabulary 7" dok je otvorena
+  var PROG_TUDJI = null;         // uuid osobe čiji je progres razmotan
+  var BOJA_TIPA = { Lesson: 'var(--plava)', Vocabulary: 'var(--plavaVok)',
+    Grammar: 'var(--zlatna)', Practice: 'var(--zelena)', Test: 'var(--crvena)' };
+  var IME_VALUTE = { LP: 'Lesson points', VP: 'Vocabulary points',
+    GP: 'Grammar points', PP: 'Practice points' };
+
+  function progOsv(tip, razina) {
+    var s = 0;
+    igreCjeline(tip, razina).forEach(function (g) { s += najbolji(g); });
+    return s;
+  }
+  function progNaslovCjeline(tip, razina) {
+    var igre = igreCjeline(tip, razina);
+    return (igre[0] && igre[0].cjelinaNaslov) || '';
+  }
+
+  function renderProgress() {
+    KES_VAL = valute();
+    try { renderProgressUnutra(); } finally { KES_VAL = null; }
+  }
+  function renderProgressUnutra() {
+    var brojLjudi = DRUSTVO.ljudi.filter(function (p) { return p.smjer === 'veza'; }).length;
+    var cekaju = DRUSTVO.ljudi.filter(function (p) { return p.smjer === 'primljen'; }).length;
+    VIEW.innerHTML =
+      '<h1 class="sekcija">Progress ' + IK('ljestvica') + '</h1>' +
+      '<p class="progOpis" style="font-size:var(--t-m);margin-bottom:1.25rem">' +
+        'Everything you have earned, and the shortest way to more of it. ' +
+        'Click any unit to see it exercise by exercise.</p>' +
+      '<div class="progTabovi" id="progTabovi">' +
+        '<button data-ptab="ja"' + (PROG_TAB === 'ja' ? ' class="aktivan"' : '') + '>You</button>' +
+        '<button data-ptab="ljudi"' + (PROG_TAB === 'ljudi' ? ' class="aktivan"' : '') + '>' +
+          'Friends &amp; groups <span class="br">· ' + brojLjudi +
+          (cekaju ? ' · ' + cekaju + ' waiting' : '') + '</span></button>' +
+      '</div>' +
+      '<div id="progTijelo"></div>';
+    Array.prototype.forEach.call($('progTabovi').children, function (b) {
+      b.onclick = function () {
+        PROG_TAB = b.getAttribute('data-ptab');
+        PROG_LADICA = null; PROG_TUDJI = null;
+        renderProgress();
+        window.scrollTo(0, 0);
+      };
+    });
+    if (PROG_TAB === 'ja') progCrtajJa(); else progCrtajLjude();
+  }
+
+  // ---- tab You ----
+  function progCrtajJa() {
+    var v = valute(), h = '', trake = [];
+
+    h += '<div class="progValute">';
+    TIPOVI.slice(0, 4).forEach(function (tip) {
+      var val = VALUTA_TIPA[tip], sp = sljedeciPrag(tip), ima = v[val];
+      var pct = sp ? (sp.prag > 0 ? Math.min(1, ima / sp.prag) : 1) : 1;
+      var doKud = sp
+        ? '<b>' + Math.max(0, sp.prag - ima) + '</b> more → ' + tip + ' ' + sp.razina
+        : 'every level open';
+      var id = 'pv_' + tip;
+      trake.push({ id: id, pct: pct });
+      h += '<div class="progValK' + (sp ? '' : ' pun') + '" style="--boja:' + BOJA_TIPA[tip] + '">' +
+        '<div class="imeV">' + IME_VALUTE[val] + '</div>' +
+        '<div class="broj" id="pb_' + tip + '">0</div>' +
+        '<div class="progStaza"><i id="' + id + '"></i></div>' +
+        '<div class="doKud">' + doKud + '</div></div>';
+    });
+    h += '</div>';
+
+    var odigrano = 0, ukupnoVj = 0;
+    IGRE.forEach(function (g) { if ((g.bodovi || 0) > 0) { ukupnoVj++; if (najbolji(g) > 0) odigrano++; } });
+    var st = streakStanje();
+    h += '<div class="progStat">' +
+      '<div class="progStatK"><div class="b">' + (st.niz || 0) + ' <small>days</small></div>' +
+        '<div class="l">Daily streak · ' + (st.bodovi || 0) + ' streak points</div></div>' +
+      '<div class="progStatK"><div class="b">' + brojRijeci() + '</div>' +
+        '<div class="l">Words in your dictionary</div></div>' +
+      '<div class="progStatK"><div class="b">' + odigrano + ' <small>/ ' + ukupnoVj + '</small></div>' +
+        '<div class="l">Exercises played</div></div>' +
+      '<div class="progStatK"><div class="b">' + miniBodovi() + ' <small>/ ' + miniMaks() + '</small></div>' +
+        '<div class="l">Mini game points</div></div>' +
+      '</div>';
+
+    // ---- mreža cjelina ----
+    h += '<h2 class="progNas">Where you stand</h2>' +
+      '<p class="progOpis">One square per unit. Click one to open it exercise by exercise — that is where ' +
+        'you see which single exercise is still holding points, and jump straight back into it.</p>' +
+      '<div class="progMrezaOkvir"><div class="progMreza"><div></div>';
+    TIPOVI.forEach(function (t) {
+      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + t + '</div>';
+    });
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      var imaIsta = false;
+      for (var j = 0; j < TIPOVI.length; j++) if (maksCjeline(TIPOVI[j], r) > 0) imaIsta = true;
+      if (!imaIsta) continue;
+      h += '<div class="progRazina">' + r + '</div>';
+      for (var i = 0; i < TIPOVI.length; i++) {
+        var tip = TIPOVI[i], maks = maksCjeline(tip, r);
+        if (!maks) { h += '<div class="progCelija prazno"></div>'; continue; }
+        var osv = progOsv(tip, r), pct = Math.round(osv / maks * 100);
+        var boja = BOJA_TIPA[tip];
+        if (!otkljucano(tip, r)) {
+          var val2 = VALUTA_TIPA[tip], p = prag(tip, r);
+          var opis = val2 ? (v[val2] + ' / ' + p + ' ' + val2) : 'needs all four types at level ' + r;
+          h += '<div class="progCelija zakljucana" style="--boja:' + boja + '" ' +
+            'title="Locked — ' + esc(opis) + '">' +
+            '<div class="pct">locked</div><div class="odn">' + esc(opis) + '</div></div>';
+        } else {
+          var id2 = 'pc_' + tip + '_' + r;
+          trake.push({ id: id2, pct: maks > 0 ? Math.min(1, osv / maks) : 0 });
+          var kl = 'progCelija' + (pct >= 100 ? ' puna' : (osv === 0 ? ' nula' : '')) +
+            (PROG_LADICA === tip + ' ' + r ? ' odabrana' : '');
+          var nas = progNaslovCjeline(tip, r);
+          h += '<div class="' + kl + '" style="--boja:' + boja + '" data-pcjelina="' + esc(tip + '|' + r) + '" ' +
+            'title="' + esc(tip + ' ' + r + (nas ? ' — ' + nas : '')) + '">' +
+            (pct >= 100 ? '<span class="kvaka">' + IK('kvaka') + '</span>' : '') +
+            '<div><div class="pct">' + pct + '%</div>' +
+            '<div class="odn">' + osv + ' / ' + maks + '</div></div>' +
+            '<div class="progStaza"><i id="' + id2 + '"></i></div></div>';
+        }
+      }
+    }
+    h += '</div></div>' +
+      '<div class="progLegenda">' +
+        '<span><i></i> not started</span>' +
+        '<span><i class="pola"></i> in progress</span>' +
+        '<span><i class="pun"></i> everything earned</span>' +
+        '<span><i class="zak"></i> locked — hover to see what it needs</span>' +
+      '</div><div id="progLadica"></div>';
+
+    // ---- vrijedi se vratiti ----
+    var popravi = progPopravi(6);
+    if (popravi.length) {
+      h += '<h2 class="progNas">Worth going back to</h2>' +
+        '<p class="progOpis">The unlocked exercises holding the most points. Only your best attempt ever ' +
+          'counts, so replaying one can add points but never take them away.</p>' +
+        '<ul class="progPopravi">' + popravi.map(function (x) {
+          return '<li style="--boja:' + BOJA_TIPA[x.tip] + '" data-pvjezba="' + esc(x.k) + '">' +
+            '<span class="gdje">' + esc(x.cjelina) + '</span>' +
+            '<span class="sto">' + esc(x.ime) +
+              '<small>' + (x.o === 0 ? 'never played' : 'best so far ' + x.o + ' of ' + x.m) + '</small></span>' +
+            '<span class="koliko">+' + x.ost + '<small>points waiting</small></span></li>';
+        }).join('') + '</ul>';
+    }
+
+    // ---- daily ----
+    var dani = dailyBrojevi();
+    if (dani.length) {
+      var dOdr = 0, dDio = 0, tock = '';
+      dani.forEach(function (n) {
+        var m = maksCjeline('Daily challenge', n), o = progOsv('Daily challenge', n);
+        var kls = o <= 0 ? '' : (m > 0 && o >= m ? 'd' : 'p');
+        if (m > 0 && o >= m) dOdr++; else if (o > 0) dDio++;
+        tock += '<i class="' + kls + '" data-pdaily="' + n + '" title="Day ' + n + ' — ' + o + '/' + m + '"></i>';
+      });
+      h += '<h2 class="progNas">Daily challenges</h2>' +
+        '<p class="progOpis">' + dOdr + ' finished, ' + dDio + ' partly done, ' +
+          (dani.length - dOdr - dDio) + ' untouched. Current streak ' + (st.niz || 0) + ' days — ' +
+          'day ' + ((st.niz || 0) + 1) + ' will be worth ' + ((st.niz || 0) + 1) +
+          ' points in every currency.</p>' +
+        '<div class="progPloca"><div class="progTockice">' + tock + '</div></div>';
+    }
+
+    // ---- mini igre ----
+    var mh = '';
+    MINI_IGRE.forEach(function (g) {
+      var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks), pun = o >= g.maks;
+      mh += '<div class="progMiniR' + (o ? (pun ? ' pun' : '') : ' nula') + '" data-pmini="' + g.id + '" ' +
+        'title="Open ' + esc(g.ime) + '"><div class="e">' + g.emo + '</div>' +
+        '<div class="n">' + esc(g.ime) + '<small>' + esc(g.stil) + '</small></div>' +
+        '<div class="p">' + o + '<small>/' + g.maks + '</small></div></div>';
+    });
+    h += '<h2 class="progNas">Mini games</h2>' +
+      '<p class="progOpis">Each one pays out once, the same amount into all four currencies. ' +
+        'Click one to open it.</p>' +
+      '<div class="progMini">' + mh + '</div>';
+
+    $('progTijelo').innerHTML = h;
+
+    TIPOVI.slice(0, 4).forEach(function (tip) {
+      brojiDo('pb_' + tip, 0, v[VALUTA_TIPA[tip]], 900, '');
+    });
+    animirajTrake(trake);
+    progVezi();
+  }
+
+  // Vježbe koje drže najviše bodova, ali samo u cjelinama u kojima je polaznik
+  // stvarno bio — inače popis vuče u lekcije do kojih još nije došao. Napola
+  // odigrana vježba je bliži plijen od netaknute, pa nosi težinu.
+  function progPopravi(n) {
+    var kand = [];
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      for (var i = 0; i < TIPOVI.length; i++) {
+        var tip = TIPOVI[i];
+        if (!maksCjeline(tip, r) || !otkljucano(tip, r) || progOsv(tip, r) <= 0) continue;
+        igreCjeline(tip, r).forEach(function (g) {
+          var o = najbolji(g), m = g.bodovi || 0;
+          if (m <= 0 || o >= m) return;
+          kand.push({ tip: tip, razina: r, cjelina: tip + ' ' + r, ime: g.naslov || 'Exercise',
+            o: o, m: m, ost: m - o, tez: (m - o) * (o > 0 ? 1.45 : 1), k: kljucIgre(g) });
+        });
+      }
+    }
+    kand.sort(function (a, b) { return b.tez - a.tez || b.ost - a.ost; });
+    return kand.slice(0, n);
+  }
+
+  function progVezi() {
+    var korijen = $('progTijelo'); if (!korijen) return;
+    Array.prototype.forEach.call(korijen.querySelectorAll('[data-pcjelina]'), function (b) {
+      b.onclick = function () {
+        var d = b.getAttribute('data-pcjelina').split('|');
+        progOtvoriLadicu(d[0], +d[1]);
+      };
+    });
+    Array.prototype.forEach.call(korijen.querySelectorAll('[data-pvjezba]'), function (b) {
+      b.onclick = function () { progPitajVjezbu(b.getAttribute('data-pvjezba')); };
+    });
+    Array.prototype.forEach.call(korijen.querySelectorAll('[data-pmini]'), function (b) {
+      b.onclick = function () { progPitajMini(b.getAttribute('data-pmini')); };
+    });
+    Array.prototype.forEach.call(korijen.querySelectorAll('[data-pdaily]'), function (b) {
+      b.onclick = function () { idi('unit', 'Daily challenge', +b.getAttribute('data-pdaily')); };
+    });
+  }
+
+  // ---- ladica: jedna cjelina, vježba po vježba ----
+  function progOtvoriLadicu(tip, razina) {
+    var kljuc = tip + ' ' + razina;
+    var cilj = $('progLadica'); if (!cilj) return;
+    if (PROG_LADICA === kljuc) { PROG_LADICA = null; cilj.innerHTML = ''; progOznaciCelije(); return; }
+    PROG_LADICA = kljuc;
+    progOznaciCelije();
+
+    var igre = igreCjeline(tip, razina), boja = BOJA_TIPA[tip];
+    var maks = maksCjeline(tip, razina), osv = progOsv(tip, razina);
+    var redci = '', preostalo = 0, trake = [];
+    igre.forEach(function (g, i) {
+      var o = najbolji(g), m = g.bodovi || 0;
+      var id = 'pl_' + i;
+      trake.push({ id: id, pct: m > 0 ? Math.min(1, o / m) : 0 });
+      if (o < m) preostalo += m - o;
+      redci += '<li class="' + (m > 0 && o >= m ? 'pun' : (o === 0 ? 'nula' : '')) + '" ' +
+        'data-pvjezba="' + esc(kljucIgre(g)) + '" title="Open this exercise">' +
+        '<span class="br">' + (g.stranica || (i + 1)) + '.</span>' +
+        '<span class="ime">' + esc(g.naslov || ('Exercise ' + (i + 1))) +
+          (o === 0 ? '<span class="progOznaka">not played</span>' : '') + '</span>' +
+        '<span class="pts"><b>' + o + '</b><small>/' + m + '</small></span>' +
+        '<span class="progStaza sbar"><i id="' + id + '"></i></span></li>';
+    });
+    var pct = maks ? Math.round(osv / maks * 100) : 0;
+    var nas = progNaslovCjeline(tip, razina);
+    cilj.innerHTML =
+      '<div class="progLadica" style="--boja:' + boja + '">' +
+        '<div class="progLadicaGlava">' +
+          '<span class="znak">' + esc(tip) + ' ' + razina + '</span>' +
+          '<h3>' + esc(nas || (tip + ' ' + razina)) + '</h3>' +
+          '<span class="rez">' + osv + ' <small>/ ' + maks + ' pts · ' + pct + '%</small></span>' +
+          '<button class="x" id="progLadicaX" title="Close">✕</button>' +
+        '</div>' +
+        '<ul class="progVjezbe">' + redci + '</ul>' +
+        '<div class="progLadicaPod">' +
+          (preostalo > 0
+            ? '<span><b>' + preostalo + ' points</b> are still waiting in this unit.</span>'
+            : '<span>Everything here is yours — all <b>' + maks + '</b> points earned.</span>') +
+          '<span style="margin-left:auto">Click any exercise to replay it.</span>' +
+        '</div>' +
+      '</div>';
+    animirajTrake(trake);
+    $('progLadicaX').onclick = function () {
+      PROG_LADICA = null; cilj.innerHTML = ''; progOznaciCelije();
+    };
+    Array.prototype.forEach.call(cilj.querySelectorAll('[data-pvjezba]'), function (b) {
+      b.onclick = function () { progPitajVjezbu(b.getAttribute('data-pvjezba')); };
+    });
+    cilj.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  function progOznaciCelije() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-pcjelina]'), function (el) {
+      var d = el.getAttribute('data-pcjelina').split('|');
+      el.classList.toggle('odabrana', PROG_LADICA === d[0] + ' ' + d[1]);
+    });
+  }
+
+  // ---- potvrde prije odlaska ----
+  function progPotvrda(naslov, gdje, tekst, gumb, akcija) {
+    var star = $('progOverlay'); if (star) star.remove();
+    var ov = document.createElement('div'); ov.id = 'progOverlay';
+    ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
+      'display:flex;align-items:center;justify-content:center;padding:16px;';
+    var m = document.createElement('div'); m.className = 'otkljModal prijavaModal';
+    m.innerHTML = '<h2>' + esc(naslov) + '</h2>' +
+      '<p class="otkljPod" style="margin-bottom:.5rem">' + gdje + '</p>' +
+      '<p class="otkljPod">' + esc(tekst) + '</p>';
+    var da = document.createElement('button'); da.className = 'gumb'; da.textContent = gumb;
+    da.onclick = function () { ov.remove(); akcija(); };
+    var ne = document.createElement('button'); ne.className = 'gumb gumbSivi'; ne.textContent = 'Cancel';
+    ne.onclick = function () { ov.remove(); };
+    m.appendChild(da); m.appendChild(ne);
+    ov.appendChild(m);
+    ov.onclick = function (e) { if (e.target === ov) ov.remove(); };
+    document.body.appendChild(ov);
+    da.focus();
+  }
+  function progPitajVjezbu(kljuc) {
+    var meta = null, indeks = 0;
+    IGRE.forEach(function (g) {
+      if (kljucIgre(g) !== kljuc) return;
+      meta = g;
+      indeks = igreCjeline(g.tip, g.razina).indexOf(g);
+    });
+    if (!meta) return;
+    var o = najbolji(meta), m = meta.bodovi || 0;
+    progPotvrda('Open this exercise?',
+      '<b>' + esc(meta.tip + ' ' + meta.razina) + '</b> · ' + esc((meta.stranica ? meta.stranica + '. ' : '') +
+        (meta.naslov || '')),
+      o === 0
+        ? 'You will leave Progress and go straight into the exercise. You have not played it yet — all ' +
+          m + ' points are still there.'
+        : 'You will leave Progress and go straight into the exercise. Your best result (' + o + ' of ' + m +
+          ') is kept: a weaker run can never cost you points.',
+      'Open exercise',
+      function () { idi('unit', meta.tip, meta.razina, Math.max(0, indeks)); });
+  }
+  function progPitajMini(id) {
+    var g = null;
+    MINI_IGRE.forEach(function (x) { if (x.id === id) g = x; });
+    if (!g) return;
+    var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks);
+    var tekst = o >= g.maks
+      ? 'You have already earned all ' + g.maks + ' points from this one. The payout happens once, so ' +
+        'playing it again is purely for the fun of it.'
+      : (o > 0
+          ? 'You have earned ' + o + ' of ' + g.maks + ' points here. The rest is still waiting, and points ' +
+            'already earned cannot be lost.'
+          : 'All ' + g.maks + ' points are still there. They go into every currency at once.');
+    progPotvrda('Open this mini game?',
+      g.emo + ' <b>' + esc(g.ime) + '</b> · ' + esc(g.stil), tekst,
+      'Open ' + g.ime, function () { idi('miniIgra', g.id); });
+  }
+
+  // ================= FRIENDS & GROUPS =================
+  // Jedan popis. Prijatelj koji je prihvatio zahtjev i čovjek kojemu plaćamo
+  // pretplatu stoje jedan pored drugoga, bez razlike — jer je za onoga tko gleda
+  // razlika i nevažna. Bodovi se vide uvijek, razrada samo ako je druga strana
+  // svoj progres postavila na javno.
+  var DRUSTVO = { stanje: 'ne', ja: null, ljudi: [], poruka: '' };
+
+  function ucitajDrustveno(cb) {
+    if (!supa || !imaRacun()) { DRUSTVO.stanje = 'greska'; if (cb) cb(); return; }
+    DRUSTVO.stanje = 'ucitava';
+    supa.rpc('moj_javni_racun').then(function (r1) {
+      if (r1.error) throw r1.error;
+      DRUSTVO.ja = (r1.data && r1.data[0]) || null;
+      return supa.rpc('moji_ljudi');
+    }).then(function (r2) {
+      if (r2.error) throw r2.error;
+      DRUSTVO.ljudi = r2.data || [];
+      DRUSTVO.stanje = 'ok';
+      if (cb) cb();
+    })['catch'](function () {
+      DRUSTVO.stanje = 'greska';
+      if (cb) cb();
+    });
+  }
+
+  function progCrtajLjude() {
+    var t = $('progTijelo');
+    if (DRUSTVO.stanje === 'ne' || DRUSTVO.stanje === 'ucitava') {
+      t.innerHTML = '<div class="progPloca progTiho">Loading…</div>';
+      if (DRUSTVO.stanje === 'ne') ucitajDrustveno(function () { if (PROG_TAB === 'ljudi') renderProgress(); });
+      return;
+    }
+    if (DRUSTVO.stanje === 'greska' || !DRUSTVO.ja) {
+      t.innerHTML = '<div class="progPloca"><p style="margin:0 0 .75rem">This part could not be loaded.</p>' +
+        '<button class="gumb gumbSivi progSitni" id="progPonovo">Try again</button></div>';
+      $('progPonovo').onclick = function () { DRUSTVO.stanje = 'ne'; renderProgress(); };
+      return;
+    }
+
+    var v = valute();
+    var veze = DRUSTVO.ljudi.filter(function (p) { return p.smjer === 'veza'; });
+    var primljeni = DRUSTVO.ljudi.filter(function (p) { return p.smjer === 'primljen'; });
+    var poslani = DRUSTVO.ljudi.filter(function (p) { return p.smjer === 'poslan'; });
+    var javan = !!DRUSTVO.ja.progres_javan;
+
+    var h =
+      '<div class="progPloca" style="margin-bottom:1.25rem">' +
+        '<h2 class="progNas" style="margin:0 0 .625rem">Your ID</h2>' +
+        '<div class="progRed">' +
+          '<span class="progKod">' + esc(DRUSTVO.ja.javni_id || '—') + '</span>' +
+          '<button class="gumb gumbSivi progSitni" id="progKopiraj">Copy</button>' +
+          '<span class="progTiho" style="flex:1 1 16rem">The only way anyone can find you. Your e-mail is ' +
+            'never shown — not to friends, not to whoever pays for your access.</span>' +
+        '</div>' +
+        '<div class="progRed" style="margin-top:.875rem">' +
+          '<input class="progIme" id="progNadimak" maxlength="40" placeholder="the name others see" value="' +
+            esc(DRUSTVO.ja.nadimak || '') + '">' +
+          '<button class="gumb gumbSivi progSitni" id="progSpremiIme">Save name</button>' +
+          '<span class="progTiho" id="progImePoruka">' +
+            (DRUSTVO.ja.nadimak ? '' : 'Until you set one, people see only your ID.') + '</span>' +
+        '</div>' +
+      '</div>' +
+
+      '<h2 class="progNas">Add someone</h2>' +
+      '<p class="progOpis">Five characters. No zero and no letter O, so there is nothing to mistype. ' +
+        'Sending a request means you will both see each other once they accept.</p>' +
+      '<div class="progPloca progRed">' +
+        '<input class="progUnos" id="progUnosId" placeholder="A1B2C" maxlength="5">' +
+        '<button class="gumb progSitni" id="progPosalji">Send request</button>' +
+        '<span class="progTiho" id="progUnosPoruka">' + esc(DRUSTVO.poruka || '') + '</span>' +
+      '</div>';
+
+    if (primljeni.length || poslani.length) {
+      h += '<h2 class="progNas">Waiting</h2><div class="progPloca" style="display:grid;gap:.625rem">';
+      primljeni.forEach(function (p) {
+        h += '<div class="progRed">' +
+          '<span class="imeC" style="font-weight:600">' + esc(p.nadimak || 'Someone') +
+            ' <span class="idC">' + esc(p.javni_id) + '</span></span>' +
+          '<span class="progTiho">wants to see your points</span>' +
+          '<span style="margin-left:auto;display:flex;gap:.5rem">' +
+            '<button class="gumb progSitni" data-pda="' + esc(p.druga_id) + '">Accept</button>' +
+            '<button class="gumb gumbSivi progSitni" data-pne="' + esc(p.druga_id) + '">Decline</button>' +
+          '</span></div>';
+      });
+      poslani.forEach(function (p) {
+        h += '<div class="progRed progTiho">' +
+          '<span class="idC">' + esc(p.javni_id) + '</span>' +
+          '<span>your request — not answered yet</span>' +
+          '<span style="margin-left:auto"><button class="gumb gumbSivi progSitni" data-potkazi="' +
+            esc(p.druga_id) + '">Cancel</button></span></div>';
+      });
+      h += '</div>';
+    }
+
+    h += '<h2 class="progNas">Everyone you added</h2>';
+    if (!veze.length) {
+      h += '<div class="progPloca progTiho">Nobody yet. Share your ID, or type someone else\'s above.</div>';
+    } else {
+      h += '<p class="progOpis">Points are always visible. Everything else only if that person set their ' +
+        'progress to public — those rows open up when you click them.</p>';
+      var redci = veze.map(function (p) {
+        return { p: p, uk: (p.lp || 0) + (p.vp || 0) + (p.gp || 0) + (p.pp || 0) };
+      });
+      redci.push({ ja: true, uk: v.LP + v.VP + v.GP + v.PP,
+        p: { nadimak: 'You', javni_id: DRUSTVO.ja.javni_id, lp: v.LP, vp: v.VP, gp: v.GP, pp: v.PP,
+             progres_javan: javan, zadnja_aktivnost: new Date().toISOString() } });
+      redci.sort(function (a, b) { return b.uk - a.uk; });
+      h += '<table class="progLjudi"><thead><tr><th>Who</th>' +
+        '<th>LP</th><th>VP</th><th>GP</th><th>PP</th><th>Total</th><th>Shares</th><th>Updated</th>' +
+        '</tr></thead><tbody>';
+      redci.forEach(function (x) {
+        var p = x.p, otvoren = !!p.progres_javan;
+        h += '<tr class="' + (x.ja ? 'ja' : '') + (otvoren && !x.ja ? ' klik' : '') + '"' +
+          (otvoren && !x.ja ? ' data-ptko="' + esc(p.druga_id) + '"' : '') + '>' +
+          '<td><span class="imeC">' + esc(p.nadimak || 'Someone') +
+            '<span class="idC">' + esc(p.javni_id || '') + '</span></span></td>' +
+          '<td style="color:var(--plava)">' + (p.lp || 0) + '</td>' +
+          '<td style="color:var(--plavaVok)">' + (p.vp || 0) + '</td>' +
+          '<td style="color:var(--zlatna)">' + (p.gp || 0) + '</td>' +
+          '<td style="color:var(--zelena)">' + (p.pp || 0) + '</td>' +
+          '<td style="font-family:var(--naslov);font-weight:700">' + x.uk + '</td>' +
+          '<td><span class="progZnacka ' + (otvoren ? 'otv' : 'zat') + '">' +
+            (otvoren ? 'full progress' : 'points only') + '</span></td>' +
+          '<td class="progTiho">' + esc(x.ja ? 'now' : progKada(p.zadnja_aktivnost)) + '</td></tr>';
+      });
+      h += '</tbody></table><div id="progTudji"></div>';
+    }
+
+    h += '<h2 class="progNas">What others see of you</h2>' +
+      '<p class="progOpis">This applies to everyone in the list above, and to nobody else.</p>' +
+      '<div class="progRed" style="align-items:stretch">' +
+        '<label class="progIzbor' + (javan ? '' : ' aktivan') + '" data-pvid="0">' +
+          '<input type="radio" name="pvid"' + (javan ? '' : ' checked') + '>' +
+          '<span><span class="t">Points only</span><span class="o">Your four totals and nothing else. ' +
+            'This is the default and it never changes on its own.</span></span></label>' +
+        '<label class="progIzbor' + (javan ? ' aktivan' : '') + '" data-pvid="1">' +
+          '<input type="radio" name="pvid"' + (javan ? ' checked' : '') + '>' +
+          '<span><span class="t">Full progress</span><span class="o">Every unit with its points — the same ' +
+            'map you see under You.</span></span></label>' +
+      '</div>';
+
+    t.innerHTML = h;
+    progVeziLjude();
+  }
+
+  function progKada(iso) {
+    if (!iso) return 'never';
+    var ms = Date.now() - new Date(iso).getTime();
+    if (isNaN(ms)) return '';
+    var min = Math.floor(ms / 60000);
+    if (min < 2) return 'just now';
+    if (min < 60) return min + ' min ago';
+    var h = Math.floor(min / 60);
+    if (h < 24) return h + ' h ago';
+    var d = Math.floor(h / 24);
+    if (d === 1) return 'yesterday';
+    if (d < 30) return d + ' days ago';
+    return 'over a month ago';
+  }
+
+  function progVeziLjude() {
+    var t = $('progTijelo');
+    $('progKopiraj').onclick = function () {
+      var b = this;
+      try { navigator.clipboard.writeText(DRUSTVO.ja.javni_id || ''); } catch (e) {}
+      b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1600);
+    };
+    $('progSpremiIme').onclick = function () {
+      var ime = $('progNadimak').value.trim().slice(0, 40);
+      $('progImePoruka').textContent = 'Saving…';
+      supa.from('javni_bodovi').update({ nadimak: ime || null, updated_at: new Date().toISOString() })
+        .eq('user_id', SESSION.user.id).then(function (res) {
+          if (res.error) { $('progImePoruka').textContent = 'Could not save — try again.'; return; }
+          DRUSTVO.ja.nadimak = ime;
+          $('progImePoruka').textContent = ime ? 'Saved.' : 'Cleared — people see only your ID.';
+        });
+    };
+    $('progUnosId').oninput = function () {
+      this.value = this.value.toUpperCase().replace(/[^A-NP-Z1-9]/g, '');
+    };
+    $('progPosalji').onclick = function () {
+      var kod = $('progUnosId').value;
+      if (kod.length !== 5) { $('progUnosPoruka').textContent = 'An ID is exactly five characters.'; return; }
+      $('progUnosPoruka').textContent = 'Sending…';
+      supa.rpc('posalji_zahtjev', { kod: kod }).then(function (res) {
+        if (res.error) { $('progUnosPoruka').textContent = 'Could not send it — try again later.'; return; }
+        if (res.data === 'nema') { $('progUnosPoruka').textContent = 'No one has that ID.'; return; }
+        if (res.data === 'to si ti') { $('progUnosPoruka').textContent = 'That is your own ID.'; return; }
+        DRUSTVO.poruka = 'Request sent to ' + kod + '. They see only the name you chose.';
+        DRUSTVO.stanje = 'ne';
+        renderProgress();
+      });
+    };
+    Array.prototype.forEach.call(t.querySelectorAll('[data-pda]'), function (b) {
+      b.onclick = function () { progOdgovori(b.getAttribute('data-pda'), true); };
+    });
+    Array.prototype.forEach.call(t.querySelectorAll('[data-pne]'), function (b) {
+      b.onclick = function () { progOdgovori(b.getAttribute('data-pne'), false); };
+    });
+    Array.prototype.forEach.call(t.querySelectorAll('[data-potkazi]'), function (b) {
+      b.onclick = function () {
+        supa.rpc('raskini_vezu', { druga: b.getAttribute('data-potkazi') }).then(function () {
+          DRUSTVO.stanje = 'ne'; renderProgress();
+        });
+      };
+    });
+    Array.prototype.forEach.call(t.querySelectorAll('[data-pvid]'), function (el) {
+      el.onclick = function () {
+        var javan = el.getAttribute('data-pvid') === '1';
+        if (javan === !!DRUSTVO.ja.progres_javan) return;
+        DRUSTVO.ja.progres_javan = javan;
+        supa.from('javni_bodovi').update({ progres_javan: javan, sazetak: javan ? progSazetak() : {},
+          updated_at: new Date().toISOString() }).eq('user_id', SESSION.user.id).then(function () {});
+        renderProgress();
+      };
+    });
+    Array.prototype.forEach.call(t.querySelectorAll('[data-ptko]'), function (tr) {
+      tr.onclick = function () { progTudjiProgres(tr.getAttribute('data-ptko')); };
+    });
+  }
+
+  function progOdgovori(od, prihvati) {
+    supa.rpc('odgovori_na_zahtjev', { od: od, prihvati: prihvati }).then(function () {
+      DRUSTVO.stanje = 'ne';
+      renderProgress();
+    });
+  }
+
+  // Tuđa mreža: isti raspored kao vlastita, ali bez klikanja — samo pogled.
+  function progTudjiProgres(id) {
+    var cilj = $('progTudji'); if (!cilj) return;
+    if (PROG_TUDJI === id) { PROG_TUDJI = null; cilj.innerHTML = ''; return; }
+    PROG_TUDJI = id;
+    var osoba = null;
+    DRUSTVO.ljudi.forEach(function (p) { if (p.druga_id === id) osoba = p; });
+    if (!osoba) { cilj.innerHTML = ''; return; }
+    var saz = osoba.sazetak || {}, trake = [];
+    var h = '<div class="progMrezaOkvir"><div class="progMreza"><div></div>';
+    TIPOVI.forEach(function (t) {
+      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + t + '</div>';
+    });
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      var imaIsta = false;
+      for (var j = 0; j < TIPOVI.length; j++) if (maksCjeline(TIPOVI[j], r) > 0) imaIsta = true;
+      if (!imaIsta) continue;
+      h += '<div class="progRazina">' + r + '</div>';
+      for (var i = 0; i < TIPOVI.length; i++) {
+        var tip = TIPOVI[i], par = saz[tip + ' ' + r];
+        if (!maksCjeline(tip, r)) { h += '<div class="progCelija prazno"></div>'; continue; }
+        var o = (par && par[0]) || 0, m = (par && par[1]) || maksCjeline(tip, r);
+        var pct = m > 0 ? Math.round(o / m * 100) : 0;
+        var id2 = 'pt_' + tip + '_' + r;
+        trake.push({ id: id2, pct: m > 0 ? Math.min(1, o / m) : 0 });
+        h += '<div class="progCelija' + (pct >= 100 ? ' puna' : (o === 0 ? ' nula' : '')) +
+          '" style="--boja:' + BOJA_TIPA[tip] + ';cursor:default">' +
+          (pct >= 100 ? '<span class="kvaka">' + IK('kvaka') + '</span>' : '') +
+          '<div><div class="pct">' + pct + '%</div><div class="odn">' + o + ' / ' + m + '</div></div>' +
+          '<div class="progStaza"><i id="' + id2 + '"></i></div></div>';
+      }
+    }
+    h += '</div></div>';
+    cilj.innerHTML =
+      '<div class="progLadica" style="--boja:var(--plava)">' +
+        '<div class="progLadicaGlava">' +
+          '<span class="znak">public progress</span>' +
+          '<h3>' + esc(osoba.nadimak || 'Someone') + '</h3>' +
+          '<span class="rez">' + ((osoba.lp || 0) + (osoba.vp || 0) + (osoba.gp || 0) + (osoba.pp || 0)) +
+            ' <small>points in total</small></span>' +
+          '<button class="x" id="progTudjiX" title="Close">✕</button>' +
+        '</div>' +
+        '<div style="padding:1rem 1.125rem">' + h + '</div>' +
+        '<div class="progLadicaPod">Read-only, and never their e-mail. ' +
+          'Last updated ' + esc(progKada(osoba.zadnja_aktivnost)) + '.</div>' +
+      '</div>';
+    animirajTrake(trake);
+    $('progTudjiX').onclick = function () { PROG_TUDJI = null; cilj.innerHTML = ''; };
+    cilj.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // ---- ono malo što o nama vide drugi ----
+  // Piše se uz progress, ali samo kad se neki od četiri broja stvarno promijenio,
+  // da svaka spremljena vježba ne povuče i drugi upis bez potrebe.
+  var ZADNJI_JAVNI = '';
+  function progSazetak() {
+    var out = {};
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      for (var i = 0; i < TIPOVI.length; i++) {
+        var tip = TIPOVI[i], m = maksCjeline(tip, r);
+        if (m > 0) out[tip + ' ' + r] = [progOsv(tip, r), m];
+      }
+    }
+    return out;
+  }
+  function posaljiJavneBodove() {
+    if (!supa || !imaRacun()) return;
+    var vratiKes = (KES_VAL === null);
+    if (vratiKes) KES_VAL = valute();
+    try {
+      var v = KES_VAL;
+      var potpis = v.LP + '|' + v.VP + '|' + v.GP + '|' + v.PP;
+      if (potpis === ZADNJI_JAVNI) return;
+      ZADNJI_JAVNI = potpis;
+      var sad = new Date().toISOString();
+      supa.from('javni_bodovi').update({
+        lp: v.LP, vp: v.VP, gp: v.GP, pp: v.PP,
+        sazetak: (DRUSTVO.ja && DRUSTVO.ja.progres_javan) ? progSazetak() : {},
+        verzija_sadrzaja: (window.PODACI && PODACI.generirano) || null,
+        zadnja_aktivnost: sad, updated_at: sad
+      }).eq('user_id', SESSION.user.id).then(function () {}, function () {});
+    } finally {
+      if (vratiKes) KES_VAL = null;
+    }
+  }
