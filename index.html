@@ -610,7 +610,7 @@
     border: 1px solid var(--rub) !important; }
 
   .rjecnikTraka { display: flex; gap: 0.625rem; margin-bottom: 1rem; }
-  .rjecnikTraka input { flex: 1; padding: 0.625rem 0.875rem; border: 1px solid var(--rub); border-radius: var(--rad-m); font-size: var(--t-l); }
+  .rjecnikTraka input { flex: 1; min-width: 0; padding: 0.625rem 0.875rem; border: 1px solid var(--rub); border-radius: var(--rad-m); font-size: var(--t-l); }
   .rijecKart { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m); margin-bottom: 0.375rem; }
   .rijecKart.imaDet .rijecRed { cursor: pointer; }
   .rijecKart.imaDet:hover { border-color: var(--plava); }
@@ -694,7 +694,9 @@
   /* ============ LESSON 0 — mehanike, traka abecede, lebdeći rječnik ============ */
 
   /* -- spajanje -- */
-  .mrezaSpoj { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  /* minmax(0,1fr), ne 1fr: stupac s duzom rijeci u celiji inace ne moze pasti
+     ispod sirine te rijeci i mreza se prelije preko ruba ekrana. */
+  .mrezaSpoj { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
   .poljeSpoj {
     background: var(--card); border: 2px solid var(--rub); border-radius: var(--rad-l);
     padding: 0.5rem; text-align: center; cursor: pointer; transition: border-color .15s, transform .12s;
@@ -746,7 +748,7 @@
   .plocica.potroseno { opacity: .22; pointer-events: none; }
 
   /* -- pamti pa piši -- */
-  .bljesak { display: flex; gap: 0.875rem; justify-content: center; min-height: 9.125rem; align-items: center; }
+  .bljesak { display: flex; flex-wrap: wrap; gap: 0.875rem; justify-content: center; min-height: 9.125rem; align-items: center; }
   .bljesak img { width: 7.875rem; height: 7.875rem; object-fit: contain; }
   .redoslijed { display: flex; gap: 0.5rem; justify-content: center; margin-bottom: 0.875rem; min-height: 3rem; }
   .mjesto { width: 6.75rem; height: 3rem; border: 2px dashed var(--rub); border-radius: var(--rad-m);
@@ -756,12 +758,12 @@
   .mjesto.krivo { border-color: var(--crvena); background: #fbeceb; }
 
   /* -- zid -- */
-  .zidL0 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.5rem; }
+  .zidL0 { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.5rem; }
   .cigla { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.375rem;
     text-align: center; cursor: pointer; transition: transform .12s, border-color .15s; }
   .cigla:hover { transform: translateY(-2px); border-color: var(--plava); }
   .cigla img { width: 100%; aspect-ratio: 1; object-fit: contain; }
-  .cigla .r { font-size: var(--t-xs); font-weight: 600; margin-top: 0.125rem; }
+  .cigla .r { font-size: var(--t-xs); font-weight: 600; margin-top: 0.125rem; overflow-wrap: anywhere; }
 
   /* -- traka abecede -- */
   body.imaTraku { padding-bottom: 5.5rem; }
@@ -1031,9 +1033,12 @@
   .karticaVeza { color: var(--plava); cursor: pointer; text-decoration: underline; }
 
   @media (max-width: 639.98px) {
-    .zidL0 { grid-template-columns: repeat(4, 1fr); }
-    .bljesak img { width: 6rem; height: 6rem; }
-    .mjesto { width: 6rem; }
+    .zidL0 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    /* Zadana sirina, ali nikad vise od trecine retka — tri slike moraju stati
+       jedna uz drugu i na 320px, i kad je sučelje na Large. */
+    .bljesak img { width: 6rem; max-width: 30%; height: auto; aspect-ratio: 1; }
+    .mjesto { width: 6rem; max-width: 30%; }
+    .redoslijed { flex-wrap: wrap; }
   }
   .otkljModal {
     background: var(--card); border-radius: var(--rad-xl); padding: 2rem 1.75rem; max-width: 26.25rem; width: 100%;
@@ -1248,8 +1253,7 @@
   @media (max-width: 639.98px) { .opcijeMreza { grid-template-columns: 1fr; } }
 
   /* ---- naslovnica: dva spila gore, sve ostalo tiho ispod ---- */
-  .pocetna { display: grid; grid-template-columns: 1fr 18.75rem; gap: 1.25rem; align-items: start; margin-top: 0.25rem; }
-  .pocetna.bezTrake { grid-template-columns: 1fr; }
+  .pocetna { display: grid; grid-template-columns: 1fr; gap: 1.25rem; align-items: start; margin-top: 0.25rem; }
   .lijevo { display: grid; gap: 0.875rem; min-width: 0; container: glavni / inline-size; }
 
   /* --- spilovi: nastavi / kreni novo --- */
@@ -1279,8 +1283,12 @@
     overscroll-behavior-x: contain;
   }
   .spilTraka::-webkit-scrollbar { display: none; }
+  /* Puna sirina, ne 90%: nakon prevlacenja se vidi tocno jedna kartica.
+     Virak sljedece kartice je uobicajena najava da ima jos, ali ovdje je
+     citljivost jedne kartice vaznija od te najave — strelice u zaglavlju
+     spila i tako govore da ih ima vise. */
   .slajd {
-    flex: 0 0 90%; scroll-snap-align: start; min-width: 0; cursor: pointer;
+    flex: 0 0 100%; scroll-snap-align: start; min-width: 0; cursor: pointer;
     display: flex; flex-direction: column; border-radius: var(--rad-s);
   }
   .slajd:focus-visible { outline: 2px solid var(--plava); outline-offset: 3px; }
@@ -1415,7 +1423,6 @@
   @container spil (min-width: 210px) {
     .spil { padding: 1rem 1rem 0.875rem; }
     .spil .strelice { display: flex; }
-    .slajd { flex: 0 0 100%; }
     .slajd .imeS { font-size: var(--t-xl); min-height: 2.4em; }
     .slajd .metaS { min-height: 0; }
     .slajd .ctaS { display: block; }
@@ -1715,12 +1722,14 @@
   @media (max-width: 639.98px) {
     :root {
       /* Bez rasta po širini. 360px i 430px su isti uređaj u istoj ruci —
-         nema razloga da tekst među njima naraste. */
-      --baza: 1rem;
+         nema razloga da tekst među njima naraste. 17px, ne 16: mobitel se
+         drzi blize od monitora, ali se i cita u pokretu i pri losijem svjetlu,
+         pa zadano tijelo teksta mora biti citljivo bez zumiranja. */
+      --baza: 1.0625rem;
 
-      /* Zbijena ljestvica: sitno ne smije pasti ispod ~11px, krupno ne smije
+      /* Zbijena ljestvica: sitno ne smije pasti ispod ~12px, krupno ne smije
          pojesti redak. Naslov je 1.36x tijela. */
-      --t-2xs: 0.70rem;  --t-xs: 0.79rem;  --t-s: 0.86rem;  --t-m: 0.93rem;
+      --t-2xs: 0.72rem;  --t-xs: 0.80rem;  --t-s: 0.87rem;  --t-m: 0.94rem;
       --t-l:   1rem;     --t-xl: 1.09rem;  --t-2xl: 1.20rem;
       --t-3xl: 1.36rem;  --t-4xl: 1.70rem; --t-5xl: 2.30rem;
 
@@ -1742,7 +1751,7 @@
 
     .miniMreza { grid-template-columns: 1fr; gap: 0.625rem; margin-top: 1rem; }
     .miniOkvir iframe { height: calc(100dvh - 7.5rem); min-height: 20rem; }
-    .pocetna { grid-template-columns: 1fr; gap: 0.875rem; }
+    .pocetna { gap: 0.875rem; }
     .postavkeDva, .velicinaMreza, .opcijeMreza { grid-template-columns: 1fr; }
 
     /* Bočni panel na 360px ostavlja beskoristan prorez od 40px i traži da se
@@ -1770,13 +1779,13 @@
   /* ---------------- TABLET: dva stupca, ruka drži, srednje ---------------- */
   @media (min-width: 640px) and (max-width: 1023.98px) {
     :root {
-      /* Raste unutar svog raspona: 16px na 640px, 16.5px na 1024px — tocno
+      /* Raste unutar svog raspona: 17px na 640px, 17.5px na 1024px — tocno
          ondje gdje racunalo preuzima, pa se pri razvlacenju prozora tekst
          ne trzne. */
-      --baza: clamp(1rem, 0.9rem + 0.25vw, 1.03125rem);
+      --baza: clamp(1.0625rem, 0.98rem + 0.2vw, 1.09375rem);
 
       /* Srednja ljestvica — naslov je 1.58x tijela. */
-      --t-2xs: 0.67rem;  --t-xs: 0.76rem;  --t-s: 0.83rem;  --t-m: 0.91rem;
+      --t-2xs: 0.69rem;  --t-xs: 0.78rem;  --t-s: 0.85rem;  --t-m: 0.92rem;
       --t-l:   1rem;     --t-xl: 1.14rem;  --t-2xl: 1.32rem;
       --t-3xl: 1.58rem;  --t-4xl: 2.00rem; --t-5xl: 2.80rem;
     }
@@ -1812,12 +1821,7 @@
     .postavkeDva { grid-template-columns: 1fr 1fr; }
     .velicinaMreza { grid-template-columns: repeat(3, 1fr); }
 
-    /* U portretu (768px) traka od 300px ostavlja glavnom stupcu 430px —
-       premalo za spilove. Zato tek u pejzažu tablet ide na dva stupca. */
-    .pocetna { grid-template-columns: 1fr; gap: 1rem; }
-  }
-  @media (min-width: 900px) and (max-width: 1023.98px) {
-    .pocetna { grid-template-columns: 1fr 15rem; gap: 1.25rem; }
+    .pocetna { gap: 1rem; }
   }
 
   /* ---------------- RAČUNALO: usko, gusto, miš ---------------- */
@@ -1828,16 +1832,17 @@
      monitorom je prazna margina sa strane, ne kartice u sredini. */
   @media (min-width: 1024px) {
     :root {
-      /* 16.5px na 1024px (nastavlja tocno gdje tablet stane), 17px na 2560px.
-         Gotovo ravno: monitor je dalje od oka, ali sirina prozora nije razlog
-         da tekst raste — ekran od 27" ne gleda se s vece udaljenosti nego
-         onaj od 15", samo ima vise mjesta sa strane. */
-      --baza: clamp(1.03125rem, 1rem + 0.0488vw, 1.0625rem);
+      /* 17.5px na 1024px (nastavlja tocno gdje tablet stane), 18.4px na 2560px.
+         Blag nagib: monitor je dalje od oka pa tijelo teksta smije biti
+         najkrupnije od tri, ali sirina prozora nije razlog da raste — ekran
+         od 27" ne gleda se s vece udaljenosti nego onaj od 15", samo ima vise
+         mjesta sa strane. */
+      --baza: clamp(1.09375rem, 1.05rem + 0.068vw, 1.15rem);
 
       /* Najsira ljestvica od tri — naslov je 1.68x tijela. Raspon je veci nego
          na tabletu jer se hijerarhija gleda izdaleka, ali naslov i dalje ostaje
          u sluzbi teksta ispod sebe. */
-      --t-2xs: 0.64rem;  --t-xs: 0.72rem;  --t-s: 0.80rem;  --t-m: 0.89rem;
+      --t-2xs: 0.66rem;  --t-xs: 0.75rem;  --t-s: 0.83rem;  --t-m: 0.91rem;
       --t-l:   1rem;     --t-xl: 1.14rem;  --t-2xl: 1.34rem;
       --t-3xl: 1.68rem;  --t-4xl: 2.15rem; --t-5xl: 2.95rem;
     }
@@ -1851,7 +1856,10 @@
 
     .miniMreza { grid-template-columns: repeat(3, 1fr); gap: 0.875rem; }
     .miniOkvir iframe { height: calc(100dvh - 11.875rem); min-height: 28.75rem; }
-    .pocetna { grid-template-columns: 1fr 17rem; gap: 1.125rem; }
+    /* Bez desne trake naslovnica je stupac kartica — ne treba joj puna sirina
+       #view-a koja sluzi mrezama. Uzi stupac drzi jedan spil da se ne rastegne
+       preko cijelog ekrana kad je sam. */
+    .pocetna { gap: 1.125rem; max-width: 42rem; margin-left: auto; margin-right: auto; }
 
     /* Kartice su mjerene za prst. Na monitoru ih se pogadja misem, pa unutarnji
        razmak moze biti manji — isti sadrzaj, manje praznog okvira oko njega. */
@@ -1943,7 +1951,6 @@
     <a data-view="dictionary" data-kratko="Words" onclick="idi('dictionary')">Dictionary</a>
     <a data-view="mini" data-kratko="Games" onclick="idi('mini')">Mini games</a>
     <a data-view="daily" data-kratko="Daily" onclick="idi('daily')">Daily challenge</a>
-    <a data-view="progress" data-kratko="Progress" onclick="idi('progress')">Progress</a>
     <a data-view="account" data-kratko="You" onclick="idi('account')">User account</a>
     <a data-view="options" data-kratko="Options" onclick="idi('options')">Options</a>
   </nav>
@@ -5852,12 +5859,12 @@
   }
   function renderMainUnutra() {
     KES_VAL = valute();
-    var v = KES_VAL;
     var napredak = imaNapretka();
     var nastavak = zapocete(3);
     var nova = netaknute(3);
-    var prijavljen = imaRacun();
-    var html = '<div class="pocetna' + (prijavljen ? '' : ' bezTrake') + '"><div class="lijevo">';
+    // Bez desne trake s valutama naslovnica je jedan stupac za svakoga — klasa
+    // bezTrake vise nema sto razlikovati.
+    var html = '<div class="pocetna"><div class="lijevo">';
 
     // Lesson 0 stoji na vrhu dok nije rijesena; kad su sva slova skupljena, nestaje s naslovnice.
     if (!zavrsenaL0()) html += plocicaNulaHtml();
@@ -5888,26 +5895,11 @@
          '<div class="ctaS">Open the map</div></div>']) + '</div>';
     }
 
-    // --- police po tipovima: samo kad ima sto reci, i zatvorene dok se ne zatraze ---
-    if (napredak) {
-      var stanja = TIPOVI.map(stanjeTipa).filter(function (st) { return st.ima; });
-      var brNovih = 0, brNastavaka = 0;
-      stanja.forEach(function (st) { if (st.novo) brNovih++; if (st.nastavak) brNastavaka++; });
-      // Kad nijedna traka nema ni novo ni nedovrseno, blok bi samo ponavljao ono
-      // sto veliki natpis gore vec kaze — onda ga nema.
-      if (stanja.length && (brNovih || brNastavaka)) {
-        var saz;
-        if (brNastavaka && brNovih) saz = brNastavaka + ' in progress · ' + brNovih + ' waiting to be opened';
-        else if (brNastavaka) saz = brNastavaka + ' track' + (brNastavaka === 1 ? '' : 's') + ' still unfinished';
-        else saz = brNovih + ' track' + (brNovih === 1 ? '' : 's') + ' with something new';
-        var otvorene = !!(PROGRESS.postavke && PROGRESS.postavke.trakeOtvorene);
-        html += '<div class="trakeBlok' + (otvorene ? ' otvoren' : '') + '">' +
-          '<button type="button" class="trakeZag" data-akcija="trake" aria-expanded="' + otvorene + '">' +
-          '<span class="nasZ">By track</span><span class="sazZ">' + esc(saz) + '</span>' +
-          '<span class="kvaka">▾</span></button>' +
-          '<div class="tipovi">' + stanja.map(karticaTipa).join('') + '</div></div>';
-      }
-    }
+    // Blok "By track" (stanje svake trake) i desna traka s cetiri valute su
+    // ovdje nekad stajali. Oboje je statistika, a naslovnica sluzi odluci sto
+    // sada raditi — brojke su preseljene na Progress. Ostaje samo ono bez cega
+    // se ta odluka ne moze donijeti: koja je cjelina zapoceta i koliko je
+    // odradjeno ("done so far" na samoj kartici).
 
     // --- brza vjezba ---
     var brze = [];
@@ -5938,34 +5930,6 @@
           : 'save your progress across devices') + '</div></div>' +
       '</div>';
 
-    html += '</div>';
-
-    // --- desna traka: cetiri valute, svaka s pragom sljedeceg otkljucavanja ---
-    // Odjavljenom se ne crta: cetiri prazne trake nisu stanje nego prijekor.
-    if (!prijavljen) {
-      html += '</div>';
-      VIEW.innerHTML = html;
-      KES_VAL = null;
-      vezisNaslovnicu();
-      return;
-    }
-    var imena = { LP: 'Lesson points', VP: 'Vocabulary points', GP: 'Grammar points', PP: 'Practice points' };
-    var razred = { LP: 'lp', VP: 'vp', GP: 'gp', PP: 'pp' };
-    html += '<div class="stanjeVal"><div class="nasV">Your four currencies</div>';
-    TIPOVI.slice(0, 4).forEach(function (tip) {
-      var val = VALUTA_TIPA[tip];
-      if (!val) return;
-      var sad = v[val] || 0;
-      var sl = sljedeciPrag(tip);
-      var pct = sl && sl.prag ? Math.min(100, Math.round(sad / sl.prag * 100)) : 100;
-      html += '<div class="redV ' + razred[val] + '">' +
-        '<div class="gornji"><b>' + imena[val] + '</b><span class="broj">' + sad + '</span></div>' +
-        '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
-        '<div class="do">' + (sl
-          ? Math.max(0, sl.prag - sad) + ' ' + val + ' to unlock ' + esc(sl.naslov)
-          : 'every level unlocked') + '</div>' +
-        '</div>';
-    });
     html += '</div></div>';
 
     VIEW.innerHTML = html;
