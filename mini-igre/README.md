@@ -1,6 +1,6 @@
 # Croland — mini igre (radni prototipi)
 
-Dvanaest igrivih prototipa prema `mini-igre.md`. Svaka je **samostalna HTML datoteka**:
+Trinaest igrivih prototipa prema `mini-igre.md`. Svaka je **samostalna HTML datoteka**:
 otvori je dvoklikom i radi. Nema buildanja, nema servera, nema vanjskih biblioteka.
 
 ## Potpuno odvojeno od postojeće aplikacije
@@ -16,6 +16,7 @@ ni mape `slike/`, `zvuk/`, `igre/`. Svaka igra nosi vlastiti ugrađeni sadržaj:
 | dijalozi | — | **12 (85 replika)** |
 | suprotnice | — | **55 parova** |
 | gramatički savjeti | — | **30** |
+| gradovi (Towns of Croatia) | — | **128 gradova, 512 pitanja** |
 
 Napredak se sprema u `localStorage` pod ključem `croland-mini-<id>`, odvojeno od aplikacije.
 Uz to sve igre dijele `croland-mini-ucenje` — zajedničku evidenciju svladanih i promašenih
@@ -76,6 +77,34 @@ _sadrzaj/provjeri.js   headless provjera svih igara       → node _sadrzaj/prov
 
 `ugradi.js` je idempotentan — pokreni ga koliko god puta treba. Provjerava i sam sadržaj
 (rod, kategorije, praznine bez `___`) i prekida s greškom ako nešto ne valja.
+
+**Iznimka: Gradovi.** Trinaesta igra (`13-gradovi.html`) nosi vlastiti sadržaj —
+svih **128 gradova** Republike Hrvatske, poredanih kao jedno putovanje od Iloka na
+Dunavu do Dubrovnika na Jadranu. U svakom gradu igrač sreće **jednu osobu** (ime +
+uloga; sprite je zajednički), vodi četiri replike i dobiva zaključnu rečenicu koja
+upućuje na sljedeći grad. Od 128 likova 66 su žene. Popis likova i pripadnih slika
+je u **`GRADOVI-LIKOVI.md`**, a cijeli tekst razgovora u **`GRADOVI-DIJALOZI.md`** —
+oba se generiraju iz igre, pa se ne uređuju ručno.
+
+Pravilo za ponuđene odgovore: točan je jedan, a **druga dva su činjenično netočne
+tvrdnje** — ne izbjegavanje pitanja i ne promašena tema. Odgovor koji tehnički ne
+odgovara na pitanje, ali nije netočan (npr. „Ne, ja sam došao autobusom.“), ne
+valja kao krivi izbor: igrač koji je razumio hrvatski mora moći odbaciti obje krive
+replike i bez konteksta razgovora.
+
+Drugo pravilo, jednako važno: **oblik odgovora ne smije odavati koji je točan.**
+Kad su točni odgovori redom počinjali s „Znači, …“, a krivi nisu, 63 % pitanja
+rješavalo se bez ijedne hrvatske riječi. Zato uvodna riječ („Aha.“, „Vidim.“,
+„A tako.“, „Jasno.“) stoji na **dva od tri** odgovora, birana neovisno o tome koji
+je točan. Isto vrijedi za svaku drugu površinsku razliku — duljinu, upitnik,
+prvo lice. Provjera je jednostavna: nijedno obilježje ne smije pogađati točan
+odgovor češće od slučajnih 33 %.
+
+Odgovori igrača pisani su **bez roda** („Kažu da je…“, a ne „Čuo sam da je…“), pa
+jednako odgovaraju svakom igraču.
+
+Pozadine su `gradovi/NNN-slug.jpg`. Gdje slike nema, scena pada na papirnatu podlogu,
+pa igra radi i s nepotpunim setom fotografija.
 
 **Iznimka: Labirint.** Osma igra ne vuče riječi iz zajedničkog rječnika nego iz vlastitog
 popisa od 19 kategorija (30 točnih + 60 netočnih riječi po kategoriji). Taj popis stoji u
