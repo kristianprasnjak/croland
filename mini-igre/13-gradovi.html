@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="color-scheme" content="light">
+<title>Croland — Towns of Croatia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#F3EAD8; --tinta:#241C15; --meko:#7A6A57;
+  --zut:#F4B942; --koralj:#D9452F; --zelena:#5C9A3A; --plava:#2E6F9E;
+  --panel:#20180F; --panel2:#2E2318;
+  /* Tekst koji se čita ide u pravi tekstualni font — gradivo mora biti čitljivo.
+     Pixel font ostaje samo na sitnim oznakama sučelja (--pix2). */
+  --pix:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
+  --pix2:"Press Start 2P",monospace;
+}
+html,body{height:100%}
+body{
+  font-family:var(--pix); font-size:17px; background:var(--papir); color:var(--tinta);
+  overscroll-behavior:none; -webkit-font-smoothing:antialiased;
+  background-image:
+    linear-gradient(rgba(36,28,21,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(36,28,21,.05) 1px,transparent 1px);
+  background-size:8px 8px;
+}
+img{image-rendering:pixelated;image-rendering:crisp-edges}
+.omot{max-width:940px;margin:0 auto;padding:12px 12px 40px;display:flex;flex-direction:column;gap:12px}
+
+/* ---------- traka ---------- */
+.traka{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:#fff;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);padding:9px 12px}
+.traka .nazivIgre{font-family:var(--pix2);font-size:11px;line-height:1.7;margin-right:auto}
+.natrag{font-weight:700;font-size:15px;text-decoration:none;color:var(--tinta);
+  border:3px solid var(--tinta);padding:5px 10px;background:#fff}
+.natrag:hover{background:var(--zut)}
+.srca{display:flex;gap:5px;align-items:center}
+.srce{width:22px;height:19px;color:var(--koralj)}
+.srce.prazno{color:var(--tinta);opacity:.17}
+.brojac{font-weight:700;font-size:15px;color:var(--meko);white-space:nowrap}
+
+/* ---------- scena ---------- */
+/* Pozadine su 1264x848. Scena ih reže na niži format da odgovori stanu na ekran
+   bez skrolanja; object-position gura izrez prema dolje pa nebo otpada, a ne kuće. */
+.scena{position:relative;container-type:inline-size;border:4px solid var(--tinta);
+  box-shadow:0 5px 0 var(--tinta);background:#9ecbe8;overflow:hidden;line-height:0;
+  aspect-ratio:1264/620}
+.poz{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 70%}
+.lik{position:absolute;right:-1%;bottom:0;width:74%;height:auto;
+  animation:disi 2.8s ease-in-out infinite;transform-origin:50% 100%}
+@keyframes disi{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.1%)}}
+.lik.stigao{animation:ulaz .42s ease-out, disi 2.8s ease-in-out .42s infinite}
+@keyframes ulaz{from{transform:translate(14%,4%);opacity:0}to{transform:translate(0,0);opacity:1}}
+.lik.trza{animation:trzaj .34s steps(3) 2, disi 2.8s ease-in-out .68s infinite}
+@keyframes trzaj{0%{transform:translate(0,0)}33%{transform:translate(-1.4%,-1.2%)}66%{transform:translate(1.2%,.4%)}100%{transform:translate(0,0)}}
+
+.gradIme{position:absolute;left:0;top:0;font-weight:700;font-size:clamp(15px,3.3cqw,26px);
+  line-height:1;color:#fff;background:var(--tinta);padding:1.7cqw 2.4cqw;letter-spacing:.6px}
+
+/* ---------- oblačić ---------- */
+.govor{position:absolute;left:2.4%;bottom:4%;width:53%;
+  background:rgba(32,24,15,.93);border:0.42cqw solid #fff;color:#F7F1E3;
+  padding:2.3cqw 2.5cqw;line-height:1.45;font-size:clamp(13px,3.3cqw,19px)}
+.govor .ime{display:block;font-weight:700;font-size:clamp(10px,2.35cqw,14px);
+  color:var(--zut);margin-bottom:1.3cqw;letter-spacing:.5px}
+.govor p{margin:0}
+.govor.zbunjen{border-color:var(--koralj)}
+.otkrijEN{font:inherit;font-size:clamp(9px,2.5cqw,14px);cursor:pointer;margin-top:1.6cqw;
+  background:none;border:2px dashed rgba(247,241,227,.45);color:rgba(247,241,227,.75);
+  padding:.3em .6em;display:inline-block}
+.otkrijEN:hover{border-style:solid;color:#fff}
+.enTekst{display:block;margin-top:1.4cqw;font-size:clamp(9px,2.55cqw,14px);
+  color:rgba(247,241,227,.72);font-style:italic}
+
+/* ---------- odgovori ---------- */
+.odgovori{display:flex;flex-direction:column;gap:9px}
+.o{font:inherit;font-size:18px;text-align:left;cursor:pointer;color:var(--tinta);
+  background:#fff;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);
+  padding:12px 14px;display:flex;gap:11px;align-items:flex-start;line-height:1.35;
+  transition:transform .06s,box-shadow .06s}
+.o:hover:not(:disabled){background:#FFF6E2}
+.o:active:not(:disabled){transform:translateY(4px);box-shadow:0 1px 0 var(--tinta)}
+.o .slovo{font-family:var(--pix2);font-size:11px;line-height:1.5;color:var(--meko);flex:none;padding-top:4px}
+.o:disabled{cursor:default}
+.o.tocno{background:var(--zelena);color:#fff}
+.o.tocno .slovo{color:rgba(255,255,255,.8)}
+.o.krivo{background:var(--koralj);color:#fff}
+.o.krivo .slovo{color:rgba(255,255,255,.8)}
+.o.blijedo{opacity:.4}
+
+/* ---------- kartice / ekrani ---------- */
+.karta{background:#fff;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);
+  padding:22px 20px;display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.karta h1{font-weight:700;font-size:28px;line-height:1.3;letter-spacing:.4px}
+.karta h2{font-weight:700;font-size:22px;line-height:1.35;letter-spacing:.4px}
+.karta p{line-height:1.55;max-width:62ch}
+.karta ul{line-height:1.65;padding-left:1.2em;max-width:62ch}
+.karta .sitno{font-size:15px;color:var(--meko)}
+.g{font-weight:700;font-size:17px;line-height:1.4;cursor:pointer;color:var(--tinta);
+  background:var(--zut);border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);
+  padding:13px 17px;transition:transform .06s,box-shadow .06s}
+.g:hover{filter:brightness(1.06)}
+.g:active{transform:translateY(4px);box-shadow:0 1px 0 var(--tinta)}
+.g.tih{background:#fff}
+.red{display:flex;gap:10px;flex-wrap:wrap}
+.skriveno{display:none!important}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  .o{font-size:16px;padding:11px 12px}
+  .karta h1{font-size:23px} .karta h2{font-size:19px}
+  /* uži ekran -> viša scena, inače oblačić proguta cijelu sliku */
+  .scena{aspect-ratio:1264/780}
+  .poz{object-position:50% 62%}
+  .lik{width:88%;right:-4%}
+  .govor{width:95%;left:2.5%;bottom:2.5%;font-size:clamp(14px,4.1cqw,18px)}
+  .govor .ime{font-size:clamp(11px,3cqw,14px)}
+  .otkrijEN,.enTekst{font-size:clamp(12px,3.5cqw,15px)}
+  .gradIme{font-size:clamp(15px,4.4cqw,20px)}
+}
+</style>
+</head>
+<body>
+
+<div class="omot">
+
+  <div class="traka">
+    <span class="nazivIgre">Towns of Croatia</span>
+    <span class="brojac" id="brojac">Town 1 / 10</span>
+    <span class="srca" id="srca"></span>
+    <a class="natrag" href="index.html">← games</a>
+  </div>
+
+  <!-- ===== UVOD ===== -->
+  <div class="karta" id="ekranUvod">
+    <h1>Towns of Croatia</h1>
+    <p>You are travelling west across Slavonia, from Ilok on the Danube. In every town
+       someone talks to you — <b>in Croatian</b>. Pick the reply that actually fits what
+       they just said.</p>
+    <ul>
+      <li>Only <b>one</b> of the three replies is right.</li>
+      <li>A wrong reply costs <b>one heart</b> and pushes you back to the previous question.</li>
+      <li>Lose all three hearts and you are sent <b>three towns back</b>.</li>
+      <li>Hearts never come back on their own. Your hearts and your position are saved.</li>
+    </ul>
+    <p class="sitno">Ten towns in this demo. Stuck? Do a few more lessons and come back —
+       that works better than guessing.</p>
+    <div class="red">
+      <button class="g" id="gPocni">Start</button>
+      <button class="g tih skriveno" id="gNastavi">Continue</button>
+      <button class="g tih skriveno" id="gIspocetka">Start over</button>
+    </div>
+  </div>
+
+  <!-- ===== IGRA ===== -->
+  <div id="ekranIgra" class="skriveno">
+    <div class="scena">
+      <img class="poz" id="poz" alt="">
+      <img class="lik" id="lik" alt="">
+      <div class="gradIme" id="gradIme"></div>
+      <div class="govor" id="govor"></div>
+    </div>
+    <div class="odgovori" id="odgovori" style="margin-top:12px"></div>
+  </div>
+
+  <!-- ===== MEĐUEKRAN ===== -->
+  <div class="karta skriveno" id="ekranMedu">
+    <h2 id="meduNaslov"></h2>
+    <p id="meduTekst"></p>
+    <button class="g" id="gDalje">Continue</button>
+  </div>
+
+</div>
+
+<script>
+/* ================================================================
+   GRADIVO — hrvatski. Sučelje ostaje engleski (pravilo iz README).
+   slika: mini-igre/gradovi/  (izvornici: "slike nekompresirano/Gradovi")
+   Točan odgovor je uvijek prvi u nizu; prikaz se miješa pri svakom crtanju.
+   ================================================================ */
+const GRADOVI = [
+{
+  ime:"Ilok", slika:"gradovi/01-ilok.jpg", lik:"001",
+  osoba:"Franjo", uloga:"guide at the castle",
+  zbunjen:"Molim? Nije baš tako.", zbunjenEN:"Sorry? That's not quite right.",
+  p:[
+    { hr:"Dobar dan. Jeste li već bili gore na terasi? Odande se vidi Dunav.",
+      en:"Good afternoon. Have you been up on the terrace yet? You can see the Danube from there.",
+      o:["Nisam još. Idem odmah gore.","Jesam. Odande se vidi i more.","Jesam, ali ovdje nema rijeke."] },
+    { hr:"Vrijedi. Ovo je najistočnija točka Hrvatske. Preko Dunava je Srbija.",
+      en:"It's worth it. This is the easternmost point of Croatia. Across the Danube is Serbia.",
+      o:["Znači, dalje na istok se ne može.","Znači, preko rijeke je Mađarska.","Znači, Ilok je na zapadu zemlje."] },
+    { hr:"Tako je. A ispod nas su podrumi. Vino se ovdje pravi od 1450. godine.",
+      en:"That's right. And below us are the cellars. Wine has been made here since 1450.",
+      o:["To je više od petsto godina.","Znači, podrumi su iz prošlog stoljeća.","Znači, ovdje se vino nikad nije pravilo."] },
+    { hr:"Najpoznatije nam je bijelo vino, traminac. Išlo je čak i na englesku krunidbu.",
+      en:"Our most famous wine is a white one, traminac. It even went to an English coronation.",
+      o:["Onda ću probati čašu prije odlaska.","Onda ću probati to crno vino.","Onda ću probati to pivo iz podruma."] }
+  ],
+  kraj:"Podrum je otvoren do pet. A kad krenete dalje, cesta uz Dunav vodi u Vukovar.",
+  krajEN:"The cellar is open until five. And when you move on, the road along the Danube leads to Vukovar."
+},
+{
+  ime:"Vukovar", slika:"gradovi/02-vukovar.jpg", lik:"001",
+  osoba:"Danijel", uloga:"museum guide",
+  zbunjen:"Kako, molim? Nije tako.", zbunjenEN:"I beg your pardon? That's not how it is.",
+  p:[
+    { hr:"Dobar dan. Muzej je uz Dunav, pet kilometara od centra.",
+      en:"Good afternoon. The museum is by the Danube, five kilometres from the centre.",
+      o:["Hvala. Mogu li pješice?","Hvala. Znači, muzej je u centru.","Hvala. Je li muzej u planini?"] },
+    { hr:"Možete, ali je daleko. Ondje je nađena vučedolska golubica, stara oko pet tisuća godina.",
+      en:"You can, but it's far. That's where the Vučedol dove was found, about five thousand years old.",
+      o:["Pet tisuća godina? To je jako davno.","Znači, golubica je živa ptica.","Znači, nađena je prošlo ljeto."] },
+    { hr:"Jest. To je posuda od gline, u obliku ptice. Danas je znak grada.",
+      en:"It is. It's a clay vessel in the shape of a bird. Today it is the symbol of the town.",
+      o:["Može li se vidjeti u muzeju?","Znači, napravljena je od kamena.","Znači, to je slika na zidu."] },
+    { hr:"Može, stoji u prvoj dvorani. A u gradu ćete vidjeti vodotoranj. Ostavljen je oštećen, kao spomen na rat.",
+      en:"Yes, it stands in the first hall. And in town you will see the water tower. It was left damaged, as a memorial to the war.",
+      o:["Razumijem. Nije obnovljen namjerno.","Razumijem. Znači, toranj je srušen do temelja.","Razumijem. Znači, toranj je sagrađen lani."] }
+  ],
+  kraj:"Tako je. Vidi se izdaleka, uz Dunav. Ako idete dalje na zapad, sljedeći su Vinkovci.",
+  krajEN:"That's right. You can see it from far away, along the Danube. If you go further west, Vinkovci is next."
+},
+{
+  ime:"Vinkovci", slika:"gradovi/03-vinkovci.jpg", lik:"001",
+  osoba:"Tomislav", uloga:"waiting at the station",
+  zbunjen:"Molim? Kako ste rekli?", zbunjenEN:"Sorry? What did you say?",
+  p:[
+    { hr:"Dobar dan. Vi čekate vlak za Zagreb?",
+      en:"Good afternoon. Are you waiting for the train to Zagreb?",
+      o:["Da, ali imam još pola sata.","Ne, ja sam došao autobusom.","Da, vlak vozi svakih pet minuta."] },
+    { hr:"Onda imate vremena. Ovdje ljudi žive već osam tisuća godina, bez prekida.",
+      en:"Then you have time. People have lived here for eight thousand years, without a break.",
+      o:["Znači, ovo je jedan od najstarijih gradova u Europi.","Znači, grad je osnovan u osamnaestom stoljeću.","Znači, ovdje prije nitko nije živio."] },
+    { hr:"Tako je. U muzeju imamo Orion, posudu staru pet tisuća godina. Na njoj je najstariji poznati kalendar u Europi.",
+      en:"That's right. In the museum we have Orion, a vessel five thousand years old. On it is the oldest known calendar in Europe.",
+      o:["Zanimljivo. Gdje je taj muzej?","Zanimljivo. Pokazat ću vam svoj kalendar.","Znači, posuda je napravljena prošle godine."] },
+    { hr:"U centru, kraj rijeke Bosut. A odavde su i dva rimska cara, Valentinijan i Valens.",
+      en:"In the centre, by the river Bosut. And two Roman emperors came from here, Valentinian and Valens.",
+      o:["Puno toga za jedan mali grad.","Znam ih, to su bili grčki filozofi.","Znači, oni su rođeni u Zagrebu."] }
+  ],
+  kraj:"Požurite, vlak ne čeka. Sljedeća stanica vam je Otok.",
+  krajEN:"Hurry, the train doesn't wait. Your next stop is Otok."
+},
+{
+  ime:"Otok", slika:"gradovi/04-otok.jpg", lik:"001",
+  osoba:"Ivica", uloga:"forester",
+  zbunjen:"Čekajte, kako to mislite?", zbunjenEN:"Hold on, what do you mean?",
+  p:[
+    { hr:"Dobar dan. Idete li vi prema Spačvi?",
+      en:"Good afternoon. Are you heading towards Spačva?",
+      o:["Ne znam gdje je to. Što je Spačva?","Idem. To je najviši vrh u Slavoniji.","Idem. Već sam bio na moru."] },
+    { hr:"Spačva je šuma, najveća šuma hrasta lužnjaka u Europi. Počinje odmah iza sela.",
+      en:"Spačva is a forest, the largest pedunculate oak forest in Europe. It begins right behind the village.",
+      o:["Znači, blizu je. Mogu i pješice.","Znači, moram putovati cijeli dan.","Znači, ondje rastu masline."] },
+    { hr:"Možete. Slavonski hrast je poznat, od njega se rade bačve za vino.",
+      en:"You can. Slavonian oak is famous — barrels for wine are made from it.",
+      o:["A gdje se te bačve prodaju?","Znači, drvo služi samo za ogrjev.","Znači, bačve se rade od bora."] },
+    { hr:"Idu čak i u Francusku. A rijeka kroz Otok je Bosut, ista koja teče kroz Vinkovce.",
+      en:"They go as far as France. And the river through Otok is the Bosut, the same one that flows through Vinkovci.",
+      o:["Znači, rijeka povezuje ta dva mjesta.","Znači, kroz Otok teče Dunav.","Znači, u Vinkovcima nema rijeke."] }
+  ],
+  kraj:"Bosut je spor i tih, dobar za čamce. Ako idete na jug, prema Savi, čeka vas Županja.",
+  krajEN:"The Bosut is slow and quiet, good for boats. If you go south, towards the Sava, Županja awaits you."
+},
+{
+  ime:"Županja", slika:"gradovi/05-zupanja.jpg", lik:"001",
+  osoba:"Ana", uloga:"market stallholder",
+  zbunjen:"Molim? Nisam vas razumjela.", zbunjenEN:"Sorry? I didn't understand you.",
+  p:[
+    { hr:"Dobar dan. Trebate nešto?",
+      en:"Good afternoon. Do you need anything?",
+      o:["Samo gledam. Prvi put sam ovdje.","Da, jednu kartu za vlak.","Da, jednu sobu za noćenje."] },
+    { hr:"Onda ste daleko od kuće. Ovo je Posavina, uz rijeku Savu. Preko rijeke je Bosna i Hercegovina.",
+      en:"Then you're far from home. This is Posavina, along the river Sava. Across the river is Bosnia and Herzegovina.",
+      o:["Znači, granica je odmah tu.","Znači, preko rijeke je Mađarska.","Znači, ovdje se Sava ulijeva u Dunav."] },
+    { hr:"Ista rijeka teče i kroz Zagreb. Kod nas je već široka i mirna. Zimi zna biti magla po nekoliko dana.",
+      en:"The same river flows through Zagreb too. Here it is already wide and calm. In winter there can be fog for several days.",
+      o:["A ljeti? Je li vruće?","Znači, zimi je ovdje uvijek sunčano.","Znači, Sava ne prolazi kroz Zagreb."] },
+    { hr:"Ljeti je vruće, i to jako. Ovo je ravnica, nema hlada. Zato ljudi rade rano ujutro.",
+      en:"In summer it is hot, very hot. This is a plain, there is no shade. That is why people work early in the morning.",
+      o:["Razumijem. A što najbolje uspijeva ovdje?","Razumijem. Zato ljudi ovdje rade noću.","Razumijem. Zato su ovdje visoke planine."] }
+  ],
+  kraj:"Kukuruz, pšenica, šećerna repa. Ovo je najplodnija zemlja u Hrvatskoj. Idete li dalje na zapad, sljedeći je Slavonski Brod.",
+  krajEN:"Maize, wheat, sugar beet. This is the most fertile land in Croatia. If you go further west, Slavonski Brod is next."
+},
+{
+  ime:"Slavonski Brod", slika:"gradovi/06-slavonski-brod.jpg", lik:"001",
+  osoba:"Marko", uloga:"guide at the fortress",
+  zbunjen:"Molim? To baš i nije tako.", zbunjenEN:"Sorry? That's not really so.",
+  p:[
+    { hr:"Dobar dan. Tražite li ulaz u tvrđavu?",
+      en:"Good afternoon. Are you looking for the entrance to the fortress?",
+      o:["Tražim. Prvi put sam u Brodu.","Tražim. Kartu sam kupio na tržnici.","Ne tražim. Tvrđave u Brodu nema."] },
+    { hr:"Ovdje je, iza mene. Ovo je tvrđava Brod, jedna od najvećih baroknih tvrđava u Hrvatskoj. Gradili su je Austrijanci u osamnaestom stoljeću.",
+      en:"It's here, behind me. This is Brod Fortress, one of the largest baroque fortresses in Croatia. The Austrians built it in the eighteenth century.",
+      o:["Protiv koga su je gradili?","Znači, gradili su je Rimljani.","Znači, sagrađena je prije deset godina."] },
+    { hr:"Protiv Osmanlija. S druge strane Save bila je granica. I danas je granica — ondje je Bosna i Hercegovina.",
+      en:"Against the Ottomans. The border was on the other side of the Sava. It is still a border today — Bosnia and Herzegovina is over there.",
+      o:["Kako se zove grad preko rijeke?","Znači, preko rijeke je Austrija.","Znači, danas ondje nema granice."] },
+    { hr:"Bosanski Brod. Brod znači prijelaz preko rijeke. A u Brodu je živjela i Ivana Brlić-Mažuranić.",
+      en:"Bosanski Brod. 'Brod' means a crossing over a river. And Ivana Brlić-Mažuranić lived in Brod too.",
+      o:["Ona koja je napisala Šegrta Hlapića?","Znači, ona je bila pjevačica.","Znači, brod je vrsta ribe."] }
+  ],
+  kraj:"Tako je. Njezina je kuća u gradu, blizu korza. Ako idete dalje na zapad, sljedeća je Nova Gradiška.",
+  krajEN:"That's right. Her house is in town, near the promenade. If you go further west, Nova Gradiška is next."
+},
+{
+  ime:"Nova Gradiška", slika:"gradovi/07-nova-gradiska.jpg", lik:"001",
+  osoba:"Vesna", uloga:"waiting at a café",
+  zbunjen:"Molim?! Ma ne.", zbunjenEN:"Sorry?! Oh no.",
+  p:[
+    { hr:"Izvolite? Kavu ili nešto hladno?",
+      en:"Yes? A coffee or something cold?",
+      o:["Kavu, molim vas.","Jednu kartu, molim vas.","Kilogram jabuka, molim vas."] },
+    { hr:"Odmah. Sjednite vani, danas je lijepo. Vidite kako je trg širok? Grad je planiran, nije rastao sam od sebe.",
+      en:"Right away. Sit outside, it's nice today. See how wide the square is? The town was planned, it didn't grow on its own.",
+      o:["Tko ga je isplanirao?","Znači, ulice su ovdje uske i krive.","Znači, grad je star tisuću godina."] },
+    { hr:"Austrijska vojska, u vrijeme Vojne krajine. Iza nas je Psunj, planina od gotovo tisuću metara.",
+      en:"The Austrian army, in the time of the Military Frontier. Behind us is Psunj, a mountain of almost a thousand metres.",
+      o:["Može li se na Psunj pješice?","Znači, Psunj je rijeka.","Znači, ovdje je sve ravno."] },
+    { hr:"Može, ima puno staza. Ljudi idu gore vikendom. A dolje je Posavina, žito i kukuruz.",
+      en:"You can, there are lots of trails. People go up at the weekend. And down here is Posavina, wheat and maize.",
+      o:["Znači, ovdje ima i brda i ravnice.","Znači, ovdje raste samo šuma.","Znači, popet ću se na Posavinu."] }
+  ],
+  kraj:"Tako je, i jedno i drugo. Ako idete u Zlatnu dolinu, put vodi na sjever, prema Požegi.",
+  krajEN:"That's right, both. If you're going to the Golden Valley, the road leads north, towards Požega."
+},
+{
+  ime:"Požega", slika:"gradovi/08-pozega.jpg", lik:"001",
+  osoba:"Ivan", uloga:"schoolteacher",
+  zbunjen:"Ne, ne. Slušajte još jednom.", zbunjenEN:"No, no. Listen once more.",
+  p:[
+    { hr:"Dobar dan. Trebate li pomoć? Izgledate izgubljeno.",
+      en:"Good afternoon. Do you need help? You look lost.",
+      o:["Trebam. Gdje je glavni trg?","Trebam. Kada polazi brod?","Ne trebam. Već sam u Osijeku."] },
+    { hr:"Samo naprijed, sto metara. To je Trg Svetog Trojstva. U sredini je kužni pil iz 1749. godine.",
+      en:"Just straight on, a hundred metres. That's Holy Trinity Square. In the middle is a plague column from 1749.",
+      o:["Što je kužni pil?","Znači, spomenik je podignut lani.","Znači, na trgu nema ničega."] },
+    { hr:"Spomenik podignut nakon kuge, kao zahvala. Požega je stari grad — gimnazija ovdje radi od 1699.",
+      en:"A monument raised after the plague, as thanks. Požega is an old town — the grammar school here has been running since 1699.",
+      o:["Je li to jedna od najstarijih u Hrvatskoj?","Znači, gimnazija je otvorena nedavno.","Znači, kuga je bila prošle godine."] },
+    { hr:"Jest, jedna od najstarijih. A ovu kotlinu zovemo Zlatna dolina — zbog žita i vina.",
+      en:"It is, one of the oldest. And we call this valley the Golden Valley — because of the wheat and the wine.",
+      o:["Znači, ime dolazi od poljoprivrede.","Znači, ovdje se kopa zlato.","Znači, ovdje ništa ne raste."] }
+  ],
+  kraj:"Točno. Vinogradi su prema istoku, oko Kutjeva. Ali prvo vam je na putu Pleternica.",
+  krajEN:"Exactly. The vineyards are to the east, around Kutjevo. But Pleternica is on your way first."
+},
+{
+  ime:"Pleternica", slika:"gradovi/09-pleternica.jpg", lik:"001",
+  osoba:"Marija", uloga:"selling honey by the bridge",
+  zbunjen:"Ha? Nije to tako.", zbunjenEN:"Huh? That's not how it is.",
+  p:[
+    { hr:"Dobar dan. Med? Domaći je, iz Zlatne doline.",
+      en:"Good afternoon. Honey? It's homemade, from the Golden Valley.",
+      o:["Može jedna teglica.","Može jedna karta.","Ne, hvala. Med se ovdje ne pravi."] },
+    { hr:"Evo. Vidite rijeku ispod mosta? To je Orljava. Teče kroz cijelu dolinu i ulijeva se u Savu.",
+      en:"Here you are. Do you see the river under the bridge? That's the Orljava. It flows through the whole valley and empties into the Sava.",
+      o:["Ima li u njoj ribe?","Znači, Orljava se ulijeva u Dravu.","Znači, ispod mosta je jezero."] },
+    { hr:"Ima, ljudi pecaju cijelo ljeto. A u Pleternicu dolaze i hodočasnici, u svetište Gospe od Suza.",
+      en:"There are, people fish all summer. And pilgrims come to Pleternica too, to the shrine of Our Lady of Tears.",
+      o:["Kada ih dolazi najviše?","Znači, ovamo nitko ne dolazi.","Znači, svetište je u Požegi."] },
+    { hr:"U svibnju i u rujnu. Ostatak godine je mirno, malo mjesto među brdima.",
+      en:"In May and in September. The rest of the year it is quiet, a small place among the hills.",
+      o:["Meni odgovara mirno.","Znači, ovdje je gužva cijele godine.","Znači, Pleternica je velik grad."] }
+  ],
+  kraj:"Iza brda su vinogradi i Kutjevo. Ondje je vino, i to staro vino.",
+  krajEN:"Behind the hills are the vineyards and Kutjevo. That's where the wine is, and old wine at that."
+},
+{
+  ime:"Kutjevo", slika:"gradovi/10-kutjevo.jpg", lik:"001",
+  osoba:"Stjepan", uloga:"winemaker",
+  zbunjen:"Ma kakvi. Pitam vas opet.", zbunjenEN:"Not at all. I'll ask you again.",
+  p:[
+    { hr:"Dobar dan, pazite na stube. Dolje je hladno, ponesite jaknu.",
+      en:"Good afternoon, mind the stairs. It's cold down there, bring a jacket.",
+      o:["Koliko je dolje hladno?","Dobro, penjemo se gore.","Dobro, ostavit ću jaknu u autu."] },
+    { hr:"Dvanaest stupnjeva, cijelu godinu. Ovaj je podrum iz 1232. godine. Sagradili su ga cisterciti.",
+      en:"Twelve degrees, all year round. This cellar is from 1232. The Cistercians built it.",
+      o:["Znači, star je gotovo osamsto godina.","Znači, podrum je iz devetnaestog stoljeća.","Znači, ljeti je ovdje vruće."] },
+    { hr:"Redovnici. Oni su ovdje prvi zasadili vinograde. Naše je glavno vino graševina, bijelo i suho.",
+      en:"Monks. They were the first to plant vineyards here. Our main wine is graševina, white and dry.",
+      o:["Uz što se pije graševina?","Znači, graševina je crno vino.","Znači, graševina je vrsta piva."] },
+    { hr:"Uz ribu i piletinu. Probajte malo, samo gutljaj — pa na put.",
+      en:"With fish and chicken. Try a little, just a sip — then off you go.",
+      o:["Hvala, samo gutljaj. Vozim.","Hvala, popit ću bocu pa vozim dalje.","Hvala, ali ja ne pijem ni vino ni vodu."] }
+  ],
+  kraj:"Tako treba. Ovdje demo staje. Dalje na istok čeka Đakovo.",
+  krajEN:"That's the way. The demo stops here. Đakovo awaits further east."
+}
+];
+
+/* ================================================================
+   PRAVILA
+   ================================================================ */
+const SRCA_MAX   = 3;   // srca na početku i nakon pada
+const PAD_NATRAG = 3;   // koliko gradova unatrag kad srca padnu na nulu
+const KLJUC      = "croland-mini-13-gradovi";
+
+let stanje = { grad:0, pitanje:0, srca:SRCA_MAX };
+let cekaKlik = false;   // zaključava odgovore dok traje reakcija
+
+/* ---------- spremanje ---------- */
+function spremi(){
+  try{ localStorage.setItem(KLJUC, JSON.stringify(stanje)); }catch(e){}
+}
+function ucitaj(){
+  try{
+    const s = JSON.parse(localStorage.getItem(KLJUC)||"null");
+    if(s && Number.isInteger(s.grad) && Number.isInteger(s.pitanje) && Number.isInteger(s.srca)){
+      // obrana od pokvarenog zapisa
+      s.grad    = Math.min(Math.max(s.grad,0), GRADOVI.length-1);
+      s.pitanje = Math.min(Math.max(s.pitanje,0), GRADOVI[s.grad].p.length-1);
+      s.srca    = Math.min(Math.max(s.srca,1), SRCA_MAX);
+      return s;
+    }
+  }catch(e){}
+  return null;
+}
+function obrisi(){ try{ localStorage.removeItem(KLJUC); }catch(e){} }
+
+/* ---------- pomoćno ---------- */
+const $ = id => document.getElementById(id);
+function pokazi(...ids){
+  ["ekranUvod","ekranIgra","ekranMedu"].forEach(i=>$(i).classList.add("skriveno"));
+  ids.forEach(i=>$(i).classList.remove("skriveno"));
+}
+function promijesaj(niz){
+  const a = niz.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+function esc(t){ return t.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const SRCE_SVG = '<svg class="srce" viewBox="0 0 8 7" aria-hidden="true"><g fill="currentColor">'+
+  '<rect x="1" y="0" width="2" height="1"/><rect x="5" y="0" width="2" height="1"/>'+
+  '<rect x="0" y="1" width="8" height="3"/><rect x="1" y="4" width="6" height="1"/>'+
+  '<rect x="2" y="5" width="4" height="1"/><rect x="3" y="6" width="2" height="1"/></g></svg>';
+
+function crtajTraku(){
+  let h="";
+  for(let i=0;i<SRCA_MAX;i++) h += SRCE_SVG.replace('class="srce"', i<stanje.srca?'class="srce"':'class="srce prazno"');
+  $("srca").innerHTML = h;
+  $("srca").setAttribute("aria-label", stanje.srca+" of "+SRCA_MAX+" hearts left");
+  $("brojac").textContent = "Town "+(stanje.grad+1)+" / "+GRADOVI.length;
+}
+
+/* ---------- oblačić ---------- */
+function govor(ime, uloga, hr, en, zbunjenStil){
+  $("govor").className = "govor" + (zbunjenStil?" zbunjen":"");
+  $("govor").innerHTML =
+    '<span class="ime">'+esc(ime)+(uloga?' — '+esc(uloga):'')+'</span>'+
+    '<p>'+esc(hr)+'</p>'+
+    (en ? '<button class="otkrijEN" type="button" data-en="'+esc(en)+'">👁 translation</button>' : '');
+}
+document.addEventListener("click", e=>{
+  const b = e.target.closest(".otkrijEN");
+  if(!b) return;
+  const s = document.createElement("span");
+  s.className = "enTekst";
+  s.textContent = b.dataset.en;
+  b.replaceWith(s);
+}, true);
+
+/* ---------- crtanje pitanja ---------- */
+function crtaj(novGrad){
+  const g = GRADOVI[stanje.grad], q = g.p[stanje.pitanje];
+  pokazi("ekranIgra");
+  crtajTraku();
+
+  $("poz").src = g.slika;
+  $("poz").alt = g.ime;
+  $("gradIme").textContent = g.ime;
+
+  const lik = $("lik");
+  lik.src = "likovi/"+g.lik+" normal.png";
+  lik.alt = g.osoba;
+  lik.className = "lik" + (novGrad?" stigao":"");
+
+  govor(g.osoba, g.uloga, q.hr, q.en, false);
+
+  const tocan = q.o[0];
+  const red = promijesaj(q.o);
+  const slova = ["A","B","C"];
+  $("odgovori").innerHTML = red.map((t,i)=>
+    '<button class="o" type="button" data-t="'+(t===tocan?"1":"0")+'">'+
+    '<span class="slovo">'+slova[i]+'</span><span>'+esc(t)+'</span></button>').join("");
+
+  cekaKlik = false;
+}
+
+/* ---------- odgovor ---------- */
+$("odgovori").addEventListener("click", e=>{
+  const b = e.target.closest(".o");
+  if(!b || cekaKlik) return;
+  cekaKlik = true;
+
+  const tocno = b.dataset.t === "1";
+  const gumbi = [...$("odgovori").querySelectorAll(".o")];
+  gumbi.forEach(x=>{ x.disabled = true; if(x!==b) x.classList.add("blijedo"); });
+  b.classList.add(tocno ? "tocno" : "krivo");
+
+  if(tocno){ setTimeout(tocanOdgovor, 420); }
+  else { krivOdgovor(); }
+});
+
+function tocanOdgovor(){
+  const g = GRADOVI[stanje.grad];
+  stanje.pitanje++;
+  if(stanje.pitanje < g.p.length){ spremi(); crtaj(false); return; }
+
+  // grad je gotov
+  stanje.pitanje = 0;
+  stanje.grad++;
+  const zadnji = stanje.grad >= GRADOVI.length;
+  if(zadnji) stanje.grad = GRADOVI.length-1;
+  spremi();
+
+  if(zadnji){
+    medu("Ten towns done",
+      g.kraj+"\n\n"+g.krajEN+"\n\nYou reached Kutjevo with "+stanje.srca+
+      " of "+SRCA_MAX+" hearts left. Ten towns, forty questions — and not one of them in English.",
+      "Play again", ()=>{ obrisi(); stanje={grad:0,pitanje:0,srca:SRCA_MAX}; spremi(); crtaj(true); });
+  } else {
+    medu("Next: "+GRADOVI[stanje.grad].ime,
+      g.kraj+"\n\n"+g.krajEN,
+      "Continue", ()=>crtaj(true));
+  }
+}
+
+function krivOdgovor(){
+  const g = GRADOVI[stanje.grad];
+  stanje.srca--;
+
+  const lik = $("lik");
+  lik.src = "likovi/"+g.lik+(stanje.srca<=0 ? " confused2" : " confused")+".png";
+  lik.className = "lik trza";
+
+  crtajTraku();
+  govor(g.osoba, g.uloga, g.zbunjen, g.zbunjenEN, true);
+
+  if(stanje.srca <= 0){
+    // pad — tri grada unatrag
+    const stari = GRADOVI[stanje.grad].ime;
+    stanje.grad = Math.max(0, stanje.grad - PAD_NATRAG);
+    stanje.pitanje = 0;
+    stanje.srca = SRCA_MAX;
+    spremi();
+    const novi = GRADOVI[stanje.grad].ime;
+    setTimeout(()=>medu("All three hearts gone",
+      (stari===novi
+        ? "You are back at the start of "+novi+"."
+        : "You are sent back from "+stari+" to "+novi+"."),
+      "Continue", ()=>crtaj(true)), 700);
+    return;
+  }
+
+  // natrag na prethodno pitanje (osim ako je ovo prvo)
+  stanje.pitanje = Math.max(0, stanje.pitanje - 1);
+  spremi();
+
+  $("odgovori").innerHTML =
+    '<button class="g" type="button" id="gPonovi">Try again</button>';
+  $("gPonovi").onclick = ()=>crtaj(false);
+}
+
+/* ---------- međuekran ---------- */
+function medu(naslov, tekst, gumb, akcija){
+  pokazi("ekranMedu");
+  crtajTraku();
+  $("meduNaslov").textContent = naslov;
+  $("meduTekst").innerHTML = tekst.split("\n\n").map(t=>esc(t)).join("<br><br>");
+  $("gDalje").textContent = gumb;
+  $("gDalje").onclick = akcija;
+}
+
+/* ---------- start ---------- */
+(function start(){
+  const s = ucitaj();
+  if(s){
+    $("gPocni").classList.add("skriveno");
+    $("gNastavi").classList.remove("skriveno");
+    $("gNastavi").classList.remove("tih");
+    $("gIspocetka").classList.remove("skriveno");
+    $("gNastavi").textContent = "Continue — "+GRADOVI[s.grad].ime;
+    $("gNastavi").onclick = ()=>{ stanje = s; crtaj(true); };
+    $("gIspocetka").onclick = ()=>{ obrisi(); stanje={grad:0,pitanje:0,srca:SRCA_MAX}; spremi(); crtaj(true); };
+    stanje = s;
+  } else {
+    $("gPocni").onclick = ()=>{ spremi(); crtaj(true); };
+  }
+  crtajTraku();
+  pokazi("ekranUvod");
+  // predučitaj prve slike
+  ["01-ilok","02-vukovar"].forEach(n=>{ const i=new Image(); i.src="gradovi/"+n+".jpg"; });
+  ["normal","confused","confused2"].forEach(n=>{ const i=new Image(); i.src="likovi/001 "+n+".png"; });
+})();
+</script>
+</body>
+</html>
