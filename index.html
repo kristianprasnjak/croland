@@ -59,6 +59,12 @@
     --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
     --zlatna: #8a6d1f;
     --plavaVok: #23407a; --tinta: #1d1b17; --tiho: #f0ece4; --papir: #faf7f1;
+    /* ---- cedulje (sticky notes) ----
+       Papir, njegov rub i crte su dio teme. Tinta i rukopis nisu: pero je isto
+       na svakoj boji papira. */
+    --cedPapir: #fdf2bf; --cedRub: #eadd9d; --cedCrta: rgba(74,60,20,.20);
+    --cedTinta: #2a3147;
+    --rukopis: "Caveat", "Segoe Script", "Bradley Hand", cursive;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -991,6 +997,150 @@
   #savjetRj .zatvoriS { position: absolute; top: 3px; right: 7px; color: var(--muted); font-size: var(--t-s); }
   @media (max-width: 639.98px) { #savjetRj { max-width: 12.5rem; font-size: var(--t-s); } }
 
+  /* ============ CEDULJICE — papirici u praznini pokraj sadrzaja ============
+     Na racunalu stupac sadrzaja stoji u sredini, a s obje strane ostaje prazna
+     ploha. Tu stoje cedulje: dva mjesta lijevo (gore, dolje) i dva desno.
+     Mobitel i tablet ih ne dobivaju — ondje sadrzaj ide gotovo do ruba, pa
+     praznine u koju bi papiric stao nema (vidi TRI UREDAJA na dnu datoteke).
+
+     Mjere NISU ovdje nego u varijablama koje postavlja preslozCedulje():
+     sirina praznine ovisi o stupcu sadrzaja, o sirini ekrana i o stupcu
+     lebdecih ikona koji tu istu desnu prazninu dijeli s papiricima. CSS zna
+     samo koju varijablu gdje upotrijebiti, a ne koliko iznosi.
+
+     Sloj je NIZE od zaglavlja (z-index 9 prema 10): papirici pocinju ispod
+     njega, a ako se zaglavlje pri pomicanju stranice stisne i opet naraste,
+     ono ostaje gore. Iznad njih su i lebdece ikone (30) i bocni paneli (40). */
+  /* Sloj je uvijek tu, i kad je prazan: on JE mjera. Fiksni polozaj se racuna od
+     okvira koji je uzi od prozora za sirinu klizaca (scrollbar-gutter: stable na
+     <html>), a taj se broj ne da procitati ni iz innerWidth ni iz clientWidth —
+     samo iz necega sto je i samo fiksno. Zato preslozCedulje() mjeri ovaj sloj,
+     a ne prozor. Skrivaju se mjesta u njemu, ne on. */
+  #ceduljeSloj { position: fixed; inset: 0; z-index: 9; pointer-events: none; }
+  /* Dok traje odabir mjesta cijeli sloj hvata klikove — tako klik u prazno
+     odustaje. Tanka koprena je znak da app ceka odabir, ne ukras. */
+  body.ceduljePostavljanje #ceduljeSloj { pointer-events: auto; background: rgba(25,23,19,.045); }
+
+  /* Mjesto je pretinac, cedulja je papir u njemu: pretinac drzi geometriju
+     (koja strana, koji red), papir samo ispuni sirinu koju dobije. */
+  .cedMjesto { display: none; position: absolute; width: var(--cedSir, 12rem); pointer-events: none; }
+  body.imaCedulje .cedMjesto { display: block; }
+  .cedMjesto[data-strana="l"] { left: var(--cedL, 1rem); }
+  .cedMjesto[data-strana="d"] { left: var(--cedD, 1rem); }
+  .cedMjesto[data-red="g"] { top: var(--cedG, 5rem); }
+  .cedMjesto[data-red="d"] { bottom: var(--cedDo, 1rem); }
+  body.ceduljePostavljanje .cedMjesto { pointer-events: auto; }
+
+  .cedulja {
+    position: relative; pointer-events: auto;
+    background: var(--cedPapir); border: 1px solid var(--cedRub);
+    border-radius: 2px 2px 3px 3px; padding: 0.5rem 0.625rem 1.5rem;
+    box-shadow: 0 1px 1px rgba(25,23,19,.10), 0 8px 18px -8px rgba(25,23,19,.35);
+  }
+  /* Papir nije geometrijski savrsen: svako mjesto ima svoj mali nagib, pa se
+     cetiri papirica ne citaju kao cetiri jednaka okvira. */
+  .cedMjesto[data-slot="lg"] .cedulja { transform: rotate(-0.7deg); }
+  .cedMjesto[data-slot="ld"] .cedulja { transform: rotate(0.55deg); }
+  .cedMjesto[data-slot="dg"] .cedulja { transform: rotate(0.8deg); }
+  .cedMjesto[data-slot="dd"] .cedulja { transform: rotate(-0.5deg); }
+  /* Dok se bira mjesto, ispisani papirici se odmaknu: ponuda su prazna mjesta. */
+  body.ceduljePostavljanje .cedulja { opacity: .5; }
+
+  /* Rukopis i crte dijele jednu mjeru — --cedRed je i visina retka i korak
+     crtovlja, pa tekst sjedi TOCNO na linijama. Zato je i visina polja cijeli
+     broj redaka (preslozCedulje), a ne bilo koliko piksela.
+     background-attachment: local je ono zbog cega crte putuju s tekstom kad ga
+     bude vise od papira; bez njega bi stajale, a tekst se pomicao preko njih. */
+  .cedText {
+    display: block; width: 100%; height: var(--cedVis, 11rem);
+    border: 0; outline: none; resize: none; overflow-y: auto;
+    padding: 0; margin: 0; background-color: transparent;
+    background-attachment: local; background-origin: content-box;
+    font-family: var(--rukopis); font-size: 1.3rem; line-height: var(--cedRed, 1.7rem);
+    color: var(--cedTinta); caret-color: var(--cedTinta);
+  }
+  .cedText::placeholder { color: var(--cedTinta); opacity: .34; }
+  .cedulja[data-papir="linije"] .cedText {
+    background-image: repeating-linear-gradient(to bottom,
+      transparent 0, transparent calc(var(--cedRed, 1.7rem) - 1px),
+      var(--cedCrta) calc(var(--cedRed, 1.7rem) - 1px), var(--cedCrta) var(--cedRed, 1.7rem));
+  }
+  .cedulja[data-papir="kvadratici"] .cedText {
+    background-image:
+      repeating-linear-gradient(to bottom,
+        transparent 0, transparent calc(var(--cedRed, 1.7rem) - 1px),
+        var(--cedCrta) calc(var(--cedRed, 1.7rem) - 1px), var(--cedCrta) var(--cedRed, 1.7rem)),
+      repeating-linear-gradient(to right,
+        transparent 0, transparent calc(var(--cedRed, 1.7rem) - 1px),
+        var(--cedCrta) calc(var(--cedRed, 1.7rem) - 1px), var(--cedCrta) var(--cedRed, 1.7rem));
+  }
+  .cedulja[data-papir="prazno"] .cedText { background-image: none; }
+
+  /* Alatka je na papiru, ne uz njega: tri vrste papira i brisanje, u podnozju.
+     U mirovanju je samo naznaka — dovoljno da se zna da postoji, premalo da
+     papir izgleda kao gumbara. */
+  .cedAlat {
+    position: absolute; left: 0.5rem; right: 0.5rem; bottom: 0.25rem;
+    display: flex; align-items: center; gap: 0.125rem;
+    opacity: .2; transition: opacity .18s;
+  }
+  .cedulja:hover .cedAlat, .cedulja:focus-within .cedAlat { opacity: 1; }
+  .cedAlat button {
+    width: 1.375rem; height: 1.375rem; padding: 0; flex: none;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid transparent; border-radius: var(--rad-xs);
+    background: none; color: var(--cedTinta); opacity: .5; cursor: pointer;
+    font-family: inherit; font-size: var(--t-s); line-height: 1;
+  }
+  .cedAlat .ikn { pointer-events: none; }
+  .cedAlat button:hover { opacity: 1; border-color: var(--cedRub); background: rgba(255,255,255,.45); }
+  .cedAlat button[aria-pressed="true"] { opacity: 1; border-color: var(--cedRub); background: rgba(255,255,255,.7); }
+  .cedAlat .cedBrisi { margin-left: auto; }
+  .cedAlat .cedBrisi:hover { color: var(--crvena); border-color: currentColor; background: none; }
+
+  /* Prazno mjesto se vidi SAMO dok traje odabir. Izvan njega bi cetiri prazna
+     okvira stajala na ekranu bez ikakvog razloga. */
+  .cedPrazno {
+    display: none; width: 100%; height: calc(var(--cedVis, 11rem) + 2rem);
+    flex-direction: column; align-items: center; justify-content: center; gap: 0.25rem;
+    border: 2px dashed var(--cedRub); border-radius: 3px; background: var(--cedPapir);
+    color: var(--cedTinta); opacity: .5; cursor: pointer; padding: 0.5rem;
+    font-family: inherit; font-size: var(--t-s); text-align: center; line-height: 1.3;
+  }
+  body.ceduljePostavljanje .cedPrazno { display: flex; animation: cedNudi .22s ease-out; }
+  .cedPrazno:hover { opacity: 1; border-color: var(--plava); border-style: solid; }
+  .cedPrazno .plusC { font-size: var(--t-3xl); line-height: 1; font-weight: 300; }
+  @keyframes cedNudi { from { opacity: 0; transform: scale(.94); } to { opacity: .5; transform: none; } }
+  /* Sva cetiri mjesta zauzeta: papirici sami kazu da ih je vec cetiri. Trese se
+     pretinac, a ne papir — papir nosi svoj nagib i izgubio bi ga. */
+  @keyframes cedTres {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); } 75% { transform: translateX(4px); }
+  }
+  .cedMjesto.puna { animation: cedTres .3s; }
+  @media (prefers-reduced-motion: reduce) {
+    body.ceduljePostavljanje .cedPrazno, .cedMjesto.puna { animation: none; }
+  }
+
+  /* -- cetvrta lebdeca ikona: novi papiric -- */
+  /* Ista tipka kao info, isti niz. Mjesto joj racuna postaviIkonuCedulja():
+     ispod infa kad je niz tu, na celu kad je sama (mini-igra). */
+  #lebdiCed { position: fixed; top: 282px; right: 20px; z-index: 30; width: 3rem; height: 3rem;
+    border-radius: 50%; background: var(--card); color: var(--plava); border: 2px solid var(--plava);
+    display: none; align-items: center; justify-content: center; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(154,91,82,.22); font-size: var(--t-xl); user-select: none;
+    touch-action: none; opacity: .92; transition: opacity .3s, width .15s, height .15s, font-size .15s; }
+  #lebdiCed.vidi { display: flex; }
+  #lebdiCed:hover { opacity: 1; }
+  #lebdiCed.postavlja { background: var(--plava); color: #fff; opacity: 1; }
+
+  /* Sirina ekrana je ovdje uvjet, ne ukras: ispod racunala nema praznine.
+     JS do istog dolazi mjerenjem — ovo je drugi kljuc iste brave. */
+  @media (max-width: 1023.98px) {
+    body.imaCedulje .cedMjesto { display: none; }
+    #lebdiCed.vidi { display: none; }
+  }
+
   /* -- memorijska kartica (registracija) -- */
   /* ---- prijava / registracija ----
      Jedna kartica, jedan primarni put. Google gore jer je najbrzi, e-mail ispod
@@ -1128,13 +1278,11 @@
     font-size: var(--t-s); color: var(--muted);
   }
   .miniSaz strong { color: var(--ink); }
-  /* Okvir je visok tocno onoliko koliko ostane ispod zaglavlja. Unutra je stupac:
-     igra uzme sav prostor, alatna traka svoju prirodnu visinu. Nista ne visi ispod
-     ruba ekrana, pa stranica nema razloga da se pomakne. */
-  .miniOkvir { margin-top: 0; display: flex; flex-direction: column;
-    height: calc(100dvh - var(--visinaZaglavlja, 3.5rem)); }
-  .miniOkvir .alat { flex: 0 0 auto; display: flex; align-items: center; gap: 0.625rem;
-    flex-wrap: wrap; margin: 0.5rem 0 0; }
+  /* Okvir nema svoju visinu — uzima je od igre (miniUskladiVisinu). Naslov i
+     podaci idu odmah u nastavku, s razmakom koliko treba da se ne slijepe. */
+  .miniOkvir { margin-top: 0; }
+  .miniOkvir .alat { display: flex; align-items: center; gap: 0.625rem;
+    flex-wrap: wrap; margin: 0.75rem 0 0; }
   .miniOkvir .alat .nas { font-weight: 600; font-size: var(--t-l); }
   .miniOkvir .alat .pod { font-size: var(--t-s); color: var(--muted); margin-right: auto; }
   button.gumbSitni {
@@ -1142,19 +1290,15 @@
     color: var(--ink); font-size: var(--t-s); font-family: inherit; cursor: pointer;
   }
   button.gumbSitni:hover { border-color: var(--plava); color: var(--plava); }
-  /* Igra nije zaseban prozorcic: bez ruba i zaobljenja, uzme cijelu preostalu
-     visinu okvira. min-height: 0 je obavezan — bez njega flex stavka ne smije pasti
-     ispod svoje sadrzajne visine, pa bi okvir prerastao ekran i vratio klizac.
-     Visinu zaglavlja mjeri JS (mjeriZaglavlje) jer ovisi o uredaju i o odabranoj
-     velicini sucelja, a CSS je ne moze sam procitati. */
+  /* Igra nije zaseban prozorcic: bez ruba, bez zaobljenja i bez vlastitog klizaca.
+     Visinu joj u pikselima postavlja JS, tocno koliko je visok dokument unutra —
+     zato ovdje nema ni height ni min-height koji bi to pregazio. Klizac je jedan:
+     onaj glavne stranice. */
   .miniOkvir iframe {
-    flex: 1 1 auto; width: 100%; height: auto; min-height: 0;
-    border: 0; border-radius: 0; background: var(--card); display: block;
+    width: 100%; border: 0; background: var(--card); display: block;
   }
-  /* Dok je igra otvorena stranica se ne pomice. To nije kozmetika: zaglavlje je
-     sticky, pa bi svaki pomak stranice legao preko prvog reda igre. */
-  html:has(.miniOkvir), body:has(.miniOkvir) { overflow: hidden; }
-  #view:has(.miniOkvir) { padding-top: 0; padding-bottom: 0; }
+  /* Igra pocinje odmah ispod zaglavlja; dolje ostaje uobicajeni odmak stranice. */
+  #view:has(.miniOkvir) { padding-top: 0; }
   /* stupci mreze i visina iframea zive u bloku po uređaju, na dnu datoteke */
 
   /* ============ IZNIMKE OD SKALIRANJA ======================================
@@ -1200,26 +1344,31 @@
     --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
     --plava: #b3352f; --zelena: #2f6d4f; --zlatna: #8a6d1f; --plavaVok: #23407a;
     --rub: #e3ddd2; --tiho: #f0ece4; --papir: #faf7f1;
+    --cedPapir: #fdf2bf; --cedRub: #eadd9d; --cedCrta: rgba(74,60,20,.20);
   }
   body[data-tema="jadran"] {
     --bg: #eff3f4; --card: #ffffff; --ink: #14212a; --muted: #6d8290;
     --plava: #1f6076; --zelena: #2b7a63; --zlatna: #a9762a; --plavaVok: #2a5d8f;
     --rub: #dbe3e6; --tiho: #e8eef0; --papir: #f4f8f9;
+    --cedPapir: #dff1ef; --cedRub: #c4e2de; --cedCrta: rgba(20,58,66,.20);
   }
   body[data-tema="maslina"] {
     --bg: #f4f4ec; --card: #fffef9; --ink: #1e2018; --muted: #7f8272;
     --plava: #55703c; --zelena: #3f6b4a; --zlatna: #8d6b1c; --plavaVok: #3c5b7a;
     --rub: #e0e0d2; --tiho: #ecece0; --papir: #f8f8f0;
+    --cedPapir: #f1f0b8; --cedRub: #dedd9e; --cedCrta: rgba(50,56,24,.20);
   }
   body[data-tema="tinta"] {
     --bg: #f4f4f5; --card: #ffffff; --ink: #191a1d; --muted: #74767c;
     --plava: #2b2d33; --zelena: #2f6d4f; --zlatna: #8a6d1f; --plavaVok: #35507d;
     --rub: #e2e2e4; --tiho: #ededef; --papir: #f8f8f9;
+    --cedPapir: #f6f2d8; --cedRub: #e6e0bd; --cedCrta: rgba(40,40,44,.22);
   }
   body[data-tema="sljiva"] {
     --bg: #f5f1f4; --card: #fffdfe; --ink: #1e1820; --muted: #837785;
     --plava: #6f3a5c; --zelena: #3f6b52; --zlatna: #8a6a24; --plavaVok: #3f4c86;
     --rub: #e5dde3; --tiho: #eee7ec; --papir: #f9f5f8;
+    --cedPapir: #f9e6ee; --cedRub: #edd2dd; --cedCrta: rgba(70,30,55,.20);
   }
 
   /* ---- Pismo: isti princip kao teme — jedan atribut na <body>. ----
@@ -2011,7 +2160,7 @@
 <div id="izbornikPozadina" onclick="zatvoriIzbornik()"></div>
 <!-- Ikone sucelja: Lucide 1.43 (ISC, lucide.dev). Jedan sprite, bez mreznog zahtjeva;
      boju i velicinu uzimaju iz teksta u kojem stoje. -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-kvaka" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol></svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-kvaka" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol><symbol id="ik-cedulja" viewBox="0 0 24 24"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11l5-5V5a2 2 0 0 0-2-2z" /><path d="M21 16h-3a2 2 0 0 0-2 2v3" /></symbol><symbol id="ik-linije" viewBox="0 0 24 24"><path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" /></symbol><symbol id="ik-kvadratici" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M3 15h18" /><path d="M9 3v18" /><path d="M15 3v18" /></symbol><symbol id="ik-prazno" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /></symbol></svg>
 <div id="view"></div>
 
 <div id="trakaAbc"></div>
@@ -2065,6 +2214,9 @@
   </div>
   <div class="infoTijelo" id="infoTijelo"></div>
 </div>
+
+<div id="lebdiCed" title="Add a sticky note"><svg class="ikn krupna" aria-hidden="true"><use href="#ik-cedulja"></use></svg></div>
+<div id="ceduljeSloj"></div>
 
 <script src="data.js"></script>
 <script src="rjecnik.js"></script>
@@ -4738,6 +4890,8 @@
     // Traka zauzima dno ekrana; stupac lebdecih ikona na mobitelu sjedi bas
     // ondje, pa se pri svakom pojavljivanju i nestanku mora presloziti.
     preslozIkoneAkoTreba();
+    // Traka je fiksna pri dnu i visa od donjih papirica — i njih treba presloziti.
+    preslozCedulje(); postaviIkonuCedulja();
   }
 
   // ---- lebdeći rječnik ----
@@ -4752,7 +4906,10 @@
   // brojke koje koriste postaviIkonuIgre i postaviIkonuInfo.
   function visinaStupcaIkona(vel) {
     var m = Math.round(vel * 0.86);
-    return vel + 10 + m + 10 + m;
+    // Cetvrta ikona (novi papiric) nije uvijek tu — u stupac se racuna samo kad je.
+    var ced = $('lebdiCed');
+    var cetvrta = (ced && ced.classList.contains('vidi')) ? (10 + m) : 0;
+    return vel + 10 + m + 10 + m + cetvrta;
   }
   // Koliko mora ostati slobodno ispod stupca. Traka abecede je fiksna pri dnu i
   // mijenja visinu s brojem redaka slova, pa se mjeri dok je vidljiva umjesto da
@@ -4894,7 +5051,8 @@
   }
   function rjecnikVidljiv(da, tip, razina) {
     var l = $('lebdi'); if (!l) return;
-    if (!da) { paziZadnja = null; l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj(); igraVidljiva(false); infoVidljiv(false); return; }
+    if (!da) { paziZadnja = null; l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj();
+      igraVidljiva(false); infoVidljiv(false); postaviIkonuCedulja(); return; }
     // nova vježba = nova sesija igrice: brojači i vreća riječi kreću ispočetka
     if (rjTip !== tip || rjRazina !== razina) {
       igTocno = 0; igNetocno = 0; igRed = []; igZadnji = null;
@@ -4919,6 +5077,8 @@
     l.style.width = rjVelicina + 'px'; l.style.height = rjVelicina + 'px';
     l.style.fontSize = (rjVelicina * 0.42) + 'px';
     l.style.top = rjTop + 'px';
+    // Sirina stupca ikona ulazi u racun sirine papirica — prvo mjera, pa ikone.
+    preslozCedulje();
     postaviIkonuIgre();
   }
   // ikona igrice visi točno ispod ikone rječnika i prati je pri povlačenju
@@ -5163,6 +5323,7 @@
     b.style.fontSize = (v * 0.46) + 'px';
     b.style.top = (rjTop + rjVelicina + 10 + v + 10) + 'px';
     b.style.right = (18 + (rjVelicina - v) / 2) + 'px';
+    postaviIkonuCedulja();
   }
 
   // ---- povremeno isticanje lebdećih ikona ----
@@ -5188,6 +5349,339 @@
         setTimeout(function () { e.classList.remove('pazi'); }, 2400);
       }, 700 + i * 180);
     });
+  }
+
+  // ================= CEDULJICE (sticky notes) =================
+  // Na racunalu stupac sadrzaja stoji u sredini, a s obje strane ostaje prazna
+  // ploha. U njoj su cetiri mjesta za papiric: lijevo gore, lijevo dolje,
+  // desno gore, desno dolje.
+  //
+  // Cetiri pravila drze cijelu mehaniku:
+  //   1. Cedulja pripada MJESTU na SCENI. Scena je jedna lekcija (cjelina) ili
+  //      jedna mini-igra; mjesto je jedno od cetiri. Izvan svoje scene je nema,
+  //      a vracanjem na nju se vraca tocno ondje gdje je bila.
+  //   2. Zivi u PROGRESS.postavke, dakle istim putem kao tema i pismo: server
+  //      je izvor istine. Ostaje zauvijek — dok je se ne obrise.
+  //   3. Prekidac u Options SAMO pokazuje i skriva. Gasenje ne brise nista;
+  //      ponovno ukljucivanje vraca sve papirice ondje gdje su bili.
+  //   4. Mjere racuna JS, ne CSS: sirina praznine ovisi o stupcu sadrzaja, o
+  //      ekranu i o stupcu lebdecih ikona koji tu istu desnu prazninu dijeli s
+  //      papiricima. Kad za papiric nema mjesta, njega ni ikone za dodavanje
+  //      nema — umjesto stisnutog papirica koji se ne da citati.
+  var CED_MJESTA = [
+    { id: 'lg', strana: 'l', red: 'g' },
+    { id: 'ld', strana: 'l', red: 'd' },
+    { id: 'dg', strana: 'd', red: 'g' },
+    { id: 'dd', strana: 'd', red: 'd' }
+  ];
+  var CED_PAPIRI = [
+    { id: 'linije',     ime: 'Lined',   ik: 'linije' },
+    { id: 'kvadratici', ime: 'Squared', ik: 'kvadratici' },
+    { id: 'prazno',     ime: 'Plain',   ik: 'prazno' }
+  ];
+  var CED_NAJVISE_ZNAKOVA = 2000;
+  var CED_KLJUC = null;        // scena na kojoj smo, ili null ako papirici ovdje ne zive
+  var CED_POSTAVLJA = false;   // traje li odabir mjesta
+  var CED_PISMO = false;       // je li rukopisno pismo skinuto
+  var CED_ZADNJE_MJERE = '';   // potpis zadnje geometrije, da se CSS ne prepisuje bez potrebe
+
+  function ceduljeUkljucene() {
+    return !!(PROGRESS.postavke && PROGRESS.postavke.cedulje);
+  }
+  function prebaciCedulje() {
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    PROGRESS.postavke.cedulje = ceduljeUkljucene() ? 0 : 1;
+    spremiProgress();
+    crtajCedulje();
+    renderOptions();
+  }
+  window.prebaciCedulje = prebaciCedulje;
+
+  // Rukopis se skida tek kad prvi papiric zatreba — tko prekidac nikad ne
+  // upali, ne placa nista. Caveat: rukom pisano, malo brze, a jos citljivo,
+  // i ima hrvatska slova (latin-ext).
+  function ucitajRukopis() {
+    if (CED_PISMO) return;
+    CED_PISMO = true;
+    var l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap';
+    document.head.appendChild(l);
+  }
+
+  // ---- spremiste ----
+  // PROGRESS.postavke.ceduljice = { '<scena>': { '<mjesto>': {t, p, d} } }
+  //   t = tekst, p = vrsta papira, d = kad je nastala
+  function ceduljeSve() {
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    var c = PROGRESS.postavke.ceduljice;
+    if (!c || typeof c !== 'object') { c = {}; PROGRESS.postavke.ceduljice = c; }
+    return c;
+  }
+  // Ziva referenca kad scena ima papirice, prazan predmet kad ih nema — pisanje
+  // po njemu onda nema kome nauditi.
+  function ceduljeOve() {
+    if (!CED_KLJUC) return {};
+    var s = ceduljeSve()[CED_KLJUC];
+    return (s && typeof s === 'object') ? s : {};
+  }
+  function papirCedulje(c) {
+    for (var i = 0; i < CED_PAPIRI.length; i++) if (CED_PAPIRI[i].id === (c && c.p)) return c.p;
+    return 'linije';
+  }
+  function slobodnihMjesta() {
+    var moje = ceduljeOve(), n = 0;
+    CED_MJESTA.forEach(function (m) { if (!moje[m.id]) n++; });
+    return n;
+  }
+  function brojCedulja() {
+    var sve = (PROGRESS.postavke && PROGRESS.postavke.ceduljice) || {}, n = 0;
+    for (var scena in sve) {
+      if (!sve.hasOwnProperty(scena) || !sve[scena] || typeof sve[scena] !== 'object') continue;
+      for (var m in sve[scena]) if (sve[scena].hasOwnProperty(m)) n++;
+    }
+    return n;
+  }
+
+  // ---- geometrija ----
+  function remPx() {
+    return parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+  }
+  // Sto u desnoj praznini zauzima stupac lebdecih ikona. Racuna se po najsirem
+  // clanu niza (rjecnik), jer se stupac smije prevelicati — papiric mu nikad ne
+  // smije doci pod ikonu.
+  function sirinaStupcaIkona() {
+    return 18 + rjVelicina;
+  }
+  // Traka abecede (Lesson 0) je fiksna pri dnu i visa je od donjih papirica —
+  // isto pravilo kao za stupac ikona: mjeri se, ne pogada.
+  function rezervaIspodCedulja() {
+    var t = $('trakaAbc');
+    if (t && t.classList.contains('vidi')) {
+      var h = t.getBoundingClientRect().height;
+      if (h > 0) return Math.round(h);
+    }
+    return 0;
+  }
+  // Jedino mjesto koje odlucuje IMA LI mjesta i KOLIKO ga je. Vraca true kad
+  // papirici stanu; tada je na <body> klasa imaCedulje i CSS varijable su svjeze.
+  function preslozCedulje() {
+    var tijelo = document.body, sloj = $('ceduljeSloj');
+    if (!sloj || !VIEW || !CED_KLJUC || !ceduljeUkljucene() ||
+        window.innerWidth < 1024) {
+      if (tijelo.classList.contains('imaCedulje')) { tijelo.classList.remove('imaCedulje'); CED_ZADNJE_MJERE = ''; }
+      return false;
+    }
+    // Razmak do stupca sadrzaja NE prati pismo. Stupac je u rem, ekran nije —
+    // svaki korak veceg sucelja siri stupac i uzima praznini s obje strane. Kad
+    // bi i razmak rastao s njim, veci tekst bi papirice gusio dvaput.
+    var rem = remPx(), jaz = Math.max(10, Math.min(16, Math.round(0.7 * rem)));
+    var v = VIEW.getBoundingClientRect();
+    // Ne innerWidth i ne clientWidth: oba broje i trak koji <html> drzi za klizac
+    // (scrollbar-gutter: stable), a fiksni polozaj ga ne vidi. Sloj je fiksan kao i
+    // papirici, pa je njegov okvir jedina mjera u kojoj oni doista stoje.
+    var okvirSloja = sloj.getBoundingClientRect();
+    var sirEkran = okvirSloja.width;
+    var visEkran = okvirSloja.height;
+    // Prvo visina, jer o njoj visi i sirina: nagnut papir strsi iz svog okvira.
+    var glava = document.querySelector('header');
+    var gore = (glava ? Math.round(glava.getBoundingClientRect().height) : Math.round(3.5 * rem)) + jaz;
+    var dolje = jaz + rezervaIspodCedulja();
+    var red = Math.max(12, Math.round(1.7 * rem));
+    var okvir = Math.round(2 * rem) + 2;                 // papir oko teksta: razmaci, rub, alatka
+    var pretinac = Math.floor((visEkran - gore - dolje - jaz) / 2);
+    // Visina je cijeli broj redaka, inace crtovlje na dnu prepolovi zadnju crtu.
+    var redaka = Math.min(7, Math.floor((pretinac - okvir) / red));
+    // Svaki papir stoji pod malim kutom (do 0.8 stupnja), pa mu uglovi vire iz
+    // okvira za otprilike pola visine puta sinus kuta. Bez tog dodatka bi gornji
+    // desni papir uglom dodirnuo ikonu rjecnika.
+    var strsi = Math.ceil((redaka * red + okvir) * 0.008);
+    // Papiric stoji uz sam stupac sadrzaja i siri se prema rubu ekrana. Sirina
+    // je ista na obje strane (papirici su par, ne dva razna) pa je mjera uza od dvije.
+    var sir = Math.floor(Math.min(13 * rem,
+      v.left - 2 * jaz - strsi,
+      sirEkran - v.right - jaz - sirinaStupcaIkona() - strsi));
+    // Uzi od 8rem ili nizi od tri retka nije papiric nego trak na kojem se svaka
+    // druga rijec prelama. Tada je posteno reci da mjesta nema. Tko ga na uzem
+    // ekranu ipak zeli, ima Interface size: manje sucelje = siri stupac praznine.
+    if (sir < Math.round(8 * rem) || redaka < 3) {
+      if (tijelo.classList.contains('imaCedulje')) { tijelo.classList.remove('imaCedulje'); CED_ZADNJE_MJERE = ''; }
+      return false;
+    }
+    var potpis = [sir, Math.round(v.left), Math.round(v.right), gore, dolje, red, redaka].join('|');
+    tijelo.classList.add('imaCedulje');
+    if (potpis === CED_ZADNJE_MJERE) return true;
+    CED_ZADNJE_MJERE = potpis;
+    var st = document.documentElement.style;
+    st.setProperty('--cedSir', sir + 'px');
+    st.setProperty('--cedL', Math.round(v.left - jaz - sir) + 'px');
+    st.setProperty('--cedD', Math.round(v.right + jaz) + 'px');
+    st.setProperty('--cedG', gore + 'px');
+    st.setProperty('--cedDo', dolje + 'px');
+    st.setProperty('--cedRed', red + 'px');
+    st.setProperty('--cedVis', (redaka * red) + 'px');
+    return true;
+  }
+
+  // ---- ikona ----
+  // Cetvrta u nizu lebdecih ikona kad je niz tu, na celu kad je sama (mini-igra
+  // nema rjecnik) — nikad ne visi u zraku ispod praznine gdje su niz cinile.
+  // Stanje "ima li mjesta" cita s <body>, ne mjeri ga sama: ovu funkciju zove i
+  // povlacenje stupca ikona, dakle i po 60 puta u sekundi, a povlacenje geometriju
+  // papirica ne mijenja. Mjeri preslozCedulje(), i to samo kad se nesto stvarno pomakne.
+  function postaviIkonuCedulja() {
+    var b = $('lebdiCed'); if (!b) return;
+    var moze = document.body.classList.contains('imaCedulje');
+    b.classList.toggle('vidi', moze);
+    if (!moze) { if (CED_POSTAVLJA) prekiniPostavljanje(); return; }
+    var v = Math.round(rjVelicina * 0.86);
+    var uNizu = !!($('lebdi') && $('lebdi').classList.contains('vidi'));
+    b.style.width = v + 'px'; b.style.height = v + 'px';
+    b.style.fontSize = (v * 0.46) + 'px';
+    b.style.top = (uNizu ? rjTop + rjVelicina + 10 + v + 10 + v + 10 : rjTop) + 'px';
+    b.style.right = (18 + (rjVelicina - v) / 2) + 'px';
+    b.title = slobodnihMjesta() ? 'Add a sticky note' : 'All four note spots are taken';
+  }
+
+  // ---- crtanje ----
+  // Puno precrtavanje sloja. Tipkanje ga NE zove (izgubio bi se pokazivac u
+  // tekstu) — ono mijenja samo zapis; promjena papira mijenja samo atribut.
+  function crtajCedulje() {
+    var sloj = $('ceduljeSloj'); if (!sloj) return;
+    if (!CED_KLJUC || !ceduljeUkljucene()) {
+      prekiniPostavljanje();
+      sloj.innerHTML = '';
+      preslozCedulje();
+      postaviIkonuCedulja();
+      return;
+    }
+    var moje = ceduljeOve(), imaKoja = false, html = '';
+    CED_MJESTA.forEach(function (m) {
+      var c = moje[m.id];
+      html += '<div class="cedMjesto" data-slot="' + m.id + '" data-strana="' + m.strana +
+        '" data-red="' + m.red + '">';
+      if (c) {
+        imaKoja = true;
+        var papir = papirCedulje(c);
+        html += '<div class="cedulja" data-papir="' + papir + '">' +
+          '<textarea class="cedText" data-slot="' + m.id + '" spellcheck="false" ' +
+            'maxlength="' + CED_NAJVISE_ZNAKOVA + '" aria-label="Sticky note" ' +
+            'placeholder="Write here…">' + esc(c.t || '') + '</textarea>' +
+          '<div class="cedAlat">' +
+          CED_PAPIRI.map(function (p) {
+            return '<button type="button" data-papir="' + p.id + '" data-slot="' + m.id +
+              '" aria-pressed="' + (papir === p.id ? 'true' : 'false') +
+              '" title="' + p.ime + ' paper">' + IK(p.ik) + '</button>';
+          }).join('') +
+          '<button type="button" class="cedBrisi" data-slot="' + m.id +
+            '" title="Delete this note">✕</button>' +
+          '</div></div>';
+      } else {
+        html += '<button type="button" class="cedPrazno" data-slot="' + m.id +
+          '"><span class="plusC">+</span><span>sticky note here</span></button>';
+      }
+      html += '</div>';
+    });
+    sloj.innerHTML = html;
+    if (imaKoja) ucitajRukopis();
+    preslozCedulje();
+    postaviIkonuCedulja();
+  }
+
+  // Scena se postavlja iz renderUnit i renderMiniIgra, a brise u idi() prije
+  // svakog drugog prikaza. Ista scena se ne precrtava: prelistavanje vjezbi
+  // unutar iste cjeline ostavlja papirice tocno kakvi su bili.
+  function postaviScenuCedulja(kljuc) {
+    kljuc = kljuc || null;
+    if (kljuc === CED_KLJUC) { preslozCedulje(); postaviIkonuCedulja(); return; }
+    CED_KLJUC = kljuc;
+    prekiniPostavljanje();
+    crtajCedulje();
+  }
+
+  // ---- odabir mjesta ----
+  function pocniPostavljanje() {
+    if (!preslozCedulje()) return;
+    if (!slobodnihMjesta()) { tresiCedulje(); return; }
+    CED_POSTAVLJA = true;
+    document.body.classList.add('ceduljePostavljanje');
+    var b = $('lebdiCed'); if (b) b.classList.add('postavlja');
+  }
+  function prekiniPostavljanje() {
+    if (!CED_POSTAVLJA) return;
+    CED_POSTAVLJA = false;
+    document.body.classList.remove('ceduljePostavljanje');
+    var b = $('lebdiCed'); if (b) b.classList.remove('postavlja');
+  }
+  function tresiCedulje() {
+    Array.prototype.forEach.call(document.querySelectorAll('#ceduljeSloj .cedMjesto'), function (m) {
+      if (!m.querySelector('.cedulja')) return;
+      m.classList.remove('puna');
+      void m.offsetWidth;                       // restart animacije
+      m.classList.add('puna');
+      setTimeout(function () { m.classList.remove('puna'); }, 400);
+    });
+  }
+
+  // ---- zivot jednog papirica ----
+  function stvoriCedulju(slot) {
+    if (!CED_KLJUC || !slot) return;
+    var sve = ceduljeSve();
+    if (!sve[CED_KLJUC] || typeof sve[CED_KLJUC] !== 'object') sve[CED_KLJUC] = {};
+    if (sve[CED_KLJUC][slot]) return;
+    sve[CED_KLJUC][slot] = { t: '', p: 'linije', d: Date.now() };
+    spremiProgress(true);
+    prekiniPostavljanje();
+    ucitajRukopis();
+    crtajCedulje();
+    // Papir je stvoren da se na njega pise — pokazivac ide odmah u njega.
+    var t = document.querySelector('#ceduljeSloj .cedMjesto[data-slot="' + slot + '"] .cedText');
+    if (t) t.focus();
+  }
+  // Tipkanje ide u zapis, a spremiProgress() bez "odmah" sabija upise u jednu
+  // sekundu — dakle jedan zapis na server po recenici, ne po slovu.
+  function upisiCedulju(slot, tekst) {
+    var moje = ceduljeOve();
+    if (!moje[slot]) return;
+    moje[slot].t = String(tekst == null ? '' : tekst).slice(0, CED_NAJVISE_ZNAKOVA);
+    spremiProgress();
+  }
+  // Papir se mijenja atributom, bez precrtavanja: tekst u tijeku ne smije
+  // izgubiti pokazivac zato sto je nekome zatrebalo crtovlje.
+  function promijeniPapir(slot, papir) {
+    var moje = ceduljeOve();
+    if (!moje[slot]) return;
+    var poznat = false;
+    for (var i = 0; i < CED_PAPIRI.length; i++) if (CED_PAPIRI[i].id === papir) poznat = true;
+    if (!poznat) return;
+    moje[slot].p = papir;
+    spremiProgress();
+    var m = document.querySelector('#ceduljeSloj .cedMjesto[data-slot="' + slot + '"]');
+    if (!m) return;
+    var c = m.querySelector('.cedulja');
+    if (c) c.setAttribute('data-papir', papir);
+    Array.prototype.forEach.call(m.querySelectorAll('.cedAlat button[data-papir]'), function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-papir') === papir ? 'true' : 'false');
+    });
+  }
+  function pitajBrisanje(slot) {
+    var moje = ceduljeOve();
+    if (!moje[slot]) return;
+    // Prazan papir nema sto izgubiti — odlazi bez pitanja.
+    if (!String(moje[slot].t || '').trim()) { brisiCedulju(slot); return; }
+    potvrdi('Delete this note?', 'What is written on it is gone for good. ' +
+      'The other notes stay where they are.', function () { brisiCedulju(slot); });
+  }
+  function brisiCedulju(slot) {
+    var sve = ceduljeSve(), scena = sve[CED_KLJUC];
+    if (!scena || !scena[slot]) return;
+    delete scena[slot];
+    // Scena bez ijednog papirica ne ostaje kao prazan zapis u postavkama.
+    var prazna = true;
+    for (var k in scena) if (scena.hasOwnProperty(k)) prazna = false;
+    if (prazna) delete sve[CED_KLJUC];
+    spremiProgress(true);
+    crtajCedulje();
   }
 
   // ---- mehanika 1: spajanje (crtež ↔ riječ) ----
@@ -5647,6 +6141,8 @@
     document.documentElement.style.setProperty('--skala', String(mn));
     osvjeziVelicinuG();
     if (typeof mjeriZaglavlje === 'function') mjeriZaglavlje();
+    // Papirici su mjereni u rem preko JS-a, pa nova skala trazi novo mjerenje.
+    if (typeof preslozCedulje === 'function') { preslozCedulje(); postaviIkonuCedulja(); }
   }
   function odaberiVelicinu(id) {
     if (!PROGRESS.postavke) PROGRESS.postavke = {};
@@ -5734,6 +6230,24 @@
         'Progress shows the same numbers with more of the story.</span>' +
       '</span><span class="sklopka"></span></button></div>';
 
+    // Cedulje: prekidac SAMO pokazuje i skriva. Gasenje ne brise nista, pa to
+    // mora stajati napisano — inace ga nitko ne dira iz straha da ne izgubi biljeske.
+    var cedOn = ceduljeUkljucene(), cedBroj = brojCedulja();
+    html += '<div class="velicinaBlok"><div class="nasP">Sticky notes</div>' +
+      '<button type="button" class="sklopkaRed" role="switch" aria-checked="' +
+        (cedOn ? 'true' : 'false') + '" onclick="prebaciCedulje()">' +
+      '<span class="sklopkaTekst">' +
+        '<span class="imeSk">Show sticky notes</span>' +
+        '<span class="opisSk">Puts <em>add sticky note</em> among the floating icons. ' +
+        'Four paper spots wait in the empty space beside the content \u2014 two on the left, ' +
+        'two on the right \u2014 and each note can be lined, squared or plain. A note belongs to ' +
+        'the lesson or mini game you wrote it on and stays there until you delete it. ' +
+        'Wide screens only: a phone or a tablet has no margin to put paper in. ' +
+        'Switching this off hides your notes, never deletes them.' +
+        (cedBroj ? ' You have ' + cedBroj + ' note' + (cedBroj === 1 ? '' : 's') + ' saved.' : '') +
+        '</span>' +
+      '</span><span class="sklopka"></span></button></div>';
+
     // pregled: ista vježba kao u lekciji, da se izbor vidi na pravom sadržaju
     html += '<div class="pregledP"><div class="nasP">Preview</div><div class="ploca">' +
       '<div class="pricaBox">Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.</div>' +
@@ -5786,6 +6300,9 @@
     if (view !== 'miniIgra') miniSatStop();
     window.scrollTo(0, 0);
     sakrijSavjetRj();
+    // Papirici pripadaju jednoj lekciji ili jednoj mini-igri. renderUnit i
+    // renderMiniIgra ih vracaju na scenu; svaka druga stranica ostaje bez njih.
+    postaviScenuCedulja(null);
     skrijValute = jeNulaCilj;
     // traka abecede i lebdeći rječnik žive samo unutar vježbi
     if (view !== 'unit') { trakaVidljiva(false); rjecnikVidljiv(false); slikeVjezbe = false; }
@@ -6180,7 +6697,7 @@
     var stanje = miniOpisStanja(g);
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
-      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '"></iframe>' +
+      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" style="height:24rem"></iframe>' +
       '<div class="alat">' +
       '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
       '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
@@ -6190,12 +6707,15 @@
       '</div>';
     // Igra piše bodove u localStorage; zaglavlje se osvježava dok se igra, a promjena se
     // gura na server — samo kad se stvarno promijeni, ne na svaki otkucaj.
+    postaviScenuCedulja('m|' + g.id);
     MINI_AKTIVNA = g.id;
     try { MINI_ZADNJE_SIROVO = localStorage.getItem('croland-mini-' + g.id) || ''; }
     catch (e) { MINI_ZADNJE_SIROVO = ''; }
+    miniPratiVisinu();
     var zadnje = miniBodovi();
     miniOsvjezavanje = setInterval(function () {
       if (!$('miniOkno')) { miniSatStop(); return; }
+      miniUskladiVisinu();   // mreza za slucaj da promjena visine promakne promatracu
       miniPokupi();
       var sad = miniBodovi();
       if (sad === zadnje) return;
@@ -6208,7 +6728,61 @@
   // Gašenje sata je ujedno i izlazak iz igre: prije nego što se prestane gledati, jednom se
   // pročita stanje i odmah pošalje. Bez toga bodovi upisani u zadnjih par sekundi ostaju
   // samo u localStorage, a idući `posijiMiniIgre()` ih prepiše serverskom vrijednošću.
+  // ---- visina okvira prati igru ----
+  // Jedini klizac smije biti onaj glavne stranice. Zato okvir nije visok koliko
+  // ekran nego tocno koliko je visok dokument u njemu: dok stoji uvodni tekst
+  // okvir je nizak, a cim igra pocne i ploca zauzme svoje, okvir naraste i
+  // stranica se produzi. Igre su zato pisane da im dokument ima prirodnu visinu
+  // (nema html,body{height:100%}), inace bi mjerenje vracalo visinu okvira samog.
+  var miniPazi = null, miniPaziDOM = null, miniCeka = 0;
+  // Mjerenje se skuplja u jedan poziv: igre mijenjaju DOM u rafalima, a visinu
+  // treba preračunati jednom po rafalu, ne po svakoj promjeni.
+  function miniZakaziVisinu() {
+    if (miniCeka) return;
+    miniCeka = setTimeout(function () { miniCeka = 0; miniUskladiVisinu(); }, 0);
+  }
+  function miniUskladiVisinu() {
+    var f = $('miniOkno'), d;
+    if (!f) return;
+    try { d = f.contentDocument; } catch (e) { return; }   // tudje podrijetlo — ne diramo
+    if (!d || !d.body) return;
+    var cs = d.defaultView.getComputedStyle(d.body);
+    var h = Math.ceil(d.body.getBoundingClientRect().height +
+                      parseFloat(cs.marginTop || 0) + parseFloat(cs.marginBottom || 0));
+    if (h > 0 && Math.abs(parseFloat(f.style.height || 0) - h) > 0.5) f.style.height = h + 'px';
+  }
+  function miniPratiVisinu() {
+    var f = $('miniOkno');
+    if (!f) return;
+    f.addEventListener('load', function () {
+      miniUskladiVisinu();
+      var d;
+      try { d = f.contentDocument; } catch (e) { return; }
+      if (!d || !d.body) return;
+      if (miniPazi) { miniPazi.disconnect(); miniPazi = null; }
+      if (miniPaziDOM) { miniPaziDOM.disconnect(); miniPaziDOM = null; }
+      // Dva promatraca, jer hvataju razlicite stvari. ResizeObserver vidi kad se
+      // kutija promijeni bez promjene DOM-a (slika se ucita, font sjedne), ali se
+      // javlja tek uz iscrtavanje. MutationObserver vidi zamjenu ekrana u igri i
+      // javlja se odmah, jos u istom koraku — a to je upravo trenutak kad uvodni
+      // tekst ustupi mjesto ploci i okvir mora narasti.
+      if (window.ResizeObserver) {
+        miniPazi = new ResizeObserver(miniZakaziVisinu);
+        miniPazi.observe(d.body);
+      }
+      if (window.MutationObserver) {
+        miniPaziDOM = new MutationObserver(miniZakaziVisinu);
+        miniPaziDOM.observe(d.body, { childList: true, subtree: true, attributes: true });
+      }
+      // Promjena sirine mijenja prelom u igri, pa i njezinu visinu.
+      d.defaultView.addEventListener('resize', miniZakaziVisinu);
+    });
+  }
+
   function miniSatStop() {
+    if (miniPazi) { miniPazi.disconnect(); miniPazi = null; }
+    if (miniPaziDOM) { miniPaziDOM.disconnect(); miniPaziDOM = null; }
+    if (miniCeka) { clearTimeout(miniCeka); miniCeka = 0; }
     if (miniOsvjezavanje) { clearInterval(miniOsvjezavanje); miniOsvjezavanje = null; }
     if (miniPokupi(true)) {
       osvjeziHeader();
@@ -6681,6 +7255,9 @@
       return;
     }
     oznaciPokrenuto(igre[0].cjelina);
+    // Scena papirica je CJELINA, ne pojedina vjezba: biljeska napisana na drugoj
+    // stranici stoji i na petoj, i na zavrsnom pregledu iste cjeline.
+    postaviScenuCedulja('u|' + tip + '|' + razina);
     if (indeks >= igre.length) { renderSummary(tip, razina); return; }
     igra = igre[indeks];
     slikeVjezbe = vjezbaImaSveSlike(igra);
@@ -8717,6 +9294,8 @@
     zaglMalo = malo;
     document.body.classList.toggle('zaglavljeMalo', malo);
     mjeriZaglavlje();
+    // Gornji papirici pocinju ispod zaglavlja, pa se s njim i pomaknu.
+    preslozCedulje();
   }
   window.addEventListener('scroll', zaglavljeNaPomak, { passive: true });
 
@@ -8828,6 +9407,38 @@
       sx = null;
     });
   })();
+  // -- cedulje: ikona, odabir mjesta, pisanje, papir, brisanje --
+  (function () {
+    var b = $('lebdiCed'), sloj = $('ceduljeSloj');
+    if (!b || !sloj) return;
+    b.onclick = function () { if (CED_POSTAVLJA) prekiniPostavljanje(); else pocniPostavljanje(); };
+    // Jedan slusac za cijeli sloj: papirici se precrtavaju, pa im pojedinacni
+    // slusaci ne bi prezivjeli ni jedno brisanje.
+    sloj.addEventListener('click', function (e) {
+      var c = e.target.closest ? e.target : null;
+      var prazno = c && c.closest('.cedPrazno');
+      if (prazno) { stvoriCedulju(prazno.getAttribute('data-slot')); return; }
+      var papir = c && c.closest('.cedAlat button[data-papir]');
+      if (papir) { promijeniPapir(papir.getAttribute('data-slot'), papir.getAttribute('data-papir')); return; }
+      var brisi = c && c.closest('.cedBrisi');
+      if (brisi) { pitajBrisanje(brisi.getAttribute('data-slot')); return; }
+      // Klik u prazninu tijekom odabira znaci "ni na jedno od cetiri".
+      if (CED_POSTAVLJA && (e.target === sloj || e.target.classList.contains('cedMjesto'))) prekiniPostavljanje();
+    });
+    sloj.addEventListener('input', function (e) {
+      if (!e.target.classList || !e.target.classList.contains('cedText')) return;
+      upisiCedulju(e.target.getAttribute('data-slot'), e.target.value);
+    });
+    // Escape je izlaz iz odabira; iz samog papirica vodi natrag u vjezbu.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      if (CED_POSTAVLJA) { prekiniPostavljanje(); return; }
+      if (e.target && e.target.classList && e.target.classList.contains('cedText')) e.target.blur();
+    });
+    // Sirina praznine visi o sirini prozora, a visina papirica o visini ekrana.
+    window.addEventListener('resize', function () { preslozCedulje(); postaviIkonuCedulja(); });
+  })();
+
   // Kratka dijagnostika za konzolu: kaže je li učitan ovaj index.html i ovaj data.js.
   // Upiši u konzolu: zastoNemaInfo()
   window.zastoNemaInfo = function () {

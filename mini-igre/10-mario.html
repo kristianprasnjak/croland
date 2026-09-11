@@ -14,7 +14,10 @@
   --zelena:#7CB342; --plava:#3E7CB1; --crta:3px solid #2B2118;
   --sjena:0 4px 0 #2B2118;
 }
-html,body{height:100%}
+/* Dokument je visok tocno koliko mu treba, ne koliko je visok okvir. Tako
+   aplikacija moze okvir izjednaciti sa sadrzajem i klizac ostaje samo jedan —
+   onaj glavne stranice. Visina se mijenja kad se promijeni i sam sadrzaj
+   (uvod je nizak, igra visa), i to je u redu. */
 body{
   font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
   background:var(--papir); color:var(--tinta);
@@ -22,7 +25,7 @@ body{
   background-image:radial-gradient(rgba(43,33,24,.045) 1px,transparent 1px);
   background-size:22px 22px;
 }
-.omot{max-width:1000px;margin:0 auto;padding:14px 14px 40px;min-height:100%;display:flex;flex-direction:column}
+.omot{max-width:1000px;margin:0 auto;padding:14px 14px 40px;display:flex;flex-direction:column}
 /* ---- HUD ---- */
 .hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   background:#fff;border:var(--crta);border-radius:16px;box-shadow:var(--sjena);

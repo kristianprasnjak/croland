@@ -19,7 +19,10 @@
   --pix:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
   --pix2:"Press Start 2P",monospace;
 }
-html,body{height:100%}
+/* Dokument je visok tocno koliko mu treba, ne koliko je visok okvir. Tako
+   aplikacija moze okvir izjednaciti sa sadrzajem i klizac ostaje samo jedan —
+   onaj glavne stranice. Visina se mijenja kad se promijeni i sam sadrzaj
+   (uvod je nizak, igra visa), i to je u redu. */
 body{
   font-family:var(--pix); font-size:17px; background:var(--papir); color:var(--tinta);
   overscroll-behavior:none; -webkit-font-smoothing:antialiased;
