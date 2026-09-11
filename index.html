@@ -25,6 +25,11 @@
      ---------------------------------------------------------------------- */
   html {
     font-size: calc(var(--skala, 1) * var(--baza, 1rem));
+    /* Mjesto za klizac se drzi i kad ga nema. Bez ovoga stranice koje skrolaju
+       (Lessons, Mini games, Options) imaju 15px uzu vidljivu sirinu od onih
+       koje ne skrolaju, pa sav centrirani sadrzaj poskoci 8px lijevo-desno pri
+       svakoj promjeni stranice. */
+    scrollbar-gutter: stable;
   }
 
   :root {
@@ -1795,9 +1800,6 @@
     }
 
     #view { max-width: 54rem; padding: 1.5rem 1.25rem 3.5rem; }
-    /* Options je stupac kartica najsire 40rem. U okviru od 54rem visio je uz
-       lijevi rub s prazninom desno; uzi #view centrira i naslov i kartice. */
-    #view:has(.postavkeDva) { max-width: 42rem; }
     #ploca { max-width: 36rem; padding: 1.125rem 1.375rem; }
     #ploca.siroka { max-width: 44rem; }
 
@@ -1805,10 +1807,11 @@
     header nav { gap: 0.25rem; }
 
     .miniMreza { grid-template-columns: repeat(3, 1fr); gap: 0.875rem; }
-    /* Bez desne trake naslovnica je stupac kartica — ne treba joj puna sirina
-       #view-a koja sluzi mrezama. Uzi stupac drzi jedan spil da se ne rastegne
-       preko cijelog ekrana kad je sam. */
-    .pocetna { gap: 1.125rem; max-width: 42rem; margin-left: auto; margin-right: auto; }
+    /* Naslovnica dijeli stupac sa svim ostalim stranicama — vlastita, uza
+       sirina znacila je da sadrzaj skoci udesno cim se dode s Lessons ili Mini
+       games. Da sirina ne ostane prazna, brza vjezba ide u dva stupca. */
+    .pocetna { gap: 1.125rem; }
+    .brza { grid-template-columns: repeat(2, 1fr); }
 
     /* Kartice su mjerene za prst. Na monitoru ih se pogadja misem, pa unutarnji
        razmak moze biti manji — isti sadrzaj, manje praznog okvira oko njega. */
@@ -1817,8 +1820,13 @@
     .temaK { padding: 0.75rem 1rem; }
     .fontK { padding: 0.5rem 0.75rem; }
     .velicinaK { padding: 0.625rem 0.5rem; }
-    .postavkeDva { max-width: 40rem; gap: 1rem; }
-    .velicinaBlok, .pregledP { max-width: 40rem; margin-top: 1.375rem; }
+    /* Options popunjava isti stupac kao svaka druga stranica — naslov i kartice
+       pocinju na istom mjestu kao na Lessons ili Mini games, pa se pri promjeni
+       stranice nista ne pomakne. Unutar svoje polovice kartice idu u dva stupca
+       da ne budu siroke i prazne. */
+    .postavkeDva { max-width: none; gap: 1.25rem; }
+    .velicinaBlok, .pregledP { max-width: none; margin-top: 1.375rem; }
+    .stupacP { grid-template-columns: repeat(2, 1fr); }
     .progPloca { padding: 0.875rem 1rem; }
     .progValK { padding: 0.75rem 0.875rem; }
     .sazetak, .testUvod { padding: 1.125rem 1.25rem; max-width: 34rem; }

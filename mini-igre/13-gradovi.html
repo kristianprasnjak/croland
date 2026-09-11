@@ -68,14 +68,19 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 
 /* Fotografije postoje za dio gradova. Gdje slike nema, scena ostaje ista,
    samo umjesto fotografije stoji papirnata podloga, pa se lik i oblacic vide. */
-.scena.bezSlike{background:
+.scena.bezSlike .poz{background:
   repeating-linear-gradient(45deg,rgba(36,28,21,.05) 0 12px,transparent 12px 24px), #cfe3f2}
-.scena.bezSlike .poz{display:none}
 
 /* ---------- oblačić ---------- */
 .govor{position:absolute;left:2.4%;bottom:4%;width:53%;
-  background:rgba(32,24,15,.93);border:0.42cqw solid #fff;color:#F7F1E3;
-  padding:2.3cqw 2.5cqw;line-height:1.45;font-size:clamp(13px,3.3cqw,19px)}
+  background:rgba(32,24,15,.88);border:0.42cqw solid #fff;color:#F7F1E3;
+  padding:2.3cqw 2.5cqw;line-height:1.45;font-size:clamp(13px,3.3cqw,19px);
+  cursor:default;transition:opacity .18s ease, visibility .18s ease}
+/* Klik na sliku grada ili na lika sklanja oblačić, da se vidi što je iza njega.
+   Ponovni klik ga vraća, a vraća ga i svaka sljedeća replika — govor() prepisuje
+   className, pa se .sakriven sam briše i oblačić nikad ne ostane trajno skriven. */
+.poz,.lik{cursor:pointer}
+.govor.sakriven{opacity:0;visibility:hidden;pointer-events:none}
 .govor .ime{display:block;font-weight:700;font-size:clamp(10px,2.35cqw,14px);
   color:var(--zut);margin-bottom:1.3cqw;letter-spacing:.5px}
 .govor p{margin:0}
@@ -2368,6 +2373,13 @@ function govor(ime, uloga, hr, en, zbunjenStil){
     '<p>'+esc(hr)+'</p>'+
     (en ? '<button class="otkrijEN" type="button" data-en="'+esc(en)+'">👁 translation</button>' : '');
 }
+// Oblačić se sklanja klikom na pozadinsku sliku ili na lika — i ni na što drugo.
+// Zato slušač visi na ta dva elementa, a ne na sceni: oblačić i oznake grada nisu
+// njihova djeca, pa klik na „translation" ovamo ne može ni doći.
+["poz","lik"].forEach(id => $(id).addEventListener("click", () => {
+  $("govor").classList.toggle("sakriven");
+}));
+
 document.addEventListener("click", e=>{
   const b = e.target.closest(".otkrijEN");
   if(!b) return;
@@ -2386,7 +2398,7 @@ function crtaj(novGrad){
   const poz = $("poz");
   poz.alt = g.ime;
   $("scena").classList.remove("bezSlike");
-  poz.onerror = () => { poz.removeAttribute("src"); $("scena").classList.add("bezSlike"); };
+  poz.onerror = () => { poz.removeAttribute("src"); poz.alt = ""; $("scena").classList.add("bezSlike"); };
   poz.src = slikaZa(stanje.grad);
   $("gradIme").textContent = g.ime;
   $("zupanija").textContent = g.zup === "Grad Zagreb" ? g.zup : g.zup + " županija";
