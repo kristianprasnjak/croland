@@ -81,6 +81,19 @@
      desna skupina skliznula u srednji stupac umjesto uz desni rub. */
   header .logo { grid-column: 1; justify-self: start; }
   header nav { grid-column: 2; justify-content: center; }
+  /* Dok brojaca bodova nema, krajnji stupci su jednaki (1fr) pa izbornik stoji
+     na sredini EKRANA. Cim ga polaznik upali, brojac je sirok i ne stane u svoj
+     1fr — prelije ga i prekrije zadnje stavke izbornika. Zato tada zaglavlje
+     prelazi na "auto 1fr auto": logo i brojac uzmu koliko im treba, izbornik
+     dobije ostatak i u njemu se centrira, a kad ni ostatak nije dovoljan,
+     "safe center" ga pusti ulijevo umjesto da mu odreze pocetak.
+     Klasu postavlja osvjeziHeader(), jedini koji zna je li brojac vidljiv. */
+  body.imaBrojac header { grid-template-columns: auto minmax(0, 1fr) auto; }
+  body.imaBrojac header nav { justify-content: safe center; overflow-x: auto; scrollbar-width: none; }
+  body.imaBrojac header nav::-webkit-scrollbar { display: none; }
+  /* Krajnja zastita: i najduzi brojac se prelama u tri tocke umjesto da gura
+     izbornik van ekrana. */
+  header .valute { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
   .desnoZ { grid-column: 3; justify-self: end; display: flex; align-items: center; gap: 0.5rem; min-width: 0; }
   header .logo {
     width: 1.75rem; height: 1.75rem; flex: none; border-radius: var(--rad-s);
@@ -1241,6 +1254,35 @@
   .velicinaK .opisV { font-size: var(--t-xs); color: var(--muted); line-height: 1.35; }
   @media (max-width: 639.98px) { .velicinaMreza { grid-template-columns: 1fr; } }
 
+  /* ---- prekidac u Options ----
+     Jedan redak: objasnjenje lijevo, stanje nosi klizac desno. Stanje zivi u
+     aria-checked, pa je isti atribut i pristupacnost i stilski uvjet — nema
+     druge klase koja bi se mogla razici s njim. */
+  .sklopkaRed {
+    display: flex; align-items: center; gap: 1rem; width: 100%; text-align: left;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 0.875rem 1rem; cursor: pointer; font-family: inherit; color: inherit;
+    min-height: max(2.75rem, 44px); transition: border-color .15s;
+  }
+  .sklopkaRed:hover { border-color: var(--plava); }
+  .sklopkaRed:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .sklopkaTekst { flex: 1; min-width: 0; }
+  .sklopkaRed .imeSk { display: block; font-size: var(--t-l); font-weight: 600; line-height: 1.3; }
+  .sklopkaRed .opisSk { display: block; font-size: var(--t-s); color: var(--muted); line-height: 1.45; margin-top: 0.25rem; }
+  .sklopka {
+    position: relative; flex: none; width: 2.75rem; height: 1.5rem; border-radius: 999px;
+    background: var(--rub); transition: background .2s;
+  }
+  .sklopka::after {
+    content: ''; position: absolute; top: 3px; left: 3px;
+    width: calc(1.5rem - 6px); height: calc(1.5rem - 6px); border-radius: 50%;
+    background: var(--card); box-shadow: 0 1px 3px rgba(25,23,19,.25);
+    transition: transform .2s cubic-bezier(.32,.72,0,1);
+  }
+  .sklopkaRed[aria-checked="true"] .sklopka { background: var(--plava); }
+  .sklopkaRed[aria-checked="true"] .sklopka::after { transform: translateX(1.25rem); }
+  @media (prefers-reduced-motion: reduce) { .sklopka, .sklopka::after { transition: none; } }
+
   .pregledP { max-width: 45rem; margin-top: 1.75rem; }
   .pregledP .ploca {
     background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
@@ -1678,8 +1720,8 @@
       /* Bez rasta po širini. 360px i 430px su isti uređaj u istoj ruci —
          nema razloga da tekst među njima naraste. 17px, ne 16: mobitel se
          drzi blize od monitora, ali se i cita u pokretu i pri losijem svjetlu,
-         pa zadano tijelo teksta mora biti citljivo bez zumiranja. */
-      --baza: 1.0625rem;
+         pa zadano tijelo teksta mora biti citljivo bez zumiranja. 18.2px. */
+      --baza: 1.135rem;
 
       /* Zbijena ljestvica: sitno ne smije pasti ispod ~12px, krupno ne smije
          pojesti redak. Naslov je 1.36x tijela. */
@@ -1693,10 +1735,7 @@
 
     #view { max-width: 100%; padding: 1rem 0.875rem 4rem; }
 
-    /* Zaglavlje je usko: logo + brojac + dvije tipke. Brojac je jedini koji se
-       smije skratiti, pa dobiva tri tocke umjesto da gura tipke van ekrana. */
     .desnoZ { gap: 0.375rem; }
-    header .valute { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 
     /* Ploča vježbe ide gotovo do ruba: na 360px svaki milimetar bočnog
        razmaka oduzima se od riječi koje se čitaju. */
@@ -1784,12 +1823,13 @@
      monitorom je prazna margina sa strane, ne kartice u sredini. */
   @media (min-width: 1024px) {
     :root {
-      /* 17.5px na 1024px (nastavlja tocno gdje tablet stane), 18.4px na 2560px.
-         Blag nagib: monitor je dalje od oka pa tijelo teksta smije biti
-         najkrupnije od tri, ali sirina prozora nije razlog da raste — ekran
-         od 27" ne gleda se s vece udaljenosti nego onaj od 15", samo ima vise
-         mjesta sa strane. */
-      --baza: clamp(1.09375rem, 1.05rem + 0.068vw, 1.15rem);
+      /* 16.3px na 1024px, 17.1px na 2560px. Blag nagib: sirina prozora nije
+         razlog da tekst raste — ekran od 27" ne gleda se s vece udaljenosti
+         nego onaj od 15", samo ima vise mjesta sa strane.
+         Na granicama prema tabletu (17–17.5px) ostaje stepenica od oko 7%.
+         Namjerno: ondje se ionako mijenja cijeli raspored — stupci, navigacija
+         i razmaci — pa se promjena velicine teksta ne primijeti kao skok. */
+      --baza: clamp(1.017rem, 0.977rem + 0.063vw, 1.07rem);
 
       /* Najsira ljestvica od tri — naslov je 1.68x tijela. Raspon je veci nego
          na tabletu jer se hijerarhija gleda izdaleka, ali naslov i dalje ostaje
@@ -1907,6 +1947,7 @@
     <a data-view="dictionary" data-kratko="Words" onclick="idi('dictionary')">Dictionary</a>
     <a data-view="mini" data-kratko="Games" onclick="idi('mini')">Mini games</a>
     <a data-view="daily" data-kratko="Daily" onclick="idi('daily')">Daily challenge</a>
+    <a data-view="progress" data-kratko="Progress" onclick="idi('progress')">Progress</a>
     <a data-view="account" data-kratko="You" onclick="idi('account')">User account</a>
     <a data-view="options" data-kratko="Options" onclick="idi('options')">Options</a>
   </nav>
@@ -3111,11 +3152,32 @@
   }
   // U Lesson 0 nema bodova ni valuta — brojač u zaglavlju je tada skriven.
   var skrijValute = false;
+  // Brojac bodova u zaglavlju je zadano ugasen: cetiri broja uz izbornik su sum
+  // za vecinu, a isti podatak stoji na stranici Progress koja je u izborniku.
+  // Tko ga ipak zeli stalno pred ocima, ukljuci ga u Options.
+  function bodoviUZaglavlju() {
+    return !!(PROGRESS.postavke && PROGRESS.postavke.bodoviUZaglavlju);
+  }
+  function prebaciBodoveUZaglavlju() {
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    PROGRESS.postavke.bodoviUZaglavlju = bodoviUZaglavlju() ? 0 : 1;
+    spremiProgress();
+    osvjeziHeader();
+    renderOptions();
+  }
+  window.prebaciBodoveUZaglavlju = prebaciBodoveUZaglavlju;
+
   function osvjeziHeader() {
     var el = $('valuteHeader');
     // Odjavljenom posjetitelju "0 LP · 0 VP · 0 GP · 0 PP" nije podatak nego obeshrabrenje.
-    if (skrijValute || !imaRacun()) { el.textContent = ''; el.style.display = 'none'; return; }
+    if (skrijValute || !imaRacun() || !bodoviUZaglavlju()) {
+      el.textContent = ''; el.style.display = 'none';
+      document.body.classList.remove('imaBrojac');
+      return;
+    }
     el.style.display = '';
+    // Raspored zaglavlja ovisi o tome je li brojac vidljiv — vidi TRI UREDAJA.
+    document.body.classList.add('imaBrojac');
     var v = valute();
     el.textContent = v.LP + ' LP · ' + v.VP + ' VP · ' + v.GP + ' GP · ' + v.PP + ' PP';
   }
@@ -5611,6 +5673,17 @@
         '</div>';
     });
     html += '</div></div>';
+
+    // Brojac bodova u zaglavlju: zadano ugasen, pa mu treba mjesto gdje se pali.
+    var bodoviGore = bodoviUZaglavlju();
+    html += '<div class="velicinaBlok"><div class="nasP">Header</div>' +
+      '<button type="button" class="sklopkaRed" role="switch" aria-checked="' +
+        (bodoviGore ? 'true' : 'false') + '" onclick="prebaciBodoveUZaglavlju()">' +
+      '<span class="sklopkaTekst">' +
+        '<span class="imeSk">Show your points in the header</span>' +
+        '<span class="opisSk">LP · VP · GP · PP next to the menu. Off by default — ' +
+        'Progress shows the same numbers with more of the story.</span>' +
+      '</span><span class="sklopka"></span></button></div>';
 
     // pregled: ista vježba kao u lekciji, da se izbor vidi na pravom sadržaju
     html += '<div class="pregledP"><div class="nasP">Preview</div><div class="ploca">' +
