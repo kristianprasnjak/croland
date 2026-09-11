@@ -1099,18 +1099,25 @@
     font-size: var(--t-s); color: var(--muted);
   }
   .miniSaz strong { color: var(--ink); }
-  .miniOkvir { margin-top: 0.75rem; }
-  .miniOkvir .alat { display: flex; align-items: center; gap: 0.625rem; flex-wrap: wrap; margin-bottom: 0.625rem; }
-  .miniOkvir .alat .nas { font-weight: 600; font-size: var(--t-l); margin-right: auto; }
+  .miniOkvir { margin-top: 0; }
+  .miniOkvir .alat { display: flex; align-items: center; gap: 0.625rem; flex-wrap: wrap; margin: 0.75rem 0 0; }
+  .miniOkvir .alat .nas { font-weight: 600; font-size: var(--t-l); }
+  .miniOkvir .alat .pod { font-size: var(--t-s); color: var(--muted); margin-right: auto; }
   button.gumbSitni {
     padding: 0.5rem 0.875rem; border: 1px solid var(--rub); border-radius: var(--rad-s); background: var(--card);
     color: var(--ink); font-size: var(--t-s); font-family: inherit; cursor: pointer;
   }
   button.gumbSitni:hover { border-color: var(--plava); color: var(--plava); }
+  /* Igra ispunjava tocno ono sto ostaje ispod zaglavlja, pa alatna traka ispod
+     nje padne tik ispod ruba ekrana — tko je ne treba, nikad je ne vidi.
+     Visinu zaglavlja mjeri JS (mjeriZaglavlje) jer ovisi o uredaju i o odabranoj
+     velicini sucelja, a CSS je ne moze sam procitati. */
   .miniOkvir iframe {
-    width: 100%; height: calc(100dvh - 11.875rem); min-height: 28.75rem;
+    width: 100%; height: calc(100dvh - var(--visinaZaglavlja, 3.5rem)); min-height: 20rem;
     border: 1px solid var(--rub); border-radius: var(--rad-l); background: var(--card); display: block;
   }
+  /* Bez okomitog razmaka iznad: svaki piksel visine ide igri. */
+  #view:has(.miniOkvir) { padding-top: 0; padding-bottom: 1.5rem; }
   /* stupci mreze i visina iframea zive u bloku po uređaju, na dnu datoteke */
 
   /* ============ IZNIMKE OD SKALIRANJA ======================================
@@ -1331,40 +1338,6 @@
   .tockice span.on { background: var(--plava); width: 12px; border-radius: 3px; }
   .spil.novo .tockice span.on { background: var(--zelena); }
 
-  /* --- police po tipovima: zatvoreno dok se ne zatraži --- */
-  .trakeBlok { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); overflow: hidden; }
-  .trakeZag {
-    display: flex; align-items: center; gap: 0.5rem; width: 100%; padding: 0.625rem 0.875rem;
-    background: none; border: 0; color: inherit; font-family: inherit; font-size: var(--t-s);
-    text-align: left; cursor: pointer;
-  }
-  .trakeZag:hover { background: var(--tiho); }
-  .trakeZag .nasZ { font-family: var(--naslov); font-weight: 600; flex: none; }
-  .trakeZag .sazZ { color: var(--muted); font-size: var(--t-2xs); min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .trakeZag .kvaka { margin-left: auto; color: var(--muted); flex: none; transition: transform .2s; }
-  .trakeBlok.otvoren .trakeZag .kvaka { transform: rotate(180deg); }
-  .tipovi { display: none; grid-template-columns: 1fr; gap: 0.5rem; padding: 0 0.625rem 0.75rem; }
-  .trakeBlok.otvoren .tipovi { display: grid; }
-  .tipK { border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.5rem 0.625rem 0.625rem; min-width: 0; }
-  .tipK .nasT { display: flex; align-items: center; gap: 0.375rem; font-family: var(--naslov); font-weight: 600; font-size: var(--t-s); margin-bottom: 0.25rem; }
-  .tipK .tocka { width: 0.5rem; height: 0.5rem; border-radius: 50%; flex: none; background: var(--boja); }
-  .redT { display: flex; align-items: baseline; gap: 0.375rem; min-width: 0; font-size: var(--t-2xs); padding: 0.15rem 0; border-radius: var(--rad-xs); cursor: pointer; }
-  .redT:hover .nazT { text-decoration: underline; }
-  .redT:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
-  .redT .kljucT { color: var(--muted); flex: none; width: 3.2rem; }
-  .redT .nazT { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .redT .pctT { margin-left: auto; color: var(--muted); flex: none; font-family: var(--naslov); }
-  .redT.tiho { cursor: default; color: var(--muted); }
-  .redT.tiho .nazT { font-weight: 400; }
-  .redT.tiho:hover .nazT { text-decoration: none; }
-  .miniT { height: 0.25rem; border-radius: var(--rad-xs); background: var(--tiho); overflow: hidden; margin-top: 0.25rem; }
-  .miniT i { display: block; height: 100%; width: 0; background: var(--boja); transition: width .7s cubic-bezier(.22,1,.36,1); }
-  .t-Lesson { --boja: var(--plava); }
-  .t-Vocabulary { --boja: var(--plavaVok); }
-  .t-Grammar { --boja: var(--zelena); }
-  .t-Practice { --boja: var(--zlatna); }
-  .t-Test { --boja: #4a4640; }
-
   /* --- brza vjezba: rjecnik, daily, mini --- */
   .zaglavljeP {
     font-size: var(--t-2xs); font-weight: 700; letter-spacing: .06em;
@@ -1385,24 +1358,6 @@
   .brzaK .podB { display: block; font-size: var(--t-2xs); color: var(--muted); line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .brzaK .strB { margin-left: auto; color: var(--muted); flex: none; }
   .brzaK.istaknuta { border-color: var(--plava); }
-
-  .stanjeVal { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 1.25rem 1.25rem; }
-  .stanjeVal .nasV {
-    font-size: var(--t-xs); font-weight: 600; letter-spacing: .08em;
-    text-transform: uppercase; color: var(--muted); margin-bottom: 0.875rem;
-  }
-  .redV { margin-bottom: 0.875rem; }
-  .redV:last-child { margin-bottom: 0; }
-  .redV .gornji { display: flex; justify-content: space-between; align-items: baseline; font-size: var(--t-m); }
-  .redV .gornji b { font-weight: 600; }
-  .redV .broj { font-family: var(--naslov); font-weight: 600; font-size: var(--t-s); }
-  .redV .bar { height: 0.375rem; border-radius: var(--rad-xs); background: var(--tiho); overflow: hidden; margin: 0.5rem 0 0.375rem; }
-  .redV .bar i { display: block; height: 100%; border-radius: var(--rad-xs); transition: width .7s cubic-bezier(.22,1,.36,1); }
-  .redV .do { font-size: var(--t-xs); color: var(--muted); }
-  .redV.lp .broj { color: var(--plava); }  .redV.lp .bar i { background-color: var(--plava); }
-  .redV.vp .broj { color: var(--plavaVok); }  .redV.vp .bar i { background-color: var(--plavaVok); }
-  .redV.gp .broj { color: var(--zelena); }  .redV.gp .bar i { background-color: var(--zelena); }
-  .redV.pp .broj { color: var(--zlatna); }  .redV.pp .bar i { background-color: var(--zlatna); }
 
   .pocetna .redNula { justify-content: stretch; margin: 0; }
   .pocetna .plocicaNula { flex: 1; text-align: left; padding: 0.75rem 0.875rem; border-radius: var(--rad-m); }
@@ -1430,14 +1385,8 @@
   @container spil (min-width: 320px) {
     .slajd .imeS { font-size: var(--t-2xl); }
   }
-  /* police po tipovima: naslovi cjelina su dugi, pa se stupci dodaju oprezno */
   @container glavni (min-width: 420px) {
     .spilovi { gap: 0.875rem; }
-    .tipovi { grid-template-columns: repeat(2, 1fr); }
-    .redT .kljucT { width: 3.6rem; }
-  }
-  @container glavni (min-width: 760px) {
-    .tipovi { grid-template-columns: repeat(3, 1fr); }
   }
 
   /* ---- zaglavlje: mirnije, s razmakom koji drži liniju ---- */
@@ -1750,7 +1699,6 @@
     #ploca.siroka { max-width: 100%; }
 
     .miniMreza { grid-template-columns: 1fr; gap: 0.625rem; margin-top: 1rem; }
-    .miniOkvir iframe { height: calc(100dvh - 7.5rem); min-height: 20rem; }
     .pocetna { gap: 0.875rem; }
     .postavkeDva, .velicinaMreza, .opcijeMreza { grid-template-columns: 1fr; }
 
@@ -1816,7 +1764,6 @@
     header .valute { flex: none; padding: 0.375rem 0.625rem; }
 
     .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.875rem; }
-    .miniOkvir iframe { height: calc(100dvh - 9.5rem); min-height: 26rem; }
     .mrezaSpoj { grid-template-columns: repeat(4, 1fr); gap: 0.625rem; }
     .postavkeDva { grid-template-columns: 1fr 1fr; }
     .velicinaMreza { grid-template-columns: repeat(3, 1fr); }
@@ -1848,6 +1795,9 @@
     }
 
     #view { max-width: 54rem; padding: 1.5rem 1.25rem 3.5rem; }
+    /* Options je stupac kartica najsire 40rem. U okviru od 54rem visio je uz
+       lijevi rub s prazninom desno; uzi #view centrira i naslov i kartice. */
+    #view:has(.postavkeDva) { max-width: 42rem; }
     #ploca { max-width: 36rem; padding: 1.125rem 1.375rem; }
     #ploca.siroka { max-width: 44rem; }
 
@@ -1855,7 +1805,6 @@
     header nav { gap: 0.25rem; }
 
     .miniMreza { grid-template-columns: repeat(3, 1fr); gap: 0.875rem; }
-    .miniOkvir iframe { height: calc(100dvh - 11.875rem); min-height: 28.75rem; }
     /* Bez desne trake naslovnica je stupac kartica — ne treba joj puna sirina
        #view-a koja sluzi mrezama. Uzi stupac drzi jedan spil da se ne rastegne
        preko cijelog ekrana kad je sam. */
@@ -1873,7 +1822,6 @@
     .progPloca { padding: 0.875rem 1rem; }
     .progValK { padding: 0.75rem 0.875rem; }
     .sazetak, .testUvod { padding: 1.125rem 1.25rem; max-width: 34rem; }
-    .stanjeVal { padding: 1rem; }
     .prijavaKart { padding: 1.25rem 1.25rem 1rem; }
 
     /* Lesson 0: sest crteza stane u jedan red umjesto u dva.
@@ -4668,6 +4616,9 @@
     var t = $('trakaAbc'); if (!t) return;
     if (da) { t.classList.add('vidi'); document.body.classList.add('imaTraku'); crtajTraku(); }
     else { t.classList.remove('vidi'); document.body.classList.remove('imaTraku'); $('popSlovo').style.display = 'none'; }
+    // Traka zauzima dno ekrana; stupac lebdecih ikona na mobitelu sjedi bas
+    // ondje, pa se pri svakom pojavljivanju i nestanku mora presloziti.
+    preslozIkoneAkoTreba();
   }
 
   // ---- lebdeći rječnik ----
@@ -4678,11 +4629,40 @@
   // dohvatu palca. Granica je ista kao u CSS-u (TRI UREDAJA): 640px.
   // Polozaj se racuna istom formulom kojom povlacenje ogranicava donji rub, pa
   // ikona krece tocno na svom najnizem dopustenom mjestu.
+  // Stupac je: velika ikona + dvije manje (0.86x) s razmacima od 10px — iste
+  // brojke koje koriste postaviIkonuIgre i postaviIkonuInfo.
+  function visinaStupcaIkona(vel) {
+    var m = Math.round(vel * 0.86);
+    return vel + 10 + m + 10 + m;
+  }
+  // Koliko mora ostati slobodno ispod stupca. Traka abecede je fiksna pri dnu i
+  // mijenja visinu s brojem redaka slova, pa se mjeri dok je vidljiva umjesto da
+  // se pogadja konstantom.
+  function rezervaIspodIkona() {
+    var t = document.getElementById('trakaAbc');
+    if (t && t.classList.contains('vidi')) {
+      var h = t.getBoundingClientRect().height;
+      if (h > 0) return Math.round(h) + 12;
+    }
+    return 24;
+  }
+  function najnizeIkone(vel) {
+    return Math.max(70, window.innerHeight - visinaStupcaIkona(vel) - rezervaIspodIkona());
+  }
   function pocetakIkona() {
-    if (window.innerWidth >= 1024) return { vel: 46, top: 68 };  // racunalo: najmanje
-    if (window.innerWidth >= 640) return { vel: 52, top: 78 };   // tablet: prst, pa vece
-    var vel = 46;                                                 // mobitel: dolje desno
-    return { vel: vel, top: Math.max(70, window.innerHeight - vel - 210) };
+    if (window.innerWidth >= 1024) return { vel: 64, top: 66 };  // racunalo
+    if (window.innerWidth >= 640) return { vel: 68, top: 74 };   // tablet: prst, pa vece
+    var vel = 60;                                                 // mobitel: dolje desno
+    return { vel: vel, top: najnizeIkone(vel) };
+  }
+  // Isti racun koriste i pocetni polozaj i granica povlacenja, pa ikona nikad
+  // ne moze zavrsiti ondje gdje sama ne bi krenula.
+  function preslozIkoneAkoTreba() {
+    if (rjRucno) return;
+    var poc = pocetakIkona();
+    if (poc.vel === rjVelicina && poc.top === rjTop) return;
+    rjVelicina = poc.vel; rjTop = poc.top;
+    postaviVelicinuIkone();
   }
   var POC_IK = pocetakIkona();
   var rjTip = null, rjRazina = 0, rjOpseg = 'lekcija',
@@ -4693,13 +4673,7 @@
   // Rotacija mobitela mijenja i sirinu (dakle uredaj) i visinu ekrana, a mjesto
   // ikona na mobitelu visi o oboje. Bez ovoga bi stupac ostao ondje gdje ga je
   // zateklo ucitavanje — npr. na pola ekrana nakon okretanja u pejzaz.
-  window.addEventListener('resize', function () {
-    if (rjRucno) return;
-    var poc = pocetakIkona();
-    if (poc.vel === rjVelicina && poc.top === rjTop) return;
-    rjVelicina = poc.vel; rjTop = poc.top;
-    postaviVelicinuIkone();
-  });
+  window.addEventListener('resize', function () { preslozIkoneAkoTreba(); });
   // Isti izvor i isti renderer kao stranica Dictionary — razlikuje se samo opseg.
   function rijeciRjecnika() {
     return rjOpseg === 'sve' ? rjecnikRijeci() : rijeciCjeline(rjTip, rjRazina);
@@ -5440,10 +5414,30 @@
   // Tema je dio PROGRESS.postavke — ide istim putem kao i sve ostalo (sessionStorage
   // predračunski handoff dok nema računa, Supabase nakon prijave). postaviTemu() samo
   // primjenjuje na DOM; odaberiTemu() je jedina koja i sprema.
+  // Prvi dolazak dobiva nasumicnu kombinaciju: jedna od 5 tema i jedno od 6
+  // pisama. Sjeme zivi u vlastitom kljucu, odvojeno od PROGRESS-a — PROGRESS se
+  // pri prijavi puni sa servera, pa bi upis u njega prije hidratacije mogao
+  // pregaziti temu koju polaznik vec ima. Cim polaznik sam nesto odabere, izbor
+  // zivi u PROGRESS.postavke i sjeme se vise ne gleda.
+  var SJEME_KLJUC = 'croland-pocetni-izgled', SJEME = null;
+  function pocetniIzgled() {
+    if (SJEME) return SJEME;
+    try { SJEME = JSON.parse(localStorage.getItem(SJEME_KLJUC) || 'null'); } catch (e) {}
+    var valjano = SJEME &&
+      TEME.some(function (t) { return t.id === SJEME.tema; }) &&
+      FONTOVI.some(function (f) { return f.id === SJEME.font; });
+    if (!valjano) {
+      SJEME = { tema: TEME[Math.floor(Math.random() * TEME.length)].id,
+                font: FONTOVI[Math.floor(Math.random() * FONTOVI.length)].id };
+      try { localStorage.setItem(SJEME_KLJUC, JSON.stringify(SJEME)); } catch (e) {}
+    }
+    return SJEME;
+  }
+
   function temaSad() {
     var t = (PROGRESS.postavke && PROGRESS.postavke.tema) || '';
     for (var i = 0; i < TEME.length; i++) if (TEME[i].id === t) return t;
-    return 'zagreb';
+    return pocetniIzgled().tema;
   }
   function postaviTemu(id) {
     document.body.setAttribute('data-tema', id);
@@ -5482,7 +5476,7 @@
   function fontSad() {
     var f = (PROGRESS.postavke && PROGRESS.postavke.font) || '';
     for (var i = 0; i < FONTOVI.length; i++) if (FONTOVI[i].id === f) return f;
-    return 'sistem';
+    return pocetniIzgled().font;
   }
   function postaviFont(id) {
     ucitajFont(id);
@@ -5510,9 +5504,9 @@
   // od html i ne može mu mijenjati font-size — to je razlog zašto stari
   // --font-size na <body> nikad nije stvarno radio.
   var VELICINE = [
-    { id: 'manje',  ime: 'Compact', opis: 'More fits on screen.', mn: 0.9 },
-    { id: 'zadano', ime: 'Default', opis: 'Recommended.',         mn: 1 },
-    { id: 'vece',   ime: 'Large',   opis: 'Easier on the eyes.',  mn: 1.15 }
+    { id: 'manje',  ime: 'Compact', opis: 'More fits on screen.', mn: 0.95 },
+    { id: 'zadano', ime: 'Default', opis: 'Recommended.',         mn: 1.06 },
+    { id: 'vece',   ime: 'Large',   opis: 'Easier on the eyes.',  mn: 1.17 }
   ];
   // Literata ima veću x-visinu od ostalih pisama pa se na istoj nominalnoj
   // veličini doima krupnije. Ovdje se to izjednačava.
@@ -5533,6 +5527,7 @@
     mn *= (KOREKCIJA_PISMA[fontSad()] || 1);
     document.documentElement.style.setProperty('--skala', String(mn));
     osvjeziVelicinuG();
+    if (typeof mjeriZaglavlje === 'function') mjeriZaglavlje();
   }
   function odaberiVelicinu(id) {
     if (!PROGRESS.postavke) PROGRESS.postavke = {};
@@ -5727,20 +5722,6 @@
   function prvaZakljucana() { return prolazCjelina(function (z) { return !z.otklj; }, 1)[0] || null; }
   function imaNapretka() { return prolazCjelina(function (z) { return z.osv > 0; }, 1).length > 0; }
 
-  // Za jedan tip: sljedeca netaknuta, posljednja zapoceta, i prva zakljucana kao rezerva.
-  function stanjeTipa(tip) {
-    var st = { tip: tip, ima: false, novo: null, nastavak: null, zakljucana: null };
-    for (var r = 1; r <= MAX_RAZINA; r++) {
-      if (igreCjeline(tip, r).length === 0) continue;
-      var z = zapisCjeline(tip, r);
-      if (z.maks <= 0) continue;
-      st.ima = true;
-      if (!z.otklj) { if (!st.zakljucana) st.zakljucana = z; continue; }
-      if (!st.novo && jeNetaknuta(z)) st.novo = z;
-      if (jeZapoceta(z) && (!st.nastavak || z.pokrenuta > st.nastavak.pokrenuta)) st.nastavak = z;
-    }
-    return st;
-  }
   // koliko jos treba do otkljucavanja te cjeline, izrazeno u njezinoj valuti
   function manjkaZa(z) {
     var val = VALUTA_TIPA[z.tip];
@@ -5815,36 +5796,6 @@
     return h + '</div>';
   }
 
-  function redTipa(kljuc, z, sPostotkom) {
-    return '<div class="redT" role="button" tabindex="0" data-cilj="unit:' + z.tip + ':' + z.razina + '" ' +
-      'title="' + esc(z.naslov) + '">' +
-      '<span class="kljucT">' + kljuc + '</span>' +
-      '<span class="nazT">' + esc(z.naslov) + '</span>' +
-      (sPostotkom ? '<span class="pctT">' + z.pct + '%</span>' : '') +
-      '</div>';
-  }
-  function karticaTipa(st) {
-    var h = '<div class="tipK t-' + st.tip + '">' +
-      '<div class="nasT"><span class="tocka"></span>' + st.tip + '</div>';
-    var prazna = true;
-    if (st.novo) { h += redTipa('New', st.novo, false); prazna = false; }
-    else if (st.zakljucana) {
-      var m = manjkaZa(st.zakljucana);
-      h += '<div class="redT tiho"><span class="kljucT">Next</span>' +
-        '<span class="nazT">' + esc(st.zakljucana.naslov) + '</span></div>' +
-        '<div class="redT tiho"><span class="kljucT"></span><span class="nazT">' +
-        (m ? m.treba + ' ' + m.val + ' to go' : 'finish the row first') + '</span></div>';
-      prazna = false;
-    }
-    if (st.nastavak) {
-      h += redTipa('Resume', st.nastavak, true) +
-        '<div class="miniT"><i data-pct="' + st.nastavak.pct + '"></i></div>';
-      prazna = false;
-    }
-    if (prazna) h += '<div class="redT tiho"><span class="nazT">everything here is done ✓</span></div>';
-    return h + '</div>';
-  }
-
   function brzaKarticaHtml(cilj, emo, ime, pod, istaknuta) {
     return '<div class="brzaK' + (istaknuta ? ' istaknuta' : '') + '" role="button" tabindex="0" ' +
       'data-cilj="' + cilj + '">' +
@@ -5862,8 +5813,7 @@
     var napredak = imaNapretka();
     var nastavak = zapocete(3);
     var nova = netaknute(3);
-    // Bez desne trake s valutama naslovnica je jedan stupac za svakoga — klasa
-    // bezTrake vise nema sto razlikovati.
+    // Bez desne trake s valutama naslovnica je jedan stupac za svakoga.
     var html = '<div class="pocetna"><div class="lijevo">';
 
     // Lesson 0 stoji na vrhu dok nije rijesena; kad su sva slova skupljena, nestaje s naslovnice.
@@ -5983,18 +5933,6 @@
     pocetna.addEventListener('click', function (e) {
       var t = e.target;
       if (t.closest && t.closest('.strelice')) return;
-      var akcija = t.closest ? t.closest('[data-akcija]') : null;
-      if (akcija) {
-        if (vuce) { vuce = false; return; }
-        var blok = akcija.parentNode;
-        var sad = !blok.classList.contains('otvoren');
-        blok.classList.toggle('otvoren', sad);
-        akcija.setAttribute('aria-expanded', sad ? 'true' : 'false');
-        if (!PROGRESS.postavke) PROGRESS.postavke = {};
-        PROGRESS.postavke.trakeOtvorene = sad ? 1 : 0;
-        spremiProgress();
-        return;
-      }
       var el = t.closest ? t.closest('[data-cilj]') : null;
       if (!el) return;
       if (vuce) { vuce = false; return; }
@@ -6100,15 +6038,22 @@
     if (PROGRESS.mini_igre && PROGRESS.mini_igre[g.id]) {
       try { localStorage.setItem('croland-mini-' + g.id, JSON.stringify(PROGRESS.mini_igre[g.id])); } catch (e) {}
     }
+    // Igra ide prva i uzima cijelu visinu ispod zaglavlja; naslov, stanje i
+    // Restart padaju tik ispod ruba ekrana, gdje ih vecina nikad ne zatrazi.
+    // "All games" i "Open in new tab" su maknuti: natrag se ide izbornikom, a
+    // igra u novoj kartici izlazi iz appa i vise ne biljezi bodove.
+    // Zaglavlje se premjeri bas sada — visina igre se racuna od njega.
+    mjeriZaglavlje();
+    var stanje = miniOpisStanja(g);
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
+      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '"></iframe>' +
       '<div class="alat">' +
       '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
-      '<button class="gumbSitni" onclick="idi(\'mini\')">← All games</button>' +
+      '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
+        (stanje ? ' · ' + esc(stanje) : '') + '</span>' +
       '<button class="gumbSitni" onclick="miniPonovno()">↻ Restart</button>' +
-      '<button class="gumbSitni" onclick="miniNoviTab(\'' + g.id + '\')">↗ Open in new tab</button>' +
       '</div>' +
-      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '"></iframe>' +
       '</div>';
     // Igra piše bodove u localStorage; zaglavlje se osvježava dok se igra, a promjena se
     // gura na server — samo kad se stvarno promijeni, ne na svaki otkucaj.
@@ -8600,9 +8545,21 @@
   }
 
   // ================= INIT =================
+  // Visina zaglavlja ide u CSS kao --visinaZaglavlja. Mini-igra se racuna od
+  // nje (100dvh minus zaglavlje), a zaglavlje mijenja visinu s uredajem i s
+  // odabranom velicinom sucelja — pa se premjeri i pri svakoj promjeni.
+  function mjeriZaglavlje() {
+    var h = document.querySelector('header');
+    if (!h) return;
+    document.documentElement.style.setProperty('--visinaZaglavlja',
+      Math.round(h.getBoundingClientRect().height) + 'px');
+  }
+  window.addEventListener('resize', mjeriZaglavlje);
+
   VIEW = $('view');
-  postaviTemu(temaSad());  // default 'zagreb' paint before any hydration — avoids a flash
+  postaviTemu(temaSad());  // nasumicna pocetna tema; boja se prije hidratacije — bez bljeska
   postaviFont(fontSad());
+  mjeriZaglavlje();
 
   // -- lebdeći rječnik: otvaranje, pretraga, opseg, veličina, povlačenje gore-dolje --
   (function () {
@@ -8614,7 +8571,7 @@
     $('rjTrazi').oninput = crtajPopisRj;
     vezeKlikPopisa($('rjPopis'));
     $('rjManji').onclick = function () { rjRucno = true; rjVelicina = Math.max(32, rjVelicina - 8); postaviVelicinuIkone(); };
-    $('rjVeci').onclick = function () { rjRucno = true; rjVelicina = Math.min(72, rjVelicina + 8); postaviVelicinuIkone(); };
+    $('rjVeci').onclick = function () { rjRucno = true; rjVelicina = Math.min(96, rjVelicina + 8); postaviVelicinuIkone(); };
     Array.prototype.forEach.call($('rjPrekidac').children, function (c) {
       c.onclick = function () {
         rjOpseg = c.getAttribute('data-opseg');
@@ -8634,7 +8591,7 @@
       var d = e.clientY - pocetak;
       if (Math.abs(d) > 4) { vukao = true; rjRucno = true; }
       // donja granica ostavlja mjesta i za ikonu igrice koja visi ispod
-      rjTop = Math.min(Math.max(pocetniTop + d, 70), window.innerHeight - rjVelicina - 210);
+      rjTop = Math.min(Math.max(pocetniTop + d, 70), najnizeIkone(rjVelicina));
       l.style.top = rjTop + 'px';
       postaviIkonuIgre();
     });
