@@ -35,6 +35,9 @@ body{
 .natrag{text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;
   border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;background:#fff}
 .natrag:hover{background:var(--zut)}
+/* U aplikaciji se natrag ide gornjim izbornikom („Mini games“), pa je poveznica
+   na popis igara suvišna. Ostaje samo kad je igra otvorena sama za sebe. */
+html.uApp .natrag{display:none}
 /* ---- ploha ---- */
 .ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
   padding:18px;flex:1;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
@@ -155,6 +158,11 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .otkrijEN:hover{opacity:1;color:var(--tinta);border-bottom-color:var(--zut)}
 .otkrijEN.otkriven{border-bottom:0;cursor:default;opacity:1;color:inherit;padding:0}
 </style>
+<script>
+/* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
+   — gornji izbornik aplikacije već vodi na isto mjesto. */
+if (window.self !== window.top) document.documentElement.className += ' uApp';
+</script>
 </head>
 <body>
 <div class="omot" id="omot"></div>

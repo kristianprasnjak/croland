@@ -38,6 +38,9 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 .natrag{font-weight:700;font-size:15px;text-decoration:none;color:var(--tinta);
   border:3px solid var(--tinta);padding:5px 10px;background:#fff}
 .natrag:hover{background:var(--zut)}
+/* U aplikaciji se natrag ide gornjim izbornikom („Mini games“), pa je poveznica
+   na popis igara suvišna. Ostaje samo kad je igra otvorena sama za sebe. */
+html.uApp .natrag{display:none}
 .srca{display:flex;gap:5px;align-items:center}
 .srce{width:22px;height:19px;color:var(--koralj)}
 .srce.prazno{color:var(--tinta);opacity:.17}
@@ -139,6 +142,11 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
   .gradIme{font-size:clamp(15px,4.4cqw,20px)}
 }
 </style>
+<script>
+/* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
+   — gornji izbornik aplikacije već vodi na isto mjesto. */
+if (window.self !== window.top) document.documentElement.className += ' uApp';
+</script>
 </head>
 <body>
 
