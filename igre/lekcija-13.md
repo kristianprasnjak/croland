@@ -32,9 +32,14 @@ opis: Tap a card to reveal the meaning.
 
 ## The rule: being somewhere
 format: tekst
-- Compare: *Idem **u grad**.* — I'm going to the city (motion → accusative, from L5). *Ja sam **u gradu**.* — I am in the city (location → **locative**!).
-- The rule for being somewhere: m. & n. → **-u** (u gradu, u kinu, u parku, u uredu); f. → **-a → -i** (u školi, na tržnici, u pekari).
-- Same *u/na* logic as before: **u** = inside, **na** = on/at open places & events.
+- **Going there, or already there?** That one difference is the whole lesson.
+- tab: Motion — where to (L5) | Location — where you are
+- tab: Idem u grad. | Ja sam u gradu.
+- tab: Idem u školu. | Ja sam u školi.
+- tab: Idem u kino. | Ja sam u kinu.
+- **The rule for being somewhere.** Masculine and neuter take **-u** (*u gradu, u kinu, u parku, u uredu*); feminine turns **-a** into **-i** (*u školi, na tržnici, u pekari*).
+- **Same *u/na* logic as before.** **u** = inside, **na** = on or at open places and events.
+- **Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu].
 
 ## Match the place
 format: parovi

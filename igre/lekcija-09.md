@@ -112,8 +112,9 @@ opis: One rule, three endings. Read the table, then say the last line out loud.
 - tab: koljeno (-o) | **moje** koljeno · **njegovo** koljeno · **naše** koljeno
 - The full set: **moj/moja/moje** (my) · **tvoj/tvoja/tvoje** (your, one person) · **njegov/njegova/njegovo** (his) · **njezin/njezina/njezino** (her) · **naš/naša/naše** (our) · **vaš/vaša/vaše** (your, plural or polite) · **njihov/njihova/njihovo** (their).
 - **One wrinkle, and it is the only one.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does.
-- To ask, use **čiji**: *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*
+- **To ask, use *čiji*.** *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*
 - *Njegov dres je plav, a moj je crven.*
+- **Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
 
 ## Whose is it?
 format: parovi
@@ -223,6 +224,7 @@ opis: The one possessive English cannot translate. Read both sentences in the ta
 - It changes shape like all the others, following the thing owned: **svoj** dres · **svoja** lopta · **svoje** koljeno.
 - *Ja treniram u **svom** klubu. Ti voliš **svoj** hobi. Ana slika **svoju** sestru.*
 - **The short version:** if the sentence is about me and my thing, or you and your thing, or Ana and Ana's thing — use *svoj*. Only reach for *njegov* or *njezin* when the thing belongs to somebody else.
+- **Now you write them.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu.
 - Croatian speakers hear the difference immediately, and it is one of the few places where the wrong word says something you did not mean.
 
 ## *svoj* or *njegov*?

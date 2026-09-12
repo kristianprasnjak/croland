@@ -40,9 +40,15 @@ opis: Match each question with its logical answer. ("u Splitu" = in Split — re
 ## Yes/no questions: the particle "li"
 format: tekst
 - No question word? Use **li** — glue it right after the verb:
-- *Voliš čokoladu.* → ***Voliš li** čokoladu?* — Do you like chocolate? *Imaš psa.* → ***Imaš li** psa?*
-- With *biti*, use the long forms: *Jesi li umoran? Je li to poklon?*
-- And the friendly tag at the end: *Voliš glazbu, **zar ne**?* — You like music, *don't you*?
+- **Statement in, question out.**
+- tab: Statement | Question
+- tab: Voliš čokoladu. | Voliš li čokoladu?
+- tab: Imaš psa. | Imaš li psa?
+- tab: Umoran si. | Jesi li umoran?
+- tab: To je poklon. | Je li to poklon?
+- **With *biti*, use the long forms.** Not *si li* but *jesi li*, not *je li* from the short *je* but the pair *je li*: *Jesi li umoran? Je li to poklon?*
+- **And the friendly tag at the end.** *Voliš glazbu, **zar ne**?* — You like music, *don't you*?
+- **Now you write them.** Voliš [li] čokoladu? Imaš [li] psa? [Jesi] li umoran?
 
 ## Build the question
 format: izbor

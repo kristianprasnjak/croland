@@ -70,11 +70,13 @@ opis: Lesson 1 taught you that the last letter gives away the gender, and family
 ## Three little connectors
 format: tekst
 info: The rule page for today. **i** simply adds (*Mama radi i čita*), **a** puts two different subjects side by side (*Tata kuha, a brat uči*), and **ali** is a real *but* (*Stan je mali, ali je dom topao*).
-- **i** = *and* (simply adding): *Mama radi i čita.*
-- **a** = *and / whereas* (two different people, two different things): *Tata kuha, a brat uči.*
-- **ali** = *but* (a twist!): *Stan je mali, ali je dom topao.*
-- English uses "and" for the first two — Croatian is more precise. If the second part is a contrast-but-not-conflict, use **a**. If it's a real "but", use **ali**.
-- One more thing your eye should catch: **i** never takes a comma, **a** and **ali** always do.
+- **Three connectors, three jobs.** English uses "and" for the first two — Croatian is more precise.
+- tab: Word | Means | Comma? | Example
+- tab: **i** | and (simply adding) | no comma | *Mama radi i čita.*
+- tab: **a** | and / whereas (two different people) | comma | *Tata kuha, a brat uči.*
+- tab: **ali** | but (a real twist) | comma | *Stan je mali, ali je dom topao.*
+- **How to choose.** If the second part is a contrast-but-not-conflict, use **a**. If it's a real "but", use **ali**. If you are simply adding, **i**.
+- **Now you write them.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao.
 
 ## Choose the connector
 format: izbor

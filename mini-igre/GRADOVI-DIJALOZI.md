@@ -229,7 +229,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Tako je. A ispod nas su podrumi. Vino se ovdje pravi od 1450. godine.**  
 *That's right. And below us are the cellars. Wine has been made here since 1450.*
 
-- ✅ Aha. To je više od petsto godina.
+- ✅ Aha. Ilok pravi vino više od petsto godina.
 - ❌ Aha. Vino se pravi od krumpira i soli.
 - ❌ Godina 1450. bila je prošlo ljeto.
 
@@ -237,8 +237,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Our best known wine is a white one, traminac. It was even served at the English queen's coronation.*
 
 - ✅ Onda ću probati čašu toga bijelog vina.
-- ❌ Engleska kraljica rodila se u Iloku.
-- ❌ Traminac je vrsta ribe iz Dunava.
+- ❌ Nije li se engleska kraljica rodila u Iloku?
+- ❌ Nije li traminac vrsta ribe iz Dunava?
 
 **Kraj.** Podrum je otvoren do pet. A kad krenete dalje, cesta uz Dunav vodi u Vukovar.  
 *The cellar is open until five. And when you move on, the road along the Danube leads to Vukovar.*
@@ -251,14 +251,14 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. The Vučedol Culture Museum is by the Danube, five kilometres downstream from the centre.*
 
 - ✅ Hvala. Mogu li pješice?
-- ❌ Dunav kroz Vukovar teče prema Splitu.
+- ❌ Ne teče li Dunav kroz Vukovar prema Splitu?
 - ❌ Pet kilometara je dulje od pet tisuća kilometara.
 
 **2. Možete, ali je daleko. Ondje je 1938. nađena vučedolska golubica, stara oko pet tisuća godina.**  
 *You can, but it's far. That is where the Vučedol dove was found in 1938, about five thousand years old.*
 
-- ✅ Pet tisuća godina? To je jako davno.
-- ❌ Godina 1938. bila je prije tri godine.
+- ✅ Pet tisuća godina? Onda je Vučedol jako star.
+- ❌ Nije li 1938. bila prije tri godine?
 - ❌ Vučedolska golubica je živa ptica iz zoološkog vrta.
 
 **3. Jest. To je posuda od gline. Original se čuva u Zagrebu, u Arheološkom muzeju — kod nas stoji kopija.**  
@@ -301,12 +301,12 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Zanimljivo. Gdje je taj muzej?
 - ❌ Godina ima trinaest mjeseci i osam dana.
-- ❌ Orion je nogometni klub iz Splita.
+- ❌ Nije li Orion nogometni klub iz Splita?
 
 **4. U centru, kraj Bosuta. A odavde su i dva rimska cara, Valentinijan i Valens.**  
 *In the centre, by the Bosut. And two Roman emperors came from here, Valentinian and Valens.*
 
-- ✅ Puno toga za jedan mali grad.
+- ✅ Puno toga za Vinkovce.
 - ❌ Rimsko Carstvo imalo je glavni grad u Osijeku.
 - ❌ Bosut je najviša planina u Hrvatskoj.
 
@@ -321,13 +321,13 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. Are you heading towards Spačva?*
 
 - ✅ Ne znam gdje je to. Što je Spačva?
-- ❌ Spačva je glavni grad Hrvatske.
+- ❌ Nije li Spačva glavni grad Hrvatske?
 - ❌ Spačva je najdublje more na svijetu.
 
 **2. Spačva je šuma, najveća šuma hrasta lužnjaka u Europi. Počinje odmah iza sela.**  
 *Spačva is a forest, the largest pedunculate oak forest in Europe. It begins right behind the village.*
 
-- ✅ Blizu je. Mogu i pješice.
+- ✅ Spačva je blizu. Mogu i pješice.
 - ❌ A tako. Hrast lužnjak je vrsta morske ribe.
 - ❌ A tako. U Slavoniji ne raste nijedno stablo.
 
@@ -335,7 +335,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *You can. Slavonian oak is famous — barrels for wine are made from it.*
 
 - ✅ A gdje se te bačve prodaju?
-- ❌ Bačve se rade od stakla i vode.
+- ❌ Ne rade li se bačve od stakla i vode?
 - ❌ Vino se u Hrvatskoj čuva zakopano u snijegu.
 
 **4. Idu čak i u Francusku. A rijeka kroz Otok je Bosut, ista koja teče kroz Vinkovce.**  
@@ -362,7 +362,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Izvolite. Ovo je Posavina, uz rijeku Savu. Preko rijeke je Bosna i Hercegovina.**  
 *Here you are. This is Posavina, along the river Sava. Across the river is Bosnia and Herzegovina.*
 
-- ✅ Jasno. Granica je odmah tu.
+- ✅ Jasno. Bosna je odmah preko Save.
 - ❌ Jasno. Preko Save je Australija.
 - ❌ Sava je najveće jezero u Hrvatskoj.
 
@@ -370,7 +370,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *The same river flows through Zagreb too. Here it is already wide and calm. In winter there can be fog for several days.*
 
 - ✅ A ljeti? Je li vruće?
-- ❌ Zagreb je luka na Jadranskom moru.
+- ❌ Nije li Zagreb luka na Jadranskom moru?
 - ❌ Magla je vrsta slavonskog kolača.
 
 **4. Ljeti je vruće, i to jako. Ovo je ravnica, nema hlada. Zato ljudi rade rano ujutro.**  
@@ -378,7 +378,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Razumijem. A što najbolje uspijeva ovdje?
 - ❌ U Posavini snijeg pada cijelo ljeto.
-- ❌ Ravnica je planina visoka tisuću metara.
+- ❌ Nije li ravnica planina visoka tisuću metara?
 
 **Kraj.** Kukuruz, pšenica, šećerna repa. Ovo je najplodnija zemlja u Hrvatskoj. Idete li dalje na zapad, sljedeći je Slavonski Brod.  
 *Maize, wheat, sugar beet. This is the most fertile land in Croatia. If you go further west, Slavonski Brod is next.*
@@ -399,21 +399,21 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Protiv koga su je gradili?
 - ❌ Osamnaesto stoljeće počelo je prije deset godina.
-- ❌ Austrija je otok u Jadranskom moru.
+- ❌ Nije li Austrija otok u Jadranskom moru?
 
 **3. Protiv Osmanlija. S druge strane Save bila je granica. I danas je granica — ondje je Bosna i Hercegovina.**  
 *Against the Ottomans. The border was on the other side of the Sava. It is still a border today — Bosnia and Herzegovina is over there.*
 
-- ✅ Kako se zove grad preko rijeke?
-- ❌ Bosna i Hercegovina je dio Afrike.
+- ✅ Kako se zove grad preko Save?
+- ❌ Nije li Bosna i Hercegovina dio Afrike?
 - ❌ Hrvatska ne graniči ni s jednom državom.
 
 **4. Bosanski Brod. Brod znači prijelaz preko rijeke. A u Brodu je živjela i spisateljica Ivana Brlić-Mažuranić.**  
 *Bosanski Brod. The word brod means a crossing over a river. And the writer Ivana Brlić-Mažuranić lived in Brod too.*
 
-- ✅ Ona koja je napisala Šegrta Hlapića?
+- ✅ Nije li to ona koja je napisala Šegrta Hlapića?
 - ❌ Ivana Brlić-Mažuranić bila je rimska carica.
-- ❌ Šegrt Hlapić je naziv za slavonsko vino.
+- ❌ Nije li Šegrt Hlapić naziv za slavonsko vino?
 
 **Kraj.** Tako je. Njezina je kuća u gradu, blizu korza. Ako idete dalje na zapad, sljedeća je Nova Gradiška.  
 *That's right. Her house is in town, near the promenade. If you go further west, Nova Gradiška is next.*
@@ -433,20 +433,20 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Right away. Sit outside, it's nice today. See how wide the square is? The town was planned, it didn't grow on its own.*
 
 - ✅ Tko ga je isplanirao?
-- ❌ Gradovi u Hrvatskoj nemaju trgove.
+- ❌ Zar u hrvatskim gradovima nema trgova?
 - ❌ Nova Gradiška je najstariji grad na svijetu.
 
 **3. Austrijska vojska, u vrijeme Vojne krajine. Iza nas je Psunj, planina od gotovo tisuću metara.**  
 *The Austrian army, in the time of the Military Frontier. Behind us is Psunj, a mountain of almost a thousand metres.*
 
 - ✅ Može li se na Psunj pješice?
-- ❌ Psunj je rijeka koja se ulijeva u Dunav.
+- ❌ Nije li Psunj rijeka koja se ulijeva u Dunav?
 - ❌ Tisuću metara je manje od jednog metra.
 
 **4. Može, ima puno staza. Ljudi idu gore vikendom. A dolje je Posavina, žito i kukuruz.**  
 *You can, there are lots of trails. People go up at the weekend. And down here is Posavina, wheat and maize.*
 
-- ✅ Ovdje ima i brda i ravnice.
+- ✅ Psunj gore, Posavina dolje — i brda i ravnice.
 - ❌ Žito raste samo pod vodom.
 - ❌ Posavina je otok kraj Dubrovnika.
 
@@ -461,7 +461,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. You look lost. This is Požega, in the middle of the Golden Valley.*
 
 - ✅ Baš to me zanima — gdje je glavni trg?
-- ❌ Požega je glavni grad Hrvatske.
+- ❌ Nije li Požega glavni grad Hrvatske?
 - ❌ Zlatna dolina je dio Jadranskog mora.
 
 **2. Samo naprijed, sto metara. To je Trg Svetog Trojstva. U sredini je kužni pil iz 1749. godine.**  
@@ -469,19 +469,19 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Što je kužni pil?
 - ❌ Godina 1749. dolazi tek za sto godina.
-- ❌ Trgovi se u Hrvatskoj nalaze pod zemljom.
+- ❌ Ne nalaze li se trgovi u Hrvatskoj pod zemljom?
 
 **3. Spomenik podignut nakon kuge, kao zahvala. Požega je stari grad — gimnazija ovdje radi od 1699. godine.**  
 *A monument raised after the plague, as thanks. Požega is an old town — the grammar school here has been running since 1699.*
 
 - ✅ Je li to jedna od najstarijih u Hrvatskoj?
 - ❌ Kuga je vrsta slavonskog kolača.
-- ❌ Gimnazija je vrsta rijeke.
+- ❌ Nije li gimnazija vrsta rijeke?
 
 **4. Jest, jedna od najstarijih. A ovu kotlinu zovemo Zlatna dolina — zbog žita i vina.**  
 *It is, one of the oldest. And we call this valley the Golden Valley — because of the wheat and the wine.*
 
-- ✅ Aha. Ime dolazi od poljoprivrede.
+- ✅ Aha. Zlatna dolina je ime po žitu i vinu.
 - ❌ U Zlatnoj dolini kopa se pravo zlato.
 - ❌ Aha. Žito i vino najbolje uspijevaju na Sjevernom polu.
 
@@ -502,15 +502,15 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Evo. Vidite rijeku ispod mosta? To je Orljava. Teče kroz cijelu dolinu i ulijeva se u Savu.**  
 *Here you are. Do you see the river under the bridge? That's the Orljava. It flows through the whole valley and empties into the Sava.*
 
-- ✅ Ima li u njoj ribe?
-- ❌ Orljava se ulijeva u Atlantski ocean.
+- ✅ Ima li u Orljavi ribe?
+- ❌ Ne ulijeva li se Orljava u Atlantski ocean?
 - ❌ Rijeke u Hrvatskoj teku uzbrdo.
 
 **3. Ima, ljudi pecaju cijelo ljeto. A u Pleternicu dolaze i hodočasnici, u svetište Gospe od Suza.**  
 *There are, people fish all summer. And pilgrims come to Pleternica too, to the shrine of Our Lady of Tears.*
 
 - ✅ Kada ih dolazi najviše?
-- ❌ Hodočasnici su vrsta ptica selica.
+- ❌ Nisu li hodočasnici vrsta ptica selica?
 - ❌ Ljeto u Hrvatskoj traje dva dana.
 
 **4. U svibnju i u rujnu. Ostatak godine je mirno, malo mjesto među brdima.**  
@@ -531,13 +531,13 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon, mind the stairs. It's cold down in the cellar, bring a jacket.*
 
 - ✅ Koliko je dolje hladno?
-- ❌ Podrumi se nalaze na krovu kuće.
+- ❌ Ne nalaze li se podrumi na krovu kuće?
 - ❌ Jakna se nosi samo ljeti na plaži.
 
 **2. Dvanaest stupnjeva, cijelu godinu. Ovaj je podrum iz 1232. godine. Sagradili su ga cisterciti.**  
 *Twelve degrees, all year round. This cellar is from 1232. The Cistercians built it.*
 
-- ✅ Star je gotovo osamsto godina.
+- ✅ Podrum u Kutjevu star je gotovo osamsto godina.
 - ❌ Godine 1232. ljudi su putovali avionima.
 - ❌ Dvanaest stupnjeva toplije je od sto stupnjeva.
 
@@ -545,7 +545,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *The Cistercians are monks. They were the first to plant vineyards here. Our main wine is graševina, white and dry.*
 
 - ✅ Uz što se pije graševina?
-- ❌ Graševina je vrsta traktora.
+- ❌ Nije li graševina vrsta traktora?
 - ❌ Vinova loza raste na morskom dnu.
 
 **4. Uz ribu i piletinu. Probajte gutljaj, samo gutljaj — pa na put.**  
@@ -572,7 +572,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Sagradio ju je biskup Josip Juraj Strossmayer, u devetnaestom stoljeću.**  
 *It was built by bishop Josip Juraj Strossmayer, in the nineteenth century.*
 
-- ✅ Stara je oko sto pedeset godina.
+- ✅ Strossmayerova katedrala stara je oko sto pedeset godina.
 - ❌ Strossmayer je bio prvi hrvatski astronaut.
 - ❌ Devetnaesto stoljeće bilo je prije dvadeset godina.
 
@@ -600,7 +600,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Šetate uz Dravu? Ovo je najveći grad u Slavoniji.**  
 *Good afternoon. Walking along the Drava? This is the largest city in Slavonia.*
 
-- ✅ Jest, baš idem uz rijeku.
+- ✅ Jest, baš idem uz Dravu.
 - ❌ Drava se ulijeva u Jadransko more.
 - ❌ Osijek je otok kraj Dubrovnika.
 
@@ -635,7 +635,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Dobro došli u Baranju. Ovo je zemlja između Drave i Dunava.**  
 *Good afternoon. Welcome to Baranja. This is the land between the Drava and the Danube.*
 
-- ✅ Okružena je rijekama.
+- ✅ Baranju okružuju rijeke.
 - ❌ Aha. Baranja se nalazi na vrhu Velebita.
 - ❌ Aha. Drava i Dunav su dva jezera u Dalmaciji.
 
@@ -684,7 +684,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Oko dvorca je park sa starim stablima, a kroz grad teče Karašica.**  
 *Around the castle is a park with old trees, and the Karašica flows through the town.*
 
-- ✅ Lijepo, prošetat ću uz vodu.
+- ✅ Lijepo, prošetat ću uz Karašicu.
 - ❌ Karašica je najduža rijeka na svijetu.
 - ❌ Stabla u parku isklesana su od kamena.
 
@@ -712,7 +712,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Tako je. Obitelj Gutmann otvorila je pilanu uz Dravu i sagradila kuće za radnike.**  
 *That's right. The Gutmann family opened a sawmill by the Drava and built houses for the workers.*
 
-- ✅ Radnici su živjeli odmah kraj posla.
+- ✅ Gutmannovi radnici živjeli su odmah kraj posla.
 - ❌ Jasno. Pilana je mjesto gdje se uzgajaju ribe.
 - ❌ Jasno. Drava je pustinja u sjevernoj Africi.
 
@@ -747,9 +747,9 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Preko rijeke je Mađarska. Granica ide sredinom Drave.**  
 *Across the river is Hungary. The border runs down the middle of the Drava.*
 
-- ✅ Druga je država nadohvat ruke.
-- ❌ Preko Drave je Španjolska.
-- ❌ Hrvatska i Mađarska nemaju zajedničku granicu.
+- ✅ Mađarska je nadohvat ruke.
+- ❌ Nije li preko Drave Španjolska?
+- ❌ Nemaju li Hrvatska i Mađarska zajedničku granicu?
 
 **3. U centru je dvorac Mailáth, s velikim parkom. Danas je u njemu gradska uprava.**  
 *In the centre is Mailáth Castle, with a large park. Today the town administration is in it.*
@@ -789,8 +789,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Skladala je pjesme i simfoniju, početkom dvadesetog stoljeća.**  
 *She composed songs and a symphony, at the start of the twentieth century.*
 
-- ✅ Ima li se gdje čuti njezina glazba?
-- ❌ Simfonija je vrsta slavonske juhe.
+- ✅ Ima li se gdje čuti Dorina glazba?
+- ❌ Nije li simfonija vrsta slavonske juhe?
 - ❌ Dvadeseto stoljeće još nije počelo.
 
 **4. Ima, u dvorcu se drže koncerti. A iznad grada je Krndija, pa dalje Papuk.**  
@@ -824,7 +824,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Sve je to u Parku prirode Papuk. Papuk je i geopark pod zaštitom UNESCO-a.**  
 *All of it is in Papuk Nature Park. Papuk is also a geopark under UNESCO protection.*
 
-- ✅ Ovdje je vrijedna i priroda i kamen.
+- ✅ Na Papuku je vrijedna i priroda i kamen.
 - ❌ UNESCO je rijeka u Slavoniji.
 - ❌ Papuk je najniža točka u Hrvatskoj.
 
@@ -859,7 +859,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Ime Slatina dolazi od slanih izvora. Ovdje ima i termalne vode.**  
 *The name Slatina comes from salt springs. There is thermal water here too.*
 
-- ✅ Voda izlazi iz zemlje topla.
+- ✅ U Slatini voda izlazi iz zemlje topla.
 - ❌ Termalna voda je zaleđena voda.
 - ❌ Slatina na hrvatskom znači 'grad na moru'.
 
@@ -894,7 +894,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Sjeverno je Drava, granica s Mađarskom. Južno je Bilogora.**  
 *To the north is the Drava, the border with Hungary. To the south is Bilogora.*
 
-- ✅ Između rijeke i brda.
+- ✅ Između Drave i Bilogore.
 - ❌ Vidim. Bilogora je otok u Kvarneru.
 - ❌ Vidim. Drava razdvaja Hrvatsku od Grčke.
 
@@ -922,7 +922,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Oko nas su same šume. Hrast, bukva, grab. Zato ovdje ima puno divljači.**  
 *All around us is forest. Oak, beech, hornbeam. That's why there is a lot of game here.*
 
-- ✅ Lovci ovamo rado dolaze.
+- ✅ Lovci na Bilogoru rado dolaze.
 - ❌ Bukva i grab su vrste morskih riba.
 - ❌ U hrvatskim šumama ne živi nijedna životinja.
 
@@ -957,7 +957,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Rimljani su to znali. Njihovo se naselje ovdje zvalo Aquae Balissae — 'jake vode'.**  
 *The Romans knew that. Their settlement here was called Aquae Balissae — 'strong waters'.*
 
-- ✅ Toplice su stare gotovo dvije tisuće godina.
+- ✅ Daruvarske toplice stare su gotovo dvije tisuće godina.
 - ❌ Rimljani su živjeli u Hrvatskoj prošle godine.
 - ❌ Aquae Balissae je ime hrvatske rijeke.
 
@@ -1006,7 +1006,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Ima. A iznad grada su Psunj i Papuk, s obje strane doline.**  
 *There is. And above the town are Psunj and Papuk, on both sides of the valley.*
 
-- ✅ Grad leži između dvije planine.
+- ✅ Pakrac leži između Psunja i Papuka.
 - ❌ Psunj i Papuk su dva otoka u Jadranu.
 - ❌ Doline su uvijek više od planina.
 
@@ -1034,7 +1034,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Naša je voda posebna — jodna, jedna od rijetkih takvih u Europi.**  
 *Our water is special — iodine water, one of the few of its kind in Europe.*
 
-- ✅ Aha. Nije obična mineralna voda.
+- ✅ Aha. Lipička voda nije obična mineralna.
 - ❌ Aha. Voda u Hrvatskoj nema nikakav sastav.
 - ❌ Jod je vrsta drveta.
 
@@ -1069,7 +1069,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Sjeverno od nas je Psunj, a južno ravnica uz Savu.**  
 *To the north of us is Psunj, and to the south the plain along the Sava.*
 
-- ✅ Brdo na jednoj, voda na drugoj strani.
+- ✅ Psunj na jednoj, Sava na drugoj strani.
 - ❌ A tako. Psunj se nalazi na otoku Hvaru.
 - ❌ A tako. Sava izvire u Novskoj.
 
@@ -1097,9 +1097,9 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Ovdje su polja, voćnjaci i vinogradi. Zemlja je dobra, ali treba je raditi.**  
 *Here there are fields, orchards and vineyards. The soil is good, but it has to be worked.*
 
-- ✅ Jasno. Ljudi ovdje uglavnom žive od zemlje.
-- ❌ Jasno. Voće raste na dnu rijeke.
-- ❌ U Hrvatskoj se ništa ne uzgaja.
+- ✅ Jasno. U Moslavini se uglavnom živi od zemlje.
+- ❌ Jasno. Ne raste li voće na dnu rijeke?
+- ❌ Zar se u Hrvatskoj išta uzgaja?
 
 **3. Tako je oduvijek. Grad je malen, ali ima školu, bolnicu i tržnicu.**  
 *It has always been so. The town is small, but it has a school, a hospital and a market.*
@@ -1132,7 +1132,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Radi. A grad je uz nju narastao — Kutina je danas najveća u Moslavini.**  
 *It does. And the town grew alongside it — Kutina is now the largest in Moslavina.*
 
-- ✅ Tvornica je promijenila cijeli grad.
+- ✅ Tvornica je promijenila cijelu Kutinu.
 - ❌ Kutina je najveći grad u Europi.
 - ❌ Moslavina se nalazi u Dalmaciji.
 
@@ -1174,7 +1174,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Tako je. A ispod nas, prema jugu, počinje Lonjsko polje i rijeka Sava.**  
 *That's right. And below us, to the south, Lonjsko polje and the river Sava begin.*
 
-- ✅ Odavde se vidi i gora i ravnica.
+- ✅ Odavde se vidi i Moslavačka gora i Lonjsko polje.
 - ❌ Sava se ulijeva u Jadransko more.
 - ❌ Lonjsko polje je grad od milijun stanovnika.
 
@@ -1196,7 +1196,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. That thing bowing up and down in the field is an oil pump.*
 
 - ✅ U Hrvatskoj ima i nafte? To je novost.
-- ❌ Nafta se skuplja s krovova kuća.
+- ❌ Ne skuplja li se nafta s krovova kuća?
 - ❌ U Hrvatskoj se nafta uvozi s Mjeseca.
 
 **2. Ima je, baš ovdje oko Ivanić-Grada. Buši se već desetljećima.**  
@@ -1209,7 +1209,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Uz to smo poznati po bučinu ulju. Svake jeseni imamo Bučijadu.**  
 *Besides that we are known for pumpkin seed oil. Every autumn we have the Pumpkin Festival.*
 
-- ✅ Tada je grad pun ljudi.
+- ✅ Tada je Ivanić-Grad pun ljudi.
 - ❌ Aha. Bučino ulje pravi se od kamena.
 - ❌ Aha. Jesen u Hrvatskoj traje jedan sat.
 
@@ -1251,7 +1251,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Bilo je. Oko nas su vinogradi i šume, a rijeka je Čazma, po kojoj se grad zove.**  
 *It was. Around us are vineyards and forests, and the river is the Čazma, after which the town is named.*
 
-- ✅ I rijeka i grad nose isto ime.
+- ✅ I rijeka i grad zovu se Čazma.
 - ❌ Rijeka Čazma teče kroz Rim.
 - ❌ Vinogradi se sade na krovovima crkava.
 
@@ -1286,7 +1286,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Jest. Danas je Bjelovar središte županije, a oko njega su sela i njive.**  
 *It was. Today Bjelovar is a county seat, and around it are villages and fields.*
 
-- ✅ I dalje je to poljoprivredni kraj.
+- ✅ Bjelovar je i dalje poljoprivredni kraj.
 - ❌ Bjelovar leži na obali Jadranskog mora.
 - ❌ Oko Bjelovara je gusta prašuma.
 
@@ -1307,7 +1307,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Jesu, još od osamnaestog stoljeća. Grad je i inače star — spominje se u trinaestom.**  
 *It is, since the eighteenth century. The town is old anyway — it is mentioned in the thirteenth.*
 
-- ✅ Ima gotovo osamsto godina.
+- ✅ Križevci imaju gotovo osamsto godina.
 - ❌ Grad je nastao prije pet godina.
 - ❌ Trinaesto stoljeće dolazi poslije dvadesetog.
 
@@ -1342,7 +1342,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Slobodno. Naš je grad poznat i po velikoj prehrambenoj tvornici i njezinim začinima.**  
 *Feel free. Our town is also known for a large food factory and its seasonings.*
 
-- ✅ Odavde dolazi hrana za cijelu zemlju.
+- ✅ Iz Koprivnice dolazi hrana za cijelu zemlju.
 - ❌ Začini se u Hrvatskoj kopaju iz rudnika.
 - ❌ Tvornice hrane rade samo u prosincu.
 
@@ -1370,7 +1370,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je Stari grad Đurđevac, utvrda okružena vodom.**  
 *Good afternoon. This is Đurđevac Old Town, a fort surrounded by water.*
 
-- ✅ Aha. Oko nje je nekad bio opkop.
+- ✅ Aha. Oko Starog grada je nekad bio opkop.
 - ❌ Utvrde se u Hrvatskoj grade na oblacima.
 - ❌ Aha. Voda i kamen ne mogu stajati jedno kraj drugoga.
 
@@ -1406,7 +1406,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. Have you stood on the stone in the middle of the square? That's the Centre of the World.*
 
 - ✅ Nisam, ali sad hoću. Otkud to ime?
-- ❌ Središte svijeta službeno je u Parizu.
+- ❌ Nije li Središte svijeta službeno u Parizu?
 - ❌ Kamenje na trgovima u Hrvatskoj je zabranjeno.
 
 **2. Od stare legende i malo šale. Ludbrežani to uzimaju ozbiljno, ali s osmijehom.**  
@@ -1419,7 +1419,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Ludbreg je poznat i po hodočašću. Svake se godine u rujnu ovamo slijeva mnoštvo.**  
 *Ludbreg is also known for a pilgrimage. Every September crowds pour in here.*
 
-- ✅ A tako. Tada je grad prepun.
+- ✅ A tako. Tada je Ludbreg prepun.
 - ❌ A tako. Rujan je prvi mjesec u godini.
 - ❌ Hodočašća se u Hrvatskoj održavaju pod morem.
 
@@ -1447,7 +1447,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Kopamo. Rimljani su ovo mjesto zvali Aquae Iasae — po plemenu Jasa.**  
 *We are. The Romans called this place Aquae Iasae — after the Iasi tribe.*
 
-- ✅ Ime je starije od dvije tisuće godina.
+- ✅ Ime Aquae Iasae starije je od dvije tisuće godina.
 - ❌ Aquae Iasae je ime hrvatskog otoka.
 - ❌ Rimljani su govorili hrvatski.
 
@@ -1455,8 +1455,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *About that. The water here comes out hot, around fifty-eight degrees.*
 
 - ✅ To je toplije od kupke kod kuće.
-- ❌ Aha. Pedeset osam stupnjeva je ispod ništice.
-- ❌ Aha. Vruća voda u prirodi ne postoji.
+- ❌ Aha. Nije li pedeset osam stupnjeva ispod ništice?
+- ❌ Aha. Zar vruća voda postoji u prirodi?
 
 **4. Puno toplije. Zato se ovdje liječe zglobovi i kosti, i danas kao i tada.**  
 *Much hotter. That is why joints and bones are treated here, today as then.*
@@ -1489,7 +1489,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Tako je, dok grad nije izgorio pa se sve preselilo u Zagreb.**  
 *That's right, until the town burned down and everything moved to Zagreb.*
 
-- ✅ Šteta, ali barem se obnovio.
+- ✅ Šteta za Varaždin, ali barem se obnovio.
 - ❌ Zagreb se nalazi u Bosni i Hercegovini.
 - ❌ Gradovi ne mogu izgorjeti.
 
@@ -1497,7 +1497,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *It was rebuilt in baroque style. That is why we have Špancirfest, the Baroque Evenings, and a cemetery that is a park.*
 
 - ✅ Groblje kao park? To moram vidjeti.
-- ❌ Barok je stil odjeće iz devedesetih.
+- ❌ Nije li barok stil odjeće iz devedesetih?
 - ❌ Festivali su u Hrvatskoj zabranjeni.
 
 **Kraj.** Ošišano drveće, staze kao u vrtu. Preko Drave je Međimurje — prvo Mursko Središće.  
@@ -1510,7 +1510,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Rijeka pred vama je Mura. Preko nje je Slovenija.**  
 *Good afternoon. The river before you is the Mura. Across it is Slovenia.*
 
-- ✅ Granica ide rijekom.
+- ✅ Granica sa Slovenijom ide Murom.
 - ❌ Preko Mure je Kina.
 - ❌ Mura je najveće more u Europi.
 
@@ -1526,7 +1526,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ A danas? Radi li rudnik još?
 - ❌ Ugljen se skuplja s krovova.
-- ❌ Rudnici se nalaze u zraku.
+- ❌ Ne nalaze li se rudnici u zraku?
 
 **4. Ne radi, zatvoren je davno. Ostali su ljudi, rijeka i mlinovi na Muri.**  
 *It doesn't, it closed long ago. What remains are the people, the river and the mills on the Mura.*
@@ -1552,7 +1552,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Najpoznatija plemićka obitelj ovoga kraja. Grad po njima nosi ime — Čakovec.**  
 *The best known noble family of this region. The town is named after them — Čakovec.*
 
-- ✅ Ime grada dolazi od vlastele.
+- ✅ Ime Čakovca dolazi od vlastele.
 - ❌ Čakovec je dobio ime po rijeci Savi.
 - ❌ Plemići su ljudi koji nikad nisu postojali.
 
@@ -1587,7 +1587,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Za hidroelektranu, tako je. Struja odavde ide u cijelu Hrvatsku.**  
 *For a hydroelectric plant, that's right. Electricity from here goes all over Croatia.*
 
-- ✅ Voda ovdje radi i za druge.
+- ✅ Drava radi i za druge.
 - ❌ Struja se dobiva isključivo iz vjetra u Africi.
 - ❌ Hidroelektrane rade na ugljen.
 
@@ -1622,7 +1622,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Jest, sasvim drugi. Novi Marof je na pola puta između Varaždina i Zagreba.**  
 *Yes, quite different. Novi Marof is halfway between Varaždin and Zagreb.*
 
-- ✅ Jasno. Ovuda prolazi cesta prema glavnom gradu.
+- ✅ Jasno. Ovuda prolazi cesta prema Zagrebu.
 - ❌ Jasno. Varaždin i Zagreb udaljeni su tisuću kilometara.
 - ❌ Novi Marof je na obali Jadrana.
 
@@ -1657,7 +1657,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Nije, ima ih više. Ivanec leži točno pod njom, na južnoj strani.**  
 *It isn't, there are several. Ivanec lies right beneath it, on the southern side.*
 
-- ✅ Aha. Cijeli grad gleda u planinu.
+- ✅ Aha. Cijeli Ivanec gleda u Ivanščicu.
 - ❌ Ivanec se nalazi na otoku Krku.
 - ❌ Aha. Sjeverna i južna strana isto su mjesto.
 
@@ -1699,7 +1699,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Jest. A čipku su ovdje prvi pleli pavlini, redovnici koji su imali samostan.**  
 *It is. And the first to make lace here were the Paulines, monks who had a monastery.*
 
-- ✅ Tradicija dolazi iz samostana.
+- ✅ Tradicija dolazi od pavlina.
 - ❌ Pavlini su bili mornari iz Dalmacije.
 - ❌ Samostani se grade pod zemljom.
 
@@ -1720,7 +1720,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Vidite kako je Zagorje ovdje sve u brežuljcima i klijetima?**  
 *Good afternoon. Do you see how Zagorje here is all little hills and vineyard huts?*
 
-- ✅ Kuća do kuće po vrhovima.
+- ✅ U Zagorju je kuća do kuće po vrhovima.
 - ❌ Zagorje je pustinja bez ijedne kuće.
 - ❌ Klijeti su vrste automobila.
 
@@ -1762,7 +1762,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Jesu, prije više od stotinu tisuća godina. Nalaz je otkriven 1899. godine.**  
 *They did, more than a hundred thousand years ago. The find was discovered in 1899.*
 
-- ✅ Otkriće je staro više od stoljeća.
+- ✅ Krapinsko otkriće staro je više od stoljeća.
 - ❌ Godina 1899. bila je prošlog ljeta.
 - ❌ Sto tisuća godina traje jedan tjedan.
 
@@ -1797,7 +1797,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Od milja, tako je. A oko nas su vinogradi — cijela brda pod lozom.**  
 *From affection, that's right. And around us are vineyards — whole hills under vines.*
 
-- ✅ Ovdje se živi od vina.
+- ✅ U Pregradi se živi od vina.
 - ❌ Vinova loza raste samo u pustinji.
 - ❌ Brda u Zagorju gola su i kamena.
 
@@ -1812,8 +1812,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *It's worth it. From here it is only a few kilometres to Slovenia.*
 
 - ✅ Aha. Granica je vrlo blizu.
-- ❌ Aha. Slovenija se nalazi u Južnoj Americi.
-- ❌ Hrvatska nema susjeda na sjeveru.
+- ❌ Aha. Ne nalazi li se Slovenija u Južnoj Americi?
+- ❌ Zar Hrvatska ima susjeda na sjeveru?
 
 **Kraj.** Vrlo blizu. Uz samu granicu, na rijeci Sutli, je Klanjec.  
 *Very close. Right on the border, on the river Sutla, is Klanjec.*
@@ -1825,7 +1825,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ova je galerija posvećena kiparu Antunu Augustinčiću, rodom iz Klanjca.**  
 *Good afternoon. This gallery is dedicated to the sculptor Antun Augustinčić, born in Klanjec.*
 
-- ✅ Malo mjesto, a veliki umjetnik.
+- ✅ Klanjec je malo mjesto, a dalo je velikog umjetnika.
 - ❌ Augustinčić je bio hrvatski nogometaš.
 - ❌ Kipari rade isključivo od papira.
 
@@ -1867,7 +1867,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Jest, još od austrijskih vremena. Zato je grad i narastao.**  
 *It is, since Austrian times. That is why the town grew.*
 
-- ✅ Pruga je napravila grad.
+- ✅ Pruga je napravila Zabok.
 - ❌ Austrijska vremena bila su prošli mjesec.
 - ❌ Gradovi rastu samo uz more.
 
@@ -1902,7 +1902,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Tako se dogodilo, vlastela se dijelila. Oko njih su parkovi sa starim stablima.**  
 *That's how it happened, the nobility split up. Around them are parks with old trees.*
 
-- ✅ I vrtovi su dio spomenika.
+- ✅ I oroslavski parkovi dio su spomenika.
 - ❌ Parkovi su mjesta bez ijedne biljke.
 - ❌ Stabla u Hrvatskoj žive najviše mjesec dana.
 
@@ -1937,7 +1937,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Jest. Seljaci su ustali protiv vlastelina Franje Tahyja.**  
 *It did. The peasants rose against the nobleman Franjo Tahy.*
 
-- ✅ Razlog je bio loše postupanje prema ljudima.
+- ✅ Tahy je loše postupao prema ljudima.
 - ❌ Seljaci su ustali protiv rimskog cara.
 - ❌ Vlastelini su bili obični seljaci.
 
@@ -1972,7 +1972,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Rijetka je, raste uglavnom ovdje. Zelina je poznata po vinu već stoljećima.**  
 *It's rare, it grows mostly here. Zelina has been known for wine for centuries.*
 
-- ✅ To je lokalna posebnost.
+- ✅ Kraljevina je zelinska posebnost.
 - ❌ Aha. Vino se u Hrvatskoj pravi tek od prošle godine.
 - ❌ Aha. Zelina je otok kraj Dubrovnika.
 
@@ -2000,7 +2000,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Vrbovec je poznat po mesnoj industriji — najvećoj u Hrvatskoj.**  
 *Good afternoon. Vrbovec is known for its meat industry — the largest in Croatia.*
 
-- ✅ Odavde meso ide u cijelu zemlju.
+- ✅ Iz Vrbovca meso ide u cijelu zemlju.
 - ❌ Meso se u Hrvatskoj uzgaja na drveću.
 - ❌ U Vrbovcu nema nijedne tvornice.
 
@@ -2035,7 +2035,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Svako jutro odavde vlakom u Zagreb, pa navečer natrag.**  
 *Good afternoon. Every morning by train to Zagreb from here, and back in the evening.*
 
-- ✅ Mnogi ovdje žive, a rade u gradu.
+- ✅ Mnogi ovdje žive, a rade u Zagrebu.
 - ❌ Vlakovi voze samo jednom godišnje.
 - ❌ Dugo Selo udaljeno je od Zagreba tisuću kilometara.
 
@@ -2091,7 +2091,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Prepoznatljiv je. A iznad svega toga je Medvednica, sa Sljemenom na vrhu.**  
 *It's recognisable. And above all of that is Medvednica, with Sljeme at the top.*
 
-- ✅ Glavni grad ima planinu nad sobom.
+- ✅ Zagreb ima planinu nad sobom.
 - ❌ A tako. Zagreb leži na obali Jadranskog mora.
 - ❌ A tako. Sljeme je ime hrvatske rijeke.
 
@@ -2119,7 +2119,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Velika prednost. Ali iznad ceste su još uvijek vinogradi na Plešivici.**  
 *A big one. But above the road there are still vineyards on Plešivica.*
 
-- ✅ I industrija i vino, jedno kraj drugoga.
+- ✅ Plešivica i pogoni, jedno kraj drugoga.
 - ❌ Plešivica je rijeka duga tisuću kilometara.
 - ❌ Vinogradi rastu isključivo u tvornicama.
 
@@ -2140,8 +2140,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo imanje zove se Novi dvori. Pripadalo je banu Josipu Jelačiću.**  
 *Good afternoon. This estate is called Novi dvori. It belonged to Ban Josip Jelačić.*
 
-- ✅ Onaj s konjem na zagrebačkom trgu?
-- ❌ Josip Jelačić bio je francuski slikar.
+- ✅ Nije li to onaj s konjem na zagrebačkom trgu?
+- ❌ Nije li Josip Jelačić bio francuski slikar?
 - ❌ Banovi nikad nisu imali imanja.
 
 **2. Baš taj. Ovdje je i pokopan, u obiteljskoj grobnici na imanju.**  
@@ -2154,7 +2154,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Jest. Zaprešić je danas grad, ali je nekad bio niz sela oko imanja.**  
 *It is. Zaprešić is a town today, but it used to be a string of villages around the estate.*
 
-- ✅ Grad je nastao spajanjem sela.
+- ✅ Zaprešić je nastao spajanjem sela.
 - ❌ Vidim. Zaprešić je oduvijek bio velegrad.
 - ❌ Vidim. Sela se ne mogu spojiti u grad.
 
@@ -2162,8 +2162,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *That's right. West of here begin the Sutla and the border with Slovenia.*
 
 - ✅ Opet smo blizu granice.
-- ❌ Sutla je najviši vrh u Hrvatskoj.
-- ❌ Hrvatska graniči samo s Italijom.
+- ❌ Nije li Sutla najviši vrh u Hrvatskoj?
+- ❌ Ne graniči li Hrvatska samo s Italijom?
 
 **Kraj.** Vrlo blizu. A jugozapadno, pod Samoborskim gorjem, je Samobor.  
 *Very close. And to the southwest, under the Samobor hills, is Samobor.*
@@ -2182,7 +2182,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Tako kažu. Samobor je poznat i po fašniku — najvećem karnevalu u ovom kraju.**  
 *So they say. Samobor is also known for its carnival — the biggest in this region.*
 
-- ✅ Onda je zimi ovdje veselo.
+- ✅ Onda je zimi u Samoboru veselo.
 - ❌ Fašnik se održava svakoga ljeta na plaži.
 - ❌ Karnevali su u Hrvatskoj zabranjeni.
 
@@ -2217,7 +2217,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Nije, iako nosi ime Zagreba. Ovo je Turopolje, ravnica južno od Save.**  
 *It isn't, though it bears Zagreb's name. This is Turopolje, the plain south of the Sava.*
 
-- ✅ Opet novi kraj s vlastitim imenom.
+- ✅ Turopolje — opet novi kraj s vlastitim imenom.
 - ❌ Turopolje se nalazi na otoku Braču.
 - ❌ Sava teče sjeverno od Zagreba i nigdje drugdje.
 
@@ -2245,7 +2245,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ova trokutasta utvrda stoji ondje gdje se Kupa ulijeva u Savu.**  
 *Good afternoon. This triangular fortress stands where the Kupa flows into the Sava.*
 
-- ✅ Sagrađena je na samom ušću.
+- ✅ Sagrađena je na ušću Kupe u Savu.
 - ❌ Aha. Kupa se ulijeva u Jadransko more.
 - ❌ Aha. Utvrde su uvijek okrugle.
 
@@ -2282,7 +2282,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Znam za taj potres. Ide li obnova?
 - ❌ Potresi se u Hrvatskoj nikad ne događaju.
-- ❌ Skele služe za sušenje odjeće.
+- ❌ Ne služe li skele za sušenje odjeće?
 
 **2. Ide, polako. Bio je krajem 2020. i pogodio je cijelu Banovinu.**  
 *It's going, slowly. It was at the end of 2020 and it struck the whole of Banovina.*
@@ -2301,7 +2301,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Bila je, stoljećima. Danas su oko grada šume i polja Banovine.**  
 *It was, for centuries. Today around the town are the forests and fields of Banovina.*
 
-- ✅ Kraj je miran i zelen.
+- ✅ Banovina je mirna i zelena.
 - ❌ Jasno. Banovina je gradska četvrt Zagreba.
 - ❌ Jasno. Oko Petrinje je pješčana pustinja.
 
@@ -2315,7 +2315,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Grad i rijeka nose isto ime — Glina.**  
 *Good afternoon. The town and the river bear the same name — Glina.*
 
-- ✅ Grad je dobio ime po vodi.
+- ✅ Glina je ime i grada i rijeke.
 - ❌ Glina je ime najvišeg vrha u Hrvatskoj.
 - ❌ Rijeke i gradovi ne smiju imati isto ime.
 
@@ -2364,7 +2364,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Razdvojila. Iznad grada je stara utvrda, na brežuljku uz rijeku.**  
 *It did. Above the town is an old fortress, on a hill by the river.*
 
-- ✅ Onda ću se popeti radi pogleda.
+- ✅ Onda ću se popeti radi pogleda na Unu.
 - ❌ Utvrde se grade u dubinama rijeka.
 - ❌ U Kostajnici nema nijedne stare zgrade.
 
@@ -2385,7 +2385,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj dvorac Erdödy okružen je opkopom, usred parka.**  
 *Good afternoon. This Erdödy castle is surrounded by a moat, in the middle of a park.*
 
-- ✅ Do njega se prelazi preko mosta.
+- ✅ Do Erdödyjeva dvorca prelazi se preko mosta.
 - ❌ Dvorci se u Hrvatskoj ne grade uz vodu.
 - ❌ Opkop je vrsta ptice.
 
@@ -2420,7 +2420,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj stari grad stoji na stijeni iznad Kupe.**  
 *Good afternoon. This old castle stands on a rock above the Kupa.*
 
-- ✅ Zato se i vidi izdaleka.
+- ✅ Zato se Ozalj i vidi izdaleka.
 - ❌ Stijene se u Hrvatskoj nalaze samo pod vodom.
 - ❌ Kupa je jezero bez otjecanja.
 
@@ -2462,7 +2462,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Rijetkost je. Zato ljeti pola grada bude na kupalištu uz vodu.**  
 *It is rare. That's why in summer half the town is at the riverside bathing spot.*
 
-- ✅ Jasno. Ne mora se na more.
+- ✅ Jasno. Karlovčani ne moraju na more.
 - ❌ Kupanje u rijekama zabranjeno je u Hrvatskoj.
 - ❌ Jasno. Ljeti je u Karlovcu minus dvadeset.
 
@@ -2490,7 +2490,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ova velika zgrada uz rijeku bila je tekstilna tvornica.**  
 *Good afternoon. That big building by the river was a textile factory.*
 
-- ✅ Cijeli je grad radio u njoj.
+- ✅ Cijela je Duga Resa radila u njoj.
 - ❌ Tekstil se izrađuje od kamena.
 - ❌ U Hrvatskoj nikad nije bilo tvornica.
 
@@ -2512,8 +2512,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Both beautiful and useful. In summer people swim right below the waterfalls.*
 
 - ✅ A tako. To zvuči kao dobro mjesto za vruć dan.
-- ❌ Ispod slapova voda se ledi.
-- ❌ A tako. U Hrvatskoj se ljudi kupaju samo zimi.
+- ❌ Ne ledi li se voda ispod slapova?
+- ❌ A tako. Ne kupaju li se ljudi u Hrvatskoj samo zimi?
 
 **Kraj.** Najbolje. Dalje na jug, prema Plitvicama, je Slunj s mlinovima na vodi.  
 *The best. Further south, towards Plitvice, is Slunj with its watermills.*
@@ -2525,7 +2525,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo selo pod slapovima zove se Rastoke.**  
 *Good afternoon. This village under the waterfalls is called Rastoke.*
 
-- ✅ Kuće su doslovno nad vodom.
+- ✅ Rastoke su doslovno nad vodom.
 - ❌ Rastoke su gradska četvrt Zagreba.
 - ❌ Kuće se ne mogu graditi uz vodu.
 
@@ -2567,7 +2567,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Baš tako. O njemu se pričaju priče o vješticama koje se skupljaju na vrhu.**  
 *Just so. There are stories about witches gathering at its top.*
 
-- ✅ Ovo je kraj legendi.
+- ✅ Klek je planina legendi.
 - ❌ Vještice su vrsta ptica selica.
 - ❌ U Hrvatskoj se ne pričaju priče.
 
@@ -2583,7 +2583,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 
 - ✅ Rijeka koja nestaje? To je krš.
 - ❌ Rijeke ne mogu teći pod zemljom.
-- ❌ Dobra se ulijeva u Dunav.
+- ❌ Ne ulijeva li se Dobra u Dunav?
 
 **Kraj.** Pravi krš. Zapadno počinje Gorski kotar — prvo mjesto je Vrbovsko.  
 *Real karst. To the west Gorski kotar begins — the first place is Vrbovsko.*
@@ -2609,7 +2609,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Pojavljuje se i nestaje, više puta. Ovdje je i zimi hladnije nego drugdje u Hrvatskoj.**  
 *It appears and vanishes, several times. It is colder here in winter than elsewhere in Croatia.*
 
-- ✅ Snijeg je ovdje uobičajen.
+- ✅ U Gorskom kotaru je snijeg uobičajen.
 - ❌ U Gorskom kotaru nikad ne pada snijeg.
 - ❌ Zima u Hrvatskoj traje jedan dan.
 
@@ -2630,7 +2630,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Delnice su na skoro sedamsto metara — najviši grad u Hrvatskoj.**  
 *Good afternoon. Delnice is at almost seven hundred metres — the highest town in Croatia.*
 
-- ✅ Zime su ovdje ozbiljne.
+- ✅ Zime su u Delnicama ozbiljne.
 - ❌ Najviši grad u Hrvatskoj je Dubrovnik.
 - ❌ Sedamsto metara je niže od morske razine.
 
@@ -2672,7 +2672,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Samo tamo. Rijeka Čabranka je granica — s jedne strane mi, s druge oni.**  
 *Only there. The river Čabranka is the border — we're on one side, they're on the other.*
 
-- ✅ A tako. Opet rijeka kao granica.
+- ✅ A tako. Čabranka je granica, kao i drugdje rijeka.
 - ❌ A tako. Čabranka je more između dva otoka.
 - ❌ Rijeke ne mogu biti granice.
 
@@ -2707,7 +2707,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Ide, vlakom i kamionima. Rijeka je i grad karnevala — najvećeg u Hrvatskoj.**  
 *It does, by train and by lorry. Rijeka is also a carnival city — the biggest in Croatia.*
 
-- ✅ Zimi je ovdje najveselije.
+- ✅ Zimi je u Rijeci najveselije.
 - ❌ Aha. Karneval se u Rijeci održava pod vodom.
 - ❌ Aha. U Hrvatskoj se karnevali ne slave.
 
@@ -2742,7 +2742,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Do otoka i natrag. Kastav je star gradić, sav u kamenu, unutar zidina.**  
 *To the islands and back. Kastav is an old little town, all in stone, inside its walls.*
 
-- ✅ Jezgra je sačuvana.
+- ✅ Kastavska je jezgra sačuvana.
 - ❌ Kastav je izgrađen prošle godine od stakla.
 - ❌ Gradske zidine grade se od tkanine.
 
@@ -2770,7 +2770,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ova šetnica uz more zove se Lungomare i duga je dvanaest kilometara.**  
 *Good afternoon. This seaside walkway is called the Lungomare and it is twelve kilometres long.*
 
-- ✅ Onda se po njoj može hodati satima.
+- ✅ Onda se Lungomareom može hodati satima.
 - ❌ Lungomare je ime hrvatskog otoka.
 - ❌ Uz more se ne može hodati.
 
@@ -2805,7 +2805,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo što moj pas traži pod zemljom zove se tartuf.**  
 *Good afternoon. What my dog is looking for underground is called a truffle.*
 
-- ✅ Gljiva koja raste ispod zemlje.
+- ✅ Tartuf je gljiva koja raste ispod zemlje.
 - ❌ Tartufi rastu na vrhovima stabala.
 - ❌ Psi u Hrvatskoj ne smiju u šumu.
 
@@ -2847,7 +2847,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Na najvišem u okolici. Oko nas su maslinici i vinogradi, dokle god pogled seže.**  
 *The highest around. Around us are olive groves and vineyards, as far as the eye can see.*
 
-- ✅ Ovo je poljoprivredni kraj.
+- ✅ Istra je poljoprivredni kraj.
 - ❌ A tako. Masline rastu u snijegu Gorskog kotara.
 - ❌ A tako. Vinogradi u Istri ne postoje.
 
@@ -2862,8 +2862,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Best with fish. In Buje, besides Croatian, Italian is spoken too.*
 
 - ✅ Ovdje su natpisi na dva jezika.
-- ❌ U Istri se govori isključivo mađarski.
-- ❌ Dvojezični natpisi u Hrvatskoj su zabranjeni.
+- ❌ Ne govori li se u Istri isključivo mađarski?
+- ❌ Nisu li dvojezični natpisi u Hrvatskoj zabranjeni?
 
 **Kraj.** Na dva jezika, posvuda. Zapadno, na samoj obali, je Umag.  
 *In two languages, everywhere. To the west, right on the coast, is Umag.*
@@ -2882,7 +2882,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Nema. Svakog ljeta ovdje se igra teniski turnir, na zemljanim terenima.**  
 *There isn't. Every summer a tennis tournament is played here, on clay courts.*
 
-- ✅ U srpnju je grad pun gledatelja.
+- ✅ U srpnju je Umag pun gledatelja.
 - ❌ Tenis se igra isključivo na ledu.
 - ❌ U Hrvatskoj se ne igraju sportovi.
 
@@ -2917,7 +2917,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Sve. Novigrad je malen gradić, sagrađen na poluotoku, unutar zidina.**  
 *Everything. Novigrad is a small town, built on a peninsula, inside walls.*
 
-- ✅ More ga okružuje s tri strane.
+- ✅ Novigrad more okružuje s tri strane.
 - ❌ Poluotok je otok bez vode.
 - ❌ Novigrad se nalazi u planinama Like.
 
@@ -2966,7 +2966,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Kao svjetska. A ulice oko nje još slijede rimski raspored — Dekuman i Kardo.**  
 *As a world value. And the streets around it still follow the Roman layout — Decumanus and Cardo.*
 
-- ✅ Tlocrt grada star je dvije tisuće godina.
+- ✅ Dekuman i Kardo stoje dvije tisuće godina.
 - ❌ Rimljani nisu znali graditi ulice.
 - ❌ Ulice u Poreču napravljene su lani.
 
@@ -2987,7 +2987,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Odasvud. Stari je Rovinj nekad bio otok, pa je more između zatrpano.**  
 *From everywhere. Old Rovinj was once an island, then the sea between was filled in.*
 
-- ✅ Danas je spojen s kopnom.
+- ✅ Rovinj je danas spojen s kopnom.
 - ❌ Otoci se ne mogu spojiti s kopnom.
 - ❌ Rovinj je i danas usred oceana.
 
@@ -3015,7 +3015,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj zvonik je najviši u Istri, gotovo šezdeset metara.**  
 *Good afternoon. This bell tower is the tallest in Istria, almost sixty metres.*
 
-- ✅ Za ovako mali grad — impresivno.
+- ✅ Za Vodnjan je to impresivno.
 - ❌ Šezdeset metara je niže od dva metra.
 - ❌ Zvonici u Istri ne postoje.
 
@@ -3050,7 +3050,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je pulska Arena, rimski amfiteatar iz prvog stoljeća.**  
 *Good afternoon. This is the Pula Arena, a Roman amphitheatre from the first century.*
 
-- ✅ Star je gotovo dvije tisuće godina.
+- ✅ Arena je stara gotovo dvije tisuće godina.
 - ❌ Arena je sagrađena prije trideset godina.
 - ❌ Amfiteatri se grade od drveta i papira.
 
@@ -3085,7 +3085,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj je stari grad na brdu, a dolje uz more je Rabac.**  
 *Good afternoon. This old town is on a hill, and down by the sea is Rabac.*
 
-- ✅ Jedno mjesto ima gornji i donji dio.
+- ✅ Labin gore, Rabac dolje — jedno mjesto, dva dijela.
 - ❌ Labin i Rabac udaljeni su tisuću kilometara.
 - ❌ Gradovi na brdu nemaju more u blizini.
 
@@ -3120,7 +3120,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ispod ovog kaštela zjapi Pazinska jama, duboka preko sto metara.**  
 *Good afternoon. Below this castle gapes the Pazin Chasm, over a hundred metres deep.*
 
-- ✅ Grad stoji na rubu ponora.
+- ✅ Pazin stoji na rubu ponora.
 - ❌ Pazinska jama duboka je jedan metar.
 - ❌ Ponori postoje samo u moru.
 
@@ -3169,7 +3169,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Puno više. Usred otoka je Vransko jezero — slatka voda ispod razine mora.**  
 *Much more. In the middle of the island is Lake Vrana — fresh water below sea level.*
 
-- ✅ Otok ima vlastitu pitku vodu.
+- ✅ Vransko jezero napaja otok.
 - ❌ Sva su jezera na otocima slana.
 - ❌ Jezera se nalaze samo u planinama.
 
@@ -3190,7 +3190,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Na Lošinju raste više od tisuću biljnih vrsta.**  
 *Good afternoon. More than a thousand plant species grow on Lošinj.*
 
-- ✅ Zato ga zovu otokom mirisa.
+- ✅ Zato Lošinj zovu otokom mirisa.
 - ❌ Na hrvatskim otocima ne raste ništa.
 - ❌ Biljke ne mogu rasti uz more.
 
@@ -3205,15 +3205,15 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Since Austrian times. The museum also keeps the Apoxyomenos, a Greek bronze statue.*
 
 - ✅ Kip iz mora? To je poseban nalaz.
-- ❌ Apoksiomen je vrsta lošinjske ribe.
+- ❌ Nije li Apoksiomen vrsta lošinjske ribe?
 - ❌ Kipovi se ne mogu naći u moru.
 
 **4. Izvađen je s morskog dna. Mali Lošinj je najveći otočni grad na Jadranu.**  
 *It was raised from the seabed. Mali Lošinj is the largest island town on the Adriatic.*
 
 - ✅ Veći od svih drugih otočnih mjesta.
-- ❌ Mali Lošinj ima tri stanovnika.
-- ❌ Na hrvatskim otocima nema gradova.
+- ❌ Nema li Mali Lošinj tri stanovnika?
+- ❌ Zar na hrvatskim otocima ima gradova?
 
 **Kraj.** Od svih. Sjeveroistočno, preko mora, leži Krk — otok s mostom prema kopnu.  
 *Of all of them. To the northeast, across the sea, lies Krk — the island with a bridge to the mainland.*
@@ -3225,16 +3225,16 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Na Krk se dolazi mostom — ne treba trajekt.**  
 *Good afternoon. You reach Krk by bridge — no ferry needed.*
 
-- ✅ A tako. Otok je stalno dostupan.
+- ✅ A tako. Krk je stalno dostupan.
 - ❌ Do Krka se dolazi isključivo avionom.
 - ❌ A tako. Mostovi ne mogu spajati otoke s kopnom.
 
 **2. Stalno. U Baški, na jugu otoka, nađena je Bašćanska ploča.**  
 *Always. In Baška, in the south of the island, the Baška tablet was found.*
 
-- ✅ To je onaj stari kamen s glagoljicom?
+- ✅ Nije li to onaj stari kamen s glagoljicom?
 - ❌ Bašćanska ploča je vrsta krčkog sira.
-- ❌ Baška se nalazi u Slavoniji.
+- ❌ Ne nalazi li se Baška u Slavoniji?
 
 **3. Baš taj, iz oko 1100. godine. Jedan od najstarijih spomenika hrvatskog jezika.**  
 *That very one, from around the year 1100. One of the oldest monuments of the Croatian language.*
@@ -3260,7 +3260,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj duboki zaljev pod nama zove se Bakarski zaljev.**  
 *Good afternoon. This deep bay below us is called Bakar Bay.*
 
-- ✅ Zato su ovdje mogli pristajati veliki brodovi.
+- ✅ Zato su u Bakru mogli pristajati veliki brodovi.
 - ❌ Zaljev je vrsta planine.
 - ❌ Bakar se nalazi stotinu kilometara od mora.
 
@@ -3295,7 +3295,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je brodogradilište — jedno od starijih na Jadranu.**  
 *Good afternoon. This is the shipyard — one of the older ones on the Adriatic.*
 
-- ✅ Vidim. Brodovi se ovdje grade odavno.
+- ✅ Vidim. U Kraljevici se brodovi grade odavno.
 - ❌ Brodovi se grade u planinama.
 - ❌ Vidim. U Hrvatskoj se ne grade brodovi.
 
@@ -3344,7 +3344,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Vrlo rano. Iza grada se diže Vinodolska dolina, pa onda Velebit.**  
 *Very early. Behind the town rises the Vinodol valley, and then Velebit.*
 
-- ✅ Aha. More i planina jedno kraj drugoga.
+- ✅ Aha. Vinodol i Velebit, jedno kraj drugoga.
 - ❌ Velebit je otok u Jadranu.
 - ❌ Aha. Iza Crikvenice je pješčana pustinja.
 
@@ -3379,7 +3379,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Isto pismo. Grad je bio sjedište Frankopana, kao i Kraljevica.**  
 *The same script. The town was a Frankopan seat, like Kraljevica.*
 
-- ✅ Ista obitelj držala je cijeli ovaj kraj.
+- ✅ Frankopani su držali cijeli ovaj kraj.
 - ❌ Frankopani su bili obitelj iz Japana.
 - ❌ Gradovi nikad nemaju vlastelu.
 
@@ -3407,7 +3407,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Najjača je. Hladan vjetar pada s Velebita ravno na more.**  
 *It is the strongest. A cold wind drops from Velebit straight onto the sea.*
 
-- ✅ Jasno. Planina je odmah iznad grada.
+- ✅ Jasno. Velebit je odmah iznad Senja.
 - ❌ Velebit se nalazi u Slavoniji.
 - ❌ Jasno. Vjetar puše odozdo prema gore.
 
@@ -3435,7 +3435,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Kad se Rab gleda s mora, vide se četiri zvonika u nizu.**  
 *Good afternoon. When you look at Rab from the sea, you see four bell towers in a row.*
 
-- ✅ Zato je taj obris tako prepoznatljiv.
+- ✅ Zato je obris Raba tako prepoznatljiv.
 - ❌ Rab nema nijedan zvonik.
 - ❌ Zvonici se u Hrvatskoj grade pod zemljom.
 
@@ -3477,7 +3477,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Svaki. Zato u njoj živi pastrva, a ribiči dolaze izdaleka.**  
 *Every one. That is why trout live in it, and anglers come from far away.*
 
-- ✅ Ovo je poznato ribolovno mjesto.
+- ✅ Gacka je poznata ribolovna rijeka.
 - ❌ Pastrva je vrsta ptice.
 - ❌ U bistroj vodi ne može živjeti riba.
 
@@ -3505,9 +3505,9 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. U Smiljanu, nekoliko kilometara odavde, rodio se Nikola Tesla.**  
 *Good afternoon. In Smiljan, a few kilometres from here, Nikola Tesla was born.*
 
-- ✅ Znanstvenik koji je radio s izmjeničnom strujom?
+- ✅ Nije li to znanstvenik koji je radio s izmjeničnom strujom?
 - ❌ Nikola Tesla bio je hrvatski kralj.
-- ❌ Tesla je vrsta ličkog sira.
+- ❌ Nije li Tesla vrsta ličkog sira?
 
 **2. Baš on. Njegova je rodna kuća danas memorijalni centar.**  
 *That's him. His birthplace is today a memorial centre.*
@@ -3526,7 +3526,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Duge i oštre. Zato su poznati lički krumpir i sir škripavac.**  
 *Long and harsh. That is why Lika potatoes and škripavac cheese are famous.*
 
-- ✅ Hrana je prilagođena kraju.
+- ✅ Lička je hrana prilagođena kraju.
 - ❌ Krumpir raste na drveću.
 - ❌ Sir se pravi od kamena.
 
@@ -3547,7 +3547,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Podijeljen je. Kraj grada je plaža Zrće, poznata po ljetnim zabavama.**  
 *It is divided. Near the town is Zrće beach, known for its summer parties.*
 
-- ✅ Ljeti je ovdje najbučnije.
+- ✅ Ljeti je na Zrću najbučnije.
 - ❌ Zrće je ime ličke planine.
 - ❌ Na plažama je zabranjena glazba.
 
@@ -3576,13 +3576,13 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Good afternoon. These are the saltworks — the sea is let into shallow fields and the sun dries it.*
 
 - ✅ Jasno. Sol ostaje kad voda ispari.
-- ❌ Jasno. Sol se kopa iz planina Like.
-- ❌ Sunce ne može isušiti vodu.
+- ❌ Jasno. Ne kopa li se sol iz planina Like?
+- ❌ Zar sunce može isušiti vodu?
 
 **2. Točno tako. Paška sol vadi se ovdje već stoljećima.**  
 *Exactly so. Pag salt has been harvested here for centuries.*
 
-- ✅ Ovo je stari zanat.
+- ✅ Paška sol je stari zanat.
 - ❌ Solane su izgrađene prošle godine.
 - ❌ Sol je vrsta ribe.
 
@@ -3617,7 +3617,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Sitna, ali stara — iz devetog stoljeća. Nin je bio prvi hrvatski kraljevski grad.**  
 *Small, but old — from the ninth century. Nin was the first Croatian royal town.*
 
-- ✅ Ovdje počinje hrvatska državnost.
+- ✅ U Ninu počinje hrvatska državnost.
 - ❌ Nin je osnovan prije trideset godina.
 - ❌ Hrvatska nikad nije imala kraljeve.
 
@@ -3659,8 +3659,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Danju skuplja, navečer svijetli. A u starom gradu je crkva svetog Donata, iz devetog stoljeća.**  
 *It collects by day, glows at night. And in the old town is St Donatus' church, from the ninth century.*
 
-- ✅ Ta okrugla crkva na rimskom forumu?
-- ❌ Sveti Donat je ime zadarskog otoka.
+- ✅ Nije li Sveti Donat ona okrugla crkva na forumu?
+- ❌ Nije li Sveti Donat ime zadarskog otoka?
 - ❌ Deveto stoljeće dolazi poslije dvadesetog.
 
 **4. Baš ona. Zadar ima i najstarije sveučilište u Hrvatskoj, iz 1396. godine.**  
@@ -3680,7 +3680,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovdje je 1102. godine okrunjen kralj Koloman.**  
 *Good afternoon. King Coloman was crowned here in 1102.*
 
-- ✅ I ovo je bio kraljevski grad.
+- ✅ I Biograd je bio kraljevski grad.
 - ❌ Godine 1102. Hrvatska je bila u Aziji.
 - ❌ Kraljevi se krune isključivo u Parizu.
 
@@ -3729,7 +3729,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Doslovno. Benkovac je u Ravnim kotarima, u zaleđu Zadra.**  
 *Literally. Benkovac is in the Ravni kotari, inland from Zadar.*
 
-- ✅ More je blizu, ali se ne vidi.
+- ✅ Zadar i more su blizu, ali se ne vide.
 - ❌ Benkovac leži na plaži.
 - ❌ Zaleđe je dio otvorenog mora.
 
@@ -3757,7 +3757,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Bio je, i to važna. Uzvodno se rijeka probija kroz duboki kanjon.**  
 *It was, and an important one. Upstream the river cuts through a deep canyon.*
 
-- ✅ Onda ću se povesti brodom uzvodno.
+- ✅ Onda ću se povesti Zrmanjom uzvodno.
 - ❌ Kanjoni postoje samo u Americi.
 - ❌ Rijeke ne mogu prolaziti kroz stijene.
 
@@ -3806,8 +3806,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Na sve strane. Nedaleko odavde izvire i rijeka Krka.**  
 *In every direction. Not far from here the river Krka rises too.*
 
-- ✅ Ona s velikim slapovima?
-- ❌ Krka izvire u Mađarskoj.
+- ✅ Nije li Krka ona s velikim slapovima?
+- ❌ Ne izvire li Krka u Mađarskoj?
 - ❌ Rijeke nemaju izvore.
 
 **Kraj.** Ta ista. Jugozapadno, u Petrovu polju, je Drniš.  
@@ -3820,7 +3820,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je drniški pršut — suši se na buri, bez dima.**  
 *Good afternoon. This is Drniš prosciutto — dried in the bura wind, without smoke.*
 
-- ✅ Vjetar radi umjesto dimnjaka.
+- ✅ Bura radi umjesto dimnjaka.
 - ❌ Pršut se kuha u vodi tri sata.
 - ❌ Bura je vruć vjetar iz pustinje.
 
@@ -3862,7 +3862,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. S vode, tako je. Krka je nacionalni park — sedam velikih slapova u nizu.**  
 *From the water, that's right. The Krka is a national park — seven big waterfalls in a row.*
 
-- ✅ Rijeka pada stepenasto prema moru.
+- ✅ Krka pada stepenasto prema moru.
 - ❌ Nacionalni parkovi u Hrvatskoj ne postoje.
 - ❌ Rijeka Krka teče uzbrdo.
 
@@ -3897,7 +3897,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Nadohvat. Vodice su danas prije svega turističko mjesto.**  
 *Right at hand. Vodice today is above all a tourist town.*
 
-- ✅ Ljeti je puno, zimi mirno.
+- ✅ U Vodicama je ljeti puno, zimi mirno.
 - ❌ Vodice su rudarsko naselje.
 - ❌ Turisti dolaze isključivo zimi.
 
@@ -3925,7 +3925,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ova je katedrala sagrađena isključivo od kamena — bez drva i bez žbuke.**  
 *Good afternoon. This cathedral is built entirely of stone — no wood and no mortar.*
 
-- ✅ Ploče drže same sebe.
+- ✅ U Šibeniku ploče drže same sebe.
 - ❌ Katedrala je sagrađena od cigle i betona.
 - ❌ Kamen se ne može klesati.
 
@@ -3933,8 +3933,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *Themselves, like a puzzle. It was built by Juraj Dalmatinac, in the fifteenth century.*
 
 - ✅ Vidim. Hrvatski graditelj svjetskog glasa.
-- ❌ Vidim. Juraj Dalmatinac bio je engleski moreplovac.
-- ❌ Petnaesto stoljeće dolazi poslije dvadeset prvog.
+- ❌ Vidim. Nije li Juraj Dalmatinac bio engleski moreplovac?
+- ❌ Ne dolazi li petnaesto stoljeće poslije dvadeset prvog?
 
 **3. Svjetskog. Zato je i katedrala na UNESCO-ovu popisu.**  
 *World class. That is why the cathedral is on UNESCO's list too.*
@@ -3960,7 +3960,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Nedaleko odavde izvire Cetina — najveća dalmatinska rijeka.**  
 *Good afternoon. Not far from here the Cetina rises — the largest Dalmatian river.*
 
-- ✅ Počinje kao izvor, a završava u moru.
+- ✅ Cetina počinje kao izvor, a završava u moru.
 - ❌ Cetina se ulijeva u Dunav.
 - ❌ Rijeke počinju u moru, a završavaju u planini.
 
@@ -3995,7 +3995,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Svakog kolovoza ovdje se trči Sinjska alka, na konjima.**  
 *Good afternoon. Every August the Sinjska alka is run here, on horseback.*
 
-- ✅ Viteško natjecanje koje traje stoljećima.
+- ✅ Alka je viteško natjecanje koje traje stoljećima.
 - ❌ Alka se trči pješice, po moru.
 - ❌ Kolovoz je zimski mjesec u Hrvatskoj.
 
@@ -4044,7 +4044,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Čuvali su ga legijom. Danas je Cetina ovdje mirna i puna ribe.**  
 *They guarded it with a legion. Today the Cetina here is calm and full of fish.*
 
-- ✅ Onda je dobra i za veslanje.
+- ✅ Onda je Cetina dobra i za veslanje.
 - ❌ Cetina je slana kao more.
 - ❌ U dalmatinskim rijekama nema ribe.
 
@@ -4079,7 +4079,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Isti popis. Na katedrali je Radovanov portal, isklesan 1240. godine.**  
 *The same list. On the cathedral is Radovan's Portal, carved in 1240.*
 
-- ✅ Remek-djelo staro gotovo osamsto godina.
+- ✅ Radovanov portal star je gotovo osamsto godina.
 - ❌ Vidim. Portal je isklesan prije pet godina.
 - ❌ Vidim. Godine 1240. ljudi su vozili automobile.
 
@@ -4107,7 +4107,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Svako svoje. Kašteli su građeni kao skloništa od Osmanlija, uz more.**  
 *Each its own. The castles were built as refuges from the Ottomans, by the sea.*
 
-- ✅ Ljudi su se sklanjali unutar zidina.
+- ✅ Od Osmanlija se sklanjalo unutar zidina.
 - ❌ Kašteli su građeni radi ljepote pogleda.
 - ❌ Osmanlije su bile mletačka obitelj.
 
@@ -4135,7 +4135,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo su ostaci Salone, glavnoga grada rimske pokrajine Dalmacije.**  
 *Good afternoon. These are the remains of Salona, capital of the Roman province of Dalmatia.*
 
-- ✅ Ovdje je bilo veliko rimsko središte.
+- ✅ Salona je bila veliko rimsko središte.
 - ❌ Aha. Salona je bila glavni grad Egipta.
 - ❌ Aha. Rimljani nisu imali pokrajine.
 
@@ -4149,8 +4149,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Baš tako. Iz ovoga je kraja bio i car Dioklecijan.**  
 *Just so. Emperor Diocletian came from this region too.*
 
-- ✅ Onaj koji je sagradio palaču u Splitu?
-- ❌ Dioklecijan je bio hrvatski ban.
+- ✅ Nije li to onaj koji je sagradio palaču u Splitu?
+- ❌ Nije li Dioklecijan bio hrvatski ban?
 - ❌ Carevi se nikad nisu rađali u Dalmaciji.
 
 **4. Taj isti. A rijeka Jadro, koja teče kroz Solin, i danas napaja Split vodom.**  
@@ -4170,7 +4170,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj stari dio grada zapravo je Dioklecijanova palača.**  
 *Good afternoon. This old part of the city is actually Diocletian's Palace.*
 
-- ✅ Ljudi i danas žive unutar rimskih zidina.
+- ✅ U Dioklecijanovoj palači i danas se živi.
 - ❌ Palača je prazna već dvije tisuće godina.
 - ❌ Dioklecijan je bio grčki filozof.
 
@@ -4191,8 +4191,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Predstave i koncerti. Split je najveći grad Dalmacije, a iznad njega je Marjan.**  
 *Performances and concerts. Split is the largest city in Dalmatia, and above it is Marjan.*
 
-- ✅ To brdo prekriveno borovima?
-- ❌ Marjan je otok kraj Dubrovnika.
+- ✅ Nije li to ono brdo prekriveno borovima?
+- ❌ Nije li Marjan otok kraj Dubrovnika?
 - ❌ Split je najmanje mjesto u Hrvatskoj.
 
 **Kraj.** Šuma usred grada. Jugoistočno, gdje Cetina ulazi u more, je Omiš.  
@@ -4205,7 +4205,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovdje se Cetina probija kroz kanjon i ulijeva ravno u more.**  
 *Good afternoon. Here the Cetina cuts through a canyon and flows straight into the sea.*
 
-- ✅ Grad je stisnut između stijena i vode.
+- ✅ Omiš je stisnut između stijena i Cetine.
 - ❌ Jasno. Cetina se ulijeva u Savu kod Zagreba.
 - ❌ Jasno. Kanjoni se nalaze isključivo u ravnici.
 
@@ -4226,8 +4226,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **4. Vidi se pola Jadrana. Omiš je poznat i po festivalu klapa.**  
 *You can see half the Adriatic. Omiš is also known for its klapa festival.*
 
-- ✅ Klapa — pjevanje bez instrumenata?
-- ❌ Klapa je vrsta dalmatinskog broda.
+- ✅ Nije li klapa pjevanje bez instrumenata?
+- ❌ Nije li klapa vrsta dalmatinskog broda?
 - ❌ Pjevanje u skupini nije moguće.
 
 **Kraj.** Bez ijednog instrumenta. Ako krenete u zaleđe, prema jezerima, čeka vas Imotski.  
@@ -4247,7 +4247,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Među najdubljima. Ime nosi po crvenkastim stijenama uokolo, ne po vodi.**  
 *Among the deepest. It's named after the reddish cliffs around it, not the water.*
 
-- ✅ Voda je zapravo zelenkasta.
+- ✅ Crveno jezero je, zapravo, zelenkasto.
 - ❌ Voda u jezeru je crvena kao krv.
 - ❌ Stijene nemaju boju.
 
@@ -4275,7 +4275,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo su naše jagode — prve u Hrvatskoj svake godine.**  
 *Good afternoon. These are our strawberries — the first in Croatia every year.*
 
-- ✅ Ovdje proljeće dolazi ranije.
+- ✅ U Vrgorcu proljeće dolazi ranije.
 - ❌ Jagode rastu na drveću.
 - ❌ U Dalmaciji ništa ne raste prije prosinca.
 
@@ -4297,8 +4297,8 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 *One of the greatest. Above us is Biokovo, and behind it the sea.*
 
 - ✅ Jasno. Planina razdvaja polje od obale.
-- ❌ Jasno. Biokovo je rijeka u Slavoniji.
-- ❌ Iza Biokova je pustinja.
+- ❌ Jasno. Nije li Biokovo rijeka u Slavoniji?
+- ❌ Nije li iza Biokova pustinja?
 
 **Kraj.** Razdvaja ih. Preko planine, dolje na obali, je Makarska.  
 *It divides them. Over the mountain, down on the coast, is Makarska.*
@@ -4324,7 +4324,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Nije. Makarska je središte Makarske rivijere — niza mjesta pod planinom.**  
 *It isn't. Makarska is the centre of the Makarska Riviera — a string of places under the mountain.*
 
-- ✅ Sva su mjesta stisnuta uz obalu.
+- ✅ Makarska rivijera je stisnuta uz obalu.
 - ❌ Makarska rivijera nalazi se u Istri.
 - ❌ Rivijera je vrsta broda.
 
@@ -4345,7 +4345,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Supetar je glavna luka otoka Brača — odavde trajekti idu u Split.**  
 *Good afternoon. Supetar is the main port of the island of Brač — ferries go to Split from here.*
 
-- ✅ Ovo je otočna kapija prema kopnu.
+- ✅ Supetar je kapija Brača prema kopnu.
 - ❌ Do Brača se dolazi mostom iz Zagreba.
 - ❌ Trajekti voze po tračnicama.
 
@@ -4380,7 +4380,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je lavanda — na Hvaru je uzgajaju već stoljeće i pol.**  
 *Good afternoon. This is lavender — they have grown it on Hvar for a century and a half.*
 
-- ✅ Zato cijeli otok ljeti tako miriše.
+- ✅ Zato Hvar ljeti tako miriše.
 - ❌ Lavanda raste na dnu mora.
 - ❌ Na Hvaru ne raste nijedna biljka.
 
@@ -4422,7 +4422,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Najstariji. A ovo polje iza mene Grci su podijelili na pravilne parcele.**  
 *The oldest. And this plain behind me was divided by the Greeks into regular plots.*
 
-- ✅ Te se granice vide i danas.
+- ✅ Grčke se međe vide i danas.
 - ❌ Polja se dijele svake godine iznova.
 - ❌ Grci nisu poznavali poljoprivredu.
 
@@ -4450,7 +4450,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Vis je najudaljeniji naseljeni hrvatski otok od kopna.**  
 *Good afternoon. Vis is the Croatian inhabited island farthest from the mainland.*
 
-- ✅ Trajekt vozi najdulje.
+- ✅ Do Visa trajekt vozi najdulje.
 - ❌ Jasno. Vis je spojen mostom sa Splitom.
 - ❌ Jasno. Vis se nalazi u Slavoniji.
 
@@ -4485,22 +4485,22 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Gradim falkušu — staru komišku ribarsku barku na jedra.**  
 *Good afternoon. I'm building a falkuša — an old Komiža fishing boat with sails.*
 
-- ✅ Vidim. Ovdje se čuva stari brodograditeljski zanat.
+- ✅ Vidim. U Komiži se čuva stari brodograditeljski zanat.
 - ❌ Falkuša je vrsta ribe.
 - ❌ Vidim. Barke se grade od stakla.
 
 **2. Čuva se, jedva. Komiški su ribari njome plovili čak do Palagruže.**  
 *It's kept alive, barely. Komiža fishermen sailed it as far as Palagruža.*
 
-- ✅ To je onaj najudaljeniji hrvatski otok?
-- ❌ Palagruža je grad u Slavoniji.
+- ✅ Nije li to onaj najudaljeniji hrvatski otok?
+- ❌ Nije li Palagruža grad u Slavoniji?
 - ❌ Ribarske barke ne mogu ploviti daleko.
 
 **3. Najudaljeniji od svih. A nedaleko odavde, na Biševu, je Modra špilja.**  
 *The farthest of all. And not far from here, on Biševo, is the Blue Cave.*
 
-- ✅ Ona u kojoj more svijetli plavo?
-- ❌ Modra špilja nalazi se u Gorskom kotaru.
+- ✅ Nije li to ona u kojoj more svijetli plavo?
+- ❌ Ne nalazi li se Modra špilja u Gorskom kotaru?
 - ❌ Špilje ne mogu biti u moru.
 
 **4. Kad sunce uđe kroz podvodni otvor. Najbolje je oko podneva.**  
@@ -4520,7 +4520,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovo je teretna luka — druga po veličini u Hrvatskoj, odmah iza Rijeke.**  
 *Good afternoon. This is a cargo port — the second largest in Croatia, right after Rijeka.*
 
-- ✅ Ovuda prolazi roba za pola susjedstva.
+- ✅ Kroz Ploče prolazi roba za pola susjedstva.
 - ❌ Ploče su najveća luka na svijetu.
 - ❌ Luke se grade daleko od mora.
 
@@ -4569,7 +4569,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Rujan i listopad. Opuzen je malen grad, jedan od najmanjih u Hrvatskoj.**  
 *September and October. Opuzen is a small town, one of the smallest in Croatia.*
 
-- ✅ Ovdje se svi međusobno poznaju.
+- ✅ U Opuzenu se svi međusobno poznaju.
 - ❌ Opuzen ima dva milijuna stanovnika.
 - ❌ Mali gradovi ne mogu imati status grada.
 
@@ -4590,7 +4590,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. U našem se muzeju čuva velika zbirka ptica iz doline Neretve.**  
 *Good afternoon. Our museum keeps a large collection of birds from the Neretva valley.*
 
-- ✅ Ovdje ih ima jako mnogo vrsta.
+- ✅ U dolini Neretve ih ima jako mnogo vrsta.
 - ❌ U dolini Neretve ne živi nijedna ptica.
 - ❌ Ptice se čuvaju u vinskim podrumima.
 
@@ -4625,7 +4625,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **1. Dobar dan. Ovaj ples s mačevima zove se Moreška — pleše se u Korčuli stoljećima.**  
 *Good afternoon. This sword dance is called Moreška — it has been danced in Korčula for centuries.*
 
-- ✅ Ples je i predstava i borba.
+- ✅ Moreška je i predstava i borba.
 - ❌ Moreška je vrsta korčulanskog vina.
 - ❌ Plesovi se izvode isključivo u kazalištima.
 
@@ -4639,9 +4639,9 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **3. Tako su građene zbog vjetra. Korčulani vjeruju da je ovdje rođen Marko Polo.**  
 *They were built that way because of the wind. The people of Korčula believe Marco Polo was born here.*
 
-- ✅ Onaj putnik koji je stigao do Kine?
+- ✅ Nije li to onaj putnik koji je stigao do Kine?
 - ❌ Marko Polo bio je hrvatski kralj.
-- ❌ Marko Polo nikad nije putovao.
+- ❌ Zar Marko Polo nikad nije putovao?
 
 **4. Taj isti. A u Lumbardi, na istoku otoka, raste grk — bijelo vino.**  
 *That very one. And in Lumbarda, in the east of the island, grk grows — a white wine.*
@@ -4667,7 +4667,7 @@ Generira se iz igre — ne uređuj ručno. Popis likova je u `GRADOVI-LIKOVI.md`
 **2. Barem toliko. Dubrovnik je stoljećima bio samostalna Dubrovačka Republika.**  
 *At least that. For centuries Dubrovnik was the independent Republic of Ragusa.*
 
-- ✅ Imao je vlastitu vlast i brodovlje.
+- ✅ Dubrovačka Republika imala je vlastitu vlast i brodovlje.
 - ❌ Dubrovnik je oduvijek bio dio Mletačke Republike.
 - ❌ Republike ne mogu postojati bez kralja.
 

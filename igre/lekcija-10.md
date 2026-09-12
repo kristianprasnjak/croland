@@ -45,7 +45,12 @@ opis: Match each verb with its past form (he-form).
 ## Who's talking?
 format: tekst
 - The participle shows the speaker's gender:
-- *Plivao sam.* — said by a man. *Plivala sam.* — said by a woman. *Plivali smo.* — said by any group.
+- **One verb, three endings.**
+- tab: Who is speaking | What they say
+- tab: a man | Plivao sam.
+- tab: a woman | Plivala sam.
+- tab: any group | Plivali smo.
+- **Now you write them.** Ja sam [plivao] — kaže muškarac. Ja sam [plivala] — kaže žena. Mi smo [plivali] — kaže grupa.
 
 ## He, she or they?
 format: razvrstavanje
@@ -73,7 +78,8 @@ opis: Choose the correct past form.
 format: tekst
 - Like the future helper, the past helper *never* goes first:
 - *Spavao **sam** dugo.* / *Ja **sam** spavao dugo.* / *Jučer **sam** spavao dugo.*
-- All three are fine — *sam* just always leans on the first word.
+- **All three are fine** — *sam* just always leans on the first word. What it can never do is open the sentence: *Sam spavao dugo* is not Croatian.
+- **Now you write them.** Jučer [sam] spavao dugo. Ti [si] gledao film. Ona [je] čitala knjigu.
 
 ## Today → yesterday
 format: upis

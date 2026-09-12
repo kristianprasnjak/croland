@@ -11,6 +11,7 @@ info: The core rule page for joining sentences. **i** adds more of the same and 
 - tab: **i** | adds | Mama radi i čita.
 - tab: **a** | contrasts two subjects | Tata kuha, a brat uči.
 - tab: **ali** | twists | Stan je mali, ali je dom topao.
+- **Now you write them.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao.
 
 ## i, a or ali?
 format: izbor
@@ -34,6 +35,7 @@ info: This page hands you the punctuation half of the rule, and it has no except
 - tab: **a** | always | Baka čita, a djed gleda film.
 - tab: **ali** | always | Pas je star, ali je veseo.
 - A quick way to feel it: **i** glues two things into one smooth phrase, so nothing interrupts it. **a** and **ali** turn the sentence in a new direction — and Croatian marks that turn with a comma.
+- **Now you write them.** No comma at all: Mama radi [i] čita. A comma before it: Tata kuha, [a] brat uči.
 
 ## Comma or not?
 format: izbor
@@ -71,6 +73,7 @@ info: This page adds **jer** (because). Unlike *i*, *a* and *ali* it does not ba
 - **zato što** means the same thing, just a shade heavier and more formal: *Učim hrvatski **zato što** volim jezik.* Anywhere you can say *jer*, you can say *zato što* — but in speech people reach for *jer* almost every time.
 - **It answers *zašto?* on its own.** *Zašto učiš hrvatski? — **Jer** volim jezik.* A *jer*-half is a complete answer; you don't need to repeat the main sentence.
 - **Comma before *jer*?** Usually none when *jer* comes second, which is where it almost always sits: *Ne plivam jer je more hladno.* A comma is allowed when you want to lean on the reason, but as a beginner you can safely leave it out every time.
+- **Now you write them.** Ne plivam [jer] je more hladno. Zašto baka kuha? [Jer] je subota.
 
 ## Four connectors, four jobs
 format: tekst
@@ -82,6 +85,7 @@ info: The summary table for all four. **i** adds and takes no comma, **a** contr
 - tab: **ali** | twists | yes | Stan je mali, ali je dom topao.
 - tab: **jer** | explains why | usually no | Ne plivam jer je more hladno.
 - Grammar 20 adds the rest of the family — *kad*, *ako*, *dok*, *iako*. You're starting early, and by then these four will already feel automatic.
+- **Now you write all four.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao. Ne plivam [jer] je more hladno.
 
 ## Which connector?
 format: izbor

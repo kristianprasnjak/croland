@@ -9,6 +9,7 @@ format: tekst
 - **Job two — prepositions:** bez (without) · iz (from) · od (from/of) · do (to/until) · kod (at sb's place) · pokraj (next to). *Kava bez mlijeka · vlak iz Splita · od jutra do večeri · ručak kod bake.* **od** also makes "flavors": *čaj od mente, torta od čokolade, sok od jabuke*.
 - **Job three — nema + genitive:** existence-negation always takes the genitive: *Ima li kave? — Nema **kave**. Nema **problema**!*
 - **Case toolkit — complete!** Six of seven — only the vocative (calling someone: *Marko! Ana!*) remains, and you've been using it in dialogues all along.
+- **Now you write them.** Ovo je kuća [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Nema [problema]!
 
 ## Type the genitive
 format: upis
@@ -46,6 +47,7 @@ format: tekst
 - **Genitive plural endings:** f. → **-a** (kava → kav**a**) · m. → **-a** or **-ova** (prijatelj → prijatelj**a**, sok → sok**ova**) · n. → **-a** (pismo → pisam**a**).
 - **Where you'll use this tomorrow: ordering.** *Dvije kave, molim. Pet piva. Tri sladoleda.* Learn these as ready-made phrases and you will never go thirsty in Croatia.
 - ***koliko* takes the genitive plural too:** *Koliko kav**a** piješ na dan?*
+- **Now you write them.** [Koliko] kava piješ na dan? Nema [vremena].
 
 ## Which form after the number?
 format: izbor

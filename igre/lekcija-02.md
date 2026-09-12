@@ -45,9 +45,16 @@ opis: Meet the Croatian pronouns. Small but mighty — *ti* is for one friend, *
 format: tekst
 info: This is the core rule page of the lesson: *sam, si, je, smo, ste, su*, one form per person. Two things to hold on to. The pronoun is optional because the verb already names the person (*Studentica sam*), but the verb itself can never open a sentence.
 - To say *anything* about *anyone*, Croatian needs one verb: **biti** (*to be*). Six forms — and you already know one.
-- *Ja **sam*** — I am. *Ti **si*** — you are. *On, ona **je*** — he, she is (old friend!). *Mi **smo*** — we are. *Vi **ste*** — you are. *Oni **su*** — they are.
-- *Ja sam Ana. Ja sam studentica.* — I am Ana. I am a student.
-- **A bonus:** the pronoun is optional — the verb already says who. *Studentica sam* means the same as *Ja sam studentica*. Just never start with the verb itself.
+- **All six forms in one place.** Read down the middle column; *je* in the third row is the word you already met in Lesson 1.
+- tab: Person | Croatian | English
+- tab: ja | sam | I am
+- tab: ti | si | you are (one person)
+- tab: on, ona, ono | je | he, she, it is
+- tab: mi | smo | we are
+- tab: vi | ste | you are (more than one)
+- tab: oni, one, ona | su | they are
+- **Now you write them.** Ja [sam] Ana. Ti [si] student. Ona [je] doktorica. Mi [smo] turisti.
+- **The pronoun is optional.** The verb already says who. *Studentica sam* means the same as *Ja sam studentica*. Just never start with the verb itself.
 - **A word about mi, vi, oni.** They talk about more than one person, so the word after them needs a plural. For now one ending does the job: add **-i**. *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*, *umoran → umorni*. The full plural rules come in Lesson 7 — until then, every plural you meet here follows this one.
 
 ## Describing people

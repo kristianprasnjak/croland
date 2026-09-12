@@ -41,6 +41,12 @@ const ocekivanoStavki = {
 };
 const POJAS_DOLJE = 0.8, POJAS_GORE = 1.2;   // koliko kolicina sadrzaja smije pomaknuti bazu
 
+// "Kava [je] dobra." u formatu tekst = polje koje se upisuje. Stranica s barem
+// jednom takvom prazninom je zadatak i boduje se kao zadatak; ona bez njih nije.
+function imaPraznina(g) {
+  return (g.stavke || []).some(st => (st || []).some(polje => /\[[^\[\]]+\]/.test(String(polje))));
+}
+
 // Rast po razini. Geometrijski, jer kasne cjeline moraju nositi ozbiljne bodove:
 //   R1 ×1.00 · R5 ×1.52 · R10 ×2.56 · R15 ×4.31 · R19 ×6.54 · R20 ×7.26
 const RAST_PO_RAZINI = 1.11;
@@ -127,6 +133,13 @@ for (const g of igre) {
   let b;
   if (Object.prototype.hasOwnProperty.call(g.meta, 'bodovi')) {
     b = parseInt(g.meta.bodovi, 10);
+  } else if (g.format === 'tekst' && !imaPraznina(g)) {
+    // Stranica objasnjenja bez ijedne praznine ne rjesava se — prelistava se.
+    // Cetiri boda pomnozena razinom davala su joj tezinu prave vjezbe za jedan
+    // klik na "Done reading". Jedan bod je koliko vrijedi: procitati je se
+    // isplati, ali se time ne zaraduje. Cim stranica dobije "[je]" negdje u
+    // recenici, postaje zadatak i boduje se normalno (v. takeTekst u index.html).
+    b = 1;
   } else {
     const n = g.stavke.length;
     // 1. baza po formatu

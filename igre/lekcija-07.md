@@ -77,10 +77,16 @@ opis: Match each singular with its plural. Listen for the new ending!
 format: tekst
 info: The core rule of the whole lesson on one page: **-i / -e / -a**, the same trio you already use for adjectives. Learn it here and *knjige*, *učenici* and *pisma* stop being three problems and become one.
 - Three genders, three endings — the same trio you know from adjectives:
-- **Masculine → -i:** učenik → učenic**i**, dječak → dječac**i** (short words stretch: stol → stol**ovi**)
-- **Feminine → -e:** knjiga → knjig**e**, pjesma → pjesm**e**
-- **Neuter → -a:** pismo → pism**a**
-- One exception today: *dijete* → **djeca** (children). Some words are too important to follow rules.
+- **One ending per gender.**
+- tab: Gender | Ending | One | More than one
+- tab: masculine | **-i** | učenik | učenici
+- tab: masculine | **-i** | dječak | dječaci
+- tab: masculine (short) | **-ovi** | stol | stolovi
+- tab: feminine | **-e** | knjiga | knjige
+- tab: feminine | **-e** | pjesma | pjesme
+- tab: neuter | **-a** | pismo | pisma
+- **One exception today.** *dijete* → **djeca** (children). Some words are too important to follow rules.
+- **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, dva [učenika] — a svi zajedno su [učenici]. Jedno pismo, dva [pisma].
 
 ## Sort the plurals
 format: razvrstavanje
@@ -134,10 +140,15 @@ opis: English above, Croatian below. The word is waiting for its plural ending �
 format: tekst
 info: The other half of Lesson 7: the plural persons. **mi** is always **-mo** and **vi** is always **-te**, for every verb in the language. Only **oni** depends on the verb family — *čitaju*, *uče*, *jedu*.
 - The endings you know (*-m, -š, —*) get three big siblings:
-- **mi** (we) always takes **-mo**, and **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide: *čita**mo** · uči**mo** · jede**mo*** · *čita**te** · uči**te** · jede**te***.
+- **mi and vi never argue.** **mi** (we) always takes **-mo**, **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide.
+- tab: Person | čitati | učiti | jesti
+- tab: mi | čitamo | učimo | jedemo
+- tab: vi | čitate | učite | jedete
+- tab: oni | čitaju | uče | jedu
 - **oni** (they) is the only one that looks at the verb family — the same three families from Lesson 3: *čita**ju*** (-am) · *uč**e*** (-im) · *jed**u*** (-em). Grammar 7 gives you the full picture; here just notice that *they* is the fussy one.
 - *Dječaci igraju nogomet. Djevojčice pjevaju pjesme. Učenici uče. Mi slušamo.*
-- And adjectives follow their nouns: *Učenici su mlad**i**. Knjige su nov**e**.*
+- **And adjectives follow their nouns.** *Učenici su mlad**i**. Knjige su nov**e**.*
+- **Now you write them.** Mi [čitamo] knjige. Vi [učite] hrvatski. Oni [jedu] kruh.
 
 ## Tap the person
 format: nastavak

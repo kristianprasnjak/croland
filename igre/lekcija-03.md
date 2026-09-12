@@ -53,8 +53,13 @@ opis: Match each verb with its English meaning.
 format: tekst
 info: The core rule of this level: **-m** means *I*, **-š** means *you*, and *on* or *ona* adds nothing at all — *čitam, čitaš, čita*. Because the ending names the person, *ja* and *ti* are usually dropped, and the word after the verb keeps the shape you learned it in.
 - Watch what happens to *čitati* (to read):
-- *Ja čita**m**.* — I read. *Ti čita**š**.* — You read. *On/ona čita.* — He/she reads.
-- The ending is the name tag: **-m** = me, **-š** = you, nothing extra = he/she. It works the same for *piti* (pijem, piješ, pije) and *jesti* (jedem, jedeš, jede) — the middle changes a bit, but the endings never lie.
+- **The ending is the name tag.** **-m** = me, **-š** = you, nothing extra = he or she.
+- tab: Person | čitati | piti | jesti
+- tab: ja | čitam | pijem | jedem
+- tab: ti | čitaš | piješ | jedeš
+- tab: on, ona, ono | čita | pije | jede
+- **The middle may shift, the endings never lie.** *piti* becomes *pije-* and *jesti* becomes *jede-*, but the **-m**, the **-š** and the bare form stay exactly where they were.
+- **Now you write them.** Ja [čitam] knjigu. Ti [piješ] sok. Ona [jede] kruh.
 - **So drop the pronoun.** The ending already said who it was. *Pijem sok.* means exactly *Ja pijem sok.* — and the short one is what people actually say. Keep *ja* only when you want to stress it: *JA pijem sok* (me, not you).
 - One thing that does *not* change: the word after the verb. *Pijem **sok**. Čitam **udžbenik**. Gledam **film**.* — same shape as on the flashcard. Croatian does reshape objects, but not these ones, and not yet. That's Lesson 5.
 

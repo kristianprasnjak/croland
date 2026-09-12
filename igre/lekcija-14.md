@@ -32,9 +32,18 @@ opis: Gifts and the three giving verbs.
 
 ## The receiver endings
 format: tekst
-- Who *receives* gets the dative: f. (and m. on -a) → **-a → -i** (mami, sestri, baki, tati); m. & n. → **+u** (bratu, djedu, doktoru, Marku, psu).
-- *Mami kupujem šal.* — I'm buying mom a scarf. *Bratu dajem loptu.* — I'm giving my brother a ball.
-- The question word: **Komu?** — To whom? (*Komu pišeš? — Baki!*)
+- **Who receives, gets the dative.**
+- tab: The person | As the receiver | Ending
+- tab: mama | mami | **-a → -i**
+- tab: sestra | sestri | **-a → -i**
+- tab: baka | baki | **-a → -i**
+- tab: tata | tati | **-a → -i**
+- tab: brat | bratu | **+u**
+- tab: djed | djedu | **+u**
+- tab: Marko | Marku | **+u**
+- *Mami kupujem šal.* — I'm buying mum a scarf. *Bratu dajem loptu.* — I'm giving my brother a ball.
+- **The question word is *komu*.** — To whom? *Komu pišeš? — Baki!*
+- **Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo.
 
 ## Who gets what?
 format: parovi

@@ -1,0 +1,2755 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revizija lekcija — Croland</title>
+<style>
+  :root{
+    --bg:#f6f3ee; --card:#fffdfa; --ink:#191713; --muted:#8b8377;
+    --rub:#e3ddd2; --tiho:#f0ece4; --papir:#faf7f1;
+    --zelena:#2f6d4f; --crvena:#c2413c; --zlatna:#8a6d1f; --plava:#23407a;
+    --zelenaBl:#e8f3ec; --crvenaBl:#fbeceb; --zlatnaBl:#fdf6e3;
+    --sjena:0 1px 2px rgba(25,23,19,.06), 0 4px 14px rgba(25,23,19,.05);
+    --font:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:ui-monospace,"Cascadia Mono",Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+  button{font:inherit;color:inherit;cursor:pointer}
+  a{color:var(--plava)}
+
+  /* ---------- traka na vrhu ---------- */
+  .vrh{position:sticky;top:0;z-index:40;background:var(--papir);border-bottom:1px solid var(--rub);
+       display:flex;align-items:center;gap:14px;padding:8px 14px;flex-wrap:wrap;box-shadow:0 1px 0 rgba(25,23,19,.03)}
+  .logo{font-weight:700;letter-spacing:.2px;white-space:nowrap}
+  .logo small{display:block;font-weight:400;color:var(--muted);font-size:11px;letter-spacing:.02em}
+  .napredak{flex:1 1 260px;min-width:220px}
+  .traka{height:9px;border-radius:5px;background:var(--tiho);overflow:hidden;display:flex;border:1px solid var(--rub)}
+  .traka i{display:block;height:100%}
+  .traka .tp{background:var(--zelena)} .traka .ti{background:var(--crvena)}
+  .brojke{display:flex;gap:12px;font-size:12px;color:var(--muted);margin-top:3px;flex-wrap:wrap}
+  .brojke b{color:var(--ink);font-variant-numeric:tabular-nums}
+  .tocka{display:inline-block;width:8px;height:8px;border-radius:50%;vertical-align:middle;margin-right:4px}
+  .t-p{background:var(--zelena)} .t-i{background:var(--crvena)} .t-n{background:#cfc8bb} .t-b{background:var(--zlatna)}
+  .alati{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+  .btn{background:var(--card);border:1px solid var(--rub);border-radius:8px;padding:6px 11px;font-size:13px;
+       box-shadow:var(--sjena);white-space:nowrap}
+  .btn:hover{background:#fff;border-color:#cfc6b6}
+  .btn.aktiv{background:var(--ink);color:#fff;border-color:var(--ink)}
+  select.btn,input.btn{padding:6px 8px}
+  input.trazi{min-width:180px}
+
+  /* ---------- raspored ---------- */
+  .plosa{display:grid;grid-template-columns:286px minmax(0,1fr);height:calc(100vh - 57px)}
+  .bok{border-right:1px solid var(--rub);background:var(--papir);overflow-y:auto;padding:8px 0 60px}
+  .bok h4{margin:14px 12px 6px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .lek{display:block;width:100%;text-align:left;background:none;border:0;border-left:3px solid transparent;
+       padding:7px 12px;line-height:1.3}
+  .lek:hover{background:var(--tiho)}
+  .lek.on{background:#fff;border-left-color:var(--ink);box-shadow:inset -1px 0 0 var(--rub)}
+  .lek .ime{font-weight:600;font-size:13px}
+  .lek .pod{font-size:11.5px;color:var(--muted);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .lek .mini{display:flex;gap:2px;margin-top:4px;height:4px}
+  .lek .mini i{flex:1;border-radius:1px;background:#ded7c9}
+  .lek .mini i.p{background:var(--zelena)} .lek .mini i.x{background:var(--crvena)}
+  .lek.prigusen{opacity:.38}
+
+  .glavno{overflow-y:auto;padding:18px 22px 140px;scroll-behavior:smooth}
+  .zaglavlje{max-width:1000px;margin:0 auto 14px;display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}
+  .zaglavlje h1{margin:0;font-size:22px;line-height:1.2}
+  .zaglavlje .sub{color:var(--muted);font-size:13px}
+  .prek{display:flex;gap:8px;margin-left:auto}
+
+  /* ---------- kartica vježbe ---------- */
+  .karta{max-width:1000px;margin:0 auto 16px;background:var(--card);border:1px solid var(--rub);
+         border-left:4px solid var(--rub);border-radius:12px;box-shadow:var(--sjena);overflow:hidden;scroll-margin-top:16px}
+  .karta.st-prolaz{border-left-color:var(--zelena)}
+  .karta.st-izbaci{border-left-color:var(--crvena);background:#fffcfb}
+  .karta.st-izbaci .telo{opacity:.62}
+  .karta.zar{outline:2px solid var(--ink);outline-offset:1px}
+  .kg{display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--papir);border-bottom:1px solid var(--rub);flex-wrap:wrap}
+  .kg h3{margin:0;font-size:16px;flex:1 1 240px;min-width:0}
+  .kod{font:12px var(--mono);color:var(--muted);white-space:nowrap}
+  .znak{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:5px;
+        background:var(--tiho);border:1px solid var(--rub);color:#5c5449;white-space:nowrap}
+  .znak.f-tekst{background:#eef2fa;border-color:#d6dcea;color:var(--plava)}
+  .znak.f-provjera,.znak.f-test{background:var(--zlatnaBl);border-color:#e8dcb4;color:var(--zlatna)}
+  .bod{font-size:12px;color:var(--muted);white-space:nowrap}
+  .stanje{font-size:12px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap}
+  .stanje.prolaz{background:var(--zelenaBl);color:var(--zelena)}
+  .stanje.izbaci{background:var(--crvenaBl);color:var(--crvena)}
+  .stanje.neoc{background:var(--tiho);color:var(--muted)}
+  .telo{padding:12px 14px}
+  .opis{font-size:14px;background:var(--tiho);border-radius:8px;padding:8px 11px;margin-bottom:10px}
+  .opis:before{content:"Upute ▸ ";font-size:11px;letter-spacing:.06em;color:var(--muted);font-weight:700}
+  .infobox{font-size:13.5px;border:1px dashed #ded4c0;background:#fffdf6;border-radius:8px;padding:8px 11px;margin-bottom:10px}
+  .infobox:before{content:"Info (prije igre) ▸ ";font-size:11px;letter-spacing:.06em;color:var(--zlatna);font-weight:700}
+  .pricaBox{font-size:14px;background:#fff;border:1px solid var(--rub);border-left:3px solid var(--plava);
+            border-radius:6px;padding:9px 12px;margin-bottom:10px}
+  .pricaBox:before{content:"Tekst za čitanje ▸ ";font-size:11px;letter-spacing:.06em;color:var(--plava);font-weight:700}
+  .metared{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .metared span{font-size:11.5px;background:#fff;border:1px solid var(--rub);border-radius:5px;padding:2px 7px;color:#5c5449}
+  .upoz{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .upoz b{font-size:11.5px;font-weight:600;background:var(--zlatnaBl);border:1px solid #ead9a8;color:#6d5410;
+          border-radius:5px;padding:2px 8px}
+  .upoz b.tvrd{background:var(--crvenaBl);border-color:#eec3bf;color:#8e2f2b}
+
+  table.st{width:100%;border-collapse:collapse;font-size:14px}
+  table.st td,table.st th{border-bottom:1px solid var(--rub);padding:5px 8px;vertical-align:top;text-align:left}
+  table.st tr:last-child td{border-bottom:0}
+  table.st th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  table.st td.n{width:26px;color:var(--muted);font:12px var(--mono);text-align:right}
+  .hr{font-weight:600}
+  .en{color:#6d6559}
+  .odg{color:var(--zelena);font-weight:600}
+  .kriv{color:#8e8377;text-decoration:line-through;text-decoration-color:#d3c9b9}
+  .opc{display:inline-block;background:var(--tiho);border:1px solid var(--rub);border-radius:6px;padding:1px 8px;margin:2px 4px 2px 0;font-size:13.5px}
+  .opc.dobra{background:var(--zelenaBl);border-color:#bcd9c6;color:var(--zelena);font-weight:600}
+  .nastavakZnak{display:inline-block;min-width:26px;text-align:center;background:var(--zelenaBl);border:1px solid #bcd9c6;
+                color:var(--zelena);border-radius:5px;padding:0 6px;font-weight:700}
+  .mreza{display:grid;grid-template-columns:repeat(auto-fill,minmax(116px,1fr));gap:10px}
+  .slikaKarta{background:#fff;border:1px solid var(--rub);border-radius:8px;padding:6px;text-align:center}
+  .slikaKarta img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;background:var(--tiho);display:block}
+  .slikaKarta .nemaSlike{width:100%;aspect-ratio:1/1;border-radius:6px;background:repeating-linear-gradient(45deg,#f3eee4,#f3eee4 6px,#ece5d7 6px,#ece5d7 12px);
+       display:flex;align-items:center;justify-content:center;color:#a89c88;font-size:11px;text-align:center;padding:6px}
+  .slikaKarta .rij{font-weight:600;font-size:13px;margin-top:5px;word-break:break-word}
+  .slikaKarta .pri{font-size:12px;color:var(--muted);word-break:break-word}
+  .stupci{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+  .stupac{background:#fff;border:1px solid var(--rub);border-radius:8px;padding:8px}
+  .stupac h5{margin:0 0 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--plava)}
+  .stupac span{display:inline-block;background:var(--tiho);border-radius:5px;padding:1px 7px;margin:0 4px 4px 0;font-size:13px}
+  .chat{display:flex;flex-direction:column;gap:7px}
+  .msg{max-width:76%;padding:7px 11px;border-radius:12px;font-size:14px}
+  .msgNpc{align-self:flex-start;background:var(--tiho);border-bottom-left-radius:3px}
+  .msgTi{align-self:flex-end;background:#eef2fa;border:1px solid #dbe2ef;border-bottom-right-radius:3px}
+  .msgTi .opc{background:#fff}
+  .msgTi .lbl{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--plava);display:block;margin-bottom:2px}
+  .tab{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+  .tab td,.tab th{border:1px solid var(--rub);padding:5px 9px}
+  .tab th{background:var(--tiho);font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:#5c5449}
+  .odl{margin:0 0 8px;padding-left:22px}
+  .odl li{margin-bottom:3px}
+  pre.sirovo{background:#fff;border:1px solid var(--rub);border-radius:8px;padding:9px;font:12px/1.45 var(--mono);
+             overflow-x:auto;margin:0;white-space:pre-wrap}
+  button.zvuk{background:none;border:0;padding:0 4px;font-size:13px;opacity:.55;line-height:1}
+  button.zvuk:hover{opacity:1}
+  .nezvuk{opacity:.3;font-size:12px;padding:0 4px;cursor:help}
+
+  .kn{display:flex;gap:8px;align-items:flex-start;padding:9px 14px;background:var(--papir);border-top:1px solid var(--rub);flex-wrap:wrap}
+  .kn .oc{display:flex;gap:6px}
+  .oc button{border:1px solid var(--rub);background:#fff;border-radius:8px;padding:6px 12px;font-size:13.5px;font-weight:600}
+  .oc button.p:hover,.oc button.p.on{background:var(--zelena);border-color:var(--zelena);color:#fff}
+  .oc button.x:hover,.oc button.x.on{background:var(--crvena);border-color:var(--crvena);color:#fff}
+  .oc button.o:hover{background:var(--tiho)}
+  .kn textarea{flex:1 1 320px;min-height:38px;max-height:220px;resize:vertical;border:1px solid var(--rub);border-radius:8px;
+               padding:7px 10px;font:14px var(--font);background:#fff}
+  .kn textarea:focus{outline:2px solid #cdd6e8;border-color:#b9c4db}
+  .kn textarea.ima{background:#fffdf0;border-color:#e6d9ae}
+
+  /* ---------- popis / sažetak ---------- */
+  .popis{max-width:1180px;margin:0 auto}
+  table.pop{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);
+            border:1px solid var(--rub);border-radius:10px;overflow:hidden}
+  table.pop th{position:sticky;top:0;background:var(--papir);border-bottom:1px solid var(--rub);padding:7px 9px;
+               text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);z-index:2}
+  table.pop td{border-bottom:1px solid var(--rub);padding:5px 9px;vertical-align:top}
+  table.pop tr:hover td{background:var(--papir);cursor:pointer}
+  table.pop tr.grupa td{background:var(--tiho);font-weight:700;font-size:12.5px;letter-spacing:.03em}
+  table.pop tr.grupa:hover td{background:var(--tiho);cursor:default}
+  .znakm{font-size:10.5px;padding:1px 6px;border-radius:4px;background:var(--tiho);border:1px solid var(--rub);white-space:nowrap}
+  .st-cell.p{color:var(--zelena);font-weight:700}
+  .st-cell.x{color:var(--crvena);font-weight:700}
+  .st-cell.n{color:#b3a999}
+  .prazno{max-width:1000px;margin:40px auto;text-align:center;color:var(--muted)}
+
+  /* ---------- fokus: jedna vježba, igra se ---------- */
+  .modovi{display:inline-flex;gap:0}
+  .modovi .btn{border-radius:0;margin-left:-1px}
+  .modovi .btn:first-child{border-radius:8px 0 0 8px;margin-left:0}
+  .modovi .btn:last-child{border-radius:0 8px 8px 0}
+  body.fokus .glavno{padding-bottom:120px}
+  .fokusOmot{max-width:920px;margin:0 auto}
+  .fokusGlava{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+  .fokusGlava h2{margin:0;font-size:20px;flex:1 1 240px}
+  .fokusPut{font:12px var(--mono);color:var(--muted)}
+  .fokusUputa{font-size:15px;background:var(--tiho);border-radius:9px;padding:9px 13px;margin:10px 0}
+  .fokusAlat{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+  .fokusAlat .btn{font-size:12.5px;padding:5px 10px}
+  .izmijenjeno{background:var(--zlatnaBl);border:1px solid #e8dcb4;color:#6d5410;border-radius:6px;
+                padding:6px 11px;font-size:13px;margin:8px 0}
+  .ploca{background:var(--card);border:1px solid var(--rub);border-radius:14px;box-shadow:var(--sjena);
+         padding:16px 18px;margin:10px 0;min-height:180px}
+  details.sklopivo{margin:10px 0;border:1px solid var(--rub);border-radius:10px;background:var(--papir);overflow:hidden}
+  details.sklopivo>summary{cursor:pointer;padding:8px 13px;font-size:13px;font-weight:600;list-style:none}
+  details.sklopivo>summary::-webkit-details-marker{display:none}
+  details.sklopivo>summary:before{content:"▸ ";color:var(--muted)}
+  details.sklopivo[open]>summary:before{content:"▾ "}
+  details.sklopivo>div{padding:0 13px 13px;background:var(--card)}
+
+  /* ---------- elementi igre ---------- */
+  .igraStatus{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);
+              border-bottom:1px solid var(--rub);padding-bottom:6px;margin-bottom:12px;font-variant-numeric:tabular-nums}
+  .igraPitanje{font-size:19px;line-height:1.35;text-align:center;margin:10px 0 14px}
+  .igraPitanje .praznina,.igraPitanje code{background:var(--tiho);border-radius:5px;padding:1px 8px}
+  .igraOpcije{display:flex;flex-direction:column;gap:8px;max-width:520px;margin:0 auto}
+  .igraOpcija{background:#fff;border:1px solid var(--rub);border-radius:10px;padding:10px 14px;cursor:pointer;
+              text-align:center;font-size:15.5px;transition:transform .08s,background .12s}
+  .igraOpcija:hover{background:var(--papir);border-color:#cfc6b6}
+  .igraOpcija:active{transform:scale(.985)}
+  .igraOpcija.tocno{background:var(--zelenaBl);border-color:var(--zelena);color:var(--zelena);font-weight:600}
+  .igraOpcija.krivo{background:var(--crvenaBl);border-color:var(--crvena);color:var(--crvena)}
+  .igraOpcija.potroseno{opacity:.32;pointer-events:none}
+  .igraUnos{display:block;width:min(360px,90%);margin:0 auto;font:17px var(--font);text-align:center;
+            border:2px solid var(--rub);border-radius:10px;padding:9px 12px;background:#fff}
+  .igraUnos:focus{outline:0;border-color:var(--plava)}
+  .igraUnos.tocno{border-color:var(--zelena);background:var(--zelenaBl);color:var(--zelena)}
+  .igraUnos.krivo{border-color:var(--crvena);background:var(--crvenaBl);color:var(--crvena)}
+  .igraGumb{display:block;margin:14px auto 0;background:var(--ink);color:#fff;border:0;border-radius:10px;
+            padding:9px 26px;font-size:15px;font-weight:600}
+  .igraGumb.tiho{background:#fff;color:var(--ink);border:1px solid var(--rub);font-weight:500}
+  .igraOtkriveno{text-align:center;min-height:22px;font-size:14px;color:var(--crvena);margin-top:8px}
+  .igraKraj{margin-top:14px;text-align:center;background:var(--zelenaBl);border:1px solid #bcd9c6;color:var(--zelena);
+            border-radius:10px;padding:10px 14px;font-size:15px}
+  .igraSlika{display:block;margin:0 auto 10px;width:150px;height:150px;object-fit:contain;
+             background:var(--tiho);border-radius:12px}
+  .igraEng{text-align:center;color:var(--muted);font-size:15px;margin-bottom:10px}
+  .igraNapomena{font-size:12px;color:var(--muted);text-align:center;margin-top:10px}
+
+  .plocice{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:12px}
+  .plocica{background:#fff;border:1px solid var(--rub);border-radius:8px;padding:7px 13px;cursor:pointer;font-size:15px}
+  .plocica:hover{background:var(--papir)}
+  .plocica.potroseno{opacity:.3;pointer-events:none}
+  .odgRed{min-height:48px;display:flex;flex-wrap:wrap;gap:7px;justify-content:center;align-items:center;
+          border-bottom:2px dashed var(--rub);padding:8px;border-radius:8px}
+  .odgRed.krivo{border-color:var(--crvena);background:var(--crvenaBl)}
+  .odgRed.stupac{flex-direction:column;align-items:stretch;border-bottom:0}
+  .odgRed .plocica.tocno{background:var(--zelenaBl);border-color:var(--zelena);color:var(--zelena)}
+  .odgRed .plocica.krivo{background:var(--crvenaBl);border-color:var(--crvena);color:var(--crvena)}
+
+  .parStupci{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:620px;margin:0 auto}
+  .parStupci>div{display:flex;flex-direction:column;gap:7px}
+  .parGumb{background:#fff;border:1px solid var(--rub);border-radius:9px;padding:9px 12px;cursor:pointer;
+           text-align:center;font-size:15px;display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px}
+  .parGumb img{width:44px;height:44px;object-fit:contain}
+  .parGumb.odabrano{border-color:var(--plava);background:#eef2fa;box-shadow:0 0 0 2px #dbe2ef}
+  .parGumb.tocno{background:var(--zelenaBl);border-color:#bcd9c6;color:var(--zelena);pointer-events:none;opacity:.75}
+  .parGumb.krivo{background:var(--crvenaBl);border-color:var(--crvena)}
+
+  .memMreza{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px;max-width:660px;margin:0 auto}
+  .memKarta{aspect-ratio:1/1;background:var(--plavaVok,#23407a);border-radius:10px;display:flex;align-items:center;
+            justify-content:center;cursor:pointer;color:#fff;font-size:22px;padding:5px;text-align:center;overflow:hidden}
+  .memKarta.otvorena{background:#fff;border:1px solid var(--rub);color:var(--ink);font-size:13.5px;font-weight:600}
+  .memKarta.rijesena{background:var(--zelenaBl);border:1px solid #bcd9c6;color:var(--zelena);pointer-events:none}
+  .memKarta img{max-width:100%;max-height:100%;object-fit:contain}
+
+  .flipMreza{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:9px}
+  .flipKarta{background:#fff;border:1px solid var(--rub);border-radius:11px;padding:12px 10px;text-align:center;
+             cursor:pointer;min-height:104px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+  .flipKarta:hover{border-color:#cfc6b6}
+  .flipKarta img{width:60px;height:60px;object-fit:contain}
+  .flipKarta .hrR{font-weight:600;font-size:15px}
+  .flipKarta .enR{font-size:13.5px;color:var(--muted)}
+  .flipKarta.otvorena{background:var(--zelenaBl);border-color:#bcd9c6}
+
+  .sortStupci{display:grid;gap:9px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));margin-bottom:12px}
+  .sortBox{background:var(--papir);border:2px dashed var(--rub);border-radius:11px;padding:8px;min-height:96px;cursor:pointer}
+  .sortBox h5{margin:0 0 7px;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--plava);text-align:center}
+  .sortBox.cilj{border-color:var(--plava);background:#eef2fa}
+  .sortRijec{background:#fff;border:1px solid var(--rub);border-radius:7px;padding:4px 9px;margin:0 4px 5px 0;
+             display:inline-block;cursor:pointer;font-size:14px}
+  .sortRijec.odabrano{border-color:var(--plava);box-shadow:0 0 0 2px #dbe2ef}
+  .sortRijec.tocno{background:var(--zelenaBl);border-color:#bcd9c6;color:var(--zelena)}
+  .sortRijec.krivo{background:var(--crvenaBl);border-color:var(--crvena);color:var(--crvena)}
+  .sortPool{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;padding:9px;background:var(--tiho);border-radius:10px}
+
+  .sat{font-variant-numeric:tabular-nums;font-weight:700}
+  .sat.hitno{color:var(--crvena)}
+
+  .odl2{max-width:640px;margin:0 auto}
+  .odl2 .plocica{display:block;text-align:left;margin-bottom:6px}
+
+  /* tekst-stranica u igri */
+  .tekstStr{font-size:15.5px;line-height:1.65;max-width:660px;margin:0 auto}
+  .tekstStr p{margin:0 0 11px}
+  .vodilja{display:block;font-weight:700;margin-bottom:2px}
+  .tekstStr table{width:100%;border-collapse:collapse;margin:0 0 12px;background:#fff;font-size:14px}
+  .tekstStr th,.tekstStr td{border:1px solid var(--rub);padding:5px 9px;text-align:left}
+  .tekstStr thead th{background:var(--tiho);font-size:12px;text-transform:uppercase;letter-spacing:.05em}
+  .praznina{border:0;border-bottom:2px solid var(--plava);background:#eef2fa;border-radius:4px 4px 0 0;
+            padding:1px 5px;font:inherit;text-align:center;color:var(--plava)}
+  .praznina:focus{outline:0;background:#dfe7f6}
+  .praznina.tocno{background:var(--zelenaBl);border-color:var(--zelena);color:var(--zelena)}
+  .praznina.krivo{background:var(--crvenaBl);border-color:var(--crvena);color:var(--crvena)}
+  .prazninaTrag{color:var(--zelena);font-weight:600}
+  .enGumb{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;border:1px solid var(--rub);
+          border-radius:4px;padding:0 5px;margin-left:5px;color:var(--muted);cursor:pointer;vertical-align:middle}
+  .enGumb.on{background:var(--plava);border-color:var(--plava);color:#fff}
+  .enTekst{display:none;color:var(--muted);font-size:14px;margin-top:2px}
+  .odlSek{border:1px solid var(--rub);border-radius:10px;margin-bottom:9px;background:#fff;overflow:hidden}
+  .odlSekGlava{width:100%;text-align:left;background:var(--papir);border:0;padding:9px 13px;font-size:15px;font-weight:600}
+  .odlSekTijelo{display:none;padding:11px 13px 3px}
+  .odlSek.otvoren .odlSekTijelo{display:block}
+  .odlBrojac{text-align:center;font-size:13px;color:var(--muted);margin-top:12px}
+
+  /* ---------- donja traka ---------- */
+  .donja{position:fixed;left:0;right:0;bottom:0;z-index:45;background:var(--papir);border-top:1px solid var(--rub);
+         box-shadow:0 -4px 20px rgba(25,23,19,.07);display:flex;gap:10px;align-items:center;padding:9px 16px;flex-wrap:wrap}
+  .donjaOc{display:flex;gap:6px}
+  .oDugme{border:1px solid var(--rub);background:#fff;border-radius:9px;padding:8px 14px;font-size:14px;font-weight:600;
+          display:flex;align-items:center;gap:6px}
+  .oDugme kbd{font:10px var(--mono);background:var(--tiho);border-radius:3px;padding:1px 4px;color:var(--muted)}
+  .oDugme.p:hover,.oDugme.p.on{background:var(--zelena);border-color:var(--zelena);color:#fff}
+  .oDugme.x:hover,.oDugme.x.on{background:var(--crvena);border-color:var(--crvena);color:#fff}
+  .oDugme.on kbd{background:rgba(255,255,255,.2);color:#fff}
+  .oDugme.o:hover{background:var(--tiho)}
+  .donja textarea{flex:1 1 260px;min-width:180px;height:40px;max-height:120px;resize:vertical;border:1px solid var(--rub);
+                  border-radius:9px;padding:9px 11px;font:14px var(--font);background:#fff}
+  .donja textarea:focus{outline:2px solid #cdd6e8;border-color:#b9c4db}
+  .donja textarea.ima{background:#fffdf0;border-color:#e6d9ae}
+  .donjaNav{display:flex;gap:6px;align-items:center;margin-left:auto}
+  .donjaNav .poz{font:12px var(--mono);color:var(--muted);margin-right:4px;white-space:nowrap}
+  .btn.glavni{background:var(--ink);color:#fff;border-color:var(--ink);font-weight:600;padding:8px 18px}
+  .btn.glavni:hover{background:#000}
+
+  .izbornikOmot{position:relative;display:inline-block}
+  .izbornik{position:absolute;right:0;top:calc(100% + 7px);background:var(--card);border:1px solid var(--rub);
+            border-radius:11px;box-shadow:0 10px 40px rgba(25,23,19,.18);z-index:60;min-width:300px;padding:5px}
+  .izbornik button{display:block;width:100%;text-align:left;background:none;border:0;padding:8px 11px;border-radius:8px}
+  .izbornik button:hover{background:var(--tiho)}
+  .izbornik b{display:block;font-size:13.5px;font-weight:600}
+  .izbornik i{display:block;font-size:11.5px;color:var(--muted);font-style:normal;margin-top:1px}
+
+  .pomoc{position:fixed;right:14px;bottom:14px;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+  .pomocGumb{background:var(--ink);color:#fff;border:0;border-radius:50%;width:32px;height:32px;font-size:15px;
+             box-shadow:0 4px 16px rgba(0,0,0,.22);opacity:.55}
+  .pomocGumb:hover{opacity:1}
+  .pomoc .kut{background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:12px;line-height:1.6;
+              box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:250px;order:-1}
+  .pomoc kbd{background:rgba(255,255,255,.16);border-radius:4px;padding:1px 5px;font:11px var(--mono)}
+  .poruka{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:#fff;
+          padding:9px 16px;border-radius:9px;font-size:13.5px;z-index:60;box-shadow:0 8px 30px rgba(0,0,0,.25);opacity:0;
+          transition:opacity .2s, transform .2s;pointer-events:none}
+  .poruka.vidi{opacity:1;transform:translateX(-50%) translateY(-4px)}
+  .upozStorage{background:var(--crvenaBl);color:#8e2f2b;border-bottom:1px solid #eec3bf;padding:7px 14px;font-size:13px}
+
+  @media (max-width:900px){
+    .plosa{grid-template-columns:1fr;height:auto}
+    .bok{border-right:0;border-bottom:1px solid var(--rub);max-height:230px}
+    .glavno{padding:14px 12px 120px}
+    .pomoc{display:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="vrh">
+  <div class="logo">Revizija lekcija<small id="generirano">data.js</small></div>
+
+  <div class="napredak">
+    <div class="traka"><i class="tp" id="trakaP" style="width:0"></i><i class="ti" id="trakaI" style="width:0"></i></div>
+    <div class="brojke">
+      <span><span class="tocka t-p"></span>prolaz <b id="brP">0</b></span>
+      <span><span class="tocka t-i"></span>izbačeno <b id="brI">0</b></span>
+      <span><span class="tocka t-n"></span>neocijenjeno <b id="brN">0</b></span>
+      <span><span class="tocka t-b"></span>bilješke <b id="brB">0</b></span>
+      <span>ukupno <b id="brU">0</b></span>
+    </div>
+  </div>
+
+  <div class="alati">
+    <input class="btn trazi" id="trazi" type="search" placeholder="Traži po tekstu…" autocomplete="off">
+    <select class="btn" id="filter" title="Prikaži samo…">
+      <option value="sve">sve vježbe</option>
+      <option value="neoc">neocijenjeno</option>
+      <option value="prolaz">prolaz</option>
+      <option value="izbaci">izbačeno</option>
+      <option value="bilj">s bilješkom</option>
+      <option value="upoz">s upozorenjem</option>
+      <option value="izmij">izmijenjeno nakon ocjene</option>
+    </select>
+    <select class="btn" id="filterFormat" title="Samo jedan format"></select>
+    <button class="btn" id="skoci" title="Prva neocijenjena vježba">⏭ Prva neocijenjena</button>
+    <span class="modovi">
+      <button class="btn aktiv" id="modIgraj" title="Igraj vježbu (Igraj)">🎮 Igraj</button>
+      <button class="btn" id="modPregled" title="Statični pregled cijele cjeline">📄 Pregled</button>
+      <button class="btn" id="modPopis" title="Popis svih vježbi">☰ Popis</button>
+    </span>
+    <span class="izbornikOmot">
+      <button class="btn" id="izvoz">⬇ Izvoz ▾</button>
+      <div class="izbornik" id="izvozIzbornik" hidden>
+        <button data-izvoz="html"><b>📄 Dokument (.html)</b><i>popis svih lekcija s bilješkama — za čitanje i ispis</i></button>
+        <button data-izvoz="md"><b>📝 Markdown (.md)</b><i>isti dokument u tekstualnom obliku</i></button>
+        <button data-izvoz="csv"><b>📊 Tablica (.csv)</b><i>za Excel — jedan red po vježbi</i></button>
+        <button data-izvoz="json"><b>💾 JSON</b><i>sigurnosna kopija; vraća se preko ⬆ Uvoz</i></button>
+        <button data-izvoz="sve"><b>⬇ Sve odjednom</b><i>sva četiri formata</i></button>
+      </div>
+    </span>
+    <button class="btn" id="uvoz" title="Učitaj spremljenu reviziju (.json)">⬆ Uvoz</button>
+    <input type="file" id="uvozFile" accept=".json,application/json" hidden>
+  </div>
+</div>
+
+<div id="upozStorage" class="upozStorage" hidden></div>
+
+<div class="plosa">
+  <nav class="bok" id="bok"></nav>
+  <main class="glavno" id="glavno"></main>
+</div>
+
+<div class="donja" id="donja" hidden>
+  <div class="donjaOc">
+    <button class="oDugme p" data-f="prolaz">✓ Prolaz <kbd>1</kbd></button>
+    <button class="oDugme x" data-f="izbaci">✕ Izbaci <kbd>2</kbd></button>
+    <button class="oDugme o" data-f="ocisti" title="Poništi ocjenu (0)">↺</button>
+  </div>
+  <textarea id="fokusBilj" placeholder="Bilješka o ovoj vježbi…  (B za fokus, Esc za izlaz)"></textarea>
+  <div class="donjaNav">
+    <span class="poz" id="fokusPoz"></span>
+    <button class="btn" data-f="natrag" title="Prethodna (←)">←</button>
+    <button class="btn glavni" data-f="dalje" title="Sljedeća (→ ili Enter)">Dalje →</button>
+  </div>
+</div>
+
+<div class="pomoc">
+  <button class="pomocGumb" id="pomocGumb" title="Tipke prečaca">⌨</button>
+  <div class="kut" id="pomocKut" hidden>
+    <b>Igraj:</b> <kbd>Enter</kbd>/<kbd>→</kbd> dalje · <kbd>←</kbd> natrag<br>
+    <kbd>1</kbd> prolaz (i dalje) · <kbd>2</kbd> izbaci · <kbd>0</kbd> poništi<br>
+    <kbd>B</kbd> bilješka · <kbd>Esc</kbd> izlaz · <kbd>R</kbd> ponovi igru<br>
+    <kbd>N</kbd>/<kbd>P</kbd> — sljedeća/prethodna cjelina<br>
+    <b>Pregled:</b> <kbd>J</kbd>/<kbd>K</kbd> kroz kartice
+  </div>
+</div>
+
+<div class="poruka" id="poruka"></div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+"use strict";
+
+/* ═══════════════ 1. PODACI ═══════════════ */
+var PODACI = window.PODACI || {};
+var IGRE   = PODACI.igre || [];
+var SLIKE  = PODACI.slike || {};
+var ZVUK   = PODACI.zvukovi || {};
+
+var SLIKOVNI = {spajanje:1, memorija:1, baloni:1, slova:1, pamti:1, zid:1};
+var PAROVI   = {kartice:1, parovi:1, brzina:1};
+/* formati kojima se prva kolona izgovara (za provjeru zvuka) */
+var IMA_GLAS = {kartice:1, parovi:1, brzina:1, spajanje:1, memorija:1, baloni:1, slova:1, pamti:1, zid:1,
+                slaganje:1, nastavak:1, poredak:1, dijalog:1};
+
+function kljucTxt(t){ return String(t == null ? '' : t).toLowerCase().trim(); }
+function bezZnaka(t){ return kljucTxt(t).replace(/[.!?,;:…]+$/, '').trim(); }
+function slikaZa(rij){ var k = kljucTxt(rij); return SLIKE[k] || null; }
+function zvukZa(txt){ var k = kljucTxt(txt); return ZVUK[k] || ZVUK[bezZnaka(txt)] || null; }
+
+/* grupiranje u cjeline, redom kako stoje u data.js */
+var CJELINE = [];
+IGRE.forEach(function(g, i){
+  g._i  = i;
+  g._id = String(g.sortkljuc != null ? g.sortkljuc : 'idx' + i);
+  var ime = g.cjelina || '(bez cjeline)';
+  var zad = CJELINE[CJELINE.length - 1];
+  if(!zad || zad.ime !== ime){
+    CJELINE.push({ ime: ime, naslov: g.cjelinanaslov || '', igre: [], i: CJELINE.length });
+    zad = CJELINE[CJELINE.length - 1];
+  }
+  g._c = zad.i;
+  zad.igre.push(g);
+});
+
+/* ═══════════════ 2. UPOZORENJA (automatske provjere) ═══════════════ */
+function provjeri(g){
+  var u = [], st = g.stavke || [], i, s;
+
+  if(!st.length){ u.push({t:'nema stavki', tvrd:true}); }
+
+  if(SLIKOVNI[g.format]){
+    var bezSlike = [];
+    st.forEach(function(s){ if(!slikaZa(s[0])) bezSlike.push(s[0]); });
+    if(bezSlike.length) u.push({t:'nema slike: ' + bezSlike.length + ' (' + bezSlike.slice(0,4).join(', ') + (bezSlike.length>4?'…':'') + ')', tvrd:true});
+  }
+
+  if(IMA_GLAS[g.format]){
+    var bezZvuka = [], tekstovi = [];
+    if(g.format === 'dijalog'){
+      st.forEach(function(s){
+        if(kljucTxt(s[0]) === 'npc'){ tekstovi.push(s[1]); }
+        else { for(i = 1; i < s.length; i++) tekstovi.push(s[i]); }
+      });
+    } else if(g.format === 'nastavak'){
+      st.forEach(function(s){ tekstovi.push(String(s[0]||'').replace('___', s[2] === '-' ? '' : (s[2]||''))); });
+    } else {
+      st.forEach(function(s){ tekstovi.push(s[0]); });
+    }
+    tekstovi.forEach(function(t){ if(t && !zvukZa(t)) bezZvuka.push(t); });
+    if(bezZvuka.length) u.push({t:'nema zvuka: ' + bezZvuka.length + '/' + tekstovi.length});
+  }
+
+  /* duplikati unutar vježbe — kod provjere i dijaloga prva ćelija je tip, ne sadržaj */
+  var vid = {}, dup = 0;
+  st.forEach(function(s){
+    if(!Array.isArray(s)){ return; }
+    var k;
+    if(g.format === 'provjera')     k = kljucTxt(s[1]);
+    else if(g.format === 'dijalog') k = kljucTxt(s.slice(1).join(' | '));
+    else                            k = kljucTxt(s[0]);
+    if(!k) return;
+    if(vid[k]) dup++;
+    vid[k] = 1;
+  });
+  if(dup) u.push({t:'ponovljena stavka: ' + dup});
+
+  /* izbor — ponovljene ili prazne opcije */
+  if(g.format === 'izbor'){
+    var los = 0;
+    st.forEach(function(s){
+      var op = s.slice(1).map(kljucTxt).filter(Boolean);
+      if(op.length < 2) los++;
+      else if(new Set(op).size !== op.length) los++;
+    });
+    if(los) u.push({t:'izbor: ' + los + ' pitanja s lošim opcijama', tvrd:true});
+  }
+
+  if(g.format === 'razvrstavanje'){
+    var stupci = String((g.meta && g.meta.stupci) || '').split('|').map(function(x){return x.trim();}).filter(Boolean);
+    if(!stupci.length) u.push({t:'nedostaje meta.stupci', tvrd:true});
+    else {
+      var izvan = st.filter(function(s){ return stupci.indexOf(String(s[1]).trim()) < 0; });
+      if(izvan.length) u.push({t:'stupac izvan popisa: ' + izvan.length, tvrd:true});
+    }
+  }
+
+  if(g.format === 'nastavak'){
+    var nast = String((g.meta && g.meta.nastavci) || '').split('|').map(function(x){return x.trim();}).filter(Boolean);
+    if(nast.length){
+      var izv = st.filter(function(s){ return nast.indexOf(String(s[2]).trim()) < 0; });
+      if(izv.length) u.push({t:'nastavak izvan popisa: ' + izv.length, tvrd:true});
+    }
+    var bezRupe = st.filter(function(s){ return String(s[0]).indexOf('___') < 0; });
+    if(bezRupe.length) u.push({t:'rečenica bez ___ : ' + bezRupe.length, tvrd:true});
+  }
+
+  if(g.format === 'upis'){
+    var bezR = st.filter(function(s){ return String(s[0]).indexOf('___') < 0; });
+    if(bezR.length) u.push({t:'bez praznine ___ : ' + bezR.length});
+    var bezOdg = st.filter(function(s){ return !String(s[1] || '').trim(); });
+    if(bezOdg.length) u.push({t:'bez odgovora: ' + bezOdg.length, tvrd:true});
+  }
+
+  if(g.format === 'dijalog'){
+    var jedna = st.filter(function(s){ return kljucTxt(s[0]) === 'ti' && s.length < 3; });
+    if(jedna.length) u.push({t:'replika bez izbora: ' + jedna.length});
+  }
+
+  if(g.format !== 'tekst' && !(g.meta && g.meta.opis)) u.push({t:'nema upute (meta.opis)'});
+  if(!g.naslov) u.push({t:'nema naslova', tvrd:true});
+
+  return u;
+}
+IGRE.forEach(function(g){ g._u = provjeri(g); });
+
+/* otisak sadržaja — da se vidi je li vježba mijenjana nakon što je ocijenjena */
+function otisak(g){
+  var s = JSON.stringify([g.naslov, g.meta, g.stavke]), h = 5381;
+  for(var i = 0; i < s.length; i++) h = ((h * 33) ^ s.charCodeAt(i)) >>> 0;
+  return h.toString(36);
+}
+var PO_ID = {};
+IGRE.forEach(function(g){ g._h = otisak(g); PO_ID[g._id] = g; });
+
+/* ═══════════════ 3. STANJE ═══════════════ */
+var KLJUC = 'croland-revizija-v1';
+var S = { v:1, ocjene:{}, zadnjaCjelina:0, zadnjaVjezba:null, promijenjeno:null };
+var spremanjeRadi = true;
+
+try{
+  var sirovi = localStorage.getItem(KLJUC);
+  if(sirovi){ var p = JSON.parse(sirovi); if(p && p.ocjene){ S = p; S.ocjene = p.ocjene || {}; } }
+  localStorage.setItem(KLJUC + '-test', '1'); localStorage.removeItem(KLJUC + '-test');
+}catch(e){
+  spremanjeRadi = false;
+  var el = document.getElementById('upozStorage');
+  el.hidden = false;
+  el.textContent = 'Pozor: preglednik ne dopušta lokalno spremanje (localStorage). Rad neće preživjeti osvježavanje stranice — redovito koristi ⬇ Izvoz → JSON.';
+}
+
+var cekaSpremanje = null;
+function spremi(){
+  S.promijenjeno = new Date().toISOString();
+  if(!spremanjeRadi) return;
+  clearTimeout(cekaSpremanje);
+  cekaSpremanje = setTimeout(function(){
+    try{ localStorage.setItem(KLJUC, JSON.stringify(S)); }
+    catch(e){ spremanjeRadi = false; poruka('Spremanje nije uspjelo — izvezi JSON!'); }
+  }, 180);
+}
+function oc(id){ return S.ocjene[id] || null; }
+function postaviOcjenu(id, status){
+  var o = S.ocjene[id] || (S.ocjene[id] = {});
+  if(status) o.status = status; else delete o.status;
+  o.kad = new Date().toISOString();
+  if(PO_ID[id]) o.h = PO_ID[id]._h;
+  if(!o.status && !o.bilj) delete S.ocjene[id];
+  spremi();
+}
+function postaviBilj(id, txt){
+  var o = S.ocjene[id] || (S.ocjene[id] = {});
+  txt = String(txt || '');
+  if(txt.trim()) o.bilj = txt; else delete o.bilj;
+  o.kad = new Date().toISOString();
+  if(PO_ID[id]) o.h = PO_ID[id]._h;
+  if(!o.status && !o.bilj) delete S.ocjene[id];
+  spremi();
+}
+/* vježba je dirana u data.js otkad je ocijenjena */
+function jeIzmijenjeno(g){
+  var o = oc(g._id);
+  return !!(o && o.h && o.h !== g._h);
+}
+
+/* ═══════════════ 4. POMOĆNE ═══════════════ */
+function esc(t){
+  return String(t == null ? '' : t)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function md(t){
+  var h = esc(t);
+  h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  h = h.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  h = h.replace(/`([^`]+)`/g, '<code>$1</code>');
+  return h.replace(/\n/g, '<br>');
+}
+function zvucnik(txt){
+  if(!txt) return '';
+  var p = zvukZa(txt);
+  if(!p) return '<span class="nezvuk" title="nema snimke">🔇</span>';
+  return '<button class="zvuk" data-zvuk="' + esc(p) + '" title="' + esc(p) + '">🔊</button>';
+}
+var trenutniZvuk = null;
+document.addEventListener('click', function(e){
+  var b = e.target.closest ? e.target.closest('button.zvuk') : null;
+  if(!b) return;
+  e.stopPropagation();
+  try{
+    if(trenutniZvuk){ trenutniZvuk.pause(); }
+    trenutniZvuk = new Audio(b.getAttribute('data-zvuk'));
+    trenutniZvuk.play().catch(function(){ poruka('Zvuk se ne može pustiti.'); });
+  }catch(err){}
+});
+var porukaTajmer = null;
+function poruka(t){
+  var el = document.getElementById('poruka');
+  el.textContent = t; el.classList.add('vidi');
+  clearTimeout(porukaTajmer);
+  porukaTajmer = setTimeout(function(){ el.classList.remove('vidi'); }, 2200);
+}
+
+/* ═══════════════ 5. PRIKAZ STAVKI PO FORMATU ═══════════════ */
+function mrezaSlika(st){
+  return '<div class="mreza">' + st.map(function(s){
+    var p = slikaZa(s[0]);
+    return '<div class="slikaKarta">' +
+      (p ? '<img loading="lazy" src="' + esc(p) + '" alt="' + esc(s[0]) + '" onerror="this.outerHTML=\'<div class=&quot;nemaSlike&quot;>datoteka ne postoji</div>\'">'
+         : '<div class="nemaSlike">nema slike</div>') +
+      '<div class="rij">' + esc(s[0]) + zvucnik(s[0]) + '</div>' +
+      '<div class="pri">' + esc(s[1] || '') + '</div></div>';
+  }).join('') + '</div>';
+}
+function tablicaPar(st){
+  return '<table class="st"><thead><tr><th></th><th>hrvatski</th><th>engleski</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      return '<tr><td class="n">' + (i+1) + '</td><td class="hr">' + esc(s[0]) + zvucnik(s[0]) +
+             '</td><td class="en">' + esc(s[1] || '') + '</td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function izborTablica(st){
+  return '<table class="st"><thead><tr><th></th><th>pitanje</th><th>odgovori (prvi = točan)</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      var op = s.slice(1).map(function(o, j){
+        return '<span class="opc' + (j === 0 ? ' dobra' : '') + '">' + (j === 0 ? '✓ ' : '') + esc(o) + '</span>';
+      }).join('');
+      return '<tr><td class="n">' + (i+1) + '</td><td>' + md(s[0]) + zvucnik(s[0]) + '</td><td>' + op + '</td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function upisTablica(st){
+  return '<table class="st"><thead><tr><th></th><th>zadatak</th><th>upisati</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      return '<tr><td class="n">' + (i+1) + '</td><td>' + md(s[0]) + '</td><td class="odg">' + esc(s[1]) +
+             zvucnik(String(s[0]).replace('___', s[1])) + '</td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function nastavakTablica(st){
+  return '<table class="st"><thead><tr><th></th><th>hrvatski</th><th>engleski</th><th>nastavak</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      var puna = String(s[0]).replace('___', s[2] === '-' ? '' : (s[2] || ''));
+      return '<tr><td class="n">' + (i+1) + '</td><td class="hr">' + esc(s[0]) + zvucnik(puna) +
+             '</td><td class="en">' + esc(s[1] || '') + '</td>' +
+             '<td><span class="nastavakZnak">' + esc(s[2]) + '</span></td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function razvrstavanjeStupci(g){
+  var st = g.stavke || [];
+  var imena = String((g.meta && g.meta.stupci) || '').split('|').map(function(x){return x.trim();}).filter(Boolean);
+  var grupe = {};
+  st.forEach(function(s){ var k = String(s[1]).trim(); (grupe[k] || (grupe[k] = [])).push(s[0]); });
+  Object.keys(grupe).forEach(function(k){ if(imena.indexOf(k) < 0) imena.push(k + ' ⚠'); });
+  return '<div class="stupci">' + imena.map(function(im){
+    var cist = im.replace(' ⚠','');
+    var rij = grupe[cist] || [];
+    return '<div class="stupac"><h5>' + esc(im) + ' <span style="color:#b3a999">(' + rij.length + ')</span></h5>' +
+      rij.map(function(r){ return '<span>' + esc(r) + '</span>'; }).join('') + '</div>';
+  }).join('') + '</div>';
+}
+function slaganjeTablica(st){
+  return '<table class="st"><thead><tr><th></th><th>rečenica (slaže se od pločica)</th><th>prijevod / dodatne pločice</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      var dod = s.slice(1).map(function(x){
+        var t = String(x);
+        return /^en:/i.test(t) ? '<span class="en">' + esc(t.replace(/^en:\s*/i,'')) + '</span>'
+                               : '<span class="opc">+ ' + esc(t) + '</span>';
+      }).join(' ');
+      return '<tr><td class="n">' + (i+1) + '</td><td class="hr">' + esc(s[0]) + zvucnik(s[0]) +
+             '</td><td>' + (dod || '<span class="en">—</span>') + '</td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function tekstPrikaz(st){
+  var tablicaRedovi = st.filter(function(s){ return /^tab:/i.test(String(s[0])); });
+  if(tablicaRedovi.length >= 2){
+    var html = '<table class="tab">';
+    tablicaRedovi.forEach(function(s, i){
+      var celije = s.slice(0);
+      celije[0] = String(celije[0]).replace(/^tab:\s*/i, '');
+      html += '<tr>' + celije.map(function(c){
+        return i === 0 ? '<th>' + md(c) + '</th>' : '<td>' + md(c) + '</td>';
+      }).join('') + '</tr>';
+    });
+    html += '</table>';
+    var ostatak = st.filter(function(s){ return !/^tab:/i.test(String(s[0])); });
+    if(ostatak.length) html += tekstParagrafi(ostatak);
+    return html;
+  }
+  return tekstParagrafi(st);
+}
+function tekstParagrafi(st){
+  return st.map(function(s){
+    if(s.length >= 2 && String(s[1]).trim()){
+      return '<div style="margin-bottom:7px"><div class="hr">' + md(s[0]) + zvucnik(s[0]) + '</div>' +
+             '<div class="en">' + md(s[1]) + '</div></div>';
+    }
+    return '<p style="margin:0 0 8px">' + md(s[0]) + '</p>';
+  }).join('');
+}
+function poredakPrikaz(st){
+  return '<ol class="odl">' + st.map(function(s){
+    return '<li>' + esc(s[0]) + zvucnik(s[0]) + '</li>';
+  }).join('') + '</ol><div class="en" style="font-size:12px">Prikazan je točan redoslijed; u igri se miješa.</div>';
+}
+function dijalogPrikaz(st){
+  return '<div class="chat">' + st.map(function(s){
+    if(kljucTxt(s[0]) === 'npc'){
+      return '<div class="msg msgNpc">' + esc(s[1]) + zvucnik(s[1]) + '</div>';
+    }
+    var op = s.slice(1).map(function(o, j){
+      return '<span class="opc' + (j === 0 ? ' dobra' : '') + '">' + (j === 0 ? '✓ ' : '') + esc(o) + '</span>' + zvucnik(o);
+    }).join('');
+    return '<div class="msg msgTi"><span class="lbl">ti — izbor</span>' + op + '</div>';
+  }).join('') + '</div>';
+}
+function provjeraPrikaz(st){
+  return '<table class="st"><thead><tr><th></th><th>tip</th><th>pitanje</th><th>odgovor</th></tr></thead><tbody>' +
+    st.map(function(s, i){
+      var tip = String(s[0]), pit = s[1] || '', odg = '';
+      if(tip === 'izbor'){
+        odg = s.slice(2).map(function(o, j){
+          return '<span class="opc' + (j === 0 ? ' dobra' : '') + '">' + (j === 0 ? '✓ ' : '') + esc(o) + '</span>';
+        }).join('');
+      } else if(tip === 'slaganje'){
+        odg = '<span class="odg">' + esc(pit) + '</span>'; pit = '<i>složiti rečenicu</i>';
+      } else {
+        odg = '<span class="odg">' + esc(s[2] || '') + '</span>';
+      }
+      return '<tr><td class="n">' + (i+1) + '</td><td><span class="znak f-' + esc(tip) + '">' + esc(tip) + '</span></td>' +
+             '<td>' + (typeof pit === 'string' && pit.indexOf('<i>') === 0 ? pit : md(pit)) + '</td><td>' + odg + '</td></tr>';
+    }).join('') + '</tbody></table>';
+}
+function stavkePrikaz(g){
+  var st = g.stavke || [];
+  if(!st.length) return '<div class="en">— nema stavki —</div>';
+  if(SLIKOVNI[g.format]) return mrezaSlika(st);
+  if(PAROVI[g.format])   return tablicaPar(st);
+  switch(g.format){
+    case 'izbor':          return izborTablica(st);
+    case 'upis':           return upisTablica(st);
+    case 'nastavak':       return nastavakTablica(st);
+    case 'razvrstavanje':  return razvrstavanjeStupci(g);
+    case 'slaganje':       return slaganjeTablica(st);
+    case 'tekst':          return tekstPrikaz(st);
+    case 'poredak':        return poredakPrikaz(st);
+    case 'dijalog':        return dijalogPrikaz(st);
+    case 'provjera':       return provjeraPrikaz(st);
+    default:               return '<pre class="sirovo">' + esc(JSON.stringify(st, null, 1)) + '</pre>';
+  }
+}
+
+/* ═══════════════ 5b. IGRAČ — vježba se stvarno igra ═══════════════
+   Iste mehanike kao u aplikaciji, uz dvije namjerne razlike za reviziju:
+   prikazuju se SVE stavke (aplikacija uzima nasumičnih 5), i nema bodova,
+   sata koji kažnjava ni pisanja napretka.                                   */
+var IGRAC = (function(){
+
+  function E(tag, cls, txt){
+    var x = document.createElement(tag);
+    if(cls) x.className = cls;
+    if(txt != null) x.textContent = txt;
+    return x;
+  }
+  function mij(a){
+    a = a.slice();
+    for(var i = a.length - 1; i > 0; i--){ var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function mijSig(a){                     /* promiješaj tako da poredak sigurno nije početni */
+    var r = mij(a);
+    if(a.length > 1 && r.join('') === a.join('')) r.reverse();
+    return r;
+  }
+  function norm(s){ return String(s == null ? '' : s).toLowerCase().trim().replace(/[.!?]+$/, ''); }
+  function bezPraznina(t){
+    return String(t == null ? '' : t).replace(/\[([^\[\]]+)\]/g, function(_, x){ return String(x).split('/')[0].trim(); });
+  }
+  var DIGRAFI = ['dž', 'lj', 'nj'];
+  function grafemi(rijec){
+    var s = String(rijec || '').toLowerCase(), out = [], i = 0;
+    while(i < s.length){
+      var dva = s.substr(i, 2);
+      if(DIGRAFI.indexOf(dva) >= 0){ out.push(dva); i += 2; } else { out.push(s.charAt(i)); i++; }
+    }
+    return out;
+  }
+  function zvEl(txt){
+    var p = zvukZa(bezPraznina(txt));
+    if(!p) return null;
+    var b = E('button', 'zvuk', '🔊');
+    b.setAttribute('data-zvuk', p);
+    return b;
+  }
+  function sviraj(txt){
+    var p = zvukZa(bezPraznina(txt));
+    if(!p) return;
+    try{
+      if(trenutniZvuk) trenutniZvuk.pause();
+      trenutniZvuk = new Audio(p);
+      trenutniZvuk.play().catch(function(){});
+    }catch(e){}
+  }
+  function slikaEl(rij, cls){
+    var p = slikaZa(rij);
+    if(!p) return null;
+    var im = E('img', cls || 'igraSlika');
+    im.src = p; im.alt = String(rij);
+    im.onerror = function(){ if(im.parentNode) im.parentNode.removeChild(im); };
+    return im;
+  }
+  function traka(s){
+    var d = E('div', 'igraStatus');
+    s.appendChild(d);
+    return function(l, r){
+      d.innerHTML = '';
+      d.appendChild(E('span', null, l || ''));
+      d.appendChild(E('span', null, r || ''));
+    };
+  }
+  function kraj(s, txt){
+    var d = E('div', 'igraKraj', txt);
+    s.appendChild(d);
+  }
+  function napomena(s, txt){ s.appendChild(E('div', 'igraNapomena', txt)); }
+  function pricaBox(g, s){
+    if(g.meta && g.meta.tekst){
+      var b = E('div', 'pricaBox');
+      b.innerHTML = md(g.meta.tekst);
+      s.appendChild(b);
+    }
+  }
+  function gumb(txt, cls){ return E('button', 'igraGumb' + (cls ? ' ' + cls : ''), txt); }
+
+  /* ---------- izbor ---------- */
+  function igraIzbor(g, s, stavke){
+    stavke = stavke || g.stavke || [];
+    pricaBox(g, s);
+    var st = traka(s), i = 0, tocno = 0;
+    var pit = E('div', 'igraPitanje'); s.appendChild(pit);
+    var ops = E('div', 'igraOpcije'); s.appendChild(ops);
+    function prikazi(){
+      if(i >= stavke.length){
+        st('gotovo', 'točno ' + tocno + '/' + stavke.length);
+        pit.innerHTML = ''; ops.innerHTML = '';
+        kraj(s, '✓ Gotovo — točno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      st('pitanje ' + (i + 1) + '/' + stavke.length, 'točno ' + tocno);
+      var item = stavke[i], tocan = item[1], rijeseno = false, tocanEl = null;
+      pit.innerHTML = md(item[0]);
+      var z = zvEl(item[0]); if(z) pit.appendChild(z);
+      ops.innerHTML = '';
+      mij(item.slice(1)).forEach(function(o){
+        var b = E('div', 'igraOpcija', o);
+        if(o === tocan) tocanEl = b;
+        b.onclick = function(){
+          if(rijeseno) return;
+          rijeseno = true;
+          if(o === tocan){ tocno++; b.classList.add('tocno'); sviraj(o); i++; setTimeout(prikazi, 650); }
+          else { b.classList.add('krivo'); if(tocanEl) tocanEl.classList.add('tocno'); i++; setTimeout(prikazi, 1500); }
+        };
+        ops.appendChild(b);
+      });
+    }
+    prikazi();
+  }
+
+  /* ---------- upis ---------- */
+  function igraUpis(g, s){
+    var stavke = g.stavke || [];
+    pricaBox(g, s);
+    var st = traka(s), i = 0, tocno = 0, rijeseno = false;
+    var pit = E('div', 'igraPitanje'); s.appendChild(pit);
+    var inp = E('input', 'igraUnos'); inp.type = 'text'; inp.autocomplete = 'off'; s.appendChild(inp);
+    var otkr = E('div', 'igraOtkriveno'); s.appendChild(otkr);
+    var b = gumb('Provjeri'); s.appendChild(b);
+    napomena(s, 'Upisuje se samo riječ koja nedostaje, ne cijela rečenica.');
+    function prikazi(){
+      if(i >= stavke.length){
+        st('gotovo', 'točno ' + tocno + '/' + stavke.length);
+        pit.textContent = ''; inp.style.display = 'none'; b.style.display = 'none'; otkr.textContent = '';
+        kraj(s, '✓ Gotovo — točno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      st('zadatak ' + (i + 1) + '/' + stavke.length, 'točno ' + tocno);
+      rijeseno = false;
+      pit.innerHTML = md(stavke[i][0]);
+      otkr.textContent = '';
+      inp.value = ''; inp.className = 'igraUnos'; inp.focus();
+    }
+    function provjeri(){
+      if(rijeseno || i >= stavke.length) return;
+      rijeseno = true;
+      var tocni = String(stavke[i][1] || '').split('/').map(norm);
+      if(tocni.indexOf(norm(inp.value)) !== -1){
+        tocno++; inp.classList.add('tocno');
+        sviraj(String(stavke[i][0]).replace('___', stavke[i][1]));
+        i++; setTimeout(prikazi, 600);
+      } else {
+        inp.classList.add('krivo');
+        otkr.textContent = 'Točno: ' + stavke[i][1];
+        i++; setTimeout(prikazi, 1700);
+      }
+    }
+    b.onclick = provjeri;
+    inp.onkeydown = function(e){ if(e.key === 'Enter'){ e.preventDefault(); provjeri(); } };
+    prikazi();
+  }
+
+  /* ---------- nastavak ---------- */
+  function igraNastavak(g, s){
+    var stavke = g.stavke || [];
+    var nastavci = String((g.meta && g.meta.nastavci) || '').split('|')
+      .map(function(x){ return x.trim(); }).filter(Boolean);
+    if(!nastavci.length) nastavci = ['-', 'a', 'o'];
+    var st = traka(s), i = 0, tocno = 0;
+    var eng = E('div', 'igraEng'); s.appendChild(eng);
+    var pit = E('div', 'igraPitanje'); s.appendChild(pit);
+    var ops = E('div', 'igraOpcije'); ops.style.flexDirection = 'row';
+    ops.style.justifyContent = 'center'; ops.style.flexWrap = 'wrap'; s.appendChild(ops);
+    function prikazi(){
+      if(i >= stavke.length){
+        st('gotovo', 'točno ' + tocno + '/' + stavke.length);
+        eng.textContent = ''; pit.textContent = ''; ops.innerHTML = '';
+        kraj(s, '✓ Gotovo — točno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      st('rečenica ' + (i + 1) + '/' + stavke.length, 'točno ' + tocno);
+      var z = stavke[i], rijeseno = false;
+      eng.textContent = z[1] || '';
+      var dijelovi = String(z[0]).split('___');
+      pit.innerHTML = '';
+      pit.appendChild(document.createTextNode(dijelovi[0] || ''));
+      var slot = E('span', 'praznina', '  ');
+      pit.appendChild(slot);
+      pit.appendChild(document.createTextNode(dijelovi[1] || ''));
+      ops.innerHTML = '';
+      nastavci.forEach(function(n){
+        var b = E('div', 'igraOpcija', n);
+        b.style.minWidth = '70px';
+        b.onclick = function(){
+          if(rijeseno) return;
+          rijeseno = true;
+          var puna = String(z[0]).replace('___', z[2] === '-' ? '' : z[2]);
+          if(n === String(z[2]).trim()){
+            tocno++; b.classList.add('tocno');
+            slot.textContent = n === '-' ? '' : n; slot.classList.add('tocno');
+            sviraj(puna);
+            i++; setTimeout(prikazi, 900);
+          } else {
+            b.classList.add('krivo');
+            slot.textContent = z[2] === '-' ? '—' : z[2];
+            Array.prototype.forEach.call(ops.children, function(c){ if(c.textContent === String(z[2]).trim()) c.classList.add('tocno'); });
+            sviraj(puna);
+            i++; setTimeout(prikazi, 1700);
+          }
+        };
+        ops.appendChild(b);
+      });
+    }
+    prikazi();
+  }
+
+  /* ---------- slaganje ---------- */
+  function igraSlaganje(g, s){
+    var stavke = g.stavke || [];
+    var st = traka(s), i = 0, tocno = 0, rijeseno = false;
+    var vrh = E('div'); s.appendChild(vrh);
+    var odg = E('div', 'odgRed'); s.appendChild(odg);
+    var pool = E('div', 'plocice'); s.appendChild(pool);
+    var otkr = E('div', 'igraOtkriveno'); s.appendChild(otkr);
+    var b = gumb('Provjeri'); s.appendChild(b);
+    function prikazi(){
+      if(i >= stavke.length){
+        st('gotovo', 'točno ' + tocno + '/' + stavke.length);
+        vrh.innerHTML = ''; odg.innerHTML = ''; pool.innerHTML = ''; otkr.textContent = ''; b.style.display = 'none';
+        kraj(s, '✓ Gotovo — točno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      st('rečenica ' + (i + 1) + '/' + stavke.length, 'točno ' + tocno);
+      rijeseno = false;
+      vrh.innerHTML = ''; otkr.textContent = '';
+      var im = slikaEl(stavke[i][0]); if(im) vrh.appendChild(im);
+      var cilj = String(stavke[i][0]).replace(/[.!?]+$/, '').split(/\s+/);
+      var prijevod = null, ekstra = [];
+      stavke[i].slice(1).forEach(function(d){
+        if(/^en:\s*/i.test(d)) prijevod = String(d).replace(/^en:\s*/i, '');
+        else ekstra.push(d);
+      });
+      if(prijevod) vrh.appendChild(E('div', 'igraEng', prijevod));
+      odg.innerHTML = ''; pool.innerHTML = '';
+      mijSig(cilj.concat(ekstra)).forEach(function(w){
+        var e = E('div', 'plocica', w);
+        e.onclick = function(){
+          if(rijeseno) return;
+          (e.parentNode === pool ? odg : pool).appendChild(e);
+        };
+        pool.appendChild(e);
+      });
+      b.onclick = function(){
+        if(rijeseno) return;
+        var slozeno = Array.prototype.map.call(odg.children, function(c){ return c.textContent; });
+        if(slozeno.length !== cilj.length){
+          odg.classList.add('krivo');
+          setTimeout(function(){ odg.classList.remove('krivo'); }, 400);
+          return;
+        }
+        rijeseno = true;
+        var puna = stavke[i][0];
+        if(slozeno.join(' ') === cilj.join(' ')){
+          tocno++;
+          Array.prototype.forEach.call(odg.children, function(c){ c.classList.add('tocno'); });
+          sviraj(puna);
+          i++; setTimeout(prikazi, 1400);
+        } else {
+          Array.prototype.forEach.call(odg.children, function(c){ c.classList.add('krivo'); });
+          otkr.textContent = 'Točno: ' + puna;
+          sviraj(puna);
+          i++; setTimeout(prikazi, 2400);
+        }
+      };
+    }
+    prikazi();
+  }
+
+  /* ---------- razvrstavanje ---------- */
+  function igraRazvrstavanje(g, s){
+    var stavke = g.stavke || [];
+    var stupci = String((g.meta && g.meta.stupci) || '').split('|').map(function(x){ return x.trim(); }).filter(Boolean);
+    if(!stupci.length) stavke.forEach(function(x){ if(x[1] && stupci.indexOf(x[1]) < 0) stupci.push(x[1]); });
+    var st = traka(s), odabrano = null, provjereno = false, kutije = [];
+    var red = E('div', 'sortStupci'); s.appendChild(red);
+    var pool = E('div', 'sortPool'); s.appendChild(pool);
+    var b = gumb('Provjeri'); s.appendChild(b);
+    function stanje(){
+      var n = 0;
+      kutije.forEach(function(k){ n += k.box.querySelectorAll('.sortRijec').length; });
+      st('razvrstano ' + n + '/' + stavke.length, provjereno ? '' : 'provjeri kad si gotov');
+    }
+    stupci.forEach(function(im){
+      var box = E('div', 'sortBox');
+      box.appendChild(E('h5', null, im));
+      kutije.push({ box: box, stupac: im });
+      box.onclick = function(){
+        if(provjereno || !odabrano) return;
+        odabrano.classList.remove('odabrano');
+        box.appendChild(odabrano);
+        odabrano = null;
+        Array.prototype.forEach.call(red.children, function(c){ c.classList.remove('cilj'); });
+        stanje();
+      };
+      red.appendChild(box);
+    });
+    mij(stavke).forEach(function(x){
+      var e = E('div', 'sortRijec', x[0]);
+      e.setAttribute('data-stupac', x[1]);
+      var z = zvEl(x[0]); if(z) e.appendChild(z);
+      e.onclick = function(ev){
+        ev.stopPropagation();
+        if(provjereno) return;
+        if(odabrano) odabrano.classList.remove('odabrano');
+        Array.prototype.forEach.call(red.children, function(c){ c.classList.remove('cilj'); });
+        if(odabrano === e){ odabrano = null; return; }
+        odabrano = e;
+        e.classList.add('odabrano');
+        Array.prototype.forEach.call(red.children, function(c){ c.classList.add('cilj'); });
+      };
+      pool.appendChild(e);
+    });
+    b.onclick = function(){
+      if(provjereno) return;
+      provjereno = true;
+      var tocno = 0;
+      kutije.forEach(function(k){
+        Array.prototype.forEach.call(k.box.querySelectorAll('.sortRijec'), function(e){
+          var ok = e.getAttribute('data-stupac') === k.stupac;
+          e.classList.add(ok ? 'tocno' : 'krivo');
+          if(ok) tocno++;
+        });
+      });
+      Array.prototype.forEach.call(pool.querySelectorAll('.sortRijec'), function(e){ e.classList.add('krivo'); });
+      st('gotovo', 'točno ' + tocno + '/' + stavke.length);
+      b.style.display = 'none';
+      kraj(s, '✓ Gotovo — točno razvrstano ' + tocno + ' od ' + stavke.length);
+    };
+    stanje();
+  }
+
+  /* ---------- parovi / spajanje (dva stupca, u krugovima po 6) ---------- */
+  function igraParovi(g, s, sSlikama){
+    var sve = (g.stavke || []).slice();
+    var PO_KRUGU = 6;
+    var krugovi = [];
+    for(var q = 0; q < sve.length; q += PO_KRUGU) krugovi.push(sve.slice(q, q + PO_KRUGU));
+    var kb = 0;
+    var st = traka(s);
+    var ploca = E('div'); s.appendChild(ploca);
+    if(krugovi.length > 1) napomena(s, 'Sve stavke (' + sve.length + ') podijeljene su u ' + krugovi.length + ' ' + (krugovi.length < 5 ? 'kruga' : 'krugova') + ' po ' + PO_KRUGU + '.');
+    krug();
+
+    function krug(){
+      if(kb >= krugovi.length){
+        ploca.innerHTML = '';
+        st('gotovo', sve.length + '/' + sve.length);
+        kraj(s, '✓ Gotovo — svih ' + sve.length + ' parova spojeno');
+        return;
+      }
+      ploca.innerHTML = '';
+      jedanKrug(krugovi[kb], ploca);
+    }
+    function jedanKrug(stavke, host){
+    var omot = E('div', 'parStupci'); host.appendChild(omot);
+    var lijevo = E('div'), desno = E('div');
+    omot.appendChild(lijevo); omot.appendChild(desno);
+    var odabranoL = null, odabranoD = null, rijeseno = 0, pokusaja = 0;
+    function stanje(){
+      st('krug ' + (kb + 1) + '/' + krugovi.length + ' · spojeno ' + rijeseno + '/' + stavke.length, 'pokušaja ' + pokusaja);
+    }
+    function napraviGumb(tekst, kljuc, strana, slikom){
+      var b = E('div', 'parGumb');
+      if(slikom){
+        var im = slikaEl(tekst, null);
+        if(im){ im.className = ''; b.appendChild(im); }
+        else b.appendChild(E('span', null, tekst));
+      } else {
+        b.appendChild(E('span', null, tekst));
+        var z = zvEl(tekst); if(z && strana === 'L') b.appendChild(z);
+      }
+      b.setAttribute('data-k', kljuc);
+      b.onclick = function(){
+        if(b.classList.contains('tocno')) return;
+        var meta = (strana === 'L') ? 'odabranoL' : 'odabranoD';
+        var trenutni = (strana === 'L') ? odabranoL : odabranoD;
+        if(trenutni) trenutni.classList.remove('odabrano');
+        if(trenutni === b){ if(strana === 'L') odabranoL = null; else odabranoD = null; return; }
+        b.classList.add('odabrano');
+        if(strana === 'L') odabranoL = b; else odabranoD = b;
+        if(odabranoL && odabranoD){
+          pokusaja++;
+          var a = odabranoL, c = odabranoD;
+          if(a.getAttribute('data-k') === c.getAttribute('data-k')){
+            a.classList.remove('odabrano'); c.classList.remove('odabrano');
+            a.classList.add('tocno'); c.classList.add('tocno');
+            sviraj(a.getAttribute('data-hr') || '');
+            rijeseno++;
+            odabranoL = null; odabranoD = null;
+            stanje();
+            if(rijeseno === stavke.length){ kb++; setTimeout(krug, 750); }
+          } else {
+            a.classList.add('krivo'); c.classList.add('krivo');
+            setTimeout(function(){
+              a.classList.remove('krivo', 'odabrano'); c.classList.remove('krivo', 'odabrano');
+            }, 550);
+            odabranoL = null; odabranoD = null;
+            stanje();
+          }
+        }
+      };
+      return b;
+    }
+    mij(stavke).forEach(function(x){
+      var b = napraviGumb(x[0], String(x[0]) + '|' + x[1], 'L', sSlikama);
+      b.setAttribute('data-hr', x[0]);
+      lijevo.appendChild(b);
+    });
+    mij(stavke).forEach(function(x){
+      var b = napraviGumb(x[1] || x[0], String(x[0]) + '|' + x[1], 'D', false);
+      b.setAttribute('data-hr', x[0]);
+      desno.appendChild(b);
+    });
+    stanje();
+    }
+  }
+
+  /* ---------- kartice ---------- */
+  function igraKartice(g, s){
+    var stavke = g.stavke || [];
+    var st = traka(s), otvoreno = 0;
+    var mreza = E('div', 'flipMreza'); s.appendChild(mreza);
+    st('okrenuto 0/' + stavke.length, 'klik na karticu otkriva prijevod');
+    stavke.forEach(function(x){
+      var k = E('div', 'flipKarta');
+      var im = slikaEl(x[0], null);
+      if(im){ im.className = ''; k.appendChild(im); }
+      var hr = E('div', 'hrR', x[0]);
+      var z = zvEl(x[0]); if(z) hr.appendChild(z);
+      k.appendChild(hr);
+      var en = E('div', 'enR', '· · ·');
+      k.appendChild(en);
+      k.onclick = function(){
+        if(k.classList.contains('otvorena')) return;
+        k.classList.add('otvorena');
+        en.textContent = x[1] || '';
+        sviraj(x[0]);
+        otvoreno++;
+        st('okrenuto ' + otvoreno + '/' + stavke.length, '');
+        if(otvoreno === stavke.length) kraj(s, '✓ Sve kartice pročitane');
+      };
+      mreza.appendChild(k);
+    });
+  }
+
+  /* ---------- memorija (u krugovima po 6 parova) ---------- */
+  function igraMemorija(g, s){
+    var sve = (g.stavke || []).slice();
+    var PO_KRUGU = 6, krugovi = [];
+    for(var q = 0; q < sve.length; q += PO_KRUGU) krugovi.push(sve.slice(q, q + PO_KRUGU));
+    var kb = 0, st = traka(s);
+    var ploca = E('div'); s.appendChild(ploca);
+    if(krugovi.length > 1) napomena(s, 'Sve stavke (' + sve.length + ') podijeljene su u ' + krugovi.length + ' ' + (krugovi.length < 5 ? 'kruga' : 'krugova') + ' po ' + PO_KRUGU + '.');
+    krug();
+    function krug(){
+      if(kb >= krugovi.length){
+        ploca.innerHTML = '';
+        st('gotovo', sve.length + '/' + sve.length);
+        kraj(s, '✓ Gotovo — svi parovi nađeni');
+        return;
+      }
+      ploca.innerHTML = '';
+      jedanKrug(krugovi[kb], ploca);
+    }
+    function jedanKrug(stavke, host){
+    var mreza = E('div', 'memMreza'); host.appendChild(mreza);
+    var karte = [], prva = null, blok = false, nadjeno = 0, poteza = 0;
+    stavke.forEach(function(x, i){
+      karte.push({ k: 'p' + i, rij: x[0], slika: true, opis: x[0] });
+      karte.push({ k: 'p' + i, rij: x[0], slika: false, opis: x[1] || x[0] });
+    });
+    function stanje(){
+      st('krug ' + (kb + 1) + '/' + krugovi.length + ' · parovi ' + nadjeno + '/' + stavke.length, 'poteza ' + poteza);
+    }
+    mij(karte).forEach(function(c){
+      var el = E('div', 'memKarta', '?');
+      el.onclick = function(){
+        if(blok || el.classList.contains('otvorena') || el.classList.contains('rijesena')) return;
+        el.classList.add('otvorena');
+        el.innerHTML = '';
+        var im = c.slika ? slikaEl(c.rij, null) : null;
+        if(im){ im.className = ''; el.appendChild(im); }
+        else el.appendChild(E('span', null, c.opis));
+        if(c.slika || !prva) sviraj(c.rij);
+        if(!prva){ prva = { el: el, c: c }; return; }
+        poteza++;
+        if(prva.c.k === c.k && prva.el !== el){
+          prva.el.classList.add('rijesena'); el.classList.add('rijesena');
+          prva = null; nadjeno++; stanje();
+          if(nadjeno === stavke.length){ kb++; setTimeout(krug, 800); }
+        } else {
+          blok = true;
+          var a = prva.el;
+          setTimeout(function(){
+            a.classList.remove('otvorena'); a.textContent = '?';
+            el.classList.remove('otvorena'); el.textContent = '?';
+            prva = null; blok = false;
+          }, 900);
+          prva = null;
+          stanje();
+        }
+      };
+      mreza.appendChild(el);
+    });
+    stanje();
+    }
+  }
+
+  /* ---------- brzina ---------- */
+  function igraBrzina(g, s){
+    var stavke = g.stavke || [];
+    var trajanje = parseInt((g.meta && g.meta.trajanje) || 60, 10);
+    var st = traka(s), i = 0, tocno = 0, preostalo = trajanje, tajmer = null, krenulo = false;
+    var pit = E('div', 'igraPitanje'); s.appendChild(pit);
+    var ops = E('div', 'igraOpcije'); s.appendChild(ops);
+    napomena(s, 'Sat kreće s prvim odgovorom. U aplikaciji traje ' + trajanje + ' s i uzima 5 riječi.');
+    function stanje(){
+      st('riječ ' + Math.min(i + 1, stavke.length) + '/' + stavke.length,
+         'točno ' + tocno + ' · ' + (krenulo ? preostalo + ' s' : trajanje + ' s'));
+    }
+    function zaustavi(){ if(tajmer){ clearInterval(tajmer); tajmer = null; } }
+    function kreni(){
+      if(krenulo) return;
+      krenulo = true;
+      tajmer = setInterval(function(){
+        preostalo--;
+        stanje();
+        if(preostalo <= 0){
+          zaustavi();
+          pit.textContent = ''; ops.innerHTML = '';
+          kraj(s, '⏱ Vrijeme isteklo — točno ' + tocno + ' od ' + stavke.length);
+        }
+      }, 1000);
+    }
+    function prikazi(){
+      if(i >= stavke.length){
+        zaustavi();
+        pit.textContent = ''; ops.innerHTML = '';
+        kraj(s, '✓ Gotovo — točno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      stanje();
+      var item = stavke[i], rijeseno = false;
+      pit.textContent = item[0];
+      var z = zvEl(item[0]); if(z) pit.appendChild(z);
+      var krivi = mij(stavke.filter(function(x){ return x !== item; })).slice(0, 3).map(function(x){ return x[1]; });
+      ops.innerHTML = '';
+      mij([item[1]].concat(krivi)).forEach(function(o){
+        var b = E('div', 'igraOpcija', o);
+        b.onclick = function(){
+          if(rijeseno) return;
+          rijeseno = true;
+          kreni();
+          if(o === item[1]){ tocno++; b.classList.add('tocno'); sviraj(item[0]); i++; setTimeout(prikazi, 350); }
+          else {
+            b.classList.add('krivo');
+            Array.prototype.forEach.call(ops.children, function(c){ if(c.textContent === item[1]) c.classList.add('tocno'); });
+            i++; setTimeout(prikazi, 900);
+          }
+        };
+        ops.appendChild(b);
+      });
+    }
+    prikazi();
+    return function(){ zaustavi(); };     /* čistač kad se ode s vježbe */
+  }
+
+  /* ---------- poredak ---------- */
+  function igraPoredak(g, s){
+    var linije = (g.stavke || []).map(function(x){ return x[0]; });
+    pricaBox(g, s);
+    var st = traka(s), greske = 0;
+    var odg = E('div', 'odgRed stupac'); s.appendChild(odg);
+    var pool = E('div', 'odl2'); s.appendChild(pool);
+    function slozeno(){
+      return Array.prototype.map.call(odg.children, function(c){ return c.getAttribute('data-r'); });
+    }
+    function stanje(){ st('složeno ' + odg.children.length + '/' + linije.length, 'grešaka ' + greske); }
+    function provjeri(){
+      var sl = slozeno();
+      if(sl.length !== linije.length) return;
+      if(sl.join('') === linije.join('')){
+        Array.prototype.forEach.call(odg.children, function(c){ c.classList.add('tocno'); });
+        kraj(s, '✓ Gotovo — redoslijed točan (grešaka: ' + greske + ')');
+      } else {
+        greske++;
+        stanje();
+        Array.prototype.forEach.call(odg.children, function(c){ c.classList.add('krivo'); });
+        setTimeout(function(){
+          Array.prototype.forEach.call(odg.children, function(c){ c.classList.remove('krivo'); });
+        }, 500);
+      }
+    }
+    mijSig(linije).forEach(function(l){
+      var e = E('div', 'plocica', l);
+      e.setAttribute('data-r', l);
+      var z = zvEl(l); if(z) e.appendChild(z);
+      e.onclick = function(){
+        if(e.classList.contains('tocno')) return;
+        if(e.parentNode === pool){ odg.appendChild(e); stanje(); provjeri(); }
+        else { pool.appendChild(e); stanje(); }
+      };
+      pool.appendChild(e);
+    });
+    stanje();
+  }
+
+  /* ---------- dijalog ---------- */
+  function igraDijalog(g, s){
+    var stavke = g.stavke || [];
+    var st = traka(s), i = 0;
+    var chat = E('div', 'chat'); s.appendChild(chat);
+    var ops = E('div', 'igraOpcije'); ops.style.marginTop = '12px'; s.appendChild(ops);
+    function mjehur(txt, moj){
+      var m = E('div', 'msg ' + (moj ? 'msgTi' : 'msgNpc'), txt);
+      var z = zvEl(txt); if(z) m.appendChild(z);
+      chat.appendChild(m);
+      m.scrollIntoView({ block: 'nearest' });
+      if(!moj) sviraj(txt);
+    }
+    function dalje(){
+      while(i < stavke.length && kljucTxt(stavke[i][0]) === 'npc'){ mjehur(stavke[i][1], false); i++; }
+      st('replika ' + Math.min(i + 1, stavke.length) + '/' + stavke.length, '');
+      if(i >= stavke.length){
+        ops.innerHTML = '';
+        kraj(s, '✓ Razgovor gotov');
+        return;
+      }
+      ops.innerHTML = '';
+      stavke[i].slice(1).forEach(function(o){
+        var b = E('div', 'igraOpcija', o);
+        b.onclick = function(){ mjehur(o, true); sviraj(o); i++; dalje(); };
+        ops.appendChild(b);
+      });
+    }
+    dalje();
+  }
+
+  /* ---------- provjera ---------- */
+  function igraProvjera(g, s){
+    var zadaci = g.stavke || [];
+    var prag = parseInt((g.meta && g.meta.prag), 10) || 80;
+    var st = traka(s), i = 0, tocno = 0;
+    var ploca = E('div'); s.appendChild(ploca);
+    function dalje(ok, ms){ if(ok) tocno++; i++; setTimeout(prikazi, ms); }
+    function prikazi(){
+      if(i >= zadaci.length){
+        var post = Math.round(tocno / zadaci.length * 100);
+        ploca.innerHTML = '';
+        st('gotovo', tocno + '/' + zadaci.length);
+        kraj(s, (post >= prag ? '✓ PROŠAO' : '✕ ispod praga') + ' — ' + tocno + '/' + zadaci.length +
+                ' (' + post + '%, prag ' + prag + '%)');
+        return;
+      }
+      st('zadatak ' + (i + 1) + '/' + zadaci.length, 'točno ' + tocno);
+      var z = zadaci[i], tip = kljucTxt(z[0]);
+      ploca.innerHTML = '';
+      if(tip === 'izbor') zadIzbor(z);
+      else if(tip === 'upis') zadUpis(z);
+      else if(tip === 'slaganje') zadSlaganje(z);
+      else { i++; prikazi(); }
+    }
+    function zadIzbor(z){
+      var rijeseno = false;
+      var pit = E('div', 'igraPitanje'); pit.innerHTML = md(z[1]); ploca.appendChild(pit);
+      var ops = E('div', 'igraOpcije'); ploca.appendChild(ops);
+      mij(z.slice(2)).forEach(function(o){
+        var b = E('div', 'igraOpcija', o);
+        b.onclick = function(){
+          if(rijeseno) return;
+          rijeseno = true;
+          var ok = (o === z[2]);
+          if(ok){ b.classList.add('tocno'); sviraj(o); }
+          else {
+            b.classList.add('krivo');
+            Array.prototype.forEach.call(ops.children, function(c){ if(c.textContent === z[2]) c.classList.add('tocno'); });
+          }
+          dalje(ok, ok ? 550 : 1400);
+        };
+        ops.appendChild(b);
+      });
+    }
+    function zadUpis(z){
+      var rijeseno = false;
+      var pit = E('div', 'igraPitanje'); pit.innerHTML = md(z[1]); ploca.appendChild(pit);
+      var inp = E('input', 'igraUnos'); inp.type = 'text'; inp.autocomplete = 'off'; ploca.appendChild(inp);
+      var otkr = E('div', 'igraOtkriveno'); ploca.appendChild(otkr);
+      var b = gumb('Provjeri'); ploca.appendChild(b);
+      function provjeri(){
+        if(rijeseno) return;
+        rijeseno = true;
+        var tocni = String(z[2] || '').split('/').map(norm);
+        var ok = tocni.indexOf(norm(inp.value)) !== -1;
+        if(ok) inp.classList.add('tocno');
+        else { inp.classList.add('krivo'); otkr.textContent = 'Točno: ' + z[2]; }
+        dalje(ok, ok ? 550 : 1600);
+      }
+      b.onclick = provjeri;
+      inp.onkeydown = function(e){ if(e.key === 'Enter'){ e.preventDefault(); provjeri(); } };
+      inp.focus();
+    }
+    function zadSlaganje(z){
+      var rijeseno = false;
+      var cilj = String(z[1]).replace(/[.!?]+$/, '').split(/\s+/);
+      ploca.appendChild(E('div', 'igraPitanje', 'Složi rečenicu:'));
+      var im = slikaEl(z[1]); if(im) ploca.appendChild(im);
+      var odg = E('div', 'odgRed'); ploca.appendChild(odg);
+      var pool = E('div', 'plocice'); ploca.appendChild(pool);
+      var otkr = E('div', 'igraOtkriveno'); ploca.appendChild(otkr);
+      var b = gumb('Provjeri'); ploca.appendChild(b);
+      mijSig(cilj).forEach(function(w){
+        var e = E('div', 'plocica', w);
+        e.onclick = function(){ if(!rijeseno) (e.parentNode === pool ? odg : pool).appendChild(e); };
+        pool.appendChild(e);
+      });
+      b.onclick = function(){
+        if(rijeseno) return;
+        var sl = Array.prototype.map.call(odg.children, function(c){ return c.textContent; });
+        if(sl.length !== cilj.length){
+          odg.classList.add('krivo');
+          setTimeout(function(){ odg.classList.remove('krivo'); }, 400);
+          return;
+        }
+        rijeseno = true;
+        var ok = sl.join(' ') === cilj.join(' ');
+        Array.prototype.forEach.call(odg.children, function(c){ c.classList.add(ok ? 'tocno' : 'krivo'); });
+        if(!ok) otkr.textContent = 'Točno: ' + z[1];
+        sviraj(z[1]);
+        dalje(ok, ok ? 1200 : 2200);
+      };
+    }
+    prikazi();
+  }
+
+  /* ---------- slova ---------- */
+  function igraSlova(g, s){
+    var zadaci = g.stavke || [];
+    var st = traka(s), n = 0, tocnih = 0;
+    var ploca = E('div'); s.appendChild(ploca);
+    function krug(){
+      if(n >= zadaci.length){
+        ploca.innerHTML = '';
+        st('gotovo', tocnih + '/' + zadaci.length);
+        kraj(s, '✓ Gotovo — složeno ' + tocnih + ' od ' + zadaci.length);
+        return;
+      }
+      st('riječ ' + (n + 1) + '/' + zadaci.length, 'složeno ' + tocnih);
+      var rijec = zadaci[n][0], dijelovi = grafemi(rijec), mamci = [];
+      dijelovi.forEach(function(d){ if(DIGRAFI.indexOf(d) >= 0){ mamci.push(d.charAt(0)); mamci.push(d.charAt(1)); } });
+      ploca.innerHTML = '';
+      var im = slikaEl(rijec);
+      if(im) ploca.appendChild(im);
+      else ploca.appendChild(E('div', 'igraEng', zadaci[n][1] || ''));
+      var slag = E('div', 'odgRed'); ploca.appendChild(slag);
+      var plocice = E('div', 'plocice'); ploca.appendChild(plocice);
+      var mjesta = [], uneseno = [];
+      dijelovi.forEach(function(){
+        var m = E('div', 'plocica', ' ');
+        m.style.minWidth = '34px';
+        slag.appendChild(m); mjesta.push(m);
+      });
+      function osvjezi(){
+        mjesta.forEach(function(m, i){ m.textContent = uneseno[i] ? uneseno[i].d : ' '; });
+      }
+      function provjeri(){
+        var slozeno = uneseno.map(function(x){ return x.d; }).join('');
+        if(slozeno === String(rijec).toLowerCase()){
+          tocnih++;
+          mjesta.forEach(function(m){ m.classList.add('tocno'); });
+          sviraj(rijec);
+          n++; setTimeout(krug, 1200);
+        } else {
+          mjesta.forEach(function(m){ m.classList.add('krivo'); });
+          setTimeout(function(){
+            mjesta.forEach(function(m){ m.classList.remove('krivo'); });
+            uneseno.forEach(function(x){ x.p.classList.remove('potroseno'); });
+            uneseno = [];
+            osvjezi();
+          }, 700);
+        }
+      }
+      mij(dijelovi.concat(mamci)).forEach(function(d){
+        var p = E('div', 'plocica', d);
+        p.onclick = function(){
+          if(uneseno.length >= dijelovi.length || p.classList.contains('potroseno')) return;
+          uneseno.push({ d: d, p: p });
+          p.classList.add('potroseno');
+          osvjezi();
+          if(uneseno.length === dijelovi.length) provjeri();
+        };
+        plocice.appendChild(p);
+      });
+      var vrati = gumb('⌫ Vrati', 'tiho');
+      vrati.onclick = function(){
+        var z = uneseno.pop();
+        if(z) z.p.classList.remove('potroseno');
+        osvjezi();
+      };
+      ploca.appendChild(vrati);
+      napomena(ploca, 'dž, lj i nj su jedno slovo — zato su ponuđeni i rastavljeni mamci.');
+    }
+    krug();
+  }
+
+  /* ---------- pamti ---------- */
+  function igraPamti(g, s){
+    var bazen = g.stavke || [];
+    var st = traka(s), krugova = 0, tocnih = 0;
+    var ploca = E('div'); s.appendChild(ploca);
+    var UKUPNO = 3;
+    function krug(){
+      krugova++;
+      if(krugova > UKUPNO){
+        ploca.innerHTML = '';
+        st('gotovo', tocnih + '/' + UKUPNO);
+        kraj(s, '✓ Gotovo — ' + tocnih + ' od ' + UKUPNO + ' krugova točno');
+        return;
+      }
+      st('krug ' + krugova + '/' + UKUPNO, 'točno ' + tocnih);
+      var niz = mij(bazen).slice(0, 3);
+      ploca.innerHTML = '';
+      ploca.appendChild(E('div', 'igraEng', 'Zapamti redoslijed…'));
+      var red = E('div', 'plocice');
+      niz.forEach(function(x){
+        var k = E('div', 'flipKarta');
+        var im = slikaEl(x[0], null);
+        if(im){ im.className = ''; k.appendChild(im); }
+        k.appendChild(E('div', 'hrR', x[0]));
+        red.appendChild(k);
+        sviraj(x[0]);
+      });
+      ploca.appendChild(red);
+      setTimeout(function(){
+        if(!ploca.isConnected) return;
+        ploca.innerHTML = '';
+        ploca.appendChild(E('div', 'igraEng', 'Sada ih odaberi istim redom.'));
+        var izbor = mij(bazen.filter(function(x){ return niz.indexOf(x) < 0; })).slice(0, 3).concat(niz);
+        var mreza = E('div', 'flipMreza'); ploca.appendChild(mreza);
+        var k = 0, pogrijesio = false;
+        mij(izbor).forEach(function(x){
+          var kar = E('div', 'flipKarta');
+          var im = slikaEl(x[0], null);
+          if(im){ im.className = ''; kar.appendChild(im); }
+          else kar.appendChild(E('div', 'hrR', x[0]));
+          kar.onclick = function(){
+            if(kar.classList.contains('otvorena')) return;
+            if(x === niz[k]){
+              kar.classList.add('otvorena');
+              kar.style.borderColor = '#2f6d4f';
+              sviraj(x[0]);
+              k++;
+              if(k === niz.length){
+                if(!pogrijesio) tocnih++;
+                setTimeout(krug, 900);
+              }
+            } else {
+              pogrijesio = true;
+              kar.style.borderColor = '#c2413c';
+              setTimeout(function(){ kar.style.borderColor = ''; }, 500);
+            }
+          };
+          mreza.appendChild(kar);
+        });
+      }, 2600);
+    }
+    krug();
+  }
+
+  /* ---------- baloni ---------- */
+  function igraBaloni(g, s){
+    var stavke = g.stavke || [];
+    var st = traka(s), i = 0, tocno = 0;
+    var ploca = E('div'); s.appendChild(ploca);
+    napomena(s, 'U aplikaciji riječi lebde kao baloni; ovdje je isti izbor bez animacije.');
+    function krug(){
+      if(i >= stavke.length){
+        ploca.innerHTML = '';
+        st('gotovo', tocno + '/' + stavke.length);
+        kraj(s, '✓ Gotovo — pogođeno ' + tocno + ' od ' + stavke.length);
+        return;
+      }
+      st('slika ' + (i + 1) + '/' + stavke.length, 'pogođeno ' + tocno);
+      var item = stavke[i], rijeseno = false;
+      ploca.innerHTML = '';
+      var im = slikaEl(item[0]);
+      if(im) ploca.appendChild(im);
+      else ploca.appendChild(E('div', 'igraPitanje', item[1] || item[0]));
+      var krivi = mij(stavke.filter(function(x){ return x !== item; })).slice(0, 3).map(function(x){ return x[0]; });
+      var ops = E('div', 'igraOpcije'); ploca.appendChild(ops);
+      mij([item[0]].concat(krivi)).forEach(function(o){
+        var b = E('div', 'igraOpcija', o);
+        b.onclick = function(){
+          if(rijeseno) return;
+          rijeseno = true;
+          if(o === item[0]){ tocno++; b.classList.add('tocno'); sviraj(o); i++; setTimeout(krug, 700); }
+          else {
+            b.classList.add('krivo');
+            Array.prototype.forEach.call(ops.children, function(c){ if(c.textContent === item[0]) c.classList.add('tocno'); });
+            i++; setTimeout(krug, 1300);
+          }
+        };
+        ops.appendChild(b);
+      });
+    }
+    krug();
+  }
+
+  /* ---------- zid ---------- */
+  function igraZid(g, s){
+    var stavke = g.stavke || [];
+    traka(s)('zid riječi', stavke.length + ' riječi — klik pušta snimku');
+    var mreza = E('div', 'flipMreza'); s.appendChild(mreza);
+    stavke.forEach(function(x){
+      var k = E('div', 'flipKarta');
+      var im = slikaEl(x[0], null);
+      if(im){ im.className = ''; k.appendChild(im); }
+      k.appendChild(E('div', 'hrR', x[0]));
+      k.appendChild(E('div', 'enR', x[1] || ''));
+      k.onclick = function(){ k.classList.add('otvorena'); sviraj(x[0]); };
+      mreza.appendChild(k);
+    });
+  }
+
+  /* ---------- tekst (stranica za čitanje, s prazninama) ---------- */
+  function igraTekst(g, s){
+    var stavke = g.stavke || [];
+    var praznine = [], provjereno = false;
+    var omot = E('div', 'tekstStr'); s.appendChild(omot);
+
+    function poljePraznine(spec){
+      var tocni = String(spec).split('/').map(function(x){ return x.trim(); }).filter(Boolean);
+      var rijec = tocni[0] || '';
+      var inp = E('input', 'praznina');
+      inp.type = 'text'; inp.autocomplete = 'off'; inp.spellcheck = false;
+      inp.style.width = Math.max(3, rijec.length + 1) + 'ch';
+      var p = { inp: inp, tocni: tocni.map(norm), rijec: rijec, ok: null };
+      praznine.push(p);
+      inp.oninput = function(){ inp.classList.remove('krivo', 'tocno'); brojac(); };
+      inp.onkeydown = function(e){
+        if(e.key !== 'Enter') return;
+        e.preventDefault();
+        var k = praznine.indexOf(p);
+        if(k >= 0 && k + 1 < praznine.length) praznine[k + 1].inp.focus();
+        else zavrsi();
+      };
+      return inp;
+    }
+    function komadi(raw, prvi){
+      var t = String(raw == null ? '' : t0(raw)), frag = document.createDocumentFragment();
+      var re = /\[([^\[\]]+)\]/g, zadnji = 0, m, prvo = prvi;
+      while((m = re.exec(t)) !== null){
+        var prije = t.slice(zadnji, m.index);
+        if(prije){ frag.appendChild(span(prije, prvo)); prvo = false; }
+        frag.appendChild(poljePraznine(m[1]));
+        zadnji = m.index + m[0].length;
+      }
+      var ost = t.slice(zadnji);
+      if(ost || prvo) frag.appendChild(span(ost, prvo));
+      return frag;
+    }
+    function t0(x){ return x; }
+    function span(txt, prvi){
+      var sp = E('span');
+      if(prvi){
+        var m = String(txt).match(/^\*\*(.+?)\*\*\s*/);
+        sp.innerHTML = m ? '<span class="vodilja">' + md(m[1]) + '</span>' + md(String(txt).slice(m[0].length)) : md(txt);
+      } else sp.innerHTML = md(txt);
+      return sp;
+    }
+    function odlomak(stavka){
+      var p = E('p');
+      if(stavka.length >= 2 && String(stavka[1]).trim()){
+        var hr = E('span'); hr.appendChild(komadi(stavka[0], true)); p.appendChild(hr);
+        var z = zvEl(stavka[0]); if(z) p.appendChild(z);
+        var tg = E('span', 'enGumb', 'EN');
+        var tr = E('span', 'enTekst'); tr.innerHTML = md(stavka[1]);
+        tg.onclick = function(){
+          var on = tr.style.display !== 'block';
+          tr.style.display = on ? 'block' : 'none';
+          tg.classList.toggle('on', on);
+        };
+        p.appendChild(tg); p.appendChild(tr);
+      } else {
+        p.appendChild(komadi(stavka.join(' '), true));
+        var z2 = zvEl(stavka.join(' ')); if(z2) p.appendChild(z2);
+      }
+      return p;
+    }
+    function tablica(blok){
+      function celije(st){
+        var prvi = String(st[0]).replace(/^tab:\s*/i, '').trim();
+        var ost = st.slice(1).map(function(x){ return String(x).trim(); });
+        return (prvi ? [prvi] : []).concat(ost);
+      }
+      var t = E('table'), thead = E('thead'), tr = E('tr');
+      celije(blok[0]).forEach(function(c){ var th = E('th'); th.innerHTML = md(c); tr.appendChild(th); });
+      thead.appendChild(tr); t.appendChild(thead);
+      var tb = E('tbody');
+      blok.slice(1).forEach(function(st){
+        var r = E('tr');
+        celije(st).forEach(function(c, k){
+          var el = E(k === 0 ? 'th' : 'td');
+          el.innerHTML = md(c);
+          var cist = String(c).replace(/\*/g, '').trim();
+          if(cist.length > 1 && cist.charAt(0) !== '-'){ var z = zvEl(cist); if(z) el.appendChild(z); }
+          r.appendChild(el);
+        });
+        tb.appendChild(r);
+      });
+      t.appendChild(tb);
+      return t;
+    }
+
+    /* stavke → blokovi */
+    var n = 0, blokovi = [], duljina = 0;
+    while(n < stavke.length){
+      var prvo = String(stavke[n][0] || '').trim();
+      duljina += prvo.length;
+      if(/^sek:/i.test(prvo)){ blokovi.push({ v: 'sek', naslov: prvo.replace(/^sek:\s*/i, '') }); n++; continue; }
+      if(/^tab:/i.test(prvo)){
+        var blok = [];
+        while(n < stavke.length && /^tab:/i.test(String(stavke[n][0] || '').trim())){ blok.push(stavke[n]); n++; }
+        blokovi.push({ v: 'el', el: tablica(blok) });
+        continue;
+      }
+      var vod = prvo.match(/^\*\*(.+?)\*\*/);
+      blokovi.push({ v: 'p', st: stavke[n], naslov: vod ? vod[1] : null });
+      n++;
+    }
+    var rezova = 0;
+    blokovi.forEach(function(b){ if(b.v === 'sek' || (b.v === 'p' && b.naslov)) rezova++; });
+    var uOdjeljcima = rezova >= 2 && duljina >= 400;
+    var tren = null, redni = 0;
+    blokovi.forEach(function(b){
+      if(uOdjeljcima && (b.v === 'sek' || (b.v === 'p' && b.naslov))){
+        redni++;
+        var sek = E('div', 'odlSek' + (redni === 1 ? ' otvoren' : ''));
+        var glava = E('button', 'odlSekGlava');
+        glava.innerHTML = '<span style="color:#8b8377">›</span> ' + md(String(b.naslov || '').replace(/[:.]\s*$/, ''));
+        var tijelo = E('div', 'odlSekTijelo');
+        glava.onclick = function(){ sek.classList.toggle('otvoren'); };
+        sek.appendChild(glava); sek.appendChild(tijelo);
+        omot.appendChild(sek);
+        tren = tijelo;
+        if(b.v === 'sek') return;
+      }
+      (tren || omot).appendChild(b.v === 'el' ? b.el : odlomak(b.st));
+    });
+
+    var brojacEl = null;
+    if(praznine.length){ brojacEl = E('div', 'odlBrojac'); s.appendChild(brojacEl); }
+    var b = gumb(praznine.length ? 'Provjeri odgovore' : '✓ Pročitano');
+    s.appendChild(b);
+    function tocnih(){
+      var t = 0;
+      praznine.forEach(function(p){
+        if(provjereno ? p.ok : p.tocni.indexOf(norm(p.inp.value)) !== -1) t++;
+      });
+      return t;
+    }
+    function brojac(){
+      if(!brojacEl) return;
+      var pop = 0;
+      praznine.forEach(function(p){ if(p.inp.value.trim()) pop++; });
+      brojacEl.textContent = provjereno
+        ? tocnih() + ' od ' + praznine.length + ' točno'
+        : pop + ' od ' + praznine.length + ' praznina popunjeno';
+    }
+    function zavrsi(){
+      if(!praznine.length){ b.style.display = 'none'; kraj(s, '✓ Stranica pročitana'); return; }
+      if(provjereno) return;
+      provjereno = true;
+      praznine.forEach(function(p){
+        var sek = p.inp.closest ? p.inp.closest('.odlSek') : null;
+        if(sek) sek.classList.add('otvoren');
+        p.ok = p.tocni.indexOf(norm(p.inp.value)) !== -1;
+        p.inp.disabled = true;
+        p.inp.classList.add(p.ok ? 'tocno' : 'krivo');
+        if(!p.ok){
+          p.inp.value = p.inp.value.trim() || '—';
+          var t = E('span', 'prazninaTrag', ' ' + p.rijec);
+          if(p.inp.parentNode) p.inp.parentNode.insertBefore(t, p.inp.nextSibling);
+        }
+      });
+      brojac();
+      b.style.display = 'none';
+      kraj(s, '✓ Gotovo — točno ' + tocnih() + ' od ' + praznine.length + ' praznina');
+    }
+    b.onclick = zavrsi;
+    brojac();
+    if(praznine.length) napomena(s, praznine.length + ' praznina na stranici — Enter skače na sljedeću.');
+  }
+
+  var IGRE_PO_FORMATU = {
+    izbor:         function(g, s){ return igraIzbor(g, s); },
+    upis:          igraUpis,
+    nastavak:      igraNastavak,
+    slaganje:      igraSlaganje,
+    razvrstavanje: igraRazvrstavanje,
+    parovi:        function(g, s){ return igraParovi(g, s, false); },
+    spajanje:      function(g, s){ return igraParovi(g, s, true); },
+    kartice:       igraKartice,
+    memorija:      igraMemorija,
+    brzina:        igraBrzina,
+    poredak:       igraPoredak,
+    dijalog:       igraDijalog,
+    provjera:      igraProvjera,
+    slova:         igraSlova,
+    pamti:         igraPamti,
+    baloni:        igraBaloni,
+    zid:           igraZid,
+    tekst:         igraTekst
+  };
+
+  var cistac = null;
+  return {
+    pokreni: function(g, host){
+      if(cistac){ try{ cistac(); }catch(e){} cistac = null; }
+      host.innerHTML = '';
+      var f = IGRE_PO_FORMATU[g.format];
+      if(!f){
+        host.innerHTML = '<div class="igraNapomena">Format „' + esc(g.format) + '” nema interaktivni prikaz — vidi sve stavke ispod.</div>';
+        return;
+      }
+      try{ cistac = f(g, host) || null; }
+      catch(err){
+        host.innerHTML = '<div class="igraNapomena" style="color:#c2413c">Greška u prikazu: ' + esc(err.message) + '</div>';
+      }
+    },
+    zaustavi: function(){ if(cistac){ try{ cistac(); }catch(e){} cistac = null; } }
+  };
+})();
+
+/* ═══════════════ 6. KARTICA ═══════════════ */
+function kartica(g){
+  var o = oc(g._id) || {};
+  var status = o.status || '';
+  var m = g.meta || {};
+  var meta = [];
+  if(m.prag)     meta.push('prag ' + m.prag + '%');
+  if(m.trajanje) meta.push('trajanje ' + m.trajanje + ' s');
+  if(m.stupci)   meta.push('stupci: ' + m.stupci);
+  if(m.nastavci) meta.push('nastavci: ' + m.nastavci);
+  if(m.infoodmah) meta.push('info odmah');
+  meta.push((g.stavke || []).length + ' stavki');
+  meta.push('sortkljuc ' + g.sortkljuc);
+
+  return '<article class="karta' + (status ? ' st-' + status : '') + '" data-id="' + esc(g._id) + '" data-i="' + g._i + '">' +
+    '<div class="kg">' +
+      '<span class="kod">' + esc(g.cjelina || '—') + ' · str ' + esc(g.stranica) + '</span>' +
+      '<span class="znak f-' + esc(g.format) + '">' + esc(g.format) + '</span>' +
+      '<h3>' + esc(g.naslov || '(bez naslova)') + '</h3>' +
+      '<span class="bod">' + esc(g.bodovi != null ? g.bodovi + ' bod.' : '') + '</span>' +
+      '<span class="stanje ' + (status || 'neoc') + '">' +
+        (status === 'prolaz' ? '✓ prolaz' : status === 'izbaci' ? '✕ izbačeno' : 'neocijenjeno') + '</span>' +
+    '</div>' +
+    '<div class="telo">' +
+      (m.opis ? '<div class="opis">' + md(m.opis) + '</div>' : '') +
+      (m.info ? '<div class="infobox">' + md(m.info) + '</div>' : '') +
+      (m.tekst ? '<div class="pricaBox">' + md(m.tekst) + '</div>' : '') +
+      '<div class="metared">' + meta.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join('') + '</div>' +
+      (g._u.length ? '<div class="upoz">' + g._u.map(function(u){
+          return '<b' + (u.tvrd ? ' class="tvrd"' : '') + '>⚠ ' + esc(u.t) + '</b>'; }).join('') + '</div>' : '') +
+      stavkePrikaz(g) +
+    '</div>' +
+    '<div class="kn">' +
+      '<div class="oc">' +
+        '<button class="p' + (status === 'prolaz' ? ' on' : '') + '" data-act="prolaz">✓ Prolaz</button>' +
+        '<button class="x' + (status === 'izbaci' ? ' on' : '') + '" data-act="izbaci">✕ Izbaci</button>' +
+        '<button class="o" data-act="ocisti" title="Poništi ocjenu">↺</button>' +
+      '</div>' +
+      '<textarea class="' + (o.bilj ? 'ima' : '') + '" placeholder="Bilješka o ovoj vježbi…">' + esc(o.bilj || '') + '</textarea>' +
+    '</div>' +
+  '</article>';
+}
+
+/* ═══════════════ 7. PRIKAZ ═══════════════ */
+var pogled = 'fokus';             /* 'fokus' | 'lekcija' | 'popis' */
+var trenutnaCjelina = Math.min(S.zadnjaCjelina || 0, Math.max(0, CJELINE.length - 1));
+var vidljive = [];                /* id-evi kartica koje su trenutno na ekranu */
+var zarIdx = 0;                   /* indeks aktivne kartice unutar vidljive */
+var fokusI = 0;                   /* indeks vježbe koja se trenutno igra */
+
+function filterVrijednost(){ return document.getElementById('filter').value; }
+function prolaziFilter(g){
+  var ff = document.getElementById('filterFormat').value;
+  if(ff && ff !== 'sve' && g.format !== ff) return false;
+  var f = filterVrijednost(), o = oc(g._id) || {};
+  if(f === 'sve') return true;
+  if(f === 'neoc') return !o.status;
+  if(f === 'prolaz') return o.status === 'prolaz';
+  if(f === 'izbaci') return o.status === 'izbaci';
+  if(f === 'bilj') return !!o.bilj;
+  if(f === 'upoz') return g._u.length > 0;
+  if(f === 'izmij') return jeIzmijenjeno(g);
+  return true;
+}
+function trazilicaTekst(g){
+  if(g._tekst) return g._tekst;
+  var d = [g.cjelina, g.cjelinanaslov, g.naslov, g.format];
+  var m = g.meta || {};
+  d.push(m.opis, m.info, m.tekst, m.stupci);
+  (g.stavke || []).forEach(function(s){ d.push(Array.isArray(s) ? s.join(' ') : s); });
+  g._tekst = d.join(' ').toLowerCase();
+  return g._tekst;
+}
+
+function crtajBok(){
+  var pojam = document.getElementById('trazi').value.trim().toLowerCase();
+  var html = '<h4>Cjeline (' + CJELINE.length + ')</h4>';
+  CJELINE.forEach(function(c){
+    var p = 0, x = 0, b = 0;
+    c.igre.forEach(function(g){
+      var o = oc(g._id) || {};
+      if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++;
+      if(o.bilj) b++;
+    });
+    var pogodak = !pojam || (c.ime + ' ' + c.naslov).toLowerCase().indexOf(pojam) >= 0 ||
+                  c.igre.some(function(g){ return trazilicaTekst(g).indexOf(pojam) >= 0; });
+    var mini = c.igre.map(function(g){
+      var o = oc(g._id) || {};
+      return '<i class="' + (o.status === 'prolaz' ? 'p' : o.status === 'izbaci' ? 'x' : '') + '"></i>';
+    }).join('');
+    html += '<button class="lek' + (c.i === trenutnaCjelina && pogled !== 'popis' ? ' on' : '') +
+            (pogodak ? '' : ' prigusen') + '" data-c="' + c.i + '">' +
+      '<span class="ime">' + esc(c.ime) + ' <span style="color:#b3a999;font-weight:400">' +
+        (p + x) + '/' + c.igre.length + (b ? ' · ' + b + ' ✎' : '') + '</span></span>' +
+      '<span class="pod">' + esc(c.naslov) + '</span>' +
+      '<span class="mini">' + mini + '</span>' +
+    '</button>';
+  });
+  document.getElementById('bok').innerHTML = html;
+}
+
+/* ---------- fokus: jedna vježba, igra se, pa dalje ---------- */
+function redFokusa(){
+  var pojam = document.getElementById('trazi').value.trim().toLowerCase();
+  return IGRE.filter(function(g){
+    if(!prolaziFilter(g)) return false;
+    if(pojam && trazilicaTekst(g).indexOf(pojam) < 0) return false;
+    return true;
+  });
+}
+function fokusPomak(smjer){
+  var red = redFokusa();
+  if(!red.length){ poruka('Nijedna vježba ne odgovara filtru.'); return; }
+  var tren = IGRE[fokusI];
+  var cilj = null;
+  if(smjer > 0){
+    for(var i = 0; i < red.length; i++){ if(red[i]._i > tren._i){ cilj = red[i]; break; } }
+    if(!cilj){ poruka('Kraj reda — nema više vježbi u ovom filtru.'); return; }
+  } else {
+    for(var k = red.length - 1; k >= 0; k--){ if(red[k]._i < tren._i){ cilj = red[k]; break; } }
+    if(!cilj){ poruka('Ovo je prva vježba u ovom filtru.'); return; }
+  }
+  fokusI = cilj._i;
+  S.zadnjaVjezba = cilj._id; S.zadnjaCjelina = cilj._c; spremi();
+  crtajFokus();
+  document.getElementById('glavno').scrollTop = 0;
+}
+function crtajFokus(){
+  IGRAC.zaustavi();
+  var g = IGRE[fokusI];
+  if(!g) return;
+  trenutnaCjelina = g._c;
+  var el = document.getElementById('glavno');
+  var m = g.meta || {};
+  var o = oc(g._id) || {};
+  var c = CJELINE[g._c];
+
+  var meta = [];
+  if(m.prag)     meta.push('prag ' + m.prag + '%');
+  if(m.trajanje) meta.push('sat ' + m.trajanje + ' s');
+  if(m.stupci)   meta.push('stupci: ' + m.stupci);
+  if(m.nastavci) meta.push('nastavci: ' + m.nastavci);
+  meta.push((g.stavke || []).length + ' stavki');
+  meta.push('sortkljuc ' + g.sortkljuc);
+
+  el.innerHTML =
+    '<div class="fokusOmot">' +
+      '<div class="fokusGlava">' +
+        '<span class="fokusPut">' + esc(c.ime) + ' · ' + esc(c.naslov) + ' · str ' + esc(g.stranica) + '</span>' +
+        '<span class="znak f-' + esc(g.format) + '">' + esc(g.format) + '</span>' +
+        '<span class="bod">' + esc(g.bodovi != null ? g.bodovi + ' bod.' : '') + '</span>' +
+        '<span class="stanje ' + (o.status || 'neoc') + '">' +
+          (o.status === 'prolaz' ? '✓ prolaz' : o.status === 'izbaci' ? '✕ izbačeno' : 'neocijenjeno') + '</span>' +
+      '</div>' +
+      '<div class="fokusGlava"><h2>' + esc(g.naslov || '(bez naslova)') + '</h2></div>' +
+      (jeIzmijenjeno(g) ? '<div class="izmijenjeno">⚠ Ova je vježba u data.js mijenjana nakon što si je ocijenio — ocjena se odnosi na stariju verziju.</div>' : '') +
+      (m.opis ? '<div class="fokusUputa">' + md(m.opis) + '</div>' : '') +
+      '<div class="ploca" id="igraPloca"></div>' +
+      '<div class="fokusAlat">' +
+        '<button class="btn" data-fa="ponovi">↻ Ponovo (R)</button>' +
+        '<span style="flex:1"></span>' +
+        '<span class="metared">' + meta.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join('') + '</span>' +
+      '</div>' +
+      (g._u.length ? '<div class="upoz">' + g._u.map(function(u){
+          return '<b' + (u.tvrd ? ' class="tvrd"' : '') + '>⚠ ' + esc(u.t) + '</b>'; }).join('') + '</div>' : '') +
+      (m.info ? '<details class="sklopivo"><summary>ℹ Info tekst prije igre</summary><div class="infobox" style="margin:10px 0 0">' + md(m.info) + '</div></details>' : '') +
+      '<details class="sklopivo"><summary>📋 Sve stavke (' + (g.stavke || []).length + ') — statično, s odgovorima</summary><div>' +
+        (m.tekst ? '<div class="pricaBox">' + md(m.tekst) + '</div>' : '') +
+        stavkePrikaz(g) +
+      '</div></details>' +
+    '</div>';
+
+  IGRAC.pokreni(g, document.getElementById('igraPloca'));
+  osvjeziDonju();
+  crtajBok();
+}
+function osvjeziDonju(){
+  var g = IGRE[fokusI];
+  if(!g) return;
+  var o = oc(g._id) || {};
+  var d = document.getElementById('donja');
+  d.hidden = (pogled !== 'fokus');
+  document.body.classList.toggle('fokus', pogled === 'fokus');
+  if(d.hidden) return;
+  d.querySelector('[data-f="prolaz"]').classList.toggle('on', o.status === 'prolaz');
+  d.querySelector('[data-f="izbaci"]').classList.toggle('on', o.status === 'izbaci');
+  var ta = document.getElementById('fokusBilj');
+  if(document.activeElement !== ta){ ta.value = o.bilj || ''; }
+  ta.classList.toggle('ima', !!(o.bilj || '').trim());
+  var red = redFokusa();
+  var mjesto = 0;
+  for(var i = 0; i < red.length; i++){ if(red[i]._i <= g._i) mjesto++; }
+  document.getElementById('fokusPoz').textContent =
+    (red.length ? mjesto + '/' + red.length + ' u filtru' : 'izvan filtra') + ' · #' + (g._i + 1) + ' od ' + IGRE.length;
+}
+
+function crtajGlavno(){
+  var el = document.getElementById('glavno');
+  var pojam = document.getElementById('trazi').value.trim().toLowerCase();
+
+  if(pogled === 'fokus'){ crtajFokus(); return; }
+  document.getElementById('donja').hidden = true;
+  document.body.classList.remove('fokus');
+  IGRAC.zaustavi();
+  if(pogled === 'popis'){ el.innerHTML = popisHTML(); vidljive = []; return; }
+
+  var lista, zagl;
+  if(pojam){
+    lista = IGRE.filter(function(g){ return trazilicaTekst(g).indexOf(pojam) >= 0 && prolaziFilter(g); });
+    zagl = '<div class="zaglavlje"><div><h1>Rezultati pretrage</h1>' +
+           '<div class="sub">„' + esc(pojam) + '” — ' + lista.length + ' vježbi' +
+           (lista.length > 150 ? ' (prikazano prvih 150)' : '') + '</div></div></div>';
+    lista = lista.slice(0, 150);
+  } else {
+    var c = CJELINE[trenutnaCjelina];
+    if(!c){ el.innerHTML = '<div class="prazno">Nema podataka.</div>'; return; }
+    lista = c.igre.filter(prolaziFilter);
+    var p = 0, x = 0;
+    c.igre.forEach(function(g){ var o = oc(g._id) || {}; if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++; });
+    zagl = '<div class="zaglavlje"><div><h1>' + esc(c.ime) + ' — ' + esc(c.naslov) + '</h1>' +
+      '<div class="sub">' + c.igre.length + ' vježbi · ✓ ' + p + ' · ✕ ' + x + ' · neocijenjeno ' + (c.igre.length - p - x) +
+      (lista.length !== c.igre.length ? ' · <b>filtar prikazuje ' + lista.length + '</b>' : '') + '</div></div>' +
+      '<div class="prek">' +
+        '<button class="btn" data-svi="prolaz">✓ Prolaz cijeloj cjelini</button>' +
+        '<button class="btn" data-prethodna>← Prethodna</button>' +
+        '<button class="btn" data-sljedeca>Sljedeća →</button>' +
+      '</div></div>';
+  }
+
+  el.innerHTML = zagl + (lista.length
+    ? lista.map(kartica).join('')
+    : '<div class="prazno">Nema vježbi koje odgovaraju filtru.</div>');
+  vidljive = lista.map(function(g){ return g._id; });
+  zarIdx = 0;
+  oznaciZar(false);
+}
+
+function popisHTML(){
+  var pojam = document.getElementById('trazi').value.trim().toLowerCase();
+  var html = '<div class="popis"><div class="zaglavlje"><div><h1>Popis svih vježbi</h1>' +
+             '<div class="sub">Klik na red otvara vježbu u pregledu.</div></div></div>' +
+             '<table class="pop"><thead><tr><th>#</th><th>str</th><th>format</th><th>naslov</th>' +
+             '<th>status</th><th>bilješka</th><th>⚠</th></tr></thead><tbody>';
+  var zadnjaC = null, br = 0;
+  IGRE.forEach(function(g){
+    if(!prolaziFilter(g)) return;
+    if(pojam && trazilicaTekst(g).indexOf(pojam) < 0) return;
+    if(g._c !== zadnjaC){
+      zadnjaC = g._c;
+      var c = CJELINE[g._c];
+      html += '<tr class="grupa"><td colspan="7">' + esc(c.ime) + ' — ' + esc(c.naslov) + '</td></tr>';
+    }
+    var o = oc(g._id) || {};
+    br++;
+    html += '<tr data-i="' + g._i + '">' +
+      '<td style="color:#b3a999">' + (g._i + 1) + '</td>' +
+      '<td>' + esc(g.stranica) + '</td>' +
+      '<td><span class="znakm">' + esc(g.format) + '</span></td>' +
+      '<td>' + esc(g.naslov || '') + '</td>' +
+      '<td class="st-cell ' + (o.status === 'prolaz' ? 'p' : o.status === 'izbaci' ? 'x' : 'n') + '">' +
+        (o.status === 'prolaz' ? '✓ prolaz' : o.status === 'izbaci' ? '✕ izbačeno' : '–') + '</td>' +
+      '<td>' + esc((o.bilj || '').slice(0, 120)) + ((o.bilj || '').length > 120 ? '…' : '') + '</td>' +
+      '<td>' + (g._u.length ? '<span class="znakm">' + g._u.length + '</span>' : '') + '</td>' +
+    '</tr>';
+  });
+  html += '</tbody></table><div class="sub" style="margin:10px 0 0;color:var(--muted)">Prikazano ' + br + ' vježbi.</div></div>';
+  return html;
+}
+
+function osvjeziBrojke(){
+  var p = 0, x = 0, b = 0;
+  IGRE.forEach(function(g){
+    var o = oc(g._id) || {};
+    if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++;
+    if(o.bilj) b++;
+  });
+  var u = IGRE.length;
+  document.getElementById('brP').textContent = p;
+  document.getElementById('brI').textContent = x;
+  document.getElementById('brN').textContent = u - p - x;
+  document.getElementById('brB').textContent = b;
+  document.getElementById('brU').textContent = u;
+  document.getElementById('trakaP').style.width = (u ? p / u * 100 : 0) + '%';
+  document.getElementById('trakaI').style.width = (u ? x / u * 100 : 0) + '%';
+}
+
+function oznaciZar(pomakni){
+  var karte = document.querySelectorAll('#glavno .karta');
+  karte.forEach(function(k, i){ k.classList.toggle('zar', i === zarIdx); });
+  if(pomakni && karte[zarIdx]) karte[zarIdx].scrollIntoView({ block:'start' });
+}
+
+function crtajSve(){
+  crtajBok(); crtajGlavno(); osvjeziBrojke();
+}
+
+/* ═══════════════ 8. INTERAKCIJA ═══════════════ */
+document.getElementById('bok').addEventListener('click', function(e){
+  var b = e.target.closest('.lek');
+  if(!b) return;
+  trenutnaCjelina = +b.getAttribute('data-c');
+  S.zadnjaCjelina = trenutnaCjelina; spremi();
+  if(pogled === 'fokus'){
+    var c = CJELINE[trenutnaCjelina];
+    var cilj = c.igre.filter(prolaziFilter)[0] || c.igre[0];
+    fokusI = cilj._i;
+    S.zadnjaVjezba = cilj._id; spremi();
+    crtajFokus();
+  } else {
+    if(pogled === 'popis') postaviMod('pregled');
+    crtajSve();
+  }
+  document.getElementById('glavno').scrollTop = 0;
+});
+
+/* ---------- donja traka ---------- */
+document.getElementById('donja').addEventListener('click', function(e){
+  var b = e.target.closest('[data-f]');
+  if(!b) return;
+  var act = b.getAttribute('data-f'), g = IGRE[fokusI];
+  if(!g) return;
+  if(act === 'dalje'){ fokusPomak(1); return; }
+  if(act === 'natrag'){ fokusPomak(-1); return; }
+  var trenutni = (oc(g._id) || {}).status || '';
+  if(act === 'ocisti') postaviOcjenu(g._id, null);
+  else postaviOcjenu(g._id, trenutni === act ? null : act);
+  /* prolaz vodi odmah dalje; izbacivanje ostaje da se stigne napisati bilješka */
+  var novi = (oc(g._id) || {}).status;
+  osvjeziDonju(); osvjeziBrojke(); crtajBok();
+  var znak = document.querySelector('#glavno .stanje');
+  if(znak){
+    znak.className = 'stanje ' + (novi || 'neoc');
+    znak.textContent = novi === 'prolaz' ? '✓ prolaz' : novi === 'izbaci' ? '✕ izbačeno' : 'neocijenjeno';
+  }
+  if(act === 'prolaz' && novi === 'prolaz') fokusPomak(1);
+});
+document.getElementById('fokusBilj').addEventListener('input', function(){
+  var g = IGRE[fokusI];
+  if(!g) return;
+  postaviBilj(g._id, this.value);
+  this.classList.toggle('ima', !!this.value.trim());
+  clearTimeout(this._t);
+  var self = this;
+  self._t = setTimeout(function(){ osvjeziBrojke(); crtajBok(); }, 500);
+});
+
+/* ---------- način rada ---------- */
+function postaviMod(m){
+  pogled = m;
+  document.getElementById('modIgraj').classList.toggle('aktiv', m === 'fokus');
+  document.getElementById('modPregled').classList.toggle('aktiv', m === 'lekcija');
+  document.getElementById('modPopis').classList.toggle('aktiv', m === 'popis');
+}
+document.getElementById('modIgraj').addEventListener('click', function(){
+  postaviMod('fokus'); crtajGlavno(); document.getElementById('glavno').scrollTop = 0;
+});
+document.getElementById('modPregled').addEventListener('click', function(){
+  postaviMod('lekcija'); crtajGlavno(); document.getElementById('glavno').scrollTop = 0;
+});
+
+document.getElementById('glavno').addEventListener('click', function(e){
+  /* ponovno pokretanje igre */
+  var pon = e.target.closest('[data-fa="ponovi"]');
+  if(pon){ IGRAC.pokreni(IGRE[fokusI], document.getElementById('igraPloca')); return; }
+  /* popis → skok na vježbu */
+  var red = e.target.closest('tr[data-i]');
+  if(red && pogled === 'popis'){
+    otvoriVjezbu(+red.getAttribute('data-i'));
+    return;
+  }
+  var prethodna = e.target.closest('[data-prethodna]');
+  if(prethodna){ pomakniCjelinu(-1); return; }
+  var sljedeca = e.target.closest('[data-sljedeca]');
+  if(sljedeca){ pomakniCjelinu(1); return; }
+
+  var svi = e.target.closest('[data-svi]');
+  if(svi){
+    var c = CJELINE[trenutnaCjelina];
+    var neoc = c.igre.filter(function(g){ return !(oc(g._id) || {}).status; });
+    if(!neoc.length){ poruka('Sve vježbe u ovoj cjelini već su ocijenjene.'); return; }
+    if(!confirm('Označiti " prolaz" za ' + neoc.length + ' neocijenjenih vježbi u cjelini ' + c.ime + '?')) return;
+    neoc.forEach(function(g){ postaviOcjenu(g._id, 'prolaz'); });
+    crtajSve();
+    poruka(neoc.length + ' vježbi označeno kao prolaz.');
+    return;
+  }
+
+  var karta = e.target.closest('.karta');
+  if(!karta) return;
+
+  /* aktivna kartica */
+  var karte = Array.prototype.slice.call(document.querySelectorAll('#glavno .karta'));
+  zarIdx = karte.indexOf(karta);
+  oznaciZar(false);
+
+  var gumb = e.target.closest('[data-act]');
+  if(gumb){
+    var act = gumb.getAttribute('data-act');
+    primijeni(karta, act === 'ocisti' ? null : act);
+  }
+});
+
+document.getElementById('glavno').addEventListener('input', function(e){
+  if(e.target.tagName !== 'TEXTAREA') return;
+  var karta = e.target.closest('.karta');
+  postaviBilj(karta.getAttribute('data-id'), e.target.value);
+  e.target.classList.toggle('ima', !!e.target.value.trim());
+  clearTimeout(e.target._t);
+  e.target._t = setTimeout(function(){ osvjeziBrojke(); crtajBok(); }, 500);
+});
+
+function primijeni(karta, status){
+  var id = karta.getAttribute('data-id');
+  var trenutni = (oc(id) || {}).status || '';
+  var novi = (trenutni === status) ? null : status;   /* ponovni klik poništava */
+  postaviOcjenu(id, novi);
+
+  karta.classList.remove('st-prolaz', 'st-izbaci');
+  if(novi) karta.classList.add('st-' + novi);
+  var znak = karta.querySelector('.stanje');
+  znak.className = 'stanje ' + (novi || 'neoc');
+  znak.textContent = novi === 'prolaz' ? '✓ prolaz' : novi === 'izbaci' ? '✕ izbačeno' : 'neocijenjeno';
+  karta.querySelector('[data-act="prolaz"]').classList.toggle('on', novi === 'prolaz');
+  karta.querySelector('[data-act="izbaci"]').classList.toggle('on', novi === 'izbaci');
+
+  osvjeziBrojke(); crtajBok();
+}
+
+function otvoriVjezbu(i, uFokus){
+  var g = IGRE[i];
+  if(!g) return;
+  trenutnaCjelina = g._c;
+  S.zadnjaCjelina = trenutnaCjelina; S.zadnjaVjezba = g._id; spremi();
+  if(uFokus !== false){
+    fokusI = i;
+    postaviMod('fokus');
+    crtajFokus(); osvjeziBrojke();
+    document.getElementById('glavno').scrollTop = 0;
+    return;
+  }
+  document.getElementById('trazi').value = '';
+  postaviMod('lekcija');
+  crtajSve();
+  var el = document.querySelector('#glavno .karta[data-id="' + g._id + '"]');
+  if(el){
+    var karte = Array.prototype.slice.call(document.querySelectorAll('#glavno .karta'));
+    zarIdx = karte.indexOf(el);
+    oznaciZar(true);
+  } else {
+    poruka('Vježba je skrivena trenutnim filtrom.');
+  }
+}
+
+function pomakniCjelinu(smjer){
+  var n = trenutnaCjelina + smjer;
+  if(n < 0 || n >= CJELINE.length){ poruka(smjer > 0 ? 'Ovo je zadnja cjelina.' : 'Ovo je prva cjelina.'); return; }
+  trenutnaCjelina = n;
+  S.zadnjaCjelina = n; spremi();
+  if(pogled === 'fokus'){
+    var c = CJELINE[n];
+    var cilj = c.igre.filter(prolaziFilter)[0] || c.igre[0];
+    fokusI = cilj._i; S.zadnjaVjezba = cilj._id; spremi();
+    crtajFokus();
+  } else {
+    crtajSve();
+  }
+  document.getElementById('glavno').scrollTop = 0;
+}
+
+(function(){
+  var br = {};
+  IGRE.forEach(function(g){ br[g.format] = (br[g.format] || 0) + 1; });
+  var sel = document.getElementById('filterFormat');
+  sel.innerHTML = '<option value="sve">svi formati</option>' +
+    Object.keys(br).sort().map(function(f){
+      return '<option value="' + esc(f) + '">' + esc(f) + ' (' + br[f] + ')</option>';
+    }).join('');
+})();
+function filtarPromijenjen(){
+  /* ako trenutna vježba ispadne iz filtra, skoči na prvu koja u njemu jest */
+  if(pogled === 'fokus'){
+    var red = redFokusa();
+    if(red.length && !prolaziFilter(IGRE[fokusI])){
+      var cilj = null;
+      for(var i = 0; i < red.length; i++){ if(red[i]._i >= IGRE[fokusI]._i){ cilj = red[i]; break; } }
+      cilj = cilj || red[0];
+      fokusI = cilj._i;
+      S.zadnjaVjezba = cilj._id; spremi();
+    }
+  }
+  crtajSve();
+}
+document.getElementById('filterFormat').addEventListener('change', filtarPromijenjen);
+document.getElementById('filter').addEventListener('change', filtarPromijenjen);
+var trazTajmer = null;
+document.getElementById('trazi').addEventListener('input', function(){
+  clearTimeout(trazTajmer);
+  trazTajmer = setTimeout(function(){ crtajBok(); crtajGlavno(); }, 220);
+});
+document.getElementById('modPopis').addEventListener('click', function(){
+  postaviMod(pogled === 'popis' ? 'fokus' : 'popis');
+  crtajGlavno();
+  document.getElementById('glavno').scrollTop = 0;
+});
+document.getElementById('skoci').addEventListener('click', function(){
+  var g = IGRE.find(function(g){ return !(oc(g._id) || {}).status; });
+  if(!g){ poruka('Sve vježbe su ocijenjene. 🎉'); return; }
+  otvoriVjezbu(g._i);
+});
+
+/* tipkovnica */
+document.addEventListener('keydown', function(e){
+  var u = e.target.tagName;
+  var upolju = (u === 'TEXTAREA' || u === 'INPUT' || u === 'SELECT');
+  if(e.key === 'Escape' && upolju){ e.target.blur(); return; }
+  if(upolju || e.ctrlKey || e.metaKey || e.altKey) return;
+  var k = e.key.toLowerCase();
+
+  /* --- fokus (igranje) ima svoje tipke --- */
+  if(pogled === 'fokus'){
+    var d = document.getElementById('donja');
+    if(e.key === 'ArrowRight' || e.key === 'Enter'){ e.preventDefault(); fokusPomak(1); return; }
+    if(e.key === 'ArrowLeft'){ e.preventDefault(); fokusPomak(-1); return; }
+    if(k === '1' || k === 'a'){ e.preventDefault(); d.querySelector('[data-f="prolaz"]').click(); return; }
+    if(k === '2' || k === 'x'){ e.preventDefault(); d.querySelector('[data-f="izbaci"]').click(); return; }
+    if(k === '0'){ e.preventDefault(); d.querySelector('[data-f="ocisti"]').click(); return; }
+    if(k === 'b'){ e.preventDefault(); document.getElementById('fokusBilj').focus(); return; }
+    if(k === 'r'){ e.preventDefault(); IGRAC.pokreni(IGRE[fokusI], document.getElementById('igraPloca')); return; }
+    if(k === 'n'){ e.preventDefault(); pomakniCjelinu(1); return; }
+    if(k === 'p'){ e.preventDefault(); pomakniCjelinu(-1); return; }
+    return;
+  }
+
+  var karte = document.querySelectorAll('#glavno .karta');
+
+  if(k === 'j' || e.key === 'ArrowDown'){ e.preventDefault(); if(zarIdx < karte.length - 1) zarIdx++; oznaciZar(true); }
+  else if(k === 'k' || e.key === 'ArrowUp'){ e.preventDefault(); if(zarIdx > 0) zarIdx--; oznaciZar(true); }
+  else if(k === 'n'){ pomakniCjelinu(1); }
+  else if(k === 'p'){ pomakniCjelinu(-1); }
+  else if(k === '1' || k === 'a'){ if(karte[zarIdx]) { primijeni(karte[zarIdx], 'prolaz'); dalje(karte); } }
+  else if(k === '2' || k === 'x'){ if(karte[zarIdx]) { primijeni(karte[zarIdx], 'izbaci'); } }
+  else if(k === '0'){ if(karte[zarIdx]) primijeni(karte[zarIdx], null); }
+  else if(k === 'b'){
+    e.preventDefault();
+    if(karte[zarIdx]) karte[zarIdx].querySelector('textarea').focus();
+  }
+});
+function dalje(karte){
+  if(zarIdx < karte.length - 1){ zarIdx++; oznaciZar(true); }
+}
+
+/* ═══════════════ 9. IZVOZ ═══════════════ */
+function datum(){
+  var d = new Date(), p = function(n){ return (n < 10 ? '0' : '') + n; };
+  return d.getFullYear() + '-' + p(d.getMonth()+1) + '-' + p(d.getDate());
+}
+function vrijeme(){
+  var d = new Date(), p = function(n){ return (n < 10 ? '0' : '') + n; };
+  return datum() + ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+}
+function preuzmi(ime, sadrzaj, tip){
+  try{
+    var blob = new Blob(['﻿' + sadrzaj], { type: tip + ';charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = ime;
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){ URL.revokeObjectURL(url); a.remove(); }, 1500);
+    poruka('Spremljeno: ' + ime);
+  }catch(err){ alert('Preuzimanje nije uspjelo: ' + err.message); }
+}
+function sazetak(){
+  var p = 0, x = 0, b = 0;
+  IGRE.forEach(function(g){
+    var o = oc(g._id) || {};
+    if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++;
+    if(o.bilj) b++;
+  });
+  return { prolaz:p, izbaci:x, neoc:IGRE.length - p - x, bilj:b, ukupno:IGRE.length };
+}
+
+function izvozJSON(){
+  var s = sazetak();
+  var out = {
+    alat: 'revizija-lekcija',
+    verzija: 1,
+    izvezeno: new Date().toISOString(),
+    dataGenerirano: PODACI.generirano || null,
+    sazetak: s,
+    stavke: IGRE.map(function(g){
+      var o = oc(g._id) || {};
+      return {
+        sortkljuc: g.sortkljuc, cjelina: g.cjelina, cjelinanaslov: g.cjelinanaslov,
+        stranica: g.stranica, format: g.format, naslov: g.naslov,
+        status: o.status || null, bilj: o.bilj || null,
+        upozorenja: g._u.map(function(u){ return u.t; })
+      };
+    }),
+    /* sirovo stanje za ponovni uvoz */
+    stanje: S
+  };
+  preuzmi('revizija-' + datum() + '.json', JSON.stringify(out, null, 2), 'application/json');
+}
+
+function izvozCSV(){
+  var red = function(a){
+    return a.map(function(c){ return '"' + String(c == null ? '' : c).replace(/"/g,'""') + '"'; }).join(';');
+  };
+  var linije = [red(['#','cjelina','naslov cjeline','stranica','format','naslov','status','bilješka','upozorenja','sortkljuc'])];
+  IGRE.forEach(function(g){
+    var o = oc(g._id) || {};
+    linije.push(red([g._i + 1, g.cjelina, g.cjelinanaslov, g.stranica, g.format, g.naslov,
+      o.status === 'prolaz' ? 'prolaz' : o.status === 'izbaci' ? 'izbačeno' : 'neocijenjeno',
+      o.bilj || '', g._u.map(function(u){ return u.t; }).join(' | '), g.sortkljuc]));
+  });
+  preuzmi('revizija-' + datum() + '.csv', linije.join('\r\n'), 'text/csv');
+}
+
+function izvozMD(){
+  var s = sazetak(), t = [];
+  t.push('# Revizija lekcija — Croland');
+  t.push('');
+  t.push('- Datum: **' + vrijeme() + '**');
+  t.push('- data.js generiran: ' + (PODACI.generirano || 'nepoznato'));
+  t.push('- Ukupno vježbi: **' + s.ukupno + '** — prolaz **' + s.prolaz + '**, izbačeno **' + s.izbaci +
+         '**, neocijenjeno **' + s.neoc + '**, s bilješkom **' + s.bilj + '**');
+  t.push('');
+  CJELINE.forEach(function(c){
+    var p = 0, x = 0;
+    c.igre.forEach(function(g){ var o = oc(g._id) || {}; if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++; });
+    t.push('## ' + c.ime + ' — ' + c.naslov);
+    t.push('');
+    t.push('_' + c.igre.length + ' vježbi · prolaz ' + p + ' · izbačeno ' + x + ' · neocijenjeno ' + (c.igre.length - p - x) + '_');
+    t.push('');
+    t.push('| str | format | naslov | status | bilješka |');
+    t.push('|---|---|---|---|---|');
+    c.igre.forEach(function(g){
+      var o = oc(g._id) || {};
+      var st = o.status === 'prolaz' ? '✓ prolaz' : o.status === 'izbaci' ? '✕ IZBACITI' : '–';
+      t.push('| ' + g.stranica + ' | ' + g.format + ' | ' + (g.naslov || '').replace(/\|/g,'\\|') +
+             ' | ' + st + ' | ' + (o.bilj || '').replace(/\|/g,'\\|').replace(/\n/g,' ') + ' |');
+    });
+    t.push('');
+  });
+
+  var izb = IGRE.filter(function(g){ return (oc(g._id) || {}).status === 'izbaci'; });
+  t.push('## Za izbacivanje (' + izb.length + ')');
+  t.push('');
+  if(!izb.length) t.push('_nijedna_');
+  izb.forEach(function(g){
+    var o = oc(g._id) || {};
+    t.push('- **' + g.cjelina + ' · str ' + g.stranica + '** — ' + (g.naslov || '') + ' _(' + g.format + ', sortkljuc ' + g.sortkljuc + ')_' +
+           (o.bilj ? '  \n  ' + o.bilj.replace(/\n/g,' ') : ''));
+  });
+  t.push('');
+
+  var sb = IGRE.filter(function(g){ return (oc(g._id) || {}).bilj; });
+  t.push('## Sve bilješke (' + sb.length + ')');
+  t.push('');
+  if(!sb.length) t.push('_nijedna_');
+  sb.forEach(function(g){
+    var o = oc(g._id) || {};
+    t.push('- **' + g.cjelina + ' · str ' + g.stranica + ' — ' + (g.naslov || '') + '** ' +
+           (o.status === 'izbaci' ? '`izbaciti`' : o.status === 'prolaz' ? '`prolaz`' : '`neocijenjeno`') +
+           '  \n  ' + o.bilj.replace(/\n/g,' '));
+  });
+  t.push('');
+  return t.join('\n');
+}
+
+function izvozHTML(){
+  var s = sazetak();
+  var h = [];
+  h.push('<!DOCTYPE html><html lang="hr"><head><meta charset="utf-8">');
+  h.push('<title>Revizija lekcija — ' + esc(vrijeme()) + '</title><style>');
+  h.push('body{font:14px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#191713;background:#f6f3ee;margin:0;padding:28px}');
+  h.push('.omot{max-width:1000px;margin:0 auto;background:#fffdfa;border:1px solid #e3ddd2;border-radius:12px;padding:26px 30px}');
+  h.push('h1{margin:0 0 4px;font-size:24px}h2{margin:26px 0 6px;font-size:17px;border-bottom:2px solid #e3ddd2;padding-bottom:4px}');
+  h.push('.sub{color:#8b8377;font-size:13px;margin-bottom:14px}');
+  h.push('.kartice{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 22px}');
+  h.push('.kut{flex:1 1 120px;border:1px solid #e3ddd2;border-radius:9px;padding:9px 12px;background:#faf7f1}');
+  h.push('.kut b{display:block;font-size:22px;line-height:1.2}.kut span{font-size:12px;color:#8b8377}');
+  h.push('table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px}');
+  h.push('th{text-align:left;background:#f0ece4;border:1px solid #e3ddd2;padding:5px 8px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#5c5449}');
+  h.push('td{border:1px solid #e3ddd2;padding:5px 8px;vertical-align:top}');
+  h.push('.p{color:#2f6d4f;font-weight:700}.x{color:#c2413c;font-weight:700}.n{color:#b3a999}');
+  h.push('tr.izb td{background:#fbeceb}');
+  h.push('.bilj{color:#6d5410}');
+  h.push('.meta{font-size:12px;color:#8b8377;margin:2px 0 10px}');
+  h.push('@media print{body{background:#fff;padding:0}.omot{border:0;max-width:none}h2{page-break-after:avoid}tr{page-break-inside:avoid}}');
+  h.push('</style></head><body><div class="omot">');
+  h.push('<h1>Revizija lekcija — Croland</h1>');
+  h.push('<div class="sub">' + esc(vrijeme()) + ' · data.js generiran ' + esc(PODACI.generirano || 'nepoznato') + '</div>');
+  h.push('<div class="kartice">' +
+    '<div class="kut"><b>' + s.ukupno + '</b><span>vježbi ukupno</span></div>' +
+    '<div class="kut"><b class="p">' + s.prolaz + '</b><span>prolaz</span></div>' +
+    '<div class="kut"><b class="x">' + s.izbaci + '</b><span>izbaciti</span></div>' +
+    '<div class="kut"><b class="n">' + s.neoc + '</b><span>neocijenjeno</span></div>' +
+    '<div class="kut"><b>' + s.bilj + '</b><span>bilješki</span></div></div>');
+
+  var izb = IGRE.filter(function(g){ return (oc(g._id) || {}).status === 'izbaci'; });
+  if(izb.length){
+    h.push('<h2>Za izbacivanje (' + izb.length + ')</h2><table><tr><th>cjelina</th><th>str</th><th>format</th><th>naslov</th><th>bilješka</th></tr>');
+    izb.forEach(function(g){
+      var o = oc(g._id) || {};
+      h.push('<tr class="izb"><td>' + esc(g.cjelina) + '</td><td>' + esc(g.stranica) + '</td><td>' + esc(g.format) +
+             '</td><td>' + esc(g.naslov || '') + '</td><td class="bilj">' + esc(o.bilj || '') + '</td></tr>');
+    });
+    h.push('</table>');
+  }
+
+  var sb = IGRE.filter(function(g){ return (oc(g._id) || {}).bilj; });
+  if(sb.length){
+    h.push('<h2>Sve bilješke (' + sb.length + ')</h2><table><tr><th>cjelina</th><th>str</th><th>naslov</th><th>status</th><th>bilješka</th></tr>');
+    sb.forEach(function(g){
+      var o = oc(g._id) || {};
+      h.push('<tr><td>' + esc(g.cjelina) + '</td><td>' + esc(g.stranica) + '</td><td>' + esc(g.naslov || '') +
+             '</td><td class="' + (o.status === 'prolaz' ? 'p' : o.status === 'izbaci' ? 'x' : 'n') + '">' +
+             (o.status === 'prolaz' ? 'prolaz' : o.status === 'izbaci' ? 'izbaciti' : '–') +
+             '</td><td class="bilj">' + esc(o.bilj) + '</td></tr>');
+    });
+    h.push('</table>');
+  }
+
+  h.push('<h2>Puni popis po cjelinama</h2>');
+  CJELINE.forEach(function(c){
+    var p = 0, x = 0;
+    c.igre.forEach(function(g){ var o = oc(g._id) || {}; if(o.status === 'prolaz') p++; else if(o.status === 'izbaci') x++; });
+    h.push('<h3 style="margin:18px 0 2px;font-size:15px">' + esc(c.ime) + ' — ' + esc(c.naslov) + '</h3>');
+    h.push('<div class="meta">' + c.igre.length + ' vježbi · prolaz ' + p + ' · izbačeno ' + x + ' · neocijenjeno ' + (c.igre.length - p - x) + '</div>');
+    h.push('<table><tr><th style="width:40px">str</th><th style="width:110px">format</th><th>naslov</th><th style="width:90px">status</th><th style="width:34%">bilješka</th></tr>');
+    c.igre.forEach(function(g){
+      var o = oc(g._id) || {};
+      h.push('<tr' + (o.status === 'izbaci' ? ' class="izb"' : '') + '><td>' + esc(g.stranica) + '</td><td>' + esc(g.format) +
+             '</td><td>' + esc(g.naslov || '') + '</td><td class="' + (o.status === 'prolaz' ? 'p' : o.status === 'izbaci' ? 'x' : 'n') + '">' +
+             (o.status === 'prolaz' ? '✓ prolaz' : o.status === 'izbaci' ? '✕ izbaciti' : '–') +
+             '</td><td class="bilj">' + esc(o.bilj || '') + '</td></tr>');
+    });
+    h.push('</table>');
+  });
+  h.push('</div></body></html>');
+  return h.join('\n');
+}
+
+var izvozIzbornik = document.getElementById('izvozIzbornik');
+document.getElementById('izvoz').addEventListener('click', function(e){
+  e.stopPropagation();
+  izvozIzbornik.hidden = !izvozIzbornik.hidden;
+});
+document.addEventListener('click', function(e){
+  if(!izvozIzbornik.hidden && !e.target.closest('.izbornikOmot')) izvozIzbornik.hidden = true;
+});
+izvozIzbornik.addEventListener('click', function(e){
+  var b = e.target.closest('[data-izvoz]');
+  if(!b) return;
+  var sto = b.getAttribute('data-izvoz');
+  izvozIzbornik.hidden = true;
+  if(sto === 'html' || sto === 'sve') preuzmi('revizija-' + datum() + '.html', izvozHTML(), 'text/html');
+  if(sto === 'md'   || sto === 'sve') preuzmi('revizija-' + datum() + '.md', izvozMD(), 'text/markdown');
+  if(sto === 'csv'  || sto === 'sve') izvozCSV();
+  if(sto === 'json' || sto === 'sve') izvozJSON();
+});
+
+document.getElementById('pomocGumb').addEventListener('click', function(){
+  var k = document.getElementById('pomocKut');
+  k.hidden = !k.hidden;
+});
+
+document.getElementById('uvoz').addEventListener('click', function(){ document.getElementById('uvozFile').click(); });
+document.getElementById('uvozFile').addEventListener('change', function(e){
+  var f = e.target.files && e.target.files[0];
+  if(!f) return;
+  var fr = new FileReader();
+  fr.onload = function(){
+    try{
+      var d = JSON.parse(fr.result);
+      var novo = (d && d.stanje && d.stanje.ocjene) ? d.stanje.ocjene
+               : (d && d.ocjene) ? d.ocjene : null;
+      if(!novo) throw new Error('Datoteka ne sadrži ocjene.');
+      var kolko = Object.keys(novo).length;
+      if(!confirm('Učitati ' + kolko + ' ocjena/bilješki? Trenutno stanje bit će zamijenjeno.')) return;
+      S.ocjene = novo;
+      spremi(); crtajSve();
+      poruka('Učitano ' + kolko + ' zapisa.');
+    }catch(err){ alert('Uvoz nije uspio: ' + err.message); }
+  };
+  fr.readAsText(f, 'utf-8');
+  e.target.value = '';
+});
+
+window.addEventListener('beforeunload', function(e){
+  if(!spremanjeRadi && Object.keys(S.ocjene).length){
+    e.preventDefault(); e.returnValue = '';
+  }
+});
+
+/* ═══════════════ 10. START ═══════════════ */
+if(!IGRE.length){
+  document.getElementById('glavno').innerHTML =
+    '<div class="prazno"><h2>data.js nije učitan</h2>' +
+    '<p>Ova stranica mora stajati u istoj mapi kao <code>data.js</code>, <code>slike/</code> i <code>zvuk/</code>.</p></div>';
+} else {
+  document.getElementById('generirano').textContent =
+    IGRE.length + ' vježbi · ' + CJELINE.length + ' cjelina · data.js ' + (PODACI.generirano || '');
+  /* nastavi tamo gdje se stalo */
+  if(S.zadnjaVjezba && PO_ID[S.zadnjaVjezba]) fokusI = PO_ID[S.zadnjaVjezba]._i;
+  else if(CJELINE[trenutnaCjelina]) fokusI = CJELINE[trenutnaCjelina].igre[0]._i;
+  postaviMod('fokus');
+  crtajSve();
+  var izmij = IGRE.filter(jeIzmijenjeno).length;
+  if(izmij) setTimeout(function(){
+    poruka(izmij + ' ocijenjenih vježbi mijenjano je u data.js — filtar „izmijenjeno nakon ocjene”.');
+  }, 700);
+}
+})();
+</script>
+</body>
+</html>

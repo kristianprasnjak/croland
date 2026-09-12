@@ -38,9 +38,14 @@ opis: Match each connector with its English meaning.
 
 ## The glue word: koji
 format: tekst
-- **koji/koja/koje** (which/that/who) connects a noun with its description — and it agrees in gender, like every adjective you've ever met:
-- *film **koji** traje tri sata* (m.) · *more **koje** je plavo* (n.) · *ljudi **koji** uvijek imaju vremena za kavu*.
-- And it changes by case like everything else: *knjiga **koju** čitam* — your old friend -a → -u!
+- **koji / koja / koje** (which, that, who) connects a noun with its description — and it agrees in gender, like every adjective you've ever met:
+- tab: The thing | The glue | Whole thought
+- tab: film (m.) | koji | film koji traje tri sata
+- tab: knjiga (f.) | koja | knjiga koja je nova
+- tab: more (n.) | koje | more koje je plavo
+- tab: ljudi (pl.) | koji | ljudi koji uvijek imaju vremena za kavu
+- **And it changes by case like everything else.** *knjiga **koju** čitam* — your old friend **-a → -u**, back one last time.
+- **Now you write them.** Film [koji] traje tri sata. More [koje] je plavo. Knjiga [koju] čitam.
 
 ## Pick the connector
 format: izbor

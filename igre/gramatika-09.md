@@ -7,6 +7,7 @@ format: tekst
 - **The table (m. / f. / n. / plural):** moj / moja / moje / moji-moje-moja · tvoj / tvoja / tvoje · njegov / njegova / njegovo · njezin / njezina / njezino · naš / naša / naše · vaš / vaša / vaše · njihov / njihova / njihovo.
 - **The golden rule:** agreement follows **what is owned**, never who owns it. *Marko i **njegova** gitara* — gitara is f., so njegov**a**, even though Marko is male. ***Njezin** dres* — dres is m., even though the owner is female. English speakers: this is the one trap.
 - **Plural owners, plural items:** *Naš**i** hobiji su različit**i**. Njihov**e** pjesme su lijep**e**.* Same plural endings as adjectives: -i / -e / -a.
+- **Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
 
 ## Whose ending wins?
 format: izbor
@@ -45,6 +46,7 @@ format: tekst
 - **That's the whole trap.** With *ja* and *ti* nobody can misunderstand — *Volim svoj klub* and *Volim moj klub* are both said every day. But in the third person, *njegov* and *njezin* really do point at another person.
 - **It agrees with the thing owned**, like every other possessive: *svoj dres · svoja gitara · svoje more · svoji hobiji*. Same endings you drilled above.
 - **And the question word:** ***čiji / čija / čije*** — whose? *Čija je ovo gitara? — Moja.* It agrees with the thing owned too.
+- **Now you write them.** Marko voli [svoju] sestru — vlastitu. [Čija] je ovo gitara?
 
 ## svoj or njegov?
 format: izbor

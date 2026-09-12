@@ -9,6 +9,7 @@ format: tekst
 - **Negative commands:** direct — **ne + imperativ** (*Ne trči! Ne spavajte!*); softer — **nemoj(te) + infinitiv** (*Nemoj trčati! Nemojte spavati!*).
 - **Politeness toolkit:** bare commands are fine in recipes and between friends; otherwise soften them: *Molim te, dodaj sol.* (friend) · *Molim vas, skrenite lijevo.* (polite) · *Izvolite!* — the all-purpose service word.
 - **Familiar faces:** you've been obeying imperatives all course long: *Izvolite? Oprostite! Dobro došli!* — all commands in disguise.
+- **Now you write them.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!
 
 ## Make the command (ti)
 format: upis
@@ -55,6 +56,7 @@ format: tekst
 - **The most useful word in Croatia:** ***Može!*** on its own means "sure, fine, deal, go ahead". You will hear it forty times a day.
 - **A warning about *hoću*:** one verb, two shapes. The stressed forms *hoću, hoćeš, hoće* mean "I want" and can stand alone with a noun — *Hoću kavu.* The unstressed forms *ću, ćeš, će* lost that meaning and became the future helpers from Lesson 8 — *Pit ću kavu.* Same verb, and the shape tells you which job it's doing.
 - **In practice Croats mostly say *želim* for "want"** with things and *hoću* when they're being firm about it. *Htio bih* from Lesson 18 is the polite version of both.
+- **Now you write them.** Direct: [Ne] trči! Softer: [Nemoj] trčati! To a group: [Nemojte] spavati!
 
 ## Command or request?
 format: razvrstavanje

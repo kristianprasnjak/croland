@@ -11,6 +11,7 @@ info: The formal statement of your first case. The naming form is the **nominati
 - **The rule:** feminine nouns (ending in -a): **-a → -u**. kava → kavu · jabuka → jabuku · voda → vodu · riba → ribu · tržnica → tržnicu.
 - Masculine *inanimate* and neuter nouns don't change at all — that's why *Pijem sok* and *Gledam film* worked in Lesson 3 with no new endings. (Masculine *living* things do change — that's Lesson 6.)
 - **Which verbs trigger it?** Any verb with a target: *pijem, jedem, kuham, kupujem, trebam, plaćam, tražim, biram, nosim, volim, gledam, čitam*.
+- **Now you write them.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok] — ništa se ne mijenja.
 
 ## Naming or target?
 format: razvrstavanje
@@ -90,6 +91,7 @@ info: The rule that a describing word follows its noun into the case. For femini
 - **Say it out loud: -u -u.** The pair rhymed in the nominative and it rhymes in the accusative. Nothing new to hear — just the same ending twice.
 - **Possessives are adjectives at heart**, so they do it too: *moj**a** sestra → Tražim moj**u** sestru.* You meet the possessives properly in Lesson 9; the ending is already yours.
 - **The masculine and neuter stay quiet for now** — *Pijem hladan sok*, *Čitam dobro pismo*. Their adjective endings arrive with Lesson 6's living/non-living split.
+- **Now you write them.** Kava je dobra → Pijem [dobru] kavu. Riba je svježa → Kupujem [svježu] ribu.
 
 ## Naming or target — the whole phrase
 format: izbor
@@ -158,6 +160,7 @@ info: The rule that a destination is a target too, so it takes the same **-u**: 
 - **The test:** can you close a door behind you? Then it's **u** — *u kuću, u školu, u pekaru, u kafić, u sobu*. Is it open sky, or is it an occasion rather than a place? Then it's **na** — *na tržnicu, na plažu, na more, na koncert, na posao*.
 - **One you'll use every single day:** *Idemo **na kavu**.* — "Let's go for a coffee." It isn't a place at all, it's an event, and half of Croatian social life runs on that phrase.
 - Careful: this is *movement*. Standing still somewhere is a different case entirely, and it waits for you in Lesson 13.
+- **Now you write them.** Idem u [školu]. Idem na [tržnicu]. Idem u [grad].
 
 ## u or na?
 format: izbor

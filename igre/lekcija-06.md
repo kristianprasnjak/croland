@@ -68,8 +68,13 @@ opis: The city vocabulary — plus seven new verbs for urban life. Notice the tw
 format: tekst
 info: The rule in one line: a masculine **being** adds **-a**, a masculine **thing** adds nothing. Two spellings to notice right now — *pas* squeezes to **psa** and *policajac* to **policajca**, both losing a vowel before the ending.
 - Watch the difference:
-- *Vidim **tramvaj**.* — I see the tram. (thing — no change) *Vidim **prijatelja**.* — I see a friend. (living — add **-a**) *Vidim **čovjeka**.* — I see a man.
-- Two quirks to meet today: *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**.
+- **Things stay put, beings take -a.**
+- tab: On its own | As the target | Why
+- tab: tramvaj | Vidim tramvaj. | a thing — no change
+- tab: prijatelj | Vidim prijatelja. | a being — add **-a**
+- tab: čovjek | Vidim čovjeka. | a being — add **-a**
+- **Two quirks to meet today.** *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**.
+- **Now you write them.** Vidim [tramvaj]. Vidim [prijatelja]. Gledam [psa].
 
 ## Does it change?
 format: razvrstavanje

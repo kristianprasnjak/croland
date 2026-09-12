@@ -12,6 +12,7 @@ info: The page that names what you have been doing by ear: every noun is **mascu
 - tab: feminine | **-a** | *kuća* · *kava* · *lampa*
 - tab: neuter | **-o** or **-e** | *nebo* · *sunce* · *more*
 - **A few nouns break the pattern**, and you just have to know them: *auto* (car) ends in **-o** but is masculine. That's why this course uses *automobil* — same meaning, honest ending.
+- **Now you write it.** "The house", "a house" and plain "house" are one single Croatian word: [kuća]. Same for the sea — [more] — and the city — [grad].
 
 ## Sort by gender
 format: razvrstavanje
@@ -44,8 +45,9 @@ info: The core agreement rule plus two extras: an adjective takes **consonant, -
 - One word only ever appears in the **-i** form: *mali* (small). There is no *mal*. Its other endings behave normally: *mala kuća*, *malo more*.
 - **The sentence formula.** Two patterns cover everything you met in Lesson 1.
 - tab: Pattern | Croatian | English
-- tab: [noun] + je + [adjective] | Kava je dobra. | The coffee is good.
-- tab: Ovo je + [noun] | Ovo je kuća. | This is a house.
+- tab: (noun) + je + (adjective) | Kava je dobra. | The coffee is good.
+- tab: Ovo je + (noun) | Ovo je kuća. | This is a house.
+- **Now you write them.** Grad je [velik]. Kuća je [velika]. More je [veliko].
 
 ## Pick the adjective
 format: izbor
@@ -76,6 +78,7 @@ info: The page that explains the extra vowel in *dobar*, *hladan* and *topao*: i
 - **Not every word does this.** *mekan* keeps everything it has: *mekan krevet*, *mekana soba*, *mekano more*. So don't assume every **-an** drops its vowel.
 - The safe habit: **learn the masculine and the feminine together** — *dobar / dobra*, *topao / topla*, *sladak / slatka*, *mekan / mekana*. Once you have that pair, the neuter is just the feminine with **-o**.
 - Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it.
+- **Now you write them.** Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka].
 
 ## Type the adjective
 format: upis
@@ -133,6 +136,7 @@ info: The negative counterpart: **nije** means *isn't* and is written as one wor
 - **The adjective doesn't flinch.** It still copies the noun exactly as before: *Kuća nije velik**a***, *More nije plav**o***. Negation touches the verb, never the ending.
 - **Never *ne je*.** *ne* and *je* fused into a single word long ago. The same thing happened to the whole verb *biti* — *nisam, nisi, nije...* — and you'll get the full table in Grammar 2. Today one form is enough to contradict anything.
 - **A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*
+- **Now you write them.** Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća.
 
 ## Yes or no?
 format: izbor

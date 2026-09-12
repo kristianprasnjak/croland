@@ -18,8 +18,16 @@ opis: Command sprint! Tap the imperative.
 
 ## The dream helpers
 format: tekst
-- ja **bih** (*Kupio/Kupila bih brod.*) · ti **bi** · on/ona **bi** (*Ona bi plivala.*) · mi **bismo** (*Mi bismo jeli dugo.*) · vi **biste** (*Vi biste ostali doma.*) · oni **bi** (*Oni bi došli na ručak.*)
-- Same participle as the past tense (*kupio/kupila/kupili*), new helper (*bih* instead of *sam*). And the helper follows the leaning rule you know from *sam* and *ću* — never first in the sentence.
+- **All six helpers in one place.**
+- tab: Person | Helper | Example
+- tab: ja | bih | Kupio bih brod.
+- tab: ti | bi | Ti bi putovao.
+- tab: on, ona, ono | bi | Ona bi plivala.
+- tab: mi | bismo | Mi bismo jeli dugo.
+- tab: vi | biste | Vi biste ostali doma.
+- tab: oni, one, ona | bi | Oni bi došli na ručak.
+- **Same participle, new helper.** The participle is the one from Lesson 10 (*kupio / kupila / kupili*); only the helper changes — *bih* instead of *sam*. And it follows the leaning rule you know from *sam* and *ću*: never first in the sentence.
+- **Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali cijelu godinu. Oni [bi] došli na ručak.
 - **Novi glagoli:** dobiti (to get), ostati (to stay), zamisliti (to imagine).
 
 ## Match the helpers
@@ -55,8 +63,11 @@ opis: Choose the correct helper.
 ## The magic phrase: Htio bih...
 format: tekst
 - The politest way to want something in Croatian:
-- *Htio bih kavu.* (m.) / *Htjela bih kavu.* (f.) — I would like a coffee.
-- This single phrase upgrades every restaurant, shop and hotel interaction. Use it everywhere.
+- tab: Who is speaking | What they say
+- tab: a man | Htio bih kavu.
+- tab: a woman | Htjela bih kavu.
+- **This single phrase upgrades every restaurant, shop and hotel.** Use it everywhere.
+- **Now you write them.** [Htio] bih kavu — kaže muškarac. [Htjela] bih kavu — kaže žena.
 
 ## Today → in your dreams
 format: upis

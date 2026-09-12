@@ -18,9 +18,16 @@ opis: Dative sprint! Tap the receiver's form.
 
 ## The company endings
 format: tekst
-- **With someone = s/sa + instrumental:** m. & n. → **-om** (after soft sounds **-em**): s Mark**om**, s brat**om**, s prijatelj**em**; f. → **-a → -om**: sa sestr**om**, s An**om**, s Maj**om**.
-- **Small spelling rule:** *s* becomes *sa* before s/š/z/ž — *sa sestrom* (easier to say!).
+- **With someone = s / sa + instrumental.**
+- tab: The person | With them | Ending
+- tab: Marko | s Markom | **-om**
+- tab: brat | s bratom | **-om**
+- tab: prijatelj | s prijateljem | **-em** after a soft sound
+- tab: sestra | sa sestrom | **-a → -om**
+- tab: Ana | s Anom | **-a → -om**
+- **Small spelling rule.** *s* becomes *sa* before s, š, z and ž — *sa sestrom*, because *s sestrom* is a tongue twister.
 - *Idem u kino **s Markom**. Pijem kavu **s mlijekom**.*
+- **Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom].
 
 ## Who are you going with?
 format: parovi
@@ -35,8 +42,13 @@ opis: Match the person with their "with" form.
 ## By train, by bus: means without "s"
 format: tekst
 - For *how* you travel, use the same endings — but **no preposition**:
-- *Idemo **vlakom**. Putujem **autobusom**. Ideš **autom** ili **biciklom**?*
-- Think of it as: the vehicle is your instrument. (That's literally why it's called the instrumental!)
+- **Company keeps the *s*, means drops it.**
+- tab: Company — with someone | Means — by something
+- tab: Idem s bratom. | Idem vlakom.
+- tab: Idem sa sestrom. | Idem autobusom.
+- tab: Idem s Markom. | Idem biciklom.
+- **Think of it as: the vehicle is your instrument.** That is literally why the case is called the instrumental.
+- **Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]?
 
 ## s or no s?
 format: razvrstavanje

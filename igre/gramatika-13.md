@@ -9,6 +9,7 @@ format: tekst
 - **u or na?** u = enclosed spaces (u kući, u školi, u kinu, u uredu); na = surfaces, open places, events (na trgu, na tržnici, na stadionu, na koncertu, na moru). A few are just conventions — learn them as phrases.
 - **Sound-shift preview:** -ka/-ga/-ha soften before -i: rijeka → na rijeci, banka → u banci. Just recognize it for now.
 - **Bonus:** o + locative = about. *Razgovaramo o filmu.* Same endings!
+- **Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Razgovaramo o [filmu].
 
 ## Type the locative
 format: upis
@@ -49,6 +50,7 @@ format: tekst
 - **No preposition, no locative** — the rule holds for pronouns too. There is no bare *meni* meaning "in me"; it's always *o meni, u meni, na njemu*.
 - **Watch out: *meni* is also the dative** (Lesson 14 — *Daj meni!*). Same form, two jobs, exactly like the nouns: *u školi* (locative) and *sestri* (dative) share their ending.
 - **Plural places, in one line:** m. and n. → **-ima**, f. → **-ama**. *u gradov**ima**, na otoc**ima**, u škol**ama**, na ulic**ama**.* You'll read it on every sign in Croatia — recognise it now, drill it later.
+- **Now you write them.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu].
 
 ## Type the pronoun
 format: upis

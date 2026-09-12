@@ -9,6 +9,7 @@ format: tekst
 - **The relative pronoun koji** agrees in gender and number — and changes by case: grad **koji** je star · pjesma **koja** je lijepa · more **koje** je toplo · film **koji** gledam · knjiga **koju** čitam (feminine accusative — your old friend -a → -u, still at work!).
 - **"ako bude" — the future condition:** *Ako **bude** sunca, idemo na rijeku.* Learn *ako bude sunca / kiše / vremena* as ready-made phrases for now.
 - **You now have the full sentence machine:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep — **iako** ne bih trebao treću!* That's the whole grammar of the course in one sentence.
+- **Now you write the whole machine.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep.
 
 ## Pick the connector
 format: izbor
@@ -43,6 +44,7 @@ format: tekst
 - **Croatian doesn't shift tenses.** English turns "He said: I am tired" into "He said he **was** tired". Croatian keeps the original words: *Rekao je **da je** umoran.* One rule fewer than English.
 - **da + present replaces the infinitive when the subjects differ:** *Želim **doći*** = I want to come (myself). *Želim **da dođeš*** = I want *you* to come. English needs a whole new construction; Croatian just changes the ending.
 - **And *koji* keeps travelling through the cases:** *čovjek **kojeg** čekam* (accusative) · *grad u **kojem** živim* (locative) · *vlak **kojim** putujem* (instrumental). Every case you learned, now inside a relative clause.
+- **Now you write them.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim.
 
 ## Which connector?
 format: izbor

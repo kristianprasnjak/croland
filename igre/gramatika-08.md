@@ -11,6 +11,7 @@ info: The core of the future on one page: a helper plus the infinitive. If anyth
 - tab: Order | Shape of the verb | Example
 - tab: something else first | full infinitive | Ja ću **plivati**. · Sutra ću **plivati**.
 - tab: verb first | drops the **-i** | **Plivat** ću. · **Putovat** ćemo.
+- **Now you write them.** Ja [ću] plivati. Mi [ćemo] putovati. Bez zamjenice: [Plivat] ću.
 
 ## The rule: the third time you meet this
 format: tekst
@@ -25,6 +26,7 @@ info: The *why* behind that word order. *ću* is a **clitic**, unstressed like *
 - **So when the verb has to go first, it takes the hit** and gives up its final letter: *plivati → plivat ću*. The helper gets something to lean on, and the sentence works.
 - **Write it as two words.** *Plivat ću*, never *Plivaću*. You will see the fused spelling in Serbian and in casual chat; standard Croatian keeps them apart.
 - **Verbs ending in -ći keep their full shape:** *Ići ću na more. Doći ćeš sutra.* There is no *-i* to drop — the whole *-ći* is part of the stem.
+- **Now you write them.** plivati → [Plivat] ću. ići → [Ići] ću. doći → [Doći] ćeš.
 
 ## Match pronoun & helper
 format: parovi
@@ -139,6 +141,7 @@ info: The negative future. *ne* fuses with the helper into one stressed word —
 - **Word order gets simpler, not harder.** The positive helper is shy and leans on the first word; the negative one is stressed and cheerfully opens the sentence. There is no *Plivat neću*.
 - **The infinitive comes back whole.** You trimmed *plivati → plivat* only because the verb went first. After *neću* the verb is second again, so it keeps its *-i*: *neću **plivati***.
 - **Same trick, third time.** *je → nije*, *sam → nisam*, *ću → neću*. Croatian fuses *ne* into exactly three verbs: *biti*, *htjeti* and *imati* (*nemam*). Everything else keeps *ne* separate.
+- **Now you write them.** Ja [neću] plivati. On [neće] doći. Mi [nećemo] raditi.
 
 ## Leans or opens?
 format: razvrstavanje
@@ -201,6 +204,7 @@ info: The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exa
 - **This is where *neću* comes from.** *ne + hoću* fused into one word centuries ago — which is why the negative can open a sentence while the positive cannot. The long form was always the stressed one.
 - **You will hear it constantly as a question:** *Hoćeš li kavu?* — "Will you have a coffee?" It is the single most common invitation in Croatia. Lesson 11 takes the *li* apart properly; for now take the phrase whole.
 - **One-word answers work.** *Hoćeš li plivati? — **Hoću**.* / *— **Neću**.* Short, complete, perfectly natural. You cannot answer with *ću*.
+- **Now you write them.** Hoćeš li plivati? — [Hoću]. Hoćeš li raditi? — [Neću].
 
 ## Short or full form?
 format: izbor

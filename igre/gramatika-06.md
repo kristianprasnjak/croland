@@ -13,6 +13,7 @@ info: The page that completes your accusative singular. Masculine nouns split by
 - tab: neuter | pismo | pismo | no
 - This is why Lesson 3 felt easy: every object there was a "no change" word. Sneaky, right?
 - **One more word worth having:** *tko* (who) becomes **koga** in the accusative, exactly like every other living thing. *Koga čekaš? — Čekam prijatelja.* You'll meet the rest of the question words in Lesson 11; this one is just the case you already know.
+- **Now you write them.** Vidim [tramvaj] — stvar. Vidim [prijatelja] — biće. [Koga] čekaš?
 
 ## Does it change or not?
 format: razvrstavanje
@@ -78,6 +79,7 @@ info: The spelling rule behind the odd-looking forms. A fleeting **a** lives onl
 - **It is not random.** Almost every masculine noun ending in **-ac** does it: *policajac, kupac, Amerikanac, Austrijanac, otac*. Spot the *-ac* and you can predict the squeeze before you learn the word.
 - **Words ending in -ar, -er, -ik, -aj, -ač do not squeeze:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. They simply take the **-a** and keep everything else.
 - *Pas → psa* is its own little case — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day.
+- **Now you write them.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka].
 
 ## Does it squeeze?
 format: razvrstavanje
@@ -177,6 +179,7 @@ info: Your first pronouns: **me, te, ga, je, nas, vas, ih** stand in for a targe
 - tab: them | **ih** | Zovem **ih**.
 - **It copies the gender of the noun it replaced** — and things count too: *Gledam film → Gledam **ga**.* *Čitam knjigu → Čitam **je**.* *Čekam tramvaj → Čekam **ga**.*
 - **Why this matters now:** without it every Croatian answer sounds like a robot repeating the question. *Čekaš li prijatelja? — Da, čekam **ga**.*
+- **Now you write them.** Čekaš li prijatelja? — Da, čekam [ga]. Vidiš li Anu? — Da, vidim [je].
 
 ## Which pronoun replaces it?
 format: razvrstavanje
@@ -252,6 +255,7 @@ info: Why these pronouns are so fussy about position. They are clitics, like *sa
 - tab: ga | njega | Njega vidim.
 - tab: je | nju | Nju zovem.
 - **"her" has a spare form: *ju*.** Use it when *je* the verb is standing right next to *je* the pronoun, because *je je* is unsayable: *Ana **ju** je vidjela.* Everywhere else both work, and you'll hear *ju* a lot in speech even where the rule doesn't demand it.
+- **Now you write them.** Ana [ga] je vidjela. Ana [ju] je vidjela — nikad *je je*.
 
 ## Where does the pronoun go?
 format: izbor

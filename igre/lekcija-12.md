@@ -37,9 +37,17 @@ opis: Channel your inner toddler — negate the sentence!
 
 ## Two exceptions: biti and imati
 format: tekst
-- Two verbs fuse with *ne* into one word:
-- **biti:** nisam, nisi, nije, nismo, niste, nisu. **imati:** nemam, nemaš, nema, nemamo, nemate, nemaju.
-- *Riba **nije** ukusna.* — Fish isn't tasty. ***Nemamo** ribu danas.* — We don't have fish today.
+- Two verbs fuse with *ne* into one word — you never write *ne sam* or *ne mam*:
+- **Both tables in one place.**
+- tab: Person | biti | imati
+- tab: ja | nisam | nemam
+- tab: ti | nisi | nemaš
+- tab: on, ona, ono | nije | nema
+- tab: mi | nismo | nemamo
+- tab: vi | niste | nemate
+- tab: oni, one, ona | nisu | nemaju
+- **These two stand tall.** Unlike *sam, si, je*, the negative forms carry their own stress, so they are allowed to open a sentence: ***Nisam** gladan. **Nemamo** ribu danas.*
+- **Now you write them.** Riba [nije] ukusna. Ja [nisam] gladan. Mi [nemamo] ribu danas.
 
 ## Pick the right form
 format: izbor
@@ -53,8 +61,14 @@ opis: Choose the correct negative form. ("nemamo vremena" = we have no time)
 ## Double negatives are GOOD here
 format: tekst
 - In Croatian, negatives stack — and they *must*:
-- *Marko **ništa ne** jede.* — Marko eats nothing. ***Nikad ne** pijem mlijeko.* — I never drink milk. *Ne jedem **ni** rajčicu **ni** luk.* — I eat neither tomato nor onion.
-- English teachers hate this. Croatian grammar requires it. Enjoy the freedom.
+- **The negative word never travels alone.** *ništa*, *nikad*, *nitko* and *nigdje* always keep *ne* on the verb beside them.
+- tab: Croatian | English
+- tab: Marko ništa ne jede. | Marko eats nothing.
+- tab: Nikad ne pijem mlijeko. | I never drink milk.
+- tab: Nitko ne kuha. | Nobody is cooking.
+- tab: Ne jedem ni rajčicu ni luk. | I eat neither tomato nor onion.
+- **English teachers hate this.** Croatian grammar requires it. Enjoy the freedom.
+- **Now you write them.** Marko ništa [ne] jede. Nikad [ne] pijem mlijeko. Ne jedem [ni] rajčicu [ni] luk.
 
 ## Stack the negatives
 format: izbor

@@ -13,6 +13,7 @@ info: The reference page for plural forms. Masculine **-i**, feminine **-e**, ne
 - tab: neuter | pismo · more | pism**a** · mor**a** | **-a**
 - **Short words stretch.** A one-syllable masculine noun would be almost unsayable with a bare -i, so Croatian pads it: *stol → stolovi*, *grad → gradovi*, *most → mostovi*, *zid → zidovi*. Say *stoli* out loud once and you'll never forget the rule.
 - **Adjectives follow along:** *Učenici su mlad**i**. Knjige su nov**e**. Pisma su dug**a**.* Same trio: -i / -e / -a.
+- **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, svi [učenici]. Jedno pismo, dva [pisma].
 
 ## The rule: when k, g and h soften
 format: tekst
@@ -22,6 +23,7 @@ info: Why it is *učenici* and not *učeniki*. Before the plural **-i** the soun
 - **Why it happens:** *učeniki* is genuinely hard to say in Croatian. The language softened the sound centuries ago and never changed back. It is a pronunciation rule that fossilised into spelling.
 - **The rebels.** Four words ignore everything above: *dijete → **djeca***, *brat → **braća***, *čovjek → **ljudi***, *riječ → **riječi***. Learn them as words, not rules.
 - **A curiosity about *djeca* and *braća*:** they look plural and they *are* plural, but Croatian treats them as a single feminine word. *Djeca su dobra* — plural verb. But the target form is *Vidim **djecu***, exactly like *Vidim ženu*.
+- **Now you write them.** učenik → [učenici]. dječak → [dječaci]. junak → [junaci].
 
 ## Which plural ending?
 format: razvrstavanje
@@ -154,6 +156,7 @@ info: The full six-person table. **-mo** for *mi* and **-te** for *vi* are fixed
 - tab: **-em** | **-u** | jedu · pišu · plešu · piju · zovu
 - **A spelling trap worth naming.** *piju, čuju, kupuju* look like they end in *-ju*, but they don't — the **j** belongs to the stem (*pij-*, *čuj-*, *kupuj-*) and the ending is a plain **-u**. Only the **-am** family has a real **-ju**.
 - ***Biti* you already know in full** — it was your sneak preview back in Lesson 2: *sam, si, je, smo, ste, su*.
+- **Now you write them.** Mi [čitamo] knjige. Vi [čitate] knjige. Oni [čitaju] knjige.
 
 ## Tap the person
 format: nastavak
@@ -260,6 +263,7 @@ info: The plural target form, and it is simpler than the singular. Only masculin
 - **Living or not, same form now:** *Vidim prijatelj**e**.* *Vidim tramvaj**e**.* The *-a* trick was a singular-only rule, and you have just been let off it.
 - **Adjectives follow, as always:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
 - **And the pronoun for all of them is *ih*:** *Vidim učenike → Vidim **ih**.* One word for every gender, every time.
+- **Now you write them.** Vidim učenike → Vidim [ih]. Vidim knjige → Vidim [ih]. Vidim pisma → Vidim [ih].
 
 ## Does it change in the plural?
 format: razvrstavanje

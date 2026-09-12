@@ -15,6 +15,7 @@ info: A rule page with nothing to tap: it names the endings you have already bee
 - tab: čitam | čita | čitaš
 - tab: pijem | pije | piješ
 - tab: radim | radi | radiš
+- **Now you write them.** Ja [čitam] knjigu. Ti [čitaš] knjigu. Ona [čita] knjigu.
 
 ## The rule: three families
 format: tekst
@@ -27,6 +28,7 @@ info: Your reference for the three conjugation families, each named after its *j
 - **Some middles shift, and that's fine.** *pisati → **piš**em*, *jesti → **jed**em*, *piti → **pij**em*. Once you have the ja-form, nothing shifts again — *pijem, piješ, pije* is perfectly regular from there on.
 - **Drop the pronoun.** The ending already said who. *Pijem sok.* = *Ja pijem sok.* — both correct, the short one more natural. Keep *ja* only for emphasis: *JA pijem sok* (me, not you).
 - **What the verb doesn't touch.** *Pijem sok. Čitam udžbenik. Gledam film.* The object keeps the shape you learned it in. Croatian does reshape objects — that's the accusative, and it arrives in Lesson 5. These particular words simply don't show it.
+- **Now you write them.** pisati → ja [pišem]. raditi → ja [radim]. gledati → ja [gledam].
 
 ## Who is doing it?
 format: razvrstavanje
@@ -168,6 +170,7 @@ info: The negation rule: every verb except *biti* keeps *ne* as a separate word 
 - **Written apart, said together.** *ne* leans onto the verb and steals its stress: *ne pijem* comes out as one word, *nepijem*. Write the space anyway.
 - **Two verbs refuse to behave**, like *biti* did: *imati* → **nemam**, and *htjeti* → **neću**. Note them today, meet them properly in Lesson 12.
 - **Answering with just the verb:** *Radiš li danas? — **Ne radim**.* Croatians usually repeat the verb instead of saying a bare *ne*.
+- **Now you write them.** [Ne] čitam udžbenik. Ana [ne] radi. And the odd one out: *imati* → ja [nemam].
 
 ## Positive or negative?
 format: razvrstavanje

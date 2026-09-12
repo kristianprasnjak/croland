@@ -79,8 +79,14 @@ opis: Is the word naming something, or is it the target of the action? Sort the 
 format: tekst
 info: The rule in plain words: a feminine **-a** becomes **-u** whenever the noun is the target of a verb such as *pijem*, *jedem*, *kupujem* or *trebam*. Things like *sok* and *kruh* do not change at all yet.
 - You just discovered it yourself: **-a → -u** when the word is on the receiving end of the action. Grammarians call this the *accusative case* — you can just call it the target form.
+- **The whole rule in three rows.**
+- tab: On its own | As the target
+- tab: kava | Pijem kavu.
+- tab: riba | Kupujem ribu.
+- tab: knjiga | Čitam knjigu.
 - **Which words does it touch?** Only the ones ending in **-a**. *kruh, sok, sir* end in a consonant and simply don't move — which is why *Pijem sok* worked all the way back in Lesson 3 without anyone mentioning cases.
 - **Which verbs trigger it?** Any verb with a target: *pijem, jedem, kuham, kupujem, trebam, plaćam, volim, gledam*.
+- **Now you write them.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok].
 
 ## Tap the ending
 format: nastavak
@@ -176,6 +182,7 @@ info: This page hands you the yes-or-no question. Verb first, then ***li***, the
 - ***li* leans, like *sam* and *je*.** It has no stress of its own, so it can never open a sentence and never stands alone — it always sits right behind the verb. That's the same clitic rule you met in Lesson 2, doing a second job.
 - **With *biti* the long forms come back.** Not *si li*, but ***jesi li***: *Jesi li umoran?* — Are you tired? And for *je*: ***Je li*** *film dobar?* — Is the film good?
 - **Answering: repeat the verb.** A bare *da* sounds abrupt in Croatian; the natural answer echoes the verb. *Trebate li vrećicu? — **Trebam**.* / *— **Ne trebam**.* Same with *biti*: *Jesi li umoran? — **Nisam**.*
+- **Now you write them.** Trebate [li] vrećicu? Kupuješ [li] ribu? [Jesi] li umoran?
 - That is the whole of *li*. Lesson 11 adds the other ways to ask — question words in full, and the *…, zar ne?* tag.
 
 ## At the shop

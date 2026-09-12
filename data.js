@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-08 20:52:27",
+  "generirano": "2026-09-12 15:49:02",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "ananas": "slike/Ananas.webp",
@@ -5828,17 +5828,23 @@ window.PODACI = {
           "Welcome to your first real Croatian lesson!"
         ],
         [
-          "Here's a secret: you already speak some Croatian. *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly."
+          "**You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say."
         ],
         [
-          "Today you'll learn one tiny word — **je** (*is*) — and with it you'll build your first real Croatian sentences: *Kava je dobra.* The coffee is good. No \"the\", no \"a\" — Croatian has no articles at all. One less thing to learn!"
+          "**Today's one new word is je.** It means *is*, and it goes between the thing and its description: *Kava je dobra.* — The coffee is good."
+        ],
+        [
+          "**There is no \"the\" and no \"a\".** Croatian skips articles entirely, so *kuća* covers house, a house and the house. One less thing to learn."
+        ],
+        [
+          "**Fill in the word and the lesson is yours.** Kava [je] dobra. Automobil [je] brz."
         ],
         [
           "By the end of this lesson you'll describe houses, cars, the sea and your coffee — in Croatian."
         ]
       ],
       "sortkljuc": 101001,
-      "bodovi": 3
+      "bodovi": 4
     },
     {
       "cjelina": "Lesson 1",
@@ -6033,17 +6039,36 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "To say anything about anything, Croatian needs just one little word: **je** (*is*)."
+          "To say anything about anything, Croatian needs just one little word: **je** (*is*). It sits between the thing and what you say about it."
         ],
         [
-          "*Kava je dobra.* — The coffee is good. *Automobil je brz.* — The car is fast. *Ovo je kuća.* — This is a house."
+          "**The pattern.** thing + **je** + description. Nothing else goes in."
         ],
         [
-          "Notice what's missing? No *the*, no *a*. Croatian skips articles entirely. You're welcome."
+          "tab: Croatian",
+          "English"
+        ],
+        [
+          "tab: Kava je dobra.",
+          "The coffee is good."
+        ],
+        [
+          "tab: Automobil je brz.",
+          "The car is fast."
+        ],
+        [
+          "tab: Ovo je kuća.",
+          "This is a house."
+        ],
+        [
+          "**Now you write it.** Put the missing word back into all three: Kava [je] dobra. Automobil [je] brz. Ovo [je] kuća."
+        ],
+        [
+          "**Notice what's missing.** No *the*, no *a*. Croatian skips articles entirely. You're welcome."
         ]
       ],
       "sortkljuc": 101005,
-      "bodovi": 3
+      "bodovi": 5
     },
     {
       "cjelina": "Lesson 1",
@@ -6485,7 +6510,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101013,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7055,6 +7080,9 @@ window.PODACI = {
         ],
         [
           "**A few nouns break the pattern**, and you just have to know them: *auto* (car) ends in **-o** but is masculine. That's why this course uses *automobil* — same meaning, honest ending."
+        ],
+        [
+          "**Now you write it.** \"The house\", \"a house\" and plain \"house\" are one single Croatian word: [kuća]. Same for the sea — [more] — and the city — [grad]."
         ]
       ],
       "sortkljuc": 103001,
@@ -7177,14 +7205,17 @@ window.PODACI = {
           "English"
         ],
         [
-          "tab: [noun] + je + [adjective]",
+          "tab: (noun) + je + (adjective)",
           "Kava je dobra.",
           "The coffee is good."
         ],
         [
-          "tab: Ovo je + [noun]",
+          "tab: Ovo je + (noun)",
           "Ovo je kuća.",
           "This is a house."
+        ],
+        [
+          "**Now you write them.** Grad je [velik]. Kuća je [velika]. More je [veliko]."
         ]
       ],
       "sortkljuc": 103003,
@@ -7315,6 +7346,9 @@ window.PODACI = {
         ],
         [
           "Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it."
+        ],
+        [
+          "**Now you write them.** Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka]."
         ]
       ],
       "sortkljuc": 103005,
@@ -7539,6 +7573,9 @@ window.PODACI = {
         ],
         [
           "**A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*"
+        ],
+        [
+          "**Now you write them.** Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća."
         ]
       ],
       "sortkljuc": 103009,
@@ -7734,7 +7771,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103013,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 1",
@@ -7788,7 +7825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104001,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 1",
@@ -7909,7 +7946,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104004,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 1",
@@ -7998,7 +8035,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104006,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 1",
@@ -9795,7 +9832,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201001,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 2",
@@ -9929,20 +9966,55 @@ window.PODACI = {
           "To say *anything* about *anyone*, Croatian needs one verb: **biti** (*to be*). Six forms — and you already know one."
         ],
         [
-          "*Ja **sam*** — I am. *Ti **si*** — you are. *On, ona **je*** — he, she is (old friend!). *Mi **smo*** — we are. *Vi **ste*** — you are. *Oni **su*** — they are."
+          "**All six forms in one place.** Read down the middle column; *je* in the third row is the word you already met in Lesson 1."
         ],
         [
-          "*Ja sam Ana. Ja sam studentica.* — I am Ana. I am a student."
+          "tab: Person",
+          "Croatian",
+          "English"
         ],
         [
-          "**A bonus:** the pronoun is optional — the verb already says who. *Studentica sam* means the same as *Ja sam studentica*. Just never start with the verb itself."
+          "tab: ja",
+          "sam",
+          "I am"
+        ],
+        [
+          "tab: ti",
+          "si",
+          "you are (one person)"
+        ],
+        [
+          "tab: on, ona, ono",
+          "je",
+          "he, she, it is"
+        ],
+        [
+          "tab: mi",
+          "smo",
+          "we are"
+        ],
+        [
+          "tab: vi",
+          "ste",
+          "you are (more than one)"
+        ],
+        [
+          "tab: oni, one, ona",
+          "su",
+          "they are"
+        ],
+        [
+          "**Now you write them.** Ja [sam] Ana. Ti [si] student. Ona [je] doktorica. Mi [smo] turisti."
+        ],
+        [
+          "**The pronoun is optional.** The verb already says who. *Studentica sam* means the same as *Ja sam studentica*. Just never start with the verb itself."
         ],
         [
           "**A word about mi, vi, oni.** They talk about more than one person, so the word after them needs a plural. For now one ending does the job: add **-i**. *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*, *umoran → umorni*. The full plural rules come in Lesson 7 — until then, every plural you meet here follows this one."
         ]
       ],
       "sortkljuc": 201004,
-      "bodovi": 4
+      "bodovi": 5
     },
     {
       "cjelina": "Lesson 2",
@@ -10387,7 +10459,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201012,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11392,6 +11464,9 @@ window.PODACI = {
         ],
         [
           "**Plural, the short version.** With **mi**, **vi** and **oni** the word that follows takes **-i**: *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*. That is all you need here. Lesson 7 gives you the full plural."
+        ],
+        [
+          "**Now you write them.** Ja [sam] student. Ti [si] gladan. Mi [smo] turisti. Oni [su] doma."
         ]
       ],
       "sortkljuc": 203001,
@@ -11551,6 +11626,9 @@ window.PODACI = {
           "tab: pronoun + biti + adjective",
           "Ona je vesela.",
           "She is cheerful."
+        ],
+        [
+          "**Now you write them.** On je [visok]. Ona je [visoka]. Oni su [visoki]."
         ]
       ],
       "sortkljuc": 203003,
@@ -11795,6 +11873,9 @@ window.PODACI = {
         ],
         [
           "**Capital letters.** Nationalities are capitalised (*Hrvat*, *Talijanka*), jobs are not (*kuhar*, *glumica*)."
+        ],
+        [
+          "**Now you write them.** To a friend: Kako [si]? To a stranger: Kako [ste]? He is *kuhar*, she is [kuharica]."
         ]
       ],
       "sortkljuc": 203006,
@@ -11998,6 +12079,9 @@ window.PODACI = {
         ],
         [
           "**The adjective still copies the person**, exactly as in the positive: *Ona nije umorn**a***. *Oni nisu umorn**i***."
+        ],
+        [
+          "**Now you write them.** Ja [nisam] gladan. On [nije] doma. Mi [nismo] turisti."
         ]
       ],
       "sortkljuc": 203009,
@@ -12209,7 +12293,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203013,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 2",
@@ -12286,7 +12370,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204001,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 2",
@@ -12459,7 +12543,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204004,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 2",
@@ -12600,7 +12684,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204007,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 2",
@@ -12699,7 +12783,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204009,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 2",
@@ -14823,7 +14907,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301001,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 3",
@@ -14989,10 +15073,37 @@ window.PODACI = {
           "Watch what happens to *čitati* (to read):"
         ],
         [
-          "*Ja čita**m**.* — I read. *Ti čita**š**.* — You read. *On/ona čita.* — He/she reads."
+          "**The ending is the name tag.** **-m** = me, **-š** = you, nothing extra = he or she."
         ],
         [
-          "The ending is the name tag: **-m** = me, **-š** = you, nothing extra = he/she. It works the same for *piti* (pijem, piješ, pije) and *jesti* (jedem, jedeš, jede) — the middle changes a bit, but the endings never lie."
+          "tab: Person",
+          "čitati",
+          "piti",
+          "jesti"
+        ],
+        [
+          "tab: ja",
+          "čitam",
+          "pijem",
+          "jedem"
+        ],
+        [
+          "tab: ti",
+          "čitaš",
+          "piješ",
+          "jedeš"
+        ],
+        [
+          "tab: on, ona, ono",
+          "čita",
+          "pije",
+          "jede"
+        ],
+        [
+          "**The middle may shift, the endings never lie.** *piti* becomes *pije-* and *jesti* becomes *jede-*, but the **-m**, the **-š** and the bare form stay exactly where they were."
+        ],
+        [
+          "**Now you write them.** Ja [čitam] knjigu. Ti [piješ] sok. Ona [jede] kruh."
         ],
         [
           "**So drop the pronoun.** The ending already said who it was. *Pijem sok.* means exactly *Ja pijem sok.* — and the short one is what people actually say. Keep *ja* only when you want to stress it: *JA pijem sok* (me, not you)."
@@ -15002,7 +15113,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301005,
-      "bodovi": 4
+      "bodovi": 6
     },
     {
       "cjelina": "Lesson 3",
@@ -15571,7 +15682,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301014,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 3",
@@ -16579,6 +16690,9 @@ window.PODACI = {
           "tab: radim",
           "radi",
           "radiš"
+        ],
+        [
+          "**Now you write them.** Ja [čitam] knjigu. Ti [čitaš] knjigu. Ona [čita] knjigu."
         ]
       ],
       "sortkljuc": 303001,
@@ -16626,6 +16740,9 @@ window.PODACI = {
         ],
         [
           "**What the verb doesn't touch.** *Pijem sok. Čitam udžbenik. Gledam film.* The object keeps the shape you learned it in. Croatian does reshape objects — that's the accusative, and it arrives in Lesson 5. These particular words simply don't show it."
+        ],
+        [
+          "**Now you write them.** pisati → ja [pišem]. raditi → ja [radim]. gledati → ja [gledam]."
         ]
       ],
       "sortkljuc": 303002,
@@ -17195,6 +17312,9 @@ window.PODACI = {
         ],
         [
           "**Answering with just the verb:** *Radiš li danas? — **Ne radim**.* Croatians usually repeat the verb instead of saying a bare *ne*."
+        ],
+        [
+          "**Now you write them.** [Ne] čitam udžbenik. Ana [ne] radi. And the odd one out: *imati* → ja [nemam]."
         ]
       ],
       "sortkljuc": 303010,
@@ -17403,7 +17523,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303014,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 3",
@@ -17464,7 +17584,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304001,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 3",
@@ -17559,7 +17679,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304003,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 3",
@@ -17651,7 +17771,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304005,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 3",
@@ -17821,7 +17941,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304008,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 3",
@@ -19794,7 +19914,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401001,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 4",
@@ -20026,23 +20146,41 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "**i** = *and* (simply adding): *Mama radi i čita.*"
+          "**Three connectors, three jobs.** English uses \"and\" for the first two — Croatian is more precise."
         ],
         [
-          "**a** = *and / whereas* (two different people, two different things): *Tata kuha, a brat uči.*"
+          "tab: Word",
+          "Means",
+          "Comma?",
+          "Example"
         ],
         [
-          "**ali** = *but* (a twist!): *Stan je mali, ali je dom topao.*"
+          "tab: **i**",
+          "and (simply adding)",
+          "no comma",
+          "*Mama radi i čita.*"
         ],
         [
-          "English uses \"and\" for the first two — Croatian is more precise. If the second part is a contrast-but-not-conflict, use **a**. If it's a real \"but\", use **ali**."
+          "tab: **a**",
+          "and / whereas (two different people)",
+          "comma",
+          "*Tata kuha, a brat uči.*"
         ],
         [
-          "One more thing your eye should catch: **i** never takes a comma, **a** and **ali** always do."
+          "tab: **ali**",
+          "but (a real twist)",
+          "comma",
+          "*Stan je mali, ali je dom topao.*"
+        ],
+        [
+          "**How to choose.** If the second part is a contrast-but-not-conflict, use **a**. If it's a real \"but\", use **ali**. If you are simply adding, **i**."
+        ],
+        [
+          "**Now you write them.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao."
         ]
       ],
       "sortkljuc": 401005,
-      "bodovi": 5
+      "bodovi": 6
     },
     {
       "cjelina": "Lesson 4",
@@ -20373,7 +20511,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401011,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 4",
@@ -20525,7 +20663,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401014,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 4",
@@ -21437,10 +21575,13 @@ window.PODACI = {
           "tab: **ali**",
           "twists",
           "Stan je mali, ali je dom topao."
+        ],
+        [
+          "**Now you write them.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao."
         ]
       ],
       "sortkljuc": 403001,
-      "bodovi": 6
+      "bodovi": 7
     },
     {
       "cjelina": "Grammar 4",
@@ -21542,10 +21683,13 @@ window.PODACI = {
         ],
         [
           "A quick way to feel it: **i** glues two things into one smooth phrase, so nothing interrupts it. **a** and **ali** turn the sentence in a new direction — and Croatian marks that turn with a comma."
+        ],
+        [
+          "**Now you write them.** No comma at all: Mama radi [i] čita. A comma before it: Tata kuha, [a] brat uči."
         ]
       ],
       "sortkljuc": 403003,
-      "bodovi": 5
+      "bodovi": 6
     },
     {
       "cjelina": "Grammar 4",
@@ -21678,6 +21822,9 @@ window.PODACI = {
         ],
         [
           "**Comma before *jer*?** Usually none when *jer* comes second, which is where it almost always sits: *Ne plivam jer je more hladno.* A comma is allowed when you want to lean on the reason, but as a beginner you can safely leave it out every time."
+        ],
+        [
+          "**Now you write them.** Ne plivam [jer] je more hladno. Zašto baka kuha? [Jer] je subota."
         ]
       ],
       "sortkljuc": 403006,
@@ -21729,10 +21876,13 @@ window.PODACI = {
         ],
         [
           "Grammar 20 adds the rest of the family — *kad*, *ako*, *dok*, *iako*. You're starting early, and by then these four will already feel automatic."
+        ],
+        [
+          "**Now you write all four.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao. Ne plivam [jer] je more hladno."
         ]
       ],
       "sortkljuc": 403007,
-      "bodovi": 6
+      "bodovi": 7
     },
     {
       "cjelina": "Grammar 4",
@@ -21975,7 +22125,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404001,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 4",
@@ -22073,7 +22223,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404003,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 4",
@@ -22206,7 +22356,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404006,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 4",
@@ -22313,7 +22463,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404008,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 4",
@@ -24178,7 +24328,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501001,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 5",
@@ -24441,14 +24591,36 @@ window.PODACI = {
           "You just discovered it yourself: **-a → -u** when the word is on the receiving end of the action. Grammarians call this the *accusative case* — you can just call it the target form."
         ],
         [
+          "**The whole rule in three rows.**"
+        ],
+        [
+          "tab: On its own",
+          "As the target"
+        ],
+        [
+          "tab: kava",
+          "Pijem kavu."
+        ],
+        [
+          "tab: riba",
+          "Kupujem ribu."
+        ],
+        [
+          "tab: knjiga",
+          "Čitam knjigu."
+        ],
+        [
           "**Which words does it touch?** Only the ones ending in **-a**. *kruh, sok, sir* end in a consonant and simply don't move — which is why *Pijem sok* worked all the way back in Lesson 3 without anyone mentioning cases."
         ],
         [
           "**Which verbs trigger it?** Any verb with a target: *pijem, jedem, kuham, kupujem, trebam, plaćam, volim, gledam*."
+        ],
+        [
+          "**Now you write them.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok]."
         ]
       ],
       "sortkljuc": 501005,
-      "bodovi": 5
+      "bodovi": 7
     },
     {
       "cjelina": "Lesson 5",
@@ -24840,6 +25012,9 @@ window.PODACI = {
           "**Answering: repeat the verb.** A bare *da* sounds abrupt in Croatian; the natural answer echoes the verb. *Trebate li vrećicu? — **Trebam**.* / *— **Ne trebam**.* Same with *biti*: *Jesi li umoran? — **Nisam**.*"
         ],
         [
+          "**Now you write them.** Trebate [li] vrećicu? Kupuješ [li] ribu? [Jesi] li umoran?"
+        ],
+        [
           "That is the whole of *li*. Lesson 11 adds the other ways to ask — question words in full, and the *…, zar ne?* tag."
         ]
       ],
@@ -25133,7 +25308,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501015,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 5",
@@ -26439,6 +26614,9 @@ window.PODACI = {
         ],
         [
           "**Which verbs trigger it?** Any verb with a target: *pijem, jedem, kuham, kupujem, trebam, plaćam, tražim, biram, nosim, volim, gledam, čitam*."
+        ],
+        [
+          "**Now you write them.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok] — ništa se ne mijenja."
         ]
       ],
       "sortkljuc": 503001,
@@ -26752,6 +26930,9 @@ window.PODACI = {
         ],
         [
           "**The masculine and neuter stay quiet for now** — *Pijem hladan sok*, *Čitam dobro pismo*. Their adjective endings arrive with Lesson 6's living/non-living split."
+        ],
+        [
+          "**Now you write them.** Kava je dobra → Pijem [dobru] kavu. Riba je svježa → Kupujem [svježu] ribu."
         ]
       ],
       "sortkljuc": 503005,
@@ -27046,6 +27227,9 @@ window.PODACI = {
         ],
         [
           "Careful: this is *movement*. Standing still somewhere is a different case entirely, and it waits for you in Lesson 13."
+        ],
+        [
+          "**Now you write them.** Idem u [školu]. Idem na [tržnicu]. Idem u [grad]."
         ]
       ],
       "sortkljuc": 503009,
@@ -27364,7 +27548,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504001,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 5",
@@ -27512,7 +27696,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504004,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 5",
@@ -27738,7 +27922,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504008,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 5",
@@ -27845,7 +28029,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504010,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 5",
@@ -29986,7 +30170,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601001,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 6",
@@ -30216,14 +30400,37 @@ window.PODACI = {
           "Watch the difference:"
         ],
         [
-          "*Vidim **tramvaj**.* — I see the tram. (thing — no change) *Vidim **prijatelja**.* — I see a friend. (living — add **-a**) *Vidim **čovjeka**.* — I see a man."
+          "**Things stay put, beings take -a.**"
         ],
         [
-          "Two quirks to meet today: *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**."
+          "tab: On its own",
+          "As the target",
+          "Why"
+        ],
+        [
+          "tab: tramvaj",
+          "Vidim tramvaj.",
+          "a thing — no change"
+        ],
+        [
+          "tab: prijatelj",
+          "Vidim prijatelja.",
+          "a being — add **-a**"
+        ],
+        [
+          "tab: čovjek",
+          "Vidim čovjeka.",
+          "a being — add **-a**"
+        ],
+        [
+          "**Two quirks to meet today.** *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**."
+        ],
+        [
+          "**Now you write them.** Vidim [tramvaj]. Vidim [prijatelja]. Gledam [psa]."
         ]
       ],
       "sortkljuc": 601004,
-      "bodovi": 5
+      "bodovi": 8
     },
     {
       "cjelina": "Lesson 6",
@@ -30901,7 +31108,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601014,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 6",
@@ -32271,6 +32478,9 @@ window.PODACI = {
         ],
         [
           "**One more word worth having:** *tko* (who) becomes **koga** in the accusative, exactly like every other living thing. *Koga čekaš? — Čekam prijatelja.* You'll meet the rest of the question words in Lesson 11; this one is just the case you already know."
+        ],
+        [
+          "**Now you write them.** Vidim [tramvaj] — stvar. Vidim [prijatelja] — biće. [Koga] čekaš?"
         ]
       ],
       "sortkljuc": 603001,
@@ -32537,6 +32747,9 @@ window.PODACI = {
         ],
         [
           "*Pas → psa* is its own little case — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day."
+        ],
+        [
+          "**Now you write them.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka]."
         ]
       ],
       "sortkljuc": 603004,
@@ -32943,6 +33156,9 @@ window.PODACI = {
         ],
         [
           "**Why this matters now:** without it every Croatian answer sounds like a robot repeating the question. *Čekaš li prijatelja? — Da, čekam **ga**.*"
+        ],
+        [
+          "**Now you write them.** Čekaš li prijatelja? — Da, čekam [ga]. Vidiš li Anu? — Da, vidim [je]."
         ]
       ],
       "sortkljuc": 603009,
@@ -33248,6 +33464,9 @@ window.PODACI = {
         ],
         [
           "**\"her\" has a spare form: *ju*.** Use it when *je* the verb is standing right next to *je* the pronoun, because *je je* is unsayable: *Ana **ju** je vidjela.* Everywhere else both work, and you'll hear *ju* a lot in speech even where the rule doesn't demand it."
+        ],
+        [
+          "**Now you write them.** Ana [ga] je vidjela. Ana [ju] je vidjela — nikad *je je*."
         ]
       ],
       "sortkljuc": 603013,
@@ -33476,7 +33695,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604001,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 6",
@@ -33575,7 +33794,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604003,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 6",
@@ -33755,7 +33974,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604006,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 6",
@@ -33944,7 +34163,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604009,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 6",
@@ -36186,7 +36405,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701001,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 7",
@@ -36452,20 +36671,59 @@ window.PODACI = {
           "Three genders, three endings — the same trio you know from adjectives:"
         ],
         [
-          "**Masculine → -i:** učenik → učenic**i**, dječak → dječac**i** (short words stretch: stol → stol**ovi**)"
+          "**One ending per gender.**"
         ],
         [
-          "**Feminine → -e:** knjiga → knjig**e**, pjesma → pjesm**e**"
+          "tab: Gender",
+          "Ending",
+          "One",
+          "More than one"
         ],
         [
-          "**Neuter → -a:** pismo → pism**a**"
+          "tab: masculine",
+          "**-i**",
+          "učenik",
+          "učenici"
         ],
         [
-          "One exception today: *dijete* → **djeca** (children). Some words are too important to follow rules."
+          "tab: masculine",
+          "**-i**",
+          "dječak",
+          "dječaci"
+        ],
+        [
+          "tab: masculine (short)",
+          "**-ovi**",
+          "stol",
+          "stolovi"
+        ],
+        [
+          "tab: feminine",
+          "**-e**",
+          "knjiga",
+          "knjige"
+        ],
+        [
+          "tab: feminine",
+          "**-e**",
+          "pjesma",
+          "pjesme"
+        ],
+        [
+          "tab: neuter",
+          "**-a**",
+          "pismo",
+          "pisma"
+        ],
+        [
+          "**One exception today.** *dijete* → **djeca** (children). Some words are too important to follow rules."
+        ],
+        [
+          "**Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, dva [učenika] — a svi zajedno su [učenici]. Jedno pismo, dva [pisma]."
         ]
       ],
       "sortkljuc": 701005,
-      "bodovi": 6
+      "bodovi": 9
     },
     {
       "cjelina": "Lesson 7",
@@ -36678,7 +36936,31 @@ window.PODACI = {
           "The endings you know (*-m, -š, —*) get three big siblings:"
         ],
         [
-          "**mi** (we) always takes **-mo**, and **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide: *čita**mo** · uči**mo** · jede**mo*** · *čita**te** · uči**te** · jede**te***."
+          "**mi and vi never argue.** **mi** (we) always takes **-mo**, **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide."
+        ],
+        [
+          "tab: Person",
+          "čitati",
+          "učiti",
+          "jesti"
+        ],
+        [
+          "tab: mi",
+          "čitamo",
+          "učimo",
+          "jedemo"
+        ],
+        [
+          "tab: vi",
+          "čitate",
+          "učite",
+          "jedete"
+        ],
+        [
+          "tab: oni",
+          "čitaju",
+          "uče",
+          "jedu"
         ],
         [
           "**oni** (they) is the only one that looks at the verb family — the same three families from Lesson 3: *čita**ju*** (-am) · *uč**e*** (-im) · *jed**u*** (-em). Grammar 7 gives you the full picture; here just notice that *they* is the fussy one."
@@ -36687,11 +36969,14 @@ window.PODACI = {
           "*Dječaci igraju nogomet. Djevojčice pjevaju pjesme. Učenici uče. Mi slušamo.*"
         ],
         [
-          "And adjectives follow their nouns: *Učenici su mlad**i**. Knjige su nov**e**.*"
+          "**And adjectives follow their nouns.** *Učenici su mlad**i**. Knjige su nov**e**.*"
+        ],
+        [
+          "**Now you write them.** Mi [čitamo] knjige. Vi [učite] hrvatski. Oni [jedu] kruh."
         ]
       ],
       "sortkljuc": 701008,
-      "bodovi": 6
+      "bodovi": 9
     },
     {
       "cjelina": "Lesson 7",
@@ -37264,7 +37549,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701017,
-      "bodovi": 6
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 7",
@@ -38726,6 +39011,9 @@ window.PODACI = {
         ],
         [
           "**Adjectives follow along:** *Učenici su mlad**i**. Knjige su nov**e**. Pisma su dug**a**.* Same trio: -i / -e / -a."
+        ],
+        [
+          "**Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, svi [učenici]. Jedno pismo, dva [pisma]."
         ]
       ],
       "sortkljuc": 703001,
@@ -38756,10 +39044,13 @@ window.PODACI = {
         ],
         [
           "**A curiosity about *djeca* and *braća*:** they look plural and they *are* plural, but Croatian treats them as a single feminine word. *Djeca su dobra* — plural verb. But the target form is *Vidim **djecu***, exactly like *Vidim ženu*."
+        ],
+        [
+          "**Now you write them.** učenik → [učenici]. dječak → [dječaci]. junak → [junaci]."
         ]
       ],
       "sortkljuc": 703002,
-      "bodovi": 6
+      "bodovi": 7
     },
     {
       "cjelina": "Grammar 7",
@@ -39305,6 +39596,9 @@ window.PODACI = {
         ],
         [
           "***Biti* you already know in full** — it was your sneak preview back in Lesson 2: *sam, si, je, smo, ste, su*."
+        ],
+        [
+          "**Now you write them.** Mi [čitamo] knjige. Vi [čitate] knjige. Oni [čitaju] knjige."
         ]
       ],
       "sortkljuc": 703008,
@@ -39736,6 +40030,9 @@ window.PODACI = {
         ],
         [
           "**And the pronoun for all of them is *ih*:** *Vidim učenike → Vidim **ih**.* One word for every gender, every time."
+        ],
+        [
+          "**Now you write them.** Vidim učenike → Vidim [ih]. Vidim knjige → Vidim [ih]. Vidim pisma → Vidim [ih]."
         ]
       ],
       "sortkljuc": 703013,
@@ -40094,7 +40391,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704001,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 7",
@@ -40191,7 +40488,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704003,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 7",
@@ -40294,7 +40591,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704005,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 7",
@@ -40431,7 +40728,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704008,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 7",
@@ -40534,7 +40831,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704010,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 7",
@@ -43007,7 +43304,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801001,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 8",
@@ -43214,17 +43511,55 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "ja **ću** (Ja ću plivati.) · ti **ćeš** (Ti ćeš učiti.) · on/ona **će** (Ona će raditi.) · mi **ćemo** (Mi ćemo putovati.) · vi **ćete** (Vi ćete gledati.) · oni **će** (Oni će spavati.)"
+          "**All six helpers in one place.**"
         ],
         [
-          "Recognize the rhythm? *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su*."
+          "tab: Person",
+          "Helper",
+          "Example"
         ],
         [
-          "**Two word orders, same meaning:** with a pronoun → *Ja ću plivati.* Without → flip it and trim the -i: *Plivat ću.*"
+          "tab: ja",
+          "ću",
+          "Ja ću plivati."
+        ],
+        [
+          "tab: ti",
+          "ćeš",
+          "Ti ćeš učiti."
+        ],
+        [
+          "tab: on, ona, ono",
+          "će",
+          "Ona će raditi."
+        ],
+        [
+          "tab: mi",
+          "ćemo",
+          "Mi ćemo putovati."
+        ],
+        [
+          "tab: vi",
+          "ćete",
+          "Vi ćete gledati."
+        ],
+        [
+          "tab: oni, one, ona",
+          "će",
+          "Oni će spavati."
+        ],
+        [
+          "**Recognise the rhythm?** *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su* from Lesson 2. Same six people, same order, one letter of difference."
+        ],
+        [
+          "**Two word orders, same meaning.** With a pronoun → *Ja ću plivati.* Without → flip it and trim the **-i**: *Plivat ću.*"
+        ],
+        [
+          "**Now you write them.** Ja [ću] plivati. Ti [ćeš] učiti. Mi [ćemo] putovati. Oni [će] spavati."
         ]
       ],
       "sortkljuc": 801004,
-      "bodovi": 7
+      "bodovi": 10
     },
     {
       "cjelina": "Lesson 8",
@@ -43615,6 +43950,9 @@ window.PODACI = {
         ],
         [
           "The day usually opens the sentence or closes it, and the *ću*-helper still can't come first: ***U subotu** ću putovati.* — *Putovat ću **u subotu**.*"
+        ],
+        [
+          "**Now you write them.** Idem u kino u [subotu]. Radim u [ponedjeljak]. Putujem u [srijedu]."
         ]
       ],
       "sortkljuc": 801010,
@@ -44016,7 +44354,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801017,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 8",
@@ -45383,6 +45721,9 @@ window.PODACI = {
           "tab: verb first",
           "drops the **-i**",
           "**Plivat** ću. · **Putovat** ćemo."
+        ],
+        [
+          "**Now you write them.** Ja [ću] plivati. Mi [ćemo] putovati. Bez zamjenice: [Plivat] ću."
         ]
       ],
       "sortkljuc": 803001,
@@ -45436,6 +45777,9 @@ window.PODACI = {
         ],
         [
           "**Verbs ending in -ći keep their full shape:** *Ići ću na more. Doći ćeš sutra.* There is no *-i* to drop — the whole *-ći* is part of the stem."
+        ],
+        [
+          "**Now you write them.** plivati → [Plivat] ću. ići → [Ići] ću. doći → [Doći] ćeš."
         ]
       ],
       "sortkljuc": 803002,
@@ -45897,6 +46241,9 @@ window.PODACI = {
         ],
         [
           "**Same trick, third time.** *je → nije*, *sam → nisam*, *ću → neću*. Croatian fuses *ne* into exactly three verbs: *biti*, *htjeti* and *imati* (*nemam*). Everything else keeps *ne* separate."
+        ],
+        [
+          "**Now you write them.** Ja [neću] plivati. On [neće] doći. Mi [nećemo] raditi."
         ]
       ],
       "sortkljuc": 803009,
@@ -46145,6 +46492,9 @@ window.PODACI = {
         ],
         [
           "**One-word answers work.** *Hoćeš li plivati? — **Hoću**.* / *— **Neću**.* Short, complete, perfectly natural. You cannot answer with *ću*."
+        ],
+        [
+          "**Now you write them.** Hoćeš li plivati? — [Hoću]. Hoćeš li raditi? — [Neću]."
         ]
       ],
       "sortkljuc": 803013,
@@ -46313,7 +46663,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804001,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 8",
@@ -46416,7 +46766,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804003,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 8",
@@ -46583,7 +46933,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804006,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 8",
@@ -46680,7 +47030,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804008,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 8",
@@ -46783,7 +47133,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804010,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 8",
@@ -49029,7 +49379,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901001,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 9",
@@ -49407,10 +49757,13 @@ window.PODACI = {
           "**One wrinkle, and it is the only one.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does."
         ],
         [
-          "To ask, use **čiji**: *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*"
+          "**To ask, use *čiji*.** *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*"
         ],
         [
           "*Njegov dres je plav, a moj je crven.*"
+        ],
+        [
+          "**Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno."
         ]
       ],
       "sortkljuc": 901007,
@@ -49851,6 +50204,9 @@ window.PODACI = {
           "**The short version:** if the sentence is about me and my thing, or you and your thing, or Ana and Ana's thing — use *svoj*. Only reach for *njegov* or *njezin* when the thing belongs to somebody else."
         ],
         [
+          "**Now you write them.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu."
+        ],
+        [
           "Croatian speakers hear the difference immediately, and it is one of the few places where the wrong word says something you did not mean."
         ]
       ],
@@ -50212,7 +50568,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901019,
-      "bodovi": 7
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 9",
@@ -50554,10 +50910,13 @@ window.PODACI = {
         ],
         [
           "**Plural owners, plural items:** *Naš**i** hobiji su različit**i**. Njihov**e** pjesme su lijep**e**.* Same plural endings as adjectives: -i / -e / -a."
+        ],
+        [
+          "**Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno."
         ]
       ],
       "sortkljuc": 903001,
-      "bodovi": 7
+      "bodovi": 8
     },
     {
       "cjelina": "Grammar 9",
@@ -50701,6 +51060,9 @@ window.PODACI = {
         ],
         [
           "**And the question word:** ***čiji / čija / čije*** — whose? *Čija je ovo gitara? — Moja.* It agrees with the thing owned too."
+        ],
+        [
+          "**Now you write them.** Marko voli [svoju] sestru — vlastitu. [Čija] je ovo gitara?"
         ]
       ],
       "sortkljuc": 903005,
@@ -50865,7 +51227,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904001,
-      "bodovi": 11
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 9",
@@ -50974,7 +51336,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904004,
-      "bodovi": 11
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 9",
@@ -51087,7 +51449,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904007,
-      "bodovi": 11
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 9",
@@ -51172,7 +51534,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001001,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 10",
@@ -51321,11 +51683,30 @@ window.PODACI = {
           "The participle shows the speaker's gender:"
         ],
         [
-          "*Plivao sam.* — said by a man. *Plivala sam.* — said by a woman. *Plivali smo.* — said by any group."
+          "**One verb, three endings.**"
+        ],
+        [
+          "tab: Who is speaking",
+          "What they say"
+        ],
+        [
+          "tab: a man",
+          "Plivao sam."
+        ],
+        [
+          "tab: a woman",
+          "Plivala sam."
+        ],
+        [
+          "tab: any group",
+          "Plivali smo."
+        ],
+        [
+          "**Now you write them.** Ja sam [plivao] — kaže muškarac. Ja sam [plivala] — kaže žena. Mi smo [plivali] — kaže grupa."
         ]
       ],
       "sortkljuc": 1001005,
-      "bodovi": 8
+      "bodovi": 12
     },
     {
       "cjelina": "Lesson 10",
@@ -51434,7 +51815,10 @@ window.PODACI = {
           "*Spavao **sam** dugo.* / *Ja **sam** spavao dugo.* / *Jučer **sam** spavao dugo.*"
         ],
         [
-          "All three are fine — *sam* just always leans on the first word."
+          "**All three are fine** — *sam* just always leans on the first word. What it can never do is open the sentence: *Sam spavao dugo* is not Croatian."
+        ],
+        [
+          "**Now you write them.** Jučer [sam] spavao dugo. Ti [si] gledao film. Ona [je] čitala knjigu."
         ]
       ],
       "sortkljuc": 1001008,
@@ -51633,7 +52017,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001013,
-      "bodovi": 8
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 10",
@@ -51966,10 +52350,13 @@ window.PODACI = {
         ],
         [
           "**The past of \"to be\":** *Bio sam na moru. Voda je bila topla. Bilo je savršeno!*"
+        ],
+        [
+          "**Now you write them.** Ja sam [bio] na moru — kaže muškarac. Voda je [bila] topla. Sve je [bilo] savršeno."
         ]
       ],
       "sortkljuc": 1003001,
-      "bodovi": 9
+      "bodovi": 10
     },
     {
       "cjelina": "Grammar 10",
@@ -52108,6 +52495,9 @@ window.PODACI = {
         ],
         [
           "**The surprised question:** ***Nisi li** gledao utakmicu?* — \"Didn't you watch the match?\" Negative question, mild disbelief. Very Croatian."
+        ],
+        [
+          "**Now you write them.** Ja [nisam] gledao utakmicu. [Nisi] li gledao utakmicu?"
         ]
       ],
       "sortkljuc": 1003005,
@@ -52273,7 +52663,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004001,
-      "bodovi": 12
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 10",
@@ -52386,7 +52776,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004004,
-      "bodovi": 12
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 10",
@@ -52531,7 +52921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004008,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 10",
@@ -52613,7 +53003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101001,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 11",
@@ -52746,17 +53136,40 @@ window.PODACI = {
           "No question word? Use **li** — glue it right after the verb:"
         ],
         [
-          "*Voliš čokoladu.* → ***Voliš li** čokoladu?* — Do you like chocolate? *Imaš psa.* → ***Imaš li** psa?*"
+          "**Statement in, question out.**"
         ],
         [
-          "With *biti*, use the long forms: *Jesi li umoran? Je li to poklon?*"
+          "tab: Statement",
+          "Question"
         ],
         [
-          "And the friendly tag at the end: *Voliš glazbu, **zar ne**?* — You like music, *don't you*?"
+          "tab: Voliš čokoladu.",
+          "Voliš li čokoladu?"
+        ],
+        [
+          "tab: Imaš psa.",
+          "Imaš li psa?"
+        ],
+        [
+          "tab: Umoran si.",
+          "Jesi li umoran?"
+        ],
+        [
+          "tab: To je poklon.",
+          "Je li to poklon?"
+        ],
+        [
+          "**With *biti*, use the long forms.** Not *si li* but *jesi li*, not *je li* from the short *je* but the pair *je li*: *Jesi li umoran? Je li to poklon?*"
+        ],
+        [
+          "**And the friendly tag at the end.** *Voliš glazbu, **zar ne**?* — You like music, *don't you*?"
+        ],
+        [
+          "**Now you write them.** Voliš [li] čokoladu? Imaš [li] psa? [Jesi] li umoran?"
         ]
       ],
       "sortkljuc": 1101005,
-      "bodovi": 9
+      "bodovi": 14
     },
     {
       "cjelina": "Lesson 11",
@@ -53037,7 +53450,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101012,
-      "bodovi": 9
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 11",
@@ -53359,6 +53772,9 @@ window.PODACI = {
         ],
         [
           "**The lazy way (intonation):** just raise your voice — *Voliš kavu?* Works everywhere, sounds casual. And the tag **zar ne?** turns any statement into a question: *Lijepo je, zar ne?*"
+        ],
+        [
+          "**Now you write them.** Voliš [li] kavu? [Jesi] li umoran? Lijepo je, [zar] ne?"
         ]
       ],
       "sortkljuc": 1103001,
@@ -53517,6 +53933,9 @@ window.PODACI = {
         ],
         [
           "**The everyday pair to memorise:** *Kakva je kava?* (what's it like) vs. *Koja je kava tvoja?* (which one is yours)."
+        ],
+        [
+          "**Now you write them.** [Kakva] je kava? — dobra. [Koja] je kava tvoja? — ova."
         ]
       ],
       "sortkljuc": 1103005,
@@ -53699,7 +54118,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104001,
-      "bodovi": 14
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 11",
@@ -53808,7 +54227,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104004,
-      "bodovi": 14
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 11",
@@ -53900,7 +54319,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104006,
-      "bodovi": 14
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 11",
@@ -54041,7 +54460,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201001,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 12",
@@ -54163,17 +54582,55 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "Two verbs fuse with *ne* into one word:"
+          "Two verbs fuse with *ne* into one word — you never write *ne sam* or *ne mam*:"
         ],
         [
-          "**biti:** nisam, nisi, nije, nismo, niste, nisu. **imati:** nemam, nemaš, nema, nemamo, nemate, nemaju."
+          "**Both tables in one place.**"
         ],
         [
-          "*Riba **nije** ukusna.* — Fish isn't tasty. ***Nemamo** ribu danas.* — We don't have fish today."
+          "tab: Person",
+          "biti",
+          "imati"
+        ],
+        [
+          "tab: ja",
+          "nisam",
+          "nemam"
+        ],
+        [
+          "tab: ti",
+          "nisi",
+          "nemaš"
+        ],
+        [
+          "tab: on, ona, ono",
+          "nije",
+          "nema"
+        ],
+        [
+          "tab: mi",
+          "nismo",
+          "nemamo"
+        ],
+        [
+          "tab: vi",
+          "niste",
+          "nemate"
+        ],
+        [
+          "tab: oni, one, ona",
+          "nisu",
+          "nemaju"
+        ],
+        [
+          "**These two stand tall.** Unlike *sam, si, je*, the negative forms carry their own stress, so they are allowed to open a sentence: ***Nisam** gladan. **Nemamo** ribu danas.*"
+        ],
+        [
+          "**Now you write them.** Riba [nije] ukusna. Ja [nisam] gladan. Mi [nemamo] ribu danas."
         ]
       ],
       "sortkljuc": 1201005,
-      "bodovi": 10
+      "bodovi": 15
     },
     {
       "cjelina": "Lesson 12",
@@ -54228,14 +54685,37 @@ window.PODACI = {
           "In Croatian, negatives stack — and they *must*:"
         ],
         [
-          "*Marko **ništa ne** jede.* — Marko eats nothing. ***Nikad ne** pijem mlijeko.* — I never drink milk. *Ne jedem **ni** rajčicu **ni** luk.* — I eat neither tomato nor onion."
+          "**The negative word never travels alone.** *ništa*, *nikad*, *nitko* and *nigdje* always keep *ne* on the verb beside them."
         ],
         [
-          "English teachers hate this. Croatian grammar requires it. Enjoy the freedom."
+          "tab: Croatian",
+          "English"
+        ],
+        [
+          "tab: Marko ništa ne jede.",
+          "Marko eats nothing."
+        ],
+        [
+          "tab: Nikad ne pijem mlijeko.",
+          "I never drink milk."
+        ],
+        [
+          "tab: Nitko ne kuha.",
+          "Nobody is cooking."
+        ],
+        [
+          "tab: Ne jedem ni rajčicu ni luk.",
+          "I eat neither tomato nor onion."
+        ],
+        [
+          "**English teachers hate this.** Croatian grammar requires it. Enjoy the freedom."
+        ],
+        [
+          "**Now you write them.** Marko ništa [ne] jede. Nikad [ne] pijem mlijeko. Ne jedem [ni] rajčicu [ni] luk."
         ]
       ],
       "sortkljuc": 1201007,
-      "bodovi": 10
+      "bodovi": 15
     },
     {
       "cjelina": "Lesson 12",
@@ -54481,7 +54961,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201013,
-      "bodovi": 10
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 12",
@@ -54791,10 +55271,13 @@ window.PODACI = {
         ],
         [
           "**Negatives must agree (double negation):** if one word is negative, they all go negative: *Ništa **ne** jedem. Nikad **ništa ne** kupujem!* (triple — perfectly correct!) *Ne pijem **ni** kavu **ni** čaj.* There is no \"I eat nothing\" with a positive verb — *ništa* demands *ne*."
+        ],
+        [
+          "**Now you write them.** Ja [nisam] gladan. Ja [nemam] vremena. Ništa [ne] jedem. Ne pijem [ni] kavu [ni] čaj."
         ]
       ],
       "sortkljuc": 1203001,
-      "bodovi": 10
+      "bodovi": 11
     },
     {
       "cjelina": "Grammar 12",
@@ -54949,6 +55432,9 @@ window.PODACI = {
         ],
         [
           "**Careful:** *nego* is not a negation itself. The *ne* stays where it was — *Ne pijem kavu, nego čaj*, never *Pijem kavu, nego čaj*."
+        ],
+        [
+          "**Now you write them.** [Ne] pijem kavu, [nego] čaj."
         ]
       ],
       "sortkljuc": 1203005,
@@ -55117,7 +55603,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204001,
-      "bodovi": 15
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 12",
@@ -55238,7 +55724,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204004,
-      "bodovi": 15
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 12",
@@ -55353,7 +55839,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204007,
-      "bodovi": 15
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 12",
@@ -55430,7 +55916,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301001,
-      "bodovi": 11
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 13",
@@ -55533,17 +56019,36 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "Compare: *Idem **u grad**.* — I'm going to the city (motion → accusative, from L5). *Ja sam **u gradu**.* — I am in the city (location → **locative**!)."
+          "**Going there, or already there?** That one difference is the whole lesson."
         ],
         [
-          "The rule for being somewhere: m. & n. → **-u** (u gradu, u kinu, u parku, u uredu); f. → **-a → -i** (u školi, na tržnici, u pekari)."
+          "tab: Motion — where to (L5)",
+          "Location — where you are"
         ],
         [
-          "Same *u/na* logic as before: **u** = inside, **na** = on/at open places & events."
+          "tab: Idem u grad.",
+          "Ja sam u gradu."
+        ],
+        [
+          "tab: Idem u školu.",
+          "Ja sam u školi."
+        ],
+        [
+          "tab: Idem u kino.",
+          "Ja sam u kinu."
+        ],
+        [
+          "**The rule for being somewhere.** Masculine and neuter take **-u** (*u gradu, u kinu, u parku, u uredu*); feminine turns **-a** into **-i** (*u školi, na tržnici, u pekari*)."
+        ],
+        [
+          "**Same *u/na* logic as before.** **u** = inside, **na** = on or at open places and events."
+        ],
+        [
+          "**Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu]."
         ]
       ],
       "sortkljuc": 1301004,
-      "bodovi": 11
+      "bodovi": 17
     },
     {
       "cjelina": "Lesson 13",
@@ -55880,7 +56385,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301012,
-      "bodovi": 11
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 13",
@@ -56176,10 +56681,13 @@ window.PODACI = {
         ],
         [
           "**Bonus:** o + locative = about. *Razgovaramo o filmu.* Same endings!"
+        ],
+        [
+          "**Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Razgovaramo o [filmu]."
         ]
       ],
       "sortkljuc": 1303001,
-      "bodovi": 14
+      "bodovi": 16
     },
     {
       "cjelina": "Grammar 13",
@@ -56346,6 +56854,9 @@ window.PODACI = {
         ],
         [
           "**Plural places, in one line:** m. and n. → **-ima**, f. → **-ama**. *u gradov**ima**, na otoc**ima**, u škol**ama**, na ulic**ama**.* You'll read it on every sign in Croatia — recognise it now, drill it later."
+        ],
+        [
+          "**Now you write them.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu]."
         ]
       ],
       "sortkljuc": 1303005,
@@ -56509,7 +57020,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304001,
-      "bodovi": 17
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 13",
@@ -56626,7 +57137,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304004,
-      "bodovi": 17
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 13",
@@ -56752,7 +57263,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304007,
-      "bodovi": 17
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 13",
@@ -56867,7 +57378,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401001,
-      "bodovi": 12
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 14",
@@ -56970,17 +57481,60 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "Who *receives* gets the dative: f. (and m. on -a) → **-a → -i** (mami, sestri, baki, tati); m. & n. → **+u** (bratu, djedu, doktoru, Marku, psu)."
+          "**Who receives, gets the dative.**"
         ],
         [
-          "*Mami kupujem šal.* — I'm buying mom a scarf. *Bratu dajem loptu.* — I'm giving my brother a ball."
+          "tab: The person",
+          "As the receiver",
+          "Ending"
         ],
         [
-          "The question word: **Komu?** — To whom? (*Komu pišeš? — Baki!*)"
+          "tab: mama",
+          "mami",
+          "**-a → -i**"
+        ],
+        [
+          "tab: sestra",
+          "sestri",
+          "**-a → -i**"
+        ],
+        [
+          "tab: baka",
+          "baki",
+          "**-a → -i**"
+        ],
+        [
+          "tab: tata",
+          "tati",
+          "**-a → -i**"
+        ],
+        [
+          "tab: brat",
+          "bratu",
+          "**+u**"
+        ],
+        [
+          "tab: djed",
+          "djedu",
+          "**+u**"
+        ],
+        [
+          "tab: Marko",
+          "Marku",
+          "**+u**"
+        ],
+        [
+          "*Mami kupujem šal.* — I'm buying mum a scarf. *Bratu dajem loptu.* — I'm giving my brother a ball."
+        ],
+        [
+          "**The question word is *komu*.** — To whom? *Komu pišeš? — Baki!*"
+        ],
+        [
+          "**Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo."
         ]
       ],
       "sortkljuc": 1401004,
-      "bodovi": 12
+      "bodovi": 19
     },
     {
       "cjelina": "Lesson 14",
@@ -57125,7 +57679,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401008,
-      "bodovi": 12
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 14",
@@ -57322,7 +57876,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401013,
-      "bodovi": 12
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 14",
@@ -57635,10 +58189,13 @@ window.PODACI = {
         ],
         [
           "**Word order:** both work — *Kupujem mami šal.* / *Mami kupujem šal.* Croatian loves starting with the receiver; it sounds caring."
+        ],
+        [
+          "**Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo."
         ]
       ],
       "sortkljuc": 1403001,
-      "bodovi": 13
+      "bodovi": 16
     },
     {
       "cjelina": "Grammar 14",
@@ -57803,6 +58360,9 @@ window.PODACI = {
         ],
         [
           "**Stacking order:** when a dative and an accusative pronoun meet, dative goes first — *Dajem **mu ga**.* (I'm giving it to him.)"
+        ],
+        [
+          "**Now you write them.** Dajem loptu bratu → Dajem [mu] loptu. Dajem [mu] [ga]."
         ]
       ],
       "sortkljuc": 1403005,
@@ -57971,7 +58531,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404001,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 14",
@@ -58099,7 +58659,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404004,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 14",
@@ -58219,7 +58779,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404007,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 14",
@@ -58329,7 +58889,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501001,
-      "bodovi": 14
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 15",
@@ -58377,17 +58937,50 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "**With someone = s/sa + instrumental:** m. & n. → **-om** (after soft sounds **-em**): s Mark**om**, s brat**om**, s prijatelj**em**; f. → **-a → -om**: sa sestr**om**, s An**om**, s Maj**om**."
+          "**With someone = s / sa + instrumental.**"
         ],
         [
-          "**Small spelling rule:** *s* becomes *sa* before s/š/z/ž — *sa sestrom* (easier to say!)."
+          "tab: The person",
+          "With them",
+          "Ending"
+        ],
+        [
+          "tab: Marko",
+          "s Markom",
+          "**-om**"
+        ],
+        [
+          "tab: brat",
+          "s bratom",
+          "**-om**"
+        ],
+        [
+          "tab: prijatelj",
+          "s prijateljem",
+          "**-em** after a soft sound"
+        ],
+        [
+          "tab: sestra",
+          "sa sestrom",
+          "**-a → -om**"
+        ],
+        [
+          "tab: Ana",
+          "s Anom",
+          "**-a → -om**"
+        ],
+        [
+          "**Small spelling rule.** *s* becomes *sa* before s, š, z and ž — *sa sestrom*, because *s sestrom* is a tongue twister."
         ],
         [
           "*Idem u kino **s Markom**. Pijem kavu **s mlijekom**.*"
+        ],
+        [
+          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom]."
         ]
       ],
       "sortkljuc": 1501003,
-      "bodovi": 14
+      "bodovi": 21
     },
     {
       "cjelina": "Lesson 15",
@@ -58441,14 +59034,33 @@ window.PODACI = {
           "For *how* you travel, use the same endings — but **no preposition**:"
         ],
         [
-          "*Idemo **vlakom**. Putujem **autobusom**. Ideš **autom** ili **biciklom**?*"
+          "**Company keeps the *s*, means drops it.**"
         ],
         [
-          "Think of it as: the vehicle is your instrument. (That's literally why it's called the instrumental!)"
+          "tab: Company — with someone",
+          "Means — by something"
+        ],
+        [
+          "tab: Idem s bratom.",
+          "Idem vlakom."
+        ],
+        [
+          "tab: Idem sa sestrom.",
+          "Idem autobusom."
+        ],
+        [
+          "tab: Idem s Markom.",
+          "Idem biciklom."
+        ],
+        [
+          "**Think of it as: the vehicle is your instrument.** That is literally why the case is called the instrumental."
+        ],
+        [
+          "**Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]?"
         ]
       ],
       "sortkljuc": 1501005,
-      "bodovi": 14
+      "bodovi": 21
     },
     {
       "cjelina": "Lesson 15",
@@ -58747,7 +59359,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501012,
-      "bodovi": 14
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 15",
@@ -59080,10 +59692,13 @@ window.PODACI = {
         ],
         [
           "**The case count so far:** nominativ (subject, L1) · akuzativ (target/direction, L5–6) · lokativ (location, L13) · dativ (receiver, L14) · instrumental (company/means, L15). Five down, two to go — you're past the hardest part."
+        ],
+        [
+          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Putujem [vlakom] — bez prijedloga."
         ]
       ],
       "sortkljuc": 1503001,
-      "bodovi": 14
+      "bodovi": 17
     },
     {
       "cjelina": "Grammar 15",
@@ -59254,6 +59869,9 @@ window.PODACI = {
         ],
         [
           "**Same forms carry the whole preposition family:** *pred njim, za njom, nad nama* — learn these seven and a lot of Croatian opens up at once."
+        ],
+        [
+          "**Now you write them.** Ideš li sa [mnom]? Idem s [tobom]. Idem s [njim]."
         ]
       ],
       "sortkljuc": 1503005,
@@ -59422,7 +60040,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504001,
-      "bodovi": 21
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 15",
@@ -59539,7 +60157,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504004,
-      "bodovi": 21
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 15",
@@ -59655,7 +60273,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504007,
-      "bodovi": 20
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 15",
@@ -59772,7 +60390,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601001,
-      "bodovi": 15
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 16",
@@ -59875,14 +60493,59 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "m. & n. → **+a** (brat → brata, djed → djeda, more → mora); f. → **-a → -e** (baka → bake, sestra → sestre, kava → kave)."
+          "**The endings, by gender.**"
         ],
         [
-          "Three jobs, one case: **1. Belonging** — *kuća **bake*** (grandma's house; the owner comes *after*, in the genitive). **2. After certain prepositions** — *bez **šećera**, iz **Zagreba**, kod **tete**, pokraj **kuće**, od... do...* **3. After \"nema\"** — *Nema **interneta**!*"
+          "tab: Gender",
+          "On its own",
+          "In the genitive",
+          "Ending"
+        ],
+        [
+          "tab: masculine",
+          "brat",
+          "brata",
+          "**+a**"
+        ],
+        [
+          "tab: masculine",
+          "djed",
+          "djeda",
+          "**+a**"
+        ],
+        [
+          "tab: neuter",
+          "more",
+          "mora",
+          "**+a**"
+        ],
+        [
+          "tab: feminine",
+          "baka",
+          "bake",
+          "**-a → -e**"
+        ],
+        [
+          "tab: feminine",
+          "sestra",
+          "sestre",
+          "**-a → -e**"
+        ],
+        [
+          "tab: feminine",
+          "kava",
+          "kave",
+          "**-a → -e**"
+        ],
+        [
+          "**Three jobs, one case.** **1. Belonging** — *kuća **bake*** (grandma's house; the owner comes *after*, in the genitive). **2. After certain prepositions** — *bez **šećera**, iz **Zagreba**, kod **tete**, pokraj **kuće**, od… do…* **3. After *nema*** — *Nema **interneta**!*"
+        ],
+        [
+          "**Now you write them.** Ovo je kuća [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba]."
         ]
       ],
       "sortkljuc": 1601004,
-      "bodovi": 15
+      "bodovi": 23
     },
     {
       "cjelina": "Lesson 16",
@@ -60020,11 +60683,31 @@ window.PODACI = {
           "*Nema* + genitive says something's missing — one of the most Croatian phrases there is:"
         ],
         [
-          "*Nema problema!* — No problem! (you'll hear this daily) *Nema interneta.* — There's no internet. *Nema žurbe.* — No hurry."
+          "tab: Croatian",
+          "English",
+          "When you hear it"
+        ],
+        [
+          "tab: Nema problema!",
+          "No problem!",
+          "daily, everywhere"
+        ],
+        [
+          "tab: Nema interneta.",
+          "There's no internet.",
+          "in a café"
+        ],
+        [
+          "tab: Nema žurbe.",
+          "No hurry.",
+          "said to you, kindly"
+        ],
+        [
+          "**Now you write them.** Nema [problema]! Nema [interneta]. Nema [žurbe]."
         ]
       ],
       "sortkljuc": 1601008,
-      "bodovi": 15
+      "bodovi": 19
     },
     {
       "cjelina": "Lesson 16",
@@ -60217,7 +60900,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601013,
-      "bodovi": 15
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 16",
@@ -60529,10 +61212,13 @@ window.PODACI = {
         ],
         [
           "**Case toolkit — complete!** Six of seven — only the vocative (calling someone: *Marko! Ana!*) remains, and you've been using it in dialogues all along."
+        ],
+        [
+          "**Now you write them.** Ovo je kuća [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Nema [problema]!"
         ]
       ],
       "sortkljuc": 1603001,
-      "bodovi": 19
+      "bodovi": 22
     },
     {
       "cjelina": "Grammar 16",
@@ -60686,6 +61372,9 @@ window.PODACI = {
         ],
         [
           "***koliko* takes the genitive plural too:** *Koliko kav**a** piješ na dan?*"
+        ],
+        [
+          "**Now you write them.** [Koliko] kava piješ na dan? Nema [vremena]."
         ]
       ],
       "sortkljuc": 1603005,
@@ -60856,7 +61545,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604001,
-      "bodovi": 23
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 16",
@@ -60969,7 +61658,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604004,
-      "bodovi": 23
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 16",
@@ -61076,7 +61765,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604007,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 16",
@@ -61183,7 +61872,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701001,
-      "bodovi": 17
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 17",
@@ -61290,14 +61979,53 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "Take the *ti* form, swap the ending: -am verbs → **-aj** (gledaš → gled**aj**!, dodaš → dod**aj**!); most others → **-i** (ideš → id**i**!, uzmeš → uzm**i**!, skreneš → skren**i**!); vowel verbs → **-j** (piješ → pi**j**!)."
+          "**Take the *ti* form and swap the ending.**"
         ],
         [
-          "For groups or politeness, just add **-te**: *idite, uzmite, pijte*. You've heard it for 16 lessons: *Izvoli**te**!*"
+          "tab: Family",
+          "You say (ti)",
+          "The order",
+          "Ending"
+        ],
+        [
+          "tab: -am verbs",
+          "gledaš",
+          "gledaj!",
+          "**-aj**"
+        ],
+        [
+          "tab: -am verbs",
+          "dodaš",
+          "dodaj!",
+          "**-aj**"
+        ],
+        [
+          "tab: most others",
+          "ideš",
+          "idi!",
+          "**-i**"
+        ],
+        [
+          "tab: most others",
+          "uzmeš",
+          "uzmi!",
+          "**-i**"
+        ],
+        [
+          "tab: vowel verbs",
+          "piješ",
+          "pij!",
+          "**-j**"
+        ],
+        [
+          "**For groups or politeness, just add *-te*.** *idite, uzmite, pijte*. You've heard it for sixteen lessons: *Izvoli**te**!*"
+        ],
+        [
+          "**Now you write them.** [Gledaj] me! [Idi] doma! [Uzmi] jednu!"
         ]
       ],
       "sortkljuc": 1701004,
-      "bodovi": 17
+      "bodovi": 25
     },
     {
       "cjelina": "Lesson 17",
@@ -61396,20 +62124,32 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "Two flavors of don't:"
+          "Two flavours of don't:"
         ],
         [
-          "**Direct:** ne + imperative → *Ne trči! Ne gledaj telefon!*"
+          "tab: Style",
+          "Recipe",
+          "Example"
         ],
         [
-          "**Softer:** nemoj/nemojte + infinitive → *Nemoj trčati! Nemojte spavati!*"
+          "tab: direct",
+          "**ne** + imperative",
+          "Ne trči! Ne gledaj telefon!"
         ],
         [
-          "Both are correct; *nemoj* sounds friendlier."
+          "tab: softer",
+          "**nemoj / nemojte** + infinitive",
+          "Nemoj trčati! Nemojte spavati!"
+        ],
+        [
+          "**Both are correct**, and *nemoj* sounds friendlier — it is the one you want with people you have just met."
+        ],
+        [
+          "**Now you write them.** [Ne] trči! [Nemoj] trčati! [Nemojte] spavati!"
         ]
       ],
       "sortkljuc": 1701007,
-      "bodovi": 17
+      "bodovi": 21
     },
     {
       "cjelina": "Lesson 17",
@@ -61633,7 +62373,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701013,
-      "bodovi": 17
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 17",
@@ -61973,10 +62713,13 @@ window.PODACI = {
         ],
         [
           "**Familiar faces:** you've been obeying imperatives all course long: *Izvolite? Oprostite! Dobro došli!* — all commands in disguise."
+        ],
+        [
+          "**Now you write them.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!"
         ]
       ],
       "sortkljuc": 1703001,
-      "bodovi": 21
+      "bodovi": 25
     },
     {
       "cjelina": "Grammar 17",
@@ -62155,6 +62898,9 @@ window.PODACI = {
         ],
         [
           "**In practice Croats mostly say *želim* for \"want\"** with things and *hoću* when they're being firm about it. *Htio bih* from Lesson 18 is the polite version of both."
+        ],
+        [
+          "**Now you write them.** Direct: [Ne] trči! Softer: [Nemoj] trčati! To a group: [Nemojte] spavati!"
         ]
       ],
       "sortkljuc": 1703006,
@@ -62353,7 +63099,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704001,
-      "bodovi": 25
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 17",
@@ -62469,7 +63215,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704004,
-      "bodovi": 25
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 17",
@@ -62574,7 +63320,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704007,
-      "bodovi": 25
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 17",
@@ -62687,7 +63433,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801001,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 18",
@@ -62735,17 +63481,55 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "ja **bih** (*Kupio/Kupila bih brod.*) · ti **bi** · on/ona **bi** (*Ona bi plivala.*) · mi **bismo** (*Mi bismo jeli dugo.*) · vi **biste** (*Vi biste ostali doma.*) · oni **bi** (*Oni bi došli na ručak.*)"
+          "**All six helpers in one place.**"
         ],
         [
-          "Same participle as the past tense (*kupio/kupila/kupili*), new helper (*bih* instead of *sam*). And the helper follows the leaning rule you know from *sam* and *ću* — never first in the sentence."
+          "tab: Person",
+          "Helper",
+          "Example"
+        ],
+        [
+          "tab: ja",
+          "bih",
+          "Kupio bih brod."
+        ],
+        [
+          "tab: ti",
+          "bi",
+          "Ti bi putovao."
+        ],
+        [
+          "tab: on, ona, ono",
+          "bi",
+          "Ona bi plivala."
+        ],
+        [
+          "tab: mi",
+          "bismo",
+          "Mi bismo jeli dugo."
+        ],
+        [
+          "tab: vi",
+          "biste",
+          "Vi biste ostali doma."
+        ],
+        [
+          "tab: oni, one, ona",
+          "bi",
+          "Oni bi došli na ručak."
+        ],
+        [
+          "**Same participle, new helper.** The participle is the one from Lesson 10 (*kupio / kupila / kupili*); only the helper changes — *bih* instead of *sam*. And it follows the leaning rule you know from *sam* and *ću*: never first in the sentence."
+        ],
+        [
+          "**Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali cijelu godinu. Oni [bi] došli na ručak."
         ],
         [
           "**Novi glagoli:** dobiti (to get), ostati (to stay), zamisliti (to imagine)."
         ]
       ],
       "sortkljuc": 1801003,
-      "bodovi": 19
+      "bodovi": 28
     },
     {
       "cjelina": "Lesson 18",
@@ -62884,14 +63668,26 @@ window.PODACI = {
           "The politest way to want something in Croatian:"
         ],
         [
-          "*Htio bih kavu.* (m.) / *Htjela bih kavu.* (f.) — I would like a coffee."
+          "tab: Who is speaking",
+          "What they say"
         ],
         [
-          "This single phrase upgrades every restaurant, shop and hotel interaction. Use it everywhere."
+          "tab: a man",
+          "Htio bih kavu."
+        ],
+        [
+          "tab: a woman",
+          "Htjela bih kavu."
+        ],
+        [
+          "**This single phrase upgrades every restaurant, shop and hotel.** Use it everywhere."
+        ],
+        [
+          "**Now you write them.** [Htio] bih kavu — kaže muškarac. [Htjela] bih kavu — kaže žena."
         ]
       ],
       "sortkljuc": 1801007,
-      "bodovi": 19
+      "bodovi": 24
     },
     {
       "cjelina": "Lesson 18",
@@ -63076,7 +63872,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801012,
-      "bodovi": 19
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 18",
@@ -63361,10 +64157,13 @@ window.PODACI = {
         ],
         [
           "**Speech shortcut:** in everyday speech many Croats use *bi* for all persons (*mi bi išli*). You'll hear it — but write *bismo/biste*; every teacher will thank you."
+        ],
+        [
+          "**Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali. Vi [biste] ostali doma."
         ]
       ],
       "sortkljuc": 1803001,
-      "bodovi": 20
+      "bodovi": 24
     },
     {
       "cjelina": "Grammar 18",
@@ -63511,6 +64310,9 @@ window.PODACI = {
         ],
         [
           "**Careful with *da*.** After a conditional it's the \"if\" of dreams; after *znam, mislim, kažem* it's the ordinary \"that\". You'll sort those out in Grammar 20."
+        ],
+        [
+          "**Now you write them.** [Kad] bih imao milijun, kupio bih brod. [Htio] bih kavu, molim."
         ]
       ],
       "sortkljuc": 1803005,
@@ -63706,7 +64508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804001,
-      "bodovi": 28
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 18",
@@ -63815,7 +64617,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804004,
-      "bodovi": 28
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 18",
@@ -63935,7 +64737,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804007,
-      "bodovi": 28
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 18",
@@ -64045,7 +64847,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901001,
-      "bodovi": 21
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 19",
@@ -64175,17 +64977,33 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "**Process twin** — duration, repetition, background: *Pisao sam pismo **cijelo poslijepodne**. Svaki dan **pijem** kavu.*"
+          "**The two twins side by side.**"
         ],
         [
-          "**Done twin** — completion, result, single event: ***Napisao sam** pismo! **Popio je** kavu **odmah**.*"
+          "tab: Process twin — the doing",
+          "Done twin — the getting done"
         ],
         [
-          "The tell-tale words: *cijeli dan / dugo / svaki dan* → process. *Napokon / odmah / za dvije minute* → done."
+          "tab: Pisao sam pismo cijelo poslijepodne.",
+          "Napisao sam pismo!"
+        ],
+        [
+          "tab: Svaki dan pijem kavu.",
+          "Popio je kavu odmah."
+        ],
+        [
+          "tab: Čitao sam knjigu dugo.",
+          "Pročitao sam knjigu."
+        ],
+        [
+          "**The tell-tale words.** *cijeli dan · dugo · svaki dan* point to the process twin. *napokon · odmah · za dvije minute* point to the done twin."
+        ],
+        [
+          "**Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu."
         ]
       ],
       "sortkljuc": 1901005,
-      "bodovi": 21
+      "bodovi": 31
     },
     {
       "cjelina": "Lesson 19",
@@ -64472,7 +65290,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901012,
-      "bodovi": 21
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 19",
@@ -64785,10 +65603,13 @@ window.PODACI = {
         ],
         [
           "**The homework trap:** *Jesi li **pisao** zadaću?* — did you do (some) homework? *Jesi li **napisao** zadaću?* — did you FINISH it? (mom's version). One prefix, very different conversation."
+        ],
+        [
+          "**Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu. Odmah ju je [popio]."
         ]
       ],
       "sortkljuc": 1903001,
-      "bodovi": 22
+      "bodovi": 26
     },
     {
       "cjelina": "Grammar 19",
@@ -64958,6 +65779,9 @@ window.PODACI = {
         ],
         [
           "**After *nemoj*, Croatian prefers the process twin:** *Nemoj **pisati**!* — even for a one-off action. Handy default when you're unsure."
+        ],
+        [
+          "**Now you write them.** Nemoj [pisati]! Svaki dan [čitam]. Napokon sam [pročitao] knjigu."
         ]
       ],
       "sortkljuc": 1903005,
@@ -65176,7 +66000,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904001,
-      "bodovi": 31
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 19",
@@ -65289,7 +66113,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904004,
-      "bodovi": 26
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 19",
@@ -65405,7 +66229,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904007,
-      "bodovi": 31
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 19",
@@ -65515,7 +66339,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001001,
-      "bodovi": 23
+      "bodovi": 1
     },
     {
       "cjelina": "Lesson 20",
@@ -65637,17 +66461,42 @@ window.PODACI = {
       "meta": {},
       "stavke": [
         [
-          "**koji/koja/koje** (which/that/who) connects a noun with its description — and it agrees in gender, like every adjective you've ever met:"
+          "**koji / koja / koje** (which, that, who) connects a noun with its description — and it agrees in gender, like every adjective you've ever met:"
         ],
         [
-          "*film **koji** traje tri sata* (m.) · *more **koje** je plavo* (n.) · *ljudi **koji** uvijek imaju vremena za kavu*."
+          "tab: The thing",
+          "The glue",
+          "Whole thought"
         ],
         [
-          "And it changes by case like everything else: *knjiga **koju** čitam* — your old friend -a → -u!"
+          "tab: film (m.)",
+          "koji",
+          "film koji traje tri sata"
+        ],
+        [
+          "tab: knjiga (f.)",
+          "koja",
+          "knjiga koja je nova"
+        ],
+        [
+          "tab: more (n.)",
+          "koje",
+          "more koje je plavo"
+        ],
+        [
+          "tab: ljudi (pl.)",
+          "koji",
+          "ljudi koji uvijek imaju vremena za kavu"
+        ],
+        [
+          "**And it changes by case like everything else.** *knjiga **koju** čitam* — your old friend **-a → -u**, back one last time."
+        ],
+        [
+          "**Now you write them.** Film [koji] traje tri sata. More [koje] je plavo. Knjiga [koju] čitam."
         ]
       ],
       "sortkljuc": 2001005,
-      "bodovi": 23
+      "bodovi": 35
     },
     {
       "cjelina": "Lesson 20",
@@ -65991,7 +66840,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001012,
-      "bodovi": 23
+      "bodovi": 1
     },
     {
       "cjelina": "Vocabulary 20",
@@ -66339,10 +67188,13 @@ window.PODACI = {
         ],
         [
           "**You now have the full sentence machine:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep — **iako** ne bih trebao treću!* That's the whole grammar of the course in one sentence."
+        ],
+        [
+          "**Now you write the whole machine.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep."
         ]
       ],
       "sortkljuc": 2003001,
-      "bodovi": 29
+      "bodovi": 34
     },
     {
       "cjelina": "Grammar 20",
@@ -66482,6 +67334,9 @@ window.PODACI = {
         ],
         [
           "**And *koji* keeps travelling through the cases:** *čovjek **kojeg** čekam* (accusative) · *grad u **kojem** živim* (locative) · *vlak **kojim** putujem* (instrumental). Every case you learned, now inside a relative clause."
+        ],
+        [
+          "**Now you write them.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim."
         ]
       ],
       "sortkljuc": 2003005,
@@ -66680,7 +67535,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004001,
-      "bodovi": 35
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 20",
@@ -66793,7 +67648,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004004,
-      "bodovi": 35
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 20",
@@ -66896,7 +67751,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004007,
-      "bodovi": 29
+      "bodovi": 1
     },
     {
       "cjelina": "Practice 20",
@@ -67009,7 +67864,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004011,
-      "bodovi": 23
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 1",
@@ -67028,7 +67883,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50001001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 1",
@@ -67158,7 +68013,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50001005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 2",
@@ -67180,7 +68035,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50002001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 2",
@@ -67342,7 +68197,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50002005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 3",
@@ -67361,7 +68216,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50003001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 3",
@@ -67490,7 +68345,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50003005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 4",
@@ -67509,7 +68364,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50004001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 4",
@@ -67645,7 +68500,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50004005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 5",
@@ -67667,7 +68522,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50005001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 5",
@@ -67791,7 +68646,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50005005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 6",
@@ -67810,7 +68665,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50006001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 6",
@@ -67946,7 +68801,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50006005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 7",
@@ -67965,7 +68820,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50007001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 7",
@@ -68118,7 +68973,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50007005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 8",
@@ -68140,7 +68995,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50008001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 8",
@@ -68256,7 +69111,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50008005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 9",
@@ -68275,7 +69130,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50009001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 9",
@@ -68405,7 +69260,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50009005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 10",
@@ -68427,7 +69282,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50010001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 10",
@@ -68532,7 +69387,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50010005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 11",
@@ -68551,7 +69406,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50011001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 11",
@@ -68687,7 +69542,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50011005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 12",
@@ -68706,7 +69561,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50012001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 12",
@@ -68853,7 +69708,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50012005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 13",
@@ -68875,7 +69730,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50013001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 13",
@@ -69004,7 +69859,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50013005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 14",
@@ -69023,7 +69878,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50014001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 14",
@@ -69154,7 +70009,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50014005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 15",
@@ -69173,7 +70028,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50015001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 15",
@@ -69330,7 +70185,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50015005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 16",
@@ -69352,7 +70207,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50016001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 16",
@@ -69478,7 +70333,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50016005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 17",
@@ -69497,7 +70352,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50017001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 17",
@@ -69634,7 +70489,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50017005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 18",
@@ -69653,7 +70508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 18",
@@ -69684,7 +70539,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018002,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 18",
@@ -69848,7 +70703,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 19",
@@ -69867,7 +70722,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50019001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 19",
@@ -69997,7 +70852,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50019005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 20",
@@ -70019,7 +70874,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50020001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 20",
@@ -70149,7 +71004,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50020005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 21",
@@ -70168,7 +71023,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50021001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 21",
@@ -70315,7 +71170,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50021006,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 22",
@@ -70337,7 +71192,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50022001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 22",
@@ -70459,7 +71314,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50022005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 23",
@@ -70478,7 +71333,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50023001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 23",
@@ -70630,7 +71485,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50023005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 24",
@@ -70649,7 +71504,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50024001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 24",
@@ -70822,7 +71677,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50024005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 25",
@@ -70844,7 +71699,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50025001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 25",
@@ -70963,7 +71818,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50025005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 26",
@@ -70982,7 +71837,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50026001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 26",
@@ -71112,7 +71967,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50026005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 27",
@@ -71134,7 +71989,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50027001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 27",
@@ -71253,7 +72108,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50027005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 28",
@@ -71272,7 +72127,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50028001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 28",
@@ -71408,7 +72263,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50028005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 29",
@@ -71427,7 +72282,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50029001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 29",
@@ -71597,7 +72452,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50029006,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 30",
@@ -71619,7 +72474,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50030001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 30",
@@ -71757,7 +72612,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50030005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 31",
@@ -71779,7 +72634,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50031001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 31",
@@ -71921,7 +72776,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50031005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 32",
@@ -71940,7 +72795,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50032001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 32",
@@ -72059,7 +72914,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50032005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 33",
@@ -72078,7 +72933,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 33",
@@ -72112,7 +72967,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033002,
-      "bodovi": 5
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 33",
@@ -72292,7 +73147,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 34",
@@ -72311,7 +73166,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50034001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 34",
@@ -72446,7 +73301,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50034005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 35",
@@ -72468,7 +73323,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50035001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 35",
@@ -72607,7 +73462,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50035005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 36",
@@ -72626,7 +73481,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50036001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 36",
@@ -72765,7 +73620,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50036005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 37",
@@ -72787,7 +73642,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50037001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 37",
@@ -72936,7 +73791,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50037005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 38",
@@ -72955,7 +73810,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50038001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 38",
@@ -73099,7 +73954,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50038005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 39",
@@ -73118,7 +73973,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50039001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 39",
@@ -73267,7 +74122,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50039005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 40",
@@ -73289,7 +74144,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50040001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 40",
@@ -73424,7 +74279,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50040005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 41",
@@ -73443,7 +74298,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50041001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 41",
@@ -73610,7 +74465,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50041005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 42",
@@ -73629,7 +74484,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50042001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 42",
@@ -73768,7 +74623,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50042005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 43",
@@ -73787,7 +74642,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043001,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 43",
@@ -73818,7 +74673,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043002,
-      "bodovi": 4
+      "bodovi": 1
     },
     {
       "cjelina": "Daily challenge 43",
@@ -73991,7 +74846,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043005,
-      "bodovi": 3
+      "bodovi": 1
     },
     {
       "cjelina": null,

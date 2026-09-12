@@ -8,6 +8,7 @@ format: tekst
 - **Word order — the leaning rule, third time:** the helper can't stand first: *Kupio **bih** brod. · Ja **bih** kupio brod. · Sutra **bih** kupio brod.* Negative: **ne bih** — *Ne bih radio ponedjeljkom!* Question: **bi li** — *Bi li dolazio k meni ljeti?*
 - **The politeness machine:** the conditional is Croatian's "please-mode": *Želim kavu.* → ***Htio/Htjela bih** kavu.*
 - **Speech shortcut:** in everyday speech many Croats use *bi* for all persons (*mi bi išli*). You'll hear it — but write *bismo/biste*; every teacher will thank you.
+- **Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali. Vi [biste] ostali doma.
 
 ## Type the helper
 format: upis
@@ -47,6 +48,7 @@ format: tekst
 - **A second way to say the same dream: *kad bih*.** ***Kad bih imao** milijun eura, kupio **bih** brod.* Same meaning as *Da imam...*, just as common — only here the *if*-half takes the conditional too, so *bih* turns up twice.
 - **Comma obligatory** when the condition comes first — and it usually does.
 - **Careful with *da*.** After a conditional it's the "if" of dreams; after *znam, mislim, kažem* it's the ordinary "that". You'll sort those out in Grammar 20.
+- **Now you write them.** [Kad] bih imao milijun, kupio bih brod. [Htio] bih kavu, molim.
 
 ## Real or unreal?
 format: razvrstavanje

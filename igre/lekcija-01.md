@@ -5,8 +5,10 @@ cjelina: Lesson 1
 format: tekst
 info: A short read to set up the lesson: Croatian is spelled exactly as it sounds, and it has **no articles** at all, so *kuća* covers house, a house and the house. The one new word today is **je**, meaning *is*, as in *Kava je dobra.*
 - Welcome to your first real Croatian lesson!
-- Here's a secret: you already speak some Croatian. *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly.
-- Today you'll learn one tiny word — **je** (*is*) — and with it you'll build your first real Croatian sentences: *Kava je dobra.* The coffee is good. No "the", no "a" — Croatian has no articles at all. One less thing to learn!
+- **You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say.
+- **Today's one new word is je.** It means *is*, and it goes between the thing and its description: *Kava je dobra.* — The coffee is good.
+- **There is no "the" and no "a".** Croatian skips articles entirely, so *kuća* covers house, a house and the house. One less thing to learn.
+- **Fill in the word and the lesson is yours.** Kava [je] dobra. Automobil [je] brz.
 - By the end of this lesson you'll describe houses, cars, the sea and your coffee — in Croatian.
 
 ## Words you already recognise
@@ -61,9 +63,14 @@ opis: Match each Croatian word with its English meaning.
 ## The magic word: je
 format: tekst
 info: The rule page for today's single verb form: **je** means *is* and sits between the thing and its description, as in *Automobil je brz.* There is no word for *a* or *the*, so nothing else belongs in the sentence.
-- To say anything about anything, Croatian needs just one little word: **je** (*is*).
-- *Kava je dobra.* — The coffee is good. *Automobil je brz.* — The car is fast. *Ovo je kuća.* — This is a house.
-- Notice what's missing? No *the*, no *a*. Croatian skips articles entirely. You're welcome.
+- To say anything about anything, Croatian needs just one little word: **je** (*is*). It sits between the thing and what you say about it.
+- **The pattern.** thing + **je** + description. Nothing else goes in.
+- tab: Croatian | English
+- tab: Kava je dobra. | The coffee is good.
+- tab: Automobil je brz. | The car is fast.
+- tab: Ovo je kuća. | This is a house.
+- **Now you write it.** Put the missing word back into all three: Kava [je] dobra. Automobil [je] brz. Ovo [je] kuća.
+- **Notice what's missing.** No *the*, no *a*. Croatian skips articles entirely. You're welcome.
 
 ## Adjectives: making it interesting
 format: kartice

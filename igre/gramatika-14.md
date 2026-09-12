@@ -8,6 +8,7 @@ format: tekst
 - **The questions:** Komu? — to whom? *Komu šalješ paket? — Sestri.* Čemu? — to what? (rare).
 - **The giving verbs:** davati (*Dajem bratu loptu.*), slati (*Šaljem baki čokoladu.*), nositi (*Nosim učiteljici pismo.*), pisati (*Pišem djedu.*), kupovati (*Kupujem mami šal.*).
 - **Word order:** both work — *Kupujem mami šal.* / *Mami kupujem šal.* Croatian loves starting with the receiver; it sounds caring.
+- **Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo.
 
 ## Type the dative
 format: upis
@@ -48,6 +49,7 @@ format: tekst
 - **They lean, like *sam* and *ga*.** Never first in the sentence — they slide in right after the first word: *Baka **mi** šalje paket.*
 - **The long forms are for emphasis:** *Meni šalje paket, ne tebi!* Same meaning, stressed, and free to stand first.
 - **Stacking order:** when a dative and an accusative pronoun meet, dative goes first — *Dajem **mu ga**.* (I'm giving it to him.)
+- **Now you write them.** Dajem loptu bratu → Dajem [mu] loptu. Dajem [mu] [ga].
 
 ## Replace the receiver
 format: upis

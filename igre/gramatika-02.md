@@ -20,6 +20,7 @@ info: The reference table for **biti**: *sam, si, je, smo, ste, su*. Two rules t
 - tab: Ja sam gladan. | Gladan sam. | Sam gladan.
 - tab: Mi smo turisti. | Turisti smo. | Smo turisti.
 - **Plural, the short version.** With **mi**, **vi** and **oni** the word that follows takes **-i**: *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*. That is all you need here. Lesson 7 gives you the full plural.
+- **Now you write them.** Ja [sam] student. Ti [si] gladan. Mi [smo] turisti. Oni [su] doma.
 
 ## Tap the verb
 format: nastavak
@@ -57,6 +58,7 @@ info: The agreement rule from Lesson 1, now applied to people: the adjective cop
 - tab: Pattern | Croatian | English
 - tab: pronoun + biti + noun | Ja sam kuhar. | I am a cook.
 - tab: pronoun + biti + adjective | Ona je vesela. | She is cheerful.
+- **Now you write them.** On je [visok]. Ona je [visoka]. Oni su [visoki].
 
 ## Pick the adjective
 format: izbor
@@ -112,6 +114,7 @@ info: A two-part rule page. First the politeness choice: *ti* for a friend, chil
 - **A few take -ka instead**: *novinar → novinarka*, *policajac → policajka*.
 - **Nationalities have their own habits.** *Hrvat → Hrvatica*, but *Talijan → Talijanka* and *Nijemac → Njemica*. These you learn as pairs — there are not many.
 - **Capital letters.** Nationalities are capitalised (*Hrvat*, *Talijanka*), jobs are not (*kuhar*, *glumica*).
+- **Now you write them.** To a friend: Kako [si]? To a stranger: Kako [ste]? He is *kuhar*, she is [kuharica].
 
 ## ti or vi?
 format: izbor
@@ -162,6 +165,7 @@ info: The negative half of **biti**: *nisam, nisi, nije, nismo, niste, nisu*, al
 - **The leaning rule is off.** *sam, si, je* are unstressed and can't open a sentence; the negative forms are stressed and open sentences all day: ***Nisam** gladan. **Nije** doma. **Nismo** turisti.*
 - **One word is a whole answer.** *Jesi li umoran? — **Nisam**.* Croatian doesn't need "no, I'm not" — the verb already carries the no, the person and the tense.
 - **The adjective still copies the person**, exactly as in the positive: *Ona nije umorn**a***. *Oni nisu umorn**i***.
+- **Now you write them.** Ja [nisam] gladan. On [nije] doma. Mi [nismo] turisti.
 
 ## Make it negative
 format: upis

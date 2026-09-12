@@ -7,6 +7,7 @@ format: tekst
 - **The three fused verbs:** biti → **nisam, nisi, nije, nismo, niste, nisu** · imati → **nemam, nemaš, nema, nemamo, nemate, nemaju** · htjeti (futur) → **neću, nećeš, neće, nećemo, nećete, neće**. *Nisam umoran. Nemamo vremena. Neću plivati.*
 - **Negation in the past:** the participle stays, only biti flips: *Gledao sam film.* → ***Nisam** gledao film.* · *Bila je sretna.* → ***Nije** bila sretna.*
 - **Negatives must agree (double negation):** if one word is negative, they all go negative: *Ništa **ne** jedem. Nikad **ništa ne** kupujem!* (triple — perfectly correct!) *Ne pijem **ni** kavu **ni** čaj.* There is no "I eat nothing" with a positive verb — *ništa* demands *ne*.
+- **Now you write them.** Ja [nisam] gladan. Ja [nemam] vremena. Ništa [ne] jedem. Ne pijem [ni] kavu [ni] čaj.
 
 ## Make it negative
 format: upis
@@ -48,6 +49,7 @@ format: tekst
 - **Comma obligatory** before *nego*, exactly as before *a* and *ali*.
 - **The upgrade pattern:** *ne samo… nego i…* — *Ne govorim samo engleski, **nego i** hrvatski!* This is how you show off.
 - **Careful:** *nego* is not a negation itself. The *ne* stays where it was — *Ne pijem kavu, nego čaj*, never *Pijem kavu, nego čaj*.
+- **Now you write them.** [Ne] pijem kavu, [nego] čaj.
 
 ## ali or nego?
 format: izbor

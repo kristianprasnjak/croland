@@ -33,8 +33,15 @@ opis: Tap a card to reveal the meaning.
 
 ## Making commands
 format: tekst
-- Take the *ti* form, swap the ending: -am verbs → **-aj** (gledaš → gled**aj**!, dodaš → dod**aj**!); most others → **-i** (ideš → id**i**!, uzmeš → uzm**i**!, skreneš → skren**i**!); vowel verbs → **-j** (piješ → pi**j**!).
-- For groups or politeness, just add **-te**: *idite, uzmite, pijte*. You've heard it for 16 lessons: *Izvoli**te**!*
+- **Take the *ti* form and swap the ending.**
+- tab: Family | You say (ti) | The order | Ending
+- tab: -am verbs | gledaš | gledaj! | **-aj**
+- tab: -am verbs | dodaš | dodaj! | **-aj**
+- tab: most others | ideš | idi! | **-i**
+- tab: most others | uzmeš | uzmi! | **-i**
+- tab: vowel verbs | piješ | pij! | **-j**
+- **For groups or politeness, just add *-te*.** *idite, uzmite, pijte*. You've heard it for sixteen lessons: *Izvoli**te**!*
+- **Now you write them.** [Gledaj] me! [Idi] doma! [Uzmi] jednu!
 
 ## Spot the command
 format: parovi
@@ -59,10 +66,12 @@ opis: One friend or a group? Choose the right command.
 
 ## Saying "don't"
 format: tekst
-- Two flavors of don't:
-- **Direct:** ne + imperative → *Ne trči! Ne gledaj telefon!*
-- **Softer:** nemoj/nemojte + infinitive → *Nemoj trčati! Nemojte spavati!*
-- Both are correct; *nemoj* sounds friendlier.
+- Two flavours of don't:
+- tab: Style | Recipe | Example
+- tab: direct | **ne** + imperative | Ne trči! Ne gledaj telefon!
+- tab: softer | **nemoj / nemojte** + infinitive | Nemoj trčati! Nemojte spavati!
+- **Both are correct**, and *nemoj* sounds friendlier — it is the one you want with people you have just met.
+- **Now you write them.** [Ne] trči! [Nemoj] trčati! [Nemojte] spavati!
 
 ## Make it negative
 format: upis

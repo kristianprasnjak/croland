@@ -40,9 +40,13 @@ opis: Match each process verb with its "done!" twin.
 
 ## When to use which
 format: tekst
-- **Process twin** — duration, repetition, background: *Pisao sam pismo **cijelo poslijepodne**. Svaki dan **pijem** kavu.*
-- **Done twin** — completion, result, single event: ***Napisao sam** pismo! **Popio je** kavu **odmah**.*
-- The tell-tale words: *cijeli dan / dugo / svaki dan* → process. *Napokon / odmah / za dvije minute* → done.
+- **The two twins side by side.**
+- tab: Process twin — the doing | Done twin — the getting done
+- tab: Pisao sam pismo cijelo poslijepodne. | Napisao sam pismo!
+- tab: Svaki dan pijem kavu. | Popio je kavu odmah.
+- tab: Čitao sam knjigu dugo. | Pročitao sam knjigu.
+- **The tell-tale words.** *cijeli dan · dugo · svaki dan* point to the process twin. *napokon · odmah · za dvije minute* point to the done twin.
+- **Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu.
 
 ## Process or done?
 format: razvrstavanje

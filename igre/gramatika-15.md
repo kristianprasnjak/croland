@@ -8,6 +8,7 @@ format: tekst
 - **Company: s/sa + instrumental.** *Idem u kino s Markom. Pijem kavu s mlijekom* (food can be company too!). **s → sa** before s, š, z, ž: *sa sestrom, sa psom* — purely for pronunciation.
 - **Means: instrumental WITHOUT preposition.** *Putujem vlakom. Idemo autobusom.* The most common English-speaker mistake: "idem s vlakom" — you're not *accompanying* the train, you're *using* it. No s! (Walking has its own word: **pješice** — on foot.)
 - **The case count so far:** nominativ (subject, L1) · akuzativ (target/direction, L5–6) · lokativ (location, L13) · dativ (receiver, L14) · instrumental (company/means, L15). Five down, two to go — you're past the hardest part.
+- **Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Putujem [vlakom] — bez prijedloga.
 
 ## Type the instrumental
 format: upis
@@ -52,6 +53,7 @@ format: tekst
 - **Pronouns are always company, never means.** You travel *vlakom* with no preposition, but a person is never a vehicle: *Putujem s bratom*, and *Putujem s njim*.
 - **The question and its answer rhyme:** *S kim ideš? — S njom.* *S kim putuješ? — S tobom!*
 - **Same forms carry the whole preposition family:** *pred njim, za njom, nad nama* — learn these seven and a lot of Croatian opens up at once.
+- **Now you write them.** Ideš li sa [mnom]? Idem s [tobom]. Idem s [njim].
 
 ## Type the pronoun
 format: upis

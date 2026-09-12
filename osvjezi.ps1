@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $igreDir = Join-Path $root 'igre'
 
@@ -16,6 +16,17 @@ $igreDir = Join-Path $root 'igre'
 # ---------------------------------------------------------------
 
 $tipRang = @{ lesson = 1; vocabulary = 2; grammar = 3; practice = 4; test = 5 }
+
+# "Kava [je] dobra." u formatu tekst = polje koje se upisuje. Stranica s barem
+# jednom takvom prazninom je zadatak i boduje se kao zadatak; ona bez njih nije.
+function Ima-Praznina($g) {
+    foreach ($st in $g.stavke) {
+        foreach ($polje in $st) {
+            if ([string]$polje -match '\[[^\[\]]+\]') { return $true }
+        }
+    }
+    return $false
+}
 
 # osnovni bodovi po formatu (moze se pregaziti s "bodovi: N" u odjeljku md-a)
 $bazaBodova = @{
@@ -115,6 +126,10 @@ foreach ($g in $igre) {
     $b = 0
     if ($g.meta.Contains('bodovi')) {
         $b = [int]$g.meta['bodovi']
+    } elseif ($g.format -eq 'tekst' -and -not (Ima-Praznina $g)) {
+        # Stranica objasnjenja bez ijedne praznine se ne rjesava nego prelistava
+        # - vrijedi jedan bod. Ista pravila i u osvjezi.js.
+        $b = 1
     } else {
         $baza = if ($bazaBodova.ContainsKey($g.format)) { $bazaBodova[$g.format] } else { 5 }
         $mn = 1.0

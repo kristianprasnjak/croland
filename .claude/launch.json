@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8000"],
       "port": 8000
+    },
+    {
+      "name": "notopis",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8181", "--directory", "C:/Users/Korisnik/Claude/Projects/notopis"],
+      "port": 8181
     }
   ]
 }

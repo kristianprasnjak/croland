@@ -8,6 +8,7 @@ format: tekst
 - **The speaker's gender matters:** a man says *Spavao sam dugo*; a woman says *Spavala sam dugo*. The verb itself tells the listener who's talking — English can't do that!
 - **Word order — the leaning rule:** *sam/si/je...* never stands first: *Gledao **sam** film. · Ja **sam** gledao film. · Jučer **sam** gledao film.* You know this dance from the future (ću).
 - **The past of "to be":** *Bio sam na moru. Voda je bila topla. Bilo je savršeno!*
+- **Now you write them.** Ja sam [bio] na moru — kaže muškarac. Voda je [bila] topla. Sve je [bilo] savršeno.
 
 ## Type the participle
 format: upis
@@ -44,6 +45,7 @@ format: tekst
 - **And the word order relaxes.** *sam* had to lean on a first word; *nisam* is stressed and may open the sentence: ***Nisam** spavao dugo.* Both *Nisam spavao* and *Jučer nisam spavao* are fine.
 - **Gender survives negation:** a man says *Nisam spavao*, a woman *Nisam spavala*, a group *Nismo spavali*.
 - **The surprised question:** ***Nisi li** gledao utakmicu?* — "Didn't you watch the match?" Negative question, mild disbelief. Very Croatian.
+- **Now you write them.** Ja [nisam] gledao utakmicu. [Nisi] li gledao utakmicu?
 
 ## Say it didn't happen
 format: upis

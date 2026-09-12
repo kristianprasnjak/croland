@@ -7,6 +7,7 @@ format: tekst
 - **Yes/no questions with "li":** *li* sits right after the verb, always second: *Voliš **li** kavu? Imaš **li** brata? Ideš **li** na koncert?*
 - With **biti**, the short forms grow into long ones: Ja sam student. → **Jesam li** student? · Ti si umoran. → **Jesi li** umoran? · On je doma. → **Je li** doma? · Vi ste turisti. → **Jeste li** turisti?
 - **The lazy way (intonation):** just raise your voice — *Voliš kavu?* Works everywhere, sounds casual. And the tag **zar ne?** turns any statement into a question: *Lijepo je, zar ne?*
+- **Now you write them.** Voliš [li] kavu? [Jesi] li umoran? Lijepo je, [zar] ne?
 
 ## Make a li-question
 format: upis
@@ -46,6 +47,7 @@ format: tekst
 - **čiji is answered with a possessive:** *Čija je ovo gitara? — Moja.*
 - **They take cases too.** *Koj**u** knjigu čitaš?* — that's the *-a → -u* rule from Lesson 5, still doing its job inside a question.
 - **The everyday pair to memorise:** *Kakva je kava?* (what's it like) vs. *Koja je kava tvoja?* (which one is yours).
+- **Now you write them.** [Kakva] je kava? — dobra. [Koja] je kava tvoja? — ova.
 
 ## koji or kakav?
 format: izbor

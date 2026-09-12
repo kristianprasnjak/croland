@@ -8,6 +8,7 @@ format: tekst
 - **How twins are made** — most often a prefix turns process into done: **na-** (pisati → napisati, učiti → naučiti) · **po-** (piti → popiti, jesti → pojesti, gledati → pogledati, slati → poslati) · **pro-** (čitati → pročitati). Sometimes the pair is two different words: **kupovati / kupiti**.
 - **Where each twin lives:** imperfective is at home in the present (*Pijem kavu* — right now) and with duration words: *cijeli dan, dugo, svaki dan, polako*. Perfective shines in past and future for finished events: *Popio sam kavu. Napisat ću pismo.* Its signal words: *napokon, odmah, za dvije minute, dva puta*. Caution: perfective verbs don't describe "right now" — you can't be in the middle of *popiti*.
 - **The homework trap:** *Jesi li **pisao** zadaću?* — did you do (some) homework? *Jesi li **napisao** zadaću?* — did you FINISH it? (mom's version). One prefix, very different conversation.
+- **Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu. Odmah ju je [popio].
 
 ## Match the twins
 format: parovi
@@ -51,6 +52,7 @@ format: tekst
 - **The test is the English.** If the translation stays the same and only "finished" is added, it's a twin. If the translation changes, it's a new verb — and it will grow twins of its own (*potpisati / potpisivati*).
 - **Aspect changes commands, too:** ***Pij** vodu!* — drink water, as a habit. ***Popij** vodu!* — drink it up, now, all of it. Both correct; they ask for different things.
 - **After *nemoj*, Croatian prefers the process twin:** *Nemoj **pisati**!* — even for a one-off action. Handy default when you're unsure.
+- **Now you write them.** Nemoj [pisati]! Svaki dan [čitam]. Napokon sam [pročitao] knjigu.
 
 ## Twin or new verb?
 format: razvrstavanje

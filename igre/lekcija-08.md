@@ -61,9 +61,17 @@ opis: Words for summer plans — plus six new verbs. Every verb card shows the *
 ## The future helpers
 format: tekst
 info: The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They echo the rhythm of *sam, si, je, smo, ste, su*, and they take their form from the subject, never from the verb: *Mi **ćemo** putovati*.
-- ja **ću** (Ja ću plivati.) · ti **ćeš** (Ti ćeš učiti.) · on/ona **će** (Ona će raditi.) · mi **ćemo** (Mi ćemo putovati.) · vi **ćete** (Vi ćete gledati.) · oni **će** (Oni će spavati.)
-- Recognize the rhythm? *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su*.
-- **Two word orders, same meaning:** with a pronoun → *Ja ću plivati.* Without → flip it and trim the -i: *Plivat ću.*
+- **All six helpers in one place.**
+- tab: Person | Helper | Example
+- tab: ja | ću | Ja ću plivati.
+- tab: ti | ćeš | Ti ćeš učiti.
+- tab: on, ona, ono | će | Ona će raditi.
+- tab: mi | ćemo | Mi ćemo putovati.
+- tab: vi | ćete | Vi ćete gledati.
+- tab: oni, one, ona | će | Oni će spavati.
+- **Recognise the rhythm?** *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su* from Lesson 2. Same six people, same order, one letter of difference.
+- **Two word orders, same meaning.** With a pronoun → *Ja ću plivati.* Without → flip it and trim the **-i**: *Plivat ću.*
+- **Now you write them.** Ja [ću] plivati. Ti [ćeš] učiti. Mi [ćemo] putovati. Oni [će] spavati.
 
 ## Match the helpers
 format: parovi
@@ -161,6 +169,7 @@ info: How a plan gets a day. **u** plus the accusative means *on* that day, so f
 - **Same *u*, different job.** With a place it means *into* (*u školu*); with a day it means *on*. Croatian sees both as arriving somewhere — one in space, one in time.
 - **Words for parts of the day take no preposition**: *ujutro* (in the morning), *navečer* (in the evening), *sutra* (tomorrow), *danas* (today). Just drop them in: *Sutra ću ustati rano.*
 - The day usually opens the sentence or closes it, and the *ću*-helper still can't come first: ***U subotu** ću putovati.* — *Putovat ću **u subotu**.*
+- **Now you write them.** Idem u kino u [subotu]. Radim u [ponedjeljak]. Putujem u [srijedu].
 
 ## Build the plan
 format: slaganje

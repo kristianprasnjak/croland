@@ -32,8 +32,16 @@ opis: Tap a card to reveal the meaning.
 
 ## The genitive endings
 format: tekst
-- m. & n. → **+a** (brat → brata, djed → djeda, more → mora); f. → **-a → -e** (baka → bake, sestra → sestre, kava → kave).
-- Three jobs, one case: **1. Belonging** — *kuća **bake*** (grandma's house; the owner comes *after*, in the genitive). **2. After certain prepositions** — *bez **šećera**, iz **Zagreba**, kod **tete**, pokraj **kuće**, od... do...* **3. After "nema"** — *Nema **interneta**!*
+- **The endings, by gender.**
+- tab: Gender | On its own | In the genitive | Ending
+- tab: masculine | brat | brata | **+a**
+- tab: masculine | djed | djeda | **+a**
+- tab: neuter | more | mora | **+a**
+- tab: feminine | baka | bake | **-a → -e**
+- tab: feminine | sestra | sestre | **-a → -e**
+- tab: feminine | kava | kave | **-a → -e**
+- **Three jobs, one case.** **1. Belonging** — *kuća **bake*** (grandma's house; the owner comes *after*, in the genitive). **2. After certain prepositions** — *bez **šećera**, iz **Zagreba**, kod **tete**, pokraj **kuće**, od… do…* **3. After *nema*** — *Nema **interneta**!*
+- **Now you write them.** Ovo je kuća [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba].
 
 ## Whose is it?
 format: parovi
@@ -68,7 +76,11 @@ opis: Type the genitive form.
 ## "Nema" — the useful no
 format: tekst
 - *Nema* + genitive says something's missing — one of the most Croatian phrases there is:
-- *Nema problema!* — No problem! (you'll hear this daily) *Nema interneta.* — There's no internet. *Nema žurbe.* — No hurry.
+- tab: Croatian | English | When you hear it
+- tab: Nema problema! | No problem! | daily, everywhere
+- tab: Nema interneta. | There's no internet. | in a café
+- tab: Nema žurbe. | No hurry. | said to you, kindly
+- **Now you write them.** Nema [problema]! Nema [interneta]. Nema [žurbe].
 
 ## Build it
 format: slaganje
