@@ -737,6 +737,11 @@
   .rijecKart.otvoren .rijecDetalj { display: block; }
   .detRed { display: flex; gap: 0.625rem; padding: 0.375rem 0; flex-wrap: wrap; }
   .detRed .oznaka { color: var(--muted); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .04em; min-width: 6rem; padding-top: 0.125rem; }
+  /* Lekcija iz koje je riječ dodana: na mobitelu i tabletu stoji u retku (.izvorR),
+     na računalu tek u otvorenim detaljima (TRI UREĐAJA). Kartica kojoj je izvor
+     jedini detalj (.samoIzvor) zato se izvan računala ne otvara. */
+  .detRed.izvorDet { display: none; }
+  .rijecKart.samoIzvor .strelicaDet, .rijecKart.samoIzvor .rijecDetalj { display: none; }
   .izgovorR { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; color: var(--plava); }
   /* rod/broj = metapodatak, ne dio natuknice */
   .rodR {
@@ -2191,6 +2196,29 @@
     .progValK { padding: 0.75rem 0.875rem; }
     .sazetak, .testUvod { padding: 1.125rem 1.25rem; max-width: 34rem; }
     .prijavaKart { padding: 1.25rem 1.25rem 1rem; }
+
+    /* Dictionary: okvir je širok koliko traži najdulji redak, ne koliko nudi
+       stupac — na punom stupcu kratka riječ i prijevod stajali su predaleko.
+       36rem je najmanje na čemu alatna traka (cijeli natpis tražilice, smjer,
+       test) stane u jedan redak; šire od toga okvir ide samo zbog retka koji
+       inače ne bi stao, najviše do stupca. Poravnat je ulijevo, pa naslov
+       počinje ondje gdje i na svakoj drugoj stranici. Zaglavlje, traka i
+       detalji kartice ne šire okvir (contain: inline-size) — inače bi ga
+       razvukla otvorena tablica oblika. --dictZadrzi v. zadrziSirinu(). */
+    .dictOkvir {
+      width: max-content; max-width: 100%;
+      min-width: min(100%, max(36rem, var(--dictZadrzi, 0px)));
+    }
+    .dictOkvir .dictZag, .dictOkvir .dictAlat, .dictOkvir .rijecDetalj { contain: inline-size; }
+    .dictOkvir .rijecRed .enR { margin-left: auto; text-align: right; }
+    /* Prijevod sam stoji desno, a lekcija iz koje je riječ dodana ide u
+       otvorene detalje — i na stranici i u lebdećem rječniku. */
+    .rijecRed .izvorR { display: none; }
+    .detRed.izvorDet { display: flex; }
+    .rijecKart.samoIzvor .rijecRed { cursor: pointer; }
+    .rijecKart.samoIzvor:hover { border-color: var(--plava); }
+    .rijecKart.samoIzvor .strelicaDet { display: inline-block; }
+    .rijecKart.samoIzvor.otvoren .rijecDetalj { display: block; }
 
     /* Odjeljci objasnjenja: mis pogada tocno, hover vec najavljuje da je glava
        tipka, pa joj ne treba visina za palac. Najgusce od sva tri — cijela
@@ -8376,6 +8404,12 @@
       detalj += '<div class="detRed"><span class="oznaka">Pronunciation</span><span class="izgovorR">' +
         esc(izgovor) + '</span></div>';
     }
+    // Lekcija iz koje je riječ dodana. Na računalu se vidi samo ovdje, na mobitelu
+    // i tabletu u retku (.izvorR) — CSS bira jedno od dvoje (TRI UREĐAJA).
+    var izvorDet = (opcije.izvor !== false && r.izvor)
+      ? '<div class="detRed izvorDet"><span class="oznaka">Added from</span><span>' + esc(r.izvor) + '</span></div>'
+      : '';
+    detalj += izvorDet;
     if (opcije.slikaUDetalju) {
       var src = slikaZa(osnovni);
       if (src) {
@@ -8392,7 +8426,9 @@
 
     // rod se ne prikazuje (to je gramatika, ne rječnik) — ostaje samo oznaka množine
     var oznakaRoda = (r.broj === 'mn') ? '<span class="rodR">pl.</span>' : '';
-    return '<div class="rijecKart' + (detalj ? ' imaDet' : '') + '">' +
+    // samo izvor = izvan računala nema se što otvoriti (v. .samoIzvor u CSS-u)
+    var samoIzvor = !!izvorDet && detalj === izvorDet;
+    return '<div class="rijecKart' + (detalj ? (samoIzvor ? ' samoIzvor' : ' imaDet') : '') + '">' +
       '<div class="rijecRed">' +
       '<span class="hrR">' + esc(osnovni) + oznakaRoda + zvHtml(osnovni) +
       (detalj ? '<span class="strelicaDet">▾</span>' : '') + '</span>' +
@@ -8424,7 +8460,8 @@
       var zv = t.closest ? t.closest('.zvucnik') : null;
       if (zv) { e.stopPropagation(); sviraj(zv.getAttribute('data-rijec')); return; }
       var kart = t.closest ? t.closest('.rijecKart') : null;
-      if (!kart || !kart.classList.contains('imaDet')) return;
+      // .samoIzvor ima vidljive detalje samo na računalu; drugdje ih CSS skriva
+      if (!kart || !kart.querySelector('.rijecDetalj')) return;
       kart.classList.toggle('otvoren');
       if (kart.classList.contains('otvoren')) napuniGramatiku(kart);
     };
@@ -8563,6 +8600,7 @@
     // Hijerarhija: naslov i opseg su ono sto gledas, alat je ono cime to prebires,
     // a test rijeci je posljedica popisa — zato tih obrub, ne puni gumb na vrhu.
     VIEW.innerHTML =
+      '<div class="dictOkvir" id="dictOkvir">' +
       '<div class="dictZag">' +
         '<div><h1 class="sekcija">Dictionary</h1>' +
         '<p class="dictBrojac" id="dictBrojac"></p></div>' +
@@ -8577,7 +8615,8 @@
           '<span id="dictSmjerT"></span><span class="zam">⇄</span></button>' +
         '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
       '</div>' +
-      '<div id="popisRijeci"></div>';
+      '<div id="popisRijeci"></div>' +
+      '</div>';
 
     function lista() {
       if (dictSmjer === 'en-hr') return dictOpseg === 'sve' ? sveNatukniceEn() : mojeNatukniceEn();
@@ -8598,7 +8637,16 @@
         (imaSve ? '<button type="button" class="smjerG" data-dcilj="sve">Browse the full dictionary</button>' : '') +
         '</div></div>';
     }
+    // Na računalu okvir raste s najduljim retkom (TRI UREĐAJA). Dok u tražilici
+    // ima teksta, ne smije se suziti: tražilica i tipke skakale bi sa svakim
+    // slovom. Prazna tražilica vraća širinu popisu.
+    function zadrziSirinu(filter) {
+      var okvir = $('dictOkvir');
+      if (!filter) { okvir.style.removeProperty('--dictZadrzi'); return; }
+      okvir.style.setProperty('--dictZadrzi', okvir.getBoundingClientRect().width + 'px');
+    }
     function crtaj(filter) {
+      zadrziSirinu(filter);
       var l = lista();
       var praznoStanje = (l.length === 0 && !filter);
       $('dictBrojac').textContent = dictOpseg === 'sve'

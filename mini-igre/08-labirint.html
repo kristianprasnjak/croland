@@ -614,7 +614,8 @@ var VALOVA    = 2;        /* valova po razini */
 var META_VAL  = 5;        /* točnih riječi po valu */
 var ULJEZ_VAL = 5;        /* netočnih riječi po valu */
 var DUHOVA    = 2;        /* stalno, ne raste s razinom */
-var BRZ_D = 620, BRZ_I = 175;
+var BRZ_D = 1240, BRZ_I = 350;   /* ms po polju — duh, igrač */
+var ULOV = 0.4;           /* duh hvata tek kad mu je središte ovoliko polja od igrača */
 var MIR = 10;             /* koraka nedodirljivosti nakon gubitka srca */
 var POCETAK = [1,1];
 var DOM_DUHOVA = [[7,5],[7,7],[7,6]];
@@ -857,21 +858,31 @@ function zaobljeni(G,x,y,w,h,r){
   G.closePath();
 }
 
+/* Duh se provjerava u svakom kadru: likovi se kližu između polja, pa tek
+   kadar zna koliko su stvarno blizu. */
 function crtajPetlju(){
   if (!S) return;
+  provjeriDuha();
+  if (!S.radi) return;
   crtaj();
   S.raf = requestAnimationFrame(crtajPetlju);
 }
 
 function medu(a, b, k){ return a + (b-a)*k; }
 
+/* Gdje se lik vidi: klizi s prošlog polja (px,py) na novo (x,y) koliko
+   traje jedan njegov korak. */
+function vidljivo(o, trajanje, sad){
+  var k = Math.min(1, (sad - o.t0) / trajanje);
+  return [ medu(o.px, o.x, k), medu(o.py, o.y, k) ];
+}
+
 function crtaj(){
   var C = CL.el('lab'); if (!C) return;
   var G = C.getContext('2d');
   var sad = performance.now();
 
-  var ki = Math.min(1, (sad - S.t0) / BRZ_I);
-  var ix = medu(S.px, S.x, ki), iy = medu(S.py, S.y, ki);
+  var ja = vidljivo(S, BRZ_I, sad), ix = ja[0], iy = ja[1];
 
   var cilj = kamera(ix, iy);
   S.cx = medu(S.cx, cilj[0], 0.20);
@@ -909,8 +920,8 @@ function crtaj(){
   });
 
   S.duhovi.forEach(function(d){
-    var kd = Math.min(1, (sad - d.t0) / BRZ_D);
-    crtajDuha(G, medu(d.px, d.x, kd), medu(d.py, d.y, kd), d, sad);
+    var dv = vidljivo(d, BRZ_D, sad);
+    crtajDuha(G, dv[0], dv[1], d, sad);
   });
 
   crtajIgraca(G, ix, iy, sad);
@@ -1092,11 +1103,14 @@ function provjeriTocku(){
   }
 }
 
+/* Hvata se po onome što se vidi, ne po polju: lik je već "na" novom polju
+   čim krene prema njemu, pa bi usporedba polja hvatala s cijelo polje razmaka. */
 function provjeriDuha(){
   if (!S || !S.radi || S.zamrznuto > 0 || S.mir > 0) return;
+  var sad = performance.now(), ja = vidljivo(S, BRZ_I, sad);
   for (var i=0; i<S.duhovi.length; i++){
-    var d = S.duhovi[i];
-    if (d.x !== S.x || d.y !== S.y) continue;
+    var dv = vidljivo(S.duhovi[i], BRZ_D, sad);
+    if (Math.hypot(dv[0]-ja[0], dv[1]-ja[1]) > ULOV) continue;
     S.srca--; CL.pip(false);
     CL.poruka('A ghost caught you!', 'lose');
     S.x = POCETAK[0]; S.y = POCETAK[1]; S.px = S.x; S.py = S.y;
