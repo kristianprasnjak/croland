@@ -626,11 +626,20 @@ function pitanjeHrEn(){
     opcije: CL.mix([{t:r.en, ok:true}].concat(ometaci(r,3).map(function(x){ return {t:x.en}; })))
   };
 }
+/* etapa sa slikama koristi samo pojmove koji imaju fotografiju u mapi slike/ (Naziv.webp) */
+var SLIKE = ('Aerodrom|Alarm|Ambulanta|Ananas|Auto|Autobus|Automobil|Avion|Baka|Balkon|Balon|Banana|Bicikl|Bombon|Brat|Brašno|Breskva|Brod|Buket|Certifikat|Cesta|Cipela|Crkva|Cvijet|Cvijeće|Dan|Dijete|Diploma|Djed|Djevojčica|Dječak|Dnevna soba|Doktor|Doktorica|Dokument|Dom|Doručak|Dres|Drvo|Džem|Džungla|Ekran|Euro|Fakultet|Farma|Film|Fitnes|Fotoaparat|Fotografija|Galeb|Galerija|Garaža|Gitara|Glava|Gledati|Gol|Golman|Gospođa|Gost|Govoriti|Grad|Grah|Grožđe|Guma|Haljina|Hladnjak|Hlače|Hodati|Hodnik|Hotel|Hrana|Igla|Igrač|Izlazak|Jabuka|Jagoda|Jahta|Jaje|Jakna|Jastuk|Jesti|Jezero|Joga|Juha|Jutro|Kafić|Kakao|Kamen|Kamilica|Kamp|Kapa|Kaput|Karta|Katedrala|Kava|Kazalište|Kino|Kiosk|Kiša|Kišobran|Klavir|Ključ|Knjiga|Knjižnica|Kofer|Kolač|Kolodvor|Koncert|Konj|Konobar|Kotač|Košarka|Košulja|Krava|Krevet|Krov|Kruh|Krumpir|Kruška|Kuhinja|Kupac|Kupaonica|Kupus|Kutija|Kuća|Kvart|Lampa|Lav|Led|Lice|Lijek|Limun|Limunada|List|Ljekarna|Ljeto|Lonac|Lopta|Luk|Majica|Mapa|Marka|Mačka|Medvjed|Meni|Menta|Meso|Metar|Metro|Miš|Mlijeko|Mobitel|More|Most|Motor|Mozak|Mrkva|Muha|Muzej|Muzika|Namještaj|Naranča|Nebo|Njuška|Noga|Nogomet|Nos|Novac|Novine|Novčanik|Noć|Nož|Obitelj|Oblak|Oko|Olovka|Orah|Ormar|Otok|Paket|Palačinke|Papir|Parfem|Park|Parkiralište|Pas|Pekara|Pećnica|Pijesak|Pilot|Pisač|Pismo|Pita|Piti|Pivo|Pizza|Piće|Pjesma|Planina|Plaža|Ples|Plivanje|Pod|Podrum|Poklon|Polica|Policajac|Poster|Potpis|Povrće|Pošta|Poštar|Priča|Problem|Promet|Prozor|Prst|Prtljaga|Ptica|Pulover|Put|Putovanje|Putovnica|Pčela|Radio|Raditi|Rajčica|Rame|Rasti|Račun|Restoran|Riba|Rijeka|Riva|Riža|Ruka|Ručak|Ručanje|Ručnik|Salata|Sapun|Sat|Selo|Semafor|Sendvič|Serija|Sestra|Sir|Sladoled|Slika|Slušati|Snijeg|Soba|Sok|Sol|Sova|Spavati|Spavaća soba|Spomenik|Sport|Srce|Stadion|Stan|Stanica|Stol|Stolica|Strip|Student|Suknja|Sunce|Susjed|Suvenir|Svijet|Taksi|Tanjur|Tava|Telefon|Televizija|Tenis|Terasa|Teretana|Test|Torba|Torta|Trajekt|Tramvaj|Trener|Trešnja|Trg|Trgovina|Trčanje|Trčati|Tržnica|Tunel|Udžbenik|Uho|Ulaziti|Ulica|Ured|Usta|Utakmica|Učenik|Učiteljica|Učiti|Val|Večer|Vila|Vino|Vjetar|Vlak|Voda|Voziti|Voće|Vožnja|Vrat|Vrata|Vrećica|Vrijeme|Vrt|Vuk|Zebra|Zec|Zemlja|Zgrada|Zid|Zidati|Zima|Zub|Zvijezda|Ćevapi|Čamac|Čarape|Čaša|Čestitka|Čip|Čitati|Čokolada|Čovjek|Čuti|Đak|Šah|Šal|Šalica|Šetati|Šećer|Šešir|Šipak|Škola|Štednjak|Šuma|Žaba|Žlica').split('|');
+function nazivSlike(r){ return r.hr.charAt(0).toUpperCase() + r.hr.slice(1); }
+function imaSliku(r){ return SLIKE.indexOf(nazivSlike(r)) >= 0; }
+function fotoRijeci(r, v){
+  return '<span class="slikaOkvir mrlja-' + r.kat + '" style="width:' + v + 'px;height:' + v + 'px">' +
+    '<img src="../slike/' + encodeURIComponent(nazivSlike(r)) + '.webp" alt="">' +
+    '</span>';
+}
 function pitanjeSlika(){
-  var r = novaRijec(function(x){ return ['glagol','pridjev','prilog','broj'].indexOf(x.kat) < 0; });
+  var r = novaRijec(imaSliku);
   return {
     rijec:r, klasa:'',
-    html:'<small>what is this?</small>' + CL.slikaRijeci(r, 120),
+    html:'<small>what is this?</small>' + fotoRijeci(r, 120),
     opcije: CL.mix([{t:r.hr, ok:true}].concat(ometaci(r,3).map(function(x){ return {t:x.hr}; })))
   };
 }

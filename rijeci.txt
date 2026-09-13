@@ -2271,3 +2271,5 @@ zêbra
 žuta
 žuto
 web-stranica
+
+kratko
