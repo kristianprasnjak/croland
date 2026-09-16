@@ -2192,7 +2192,7 @@
     #ploca { max-width: 100%; padding: 1rem 0.875rem; border-radius: var(--rad-m); }
     #ploca.siroka { max-width: 100%; }
 
-    .miniMreza { grid-template-columns: repeat(2, 1fr); grid-auto-flow: row dense; gap: 0.625rem; margin-top: 1rem; }
+    .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.625rem; margin-top: 1rem; }
     /* Sazeto: samo slika, naslov i podnaslov. Dodir prosiruje karticu na
        cijeli redak i tek tada pokazuje opis. Bodovi se ovdje ne prikazuju. */
     .miniPod, .miniSaz, .miniKart .podnozje, .extraKart .podnozje { display: none; }
@@ -7558,6 +7558,16 @@
     if (window.matchMedia('(max-width: 639.98px)').matches && !el.classList.contains('otvoren')) {
       var sve = VIEW.querySelectorAll('.miniKart.otvoren, .extraKart.otvoren');
       for (var i = 0; i < sve.length; i++) sve[i].classList.remove('otvoren');
+      // Prosirena kartica uzima svoj redak, a susjed iz tog retka ide ispod nje —
+      // i kad je bila lijeva i kad je bila desna. Desnu se zato redom stavlja
+      // ispred lijeve; ostale kartice zadrzavaju svoj poredak.
+      if (el.classList.contains('miniKart')) {
+        var kart = el.parentNode.querySelectorAll('.miniKart');
+        for (var j = 0; j < kart.length; j++) {
+          kart[j].style.order = 2 * j;
+          if (kart[j] === el && j % 2 === 1) kart[j].style.order = 2 * j - 3;
+        }
+      }
       el.classList.add('otvoren');
       el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       return;
