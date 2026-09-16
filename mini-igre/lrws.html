@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Croland — Listen, Read, Write, Speak</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#FFF8F0; --papir2:#FFEFE0; --tinta:#2B2118; --meko:#8B7B6B;
+  --zut:#F4B942; --koralj:#E8623A; --tirkiz:#2FA8A0; --ljub:#7B5EA7;
+  --zelena:#7CB342; --plava:#3E7CB1; --crta:3px solid #2B2118;
+  --sjena:0 4px 0 #2B2118;
+}
+/* Dokument ima prirodnu visinu (bez height:100%) — aplikacija okvir
+   izjednacava sa sadrzajem, pa klizac ostaje samo onaj glavne stranice. */
+body{
+  font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+  background:var(--papir); color:var(--tinta);
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(rgba(43,33,24,.045) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.omot{max-width:1100px;margin:0 auto;padding:14px 14px 40px}
+button{font:inherit;color:inherit}
+
+/* ---- HUD ---- */
+.hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:#fff;border:var(--crta);border-radius:16px;box-shadow:var(--sjena);
+  padding:10px 14px;margin-bottom:14px}
+.hud .ime{font-weight:800;font-size:18px;margin-right:auto}
+.hud .ime small{display:block;font-weight:600;font-size:11px;color:var(--meko);letter-spacing:.6px;text-transform:uppercase}
+.znak{display:inline-flex;align-items:center;gap:6px;background:var(--papir2);
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px;white-space:nowrap}
+.natrag{text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;background:#fff}
+html.uApp .natrag{display:none}
+
+/* ---- tabovi bilježnice ---- */
+.tabovi{display:flex;gap:6px;align-items:flex-end;overflow-x:auto;overflow-y:hidden;padding:0 10px;margin-bottom:-3px;position:relative;z-index:2;scrollbar-width:none}
+.tab{flex:0 0 auto;max-width:14rem;display:flex;align-items:center;gap:6px;cursor:pointer;
+  background:var(--papir2);border:var(--crta);border-bottom:none;border-radius:12px 12px 0 0;
+  padding:8px 12px 7px;font-weight:700;font-size:14px}
+.tab span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tab.akt{background:#fff;padding-bottom:10px;z-index:2}
+.tab .x{border:none;background:none;cursor:pointer;font-size:15px;line-height:1;color:var(--meko);padding:0 2px}
+.tab .x:hover{color:var(--koralj)}
+.tab.novi{background:#fff;border-style:dashed;color:var(--meko)}
+
+/* ---- ploha ---- */
+.ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
+  padding:18px;display:flex;flex-direction:column;gap:14px;position:relative}
+h2.naslov{font-size:21px;font-weight:800}
+p.uputa{font-size:15px;color:var(--meko);line-height:1.5}
+
+/* ---- gumbi ---- */
+.g{font-weight:700;font-size:14px;cursor:pointer;border:var(--crta);
+  border-radius:12px;background:#fff;padding:8px 14px;box-shadow:0 3px 0 var(--tinta);
+  transition:transform .06s,box-shadow .06s;white-space:nowrap}
+.g:hover{background:var(--papir2)}
+.g:active{transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
+.g.glavni{background:var(--zut)}
+.g.veliki{font-size:17px;padding:12px 24px}
+.g[disabled]{opacity:.42;cursor:not-allowed;transform:none;box-shadow:0 3px 0 var(--tinta);background:#fff}
+.traka{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.traka .razmak{flex:1}
+
+/* ---- jezici ---- */
+.jezici{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-weight:700;font-size:14px}
+.jezici select{font:inherit;font-weight:700;border:2px solid var(--tinta);border-radius:10px;padding:6px 8px;background:var(--papir)}
+.jezici .str{font-size:18px;color:var(--meko)}
+
+textarea.unos{width:100%;min-height:15rem;resize:vertical;font:inherit;font-size:16px;line-height:1.55;
+  border:2px solid var(--tinta);border-radius:14px;padding:12px 14px;background:var(--papir)}
+textarea.unos:focus,textarea.moj:focus{outline:3px solid var(--zut);outline-offset:1px}
+
+.obavijest{font-size:14px;font-weight:600;color:var(--plava);min-height:1.2em}
+.obavijest.krivo{color:var(--koralj)}
+
+/* ---- retci ---- */
+.retci{display:flex;flex-direction:column;gap:10px}
+.red{border:2px solid var(--tinta);border-radius:14px;padding:10px 12px;background:#fff;
+  display:grid;grid-template-columns:2rem 1fr;gap:6px 10px;transition:background .2s}
+.red.odlomak{margin-top:14px}
+.red.akt{background:#FFF6DA;box-shadow:0 0 0 3px var(--zut)}
+.red .br{font-weight:800;color:var(--meko);font-size:13px;padding-top:3px;text-align:right}
+.red .izvor{font-size:17px;line-height:1.45;font-weight:600}
+.red .alati{grid-column:2;display:flex;flex-wrap:wrap;gap:6px}
+.mali{font-weight:700;font-size:13px;cursor:pointer;border:2px solid var(--tinta);border-radius:999px;
+  background:#fff;padding:3px 10px;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.mali:hover{background:var(--papir2)}
+.mali.slusa{background:var(--koralj);color:#fff;animation:puls 1s infinite}
+.mali[disabled]{opacity:.4;cursor:not-allowed;background:#fff}
+@keyframes puls{50%{box-shadow:0 0 0 5px rgba(232,98,58,.25)}}
+.red .google{grid-column:2;font-size:15px;color:var(--plava);line-height:1.45;border-left:3px solid var(--plava);padding-left:10px}
+.red .google small{display:block;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--meko)}
+.red .mojOmot{grid-column:2;display:flex;gap:6px;align-items:flex-start;order:5}
+.red .rekao{order:6}
+textarea.moj{flex:1;font:inherit;font-size:15px;line-height:1.45;resize:none;overflow:hidden;
+  border:2px dashed var(--meko);border-radius:10px;padding:6px 10px;background:var(--papir);min-height:2.3rem}
+textarea.moj.ima{border-style:solid;border-color:var(--tirkiz)}
+.red .rekao{grid-column:2;font-size:15px;border-radius:10px;padding:8px 12px;font-weight:600;
+  background:var(--papir2);transition:opacity .6s}
+.red .rekao b{font-weight:800}
+.red .rekao.dobro{background:#E2F3CE}
+.red .rekao.slabo{background:#FFE0DC}
+.red .rekao.gasi{opacity:0}
+
+.prazno{text-align:center;padding:30px 10px;color:var(--meko)}
+.otkucaj{display:inline-block;font-size:12px;font-weight:700;color:var(--meko)}
+
+/* ---- tablet: izvor lijevo, vlastiti prijevod desno ---- */
+@media (min-width:700px){
+  .red{grid-template-columns:2.2rem 1fr 1fr}
+  .red .izvor{grid-column:2}
+  .red .mojOmot{grid-column:3;grid-row:1 / span 3}
+  .red .alati,.red .google,.red .rekao{grid-column:2}
+}
+/* ---- racunalo: vise zraka, veci izvor ---- */
+@media (min-width:1024px){
+  .ploha{padding:24px 26px}
+  .red{grid-template-columns:2.6rem 1.15fr 1fr;padding:12px 16px;gap:8px 18px}
+  .red .izvor{font-size:18px}
+  textarea.unos{min-height:18rem}
+}
+/* ---- mobitel: tabovi i gumbi zbijeni ---- */
+@media (max-width:480px){
+  .omot{padding:10px 8px 30px}
+  .ploha{padding:14px 12px;border-radius:16px}
+  .hud .ime{font-size:16px}
+  .tab{max-width:9rem;font-size:13px;padding:7px 9px 6px}
+  .g{font-size:13px;padding:7px 11px}
+  .red{grid-template-columns:1.4rem 1fr;padding:9px 9px}
+  .red .izvor{font-size:16px}
+}
+</style>
+</head>
+<body>
+<div class="omot">
+  <div class="hud">
+    <div class="ime"><small>Extras</small>Listen, Read, Write, Speak</div>
+    <span class="znak" id="bodovi" title="One point per line you translate yourself, one per line you say well">✍ 0</span>
+    <a class="natrag" href="index.html">← All games</a>
+  </div>
+  <div class="tabovi" id="tabovi"></div>
+  <div class="ploha" id="ploha"></div>
+</div>
+
+<script>
+if (window.self !== window.top) document.documentElement.className += ' uApp';
+(function () {
+  'use strict';
+  var IGRA_ID = 'lrws', MAKS = 200, KLJUC = 'croland-mini-' + IGRA_ID;
+
+  var JEZICI = [
+    ['hr', 'Croatian', 'hr-HR'], ['en', 'English', 'en-GB'], ['de', 'German', 'de-DE'],
+    ['it', 'Italian', 'it-IT'], ['fr', 'French', 'fr-FR'], ['es', 'Spanish', 'es-ES'],
+    ['pt', 'Portuguese', 'pt-PT'], ['nl', 'Dutch', 'nl-NL'], ['sl', 'Slovenian', 'sl-SI'],
+    ['sr', 'Serbian', 'sr-RS'], ['bs', 'Bosnian', 'bs-BA'], ['hu', 'Hungarian', 'hu-HU'],
+    ['pl', 'Polish', 'pl-PL'], ['cs', 'Czech', 'cs-CZ'], ['sk', 'Slovak', 'sk-SK'],
+    ['ru', 'Russian', 'ru-RU'], ['uk', 'Ukrainian', 'uk-UA'], ['sv', 'Swedish', 'sv-SE'],
+    ['no', 'Norwegian', 'nb-NO'], ['da', 'Danish', 'da-DK'], ['fi', 'Finnish', 'fi-FI'],
+    ['tr', 'Turkish', 'tr-TR'], ['el', 'Greek', 'el-GR'], ['ro', 'Romanian', 'ro-RO'],
+    ['bg', 'Bulgarian', 'bg-BG'], ['ja', 'Japanese', 'ja-JP'], ['zh', 'Chinese', 'zh-CN']
+  ];
+  function bcp(k) { for (var i = 0; i < JEZICI.length; i++) if (JEZICI[i][0] === k) return JEZICI[i][2]; return k; }
+  function imeJezika(k) { for (var i = 0; i < JEZICI.length; i++) if (JEZICI[i][0] === k) return JEZICI[i][1]; return k; }
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  /* ---------- spremanje ----------
+     Cijela bilježnica živi u croland-mini-lrws — aplikacija taj ključ šalje na
+     server, pa tekstovi i vlastiti prijevodi prate korisnika na drugi uređaj. */
+  function ucitaj() {
+    var s;
+    try { s = JSON.parse(localStorage.getItem(KLJUC) || '{}') || {}; } catch (e) { s = {}; }
+    if (!Array.isArray(s.tabovi) || !s.tabovi.length) s.tabovi = [noviTab(1)];
+    if (!s.zasluge) s.zasluge = {};
+    if (!s.aktivni || !tabPoId(s, s.aktivni)) s.aktivni = s.tabovi[0].id;
+    return s;
+  }
+  function noviTab(n) {
+    return { id: 't' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
+      ime: 'Page ' + n, izvor: 'hr', cilj: 'en', tekst: '', redovi: null };
+  }
+  function tabPoId(s, id) { for (var i = 0; i < s.tabovi.length; i++) if (s.tabovi[i].id === id) return s.tabovi[i]; return null; }
+  var S = ucitaj();
+  var cekaSpremanje = 0;
+  function spremi(odmah) {
+    clearTimeout(cekaSpremanje);
+    var pisi = function () { try { localStorage.setItem(KLJUC, JSON.stringify(S)); } catch (e) {} };
+    if (odmah) pisi(); else cekaSpremanje = setTimeout(pisi, 400);
+  }
+  function T() { return tabPoId(S, S.aktivni); }
+
+  /* ---------- bodovi ----------
+     Bod po retku koji je korisnik sam preveo i bod po retku koji je dobro izgovorio.
+     Ključ je sam tekst retka, pa isti stih zalijepljen dvaput ne plaća dvaput. */
+  function zasluzi(vrsta, tekst) {
+    var k = vrsta + '|' + normal(tekst);
+    if (S.zasluge[k]) return;
+    S.zasluge[k] = 1;
+    S.naplaceno = Math.min(MAKS, (S.naplaceno || 0) + 1);
+    spremi(true);
+    prikaziBodove();
+  }
+  function prikaziBodove() { $('bodovi').textContent = '✍ ' + (S.naplaceno || 0); }
+
+  /* ---------- dijeljenje na stihove i rečenice ----------
+     Novi red je uvijek granica (stih). Unutar reda se reže iza . ! ? … kad slijedi
+     razmak. Prazan red između njih pamti se kao početak odlomka / strofe. */
+  function podijeli(tekst) {
+    var out = [], odlomak = false;
+    String(tekst || '').replace(/\r/g, '').split('\n').forEach(function (l) {
+      l = l.trim();
+      if (!l) { if (out.length) odlomak = true; return; }
+      l.replace(/([.!?…]+["'»”“)\]]*)\s+/g, '$1').split('').forEach(function (d) {
+        d = d.trim();
+        if (!d) return;
+        out.push({ t: d, gt: '', moj: '', odl: odlomak });
+        odlomak = false;
+      });
+    });
+    return out;
+  }
+
+  /* ---------- usporedba izgovorenog ---------- */
+  function normal(s) {
+    return String(s || '').toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
+  }
+  function slicnost(a, b) {
+    var x = normal(a).split(' ').filter(Boolean), y = normal(b).split(' ').filter(Boolean);
+    if (!x.length && !y.length) return 1;
+    var d = [], i, j;
+    for (i = 0; i <= x.length; i++) { d[i] = [i]; }
+    for (j = 0; j <= y.length; j++) d[0][j] = j;
+    for (i = 1; i <= x.length; i++)
+      for (j = 1; j <= y.length; j++)
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (x[i - 1] === y[j - 1] ? 0 : 1));
+    return Math.max(0, 1 - d[x.length][y.length] / Math.max(x.length, y.length));
+  }
+
+  /* ---------- obavijest ---------- */
+  var obavTimer = 0;
+  function obavijest(txt, krivo) {
+    var o = $('obav');
+    if (!o) return;
+    o.textContent = txt;
+    o.className = 'obavijest' + (krivo ? ' krivo' : '');
+    clearTimeout(obavTimer);
+    obavTimer = setTimeout(function () { if ($('obav')) $('obav').textContent = ''; }, 4500);
+  }
+
+  /* ---------- TTS ----------
+     Prvo glas preglednika (besplatan, radi offline). Ako za jezik nema glasa —
+     Chrome recimo nema hrvatski — pada na Google Translate audio. */
+  var GLASOVI = [];
+  function ucitajGlasove() { try { GLASOVI = speechSynthesis.getVoices() || []; } catch (e) { GLASOVI = []; } }
+  if ('speechSynthesis' in window) {
+    ucitajGlasove();
+    speechSynthesis.addEventListener && speechSynthesis.addEventListener('voiceschanged', function () { ucitajGlasove(); crtaj(); });
+  }
+  function glasZa(k) {
+    var b = bcp(k).toLowerCase(), kratko = k.toLowerCase(), najbolji = null;
+    GLASOVI.forEach(function (v) {
+      var l = (v.lang || '').toLowerCase().replace('_', '-');
+      if (l === b || l.indexOf(kratko + '-') === 0 || l === kratko) {
+        if (!najbolji || /natural|online|google/i.test(v.name)) najbolji = v;
+      }
+    });
+    return najbolji;
+  }
+  var zvukTrenutni = null;
+  function stani() {
+    try { speechSynthesis.cancel(); } catch (e) {}
+    if (zvukTrenutni) { zvukTrenutni.pause(); zvukTrenutni = null; }
+  }
+  function izgovori(tekst, jezik, gotovo) {
+    stani();
+    gotovo = gotovo || function () {};
+    var v = ('speechSynthesis' in window) ? glasZa(jezik) : null;
+    if (v) {
+      var u = new SpeechSynthesisUtterance(tekst);
+      u.voice = v; u.lang = v.lang; u.rate = 0.92;
+      u.onend = function () { gotovo(true); };
+      u.onerror = function () { gotovo(false); };
+      speechSynthesis.speak(u);
+      return;
+    }
+    var a = new Audio('https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=' +
+      encodeURIComponent(jezik) + '&q=' + encodeURIComponent(tekst.slice(0, 200)));
+    zvukTrenutni = a;
+    a.onended = function () { gotovo(true); };
+    a.onerror = function () {
+      obavijest('No ' + imeJezika(jezik) + ' voice available on this device.', true);
+      gotovo(false);
+    };
+    a.play().catch(function () { a.onerror(); });
+  }
+
+  /* ---------- prijevod ----------
+     Besplatni Google Translate: najprije ga pokušamo dohvatiti ovdje u retku,
+     a ako to ne prođe, otvori se translate.google.com s već upisanim retkom. */
+  function googleLink(tekst, sl, tl) {
+    return 'https://translate.google.com/?sl=' + sl + '&tl=' + tl + '&text=' + encodeURIComponent(tekst) + '&op=translate';
+  }
+  function prevedi(tekst, sl, tl) {
+    var url = 'https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&sl=' +
+      encodeURIComponent(sl) + '&tl=' + encodeURIComponent(tl) + '&q=' + encodeURIComponent(tekst);
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then(function (j) {
+      return (j[0] || []).map(function (d) { return d[0]; }).join('');
+    });
+  }
+
+  /* ---------- prepoznavanje govora ----------
+     Web Speech API (Chrome, Edge, Safari) — besplatno, bez ključa. Firefox ga nema,
+     pa tamo gumbi mikrofona stoje, ali su ugašeni. */
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var slusanje = null;
+  function slusaj(i, poslije) {
+    var t = T(), r = t.redovi[i];
+    if (!SR) return;
+    if (slusanje) { try { slusanje.abort(); } catch (e) {} slusanje = null; }
+    stani();
+    var rec = new SR();
+    slusanje = rec;
+    rec.lang = bcp(t.izvor);
+    rec.interimResults = true;
+    rec.maxAlternatives = 3;
+    var zadnje = '', najbolje = 0;
+    oznaciSlusanje(i, true);
+    rec.onresult = function (e) {
+      var tekst = '';
+      for (var k = 0; k < e.results.length; k++) {
+        var res = e.results[k], izbor = res[0].transcript;
+        if (res.isFinal) {
+          // od ponuđenih alternativa uzmi onu najbližu retku
+          for (var m = 0; m < res.length; m++) if (slicnost(res[m].transcript, r.t) > slicnost(izbor, r.t)) izbor = res[m].transcript;
+        }
+        tekst += izbor;
+      }
+      zadnje = tekst;
+      najbolje = slicnost(tekst, r.t);
+      pokaziRekao(i, tekst, najbolje, false);
+    };
+    rec.onerror = function (e) {
+      if (e.error === 'not-allowed' || e.error === 'service-not-allowed') obavijest('Microphone is blocked. Allow it in the browser address bar and try again.', true);
+      else if (e.error === 'no-speech') obavijest('Didn\'t hear anything — try again a little louder.', true);
+      else if (e.error !== 'aborted') obavijest('Speech recognition error: ' + e.error, true);
+    };
+    rec.onend = function () {
+      if (slusanje === rec) slusanje = null;
+      oznaciSlusanje(i, false);
+      if (zadnje) {
+        pokaziRekao(i, zadnje, najbolje, true);
+        if (najbolje >= 0.8) zasluzi('g', r.t);
+      }
+      if (poslije) poslije(!!zadnje);
+    };
+    try { rec.start(); } catch (e) { oznaciSlusanje(i, false); }
+  }
+  function oznaciSlusanje(i, da) {
+    var b = document.querySelector('[data-mik="' + i + '"]');
+    if (b) { b.classList.toggle('slusa', da); b.innerHTML = da ? '● Listening…' : '🎤 Speak'; }
+  }
+  var rekaoTimeri = {};
+  function pokaziRekao(i, tekst, sl, konacno) {
+    var el = $('rekao' + i);
+    if (!el) return;
+    clearTimeout(rekaoTimeri[i]);
+    var p = Math.round(sl * 100);
+    el.hidden = false;
+    el.className = 'rekao' + (konacno ? (sl >= 0.8 ? ' dobro' : ' slabo') : '');
+    el.innerHTML = 'You said: <b>' + esc(tekst) + '</b>' + (konacno ? ' · ' + p + '% match' + (sl >= 0.8 ? ' ✓' : '') : '…');
+    if (!konacno) return;
+    // kratko vidljivo, onda nestane
+    rekaoTimeri[i] = setTimeout(function () {
+      el.classList.add('gasi');
+      rekaoTimeri[i] = setTimeout(function () { el.hidden = true; el.classList.remove('gasi'); }, 650);
+    }, 4000);
+  }
+
+  /* ---------- načini: slušaj sve / govori redom ---------- */
+  var niz = null; // { vrsta: 'slusaj'|'govori', i }
+  function oznaciAktivni(i) {
+    Array.prototype.forEach.call(document.querySelectorAll('.red'), function (el) {
+      el.classList.toggle('akt', +el.getAttribute('data-i') === i);
+    });
+    var el = document.querySelector('.red[data-i="' + i + '"]');
+    if (el && el.scrollIntoView) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+  function zaustaviNiz() {
+    niz = null; stani();
+    if (slusanje) { try { slusanje.abort(); } catch (e) {} }
+    oznaciAktivni(-1);
+    osvjeziTrakuNiza();
+  }
+  function korakNiza() {
+    var t = T();
+    if (!niz || !t.redovi || niz.i >= t.redovi.length) { zaustaviNiz(); return; }
+    var i = niz.i, moj = niz;
+    oznaciAktivni(i);
+    if (niz.vrsta === 'slusaj') {
+      izgovori(t.redovi[i].t, t.izvor, function (ok) {
+        if (niz !== moj) return;
+        if (!ok) { zaustaviNiz(); return; }
+        niz.i++; setTimeout(korakNiza, 450);
+      });
+    } else {
+      slusaj(i, function () {
+        if (niz !== moj) return;
+        niz.i++; setTimeout(korakNiza, 1400);
+      });
+    }
+  }
+  function pokreniNiz(vrsta) {
+    if (niz && niz.vrsta === vrsta) { zaustaviNiz(); return; }
+    zaustaviNiz();
+    niz = { vrsta: vrsta, i: 0 };
+    osvjeziTrakuNiza();
+    korakNiza();
+  }
+  function osvjeziTrakuNiza() {
+    var a = $('sviSlusaj'), b = $('sviGovori');
+    if (a) a.textContent = niz && niz.vrsta === 'slusaj' ? '■ Stop' : '🎧 Listen to all';
+    if (b) b.textContent = niz && niz.vrsta === 'govori' ? '■ Stop' : '🎤 Speak line by line';
+  }
+
+  /* ---------- crtanje ---------- */
+  function crtajTabove() {
+    var h = '';
+    S.tabovi.forEach(function (t) {
+      h += '<div class="tab' + (t.id === S.aktivni ? ' akt' : '') + '" data-tab="' + t.id + '" title="Double-click to rename">' +
+        '<span>' + esc(t.ime) + '</span>' +
+        (S.tabovi.length > 1 ? '<button class="x" data-brisi="' + t.id + '" title="Delete page">×</button>' : '') + '</div>';
+    });
+    if (S.tabovi.length < 20) h += '<div class="tab novi" data-novi="1" title="New page">＋</div>';
+    $('tabovi').innerHTML = h;
+  }
+  function opcijeJezika(odabran) {
+    return JEZICI.map(function (j) {
+      return '<option value="' + j[0] + '"' + (j[0] === odabran ? ' selected' : '') + '>' + j[1] + '</option>';
+    }).join('');
+  }
+  function crtaj() {
+    crtajTabove();
+    prikaziBodove();
+    var t = T(), h = '';
+    var jezici = '<div class="jezici">' +
+      '<label>Text is in <select id="izvor">' + opcijeJezika(t.izvor) + '</select></label>' +
+      '<span class="str">→</span>' +
+      '<label>translate into <select id="cilj">' + opcijeJezika(t.cilj) + '</select></label></div>';
+
+    if (!t.redovi) {
+      h += '<div><h2 class="naslov">Your text</h2>' +
+        '<p class="uputa">Copy a song, a poem, an article or a dialogue and paste it here. It will be split into lines and sentences — ' +
+        'then you listen, read, write your own translation and say each line out loud.</p></div>' +
+        jezici +
+        '<div class="traka">' +
+        '<button class="g" id="zalijepi">📋 Paste</button>' +
+        '<button class="g" id="ocisti"' + (t.tekst ? '' : ' disabled') + '>✕ Clear</button>' +
+        '<button class="g" disabled title="Coming soon">📷 From a photo</button>' +
+        '<button class="g" disabled title="Coming soon">🔗 From a link</button>' +
+        '<span class="razmak"></span>' +
+        '<button class="g glavni" id="podijeli"' + (t.tekst.trim() ? '' : ' disabled') + '>Split into lines →</button>' +
+        '</div>' +
+        '<div class="obavijest" id="obav"></div>' +
+        '<textarea class="unos" id="unos" spellcheck="false" placeholder="Paste or type your text here…">' + esc(t.tekst) + '</textarea>';
+    } else {
+      var n = t.redovi.length, prev = 0;
+      t.redovi.forEach(function (r) { if (r.moj && r.moj.trim()) prev++; });
+      var mozeTTS = true; // glas preglednika ili Google audio — provjera tek pri izgovoru
+      h += '<div class="traka">' +
+        '<button class="g" id="uredi">✎ Edit text</button>' +
+        '<button class="g" id="sviSlusaj">🎧 Listen to all</button>' +
+        '<button class="g" id="sviGovori"' + (SR ? '' : ' disabled title="Speech recognition is not supported in this browser — try Chrome or Edge"') + '>🎤 Speak line by line</button>' +
+        '<button class="g" id="sviPrevedi">🌐 Translate all</button>' +
+        '<button class="g" disabled title="Coming soon">⬇ Export</button>' +
+        '<span class="razmak"></span>' +
+        '<span class="otkucaj">' + n + ' lines · ' + prev + ' translated by you</span>' +
+        '</div>' +
+        jezici +
+        '<div class="obavijest" id="obav"></div>' +
+        '<div class="retci">';
+      t.redovi.forEach(function (r, i) {
+        h += '<div class="red' + (r.odl ? ' odlomak' : '') + '" data-i="' + i + '">' +
+          '<div class="br">' + (i + 1) + '</div>' +
+          '<div class="izvor" lang="' + esc(t.izvor) + '">' + esc(r.t) + '</div>' +
+          '<div class="mojOmot"><textarea class="moj' + (r.moj && r.moj.trim() ? ' ima' : '') + '" rows="1" data-moj="' + i + '" lang="' + esc(t.cilj) +
+            '" placeholder="Your ' + esc(imeJezika(t.cilj)) + ' translation…">' + esc(r.moj) + '</textarea>' +
+            '<button class="mali" data-tts-moj="' + i + '" title="Read your translation aloud"' + (r.moj && r.moj.trim() ? '' : ' disabled') + '>🔊</button></div>' +
+          '<div class="alati">' +
+            '<button class="mali" data-tts="' + i + '"' + (mozeTTS ? '' : ' disabled') + '>🔊 Listen</button>' +
+            '<button class="mali" data-gt="' + i + '">🌐 ' + (r.gt ? (r.gtSkriven ? 'Show' : 'Hide') + ' translation' : 'Google Translate') + '</button>' +
+            '<button class="mali" data-mik="' + i + '"' + (SR ? '' : ' disabled title="Speech recognition is not supported in this browser — try Chrome or Edge"') + '>🎤 Speak</button>' +
+          '</div>' +
+          (r.gt && !r.gtSkriven ? '<div class="google"><small>Google Translate · ' + esc(imeJezika(t.cilj)) + '</small>' + esc(r.gt) +
+            ' <button class="mali" data-tts-gt="' + i + '" style="margin-left:4px">🔊</button></div>' : '') +
+          '<div class="rekao" id="rekao' + i + '" hidden></div>' +
+          '</div>';
+      });
+      h += '</div>';
+      if (!n) h += '<div class="prazno">No lines found. Edit the text and try again.</div>';
+    }
+    $('ploha').innerHTML = h;
+    Array.prototype.forEach.call(document.querySelectorAll('textarea.moj'), rastegni);
+    osvjeziTrakuNiza();
+  }
+  function rastegni(ta) { ta.style.height = 'auto'; ta.style.height = ta.scrollHeight + 2 + 'px'; }
+
+  /* ---------- događaji ---------- */
+  $('tabovi').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-brisi]');
+    if (b) {
+      e.stopPropagation();
+      var id = b.getAttribute('data-brisi'), tb = tabPoId(S, id);
+      if (tb && (tb.tekst.trim() || tb.redovi) && !confirm('Delete "' + tb.ime + '" and everything written on it?')) return;
+      zaustaviNiz();
+      S.tabovi = S.tabovi.filter(function (x) { return x.id !== id; });
+      if (S.aktivni === id) S.aktivni = S.tabovi[0].id;
+      spremi(true); crtaj(); return;
+    }
+    if (e.target.closest('[data-novi]')) {
+      zaustaviNiz();
+      var t = noviTab(S.tabovi.length + 1), stari = T();
+      t.izvor = stari.izvor; t.cilj = stari.cilj;
+      S.tabovi.push(t); S.aktivni = t.id;
+      spremi(true); crtaj(); return;
+    }
+    var tab = e.target.closest('[data-tab]');
+    if (tab && tab.getAttribute('data-tab') !== S.aktivni) {
+      zaustaviNiz();
+      S.aktivni = tab.getAttribute('data-tab'); spremi(); crtaj();
+    }
+  });
+  $('tabovi').addEventListener('dblclick', function (e) {
+    var tab = e.target.closest('[data-tab]');
+    if (!tab) return;
+    var t = tabPoId(S, tab.getAttribute('data-tab'));
+    var ime = prompt('Page name', t.ime);
+    if (ime && ime.trim()) { t.ime = ime.trim().slice(0, 40); spremi(true); crtajTabove(); }
+  });
+
+  $('ploha').addEventListener('input', function (e) {
+    var t = T();
+    if (e.target.id === 'unos') {
+      t.tekst = e.target.value;
+      $('podijeli').disabled = !t.tekst.trim();
+      $('ocisti').disabled = !t.tekst;
+      spremi();
+    } else if (e.target.hasAttribute('data-moj')) {
+      var i = +e.target.getAttribute('data-moj');
+      t.redovi[i].moj = e.target.value;
+      e.target.classList.toggle('ima', !!e.target.value.trim());
+      var tb = document.querySelector('[data-tts-moj="' + i + '"]');
+      if (tb) tb.disabled = !e.target.value.trim();
+      rastegni(e.target);
+      spremi();
+    }
+  });
+  $('ploha').addEventListener('focusout', function (e) {
+    if (!e.target.hasAttribute || !e.target.hasAttribute('data-moj')) return;
+    var t = T(), r = t.redovi[+e.target.getAttribute('data-moj')];
+    if (r && normal(r.moj).length >= 2) zasluzi('p', r.t);
+    var n = 0; t.redovi.forEach(function (x) { if (x.moj && x.moj.trim()) n++; });
+    var o = document.querySelector('.otkucaj');
+    if (o) o.textContent = t.redovi.length + ' lines · ' + n + ' translated by you';
+  });
+  $('ploha').addEventListener('change', function (e) {
+    var t = T();
+    if (e.target.id === 'izvor' || e.target.id === 'cilj') {
+      var staro = t[e.target.id];
+      t[e.target.id] = e.target.value;
+      // Hrvatski je uvijek na jednoj strani, osim ako korisnik izričito ne želi drukčije.
+      if (e.target.id === 'izvor' && t.izvor === t.cilj) t.cilj = t.izvor === 'hr' ? 'en' : 'hr';
+      else if (e.target.id === 'izvor' && t.izvor !== 'hr' && t.cilj !== 'hr') t.cilj = 'hr';
+      if (e.target.id === 'cilj' && t.cilj === t.izvor) t.izvor = staro;
+      // stari Google prijevodi više ne vrijede za novi par jezika
+      if (t.redovi) t.redovi.forEach(function (r) { r.gt = ''; });
+      zaustaviNiz(); spremi(true); crtaj();
+    }
+  });
+
+  $('ploha').addEventListener('click', function (e) {
+    var t = T(), b = e.target.closest('button');
+    if (!b || b.disabled) return;
+
+    if (b.id === 'zalijepi') {
+      var ta = $('unos');
+      if (!navigator.clipboard || !navigator.clipboard.readText) {
+        ta.focus(); obavijest('Press Ctrl+V (or long-press → Paste) to paste your text.'); return;
+      }
+      navigator.clipboard.readText().then(function (txt) {
+        if (!txt) { obavijest('The clipboard is empty.', true); return; }
+        t.tekst = t.tekst.trim() ? t.tekst.replace(/\s*$/, '') + '\n\n' + txt : txt;
+        spremi(true); crtaj();
+        obavijest('Pasted ' + txt.length + ' characters.');
+      }).catch(function () {
+        ta.focus(); obavijest('The browser didn\'t allow pasting — press Ctrl+V (or long-press → Paste).', true);
+      });
+      return;
+    }
+    if (b.id === 'ocisti') {
+      if (t.tekst.trim() && !confirm('Clear the text on this page?')) return;
+      t.tekst = ''; spremi(true); crtaj(); return;
+    }
+    if (b.id === 'podijeli') {
+      var stari = {};
+      (t.redovi || t.stariRedovi || []).forEach(function (r) { stari[r.t] = r; });
+      t.redovi = podijeli(t.tekst).map(function (r) {
+        var s = stari[r.t];
+        if (s) { r.moj = s.moj || ''; r.gt = s.gt || ''; }
+        return r;
+      });
+      delete t.stariRedovi;
+      if (/^Page \d+$/.test(t.ime) && t.redovi.length) t.ime = t.redovi[0].t.slice(0, 28);
+      spremi(true); crtaj(); return;
+    }
+    if (b.id === 'uredi') {
+      zaustaviNiz();
+      // vlastiti prijevodi čekaju — ako se redak ne promijeni, vrate se na mjesto
+      t.stariRedovi = t.redovi; t.redovi = null;
+      spremi(true); crtaj(); return;
+    }
+    if (b.id === 'sviSlusaj') { pokreniNiz('slusaj'); return; }
+    if (b.id === 'sviGovori') { pokreniNiz('govori'); return; }
+    if (b.id === 'sviPrevedi') {
+      b.disabled = true; b.textContent = '🌐 Translating…';
+      var i = 0, greske = 0;
+      (function dalje() {
+        while (i < t.redovi.length && t.redovi[i].gt) i++;
+        if (i >= t.redovi.length) {
+          t.redovi.forEach(function (r) { r.gtSkriven = false; });
+          spremi(true); crtaj();
+          if (greske) obavijest('Some lines couldn\'t be translated here — use 🌐 on the line to open Google Translate.', true);
+          return;
+        }
+        var r = t.redovi[i];
+        prevedi(r.t, t.izvor, t.cilj).then(function (p) { r.gt = p; })
+          .catch(function () { greske++; r.gt = ''; })
+          .then(function () { i++; if (greske > 2) i = t.redovi.length; dalje(); });
+      })();
+      return;
+    }
+
+    var k;
+    if ((k = b.getAttribute('data-tts')) !== null) { zaustaviNiz(); oznaciAktivni(+k); izgovori(t.redovi[+k].t, t.izvor, function () { oznaciAktivni(-1); }); return; }
+    if ((k = b.getAttribute('data-tts-moj')) !== null) { zaustaviNiz(); izgovori(t.redovi[+k].moj, t.cilj); return; }
+    if ((k = b.getAttribute('data-tts-gt')) !== null) { zaustaviNiz(); izgovori(t.redovi[+k].gt, t.cilj); return; }
+    if ((k = b.getAttribute('data-mik')) !== null) {
+      zaustaviNiz();
+      if (slusanje) { try { slusanje.stop(); } catch (ex) {} return; }
+      slusaj(+k); return;
+    }
+    if ((k = b.getAttribute('data-gt')) !== null) {
+      var red = t.redovi[+k];
+      if (red.gt) { red.gtSkriven = !red.gtSkriven; spremi(); crtaj(); return; }
+      b.textContent = '🌐 Translating…';
+      prevedi(red.t, t.izvor, t.cilj).then(function (p) {
+        red.gt = p; red.gtSkriven = false; spremi(true); crtaj();
+      }).catch(function () {
+        b.textContent = '🌐 Google Translate';
+        window.open(googleLink(red.t, t.izvor, t.cilj), '_blank', 'noopener');
+      });
+    }
+  });
+
+  window.addEventListener('pagehide', function () { spremi(true); stani(); });
+  crtaj();
+})();
+</script>
+</body>
+</html>

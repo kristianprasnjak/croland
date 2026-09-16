@@ -132,7 +132,7 @@ se preskače. Mediji su nadogradnja, ne uvjet.
 | 07 | Poštanski vlak | razvrstavanje + sat | 18 krugova | 30 | 8 pravila: kategorija, rod, slovo, duljina, vrsta riječi, prijevod, suprotnice, rečenice |
 | 08 | Labirint | Pac-Man | 10 razina × 10 riječi | 100 | izbor jedne od tri kategorije po razini, 19 kategorija, 2 vala po 5 točnih i 5 netočnih, kamera prati igrača, 3 života bez obnove |
 | 09 | Zmija | Snake | 3 razine · 30 riječi | 30 | riječi 3–11 slova, zidovi, ubrzanje |
-| 10 | Mario | platformer | 3 svijeta · 30 razina | 50 | 9 vrsta pitanja, protivnici koje treba preskočiti |
+| 10 | Portal | platformer, dvije obale | 3 svijeta · 30 portala | 50 | 8 vrsta zadataka u oblacima, rakovi koji se penju na stepenice, kamera prati igrača na mobitelu |
 | 11 | Preživljavanje | pod satom | 5 etapa · 60 zadataka | 100 | riječi u oba smjera, slike, praznine, prijevod rečenica |
 | 12 | Obrana baze | padajuće riječi | 15 valova | 40 | 5 vrsta meta, pojačani valovi svakih 5 |
 

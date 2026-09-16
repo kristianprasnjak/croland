@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="color-scheme" content="light">
-<title>Croland — Mail Train</title>
+<title>Croland — The Fortress</title>
 <style>
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -109,40 +109,84 @@ input.upis:focus{outline:none;background:var(--papir2)}
   border-radius:10px;background:#fff;width:38px;height:38px}
 .dijakritik:hover{background:var(--zut)}
 @media (max-width:640px){
-  .omot{padding:8px 8px 30px}
-  .hud{padding:8px 10px;gap:6px}
-  .hud .ime{font-size:15px;width:100%}
-  .ploha{padding:12px;border-radius:16px}
+  .omot{padding:6px 6px 16px}
+  .hud{padding:6px 8px;gap:6px;margin-bottom:8px}
+  .hud .ime{font-size:15px}
+  .hud .ime small{display:none}
+  .natrag{padding:4px 8px;font-size:12px}
+  .znak{padding:3px 9px;font-size:12px}
+  .ploha{padding:10px;border-radius:14px;gap:8px}
   h2.naslov{font-size:18px}
 }
 
-/* ==== Poštanski vlak ==== */
+/* ==== Tvrđava ==== */
 
-.peron{display:flex;flex-direction:column;gap:12px;flex:1}
-.satVlaka{display:flex;align-items:center;gap:10px;font-weight:800}
-.satVlaka .napredak{flex:1}
-.satVlaka .sekunde{font-variant-numeric:tabular-nums;font-size:18px;min-width:52px;text-align:right}
-.tracnice{height:12px;background:repeating-linear-gradient(90deg,#8B7B6B 0 6px,#C9BBA9 6px 14px);
-  border-radius:4px;border:2px solid var(--tinta)}
-.kompozicija{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
-.kompozicija.duge{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.kompozicija.duge .oznakaV{font-size:12px;text-transform:none;letter-spacing:0;line-height:1.35}
-.vagon{border:var(--crta);border-radius:14px;background:#fff;padding:8px;min-height:104px;cursor:pointer;
-  display:flex;flex-direction:column;gap:4px;box-shadow:0 3px 0 var(--tinta)}
-.vagon:hover{background:var(--papir2)}
-.vagon .oznakaV{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;text-align:center;
-  border-bottom:2px dashed var(--meko);padding-bottom:3px}
-.vagon .sadrzaj{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;font-size:19px}
-.vagon.pun{background:#DFF3D2}
-.traka{border:var(--crta);border-radius:14px;background:var(--papir2);padding:10px;min-height:96px}
-.traka .naslovT{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--meko);font-weight:800;margin-bottom:6px}
-.paketi{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
-.paket{border:2px solid var(--tinta);border-radius:12px;background:#fff;padding:6px 10px;cursor:pointer;
-  font-weight:700;font-size:13px;display:flex;flex-direction:column;align-items:center;gap:2px;box-shadow:0 3px 0 var(--tinta)}
-.paket.odabran{background:var(--zut);transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
-.paket small{color:var(--meko);font-weight:400;font-size:11px}
-.krugTraka{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:700;flex-wrap:wrap}
-.krugTraka .oznakaK{background:var(--zut);border:2px solid var(--tinta);border-radius:8px;padding:2px 10px}
+.tlocrt{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.sobaGumb{position:relative;border:var(--crta);border-radius:12px;background:#fff;padding:10px 8px;
+  cursor:pointer;font-weight:800;font-size:13px;text-align:center;box-shadow:0 3px 0 var(--tinta)}
+.sobaGumb .ikonaS{display:block;font-size:26px;margin-bottom:2px}
+.sobaGumb.zakljucana{background:#EFEAE4;color:#A99C8E;cursor:default;box-shadow:none}
+.sobaGumb.rijesena{background:#DFF3D2}
+.sobaGumb.aktivna{background:var(--zut)}
+.scena{position:relative;border:var(--crta);border-radius:16px;overflow:hidden;min-height:210px;
+  background:linear-gradient(#F0E3CE,#DCC8A8);display:flex;align-items:center;justify-content:center}
+.scena img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.scena .veliki{font-size:88px;position:relative;filter:drop-shadow(0 4px 0 rgba(0,0,0,.15))}
+.scena .imeSobe{position:absolute;left:12px;top:12px;background:#fff;border:2px solid var(--tinta);
+  border-radius:10px;padding:3px 12px;font-weight:800}
+.tocke{position:absolute;inset:0}
+.tocka{position:absolute;width:52px;height:52px;border-radius:50%;border:3px dashed rgba(43,33,24,.55);
+  background:rgba(255,255,255,.6);display:flex;align-items:center;justify-content:center;font-size:26px;cursor:pointer}
+.tocka:hover{background:#fff;border-style:solid}
+.tocka.uzeto{opacity:.25;pointer-events:none;border-style:solid}
+.govor{display:flex;gap:12px;background:var(--papir2);border:2px solid var(--tinta);border-radius:14px;padding:12px}
+.govor .glava{font-size:36px}
+.govor .ime{font-weight:800;font-size:12px;color:var(--ljub);text-transform:uppercase;letter-spacing:.6px}
+.govor .rec{font-size:17px}
+.govor .pr{font-size:13px;color:var(--meko);font-style:italic}
+.zagonetka{border:var(--crta);border-radius:16px;padding:14px;background:#fff}
+.zagonetka h3{font-size:16px;margin-bottom:4px}
+.zagonetka .mala{font-size:13px;color:var(--meko);margin-bottom:10px}
+.redak{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px}
+.parS{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.parS button{font-size:15px}
+.parS button.oznacen{background:var(--zut)}
+.parS button.gotov{background:#DFF3D2;pointer-events:none;opacity:.6}
+.skrinje{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.skrinja{border:var(--crta);border-radius:12px;background:var(--papir2);padding:8px;min-height:96px;text-align:center}
+.skrinja b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px}
+.skrinja .stavljeno{font-size:12px;font-weight:700;color:var(--zelena)}
+.vjesalo{font-size:34px;letter-spacing:8px;font-weight:800;text-align:center;margin:10px 0}
+.abc{display:flex;gap:4px;flex-wrap:wrap;justify-content:center}
+.abc button{width:34px;height:36px;font:inherit;font-weight:800;border:2px solid var(--tinta);
+  border-radius:8px;background:#fff;cursor:pointer;font-size:14px}
+.abc button.upotrijebljen{opacity:.28;pointer-events:none}
+.torba{display:flex;gap:6px;align-items:center;font-size:13px;font-weight:700;flex-wrap:wrap}
+.torba .kom{background:#fff;border:2px solid var(--tinta);border-radius:999px;padding:2px 10px}
+
+/* manje soba na uskom ekranu — više prostora za scenu i zagonetku */
+@media (max-width:640px){
+  .tlocrt{gap:5px;grid-template-columns:repeat(5,1fr)}
+  .sobaGumb{padding:4px 2px;font-size:10px}
+  .sobaGumb .ikonaS{font-size:16px;margin-bottom:0}
+  .scena{min-height:110px}
+  .scena .veliki{font-size:48px}
+  .scena .imeSobe{padding:2px 8px;font-size:12px}
+  .govor{padding:8px;gap:8px}
+  .govor .glava{font-size:24px}
+  .govor .ime{font-size:11px}
+  .govor .rec{font-size:14px}
+  .govor .pr{font-size:11px}
+  .torba{font-size:11px}
+  .zagonetka{padding:8px}
+  .zagonetka h3{font-size:13px;margin-bottom:2px}
+  .zagonetka .mala{font-size:11px;margin-bottom:6px}
+  .redak{gap:5px;margin-bottom:5px}
+  .g{padding:8px 12px;font-size:13px}
+  .skrinja{min-height:60px;padding:5px}
+  .vjesalo{font-size:26px;letter-spacing:5px;margin:6px 0}
+  .abc button{width:28px;height:30px;font-size:12px}
+}
 
 
 /* ---- skriveni prijevod: otkriva se klikom ---- */
@@ -161,8 +205,8 @@ if (window.self !== window.top) document.documentElement.className += ' uApp';
 <body>
 <div class="omot" id="omot"></div>
 <script>
-window.IGRA_ID = "vlak";
-window.IGRA_MAKS = 30;
+window.IGRA_ID = "tvrdjava";
+window.IGRA_MAKS = 100;
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -504,315 +548,741 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Poštanski vlak — 18 krugova, osam pravila razvrstavanja, pa bez kraja
-   Mehanika: paket → vagon pod satom. Pravila: kategorija, rod, prvo
-             slovo, duljina riječi, vrsta riječi, prijevod, suprotnice
-             i prijevod rečenica.
-   Maksimum (skriveno od igrača): 30 bodova × 4 valute
+   Tvrđava — point-and-click avantura: 16 soba, 16 vrsta zagonetki
+   Mehanika: svaka soba ima svog lika i svoju zagonetku. Nakon zadnje
+             sobe otvara se „podzemlje" — beskonačan niz nasumičnih
+             zagonetki s novim riječima i rečenicama.
+   Maksimum (skriveno od igrača): 100 bodova × 4 valute
    ===================================================================== */
 
-var KRUGOVI = [
-  {ime:'Morning train',    pravilo:'kategorija', kolona:3, paketa:9,  sekundi:75,
-   opis:'Every car goes to a different town — and each town takes only one kind of goods.'},
-  {ime:'Midday train',     pravilo:'kategorija', kolona:4, paketa:12, sekundi:75,
-   opis:'Four destinations. The goods keep coming faster.'},
-  {ime:'Noun gender',      pravilo:'rod',        kolona:3, paketa:9,  sekundi:70,
-   opis:'The cars carry noun gender: masculine, feminine, neuter.'},
-  {ime:'First letter',     pravilo:'slovo',      kolona:3, paketa:9,  sekundi:65,
-   opis:'The cars are marked with letters. Look at the letter the word starts with.'},
-  {ime:'English mail',     pravilo:'prijevod',   kolona:5, paketa:5,  sekundi:60,
-   opis:'The package carries the English word, the car the Croatian one. Match them.'},
-  {ime:'Word types',       pravilo:'vrsta',      kolona:3, paketa:9,  sekundi:70,
-   opis:'Noun, verb or adjective — each car takes only its own type.'},
-  {ime:'Long and short',   pravilo:'duljina',    kolona:3, paketa:9,  sekundi:65,
-   opis:'The cars count letters: short, medium and long words.'},
-  {ime:'Opposites',        pravilo:'suprotno',   kolona:4, paketa:4,  sekundi:60,
-   opis:'The car carries a word, the package its opposite.'},
-  {ime:'Afternoon rush',   pravilo:'kategorija', kolona:5, paketa:15, sekundi:80,
-   opis:'Five cars, fifteen packages — the biggest load of the day.'},
-  {ime:'Gender under pressure',pravilo:'rod',    kolona:3, paketa:12, sekundi:60,
-   opis:'The same genders, more packages and less time.'},
-  {ime:'Letter by letter', pravilo:'slovo',      kolona:4, paketa:12, sekundi:60,
-   opis:'Four letters on four cars.'},
-  {ime:'Sentences',        pravilo:'recenica',   kolona:4, paketa:4,  sekundi:70,
-   opis:'The car carries the English sentence, the package the Croatian one.'},
-  {ime:'Types in a hurry', pravilo:'vrsta',      kolona:3, paketa:12, sekundi:55,
-   opis:'Word types again, but the train leaves earlier.'},
-  {ime:'Lengths',          pravilo:'duljina',    kolona:4, paketa:12, sekundi:60,
-   opis:'Four length classes. Count carefully.'},
-  {ime:'The big exchange', pravilo:'prijevod',   kolona:6, paketa:6,  sekundi:55,
-   opis:'Six English packages, six Croatian cars.'},
-  {ime:'Opposites II',     pravilo:'suprotno',   kolona:5, paketa:5,  sekundi:55,
-   opis:'Five pairs of opposites — no mistakes allowed.'},
-  {ime:'Long sentences',   pravilo:'recenica',   kolona:5, paketa:5,  sekundi:70,
-   opis:'Five sentences, longer and trickier than before.'},
-  {ime:'Night rush',       pravilo:'kategorija', kolona:6, paketa:18, sekundi:85,
-   opis:'Six cars, eighteen packages. The last train tonight!'}
-];
-var UKUPNO = KRUGOVI.length;
+var SOBE = [
+  {id:'vrata',    ime:'The Gate',    emo:'🚪', bodovi:6, tip:'lozinka',
+   lik:{ime:'Vid the Guard', glava:'💂'},
+   rec:['Stani! Tko ide?','Halt! Who goes there?']},
+  {id:'dvoriste', ime:'Courtyard',   emo:'🏰', bodovi:6, tip:'trazi',
+   lik:{ime:'Jela the Cook', glava:'👩‍🍳'},
+   rec:['Izgubila sam četiri stvari po dvorištu. Nađi ih!','I lost four things in the courtyard. Find them!']},
+  {id:'kuhinja',  ime:'Kitchen',     emo:'🍳', bodovi:6, tip:'poredak',
+   lik:{ime:'Jela the Cook', glava:'👩‍🍳'},
+   rec:['Recept se pomiješao. Posloži korake.','The recipe got shuffled. Put the steps in order.']},
+  {id:'knjiznica',ime:'Library',     emo:'📚', bodovi:6, tip:'parovi',
+   lik:{ime:'Bruno the Librarian', glava:'🧙'},
+   rec:['Riječi su ispale iz knjige. Spoji ih s prijevodom.','The words fell out of the book. Match them with the translation.']},
+  {id:'toranj',   ime:'Tower',       emo:'🗼', bodovi:6, tip:'anagram',
+   lik:{ime:'Rok the Bell-Ringer', glava:'🧑‍🦳'},
+   rec:['Vjetar je razbacao slova. Složi riječ.','The wind scattered the letters. Build the word.']},
+  {id:'tamnica',  ime:'Dungeon',     emo:'⛓', bodovi:6, tip:'vjesalo',
+   lik:{ime:'Ante the Prisoner', glava:'🧔'},
+   rec:['Pogodi riječ i vrata će se otvoriti.','Guess the word and the door will open.']},
+  {id:'riznica',  ime:'Treasury',    emo:'💰', bodovi:6, tip:'razvrstaj',
+   lik:{ime:'Šimun the Treasurer', glava:'🤵'},
+   rec:['Blago se pomiješalo. Razvrstaj po vrstama.','The treasure got mixed up. Sort it by type.']},
+  {id:'vrt',      ime:'Garden',      emo:'🌳', bodovi:6, tip:'upis',
+   lik:{ime:'Roza the Gardener', glava:'👵'},
+   rec:['Imenuj što vidiš u vrtu.','Name what you see in the garden.']},
 
-var S = {krug:0, bodovi:0, uspjesnih:0, sat:null, preostalo:0, ukupno:0,
-         odabran:null, vagoni:[], paketi:[], bez:false, bezKrug:0};
+  {id:'kapelica', ime:'Chapel',      emo:'⛪', bodovi:6, tip:'prijevodRec',
+   lik:{ime:'Friar Marin', glava:'🧑‍🦲'},
+   rec:['Zapisi su na hrvatskom. Reci mi što znače.','The records are in Croatian. Tell me what they mean.']},
+  {id:'oruzarnica',ime:'Armory',     emo:'🛡', bodovi:6, tip:'praznina',
+   lik:{ime:'Jure the Blacksmith', glava:'🧑‍🏭'},
+   rec:['Iz natpisa je ispala riječ. Vrati je na mjesto.','A word fell out of the inscription. Put it back.']},
+  {id:'straza',   ime:'Watchtower', emo:'🔭', bodovi:6, tip:'suprotno',
+   lik:{ime:'Nika the Watchwoman', glava:'👩‍✈️'},
+   rec:['Sve ovdje ima svoju suprotnost. Nađi je.','Everything here has its opposite. Find it.']},
+  {id:'pisarnica',ime:'Scriptorium', emo:'✒', bodovi:7, tip:'slaganje',
+   lik:{ime:'Lovro the Scribe', glava:'🧑‍💼'},
+   rec:['Rečenica se raspala na riječi. Složi je.','The sentence fell apart into words. Rebuild it.']},
+  {id:'bunar',    ime:'The Well',    emo:'🪣', bodovi:6, tip:'rodovi',
+   lik:{ime:'Tin the Water Carrier', glava:'🧑‍🌾'},
+   rec:['Tri vjedra, tri roda. Ne pomiješaj ih.','Three buckets, three genders. Do not mix them up.']},
+  {id:'konjusnica',ime:'Stables',    emo:'🐎', bodovi:7, tip:'dijalog',
+   lik:{ime:'Bruno the Stablehand', glava:'🧑‍🌾'},
+   rec:['Dođi, popričajmo dok konji jedu.','Come, let us talk while the horses eat.']},
+  {id:'podrum',   ime:'Wine Cellar', emo:'🍷', bodovi:7, tip:'kategorije4',
+   lik:{ime:'Vice the Cellarman', glava:'🧓'},
+   rec:['Četiri police, četiri vrste. Razvrstaj.','Four shelves, four kinds. Sort them.']},
+  {id:'dvorana',  ime:'Throne Room', emo:'👑', bodovi:9, tip:'zavrsni',
+   lik:{ime:'Duke Domagoj', glava:'🤴'},
+   rec:['Zadnja kušnja. Sve što si naučio, odjednom.','The last test. Everything you learned, all at once.']}
+];
+
+var S = {i:0, bodovi:0, rijesene:{}, torba:[], bez:false, bezSoba:0};
 
 var O = CL.el('omot');
 O.appendChild(CL.hud({
-  ime:'Mail Train (Poštanski vlak)', podnaslov:'sorting against the clock · ' + UKUPNO + ' rounds',
-  znakovi:[
-    {id:'zKrug', html:'🚆 <b>1</b>/' + UKUPNO},
-    {id:'zBod', html:'⭐ <b>0</b>'},
-    {id:'zTocno', html:'📦 0/0'}
-  ]
+  ime:'The Fortress (Tvrđava)', podnaslov:'point-and-click · sixteen rooms',
+  znakovi:[{id:'zBod', html:'⭐ <b>0</b>'},{id:'zSobe', html:'🗝 0/' + SOBE.length}]
 }));
 var ploha = document.createElement('div');
 ploha.className='ploha';
 ploha.innerHTML =
-  '<div class="krugTraka"><span class="oznakaK" id="oznakaK">Round 1</span><span id="opisK"></span></div>' +
-  '<div class="satVlaka"><span>🚂</span><span class="napredak"><i id="trakaSat"></i></span>' +
-  '<span class="sekunde" id="sek">0 s</span></div>' +
-  '<div class="peron">' +
-  '<div class="kompozicija" id="kompozicija"></div>' +
-  '<div class="tracnice"></div>' +
-  '<div class="traka"><div class="naslovT">Platform — packages waiting</div><div class="paketi" id="paketi"></div></div>' +
-  '</div>';
+  '<div class="tlocrt" id="tlocrt"></div>' +
+  '<div class="scena" id="scena"></div>' +
+  '<div class="govor" id="govor"></div>' +
+  '<div class="torba" id="torba"></div>' +
+  '<div class="zagonetka" id="zag"></div>';
 O.appendChild(ploha);
 
-/* ---------- priprema po pravilu ---------- */
-
-var VRSTE_RIJECI = [
-  {kljuc:'imenica', natpis:'Noun',      pod:'imenica',   test:function(r){ return ['m','ž','s'].indexOf(r.rod) >= 0; }},
-  {kljuc:'glagol',  natpis:'Verb',      pod:'glagol',    test:function(r){ return r.kat === 'glagol'; }},
-  {kljuc:'pridjev', natpis:'Adjective', pod:'pridjev',   test:function(r){ return r.kat === 'pridjev' || r.kat === 'boja'; }}
-];
-
-var DULJINE = [
-  {kljuc:'k', natpis:'2–4 letters', pod:'short',  test:function(r){ return r.hr.length <= 4; }},
-  {kljuc:'s', natpis:'5–6 letters', pod:'medium', test:function(r){ return r.hr.length >= 5 && r.hr.length <= 6; }},
-  {kljuc:'d', natpis:'7–8 letters', pod:'long',   test:function(r){ return r.hr.length >= 7 && r.hr.length <= 8; }},
-  {kljuc:'x', natpis:'9+ letters',  pod:'very long', test:function(r){ return r.hr.length >= 9; }}
-];
-
-function pripremi(k){
-  var vagoni = [], paketi = [], i;
-
-  if (k.pravilo === 'kategorija'){
-    var kats = CL.uzmi(Object.keys(CL.KAT).filter(function(x){ return CL.kat(x).length >= 6; }), k.kolona);
-    vagoni = kats.map(function(x){ return {kljuc:x, natpis:CL.KAT[x].en, pod:CL.KAT[x].hr, sadrzaj:[]}; });
-    for (i=0;i<k.paketa;i++){
-      var kat = kats[i % kats.length];
-      paketi.push({r:CL.rand(CL.kat(kat)), kljuc:kat});
-    }
-
-  } else if (k.pravilo === 'rod'){
-    var rodovi = [['m','Masculine','muški rod'],['ž','Feminine','ženski rod'],['s','Neuter','srednji rod']];
-    vagoni = rodovi.map(function(r){ return {kljuc:r[0], natpis:r[1], pod:r[2], sadrzaj:[]}; });
-    for (i=0;i<k.paketa;i++){
-      var rd = rodovi[i % rodovi.length][0];
-      paketi.push({r:CL.rand(CL.BANKA.filter(function(x){ return x.rod === rd; })), kljuc:rd});
-    }
-
-  } else if (k.pravilo === 'slovo'){
-    var kandidati = CL.BANKA.filter(function(x){ return !/\s/.test(x.hr); });
-    var slova = CL.uzmi(['k','p','s','m','v','b','d','t','r','z','n','g','l','j'], k.kolona + 4)
-      .filter(function(sl){ return kandidati.filter(function(x){ return x.hr[0]===sl; }).length >= 4; })
-      .slice(0, k.kolona);
-    while (slova.length < k.kolona) slova.push('k');
-    vagoni = slova.map(function(sl){ return {kljuc:sl, natpis:'Letter ' + sl.toUpperCase(), pod:'starts with ' + sl, sadrzaj:[]}; });
-    for (i=0;i<k.paketa;i++){
-      var sl = slova[i % slova.length];
-      paketi.push({r:CL.rand(kandidati.filter(function(x){ return x.hr[0]===sl; })), kljuc:sl});
-    }
-
-  } else if (k.pravilo === 'vrsta'){
-    vagoni = VRSTE_RIJECI.slice(0, k.kolona).map(function(v){
-      return {kljuc:v.kljuc, natpis:v.natpis, pod:v.pod, sadrzaj:[]}; });
-    for (i=0;i<k.paketa;i++){
-      var v = VRSTE_RIJECI[i % Math.min(k.kolona, VRSTE_RIJECI.length)];
-      paketi.push({r:CL.rand(CL.BANKA.filter(v.test)), kljuc:v.kljuc});
-    }
-
-  } else if (k.pravilo === 'duljina'){
-    var razredi = DULJINE.slice(0, k.kolona);
-    vagoni = razredi.map(function(d){ return {kljuc:d.kljuc, natpis:d.natpis, pod:d.pod, sadrzaj:[]}; });
-    for (i=0;i<k.paketa;i++){
-      var d = razredi[i % razredi.length];
-      var fond = CL.BANKA.filter(function(x){ return !/\s/.test(x.hr) && d.test(x); });
-      paketi.push({r:CL.rand(fond), kljuc:d.kljuc});
-    }
-
-  } else if (k.pravilo === 'suprotno'){
-    var parovi = CL.uzmi(CL.suprotnice(), k.kolona);
-    vagoni = parovi.map(function(p, n){
-      return {kljuc:'p'+n, natpis:p[0], pod:'the opposite of…', sadrzaj:[]}; });
-    parovi.forEach(function(p, n){
-      paketi.push({r:{hr:p[1], en:p[2], emo:'🔁', id:'sup-'+n}, kljuc:'p'+n});
-    });
-
-  } else if (k.pravilo === 'recenica'){
-    var raz = Math.min(5, 2 + Math.floor(S.krug / 5));
-    var rec = CL.uzmi(CL.recenice(raz, true).filter(function(r){ return r[0].length < 46; }), k.kolona);
-    vagoni = rec.map(function(r, n){
-      return {kljuc:'r'+n, natpis:r[1], pod:'', sadrzaj:[]}; });
-    rec.forEach(function(r, n){
-      paketi.push({r:{hr:r[0], en:r[1], emo:'💬', id:'rec-'+n}, kljuc:'r'+n});
-    });
-
-  } else { /* prijevod */
-    var izabrane = CL.uzmi(CL.svjezeRijeci(60), k.kolona);
-    vagoni = izabrane.map(function(r){ return {kljuc:r.id, natpis:r.hr, pod:'', sadrzaj:[]}; });
-    izabrane.forEach(function(r){ paketi.push({r:r, kljuc:r.id, engleski:true}); });
-  }
-
-  return {vagoni:vagoni, paketi:CL.mix(paketi), duge:(k.pravilo === 'recenica')};
-}
-
-function crtaj(){
-  CL.el('kompozicija').className = 'kompozicija' + (S.duge ? ' duge' : '');
-  CL.el('kompozicija').innerHTML = S.vagoni.map(function(v,i){
-    return '<div class="vagon' + (v.sadrzaj.length?' pun':'') + '" data-i="' + i + '">' +
-      '<div class="oznakaV">' + CL.esc(v.natpis) + (v.pod ? '<br><span style="font-weight:400;color:var(--meko);text-transform:none;letter-spacing:0">' + CL.esc(v.pod) + '</span>' : '') + '</div>' +
-      '<div class="sadrzaj">' + v.sadrzaj.map(function(r){ return '<span title="' + CL.esc(r.hr) + '">' + r.emo + '</span>'; }).join('') + '</div>' +
-      '</div>';
-  }).join('');
-  CL.el('paketi').innerHTML = S.paketi.map(function(p,i){
-    if (p.gotov) return '';
-    var natpis = p.engleski ? p.r.en : p.r.hr;
-    return '<button class="paket' + (S.odabran===i?' odabran':'') + '" data-i="' + i + '">' +
-      '<span style="font-size:22px">' + (p.r.emo || '📦') + '</span><span>' + CL.esc(natpis) + '</span>' +
-      '<small>' + (p.engleski ? 'english' : CL.skritEN(p.r.en, '👁', true)) + '</small></button>';
+function crtajTlocrt(){
+  CL.el('tlocrt').innerHTML = SOBE.map(function(s,i){
+    var otkljucana = i <= S.i || S.rijesene[s.id];
+    var klase = 'sobaGumb' + (S.rijesene[s.id] ? ' rijesena' : '') +
+      (i === S.i ? ' aktivna' : '') + (otkljucana ? '' : ' zakljucana');
+    return '<div class="' + klase + '" data-i="' + i + '">' +
+      '<span class="ikonaS">' + (otkljucana ? s.emo : '🔒') + '</span>' + CL.esc(s.ime) + '</div>';
   }).join('');
 }
-
-CL.el('kompozicija').addEventListener('click', function(e){
-  var v = e.target.closest('.vagon'); if (!v) return;
-  if (S.odabran === null) return CL.poruka('Pick up a package from the platform first.');
-  var vag = S.vagoni[+v.dataset.i], pak = S.paketi[S.odabran];
-  if (pak.kljuc === vag.kljuc){
-    vag.sadrzaj.push(pak.r); pak.gotov = true; S.odabran = null; S.ukupno++;
-    CL.pip(true); CL.zvukRijeci(pak.r);
-    if (pak.r.kat) CL.ucenje(pak.r.id, true);
-    crtaj(); osvjezi();
-    if (S.paketi.every(function(p){ return p.gotov; })) return zavrsiKrug(true);
-  } else {
-    CL.pip(false); S.preostalo -= 4;
-    if (pak.r.kat) CL.ucenje(pak.r.id, false);
-    v.classList.add('tresi'); setTimeout(function(){ v.classList.remove('tresi'); }, 350);
-    CL.poruka('Wrong car — the train loses 4 seconds.', 'lose');
-  }
-});
-CL.el('paketi').addEventListener('click', function(e){
-  var p = e.target.closest('.paket'); if (!p) return;
-  S.odabran = +p.dataset.i;
-  var pak = S.paketi[S.odabran];
-  if (!pak.engleski) CL.zvukRijeci(pak.r);
-  crtaj();
+CL.el('tlocrt').addEventListener('click', function(e){
+  var g = e.target.closest('.sobaGumb'); if (!g || g.classList.contains('zakljucana')) return;
+  S.i = +g.dataset.i; prikazi();
 });
 
 function osvjezi(){
-  CL.el('zKrug').innerHTML = S.bez
-    ? '♾ <b>' + (S.bezKrug+1) + '</b>'
-    : '🚆 <b>' + Math.min(S.krug+1, UKUPNO) + '</b>/' + UKUPNO;
   CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>';
-  var ukupnoPaketa = S.paketi.length;
-  var gotovih = S.paketi.filter(function(p){ return p.gotov; }).length;
-  CL.el('zTocno').textContent = '📦 ' + gotovih + '/' + ukupnoPaketa;
+  CL.el('zSobe').textContent = S.bez
+    ? '♾ ' + S.bezSoba
+    : '🗝 ' + Object.keys(S.rijesene).length + '/' + SOBE.length;
+  CL.el('torba').innerHTML = S.torba.length
+    ? '🎒 ' + S.torba.map(function(t){ return '<span class="kom">' + CL.esc(t) + '</span>'; }).join('')
+    : '<span style="color:var(--meko)">🎒 your bag is empty</span>';
+  crtajTlocrt();
 }
 
-function bezKrajaKrug(n){
-  var pr = ['kategorija','rod','slovo','vrsta','duljina','prijevod','suprotno','recenica'][n % 8];
-  var jedanNaJedan = ['prijevod','suprotno','recenica'].indexOf(pr) >= 0;
-  var kolona = Math.min(6, 4 + Math.floor(n/4));
-  return {
-    ime:'Night shift ' + (n+1), pravilo:pr, kolona:kolona,
-    paketa: jedanNaJedan ? kolona : kolona * 3,
-    sekundi: Math.max(35, 70 - n*2),
-    opis:'The rule changes every round, and the train leaves earlier and earlier.'
-  };
-}
+var ZAGONETKE = {
+  lozinka:zagLozinka, trazi:zagTrazi, poredak:zagPoredak, parovi:zagParovi,
+  anagram:zagAnagram, vjesalo:zagVjesalo, razvrstaj:zagRazvrstaj, upis:zagUpis,
+  prijevodRec:zagPrijevodRec, praznina:zagPraznina, suprotno:zagSuprotno,
+  slaganje:zagSlaganje, rodovi:zagRodovi, dijalog:zagDijalog,
+  kategorije4:zagKategorije4, zavrsni:zagZavrsni
+};
 
-function pocniKrug(){
-  var k = S.bez ? bezKrajaKrug(S.bezKrug) : KRUGOVI[S.krug];
-  var pripr = pripremi(k);
-  S.k = k; S.vagoni = pripr.vagoni; S.paketi = pripr.paketi;
-  S.duge = pripr.duge; S.odabran = null;
-  S.preostalo = k.sekundi; S.max = k.sekundi;
-  CL.el('oznakaK').textContent = (S.bez ? 'Endless ' : 'Round ') +
-    ((S.bez ? S.bezKrug : S.krug) + 1) + ' — ' + k.ime;
-  CL.el('opisK').textContent = k.opis;
-  crtaj(); osvjezi();
-  clearInterval(S.sat);
-  S.sat = setInterval(function(){
-    if (document.querySelector('.zastor')) return;
-    S.preostalo -= 0.1;
-    if (S.preostalo <= 0){ S.preostalo = 0; clearInterval(S.sat); return zavrsiKrug(false); }
-    CL.el('trakaSat').style.width = (S.preostalo / S.max * 100) + '%';
-    CL.el('sek').textContent = Math.ceil(S.preostalo) + ' s';
-    CL.el('trakaSat').style.background = S.preostalo < 10 ? 'var(--koralj)' : 'var(--zut)';
-  }, 100);
-}
-
-function zavrsiKrug(uspjeh){
-  clearInterval(S.sat);
-  if (uspjeh){ S.uspjesnih++; CL.konfeti(20); }
-  if (S.bez){
-    S.bezKrug++;
-    osvjezi();
-    if (!uspjeh) return kraj();
-    var zz = CL.zastor('<h3>The train left on time! 🚆</h3>' +
-      '<p>Night shifts completed: <b>' + S.bezKrug + '</b></p>' +
-      '<div class="tipke"><button class="g glavni" id="_d">Next train</button></div>');
-    return zz.querySelector('#_d').onclick = function(){ zz.remove(); pocniKrug(); };
-  }
-  S.bodovi = Math.min(30, Math.round(S.uspjesnih / UKUPNO * 30));
+function prikazi(){
+  var s = SOBE[S.i];
   osvjezi();
-  S.krug++;
-  if (S.krug >= KRUGOVI.length) return kraj();
-  var k = KRUGOVI[S.krug];
-  var z = CL.zastor('<h3>' + (uspjeh ? 'The train left on time! 🚆' : 'The train left without you ⏰') + '</h3>' +
-    '<p>' + (uspjeh ? 'Round complete.' : 'No points for this round.') +
-    '<br><br><b>Next: ' + CL.esc(k.ime) + '</b><br>' + CL.esc(k.opis) + '</p>' +
-    '<div class="tipke"><button class="g glavni" id="_d">To the platform</button></div>');
-  z.querySelector('#_d').onclick = function(){
-    z.remove();
-    if (S.krug % 6 === 0) CL.savjetZastor(pocniKrug);
-    else pocniKrug();
+  CL.el('scena').innerHTML =
+    '<img src="' + CL.MEDIJ + 'soba-' + s.id + '.png" alt="" onerror="this.remove()">' +
+    '<span class="veliki">' + s.emo + '</span>' +
+    '<span class="imeSobe">' + CL.esc(s.ime) + '</span>' +
+    '<div class="tocke" id="tocke"></div>';
+  CL.el('govor').innerHTML =
+    '<div class="glava">' + s.lik.glava + '</div>' +
+    '<div><div class="ime">' + CL.esc(s.lik.ime) + '</div>' +
+    '<div class="rec">' + CL.esc(s.rec[0]) + '</div>' +
+    '<div class="pr">' + CL.skritEN(s.rec[1]) + '</div></div>';
+  if (S.rijesene[s.id] && !S.bez){
+    CL.el('zag').innerHTML = '<h3>Room solved ✓</h3><div class="mala">Move on to the next room on the map.</div>';
+    return;
+  }
+  ZAGONETKE[s.tip](s);
+}
+
+function rijesena(s, poruka){
+  if (S.bez){
+    S.bezSoba++;
+    CL.pip(true); CL.konfeti(16);
+    CL.poruka(poruka || 'Solved!', 'dobro');
+    osvjezi();
+    return setTimeout(sljedecaBez, 800);
+  }
+  if (!S.rijesene[s.id]){ S.rijesene[s.id] = true; S.bodovi += s.bodovi; }
+  CL.pip(true); CL.konfeti(20);
+  CL.poruka(poruka || ('Room unlocked! +' + s.bodovi + ' ⭐'), 'dobro');
+  osvjezi();
+  if (Object.keys(S.rijesene).length === SOBE.length) return setTimeout(kraj, 900);
+  if (S.i < SOBE.length-1) { S.i++; setTimeout(prikazi, 900); }
+  else setTimeout(prikazi, 500);
+}
+function promasaj(){ CL.pip(false); CL.poruka('That does not open it. Try again.', 'lose'); }
+
+/* ---------- 1. lozinka (dijalog) ---------- */
+function zagLozinka(s){
+  var koraci = [
+    {rec:'Stani! Kako se pozdravlja u tvrđavi?', pr:'Halt! How do you greet in the fortress?',
+     opcije:[['Dobar dan!',1],['Dobar kruh!',0],['Doviđenja!',0]]},
+    {rec:'Dobro. A tko si ti?', pr:'Good. And who are you?',
+     opcije:[['Ja sam student.',1],['Ja sam kuća.',0],['Ti si student.',0]]},
+    {rec:'Zašto dolaziš?', pr:'Why do you come?',
+     opcije:[['Želim učiti hrvatski.',1],['Želim jesti tvrđavu.',0],['Ne znam ništa.',0]]},
+    {rec:'Odakle si?', pr:'Where are you from?',
+     opcije:[['Dolazim izdaleka.',1],['Dolazim kruh.',0],['Idem izdaleka jučer.',0]]}
+  ];
+  var k = 0;
+  function korak(){
+    if (k >= koraci.length) return rijesena(s, 'The guard lets you in!');
+    var t = koraci[k];
+    CL.el('zag').innerHTML = '<h3>' + CL.esc(t.rec) + '</h3><div class="mala">' + CL.skritEN(t.pr) + '</div><div class="redak" id="op"></div>';
+    var r = CL.el('op');
+    CL.mix(t.opcije).forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.textContent=o[0];
+      b.onclick = function(){ if (o[1]){ CL.pip(true); k++; korak(); } else { promasaj(); k=0; korak(); } };
+      r.appendChild(b);
+    });
+  }
+  korak();
+}
+
+/* ---------- 2. traži predmete u sceni ---------- */
+function zagTrazi(s){
+  var meta = CL.uzmi(CL.svjezeRijeci(60, function(r){
+    return ['predmet','hrana','dom','odjeca'].indexOf(r.kat) >= 0; }), 5);
+  var nadeno = 0;
+  var polozaji = [[12,18],[62,26],[30,62],[74,66],[46,40]];
+  CL.el('tocke').innerHTML = CL.mix(meta).map(function(r,i){
+    return '<div class="tocka" data-id="' + r.id + '" style="left:' + polozaji[i][0] + '%;top:' + polozaji[i][1] + '%">' + r.emo + '</div>';
+  }).join('');
+  function crtajPopis(){
+    CL.el('zag').innerHTML = '<h3>Find these in the scene:</h3><div class="mala">Click the objects above.</div><div class="redak">' +
+      meta.map(function(r){
+        var im = S.torba.indexOf(r.hr) >= 0;
+        return '<span class="g" style="cursor:default;' + (im?'background:#DFF3D2':'') + '">' +
+          (im?'✓ ':'') + CL.esc(r.hr) + ' <small style="color:var(--meko)">' + CL.skritEN(r.en, '👁') + '</small></span>';
+      }).join('') + '</div>';
+  }
+  crtajPopis();
+  CL.el('tocke').addEventListener('click', function(e){
+    var t = e.target.closest('.tocka'); if (!t || t.classList.contains('uzeto')) return;
+    var r = CL.po(t.dataset.id);
+    t.classList.add('uzeto'); S.torba.push(r.hr); nadeno++;
+    CL.zvukRijeci(r); CL.pip(true); CL.ucenje(r.id, true); osvjezi(); crtajPopis();
+    if (nadeno === meta.length){ S.torba = []; rijesena(s, 'Everything found!'); }
+  });
+}
+
+/* ---------- 3. poredak koraka recepta ---------- */
+var RECEPTI = [
+  [['Uzmi jaje i brašno.','Take an egg and flour.'],
+   ['Miješaj sve u zdjeli.','Mix everything in a bowl.'],
+   ['Zagrij tavu.','Heat up the pan.'],
+   ['Peci palačinke.','Fry the pancakes.'],
+   ['Stavi džem i smotaj.','Put jam on and roll it up.']],
+  [['Skuhaj vodu u loncu.','Boil water in a pot.'],
+   ['Dodaj sol i tjesteninu.','Add salt and pasta.'],
+   ['Kuhaj osam minuta.','Cook for eight minutes.'],
+   ['Ocijedi i dodaj umak.','Drain and add the sauce.'],
+   ['Posipaj sirom i posluži.','Sprinkle cheese on top and serve.']],
+  [['Operi rajčice i papriku.','Wash the tomatoes and pepper.'],
+   ['Nareži povrće na kolutove.','Cut the vegetables into slices.'],
+   ['Stavi sve u zdjelu.','Put everything in a bowl.'],
+   ['Dodaj maslinovo ulje i sol.','Add olive oil and salt.'],
+   ['Promiješaj i pojedi.','Mix it and eat.']]
+];
+function zagPoredak(s){
+  var recept = CL.rand(RECEPTI);
+  var pomijesano = CL.mix(recept.map(function(r,i){ return {r:r, i:i}; }));
+  var slozeno = [];
+  function crtaj(){
+    CL.el('zag').innerHTML = '<h3>Put the recipe in order</h3><div class="mala">Click the steps in order, from first to last.</div>' +
+      '<div class="redak" id="ponuda"></div><ol id="slozeno" style="padding-left:20px;font-weight:700"></ol>';
+    var p = CL.el('ponuda');
+    pomijesano.forEach(function(o){
+      if (slozeno.indexOf(o) >= 0) return;
+      var b = document.createElement('button'); b.className='g'; b.style.textAlign='left';
+      b.innerHTML = CL.esc(o.r[0]) + '<br><small style="color:var(--meko);font-weight:400">' + CL.esc(o.r[1]) + '</small>';
+      b.onclick = function(){
+        if (o.i === slozeno.length){ slozeno.push(o); CL.pip(true); crtaj();
+          if (slozeno.length === recept.length) rijesena(s, 'The dish is ready!');
+        } else { promasaj(); slozeno = []; crtaj(); }
+      };
+      p.appendChild(b);
+    });
+    CL.el('slozeno').innerHTML = slozeno.map(function(o){ return '<li>' + CL.esc(o.r[0]) + '</li>'; }).join('');
+  }
+  crtaj();
+}
+
+/* ---------- 4. sparivanje hr|en ---------- */
+function zagParovi(s){
+  var par = CL.uzmi(CL.svjezeRijeci(60), 8);
+  var lijevo = CL.mix(par), desno = CL.mix(par);
+  var odabran = null, gotovo = 0;
+  CL.el('zag').innerHTML = '<h3>Match word and translation</h3><div class="mala">Click a Croatian word, then its meaning.</div>' +
+    '<div class="parS"><div id="L"></div><div id="D"></div></div>';
+  function stupac(el, niz, polje){
+    el.style.display='flex'; el.style.flexDirection='column'; el.style.gap='6px';
+    niz.forEach(function(r){
+      var b = document.createElement('button'); b.className='g'; b.textContent = r[polje]; b.dataset.id = r.id;
+      b.onclick = function(){
+        if (polje === 'hr'){
+          Array.prototype.forEach.call(CL.el('L').children, function(c){ c.classList.remove('oznacen'); });
+          b.classList.add('oznacen'); odabran = b; CL.zvukRijeci(r);
+        } else {
+          if (!odabran) return CL.poruka('Pick a Croatian word first.');
+          if (odabran.dataset.id === b.dataset.id){
+            odabran.classList.add('gotov'); b.classList.add('gotov');
+            CL.ucenje(b.dataset.id, true);
+            odabran = null; gotovo++;
+            CL.pip(true);
+            if (gotovo === par.length) rijesena(s, 'The book is whole again!');
+          } else { promasaj(); CL.ucenje(b.dataset.id, false); b.classList.add('tresi'); setTimeout(function(){ b.classList.remove('tresi'); }, 350); }
+        }
+      };
+      el.appendChild(b);
+    });
+  }
+  stupac(CL.el('L'), lijevo, 'hr');
+  stupac(CL.el('D'), desno, 'en');
+}
+
+/* ---------- 5. anagram ---------- */
+function zagAnagram(s){
+  var r = CL.rand(CL.BANKA.filter(function(x){ return x.hr.length>=5 && x.hr.length<=9 && !/\s/.test(x.hr); }));
+  var slova = CL.mix(Array.from(r.hr)), izabrano = [];
+  function tekst(){ return izabrano.map(function(i){ return slova[i]; }).join(''); }
+  function crtaj(){
+    CL.el('zag').innerHTML = '<h3>Build the word</h3><div class="mala">Meaning: <b>' + CL.esc(r.en) + '</b></div>' +
+      '<div style="text-align:center">' + CL.slikaRijeci(r, 80) + '</div>' +
+      '<div class="vjesalo">' + (tekst() || '·') + '</div>' +
+      '<div class="redak" id="sl"></div>' +
+      '<div class="redak"><button class="g" id="natrag">⌫ undo</button></div>';
+    var el = CL.el('sl');
+    slova.forEach(function(sl, i){
+      var b = document.createElement('button'); b.className='slovoT'; b.textContent = sl;
+      if (izabrano.indexOf(i) >= 0) b.classList.add('iskoristen');
+      b.onclick = function(){ if (izabrano.indexOf(i) >= 0) return; izabrano.push(i); crtaj(); provjeri(); };
+      el.appendChild(b);
+    });
+    CL.el('natrag').onclick = function(){ izabrano.pop(); crtaj(); };
+  }
+  function provjeri(){
+    if (izabrano.length !== slova.length) return;
+    if (tekst() === r.hr){ CL.zvukRijeci(r); CL.ucenje(r.id, true); rijesena(s, 'The bell rings!'); }
+    else { promasaj(); CL.ucenje(r.id, false); izabrano = []; setTimeout(crtaj, 300); }
+  }
+  crtaj();
+}
+
+/* ---------- 6. vješalo ---------- */
+function zagVjesalo(s){
+  var r = CL.rand(CL.BANKA.filter(function(x){ return x.hr.length>=4 && x.hr.length<=9 && !/\s/.test(x.hr); }));
+  var ciljna = Array.from(r.hr);
+  var pogodena = {}, pokusano = {}, promasaji = 0, MAKS = 6;
+  var ABC = 'abcčćdđefghijklmnoprsštuvzž'.split('');
+  function crtaj(){
+    var maska = ciljna.map(function(c){ return pogodena[c] ? c : '_'; }).join(' ');
+    var covjek = ['🙂','😐','😟','😧','😰','😵','💀'][Math.min(promasaji, 6)];
+    CL.el('zag').innerHTML = '<h3>Guess the word ' + covjek + '</h3>' +
+      '<div class="mala">Meaning: <b>' + CL.esc(r.en) + '</b> · misses: ' + promasaji + '/' + MAKS + '</div>' +
+      '<div class="vjesalo">' + maska + '</div><div class="abc" id="abc"></div>';
+    var el = CL.el('abc');
+    ABC.forEach(function(c){
+      var b = document.createElement('button'); b.textContent = c;
+      if (pokusano[c]) b.classList.add('upotrijebljen');
+      b.onclick = function(){
+        if (pokusano[c]) return;
+        pokusano[c] = true;
+        if (ciljna.indexOf(c) >= 0){ pogodena[c] = true; CL.pip(true); }
+        else { promasaji++; CL.pip(false); }
+        if (ciljna.every(function(x){ return pogodena[x]; })){ CL.zvukRijeci(r); CL.ucenje(r.id, true); return rijesena(s, 'The dungeon door swings open!'); }
+        if (promasaji >= MAKS){ CL.ucenje(r.id, false); CL.poruka('The word was: ' + r.hr, 'lose'); return setTimeout(function(){ zagVjesalo(s); }, 900); }
+        crtaj();
+      };
+      el.appendChild(b);
+    });
+  }
+  crtaj();
+}
+
+/* ---------- 7. razvrstavanje u škrinje ---------- */
+function zagRazvrstaj(s){
+  var kategorije = CL.uzmi(['hrana','zivotinja','prijevoz','odjeca','priroda','dom'], 3);
+  var stavke = [];
+  kategorije.forEach(function(k){ stavke = stavke.concat(CL.uzmi(CL.kat(k), 3)); });
+  stavke = CL.mix(stavke);
+  var smjesteno = 0, odabrana = null;
+  function crtaj(){
+    CL.el('zag').innerHTML = '<h3>Sort the treasure</h3><div class="mala">Click a word, then the chest it goes into.</div>' +
+      '<div class="redak" id="stavke"></div><div class="skrinje" id="skrinje"></div>';
+    var el = CL.el('stavke');
+    stavke.forEach(function(r){
+      if (r._ok) return;
+      var b = document.createElement('button'); b.className = 'g' + (odabrana===r ? ' oznacen' : '');
+      if (odabrana===r) b.style.background = 'var(--zut)';
+      b.innerHTML = CL.slikaRijeci(r, 42) + ' ' + CL.esc(r.hr);
+      b.onclick = function(){ odabrana = r; CL.zvukRijeci(r); crtaj(); };
+      el.appendChild(b);
+    });
+    var sk = CL.el('skrinje');
+    kategorije.forEach(function(k){
+      var d = document.createElement('div'); d.className='skrinja';
+      var unutra = stavke.filter(function(x){ return x._ok && x.kat===k; });
+      d.innerHTML = '<b>' + CL.KAT[k].en + '</b><div style="font-size:11px;color:var(--meko)">' + CL.KAT[k].hr + '</div><div style="font-size:26px">🧰</div>' +
+        '<div class="stavljeno">' + unutra.map(function(x){ return x.hr; }).join(', ') + '</div>';
+      d.onclick = function(){
+        if (!odabrana) return CL.poruka('Pick a word first.');
+        if (odabrana.kat === k){ odabrana._ok = true; smjesteno++; odabrana = null; CL.pip(true); crtaj();
+          if (smjesteno === stavke.length){ stavke.forEach(function(x){ delete x._ok; }); rijesena(s, 'The treasure is sorted!'); }
+        } else { promasaj(); d.classList.add('tresi'); setTimeout(function(){ d.classList.remove('tresi'); }, 350); }
+      };
+      sk.appendChild(d);
+    });
+  }
+  crtaj();
+}
+
+/* ---------- 8. upis ---------- */
+function zagUpis(s){
+  var meta = CL.uzmi(CL.svjezeRijeci(60, function(r){
+    return ['priroda','hrana','zivotinja','dom'].indexOf(r.kat) >= 0 && !/\s/.test(r.hr); }), 4);
+  CL.el('zag').innerHTML = '<h3>Name what you see</h3><div class="mala">Write it in Croatian, diacritics and all.</div>' +
+    '<div class="polja" id="p3"></div><div id="dij3"></div>' +
+    '<div class="redak"><button class="g glavni" id="ok">Check</button></div>';
+  var P = CL.el('p3'); P.style.display='flex'; P.style.flexDirection='column'; P.style.gap='8px'; P.style.alignItems='center';
+  meta.forEach(function(r,i){
+    var d = document.createElement('div'); d.className='polje1';
+    d.innerHTML = CL.slikaRijeci(r, 48) +
+      '<input autocomplete="off" spellcheck="false" data-i="' + i + '" placeholder="' + CL.esc(r.en) + '">' +
+      '<span class="ispravak"></span>';
+    P.appendChild(d);
+  });
+  var prvi = P.querySelector('input');
+  CL.el('dij3').appendChild(CL.tipkeDijakritika(prvi));
+  P.addEventListener('focusin', function(e){
+    if (e.target.tagName==='INPUT'){ var d = CL.el('dij3'); d.innerHTML=''; d.appendChild(CL.tipkeDijakritika(e.target)); }
+  });
+  CL.el('ok').onclick = function(){
+    var polja = P.querySelectorAll('input'), sve = true;
+    meta.forEach(function(r,i){
+      var dobro = CL.norm(polja[i].value) === CL.norm(r.hr);
+      polja[i].classList.add(dobro?'tocno':'krivo');
+      CL.ucenje(r.id, dobro);
+      if (!dobro){ sve = false; polja[i].parentNode.querySelector('.ispravak').textContent = r.hr; }
+    });
+    if (sve) rijesena(s, 'The garden lets you through!');
+    else { promasaj(); setTimeout(function(){ zagUpis(s); }, 1600); }
   };
+}
+
+/* ---------- 9. prijevod rečenica ---------- */
+function zagPrijevodRec(s){
+  var raz = S.bez ? 1 + CL.cijeli(5) : 3;
+  var fond = CL.recenice(raz, true);
+  var mete = CL.uzmi(fond, 5), k = 0;
+  function krug(){
+    if (k >= mete.length) return rijesena(s, 'The records are read!');
+    var r = mete[k];
+    var krivi = CL.uzmi(fond.filter(function(x){ return x[0] !== r[0]; }), 2);
+    CL.el('zag').innerHTML = '<h3>' + CL.esc(r[0]) + '</h3>' +
+      '<div class="mala">What does this mean? · ' + (k+1) + '/' + mete.length + '</div>' +
+      '<div class="redak" id="op"></div>';
+    var el = CL.el('op');
+    CL.mix([{t:r[1], ok:true}].concat(krivi.map(function(x){ return {t:x[1]}; }))).forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.style.textAlign='left'; b.textContent=o.t;
+      b.onclick = function(){
+        if (o.ok){ CL.pip(true); k++; krug(); }
+        else { promasaj(); b.classList.add('krivo'); k = 0; setTimeout(krug, 900); }
+      };
+      el.appendChild(b);
+    });
+  }
+  krug();
+}
+
+/* ---------- 10. rečenica s prazninom ---------- */
+function zagPraznina(s){
+  var raz = S.bez ? 1 + CL.cijeli(5) : 3;
+  var mete = CL.uzmi(CL.praznine(raz, true), 5), k = 0;
+  function krug(){
+    if (k >= mete.length) return rijesena(s, 'The inscription is whole again!');
+    var p = mete[k];
+    CL.el('zag').innerHTML = '<h3>' + CL.esc(p[0]).replace('___','<u style="border-bottom:4px solid var(--zut);text-decoration:none">&nbsp;?&nbsp;</u>') + '</h3>' +
+      '<div class="mala">' + (k+1) + '/' + mete.length + ' · ' + CL.skritEN(p[1]) + '</div>' +
+      '<div class="redak" id="op"></div>';
+    var el = CL.el('op');
+    CL.mix([{t:p[2], ok:true},{t:p[3]},{t:p[4]}]).forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.textContent=o.t;
+      b.onclick = function(){
+        if (o.ok){ CL.pip(true); k++; krug(); }
+        else { promasaj(); b.classList.add('krivo'); setTimeout(krug, 800); }
+      };
+      el.appendChild(b);
+    });
+  }
+  krug();
+}
+
+/* ---------- 11. suprotnice ---------- */
+function zagSuprotno(s){
+  var svi = CL.suprotnice();
+  var mete = CL.uzmi(svi, 6), k = 0;
+  function krug(){
+    if (k >= mete.length) return rijesena(s, 'The watch lets you pass!');
+    var par = mete[k];
+    var obrni = Math.random() < 0.5;
+    var zadana = obrni ? par[1] : par[0], trazena = obrni ? par[0] : par[1];
+    var krivi = CL.uzmi(svi.filter(function(p){ return p !== par; }), 2)
+      .map(function(p){ return {t: Math.random()<0.5 ? p[0] : p[1]}; });
+    CL.el('zag').innerHTML = '<h3>The opposite of: ' + CL.esc(zadana) + '</h3>' +
+      '<div class="mala">' + (k+1) + '/' + mete.length + ' · ' + CL.skritEN(par[2]) + '</div>' +
+      '<div class="redak" id="op"></div>';
+    var el = CL.el('op');
+    CL.mix([{t:trazena, ok:true}].concat(krivi)).forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.textContent=o.t;
+      b.onclick = function(){
+        if (o.ok){ CL.pip(true); k++; krug(); }
+        else { promasaj(); b.classList.add('krivo'); setTimeout(krug, 800); }
+      };
+      el.appendChild(b);
+    });
+  }
+  krug();
+}
+
+/* ---------- 12. slaganje rečenice ---------- */
+function zagSlaganje(s){
+  var raz = S.bez ? 1 + CL.cijeli(5) : 3;
+  var mete = CL.uzmi(CL.recenice(raz, true).filter(function(r){
+    return r[0].split(' ').length >= 3 && r[0].split(' ').length <= 8; }), 3);
+  var k = 0;
+  function krug(){
+    if (k >= mete.length) return rijesena(s, 'The sentences are copied out!');
+    var rec = mete[k];
+    var rijeci = rec[0].split(' ');
+    var pomijesane = CL.mix(rijeci.map(function(w,i){ return {w:w, i:i}; }));
+    var slozeno = [];
+    function crtaj(){
+      CL.el('zag').innerHTML = '<h3>Build the sentence</h3>' +
+        '<div class="mala">' + (k+1) + '/' + mete.length + ' · ' + CL.skritEN(rec[1]) + '</div>' +
+        '<div class="vjesalo" style="font-size:20px;min-height:44px">' +
+        (slozeno.map(function(o){ return o.w; }).join(' ') || '·') + '</div>' +
+        '<div class="redak" id="op"></div>' +
+        '<div class="redak"><button class="g" id="natrag">⌫ undo</button></div>';
+      var el = CL.el('op');
+      pomijesane.forEach(function(o){
+        if (slozeno.indexOf(o) >= 0) return;
+        var b = document.createElement('button'); b.className='g'; b.textContent = o.w;
+        b.onclick = function(){ slozeno.push(o); crtaj(); provjeri(); };
+        el.appendChild(b);
+      });
+      CL.el('natrag').onclick = function(){ slozeno.pop(); crtaj(); };
+    }
+    function provjeri(){
+      if (slozeno.length !== rijeci.length) return;
+      if (slozeno.map(function(o){ return o.w; }).join(' ') === rec[0]){
+        CL.pip(true); k++; setTimeout(krug, 500);
+      } else { promasaj(); slozeno = []; setTimeout(crtaj, 400); }
+    }
+    crtaj();
+  }
+  krug();
+}
+
+/* ---------- 13. rodovi u vjedra ---------- */
+function zagRodovi(s){
+  var rodovi = [['m','Masculine'],['ž','Feminine'],['s','Neuter']];
+  var stavke = [];
+  rodovi.forEach(function(r){
+    stavke = stavke.concat(CL.uzmi(CL.BANKA.filter(function(x){ return x.rod === r[0]; }), 3));
+  });
+  stavke = CL.mix(stavke);
+  var smjesteno = 0, odabrana = null;
+  function crtaj(){
+    CL.el('zag').innerHTML = '<h3>Three buckets, three genders</h3><div class="mala">Click a word, then the bucket for its gender.</div>' +
+      '<div class="redak" id="stavke"></div><div class="skrinje" id="skrinje"></div>';
+    var el = CL.el('stavke');
+    stavke.forEach(function(r){
+      if (r._rod) return;
+      var b = document.createElement('button'); b.className = 'g' + (odabrana===r ? ' oznacen' : '');
+      if (odabrana===r) b.style.background = 'var(--zut)';
+      b.innerHTML = r.emo + ' ' + CL.esc(r.hr);
+      b.onclick = function(){ odabrana = r; CL.zvukRijeci(r); crtaj(); };
+      el.appendChild(b);
+    });
+    var sk = CL.el('skrinje');
+    rodovi.forEach(function(rd){
+      var d = document.createElement('div'); d.className='skrinja';
+      var unutra = stavke.filter(function(x){ return x._rod && x.rod===rd[0]; });
+      d.innerHTML = '<b>' + rd[1] + '</b><div style="font-size:26px">🪣</div>' +
+        '<div class="stavljeno">' + unutra.map(function(x){ return x.hr; }).join(', ') + '</div>';
+      d.onclick = function(){
+        if (!odabrana) return CL.poruka('Pick a word first.');
+        if (odabrana.rod === rd[0]){
+          odabrana._rod = true; CL.ucenje(odabrana.id, true);
+          smjesteno++; odabrana = null; CL.pip(true); crtaj();
+          if (smjesteno === stavke.length){ stavke.forEach(function(x){ delete x._rod; }); rijesena(s, 'The water is sorted!'); }
+        } else { promasaj(); CL.ucenje(odabrana.id, false); d.classList.add('tresi'); setTimeout(function(){ d.classList.remove('tresi'); }, 350); }
+      };
+      sk.appendChild(d);
+    });
+  }
+  crtaj();
+}
+
+/* ---------- 14. dijalog ---------- */
+function zagDijalog(s){
+  var svi = CL.dijalozi();
+  var d = CL.rand(svi);
+  var sveTi = [];
+  svi.forEach(function(x){ x.redci.forEach(function(r){ if (r[0]==='ti') sveTi.push(r); }); });
+  var k = 0, povijest = [];
+  function crtaj(){
+    if (k >= d.redci.length) return rijesena(s, 'The conversation is finished!');
+    var r = d.redci[k];
+    var html = '<h3>' + CL.esc(d.mjesto) + ' ' + d.emo + '</h3>' +
+      '<div class="mala">' + povijest.map(function(p){
+        return '<div style="margin:3px 0">' + (p[0]==='npc' ? '🧑 ' : '🙋 ') + CL.esc(p[1]) + '</div>'; }).join('') + '</div>';
+    if (r[0] === 'npc'){
+      html += '<div class="vjesalo" style="font-size:19px">' + CL.esc(r[1]) + '</div>' +
+        '<div class="mala">' + CL.skritEN(r[2]) + '</div>' +
+        '<div class="redak"><button class="g glavni" id="dalje">Next ▶</button></div>';
+      CL.el('zag').innerHTML = html;
+      CL.el('dalje').onclick = function(){ povijest.push(r); k++; crtaj(); };
+      return;
+    }
+    var krivi = CL.uzmi(sveTi.filter(function(x){ return x[1] !== r[1]; }), 2);
+    html += '<div class="mala"><b>What will you answer?</b></div><div class="redak" id="op"></div>';
+    CL.el('zag').innerHTML = html;
+    var el = CL.el('op');
+    CL.mix([{t:r, ok:true}].concat(krivi.map(function(x){ return {t:x}; }))).forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.style.textAlign='left';
+      b.innerHTML = CL.esc(o.t[1]) + '<br><small style="color:var(--meko);font-weight:400">' + CL.esc(o.t[2]) + '</small>';
+      b.onclick = function(){
+        if (o.ok){ CL.pip(true); povijest.push(r); k++; crtaj(); }
+        else { promasaj(); b.classList.add('krivo'); }
+      };
+      el.appendChild(b);
+    });
+  }
+  crtaj();
+}
+
+/* ---------- 15. četiri police ---------- */
+function zagKategorije4(s){
+  var kategorije = CL.uzmi(Object.keys(CL.KAT).filter(function(k){ return CL.kat(k).length >= 8; }), 4);
+  var stavke = [];
+  kategorije.forEach(function(k){ stavke = stavke.concat(CL.uzmi(CL.kat(k), 3)); });
+  stavke = CL.mix(stavke);
+  var smjesteno = 0, odabrana = null;
+  function crtaj(){
+    CL.el('zag').innerHTML = '<h3>Four shelves</h3><div class="mala">Click a word, then the shelf it belongs on.</div>' +
+      '<div class="redak" id="stavke"></div><div class="skrinje" id="skrinje"></div>';
+    var el = CL.el('stavke');
+    stavke.forEach(function(r){
+      if (r._p) return;
+      var b = document.createElement('button'); b.className = 'g' + (odabrana===r ? ' oznacen' : '');
+      if (odabrana===r) b.style.background = 'var(--zut)';
+      b.innerHTML = r.emo + ' ' + CL.esc(r.hr);
+      b.onclick = function(){ odabrana = r; CL.zvukRijeci(r); crtaj(); };
+      el.appendChild(b);
+    });
+    var sk = CL.el('skrinje');
+    kategorije.forEach(function(k){
+      var dd = document.createElement('div'); dd.className='skrinja';
+      var unutra = stavke.filter(function(x){ return x._p && x.kat===k; });
+      dd.innerHTML = '<b>' + CL.KAT[k].en + '</b><div style="font-size:12px;color:var(--meko)">' + CL.KAT[k].hr + '</div>' +
+        '<div class="stavljeno">' + unutra.map(function(x){ return x.hr; }).join(', ') + '</div>';
+      dd.onclick = function(){
+        if (!odabrana) return CL.poruka('Pick a word first.');
+        if (odabrana.kat === k){
+          odabrana._p = true; CL.ucenje(odabrana.id, true);
+          smjesteno++; odabrana = null; CL.pip(true); crtaj();
+          if (smjesteno === stavke.length){ stavke.forEach(function(x){ delete x._p; }); rijesena(s, 'The cellar is in order!'); }
+        } else { promasaj(); CL.ucenje(odabrana.id, false); dd.classList.add('tresi'); setTimeout(function(){ dd.classList.remove('tresi'); }, 350); }
+      };
+      sk.appendChild(dd);
+    });
+  }
+  crtaj();
+}
+
+/* ---------- 16. završna kušnja ---------- */
+function zagZavrsni(s){
+  var pitanja = [];
+  /* 3 riječi EN→HR */
+  CL.uzmi(CL.BANKA, 3).forEach(function(r){
+    pitanja.push({p:r.en, m:'english → hrvatski',
+      op:CL.mix([{t:r.hr, ok:true}].concat(CL.uzmi(CL.BANKA.filter(function(x){ return x.kat===r.kat && x.id!==r.id; }), 2)
+        .map(function(x){ return {t:x.hr}; })))});
+  });
+  /* 3 praznine */
+  CL.uzmi(CL.praznine(5, true), 3).forEach(function(p){
+    pitanja.push({p:p[0].replace('___','____'), m:'fill in the gap', pr:p[1],
+      op:CL.mix([{t:p[2], ok:true},{t:p[3]},{t:p[4]}])});
+  });
+  /* 2 prijevoda rečenice */
+  var fond = CL.recenice(5, true);
+  CL.uzmi(fond, 2).forEach(function(r){
+    pitanja.push({p:r[0], m:'what does this mean?',
+      op:CL.mix([{t:r[1], ok:true}].concat(CL.uzmi(fond.filter(function(x){ return x[0]!==r[0]; }), 2)
+        .map(function(x){ return {t:x[1]}; })))});
+  });
+  pitanja = CL.mix(pitanja);
+  var k = 0, greske = 0;
+  function krug(){
+    if (k >= pitanja.length){
+      if (greske <= 2) return rijesena(s, 'The duke hands you the key to the fortress!');
+      CL.poruka('More than two mistakes — the trial starts over.', 'lose');
+      return setTimeout(function(){ zagZavrsni(s); }, 1200);
+    }
+    var q = pitanja[k];
+    CL.el('zag').innerHTML = '<h3>' + CL.esc(q.p) + '</h3>' +
+      '<div class="mala">' + CL.esc(q.m) + (q.pr ? ' · ' + CL.skritEN(q.pr) : '') + ' · question ' + (k+1) + '/' + pitanja.length +
+      ' · mistakes: ' + greske + '/2 allowed</div>' +
+      '<div class="redak" id="op"></div>';
+    var el = CL.el('op');
+    q.op.forEach(function(o){
+      var b = document.createElement('button'); b.className='g'; b.style.textAlign='left'; b.textContent=o.t;
+      b.onclick = function(){
+        if (o.ok){ CL.pip(true); k++; krug(); }
+        else { promasaj(); greske++; b.classList.add('krivo'); k++; setTimeout(krug, 900); }
+      };
+      el.appendChild(b);
+    });
+  }
+  krug();
+}
+
+/* ---------- podzemlje: beskonačni način ---------- */
+var TIPOVI_BEZ = ['parovi','anagram','vjesalo','razvrstaj','upis','prijevodRec',
+                  'praznina','suprotno','slaganje','rodovi','kategorije4','poredak'];
+var LIKOVI_BEZ = [
+  ['A shadow in the corridor','👤'], ['The old bookkeeper','🧓'], ['The forgotten scribe','🧑‍💼'],
+  ['The ghost of the cook','👻'], ['The blind fiddler','🎻'], ['The water woman below','🧜']
+];
+
+function sljedecaBez(){
+  var lik = CL.rand(LIKOVI_BEZ);
+  var s = {
+    id:'bez-' + S.bezSoba, ime:'Undercroft ' + (S.bezSoba+1), emo:'🕳', bodovi:0,
+    tip: CL.rand(TIPOVI_BEZ),
+    lik:{ime:lik[0], glava:lik[1]},
+    rec:['Još jedna zagonetka, još jedna riječ.','One more puzzle, one more word.']
+  };
+  S.trenutna = s;
+  CL.el('tlocrt').innerHTML = '<div class="sobaGumb aktivna"><span class="ikonaS">🕳</span>' +
+    CL.esc(s.ime) + '</div>';
+  CL.el('scena').innerHTML =
+    '<span class="veliki">🕳</span><span class="imeSobe">' + CL.esc(s.ime) + '</span>' +
+    '<div class="tocke" id="tocke"></div>';
+  CL.el('govor').innerHTML =
+    '<div class="glava">' + s.lik.glava + '</div>' +
+    '<div><div class="ime">' + CL.esc(s.lik.ime) + '</div>' +
+    '<div class="rec">' + CL.esc(s.rec[0]) + '</div>' +
+    '<div class="pr">' + CL.skritEN(s.rec[1]) + '</div></div>';
+  osvjezi();
+  ZAGONETKE[s.tip](s);
 }
 
 function pokreniBezKraja(){
   CL.zatvoriZastore();
-  S.bez = true; S.bezKrug = 0; S.bodovi = 30;
-  CL.poruka('Night shifts — the rule changes every round.', 'dobro');
-  pocniKrug();
+  S.bez = true; S.bezSoba = 0; S.torba = [];
+  CL.poruka('The fortress undercroft — puzzles without end.', 'dobro');
+  sljedecaBez();
 }
 
 function kraj(){
-  if (S.bez){
-    return CL.kraj({
-      naslov:'End of the night shift',
-      tekst:'You ran <b>' + S.bezKrug + '</b> night trains and sorted ' + S.ukupno + ' packages.',
-      bodovi:30, maks:30,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
-    });
-  }
   CL.kraj({
-    naslov: S.uspjesnih >= UKUPNO ? 'Every train on time!' : 'End of the working day',
-    tekst:'Eighteen rounds and eight rules: category, gender, first letter, length, word type, ' +
-      'translation, opposites and sentences. Dispatched on time: <b>' + S.uspjesnih + '</b>/' + UKUPNO +
-      ' · ' + S.ukupno + ' packages in all.',
-    bodovi:S.bodovi, maks:30,
-    ponovno:function(){ S.krug=0; S.bodovi=0; S.uspjesnih=0; S.ukupno=0; pocniKrug(); },
+    naslov:'The whole fortress is unlocked!',
+    tekst:'Sixteen rooms and sixteen puzzles — a password, a search, a recipe, pairs, an anagram, ' +
+      'hangman, sorting, typing, sentence translation, gap-fills, opposites, sentence building, ' +
+      'genders, a dialogue, shelves and the final trial.',
+    bodovi:S.bodovi, maks:100,
+    ponovno:function(){ S = {i:0, bodovi:0, rijesene:{}, torba:[], bez:false, bezSoba:0}; prikazi(); },
     beskonacno:pokreniBezKraja
   });
 }
 
-(function(){
-  var z = CL.zastor(
-    '<h3>Mail Train (Poštanski vlak)</h3>' +
-    '<p>Eighteen rounds, eight sorting rules. Pick a package up from the platform ' +
-    'and load it into the right car before the train leaves. A wrong car costs four seconds.</p>' +
-    '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">To the platform</button></div>');
-  z.querySelector('#_k').onclick = function(){ z.remove(); pocniKrug(); };
-})();
+prikazi();
 
 </script>
 </body>

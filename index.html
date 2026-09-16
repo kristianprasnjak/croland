@@ -202,11 +202,14 @@
   /* table-layout: fixed drži svih pet stupaca jednako širokima i, važnije,
      ne dopušta tablici da naraste preko #view — bez toga se mreža lekcija
      na uskom ekranu prelijeva i stranica se vodoravno pomiče. */
-  table.mreza { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0.375rem; }
+  /* Razine idu slijeva nadesno (retci su tipovi), pa mreža ima vlastiti vodoravni
+     pomak unutar okvira — stranica se nikad ne pomiče vodoravno. */
+  .mrezaOkvir { overflow-x: auto; scrollbar-width: thin; padding-bottom: 0.25rem; }
+  table.mreza { table-layout: fixed; border-collapse: separate; border-spacing: 0.375rem; }
   td.faza {
     background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-m);
     padding: 0.625rem 0.5rem; text-align: center; cursor: pointer; font-size: var(--t-s);
-    transition: border-color .15s; min-width: 6.25rem;
+    transition: border-color .15s; width: 7.5rem; min-width: 7.5rem;
   }
   td.faza:hover { border-color: var(--plava); }
   td.faza .imeF { font-weight: 600; font-size: var(--t-s); }
@@ -235,11 +238,11 @@
   td.faza.gotovo .ostalo { color: var(--zelena); }
 
   /* daleka budućnost je zamagljena — hover je vraća u fokus */
-  tr.dalek1 td.faza { opacity: .62; filter: blur(.4px); }
-  tr.dalek2 td.faza { opacity: .42; filter: blur(1px); }
-  tr.dalek3 td.faza { opacity: .26; filter: blur(1.8px); }
-  tr.dalek1 td.faza, tr.dalek2 td.faza, tr.dalek3 td.faza { transition: opacity .2s, filter .2s; }
-  tr.dalek1:hover td.faza, tr.dalek2:hover td.faza, tr.dalek3:hover td.faza { opacity: 1; filter: none; }
+  td.faza.dalek1 { opacity: .62; filter: blur(.4px); }
+  td.faza.dalek2 { opacity: .42; filter: blur(1px); }
+  td.faza.dalek3 { opacity: .26; filter: blur(1.8px); }
+  td.faza.dalek1, td.faza.dalek2, td.faza.dalek3 { transition: opacity .2s, filter .2s; }
+  td.faza.dalek1:hover, td.faza.dalek2:hover, td.faza.dalek3:hover { opacity: 1; filter: none; }
   .viseRazina {
     display: block; width: 100%; margin: 0.625rem 0 0; padding: 0.625rem 0.875rem;
     border: 1px dashed var(--rub); border-radius: var(--rad-m); background: var(--card);
@@ -833,6 +836,11 @@
   }
   .stanjeLekcije strong { color: var(--zelena); font-size: var(--t-l); }
   .stanjeLekcije .opusti { display: block; margin-top: 0.375rem; color: var(--muted); font-size: var(--t-s); }
+  .rezBodovi { font-size: var(--t-s); color: var(--muted); }
+  .rezBodovi strong { font-size: 2rem; color: var(--zelena); line-height: 1.1; }
+  .rezBar { margin-top: 0.625rem; }
+  .rezBar div { transition: width .9s cubic-bezier(.22,.9,.28,1); }
+  .rezGreske { margin-top: 0.5rem; color: var(--muted); font-size: var(--t-s); }
   .ciljBar { height: 0.5rem; background: var(--rub); border-radius: var(--rad-xs); overflow: hidden; margin-top: 0.5rem; }
   .ciljBar div { height: 100%; background: linear-gradient(90deg, var(--plava), var(--zelena)); border-radius: var(--rad-xs); transition: width .6s ease; }
   #otkljOverlay, #potvrdaOverlay, #karticaOverlay, #otvorenoOverlay {
@@ -1380,8 +1388,8 @@
       scrollbar-width: none;
     }
     .mrezaOkvir::-webkit-scrollbar { display: none; }
-    table.mreza { table-layout: auto; border-spacing: 0.25rem; min-width: 24rem; }
-    td.faza { min-width: 4.5rem; font-size: var(--t-xs); padding: 0.5rem 0.25rem; }
+    table.mreza { border-spacing: 0.25rem; }
+    td.faza { width: 5.25rem; min-width: 5.25rem; font-size: var(--t-xs); padding: 0.5rem 0.25rem; }
     td.faza .tr { height: 0.375rem; margin: 0.375rem 0 0.25rem; }
     td.faza .bodM, td.faza .ostalo { font-size: var(--t-2xs); }
     .prsten { width: 9.375rem; height: 9.375rem; }
@@ -1402,8 +1410,60 @@
   }
   .miniKart:hover { transform: translateY(-2px); border-color: var(--plava); box-shadow: 0 6px 18px rgba(154,91,82,.10); }
   .miniKart.gotovo { border-color: var(--zelena); background: #f4f9f5; }
-  .miniKart .broj { position: absolute; right: 14px; top: 13px; font-size: var(--t-xs); font-weight: 700; color: var(--rub); }
-  .miniKart .emo { font-size: var(--t-4xl); line-height: 1; }
+  /* Thumbnail je sada lice kartice: puna sirina, fiksni omjer 3:2 kakav su
+     slike i narisane, pa se mreza ne mrda dok se slike ucitavaju. Broj igre
+     stoji na slici, ne iznad teksta. */
+  .miniKart .sl {
+    position: relative; display: block; margin: -1rem -1rem 0.5rem; aspect-ratio: 2528 / 1696;
+    border-radius: var(--rad-l) var(--rad-l) 0 0; overflow: hidden; background: var(--rub);
+  }
+  .miniKart .sl img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  /* Zamjena za igru koja jos nema sliku: iste mjere, isti omjer, ali vidljivo
+     nacrtana — trake i ime, da se ne cita kao slika koja se nije ucitala. */
+  .emoSl {
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    padding: 0 0.75rem; text-align: center;
+    background: repeating-linear-gradient(135deg, var(--card) 0 10px, var(--bg) 10px 20px);
+  }
+  .emoSl > span {
+    font-family: var(--naslov); letter-spacing: -.01em; font-size: var(--t-xl);
+    color: var(--muted); line-height: 1.2;
+  }
+  .miniKart .broj {
+    position: absolute; right: 0.5rem; top: 0.5rem; font-size: var(--t-xs); font-weight: 700;
+    color: #fff; background: rgba(0,0,0,.45); border-radius: var(--rad-s);
+    padding: 0.125rem 0.375rem; letter-spacing: .5px;
+  }
+
+  /* ---- Extras ---- */
+  /* Jedna igra, pa nema mreze da je stisne: kartica ide cijelom sirinom stupca,
+     a slika je 2:1 i zauzima vise mjesta nego bilo koji thumbnail ispod. */
+  .miniNas {
+    font-family: var(--naslov); font-size: var(--t-2xl); letter-spacing: -.01em;
+    margin: 1.75rem 0 0.25rem;
+  }
+  .miniPod { color: var(--muted); font-size: var(--t-s); line-height: 1.5; margin: 0 0 0.75rem; }
+  .extraMreza { display: block; }
+  .extraKart {
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    overflow: hidden; cursor: pointer; display: flex; flex-direction: column;
+    transition: transform .15s, border-color .15s, box-shadow .15s;
+  }
+  .extraKart:hover { transform: translateY(-2px); border-color: var(--plava); box-shadow: 0 6px 18px rgba(154,91,82,.10); }
+  .extraKart.uskoro { cursor: default; }
+  .extraKart.uskoro:hover { transform: none; border-color: var(--rub); box-shadow: none; }
+  /* Slika ide cijelom sirinom kartice u svom omjeru (2912x1440) — nista se ne reze. */
+  .extraKart .sl { display: block; aspect-ratio: 2912 / 1440; background: var(--rub); }
+  .extraKart .sl img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .extraKart .tekst { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem 1rem 0.875rem; }
+  .extraKart .ime { font-family: var(--naslov); letter-spacing: -.01em; font-weight: 600; font-size: var(--t-xl); }
+  .extraKart .stil { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
+  .extraKart .opis { font-size: var(--t-s); color: var(--muted); line-height: 1.5; margin: 0.375rem 0 0.125rem; }
+  .extraKart .podnozje {
+    font-size: var(--t-xs); color: var(--muted); border-top: 1px dashed var(--rub);
+    padding-top: 0.5rem; margin-top: 0.375rem; display: flex; justify-content: space-between; gap: 0.5rem;
+  }
+  .extraKart .podnozje .st { font-weight: 700; color: var(--plava); text-transform: uppercase; letter-spacing: .5px; }
   .miniKart .ime { font-weight: 600; font-size: var(--t-l); }
   .miniKart .stil { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
   .miniKart .opis { font-size: var(--t-s); color: var(--muted); line-height: 1.45; flex: 1; margin: 0.375rem 0 0.125rem; }
@@ -1418,6 +1478,8 @@
     font-size: var(--t-s); color: var(--muted);
   }
   .miniSaz strong { color: var(--ink); }
+  .miniDno { margin-top: 2rem; }
+  .miniNas:first-child { margin-top: 0; }
   /* Okvir nema svoju visinu — uzima je od igre (miniUskladiVisinu). Naslov i
      podaci idu odmah u nastavku, s razmakom koliko treba da se ne slijepe. */
   .miniOkvir { margin-top: 0; }
@@ -2082,6 +2144,11 @@
     #ploca.siroka { max-width: 100%; }
 
     .miniMreza { grid-template-columns: 1fr; gap: 0.625rem; margin-top: 1rem; }
+    /* Jedan stupac znaci da je svaka kartica siroka kao ekran: slika bi u 3:2
+       pojela pola zaslona po igri, pa je ovdje plica i dijeli redak s nicim
+       drugim. Extras ostaje slozen okomito — palac lista, ne gleda ustranu. */
+    .miniNas { font-size: var(--t-xl); margin: 1.5rem 0 0.25rem; }
+    .extraKart .tekst { padding: 0.875rem 0.875rem 0.75rem; }
 
     /* Zaglavlje stranice na mobitelu nije ljepljivo, pa se redak s vrstama
        (Lesson, Vocabulary, Grammar, Practice, Test) lijepi za sam vrh ekrana i
@@ -2127,6 +2194,8 @@
 
   /* ---------------- TABLET: dva stupca, ruka drži, srednje ---------------- */
   @media (min-width: 640px) and (max-width: 1023.98px) {
+    /* tablet: uži stupci od računala, da stane pet-šest razina u pogled */
+    td.faza { width: 6.5rem; min-width: 6.5rem; }
     :root {
       /* Raste unutar svog raspona: 17px na 640px, 17.5px na 1024px — tocno
          ondje gdje racunalo preuzima, pa se pri razvlacenju prozora tekst
@@ -2165,6 +2234,17 @@
     header .valute { flex: none; padding: 0.375rem 0.625rem; }
 
     .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.875rem; }
+    /* Redak je dovoljno dug da Extras stane u dva polja: slika lijevo, tekst
+       desno. Time i dalje zauzima vise mjesta od bilo koje dvije mini kartice
+       zajedno, ali ne trosi cijelu visinu ekrana prije nego se dode do igara. */
+    .extraKart .tekst {
+      display: grid; grid-template-columns: 1fr 1.3fr; column-gap: 1.5rem; row-gap: 0.25rem;
+      padding: 1rem 1.25rem 0.875rem;
+    }
+    .extraKart .ime { font-size: var(--t-2xl); grid-column: 1; }
+    .extraKart .stil { grid-column: 1; }
+    .extraKart .opis { grid-column: 2; grid-row: 1 / 3; margin: 0; }
+    .extraKart .podnozje { grid-column: 1 / -1; }
     .mrezaSpoj { grid-template-columns: repeat(4, 1fr); gap: 0.625rem; }
     .postavkeDva { grid-template-columns: 1fr 1fr; }
     .velicinaMreza { grid-template-columns: repeat(3, 1fr); }
@@ -2221,6 +2301,20 @@
     /* Kartice su mjerene za prst. Na monitoru ih se pogadja misem, pa unutarnji
        razmak moze biti manji — isti sadrzaj, manje praznog okvira oko njega. */
     .miniKart { padding: 0.75rem 0.875rem 0.625rem; }
+    /* Uzi razmak kartice povlaci i rub slike — inace bi thumbnail ostao
+       uvucen s jedne strane, a nalijegao na rub s druge. */
+    .miniKart .sl { margin: -0.75rem -0.875rem 0.4375rem; }
+    /* Slika se gleda izdaleka i misem se ne lista: uza je nego na tabletu, a
+       tekst uz nju dobiva cijeli redak do kraja stupca. */
+    .extraKart .tekst {
+      display: grid; grid-template-columns: 1fr 1.6fr; column-gap: 2rem; row-gap: 0.1875rem;
+      padding: 0.875rem 1.25rem 0.75rem;
+    }
+    .extraKart .ime { font-size: var(--t-2xl); grid-column: 1; }
+    .extraKart .stil { grid-column: 1; }
+    .extraKart .opis { grid-column: 2; grid-row: 1 / 3; margin: 0; align-self: center; }
+    .extraKart .podnozje { grid-column: 1 / -1; }
+    .miniNas { margin: 1.5rem 0 0.1875rem; }
     .velikaPlocica { padding: 1.75rem 1.25rem; }
     .temaK { padding: 0.75rem 1rem; }
     .fontK { padding: 0.5rem 0.75rem; }
@@ -2311,7 +2405,7 @@
   /* Bez misa nema lebdenja: podizanje kartice pod prstom je pomak koji se
      dogodi tek nakon dodira, dakle sum, a ne najava. */
   @media (hover: none) {
-    .velikaPlocica:hover, .miniKart:hover, .temaK:hover, .fontK:hover, .velicinaK:hover,
+    .velikaPlocica:hover, .miniKart:hover, .extraKart:hover, .temaK:hover, .fontK:hover, .velicinaK:hover,
     .plocicaNula:hover, .cipSpoj:hover, .poljeSpoj:hover, .plocica:hover,
     .progCelija:hover, .tipkaNast:hover, .malaP:hover, .kartaVok:hover {
       transform: none; box-shadow: none;
@@ -2348,7 +2442,7 @@
     <a data-view="main" data-kratko="Home" class="navPocetna" onclick="idi('main')">Home</a>
     <a data-view="lessons" data-kratko="Lessons" onclick="idi('lessons')">Lessons</a>
     <a data-view="dictionary" data-kratko="Words" onclick="idi('dictionary')">Dictionary</a>
-    <a data-view="mini" data-kratko="Games" onclick="idi('mini')">Mini games</a>
+    <a data-view="mini" data-kratko="Games" onclick="idi('mini')">Games &amp; Extras</a>
     <a data-view="daily" data-kratko="Daily" onclick="idi('daily')"><span>Daily challenge</span></a>
     <a data-view="progress" data-kratko="Progress" onclick="idi('progress')">Progress</a>
     <a data-view="account" data-kratko="You" onclick="idi('account')">User account</a>
@@ -2658,38 +2752,55 @@
   // localStorage pod 'croland-mini-<id>' i ondje bilježi koliko je već naplatila.
   // Aplikacija to čita i zbraja u sve četiri valute.
   var MINI_IGRE = [
-    { id: 'grad', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Pokémon Red RPG · difficulty 3/5', maks: 100,
+    { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', maks: 100,
       opis: 'Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.' },
-    { id: 'put', br: '02', dat: '02-put-oko-hrvatske.html', emo: '🛣', ime: 'Put oko Hrvatske', stil: 'Oregon Trail · difficulty 2–4/5', maks: 100,
-      opis: 'A hundred places from Zagreb to Dubrovnik. One character and one question each; it gets harder as you go.' },
-    { id: 'pamti', br: '03', dat: '03-pamti-pa-pisi.html', emo: '🧠', ime: 'Pamti pa piši', stil: 'memory + typing · difficulty 4/5', maks: 100,
+    { id: 'pamti', slika: 'pamti.webp', br: '03', dat: '03-pamti-pa-pisi.html', emo: '🧠', ime: 'Pamti pa piši', stil: 'Remember & Write', maks: 100,
       opis: 'Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.' },
-    { id: 'tvrdjava', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'point-and-click · difficulty 3/5', maks: 100,
-      opis: 'Eight rooms, eight puzzles: password, search, recipe, pairs, anagram, hangman, chests and typing.' },
-    { id: 'konoba', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'serving · difficulty 2/5', maks: 50,
+    { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'Fortress', maks: 100,
+      opis: 'The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.' },
+    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Tavern', maks: 50,
       opis: 'Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.' },
-    { id: 'skladiste', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Sokoban · difficulty 1–5/5', maks: 100,
+    { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Warehouse', maks: 100,
       opis: 'You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.' },
-    { id: 'vlak', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'sorting + timer · difficulty 2/5', maks: 30,
+    { id: 'vlak', slika: 'vlak.webp', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'Mail Train', maks: 30,
       opis: 'Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.' },
-    { id: 'labirint', br: '08', dat: '08-labirint.html', emo: '🌀', ime: 'Labirint', stil: 'Pac-Man · difficulty 3/5', maks: 30,
+    { id: 'labirint', slika: 'labirint.webp', br: '08', dat: '08-labirint.html', emo: '🌀', ime: 'Labirint', stil: 'Maze', maks: 30,
       opis: 'Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.' },
-    { id: 'zmija', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Snake · difficulty 3/5', maks: 30,
+    { id: 'zmija', slika: 'zmija.webp', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Snake', maks: 30,
       opis: 'Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.' },
-    { id: 'mario', br: '10', dat: '10-mario.html', emo: '🍄', ime: 'Mario', stil: 'platformer · difficulty 3/5', maks: 50,
-      opis: 'Jump into the block with the right answer, then enter the pipe. Five question types across ten levels.' },
-    { id: 'prezivljavanje', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'EN→HR, 3 hearts · difficulty 3/5', maks: 100,
+    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Platformer', maks: 50,
+      opis: 'Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.' },
+    { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Survival', maks: 100,
       opis: 'Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.' },
-    { id: 'obrana', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'falling words · difficulty 3/5', maks: 40,
+    { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', maks: 40,
       opis: 'Words fall towards your base, you click the translation. Five waves, both directions, three words in the air.' },
-    { id: 'gradovi', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'visual novel · difficulty 4/5', maks: 40,
+    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', maks: 40,
       opis: 'All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.' }
   ];
   var MINI_MAPA = 'mini-igre/';
+  var MINI_SLIKE = 'slike/mini-igre/';
+
+  // ---- Extras ----
+  // Vlastiti odjeljak iznad mini igara: jedan naslov, veca slika, vise prostora.
+  // `dat` je prazan dok igra ne postoji — kartica se tada prikazuje, ali se ne otvara.
+  var EXTRA_IGRE = [
+    { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Listen Read Write Speak', maks: 200,
+      stil: 'Notebook',
+      opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' }
+  ];
+  function extraPoId(id) {
+    for (var i = 0; i < EXTRA_IGRE.length; i++) if (EXTRA_IGRE[i].id === id) return EXTRA_IGRE[i];
+    return null;
+  }
 
   function miniStanje(id) {
     try { return JSON.parse(localStorage.getItem('croland-mini-' + id) || '{}') || {}; }
     catch (e) { return {}; }
+  }
+  // Sve igre koje se mogu igrati: Extras (kad postoje) pa mini igre. Bodovi,
+  // maksimum i broj prijedenih broje se preko obje vrste jednako.
+  function sveIgre() {
+    return EXTRA_IGRE.filter(function (e) { return !!e.dat; }).concat(MINI_IGRE);
   }
   // Koliko je svaka igra isplatila — isti iznos ide u svaku valutu.
   // Mini igre traze racun, pa gost po definiciji ima nula. Bez ove provjere
@@ -2698,7 +2809,7 @@
   function miniBodovi() {
     if (!imaRacun()) return 0;
     var uk = 0;
-    MINI_IGRE.forEach(function (g) {
+    sveIgre().forEach(function (g) {
       var n = miniStanje(g.id).naplaceno;
       if (typeof n === 'number' && n > 0) uk += Math.min(n, g.maks);
     });
@@ -2706,18 +2817,21 @@
   }
   function miniMaks() {
     var m = 0;
-    MINI_IGRE.forEach(function (g) { m += g.maks; });
+    sveIgre().forEach(function (g) { m += g.maks; });
     return m;
   }
   function miniPrijedena() {
     if (!imaRacun()) return 0;
     var n = 0;
-    MINI_IGRE.forEach(function (g) { if ((miniStanje(g.id).naplaceno || 0) >= g.maks) n++; });
+    sveIgre().forEach(function (g) { if ((miniStanje(g.id).naplaceno || 0) >= g.maks) n++; });
     return n;
   }
+  // Trazi i po Extrasima: okvir, spremanje i naplata rade isto za obje vrste,
+  // razlikuju se samo po tome gdje su izlistane.
   function miniPoId(id) {
     for (var i = 0; i < MINI_IGRE.length; i++) if (MINI_IGRE[i].id === id) return MINI_IGRE[i];
-    return null;
+    var e = extraPoId(id);
+    return (e && e.dat) ? e : null;
   }
   // Kratak opis stanja za karticu — isto što pokazuje mini-igre/index.html.
   function miniOpisStanja(g) {
@@ -3937,6 +4051,25 @@
   function sekunde() { return Math.round((Date.now() - start) / 100) / 10; }
   function setStat(l, r) { $('statL').textContent = l; $('statR').textContent = r; }
 
+  // Stranice koje se samo citaju (stivo bez praznina, kartice, zid) imaju svoj
+  // jedini izlaz — gumb pod sadrzajem. Podnozje bi ondje ponudilo drugi izlaz
+  // ("Finish now" radi tocno isto sto i "Done reading") i "Try again" koji nema
+  // sto ponoviti. Zato ga takva stranica sama makne.
+  function bezKontrola() {
+    var kk = $('kontrole'); if (kk) kk.style.display = 'none';
+  }
+
+  // Broj pogresaka iz sazetka vjezbe: ili izravno "Mistakes: N", ili razlika
+  // tocnih i ukupnih u sazecima tipa "Correct: 7/10". Ako se ne da iscitati, null.
+  function brojGresaka(sazetak, pct) {
+    var s = String(sazetak || '');
+    var m = s.match(/Mistakes:\s*(\d+)/);
+    if (m) return +m[1];
+    m = s.match(/:\s*(\d+)\s*\/\s*(\d+)/);
+    if (m) return Math.max(0, +m[2] - +m[1]);
+    return pct >= 1 ? 0 : null;
+  }
+
   // kraj(sazetak, pct): pct 0..1 -> osvojeno = round(bodovi * pct)
   function kraj(sazetak, pct) {
     // U testu nema rezultata između vježbi — sve se skuplja i pokaže tek na kraju.
@@ -3960,46 +4093,33 @@
       pct >= 1 ? 'Perfect! 🌟' : pct >= .8 ? 'Great job! 🎉' : pct >= .5 ? 'Well done! 👍' : 'Keep going! 💪';
     // Lesson 0 je besplatni izlog: bez bodova, postotaka i rekorda
     var jeNulaK = (igra.tip === L0_TIP && igra.razina === L0_RAZINA);
-    var html = jeNulaK ? sazetak : (sazetak + ' · Points: ' + osvojeno + '/' + igra.bodovi);
-    if (jeNulaK && noveRijeci > 0) {
-      html += '<div class="stanjeLekcije">' + IK('knjiga', 'uz') + '<strong>' + noveRijeci +
-        (noveRijeci === 1 ? '</strong> new word' : '</strong> new words') +
-        ' saved to your dictionary — the word game can use them now.</div>';
-    }
-    if (!jeNulaK) {
-      if (osvojeno > prije && prije > 0) html += ' · 🏆 New record!';
-      else if (najbolji(igra) > osvojeno) html += ' (best: ' + najbolji(igra) + ')';
-      // stanje cijele lekcije, da se pojedina vježba vidi u kontekstu
-      var uk = maksCjeline(igra.tip, igra.razina), sad = osvojenoCjeline(igra.tip, igra.razina);
-      if (uk > 0) {
-        html += '<div class="stanjeLekcije">' +
-          (igra.tip === 'Daily challenge' ? 'Today\'s challenge' : igra.tip + ' ' + igra.razina) + ' so far: <strong>' +
-          sad + '</strong> / ' + uk + ' points' +
-          '<div class="ciljBar"><div style="width:' + Math.round(sad / uk * 100) + '%"></div></div>' +
-          '<span class="opusti">Only your best score per exercise counts — replay anything, any time.</span></div>';
+    var html;
+    if (jeNulaK) {
+      html = sazetak;
+      if (noveRijeci > 0) {
+        html += '<div class="stanjeLekcije">' + IK('knjiga', 'uz') + '<strong>' + noveRijeci +
+          (noveRijeci === 1 ? '</strong> new word' : '</strong> new words') +
+          ' saved to your dictionary — the word game can use them now.</div>';
       }
+    } else {
+      // Rezultat vjezbe: samo bodovi + linija koja pokaze koliki je dio tocan,
+      // a ispod suptilno broj pogresaka. Stanje lekcije i ciljevi vide se na popisu.
+      var greske = brojGresaka(sazetak, pct);
+      html = '<div class="rezBodovi"><strong>' + osvojeno + '</strong> / ' + igra.bodovi + '</div>' +
+        '<div class="ciljBar rezBar"><div style="width:0%"></div></div>' +
+        (greske === null ? '' :
+          '<div class="rezGreske">' + greske + (greske === 1 ? ' mistake' : ' mistakes') + '</div>');
     }
-    // streak se zaključava prvom odigranom vježbom današnjeg challengea
+    // streak se zaključuje prvom odigranom vježbom današnjeg challengea
     if (streakNovi) {
       var nz = streakNiz();
       html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + '<strong>Day ' + nz + ' streak</strong> · +' + nz +
         ' points to every currency' +
         '<span class="opusti">Come back tomorrow for +' + (nz + 1) + '. Miss a day and the streak restarts.</span></div>';
     }
-    // ciljBox samo za tipove s valutom (Lesson/Vocabulary/Grammar/Practice);
-    // daily, weekly, test i mini igre dobiju samo popup ako se nešto otključa
-    if (VALUTA_TIPA[igra.tip] && !jeNulaK) {
-      var cilj = sljedeciCilj(igra.tip);
-      if (cilj) {
-        var pctC = Math.min(100, Math.round(cilj.ima / cilj.prag * 100));
-        html += '<div class="ciljBox"><strong>' + cilj.manjka + ' ' + cilj.val + '</strong> more to unlock ' + IK('otvorena', 'uz') + 
-          cilj.tip + ' ' + cilj.razina +
-          '<div class="ciljBar"><div style="width:' + pctC + '%"></div></div></div>';
-      } else {
-        html += '<div class="ciljBox">✓ All ' + igra.tip + ' units unlocked</div>';
-      }
-    }
     $('rezDetalji').innerHTML = html;
+    var rezBar = $('rezDetalji').querySelector('.rezBar > div');
+    if (rezBar) setTimeout(function () { rezBar.style.width = Math.round(pct * 100) + '%'; }, 80);
     var rez = $('rezultat');
     rez.style.display = 'block';
     rez.classList.remove('pokazi'); void rez.offsetWidth; rez.classList.add('pokazi');
@@ -4268,6 +4388,7 @@
     } else {
       setStat('Read', '');
       predaja = function () { return { s: 'read', pct: 1 }; };
+      bezKontrola();
     }
 
     function zavrsi() {
@@ -4560,6 +4681,7 @@
         ukupnoRj ? (procitano / ukupno + dod / ukupnoRj) / 2 : procitano / ukupno);
     };
     s.appendChild(b);
+    bezKontrola();
   }
   function takeDijalog() {
     setStat('Conversation', 'choose your reply');
@@ -5132,6 +5254,8 @@
       var zv = zvucnik(x[0]); if (zv) e.appendChild(zv);
       e.dataset.stupac = x[1];
       e.onclick = function (ev) {
+        // uz već odabranu riječ klik na riječ smještenu u stupcu vrijedi kao klik na taj stupac
+        if (odabrano && odabrano.el !== e && e.parentNode.classList.contains('stupacBox')) return;
         ev.stopPropagation();
         if (gotovo || provjereno) return;
         if (odabrano) odabrano.el.classList.remove('odabrano');
@@ -6561,6 +6685,7 @@
     var b = document.createElement('button'); b.className = 'gumb'; b.textContent = '✓ Done';
     b.onclick = function () { if (!gotovo) kraj('reviewed', 1); };
     s.appendChild(b);
+    bezKontrola();
   }
 
   var FORMATI = {
@@ -7150,10 +7275,10 @@
     }
     brze.push(brzaKarticaHtml('view:daily', IK('kalendar'), 'Daily challenge', dailyPodnaslov(), false));
     var gotovih = miniPrijedena();
-    brze.push(brzaKarticaHtml('view:mini', IK('igra'), 'Mini games',
-      gotovih >= MINI_IGRE.length
-        ? 'all ' + MINI_IGRE.length + ' finished · replay any time'
-        : gotovih + ' of ' + MINI_IGRE.length + ' finished', false));
+    brze.push(brzaKarticaHtml('view:mini', IK('igra'), 'Games & Extras',
+      gotovih >= sveIgre().length
+        ? 'all ' + sveIgre().length + ' finished · replay any time'
+        : gotovih + ' of ' + sveIgre().length + ' finished', false));
     html += '<div class="zaglavljeP">Quick practice</div>' +
       '<div class="brza">' + brze.join('') + '</div>';
 
@@ -7327,32 +7452,70 @@
     });
   }
 
-  // ---- mini igre: popis ----
+  // ---- Games & Extras: popis ----
+  // Dva odjeljka, ne jedan: Extras je kratak i sirok (jedna igra, velika slika),
+  // Mini igre su mreza thumbnailova ispod njega. Redoslijed je namjeran —
+  // Extras se vidi bez listanja, mini igre se listaju.
+  function miniKartaHtml(g) {
+    var st = miniStanje(g.id);
+    var pun = (st.naplaceno || 0) >= g.maks;
+    var stanje = miniOpisStanja(g);
+    return '<div class="miniKart' + (pun ? ' gotovo' : '') + '" onclick="idi(\'miniIgra\',\'' + g.id + '\')" ' +
+      'title="' + esc(g.ime) + ' — up to ' + g.maks + ' points in each currency">' +
+      '<span class="sl">' + miniSlikaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
+      '<span class="ime">' + esc(g.ime) + '</span>' +
+      '<span class="stil">' + esc(g.stil) + '</span>' +
+      '<span class="opis">' + esc(g.opis) + '</span>' +
+      '<span class="podnozje"><span>' + g.maks + ' pts ×4</span>' +
+      '<span class="st">' + esc(stanje) + '</span></span>' +
+      '</div>';
+  }
+  // Slika ako je ima, inace emoji na istom mjestu i u istom omjeru — kartica
+  // ne smije promijeniti visinu samo zato sto igra jos nema thumbnail.
+  function miniSlikaHtml(g) {
+    // Emoji ovdje ne moze zamijeniti sliku: veliki znakovi poput motorway ili
+    // shield u pola fontova padnu na crno-bijeli obris koji izgleda kao
+    // slomljena slika. Zato je zamjena nacrtana — trake i ime igre.
+    if (!g.slika) return '<span class="emoSl"><span>' + esc(g.ime) + '</span></span>';
+    return '<img src="' + MINI_SLIKE + g.slika + '" alt="" loading="lazy" decoding="async">';
+  }
+
   function renderMini() {
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();
-    var html = '<h1 class="sekcija">Mini games ' + IK('igra') + '</h1>' +
-      '<div class="miniSaz">' +
-      '<span><strong>' + uk + '</strong> of ' + maks + ' points earned</span>' +
-      '<span>·</span><span><strong>' + gotovih + '</strong> of ' + MINI_IGRE.length + ' completed</span>' +
-      '<span>·</span><span>each game pays the same amount into <strong>all four currencies</strong> (LP · VP · GP · PP), once</span>' +
-      '</div>' +
-      '<div class="miniMreza">';
-    MINI_IGRE.forEach(function (g) {
-      var st = miniStanje(g.id);
-      var pun = (st.naplaceno || 0) >= g.maks;
-      var stanje = miniOpisStanja(g);
-      html += '<div class="miniKart' + (pun ? ' gotovo' : '') + '" onclick="idi(\'miniIgra\',\'' + g.id + '\')" ' +
-        'title="' + esc(g.ime) + ' — up to ' + g.maks + ' points in each currency">' +
-        '<span class="broj">' + g.br + '</span>' +
-        '<span class="emo">' + g.emo + '</span>' +
+    var html = '';
+
+    // --- Extras: kratko, siroko, prvo ---
+    html += '<h2 class="miniNas">Extras</h2>' +
+      '<p class="miniPod">The long form. One sitting, all four skills.</p>' +
+      '<div class="extraMreza">';
+    EXTRA_IGRE.forEach(function (g) {
+      var uskoro = !g.dat;
+      html += '<div class="extraKart' + (uskoro ? ' uskoro' : '') + '"' +
+        (uskoro ? '' : ' onclick="idi(\'miniIgra\',\'' + g.id + '\')"') + '>' +
+        '<span class="sl">' + miniSlikaHtml(g) + '</span>' +
+        '<span class="tekst">' +
         '<span class="ime">' + esc(g.ime) + '</span>' +
         '<span class="stil">' + esc(g.stil) + '</span>' +
         '<span class="opis">' + esc(g.opis) + '</span>' +
         '<span class="podnozje"><span>' + g.maks + ' pts ×4</span>' +
-        '<span class="st">' + esc(stanje) + '</span></span>' +
-        '</div>';
+        '<span class="st">' + (uskoro ? 'coming soon' : '') + '</span></span>' +
+        '</span></div>';
     });
-    html += '</div>' +
+    html += '</div>';
+
+    // --- Mini igre: mreza ispod ---
+    html += '<h2 class="miniNas">Mini games</h2>' +
+      '<p class="miniPod">' + MINI_IGRE.length + ' short ones. Each is its own prototype, each pays out once.</p>' +
+      '<div class="miniMreza">';
+    MINI_IGRE.forEach(function (g) { html += miniKartaHtml(g); });
+    // Naslov i zbroj bodova idu na dno: stranica pocinje slikama, brojke su za kraj.
+    var sazetak = '<h1 class="sekcija">Games &amp; Extras ' + IK('igra') + '</h1>' +
+      '<div class="miniSaz">' +
+      '<span><strong>' + uk + '</strong> of ' + maks + ' points earned</span>' +
+      '<span>·</span><span><strong>' + gotovih + '</strong> of ' + sveIgre().length + ' completed</span>' +
+      '<span>·</span><span>each game pays the same amount into <strong>all four currencies</strong> (LP · VP · GP · PP), once</span>' +
+      '</div>';
+    html += '</div>' + '<div class="miniDno">' + sazetak + '</div>' +
       '<p style="color:var(--muted);font-size:var(--t-s);line-height:1.6;margin-top:16px">' +
       'Each game is a standalone prototype with its own built-in vocabulary of 246 words. ' +
       'Progress is saved separately per game, and points count towards unlocking lessons.</p>';
@@ -7406,7 +7569,7 @@
     var stanje = miniOpisStanja(g);
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
-      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" style="height:24rem"></iframe>' +
+      '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" allow="fullscreen; microphone; clipboard-read; clipboard-write" allowfullscreen style="height:24rem"></iframe>' +
       '<div class="alat">' +
       '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
       '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
@@ -7560,29 +7723,40 @@
     return MAX_RAZINA;
   }
 
-  var sveRazine = false;   // "Show all levels" prekidač, pamti se dok traje sesija
-  function prekloputiRazine() { sveRazine = !sveRazine; renderLessons(); }
-  window.prekloputiRazine = prekloputiRazine;
+
+  // Prva razina čija Lesson još nije 100% — mreža se pri otvaranju pomakne tako
+  // da je njezin stupac prvi slijeva.
+  function prvaNedovrsenaLekcija() {
+    var zadnja = 1;
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      if (igreCjeline('Lesson', r).length === 0) continue;
+      zadnja = r;
+      var maks = maksCjeline('Lesson', r);
+      if (!otkljucano('Lesson', r) || maks <= 0 || osvojenoCjeline('Lesson', r) < maks) return r;
+    }
+    return zadnja;
+  }
 
   function renderLessons() {
     var vv = valute();
     var prvaZ = prvaZakljucanaRazina();
-    var granica = sveRazine ? MAX_RAZINA : Math.min(MAX_RAZINA, prvaZ + 3);
     // Lesson 0 stoji iznad mreže dok nije prijeđena; kad su sva slova skupljena,
-    // seli se ispod popisa svih lekcija (i ispod "Show all levels").
+    // seli se ispod popisa svih lekcija.
     var nulaIspod = zavrsenaL0();
     var html = '<h1 class="sekcija">Lessons</h1>' + (nulaIspod ? '' : plocicaNulaHtml()) +
       '<div class="mrezaOkvir"><table class="mreza"><tbody>';
     var trake = [];   // trake se pune tek nakon umetanja u DOM, da se animiraju
-    for (var r = 1; r <= granica; r++) {
-      // blaga izmaglica na tri retka iza prve nedostupne razine
-      var dalek = (!sveRazine && r > prvaZ) ? ' class="dalek' + (r - prvaZ) + '"' : '';
-      html += '<tr' + dalek + '>';
-      for (var t = 0; t < TIPOVI.length; t++) {
-        var tip = TIPOVI[t];
+    // Retci su tipovi (Lesson, Vocabulary, Grammar, Practice, Test), stupci razine —
+    // napredak ide slijeva nadesno, a mreža se vodoravno pomiče.
+    for (var t = 0; t < TIPOVI.length; t++) {
+      var tip = TIPOVI[t];
+      html += '<tr>';
+      for (var r = 1; r <= MAX_RAZINA; r++) {
+        // blaga izmaglica na stupcima iza prve nedostupne razine
+        var dalek = r > prvaZ ? ' dalek' + Math.min(3, r - prvaZ) : '';
         var igre = igreCjeline(tip, r);
         if (igre.length === 0) {
-          html += '<td class="faza prazno">' + tip + ' ' + r + '<div class="bodM">coming soon</div></td>';
+          html += '<td class="faza prazno' + dalek + '" data-r="' + r + '">' + tip + ' ' + r + '<div class="bodM">coming soon</div></td>';
           continue;
         }
         var maks = maksCjeline(tip, r), osv = osvojenoCjeline(tip, r);
@@ -7591,7 +7765,7 @@
         // point-unlocked but behind the subscription wall — distinct label, still clickable
         // (the click hits the idi() gate, which explains why and offers to subscribe)
         var trebaPretplatu = otklj && r >= 2 && imaPristup(tip, r) === 'needsSubscription';
-        var klase = 'faza' + (otklj ? '' : ' zakljucano') + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '');
+        var klase = 'faza' + (otklj ? '' : ' zakljucano') + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '') + dalek;
         var pct, opis, redak, naslovA;
         if (trebaPretplatu) {
           pct = maks > 0 ? Math.min(1, osv / maks) : 0;
@@ -7601,7 +7775,7 @@
         } else if (otklj) {
           pct = maks > 0 ? Math.min(1, osv / maks) : 0;
           redak = '<div class="bodM"><strong>' + osv + '</strong>/' + maks + ' pts</div>' +
-            '<div class="ostalo">' + (pun ? '✓ complete' : '+' + (maks - osv) + ' to win') + '</div>';
+            (pun ? '<div class="ostalo">✓ complete</div>' : '');
           naslovA = tip + ' ' + r + ' — ' + osv + ' of ' + maks + ' points earned' +
             (pun ? '' : ', ' + (maks - osv) + ' still available');
         } else {
@@ -7617,7 +7791,7 @@
         }
         var id = 'trF' + r + '_' + t;
         trake.push({ id: id, pct: pct });
-        html += '<td class="' + klase + '" title="' + esc(naslovA) + '" ' +
+        html += '<td class="' + klase + '" data-r="' + r + '" title="' + esc(naslovA) + '" ' +
           (otklj ? 'onclick="idi(\'unit\',\'' + tip + '\',' + r + ')"' : '') + '>' +
           '<div class="imeF">' + tip + ' ' + r + '</div>' +
           '<div class="tr"><i id="' + id + '"></i></div>' +
@@ -7626,15 +7800,19 @@
       html += '</tr>';
     }
     html += '</tbody></table></div>';
-    if (granica < MAX_RAZINA) {
-      html += '<button class="viseRazina" onclick="prekloputiRazine()">Show all ' + MAX_RAZINA +
-        ' levels ▾ <span style="opacity:.7">(' + (MAX_RAZINA - granica) + ' more, still far off)</span></button>';
-    } else if (sveRazine && MAX_RAZINA > prvaZ + 3) {
-      html += '<button class="viseRazina" onclick="prekloputiRazine()">Show less ▴</button>';
-    }
     if (nulaIspod) html += plocicaNulaHtml();
     VIEW.innerHTML = html;
+    pomakniNaLekciju(prvaNedovrsenaLekcija());
     animirajTrake(trake);
+  }
+
+  function pomakniNaLekciju(r) {
+    var okvir = VIEW.querySelector('.mrezaOkvir');
+    var celija = okvir && okvir.querySelector('tr td[data-r="' + r + '"]');
+    if (!celija) return;
+    // razmak do prvog stupca ostaje vidljiv, kao kad je mreža na početku
+    var prva = celija.parentNode.firstElementChild;
+    okvir.scrollLeft = celija.getBoundingClientRect().left - prva.getBoundingClientRect().left;
   }
 
   // trake krenu s nule i naraste u sljedećem kadru — bez toga nema prijelaza
@@ -9464,14 +9642,14 @@
 
     // ---- mini igre ----
     var mh = '';
-    MINI_IGRE.forEach(function (g) {
+    sveIgre().forEach(function (g) {
       var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks), pun = o >= g.maks;
       mh += '<div class="progMiniR' + (o ? (pun ? ' pun' : '') : ' nula') + '" data-pmini="' + g.id + '" ' +
         'title="Open ' + esc(g.ime) + '"><div class="e">' + g.emo + '</div>' +
         '<div class="n">' + esc(g.ime) + '<small>' + esc(g.stil) + '</small></div>' +
         '<div class="p">' + o + '<small>/' + g.maks + '</small></div></div>';
     });
-    h += '<h2 class="progNas">Mini games</h2>' +
+    h += '<h2 class="progNas">Games &amp; Extras</h2>' +
       '<p class="progOpis">Each one pays out once, the same amount into all four currencies. ' +
         'Click one to open it.</p>' +
       '<div class="progMini">' + mh + '</div>';
@@ -9625,7 +9803,7 @@
   }
   function progPitajMini(id) {
     var g = null;
-    MINI_IGRE.forEach(function (x) { if (x.id === id) g = x; });
+    sveIgre().forEach(function (x) { if (x.id === id) g = x; });
     if (!g) return;
     var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks);
     var tekst = o >= g.maks
@@ -9635,7 +9813,7 @@
           ? 'You have earned ' + o + ' of ' + g.maks + ' points here. The rest is still waiting, and points ' +
             'already earned cannot be lost.'
           : 'All ' + g.maks + ' points are still there. They go into every currency at once.');
-    progPotvrda('Open this mini game?',
+    progPotvrda('Open this game?',
       g.emo + ' <b>' + esc(g.ime) + '</b> · ' + esc(g.stil), tekst,
       'Open ' + g.ime, function () { idi('miniIgra', g.id); });
   }

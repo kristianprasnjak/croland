@@ -4,13 +4,53 @@
     {
       "name": "croland",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8000"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8000"
+      ],
       "port": 8000
+    },
+    {
+      "name": "croland-8002",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8002"
+      ],
+      "port": 8002
+    },
+    {
+      "name": "croland-8003",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8003"
+      ],
+      "port": 8003
+    },
+    {
+      "name": "croland-8004",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8004"
+      ],
+      "port": 8004
     },
     {
       "name": "notopis",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8181", "--directory", "C:/Users/Korisnik/Claude/Projects/notopis"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8181",
+        "--directory",
+        "C:/Users/Korisnik/Claude/Projects/notopis"
+      ],
       "port": 8181
     }
   ]

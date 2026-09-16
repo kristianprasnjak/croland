@@ -3,7 +3,7 @@ cjelina: Lesson 10
 
 ## Telling stories
 format: tekst
-info: A short read that opens the past tense. Croatian builds it from two pieces you already own: the little verb **biti** (*sam, si, je, smo, ste, su*) from Lesson 2 and one new shape of the main verb, the participle — *Gledao sam film.* Nothing here is to be answered, just read.
+info: A short read that opens the past tense. Croatian builds it from two pieces you already know: the verb **biti** (*sam, si, je, smo, ste, su*) from Lesson 2 and one new form of the main verb, the participle — *Gledao sam film.* Nothing here is to be answered, just read.
 opis: Read it through — by the end of the lesson you'll be telling stories about yesterday.
 - You can describe, ask, plan and dream in Croatian. One thing is missing: telling stories. *What did you do yesterday?*
 - Good news: the past tense recycles something you've known since Lesson 2 — the verb *biti*. **Sam, si, je...** plus one new word form, and suddenly: *Gledao sam film. Bio je odličan!* — I watched a film. It was excellent!
@@ -30,7 +30,7 @@ opis: Possessive sprint from Lesson 9 — tap the form that fits the noun before
 
 ## Yesterday words
 format: kartice
-info: Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they are what tells the listener a story is coming. *Prošli* behaves like an adjective: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three new verbs come in their *ja* form, as always.
+info: Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they announce that a story is coming. *Prošli* takes adjective endings: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three new verbs come in their *ja* form, as always.
 opis: Words for yesterday, last weekend and everything you did in between. Tap a card to reveal the meaning.
 - jučer | yesterday
 - prošli / prošla / prošlo | last (prošli vikend, prošla subota)
@@ -58,8 +58,8 @@ opis: Words for yesterday, last weekend and everything you did in between. Tap a
 
 ## The past participle
 format: kartice
-info: Each card shows one verb in its three past shapes: **-o** for he, **-la** for she, **-li** for a group — *gledao, gledala, gledali*. They all come from the dictionary form by dropping **-ti**. Watch two of them: *jesti* hides its *d* and gives **jeo**, and *biti* gives **bio**, the word you will use most of all.
-opis: Take a verb, drop **-ti**, add **-o** (he), **-la** (she), **-li** (we / they). Then add your old friend *biti*: Gledao sam film. Gledala sam film. Gledali smo film.
+info: Each card shows one verb in its three past shapes: **-o** for he, **-la** for she, **-li** for a group — *gledao, gledala, gledali*. They all come from the dictionary form by dropping **-ti**. Watch two of them: *jesti* drops its *d* and gives **jeo**, and *biti* gives **bio**, the form you will use most often.
+opis: Take a verb, drop **-ti**, add **-o** (he), **-la** (she), **-li** (we / they). Then add the verb *biti* from Lesson 2: Gledao sam film. Gledala sam film. Gledali smo film.
 - gledati | gledao / gledala / gledali
 - spavati | spavao / spavala / spavali
 - piti | pio / pila / pili
@@ -80,7 +80,7 @@ opis: Take a verb, drop **-ti**, add **-o** (he), **-la** (she), **-li** (we / t
 
 ## Make the participle
 format: parovi
-info: Pure form practice: pair each dictionary form with its **he** participle. The recipe is always the same — take off **-ti**, put on **-o** — so *igrati* gives *igrao* and *učiti* gives *učio*. The one that does not look like its parent is *jesti → jeo*; say it aloud twice and it will stay.
+info: Pure form practice: pair each dictionary form with its **he** participle. The recipe is always the same — take off **-ti**, put on **-o** — so *igrati* gives *igrao* and *učiti* gives *učio*. The one that changes most is *jesti → jeo*; say it aloud twice before you start.
 opis: Match each verb with its past form (the he-form).
 - gledati | gledao
 - piti | pio
@@ -97,7 +97,7 @@ opis: Match each verb with its past form (the he-form).
 
 ## The rule: biti + participle
 format: tekst
-info: The core rule of the lesson in one formula: a form of **biti** plus the participle. The participle carries the gender — **-o** for a man or a boy, **-la** for a woman or a girl, **-li** for any group, **-lo** for a neuter thing like *more* or *sunce* — and *biti* carries the person, exactly as it did in Lesson 2. **The verb itself tells the listener who is talking.**
+info: The core rule of the lesson in one formula: a form of **biti** plus the participle. The participle carries the gender — **-o** for a man or a boy, **-la** for a woman or a girl, **-li** for any group, **-lo** for a neuter thing like *more* or *sunce* — and *biti* carries the person, exactly as it did in Lesson 2. **The verb form alone shows who is speaking.**
 infoodmah: da
 opis: One formula, four endings. Read the table, then say the last row out loud in your own gender.
 - **The formula:** *biti* (sam, si, je, smo, ste, su) **+** participle. You know the first half from Lesson 2. The second half you just built.
@@ -108,9 +108,9 @@ opis: One formula, four endings. Read the table, then say the last row out loud 
 - tab: she (Ana) | je | -la | Ana je gledala film.
 - tab: we / they | smo / su | -li | Gledali smo film. Oni su gledali film.
 - tab: a neuter thing | je | -lo | More je bilo toplo.
-- **The speaker's gender matters.** A man says *Spavao sam dugo.* A woman says *Spavala sam dugo.* English cannot do this — the Croatian verb tells the listener who is talking before they even see you.
+- **The speaker's gender matters.** A man says *Spavao sam dugo.* A woman says *Spavala sam dugo.* English has no equivalent: the Croatian verb form alone shows whether a man or a woman is speaking.
 - **One past for everything.** *Gledao sam* covers *I watched*, *I was watching* and *I have watched*. There is nothing else to learn.
-- **Sound note.** *jesti → jeo, jela, jeli* — the *d* hides. Everything else simply drops *-ti*.
+- **Sound note.** *jesti → jeo, jela, jeli* — the *d* is dropped. Everything else loses only the *-ti*.
 - **Now you write them.** Ja sam [gledao] film — kaže muškarac. Ja sam [gledala] film — kaže žena. Mi smo [gledali] film — kaže grupa. More je [bilo] toplo.
 
 ## He, she or they?
@@ -142,7 +142,7 @@ opis: Who could say this, or what is it said about? Sort the forms by their endi
 format: nastavak
 info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li**, and a neuter noun like *more* or *sunce* takes **-lo**. **The helper is already in place — only the gender is missing.**
 nastavci: o | la | li | lo
-opis: English above, Croatian below. The participle is waiting for its ending — one tap. **-o** for him, **-la** for her, **-li** for a group, **-lo** for a neuter thing.
+opis: English above, Croatian below. One tap completes the participle. **-o** for him, **-la** for her, **-li** for a group, **-lo** for a neuter thing.
 - Marko je gleda___ film. | Marko watched a film. | o
 - Ana je gleda___ film. | Ana watched a film. | la
 - Mi smo gleda___ film. | We watched a film. | li
@@ -183,8 +183,8 @@ opis: Choose the correct past form — both halves have to fit.
 
 ## Type the participle
 format: upis
-info: Now you type the participle yourself, so spelling counts. Drop **-ti**, add the ending the bracket asks for — *(he)* **-o**, *(she)* **-la**, *(they)* **-li**, *(it)* **-lo** — and keep the diacritics exactly as in the infinitive: *čitati → čitala*. Watch *jesti → jeo, jela, jeli*.
-opis: Type the participle in the form the bracket asks for.
+info: Now you type the participle yourself, so spelling counts. Drop **-ti**, add the ending named in the bracket — *(he)* **-o**, *(she)* **-la**, *(they)* **-li**, *(it)* **-lo** — and keep the diacritics exactly as in the infinitive: *čitati → čitala*. Watch *jesti → jeo, jela, jeli*.
+opis: Type the participle in the form named in the bracket.
 - čitati (he) → | čitao
 - kuhati (she) → | kuhala
 - igrati (they) → | igrali
@@ -202,15 +202,15 @@ opis: Type the participle in the form the bracket asks for.
 
 ## The rule: word order and "it was"
 format: tekst
-info: The second rule of the lesson. The helper *sam, si, je…* leans on the first word and **can never open a sentence**, exactly as *ću* could not in Lesson 8 — so *Gledao sam*, *Ja sam gledao* and *Jučer sam gledao* are all fine, but *Sam gledao* is not Croatian. And the past of *biti* is your most useful sentence: *Bilo je savršeno.*
+info: The second rule of the lesson. The helper *sam, si, je…* attaches to the first word and **can never open a sentence**, exactly as *ću* could not in Lesson 8 — so *Gledao sam*, *Ja sam gledao* and *Jučer sam gledao* are all fine, but *Sam gledao* is not Croatian. And the past of *biti* gives you the most useful sentence of all: *Bilo je savršeno.*
 infoodmah: da
 opis: Two things: where the little helper is allowed to stand, and how to say "it was". Read the examples aloud.
 - Like the future helper, the past helper *never* goes first:
 - tab: Fine | Fine | Fine | Not Croatian
 - tab: Spavao **sam** dugo. | Ja **sam** spavao dugo. | Jučer **sam** spavao dugo. | ✗ Sam spavao dugo.
-- **All three are fine** — *sam* just always leans on the first word. Put a pronoun, a time word or the participle itself in front of it, and you are safe. You have met this rule twice already: with *je* in Lesson 2 and with *ću* in Lesson 8.
-- **The past of "to be" is your best friend.** *Bio sam na moru.* — I was at the sea. *Voda je bila topla.* — The water was warm. *Bilo je savršeno!* — It was perfect! The neuter **bilo** is what you use for *it was*, when nobody in particular is the subject.
-- **Time words open the story.** *Jučer…*, *Prošli vikend…*, *U petak…*, *Poslije…* — drop one in front and the helper sits happily behind it: *Prošli vikend **smo** bili na moru.*
+- **All three are correct.** *sam* always attaches to the first word of the sentence, so put a pronoun, a time word or the participle in front of it. This is the same rule as *je* in Lesson 2 and *ću* in Lesson 8.
+- **The past of "to be" is the most useful of all.** *Bio sam na moru.* — I was at the sea. *Voda je bila topla.* — The water was warm. *Bilo je savršeno!* — It was perfect! The neuter **bilo** is what you use for *it was*, when nobody in particular is the subject.
+- **A time word can open the story.** *Jučer…*, *Prošli vikend…*, *U petak…*, *Poslije…* — drop one in front and the helper sits happily behind it: *Prošli vikend **smo** bili na moru.*
 - **Now you write them.** Jučer [sam] spavao dugo. Ti [si] gledao film. Ona [je] čitala knjigu. Bilo [je] savršeno.
 
 ## Today → yesterday
@@ -270,7 +270,7 @@ opis: A verb flashes in its dictionary form — tap its he-participle before it 
 ## How was it?
 format: dijalog
 info: A conversation about yesterday, so every reply is in the past. Petra speaks to you as *ti*; answer with *sam* and the participle in **your own gender** — the first option is the man's form, the second the woman's, and both are correct. *Bilo je…* is how you say *it was…* about the day itself.
-opis: Your friend Petra didn't see you all day yesterday and wants the full story. Choose your replies — pick the form that matches you. Passive words: *nisam te vidjela* (I didn't see you), *dosadan* (boring), *dogovoreno* (agreed).
+opis: Your friend Petra didn't see you all day yesterday and asks about it. Choose your replies — pick the form that matches you. Passive words: *nisam te vidjela* (I didn't see you), *dosadan* (boring), *dogovoreno* (agreed).
 - npc | Bok! Jučer te nisam vidjela cijeli dan!
 - ti | Bio sam na moru. | Bila sam na moru.
 - npc | Na moru? Super! Kako je bilo?
@@ -287,7 +287,7 @@ opis: Your friend Petra didn't see you all day yesterday and wants the full stor
 
 ## Last Saturday
 format: izbor
-info: Read the story of one Saturday, then answer in Croatian. The participle ending tells you who did what before you translate anything: *Ana je ustala*, *Marko je spavao*, *gledali su*. Time words — *prošla subota*, *poslije*, *navečer*, *u nedjelju* — carry you through the day in order.
+info: Read the story of one Saturday, then answer in Croatian. The participle ending shows who did what before you translate anything: *Ana je ustala*, *Marko je spavao*, *gledali su*. Time words — *prošla subota*, *poslije*, *navečer*, *u nedjelju* — mark the order of the day.
 tekst: Prošla subota je bila lijepa. Ana je ustala rano i pila je kavu na balkonu. Poslije je trenirala u parku. Marko je spavao dugo — bio je umoran jer je u petak imao ispit. Navečer su Ana i Marko bili u kinu. Gledali su komediju. Film je bio dug, ali je bio odličan. Poslije kina su jeli pizzu i pričali su cijeli sat. Nedjelja je bila kratka: Ana je učila, a Marko je gledao utakmicu. Njegov klub je pobijedio!
 opis: Read about Ana and Marko's weekend, then answer the questions. Passive words: *ustala* (got up), *balkon* (balcony), *umoran* (tired).
 - Kakva je bila prošla subota? | lijepa | kratka | hladna
@@ -299,8 +299,8 @@ opis: Read about Ana and Marko's weekend, then answer the questions. Passive wor
 
 ## Memory
 format: memorija
-info: A pairs game over the participles: each dictionary form hides its **he** form. Use it to fix the two odd ones — *jesti → jeo* and *biti → bio* — and to notice that everything else is simply the infinitive with *-o* in place of *-ti*.
-opis: Find the pairs — each verb hides its past form.
+info: A pairs game over the participles: each dictionary form is paired with its **he** form. Use it to fix the two odd ones — *jesti → jeo* and *biti → bio* — and to notice that everything else is simply the infinitive with *-o* in place of *-ti*.
+opis: Find the pairs — each verb with its past form.
 - gledati | gledao
 - piti | pio
 - jesti | jeo

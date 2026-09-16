@@ -136,7 +136,34 @@ na tekst stavki, ne na naslove), nove umetni na odgovarajuće mjesto.
 - Rečenice u drilovima se **recikliraju** kroz lekciju (kartica → nastavak → izbor → slaganje →
   dijalog → čitanje → checkpoint), kao u L5/L6. To smanjuje i broj novih zvučnih datoteka.
 
-### 3.7 Jezik
+### 3.7 Ton: bez personifikacije (obavezno)
+Gramatika nije lik u priči. Rečenice u `info`, `opis` i pravilo-stranicama opisuju **što se događa s
+oblikom**, ne što riječ "želi", "voli" ili "osjeća". Zabranjeno i zamjena:
+
+| ne pisati | pisati |
+|---|---|
+| The adjective doesn't flinch. | The adjective does not change. |
+| Negation touches the verb, never the ending. | Negation alters the verb, not the ending. |
+| same meaning, honest ending | same meaning, regular ending |
+| Context does all the work. | The meaning follows from the context. |
+| two patterns cover everything you met in Lesson 1 | two patterns cover everything from Lesson 1 |
+| The verb is waiting for its name tag. | One tap completes the verb. |
+| *jesti* hides its *d*. | In *jesti* the *d* is dropped. |
+| Some words are too important to follow rules. | These four words are irregular. |
+| the ending the noun asks for / wants | the ending that matches the noun |
+| your old friend *biti* | the verb *biti* from Lesson 2 |
+| Two verbs refuse to behave. / the rebels | Two verbs are irregular. / the irregular ones |
+| *ću* is shy, it leans on another word. | *ću* is unstressed and attaches to the preceding word. |
+| Words that squeeze / stretch / dance. | Words that lose a vowel / add *-ov-*. |
+| Croatian likes / cares about / is strict here. | In Croatian, … (opisati pravilo). |
+
+Dopušteno je i dalje: *copy → match*, *agree with*, *take an ending*, *drop a letter*, *attach to*,
+*the ending shows who is speaking*. Zadržava se topao ton prema **korisniku** ("you", "watch out for",
+"say it aloud") — zabrana se odnosi samo na personifikaciju riječi, jezika i gramatike.
+Isto vrijedi za naslove stranica: "Old friends" → "Words from earlier levels", "The rebels" →
+"The irregular plurals".
+
+### 3.8 Jezik
 - Standardni hrvatski, ijekavica, `komu` (ne *kome*), `s/sa` po pravilu (sa + s, š, z, ž),
   zarez ispred *a, ali, jer, nego*, nema zareza ispred *i*. Bez kolokvijalizama koje L1–L9 nisu
   koristile (npr. *odmarati* → *odmarati se* ili izbjeći).
