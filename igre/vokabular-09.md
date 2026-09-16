@@ -33,7 +33,7 @@ opis: Sport vocabulary is international — you can guess most of these before y
 ## The body
 format: kartice
 info: The parts of the body, with the last letter as the thing to notice. A consonant (*nos, zub, prst*) is masculine, **-a** (*glava, ruka, noga*) is feminine, **-o** or **-e** (*oko, koljeno, srce, rame*) is neuter. That letter decides which form of *moj* the word takes on the next pages.
-opis: From head to foot. Watch the last letter of each word — it decides everything in Grammar 9.
+opis: From head to foot. Watch the last letter of each word — it decides almost everything in Grammar 9.
 - tijelo | body
 - glava | head
 - kosa | hair
@@ -158,7 +158,7 @@ stupci: -AM | -IM | -EM
 
 ## moj, moja or moje?
 format: razvrstavanje
-info: Sorting nouns by the form of *moj* they take, and only the last letter of the noun matters. A consonant takes **moj** (*dres*), **-a** takes **moja** (*lopta*), **-o** or **-e** takes **moje** (*koljeno*, *srce*). The owner is the same in every case, so the owner does not affect the ending.
+info: Sorting nouns by the form of *moj* they take, and the last letter of the noun is your guide. A consonant takes **moj** (*dres*), **-a** takes **moja** (*lopta*), **-o** or **-e** takes **moje** (*koljeno*, *srce*). One trap: *momčad* ends in a consonant but is feminine, so it takes *moja*. The owner is the same in every case, so the owner does not affect the ending.
 opis: Which form of *my* does each noun take? The last letter of the noun decides.
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ

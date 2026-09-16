@@ -69,7 +69,7 @@ opis: Masculine words only. A being takes **-a**; a thing takes nothing. The **�
 
 ## The rule: the letter that falls out
 format: tekst
-info: The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -ar, -er, -ik, -aj and -ač never squeeze.
+info: The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -er, -ik, -aj, -ač and most in -ar don't squeeze.
 - You already met this in Lesson 2, under a different name. **Nepostojano a** — the fleeting *a* — is the letter that only exists in the naming form and disappears the moment an ending is added.
 - tab: Naming | Target | What fell out
 - tab: polic**a**jac | policajca | the **a** before -c
@@ -77,13 +77,13 @@ info: The spelling rule behind the odd-looking forms. A fleeting **a** lives onl
 - tab: Amerik**a**nac | Amerikanca | the **a** before -c
 - tab: pas | psa | the **a** in the middle
 - **It is not random.** Almost every masculine noun ending in **-ac** does it: *policajac, kupac, Amerikanac, Austrijanac, otac*. Spot the *-ac* and you can predict the squeeze before you learn the word.
-- **Words ending in -ar, -er, -ik, -aj, -ač do not squeeze:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. They simply take the **-a** and keep everything else.
-- *Pas → psa* is its own little case — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day.
+- **Words ending in -er, -ik, -aj, -ač, and most in -ar, do not squeeze:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. They simply take the **-a** and keep everything else.
+- *Pas → psa* is an exception of its own — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day.
 - **Now you write them.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka].
 
 ## Does it squeeze?
 format: razvrstavanje
-info: A sort about the fleeting **a**. The reliable signal is the ending **-ac**, which nearly always loses its vowel (*kupac* to *kupca*), while -ar, -er, -ik and -ač keep everything (*konobar* to *konobara*). *Pas* to *psa* is a one-off.
+info: A sort about the fleeting **a**. The reliable signal is the ending **-ac**, which nearly always loses its vowel (*kupac* to *kupca*), while -er, -ik, -ač and most -ar words keep everything (*konobar* to *konobara*). *Pas* to *psa* is one of the few exceptions.
 stupci: STEŽE SE | NE STEŽE SE
 opis: Say the target form in your head before you drop the tile. Anything ending in **-ac** almost certainly squeezes.
 - policajac | STEŽE SE
@@ -230,7 +230,7 @@ opis: Say the same sentence again, with a pronoun instead of the noun. Watch the
 
 ## Pick the pronoun
 format: izbor
-info: Choosing the right little word and the right slot. **ga** covers masculine and neuter, **je** covers feminine, and the short pronoun never opens a sentence, so it is *Ana me čeka*, not *Ana čeka me*.
+info: Choosing the right little word and the right slot. **ga** covers masculine and neuter, **je** covers feminine, and the short pronoun sits right after the first word or phrase, so it is *Ana me čeka*, not *Ana čeka me*.
 opis: Which little word replaces the noun in CAPITALS?
 - Čekam AUTOBUS. | Čekam ga. | Čekam je. | Čekam ih.
 - Vidim STANICU. | Vidim je. | Vidim ga. | Vidim ih.
@@ -247,7 +247,7 @@ opis: Which little word replaces the noun in CAPITALS?
 format: tekst
 info: Why these pronouns are so fussy about position. They are clitics, like *sam* and *je*: unstressed, leaning on the word in front, and unable to start a sentence. For first place or emphasis use *mene, tebe, njega, nju*.
 - These seven words are **clitics** — the same restless family as *sam, si, je* from Lesson 2. They carry no stress of their own, so they lean on the word in front of them.
-- **The consequence:** a clitic can never open a sentence. *Vidim ga* — always. *Ga vidim* — never, in any dialect, ever.
+- **The consequence:** a clitic can never open a sentence. *Vidim ga* — always. *Ga vidim* — never.
 - **If you really want to start with the pronoun**, Croatian hands you a longer, stressed twin: *Njega vidim, ne tebe.* — "It's *him* I see, not you." Long forms are for emphasis and contrast; the short ones are for everything else.
 - tab: Short (leans) | Long (stressed) | Use the long one when
 - tab: me | mene | it starts the sentence or is contrasted

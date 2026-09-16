@@ -285,7 +285,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 
 ## Type the future stem
 format: upis
-info: Type the infinitive minus its final *-i*. One verb refuses to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.
+info: Type the infinitive minus its final *-i*. A few verbs refuse to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.
 opis: You get the infinitive — type the form that stands in front of *ću*.
 - plivati → | plivat
 - putovati → | putovat

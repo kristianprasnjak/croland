@@ -32,7 +32,7 @@ opis: Ten new ones, same three-form pattern. Three of them hide a surprise: *tr�
 
 ## Three families
 format: razvrstavanje
-info: Sorting into the three conjugation families, and only the *ja* form decides which. Say the verb about yourself first: *čitam* lands in **-am**, *radim* in **-im**, *pišem* in **-em**. The infinitive is a false friend here.
+info: Sorting into the three conjugation families, and only the *ja* form decides which. Say the verb about yourself first: *čitam* lands in **-am**, *radim* in **-im**, *pišem* in **-em**. The infinitive can mislead you here.
 stupci: -AM | -IM | -EM
 opis: Sort each verb by the *ja* form it makes. Seven say -am, six say -im, six say -em. Sort by the ending you hear, never by the infinitive — *trčati* and *spavati* look alike and land in different columns.
 - čitati | -AM
@@ -107,6 +107,23 @@ opis: The things you read, eat, drink and watch. Every one of these keeps the sa
 - mačka | cat
 - miran / mirna / mirno | calm, quiet
 - smiješan / smiješna / smiješno | funny
+
+## Match the pictures
+format: spajanje
+info: Picture-to-word matching for the things your new verbs act on. Every word here keeps the same shape as an object — *Pijem sok*, *Jedem kruh* — so what you see on the card is what you say in the sentence.
+opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
+- sok | juice
+- kruh | bread
+- sir | cheese
+- sendvič | sandwich
+- pismo | letter
+- strip | comic book
+- film | film
+- kino | cinema
+- radio | radio
+- mobitel | mobile phone
+- pas | dog
+- mačka | cat
 
 ## How often?
 format: kartice
@@ -211,6 +228,21 @@ opis: You get the infinitive — type the form you would use about yourself.
 - razumjeti → | razumijem
 - prati → | perem
 - poznavati → | poznajem
+
+## Build the word
+format: slova
+info: Spelling from letter tiles. The accented letters carry meaning of their own: *čaj* starts with the *ch* sound, *učiti* has it in the middle, and **dž** in *udžbenik* is a single letter, never a d followed by a ž.
+opis: Careful — **dž** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own.
+- čitati | to read
+- učiti | to study
+- slušati | to listen
+- večerati | to have dinner
+- razumjeti | to understand
+- udžbenik | textbook
+- sendvič | sandwich
+- mačka | cat
+- čaj | tea
+- pismo | letter
 
 ## Type it in Croatian
 format: upis

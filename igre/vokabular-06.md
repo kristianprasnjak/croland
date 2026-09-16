@@ -25,7 +25,7 @@ opis: Living masculine nouns, each shown with its target form. Five of them sque
 
 ## Transport — nothing changes
 format: kartice
-info: Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Čekam vlak*, *Vozim bicikl*. Only *karta* moves, and purely for the older feminine reason, giving *kartu*.
+info: Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Čekam vlak*, *Vozim bicikl*. Only *karta* moves, and only because it ends in **-a** (the Lesson 5 rule), giving *kartu*.
 opis: Vehicles are things, so they never move an inch in the accusative. *Čekam tramvaj. Vidim autobus.* Only **karta** shifts, and only because it ends in -a.
 - tramvaj | tram
 - autobus | bus

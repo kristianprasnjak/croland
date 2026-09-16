@@ -5,7 +5,7 @@ cjelina: Practice 3
 format: tekst
 info: Your first reading, and every action in it is an on/ona form with no ending added, so look for the name and then the verb: *Marko pije*, *Ana jede*. The listed new words are there for recognition only — you don't have to produce them.
 - A whole day of actions — see how much you catch on the first read.
-- Verbs in the wild! Passive words: *čaj* (tea), *sir* (cheese), *strip* (comic book), *smiješan* (funny), *sjedi* (sits), *čeka* (waits), *kuha* (is cooking), *večer* (evening), *poslije* (afterwards), *kroz* (through), *Dobar tek!* (enjoy your meal), *svira* (is playing), the family — *tata* (dad), *mama* (mum), *brat* (brother), *sestra* (sister), all of them properly yours in Lesson 4 — plus *Što radiš?* (What are you doing?) and *Jedeš li?* (Are you eating?) — those last two are whole phrases for now, and Lesson 11 takes them apart.
+- Verbs in the wild! Passive words: *čaj* (tea), *sir* (cheese), *strip* (comic book), *smiješan* (funny), *sjedi* (sits), *čeka* (waits), *kuha* (is cooking), *večer* (evening), *poslije* (afterwards), *kroz* (through), *Dobar tek!* (enjoy your meal), *svira* (is playing), the family — *tata* (dad), *mama* (mum), *brat* (brother), *sestra* (sister), all of them properly yours in Lesson 4 — plus *Što radiš?* (What are you doing?), *Jedeš li?* (Are you eating?) and *Je li…?* (Is…?) — those last three are whole phrases for now, and Lesson 11 takes them apart.
 - Marko radi. | Marko is working.
 - On piše tekst. | He is writing a text.
 - Ana uči. | Ana is studying.
@@ -108,6 +108,23 @@ info: The negation reading: watch for *ne* standing in front of the verb, which 
 - Mačka ne sluša. | The cat is not listening.
 - Ona spava. | She is sleeping.
 - Nedjelja je lijepa. | Sunday is beautiful.
+
+## A quiet afternoon
+format: dijalog
+info: A conversation about what each of you is doing, so the ending changes with the speaker. A question about you carries **-š** (*Što radiš?*) and your answer carries **-m** (*Učim hrvatski*). Because the ending already names the person, you can leave *ja* out.
+opis: Your neighbour Marko calls in the afternoon. Choose your replies. Passive words: *Dobar tek!* (Enjoy your meal!), *A ti?* (And you?), *Vidimo se!* (See you!).
+- npc | Bok! Što radiš?
+- ti | Učim hrvatski. A ti? | Gledam film. A ti?
+- npc | Ja čitam. Knjiga je stara, ali je dobra.
+- ti | Što piješ? | Jedeš li?
+- npc | Pijem čaj. Čaj je topao i dobar.
+- ti | Ja pijem sok. | Ja jedem kruh i sir.
+- npc | Dobar tek! A što radi Ana?
+- ti | Ana uči. Ona čita udžbenik. | Ana spava. Dan je miran.
+- npc | A pas?
+- ti | Pas spava. | Pas gleda kroz prozor.
+- npc | Ha! Pas uvijek spava. Vidimo se!
+- ti | Vidimo se! | Bok!
 
 ## Translate by building
 format: slaganje

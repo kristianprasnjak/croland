@@ -118,6 +118,24 @@ opis: Answer from the text. Every question is a *why* question in disguise.
 - Kuhinja je mala, ali je... | topla | nova | velika
 - Tko čisti? | djed | baka | mama
 
+## Saturday at home
+format: dijalog
+info: A conversation held together by the connectors: **i** adds, **a** puts two different people side by side, **ali** turns the sentence around, and **jer** gives the reason. A comma goes before *a* and *ali*, never before *i*.
+opis: Your friend Ivana calls on a Saturday morning. Choose your replies. Passive words: *kasno* (late), *samo malo* (only a little), *zajedno* (together), *Vidimo se!* (See you!).
+- npc | Bok! Što radi obitelj danas?
+- ti | Mama kuha, a tata čisti. | Baka čita, a djed gleda film.
+- npc | Lijepo. A brat i sestra?
+- ti | Brat uči, a sestra spava. | Sestra je mala i još spava.
+- npc | Zašto sestra spava?
+- ti | Jer je subota. | Jer je kasno.
+- npc | Ha! I ja spavam jer je subota.
+- ti | Radiš li danas? | A što ti radiš?
+- npc | Ne radim danas. Danas kuham i čitam.
+- ti | Ja ne kuham, ali čitam. | Ja radim, ali samo malo.
+- npc | Dom je mali, ali je topao.
+- ti | Da, obitelj je zajedno. | Da, i pas je veseo.
+- npc | Jest! Vidimo se!
+
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles, all taken from the four texts. Two things earn the points: the right connector for the job (**i**, **a**, **ali**, **jer**) and the comma — always with **a** and **ali**, never with **i**.

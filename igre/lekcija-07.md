@@ -76,7 +76,7 @@ opis: Match each singular with its plural. Listen for the new ending!
 ## The plural patterns
 format: tekst
 info: The core rule of the whole lesson on one page: **-i / -e / -a**, the same trio you already use for adjectives. Learn it here and *knjige*, *učenici* and *pisma* stop being three problems and become one.
-- Three genders, three endings — the same trio you know from adjectives:
+- Three genders, three endings — and adjectives use the very same trio in the plural, as you'll see further down this page:
 - **One ending per gender.**
 - tab: Gender | Ending | One | More than one
 - tab: masculine | **-i** | učenik | učenici
@@ -140,7 +140,7 @@ opis: English above, Croatian below. The word is waiting for its plural ending �
 format: tekst
 info: The other half of Lesson 7: the plural persons. **mi** is always **-mo** and **vi** is always **-te**, for every verb in the language. Only **oni** depends on the verb family — *čitaju*, *uče*, *jedu*.
 - The endings you know (*-m, -š, —*) get three big siblings:
-- **mi and vi never argue.** **mi** (we) always takes **-mo**, **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide.
+- **mi and vi: one ending each, for every verb.** **mi** (we) always takes **-mo**, **vi** (you all) always takes **-te**. No exceptions, no families, nothing to decide.
 - tab: Person | čitati | učiti | jesti
 - tab: mi | čitamo | učimo | jedemo
 - tab: vi | čitate | učite | jedete

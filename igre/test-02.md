@@ -4,6 +4,7 @@ cjelina: Test 2
 ## Match the words
 format: parovi
 trajanje: 1080
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - ja | I
 - ti | you
@@ -374,6 +375,26 @@ opis: Read the English in brackets and type the Croatian in the form that matche
 - Ona je ___. (an Italian) | Talijanka
 - On je ___. (a German) | Nijemac
 - Ona je ___. (a Croat) | Hrvatica
+
+## From the earlier levels
+format: izbor
+opis: Not about level 2 — everything here comes from the levels before it.
+- ___ kuća | velika | velik | veliko
+- ___ more | plavo | plav | plava
+- ___ dan | dobar | dobra | dobro
+- ___ čokolada | slatka | sladak | slatko
+- ___ sunce | toplo | topao | topla
+- Kava je ___ . | dobra | dobar | dobro
+- Automobil je ___ . | brz | brza | brzo
+- Nebo je ___ . | plavo | plav | plava
+- Koja je rečenica točna? | Kava nije dobra. | Kava ne je dobra.
+- Što znači "sladoled"? | ice cream | window | sky
+- Što znači "prozor"? | window | table | bed
+- Ovo ___ kuća. | je | su | sam
+- Croatian word for "the house", "a house" and "house" | kuća | ta kuća | jedna kuća
+- Grad je ___ . (old) | star | stara | staro
+- Knjiga je ___ . (new) | nova | nov | novo
+- Krevet je ___ . (soft) | mekan | mekana | mekano
 
 ## Build the sentence
 format: slaganje

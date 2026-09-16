@@ -53,7 +53,7 @@ opis: Sport vocabulary is international — you can guess most of these before y
 
 ## The body
 format: kartice
-info: The parts of the body you will need to talk about sport. Notice the endings as they go past, because the next page turns them into a rule: *dres* ends in a consonant, *ruka* in **-a**, *koljeno* in **-o**. **That last letter is the only thing that decides** which shape *moj* takes.
+info: The parts of the body you will need to talk about sport. Notice the endings as they go past, because the next page turns them into a rule: *dres* ends in a consonant, *ruka* in **-a**, *koljeno* in **-o**. **That last letter almost always decides** which shape *moj* takes.
 opis: From head to knee. Watch the last letter of each word — you will need it in a minute.
 - glava | head
 - kosa | hair
@@ -105,13 +105,13 @@ format: tekst
 info: The single rule of this lesson, and it runs opposite to English. In *her jersey* the English word *her* tells you about the owner; in *njezin dres* the Croatian word tells you about the **jersey**. **Look at the noun, never at the owner** — *dres* ends in a consonant, so nothing is added, no matter who owns it.
 infoodmah: da
 opis: One rule, three endings. Read the table, then say the last line out loud.
-- English tells you about the owner: *his* jersey, *her* jersey. Croatian does not care who owns it. It looks at the **thing**.
+- English only tells you about the owner: *his* jersey, *her* jersey. Croatian picks the word by the owner (*njegov*, *njezin*) and the **ending** by the thing: *njegov dres*, *njegova lopta*. The ending doesn't care who owns it.
 - tab: The thing | What you say
 - tab: dres (consonant) | **moj** dres · **njegov** dres · **naš** dres
 - tab: lopta (-a) | **moja** lopta · **njegova** lopta · **naša** lopta
 - tab: koljeno (-o) | **moje** koljeno · **njegovo** koljeno · **naše** koljeno
 - The full set: **moj/moja/moje** (my) · **tvoj/tvoja/tvoje** (your, one person) · **njegov/njegova/njegovo** (his) · **njezin/njezina/njezino** (her) · **naš/naša/naše** (our) · **vaš/vaša/vaše** (your, plural or polite) · **njihov/njihova/njihovo** (their).
-- **One wrinkle, and it is the only one.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does.
+- **One wrinkle to watch.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does.
 - **To ask, use *čiji*.** *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*
 - *Njegov dres je plav, a moj je crven.*
 - **Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
@@ -135,7 +135,7 @@ opis: Match each English sentence with its Croatian partner.
 format: razvrstavanje
 info: Eighteen nouns, three columns, and the sorting is done entirely on the last letter. A consonant sends the word to **MOJ**, an *-a* to **MOJA**, an *-o* or *-e* to **MOJE**. **Say *moj*, *moja*, *moje* under your breath as you drag** — the wrong one will sound wrong before you finish it.
 stupci: MOJ | MOJA | MOJE
-opis: Which form does each noun take? The last letter of the noun decides everything.
+opis: Which form does each noun take? Go by the last letter of the noun.
 - dres | MOJ
 - lopta | MOJA
 - koljeno | MOJE

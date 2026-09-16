@@ -139,7 +139,7 @@ Doslovan prijepis. Rečenica koja je ovdje je Blobbyjeva; sve ostalo u datotekam
 
 ## Lesson 8
 - Summer is coming — *ljeto dolazi!* Time to make plans: the sea, ice cream, swimming every day...
-- The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — the helpers are old friends in disguise.
+- The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — and you have already met the helper's negative twin, *neću*, back in Grammar 3.
 - Recognize the rhythm? *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su*.
 - Odlično! Past lessons gave you the present; now the future is yours too. Your summer plans are officially in Croatian.
 

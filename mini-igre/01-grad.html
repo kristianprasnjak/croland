@@ -1156,7 +1156,11 @@ window.addEventListener('pointerdown', function(e){ if (e.pointerType === 'touch
    sam uđe u cijeli zaslon — osim ako si baš iz njega izašao. */
 var CIJ = document.getElementById('gCijeli');
 var DOC = document.documentElement;
-var mozeCijeli = !!(document.fullscreenEnabled || document.webkitFullscreenEnabled);
+/* U appu (unutar okvira) cijelim zaslonom i okretanjem upravlja aplikacija
+   — tipka ⛶ uz rub scene. Igra tada ne dira ni jedno ni drugo, inače bi se
+   dva cijela zaslona i dva zaključavanja smjera tukla. */
+var uAppu = window.self !== window.top;
+var mozeCijeli = !uAppu && !!(document.fullscreenEnabled || document.webkitFullscreenEnabled);
 if (mozeCijeli) document.body.classList.add('moze-cijeli');
 var rucnoIzasao = false;
 function uCijelom(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }

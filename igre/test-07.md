@@ -3,7 +3,8 @@ cjelina: Test 7
 
 ## Match the words
 format: parovi
-trajanje: 1080
+trajanje: 1380
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - škola | school
 - učenik | pupil
@@ -388,6 +389,26 @@ opis: Put the plural into the target form — after *vidim*.
 - pjesme → Pjevam ___ | pjesme
 - iskustva → Volim ___ | iskustva
 - roditelji → Zovem ___ | roditelje
+
+## From the earlier levels
+format: izbor
+opis: Not about level 7 — everything here comes from the levels before it.
+- Čekam ___ . (prijatelj) | prijatelja | prijatelj | prijatelje
+- Vidim ___ . (tramvaj) | tramvaj | tramvaja | tramvaju
+- Ana zove ___ . (konobar) | konobara | konobar
+- Gledam ___ . (pas) | psa | pas | pasa
+- Turist fotografira ___ . (policajac) | policajca | policajac
+- Čitam knjigu. → Čitam ___ . | je | ga | ih
+- Gledam film. → Gledam ___ . | ga | je | ih
+- Koja je rečenica točna? | Vidim ga. | Ga vidim.
+- Pijem ___ . (kava) | kavu | kava | kave
+- Idem ___ . (tržnica) | na tržnicu | u tržnicu
+- Mama radi ___ čita. | i | a | ali
+- Ja ___ hrvatski. (učiti) | učim | učiš | uči
+- Mi ___ prijatelji. | smo | ste | su
+- Što znači "stanica"? | stop | street | traffic
+- Što znači "ključ"? | key | floor | number
+- Mijenja li se "autobus" nakon "vidim"? | ostaje isto | mijenja se
 
 ## Build the sentence
 format: slaganje

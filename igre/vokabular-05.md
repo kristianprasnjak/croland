@@ -46,7 +46,7 @@ opis: These don't end in -a, so nothing happens to them. *Pijem sok. Jedem kruh.
 
 ## Shopping
 format: kartice
-info: Places, containers and money. The **-a** words behave like every feminine noun — *Idem u trgovin**u***, *Trebam vrećic**u*** — while *dućan*, *kafić*, *račun* and *novac* end in a consonant and never move.
+info: Places, containers and money. The **-a** words behave like every feminine noun — *Idem u trgovin**u***, *Trebam vrećic**u*** — while *dućan*, *kafić*, *račun* and *novac* end in a consonant and stay the same as targets.
 opis: Where you buy it, what you carry it in, what you pay. **tržnica** is the open-air farmers' market; **trgovina** and **dućan** are both a shop, and Croatians use them interchangeably.
 - tržnica → tržnicu | market
 - trgovina → trgovinu | shop, store
@@ -180,7 +180,7 @@ opis: Match each market word with its English meaning.
 
 ## Memory
 format: memorija
-info: A flip-and-find game mixing verbs with nouns. The verbs are all ja-forms (*kupujem*, *tražim*, *nosim*), so each one is ready to take a target — and a feminine target always ends in **-u**.
+info: A flip-and-find game mixing verbs with nouns. The verbs are all ja-forms (*kupujem*, *tražim*, *nosim*), so each one is ready to take a target — and when that target ends in **-a**, the **-a** becomes **-u**.
 opis: Flip the cards and find the pairs — the shopping edition.
 - kupujem | I buy
 - trebam | I need

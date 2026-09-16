@@ -84,9 +84,25 @@ opis: The café conversation got shuffled! Put the lines back into the right ord
 - — Dan je lijep, sunce je toplo.
 - — Da, dan je savršen!
 
+## At the café
+format: dijalog
+info: Your first conversation, built from the one pattern you have: a thing, then **je**, then a description. Every reply on offer is a sentence of that shape, so pick the one whose ending matches its noun — *Kava je dobra*, *Nebo je plavo*.
+opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (What would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect).
+- npc | Dobar dan! Izvolite?
+- ti | Kava, molim. | Sladoled, molim.
+- npc | Velika ili mala?
+- ti | Velika, molim. | Mala, molim.
+- npc | Izvolite. Kava je topla.
+- ti | Hvala! Kava je dobra. | Hvala! Kava je jako dobra.
+- npc | Dan je lijep, zar ne?
+- ti | Da, sunce je toplo. | Da, nebo je plavo.
+- npc | Da! I more je plavo i toplo.
+- ti | Dubrovnik je lijep grad. | Ovo je savršen dan!
+- npc | Jest. Doviđenja!
+
 ## Translate by building
 format: slaganje
-info: Tile translation of sentences taken from the three texts you just read. Keep the frame of noun plus **je** plus adjective, use *i* for *and*, and let the adjective rhyme with its noun: *More je plavo i toplo.*
+info: Tile translation of sentences taken from the three texts you just read. Keep the frame of noun plus **je** plus adjective, use *i* for *and*, and give the adjective the ending that matches its noun: *More je plavo i toplo.*
 opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the three texts you just read — and you'll hear it once it's right.
 - More je plavo i toplo. | en: The sea is blue and warm.
 - Hotel je velik i moderan. | en: The hotel is big and modern.

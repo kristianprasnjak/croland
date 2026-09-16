@@ -11,12 +11,12 @@ info: The page that names what you have been doing by ear: every noun is **mascu
 - tab: masculine | a consonant | *grad* · *stol* · *hotel*
 - tab: feminine | **-a** | *kuća* · *kava* · *lampa*
 - tab: neuter | **-o** or **-e** | *nebo* · *sunce* · *more*
-- **A few nouns break the pattern**, and you just have to know them: *auto* (car) ends in **-o** but is masculine. That's why this course uses *automobil* — same meaning, honest ending.
+- **A few nouns break the pattern**, and you just have to know them: *auto* (car) ends in **-o** but is masculine. That's why this course uses *automobil* — same meaning, and an ending that matches its gender.
 - **Now you write it.** "The house", "a house" and plain "house" are one single Croatian word: [kuća]. Same for the sea — [more] — and the city — [grad].
 
 ## Sort by gender
 format: razvrstavanje
-info: You drop each noun into M, F or N by its final letter alone. A consonant means masculine (*stol*, *krevet*), **-a** means feminine (*kava*, *knjiga*), and **-o** or **-e** means neuter (*nebo*, *sunce*). Meaning never decides, only the ending.
+info: You drop each noun into M, F or N by its final letter alone. A consonant means masculine (*stol*, *krevet*), **-a** means feminine (*kava*, *knjiga*), and **-o** or **-e** means neuter (*nebo*, *sunce*). For every noun on this page the ending is all you need.
 stupci: M | F | N
 opis: Sort each noun into its gender column. Let the last letter guide you.
 - grad | M
@@ -35,7 +35,7 @@ opis: Sort each noun into its gender column. Let the last letter guide you.
 ## The rule: adjectives copy the noun
 format: tekst
 info: The core agreement rule plus two extras: an adjective takes **consonant, -a, -o** to match its noun, the masculine also has a longer **-i** form used in front of a noun (*veliki grad*), and *mali* only ever appears in that **-i** form.
-- **Adjectives copy the noun.** Same word, three endings — and the two always rhyme.
+- **Adjectives copy the noun.** Same word, three endings — and most of the time the two even rhyme: *velika kuća*, *veliko nebo*.
 - tab: Noun ends in | Adjective ends in | Together
 - tab: a consonant | — | velik grad
 - tab: **-a** | **-a** | velika kuća
@@ -43,7 +43,7 @@ info: The core agreement rule plus two extras: an adjective takes **consonant, -
 - Rule of thumb: **consonant · -a · -o**. Say it out loud and you'll hear when it fits.
 - **A fourth ending you'll hear: -i.** Masculine adjectives have a second, longer form: *velik → **veliki***, *brz → **brzi***, *nov → **novi***, *star → **stari***. Both are correct after *je* — *Grad je velik* and *Grad je veliki*. The **-i** form is the one you use when the adjective sits in front of its noun: *veliki grad*, *novi hotel*, *brzi automobil*.
 - One word only ever appears in the **-i** form: *mali* (small). There is no *mal*. Its other endings behave normally: *mala kuća*, *malo more*.
-- **The sentence formula.** Two patterns cover everything you met in Lesson 1.
+- **The sentence formula.** Every sentence in Lesson 1 follows one of these two patterns.
 - tab: Pattern | Croatian | English
 - tab: (noun) + je + (adjective) | Kava je dobra. | The coffee is good.
 - tab: Ovo je + (noun) | Ovo je kuća. | This is a house.
@@ -51,7 +51,7 @@ info: The core agreement rule plus two extras: an adjective takes **consonant, -
 
 ## Pick the adjective
 format: izbor
-info: Choose the adjective form that agrees with the noun given. Read the noun's last letter first, then pick the rhyme: *velika kuća*, *dobar dan*, *plavo more*. Note that *sladak* reshapes slightly to *slatka* before the **-a** ending.
+info: Choose the adjective form that agrees with the noun given. Read the noun's last letter first, then pick the matching ending: *velika kuća*, *dobar dan*, *plavo more*. Note that *sladak* reshapes slightly to *slatka* before the **-a** ending.
 opis: Choose the adjective that agrees with the noun.
 - ___ kuća | velika | velik | veliko
 - ___ dan | dobar | dobra | dobro
@@ -74,7 +74,7 @@ info: The page that explains the extra vowel in *dobar*, *hladan* and *topao*: i
 - tab: slad**a**k | sla**t**ka | sla**t**ko
 - tab: top**ao** | to**pl**a | to**pl**o
 - *sladak* does one thing more: its **d** turns into **t**. Say *sladka* and then *slatka* out loud — the second one is simply easier to say, and that is the whole reason.
-- *topao* is the same trick in disguise. The stem is *topl-*, and a lone **l** at the end of a Croatian word turns into **o**. Add any ending and the **l** comes straight back: *topla*, *toplo*.
+- *topao* is the same trick in disguise. The stem is *topl-*, and in forms like this one the final **l** turned into **o** (*stol* and *hotel* keep theirs). Add any ending and the **l** comes straight back: *topla*, *toplo*.
 - **Not every word does this.** *mekan* keeps everything it has: *mekan krevet*, *mekana soba*, *mekano more*. So don't assume every **-an** drops its vowel.
 - The safe habit: **learn the masculine and the feminine together** — *dobar / dobra*, *topao / topla*, *sladak / slatka*, *mekan / mekana*. Once you have that pair, the neuter is just the feminine with **-o**.
 - Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it.
@@ -133,7 +133,7 @@ info: The negative counterpart: **nije** means *isn't* and is written as one wor
 - tab: Kava je dobra. | Kava **nije** dobra. | The coffee isn't good.
 - tab: Grad je velik. | Grad **nije** velik. | The city isn't big.
 - tab: Ovo je kuća. | Ovo **nije** kuća. | This isn't a house.
-- **The adjective doesn't flinch.** It still copies the noun exactly as before: *Kuća nije velik**a***, *More nije plav**o***. Negation touches the verb, never the ending.
+- **The adjective stays exactly as it was.** Only *je* changes to *nije*; the adjective keeps copying the noun: *Kuća nije velik**a***, *More nije plav**o***. The ending doesn't flinch.
 - **Never *ne je*.** *ne* and *je* fused into a single word long ago. The same thing happened to the whole verb *biti* — *nisam, nisi, nije...* — and you'll get the full table in Grammar 2. Today one form is enough to contradict anything.
 - **A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*
 - **Now you write them.** Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća.
@@ -182,7 +182,7 @@ opis: The last step — the English sentence, and you write the Croatian. Word o
 
 ## You can do this now
 format: tekst
-info: A closing summary of the one rule behind this unit: read the noun's last letter and let the adjective rhyme with it, then use **je** or **nije** to state or deny it. That is already enough for any simple description.
+info: A closing summary of the one rule behind this unit: read the noun's last letter, give the adjective the matching ending (consonant · -a · -o), then use **je** or **nije** to state or deny it. That is already enough for any simple description.
 - **Bravo.** You just wrote Croatian sentences from nothing but an English prompt — no tiles, no options, no answer hidden in the question.
-- And you did it with a rule you can carry anywhere: **look at the noun's last letter, and let the adjective rhyme with it.** Plus one word — *nije* — that lets you say the opposite of anything.
+- And you did it with a rule you can carry anywhere: **look at the noun's last letter, and give the adjective its ending — consonant · -a · -o.** Plus one word — *nije* — that lets you say the opposite of anything.
 - **Next up:** Practice 1 puts these sentences into short real texts, then Test 1 checks the whole unit. After that, Lesson 2 hands you the verb that unlocks everything else: *biti* (to be).

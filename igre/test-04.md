@@ -4,6 +4,7 @@ cjelina: Test 4
 ## Match the words
 format: parovi
 trajanje: 1080
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - obitelj | family
 - roditelj | parent
@@ -313,6 +314,26 @@ opis: Complete each sentence — type the correct form of the verb in brackets.
 - Ja ___ rano. (ustajati) | ustajem
 - Ti ___ rano. (ustajati) | ustaješ
 - Dijete ___ rano. (ustajati) | ustaje
+
+## From the earlier levels
+format: izbor
+opis: Not about level 4 — everything here comes from the levels before it.
+- Ja ___ sok. (piti) | pijem | piješ | pije
+- Ti ___ udžbenik. (čitati) | čitaš | čitam | čita
+- Ana ___ pismo. (pisati) | piše | pišem | pišeš
+- Pas ___ . (spavati) | spava | spavam | spavaš
+- Ja ___ hrvatski. (učiti) | učim | učiš | uči
+- U koji stupac ide "čitam"? | JA | TI | ON/ONA
+- Što znači "piti"? | to drink | to work | to study
+- Što znači "slušati"? | to listen | to watch | to write
+- Negiraj: Pijem kavu. | Ne pijem kavu. | Nepijem kavu.
+- Ana ___ doktorica. | je | sam | su
+- Mi ___ turisti. | smo | ste | su
+- Ona je ___ . (smart) | pametna | pametan | pametni
+- Kuća je ___ . (big) | velika | velik | veliko
+- Ja ___ umoran. (negativno) | nisam | ne sam
+- Marko ___ film. (gledati) | gleda | gledam | gledaš
+- Što znači "čovjek"? | person | child | friend
 
 ## Build the sentence
 format: slaganje

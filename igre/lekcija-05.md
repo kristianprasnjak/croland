@@ -140,7 +140,7 @@ opis: Turn each word into its target form — type the whole new word.
 
 ## Pick the right form
 format: izbor
-info: Choosing between the naming and the target form. After a verb that acts on the noun, pick **-u**; for a subject sitting before *je*, pick **-a**. Watch the *kruh* and *sok* items — those never change shape.
+info: Choosing between the naming and the target form. After a verb that acts on the noun, pick **-u**; for a subject sitting before *je*, pick **-a**. Watch the *kruh* and *sok* items — as targets they keep exactly the same shape.
 opis: Choose the correct form to complete the sentence.
 - Ana kupuje ___ . | jabuku | jabuka | jabuke
 - Trebam ___ . | vodu | voda | vode
@@ -151,13 +151,13 @@ opis: Choose the correct form to complete the sentence.
 - Ana plaća ___ . | tortu | torta | torte
 - ___ je velika. | Tržnica | Tržnicu | Tržnice
 - Kupujem ___ . | krušku | kruška | kruške
-- Jedem ___ . | kruh | kruha | kruhu
-- Pijem ___ . | sok | soka | soku
+- Jedem ___ . | kruh | kruhu | kruhe
+- Pijem ___ . | sok | soku | soke
 - Trebam ___ . | vrećicu | vrećica | vrećice
 
 ## Build your shopping sentences
 format: slaganje
-info: Building whole sentences from tiles. Any feminine noun after *trebam*, *kupujem*, *volim* or *jedem* has to land on **-u**, and a comma comes before *a* and *ali*: *Mama kuha juhu, a ja jedem pitu*.
+info: Building whole sentences from tiles. Any noun in **-a** after *trebam*, *kupujem*, *volim* or *jedem* has to land on **-u**, and a comma comes before *a* and *ali*: *Mama kuha juhu, a ja jedem pitu*.
 opis: Arrange the tiles to build the sentence.
 - Trebam vodu i kavu.
 - Ana kupuje jabuku i bananu.

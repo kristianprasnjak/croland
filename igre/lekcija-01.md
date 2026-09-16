@@ -75,7 +75,7 @@ info: The rule page for today's single verb form: **je** means *is* and sits bet
 ## Adjectives: making it interesting
 format: kartice
 info: Each card shows one describing word in three coats: *velik grad*, *velika kuća*, *veliko more*. The ending is not free choice, it echoes the last letter of the noun, so learn all three forms together as one item.
-opis: Watch the adjective closely — its ending likes to dance. velik grad, velika kuća, veliko more — same word, three outfits. The adjective matches its noun. Just absorb the pattern for now.
+opis: Watch the adjective's ending — it changes to match the noun. velik grad, velika kuća, veliko more — same word, three outfits. Just absorb the pattern for now.
 - velik / velika / veliko | big
 - mali / mala / malo | small
 - nov / nova / novo | new
@@ -105,9 +105,9 @@ opis: Same meaning, three endings. Pick the one that matches the noun.
 
 ## Find the right outfit
 format: razvrstavanje
-info: Sorting the three forms under the noun each one fits, so trust rhyme over meaning. The bare form goes with *grad*, the **-a** form with *kuća*, the **-o** form with *more*, even though *more* itself ends in **-e**.
+info: Sorting the three forms under the noun each one fits, so go by the ending, not the meaning. The bare form goes with *grad*, the **-a** form with *kuća*, the **-o** form with *more*, even though *more* itself ends in **-e**.
 stupci: GRAD | KUĆA | MORE
-opis: Each noun likes adjectives that sound like it. Tap an adjective, then the noun it fits. Trust your ear!
+opis: Each adjective ending belongs to one kind of noun. Tap an adjective, then the noun it fits. Say the pairs out loud!
 - velik | GRAD
 - velika | KUĆA
 - veliko | MORE
@@ -167,7 +167,7 @@ opis: Flip the cards and find each Croatian word's English partner.
 
 ## Lesson checkpoint
 format: provjera
-info: The scored mix of everything above, and 80% opens Vocabulary 1. Two things carry most of the points: **je** for *is*, and a description whose ending rhymes with its noun, as in *Kava je dobra* and *More je plavo*.
+info: The scored mix of everything above, and 80% opens Vocabulary 1. Two things carry most of the points: **je** for *is*, and a description whose ending matches its noun, as in *Kava je dobra* and *More je plavo*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 1.
 - slaganje | Kuća je velika.

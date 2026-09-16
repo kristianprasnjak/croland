@@ -157,7 +157,7 @@ info: The rule that a destination is a target too, so it takes the same **-u**: 
 - tab: Word | Used for | Example
 - tab: **u** | into something enclosed — a building, a room | Idem **u** trgovinu.
 - tab: **na** | onto an open space, or to an event | Idem **na** tržnicu.
-- **The test:** can you close a door behind you? Then it's **u** — *u kuću, u školu, u pekaru, u kafić, u sobu*. Is it open sky, or is it an occasion rather than a place? Then it's **na** — *na tržnicu, na plažu, na more, na koncert, na posao*.
+- **The test:** can you close a door behind you? Then it's **u** — *u kuću, u školu, u pekaru, u kafić, u sobu*. Is it open sky, or is it an occasion rather than a place? Then it's **na** — *na tržnicu, na plažu, na more, na koncert, na posao*. It's a rule of thumb, not a law: a few places with doors still take **na** (*na kolodvor*, *na poštu*), and those you learn as pairs.
 - **One you'll use every single day:** *Idemo **na kavu**.* — "Let's go for a coffee." It isn't a place at all, it's an event, and half of Croatian social life runs on that phrase.
 - Careful: this is *movement*. Standing still somewhere is a different case entirely, and it waits for you in Lesson 13.
 - **Now you write them.** Idem u [školu]. Idem na [tržnicu]. Idem u [grad].

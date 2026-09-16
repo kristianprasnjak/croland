@@ -129,6 +129,24 @@ info: A short description of a team, so plural subjects appear next to singular 
 - Oni su sretni. | They are happy.
 - Sport je život! | Sport is life!
 
+## Meeting Petra
+format: dijalog
+info: An introduction, so every line runs on **biti**. Two things decide your reply: the verb form has to match the person (*ja sam*, *ti si*), and a job word or an adjective about you has to match your own gender — *studentica* and *sretna* for a woman, *student* and *sretan* for a man.
+opis: You meet Petra on the first day of a language course. Choose your replies — pick the form that matches you. Passive words: *Odakle si?* (Where are you from?), *Drago mi je!* (Nice to meet you!), *iz* (from), *tečaj* (course).
+- npc | Bok! Ja sam Petra. Tko si ti?
+- ti | Bok! Ja sam Ana. | Bok! Ja sam Tom.
+- npc | Drago mi je! Jesi li ti student?
+- ti | Da, ja sam studentica. | Da, ja sam student.
+- npc | Super. Ja sam novinarka. Odakle si?
+- ti | Ja sam Hrvatica, iz Splita. | Ja sam Talijan, iz Rima.
+- npc | Lijepo! Posao je težak, ali je zanimljiv.
+- ti | Da, posao je težak. | Ne, posao nije težak!
+- npc | Jesi li umoran danas?
+- ti | Ne, nisam umorna. | Ne, nisam umoran.
+- npc | Odlično. Mi smo sada prijatelji!
+- ti | Da, mi smo prijatelji. | Drago mi je!
+- npc | Vidimo se na tečaju!
+
 ## Translate by building
 format: slaganje
 info: Production from English with tiles drawn from all four texts. Choose the verb by the person and the ending by the person too — *Ja sam učiteljica*, *Vi ste ljubazni* — and keep the pronoun in front so the little verb never opens the sentence.

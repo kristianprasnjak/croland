@@ -149,7 +149,7 @@ opis: Find the pairs — each family word hides its English partner.
 ## Reading the questions
 format: tekst
 info: A recognition page for six Croatian question words, since questions about texts are now asked in Croatian. Croatian needs no *do* or *does*: the question word plus the plain present tense is the whole question — *Što radi tata?* The full rules come in Lesson 11.
-- From here on, the questions about each text are asked in Croatian. That takes five little words — and they are the easiest thing in this lesson, because Croatian asks a question exactly the way English does: question word first, verb second.
+- From here on, the questions about each text are asked in Croatian. That takes six little words — and they are the easiest thing in this lesson, because the question word comes first, just like in English.
 - tab: Word | Means | Example
 - tab: **tko** | who | *Tko kuha?* — Who is cooking?
 - tab: **što** | what | *Što radi tata?* — What is dad doing?

@@ -3,7 +3,8 @@ cjelina: Test 8
 
 ## Match the words
 format: parovi
-trajanje: 1080
+trajanje: 1200
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - more | sea
 - plaža | beach
@@ -324,6 +325,26 @@ opis: Turn each plan into a refusal.
 - Ustat ćemo rano. → | Nećemo ustati rano
 - Učit ćeš navečer. → | Nećeš učiti navečer
 - Ručat ću danas. → | Neću ručati danas
+
+## From the earlier levels
+format: izbor
+opis: Not about level 8 — everything here comes from the levels before it.
+- Napiši množinu: učenik → | učenici | učeniki | učenikovi
+- Napiši množinu: stol → | stolovi | stoli | stole
+- Napiši množinu: dijete → | djeca | dijete | djetovi
+- Knjige su ___ . | nove | novi | nova
+- Pisma su ___ . | duga | dugi | duge
+- Mi ___ pjesme. (pjevati) | pjevamo | pjevate | pjevaju
+- Vi ___ knjige. (čitati) | čitate | čitamo | čitaju
+- Djeca ___ knjige. (čitati) | čitaju | čita | čitate
+- Vidim ___ . (učenici) | učenike | učenici | učenika
+- Čekam ___ . (prijatelj) | prijatelja | prijatelj
+- Vidim ___ . (tramvaj) | tramvaj | tramvaja
+- Pijem ___ . (kava) | kavu | kava | kave
+- Idem ___ . (škola) | u školu | u škola
+- Tata kuha, ___ brat uči. | a | i | ali
+- Što znači "zadaća"? | homework | grade | exam
+- Što znači "pauza"? | break | lesson | answer
 
 ## Build the sentence
 format: slaganje

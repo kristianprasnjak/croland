@@ -54,7 +54,7 @@ info: The agreement rule from Lesson 1, now applied to people: the adjective cop
 - tab: mi, vi, oni | **-i** | Oni su visok**i**.
 - **Watch the -a- disappear.** Some adjectives drop a vowel the moment an ending arrives: *pamet**a**n → pametna*, *umor**a**n → umorna*, *glad**a**n → gladna*, *hrab**a**r → hrabra*. Say them out loud — the shorter version is easier to pronounce, which is exactly why it happened.
 - **One word does something different.** *Veseo* becomes *vesela*, *veseli*. The **-o** turns back into an **-l-**. It is the only word here that does this, so just remember it.
-- **The sentence formula.** Two patterns cover everything.
+- **The sentence formula.** Almost every sentence in this unit follows one of these two patterns.
 - tab: Pattern | Croatian | English
 - tab: pronoun + biti + noun | Ja sam kuhar. | I am a cook.
 - tab: pronoun + biti + adjective | Ona je vesela. | She is cheerful.
@@ -161,8 +161,8 @@ info: The negative half of **biti**: *nisam, nisi, nije, nismo, niste, nisu*, al
 - tab: mi | smo | **nismo**
 - tab: vi | ste | **niste**
 - tab: oni | su | **nisu**
-- **One word, never two.** There is no *ne sam*, no *ne je*. Every other Croatian verb keeps *ne* separate — *biti* is the exception, and you're learning it first.
-- **The leaning rule is off.** *sam, si, je* are unstressed and can't open a sentence; the negative forms are stressed and open sentences all day: ***Nisam** gladan. **Nije** doma. **Nismo** turisti.*
+- **One word, never two.** There is no *ne sam*, no *ne je*. Almost every other Croatian verb keeps *ne* separate — *biti* is one of just three exceptions, and you're learning it first.
+- **The negative forms can go first.** *sam, si, je* are unstressed, so they can't open a sentence; *nisam, nisi, nije…* are stressed, so they can, and they do it all day: ***Nisam** gladan. **Nije** doma. **Nismo** turisti.*
 - **One word is a whole answer.** *Jesi li umoran? — **Nisam**.* Croatian doesn't need "no, I'm not" — the verb already carries the no, the person and the tense.
 - **The adjective still copies the person**, exactly as in the positive: *Ona nije umorn**a***. *Oni nisu umorn**i***.
 - **Now you write them.** Ja [nisam] gladan. On [nije] doma. Mi [nismo] turisti.

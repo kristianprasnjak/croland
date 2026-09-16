@@ -5,7 +5,7 @@ cjelina: Lesson 8
 format: tekst
 info: Your first look at the Croatian future, and it needs no new endings. A short helper word plus the dictionary form of the verb does the whole job: *ću* plus *plivati* gives **Plivat ću** — *I will swim*.
 - Summer is coming — *ljeto dolazi!* Time to make plans: the sea, ice cream, swimming every day...
-- The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — the helpers are old friends in disguise.
+- The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — and you have already met the helper's negative twin, *neću*, back in Grammar 3.
 
 ## Rapid recall
 format: brzina

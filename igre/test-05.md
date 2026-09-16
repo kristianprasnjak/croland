@@ -3,7 +3,8 @@ cjelina: Test 5
 
 ## Match the words
 format: parovi
-trajanje: 1080
+trajanje: 1200
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - jabuka | apple
 - kruška | pear
@@ -331,6 +332,26 @@ opis: Type the two words — the preposition and the place in its target form.
 - Idem ___ . (restoran) | u restoran
 - Idem ___ . (more) | na more
 - Idemo ___ . (kava) | na kavu
+
+## From the earlier levels
+format: izbor
+opis: Not about level 5 — everything here comes from the levels before it.
+- Tata kuha, ___ brat uči. | a | i | ali
+- Stan je mali, ___ je dom topao. | ali | i | a
+- Mama radi ___ čita. | i | a | ali
+- Ne plivam ___ je more hladno. | jer | ali | i
+- Koja je rečenica točno napisana? | Pas je star, ali je veseo. | Pas je star ali je veseo.
+- Koji veznik nikad ne traži zarez? | i | a | ali
+- Što znači "obitelj"? | family | childhood | neighbour
+- Što znači "baka"? | grandma | grandpa | sister
+- Ja ___ sok. (piti) | pijem | piješ | pije
+- Ti ___ udžbenik. (čitati) | čitaš | čitam | čita
+- Ona ___ doktorica. | je | sam | su
+- Mi ___ prijatelji. | smo | ste | su
+- More je ___ . | plavo | plav | plava
+- Negiraj: Ana radi. | Ana ne radi. | Ana nije radi.
+- U koji rod ide "obitelj"? | ŽENSKI | MUŠKI | SREDNJI
+- Ja ___ gladan. (negativno) | nisam | ne sam
 
 ## Build the sentence
 format: slaganje

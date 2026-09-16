@@ -3,7 +3,8 @@ cjelina: Test 6
 
 ## Match the words
 format: parovi
-trajanje: 1080
+trajanje: 1260
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - tramvaj | tram
 - autobus | bus
@@ -356,6 +357,26 @@ opis: Answer *Da*, but don't say the noun again — swap it for its pronoun.
 - Voziš li auto? → Da, ___ . | vozim ga
 - Kupuješ li kartu? → Da, ___ . | kupujem je
 - Tražiš li stanicu? → Da, ___ . | tražim je
+
+## From the earlier levels
+format: izbor
+opis: Not about level 6 — everything here comes from the levels before it.
+- Pijem ___ . (kava) | kavu | kava | kave
+- Ana kupuje ___ . (jabuka) | jabuku | jabuka | jabuke
+- Mama kuha ___ . (juha) | juhu | juha | juhe
+- ___ je svježa. (riba) | Riba | Ribu | Ribe
+- Koja se riječ NE mijenja? | kruh | jabuka | riba
+- Idem ___ . (škola) | u školu | u škola | na školu
+- Idem ___ . (tržnica) | na tržnicu | u tržnicu
+- Pijem ___ kavu. (crna) | crnu | crna | crno
+- Tata kuha, ___ brat uči. | a | i | ali
+- Ne plivam ___ je more hladno. | jer | ali | i
+- Ja ___ sok. (piti) | pijem | piješ | pije
+- Ona ___ doktorica. | je | sam | su
+- Kuća je ___ . (big) | velika | velik | veliko
+- Što znači "trebam"? | I need | I buy | I love
+- Što znači "tržnica"? | market | shop | bakery
+- Negiraj: Kupujem kruh. | Ne kupujem kruh. | Nisam kupujem kruh.
 
 ## Build the sentence
 format: slaganje

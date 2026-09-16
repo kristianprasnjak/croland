@@ -129,7 +129,7 @@ opis: Four things in a box, four people, and no labels. Read it twice before you
 
 ## Solve the puzzle
 format: izbor
-info: Deduction from the four habits. The answers are built from a name: a man's name takes **-ov** (*Markov*, *Ivanov*) and a woman's name takes **-in** (*Anin*, *Majin*), and the word then matches its noun, so it is *Anin fotoaparat* but *Majina lopta*.
+info: Deduction from the four habits. The answers are built from a name: a name in **-a** takes **-in** (*Anin*, *Majin*) and any other takes **-ov** (*Markov*, *Ivanov*), and the word then matches its noun, so it is *Anin fotoaparat* but *Majina lopta*.
 opis: Nobody says whose is whose. Work it out from what each person does.
 tekst: U kutiji su četiri stvari: dres, lopta, gitara i fotoaparat. Ana slika svaki trening jer je fotografija njezin hobi. Marko je golman i njegov dres je zelen. Ivan svira u pauzi, a poslije trenira. Maja trenira košarku i njezina lopta je narančasta. Dres u kutiji je zelen. Lopta u kutiji je narančasta.
 - Čiji je fotoaparat? | Anin | Majin | Markov
@@ -180,7 +180,7 @@ opis: Fill in the possessive. The bracket says who, the noun decides the ending.
 
 ## Whose is it?
 format: razvrstavanje
-info: Sorting the objects from the texts by the form of *moj*. Only the last letter of the noun matters: a consonant sends the word to **MOJ**, **-a** to **MOJA**, **-o** or **-e** to **MOJE**.
+info: Sorting the objects from the texts by the form of *moj*. The last letter of the noun is your guide: a consonant sends the word to **MOJ**, **-a** to **MOJA**, **-o** or **-e** to **MOJE**.
 opis: Everything here is in one of the four texts. Which form of *my* does it take?
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ

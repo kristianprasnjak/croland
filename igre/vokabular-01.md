@@ -51,6 +51,23 @@ opis: Things around you. Tap to reveal.
 - sladoled | ice cream
 - dan | day
 
+## Match the pictures
+format: spajanje
+info: Picture-to-word matching, with no English on the page. You have met every one of these words on the cards above, so this is recognition only. Keep an eye on the last letter while you tap, because that letter is what a describing word has to copy.
+opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
+- kuća | house
+- knjiga | book
+- stol | table
+- prozor | window
+- krevet | bed
+- lampa | lamp
+- soba | room
+- more | sea
+- sunce | sun
+- kava | coffee
+- sladoled | ice cream
+- automobil | car
+
 ## Match the pairs
 format: parovi
 info: Pairing nouns with meanings, which is straight recall of the deck above. A useful check while you match: *kuća*, *knjiga* and *soba* all end in **-a**, while *stol*, *prozor*, *krevet* and *grad* end in a consonant.
@@ -126,6 +143,21 @@ opis: A Croatian word appears — tap its English meaning before the timer runs 
 - zelen | green
 - bijel | white
 - crn | black
+
+## Build the word
+format: slova
+info: Spelling from letter tiles. Croatian writes one letter per sound, so a word you can say is a word you can spell — but **č**, **ć**, **š**, **ž** are letters of their own, and **nj** is a single letter, not an n followed by a j.
+opis: Careful — **nj** is one letter in Croatian, and the accented letters are separate letters too.
+- kuća | house
+- knjiga | book
+- čokolada | chocolate
+- sunce | sun
+- sladoled | ice cream
+- automobil | car
+- prozor | window
+- krevet | bed
+- žuta | yellow
+- zelena | green
 
 ## Type it in Croatian
 format: upis

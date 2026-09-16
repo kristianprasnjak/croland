@@ -28,7 +28,7 @@ opis: Choose the connector.
 
 ## The comma rule
 format: tekst
-info: This page hands you the punctuation half of the rule, and it has no exceptions. No comma before **i** (*Kava je dobra i topla*), always a comma before **a** (*Baka čita, a djed gleda film*) and before **ali** (*Pas je star, ali je veseo*).
+info: This page hands you the punctuation half of the rule, and at this level it has no exceptions. No comma before **i** (*Kava je dobra i topla*), always a comma before **a** (*Baka čita, a djed gleda film*) and before **ali** (*Pas je star, ali je veseo*).
 - Croatian is strict here, and the rule is short enough to never forget.
 - tab: Connector | Comma before it? | Example
 - tab: **i** | no | Kava je dobra i topla.
@@ -46,6 +46,28 @@ opis: Same sentence, two spellings. Only one puts the comma where Croatian wants
 - Pas je star ___ je veseo. | Pas je star, ali je veseo. | Pas je star ali je veseo.
 - Djed sjedi ___ čeka. | Djed sjedi i čeka. | Djed sjedi, i čeka.
 - Sestra uči ___ brat spava. | Sestra uči, a brat spava. | Sestra uči a brat spava.
+
+## Comma or no comma?
+format: razvrstavanje
+info: Sorting whole sentences by their punctuation, which follows from the connector alone. A sentence joined by **i** goes in the left column, one joined by **a** or **ali** in the right. *Jer* usually takes no comma either, so it belongs on the left as well.
+opis: Does the sentence need a comma before the connector? The connector decides, not the length of the sentence.
+stupci: BEZ ZAREZA | SA ZAREZOM
+- Mama radi i čita. | BEZ ZAREZA
+- Djed sjedi i čeka. | BEZ ZAREZA
+- Kava je dobra i topla. | BEZ ZAREZA
+- Sestra je mala i vesela. | BEZ ZAREZA
+- Baka kuha i sluša radio. | BEZ ZAREZA
+- Ne plivam jer je more hladno. | BEZ ZAREZA
+- Sestra spava jer je kasno. | BEZ ZAREZA
+- Volim ljeto jer je more toplo. | BEZ ZAREZA
+- Tata kuha, a brat uči. | SA ZAREZOM
+- Baka čita, a djed gleda film. | SA ZAREZOM
+- Ja radim, a ti spavaš. | SA ZAREZOM
+- Mama kuha, a tata čisti. | SA ZAREZOM
+- Stan je mali, ali je dom topao. | SA ZAREZOM
+- Pas je star, ali je veseo. | SA ZAREZOM
+- Soba je mala, ali je topla. | SA ZAREZOM
+- Mačka je mala, ali je brza. | SA ZAREZOM
 
 ## Sort by the job
 format: razvrstavanje
@@ -78,7 +100,7 @@ info: This page adds **jer** (because). Unlike *i*, *a* and *ali* it does not ba
 ## Four connectors, four jobs
 format: tekst
 info: The summary table for all four. **i** adds and takes no comma, **a** contrasts two subjects with a comma, **ali** twists with a comma, and **jer** explains why and usually takes none — that is the complete joining system at this level.
-- Here is the whole set on one page. Learn the middle column and you'll never pick the wrong word.
+- Here is the whole set on one page. Learn the middle column and picking the right word gets easy.
 - tab: Connector | Job | Comma | Example
 - tab: **i** | adds | no | Mama radi i čita.
 - tab: **a** | contrasts two subjects | yes | Tata kuha, a brat uči.
@@ -101,6 +123,36 @@ opis: All four are in play now. One of them explains *why*.
 - Susjed čeka ___ sluša radio. | i | a | jer
 - Ne kuham danas ___ nemam vremena. | jer | ali | i
 
+## Tap the ending
+format: nastavak
+info: The connectors join two halves, and each half needs a verb with the right ending — the **-m**, **-š** and bare forms from Lesson 3, now on this level's new verbs. *Kuhati*, *čekati*, *šetati* and *razgovarati* take **-am**; *čistiti*, *sjediti*, *voljeti* and *živjeti* take **-im**; *pomagati* gives *pomažem*. No object in these sentences changes shape yet — that starts in Lesson 5.
+nastavci: m | š | -
+opis: English above, Croatian below. One tap gives the verb its person: **-m** is mine, **-š** is yours, and he or she takes nothing at all.
+- Ja kuha___ ručak. | I am cooking lunch. | m
+- Ti kuha___ ručak. | You are cooking lunch. | š
+- Mama kuha___ ručak. | Mom is cooking lunch. | -
+- Ja čisti___ i kuham. | I clean and cook. | m
+- Ti čisti___ i kuhaš. | You clean and cook. | š
+- Tata čisti___ i kuha. | Dad cleans and cooks. | -
+- Ja sjedi___ i čekam. | I sit and wait. | m
+- Ti sjedi___ i čekaš. | You sit and wait. | š
+- Djed sjedi___ i čeka. | Grandpa sits and waits. | -
+- Ja čeka___ i sjedim. | I wait and sit. | m
+- Ti čeka___ i sjediš. | You wait and sit. | š
+- Baka čeka___ i čita. | Grandma waits and reads. | -
+- Ja šeta___ jer je dan lijep. | I am walking because the day is beautiful. | m
+- Ti šeta___ jer je dan lijep. | You are walking because the day is beautiful. | š
+- Brat šeta___ jer je dan lijep. | My brother is walking because the day is beautiful. | -
+- Ja živi___ ovdje. | I live here. | m
+- Ti živi___ ovdje. | You live here. | š
+- Ujak živi___ ovdje. | My uncle lives here. | -
+- Ja voli___ obitelj. | I love my family. | m
+- Ona voli___ obitelj. | She loves her family. | -
+- Ja pomaže___ i čistim. | I help and clean. | m
+- Sestra pomaže___ i čisti. | My sister helps and cleans. | -
+- Ja razgovara___ i pijem kavu. | I talk and drink coffee. | m
+- Mama razgovara___ i kuha. | Mom talks and cooks. | -
+
 ## Say it the heavier way
 format: upis
 info: A swap drill: replace *jer* with its formal twin *zato što*. Neither the meaning nor the word order changes — *Volim ljeto jer je more toplo* becomes *Volim ljeto zato što je more toplo* — but in speech people reach for *jer*.
@@ -122,6 +174,38 @@ opis: One word — which connector does the job?
 - Djed sjedi ___ čeka. (and) | i
 - Teta kuha, ___ ujak čisti. (whereas) | a
 - Soba je mala, ___ je svijetla. (but) | ali
+
+## Type the verb
+format: upis
+info: Typed production with this level's verbs. Find the *ja* form first and the rest follows: *kuham* gives *kuhaš* and *kuha*, *čistim* gives *čistiš* and *čisti*. Two of them shift the middle — *voljeti* gives *volim* and *pomagati* gives *pomažem*.
+opis: Complete each sentence — type the correct form of the verb in brackets.
+- Mama ___ ručak. (kuhati) | kuha
+- Ja ___ i kuham. (čistiti) | čistim
+- Djed ___ i čeka. (sjediti) | sjedi
+- Ti ___ i sjediš. (čekati) | čekaš
+- Brat ___ jer je dan lijep. (šetati) | šeta
+- Ja ___ obitelj. (voljeti) | volim
+- Teta ___ u Zagrebu. (živjeti) | živi
+- Ja ___ svaki dan. (pomagati) | pomažem
+- Mama i tata ___ . (razgovarati) | razgovaraju
+- Sestra ___ rano. (ustajati) | ustaje
+- Ja ___ dom i obitelj. (imati) | imam
+- Ti ___ ručak. (kuhati) | kuhaš
+
+## The correct sentence
+format: izbor
+info: Whole sentences now, with three things to check at once: the connector has to fit the job, the comma has to follow the connector, and the verb has to match its subject. Only one version of each pair is correct Croatian.
+opis: One of these is how a Croatian would write it.
+- Mom works and reads. | Mama radi i čita. | Mama radi, i čita.
+- Dad cooks, and my brother studies. | Tata kuha, a brat uči. | Tata kuha a brat uči.
+- The dog is old, but he is cheerful. | Pas je star, ali je veseo. | Pas je star ali je veseo.
+- I am not swimming because the sea is cold. | Ne plivam jer je more hladno. | Ne plivam, jer more hladno je.
+- Grandpa sits and waits. | Djed sjedi i čeka. | Djed sjedi, i čeka.
+- My sister is sleeping because it is late. | Sestra spava jer je kasno. | Sestra spava jer kasno je.
+- I am cleaning, and you are cooking. | Ja čistim, a ti kuhaš. | Ja čistim, a ti kuham.
+- Grandma is cooking and listening to the radio. | Baka kuha i sluša radio. | Baka kuham i sluša radio.
+- The apartment is small, but the home is warm. | Stan je mali, ali je dom topao. | Stan je mali, ali dom je topao.
+- My uncle lives here and works a lot. | Ujak živi ovdje i radi puno. | Ujak živi ovdje, i radi puno.
 
 ## Join the sentences
 format: slaganje

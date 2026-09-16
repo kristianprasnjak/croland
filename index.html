@@ -1501,6 +1501,54 @@
   }
   /* Igra pocinje odmah ispod zaglavlja; dolje ostaje uobicajeni odmak stranice. */
   #view:has(.miniOkvir) { padding-top: 0; }
+
+  /* ---- POLOŽENE IGRE (zaslon: 'polozeno', zasad samo Grad) ----
+     Ne prate visinu dokumenta: scena je visoka koliko ekran ispod zaglavlja.
+     Na mobitelu u stranici stoji poster s ▶, a igra se igra preko cijelog
+     ekrana. Android ulazi u pravi cijeli zaslon i zaključa položeni smjer;
+     iPhone to ne dopušta, pa se pozornica okrene za 90° i mobitel se nakrene.
+     Okreće se okvir, ne igra — igra vidi položeni prozor, a dodiri stižu
+     preračunati. Veličinu i rotaciju pozornice postavlja miniOkreni(). */
+  .miniScena {
+    position: relative; width: 100%; overflow: hidden; background: #2B2118;
+    height: calc(100dvh - var(--visinaZaglavlja, 4rem) - 3.75rem); min-height: 20rem;
+  }
+  .miniScena.miniMob {
+    height: auto; min-height: 0; aspect-ratio: 16 / 10;
+    max-height: calc(100dvh - var(--visinaZaglavlja, 4rem) - 3.75rem);
+  }
+  .miniPozornica { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 0 0; }
+  .miniOkvir .miniPozornica iframe { width: 100%; height: 100%; }
+  .miniCijeliTipka {
+    position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 2;
+    width: max(2.75rem, 44px); height: max(3.5rem, 56px); padding: 0;
+    border: 0; border-radius: var(--rad-s) 0 0 var(--rad-s);
+    background: rgba(43, 33, 24, .72); color: #fff; font-size: 1.375rem; line-height: 1;
+    font-family: inherit; cursor: pointer;
+  }
+  .miniCijeliTipka:hover { background: rgba(43, 33, 24, .9); }
+  .miniPoster { display: none; }
+  .miniScena.miniMob .miniPoster {
+    display: flex; position: absolute; inset: 0; z-index: 3; padding: 0; border: 0; cursor: pointer;
+    flex-direction: column; align-items: center; justify-content: center; gap: 0.625rem;
+    background: #2B2118; color: #fff; font-family: inherit;
+  }
+  .miniPoster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .55; }
+  .miniPoster .igraj {
+    position: relative; width: 4.5rem; height: 4.5rem; border-radius: 50%;
+    background: var(--zut, #F4B942); color: #2B2118; font-size: 1.75rem;
+    display: flex; align-items: center; justify-content: center; padding-left: 0.25rem;
+    box-shadow: 0 4px 0 rgba(0,0,0,.35);
+  }
+  .miniPoster .tekst { position: relative; font-weight: 600; font-size: var(--t-s);
+    text-shadow: 0 1px 3px rgba(0,0,0,.7); }
+  /* preko cijelog ekrana */
+  .miniScena.cijeli {
+    position: fixed; inset: 0; z-index: 1000; width: auto; height: auto;
+    min-height: 0; max-height: none; aspect-ratio: auto;
+  }
+  .miniScena.cijeli .miniPoster { display: none; }
+  html.miniCijeliOtv, html.miniCijeliOtv body { overflow: hidden; }
   /* stupci mreze i visina iframea zive u bloku po uređaju, na dnu datoteke */
 
   /* ============ IZNIMKE OD SKALIRANJA ======================================
@@ -2752,7 +2800,7 @@
   // localStorage pod 'croland-mini-<id>' i ondje bilježi koliko je već naplatila.
   // Aplikacija to čita i zbraja u sve četiri valute.
   var MINI_IGRE = [
-    { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', maks: 100,
+    { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', maks: 100, zaslon: 'polozeno',
       opis: 'Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.' },
     { id: 'pamti', slika: 'pamti.webp', br: '03', dat: '03-pamti-pa-pisi.html', emo: '🧠', ime: 'Pamti pa piši', stil: 'Remember & Write', maks: 100,
       opis: 'Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.' },
@@ -7567,6 +7615,7 @@
     // zaostali pomak stranice gurnuo pod sticky izbornik.
     window.scrollTo(0, 0);
     var stanje = miniOpisStanja(g);
+    if (g.zaslon === 'polozeno') { renderMiniPolozeno(g, stanje); return; }
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
       '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" allow="fullscreen; microphone; clipboard-read; clipboard-write" allowfullscreen style="height:24rem"></iframe>' +
@@ -7615,7 +7664,7 @@
   }
   function miniUskladiVisinu() {
     var f = $('miniOkno'), d;
-    if (!f) return;
+    if (!f || f.hasAttribute('data-polozeno')) return;   // položene igre imaju visinu scene
     try { d = f.contentDocument; } catch (e) { return; }   // tudje podrijetlo — ne diramo
     if (!d || !d.body) return;
     var cs = d.defaultView.getComputedStyle(d.body);
@@ -7652,6 +7701,7 @@
   }
 
   function miniSatStop() {
+    miniCijeliIzadi();
     if (miniPazi) { miniPazi.disconnect(); miniPazi = null; }
     if (miniPaziDOM) { miniPaziDOM.disconnect(); miniPaziDOM = null; }
     if (miniCeka) { clearTimeout(miniCeka); miniCeka = 0; }
@@ -7696,6 +7746,149 @@
   }
   window.miniPonovno = miniPonovno;
   window.miniNoviTab = miniNoviTab;
+
+  // ---- položene igre: poster, cijeli ekran, rotacija ----
+  var MINI_CIJELI = false;    // prikaz preko cijelog ekrana je otvoren
+  var MINI_NATIVNO = false;   // ... i u njemu je pravi cijeli zaslon (Fullscreen API)
+
+  // Mobitel = dodir i uska strana ekrana ispod 600px. Tablet i računalo igraju
+  // u stranici i nikad se ne okreću — Gradu je i uspravni tablet dovoljno širok.
+  function jeMobitel() {
+    var dodir = !!(window.matchMedia && matchMedia('(pointer: coarse)').matches);
+    return dodir && Math.min(screen.width, screen.height) < 600;
+  }
+
+  function renderMiniPolozeno(g, stanje) {
+    VIEW.innerHTML =
+      '<div class="miniOkvir">' +
+      '<div class="miniScena' + (jeMobitel() ? ' miniMob' : '') + '" id="miniScena">' +
+        '<div class="miniPozornica" id="miniPozornica">' +
+          '<iframe id="miniOkno" data-polozeno src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" allow="fullscreen; microphone; clipboard-read; clipboard-write" allowfullscreen></iframe>' +
+          '<button class="miniCijeliTipka" id="miniCijeliTipka" onclick="miniCijeliPrebaci()" title="Full screen" aria-label="Full screen">⛶</button>' +
+        '</div>' +
+        '<button class="miniPoster" onclick="miniCijeliUdi()" aria-label="Play ' + esc(g.ime) + ' full screen">' +
+          (g.slika ? '<img src="' + MINI_SLIKE + g.slika + '" alt="">' : '') +
+          '<span class="igraj">▶</span>' +
+          '<span class="tekst">Play full screen · turn your phone sideways</span>' +
+        '</button>' +
+      '</div>' +
+      '<div class="alat">' +
+      '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
+      '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
+        (stanje ? ' · ' + esc(stanje) : '') + '</span>' +
+      '<button class="gumbSitni" onclick="miniCijeliUdi()">⛶ Full screen</button>' +
+      '<button class="gumbSitni" onclick="miniPonovno()">↻ Restart</button>' +
+      '</div>' +
+      '</div>';
+    postaviScenuCedulja('m|' + g.id);
+    MINI_AKTIVNA = g.id;
+    try { MINI_ZADNJE_SIROVO = localStorage.getItem('croland-mini-' + g.id) || ''; }
+    catch (e) { MINI_ZADNJE_SIROVO = ''; }
+    var zadnje = miniBodovi();
+    miniOsvjezavanje = setInterval(function () {
+      if (!$('miniOkno')) { miniSatStop(); return; }
+      miniPokupi();
+      var sad = miniBodovi();
+      if (sad === zadnje) return;
+      zadnje = sad;
+      osvjeziHeader();
+      var nova = noveOtkljucane();
+      if (nova.length) prikaziOtkljucanje(nova);
+    }, 2000);
+  }
+
+  function miniUCijelom() {
+    return !!(document.fullscreenElement || document.webkitFullscreenElement);
+  }
+
+  // Poziva se iz dodira (poster, tipka), pa preglednik dopušta cijeli zaslon.
+  function miniCijeliUdi() {
+    var s = $('miniScena');
+    if (!s || MINI_CIJELI) return;
+    MINI_CIJELI = true;
+    s.classList.add('cijeli');
+    document.documentElement.classList.add('miniCijeliOtv');
+    miniOsvjeziTipku();
+    var f = s.requestFullscreen || s.webkitRequestFullscreen;
+    var p = null;
+    if (f) { try { p = f.call(s); } catch (e) { p = null; } }
+    if (p && p.then) {
+      // Rotacija čeka ishod: na Androidu bi inače bljesnula prije zaključavanja.
+      p.then(function () {
+        MINI_NATIVNO = true;
+        var gotovo = function () { miniOkreni(); };
+        try {
+          if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').then(gotovo, gotovo);
+          } else gotovo();
+        } catch (e) { gotovo(); }
+      }, function () { miniOkreni(); });
+    } else {
+      // iPhone: nema cijelog zaslona ni zaključavanja — ostaje okretanje.
+      if (miniUCijelom()) MINI_NATIVNO = true;
+      miniOkreni();
+    }
+    try { var w = $('miniOkno').contentWindow; if (w) w.focus(); } catch (e) {}
+  }
+
+  function miniCijeliIzadi() {
+    if (!MINI_CIJELI) return;
+    MINI_CIJELI = false;
+    MINI_NATIVNO = false;
+    var s = $('miniScena');
+    if (s) s.classList.remove('cijeli');
+    document.documentElement.classList.remove('miniCijeliOtv');
+    try { if (screen.orientation && screen.orientation.unlock) screen.orientation.unlock(); } catch (e) {}
+    if (miniUCijelom()) {
+      var f = document.exitFullscreen || document.webkitExitFullscreen;
+      if (f) { try { var p = f.call(document); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+    }
+    miniOsvjeziTipku();
+    miniOkreni();
+  }
+
+  function miniCijeliPrebaci() {
+    if (MINI_CIJELI) miniCijeliIzadi(); else miniCijeliUdi();
+  }
+
+  function miniOsvjeziTipku() {
+    var t = $('miniCijeliTipka');
+    if (!t) return;
+    t.textContent = MINI_CIJELI ? '✕' : '⛶';
+    t.title = MINI_CIJELI ? 'Exit full screen' : 'Full screen';
+    t.setAttribute('aria-label', t.title);
+  }
+
+  // Uspravan mobitel u prikazu preko cijelog ekrana: pozornica dobije zamijenjene
+  // dimenzije i okrene se za 90° u smjeru kazaljke. Vrh igre je tada uz desni rub,
+  // pa se mobitel nakrene ulijevo — kao za video. Kad se preglednik sam prebaci u
+  // položeno (automatska rotacija ili zaključani smjer), rotacija se makne.
+  function miniOkreni() {
+    var s = $('miniScena'), poz = $('miniPozornica');
+    if (!s || !poz) return;
+    var W = s.clientWidth, H = s.clientHeight;
+    if (MINI_CIJELI && jeMobitel() && H > W) {
+      poz.style.width = H + 'px';
+      poz.style.height = W + 'px';
+      poz.style.transform = 'translateX(' + W + 'px) rotate(90deg)';
+    } else {
+      poz.style.width = poz.style.height = poz.style.transform = '';
+    }
+  }
+
+  window.addEventListener('resize', miniOkreni);
+  window.addEventListener('orientationchange', function () { setTimeout(miniOkreni, 250); });
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', miniOkreni);
+  ['fullscreenchange', 'webkitfullscreenchange'].forEach(function (ev) {
+    document.addEventListener(ev, function () {
+      // Izlaz sistemskom tipkom natrag ili Escom zatvara i naš prikaz.
+      if (!miniUCijelom() && MINI_CIJELI && MINI_NATIVNO) { miniCijeliIzadi(); return; }
+      miniOkreni();
+    });
+  });
+  window.miniCijeliUdi = miniCijeliUdi;
+  window.miniCijeliIzadi = miniCijeliIzadi;
+  window.miniCijeliPrebaci = miniCijeliPrebaci;
 
   function plocicaNulaHtml() {
     if (!postojiL0()) return '';

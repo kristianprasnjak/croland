@@ -11,7 +11,7 @@ info: The reference page for plural forms. Masculine **-i**, feminine **-e**, ne
 - tab: masculine, one syllable | stol · grad | stol**ovi** · grad**ovi** | **-ovi**
 - tab: feminine | knjiga · pjesma | knjig**e** · pjesm**e** | **-e**
 - tab: neuter | pismo · more | pism**a** · mor**a** | **-a**
-- **Short words stretch.** A one-syllable masculine noun would be almost unsayable with a bare -i, so Croatian pads it: *stol → stolovi*, *grad → gradovi*, *most → mostovi*, *zid → zidovi*. Say *stoli* out loud once and you'll never forget the rule.
+- **Short words stretch.** Most one-syllable masculine nouns pad the plural with **-ov-**: *stol → stolovi*, *grad → gradovi*, *most → mostovi*, *zid → zidovi*. After a soft sound it's **-ev-**: *ključ → ključevi*. Say *stolovi* out loud a few times and it sticks.
 - **Adjectives follow along:** *Učenici su mlad**i**. Knjige su nov**e**. Pisma su dug**a**.* Same trio: -i / -e / -a.
 - **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, svi [učenici]. Jedno pismo, dva [pisma].
 
@@ -20,9 +20,9 @@ format: tekst
 info: Why it is *učenici* and not *učeniki*. Before the plural **-i** the sounds *k*, *g* and *h* soften to *c*, *z* and *s* — *vojnik* to *vojnici*. The page also lists the four irregulars, including *djeca*, which takes a plural verb.
 - **Sound shift:** before the plural **-i**, a final **k** turns into **c**: učeni**k** → učeni**ci**, dječa**k** → dječa**ci**, udžbeni**k** → udžbeni**ci**, jezi**k** → jezi**ci**.
 - It isn't only *k*. The same softening hits **g → z** and **h → s**: *bubre**g*** → *bubre**zi***, *ora**h*** → *ora**si***. You'll meet more of these later; for now the *k → c* pairs are the ones you use daily.
-- **Why it happens:** *učeniki* is genuinely hard to say in Croatian. The language softened the sound centuries ago and never changed back. It is a pronunciation rule that fossilised into spelling.
+- **Why it happens:** centuries ago the sound softened in front of **-i**, and it never changed back. It is a pronunciation rule that fossilised into spelling.
 - **The rebels.** Four words ignore everything above: *dijete → **djeca***, *brat → **braća***, *čovjek → **ljudi***, *riječ → **riječi***. Learn them as words, not rules.
-- **A curiosity about *djeca* and *braća*:** they look plural and they *are* plural, but Croatian treats them as a single feminine word. *Djeca su dobra* — plural verb. But the target form is *Vidim **djecu***, exactly like *Vidim ženu*.
+- **A curiosity about *djeca* and *braća*:** they mean many people and take a plural verb — *Djeca su dobra* — but as a target they change like a single feminine word: *Vidim **djecu***, exactly like *Vidim ženu*.
 - **Now you write them.** učenik → [učenici]. dječak → [dječaci]. junak → [junaci].
 
 ## Which plural ending?
@@ -140,7 +140,7 @@ opis: Choose the matching adjective. Same trio as the nouns: -i / -e / -a.
 ## The rule: the complete present tense
 format: tekst
 info: The full six-person table. **-mo** for *mi* and **-te** for *vi* are fixed for every verb in the language; only *oni* varies by family — *-am* verbs give *-aju*, *-im* verbs *-e*, *-em* verbs *-u*.
-- Three endings you know, three you meet today. That's the whole Croatian present tense — there is nothing else to learn.
+- Three endings you know, three you meet today. That's the full set of present-tense endings for almost every verb — from here on, the main question is which family a verb belongs to.
 - tab: Person | čitati (-am) | učiti (-im) | jesti (-em)
 - tab: ja | čita**m** | uči**m** | jede**m**
 - tab: ti | čita**š** | uči**š** | jede**š**
@@ -259,7 +259,7 @@ info: The plural target form, and it is simpler than the singular. Only masculin
 - tab: m. | učenici, prijatelji, gradovi | učenik**e**, prijatelj**e**, gradov**e**
 - tab: f. | knjige, jabuke | knjig**e**, jabuk**e** — no change
 - tab: n. | pisma | pism**a** — no change
-- **Only masculine moves: -i → -e.** And the *k* softens back: *učenic**i*** but *učenik**e***, *dječac**i*** but *dječak**e***. The **c** only ever appears in front of an **-i**.
+- **Only masculine moves: -i → -e.** And the *k* softens back: *učenic**i*** but *učenik**e***, *dječac**i*** but *dječak**e***. The **k → c** change only happens in front of an **-i**.
 - **Living or not, same form now:** *Vidim prijatelj**e**.* *Vidim tramvaj**e**.* The *-a* trick was a singular-only rule, and you have just been let off it.
 - **Adjectives follow, as always:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
 - **And the pronoun for all of them is *ih*:** *Vidim učenike → Vidim **ih**.* One word for every gender, every time.
@@ -289,7 +289,7 @@ opis: After *vidim* — does the plural form change, or is it identical to the n
 
 ## Tap the plural target
 format: nastavak
-info: The same noun twice, first naming, then as the target. Masculine plurals swap **-i** for **-e**, and the softened *c* reverts to *k*, because that *c* only ever appears in front of an *-i*: *učenici* but *Vidim učenike*.
+info: The same noun twice, first naming, then as the target. Masculine plurals swap **-i** for **-e**, and the softened *c* reverts to *k*, because the **k → c** change only happens in front of an *-i*: *učenici* but *Vidim učenike*.
 nastavci: i | e
 opis: The same word twice — once naming, once as the target. Only masculine plurals move, and watch the **c** turn back into a **k**.
 - Učenic___ pjevaju. | The pupils are singing. | i

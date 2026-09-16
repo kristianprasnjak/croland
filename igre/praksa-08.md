@@ -253,7 +253,7 @@ opis: Read the English sentence, then build its Croatian translation from the ti
 - Ana neće ići na more. | en: Ana won't go to the seaside.
 - Iva voli more. | en: Iva loves the sea.
 - Ja ću nositi ručnike. | en: I will carry the towels.
-- Nosit ću kofer na kolodvor. | en: I will buy a train ticket.
+- Nosit ću kofer na kolodvor. | en: I will carry the suitcase to the station.
 - Vidjet ću more kroz prozor. | en: I will see the sea through the window.
 - Ujutro ću trenirati. | en: In the morning I will train.
 - Gledat ćemo utakmicu. | en: We will watch the match.

@@ -5,7 +5,7 @@ cjelina: Grammar 3
 format: tekst
 info: A rule page with nothing to tap: it names the endings you have already been using. **-m** for ja, **-š** for ti, nothing for on/ona — plus one shortcut worth keeping, since from the *ja* form you drop **-m** for on/ona and swap in **-š** for ti.
 - You've already *used* everything on this page — now let's name it.
-- **One set of endings, every verb.** Whoever is doing it, the ending says so. The *middle* of the verb can shift, but the endings never lie.
+- **One set of endings, almost every verb.** Whoever is doing it, the ending says so. The *middle* of the verb can shift, but the endings never lie. (A tiny handful say *ja* with **-u** instead — you'll meet *neću* further down this page.)
 - tab: Pronoun | Ending | Examples
 - tab: ja | **-m** | čita**m** · pije**m** · jede**m**
 - tab: ti | **-š** | čita**š** · pije**š** · jede**š**
@@ -160,8 +160,8 @@ opis: Nothing is offered this time. Read the English and type the Croatian verb 
 
 ## The rule: saying you don't
 format: tekst
-info: The negation rule: every verb except *biti* keeps *ne* as a separate word in front — *ne pijem*, *Ana ne radi* — and the person ending is untouched. Two rebels fuse it anyway: *imati* becomes **nemam**, *htjeti* becomes **neću**.
-- *biti* fused its negation into one word (*nisam, nisi, nije*). **Every other verb keeps *ne* separate** — one little word in front, and nothing else moves.
+info: The negation rule: almost every verb keeps *ne* as a separate word in front — *ne pijem*, *Ana ne radi* — and the person ending is untouched. Only three fuse it: *biti* (*nisam*), *imati* (**nemam**) and *htjeti* (**neću**).
+- *biti* fused its negation into one word (*nisam, nisi, nije*). **Almost every other verb keeps *ne* separate** — one little word in front, and nothing else moves. The two rebels are waiting further down this page.
 - tab: Positive | Negative | English
 - tab: Čitam udžbenik. | **Ne** čitam udžbenik. | I'm not reading a textbook.
 - tab: Piješ sok. | **Ne** piješ sok. | You aren't drinking juice.

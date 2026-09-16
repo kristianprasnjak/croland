@@ -4,6 +4,7 @@ cjelina: Test 3
 ## Match the words
 format: parovi
 trajanje: 1080
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - čitati | to read
 - gledati | to watch
@@ -298,6 +299,26 @@ opis: Say the same thing the way a Croatian would — drop the pronoun, keep the
 - Ja slušam film. → | Slušam film
 - Ti gledaš film. → | Gledaš film
 - Ja pišem e-mail. → | Pišem e-mail
+
+## From the earlier levels
+format: izbor
+opis: Not about level 3 — everything here comes from the levels before it.
+- ___ kuća | velika | velik | veliko
+- More je ___ . | plavo | plav | plava
+- Ja ___ student. | sam | si | je
+- Ona ___ doktorica. | je | sam | su
+- Mi ___ prijatelji. | smo | ste | su
+- Oni ___ studenti. | su | smo | ste
+- A woman who studies is a... | studentica | student
+- Ona je ___ . (tall) | visoka | visok | visoki
+- Oni su ___ . (tired) | umorni | umoran | umorna
+- Ja ___ gladan. (negativno) | nisam | ne sam
+- On ___ doma. (negativno) | nije | ne je
+- Što znači "susjed"? | neighbour | guest | boss
+- Što znači "vrijedan"? | hard-working | angry | sad
+- Kako pitaš stranca? | Kako ste? | Kako si?
+- Ovo ___ Marko. | je | su | sam
+- Kava ___ dobra. (negativno) | nije | ne je
 
 ## Build the sentence
 format: slaganje

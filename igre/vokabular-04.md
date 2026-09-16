@@ -60,6 +60,23 @@ opis: Where the family lives. **dom** is the *home* you feel; **kuća** and **st
 - pas | dog
 - mačka | cat
 
+## Match the pictures
+format: spajanje
+info: Picture-to-word matching for the family and the home. While you tap, read the last letter of each word: *baka* and *sestra* end in **-a** and are feminine, *brat* and *djed* end in a consonant and are masculine, and *dijete* is neuter.
+opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
+- obitelj | family
+- baka | grandma
+- djed | grandpa
+- brat | brother
+- sestra | sister
+- dijete | child
+- kuća | house
+- stan | apartment
+- soba | room
+- vrt | garden
+- prozor | window
+- stolica | chair
+
 ## Eleven new verbs
 format: kartice
 info: Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomož-*: *pomažem*, *pomažeš*, *pomaže*.
@@ -200,6 +217,21 @@ opis: You get the infinitive — type the form you would use about yourself.
 - čistiti → | čistim
 - pomagati → | pomažem
 - ustajati → | ustajem
+
+## Build the word
+format: slova
+info: Spelling from letter tiles. Three family words need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.
+opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
+- obitelj | family
+- prijatelj | friend
+- djetinjstvo | childhood
+- kći | daughter
+- žena | wife
+- čovjek | person
+- susjed | neighbour
+- stolica | chair
+- gospođa | Mrs
+- balkon | balcony
 
 ## Type it in Croatian
 format: upis

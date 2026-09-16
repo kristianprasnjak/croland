@@ -22,8 +22,8 @@ opis: Masculine nouns take **-i**. Watch the four where a **k** softens into **c
 
 ## Short masculine words stretch to -ovi
 format: kartice
-info: The *-ov-* group. A masculine noun of **one syllable** inserts *-ov-* before the ending: *grad* to *gradovi*, *most* to *mostovi*. It is still the masculine *-i* plural underneath, just padded out so it can be said.
-opis: One-syllable masculine nouns don't just take -i — they grow a whole extra piece: **-ovi**. Say *stolovi* out loud and you'll hear why *stoli* would never work.
+info: The *-ov-* group. Most masculine nouns of **one syllable** insert *-ov-* before the ending: *grad* to *gradovi*, *most* to *mostovi*. It is still the masculine *-i* plural underneath, just padded out.
+opis: Most one-syllable masculine nouns don't just take -i — they grow a whole extra piece: **-ovi**. *stol → stolovi*, *grad → gradovi*.
 - stol → stolovi | table
 - grad → gradovi | city
 - most → mostovi | bridge
@@ -36,7 +36,7 @@ opis: One-syllable masculine nouns don't just take -i — they grow a whole extr
 
 ## Feminine — -a becomes -e
 format: kartice
-info: The easy group. Every feminine noun ends in *-a*, and the plural simply swaps it for **-e**: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*.
+info: The easy group. Feminine nouns in *-a* simply swap it for **-e** in the plural: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*.
 opis: The easiest group on the page: swap the final **-a** for **-e** and you're done. No softening, no stretching.
 - škola → škole | school
 - učiteljica → učiteljice | teacher (f.)

@@ -20,7 +20,7 @@ info: The reference page for all seven possessives. Each one has the same three 
 
 ## Sort by the gender of the thing owned
 format: razvrstavanje
-info: Sorting by the noun alone. A consonant at the end of the noun gives the bare form (*moj klub*), **-a** gives **moja** (*moja momčad* is the exception, see below), **-o** or **-e** gives **moje**. Note *momčad*: it ends in a consonant but is feminine, so it takes *moja*.
+info: Sorting by the noun alone. A consonant at the end of the noun gives the bare form (*moj klub*), **-a** gives **moja**, **-o** or **-e** gives **moje**. Note *momčad*: it ends in a consonant but is feminine, so it takes *moja*.
 opis: Which form of *moj* does each noun take? Read the last letter of the noun. One word here ends in a consonant and is still feminine — *momčad*.
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ
@@ -201,13 +201,13 @@ opis: Type the right form of *svoj*.
 
 ## The rule: čiji, and one word from a name
 format: tekst
-info: Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and copies the noun like every possessive. And from a name Croatian builds a word of its own: **-ov** or **-ev** from a man, **-in** from a woman — *Markov dres*, *Anin fotoaparat*.
+info: Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and copies the noun like every possessive. And from a name Croatian builds a word of its own: a word in **-a** takes **-in**, any other takes **-ov** or **-ev** — *Anin fotoaparat*, *tatin klub*, *Markov dres*.
 - **To ask, use *čiji*.** It matches the noun, exactly like the answer will: *Čij**i** je ovo dres? Čij**a** je ovo lopta? Čij**e** je ovo koljeno?*
 - **To name the owner, Croatian builds a word from the name itself.**
 - tab: Owner | Ending | Example
-- tab: a man (Marko, Ivan) | **-ov** | Markov dres · Ivanov gol
-- tab: a man, name ends in a soft sound | **-ev** | Igračev dres
-- tab: a woman (Ana, sestra, baka) | **-in** | Anin fotoaparat · sestrina gitara
+- tab: a word ending in -a (Ana, sestra, tata, Luka) | **-in** | Anin fotoaparat · tatin klub
+- tab: any other word (Marko, Ivan, brat) | **-ov** | Markov dres · Ivanov gol
+- tab: a word ending in a soft sound (č, ć, j…) | **-ev** | Igračev dres
 - **These words then match the noun as usual:** *Markov dres*, *Markov**a** lopta*, *Markov**o** koljeno*; *Anin dres*, *Anin**a** lopta*, *Anin**o** koljeno*.
 - **A capital letter for a name.** *Markov*, *Anin*, *Ivanov* keep the capital of the name they are built from. A word built from an ordinary noun does not: *sestrina gitara*, *bakina kuća*, *trenerov plan*.
 - **English word order is the other way round.** English says *Marko's jersey*, Croatian says *Markov dres* — the owner first, and the ending on the owner's word.
@@ -215,8 +215,8 @@ info: Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and co
 
 ## Build the owner's word
 format: upis
-info: Type the word built from the owner's name. A man's name takes **-ov** (*Marko → Markov*), a woman's name or a feminine noun takes **-in** (*Ana → Anin*, *sestra → sestrin*), and the result then takes the ending that matches its noun.
-opis: Type the owner's word — a man's name takes **-ov**, a woman's name takes **-in**. Then let the noun finish it.
+info: Type the word built from the owner's name. A word ending in **-a** takes **-in** (*Ana → Anin*, *sestra → sestrin*, *tata → tatin*), any other word takes **-ov** (*Marko → Markov*, *brat → bratov*), and the result then takes the ending that matches its noun.
+opis: Type the owner's word — a word in **-a** takes **-in**, any other takes **-ov**. Then let the noun finish it.
 - Marko + dres → | Markov dres
 - Ivan + gol → | Ivanov gol
 - Ana + fotoaparat → | Anin fotoaparat
