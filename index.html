@@ -1480,6 +1480,7 @@
   .miniSaz strong { color: var(--ink); }
   .miniDno { margin-top: 2rem; }
   .miniNas:first-child { margin-top: 0; }
+  #miniIgreNas { scroll-margin-top: calc(var(--visinaZaglavlja, 64px) + 16px); }
   /* Okvir nema svoju visinu — uzima je od igre (miniUskladiVisinu). Naslov i
      podaci idu odmah u nastavku, s razmakom koliko treba da se ne slijepe. */
   .miniOkvir { margin-top: 0; }
@@ -2191,7 +2192,7 @@
     #ploca { max-width: 100%; padding: 1rem 0.875rem; border-radius: var(--rad-m); }
     #ploca.siroka { max-width: 100%; }
 
-    .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.625rem; margin-top: 1rem; }
+    .miniMreza { grid-template-columns: repeat(2, 1fr); grid-auto-flow: row dense; gap: 0.625rem; margin-top: 1rem; }
     /* Sazeto: samo slika, naslov i podnaslov. Dodir prosiruje karticu na
        cijeli redak i tek tada pokazuje opis. Bodovi se ovdje ne prikazuju. */
     .miniPod, .miniSaz, .miniKart .podnozje, .extraKart .podnozje { display: none; }
@@ -7140,7 +7141,7 @@
     else if (view === 'lessons') renderLessons();
     else if (view === 'dictionary') renderDictionary();
     else if (view === 'dictTest') renderDictTest();
-    else if (view === 'mini') renderMini();
+    else if (view === 'mini') renderMini(arg1);
     else if (view === 'miniIgra') renderMiniIgra(arg1);
     else if (view === 'daily') renderDaily();
     else if (view === 'account') renderAccount();
@@ -7336,11 +7337,20 @@
         rj + ' word' + (rj === 1 ? '' : 's') + ' · practice only, no points', true));
     }
     brze.push(brzaKarticaHtml('view:daily', IK('kalendar'), 'Daily challenge', dailyPodnaslov(), false));
-    var gotovih = miniPrijedena();
-    brze.push(brzaKarticaHtml('view:mini', IK('igra'), 'Games & Extras',
-      gotovih >= sveIgre().length
-        ? 'all ' + sveIgre().length + ' finished · replay any time'
-        : gotovih + ' of ' + sveIgre().length + ' finished', false));
+    // Mini igre i LRWS su dvije zasebne kartice: prva vodi na Games & Extras i
+    // spusti stranicu do mreze mini igara, druga otvara LRWS izravno.
+    var gotovih = imaRacun() ? MINI_IGRE.filter(function (g) {
+      return (miniStanje(g.id).naplaceno || 0) >= g.maks;
+    }).length : 0;
+    brze.push(brzaKarticaHtml('view:mini:igre', IK('igra'), 'Mini games',
+      gotovih >= MINI_IGRE.length
+        ? 'all ' + MINI_IGRE.length + ' finished · replay any time'
+        : gotovih + ' of ' + MINI_IGRE.length + ' finished', false));
+    var lrws = extraPoId('lrws');
+    if (lrws && lrws.dat) {
+      brze.push(brzaKarticaHtml('view:miniIgra:lrws', IK('zvuk'), lrws.ime,
+        (imaRacun() && miniOpisStanja(lrws)) || 'any text · hear, translate, write, say', false));
+    }
     html += '<div class="zaglavljeP">Quick practice</div>' +
       '<div class="brza">' + brze.join('') + '</div>';
 
@@ -7369,7 +7379,7 @@
     if (!c) return;
     var d = c.split(':');
     if (d[0] === 'unit') idi('unit', d[1], parseInt(d[2], 10));
-    else idi(d[1]);
+    else idi(d[1], d[2]);
   }
   function trenutniSlajd(traka) {
     if (!traka.children.length) return 0;
@@ -7549,12 +7559,14 @@
       var sve = VIEW.querySelectorAll('.miniKart.otvoren, .extraKart.otvoren');
       for (var i = 0; i < sve.length; i++) sve[i].classList.remove('otvoren');
       el.classList.add('otvoren');
+      el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       return;
     }
     if (!uskoro) idi('miniIgra', id);
   }
+  window.miniDodir = miniDodir;
 
-  function renderMini() {
+  function renderMini(skok) {
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();
     var html = '';
 
@@ -7578,7 +7590,7 @@
     html += '</div>';
 
     // --- Mini igre: mreza ispod ---
-    html += '<h2 class="miniNas">Mini games</h2>' +
+    html += '<h2 class="miniNas" id="miniIgreNas">Mini games</h2>' +
       '<p class="miniPod">' + MINI_IGRE.length + ' short ones. Each is its own prototype, each pays out once.</p>' +
       '<div class="miniMreza">';
     MINI_IGRE.forEach(function (g) { html += miniKartaHtml(g); });
@@ -7594,6 +7606,16 @@
       'Each game is a standalone prototype with its own built-in vocabulary of 246 words. ' +
       'Progress is saved separately per game, and points count towards unlocking lessons.</p>';
     VIEW.innerHTML = html;
+    // Dolazak s naslovnice ("Mini games"): stranica krene s vrha pa se glatko
+    // spusti do mreze, da se vidi da Extras postoji iznad.
+    if (skok === 'igre') {
+      var cilj = document.getElementById('miniIgreNas');
+      var mirno = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      setTimeout(function () {
+        if (!cilj || !cilj.isConnected) return;
+        cilj.scrollIntoView({ behavior: mirno ? 'auto' : 'smooth', block: 'start' });
+      }, mirno ? 0 : 350);
+    }
   }
 
   // ---- mini igre: jedna igra u okviru ----
