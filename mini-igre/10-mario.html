@@ -518,7 +518,7 @@ var CL = (function () {
    Maksimum (skriveno od igrača): 50 bodova × 4 valute
    ===================================================================== */
 
-var WW = 1740, TLO = 400, GRAV = 0.62, SKOK = -13.2, BRZINA = 4.4;
+var WW = 1740, TLO = 400, GRAV = 0.62, SKOK = -13.2, SKOK2 = -12, BRZINA = 4.4;
 var LEDGE = 148;
 /* čvrsti blokovi (od vrha do tla): niska stepenica, visoka stepenica, svjetionik, pa zrcalno */
 var TVRDO = [
@@ -526,7 +526,8 @@ var TVRDO = [
   {x:900, w:140, h:LEDGE}, {x:1040, w:100, h:72}
 ];
 var PORTALI = [{x:772, w:60, h:100}, {x:908, w:60, h:100}];
-var OBLAK_X = [140, 340, 540], OBLAK_Y = TLO - 196;
+/* oblaci su iznad dosega jednog skoka (i s niske stepenice) — samo dupli skok */
+var OBLAK_X = [140, 320, 490], OBLAK_Y = TLO - 270;
 var BOJA_PORTALA = ['#2FA8A0', '#7B5EA7'];
 
 var SVJETOVI = [
@@ -942,11 +943,13 @@ function azuriraj(k){
   pomakniX(i, i.vx * k);
   if (skokBuf > 0){
     skokBuf -= k;
-    if (i.natlu || i.koyot > 0){ i.vy = SKOK; i.natlu = false; i.koyot = 0; skokBuf = 0; CL.ton(520, .07); }
+    if (i.natlu || i.koyot > 0){ i.vy = SKOK; i.natlu = false; i.koyot = 0; skokBuf = 0; i.dupli = true; CL.ton(520, .07); }
+    else if (i.dupli){ i.vy = SKOK2; i.dupli = false; i.salto = 1; skokBuf = 0; CL.ton(700, .08); }
   }
   i.vy = Math.min(15, i.vy + GRAV * k);
   pomakniY(i, i.vy * k);
-  if (i.natlu) i.koyot = 6; else i.koyot -= k;
+  if (i.natlu){ i.koyot = 6; i.dupli = false; i.salto = 0; } else i.koyot -= k;
+  if (i.salto > 0) i.salto = Math.max(0, i.salto - k / 30);
   if (c && i.natlu) i.hod += k * 0.28; else if (i.natlu) i.hod = 0;
 
   /* oblaci */
@@ -1455,6 +1458,7 @@ function crtajLika(){
   if (sk <= 0.02) return;
   G.save();
   G.translate(cx, dno - (1 - sk) * 30);
+  if (!rot && i.salto > 0) rot = (1 - i.salto) * Math.PI * 2 * i.smjer;
   if (rot){ G.translate(0, -24); G.rotate(rot); G.translate(0, 24); }
   G.scale(sk * i.smjer, sk);
   if (S.nepov > 0 && Math.floor(T / 4) % 2) G.globalAlpha = 0.45;
