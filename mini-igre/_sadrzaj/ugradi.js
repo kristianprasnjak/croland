@@ -157,11 +157,11 @@ var IZVOZ =
 /* dodatak funkciji kraj(): gumb za beskonačni način */
 var KRAJ_STARO =
   "      '<button class=\"g glavni\" id=\"_opet\">Play again</button>' +\n" +
-  "      '<a class=\"g\" href=\"index.html\">Menu</a></div>';";
+  "      '</div>';";
 var KRAJ_NOVO =
   "      '<button class=\"g glavni\" id=\"_opet\">Play again</button>' +\n" +
   "      (opts.beskonacno ? '<button class=\"g\" id=\"_bez\">Endless ▶</button>' : '') +\n" +
-  "      '<a class=\"g\" href=\"index.html\">Menu</a></div>';";
+  "      '</div>';";
 var KRAJ_VEZ_STARO =
   "    z.querySelector('#_opet').onclick = function () { z.remove(); if (opts.ponovno) opts.ponovno(); else location.reload(); };";
 var KRAJ_VEZ_NOVO =

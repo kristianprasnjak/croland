@@ -35,12 +35,6 @@ body{
 .znak{display:inline-flex;align-items:center;gap:6px;background:var(--papir2);
   border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px;white-space:nowrap}
 .znak.srca{background:#FFE3E3}
-.natrag{text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;
-  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;background:#fff}
-.natrag:hover{background:var(--zut)}
-/* U aplikaciji se natrag ide gornjim izbornikom („Mini games“), pa je poveznica
-   na popis igara suvišna. Ostaje samo kad je igra otvorena sama za sebe. */
-html.uApp .natrag{display:none}
 /* ---- ploha ---- */
 .ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
   padding:18px;flex:1;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
@@ -155,7 +149,6 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <script>
 /* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
    — gornji izbornik aplikacije već vodi na isto mjesto. */
-if (window.self !== window.top) document.documentElement.className += ' uApp';
 </script>
 </head>
 <body>
@@ -341,7 +334,7 @@ var CL = (function () {
       '<div class="tipke" style="margin-top:16px">' +
       '<button class="g glavni" id="_opet">Play again</button>' +
       (opts.beskonacno ? '<button class="g" id="_bez">Endless ▶</button>' : '') +
-      '<a class="g" href="index.html">Menu</a></div>';
+      '</div>';
     var z = zastor(html);
     z.querySelector('#_opet').onclick = function () { z.remove(); if (opts.ponovno) opts.ponovno(); else location.reload(); };
     if (opts.beskonacno) z.querySelector('#_bez').onclick = function () { z.remove(); opts.beskonacno(); };
@@ -353,7 +346,6 @@ var CL = (function () {
     var d = document.createElement('header');
     d.className = 'hud';
     d.innerHTML =
-      '<a class="natrag" href="index.html">‹ menu</a>' +
       '<div class="ime">' + esc(o.ime) + '<small>' + esc(o.podnaslov || '') + '</small></div>' +
       (o.znakovi || []).map(function (z) {
         return '<span class="znak ' + (z.klasa || '') + '" id="' + z.id + '">' + z.html + '</span>';

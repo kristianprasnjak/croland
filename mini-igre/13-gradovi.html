@@ -38,12 +38,6 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 .traka{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   background:#fff;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);padding:9px 12px}
 .traka .nazivIgre{font-family:var(--pix2);font-size:11px;line-height:1.7;margin-right:auto}
-.natrag{font-weight:700;font-size:15px;text-decoration:none;color:var(--tinta);
-  border:3px solid var(--tinta);padding:5px 10px;background:#fff}
-.natrag:hover{background:var(--zut)}
-/* U aplikaciji se natrag ide gornjim izbornikom („Mini games“), pa je poveznica
-   na popis igara suvišna. Ostaje samo kad je igra otvorena sama za sebe. */
-html.uApp .natrag{display:none}
 .srca{display:flex;gap:5px;align-items:center}
 .srce{width:22px;height:19px;color:var(--koralj)}
 .srce.prazno{color:var(--tinta);opacity:.17}
@@ -148,7 +142,6 @@ html.uApp .natrag{display:none}
 <script>
 /* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
    — gornji izbornik aplikacije već vodi na isto mjesto. */
-if (window.self !== window.top) document.documentElement.className += ' uApp';
 </script>
 </head>
 <body>
@@ -159,7 +152,6 @@ if (window.self !== window.top) document.documentElement.className += ' uApp';
     <span class="nazivIgre">Towns of Croatia</span>
     <span class="brojac" id="brojac">Town 1 / 128</span>
     <span class="srca" id="srca"></span>
-    <a class="natrag" href="index.html">← games</a>
   </div>
 
   <!-- ===== UVOD ===== -->
