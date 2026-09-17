@@ -53,7 +53,7 @@ info: The agreement rule from Lesson 1, now applied to people: the adjective cop
 - tab: ona (she) | **-a** | Ona je visok**a**.
 - tab: mi, vi, oni | **-i** | Oni su visok**i**.
 - **Watch the -a- disappear.** Some adjectives drop a vowel the moment an ending arrives: *pamet**a**n → pametna*, *umor**a**n → umorna*, *glad**a**n → gladna*, *hrab**a**r → hrabra*. Say them out loud — the shorter version is easier to pronounce, which is exactly why it happened.
-- **One word does something different.** *Veseo* becomes *vesela*, *veseli*. The **-o** turns back into an **-l-**. It is the only word here that does this, so just remember it.
+- **One word does something different.** *Veseo* becomes *vesela*, *veseli*. The **-o** turns back into an **-l-**. It is the only word on this page that does it, but not the only one in Croatian: *topao → topla* in Grammar 1 works exactly the same way.
 - **The sentence formula.** Almost every sentence in this unit follows one of these two patterns.
 - tab: Pattern | Croatian | English
 - tab: pronoun + biti + noun | Ja sam kuhar. | I am a cook.
@@ -194,7 +194,7 @@ opis: One of these is how a Croatian would say it.
 ## Write the whole sentence
 format: upis
 info: Free production from English, the hardest step on this page. Build it as pronoun plus **biti** plus a noun or adjective, drop the pronoun if you like, but never let *sam, si* or *je* stand first: *Gladan sam* is right, *Sam gladan* is not.
-opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional, so both versions are accepted — as long as the verb isn't first.
+opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional with *ja* and *ti*, so both versions are accepted there; with *on* and *ona* keep it — and never let the verb come first.
 - I am a student. | Ja sam student. / Student sam.
 - You are a driver. | Ti si vozač. / Vozač si.
 - He is an actor. | On je glumac.
@@ -202,7 +202,7 @@ opis: The last step — the English sentence, and you write the Croatian. The pr
 - We are friends. | Mi smo prijatelji. / Prijatelji smo.
 - You are polite. | Vi ste ljubazni. / Ljubazni ste.
 - They are students. | Oni su studenti. / Studenti su.
-- Who are you? | Tko si ti?
+- Who are you? | Tko si ti? / Tko si?
 - She is tall and smart. | Ona je visoka i pametna.
 - He is tired. | On je umoran.
 - I am hungry. | Ja sam gladan. / Gladan sam.

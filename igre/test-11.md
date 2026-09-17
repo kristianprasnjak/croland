@@ -137,7 +137,7 @@ opis: Sort each number by its size.
 
 ## Tap the ending
 format: nastavak
-nastavci: i | a | e | o | u | -
+nastavci: i | a | e | o | u
 opis: The English is above. One tap makes the question word match its noun.
 - Koj___ film gledamo? | Which film are we watching? | i
 - Koj___ knjigu čitaš? | Which book are you reading? | u
@@ -149,10 +149,8 @@ opis: The English is above. One tap makes the question word match its noun.
 - Čij___ je ovo koljeno? | Whose knee is this? | e
 - Čij___ su ovo knjige? | Whose books are these? | e
 - Čij___ je ovo gitara? | Whose guitar is this? | a
-- Kakv___ je film? | What is the film like? | -
 - Kakv___ je kava? | What is the coffee like? | a
 - Kakv___ je more? | What is the sea like? | o
-- Kakv___ je tvoj brat? | What is your brother like? | -
 - Kakv___ je vrijeme danas? | What is the weather like today? | o
 - Kakv___ je tvoja sestra? | What is your sister like? | a
 - Koj___ je tvoja sestra? | Which one is your sister? | a
@@ -194,8 +192,8 @@ opis: Choose the correctly built question.
 - Are you tourists? | Jeste li turisti? | Ste li turisti?
 - Did you watch the film? | Jesi li gledao film? | Si li gledao film?
 - Is the film good? | Je li film dobar? | Film li je dobar?
-- Where do you live? | Gdje živiš? | Gdje ti živiš da?
-- How much does it cost? | Koliko košta? | Koliko to čini?
+- Where do you live? | Gdje živiš? | Gdje živiš li?
+- How much does it cost? | Koliko košta? | Koliko košta je?
 - Whom are you waiting for? | Koga čekaš? | Tko čekaš?
 
 ## Make a li-question

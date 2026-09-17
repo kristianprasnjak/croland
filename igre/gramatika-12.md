@@ -99,7 +99,7 @@ format: nastavak
 info: One tap in front of each word, and the English decides it. **Ni-** gives the negative word and **ne-** the positive twin; the same taps build *nisam*, *nemam*, *neće*, and *ne* can also stand alone in front of a verb. The dash means the sentence is positive.
 nastavci: ni | ne | -
 opis: English above, Croatian below. One tap — or none, if nothing is negative.
-- Ja ___što ne želim. | I don't want anything. | ni
+- Ja ___šta ne želim. | I don't want anything. | ni
 - Ana ___što kuha. | Ana is cooking something. | ne
 - Juha ___je gorka. | The soup is bitter. | -
 - Nitko ___ voli luk. | Nobody likes onion. | ne
@@ -188,7 +188,7 @@ info: *Ali* and *nego*, which English translates with the same *but*. *Ali* adds
 - tab: Croatian | English
 - tab: Ne pijem kavu, **nego** čaj. | I don't drink coffee, I drink tea.
 - tab: To nije juha, **nego** salata. | That isn't soup, it's salad.
-- tab: Ne idem u kino, **nego** u kazalište. | I'm not going to the cinema, but to the theatre.
+- tab: Ne idem u kino, **nego** u kazalište. | I'm not going to the cinema, but to the theater.
 - **ali or nego — the test:** does the first half stay true? *Kava nije jaka, **ali** je topla.* — both halves are true, so *ali*. *To nije kava, **nego** čaj.* — the first half is replaced, so *nego*.
 - **A comma always stands before nego**, as before *a* and *ali*.
 - **ne samo… nego i… — not only… but also…:** *Ne govorim samo engleski, **nego i** hrvatski.*

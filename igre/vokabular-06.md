@@ -4,11 +4,11 @@ cjelina: Vocabulary 6
 ## People — the ones that change
 format: kartice
 info: Flashcards of living masculine nouns, each shown with its accusative. Because they are alive, every one adds **-a** (*vozač* to *vozača*); the *-ac* words drop a vowel first, so *kupac* becomes **kupca** and *pas* becomes **psa**.
-opis: Living masculine nouns, each shown with its target form. Five of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**.
+opis: Living masculine nouns, each shown with its target form. Three of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**.
 - čovjek → čovjeka | man, person
 - prijatelj → prijatelja | friend
 - konobar → konobara | waiter
-- policajac → policajca | policeman
+- policajac → policajca | police officer
 - turist → turista | tourist
 - susjed → susjeda | neighbour
 - doktor → doktora | doctor
@@ -37,7 +37,7 @@ opis: Vehicles are things, so they never move an inch in the accusative. *Čekam
 - avion | airplane
 - motor | motorbike
 - karta → kartu | ticket
-- benzin | petrol
+- benzin | gasoline
 - gorivo | fuel
 - promet | traffic
 
@@ -52,7 +52,7 @@ opis: Your map of a Croatian town. Watch which ones end in **-a** — those stil
 - most | bridge
 - park | park
 - kolodvor | station
-- stanica → stanicu | stop, station
+- stanica → stanicu | stop
 - kiosk | kiosk
 - muzej | museum
 - galerija → galeriju | gallery
@@ -65,7 +65,7 @@ opis: Your map of a Croatian town. Watch which ones end in **-a** — those stil
 - tunel | tunnel
 - semafor | traffic light
 - spomenik | monument
-- kvart | neighbourhood
+- kvart | neighborhood
 
 ## Ten new verbs
 format: kartice
@@ -86,12 +86,11 @@ opis: City verbs. Four of them take a person as their target — and that's exac
 format: kartice
 info: Odds and ends of city vocabulary. The adjectives here still agree with their noun in gender (*pun grad*, *puna ulica*), and *Oprostite!* is the polite opener you use before asking a stranger anything at all.
 opis: The small change of city life — plus the one word that opens every conversation with a stranger.
-- kat | floor, storey
+- kat | floor, level
 - ključ | key
 - broj | number
 - glazba → glazbu | music
 - osoba → osobu | person
-- spomenik | monument
 - pun / puna | full
 - brz / brza | fast
 - blizu | near, nearby
@@ -158,7 +157,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 - most | bridge
 - trg | square
 - muzej | museum
-- policajac | policeman
+- policajac | police officer
 
 ## Match the pairs
 format: parovi
@@ -185,7 +184,7 @@ opis: Match each city word with its English meaning.
 
 ## Memory
 format: memorija
-info: A memory game pairing verb forms with their English. Every Croatian card is a *ja* form, so its ending names the family: *-am* in *čekam*, *-im* in *vozim*, *-em* in *zovem*.
+info: A memory game pairing verb forms with their English. Most Croatian cards are *ja* forms, so the ending names the family: *-am* in *čekam*, *-im* in *vozim*, *-em* in *zovem*.
 opis: Flip the cards and find the pairs.
 - čekam | I wait
 - vidim | I see
@@ -196,7 +195,7 @@ opis: Flip the cards and find the pairs.
 - žurim | I hurry
 - ulazim | I get on
 - konobar | waiter
-- policajac | policeman
+- policajac | police officer
 
 ## Speed challenge: naming → target
 format: brzina
@@ -234,7 +233,7 @@ opis: City sprint — tap the English meaning.
 - avion | airplane
 - taksi | taxi
 - karta | ticket
-- benzin | petrol
+- benzin | gasoline
 - gorivo | fuel
 - promet | traffic
 - grad | city
@@ -269,7 +268,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 - vozač | driver
 - učenik | pupil
 - poštar | postman
-- kazalište | theatre
+- kazalište | theater
 - galerija | gallery
 
 ## Type the target form
@@ -313,7 +312,7 @@ opis: The final round — type each word in Croatian, in its naming form.
 - airplane | avion
 - taxi | taksi
 - ticket | karta
-- petrol | benzin
+- gasoline | benzin
 - fuel | gorivo
 - traffic | promet
 - city | grad
@@ -335,7 +334,7 @@ opis: The final round — type each word in Croatian, in its naming form.
 - key | ključ
 - floor | kat
 - waiter | konobar
-- policeman | policajac
+- police officer | policajac
 - tourist | turist
 - driver | vozač
 - postman | poštar

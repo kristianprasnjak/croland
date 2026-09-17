@@ -15,7 +15,7 @@ opis: Match each Croatian word with its English meaning.
 - avion | airplane
 - taksi | taxi
 - karta | ticket
-- benzin | petrol
+- benzin | gasoline
 - gorivo | fuel
 - promet | traffic
 - grad | city
@@ -38,13 +38,13 @@ opis: Match each Croatian word with its English meaning.
 - tunel | tunnel
 - semafor | traffic light
 - spomenik | monument
-- kvart | neighbourhood
+- kvart | neighborhood
 - kat | floor
 - ključ | key
 - čovjek | man
 - prijatelj | friend
 - konobar | waiter
-- policajac | policeman
+- policajac | police officer
 - turist | tourist
 - susjed | neighbour
 - doktor | doctor
@@ -77,8 +77,8 @@ opis: Pick the correct meaning.
 - avion | airplane | boat | train
 - taksi | taxi | bus | car
 - karta | ticket | key | bill
-- benzin | petrol | fuel | oil
-- gorivo | fuel | petrol | traffic
+- benzin | gasoline | fuel | oil
+- gorivo | fuel | gasoline | traffic
 - promet | traffic | street | road
 - grad | city | square | building
 - ulica | street | road | bridge
@@ -87,7 +87,7 @@ opis: Pick the correct meaning.
 - most | bridge | tunnel | road
 - kolodvor | station | stop | kiosk
 - stanica | stop | station | office
-- muzej | museum | gallery | theatre
+- muzej | museum | gallery | theater
 - galerija | gallery | museum | library
 - katedrala | cathedral | church | monument
 - banka | bank | office | shop
@@ -97,22 +97,22 @@ opis: Pick the correct meaning.
 - ured | office | building | bank
 - semafor | traffic light | traffic | lamp
 - spomenik | monument | statue | square
-- kvart | neighbourhood | city | street
+- kvart | neighborhood | city | street
 - kat | floor | key | number
 - ključ | key | floor | ticket
 - čovjek | man | boy | friend
 - prijatelj | friend | neighbour | colleague
 - konobar | waiter | cook | customer
-- policajac | policeman | postman | driver
+- policajac | police officer | postman | driver
 - turist | tourist | student | guest
 - susjed | neighbour | friend | relative
 - vozač | driver | passenger | mechanic
-- poštar | postman | policeman | waiter
+- poštar | postman | police officer | waiter
 - učenik | pupil | teacher | student
 - dječak | boy | girl | child
-- kupac | customer | seller | buyer's bag
+- kupac | customer | seller | waiter
 - konj | horse | dog | pigeon
-- golub | pigeon | dove keeper | crow
+- golub | pigeon | horse | crow
 - čekati | to wait for | to call | to hurry
 - vidjeti | to see | to hear | to look for
 - čuti | to hear | to see | to speak
@@ -138,7 +138,7 @@ opis: Pick the correct meaning.
 - traffic light | semafor | spomenik | tunel
 - key | ključ | karta | broj
 - waiter | konobar | kupac | vozač
-- policeman | policajac | poštar | student
+- police officer | policajac | poštar | student
 - tourist | turist | susjed | učenik
 - driver | vozač | poštar | konobar
 - to wait for | čekati | zvati | žuriti
@@ -278,7 +278,7 @@ opis: Three buttons, three outcomes. Feminine takes **-u**, a masculine being ta
 - Fotografiram turist___ . | I'm photographing the tourist. | a
 - Fotografiram spomenik___ . | I'm photographing the monument. | -
 - Nosim vrećic___ . | I'm carrying the bag. | u
-- Gledam pas___ . | I'm looking at the dog. | a
+- Gledam golub___ . | I'm looking at the pigeon. | a
 - Vidim semafor___ . | I see the traffic light. | -
 - Kupujem kart___ . | I'm buying a ticket. | u
 - Tražim stanic___ . | I'm looking for the stop. | u
@@ -387,12 +387,12 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Ana vidi prijatelja. | en: Ana sees a friend.
 - Marko zove konobara. | en: Marko is calling the waiter.
 - Turist fotografira spomenik. | en: The tourist is photographing the monument.
-- Policajac gleda promet. | en: The policeman is watching the traffic.
-- Policajac gleda turista. | en: The policeman is watching the tourist.
+- Policajac gleda promet. | en: The police officer is watching the traffic.
+- Policajac gleda turista. | en: The police officer is watching the tourist.
 - Čovjek vodi psa. | en: The man is walking the dog.
 - Vozač čeka semafor. | en: The driver is waiting for the traffic light.
 - Vidim tramvaj, ali ne vidim autobus. | en: I see the tram, but I don't see the bus.
-- Vidim policajca. | en: I see the policeman.
+- Vidim policajca. | en: I see the police officer.
 - Kupujem kartu. | en: I'm buying a ticket.
 - Tražim stanicu. | en: I'm looking for the stop.
 - Vidim ga. | en: I see him.
@@ -406,26 +406,26 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it.
 - I'm waiting for the tram. | Čekam tramvaj. / Ja čekam tramvaj.
 - I'm waiting for a friend. | Čekam prijatelja. / Ja čekam prijatelja.
 - I see a man. | Vidim čovjeka. / Ja vidim čovjeka.
-- I see a man and a dog. | Vidim čovjeka i psa.
+- I see a man and a dog. | Vidim čovjeka i psa. / Ja vidim čovjeka i psa.
 - Ana sees a friend. | Ana vidi prijatelja.
 - Marko is calling the waiter. | Marko zove konobara.
 - The tourist is photographing the monument. | Turist fotografira spomenik.
-- The policeman is watching the traffic. | Policajac gleda promet.
-- The policeman is watching the tourist. | Policajac gleda turista.
+- The police officer is watching the traffic. | Policajac gleda promet.
+- The police officer is watching the tourist. | Policajac gleda turista.
 - The man is walking the dog. | Čovjek vodi psa.
 - I'm buying a ticket. | Kupujem kartu. / Ja kupujem kartu.
 - I'm looking for the stop. | Tražim stanicu. / Ja tražim stanicu.
-- I see the policeman. | Vidim policajca. / Ja vidim policajca.
+- I see the police officer. | Vidim policajca. / Ja vidim policajca.
 - I'm driving a car. | Vozim auto. / Ja vozim auto.
-- I see him. | Vidim ga.
-- I'm reading it. (the book) | Čitam je.
+- I see him. | Vidim ga. / Ja ga vidim.
+- I'm reading it. (the book) | Čitam je. / Ja je čitam.
 - Ana is waiting for me. | Ana me čeka.
-- I love you. | Volim te.
+- I love you. | Volim te. / Ja te volim.
 - The waiter sees us. | Konobar nas vidi.
-- I'm calling them. | Zovem ih.
+- I'm calling them. | Zovem ih. / Ja ih zovem.
 - The street is full. | Ulica je puna.
 - The tram is full. | Tramvaj je pun.

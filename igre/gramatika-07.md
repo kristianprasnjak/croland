@@ -180,7 +180,7 @@ opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every
 - Učenici sluša___ tiho. | The pupils listen quietly. | ju
 - Mi ponavlja___ lekciju. | We are repeating the lesson. | mo
 - Vi odgovara___ brzo. | You all answer quickly. | te
-- Učenici vježba___ svaki dan. | The pupils practise every day. | ju
+- Učenici vježba___ svaki dan. | The pupils practice every day. | ju
 
 ## Tap what THEY do
 format: nastavak

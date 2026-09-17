@@ -55,12 +55,12 @@ info: This is the core rule page of the lesson: *sam, si, je, smo, ste, su*, one
 - tab: oni, one, ona | su | they are
 - **Now you write them.** Ja [sam] Ana. Ti [si] student. Ona [je] doktorica. Mi [smo] turisti.
 - **The pronoun is optional.** The verb already says who. *Studentica sam* means the same as *Ja sam studentica*. Just never start with the verb itself.
-- **A word about mi, vi, oni.** They talk about more than one person, so the word after them needs a plural. For now one ending does the job: add **-i**. *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*, *umoran → umorni*. The full plural rules come in Lesson 7 — until then, every plural you meet here follows this one.
+- **A word about mi, vi, oni.** They talk about more than one person, so the word after them needs a plural. For now one ending does the job: add **-i** — and a word that drops a vowel keeps dropping it: *student → studenti*, *prijatelj → prijatelji*, *sretan → sretni*, *umoran → umorni*, *veseo → veseli*. One thing to know in advance: with the polite *vi* the adjective goes plural but the noun stays singular — *Vi ste profesor*, *Vi ste ljubazni*. The full plural rules come in Lesson 7.
 
 ## Describing people
 format: kartice
 info: Adjective cards shown in the **on** form. Add **-a** for *ona* and **-i** for *oni*: *visok, visoka, visoki*. Watch *pametan*, *sretan* and *umoran* — the second vowel falls out as soon as an ending arrives (*pametna*), and *veseo* becomes *vesela*.
-opis: New adjectives — this time for people. Each card shows the form for **on** (he). For **ona** add **-a**, for **oni** add **-i** — the same rule you already know from Lesson 1.
+opis: New adjectives — this time for people. Each card shows the form for **on** (he). For **ona** add **-a** — the ending you already know from Lesson 1 — and for **oni** add **-i**.
 - mlad | young
 - visok | tall
 - jak | strong
@@ -133,15 +133,15 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 ## Your first conversation
 format: dijalog
 info: A guided dialogue where you choose a reply each turn. Petra speaks to you as *ti*, so answer with *ti* and *ja sam* forms. Agreement applies to you as well: a woman says *pametn**a*** and *vesel**a***, a man *pametan* and *veseo*.
-opis: You meet Petra at a café in Zagreb. Choose your replies and keep the conversation going!
+opis: You meet Petra at a café in Zagreb. You are Tom today, so your own replies take the male endings. Choose your replies and keep the conversation going!
 - npc | Dobar dan! Ja sam Petra.
-- ti | Dobar dan! Ja sam Ana. | Bok! Ja sam Tom.
-- npc | Tko si ti? Student?
+- ti | Dobar dan! Ja sam Tom. | Bok! Ja sam Tom, turist.
+- npc | Super! Ti si student?
 - ti | Da, ja sam student. | Ne, ja sam profesor.
-- npc | Super! Ja sam studentica.
-- ti | Ti si pametna! | Mi smo studenti!
+- npc | Lijepo! Ja sam doktorica.
+- ti | Ti si pametna! | Mi smo prijatelji!
 - npc | Hvala! Ja sam i vesela.
-- ti | Drago mi je! | Bok!
+- ti | Drago mi je! | Super, Petra!
 - npc | Da! Mi smo prijatelji.
 
 ## Lesson checkpoint

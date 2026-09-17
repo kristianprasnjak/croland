@@ -183,4 +183,4 @@ opis: Final check! Score 80% to be ready for Vocabulary 1.
 format: tekst
 info: A closing recap: you can now name a thing and describe it using **je**, and you have seen that the description's ending follows the noun's last letter. The full rules come in Grammar 1, so for now the pattern is enough.
 - Bravo! You just built your first Croatian sentences — with no articles to worry about and spelling you can always trust.
-- **Next up:** Vocabulary 1 turns today's words into a proper deck — every thing, colour and size in one place. Then Grammar 1 names the rule behind the endings you just used.
+- **Next up:** Vocabulary 1 turns today's words into a proper deck — every thing, color and size in one place. Then Grammar 1 names the rule behind the endings you just used.

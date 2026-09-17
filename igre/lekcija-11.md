@@ -7,7 +7,7 @@ info: A short read to open the lesson. Croatian asks a question with no helper w
 opis: Read it through — by the end you can ask about anything.
 - So far you've mostly been *telling* — now you'll start *asking*. Today's mission: buy the perfect birthday present. To do that, you need questions: *What does she like? Who is it for? How much does it cost?*
 - **Croatian needs no helper word.** English builds a question with *do*: *what **do** you buy?* Croatian puts the question word in front of the ordinary present tense and stops there: *Što kupuješ?*
-- **You already ask one kind of question.** In Lesson 5 you learned *li* — *Trebate li vrećicu?* Today you get the eight question words that go with it, and the tag *zar ne?*
+- **You already ask one kind of question.** In Lesson 5 you learned *li* — *Trebate li vrećicu?* — and Lesson 4 gave you six question words for reading. Today they come back to be used, with two more and the tag *zar ne?*
 - By the end of this lesson you can ask who, what, where, when, why, how, how much and which.
 
 ## Rapid recall
@@ -30,7 +30,7 @@ opis: Past sprint from Lesson 10 — tap the correct participle before the timer
 
 ## The question words
 format: kartice
-info: The full set. Five of them never change shape — *tko, što, gdje, kada, zašto, kako, koliko* — while *koji*, *kakav* and *čiji* take endings, because they stand in front of a noun. *Koga* is the target form of *tko*, the same **-a** you learned for living beings in Lesson 6.
+info: The full set. Most never change shape — *tko, što, gdje, kada, zašto, kako, koliko* — while *koji*, *kakav* and *čiji* take endings, because they stand in front of a noun. *Koga* is the target form of *tko*, the same **-a** you learned for living beings in Lesson 6.
 opis: The words that open a question. Tap a card to reveal the meaning.
 - tko? | who?
 - koga? | whom? (as the target)
@@ -49,7 +49,7 @@ opis: The words that open a question. Tap a card to reveal the meaning.
 
 ## Numbers 1–20
 format: kartice
-info: The numbers, and you need them for the two most common questions of all: *Koliko godina imaš?* and *Koliko košta?* The teens are built from the units — *jedan* plus *-naest* gives *jedanaest* — so once you have one to ten, the rest is a pattern.
+info: The numbers, and you need them for the two most common questions of all: *Koliko godina imaš?* and *Koliko košta?* The teens are built from the units — *jedan* plus *-naest* gives *jedanaest* — so once you have one to ten, the rest is nearly a pattern; *dvanaest*, *četrnaest* and *šesnaest* trim the unit a little.
 opis: One to twenty, plus the round numbers you need for ages and prices.
 - jedan / jedna | one
 - dva / dvije | two
@@ -130,8 +130,8 @@ stupci: UPITNA RIJEČ | LI | ZAR NE
 
 ## Tap the ending
 format: nastavak
-info: One tap for the three question words that agree. They copy the noun that follows: a masculine noun gives the bare form or **-i**, a feminine noun **-a**, a neuter noun **-e** or **-o**. *Kakav* is the odd one — its masculine form ends in a consonant, so the dash is the answer there. Two items ask about a target, where the feminine ending is **-u**: *Koj**u** knjigu čitaš?*
-nastavci: i | a | e | o | u | -
+info: One tap for the three question words that agree. They copy the noun that follows: a masculine noun gives the bare form or **-i**, a feminine noun **-a**, a neuter noun **-e** or **-o**. *Kakav* keeps its masculine form whole (*Kakav je film?*), so here it turns up only with feminine and neuter nouns. Two items ask about a target, where the feminine ending is **-u**: *Koj**u** knjigu čitaš?*
+nastavci: i | a | e | o | u
 opis: English above, Croatian below. One tap makes the question word match its noun.
 - Koj___ film gledamo? | Which film are we watching? | i
 - Koj___ knjigu čitaš? | Which book are you reading? | u
@@ -139,12 +139,10 @@ opis: English above, Croatian below. One tap makes the question word match its n
 - Čij___ je ovo dres? | Whose jersey is this? | i
 - Čij___ je ovo lopta? | Whose ball is this? | a
 - Čij___ je ovo koljeno? | Whose knee is this? | e
-- Kakv___ je film? | What is the film like? | -
 - Kakv___ je kava? | What is the coffee like? | a
 - Kakv___ je more? | What is the sea like? | o
 - Koj___ je tvoja sestra? | Which one is your sister? | a
 - Čij___ je ovo gitara? | Whose guitar is this? | a
-- Kakv___ je tvoj brat? | What is your brother like? | -
 - Koj___ vlak ide u Split? | Which train goes to Split? | i
 - Kakv___ je vrijeme danas? | What is the weather like today? | o
 - Čij___ su ovo knjige? | Whose books are these? | e
@@ -211,7 +209,7 @@ opis: Which question word fits? Read the answer first.
 
 ## Type the question word
 format: upis
-info: You type the word, with the answer given. Two need an ending that matches the noun — *koji* and *kakav* — and one is the target form of *tko*: *Koga čekaš?*
+info: You type the word, with the answer given. Three need an ending that matches the noun — *koji*, *kakav* and *čiji* — and one is the target form of *tko*: *Koga čekaš?*
 opis: The answer is given — type the question word.
 - ___ je to? — To je moja sestra. | Tko
 - ___ je gitara? — Gitara je u sobi. | Gdje
@@ -244,16 +242,16 @@ opis: Arrange the tiles to build the question.
 ## The present hunt
 format: dijalog
 info: A shop conversation built on questions. Everything you ask uses this lesson: *Što…?*, *Koliko košta…?*, *Imate li…?* The assistant uses *vi*, so answer politely and keep the verb in the *vi* form when you ask her something.
-opis: You're buying a birthday present for your sister. Choose your replies. Passive words: *Izvolite?* (What would you like?), *samo gledam* (I'm just looking), *preporučiti* (to recommend), *savršen* (perfect).
+opis: You're buying a birthday present for your sister. Choose your replies. Passive words: *Izvolite?* (What would you like?), *tražim* (I'm looking for), *parfem* (perfume), *jeftinije* (cheaper), *savršen* (perfect).
 - npc | Dobar dan! Izvolite?
-- ti | Dobar dan! Kupujem poklon za sestru. | Dobar dan! Samo gledam, hvala.
+- ti | Dobar dan! Kupujem poklon za sestru. | Dobar dan! Tražim poklon za sestru, ali ne znam što.
 - npc | Lijepo! Što ona voli?
 - ti | Ona voli glazbu i knjige. | Ne znam... Što vi imate?
 - npc | Imamo gitare, knjige i parfeme.
 - ti | Koliko košta gitara? | Imate li dobre knjige?
 - npc | Gitara košta sto eura. Nije jeftina, ali je odlična.
 - ti | Kakva je ta gitara? | Imate li nešto jeftinije?
-- npc | Nova je i jako dobra. Koliko godina ima vaša sestra?
+- npc | Nova je i jako dobra, a knjige su jeftinije. Koliko godina ima vaša sestra?
 - ti | Ima dvadeset godina. | Sutra ima dvadeset jednu.
 - npc | Onda je gitara savršen poklon!
 - ti | Super, kupujem gitaru! | Hvala, ali kupujem knjigu.

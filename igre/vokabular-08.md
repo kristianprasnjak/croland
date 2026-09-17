@@ -44,7 +44,7 @@ opis: How you travel and what you need before you leave.
 ## What you'll pack
 format: kartice
 info: Clothes, and a reminder that gender is visible in the ending. *Majica*, *košulja* and *haljina* end in *-a* and are feminine, while *šešir*, *kaput* and *džemper* are masculine. *Hlače* exists only in the plural, like English *trousers*.
-opis: Clothes for a Croatian summer — and two for when the *bura* starts blowing.
+opis: Clothes for a Croatian summer — and three for when the *bura* starts blowing.
 - majica | T-shirt
 - košulja | shirt
 - haljina | dress
@@ -309,7 +309,7 @@ opis: You get the infinitive — type the form that stands in front of *ću*.
 
 ## Type it in Croatian
 format: upis
-info: The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the accented letter, not its plain twin.
+info: The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the letter with its diacritic, not its plain twin.
 opis: The final round — type each word in Croatian.
 - sea | more
 - beach | plaža

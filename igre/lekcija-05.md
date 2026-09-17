@@ -7,7 +7,7 @@ info: This page introduces your first Croatian case in a single letter. A femini
 - Today is a big day. You're going shopping at a Croatian market — and on the way, you'll unlock the thing Croatian is famous for: **cases**.
 - Don't worry. Your first case changes exactly *one letter*. Watch:
 - *Kava je dobra.* — The coffee is good. *Pijem kav**u**.* — I'm drinking coffee.
-- When a feminine word (ending in **-a**) becomes the *target* of an action — the thing you drink, buy, or love — its **-a** turns into **-u**. That's the whole rule. Let's go shopping.
+- When a feminine word (ending in **-a**) becomes the *target* of an action — the thing you drink, buy, or love — its **-a** turns into **-u**. That's the whole rule — and the two masculine words that end in **-a**, *tata* and *kolega*, swap the same way: *Čekam tat**u***. Let's go shopping.
 
 ## Rapid recall
 format: brzina
@@ -188,7 +188,7 @@ info: This page hands you the yes-or-no question. Verb first, then ***li***, the
 ## At the shop
 format: dijalog
 info: A live shop conversation where you pick your replies. Everything you ask for is a target, so feminine words end in **-u** (*Trebam vod**u***), and the assistant's *Trebate li vrećicu?* is verb plus *li*.
-opis: You walk into a small shop in Split. Choose your replies and do your first shopping in Croatian! Passive words: *odličnu* (excellent), *jednu* (one) — whole phrases for now.
+opis: You walk into a small shop in Split. Choose your replies and do your first shopping in Croatian! Passive words: *odličnu* (excellent), *jednu* (one), *Vidimo se!* (See you!) — whole phrases for now.
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Trebam vodu, kavu i čokoladu. | Dobar dan! Trebam sok.
 - npc | Imamo odličnu čokoladu danas.
@@ -196,9 +196,9 @@ opis: You walk into a small shop in Split. Choose your replies and do your first
 - npc | Trebate li vrećicu?
 - ti | Da, molim. | Ne, hvala.
 - npc | Izvolite. To je sve?
-- ti | Trebam još jednu ribu. | Da, to je sve.
+- ti | Trebam još jednu čokoladu. | Da, to je sve.
 - npc | Izvolite. Hvala!
-- ti | Hvala! Doviđenja!
+- ti | Hvala! Doviđenja! | Hvala! Vidimo se!
 
 ## Accusative sprint
 format: brzina
@@ -225,7 +225,7 @@ opis: A word flashes in its naming form — tap its target form before it disapp
 format: izbor
 info: Read the market scene, then answer. Let the endings guide you: the **-u** words (*kavu*, *pitu*, *jabuku*) are what Ana buys and consumes, while the **-a** words are the ones being described.
 tekst: Subota je. Ana je gladna i žedna. Ona pije kavu i jede pitu. Kava je jaka, a pita je slatka. Poslije Ana kupuje jabuku, krušku i rajčicu. Voće je svježe, ali je skupo. Ana bira vrećicu i plaća račun. Tržnica je velika i šarena.
-opis: Read the market scene, then answer the questions. Passive words: *gladan* (hungry), *žedan* (thirsty), *jak* (strong), *šaren* (colourful), *bira* (chooses), *račun* (bill).
+opis: Read the market scene, then answer the questions. Passive words: *gladan* (hungry), *žedan* (thirsty), *jak* (strong), *šaren* (colorful), *bira* (chooses), *račun* (bill).
 - Što Ana pije? | kavu | vodu | sok
 - Što Ana jede? | pitu | tortu | juhu
 - Što Ana kupuje? | jabuku, krušku i rajčicu | ribu i salatu | kruh i sir
@@ -236,7 +236,7 @@ opis: Read the market scene, then answer the questions. Passive words: *gladan* 
 format: provjera
 info: The mixed final check on the whole lesson. One rule carries most of the points: a feminine **-a** turns into **-u** as the target of the verb, while *kruh* and *sok* stay untouched in every sentence.
 prag: 80
-opis: Final check! Score 80% to finish Module A and earn your first big badge.
+opis: Final check! Score 80% to be ready for Vocabulary 5.
 - slaganje | Trebam vodu i kavu.
 - izbor | Ana kupuje ___ . | bananu | banana | banane
 - upis | Napiši ciljni oblik: jabuka → | jabuku
@@ -254,4 +254,4 @@ opis: Final check! Score 80% to finish Module A and earn your first big badge.
 format: tekst
 info: A closing page with nothing to tap. What you now own is one swap — feminine **-a** to **-u** for whatever the verb acts on — plus the *li* question, built by putting the verb first and *li* right behind it.
 - Čestitamo! You just learned your first Croatian case — and survived. One letter changed, a whole grammar door opened.
-- **Next up:** Grammar 5 puts the adjective on the same leash (*crna kava → crnu kavu*) and teaches you how to say where you're *going*. Then Lesson 6 brings the same trick to masculine words — and explains why Croatian treats *people* differently from *things*.
+- **Next up:** Vocabulary 5 fills the basket — food, shops and ten new verbs. Then Grammar 5 puts the adjective on the same leash (*crna kava → crnu kavu*) and teaches you how to say where you're *going*. Then Lesson 6 brings the same trick to masculine words — and explains why Croatian treats *people* differently from *things*.

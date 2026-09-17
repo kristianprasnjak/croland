@@ -53,7 +53,7 @@ opis: Match each Croatian word with its English meaning.
 - pošten | fair
 - slobodan | free
 - različit | different
-- omiljen | favourite
+- omiljen | favorite
 
 ## What does it mean?
 format: izbor
@@ -92,7 +92,7 @@ opis: Pick the correct meaning.
 - vrat | neck | back | head
 - strog | strict | fair | free
 - pošten | fair | strict | different
-- različit | different | same | favourite
+- različit | different | same | favorite
 - slobodan | free | busy | tired
 - stadion | stadium | club | park
 - trening | training | match | goal

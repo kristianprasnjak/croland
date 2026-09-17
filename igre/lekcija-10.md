@@ -5,7 +5,7 @@ cjelina: Lesson 10
 format: tekst
 info: A short read that opens the past tense. Croatian builds it from two pieces you already know: the verb **biti** (*sam, si, je, smo, ste, su*) from Lesson 2 and one new form of the main verb, the participle — *Gledao sam film.* Nothing here is to be answered, just read.
 opis: Read it through — by the end of the lesson you'll be telling stories about yesterday.
-- You can describe, ask, plan and dream in Croatian. One thing is missing: telling stories. *What did you do yesterday?*
+- You can describe, plan and say what you do every day. One thing is missing: telling stories. *What did you do yesterday?*
 - Good news: the past tense recycles something you've known since Lesson 2 — the verb *biti*. **Sam, si, je...** plus one new word form, and suddenly: *Gledao sam film. Bio je odličan!* — I watched a film. It was excellent!
 - One past tense does the work of three English ones: *I watched, I was watching, I have watched* are all simply *gledao sam*.
 - Let's talk about yesterday.
@@ -30,7 +30,7 @@ opis: Possessive sprint from Lesson 9 — tap the form that fits the noun before
 
 ## Yesterday words
 format: kartice
-info: Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they announce that a story is coming. *Prošli* takes adjective endings: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three new verbs come in their *ja* form, as always.
+info: Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they announce that a story is coming. *Prošli* takes adjective endings: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three familiar verbs come back in their *ja* form, as always.
 opis: Words for yesterday, last weekend and everything you did in between. Tap a card to reveal the meaning.
 - jučer | yesterday
 - prošli / prošla / prošlo | last (prošli vikend, prošla subota)
@@ -97,7 +97,7 @@ opis: Match each verb with its past form (the he-form).
 
 ## The rule: biti + participle
 format: tekst
-info: The core rule of the lesson in one formula: a form of **biti** plus the participle. The participle carries the gender — **-o** for a man or a boy, **-la** for a woman or a girl, **-li** for any group, **-lo** for a neuter thing like *more* or *sunce* — and *biti* carries the person, exactly as it did in Lesson 2. **The verb form alone shows who is speaking.**
+info: The core rule of the lesson in one formula: a form of **biti** plus the participle. The participle carries the gender of the subject — **-o** for a man or any masculine word (*Marko je bio*, *Film je bio*), **-la** for a woman or any feminine word (*Ana je bila*, *Voda je bila*), **-li** for a group (*djeca* and *braća* take **-la**), **-lo** for a neuter word like *more* or *sunce* — and *biti* carries the person, exactly as it did in Lesson 2. **The verb form alone shows who is speaking.**
 infoodmah: da
 opis: One formula, four endings. Read the table, then say the last row out loud in your own gender.
 - **The formula:** *biti* (sam, si, je, smo, ste, su) **+** participle. You know the first half from Lesson 2. The second half you just built.
@@ -110,7 +110,8 @@ opis: One formula, four endings. Read the table, then say the last row out loud 
 - tab: a neuter thing | je | -lo | More je bilo toplo.
 - **The speaker's gender matters.** A man says *Spavao sam dugo.* A woman says *Spavala sam dugo.* English has no equivalent: the Croatian verb form alone shows whether a man or a woman is speaking.
 - **One past for everything.** *Gledao sam* covers *I watched*, *I was watching* and *I have watched*. There is nothing else to learn.
-- **Sound note.** *jesti → jeo, jela, jeli* — the *d* is dropped. Everything else loses only the *-ti*.
+- **Sound note.** *jesti → jeo, jela, jeli* — the *s* of the infinitive gives way to the *d* of *jedem*. Everything else loses only the *-ti*.
+- **Two words take -la for a group:** *djeca* and *braća*. They mean many people, but each behaves like one feminine word, so it is *Djeca su spava**la***, *Braća su doš**la*** — the same quirk as *Vidim djecu* in Lesson 7.
 - **Now you write them.** Ja sam [gledao] film — kaže muškarac. Ja sam [gledala] film — kaže žena. Mi smo [gledali] film — kaže grupa. More je [bilo] toplo.
 
 ## He, she or they?
@@ -148,7 +149,7 @@ opis: English above, Croatian below. One tap completes the participle. **-o** fo
 - Mi smo gleda___ film. | We watched a film. | li
 - Jučer sam spava___ dugo. (a man) | Yesterday I slept for a long time. | o
 - Jučer sam spava___ dugo. (a woman) | Yesterday I slept for a long time. | la
-- Djeca su spava___ dugo. | The children slept for a long time. | li
+- Dječaci su spava___ dugo. | The boys slept for a long time. | li
 - Marko je pi___ kavu. | Marko drank coffee. | o
 - Petra je pi___ sok. | Petra drank juice. | la
 - Pi___ smo kavu i pričali smo. | We drank coffee and talked. | li
@@ -166,7 +167,7 @@ opis: English above, Croatian below. One tap completes the participle. **-o** fo
 
 ## Pick the right combo
 format: izbor
-info: Multiple choice on the whole pair, helper plus participle. Two things have to agree at once: the helper with the **person** (*je* for Marko, *smo* for us) and the participle with the **gender** (*igrao* for him, *igrala* for her). The distractors each get exactly one of the two wrong.
+info: Multiple choice on the whole pair, helper plus participle. Two things have to agree at once: the helper with the **person** (*je* for Marko, *smo* for us) and the participle with the **gender** (*igrao* for him, *igrala* for her). Each wrong option gets the helper, the gender, or both wrong.
 opis: Choose the correct past form — both halves have to fit.
 - Marko ___ tenis. | je igrao | je igrala | su igrali
 - Ana ___ cijeli dan. | je učila | je učio | su učili
@@ -274,7 +275,7 @@ opis: Your friend Petra didn't see you all day yesterday and asks about it. Choo
 - npc | Bok! Jučer te nisam vidjela cijeli dan!
 - ti | Bio sam na moru. | Bila sam na moru.
 - npc | Na moru? Super! Kako je bilo?
-- ti | Bilo je savršeno. Plivao sam cijeli dan. | Bilo je savršeno. Plivala sam cijeli dan.
+- ti | Bilo je savršeno. Plivao sam i čitao. | Bilo je savršeno. Plivala sam i čitala.
 - npc | A navečer? Što je bilo navečer?
 - ti | Navečer sam gledao film. | Navečer sam gledala film.
 - npc | Koji film? Komedija?

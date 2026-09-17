@@ -14,9 +14,9 @@ opis: Match each Croatian word with its English meaning.
 - akcija | action film
 - horor | horror film
 - dokumentarac | documentary
-- program | programme
+- program | TV program
 - koncert | concert
-- kazalište | theatre
+- kazalište | theater
 - izložba | exhibition
 - utakmica | match
 - ispit | exam
@@ -79,10 +79,10 @@ opis: Pick the correct meaning.
 - znati | to know | to want | to ask
 - imati | to have | to give | to take
 - pobijediti | to win | to lose | to play
-- kazalište | theatre | cinema | gallery
+- kazalište | theater | cinema | gallery
 - izložba | exhibition | concert | match
 - dokumentarac | documentary | comedy | horror film
-- serija | series | film | programme
+- serija | series | film | TV program
 - ispit | exam | grade | homework
 - posao | work | holiday | weekend
 - bio | was | will be | is
@@ -148,7 +148,7 @@ opis: The English is above. One tap completes the participle — find the subjec
 - Mi smo gleda___ film. | We watched a film. | li
 - Jučer sam spava___ dugo. (a man) | Yesterday I slept for a long time. | o
 - Jučer sam spava___ dugo. (a woman) | Yesterday I slept for a long time. | la
-- Djeca su spava___ dugo. | The children slept for a long time. | li
+- Dječaci su spava___ dugo. | The boys slept for a long time. | li
 - Marko je pi___ kavu. | Marko drank coffee. | o
 - Petra je pi___ sok. | Petra drank juice. | la
 - More je bi___ toplo. | The sea was warm. | lo

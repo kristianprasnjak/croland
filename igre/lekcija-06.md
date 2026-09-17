@@ -39,7 +39,7 @@ opis: The city vocabulary — plus seven new verbs for urban life. Notice the tw
 - vlak | train
 - bicikl | bicycle
 - karta | ticket
-- stanica | stop, station
+- stanica | stop
 - ulica | street
 - promet | traffic
 - broj | number
@@ -51,7 +51,7 @@ opis: The city vocabulary — plus seven new verbs for urban life. Notice the tw
 - čovjek | man, person
 - prijatelj | friend
 - konobar | waiter
-- policajac | policeman
+- policajac | police officer
 - turist | tourist
 - doktor | doctor
 - susjed | neighbour
@@ -166,7 +166,7 @@ opis: Choose the correct form.
 
 ## Build the street scene
 format: slaganje
-info: You build whole sentences from tiles. Order stays subject, verb, target, and the target carries the ending: *Ana vidi prijatelja* but *Čekam tramvaj*. The comma still goes before *ali*, *a* and *jer*.
+info: You build whole sentences from tiles. Order stays subject, verb, target, and the target carries the ending: *Ana vidi prijatelja* but *Čekam tramvaj*. The comma still goes before *ali* and *a*; before *jer* Croatian usually leaves it out.
 opis: Arrange the tiles to build the sentence.
 - Čekam tramvaj.
 - Ana vidi prijatelja.
@@ -182,10 +182,10 @@ opis: Arrange the tiles to build the sentence.
 ## At the stop
 format: dijalog
 info: A street conversation where you choose each reply. Every answer keeps the accusative alive — *čekam autobus* for a thing, *čekam prijatelja* for a person. Read the other speaker's line first; it usually contains the word you need.
-opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — choose your replies. Passive words: *Čekate li?* (Are you waiting?), *gust* is not needed here, *evo* (here is), *bolestan* (ill).
+opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — choose your replies. Passive words: *Čekate li?* (Are you waiting?), *pun* (full), *žurim* (I'm in a hurry), *jedan* (one).
 - npc | Dobar dan! Čekate li autobus?
 - ti | Da, čekam autobus broj pet. | Ne, čekam tramvaj.
-- npc | I ja čekam autobus. Promet je danas velik.
+- npc | Ja čekam autobus. Promet je danas velik.
 - ti | Da, ulica je puna. | Da, i ja žurim.
 - npc | Ja čekam prijatelja. On vozi taksi.
 - ti | Vidim jedan žuti taksi! | Ne vidim taksi.
@@ -194,7 +194,7 @@ opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — cho
 - npc | Da, to je Ivan! On je dobar vozač.
 - ti | Super! Sretan put! | Lijepo. Doviđenja!
 - npc | Hvala! A sad vidim i autobus broj pet.
-- ti | Odlično! Hvala i doviđenja!
+- ti | Odlično! Hvala i doviđenja! | Super! Doviđenja!
 
 ## Living-beings sprint
 format: brzina
@@ -225,7 +225,7 @@ opis: Read the street scene, then answer the questions. Passive words: *golub* (
 format: provjera
 info: The mixed check on this whole lesson. One sentence covers most of it: a masculine being takes **-a**, a masculine thing stays put, and a feminine **-a** turns into **-u**. Watch *pas* to *psa* and *policajac* to *policajca*.
 prag: 80
-opis: Final check! Score 80% to be ready for Lesson 7.
+opis: Final check! Score 80% to be ready for Vocabulary 6.
 - slaganje | Čekam prijatelja.
 - izbor | Vidim ___ . | čovjeka | čovjek
 - izbor | Čekam ___ . | tramvaj | tramvaja
@@ -243,4 +243,4 @@ opis: Final check! Score 80% to be ready for Lesson 7.
 format: tekst
 info: A closing page with no task. It marks the moment your accusative singular is complete — feminine **-u**, masculine being **-a**, masculine thing and neuter unchanged — and points at what the next pages add.
 - Bravo! You now handle the accusative for *everything* in the singular — things, food, people and pets.
-- **Next up:** Grammar 6 finishes the map and then hands you the seven little words that stop your Croatian sounding like a robot — *me, te, ga, je, nas, vas, ih*. After that, Lesson 7 goes to school and teaches you to talk about more than one of anything.
+- **Next up:** Vocabulary 6 brings the city in full — people, vehicles, places. Then Grammar 6 finishes the map and then hands you the seven little words that stop your Croatian sounding like a robot — *me, te, ga, je, nas, vas, ih*. After that, Lesson 7 goes to school and teaches you to talk about more than one of anything.

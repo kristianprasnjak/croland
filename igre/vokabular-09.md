@@ -57,7 +57,7 @@ opis: From head to foot. Watch the last letter of each word — it decides almos
 
 ## Ten new verbs
 format: kartice
-info: Ten verbs with three present-tense forms each. Memorise the *ja* form; the *ti* and *on/ona* forms follow from it as in Lesson 3. Two verbs change a consonant between the infinitive and the *ja* form: *skakati → skačem* and *plesati → plešem*.
+info: Twelve verbs with three present-tense forms each — six of them already familiar. Memorise the *ja* form; the *ti* and *on/ona* forms follow from it as in Lesson 3. Two verbs change a consonant between the infinitive and the *ja* form: *skakati → skačem* and *plesati → plešem*.
 opis: Verbs for sport and free time. Learn the *ja* form — the other two follow from it.
 - trčati → trčim, trčiš, trči | to run
 - skakati → skačem, skačeš, skače | to jump
@@ -91,7 +91,7 @@ opis: Whose is it, and what is it like? The possessive is shown in its three for
 - brz / brza | fast
 - slobodan / slobodna | free
 - različit / različita | different
-- omiljen / omiljena | favourite
+- omiljen / omiljena | favorite
 - svaki dan | every day
 - vani | outside
 
@@ -141,7 +141,7 @@ stupci: SPORT | TIJELO | HOBI
 ## Which family?
 format: razvrstavanje
 info: The three present-tense families from Lesson 3, applied to the new verbs. The *ja* form decides: *treniram* is **-AM**, *trčim* is **-IM**, *plešem* is **-EM**. The infinitive is not a reliable guide — *trčati* and *igrati* look alike and land in different columns.
-opis: Sort each verb by its *ja* form. Six say -am, three say -im, two say -em.
+opis: Sort each verb by its *ja* form. Seven say -am, three say -im, two say -em.
 stupci: -AM | -IM | -EM
 - vježbati | -AM
 - trenirati | -AM
@@ -218,7 +218,7 @@ opis: Match each word with its English meaning.
 - koža | skin
 - krv | blood
 - kost | bone
-- omiljen | favourite
+- omiljen | favorite
 
 ## Memory: the ja-form
 format: memorija

@@ -85,7 +85,7 @@ opis: School verbs, each with the three plural forms you learn today. *mi* and *
 - igrati → igramo, igrate, igraju | to play (a game)
 - svirati → sviramo, svirate, sviraju | to play (an instrument)
 - pitati → pitamo, pitate, pitaju | to ask
-- vježbati → vježbamo, vježbate, vježbaju | to practise
+- vježbati → vježbamo, vježbate, vježbaju | to practice
 - znati → znamo, znate, znaju | to know
 - ponavljati → ponavljamo, ponavljate, ponavljaju | to repeat
 - odgovarati → odgovaramo, odgovarate, odgovaraju | to answer
@@ -94,7 +94,7 @@ opis: School verbs, each with the three plural forms you learn today. *mi* and *
 
 ## School subjects
 format: kartice
-info: Subject names, almost all international words wearing Croatian endings. They are feminine *-a* nouns (*matematika*, *fizika*), so as targets they take *-u*: *Volim **matematiku***.
+info: Subject names, almost all international words wearing Croatian endings. Most are feminine *-a* nouns (*matematika*, *fizika*), so as targets they take *-u*: *Volim **matematiku***; *sport*, *jezik* and *povijest* do not change.
 opis: Nearly all cognates — you can read this list already.
 - matematika | mathematics
 - geografija | geography
@@ -108,7 +108,7 @@ opis: Nearly all cognates — you can read this list already.
 
 ## Small words for the classroom
 format: kartice
-info: Adverbs and adjectives for the school day. Adverbs like *glasno* and *brzo* never change shape, but adjectives do — the plural forms *mladi*, *kratki*, *teški* are the ones you need with plural nouns.
+info: Adverbs and adjectives for the school day. Adverbs like *glasno* and *brzo* never change shape, but adjectives do — the plural forms *mladi*, *kratki*, *teški* are the ones you need with masculine plural nouns; feminine plurals take **-e** (*nove knjige*) and neuter plurals **-a** (*duga pisma*).
 opis: How things are done, and how the day feels.
 - glasno | loudly
 - tiho | quietly
@@ -153,7 +153,7 @@ opis: Sort by the ending each word takes in the plural. Masculine takes -i, femi
 format: razvrstavanje
 info: Sort the predictable words from the awkward ones. Regular means the plain **-i / -e / -a**; the odd ones here are the one-syllable masculines padding to *-ovi* (*zid* to *zidovi*) and the four true irregulars like *čovjek* to *ljudi*.
 stupci: PRAVILNO | IZNIMKA
-opis: Most words follow the trio. Four of these do something else entirely — and one just grows a whole syllable.
+opis: Most words follow the trio. Four of these do something else entirely — and four just grow a whole syllable.
 - učenik | PRAVILNO
 - knjiga | PRAVILNO
 - pismo | PRAVILNO
@@ -268,7 +268,7 @@ opis: School sprint — tap the English meaning.
 - torba | bag
 - udžbenik | textbook
 - pauza | break
-- odmor | break time
+- odmor | break
 - lekcija | lesson
 - odgovor | answer
 - riječ | word
@@ -301,7 +301,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 - udžbenik | textbook
 - djevojčica | girl
 - povijest | history
-- vježbati | to practise
+- vježbati | to practice
 
 ## Type the plural
 format: upis
@@ -335,7 +335,7 @@ opis: You get the singular — type the plural form.
 
 ## Type it in Croatian
 format: upis
-info: English in, Croatian out, in the **singular**. Getting the final letter right matters more than usual — that letter carries the gender, and gender is what chooses every plural ending you have just learnt.
+info: English in, Croatian out, in the **singular**. Getting the final letter right matters more than usual — that letter carries the gender, and gender is what chooses every plural ending you have just learned.
 opis: The final round — type each word in Croatian, in the singular.
 - school | škola
 - pupil | učenik
@@ -366,7 +366,7 @@ opis: The final round — type each word in Croatian, in the singular.
 - to sing | pjevati
 - to play a game | igrati
 - to ask | pitati
-- to practise | vježbati
+- to practice | vježbati
 - to know | znati
 - to count | brojati
 - to dance | plesati

@@ -69,7 +69,7 @@ info: The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They e
 - tab: mi | ćemo | Mi ćemo putovati.
 - tab: vi | ćete | Vi ćete gledati.
 - tab: oni, one, ona | će | Oni će spavati.
-- **Recognise the rhythm?** *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su* from Lesson 2. Same six people, same order, one letter of difference.
+- **Recognise the rhythm?** *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su* from Lesson 2. Same six people, same order, same rhythm.
 - **Two word orders, same meaning.** With a pronoun → *Ja ću plivati.* Without → flip it and trim the **-i**: *Plivat ću.*
 - **Now you write them.** Ja [ću] plivati. Ti [ćeš] učiti. Mi [ćemo] putovati. Oni [će] spavati.
 
@@ -120,9 +120,9 @@ opis: Choose the correct helper.
 
 ## Long or short?
 format: nastavak
-info: One tap decides the verb's shape, and only word order decides it. **Before** the helper an *-ati* verb drops its final *-i*: *Plivat ću*. **After** the helper it stays whole: *Ja ću plivati*.
+info: One tap decides the verb's shape, and only word order decides it. **Before** the helper the infinitive drops its final *-i*: *Plivat ću*, *Učit ćeš*, *Radit ću*. **After** the helper it stays whole: *Ja ću plivati*.
 nastavci: t | ti
-opis: The verb changes shape depending on where it stands. **In front of ću** it drops the final -i. **After ću** it keeps it. One tap.
+opis: The verb changes shape depending on where it stands. **In front of ću** the infinitive drops its final -i. **After ću** it keeps it. One tap.
 - Pliva___ ću svaki dan. | I will swim every day. | t
 - Ja ću pliva___ svaki dan. | I will swim every day. | ti
 - Putova___ ćemo na more. | We will travel to the sea. | t
@@ -225,7 +225,7 @@ opis: A subject flashes — tap the helper that goes with it.
 ## Weekend plans
 format: dijalog
 info: A conversation about the weekend, so every reply is a plan. *Hoćeš li…?* simply means *Will you…?* — take it whole for now and answer with a future sentence: *Gledat ću je*, *Ujutro ću trenirati*.
-opis: Your friend asks about your weekend. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *dogovoreno* (agreed).
+opis: Your friend asks about your weekend. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *poslije* (after).
 - npc | Bok! Što ćeš raditi u subotu?
 - ti | Ujutro ću trenirati, a poslije ću učiti. | Spavat ću cijeli dan!
 - npc | Hoćeš li gledati utakmicu navečer?
@@ -234,10 +234,10 @@ opis: Your friend asks about your weekend. Choose your replies. Passive words: *
 - ti | U nedjelju ćemo sestra i ja kuhati ručak. | U nedjelju ću odmarati.
 - npc | Lijepo. Ja ću putovati na more u ponedjeljak.
 - ti | Sretan put! | Lijepo! Ja ću odmarati doma.
-- npc | Da, vlak kreće jako rano. Ustat ću prije sunca!
+- npc | Hvala! Vlak kreće jako rano. Ustat ću prije sunca!
 - ti | Bit će savršeno. | To je rano!
-- npc | Dogovoreno. Vidimo se u ponedjeljak!
-- ti | Vidimo se!
+- npc | Da! Vidimo se poslije odmora!
+- ti | Vidimo se! | Bok, vidimo se!
 
 ## A summer plan
 format: izbor
@@ -254,7 +254,7 @@ opis: Read the plan, then answer the questions. Passive words: *planiraju* (they
 format: provjera
 info: A mixed check on everything in the lesson. Two things decide most answers: the helper can never open a sentence, and the verb loses its *-i* only when it stands in front of the helper — *Plivat ću*, but *Ja ću plivati*.
 prag: 80
-opis: Final check! Score 80% to be ready for Lesson 9.
+opis: Final check! Score 80% to be ready for Vocabulary 8.
 - slaganje | Mi ćemo putovati na more.
 - izbor | Ja ___ plivati. | ću | ćeš | će
 - upis | Pretvori u futur: Učim. → | Učit ću / Ja ću učiti
@@ -270,6 +270,6 @@ opis: Final check! Score 80% to be ready for Lesson 9.
 
 ## Reward & preview
 format: tekst
-info: A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the refusal — *neću* — and that is the first thing Grammar 8 hands you.
+info: A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the full refusal — *neću, nećeš, neće* — and that is the first thing Grammar 8 hands you.
 - Odlično! Past lessons gave you the present; now the future is yours too. Your summer plans are officially in Croatian.
-- **Next up:** Grammar 8 explains *why* the helper is never allowed to open a sentence — the same rule you already met twice — and gives you the future that refuses: *neću, nećeš, neće*. Then Lesson 9 brings sport, hobbies and the little words that make things *yours*.
+- **Next up:** Vocabulary 8 packs the suitcase — travel, clothes and ten new verbs. Then Grammar 8 explains *why* the helper is never allowed to open a sentence — the same rule you already met twice — and gives you the future that refuses: *neću, nećeš, neće*. Then Lesson 9 brings sport, hobbies and the little words that make things *yours*.

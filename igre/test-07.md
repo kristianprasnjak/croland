@@ -25,7 +25,7 @@ opis: Match each Croatian word with its English meaning.
 - ocjena | grade
 - ispit | exam
 - pauza | break
-- odmor | break time
+- odmor | break
 - lekcija | lesson
 - odgovor | answer
 - riječ | word
@@ -51,7 +51,7 @@ opis: Match each Croatian word with its English meaning.
 - igrati | to play a game
 - svirati | to play an instrument
 - pitati | to ask
-- vježbati | to practise
+- vježbati | to practice
 - znati | to know
 - brojati | to count
 - plesati | to dance
@@ -68,7 +68,7 @@ opis: Match each Croatian word with its English meaning.
 format: izbor
 opis: Pick the correct meaning.
 - škola | school | class | lesson
-- učenik | pupil | teacher | student body
+- učenik | pupil | teacher | classmate
 - učitelj | teacher | pupil | parent
 - dječak | boy | girl | child
 - djevojčica | girl | boy | woman
@@ -92,7 +92,7 @@ opis: Pick the correct meaning.
 - dokument | document | report | text
 - jezik | language | word | mouth
 - godina | year | hour | morning
-- pjesma | song | poem book | choir
+- pjesma | song | dance | choir
 - gitara | guitar | piano | violin
 - klavir | piano | guitar | keyboard
 - lopta | ball | game | field
@@ -103,11 +103,11 @@ opis: Pick the correct meaning.
 - pjevati | to sing | to play | to dance
 - igrati | to play a game | to play music | to run
 - svirati | to play an instrument | to sing | to listen
-- vježbati | to practise | to repeat | to learn
+- vježbati | to practice | to repeat | to learn
 - znati | to know | to think | to ask
 - brojati | to count | to read | to write
 - plesati | to dance | to sing | to jump
-- ponavljati | to repeat | to answer | to practise
+- ponavljati | to repeat | to answer | to practice
 - odgovarati | to answer | to ask | to speak
 - glasno | loudly | quietly | quickly
 - tiho | quietly | loudly | slowly
@@ -125,7 +125,7 @@ opis: Pick the correct meaning.
 - homework | zadaća | ispit | ocjena
 - grade | ocjena | ispit | odgovor
 - exam | ispit | zadaća | pauza
-- break | pauza | odmor | lekcija
+- break | pauza | ocjena | lekcija
 - answer | odgovor | pitanje | riječ
 - word | riječ | pitanje | odgovor
 - question | pitanje | odgovor | riječ
@@ -133,7 +133,7 @@ opis: Pick the correct meaning.
 - language | jezik | riječ | glazba
 - song | pjesma | glazba | gitara
 - to sing | pjevati | svirati | plesati
-- to practise | vježbati | ponavljati | znati
+- to practice | vježbati | ponavljati | znati
 - to count | brojati | pitati | plesati
 - to dance | plesati | pjevati | trčati
 - loudly | glasno | tiho | brzo
@@ -280,7 +280,7 @@ opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every
 - Učenici sluša___ tiho. | The pupils listen quietly. | ju
 - Mi ponavlja___ lekciju. | We are repeating the lesson. | mo
 - Vi odgovara___ brzo. | You all answer quickly. | te
-- Učenici vježba___ svaki dan. | The pupils practise every day. | ju
+- Učenici vježba___ svaki dan. | The pupils practice every day. | ju
 
 ## Tap the plural target
 format: nastavak
@@ -438,7 +438,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it.
 - The pupils are young and cheerful. | Učenici su mladi i veseli.
 - The books are new. | Knjige su nove.
 - The tables are old. | Stolovi su stari.

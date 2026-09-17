@@ -47,9 +47,9 @@ opis: The people you'll be talking about all lesson. Four new verbs come with th
 
 ## Boy word, girl word
 format: razvrstavanje
-info: Sorting nouns by gender from their last letter: **-a** is feminine (*sestra*), **-o** or **-e** neuter (*pismo*, *more*), a consonant masculine (*brat*). The one to memorise is *obitelj* — it ends in a consonant but is **feminine**.
+info: Sorting nouns by gender from their last letter: **-a** is feminine (*sestra*), **-o** or **-e** neuter (*pismo*, *more*), a consonant masculine (*brat*). Two to memorise: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**.
 stupci: MUŠKI | ŽENSKI | SREDNJI
-opis: Lesson 1 taught you that the last letter gives away the gender, and family words play by exactly the same rule. One famous trap: *obitelj* ends in a consonant but is **feminine**.
+opis: Lesson 1 taught you that the last letter gives away the gender, and family words play by exactly the same rule. Two famous traps: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**.
 - tata | MUŠKI
 - brat | MUŠKI
 - djed | MUŠKI
@@ -111,7 +111,7 @@ opis: You bump into your neighbour Ivana on a Sunday morning. Choose your replie
 - ti | Dobro sam, hvala. A ti? | Umoran sam, ali dobro.
 - npc | I ja sam dobro. Danas kuham, a sestra čisti.
 - ti | Ja ne kuham danas. Ja radim! | Ja volim kuhati!
-- npc | Radiš puno! Gdje je brat?
+- npc | Dobro! A gdje je brat?
 - ti | Brat sjedi i uči. | Brat spava. On je umoran.
 - npc | Sestra je mala, ali je pametna. Ona već čita!
 - ti | Super! A gdje su baka i djed? | Baka i djed su zajedno?
@@ -149,7 +149,7 @@ opis: Find the pairs — each family word hides its English partner.
 ## Reading the questions
 format: tekst
 info: A recognition page for six Croatian question words, since questions about texts are now asked in Croatian. Croatian needs no *do* or *does*: the question word plus the plain present tense is the whole question — *Što radi tata?* The full rules come in Lesson 11.
-- From here on, the questions about each text are asked in Croatian. That takes six little words — and they are the easiest thing in this lesson, because the question word comes first, just like in English.
+- From here on, the questions about each text are asked in Croatian — you have already seen a few of them in the tests. That takes six little words — and they are the easiest thing in this lesson, because the question word comes first, just like in English.
 - tab: Word | Means | Example
 - tab: **tko** | who | *Tko kuha?* — Who is cooking?
 - tab: **što** | what | *Što radi tata?* — What is dad doing?
@@ -177,7 +177,7 @@ opis: Read about the Horvat family, then answer the questions. Passive words: *t
 format: provjera
 info: The mixed end-of-lesson check: connectors, commas and family vocabulary. One rule carries most of the points — **i** never takes a comma, **a** and **ali** always do — and **a** is the choice whenever the second half brings in a new subject.
 prag: 80
-opis: Final check! Score 80% to be ready for Lesson 5.
+opis: Final check! Score 80% to be ready for Vocabulary 4.
 - slaganje | Tata kuha, a brat uči.
 - izbor | Stan je mali, ___ je dom topao. | ali | i | a
 - upis | Mama radi ___ čita. | i
@@ -195,4 +195,4 @@ opis: Final check! Score 80% to be ready for Lesson 5.
 format: tekst
 info: The wrap-up page. Everything here keeps paying off: **i** adds, **a** contrasts two subjects, **ali** twists, and words like *obitelj*, *baka* and *djed* are among the nouns you will meet most often in real Croatian.
 - Izvrsno! Your Croatian now flows in full, connected sentences — and you can talk about the whole family.
-- **Next up:** the big one. In Lesson 5 you go shopping at a Croatian market and unlock your first *case* — the famous Croatian word-ending magic. It's easier than its reputation, promise.
+- **Next up:** Vocabulary 4 gathers the whole family, the home and eleven new verbs, and Grammar 4 settles the commas. Then the big one: in Lesson 5 you go shopping at a Croatian market and unlock your first *case* — the famous Croatian word-ending magic. It's easier than its reputation, promise.

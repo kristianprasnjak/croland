@@ -83,7 +83,7 @@ info: Comprehension on the evening text. Read it in the order Croatian writes it
 tekst: Večer je. Tata kuha. Mama piše e-mail. Brat sluša radio. Ja čitam strip. Strip je smiješan. Pas sjedi i čeka. On gleda... sendvič! Sestra jede sendvič. Poslije pas spava.
 opis: Answer from the text.
 - Who is cooking? | tata | mama | brat
-- What is Mum writing? | e-mail | strip | pismo
+- What is Mom writing? | e-mail | strip | pismo
 - What is the brother listening to? | radio | film | tekst
 - What is the dog looking at? | sendvič | prozor | radio
 - The comic is... | smiješan | miran
@@ -116,8 +116,8 @@ opis: Your neighbour Marko calls in the afternoon. Choose your replies. Passive 
 - npc | Bok! Što radiš?
 - ti | Učim hrvatski. A ti? | Gledam film. A ti?
 - npc | Ja čitam. Knjiga je stara, ali je dobra.
-- ti | Što piješ? | Jedeš li?
-- npc | Pijem čaj. Čaj je topao i dobar.
+- ti | Što piješ? | A što jedeš?
+- npc | Pijem čaj i jedem kruh. Čaj je topao i dobar.
 - ti | Ja pijem sok. | Ja jedem kruh i sir.
 - npc | Dobar tek! A što radi Ana?
 - ti | Ana uči. Ona čita udžbenik. | Ana spava. Dan je miran.
@@ -129,7 +129,7 @@ opis: Your neighbour Marko calls in the afternoon. Choose your replies. Passive 
 ## Translate by building
 format: slaganje
 info: Building Croatian from English out of tiles. Two things fix the order: the ending has to match the subject, and *ne* goes immediately before the verb. If no pronoun tile is offered, none is needed — *Pijem čaj* is already complete.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the four texts you just read.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read.
 - Marko radi. | en: Marko is working.
 - On piše tekst. | en: He is writing a text.
 - Ana uči. | en: Ana is studying.

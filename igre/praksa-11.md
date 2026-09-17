@@ -5,7 +5,7 @@ cjelina: Practice 11
 format: tekst
 info: A read-along shop conversation, and almost every second line is a question. Read it twice: once for the story, once to notice that no line adds a helper word — *Što kupuješ?* is the whole question, with nothing standing in for English *do*.
 opis: A present, a sister and a shop assistant with opinions. Tap **EN** next to any sentence to see its translation.
-- Passive words: *Izvolite?* (What would you like?), *savršen* (perfect), *onda* (then), *ili* (or).
+- Passive words: *savršen* (perfect), *onda* (then), *ili* (or), *parfem* (perfume).
 - — Što kupuješ? | — What are you buying?
 - — Kupujem poklon. | — I'm buying a present.
 - — Za koga? | — For whom?
@@ -68,7 +68,7 @@ opis: Match each question from the story with its answer.
 - Kada je poklon stigao? | Jutros.
 - Zašto baš danas? | Jer je Anin rođendan.
 - Kakva je torta? | Velika.
-- Čija je ovo kutija? | Anina.
+- Čija je ovo kutija? | Ne piše.
 - Koliko svijeća ima torta? | Dvadeset.
 - Koliko godina ima Ana? | Dvadeset.
 
@@ -87,7 +87,7 @@ tekst: Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kut
 ## Text 3: The quiz show
 format: tekst
 info: A quiz show, so the host uses *vi* throughout: *Gdje živite?*, *Koliko godina imate?* Compare those with the *ti* forms from Text 1 — the question word is identical and only the verb ending changes.
-opis: Marko is the contestant and the host has six questions. Tap **EN** to see any line in English.
+opis: Marko is the contestant and the host has seven questions. Tap **EN** to see any line in English.
 - Passive words: *zadnje* (last), *kao* (like), *ponekad* (sometimes), *gubiš* (you lose), *odgovor* (answer).
 - — Dobra večer! Tko ste vi? | — Good evening! Who are you?
 - — Dobra večer! Ja sam Marko. | — Good evening! I am Marko.
@@ -120,20 +120,20 @@ tekst: — Tko ste vi? — Ja sam Marko. — Gdje živite? — Živim u Splitu. 
 format: tekst
 info: A puzzle rather than a story. Four people bought four presents, and nobody says which is whose. The negatives carry the information: what a person did **not** buy is what places the others.
 opis: Four friends, four presents, no labels. Read it twice before you answer.
-- Passive words: *nitko* (nobody), *netko* (somebody), *zato* (that is why), *skupo* (expensive).
-- Ana, Marko, Iva i Luka kupuju poklone za Anin rođendan. | Ana, Marko, Iva and Luka are buying presents for Ana's birthday.
-- Poklon nije za Anu — Ana kupuje poklon za baku. | One present is not for Ana — Ana is buying a present for grandma.
+- Passive words: *zato* (that is why), *skupo* (expensive), *nešto* (something).
+- Marko, Iva i Luka kupuju poklone za Anin rođendan. | Marko, Iva and Luka are buying presents for Ana's birthday.
+- Ana je isto u dućanu — ona kupuje poklon za baku. | Ana is in the shop too — she is buying a present for grandma.
 - Marko ne kupuje cvijeće jer cvijeće nije njegova ideja. | Marko isn't buying flowers because flowers are not his idea.
 - Iva kupuje nešto što svira. | Iva is buying something that plays.
 - Luka nema puno novca, zato kupuje čestitku. | Luka doesn't have much money, that is why he is buying a card.
-- Jedna osoba kupuje parfem, a druga kupuje cvijeće. | One person is buying perfume, another is buying flowers.
+- Pokloni su: gitara, parfem, cvijeće i čestitka. | The presents are: a guitar, perfume, flowers and a card.
 - Parfem košta pedeset eura. To je skupo! | The perfume costs fifty euros. That's expensive!
 
 ## Solve the puzzle
 format: izbor
 info: Deduction from the negatives. Iva buys the guitar, Luka the card, Marko does not buy flowers — so the flowers are Ana's and the perfume is Marko's.
 opis: Nobody says who buys what. Work it out from the text.
-tekst: Ana, Marko, Iva i Luka kupuju poklone za Anin rođendan. Poklon nije za Anu — Ana kupuje poklon za baku. Marko ne kupuje cvijeće jer cvijeće nije njegova ideja. Iva kupuje nešto što svira. Luka nema puno novca, zato kupuje čestitku. Jedna osoba kupuje parfem, a druga kupuje cvijeće. Parfem košta pedeset eura.
+tekst: Marko, Iva i Luka kupuju poklone za Anin rođendan. Ana je isto u dućanu — ona kupuje poklon za baku. Marko ne kupuje cvijeće jer cvijeće nije njegova ideja. Iva kupuje nešto što svira. Luka nema puno novca, zato kupuje čestitku. Pokloni su: gitara, parfem, cvijeće i čestitka. Parfem košta pedeset eura.
 - Tko kupuje gitaru? | Iva | Ana | Luka
 - Tko kupuje čestitku? | Luka | Marko | Iva
 - Tko kupuje parfem? | Marko | Ana | Iva
@@ -143,12 +143,11 @@ tekst: Ana, Marko, Iva i Luka kupuju poklone za Anin rođendan. Poklon nije za A
 
 ## Tap the ending from the texts
 format: nastavak
-info: One tap per question, and every question comes from the four texts. *Koji*, *kakav* and *čiji* copy the noun beside them, and a feminine noun takes **-u** when it is the target of the verb.
-nastavci: i | a | e | o | u | -
+info: One tap per question, and almost every question comes from the four texts. *Koji*, *kakav* and *čiji* copy the noun beside them, and a feminine noun takes **-u** when it is the target of the verb.
+nastavci: i | a | e | o | u
 opis: Every question came out of the four texts. One tap makes the question word match its noun.
 - Koj___ film gledamo? | Which film are we watching? | i
 - Koj___ je vaš hobi? | What is your hobby? | i
-- Kakv___ je šah? | What is chess like? | -
 - Kakv___ je torta? | What is the cake like? | a
 - Čij___ je ovo kutija? | Whose box is this? | a
 - Čij___ je ovo poklon? | Whose present is this? | i
@@ -165,8 +164,8 @@ opis: Every question came out of the four texts. One tap makes the question word
 
 ## Which kind of question?
 format: razvrstavanje
-info: Sorting the questions from the texts by how they are built. A question word opens the first kind, *li* stands behind the verb in the second, and the third is a statement with *zar ne?* on the end.
-opis: Sort each question from the texts by the way it is built.
+info: Sorting questions by how they are built. A question word opens the first kind, *li* stands behind the verb in the second, and the third is a statement with *zar ne?* on the end.
+opis: Sort each question by the way it is built.
 stupci: UPITNA RIJEČ | LI | ZAR NE
 - Što kupuješ? | UPITNA RIJEČ
 - Za koga je poklon? | UPITNA RIJEČ
@@ -185,7 +184,7 @@ stupci: UPITNA RIJEČ | LI | ZAR NE
 
 ## Now YOU are on the quiz
 format: dijalog
-info: The host asks you the same six questions, in the polite *vi* form. Any answer keeps the show going, but read the question word first: *gdje* wants a place, *koji* wants one thing out of several, and *zašto* wants a *jer*-clause.
+info: The host asks you six questions of his own, in the polite *vi* form. Any answer keeps the show going, but read the question word first: *gdje* wants a place, *koji* wants one thing out of several, and *zašto* wants a *jer*-clause.
 opis: Answer the host's questions about yourself — any answer keeps the show going. Passive words: *voditelj* (host), *zadnje pitanje* (last question), *odličan odgovor* (excellent answer).
 - npc | Dobra večer! Tko ste vi?
 - ti | Ja sam student. | Ja sam profesorica. | Ja sam turist.
@@ -216,7 +215,7 @@ opis: Seven moments from Text 2, shuffled. Put them in the order they happened.
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles taken from the four texts. The question word is the first tile and nothing stands in for English *do*; *li* goes directly behind the verb.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the four texts.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
 - Što kupuješ? | en: What are you buying?
 - Za koga je poklon? | en: Who is the present for?
 - Koliko godina ima? | en: How old is she?

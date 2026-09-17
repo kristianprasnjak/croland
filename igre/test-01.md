@@ -4,6 +4,7 @@ cjelina: Test 1
 ## Match the words
 format: parovi
 trajanje: 1080
+prag: 70
 opis: Match each Croatian word with its English meaning.
 - hotel | hotel
 - banana | banana
@@ -220,6 +221,7 @@ opis: The English is above. The adjective is waiting for its ending — one tap.
 - Sunce je velik___. | The sun is big. | o
 - Sunce je crven___. | The sun is red. | o
 - Sunce je lijep___. | The sun is beautiful. | o
+
 ## Type the adjective
 format: upis
 opis: Read the English in brackets and type the Croatian adjective in the form that matches the noun.
@@ -285,6 +287,7 @@ opis: Read the English in brackets and type the Croatian adjective in the form t
 - Sunce je ___. (big) | veliko
 - Sunce je ___. (red) | crveno
 - Sunce je ___. (beautiful) | lijepo
+
 ## Build the sentence
 format: slaganje
 opis: The English is above — tap the tiles to say the same thing in Croatian.
@@ -329,7 +332,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. Word order is free, so more than one answer is accepted.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. Word order is free, so more than one answer is accepted — as long as *je* is not the first word.
 - The house is big. | Kuća je velika. / Velika je kuća.
 - The sea is blue. | More je plavo. / Plavo je more.
 - The sky is blue. | Nebo je plavo. / Plavo je nebo.

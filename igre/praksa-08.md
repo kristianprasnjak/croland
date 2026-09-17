@@ -5,7 +5,7 @@ cjelina: Practice 8
 format: tekst
 info: A first reading with the translation beside it. Watch the helper move: *Mi ćemo putovati* keeps the verb whole, *Plivat ćemo* trims it, and *Neću učiti* refuses — three shapes of one tense in a short text.
 - Summer plans — the kind of message you'll get from a Croatian friend in June.
-- Passive words: *dolazi* (is coming), *kroz* (through), *bit će* (it will be), *ručak* (lunch), *svaki dan* (every day).
+- Passive words: *dolazi* (is coming), *kroz* (through), *bit će* (it will be), *svaki dan* (every day).
 - Ljeto dolazi! | Summer is coming!
 - Mi ćemo putovati na more. | We will travel to the seaside.
 - Ići ćemo u Split. | We will go to Split.
@@ -33,12 +33,12 @@ opis: Answer from the text.
 format: tekst
 info: A list rather than a story, so the future shows up mostly as a refusal: *Neću nositi kaput*. Note *Džemper ću ipak uzeti* — the object opens the sentence, which gives the leaning helper something to sit behind.
 - No story — just a list stuck to the suitcase. Read it the way you'd read your own. Passive words: *ipak* (anyway, after all), *hladno* (cold), *za* (for).
-- ZA MORE — što ću nositi | FOR THE SEASIDE — what I will take
+- ZA MORE — što ću nositi | FOR THE SEASIDE — what I am taking
 - majice, hlače, jedna košulja | T-shirts, trousers, one shirt
 - ručnik i jastuk za vlak | a towel and a pillow for the train
 - knjiga za plažu | a book for the beach
 - karta i rezervacija za hotel | the ticket and the hotel reservation
-- Neću nositi kaput — ljeto je! | I won't take a coat — it's summer!
+- Neću nositi kaput — ljeto je! | I won't wear a coat — it's summer!
 - Džemper ću ipak uzeti. | I'll take a sweater anyway.
 - Navečer je hladno! | In the evening it's cold!
 
@@ -86,7 +86,7 @@ info: A real ticket instead of prose. The two words to hold on to are *polazak* 
 
 ## Reading a ticket
 format: izbor
-info: The answers are on the ticket, though some need arithmetic. One question is in the future: *Hoće li ustati rano?* uses the stressed form to ask, and the 06:20 departure answers it.
+info: The answers are on the ticket, though some need arithmetic. Two questions are in the future: *Hoće li ustati rano?* uses the stressed form to ask, and the 06:20 departure answers it.
 tekst: HŽ — KARTA ZA VLAK. Zagreb → Split. Polazak: subota, 06:20, peron 3. Dolazak: subota, 12:45. Vrijedi: jedan smjer. Cijena: 24 €. Rezervacija: da.
 opis: Everything you need is on the ticket — but some of it you have to put together yourself.
 - Kada kreće vlak? | u subotu ujutro | u subotu navečer | u nedjelju
@@ -104,14 +104,14 @@ info: A logic puzzle rather than a narrative. Read the negatives closely — *An
 - Marko će letjeti jer je destinacija daleko. | Marko will fly because the destination is far.
 - Iva ne voli avione, ali voli more. | Iva doesn't like planes, but she loves the sea.
 - Luka će ostati doma i trenirati cijelo ljeto. | Luka will stay at home and train all summer.
-- Jedan će putovati na otok. | One of them will travel to an island.
+- Jedna će putovati na otok. | One of them will travel to an island.
 - Jedna će ići u planinu. | One of them will go to the mountains.
 - Nitko neće ostati doma osim Luke! | Nobody will stay at home except Luka!
 
 ## Solve the puzzle
 format: izbor
 info: Work out who goes where by elimination. The load-bearing lines are negative futures with *neće* plus plain present-tense likes and dislikes; combine the two and only one arrangement survives.
-tekst: Ana, Marko, Iva i Luka planiraju ljeto. Ana neće ići na more jer ne voli plažu. Marko će letjeti jer je destinacija daleko. Iva ne voli avione, ali voli more. Luka će ostati doma i trenirati cijelo ljeto. Jedan će putovati na otok. Jedna će ići u planinu. Nitko neće ostati doma osim Luke!
+tekst: Ana, Marko, Iva i Luka planiraju ljeto. Ana neće ići na more jer ne voli plažu. Marko će letjeti jer je destinacija daleko. Iva ne voli avione, ali voli more. Luka će ostati doma i trenirati cijelo ljeto. Jedna će putovati na otok. Jedna će ići u planinu. Nitko neće ostati doma osim Luke!
 opis: Work it out from what each person likes and fears.
 - Tko će ići u planinu? | Ana | Iva | Marko
 - Tko će putovati na otok? | Iva | Ana | Luka
@@ -137,7 +137,7 @@ info: A whole day in the future, with the two orders alternating: *Sutra ću put
 format: nastavak
 info: The same one-tap rule, now on sentences you have just read. Directly in front of the helper the verb loses its *-i* (*Bit će savršeno*); anywhere after it, the verb keeps it (*Navečer ću **biti** umoran*).
 nastavci: t | ti
-opis: Every sentence came out of the five texts. In front of *ću* the verb drops its **-i**; after *ću* it keeps it.
+opis: Almost every sentence came out of the five texts. In front of *ću* the verb drops its **-i**; after *ću* it keeps it.
 - Pliva___ ćemo svaki dan. | We will swim every day. | t
 - Mi ćemo putova___ na more. | We will travel to the seaside. | ti
 - Šeta___ ćemo navečer. | We will walk in the evening. | t
@@ -184,7 +184,7 @@ opis: Every plan below falls through. Turn it into a refusal — one word, then 
 format: razvrstavanje
 info: Sort by tense. A helper anywhere in the sentence — *ću, će, ćemo*, or the negative *neću* — means later; a verb carrying its own personal ending (*dolazi*, *kreće*, *trenira*) means now.
 stupci: SADA | POSLIJE
-opis: Now or later? Sort the sentences from the texts.
+opis: Now or later? Sort the sentences.
 - Ljeto dolazi. | SADA
 - Plivat ćemo svaki dan. | POSLIJE
 - Vlak kreće rano. | SADA
@@ -208,12 +208,12 @@ opis: Your friend is planning the weekend and wants you in it. Choose your repli
 - ti | Naravno, gledat ću je! | Neću, utakmica je dosadna.
 - npc | Ha! Dobro. A u nedjelju? Idemo na more?
 - ti | Ići ću! Kada kreće vlak? | Neću ići, nemam kartu.
-- npc | Vlak kreće rano, u šest. Ustat ćeš na vrijeme?
+- npc | Vlak kreće rano, u šest. Rano, ha?
 - ti | Ustat ću, naravno. | To je jako rano za mene.
 - npc | Super. Ja ću nositi ručnike, ti ćeš nositi hranu.
 - ti | Dogovoreno! | Nosit ću i knjigu za plažu.
 - npc | Bit će savršeno. Vidimo se u nedjelju!
-- ti | Vidimo se! Sretan put!
+- ti | Vidimo se u nedjelju! | Vidimo se!
 
 ## The journey, in order
 format: poredak
@@ -230,7 +230,7 @@ opis: Seven moments from a trip to the sea, shuffled. Nobody wrote this down —
 ## Translate by building
 format: slaganje
 info: Translate by assembling tiles, so word order is the whole test. Decide first what opens the sentence: put the verb first and it is trimmed (*Plivat ćemo*), put anything else first and it stays whole (*Mi ćemo putovati*).
-opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the five texts.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
 - Ljeto dolazi! | en: Summer is coming!
 - Mi ćemo putovati na more. | en: We will travel to the seaside.
 - Ići ćemo u Split. | en: We will go to Split.

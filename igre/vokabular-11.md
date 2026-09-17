@@ -3,7 +3,7 @@ cjelina: Vocabulary 11
 
 ## Question words
 format: kartice
-info: The full set of question words. Seven of them never change shape, but *koji*, *kakav* and *čiji* stand in front of a noun and copy it, so each is shown in three forms. *Koga* is the target form of *tko*, exactly the **-a** of Lesson 6.
+info: The full set of question words. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji*, *kakav* and *čiji* stand in front of a noun and copy it, so each is shown in three forms. *Koga* is the target form of *tko*, exactly the **-a** of Lesson 6.
 opis: Everything you need to ask and to wonder. Tap a card to reveal the meaning.
 - tko? | who?
 - koga? | whom? (as the target)
@@ -48,7 +48,7 @@ opis: The numbers you need for ages, prices and phone numbers.
 
 ## Bigger numbers & money
 format: kartice
-info: The round numbers, plus the words for paying. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* or *kuna* — a form you can take whole for now.
+info: The round numbers, plus the words for paying. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.
 opis: Prices, ages and the round numbers above twenty.
 - dvadeset jedan | twenty-one
 - trideset | thirty
@@ -139,7 +139,7 @@ stupci: OSOBA | MJESTO I VRIJEME | UZ IMENICU
 
 ## How much is it?
 format: razvrstavanje
-info: Sorting numbers into three ranges by sight. The teens all end in **-naest**, the tens above twenty end in **-deset**, and everything below eleven is a single short word.
+info: Sorting numbers into three ranges by sight. The teens end in **-naest**, *dvadeset* and everything above it ends in **-deset** (except *sto*), and everything below eleven is a single short word.
 opis: Sort each number by its size.
 stupci: 1–10 | 11–20 | VIŠE OD 20
 - jedan | 1–10
@@ -161,7 +161,7 @@ stupci: 1–10 | 11–20 | VIŠE OD 20
 
 ## Match the pictures
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Everything here can be a present, and every one of these words will turn up as the target of *kupujem* — where a feminine noun takes **-u**: *Kupujem gitar**u***.
+info: Picture-to-word matching, with no English on the page. Most of these could be a present, and every one of these words can turn up as the target of *kupujem* — where a feminine noun takes **-u**: *Kupujem gitar**u***.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - gitara | guitar
 - knjiga | book
@@ -293,7 +293,7 @@ opis: Words from two and three levels ago — tap the English meaning.
 
 ## Build the word
 format: slova
-info: Spelling from letter tiles. Three words here need letters English does not have: *čestitka* and *četrnaest* start with **č**, *svijeća* ends in **-ća**, and *iznenađenje* carries both **đ** and the single letter **nj**.
+info: Spelling from letter tiles. Four words here need letters English does not have: *čestitka* and *četrnaest* start with **č**, *svijeća* ends in **-ća**, and *iznenađenje* carries both **đ** and the single letter **nj**.
 opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own.
 - čestitka | greeting card
 - svijeća | candle
@@ -308,7 +308,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć
 
 ## Type the question word
 format: upis
-info: The answer is given and you type the question. Two of them take an ending from the noun beside them — *koji* and *kakav* — and one asks about a target: *Koga čekaš?*
+info: The answer is given and you type the question. Three of them take an ending from the noun beside them — *koji*, *kakav* and *čiji* — and one asks about a target: *Koga čekaš?*
 opis: Read the answer, then type the question word that fits.
 - ___ je to? — To je Marko. | Tko
 - ___ kupuješ? — Poklon. | Što

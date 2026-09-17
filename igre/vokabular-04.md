@@ -79,7 +79,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 
 ## Eleven new verbs
 format: kartice
-info: Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomož-*: *pomažem*, *pomažeš*, *pomaže*.
+info: Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomaž-*: *pomažem*, *pomažeš*, *pomaže*.
 opis: Same trick as Lesson 3 — learn the **ja** form and the other two follow. *pomagati* and *ustajati* change the middle a little; the endings never lie.
 - imati → imam, imaš, ima | to have
 - kuhati → kuham, kuhaš, kuha | to cook
@@ -112,8 +112,8 @@ opis: The same three verb families you met in Lesson 3, now with the new verbs. 
 
 ## Little words that hold a sentence together
 format: kartice
-info: The four connectors plus a handful of very frequent small words. In one line: **i** adds, **a** puts two different subjects side by side, **ali** is a real *but*, and **jer** gives the reason. Grammar 4 drills which one does which.
-opis: Four connectors and four words you'll sprinkle everywhere. Grammar 4 shows exactly which connector does which job.
+info: The four connectors plus five very frequent small words. In one line: **i** adds, **a** puts two different subjects side by side, **ali** is a real *but*, and **jer** gives the reason. Grammar 4 drills which one does which.
+opis: Four connectors and five words you'll sprinkle everywhere. Grammar 4 shows exactly which connector does which job.
 - i | and (adding)
 - a | and, whereas (two subjects)
 - ali | but (a twist)
@@ -220,7 +220,7 @@ opis: You get the infinitive — type the form you would use about yourself.
 
 ## Build the word
 format: slova
-info: Spelling from letter tiles. Three family words need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.
+info: Spelling from letter tiles. Five words here need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.
 opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
 - obitelj | family
 - prijatelj | friend

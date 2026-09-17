@@ -440,7 +440,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count — as long as the verb isn't first.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it — and never let the verb come first.
 - I am a student. | Ja sam student. / Student sam.
 - I am a cook. | Ja sam kuhar. / Kuhar sam.
 - I am hungry. | Ja sam gladan. / Gladan sam.
@@ -448,7 +448,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - I am a Croat. | Ja sam Hrvat. / Hrvat sam.
 - You are a driver. | Ti si vozač. / Vozač si.
 - You are polite. | Ti si ljubazan. / Ljubazan si.
-- Who are you? | Tko si ti?
+- Who are you? | Tko si ti? / Tko si?
 - He is an actor. | On je glumac.
 - He is tall and strong. | On je visok i jak.
 - He is serious. | On je ozbiljan.

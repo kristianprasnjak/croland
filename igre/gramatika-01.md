@@ -41,7 +41,7 @@ info: The core agreement rule plus two extras: an adjective takes **consonant, -
 - tab: **-a** | **-a** | velika kuća
 - tab: **-o** / **-e** | **-o** | veliko more
 - Rule of thumb: **consonant · -a · -o**. Say it out loud and you'll hear when it fits.
-- **A fourth ending you'll hear: -i.** Masculine adjectives have a second, longer form: *velik → **veliki***, *brz → **brzi***, *nov → **novi***, *star → **stari***. Both are correct after *je* — *Grad je velik* and *Grad je veliki*. The **-i** form is the one you use when the adjective sits in front of its noun: *veliki grad*, *novi hotel*, *brzi automobil*.
+- **A fourth ending you'll hear: -i.** Masculine adjectives have a second, longer form: *velik → **veliki***, *brz → **brzi***, *nov → **novi***, *star → **stari***. Both are correct after *je* — *Grad je velik* and *Grad je veliki*. The **-i** form is the *definite* one — it points at a particular thing, the way English says *the*: *veliki grad* is **the** big city, *velik grad* is *a* big city. Both can stand in front of a noun, which is why the exercises still ask for *dobar dan* and *star automobil*.
 - One word only ever appears in the **-i** form: *mali* (small). There is no *mal*. Its other endings behave normally: *mala kuća*, *malo more*.
 - **The sentence formula.** Every sentence in Lesson 1 follows one of these two patterns.
 - tab: Pattern | Croatian | English
@@ -164,8 +164,8 @@ opis: Make each sentence negative. Only one word changes — the adjective stays
 
 ## Write the whole sentence
 format: upis
-info: Free production from an English prompt. Two frames cover all of it: noun plus **je** or **nije** plus adjective, and *Ovo je* plus a noun. Word order is flexible, so *Kuća je velika* and *Velika je kuća* are both fine.
-opis: The last step — the English sentence, and you write the Croatian. Word order is free in Croatian, so more than one answer is accepted.
+info: Free production from an English prompt. Two frames cover all of it: noun plus **je** or **nije** plus adjective, and *Ovo je* plus a noun. Word order is flexible, so *Kuća je velika* and *Velika je kuća* are both fine — just never let *je* open the sentence.
+opis: The last step — the English sentence, and you write the Croatian. Word order is free in Croatian, so more than one answer is accepted — as long as *je* is not the first word.
 - The house is big. | Kuća je velika. / Velika je kuća.
 - The sea is blue. | More je plavo. / Plavo je more.
 - The coffee is good. | Kava je dobra. / Dobra je kava.

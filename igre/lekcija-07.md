@@ -3,8 +3,8 @@ cjelina: Lesson 7
 
 ## The world multiplies
 format: tekst
-info: Your opening map for Lesson 7. From here on nouns come in groups — *knjiga* becomes *knjige*, *učenik* becomes *učenici* — and the present tense finally gets its **we**, **you all** and **they** forms.
-- One coffee, one friend, one tram — so far, everything came one at a time. Today the world multiplies: *knjiga* becomes *knjige*, *učenik* becomes *učenici*, and verbs finally learn to say **we**, **you all** and **they**.
+info: Your opening map for Lesson 7. From here on nouns come in groups — *knjiga* becomes *knjige*, *učenik* becomes *učenici* — and the present tense gets its **we**, **you all** and **they** forms in full — you have met a few of them in the practice texts already.
+- One coffee, one friend, one tram — so far, everything came one at a time. Today the world multiplies: *knjiga* becomes *knjige*, *učenik* becomes *učenici*, and verbs get their **we**, **you all** and **they** forms — the ones you have been reading in the practice texts.
 - We'll practice in the liveliest place possible: a Croatian school full of children and songs.
 
 ## Rapid recall
@@ -85,7 +85,7 @@ info: The core rule of the whole lesson on one page: **-i / -e / -a**, the same 
 - tab: feminine | **-e** | knjiga | knjige
 - tab: feminine | **-e** | pjesma | pjesme
 - tab: neuter | **-a** | pismo | pisma
-- **One exception today.** *dijete* → **djeca** (children). Some words are too important to follow rules.
+- **Two exceptions today.** *dijete* → **djeca** (children) and *brat* → **braća** (brothers). Some words are too important to follow rules.
 - **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, dva [učenika] — a svi zajedno su [učenici]. Jedno pismo, dva [pisma].
 
 ## Sort the plurals
@@ -234,8 +234,8 @@ opis: The first bell has gone and your new class is settling in. Choose your rep
 - npc | Dobro. Gdje su Ivan i Luka?
 - ti | Oni igraju nogomet. | Ne znam, ne vidim ih.
 - npc | Ha! Oni uvijek igraju nogomet. Pauza je kratka!
-- ti | Zovem ih! | Oni uvijek brzo igraju.
-- npc | Hvala. Sad počinjemo. Otvorite udžbenike.
+- ti | Zovem ih! | Da, pauza je kratka!
+- npc | Dobro. Sad počinjemo. Otvorite udžbenike.
 - ti | Udžbenici su teški, ali su zanimljivi. | Dobro, hvala!
 
 ## Memory
@@ -268,7 +268,7 @@ opis: Read the classroom scene, then answer the questions. Passive words: *zidov
 format: provjera
 info: The end-of-lesson check, mixing everything from Lesson 7: the three plural endings, the *-ovi* words, the irregular *djeca*, and the plural verb persons **-mo**, **-te**, **-ju/-u**.
 prag: 80
-opis: Final check! Score 80% to be ready for Lesson 8.
+opis: Final check! Score 80% to be ready for Vocabulary 7.
 - slaganje | Djeca pjevaju pjesme.
 - upis | Napiši množinu: učenik → | učenici
 - izbor | Mi ___ kavu. | pijemo | pijem | piju
@@ -286,4 +286,4 @@ opis: Final check! Score 80% to be ready for Lesson 8.
 format: tekst
 info: A wrap-up of what you can now say: any noun in the plural, any adjective agreeing with it, and the present tense in all six persons. Grammar 7 next turns those plurals into targets.
 - Sjajno! You can now talk about many things at once — and your verbs finally have their full present-tense family.
-- **Next up:** Grammar 7 turns all those plurals into targets — and hands you a piece of good news: in the plural, the living/non-living split from Lesson 6 simply disappears. Then Lesson 8 looks ahead: summer plans, travel, and the future tense.
+- **Next up:** Vocabulary 7 collects the school words and every plural pattern. Then Grammar 7 turns all those plurals into targets — and hands you a piece of good news: in the plural, the living/non-living split from Lesson 6 simply disappears. Then Lesson 8 looks ahead: summer plans, travel, and the future tense.

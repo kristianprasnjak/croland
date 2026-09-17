@@ -149,7 +149,7 @@ opis: Lesson 2 described people in seven words. Here are twelve more. Again the 
 
 ## Speed challenge: character
 format: brzina
-info: Timed recognition of the character words, all in the male form. Keep the next step in mind as you race: for a woman these take **-a** and for a group **-i**, and the ones ending in **-an** or **-ar** lose that vowel first (*žedan → žedna*).
+info: Timed recognition of the character words, all in the male form. Keep the next step in mind as you race: for a woman these take **-a** and for a group **-i**, and most words ending in **-an** or **-ar** lose that vowel first (*žedan → žedna*, but *mekan → mekana* keeps it).
 trajanje: 60
 opis: A Croatian word appears — tap its English meaning before the timer runs out!
 - nizak | short
@@ -183,7 +183,7 @@ opis: Flip the cards and find the pairs. These are the words you'll use about pe
 
 ## Match the character words
 format: parovi
-info: A pairing drill on eight character adjectives in the male form. The odd one out is *veseo*: for a woman it is not *veseoa* but *vesela*, because the **-o** turns back into an **-l-**. Every other word here simply takes **-a** or **-i**.
+info: A pairing drill on eight character adjectives in the male form. The odd one out is *veseo*: for a woman it is not *veseoa* but *vesela*, because the **-o** turns back into an **-l-**. Every other word here takes **-a** or **-i** — several of them dropping a vowel on the way: *nizak → niska*, *ozbiljan → ozbiljna*.
 opis: Match each Croatian word with its English meaning.
 - nizak | short
 - drag | kind
@@ -226,7 +226,7 @@ opis: Match each phrase with its English meaning. These are whole phrases — ta
 
 ## Type it in Croatian
 format: upis
-info: Production from English, so spelling counts. Croatian writes one letter per sound and the accented letters carry real information: *vozač*, *učitelj*, *čovjek*, *žedan*, *tužan*, *Doviđenja*. Capital letters for *Hrvatska* and *Nijemac*.
+info: Production from English, so spelling counts. Croatian writes one letter per sound and the letters with diacritics carry real information: *vozač*, *učitelj*, *čovjek*, *žedan*, *tužan*, *Doviđenja*. Capital letters for *Hrvatska* and *Nijemac*.
 opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - cook | kuhar
 - driver | vozač

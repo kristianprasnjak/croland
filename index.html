@@ -8726,6 +8726,21 @@
     // Cjelina je otključana, ali njezin sadržaj još nije stigao iz zaštićenog dijela —
     // dohvati ga pa se vrati ovamo. Bez ovoga bi se otvorila prazna vježba.
     if (igre.some(function (g) { return g.zakljucano; })) {
+      // Sadržaj je već dohvaćen, a kosturi su i dalje prazni: ključevi
+      // (cjelina|stranica|naslov) iz data-plus.json ne odgovaraju objavljenom data.js,
+      // tj. data-plus.json u bucketu je stariji od builda. Bez ovog izlaza renderUnit je
+      // pozivao sam sebe bez kraja (ucitajPlusSadrzaj kod PLUS_STANJE==='da' odmah vraća
+      // uspjeh), pa je cjelina zauvijek stajala na "Loading this unit…" i rušila se s
+      // "Maximum call stack size exceeded". Jedna nepoklopljena vježba ubija cijelu cjelinu.
+      if (PLUS_STANJE === 'da') {
+        var bezSadrzaja = igre.filter(function (g) { return g.zakljucano; })
+          .map(function (g) { return (g.cjelina || '') + '|' + g.stranica + '|' + g.naslov; });
+        console.error('Vjezbe bez para u data-plus.json (' + bezSadrzaja.length + '/' +
+          igre.length + '): ', bezSadrzaja);
+        VIEW.innerHTML = '<div class="zakljBanner">This unit is temporarily unavailable — ' +
+          'its content is out of date on the server. Please try again later.</div>';
+        return;
+      }
       VIEW.innerHTML = '<div class="zakljBanner">Loading this unit…</div>';
       ucitajPlusSadrzaj(function (uspjeh) {
         if (uspjeh) renderUnit(tip, razina, indeks);

@@ -187,7 +187,7 @@ opis: Complete each sentence — type the correct form of the verb in brackets.
 - Ja ___ obitelj. (voljeti) | volim
 - Teta ___ u Zagrebu. (živjeti) | živi
 - Ja ___ svaki dan. (pomagati) | pomažem
-- Mama i tata ___ . (razgovarati) | razgovaraju
+- Mama ___ s tetom. (razgovarati) | razgovara
 - Sestra ___ rano. (ustajati) | ustaje
 - Ja ___ dom i obitelj. (imati) | imam
 - Ti ___ ručak. (kuhati) | kuhaš

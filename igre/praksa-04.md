@@ -91,7 +91,7 @@ opis: Rebuild the weekend chat — put the lines into order.
 ## Text 4: Why Saturday is the best
 format: tekst
 info: The longest text yet, built around **jer**. Each time it appears the sentence stops describing and starts explaining — *Sestra ne uči jer je subota* — and note that *ne* still sits directly in front of its verb.
-- The longest text yet — and this time watch for one little word: **jer**. Every time it appears, the sentence stops describing and starts explaining. Passive words: *subota* (Saturday), *svi* (everyone), *sada* (now), *uskoro* (soon), *ručak* (lunch), *kuhinja* (kitchen), *gladan* (hungry), *uvijek* (always).
+- The longest text yet — and this time watch for one little word: **jer**. Every time it appears, the sentence stops describing and starts explaining. Passive words: *subota* (Saturday), *svi* (everyone), *uskoro* (soon), *ručak* (lunch), *kuhinja* (kitchen), *gladan* (hungry), *uvijek* (always).
 - Subota je. | It is Saturday.
 - Baka kuha jer danas svi jedu zajedno. | Grandma is cooking because today everyone eats together.
 - Kuhinja je mala, ali je topla. | The kitchen is small, but it is warm.
@@ -99,7 +99,7 @@ info: The longest text yet, built around **jer**. Each time it appears the sente
 - Sestra ne uči jer je subota. | My sister isn't studying because it's Saturday.
 - Ona sjedi i gleda film. | She sits and watches a film.
 - Brat šeta jer je dan lijep. | My brother is walking because the day is beautiful.
-- Pas šeta zajedno jer pas uvijek šeta. | The dog walks along, because a dog always walks.
+- I pas šeta jer pas voli šetati. | The dog is walking too, because a dog loves walking.
 - Ja ne šetam jer sam umoran. | I'm not walking because I'm tired.
 - Ja sjedim i čekam jer sam gladan. | I sit and wait because I'm hungry.
 - Uskoro je ručak i svi su zajedno. | Soon it's lunch and everyone is together.
@@ -121,15 +121,15 @@ opis: Answer from the text. Every question is a *why* question in disguise.
 ## Saturday at home
 format: dijalog
 info: A conversation held together by the connectors: **i** adds, **a** puts two different people side by side, **ali** turns the sentence around, and **jer** gives the reason. A comma goes before *a* and *ali*, never before *i*.
-opis: Your friend Ivana calls on a Saturday morning. Choose your replies. Passive words: *kasno* (late), *samo malo* (only a little), *zajedno* (together), *Vidimo se!* (See you!).
+opis: Your neighbour Ivana calls on a Saturday morning. Choose your replies. Passive words: *kasno* (late), *samo malo* (only a little), *zajedno* (together), *Vidimo se!* (See you!).
 - npc | Bok! Što radi obitelj danas?
 - ti | Mama kuha, a tata čisti. | Baka čita, a djed gleda film.
 - npc | Lijepo. A brat i sestra?
 - ti | Brat uči, a sestra spava. | Sestra je mala i još spava.
 - npc | Zašto sestra spava?
 - ti | Jer je subota. | Jer je kasno.
-- npc | Ha! I ja spavam jer je subota.
-- ti | Radiš li danas? | A što ti radiš?
+- npc | Ha! I ja volim subotu.
+- ti | Ti danas ne radiš? | A što ti radiš danas?
 - npc | Ne radim danas. Danas kuham i čitam.
 - ti | Ja ne kuham, ali čitam. | Ja radim, ali samo malo.
 - npc | Dom je mali, ali je topao.
@@ -139,7 +139,7 @@ opis: Your friend Ivana calls on a Saturday morning. Choose your replies. Passiv
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles, all taken from the four texts. Two things earn the points: the right connector for the job (**i**, **a**, **ali**, **jer**) and the comma — always with **a** and **ali**, never with **i**.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the four texts you just read.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read.
 - Ovo je obitelj. | en: This is a family.
 - Tata kuha, a brat uči. | en: Dad is cooking, while my brother is studying.
 - Sestra je mala i još spava. | en: My sister is little and still sleeping.

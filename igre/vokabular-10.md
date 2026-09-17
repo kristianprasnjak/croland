@@ -3,7 +3,7 @@ cjelina: Vocabulary 10
 
 ## Free time & entertainment
 format: kartice
-info: The words for what you did with your free time. Film words are mostly international — *komedija*, *drama*, *akcija*, *dokumentarac* — and the whole group is masculine or feminine by its usual ending, so *film* takes *dobar film* and *serija* takes *dobra serija*.
+info: The words for what you did with your free time. Film words are mostly international — *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *film* takes *dobar film*, *serija* takes *dobra serija* and *kino* takes *dobro kino*.
 opis: What you watched, where you went, what you ate. Tap a card to reveal the meaning.
 - kino | cinema
 - film | film
@@ -13,10 +13,10 @@ opis: What you watched, where you went, what you ate. Tap a card to reveal the m
 - akcija | action film
 - horor | horror film
 - dokumentarac | documentary
-- program | programme
+- program | TV program
 - koncert | concert
 - utakmica | match
-- kazalište | theatre
+- kazalište | theater
 - izložba | exhibition
 - pizza | pizza
 - sladoled | ice cream
@@ -30,8 +30,8 @@ opis: What you watched, where you went, what you ate. Tap a card to reveal the m
 
 ## When did it happen?
 format: kartice
-info: Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Three of them are not about the past at all — *obično*, *uskoro* and *ponovno* — so read the meaning on each card rather than assuming.
-opis: The words that place a story in time. None of them ever changes shape.
+info: Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *danas*, *sutra*, *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.
+opis: The words that place a story in time. Only *prošli* changes shape (*prošli vikend*, *prošla godina*); the rest never do.
 - jučer | yesterday
 - sinoć | last night
 - prekjučer | the day before yesterday
@@ -105,7 +105,7 @@ opis: A man says the first form, a woman the second, a group the third.
 
 ## Phrases for telling a story
 format: kartice
-info: Whole phrases, to be used as they are. Three of them ask about the past — *Gdje si bio?*, *Što si radio?*, *Kako je bilo?* — and each has a female version with **-la**, so a woman is asked *Gdje si bila?* and answers *Bila sam…*.
+info: Whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.
 opis: The questions you will be asked about yesterday, and the answers you will give.
 - Gdje si bio? | Where were you? (to a man)
 - Gdje si bila? | Where were you? (to a woman)
@@ -187,7 +187,7 @@ stupci: PRIJE | SADA | POSLIJE
 
 ## Match the pictures
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Every word here can be the object of a story about yesterday — *Gledao sam film*, *Jeo sam kruh* — and none of these masculine nouns changes shape as an object.
+info: Picture-to-word matching, with no English on the page. Every word here can be the object of a story about yesterday — *Gledao sam film*, *Jeo sam kruh* — and the masculine ones don't change shape, while the **-a** words take **-u**: *Slušao sam gitaru*.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - kino | cinema
 - film | film
@@ -227,7 +227,7 @@ info: A pairs game over the free-time words. The film genres are international, 
 opis: Flip the cards and find the pairs.
 - kino | cinema
 - koncert | concert
-- kazalište | theatre
+- kazalište | theater
 - izložba | exhibition
 - serija | series
 - komedija | comedy
@@ -243,14 +243,14 @@ trajanje: 60
 opis: Tap the English meaning before the timer runs out.
 - kino | cinema
 - koncert | concert
-- kazalište | theatre
+- kazalište | theater
 - izložba | exhibition
 - serija | series
 - komedija | comedy
 - akcija | action film
 - horor | horror film
 - dokumentarac | documentary
-- program | programme
+- program | TV program
 - ispit | exam
 - posao | work
 - jučer | yesterday
@@ -317,9 +317,9 @@ opis: Words from two and three levels ago — tap the English meaning.
 
 ## Build the word
 format: slova
-info: Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *kazalište* needs no such tile but *dokumentarac* and *sendvič* need **č**, and *izložba* needs **ž**.
+info: Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *kazalište* needs no such tile, while *prekjučer* needs **č**, *sinoć* needs **ć** and *izložba* needs **ž**.
 opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own.
-- kazalište | theatre
+- kazalište | theater
 - izložba | exhibition
 - dokumentarac | documentary
 - prekjučer | the day before yesterday
@@ -363,7 +363,7 @@ opis: The final round — type each word in Croatian.
 - horror film | horor
 - documentary | dokumentarac
 - concert | koncert
-- theatre | kazalište
+- theater | kazalište
 - exhibition | izložba
 - match | utakmica
 - exam | ispit

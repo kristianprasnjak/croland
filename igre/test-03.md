@@ -260,7 +260,7 @@ opis: Complete each sentence — type the correct form of the verb in brackets.
 - Ti ___ e-mail. (pisati) | pišeš
 - Ja ___ film. (slušati) | slušam
 - Ona ___ sok. (piti) | pije
-- Ti ___ film. (gledati) | gledaš
+- Ana ___ e-mail. (pisati) | piše
 - Pas ___ kruh. (jesti) | jede
 - Mačka ___ sendvič. (jesti) | jede
 - Ja ___ e-mail. (pisati) | pišem
@@ -297,7 +297,7 @@ opis: Say the same thing the way a Croatian would — drop the pronoun, keep the
 - Ja čitam pismo. → | Čitam pismo
 - Ti pišeš e-mail. → | Pišeš e-mail
 - Ja slušam film. → | Slušam film
-- Ti gledaš film. → | Gledaš film
+- Ti čitaš e-mail. → | Čitaš e-mail
 - Ja pišem e-mail. → | Pišem e-mail
 
 ## From the earlier levels
@@ -371,14 +371,14 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Ti pišeš e-mail. | en: You write an email.
 - Ja slušam film. | en: I listen to a film.
 - Ona pije sok. | en: She drinks juice.
-- Ti gledaš film. | en: You watch a film.
+- Ana gleda film. | en: Ana watches a film.
 - Pas jede kruh. | en: The dog eats bread.
 - Mačka jede sendvič. | en: The cat eats a sandwich.
 - Ja pišem e-mail. | en: I write an email.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it.
 - I drink juice. | Pijem sok. / Ja pijem sok.
 - You drink juice. | Piješ sok. / Ti piješ sok.
 - Marko drinks juice. | Marko pije sok.
@@ -427,7 +427,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - You write an email. | Pišeš e-mail. / Ti pišeš e-mail.
 - I listen to a film. | Slušam film. / Ja slušam film.
 - She drinks juice. | Ona pije sok.
-- You watch a film. | Gledaš film. / Ti gledaš film.
+- Ana watches a film. | Ana gleda film.
 - The dog eats bread. | Pas jede kruh.
 - The cat eats a sandwich. | Mačka jede sendvič.
 - I write an email. | Pišem e-mail. / Ja pišem e-mail.

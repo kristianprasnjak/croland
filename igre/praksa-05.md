@@ -84,7 +84,7 @@ opis: Careful — some of these you have to work out, not just find.
 ## At the shop
 format: dijalog
 info: A shopping dialogue where you choose your replies. Feminine things you ask for end in **-u** (*Trebam jedn**u** boc**u***), and *Trebate li još nešto?* is the yes-or-no pattern — verb first, then *li*.
-opis: Now you are the one at the counter. Choose your replies and get through a whole Croatian shop without English. Passive words: *odličnu* (excellent), *jednu* (one), *Imate li?* (Do you have?), *To je sve?* (Is that everything?).
+opis: Now you are the one at the counter. Choose your replies and get through a whole Croatian shop without English. Passive words: *odličnu* (excellent), *jednu* (one), *To je sve?* (Is that everything?).
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Trebam kruh, mlijeko i rižu. | Dobar dan! Samo gledam, hvala.
 - npc | Izvolite. Imamo i svježu ribu danas.
@@ -96,12 +96,12 @@ opis: Now you are the one at the counter. Choose your replies and get through a 
 - npc | Ha! Dobro. To je sve?
 - ti | Da, to je sve. Hvala! | Trebam još jednu vrećicu.
 - npc | Izvolite račun. Hvala vama!
-- ti | Hvala! Doviđenja!
+- ti | Hvala! Doviđenja! | Hvala! Vidimo se!
 
 ## Text 3: Three friends, three bags
 format: tekst
-info: A logic puzzle in Croatian. Nobody says whose bag is whose, so match each person's habits to the contents; note that the colour agrees with its noun, *žut**a** vrećic**a***, and moves with it.
-- A puzzle, not a story. Nobody tells you whose bag is whose — you have to work it out. Passive words: *žuta* (yellow), *crvena* (red), *zelena* (green), *nešto* (something).
+info: A logic puzzle in Croatian. The bags are described but not handed out, so match each person's habits to the contents; note that the color agrees with its noun, *žut**a** vrećic**a***, and moves with it.
+- A puzzle, not a story. Nobody tells you whose bag is whose — you have to work it out. Passive words: *žuta* (yellow), *crvena* (red), *zelena* (green).
 - Ana, Marko i Ivana idu na tržnicu. | Ana, Marko and Ivana are going to the market.
 - Ana ne voli ribu, ali voli voće. | Ana doesn't like fish, but she loves fruit.
 - Marko je gladan. On kupuje kruh i sir. | Marko is hungry. He buys bread and cheese.
@@ -112,7 +112,7 @@ info: A logic puzzle in Croatian. Nobody says whose bag is whose, so match each 
 
 ## Solve the puzzle
 format: izbor
-info: Deduction questions on Text 3. The questions themselves stand in the target form — *Tko nosi žut**u** vrećic**u***? — because the bag is what gets carried, and colour and noun both carry the **-u**.
+info: Deduction questions on Text 3. The questions themselves stand in the target form — *Tko nosi žut**u** vrećic**u***? — because the bag is what gets carried, and color and noun both carry the **-u**.
 tekst: Ana, Marko i Ivana idu na tržnicu. Ana ne voli ribu, ali voli voće. Marko je gladan. On kupuje kruh i sir. Ivana kuha juhu navečer. Žuta vrećica ima jabuku, krušku i bananu. Crvena vrećica ima kruh i sir. Zelena vrećica ima rajčicu, mrkvu i luk.
 opis: Nobody says whose bag is whose. Work it out from what each person likes and does.
 - Tko nosi žutu vrećicu? | Ana | Marko | Ivana
@@ -125,20 +125,20 @@ opis: Nobody says whose bag is whose. Work it out from what each person likes an
 ## Text 4: Breakfast
 format: tekst
 info: An ordinary day, thick with **-u** endings. Count them as they go by: *pijem vod**u***, *jedem jabuk**u***, *idem u pekar**u***, *volim subot**u***. Targets and destinations use the very same ending.
-- Back to a normal day — but count how many **-u** endings go past you. Passive words: *ujutro* (in the morning), *u podne* (at noon), *svaki dan* (every day), *televizija* (television), *idemo* (we go), *jedemo* (we eat).
+- Back to a normal day — but count how many **-u** endings go past you. Passive words: *ujutro* (in the morning), *svaki dan* (every day), *televizija* (television), *idemo* (we go), *jedemo* (we eat).
 - Ujutro pijem vodu, a poslije pijem kavu. | In the morning I drink water, and afterwards I drink coffee.
 - Volim kavu! | I love coffee!
 - Jedem jabuku i bananu. | I eat an apple and a banana.
 - Sestra jede čokoladu — ona jede čokoladu svaki dan! | My sister eats chocolate — she eats chocolate every day!
 - Mama kuha juhu, a tata gleda televiziju. | Mom is cooking soup, while dad is watching television.
-- U podne idemo u školu i na posao. | At noon we go to school and to work.
+- Ujutro idemo u školu i na posao. | In the morning we go to school and to work.
 - Poslije idem u pekaru i kupujem kruh. | Afterwards I go to the bakery and buy bread.
 - Navečer jedemo ribu i salatu. | In the evening we eat fish and salad.
 - Volim subotu jer ne idem u školu! | I love Saturday because I don't go to school!
 
 ## Tap the ending from the texts
 format: nastavak
-info: One tap per sentence, every sentence lifted from the four texts. Naming beside *je* takes **-a**; whatever a verb acts on takes **-u**. Compare *Juh**a** je topla* with *Mama kuha juh**u***.
+info: One tap per sentence, almost every sentence lifted from the four texts. Naming beside *je* takes **-a**; whatever a verb acts on takes **-u**. Compare *Juh**a** je topla* with *Mama kuha juh**u***.
 nastavci: a | u
 opis: Every sentence here came out of the four texts you just read. Naming takes **-a**, target takes **-u**.
 - Tržnic___ je velika i šarena. | The market is big and colorful. | a
@@ -187,7 +187,7 @@ opis: Seven moments from a market morning, shuffled. Nobody wrote this story dow
 ## Translate by building
 format: slaganje
 info: English in, Croatian tiles out. Two habits decide most of these: a feminine target ends in **-u** with its adjective matching (*mal**u** vrećic**u***), and a comma comes before *a* and *ali*.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the four texts.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
 - Ana ide na tržnicu. | en: Ana is going to the market.
 - Tržnica je velika. | en: The market is big.
 - Ana kupuje jabuku. | en: Ana is buying an apple.

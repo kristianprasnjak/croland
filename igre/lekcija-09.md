@@ -213,7 +213,7 @@ opis: Type the possessive. The bracket says who, the noun says how it ends.
 
 ## The rule: *svoj*, the one English is missing
 format: tekst
-info: A word English simply does not have, so it has to be learned by contrast rather than by translation. **When the owner is the same person as the subject of the sentence, Croatian uses *svoj*.** *Marko voli svoju sestru* is his own sister; *Marko voli njegovu sestru* is someone else's — one letter apart, two different families.
+info: A word English simply does not have, so it has to be learned by contrast rather than by translation. **When the owner is the same person as the subject of the sentence, Croatian uses *svoj*.** *Marko voli svoju sestru* is his own sister; *Marko voli njegovu sestru* is someone else's — one word apart, two different families.
 infoodmah: da
 opis: The one possessive English cannot translate. Read both sentences in the table slowly.
 - There is one more possessive, and English has no word for it: **svoj**.
@@ -263,7 +263,7 @@ opis: Arrange the tiles into a sentence.
 format: dijalog
 info: A ball lands at your feet in the park, and every reply needs a possessive in the right shape. Two words are worth having in advance: *čiji* (whose) and *naravno* (of course). **Read your two options out loud before choosing** — the wrong ending is easier to hear than to see.
 opis: A ball rolls up to you in the park. Choose your replies. Passive words: *čiji* (whose), *naravno* (of course), *super* (great).
-- npc | Bok! Je li ovo tvoja lopta?
+- npc | Bok! Marko i ja igramo ovdje. Je li ovo tvoja lopta?
 - ti | Ne, moja lopta je crvena. To je njegova lopta. | Da, to je moja lopta! Hvala!
 - npc | A čiji je ovaj dres?
 - ti | To je moj dres. | Mislim da je njezin.
@@ -271,12 +271,12 @@ opis: A ball rolls up to you in the park. Choose your replies. Passive words: *�
 - ti | Da! Moja pozicija je golman. | Ne, moj hobi je fotografija.
 - npc | Super! Naš klub trenira danas. Naš trener je strog, ali je pošten.
 - ti | Vaš park ili naš park? | Kada trenirate?
-- npc | Naš — naš park je velik! Dođi, momčad te čeka.
+- npc | Danas u pet, u naš park. Dođi, momčad te čeka.
 - ti | Naravno! Gdje je moje mjesto? | Hvala, ali moje koljeno boli.
 - npc | Ti si u obrani. Ana je kapetan, a njezina sestra je golman.
 - ti | Njihova obitelj voli nogomet! | Onda ću navijati.
 - npc | Svi ovdje vole svoj klub. Vidimo se na treningu!
-- ti | Vidimo se!
+- ti | Vidimo se! | Hvala! Vidimo se!
 
 ## Read: our club
 format: izbor
@@ -294,14 +294,14 @@ opis: Read the text, then answer. Passive words: *svaki dan* (every day), *nosi*
 format: provjera
 info: A mixed check on the whole lesson. Two things decide nearly every answer: the ending comes from the **thing owned**, never from the owner, and *svoj* appears whenever the owner is also the one doing the action.
 prag: 80
-opis: Final check! Score 80% to be ready for Lesson 10.
+opis: Final check! Score 80% to be ready for Vocabulary 9.
 - slaganje | Moj hobi je fotografija.
 - izbor | ___ gitara je nova. | moja | moj | moje
 - upis | ___ klub je dobar. (our) | Naš
 - izbor | Što znači "trener"? | coach | jersey | ball
 - izbor | ___ more je toplo. | naše | naš | naša
 - izbor | Koja je rečenica točna? | Njezina gitara je nova. | Njezin gitara je nova.
-- izbor | "njegov" means "her". — true or false? | false | true
+- izbor | "njegov" means "her". | FALSE | TRUE
 - upis | ___ koljeno boli. (my) | Moje
 - izbor | Marko voli ___ sestru. (his own) | svoju | njegovu
 - izbor | Što znači "čiji"? | whose | which | whether
@@ -313,4 +313,4 @@ format: tekst
 info: A closing summary. You now have the whole possessive set, the *-o* / *-e* wrinkle, and *svoj* — the one Croatian has and English does not. What comes next is the last piece of Module B, and it is the big one: the past.
 opis: Module B is nearly done. One lesson to go.
 - Bravo! Things are officially *yours* now — your club, your guitar, your Croatian. And with *svoj* you can say something English cannot say in one word.
-- **Next up:** the grand finale of Module B. In Lesson 10 you will tell stories about *yesterday* — the past tense: *Gledao sam film. Bio je odličan!*
+- **Next up:** Vocabulary 9 collects sport, hobbies and the body, and Grammar 9 drills the possessive endings. Then the grand finale of Module B: in Lesson 10 you tell stories about *yesterday* — the past tense: *Gledao sam film. Bio je odličan!*

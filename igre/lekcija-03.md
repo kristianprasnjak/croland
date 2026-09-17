@@ -59,7 +59,7 @@ info: The core rule of this level: **-m** means *I*, **-š** means *you*, and *o
 - tab: ti | čitaš | piješ | jedeš
 - tab: on, ona, ono | čita | pije | jede
 - **The middle may shift, the endings never lie.** *piti* becomes *pije-* and *jesti* becomes *jede-*, but the **-m**, the **-š** and the bare form stay exactly where they were.
-- **Now you write them.** Ja [čitam] knjigu. Ti [piješ] sok. Ona [jede] kruh.
+- **Now you write them.** Ja [čitam] udžbenik. Ti [piješ] sok. Ona [jede] kruh.
 - **So drop the pronoun.** The ending already said who it was. *Pijem sok.* means exactly *Ja pijem sok.* — and the short one is what people actually say. Keep *ja* only when you want to stress it: *JA pijem sok* (me, not you).
 - One thing that does *not* change: the word after the verb. *Pijem **sok**. Čitam **udžbenik**. Gledam **film**.* — same shape as on the flashcard. Croatian does reshape objects, but not these ones, and not yet. That's Lesson 5.
 
@@ -165,9 +165,9 @@ opis: Your neighbour Marko drops by. Choose your replies and keep the conversati
 - ti | Učim hrvatski. A ti? | Gledam film. A ti?
 - npc | Ja čitam. Udžbenik je star, ali je dobar.
 - ti | Ja pijem sok. | Ja jedem sendvič.
-- npc | Super! I ja jedem. Kruh i sir.
+- npc | Super! Ja jedem kruh i sir.
 - ti | Sok je hladan i dobar. | Sendvič je dobar.
-- npc | Ana spava, pas spava. Dan je miran.
+- npc | Pas spava. Dan je miran.
 - ti | Ja slušam radio. | Ja pišem pismo.
 - npc | Odlično! Vidimo se!
 
@@ -191,7 +191,7 @@ opis: Final check! Score 80% to be ready for Vocabulary 3.
 - izbor | What does "piti" mean? | to drink | to work | to study
 - izbor | Which column does "čitam" belong to? | JA | TI | ON/ONA
 - izbor | Pas spava. — što pas radi? | sleeps | eats | reads
-- izbor | "Pijem" means "you drink." — true or false? | false | true
+- izbor | "Pijem" means "you drink." | FALSE | TRUE
 - slaganje | On sluša radio.
 - upis | Ti ___ udžbenik. (čitati) | čitaš
 - izbor | Marko ___ pismo. | piše | pišem | pišeš

@@ -72,12 +72,12 @@ opis: Pick the correct meaning.
 - plaža | beach | island | shore road
 - otok | island | peninsula | beach
 - planina | mountain | hill | forest
-- selo | village | city | neighbourhood
+- selo | village | city | neighborhood
 - kamp | campsite | camp bed | hotel
-- put | way | ticket | trip
+- put | way | ticket | map
 - putovanje | journey | traveller | luggage
 - izlet | day trip | holiday | tour
-- odmor | holiday | break time | rest home
+- odmor | holiday | weekend | rest home
 - avantura | adventure | tour | plan
 - destinacija | destination | direction | reservation
 - vlak | train | tram | bus
@@ -85,7 +85,7 @@ opis: Pick the correct meaning.
 - brod | boat | bridge | port
 - aerodrom | airport | airplane | station
 - kolodvor | station | stop | platform
-- karta | ticket | map | card
+- karta | ticket | suitcase | receipt
 - rezervacija | reservation | reception | receipt
 - kofer | suitcase | bag | box
 - prtljaga | luggage | suitcase | passenger
@@ -101,7 +101,7 @@ opis: Pick the correct meaning.
 - džemper | sweater | coat | T-shirt
 - sutra | tomorrow | today | yesterday
 - tjedan | week | month | day
-- mjesec | month | week | moonlight
+- mjesec | month | week | year
 - proljeće | spring | autumn | summer
 - jesen | autumn | spring | winter
 - putovati | to travel | to arrive | to fly
@@ -140,7 +140,7 @@ opis: Pick the correct meaning.
 - to swim | plivati | plesati | šetati
 - to get up | ustati | odmarati | spavati
 - to arrive | stizati | kretati | putovati
-- to fly | letjeti | letjeti sam | putovati
+- to fly | letjeti | stizati | putovati
 
 ## Who will it be?
 format: razvrstavanje
@@ -357,7 +357,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Navečer ćemo šetati. | en: In the evening we will take walks.
 - Bit će savršeno! | en: It will be perfect!
 - Neću učiti. | en: I won't study.
-- Neću nositi kaput. | en: I won't take a coat.
+- Neću nositi kaput. | en: I won't wear a coat.
 - Neću trenirati danas. | en: I won't train today.
 - Ona neće raditi u nedjelju. | en: She won't work on Sunday.
 - Nećemo ići u kino. | en: We won't go to the cinema.
@@ -369,7 +369,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Navečer ću biti umoran. | en: In the evening I will be tired.
 - Marko će letjeti. | en: Marko will fly.
 - Luka će ostati doma. | en: Luka will stay at home.
-- Nosit ću kofer na kolodvor. | en: I will buy a train ticket.
+- Nosit ću kofer na kolodvor. | en: I will carry the suitcase to the station.
 - Gledat ćemo utakmicu. | en: We will watch the match.
 - Nećemo ustati rano jer je odmor. | en: We won't get up early because it's a holiday.
 
@@ -382,7 +382,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - In the evening we will take walks. | Navečer ćemo šetati. / Šetat ćemo navečer.
 - It will be perfect! | Bit će savršeno.
 - I won't study. | Neću učiti.
-- I won't take a coat. | Neću nositi kaput.
+- I won't wear a coat. | Neću nositi kaput.
 - She won't work on Sunday. | Ona neće raditi u nedjelju. / Neće raditi u nedjelju.
 - We won't go to the cinema. | Nećemo ići u kino.
 - Tomorrow I will travel to Zagreb. | Sutra ću putovati u Zagreb. / Putovat ću sutra u Zagreb.

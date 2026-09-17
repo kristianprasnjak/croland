@@ -3,7 +3,7 @@ cjelina: Grammar 11
 
 ## The rule: three ways to ask
 format: tekst
-info: The reference page for the unit. Croatian asks in three ways — with a question word, with *li* behind the verb, or with the tag *zar ne?* — and none of them needs a helper word like English *do*.
+info: The reference page for the unit. Croatian asks with a question word, with *li* behind the verb, or with the tag *zar ne?* — and in speech a raised voice alone does the job too. None of them needs a helper word like English *do*.
 - **Question-word questions:** put the question word first, keep the rest almost unchanged: *Gdje živiš? Što kupuješ? Zašto učiš hrvatski?* No helper verb like English "do" — two words do the work of four.
 - **Yes/no questions with "li":** *li* sits right after the verb, always second: *Voliš **li** kavu? Imaš **li** brata? Ideš **li** na koncert?*
 - With **biti**, the short forms grow into long ones: Ja sam student. → **Jesam li** student? · Ti si umoran. → **Jesi li** umoran? · On je doma. → **Je li** doma? · Vi ste turisti. → **Jeste li** turisti?
@@ -67,7 +67,7 @@ opis: Pick the natural question for the answer.
 ## The rule: the three question words that agree
 format: tekst
 info: Three question words behave like adjectives, because each stands in front of a noun: *koji*, *kakav* and *čiji*. Learn the pair that English blurs — *koji* picks one out of a known set, *kakav* asks what something is like.
-- *tko, što, gdje, kada, zašto* never change shape. These three do — they're adjectives in disguise, so they copy the noun they ask about.
+- *što, gdje, kada, zašto* never change shape, and *tko* has only its target form *koga*. These three change fully — they're adjectives in disguise, so they copy the noun they ask about.
 - tab: Asks | m. | f. | n.
 - tab: which? | **koji** | **koja** | **koje**
 - tab: what kind of? | **kakav** | **kakva** | **kakvo**
@@ -80,8 +80,8 @@ info: Three question words behave like adjectives, because each stands in front 
 
 ## Tap the ending
 format: nastavak
-info: One tap makes the question word match its noun. A masculine noun gives **-i** for *koji* and *čiji* but the bare form for *kakav*; a feminine noun gives **-a**, or **-u** when the noun is the target of the verb; a neuter noun gives **-e** or **-o**.
-nastavci: i | a | e | o | u | -
+info: One tap makes the question word match its noun. A masculine noun gives **-i** for *koji* and *čiji*, and *kakav* keeps its masculine form whole, so it turns up here only with feminine and neuter nouns; a feminine noun gives **-a**, or **-u** when the noun is the target of the verb; a neuter noun gives **-e** or **-o**.
+nastavci: i | a | e | o | u
 opis: English above, Croatian below. One tap, and the question word matches the noun beside it.
 - Koj___ film gledamo? | Which film are we watching? | i
 - Koj___ knjigu čitaš? | Which book are you reading? | u
@@ -93,10 +93,8 @@ opis: English above, Croatian below. One tap, and the question word matches the 
 - Čij___ je ovo koljeno? | Whose knee is this? | e
 - Čij___ su ovo knjige? | Whose books are these? | e
 - Čij___ je ovo gitara? | Whose guitar is this? | a
-- Kakv___ je film? | What is the film like? | -
 - Kakv___ je kava? | What is the coffee like? | a
 - Kakv___ je more? | What is the sea like? | o
-- Kakv___ je tvoj brat? | What is your brother like? | -
 - Kakv___ je vrijeme danas? | What is the weather like today? | o
 - Kakv___ je tvoja sestra? | What is your sister like? | a
 - Koj___ je tvoja sestra? | Which one is your sister? | a

@@ -147,7 +147,7 @@ opis: A Croatian word appears — tap its English meaning before the timer runs 
 ## Build the word
 format: slova
 info: Spelling from letter tiles. Croatian writes one letter per sound, so a word you can say is a word you can spell — but **č**, **ć**, **š**, **ž** are letters of their own, and **nj** is a single letter, not an n followed by a j.
-opis: Careful — **nj** is one letter in Croatian, and the accented letters are separate letters too.
+opis: Careful — **nj** is one letter in Croatian, and the letters with diacritics (*č, ć, š, ž, đ*) are separate letters too.
 - kuća | house
 - knjiga | book
 - čokolada | chocolate
@@ -161,7 +161,7 @@ opis: Careful — **nj** is one letter in Croatian, and the accented letters are
 
 ## Type it in Croatian
 format: upis
-info: Here you produce the spelling yourself, which is where the accented letters matter: *kuća* needs **ć** and *čokolada* needs **č**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear, one letter each.
+info: Here you produce the spelling yourself, which is where the diacritics matter: *kuća* needs **ć** and *čokolada* needs **č**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear, one letter each.
 opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - house | kuća
 - sea | more

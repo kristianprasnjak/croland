@@ -163,7 +163,7 @@ opis: Each tile is two ideas waiting to be joined. Same subject, more of the sam
 ## Boy word, girl word
 format: razvrstavanje
 stupci: MUŠKI | ŽENSKI | SREDNJI
-opis: Sort each word by its gender. Two traps: obitelj ends in a consonant but is feminine, and kolega ends in -a but is masculine.
+opis: Sort each word by its gender. Three traps: obitelj ends in a consonant but is feminine, while tata and kolega end in -a but are masculine.
 - tata | MUŠKI
 - brat | MUŠKI
 - djed | MUŠKI
@@ -369,7 +369,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian. 
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count — but the comma is not optional: *a* and *ali* always take one, *i* never does.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it — but the comma is not optional: *a* and *ali* always take one, *i* never does.
 - Mom works and reads. | Mama radi i čita.
 - Dad is cooking, while my brother is studying. | Tata kuha, a brat uči.
 - The apartment is small, but the home is warm. | Stan je mali, ali je dom topao.
@@ -377,7 +377,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - The dog is old, but he is cheerful. | Pas je star, ali je veseo.
 - Grandpa sits and waits. | Djed sjedi i čeka.
 - I am working, while you are sleeping. | Ja radim, a ti spavaš. / Radim, a ti spavaš.
-- I am not swimming because the sea is cold. | Ne plivam jer je more hladno.
+- I am not swimming because the sea is cold. | Ne plivam jer je more hladno. / Ja ne plivam jer je more hladno.
 - I love summer because the sea is warm. | Volim ljeto jer je more toplo. / Ja volim ljeto jer je more toplo.
 - The house is old, but it is beautiful. | Kuća je stara, ali je lijepa.
 - Grandma is cooking, while mom is cleaning. | Baka kuha, a mama čisti.

@@ -11,7 +11,7 @@ info: The page that completes your accusative singular. Masculine nouns split by
 - tab: masculine living | prijatelj | prijatelj**a** | yes
 - tab: masculine thing | tramvaj | tramvaj | no
 - tab: neuter | pismo | pismo | no
-- This is why Lesson 3 felt easy: every object there was a "no change" word. Sneaky, right?
+- This is why Lesson 3 felt easy: almost every object there was a "no change" word. Sneaky, right?
 - **One more word worth having:** *tko* (who) becomes **koga** in the accusative, exactly like every other living thing. *Koga čekaš? — Čekam prijatelja.* You'll meet the rest of the question words in Lesson 11; this one is just the case you already know.
 - **Now you write them.** Vidim [tramvaj] — stvar. Vidim [prijatelja] — biće. [Koga] čekaš?
 
@@ -79,6 +79,7 @@ info: The spelling rule behind the odd-looking forms. A fleeting **a** lives onl
 - **It is not random.** Almost every masculine noun ending in **-ac** does it: *policajac, kupac, Amerikanac, Austrijanac, otac*. Spot the *-ac* and you can predict the squeeze before you learn the word.
 - **Words ending in -er, -ik, -aj, -ač, and most in -ar, do not squeeze:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. They simply take the **-a** and keep everything else.
 - *Pas → psa* is an exception of its own — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day.
+- **Names ending in -o swap that -o for the -a:** *Marko → Mark**a***, *Ivo → Iv**a***. The ending is the same one, it simply replaces a letter instead of being added.
 - **Now you write them.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka].
 
 ## Does it squeeze?
@@ -147,7 +148,7 @@ opis: Three buttons, three outcomes — everything you have learned about the ac
 - Fotografiram turist___ . | I'm photographing the tourist. | a
 - Fotografiram spomenik___ . | I'm photographing the monument. | -
 - Nosim vrećic___ . | I'm carrying the bag. | u
-- Gledam pas___ . | I'm looking at the dog. | a
+- Gledam konj___ . | I'm looking at the horse. | a
 - Vidim semafor___ . | I see the traffic light. | -
 
 ## The correct sentence
@@ -159,7 +160,7 @@ opis: Choose the correct sentence.
 - watching a dog | Ana gleda psa. | Ana gleda pas.
 - calling the waiter | Marko zove konobara. | Marko zove konobar.
 - photographing the monument | Turist fotografira spomenik. | Turist fotografira spomenika.
-- seeing a policeman | Vidim policajca. | Vidim policajaca.
+- seeing a police officer | Vidim policajca. | Vidim policajaca.
 - driving a car | Vozim auto. | Vozim autoa.
 - hearing a man | Čujem čovjeka. | Čujem čovjek.
 - waiting for the bus | Čekam autobus. | Čekam autobusa.

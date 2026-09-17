@@ -7,6 +7,7 @@ info: The reference page for the whole unit. One past tense covers everything En
 - One past tense covers everything in spoken Croatian: *I watched, I was watching, I have watched* — all simply **gledao sam**.
 - **The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped.
 - **The speaker's gender matters:** a man says *Spavao sam dugo*; a woman says *Spavala sam dugo*. The verb form alone shows which of the two is speaking — English has no equivalent.
+- **Djeca and braća take -la**, not -li: they mean many people, but each behaves like one feminine word — *Djeca su spava**la***, *Braća su doš**la***, exactly like *Vidim djecu* in Lesson 7.
 - **Word order — the leaning rule:** *sam/si/je...* never stands first: *Gledao **sam** film. · Ja **sam** gledao film. · Jučer **sam** gledao film.* You know this from the future (*ću*).
 - **The past of "to be":** *Bio sam na moru. Voda je bila topla. Bilo je savršeno!*
 - **Now you write them.** Ja sam [bio] na moru — kaže muškarac. Voda je [bila] topla. Sve je [bilo] savršeno.
@@ -39,7 +40,7 @@ stupci: ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)
 
 ## Tap the participle ending
 format: nastavak
-info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li**, and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.
+info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li** (but *djeca* and *braća* take **-la**), and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.
 nastavci: o | la | li | lo
 opis: English above, Croatian below. One tap completes the participle.
 - Marko je gleda___ film. | Marko watched a film. | o
@@ -47,7 +48,7 @@ opis: English above, Croatian below. One tap completes the participle.
 - Mi smo gleda___ film. | We watched a film. | li
 - Jučer sam spava___ dugo. (a man) | Yesterday I slept for a long time. | o
 - Jučer sam spava___ dugo. (a woman) | Yesterday I slept for a long time. | la
-- Djeca su spava___ dugo. | The children slept for a long time. | li
+- Dječaci su spava___ dugo. | The boys slept for a long time. | li
 - Marko je pi___ kavu. | Marko drank coffee. | o
 - Petra je pi___ sok. | Petra drank juice. | la
 - Pi___ smo kavu i pričali smo. | We drank coffee and talked. | li
@@ -108,7 +109,7 @@ opis: Type the participle.
 
 ## The correct sentence
 format: izbor
-info: Two things have to agree at once: the helper with the person (*je* for Ana, *smo* for us) and the participle with the gender (*pjevala* for her, *pjevao* for him). Each wrong option gets exactly one of the two wrong, or puts the helper first.
+info: Two things have to agree at once: the helper with the person (*je* for Ana, *smo* for us) and the participle with the gender (*pjevala* for her, *pjevao* for him). Each wrong option gets the helper, the gender, the case or the word order wrong.
 opis: Choose the correct sentence.
 - I watched a film. (a man speaking) | Gledao sam film. | Sam gledao film. | Gledala sam film.
 - Ana sang. | Ana je pjevala. | Ana je pjevao. | Ana su pjevale.
@@ -257,4 +258,4 @@ format: tekst
 info: A closing summary. The tense is one formula — a form of **biti** plus a participle whose ending names the speaker — plus one restriction on where the helper may stand, and one flip for the negative.
 - **Bravo.** You can now tell a story about yesterday: what you did, what it was like, and what did not happen.
 - And you did it with one formula: **biti + the participle**, where the participle ending names the speaker and the helper never opens the sentence.
-- **Next up:** Practice 10 puts the past tense into real texts about a weekend, and Test 10 closes the unit. Then Lesson 11 hands you the questions — *tko, što, gdje, kada, zašto* — so a conversation can go both ways.
+- **Next up:** Practice 10 puts the past tense into real texts about a weekend, and Test 10 closes the unit. Then Lesson 11 turns the question words from Lesson 4 — *tko, što, gdje, kada, zašto* — into questions of your own, so a conversation can go both ways.

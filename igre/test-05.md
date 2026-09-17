@@ -122,7 +122,7 @@ opis: Pick the correct meaning.
 - carrot | mrkva | rajčica | krumpir
 - fish | riba | meso | jaje
 - soup | juha | salata | pita
-- cake | torta | pita | kolač
+- cake | torta | pita | sir
 - bread | kruh | sir | riža
 - sugar | šećer | sol | brašno
 - egg | jaje | meso | mlijeko
@@ -385,7 +385,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 
 ## Write it in Croatian
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional, so both versions count.
+opis: No tiles, no options. Read the English and write the whole Croatian sentence. The pronoun is optional with *ja* and *ti*, so both versions count there; with *on* and *ona* keep it.
 - I'm drinking coffee. | Pijem kavu. / Ja pijem kavu.
 - I'm eating an apple. | Jedem jabuku. / Ja jedem jabuku.
 - I need water. | Trebam vodu. / Ja trebam vodu.

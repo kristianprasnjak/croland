@@ -86,15 +86,14 @@ opis: The conversation got shuffled! Put the lines back into the right order.
 - — Jesi li ti studentica?
 - — Ne, ja sam učiteljica. A ti?
 - — Ja sam pilot.
-- — Pilot? To je super!
-- — Odakle si?
+- — Pilot? To je super! Odakle si?
 - — Ja sam Hrvat, iz Splita.
-- — Drago mi je, Maja!
+- — Drago mi je, Ivane!
 
 ## Text 3: At the café
 format: tekst
 info: The same patterns in the polite register: the waiter and the guests use *vi*, so the verb is *ste* and the adjective after it takes **-i** — *Vi ste ljubazni*. *Kako ste?* is simply the polite twin of *Kako si?*, and *Dobro sam* answers both.
-- — Dobar dan! Kako ste? | — Good afternoon! How are you?
+- — Dobar dan! Kako ste? | — Good day! How are you?
 - — Dobro sam, hvala. A vi? | — I'm fine, thank you. And you?
 - — I ja sam dobro. Vi ste turisti? | — I'm fine too. Are you tourists?
 - — Da, mi smo turisti. | — Yes, we are tourists.
@@ -137,9 +136,9 @@ opis: You meet Petra on the first day of a language course. Choose your replies 
 - ti | Bok! Ja sam Ana. | Bok! Ja sam Tom.
 - npc | Drago mi je! Jesi li ti student?
 - ti | Da, ja sam studentica. | Da, ja sam student.
-- npc | Super. Ja sam novinarka. Odakle si?
+- npc | Super. Ja sam doktorica. Odakle si?
 - ti | Ja sam Hrvatica, iz Splita. | Ja sam Talijan, iz Rima.
-- npc | Lijepo! Posao je težak, ali je zanimljiv.
+- npc | Lijepo! Ja sam iz Zagreba. Posao je težak, ali je zanimljiv.
 - ti | Da, posao je težak. | Ne, posao nije težak!
 - npc | Jesi li umoran danas?
 - ti | Ne, nisam umorna. | Ne, nisam umoran.
@@ -150,7 +149,7 @@ opis: You meet Petra on the first day of a language course. Choose your replies 
 ## Translate by building
 format: slaganje
 info: Production from English with tiles drawn from all four texts. Choose the verb by the person and the ending by the person too — *Ja sam učiteljica*, *Vi ste ljubazni* — and keep the pronoun in front so the little verb never opens the sentence.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the four texts you just read — and you'll hear it once it's right.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read — and you'll hear it once it's right.
 - Ja sam studentica. | en: I am a student.
 - Ja sam mlada i visoka. | en: I am young and tall.
 - Ovo je Marko. | en: This is Marko.

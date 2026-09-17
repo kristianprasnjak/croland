@@ -62,8 +62,8 @@ opis: Tap true or false.
 ## Text 3: At the café
 format: tekst
 info: A short dialogue, so the new material is set phrases: *molim* (please), *hvala* (thanks), *izvolite* (here you are). The grammar is unchanged, since *Kava je topla* agrees and *Velika ili mala?* still copies *kava*.
-- — Dobar dan! | — Good afternoon!
-- — Dobar dan! Kava, molim. | — Good afternoon! A coffee, please.
+- — Dobar dan! | — Good day!
+- — Dobar dan! Kava, molim. | — Good day! A coffee, please.
 - — Velika ili mala? | — Large or small?
 - — Velika, molim. | — Large, please.
 - — Izvolite. | — Here you are.
@@ -87,7 +87,7 @@ opis: The café conversation got shuffled! Put the lines back into the right ord
 ## At the café
 format: dijalog
 info: Your first conversation, built from the one pattern you have: a thing, then **je**, then a description. Every reply on offer is a sentence of that shape, so pick the one whose ending matches its noun — *Kava je dobra*, *Nebo je plavo*.
-opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (What would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect).
+opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (here you are — with a question mark: what would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect).
 - npc | Dobar dan! Izvolite?
 - ti | Kava, molim. | Sladoled, molim.
 - npc | Velika ili mala?
@@ -103,7 +103,7 @@ opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: 
 ## Translate by building
 format: slaganje
 info: Tile translation of sentences taken from the three texts you just read. Keep the frame of noun plus **je** plus adjective, use *i* for *and*, and give the adjective the ending that matches its noun: *More je plavo i toplo.*
-opis: Read the English sentence, then build its Croatian translation from the tiles. Every sentence comes from the three texts you just read — and you'll hear it once it's right.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the three texts you just read — and you'll hear it once it's right.
 - More je plavo i toplo. | en: The sea is blue and warm.
 - Hotel je velik i moderan. | en: The hotel is big and modern.
 - Ovo je soba. | en: This is a room.

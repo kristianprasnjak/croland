@@ -93,7 +93,7 @@ opis: A grandmother, a mother and a father try to feed Marko. Tap **EN** to see 
 - Ne jede povrće. | He doesn't eat vegetables.
 - Ne voli voće. | He doesn't like fruit.
 - Nikad ne pije mlijeko. | He never drinks milk.
-- "Ne!" — to je njegova omiljena riječ. | "No!" — that is his favourite word.
+- "Ne!" — to je njegova omiljena riječ. | "No!" — that is his favorite word.
 - Baka kuha juhu — Marko ne želi juhu. | Grandma cooks soup — Marko doesn't want soup.
 - Mama peče kolač — Marko ne želi ni kolač! | Mom bakes a cake — Marko doesn't even want the cake!
 - Tata radi palačinke... i gle! Marko jede! | Dad makes pancakes... and look! Marko is eating!
@@ -116,34 +116,34 @@ format: tekst
 info: A puzzle rather than a story. Four friends, four dishes, and nobody says who has which. Every clue is a negative, so work by elimination: what a person does **not** eat narrows down what is left for the others.
 opis: Four friends, four dishes, no labels. Read it twice before you answer.
 - Passive words: *četiri jela* (four dishes), *isto* (the same).
-- Ana, Marko, Petra i Ivan večeraju u restoranu. | Ana, Marko, Petra and Ivan are having dinner at a restaurant.
+- Ana, Damir, Petra i Ivan večeraju u restoranu. | Ana, Damir, Petra and Ivan are having dinner at a restaurant.
 - Na stolu su četiri jela: piletina, riba, tjestenina i salata. | There are four dishes on the table: chicken, fish, pasta and salad.
 - Nitko ne jede isto jelo. | Nobody eats the same dish.
 - Petra je vegetarijanka — ne jede ni meso ni ribu. | Petra is a vegetarian — she eats neither meat nor fish.
 - Ana ne jede meso. | Ana doesn't eat meat.
-- Marko ne voli ni salatu ni tjesteninu. | Marko likes neither salad nor pasta.
+- Damir ne voli ni salatu ni tjesteninu. | Damir likes neither salad nor pasta.
 - Ivan nikad ne jede ribu. Danas ne želi ni piletinu. | Ivan never eats fish. Today he doesn't want chicken either.
 - Petra danas ne želi tjesteninu. | Petra doesn't want pasta today.
 - Tko jede što? | Who is eating what?
 
 ## Solve the puzzle
 format: izbor
-info: Deduction from the negatives. Only Marko can take the chicken, because Ana and Petra eat no meat and Ivan does not want it today. Ivan never eats fish, so the fish is Ana's; Petra does not want pasta, so she has the salad and Ivan the pasta.
+info: Deduction from the negatives. Only Damir can take the chicken, because Ana and Petra eat no meat and Ivan does not want it today. Ivan never eats fish, so the fish is Ana's; Petra does not want pasta, so she has the salad and Ivan the pasta.
 opis: Nobody says who eats what. Work it out from the text.
-tekst: Ana, Marko, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela: piletina, riba, tjestenina i salata. Nitko ne jede isto jelo. Petra je vegetarijanka — ne jede ni meso ni ribu. Ana ne jede meso. Marko ne voli ni salatu ni tjesteninu. Ivan nikad ne jede ribu. Danas ne želi ni piletinu. Petra danas ne želi tjesteninu.
-- Tko jede piletinu? | Marko | Ivan | Ana
-- Tko jede ribu? | Ana | Marko | Petra
-- Tko jede tjesteninu? | Ivan | Petra | Marko
+tekst: Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela: piletina, riba, tjestenina i salata. Nitko ne jede isto jelo. Petra je vegetarijanka — ne jede ni meso ni ribu. Ana ne jede meso. Damir ne voli ni salatu ni tjesteninu. Ivan nikad ne jede ribu. Danas ne želi ni piletinu. Petra danas ne želi tjesteninu.
+- Tko jede piletinu? | Damir | Ivan | Ana
+- Tko jede ribu? | Ana | Damir | Petra
+- Tko jede tjesteninu? | Ivan | Petra | Damir
 - Tko jede salatu? | Petra | Ana | Ivan
 - Zašto Petra ne jede ribu? | jer je vegetarijanka | jer ne voli ribu | jer riba nije svježa
-- Što Marko ne voli? | ni salatu ni tjesteninu | ni meso ni ribu | ni piletinu ni ribu
+- Što Damir ne voli? | ni salatu ni tjesteninu | ni meso ni ribu | ni piletinu ni ribu
 
 ## Tap the ending from the texts
 format: nastavak
-info: One tap per sentence, and every sentence comes from the four texts. **Ni-** builds *ništa*, *nikad*, *nitko* and *nije*; **ne-** builds *nešto* and *nemamo*, and *ne* also stands alone in front of a verb. The dash leaves a positive sentence untouched.
+info: One tap per sentence, and almost every sentence comes from the four texts. **Ni-** builds *ništa*, *nikad*, *nitko* and *nije*; **ne-** builds *nešto* and *nemamo*, and *ne* also stands alone in front of a verb. The dash leaves a positive sentence untouched.
 nastavci: ni | ne | -
-opis: Every sentence came out of the four texts. One tap — or none, if the sentence is positive.
-- Marko ___što ne jede. | Marko eats nothing. | ni
+opis: Almost every sentence came out of the four texts. One tap — or none, if the sentence is positive.
+- Marko ___šta ne jede. | Marko eats nothing. | ni
 - Marko ipak ___što jede. | Marko does eat something after all. | ne
 - Juha ___je zdrava. | Soup is healthy. | -
 - Mama ___je sretna. | Mom isn't happy. | ni
@@ -162,7 +162,7 @@ opis: Every sentence came out of the four texts. One tap — or none, if the sen
 
 ## Yes or no?
 format: razvrstavanje
-info: Sorting sentences from the texts by meaning. A sentence is negative when its verb is — *ne jede*, *nije*, *nemamo*. Two traps: *Marko ipak nešto jede* is positive despite the **ne-** word, and *samo vodu* is a positive answer.
+info: Sorting sentences by meaning. A sentence is negative when its verb is — *ne jede*, *nije*, *nemamo*. Two traps: *Marko ipak nešto jede* is positive despite the **ne-** word, and *samo vodu* is a positive answer.
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
 opis: Does the sentence say yes or no?
 - Volim pizzu i sladoled. | ✓ POZITIVNO
@@ -188,14 +188,14 @@ opis: The waiter is ready and the kitchen is half empty. Choose your replies —
 - ti | Hvala! Imate li ribu? | Hvala! Imate li juhu?
 - npc | Nažalost, danas nemamo ni ribu ni juhu. Imamo piletinu i tjesteninu.
 - ti | Ne jedem meso, ja sam vegetarijanac. | Ne jedem meso, ja sam vegetarijanka. | Piletinu, molim!
-- npc | Nema problema. Imamo i salatu.
+- npc | U redu. Imamo i salatu.
 - ti | Onda salatu, molim. | Onda tjesteninu, molim. | Ne volim salatu. Tjesteninu, molim.
 - npc | Jeste li alergični na nešto?
 - ti | Ne, nisam alergičan. | Ne, nisam alergična. | Da, na orahe.
-- npc | A za piće? Imamo vino, pivo i sokove.
+- npc | Dobro je znati. A za piće? Imamo vino, pivo i sokove.
 - ti | Ne pijem alkohol. Sok, molim. | Samo vodu, molim. | Vino, molim.
 - npc | Evo. Dobar tek! ... Je li sve u redu?
-- ti | Jest, sve je odlično! | Nije loše, ali je malo slano. | Nažalost, tjestenina je hladna.
+- ti | Jest, sve je odlično! | Nije loše, ali je malo slano. | Nažalost, jelo je hladno.
 - npc | Želite li desert? Imamo palačinke.
 - ti | Ne, hvala. Ništa više ne želim. | Da, palačinke, molim! | Ne jedem ništa slatko. Račun, molim.
 - npc | Hvala vam i doviđenja!
@@ -215,7 +215,7 @@ opis: Seven moments from Text 3, shuffled. Put them in the order they happened.
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles taken from the four texts. *Ne* goes directly in front of the verb, *nije* and *nemamo* are single tiles, and every negative word keeps *ne* on the verb.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Everything comes from the four texts.
+opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
 - Ne volim juhu. | en: I don't like soup.
 - Nikad ne jedem juhu. | en: I never eat soup.
 - Ali ne volim ni ribu. | en: But I don't like fish either.

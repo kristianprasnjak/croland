@@ -62,15 +62,15 @@ opis: Where you buy it, what you carry it in, what you pay. **tržnica** is the 
 
 ## Ten new verbs
 format: kartice
-info: Ten verbs with their present-tense forms. Each can take a target, so a feminine noun after it ends in **-u**: *Kupujem jabuk**u***, *Tražim rib**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ.
-opis: All ten take a target — and if that target is feminine, it ends in **-u**. *Kupujem jabuku. Plaćam kavu. Tražim ribu.*
+info: Ten verbs with their present-tense forms. Eight of them take a target, so a feminine noun after it ends in **-u**: *Kupujem jabuk**u***, *Tražim rib**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ.
+opis: Eight of them take a target — *ići* and *koštati* do not — and if that target is feminine, it ends in **-u**. *Kupujem jabuku. Plaćam kavu. Tražim ribu.*
 - kupovati → kupujem, kupuješ, kupuje | to buy
 - trebati → trebam, trebaš, treba | to need
 - ići → idem, ideš, ide | to go
 - plaćati → plaćam, plaćaš, plaća | to pay
 - tražiti → tražim, tražiš, traži | to look for
 - birati → biram, biraš, bira | to choose
-- nositi → nosim, nosiš, nosi | to carry
+- nositi → nosim, nosiš, nosi | to carry, to wear
 - uzimati → uzimam, uzimaš, uzima | to take
 - prodavati → prodajem, prodaješ, prodaje | to sell
 - koštati → košta | to cost

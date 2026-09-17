@@ -15,7 +15,7 @@ info: A rule page with nothing to tap: it names the endings you have already bee
 - tab: čitam | čita | čitaš
 - tab: pijem | pije | piješ
 - tab: radim | radi | radiš
-- **Now you write them.** Ja [čitam] knjigu. Ti [čitaš] knjigu. Ona [čita] knjigu.
+- **Now you write them.** Ja [čitam] udžbenik. Ti [čitaš] udžbenik. Ona [čita] udžbenik.
 
 ## The rule: three families
 format: tekst
@@ -204,7 +204,7 @@ opis: Negate the sentence. The verb keeps its ending — you only add one word.
 ## Write the whole sentence
 format: upis
 info: Full production from English. Croatian has one present tense, so *I drink* and *I am drinking* are both *pijem*, and the pronoun is optional. For a negative, put *ne* in front of the verb and leave everything else alone.
-opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional, so both versions are accepted.
+opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional with *ja* and *ti*, so both versions are accepted there; with *on* and *ona* keep it.
 - I am drinking juice. | Pijem sok. / Ja pijem sok.
 - You are reading a textbook. | Čitaš udžbenik. / Ti čitaš udžbenik.
 - Marko is watching a film. | Marko gleda film.

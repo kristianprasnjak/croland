@@ -3,7 +3,7 @@ cjelina: Vocabulary 12
 
 ## Food
 format: kartice
-info: New food words, on top of the market words from Vocabulary 5. Two of them exist only in the plural — *gljive* and *palačinke* — so the verb and the adjective take plural forms too: *Palačinke su slatke.* Feminine words take **-u** as a target: *Ne jedem piletinu.*
+info: New food words, on top of the market words from Vocabulary 5. Two of them are normally used in the plural — *gljive* and *palačinke* — so the verb and the adjective take plural forms too: *Palačinke su slatke.* Feminine words take **-u** as a target: *Ne jedem piletinu.*
 opis: Meat, vegetables, fruit and things you put on bread. Tap a card to reveal the meaning.
 - piletina | chicken (meat)
 - govedina | beef
@@ -23,16 +23,16 @@ opis: Meat, vegetables, fruit and things you put on bread. Tap a card to reveal 
 - džem | jam
 - maslac | butter
 - palačinke (mn.) | pancakes
-- čips | crisps
-- pomfrit | chips, French fries
+- čips | potato chips
+- pomfrit | French fries
 - sol | salt
 - ocat | vinegar
 
 ## Tastes & textures
 format: kartice
-info: Adjectives for describing food, each in its masculine and feminine form. Three of them drop the **a** in the feminine — *sladak → slatka*, *gorak → gorka*, *mastan → masna* — the fleeting **a** from Grammar 2, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* means *angry* for people and *spicy* for food.
+info: Adjectives for describing food, each in its masculine and feminine form. Four of them drop the vowel in the feminine — *sladak → slatka*, *gorak → gorka*, *mastan → masna*, *sočan → sočna* — the fleeting **a** from Grammar 2, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* means *angry* for people and *spicy* for food.
 opis: How food tastes and how it is made. Tap a card to reveal the meaning.
-- okus | taste, flavour
+- okus | taste, flavor
 - sladak / slatka | sweet
 - slan / slana | salty
 - kiseo / kisela | sour
@@ -299,7 +299,7 @@ opis: Food from seven levels ago — tap the English meaning.
 
 ## Build the word
 format: slova
-info: Spelling from letter tiles. *Češnjak* needs both **č** and the single letter **nj**, *žlica* starts with **ž**, and *palačinke* carries a **č** in the middle. *Ništa* and *nešto* differ in one letter — and in meaning.
+info: Spelling from letter tiles. *Češnjak* needs both **č** and the single letter **nj**, *žlica* starts with **ž**, and *palačinke* carries a **č** in the middle. *Ništa* and *nešto* differ in two letters — and in meaning.
 opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own.
 - češnjak | garlic
 - žlica | spoon

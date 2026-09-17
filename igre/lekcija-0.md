@@ -3,7 +3,7 @@ cjelina: Lesson 0
 
 ## Six words you already know
 format: spajanje
-info: In the next five minutes you'll learn the whole Croatian alphabet — thirty letters, thirty words, no memorising. The entire course works like this: you learn by playing, a few minutes a day, and in **6–12 months you can reach A1 — even A2**. Mistakes cost nothing, here or anywhere else in the course. Just start.
+info: In the next ten minutes you'll learn the whole Croatian alphabet — thirty letters, thirty words, no memorising. The entire course works like this: you learn by playing, a few minutes a day, and in **6–12 months you can reach A1 — even A2**. Mistakes cost nothing, here or anywhere else in the course. Just start.
 opis: Match the pictures to the words. Not sure? Open the dictionary — the floating icon on the right.
 - banana | banana
 - čokolada | chocolate
@@ -64,8 +64,8 @@ opis: Match the pictures to the words.
 
 ## Find the pairs again
 format: memorija
-info: The six hardest words again — this time from memory, which is where they stick. Needing a few extra flips is normal. Say each word out loud, especially **dž**, **đ** and **ć**.
-opis: Flip the cards and find each picture's word. Harder than the first round — these six are new.
+info: The same six words again — this time from memory, which is where they stick. Needing a few extra flips is normal. Say each word out loud, especially **dž**, **đ** and **ć**.
+opis: Flip the cards and find each picture's word. Harder than the first round — these are the six you have just met.
 - džem | jam
 - đak | pupil
 - ekran | screen
@@ -75,7 +75,7 @@ opis: Flip the cards and find each picture's word. Harder than the first round �
 
 ## Six more
 format: spajanje
-info: Check the bar at the bottom — two thirds of the alphabet is already yours. This is the pace of the whole course: small wins that add up, every day.
+info: Check the bar at the bottom — more than half of the alphabet is already yours. This is the pace of the whole course: small wins that add up, every day.
 opis: Match the pictures to the words.
 - nos | nose
 - oko | eye

@@ -18,7 +18,7 @@ opis: The nine verbs from Lesson 3. Learn each one as a set of three — the *ja
 ## Ten more verbs
 format: kartice
 info: Ten new verbs in the same three-form layout. The trap is trusting the infinitive: *trčati* looks like *spavati* but says *trčim*, and *prati* says *perem*. Learn the *ja* form and the rest of the verb follows from it.
-opis: Ten new ones, same three-form pattern. Three of them hide a surprise: *trčati* looks like it should say -am, *prati* and *poznavati* barely resemble their own *ja* forms. Learn the *ja* form and the surprise disappears.
+opis: Ten new ones, same three-form pattern. Several hide a surprise: *trčati* looks like it should say -am, while *prati*, *poznavati*, *razumjeti* and *šutjeti* barely resemble their own *ja* forms. Learn the *ja* form and the surprise disappears.
 - crtati → crtam, crtaš, crta | to draw
 - hodati → hodam, hodaš, hoda | to walk
 - večerati → večeram, večeraš, večera | to have dinner
@@ -78,7 +78,7 @@ opis: Match each verb with its English meaning.
 ## Things that go with verbs
 format: kartice
 info: Objects for your new verbs. Each one goes straight after the verb unchanged — *Pijem čaj*, *Gledam film* — and its ending still gives you the gender, so *mačka* is feminine, *film* masculine, *pismo* neuter. The reshaping rules come in Lesson 5.
-opis: The things you read, eat, drink and watch. Every one of these keeps the same shape when it becomes the object — *Pijem čaj*, *Gledam film* — so you can use them today, with no new endings.
+opis: The things you read, eat, drink and watch. Almost every one of these keeps the same shape when it becomes the object — *Pijem čaj*, *Gledam film*; only *mačka* and *pas* will change, and that is Lesson 5 — so you can use them today, with no new endings — plus two adjectives, *miran* and *smiješan*, to describe them.
 - sok | juice
 - čaj | tea
 - kruh | bread
@@ -231,7 +231,7 @@ opis: You get the infinitive — type the form you would use about yourself.
 
 ## Build the word
 format: slova
-info: Spelling from letter tiles. The accented letters carry meaning of their own: *čaj* starts with the *ch* sound, *učiti* has it in the middle, and **dž** in *udžbenik* is a single letter, never a d followed by a ž.
+info: Spelling from letter tiles. The letters with diacritics carry meaning of their own: *čaj* starts with the *ch* sound, *učiti* has it in the middle, and **dž** in *udžbenik* is a single letter, never a d followed by a ž.
 opis: Careful — **dž** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own.
 - čitati | to read
 - učiti | to study

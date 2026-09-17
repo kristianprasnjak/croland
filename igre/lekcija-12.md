@@ -7,7 +7,7 @@ info: A short read to open the lesson. You already know the two basic moves — 
 opis: Read it through — by the end you can turn down a whole menu.
 - So far you have mostly said yes. Today you learn to say no: to refuse the soup, turn down the onions and say that you *never* drink milk.
 - **You already know the basics.** Grammar 2 gave you *nisam*, and Grammar 3 put *ne* in front of a verb: *Ne pijem sok.* Today those pieces are joined by the rest of the set.
-- **New today:** the negative words *ništa* (nothing), *nitko* (nobody), *nigdje* (nowhere) and *nikad* (never). In Croatian they always come together with *ne* on the verb: *Marko nikad ništa ne jede.*
+- **New today:** the negative words *ništa* (nothing), *nitko* (nobody) and *nigdje* (nowhere) — *nikad* (never) you have had since Vocabulary 3. In Croatian they always come together with *ne* on the verb: *Marko nikad ništa ne jede.*
 - By the end of this lesson you can refuse, complain and order at a restaurant table.
 
 ## Rapid recall
@@ -57,7 +57,7 @@ opis: New food, the things on the table and four tastes. Tap a card to reveal th
 
 ## Words for saying no
 format: kartice
-info: The negative words, each beside its positive twin. The pattern is visible in the spelling: **ni-** gives the negative word (*ništa, nitko, nigdje, nikad*), **ne-** gives the positive one (*nešto, netko, negdje, nekad*). *Nikoga* is the target form of *nitko*, just as *koga* is of *tko*.
+info: The negative words, each beside its positive twin. The pattern is visible in the spelling: **ni-** gives the negative word (*ništa, nitko, nigdje, nikad*), **ne-** gives the positive one (*nešto, netko, negdje, nekad*). In front of a verb the same two letters do the opposite job — *nemam*, *neću* are negatives. *Nikoga* is the target form of *nitko*, just as *koga* is of *tko*.
 opis: The words you need to refuse, plus seven verbs for the restaurant. Tap a card to reveal the meaning.
 - ništa | nothing
 - nešto | something
@@ -186,7 +186,7 @@ format: nastavak
 info: One tap in front of each word. **Ni-** makes the negative word (*ništa, nitko, nigdje, nikad, nikoga*) and needs *ne* on the verb; **ne-** makes the positive twin (*nešto, netko*). The same taps build *nisam, nemamo, neće*. The dash means no negative at all — read the English.
 nastavci: ni | ne | -
 opis: English above, Croatian below. One tap in front of the word — or none, if the sentence is positive.
-- Marko ___što ne jede. | Marko eats nothing. | ni
+- Marko ___šta ne jede. | Marko eats nothing. | ni
 - Marko ___što jede. | Marko is eating something. | ne
 - Marko ___je doma. | Marko is at home. | -
 - Danas ___tko ne kuha. | Nobody is cooking today. | ni
