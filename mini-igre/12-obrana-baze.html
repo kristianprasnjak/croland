@@ -118,15 +118,35 @@ input.upis:focus{outline:none;background:var(--papir2)}
 
 /* ==== Obrana baze ==== */
 
-#nebo{width:100%;max-width:840px;height:auto;display:block;margin:0 auto;border:var(--crta);
+/* Položena igra: aplikacija joj daje scenu visoku koliko ekran (na mobitelu
+   okrenutu za 90°), pa igra puni prozor umjesto da raste sa sadržajem.
+   Nebo uzima sav prostor između HUD-a i reda od četiri odgovora. */
+html,body{height:100%;overflow:hidden}
+.omot{height:100%;max-width:1100px;padding:10px}
+.hud{margin-bottom:8px}
+.ploha{flex:1;min-height:0;padding:10px;gap:8px}
+.obrOmot{display:flex;flex-direction:column;gap:8px;flex:1;min-height:0}
+.neboOkvir{flex:1;min-height:0;position:relative}
+#nebo{position:absolute;inset:0;width:100%;height:100%;display:block;border:var(--crta);
   border-radius:14px;background:linear-gradient(#20203E,#4A3A6B 70%,#6B5A3E)}
-.obrOmot{display:flex;flex-direction:column;gap:10px;align-items:center;flex:1}
-.tipkeO{display:grid;grid-template-columns:repeat(2,minmax(150px,220px));gap:8px;justify-content:center}
-.tipkeO button{font-size:16px;padding:14px 8px}
-.tipkeO.duge{grid-template-columns:repeat(1,minmax(280px,560px))}
-.tipkeO.duge button{font-size:14px;padding:10px 12px;text-align:left}
+.tipkeO{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;min-height:52px}
+.tipkeO button{font-size:17px;padding:12px 6px;overflow-wrap:anywhere;line-height:1.2}
 .valTraka{display:flex;gap:10px;align-items:center;font-weight:800;font-size:13px;flex-wrap:wrap;justify-content:center}
 .valTraka .oznakaVal{background:var(--ljub);color:#fff;border:2px solid var(--tinta);border-radius:8px;padding:2px 10px}
+/* nizak prozor = položeni mobitel: svaki piksel visine ide nebu */
+@media (max-height:500px){
+  .omot{padding:6px}
+  .hud{padding:4px 10px;margin-bottom:6px;border-radius:12px;gap:6px}
+  .hud .ime{font-size:15px}
+  .hud .ime small{display:none}
+  .znak{padding:2px 10px;font-size:13px}
+  .ploha{padding:6px;gap:6px;border-radius:14px}
+  .obrOmot{gap:6px}
+  .valTraka{font-size:12px}
+  #nebo{border-radius:10px}
+  .tipkeO{gap:6px;min-height:44px}
+  .tipkeO button{font-size:15px;padding:8px 4px;border-radius:10px;box-shadow:0 3px 0 var(--tinta)}
+}
 
 
 /* ---- skriveni prijevod: otkriva se klikom ---- */
@@ -488,40 +508,41 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Obrana baze — 15 valova, pet vrsta meta, pa beskonačna opsada
+   Obrana baze — 15 valova, riječi u oba smjera, pa beskonačna opsada
    Mehanika: riječi padaju prema bazi; klikni odgovarajuću tipku prije
-             nego što udare. Pet načina: HR→EN, EN→HR, slika→riječ,
-             riječ→kategorija i rečenica→prijevod. Svaki peti val je
-             pojačan (više riječi, brže), ali vraća jedno srce.
+             nego što udare. Samo riječi i prijevodi: HR→EN i EN→HR.
+             Četiri odgovora u jednom redu dolje, najviše dvije riječi
+             u zraku (inače bi većina tipki bila točna). Svaki peti val
+             je pojačan (više riječi, brže), ali vraća jedno srce.
    Maksimum (skriveno od igrača): 40 bodova × 4 valute
    ===================================================================== */
 
-var Š = 840, V = 380, BAZA = 330;
+/* Logička širina neba je stalna; visina prati omjer prostora koji igra dobije
+   (položeni mobitel je nizak i širok, računalo više). BAZA je 50 px od dna. */
+var Š = 840, V = 380, BAZA = 330, DPR = 1;
+var BROJ_TIPKI = 4;
 
 var NACINI = {
-  hr2en:    {opis:'A Croatian word is falling — click the English translation.'},
-  en2hr:    {opis:'An English word is falling — click the Croatian word.'},
-  slika:    {opis:'A picture is falling — click the Croatian word.'},
-  kat:      {opis:'A word is falling — click its category.'},
-  recenica: {opis:'A Croatian sentence is falling — click the English translation.'}
+  hr2en: {opis:'A Croatian word is falling — click the English translation.'},
+  en2hr: {opis:'An English word is falling — click the Croatian word.'}
 };
 
 var VALOVI = [
   {ime:'First wave',      rijeci:5,  brzina:0.28, odjednom:1, smjer:'hr2en'},
-  {ime:'Second wave',     rijeci:6,  brzina:0.34, odjednom:2, smjer:'en2hr'},
-  {ime:'Third wave',      rijeci:6,  brzina:0.38, odjednom:2, smjer:'slika'},
-  {ime:'Fourth wave',     rijeci:7,  brzina:0.42, odjednom:2, smjer:'hr2en'},
-  {ime:'Fifth wave ⚡',    rijeci:9,  brzina:0.48, odjednom:3, smjer:'en2hr', jak:true},
-  {ime:'Sixth wave',      rijeci:7,  brzina:0.44, odjednom:2, smjer:'kat'},
-  {ime:'Seventh wave',    rijeci:8,  brzina:0.48, odjednom:3, smjer:'slika'},
-  {ime:'Eighth wave',     rijeci:8,  brzina:0.52, odjednom:3, smjer:'hr2en'},
-  {ime:'Ninth wave',      rijeci:8,  brzina:0.54, odjednom:3, smjer:'recenica'},
-  {ime:'Tenth wave ⚡',    rijeci:10, brzina:0.60, odjednom:3, smjer:'kat', jak:true},
-  {ime:'Eleventh wave',   rijeci:9,  brzina:0.58, odjednom:3, smjer:'en2hr'},
-  {ime:'Twelfth wave',    rijeci:9,  brzina:0.62, odjednom:4, smjer:'slika'},
-  {ime:'Thirteenth wave', rijeci:10, brzina:0.64, odjednom:4, smjer:'recenica'},
-  {ime:'Fourteenth wave', rijeci:10, brzina:0.68, odjednom:4, smjer:'hr2en'},
-  {ime:'The last wave ⚡',  rijeci:12, brzina:0.74, odjednom:4, smjer:'en2hr', jak:true}
+  {ime:'Second wave',     rijeci:6,  brzina:0.34, odjednom:1, smjer:'en2hr'},
+  {ime:'Third wave',      rijeci:6,  brzina:0.36, odjednom:2, smjer:'hr2en'},
+  {ime:'Fourth wave',     rijeci:7,  brzina:0.42, odjednom:2, smjer:'en2hr'},
+  {ime:'Fifth wave ⚡',    rijeci:9,  brzina:0.50, odjednom:2, smjer:'hr2en', jak:true},
+  {ime:'Sixth wave',      rijeci:8,  brzina:0.46, odjednom:2, smjer:'en2hr'},
+  {ime:'Seventh wave',    rijeci:8,  brzina:0.50, odjednom:2, smjer:'hr2en'},
+  {ime:'Eighth wave',     rijeci:9,  brzina:0.54, odjednom:2, smjer:'en2hr'},
+  {ime:'Ninth wave',      rijeci:9,  brzina:0.58, odjednom:2, smjer:'hr2en'},
+  {ime:'Tenth wave ⚡',    rijeci:11, brzina:0.64, odjednom:2, smjer:'en2hr', jak:true},
+  {ime:'Eleventh wave',   rijeci:10, brzina:0.62, odjednom:2, smjer:'hr2en'},
+  {ime:'Twelfth wave',    rijeci:10, brzina:0.66, odjednom:2, smjer:'en2hr'},
+  {ime:'Thirteenth wave', rijeci:11, brzina:0.70, odjednom:2, smjer:'hr2en'},
+  {ime:'Fourteenth wave', rijeci:11, brzina:0.74, odjednom:2, smjer:'en2hr'},
+  {ime:'The last wave ⚡',  rijeci:13, brzina:0.80, odjednom:2, smjer:'hr2en', jak:true}
 ];
 var UKUPNO_VALOVA = VALOVI.length;
 
@@ -541,9 +562,29 @@ ploha.className='ploha';
 ploha.innerHTML =
   '<div class="valTraka"><span class="oznakaVal" id="oznakaVal">First wave</span><span id="opisVal"></span></div>' +
   '<div class="obrOmot">' +
-  '<canvas id="nebo" width="' + Š + '" height="' + V + '"></canvas>' +
+  '<div class="neboOkvir" id="neboOkvir"><canvas id="nebo" width="' + Š + '" height="' + V + '"></canvas></div>' +
   '<div class="tipkeO" id="tipkeO"></div></div>';
 O.appendChild(ploha);
+
+/* Nebo se prilagođava svom okviru: platno dobije točan omjer (bez izobličenja)
+   i gustoću piksela ekrana. Riječi u zraku ostaju na istom dijelu puta. */
+function prilagodiNebo(){
+  var box = CL.el('neboOkvir').getBoundingClientRect();
+  if (box.width < 20 || box.height < 20) return;
+  var staraBaza = BAZA;
+  V = Math.round(Math.max(200, Math.min(1000, Š * box.height / box.width)));
+  BAZA = V - 50;
+  DPR = Math.min(2, (window.devicePixelRatio || 1) * box.width / Š);
+  var C = CL.el('nebo');
+  C.width = Math.round(Š * DPR); C.height = Math.round(V * DPR);
+  if (S && S.v){
+    S.pale.forEach(function(p){ p.y = p.y * BAZA / staraBaza; });
+    crtaj();
+  }
+}
+window.addEventListener('resize', prilagodiNebo);
+if (window.ResizeObserver) new ResizeObserver(prilagodiNebo).observe(CL.el('neboOkvir'));
+prilagodiNebo();
 
 function novaIgra(){
   S = {val:0, srca:3, bodovi:0, radi:true, pale:[], preostalo:0, raketa:null,
@@ -555,12 +596,12 @@ function novaIgra(){
 /* ---------- val ---------- */
 
 function bezKrajaVal(n){
-  var nac = ['hr2en','en2hr','slika','kat','recenica'];
+  var nac = ['hr2en','en2hr'];
   return {
     ime:'Siege ' + (n+1),
-    rijeci: 8 + Math.min(8, Math.floor(n/2)),
-    brzina: Math.min(1.15, 0.60 + n*0.035),
-    odjednom: Math.min(5, 3 + Math.floor(n/4)),
+    rijeci: 9 + Math.min(8, Math.floor(n/2)),
+    brzina: Math.min(1.25, 0.66 + n*0.04),
+    odjednom: 2,
     smjer: nac[n % nac.length],
     jak: (n+1) % 5 === 0
   };
@@ -579,28 +620,12 @@ function pocniVal(){
 
 function novaMeta(){
   var v = S.v;
-  if (v.smjer === 'recenica'){
-    var raz = Math.max(1, Math.min(5, Math.ceil((S.val+1) / 3)));
-    var r = CL.recenica(raz, true);
-    return {tip:'recenica', rec:r, kljuc:'rec:' + r[0], pada:r[0], emo:'💬'};
-  }
-  var uzeti = S.pale.map(function(p){ return p.rijec && p.rijec.id; });
-  var filtar = v.smjer === 'slika'
-    ? function(x){ return ['glagol','pridjev','prilog','broj'].indexOf(x.kat) < 0; }
-    : null;
-  var fond = CL.svjezeRijeci(60, filtar).filter(function(x){ return uzeti.indexOf(x.id) < 0; });
+  var uzeti = S.pale.map(function(p){ return p.rijec.id; });
+  var fond = CL.svjezeRijeci(60).filter(function(x){ return uzeti.indexOf(x.id) < 0; });
   if (!fond.length) fond = CL.BANKA;
   var w = CL.rand(fond);
-  if (v.smjer === 'kat'){
-    /* ne dopusti dvije mete iste kategorije — inače je klik dvosmislen */
-    var kats = S.pale.map(function(p){ return p.rijec && p.rijec.kat; });
-    var pok = 0;
-    while (kats.indexOf(w.kat) >= 0 && pok++ < 40) w = CL.rand(fond);
-    return {tip:'kat', rijec:w, kljuc:'kat:' + w.kat, pada:w.hr, emo:w.emo};
-  }
-  if (v.smjer === 'slika') return {tip:'slika', rijec:w, kljuc:'id:' + w.id, pada:'', emo:w.emo};
-  if (v.smjer === 'hr2en') return {tip:'hr2en', rijec:w, kljuc:'id:' + w.id, pada:w.hr, emo:w.emo};
-  return {tip:'en2hr', rijec:w, kljuc:'id:' + w.id, pada:w.en, emo:w.emo};
+  if (v.smjer === 'hr2en') return {tip:'hr2en', rijec:w, kljuc:'id:' + w.id, pada:w.hr};
+  return {tip:'en2hr', rijec:w, kljuc:'id:' + w.id, pada:w.en};
 }
 
 function izbaci(){
@@ -617,44 +642,37 @@ function izbaci(){
 }
 
 function natpisTipke(m){
-  if (m.tip === 'recenica') return m.rec[1];
-  if (m.tip === 'kat') return CL.KAT[m.rijec.kat].en;
-  if (m.tip === 'hr2en') return m.rijec.en;
-  return m.rijec.hr;   /* en2hr i slika */
+  return m.tip === 'hr2en' ? m.rijec.en : m.rijec.hr;
 }
 
-function ometacTipke(n, izbjegni){
-  var v = S.v, out = [];
-  if (v.smjer === 'kat'){
-    var kljucevi = CL.mix(Object.keys(CL.KAT)).filter(function(k){
-      return izbjegni.indexOf('kat:' + k) < 0; });
-    return kljucevi.slice(0, n).map(function(k){
-      return {kljuc:'kat:' + k, natpis:CL.KAT[k].en}; });
-  }
-  if (v.smjer === 'recenica'){
-    var raz = Math.max(1, Math.min(5, Math.ceil((S.val+1) / 3)));
-    return CL.uzmi(CL.recenice(raz, true), n).map(function(r){
-      return {kljuc:'rec:' + r[0], natpis:r[1]}; });
-  }
-  var fond = CL.uzmi(CL.BANKA.filter(function(x){
-    return izbjegni.indexOf('id:' + x.id) < 0; }), n);
-  fond.forEach(function(x){
-    out.push({kljuc:'id:' + x.id, natpis: v.smjer === 'hr2en' ? x.en : x.hr});
+/* Ometači ne smiju nositi isti natpis kao neki točan odgovor ni jedan drugi —
+   dvije jednake tipke od kojih je samo jedna točna bile bi nepoštene. */
+function ometacTipke(n, izbjegni, natpisi){
+  var hr2en = S.v.smjer === 'hr2en', out = [], vidjeni = natpisi.slice();
+  CL.mix(CL.BANKA).some(function(x){
+    if (out.length >= n) return true;
+    var natpis = hr2en ? x.en : x.hr;
+    if (izbjegni.indexOf('id:' + x.id) >= 0 || vidjeni.indexOf(natpis) >= 0) return false;
+    vidjeni.push(natpis);
+    out.push({kljuc:'id:' + x.id, natpis:natpis});
+    return false;
   });
   return out;
 }
 
+/* Uvijek točno četiri tipke u jednom redu: točni odgovori za riječi u zraku,
+   ostalo ometači. */
 function postaviTipke(){
   var el = CL.el('tipkeO');
   if (!S.pale.length){ el.innerHTML = ''; return; }
   var tocni = S.pale.map(function(m){ return {kljuc:m.kljuc, natpis:natpisTipke(m)}; });
   var kljucevi = tocni.map(function(t){ return t.kljuc; });
-  var koliko = Math.max(2, (S.v.smjer === 'recenica' ? 3 : 6) - tocni.length);
-  var svi = CL.mix(tocni.concat(ometacTipke(koliko, kljucevi)));
+  var natpisi = tocni.map(function(t){ return t.natpis; });
+  var koliko = Math.max(0, BROJ_TIPKI - tocni.length);
+  var svi = CL.mix(tocni.concat(ometacTipke(koliko, kljucevi, natpisi)));
   el.innerHTML = svi.map(function(t){
     return '<button class="g" data-k="' + CL.esc(t.kljuc) + '">' + CL.esc(t.natpis) + '</button>';
   }).join('');
-  el.className = 'tipkeO' + (S.v.smjer === 'recenica' ? ' duge' : '');
 }
 
 CL.el('tipkeO').addEventListener('click', function(e){
@@ -669,7 +687,7 @@ CL.el('tipkeO').addEventListener('click', function(e){
     S.bodovi = Math.min(40, S.bodovi + 1);
     S.preostalo--;
     CL.pip(true);
-    if (meta.rijec){ CL.zvukRijeci(meta.rijec); CL.ucenje(meta.rijec.id, true); }
+    CL.zvukRijeci(meta.rijec); CL.ucenje(meta.rijec.id, true);
     osvjezi();
     if (S.preostalo <= 0 && S.pale.length === 0) return setTimeout(krajVala, 500);
     izbaci();
@@ -677,7 +695,7 @@ CL.el('tipkeO').addEventListener('click', function(e){
     CL.pip(false);
     b.classList.add('krivo','tresi');
     setTimeout(function(){ b.classList.remove('krivo','tresi'); }, 400);
-    S.pale.forEach(function(p){ p.y += 12; if (p.rijec) CL.ucenje(p.rijec.id, false); });
+    S.pale.forEach(function(p){ p.y += 12 * BAZA / 330; CL.ucenje(p.rijec.id, false); });
     CL.poruka('Missed — the words speed up.', 'lose');
   }
 });
@@ -692,13 +710,14 @@ function osvjezi(){
 
 function petlja(){
   if (!S || !S.radi) return;
-  S.pale.forEach(function(p){ p.y += p.v * 1.6; });
+  /* brzina je zadana za bazu na 330 px — više nebo pada razmjerno brže */
+  S.pale.forEach(function(p){ p.y += p.v * 1.6 * BAZA / 330; });
   for (var i = S.pale.length-1; i >= 0; i--){
     if (S.pale[i].y >= BAZA - 14){
       var p = S.pale.splice(i,1)[0];
       S.srca--; CL.pip(false); S.preostalo--;
-      if (p.rijec) CL.ucenje(p.rijec.id, false);
-      CL.poruka('“' + (p.rijec ? p.rijec.hr : p.rec[0]) + '” hit the base!', 'lose');
+      CL.ucenje(p.rijec.id, false);
+      CL.poruka('“' + p.rijec.hr + '” hit the base!', 'lose');
       osvjezi();
       if (S.srca <= 0){ S.radi = false; return setTimeout(poraz, 400); }
       if (S.preostalo <= 0 && S.pale.length === 0) return setTimeout(krajVala, 500);
@@ -712,6 +731,7 @@ function petlja(){
 
 function crtaj(){
   var C = CL.el('nebo'), G = C.getContext('2d');
+  G.setTransform(DPR, 0, 0, DPR, 0, 0);
   var grad = G.createLinearGradient(0,0,0,V);
   if (S.v && S.v.jak){ grad.addColorStop(0,'#3A1030'); grad.addColorStop(.7,'#6B2A4A'); grad.addColorStop(1,'#7A4A3A'); }
   else { grad.addColorStop(0,'#20203E'); grad.addColorStop(.7,'#4A3A6B'); grad.addColorStop(1,'#6B5A3E'); }
@@ -731,35 +751,19 @@ function crtaj(){
   for (var h=0;h<3;h++) G.fillText(h < S.srca ? '❤️' : '🤍', Š/2 - 20 + h*20, BAZA + 16);
 
   S.pale.forEach(function(p){
-    var blizu = p.y > BAZA - 100;
-    if (p.tip === 'slika'){
-      G.font = '44px serif';
-      G.fillStyle = blizu ? '#E8623A' : '#F4B942';
-      G.beginPath();
-      if (G.roundRect){ G.roundRect(p.x - 34, p.y - 30, 68, 60, 14); G.fill(); }
-      else G.fillRect(p.x - 34, p.y - 30, 68, 60);
-      G.strokeStyle = '#2B2118'; G.lineWidth = 2.5;
-      if (G.roundRect){ G.beginPath(); G.roundRect(p.x - 34, p.y - 30, 68, 60, 14); G.stroke(); }
-      G.fillStyle = '#2B2118';
-      G.fillText(p.emo, p.x, p.y + 2);
-      return;
-    }
+    var blizu = p.y > BAZA - 100 * BAZA / 330;
     var natpis = p.pada;
-    var duga = p.tip === 'recenica';
-    G.font = (duga ? 'bold 14px' : 'bold 17px') + ' system-ui';
-    if (duga && natpis.length > 38) natpis = natpis.slice(0, 37) + '…';
-    var w = G.measureText(natpis).width + 26;
-    G.fillStyle = blizu ? '#E8623A' : (duga ? '#7B5EA7' : '#F4B942');
+    G.font = 'bold 20px system-ui';
+    var w = G.measureText(natpis).width + 28;
+    G.fillStyle = blizu ? '#E8623A' : '#F4B942';
     G.beginPath();
-    if (G.roundRect){ G.roundRect(p.x - w/2, p.y - 15, w, 30, 10); G.fill(); }
-    else G.fillRect(p.x - w/2, p.y - 15, w, 30);
+    if (G.roundRect){ G.roundRect(p.x - w/2, p.y - 17, w, 34, 10); G.fill(); }
+    else G.fillRect(p.x - w/2, p.y - 17, w, 34);
     G.strokeStyle = '#2B2118'; G.lineWidth = 2.5;
-    if (G.roundRect){ G.beginPath(); G.roundRect(p.x - w/2, p.y - 15, w, 30, 10); G.stroke(); }
-    else G.strokeRect(p.x - w/2, p.y - 15, w, 30);
-    G.fillStyle = duga ? '#FFF' : '#2B2118';
+    if (G.roundRect){ G.beginPath(); G.roundRect(p.x - w/2, p.y - 17, w, 34, 10); G.stroke(); }
+    else G.strokeRect(p.x - w/2, p.y - 17, w, 34);
+    G.fillStyle = '#2B2118';
     G.fillText(natpis, p.x, p.y + 1);
-    G.font = '13px serif'; G.fillStyle = '#2B2118';
-    G.fillText(p.emo, p.x, p.y - 26);
   });
 
   if (S.raketa){

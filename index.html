@@ -1142,6 +1142,13 @@
     top: -7px; right: 26px; border-top: 1px solid var(--plava); border-right: none;
     border-left: 1px solid var(--plava); transform: rotate(45deg);
   }
+  /* strelica ulijevo — kad sidro stoji uz lijevi rub (lebdeci niz premjesten lijevo) */
+  #savjetRj.slijeva:after {
+    right: auto; left: -7px; border-top: none; border-right: none;
+    border-bottom: 1px solid var(--plava); border-left: 1px solid var(--plava);
+  }
+  /* strelica prema gore iznad tocno odredene tocke (sidro u sredini zaglavlja) */
+  #savjetRj.gore.tocka:after { right: auto; left: var(--strX, 26px); }
   #savjetRj .zatvoriS { position: absolute; top: 3px; right: 7px; color: var(--muted); font-size: var(--t-s); }
   @media (max-width: 639.98px) { #savjetRj { max-width: 12.5rem; font-size: var(--t-s); } }
 
@@ -1280,6 +1287,54 @@
     touch-action: none; opacity: .92; transition: opacity .3s, width .15s, height .15s, font-size .15s; }
   #lebdiCed.vidi { display: flex; }
   #lebdiCed:hover { opacity: 1; }
+
+  /* -- mobitel: niz lebdecih ikona se nosi i sjeda na jedno od tri sidrista -- */
+  /* Klase dodaje rasporediIkoneMob(): .ikMob dok je mobitel, .ikoneGore dok niz
+     stoji u zaglavlju, .ikoneNosi dok ga prst nosi. Pratitelji kasne za uhvacenom
+     ikonom po nekoliko stotinki, pa se niz vuce kao cjelina, a ne kao blok. */
+  body.ikMob #lebdi, body.ikMob #lebdiIgra, body.ikMob #lebdiInfo {
+    transition: left .34s cubic-bezier(.22,.9,.3,1), top .34s cubic-bezier(.22,.9,.3,1),
+      width .3s ease, height .3s ease, font-size .3s ease, opacity .3s,
+      transform .2s ease, box-shadow .2s ease;
+  }
+  body.ikoneGore #lebdi, body.ikoneGore #lebdiIgra, body.ikoneGore #lebdiInfo {
+    opacity: 1; box-shadow: 0 2px 6px rgba(154,91,82,.18);
+  }
+  body.ikoneNosi #lebdi, body.ikoneNosi #lebdiIgra, body.ikoneNosi #lebdiInfo {
+    transition: left .15s ease-out, top .15s ease-out, width .22s ease, height .22s ease,
+      font-size .22s ease, transform .2s ease, box-shadow .2s ease;
+    transform: scale(1.06); opacity: 1; box-shadow: 0 10px 26px rgba(154,91,82,.34);
+  }
+  body.ikoneNosi #lebdiInfo { transition-duration: .22s, .22s, .22s, .22s, .22s, .2s, .2s; }
+  body.ikoneNosi #lebdi.ikHvat, body.ikoneNosi #lebdiIgra.ikHvat, body.ikoneNosi #lebdiInfo.ikHvat {
+    transition: width .22s ease, height .22s ease, font-size .22s ease, transform .2s ease, box-shadow .2s ease;
+    cursor: grabbing;
+  }
+  #lebdi.ikTiho, #lebdiIgra.ikTiho, #lebdiInfo.ikTiho { transition: none !important; }
+
+  /* Mete: obris mjesta na koje niz moze sjesti, s malim ciljem u sredini.
+     Vide se samo dok se nosi; najbliza je malo jaca. Namjerno blijede. */
+  .ikMeta { position: fixed; z-index: 29; pointer-events: none; opacity: 0;
+    border: 1.5px dashed color-mix(in srgb, var(--plava) 55%, transparent);
+    background: color-mix(in srgb, var(--plava) 4%, transparent);
+    transition: opacity .22s ease, left .15s ease-out, top .15s ease-out, width .22s ease, height .22s ease; }
+  .ikMeta::before, .ikMeta::after { content: ''; position: absolute; left: 50%; top: 50%; border-radius: 50%; }
+  .ikMeta::before { width: 4px; height: 4px; margin: -2px 0 0 -2px; background: var(--plava); opacity: .55; }
+  .ikMeta::after { width: 12px; height: 12px; margin: -6px 0 0 -6px; border: 1.5px solid var(--plava);
+    animation: ikMetaVal 2s ease-out infinite; }
+  .ikMeta.moze { opacity: .5; }
+  .ikMeta.blizu { opacity: 1; border-style: solid; border-color: color-mix(in srgb, var(--plava) 45%, transparent); }
+  @keyframes ikMetaVal {
+    0%   { transform: scale(.6); opacity: .5; }
+    70%  { transform: scale(1.9); opacity: 0; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    body.ikMob #lebdi, body.ikMob #lebdiIgra, body.ikMob #lebdiInfo,
+    body.ikoneNosi #lebdi, body.ikoneNosi #lebdiIgra, body.ikoneNosi #lebdiInfo { transition: opacity .2s; transform: none; }
+    .ikMeta::after { animation: none; opacity: .4; }
+  }
+  #ikoneGnijezdo { display: none; }
   #lebdiCed.postavlja { background: var(--plava); color: #fff; opacity: 1; }
 
   /* Sirina ekrana je ovdje uvjet, ne ukras: ispod racunala nema praznine.
@@ -1503,7 +1558,7 @@
   /* Igra pocinje odmah ispod zaglavlja; dolje ostaje uobicajeni odmak stranice. */
   #view:has(.miniOkvir) { padding-top: 0; }
 
-  /* ---- POLOŽENE IGRE (zaslon: 'polozeno', zasad samo Grad) ----
+  /* ---- POLOŽENE IGRE (zaslon: 'polozeno': Grad i Obrana baze) ----
      Ne prate visinu dokumenta: scena je visoka koliko ekran ispod zaglavlja.
      Na mobitelu u stranici stoji poster s ▶, a igra se igra preko cijelog
      ekrana. Android ulazi u pravi cijeli zaslon i zaključa položeni smjer;
@@ -1877,6 +1932,14 @@
   /* ---- mobitel: izbornik se sklapa iza ikonice (☰ → C kad je otvoren), pogled ostaje slobodan ---- */
   @media (max-width: 639.98px) {
     header { padding: 0.625rem 0.875rem; gap: 0.625rem; position: relative; }
+    /* Nav je ovdje fixed, pa srednji stupac sluzi samo gnijezdu lebdecih ikona.
+       Dok je gnijezdo prazno (sirina 0) raspored je isti kao prije: logo lijevo,
+       brojac i velicina desno. Kad niz sjedne gore, gnijezdo se rasiri, a brojac
+       se po potrebi skrati u tri tocke. */
+    header { grid-template-columns: auto 1fr minmax(0, max-content); }
+    #ikoneGnijezdo { display: block; grid-column: 2; grid-row: 1; justify-self: center; align-self: center;
+      width: 0; height: 2rem; pointer-events: none; transition: width .28s cubic-bezier(.22,.9,.3,1); }
+    body.ikoneGore #ikoneGnijezdo, body.ikoneNosi #ikoneGnijezdo { width: var(--ikRed, 6.5rem); }
     /* Mobitel krece od manjeg zaglavlja, pa i stisak mora biti manji — inace
        se logo i brojac pocnu sudarati. Dok je izbornik otvoren ne stiscemo
        nista: nav je fixed na 54px od vrha i racuna na punu visinu trake. */
@@ -1912,7 +1975,8 @@
     }
     header nav a::after { content: none; }
     header nav a.navPocetna { display: block; }
-    header nav a.aktivna { color: var(--plava); background: var(--tiho); }
+    header nav a.aktivna { color: var(--ink); background: var(--tiho); font-weight: 700;
+      box-shadow: inset 3px 0 0 var(--plava); }
     /* lebdeće ikonice (rječnik/igra/info) ne smiju plutati preko otvorenog izbornika */
     body.izbornikOtvoren #lebdi, body.izbornikOtvoren #lebdiIgra, body.izbornikOtvoren #lebdiInfo { display: none !important; }
   }
@@ -2511,6 +2575,7 @@
     <a data-view="account" data-kratko="You" onclick="idi('account')">User account</a>
     <a data-view="options" data-kratko="Options" onclick="idi('options')">Options</a>
   </nav>
+  <div id="ikoneGnijezdo" aria-hidden="true"></div>
   <div class="desnoZ">
     <div class="valute" id="valuteHeader" onclick="idi('progress')" title="Open Progress"></div>
     <div class="velicinaG" id="velicinaG">
@@ -2835,8 +2900,8 @@
       opis: 'Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.' },
     { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Survival', maks: 100,
       opis: 'Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.' },
-    { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', maks: 40,
-      opis: 'Words fall towards your base, you click the translation. Five waves, both directions, three words in the air.' },
+    { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', maks: 40, zaslon: 'polozeno',
+      opis: 'Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.' },
     { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', maks: 40,
       opis: 'All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.' }
   ];
@@ -5650,7 +5715,7 @@
   function pocetakIkona() {
     if (window.innerWidth >= 1024) return { vel: 64, top: 66 };  // racunalo
     if (window.innerWidth >= 640) return { vel: 68, top: 74 };   // tablet: prst, pa vece
-    var vel = 60;                                                 // mobitel: dolje desno
+    var vel = 57;                                                 // mobitel: dolje desno (5% manje od nekadasnjih 60)
     return { vel: vel, top: najnizeIkone(vel) };
   }
   // Isti racun koriste i pocetni polozaj i granica povlacenja, pa ikona nikad
@@ -5704,14 +5769,32 @@
     var r = sidro.getBoundingClientRect();
     if (!opcije.prisilno && Date.now() - zadnjiSavjet < 12000) return;
     zadnjiSavjet = Date.now();
-    s.className = opcije.gore ? 'gore' : '';
+    // Lebdeci niz na mobitelu ne mora stajati desno (v. rasporediIkoneMob): u
+    // zaglavlju oblacic visi ispod njega, a uz lijevi rub otvara se udesno.
+    var uRedu = document.body.classList.contains('ikoneGore') && IK_IDS.indexOf(sidro.id) >= 0;
+    if (uRedu && r.bottom < 0) return;                        // zaglavlje je odskrolano
+    var sirinaE = document.documentElement.clientWidth || window.innerWidth;
+    var slijeva = !opcije.gore && !uRedu && (r.left + r.width / 2) < sirinaE / 2;
+    s.className = (opcije.gore || uRedu) ? 'gore' + (uRedu ? ' tocka' : '') : (slijeva ? 'slijeva' : '');
     s.innerHTML = '<span class="zatvoriS" title="Dismiss">✕</span>' + tekst;
     s.querySelector('.zatvoriS').onclick = function (e) { e.stopPropagation(); sakrijSavjetRj(); };
     s.onclick = function () { sakrijSavjetRj(); if (opcije.naKlik) opcije.naKlik(); };
     s.style.display = 'block';
-    if (opcije.gore) {
+    s.style.left = 'auto';
+    if (uRedu) {
+      var sirS = s.offsetWidth;
+      var lijevo = Math.max(12, Math.min(r.left - 16, sirinaE - 12 - sirS));
+      s.style.top = (r.bottom + 12) + 'px';
+      s.style.right = 'auto';
+      s.style.left = lijevo + 'px';
+      s.style.setProperty('--strX', Math.round(r.left + r.width / 2 - lijevo - 6) + 'px');
+    } else if (opcije.gore) {
       s.style.top = (r.bottom + 12) + 'px';
       s.style.right = Math.max(12, window.innerWidth - r.right - 4) + 'px';
+    } else if (slijeva) {
+      s.style.top = Math.max(70, r.top - 4) + 'px';
+      s.style.right = 'auto';
+      s.style.left = (r.right + 12) + 'px';
     } else {
       s.style.top = Math.max(70, r.top - 4) + 'px';
       s.style.right = Math.max(12, window.innerWidth - r.left + 12) + 'px';
@@ -5796,7 +5879,9 @@
   function rjecnikVidljiv(da, tip, razina) {
     var l = $('lebdi'); if (!l) return;
     if (!da) { paziZadnja = null; l.classList.remove('vidi'); sakrijSavjetRj(); zatvoriRj();
-      igraVidljiva(false); infoVidljiv(false); postaviIkonuCedulja(); return; }
+      igraVidljiva(false); infoVidljiv(false); postaviIkonuCedulja();
+      if (ikMobitel()) rasporediIkoneMob();   // prazno gnijezdo u zaglavlju se zatvori
+      return; }
     // nova vježba = nova sesija igrice: brojači i vreća riječi kreću ispočetka
     if (rjTip !== tip || rjRazina !== razina) {
       igTocno = 0; igNetocno = 0; igRed = []; igZadnji = null;
@@ -5818,6 +5903,9 @@
   }
   function postaviVelicinuIkone() {
     var l = $('lebdi'); if (!l) return;
+    // Mobitel ima vlastiti raspored (tri sidrista) — v. rasporediIkoneMob().
+    if (ikMobitel()) { preslozCedulje(); rasporediIkoneMob(); postaviIkonuCedulja(); return; }
+    ocistiIkoneMob();
     l.style.width = rjVelicina + 'px'; l.style.height = rjVelicina + 'px';
     l.style.fontSize = (rjVelicina * 0.42) + 'px';
     l.style.top = rjTop + 'px';
@@ -5828,6 +5916,7 @@
   // ikona igrice visi točno ispod ikone rječnika i prati je pri povlačenju
   function postaviIkonuIgre() {
     var g = $('lebdiIgra'); if (!g) return;
+    if (ikMobitel()) { rasporediIkoneMob(); postaviIkonuCedulja(); return; }
     var v = Math.round(rjVelicina * 0.86);
     g.style.width = v + 'px'; g.style.height = v + 'px';
     g.style.fontSize = (v * 0.42) + 'px';
@@ -6062,12 +6151,256 @@
   // ikona infa visi ispod ikone igrice i prati cijeli niz pri povlačenju
   function postaviIkonuInfo() {
     var b = $('lebdiInfo'); if (!b) return;
+    if (ikMobitel()) { rasporediIkoneMob(); postaviIkonuCedulja(); return; }
     var v = Math.round(rjVelicina * 0.86);
     b.style.width = v + 'px'; b.style.height = v + 'px';
     b.style.fontSize = (v * 0.46) + 'px';
     b.style.top = (rjTop + rjVelicina + 10 + v + 10) + 'px';
     b.style.right = (18 + (rjVelicina - v) / 2) + 'px';
     postaviIkonuCedulja();
+  }
+
+  // ================= LEBDECE IKONE NA MOBITELU: NOSENJE I TRI SIDRISTA =================
+  // Na mobitelu se niz (rjecnik → igrica → info) nosi kao cjelina: uhvati se za
+  // bilo koju od tri ikone i pusti bilo gdje. Pusten niz sjeda na najblize sidriste:
+  //   desno  — okomiti stupac uz desni rub, na bilo kojoj visini (zadano: pri dnu)
+  //   lijevo — isto, uz lijevi rub
+  //   gore   — vodoravni red u zaglavlju, izmedu ☰ i brojaca bodova; znatno manji
+  // Gore niz nije fixed nego absolute: zaglavlje na mobitelu nije ljepljivo, pa red
+  // odlazi zajedno s njim, umjesto da bez podloge lebdi preko sadrzaja.
+  // Mjesto se pamti u ovom pregledniku — dokle palac seze stvar je uredaja, ne racuna.
+  var IK_IDS = ['lebdi', 'lebdiIgra', 'lebdiInfo'];
+  var IK_KLJUC = 'croland-ikone';
+  var ikMjesto = 'desno', ikY = null, ikVukao = false, ikMobAktivan = false, ikNosi = null,
+      ikZadnjiBroj = 0, ikMeteEl = null, ikStranica = 0;
+  try {
+    var ikSp = JSON.parse(localStorage.getItem(IK_KLJUC) || 'null');
+    if (ikSp && /^(desno|lijevo|gore)$/.test(ikSp.m)) {
+      ikMjesto = ikSp.m; ikY = typeof ikSp.y === 'number' ? ikSp.y : null;
+    }
+  } catch (e) {}
+  function spremiMjestoIkona() {
+    try { localStorage.setItem(IK_KLJUC, JSON.stringify({ m: ikMjesto, y: ikY })); } catch (e) {}
+  }
+  function ikMobitel() { return window.innerWidth < 640; }
+  function ikSirina() { return document.documentElement.clientWidth || window.innerWidth; }
+  function ikVidljive() {
+    return IK_IDS.map($).filter(function (e) { return e && e.classList.contains('vidi'); });
+  }
+  // Mjere niza za sidriste. Bocno je velika ikona rjVelicina (57 = 5% manje od
+  // nekadasnjih 60), male 0.86 od nje. Gore mora stati u visinu ☰ (2rem), pa je
+  // velika ~0.6 bocne, a razmaci su upola manji.
+  function ikMjere(mj) {
+    if (mj === 'gore') {
+      var v = Math.min(34, Math.round(rjVelicina * 0.6));
+      return { vel: v, mali: Math.round(v * 0.88), razmak: 6, red: true };
+    }
+    return { vel: rjVelicina, mali: Math.round(rjVelicina * 0.86), razmak: 10, red: false };
+  }
+  function ikDuljina(m, n) { return m.vel + (n - 1) * (m.mali + m.razmak); }
+  // Polozaj svake ikone kad gornji lijevi kut niza stoji na (x, y).
+  function ikRaspored(m, n, x, y) {
+    var out = [], pomak = 0;
+    for (var i = 0; i < n; i++) {
+      var s = i === 0 ? m.vel : m.mali, bocno = (m.vel - s) / 2;
+      out.push(m.red ? { x: x + pomak, y: y + bocno, s: s } : { x: x + bocno, y: y + pomak, s: s });
+      pomak += s + m.razmak;
+    }
+    return out;
+  }
+  // Gornji lijevi kut niza na sidristu, u koordinatama prozora.
+  function ikSidro(mj, n, yZelja) {
+    var m = ikMjere(mj);
+    if (mj === 'gore') {
+      var r = $('ikoneGnijezdo').getBoundingClientRect();
+      // sredina, ne lijevi rub: gnijezdo se siri iz sredine dok niz ulazi u njega
+      return { x: r.left + r.width / 2 - ikDuljina(m, n) / 2, y: r.top + (r.height - m.vel) / 2 };
+    }
+    var najnize = Math.max(70, window.innerHeight - ikDuljina(m, n) - rezervaIspodIkona());
+    var y = yZelja == null ? najnize : Math.min(Math.max(yZelja, 70), najnize);
+    return { x: mj === 'lijevo' ? 18 : ikSirina() - 18 - m.vel, y: y };
+  }
+  function ikTiho(els, fn) {
+    els.forEach(function (e) { e.classList.add('ikTiho'); });
+    fn();
+    void document.body.offsetWidth;
+    els.forEach(function (e) { e.classList.remove('ikTiho'); });
+  }
+  // fixed ↔ absolute bez skoka: ista tocka na ekranu, samo drugi koordinatni sustav
+  function ikPrebaci(els, gore) {
+    var treba = els.filter(function (e) { return e.style.position !== (gore ? 'absolute' : 'fixed'); });
+    if (!treba.length) return;
+    var dy = window.pageYOffset || 0;
+    ikTiho(treba, function () {
+      treba.forEach(function (e) {
+        var r = e.getBoundingClientRect();
+        e.style.position = gore ? 'absolute' : 'fixed';
+        e.style.right = 'auto';
+        e.style.left = r.left + 'px';
+        e.style.top = (r.top + (gore ? dy : 0)) + 'px';
+      });
+    });
+  }
+  function ikPostavi(els, mj, x, y, gore) {
+    var poz = ikRaspored(ikMjere(mj), els.length, x, y), dy = gore ? (window.pageYOffset || 0) : 0;
+    els.forEach(function (e, i) {
+      var p = poz[i];
+      e.style.position = gore ? 'absolute' : 'fixed';
+      e.style.right = 'auto';
+      e.style.left = Math.round(p.x) + 'px';
+      e.style.top = Math.round(p.y + dy) + 'px';
+      e.style.width = p.s + 'px'; e.style.height = p.s + 'px';
+      e.style.fontSize = (p.s * (e.id === 'lebdiInfo' ? 0.46 : 0.42)) + 'px';
+    });
+  }
+  function rasporediIkoneMob() {
+    if (!ikMobitel()) return;
+    ikMobAktivan = true;
+    document.body.classList.add('ikMob');
+    if (ikNosi && ikNosi.pomaknut) return;               // prst vodi, raspored ceka
+    var els = ikVidljive(), gore = ikMjesto === 'gore' && els.length > 0;
+    document.body.classList.toggle('ikoneGore', gore);
+    var g = $('ikoneGnijezdo');
+    if (g) g.style.setProperty('--ikRed', ikDuljina(ikMjere('gore'), els.length || 3) + 'px');
+    var prvi = els.length !== ikZadnjiBroj;
+    ikZadnjiBroj = els.length;
+    if (!els.length) return;
+    var smjesti = function () {
+      var s = ikSidro(ikMjesto, els.length, ikY);
+      ikPostavi(els, ikMjesto, s.x, s.y, gore);
+    };
+    // Ikone koje se tek pojavljuju sjednu na mjesto odmah, bez preleta preko ekrana.
+    if (prvi) ikTiho(els, smjesti);
+    else { ikPrebaci(els, gore); smjesti(); }
+    // Gnijezdo se siri s prijelazom — kad se smiri, niz dotjera sredinu.
+    if (gore && prvi) setTimeout(rasporediIkoneMob, 320);
+  }
+  function ocistiIkoneMob() {
+    if (!ikMobAktivan) return;
+    ikMobAktivan = false; ikZadnjiBroj = 0;
+    document.body.classList.remove('ikMob', 'ikoneGore', 'ikoneNosi');
+    IK_IDS.forEach(function (id) {
+      var e = $(id); if (!e) return;
+      e.style.position = ''; e.style.left = ''; e.style.right = '';
+    });
+  }
+
+  // ---- mete: gdje niz moze sjesti ----
+  function ikGoreDostupno() {
+    var g = $('ikoneGnijezdo');
+    return !!g && g.getBoundingClientRect().bottom > 0;
+  }
+  function ikMete(blizu, gy, n) {
+    if (!ikMeteEl) {
+      ikMeteEl = ['gore', 'lijevo', 'desno'].map(function (mj) {
+        var d = document.createElement('div');
+        d.className = 'ikMeta'; d.setAttribute('data-m', mj); d.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(d);
+        return d;
+      });
+    }
+    ikMeteEl.forEach(function (d) {
+      var mj = d.getAttribute('data-m');
+      if (blizu == null || (mj === 'gore' && !ikGoreDostupno())) { d.classList.remove('moze', 'blizu'); return; }
+      var m = ikMjere(mj), duz = ikDuljina(m, n), s = ikSidro(mj, n, gy), pad = mj === 'gore' ? 3 : 5;
+      var w = (m.red ? duz : m.vel) + 2 * pad, h = (m.red ? m.vel : duz) + 2 * pad;
+      d.style.left = (s.x - pad) + 'px'; d.style.top = (s.y - pad) + 'px';
+      d.style.width = w + 'px'; d.style.height = h + 'px';
+      d.style.borderRadius = (Math.min(w, h) / 2) + 'px';
+      d.classList.add('moze');
+      d.classList.toggle('blizu', mj === blizu);
+    });
+  }
+  // Gore sjeda samo dok je prst iznad donjeg ruba zaglavlja; inace strana na kojoj je prst.
+  function ikCiljZa(px, py) {
+    if (ikGoreDostupno()) {
+      var h = document.querySelector('header').getBoundingClientRect();
+      if (py < h.bottom + 6) return 'gore';
+    }
+    return px < ikSirina() / 2 ? 'lijevo' : 'desno';
+  }
+
+  // ---- nosenje ----
+  function ikHvataj(e) {
+    if (!ikMobitel() || (e.button != null && e.button > 0)) return;
+    var els = ikVidljive(), el = e.currentTarget, k = els.indexOf(el);
+    if (k < 0) return;
+    var r = el.getBoundingClientRect();
+    ikNosi = { els: els, k: k, el: el, id: e.pointerId, sx: e.clientX, sy: e.clientY,
+      fx: (e.clientX - r.left) / r.width, fy: (e.clientY - r.top) / r.height,
+      pomaknut: false, mj: ikMjesto, y: null };
+    ikVukao = false;
+    try { el.setPointerCapture(e.pointerId); } catch (err) {}
+  }
+  function ikVuci(e) {
+    var n = ikNosi; if (!n || e.pointerId !== n.id) return;
+    if (!n.pomaknut) {
+      if (Math.abs(e.clientX - n.sx) + Math.abs(e.clientY - n.sy) < 8) return;
+      n.pomaknut = true; ikVukao = true;
+      ikPrebaci(n.els, false);
+      n.el.classList.add('ikHvat');
+      document.body.classList.add('ikoneNosi');
+      sakrijSavjetRj();
+    }
+    var mj = ikCiljZa(e.clientX, e.clientY), m = ikMjere(mj);
+    var p = ikRaspored(m, n.els.length, 0, 0)[n.k];
+    // uhvacena ikona ostaje pod prstom u istoj tocki i kad niz promijeni oblik
+    var x = e.clientX - n.fx * p.s - p.x, y = e.clientY - n.fy * p.s - p.y;
+    n.mj = mj;
+    if (mj !== 'gore') n.y = y;
+    ikPostavi(n.els, mj, x, y, false);
+    // bocne mete prate visinu prsta; dok je niz gore, stoje ondje gdje bi pao stupac
+    ikMete(mj, mj === 'gore' ? (n.y == null ? 70 : n.y) : y, n.els.length);
+    if (e.cancelable) e.preventDefault();
+  }
+  function ikPusti(e) {
+    var n = ikNosi; if (!n || e.pointerId !== n.id) return;
+    ikNosi = null;
+    if (!n.pomaknut) return;
+    n.el.classList.remove('ikHvat');
+    document.body.classList.remove('ikoneNosi');
+    ikMete(null);
+    ikMjesto = n.mj;
+    if (n.mj !== 'gore' && n.y != null) ikY = n.y;
+    rjRucno = true;
+    spremiMjestoIkona();
+    rasporediIkoneMob();
+    // gnijezdo se jos siri kad niz tek ulazi gore — dotjeraj kad se smiri
+    if (ikMjesto === 'gore') setTimeout(rasporediIkoneMob, 320);
+    setTimeout(function () { ikVukao = false; }, 60);
+    // tko je jednom sam pomaknuo niz, ne treba mu oblacic koji kaze da se moze
+    var v = savjetiViđeni();
+    if (!v.pomakIkona) { v.pomakIkona = 1; spremiProgress(); }
+  }
+  IK_IDS.forEach(function (id) {
+    var e = $(id); if (!e) return;
+    e.addEventListener('pointerdown', ikHvataj);
+    e.addEventListener('pointermove', ikVuci);
+    e.addEventListener('pointerup', ikPusti);
+    e.addEventListener('pointercancel', ikPusti);
+  });
+  window.addEventListener('resize', function () {
+    if (ikMobitel()) rasporediIkoneMob();
+    else if (ikMobAktivan) postaviVelicinuIkone();
+  });
+
+  // ---- oblacic: niz se moze pomicati ----
+  // Jednom u zivotu polaznika, na mobitelu, na cetvrtoj stranici vjezbe izvan
+  // lekcije 0 (ondje vec postoji svoj savjet o povlacenju). Ako je u tom trenutku
+  // na ekranu drugi oblacic ili otvoren panel, pokusa se na sljedecoj stranici.
+  var SAVJET_POMAK = 'These icons are not stuck here. <strong>Drag any of them</strong> — ' +
+    'to the left edge, the right edge, or up into the top bar.';
+  function ponudiSavjetPomaka() {
+    if (!ikMobitel() || (PROGRESS.savjeti && PROGRESS.savjeti.pomakIkona)) return;
+    if (++ikStranica < 4) return;
+    setTimeout(function () {
+      if (gotovo || !ikMobitel() || ikNosi || !ikVidljive().length) return;
+      var s = $('savjetRj');
+      if (s && s.classList.contains('vidi')) return;
+      if ($('panelRj').classList.contains('otvoren') || $('panelIgra').classList.contains('otvoren') ||
+          $('panelInfo').classList.contains('otvoren')) return;
+      jednomPokazi('pomakIkona', 'lebdi', SAVJET_POMAK, { trajanje: 9000 });
+    }, 4200);
   }
 
   // ---- povremeno isticanje lebdećih ikona ----
@@ -6764,9 +7097,11 @@
   function oznaciNav(view) {
     var kartaVida = { main: 'main',
       lessons: 'lessons', unit: 'lessons', igra: 'lessons', sazetak: 'lessons',
-      dictionary: 'dictionary', mini: 'mini', daily: 'daily', account: 'account',
-      progress: 'progress', options: 'options' };
+      dictionary: 'dictionary', dictTest: 'dictionary', mini: 'mini', miniIgra: 'mini',
+      daily: 'daily', account: 'account', progress: 'progress', options: 'options' };
     var cilj = kartaVida[view] || '';
+    // Daily challenge se igra kao cjelina, ali u izborniku pripada Dailyju
+    if (view === 'unit' && ZADNJI_VIEW && ZADNJI_VIEW.arg1 === 'Daily challenge') cilj = 'daily';
     var stavke = document.querySelectorAll('header nav a[data-view]');
     for (var i = 0; i < stavke.length; i++) {
       if (stavke[i].getAttribute('data-view') === cilj) stavke[i].classList.add('aktivna');
@@ -6974,6 +7309,8 @@
     if (typeof mjeriZaglavlje === 'function') mjeriZaglavlje();
     // Papirici su mjereni u rem preko JS-a, pa nova skala trazi novo mjerenje.
     if (typeof preslozCedulje === 'function') { preslozCedulje(); postaviIkonuCedulja(); }
+    // ☰ i gnijezdo u zaglavlju su u rem, pa niz gore mora na novo mjesto
+    if (ikMobAktivan) setTimeout(rasporediIkoneMob, 60);
   }
   function odaberiVelicinu(id) {
     if (!PROGRESS.postavke) PROGRESS.postavke = {};
@@ -8419,6 +8756,7 @@
     // U lekciji 0 na svakoj, jer je ona uputa za koristenje aplikacije; drugdje
     // samo ondje gdje je rjecnik stvarno pri ruci (v. podsjetnikRjecnika).
     if (jeNula || podsjetnikRjecnika(igra.format, indeks)) istakniLebdece(tip + '|' + razina + '|' + indeks);
+    if (!jeNula) ponudiSavjetPomaka();
     VIEW.innerHTML =
       '<div class="traka">' +
       '<button class="natrag" onclick="idi(\'' + natragView + '\')">' + (jeNula ? '‹ Explore the app' : '‹ Back') + '</button>' +
@@ -9251,9 +9589,9 @@
       if (praznoStanje) { $('popisRijeci').innerHTML = praznoHtml(); return; }
       $('popisRijeci').innerHTML = htmlPopisRijeci(l, filter, {
         smjer: dictSmjer,
-        // slika i izvor lekcije postoje samo za riječi koje je korisnik dodao
+        // slika postoji samo za riječi koje je korisnik dodao; izvor lekcije se u rječniku ne prikazuje
         slikaUDetalju: dictSmjer === 'hr-en' && dictOpseg === 'moje',
-        izvor: dictOpseg === 'moje',
+        izvor: false,
         prazno: 'Nothing matches that search.'
       });
     }
@@ -10473,6 +10811,8 @@
     zaglMalo = malo;
     document.body.classList.toggle('zaglavljeMalo', malo);
     mjeriZaglavlje();
+    // niz u zaglavlju prati njegov stisak (padding ima prijelaz od .18s)
+    if (ikMobAktivan && ikMjesto === 'gore') setTimeout(rasporediIkoneMob, 200);
     // Gornji papirici pocinju ispod zaglavlja, pa se s njim i pomaknu.
     preslozCedulje();
   }
@@ -10487,7 +10827,7 @@
   (function () {
     var l = $('lebdi'); if (!l) return;
     var vuce = false, vukao = false, pocetak = 0, pocetniTop = 0;
-    l.onclick = function () { if (!vukao) otvoriRj(); };
+    l.onclick = function () { if (!vukao && !ikVukao) otvoriRj(); };
     $('rjZatvori').onclick = zatvoriRj;
     $('zastorRj').onclick = function () { zatvoriRj(); zatvoriIgru(); zatvoriInfo(); };
     $('rjTrazi').oninput = crtajPopisRj;
@@ -10504,6 +10844,7 @@
       };
     });
     l.addEventListener('pointerdown', function (e) {
+      if (ikMobitel()) return;                     // mobitel: ikHvataj() nosi cijeli niz
       vuce = true; vukao = false;
       pocetak = e.clientY; pocetniTop = l.getBoundingClientRect().top;
       try { l.setPointerCapture(e.pointerId); } catch (err) {}
@@ -10544,7 +10885,7 @@
   // -- lebdeća mini-igrica: otvaranje, smjer, način, preskakanje, reset --
   (function () {
     var g = $('lebdiIgra'); if (!g) return;
-    g.onclick = otvoriIgru;
+    g.onclick = function () { if (!ikVukao) otvoriIgru(); };
     $('igZatvori').onclick = zatvoriIgru;
     $('igPreskoci').onclick = function () { crtajIgru(); };
     $('igReset').onclick = function () {
@@ -10577,7 +10918,7 @@
   // -- lebdeći info: otvaranje i zatvaranje --
   (function () {
     var b = $('lebdiInfo'); if (!b) return;
-    b.onclick = otvoriInfo;
+    b.onclick = function () { if (!ikVukao) otvoriInfo(); };
     $('infoZatvori').onclick = zatvoriInfo;
     var sx = null;
     $('panelInfo').addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; });

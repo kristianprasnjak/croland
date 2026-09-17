@@ -134,7 +134,7 @@ se preskače. Mediji su nadogradnja, ne uvjet.
 | 09 | Zmija | Snake | 3 razine · 30 riječi | 30 | riječi 3–11 slova, zidovi, ubrzanje |
 | 10 | Portal | platformer, dvije obale | 3 svijeta · 30 portala | 50 | 8 vrsta zadataka u oblacima, rakovi koji se penju na stepenice, kamera prati igrača na mobitelu |
 | 11 | Preživljavanje | pod satom | 5 etapa · 60 zadataka | 100 | riječi u oba smjera, slike, praznine, prijevod rečenica |
-| 12 | Obrana baze | padajuće riječi | 15 valova | 40 | 5 vrsta meta, pojačani valovi svakih 5 |
+| 12 | Obrana baze | padajuće riječi | 15 valova | 40 | samo riječi HR↔EN, 4 odgovora u redu, položeni zaslon, pojačani valovi svakih 5 |
 
 **Ukupno: 900 bodova po valuti.**
 
