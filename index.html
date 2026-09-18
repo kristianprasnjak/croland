@@ -721,6 +721,46 @@
     .dictAlat .rjecnikTraka { flex: 1 1 100%; }
     .smjerG, .testG { flex: 1; justify-content: center; }
   }
+  /* ---- Dictionary: alat se zbije čim popis krene ispod zaglavlja ----
+     Naslov i brojač odlutaju gore, a traka ostaje: zalijepi se pod zaglavlje,
+     tražilica se suzi za desetinu, smjer joj priđe (manji razmak), a opseg
+     siđe iz naslovnog retka u njezin desni kraj i malo se smanji. Širinu
+     tražilice mjeri JS (--dictTraz): flex ne zna "desetinu uže nego prije", a
+     fiksna rem-vrijednost bila bi na svakom okviru drugi postotak. */
+  .dictAlat { transition: gap .25s cubic-bezier(.32,.72,0,1), padding .25s cubic-bezier(.32,.72,0,1); }
+  .dictAlat .rjecnikTraka { transition: flex-basis .25s cubic-bezier(.32,.72,0,1); }
+  .dictAlat .segment button { transition: color .2s, padding .25s cubic-bezier(.32,.72,0,1), font-size .25s cubic-bezier(.32,.72,0,1); }
+  .dictOkvir.zbijen .dictAlat {
+    position: sticky; top: calc(var(--visinaZaglavlja, 0px) - 1px); z-index: 6;
+    gap: 0.3rem; padding: 0.5rem 0; margin-bottom: 0.5rem;
+    background: var(--bg); box-shadow: 0 1px 0 var(--rub);
+  }
+  .dictOkvir.zbijen .dictAlat .rjecnikTraka { flex: 0 1 var(--dictTraz, 12rem); }
+  .dictOkvir.zbijen .dictAlat .segment { margin-left: auto; }
+  .dictOkvir.zbijen .dictAlat .segment button { padding: 0.28rem 0.7rem; font-size: var(--t-xs); }
+  @media (prefers-reduced-motion: reduce) {
+    .dictAlat, .dictAlat .rjecnikTraka, .dictAlat .segment button { transition: none; }
+  }
+  /* Na mobitelu zaglavlje nije ljepljivo nego otputuje gore, pa se traka lijepi
+     za sam vrh. Tri zalijepljena reda pojela bi pola ekrana: tražilica se ovdje
+     ne sužava za desetinu nego taman toliko da joj smjer stane uz bok, a test i
+     opseg dijele red ispod (TRI UREĐAJA — ovo nije raspored s računala). */
+  @media (max-width: 639.98px) {
+    .dictOkvir.zbijen .dictAlat { top: 0; }
+    .dictOkvir.zbijen .dictAlat .rjecnikTraka { flex: 1 1 8rem; }
+    /* flex:1 iz osnovnog mobilnog pravila ovdje bi stisnuo natpis u tri retka;
+       sitnija slova su cijena za to da test i opseg dijele drugi red umjesto da
+       zalijepljena traka naraste na tri. */
+    .dictOkvir.zbijen .dictAlat .smjerG,
+    .dictOkvir.zbijen .dictAlat .testG {
+      flex: 0 0 auto; white-space: nowrap;
+      font-size: var(--t-xs); padding: 0.4rem 0.6rem;
+    }
+    .dictOkvir.zbijen .dictAlat .segment button { padding: 0.24rem 0.5rem; }
+  }
+  @media (orientation: landscape) and (max-height: 30rem) {
+    .dictOkvir.zbijen .dictAlat { top: 0; }
+  }
   .dictPrazno {
     border: 1px dashed var(--rub); border-radius: var(--rad-l); background: var(--card);
     padding: 2.25rem 1.25rem; text-align: center; max-width: 32.5rem;
@@ -9601,6 +9641,9 @@
         ? (l.length ? l.length + ' entries in the full dictionary' : 'dictionary not loaded')
         : (l.length ? l.length + (l.length === 1 ? ' word added' : ' words added') : 'nothing saved yet');
       $('dictAlat').hidden = praznoStanje;
+      // Opseg u zbijenom stanju živi u alatu; ako alat nestane, mora natrag u
+      // naslov — inače bi s njim nestao i jedini put do punog rječnika.
+      if (praznoStanje && dictZbijen) dictNaPomak();
       if (praznoStanje) { $('popisRijeci').innerHTML = praznoHtml(); return; }
       $('popisRijeci').innerHTML = htmlPopisRijeci(l, filter, {
         smjer: dictSmjer,
@@ -9647,6 +9690,9 @@
     $('trazi').oninput = function () { crtaj(this.value); };
     oznaciSmjer(); crtaj('');
     segmentiPostavi(VIEW);
+    // Stranica je nacrtana iznova, pa i zbijena traka kreće od nule; ako se u
+    // rječnik ušlo s već pomaknute stranice, prvi pomak inače ne bi ništa okinuo.
+    dictZbijen = false; dictNaPomak();
   }
 
   // ================= TEST RIJEČI (Dictionary → Word test) =================
@@ -10825,13 +10871,46 @@
     if (malo === zaglMalo) return;
     zaglMalo = malo;
     document.body.classList.toggle('zaglavljeMalo', malo);
+    // Odmah za ono što ne čeka, pa još jednom kad stisak (0.18s) stane — inače
+    // --visinaZaglavlja ostane na staroj visini i ispod zaglavlja zjapi procjep.
     mjeriZaglavlje();
+    setTimeout(mjeriZaglavlje, 220);
     // niz u zaglavlju prati njegov stisak (padding ima prijelaz od .18s)
     if (ikMobAktivan && ikMjesto === 'gore') setTimeout(rasporediIkoneMob, 200);
     // Gornji papirici pocinju ispod zaglavlja, pa se s njim i pomaknu.
     preslozCedulje();
   }
   window.addEventListener('scroll', zaglavljeNaPomak, { passive: true });
+
+  // Rjecnik: alatna traka se zbije cim popis krene pod zaglavlje (.dictOkvir.zbijen).
+  // Prag za zbijanje (72) je visi od praga za otpustanje (24) iz istog razloga kao
+  // gore: zbijanje skrati stranicu, pa bi jedan prag kod dna mogao treperiti.
+  var dictZbijen = false;
+  function dictNaPomak() {
+    var okvir = $('dictOkvir'), alat = $('dictAlat'), seg = $('dictOpsegP');
+    if (!okvir || !alat || !seg) { dictZbijen = false; return; }
+    var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+    var zbij = alat.hidden ? false : (dictZbijen ? y > 24 : y > 72);
+    if (zbij === dictZbijen) return;
+    dictZbijen = zbij;
+    if (zbij) {
+      // sirina se mjeri prije preseljenja opsega — poslije je traka vec uza
+      var traka = alat.querySelector('.rjecnikTraka');
+      if (traka) {
+        okvir.style.setProperty('--dictTraz',
+          Math.round(traka.getBoundingClientRect().width * 0.9) + 'px');
+      }
+      alat.appendChild(seg);
+    } else {
+      okvir.querySelector('.dictZag').appendChild(seg);
+    }
+    okvir.classList.toggle('zbijen', zbij);
+    // Klizac se crta po izmjerenim gumbima, a oni su se upravo preselili i
+    // promijenili slova: jednom odmah i jednom kad prijelaz stane.
+    segmentiPostavi(okvir);
+    setTimeout(function () { segmentKlizac(seg); }, 300);
+  }
+  window.addEventListener('scroll', dictNaPomak, { passive: true });
 
   VIEW = $('view');
   postaviTemu(temaSad());  // nasumicna pocetna tema; boja se prije hidratacije — bez bljeska
