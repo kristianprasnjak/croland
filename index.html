@@ -722,44 +722,136 @@
     .smjerG, .testG { flex: 1; justify-content: center; }
   }
   /* ---- Dictionary: alat se zbije čim popis krene ispod zaglavlja ----
-     Naslov i brojač odlutaju gore, a traka ostaje: zalijepi se pod zaglavlje,
-     tražilica se suzi za desetinu, smjer joj priđe (manji razmak), a opseg
-     siđe iz naslovnog retka u njezin desni kraj i malo se smanji. Širinu
-     tražilice mjeri JS (--dictTraz): flex ne zna "desetinu uže nego prije", a
-     fiksna rem-vrijednost bila bi na svakom okviru drugi postotak. */
-  .dictAlat { transition: gap .25s cubic-bezier(.32,.72,0,1), padding .25s cubic-bezier(.32,.72,0,1); }
-  .dictAlat .rjecnikTraka { transition: flex-basis .25s cubic-bezier(.32,.72,0,1); }
-  .dictAlat .segment button { transition: color .2s, padding .25s cubic-bezier(.32,.72,0,1), font-size .25s cubic-bezier(.32,.72,0,1); }
+     Zalijepljena traka nosi samo ono čime se prebire: tražilica se suzi za
+     desetinu, smjer joj priđe (manji razmak), a opseg siđe iz naslovnog retka
+     u njezin desni kraj i malo se smanji. Test riječi ide obrnutim putem —
+     gore, uz naslov, jer je posljedica popisa, a ne sito kroz koje se gleda.
+     Širinu tražilice mjeri JS (--dictTraz): flex ne zna "desetinu uže nego
+     prije", a fiksna rem-vrijednost bila bi na svakom okviru drugi postotak.
+     Selidbu opsega i testa dovršava dictPreseli() (FLIP) — CSS ne zna animirati
+     element koji je promijenio roditelja. */
+  .dictAlat {
+    transition: gap .34s cubic-bezier(.32,.72,0,1), padding .34s cubic-bezier(.32,.72,0,1),
+      margin .34s cubic-bezier(.32,.72,0,1), box-shadow .34s ease;
+  }
+  .dictAlat .rjecnikTraka { transition: flex-basis .34s cubic-bezier(.32,.72,0,1); }
+  .dictAlat .segment button {
+    transition: color .2s, padding .34s cubic-bezier(.32,.72,0,1), font-size .34s cubic-bezier(.32,.72,0,1);
+  }
+  .dictZag { transition: min-height .34s cubic-bezier(.32,.72,0,1); }
   .dictOkvir.zbijen .dictAlat {
     position: sticky; top: calc(var(--visinaZaglavlja, 0px) - 1px); z-index: 6;
     gap: 0.3rem; padding: 0.5rem 0; margin-bottom: 0.5rem;
     background: var(--bg); box-shadow: 0 1px 0 var(--rub);
   }
   .dictOkvir.zbijen .dictAlat .rjecnikTraka { flex: 0 1 var(--dictTraz, 12rem); }
-  .dictOkvir.zbijen .dictAlat .segment { margin-left: auto; }
+  /* Opseg se ne da stisnuti: kad ostane bez širine, njegova se dva gumba
+     prelome jedan pod drugi i traka naraste na tri reda umjesto na dva. */
+  .dictOkvir.zbijen .dictAlat .segment { margin-left: auto; flex: 0 0 auto; }
   .dictOkvir.zbijen .dictAlat .segment button { padding: 0.28rem 0.7rem; font-size: var(--t-xs); }
+  /* Naslovni redak ostaje visok koliko je bio dok je u njemu stajao opseg —
+     inače se, kad opseg siđe u traku, cijeli popis trzne prema gore. */
+  .dictOkvir.zbijen .dictZag { min-height: var(--dictZagVis, auto); }
   @media (prefers-reduced-motion: reduce) {
-    .dictAlat, .dictAlat .rjecnikTraka, .dictAlat .segment button { transition: none; }
+    .dictAlat, .dictZag, .dictAlat .rjecnikTraka, .dictAlat .segment button { transition: none; }
   }
   /* Na mobitelu zaglavlje nije ljepljivo nego otputuje gore, pa se traka lijepi
-     za sam vrh. Tri zalijepljena reda pojela bi pola ekrana: tražilica se ovdje
-     ne sužava za desetinu nego taman toliko da joj smjer stane uz bok, a test i
-     opseg dijele red ispod (TRI UREĐAJA — ovo nije raspored s računala). */
+     za sam vrh. Tražilica se ovdje ne sužava za desetinu nego taman toliko da
+     joj smjer stane uz bok (TRI UREĐAJA — na računalu je širina mjerena, ovdje
+     zadana, jer tamo tražilica dijeli red s tipkama, a ovdje ga sama drži). */
   @media (max-width: 639.98px) {
     .dictOkvir.zbijen .dictAlat { top: 0; }
     .dictOkvir.zbijen .dictAlat .rjecnikTraka { flex: 1 1 8rem; }
-    /* flex:1 iz osnovnog mobilnog pravila ovdje bi stisnuo natpis u tri retka;
-       sitnija slova su cijena za to da test i opseg dijele drugi red umjesto da
-       zalijepljena traka naraste na tri. */
-    .dictOkvir.zbijen .dictAlat .smjerG,
-    .dictOkvir.zbijen .dictAlat .testG {
-      flex: 0 0 auto; white-space: nowrap;
-      font-size: var(--t-xs); padding: 0.4rem 0.6rem;
-    }
-    .dictOkvir.zbijen .dictAlat .segment button { padding: 0.24rem 0.5rem; }
+    /* flex:1 iz osnovnog mobilnog pravila stisnuo bi natpis u tri retka */
+    .dictOkvir.zbijen .dictAlat .smjerG { flex: 0 0 auto; white-space: nowrap; }
   }
   @media (orientation: landscape) and (max-height: 30rem) {
     .dictOkvir.zbijen .dictAlat { top: 0; }
+  }
+
+  /* ---- Dictionary: abecedna traka uz desni rub popisa ----
+     Jedna kontrola, ne dvadeset i šest njih: prst ili miš klize po traci, a
+     popis ide za njima. Dodirna meta je CIJELA traka (široka 44px, slova su u
+     njoj samo crtež) — 26 zasebnih meta od 44px ne stane ni na jedan zaslon,
+     a pravilo iz IZNIMKE OD SKALIRANJA govori o meti, ne o natpisu.
+     Slovo koje popis nema ostaje blijedo i vodi na najbliže koje ima, pa prst
+     nikad ne padne u prazno. Sve ostalo (balon, sjena, zamućenje) je odziv na
+     povlačenje, ne ukras: dok se ne vuče, traka je gotovo nevidljiva. */
+  .dictTijelo { display: flex; align-items: flex-start; gap: 0.5rem; }
+  .dictTijelo > #popisRijeci { flex: 1 1 auto; min-width: 0; }
+  .abcTraka {
+    flex: 0 0 auto; position: sticky; align-self: flex-start;
+    top: calc(var(--dictLjepilo, 7rem) + 0.5rem);
+    height: min(30rem, calc(100dvh - var(--dictLjepilo, 7rem) - 3rem));
+    min-width: max(2.75rem, 44px);
+    display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+    padding: 0.4rem 0.25rem; border-radius: 999px;
+    touch-action: none; -webkit-user-select: none; user-select: none; cursor: grab;
+    color: var(--muted); font-size: 0.68rem; font-weight: 600; line-height: 1;
+    background: transparent; border: 1px solid transparent;
+    transition: background .22s ease, border-color .22s ease, color .22s ease;
+  }
+  .abcTraka[hidden] { display: none; }
+  .abcTraka:hover, .abcTraka:focus-visible, .abcTraka.vuce {
+    background: var(--tiho); border-color: var(--rub); color: var(--ink);
+  }
+  @supports (backdrop-filter: blur(1px)) {
+    .abcTraka:hover, .abcTraka:focus-visible, .abcTraka.vuce {
+      background: color-mix(in oklab, var(--card) 78%, transparent);
+      backdrop-filter: blur(10px) saturate(1.2);
+    }
+  }
+  .abcTraka:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .abcTraka.vuce { cursor: grabbing; }
+  .abcS {
+    display: block; transition: color .15s ease, transform .15s cubic-bezier(.32,.72,0,1);
+    transform-origin: right center;
+  }
+  .abcS.nema { opacity: 0.3; }
+  .abcS.tren { color: var(--plava); transform: scale(1.45); }
+  /* Balon prati prst, ali ga ne dira: stoji lijevo od trake, na visini dodira. */
+  .abcBalon {
+    position: fixed; top: 0; right: 3.5rem; z-index: 40; pointer-events: none;
+    display: grid; place-items: center; min-width: 3.5rem; min-height: 3.5rem;
+    padding: 0 0.5rem; border-radius: 1.25rem;
+    font-family: var(--naslov); font-size: var(--t-2xl); font-weight: 600; color: var(--ink);
+    background: var(--card); border: 1px solid var(--rub);
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.16);
+    opacity: 0; transform: translateY(-50%) scale(0.88);
+    transition: opacity .18s ease, transform .18s cubic-bezier(.32,.72,0,1);
+  }
+  @supports (backdrop-filter: blur(1px)) {
+    .abcBalon { background: color-mix(in oklab, var(--card) 86%, transparent); backdrop-filter: blur(14px) saturate(1.3); }
+  }
+  .abcBalon.vidi { opacity: 1; transform: translateY(-50%) scale(1); }
+  /* Kartica na koju se skoči ne smije završiti pod zaglavljem ni pod alatom.
+     --dictLjepilo je koliko ekrana odozgo pokriva ono što je zalijepljeno
+     (zaglavlje + zbijena traka); mjeri ga dictLjepilo(). */
+  .dictOkvir .rijecKart { scroll-margin-top: calc(var(--dictLjepilo, 7rem) + 0.5rem); }
+  @media (prefers-reduced-motion: reduce) {
+    .abcTraka, .abcS, .abcBalon { transition: none; }
+  }
+  /* Mobitel: traka je prikovana uz rub ekrana, ne uz rub popisa — palac je ondje,
+     a popis ionako drži cijelu širinu. Sitnija slova, poluprozirna dok miruje. */
+  @media (max-width: 639.98px) {
+    .dictTijelo { gap: 0; }
+    .abcTraka {
+      position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 8;
+      height: min(72dvh, 34rem); font-size: 0.62rem; opacity: 0.75;
+      padding: 0.5rem 0.25rem;
+      background: var(--tiho); border-color: transparent;
+      transition: opacity .22s ease, background .22s ease, border-color .22s ease;
+    }
+    .abcTraka.vuce { opacity: 1; }
+    /* Traka lebdi nad popisom, pa joj popis mora ustupiti svoj desni rub —
+       inače bi prijevod, koji stoji desno, završio pod slovima. */
+    .dictTijelo:has(.abcTraka:not([hidden])) > #popisRijeci { padding-right: 2.5rem; }
+    .abcBalon { right: 3.75rem; min-width: 4rem; min-height: 4rem; }
+  }
+  /* Tablet: prst je isti kao na mobitelu, ali prostora ima kao na računalu —
+     traka ostaje uz popis, samo krupnija i s vidljivim rubom i bez hovera. */
+  @media (min-width: 640px) and (max-width: 1023.98px) {
+    .abcTraka { font-size: 0.74rem; border-color: var(--rub); background: var(--tiho); }
   }
   .dictPrazno {
     border: 1px dashed var(--rub); border-radius: var(--rad-l); background: var(--card);
@@ -9378,6 +9470,16 @@
     }).join('');
   }
 
+  // ---- Abecedna traka: slovo pod kojim natuknica stoji ----
+  // Dvoslovi (dž, lj, nj) namjerno NEMAJU svoje mjesto: traka od 27 slova ne
+  // stane na zaslon mobitela, a "ljubav" pod L nitko ne traži uzalud.
+  var ABC_HR = 'ABCČĆDĐEFGHIJKLMNOPRSŠTUVZŽ'.split('');
+  var ABC_EN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  function abcSlovo(rijec) {
+    var s = String(rijec || '').trim().charAt(0).toUpperCase();
+    return /[A-ZČĆĐŠŽ]/.test(s) ? s : '#';
+  }
+
   function htmlKarticaRijeci(r, opcije) {
     opcije = opcije || {};
     var h = razlomiHr(r.hr), osnovni = h[0], oblici = h[1];
@@ -9416,7 +9518,8 @@
     var oznakaRoda = (r.broj === 'mn') ? '<span class="rodR">pl.</span>' : '';
     // samo izvor = izvan računala nema se što otvoriti (v. .samoIzvor u CSS-u)
     var samoIzvor = !!izvorDet && detalj === izvorDet;
-    return '<div class="rijecKart' + (detalj ? (samoIzvor ? ' samoIzvor' : ' imaDet') : '') + '">' +
+    return '<div class="rijecKart' + (detalj ? (samoIzvor ? ' samoIzvor' : ' imaDet') : '') +
+      '" data-s="' + esc(abcSlovo(osnovni)) + '">' +
       '<div class="rijecRed">' +
       '<span class="hrR">' + esc(osnovni) + oznakaRoda + zvHtml(osnovni) +
       (detalj ? '<span class="strelicaDet">▾</span>' : '') + '</span>' +
@@ -9475,7 +9578,8 @@
       detalj += '<div class="detRed gramRed"><span class="oznaka">' + esc(osn) + '</span>' +
         '<div class="gramLijeno" data-rijec="' + esc(osn) + '"></div></div>';
     });
-    return '<div class="rijecKart' + (detalj ? ' imaDet' : '') + '">' +
+    return '<div class="rijecKart' + (detalj ? ' imaDet' : '') +
+      '" data-s="' + esc(abcSlovo(r.en)) + '">' +
       '<div class="rijecRed">' +
       '<span class="hrR">' + esc(r.en) + (detalj ? '<span class="strelicaDet">▾</span>' : '') + '</span>' +
       '<span class="enR">' + hrLista.map(function (h) {
@@ -9603,7 +9707,12 @@
           '<span id="dictSmjerT"></span><span class="zam">⇄</span></button>' +
         '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
       '</div>' +
-      '<div id="popisRijeci"></div>' +
+      '<div class="dictTijelo">' +
+        '<div id="popisRijeci"></div>' +
+        '<div class="abcTraka" id="abcTraka" tabindex="0" role="navigation" ' +
+          'aria-label="Jump to a letter" hidden></div>' +
+      '</div>' +
+      '<div class="abcBalon" id="abcBalon" aria-live="polite"></div>' +
       '</div>';
 
     function lista() {
@@ -9644,13 +9753,139 @@
       // Opseg u zbijenom stanju živi u alatu; ako alat nestane, mora natrag u
       // naslov — inače bi s njim nestao i jedini put do punog rječnika.
       if (praznoStanje && dictZbijen) dictNaPomak();
-      if (praznoStanje) { $('popisRijeci').innerHTML = praznoHtml(); return; }
+      if (praznoStanje) { $('popisRijeci').innerHTML = praznoHtml(); abcOsvjezi(); return; }
       $('popisRijeci').innerHTML = htmlPopisRijeci(l, filter, {
         smjer: dictSmjer,
         // slika postoji samo za riječi koje je korisnik dodao; izvor lekcije se u rječniku ne prikazuje
         slikaUDetalju: dictSmjer === 'hr-en' && dictOpseg === 'moje',
         izvor: false,
         prazno: 'Nothing matches that search.'
+      });
+      abcOsvjezi();
+    }
+
+    // ---- abecedna traka ----
+    // Traka se gradi iz onoga što je na ekranu, ne iz abecede: filtar i smjer
+    // mijenjaju popis, a slova koja popis nema ostaju blijeda i vode na
+    // najbliže koje ima. Prvu karticu svakog slova pamtimo pri gradnji — kod
+    // 2000 natuknica traženje po DOM-u na svaki pomak prsta ne bi stiglo.
+    var abcMapa = {}, abcRed = [], abcVuce = false, abcSad = '';
+    function abcOsvjezi() {
+      var traka = $('abcTraka'); if (!traka) return;
+      var kartice = $('popisRijeci').querySelectorAll('.rijecKart[data-s]');
+      abcMapa = {};
+      for (var i = 0; i < kartice.length; i++) {
+        var s = kartice[i].getAttribute('data-s');
+        if (!abcMapa[s]) abcMapa[s] = kartice[i];
+      }
+      // Ispod dvadesetak kartica popis stane na dva ekrana — traka bi bila ukras.
+      if (kartice.length < 24) { traka.hidden = true; traka.innerHTML = ''; abcRed = []; return; }
+      var jezik = (dictSmjer === 'en-hr') ? 'en' : 'hr';
+      abcRed = (dictSmjer === 'en-hr' ? ABC_EN : ABC_HR).slice();
+      Object.keys(abcMapa).forEach(function (s) { if (abcRed.indexOf(s) < 0) abcRed.push(s); });
+      abcRed.sort(function (a, b) {
+        if (a === '#') return 1;
+        if (b === '#') return -1;
+        return a.localeCompare(b, jezik);
+      });
+      traka.hidden = false;
+      traka.innerHTML = abcRed.map(function (s) {
+        return '<span class="abcS' + (abcMapa[s] ? '' : ' nema') + '" data-s="' + esc(s) + '">' +
+          esc(s) + '</span>';
+      }).join('');
+      abcSad = '';
+    }
+    // Slovo kojega nema vodi na prethodno koje ima (kao u imeniku): prst je
+    // dotle već prešao taj dio popisa, pa skok unatrag ne izgleda kao promašaj.
+    function abcCilj(s) {
+      if (abcMapa[s]) return abcMapa[s];
+      var i = abcRed.indexOf(s);
+      for (var k = 1; k < abcRed.length; k++) {
+        if (i - k >= 0 && abcMapa[abcRed[i - k]]) return abcMapa[abcRed[i - k]];
+        if (i + k < abcRed.length && abcMapa[abcRed[i + k]]) return abcMapa[abcRed[i + k]];
+      }
+      return null;
+    }
+    function abcOznaci(s) {
+      var traka = $('abcTraka'), balon = $('abcBalon');
+      [].forEach.call(traka.querySelectorAll('.abcS'), function (e) {
+        e.classList.toggle('tren', e.getAttribute('data-s') === s);
+      });
+      balon.textContent = s;
+    }
+    function abcSkoci(s, glatko) {
+      var cilj = abcCilj(s);
+      if (!cilj) return;
+      dictLjepilo();
+      cilj.scrollIntoView({ block: 'start', behavior: glatko ? 'smooth' : 'auto' });
+      if (glatko) return;
+      // Prvi skok s vrha stranice usput zbije alatnu traku; dok se ta nova
+      // visina ne izmjeri, kartica bi ostala ispod nje — zato odmah jos jednom,
+      // sad s ispravnom mjerom. Oba su skoka trenutna, pa se vidi samo drugi.
+      dictNaPomak(); dictLjepilo();
+      cilj.scrollIntoView({ block: 'start', behavior: 'auto' });
+    }
+    function abcSlovoNaY(y) {
+      var djeca = $('abcTraka').children;
+      if (!djeca.length) return '';
+      for (var i = 0; i < djeca.length; i++) {
+        var r = djeca[i].getBoundingClientRect();
+        if (y <= r.bottom) return djeca[i].getAttribute('data-s');
+      }
+      return djeca[djeca.length - 1].getAttribute('data-s');
+    }
+    function abcNaY(y) {
+      var s = abcSlovoNaY(y);
+      if (!s || s === abcSad) return;
+      abcSad = s;
+      abcOznaci(s);
+      var balon = $('abcBalon');
+      balon.style.top = Math.round(y) + 'px';
+      // kratak titraj samo ondje gdje ga ima smisla tražiti (prst, ne miš)
+      if (navigator.vibrate && matchMedia('(pointer: coarse)').matches) navigator.vibrate(4);
+      abcSkoci(s, false);
+    }
+    function abcVezi() {
+      var traka = $('abcTraka'), balon = $('abcBalon');
+      traka.addEventListener('pointerdown', function (e) {
+        abcVuce = true; abcSad = '';
+        try { traka.setPointerCapture(e.pointerId); } catch (err) {}
+        traka.classList.add('vuce');
+        // balon staje lijevo od trake, taman da ga prst ne pokrije
+        balon.style.right = Math.round(innerWidth - traka.getBoundingClientRect().left + 10) + 'px';
+        balon.classList.add('vidi');
+        abcNaY(e.clientY);
+        e.preventDefault();
+      });
+      traka.addEventListener('pointermove', function (e) {
+        if (abcVuce) { abcNaY(e.clientY); e.preventDefault(); }
+      });
+      function kraj() {
+        if (!abcVuce) return;
+        abcVuce = false;
+        traka.classList.remove('vuce');
+        balon.classList.remove('vidi');
+        [].forEach.call(traka.querySelectorAll('.abcS.tren'), function (e) { e.classList.remove('tren'); });
+      }
+      traka.addEventListener('pointerup', kraj);
+      traka.addEventListener('pointercancel', kraj);
+      // Tipkovnica: traka je jedna meta, pa strelice hodaju po slovima koja postoje.
+      traka.addEventListener('keydown', function (e) {
+        var ima = abcRed.filter(function (s) { return abcMapa[s]; });
+        if (!ima.length) return;
+        var i = ima.indexOf(abcSad), n = ima.length;
+        if (e.key === 'ArrowDown' || e.key === 'ArrowRight') i = Math.min(n - 1, i + 1);
+        else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') i = i <= 0 ? 0 : i - 1;
+        else if (e.key === 'Home') i = 0;
+        else if (e.key === 'End') i = n - 1;
+        else return;
+        e.preventDefault();
+        abcSad = ima[i];
+        abcOznaci(abcSad);
+        abcSkoci(abcSad, true);
+      });
+      traka.addEventListener('blur', function () {
+        [].forEach.call(traka.querySelectorAll('.abcS.tren'), function (e) { e.classList.remove('tren'); });
       });
     }
     function oznaciSmjer() {
@@ -9688,11 +9923,12 @@
     });
     vezeKlikPopisa($('popisRijeci'));
     $('trazi').oninput = function () { crtaj(this.value); };
+    abcVezi();
     oznaciSmjer(); crtaj('');
     segmentiPostavi(VIEW);
     // Stranica je nacrtana iznova, pa i zbijena traka kreće od nule; ako se u
     // rječnik ušlo s već pomaknute stranice, prvi pomak inače ne bi ništa okinuo.
-    dictZbijen = false; dictNaPomak();
+    dictZbijen = false; dictNaPomak(); dictLjepilo();
   }
 
   // ================= TEST RIJEČI (Dictionary → Word test) =================
@@ -10886,29 +11122,71 @@
   // Prag za zbijanje (72) je visi od praga za otpustanje (24) iz istog razloga kao
   // gore: zbijanje skrati stranicu, pa bi jedan prag kod dna mogao treperiti.
   var dictZbijen = false;
+  // FLIP: element koji je promijenio roditelja CSS ne zna animirati, pa se
+  // zapamti gdje je bio, pusti ga na novo mjesto, i odande ga vratimo natrag u
+  // staru poziciju pa otpustimo — oko vidi klizanje, a raspored je vec konacan.
+  function dictPreseli(elovi, radnja) {
+    var tiho = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var prije = (tiho || !elovi[0].animate) ? null : elovi.map(function (e) {
+      return e.getBoundingClientRect();
+    });
+    radnja();
+    if (!prije) return;
+    elovi.forEach(function (e, i) {
+      var a = prije[i], b = e.getBoundingClientRect();
+      var dx = a.left - b.left, dy = a.top - b.top, sx = b.width ? a.width / b.width : 1;
+      if (Math.abs(dx) < 1 && Math.abs(dy) < 1 && Math.abs(sx - 1) < 0.02) return;
+      e.animate([
+        { transform: 'translate(' + dx + 'px,' + dy + 'px) scale(' + sx + ',1)', opacity: 0.85 },
+        { transform: 'none', opacity: 1 }
+      ], { duration: 340, easing: 'cubic-bezier(.32,.72,0,1)' });
+    });
+  }
+  // Koliko ekrana odozgo pokriva ono sto je zalijepljeno: zaglavlje (na mobitelu
+  // ga nema — ondje otputuje gore) plus zbijena alatna traka. Po toj mjeri se
+  // ravna i abecedna traka i skok na slovo, da kartica ne zavrsi ispod sita.
+  function dictLjepilo() {
+    var okvir = $('dictOkvir'), alat = $('dictAlat');
+    if (!okvir) return;
+    var h = document.querySelector('header');
+    var zagl = (h && getComputedStyle(h).position === 'sticky') ? h.getBoundingClientRect().height : 0;
+    var pokrov = zagl;
+    if (dictZbijen && alat && !alat.hidden) {
+      pokrov = Math.max(pokrov, alat.getBoundingClientRect().bottom);
+    }
+    okvir.style.setProperty('--dictLjepilo', Math.round(pokrov) + 'px');
+  }
   function dictNaPomak() {
-    var okvir = $('dictOkvir'), alat = $('dictAlat'), seg = $('dictOpsegP');
-    if (!okvir || !alat || !seg) { dictZbijen = false; return; }
+    var okvir = $('dictOkvir'), alat = $('dictAlat'), seg = $('dictOpsegP'), test = $('dictTestG');
+    if (!okvir || !alat || !seg || !test) { dictZbijen = false; return; }
     var y = window.pageYOffset || document.documentElement.scrollTop || 0;
     var zbij = alat.hidden ? false : (dictZbijen ? y > 24 : y > 72);
     if (zbij === dictZbijen) return;
     dictZbijen = zbij;
+    var zag = okvir.querySelector('.dictZag');
     if (zbij) {
-      // sirina se mjeri prije preseljenja opsega — poslije je traka vec uza
+      // oboje se mjeri prije selidbe — poslije je traka vec uza, a naslov niži
       var traka = alat.querySelector('.rjecnikTraka');
       if (traka) {
         okvir.style.setProperty('--dictTraz',
           Math.round(traka.getBoundingClientRect().width * 0.9) + 'px');
       }
-      alat.appendChild(seg);
-    } else {
-      okvir.querySelector('.dictZag').appendChild(seg);
+      okvir.style.setProperty('--dictZagVis',
+        Math.round(zag.getBoundingClientRect().height) + 'px');
     }
-    okvir.classList.toggle('zbijen', zbij);
-    // Klizac se crta po izmjerenim gumbima, a oni su se upravo preselili i
-    // promijenili slova: jednom odmah i jednom kad prijelaz stane.
-    segmentiPostavi(okvir);
-    setTimeout(function () { segmentKlizac(seg); }, 300);
+    // Opseg silazi u traku, test ide gore uz naslov: traka nosi samo sito, a
+    // test ostaje ondje gdje je i popis koji testira.
+    dictPreseli([seg, test], function () {
+      if (zbij) { alat.appendChild(seg); zag.appendChild(test); }
+      else { zag.appendChild(seg); alat.appendChild(test); }
+      okvir.classList.toggle('zbijen', zbij);
+      // Klizac se crta po izmjerenim gumbima, a oni su se upravo preselili i
+      // promijenili slova; racuna se odmah da FLIP uhvati konacnu sliku.
+      segmentKlizac(seg);
+    });
+    dictLjepilo();
+    // jos jednom kad prijelazi stanu — tada su i gumbi i traka u konacnoj visini
+    setTimeout(function () { segmentKlizac(seg); dictLjepilo(); }, 360);
   }
   window.addEventListener('scroll', dictNaPomak, { passive: true });
 
