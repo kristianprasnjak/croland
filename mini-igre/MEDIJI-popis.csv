@@ -175,6 +175,8 @@ rijec-zaba.png;slika;512×512;žaba — frog (Životinje);sve igre
 rijec-zaba.mp3;zvuk;—;izgovor: „žaba”;sve igre
 rijec-foka.png;slika;512×512;foka — seal (Životinje);sve igre
 rijec-foka.mp3;zvuk;—;izgovor: „foka”;sve igre
+rijec-tuljan.png;slika;512×512;tuljan — seal (Životinje);sve igre
+rijec-tuljan.mp3;zvuk;—;izgovor: „tuljan”;sve igre
 rijec-golub.png;slika;512×512;golub — pigeon (Životinje);sve igre
 rijec-golub.mp3;zvuk;—;izgovor: „golub”;sve igre
 rijec-galeb.png;slika;512×512;galeb — seagull (Životinje);sve igre
@@ -1830,4 +1832,10 @@ soba-bunar.png;slika;1280×720;Bunar — kameni obruč, vjedra, uže, mokra kald
 soba-konjusnica.png;slika;1280×720;Konjušnica — sijeno, konji, sedla;04 Tvrđava
 soba-podrum.png;slika;1280×720;Vinski podrum — bačve, boce, prigušeno svjetlo;04 Tvrđava
 soba-dvorana.png;slika;1280×720;Prijestolna dvorana — prijestolje, zastave, dugi stol;04 Tvrđava
+vlak-lokomotiva-1.png;slika;512×250;lokomotiva, faza dima 1 (mirno stajanje);07 Poštanski vlak
+vlak-lokomotiva-2.png;slika;512×250;lokomotiva, faza dima 2;07 Poštanski vlak
+vlak-lokomotiva-3.png;slika;512×250;lokomotiva, faza dima 3;07 Poštanski vlak
+vlak-vagon.png;slika;512×250;teretni vagon (ponavlja se za svaki vagon);07 Poštanski vlak
+vlak-pruga.png;slika;296×27;pločica pruge, ponavlja se vodoravno bez šava;07 Poštanski vlak
 gost-dolazi.mp3;zvuk;—;kratki zvon/zvuk kad gost sjedne za stol;05 Konoba
+vlak-odlazak.mp3;zvuk;—;zvižduk i polazak vlaka (neobavezno);07 Poštanski vlak

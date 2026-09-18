@@ -1709,7 +1709,7 @@
   /* Igra pocinje odmah ispod zaglavlja; dolje ostaje uobicajeni odmak stranice. */
   #view:has(.miniOkvir) { padding-top: 0; }
 
-  /* ---- POLOŽENE IGRE (zaslon: 'polozeno': Grad i Obrana baze) ----
+  /* ---- POLOŽENE IGRE (zaslon: 'polozeno': Grad, Poštanski vlak i Obrana baze) ----
      Ne prate visinu dokumenta: scena je visoka koliko ekran ispod zaglavlja.
      Na mobitelu u stranici stoji poster s ▶, a igra se igra preko cijelog
      ekrana. Android ulazi u pravi cijeli zaslon i zaključa položeni smjer;
@@ -3041,7 +3041,7 @@
       opis: 'Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.' },
     { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Warehouse', maks: 100,
       opis: 'You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.' },
-    { id: 'vlak', slika: 'vlak.webp', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'Mail Train', maks: 30,
+    { id: 'vlak', slika: 'vlak.webp', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'Mail Train', maks: 30, zaslon: 'polozeno',
       opis: 'Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.' },
     { id: 'labirint', slika: 'labirint.webp', br: '08', dat: '08-labirint.html', emo: '🌀', ime: 'Labirint', stil: 'Maze', maks: 30,
       opis: 'Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.' },

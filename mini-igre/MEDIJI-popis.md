@@ -6,14 +6,14 @@ Nazivi su bez kvačica i razmaka; igre ih traže točno ovako.
 **Dok je mapa prazna, sve igre rade** — svaka slika ima ugrađen zamjenski znak, a izgovor
 se preskače. Mediji su čisti dodatak, ne uvjet.
 
-Ukupno: **928 slika** + **904 zvučnih datoteka** = 1832 datoteka.
+Ukupno: **934 slika** + **906 zvučnih datoteka** = 1840 datoteka.
 
 Popis se generira iz `_sadrzaj/rijeci.js` naredbom `node _sadrzaj/mediji.js`.
 Strojno čitljiva inačica: `MEDIJI-popis.csv` (točka-zarez, UTF-8 BOM — otvara se u Excelu).
 
 ---
 
-## 1. Ilustracije riječi — 903 kom · 512×512 px · PNG s prozirnom ili bijelom pozadinom
+## 1. Ilustracije riječi — 904 kom · 512×512 px · PNG s prozirnom ili bijelom pozadinom
 
 Crna linija ujednačene debljine, plošno bojanje, organska mrlja u boji iza motiva
 (boja = vrsta riječi), čista pozadina.
@@ -113,7 +113,7 @@ pridjevi/prilozi/boje/brojevi **crvena**.
 | `rijec-slamka.png` | 512×512 | slamka — straw | sve igre |
 | `rijec-gutljaj.png` | 512×512 | gutljaj — sip | sve igre |
 
-### Životinje / animals — 48 kom
+### Životinje / animals — 49 kom
 
 | datoteka | dimenzije | riječ | koristi |
 |---|---|---|---|
@@ -124,6 +124,7 @@ pridjevi/prilozi/boje/brojevi **crvena**.
 | `rijec-zebra.png` | 512×512 | zebra — zebra | sve igre |
 | `rijec-zaba.png` | 512×512 | žaba — frog | sve igre |
 | `rijec-foka.png` | 512×512 | foka — seal | sve igre |
+| `rijec-tuljan.png` | 512×512 | tuljan — seal | sve igre |
 | `rijec-golub.png` | 512×512 | golub — pigeon | sve igre |
 | `rijec-galeb.png` | 512×512 | galeb — seagull | sve igre |
 | `rijec-ptica.png` | 512×512 | ptica — bird | sve igre |
@@ -1077,7 +1078,20 @@ Vizura iza imena mjesta u igri *Put oko Hrvatske*. Široki krajolik bez teksta.
 | `soba-podrum.png` | 1280×720 | Vinski podrum — bačve, boce, prigušeno svjetlo | 04 Tvrđava |
 | `soba-dvorana.png` | 1280×720 | Prijestolna dvorana — prijestolje, zastave, dugi stol | 04 Tvrđava |
 
-## 4. Izgovor riječi — 903 kom · MP3, mono, 128 kbps
+## 4. Vlak — 5 kom · PNG s prozirnom pozadinom
+
+Piksel-art vlak u igri *Poštanski vlak*. Donji rub sprajta je točno vrh tračnice,
+pa kotači sjede na pruzi; lokomotiva gleda udesno i ima tri faze dima.
+
+| datoteka | dimenzije | opis | koristi |
+|---|---|---|---|
+| `vlak-lokomotiva-1.png` | 512×250 | lokomotiva, faza dima 1 (mirno stajanje) | 07 Poštanski vlak |
+| `vlak-lokomotiva-2.png` | 512×250 | lokomotiva, faza dima 2 | 07 Poštanski vlak |
+| `vlak-lokomotiva-3.png` | 512×250 | lokomotiva, faza dima 3 | 07 Poštanski vlak |
+| `vlak-vagon.png` | 512×250 | teretni vagon (ponavlja se za svaki vagon) | 07 Poštanski vlak |
+| `vlak-pruga.png` | 296×27 | pločica pruge, ponavlja se vodoravno bez šava | 07 Poštanski vlak |
+
+## 5. Izgovor riječi — 904 kom · MP3, mono, 128 kbps
 
 Jedna riječ po datoteci, jasno izgovorena, bez šuma, 0,5–1,5 s.
 
@@ -1171,6 +1185,7 @@ Jedna riječ po datoteci, jasno izgovorena, bez šuma, 0,5–1,5 s.
 | `rijec-zebra.mp3` | zebra |
 | `rijec-zaba.mp3` | žaba |
 | `rijec-foka.mp3` | foka |
+| `rijec-tuljan.mp3` | tuljan |
 | `rijec-golub.mp3` | golub |
 | `rijec-galeb.mp3` | galeb |
 | `rijec-ptica.mp3` | ptica |
@@ -1987,8 +2002,9 @@ Jedna riječ po datoteci, jasno izgovorena, bez šuma, 0,5–1,5 s.
 | `rijec-mreza.mp3` | mreža |
 | `rijec-trening.mp3` | trening |
 
-## 5. Zvučni efekti — 1 kom
+## 6. Zvučni efekti — 2 kom
 
 | datoteka | opis | koristi |
 |---|---|---|
 | `gost-dolazi.mp3` | kratki zvon/zvuk kad gost sjedne za stol | 05 Konoba |
+| `vlak-odlazak.mp3` | zvižduk i polazak vlaka (neobavezno) | 07 Poštanski vlak |

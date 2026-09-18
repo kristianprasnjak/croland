@@ -24,3 +24,6 @@ __kartice-tmp.html
 # Zasticeni sadrzaj — nastaje pri buildu, uploada se rucno u Supabase Storage.
 # Ne ide u repozitorij i NIKAD ne smije zavrsiti u dist/.
 zasticeno/
+
+# Zapis zadnjeg uploada zasticenog sadrzaja - samo za dijagnostiku
+zadnji-upload-log.txt

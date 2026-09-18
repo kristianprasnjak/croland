@@ -56,8 +56,17 @@ var SOBE = [
   ['dvorana','Prijestolna dvorana — prijestolje, zastave, dugi stol']
 ];
 
+var VLAK = [
+  ['vlak-lokomotiva-1.png','512×250','lokomotiva, faza dima 1 (mirno stajanje)'],
+  ['vlak-lokomotiva-2.png','512×250','lokomotiva, faza dima 2'],
+  ['vlak-lokomotiva-3.png','512×250','lokomotiva, faza dima 3'],
+  ['vlak-vagon.png','512×250','teretni vagon (ponavlja se za svaki vagon)'],
+  ['vlak-pruga.png','296×27','pločica pruge, ponavlja se vodoravno bez šava']
+];
+
 var ZVUKOVI = [
-  ['gost-dolazi.mp3','kratki zvon/zvuk kad gost sjedne za stol','05 Konoba']
+  ['gost-dolazi.mp3','kratki zvon/zvuk kad gost sjedne za stol','05 Konoba'],
+  ['vlak-odlazak.mp3','zvižduk i polazak vlaka (neobavezno)','07 Poštanski vlak']
 ];
 
 var csv = ['datoteka;vrsta;dimenzije;naslov / opis;koristi'];
@@ -75,9 +84,12 @@ KRAJEVI.forEach(function (k) {
 SOBE.forEach(function (s) {
   csvRed(['soba-' + s[0] + '.png','slika','1280×720', s[1],'04 Tvrđava']);
 });
+VLAK.forEach(function (v) {
+  csvRed([v[0],'slika',v[1], v[2],'07 Poštanski vlak']);
+});
 ZVUKOVI.forEach(function (z) { csvRed([z[0],'zvuk','—',z[1],z[2]]); });
 
-var brojSlika = BANKA.length + KRAJEVI.length + SOBE.length;
+var brojSlika = BANKA.length + KRAJEVI.length + SOBE.length + VLAK.length;
 var brojZvuka = BANKA.length + ZVUKOVI.length;
 
 var md = [];
@@ -136,7 +148,18 @@ SOBE.forEach(function (s) {
   md.push('| `soba-' + s[0] + '.png` | 1280×720 | ' + s[1] + ' | 04 Tvrđava |');
 });
 md.push('');
-md.push('## 4. Izgovor riječi — ' + BANKA.length + ' kom · MP3, mono, 128 kbps');
+md.push('## 4. Vlak — ' + VLAK.length + ' kom · PNG s prozirnom pozadinom');
+md.push('');
+md.push('Piksel-art vlak u igri *Poštanski vlak*. Donji rub sprajta je točno vrh tračnice,');
+md.push('pa kotači sjede na pruzi; lokomotiva gleda udesno i ima tri faze dima.');
+md.push('');
+md.push('| datoteka | dimenzije | opis | koristi |');
+md.push('|---|---|---|---|');
+VLAK.forEach(function (v) {
+  md.push('| `' + v[0] + '` | ' + v[1] + ' | ' + v[2] + ' | 07 Poštanski vlak |');
+});
+md.push('');
+md.push('## 5. Izgovor riječi — ' + BANKA.length + ' kom · MP3, mono, 128 kbps');
 md.push('');
 md.push('Jedna riječ po datoteci, jasno izgovorena, bez šuma, 0,5–1,5 s.');
 md.push('');
@@ -146,7 +169,7 @@ BANKA.forEach(function (r) {
   md.push('| `rijec-' + r.id + '.mp3` | ' + r.hr + ' |');
 });
 md.push('');
-md.push('## 5. Zvučni efekti — ' + ZVUKOVI.length + ' kom');
+md.push('## 6. Zvučni efekti — ' + ZVUKOVI.length + ' kom');
 md.push('');
 md.push('| datoteka | opis | koristi |');
 md.push('|---|---|---|');

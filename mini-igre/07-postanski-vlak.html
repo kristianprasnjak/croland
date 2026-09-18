@@ -102,6 +102,40 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .dijakritik{font:inherit;font-weight:700;font-size:16px;cursor:pointer;border:2px solid var(--tinta);
   border-radius:10px;background:#fff;width:38px;height:38px}
 .dijakritik:hover{background:var(--zut)}
+/* ---- položeni mobitel / cijeli zaslon ----
+   Igra tada ne smije rasti u visinu: zaglavlje se stisne, vlak dobije svoj
+   dio ekrana (razmjeri() ga računa i po visini), a peron s paketima klizi. */
+@media (orientation:landscape) and (max-height:560px){
+  html,body{height:100%;overflow:hidden}
+  body{background-image:none}
+  .omot{height:100%;max-width:none;padding:6px 10px 8px}
+  .hud{padding:5px 10px;margin-bottom:6px;gap:6px;border-radius:12px}
+  .hud .ime{font-size:14px}
+  .hud .ime small{display:none}
+  .znak{font-size:12px;padding:2px 9px}
+  .ploha{padding:8px 10px;gap:6px;border-radius:14px;min-height:0}
+  .krugTraka{font-size:12px;gap:6px}
+  .krugTraka .oznakaK{padding:1px 8px}
+  .satVlaka{gap:8px}
+  .satVlaka .sekunde{font-size:15px;min-width:44px}
+  .napredak{height:9px}
+  .peron{min-height:0;gap:6px}
+  .kolodvor{flex:0 0 auto}
+  /* pločica ulazi u prazan vrh sprajta — vagon ondje ionako nema piksela */
+  .kolodvor.tijesno .klizac{padding-top:4px}
+  .kolodvor.tijesno .vagon{gap:0}
+  .kolodvor.tijesno .vagon .tijelo{margin-top:calc(-44px * var(--s))}
+  .traka{flex:1 1 auto;min-height:0;overflow-y:auto;padding:6px 8px}
+  .traka .naslovT{margin-bottom:4px}
+  .paketi{gap:6px}
+  .paket{padding:4px 8px;font-size:12px;border-radius:10px}
+  .paket .emo{font-size:17px}
+  .paket small{font-size:10px}
+  .zastor .kut{padding:16px 18px;max-width:420px}
+  .zastor h3{font-size:20px}
+  .zastor p{font-size:13px;line-height:1.4;margin-bottom:10px}
+}
+
 @media (max-width:640px){
   .omot{padding:8px 8px 30px}
   .hud{padding:8px 10px;gap:6px}
@@ -116,18 +150,77 @@ input.upis:focus{outline:none;background:var(--papir2)}
 .satVlaka{display:flex;align-items:center;gap:10px;font-weight:800}
 .satVlaka .napredak{flex:1}
 .satVlaka .sekunde{font-variant-numeric:tabular-nums;font-size:18px;min-width:52px;text-align:right}
-.tracnice{height:12px;background:repeating-linear-gradient(90deg,#8B7B6B 0 6px,#C9BBA9 6px 14px);
-  border-radius:4px;border:2px solid var(--tinta)}
-.kompozicija{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
-.kompozicija.duge{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.kompozicija.duge .oznakaV{font-size:12px;text-transform:none;letter-spacing:0;line-height:1.35}
-.vagon{border:var(--crta);border-radius:14px;background:#fff;padding:8px;min-height:104px;cursor:pointer;
-  display:flex;flex-direction:column;gap:4px;box-shadow:0 3px 0 var(--tinta)}
-.vagon:hover{background:var(--papir2)}
-.vagon .oznakaV{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;text-align:center;
-  border-bottom:2px dashed var(--meko);padding-bottom:3px}
-.vagon .sadrzaj{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;font-size:19px}
-.vagon.pun{background:#DFF3D2}
+/* ---- kolodvor ----
+   Sprajtovi vlaka su 512×250 (pola izvornika) i rezani su točno na visini
+   tračnice, pa kotači sjede na pruzi. Pločica pruge je 296×27 u punoj
+   veličini, zato joj u istom razmjeru ide polovica (148 × 13.5).
+   --s je razmjer prikaza; računa ga razmjeri() prema širini ekrana. */
+.kolodvor{position:relative;border:var(--crta);border-radius:18px;overflow:hidden;
+  background:linear-gradient(#FFFDF9,#FFF4E6);
+  --s:.5; --nasip:calc(16px * var(--s) + 8px); --dim:.54s}
+.kolodvor .nasip{position:absolute;left:0;right:0;bottom:0;
+  height:calc(var(--nasip) + 13.5px * var(--s));
+  background:linear-gradient(#F3E7D6,#E7D7C0);border-top:0}
+.kolodvor .pruga{position:absolute;left:0;right:0;bottom:var(--nasip);
+  height:calc(13.5px * var(--s));
+  background:url("mini games media/vlak-pruga.png") repeat-x;
+  background-size:calc(148px * var(--s)) calc(13.5px * var(--s))}
+.klizac{position:relative;z-index:2;overflow-x:auto;overflow-y:hidden;
+  padding:10px 0 calc(var(--nasip) + 13.5px * var(--s))}
+.kolodvor.odlazi .klizac,.kolodvor.dolazi .klizac{overflow-x:hidden}
+.kompozicija{display:flex;align-items:flex-end;width:max-content;margin:0 auto;padding:0 12px}
+.kompozicija > * + *{margin-left:calc(-49px * var(--s))}
+
+.vagon{position:relative;flex:0 0 auto;width:calc(512px * var(--s));cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;gap:6px}
+.vagon .tijelo{position:relative;width:100%;height:calc(250px * var(--s))}
+.vagon .tijelo img,.loko img{width:100%;height:auto;display:block;-webkit-user-drag:none}
+.vagon .ploca{position:relative;width:calc(448px * var(--s));min-width:64px;background:#fff;
+  border:2px solid var(--tinta);border-radius:10px;box-shadow:0 3px 0 var(--tinta);
+  padding:5px 7px;text-align:center;line-height:1.25;font-weight:800;
+  font-size:clamp(10px,calc(28px * var(--s)),15px)}
+.vagon .ploca span{display:block;font-weight:600;color:var(--meko);font-size:.84em}
+.vagon:hover .ploca{background:var(--zut)}
+/* paket je u ruci — pločice odredišta se istaknu */
+.kolodvor.bira .ploca{border-color:#C98A12;box-shadow:0 3px 0 var(--tinta),0 0 0 3px rgba(244,185,66,.45)}
+.vagon .brojac{position:absolute;top:-10px;right:-8px;display:none;align-items:center;justify-content:center;
+  min-width:22px;height:22px;padding:0 5px;border:2px solid var(--tinta);border-radius:999px;
+  background:var(--zelena);color:#fff;font-size:12px;font-style:normal;font-weight:800}
+.vagon.ima .brojac{display:flex}
+.vagon.kriv{animation:tresi .3s}
+.vagon.kriv .ploca{background:var(--koralj);color:#fff}
+.vagon.prima .ploca{background:var(--zelena);color:#fff}
+.vagon.prima .tijelo{animation:skok .35s}
+
+/* lokomotiva: tri faze dima izmjenjuju se u krug */
+.loko{position:relative;flex:0 0 auto;width:calc(512px * var(--s));height:calc(250px * var(--s))}
+.loko img{position:absolute;left:0;top:0;opacity:0}
+.loko img.f1{animation:faza1 var(--dim) steps(1) infinite}
+.loko img.f2{animation:faza2 var(--dim) steps(1) infinite}
+.loko img.f3{animation:faza3 var(--dim) steps(1) infinite}
+@keyframes faza1{0%,33.3%{opacity:1}33.4%,100%{opacity:0}}
+@keyframes faza2{0%,33.3%{opacity:0}33.4%,66.6%{opacity:1}66.7%,100%{opacity:0}}
+@keyframes faza3{0%,66.6%{opacity:0}66.7%,100%{opacity:1}}
+
+/* polazak i dolazak vlaka; --odmak (px) postavlja razmjeri() */
+.kolodvor.odlazi{--dim:.2s}
+.kolodvor.odlazi .kompozicija{animation:odlazakV 1.5s cubic-bezier(.45,.02,.75,.6) forwards}
+.kolodvor.dolazi .kompozicija{animation:dolazakV 1.1s cubic-bezier(.2,.62,.3,1)}
+@keyframes odlazakV{from{transform:translateX(0)}to{transform:translateX(calc(1px * var(--odmak)))}}
+@keyframes dolazakV{from{transform:translateX(calc(-1px * var(--odmak)))}to{transform:translateX(0)}}
+.kolodvor.odlazi .tijelo,.kolodvor.odlazi .loko,
+.kolodvor.dolazi .tijelo,.kolodvor.dolazi .loko{animation:drmusa .22s steps(1) infinite alternate}
+@keyframes drmusa{from{transform:translateY(0)}to{transform:translateY(calc(-2px - 2px * var(--s)))}}
+
+/* ako slike nisu u mapi "mini games media", vagoni ostaju kao kutije */
+.kolodvor.bezSlika img{display:none}
+.kolodvor.bezSlika .tijelo{background:#7E2B25;border:var(--crta);border-radius:10px 10px 4px 4px}
+.kolodvor.bezSlika .loko{background:#2B2118;border:var(--crta);border-radius:12px 12px 4px 4px}
+
+.letiPaket{position:fixed;z-index:70;margin:0;pointer-events:none}
+/* ⛶ se pokazuje samo na dodirnom ekranu izvan aplikacije — u aplikaciji
+   cijelim zaslonom i okretanjem upravlja sama aplikacija */
+.cijeliTipka{font:inherit;font-weight:700;cursor:pointer;line-height:1}
 .traka{border:var(--crta);border-radius:14px;background:var(--papir2);padding:10px;min-height:96px}
 .traka .naslovT{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--meko);font-weight:800;margin-bottom:6px}
 .paketi{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
@@ -135,6 +228,7 @@ input.upis:focus{outline:none;background:var(--papir2)}
   font-weight:700;font-size:13px;display:flex;flex-direction:column;align-items:center;gap:2px;box-shadow:0 3px 0 var(--tinta)}
 .paket.odabran{background:var(--zut);transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
 .paket small{color:var(--meko);font-weight:400;font-size:11px}
+.paket .emo{font-size:22px;line-height:1}
 .krugTraka{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:700;flex-wrap:wrap}
 .krugTraka .oznakaK{background:var(--zut);border:2px solid var(--tinta);border-radius:8px;padding:2px 10px}
 
@@ -543,14 +637,18 @@ var KRUGOVI = [
 ];
 var UKUPNO = KRUGOVI.length;
 
+var ZIVOTI = 3;                 /* srca po krugu — novi vlak donosi nova */
+var SL = 'mini games media/';   /* sprajtovi vlaka */
+
 var S = {krug:0, bodovi:0, uspjesnih:0, sat:null, preostalo:0, ukupno:0,
-         odabran:null, vagoni:[], paketi:[], bez:false, bezKrug:0};
+         odabran:null, vagoni:[], paketi:[], bez:false, bezKrug:0, zivoti:ZIVOTI};
 
 var O = CL.el('omot');
 O.appendChild(CL.hud({
   ime:'Mail Train (Poštanski vlak)', podnaslov:'sorting against the clock · ' + UKUPNO + ' rounds',
   znakovi:[
     {id:'zKrug', html:'🚆 <b>1</b>/' + UKUPNO},
+    {id:'zSrca', klasa:'srca', html:CL.srca(ZIVOTI, ZIVOTI)},
     {id:'zBod', html:'⭐ <b>0</b>'},
     {id:'zTocno', html:'📦 0/0'}
   ]
@@ -562,8 +660,10 @@ ploha.innerHTML =
   '<div class="satVlaka"><span>🚂</span><span class="napredak"><i id="trakaSat"></i></span>' +
   '<span class="sekunde" id="sek">0 s</span></div>' +
   '<div class="peron">' +
-  '<div class="kompozicija" id="kompozicija"></div>' +
-  '<div class="tracnice"></div>' +
+  '<div class="kolodvor" id="kolodvor">' +
+    '<div class="nasip"></div><div class="pruga"></div>' +
+    '<div class="klizac" id="klizac"><div class="kompozicija" id="kompozicija"></div></div>' +
+  '</div>' +
   '<div class="traka"><div class="naslovT">Platform — packages waiting</div><div class="paketi" id="paketi"></div></div>' +
   '</div>';
 O.appendChild(ploha);
@@ -657,38 +757,124 @@ function pripremi(k){
   return {vagoni:vagoni, paketi:CL.mix(paketi), duge:(k.pravilo === 'recenica')};
 }
 
+/* Razmjer vlaka: koliko god stane u širinu, unutar razumnih granica.
+   Ispod donje granice kompozicija se kliže vodoravno (uski ekrani, 5–6 vagona). */
+function razmjeri(){
+  var kol = CL.el('kolodvor'), kl = CL.el('klizac');
+  if (!kol || !kl) return;
+  var n = S.vagoni.length;
+  var sirina = (n + 1) * 512 - n * 49;            /* vagoni + lokomotiva, minus spojevi */
+  var s = Math.min(S.duge ? .62 : .58, (kl.clientWidth - 26) / sirina);
+
+  /* Kad je visina ograničena (položeni mobitel, cijeli zaslon), vlak uzima
+     nešto više od pola perona — ostatak ide paketima. */
+  var peron = document.querySelector('.peron');
+  var tijesno = window.innerHeight <= 560 && window.innerWidth > window.innerHeight;
+  kol.classList.toggle('tijesno', tijesno);
+  if (tijesno && peron && peron.clientHeight > 80){
+    /* pola perona vlaku, ostalo paketima; 206 umjesto 250 jer pločica u
+       tijesnom rasporedu ulazi u prazan vrh sprajta */
+    var zaVlak = peron.clientHeight * .5 - 52;
+    if (zaVlak > 34) s = Math.min(s, zaVlak / 206);
+  }
+  s = Math.max(s, S.duge ? .46 : .152);   /* ispod ~78 px po vagonu radije klizi */
+  kol.style.setProperty('--s', s);
+  kol.style.setProperty('--odmak', Math.round(sirina * s + kl.clientWidth + 60));
+}
+window.addEventListener('resize', razmjeri);
+
 function crtaj(){
-  CL.el('kompozicija').className = 'kompozicija' + (S.duge ? ' duge' : '');
-  CL.el('kompozicija').innerHTML = S.vagoni.map(function(v,i){
-    return '<div class="vagon' + (v.sadrzaj.length?' pun':'') + '" data-i="' + i + '">' +
-      '<div class="oznakaV">' + CL.esc(v.natpis) + (v.pod ? '<br><span style="font-weight:400;color:var(--meko);text-transform:none;letter-spacing:0">' + CL.esc(v.pod) + '</span>' : '') + '</div>' +
-      '<div class="sadrzaj">' + v.sadrzaj.map(function(r){ return '<span title="' + CL.esc(r.hr) + '">' + r.emo + '</span>'; }).join('') + '</div>' +
+  var k = CL.el('kompozicija');
+  /* isti vlak još stoji na peronu — ne crtaj ga iznova, samo osvježi pločice
+     (inače bi se sprajtovi ponovno učitavali nakon svakog paketa) */
+  if (k.dataset.vlak === String(S.vlakId) && k.children.length === S.vagoni.length + 1){
+    S.vagoni.forEach(function(v,i){
+      k.children[i].classList.toggle('ima', v.sadrzaj.length > 0);
+      k.children[i].querySelector('.brojac').textContent = v.sadrzaj.length;
+    });
+    CL.el('kolodvor').classList.toggle('bira', S.odabran !== null);
+    crtajPakete();
+    return;
+  }
+  k.dataset.vlak = S.vlakId;
+  k.innerHTML = S.vagoni.map(function(v,i){
+    return '<div class="vagon' + (v.sadrzaj.length?' ima':'') + '" data-i="' + i + '">' +
+      '<div class="ploca">' + CL.esc(v.natpis) +
+        (v.pod ? '<span>' + CL.esc(v.pod) + '</span>' : '') +
+        '<i class="brojac">' + v.sadrzaj.length + '</i>' +
+      '</div>' +
+      '<div class="tijelo"><img src="' + SL + 'vlak-vagon.png" alt="" draggable="false"></div>' +
       '</div>';
-  }).join('');
+  }).join('') +
+    '<div class="loko">' +
+    [1,2,3].map(function(f){
+      return '<img class="f' + f + '" src="' + SL + 'vlak-lokomotiva-' + f + '.png" alt="" draggable="false">';
+    }).join('') +
+    '</div>';
+  /* bez slika u mapi "mini games media" igra i dalje radi — vagoni su kutije */
+  Array.prototype.forEach.call(k.querySelectorAll('img'), function(im){
+    im.onerror = function(){ CL.el('kolodvor').classList.add('bezSlika'); };
+  });
+  razmjeri();
+  CL.el('kolodvor').classList.toggle('bira', S.odabran !== null);
+  crtajPakete();
+}
+
+function crtajPakete(){
   CL.el('paketi').innerHTML = S.paketi.map(function(p,i){
     if (p.gotov) return '';
     var natpis = p.engleski ? p.r.en : p.r.hr;
     return '<button class="paket' + (S.odabran===i?' odabran':'') + '" data-i="' + i + '">' +
-      '<span style="font-size:22px">' + (p.r.emo || '📦') + '</span><span>' + CL.esc(natpis) + '</span>' +
+      '<span class="emo">' + (p.r.emo || '📦') + '</span><span>' + CL.esc(natpis) + '</span>' +
       '<small>' + (p.engleski ? 'english' : CL.skritEN(p.r.en, '👁', true)) + '</small></button>';
   }).join('');
 }
 
+/* Paket odleti s perona u vagon i nestane — u vagonu se poslije ne vidi,
+   ostaje samo brojač na pločici. */
+function letPaketa(od, na){
+  if (!od || !na) return;
+  var a = od.getBoundingClientRect(), b = na.getBoundingClientRect();
+  var k = od.cloneNode(true);
+  k.className = 'paket letiPaket';
+  k.style.left = a.left + 'px'; k.style.top = a.top + 'px'; k.style.width = a.width + 'px';
+  document.body.appendChild(k);
+  var dx = (b.left + b.width / 2) - (a.left + a.width / 2);
+  var dy = (b.top + b.height * .45) - (a.top + a.height / 2);
+  requestAnimationFrame(function(){
+    k.style.transition = 'transform .45s cubic-bezier(.4,0,.6,1),opacity .45s';
+    k.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(.22) rotate(10deg)';
+    k.style.opacity = '0';
+  });
+  setTimeout(function(){ k.remove(); }, 480);
+}
+
 CL.el('kompozicija').addEventListener('click', function(e){
+  if (CL.el('kolodvor').classList.contains('odlazi')) return;
   var v = e.target.closest('.vagon'); if (!v) return;
   if (S.odabran === null) return CL.poruka('Pick up a package from the platform first.');
   var vag = S.vagoni[+v.dataset.i], pak = S.paketi[S.odabran];
   if (pak.kljuc === vag.kljuc){
+    var odKud = CL.el('paketi').querySelector('.paket[data-i="' + S.odabran + '"]');
+    letPaketa(odKud, v.querySelector('.tijelo'));
     vag.sadrzaj.push(pak.r); pak.gotov = true; S.odabran = null; S.ukupno++;
     CL.pip(true); CL.zvukRijeci(pak.r);
     if (pak.r.kat) CL.ucenje(pak.r.id, true);
     crtaj(); osvjezi();
+    var novi = CL.el('kompozicija').querySelector('.vagon[data-i="' + v.dataset.i + '"]');
+    if (novi){ novi.classList.add('prima'); setTimeout(function(){ novi.classList.remove('prima'); }, 400); }
     if (S.paketi.every(function(p){ return p.gotov; })) return zavrsiKrug(true);
   } else {
-    CL.pip(false); S.preostalo -= 4;
+    CL.pip(false);
+    S.zivoti--;
     if (pak.r.kat) CL.ucenje(pak.r.id, false);
-    v.classList.add('tresi'); setTimeout(function(){ v.classList.remove('tresi'); }, 350);
-    CL.poruka('Wrong car — the train loses 4 seconds.', 'lose');
+    v.classList.add('kriv'); setTimeout(function(){ v.classList.remove('kriv'); }, 400);
+    osvjezi();
+    if (S.zivoti <= 0){
+      CL.poruka('No lives left — the train leaves without you.', 'lose');
+      return zavrsiKrug(false);
+    }
+    CL.poruka('Wrong car — one life lost.', 'lose');
   }
 });
 CL.el('paketi').addEventListener('click', function(e){
@@ -703,6 +889,7 @@ function osvjezi(){
   CL.el('zKrug').innerHTML = S.bez
     ? '♾ <b>' + (S.bezKrug+1) + '</b>'
     : '🚆 <b>' + Math.min(S.krug+1, UKUPNO) + '</b>/' + UKUPNO;
+  CL.el('zSrca').innerHTML = CL.srca(Math.max(0, S.zivoti), ZIVOTI);
   CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>';
   var ukupnoPaketa = S.paketi.length;
   var gotovih = S.paketi.filter(function(p){ return p.gotov; }).length;
@@ -721,16 +908,39 @@ function bezKrajaKrug(n){
   };
 }
 
+/* Vlak odlazi udesno, pa novi ulazi slijeva. Kamera stoji na peronu,
+   zato se pruga ne pomiče — miče se samo kompozicija. */
+function odlazakVlaka(gotovo){
+  var kol = CL.el('kolodvor');
+  kol.classList.remove('dolazi');
+  kol.classList.add('odlazi');
+  CL.zvuk('vlak-odlazak.mp3');
+  setTimeout(function(){ kol.classList.remove('odlazi'); if (gotovo) gotovo(); }, 1500);
+}
+function dolazakVlaka(gotovo){
+  var kol = CL.el('kolodvor');
+  kol.classList.add('dolazi');
+  setTimeout(function(){ kol.classList.remove('dolazi'); if (gotovo) gotovo(); }, 1100);
+}
+
 function pocniKrug(){
   var k = S.bez ? bezKrajaKrug(S.bezKrug) : KRUGOVI[S.krug];
   var pripr = pripremi(k);
   S.k = k; S.vagoni = pripr.vagoni; S.paketi = pripr.paketi;
   S.duge = pripr.duge; S.odabran = null;
   S.preostalo = k.sekundi; S.max = k.sekundi;
+  S.zivoti = ZIVOTI;                      /* novi vlak — nova srca */
+  S.vlakId = (S.vlakId || 0) + 1;         /* novi vlak se crta iznova */
   CL.el('oznakaK').textContent = (S.bez ? 'Endless ' : 'Round ') +
     ((S.bez ? S.bezKrug : S.krug) + 1) + ' — ' + k.ime;
   CL.el('opisK').textContent = k.opis;
   crtaj(); osvjezi();
+  CL.el('trakaSat').style.width = '100%';
+  CL.el('sek').textContent = k.sekundi + ' s';
+  dolazakVlaka(pokreniSat);
+}
+
+function pokreniSat(){
   clearInterval(S.sat);
   S.sat = setInterval(function(){
     if (document.querySelector('.zastor')) return;
@@ -745,6 +955,12 @@ function pocniKrug(){
 function zavrsiKrug(uspjeh){
   clearInterval(S.sat);
   if (uspjeh){ S.uspjesnih++; CL.konfeti(20); }
+  S.odabran = null; crtaj();
+  odlazakVlaka(function(){ poKrugu(uspjeh); });
+}
+
+function poKrugu(uspjeh){
+  CL.el('paketi').innerHTML = '';     /* vlak je otišao — peron ostaje prazan */
   if (S.bez){
     S.bezKrug++;
     osvjezi();
@@ -759,7 +975,8 @@ function zavrsiKrug(uspjeh){
   S.krug++;
   if (S.krug >= KRUGOVI.length) return kraj();
   var k = KRUGOVI[S.krug];
-  var z = CL.zastor('<h3>' + (uspjeh ? 'The train left on time! 🚆' : 'The train left without you ⏰') + '</h3>' +
+  var z = CL.zastor('<h3>' + (uspjeh ? 'The train left on time! 🚆'
+      : (S.zivoti <= 0 ? 'Too many wrong cars 💔' : 'The train left without you ⏰')) + '</h3>' +
     '<p>' + (uspjeh ? 'Round complete.' : 'No points for this round.') +
     '<br><br><b>Next: ' + CL.esc(k.ime) + '</b><br>' + CL.esc(k.opis) + '</p>' +
     '<div class="tipke"><button class="g glavni" id="_d">To the platform</button></div>');
@@ -797,11 +1014,69 @@ function kraj(){
   });
 }
 
+/* ---- cijeli zaslon i položeni smjer (samostalno otvorena igra) ----
+   U aplikaciji igra stoji u okviru i time upravlja aplikacija — tipka ⛶ uz rub
+   scene. Igra tada ne dira ni cijeli zaslon ni zaključavanje smjera. */
+var uAppu = window.self !== window.top;
+var DODIR = !!(window.matchMedia && matchMedia('(pointer: coarse)').matches);
+var DOC = document.documentElement;
+var mozeCijeli = !uAppu && DODIR &&
+  !!(document.fullscreenEnabled || document.webkitFullscreenEnabled);
+var rucnoIzasao = false;
+var CIJ = null;
+
+function uCijelom(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+function polozeno(){ return window.innerWidth > window.innerHeight; }
+function udiCijeli(){
+  var f = DOC.requestFullscreen || DOC.webkitRequestFullscreen;
+  if (!f) return;
+  var p = f.call(DOC);
+  var zakljucaj = function(){
+    try { if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(function(){}); } catch (_){}
+  };
+  if (p && p.then) p.then(zakljucaj, function(){}); else zakljucaj();
+}
+function izadiCijeli(){
+  try { if (screen.orientation && screen.orientation.unlock) screen.orientation.unlock(); } catch (_){}
+  var f = document.exitFullscreen || document.webkitExitFullscreen;
+  if (f){ var p = f.call(document); if (p && p.catch) p.catch(function(){}); }
+}
+function osvjeziCijeli(){
+  if (!CIJ) return;
+  var u = uCijelom();
+  CIJ.textContent = u ? '✕' : '⛶';
+  CIJ.title = u ? 'Exit full screen' : 'Full screen · turn your phone sideways';
+}
+if (mozeCijeli){
+  CIJ = document.createElement('button');
+  CIJ.type = 'button';
+  CIJ.className = 'znak cijeliTipka';
+  document.querySelector('.hud').appendChild(CIJ);
+  osvjeziCijeli();
+  CIJ.addEventListener('click', function(){
+    if (uCijelom()){ rucnoIzasao = true; izadiCijeli(); }
+    else { rucnoIzasao = false; udiCijeli(); }
+  });
+  ['fullscreenchange','webkitfullscreenchange'].forEach(function(ev){
+    document.addEventListener(ev, function(){
+      if (!uCijelom()) rucnoIzasao = true;      /* i sistemska tipka natrag */
+      osvjeziCijeli(); razmjeri();
+    });
+  });
+  /* nakrenut mobitel: prvi dodir sam ulazi u cijeli zaslon — osim ako si baš izašao */
+  window.addEventListener('pointerdown', function(e){
+    if (e.target === CIJ) return;
+    if (polozeno() && !uCijelom() && !rucnoIzasao) udiCijeli();
+  }, true);
+  window.addEventListener('resize', function(){ if (!polozeno()) rucnoIzasao = false; });
+}
+
 (function(){
   var z = CL.zastor(
     '<h3>Mail Train (Poštanski vlak)</h3>' +
     '<p>Eighteen rounds, eight sorting rules. Pick a package up from the platform ' +
-    'and load it into the right car before the train leaves. A wrong car costs four seconds.</p>' +
+    'and load it into the right car before the train leaves. A wrong car costs a life — ' +
+    'you get three with every train.</p>' +
     '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">To the platform</button></div>');
   z.querySelector('#_k').onclick = function(){ z.remove(); pocniKrug(); };
 })();
