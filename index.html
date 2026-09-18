@@ -3059,6 +3059,29 @@
   var MINI_MAPA = 'mini-igre/';
   var MINI_SLIKE = 'slike/mini-igre/';
 
+  // ---- Weekly challenge: slikovni izazovi ----
+  // Jedna slika, dvadesetak pojmova. Klik na predmet ga obasja, igrac upisuje
+  // hrvatsku rijec. Samostalne HTML datoteke u mapi weekly/, kao i mini-igre,
+  // ali ne nose bodove: tjedni izazov je razgibavanje, ne gradivo. Napredak
+  // pamte same, u localStorage pod kljucem iz `kljuc`, pa ga popis moze citati.
+  var WEEKLY_MAPA = 'weekly/';
+  var WEEKLY_SLIKE = [
+    { id: 'trznica', dat: '2026-09-14-trznica.html', ime: 'Tržnica', stil: 'The market',
+      emo: '🍎', datum: 'September 14, 2026', pojmova: 22,
+      kljuc: 'croland.weekly.trznica.2026-09-14',
+      opis: 'Tap anything on the market stall and type its Croatian name.' }
+  ];
+  function weeklySlikaPoId(id) {
+    for (var i = 0; i < WEEKLY_SLIKE.length; i++) if (WEEKLY_SLIKE[i].id === id) return WEEKLY_SLIKE[i];
+    return null;
+  }
+  function weeklySlikaNadjeno(w) {
+    try {
+      var st = JSON.parse(localStorage.getItem(w.kljuc) || '{}');
+      return Object.keys(st.rijeseni || {}).length;
+    } catch (e) { return 0; }
+  }
+
   // ---- Extras ----
   // Vlastiti odjeljak iznad mini igara: jedan naslov, veca slika, vise prostora.
   // `dat` je prazan dok igra ne postoji — kartica se tada prikazuje, ali se ne otvara.
@@ -7249,7 +7272,7 @@
     var kartaVida = { main: 'main',
       lessons: 'lessons', unit: 'lessons', igra: 'lessons', sazetak: 'lessons',
       dictionary: 'dictionary', dictTest: 'dictionary', mini: 'mini', miniIgra: 'mini',
-      daily: 'daily', account: 'account', progress: 'progress', options: 'options' };
+      daily: 'daily', weekly: 'daily', account: 'account', progress: 'progress', options: 'options' };
     var cilj = kartaVida[view] || '';
     // Daily challenge se igra kao cjelina, ali u izborniku pripada Dailyju
     if (view === 'unit' && ZADNJI_VIEW && ZADNJI_VIEW.arg1 === 'Daily challenge') cilj = 'daily';
@@ -7603,7 +7626,7 @@
       if (pristup === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristup === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
       if (pristup === 'needsSubscription') { prikaziModalPretplata(); return; }
-    } else if (view === 'miniIgra') {
+    } else if (view === 'miniIgra' || view === 'weekly') {
       var pristupM = imaPristup('MiniGame', 0);
       if (pristupM === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristupM === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
@@ -7632,6 +7655,7 @@
     else if (view === 'mini') renderMini(arg1);
     else if (view === 'miniIgra') renderMiniIgra(arg1);
     else if (view === 'daily') renderDaily();
+    else if (view === 'weekly') renderWeekly(arg1);
     else if (view === 'account') renderAccount();
     else if (view === 'progress') renderProgress();
     else if (view === 'options') renderOptions();
@@ -10270,11 +10294,41 @@
     }
     var wk = weeklyBrojevi();
     html += '<h1 class="sekcija" style="margin-top:24px">Weekly challenge</h1>';
-    if (wk.length === 0) html += '<div class="zakljBanner">Weekly challenges are coming soon.</div>';
+    if (wk.length === 0 && WEEKLY_SLIKE.length === 0)
+      html += '<div class="zakljBanner">Weekly challenges are coming soon.</div>';
+    WEEKLY_SLIKE.forEach(function (w) {
+      var nadjeno = weeklySlikaNadjeno(w);
+      html += '<div class="dcRed" onclick="idi(\'weekly\',\'' + w.id + '\')">' +
+        '<span>' + IK('iskra', 'uz') + '<strong>' + esc(w.ime) + '</strong> — ' + esc(w.stil) + '</span>' +
+        '<span class="pct">' + nadjeno + ' / ' + w.pojmova + '</span></div>';
+    });
     wk.forEach(function (n) {
       html += '<div class="dcRed" onclick="idi(\'unit\',\'Weekly challenge\',' + n + ')"><span>' + IK('kalendar', 'uz') + '<strong>Week ' + n + '</strong></span></div>';
     });
+    if (WEEKLY_SLIKE.length)
+      html += '<div class="dcNapomena">One picture a week. Tap an object, type the Croatian word — no list, no answers given away.</div>';
     VIEW.innerHTML = html;
+  }
+
+  // ---- Weekly challenge (slikovni) ----
+  // Igra je samostalna datoteka u okviru visine ekrana, kao polozene mini-igre,
+  // samo bez bodova i bez okretanja: slika je uspravna i radi u portretu.
+  function renderWeekly(id) {
+    var w = weeklySlikaPoId(id);
+    if (!w) { renderDaily(); return; }
+    mjeriZaglavlje();
+    window.scrollTo(0, 0);
+    VIEW.innerHTML =
+      '<div class="miniOkvir">' +
+      '<div class="miniScena"><div class="miniPozornica">' +
+      '<iframe id="weeklyOkno" src="' + WEEKLY_MAPA + w.dat + '" title="' + esc(w.ime) + '" allow="fullscreen" allowfullscreen></iframe>' +
+      '</div></div>' +
+      '<div class="alat">' +
+      '<span class="nas">' + w.emo + ' ' + esc(w.ime) + '</span>' +
+      '<span class="pod">' + esc(w.stil) + ' · ' + esc(w.datum) + ' · ' + w.pojmova + ' words</span>' +
+      '<button class="gumbSitni" onclick="idi(\'daily\')">← Daily challenge</button>' +
+      '</div>' +
+      '</div>';
   }
 
   // ---- Account ----

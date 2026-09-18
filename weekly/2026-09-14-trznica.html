@@ -26,9 +26,11 @@ body{
 /* ---- gornja traka ---- */
 .traka{flex:0 0 auto;display:flex;align-items:center;gap:8px;padding:8px 10px;
   background:var(--papir);border-bottom:3px solid var(--tinta);z-index:20;position:relative}
-.traka .ime{font-weight:800;font-size:15px;line-height:1.15;margin-right:auto;min-width:0}
+.traka .ime{font-weight:800;font-size:15px;line-height:1.15;margin-right:auto;min-width:0;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .traka .ime small{display:block;font-weight:700;font-size:10px;color:var(--meko);
-  letter-spacing:.6px;text-transform:uppercase}
+  letter-spacing:.6px;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kratko{display:none}
 .natrag{text-decoration:none;color:var(--tinta);font-weight:800;font-size:15px;
   border:2px solid var(--tinta);border-radius:999px;width:34px;height:34px;background:#fff;
   display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
@@ -42,7 +44,13 @@ body{
 .gi:active{transform:translateY(3px);box-shadow:0 0 0 var(--tinta)}
 .gi.glavni{background:var(--zut)}
 .gi small{font-size:12px;font-weight:800}
-@media (max-width:520px){ .gi small{display:none} .traka .ime{font-size:13px} }
+@media (max-width:560px){
+  .gi small{display:none}
+  .traka{gap:6px;padding:7px 8px}
+  .gi{padding:0 8px}
+  .traka .ime{font-size:14px}
+  .dugo{display:none} .kratko{display:inline}
+}
 
 /* ---- scena ---- */
 .scena{flex:1 1 auto;position:relative;overflow:hidden;touch-action:none;cursor:grab;
@@ -127,16 +135,18 @@ body{
 <div class="app" id="app">
 
   <div class="traka">
-    <a class="natrag" href="index.html" title="Back">←</a>
-    <div class="ime">Weekly Challenge<small>Tržnica · the market</small></div>
+    <a class="natrag" href="../index.html" id="gNatrag" title="Back">←</a>
+    <div class="ime"><span class="dugo">Weekly Challenge</span><span class="kratko">Tržnica</span><small><span class="dugo">Tržnica · the market</span><span class="kratko">Weekly</span></small></div>
     <span class="znak" id="brojac">0 / 0</span>
+    <button class="gi" id="gManje" title="Zoom out" aria-label="Zoom out">−</button>
+    <button class="gi" id="gVise" title="Zoom in" aria-label="Zoom in">+</button>
     <button class="gi glavni" id="gPokazi" title="Signal every word still missing">✨<small>Show</small></button>
     <button class="gi" id="gInfo" title="How it works">?</button>
   </div>
 
   <div class="scena" id="scena">
     <div class="platno" id="platno">
-      <img id="slika" src="tjedni/trznica.webp" alt="Market stall">
+      <img id="slika" src="slike/trznica.webp" alt="Market stall">
     </div>
 
     <form class="upis" id="upis" autocomplete="off">
@@ -261,11 +271,18 @@ function primijeni(glatko){
   if (glatko) setTimeout(function(){ platno.classList.remove("glatko"); }, 320);
 }
 
+/* Traka za upis pokriva vrh scene dok je otvorena, pa slika tada živi ispod
+   nje: kad je niža od preostalog prostora, u njemu se centrira; kad je viša,
+   smije se pomicati sve do te granice. Bez toga bi pojam pri vrhu slike ostao
+   zauvijek skriven ispod trake — a zumirati ga ne smijemo. */
+function gornjiOdmak(){
+  return upis.classList.contains("vidi") ? upis.offsetHeight : 0;
+}
 function granice(){
-  var vw = scena.clientWidth, vh = scena.clientHeight;
-  var dw = IMG_W*S.k, dh = IMG_H*S.k;
+  var vw = scena.clientWidth, vh = scena.clientHeight, gore = gornjiOdmak();
+  var dw = IMG_W*S.k, dh = IMG_H*S.k, vhu = vh - gore;
   S.tx = dw <= vw ? (vw-dw)/2 : stisni(S.tx, vw-dw, 0);
-  S.ty = dh <= vh ? (vh-dh)/2 : stisni(S.ty, vh-dh, 0);
+  S.ty = dh <= vhu ? gore + (vhu-dh)/2 : stisni(S.ty, vh-dh, gore);
 }
 
 function postavi(){
@@ -288,18 +305,35 @@ function pocetniPogled(){
   granice(); primijeni(false);
 }
 
-/* dovedi pojam u vidljivo polje (iznad tipkovnice, ispod trake za upis) */
-function usredotoci(p){
+/* Zumiranje je u rukama igrača — klik ga nikad ne mijenja. Jedino što klik smije
+   je gurnuti pogled toliko da obasjani pojam ne ostane ispod trake za upis ili
+   ispod tipkovnice; mjerilo ostaje isto. */
+function uvidik(p, glatko){
+  if (!p) return;
   var vw = scena.clientWidth, vh = scena.clientHeight;
-  var gore = upis.offsetHeight + 8;
-  var ciljK = Math.max(S.k, Math.min(kmax, Math.min(vw*0.55/(p.w/100*IMG_W), (vh-gore)*0.5/(p.h/100*IMG_H))));
-  ciljK = Math.max(ciljK, kpocetni);
-  S.k = stisni(ciljK, kmin, kmax);
-  var cx = (p.x + p.w/2)/100*IMG_W*S.k;
-  var cy = (p.y + p.h/2)/100*IMG_H*S.k;
-  S.tx = vw/2 - cx;
-  S.ty = gore + (vh-gore)/2 - cy;
+  var gore = gornjiOdmak() + 10;
+  var l = p.x/100*IMG_W*S.k + S.tx,            t = p.y/100*IMG_H*S.k + S.ty;
+  var r = (p.x+p.w)/100*IMG_W*S.k + S.tx,      b = (p.y+p.h)/100*IMG_H*S.k + S.ty;
+  var dx = 0, dy = 0;
+  if (r > vw-10) dx = (vw-10) - r;
+  if (l + dx < 10) dx = 10 - l;
+  if (b > vh-10) dy = (vh-10) - b;
+  if (t + dy < gore) dy = gore - t;
+  if (!dx && !dy) return;
+  S.tx += dx; S.ty += dy;
+  granice(); primijeni(glatko !== false);
+}
+
+/* ───────────── zumiranje na zahtjev ───────────── */
+function zumiraj(faktor, sx, sy){
+  var cilj = stisni(S.k*faktor, kmin, kmax);
+  if (cilj === S.k) return;
+  if (sx == null){ sx = scena.clientWidth/2; sy = scena.clientHeight/2; }
+  S.tx = sx - (sx - S.tx)*(cilj/S.k);
+  S.ty = sy - (sy - S.ty)*(cilj/S.k);
+  S.k = cilj;
   granice(); primijeni(true);
+  if (S.aktivan) setTimeout(function(){ uvidik(S.aktivan); }, 300);
 }
 
 /* ───────────── pogađanje ───────────── */
@@ -327,8 +361,7 @@ function mimo(kx, ky){
 }
 
 function otvori(p){
-  if (!S.aktivan) S.pogledPrije = {k:S.k, tx:S.tx, ty:S.ty};  /* kamo se vraćamo */
-  else S.aktivan.el.classList.remove("aktivan");
+  if (S.aktivan) S.aktivan.el.classList.remove("aktivan");
   S.aktivan = p;
   p.el.classList.add("aktivan");
   upis.classList.add("vidi");
@@ -336,23 +369,16 @@ function otvori(p){
   natuknica.textContent = "Type it in Croatian";
   polje.value = "";
   polje.focus();
-  usredotoci(p);
+  granice(); primijeni(true);      /* slika sjeda ispod trake */
+  uvidik(p);
 }
 
-function zatvori(vrati){
+function zatvori(){
   if (S.aktivan) S.aktivan.el.classList.remove("aktivan");
   S.aktivan = null;
   upis.classList.remove("vidi");
   polje.blur();
-  if (vrati !== false && S.pogledPrije){
-    var v = S.pogledPrije; S.pogledPrije = null;
-    setTimeout(function(){
-      if (S.aktivan) return;                    /* već je otvoren drugi pojam */
-      S.k = v.k; S.tx = v.tx; S.ty = v.ty;
-      granice(); primijeni(true);
-    }, 340);
-  }
-  S.pogledPrije = null;
+  granice(); primijeni(true);
 }
 
 function javi(t, vrsta){
@@ -401,13 +427,13 @@ function signal(){
   var ostali = POJMOVI.filter(function(p){ return !S.rijeseni[p.id]; })
                       .sort(function(a,b){ return a.sredinaX - b.sredinaX; });
   if (!ostali.length){ javi("Everything found!", "dobro"); return; }
-  zatvori(false);
+  zatvori();
   signalRadi = true;
 
   var vw = scena.clientWidth, vh = scena.clientHeight;
   S.k = Math.min(S.k, kpocetni);                 /* ne prelijeći u punom zumu */
-  var dw = IMG_W*S.k, dh = IMG_H*S.k;
-  S.ty = dh <= vh ? (vh-dh)/2 : stisni(S.ty, vh-dh, 0);
+  var dw = IMG_W*S.k;
+  granice();
 
   /* cijela slika stane — samo kaskada s lijeva na desno */
   if (dw <= vw + 2){
@@ -455,6 +481,17 @@ function signal(){
   void zadnji;
 }
 $("#gPokazi").addEventListener("click", signal);
+$("#gManje").addEventListener("click", function(){ zumiraj(1/1.35); });
+$("#gVise").addEventListener("click", function(){ zumiraj(1.35); });
+
+/* Unutar aplikacije ← vraća na Daily challenge, a ne na datoteku pored. */
+$("#gNatrag").addEventListener("click", function(e){
+  try{
+    if (window.parent && window.parent !== window && window.parent.idi){
+      e.preventDefault(); window.parent.idi("daily");
+    }
+  }catch(err){}
+});
 
 /* ───────────── pan / zoom / tap ───────────── */
 var prsti = new Map(), pocetnaUdaljenost = 0, pocetnoK = 1, pocetnaSredina = null;
@@ -521,14 +558,9 @@ scena.addEventListener("pointerup", gotov);
 scena.addEventListener("pointercancel", gotov);
 
 function dvoklik(kx, ky){
-  var uklopi = Math.min(scena.clientWidth/IMG_W, scena.clientHeight/IMG_H);
-  var cilj = (S.k > uklopi*1.35) ? uklopi : Math.min(kmax, uklopi*2.4);
   var r = scena.getBoundingClientRect();
-  var sx = kx-r.left, sy = ky-r.top;
-  S.tx = sx - (sx - S.tx)*(cilj/S.k);
-  S.ty = sy - (sy - S.ty)*(cilj/S.k);
-  S.k = cilj;
-  granice(); primijeni(true);
+  var cilj = (S.k > kpocetni*1.4) ? kpocetni : Math.min(kmax, kpocetni*2.2);
+  zumiraj(cilj/S.k, kx-r.left, ky-r.top);
 }
 
 scena.addEventListener("wheel", function(e){
@@ -555,7 +587,7 @@ function visina(){
 if (window.visualViewport){
   window.visualViewport.addEventListener("resize", function(){
     visina();
-    if (S.aktivan) setTimeout(function(){ if (S.aktivan) usredotoci(S.aktivan); }, 60);
+    if (S.aktivan) setTimeout(function(){ if (S.aktivan) uvidik(S.aktivan); }, 60);
   });
 }
 window.addEventListener("resize", function(){ visina(); postavi(); granice(); primijeni(false); });
@@ -574,7 +606,8 @@ function upute(){
       '<li>Singular or plural, both fine. Common synonyms too.</li>'+
       '<li>Get it right and the object is ticked off for good.</li>'+
       '<li>Lost? <b>✨ Show</b> flashes everything still missing, left to right.</li>'+
-      '<li>Pinch or double-tap to zoom, drag to move around.</li>'+
+      '<li>Zoom is yours: pinch, double-tap or the \u2212 / + buttons. Tapping an object never changes it.</li>'+
+      '<li>Drag to move around the picture.</li>'+
     '</ul>'+
     '<button class="g glavni" id="_z">Got it</button>'+
     '<button class="g" id="_r">Start over</button>'
@@ -638,7 +671,7 @@ var slika = $("#slika");
 if (slika.complete) start(); else slika.addEventListener("load", start);
 slika.addEventListener("error", function(){
   platno.style.background = "var(--papir2)";
-  javi("Image not found: tjedni/trznica.webp", "lose");
+  javi("Image not found: slike/trznica.webp", "lose");
   start();
 });
 })();
