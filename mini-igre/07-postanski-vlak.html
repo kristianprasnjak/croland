@@ -249,7 +249,12 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "vlak";
-window.IGRA_MAKS = 30;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 20 bodova po tocno smjestenom paketu; 75 paketa nosi puni iznos.
+function bodoviVlaka(){ return Math.min(window.IGRA_MAKS, 20 * ((S && S.ukupno) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -999,8 +1004,8 @@ function kraj(){
     return CL.kraj({
       naslov:'End of the night shift',
       tekst:'You ran <b>' + S.bezKrug + '</b> night trains and sorted ' + S.ukupno + ' packages.',
-      bodovi:30, maks:30,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviVlaka(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
@@ -1008,9 +1013,8 @@ function kraj(){
     tekst:'Eighteen rounds and eight rules: category, gender, first letter, length, word type, ' +
       'translation, opposites and sentences. Dispatched on time: <b>' + S.uspjesnih + '</b>/' + UKUPNO +
       ' · ' + S.ukupno + ' packages in all.',
-    bodovi:S.bodovi, maks:30,
-    ponovno:function(){ S.krug=0; S.bodovi=0; S.uspjesnih=0; S.ukupno=0; pocniKrug(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviVlaka(), maks:window.IGRA_MAKS,
+    ponovno:function(){ S.krug=0; S.bodovi=0; S.uspjesnih=0; S.ukupno=0; pocniKrug(); }
   });
 }
 

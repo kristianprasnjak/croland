@@ -314,7 +314,10 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "tvrdjava";
-window.IGRA_MAKS = 100;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -1474,7 +1477,9 @@ function kraj(){
     naslov:'Galebnjak is saved',
     tekst:'Twelve rooms, twelve keys: from a ring of unlabelled keys to a town council vote. ' +
       'The charter stays with the town, and the museum opens on Saturday.',
-    bodovi:S.bodovi, maks:100,
+    // sobe interno zbrajaju 100; zavrsni ekran i naplata idu u bodovima aplikacije
+    bodovi:Math.round(S.bodovi / SOBE.reduce(function(a,x){return a+(x.bodovi||0);},0) * window.IGRA_MAKS),
+    maks:window.IGRA_MAKS,
     ponovno:function(){ S = novoStanje(); spremiPricu(); postaviIgru(); udi(SOBE[0]); }
   });
 }

@@ -2303,7 +2303,8 @@ const slikaZa = i => "gradovi/"+String(i+1).padStart(3,"0")+"-"+slug(GRADOVI[i].
 const SRCA_MAX   = 3;   // srca na početku i nakon pada
 const PAD_NATRAG = 3;   // koliko gradova unatrag kad srca padnu na nulu
 const KLJUC      = "croland-mini-gradovi";   // data-id="gradovi" u mini-igre/index.html
-const MAKS_BODOVA = 40; // mora se poklapati s `maks` u MINI_IGRE (korijenski index.html)
+const MAKS_BODOVA = 1500; // mora se poklapati s `maks` u MINI_IGRE (korijenski index.html)
+                          
 
 let stanje = { grad:0, pitanje:0, srca:SRCA_MAX, presao:0 };
 let cekaKlik = false;   // zaključava odgovore dok traje reakcija

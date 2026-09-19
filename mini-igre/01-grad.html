@@ -554,11 +554,38 @@ var S = {
   tocnih: 0, greske: 0, blok: null
 };
 var KLJUC = 'croland-grad-v2';
+/* Bodovi. Grad do sada nije isplacivao nista: spremao se pod svojim kljucem, a
+   aplikacija (miniBodovi) cita 'croland-mini-grad'. Ta dva kljuca se nikad nisu srela,
+   pa je najveca igra u popisu placala nulu.
+   Sada svaki rijeseni zadatak nosi BOD_PO_ZADATKU, isplata je jednokratna i ne pada
+   unatrag (Math.max), a zapis ide pod kljuc koji aplikacija stvarno cita.
+   window.IGRA_MAKS mora biti jednak `maks` za 'grad' u MINI_IGRE (korijenski index.html). */
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;                                   // 5 zadataka x 300
+var MINI_KLJUC = 'croland-mini-grad';
+var BOD_PO_ZADATKU = Math.round(window.IGRA_MAKS / QUESTOVI.length);
+function rijesenihZadataka(){
+  var n = 0;
+  QUESTOVI.forEach(function(q){ if (S.z[q.id] === 'g') n++; });
+  return n;
+}
+function spremiBodove(){
+  try {
+    var st = JSON.parse(localStorage.getItem(MINI_KLJUC) || '{}') || {};
+    var zasluzeno = Math.min(window.IGRA_MAKS, rijesenihZadataka() * BOD_PO_ZADATKU);
+    st.naplaceno = Math.max(st.naplaceno || 0, zasluzeno);
+    st.mjesto = rijesenihZadataka() + '/' + QUESTOVI.length;
+    localStorage.setItem(MINI_KLJUC, JSON.stringify(st));
+  } catch(e){}
+}
 function spremi(){
   try { localStorage.setItem(KLJUC, JSON.stringify({
     x:S.x, y:S.y, gdje:S.gdje, z:S.z, met:S.met, torba:S.torba,
     novcici:S.novcici, upoznati:S.upoznati,
     tocnih:S.tocnih, greske:S.greske })); } catch(e){}
+  spremiBodove();
 }
 (function ucitajSpremljeno(){
   try {
@@ -840,9 +867,12 @@ function pitanjeStavka(n, q){
   return {tko: n.ime, txt: q.provjera.pit, izbori: mixIzbori(q.provjera), krivo: q.provjera.krivo};
 }
 function zavrsi(q, poruka){
+  var prije = rijesenihZadataka();
   S.z[q.id] = 'g'; S.novcici += 5;
-  javi(poruka || 'Zadatak riješen! 🪙 +5');
   osvjeziNov(); spremi(); nagovijesti();
+  var dobitak = (rijesenihZadataka() - prije) * BOD_PO_ZADATKU;
+  javi((poruka || 'Zadatak riješen! 🪙 +5') +
+       (dobitak > 0 ? ' · +' + dobitak + ' u svaku valutu' : ''));
 }
 
 function govori(n){

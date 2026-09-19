@@ -142,7 +142,12 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "zmija";
-window.IGRA_MAKS = 30;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 20 bodova po tocno sricanoj rijeci; 75 rijeci nosi puni iznos.
+function bodoviZmije(){ return Math.min(window.IGRA_MAKS, 20 * ((S && (S.bez ? S.bezRijeci : S.i)) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -805,14 +810,14 @@ function poraz(){
     return CL.kraj({
       naslov:'The snake has stopped',
       tekst:'In endless mode you spelled <b>' + S.bezRijeci + '</b> words.',
-      bodovi:30, maks:30,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviZmije(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
     naslov:'The snake has stopped',
     tekst:'You spelled <b>' + S.i + '</b> of ' + UKUPNO + ' words — level ' + (S.razina+1) + '/3.',
-    bodovi:S.bodovi, maks:30,
+    bodovi:bodoviZmije(), maks:window.IGRA_MAKS,
     ponovno:function(){ novaIgra(); }
   });
 }
@@ -821,9 +826,8 @@ function pobjeda(){
   CL.kraj({
     naslov:'Thirty words, letter by letter!',
     tekst:'Three levels, longer and longer words, more and more walls — and the snake spelled every one of them.',
-    bodovi:30, maks:30,
-    ponovno:function(){ novaIgra(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviZmije(), maks:window.IGRA_MAKS,
+    ponovno:function(){ novaIgra(); }
   });
 }
 

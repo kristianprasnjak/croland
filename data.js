@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-19 12:09:35",
+  "generirano": "2026-09-19 13:45:00",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -6642,7 +6642,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101001,
-      "bodovi": 4
+      "bodovi": 81
     },
     {
       "cjelina": "Lesson 1",
@@ -6699,7 +6699,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101002,
-      "bodovi": 6
+      "bodovi": 122
     },
     {
       "cjelina": "Lesson 1",
@@ -6775,7 +6775,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101003,
-      "bodovi": 6
+      "bodovi": 122
     },
     {
       "cjelina": "Lesson 1",
@@ -6823,7 +6823,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101004,
-      "bodovi": 6
+      "bodovi": 122
     },
     {
       "cjelina": "Lesson 1",
@@ -6866,7 +6866,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101005,
-      "bodovi": 5
+      "bodovi": 101
     },
     {
       "cjelina": "Lesson 1",
@@ -6942,7 +6942,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101006,
-      "bodovi": 6
+      "bodovi": 122
     },
     {
       "cjelina": "Lesson 1",
@@ -6994,7 +6994,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101007,
-      "bodovi": 7
+      "bodovi": 142
     },
     {
       "cjelina": "Lesson 1",
@@ -7059,7 +7059,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101008,
-      "bodovi": 6
+      "bodovi": 122
     },
     {
       "cjelina": "Lesson 1",
@@ -7099,7 +7099,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101009,
-      "bodovi": 8
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 1",
@@ -7175,7 +7175,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101010,
-      "bodovi": 7
+      "bodovi": 142
     },
     {
       "cjelina": "Lesson 1",
@@ -7223,7 +7223,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101011,
-      "bodovi": 5
+      "bodovi": 101
     },
     {
       "cjelina": "Lesson 1",
@@ -7287,7 +7287,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101012,
-      "bodovi": 8
+      "bodovi": 162
     },
     {
       "cjelina": "Lesson 1",
@@ -7308,7 +7308,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 101013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7364,7 +7364,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102001,
-      "bodovi": 4
+      "bodovi": 102
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7421,7 +7421,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102002,
-      "bodovi": 6
+      "bodovi": 153
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7493,7 +7493,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102003,
-      "bodovi": 6
+      "bodovi": 153
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7557,7 +7557,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102004,
-      "bodovi": 5
+      "bodovi": 127
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7605,7 +7605,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102005,
-      "bodovi": 6
+      "bodovi": 153
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7653,7 +7653,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102006,
-      "bodovi": 5
+      "bodovi": 127
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7753,7 +7753,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102007,
-      "bodovi": 6
+      "bodovi": 153
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7842,7 +7842,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102008,
-      "bodovi": 6
+      "bodovi": 153
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7898,7 +7898,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102009,
-      "bodovi": 7
+      "bodovi": 177
     },
     {
       "cjelina": "Vocabulary 1",
@@ -7954,7 +7954,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 102010,
-      "bodovi": 8
+      "bodovi": 202
     },
     {
       "cjelina": "Grammar 1",
@@ -8004,7 +8004,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103001,
-      "bodovi": 5
+      "bodovi": 95
     },
     {
       "cjelina": "Grammar 1",
@@ -8069,7 +8069,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103002,
-      "bodovi": 6
+      "bodovi": 114
     },
     {
       "cjelina": "Grammar 1",
@@ -8137,7 +8137,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103003,
-      "bodovi": 5
+      "bodovi": 95
     },
     {
       "cjelina": "Grammar 1",
@@ -8201,7 +8201,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103004,
-      "bodovi": 7
+      "bodovi": 133
     },
     {
       "cjelina": "Grammar 1",
@@ -8270,7 +8270,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103005,
-      "bodovi": 5
+      "bodovi": 95
     },
     {
       "cjelina": "Grammar 1",
@@ -8314,7 +8314,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103006,
-      "bodovi": 8
+      "bodovi": 151
     },
     {
       "cjelina": "Grammar 1",
@@ -8391,7 +8391,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103007,
-      "bodovi": 7
+      "bodovi": 133
     },
     {
       "cjelina": "Grammar 1",
@@ -8447,7 +8447,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103008,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Grammar 1",
@@ -8497,7 +8497,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103009,
-      "bodovi": 5
+      "bodovi": 95
     },
     {
       "cjelina": "Grammar 1",
@@ -8549,7 +8549,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103010,
-      "bodovi": 7
+      "bodovi": 133
     },
     {
       "cjelina": "Grammar 1",
@@ -8597,7 +8597,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103011,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Grammar 1",
@@ -8665,7 +8665,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103012,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Grammar 1",
@@ -8689,7 +8689,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 103013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 1",
@@ -8743,7 +8743,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 1",
@@ -8780,7 +8780,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104002,
-      "bodovi": 5
+      "bodovi": 208
     },
     {
       "cjelina": "Practice 1",
@@ -8809,7 +8809,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104003,
-      "bodovi": 6
+      "bodovi": 250
     },
     {
       "cjelina": "Practice 1",
@@ -8864,7 +8864,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 1",
@@ -8906,7 +8906,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104005,
-      "bodovi": 6
+      "bodovi": 250
     },
     {
       "cjelina": "Practice 1",
@@ -8953,7 +8953,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 1",
@@ -8993,7 +8993,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104007,
-      "bodovi": 6
+      "bodovi": 250
     },
     {
       "cjelina": "Practice 1",
@@ -9058,7 +9058,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104008,
-      "bodovi": 6
+      "bodovi": 250
     },
     {
       "cjelina": "Practice 1",
@@ -9166,7 +9166,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 104009,
-      "bodovi": 7
+      "bodovi": 292
     },
     {
       "cjelina": "Test 1",
@@ -9359,7 +9359,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105001,
-      "bodovi": 6
+      "bodovi": 180
     },
     {
       "cjelina": "Test 1",
@@ -9638,7 +9638,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105002,
-      "bodovi": 7
+      "bodovi": 210
     },
     {
       "cjelina": "Test 1",
@@ -9858,7 +9858,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105003,
-      "bodovi": 7
+      "bodovi": 210
     },
     {
       "cjelina": "Test 1",
@@ -10184,7 +10184,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105004,
-      "bodovi": 7
+      "bodovi": 210
     },
     {
       "cjelina": "Test 1",
@@ -10447,7 +10447,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105005,
-      "bodovi": 8
+      "bodovi": 240
     },
     {
       "cjelina": "Test 1",
@@ -10614,7 +10614,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105006,
-      "bodovi": 7
+      "bodovi": 210
     },
     {
       "cjelina": "Test 1",
@@ -10789,7 +10789,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 105007,
-      "bodovi": 8
+      "bodovi": 240
     },
     {
       "cjelina": "Lesson 2",
@@ -10816,7 +10816,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 2",
@@ -10865,7 +10865,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201002,
-      "bodovi": 7
+      "bodovi": 168
     },
     {
       "cjelina": "Lesson 2",
@@ -10933,7 +10933,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201003,
-      "bodovi": 6
+      "bodovi": 144
     },
     {
       "cjelina": "Lesson 2",
@@ -10998,7 +10998,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201004,
-      "bodovi": 5
+      "bodovi": 120
     },
     {
       "cjelina": "Lesson 2",
@@ -11058,7 +11058,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201005,
-      "bodovi": 5
+      "bodovi": 120
     },
     {
       "cjelina": "Lesson 2",
@@ -11094,7 +11094,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201006,
-      "bodovi": 4
+      "bodovi": 96
     },
     {
       "cjelina": "Lesson 2",
@@ -11162,7 +11162,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201007,
-      "bodovi": 8
+      "bodovi": 192
     },
     {
       "cjelina": "Lesson 2",
@@ -11218,7 +11218,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201008,
-      "bodovi": 9
+      "bodovi": 214
     },
     {
       "cjelina": "Lesson 2",
@@ -11282,7 +11282,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201009,
-      "bodovi": 8
+      "bodovi": 192
     },
     {
       "cjelina": "Lesson 2",
@@ -11338,7 +11338,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201010,
-      "bodovi": 6
+      "bodovi": 144
     },
     {
       "cjelina": "Lesson 2",
@@ -11422,7 +11422,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201011,
-      "bodovi": 13
+      "bodovi": 310
     },
     {
       "cjelina": "Lesson 2",
@@ -11443,7 +11443,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 201012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11499,7 +11499,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202001,
-      "bodovi": 5
+      "bodovi": 86
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11547,7 +11547,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202002,
-      "bodovi": 4
+      "bodovi": 69
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11632,7 +11632,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202003,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11680,7 +11680,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202004,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11728,7 +11728,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202005,
-      "bodovi": 6
+      "bodovi": 103
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11784,7 +11784,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202006,
-      "bodovi": 9
+      "bodovi": 155
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11840,7 +11840,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202007,
-      "bodovi": 5
+      "bodovi": 86
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11921,7 +11921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202008,
-      "bodovi": 8
+      "bodovi": 137
     },
     {
       "cjelina": "Vocabulary 2",
@@ -11985,7 +11985,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202009,
-      "bodovi": 6
+      "bodovi": 103
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12062,7 +12062,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202010,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12110,7 +12110,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202011,
-      "bodovi": 6
+      "bodovi": 103
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12158,7 +12158,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202012,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12222,7 +12222,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202013,
-      "bodovi": 6
+      "bodovi": 103
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12270,7 +12270,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202014,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 2",
@@ -12366,7 +12366,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 202015,
-      "bodovi": 9
+      "bodovi": 155
     },
     {
       "cjelina": "Grammar 2",
@@ -12454,7 +12454,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203001,
-      "bodovi": 5
+      "bodovi": 98
     },
     {
       "cjelina": "Grammar 2",
@@ -12551,7 +12551,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203002,
-      "bodovi": 8
+      "bodovi": 156
     },
     {
       "cjelina": "Grammar 2",
@@ -12616,7 +12616,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203003,
-      "bodovi": 5
+      "bodovi": 98
     },
     {
       "cjelina": "Grammar 2",
@@ -12704,7 +12704,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203004,
-      "bodovi": 8
+      "bodovi": 156
     },
     {
       "cjelina": "Grammar 2",
@@ -12821,7 +12821,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203005,
-      "bodovi": 8
+      "bodovi": 156
     },
     {
       "cjelina": "Grammar 2",
@@ -12863,7 +12863,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203006,
-      "bodovi": 5
+      "bodovi": 98
     },
     {
       "cjelina": "Grammar 2",
@@ -12929,7 +12929,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203007,
-      "bodovi": 8
+      "bodovi": 156
     },
     {
       "cjelina": "Grammar 2",
@@ -13001,7 +13001,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203008,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Grammar 2",
@@ -13069,7 +13069,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203009,
-      "bodovi": 5
+      "bodovi": 98
     },
     {
       "cjelina": "Grammar 2",
@@ -13117,7 +13117,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203010,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Grammar 2",
@@ -13169,7 +13169,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203011,
-      "bodovi": 8
+      "bodovi": 156
     },
     {
       "cjelina": "Grammar 2",
@@ -13253,7 +13253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203012,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Grammar 2",
@@ -13277,7 +13277,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 203013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 2",
@@ -13354,7 +13354,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 2",
@@ -13415,7 +13415,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204002,
-      "bodovi": 8
+      "bodovi": 252
     },
     {
       "cjelina": "Practice 2",
@@ -13464,7 +13464,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204003,
-      "bodovi": 9
+      "bodovi": 284
     },
     {
       "cjelina": "Practice 2",
@@ -13527,7 +13527,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 2",
@@ -13574,7 +13574,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204005,
-      "bodovi": 8
+      "bodovi": 252
     },
     {
       "cjelina": "Practice 2",
@@ -13614,7 +13614,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204006,
-      "bodovi": 7
+      "bodovi": 220
     },
     {
       "cjelina": "Practice 2",
@@ -13665,7 +13665,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 2",
@@ -13709,7 +13709,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204008,
-      "bodovi": 7
+      "bodovi": 220
     },
     {
       "cjelina": "Practice 2",
@@ -13764,7 +13764,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204009,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 2",
@@ -13838,7 +13838,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204010,
-      "bodovi": 7
+      "bodovi": 220
     },
     {
       "cjelina": "Practice 2",
@@ -13954,7 +13954,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 204011,
-      "bodovi": 8
+      "bodovi": 252
     },
     {
       "cjelina": "Test 2",
@@ -14255,7 +14255,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205001,
-      "bodovi": 7
+      "bodovi": 134
     },
     {
       "cjelina": "Test 2",
@@ -14606,7 +14606,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205002,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -14738,7 +14738,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205003,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -14910,7 +14910,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205004,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -15054,7 +15054,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205005,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -15215,7 +15215,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205006,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -15426,7 +15426,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205007,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -15605,7 +15605,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205008,
-      "bodovi": 9
+      "bodovi": 171
     },
     {
       "cjelina": "Test 2",
@@ -15715,7 +15715,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205009,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -15882,7 +15882,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205010,
-      "bodovi": 8
+      "bodovi": 153
     },
     {
       "cjelina": "Test 2",
@@ -16049,7 +16049,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 205011,
-      "bodovi": 9
+      "bodovi": 171
     },
     {
       "cjelina": "Lesson 3",
@@ -16073,7 +16073,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 3",
@@ -16122,7 +16122,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301002,
-      "bodovi": 7
+      "bodovi": 137
     },
     {
       "cjelina": "Lesson 3",
@@ -16174,7 +16174,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301003,
-      "bodovi": 5
+      "bodovi": 98
     },
     {
       "cjelina": "Lesson 3",
@@ -16222,7 +16222,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301004,
-      "bodovi": 7
+      "bodovi": 137
     },
     {
       "cjelina": "Lesson 3",
@@ -16279,7 +16279,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301005,
-      "bodovi": 6
+      "bodovi": 118
     },
     {
       "cjelina": "Lesson 3",
@@ -16344,7 +16344,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301006,
-      "bodovi": 7
+      "bodovi": 137
     },
     {
       "cjelina": "Lesson 3",
@@ -16396,7 +16396,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301007,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Lesson 3",
@@ -16538,7 +16538,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301008,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Lesson 3",
@@ -16578,7 +16578,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301009,
-      "bodovi": 10
+      "bodovi": 196
     },
     {
       "cjelina": "Lesson 3",
@@ -16648,7 +16648,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301010,
-      "bodovi": 9
+      "bodovi": 176
     },
     {
       "cjelina": "Lesson 3",
@@ -16704,7 +16704,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301011,
-      "bodovi": 7
+      "bodovi": 137
     },
     {
       "cjelina": "Lesson 3",
@@ -16739,7 +16739,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301012,
-      "bodovi": 6
+      "bodovi": 118
     },
     {
       "cjelina": "Lesson 3",
@@ -16827,7 +16827,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301013,
-      "bodovi": 15
+      "bodovi": 294
     },
     {
       "cjelina": "Lesson 3",
@@ -16848,7 +16848,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 301014,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 3",
@@ -16900,7 +16900,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302001,
-      "bodovi": 5
+      "bodovi": 101
     },
     {
       "cjelina": "Vocabulary 3",
@@ -16956,7 +16956,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302002,
-      "bodovi": 5
+      "bodovi": 101
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17049,7 +17049,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302003,
-      "bodovi": 9
+      "bodovi": 183
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17125,7 +17125,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302004,
-      "bodovi": 7
+      "bodovi": 141
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17253,7 +17253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302005,
-      "bodovi": 7
+      "bodovi": 141
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17317,7 +17317,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302006,
-      "bodovi": 6
+      "bodovi": 121
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17353,7 +17353,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302007,
-      "bodovi": 5
+      "bodovi": 101
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17409,7 +17409,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302008,
-      "bodovi": 7
+      "bodovi": 141
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17502,7 +17502,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302009,
-      "bodovi": 7
+      "bodovi": 141
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17615,7 +17615,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302010,
-      "bodovi": 7
+      "bodovi": 141
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17707,7 +17707,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302011,
-      "bodovi": 10
+      "bodovi": 203
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17763,7 +17763,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302012,
-      "bodovi": 9
+      "bodovi": 182
     },
     {
       "cjelina": "Vocabulary 3",
@@ -17915,7 +17915,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 302013,
-      "bodovi": 10
+      "bodovi": 203
     },
     {
       "cjelina": "Grammar 3",
@@ -17982,7 +17982,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303001,
-      "bodovi": 6
+      "bodovi": 107
     },
     {
       "cjelina": "Grammar 3",
@@ -18032,7 +18032,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303002,
-      "bodovi": 6
+      "bodovi": 107
     },
     {
       "cjelina": "Grammar 3",
@@ -18121,7 +18121,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303003,
-      "bodovi": 9
+      "bodovi": 160
     },
     {
       "cjelina": "Grammar 3",
@@ -18174,7 +18174,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303004,
-      "bodovi": 6
+      "bodovi": 107
     },
     {
       "cjelina": "Grammar 3",
@@ -18250,7 +18250,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303005,
-      "bodovi": 9
+      "bodovi": 160
     },
     {
       "cjelina": "Grammar 3",
@@ -18387,7 +18387,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303006,
-      "bodovi": 9
+      "bodovi": 160
     },
     {
       "cjelina": "Grammar 3",
@@ -18439,7 +18439,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303007,
-      "bodovi": 10
+      "bodovi": 177
     },
     {
       "cjelina": "Grammar 3",
@@ -18495,7 +18495,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303008,
-      "bodovi": 10
+      "bodovi": 177
     },
     {
       "cjelina": "Grammar 3",
@@ -18551,7 +18551,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303009,
-      "bodovi": 10
+      "bodovi": 177
     },
     {
       "cjelina": "Grammar 3",
@@ -18604,7 +18604,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303010,
-      "bodovi": 6
+      "bodovi": 107
     },
     {
       "cjelina": "Grammar 3",
@@ -18661,7 +18661,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303011,
-      "bodovi": 6
+      "bodovi": 107
     },
     {
       "cjelina": "Grammar 3",
@@ -18709,7 +18709,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303012,
-      "bodovi": 10
+      "bodovi": 177
     },
     {
       "cjelina": "Grammar 3",
@@ -18785,7 +18785,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303013,
-      "bodovi": 10
+      "bodovi": 177
     },
     {
       "cjelina": "Grammar 3",
@@ -18809,7 +18809,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 303014,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 3",
@@ -18870,7 +18870,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 3",
@@ -18910,7 +18910,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304002,
-      "bodovi": 6
+      "bodovi": 243
     },
     {
       "cjelina": "Practice 3",
@@ -18965,7 +18965,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304003,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 3",
@@ -19002,7 +19002,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304004,
-      "bodovi": 6
+      "bodovi": 243
     },
     {
       "cjelina": "Practice 3",
@@ -19057,7 +19057,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 3",
@@ -19098,7 +19098,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304006,
-      "bodovi": 10
+      "bodovi": 403
     },
     {
       "cjelina": "Practice 3",
@@ -19149,7 +19149,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304007,
-      "bodovi": 9
+      "bodovi": 364
     },
     {
       "cjelina": "Practice 3",
@@ -19227,7 +19227,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 3",
@@ -19297,7 +19297,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304009,
-      "bodovi": 7
+      "bodovi": 283
     },
     {
       "cjelina": "Practice 3",
@@ -19445,7 +19445,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 304010,
-      "bodovi": 9
+      "bodovi": 364
     },
     {
       "cjelina": "Test 3",
@@ -19582,7 +19582,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305001,
-      "bodovi": 7
+      "bodovi": 151
     },
     {
       "cjelina": "Test 3",
@@ -19987,7 +19987,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305002,
-      "bodovi": 9
+      "bodovi": 194
     },
     {
       "cjelina": "Test 3",
@@ -20111,7 +20111,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305003,
-      "bodovi": 9
+      "bodovi": 194
     },
     {
       "cjelina": "Test 3",
@@ -20163,7 +20163,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305004,
-      "bodovi": 6
+      "bodovi": 130
     },
     {
       "cjelina": "Test 3",
@@ -20439,7 +20439,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305005,
-      "bodovi": 9
+      "bodovi": 194
     },
     {
       "cjelina": "Test 3",
@@ -20662,7 +20662,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305006,
-      "bodovi": 10
+      "bodovi": 217
     },
     {
       "cjelina": "Test 3",
@@ -20801,7 +20801,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305007,
-      "bodovi": 10
+      "bodovi": 216
     },
     {
       "cjelina": "Test 3",
@@ -20907,7 +20907,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305008,
-      "bodovi": 9
+      "bodovi": 194
     },
     {
       "cjelina": "Test 3",
@@ -21130,7 +21130,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305009,
-      "bodovi": 9
+      "bodovi": 194
     },
     {
       "cjelina": "Test 3",
@@ -21353,7 +21353,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 305010,
-      "bodovi": 10
+      "bodovi": 216
     },
     {
       "cjelina": "Lesson 4",
@@ -21377,7 +21377,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 4",
@@ -21430,7 +21430,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401002,
-      "bodovi": 8
+      "bodovi": 167
     },
     {
       "cjelina": "Lesson 4",
@@ -21514,7 +21514,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401003,
-      "bodovi": 8
+      "bodovi": 167
     },
     {
       "cjelina": "Lesson 4",
@@ -21595,7 +21595,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401004,
-      "bodovi": 10
+      "bodovi": 209
     },
     {
       "cjelina": "Lesson 4",
@@ -21643,7 +21643,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401005,
-      "bodovi": 6
+      "bodovi": 125
     },
     {
       "cjelina": "Lesson 4",
@@ -21707,7 +21707,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401006,
-      "bodovi": 10
+      "bodovi": 209
     },
     {
       "cjelina": "Lesson 4",
@@ -21744,7 +21744,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401007,
-      "bodovi": 10
+      "bodovi": 209
     },
     {
       "cjelina": "Lesson 4",
@@ -21809,7 +21809,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401008,
-      "bodovi": 8
+      "bodovi": 167
     },
     {
       "cjelina": "Lesson 4",
@@ -21853,7 +21853,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401009,
-      "bodovi": 11
+      "bodovi": 230
     },
     {
       "cjelina": "Lesson 4",
@@ -21909,7 +21909,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401010,
-      "bodovi": 8
+      "bodovi": 167
     },
     {
       "cjelina": "Lesson 4",
@@ -21974,7 +21974,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401011,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 4",
@@ -22021,7 +22021,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401012,
-      "bodovi": 8
+      "bodovi": 167
     },
     {
       "cjelina": "Lesson 4",
@@ -22105,7 +22105,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401013,
-      "bodovi": 16
+      "bodovi": 333
     },
     {
       "cjelina": "Lesson 4",
@@ -22126,7 +22126,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 401014,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22202,7 +22202,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402001,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22282,7 +22282,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402002,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22350,7 +22350,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402003,
-      "bodovi": 7
+      "bodovi": 133
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22414,7 +22414,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402004,
-      "bodovi": 7
+      "bodovi": 133
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22474,7 +22474,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402005,
-      "bodovi": 6
+      "bodovi": 114
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22535,7 +22535,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402006,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22587,7 +22587,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402007,
-      "bodovi": 5
+      "bodovi": 95
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22651,7 +22651,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402008,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22707,7 +22707,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402009,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22816,7 +22816,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402010,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22877,7 +22877,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402011,
-      "bodovi": 8
+      "bodovi": 152
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22937,7 +22937,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402012,
-      "bodovi": 11
+      "bodovi": 210
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22993,7 +22993,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402013,
-      "bodovi": 10
+      "bodovi": 191
     },
     {
       "cjelina": "Vocabulary 4",
@@ -23117,7 +23117,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402014,
-      "bodovi": 11
+      "bodovi": 210
     },
     {
       "cjelina": "Grammar 4",
@@ -23164,7 +23164,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403001,
-      "bodovi": 7
+      "bodovi": 115
     },
     {
       "cjelina": "Grammar 4",
@@ -23228,7 +23228,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403002,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Grammar 4",
@@ -23272,7 +23272,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403003,
-      "bodovi": 6
+      "bodovi": 98
     },
     {
       "cjelina": "Grammar 4",
@@ -23313,7 +23313,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403004,
-      "bodovi": 8
+      "bodovi": 131
     },
     {
       "cjelina": "Grammar 4",
@@ -23394,7 +23394,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403005,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Grammar 4",
@@ -23459,7 +23459,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403006,
-      "bodovi": 8
+      "bodovi": 131
     },
     {
       "cjelina": "Grammar 4",
@@ -23492,7 +23492,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403007,
-      "bodovi": 5
+      "bodovi": 82
     },
     {
       "cjelina": "Grammar 4",
@@ -23546,7 +23546,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403008,
-      "bodovi": 7
+      "bodovi": 115
     },
     {
       "cjelina": "Grammar 4",
@@ -23616,7 +23616,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403009,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Grammar 4",
@@ -23753,7 +23753,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403010,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Grammar 4",
@@ -23785,7 +23785,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403011,
-      "bodovi": 8
+      "bodovi": 131
     },
     {
       "cjelina": "Grammar 4",
@@ -23833,7 +23833,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403012,
-      "bodovi": 11
+      "bodovi": 182
     },
     {
       "cjelina": "Grammar 4",
@@ -23897,7 +23897,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403013,
-      "bodovi": 11
+      "bodovi": 181
     },
     {
       "cjelina": "Grammar 4",
@@ -23963,7 +23963,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403014,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Grammar 4",
@@ -24003,7 +24003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 403015,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Practice 4",
@@ -24056,7 +24056,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 4",
@@ -24100,7 +24100,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404002,
-      "bodovi": 8
+      "bodovi": 277
     },
     {
       "cjelina": "Practice 4",
@@ -24154,7 +24154,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404003,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 4",
@@ -24199,7 +24199,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404004,
-      "bodovi": 11
+      "bodovi": 382
     },
     {
       "cjelina": "Practice 4",
@@ -24241,7 +24241,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404005,
-      "bodovi": 8
+      "bodovi": 277
     },
     {
       "cjelina": "Practice 4",
@@ -24287,7 +24287,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 4",
@@ -24324,7 +24324,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404007,
-      "bodovi": 7
+      "bodovi": 243
     },
     {
       "cjelina": "Practice 4",
@@ -24394,7 +24394,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 4",
@@ -24447,7 +24447,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404009,
-      "bodovi": 10
+      "bodovi": 347
     },
     {
       "cjelina": "Practice 4",
@@ -24521,7 +24521,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404010,
-      "bodovi": 8
+      "bodovi": 277
     },
     {
       "cjelina": "Practice 4",
@@ -24617,7 +24617,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 404011,
-      "bodovi": 10
+      "bodovi": 347
     },
     {
       "cjelina": "Test 4",
@@ -24822,7 +24822,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405001,
-      "bodovi": 8
+      "bodovi": 145
     },
     {
       "cjelina": "Test 4",
@@ -25329,7 +25329,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405002,
-      "bodovi": 10
+      "bodovi": 180
     },
     {
       "cjelina": "Test 4",
@@ -25405,7 +25405,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405003,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -25513,7 +25513,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405004,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -25573,7 +25573,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405005,
-      "bodovi": 8
+      "bodovi": 145
     },
     {
       "cjelina": "Test 4",
@@ -25638,7 +25638,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405006,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -25819,7 +25819,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405007,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -25914,7 +25914,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405008,
-      "bodovi": 11
+      "bodovi": 198
     },
     {
       "cjelina": "Test 4",
@@ -26053,7 +26053,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405009,
-      "bodovi": 11
+      "bodovi": 198
     },
     {
       "cjelina": "Test 4",
@@ -26162,7 +26162,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405010,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -26289,7 +26289,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405011,
-      "bodovi": 10
+      "bodovi": 181
     },
     {
       "cjelina": "Test 4",
@@ -26416,7 +26416,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 405012,
-      "bodovi": 11
+      "bodovi": 198
     },
     {
       "cjelina": "Lesson 5",
@@ -26443,7 +26443,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 5",
@@ -26508,7 +26508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501002,
-      "bodovi": 9
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 5",
@@ -26608,7 +26608,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501003,
-      "bodovi": 9
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 5",
@@ -26689,7 +26689,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501004,
-      "bodovi": 11
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 5",
@@ -26735,7 +26735,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501005,
-      "bodovi": 7
+      "bodovi": 125
     },
     {
       "cjelina": "Lesson 5",
@@ -26872,7 +26872,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501006,
-      "bodovi": 11
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 5",
@@ -26948,7 +26948,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501007,
-      "bodovi": 13
+      "bodovi": 234
     },
     {
       "cjelina": "Lesson 5",
@@ -27036,7 +27036,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501008,
-      "bodovi": 11
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 5",
@@ -27082,7 +27082,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501009,
-      "bodovi": 11
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 5",
@@ -27134,7 +27134,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501010,
-      "bodovi": 7
+      "bodovi": 125
     },
     {
       "cjelina": "Lesson 5",
@@ -27195,7 +27195,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501011,
-      "bodovi": 9
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 5",
@@ -27272,7 +27272,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501012,
-      "bodovi": 9
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 5",
@@ -27319,7 +27319,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501013,
-      "bodovi": 9
+      "bodovi": 161
     },
     {
       "cjelina": "Lesson 5",
@@ -27403,7 +27403,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501014,
-      "bodovi": 18
+      "bodovi": 323
     },
     {
       "cjelina": "Lesson 5",
@@ -27424,7 +27424,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 501015,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27508,7 +27508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502001,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27588,7 +27588,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502002,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27648,7 +27648,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502003,
-      "bodovi": 7
+      "bodovi": 120
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27704,7 +27704,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502004,
-      "bodovi": 6
+      "bodovi": 103
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27776,7 +27776,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502005,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27881,7 +27881,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502006,
-      "bodovi": 11
+      "bodovi": 189
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27938,7 +27938,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502007,
-      "bodovi": 8
+      "bodovi": 137
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28002,7 +28002,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502008,
-      "bodovi": 8
+      "bodovi": 137
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28090,7 +28090,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502009,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28146,7 +28146,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502010,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28251,7 +28251,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502011,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28368,7 +28368,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502012,
-      "bodovi": 9
+      "bodovi": 154
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28424,7 +28424,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502013,
-      "bodovi": 11
+      "bodovi": 189
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28536,7 +28536,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502014,
-      "bodovi": 13
+      "bodovi": 224
     },
     {
       "cjelina": "Vocabulary 5",
@@ -28688,7 +28688,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 502015,
-      "bodovi": 13
+      "bodovi": 223
     },
     {
       "cjelina": "Grammar 5",
@@ -28736,7 +28736,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503001,
-      "bodovi": 7
+      "bodovi": 123
     },
     {
       "cjelina": "Grammar 5",
@@ -28825,7 +28825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503002,
-      "bodovi": 11
+      "bodovi": 192
     },
     {
       "cjelina": "Grammar 5",
@@ -28942,7 +28942,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503003,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Grammar 5",
@@ -29006,7 +29006,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503004,
-      "bodovi": 13
+      "bodovi": 227
     },
     {
       "cjelina": "Grammar 5",
@@ -29052,7 +29052,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503005,
-      "bodovi": 7
+      "bodovi": 123
     },
     {
       "cjelina": "Grammar 5",
@@ -29140,7 +29140,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503006,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Grammar 5",
@@ -29237,7 +29237,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503007,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Grammar 5",
@@ -29301,7 +29301,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503008,
-      "bodovi": 13
+      "bodovi": 227
     },
     {
       "cjelina": "Grammar 5",
@@ -29349,7 +29349,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503009,
-      "bodovi": 7
+      "bodovi": 123
     },
     {
       "cjelina": "Grammar 5",
@@ -29425,7 +29425,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503010,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Grammar 5",
@@ -29502,7 +29502,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503011,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Grammar 5",
@@ -29558,7 +29558,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503012,
-      "bodovi": 13
+      "bodovi": 227
     },
     {
       "cjelina": "Grammar 5",
@@ -29610,7 +29610,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 503013,
-      "bodovi": 11
+      "bodovi": 193
     },
     {
       "cjelina": "Practice 5",
@@ -29664,7 +29664,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 5",
@@ -29709,7 +29709,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504002,
-      "bodovi": 7
+      "bodovi": 150
     },
     {
       "cjelina": "Practice 5",
@@ -29762,7 +29762,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504003,
-      "bodovi": 11
+      "bodovi": 235
     },
     {
       "cjelina": "Practice 5",
@@ -29812,7 +29812,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 5",
@@ -29876,7 +29876,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504005,
-      "bodovi": 11
+      "bodovi": 236
     },
     {
       "cjelina": "Practice 5",
@@ -29923,7 +29923,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504006,
-      "bodovi": 9
+      "bodovi": 193
     },
     {
       "cjelina": "Practice 5",
@@ -29993,7 +29993,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504007,
-      "bodovi": 9
+      "bodovi": 193
     },
     {
       "cjelina": "Practice 5",
@@ -30039,7 +30039,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 5",
@@ -30092,7 +30092,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504009,
-      "bodovi": 11
+      "bodovi": 236
     },
     {
       "cjelina": "Practice 5",
@@ -30146,7 +30146,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504010,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 5",
@@ -30243,7 +30243,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504011,
-      "bodovi": 11
+      "bodovi": 236
     },
     {
       "cjelina": "Practice 5",
@@ -30292,7 +30292,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504012,
-      "bodovi": 13
+      "bodovi": 278
     },
     {
       "cjelina": "Practice 5",
@@ -30329,7 +30329,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504013,
-      "bodovi": 8
+      "bodovi": 171
     },
     {
       "cjelina": "Practice 5",
@@ -30457,7 +30457,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504014,
-      "bodovi": 11
+      "bodovi": 236
     },
     {
       "cjelina": "Practice 5",
@@ -30521,7 +30521,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 504015,
-      "bodovi": 11
+      "bodovi": 236
     },
     {
       "cjelina": "Test 5",
@@ -30746,7 +30746,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505001,
-      "bodovi": 9
+      "bodovi": 145
     },
     {
       "cjelina": "Test 5",
@@ -31253,7 +31253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505002,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31365,7 +31365,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505003,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31453,7 +31453,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505004,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31529,7 +31529,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505005,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31675,7 +31675,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505006,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31781,7 +31781,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505007,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -31900,7 +31900,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505008,
-      "bodovi": 13
+      "bodovi": 210
     },
     {
       "cjelina": "Test 5",
@@ -31963,7 +31963,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505009,
-      "bodovi": 13
+      "bodovi": 210
     },
     {
       "cjelina": "Test 5",
@@ -32026,7 +32026,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505010,
-      "bodovi": 13
+      "bodovi": 210
     },
     {
       "cjelina": "Test 5",
@@ -32134,7 +32134,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505011,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -32253,7 +32253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505012,
-      "bodovi": 11
+      "bodovi": 177
     },
     {
       "cjelina": "Test 5",
@@ -32372,7 +32372,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 505013,
-      "bodovi": 13
+      "bodovi": 209
     },
     {
       "cjelina": "Lesson 6",
@@ -32396,7 +32396,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 6",
@@ -32473,7 +32473,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601002,
-      "bodovi": 10
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 6",
@@ -32609,7 +32609,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601003,
-      "bodovi": 10
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 6",
@@ -32656,7 +32656,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601004,
-      "bodovi": 8
+      "bodovi": 154
     },
     {
       "cjelina": "Lesson 6",
@@ -32745,7 +32745,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601005,
-      "bodovi": 12
+      "bodovi": 231
     },
     {
       "cjelina": "Lesson 6",
@@ -32862,7 +32862,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601006,
-      "bodovi": 12
+      "bodovi": 231
     },
     {
       "cjelina": "Lesson 6",
@@ -32942,7 +32942,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601007,
-      "bodovi": 14
+      "bodovi": 270
     },
     {
       "cjelina": "Lesson 6",
@@ -33018,7 +33018,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601008,
-      "bodovi": 12
+      "bodovi": 231
     },
     {
       "cjelina": "Lesson 6",
@@ -33064,7 +33064,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601009,
-      "bodovi": 12
+      "bodovi": 231
     },
     {
       "cjelina": "Lesson 6",
@@ -33134,7 +33134,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601010,
-      "bodovi": 10
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 6",
@@ -33183,7 +33183,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601011,
-      "bodovi": 10
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 6",
@@ -33230,7 +33230,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601012,
-      "bodovi": 10
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 6",
@@ -33314,7 +33314,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601013,
-      "bodovi": 20
+      "bodovi": 387
     },
     {
       "cjelina": "Lesson 6",
@@ -33335,7 +33335,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 601014,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33419,7 +33419,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602001,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33487,7 +33487,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602002,
-      "bodovi": 9
+      "bodovi": 160
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33587,7 +33587,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602003,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33643,7 +33643,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602004,
-      "bodovi": 7
+      "bodovi": 124
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33703,7 +33703,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602005,
-      "bodovi": 8
+      "bodovi": 142
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33808,7 +33808,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602006,
-      "bodovi": 12
+      "bodovi": 213
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33865,7 +33865,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602007,
-      "bodovi": 8
+      "bodovi": 142
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33929,7 +33929,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602008,
-      "bodovi": 8
+      "bodovi": 142
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34017,7 +34017,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602009,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34073,7 +34073,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602010,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34158,7 +34158,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602011,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34295,7 +34295,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602012,
-      "bodovi": 10
+      "bodovi": 178
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34351,7 +34351,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602013,
-      "bodovi": 12
+      "bodovi": 213
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34463,7 +34463,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602014,
-      "bodovi": 14
+      "bodovi": 248
     },
     {
       "cjelina": "Vocabulary 6",
@@ -34647,7 +34647,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602015,
-      "bodovi": 14
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 6",
@@ -34707,7 +34707,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603001,
-      "bodovi": 8
+      "bodovi": 119
     },
     {
       "cjelina": "Grammar 6",
@@ -34804,7 +34804,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603002,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -34921,7 +34921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603003,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -34979,7 +34979,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603004,
-      "bodovi": 8
+      "bodovi": 119
     },
     {
       "cjelina": "Grammar 6",
@@ -35060,7 +35060,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603005,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35148,7 +35148,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603006,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Grammar 6",
@@ -35255,7 +35255,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603007,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35321,7 +35321,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603008,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35388,7 +35388,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603009,
-      "bodovi": 8
+      "bodovi": 119
     },
     {
       "cjelina": "Grammar 6",
@@ -35485,7 +35485,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603010,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35565,7 +35565,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603011,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Grammar 6",
@@ -35641,7 +35641,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603012,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35696,7 +35696,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603013,
-      "bodovi": 8
+      "bodovi": 119
     },
     {
       "cjelina": "Grammar 6",
@@ -35752,7 +35752,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603014,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Grammar 6",
@@ -35808,7 +35808,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603015,
-      "bodovi": 14
+      "bodovi": 208
     },
     {
       "cjelina": "Grammar 6",
@@ -35860,7 +35860,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 603016,
-      "bodovi": 12
+      "bodovi": 178
     },
     {
       "cjelina": "Practice 6",
@@ -35921,7 +35921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 6",
@@ -35974,7 +35974,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604002,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36020,7 +36020,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604003,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 6",
@@ -36073,7 +36073,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604004,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36154,7 +36154,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604005,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36200,7 +36200,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 6",
@@ -36253,7 +36253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604007,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36332,7 +36332,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604008,
-      "bodovi": 10
+      "bodovi": 206
     },
     {
       "cjelina": "Practice 6",
@@ -36390,7 +36390,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604009,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 6",
@@ -36487,7 +36487,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604010,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36536,7 +36536,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604011,
-      "bodovi": 14
+      "bodovi": 290
     },
     {
       "cjelina": "Practice 6",
@@ -36584,7 +36584,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604012,
-      "bodovi": 14
+      "bodovi": 290
     },
     {
       "cjelina": "Practice 6",
@@ -36621,7 +36621,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604013,
-      "bodovi": 9
+      "bodovi": 185
     },
     {
       "cjelina": "Practice 6",
@@ -36741,7 +36741,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604014,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Practice 6",
@@ -36805,7 +36805,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 604015,
-      "bodovi": 12
+      "bodovi": 247
     },
     {
       "cjelina": "Test 6",
@@ -37058,7 +37058,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605001,
-      "bodovi": 10
+      "bodovi": 155
     },
     {
       "cjelina": "Test 6",
@@ -37541,7 +37541,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605002,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -37677,7 +37677,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605003,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -37757,7 +37757,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605004,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -37869,7 +37869,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605005,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -37985,7 +37985,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605006,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -38106,7 +38106,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605007,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -38225,7 +38225,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605008,
-      "bodovi": 14
+      "bodovi": 218
     },
     {
       "cjelina": "Test 6",
@@ -38296,7 +38296,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605009,
-      "bodovi": 14
+      "bodovi": 218
     },
     {
       "cjelina": "Test 6",
@@ -38351,7 +38351,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605010,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -38406,7 +38406,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605011,
-      "bodovi": 14
+      "bodovi": 218
     },
     {
       "cjelina": "Test 6",
@@ -38515,7 +38515,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605012,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -38618,7 +38618,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605013,
-      "bodovi": 12
+      "bodovi": 186
     },
     {
       "cjelina": "Test 6",
@@ -38721,7 +38721,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 605014,
-      "bodovi": 14
+      "bodovi": 217
     },
     {
       "cjelina": "Lesson 7",
@@ -38742,7 +38742,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 7",
@@ -38819,7 +38819,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701002,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -38927,7 +38927,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701003,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -38991,7 +38991,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701004,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -39060,7 +39060,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701005,
-      "bodovi": 9
+      "bodovi": 147
     },
     {
       "cjelina": "Lesson 7",
@@ -39149,7 +39149,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701006,
-      "bodovi": 13
+      "bodovi": 212
     },
     {
       "cjelina": "Lesson 7",
@@ -39256,7 +39256,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701007,
-      "bodovi": 13
+      "bodovi": 212
     },
     {
       "cjelina": "Lesson 7",
@@ -39313,7 +39313,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701008,
-      "bodovi": 9
+      "bodovi": 147
     },
     {
       "cjelina": "Lesson 7",
@@ -39410,7 +39410,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701009,
-      "bodovi": 13
+      "bodovi": 212
     },
     {
       "cjelina": "Lesson 7",
@@ -39486,7 +39486,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701010,
-      "bodovi": 13
+      "bodovi": 212
     },
     {
       "cjelina": "Lesson 7",
@@ -39558,7 +39558,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701011,
-      "bodovi": 16
+      "bodovi": 262
     },
     {
       "cjelina": "Lesson 7",
@@ -39604,7 +39604,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701012,
-      "bodovi": 13
+      "bodovi": 212
     },
     {
       "cjelina": "Lesson 7",
@@ -39674,7 +39674,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701013,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -39730,7 +39730,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701014,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -39777,7 +39777,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701015,
-      "bodovi": 11
+      "bodovi": 179
     },
     {
       "cjelina": "Lesson 7",
@@ -39865,7 +39865,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701016,
-      "bodovi": 22
+      "bodovi": 360
     },
     {
       "cjelina": "Lesson 7",
@@ -39886,7 +39886,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 701017,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 7",
@@ -39958,7 +39958,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702001,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40010,7 +40010,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702002,
-      "bodovi": 7
+      "bodovi": 112
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40090,7 +40090,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702003,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40138,7 +40138,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702004,
-      "bodovi": 7
+      "bodovi": 112
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40170,7 +40170,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702005,
-      "bodovi": 7
+      "bodovi": 112
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40226,7 +40226,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702006,
-      "bodovi": 8
+      "bodovi": 128
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40278,7 +40278,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702007,
-      "bodovi": 7
+      "bodovi": 112
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40342,7 +40342,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702008,
-      "bodovi": 9
+      "bodovi": 144
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40439,7 +40439,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702009,
-      "bodovi": 13
+      "bodovi": 207
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40520,7 +40520,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702010,
-      "bodovi": 13
+      "bodovi": 207
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40584,7 +40584,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702011,
-      "bodovi": 9
+      "bodovi": 144
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40672,7 +40672,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702012,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40728,7 +40728,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702013,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40825,7 +40825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702014,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -40962,7 +40962,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702015,
-      "bodovi": 11
+      "bodovi": 176
     },
     {
       "cjelina": "Vocabulary 7",
@@ -41018,7 +41018,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702016,
-      "bodovi": 13
+      "bodovi": 208
     },
     {
       "cjelina": "Vocabulary 7",
@@ -41134,7 +41134,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702017,
-      "bodovi": 16
+      "bodovi": 254
     },
     {
       "cjelina": "Vocabulary 7",
@@ -41294,7 +41294,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 702018,
-      "bodovi": 16
+      "bodovi": 254
     },
     {
       "cjelina": "Grammar 7",
@@ -41354,7 +41354,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703001,
-      "bodovi": 9
+      "bodovi": 129
     },
     {
       "cjelina": "Grammar 7",
@@ -41387,7 +41387,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703002,
-      "bodovi": 7
+      "bodovi": 101
     },
     {
       "cjelina": "Grammar 7",
@@ -41484,7 +41484,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703003,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -41591,7 +41591,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703004,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -41680,7 +41680,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703005,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -41768,7 +41768,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703006,
-      "bodovi": 16
+      "bodovi": 231
     },
     {
       "cjelina": "Grammar 7",
@@ -41844,7 +41844,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703007,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -41939,7 +41939,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703008,
-      "bodovi": 9
+      "bodovi": 129
     },
     {
       "cjelina": "Grammar 7",
@@ -42046,7 +42046,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703009,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -42143,7 +42143,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703010,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -42248,7 +42248,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703011,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -42320,7 +42320,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703012,
-      "bodovi": 16
+      "bodovi": 231
     },
     {
       "cjelina": "Grammar 7",
@@ -42373,7 +42373,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703013,
-      "bodovi": 9
+      "bodovi": 129
     },
     {
       "cjelina": "Grammar 7",
@@ -42454,7 +42454,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703014,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -42551,7 +42551,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703015,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Grammar 7",
@@ -42623,7 +42623,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703016,
-      "bodovi": 16
+      "bodovi": 230
     },
     {
       "cjelina": "Grammar 7",
@@ -42675,7 +42675,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 703017,
-      "bodovi": 13
+      "bodovi": 187
     },
     {
       "cjelina": "Practice 7",
@@ -42728,7 +42728,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 7",
@@ -42775,7 +42775,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704002,
-      "bodovi": 11
+      "bodovi": 222
     },
     {
       "cjelina": "Practice 7",
@@ -42825,7 +42825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704003,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 7",
@@ -42878,7 +42878,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704004,
-      "bodovi": 13
+      "bodovi": 263
     },
     {
       "cjelina": "Practice 7",
@@ -42928,7 +42928,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 7",
@@ -42970,7 +42970,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704006,
-      "bodovi": 11
+      "bodovi": 222
     },
     {
       "cjelina": "Practice 7",
@@ -43019,7 +43019,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704007,
-      "bodovi": 16
+      "bodovi": 322
     },
     {
       "cjelina": "Practice 7",
@@ -43065,7 +43065,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 7",
@@ -43118,7 +43118,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704009,
-      "bodovi": 13
+      "bodovi": 263
     },
     {
       "cjelina": "Practice 7",
@@ -43168,7 +43168,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704010,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 7",
@@ -43208,7 +43208,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704011,
-      "bodovi": 11
+      "bodovi": 222
     },
     {
       "cjelina": "Practice 7",
@@ -43287,7 +43287,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704012,
-      "bodovi": 11
+      "bodovi": 222
     },
     {
       "cjelina": "Practice 7",
@@ -43384,7 +43384,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704013,
-      "bodovi": 13
+      "bodovi": 263
     },
     {
       "cjelina": "Practice 7",
@@ -43440,7 +43440,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704014,
-      "bodovi": 16
+      "bodovi": 323
     },
     {
       "cjelina": "Practice 7",
@@ -43477,7 +43477,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704015,
-      "bodovi": 10
+      "bodovi": 202
     },
     {
       "cjelina": "Practice 7",
@@ -43597,7 +43597,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704016,
-      "bodovi": 13
+      "bodovi": 263
     },
     {
       "cjelina": "Practice 7",
@@ -43661,7 +43661,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 704017,
-      "bodovi": 13
+      "bodovi": 263
     },
     {
       "cjelina": "Test 7",
@@ -43906,7 +43906,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705001,
-      "bodovi": 11
+      "bodovi": 154
     },
     {
       "cjelina": "Test 7",
@@ -44347,7 +44347,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705002,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44439,7 +44439,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705003,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44543,7 +44543,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705004,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44639,7 +44639,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705005,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44727,7 +44727,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705006,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44843,7 +44843,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705007,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -44949,7 +44949,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705008,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -45055,7 +45055,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705009,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -45182,7 +45182,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705010,
-      "bodovi": 16
+      "bodovi": 223
     },
     {
       "cjelina": "Test 7",
@@ -45269,7 +45269,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705011,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -45344,7 +45344,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705012,
-      "bodovi": 16
+      "bodovi": 223
     },
     {
       "cjelina": "Test 7",
@@ -45415,7 +45415,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705013,
-      "bodovi": 16
+      "bodovi": 224
     },
     {
       "cjelina": "Test 7",
@@ -45521,7 +45521,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705014,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -45624,7 +45624,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705015,
-      "bodovi": 13
+      "bodovi": 182
     },
     {
       "cjelina": "Test 7",
@@ -45727,7 +45727,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 705016,
-      "bodovi": 16
+      "bodovi": 224
     },
     {
       "cjelina": "Lesson 8",
@@ -45748,7 +45748,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 8",
@@ -45825,7 +45825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801002,
-      "bodovi": 12
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 8",
@@ -45941,7 +45941,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801003,
-      "bodovi": 12
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 8",
@@ -46003,7 +46003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801004,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Lesson 8",
@@ -46039,7 +46039,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801005,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Lesson 8",
@@ -46112,7 +46112,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801006,
-      "bodovi": 15
+      "bodovi": 247
     },
     {
       "cjelina": "Lesson 8",
@@ -46188,7 +46188,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801007,
-      "bodovi": 15
+      "bodovi": 246
     },
     {
       "cjelina": "Lesson 8",
@@ -46295,7 +46295,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801008,
-      "bodovi": 15
+      "bodovi": 246
     },
     {
       "cjelina": "Lesson 8",
@@ -46351,7 +46351,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801009,
-      "bodovi": 17
+      "bodovi": 280
     },
     {
       "cjelina": "Lesson 8",
@@ -46400,7 +46400,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801010,
-      "bodovi": 10
+      "bodovi": 164
     },
     {
       "cjelina": "Lesson 8",
@@ -46446,7 +46446,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801011,
-      "bodovi": 15
+      "bodovi": 246
     },
     {
       "cjelina": "Lesson 8",
@@ -46519,7 +46519,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801012,
-      "bodovi": 15
+      "bodovi": 246
     },
     {
       "cjelina": "Lesson 8",
@@ -46576,7 +46576,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801013,
-      "bodovi": 12
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 8",
@@ -46646,7 +46646,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801014,
-      "bodovi": 12
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 8",
@@ -46693,7 +46693,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801015,
-      "bodovi": 12
+      "bodovi": 197
     },
     {
       "cjelina": "Lesson 8",
@@ -46778,7 +46778,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801016,
-      "bodovi": 25
+      "bodovi": 412
     },
     {
       "cjelina": "Lesson 8",
@@ -46799,7 +46799,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 801017,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 8",
@@ -46875,7 +46875,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802001,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -46951,7 +46951,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802002,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47003,7 +47003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802003,
-      "bodovi": 8
+      "bodovi": 139
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47079,7 +47079,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802004,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47135,7 +47135,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802005,
-      "bodovi": 9
+      "bodovi": 157
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47199,7 +47199,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802006,
-      "bodovi": 10
+      "bodovi": 174
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47288,7 +47288,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802007,
-      "bodovi": 15
+      "bodovi": 263
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47345,7 +47345,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802008,
-      "bodovi": 10
+      "bodovi": 174
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47409,7 +47409,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802009,
-      "bodovi": 10
+      "bodovi": 174
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47497,7 +47497,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802010,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47553,7 +47553,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802011,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47650,7 +47650,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802012,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47803,7 +47803,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802013,
-      "bodovi": 12
+      "bodovi": 209
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47859,7 +47859,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802014,
-      "bodovi": 15
+      "bodovi": 262
     },
     {
       "cjelina": "Vocabulary 8",
@@ -47951,7 +47951,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802015,
-      "bodovi": 17
+      "bodovi": 297
     },
     {
       "cjelina": "Vocabulary 8",
@@ -48127,7 +48127,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 802016,
-      "bodovi": 17
+      "bodovi": 297
     },
     {
       "cjelina": "Grammar 8",
@@ -48172,7 +48172,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803001,
-      "bodovi": 10
+      "bodovi": 165
     },
     {
       "cjelina": "Grammar 8",
@@ -48228,7 +48228,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803002,
-      "bodovi": 10
+      "bodovi": 165
     },
     {
       "cjelina": "Grammar 8",
@@ -48264,7 +48264,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803003,
-      "bodovi": 10
+      "bodovi": 165
     },
     {
       "cjelina": "Grammar 8",
@@ -48345,7 +48345,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803004,
-      "bodovi": 15
+      "bodovi": 247
     },
     {
       "cjelina": "Grammar 8",
@@ -48462,7 +48462,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803005,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 8",
@@ -48538,7 +48538,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803006,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 8",
@@ -48586,7 +48586,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803007,
-      "bodovi": 17
+      "bodovi": 280
     },
     {
       "cjelina": "Grammar 8",
@@ -48642,7 +48642,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803008,
-      "bodovi": 17
+      "bodovi": 280
     },
     {
       "cjelina": "Grammar 8",
@@ -48692,7 +48692,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803009,
-      "bodovi": 10
+      "bodovi": 165
     },
     {
       "cjelina": "Grammar 8",
@@ -48773,7 +48773,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803010,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 8",
@@ -48837,7 +48837,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803011,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 8",
@@ -48893,7 +48893,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803012,
-      "bodovi": 17
+      "bodovi": 280
     },
     {
       "cjelina": "Grammar 8",
@@ -48943,7 +48943,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803013,
-      "bodovi": 10
+      "bodovi": 165
     },
     {
       "cjelina": "Grammar 8",
@@ -48995,7 +48995,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803014,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Grammar 8",
@@ -49047,7 +49047,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 803015,
-      "bodovi": 15
+      "bodovi": 248
     },
     {
       "cjelina": "Practice 8",
@@ -49108,7 +49108,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 8",
@@ -49161,7 +49161,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804002,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -49211,7 +49211,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804003,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 8",
@@ -49275,7 +49275,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804004,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -49328,7 +49328,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804005,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -49378,7 +49378,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 8",
@@ -49425,7 +49425,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804007,
-      "bodovi": 12
+      "bodovi": 219
     },
     {
       "cjelina": "Practice 8",
@@ -49475,7 +49475,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 8",
@@ -49528,7 +49528,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804009,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -49578,7 +49578,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804010,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 8",
@@ -49675,7 +49675,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804011,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -49724,7 +49724,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804012,
-      "bodovi": 17
+      "bodovi": 312
     },
     {
       "cjelina": "Practice 8",
@@ -49764,7 +49764,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804013,
-      "bodovi": 17
+      "bodovi": 312
     },
     {
       "cjelina": "Practice 8",
@@ -49829,7 +49829,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804014,
-      "bodovi": 12
+      "bodovi": 219
     },
     {
       "cjelina": "Practice 8",
@@ -49899,7 +49899,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804015,
-      "bodovi": 12
+      "bodovi": 219
     },
     {
       "cjelina": "Practice 8",
@@ -49936,7 +49936,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804016,
-      "bodovi": 11
+      "bodovi": 201
     },
     {
       "cjelina": "Practice 8",
@@ -50056,7 +50056,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804017,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Practice 8",
@@ -50120,7 +50120,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 804018,
-      "bodovi": 15
+      "bodovi": 274
     },
     {
       "cjelina": "Test 8",
@@ -50369,7 +50369,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805001,
-      "bodovi": 12
+      "bodovi": 176
     },
     {
       "cjelina": "Test 8",
@@ -50822,7 +50822,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805002,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -50902,7 +50902,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805003,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -50990,7 +50990,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805004,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51070,7 +51070,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805005,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51196,7 +51196,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805006,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51271,7 +51271,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805007,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51346,7 +51346,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805008,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51441,7 +51441,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805009,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Test 8",
@@ -51496,7 +51496,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805010,
-      "bodovi": 17
+      "bodovi": 249
     },
     {
       "cjelina": "Test 8",
@@ -51543,7 +51543,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805011,
-      "bodovi": 17
+      "bodovi": 249
     },
     {
       "cjelina": "Test 8",
@@ -51598,7 +51598,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805012,
-      "bodovi": 17
+      "bodovi": 249
     },
     {
       "cjelina": "Test 8",
@@ -51706,7 +51706,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805013,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51813,7 +51813,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805014,
-      "bodovi": 15
+      "bodovi": 220
     },
     {
       "cjelina": "Test 8",
@@ -51908,7 +51908,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 805015,
-      "bodovi": 17
+      "bodovi": 249
     },
     {
       "cjelina": "Lesson 9",
@@ -51934,7 +51934,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 9",
@@ -51999,7 +51999,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901002,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Lesson 9",
@@ -52087,7 +52087,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901003,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Lesson 9",
@@ -52159,7 +52159,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901004,
-      "bodovi": 13
+      "bodovi": 193
     },
     {
       "cjelina": "Lesson 9",
@@ -52215,7 +52215,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901005,
-      "bodovi": 10
+      "bodovi": 148
     },
     {
       "cjelina": "Lesson 9",
@@ -52271,7 +52271,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901006,
-      "bodovi": 10
+      "bodovi": 148
     },
     {
       "cjelina": "Lesson 9",
@@ -52322,7 +52322,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901007,
-      "bodovi": 11
+      "bodovi": 163
     },
     {
       "cjelina": "Lesson 9",
@@ -52378,7 +52378,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901008,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Lesson 9",
@@ -52467,7 +52467,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901009,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -52555,7 +52555,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901010,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -52652,7 +52652,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901011,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -52716,7 +52716,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901012,
-      "bodovi": 19
+      "bodovi": 281
     },
     {
       "cjelina": "Lesson 9",
@@ -52766,7 +52766,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901013,
-      "bodovi": 11
+      "bodovi": 163
     },
     {
       "cjelina": "Lesson 9",
@@ -52832,7 +52832,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901014,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -52884,7 +52884,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901015,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -52963,7 +52963,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901016,
-      "bodovi": 14
+      "bodovi": 207
     },
     {
       "cjelina": "Lesson 9",
@@ -53016,7 +53016,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901017,
-      "bodovi": 17
+      "bodovi": 252
     },
     {
       "cjelina": "Lesson 9",
@@ -53102,7 +53102,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901018,
-      "bodovi": 28
+      "bodovi": 414
     },
     {
       "cjelina": "Lesson 9",
@@ -53124,7 +53124,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 901019,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53236,7 +53236,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902001,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53332,7 +53332,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902002,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53396,7 +53396,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902003,
-      "bodovi": 12
+      "bodovi": 171
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53484,7 +53484,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902004,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53548,7 +53548,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902005,
-      "bodovi": 12
+      "bodovi": 171
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53645,7 +53645,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902006,
-      "bodovi": 17
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53710,7 +53710,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902007,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53799,7 +53799,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902008,
-      "bodovi": 17
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53863,7 +53863,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902009,
-      "bodovi": 12
+      "bodovi": 171
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53951,7 +53951,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902010,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54007,7 +54007,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902011,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54176,7 +54176,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902012,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54241,7 +54241,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902013,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54314,7 +54314,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902014,
-      "bodovi": 14
+      "bodovi": 200
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54370,7 +54370,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902015,
-      "bodovi": 17
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54434,7 +54434,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902016,
-      "bodovi": 19
+      "bodovi": 270
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54506,7 +54506,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902017,
-      "bodovi": 19
+      "bodovi": 270
     },
     {
       "cjelina": "Vocabulary 9",
@@ -54714,7 +54714,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902018,
-      "bodovi": 19
+      "bodovi": 271
     },
     {
       "cjelina": "Grammar 9",
@@ -54792,7 +54792,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903001,
-      "bodovi": 11
+      "bodovi": 167
     },
     {
       "cjelina": "Grammar 9",
@@ -54881,7 +54881,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903002,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55003,7 +55003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903003,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55091,7 +55091,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903004,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55163,7 +55163,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903005,
-      "bodovi": 19
+      "bodovi": 289
     },
     {
       "cjelina": "Grammar 9",
@@ -55210,7 +55210,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903006,
-      "bodovi": 11
+      "bodovi": 167
     },
     {
       "cjelina": "Grammar 9",
@@ -55283,7 +55283,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903007,
-      "bodovi": 16
+      "bodovi": 243
     },
     {
       "cjelina": "Grammar 9",
@@ -55359,7 +55359,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903008,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55410,7 +55410,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903009,
-      "bodovi": 11
+      "bodovi": 167
     },
     {
       "cjelina": "Grammar 9",
@@ -55486,7 +55486,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903010,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55542,7 +55542,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903011,
-      "bodovi": 19
+      "bodovi": 289
     },
     {
       "cjelina": "Grammar 9",
@@ -55595,7 +55595,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903012,
-      "bodovi": 11
+      "bodovi": 167
     },
     {
       "cjelina": "Grammar 9",
@@ -55651,7 +55651,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903013,
-      "bodovi": 19
+      "bodovi": 289
     },
     {
       "cjelina": "Grammar 9",
@@ -55717,7 +55717,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903014,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55783,7 +55783,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903015,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55835,7 +55835,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903016,
-      "bodovi": 17
+      "bodovi": 259
     },
     {
       "cjelina": "Grammar 9",
@@ -55859,7 +55859,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 903017,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 9",
@@ -55921,7 +55921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 9",
@@ -55974,7 +55974,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904002,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56023,7 +56023,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904003,
-      "bodovi": 19
+      "bodovi": 338
     },
     {
       "cjelina": "Practice 9",
@@ -56082,7 +56082,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 9",
@@ -56129,7 +56129,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904005,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56172,7 +56172,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904006,
-      "bodovi": 16
+      "bodovi": 285
     },
     {
       "cjelina": "Practice 9",
@@ -56227,7 +56227,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 9",
@@ -56280,7 +56280,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904008,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56331,7 +56331,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904009,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 9",
@@ -56384,7 +56384,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904010,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56481,7 +56481,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904011,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56545,7 +56545,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904012,
-      "bodovi": 19
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 9",
@@ -56626,7 +56626,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904013,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56696,7 +56696,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904014,
-      "bodovi": 14
+      "bodovi": 250
     },
     {
       "cjelina": "Practice 9",
@@ -56733,7 +56733,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904015,
-      "bodovi": 12
+      "bodovi": 214
     },
     {
       "cjelina": "Practice 9",
@@ -56813,7 +56813,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904016,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Practice 9",
@@ -56877,7 +56877,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 904017,
-      "bodovi": 17
+      "bodovi": 303
     },
     {
       "cjelina": "Test 9",
@@ -57086,7 +57086,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905001,
-      "bodovi": 14
+      "bodovi": 222
     },
     {
       "cjelina": "Test 9",
@@ -57329,7 +57329,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905002,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57457,7 +57457,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905003,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57545,7 +57545,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905004,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57681,7 +57681,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905005,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57756,7 +57756,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905006,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57831,7 +57831,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905007,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -57918,7 +57918,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905008,
-      "bodovi": 19
+      "bodovi": 302
     },
     {
       "cjelina": "Test 9",
@@ -57981,7 +57981,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905009,
-      "bodovi": 19
+      "bodovi": 302
     },
     {
       "cjelina": "Test 9",
@@ -58036,7 +58036,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905010,
-      "bodovi": 19
+      "bodovi": 302
     },
     {
       "cjelina": "Test 9",
@@ -58088,7 +58088,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905011,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -58223,7 +58223,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905012,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -58318,7 +58318,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905013,
-      "bodovi": 17
+      "bodovi": 269
     },
     {
       "cjelina": "Test 9",
@@ -58413,7 +58413,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 905014,
-      "bodovi": 19
+      "bodovi": 301
     },
     {
       "cjelina": "Lesson 10",
@@ -58441,7 +58441,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 10",
@@ -58506,7 +58506,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001002,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -58614,7 +58614,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001003,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -58698,7 +58698,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001004,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -58762,7 +58762,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001005,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -58839,7 +58839,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001006,
-      "bodovi": 12
+      "bodovi": 177
     },
     {
       "cjelina": "Lesson 10",
@@ -58932,7 +58932,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001007,
-      "bodovi": 18
+      "bodovi": 265
     },
     {
       "cjelina": "Lesson 10",
@@ -59049,7 +59049,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001008,
-      "bodovi": 18
+      "bodovi": 265
     },
     {
       "cjelina": "Lesson 10",
@@ -59137,7 +59137,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001009,
-      "bodovi": 18
+      "bodovi": 265
     },
     {
       "cjelina": "Lesson 10",
@@ -59209,7 +59209,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001010,
-      "bodovi": 21
+      "bodovi": 309
     },
     {
       "cjelina": "Lesson 10",
@@ -59253,7 +59253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001011,
-      "bodovi": 12
+      "bodovi": 177
     },
     {
       "cjelina": "Lesson 10",
@@ -59317,7 +59317,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001012,
-      "bodovi": 21
+      "bodovi": 309
     },
     {
       "cjelina": "Lesson 10",
@@ -59381,7 +59381,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001013,
-      "bodovi": 18
+      "bodovi": 265
     },
     {
       "cjelina": "Lesson 10",
@@ -59454,7 +59454,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001014,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -59528,7 +59528,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001015,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -59581,7 +59581,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001016,
-      "bodovi": 18
+      "bodovi": 265
     },
     {
       "cjelina": "Lesson 10",
@@ -59637,7 +59637,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001017,
-      "bodovi": 15
+      "bodovi": 221
     },
     {
       "cjelina": "Lesson 10",
@@ -59739,7 +59739,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001018,
-      "bodovi": 31
+      "bodovi": 456
     },
     {
       "cjelina": "Lesson 10",
@@ -59764,7 +59764,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1001019,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 10",
@@ -59868,7 +59868,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002001,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -59972,7 +59972,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002002,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60068,7 +60068,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002003,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60156,7 +60156,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002004,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60220,7 +60220,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002005,
-      "bodovi": 13
+      "bodovi": 203
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60305,7 +60305,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002006,
-      "bodovi": 18
+      "bodovi": 281
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60386,7 +60386,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002007,
-      "bodovi": 18
+      "bodovi": 281
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60459,7 +60459,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002008,
-      "bodovi": 18
+      "bodovi": 281
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60523,7 +60523,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002009,
-      "bodovi": 13
+      "bodovi": 203
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60595,7 +60595,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002010,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60651,7 +60651,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002011,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60776,7 +60776,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002012,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60865,7 +60865,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002013,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60946,7 +60946,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002014,
-      "bodovi": 15
+      "bodovi": 235
     },
     {
       "cjelina": "Vocabulary 10",
@@ -61002,7 +61002,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002015,
-      "bodovi": 18
+      "bodovi": 281
     },
     {
       "cjelina": "Vocabulary 10",
@@ -61082,7 +61082,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002016,
-      "bodovi": 21
+      "bodovi": 327
     },
     {
       "cjelina": "Vocabulary 10",
@@ -61258,7 +61258,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002017,
-      "bodovi": 21
+      "bodovi": 328
     },
     {
       "cjelina": "Grammar 10",
@@ -61294,7 +61294,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003001,
-      "bodovi": 12
+      "bodovi": 210
     },
     {
       "cjelina": "Grammar 10",
@@ -61391,7 +61391,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003002,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -61508,7 +61508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003003,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -61605,7 +61605,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003004,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -61685,7 +61685,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003005,
-      "bodovi": 21
+      "bodovi": 366
     },
     {
       "cjelina": "Grammar 10",
@@ -61761,7 +61761,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003006,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -61804,7 +61804,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003007,
-      "bodovi": 12
+      "bodovi": 210
     },
     {
       "cjelina": "Grammar 10",
@@ -61885,7 +61885,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003008,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -61949,7 +61949,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003009,
-      "bodovi": 21
+      "bodovi": 366
     },
     {
       "cjelina": "Grammar 10",
@@ -61999,7 +61999,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003010,
-      "bodovi": 12
+      "bodovi": 210
     },
     {
       "cjelina": "Grammar 10",
@@ -62063,7 +62063,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003011,
-      "bodovi": 21
+      "bodovi": 366
     },
     {
       "cjelina": "Grammar 10",
@@ -62127,7 +62127,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003012,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -62199,7 +62199,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003013,
-      "bodovi": 21
+      "bodovi": 367
     },
     {
       "cjelina": "Grammar 10",
@@ -62251,7 +62251,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003014,
-      "bodovi": 18
+      "bodovi": 315
     },
     {
       "cjelina": "Grammar 10",
@@ -62275,7 +62275,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1003015,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 10",
@@ -62334,7 +62334,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 10",
@@ -62387,7 +62387,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004002,
-      "bodovi": 18
+      "bodovi": 340
     },
     {
       "cjelina": "Practice 10",
@@ -62436,7 +62436,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004003,
-      "bodovi": 21
+      "bodovi": 397
     },
     {
       "cjelina": "Practice 10",
@@ -62495,7 +62495,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 10",
@@ -62542,7 +62542,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004005,
-      "bodovi": 18
+      "bodovi": 340
     },
     {
       "cjelina": "Practice 10",
@@ -62598,7 +62598,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004006,
-      "bodovi": 18
+      "bodovi": 340
     },
     {
       "cjelina": "Practice 10",
@@ -62641,7 +62641,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004007,
-      "bodovi": 17
+      "bodovi": 321
     },
     {
       "cjelina": "Practice 10",
@@ -62688,7 +62688,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 10",
@@ -62741,7 +62741,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004009,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 10",
@@ -62788,7 +62788,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004010,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 10",
@@ -62841,7 +62841,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004011,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 10",
@@ -62938,7 +62938,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004012,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 10",
@@ -63011,7 +63011,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004013,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 10",
@@ -63081,7 +63081,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004014,
-      "bodovi": 15
+      "bodovi": 283
     },
     {
       "cjelina": "Practice 10",
@@ -63118,7 +63118,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004015,
-      "bodovi": 13
+      "bodovi": 245
     },
     {
       "cjelina": "Practice 10",
@@ -63206,7 +63206,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004016,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Practice 10",
@@ -63270,7 +63270,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1004017,
-      "bodovi": 18
+      "bodovi": 339
     },
     {
       "cjelina": "Test 10",
@@ -63483,7 +63483,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005001,
-      "bodovi": 15
+      "bodovi": 231
     },
     {
       "cjelina": "Test 10",
@@ -63678,7 +63678,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005002,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -63786,7 +63786,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005003,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -63866,7 +63866,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005004,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -63982,7 +63982,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005005,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64078,7 +64078,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005006,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64153,7 +64153,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005007,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64216,7 +64216,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005008,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64303,7 +64303,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005009,
-      "bodovi": 21
+      "bodovi": 325
     },
     {
       "cjelina": "Test 10",
@@ -64358,7 +64358,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005010,
-      "bodovi": 21
+      "bodovi": 325
     },
     {
       "cjelina": "Test 10",
@@ -64413,7 +64413,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005011,
-      "bodovi": 21
+      "bodovi": 325
     },
     {
       "cjelina": "Test 10",
@@ -64465,7 +64465,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005012,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64600,7 +64600,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005013,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64675,7 +64675,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005014,
-      "bodovi": 18
+      "bodovi": 277
     },
     {
       "cjelina": "Test 10",
@@ -64754,7 +64754,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1005015,
-      "bodovi": 21
+      "bodovi": 324
     },
     {
       "cjelina": "Lesson 11",
@@ -64782,7 +64782,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 11",
@@ -64847,7 +64847,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101002,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -64919,7 +64919,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101003,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -65035,7 +65035,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101004,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -65091,7 +65091,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101005,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -65148,7 +65148,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101006,
-      "bodovi": 14
+      "bodovi": 205
     },
     {
       "cjelina": "Lesson 11",
@@ -65221,7 +65221,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101007,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65308,7 +65308,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101008,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65374,7 +65374,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101009,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65430,7 +65430,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101010,
-      "bodovi": 24
+      "bodovi": 351
     },
     {
       "cjelina": "Lesson 11",
@@ -65480,7 +65480,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101011,
-      "bodovi": 14
+      "bodovi": 205
     },
     {
       "cjelina": "Lesson 11",
@@ -65556,7 +65556,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101012,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65612,7 +65612,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101013,
-      "bodovi": 24
+      "bodovi": 351
     },
     {
       "cjelina": "Lesson 11",
@@ -65664,7 +65664,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101014,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65734,7 +65734,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101015,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -65787,7 +65787,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101016,
-      "bodovi": 20
+      "bodovi": 292
     },
     {
       "cjelina": "Lesson 11",
@@ -65843,7 +65843,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101017,
-      "bodovi": 17
+      "bodovi": 248
     },
     {
       "cjelina": "Lesson 11",
@@ -65927,7 +65927,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101018,
-      "bodovi": 34
+      "bodovi": 498
     },
     {
       "cjelina": "Lesson 11",
@@ -65952,7 +65952,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1101019,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66028,7 +66028,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102001,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66124,7 +66124,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102002,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66220,7 +66220,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102003,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66300,7 +66300,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102004,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66396,7 +66396,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102005,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66469,7 +66469,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102006,
-      "bodovi": 20
+      "bodovi": 313
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66550,7 +66550,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102007,
-      "bodovi": 20
+      "bodovi": 314
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66614,7 +66614,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102008,
-      "bodovi": 14
+      "bodovi": 220
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66678,7 +66678,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102009,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66742,7 +66742,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102010,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66798,7 +66798,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102011,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66863,7 +66863,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102012,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66960,7 +66960,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102013,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -67041,7 +67041,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102014,
-      "bodovi": 17
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 11",
@@ -67097,7 +67097,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102015,
-      "bodovi": 20
+      "bodovi": 314
     },
     {
       "cjelina": "Vocabulary 11",
@@ -67161,7 +67161,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102016,
-      "bodovi": 24
+      "bodovi": 376
     },
     {
       "cjelina": "Vocabulary 11",
@@ -67353,7 +67353,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102017,
-      "bodovi": 24
+      "bodovi": 376
     },
     {
       "cjelina": "Grammar 11",
@@ -67383,7 +67383,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103001,
-      "bodovi": 9
+      "bodovi": 163
     },
     {
       "cjelina": "Grammar 11",
@@ -67456,7 +67456,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103002,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -67520,7 +67520,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103003,
-      "bodovi": 24
+      "bodovi": 437
     },
     {
       "cjelina": "Grammar 11",
@@ -67596,7 +67596,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103004,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -67653,7 +67653,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103005,
-      "bodovi": 14
+      "bodovi": 254
     },
     {
       "cjelina": "Grammar 11",
@@ -67750,7 +67750,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103006,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -67838,7 +67838,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103007,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -67902,7 +67902,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103008,
-      "bodovi": 24
+      "bodovi": 437
     },
     {
       "cjelina": "Grammar 11",
@@ -67952,7 +67952,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103009,
-      "bodovi": 14
+      "bodovi": 254
     },
     {
       "cjelina": "Grammar 11",
@@ -68018,7 +68018,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103010,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -68070,7 +68070,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103011,
-      "bodovi": 14
+      "bodovi": 254
     },
     {
       "cjelina": "Grammar 11",
@@ -68126,7 +68126,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103012,
-      "bodovi": 24
+      "bodovi": 437
     },
     {
       "cjelina": "Grammar 11",
@@ -68178,7 +68178,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103013,
-      "bodovi": 20
+      "bodovi": 363
     },
     {
       "cjelina": "Grammar 11",
@@ -68258,7 +68258,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103014,
-      "bodovi": 24
+      "bodovi": 436
     },
     {
       "cjelina": "Grammar 11",
@@ -68282,7 +68282,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1103015,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 11",
@@ -68349,7 +68349,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 11",
@@ -68402,7 +68402,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104002,
-      "bodovi": 20
+      "bodovi": 417
     },
     {
       "cjelina": "Practice 11",
@@ -68443,7 +68443,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104003,
-      "bodovi": 24
+      "bodovi": 501
     },
     {
       "cjelina": "Practice 11",
@@ -68502,7 +68502,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 11",
@@ -68550,7 +68550,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104005,
-      "bodovi": 17
+      "bodovi": 354
     },
     {
       "cjelina": "Practice 11",
@@ -68603,7 +68603,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104006,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -68678,7 +68678,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 11",
@@ -68725,7 +68725,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104008,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -68772,7 +68772,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104009,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 11",
@@ -68825,7 +68825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104010,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -68917,7 +68917,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104011,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -68990,7 +68990,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104012,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -69069,7 +69069,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104013,
-      "bodovi": 17
+      "bodovi": 354
     },
     {
       "cjelina": "Practice 11",
@@ -69106,7 +69106,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104014,
-      "bodovi": 15
+      "bodovi": 312
     },
     {
       "cjelina": "Practice 11",
@@ -69186,7 +69186,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104015,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Practice 11",
@@ -69250,7 +69250,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1104016,
-      "bodovi": 20
+      "bodovi": 416
     },
     {
       "cjelina": "Test 11",
@@ -69455,7 +69455,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105001,
-      "bodovi": 17
+      "bodovi": 263
     },
     {
       "cjelina": "Test 11",
@@ -69656,7 +69656,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105002,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -69744,7 +69744,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105003,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -69832,7 +69832,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105004,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -69928,7 +69928,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105005,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70003,7 +70003,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105006,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70058,7 +70058,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105007,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70123,7 +70123,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105008,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70178,7 +70178,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105009,
-      "bodovi": 24
+      "bodovi": 371
     },
     {
       "cjelina": "Test 11",
@@ -70233,7 +70233,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105010,
-      "bodovi": 24
+      "bodovi": 372
     },
     {
       "cjelina": "Test 11",
@@ -70280,7 +70280,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105011,
-      "bodovi": 24
+      "bodovi": 372
     },
     {
       "cjelina": "Test 11",
@@ -70332,7 +70332,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105012,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70467,7 +70467,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105013,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70542,7 +70542,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105014,
-      "bodovi": 20
+      "bodovi": 310
     },
     {
       "cjelina": "Test 11",
@@ -70621,7 +70621,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1105015,
-      "bodovi": 24
+      "bodovi": 372
     },
     {
       "cjelina": "Lesson 12",
@@ -70649,7 +70649,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 12",
@@ -70714,7 +70714,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201002,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -70818,7 +70818,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201003,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -70930,7 +70930,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201004,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -71024,7 +71024,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201005,
-      "bodovi": 15
+      "bodovi": 236
     },
     {
       "cjelina": "Lesson 12",
@@ -71105,7 +71105,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201006,
-      "bodovi": 23
+      "bodovi": 363
     },
     {
       "cjelina": "Lesson 12",
@@ -71193,7 +71193,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201007,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Lesson 12",
@@ -71257,7 +71257,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201008,
-      "bodovi": 26
+      "bodovi": 411
     },
     {
       "cjelina": "Lesson 12",
@@ -71319,7 +71319,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201009,
-      "bodovi": 15
+      "bodovi": 236
     },
     {
       "cjelina": "Lesson 12",
@@ -71426,7 +71426,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201010,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Lesson 12",
@@ -71514,7 +71514,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201011,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Lesson 12",
@@ -71566,7 +71566,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201012,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Lesson 12",
@@ -71635,7 +71635,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201013,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -71714,7 +71714,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201014,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -71767,7 +71767,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201015,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Lesson 12",
@@ -71823,7 +71823,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201016,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Lesson 12",
@@ -71907,7 +71907,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201017,
-      "bodovi": 38
+      "bodovi": 600
     },
     {
       "cjelina": "Lesson 12",
@@ -71932,7 +71932,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1201018,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72036,7 +72036,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202001,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72116,7 +72116,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202002,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72204,7 +72204,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202003,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72308,7 +72308,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202004,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72384,7 +72384,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202005,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72465,7 +72465,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202006,
-      "bodovi": 23
+      "bodovi": 363
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72546,7 +72546,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202007,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72610,7 +72610,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202008,
-      "bodovi": 16
+      "bodovi": 252
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72674,7 +72674,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202009,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72730,7 +72730,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202010,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72786,7 +72786,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202011,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72867,7 +72867,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202012,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72964,7 +72964,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202013,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -73045,7 +73045,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202014,
-      "bodovi": 19
+      "bodovi": 299
     },
     {
       "cjelina": "Vocabulary 12",
@@ -73101,7 +73101,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202015,
-      "bodovi": 23
+      "bodovi": 362
     },
     {
       "cjelina": "Vocabulary 12",
@@ -73165,7 +73165,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202016,
-      "bodovi": 26
+      "bodovi": 411
     },
     {
       "cjelina": "Vocabulary 12",
@@ -73373,7 +73373,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1202017,
-      "bodovi": 26
+      "bodovi": 411
     },
     {
       "cjelina": "Grammar 12",
@@ -73448,7 +73448,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203001,
-      "bodovi": 15
+      "bodovi": 252
     },
     {
       "cjelina": "Grammar 12",
@@ -73529,7 +73529,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203002,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -73601,7 +73601,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203003,
-      "bodovi": 26
+      "bodovi": 435
     },
     {
       "cjelina": "Grammar 12",
@@ -73689,7 +73689,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203004,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -73756,7 +73756,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203005,
-      "bodovi": 15
+      "bodovi": 252
     },
     {
       "cjelina": "Grammar 12",
@@ -73863,7 +73863,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203006,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -73951,7 +73951,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203007,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -74015,7 +74015,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203008,
-      "bodovi": 26
+      "bodovi": 435
     },
     {
       "cjelina": "Grammar 12",
@@ -74065,7 +74065,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203009,
-      "bodovi": 15
+      "bodovi": 252
     },
     {
       "cjelina": "Grammar 12",
@@ -74141,7 +74141,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203010,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -74193,7 +74193,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203011,
-      "bodovi": 15
+      "bodovi": 252
     },
     {
       "cjelina": "Grammar 12",
@@ -74269,7 +74269,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203012,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -74325,7 +74325,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203013,
-      "bodovi": 26
+      "bodovi": 435
     },
     {
       "cjelina": "Grammar 12",
@@ -74377,7 +74377,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203014,
-      "bodovi": 23
+      "bodovi": 386
     },
     {
       "cjelina": "Grammar 12",
@@ -74457,7 +74457,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203015,
-      "bodovi": 26
+      "bodovi": 435
     },
     {
       "cjelina": "Grammar 12",
@@ -74481,7 +74481,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1203016,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 12",
@@ -74540,7 +74540,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 12",
@@ -74587,7 +74587,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204002,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -74628,7 +74628,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204003,
-      "bodovi": 26
+      "bodovi": 536
     },
     {
       "cjelina": "Practice 12",
@@ -74695,7 +74695,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 12",
@@ -74748,7 +74748,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204005,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -74788,7 +74788,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204006,
-      "bodovi": 19
+      "bodovi": 392
     },
     {
       "cjelina": "Practice 12",
@@ -74843,7 +74843,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 12",
@@ -74896,7 +74896,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204008,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -74951,7 +74951,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204009,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 12",
@@ -75004,7 +75004,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204010,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -75101,7 +75101,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204011,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -75174,7 +75174,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204012,
-      "bodovi": 22
+      "bodovi": 454
     },
     {
       "cjelina": "Practice 12",
@@ -75263,7 +75263,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204013,
-      "bodovi": 19
+      "bodovi": 392
     },
     {
       "cjelina": "Practice 12",
@@ -75300,7 +75300,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204014,
-      "bodovi": 17
+      "bodovi": 351
     },
     {
       "cjelina": "Practice 12",
@@ -75380,7 +75380,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204015,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Practice 12",
@@ -75444,7 +75444,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1204016,
-      "bodovi": 23
+      "bodovi": 475
     },
     {
       "cjelina": "Test 12",
@@ -75661,7 +75661,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205001,
-      "bodovi": 19
+      "bodovi": 293
     },
     {
       "cjelina": "Test 12",
@@ -75856,7 +75856,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205002,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -75944,7 +75944,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205003,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76032,7 +76032,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205004,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76138,7 +76138,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205005,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76213,7 +76213,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205006,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76288,7 +76288,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205007,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76353,7 +76353,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205008,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76408,7 +76408,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205009,
-      "bodovi": 26
+      "bodovi": 402
     },
     {
       "cjelina": "Test 12",
@@ -76455,7 +76455,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205010,
-      "bodovi": 26
+      "bodovi": 402
     },
     {
       "cjelina": "Test 12",
@@ -76502,7 +76502,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205011,
-      "bodovi": 26
+      "bodovi": 402
     },
     {
       "cjelina": "Test 12",
@@ -76554,7 +76554,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205012,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76689,7 +76689,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205013,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76764,7 +76764,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205014,
-      "bodovi": 23
+      "bodovi": 355
     },
     {
       "cjelina": "Test 12",
@@ -76843,7 +76843,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1205015,
-      "bodovi": 26
+      "bodovi": 401
     },
     {
       "cjelina": "Lesson 13",
@@ -76862,7 +76862,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 13",
@@ -76898,7 +76898,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301002,
-      "bodovi": 21
+      "bodovi": 612
     },
     {
       "cjelina": "Lesson 13",
@@ -76953,7 +76953,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301003,
-      "bodovi": 15
+      "bodovi": 437
     },
     {
       "cjelina": "Lesson 13",
@@ -76994,7 +76994,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301004,
-      "bodovi": 17
+      "bodovi": 495
     },
     {
       "cjelina": "Lesson 13",
@@ -77041,7 +77041,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301005,
-      "bodovi": 21
+      "bodovi": 612
     },
     {
       "cjelina": "Lesson 13",
@@ -77089,7 +77089,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301006,
-      "bodovi": 17
+      "bodovi": 495
     },
     {
       "cjelina": "Lesson 13",
@@ -77134,7 +77134,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301007,
-      "bodovi": 25
+      "bodovi": 729
     },
     {
       "cjelina": "Lesson 13",
@@ -77173,7 +77173,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301008,
-      "bodovi": 29
+      "bodovi": 846
     },
     {
       "cjelina": "Lesson 13",
@@ -77203,7 +77203,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301009,
-      "bodovi": 21
+      "bodovi": 612
     },
     {
       "cjelina": "Lesson 13",
@@ -77253,7 +77253,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301010,
-      "bodovi": 17
+      "bodovi": 495
     },
     {
       "cjelina": "Lesson 13",
@@ -77312,7 +77312,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301011,
-      "bodovi": 28
+      "bodovi": 817
     },
     {
       "cjelina": "Lesson 13",
@@ -77331,7 +77331,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1301012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 13",
@@ -77382,7 +77382,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1302001,
-      "bodovi": 14
+      "bodovi": 946
     },
     {
       "cjelina": "Vocabulary 13",
@@ -77461,7 +77461,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1302002,
-      "bodovi": 21
+      "bodovi": 1420
     },
     {
       "cjelina": "Vocabulary 13",
@@ -77508,7 +77508,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1302003,
-      "bodovi": 21
+      "bodovi": 1419
     },
     {
       "cjelina": "Vocabulary 13",
@@ -77547,7 +77547,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1302004,
-      "bodovi": 14
+      "bodovi": 946
     },
     {
       "cjelina": "Vocabulary 13",
@@ -77599,7 +77599,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1302005,
-      "bodovi": 21
+      "bodovi": 1419
     },
     {
       "cjelina": "Grammar 13",
@@ -77633,7 +77633,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303001,
-      "bodovi": 16
+      "bodovi": 607
     },
     {
       "cjelina": "Grammar 13",
@@ -77668,7 +77668,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303002,
-      "bodovi": 24
+      "bodovi": 912
     },
     {
       "cjelina": "Grammar 13",
@@ -77703,7 +77703,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303003,
-      "bodovi": 17
+      "bodovi": 645
     },
     {
       "cjelina": "Grammar 13",
@@ -77738,7 +77738,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303004,
-      "bodovi": 17
+      "bodovi": 645
     },
     {
       "cjelina": "Grammar 13",
@@ -77806,7 +77806,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303005,
-      "bodovi": 17
+      "bodovi": 645
     },
     {
       "cjelina": "Grammar 13",
@@ -77845,7 +77845,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303006,
-      "bodovi": 29
+      "bodovi": 1102
     },
     {
       "cjelina": "Grammar 13",
@@ -77885,7 +77885,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303007,
-      "bodovi": 21
+      "bodovi": 797
     },
     {
       "cjelina": "Grammar 13",
@@ -77915,7 +77915,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1303008,
-      "bodovi": 21
+      "bodovi": 797
     },
     {
       "cjelina": "Practice 13",
@@ -77966,7 +77966,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 13",
@@ -78002,7 +78002,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304002,
-      "bodovi": 17
+      "bodovi": 830
     },
     {
       "cjelina": "Practice 13",
@@ -78030,7 +78030,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304003,
-      "bodovi": 20
+      "bodovi": 976
     },
     {
       "cjelina": "Practice 13",
@@ -78083,7 +78083,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 13",
@@ -78114,7 +78114,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304005,
-      "bodovi": 14
+      "bodovi": 683
     },
     {
       "cjelina": "Practice 13",
@@ -78156,7 +78156,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304006,
-      "bodovi": 24
+      "bodovi": 1171
     },
     {
       "cjelina": "Practice 13",
@@ -78209,7 +78209,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 13",
@@ -78242,7 +78242,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304008,
-      "bodovi": 17
+      "bodovi": 830
     },
     {
       "cjelina": "Practice 13",
@@ -78278,7 +78278,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304009,
-      "bodovi": 17
+      "bodovi": 830
     },
     {
       "cjelina": "Practice 13",
@@ -78305,7 +78305,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304010,
-      "bodovi": 17
+      "bodovi": 830
     },
     {
       "cjelina": "Lesson 14",
@@ -78324,7 +78324,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 14",
@@ -78360,7 +78360,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401002,
-      "bodovi": 23
+      "bodovi": 687
     },
     {
       "cjelina": "Lesson 14",
@@ -78415,7 +78415,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401003,
-      "bodovi": 16
+      "bodovi": 478
     },
     {
       "cjelina": "Lesson 14",
@@ -78480,7 +78480,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401004,
-      "bodovi": 19
+      "bodovi": 568
     },
     {
       "cjelina": "Lesson 14",
@@ -78519,7 +78519,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401005,
-      "bodovi": 23
+      "bodovi": 687
     },
     {
       "cjelina": "Lesson 14",
@@ -78564,7 +78564,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401006,
-      "bodovi": 28
+      "bodovi": 836
     },
     {
       "cjelina": "Lesson 14",
@@ -78603,7 +78603,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401007,
-      "bodovi": 33
+      "bodovi": 985
     },
     {
       "cjelina": "Lesson 14",
@@ -78625,7 +78625,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401008,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 14",
@@ -78655,7 +78655,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401009,
-      "bodovi": 23
+      "bodovi": 687
     },
     {
       "cjelina": "Lesson 14",
@@ -78694,7 +78694,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401010,
-      "bodovi": 16
+      "bodovi": 478
     },
     {
       "cjelina": "Lesson 14",
@@ -78744,7 +78744,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401011,
-      "bodovi": 19
+      "bodovi": 568
     },
     {
       "cjelina": "Lesson 14",
@@ -78803,7 +78803,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401012,
-      "bodovi": 31
+      "bodovi": 926
     },
     {
       "cjelina": "Lesson 14",
@@ -78822,7 +78822,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1401013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 14",
@@ -78861,7 +78861,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1402001,
-      "bodovi": 16
+      "bodovi": 1062
     },
     {
       "cjelina": "Vocabulary 14",
@@ -78968,7 +78968,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1402002,
-      "bodovi": 23
+      "bodovi": 1525
     },
     {
       "cjelina": "Vocabulary 14",
@@ -79015,7 +79015,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1402003,
-      "bodovi": 23
+      "bodovi": 1526
     },
     {
       "cjelina": "Vocabulary 14",
@@ -79062,7 +79062,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1402004,
-      "bodovi": 19
+      "bodovi": 1261
     },
     {
       "cjelina": "Vocabulary 14",
@@ -79110,7 +79110,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1402005,
-      "bodovi": 23
+      "bodovi": 1526
     },
     {
       "cjelina": "Grammar 14",
@@ -79141,7 +79141,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403001,
-      "bodovi": 16
+      "bodovi": 617
     },
     {
       "cjelina": "Grammar 14",
@@ -79176,7 +79176,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403002,
-      "bodovi": 27
+      "bodovi": 1041
     },
     {
       "cjelina": "Grammar 14",
@@ -79211,7 +79211,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403003,
-      "bodovi": 19
+      "bodovi": 732
     },
     {
       "cjelina": "Grammar 14",
@@ -79241,7 +79241,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403004,
-      "bodovi": 19
+      "bodovi": 732
     },
     {
       "cjelina": "Grammar 14",
@@ -79312,7 +79312,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403005,
-      "bodovi": 19
+      "bodovi": 732
     },
     {
       "cjelina": "Grammar 14",
@@ -79351,7 +79351,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403006,
-      "bodovi": 33
+      "bodovi": 1272
     },
     {
       "cjelina": "Grammar 14",
@@ -79396,7 +79396,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403007,
-      "bodovi": 23
+      "bodovi": 887
     },
     {
       "cjelina": "Grammar 14",
@@ -79426,7 +79426,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1403008,
-      "bodovi": 23
+      "bodovi": 887
     },
     {
       "cjelina": "Practice 14",
@@ -79477,7 +79477,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 14",
@@ -79520,7 +79520,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404002,
-      "bodovi": 23
+      "bodovi": 1079
     },
     {
       "cjelina": "Practice 14",
@@ -79548,7 +79548,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404003,
-      "bodovi": 22
+      "bodovi": 1033
     },
     {
       "cjelina": "Practice 14",
@@ -79605,7 +79605,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 14",
@@ -79641,7 +79641,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404005,
-      "bodovi": 19
+      "bodovi": 892
     },
     {
       "cjelina": "Practice 14",
@@ -79680,7 +79680,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404006,
-      "bodovi": 23
+      "bodovi": 1079
     },
     {
       "cjelina": "Practice 14",
@@ -79725,7 +79725,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 14",
@@ -79761,7 +79761,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404008,
-      "bodovi": 19
+      "bodovi": 892
     },
     {
       "cjelina": "Practice 14",
@@ -79789,7 +79789,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404009,
-      "bodovi": 22
+      "bodovi": 1033
     },
     {
       "cjelina": "Practice 14",
@@ -79816,7 +79816,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1404010,
-      "bodovi": 19
+      "bodovi": 892
     },
     {
       "cjelina": "Lesson 15",
@@ -79835,7 +79835,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 15",
@@ -79871,7 +79871,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501002,
-      "bodovi": 26
+      "bodovi": 738
     },
     {
       "cjelina": "Lesson 15",
@@ -79926,7 +79926,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501003,
-      "bodovi": 21
+      "bodovi": 596
     },
     {
       "cjelina": "Lesson 15",
@@ -79965,7 +79965,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501004,
-      "bodovi": 26
+      "bodovi": 738
     },
     {
       "cjelina": "Lesson 15",
@@ -80006,7 +80006,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501005,
-      "bodovi": 21
+      "bodovi": 596
     },
     {
       "cjelina": "Lesson 15",
@@ -80054,7 +80054,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501006,
-      "bodovi": 21
+      "bodovi": 596
     },
     {
       "cjelina": "Lesson 15",
@@ -80099,7 +80099,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501007,
-      "bodovi": 31
+      "bodovi": 880
     },
     {
       "cjelina": "Lesson 15",
@@ -80138,7 +80138,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501008,
-      "bodovi": 36
+      "bodovi": 1022
     },
     {
       "cjelina": "Lesson 15",
@@ -80168,7 +80168,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501009,
-      "bodovi": 26
+      "bodovi": 738
     },
     {
       "cjelina": "Lesson 15",
@@ -80218,7 +80218,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501010,
-      "bodovi": 22
+      "bodovi": 625
     },
     {
       "cjelina": "Lesson 15",
@@ -80286,7 +80286,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501011,
-      "bodovi": 43
+      "bodovi": 1221
     },
     {
       "cjelina": "Lesson 15",
@@ -80305,7 +80305,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1501012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 15",
@@ -80364,7 +80364,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1502001,
-      "bodovi": 20
+      "bodovi": 1292
     },
     {
       "cjelina": "Vocabulary 15",
@@ -80471,7 +80471,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1502002,
-      "bodovi": 26
+      "bodovi": 1679
     },
     {
       "cjelina": "Vocabulary 15",
@@ -80518,7 +80518,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1502003,
-      "bodovi": 26
+      "bodovi": 1679
     },
     {
       "cjelina": "Vocabulary 15",
@@ -80565,7 +80565,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1502004,
-      "bodovi": 22
+      "bodovi": 1421
     },
     {
       "cjelina": "Vocabulary 15",
@@ -80613,7 +80613,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1502005,
-      "bodovi": 26
+      "bodovi": 1679
     },
     {
       "cjelina": "Grammar 15",
@@ -80644,7 +80644,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503001,
-      "bodovi": 17
+      "bodovi": 649
     },
     {
       "cjelina": "Grammar 15",
@@ -80679,7 +80679,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503002,
-      "bodovi": 30
+      "bodovi": 1145
     },
     {
       "cjelina": "Grammar 15",
@@ -80718,7 +80718,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503003,
-      "bodovi": 21
+      "bodovi": 802
     },
     {
       "cjelina": "Grammar 15",
@@ -80758,7 +80758,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503004,
-      "bodovi": 21
+      "bodovi": 802
     },
     {
       "cjelina": "Grammar 15",
@@ -80821,7 +80821,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503005,
-      "bodovi": 21
+      "bodovi": 802
     },
     {
       "cjelina": "Grammar 15",
@@ -80860,7 +80860,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503006,
-      "bodovi": 36
+      "bodovi": 1374
     },
     {
       "cjelina": "Grammar 15",
@@ -80905,7 +80905,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503007,
-      "bodovi": 31
+      "bodovi": 1183
     },
     {
       "cjelina": "Grammar 15",
@@ -80935,7 +80935,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1503008,
-      "bodovi": 26
+      "bodovi": 993
     },
     {
       "cjelina": "Practice 15",
@@ -80986,7 +80986,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 15",
@@ -81022,7 +81022,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504002,
-      "bodovi": 21
+      "bodovi": 1078
     },
     {
       "cjelina": "Practice 15",
@@ -81050,7 +81050,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504003,
-      "bodovi": 24
+      "bodovi": 1232
     },
     {
       "cjelina": "Practice 15",
@@ -81103,7 +81103,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 15",
@@ -81139,7 +81139,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504005,
-      "bodovi": 21
+      "bodovi": 1078
     },
     {
       "cjelina": "Practice 15",
@@ -81178,7 +81178,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504006,
-      "bodovi": 26
+      "bodovi": 1333
     },
     {
       "cjelina": "Practice 15",
@@ -81219,7 +81219,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 15",
@@ -81250,7 +81250,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504008,
-      "bodovi": 17
+      "bodovi": 873
     },
     {
       "cjelina": "Practice 15",
@@ -81290,7 +81290,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504009,
-      "bodovi": 21
+      "bodovi": 1078
     },
     {
       "cjelina": "Practice 15",
@@ -81317,7 +81317,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1504010,
-      "bodovi": 21
+      "bodovi": 1078
     },
     {
       "cjelina": "Lesson 16",
@@ -81336,7 +81336,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 16",
@@ -81372,7 +81372,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601002,
-      "bodovi": 29
+      "bodovi": 838
     },
     {
       "cjelina": "Lesson 16",
@@ -81427,7 +81427,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601003,
-      "bodovi": 20
+      "bodovi": 578
     },
     {
       "cjelina": "Lesson 16",
@@ -81491,7 +81491,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601004,
-      "bodovi": 23
+      "bodovi": 665
     },
     {
       "cjelina": "Lesson 16",
@@ -81530,7 +81530,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601005,
-      "bodovi": 29
+      "bodovi": 838
     },
     {
       "cjelina": "Lesson 16",
@@ -81575,7 +81575,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601006,
-      "bodovi": 34
+      "bodovi": 983
     },
     {
       "cjelina": "Lesson 16",
@@ -81614,7 +81614,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601007,
-      "bodovi": 40
+      "bodovi": 1157
     },
     {
       "cjelina": "Lesson 16",
@@ -81653,7 +81653,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601008,
-      "bodovi": 19
+      "bodovi": 549
     },
     {
       "cjelina": "Lesson 16",
@@ -81683,7 +81683,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601009,
-      "bodovi": 29
+      "bodovi": 838
     },
     {
       "cjelina": "Lesson 16",
@@ -81722,7 +81722,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601010,
-      "bodovi": 19
+      "bodovi": 549
     },
     {
       "cjelina": "Lesson 16",
@@ -81768,7 +81768,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601011,
-      "bodovi": 21
+      "bodovi": 607
     },
     {
       "cjelina": "Lesson 16",
@@ -81827,7 +81827,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601012,
-      "bodovi": 38
+      "bodovi": 1098
     },
     {
       "cjelina": "Lesson 16",
@@ -81846,7 +81846,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1601013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 16",
@@ -81905,7 +81905,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1602001,
-      "bodovi": 22
+      "bodovi": 1495
     },
     {
       "cjelina": "Vocabulary 16",
@@ -81992,7 +81992,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1602002,
-      "bodovi": 29
+      "bodovi": 1972
     },
     {
       "cjelina": "Vocabulary 16",
@@ -82039,7 +82039,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1602003,
-      "bodovi": 29
+      "bodovi": 1971
     },
     {
       "cjelina": "Vocabulary 16",
@@ -82078,7 +82078,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1602004,
-      "bodovi": 19
+      "bodovi": 1291
     },
     {
       "cjelina": "Vocabulary 16",
@@ -82130,7 +82130,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1602005,
-      "bodovi": 29
+      "bodovi": 1971
     },
     {
       "cjelina": "Grammar 16",
@@ -82164,7 +82164,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603001,
-      "bodovi": 22
+      "bodovi": 843
     },
     {
       "cjelina": "Grammar 16",
@@ -82199,7 +82199,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603002,
-      "bodovi": 33
+      "bodovi": 1265
     },
     {
       "cjelina": "Grammar 16",
@@ -82234,7 +82234,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603003,
-      "bodovi": 23
+      "bodovi": 881
     },
     {
       "cjelina": "Grammar 16",
@@ -82273,7 +82273,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603004,
-      "bodovi": 23
+      "bodovi": 881
     },
     {
       "cjelina": "Grammar 16",
@@ -82324,7 +82324,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603005,
-      "bodovi": 23
+      "bodovi": 881
     },
     {
       "cjelina": "Grammar 16",
@@ -82375,7 +82375,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603006,
-      "bodovi": 34
+      "bodovi": 1304
     },
     {
       "cjelina": "Grammar 16",
@@ -82414,7 +82414,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603007,
-      "bodovi": 40
+      "bodovi": 1534
     },
     {
       "cjelina": "Grammar 16",
@@ -82444,7 +82444,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1603008,
-      "bodovi": 29
+      "bodovi": 1111
     },
     {
       "cjelina": "Practice 16",
@@ -82491,7 +82491,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 16",
@@ -82527,7 +82527,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604002,
-      "bodovi": 23
+      "bodovi": 1143
     },
     {
       "cjelina": "Practice 16",
@@ -82555,7 +82555,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604003,
-      "bodovi": 27
+      "bodovi": 1343
     },
     {
       "cjelina": "Practice 16",
@@ -82604,7 +82604,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 16",
@@ -82635,7 +82635,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604005,
-      "bodovi": 23
+      "bodovi": 1143
     },
     {
       "cjelina": "Practice 16",
@@ -82674,7 +82674,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604006,
-      "bodovi": 29
+      "bodovi": 1443
     },
     {
       "cjelina": "Practice 16",
@@ -82711,7 +82711,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 16",
@@ -82744,7 +82744,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604008,
-      "bodovi": 23
+      "bodovi": 1143
     },
     {
       "cjelina": "Practice 16",
@@ -82772,7 +82772,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604009,
-      "bodovi": 27
+      "bodovi": 1342
     },
     {
       "cjelina": "Practice 16",
@@ -82799,7 +82799,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604010,
-      "bodovi": 23
+      "bodovi": 1143
     },
     {
       "cjelina": "Lesson 17",
@@ -82818,7 +82818,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 17",
@@ -82854,7 +82854,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701002,
-      "bodovi": 32
+      "bodovi": 953
     },
     {
       "cjelina": "Lesson 17",
@@ -82913,7 +82913,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701003,
-      "bodovi": 24
+      "bodovi": 715
     },
     {
       "cjelina": "Lesson 17",
@@ -82971,7 +82971,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701004,
-      "bodovi": 25
+      "bodovi": 745
     },
     {
       "cjelina": "Lesson 17",
@@ -83018,7 +83018,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701005,
-      "bodovi": 32
+      "bodovi": 953
     },
     {
       "cjelina": "Lesson 17",
@@ -83058,7 +83058,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701006,
-      "bodovi": 32
+      "bodovi": 953
     },
     {
       "cjelina": "Lesson 17",
@@ -83095,7 +83095,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701007,
-      "bodovi": 21
+      "bodovi": 626
     },
     {
       "cjelina": "Lesson 17",
@@ -83122,7 +83122,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701008,
-      "bodovi": 30
+      "bodovi": 894
     },
     {
       "cjelina": "Lesson 17",
@@ -83161,7 +83161,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701009,
-      "bodovi": 32
+      "bodovi": 953
     },
     {
       "cjelina": "Lesson 17",
@@ -83191,7 +83191,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701010,
-      "bodovi": 32
+      "bodovi": 953
     },
     {
       "cjelina": "Lesson 17",
@@ -83241,7 +83241,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701011,
-      "bodovi": 27
+      "bodovi": 804
     },
     {
       "cjelina": "Lesson 17",
@@ -83300,7 +83300,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701012,
-      "bodovi": 42
+      "bodovi": 1251
     },
     {
       "cjelina": "Lesson 17",
@@ -83319,7 +83319,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1701013,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 17",
@@ -83390,7 +83390,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1702001,
-      "bodovi": 31
+      "bodovi": 1973
     },
     {
       "cjelina": "Vocabulary 17",
@@ -83489,7 +83489,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1702002,
-      "bodovi": 32
+      "bodovi": 2037
     },
     {
       "cjelina": "Vocabulary 17",
@@ -83536,7 +83536,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1702003,
-      "bodovi": 32
+      "bodovi": 2036
     },
     {
       "cjelina": "Vocabulary 17",
@@ -83583,7 +83583,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1702004,
-      "bodovi": 27
+      "bodovi": 1718
     },
     {
       "cjelina": "Vocabulary 17",
@@ -83631,7 +83631,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1702005,
-      "bodovi": 32
+      "bodovi": 2036
     },
     {
       "cjelina": "Grammar 17",
@@ -83665,7 +83665,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703001,
-      "bodovi": 25
+      "bodovi": 822
     },
     {
       "cjelina": "Grammar 17",
@@ -83700,7 +83700,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703002,
-      "bodovi": 37
+      "bodovi": 1217
     },
     {
       "cjelina": "Grammar 17",
@@ -83727,7 +83727,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703003,
-      "bodovi": 30
+      "bodovi": 987
     },
     {
       "cjelina": "Grammar 17",
@@ -83752,7 +83752,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703004,
-      "bodovi": 25
+      "bodovi": 822
     },
     {
       "cjelina": "Grammar 17",
@@ -83792,7 +83792,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703005,
-      "bodovi": 25
+      "bodovi": 822
     },
     {
       "cjelina": "Grammar 17",
@@ -83850,7 +83850,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703006,
-      "bodovi": 25
+      "bodovi": 822
     },
     {
       "cjelina": "Grammar 17",
@@ -83890,7 +83890,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703007,
-      "bodovi": 25
+      "bodovi": 822
     },
     {
       "cjelina": "Grammar 17",
@@ -83925,7 +83925,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703008,
-      "bodovi": 37
+      "bodovi": 1217
     },
     {
       "cjelina": "Grammar 17",
@@ -83960,7 +83960,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703009,
-      "bodovi": 37
+      "bodovi": 1217
     },
     {
       "cjelina": "Grammar 17",
@@ -83990,7 +83990,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1703010,
-      "bodovi": 32
+      "bodovi": 1052
     },
     {
       "cjelina": "Practice 17",
@@ -84045,7 +84045,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 17",
@@ -84084,7 +84084,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704002,
-      "bodovi": 32
+      "bodovi": 1713
     },
     {
       "cjelina": "Practice 17",
@@ -84116,7 +84116,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704003,
-      "bodovi": 30
+      "bodovi": 1606
     },
     {
       "cjelina": "Practice 17",
@@ -84161,7 +84161,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 17",
@@ -84194,7 +84194,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704005,
-      "bodovi": 25
+      "bodovi": 1339
     },
     {
       "cjelina": "Practice 17",
@@ -84225,7 +84225,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704006,
-      "bodovi": 25
+      "bodovi": 1339
     },
     {
       "cjelina": "Practice 17",
@@ -84266,7 +84266,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 17",
@@ -84293,7 +84293,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704008,
-      "bodovi": 21
+      "bodovi": 1125
     },
     {
       "cjelina": "Practice 17",
@@ -84333,7 +84333,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704009,
-      "bodovi": 25
+      "bodovi": 1339
     },
     {
       "cjelina": "Practice 17",
@@ -84360,7 +84360,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704010,
-      "bodovi": 25
+      "bodovi": 1339
     },
     {
       "cjelina": "Lesson 18",
@@ -84379,7 +84379,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 18",
@@ -84415,7 +84415,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801002,
-      "bodovi": 35
+      "bodovi": 1222
     },
     {
       "cjelina": "Lesson 18",
@@ -84475,7 +84475,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801003,
-      "bodovi": 28
+      "bodovi": 978
     },
     {
       "cjelina": "Lesson 18",
@@ -84506,7 +84506,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801004,
-      "bodovi": 24
+      "bodovi": 838
     },
     {
       "cjelina": "Lesson 18",
@@ -84554,7 +84554,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801005,
-      "bodovi": 28
+      "bodovi": 978
     },
     {
       "cjelina": "Lesson 18",
@@ -84599,7 +84599,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801006,
-      "bodovi": 35
+      "bodovi": 1222
     },
     {
       "cjelina": "Lesson 18",
@@ -84633,7 +84633,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801007,
-      "bodovi": 24
+      "bodovi": 838
     },
     {
       "cjelina": "Lesson 18",
@@ -84664,7 +84664,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801008,
-      "bodovi": 33
+      "bodovi": 1152
     },
     {
       "cjelina": "Lesson 18",
@@ -84694,7 +84694,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801009,
-      "bodovi": 35
+      "bodovi": 1222
     },
     {
       "cjelina": "Lesson 18",
@@ -84740,7 +84740,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801010,
-      "bodovi": 26
+      "bodovi": 908
     },
     {
       "cjelina": "Lesson 18",
@@ -84799,7 +84799,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801011,
-      "bodovi": 47
+      "bodovi": 1642
     },
     {
       "cjelina": "Lesson 18",
@@ -84818,7 +84818,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1801012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 18",
@@ -84869,7 +84869,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1802001,
-      "bodovi": 24
+      "bodovi": 1671
     },
     {
       "cjelina": "Vocabulary 18",
@@ -84952,7 +84952,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1802002,
-      "bodovi": 35
+      "bodovi": 2436
     },
     {
       "cjelina": "Vocabulary 18",
@@ -84999,7 +84999,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1802003,
-      "bodovi": 35
+      "bodovi": 2437
     },
     {
       "cjelina": "Vocabulary 18",
@@ -85046,7 +85046,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1802004,
-      "bodovi": 29
+      "bodovi": 2019
     },
     {
       "cjelina": "Vocabulary 18",
@@ -85078,7 +85078,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1802005,
-      "bodovi": 35
+      "bodovi": 2437
     },
     {
       "cjelina": "Grammar 18",
@@ -85109,7 +85109,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803001,
-      "bodovi": 24
+      "bodovi": 971
     },
     {
       "cjelina": "Grammar 18",
@@ -85140,7 +85140,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803002,
-      "bodovi": 33
+      "bodovi": 1335
     },
     {
       "cjelina": "Grammar 18",
@@ -85170,7 +85170,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803003,
-      "bodovi": 28
+      "bodovi": 1132
     },
     {
       "cjelina": "Grammar 18",
@@ -85210,7 +85210,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803004,
-      "bodovi": 28
+      "bodovi": 1132
     },
     {
       "cjelina": "Grammar 18",
@@ -85262,7 +85262,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803005,
-      "bodovi": 28
+      "bodovi": 1132
     },
     {
       "cjelina": "Grammar 18",
@@ -85302,7 +85302,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803006,
-      "bodovi": 28
+      "bodovi": 1132
     },
     {
       "cjelina": "Grammar 18",
@@ -85342,7 +85342,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803007,
-      "bodovi": 35
+      "bodovi": 1416
     },
     {
       "cjelina": "Grammar 18",
@@ -85373,7 +85373,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803008,
-      "bodovi": 33
+      "bodovi": 1335
     },
     {
       "cjelina": "Grammar 18",
@@ -85403,7 +85403,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1803009,
-      "bodovi": 35
+      "bodovi": 1415
     },
     {
       "cjelina": "Practice 18",
@@ -85454,7 +85454,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 18",
@@ -85490,7 +85490,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804002,
-      "bodovi": 28
+      "bodovi": 1481
     },
     {
       "cjelina": "Practice 18",
@@ -85518,7 +85518,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804003,
-      "bodovi": 33
+      "bodovi": 1745
     },
     {
       "cjelina": "Practice 18",
@@ -85563,7 +85563,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 18",
@@ -85599,7 +85599,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804005,
-      "bodovi": 28
+      "bodovi": 1481
     },
     {
       "cjelina": "Practice 18",
@@ -85638,7 +85638,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804006,
-      "bodovi": 35
+      "bodovi": 1850
     },
     {
       "cjelina": "Practice 18",
@@ -85683,7 +85683,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 18",
@@ -85713,7 +85713,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804008,
-      "bodovi": 28
+      "bodovi": 1481
     },
     {
       "cjelina": "Practice 18",
@@ -85744,7 +85744,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804009,
-      "bodovi": 28
+      "bodovi": 1481
     },
     {
       "cjelina": "Practice 18",
@@ -85771,7 +85771,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1804010,
-      "bodovi": 28
+      "bodovi": 1481
     },
     {
       "cjelina": "Lesson 19",
@@ -85793,7 +85793,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 19",
@@ -85825,7 +85825,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901002,
-      "bodovi": 39
+      "bodovi": 1226
     },
     {
       "cjelina": "Lesson 19",
@@ -85868,7 +85868,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901003,
-      "bodovi": 26
+      "bodovi": 817
     },
     {
       "cjelina": "Lesson 19",
@@ -85911,7 +85911,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901004,
-      "bodovi": 39
+      "bodovi": 1226
     },
     {
       "cjelina": "Lesson 19",
@@ -85949,7 +85949,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901005,
-      "bodovi": 31
+      "bodovi": 975
     },
     {
       "cjelina": "Lesson 19",
@@ -85989,7 +85989,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901006,
-      "bodovi": 31
+      "bodovi": 975
     },
     {
       "cjelina": "Lesson 19",
@@ -86034,7 +86034,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901007,
-      "bodovi": 47
+      "bodovi": 1478
     },
     {
       "cjelina": "Lesson 19",
@@ -86073,7 +86073,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901008,
-      "bodovi": 55
+      "bodovi": 1729
     },
     {
       "cjelina": "Lesson 19",
@@ -86103,7 +86103,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901009,
-      "bodovi": 39
+      "bodovi": 1226
     },
     {
       "cjelina": "Lesson 19",
@@ -86157,7 +86157,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901010,
-      "bodovi": 37
+      "bodovi": 1163
     },
     {
       "cjelina": "Lesson 19",
@@ -86217,7 +86217,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901011,
-      "bodovi": 52
+      "bodovi": 1635
     },
     {
       "cjelina": "Lesson 19",
@@ -86236,7 +86236,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1901012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 19",
@@ -86287,7 +86287,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1902001,
-      "bodovi": 26
+      "bodovi": 1839
     },
     {
       "cjelina": "Vocabulary 19",
@@ -86382,7 +86382,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1902002,
-      "bodovi": 39
+      "bodovi": 2759
     },
     {
       "cjelina": "Vocabulary 19",
@@ -86429,7 +86429,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1902003,
-      "bodovi": 39
+      "bodovi": 2759
     },
     {
       "cjelina": "Vocabulary 19",
@@ -86476,7 +86476,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1902004,
-      "bodovi": 33
+      "bodovi": 2334
     },
     {
       "cjelina": "Vocabulary 19",
@@ -86524,7 +86524,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1902005,
-      "bodovi": 39
+      "bodovi": 2759
     },
     {
       "cjelina": "Grammar 19",
@@ -86555,7 +86555,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903001,
-      "bodovi": 26
+      "bodovi": 1079
     },
     {
       "cjelina": "Grammar 19",
@@ -86590,7 +86590,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903002,
-      "bodovi": 33
+      "bodovi": 1369
     },
     {
       "cjelina": "Grammar 19",
@@ -86625,7 +86625,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903003,
-      "bodovi": 31
+      "bodovi": 1287
     },
     {
       "cjelina": "Grammar 19",
@@ -86673,7 +86673,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903004,
-      "bodovi": 31
+      "bodovi": 1287
     },
     {
       "cjelina": "Grammar 19",
@@ -86731,7 +86731,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903005,
-      "bodovi": 31
+      "bodovi": 1287
     },
     {
       "cjelina": "Grammar 19",
@@ -86779,7 +86779,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903006,
-      "bodovi": 31
+      "bodovi": 1287
     },
     {
       "cjelina": "Grammar 19",
@@ -86824,7 +86824,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903007,
-      "bodovi": 39
+      "bodovi": 1618
     },
     {
       "cjelina": "Grammar 19",
@@ -86865,7 +86865,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903008,
-      "bodovi": 39
+      "bodovi": 1618
     },
     {
       "cjelina": "Grammar 19",
@@ -86895,7 +86895,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1903009,
-      "bodovi": 39
+      "bodovi": 1618
     },
     {
       "cjelina": "Practice 19",
@@ -86946,7 +86946,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 19",
@@ -86982,7 +86982,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904002,
-      "bodovi": 31
+      "bodovi": 1771
     },
     {
       "cjelina": "Practice 19",
@@ -87022,7 +87022,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904003,
-      "bodovi": 31
+      "bodovi": 1770
     },
     {
       "cjelina": "Practice 19",
@@ -87059,7 +87059,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 19",
@@ -87090,7 +87090,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904005,
-      "bodovi": 26
+      "bodovi": 1485
     },
     {
       "cjelina": "Practice 19",
@@ -87118,7 +87118,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904006,
-      "bodovi": 37
+      "bodovi": 2114
     },
     {
       "cjelina": "Practice 19",
@@ -87175,7 +87175,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 19",
@@ -87206,7 +87206,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904008,
-      "bodovi": 31
+      "bodovi": 1770
     },
     {
       "cjelina": "Practice 19",
@@ -87236,7 +87236,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904009,
-      "bodovi": 31
+      "bodovi": 1770
     },
     {
       "cjelina": "Practice 19",
@@ -87263,7 +87263,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1904010,
-      "bodovi": 31
+      "bodovi": 1770
     },
     {
       "cjelina": "Lesson 20",
@@ -87285,7 +87285,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Lesson 20",
@@ -87321,7 +87321,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001002,
-      "bodovi": 44
+      "bodovi": 1388
     },
     {
       "cjelina": "Lesson 20",
@@ -87356,7 +87356,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001003,
-      "bodovi": 29
+      "bodovi": 914
     },
     {
       "cjelina": "Lesson 20",
@@ -87395,7 +87395,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001004,
-      "bodovi": 44
+      "bodovi": 1387
     },
     {
       "cjelina": "Lesson 20",
@@ -87442,7 +87442,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001005,
-      "bodovi": 35
+      "bodovi": 1104
     },
     {
       "cjelina": "Lesson 20",
@@ -87487,7 +87487,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001006,
-      "bodovi": 44
+      "bodovi": 1387
     },
     {
       "cjelina": "Lesson 20",
@@ -87532,7 +87532,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001007,
-      "bodovi": 44
+      "bodovi": 1387
     },
     {
       "cjelina": "Lesson 20",
@@ -87563,7 +87563,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001008,
-      "bodovi": 41
+      "bodovi": 1293
     },
     {
       "cjelina": "Lesson 20",
@@ -87593,7 +87593,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001009,
-      "bodovi": 44
+      "bodovi": 1387
     },
     {
       "cjelina": "Lesson 20",
@@ -87639,7 +87639,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001010,
-      "bodovi": 32
+      "bodovi": 1009
     },
     {
       "cjelina": "Lesson 20",
@@ -87761,7 +87761,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001011,
-      "bodovi": 87
+      "bodovi": 2744
     },
     {
       "cjelina": "Lesson 20",
@@ -87786,7 +87786,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2001012,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Vocabulary 20",
@@ -87833,7 +87833,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002001,
-      "bodovi": 29
+      "bodovi": 2061
     },
     {
       "cjelina": "Vocabulary 20",
@@ -87948,7 +87948,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002002,
-      "bodovi": 44
+      "bodovi": 3127
     },
     {
       "cjelina": "Vocabulary 20",
@@ -87995,7 +87995,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002003,
-      "bodovi": 44
+      "bodovi": 3127
     },
     {
       "cjelina": "Vocabulary 20",
@@ -88042,7 +88042,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002004,
-      "bodovi": 36
+      "bodovi": 2558
     },
     {
       "cjelina": "Vocabulary 20",
@@ -88106,7 +88106,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002005,
-      "bodovi": 44
+      "bodovi": 3127
     },
     {
       "cjelina": "Grammar 20",
@@ -88140,7 +88140,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003001,
-      "bodovi": 34
+      "bodovi": 1315
     },
     {
       "cjelina": "Grammar 20",
@@ -88173,7 +88173,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003002,
-      "bodovi": 35
+      "bodovi": 1354
     },
     {
       "cjelina": "Grammar 20",
@@ -88203,7 +88203,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003003,
-      "bodovi": 35
+      "bodovi": 1354
     },
     {
       "cjelina": "Grammar 20",
@@ -88230,7 +88230,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003004,
-      "bodovi": 41
+      "bodovi": 1586
     },
     {
       "cjelina": "Grammar 20",
@@ -88286,7 +88286,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003005,
-      "bodovi": 35
+      "bodovi": 1354
     },
     {
       "cjelina": "Grammar 20",
@@ -88337,7 +88337,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003006,
-      "bodovi": 52
+      "bodovi": 2010
     },
     {
       "cjelina": "Grammar 20",
@@ -88382,7 +88382,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003007,
-      "bodovi": 44
+      "bodovi": 1702
     },
     {
       "cjelina": "Grammar 20",
@@ -88417,7 +88417,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003008,
-      "bodovi": 51
+      "bodovi": 1971
     },
     {
       "cjelina": "Grammar 20",
@@ -88438,7 +88438,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2003009,
-      "bodovi": 35
+      "bodovi": 1354
     },
     {
       "cjelina": "Practice 20",
@@ -88481,7 +88481,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 20",
@@ -88517,7 +88517,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004002,
-      "bodovi": 35
+      "bodovi": 1885
     },
     {
       "cjelina": "Practice 20",
@@ -88549,7 +88549,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004003,
-      "bodovi": 41
+      "bodovi": 2207
     },
     {
       "cjelina": "Practice 20",
@@ -88594,7 +88594,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004004,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 20",
@@ -88621,7 +88621,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004005,
-      "bodovi": 29
+      "bodovi": 1562
     },
     {
       "cjelina": "Practice 20",
@@ -88660,7 +88660,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004006,
-      "bodovi": 44
+      "bodovi": 2368
     },
     {
       "cjelina": "Practice 20",
@@ -88697,7 +88697,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004007,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 20",
@@ -88733,7 +88733,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004008,
-      "bodovi": 35
+      "bodovi": 1885
     },
     {
       "cjelina": "Practice 20",
@@ -88761,7 +88761,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004009,
-      "bodovi": 41
+      "bodovi": 2208
     },
     {
       "cjelina": "Practice 20",
@@ -88788,7 +88788,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004010,
-      "bodovi": 35
+      "bodovi": 1885
     },
     {
       "cjelina": "Practice 20",
@@ -88810,7 +88810,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004011,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 1",
@@ -88829,7 +88829,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50001001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 1",
@@ -88959,7 +88959,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50001005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 2",
@@ -88981,7 +88981,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50002001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 2",
@@ -89143,7 +89143,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50002005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 3",
@@ -89162,7 +89162,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50003001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 3",
@@ -89291,7 +89291,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50003005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 4",
@@ -89310,7 +89310,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50004001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 4",
@@ -89446,7 +89446,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50004005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 5",
@@ -89468,7 +89468,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50005001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 5",
@@ -89592,7 +89592,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50005005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 6",
@@ -89611,7 +89611,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50006001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 6",
@@ -89747,7 +89747,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50006005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 7",
@@ -89766,7 +89766,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50007001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 7",
@@ -89919,7 +89919,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50007005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 8",
@@ -89941,7 +89941,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50008001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 8",
@@ -90057,7 +90057,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50008005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 9",
@@ -90076,7 +90076,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50009001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 9",
@@ -90206,7 +90206,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50009005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 10",
@@ -90228,7 +90228,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50010001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 10",
@@ -90333,7 +90333,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50010005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 11",
@@ -90352,7 +90352,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50011001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 11",
@@ -90488,7 +90488,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50011005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 12",
@@ -90507,7 +90507,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50012001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 12",
@@ -90654,7 +90654,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50012005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 13",
@@ -90676,7 +90676,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50013001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 13",
@@ -90805,7 +90805,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50013005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 14",
@@ -90824,7 +90824,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50014001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 14",
@@ -90955,7 +90955,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50014005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 15",
@@ -90974,7 +90974,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50015001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 15",
@@ -91131,7 +91131,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50015005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 16",
@@ -91153,7 +91153,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50016001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 16",
@@ -91279,7 +91279,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50016005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 17",
@@ -91298,7 +91298,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50017001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 17",
@@ -91435,7 +91435,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50017005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 18",
@@ -91454,7 +91454,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 18",
@@ -91485,7 +91485,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018002,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 18",
@@ -91649,7 +91649,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50018005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 19",
@@ -91668,7 +91668,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50019001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 19",
@@ -91798,7 +91798,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50019005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 20",
@@ -91820,7 +91820,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50020001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 20",
@@ -91950,7 +91950,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50020005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 21",
@@ -91969,7 +91969,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50021001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 21",
@@ -92116,7 +92116,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50021006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 22",
@@ -92138,7 +92138,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50022001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 22",
@@ -92260,7 +92260,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50022005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 23",
@@ -92279,7 +92279,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50023001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 23",
@@ -92431,7 +92431,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50023005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 24",
@@ -92450,7 +92450,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50024001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 24",
@@ -92623,7 +92623,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50024005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 25",
@@ -92645,7 +92645,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50025001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 25",
@@ -92764,7 +92764,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50025005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 26",
@@ -92783,7 +92783,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50026001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 26",
@@ -92913,7 +92913,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50026005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 27",
@@ -92935,7 +92935,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50027001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 27",
@@ -93054,7 +93054,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50027005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 28",
@@ -93073,7 +93073,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50028001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 28",
@@ -93209,7 +93209,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50028005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 29",
@@ -93228,7 +93228,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50029001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 29",
@@ -93398,7 +93398,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50029006,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 30",
@@ -93420,7 +93420,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50030001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 30",
@@ -93558,7 +93558,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50030005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 31",
@@ -93580,7 +93580,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50031001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 31",
@@ -93722,7 +93722,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50031005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 32",
@@ -93741,7 +93741,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50032001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 32",
@@ -93860,7 +93860,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50032005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 33",
@@ -93879,7 +93879,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 33",
@@ -93913,7 +93913,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033002,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 33",
@@ -94093,7 +94093,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50033005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 34",
@@ -94112,7 +94112,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50034001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 34",
@@ -94247,7 +94247,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50034005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 35",
@@ -94269,7 +94269,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50035001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 35",
@@ -94408,7 +94408,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50035005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 36",
@@ -94427,7 +94427,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50036001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 36",
@@ -94566,7 +94566,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50036005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 37",
@@ -94588,7 +94588,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50037001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 37",
@@ -94737,7 +94737,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50037005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 38",
@@ -94756,7 +94756,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50038001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 38",
@@ -94900,7 +94900,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50038005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 39",
@@ -94919,7 +94919,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50039001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 39",
@@ -95068,7 +95068,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50039005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 40",
@@ -95090,7 +95090,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50040001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 40",
@@ -95225,7 +95225,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50040005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 41",
@@ -95244,7 +95244,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50041001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 41",
@@ -95411,7 +95411,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50041005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 42",
@@ -95430,7 +95430,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50042001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 42",
@@ -95569,7 +95569,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50042005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 43",
@@ -95588,7 +95588,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043001,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 43",
@@ -95619,7 +95619,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043002,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": "Daily challenge 43",
@@ -95792,7 +95792,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 50043005,
-      "bodovi": 1
+      "bodovi": 20
     },
     {
       "cjelina": null,

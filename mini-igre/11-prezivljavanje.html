@@ -155,7 +155,10 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "prezivljavanje";
-window.IGRA_MAKS = 100;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -770,7 +773,8 @@ function popis(){
 }
 
 function bodovi(){
-  return Math.min(100, Math.round(S.tocno / CILJ * 100));
+  // 20 bodova po tocnom odgovoru; 75 tocnih zaredom nosi puni iznos.
+  return Math.min(window.IGRA_MAKS, 20 * (S.bez ? S.bezTocno : S.tocno));
 }
 
 function pokreniBezKraja(){
@@ -786,16 +790,15 @@ function poraz(){
     return CL.kraj({
       naslov:'End of the endless run',
       tekst:'In endless mode you solved <b>' + S.bezTocno + '</b> tasks, longest streak <b>' + S.najNiz + '</b>.' + popis(),
-      bodovi:100, maks:100,
-      ponovno:pokreniBezKraja,
-      beskonacno:pokreniBezKraja
+      bodovi:bodovi(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
     naslov:'No hearts left',
     tekst:'You reached stage <b>' + (S.etapa+1) + '/5</b> — ' + S.tocno + ' of ' + CILJ +
       ' correct. Longest streak: ' + S.najNiz + '.' + popis(),
-    bodovi:bodovi(), maks:100,
+    bodovi:bodovi(), maks:window.IGRA_MAKS,
     ponovno:function(){ location.reload(); }
   });
 }
@@ -806,9 +809,8 @@ function pobjeda(){
     naslov:'All five stages!',
     tekst:'You made it through all ' + CILJ + ' tasks with ' + (3 - S.srca) + ' hearts lost. ' +
       'Longest streak: <b>' + S.najNiz + '</b>.' + popis(),
-    bodovi:100, maks:100,
-    ponovno:function(){ location.reload(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodovi(), maks:window.IGRA_MAKS,
+    ponovno:function(){ location.reload(); }
   });
 }
 

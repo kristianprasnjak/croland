@@ -2809,11 +2809,20 @@
   var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];
   var VALUTA_TIPA = { Lesson: 'LP', Vocabulary: 'VP', Grammar: 'GP', Practice: 'PP' };
   // Udio dotad dostupnih bodova koji treba skupiti za otključavanje razine.
-  // Krivulja ide od 0.50 (razina 2) do 0.99 (razina 20): na početku se smije
-  // preskočiti dosta, pri vrhu se traži gotovo sve.
-  var K_PRAG = { 2:0.50, 3:0.56, 4:0.61, 5:0.64, 6:0.67, 7:0.70, 8:0.73, 9:0.75, 10:0.78,
-                 11:0.80, 12:0.82, 13:0.85, 14:0.87, 15:0.89, 16:0.91, 17:0.93, 18:0.95, 19:0.97, 20:0.99 };
+  // Krivulja raste od 0.50 (razina 2) do 0.80 i ondje STAJE.
+  //
+  // Prije je išla do 0.99, što je značilo da razina 20 traži 99 % svega prije nje —
+  // dvije promašene vježbe i dalje se ne može. Igrač koji sve odigra uz 85 % točnosti,
+  // a ne dira ni daily ni igre, zaglavio bi na razini 13-14 i nikako dalje. Prag nije
+  // ispit nego brana protiv preskakanja; 0.80 je brani, 0.99 je bila zid.
+  var K_PRAG = { 2:0.50, 3:0.54, 4:0.57, 5:0.61, 6:0.65, 7:0.69, 8:0.73, 9:0.76, 10:0.80,
+                 11:0.80, 12:0.80, 13:0.80, 14:0.80, 15:0.80, 16:0.80, 17:0.80, 18:0.80, 19:0.80, 20:0.80 };
   var MAX_RAZINA = 20;
+  // Verzija skale bodova. Od skale 10 cjelina razine 1 nosi 1500 umjesto 150, pojedina
+  // vjezba 115 umjesto ~11. Sitnija jedinica znaci finiji djelomican rezultat: vjezba od
+  // 6 bodova s pet zadataka davala je 1, 2, 4, 5, 6 — 60 % i 70 % ispadali su isti broj.
+  // Zatecen napredak se na ovu skalu prevodi jednom, u migrirajSkalu().
+  var SKALA = 10;
 
   // ================= AUTH / SUPABASE =================
   // Public anon key — safe to expose; row-level security, not secrecy, protects the data.
@@ -3037,30 +3046,46 @@
   // Samostalne HTML datoteke u mapi mini-igre/. Svaka pamti svoj napredak u
   // localStorage pod 'croland-mini-<id>' i ondje bilježi koliko je već naplatila.
   // Aplikacija to čita i zbraja u sve četiri valute.
+  //
+  // SVAKA IGRA IDE DO 1500. Bodovi se skupljaju linearno, po ucinjenom: `stopa` bodova
+  // za svaku jedinicu koju igra trazi (tocan odgovor, sricana rijec, prijedjena razina,
+  // izdana narudzba, pokupljena rijec, oborena meta). `jedinica` je koliko ih treba za
+  // puni iznos. Igre koje se prelaze u jednom luku — Grad, Tvrdjava, Gradovi — placaju
+  // razmjerno prijedjenom dijelu i puni iznos na kraju.
+  //
+  // Broji se najbolja partija; slabija ne oduzima nista. Beskonacni nacin je uklonjen iz
+  // svih igara: tko dosegne strop, krece ispocetka ako zeli.
+  //
+  // window.IGRA_MAKS u datoteci igre mora biti jednak `maks` ovdje, pa je ono sto igra
+  // pokaze na zavrsnom ekranu tocno ono sto aplikacija upise u valute. Nema preracunavanja.
+  //
+  // Igra koja danas nema dovoljno sadrzaja da se dodje do 1500 jednostavno placa manje —
+  // brojka je narudzba sadrzaja, ne procjena.
+  var MINI_MAKS = 1500;           // strop, isti za sve igre
   var MINI_IGRE = [
-    { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', maks: 100, zaslon: 'polozeno',
+    { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', /* razmjerno: 5 zadataka */ maks: 1500, zaslon: 'polozeno',
       opis: 'Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.' },
-    { id: 'pamti', slika: 'pamti.webp', br: '03', dat: '03-pamti-pa-pisi.html', emo: '🧠', ime: 'Pamti pa piši', stil: 'Remember & Write', maks: 100,
+    { id: 'pamti', slika: 'pamti.webp', br: '03', dat: '03-pamti-pa-pisi.html', emo: '🧠', ime: 'Pamti pa piši', stil: 'Remember & Write', stopa: 20, /* 75 razina */ maks: 1500,
       opis: 'Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.' },
-    { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'Fortress', maks: 100,
+    { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'Fortress', /* razmjerno: 12 soba */ maks: 1500,
       opis: 'The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.' },
-    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Tavern', maks: 50,
+    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Tavern', stopa: 10, /* 150 narudžbi */ maks: 1500,
       opis: 'Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.' },
-    { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Warehouse', maks: 100,
+    { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Warehouse', stopa: 10, /* posao 150 */ maks: 1500,
       opis: 'You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.' },
-    { id: 'vlak', slika: 'vlak.webp', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'Mail Train', maks: 30, zaslon: 'polozeno',
+    { id: 'vlak', slika: 'vlak.webp', br: '07', dat: '07-postanski-vlak.html', emo: '🚆', ime: 'Poštanski vlak', stil: 'Mail Train', stopa: 20, /* 75 paketa */ maks: 1500, zaslon: 'polozeno',
       opis: 'Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.' },
-    { id: 'labirint', slika: 'labirint.webp', br: '08', dat: '08-labirint.html', emo: '🌀', ime: 'Labirint', stil: 'Maze', maks: 30,
+    { id: 'labirint', slika: 'labirint.webp', br: '08', dat: '08-labirint.html', emo: '🌀', ime: 'Labirint', stil: 'Maze', stopa: 10, /* 150 riječi */ maks: 1500,
       opis: 'Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.' },
-    { id: 'zmija', slika: 'zmija.webp', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Snake', maks: 30,
+    { id: 'zmija', slika: 'zmija.webp', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Snake', stopa: 20, /* 75 riječi */ maks: 1500,
       opis: 'Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.' },
-    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Platformer', maks: 50,
+    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Platformer', stopa: 20, /* 75 razina */ maks: 1500,
       opis: 'Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.' },
-    { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Survival', maks: 100,
+    { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Survival', stopa: 20, /* 75 odgovora */ maks: 1500,
       opis: 'Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.' },
-    { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', maks: 40, zaslon: 'polozeno',
+    { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', stopa: 20, /* 75 meta */ maks: 1500, zaslon: 'polozeno',
       opis: 'Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.' },
-    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', maks: 40,
+    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', /* razmjerno: 128 gradova */ maks: 1500,
       opis: 'All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.' }
   ];
   var MINI_MAPA = 'mini-igre/';
@@ -3115,6 +3140,33 @@
   }
   // Je li danasnji dan vec u slikovnom razdoblju (prije toga vrijedi stari format)
   function dailySlikaEra() { return datumKljuc(danasDatum()) >= DAILY_SLIKE_OD; }
+
+  // ---- bodovi slikovnih izazova ----
+  // Weekly i (od DAILY_SLIKE_OD) daily nose bodove razmjerno broju pogodjenih pojmova.
+  // Bod se upisuje cim je pojam pogodjen — izazov od dvadeset pojmova ne smije biti
+  // sve-ili-nista. Isplata je jednokratna po izazovu: napredak pamti sama datoteka
+  // izazova u localStorageu i ne pada unatrag.
+  // Trazi racun iz istog razloga kao miniBodovi(): inace gost naslijedi localStorage
+  // prethodnog korisnika ovog preglednika.
+  function slikovniBodovi() {
+    if (!imaRacun()) return 0;
+    var uk = 0;
+    WEEKLY_SLIKE.forEach(function (w) {
+      if (!w.pojmova) return;
+      uk += Math.round(Math.min(weeklySlikaNadjeno(w), w.pojmova) / w.pojmova * TEZINA_WEEKLY);
+    });
+    DAILY_SLIKE.forEach(function (d) {
+      if (!d.pojmova) return;
+      uk += Math.round(Math.min(dailySlikaNadjeno(d), d.pojmova) / d.pojmova * TEZINA_DAILY);
+    });
+    return uk;
+  }
+  function slikovniMaks() {
+    var m = 0;
+    WEEKLY_SLIKE.forEach(function (w) { if (w.pojmova) m += TEZINA_WEEKLY; });
+    DAILY_SLIKE.forEach(function (d) { if (d.pojmova) m += TEZINA_DAILY; });
+    return m;
+  }
   function dailySlikaNadjeno(d) {
     try {
       var st = JSON.parse(localStorage.getItem(d.kljuc) || '{}');
@@ -3133,8 +3185,12 @@
   // ---- Extras ----
   // Vlastiti odjeljak iznad mini igara: jedan naslov, veca slika, vise prostora.
   // `dat` je prazan dok igra ne postoji — kartica se tada prikazuje, ali se ne otvara.
+  // Extras ne nose bodove. Tekst ondje bira sam igrac, "prijevod" je bilo koji unos od
+  // dva znaka naviše, a izgovor se mjeri prema tekstu koji je igrac sam zalijepio —
+  // nista od toga se ne moze provjeriti, a ulazilo je u iste valute koje otkljucavaju
+  // razine. Igra ostaje, bez bodova; `maks` je zato 0 i sveIgre() je ne obuhvaca.
   var EXTRA_IGRE = [
-    { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Listen Read Write Speak', maks: 200,
+    { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Listen Read Write Speak', maks: 0,
       stil: 'Notebook',
       opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' }
   ];
@@ -3147,22 +3203,28 @@
     try { return JSON.parse(localStorage.getItem('croland-mini-' + id) || '{}') || {}; }
     catch (e) { return {}; }
   }
-  // Sve igre koje se mogu igrati: Extras (kad postoje) pa mini igre. Bodovi,
-  // maksimum i broj prijedenih broje se preko obje vrste jednako.
+  // Sve igre koje NOSE BODOVE. Extras (LRWS) vise nije medju njima: ondje tekst bira
+  // igrac, "prijevod" je bilo koji unos od dva znaka naviše, a izgovor se mjeri prema
+  // tekstu koji je igrac sam zalijepio — nista od toga se ne moze provjeriti, a ulazilo
+  // je u iste valute koje otkljucavaju razine. Igra ostaje u aplikaciji, samo bez bodova.
   function sveIgre() {
-    return EXTRA_IGRE.filter(function (e) { return !!e.dat; }).concat(MINI_IGRE);
+    return MINI_IGRE.slice();
   }
-  // Koliko je svaka igra isplatila — isti iznos ide u svaku valutu.
+  // Koliko je pojedina igra isplatila. Bez ikakvog preracunavanja: `maks` ovdje i
+  // window.IGRA_MAKS u samoj datoteci igre su ISTI broj, pa je ono sto igra pokaze
+  // na zavrsnom ekranu tocno ono sto aplikacija upise u valute.
+  function miniIsplata(g) {
+    var n = miniStanje(g.id).naplaceno;
+    if (typeof n !== 'number' || n <= 0) return 0;
+    return Math.min(n, g.maks || 0);
+  }
   // Mini igre traze racun, pa gost po definiciji ima nula. Bez ove provjere
   // gost naslijedi localStorage prethodnog korisnika ovog preglednika i vidi
   // tudi rezultat prije nego se uopce prijavio.
   function miniBodovi() {
     if (!imaRacun()) return 0;
     var uk = 0;
-    sveIgre().forEach(function (g) {
-      var n = miniStanje(g.id).naplaceno;
-      if (typeof n === 'number' && n > 0) uk += Math.min(n, g.maks);
-    });
+    sveIgre().forEach(function (g) { uk += miniIsplata(g); });
     return uk;
   }
   function miniMaks() {
@@ -3173,7 +3235,7 @@
   function miniPrijedena() {
     if (!imaRacun()) return 0;
     var n = 0;
-    sveIgre().forEach(function (g) { if ((miniStanje(g.id).naplaceno || 0) >= g.maks) n++; });
+    sveIgre().forEach(function (g) { if (miniIsplata(g) >= g.maks) n++; });
     return n;
   }
   // Trazi i po Extrasima: okvir, spremanje i naplata rade isto za obje vrste,
@@ -3201,7 +3263,11 @@
   // page reload or the Google OAuth redirect, then flushed into the new account and deleted.
   function PROGRESS_PRAZAN() {
     return { vjezbe: {}, pokrenute: {}, vidjeno: {}, rjecnik: {}, slova: {}, abecedaSlavljena: 0,
-      savjeti: {}, streak: { niz: 0, zadnji: '', bodovi: 0 }, ime: '', mini_igre: {}, postavke: {} };
+      savjeti: {}, streak: { niz: 0, zadnji: '', bodovi: 0 }, ime: '', mini_igre: {},
+      // skala zivi u `postavke` jer je to vec postojeci JSON stupac — novi stupac bi
+      // trazio migraciju baze, a bez upisa bi se migracija vrtjela svaki put ispocetka
+      // i bodovi bi se mnozili pri svakom ucitavanju.
+      postavke: { skala: SKALA } };
   }
   var PROGRESS = PROGRESS_PRAZAN();
   var L0_PRIJENOS_KLJUC = 'croland_l0_handoff';
@@ -3357,6 +3423,7 @@
         var lok = sessionStorage.getItem(L0_PRIJENOS_KLJUC);
         if (lok) { var p = JSON.parse(lok); if (p && typeof p === 'object') PROGRESS = Object.assign(PROGRESS_PRAZAN(), p); }
       } catch (e) {}
+      migrirajSkalu();
       migrirajRjecnik();
       if (cb) cb();
       return;
@@ -3366,6 +3433,7 @@
         PROGRESS = res.data ? PROGRESS_odRetka(res.data) : PROGRESS_PRAZAN();
         spojiPredracunskoStanje();
         posijiMiniIgre();
+        migrirajSkalu();
         migrirajRjecnik();
         if (cb) cb();
       });
@@ -3467,16 +3535,31 @@
     if (r === null) return 0;
     return (r === 0 || r === 1) ? streakStanje().niz : 0;
   }
+  // ---- koliko nosi dan N u nizu ----
+  // Prije je dan N nosio N bodova. Kumulativno je to N(N+1)/2 bez gornje granice: dan 30
+  // je donosio 465, dan 100 njih 5050 — u SVAKU valutu, više nego cijela zaliha Practicea.
+  // Uz to je isti trominutni povratak vrijedio 5 petog dana i 95 devedeset petog.
+  //
+  // Sada rast ide logaritamski: SVAKO UDVOSTRUČENJE NIZA DODA 16 BODOVA dnevnoj nagradi.
+  // Dan 1 nosi 20, dan 30 nosi 99, dan 365 nosi 156, nakon pet godina 193. Nikad ne
+  // stane i nema kape na zbroj — tko izdrži godinu dana zaredom ima 48 674, i zaslužio ih je.
+  var STREAK_BAZA = 20, STREAK_RAST = 16;
+  function streakDnevno(niz) {
+    if (!niz || niz < 1) return 0;
+    return Math.round(STREAK_BAZA + STREAK_RAST * (Math.log(niz) / Math.LN2));
+  }
   function streakBodovi() { return streakStanje().bodovi; }
   // koliko bi bodova donio sljedeći odrađeni dan
-  function streakSljedeciBodovi() { return (streakRazmak() === 0 ? streakNiz() : streakNiz() + 1); }
+  function streakSljedeciBodovi() {
+    return streakDnevno(streakRazmak() === 0 ? streakNiz() : streakNiz() + 1);
+  }
   function streakOznaci() {
     var s = streakStanje(), dan = datumKljuc();
     if (s.zadnji === dan) return false;                 // danas je već zabilježen
     var r = streakRazmak();
     s.niz = (r === 1) ? s.niz + 1 : 1;                  // nastavak niza ili novi niz
     s.zadnji = dan;
-    s.bodovi += s.niz;                                  // dan N nosi N bodova
+    s.bodovi += streakDnevno(s.niz);                    // dan N nosi 20 + 16·log₂N
     spremiProgress();
     return true;
   }
@@ -3597,6 +3680,32 @@
     return dodajPopisURjecnik(natukniceIgre(g));
   }
   // Stariji spremljeni rječnici: ključ je mogao sadržavati "(m.)" pa su nastali dvostruki unosi.
+  // ---- prijelaz na skalu bodova ----
+  // Napredak zatecen prije skale 10 drzi najbolje rezultate u starim jedinicama. Bez ovoga
+  // bi svaki igrac ujutro vidio desetinu svojih bodova i zatvorene razine.
+  // Zove se iz ucitajProgress(), uz migrirajRjecnik(), i radi tocno jednom po racunu.
+  //
+  // Mini igre se NE diraju: one svoj `naplaceno` pisu same, u localStorage, i njihov
+  // window.IGRA_MAKS je u istom puštanju podignut na novu skalu. Stari zapis je u starim
+  // jedinicama, pa ga miniBodovi() vidi kao mali dio novog maksimuma — igra se dovrsi do
+  // kraja i isplata se sama popravi. Nista se ne gubi jer naplata nikad ne pada unatrag.
+  function migrirajSkalu() {
+    if (!PROGRESS.postavke || typeof PROGRESS.postavke !== 'object') PROGRESS.postavke = {};
+    var stara = PROGRESS.postavke.skala || 1;
+    if (stara >= SKALA) { PROGRESS.postavke.skala = SKALA; return; }
+    var f = SKALA / stara;
+    var v = PROGRESS.vjezbe || {};
+    Object.keys(v).forEach(function (k) {
+      var n = v[k];
+      if (typeof n === 'number' && n > 0) v[k] = Math.round(n * f);
+    });
+    if (PROGRESS.streak && typeof PROGRESS.streak.bodovi === 'number') {
+      PROGRESS.streak.bodovi = Math.round(PROGRESS.streak.bodovi * f);
+    }
+    PROGRESS.postavke.skala = SKALA;
+    spremiProgress();
+  }
+
   function migrirajRjecnik() {
     var r = PROGRESS.rjecnik;
     if (!r || typeof r !== 'object') return;
@@ -3631,6 +3740,11 @@
   }
 
   // ---- valute: LP/GP/VP/PP ----
+  // Tezina izazova: koliko jedan odradjen izazov nosi U SVAKOJ valuti, kad je rijesen
+  // do kraja. Djelomicno rijesen nosi razmjeran dio. Mjera je ista za oba: ~15 bodova
+  // po imenovanom predmetu, pa se kod promjene formata ne treba rucno usklađivati.
+  var TEZINA_DAILY = 80;      // slika s 5-6 pojmova
+  var TEZINA_WEEKLY = 300;    // slika s ~20 pojmova
   // Naslovnica jednim crtanjem pita otkljucano() stotinjak puta, a svaki upit vrti
   // cijeli IGRE. KES_VAL drzi rezultat dok traje to crtanje i gasi se odmah poslije.
   var KES_VAL = null;
@@ -3649,7 +3763,8 @@
       else if (t === 'test') { testovi[g.razina] = (testovi[g.razina] || 0) + e; }
       else if (t === 'daily challenge' || t === 'weekly challenge') {
         var kk = t + '|' + g.razina;
-        if (!izazovi[kk]) izazovi[kk] = { earned: 0, max: 0, tezina: (t === 'weekly challenge' ? 15 : 5) };
+        if (!izazovi[kk]) izazovi[kk] = { earned: 0, max: 0,
+          tezina: (t === 'weekly challenge' ? TEZINA_WEEKLY : TEZINA_DAILY) };
         izazovi[kk].earned += e; izazovi[kk].max += g.bodovi;
       }
     });
@@ -3663,6 +3778,13 @@
       }
     });
     ['LP','VP','GP','PP'].forEach(function (x) { v[x] += Math.round(tf[x]); });
+    // Slikovni izazovi (weekly, i daily od DAILY_SLIKE_OD). Napredak pamte same u
+    // localStorageu, pa se ovdje samo cita: nadjeno/pojmova × tezina, u sve cetiri valute.
+    // Prije je grana za 'weekly challenge' u petlji gore postojala s tezinom 15 i nikad se
+    // nije izvrsila — u data.js nema nijedne vjezbe tog tipa, a pravi tjedni izazov nije
+    // nosio nista. Sada nosi.
+    var si = slikovniBodovi();
+    if (si) ['LP','VP','GP','PP'].forEach(function (x) { v[x] += si; });
     // Lesson 0 je besplatni izlog — ne nosi bodove ni po vježbama ni po slovima.
     // Mini igre: svaka isplaćuje isti iznos u svaku valutu, jednokratno.
     var mb = miniBodovi();
@@ -3686,11 +3808,18 @@
     if (razina <= 1) return 0;
     var kum = 0;
     for (var r = 1; r < razina; r++) kum += maksCjeline(tip, r) + maksCjeline('Test', r) / 4;
-    var k = K_PRAG[razina] || 0.99;
-    return Math.round(k * kum / 5) * 5;
+    var k = K_PRAG[razina] || 0.80;
+    // Zaokruzivanje na 50: na skali na kojoj cjelina nosi tisuce bodova, korak od 5
+    // vise nije okrugao broj nego sum.
+    return Math.round(k * kum / 50) * 50;
   }
   function otkljucano(tip, razina) {
     if (razina <= 1) return true;
+    // Razina koja je ikad bila otkljucana ostaje otkljucana. PROGRESS.vidjeno to vec
+    // biljezi (v. noveOtkljucane) i sprema se u napredak, pa ovo ne trazi novo polje.
+    // Bez toga bi svaka promjena K_PRAG-a ili tezine nekome zatvorila vrata koja su mu
+    // jucer bila otvorena — a to je jedina stvar u ekonomiji koja se ne smije dogoditi.
+    if (PROGRESS.vidjeno && PROGRESS.vidjeno[tip + '|' + razina]) return true;
     var val = VALUTA_TIPA[tip];
     if (!val) {
       // Test: sve četiri faze retka moraju biti otključane
@@ -8154,7 +8283,7 @@
         '<span class="ime">' + esc(g.ime) + '</span>' +
         '<span class="stil">' + esc(g.stil) + '</span>' +
         '<span class="opis">' + esc(g.opis) + '</span>' +
-        '<span class="podnozje"><span>' + g.maks + ' pts ×4</span>' +
+        '<span class="podnozje"><span>no points — your own text</span>' +
         '<span class="st">' + (uskoro ? 'coming soon' : '') + '</span></span>' +
         '</span></div>';
     });

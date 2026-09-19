@@ -169,7 +169,12 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "labirint";
-window.IGRA_MAKS = 100;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 10 bodova po pokupljenoj rijeci; 150 rijeci nosi puni iznos.
+function bodoviLabirinta(){ return Math.min(window.IGRA_MAKS, 10 * ((typeof S !== 'undefined' && S && S.rijeci) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -1240,15 +1245,15 @@ function poraz(){
     return CL.kraj({
       naslov:'The ghosts got you',
       tekst:'In the endless maze you cleared <b>' + S.bezRaz + '</b> levels.',
-      bodovi:RAZINA_UK*VALOVA*META_VAL, maks:RAZINA_UK*VALOVA*META_VAL,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviLabirinta(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
     naslov:'Out of hearts',
     tekst:'You reached level <b>' + (S.ir+1) + '/' + RAZINA_UK + '</b> and collected <b>' +
       S.rijeci + '</b> correct words.',
-    bodovi:S.bodovi, maks:RAZINA_UK*VALOVA*META_VAL,
+    bodovi:bodoviLabirinta(), maks:window.IGRA_MAKS,
     ponovno:odPocetka
   });
 }
@@ -1257,9 +1262,8 @@ function pobjeda(){
   CL.kraj({
     naslov:'The maze is empty!',
     tekst:'Ten categories, one hundred words — and three hearts were enough.',
-    bodovi:RAZINA_UK*VALOVA*META_VAL, maks:RAZINA_UK*VALOVA*META_VAL,
-    ponovno:odPocetka,
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviLabirinta(), maks:window.IGRA_MAKS,
+    ponovno:odPocetka
   });
 }
 

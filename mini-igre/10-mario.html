@@ -157,7 +157,12 @@ html.dodir .uputaP{display:none}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "mario";
-window.IGRA_MAKS = 50;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 20 bodova po prijedjenoj razini; 75 razina nosi puni iznos.
+function bodoviPortala(){ return Math.min(window.IGRA_MAKS, 20 * ((S && (S.bez ? S.bezRazina : S.razina)) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -1518,14 +1523,14 @@ function poraz(){
     return CL.kraj({
       naslov:'Game over',
       tekst:'In endless mode you went through <b>' + S.bezRazina + '</b> portals and flipped ' + S.gaziranih + ' crabs.',
-      bodovi:50, maks:50,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviPortala(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
     naslov:'Game over',
     tekst:'You went through <b>' + S.razina + '</b> of ' + UKUPNO + ' portals — world ' + SVJETOVI[svijetIdx()].ime + '.',
-    bodovi:Math.min(50, S.bodovi), maks:50,
+    bodovi:bodoviPortala(), maks:window.IGRA_MAKS,
     ponovno:function(){ novaIgra(); }
   });
 }
@@ -1534,9 +1539,8 @@ function pobjeda(){
   CL.kraj({
     naslov:'All three worlds!',
     tekst:'Thirty portals, both shores, and ' + S.gaziranih + ' crabs flipped on their backs.',
-    bodovi:50, maks:50,
-    ponovno:function(){ novaIgra(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviPortala(), maks:window.IGRA_MAKS,
+    ponovno:function(){ novaIgra(); }
   });
 }
 

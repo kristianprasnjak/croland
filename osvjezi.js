@@ -52,7 +52,29 @@ function imaPraznina(g) {
 const RAST_PO_RAZINI = 1.11;
 // Daily challenge se NE skalira: u valute() se pretvara preko udjela
 // (tezina × osvojeno/maksimum), pa apsolutni bodovi ionako otpadaju —
-// svaki dnevni izazov vrijedi 5 LP + 5 VP + 5 GP + 5 PP bez obzira na njih.
+// svaki dnevni izazov vrijedi TEZINA_DAILY u svakoj valuti bez obzira na njih.
+
+// ============ CILJANI ZBROJ PO CJELINI ============
+// Do sada je zbroj cjeline bio ono sto ispadne: broj vjezbi × baza × rast. Zato je
+// Vocabulary 13 s pet vjezbi nosio petinu Vocabularyja 12 sa sedamnaest, iako gradiva
+// nije manje. Sada je zbroj ZADAN, a racun gore samo dijeli te bodove unutar cjeline
+// (upis i dalje nosi vise od kartica, veca vjezba vise od manje).
+//
+// Sve cetiri vrste nose isto po razini; Test nosi koliko i jedna cjelina — i dalje se
+// u valute() dijeli na cetvrtine, pa gura sva cetvora vrata istodobno.
+// Rast je ×1,125 po razini: od toga ×1,10 nosi pojedina vjezba, a ostatak je to sto
+// svake razine vjezbi treba biti malo vise (13 na razini 1 → 20 na razini 20).
+// Zbroj razina 1..19 iznosi 100 000, a to je ujedno prag za ulaz u razinu 20.
+const CILJ_CJELINE = {
+  1: 1500, 2: 1700, 3: 1900, 4: 2150, 5: 2400, 6: 2700, 7: 3050, 8: 3400, 9: 3850, 10: 4300,
+  11: 4850, 12: 5450, 13: 6150, 14: 6900, 15: 7750, 16: 8700, 17: 9800, 18: 11000, 19: 12450, 20: 14000
+};
+// Stranica objasnjenja bez ijedne praznine: procitati je se isplati, ali se time ne
+// zaraduje. Stoji IZVAN skaliranja, pa ne jede bodove pravih vjezbi.
+const CITANJE_BODOVI = 20;
+// Vrste koje se skaliraju. Lesson 0 (razina 0) namjerno nije medu njima — ona je
+// besplatni izlog i u aplikaciji ionako ne nosi bodove.
+const SKALIRA_SE = { lesson: 1, vocabulary: 1, grammar: 1, practice: 1, test: 1 };
 
 function parseBlok(linije) {
   const r = { format: null, meta: {}, stavke: [], naslov: null, broj: null, cjelina: null };
@@ -139,7 +161,8 @@ for (const g of igre) {
     // klik na "Done reading". Jedan bod je koliko vrijedi: procitati je se
     // isplati, ali se time ne zaraduje. Cim stranica dobije "[je]" negdje u
     // recenici, postaje zadatak i boduje se normalno (v. takeTekst u index.html).
-    b = 1;
+    b = CITANJE_BODOVI;
+    g._citanje = true;          // izvan skaliranja cjeline
   } else {
     const n = g.stavke.length;
     // 1. baza po formatu
@@ -169,6 +192,50 @@ for (const g of igre) {
   }
   g.bodovi = b;
 }
+
+// ============ skaliranje cjelina na CILJ_CJELINE ============
+// Racun gore dao je RELATIVNE tezine unutar cjeline. Ovdje se cijela cjelina razvlaci
+// ili steze da pogodi zadani zbroj. Posljedica: cjelina od pet vjezbi i cjelina od
+// dvadeset na istoj razini vrijede jednako, pa kraca ima vrjednije vjezbe.
+(function skalirajCjeline() {
+  const grupe = new Map();
+  for (const g of igre) {
+    const m = g.cjelina ? g.cjelina.match(/^(.+?)\s*(\d+)$/) : null;
+    if (!m) continue;
+    const tip = m[1].trim().toLowerCase(), raz = parseInt(m[2], 10);
+    if (!SKALIRA_SE[tip] || !CILJ_CJELINE[raz]) continue;   // Lesson 0, daily, weekly
+    if (g._citanje) continue;                               // stranice za citanje stoje izvan
+    const k = tip + '|' + raz;
+    if (!grupe.has(k)) grupe.set(k, []);
+    grupe.get(k).push(g);
+  }
+  for (const [k, lista] of grupe) {
+    const cilj = CILJ_CJELINE[parseInt(k.split('|')[1], 10)];
+    let sirovo = 0;
+    for (const g of lista) sirovo += g.bodovi;
+    if (sirovo <= 0) continue;
+    const f = cilj / sirovo;
+    for (const g of lista) g.bodovi = Math.max(1, Math.round(g.bodovi * f));
+    // Zaokruzivanje odnese ili doda koji bod; visak/manjak se namiri na najvecim
+    // vjezbama, po jedan, da zbroj cjeline bude TOCNO cilj.
+    let zbroj = 0;
+    for (const g of lista) zbroj += g.bodovi;
+    let razlika = cilj - zbroj;
+    if (razlika !== 0) {
+      const red = lista.slice().sort((a, b) => b.bodovi - a.bodovi);
+      let i = 0;
+      while (razlika !== 0 && red.length) {
+        const g = red[i % red.length];
+        if (razlika > 0) { g.bodovi++; razlika--; }
+        else if (g.bodovi > 1) { g.bodovi--; razlika++; }
+        i++;
+        if (i > red.length * 1000) break;   // zastita od beskonacne petlje
+      }
+    }
+  }
+  for (const g of igre) delete g._citanje;
+})();
+
 igre.sort((a, b) => (a.sortkljuc - b.sortkljuc) || String(a.naslov).localeCompare(String(b.naslov)));
 
 // slike: naziv datoteke = hrvatska rijec/fraza

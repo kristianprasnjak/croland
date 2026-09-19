@@ -180,7 +180,10 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "skladiste";
-window.IGRA_MAKS = 100;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -946,9 +949,9 @@ function kraj(){
     naslov:'The warehouse is empty!',
     tekst:'Job: <b>' + S.u.ulog + '</b> · ' + S.u.katova + ' floors · ' +
       S.ukupnoDostavljeno + ' boxes delivered · wrong bays: ' + S.greske + ' (−' + kazna + ').',
-    bodovi:bodovi, maks:100,
-    ponovno:function(){ S = null; izborUloga(); },
-    beskonacno:pokreniBezKraja
+    // odabrani posao x 10, umanjen za kaznu; najveci posao (100) nosi 1000
+    bodovi:Math.min(window.IGRA_MAKS, bodovi * 10), maks:window.IGRA_MAKS,
+    ponovno:function(){ S = null; izborUloga(); }
   });
 }
 

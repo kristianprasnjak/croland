@@ -172,7 +172,12 @@ input.upis:focus{outline:none;background:var(--papir2)}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "konoba";
-window.IGRA_MAKS = 50;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 10 bodova po izdanoj narudzbi; 150 narudzbi nosi puni iznos.
+function bodoviKonobe(){ return Math.min(window.IGRA_MAKS, 10 * ((S && S.posluzeno) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -927,8 +932,8 @@ function kraj(){
       naslov:'The tavern is closing',
       tekst:'Across the night shifts you served <b>' + S.posluzeno + '</b> guests over ' +
         S.bezSmjena + ' shifts.',
-      bodovi:50, maks:50,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviKonobe(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   clearInterval(S.sat);
@@ -936,9 +941,8 @@ function kraj(){
     naslov: S.posluzeno >= UKUPNO_GOSTIJU ? 'A perfect day!' : 'The tavern is closing',
     tekst:'Served: <b>' + S.posluzeno + '</b> of ' + UKUPNO_GOSTIJU + ' guests across twenty shifts. ' +
       'Left without their food: ' + S.izgubljeno + '. From a single coffee to a rush of three-item orders, adjectives and guests who give you no translation.',
-    bodovi:Math.min(50, Math.round(S.posluzeno / UKUPNO_GOSTIJU * 50)), maks:50,
-    ponovno:function(){ location.reload(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviKonobe(), maks:window.IGRA_MAKS,
+    ponovno:function(){ location.reload(); }
   });
 }
 

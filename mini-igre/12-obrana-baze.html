@@ -159,7 +159,12 @@ html,body{height:100%;overflow:hidden}
 <div class="omot" id="omot"></div>
 <script>
 window.IGRA_ID = "obrana";
-window.IGRA_MAKS = 40;
+/* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
+   ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
+   ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
+window.IGRA_MAKS = 1500;
+// 20 bodova po oborenoj meti; 75 meta nosi puni iznos.
+function bodoviObrane(){ return Math.min(window.IGRA_MAKS, 20 * ((S && S.srusenih) || 0)); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -796,7 +801,7 @@ function krajVala(){
 
 function pokreniBezKraja(){
   CL.zatvoriZastore();
-  S = {val:0, srca:3, bodovi:40, radi:true, pale:[], preostalo:0, raketa:null,
+  S = {val:0, srca:3, bodovi:window.IGRA_MAKS, radi:true, pale:[], preostalo:0, raketa:null,
        bez:true, odbijeno:0, srusenih:0};
   CL.poruka('Endless siege — the waves never stop now.', 'dobro');
   pocniVal();
@@ -809,14 +814,14 @@ function poraz(){
       naslov:'The base has fallen',
       tekst:'In the endless siege you held off <b>' + S.odbijeno + '</b> waves and shot down <b>' +
         S.srusenih + '</b> targets.',
-      bodovi:40, maks:40,
-      ponovno:pokreniBezKraja, beskonacno:pokreniBezKraja
+      bodovi:bodoviObrane(), maks:window.IGRA_MAKS,
+      ponovno:pokreniBezKraja
     });
   }
   CL.kraj({
     naslov:'The base has fallen',
     tekst:'You repelled <b>' + S.val + '</b> of ' + UKUPNO_VALOVA + ' waves — ' + S.srusenih + ' targets shot down.',
-    bodovi:Math.min(40, Math.round(S.val / UKUPNO_VALOVA * 40)), maks:40,
+    bodovi:bodoviObrane(), maks:window.IGRA_MAKS,
     ponovno:function(){ novaIgra(); }
   });
 }
@@ -827,9 +832,8 @@ function pobjeda(){
     naslov:'The base is safe!',
     tekst:'Fifteen waves, five kinds of target and ' + S.srusenih + ' words shot down. ' +
       'The siege can go on if you want it to.',
-    bodovi:40, maks:40,
-    ponovno:function(){ novaIgra(); },
-    beskonacno:pokreniBezKraja
+    bodovi:bodoviObrane(), maks:window.IGRA_MAKS,
+    ponovno:function(){ novaIgra(); }
   });
 }
 
