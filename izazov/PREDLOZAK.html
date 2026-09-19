@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* PREDLOŽAK za novi slikovni izazov. Kopiraj u daily/ (ili weekly/), preimenuj
+   u <datum>-<id>.html, zamijeni podatke i upiši ga u index.html (DAILY_SLIKE).
+   Mehanika je u izazov/motor.js — ovdje su samo podaci.
+
+   x, y, w, h su postotci slike (0-100), mjereni od gornjeg lijevog kuta.
+   o = svi prihvaćeni odgovori: mala slova, bez kvačica, jednina i množina,
+   padeži koje očekuješ i uobičajeni sinonimi. */
+window.IZAZOV = {
+  id: "kuhinja",
+  vrsta: "daily",
+  ime: "Kuhinja",
+  stil: "the kitchen",
+  slika: "slike/kuhinja.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.kuhinja.2026-09-20",
+  uvod: "Five things are hiding in this picture. Tap one — it lights up — then type its Croatian name.",
+  kraj: "All five, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"stol",    x:20.0, y:55.0, w:18.0, h:14.0, o:["stol","stola","stolovi"]},
+    {id:"stolica", x:40.0, y:55.0, w:10.0, h:20.0, o:["stolica","stolice","stolicu"]},
+    {id:"casa",    x:55.0, y:48.0, w:6.0,  h:9.0,  o:["casa","case","casu","staklo nije"]},
+    {id:"tanjur",  x:62.0, y:52.0, w:9.0,  h:7.0,  o:["tanjur","tanjura","tanjuri"]},
+    {id:"noz",     x:72.0, y:52.0, w:6.0,  h:6.0,  o:["noz","noza","nozevi"]}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

@@ -2395,3 +2395,10 @@ gljive
 11
 12
 popodne
+
+head
+eye
+nose
+arm
+leg
+ear

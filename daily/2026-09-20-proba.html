@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Tržnica (proba)</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* PROBA — dok ne stigne prva prava daily slika.
+   Posuđuje weekly sliku tržnice i iz nje traži samo pet pojmova, da se vidi kako
+   dnevni izazov izgleda i radi. Kad stigne prava slika, ova datoteka se briše i
+   miče iz DAILY_SLIKE u index.html. */
+window.IZAZOV = {
+  id: "proba",
+  vrsta: "daily",
+  ime: "Tržnica",
+  stil: "five things at the market",
+  slika: "../weekly/slike/trznica.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.proba.2026-09-20",
+  uvod: "Five things are hiding in this picture. Tap one — it lights up — then type its Croatian name.",
+  kraj: "All five, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"jabuke", x:19.0, y:50.0, w:9.0,  h:9.0,  o:["jabuka","jabuke","jabuku","crvene jabuke"]},
+    {id:"kruh",   x:45.5, y:51.5, w:6.8,  h:7.5,  o:["kruh","kruha","kruhovi","hljeb","hljeba","struca"]},
+    {id:"sir",    x:52.3, y:51.5, w:5.5,  h:7.5,  o:["sir","sira","sirevi","kolut sira"]},
+    {id:"macka",  x:61.8, y:77.5, w:6.8,  h:15.0, o:["macka","macke","macku","macak","maca","mace"]},
+    {id:"pas",    x:84.0, y:72.5, w:9.5,  h:20.0, o:["pas","psa","psi","pseto","psic"]}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

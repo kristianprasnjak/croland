@@ -1,0 +1,21 @@
+﻿py.exe : C:\Python314\python.exe: No module named edge_tts
+At C:\Users\Korisnik\Claude\Projects\croland app v0.11\generiraj-zvuk.ps1:55 char:17
++ ... $izlazTTS = & py -m edge_tts --voice $glas --text $r --write-media $d ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Python314\py... named edge_tts:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+py.exe : usage: __main__.py [-h] [-t TEXT] [-f FILE] [-v VOICE] [-l] [--rate RATE]
+At C:\Users\Korisnik\Claude\Projects\croland app v0.11\generiraj-zvuk.ps1:101 char:17
++ ... $izlazTTS = & $ttsExe @($ttsArgs + @('-m','edge_tts','--voice',$glas, ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (usage: __main__...] [--rate RATE]:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                   [--volume VOLUME] [--pitch PITCH]
+                   [--write-media WRITE_MEDIA]
+                   [--write-subtitles WRITE_SUBTITLES] [--proxy PROXY]
+                   [--version]
+__main__.py: error: unrecognized arguments: jutro!
+

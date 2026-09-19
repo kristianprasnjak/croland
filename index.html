@@ -3017,6 +3017,13 @@
   function dailyPodnaslov() {
     var niz = streakNiz();
     var pre = niz > 0 ? niz + ' day streak · ' : '';
+    // slikovni daily (od DAILY_SLIKE_OD) ima prednost pred starim formatom
+    var dsl = dailySlikaDanas();
+    if (dsl) {
+      var nd = dailySlikaNadjeno(dsl);
+      return pre + 'today: ' + dsl.ime + (nd >= dsl.pojmova ? ' ✓' : ' · ' + nd + '/' + dsl.pojmova);
+    }
+    if (dailySlikaEra()) return pre + 'no challenge today';
     var n = dailyDanasnji();
     var igre = n === null ? [] : igreCjeline('Daily challenge', n);
     if (igre.length === 0) return pre + 'no challenge today';
@@ -3081,6 +3088,47 @@
       return Object.keys(st.rijeseni || {}).length;
     } catch (e) { return 0; }
   }
+
+  // ---- Daily challenge: slikovni izazovi ----
+  // Od 20. rujna 2026. daily ima isti oblik kao weekly, samo manji: jedna slika i
+  // pet pojmova. Datoteke su u mapi daily/, motor im je zajednicki (izazov/motor.js).
+  // Bodova nema — daily nosi streak: kad igrac nadje svih pet, izazov to javi
+  // aplikaciji (window.crolandIzazovGotov) i dan se upisuje u niz.
+  var DAILY_MAPA = 'daily/';
+  var DAILY_SLIKE_OD = '2026-09-20';           // od ovog datuma daily je slikovni
+  var DAILY_SLIKE = [
+    { id: 'proba', dat: '2026-09-20-proba.html', ime: 'Tržnica', stil: 'Five things at the market',
+      emo: '🍎', datum: '2026-09-20', pojmova: 5,
+      kljuc: 'croland.daily.proba.2026-09-20',
+      opis: 'Tap five things in the picture and type their Croatian names.' }
+  ];
+  function dailySlikaPoId(id) {
+    for (var i = 0; i < DAILY_SLIKE.length; i++) if (DAILY_SLIKE[i].id === id) return DAILY_SLIKE[i];
+    return null;
+  }
+  // Izazov dana: onaj cijim datumom (YYYY-MM-DD) je oznacen. Nema li ga za danas,
+  // vraca null — popis se puni unaprijed, dan po dan.
+  function dailySlikaDanas() {
+    var k = datumKljuc(danasDatum());
+    for (var i = 0; i < DAILY_SLIKE.length; i++) if (DAILY_SLIKE[i].datum === k) return DAILY_SLIKE[i];
+    return null;
+  }
+  // Je li danasnji dan vec u slikovnom razdoblju (prije toga vrijedi stari format)
+  function dailySlikaEra() { return datumKljuc(danasDatum()) >= DAILY_SLIKE_OD; }
+  function dailySlikaNadjeno(d) {
+    try {
+      var st = JSON.parse(localStorage.getItem(d.kljuc) || '{}');
+      return Object.keys(st.rijeseni || {}).length;
+    } catch (e) { return 0; }
+  }
+  // Motor javlja da je izazov dovrsen. Streak pali samo danasnji daily; weekly, kao
+  // i dosad, ne nosi nista osim sebe.
+  window.crolandIzazovGotov = function (p) {
+    if (!p || p.vrsta !== 'daily') return;
+    var d = dailySlikaDanas();
+    if (!d || d.id !== p.id) return;
+    if (streakOznaci()) osvjeziHeader();
+  };
 
   // ---- Extras ----
   // Vlastiti odjeljak iznad mini igara: jedan naslov, veca slika, vise prostora.
@@ -7272,7 +7320,7 @@
     var kartaVida = { main: 'main',
       lessons: 'lessons', unit: 'lessons', igra: 'lessons', sazetak: 'lessons',
       dictionary: 'dictionary', dictTest: 'dictionary', mini: 'mini', miniIgra: 'mini',
-      daily: 'daily', weekly: 'daily', account: 'account', progress: 'progress', options: 'options' };
+      daily: 'daily', weekly: 'daily', dailySlika: 'daily', account: 'account', progress: 'progress', options: 'options' };
     var cilj = kartaVida[view] || '';
     // Daily challenge se igra kao cjelina, ali u izborniku pripada Dailyju
     if (view === 'unit' && ZADNJI_VIEW && ZADNJI_VIEW.arg1 === 'Daily challenge') cilj = 'daily';
@@ -7626,7 +7674,7 @@
       if (pristup === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristup === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
       if (pristup === 'needsSubscription') { prikaziModalPretplata(); return; }
-    } else if (view === 'miniIgra' || view === 'weekly') {
+    } else if (view === 'miniIgra' || view === 'weekly' || view === 'dailySlika') {
       var pristupM = imaPristup('MiniGame', 0);
       if (pristupM === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristupM === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
@@ -7656,6 +7704,7 @@
     else if (view === 'miniIgra') renderMiniIgra(arg1);
     else if (view === 'daily') renderDaily();
     else if (view === 'weekly') renderWeekly(arg1);
+    else if (view === 'dailySlika') renderDailySlika(arg1);
     else if (view === 'account') renderAccount();
     else if (view === 'progress') renderProgress();
     else if (view === 'options') renderOptions();
@@ -10277,7 +10326,18 @@
         : 'Play today\'s challenge for +' + streakSljedeciBodovi() + ' points' +
           (niz > 0 ? ' and keep the streak alive.' : ' and start a streak.')) +
       '</div></div></div>';
-    if (igre.length === 0) {
+    // Slikovni daily ima prednost: ako za danas postoji slika, stari format se ni ne gleda.
+    var dsl = dailySlikaDanas();
+    if (dsl) {
+      var dnadjeno = dailySlikaNadjeno(dsl);
+      html += '<div class="dcDatum">' + dailyDatumTekst() + '</div>' +
+        '<div class="dcRed" onclick="idi(\'dailySlika\',\'' + dsl.id + '\')">' +
+        '<span>' + IK('plamen', 'uz') + '<strong>Today</strong> — ' + esc(dsl.ime) + ' · ' + esc(dsl.stil) + '</span>' +
+        '<span class="pct">' + dnadjeno + ' / ' + dsl.pojmova + '</span></div>' +
+        '<div class="dcNapomena">One picture a day. Tap an object, type the Croatian word — no list, no answers given away.</div>';
+    } else if (dailySlikaEra()) {
+      html += '<div class="zakljBanner">Today\'s challenge is not ready yet. Check back soon.</div>';
+    } else if (igre.length === 0) {
       html += dailyIndeksDana() >= dailyBrojevi().length
         ? '<div class="zakljBanner">You have reached the end of the daily challenges. 🎉 New ones are on the way.</div>'
         : '<div class="zakljBanner">Today\'s challenge is not ready yet. Check back soon.</div>';
@@ -10313,15 +10373,16 @@
   // ---- Weekly challenge (slikovni) ----
   // Igra je samostalna datoteka u okviru visine ekrana, kao polozene mini-igre,
   // samo bez bodova i bez okretanja: slika je uspravna i radi u portretu.
-  function renderWeekly(id) {
-    var w = weeklySlikaPoId(id);
+  // Daily i weekly dijele motor, pa dijele i okvir: jedina razlika je iz koje mape
+  // dolazi datoteka i sto pise u podnaslovu.
+  function renderIzazovSlika(mapa, w) {
     if (!w) { renderDaily(); return; }
     mjeriZaglavlje();
     window.scrollTo(0, 0);
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
       '<div class="miniScena"><div class="miniPozornica">' +
-      '<iframe id="weeklyOkno" src="' + WEEKLY_MAPA + w.dat + '" title="' + esc(w.ime) + '" allow="fullscreen" allowfullscreen></iframe>' +
+      '<iframe id="weeklyOkno" src="' + mapa + w.dat + '" title="' + esc(w.ime) + '" allow="fullscreen" allowfullscreen></iframe>' +
       '</div></div>' +
       '<div class="alat">' +
       '<span class="nas">' + w.emo + ' ' + esc(w.ime) + '</span>' +
@@ -10330,6 +10391,8 @@
       '</div>' +
       '</div>';
   }
+  function renderWeekly(id) { renderIzazovSlika(WEEKLY_MAPA, weeklySlikaPoId(id)); }
+  function renderDailySlika(id) { renderIzazovSlika(DAILY_MAPA, dailySlikaPoId(id)); }
 
   // ---- Account ----
   var PRETPLATA_UCITAVA = false;
