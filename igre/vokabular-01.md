@@ -3,7 +3,7 @@ cjelina: Vocabulary 1
 
 ## Words you already know (cognates)
 format: kartice
-info: Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *muzika* keeps a buzzing *z*. Read every card aloud once.
+info: Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *taksi* writes the English x as *ks*. Read every card aloud once.
 opis: Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap a card to reveal its meaning.
 - hotel | hotel
 - banana | banana
@@ -11,7 +11,7 @@ opis: Your first Croatian flashcard deck — every word sounds exactly as it's w
 - restoran | restaurant
 - automobil | car
 - telefon | telephone
-- muzika | music
+- film | film
 - problem | problem
 - sport | sport
 - taksi | taxi
@@ -27,7 +27,7 @@ opis: You just met them — now catch them! Tap the English meaning before the t
 - restoran | restaurant
 - automobil | car
 - telefon | telephone
-- muzika | music
+- film | film
 - problem | problem
 - sport | sport
 - taksi | taxi
@@ -156,8 +156,8 @@ opis: Careful — **nj** is one letter in Croatian, and the letters with diacrit
 - automobil | car
 - prozor | window
 - krevet | bed
-- žuta | yellow
-- zelena | green
+- žut | yellow
+- zelen | green
 
 ## Type it in Croatian
 format: upis

@@ -706,6 +706,14 @@ function sobaPo(id){ return SOBE.filter(function(s){ return s.id === id; })[0]; 
 function sljedeca(s){ return SOBE[SOBE.indexOf(s) + 1]; }
 
 /* ---------- stanje (sprema se, igra se nastavlja gdje je stala) ---------- */
+/* Bodovi: svaka soba nosi svoju tezinu iz SOBE × 15 (tezine zbrajaju 100, dakle svih
+   12 soba = 1500). Racuna se iz rijesenih soba, ne iz zbroja, pa i stara spremljena
+   prica odmah pokaze tocan broj. */
+function bodoviTvrdjave(){
+  var n = 0;
+  SOBE.forEach(function(x){ if (S && S.rijesene && S.rijesene[x.id]) n += (x.bodovi || 0) * 15; });
+  return Math.min(window.IGRA_MAKS, n);
+}
 function novoStanje(){ return {soba:'vrata', rijesene:{}, kljucevi:[], bodovi:0}; }
 var S = (function(){
   var p = CL.stanje().prica;
@@ -725,7 +733,7 @@ ploha.className = 'ploha';
 O.appendChild(ploha);
 
 function osvjeziHud(){
-  CL.el('zBod').innerHTML = '⭐ ' + S.bodovi;
+  CL.el('zBod').innerHTML = '⭐ ' + bodoviTvrdjave();
   CL.el('zKlj').innerHTML = '🗝 ' + Object.keys(S.rijesene).length + '/' + SOBE.length;
 }
 
@@ -854,7 +862,7 @@ function udi(s){
 
 function sobaGotova(s, poruka){
   var n = sljedeca(s);
-  if (!S.rijesene[s.id]){ S.rijesene[s.id] = true; S.bodovi += s.bodovi; }
+  if (!S.rijesene[s.id]){ S.rijesene[s.id] = true; S.bodovi = bodoviTvrdjave(); }
   if (n && S.kljucevi.indexOf(n.id) < 0) S.kljucevi.push(n.id);
   spremiPricu(); osvjeziHud(); crtajKartu();
   CL.pip(true); CL.konfeti(24);
@@ -1477,9 +1485,7 @@ function kraj(){
     naslov:'Galebnjak is saved',
     tekst:'Twelve rooms, twelve keys: from a ring of unlabelled keys to a town council vote. ' +
       'The charter stays with the town, and the museum opens on Saturday.',
-    // sobe interno zbrajaju 100; zavrsni ekran i naplata idu u bodovima aplikacije
-    bodovi:Math.round(S.bodovi / SOBE.reduce(function(a,x){return a+(x.bodovi||0);},0) * window.IGRA_MAKS),
-    maks:window.IGRA_MAKS,
+    bodovi:bodoviTvrdjave(), maks:window.IGRA_MAKS,
     ponovno:function(){ S = novoStanje(); spremiPricu(); postaviIgru(); udi(SOBE[0]); }
   });
 }

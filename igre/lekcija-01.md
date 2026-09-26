@@ -5,7 +5,7 @@ cjelina: Lesson 1
 format: tekst
 info: A short read to set up the lesson: Croatian is spelled exactly as it sounds, and it has **no articles** at all, so *kuća* covers house, a house and the house. The one new word today is **je**, meaning *is*, as in *Kava je dobra.*
 - Welcome to your first real Croatian lesson!
-- **You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say.
+- **You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *gitara* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say.
 - **Today's one new word is je.** It means *is*, and it goes between the thing and its description: *Kava je dobra.* — The coffee is good.
 - **There is no "the" and no "a".** Croatian skips articles entirely, so *kuća* covers house, a house and the house. One less thing to learn.
 - **Fill in the word and the lesson is yours.** Kava [je] dobra. Automobil [je] brz.
@@ -22,7 +22,7 @@ opis: Quick warm-up — and an easy one. Croatian borrowed these words too, so y
 - restoran | restaurant
 - automobil | car
 - telefon | telephone
-- muzika | music
+- film | film
 - problem | problem
 - sport | sport
 - taksi | taxi
@@ -95,7 +95,7 @@ opis: Watch the adjective's ending — it changes to match the noun. velik grad,
 ## Which ending fits?
 format: izbor
 info: You pick the description whose ending echoes the noun. A noun ending in a consonant takes the bare form (*Automobil je velik*), a noun in **-a** takes **-a** (*Kuća je velika*), and a noun in **-o** or **-e** takes **-o** (*More je plavo*).
-opis: Same meaning, three endings. Pick the one that matches the noun.
+opis: Same meaning, three endings. Look at the last letter of the noun: a consonant takes the short form (velik grad), -a takes -a (velika kuća), -o or -e takes -o (veliko more).
 - The house is red. | Kuća je crvena. | Kuća je crven. | Kuća je crveno.
 - The car is big. | Automobil je velik. | Automobil je velika. | Automobil je veliko.
 - The sea is blue. | More je plavo. | More je plav. | More je plava.
@@ -170,7 +170,7 @@ format: provjera
 info: The scored mix of everything above, and 80% opens Vocabulary 1. Two things carry most of the points: **je** for *is*, and a description whose ending matches its noun, as in *Kava je dobra* and *More je plavo*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 1.
-- slaganje | Kuća je velika.
+- slaganje | Kuća je velika. | en: The house is big.
 - izbor | Kava je ___ | dobra | dobar | dobro
 - izbor | More je ___ | plavo | plav | plava
 - upis | Automobil ___ brz. | je

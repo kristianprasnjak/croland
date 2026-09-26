@@ -164,7 +164,7 @@ window.IGRA_ID = "obrana";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 20 bodova po oborenoj meti; 75 meta nosi puni iznos.
-function bodoviObrane(){ return Math.min(window.IGRA_MAKS, 20 * ((S && S.srusenih) || 0)); }
+function bodoviObrane(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -681,7 +681,7 @@ CL.el('tipkeO').addEventListener('click', function(e){
     S.raketa = {x1: Š/2, y1: BAZA, x2: meta.x, y2: meta.y, t:0};
     S.pale.splice(S.pale.indexOf(meta), 1);
     S.srusenih++;
-    S.bodovi = Math.min(40, S.bodovi + 1);
+    S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 20);   // 20 po oborenoj meti
     S.preostalo--;
     CL.pip(true);
     CL.zvukRijeci(meta.rijec); CL.ucenje(meta.rijec.id, true);
@@ -778,7 +778,7 @@ function crtaj(){
 
 function krajVala(){
   S.odbijeno++;
-  S.bodovi = Math.min(40, S.bodovi + 2);
+  // bodovi idu samo za oborene mete — odbijeni val sam po sebi ne nosi nista
   S.val++;
   var jakBio = S.v && S.v.jak;
   if (jakBio && S.srca < 3){ S.srca++; }

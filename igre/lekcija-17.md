@@ -117,14 +117,14 @@ opis: A tourist asks you for directions. Be the local hero!
 format: provjera
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 18.
-- slaganje | Na semaforu skrenite lijevo.
+- slaganje | Na semaforu skrenite lijevo. | en: At the traffic lights, turn left.
 - izbor | (grupi) ___ ! | Dođite | Dođi
 - upis | Napravi zapovijed: ti ideš → | Idi
 - upis | Reci nježno "nemoj": Gledaj telefon! → | Nemoj gledati telefon / Ne gledaj telefon
 - izbor | Što znači "ravno"? | straight | left | right
 - izbor | Prvi korak recepta je... | Uzmi jaja, brašno i mlijeko. | Peci palačinku.
 - izbor | Naredba grupi je... | Pijte vodu! | Piju vodu!
-- slaganje | Uzmite kartu i idite na kolodvor.
+- slaganje | Uzmite kartu i idite na kolodvor. | en: Take a ticket and go to the station.
 
 ## Reward & preview
 format: tekst

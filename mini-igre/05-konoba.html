@@ -177,7 +177,7 @@ window.IGRA_ID = "konoba";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 10 bodova po izdanoj narudzbi; 150 narudzbi nosi puni iznos.
-function bodoviKonobe(){ return Math.min(window.IGRA_MAKS, 10 * ((S && S.posluzeno) || 0)); }
+function bodoviKonobe(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -808,7 +808,7 @@ function posluzi(id, gumb){
       CL.pip(true); CL.zvuk('rijec-' + id + '.mp3');
       if (g.trazi.every(function(t){ return g.doneseno.indexOf(t)>=0; })){
         g.gotov = true; S.posluzeno++;
-        S.bodovi = Math.min(50, S.bodovi + 1);
+        S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 10);   // 10 po izdanoj narudzbi
         var bonus = TIPOVI[g.tip].bonus;
         CL.poruka('Table ' + g.stol + ' is happy!' + (bonus ? ' A tough guest — nice work!' : ''), 'dobro');
         setTimeout(function(){ makniGosta(g); }, 700);

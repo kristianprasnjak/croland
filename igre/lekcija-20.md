@@ -107,7 +107,7 @@ opis: The course final! Everything you've learned, one last time. Spreman? Sprem
 - upis | (L8) Pretvori u futur: Plivam. → | Plivat ću / Ja ću plivati
 - izbor | (L9) ___ gitara je nova. | moja | moj
 - upis | (L10) Jučer sam ___ film. (gledati) | gledao / gledala
-- slaganje | (L11) Gdje živiš?
+- slaganje | Gdje živiš? | en: (L11) Where do you live?
 - upis | (L12) Negiraj: Imam vremena. → | Nemam vremena
 - izbor | (L13) Živim ___ . | u gradu | u grad
 - upis | (L14) Šaljem pismo ___ . (baka) | baki
@@ -116,7 +116,7 @@ opis: The course final! Everything you've learned, one last time. Spreman? Sprem
 - upis | (L17) Zapovijed grupi: ići → | Idite
 - upis | (L18) Ja ___ kupio brod. | bih
 - izbor | (L19) Napokon je ___ pismo! | napisao | pisao
-- slaganje | (L20) Učim hrvatski jer volim jezik koji zvuči kao glazba.
+- slaganje | Učim hrvatski jer volim jezik koji zvuči kao glazba. | en: (L20) I am learning Croatian because I love a language that sounds like music.
 
 ## CONGRATULATIONS! 🎓
 format: tekst

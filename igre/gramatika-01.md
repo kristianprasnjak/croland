@@ -47,7 +47,7 @@ info: The core agreement rule plus two extras: an adjective takes **consonant, -
 - tab: Pattern | Croatian | English
 - tab: (noun) + je + (adjective) | Kava je dobra. | The coffee is good.
 - tab: Ovo je + (noun) | Ovo je kuća. | This is a house.
-- **Now you write them.** Grad je [velik]. Kuća je [velika]. More je [veliko].
+- **Now you write them.** Say that all three are big: Grad je [velik/veliki]. Kuća je [velika]. More je [veliko].
 
 ## Pick the adjective
 format: izbor
@@ -78,7 +78,7 @@ info: The page that explains the extra vowel in *dobar*, *hladan* and *topao*: i
 - **Not every word does this.** *mekan* keeps everything it has: *mekan krevet*, *mekana soba*, *mekano more*. So don't assume every **-an** drops its vowel.
 - The safe habit: **learn the masculine and the feminine together** — *dobar / dobra*, *topao / topla*, *sladak / slatka*, *mekan / mekana*. Once you have that pair, the neuter is just the feminine with **-o**.
 - Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it.
-- **Now you write them.** Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka].
+- **Now you write them.** Keep the same adjective and give it the ending of the new noun: Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka].
 
 ## Type the adjective
 format: upis
@@ -136,7 +136,7 @@ info: The negative counterpart: **nije** means *isn't* and is written as one wor
 - **The adjective stays exactly as it was.** Only *je* changes to *nije*; the adjective keeps copying the noun: *Kuća nije velik**a***, *More nije plav**o***. The ending doesn't flinch.
 - **Never *ne je*.** *ne* and *je* fused into a single word long ago. The same thing happened to the whole verb *biti* — *nisam, nisi, nije...* — and you'll get the full table in Grammar 2. Today one form is enough to contradict anything.
 - **A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*
-- **Now you write them.** Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća.
+- **Now you write them.** Say that none of it is true: Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća.
 
 ## Yes or no?
 format: izbor

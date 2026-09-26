@@ -318,7 +318,7 @@ format: provjera
 info: The end of Module B, so this check covers the past tense and reaches back over Lessons 5–9. For the past, two things carry the points: the participle ending must match the gender (*je igrao / je igrala*), and the helper *sam, je, smo* can never open a sentence. Where *ja* is the subject, either gender is accepted.
 prag: 80
 opis: The big one! Pass this checkpoint to complete Lessons 1–10 — half the course!
-- slaganje | Jučer smo gledali film.
+- slaganje | Jučer smo gledali film. | en: Yesterday we watched a film.
 - izbor | Ana ___ pizzu. | je jela | je jeo | smo jeli
 - upis | Napiši particip: piti (ona) → | pila
 - upis | Pretvori u perfekt: Čitam knjigu. → | Čitao sam knjigu / Čitala sam knjigu
@@ -327,7 +327,7 @@ opis: The big one! Pass this checkpoint to complete Lessons 1–10 — half the 
 - izbor | More ___ toplo. | je bilo | je bio | je bila
 - upis | Mi ___ na koncertu. (biti) | smo bili
 - izbor | Što znači "jučer"? | yesterday | tomorrow | today
-- slaganje | Ana je pjevala, a Marko je svirao gitaru.
+- slaganje | Ana je pjevala, a Marko je svirao gitaru. | en: Ana sang, and Marko played the guitar.
 - upis | (Lesson 5) Volim ___ . (čokolada) | čokoladu
 - izbor | (Lesson 6) Čekam ___ . | prijatelja | prijatelj
 - upis | (Lesson 7) Napiši množinu: dijete → | djeca

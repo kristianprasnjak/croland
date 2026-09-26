@@ -116,14 +116,14 @@ opis: Your friend is curious about your gift plans. Answer away!
 format: provjera
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 15.
-- slaganje | Mami kupujem šal.
+- slaganje | Mami kupujem šal. | en: I am buying a scarf for Mum.
 - izbor | Dajem loptu ___ . | bratu | brat
 - upis | Napiši dativ: sestra → | sestri
 - izbor | Što znači "slati"? | to send | to give | to carry
 - izbor | ___ pišeš? — Baki. | Komu | Koga
 - upis | Nosim novine ___ . (susjed) | susjedu
 - izbor | Koja je rečenica točna? | Šaljem paket sestri. | Šaljem paket sestra.
-- slaganje | Djedu nosim kolače jer voli slatko.
+- slaganje | Djedu nosim kolače jer voli slatko. | en: I am bringing Grandpa cakes because he likes sweet things.
 
 ## Reward & preview
 format: tekst

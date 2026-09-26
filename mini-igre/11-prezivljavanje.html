@@ -576,7 +576,7 @@ function osvjezi(){
   CL.el('zEtapa').innerHTML = S.bez ? '♾ <b>endless</b>' : '🎯 <b>' + (S.etapa+1) + '</b>/5';
   CL.el('zNiz').innerHTML = S.bez
     ? '🔥 <b>' + S.niz + '</b> in a row'
-    : '✅ <b>' + S.tocno + '</b>/' + CILJ;
+    : '✅ <b>' + S.tocno + '</b>/' + CILJ + ' · ⭐ <b>' + bodovi() + '</b>';
   CL.el('zSrca').innerHTML = CL.srca(S.srca);
   CL.el('zSat').innerHTML = '⏱ <b>' + S.preostalo.toFixed(1) + '</b>';
   crtajTrak(); crtajNapredak();

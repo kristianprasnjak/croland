@@ -565,9 +565,9 @@ var S = { n:1, srca:3, rekord: CL.stanje().rekord || 0, zadnji:[], bez:false, be
 function osvjezi(){
   CL.el('zRazina').innerHTML = S.bez
     ? '♾ <b>' + S.bezRazina + '</b>'
-    : '🎯 <b>' + S.n + '</b>/' + MAKS_RAZINA;
+    : '🎯 <b>' + S.n + '</b>/' + MAKS_RAZINA + ' · ⭐ <b>' + bodoviPamti() + '</b>';
   CL.el('zSrca').innerHTML = CL.srca(S.srca);
-  CL.el('zRekord').innerHTML = '🏅 <b>' + S.rekord + '</b>';
+  CL.el('zRekord').innerHTML = '🏅 <b>' + Math.min(window.IGRA_MAKS, 20 * Math.max(0, (S.rekord || 1) - 1)) + '</b>';
   CL.el('opisR').textContent = opisRazine(S.n);
   var pct = Math.min(100, Math.round(S.n / MAKS_RAZINA * 100));
   CL.el('trakaR').style.width = pct + '%';

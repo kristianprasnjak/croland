@@ -111,14 +111,14 @@ opis: Friday evening phone call — find out where everyone is!
 format: provjera
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 14.
-- slaganje | Ja sam u gradu.
+- slaganje | Ja sam u gradu. | en: I am in town.
 - izbor | Ana trenira ___ . | u teretani | u teretanu
 - upis | Kupujem kruh u ___ . (pekara) | pekari
 - izbor | "Idem u kino." — kretanje ili mjesto? | kretanje | mjesto
 - izbor | Što znači "kazalište"? | theater | post office | office
 - izbor | Koja je rečenica točna? | Živim u Zagrebu. | Živim u Zagreb.
 - upis | Mi smo na ___ . (trg) | trgu
-- slaganje | U muzeju je tiho, a u kafiću nije!
+- slaganje | U muzeju je tiho, a u kafiću nije! | en: It is quiet in the museum, but not in the café!
 
 ## Reward & preview
 format: tekst

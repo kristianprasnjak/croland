@@ -174,7 +174,7 @@ window.IGRA_ID = "labirint";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 10 bodova po pokupljenoj rijeci; 150 rijeci nosi puni iznos.
-function bodoviLabirinta(){ return Math.min(window.IGRA_MAKS, 10 * ((typeof S !== 'undefined' && S && S.rijeci) || 0)); }
+function bodoviLabirinta(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -1150,7 +1150,7 @@ function provjeriTocku(){
     if (t.uzeta || t.p[0] !== S.x || t.p[1] !== S.y) continue;
     t.uzeta = true;
     if (t.meta){
-      S.bodovi = Math.min(RAZINA_UK*VALOVA*META_VAL, S.bodovi + 1);
+      S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 10);   // 10 po pokupljenoj rijeci
       S.rijeci++;
       S.pojedeno.push(t.r);
       CL.ton(880,.07); CL.ucenje(CL.slug(t.r), true);

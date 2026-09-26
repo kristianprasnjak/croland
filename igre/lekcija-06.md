@@ -226,7 +226,7 @@ format: provjera
 info: The mixed check on this whole lesson. One sentence covers most of it: a masculine being takes **-a**, a masculine thing stays put, and a feminine **-a** turns into **-u**. Watch *pas* to *psa* and *policajac* to *policajca*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 6.
-- slaganje | Čekam prijatelja.
+- slaganje | Čekam prijatelja. | en: I am waiting for a friend.
 - izbor | Vidim ___ . | čovjeka | čovjek
 - izbor | Čekam ___ . | tramvaj | tramvaja
 - upis | Napiši ciljni oblik: pas → | psa
@@ -234,7 +234,7 @@ opis: Final check! Score 80% to be ready for Vocabulary 6.
 - izbor | Koja je rečenica točna? | Ana zove konobara. | Ana zove konobar.
 - izbor | Mijenja li se "prijatelj" nakon "vidim"? | mijenja se | ostaje isto
 - upis | Turist fotografira ___ . (policajac) | policajca
-- slaganje | Vidim čovjeka i psa.
+- slaganje | Vidim čovjeka i psa. | en: I see a man and a dog.
 - izbor | Mijenja li se "autobus" nakon "vidim"? | ostaje isto | mijenja se
 - upis | Napiši ciljni oblik: konobar → | konobara
 - izbor | Što znači "vozač"? | driver | waiter | tourist

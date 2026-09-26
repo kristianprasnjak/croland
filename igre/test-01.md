@@ -12,7 +12,7 @@ opis: Match each Croatian word with its English meaning.
 - restoran | restaurant
 - automobil | car
 - telefon | telephone
-- muzika | music
+- film | film
 - problem | problem
 - sport | sport
 - taksi | taxi
@@ -357,7 +357,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - The ice cream is cold. | Sladoled je hladan. / Hladan je sladoled.
 - The chocolate is sweet. | Čokolada je slatka. / Slatka je čokolada.
 - The banana is yellow. | Banana je žuta. / Žuta je banana.
-- The music is good. | Muzika je dobra. / Dobra je muzika.
+- The film is good. | Film je dobar. / Dobar je film.
 - The telephone is new. | Telefon je nov. / Nov je telefon.
 - The sea is warm. | More je toplo. / Toplo je more.
 - The sea is green. | More je zeleno. / Zeleno je more.

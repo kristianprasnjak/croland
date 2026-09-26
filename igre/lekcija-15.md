@@ -108,7 +108,7 @@ opis: Saturday's concert is coming up. Sort out the logistics with your friend!
 format: provjera
 prag: 80
 opis: Module checkpoint! Questions, negation and three cases — show what you've got.
-- slaganje | Idem na koncert sa sestrom.
+- slaganje | Idem na koncert sa sestrom. | en: I am going to a concert with my sister.
 - izbor | Putujemo ___ . | vlakom | vlak
 - upis | Pijem kavu ___ . (mlijeko) | s mlijekom
 - upis | ___ ideš na koncert? — Sa sestrom. | S kim
@@ -117,7 +117,7 @@ opis: Module checkpoint! Questions, negation and three cases — show what you'v
 - upis | Kupujem kartu ___ . (sestra) | sestri
 - izbor | s ili sa? ___ sestrom | sa | s
 - izbor | Koja je rečenica točna? | Idem vlakom. | Idem s vlakom.
-- slaganje | S kim ideš u kino?
+- slaganje | S kim ideš u kino? | en: Who are you going to the cinema with?
 
 ## Reward & preview
 format: tekst

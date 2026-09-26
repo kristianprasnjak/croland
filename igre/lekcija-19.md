@@ -111,8 +111,8 @@ opis: Final check! Score 80% to unlock the final lesson!
 - upis | Napiši blizanca: gledati → | pogledati
 - izbor | "cijeli tjedan" ide uz... | proces | dovršeno
 - izbor | Koja je rečenica točna? | Pisao sam pismo cijeli dan. | Napisao sam pismo cijeli dan.
-- slaganje | Pročitala je knjigu za jedan dan.
-- slaganje | Jesi li napisao zadaću?
+- slaganje | Pročitala je knjigu za jedan dan. | en: She read the book in one day.
+- slaganje | Jesi li napisao zadaću? | en: Have you written your homework?
 
 ## Reward & preview
 format: tekst

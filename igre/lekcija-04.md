@@ -178,18 +178,18 @@ format: provjera
 info: The mixed end-of-lesson check: connectors, commas and family vocabulary. One rule carries most of the points — **i** never takes a comma, **a** and **ali** always do — and **a** is the choice whenever the second half brings in a new subject.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 4.
-- slaganje | Tata kuha, a brat uči.
+- slaganje | Tata kuha, a brat uči. | en: Dad is cooking, and my brother is studying.
 - izbor | Stan je mali, ___ je dom topao. | ali | i | a
 - upis | Mama radi ___ čita. | i
 - izbor | Što znači "baka"? | grandma | grandpa | sister
-- slaganje | Ja čitam, a ti spavaš.
+- slaganje | Ja čitam, a ti spavaš. | en: I am reading, and you are sleeping.
 - izbor | Koja je rečenica točno napisana? | Pas je star, ali je veseo. | Pas je star ali je veseo.
 - izbor | Mačka je mala, ___ je brza. | ali | i | a
-- slaganje | Baka čita, a djed gleda film.
+- slaganje | Baka čita, a djed gleda film. | en: Grandma is reading, and Grandpa is watching a film.
 - upis | Brat uči, ___ sestra spava. | a
 - izbor | Što znači "obitelj"? | family | childhood | neighbour
 - izbor | Koji veznik nikad ne traži zarez? | i | a | ali
-- slaganje | Djed sjedi i čeka.
+- slaganje | Djed sjedi i čeka. | en: Grandpa sits and waits.
 
 ## Reward & preview
 format: tekst

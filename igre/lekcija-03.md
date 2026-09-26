@@ -185,14 +185,14 @@ format: provjera
 info: A mixed checkpoint over the whole lesson: the endings **-m** and **-š** against the bare *on/ona* form, plus what the nine verbs mean. When a question stalls you, find the subject first and let it choose the ending.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 3.
-- slaganje | Ja pijem sok.
+- slaganje | Ja pijem sok. | en: I drink juice.
 - izbor | Ana ___ film. | gleda | gledam | gledaš
 - upis | Ja ___ kruh. (jesti) | jedem
 - izbor | What does "piti" mean? | to drink | to work | to study
 - izbor | Which column does "čitam" belong to? | JA | TI | ON/ONA
 - izbor | Pas spava. — što pas radi? | sleeps | eats | reads
 - izbor | "Pijem" means "you drink." | FALSE | TRUE
-- slaganje | On sluša radio.
+- slaganje | On sluša radio. | en: He listens to the radio.
 - upis | Ti ___ udžbenik. (čitati) | čitaš
 - izbor | Marko ___ pismo. | piše | pišem | pišeš
 - upis | Ja ___ hrvatski. (učiti) | učim

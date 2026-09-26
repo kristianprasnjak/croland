@@ -116,14 +116,14 @@ opis: Order like a local — genitive everywhere!
 format: provjera
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 17.
-- slaganje | Kava bez šećera, molim.
+- slaganje | Kava bez šećera, molim. | en: Coffee without sugar, please.
 - izbor | Putujem iz ___ . | Zagreba | Zagreb
 - upis | kuća ___ (baka) | bake
 - izbor | Što znači "pokraj"? | next to | without | from
 - izbor | Nema ___ ! | problema | problem
 - upis | komad ___ (torta) | torte
 - izbor | Koja je rečenica točna? | Miris kave je lijep. | Miris kava je lijep.
-- slaganje | Vrata kuće su stara i teška.
+- slaganje | Vrata kuće su stara i teška. | en: The door of the house is old and heavy.
 
 ## Reward & preview
 format: tekst

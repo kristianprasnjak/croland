@@ -288,18 +288,18 @@ format: provjera
 info: The scored mix of the whole lesson, and 80% opens Vocabulary 11. Most of the points sit on two things: the question word comes first with no helper added, and *li* comes directly after the verb.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 11.
-- slaganje | Tko je to?
+- slaganje | Tko je to? | en: Who is that?
 - izbor | ___ živiš? — U Zagrebu. | Gdje | Kada | Tko
 - upis | Napravi li-pitanje: Voliš kavu. → | Voliš li kavu
 - izbor | Što znači "zašto"? | why | how much | when
 - izbor | Koja je rečenica točna? | Je li Marko doma? | Marko li je doma?
 - upis | ___ je poslao tortu? — Baka. | Tko
 - izbor | "li" ide odmah iza glagola. | točno | netočno
-- slaganje | Za koga kupuješ poklon?
+- slaganje | Za koga kupuješ poklon? | en: Who are you buying a present for?
 - izbor | ___ je kava? — Jaka. | Kakva | Koja | Čija
 - upis | ___ košta karta? — Deset eura. | Koliko
 - izbor | Koliko je "petnaest"? | 15 | 5 | 50
-- slaganje | Koliko godina ima tvoj brat?
+- slaganje | Koliko godina ima tvoj brat? | en: How old is your brother?
 
 ## Reward & preview
 format: tekst

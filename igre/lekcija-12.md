@@ -309,18 +309,18 @@ format: provjera
 info: The scored mix of the whole lesson, and 80% opens Vocabulary 12. Most of the points sit on two things: *biti*, *imati* and *htjeti* join *ne* into one word, and a negative word such as *ništa* always keeps *ne* on the verb.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 12.
-- slaganje | Ne volim ljutu juhu.
+- slaganje | Ne volim ljutu juhu. | en: I don't like spicy soup.
 - izbor | Ja ___ gladan. | nisam | ne sam | nemam
 - upis | Negiraj: Imam vilicu. → | Nemam vilicu
 - izbor | Što znači "nikad"? | never | nothing | nobody
 - izbor | Marko ___ ne jede. (nothing) | ništa | nešto | nitko
 - upis | Negiraj: Pio sam kavu. → | Nisam pio kavu
 - izbor | Koja je rečenica točna? | Nitko ne kuha. | Nitko kuha. | Ne nitko kuha.
-- slaganje | Ne jedem ni meso ni ribu.
+- slaganje | Ne jedem ni meso ni ribu. | en: I eat neither meat nor fish.
 - upis | Što jedeš? — ___ . (nothing) | Ništa
 - izbor | Sutra ___ jesti meso. | neću | ne ću | nisam
 - upis | Negiraj: Naručit ću pizzu. → | Neću naručiti pizzu
-- slaganje | Marko nikad ništa ne jede.
+- slaganje | Marko nikad ništa ne jede. | en: Marko never eats anything.
 
 ## Reward & preview
 format: tekst

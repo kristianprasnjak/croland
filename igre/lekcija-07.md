@@ -269,7 +269,7 @@ format: provjera
 info: The end-of-lesson check, mixing everything from Lesson 7: the three plural endings, the *-ovi* words, the irregular *djeca*, and the plural verb persons **-mo**, **-te**, **-ju/-u**.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 7.
-- slaganje | Djeca pjevaju pjesme.
+- slaganje | Djeca pjevaju pjesme. | en: The children sing songs.
 - upis | Napiši množinu: učenik → | učenici
 - izbor | Mi ___ kavu. | pijemo | pijem | piju
 - izbor | Knjige su ___ . | nove | nov | nova
@@ -279,7 +279,7 @@ opis: Final check! Score 80% to be ready for Vocabulary 7.
 - izbor | Množina od "stol" je... | stolovi | stoli | stole
 - upis | Napiši množinu: pjesma → | pjesme
 - izbor | Vi ___ knjige. | čitate | čitamo | čitaju
-- slaganje | Prozori su veliki.
+- slaganje | Prozori su veliki. | en: The windows are big.
 - upis | Napiši množinu: dječak → | dječaci
 
 ## Reward & preview

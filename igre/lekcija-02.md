@@ -149,17 +149,17 @@ format: provjera
 info: A mixed check on the whole lesson: the six forms of **biti**, the adjective endings (bare, **-a**, **-i**) and the **-ica** job words. Whenever *mi*, *vi* or *oni* appears, the word after the verb goes plural too: *Mi smo studenti*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 2.
-- slaganje | Mi smo prijatelji.
+- slaganje | Mi smo prijatelji. | en: We are friends.
 - izbor | Ona ___ doktorica. | je | sam | su
 - upis | Ja ___ sretan. | sam
 - izbor | What does "oni" mean? | they | we | you
 - izbor | Which sentence is correct? | On je visok. | On je visoka.
 - izbor | A woman who studies is a... | studentica | student
-- slaganje | Ona je pametna i vesela.
+- slaganje | Ona je pametna i vesela. | en: She is smart and cheerful.
 - izbor | "Vi ste" means "I am." | FALSE | TRUE
 - upis | Tko ___ ti? | si
 - izbor | Mi ___ studenti. | smo | ste | sam
-- slaganje | Ja sam student.
+- slaganje | Ja sam student. | en: I am a student.
 - izbor | What does "Drago mi je!" mean? | Nice to meet you! | Goodbye!
 
 ## Reward & preview

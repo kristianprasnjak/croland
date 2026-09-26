@@ -295,7 +295,7 @@ format: provjera
 info: A mixed check on the whole lesson. Two things decide nearly every answer: the ending comes from the **thing owned**, never from the owner, and *svoj* appears whenever the owner is also the one doing the action.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 9.
-- slaganje | Moj hobi je fotografija.
+- slaganje | Moj hobi je fotografija. | en: My hobby is photography.
 - izbor | ___ gitara je nova. | moja | moj | moje
 - upis | ___ klub je dobar. (our) | Naš
 - izbor | Što znači "trener"? | coach | jersey | ball
@@ -305,7 +305,7 @@ opis: Final check! Score 80% to be ready for Vocabulary 9.
 - upis | ___ koljeno boli. (my) | Moje
 - izbor | Marko voli ___ sestru. (his own) | svoju | njegovu
 - izbor | Što znači "čiji"? | whose | which | whether
-- slaganje | Njihova obrana je jaka, ali naš kapetan je brz.
+- slaganje | Njihova obrana je jaka, ali naš kapetan je brz. | en: Their defence is strong, but our captain is fast.
 - upis | Prevedi: my ball → | moja lopta
 
 ## Reward & preview

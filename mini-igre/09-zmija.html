@@ -147,7 +147,7 @@ window.IGRA_ID = "zmija";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 20 bodova po tocno sricanoj rijeci; 75 rijeci nosi puni iznos.
-function bodoviZmije(){ return Math.min(window.IGRA_MAKS, 20 * ((S && (S.bez ? S.bezRijeci : S.i)) || 0)); }
+function bodoviZmije(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -730,7 +730,7 @@ function rijecGotova(){
   var r = S.rijeci[S.uRazini];
   CL.zvukRijeci(r); CL.ucenje(r.id, true);
   CL.pip(true); CL.konfeti(14);
-  S.bodovi = Math.min(30, S.bodovi + 1);
+  S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 20);   // 20 po sricanoj rijeci
   S.i++; S.uRazini++;
   if (S.bez) S.bezRijeci++;
   S.tijelo = S.tijelo.slice(0, Math.max(3, S.tijelo.length - 2));

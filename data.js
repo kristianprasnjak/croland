@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-19 13:45:00",
+  "generirano": "2026-09-26 20:39:28",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -6626,7 +6626,7 @@ window.PODACI = {
           "Welcome to your first real Croatian lesson!"
         ],
         [
-          "**You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say."
+          "**You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *gitara* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say."
         ],
         [
           "**Today's one new word is je.** It means *is*, and it goes between the thing and its description: *Kava je dobra.* — The coffee is good."
@@ -6682,8 +6682,8 @@ window.PODACI = {
           "telephone"
         ],
         [
-          "muzika",
-          "music"
+          "film",
+          "film"
         ],
         [
           "problem",
@@ -6953,7 +6953,7 @@ window.PODACI = {
       "naslov": "Which ending fits?",
       "meta": {
         "info": "You pick the description whose ending echoes the noun. A noun ending in a consonant takes the bare form (*Automobil je velik*), a noun in **-a** takes **-a** (*Kuća je velika*), and a noun in **-o** or **-e** takes **-o** (*More je plavo*).",
-        "opis": "Same meaning, three endings. Pick the one that matches the noun."
+        "opis": "Same meaning, three endings. Look at the last letter of the noun: a consonant takes the short form (velik grad), -a takes -a (velika kuća), -o or -e takes -o (veliko more)."
       },
       "stavke": [
         [
@@ -7240,7 +7240,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Kuća je velika."
+          "Kuća je velika.",
+          "en: The house is big."
         ],
         [
           "izbor",
@@ -7318,7 +7319,7 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Words you already know (cognates)",
       "meta": {
-        "info": "Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *muzika* keeps a buzzing *z*. Read every card aloud once.",
+        "info": "Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *taksi* writes the English x as *ks*. Read every card aloud once.",
         "opis": "Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap a card to reveal its meaning."
       },
       "stavke": [
@@ -7347,8 +7348,8 @@ window.PODACI = {
           "telephone"
         ],
         [
-          "muzika",
-          "music"
+          "film",
+          "film"
         ],
         [
           "problem",
@@ -7404,8 +7405,8 @@ window.PODACI = {
           "telephone"
         ],
         [
-          "muzika",
-          "music"
+          "film",
+          "film"
         ],
         [
           "problem",
@@ -7889,11 +7890,11 @@ window.PODACI = {
           "bed"
         ],
         [
-          "žuta",
+          "žut",
           "yellow"
         ],
         [
-          "zelena",
+          "zelen",
           "green"
         ]
       ],
@@ -8133,7 +8134,7 @@ window.PODACI = {
           "This is a house."
         ],
         [
-          "**Now you write them.** Grad je [velik]. Kuća je [velika]. More je [veliko]."
+          "**Now you write them.** Say that all three are big: Grad je [velik/veliki]. Kuća je [velika]. More je [veliko]."
         ]
       ],
       "sortkljuc": 103003,
@@ -8266,7 +8267,7 @@ window.PODACI = {
           "Nothing changes about the rule you already know: **consonant · -a · -o**. This page only warns you that the consonant form can look a little different from the stem hiding underneath it."
         ],
         [
-          "**Now you write them.** Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka]."
+          "**Now you write them.** Keep the same adjective and give it the ending of the new noun: Dan je dobar, a kava je [dobra]. Čaj je topao, a juha je [topla]. Kolač je sladak, a jabuka je [slatka]."
         ]
       ],
       "sortkljuc": 103005,
@@ -8493,7 +8494,7 @@ window.PODACI = {
           "**A bonus you get for free:** *nije* is a stressed word, so unlike *je* it may open a sentence — *Nije dobra ta kava.*"
         ],
         [
-          "**Now you write them.** Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća."
+          "**Now you write them.** Say that none of it is true: Kava [nije] dobra. Grad [nije] velik. Ovo [nije] kuća."
         ]
       ],
       "sortkljuc": 103009,
@@ -9003,7 +9004,7 @@ window.PODACI = {
       "format": "dijalog",
       "naslov": "At the café",
       "meta": {
-        "info": "Your first conversation, built from the one pattern you have: a thing, then **je**, then a description. Every reply on offer is a sentence of that shape, so pick the one whose ending matches its noun — *Kava je dobra*, *Nebo je plavo*.",
+        "info": "Your first conversation, built from the one pattern you have: a thing, then **je**, then a description — *Kava je dobra*, *Nebo je plavo*. Both replies on offer are correct Croatian, so there is no wrong turn: choose the one you would say, and say it out loud.",
         "opis": "You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (here you are — with a question mark: what would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect)."
       },
       "stavke": [
@@ -9014,7 +9015,7 @@ window.PODACI = {
         [
           "ti",
           "Kava, molim.",
-          "Sladoled, molim."
+          "Dobar dan! Kava, molim."
         ],
         [
           "npc",
@@ -9206,8 +9207,8 @@ window.PODACI = {
           "telephone"
         ],
         [
-          "muzika",
-          "music"
+          "film",
+          "film"
         ],
         [
           "problem",
@@ -10724,8 +10725,8 @@ window.PODACI = {
           "Banana je žuta. / Žuta je banana."
         ],
         [
-          "The music is good.",
-          "Muzika je dobra. / Dobra je muzika."
+          "The film is good.",
+          "Film je dobar. / Dobar je film."
         ],
         [
           "The telephone is new.",
@@ -11355,7 +11356,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Mi smo prijatelji."
+          "Mi smo prijatelji.",
+          "en: We are friends."
         ],
         [
           "izbor",
@@ -11390,7 +11392,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ona je pametna i vesela."
+          "Ona je pametna i vesela.",
+          "en: She is smart and cheerful."
         ],
         [
           "izbor",
@@ -11412,7 +11415,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ja sam student."
+          "Ja sam student.",
+          "en: I am a student."
         ],
         [
           "izbor",
@@ -16756,7 +16760,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Ja pijem sok."
+          "Ja pijem sok.",
+          "en: I drink juice."
         ],
         [
           "izbor",
@@ -16799,7 +16804,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "On sluša radio."
+          "On sluša radio.",
+          "en: He listens to the radio."
         ],
         [
           "upis",
@@ -22038,7 +22044,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Tata kuha, a brat uči."
+          "Tata kuha, a brat uči.",
+          "en: Dad is cooking, and my brother is studying."
         ],
         [
           "izbor",
@@ -22061,7 +22068,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ja čitam, a ti spavaš."
+          "Ja čitam, a ti spavaš.",
+          "en: I am reading, and you are sleeping."
         ],
         [
           "izbor",
@@ -22078,7 +22086,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Baka čita, a djed gleda film."
+          "Baka čita, a djed gleda film.",
+          "en: Grandma is reading, and Grandpa is watching a film."
         ],
         [
           "upis",
@@ -22101,7 +22110,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Djed sjedi i čeka."
+          "Djed sjedi i čeka.",
+          "en: Grandpa sits and waits."
         ]
       ],
       "sortkljuc": 401013,
@@ -27336,7 +27346,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Trebam vodu i kavu."
+          "Trebam vodu i kavu.",
+          "en: I need water and coffee."
         ],
         [
           "izbor",
@@ -27371,7 +27382,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Pijem kavu."
+          "Pijem kavu.",
+          "en: I drink coffee."
         ],
         [
           "upis",
@@ -27387,7 +27399,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ana kupuje ribu i salatu."
+          "Ana kupuje ribu i salatu.",
+          "en: Ana buys fish and salad."
         ],
         [
           "izbor",
@@ -33247,7 +33260,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Čekam prijatelja."
+          "Čekam prijatelja.",
+          "en: I am waiting for a friend."
         ],
         [
           "izbor",
@@ -33292,7 +33306,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Vidim čovjeka i psa."
+          "Vidim čovjeka i psa.",
+          "en: I see a man and a dog."
         ],
         [
           "izbor",
@@ -39794,7 +39809,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Djeca pjevaju pjesme."
+          "Djeca pjevaju pjesme.",
+          "en: The children sing songs."
         ],
         [
           "upis",
@@ -39856,7 +39872,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Prozori su veliki."
+          "Prozori su veliki.",
+          "en: The windows are big."
         ],
         [
           "upis",
@@ -46710,7 +46727,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Mi ćemo putovati na more."
+          "Mi ćemo putovati na more.",
+          "en: We will travel to the seaside."
         ],
         [
           "izbor",
@@ -46752,7 +46770,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Navečer ćemo šetati."
+          "Navečer ćemo šetati.",
+          "en: In the evening we will go for a walk."
         ],
         [
           "upis",
@@ -46774,7 +46793,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Sutra ću ustati rano."
+          "Sutra ću ustati rano.",
+          "en: Tomorrow I will get up early."
         ]
       ],
       "sortkljuc": 801016,
@@ -53033,7 +53053,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Moj hobi je fotografija."
+          "Moj hobi je fotografija.",
+          "en: My hobby is photography."
         ],
         [
           "izbor",
@@ -53093,7 +53114,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Njihova obrana je jaka, ali naš kapetan je brz."
+          "Njihova obrana je jaka, ali naš kapetan je brz.",
+          "en: Their defence is strong, but our captain is fast."
         ],
         [
           "upis",
@@ -59654,7 +59676,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Jučer smo gledali film."
+          "Jučer smo gledali film.",
+          "en: Yesterday we watched a film."
         ],
         [
           "izbor",
@@ -59707,7 +59730,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ana je pjevala, a Marko je svirao gitaru."
+          "Ana je pjevala, a Marko je svirao gitaru.",
+          "en: Ana sang, and Marko played the guitar."
         ],
         [
           "upis",
@@ -65860,7 +65884,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Tko je to?"
+          "Tko je to?",
+          "en: Who is that?"
         ],
         [
           "izbor",
@@ -65900,7 +65925,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Za koga kupuješ poklon?"
+          "Za koga kupuješ poklon?",
+          "en: Who are you buying a present for?"
         ],
         [
           "izbor",
@@ -65923,7 +65949,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Koliko godina ima tvoj brat?"
+          "Koliko godina ima tvoj brat?",
+          "en: How old is your brother?"
         ]
       ],
       "sortkljuc": 1101018,
@@ -71840,7 +71867,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Ne volim ljutu juhu."
+          "Ne volim ljutu juhu.",
+          "en: I don't like spicy soup."
         ],
         [
           "izbor",
@@ -71882,7 +71910,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Ne jedem ni meso ni ribu."
+          "Ne jedem ni meso ni ribu.",
+          "en: I eat neither meat nor fish."
         ],
         [
           "upis",
@@ -71903,7 +71932,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Marko nikad ništa ne jede."
+          "Marko nikad ništa ne jede.",
+          "en: Marko never eats anything."
         ]
       ],
       "sortkljuc": 1201017,
@@ -77269,7 +77299,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Ja sam u gradu."
+          "Ja sam u gradu.",
+          "en: I am in town."
         ],
         [
           "izbor",
@@ -77308,7 +77339,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "U muzeju je tiho, a u kafiću nije!"
+          "U muzeju je tiho, a u kafiću nije!",
+          "en: It is quiet in the museum, but not in the café!"
         ]
       ],
       "sortkljuc": 1301011,
@@ -78760,7 +78792,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Mami kupujem šal."
+          "Mami kupujem šal.",
+          "en: I am buying a scarf for Mum."
         ],
         [
           "izbor",
@@ -78799,7 +78832,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Djedu nosim kolače jer voli slatko."
+          "Djedu nosim kolače jer voli slatko.",
+          "en: I am bringing Grandpa cakes because he likes sweet things."
         ]
       ],
       "sortkljuc": 1401012,
@@ -80234,7 +80268,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Idem na koncert sa sestrom."
+          "Idem na koncert sa sestrom.",
+          "en: I am going to a concert with my sister."
         ],
         [
           "izbor",
@@ -80282,7 +80317,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "S kim ideš u kino?"
+          "S kim ideš u kino?",
+          "en: Who are you going to the cinema with?"
         ]
       ],
       "sortkljuc": 1501011,
@@ -81784,7 +81820,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Kava bez šećera, molim."
+          "Kava bez šećera, molim.",
+          "en: Coffee without sugar, please."
         ],
         [
           "izbor",
@@ -81823,7 +81860,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Vrata kuće su stara i teška."
+          "Vrata kuće su stara i teška.",
+          "en: The door of the house is old and heavy."
         ]
       ],
       "sortkljuc": 1601012,
@@ -83257,7 +83295,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Na semaforu skrenite lijevo."
+          "Na semaforu skrenite lijevo.",
+          "en: At the traffic lights, turn left."
         ],
         [
           "izbor",
@@ -83296,7 +83335,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Uzmite kartu i idite na kolodvor."
+          "Uzmite kartu i idite na kolodvor.",
+          "en: Take a ticket and go to the station."
         ]
       ],
       "sortkljuc": 1701012,
@@ -84756,7 +84796,8 @@ window.PODACI = {
       "stavke": [
         [
           "slaganje",
-          "Kupio bih kuću pokraj mora."
+          "Kupio bih kuću pokraj mora.",
+          "en: I would buy a house by the sea."
         ],
         [
           "izbor",
@@ -84795,7 +84836,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Što bi ti radio s milijun eura?"
+          "Što bi ti radio s milijun eura?",
+          "en: What would you do with a million euros?"
         ]
       ],
       "sortkljuc": 1801011,
@@ -86209,11 +86251,13 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "Pročitala je knjigu za jedan dan."
+          "Pročitala je knjigu za jedan dan.",
+          "en: She read the book in one day."
         ],
         [
           "slaganje",
-          "Jesi li napisao zadaću?"
+          "Jesi li napisao zadaću?",
+          "en: Have you written your homework?"
         ]
       ],
       "sortkljuc": 1901011,
@@ -87710,7 +87754,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "(L11) Gdje živiš?"
+          "Gdje živiš?",
+          "en: (L11) Where do you live?"
         ],
         [
           "upis",
@@ -87757,7 +87802,8 @@ window.PODACI = {
         ],
         [
           "slaganje",
-          "(L20) Učim hrvatski jer volim jezik koji zvuči kao glazba."
+          "Učim hrvatski jer volim jezik koji zvuči kao glazba.",
+          "en: (L20) I am learning Croatian because I love a language that sounds like music."
         ]
       ],
       "sortkljuc": 2001011,

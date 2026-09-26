@@ -254,7 +254,7 @@ window.IGRA_ID = "vlak";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 20 bodova po tocno smjestenom paketu; 75 paketa nosi puni iznos.
-function bodoviVlaka(){ return Math.min(window.IGRA_MAKS, 20 * ((S && S.ukupno) || 0)); }
+function bodoviVlaka(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -863,6 +863,7 @@ CL.el('kompozicija').addEventListener('click', function(e){
     var odKud = CL.el('paketi').querySelector('.paket[data-i="' + S.odabran + '"]');
     letPaketa(odKud, v.querySelector('.tijelo'));
     vag.sadrzaj.push(pak.r); pak.gotov = true; S.odabran = null; S.ukupno++;
+    S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 20);   // 20 po tocno smjestenom paketu
     CL.pip(true); CL.zvukRijeci(pak.r);
     if (pak.r.kat) CL.ucenje(pak.r.id, true);
     crtaj(); osvjezi();
@@ -975,7 +976,6 @@ function poKrugu(uspjeh){
       '<div class="tipke"><button class="g glavni" id="_d">Next train</button></div>');
     return zz.querySelector('#_d').onclick = function(){ zz.remove(); pocniKrug(); };
   }
-  S.bodovi = Math.min(30, Math.round(S.uspjesnih / UKUPNO * 30));
   osvjezi();
   S.krug++;
   if (S.krug >= KRUGOVI.length) return kraj();

@@ -86,10 +86,10 @@ opis: The café conversation got shuffled! Put the lines back into the right ord
 
 ## At the café
 format: dijalog
-info: Your first conversation, built from the one pattern you have: a thing, then **je**, then a description. Every reply on offer is a sentence of that shape, so pick the one whose ending matches its noun — *Kava je dobra*, *Nebo je plavo*.
+info: Your first conversation, built from the one pattern you have: a thing, then **je**, then a description — *Kava je dobra*, *Nebo je plavo*. Both replies on offer are correct Croatian, so there is no wrong turn: choose the one you would say, and say it out loud.
 opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (here you are — with a question mark: what would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect).
 - npc | Dobar dan! Izvolite?
-- ti | Kava, molim. | Sladoled, molim.
+- ti | Kava, molim. | Dobar dan! Kava, molim.
 - npc | Velika ili mala?
 - ti | Velika, molim. | Mala, molim.
 - npc | Izvolite. Kava je topla.

@@ -101,14 +101,14 @@ opis: The big question — city or sea? Defend your dream!
 format: provjera
 prag: 80
 opis: Final check! Score 80% to be ready for Lesson 19.
-- slaganje | Kupio bih kuću pokraj mora.
+- slaganje | Kupio bih kuću pokraj mora. | en: I would buy a house by the sea.
 - izbor | Mi ___ jeli dugo. | bismo | bih | biste
 - upis | Pretvori u kondicional: Putujem. → | Putovao bih / Putovala bih
 - upis | Uljudna želja: (kava) → | Htio bih kavu / Htjela bih kavu
 - izbor | "Kupio sam auto." — dogodilo se ili želja? | dogodilo se | želja
 - izbor | Ona ___ plivala svaki dan. | bi | bih
 - izbor | Koja je rečenica točna? | Kupio bih brod. | Bih kupio brod.
-- slaganje | Što bi ti radio s milijun eura?
+- slaganje | Što bi ti radio s milijun eura? | en: What would you do with a million euros?
 
 ## Reward & preview
 format: tekst

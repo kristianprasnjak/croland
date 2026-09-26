@@ -162,7 +162,7 @@ window.IGRA_ID = "mario";
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
 // 20 bodova po prijedjenoj razini; 75 razina nosi puni iznos.
-function bodoviPortala(){ return Math.min(window.IGRA_MAKS, 20 * ((S && (S.bez ? S.bezRazina : S.razina)) || 0)); }
+function bodoviPortala(){ return Math.min(window.IGRA_MAKS, (typeof S !== 'undefined' && S && S.bodovi) || 0); }
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -1042,7 +1042,7 @@ function pogodakOblaka(o, p){
     S.oblaci.forEach(function(x){ if (x !== o){ x.stanje = 'odlazi'; x.t = 0; } });
     CL.pip(true);
     if (S.q.tocna.emo){ CL.zvukRijeci(S.q.tocna); CL.ucenje(S.q.tocna.id, true); }
-    S.bodovi = Math.min(50, S.bodovi + 2);
+    S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 20);   // 20 po prijedjenoj razini
     osvjezi();
     prasak(p.x, p.y, '#FFFFFF', 22, 4); prasak(p.x, p.y, '#F4B942', 14, 3);
     if (i.vy < 0) i.vy = 1;

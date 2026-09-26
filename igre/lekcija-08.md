@@ -255,18 +255,18 @@ format: provjera
 info: A mixed check on everything in the lesson. Two things decide most answers: the helper can never open a sentence, and the verb loses its *-i* only when it stands in front of the helper — *Plivat ću*, but *Ja ću plivati*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 8.
-- slaganje | Mi ćemo putovati na more.
+- slaganje | Mi ćemo putovati na more. | en: We will travel to the seaside.
 - izbor | Ja ___ plivati. | ću | ćeš | će
 - upis | Pretvori u futur: Učim. → | Učit ću / Ja ću učiti
 - izbor | Što znači "vlak"? | train | summer | weekend
 - izbor | Oni ___ gledati film. | će | ćemo | ćete
 - izbor | "Ručamo." — sada ili poslije? | sada | poslije
 - izbor | Koja je rečenica točna? | Plivat ću. | Plivati ću.
-- slaganje | Navečer ćemo šetati.
+- slaganje | Navečer ćemo šetati. | en: In the evening we will go for a walk.
 - upis | Pretvori u futur: Putujemo. → | Putovat ćemo / Mi ćemo putovati
 - izbor | Sestra i ja ___ šetati. | ćemo | ćete | će
 - izbor | Koja je rečenica točna? | Ja ću gledati film. | Ću gledati film.
-- slaganje | Sutra ću ustati rano.
+- slaganje | Sutra ću ustati rano. | en: Tomorrow I will get up early.
 
 ## Reward & preview
 format: tekst

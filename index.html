@@ -4014,6 +4014,26 @@
     return promijesaj(izbor).map(function (j) { return arr[j]; });
   }
   function norm(s) { return String(s).toLowerCase().trim().replace(/[.!?]+$/, ''); }
+  // Za poruku "skoro": isti upis bez kvačica. Ne služi za prihvaćanje odgovora —
+  // č i c su različita slova — nego samo da se pogreška imenuje.
+  function bezKvacica(s) {
+    return norm(s).replace(/dž/g, 'dz').replace(/đ/g, 'd').replace(/[čć]/g, 'c').replace(/š/g, 's').replace(/ž/g, 'z');
+  }
+  // Poredak plocica: tocno je i kad su dvije rijeci oko "i" zamijenjene —
+  // "Stol je star i velik" jednako je dobro kao "Stol je velik i star".
+  function istiRed(slozeno, cilj) {
+    if (slozeno.join(' ') === cilj.join(' ')) return true;
+    for (var k = 1; k < cilj.length - 1; k++) {
+      if (cilj[k] !== 'i' || /[,;]$/.test(cilj[k - 1]) || /[,;]$/.test(cilj[k + 1])) continue;
+      var zam = cilj.slice(); zam[k - 1] = cilj[k + 1]; zam[k + 1] = cilj[k - 1];
+      if (slozeno.join(' ') === zam.join(' ')) return true;
+    }
+    return false;
+  }
+  function samoKvacice(upis, tocni) {
+    var b = bezKvacica(upis);
+    return tocni.some(function (t) { return bezKvacica(t) === b; });
+  }
   function mdInline(t) {
     t = String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     return t.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>');
@@ -4317,14 +4337,44 @@
     if (promjena) spremiProgress();
     return nova;
   }
-  function prikaziOtkljucanje(lista) {
+  // sljedeća faza po redu tečaja: Lesson → Vocabulary → Grammar → Practice → Test, pa iduća razina
+  function sljedecaFaza(tip, razina) {
+    var sljedeci = null;
+    if (VALUTA_TIPA[tip] || tip === 'Test') {
+      var idx = TIPOVI.indexOf(tip);
+      for (var j = idx + 1; j < TIPOVI.length && !sljedeci; j++) {
+        if (igreCjeline(TIPOVI[j], razina).length > 0) sljedeci = { tip: TIPOVI[j], razina: razina };
+      }
+      if (!sljedeci && razina < MAX_RAZINA) {
+        for (var rr = razina + 1; rr <= MAX_RAZINA && !sljedeci; rr++) {
+          for (var jj = 0; jj < TIPOVI.length && !sljedeci; jj++) {
+            if (igreCjeline(TIPOVI[jj], rr).length > 0) sljedeci = { tip: TIPOVI[jj], razina: rr };
+          }
+        }
+      }
+    }
+    return sljedeci;
+  }
+  // odakle: { tip, razina } cjeline koja je upravo završena. Staze se otključavaju
+  // paralelno (nakon Testa 1 otvori se i Test 2), ali glavni gumb mora voditi na
+  // sljedeći korak tečaja, ne na ono što se slučajno otvorilo.
+  function prikaziOtkljucanje(lista, odakle) {
     var star = $('otkljOverlay'); if (star) star.remove();
     var ov = document.createElement('div'); ov.id = 'otkljOverlay';
     var m = document.createElement('div'); m.className = 'otkljModal';
+    var dalje = odakle ? sljedecaFaza(odakle.tip, odakle.razina) : null;
+    if (dalje && !otkljucano(dalje.tip, dalje.razina)) dalje = null;
+    var imena = lista.map(function (c) { return c.tip + ' ' + c.razina; });
     m.innerHTML = '<div class="otkljIkona">' + IK('otvorena', 'krupna') + '</div>' +
       '<h2>' + (lista.length > 1 ? 'New units unlocked!' : 'New unit unlocked!') + '</h2>' +
-      '<p class="otkljPod">You\'ve earned enough points — nicely done! 🎉</p>';
-    lista.forEach(function (c) {
+      '<p class="otkljPod">You\'ve earned enough points — nicely done! 🎉' +
+      (dalje ? '<br>Now open: <strong>' + esc(imena.join(' · ')) + '</strong>' : '') + '</p>';
+    if (dalje) {
+      var bd = document.createElement('button'); bd.className = 'gumb';
+      bd.textContent = '▶ Next: ' + dalje.tip + ' ' + dalje.razina;
+      bd.onclick = function () { ov.remove(); idi('unit', dalje.tip, dalje.razina); };
+      m.appendChild(bd);
+    } else lista.forEach(function (c) {
       var b = document.createElement('button'); b.className = 'gumb';
       b.textContent = '▶ Start ' + c.tip + ' ' + c.razina;
       b.onclick = function () { ov.remove(); idi('unit', c.tip, c.razina); };
@@ -4602,6 +4652,14 @@
     var rez = $('rezultat');
     rez.style.display = 'block';
     rez.classList.remove('pokazi'); void rez.offsetWidth; rez.classList.add('pokazi');
+    // "Next" se pojavi ispod dosadašnjeg sadržaja — često ispod ruba ekrana ili ispod
+    // fiksne trake abecede (Lesson 0). Pomakni stranicu tek toliko da se gumb vidi.
+    setTimeout(function () {
+      var bd = $('btnDalje'); if (!bd) return;
+      var dno = bd.getBoundingClientRect().bottom;
+      var granica = window.innerHeight - rezervaIspodCedulja() - 12;
+      if (dno > granica) window.scrollBy({ top: dno - granica, behavior: 'smooth' });
+    }, 350);
     // prvi rezultat koji nije savršen: pokaži da "Play again" postoji i da ništa nije izgubljeno
     if (!jeNulaK && pct < 1) {
       setTimeout(function () { jednomPokazi('ponovno', 'btnPonovno', SAVJET_PONOVNO); }, 900);
@@ -4614,7 +4672,8 @@
     if (jeNulaK) { noveOtkljucane(); }
     else {
       var nova = noveOtkljucane();
-      if (nova.length) setTimeout(function () { prikaziOtkljucanje(nova); }, 700);
+      var odakle = { tip: igra.tip, razina: igra.razina };
+      if (nova.length) setTimeout(function () { prikaziOtkljucanje(nova, odakle); }, 700);
     }
     if (onZavrsi) onZavrsi(osvojeno);
   }
@@ -5146,6 +5205,11 @@
           osvjezi();
         }
       };
+      // Uputa kaže "tap 🔊 on every card" — zvučnik zato okreće karticu kao i klik na nju.
+      if (zv) {
+        zv.addEventListener('click', function () { k.onclick(); });
+        zv.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') k.onclick(); });
+      }
       m.appendChild(k);
     });
     var b = document.createElement('button'); b.className = 'gumb'; b.textContent = '✓ Done';
@@ -5440,8 +5504,13 @@
     // Kad je zadatak cijela recenica ("Kava je dobar/dobra/dobro."), polje ispod
     // nje izgleda kao mjesto za tu recenicu. Ovdje pise da se upisuje samo ona
     // jedna rijec — inace se tocan odgovor gubi na prepisivanju ostatka.
-    var recenicni = pitanja.some(function (p) { return /\s/.test(String(p[0] || '').trim()); });
+    // Traka vrijedi samo kad se stvarno trazi jedna rijec. Kad je odgovor cijela
+    // recenica (nijecanje, prijevod), ista bi traka tjerala na krivi odgovor.
+    var jednaRijec = function (p) { return !/\s/.test(String(p[1] || '').split('/')[0].trim()); };
+    var recenicni = pitanja.some(function (p) { return /\s/.test(String(p[0] || '').trim()) && jednaRijec(p); });
+    var cijele = pitanja.every(function (p) { return !jednaRijec(p); });
     if (recenicni) s.appendChild(trakaSlusanja('Type **only the missing word** — not the whole sentence. Tap the speaker first and say it out loud.'));
+    else if (cijele) s.appendChild(trakaSlusanja('Write the **whole sentence** in Croatian. Tap the speaker first and say it out loud.'));
     var pit = document.createElement('div'); pit.className = 'pitanjeText'; s.appendChild(pit);
     var input = document.createElement('input'); input.className = 'upisInput'; input.type = 'text'; input.autocomplete = 'off';
     s.appendChild(input);
@@ -5462,6 +5531,8 @@
     }
     function provjeri() {
       if (gotovo || rijeseno || i >= pitanja.length) return;
+      // Prazno polje nije odgovor — slučajni Enter ne smije potrošiti zadatak.
+      if (!input.value.trim()) { input.focus(); return; }
       rijeseno = true;
       var tocni = pitanja[i][1].split('/').map(norm);
       if (tocni.indexOf(norm(input.value)) !== -1) {
@@ -5471,7 +5542,9 @@
       } else {
         zabiljeziGresku();
         input.classList.add('krivo');
-        if (otkrivaTocno()) otkr.textContent = 'Correct answer: ' + pitanja[i][1];
+        if (otkrivaTocno()) otkr.textContent = (samoKvacice(input.value, tocni)
+          ? 'Almost — only the marks are missing (č, ć, š, ž, đ). Correct answer: '
+          : 'Correct answer: ') + pitanja[i][1];
         i++; setTimeout(prikazi, otkrivaTocno() ? 1500 : 600);
       }
     }
@@ -5525,7 +5598,7 @@
         rijeseno = true;
         // rečenica se čuje u oba slučaja — nagrada kad je točna, ispravak kad nije
         var puna = recenice[i][0];
-        if (slozeno.join(' ') === cilj.join(' ')) {
+        if (istiRed(slozeno, cilj)) {
           tocno++;
           setStat('Sentence: ' + (i + 1) + '/' + recenice.length, 'Correct: ' + tocno);
           Array.prototype.forEach.call(odg.children, function (c) { c.classList.add('tocno'); });
@@ -5806,8 +5879,9 @@
         if (!st || st.length < 2) return;
         var z;
         if (g.format === 'slaganje') {
-          var plocice = st.slice(1).filter(function (d) { return !/^en:\s*/i.test(String(d)); });
-          z = ['slaganje', st[0]].concat(plocice);
+          // "en:" ostaje u zapisu: bez engleskog predloska recenica s dva pridjeva
+          // ima dva jednako dobra poretka, a priznaje se samo jedan.
+          z = ['slaganje'].concat(st);
         } else if (g.format === 'upis') {
           z = ['upis', st[0], st[1]];
         } else {
@@ -5834,7 +5908,7 @@
       kraj('Result: ' + tocno + '/' + zadaci.length + ' (' + post + '%)' + (post >= prg ? ' · PASSED ✓' : ' · below the ' + prg + '% threshold'), tocno / zadaci.length);
     }
     function prikazi() {
-      if (i >= zadaci.length) { zavrsi(); return; }
+      if (i >= zadaci.length) { setStat('Task: ' + zadaci.length + '/' + zadaci.length, 'Correct: ' + tocno); zavrsi(); return; }
       setStat('Task: ' + (i + 1) + '/' + zadaci.length, 'Correct: ' + tocno);
       var z = zadaci[i], tip = z[0].toLowerCase();
       s.innerHTML = '';
@@ -5871,11 +5945,17 @@
       var btn = document.createElement('button'); btn.className = 'gumb'; btn.style.marginTop = '0'; btn.textContent = 'Check'; s.appendChild(btn);
       function provjeri() {
         if (gotovo || rijeseno) return;
+        if (!input.value.trim()) { input.focus(); return; }
         rijeseno = true;
         var tocni = z[2].split('/').map(norm);
         var ok = tocni.indexOf(norm(input.value)) !== -1;
         if (ok) input.classList.add('tocno');
-        else { input.classList.add('krivo'); otkr.textContent = 'Correct answer: ' + z[2]; }
+        else {
+          input.classList.add('krivo');
+          otkr.textContent = (samoKvacice(input.value, tocni)
+            ? 'Almost — only the marks are missing (č, ć, š, ž, đ). Correct answer: '
+            : 'Correct answer: ') + z[2];
+        }
         dalje(ok, ok ? 500 : 1500);
       }
       btn.onclick = provjeri;
@@ -5885,12 +5965,18 @@
     function zadSlaganje(z) {
       var rijeseno = false;
       var cilj = z[1].replace(/[.!?]+$/, '').split(/\s+/);
-      var pit = document.createElement('div'); pit.className = 'pitanjeText'; pit.textContent = 'Build the sentence:'; s.appendChild(pit);
+      var prijevod = null, ekstra = [];
+      z.slice(2).forEach(function (d) {
+        if (/^en:\s*/i.test(String(d))) prijevod = String(d).replace(/^en:\s*/i, '');
+        else ekstra.push(d);
+      });
+      var pit = document.createElement('div'); pit.className = 'pitanjeText';
+      pit.textContent = prijevod ? prijevod : 'Build the sentence:'; s.appendChild(pit);
       var imz = elSlikaIgre(z[1]); if (imz) s.appendChild(imz);
       var odg = document.createElement('div'); odg.id = 'odgovorRed'; s.appendChild(odg);
       var pool = document.createElement('div'); pool.className = 'plocice'; s.appendChild(pool);
       var otkr = document.createElement('div'); otkr.className = 'otkriveno'; s.appendChild(otkr);
-      var tiles = promijesaj(cilj.concat(z.slice(2)));
+      var tiles = promijesaj(cilj.concat(ekstra));
       if (tiles.join(' ') === cilj.join(' ') && cilj.length > 1) tiles = tiles.reverse();
       tiles.forEach(function (w) {
         var e = gumbić(w, 'plocica');
@@ -5901,7 +5987,7 @@
             if (odg.children.length === cilj.length) {
               rijeseno = true;
               var slozeno = Array.prototype.map.call(odg.children, function (c) { return c.textContent; });
-              var ok = slozeno.join(' ') === cilj.join(' ');
+              var ok = istiRed(slozeno, cilj);
               Array.prototype.forEach.call(odg.children, function (c) { c.classList.add(ok ? 'tocno' : 'krivo'); });
               if (!ok) otkr.textContent = 'Correct: ' + z[1];
               dalje(ok, ok ? 600 : 1600);
@@ -7189,7 +7275,7 @@
     var nebo = document.createElement('div'); nebo.id = 'nebo'; s.appendChild(nebo);
 
     function novaMeta() {
-      if (i >= red.length) { ziv = false; kraj('Popped all ' + red.length, 1); return; }
+      if (i >= red.length) { setStat('Popped: ' + i + '/' + red.length, ''); ziv = false; kraj('Popped all ' + red.length, 1); return; }
       meta.innerHTML = '';
       var im = elSlikaIgre(red[i][0], 'slikaIgra');
       if (im) { im.style.cssText = 'width:118px;height:118px;object-fit:contain;'; meta.appendChild(im); }
@@ -8912,8 +8998,8 @@
       '<div id="kontrole">' +
       '<button class="gumb gumbSivi" id="btnPredaj">' + IK('preskoci', 'uz') + 'Skip this exercise</button>' +
       '</div></div>';
-    $('opisIgre').textContent = (igra.naslov ? igra.naslov + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
-      ((igra.meta && igra.meta.opis) ? igra.meta.opis : '');
+    $('opisIgre').innerHTML = (igra.naslov ? esc(igra.naslov) + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
+      ((igra.meta && igra.meta.opis) ? mdInline(igra.meta.opis) : '');
     $('btnTestIzlaz').onclick = function () {
       potvrdi('Quit the test?',
         'The test is graded in one sitting. If you leave now, this attempt does not count and nothing is recorded.',
@@ -9061,7 +9147,7 @@
     $('btnTestOpet').onclick = function () { renderTestUvod(razina); };
     if (pct >= 100) konfeti(80); else if (prosao) konfeti(30);
     var nova = noveOtkljucane();
-    if (nova.length) setTimeout(function () { prikaziOtkljucanje(nova); }, 700);
+    if (nova.length) setTimeout(function () { prikaziOtkljucanje(nova, { tip: 'Test', razina: razina }); }, 700);
     TEST = null;
   }
 
@@ -9146,8 +9232,8 @@
       '<button class="gumb gumbSivi" id="btnOpet">↻ Try again</button></div>' +
       '</div>';
     animirajTrake(navTrakeCekaju); navTrakeCekaju = null;
-    $('opisIgre').textContent = (igra.naslov ? igra.naslov + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
-      ((igra.meta && igra.meta.opis) ? igra.meta.opis : '');
+    $('opisIgre').innerHTML = (igra.naslov ? esc(igra.naslov) + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
+      ((igra.meta && igra.meta.opis) ? mdInline(igra.meta.opis) : '');
     $('btnDalje').onclick = function () { renderUnit(tip, razina, indeks + 1); osvjeziHeader(); };
     $('btnPonovno').onclick = function () { renderUnit(tip, razina, indeks); };
     $('btnPredaj').onclick = function () {
@@ -9245,21 +9331,7 @@
       if (sve) konfeti(120);
       return;
     }
-    // sljedeća faza po redu tečaja
-    var sljedeci = null;
-    if (VALUTA_TIPA[tip] || tip === 'Test') {
-      var idx = TIPOVI.indexOf(tip);
-      for (var j = idx + 1; j < TIPOVI.length && !sljedeci; j++) {
-        if (igreCjeline(TIPOVI[j], razina).length > 0) sljedeci = { tip: TIPOVI[j], razina: razina };
-      }
-      if (!sljedeci && razina < MAX_RAZINA) {
-        for (var rr = razina + 1; rr <= MAX_RAZINA && !sljedeci; rr++) {
-          for (var jj = 0; jj < TIPOVI.length && !sljedeci; jj++) {
-            if (igreCjeline(TIPOVI[jj], rr).length > 0) sljedeci = { tip: TIPOVI[jj], razina: rr };
-          }
-        }
-      }
-    }
+    var sljedeci = sljedecaFaza(tip, razina);
     var btnNext = '';
     if (sljedeci) {
       if (otkljucano(sljedeci.tip, sljedeci.razina)) {
@@ -9299,7 +9371,7 @@
     var kutija = sve
       ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + 'Everything in this unit is yours — all <strong>' + maks +
         '</strong> points earned. Nothing left to win here.</div>'
-      : '<div class="preostaloBox">' + IK('munja', 'uz') + '<strong>' + ostalo + ' points</strong> are still waiting in ' + tip + ' ' + razina +
+      : '<div class="preostaloBox">' + IK('munja', 'uz') + '<strong>' + ostalo + (ostalo === 1 ? ' point</strong> is' : ' points</strong> are') + ' still waiting in ' + tip + ' ' + razina +
         '. Replay any exercise above — only your best attempt counts, so a weaker run can never cost you points.</div>';
 
     VIEW.innerHTML =

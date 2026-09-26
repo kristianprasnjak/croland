@@ -534,10 +534,10 @@ var CL = (function () {
    ===================================================================== */
 
 var ULOZI = [
-  {ulog:10,  katova:2, garaza:3, kutija:4,  w:11, h:9,  ime:'Small delivery'},
-  {ulog:30,  katova:4, garaza:4, kutija:8,  w:13, h:10, ime:'Regular shift'},
-  {ulog:60,  katova:6, garaza:5, kutija:12, w:15, h:11, ime:'Big shipment'},
-  {ulog:100, katova:9, garaza:6, kutija:16, w:17, h:12, ime:'The whole warehouse'}
+  {ulog:100,  katova:2, garaza:3, kutija:4,  w:11, h:9,  ime:'Small delivery'},
+  {ulog:300,  katova:4, garaza:4, kutija:8,  w:13, h:10, ime:'Regular shift'},
+  {ulog:600,  katova:6, garaza:5, kutija:12, w:15, h:11, ime:'Big shipment'},
+  {ulog:1000, katova:9, garaza:6, kutija:16, w:17, h:12, ime:'The whole warehouse'}
 ];
 var BOJE = ['#E8623A','#2FA8A0','#7B5EA7','#7CB342','#3E7CB1','#F4B942'];
 
@@ -943,14 +943,14 @@ function pokreniBezKraja(){
 }
 
 function kraj(){
-  var kazna = Math.min(S.u.ulog, S.greske * 2);
+  var kazna = Math.min(S.u.ulog, S.greske * 20);   // pogresna garaza: -20
   var bodovi = Math.max(0, S.u.ulog - kazna);
   CL.kraj({
     naslov:'The warehouse is empty!',
     tekst:'Job: <b>' + S.u.ulog + '</b> · ' + S.u.katova + ' floors · ' +
       S.ukupnoDostavljeno + ' boxes delivered · wrong bays: ' + S.greske + ' (−' + kazna + ').',
-    // odabrani posao x 10, umanjen za kaznu; najveci posao (100) nosi 1000
-    bodovi:Math.min(window.IGRA_MAKS, bodovi * 10), maks:window.IGRA_MAKS,
+    // odabrani posao je vec u bodovima (100/300/600/1000), umanjen za kaznu
+    bodovi:Math.min(window.IGRA_MAKS, bodovi), maks:window.IGRA_MAKS,
     ponovno:function(){ S = null; izborUloga(); }
   });
 }

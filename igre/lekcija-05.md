@@ -237,16 +237,16 @@ format: provjera
 info: The mixed final check on the whole lesson. One rule carries most of the points: a feminine **-a** turns into **-u** as the target of the verb, while *kruh* and *sok* stay untouched in every sentence.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 5.
-- slaganje | Trebam vodu i kavu.
+- slaganje | Trebam vodu i kavu. | en: I need water and coffee.
 - izbor | Ana kupuje ___ . | bananu | banana | banane
 - upis | Napiši ciljni oblik: jabuka → | jabuku
 - izbor | ___ je skupa. | Riba | Ribu
 - izbor | Što znači "trebam"? | I need | I buy | I love
 - izbor | Koja je rečenica točna? | Volim čokoladu. | Volim čokolada.
-- slaganje | Pijem kavu.
+- slaganje | Pijem kavu. | en: I drink coffee.
 - upis | Napiši ciljni oblik: tržnica → | tržnicu
 - izbor | Mama kuha ___ . | juhu | juha | juhe
-- slaganje | Ana kupuje ribu i salatu.
+- slaganje | Ana kupuje ribu i salatu. | en: Ana buys fish and salad.
 - izbor | Koja se riječ NE mijenja? | kruh | jabuka | riba
 - upis | Napiši ciljni oblik: kruška → | krušku
 
