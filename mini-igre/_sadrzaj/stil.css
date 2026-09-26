@@ -1,0 +1,66 @@
+/* ==== Zajednički pixel stil (CL-STIL) ====
+   Izvor: _sadrzaj/stil.css — u igre ga ubacuje `node _sadrzaj/ugradi.js`.
+   Mijenja samo izgled zajedničkih dijelova (HUD, ploha, gumbi, zastor…);
+   raspored, veličine polja i ponašanje igre ostaju isti.
+   Fontovi i okviri su lokalne datoteke — sve radi bez interneta.
+   Pixel font samo za naslove, brojke i kratke oznake; riječi i rečenice
+   ostaju u čitljivom fontu (Nunito). */
+@font-face{font-family:"Pixelify Sans";src:url("mini games media/font-pixelify-sans.ttf") format("truetype");
+  font-weight:400 700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("mini games media/font-nunito.ttf") format("truetype");
+  font-weight:200 1000;font-display:swap}
+:root{
+  --pix:"Pixelify Sans","Nunito","Segoe UI",system-ui,sans-serif;
+  --tekst:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
+  --okvir:#6D4B27; --okvir2:#C58747; --krem:#FFF1D2;
+  --px:3px;
+}
+body{font-family:var(--tekst);
+  background-color:var(--papir);
+  background-image:linear-gradient(rgba(109,75,39,.07) 2px,transparent 2px),
+                   linear-gradient(90deg,rgba(109,75,39,.07) 2px,transparent 2px);
+  background-size:24px 24px}
+img.px,.px img,canvas.px{image-rendering:pixelated}
+/* pixel „kutija“: kutovi odsječeni za jedan piksel-korak, bez zaobljenja */
+.hud,.ploha,.zastor .kut{border-radius:0;box-shadow:none;border:16px solid transparent;
+  border-image:url("mini games media/ui-okvir.png") 8 fill / 16px stretch;
+  image-rendering:pixelated;background:transparent}
+.hud{padding:2px 6px}
+.ploha{padding:6px}
+.zastor .kut{padding:12px 14px;background:transparent}
+.hud .ime,h2.naslov,.zastor h3{font-family:var(--pix);font-weight:700;letter-spacing:.3px}
+.hud .ime small{font-family:var(--tekst)}
+.znak,.valuta,.napredak,.poruka,input.upis,.dijakritik,.slikaOkvir{border-radius:0}
+.znak{font-family:var(--pix);font-weight:600;background:var(--krem);border:0;
+  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta);margin:2px}
+.znak.srca{background:#FFE3E3}
+.valuta{border:0;box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta);margin:2px}
+.valuta b{font-family:var(--pix)}
+/* gumbi: pixel rub (odsječeni kutovi) + tvrda sjena ispod */
+.g{border:0;border-radius:0;margin:3px;
+  box-shadow:0 calc(-1*var(--px)) 0 var(--tinta),calc(-1*var(--px)) 0 0 var(--tinta),var(--px) 0 0 var(--tinta),
+             0 var(--px) 0 var(--tinta),0 calc(2*var(--px)) 0 var(--okvir),inset 0 calc(-1*var(--px)) 0 rgba(0,0,0,.12)}
+.g:active{transform:translateY(var(--px));
+  box-shadow:0 calc(-1*var(--px)) 0 var(--tinta),calc(-1*var(--px)) 0 0 var(--tinta),var(--px) 0 0 var(--tinta),
+             0 var(--px) 0 var(--tinta)}
+.g[disabled]{transform:none;
+  box-shadow:0 calc(-1*var(--px)) 0 var(--tinta),calc(-1*var(--px)) 0 0 var(--tinta),var(--px) 0 0 var(--tinta),
+             0 var(--px) 0 var(--tinta),0 calc(2*var(--px)) 0 var(--okvir)}
+.g.glavni,.g.veliki{font-family:var(--pix);font-weight:600;letter-spacing:.3px}
+.zastor .g{font-family:var(--pix);font-weight:600}
+.poruka{font-family:var(--pix);font-weight:600;
+  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta)}
+.napredak{height:14px;border:0;background:var(--krem);margin:3px;
+  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta)}
+.napredak i{background:repeating-linear-gradient(90deg,var(--zut) 0 10px,#E0A52F 10px 12px)}
+input.upis{border:0;margin:3px;font-family:var(--tekst);
+  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta)}
+.dijakritik{font-family:var(--tekst)}
+.slikaOkvir{border-radius:4px}
+.zastor{background:rgba(43,33,24,.78)}
+.konfet{border-radius:0}
+@media (max-width:640px){
+  .hud,.ploha,.zastor .kut{border-width:12px;border-image-width:12px}
+  .hud{padding:0 4px}
+  .ploha{padding:2px}
+}

@@ -293,3 +293,15 @@ const rjJs = '// Automatski generirano putem osvjezi.bat - ne uredjivati rucno\r
 fs.writeFileSync(path.join(root, 'rjecnik.js'), '﻿' + rjJs, 'utf8');
 
 console.log('rjecnik.js osvjezen - broj lema: ' + leme.length);
+
+// ---- mini igre: popis slika riječi (FOTO) i zajednički stil ----
+// Kad se u slike/ doda nova ilustracija, mini igre je same od sebe počnu
+// koristiti tek kad se ponovno ugradi sadržaj. Greška ovdje ne zaustavlja objavu.
+try {
+  const r = require('child_process').spawnSync(process.execPath,
+    [path.join(root, 'mini-igre', '_sadrzaj', 'ugradi.js')], { encoding: 'utf8' });
+  if (r.status === 0) console.log('mini igre osvjezene (slike rijeci i stil)');
+  else console.log('UPOZORENJE: mini igre nisu osvjezene:\n' + (r.stderr || r.stdout));
+} catch (e) {
+  console.log('UPOZORENJE: mini igre nisu osvjezene: ' + e.message);
+}

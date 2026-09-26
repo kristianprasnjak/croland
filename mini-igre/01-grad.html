@@ -81,6 +81,23 @@ body.dodir .traka{bottom:auto;top:58px;font-size:12.5px;padding:4px 10px}
   header .znak{gap:5px}
   .traka{font-size:12.5px;padding:5px 9px}
 }
+
+/* ---- pixel izgled (zajednički s ostalim mini igrama) ----
+   fontovi su lokalne datoteke; pixel font samo za naslove i oznake,
+   replike i odgovori ostaju u čitljivom fontu */
+@font-face{font-family:"Pixelify Sans";src:url("mini games media/font-pixelify-sans.ttf") format("truetype");font-weight:400 700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("mini games media/font-nunito.ttf") format("truetype");font-weight:200 1000;font-display:swap}
+body{font-family:"Nunito",ui-sans-serif,system-ui,"Segoe UI",sans-serif}
+header .naslov,.oblacic{border:14px solid transparent;border-radius:0;box-shadow:none;
+  border-image:url("mini games media/ui-okvir.png") 8 fill / 14px stretch;image-rendering:pixelated;background:transparent}
+header .naslov{padding:0 6px}
+.oblacic{padding:4px 8px}
+header .ime,header .pod,.oblacic .tko,.znacka,header .znak span,header .znak button{font-family:"Pixelify Sans","Nunito",sans-serif}
+header .znak span,header .znak button,.izbori button,.traka{border:0;border-radius:0;margin:2px;box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta)}
+header .znak button{box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta),0 4px 0 #6D4B27}
+.izbori button{box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta),0 4px 0 rgba(43,33,24,.45)}
+.izbori button:active,header .znak button:active{box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta)}
+.znacka{border:0;border-radius:0;box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta),0 6px 0 var(--tinta)}
 </style></head><body>
 <canvas id="platno"></canvas>
 <header>
@@ -679,7 +696,7 @@ function crtaj(){
       if (!na.z) continue;
       if (na.x < x0 - 3 || na.x > x1 + 3 || na.y < y0 - 1 || na.y > y1 + 1) continue;
       var cx = na.x * T - kx + T / 2, cy = na.y * T - ky + 5;
-      G.font = 'bold 7px system-ui, sans-serif';
+      G.font = '800 7px Nunito, system-ui, sans-serif';
       var w2 = G.measureText(na.hr).width + 6;
       G.fillStyle = 'rgba(255,248,239,.92)';
       G.fillRect(cx - w2 / 2, cy - 5, w2, 10);

@@ -38,6 +38,33 @@ Object.keys(rijeci.RIJECI).forEach(function (kat) {
   });
 });
 
+/* ---------- 1b. koje slike riječi stvarno postoje ----------
+   Redoslijed: mini games media/rijec-<id>.png  →  ../slike/<Riječ>.webp
+   (ilustracije iz glavne aplikacije). Popis se ugrađuje u igre kao FOTO,
+   pa igra traži samo slike koje postoje. Nakon dodavanja slika ponovno
+   pokreni ovu skriptu (radi to i osvjezi.js pri svakoj objavi). */
+var MEDIJ_DIR = path.join(IGRE_DIR, 'mini games media');
+var SLIKE_DIR = path.resolve(IGRE_DIR, '..', 'slike');
+var medijSkup = {}, slikeSkup = {};
+if (fs.existsSync(MEDIJ_DIR)) fs.readdirSync(MEDIJ_DIR).forEach(function (f) { medijSkup[f] = true; });
+if (fs.existsSync(SLIKE_DIR)) fs.readdirSync(SLIKE_DIR).forEach(function (f) {
+  if (/\.webp$/i.test(f)) slikeSkup[f.normalize('NFC').toLowerCase()] = f.normalize('NFC');
+});
+var FOTO = {};
+function dodajFoto(id, hr) {
+  var dat = 'rijec-' + id + '.png';
+  if (FOTO[dat]) return;
+  if (medijSkup[dat]) { FOTO[dat] = 'mini games media/' + dat; return; }
+  var w = slikeSkup[(hr + '.webp').normalize('NFC').toLowerCase()];
+  if (w) FOTO[dat] = '../slike/' + encodeURIComponent(w.replace(/\.webp$/i, '')) + '.webp';
+}
+BANKA.forEach(function (r) { dodajFoto(r.id, r.hr); });
+/* igre s vlastitim popisom jela/predmeta: {id:'…', nom:'…'} */
+fs.readdirSync(IGRE_DIR).filter(function (f) { return /^\d\d-.*\.html$/.test(f); }).forEach(function (f) {
+  var t = fs.readFileSync(path.join(IGRE_DIR, f), 'utf8'), m, re = /\{id:'([a-z0-9-]+)',\s*nom:'([^']+)'/g;
+  while ((m = re.exec(t))) dodajFoto(m[1], m[2]);
+});
+
 var KAT = rijeci.KATEGORIJE;
 
 /* ---------- 2. provjere ---------- */
@@ -70,7 +97,35 @@ var BLOK_SADRZAJ =
   '  var DIJALOZI = ' + j(recenice.DIJALOZI) + ';\n' +
   '  var SAVJETI = ' + j(recenice.SAVJETI) + ';\n' +
   '  var SUPROTNICE = ' + j(recenice.SUPROTNICE) + ';\n' +
+  '  var FOTO = ' + j(FOTO) + ';\n' +
   '  /*[/SADRZAJ]*/';
+
+/* nova funkcija slika(): slika samo ako datoteka stvarno postoji (popis FOTO),
+   inače odmah ugrađena zamjena — nema 404 poziva ni praznih okvira */
+var BLOK_SLIKA = [
+  '  /*[CL-SLIKA]*/',
+  '  function slika(datoteka, zamjena, velicina, klasa) {',
+  '    var v = velicina || 96;',
+  '    var put = FOTO[datoteka];',
+  '    return \'<span class="slikaOkvir \' + (klasa || \'\') + (put ? \' imaSliku\' : \'\') + \'" style="width:\' + v + \'px;height:\' + v + \'px;font-size:\' + Math.round(v * 0.55) + \'px">\' +',
+  '      (put ? \'<img src="\' + put + \'" alt="" loading="lazy" onerror="this.remove()">\' : \'\') +',
+  '      \'<span class="zamjena" style="font-size:\' + Math.round(v * 0.5) + \'px">\' + zamjena + \'</span>\' +',
+  '      \'</span>\';',
+  '  }',
+  '  /*[/CL-SLIKA]*/'
+].join('\n');
+var SLIKA_STARO = [
+  '  function slika(datoteka, zamjena, velicina, klasa) {',
+  '    var v = velicina || 96;',
+  '    return \'<span class="slikaOkvir \' + (klasa || \'\') + \'" style="width:\' + v + \'px;height:\' + v + \'px;font-size:\' + Math.round(v * 0.55) + \'px">\' +',
+  '      \'<img src="\' + MEDIJ + datoteka + \'" alt="" loading="lazy" \' +',
+  '      \'onerror="this.remove()">\' +',
+  '      \'<span class="zamjena" style="font-size:\' + Math.round(v * 0.5) + \'px">\' + zamjena + \'</span>\' +',
+  '      \'</span>\';',
+  '  }'
+].join('\n');
+
+var BLOK_STIL = '/*[CL-STIL]*/\n' + fs.readFileSync(path.join(DIR, 'stil.css'), 'utf8').trim() + '\n/*[/CL-STIL]*/\n';
 
 var BLOK_DODATAK = [
   '  /*[CL-DODATAK]*/',
@@ -142,6 +197,29 @@ var BLOK_DODATAK = [
   '    z.querySelector(\'#_dalje\').onclick = function () { z.remove(); if (nastavi) nastavi(); };',
   '    return z;',
   '  }',
+  '  /* ---------- pixel sprajtovi za canvas igre ----------',
+  '     list(ime) učita PNG iz mini games media/ jednom; sprite() crta jednu',
+  '     pločicu (stupac, red) oštro, bez zaglađivanja. Dok list nije učitan,',
+  '     sprite() vraća false i igra crta svoju staru zamjenu. naSprite(fn)',
+  '     pozove fn kad se neki list učita, da se scena ponovno nacrta. */',
+  '  var _listovi = {}, _naSprite = [];',
+  '  function list(ime) {',
+  '    var i = _listovi[ime];',
+  '    if (!i) {',
+  '      i = _listovi[ime] = new Image();',
+  '      i.onload = function () { i._ok = true; _naSprite.forEach(function (f) { try { f(ime); } catch (e) {} }); };',
+  '      i.src = MEDIJ + ime;',
+  '    }',
+  '    return i;',
+  '  }',
+  '  function sprite(G, ime, c, r, x, y, w, h, vel) {',
+  '    var i = list(ime); vel = vel || 16;',
+  '    if (!i._ok) return false;',
+  '    G.imageSmoothingEnabled = false;',
+  '    G.drawImage(i, c * vel, r * vel, vel, vel, Math.round(x), Math.round(y), Math.round(w), Math.round(h === undefined ? w : h));',
+  '    return true;',
+  '  }',
+  '  function naSprite(fn) { _naSprite.push(fn); }',
   '  /*[/CL-DODATAK]*/'
 ].join('\n');
 
@@ -152,6 +230,7 @@ var IZVOZ =
   '    recenice: recenice, recenica: recenica, praznine: praznine, praznina: praznina,\n' +
   '    dijalozi: dijalozi, savjet: savjet, savjetZastor: savjetZastor, razinaZa: razinaZa,\n' +
   '    ucenje: ucenje, ucenjeSve: ucenjeSve, zaPonoviti: zaPonoviti, svjezeRijeci: svjezeRijeci,\n' +
+  '    FOTO: FOTO, list: list, sprite: sprite, naSprite: naSprite,\n' +
   '    /*[/CL-IZVOZ]*/';
 
 /* dodatak funkciji kraj(): gumb za beskonačni način */
@@ -184,6 +263,23 @@ function ugradi(dat) {
     t = t.replace(reBanka, BLOK_SADRZAJ);
   }
 
+  /* --- pixel stil (prije stila same igre, da igra i dalje može prepisati svoje) --- */
+  if (t.indexOf('/*[CL-STIL]*/') >= 0) {
+    t = t.replace(/\/\*\[CL-STIL\]\*\/[\s\S]*?\/\*\[\/CL-STIL\]\*\/\n/, function () { return BLOK_STIL; });
+  } else {
+    var s0 = t.indexOf('<style>'), s1 = t.indexOf('\n/* ==== ', s0);
+    if (s0 < 0 || s1 < 0) throw new Error(dat + ': ne nalazim mjesto za CL-STIL');
+    t = t.slice(0, s1 + 1) + BLOK_STIL + '\n' + t.slice(s1 + 1);
+  }
+
+  /* --- slika(): samo postojeće slike --- */
+  if (t.indexOf('/*[CL-SLIKA]*/') >= 0) {
+    t = t.replace(/[ \t]*\/\*\[CL-SLIKA\]\*\/[\s\S]*?\/\*\[\/CL-SLIKA\]\*\//, function () { return BLOK_SLIKA; });
+  } else {
+    if (t.indexOf(SLIKA_STARO) < 0) throw new Error(dat + ': ne nalazim funkciju slika()');
+    t = t.replace(SLIKA_STARO, function () { return BLOK_SLIKA; });
+  }
+
   /* --- CL dodatak --- */
   if (t.indexOf('/*[CL-DODATAK]*/') >= 0) {
     t = t.replace(/[ \t]*\/\*\[CL-DODATAK\]\*\/[\s\S]*?\/\*\[\/CL-DODATAK\]\*\//, BLOK_DODATAK);
@@ -214,6 +310,8 @@ function ugradi(dat) {
 
 var IGRE = fs.readdirSync(IGRE_DIR)
   .filter(function (f) { return /^\d\d-.*\.html$/.test(f); })
+  /* 01 Grad i 13 Gradovi nemaju CL jezgru; 02 je napuštena; -vN su stare inačice */
+  .filter(function (f) { return !/^(01|02|13)-/.test(f) && !/-v\d/.test(f); })
   .sort();
 
 console.log('Riječi: ' + BANKA.length + ' u ' + Object.keys(KAT).length + ' kategorija');

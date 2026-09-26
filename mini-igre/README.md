@@ -6,7 +6,8 @@ otvori je dvoklikom i radi. Nema buildanja, nema servera, nema vanjskih bibliote
 ## Potpuno odvojeno od postojeće aplikacije
 
 Ove datoteke **ne čitaju i ne mijenjaju** ništa iz projekta — ni `app.html`, ni `data.js`,
-ni mape `slike/`, `zvuk/`, `igre/`. Svaka igra nosi vlastiti ugrađeni sadržaj:
+ni mape `zvuk/`, `igre/`. Jedina iznimka su ilustracije riječi iz `slike/` (samo čitanje, vidi
+„Izgled" niže). Svaka igra nosi vlastiti ugrađeni sadržaj:
 
 | | prije | sada |
 |---|---|---|
@@ -118,6 +119,31 @@ s nazivima, dimenzijama i opisima — je u **`MEDIJI-popis.md`** (i `MEDIJI-popi
 
 **Dok je mapa prazna, sve igre rade.** Svaka slika ima ugrađen zamjenski znak, a izgovor
 se preskače. Mediji su nadogradnja, ne uvjet.
+
+## Izgled: pixel art, ali čitljivo
+
+Sve igre dijele jedan pixel izgled (od rujna 2026.):
+
+- **Fontovi su lokalni** (`mini games media/font-*.ttf`) — igre rade i bez interneta.
+  *Pixelify Sans* samo za naslove, brojke i kratke oznake; riječi, rečenice, dijalozi i
+  upis ostaju u čitljivom *Nunito*.
+- **Okviri** (HUD, ploha, zastor) su 9-slice pločice iz Kenney UI paketa
+  (`ui-okvir*.png`), gumbi i oznake imaju pixel rub bez zaobljenja.
+- **Zajednički stil** je u `_sadrzaj/stil.css`; `ugradi.js` ga ubacuje u 03–12 kao
+  blok `/*[CL-STIL]*/`. Svaka igra na kraju svog `<style>` ima još blok
+  `/* ---- pixel izgled ---- */` za svoje dijelove. 01, 13 i hub imaju isto, ručno.
+- **Canvas igre** (06, 08, 09, 10, 12) crtaju sprajtove preko `CL.sprite()` /
+  `CL.list()` iz malih listova (`skladiste.png`, `labirint.png`, `zmija.png`,
+  `portal.png`, `portal-rak.png`). Listove slaže `node _sadrzaj/sprajtovi.js` iz
+  Kenney paketa u `../kenney/`. Dok se list ne učita, igra crta stari izgled.
+  **Mijenja se samo crtanje** — mreže, hitboxovi, brzine i pravila su isti.
+- **Slike riječi**: `CL.slika()` prikazuje sliku samo ako postoji (popis `FOTO`, koji
+  `ugradi.js` složi iz `mini games media/rijec-*.png` i ilustracija u `../slike/`).
+  `osvjezi.js` pokreće `ugradi.js` pri svakoj objavi, pa nove ilustracije same ulaze u igre.
+- **Gemini slike** (pozadine Tvrđave, Konobe, kolodvora, Portala i Obrane): popis i
+  promptovi su u `MINI-gemini-promptovi.md`, obrada `node _sadrzaj/gemini-obradi.js`.
+- Izvori i licence svih preuzetih datoteka: `mini games media/IZVORI-CC0.md` (samo CC0,
+  fontovi OFL).
 
 ## Popis igara
 

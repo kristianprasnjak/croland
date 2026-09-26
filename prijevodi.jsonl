@@ -2030,3 +2030,372 @@
 {"lema": "zračna luka", "en": ["airport"]}
 {"lema": "struk", "en": ["waist"]}
 {"lema": "kikiriki", "en": ["peanut"]}
+{"lema": "maslina", "en": ["olive"]}
+{"lema": "večera", "en": ["dinner"]}
+{"lema": "šampanjac", "en": ["champagne"]}
+{"lema": "rakija", "en": ["brandy", "rakija"]}
+{"lema": "napitak", "en": ["beverage", "drink"]}
+{"lema": "kapučino", "en": ["cappuccino"]}
+{"lema": "čajnik", "en": ["teapot", "kettle"]}
+{"lema": "slamka", "en": ["straw"]}
+{"lema": "gutljaj", "en": ["sip"]}
+{"lema": "burek", "en": ["burek"]}
+{"lema": "fritula", "en": ["fritter"]}
+{"lema": "lignja", "en": ["squid"]}
+{"lema": "gulaš", "en": ["goulash"]}
+{"lema": "jelen", "en": ["deer"]}
+{"lema": "patka", "en": ["duck"]}
+{"lema": "guska", "en": ["goose"]}
+{"lema": "pijetao", "en": ["rooster"]}
+{"lema": "slon", "en": ["elephant"]}
+{"lema": "majmun", "en": ["monkey"]}
+{"lema": "tigar", "en": ["tiger"]}
+{"lema": "žirafa", "en": ["giraffe"]}
+{"lema": "krokodil", "en": ["crocodile"]}
+{"lema": "zmija", "en": ["snake"]}
+{"lema": "kornjača", "en": ["turtle", "tortoise"]}
+{"lema": "puž", "en": ["snail"]}
+{"lema": "leptir", "en": ["butterfly"]}
+{"lema": "mrav", "en": ["ant"]}
+{"lema": "pauk", "en": ["spider"]}
+{"lema": "dupin", "en": ["dolphin"]}
+{"lema": "kit", "en": ["whale"]}
+{"lema": "rak", "en": ["crab", "crayfish"]}
+{"lema": "hobotnica", "en": ["octopus"]}
+{"lema": "sova", "en": ["owl"]}
+{"lema": "orao", "en": ["eagle"]}
+{"lema": "vjeverica", "en": ["squirrel"]}
+{"lema": "jež", "en": ["hedgehog"]}
+{"lema": "šišmiš", "en": ["bat"]}
+{"lema": "janje", "en": ["lamb"]}
+{"lema": "mače", "en": ["kitten"]}
+{"lema": "štene", "en": ["puppy"]}
+{"lema": "štakor", "en": ["rat"]}
+{"lema": "bratić", "en": ["cousin (male)"]}
+{"lema": "sestrična", "en": ["cousin (female)"]}
+{"lema": "starac", "en": ["old man"]}
+{"lema": "skupina", "en": ["group"]}
+{"lema": "narod", "en": ["nation", "people"]}
+{"lema": "beba", "en": ["baby"]}
+{"lema": "tinejdžer", "en": ["teenager"]}
+{"lema": "tetak", "en": ["uncle (aunt's husband)"]}
+{"lema": "nećakinja", "en": ["niece"]}
+{"lema": "svekar", "en": ["father-in-law (husband's father)"]}
+{"lema": "svekrva", "en": ["mother-in-law (husband's mother)"]}
+{"lema": "punac", "en": ["father-in-law (wife's father)"]}
+{"lema": "punica", "en": ["mother-in-law (wife's mother)"]}
+{"lema": "zet", "en": ["son-in-law", "brother-in-law (sister's husband)"]}
+{"lema": "snaha", "en": ["daughter-in-law", "sister-in-law (brother's wife)"]}
+{"lema": "šogor", "en": ["brother-in-law"]}
+{"lema": "kum", "en": ["godfather", "best man"]}
+{"lema": "pekar", "en": ["baker"]}
+{"lema": "slikar", "en": ["painter"]}
+{"lema": "ribar", "en": ["fisherman"]}
+{"lema": "mesar", "en": ["butcher"]}
+{"lema": "zidar", "en": ["bricklayer"]}
+{"lema": "stolar", "en": ["carpenter"]}
+{"lema": "mehaničar", "en": ["mechanic"]}
+{"lema": "električar", "en": ["electrician"]}
+{"lema": "inženjer", "en": ["engineer"]}
+{"lema": "programer", "en": ["programmer"]}
+{"lema": "vodoinstalater", "en": ["plumber"]}
+{"lema": "prodavač", "en": ["shop assistant"]}
+{"lema": "krojač", "en": ["tailor"]}
+{"lema": "navijač", "en": ["fan (supporter)"]}
+{"lema": "vodič", "en": ["guide", "guidebook"]}
+{"lema": "odgojitelj", "en": ["preschool teacher"]}
+{"lema": "vatrogasac", "en": ["firefighter"]}
+{"lema": "seljak", "en": ["peasant", "farmer"]}
+{"lema": "poljoprivrednik", "en": ["farmer"]}
+{"lema": "arhitekt", "en": ["architect"]}
+{"lema": "znanstvenik", "en": ["scientist"]}
+{"lema": "sudac", "en": ["referee", "judge"]}
+{"lema": "luka", "en": ["port", "harbour"]}
+{"lema": "tvornica", "en": ["factory"]}
+{"lema": "vrtić", "en": ["kindergarten"]}
+{"lema": "dvorana", "en": ["hall"]}
+{"lema": "fontana", "en": ["fountain"]}
+{"lema": "akvarij", "en": ["aquarium"]}
+{"lema": "tvrđava", "en": ["fortress"]}
+{"lema": "dvorac", "en": ["castle"]}
+{"lema": "svjetionik", "en": ["lighthouse"]}
+{"lema": "tavan", "en": ["attic"]}
+{"lema": "kauč", "en": ["sofa", "couch"]}
+{"lema": "stepenice", "en": ["stairs"]}
+{"lema": "blagovaonica", "en": ["dining room"]}
+{"lema": "predsoblje", "en": ["hallway", "entrance hall"]}
+{"lema": "prag", "en": ["threshold", "doorstep"]}
+{"lema": "zvono", "en": ["bell", "doorbell"]}
+{"lema": "lift", "en": ["lift", "elevator"]}
+{"lema": "pekarnica", "en": ["bakery"]}
+{"lema": "policija", "en": ["police"]}
+{"lema": "kavana", "en": ["café", "coffee house"]}
+{"lema": "groblje", "en": ["cemetery"]}
+{"lema": "bazen", "en": ["swimming pool"]}
+{"lema": "tržni centar", "en": ["shopping centre", "mall"]}
+{"lema": "spavaća soba", "en": ["bedroom"]}
+{"lema": "dnevna soba", "en": ["living room"]}
+{"lema": "dnevni boravak", "en": ["living room"]}
+{"lema": "kamion", "en": ["truck"]}
+{"lema": "romobil", "en": ["scooter"]}
+{"lema": "helikopter", "en": ["helicopter"]}
+{"lema": "volan", "en": ["steering wheel"]}
+{"lema": "traktor", "en": ["tractor"]}
+{"lema": "bager", "en": ["excavator"]}
+{"lema": "vagon", "en": ["carriage", "wagon"]}
+{"lema": "gliser", "en": ["speedboat"]}
+{"lema": "motocikl", "en": ["motorcycle"]}
+{"lema": "kombi", "en": ["van"]}
+{"lema": "raketa", "en": ["rocket"]}
+{"lema": "sidro", "en": ["anchor"]}
+{"lema": "jedro", "en": ["sail"]}
+{"lema": "kolica", "en": ["cart", "trolley", "pram"]}
+{"lema": "jedrilica", "en": ["sailboat", "glider"]}
+{"lema": "skija", "en": ["ski"]}
+{"lema": "koturaljka", "en": ["roller skate"]}
+{"lema": "sanjke", "en": ["sled", "sledge"]}
+{"lema": "žičara", "en": ["cable car"]}
+{"lema": "kamp-kućica", "en": ["caravan", "camper"]}
+{"lema": "kanu", "en": ["canoe"]}
+{"lema": "podmornica", "en": ["submarine"]}
+{"lema": "češalj", "en": ["comb"]}
+{"lema": "četkica", "en": ["toothbrush", "small brush"]}
+{"lema": "svijeća", "en": ["candle"]}
+{"lema": "ljepilo", "en": ["glue"]}
+{"lema": "bilježnica", "en": ["notebook"]}
+{"lema": "kist", "en": ["paintbrush"]}
+{"lema": "zdjela", "en": ["bowl"]}
+{"lema": "metla", "en": ["broom"]}
+{"lema": "alat", "en": ["tool", "tools"]}
+{"lema": "čekić", "en": ["hammer"]}
+{"lema": "ljestve", "en": ["ladder"]}
+{"lema": "uže", "en": ["rope"]}
+{"lema": "lanac", "en": ["chain"]}
+{"lema": "zemljovid", "en": ["map"]}
+{"lema": "zastava", "en": ["flag"]}
+{"lema": "igračka", "en": ["toy"]}
+{"lema": "kocka", "en": ["dice", "cube"]}
+{"lema": "naljepnica", "en": ["sticker", "label"]}
+{"lema": "kutlača", "en": ["ladle"]}
+{"lema": "vaza", "en": ["vase"]}
+{"lema": "pila", "en": ["saw"]}
+{"lema": "odvijač", "en": ["screwdriver"]}
+{"lema": "kliješta", "en": ["pliers"]}
+{"lema": "bušilica", "en": ["drill"]}
+{"lema": "čavao", "en": ["nail"]}
+{"lema": "vijak", "en": ["screw"]}
+{"lema": "lopata", "en": ["shovel"]}
+{"lema": "sjekira", "en": ["axe"]}
+{"lema": "pladanj", "en": ["tray"]}
+{"lema": "sito", "en": ["sieve"]}
+{"lema": "cjedilo", "en": ["strainer", "colander"]}
+{"lema": "brusilica", "en": ["grinder", "sander"]}
+{"lema": "turpija", "en": ["file (tool)"]}
+{"lema": "grablje", "en": ["rake"]}
+{"lema": "vile", "en": ["pitchfork"]}
+{"lema": "motika", "en": ["hoe"]}
+{"lema": "kosilica", "en": ["lawn mower"]}
+{"lema": "pumpa", "en": ["pump"]}
+{"lema": "dizalica", "en": ["crane", "jack"]}
+{"lema": "traka", "en": ["tape", "strip", "ribbon"]}
+{"lema": "valjak", "en": ["roller", "cylinder"]}
+{"lema": "vrč", "en": ["jug", "pitcher"]}
+{"lema": "žličica", "en": ["teaspoon"]}
+{"lema": "kalup", "en": ["mould", "baking tin"]}
+{"lema": "lijevak", "en": ["funnel"]}
+{"lema": "lopatica", "en": ["spatula", "small shovel"]}
+{"lema": "ribež", "en": ["grater"]}
+{"lema": "otvarač", "en": ["opener"]}
+{"lema": "pjenjača", "en": ["whisk"]}
+{"lema": "džezva", "en": ["Turkish coffee pot"]}
+{"lema": "termosica", "en": ["thermos flask"]}
+{"lema": "krpa", "en": ["cloth", "rag"]}
+{"lema": "spužva", "en": ["sponge"]}
+{"lema": "glačalo", "en": ["iron (for clothes)"]}
+{"lema": "vješalica", "en": ["hanger"]}
+{"lema": "koš", "en": ["basket", "bin"]}
+{"lema": "fotelja", "en": ["armchair"]}
+{"lema": "komoda", "en": ["chest of drawers"]}
+{"lema": "klupa", "en": ["bench", "school desk"]}
+{"lema": "ležaljka", "en": ["deckchair", "sun lounger"]}
+{"lema": "ograda", "en": ["fence"]}
+{"lema": "ručni sat", "en": ["wristwatch"]}
+{"lema": "baterijska svjetiljka", "en": ["torch", "flashlight"]}
+{"lema": "daska za rezanje", "en": ["cutting board"]}
+{"lema": "produžni kabel", "en": ["extension cord"]}
+{"lema": "aluminijska folija", "en": ["aluminium foil"]}
+{"lema": "pojas", "en": ["belt"]}
+{"lema": "džep", "en": ["pocket"]}
+{"lema": "gumb", "en": ["button (on clothes)"]}
+{"lema": "prsluk", "en": ["waistcoat", "vest"]}
+{"lema": "ogrtač", "en": ["cloak", "bathrobe"]}
+{"lema": "trenirka", "en": ["tracksuit"]}
+{"lema": "japanka", "en": ["flip-flop"]}
+{"lema": "gležnjača", "en": ["ankle boot"]}
+{"lema": "kratke hlače", "en": ["shorts"]}
+{"lema": "grom", "en": ["thunder", "thunderbolt"]}
+{"lema": "vatra", "en": ["fire"]}
+{"lema": "slap", "en": ["waterfall"]}
+{"lema": "biljka", "en": ["plant"]}
+{"lema": "školjka", "en": ["shell", "seashell"]}
+{"lema": "koralj", "en": ["coral"]}
+{"lema": "ruža", "en": ["rose"]}
+{"lema": "hrast", "en": ["oak"]}
+{"lema": "bor", "en": ["pine"]}
+{"lema": "breza", "en": ["birch"]}
+{"lema": "vrba", "en": ["willow"]}
+{"lema": "palma", "en": ["palm tree"]}
+{"lema": "djetelina", "en": ["clover"]}
+{"lema": "kopriva", "en": ["nettle"]}
+{"lema": "mahovina", "en": ["moss"]}
+{"lema": "mimoza", "en": ["mimosa"]}
+{"lema": "lavanda", "en": ["lavender"]}
+{"lema": "stijena", "en": ["rock"]}
+{"lema": "litica", "en": ["cliff"]}
+{"lema": "ravnica", "en": ["plain"]}
+{"lema": "močvara", "en": ["swamp"]}
+{"lema": "rosa", "en": ["dew"]}
+{"lema": "poplava", "en": ["flood"]}
+{"lema": "lipa", "en": ["linden tree", "lipa (coin)"]}
+{"lema": "tratinčica", "en": ["daisy"]}
+{"lema": "ljubičica", "en": ["violet"]}
+{"lema": "metvica", "en": ["mint"]}
+{"lema": "orhideja", "en": ["orchid"]}
+{"lema": "kesten", "en": ["chestnut"]}
+{"lema": "tulipan", "en": ["tulip"]}
+{"lema": "ljiljan", "en": ["lily"]}
+{"lema": "suncokret", "en": ["sunflower"]}
+{"lema": "karanfil", "en": ["carnation"]}
+{"lema": "kaktus", "en": ["cactus"]}
+{"lema": "bršljan", "en": ["ivy"]}
+{"lema": "maslačak", "en": ["dandelion"]}
+{"lema": "bosiljak", "en": ["basil"]}
+{"lema": "ružmarin", "en": ["rosemary"]}
+{"lema": "peršin", "en": ["parsley"]}
+{"lema": "paprat", "en": ["fern"]}
+{"lema": "ponoć", "en": ["midnight"]}
+{"lema": "praznik", "en": ["holiday", "public holiday"]}
+{"lema": "raspored", "en": ["schedule", "timetable"]}
+{"lema": "zora", "en": ["dawn"]}
+{"lema": "sumrak", "en": ["dusk", "twilight"]}
+{"lema": "pljusak", "en": ["downpour", "shower"]}
+{"lema": "nevrijeme", "en": ["storm", "bad weather"]}
+{"lema": "sjena", "en": ["shadow", "shade"]}
+{"lema": "suša", "en": ["drought"]}
+{"lema": "blato", "en": ["mud"]}
+{"lema": "želja", "en": ["wish", "desire"]}
+{"lema": "osjećaj", "en": ["feeling"]}
+{"lema": "hrabrost", "en": ["courage"]}
+{"lema": "smijeh", "en": ["laughter"]}
+{"lema": "suza", "en": ["tear"]}
+{"lema": "zagrljaj", "en": ["hug", "embrace"]}
+{"lema": "poljubac", "en": ["kiss"]}
+{"lema": "tjeskoba", "en": ["anxiety"]}
+{"lema": "ljubomora", "en": ["jealousy"]}
+{"lema": "zavist", "en": ["envy"]}
+{"lema": "znatiželja", "en": ["curiosity"]}
+{"lema": "lijenost", "en": ["laziness"]}
+{"lema": "samoća", "en": ["loneliness", "solitude"]}
+{"lema": "mržnja", "en": ["hatred"]}
+{"lema": "krivnja", "en": ["guilt"]}
+{"lema": "upornost", "en": ["persistence"]}
+{"lema": "poštenje", "en": ["honesty"]}
+{"lema": "dobrota", "en": ["kindness"]}
+{"lema": "skromnost", "en": ["modesty"]}
+{"lema": "samopouzdanje", "en": ["self-confidence"]}
+{"lema": "e-pošta", "en": ["e-mail"]}
+{"lema": "igrica", "en": ["video game"]}
+{"lema": "zvučnik", "en": ["speaker"]}
+{"lema": "kamera", "en": ["camera"]}
+{"lema": "tipka", "en": ["key (on keyboard)", "button"]}
+{"lema": "video", "en": ["video"]}
+{"lema": "struja", "en": ["electricity", "current"]}
+{"lema": "mikrofon", "en": ["microphone"]}
+{"lema": "smještaj", "en": ["accommodation"]}
+{"lema": "recepcija", "en": ["reception"]}
+{"lema": "razgledavanje", "en": ["sightseeing"]}
+{"lema": "šator", "en": ["tent"]}
+{"lema": "osiguranje", "en": ["insurance"]}
+{"lema": "razglednica", "en": ["postcard"]}
+{"lema": "prijevod", "en": ["translation"]}
+{"lema": "književnost", "en": ["literature"]}
+{"lema": "informatika", "en": ["IT", "computer science"]}
+{"lema": "razred", "en": ["class", "grade (year)"]}
+{"lema": "učionica", "en": ["classroom"]}
+{"lema": "ploča", "en": ["board", "blackboard"]}
+{"lema": "kreda", "en": ["chalk"]}
+{"lema": "predavanje", "en": ["lecture"]}
+{"lema": "rečenica", "en": ["sentence"]}
+{"lema": "raspust", "en": ["school holiday"]}
+{"lema": "gumica", "en": ["eraser", "rubber band"]}
+{"lema": "šiljilo", "en": ["pencil sharpener"]}
+{"lema": "ravnalo", "en": ["ruler"]}
+{"lema": "pernica", "en": ["pencil case"]}
+{"lema": "bojica", "en": ["crayon", "coloured pencil"]}
+{"lema": "flomaster", "en": ["felt-tip pen", "marker"]}
+{"lema": "šestar", "en": ["compass (for drawing)"]}
+{"lema": "blok", "en": ["notepad", "sketchbook", "block"]}
+{"lema": "atlas", "en": ["atlas"]}
+{"lema": "dnevnik", "en": ["diary", "class register", "news (TV)"]}
+{"lema": "rukomet", "en": ["handball"]}
+{"lema": "odbojka", "en": ["volleyball"]}
+{"lema": "biciklizam", "en": ["cycling"]}
+{"lema": "skijanje", "en": ["skiing"]}
+{"lema": "ronjenje", "en": ["diving"]}
+{"lema": "planinarenje", "en": ["hiking"]}
+{"lema": "medalja", "en": ["medal"]}
+{"lema": "pobjeda", "en": ["victory", "win"]}
+{"lema": "poraz", "en": ["defeat"]}
+{"lema": "teren", "en": ["pitch", "field", "court"]}
+{"lema": "atletika", "en": ["athletics"]}
+{"lema": "gimnastika", "en": ["gymnastics"]}
+{"lema": "boks", "en": ["boxing"]}
+{"lema": "klizanje", "en": ["skating"]}
+{"lema": "veslanje", "en": ["rowing"]}
+{"lema": "reket", "en": ["racket"]}
+{"lema": "palica", "en": ["stick", "bat", "club"]}
+{"lema": "kaciga", "en": ["helmet"]}
+{"lema": "štitnik", "en": ["guard", "protector"]}
+{"lema": "uteg", "en": ["weight (dumbbell)"]}
+{"lema": "strunjača", "en": ["mat (gym)"]}
+{"lema": "violina", "en": ["violin"]}
+{"lema": "flauta", "en": ["flute"]}
+{"lema": "truba", "en": ["trumpet"]}
+{"lema": "mandolina", "en": ["mandolin"]}
+{"lema": "tuba", "en": ["tuba"]}
+{"lema": "tamburica", "en": ["tamburica"]}
+{"lema": "harmonika", "en": ["accordion"]}
+{"lema": "harfa", "en": ["harp"]}
+{"lema": "frula", "en": ["recorder", "folk flute"]}
+{"lema": "zvečka", "en": ["rattle"]}
+{"lema": "bas-gitara", "en": ["bass guitar"]}
+{"lema": "saksofon", "en": ["saxophone"]}
+{"lema": "ksilofon", "en": ["xylophone"]}
+{"lema": "klarinet", "en": ["clarinet"]}
+{"lema": "trombon", "en": ["trombone"]}
+{"lema": "kontrabas", "en": ["double bass"]}
+{"lema": "sintesajzer", "en": ["synthesizer"]}
+{"lema": "triangl", "en": ["triangle (instrument)"]}
+{"lema": "bubanj", "en": ["drum"]}
+{"lema": "bendžo", "en": ["banjo"]}
+{"lema": "ukulele", "en": ["ukulele"]}
+{"lema": "činele", "en": ["cymbals"]}
+{"lema": "orgulje", "en": ["organ (instrument)"]}
+{"lema": "gajde", "en": ["bagpipes"]}
+{"lema": "usna harmonika", "en": ["harmonica", "mouth organ"]}
+{"lema": "dimnjak", "en": ["chimney"]}
+{"lema": "šaka", "en": ["fist", "hand"]}
+{"lema": "loš", "en": ["bad"]}
+{"lema": "mek", "en": ["soft"]}
+{"lema": "tvrd", "en": ["hard"]}
+{"lema": "siromašan", "en": ["poor"]}
+{"lema": "sličan", "en": ["similar"]}
+{"lema": "pikantan", "en": ["spicy", "piquant"]}
+{"lema": "prevoditi", "en": ["to translate"]}
+{"lema": "prevesti", "en": ["to translate"]}
+{"lema": "penjati se", "en": ["to climb"]}
+{"lema": "popeti se", "en": ["to climb (up)"]}
+{"lema": "slaviti", "en": ["to celebrate"]}
+{"lema": "proslaviti", "en": ["to celebrate"]}
+{"lema": "pripremiti", "en": ["to prepare"]}
+{"lema": "pripremati", "en": ["to prepare"]}

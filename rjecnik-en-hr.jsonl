@@ -68,7 +68,7 @@
 {"en": "back", "hr": ["leđa", "natrag", "nazad"]}
 {"en": "bag", "hr": ["torba", "vrećica"]}
 {"en": "to bake", "hr": ["peći", "ispeći"]}
-{"en": "bakery", "hr": ["pekara"]}
+{"en": "bakery", "hr": ["pekara", "pekarnica"]}
 {"en": "balcony", "hr": ["balkon"]}
 {"en": "ball", "hr": ["lopta"]}
 {"en": "balloon", "hr": ["balon"]}
@@ -86,7 +86,7 @@
 {"en": "because", "hr": ["jer", "zato što", "zbog", "budući da"]}
 {"en": "to become", "hr": ["postati", "postajati"]}
 {"en": "bed", "hr": ["krevet"]}
-{"en": "bedroom", "hr": ["spavaonica", "soba"]}
+{"en": "bedroom", "hr": ["spavaonica", "soba", "spavaća soba"]}
 {"en": "bee", "hr": ["pčela"]}
 {"en": "beer", "hr": ["pivo"]}
 {"en": "before", "hr": ["prije"]}
@@ -94,7 +94,7 @@
 {"en": "beginning", "hr": ["početak"]}
 {"en": "behind", "hr": ["iza", "za"]}
 {"en": "to believe", "hr": ["vjerovati", "povjerovati"]}
-{"en": "belt", "hr": ["remen"]}
+{"en": "belt", "hr": ["remen", "pojas"]}
 {"en": "below", "hr": ["ispod", "dolje"]}
 {"en": "beside", "hr": ["pokraj"]}
 {"en": "better", "hr": ["bolje", "bolji"]}
@@ -141,13 +141,13 @@
 {"en": "to buy", "hr": ["kupiti", "kupovati"]}
 {"en": "by the way", "hr": ["usput"]}
 {"en": "cabbage", "hr": ["kupus"]}
-{"en": "café", "hr": ["kafić"]}
+{"en": "café", "hr": ["kafić", "kavana"]}
 {"en": "cake", "hr": ["torta", "kolač"]}
 {"en": "to calculate", "hr": ["računati", "izračunati"]}
 {"en": "call", "hr": ["poziv"]}
 {"en": "to call", "hr": ["zvati", "nazvati", "pozvati", "telefonirati", "nazivati", "pozivati"]}
 {"en": "calm", "hr": ["miran", "mir"]}
-{"en": "camera", "hr": ["fotoaparat"]}
+{"en": "camera", "hr": ["fotoaparat", "kamera"]}
 {"en": "camp", "hr": ["kamp"]}
 {"en": "can", "hr": ["moći"]}
 {"en": "to cancel", "hr": ["otkazati", "otkazivati"]}
@@ -200,7 +200,7 @@
 {"en": "to close", "hr": ["zatvoriti", "zatvarati"]}
 {"en": "closed", "hr": ["zatvoren"]}
 {"en": "cloud", "hr": ["oblak"]}
-{"en": "club", "hr": ["klub"]}
+{"en": "club", "hr": ["klub", "palica"]}
 {"en": "coach", "hr": ["trener", "autobus"]}
 {"en": "coast", "hr": ["obala"]}
 {"en": "coat", "hr": ["kaput"]}
@@ -278,7 +278,7 @@
 {"en": "to dream", "hr": ["sanjati", "odsanjati"]}
 {"en": "dress", "hr": ["haljina"]}
 {"en": "to dress", "hr": ["obući se", "oblačiti se", "oblačiti"]}
-{"en": "drink", "hr": ["piće"]}
+{"en": "drink", "hr": ["piće", "napitak"]}
 {"en": "to drink", "hr": ["piti", "popiti"]}
 {"en": "to drive", "hr": ["voziti", "odvesti"]}
 {"en": "driver", "hr": ["vozač", "vozačica"]}
@@ -329,7 +329,7 @@
 {"en": "to feel", "hr": ["osjećati", "osjetiti"]}
 {"en": "ferry", "hr": ["trajekt"]}
 {"en": "fever", "hr": ["groznica", "temperatura"]}
-{"en": "field", "hr": ["polje"]}
+{"en": "field", "hr": ["polje", "teren"]}
 {"en": "film", "hr": ["film"]}
 {"en": "finally", "hr": ["napokon", "konačno"]}
 {"en": "to find", "hr": ["naći", "pronaći", "nalaziti", "pronalaziti"]}
@@ -409,7 +409,7 @@
 {"en": "habit", "hr": ["navika"]}
 {"en": "hair", "hr": ["kosa"]}
 {"en": "half", "hr": ["pola", "polovica", "polovina"]}
-{"en": "hand", "hr": ["ruka"]}
+{"en": "hand", "hr": ["ruka", "šaka"]}
 {"en": "to hang", "hr": ["visjeti", "objesiti", "vješati"]}
 {"en": "happiness", "hr": ["sreća"]}
 {"en": "happy", "hr": ["sretan", "zadovoljan"]}
@@ -557,7 +557,7 @@
 {"en": "to make", "hr": ["napraviti", "raditi", "praviti"]}
 {"en": "man", "hr": ["čovjek", "muškarac"]}
 {"en": "many", "hr": ["mnogo", "puno"]}
-{"en": "map", "hr": ["karta", "mapa"]}
+{"en": "map", "hr": ["karta", "mapa", "zemljovid"]}
 {"en": "marathon", "hr": ["maraton"]}
 {"en": "March", "hr": ["ožujak"]}
 {"en": "market", "hr": ["tržnica", "trg"]}
@@ -582,7 +582,7 @@
 {"en": "million", "hr": ["milijun"]}
 {"en": "mine", "hr": ["moj"]}
 {"en": "minute", "hr": ["minuta"]}
-{"en": "mint", "hr": ["menta"]}
+{"en": "mint", "hr": ["menta", "metvica"]}
 {"en": "mistake", "hr": ["greška", "pogreška"]}
 {"en": "to mix", "hr": ["miješati", "izmiješati"]}
 {"en": "modern", "hr": ["moderan", "suvremen"]}
@@ -690,7 +690,7 @@
 {"en": "pear", "hr": ["kruška"]}
 {"en": "pedestrian", "hr": ["pješak"]}
 {"en": "pen", "hr": ["olovka", "kemijska"]}
-{"en": "people", "hr": ["ljudi"]}
+{"en": "people", "hr": ["ljudi", "narod"]}
 {"en": "perfect", "hr": ["savršen"]}
 {"en": "perfume", "hr": ["parfem"]}
 {"en": "perhaps", "hr": ["možda"]}
@@ -871,7 +871,7 @@
 {"en": "soap", "hr": ["sapun"]}
 {"en": "society", "hr": ["društvo"]}
 {"en": "sock", "hr": ["čarapa"]}
-{"en": "soft", "hr": ["mekan"]}
+{"en": "soft", "hr": ["mekan", "mek"]}
 {"en": "soldier", "hr": ["vojnik"]}
 {"en": "solution", "hr": ["rješenje"]}
 {"en": "some", "hr": ["neki", "nekoliko"]}
@@ -891,7 +891,7 @@
 {"en": "special", "hr": ["poseban"]}
 {"en": "speciality", "hr": ["specijalitet"]}
 {"en": "spice", "hr": ["začin"]}
-{"en": "spicy", "hr": ["ljut", "začinjen"]}
+{"en": "spicy", "hr": ["ljut", "začinjen", "pikantan"]}
 {"en": "spoon", "hr": ["žlica"]}
 {"en": "sport", "hr": ["sport", "šport"]}
 {"en": "spring", "hr": ["proljeće", "izvor"]}
@@ -909,7 +909,7 @@
 {"en": "stone", "hr": ["kamen"]}
 {"en": "to stop", "hr": ["prestati", "stati", "zaustaviti", "prestajati", "zaustavljati"]}
 {"en": "store", "hr": ["trgovina", "dućan"]}
-{"en": "storm", "hr": ["oluja"]}
+{"en": "storm", "hr": ["oluja", "nevrijeme"]}
 {"en": "story", "hr": ["priča"]}
 {"en": "straight", "hr": ["ravno", "ravan"]}
 {"en": "strange", "hr": ["čudan"]}
@@ -1183,7 +1183,7 @@
 {"en": "young man", "hr": ["mladić", "momak"]}
 {"en": "youth", "hr": ["mladić"]}
 {"en": "lad", "hr": ["mladić"]}
-{"en": "motorcycle", "hr": ["motor"]}
+{"en": "motorcycle", "hr": ["motor", "motocikl"]}
 {"en": "engine", "hr": ["motor"]}
 {"en": "male", "hr": ["muškarac"]}
 {"en": "soccer", "hr": ["nogomet"]}
@@ -1203,7 +1203,7 @@
 {"en": "piece of advice", "hr": ["savjet"]}
 {"en": "tip", "hr": ["savjet", "vrh", "napojnica"]}
 {"en": "traffic lights", "hr": ["semafor"]}
-{"en": "scooter", "hr": ["skuter"]}
+{"en": "scooter", "hr": ["skuter", "romobil"]}
 {"en": "specialty", "hr": ["specijalitet"]}
 {"en": "signature dish", "hr": ["specijalitet"]}
 {"en": "memorial", "hr": ["spomenik"]}
@@ -1331,7 +1331,7 @@
 {"en": "spot", "hr": ["mjesto"]}
 {"en": "heaven", "hr": ["nebo"]}
 {"en": "approximately", "hr": ["oko (prijedlog)", "otprilike"]}
-{"en": "beverage", "hr": ["piće"]}
+{"en": "beverage", "hr": ["piće", "napitak"]}
 {"en": "midday", "hr": ["podne"]}
 {"en": "travel", "hr": ["putovanje"]}
 {"en": "learning", "hr": ["učenje"]}
@@ -1528,7 +1528,7 @@
 {"en": "lucky", "hr": ["sretan"]}
 {"en": "colorful", "hr": ["šaren"]}
 {"en": "multicoloured", "hr": ["šaren"]}
-{"en": "hard", "hr": ["težak"]}
+{"en": "hard", "hr": ["težak", "tvrd"]}
 {"en": "delicious", "hr": ["ukusan"]}
 {"en": "merry", "hr": ["veseo"]}
 {"en": "jolly", "hr": ["veseo"]}
@@ -1550,7 +1550,7 @@
 {"en": "odd", "hr": ["čudan"]}
 {"en": "weird", "hr": ["čudan"]}
 {"en": "usual", "hr": ["običan"]}
-{"en": "plain", "hr": ["običan"]}
+{"en": "plain", "hr": ["običan", "ravnica"]}
 {"en": "particular", "hr": ["poseban"]}
 {"en": "separate", "hr": ["poseban"]}
 {"en": "known", "hr": ["poznat"]}
@@ -1703,7 +1703,7 @@
 {"en": "age", "hr": ["vijek"]}
 {"en": "deadline", "hr": ["rok"]}
 {"en": "term", "hr": ["rok"]}
-{"en": "rock", "hr": ["kamen"]}
+{"en": "rock", "hr": ["kamen", "stijena"]}
 {"en": "peak", "hr": ["vrh"]}
 {"en": "hare", "hr": ["zec"]}
 {"en": "aim", "hr": ["cilj"]}
@@ -1754,7 +1754,7 @@
 {"en": "lessons", "hr": ["nastava"]}
 {"en": "mark", "hr": ["ocjena"]}
 {"en": "assessment", "hr": ["ocjena"]}
-{"en": "drill", "hr": ["vježba"]}
+{"en": "drill", "hr": ["vježba", "bušilica"]}
 {"en": "recollection", "hr": ["sjećanje"]}
 {"en": "view", "hr": ["mišljenje"]}
 {"en": "lap", "hr": ["krilo"]}
@@ -1790,7 +1790,7 @@
 {"en": "saucepan", "hr": ["lonac"]}
 {"en": "lid", "hr": ["poklopac"]}
 {"en": "cover", "hr": ["poklopac", "pokrivač"]}
-{"en": "board", "hr": ["daska"]}
+{"en": "board", "hr": ["daska", "ploča"]}
 {"en": "plank", "hr": ["daska"]}
 {"en": "chopping board", "hr": ["daska"]}
 {"en": "serviette", "hr": ["ubrus"]}
@@ -1817,7 +1817,7 @@
 {"en": "mobile phone", "hr": ["mobitel"]}
 {"en": "cell phone", "hr": ["mobitel"]}
 {"en": "rest", "hr": ["odmor"]}
-{"en": "holiday", "hr": ["odmor", "blagdan"]}
+{"en": "holiday", "hr": ["odmor", "blagdan", "praznik"]}
 {"en": "data", "hr": ["podatak"]}
 {"en": "professor", "hr": ["profesor"]}
 {"en": "attitude", "hr": ["stav"]}
@@ -1893,7 +1893,7 @@
 {"en": "sole", "hr": ["jedini"]}
 {"en": "remaining", "hr": ["ostali"]}
 {"en": "former", "hr": ["prijašnji"]}
-{"en": "sightseeing", "hr": ["obilazak"]}
+{"en": "sightseeing", "hr": ["obilazak", "razgledavanje"]}
 {"en": "truly", "hr": ["stvarno"]}
 {"en": "precisely", "hr": ["točno"]}
 {"en": "too much", "hr": ["previše"]}
@@ -2118,7 +2118,7 @@
 {"en": "lip", "hr": ["usna"]}
 {"en": "eyebrow", "hr": ["obrva"]}
 {"en": "eyelash", "hr": ["trepavica"]}
-{"en": "nail", "hr": ["nokat"]}
+{"en": "nail", "hr": ["nokat", "čavao"]}
 {"en": "elbow", "hr": ["lakat"]}
 {"en": "ankle", "hr": ["gležanj"]}
 {"en": "palm", "hr": ["dlan"]}
@@ -2129,12 +2129,12 @@
 {"en": "stomach", "hr": ["želudac"]}
 {"en": "lungs", "hr": ["pluća"]}
 {"en": "spine", "hr": ["kralježnica"]}
-{"en": "hallway", "hr": ["hodnik"]}
+{"en": "hallway", "hr": ["hodnik", "predsoblje"]}
 {"en": "staircase", "hr": ["stubište"]}
-{"en": "lift", "hr": ["dizalo"]}
+{"en": "lift", "hr": ["dizalo", "lift"]}
 {"en": "terrace", "hr": ["terasa"]}
 {"en": "yard", "hr": ["dvorište"]}
-{"en": "shower", "hr": ["tuš"]}
+{"en": "shower", "hr": ["tuš", "pljusak"]}
 {"en": "bathtub", "hr": ["kada (imenica)"]}
 {"en": "tub", "hr": ["kada (imenica)"]}
 {"en": "toilet", "hr": ["zahod"]}
@@ -2155,7 +2155,7 @@
 {"en": "rubbish", "hr": ["smeće"]}
 {"en": "garbage", "hr": ["smeće"]}
 {"en": "trash", "hr": ["smeće"]}
-{"en": "bin", "hr": ["kanta"]}
+{"en": "bin", "hr": ["kanta", "koš"]}
 {"en": "butter", "hr": ["maslac"]}
 {"en": "cream", "hr": ["vrhnje"]}
 {"en": "honey", "hr": ["med"]}
@@ -2181,7 +2181,7 @@
 {"en": "side dish", "hr": ["prilog"]}
 {"en": "adverb", "hr": ["prilog"]}
 {"en": "checkout", "hr": ["blagajna"]}
-{"en": "basket", "hr": ["košarica"]}
+{"en": "basket", "hr": ["košarica", "koš"]}
 {"en": "jeans", "hr": ["traperice"]}
 {"en": "suit", "hr": ["odijelo"]}
 {"en": "tie", "hr": ["kravata"]}
@@ -2202,7 +2202,7 @@
 {"en": "fitting", "hr": ["proba"]}
 {"en": "rehearsal", "hr": ["proba"]}
 {"en": "blazer", "hr": ["sako"]}
-{"en": "thunder", "hr": ["grmljavina"]}
+{"en": "thunder", "hr": ["grmljavina", "grom"]}
 {"en": "hail", "hr": ["tuča"]}
 {"en": "frost", "hr": ["mraz"]}
 {"en": "rainbow", "hr": ["duga"]}
@@ -2222,7 +2222,7 @@
 {"en": "peninsula", "hr": ["poluotok"]}
 {"en": "cave", "hr": ["špilja"]}
 {"en": "stream", "hr": ["potok"]}
-{"en": "waterfall", "hr": ["vodopad"]}
+{"en": "waterfall", "hr": ["vodopad", "slap"]}
 {"en": "source", "hr": ["izvor"]}
 {"en": "desert", "hr": ["pustinja"]}
 {"en": "border", "hr": ["granica"]}
@@ -2310,7 +2310,7 @@
 {"en": "to put on shoes", "hr": ["obuti se", "obuvati se"]}
 {"en": "to take off shoes", "hr": ["izuti se", "izuvati se"]}
 {"en": "to tidy up", "hr": ["spremiti", "spremati"]}
-{"en": "to prepare", "hr": ["spremiti", "spremati"]}
+{"en": "to prepare", "hr": ["spremiti", "spremati", "pripremiti", "pripremati"]}
 {"en": "to clean up", "hr": ["počistiti"]}
 {"en": "to lock", "hr": ["zaključati", "zaključavati"]}
 {"en": "to unlock", "hr": ["otključati", "otključavati"]}
@@ -2447,3 +2447,412 @@
 {"en": "carpet", "hr": ["sag"]}
 {"en": "waist", "hr": ["struk"]}
 {"en": "peanut", "hr": ["kikiriki"]}
+{"en": "olive", "hr": ["maslina"]}
+{"en": "dinner", "hr": ["večera"]}
+{"en": "champagne", "hr": ["šampanjac"]}
+{"en": "brandy", "hr": ["rakija"]}
+{"en": "rakija", "hr": ["rakija"]}
+{"en": "cappuccino", "hr": ["kapučino"]}
+{"en": "teapot", "hr": ["čajnik"]}
+{"en": "kettle", "hr": ["čajnik"]}
+{"en": "straw", "hr": ["slamka"]}
+{"en": "sip", "hr": ["gutljaj"]}
+{"en": "burek", "hr": ["burek"]}
+{"en": "fritter", "hr": ["fritula"]}
+{"en": "squid", "hr": ["lignja"]}
+{"en": "goulash", "hr": ["gulaš"]}
+{"en": "deer", "hr": ["jelen"]}
+{"en": "duck", "hr": ["patka"]}
+{"en": "goose", "hr": ["guska"]}
+{"en": "rooster", "hr": ["pijetao"]}
+{"en": "elephant", "hr": ["slon"]}
+{"en": "monkey", "hr": ["majmun"]}
+{"en": "tiger", "hr": ["tigar"]}
+{"en": "giraffe", "hr": ["žirafa"]}
+{"en": "crocodile", "hr": ["krokodil"]}
+{"en": "snake", "hr": ["zmija"]}
+{"en": "turtle", "hr": ["kornjača"]}
+{"en": "tortoise", "hr": ["kornjača"]}
+{"en": "snail", "hr": ["puž"]}
+{"en": "butterfly", "hr": ["leptir"]}
+{"en": "ant", "hr": ["mrav"]}
+{"en": "spider", "hr": ["pauk"]}
+{"en": "dolphin", "hr": ["dupin"]}
+{"en": "whale", "hr": ["kit"]}
+{"en": "crab", "hr": ["rak"]}
+{"en": "crayfish", "hr": ["rak"]}
+{"en": "octopus", "hr": ["hobotnica"]}
+{"en": "owl", "hr": ["sova"]}
+{"en": "eagle", "hr": ["orao"]}
+{"en": "squirrel", "hr": ["vjeverica"]}
+{"en": "hedgehog", "hr": ["jež"]}
+{"en": "bat", "hr": ["šišmiš", "palica"]}
+{"en": "lamb", "hr": ["janje"]}
+{"en": "kitten", "hr": ["mače"]}
+{"en": "puppy", "hr": ["štene"]}
+{"en": "rat", "hr": ["štakor"]}
+{"en": "cousin (male)", "hr": ["bratić"]}
+{"en": "cousin (female)", "hr": ["sestrična"]}
+{"en": "old man", "hr": ["starac"]}
+{"en": "group", "hr": ["skupina"]}
+{"en": "nation", "hr": ["narod"]}
+{"en": "baby", "hr": ["beba"]}
+{"en": "teenager", "hr": ["tinejdžer"]}
+{"en": "uncle (aunt's husband)", "hr": ["tetak"]}
+{"en": "niece", "hr": ["nećakinja"]}
+{"en": "father-in-law (husband's father)", "hr": ["svekar"]}
+{"en": "mother-in-law (husband's mother)", "hr": ["svekrva"]}
+{"en": "father-in-law (wife's father)", "hr": ["punac"]}
+{"en": "mother-in-law (wife's mother)", "hr": ["punica"]}
+{"en": "son-in-law", "hr": ["zet"]}
+{"en": "brother-in-law (sister's husband)", "hr": ["zet"]}
+{"en": "daughter-in-law", "hr": ["snaha"]}
+{"en": "sister-in-law (brother's wife)", "hr": ["snaha"]}
+{"en": "brother-in-law", "hr": ["šogor"]}
+{"en": "godfather", "hr": ["kum"]}
+{"en": "best man", "hr": ["kum"]}
+{"en": "baker", "hr": ["pekar"]}
+{"en": "painter", "hr": ["slikar"]}
+{"en": "fisherman", "hr": ["ribar"]}
+{"en": "butcher", "hr": ["mesar"]}
+{"en": "bricklayer", "hr": ["zidar"]}
+{"en": "carpenter", "hr": ["stolar"]}
+{"en": "mechanic", "hr": ["mehaničar"]}
+{"en": "electrician", "hr": ["električar"]}
+{"en": "engineer", "hr": ["inženjer"]}
+{"en": "programmer", "hr": ["programer"]}
+{"en": "plumber", "hr": ["vodoinstalater"]}
+{"en": "shop assistant", "hr": ["prodavač"]}
+{"en": "tailor", "hr": ["krojač"]}
+{"en": "fan (supporter)", "hr": ["navijač"]}
+{"en": "guide", "hr": ["vodič"]}
+{"en": "guidebook", "hr": ["vodič"]}
+{"en": "preschool teacher", "hr": ["odgojitelj"]}
+{"en": "firefighter", "hr": ["vatrogasac"]}
+{"en": "peasant", "hr": ["seljak"]}
+{"en": "farmer", "hr": ["seljak", "poljoprivrednik"]}
+{"en": "architect", "hr": ["arhitekt"]}
+{"en": "scientist", "hr": ["znanstvenik"]}
+{"en": "referee", "hr": ["sudac"]}
+{"en": "judge", "hr": ["sudac"]}
+{"en": "port", "hr": ["luka"]}
+{"en": "harbour", "hr": ["luka"]}
+{"en": "factory", "hr": ["tvornica"]}
+{"en": "kindergarten", "hr": ["vrtić"]}
+{"en": "hall", "hr": ["dvorana"]}
+{"en": "fountain", "hr": ["fontana"]}
+{"en": "aquarium", "hr": ["akvarij"]}
+{"en": "fortress", "hr": ["tvrđava"]}
+{"en": "castle", "hr": ["dvorac"]}
+{"en": "lighthouse", "hr": ["svjetionik"]}
+{"en": "attic", "hr": ["tavan"]}
+{"en": "sofa", "hr": ["kauč"]}
+{"en": "couch", "hr": ["kauč"]}
+{"en": "stairs", "hr": ["stepenice"]}
+{"en": "dining room", "hr": ["blagovaonica"]}
+{"en": "entrance hall", "hr": ["predsoblje"]}
+{"en": "threshold", "hr": ["prag"]}
+{"en": "doorstep", "hr": ["prag"]}
+{"en": "bell", "hr": ["zvono"]}
+{"en": "doorbell", "hr": ["zvono"]}
+{"en": "elevator", "hr": ["lift"]}
+{"en": "police", "hr": ["policija"]}
+{"en": "coffee house", "hr": ["kavana"]}
+{"en": "cemetery", "hr": ["groblje"]}
+{"en": "swimming pool", "hr": ["bazen"]}
+{"en": "shopping centre", "hr": ["tržni centar"]}
+{"en": "mall", "hr": ["tržni centar"]}
+{"en": "living room", "hr": ["dnevna soba", "dnevni boravak"]}
+{"en": "truck", "hr": ["kamion"]}
+{"en": "helicopter", "hr": ["helikopter"]}
+{"en": "steering wheel", "hr": ["volan"]}
+{"en": "tractor", "hr": ["traktor"]}
+{"en": "excavator", "hr": ["bager"]}
+{"en": "carriage", "hr": ["vagon"]}
+{"en": "wagon", "hr": ["vagon"]}
+{"en": "speedboat", "hr": ["gliser"]}
+{"en": "van", "hr": ["kombi"]}
+{"en": "rocket", "hr": ["raketa"]}
+{"en": "anchor", "hr": ["sidro"]}
+{"en": "sail", "hr": ["jedro"]}
+{"en": "cart", "hr": ["kolica"]}
+{"en": "trolley", "hr": ["kolica"]}
+{"en": "pram", "hr": ["kolica"]}
+{"en": "sailboat", "hr": ["jedrilica"]}
+{"en": "glider", "hr": ["jedrilica"]}
+{"en": "ski", "hr": ["skija"]}
+{"en": "roller skate", "hr": ["koturaljka"]}
+{"en": "sled", "hr": ["sanjke"]}
+{"en": "sledge", "hr": ["sanjke"]}
+{"en": "cable car", "hr": ["žičara"]}
+{"en": "caravan", "hr": ["kamp-kućica"]}
+{"en": "camper", "hr": ["kamp-kućica"]}
+{"en": "canoe", "hr": ["kanu"]}
+{"en": "submarine", "hr": ["podmornica"]}
+{"en": "comb", "hr": ["češalj"]}
+{"en": "toothbrush", "hr": ["četkica"]}
+{"en": "small brush", "hr": ["četkica"]}
+{"en": "candle", "hr": ["svijeća"]}
+{"en": "glue", "hr": ["ljepilo"]}
+{"en": "notebook", "hr": ["bilježnica"]}
+{"en": "paintbrush", "hr": ["kist"]}
+{"en": "bowl", "hr": ["zdjela"]}
+{"en": "broom", "hr": ["metla"]}
+{"en": "tool", "hr": ["alat"]}
+{"en": "tools", "hr": ["alat"]}
+{"en": "hammer", "hr": ["čekić"]}
+{"en": "ladder", "hr": ["ljestve"]}
+{"en": "rope", "hr": ["uže"]}
+{"en": "chain", "hr": ["lanac"]}
+{"en": "flag", "hr": ["zastava"]}
+{"en": "toy", "hr": ["igračka"]}
+{"en": "dice", "hr": ["kocka"]}
+{"en": "cube", "hr": ["kocka"]}
+{"en": "sticker", "hr": ["naljepnica"]}
+{"en": "label", "hr": ["naljepnica"]}
+{"en": "ladle", "hr": ["kutlača"]}
+{"en": "vase", "hr": ["vaza"]}
+{"en": "saw", "hr": ["pila"]}
+{"en": "screwdriver", "hr": ["odvijač"]}
+{"en": "pliers", "hr": ["kliješta"]}
+{"en": "screw", "hr": ["vijak"]}
+{"en": "shovel", "hr": ["lopata"]}
+{"en": "axe", "hr": ["sjekira"]}
+{"en": "tray", "hr": ["pladanj"]}
+{"en": "sieve", "hr": ["sito"]}
+{"en": "strainer", "hr": ["cjedilo"]}
+{"en": "colander", "hr": ["cjedilo"]}
+{"en": "grinder", "hr": ["brusilica"]}
+{"en": "sander", "hr": ["brusilica"]}
+{"en": "file (tool)", "hr": ["turpija"]}
+{"en": "rake", "hr": ["grablje"]}
+{"en": "pitchfork", "hr": ["vile"]}
+{"en": "hoe", "hr": ["motika"]}
+{"en": "lawn mower", "hr": ["kosilica"]}
+{"en": "pump", "hr": ["pumpa"]}
+{"en": "crane", "hr": ["dizalica"]}
+{"en": "jack", "hr": ["dizalica"]}
+{"en": "tape", "hr": ["traka"]}
+{"en": "strip", "hr": ["traka"]}
+{"en": "ribbon", "hr": ["traka"]}
+{"en": "roller", "hr": ["valjak"]}
+{"en": "cylinder", "hr": ["valjak"]}
+{"en": "jug", "hr": ["vrč"]}
+{"en": "pitcher", "hr": ["vrč"]}
+{"en": "teaspoon", "hr": ["žličica"]}
+{"en": "mould", "hr": ["kalup"]}
+{"en": "baking tin", "hr": ["kalup"]}
+{"en": "funnel", "hr": ["lijevak"]}
+{"en": "spatula", "hr": ["lopatica"]}
+{"en": "small shovel", "hr": ["lopatica"]}
+{"en": "grater", "hr": ["ribež"]}
+{"en": "opener", "hr": ["otvarač"]}
+{"en": "whisk", "hr": ["pjenjača"]}
+{"en": "Turkish coffee pot", "hr": ["džezva"]}
+{"en": "thermos flask", "hr": ["termosica"]}
+{"en": "cloth", "hr": ["krpa"]}
+{"en": "rag", "hr": ["krpa"]}
+{"en": "sponge", "hr": ["spužva"]}
+{"en": "iron (for clothes)", "hr": ["glačalo"]}
+{"en": "hanger", "hr": ["vješalica"]}
+{"en": "armchair", "hr": ["fotelja"]}
+{"en": "chest of drawers", "hr": ["komoda"]}
+{"en": "bench", "hr": ["klupa"]}
+{"en": "school desk", "hr": ["klupa"]}
+{"en": "deckchair", "hr": ["ležaljka"]}
+{"en": "sun lounger", "hr": ["ležaljka"]}
+{"en": "fence", "hr": ["ograda"]}
+{"en": "wristwatch", "hr": ["ručni sat"]}
+{"en": "torch", "hr": ["baterijska svjetiljka"]}
+{"en": "flashlight", "hr": ["baterijska svjetiljka"]}
+{"en": "cutting board", "hr": ["daska za rezanje"]}
+{"en": "extension cord", "hr": ["produžni kabel"]}
+{"en": "aluminium foil", "hr": ["aluminijska folija"]}
+{"en": "pocket", "hr": ["džep"]}
+{"en": "button (on clothes)", "hr": ["gumb"]}
+{"en": "waistcoat", "hr": ["prsluk"]}
+{"en": "vest", "hr": ["prsluk"]}
+{"en": "cloak", "hr": ["ogrtač"]}
+{"en": "bathrobe", "hr": ["ogrtač"]}
+{"en": "tracksuit", "hr": ["trenirka"]}
+{"en": "flip-flop", "hr": ["japanka"]}
+{"en": "ankle boot", "hr": ["gležnjača"]}
+{"en": "shorts", "hr": ["kratke hlače"]}
+{"en": "thunderbolt", "hr": ["grom"]}
+{"en": "fire", "hr": ["vatra"]}
+{"en": "plant", "hr": ["biljka"]}
+{"en": "shell", "hr": ["školjka"]}
+{"en": "seashell", "hr": ["školjka"]}
+{"en": "coral", "hr": ["koralj"]}
+{"en": "rose", "hr": ["ruža"]}
+{"en": "oak", "hr": ["hrast"]}
+{"en": "pine", "hr": ["bor"]}
+{"en": "birch", "hr": ["breza"]}
+{"en": "willow", "hr": ["vrba"]}
+{"en": "palm tree", "hr": ["palma"]}
+{"en": "clover", "hr": ["djetelina"]}
+{"en": "nettle", "hr": ["kopriva"]}
+{"en": "moss", "hr": ["mahovina"]}
+{"en": "mimosa", "hr": ["mimoza"]}
+{"en": "lavender", "hr": ["lavanda"]}
+{"en": "cliff", "hr": ["litica"]}
+{"en": "swamp", "hr": ["močvara"]}
+{"en": "dew", "hr": ["rosa"]}
+{"en": "flood", "hr": ["poplava"]}
+{"en": "linden tree", "hr": ["lipa"]}
+{"en": "lipa (coin)", "hr": ["lipa"]}
+{"en": "daisy", "hr": ["tratinčica"]}
+{"en": "violet", "hr": ["ljubičica"]}
+{"en": "orchid", "hr": ["orhideja"]}
+{"en": "chestnut", "hr": ["kesten"]}
+{"en": "tulip", "hr": ["tulipan"]}
+{"en": "lily", "hr": ["ljiljan"]}
+{"en": "sunflower", "hr": ["suncokret"]}
+{"en": "carnation", "hr": ["karanfil"]}
+{"en": "cactus", "hr": ["kaktus"]}
+{"en": "ivy", "hr": ["bršljan"]}
+{"en": "dandelion", "hr": ["maslačak"]}
+{"en": "basil", "hr": ["bosiljak"]}
+{"en": "rosemary", "hr": ["ružmarin"]}
+{"en": "parsley", "hr": ["peršin"]}
+{"en": "fern", "hr": ["paprat"]}
+{"en": "midnight", "hr": ["ponoć"]}
+{"en": "public holiday", "hr": ["praznik"]}
+{"en": "schedule", "hr": ["raspored"]}
+{"en": "timetable", "hr": ["raspored"]}
+{"en": "dawn", "hr": ["zora"]}
+{"en": "dusk", "hr": ["sumrak"]}
+{"en": "twilight", "hr": ["sumrak"]}
+{"en": "downpour", "hr": ["pljusak"]}
+{"en": "bad weather", "hr": ["nevrijeme"]}
+{"en": "shadow", "hr": ["sjena"]}
+{"en": "shade", "hr": ["sjena"]}
+{"en": "drought", "hr": ["suša"]}
+{"en": "mud", "hr": ["blato"]}
+{"en": "wish", "hr": ["želja"]}
+{"en": "desire", "hr": ["želja"]}
+{"en": "feeling", "hr": ["osjećaj"]}
+{"en": "courage", "hr": ["hrabrost"]}
+{"en": "laughter", "hr": ["smijeh"]}
+{"en": "tear", "hr": ["suza"]}
+{"en": "hug", "hr": ["zagrljaj"]}
+{"en": "embrace", "hr": ["zagrljaj"]}
+{"en": "kiss", "hr": ["poljubac"]}
+{"en": "anxiety", "hr": ["tjeskoba"]}
+{"en": "jealousy", "hr": ["ljubomora"]}
+{"en": "envy", "hr": ["zavist"]}
+{"en": "curiosity", "hr": ["znatiželja"]}
+{"en": "laziness", "hr": ["lijenost"]}
+{"en": "loneliness", "hr": ["samoća"]}
+{"en": "solitude", "hr": ["samoća"]}
+{"en": "hatred", "hr": ["mržnja"]}
+{"en": "guilt", "hr": ["krivnja"]}
+{"en": "persistence", "hr": ["upornost"]}
+{"en": "honesty", "hr": ["poštenje"]}
+{"en": "kindness", "hr": ["dobrota"]}
+{"en": "modesty", "hr": ["skromnost"]}
+{"en": "self-confidence", "hr": ["samopouzdanje"]}
+{"en": "e-mail", "hr": ["e-pošta"]}
+{"en": "video game", "hr": ["igrica"]}
+{"en": "speaker", "hr": ["zvučnik"]}
+{"en": "key (on keyboard)", "hr": ["tipka"]}
+{"en": "button", "hr": ["tipka"]}
+{"en": "video", "hr": ["video"]}
+{"en": "electricity", "hr": ["struja"]}
+{"en": "current", "hr": ["struja"]}
+{"en": "microphone", "hr": ["mikrofon"]}
+{"en": "accommodation", "hr": ["smještaj"]}
+{"en": "reception", "hr": ["recepcija"]}
+{"en": "tent", "hr": ["šator"]}
+{"en": "insurance", "hr": ["osiguranje"]}
+{"en": "postcard", "hr": ["razglednica"]}
+{"en": "translation", "hr": ["prijevod"]}
+{"en": "literature", "hr": ["književnost"]}
+{"en": "IT", "hr": ["informatika"]}
+{"en": "computer science", "hr": ["informatika"]}
+{"en": "class", "hr": ["razred"]}
+{"en": "grade (year)", "hr": ["razred"]}
+{"en": "classroom", "hr": ["učionica"]}
+{"en": "blackboard", "hr": ["ploča"]}
+{"en": "chalk", "hr": ["kreda"]}
+{"en": "lecture", "hr": ["predavanje"]}
+{"en": "sentence", "hr": ["rečenica"]}
+{"en": "school holiday", "hr": ["raspust"]}
+{"en": "eraser", "hr": ["gumica"]}
+{"en": "rubber band", "hr": ["gumica"]}
+{"en": "pencil sharpener", "hr": ["šiljilo"]}
+{"en": "ruler", "hr": ["ravnalo"]}
+{"en": "pencil case", "hr": ["pernica"]}
+{"en": "crayon", "hr": ["bojica"]}
+{"en": "coloured pencil", "hr": ["bojica"]}
+{"en": "felt-tip pen", "hr": ["flomaster"]}
+{"en": "marker", "hr": ["flomaster"]}
+{"en": "compass (for drawing)", "hr": ["šestar"]}
+{"en": "notepad", "hr": ["blok"]}
+{"en": "sketchbook", "hr": ["blok"]}
+{"en": "block", "hr": ["blok"]}
+{"en": "atlas", "hr": ["atlas"]}
+{"en": "diary", "hr": ["dnevnik"]}
+{"en": "class register", "hr": ["dnevnik"]}
+{"en": "news (TV)", "hr": ["dnevnik"]}
+{"en": "handball", "hr": ["rukomet"]}
+{"en": "volleyball", "hr": ["odbojka"]}
+{"en": "cycling", "hr": ["biciklizam"]}
+{"en": "skiing", "hr": ["skijanje"]}
+{"en": "diving", "hr": ["ronjenje"]}
+{"en": "hiking", "hr": ["planinarenje"]}
+{"en": "medal", "hr": ["medalja"]}
+{"en": "victory", "hr": ["pobjeda"]}
+{"en": "win", "hr": ["pobjeda"]}
+{"en": "defeat", "hr": ["poraz"]}
+{"en": "pitch", "hr": ["teren"]}
+{"en": "court", "hr": ["teren"]}
+{"en": "athletics", "hr": ["atletika"]}
+{"en": "gymnastics", "hr": ["gimnastika"]}
+{"en": "boxing", "hr": ["boks"]}
+{"en": "skating", "hr": ["klizanje"]}
+{"en": "rowing", "hr": ["veslanje"]}
+{"en": "racket", "hr": ["reket"]}
+{"en": "stick", "hr": ["palica"]}
+{"en": "helmet", "hr": ["kaciga"]}
+{"en": "guard", "hr": ["štitnik"]}
+{"en": "protector", "hr": ["štitnik"]}
+{"en": "weight (dumbbell)", "hr": ["uteg"]}
+{"en": "mat (gym)", "hr": ["strunjača"]}
+{"en": "violin", "hr": ["violina"]}
+{"en": "flute", "hr": ["flauta"]}
+{"en": "trumpet", "hr": ["truba"]}
+{"en": "mandolin", "hr": ["mandolina"]}
+{"en": "tuba", "hr": ["tuba"]}
+{"en": "tamburica", "hr": ["tamburica"]}
+{"en": "accordion", "hr": ["harmonika"]}
+{"en": "harp", "hr": ["harfa"]}
+{"en": "recorder", "hr": ["frula"]}
+{"en": "folk flute", "hr": ["frula"]}
+{"en": "rattle", "hr": ["zvečka"]}
+{"en": "bass guitar", "hr": ["bas-gitara"]}
+{"en": "saxophone", "hr": ["saksofon"]}
+{"en": "xylophone", "hr": ["ksilofon"]}
+{"en": "clarinet", "hr": ["klarinet"]}
+{"en": "trombone", "hr": ["trombon"]}
+{"en": "double bass", "hr": ["kontrabas"]}
+{"en": "synthesizer", "hr": ["sintesajzer"]}
+{"en": "triangle (instrument)", "hr": ["triangl"]}
+{"en": "drum", "hr": ["bubanj"]}
+{"en": "banjo", "hr": ["bendžo"]}
+{"en": "ukulele", "hr": ["ukulele"]}
+{"en": "cymbals", "hr": ["činele"]}
+{"en": "organ (instrument)", "hr": ["orgulje"]}
+{"en": "bagpipes", "hr": ["gajde"]}
+{"en": "harmonica", "hr": ["usna harmonika"]}
+{"en": "mouth organ", "hr": ["usna harmonika"]}
+{"en": "chimney", "hr": ["dimnjak"]}
+{"en": "fist", "hr": ["šaka"]}
+{"en": "bad", "hr": ["loš"]}
+{"en": "poor", "hr": ["siromašan"]}
+{"en": "similar", "hr": ["sličan"]}
+{"en": "piquant", "hr": ["pikantan"]}
+{"en": "to translate", "hr": ["prevoditi", "prevesti"]}
+{"en": "to climb", "hr": ["penjati se"]}
+{"en": "to climb (up)", "hr": ["popeti se"]}
+{"en": "to celebrate", "hr": ["slaviti", "proslaviti"]}

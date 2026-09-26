@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="color-scheme" content="light">
 <title>Croland — Towns of Croatia</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -17,8 +14,11 @@
   /* Tekst koji se čita ide u pravi tekstualni font — gradivo mora biti čitljivo.
      Pixel font ostaje samo na sitnim oznakama sučelja (--pix2). */
   --pix:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
-  --pix2:"Press Start 2P",monospace;
+  --pix2:"Pixelify Sans","Nunito",system-ui,sans-serif;
 }
+/* fontovi su lokalne datoteke — igra radi i bez interneta */
+@font-face{font-family:"Pixelify Sans";src:url("mini games media/font-pixelify-sans.ttf") format("truetype");font-weight:400 700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("mini games media/font-nunito.ttf") format("truetype");font-weight:200 1000;font-display:swap}
 /* Dokument je visok tocno koliko mu treba, ne koliko je visok okvir. Tako
    aplikacija moze okvir izjednaciti sa sadrzajem i klizac ostaje samo jedan —
    onaj glavne stranice. Visina se mijenja kad se promijeni i sam sadrzaj
@@ -37,7 +37,7 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 /* ---------- traka ---------- */
 .traka{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   background:#fff;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);padding:9px 12px}
-.traka .nazivIgre{font-family:var(--pix2);font-size:11px;line-height:1.7;margin-right:auto}
+.traka .nazivIgre{font-family:var(--pix2);font-size:16px;line-height:1.7;margin-right:auto}
 .srca{display:flex;gap:5px;align-items:center}
 .srce{width:22px;height:19px;color:var(--koralj)}
 .srce.prazno{color:var(--tinta);opacity:.17}
@@ -49,7 +49,7 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 .scena{position:relative;container-type:inline-size;border:4px solid var(--tinta);
   box-shadow:0 5px 0 var(--tinta);background:#9ecbe8;overflow:hidden;line-height:0;
   aspect-ratio:1264/620}
-.poz{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 70%}
+.poz{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 70%;image-rendering:auto}   /* fotografija: glatko */
 .lik{position:absolute;right:-1%;bottom:0;width:74%;height:auto;
   animation:disi 2.8s ease-in-out infinite;transform-origin:50% 100%}
 @keyframes disi{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.1%)}}
@@ -100,7 +100,7 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
   transition:transform .06s,box-shadow .06s}
 .o:hover:not(:disabled){background:#FFF6E2}
 .o:active:not(:disabled){transform:translateY(4px);box-shadow:0 1px 0 var(--tinta)}
-.o .slovo{font-family:var(--pix2);font-size:11px;line-height:1.5;color:var(--meko);flex:none;padding-top:4px}
+.o .slovo{font-family:var(--pix2);font-size:16px;line-height:1.5;color:var(--meko);flex:none;padding-top:4px}
 .o:disabled{cursor:default}
 .o.tocno{background:var(--zelena);color:#fff}
 .o.tocno .slovo{color:rgba(255,255,255,.8)}
