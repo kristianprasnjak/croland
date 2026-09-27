@@ -4,6 +4,7 @@ cjelina: Practice 9
 ## Text 1: My hobby
 format: tekst
 info: A read-along text with the English beside each line. Read it twice: once for the story, once for the endings. Every possessive matches the noun in front of which it stands, so *moj fotoaparat* has no ending and *moja sestra* has **-a**, although the owner is the same person.
+infokratko: The possessive matches the noun after it: *moj fotoaparat*, *moja sestra*.
 opis: One family, three hobbies. Tap **EN** next to any sentence to see its translation.
 - A club, a hobby, and a family that cannot agree on any of it.
 - Passive words: *ima / imaju* (has / have — *imati* is yours from Vocabulary 4, the plural comes properly in Lesson 10), *drugi* (a different one), *vani* (outside), *cijeli dan* (all day), *nikad* (never), *to* (that).
@@ -21,6 +22,7 @@ opis: One family, three hobbies. Tap **EN** next to any sentence to see its tran
 ## Did you get it?
 format: izbor
 info: Comprehension questions in Croatian on the text above. *Čiji* asks whose, and its own ending matches the noun: *Čiji hobi* is masculine, *Čija gitara* feminine. The answer is stated outright in one of the lines.
+infokratko: *čiji* agrees too: *Čiji hobi? Čija gitara?*
 opis: Answer from the text. Passive words: *prljav* (dirty).
 tekst: Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Slikam svoj grad svaki dan. Moja sestra ima drugi hobi — njezin hobi je glazba. Njezina gitara je nova i ona svira cijeli dan. Naš brat voli sport. Njegova lopta je uvijek vani, a njegov dres je uvijek prljav. Njegovo koljeno boli jer trenira svaki dan. Moji roditelji nikad ne igraju nogomet, ali oni navijaju. Naši hobiji su različiti, ali naša kuća je vesela.
 - Koji je moj hobi? | fotografija | glazba | nogomet
@@ -33,6 +35,7 @@ tekst: Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Slikam svo
 ## Type the possessive from the text
 format: upis
 info: Copy the possessive back into the sentence. The noun that follows it decides the ending: *fotoaparat* takes the bare form, *gitara* takes **-a**, *koljeno* takes **-o** after *njegov* and **-e** after *moj*.
+infokratko: The noun decides: *fotoaparat* bare, *gitara* **-a**, *koljeno* **-o/-e**.
 opis: The text is right above you — read it again and fill each gap.
 tekst: Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Njezina gitara je nova. Njegova lopta je uvijek vani, a njegov dres je uvijek prljav. Njegovo koljeno boli. Moji roditelji navijaju. Naši hobiji su različiti, ali naša kuća je vesela.
 - ___ fotoaparat je star. (my) | Moj
@@ -47,6 +50,7 @@ tekst: Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Njezina gi
 ## Text 2: Is this your ball?
 format: tekst
 info: A conversation in the park, and the whole of it turns on one word: *tvoja*, *moja*, *njegova*, *naš*, *vaš*. Notice *Čija je ovo lopta?* — the question word matches *lopta* and ends in **-a**, exactly like the answer will.
+infokratko: *tvoja, moja, njegova, naš, vaš*. *Čija je ovo lopta?* ends in **-a** like *lopta*.
 opis: Two strangers, one ball. Tap **EN** to see any line in English.
 - Passive words: *Može!* (sure!), *golovi* (goalposts), *poslije* (afterwards), *slobodan* (free).
 - — Oprosti, je li ovo tvoja lopta? | — Excuse me, is this your ball?
@@ -63,6 +67,7 @@ opis: Two strangers, one ball. Tap **EN** to see any line in English.
 ## True or false?
 format: izbor
 info: Check each statement against the dialogue. One word decides the truth of most of them, because *moja lopta* and *njegova lopta* differ only in the owner, and the first speaker says the red one is hers.
+infokratko: One word decides: *moja lopta* or *njegova lopta*.
 opis: Tap true or false — careful whose is whose.
 tekst: — Oprosti, je li ovo tvoja lopta? — Ne, moja lopta je crvena. To je njegova lopta. — Marko! Je li ovo tvoja lopta? — Da, moja je! — Igraš li nogomet? Naš klub trenira danas. — Igram! Kada trenirate? — U pet — trener je strog, ali je pošten. — A gdje trenirate? Vaš park ili naš park? — Naš, jer naš park ima nove golove.
 - Lopta je Markova. | TRUE | FALSE
@@ -75,6 +80,7 @@ tekst: — Oprosti, je li ovo tvoja lopta? — Ne, moja lopta je crvena. To je n
 ## Order the dialogue
 format: poredak
 info: Put the park conversation back into sequence. Each line answers the one before it: a question about the ball is answered before the club is mentioned, and the park is settled last.
+infokratko: Each line answers the one before.
 opis: The park conversation got shuffled. Put the lines back into the right order.
 - — Oprosti, je li ovo tvoja lopta?
 - — Ne, moja lopta je crvena. To je njegova lopta.
@@ -89,6 +95,7 @@ opis: The park conversation got shuffled. Put the lines back into the right orde
 ## Text 3: Our club
 format: tekst
 info: A description of one small club, with a possessive in almost every line. Read *svoj* in the last sentence carefully: the people who love the club are the same people the club belongs to, which is exactly when Croatian uses *svoj*.
+infokratko: A possessive almost every line. *svoj*: the owners are the subject.
 opis: A small club with a strict coach. Tap **EN** to see any line in English.
 - Passive words: *odlično* (excellently), *zajedno* (together), *malo* (small in number), *svi* (everyone).
 - Naš klub je mali, ali je dobar. | Our club is small, but it is good.
@@ -104,6 +111,7 @@ opis: A small club with a strict coach. Tap **EN** to see any line in English.
 ## Did you get it?
 format: izbor
 info: Comprehension on the club text. One question asks *čiji*, so read the possessive in the line, not the name: *njegov dres je plav* places the blue jersey with the captain.
+infokratko: Read the possessive: *njegov dres je plav*.
 opis: Answer from the text.
 tekst: Naš klub je mali, ali je dobar. Naš trener je strog, ali je pošten. Moja pozicija je golman i moj dres je zelen. Ivan je kapetan — njegov dres je plav. Ana i Maja igraju odlično, njihova obrana je jaka. Subota je naš dan: igramo utakmicu. Svaki igrač nosi svoj dres i svoju loptu. Naši roditelji gledaju i navijaju zajedno.
 - Kakav je naš trener? | strog, ali pošten | mlad i brz | umoran
@@ -116,6 +124,7 @@ tekst: Naš klub je mali, ali je dobar. Naš trener je strog, ali je pošten. Mo
 ## Text 4: The box at the club
 format: tekst
 info: A puzzle rather than a story. Nobody says whose things these are, so match each person's habits to the four objects. The color word agrees with its noun, so *zelen dres* and *narančasta lopta* belong to two different owners.
+infokratko: Match habits to objects. The colour agrees: *zelen dres*, *narančasta lopta*.
 opis: Four things in a box, four people, and no labels. Read it twice before you answer.
 - Passive words: *kutija* (box), *četiri* (four), *stvari* (things), *netko* (somebody), *nešto* (something), *zaboravlja* (forgets), *narančast* (orange), *svaki tjedan* (every week).
 - U kutiji su četiri stvari: dres, lopta, gitara i fotoaparat. | In the box there are four things: a jersey, a ball, a guitar and a camera.
@@ -130,6 +139,7 @@ opis: Four things in a box, four people, and no labels. Read it twice before you
 ## Solve the puzzle
 format: izbor
 info: Deduction from the four habits. The answers are built from a name: a name in **-a** takes **-in** (*Anin*, *Majin*) and any other takes **-ov** (*Markov*, *Ivanov*), and the word then matches its noun, so it is *Anin fotoaparat* but *Majina lopta*.
+infokratko: From a name: **-a** → **-in** (*Anin*), others **-ov** (*Markov*); then agree: *Majina lopta*.
 opis: Nobody says whose is whose. Work it out from what each person does.
 tekst: U kutiji su četiri stvari: dres, lopta, gitara i fotoaparat. Ana slika svaki trening jer je fotografija njezin hobi. Marko je golman i njegov dres je zelen. Ivan svira u pauzi, a poslije trenira. Maja trenira košarku i njezina lopta je narančasta. Dres u kutiji je zelen. Lopta u kutiji je narančasta.
 - Čiji je fotoaparat? | Anin | Majin | Markov
@@ -142,6 +152,7 @@ tekst: U kutiji su četiri stvari: dres, lopta, gitara i fotoaparat. Ana slika s
 ## Tap the ending from the texts
 format: nastavak
 info: One tap per sentence, and almost every sentence comes from the four texts. The noun after the possessive decides: no ending for a masculine noun, **-a** for a feminine one, **-o** or **-e** for a neuter one — *njegovo koljeno*, but *moje koljeno*.
+infokratko: m nothing, f **-a**, n **-o/-e**: *njegovo koljeno, moje koljeno*.
 nastavci: - | a | e | o
 opis: Almost every sentence came out of the four texts. Read the Croatian noun and tap the ending.
 - Moj___ hobi je fotografija. | My hobby is photography. | -
@@ -164,6 +175,7 @@ opis: Almost every sentence came out of the four texts. Read the Croatian noun a
 ## Type the possessive
 format: upis
 info: Type the whole possessive, with the text as a safety net. The bracket names the owner and the noun sets the ending, so *(his)* plus *gitara* gives *njegova*, while *(her)* plus *dres* gives *njezin*.
+infokratko: Owner from the bracket, ending from the noun: *njegova gitara*, *njezin dres*.
 opis: Fill in the possessive. The bracket says who, the noun decides the ending.
 - ___ klub je mali. (our) | Naš
 - ___ trener je pošten. (our) | Naš
@@ -181,6 +193,7 @@ opis: Fill in the possessive. The bracket says who, the noun decides the ending.
 ## Whose is it?
 format: razvrstavanje
 info: Sorting the objects from the texts by the form of *moj*. The last letter of the noun is your guide: a consonant sends the word to **MOJ**, **-a** to **MOJA**, **-o** or **-e** to **MOJE**.
+infokratko: Consonant **MOJ**, **-a** **MOJA**, **-o/-e** **MOJE**.
 opis: Almost everything here is in one of the four texts. Which form of *my* does it take?
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ
@@ -203,6 +216,7 @@ stupci: MOJ | MOJA | MOJE
 ## At the club
 format: dijalog
 info: A conversation at your first training session, so every reply carries a possessive. Take the ending from the Croatian noun in your answer, and use *svoj* where the thing belongs to the person doing the action, as in *Nosim svoju loptu*.
+infokratko: Ending from your noun; *svoj* for your own: *Nosim svoju loptu*.
 opis: You arrive at training for the first time. Choose your replies. Passive words: *Dobro došli!* (welcome!), *prvi* (first), *u obrani* (in defence), *naravno* (of course), *vidimo se* (see you).
 - npc | Bok! Dobro došli u klub. Ja sam Ivan, kapetan.
 - ti | Bok! Drago mi je. Moj hobi je nogomet. | Bok! Drago mi je. Ovo je moj prvi trening.
@@ -220,6 +234,7 @@ opis: You arrive at training for the first time. Choose your replies. Passive wo
 ## A training day, in order
 format: poredak
 info: Sequence seven moments from a training day. No times are given, so follow the sense of the sentences: the players arrive and change before they train, and the coach speaks before the match begins.
+infokratko: Order by sense: arrive, change, train, match.
 opis: Seven moments from a day at the club, shuffled. Nobody wrote this down — put it in the order it would actually happen.
 - Svaki igrač nosi svoj dres i svoju loptu.
 - Igrači dolaze na stadion.
@@ -232,6 +247,7 @@ opis: Seven moments from a day at the club, shuffled. Nobody wrote this down —
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles taken from the four texts. Two things decide the result: the possessive stands in front of its noun and copies it, and a comma comes before *a*, *ali* and never before *i*.
+infokratko: Possessive before its noun; comma before *a*, *ali*.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
 - Moj hobi je fotografija. | en: My hobby is photography.
 - Moj fotoaparat je star, ali je dobar. | en: My camera is old, but it is good.
@@ -253,6 +269,7 @@ opis: Read the English sentence, then build its Croatian translation from the ti
 ## Pop the right balloon
 format: baloni
 info: A timed picture-to-word tap over the sport and body words. Everything is in its naming form, so use the moment to say the matching *moj*, *moja* or *moje* in your head as you tap.
+infokratko: Naming forms. Say *moj / moja / moje* in your head.
 opis: Training is over. A picture appears — tap the balloon with its word before it floats away.
 - lopta | ball
 - dres | jersey

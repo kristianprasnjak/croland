@@ -4,6 +4,7 @@ cjelina: Grammar 5
 ## The rule: the first case, officially
 format: tekst
 info: The formal statement of your first case. The naming form is the **nominative** (*Kava je dobra*); the form for whatever the verb acts on is the **accusative**, feminine **-a → -u** (*Pijem kav**u***). Other nouns stay unchanged for now.
+infokratko: Naming form = **nominative** (*Kava je dobra*); target = **accusative**, feminine **-a → -u** (*Pijem kavu*).
 - **What a "case" is:** Croatian shows a word's *role* in the sentence by changing its ending. The form that *names* (the subject) is the **nominative**. The form that marks the *target* of an action (the object) is the **accusative**. *Kava je dobra.* — kava names. *Pijem kavu.* — kava is the target of drinking.
 - tab: Role | Called | Ending | Example
 - tab: names the thing | nominative | **-a** | Kava je dobra.
@@ -16,6 +17,7 @@ info: The formal statement of your first case. The naming form is the **nominati
 ## Naming or target?
 format: razvrstavanje
 info: Sorting sentences by the job the noun does. Subject beside *je* → naming form in **-a**; sitting after a verb that acts on it → accusative in **-u**. Compare *Torta je slatka* with *Plaćam tort**u***.
+infokratko: Beside *je* → **-a**; after a verb acting on it → **-u**. *Torta je slatka. Plaćam tortu.*
 stupci: NAMING (-a) | TARGET (-u)
 opis: Nominative or accusative? Read each sentence and decide what job the food word is doing in it.
 - Juha je topla. | NAMING (-a)
@@ -40,6 +42,7 @@ opis: Nominative or accusative? Read each sentence and decide what job the food 
 ## Tap the ending
 format: nastavak
 info: One tap for the missing letter. Decide the role first: naming takes **-a**, target takes **-u**. Every verb on this page — *trebam*, *kupujem*, *kuham*, *nosim*, *biram* — takes a target, so its noun ends in **-u**.
+infokratko: Naming **-a**, target **-u**. All verbs here take a target, so **-u**.
 nastavci: a | u
 opis: One letter, one tap. If the word is naming something it takes **-a**; if it is the target of the verb it takes **-u**.
 - Vod___ je hladna. | The water is cold. | a
@@ -66,6 +69,7 @@ opis: One letter, one tap. If the word is naming something it takes **-a**; if i
 ## Type the accusative
 format: upis
 info: Typed production of the accusative. Replace the final **-a** with **-u** and change nothing else: *naranča → naranč**u***, *mrkva → mrkv**u***. The diacritics stay exactly where they were.
+infokratko: Swap **-a** for **-u**, nothing else: *naranča → naranču*.
 opis: Type the accusative form.
 - pita → | pitu
 - trgovina → | trgovinu
@@ -83,6 +87,7 @@ opis: Type the accusative form.
 ## The rule: the adjective travels too
 format: tekst
 info: The rule that a describing word follows its noun into the case. For feminine words the ending is the same on both: *crn**a** kav**a*** becomes *Pijem crn**u** kav**u***. Listen for the rhyme — -u and then -u again.
+infokratko: The adjective goes along: *crna kava → Pijem crnu kavu*.
 - A case never touches the noun alone. **Whatever describes it comes along** — and for feminine words the ending is the very same one: **-a → -u**.
 - tab: Naming | Target
 - tab: crn**a** kav**a** | Pijem crn**u** kav**u**.
@@ -96,6 +101,7 @@ info: The rule that a describing word follows its noun into the case. For femini
 ## Naming or target — the whole phrase
 format: izbor
 info: Choosing a two-word phrase, so both endings must agree. Either both keep **-a** as the subject (*Salata je svježa*) or both take **-u** as the target (*Kupujem svjež**u** rib**u***). A mixed pair is always wrong.
+infokratko: Both **-a** (*Salata je svježa*) or both **-u** (*Kupujem svježu ribu*). Never mixed.
 opis: Both words must agree. Choose the phrase that fits the sentence.
 - Pijem ___ . | crnu kavu | crna kava | crnu kava
 - ___ je svježa. | Salata | Salatu | Salate
@@ -113,6 +119,7 @@ opis: Both words must agree. Choose the phrase that fits the sentence.
 ## Tap the adjective's ending
 format: nastavak
 info: Only the adjective is missing here, and it copies the noun standing next to it. *Crn**a** kava je dobra*, but *Pijem crn**u** kavu* — the noun already tells you which letter to tap.
+infokratko: The adjective copies its noun: *Crna kava je dobra. Pijem crnu kavu.*
 nastavci: a | u
 opis: The noun already has its ending — now the adjective has to match it. Same letter, twice in a row.
 - Crn___ kava je dobra. | Black coffee is good. | a
@@ -135,6 +142,7 @@ opis: The noun already has its ending — now the adjective has to match it. Sam
 ## Type both endings
 format: upis
 info: Typing the whole phrase in the target form. Both words move together: *topla juha → topl**u** juh**u***. Changing only the noun and leaving the adjective in **-a** still counts as wrong.
+infokratko: Both words move: *topla juha → toplu juhu*.
 opis: Put the whole phrase into the target form. Two words, two endings.
 - crna kava → Pijem ___ | crnu kavu
 - svježa salata → Kupujem ___ | svježu salatu
@@ -152,6 +160,7 @@ opis: Put the whole phrase into the target form. Two words, two endings.
 ## The rule: where are you going?
 format: tekst
 info: The rule that a destination is a target too, so it takes the same **-u**: *Idem u trgovin**u***. The little word in front depends on the place: **u** for what you can shut a door behind, **na** for open spaces and events.
+infokratko: A destination takes **-u** too: *Idem u trgovinu*. **u** enclosed, **na** open or event.
 - Here is the surprise: **going somewhere is also a target.** The place you are heading for takes the accusative, exactly like the coffee you drink. *Trgovina → Idem u trgovin**u**.*
 - The only thing left to choose is the little word in front — and Croatian splits the world in two.
 - tab: Word | Used for | Example
@@ -165,6 +174,7 @@ info: The rule that a destination is a target too, so it takes the same **-u**: 
 ## u or na?
 format: izbor
 info: Choosing between the two direction words. **u** goes with enclosed places — *u školu*, *u pekaru*, *u kafić*; **na** goes with open ground or occasions — *na plažu*, *na posao*, *na kavu*. The place keeps its **-u** either way.
+infokratko: **u**: *u školu, u kafić*. **na**: *na plažu, na posao, na kavu*. **-u** either way.
 opis: Choose the preposition. Enclosed space → u. Open space or event → na.
 - Idem ___ trgovinu. | u | na
 - Idem ___ tržnicu. | na | u
@@ -182,6 +192,7 @@ opis: Choose the preposition. Enclosed space → u. Open space or event → na.
 ## Open or enclosed?
 format: razvrstavanje
 info: Sorting places by the word they take. Can you close a door behind you? Then **u**. Open sky, or an occasion rather than a building? Then **na** — which is why *tržnica* and even *kava* land in that column.
+infokratko: Door you can close → **u**. Open space or occasion → **na** (*na tržnicu, na kavu*).
 stupci: U (zatvoreno) | NA (otvoreno)
 opis: Sort each place by the word it takes. If you can shut a door behind you it's **u**; open sky or an occasion takes **na**.
 - trgovina | U (zatvoreno)
@@ -203,6 +214,7 @@ opis: Sort each place by the word it takes. If you can shut a door behind you it
 ## Type the whole direction
 format: upis
 info: You type both parts: the preposition and the place in its target form. *škola* becomes *u škol**u***, *tržnica* becomes *na tržnic**u***. The ending is the same either way; only the preposition is a real choice.
+infokratko: Preposition + **-u**: *u školu, na tržnicu*.
 opis: Type the two words — the preposition and the place in its target form.
 - Idem ___ . (trgovina) | u trgovinu
 - Idem ___ . (tržnica) | na tržnicu
@@ -218,6 +230,7 @@ opis: Type the two words — the preposition and the place in its target form.
 ## Build the sentence
 format: slaganje
 info: Sentence building from tiles. Two things must hold: a feminine target ends in **-u** and drags its adjective along (*crn**u** kav**u***), and a comma stands before *a* and *ali* but not before *i*.
+infokratko: Feminine target **-u** with its adjective (*crnu kavu*); comma before *a*, *ali*, not *i*.
 opis: Build the sentence. The adjective and the noun have to end the same way.
 - Ana čita knjigu.
 - Kupujem ribu i salatu.

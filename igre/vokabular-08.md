@@ -4,6 +4,7 @@ cjelina: Vocabulary 8
 ## Where you're going
 format: kartice
 info: Places a Croatian summer happens in. Note that *more* is the sea itself, and that the phrase everyone uses for going to the coast is *na more*, not *u more* — take it whole as a fixed expression for now.
+infokratko: Summer places. *more* = the sea; to the coast = *na more*.
 opis: Croatia in summer, in one deck. **more** is the sea itself; going *na more* is what everyone says for "to the coast".
 - more | sea
 - plaža | beach
@@ -24,6 +25,7 @@ opis: Croatia in summer, in one deck. **more** is the sea itself; going *na more
 ## Getting there
 format: kartice
 info: Transport and travel gear. Almost all of these will turn up as objects after a future helper, in the accusative you already know: *Nosit ću **kofer** i **torbu***.
+infokratko: Travel words, often objects after the future: *Nosit ću kofer i torbu.*
 opis: How you travel and what you need before you leave.
 - vlak | train
 - avion | airplane
@@ -44,6 +46,7 @@ opis: How you travel and what you need before you leave.
 ## What you'll pack
 format: kartice
 info: Clothes, and a reminder that gender is visible in the ending. *Majica*, *košulja* and *haljina* end in *-a* and are feminine, while *šešir*, *kaput* and *džemper* are masculine. *Hlače* exists only in the plural, like English *trousers*.
+infokratko: *majica, košulja, haljina* f; *šešir, kaput, džemper* m. *hlače* plural only.
 opis: Clothes for a Croatian summer — and three for when the *bura* starts blowing.
 - majica | T-shirt
 - košulja | shirt
@@ -58,6 +61,7 @@ opis: Clothes for a Croatian summer — and three for when the *bura* starts blo
 ## When
 format: kartice
 info: The words that put a plan on a calendar. *Sutra*, *danas*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u subotu*, *u nedjelju*, *u ponedjeljak*.
+infokratko: *sutra, danas, ujutro, navečer* alone; days with **u** + accusative: *u subotu*.
 opis: The words that put a plan on the calendar. *Sutra* is the one you'll use in almost every future sentence you build today.
 - sutra | tomorrow
 - danas | today
@@ -78,6 +82,7 @@ opis: The words that put a plan on the calendar. *Sutra* is the one you'll use i
 ## Ten new verbs
 format: kartice
 info: Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem** — the infinitive minus its final *-i* (*putovati → **putovat***) — which is what stands in front of *ću*.
+infokratko: Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*.
 opis: Holiday verbs. Each card shows the *ja* form and, after the second arrow, the **future stem** — the shape the verb takes when it stands in front of *ću*.
 - putovati → putujem → putovat | to travel
 - plivati → plivam → plivat | to swim
@@ -93,6 +98,7 @@ opis: Holiday verbs. Each card shows the *ja* form and, after the second arrow, 
 ## Words for the road
 format: kartice
 info: Departure phrases plus the adjectives and time words that round out a plan. The adjectives come in two genders (*umoran / umorna*) because they still agree with the person: *Bit ću **umorna***.
+infokratko: Adjectives agree with the person: *Bit ću umorna*.
 opis: The phrases you say at a station, and the ones you say when you leave.
 - Sretan put! | Have a good trip!
 - Vidimo se! | See you!
@@ -110,6 +116,7 @@ opis: The phrases you say at a station, and the ones you say when you leave.
 ## Sea or suitcase?
 format: razvrstavanje
 info: Sort by meaning, not by grammar. A useful check while you go: *plaža*, *majica* and *karta* end in *-a* and are feminine, while *vlak*, *avion* and *šešir* are masculine — which matters the moment they become objects.
+infokratko: By meaning. *plaža, majica, karta* f; *vlak, avion, šešir* m.
 stupci: MJESTO | PRIJEVOZ | ODJEĆA
 opis: Sort each word: a place you go, a way of getting there, or something you wear.
 - more | MJESTO
@@ -134,6 +141,7 @@ opis: Sort each word: a place you go, a way of getting there, or something you w
 ## Which family?
 format: razvrstavanje
 info: The three present-tense families again. The infinitive can mislead, so judge by the *ja* form: *putovati* looks like *plivati* but gives *putujem*, so it is **-EM**, while *plivati* gives *plivam* and is **-AM**.
+infokratko: By the *ja* form: *putujem* **-em**, *plivam* **-am**.
 stupci: -AM | -IM | -EM
 opis: The three verb families, one more time. *Putovati* and *kretati* hide their family well — the infinitive gives nothing away, the *ja* form gives everything.
 - plivati | -AM
@@ -150,6 +158,7 @@ opis: The three verb families, one more time. *Putovati* and *kretati* hide thei
 ## Match the pictures
 format: spajanje
 info: Picture-to-word matching, pure recognition. Watch the near neighbours: *more* is the sea, *planina* a mountain, *otok* an island, and the pair most often swapped is *brod* (boat) and *vlak* (train).
+infokratko: *more* sea, *planina* mountain, *otok* island; *brod* boat, *vlak* train.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - more | sea
 - plaža | beach
@@ -167,6 +176,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 ## Match the pairs
 format: parovi
 info: Croatian to English pairing. If a word will not come, its ending still hands you the gender: *plaža*, *karta* and *prtljaga* are feminine, while *otok*, *vlak* and *kofer* are masculine.
+infokratko: *plaža, karta, prtljaga* f; *otok, vlak, kofer* m.
 opis: Match each travel word with its English meaning.
 - vikend | weekend
 - ljeto | summer
@@ -190,6 +200,7 @@ opis: Match each travel word with its English meaning.
 ## Memory
 format: memorija
 info: A memory grid of the ten new verbs in their dictionary form. That is exactly the form the future needs after a helper, so every card you flip is already half a sentence: *Ja ću **putovati***.
+infokratko: Dictionary forms, ready for the future: *Ja ću putovati*.
 opis: Flip the cards and find the pairs.
 - putovati | to travel
 - plivati | to swim
@@ -205,6 +216,7 @@ opis: Flip the cards and find the pairs.
 ## Speed challenge: the future stem
 format: brzina
 info: A timed drill on one operation only: cut the final *-i* off the infinitive. *plivati → plivat*, *učiti → učit*, *biti → bit*. Nothing else changes — the vowel in front of the *-i* stays put, as in *letjeti → letjet*.
+infokratko: Cut the final *-i*: *plivati → plivat*, *letjeti → letjet*.
 trajanje: 60
 opis: An infinitive flashes — tap the shape it takes in front of **ću**. Drop the final **-i**, and nothing else.
 - plivati | plivat
@@ -231,6 +243,7 @@ opis: An infinitive flashes — tap the shape it takes in front of **ću**. Drop
 ## Speed challenge: what is it?
 format: brzina
 info: A timed vocabulary sprint, Croatian to English. Speed comes from the near-twins of English: *hotel*, *kamp*, *avion* and *plan* cost you nothing, so bank those fast and spend your seconds on the clothes.
+infokratko: Easy ones fast (*hotel, kamp, avion*); time on the clothes.
 trajanje: 60
 opis: Travel sprint — tap the English meaning.
 - more | sea
@@ -271,6 +284,7 @@ opis: Travel sprint — tap the English meaning.
 ## Build the word
 format: slova
 info: Spelling practice, letter tile by letter tile. Croatian treats *lj*, *nj* and *dž* as single letters, so *košulja*, *haljina* and *proljeće* each take one **lj** tile, and *džemper* opens with a single **dž**.
+infokratko: **lj, nj, dž** one tile each: *košulja, haljina, džemper*.
 opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
 - košulja | shirt
 - haljina | dress
@@ -286,6 +300,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 ## Type the future stem
 format: upis
 info: Type the infinitive minus its final *-i*. A few verbs refuse to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.
+infokratko: Drop the *-i*; **-ći** verbs stay whole: *Ići ću*.
 opis: You get the infinitive — type the form that stands in front of *ću*.
 - plivati → | plivat
 - putovati → | putovat
@@ -310,6 +325,7 @@ opis: You get the infinitive — type the form that stands in front of *ću*.
 ## Type it in Croatian
 format: upis
 info: The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the letter with its diacritic, not its plain twin.
+infokratko: With diacritics: *plaža, ručnik, košulja, šešir, džemper*.
 opis: The final round — type each word in Croatian.
 - sea | more
 - beach | plaža

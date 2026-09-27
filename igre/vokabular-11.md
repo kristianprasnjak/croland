@@ -4,6 +4,7 @@ cjelina: Vocabulary 11
 ## Question words
 format: kartice
 info: The full set of question words. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji*, *kakav* and *čiji* stand in front of a noun and copy it, so each is shown in three forms. *Koga* is the target form of *tko*, exactly the **-a** of Lesson 6.
+infokratko: *tko, što, gdje, kada, zašto, kako, koliko* don't change; *koji, kakav, čiji* agree. *koga* = whom.
 opis: Everything you need to ask and to wonder. Tap a card to reveal the meaning.
 - tko? | who?
 - koga? | whom? (as the target)
@@ -24,6 +25,7 @@ opis: Everything you need to ask and to wonder. Tap a card to reveal the meaning
 ## Numbers 1–20
 format: kartice
 info: One to twenty. The teens are built from the units plus **-naest**, so *pet* gives *petnaest* and *devet* gives *devetnaest*. Two of them have a female form: *jedan / jedna* and *dva / dvije*, used when the thing counted is feminine.
+infokratko: Teens: unit + **-naest** (*petnaest*). *jedan / jedna*, *dva / dvije* for feminine.
 opis: The numbers you need for ages, prices and phone numbers.
 - jedan / jedna | one
 - dva / dvije | two
@@ -49,6 +51,7 @@ opis: The numbers you need for ages, prices and phone numbers.
 ## Bigger numbers & money
 format: kartice
 info: The round numbers, plus the words for paying. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.
+infokratko: Round numbers and money. *Koliko košta?* — *deset eura*.
 opis: Prices, ages and the round numbers above twenty.
 - dvadeset jedan | twenty-one
 - trideset | thirty
@@ -74,6 +77,7 @@ opis: Prices, ages and the round numbers above twenty.
 ## Presents & birthdays
 format: kartice
 info: The words for a birthday. *Poklon* and *dar* both mean a present, and *rođendan* is built from *rođen* (born) and *dan* (day). Most of these are things you buy, so they will turn up as targets of *kupujem* and *tražim*.
+infokratko: Birthday words. *poklon, dar* = present; *rođendan* = *rođen* + *dan*.
 opis: What you buy, for whom, and why. Tap a card to reveal the meaning.
 - poklon | present, gift
 - dar | gift
@@ -95,6 +99,7 @@ opis: What you buy, for whom, and why. Tap a card to reveal the meaning.
 ## Questions, answers & new verbs
 format: kartice
 info: The words a conversation is made of, plus five verbs in their *ja* form. *Pitati* is to ask and *odgovarati* is to answer, and they come from the same roots as the nouns *pitanje* and *odgovor*.
+infokratko: Conversation words; *pitati* ask, *odgovarati* answer.
 opis: The words you need to keep a conversation going.
 - pitanje | question
 - odgovor | answer
@@ -120,6 +125,7 @@ opis: The words you need to keep a conversation going.
 ## Which question word?
 format: razvrstavanje
 info: Sorting the question words by the kind of answer they call for. *Tko* and *koga* ask about a person, *gdje* and *kada* about place and time, and *koji*, *kakav* and *čiji* stand in front of a noun, so they take endings.
+infokratko: Person *tko / koga*, place *gdje*, time *kada*; *koji, kakav, čiji* take endings.
 opis: Sort each question word by what it asks about.
 stupci: OSOBA | MJESTO I VRIJEME | UZ IMENICU
 - tko | OSOBA
@@ -140,6 +146,7 @@ stupci: OSOBA | MJESTO I VRIJEME | UZ IMENICU
 ## How much is it?
 format: razvrstavanje
 info: Sorting numbers into three ranges by sight. The teens end in **-naest**, *dvadeset* and everything above it ends in **-deset** (except *sto*), and everything below eleven is a single short word.
+infokratko: Teens **-naest**, tens **-deset**, *sto*; up to ten short words.
 opis: Sort each number by its size.
 stupci: 1–10 | 11–20 | VIŠE OD 20
 - jedan | 1–10
@@ -162,6 +169,7 @@ stupci: 1–10 | 11–20 | VIŠE OD 20
 ## Match the pictures
 format: spajanje
 info: Picture-to-word matching, with no English on the page. Most of these could be a present, and every one of these words can turn up as the target of *kupujem* — where a feminine noun takes **-u**: *Kupujem gitar**u***.
+infokratko: Possible presents. Feminine target **-u**: *Kupujem gitaru*.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - gitara | guitar
 - knjiga | book
@@ -179,6 +187,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 ## Match the pairs
 format: parovi
 info: Question words beside their meanings. The pair worth keeping apart is *koji* and *kakav*: *koji* picks one out of a known set, *kakav* asks what something is like.
+infokratko: *koji* = which one, *kakav* = what kind.
 opis: Match each question word with its English meaning.
 - tko | who
 - što | what
@@ -196,6 +205,7 @@ opis: Match each question word with its English meaning.
 ## Match the numbers
 format: parovi
 info: Each number beside its figure. Read the Croatian aloud as you match — the teens are long words, and hearing *četrnaest* next to *četiri* is what makes the pattern stick.
+infokratko: Read them aloud: *četiri / četrnaest*.
 opis: Match each number with its figure.
 - pet | 5
 - sedam | 7
@@ -213,6 +223,7 @@ opis: Match each number with its figure.
 ## Memory
 format: memorija
 info: A pairs game over the birthday words. Two of them are worth fixing here: *čestitka* is the card you write, while *Čestitam!* is what you say.
+infokratko: *čestitka* = card; *Čestitam!* = congratulations.
 opis: Flip the cards and find the pairs.
 - poklon | present
 - rođendan | birthday
@@ -228,6 +239,7 @@ opis: Flip the cards and find the pairs.
 ## Speed challenge: question words
 format: brzina
 info: Timed recognition of the question words. Speed comes from the answers they expect: a name for *tko*, a place for *gdje*, a number for *koliko*, a description for *kakav*.
+infokratko: Name *tko*, place *gdje*, number *koliko*, description *kakav*.
 trajanje: 45
 opis: Tap the English meaning before the timer runs out.
 - tko | who
@@ -246,6 +258,7 @@ opis: Tap the English meaning before the timer runs out.
 ## Speed challenge: numbers
 format: brzina
 info: A timed number sprint. The teens are the slow ones, so read them as their unit plus *-naest* — *šest* gives *šesnaest*, with the *t* dropped, and *četiri* gives *četrnaest*.
+infokratko: Teens: unit + *-naest*; *šesnaest*, *četrnaest*.
 trajanje: 45
 opis: A number flashes — tap the figure.
 - jedan | 1
@@ -272,6 +285,7 @@ opis: A number flashes — tap the figure.
 ## Words from earlier levels
 format: brzina
 info: A timed return to words from Vocabulary 8 and 9 that have not appeared for a while. Nothing here is new; the point is to keep older words in use.
+infokratko: Older words from levels 8–9.
 trajanje: 60
 opis: Words from two and three levels ago — tap the English meaning.
 - kofer | suitcase
@@ -294,6 +308,7 @@ opis: Words from two and three levels ago — tap the English meaning.
 ## Build the word
 format: slova
 info: Spelling from letter tiles. Four words here need letters English does not have: *čestitka* and *četrnaest* start with **č**, *svijeća* ends in **-ća**, and *iznenađenje* carries both **đ** and the single letter **nj**.
+infokratko: *čestitka* **č**, *svijeća* **ć**, *iznenađenje* **đ** and **nj**.
 opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own.
 - čestitka | greeting card
 - svijeća | candle
@@ -309,6 +324,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć
 ## Type the question word
 format: upis
 info: The answer is given and you type the question. Three of them take an ending from the noun beside them — *koji*, *kakav* and *čiji* — and one asks about a target: *Koga čekaš?*
+infokratko: *koji, kakav, čiji* agree; *Koga čekaš?*
 opis: Read the answer, then type the question word that fits.
 - ___ je to? — To je Marko. | Tko
 - ___ kupuješ? — Poklon. | Što
@@ -326,6 +342,7 @@ opis: Read the answer, then type the question word that fits.
 ## Type it in Croatian
 format: upis
 info: English to Croatian, with spelling counted. The numbers are wanted as words, the nouns in their naming form, and the verbs as infinitives. The diacritics are part of the word: *čestitka*, *svijeća*, *rođendan*.
+infokratko: Numbers as words, naming forms, infinitives: *čestitka, svijeća, rođendan*.
 opis: The final round — type each word in Croatian.
 - who | tko
 - what | što

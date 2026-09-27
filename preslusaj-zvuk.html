@@ -1,0 +1,43 @@
+<!doctype html><html lang="hr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Preslušavanje glasova</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#faf7f2;color:#1d1b17;margin:0;padding:24px 16px;}
+main{max-width:56rem;margin:0 auto}
+h1{font-size:1.5rem;margin:0 0 .25rem} p.pod{color:#6b645a;margin:0 0 1.5rem}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th,td{padding:.6rem .5rem;border-bottom:1px solid #eee4d6;text-align:left;vertical-align:middle}
+th{font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;color:#6b645a;background:#f3ede3}
+td.t{font-weight:600}
+button.sv{border:1px solid #c9bda9;background:#fff;border-radius:8px;padding:.35rem .7rem;cursor:pointer;font:inherit}
+button.sv:hover{border-color:#9a5b52}
+.nema{color:#b0a697;font-size:.85rem}
+label{margin-right:.5rem;white-space:nowrap;font-size:.9rem}
+.dno{margin-top:1.5rem;display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+#kopiraj{background:#9a5b52;color:#fff;border:0;border-radius:8px;padding:.6rem 1rem;font:inherit;cursor:pointer}
+#poruka{color:#3d7a3a}
+</style></head><body><main>
+<h1>Preslušavanje glasova</h1>
+<p class="pod">Srećko je sadašnji glas u mapi <code>zvuk/</code>. Kore (ženski) i Charon (muški) su Gemini. Za svaki red označi koji je najbolji, pa na dnu klikni <b>Kopiraj rezultate</b> i zalijepi ih u chat.</p>
+<table><thead><tr><th>Tekst</th><th>Srećko</th><th>Kore</th><th>Charon</th><th>Najbolji</th></tr></thead><tbody id="tijelo"></tbody></table>
+<div class="dno"><button id="kopiraj">Kopiraj rezultate</button><span id="poruka"></span></div>
+</main>
+<script>
+var R=[{"t": "grad", "z": {"Srećko": "zvuk/grad.mp3", "Kore": "zvuk-gemini-mp3/Kore/grad.mp3", "Charon": "zvuk-gemini-mp3/Charon/grad.mp3"}}, {"t": "luk", "z": {"Srećko": "zvuk/luk.mp3", "Kore": "zvuk-gemini-mp3/Kore/luk.mp3", "Charon": "zvuk-gemini-mp3/Charon/luk.mp3"}}, {"t": "pas", "z": {"Srećko": "zvuk/pas.mp3", "Kore": "zvuk-gemini-mp3/Kore/pas.mp3", "Charon": null}}, {"t": "kosa", "z": {"Srećko": "zvuk/kosa.mp3", "Kore": "zvuk-gemini-mp3/Kore/kosa.mp3", "Charon": "zvuk-gemini-mp3/Charon/kosa.mp3"}}, {"t": "Doviđenja", "z": {"Srećko": "zvuk/Doviđenja.mp3", "Kore": "zvuk-gemini-mp3/Kore/Doviđenja.mp3", "Charon": null}}, {"t": "Izvolite", "z": {"Srećko": "zvuk/Izvolite.mp3", "Kore": "zvuk-gemini-mp3/Kore/Izvolite.mp3", "Charon": "zvuk-gemini-mp3/Charon/Izvolite.mp3"}}, {"t": "gospođa", "z": {"Srećko": "zvuk/gospođa.mp3", "Kore": null, "Charon": "zvuk-gemini-mp3/Charon/gospođa.mp3"}}, {"t": "djetinjstvo", "z": {"Srećko": "zvuk/djetinjstvo.mp3", "Kore": null, "Charon": "zvuk-gemini-mp3/Charon/djetinjstvo.mp3"}}, {"t": "More je plavo i toplo.", "z": {"Srećko": "zvuk/More je plavo i toplo.mp3", "Kore": "zvuk-gemini-mp3/Kore/More je plavo i toplo.mp3", "Charon": "zvuk-gemini-mp3/Charon/More je plavo i toplo.mp3"}}, {"t": "Ona je pametna i vesela.", "z": {"Srećko": "zvuk/Ona je pametna i vesela.mp3", "Kore": "zvuk-gemini-mp3/Kore/Ona je pametna i vesela.mp3", "Charon": "zvuk-gemini-mp3/Charon/Ona je pametna i vesela.mp3"}}, {"t": "Je li ovo tvoja lopta?", "z": {"Srećko": "zvuk/Je li ovo tvoja lopta.mp3", "Kore": "zvuk-gemini-mp3/Kore/Je li ovo tvoja lopta.mp3", "Charon": "zvuk-gemini-mp3/Charon/Je li ovo tvoja lopta.mp3"}}, {"t": "Nikad ne jedem juhu.", "z": {"Srećko": "zvuk/Nikad ne jedem juhu.mp3", "Kore": "zvuk-gemini-mp3/Kore/Nikad ne jedem juhu.mp3", "Charon": "zvuk-gemini-mp3/Charon/Nikad ne jedem juhu.mp3"}}, {"t": "Plivat ću svaki dan.", "z": {"Srećko": "zvuk/Plivat ću svaki dan.mp3", "Kore": "zvuk-gemini-mp3/Kore/Plivat ću svaki dan.mp3", "Charon": "zvuk-gemini-mp3/Charon/Plivat ću svaki dan.mp3"}}, {"t": "Baki šaljem čokoladu, a djedu pišem pismo.", "z": {"Srećko": "zvuk/Baki šaljem čokoladu, a djedu pišem pismo.mp3", "Kore": "zvuk-gemini-mp3/Kore/Baki šaljem čokoladu, a djedu pišem pismo.mp3", "Charon": "zvuk-gemini-mp3/Charon/Baki šaljem čokoladu, a djedu pišem pismo.mp3"}}, {"t": "Na semaforu skrenite lijevo.", "z": {"Srećko": "zvuk/Na semaforu skrenite lijevo.mp3", "Kore": "zvuk-gemini-mp3/Kore/Na semaforu skrenite lijevo.mp3", "Charon": "zvuk-gemini-mp3/Charon/Na semaforu skrenite lijevo.mp3"}}, {"t": "Učim hrvatski jer volim jezik koji zvuči kao glazba.", "z": {"Srećko": "zvuk/Učim hrvatski jer volim jezik koji zvuči kao glazba.mp3", "Kore": "zvuk-gemini-mp3/Kore/Učim hrvatski jer volim jezik koji zvuči kao glazba.mp3", "Charon": "zvuk-gemini-mp3/Charon/Učim hrvatski jer volim jezik koji zvuči kao glazba.mp3"}}];var zvuk=new Audio();
+function pusti(src){zvuk.pause();zvuk.src=src;zvuk.play();}
+var tb=document.getElementById('tijelo');
+R.forEach(function(r,i){
+  var tr=document.createElement('tr');
+  var h='<td class="t">'+r.t.replace(/</g,'&lt;')+'</td>';
+  ['Srećko','Kore','Charon'].forEach(function(g){
+    h+= r.z[g] ? '<td><button class="sv" data-src="'+encodeURI(r.z[g])+'">▶</button></td>' : '<td><span class="nema">nema</span></td>';
+  });
+  h+='<td>'+['Srećko','Kore','Charon','isto'].map(function(g){return '<label><input type="radio" name="o'+i+'" value="'+g+'"> '+g+'</label>';}).join('')+'</td>';
+  tr.innerHTML=h;tb.appendChild(tr);
+});
+tb.addEventListener('click',function(e){var b=e.target.closest('button.sv');if(b)pusti(b.getAttribute('data-src'));});
+document.getElementById('kopiraj').onclick=function(){
+  var out=R.map(function(r,i){var c=document.querySelector('input[name=o'+i+']:checked');return r.t+' → '+(c?c.value:'-');}).join('\n');
+  navigator.clipboard.writeText(out).then(function(){document.getElementById('poruka').textContent='Kopirano. Zalijepi u chat.';},
+    function(){prompt('Kopiraj ovo:',out);});
+};
+</script></body></html>

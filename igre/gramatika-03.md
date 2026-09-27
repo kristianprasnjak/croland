@@ -4,6 +4,7 @@ cjelina: Grammar 3
 ## The rule: the name-tag endings
 format: tekst
 info: A rule page with nothing to tap: it names the endings you have already been using. **-m** for ja, **-š** for ti, nothing for on/ona — plus one shortcut worth keeping, since from the *ja* form you drop **-m** for on/ona and swap in **-š** for ti.
+infokratko: **-m** ja, **-š** ti, nothing on/ona. From the *ja* form: drop **-m** or swap in **-š**.
 - You've already *used* everything on this page — now let's name it.
 - **One set of endings, almost every verb.** Whoever is doing it, the ending says so. The *middle* of the verb can shift, but the endings never lie. (A tiny handful say *ja* with **-u** instead — you'll meet *neću* further down this page.)
 - tab: Pronoun | Ending | Examples
@@ -20,6 +21,7 @@ info: A rule page with nothing to tap: it names the endings you have already bee
 ## The rule: three families
 format: tekst
 info: Your reference for the three conjugation families, each named after its *ja* form: **-am** (*čitam*), **-im** (*radim*), **-em** (*pišem*). It matters because the infinitive won't tell you which — *čitati* and *pisati* look alike and land apart.
+infokratko: Three families by the *ja* form: **-am** (*čitam*), **-im** (*radim*), **-em** (*pišem*). The infinitive won't tell you.
 - **Verbs sort themselves by their ja-form**, and there are only three groups. The infinitive is a poor guide — *pisati* and *čitati* look alike but land in different families — so the ja-form is what you memorise.
 - tab: Family | Verbs | ja / ti / on-ona
 - tab: **-am** | čitati, gledati, slušati, spavati | čitam · čitaš · čita
@@ -33,6 +35,7 @@ info: Your reference for the three conjugation families, each named after its *j
 ## Who is doing it?
 format: razvrstavanje
 info: Sorting forms by person, so read only the tail: **-m** is ja, **-š** is ti, a bare form is on/ona. Shifted stems like *pišem* and *jedem* sort exactly like plain ones — the middle of a verb never says who is acting.
+infokratko: Only the tail counts: **-m** ja, **-š** ti, bare on/ona. *pišem, jedem* too.
 stupci: JA | TI | ON/ONA
 opis: Sort the forms by who's doing it. The ending is your clue.
 - radim | JA
@@ -57,6 +60,7 @@ opis: Sort the forms by who's doing it. The ending is your clue.
 ## Which family?
 format: razvrstavanje
 info: Family sorting from the infinitive, which means recalling the *ja* form first: *spavati* → *spavam* is **-am**, *učiti* → *učim* is **-im**, *jesti* → *jedem* is **-em**. Going by looks alone will mislead you here.
+infokratko: Recall the *ja* form first: *spavam* **-am**, *učim* **-im**, *jedem* **-em**.
 stupci: -AM | -IM | -EM
 opis: Sort each infinitive by the ja-form it makes.
 - čitati | -AM
@@ -72,6 +76,7 @@ opis: Sort each infinitive by the ja-form it makes.
 ## Pick the form
 format: izbor
 info: Choose the form that agrees with the subject you are given. *Ja* takes **-m**, *ti* takes **-š**, and everything else — *on*, *ona*, *Ana*, *pas* — takes the bare form, so it is *Pas spava*, never *Pas spavam*.
+infokratko: *ja* **-m**, *ti* **-š**, everything else bare: *Pas spava*.
 opis: Pick the correct form.
 - Ja ___ film. | gledam | gledaš | gleda
 - Ti ___ kruh. | jedeš | jedem | jede
@@ -87,6 +92,7 @@ opis: Pick the correct form.
 ## Tap the ending
 format: nastavak
 info: One tap adds the name tag to a ready-made stem: **-m**, **-š**, or nothing. The stem tells you which family the verb belongs to, but never who is acting — that is the ending's only job, and it works the same in all three families.
+infokratko: **-m**, **-š** or nothing. The stem shows the family; the ending shows who.
 nastavci: m | š | -
 opis: English above, Croatian below. The verb is waiting for its name tag — one tap. Get it right and you'll hear the sentence.
 - Ja čita___ tekst. | I read a text. | m
@@ -117,6 +123,7 @@ opis: English above, Croatian below. The verb is waiting for its name tag — on
 ## Type the ja-form
 format: upis
 info: Type the **-m** form for each infinitive. Three of these shift their stem on the way — *pisati* → *pišem*, *jesti* → *jedem*, *piti* → *pijem* — which is exactly why the *ja* form is the one worth memorising per verb.
+infokratko: The *ja* form: *pisati → pišem, jesti → jedem, piti → pijem*.
 opis: Type the "ja" form.
 - spavati → | spavam
 - raditi → | radim
@@ -131,6 +138,7 @@ opis: Type the "ja" form.
 ## Without the pronoun
 format: upis
 info: Rewriting without the pronoun, which is ordinary Croatian: since **-m** and **-š** already name the person, *Ja pijem sok* shortens to *Pijem sok* with nothing lost. Keep *ja* only for contrast — *JA pijem sok*, meaning me and not you.
+infokratko: The ending names the person: *Pijem sok*. *ja* only for contrast.
 opis: Say the same thing the way a Croatian would — drop the pronoun, keep the verb.
 - Ja pijem sok. → | Pijem sok
 - Ja gledam film. → | Gledam film
@@ -146,6 +154,7 @@ opis: Say the same thing the way a Croatian would — drop the pronoun, keep the
 ## Say the missing word
 format: upis
 info: Nothing is offered here: read the English cue, choose the verb, then fit the ending to the subject in the Croatian sentence. *Ana* and *pas* count as on/ona, so they take the bare form — *piše*, *spava*.
+infokratko: From the English cue; *Ana*, *pas* take the bare form: *piše, spava*.
 opis: Nothing is offered this time. Read the English and type the Croatian verb in the right form.
 - Ja ___ sok. (drink) | pijem
 - Ti ___ kruh. (eat) | jedeš
@@ -161,6 +170,7 @@ opis: Nothing is offered this time. Read the English and type the Croatian verb 
 ## The rule: saying you don't
 format: tekst
 info: The negation rule: almost every verb keeps *ne* as a separate word in front — *ne pijem*, *Ana ne radi* — and the person ending is untouched. Only three fuse it: *biti* (*nisam*), *imati* (**nemam**) and *htjeti* (**neću**).
+infokratko: *ne* before the verb, ending unchanged: *ne pijem*. Fused: *nisam, nemam, neću*.
 - *biti* fused its negation into one word (*nisam, nisi, nije*). **Almost every other verb keeps *ne* separate** — one little word in front, and nothing else moves. The two rebels are waiting further down this page.
 - tab: Positive | Negative | English
 - tab: Čitam udžbenik. | **Ne** čitam udžbenik. | I'm not reading a textbook.
@@ -175,6 +185,7 @@ info: The negation rule: almost every verb keeps *ne* as a separate word in fron
 ## Positive or negative?
 format: razvrstavanje
 info: Sorting by polarity. Usually you are just looking for *ne* standing in front of the verb, but two words hide the negative inside themselves: *nisam* is the negative of *sam*, and *nemam* is the negative of *imam*.
+infokratko: Look for *ne* before the verb. Hidden negatives: *nisam*, *nemam*.
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
 opis: Sort the forms. Watch out — biti and imati hide their "ne" inside the word.
 - pijem | ✓ POZITIVNO
@@ -191,6 +202,7 @@ opis: Sort the forms. Watch out — biti and imati hide their "ne" inside the wo
 ## Make it negative
 format: upis
 info: Add *ne* and change nothing else: the verb keeps its ending and the object keeps its shape, so *Pijem sok* becomes *Ne pijem sok*. When the subject is stated, *ne* still hugs the verb — *Ana ne piše pismo*.
+infokratko: Add *ne*, change nothing else: *Ne pijem sok. Ana ne piše pismo.*
 opis: Negate the sentence. The verb keeps its ending — you only add one word.
 - Pijem sok. → | Ne pijem sok
 - Čitaš udžbenik. → | Ne čitaš udžbenik
@@ -204,6 +216,7 @@ opis: Negate the sentence. The verb keeps its ending — you only add one word.
 ## Write the whole sentence
 format: upis
 info: Full production from English. Croatian has one present tense, so *I drink* and *I am drinking* are both *pijem*, and the pronoun is optional. For a negative, put *ne* in front of the verb and leave everything else alone.
+infokratko: One present tense: *I drink / I am drinking* = *pijem*. Negative: *ne* + verb.
 opis: The last step — the English sentence, and you write the Croatian. The pronoun is optional with *ja* and *ti*, so both versions are accepted there; with *on* and *ona* keep it.
 - I am drinking juice. | Pijem sok. / Ja pijem sok.
 - You are reading a textbook. | Čitaš udžbenik. / Ti čitaš udžbenik.
@@ -224,6 +237,7 @@ opis: The last step — the English sentence, and you write the Croatian. The pr
 ## You can do this now
 format: tekst
 info: A wrap-up page with nothing to answer. The rule to carry forward: learn every verb by its *ja* form, take off **-m** for *on* or *ona*, swap in **-š** for *ti*, and put *ne* before the verb to say that you don't.
+infokratko: Learn the *ja* form; **-m** off for on/ona, **-š** for ti; *ne* before the verb.
 - **Bravo.** You just wrote Croatian sentences about actions from nothing but an English prompt — three families, three endings, no pronoun needed, and *ne* whenever you want the opposite.
 - And you did it with a rule you can carry anywhere: **learn the ja-form, take off the -m for him or her, swap in -š for you.**
 - **Next up:** Practice 3 puts these verbs into a real day — an apartment, a conversation, an evening — and Test 3 closes the unit. Then Lesson 4 gives you the family, and the three little words that join your sentences together: *i*, *a*, *ali*.

@@ -4,6 +4,7 @@ cjelina: Grammar 8
 ## The rule: helpers & two word orders
 format: tekst
 info: The core of the future on one page: a helper plus the infinitive. If anything else comes first, the verb stays whole (*Ja ću **plivati***); if the verb comes first, it drops its final *-i* and the helper follows (***Plivat** ću*).
+infokratko: Future = helper + infinitive. *Ja ću plivati*; verb first drops *-i*: *Plivat ću*.
 - The Croatian future: one set of helpers + the infinitive.
 - **The helpers:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. These are short forms of *htjeti* (to want) — historically, "I will swim" grew out of "I want to swim". English did exactly the same with *will*!
 - **Order A — with the pronoun (or any first word):** helper comes second. *Ja ću plivati. Sutra ću plivati. Mi ćemo putovati.*
@@ -16,6 +17,7 @@ info: The core of the future on one page: a helper plus the infinitive. If anyth
 ## The rule: the third time you meet this
 format: tekst
 info: The *why* behind that word order. *ću* is a **clitic**, unstressed like *sam* and *ga*, and an unstressed word cannot open a Croatian sentence — it needs something in front to lean on. So the verb gives up its *-i* to become that something.
+infokratko: *ću* is a clitic like *sam* and *ga*: it can't open a sentence, so something goes before it.
 - **Why can't the helper go first?** Because it is a **clitic** — the same restless family you have now met three times.
 - tab: Lesson | The clitic | Never says
 - tab: 2 | sam · si · je | *Sam student.*
@@ -31,6 +33,7 @@ info: The *why* behind that word order. *ću* is a **clitic**, unstressed like *
 ## Match pronoun & helper
 format: parovi
 info: Pair each subject with its helper. The full set is *ću, ćeš, će, ćemo, ćete, će*, and *će* is the one form doing double duty: it covers *on/ona* and *oni/one* alike.
+infokratko: *ću, ćeš, će, ćemo, ćete, će*. *će* covers *on/ona* and *oni*.
 opis: Match pronoun and helper.
 - ja | ću
 - ti | ćeš
@@ -41,6 +44,7 @@ opis: Match pronoun and helper.
 ## Who will it be?
 format: razvrstavanje
 info: Sort the subjects by helper. Any single person or thing takes **će**, names and nouns included (*Marko će*, *avion će*), and any group containing *ja* takes **ćemo**, even when *mi* is left unsaid (*brat i ja ćemo*).
+infokratko: One person or thing → **će**; any group with *ja* → **ćemo**.
 stupci: ĆU | ĆEŠ | ĆE | ĆEMO
 opis: Which helper does each subject take? Any single person or thing takes **će**; a group that includes *ja* takes **ćemo**.
 - ja | ĆU
@@ -63,6 +67,7 @@ opis: Which helper does each subject take? Any single person or thing takes **ć
 ## Long or short?
 format: nastavak
 info: One tap per sentence, and word order alone decides it. The verb loses its final *-i* only when it stands directly in front of the helper: *Bit će savršeno*, but *To će **biti** savršeno*.
+infokratko: *-i* drops only right before the helper: *Bit će savršeno*, *To će biti savršeno*.
 nastavci: t | ti
 opis: The verb changes shape depending on where it stands. **In front of ću** it drops the final -i. **Anywhere else** it keeps it.
 - Pliva___ ću svaki dan. | I will swim every day. | t
@@ -89,6 +94,7 @@ opis: The verb changes shape depending on where it stands. **In front of ću** i
 ## The correctly written sentence
 format: izbor
 info: Spot the correctly written sentence. Three things must hold at once: two separate words (*Plivat ću*, never *Plivaću*), the *-i* dropped only in front of the helper, and *-ći* verbs left untouched (*Ići ću*, not *Ić ću*).
+infokratko: Two words (*Plivat ću*), *-i* dropped only before the helper, *-ći* kept (*Ići ću*).
 opis: Choose the correctly written sentence.
 - swimming, verb first | Plivat ću. | Plivati ću. | Plivaću.
 - studying, pronoun first | Ja ću učiti. | Ću ja učiti. | Ja ću učit.
@@ -104,6 +110,7 @@ opis: Choose the correctly written sentence.
 ## The second word order
 format: upis
 info: Rewrite each sentence in the other word order. Moving the verb in front of the helper costs it a final *-i* (*Ja ću gledati → **Gledat** ću*); moving it back behind the helper gives the *-i* straight back.
+infokratko: Verb before helper loses *-i* (*Gledat ću*); after it gets it back (*Ja ću gledati*).
 opis: Rewrite in the other word order.
 - Ja ću gledati film. → | Gledat ću film
 - Putovat ćemo sutra. → | Mi ćemo putovati sutra
@@ -117,6 +124,7 @@ opis: Rewrite in the other word order.
 ## Put it in the future
 format: upis
 info: Build a future from a subject and a dictionary verb. Both orders count as correct, but they are not free: with the pronoun the verb is whole (*Mi ćemo biti*), verb-first it is trimmed (*Bit ćemo*), and *ići* never trims.
+infokratko: Both orders: *Mi ćemo biti* / *Bit ćemo*. *ići* never trims.
 opis: Put the verb in the future — both word orders are accepted.
 - (ja, plivati) | Ja ću plivati / Plivat ću
 - (mi, ručati) | Mi ćemo ručati / Ručat ćemo
@@ -132,6 +140,7 @@ opis: Put the verb in the future — both word orders are accepted.
 ## The rule: the future that won't
 format: tekst
 info: The negative future. *ne* fuses with the helper into one stressed word — **neću, nećeš, neće** — which, unlike *ću*, is free to open a sentence, and the verb after it returns to its full form: *Neću **plivati***.
+infokratko: **neću, nećeš, neće**: one word, can open a sentence; the verb is whole: *Neću plivati*.
 - The negative future is a single word, exactly like *nisam*: **neću, nećeš, neće, nećemo, nećete, neće**.
 - tab: Positive | Negative
 - tab: Plivat ću. / Ja ću plivati. | **Neću** plivati.
@@ -146,6 +155,7 @@ info: The negative future. *ne* fuses with the helper into one stressed word —
 ## Leans or opens?
 format: razvrstavanje
 info: Sort the words by whether they can start a sentence. Anything unstressed leans and cannot (*ću, sam, ga*), while the stressed forms open freely (*neću, nisam, njega*). It is the same split you have now met three times.
+infokratko: Unstressed can't start (*ću, sam, ga*); stressed can (*neću, nisam, njega*).
 stupci: NASLANJA SE | OTVARA REČENICU
 opis: Which of these can stand at the very beginning of a sentence, and which needs something in front of it to lean on?
 - ću | NASLANJA SE
@@ -168,6 +178,7 @@ opis: Which of these can stand at the very beginning of a sentence, and which ne
 ## Positive or negative future?
 format: izbor
 info: Choose the correctly written sentence. *Neću* is always one word, never *ne ću*, and the verb behind it keeps its full *-i* — so *Neću plivati* is right, and *Plivat neću* does not exist.
+infokratko: *Neću* is one word; verb stays whole: *Neću plivati*.
 opis: Choose the correctly written sentence.
 - I won't swim. | Neću plivati. | Ne ću plivati. | Plivat neću.
 - We won't travel. | Nećemo putovati. | Ne ćemo putovati. | Nećemo putovat.
@@ -181,6 +192,7 @@ opis: Choose the correctly written sentence.
 ## Say you won't
 format: upis
 info: Turn plans into refusals, which means two changes at once: the helper becomes the fused *neću / nećeš / neće*, and the trimmed verb is restored to its dictionary form — *Plivat ću* becomes *Neću **plivati***.
+infokratko: *ću* → *neću*, verb back to full form: *Plivat ću → Neću plivati*.
 opis: Turn each plan into a refusal.
 - Plivat ću. → | Neću plivati
 - Putovat ćemo. → | Nećemo putovati
@@ -196,6 +208,7 @@ opis: Turn each plan into a refusal.
 ## The rule: the helper's stressed twin
 format: tekst
 info: The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exactly where a leaning word cannot go — asking (*Hoćeš li doći?*) and answering (*Hoću.*) — just as *njega* stands where *ga* cannot.
+infokratko: Stressed *hoću, hoćeš, hoće* for asking and answering: *Hoćeš li doći? — Hoću.*
 - Just like *ga* has *njega* and *me* has *mene*, the future helper has a full, stressed twin: **hoću, hoćeš, hoće, hoćemo, hoćete, hoće**.
 - tab: Short (leans) | Full (stressed) | When you need the full one
 - tab: ću | **hoću** | answering a question: *Hoćeš li doći? — **Hoću**.*
@@ -209,6 +222,7 @@ info: The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exa
 ## Short or full form?
 format: izbor
 info: Pick the right form for the job. A plain statement takes the short helper (*Sutra ću plivati*); asking, answering or contrasting takes the stressed one (*Hoćeš li doći? — **Hoću**.*); and refusing takes *Neću*.
+infokratko: Statement *ću*; asking or answering *hoću*; refusing *neću*.
 opis: The short helper leans and never stands alone. The full one is stressed — use it to answer, to ask, or to contrast.
 - Answering "Hoćeš li doći?" | Hoću. | Ću. | Ću doći.
 - Asking whether someone will come | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
@@ -220,6 +234,7 @@ opis: The short helper leans and never stands alone. The full one is stressed �
 ## Build the sentence
 format: slaganje
 info: Build each sentence from tiles, positive and negative mixed. The order tests one thing: *ću* can never be the first tile, but *neću* can — so *Plivat ću svaki dan* and *Neću trenirati danas* are both well formed.
+infokratko: *ću* never first; *neću* can be: *Neću trenirati danas.*
 opis: Build the sentence.
 - Plivat ću svaki dan.
 - Mi ćemo putovati na more.

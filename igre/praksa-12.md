@@ -4,6 +4,7 @@ cjelina: Practice 12
 ## Text 1: I don't like soup
 format: tekst
 info: A read-along complaint, and nearly every line is negative. Read it twice: once for the story, once to spot the pattern — *ne* in front of the verb, *nije* as one word, and *ni… ni…* ruling out two things with *ne* still on the verb.
+infokratko: Mostly negative: *ne* before the verb, *nije* as one word, *ni... ni...* with *ne*.
 opis: A boy, his mother and a long list of foods he won't eat. Tap **EN** next to any sentence to see its translation.
 - Passive words: *kaže* (says), *zdravo* (healthy, about a thing).
 - Ne volim juhu. | I don't like soup.
@@ -20,6 +21,7 @@ opis: A boy, his mother and a long list of foods he won't eat. Tap **EN** next t
 ## True or false?
 format: izbor
 info: Check each statement against the text. The negatives carry the information: *ne volim ni ribu* means he dislikes fish as well as soup, and *mama nije sretna* rules out a happy mother.
+infokratko: The negatives carry the meaning: *ne volim ni ribu*, *mama nije sretna*.
 opis: Tap true or false.
 tekst: Ne volim juhu. Nikad ne jedem juhu. Mama kaže: "Juha je zdrava!" Ali ne volim ni ribu. Riba nije ukusna — riba je riba! Ne jedem ni rajčicu ni luk. Gljive? Ne, hvala. Češnjak? Nikad! Što volim? Volim pizzu i sladoled. Mama nije sretna: "To nije zdravo!"
 - On voli juhu. | FALSE | TRUE
@@ -32,6 +34,7 @@ tekst: Ne volim juhu. Nikad ne jedem juhu. Mama kaže: "Juha je zdrava!" Ali ne 
 ## Type the negation
 format: upis
 info: Copy the negative word back into its line. Read the whole sentence first: a gap in front of a verb takes *ne*, a gap before an adjective takes *nije*, and a gap in the middle of a list takes *ni*.
+infokratko: Before a verb *ne*, before an adjective *nije*, in a list *ni*.
 opis: Fill in the negation from the text.
 tekst: Ne volim juhu. Nikad ne jedem juhu. Ali ne volim ni ribu. Riba nije ukusna. Ne jedem ni rajčicu ni luk. Mama nije sretna. Sladoled nikad nije problem!
 - ___ volim juhu. | Ne
@@ -44,6 +47,7 @@ tekst: Ne volim juhu. Nikad ne jedem juhu. Ali ne volim ni ribu. Riba nije ukusn
 ## Text 2: At the restaurant
 format: tekst
 info: A restaurant where the kitchen has run out of almost everything. The waiter answers with *nemamo*, the fused negative of *imati*, and *također nemamo* means *we don't have that either*. Notice that the guest answers the same way: *Ne jedem pizzu.*
+infokratko: *nemamo* = we don't have; *također nemamo* = don't have that either.
 opis: Two friends, one waiter and a very short menu. Tap **EN** to see any line in English.
 - Passive words: *drugo* (else), *za piće* (to drink), *posebno* (special), *večeras* (tonight), *pivo* (beer).
 - — Dobra večer! Izvolite jelovnik. | — Good evening! Here's the menu.
@@ -62,6 +66,7 @@ opis: Two friends, one waiter and a very short menu. Tap **EN** to see any line 
 ## Did you get it?
 format: izbor
 info: Comprehension on the dialogue above. Keep apart what the restaurant *has* and what it *doesn't have* — *nemamo ribu*, *juhu također nemamo* — and remember that *ni vino ni pivo* rules out both drinks.
+infokratko: Has vs. doesn't have. *ni vino ni pivo* = neither.
 opis: Answer from the dialogue.
 tekst: — Imate li ribu? — Nažalost, danas nemamo ribu. — A juhu? — Juhu također nemamo. — Hm. Što imate? — Imamo pizzu i salatu. — Ja ne jedem pizzu... ali moj prijatelj ne jede ništa drugo! — Onda jednu pizzu i jednu salatu? — Da, molim. — A za piće? — Ništa posebno — samo vodu, molim. Večeras ne pijemo ni vino ni pivo.
 - Što restoran nema? | ribu i juhu | pizzu i salatu | vodu i vino
@@ -74,6 +79,7 @@ tekst: — Imate li ribu? — Nažalost, danas nemamo ribu. — A juhu? — Juhu
 ## Order the dialogue
 format: poredak
 info: Rebuild the conversation line by line. Each answer follows its question: *Imate li ribu?* is answered by *nemamo ribu*, *A juhu?* by *Juhu također nemamo*, and *Što imate?* by *Imamo pizzu i salatu*. The guest's order comes last.
+infokratko: Each answer follows its question; the order comes last.
 opis: Rebuild the restaurant conversation.
 - — Dobra večer! Izvolite jelovnik.
 - — Imate li ribu?
@@ -87,6 +93,7 @@ opis: Rebuild the restaurant conversation.
 ## Text 3: Marko eats nothing
 format: tekst
 info: A story about a child who refuses everything — almost. The whole story rests on the difference between *ništa* and *nešto*: the first line says *Marko ništa ne jede*, and the last one says *Marko ipak nešto jede*.
+infokratko: *ništa* vs. *nešto*: *Marko ništa ne jede... Marko ipak nešto jede.*
 opis: A grandmother, a mother and a father try to feed Marko. Tap **EN** to see any line in English.
 - Passive words: *njegova* (his), *gle!* (look!), *dakle* (so), *istina* (true), *ipak* (after all), *radi* (makes).
 - Marko je dijete i Marko ništa ne jede. | Marko is a child and Marko eats nothing.
@@ -102,6 +109,7 @@ opis: A grandmother, a mother and a father try to feed Marko. Tap **EN** to see 
 ## Did you get it?
 format: izbor
 info: Comprehension on Marko's story. Three people cook, and each question asks who made what or what Marko refused. *Ne želi ni kolač* means he refused the cake as well as the soup.
+infokratko: Who made what, what Marko refused. *ne želi ni kolač*.
 opis: Answer from the text.
 tekst: Marko je dijete i Marko ništa ne jede. Ne jede povrće. Ne voli voće. Nikad ne pije mlijeko. "Ne!" — to je njegova omiljena riječ. Baka kuha juhu — Marko ne želi juhu. Mama peče kolač — Marko ne želi ni kolač! Tata radi palačinke... i gle! Marko jede! Dakle, nije istina. Marko ipak nešto jede: palačinke!
 - Što Marko nikad ne pije? | mlijeko | vodu | sok
@@ -114,6 +122,7 @@ tekst: Marko je dijete i Marko ništa ne jede. Ne jede povrće. Ne voli voće. N
 ## Text 4: Who eats what?
 format: tekst
 info: A puzzle rather than a story. Four friends, four dishes, and nobody says who has which. Every clue is a negative, so work by elimination: what a person does **not** eat narrows down what is left for the others.
+infokratko: Every clue is negative: work by elimination.
 opis: Four friends, four dishes, no labels. Read it twice before you answer.
 - Passive words: *četiri jela* (four dishes), *isto* (the same).
 - Ana, Damir, Petra i Ivan večeraju u restoranu. | Ana, Damir, Petra and Ivan are having dinner at a restaurant.
@@ -129,6 +138,7 @@ opis: Four friends, four dishes, no labels. Read it twice before you answer.
 ## Solve the puzzle
 format: izbor
 info: Deduction from the negatives. Only Damir can take the chicken, because Ana and Petra eat no meat and Ivan does not want it today. Ivan never eats fish, so the fish is Ana's; Petra does not want pasta, so she has the salad and Ivan the pasta.
+infokratko: By elimination from the negatives.
 opis: Nobody says who eats what. Work it out from the text.
 tekst: Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela: piletina, riba, tjestenina i salata. Nitko ne jede isto jelo. Petra je vegetarijanka — ne jede ni meso ni ribu. Ana ne jede meso. Damir ne voli ni salatu ni tjesteninu. Ivan nikad ne jede ribu. Danas ne želi ni piletinu. Petra danas ne želi tjesteninu.
 - Tko jede piletinu? | Damir | Ivan | Ana
@@ -141,6 +151,7 @@ tekst: Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela:
 ## Tap the ending from the texts
 format: nastavak
 info: One tap per sentence, and almost every sentence comes from the four texts. **Ni-** builds *ništa*, *nikad*, *nitko* and *nije*; **ne-** builds *nešto* and *nemamo*, and *ne* also stands alone in front of a verb. The dash leaves a positive sentence untouched.
+infokratko: **ni-**: *ništa, nikad, nitko, nije*; **ne-**: *nešto, nemamo*; or *ne* alone. Dash = positive.
 nastavci: ni | ne | -
 opis: Almost every sentence came out of the four texts. One tap — or none, if the sentence is positive.
 - Marko ___šta ne jede. | Marko eats nothing. | ni
@@ -163,6 +174,7 @@ opis: Almost every sentence came out of the four texts. One tap — or none, if 
 ## Yes or no?
 format: razvrstavanje
 info: Sorting sentences by meaning. A sentence is negative when its verb is — *ne jede*, *nije*, *nemamo*. Two traps: *Marko ipak nešto jede* is positive despite the **ne-** word, and *samo vodu* is a positive answer.
+infokratko: Negative verb = negative sentence. *nešto jede* is positive.
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
 opis: Does the sentence say yes or no?
 - Volim pizzu i sladoled. | ✓ POZITIVNO
@@ -183,6 +195,7 @@ opis: Does the sentence say yes or no?
 ## Now YOU order
 format: dijalog
 info: Your turn at the restaurant, with the waiter using the polite *vi*. Any answer keeps the conversation going, but each one uses this unit: *ne jedem*, *nisam*, *ništa više*. Where your gender shows, both forms are offered.
+infokratko: Polite *vi*: *ne jedem, nisam, ništa više*. Pick your gender's form.
 opis: The waiter is ready and the kitchen is half empty. Choose your replies — any answer works. Passive words: *Evo* (here you are), *u redu* (all right), *malo* (a little), *alkohol* (alcohol), *sokove* (juices), *Hvala vam* (thank you, polite).
 - npc | Dobra večer! Izvolite jelovnik.
 - ti | Hvala! Imate li ribu? | Hvala! Imate li juhu?
@@ -203,6 +216,7 @@ opis: The waiter is ready and the kitchen is half empty. Choose your replies —
 ## Dinner, in order
 format: poredak
 info: Sequence Marko's dinner from Text 3. Three people offer food one after another — grandmother, mother, father — and the two refusals come before the one dish he finally eats.
+infokratko: Three offers, two refusals, then one dish.
 opis: Seven moments from Text 3, shuffled. Put them in the order they happened.
 - Baka kuha juhu.
 - Marko ne želi juhu.
@@ -215,6 +229,7 @@ opis: Seven moments from Text 3, shuffled. Put them in the order they happened.
 ## Translate by building
 format: slaganje
 info: English in, Croatian out, built from tiles taken from the four texts. *Ne* goes directly in front of the verb, *nije* and *nemamo* are single tiles, and every negative word keeps *ne* on the verb.
+infokratko: *ne* before the verb; *nije, nemamo* one tile; negative words keep *ne*.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
 - Ne volim juhu. | en: I don't like soup.
 - Nikad ne jedem juhu. | en: I never eat soup.
@@ -236,6 +251,7 @@ opis: Read the English sentence, then build its Croatian translation from the ti
 ## Pop the right balloon
 format: baloni
 info: A timed picture-to-word tap over food and the things on the table. Everything is in its naming form; say *Ne jedem…* or *Nemam…* in your head as you tap, remembering that a feminine word takes **-u**: *Nemam žlicu.*
+infokratko: Naming forms. Think *Ne jedem...*; *Nemam žlicu*.
 opis: The kitchen is closing. A picture appears — tap the balloon with its word before it floats away.
 - palačinke | pancakes
 - kupus | cabbage

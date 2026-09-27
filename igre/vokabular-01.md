@@ -4,6 +4,7 @@ cjelina: Vocabulary 1
 ## Words you already know (cognates)
 format: kartice
 info: Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *taksi* writes the English x as *ks*. Read every card aloud once.
+infokratko: Words you already know. Written as said: *čokolada* (*ch*), *taksi* (*ks*). Read them aloud.
 opis: Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap a card to reveal its meaning.
 - hotel | hotel
 - banana | banana
@@ -19,6 +20,7 @@ opis: Your first Croatian flashcard deck — every word sounds exactly as it's w
 ## Speed challenge: easy words
 format: brzina
 info: The same borrowed words against a timer, so recognition has to become instant. If a word looks familiar, trust it: *problem*, *sport* and *taksi* mean exactly what you expect, and none of them changes shape anywhere in this deck.
+infokratko: The same words against the clock. They mean what you expect: *problem, sport, taksi*.
 trajanje: 60
 opis: You just met them — now catch them! Tap the English meaning before the timer runs out.
 - hotel | hotel
@@ -35,6 +37,7 @@ opis: You just met them — now catch them! Tap the English meaning before the t
 ## Things around you
 format: kartice
 info: The core noun deck for level 1. Store each word together with its final letter, because that letter is what a describing word must copy later: *stol* ends in a consonant, *soba* in **-a**, *nebo* in **-o**, *sunce* in **-e**.
+infokratko: Core nouns. Remember the last letter: *stol*, *soba* **-a**, *nebo* **-o**, *sunce* **-e**.
 opis: Things around you. Tap to reveal.
 - kuća | house
 - knjiga | book
@@ -54,6 +57,7 @@ opis: Things around you. Tap to reveal.
 ## Match the pictures
 format: spajanje
 info: Picture-to-word matching, with no English on the page. You have met every one of these words on the cards above, so this is recognition only. Keep an eye on the last letter while you tap, because that letter is what a describing word has to copy.
+infokratko: Picture and word, recognition only. Watch the last letter.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - kuća | house
 - knjiga | book
@@ -71,6 +75,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 ## Match the pairs
 format: parovi
 info: Pairing nouns with meanings, which is straight recall of the deck above. A useful check while you match: *kuća*, *knjiga* and *soba* all end in **-a**, while *stol*, *prozor*, *krevet* and *grad* end in a consonant.
+infokratko: Nouns with meanings. *kuća, knjiga, soba* **-a**; *stol, prozor, grad* consonant.
 opis: Match each Croatian word with its English meaning.
 - kuća | house
 - knjiga | book
@@ -84,6 +89,7 @@ opis: Match each Croatian word with its English meaning.
 ## Memory
 format: memorija
 info: A flip-and-find grid over words you have already met, so treat it as spaced repetition rather than new input. Say each Croatian word aloud when you turn it over, for example *kava*, *more*, *sunce*, since hearing the ending is what makes it stick.
+infokratko: Words you've met. Say each aloud: *kava, more, sunce*.
 opis: Flip the cards and find the pairs.
 - kava | coffee
 - more | sea
@@ -97,6 +103,7 @@ opis: Flip the cards and find the pairs.
 ## Adjectives & colors
 format: kartice
 info: Describing words, plus the three tiny words *je* (is), *ovo* (this) and *i* (and). The cards show only the plain dictionary form; the **-a** and **-o** versions you already saw in Lesson 1 get drilled properly in Grammar 1.
+infokratko: Adjectives in plain form, plus *je* (is), *ovo* (this), *i* (and).
 opis: One word, one card. How the endings change is Grammar's job — here just learn the words.
 - velik | big
 - mali | small
@@ -123,6 +130,7 @@ opis: One word, one card. How the endings change is Grammar's job — here just 
 ## Speed challenge: adjectives & colors
 format: brzina
 info: Timed recall of the describing words in their plain form, so it is meaning only and no endings to choose. Watch the near-twins *crven* (red) and *crn* (black), and keep *zelen* (green) apart from *žut* (yellow).
+infokratko: Meaning only. Keep apart *crven / crn* and *zelen / žut*.
 trajanje: 60
 opis: A Croatian word appears — tap its English meaning before the timer runs out!
 - velik | big
@@ -147,6 +155,7 @@ opis: A Croatian word appears — tap its English meaning before the timer runs 
 ## Build the word
 format: slova
 info: Spelling from letter tiles. Croatian writes one letter per sound, so a word you can say is a word you can spell — but **č**, **ć**, **š**, **ž** are letters of their own, and **nj** is a single letter, not an n followed by a j.
+infokratko: One letter per sound. **č, ć, š, ž** are letters; **nj** is one letter.
 opis: Careful — **nj** is one letter in Croatian, and the letters with diacritics (*č, ć, š, ž, đ*) are separate letters too.
 - kuća | house
 - knjiga | book
@@ -162,6 +171,7 @@ opis: Careful — **nj** is one letter in Croatian, and the letters with diacrit
 ## Type it in Croatian
 format: upis
 info: Here you produce the spelling yourself, which is where the diacritics matter: *kuća* needs **ć** and *čokolada* needs **č**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear, one letter each.
+infokratko: Type the sounds, with diacritics: *kuća*, *čokolada*.
 opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - house | kuća
 - sea | more

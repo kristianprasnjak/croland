@@ -4,6 +4,7 @@ cjelina: Vocabulary 4
 ## Close family
 format: kartice
 info: Flashcards for the closest relatives. The ending usually gives the gender away — *mama*, *sestra*, *baka* and *žena* in **-a** are feminine, *brat*, *sin* and *muž* are masculine — but *tata* looks feminine and is **masculine**.
+infokratko: Close family. *mama, sestra, baka, žena* f; *brat, sin, muž* m; *tata* is masculine.
 opis: Start with the people closest to you. Notice how many end in **-a** — Croatian family words are mostly short and warm.
 - obitelj | family
 - mama | mom
@@ -24,6 +25,7 @@ opis: Start with the people closest to you. Notice how many end in **-a** — Cr
 ## The wider circle
 format: kartice
 info: Relatives beyond the household plus the polite words for strangers. Two things to note: *kolega* ends in **-a** yet is **masculine**, like *tata*, and the female counterpart takes **-ica**, so *prijatelj* becomes *prijateljica*.
+infokratko: Wider family and polite words. *kolega* is masculine; *prijatelj → prijateljica*.
 opis: Aunts, uncles, neighbours and the polite words you use with strangers. *Gospodin* and *gospođa* are the everyday *Mr* and *Mrs* — you'll hear them in every shop. Watch *kolega*: it ends in **-a** but it is **masculine**.
 - teta | aunt
 - ujak | uncle (mother's brother)
@@ -45,6 +47,7 @@ opis: Aunts, uncles, neighbours and the polite words you use with strangers. *Go
 ## Home and around it
 format: kartice
 info: Vocabulary for the place the family lives in. Keep two of them apart: *kuća* and *stan* are the building, while *dom* is the home you feel — exactly the contrast in *Stan je mali, ali je dom topao*.
+infokratko: Home words. *kuća, stan* = the building; *dom* = home.
 opis: Where the family lives. **dom** is the *home* you feel; **kuća** and **stan** are the building you live in.
 - dom | home
 - stan | apartment
@@ -63,6 +66,7 @@ opis: Where the family lives. **dom** is the *home* you feel; **kuća** and **st
 ## Match the pictures
 format: spajanje
 info: Picture-to-word matching for the family and the home. While you tap, read the last letter of each word: *baka* and *sestra* end in **-a** and are feminine, *brat* and *djed* end in a consonant and are masculine, and *dijete* is neuter.
+infokratko: Picture and word. *baka, sestra* f; *brat, djed* m; *dijete* n.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - obitelj | family
 - baka | grandma
@@ -80,6 +84,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 ## Eleven new verbs
 format: kartice
 info: Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomaž-*: *pomažem*, *pomažeš*, *pomaže*.
+infokratko: Learn the *ja* form: **-m** → **-š** for *ti*, drop for *on/ona*. *pomažem, pomažeš, pomaže*.
 opis: Same trick as Lesson 3 — learn the **ja** form and the other two follow. *pomagati* and *ustajati* change the middle a little; the endings never lie.
 - imati → imam, imaš, ima | to have
 - kuhati → kuham, kuhaš, kuha | to cook
@@ -96,6 +101,7 @@ opis: Same trick as Lesson 3 — learn the **ja** form and the other two follow.
 ## Three families again
 format: razvrstavanje
 info: You sort the new verbs into the three present-tense families from Lesson 3. Do not trust the infinitive — *voljeti* gives *volim*, not *voljem* — so sort by the *ja* form from the cards: **-am**, **-im** or **-em**.
+infokratko: Sort by the *ja* form: **-am, -im, -em**. *voljeti → volim*.
 stupci: -AM | -IM | -EM
 opis: The same three verb families you met in Lesson 3, now with the new verbs. Five say -am, four say -im, two say -em.
 - imati | -AM
@@ -113,6 +119,7 @@ opis: The same three verb families you met in Lesson 3, now with the new verbs. 
 ## Little words that hold a sentence together
 format: kartice
 info: The four connectors plus five very frequent small words. In one line: **i** adds, **a** puts two different subjects side by side, **ali** is a real *but*, and **jer** gives the reason. Grammar 4 drills which one does which.
+infokratko: **i** adds, **a** contrasts subjects, **ali** = but, **jer** = because.
 opis: Four connectors and five words you'll sprinkle everywhere. Grammar 4 shows exactly which connector does which job.
 - i | and (adding)
 - a | and, whereas (two subjects)
@@ -127,6 +134,7 @@ opis: Four connectors and five words you'll sprinkle everywhere. Grammar 4 shows
 ## Match the pairs
 format: parovi
 info: Matching family words to their English meanings. Two sets are easy to confuse: *sin* is son and *kći* is daughter, and *unuk* is a grandson while *ujak* is an uncle — your mother's brother, as opposed to *stric*.
+infokratko: *sin* son, *kći* daughter; *unuk* grandson, *ujak* uncle (mother's brother).
 opis: Match each family word with its English meaning.
 - obitelj | family
 - roditelj | parent
@@ -144,6 +152,7 @@ opis: Match each family word with its English meaning.
 ## Memory
 format: memorija
 info: A flip-and-find game over the home words. A hook while you play: *stan* and *kuća* are the building you live in, *dom* is the home you feel, and *soba* is any single room inside it.
+infokratko: *stan, kuća* building; *dom* home; *soba* room.
 opis: Flip the cards and find the pairs — the home edition.
 - dom | home
 - stan | apartment
@@ -159,6 +168,7 @@ opis: Flip the cards and find the pairs — the home edition.
 ## Speed challenge: people
 format: brzina
 info: Timed recognition of the people words. Speed comes from recognising shapes: **-ica** marks a female counterpart (*prijateljica*), and *djetinjstvo* is built on *dijete* (child), so *djet-* should already suggest childhood.
+infokratko: **-ica** = female (*prijateljica*); *djetinjstvo* from *dijete*.
 trajanje: 60
 opis: Tap the English meaning — people sprint!
 - obitelj | family
@@ -188,6 +198,7 @@ opis: Tap the English meaning — people sprint!
 ## Speed challenge: the ja-form
 format: brzina
 info: The *ja* forms flash past and you tap the meaning. The final **-m** is itself the *I*, so *kuham* is *I cook*; the vowel in front of it (**-am**, **-im** or **-em**) only tells you which verb family the word belongs to.
+infokratko: **-m** = I: *kuham* = I cook.
 trajanje: 60
 opis: The **ja** form flashes — tap the English meaning!
 - imam | I have
@@ -205,6 +216,7 @@ opis: The **ja** form flashes — tap the English meaning!
 ## Type the ja-form
 format: upis
 info: You get the infinitive and type the form you use about yourself. Most just take the family vowel plus **-m**: *kuhati* gives *kuham*, *sjediti* gives *sjedim*. Watch the ones whose stem shifts: *voljeti* gives *volim*, *pomagati* gives *pomažem*.
+infokratko: Family vowel + **-m**: *kuham, sjedim*. Shifts: *volim, pomažem*.
 opis: You get the infinitive — type the form you would use about yourself.
 - imati → | imam
 - kuhati → | kuham
@@ -221,6 +233,7 @@ opis: You get the infinitive — type the form you would use about yourself.
 ## Build the word
 format: slova
 info: Spelling from letter tiles. Five words here need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.
+infokratko: New letters: *kći* **ć**, *gospođa* **đ**; **lj**, **nj** are single letters.
 opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
 - obitelj | family
 - prijatelj | friend
@@ -236,6 +249,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 ## Type it in Croatian
 format: upis
 info: The production round: English in, Croatian out, spelled by ear. Croatian writes one sound per letter, so nothing is silent or doubled — but the diacritics are full letters and must be typed: *kći*, *žena*, *čovjek*, *kuća*.
+infokratko: Diacritics are letters: *kći, žena, čovjek, kuća*.
 opis: The final round — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - family | obitelj
 - parent | roditelj

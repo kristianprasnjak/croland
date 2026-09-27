@@ -1210,6 +1210,31 @@
   #panelInfo .infoTekst strong { color: var(--plava); }
   #panelInfo .infoOpis { margin-top: 1.25rem; padding-top: 0.75rem; border-top: 1px solid var(--rub);
     font-size: var(--t-s); color: var(--muted); line-height: 1.5; }
+  /* AI pomoć (27.09.2026.): razgovor o ovoj stranici, ispod pravila i opisa. */
+  #panelInfo .aiDio { margin-top: 1.5rem; padding-top: 0.875rem; border-top: 2px solid var(--rub); }
+  #panelInfo .aiNas { display: flex; align-items: center; gap: 0.5rem; font-weight: 700; margin-bottom: 0.625rem; }
+  #panelInfo .aiNas span { margin-right: auto; }
+  #panelInfo .aiIspocetka { border: 0; background: none; color: var(--muted); font: inherit; font-size: var(--t-s);
+    font-weight: 400; text-decoration: underline; cursor: pointer; padding: 0; }
+  #panelInfo .aiPoruke { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.75rem; }
+  #panelInfo .aiPor { line-height: 1.55; font-size: var(--t-m); overflow-wrap: anywhere; }
+  #panelInfo .aiPor p { margin: 0 0 0.5rem; } #panelInfo .aiPor p:last-child { margin-bottom: 0; }
+  #panelInfo .aiPor.ja { align-self: flex-end; max-width: 88%; background: var(--bg); border: 1px solid var(--rub);
+    border-radius: var(--rad-s); padding: 0.45rem 0.7rem; }
+  #panelInfo .aiPor.ai { align-self: stretch; border-left: 3px solid var(--plava); padding: 0.1rem 0 0.1rem 0.7rem; }
+  #panelInfo .aiPor.ai strong { color: var(--plava); }
+  #panelInfo .aiCeka { color: var(--muted); }
+  #panelInfo .aiNapomena { font-size: var(--t-s); color: var(--muted); line-height: 1.5; }
+  #panelInfo .aiGreska { font-size: var(--t-s); color: var(--crvena); margin-bottom: 0.5rem; }
+  #panelInfo .aiUnos textarea { width: 100%; box-sizing: border-box; min-height: 3.5rem; resize: vertical;
+    border: 1px solid var(--rub); border-radius: var(--rad-s); padding: 0.5rem 0.625rem; font: inherit;
+    font-size: var(--t-m); background: var(--bg); color: var(--ink); }
+  #panelInfo .aiUnos textarea:focus { outline: none; border-color: var(--plava); }
+  #panelInfo .aiRed { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-top: 0.5rem; }
+  #panelInfo .aiLimit { font-size: var(--t-s); color: var(--muted); }
+  #panelInfo .aiSalji { background: var(--plava); color: #fff; border: 0; border-radius: var(--rad-s);
+    padding: 0.45rem 1rem; font: inherit; font-weight: 600; cursor: pointer; }
+  #panelInfo .aiSalji:disabled { opacity: .45; cursor: default; }
 
   /* -- lebdeća mini-igrica prijevoda -- */
   /* Otvara se istim mehanizmom kao lebdeći rječnik: okrugla tipka + bočni panel.
@@ -4270,6 +4295,19 @@
   }
   window.prebaciBodoveUZaglavlju = prebaciBodoveUZaglavlju;
 
+  // Kratke upute: zadano ugaseno. Sprema se u PROGRESS.postavke kao i bodovi u
+  // zaglavlju, pa vrijedi na svim uredajima prijavljenog korisnika.
+  function kratkeUpute() {
+    return !!(PROGRESS.postavke && PROGRESS.postavke.kratkeUpute);
+  }
+  function prebaciKratkeUpute() {
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    PROGRESS.postavke.kratkeUpute = kratkeUpute() ? 0 : 1;
+    spremiProgress();
+    renderOptions();
+  }
+  window.prebaciKratkeUpute = prebaciKratkeUpute;
+
   function osvjeziHeader() {
     var el = $('valuteHeader');
     // Odjavljenom posjetitelju "0 LP · 0 VP · 0 GP · 0 PP" nije podatak nego obeshrabrenje.
@@ -6545,8 +6583,15 @@
   // ================= LEBDEĆI INFO: PRAVILO UZ OVU VJEŽBU =================
   // Tekst dolazi iz meta.info svake vježbe (polje "info:" u igre/*.md). Ikona se
   // pojavljuje samo kad ta vježba ima info — i nikad u testu, jednako kao rječnik.
+  // Kratke upute (27.09.2026.): polje "infokratko:" u igre/*.md je paralelna, kraca
+  // verzija "info:". Koristi se samo kad je u Options ukljuceno "Shorter instructions"
+  // i kad ga vjezba ima; inace se uvijek vidi puni info. Stranice s pravilom nemaju
+  // kratku verziju — namjerno.
   function infoTekstIgre() {
-    return (igra && igra.meta && igra.meta.info) ? String(igra.meta.info).trim() : '';
+    if (!igra || !igra.meta) return '';
+    var m = igra.meta;
+    if (kratkeUpute() && m.infokratko) return String(m.infokratko).trim();
+    return m.info ? String(m.info).trim() : '';
   }
   function popuniInfo() {
     var t = $('infoTijelo'); if (!t) return;
@@ -6559,8 +6604,154 @@
         'This exercise has no note yet. If you expected one here, the app is running on an older ' +
         '<em>data.js</em> — regenerate it and reload the page.') + '</div>' +
       ((igra && igra.meta && igra.meta.opis)
-        ? '<div class="infoOpis">' + mdInline(igra.meta.opis) + '</div>' : '');
+        ? '<div class="infoOpis">' + mdInline(igra.meta.opis) + '</div>' : '') +
+      '<div class="aiDio" id="aiDio"></div>';
+    aiOsvjezi();
   }
+  // ================= AI POMOĆ U LEBDEĆEM INFU (27.09.2026.) =================
+  // Razgovor je vezan uz vježbu (cjelina|stranica|naslov) i čuva se u Supabaseu (ai_razgovori)
+  // dok ga korisnik ne obriše ("Start over"). Pitanje ide funkciji "pomoc", koja provjerava
+  // pretplatu i dnevni limit (20) i tek onda zove Gemini — ključ nikad nije u pregledniku.
+  // Broj preostalih pitanja prikazuje se tek od 10. pitanja nadalje (traženo 27.09.2026.).
+  // Bez pretplate: jedno pitanje dnevno. Limit vrijedi za cijelu aplikaciju, ne po vježbi.
+  // U testu se ne vidi, jer se ondje ne vidi ni sam lebdeći info.
+  var AI_PRIKAZI_OD = 10;
+  function aiLimit() { return imaPretplatu() ? 20 : 1; }
+  var AI_RAZG = {};            // kljuc -> [{u:'user'|'ai', t:'...'}], undefined = još se učitava
+  var AI_ISKORISTENO = null;   // koliko je pitanja danas potrošeno (null = ne znamo)
+  var AI_SALJE = null;         // kljuc razgovora za koji upravo čekamo odgovor
+  var AI_GRESKA = '';
+  var AI_NACRT = {};           // nedovršeno pitanje po vježbi, da ga ponovno crtanje ne izbriše
+
+  function aiKljuc() {
+    return igra ? ((igra.cjelina || '') + '|' + (igra.stranica || '') + '|' + (igra.naslov || '')) : '';
+  }
+  function aiDanas() {
+    try { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(new Date()); }
+    catch (e) { return new Date().toISOString().slice(0, 10); }
+  }
+  function aiEkran() {
+    var s = $('sadrzaj');
+    var t = s ? String(s.innerText || '') : '';
+    t = t.replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim().slice(0, 4000);
+    var m = (igra && igra.meta) || {};
+    return { cjelina: igra.cjelina || '', naslov: igra.naslov || '', format: igra.format || '',
+      opis: m.opis || '', info: m.info || '', sadrzaj: t };
+  }
+  function aiTekst(t) {
+    return String(t || '').split(/\n{2,}/).map(function (o) {
+      return '<p>' + mdInline(o).replace(/\n/g, '<br>') + '</p>';
+    }).join('');
+  }
+  function aiUcitaj(k) {
+    if (!supa || !imaRacun() || !k || AI_RAZG[k] !== undefined) return;
+    supa.from('ai_razgovori').select('poruke').eq('user_id', SESSION.user.id).eq('kljuc', k).maybeSingle()
+      .then(function (res) {
+        AI_RAZG[k] = (res && res.data && Array.isArray(res.data.poruke)) ? res.data.poruke : [];
+        if (aiKljuc() === k) aiOsvjezi();
+      }, function () { AI_RAZG[k] = []; if (aiKljuc() === k) aiOsvjezi(); });
+    if (AI_ISKORISTENO === null) {
+      supa.from('ai_upotreba').select('broj').eq('user_id', SESSION.user.id).eq('dan', aiDanas()).maybeSingle()
+        .then(function (res) {
+          AI_ISKORISTENO = (res && res.data && res.data.broj) || 0;
+          if (aiKljuc() === k) aiOsvjezi();
+        }, function () {});
+    }
+  }
+  function aiOsvjezi() {
+    var d = $('aiDio'); if (!d) return;
+    var k = aiKljuc();
+    var staro = $('aiPitanje'); if (staro && staro.dataset.k) AI_NACRT[staro.dataset.k] = staro.value;
+    if (!supa || !imaRacun() || !k) { d.style.display = 'none'; d.innerHTML = ''; return; }
+    d.style.display = '';
+    var AI_LIMIT = aiLimit(), pretplata = imaPretplatu();
+    aiUcitaj(k);
+    var por = AI_RAZG[k];
+    var ceka = AI_SALJE === k;
+    var ostalo = AI_ISKORISTENO === null ? null : Math.max(0, AI_LIMIT - AI_ISKORISTENO);
+    var h = '<div class="aiNas"><span>Ask about this page</span>' +
+      ((por && por.length && !ceka) ? '<button type="button" class="aiIspocetka" id="aiIspocetka">Start over</button>' : '') +
+      '</div><div class="aiPoruke">';
+    if (por === undefined) h += '<div class="aiNapomena">Loading…</div>';
+    else if (!por.length && !ceka) h += '<div class="aiNapomena">Stuck, or wondering why? Ask in your own words — the helper can see this page.</div>';
+    else por.forEach(function (p) {
+      h += '<div class="aiPor ' + (p.u === 'ai' ? 'ai' : 'ja') + '">' + (p.u === 'ai' ? aiTekst(p.t) : esc(p.t).replace(/\n/g, '<br>')) + '</div>';
+    });
+    if (ceka) h += '<div class="aiPor ai aiCeka">Thinking…</div>';
+    h += '</div>';
+    if (AI_GRESKA) h += '<div class="aiGreska">' + esc(AI_GRESKA) + '</div>';
+    var limitTxt = '';
+    if (!pretplata) limitTxt = ostalo === 0
+      ? 'Your free question for today is used. Subscribers get 20 a day.'
+      : 'One free question a day. Subscribers get 20.';
+    else if (ostalo === 0) limitTxt = 'No questions left today. You get ' + AI_LIMIT + ' new ones tomorrow.';
+    else if (AI_ISKORISTENO !== null && AI_ISKORISTENO >= AI_PRIKAZI_OD) limitTxt = ostalo + ' of ' + AI_LIMIT + ' questions left today';
+    var zakljucano = ceka || ostalo === 0;
+    h += '<div class="aiUnos"><textarea id="aiPitanje" maxlength="500" rows="2" placeholder="Your question…"' +
+      (ostalo === 0 ? ' disabled' : '') + '></textarea>' +
+      '<div class="aiRed"><span class="aiLimit">' + limitTxt + '</span>' +
+      '<button type="button" class="aiSalji" id="aiSalji"' + (zakljucano ? ' disabled' : '') + '>Ask</button></div></div>';
+    d.innerHTML = h;
+
+    var ta = $('aiPitanje');
+    ta.dataset.k = k;
+    ta.value = AI_NACRT[k] || '';
+    ta.addEventListener('keydown', function (e) {
+      e.stopPropagation();   // Enter u pitanju ne smije "provjeriti" vježbu ispod panela
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); aiPosalji(); }
+    });
+    ta.addEventListener('input', function () { AI_NACRT[k] = ta.value; });
+    $('aiSalji').onclick = aiPosalji;
+    var isp = $('aiIspocetka');
+    if (isp) isp.onclick = function () {
+      potvrdi('Start over?', 'This deletes the conversation about this page. Your points are not affected.', function () {
+        supa.from('ai_razgovori').delete().eq('user_id', SESSION.user.id).eq('kljuc', k).then(function () {
+          AI_RAZG[k] = []; AI_GRESKA = ''; aiOsvjezi();
+        });
+      });
+    };
+    var tijelo = $('infoTijelo');
+    if (tijelo && (ceka || (por && por.length))) tijelo.scrollTop = tijelo.scrollHeight;
+  }
+  function aiPosalji() {
+    var k = aiKljuc(), ta = $('aiPitanje');
+    if (!k || !ta || AI_SALJE) return;
+    var pitanje = ta.value.trim();
+    if (!pitanje) return;
+    var ekran = aiEkran();
+    if (!AI_RAZG[k]) AI_RAZG[k] = [];
+    AI_RAZG[k].push({ u: 'user', t: pitanje });
+    AI_NACRT[k] = ''; AI_GRESKA = ''; AI_SALJE = k;
+    aiOsvjezi();
+    var vrati = function (poruka) {   // pitanje nije prošlo: makni ga iz razgovora i vrati u polje
+      var r = AI_RAZG[k]; if (r && r.length && r[r.length - 1].u === 'user') r.pop();
+      AI_NACRT[k] = pitanje; AI_GRESKA = poruka;
+    };
+    fetch(FUNKCIJE_URL + '/pomoc', {
+      method: 'POST',
+      headers: Object.assign({ 'Content-Type': 'application/json' }, zaglavljaFunkcije()),
+      body: JSON.stringify({ kljuc: k, poruka: pitanje, ekran: ekran })
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (d) { return { status: r.status, d: d }; });
+    }).then(function (o) {
+      if (o.status === 200 && o.d && o.d.odgovor) {
+        AI_RAZG[k].push({ u: 'ai', t: o.d.odgovor });
+        if (typeof o.d.iskoristeno === 'number') AI_ISKORISTENO = o.d.iskoristeno;
+      } else if (o.status === 429) {
+        AI_ISKORISTENO = (o.d && o.d.limit) || aiLimit(); vrati('');
+      } else if (o.status === 503) {
+        vrati('The helper is very busy today. Please try again later.');
+      } else {
+        vrati('The helper did not answer this time. Your question was not counted — try again.');
+      }
+    }, function () {
+      vrati('No connection. Your question was not counted — try again.');
+    }).then(function () {
+      AI_SALJE = null;
+      aiOsvjezi();
+    });
+  }
+
   function otvoriInfo() {
     popuniInfo();
     $('panelInfo').classList.add('otvoren');
@@ -7833,6 +8024,16 @@
         '<span class="imeSk">Show your points in the header</span>' +
         '<span class="opisSk">LP · VP · GP · PP next to the menu. Off by default — ' +
         'Progress shows the same numbers with more of the story.</span>' +
+      '</span><span class="sklopka"></span></button></div>';
+
+    var kratko = kratkeUpute();
+    html += '<div class="velicinaBlok"><div class="nasP">Instructions</div>' +
+      '<button type="button" class="sklopkaRed" role="switch" aria-checked="' +
+        (kratko ? 'true' : 'false') + '" onclick="prebaciKratkeUpute()">' +
+      '<span class="sklopkaTekst">' +
+        '<span class="imeSk">Shorter instructions</span>' +
+        '<span class="opisSk">The hint behind the info icon comes in a shorter version where one exists: ' +
+        'the rule and an example, without the explanation. Rule pages stay as they are.</span>' +
       '</span><span class="sklopka"></span></button></div>';
 
     // Cedulje: prekidac SAMO pokazuje i skriva. Gasenje ne brise nista, pa to

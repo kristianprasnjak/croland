@@ -4,12 +4,14 @@ cjelina: Lesson 8
 ## Summer is coming!
 format: tekst
 info: Your first look at the Croatian future, and it needs no new endings. A short helper word plus the dictionary form of the verb does the whole job: *ću* plus *plivati* gives **Plivat ću** — *I will swim*.
+infokratko: Future = helper + dictionary form: *ću* + *plivati* → **Plivat ću** (*I will swim*).
 - Summer is coming — *ljeto dolazi!* Time to make plans: the sea, ice cream, swimming every day...
 - The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — and you have already met the helper's negative twin, *neću*, back in Grammar 3.
 
 ## Rapid recall
 format: brzina
 info: A timed warm-up on the plurals from Lesson 7, before the future arrives. Most masculine nouns add *-i* (*prozor → prozori*), feminine *-a* swaps to *-e* (*knjiga → knjige*), and oddballs like *čovjek → **ljudi*** simply have to be known.
+infokratko: Lesson 7 against the clock: *prozor → prozori*, *knjiga → knjige*, *čovjek → ljudi*.
 trajanje: 60
 opis: Plural sprint from Lesson 7 — tap the plural before the timer runs out.
 - knjiga | knjige
@@ -31,6 +33,7 @@ opis: Plural sprint from Lesson 7 — tap the plural before the timer runs out.
 ## Travel words
 format: kartice
 info: Holiday vocabulary, with six verbs shown in three shapes. The third shape is the **future stem**: drop the final *-i* of the infinitive (*plivati → **plivat***) and it is ready to stand in front of *ću*.
+infokratko: Holiday words. Future stem: drop the final *-i* (*plivati → plivat*) before *ću*.
 opis: Words for summer plans — plus six new verbs. Every verb card shows the *ja* form and, after the second arrow, the shape it takes in front of **ću**.
 - ljeto | summer
 - more | sea
@@ -61,6 +64,7 @@ opis: Words for summer plans — plus six new verbs. Every verb card shows the *
 ## The future helpers
 format: tekst
 info: The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They echo the rhythm of *sam, si, je, smo, ste, su*, and they take their form from the subject, never from the verb: *Mi **ćemo** putovati*.
+infokratko: *ću, ćeš, će, ćemo, ćete, će*. They follow the subject: *Mi ćemo putovati*.
 - **All six helpers in one place.**
 - tab: Person | Helper | Example
 - tab: ja | ću | Ja ću plivati.
@@ -76,6 +80,7 @@ info: The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They e
 ## Match the helpers
 format: parovi
 info: Pair each pronoun with its helper. The helper always matches the person doing the action — *ja* takes *ću*, *ti* takes *ćeš*, *mi* takes *ćemo* — while the verb itself stays in its unchanged dictionary form.
+infokratko: Pronoun with helper: *ja ću, ti ćeš, mi ćemo*. The verb stays in its dictionary form.
 opis: Match each pronoun with its future helper.
 - ja | ću
 - ti | ćeš
@@ -86,6 +91,7 @@ opis: Match each pronoun with its future helper.
 ## Who will it be?
 format: razvrstavanje
 info: Sorting by subject, exactly as with *biti*. One person or one thing takes **će** (*vlak će*, *sestra će*), and any group that includes *ja* takes **ćemo** (*brat i ja ćemo*), even when *mi* is not written.
+infokratko: One person or thing → **će**. Any group with *ja* → **ćemo** (*brat i ja ćemo*).
 stupci: ĆU | ĆEŠ | ĆE | ĆEMO
 opis: Which helper does each subject take? *Brat i ja* counts as **mi**, and any single person or thing takes **će**.
 - ja | ĆU
@@ -106,6 +112,7 @@ opis: Which helper does each subject take? *Brat i ja* counts as **mi**, and any
 ## Pick the helper
 format: izbor
 info: Choose the helper that matches the subject. Nothing else in the sentence moves: after the helper the verb keeps its full dictionary form, so it is *Ja **ću** plivati*, never *Ja ću plivam*.
+infokratko: Helper from the subject; the verb stays whole: *Ja ću plivati*.
 opis: Choose the correct helper.
 - Ja ___ plivati svaki dan. | ću | ćeš | će
 - Mi ___ putovati u Split. | ćemo | ću | ćete
@@ -121,6 +128,7 @@ opis: Choose the correct helper.
 ## Long or short?
 format: nastavak
 info: One tap decides the verb's shape, and only word order decides it. **Before** the helper the infinitive drops its final *-i*: *Plivat ću*, *Učit ćeš*, *Radit ću*. **After** the helper it stays whole: *Ja ću plivati*.
+infokratko: **Before** the helper drop the *-i* (*Plivat ću*); **after** it keep it (*Ja ću plivati*).
 nastavci: t | ti
 opis: The verb changes shape depending on where it stands. **In front of ću** the infinitive drops its final -i. **After ću** it keeps it. One tap.
 - Pliva___ ću svaki dan. | I will swim every day. | t
@@ -145,6 +153,7 @@ opis: The verb changes shape depending on where it stands. **In front of ću** t
 ## Today → tomorrow
 format: upis
 info: Turn a present-tense sentence into a future one. Take the verb back to its dictionary form and add the helper: *Plivam* becomes *Ja ću plivati*, or, with the verb first, *Plivat ću*. Both are equally correct.
+infokratko: Dictionary form + helper: *Plivam → Ja ću plivati* or *Plivat ću*.
 opis: Make it future! Both word orders are accepted.
 - Plivam. → | Plivat ću / Ja ću plivati
 - Učim. → | Učit ću / Ja ću učiti
@@ -160,6 +169,7 @@ opis: Make it future! Both word orders are accepted.
 ## Saying which day
 format: tekst
 info: How a plan gets a day. **u** plus the accusative means *on* that day, so feminine days take *-u* (*u subotu*, *u nedjelju*) while masculine ones do not change (*u ponedjeljak*). Words like *sutra* and *navečer* take no preposition at all.
+infokratko: **u** + accusative for days: *u subotu, u nedjelju, u ponedjeljak*. *sutra*, *navečer* need nothing.
 - A plan needs a day, and Croatian puts the day in a shape you already own. To say *on Saturday*, take **u** plus the accusative from Lesson 5 — the same two pieces you used for *Idem u školu*.
 - tab: The day | On that day
 - tab: subota | **u subotu** — on Saturday
@@ -174,6 +184,7 @@ info: How a plan gets a day. **u** plus the accusative means *on* that day, so f
 ## Build the plan
 format: slaganje
 info: Assemble whole sentences from tiles, watching where the helper lands. It can never be the first tile: something must come before it, whether a pronoun, a time word, or the trimmed verb — *Sutra ću ustati*, *Plivat ću*.
+infokratko: The helper never comes first: *Sutra ću ustati. Plivat ću.*
 opis: Arrange the tiles to build the plan.
 - Mi ćemo putovati na more.
 - Plivat ću svaki dan.
@@ -189,6 +200,7 @@ opis: Arrange the tiles to build the plan.
 ## Now or later?
 format: razvrstavanje
 info: Present or future? The giveaway is the helper. A verb alone with a personal ending is now (*Plivam*), while a dictionary form plus *ću, ćeš, će* is later (*Plivat ću*, *Ona će učiti*).
+infokratko: Verb with personal ending = now (*Plivam*); dictionary form + *ću/ćeš/će* = later (*Plivat ću*).
 stupci: SADA | POSLIJE
 opis: Is it happening now or in the future? Sort the sentences.
 - Plivam. | SADA
@@ -209,6 +221,7 @@ opis: Is it happening now or in the future? Sort the sentences.
 ## Helper sprint
 format: brzina
 info: A timed run through the six helpers. Answer from the subject alone: single people and things take *će*, *ti* takes *ćeš*, and anything paired with *ja* — *brat i ja* — takes *ćemo*.
+infokratko: From the subject alone: one person *će*, *ti ćeš*, anything with *ja* *ćemo*.
 trajanje: 45
 opis: A subject flashes — tap the helper that goes with it.
 - ja | ću
@@ -225,6 +238,7 @@ opis: A subject flashes — tap the helper that goes with it.
 ## Weekend plans
 format: dijalog
 info: A conversation about the weekend, so every reply is a plan. *Hoćeš li…?* simply means *Will you…?* — take it whole for now and answer with a future sentence: *Gledat ću je*, *Ujutro ću trenirati*.
+infokratko: *Hoćeš li...?* = *Will you...?* Answer with a plan: *Gledat ću je.*
 opis: Your friend asks about your weekend. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *poslije* (after).
 - npc | Bok! Što ćeš raditi u subotu?
 - ti | Ujutro ću trenirati, a poslije ću učiti. | Spavat ću cijeli dan!
@@ -242,6 +256,7 @@ opis: Your friend asks about your weekend. Choose your replies. Passive words: *
 ## A summer plan
 format: izbor
 info: Read the plan first, then answer. The helper tells you who does what before you translate anything — *Ana će ustati*, *Marko će nositi* — and *u subotu* is **u** plus the accusative, meaning *on Saturday*.
+infokratko: Read, then answer. The helper shows who: *Ana će ustati*. *u subotu* = on Saturday.
 tekst: Ljeto dolazi. Ana i Marko planiraju odmor. Putovat će na more u subotu. Vlak kreće rano, pa će Ana ustati prije sunca. Marko će nositi kofer jer je težak. Plivat će svaki dan, a navečer će šetati. Marko će odmarati jer je odmor. Bit će savršeno!
 opis: Read the plan, then answer the questions. Passive words: *planiraju* (they are planning), *pa* (so), *težak* (heavy), *prije sunca* (before sunrise).
 - Kada će putovati? | u subotu | u nedjelju | u ponedjeljak
@@ -253,6 +268,7 @@ opis: Read the plan, then answer the questions. Passive words: *planiraju* (they
 ## Lesson checkpoint
 format: provjera
 info: A mixed check on everything in the lesson. Two things decide most answers: the helper can never open a sentence, and the verb loses its *-i* only when it stands in front of the helper — *Plivat ću*, but *Ja ću plivati*.
+infokratko: The helper never opens a sentence; *-i* drops only before it: *Plivat ću*, *Ja ću plivati*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 8.
 - slaganje | Mi ćemo putovati na more. | en: We will travel to the seaside.
@@ -271,5 +287,6 @@ opis: Final check! Score 80% to be ready for Vocabulary 8.
 ## Reward & preview
 format: tekst
 info: A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the full refusal — *neću, nećeš, neće* — and that is the first thing Grammar 8 hands you.
+infokratko: Future in both word orders, and *u* + accusative for days. Next: *neću, nećeš, neće*.
 - Odlično! Past lessons gave you the present; now the future is yours too. Your summer plans are officially in Croatian.
 - **Next up:** Vocabulary 8 packs the suitcase — travel, clothes and ten new verbs. Then Grammar 8 explains *why* the helper is never allowed to open a sentence — the same rule you already met twice — and gives you the future that refuses: *neću, nećeš, neće*. Then Lesson 9 brings sport, hobbies and the little words that make things *yours*.

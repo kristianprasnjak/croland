@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-26 22:01:55",
+  "generirano": "2026-09-27 15:28:41",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -6619,7 +6619,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Welcome",
       "meta": {
-        "info": "A short read to set up the lesson: Croatian is spelled exactly as it sounds, and it has **no articles** at all, so *kuća* covers house, a house and the house. The one new word today is **je**, meaning *is*, as in *Kava je dobra.*"
+        "info": "A short read to set up the lesson: Croatian is spelled exactly as it sounds, and it has **no articles** at all, so *kuća* covers house, a house and the house. The one new word today is **je**, meaning *is*, as in *Kava je dobra.*",
+        "infokratko": "No articles: *kuća* is house, a house, the house. Today's one new word: **je** (*is*). *Kava je dobra.*"
       },
       "stavke": [
         [
@@ -6653,6 +6654,7 @@ window.PODACI = {
       "naslov": "Words you already recognise",
       "meta": {
         "info": "Timed tapping on borrowed words, so speed matters more than thinking here. Croatian spelling is fully phonetic and every letter is always pronounced, so *restoran* and *taksi* look unusual but sound like the English you already know.",
+        "infokratko": "Borrowed words against the clock. Every letter is pronounced: *restoran*, *taksi*.",
         "trajanje": "60",
         "opis": "Quick warm-up — and an easy one. Croatian borrowed these words too, so you can guess every single one. Tap the English meaning before the timer runs out."
       },
@@ -6710,6 +6712,7 @@ window.PODACI = {
       "naslov": "New words: things around you",
       "meta": {
         "info": "Flashcards for the everyday nouns of this level. Notice the last letter of each word as you learn it, because *grad* ends in a consonant, *kuća* in **-a** and *more* in **-e**, and that ending is what a describing word later has to copy.",
+        "infokratko": "Everyday nouns. Watch the last letter: *grad* (consonant), *kuća* (**-a**), *more* (**-e**).",
         "opis": "Croatian is 100% phonetic — every word sounds exactly as it's written. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -6786,6 +6789,7 @@ window.PODACI = {
       "naslov": "Word match",
       "meta": {
         "info": "Pairing Croatian nouns with their English meanings, which is pure recognition. Say each word aloud as you match: Croatian letters never change their sound, so *knjiga* and *krevet* are read exactly as written and the *c* of *sunce* is always *ts*.",
+        "infokratko": "Match Croatian and English, and say each word aloud. Letters never change their sound: *sunce* = *sun-tse*.",
         "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
@@ -6833,7 +6837,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The magic word: je",
       "meta": {
-        "info": "The rule page for today's single verb form: **je** means *is* and sits between the thing and its description, as in *Automobil je brz.* There is no word for *a* or *the*, so nothing else belongs in the sentence."
+        "info": "The rule page for today's single verb form: **je** means *is* and sits between the thing and its description, as in *Automobil je brz.* There is no word for *a* or *the*, so nothing else belongs in the sentence.",
+        "infokratko": "**je** = *is*. Thing + **je** + description: *Automobil je brz.* No *a*, no *the*."
       },
       "stavke": [
         [
@@ -6877,6 +6882,7 @@ window.PODACI = {
       "naslov": "Adjectives: making it interesting",
       "meta": {
         "info": "Each card shows one describing word in three coats: *velik grad*, *velika kuća*, *veliko more*. The ending is not free choice, it echoes the last letter of the noun, so learn all three forms together as one item.",
+        "infokratko": "One adjective, three endings: *velik grad*, *velika kuća*, *veliko more*. Learn all three together.",
         "opis": "Watch the adjective's ending — it changes to match the noun. velik grad, velika kuća, veliko more — same word, three outfits. Just absorb the pattern for now."
       },
       "stavke": [
@@ -6953,6 +6959,7 @@ window.PODACI = {
       "naslov": "Which ending fits?",
       "meta": {
         "info": "You pick the description whose ending echoes the noun. A noun ending in a consonant takes the bare form (*Automobil je velik*), a noun in **-a** takes **-a** (*Kuća je velika*), and a noun in **-o** or **-e** takes **-o** (*More je plavo*).",
+        "infokratko": "Consonant → bare form (*Automobil je velik*), **-a** → **-a** (*Kuća je velika*), **-o/-e** → **-o** (*More je plavo*).",
         "opis": "Same meaning, three endings. Look at the last letter of the noun: a consonant takes the short form (velik grad), -a takes -a (velika kuća), -o or -e takes -o (veliko more)."
       },
       "stavke": [
@@ -7005,6 +7012,7 @@ window.PODACI = {
       "naslov": "Find the right outfit",
       "meta": {
         "info": "Sorting the three forms under the noun each one fits, so go by the ending, not the meaning. The bare form goes with *grad*, the **-a** form with *kuća*, the **-o** form with *more*, even though *more* itself ends in **-e**.",
+        "infokratko": "Sort by the noun's ending, not the meaning: *grad* bare, *kuća* **-a**, *more* **-o**.",
         "stupci": "GRAD | KUĆA | MORE",
         "opis": "Each adjective ending belongs to one kind of noun. Tap an adjective, then the noun it fits. Say the pairs out loud!"
       },
@@ -7070,6 +7078,7 @@ window.PODACI = {
       "naslov": "Finish the word",
       "meta": {
         "info": "You type the whole describing word, so the ending has to be chosen rather than tapped. Match it to the noun's last letter: *Kava je dobra*, *Nebo je plavo*, *Grad je star*. Careful with *sunce*, a noun in **-e** still takes **-o**.",
+        "infokratko": "Type the adjective with the right ending: *Kava je dobra, Nebo je plavo, Grad je star.* *Sunce* takes **-o**.",
         "opis": "Type the full adjective — choose the form that matches the noun."
       },
       "stavke": [
@@ -7110,6 +7119,7 @@ window.PODACI = {
       "naslov": "Build your first sentences",
       "meta": {
         "info": "Tile-building complete sentences from an English prompt. The frame is fixed: the thing, then **je**, then the description, with *i* for *and*, as in *More je plavo i toplo.* There is no article tile, because Croatian has none.",
+        "infokratko": "Thing + **je** + description, *i* for *and*: *More je plavo i toplo.*",
         "opis": "The English is above — tap the tiles to say the same thing in Croatian."
       },
       "stavke": [
@@ -7186,6 +7196,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A memory grid over the nouns you met today, so this is recall rather than new material. While flipping, keep noticing endings: *kava* and *knjiga* end in **-a**, *more* and *sunce* in **-o** or **-e**, *grad* and *prozor* in a consonant.",
+        "infokratko": "Recall today's nouns. Keep watching the endings: *kava* **-a**, *more* **-e**, *grad* consonant.",
         "opis": "Flip the cards and find each Croatian word's English partner."
       },
       "stavke": [
@@ -7234,6 +7245,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The scored mix of everything above, and 80% opens Vocabulary 1. Two things carry most of the points: **je** for *is*, and a description whose ending matches its noun, as in *Kava je dobra* and *More je plavo*.",
+        "infokratko": "Everything above, mixed; 80% opens Vocabulary 1. Key points: **je**, and the ending follows the noun.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 1."
       },
@@ -7298,7 +7310,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing recap: you can now name a thing and describe it using **je**, and you have seen that the description's ending follows the noun's last letter. The full rules come in Grammar 1, so for now the pattern is enough."
+        "info": "A closing recap: you can now name a thing and describe it using **je**, and you have seen that the description's ending follows the noun's last letter. The full rules come in Grammar 1, so for now the pattern is enough.",
+        "infokratko": "You can now describe things with **je**, and the ending follows the noun. Full rules in Grammar 1."
       },
       "stavke": [
         [
@@ -7320,6 +7333,7 @@ window.PODACI = {
       "naslov": "Words you already know (cognates)",
       "meta": {
         "info": "Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *taksi* writes the English x as *ks*. Read every card aloud once.",
+        "infokratko": "Words you already know. Written as said: *čokolada* (*ch*), *taksi* (*ks*). Read them aloud.",
         "opis": "Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap a card to reveal its meaning."
       },
       "stavke": [
@@ -7376,6 +7390,7 @@ window.PODACI = {
       "naslov": "Speed challenge: easy words",
       "meta": {
         "info": "The same borrowed words against a timer, so recognition has to become instant. If a word looks familiar, trust it: *problem*, *sport* and *taksi* mean exactly what you expect, and none of them changes shape anywhere in this deck.",
+        "infokratko": "The same words against the clock. They mean what you expect: *problem, sport, taksi*.",
         "trajanje": "60",
         "opis": "You just met them — now catch them! Tap the English meaning before the timer runs out."
       },
@@ -7433,6 +7448,7 @@ window.PODACI = {
       "naslov": "Things around you",
       "meta": {
         "info": "The core noun deck for level 1. Store each word together with its final letter, because that letter is what a describing word must copy later: *stol* ends in a consonant, *soba* in **-a**, *nebo* in **-o**, *sunce* in **-e**.",
+        "infokratko": "Core nouns. Remember the last letter: *stol*, *soba* **-a**, *nebo* **-o**, *sunce* **-e**.",
         "opis": "Things around you. Tap to reveal."
       },
       "stavke": [
@@ -7505,6 +7521,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, with no English on the page. You have met every one of these words on the cards above, so this is recognition only. Keep an eye on the last letter while you tap, because that letter is what a describing word has to copy.",
+        "infokratko": "Picture and word, recognition only. Watch the last letter.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -7569,6 +7586,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Pairing nouns with meanings, which is straight recall of the deck above. A useful check while you match: *kuća*, *knjiga* and *soba* all end in **-a**, while *stol*, *prozor*, *krevet* and *grad* end in a consonant.",
+        "infokratko": "Nouns with meanings. *kuća, knjiga, soba* **-a**; *stol, prozor, grad* consonant.",
         "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
@@ -7617,6 +7635,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A flip-and-find grid over words you have already met, so treat it as spaced repetition rather than new input. Say each Croatian word aloud when you turn it over, for example *kava*, *more*, *sunce*, since hearing the ending is what makes it stick.",
+        "infokratko": "Words you've met. Say each aloud: *kava, more, sunce*.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -7665,6 +7684,7 @@ window.PODACI = {
       "naslov": "Adjectives & colors",
       "meta": {
         "info": "Describing words, plus the three tiny words *je* (is), *ovo* (this) and *i* (and). The cards show only the plain dictionary form; the **-a** and **-o** versions you already saw in Lesson 1 get drilled properly in Grammar 1.",
+        "infokratko": "Adjectives in plain form, plus *je* (is), *ovo* (this), *i* (and).",
         "opis": "One word, one card. How the endings change is Grammar's job — here just learn the words."
       },
       "stavke": [
@@ -7765,6 +7785,7 @@ window.PODACI = {
       "naslov": "Speed challenge: adjectives & colors",
       "meta": {
         "info": "Timed recall of the describing words in their plain form, so it is meaning only and no endings to choose. Watch the near-twins *crven* (red) and *crn* (black), and keep *zelen* (green) apart from *žut* (yellow).",
+        "infokratko": "Meaning only. Keep apart *crven / crn* and *zelen / žut*.",
         "trajanje": "60",
         "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
       },
@@ -7854,6 +7875,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Croatian writes one letter per sound, so a word you can say is a word you can spell — but **č**, **ć**, **š**, **ž** are letters of their own, and **nj** is a single letter, not an n followed by a j.",
+        "infokratko": "One letter per sound. **č, ć, š, ž** are letters; **nj** is one letter.",
         "opis": "Careful — **nj** is one letter in Croatian, and the letters with diacritics (*č, ć, š, ž, đ*) are separate letters too."
       },
       "stavke": [
@@ -7910,6 +7932,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "Here you produce the spelling yourself, which is where the diacritics matter: *kuća* needs **ć** and *čokolada* needs **č**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear, one letter each.",
+        "infokratko": "Type the sounds, with diacritics: *kuća*, *čokolada*.",
         "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
       },
       "stavke": [
@@ -7965,7 +7988,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: every noun has a gender",
       "meta": {
-        "info": "The page that names what you have been doing by ear: every noun is **masculine**, **feminine** or **neuter**, and its last letter tells you which, as in consonant *grad*, **-a** *kuća*, and **-o** or **-e** *nebo* and *more*. Croatian has no articles at all."
+        "info": "The page that names what you have been doing by ear: every noun is **masculine**, **feminine** or **neuter**, and its last letter tells you which, as in consonant *grad*, **-a** *kuća*, and **-o** or **-e** *nebo* and *more*. Croatian has no articles at all.",
+        "infokratko": "Every noun is masculine, feminine or neuter. The last letter tells you: *grad*, *kuća*, *nebo / more*."
       },
       "stavke": [
         [
@@ -8016,6 +8040,7 @@ window.PODACI = {
       "naslov": "Sort by gender",
       "meta": {
         "info": "You drop each noun into M, F or N by its final letter alone. A consonant means masculine (*stol*, *krevet*), **-a** means feminine (*kava*, *knjiga*), and **-o** or **-e** means neuter (*nebo*, *sunce*). For every noun on this page the ending is all you need.",
+        "infokratko": "By the last letter: consonant M (*stol*), **-a** F (*kava*), **-o/-e** N (*nebo, sunce*).",
         "stupci": "M | F | N",
         "opis": "Sort each noun into its gender column. Let the last letter guide you."
       },
@@ -8080,7 +8105,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: adjectives copy the noun",
       "meta": {
-        "info": "The core agreement rule plus two extras: an adjective takes **consonant, -a, -o** to match its noun, the masculine also has a longer **-i** form used in front of a noun (*veliki grad*), and *mali* only ever appears in that **-i** form."
+        "info": "The core agreement rule plus two extras: an adjective takes **consonant, -a, -o** to match its noun, the masculine also has a longer **-i** form used in front of a noun (*veliki grad*), and *mali* only ever appears in that **-i** form.",
+        "infokratko": "Adjectives copy the noun: consonant, **-a**, **-o**. Before a noun, masculine can take **-i**: *veliki grad*."
       },
       "stavke": [
         [
@@ -8149,6 +8175,7 @@ window.PODACI = {
       "naslov": "Pick the adjective",
       "meta": {
         "info": "Choose the adjective form that agrees with the noun given. Read the noun's last letter first, then pick the matching ending: *velika kuća*, *dobar dan*, *plavo more*. Note that *sladak* reshapes slightly to *slatka* before the **-a** ending.",
+        "infokratko": "Read the noun's last letter, then pick: *velika kuća, dobar dan, plavo more*. *sladak → slatka*.",
         "opis": "Choose the adjective that agrees with the noun."
       },
       "stavke": [
@@ -8212,7 +8239,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the disappearing a",
       "meta": {
-        "info": "The page that explains the extra vowel in *dobar*, *hladan* and *topao*: it belongs to the masculine form only and falls out the moment an ending is added, giving *dobra*, *hladna*, *topla*. *sladak* goes one step further and becomes *slatka*, while *mekan* keeps its vowel all the way through."
+        "info": "The page that explains the extra vowel in *dobar*, *hladan* and *topao*: it belongs to the masculine form only and falls out the moment an ending is added, giving *dobra*, *hladna*, *topla*. *sladak* goes one step further and becomes *slatka*, while *mekan* keeps its vowel all the way through.",
+        "infokratko": "*dobar, hladan, topao* lose the vowel with an ending: *dobra, hladna, topla*. *mekan* keeps it."
       },
       "stavke": [
         [
@@ -8282,6 +8310,7 @@ window.PODACI = {
       "naslov": "Type the adjective",
       "meta": {
         "info": "Typing the agreeing form, so you have to commit to an ending. Watch the vanishing vowel from the page before — it is *Kava je topla*, never *topaa*. Feminine takes **-a** (*Soba je mala*), neuter takes **-o** even when the noun ends in **-e** (*Sunce je žuto*), and masculine takes the bare form (*Restoran je nov*).",
+        "infokratko": "Type the agreeing form: *Kava je topla, Soba je mala, Sunce je žuto, Restoran je nov*.",
         "opis": "Type the full adjective — choose the form that matches the noun."
       },
       "stavke": [
@@ -8326,6 +8355,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap supplies the missing ending, and the dash means *no ending at all*. Masculine nouns take the dash (*Automobil je brz*), feminine ones take **-a** (*Kuća je velika*), neuter ones take **-o** (*More je plavo*, *Nebo je plavo*).",
+        "infokratko": "Dash = no ending (*Automobil je brz*); **-a** (*Kuća je velika*); **-o** (*More je plavo*).",
         "nastavci": "- | a | o",
         "opis": "English above, Croatian below. The adjective is waiting for its ending — one tap. Get it right and you'll hear the sentence."
       },
@@ -8403,6 +8433,7 @@ window.PODACI = {
       "naslov": "Say the missing word",
       "meta": {
         "info": "Nothing is offered now, so you retrieve both the adjective and its ending from the English hint. The noun still decides: *Kuća je velika*, *More je plavo*, *Grad je lijep*. Remember *hladan* keeps its **a** inside the masculine form.",
+        "infokratko": "From the English, adjective and ending: *Kuća je velika, More je plavo, Grad je lijep*.",
         "opis": "This time nothing is offered. Read the English, type the Croatian adjective in the right form. Stuck on a word? The dictionary is one tap away."
       },
       "stavke": [
@@ -8458,7 +8489,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: nije — the other half of je",
       "meta": {
-        "info": "The negative counterpart: **nije** means *isn't* and is written as one word, never *ne je*. Only the verb changes, and the adjective goes on agreeing exactly as before, as in *Kuća nije velika* and *More nije plavo*."
+        "info": "The negative counterpart: **nije** means *isn't* and is written as one word, never *ne je*. Only the verb changes, and the adjective goes on agreeing exactly as before, as in *Kuća nije velika* and *More nije plavo*.",
+        "infokratko": "**nije** = isn't, one word. The adjective still agrees: *Kuća nije velika.*"
       },
       "stavke": [
         [
@@ -8509,6 +8541,7 @@ window.PODACI = {
       "naslov": "Yes or no?",
       "meta": {
         "info": "Pick the positive or the negative version, watching two traps at once: *ne je* is never correct Croatian, and the adjective must still agree with its noun, so the sea is *More nije toplo*, never *topao*.",
+        "infokratko": "Never *ne je*; the adjective still agrees: *More nije toplo*.",
         "opis": "Positive or negative — pick the sentence that matches the English."
       },
       "stavke": [
@@ -8561,6 +8594,7 @@ window.PODACI = {
       "naslov": "Say it isn't so",
       "meta": {
         "info": "You turn each statement into a denial by swapping **je** for **nije** and touching nothing else. The ending stays exactly as it was: *Soba je mala* becomes *Soba nije mala*, and *Sunce je toplo* becomes *Sunce nije toplo*.",
+        "infokratko": "Swap **je** for **nije**, nothing else: *Soba nije mala*.",
         "opis": "Make each sentence negative. Only one word changes — the adjective stays exactly as it is."
       },
       "stavke": [
@@ -8609,6 +8643,7 @@ window.PODACI = {
       "naslov": "Write the whole sentence",
       "meta": {
         "info": "Free production from an English prompt. Two frames cover all of it: noun plus **je** or **nije** plus adjective, and *Ovo je* plus a noun. Word order is flexible, so *Kuća je velika* and *Velika je kuća* are both fine — just never let *je* open the sentence.",
+        "infokratko": "Noun + **je/nije** + adjective, or *Ovo je* + noun. *je* never first.",
         "opis": "The last step — the English sentence, and you write the Croatian. Word order is free in Croatian, so more than one answer is accepted — as long as *je* is not the first word."
       },
       "stavke": [
@@ -8676,7 +8711,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary of the one rule behind this unit: read the noun's last letter, give the adjective the matching ending (consonant · -a · -o), then use **je** or **nije** to state or deny it. That is already enough for any simple description."
+        "info": "A closing summary of the one rule behind this unit: read the noun's last letter, give the adjective the matching ending (consonant · -a · -o), then use **je** or **nije** to state or deny it. That is already enough for any simple description.",
+        "infokratko": "Read the noun's last letter, match the ending, use **je** or **nije**."
       },
       "stavke": [
         [
@@ -8700,7 +8736,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: Dubrovnik",
       "meta": {
-        "info": "A short reading built only from **je** sentences, with a few extra words given just for recognition, such as *ali* (but). As you read, check every adjective against its noun: *grad* is *star*, *more* is *plavo*, *kava* is *dobra*."
+        "info": "A short reading built only from **je** sentences, with a few extra words given just for recognition, such as *ali* (but). As you read, check every adjective against its noun: *grad* is *star*, *more* is *plavo*, *kava* is *dobra*.",
+        "infokratko": "Only **je** sentences. Check each adjective against its noun: *grad je star, more je plavo, kava je dobra*."
       },
       "stavke": [
         [
@@ -8755,6 +8792,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions with the text still above you, so each answer is stated outright rather than implied. The correct option also has to agree with its noun: *plavo i toplo* belongs to *more*, and *dobra* to *kava*.",
+        "infokratko": "The answer is in the text, and it agrees with its noun: *more je plavo i toplo*.",
         "tekst": "Dubrovnik je grad. Grad je star, ali je lijep. More je plavo i toplo. Nebo je plavo. Hotel je velik i moderan. Restoran je mali. Kava je dobra. Sladoled je hladan i sladak. Dubrovnik je popularan.",
         "opis": "Answer from the text."
       },
@@ -8792,6 +8830,7 @@ window.PODACI = {
       "naslov": "Fill in from the text",
       "meta": {
         "info": "You copy the missing word straight out of the text, so spelling and ending both count. These nouns are masculine, which is why the adjectives stay bare: *hladan* and *popularan*, with no **-a** or **-o** added.",
+        "infokratko": "Copy the word from the text. Masculine nouns, so bare adjectives: *hladan, popularan*.",
         "tekst": "Dubrovnik je grad. Grad je star, ali je lijep. More je plavo i toplo. Nebo je plavo. Hotel je velik i moderan. Restoran je mali. Kava je dobra. Sladoled je hladan i sladak. Dubrovnik je popularan.",
         "opis": "The text is right above you — read it again and fill each gap."
       },
@@ -8820,7 +8859,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: The room",
       "meta": {
-        "info": "A second reading, this time one room described object by object. Look for the pairing in every line: *soba* takes *mala* and *lijepa*, *stol* and *prozor* take *velik*, *lampa* takes *žuta*, and *zid* takes *bijel*."
+        "info": "A second reading, this time one room described object by object. Look for the pairing in every line: *soba* takes *mala* and *lijepa*, *stol* and *prozor* take *velik*, *lampa* takes *žuta*, and *zid* takes *bijel*.",
+        "infokratko": "One room, object by object: *soba je mala, stol je velik, lampa je žuta*."
       },
       "stavke": [
         [
@@ -8876,6 +8916,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Judge each statement against the text, where one word can flip the truth: the text says *stol je star*, not *nov*, and *automobil je crven*, not *plav*. The adjective agrees with its noun in the false versions too.",
+        "infokratko": "One word flips the truth: *stol je star*, not *nov*.",
         "tekst": "Ovo je soba. Soba je mala, ali je lijepa. Stol je velik i star. Knjiga je nova. Lampa je žuta. Prozor je velik. Zid je bijel. Krevet je mekan. Automobil je vani. Automobil je crven i brz.",
         "opis": "Tap true or false."
       },
@@ -8917,7 +8958,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: At the café",
       "meta": {
-        "info": "A short dialogue, so the new material is set phrases: *molim* (please), *hvala* (thanks), *izvolite* (here you are). The grammar is unchanged, since *Kava je topla* agrees and *Velika ili mala?* still copies *kava*."
+        "info": "A short dialogue, so the new material is set phrases: *molim* (please), *hvala* (thanks), *izvolite* (here you are). The grammar is unchanged, since *Kava je topla* agrees and *Velika ili mala?* still copies *kava*.",
+        "infokratko": "Set phrases: *molim, hvala, izvolite*. *Kava je topla.*"
       },
       "stavke": [
         [
@@ -8965,6 +9007,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Reordering the café lines, which tests conversational logic rather than endings. Expect the greeting first, then the order, then the question *Velika ili mala?*, the answer, *Izvolite*, and *Hvala* in reply at the end.",
+        "infokratko": "Greeting, order, *Velika ili mala?*, answer, *Izvolite*, *Hvala*.",
         "opis": "The café conversation got shuffled! Put the lines back into the right order."
       },
       "stavke": [
@@ -9005,6 +9048,7 @@ window.PODACI = {
       "naslov": "At the café",
       "meta": {
         "info": "Your first conversation, built from the one pattern you have: a thing, then **je**, then a description — *Kava je dobra*, *Nebo je plavo*. Both replies on offer are correct Croatian, so there is no wrong turn: choose the one you would say, and say it out loud.",
+        "infokratko": "Thing + **je** + description. Both replies are correct; pick one and say it aloud.",
         "opis": "You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (here you are — with a question mark: what would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect)."
       },
       "stavke": [
@@ -9070,6 +9114,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "Tile translation of sentences taken from the three texts you just read. Keep the frame of noun plus **je** plus adjective, use *i* for *and*, and give the adjective the ending that matches its noun: *More je plavo i toplo.*",
+        "infokratko": "Noun + **je** + adjective, *i* for *and*: *More je plavo i toplo.*",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the three texts you just read — and you'll hear it once it's right."
       },
       "stavke": [
@@ -10800,7 +10845,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Welcome back",
       "meta": {
-        "info": "A short orientation page: it tells you that Lesson 1's *je* is really one form of the verb **biti** (*to be*), and that this lesson gives you all six forms. Read it once so *Ona **je** doktorica* and *Ja **sam** studentica* feel like the same pattern."
+        "info": "A short orientation page: it tells you that Lesson 1's *je* is really one form of the verb **biti** (*to be*), and that this lesson gives you all six forms. Read it once so *Ona **je** doktorica* and *Ja **sam** studentica* feel like the same pattern.",
+        "infokratko": "*je* is one form of **biti** (*to be*). This lesson gives all six: *Ona je doktorica. Ja sam studentica.*"
       },
       "stavke": [
         [
@@ -10828,6 +10874,7 @@ window.PODACI = {
       "naslov": "Warm-up from Lesson 1",
       "meta": {
         "info": "Timed recall of Lesson 1, not new material. Every sentence is noun plus *je* plus adjective, and the adjective already copies the noun's gender: *Kuća je velik**a***, *More je plav**o***. Let the last letter of the noun predict the ending on the adjective.",
+        "infokratko": "Lesson 1 against the clock: the adjective copies the noun. *Kuća je velika, More je plavo.*",
         "trajanje": "60",
         "opis": "Quick warm-up! A Croatian sentence appears — tap its English meaning before the timer runs out."
       },
@@ -10877,6 +10924,7 @@ window.PODACI = {
       "naslov": "New words: the people words",
       "meta": {
         "info": "Flashcards for the seven pronouns. The one to think about is *vi*: it covers a group **and** a single person you are being polite to, while *ti* is for one friend, child or close relative. *Tko* means *who*, and *ovo* means *this*.",
+        "infokratko": "The pronouns. *ti* = one friend; *vi* = a group, or one person you address politely. *tko* = who, *ovo* = this.",
         "opis": "Meet the Croatian pronouns. Small but mighty — *ti* is for one friend, *vi* is for a group, or for one person you want to be polite to."
       },
       "stavke": [
@@ -10944,7 +10992,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The magic verb: biti",
       "meta": {
-        "info": "This is the core rule page of the lesson: *sam, si, je, smo, ste, su*, one form per person. Two things to hold on to. The pronoun is optional because the verb already names the person (*Studentica sam*), but the verb itself can never open a sentence."
+        "info": "This is the core rule page of the lesson: *sam, si, je, smo, ste, su*, one form per person. Two things to hold on to. The pronoun is optional because the verb already names the person (*Studentica sam*), but the verb itself can never open a sentence.",
+        "infokratko": "*sam, si, je, smo, ste, su*. The pronoun is optional (*Studentica sam*), but the verb never opens a sentence."
       },
       "stavke": [
         [
@@ -11010,6 +11059,7 @@ window.PODACI = {
       "naslov": "Describing people",
       "meta": {
         "info": "Adjective cards shown in the **on** form. Add **-a** for *ona* and **-i** for *oni*: *visok, visoka, visoki*. Watch *pametan*, *sretan* and *umoran* — the second vowel falls out as soon as an ending arrives (*pametna*), and *veseo* becomes *vesela*.",
+        "infokratko": "*on* bare, *ona* **-a**, *oni* **-i**: *visok, visoka, visoki*. *pametan → pametna*, *veseo → vesela*.",
         "opis": "New adjectives — this time for people. Each card shows the form for **on** (he). For **ona** add **-a** — the ending you already know from Lesson 1 — and for **oni** add **-i**."
       },
       "stavke": [
@@ -11070,6 +11120,7 @@ window.PODACI = {
       "naslov": "His job and hers",
       "meta": {
         "info": "Job words, his form first and hers second. Unlike an adjective, which just swaps a letter, a job word grows a whole syllable: **-ica**. *Student → studentica*, *konobar → konobarica*. Learn the pair together and you can build most female job words yourself.",
+        "infokratko": "Female job words add **-ica**: *student → studentica, konobar → konobarica*.",
         "opis": "One difference before you start choosing. Adjectives just swap an ending — *visok → visoka*. **Job words don't: they grow a whole syllable, -ica.** *On je student* → *Ona je student**ica***. Card shows his form first, hers second. Nearly every job in Croatian works this way, so you can build the female form yourself."
       },
       "stavke": [
@@ -11106,6 +11157,7 @@ window.PODACI = {
       "naslov": "Which ending fits?",
       "meta": {
         "info": "Pick the form that agrees with the person named. A bare consonant belongs to *on*, **-a** to *ona* — and a job needs the full **-ica**, so it is *Ona je doktoric**a***, never *Ona je doktor*. *Veseo* is the trap: for her it turns into *vesela*.",
+        "infokratko": "Agree with the person: *on* bare, *ona* **-a**, jobs **-ica**. *Ona je doktorica.* Trap: *veseo → vesela*.",
         "opis": "The person decides the ending. Pick the sentence that fits."
       },
       "stavke": [
@@ -11174,6 +11226,7 @@ window.PODACI = {
       "naslov": "Type the verb",
       "meta": {
         "info": "You type the form of **biti** that the subject asks for: *ja sam, ti si, on and ona je, mi smo, vi ste, oni su*. A name or *ovo* behaves like *on* or *ona*, so it takes *je*, and *Tko **si** ti?* uses the *ti* form because you are asking one person.",
+        "infokratko": "*ja sam, ti si, on/ona je, mi smo, vi ste, oni su*. A name or *ovo* takes *je*.",
         "opis": "Type the correct form of \"biti\"."
       },
       "stavke": [
@@ -11230,6 +11283,7 @@ window.PODACI = {
       "naslov": "Build your first sentences",
       "meta": {
         "info": "Tap the tiles to assemble the sentence. The order is pronoun, then **biti**, then the noun or adjective: *Ona je doktorica*. Keep the pronoun in front here — the little verb *sam, si, je* is never allowed to stand first in a Croatian sentence.",
+        "infokratko": "Pronoun + **biti** + word: *Ona je doktorica*. *sam, si, je* never stand first.",
         "opis": "The English is above — tap the tiles to say the same thing in Croatian."
       },
       "stavke": [
@@ -11294,6 +11348,7 @@ window.PODACI = {
       "naslov": "Your first conversation",
       "meta": {
         "info": "A guided dialogue where you choose a reply each turn. Petra speaks to you as *ti*, so answer with *ti* and *ja sam* forms. Agreement applies to you as well: a woman says *pametn**a*** and *vesel**a***, a man *pametan* and *veseo*.",
+        "infokratko": "Petra says *ti*, so answer with *ti* and *ja sam*. Your own adjectives agree too: *pametna* / *pametan*.",
         "opis": "You meet Petra at a café in Zagreb. You are Tom today, so your own replies take the male endings. Choose your replies and keep the conversation going!"
       },
       "stavke": [
@@ -11350,6 +11405,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "A mixed check on the whole lesson: the six forms of **biti**, the adjective endings (bare, **-a**, **-i**) and the **-ica** job words. Whenever *mi*, *vi* or *oni* appears, the word after the verb goes plural too: *Mi smo studenti*.",
+        "infokratko": "The whole lesson, mixed. After *mi, vi, oni* the word goes plural: *Mi smo studenti*.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 2."
       },
@@ -11436,7 +11492,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing page with no new grammar. It confirms what you can now do — introduce yourself with *Ja sam...* and describe someone with an agreeing adjective — and points to Vocabulary 2, which adds jobs, nationalities and more character words."
+        "info": "A closing page with no new grammar. It confirms what you can now do — introduce yourself with *Ja sam...* and describe someone with an agreeing adjective — and points to Vocabulary 2, which adds jobs, nationalities and more character words.",
+        "infokratko": "You can introduce yourself (*Ja sam...*) and describe people. Next: Vocabulary 2."
       },
       "stavke": [
         [
@@ -11458,6 +11515,7 @@ window.PODACI = {
       "naslov": "Jobs",
       "meta": {
         "info": "Ten new job words, all in the male form. They end in a consonant, so they are masculine and an adjective about them stays bare: *Kuhar je vrijedan*. The female versions come later on this page, so fix the male word in your memory first.",
+        "infokratko": "Job words, male form: masculine, so the adjective stays bare. *Kuhar je vrijedan.*",
         "opis": "Lesson 2 gave you four jobs. Here are ten more. Every card shows the male form — the female one is coming right up, and it follows one simple trick. Tap a card to reveal its meaning."
       },
       "stavke": [
@@ -11514,6 +11572,7 @@ window.PODACI = {
       "naslov": "People around you",
       "meta": {
         "info": "More people you will meet, again consonant-final and masculine, so the adjective stays bare: *Šef je ozbiljan*. Note that *čovjek* covers both *person* and *man*, and that three cards are not people at all — *posao*, *ime* and *tim*.",
+        "infokratko": "More people, masculine: *Šef je ozbiljan*. *čovjek* = person or man.",
         "opis": "Not everyone has a job title — some people are just *there*. Tap to reveal."
       },
       "stavke": [
@@ -11562,6 +11621,7 @@ window.PODACI = {
       "naslov": "Speed challenge: jobs & people",
       "meta": {
         "info": "Timed recognition of the words you just met: the Croatian appears, you tap the English. A hook while you race — **-ar**, **-ač**, **-nik** and **-telj** all mark someone who does something (*kuhar, vozač, radnik, učitelj*), so that shape usually means a job.",
+        "infokratko": "Tap the English. **-ar, -ač, -nik, -telj** usually mean a job: *kuhar, vozač, radnik, učitelj*.",
         "trajanje": "60",
         "opis": "Tap the English meaning before the timer runs out!"
       },
@@ -11647,6 +11707,7 @@ window.PODACI = {
       "naslov": "Match the jobs",
       "meta": {
         "info": "A pairing drill on the male job words; nothing changes form here, so use the sound. *Pjevač* and *vozač* share the doer ending **-ač**, *radnik* and *odvjetnik* share **-nik**, and *učitelj* has the **-telj** shape you will meet on other jobs.",
+        "infokratko": "Male job words: *pjevač, vozač* (**-ač**), *radnik, odvjetnik* (**-nik**).",
         "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
@@ -11695,6 +11756,7 @@ window.PODACI = {
       "naslov": "Memory: people",
       "meta": {
         "info": "Memory pairs for the everyday people words — pure recall, no endings change. The two worth pinning down are *čovjek*, which means both *person* and *man*, and *posao*, which is *job* or *work* rather than someone who does it.",
+        "infokratko": "People words. *čovjek* = person/man; *posao* = job, work.",
         "opis": "Flip the cards and find each Croatian word's English partner."
       },
       "stavke": [
@@ -11743,6 +11805,7 @@ window.PODACI = {
       "naslov": "Make it female",
       "meta": {
         "info": "Here is the rule the male cards were setting up: add **-ica** and the job word is hers. *Kuhar → kuharica*, *učitelj → učiteljica*. Two lose a consonant so the word stays pronounceable: *odvjetnik → odvjetnica*, *glumac → glumica*.",
+        "infokratko": "Add **-ica** for her: *kuhar → kuharica*. *odvjetnik → odvjetnica*, *glumac → glumica*.",
         "opis": "The trick is **-ica**. Add it and the word is hers. Type the female version of each job."
       },
       "stavke": [
@@ -11799,6 +11862,7 @@ window.PODACI = {
       "naslov": "Where are they from?",
       "meta": {
         "info": "Nationality cards in his-and-hers pairs. There is no single ending here: *Hrvat → Hrvatica*, but *Talijan → Talijan**ka*** and *Nijemac → Njemica*, so learn them two at a time. Nationalities also take a capital letter, while job words do not.",
+        "infokratko": "Nationalities in pairs: *Hrvat → Hrvatica*, *Talijan → Talijanka*, *Nijemac → Njemica*. Capital letter.",
         "opis": "Nationalities work the same way, but each one likes its own female ending. Learn them in pairs — there are not many."
       },
       "stavke": [
@@ -11855,6 +11919,7 @@ window.PODACI = {
       "naslov": "Man or woman?",
       "meta": {
         "info": "Sorting by ending rather than by meaning. A word ending in a consonant is his (*kuhar*, *Hrvat*), a word ending in **-a** is hers (*kuharica*, *susjeda*, *Talijanka*) — the same last-letter logic you learned for nouns, now working on people.",
+        "infokratko": "Consonant = his (*kuhar*), **-a** = hers (*kuharica*).",
         "stupci": "ON (he) | ONA (she)",
         "opis": "Sort each word by who it belongs to. Let the ending guide you."
       },
@@ -11936,6 +12001,7 @@ window.PODACI = {
       "naslov": "Character & mood",
       "meta": {
         "info": "Twelve more adjectives, again in the **on** form: add **-a** for *ona* and **-i** for *oni*. Several hide a vowel that drops the moment an ending arrives — *gladan → gladna*, *ozbiljan → ozbiljna*, *hrabar → hrabra*, *nizak → niska*.",
+        "infokratko": "*on* form; **-a** for *ona*, **-i** for *oni*. *gladan → gladna*, *hrabar → hrabra*, *nizak → niska*.",
         "opis": "Lesson 2 described people in seven words. Here are twelve more. Again the card shows the form for **on** — add **-a** for **ona**, **-i** for **oni**."
       },
       "stavke": [
@@ -12000,6 +12066,7 @@ window.PODACI = {
       "naslov": "Speed challenge: character",
       "meta": {
         "info": "Timed recognition of the character words, all in the male form. Keep the next step in mind as you race: for a woman these take **-a** and for a group **-i**, and most words ending in **-an** or **-ar** lose that vowel first (*žedan → žedna*, but *mekan → mekana* keeps it).",
+        "infokratko": "Male forms. *-an / -ar* usually drop the vowel: *žedan → žedna*; *mekan → mekana* keeps it.",
         "trajanje": "60",
         "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
       },
@@ -12077,6 +12144,7 @@ window.PODACI = {
       "naslov": "Memory: character",
       "meta": {
         "info": "Memory pairs for eight words about how someone feels right now. They are ordinary adjectives, so they still follow the person they describe: a man is *gladan*, a woman *gladna*, a group *gladni*.",
+        "infokratko": "Moods follow the person: *gladan, gladna, gladni*.",
         "opis": "Flip the cards and find the pairs. These are the words you'll use about people all day."
       },
       "stavke": [
@@ -12125,6 +12193,7 @@ window.PODACI = {
       "naslov": "Match the character words",
       "meta": {
         "info": "A pairing drill on eight character adjectives in the male form. The odd one out is *veseo*: for a woman it is not *veseoa* but *vesela*, because the **-o** turns back into an **-l-**. Every other word here takes **-a** or **-i** — several of them dropping a vowel on the way: *nizak → niska*, *ozbiljan → ozbiljna*.",
+        "infokratko": "Male forms; *veseo → vesela*, *nizak → niska*, *ozbiljan → ozbiljna*.",
         "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
@@ -12173,6 +12242,7 @@ window.PODACI = {
       "naslov": "Greetings & everyday words",
       "meta": {
         "info": "Fixed expressions — take each one whole rather than word by word. The only real choice on this page is *Kako si?* to a friend against *Kako ste?* to a stranger or someone older, which is the *ti* and *vi* decision from the lesson.",
+        "infokratko": "Take each phrase whole. *Kako si?* friend, *Kako ste?* polite or group.",
         "opis": "Enough to open a conversation, keep it going, and close it politely."
       },
       "stavke": [
@@ -12237,6 +12307,7 @@ window.PODACI = {
       "naslov": "Match the greetings",
       "meta": {
         "info": "A pairing drill on whole phrases, so resist translating the parts. The pair to keep apart is *Kako si?* for one friend and *Kako ste?* for a group or for one person you are being polite to — the same *ti* against *vi* choice.",
+        "infokratko": "Whole phrases. *Kako si?* one friend; *Kako ste?* group or polite.",
         "opis": "Match each phrase with its English meaning. These are whole phrases — take them as they are."
       },
       "stavke": [
@@ -12285,6 +12356,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "Production from English, so spelling counts. Croatian writes one letter per sound and the letters with diacritics carry real information: *vozač*, *učitelj*, *čovjek*, *žedan*, *tužan*, *Doviđenja*. Capital letters for *Hrvatska* and *Nijemac*.",
+        "infokratko": "Spell with diacritics: *vozač, čovjek, žedan, Doviđenja*. Capitals: *Hrvatska, Nijemac*.",
         "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
       },
       "stavke": [
@@ -12380,7 +12452,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the full \"biti\" table",
       "meta": {
-        "info": "The reference table for **biti**: *sam, si, je, smo, ste, su*. Two rules travel with it. The pronoun is optional, because the verb already names the person, but the verb can never stand first — *Ja sam student* shortens to *Student sam*, never *Sam student*."
+        "info": "The reference table for **biti**: *sam, si, je, smo, ste, su*. Two rules travel with it. The pronoun is optional, because the verb already names the person, but the verb can never stand first — *Ja sam student* shortens to *Student sam*, never *Sam student*.",
+        "infokratko": "*sam, si, je, smo, ste, su*. Pronoun optional (*Student sam*); the verb never first."
       },
       "stavke": [
         [
@@ -12469,6 +12542,7 @@ window.PODACI = {
       "naslov": "Tap the verb",
       "meta": {
         "info": "Tap the one form of **biti** the subject asks for: *ja sam, ti si, on and ona je, mi smo, vi ste, oni su*. A name and *ovo* behave like *on* or *ona*, so they take *je*, and *Tko ___ ti?* takes the *ti* form because you are asking one person.",
+        "infokratko": "*ja sam, ti si, on/ona je, mi smo, vi ste, oni su*. A name or *ovo* takes *je*.",
         "nastavci": "sam | si | je | smo | ste | su",
         "opis": "English above, Croatian below. The sentence is waiting for its verb — one tap. Get it right and you'll hear it."
       },
@@ -12565,7 +12639,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: adjectives still copy the person",
       "meta": {
-        "info": "The agreement rule from Lesson 1, now applied to people: the adjective copies whoever it describes — bare for *on*, **-a** for *ona*, **-i** for *mi, vi* and *oni*. Watch the vowel that disappears (*umoran → umorna*) and the single oddity *veseo → vesela*."
+        "info": "The agreement rule from Lesson 1, now applied to people: the adjective copies whoever it describes — bare for *on*, **-a** for *ona*, **-i** for *mi, vi* and *oni*. Watch the vowel that disappears (*umoran → umorna*) and the single oddity *veseo → vesela*.",
+        "infokratko": "The adjective copies the person: *on* bare, *ona* **-a**, *mi/vi/oni* **-i**. *umoran → umorna*, *veseo → vesela*."
       },
       "stavke": [
         [
@@ -12631,6 +12706,7 @@ window.PODACI = {
       "naslov": "Pick the adjective",
       "meta": {
         "info": "Pick the adjective form that agrees with the subject in front of it. A name counts as *on* or *ona*: *Ana je pametna*, *Marko je gladan*. After *mi, vi, oni* the ending is **-i**, and the disappearing vowel goes with it: *umoran → umorni*.",
+        "infokratko": "A name counts as *on/ona*: *Ana je pametna*. Plural **-i**: *umorni*.",
         "opis": "Choose the form that agrees with the person."
       },
       "stavke": [
@@ -12719,6 +12795,7 @@ window.PODACI = {
       "naslov": "Tap the ending: he, she or they?",
       "meta": {
         "info": "Only the ending is missing: nothing for *on*, **-a** for *ona*, **-i** for a plural subject. The stem on screen is already trimmed, which is why *pametn-*, *umorn-* and *hrabr-* have lost the vowel that only the male form keeps.",
+        "infokratko": "Nothing for *on*, **-a** for *ona*, **-i** for plural.",
         "nastavci": "- | a | i",
         "opis": "The person decides the ending. Consonant is his, -a is hers, -i is theirs."
       },
@@ -12835,7 +12912,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: ti or vi?",
       "meta": {
-        "info": "A two-part rule page. First the politeness choice: *ti* for a friend, child or close relative, *vi* for a group **or** for one person you are being polite to, always with *ste*. Then the female job endings — usually **-ica**, but *novinar → novinarka*."
+        "info": "A two-part rule page. First the politeness choice: *ti* for a friend, child or close relative, *vi* for a group **or** for one person you are being polite to, always with *ste*. Then the female job endings — usually **-ica**, but *novinar → novinarka*.",
+        "infokratko": "*ti* = friend, child, family; *vi* = a group or polite *you*. Female jobs: **-ica**, *novinar → novinarka*."
       },
       "stavke": [
         [
@@ -12878,6 +12956,7 @@ window.PODACI = {
       "naslov": "ti or vi?",
       "meta": {
         "info": "Choose *ti* or *vi* for each situation. One friend, child or close relative takes *ti*; a stranger, someone older, someone in a professional role, or any group takes *vi*, even a single person. Unsure in Croatia? Start with *vi* and let them offer *ti*.",
+        "infokratko": "Friend or family → *ti*. Stranger, elder, professional, group → *vi*. Unsure? *vi*.",
         "opis": "Choose the right pronoun for each situation."
       },
       "stavke": [
@@ -12944,6 +13023,7 @@ window.PODACI = {
       "naslov": "The female version",
       "meta": {
         "info": "Type the female form. The default is **-ica** (*kuhar → kuharica*), with a consonant dropping where the word demands it (*odvjetnik → odvjetnica*, *glumac → glumica*). Two here take **-ka** instead: *novinar → novinarka*, *policajac → policajka*.",
+        "infokratko": "Mostly **-ica**: *kuhar → kuharica, glumac → glumica*. With **-ka**: *novinarka, policajka*.",
         "opis": "Make it female — type the correct form."
       },
       "stavke": [
@@ -13015,7 +13095,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the negative table",
       "meta": {
-        "info": "The negative half of **biti**: *nisam, nisi, nije, nismo, niste, nisu*, always one word — there is no *ne sam*. Unlike the positive forms these are stressed, so they may open a sentence (*Nisam gladan*) and can even stand alone as a full answer."
+        "info": "The negative half of **biti**: *nisam, nisi, nije, nismo, niste, nisu*, always one word — there is no *ne sam*. Unlike the positive forms these are stressed, so they may open a sentence (*Nisam gladan*) and can even stand alone as a full answer.",
+        "infokratko": "*nisam, nisi, nije, nismo, niste, nisu*, one word. They can open a sentence: *Nisam gladan.*"
       },
       "stavke": [
         [
@@ -13084,6 +13165,7 @@ window.PODACI = {
       "naslov": "Make it negative",
       "meta": {
         "info": "Swap each positive form for its negative twin: *sam → nisam*, *si → nisi*, *je → nije*, *smo → nismo*, *ste → niste*, *su → nisu*. Nothing else moves, and the adjective keeps agreeing with the person: *Ona nije vesela*, *Oni nisu zauzeti*.",
+        "infokratko": "*sam → nisam, je → nije, su → nisu*. The adjective still agrees: *Ona nije vesela*.",
         "opis": "Flip each sentence. Only the verb changes — the pronoun and the adjective stay put."
       },
       "stavke": [
@@ -13132,6 +13214,7 @@ window.PODACI = {
       "naslov": "The grammatical sentence",
       "meta": {
         "info": "Pick the sentence a Croatian would actually say. Two things decide it: the negative of **biti** is a single word, so *ne je* and *ne su* are impossible, and the adjective must still match the speaker — a man says *Nisam gladan*, a woman *Nisam gladna*.",
+        "infokratko": "No *ne je* or *ne su*; the adjective matches: *Nisam gladan / gladna*.",
         "opis": "One of these is how a Croatian would say it."
       },
       "stavke": [
@@ -13184,6 +13267,7 @@ window.PODACI = {
       "naslov": "Write the whole sentence",
       "meta": {
         "info": "Free production from English, the hardest step on this page. Build it as pronoun plus **biti** plus a noun or adjective, drop the pronoun if you like, but never let *sam, si* or *je* stand first: *Gladan sam* is right, *Sam gladan* is not.",
+        "infokratko": "Pronoun + **biti** + word; drop the pronoun if you like: *Gladan sam*, never *Sam gladan*.",
         "opis": "The last step — the English sentence, and you write the Croatian. The pronoun is optional with *ja* and *ti*, so both versions are accepted there; with *on* and *ona* keep it — and never let the verb come first."
       },
       "stavke": [
@@ -13267,7 +13351,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary rather than an exercise. It gathers the one idea behind everything you drilled here — find the person first, then let the verb form and the adjective ending follow that person — and points ahead to Practice 2 and Test 2."
+        "info": "A closing summary rather than an exercise. It gathers the one idea behind everything you drilled here — find the person first, then let the verb form and the adjective ending follow that person — and points ahead to Practice 2 and Test 2.",
+        "infokratko": "Find the person first; the verb form and adjective ending follow."
       },
       "stavke": [
         [
@@ -13291,7 +13376,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: Who is who",
       "meta": {
-        "info": "Your first connected reading. Every sentence uses the same frame — *ovo je* or a pronoun, then **biti**, then a job or an adjective — so read each line by asking who it is about: *On je kuhar*, *Ona je pametna i draga*."
+        "info": "Your first connected reading. Every sentence uses the same frame — *ovo je* or a pronoun, then **biti**, then a job or an adjective — so read each line by asking who it is about: *On je kuhar*, *Ona je pametna i draga*.",
+        "infokratko": "Pronoun or *ovo je* + **biti** + job or adjective: *On je kuhar. Ona je pametna i draga.*"
       },
       "stavke": [
         [
@@ -13369,6 +13455,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "A comprehension check on the text above; every answer is in it. The endings help you: a job in **-ica** and an adjective in **-a** point to a woman (*doktorica*, *draga*), while a bare consonant points to a man (*kuhar*, *vrijedan*).",
+        "infokratko": "The answer is in the text. **-ica** and **-a** point to a woman, a consonant to a man.",
         "tekst": "Ja sam Ana. Ja sam studentica. Ja sam mlada i visoka. Ovo je Marko. On je kuhar. On je jak i vrijedan. Ovo je Petra. Ona je doktorica. Ona je pametna i draga. Ovo je Damir. On je vozač, a Petra je doktorica. On je zabavan, ali je i ozbiljan. Mi smo prijatelji. Mi smo sretni.",
         "opis": "Answer from the text."
       },
@@ -13430,6 +13517,7 @@ window.PODACI = {
       "naslov": "Fill in from the text",
       "meta": {
         "info": "Gap-fill taken straight from the text, so read it again and copy what is there. The verb gaps need the form that matches the subject (*ja sam*, *on je*, *mi smo*), and the word gaps must agree with the person: *Petra je drag**a***.",
+        "infokratko": "Copy from the text: *ja sam, on je, mi smo*; *Petra je draga*.",
         "tekst": "Ja sam Ana. Ja sam studentica. Ja sam mlada i visoka. Ovo je Marko. On je kuhar. On je jak i vrijedan. Ovo je Petra. Ona je doktorica. Ona je pametna i draga. Ovo je Damir. On je vozač, a Petra je doktorica. On je zabavan, ali je i ozbiljan. Mi smo prijatelji. Mi smo sretni.",
         "opis": "The text is right above you — read it again and fill each gap."
       },
@@ -13478,7 +13566,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: Who are you?",
       "meta": {
-        "info": "A dialogue between two strangers who nonetheless use *ti*. Read for the two things they trade, job and origin, and notice *Ja sam Talijanka* against *Ja sam Hrvat*: the nationality word itself shows whether a woman or a man is speaking."
+        "info": "A dialogue between two strangers who nonetheless use *ti*. Read for the two things they trade, job and origin, and notice *Ja sam Talijanka* against *Ja sam Hrvat*: the nationality word itself shows whether a woman or a man is speaking.",
+        "infokratko": "They trade job and origin. *Ja sam Talijanka* (she), *Ja sam Hrvat* (he)."
       },
       "stavke": [
         [
@@ -13542,6 +13631,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "True or false on the dialogue above. Each statement is a *biti* sentence, so check the person and the ending: *Maja je Talijanka* is about her, *Ivan je Talijan* would be about him — one ending decides who a sentence is even describing.",
+        "infokratko": "Check the person and the ending: *Maja je Talijanka*.",
         "tekst": "— Bok! Ja sam Ivan. Tko si ti? — Bok! Ja sam Maja. — Jesi li ti studentica? — Ne, ja sam učiteljica. A ti? — Ja sam pilot. — Pilot? To je super! — Da, posao je težak, ali je zanimljiv. — Odakle si? — Ja sam Hrvat, iz Splita. A ti? — Ja sam Talijanka, ali sam sada u Zagrebu.",
         "opis": "Tap true or false."
       },
@@ -13589,6 +13679,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Reordering rather than translating: put the exchange back into sequence. Use the give and take of a conversation — a question is answered before the next one is asked, so *Tko si ti?* is followed by a name and *Odakle si?* by a place.",
+        "infokratko": "A question, then its answer: *Tko si ti?* → name, *Odakle si?* → place.",
         "opis": "The conversation got shuffled! Put the lines back into the right order."
       },
       "stavke": [
@@ -13628,7 +13719,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: At the café",
       "meta": {
-        "info": "The same patterns in the polite register: the waiter and the guests use *vi*, so the verb is *ste* and the adjective after it takes **-i** — *Vi ste ljubazni*. *Kako ste?* is simply the polite twin of *Kako si?*, and *Dobro sam* answers both."
+        "info": "The same patterns in the polite register: the waiter and the guests use *vi*, so the verb is *ste* and the adjective after it takes **-i** — *Vi ste ljubazni*. *Kako ste?* is simply the polite twin of *Kako si?*, and *Dobro sam* answers both.",
+        "infokratko": "Polite *vi*: *ste* + **-i** (*Vi ste ljubazni*). *Kako ste? — Dobro sam.*"
       },
       "stavke": [
         [
@@ -13680,6 +13772,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "A comprehension check on the café dialogue. Let the verb tell you who is meant: *smo* means the guests are speaking as a group (*Mi smo turisti*), *sam* means one of them speaks alone (*Ja sam žedan*), and *ste* is the polite form aimed at them.",
+        "infokratko": "The verb shows who: *smo* the group, *sam* one person, *ste* polite.",
         "tekst": "— Dobar dan! Kako ste? — Dobro sam, hvala. A vi? — I ja sam dobro. Vi ste turisti? — Da, mi smo turisti. — Super! Kava? — Da, molim. Ja sam jako žedan. — Izvolite. — Hvala! Vi ste jako ljubazni. — Nema na čemu. Doviđenja!",
         "opis": "Answer from the text."
       },
@@ -13723,7 +13816,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: They are a team",
       "meta": {
-        "info": "A short description of a team, so plural subjects appear next to singular ones. Take one subject at a time: *Luka je brz*, *Ivana je hrabra*, and with a plural subject the adjective takes **-i** — *Vi ste odlični*, *Oni su sretni*."
+        "info": "A short description of a team, so plural subjects appear next to singular ones. Take one subject at a time: *Luka je brz*, *Ivana je hrabra*, and with a plural subject the adjective takes **-i** — *Vi ste odlični*, *Oni su sretni*.",
+        "infokratko": "Singular and plural subjects: *Luka je brz*, *Oni su sretni*."
       },
       "stavke": [
         [
@@ -13779,6 +13873,7 @@ window.PODACI = {
       "naslov": "Meeting Petra",
       "meta": {
         "info": "An introduction, so every line runs on **biti**. Two things decide your reply: the verb form has to match the person (*ja sam*, *ti si*), and a job word or an adjective about you has to match your own gender — *studentica* and *sretna* for a woman, *student* and *sretan* for a man.",
+        "infokratko": "Verb by person (*ja sam, ti si*); your words by your gender (*sretna / sretan*).",
         "opis": "You meet Petra on the first day of a language course. Choose your replies — pick the form that matches you. Passive words: *Odakle si?* (Where are you from?), *Drago mi je!* (Nice to meet you!), *iz* (from), *tečaj* (course)."
       },
       "stavke": [
@@ -13853,6 +13948,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "Production from English with tiles drawn from all four texts. Choose the verb by the person and the ending by the person too — *Ja sam učiteljica*, *Vi ste ljubazni* — and keep the pronoun in front so the little verb never opens the sentence.",
+        "infokratko": "Verb and ending by the person; pronoun first: *Ja sam učiteljica. Vi ste ljubazni.*",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read — and you'll hear it once it's right."
       },
       "stavke": [
@@ -16063,7 +16159,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Time for action",
       "meta": {
-        "info": "A read-through that opens the present tense: in Croatian the end of the verb says who is acting, so *čitam* already means **I** read. Once the ending carries the person, the pronoun *ja* becomes optional."
+        "info": "A read-through that opens the present tense: in Croatian the end of the verb says who is acting, so *čitam* already means **I** read. Once the ending carries the person, the pronoun *ja* becomes optional.",
+        "infokratko": "The verb ending says who acts: *čitam* = **I** read. So *ja* is optional."
       },
       "stavke": [
         [
@@ -16088,6 +16185,7 @@ window.PODACI = {
       "naslov": "Warm-up from Lesson 2",
       "meta": {
         "info": "A timed recall of Lesson 2, all of it built on *biti*: *sam* for me, *si* for you, *je* for him or her, *smo* and *su* for groups. No action verbs here yet — just the little word that links two things together.",
+        "infokratko": "Lesson 2 against the clock: *sam, si, je, smo, su*.",
         "trajanje": "60",
         "opis": "Quick warm-up! A Croatian sentence appears — tap its English meaning before the timer runs out."
       },
@@ -16137,6 +16235,7 @@ window.PODACI = {
       "naslov": "The action words",
       "meta": {
         "info": "Dictionary forms only: Croatian infinitives end in **-ti**, exactly like English *to read*. Don't drop one into a sentence yet — each verb changes shape when you actually use it, and those working forms come on the next pages.",
+        "infokratko": "Dictionary forms end in **-ti** (*čitati* = to read). Working forms come on the next pages.",
         "opis": "Listen and repeat — each card shows the verb in its dictionary form."
       },
       "stavke": [
@@ -16189,6 +16288,7 @@ window.PODACI = {
       "naslov": "Verb match",
       "meta": {
         "info": "Pure meaning practice, with no endings involved. The pairs worth separating are *čitati* (read) against *pisati* (write), and *gledati* (watch) against *slušati* (listen); the shared **-ti** marks every one of them as a dictionary form.",
+        "infokratko": "Meanings only. Keep apart *čitati / pisati* and *gledati / slušati*.",
         "opis": "Match each verb with its English meaning."
       },
       "stavke": [
@@ -16236,7 +16336,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "One verb, different endings",
       "meta": {
-        "info": "The core rule of this level: **-m** means *I*, **-š** means *you*, and *on* or *ona* adds nothing at all — *čitam, čitaš, čita*. Because the ending names the person, *ja* and *ti* are usually dropped, and the word after the verb keeps the shape you learned it in."
+        "info": "The core rule of this level: **-m** means *I*, **-š** means *you*, and *on* or *ona* adds nothing at all — *čitam, čitaš, čita*. Because the ending names the person, *ja* and *ti* are usually dropped, and the word after the verb keeps the shape you learned it in.",
+        "infokratko": "**-m** = I, **-š** = you, nothing = he/she: *čitam, čitaš, čita*. *ja* and *ti* are usually dropped."
       },
       "stavke": [
         [
@@ -16294,6 +16395,7 @@ window.PODACI = {
       "naslov": "Whose verb is it?",
       "meta": {
         "info": "Sorting by person, so read only the final letter: **-m** is ja, **-š** is ti, and a bare form like *čita* or *pije* is on/ona. Ignore the middle of the word — *pijem* and *jedem* shifted their stems, but the ending still decides who.",
+        "infokratko": "Look only at the last letter: **-m** ja, **-š** ti, bare *čita / pije* on/ona.",
         "stupci": "JA | TI | ON/ONA",
         "opis": "Sort the verb forms by who is doing the action. The ending is your clue!"
       },
@@ -16359,6 +16461,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Multiple choice on agreement: the subject is already in the sentence, so match the ending to it. A name like *Marko* or *Ana* counts as on/ona and takes the bare form — *Marko pije*, never *Marko pijem*.",
+        "infokratko": "Match the ending to the subject. A name counts as on/ona: *Marko pije*.",
         "opis": "Choose the correct verb form."
       },
       "stavke": [
@@ -16411,6 +16514,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap supplies the name tag: **-m** when the subject is *ja*, **-š** when it is *ti*, and the dash when it is *on*, *ona*, a name, or *pas*. The rest of the verb is already written, so only the person is in question here.",
+        "infokratko": "**-m** for *ja*, **-š** for *ti*, the dash for *on, ona*, a name or *pas*.",
         "nastavci": "m | š | -",
         "opis": "English above, Croatian below. The verb is waiting for its name tag — one tap. **-m** is mine, **-š** is yours, and he or she takes nothing at all."
       },
@@ -16553,6 +16657,7 @@ window.PODACI = {
       "naslov": "Type the verb",
       "meta": {
         "info": "The infinitive is in brackets and you produce the right person: find the *ja* form first, then take off **-m** for on/ona or swap in **-š** for ti. Watch the shifters — *piti* gives *pijem*, *pisati* gives *pišem*, *jesti* gives *jedem*.",
+        "infokratko": "Start from the *ja* form: *pijem → pije, piješ*. Shifters: *piti → pijem, pisati → pišem, jesti → jedem*.",
         "opis": "Complete each sentence — type the correct form of the verb in brackets."
       },
       "stavke": [
@@ -16593,6 +16698,7 @@ window.PODACI = {
       "naslov": "Build the scene",
       "meta": {
         "info": "Word-order building: the subject comes first and the object sits straight after the verb, as in *Marko pije sok*. If no pronoun tile is offered, nothing is missing — *Pijem sok* is a whole sentence, because **-m** has already said who.",
+        "infokratko": "Subject, verb, object: *Marko pije sok*. No pronoun tile? *Pijem sok* is already whole.",
         "opis": "Build the sentence that describes the scene."
       },
       "stavke": [
@@ -16663,6 +16769,7 @@ window.PODACI = {
       "naslov": "A quiet evening",
       "meta": {
         "info": "A live conversation, so the ending switches with the speaker: *Što radiš?* asks about **ti**, and your reply moves to the *ja* form — *Učim hrvatski*, not *Učiš*. Since the ending carries the person, you can leave *ja* out entirely.",
+        "infokratko": "*Što radiš?* asks about *ti*; answer in the *ja* form: *Učim hrvatski*.",
         "opis": "Your neighbour Marko drops by. Choose your replies and keep the conversation going!"
       },
       "stavke": [
@@ -16719,6 +16826,7 @@ window.PODACI = {
       "naslov": "Day in the apartment",
       "meta": {
         "info": "A short text plus comprehension: scan for the verb and the word right after it, because *Marko pije sok* tells you both who acts and on what. Every verb here is an on/ona form, so none of them carries an extra ending.",
+        "infokratko": "Find each verb and the word after it: *Marko pije sok*. All verbs are on/ona forms.",
         "tekst": "Marko radi. On piše tekst. Ana uči. Ona čita udžbenik. Pas spava. Marko pije sok. Ana jede sendvič. Dan je miran.",
         "opis": "Read the short story, then answer the questions."
       },
@@ -16754,6 +16862,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "A mixed checkpoint over the whole lesson: the endings **-m** and **-š** against the bare *on/ona* form, plus what the nine verbs mean. When a question stalls you, find the subject first and let it choose the ending.",
+        "infokratko": "The whole lesson, mixed: **-m**, **-š** or bare, and the nine verbs. Find the subject first.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 3."
       },
@@ -16843,7 +16952,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing page with nothing to answer. What you are holding is the present tense in miniature: one ending per person, added to a stem you take from the *ja* form — *pijem, piješ, pije*."
+        "info": "A closing page with nothing to answer. What you are holding is the present tense in miniature: one ending per person, added to a stem you take from the *ja* form — *pijem, piješ, pije*.",
+        "infokratko": "One ending per person, on the stem of the *ja* form: *pijem, piješ, pije*."
       },
       "stavke": [
         [
@@ -16865,6 +16975,7 @@ window.PODACI = {
       "naslov": "Verbs (infinitive → ja / ti / on-ona)",
       "meta": {
         "info": "Each card gives one verb as a set of three forms. Memorise the *ja* form, the first of the three: strip its **-m** for on/ona (*pijem* → *pije*) and swap in **-š** for ti. The infinitive on its own cannot predict them.",
+        "infokratko": "Learn the *ja* form: drop **-m** for on/ona (*pijem → pije*), **-š** for ti.",
         "opis": "The nine verbs from Lesson 3. Learn each one as a set of three — the *ja* form is the one worth remembering, because the other two follow from it."
       },
       "stavke": [
@@ -16917,6 +17028,7 @@ window.PODACI = {
       "naslov": "Ten more verbs",
       "meta": {
         "info": "Ten new verbs in the same three-form layout. The trap is trusting the infinitive: *trčati* looks like *spavati* but says *trčim*, and *prati* says *perem*. Learn the *ja* form and the rest of the verb follows from it.",
+        "infokratko": "Don't trust the infinitive: *trčati → trčim*, *prati → perem*.",
         "opis": "Ten new ones, same three-form pattern. Several hide a surprise: *trčati* looks like it should say -am, while *prati*, *poznavati*, *razumjeti* and *šutjeti* barely resemble their own *ja* forms. Learn the *ja* form and the surprise disappears."
       },
       "stavke": [
@@ -16973,6 +17085,7 @@ window.PODACI = {
       "naslov": "Three families",
       "meta": {
         "info": "Sorting into the three conjugation families, and only the *ja* form decides which. Say the verb about yourself first: *čitam* lands in **-am**, *radim* in **-im**, *pišem* in **-em**. The infinitive can mislead you here.",
+        "infokratko": "The *ja* form decides the family: *čitam* **-am**, *radim* **-im**, *pišem* **-em**.",
         "stupci": "-AM | -IM | -EM",
         "opis": "Sort each verb by the *ja* form it makes. Seven say -am, six say -im, six say -em. Sort by the ending you hear, never by the infinitive — *trčati* and *spavati* look alike and land in different columns."
       },
@@ -17066,6 +17179,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Meaning only, no endings at play. The useful separations: *gledati* is to watch while *slušati* is to listen, and *učiti* is to study while *misliti* is to think and *razumjeti* is to understand.",
+        "infokratko": "*gledati* watch, *slušati* listen; *učiti* study, *misliti* think, *razumjeti* understand.",
         "opis": "Match each verb with its English meaning."
       },
       "stavke": [
@@ -17142,6 +17256,7 @@ window.PODACI = {
       "naslov": "Things that go with verbs",
       "meta": {
         "info": "Objects for your new verbs. Each one goes straight after the verb unchanged — *Pijem čaj*, *Gledam film* — and its ending still gives you the gender, so *mačka* is feminine, *film* masculine, *pismo* neuter. The reshaping rules come in Lesson 5.",
+        "infokratko": "Objects go right after the verb, unchanged for now: *Pijem čaj. Gledam film.*",
         "opis": "The things you read, eat, drink and watch. Almost every one of these keeps the same shape when it becomes the object — *Pijem čaj*, *Gledam film*; only *mačka* and *pas* will change, and that is Lesson 5 — so you can use them today, with no new endings — plus two adjectives, *miran* and *smiješan*, to describe them."
       },
       "stavke": [
@@ -17270,6 +17385,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching for the things your new verbs act on. Every word here keeps the same shape as an object — *Pijem sok*, *Jedem kruh* — so what you see on the card is what you say in the sentence.",
+        "infokratko": "Objects keep their shape here: *Pijem sok. Jedem kruh.*",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -17334,6 +17450,7 @@ window.PODACI = {
       "naslov": "How often?",
       "meta": {
         "info": "Five frequency words that never change shape, sitting in front of the verb: *Često čitam*, *Ponekad gledam film*. With *nikad* Croatian still keeps the *ne* — *Nikad ne spavam* — a double negative that is simply the correct form.",
+        "infokratko": "Before the verb, never change: *Često čitam*. With *nikad* keep *ne*: *Nikad ne spavam.*",
         "opis": "Five words that turn a verb into a habit. They never change shape, and they sit happily in front of the verb: *Uvijek čitam. Nikad ne spavam.*"
       },
       "stavke": [
@@ -17370,6 +17487,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairing game over the nouns you just met, so this is recognition rather than grammar. Use the ending as a free gender clue while you flip: *mačka* is feminine, *sok*, *čaj* and *pas* are masculine, *pismo* is neuter.",
+        "infokratko": "Nouns you've met. *mačka* f; *sok, čaj, pas* m; *pismo* n.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -17426,6 +17544,7 @@ window.PODACI = {
       "naslov": "Speed challenge: the ja-form",
       "meta": {
         "info": "Timed recognition of **-m** forms only, so every English answer begins with *I*. The stem-shifters are what cost you seconds: *perem* is I wash, *poznajem* is I know, *razumijem* is I understand.",
+        "infokratko": "Only **-m** forms, all *I*. Watch *perem, poznajem, razumijem*.",
         "trajanje": "60",
         "opis": "The \"ja\" form flashes — tap the English meaning!"
       },
@@ -17519,6 +17638,7 @@ window.PODACI = {
       "naslov": "Speed challenge: who is doing it?",
       "meta": {
         "info": "Now the person changes, so check the last letter before you tap: **-m** is *I*, **-š** is *you*, and no ending at all is *he* or *she*. *Piješ* and *pije* differ by a single character and by who is drinking.",
+        "infokratko": "**-m** I, **-š** you, nothing he/she: *piješ / pije*.",
         "trajanje": "60",
         "opis": "Same verbs, but now the ending decides. Tap the English — watch for that **-š**."
       },
@@ -17632,6 +17752,7 @@ window.PODACI = {
       "naslov": "Type the ja-form",
       "meta": {
         "info": "Production from the infinitive: type the form you would use about yourself, always ending in **-m**. All three families turn up — *hodati* gives *hodam*, *govoriti* gives *govorim*, *prati* gives *perem* — and the stem may shift on the way.",
+        "infokratko": "Type the *ja* form: *hodam, govorim, perem*.",
         "opis": "You get the infinitive — type the form you would use about yourself."
       },
       "stavke": [
@@ -17724,6 +17845,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. The letters with diacritics carry meaning of their own: *čaj* starts with the *ch* sound, *učiti* has it in the middle, and **dž** in *udžbenik* is a single letter, never a d followed by a ž.",
+        "infokratko": "Diacritics matter: *čaj, učiti*; **dž** in *udžbenik* is one letter.",
         "opis": "Careful — **dž** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own."
       },
       "stavke": [
@@ -17780,6 +17902,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "Spelling practice, and Croatian is written exactly as it sounds, one letter per sound. Keep the diacritics — *čitati*, *učiti*, *čaj*, *mačka* — and note that the verbs are wanted as infinitives here, not as *ja* forms.",
+        "infokratko": "Infinitives, with diacritics: *čitati, učiti, čaj, mačka*.",
         "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
       },
       "stavke": [
@@ -17931,7 +18054,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the name-tag endings",
       "meta": {
-        "info": "A rule page with nothing to tap: it names the endings you have already been using. **-m** for ja, **-š** for ti, nothing for on/ona — plus one shortcut worth keeping, since from the *ja* form you drop **-m** for on/ona and swap in **-š** for ti."
+        "info": "A rule page with nothing to tap: it names the endings you have already been using. **-m** for ja, **-š** for ti, nothing for on/ona — plus one shortcut worth keeping, since from the *ja* form you drop **-m** for on/ona and swap in **-š** for ti.",
+        "infokratko": "**-m** ja, **-š** ti, nothing on/ona. From the *ja* form: drop **-m** or swap in **-š**."
       },
       "stavke": [
         [
@@ -17998,7 +18122,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: three families",
       "meta": {
-        "info": "Your reference for the three conjugation families, each named after its *ja* form: **-am** (*čitam*), **-im** (*radim*), **-em** (*pišem*). It matters because the infinitive won't tell you which — *čitati* and *pisati* look alike and land apart."
+        "info": "Your reference for the three conjugation families, each named after its *ja* form: **-am** (*čitam*), **-im** (*radim*), **-em** (*pišem*). It matters because the infinitive won't tell you which — *čitati* and *pisati* look alike and land apart.",
+        "infokratko": "Three families by the *ja* form: **-am** (*čitam*), **-im** (*radim*), **-em** (*pišem*). The infinitive won't tell you."
       },
       "stavke": [
         [
@@ -18049,6 +18174,7 @@ window.PODACI = {
       "naslov": "Who is doing it?",
       "meta": {
         "info": "Sorting forms by person, so read only the tail: **-m** is ja, **-š** is ti, a bare form is on/ona. Shifted stems like *pišem* and *jedem* sort exactly like plain ones — the middle of a verb never says who is acting.",
+        "infokratko": "Only the tail counts: **-m** ja, **-š** ti, bare on/ona. *pišem, jedem* too.",
         "stupci": "JA | TI | ON/ONA",
         "opis": "Sort the forms by who's doing it. The ending is your clue."
       },
@@ -18138,6 +18264,7 @@ window.PODACI = {
       "naslov": "Which family?",
       "meta": {
         "info": "Family sorting from the infinitive, which means recalling the *ja* form first: *spavati* → *spavam* is **-am**, *učiti* → *učim* is **-im**, *jesti* → *jedem* is **-em**. Going by looks alone will mislead you here.",
+        "infokratko": "Recall the *ja* form first: *spavam* **-am**, *učim* **-im**, *jedem* **-em**.",
         "stupci": "-AM | -IM | -EM",
         "opis": "Sort each infinitive by the ja-form it makes."
       },
@@ -18191,6 +18318,7 @@ window.PODACI = {
       "naslov": "Pick the form",
       "meta": {
         "info": "Choose the form that agrees with the subject you are given. *Ja* takes **-m**, *ti* takes **-š**, and everything else — *on*, *ona*, *Ana*, *pas* — takes the bare form, so it is *Pas spava*, never *Pas spavam*.",
+        "infokratko": "*ja* **-m**, *ti* **-š**, everything else bare: *Pas spava*.",
         "opis": "Pick the correct form."
       },
       "stavke": [
@@ -18267,6 +18395,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap adds the name tag to a ready-made stem: **-m**, **-š**, or nothing. The stem tells you which family the verb belongs to, but never who is acting — that is the ending's only job, and it works the same in all three families.",
+        "infokratko": "**-m**, **-š** or nothing. The stem shows the family; the ending shows who.",
         "nastavci": "m | š | -",
         "opis": "English above, Croatian below. The verb is waiting for its name tag — one tap. Get it right and you'll hear the sentence."
       },
@@ -18404,6 +18533,7 @@ window.PODACI = {
       "naslov": "Type the ja-form",
       "meta": {
         "info": "Type the **-m** form for each infinitive. Three of these shift their stem on the way — *pisati* → *pišem*, *jesti* → *jedem*, *piti* → *pijem* — which is exactly why the *ja* form is the one worth memorising per verb.",
+        "infokratko": "The *ja* form: *pisati → pišem, jesti → jedem, piti → pijem*.",
         "opis": "Type the \"ja\" form."
       },
       "stavke": [
@@ -18456,6 +18586,7 @@ window.PODACI = {
       "naslov": "Without the pronoun",
       "meta": {
         "info": "Rewriting without the pronoun, which is ordinary Croatian: since **-m** and **-š** already name the person, *Ja pijem sok* shortens to *Pijem sok* with nothing lost. Keep *ja* only for contrast — *JA pijem sok*, meaning me and not you.",
+        "infokratko": "The ending names the person: *Pijem sok*. *ja* only for contrast.",
         "opis": "Say the same thing the way a Croatian would — drop the pronoun, keep the verb."
       },
       "stavke": [
@@ -18512,6 +18643,7 @@ window.PODACI = {
       "naslov": "Say the missing word",
       "meta": {
         "info": "Nothing is offered here: read the English cue, choose the verb, then fit the ending to the subject in the Croatian sentence. *Ana* and *pas* count as on/ona, so they take the bare form — *piše*, *spava*.",
+        "infokratko": "From the English cue; *Ana*, *pas* take the bare form: *piše, spava*.",
         "opis": "Nothing is offered this time. Read the English and type the Croatian verb in the right form."
       },
       "stavke": [
@@ -18567,7 +18699,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: saying you don't",
       "meta": {
-        "info": "The negation rule: almost every verb keeps *ne* as a separate word in front — *ne pijem*, *Ana ne radi* — and the person ending is untouched. Only three fuse it: *biti* (*nisam*), *imati* (**nemam**) and *htjeti* (**neću**)."
+        "info": "The negation rule: almost every verb keeps *ne* as a separate word in front — *ne pijem*, *Ana ne radi* — and the person ending is untouched. Only three fuse it: *biti* (*nisam*), *imati* (**nemam**) and *htjeti* (**neću**).",
+        "infokratko": "*ne* before the verb, ending unchanged: *ne pijem*. Fused: *nisam, nemam, neću*."
       },
       "stavke": [
         [
@@ -18621,6 +18754,7 @@ window.PODACI = {
       "naslov": "Positive or negative?",
       "meta": {
         "info": "Sorting by polarity. Usually you are just looking for *ne* standing in front of the verb, but two words hide the negative inside themselves: *nisam* is the negative of *sam*, and *nemam* is the negative of *imam*.",
+        "infokratko": "Look for *ne* before the verb. Hidden negatives: *nisam*, *nemam*.",
         "stupci": "✓ POZITIVNO | ✗ NEGATIVNO",
         "opis": "Sort the forms. Watch out — biti and imati hide their \"ne\" inside the word."
       },
@@ -18678,6 +18812,7 @@ window.PODACI = {
       "naslov": "Make it negative",
       "meta": {
         "info": "Add *ne* and change nothing else: the verb keeps its ending and the object keeps its shape, so *Pijem sok* becomes *Ne pijem sok*. When the subject is stated, *ne* still hugs the verb — *Ana ne piše pismo*.",
+        "infokratko": "Add *ne*, change nothing else: *Ne pijem sok. Ana ne piše pismo.*",
         "opis": "Negate the sentence. The verb keeps its ending — you only add one word."
       },
       "stavke": [
@@ -18726,6 +18861,7 @@ window.PODACI = {
       "naslov": "Write the whole sentence",
       "meta": {
         "info": "Full production from English. Croatian has one present tense, so *I drink* and *I am drinking* are both *pijem*, and the pronoun is optional. For a negative, put *ne* in front of the verb and leave everything else alone.",
+        "infokratko": "One present tense: *I drink / I am drinking* = *pijem*. Negative: *ne* + verb.",
         "opis": "The last step — the English sentence, and you write the Croatian. The pronoun is optional with *ja* and *ti*, so both versions are accepted there; with *on* and *ona* keep it."
       },
       "stavke": [
@@ -18801,7 +18937,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A wrap-up page with nothing to answer. The rule to carry forward: learn every verb by its *ja* form, take off **-m** for *on* or *ona*, swap in **-š** for *ti*, and put *ne* before the verb to say that you don't."
+        "info": "A wrap-up page with nothing to answer. The rule to carry forward: learn every verb by its *ja* form, take off **-m** for *on* or *ona*, swap in **-š** for *ti*, and put *ne* before the verb to say that you don't.",
+        "infokratko": "Learn the *ja* form; **-m** off for on/ona, **-š** for ti; *ne* before the verb."
       },
       "stavke": [
         [
@@ -18825,7 +18962,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: A day in the apartment",
       "meta": {
-        "info": "Your first reading, and every action in it is an on/ona form with no ending added, so look for the name and then the verb: *Marko pije*, *Ana jede*. The listed new words are there for recognition only — you don't have to produce them."
+        "info": "Your first reading, and every action in it is an on/ona form with no ending added, so look for the name and then the verb: *Marko pije*, *Ana jede*. The listed new words are there for recognition only — you don't have to produce them.",
+        "infokratko": "All on/ona forms: find the name, then the verb. *Marko pije. Ana jede.*"
       },
       "stavke": [
         [
@@ -18887,6 +19025,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension straight from the text above. The answer is almost always the word sitting right after the verb, because Croatian leaves the object there unchanged: *Marko pije **sok***, *On piše **tekst***.",
+        "infokratko": "The answer is usually the word after the verb: *Marko pije sok*.",
         "tekst": "Marko radi. On piše tekst. Ana uči. Ona čita udžbenik. Pas spava. Mačka gleda kroz prozor. Marko pije sok. Ana jede sendvič. Radio svira. Dan je miran.",
         "opis": "Answer from the text."
       },
@@ -18926,7 +19065,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: What are you doing?",
       "meta": {
-        "info": "A dialogue, so the endings switch from line to line: **-š** asks about you (*Što piješ?*) and **-m** answers about me (*Pijem čaj*). Track who owns each line — the two speakers are drinking different things."
+        "info": "A dialogue, so the endings switch from line to line: **-š** asks about you (*Što piješ?*) and **-m** answers about me (*Pijem čaj*). Track who owns each line — the two speakers are drinking different things.",
+        "infokratko": "**-š** asks about you (*Što piješ?*), **-m** answers (*Pijem čaj*)."
       },
       "stavke": [
         [
@@ -18982,6 +19122,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Truth checks against the dialogue, and the trap is ownership: an **-m** form belongs to whoever is speaking, not to the person being addressed. Ana is the one who says *Pijem čaj*, so *Ana pije sok* cannot be true.",
+        "infokratko": "**-m** belongs to the speaker: Ana says *Pijem čaj*.",
         "tekst": "— Bok, Ana! Što radiš? — Učim hrvatski. A ti? — Ja gledam film. — Je li film dobar? — Da, jako je dobar. Što piješ? — Pijem čaj. Čaj je topao. — Ja pijem sok. Jedeš li? — Da, jedem kruh i sir.",
         "opis": "Tap true or false — careful who says what!"
       },
@@ -19018,7 +19159,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: Evening",
       "meta": {
-        "info": "A third reading, mostly on/ona forms with one *ja* slipped in — *Ja čitam strip* is the narrator speaking. The family words *tata*, *mama*, *brat* and *sestra* are recognition only; the full set comes in Lesson 4."
+        "info": "A third reading, mostly on/ona forms with one *ja* slipped in — *Ja čitam strip* is the narrator speaking. The family words *tata*, *mama*, *brat* and *sestra* are recognition only; the full set comes in Lesson 4.",
+        "infokratko": "Mostly on/ona; *Ja čitam strip* is the narrator."
       },
       "stavke": [
         [
@@ -19074,6 +19216,7 @@ window.PODACI = {
       "naslov": "Type the verb from the text",
       "meta": {
         "info": "You type the whole verb, so the subject picks the ending: *tata*, *mama* and *sestra* are all on/ona and take the bare form (*kuha*, *piše*, *jede*), while *Ja* takes **-m** and gives *čitam*.",
+        "infokratko": "*tata, mama, sestra* → bare (*kuha, piše*); *ja* → **-m** (*čitam*).",
         "tekst": "Večer je. Tata kuha. Mama piše e-mail. Brat sluša radio. Ja čitam strip. Strip je smiješan. Pas sjedi i čeka. On gleda... sendvič! Sestra jede sendvič. Poslije pas spava.",
         "opis": "Type the whole verb from the text."
       },
@@ -19115,6 +19258,7 @@ window.PODACI = {
       "naslov": "Did you get it? — the evening",
       "meta": {
         "info": "Comprehension on the evening text. Read it in the order Croatian writes it — subject, verb, object, as in *Mama piše e-mail*. For the adjective questions, pick the form that agrees with its noun: *strip je smiješan*.",
+        "infokratko": "Subject, verb, object: *Mama piše e-mail*. *strip je smiješan*.",
         "tekst": "Večer je. Tata kuha. Mama piše e-mail. Brat sluša radio. Ja čitam strip. Strip je smiješan. Pas sjedi i čeka. On gleda... sendvič! Sestra jede sendvič. Poslije pas spava.",
         "opis": "Answer from the text."
       },
@@ -19165,7 +19309,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Sunday",
       "meta": {
-        "info": "The negation reading: watch for *ne* standing in front of the verb, which flips the meaning and changes nothing else — *Ana **ne** čita udžbenik*. With *nitko* the *ne* stays too, so *nitko ne radi* means nobody is working."
+        "info": "The negation reading: watch for *ne* standing in front of the verb, which flips the meaning and changes nothing else — *Ana **ne** čita udžbenik*. With *nitko* the *ne* stays too, so *nitko ne radi* means nobody is working.",
+        "infokratko": "*ne* before the verb flips the meaning: *Ana ne čita*. *nitko ne radi* = nobody works."
       },
       "stavke": [
         [
@@ -19244,6 +19389,7 @@ window.PODACI = {
       "naslov": "A quiet afternoon",
       "meta": {
         "info": "A conversation about what each of you is doing, so the ending changes with the speaker. A question about you carries **-š** (*Što radiš?*) and your answer carries **-m** (*Učim hrvatski*). Because the ending already names the person, you can leave *ja* out.",
+        "infokratko": "**-š** in the question (*Što radiš?*), **-m** in the answer (*Učim hrvatski*).",
         "opis": "Your neighbour Marko calls in the afternoon. Choose your replies. Passive words: *Dobar tek!* (Enjoy your meal!), *A ti?* (And you?), *Vidimo se!* (See you!)."
       },
       "stavke": [
@@ -19314,6 +19460,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "Building Croatian from English out of tiles. Two things fix the order: the ending has to match the subject, and *ne* goes immediately before the verb. If no pronoun tile is offered, none is needed — *Pijem čaj* is already complete.",
+        "infokratko": "Ending matches the subject; *ne* right before the verb. *Pijem čaj* is complete.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read."
       },
       "stavke": [
@@ -21369,7 +21516,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Flow like a native",
       "meta": {
-        "info": "A short intro page: it shows what **i**, **a** and **ali** buy you — three words that turn separate little sentences into one flowing thought. Look at *Tata kuha, a brat uči*: two people, two actions, one sentence."
+        "info": "A short intro page: it shows what **i**, **a** and **ali** buy you — three words that turn separate little sentences into one flowing thought. Look at *Tata kuha, a brat uči*: two people, two actions, one sentence.",
+        "infokratko": "**i**, **a** and **ali** join short sentences into one: *Tata kuha, a brat uči.*"
       },
       "stavke": [
         [
@@ -21394,6 +21542,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed sprint on the Lesson 3 present tense. Only the ending moves: for *ja* it is **-am** (*gledam*), **-em** (*pijem*) or **-im** (*učim*); *ti* swaps that **-m** for **-š**, and *on/ona* drops it — *gleda*, *pije*, *uči*.",
+        "infokratko": "Lesson 3 against the clock. *ja* **-am/-em/-im**, *ti* **-š**, *on/ona* bare: *gleda, pije, uči*.",
         "trajanje": "60",
         "opis": "Verb sprint! Everything here is from Lesson 3 — tap the correct form before the timer runs out."
       },
@@ -21447,6 +21596,7 @@ window.PODACI = {
       "naslov": "Meet the family",
       "meta": {
         "info": "Flashcards for the family words you will use all lesson. The four new verbs split the usual way, so learn the *ja* form and the rest follows: *kuham* and *čekam* take **-am**, *čistim* and *sjedim* take **-im**.",
+        "infokratko": "Family words and new verbs. Learn the *ja* form: *kuham, čekam* (**-am**), *čistim, sjedim* (**-im**).",
         "opis": "The people you'll be talking about all lesson. Four new verbs come with them — **kuhati**, **čistiti**, **sjediti**, **čekati** — and they all follow the Lesson 3 pattern: kuham, kuhaš, kuha."
       },
       "stavke": [
@@ -21531,6 +21681,7 @@ window.PODACI = {
       "naslov": "Boy word, girl word",
       "meta": {
         "info": "Sorting nouns by gender from their last letter: **-a** is feminine (*sestra*), **-o** or **-e** neuter (*pismo*, *more*), a consonant masculine (*brat*). Two to memorise: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**.",
+        "infokratko": "**-a** feminine, **-o/-e** neuter, consonant masculine. Exceptions: *obitelj* (f), *tata* (m).",
         "stupci": "MUŠKI | ŽENSKI | SREDNJI",
         "opis": "Lesson 1 taught you that the last letter gives away the gender, and family words play by exactly the same rule. Two famous traps: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**."
       },
@@ -21611,7 +21762,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Three little connectors",
       "meta": {
-        "info": "The rule page for today. **i** simply adds (*Mama radi i čita*), **a** puts two different subjects side by side (*Tata kuha, a brat uči*), and **ali** is a real *but* (*Stan je mali, ali je dom topao*)."
+        "info": "The rule page for today. **i** simply adds (*Mama radi i čita*), **a** puts two different subjects side by side (*Tata kuha, a brat uči*), and **ali** is a real *but* (*Stan je mali, ali je dom topao*).",
+        "infokratko": "**i** adds (*Mama radi i čita*), **a** sets two subjects side by side (*Tata kuha, a brat uči*), **ali** = but."
       },
       "stavke": [
         [
@@ -21660,6 +21812,7 @@ window.PODACI = {
       "naslov": "Choose the connector",
       "meta": {
         "info": "You pick the connector that fits each join. Ask what the second half does: more of the same wants **i**, a different person doing something else wants **a**, a surprise wants **ali**. The comma already printed there rules **i** out.",
+        "infokratko": "More of the same → **i**. Different person → **a**. Surprise → **ali**. A comma rules out **i**.",
         "opis": "Which little word fits? Choose i, a or ali."
       },
       "stavke": [
@@ -21724,6 +21877,7 @@ window.PODACI = {
       "naslov": "Join the sentences",
       "meta": {
         "info": "You build one joined sentence out of two short ones, so the punctuation is yours too. No comma before **i** (*Djed sjedi i čeka*), always a comma before **a** and **ali** (*Baka čita, a djed gleda film*).",
+        "infokratko": "No comma before **i**; always a comma before **a** and **ali**: *Baka čita, a djed gleda film.*",
         "opis": "Two short sentences become one — build the joined sentence."
       },
       "stavke": [
@@ -21761,6 +21915,7 @@ window.PODACI = {
       "naslov": "Sunday at the family's",
       "meta": {
         "info": "A conversation where you choose each of your own replies. Keep them in the *ja* form (*radim*, *ne kuham*, with *ne* right before the verb) and use *A ti?* to hand the question back — **a** is the natural word for turning to the other person.",
+        "infokratko": "Answer in the *ja* form, *ne* before the verb (*ne kuham*), and hand it back with *A ti?*",
         "opis": "You bump into your neighbour Ivana on a Sunday morning. Choose your replies and keep the conversation going! Passive words: *gdje* (where), *zajedno* (together), *uvijek* (always), *već* (already)."
       },
       "stavke": [
@@ -21826,6 +21981,7 @@ window.PODACI = {
       "naslov": "Type the connector",
       "meta": {
         "info": "Now you type the connector instead of tapping it. Punctuation narrows the field first: a comma in the sentence rules out **i**. Then meaning decides — a second, different subject takes **a**, an unexpected turn takes **ali**.",
+        "infokratko": "Comma in the sentence? Not **i**. New subject → **a**; unexpected turn → **ali**.",
         "opis": "Type the missing word — i, a or ali."
       },
       "stavke": [
@@ -21870,6 +22026,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the family words. Use the endings as a hook while you flip: *mama*, *sestra* and *baka* end in **-a** and are feminine, *brat*, *djed* and *dom* end in a consonant and are masculine, and *obitelj* is the feminine exception.",
+        "infokratko": "Family words. *mama, sestra, baka* feminine; *brat, djed, dom* masculine; *obitelj* feminine.",
         "opis": "Find the pairs — each family word hides its English partner."
       },
       "stavke": [
@@ -21925,7 +22082,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reading the questions",
       "meta": {
-        "info": "A recognition page for six Croatian question words, since questions about texts are now asked in Croatian. Croatian needs no *do* or *does*: the question word plus the plain present tense is the whole question — *Što radi tata?* The full rules come in Lesson 11."
+        "info": "A recognition page for six Croatian question words, since questions about texts are now asked in Croatian. Croatian needs no *do* or *does*: the question word plus the plain present tense is the whole question — *Što radi tata?* The full rules come in Lesson 11.",
+        "infokratko": "Question word + present tense, no *do/does*: *Što radi tata?*"
       },
       "stavke": [
         [
@@ -21991,6 +22149,7 @@ window.PODACI = {
       "naslov": "Read about the family",
       "meta": {
         "info": "You read a short text about the Horvat family, then answer questions asked in Croatian. Watch *tko* (who) and *što* (what), and follow the connectors: after **a** expect a different person, after **ali** expect the opposite of what you just read.",
+        "infokratko": "Read, then answer. *tko* = who, *što* = what. After **a** a new person, after **ali** the opposite.",
         "tekst": "Ovo je obitelj Horvat. Djed je star, ali je veseo. Baka kuha i sluša radio. Tata čisti, a mama radi. Sestra je mala i još spava. Brat sjedi i čeka. Pas je tih, a mačka je glasna. Kuća je stara, ali je topla.",
         "opis": "Read about the Horvat family, then answer the questions. Passive words: *tih* (quiet), *glasan* (loud) — you only need to recognise them here."
       },
@@ -22038,6 +22197,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The mixed end-of-lesson check: connectors, commas and family vocabulary. One rule carries most of the points — **i** never takes a comma, **a** and **ali** always do — and **a** is the choice whenever the second half brings in a new subject.",
+        "infokratko": "Connectors, commas and family words. **i** without a comma, **a** and **ali** with one.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 4."
       },
@@ -22125,7 +22285,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "The wrap-up page. Everything here keeps paying off: **i** adds, **a** contrasts two subjects, **ali** twists, and words like *obitelj*, *baka* and *djed* are among the nouns you will meet most often in real Croatian."
+        "info": "The wrap-up page. Everything here keeps paying off: **i** adds, **a** contrasts two subjects, **ali** twists, and words like *obitelj*, *baka* and *djed* are among the nouns you will meet most often in real Croatian.",
+        "infokratko": "**i** adds, **a** contrasts two subjects, **ali** twists."
       },
       "stavke": [
         [
@@ -22147,6 +22308,7 @@ window.PODACI = {
       "naslov": "Close family",
       "meta": {
         "info": "Flashcards for the closest relatives. The ending usually gives the gender away — *mama*, *sestra*, *baka* and *žena* in **-a** are feminine, *brat*, *sin* and *muž* are masculine — but *tata* looks feminine and is **masculine**.",
+        "infokratko": "Close family. *mama, sestra, baka, žena* f; *brat, sin, muž* m; *tata* is masculine.",
         "opis": "Start with the people closest to you. Notice how many end in **-a** — Croatian family words are mostly short and warm."
       },
       "stavke": [
@@ -22223,6 +22385,7 @@ window.PODACI = {
       "naslov": "The wider circle",
       "meta": {
         "info": "Relatives beyond the household plus the polite words for strangers. Two things to note: *kolega* ends in **-a** yet is **masculine**, like *tata*, and the female counterpart takes **-ica**, so *prijatelj* becomes *prijateljica*.",
+        "infokratko": "Wider family and polite words. *kolega* is masculine; *prijatelj → prijateljica*.",
         "opis": "Aunts, uncles, neighbours and the polite words you use with strangers. *Gospodin* and *gospođa* are the everyday *Mr* and *Mrs* — you'll hear them in every shop. Watch *kolega*: it ends in **-a** but it is **masculine**."
       },
       "stavke": [
@@ -22303,6 +22466,7 @@ window.PODACI = {
       "naslov": "Home and around it",
       "meta": {
         "info": "Vocabulary for the place the family lives in. Keep two of them apart: *kuća* and *stan* are the building, while *dom* is the home you feel — exactly the contrast in *Stan je mali, ali je dom topao*.",
+        "infokratko": "Home words. *kuća, stan* = the building; *dom* = home.",
         "opis": "Where the family lives. **dom** is the *home* you feel; **kuća** and **stan** are the building you live in."
       },
       "stavke": [
@@ -22371,6 +22535,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching for the family and the home. While you tap, read the last letter of each word: *baka* and *sestra* end in **-a** and are feminine, *brat* and *djed* end in a consonant and are masculine, and *dijete* is neuter.",
+        "infokratko": "Picture and word. *baka, sestra* f; *brat, djed* m; *dijete* n.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -22435,6 +22600,7 @@ window.PODACI = {
       "naslov": "Eleven new verbs",
       "meta": {
         "info": "Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomaž-*: *pomažem*, *pomažeš*, *pomaže*.",
+        "infokratko": "Learn the *ja* form: **-m** → **-š** for *ti*, drop for *on/ona*. *pomažem, pomažeš, pomaže*.",
         "opis": "Same trick as Lesson 3 — learn the **ja** form and the other two follow. *pomagati* and *ustajati* change the middle a little; the endings never lie."
       },
       "stavke": [
@@ -22495,6 +22661,7 @@ window.PODACI = {
       "naslov": "Three families again",
       "meta": {
         "info": "You sort the new verbs into the three present-tense families from Lesson 3. Do not trust the infinitive — *voljeti* gives *volim*, not *voljem* — so sort by the *ja* form from the cards: **-am**, **-im** or **-em**.",
+        "infokratko": "Sort by the *ja* form: **-am, -im, -em**. *voljeti → volim*.",
         "stupci": "-AM | -IM | -EM",
         "opis": "The same three verb families you met in Lesson 3, now with the new verbs. Five say -am, four say -im, two say -em."
       },
@@ -22556,6 +22723,7 @@ window.PODACI = {
       "naslov": "Little words that hold a sentence together",
       "meta": {
         "info": "The four connectors plus five very frequent small words. In one line: **i** adds, **a** puts two different subjects side by side, **ali** is a real *but*, and **jer** gives the reason. Grammar 4 drills which one does which.",
+        "infokratko": "**i** adds, **a** contrasts subjects, **ali** = but, **jer** = because.",
         "opis": "Four connectors and five words you'll sprinkle everywhere. Grammar 4 shows exactly which connector does which job."
       },
       "stavke": [
@@ -22608,6 +22776,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Matching family words to their English meanings. Two sets are easy to confuse: *sin* is son and *kći* is daughter, and *unuk* is a grandson while *ujak* is an uncle — your mother's brother, as opposed to *stric*.",
+        "infokratko": "*sin* son, *kći* daughter; *unuk* grandson, *ujak* uncle (mother's brother).",
         "opis": "Match each family word with its English meaning."
       },
       "stavke": [
@@ -22672,6 +22841,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A flip-and-find game over the home words. A hook while you play: *stan* and *kuća* are the building you live in, *dom* is the home you feel, and *soba* is any single room inside it.",
+        "infokratko": "*stan, kuća* building; *dom* home; *soba* room.",
         "opis": "Flip the cards and find the pairs — the home edition."
       },
       "stavke": [
@@ -22728,6 +22898,7 @@ window.PODACI = {
       "naslov": "Speed challenge: people",
       "meta": {
         "info": "Timed recognition of the people words. Speed comes from recognising shapes: **-ica** marks a female counterpart (*prijateljica*), and *djetinjstvo* is built on *dijete* (child), so *djet-* should already suggest childhood.",
+        "infokratko": "**-ica** = female (*prijateljica*); *djetinjstvo* from *dijete*.",
         "trajanje": "60",
         "opis": "Tap the English meaning — people sprint!"
       },
@@ -22837,6 +23008,7 @@ window.PODACI = {
       "naslov": "Speed challenge: the ja-form",
       "meta": {
         "info": "The *ja* forms flash past and you tap the meaning. The final **-m** is itself the *I*, so *kuham* is *I cook*; the vowel in front of it (**-am**, **-im** or **-em**) only tells you which verb family the word belongs to.",
+        "infokratko": "**-m** = I: *kuham* = I cook.",
         "trajanje": "60",
         "opis": "The **ja** form flashes — tap the English meaning!"
       },
@@ -22898,6 +23070,7 @@ window.PODACI = {
       "naslov": "Type the ja-form",
       "meta": {
         "info": "You get the infinitive and type the form you use about yourself. Most just take the family vowel plus **-m**: *kuhati* gives *kuham*, *sjediti* gives *sjedim*. Watch the ones whose stem shifts: *voljeti* gives *volim*, *pomagati* gives *pomažem*.",
+        "infokratko": "Family vowel + **-m**: *kuham, sjedim*. Shifts: *volim, pomažem*.",
         "opis": "You get the infinitive — type the form you would use about yourself."
       },
       "stavke": [
@@ -22958,6 +23131,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Five words here need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.",
+        "infokratko": "New letters: *kći* **ć**, *gospođa* **đ**; **lj**, **nj** are single letters.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
       },
       "stavke": [
@@ -23014,6 +23188,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "The production round: English in, Croatian out, spelled by ear. Croatian writes one sound per letter, so nothing is silent or doubled — but the diacritics are full letters and must be typed: *kći*, *žena*, *čovjek*, *kuća*.",
+        "infokratko": "Diacritics are letters: *kći, žena, čovjek, kuća*.",
         "opis": "The final round — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
       },
       "stavke": [
@@ -23137,7 +23312,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: three connectors, three jobs",
       "meta": {
-        "info": "The core rule page for joining sentences. **i** adds more of the same and happily keeps one subject (*Mama radi i čita*), **a** sets two subjects against each other (*Tata kuha, a brat uči*), and **ali** marks something unexpected (*Stan je mali, ali je dom topao*)."
+        "info": "The core rule page for joining sentences. **i** adds more of the same and happily keeps one subject (*Mama radi i čita*), **a** sets two subjects against each other (*Tata kuha, a brat uči*), and **ali** marks something unexpected (*Stan je mali, ali je dom topao*).",
+        "infokratko": "**i** adds (*Mama radi i čita*), **a** contrasts subjects (*Tata kuha, a brat uči*), **ali** = unexpected but."
       },
       "stavke": [
         [
@@ -23185,6 +23361,7 @@ window.PODACI = {
       "naslov": "i, a or ali?",
       "meta": {
         "info": "One of three connectors per sentence. Test the second half: same subject, more of the same means **i**; a new person doing something else means **a**; a twist you did not see coming means **ali**. If English could say *whereas*, Croatian wants **a**.",
+        "infokratko": "Same subject, more → **i**; new person → **a**; twist → **ali**. *whereas* = **a**.",
         "opis": "Choose the connector."
       },
       "stavke": [
@@ -23248,7 +23425,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The comma rule",
       "meta": {
-        "info": "This page hands you the punctuation half of the rule, and at this level it has no exceptions. No comma before **i** (*Kava je dobra i topla*), always a comma before **a** (*Baka čita, a djed gleda film*) and before **ali** (*Pas je star, ali je veseo*)."
+        "info": "This page hands you the punctuation half of the rule, and at this level it has no exceptions. No comma before **i** (*Kava je dobra i topla*), always a comma before **a** (*Baka čita, a djed gleda film*) and before **ali** (*Pas je star, ali je veseo*).",
+        "infokratko": "No comma before **i**; always before **a** and **ali**."
       },
       "stavke": [
         [
@@ -23293,6 +23471,7 @@ window.PODACI = {
       "naslov": "Comma or not?",
       "meta": {
         "info": "Two spellings of the same sentence, and you pick the one Croatian accepts. Only the comma differs, so apply the rule mechanically: **i** never takes one, **a** and **ali** always take one.",
+        "infokratko": "**i** never takes a comma; **a** and **ali** always do.",
         "opis": "Same sentence, two spellings. Only one puts the comma where Croatian wants it."
       },
       "stavke": [
@@ -23334,6 +23513,7 @@ window.PODACI = {
       "naslov": "Comma or no comma?",
       "meta": {
         "info": "Sorting whole sentences by their punctuation, which follows from the connector alone. A sentence joined by **i** goes in the left column, one joined by **a** or **ali** in the right. *Jer* usually takes no comma either, so it belongs on the left as well.",
+        "infokratko": "Left: **i** (and *jer*). Right: **a**, **ali**.",
         "opis": "Does the sentence need a comma before the connector? The connector decides, not the length of the sentence.",
         "stupci": "BEZ ZAREZA | SA ZAREZOM"
       },
@@ -23415,6 +23595,7 @@ window.PODACI = {
       "naslov": "Sort by the job",
       "meta": {
         "info": "You sort bare pairs of ideas into the connector that would join them. One subject doing two things belongs to **i**, two different subjects to **a**, and a pair that clashes — *stan mali* against *dom topao* — to **ali**.",
+        "infokratko": "One subject, two actions → **i**; two subjects → **a**; a clash → **ali**.",
         "stupci": "i | a | ali",
         "opis": "Each tile is two ideas waiting to be joined. Same subject, more of the same → **i**. Two different subjects → **a**. An unexpected twist → **ali**."
       },
@@ -23479,7 +23660,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: a fourth connector — jer",
       "meta": {
-        "info": "This page adds **jer** (because). Unlike *i*, *a* and *ali* it does not balance two equal halves; it makes the second half the reason for the first: *Ne plivam jer je more hladno.* It answers *zašto* on its own and normally takes no comma."
+        "info": "This page adds **jer** (because). Unlike *i*, *a* and *ali* it does not balance two equal halves; it makes the second half the reason for the first: *Ne plivam jer je more hladno.* It answers *zašto* on its own and normally takes no comma.",
+        "infokratko": "**jer** = because; answers *zašto*, usually no comma: *Ne plivam jer je more hladno.*"
       },
       "stavke": [
         [
@@ -23512,7 +23694,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Four connectors, four jobs",
       "meta": {
-        "info": "The summary table for all four. **i** adds and takes no comma, **a** contrasts two subjects with a comma, **ali** twists with a comma, and **jer** explains why and usually takes none — that is the complete joining system at this level."
+        "info": "The summary table for all four. **i** adds and takes no comma, **a** contrasts two subjects with a comma, **ali** twists with a comma, and **jer** explains why and usually takes none — that is the complete joining system at this level.",
+        "infokratko": "**i** no comma, **a** comma, **ali** comma, **jer** usually none."
       },
       "stavke": [
         [
@@ -23567,6 +23750,7 @@ window.PODACI = {
       "naslov": "Which connector?",
       "meta": {
         "info": "All four are in play now. Ask what the second half is doing: adding (**i**), naming a different subject (**a**), contradicting (**ali**) or giving the reason (**jer**). If the sentence answers *zašto*, the word is always **jer**.",
+        "infokratko": "Adding **i**, new subject **a**, contradiction **ali**, reason **jer**.",
         "opis": "All four are in play now. One of them explains *why*."
       },
       "stavke": [
@@ -23637,6 +23821,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "The connectors join two halves, and each half needs a verb with the right ending — the **-m**, **-š** and bare forms from Lesson 3, now on this level's new verbs. *Kuhati*, *čekati*, *šetati* and *razgovarati* take **-am**; *čistiti*, *sjediti*, *voljeti* and *živjeti* take **-im**; *pomagati* gives *pomažem*. No object in these sentences changes shape yet — that starts in Lesson 5.",
+        "infokratko": "Verb endings **-m / -š** / bare. **-am**: *kuham*; **-im**: *čistim*; *pomagati → pomažem*.",
         "nastavci": "m | š | -",
         "opis": "English above, Croatian below. One tap gives the verb its person: **-m** is mine, **-š** is yours, and he or she takes nothing at all."
       },
@@ -23774,6 +23959,7 @@ window.PODACI = {
       "naslov": "Say it the heavier way",
       "meta": {
         "info": "A swap drill: replace *jer* with its formal twin *zato što*. Neither the meaning nor the word order changes — *Volim ljeto jer je more toplo* becomes *Volim ljeto zato što je more toplo* — but in speech people reach for *jer*.",
+        "infokratko": "*jer* → *zato što*, nothing else changes.",
         "opis": "Every *jer* below can be swapped for its formal twin. Type the two-word version — *zato što*."
       },
       "stavke": [
@@ -23806,6 +23992,7 @@ window.PODACI = {
       "naslov": "Type the connector",
       "meta": {
         "info": "You type the connector, and the English hint in brackets tells you the job: *and* is **i**, *whereas* is **a**, *but* is **ali**, *because* is **jer**. A comma already sitting in the sentence rules **i** out straight away.",
+        "infokratko": "*and* **i**, *whereas* **a**, *but* **ali**, *because* **jer**. A comma rules out **i**.",
         "opis": "One word — which connector does the job?"
       },
       "stavke": [
@@ -23854,6 +24041,7 @@ window.PODACI = {
       "naslov": "Type the verb",
       "meta": {
         "info": "Typed production with this level's verbs. Find the *ja* form first and the rest follows: *kuham* gives *kuhaš* and *kuha*, *čistim* gives *čistiš* and *čisti*. Two of them shift the middle — *voljeti* gives *volim* and *pomagati* gives *pomažem*.",
+        "infokratko": "From the *ja* form: *kuham → kuhaš, kuha*. *voljeti → volim*, *pomagati → pomažem*.",
         "opis": "Complete each sentence — type the correct form of the verb in brackets."
       },
       "stavke": [
@@ -23918,6 +24106,7 @@ window.PODACI = {
       "naslov": "The correct sentence",
       "meta": {
         "info": "Whole sentences now, with three things to check at once: the connector has to fit the job, the comma has to follow the connector, and the verb has to match its subject. Only one version of each pair is correct Croatian.",
+        "infokratko": "Check the connector, the comma and the verb ending.",
         "opis": "One of these is how a Croatian would write it."
       },
       "stavke": [
@@ -23984,6 +24173,7 @@ window.PODACI = {
       "naslov": "Join the sentences",
       "meta": {
         "info": "You build the whole joined sentence from tiles, so both the connector and the punctuation are yours to get right. Choose by job among **i**, **a**, **ali** and **jer**, then recall that only **a** and **ali** need a comma.",
+        "infokratko": "Choose the connector by job; comma only before **a** and **ali**.",
         "opis": "Join the two halves with the right connector — build the result."
       },
       "stavke": [
@@ -24023,7 +24213,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: The family",
       "meta": {
-        "info": "A read-along text with the English beside each line. Use it to watch the connectors working: **i** simply adds, **a** hands the sentence to a different person (*Tata kuha, a brat uči*), and **ali** announces the opposite of what you expect."
+        "info": "A read-along text with the English beside each line. Use it to watch the connectors working: **i** simply adds, **a** hands the sentence to a different person (*Tata kuha, a brat uči*), and **ali** announces the opposite of what you expect.",
+        "infokratko": "**i** adds, **a** switches person (*Tata kuha, a brat uči*), **ali** = the unexpected."
       },
       "stavke": [
         [
@@ -24077,6 +24268,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions on the text above, asked in Croatian. *Tko* asks who and *što* asks what; for the last one, the answer is the half that follows **ali** — the surprising side of the sentence.",
+        "infokratko": "*tko* who, *što* what. The last answer is the half after **ali**.",
         "tekst": "Ovo je obitelj. Mama je doktorica i radi puno. Tata kuha, a brat uči. Sestra je mala i još spava. Baka čita, a djed gleda film. Pas je star, ali je veseo. Mačka je tiha, a pas je glasan. Stan je mali, ali je dom topao.",
         "opis": "Answer from the text."
       },
@@ -24120,7 +24312,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: One day",
       "meta": {
-        "info": "A second read-along, following two people through one day. All four connectors appear, including **jer**: in *On radi brzo jer je kasno* everything after *jer* is the reason, not a new event."
+        "info": "A second read-along, following two people through one day. All four connectors appear, including **jer**: in *On radi brzo jer je kasno* everything after *jer* is the reason, not a new event.",
+        "infokratko": "**jer** gives the reason: *On radi brzo jer je kasno.*"
       },
       "stavke": [
         [
@@ -24175,6 +24368,7 @@ window.PODACI = {
       "naslov": "Type the connector",
       "meta": {
         "info": "You retype the connector that stood in the text. Let punctuation narrow it: with no comma it is **i** or **jer**, and *jer* only fits where the second half explains why. With a comma it is **a** (a new subject) or **ali** (a twist).",
+        "infokratko": "No comma: **i** or **jer** (reason). Comma: **a** (new subject) or **ali** (twist).",
         "tekst": "Jutro je. Ana ustaje rano, ali Marko još spava. Ana pije čaj i jede kruh. Marko ustaje kasno, a posao čeka! On radi brzo jer je kasno. Poslije, Ana uči hrvatski, a Marko sluša radio. Oni gledaju film i jedu sladoled. Film je dug, ali je odličan.",
         "opis": "Type the missing connector — i, a, ali or jer — exactly as it stands in the text."
       },
@@ -24220,6 +24414,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "True or false statements about the text, and the trap is who did what. **a** switches subject and **ali** reverses the idea, so *Ana ustaje rano, ali Marko još spava* makes any claim about Marko getting up early false.",
+        "infokratko": "Watch who did what: *Ana ustaje rano, ali Marko još spava.*",
         "tekst": "Jutro je. Ana ustaje rano, ali Marko još spava. Ana pije čaj i jede kruh. Marko ustaje kasno, a posao čeka! Poslije, Ana uči hrvatski, a Marko sluša radio. Večer je. Oni gledaju film i jedu sladoled. Film je dug, ali je odličan.",
         "opis": "Tap true or false — careful who does what!"
       },
@@ -24261,7 +24456,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: The weekend",
       "meta": {
-        "info": "A read-along chat between two friends. Notice how **a** organises the whole conversation: it keeps two different people's plans side by side, as in *Brat i ja gledamo film, a mama i tata slušaju koncert* — always with a comma."
+        "info": "A read-along chat between two friends. Notice how **a** organises the whole conversation: it keeps two different people's plans side by side, as in *Brat i ja gledamo film, a mama i tata slušaju koncert* — always with a comma.",
+        "infokratko": "**a** puts two people's plans side by side, always with a comma."
       },
       "stavke": [
         [
@@ -24308,6 +24504,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "You put the chat lines back into their original order. Follow the question-and-answer chain and the time words *danas*, *ujutro*, *poslije* and *večeras*, and remember that the last line reacts to whatever came right before it.",
+        "infokratko": "Follow questions and answers and *danas, ujutro, poslije, večeras*.",
         "opis": "Rebuild the weekend chat — put the lines into order."
       },
       "stavke": [
@@ -24344,7 +24541,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Why Saturday is the best",
       "meta": {
-        "info": "The longest text yet, built around **jer**. Each time it appears the sentence stops describing and starts explaining — *Sestra ne uči jer je subota* — and note that *ne* still sits directly in front of its verb."
+        "info": "The longest text yet, built around **jer**. Each time it appears the sentence stops describing and starts explaining — *Sestra ne uči jer je subota* — and note that *ne* still sits directly in front of its verb.",
+        "infokratko": "**jer** explains: *Sestra ne uči jer je subota.*"
       },
       "stavke": [
         [
@@ -24415,6 +24613,7 @@ window.PODACI = {
       "naslov": "Did you get it? — Saturday",
       "meta": {
         "info": "Comprehension questions, most of them opening with *zašto* (why). A *zašto* question is answered by the *jer*-half alone, so find the *jer* in the matching line and read what follows it; nothing else needs repeating.",
+        "infokratko": "*zašto?* → answer with the *jer*-half.",
         "tekst": "Subota je. Baka kuha jer danas svi jedu zajedno. Kuhinja je mala, ali je topla. Djed čisti, a mama i tata rade. Sestra ne uči jer je subota. Ona sjedi i gleda film. Brat šeta jer je dan lijep. Ja ne šetam jer sam umoran. Ja sjedim i čekam jer sam gladan. Dom je mali, ali je veseo. Subota je savršena jer je obitelj zajedno.",
         "opis": "Answer from the text. Every question is a *why* question in disguise."
       },
@@ -24468,6 +24667,7 @@ window.PODACI = {
       "naslov": "Saturday at home",
       "meta": {
         "info": "A conversation held together by the connectors: **i** adds, **a** puts two different people side by side, **ali** turns the sentence around, and **jer** gives the reason. A comma goes before *a* and *ali*, never before *i*.",
+        "infokratko": "**i** adds, **a** contrasts, **ali** turns, **jer** gives the reason. Comma before *a*, *ali*.",
         "opis": "Your neighbour Ivana calls on a Saturday morning. Choose your replies. Passive words: *kasno* (late), *samo malo* (only a little), *zajedno* (together), *Vidimo se!* (See you!)."
       },
       "stavke": [
@@ -24542,6 +24742,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian out, built from tiles, all taken from the four texts. Two things earn the points: the right connector for the job (**i**, **a**, **ali**, **jer**) and the comma — always with **a** and **ali**, never with **i**.",
+        "infokratko": "Right connector, and a comma with **a** and **ali**, never with **i**.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read."
       },
       "stavke": [
@@ -26436,7 +26637,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "A big day",
       "meta": {
-        "info": "This page introduces your first Croatian case in a single letter. A feminine noun ends in **-a** when it simply names something, but **-u** when it is the target of the verb: *Kava je dobra* becomes *Pijem kav**u***."
+        "info": "This page introduces your first Croatian case in a single letter. A feminine noun ends in **-a** when it simply names something, but **-u** when it is the target of the verb: *Kava je dobra* becomes *Pijem kav**u***.",
+        "infokratko": "Your first case: **-a** names a thing, **-u** marks what the verb acts on. *Kava je dobra. Pijem kavu.*"
       },
       "stavke": [
         [
@@ -26464,6 +26666,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the Lesson 4 connectors. ***i*** adds, ***a*** sets two halves side by side, ***ali*** twists against expectation, and ***jer*** gives the reason; a comma goes before *a* and *ali*.",
+        "infokratko": "Warm-up on Lesson 4: ***i*** adds, ***a*** contrasts, ***ali*** twists, ***jer*** gives the reason. Comma before *a* and *ali*.",
         "trajanje": "60",
         "opis": "Warm-up from Lesson 4 — tap the right connector before the timer runs out. Four buttons, four jobs: **i** adds, **a** contrasts, **ali** twists, **jer** explains."
       },
@@ -26529,6 +26732,7 @@ window.PODACI = {
       "naslov": "Market words",
       "meta": {
         "info": "Flashcards for a market trip. Words ending in **-a** are feminine and will swap that -a for **-u** the moment you buy or drink them, while *kruh*, *sok* and *sir* end in a consonant and stay exactly as they are.",
+        "infokratko": "Market words. The ones ending in **-a** will turn into **-u** when you buy or drink them; *kruh*, *sok* and *sir* stay the same.",
         "opis": "Everything you need for a trip to the market. Notice how many end in **-a** — those are the ones today's rule is about. The last four don't, and that turns out to matter."
       },
       "stavke": [
@@ -26629,6 +26833,7 @@ window.PODACI = {
       "naslov": "Spot the pattern",
       "meta": {
         "info": "Sorting by job, before anyone states the rule. If the word is merely being named it keeps **-a** (*Kava je dobra*); if a verb acts on it, the ending turns into **-u** (*Pijem kavu*). One word, two roles, two endings.",
+        "infokratko": "Sort by role: just named → **-a** (*Kava je dobra*), acted on by a verb → **-u** (*Pijem kavu*).",
         "stupci": "FORM -A | FORM -U",
         "opis": "Is the word naming something, or is it the target of the action? Sort the sentences and see if you can feel the rule before anyone tells it to you."
       },
@@ -26709,7 +26914,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The one-letter rule",
       "meta": {
-        "info": "The rule in plain words: a feminine **-a** becomes **-u** whenever the noun is the target of a verb such as *pijem*, *jedem*, *kupujem* or *trebam*. Things like *sok* and *kruh* do not change at all yet."
+        "info": "The rule in plain words: a feminine **-a** becomes **-u** whenever the noun is the target of a verb such as *pijem*, *jedem*, *kupujem* or *trebam*. Things like *sok* and *kruh* do not change at all yet.",
+        "infokratko": "Feminine **-a** becomes **-u** after verbs like *pijem, jedem, kupujem, trebam*. *Sok* and *kruh* don't change."
       },
       "stavke": [
         [
@@ -26756,6 +26962,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap supplies the missing final letter. Ask what the noun is doing: naming takes **-a**, being acted on takes **-u**. Compare *Jabuk**a** je crvena* with *Jedem jabuk**u***.",
+        "infokratko": "Named: **-a**. Acted on: **-u**. *Jabuka je crvena. Jedem jabuku.*",
         "nastavci": "a | u",
         "opis": "English above, Croatian below. The word is waiting for its last letter — one tap. Naming takes **-a**, target takes **-u**. Read the pairs and the rule writes itself."
       },
@@ -26893,6 +27100,7 @@ window.PODACI = {
       "naslov": "Transformation drill",
       "meta": {
         "info": "You type the full target form yourself. Only the last letter moves: *voda → vod**u***, *kruška → krušk**u***. Nothing else shifts — no extra syllable, no changed consonant, diacritics stay put.",
+        "infokratko": "Type the target form. Only the last letter changes: *voda → vodu, kruška → krušku*.",
         "opis": "Turn each word into its target form — type the whole new word."
       },
       "stavke": [
@@ -26969,6 +27177,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Choosing between the naming and the target form. After a verb that acts on the noun, pick **-u**; for a subject sitting before *je*, pick **-a**. Watch the *kruh* and *sok* items — as targets they keep exactly the same shape.",
+        "infokratko": "After a verb that acts on it: **-u**. Before *je*: **-a**. *Kruh* and *sok* keep their shape.",
         "opis": "Choose the correct form to complete the sentence."
       },
       "stavke": [
@@ -27057,6 +27266,7 @@ window.PODACI = {
       "naslov": "Build your shopping sentences",
       "meta": {
         "info": "Building whole sentences from tiles. Any noun in **-a** after *trebam*, *kupujem*, *volim* or *jedem* has to land on **-u**, and a comma comes before *a* and *ali*: *Mama kuha juhu, a ja jedem pitu*.",
+        "infokratko": "Nouns in **-a** after *trebam, kupujem, volim, jedem* end in **-u**. Comma before *a* and *ali*.",
         "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
@@ -27102,7 +27312,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Asking a yes-or-no question: li",
       "meta": {
-        "info": "This page hands you the yes-or-no question. Verb first, then ***li***, then the rest: *Trebate **li** vrećicu?* With *biti* you use *jesi li* and *je li*, and you answer by repeating the verb — *Trebam* or *Ne trebam*."
+        "info": "This page hands you the yes-or-no question. Verb first, then ***li***, then the rest: *Trebate **li** vrećicu?* With *biti* you use *jesi li* and *je li*, and you answer by repeating the verb — *Trebam* or *Ne trebam*.",
+        "infokratko": "Yes-or-no question: verb + ***li*** + the rest. *Trebate li vrećicu?* Answer with the verb: *Trebam* or *Ne trebam*."
       },
       "stavke": [
         [
@@ -27155,6 +27366,7 @@ window.PODACI = {
       "naslov": "At the shop",
       "meta": {
         "info": "A live shop conversation where you pick your replies. Everything you ask for is a target, so feminine words end in **-u** (*Trebam vod**u***), and the assistant's *Trebate li vrećicu?* is verb plus *li*.",
+        "infokratko": "Everything you ask for ends in **-u**: *Trebam vodu*. *Trebate li vrećicu?* is verb + *li*.",
         "opis": "You walk into a small shop in Split. Choose your replies and do your first shopping in Croatian! Passive words: *odličnu* (excellent), *jednu* (one), *Vidimo se!* (See you!) — whole phrases for now."
       },
       "stavke": [
@@ -27216,6 +27428,7 @@ window.PODACI = {
       "naslov": "Accusative sprint",
       "meta": {
         "info": "A timed swap from naming form to target form. Only the final letter changes: *kava → kav**u***, *tržnica → tržnic**u***. Speed comes from trusting that one swap instead of rebuilding the word.",
+        "infokratko": "Against the clock: swap the last letter, *kava → kavu, tržnica → tržnicu*.",
         "trajanje": "45",
         "opis": "A word flashes in its naming form — tap its target form before it disappears! How many can you get?"
       },
@@ -27293,6 +27506,7 @@ window.PODACI = {
       "naslov": "Saturday at the market",
       "meta": {
         "info": "Read the market scene, then answer. Let the endings guide you: the **-u** words (*kavu*, *pitu*, *jabuku*) are what Ana buys and consumes, while the **-a** words are the ones being described.",
+        "infokratko": "Read, then answer. The **-u** words are what Ana buys and eats; the **-a** words are only described.",
         "tekst": "Subota je. Ana je gladna i žedna. Ona pije kavu i jede pitu. Kava je jaka, a pita je slatka. Poslije Ana kupuje jabuku, krušku i rajčicu. Voće je svježe, ali je skupo. Ana bira vrećicu i plaća račun. Tržnica je velika i šarena.",
         "opis": "Read the market scene, then answer the questions. Passive words: *gladan* (hungry), *žedan* (thirsty), *jak* (strong), *šaren* (colorful), *bira* (chooses), *račun* (bill)."
       },
@@ -27340,6 +27554,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The mixed final check on the whole lesson. One rule carries most of the points: a feminine **-a** turns into **-u** as the target of the verb, while *kruh* and *sok* stay untouched in every sentence.",
+        "infokratko": "The whole lesson, mixed. Main rule: feminine **-a → -u** after the verb; *kruh* and *sok* stay the same.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 5."
       },
@@ -27426,7 +27641,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing page with nothing to tap. What you now own is one swap — feminine **-a** to **-u** for whatever the verb acts on — plus the *li* question, built by putting the verb first and *li* right behind it."
+        "info": "A closing page with nothing to tap. What you now own is one swap — feminine **-a** to **-u** for whatever the verb acts on — plus the *li* question, built by putting the verb first and *li* right behind it.",
+        "infokratko": "What you now know: feminine **-a → -u** after the verb, and the yes-or-no question with *li*."
       },
       "stavke": [
         [
@@ -27448,6 +27664,7 @@ window.PODACI = {
       "naslov": "Feminine food — the ones that change",
       "meta": {
         "info": "Flashcards learned as pairs. The left form names the thing, the right form is what you say after a verb that acts on it: *jagoda → jedem jagod**u***. Only the last letter differs, so store the pair as one item.",
+        "infokratko": "Learn in pairs: name and target. *jagoda → jedem jagodu*.",
         "opis": "Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it or buy it. Learn each one as a pair."
       },
       "stavke": [
@@ -27532,6 +27749,7 @@ window.PODACI = {
       "naslov": "The quiet ones — no change at all",
       "meta": {
         "info": "Flashcards for nouns that end in a consonant or in *-o* or *-e*. They look the same whether they name or are the target: *Sir je dobar* and *Jedem sir*. There is no ending to add here, only the meaning to learn.",
+        "infokratko": "Consonant or *-o/-e*: same as name or target. *Sir je dobar. Jedem sir.*",
         "opis": "These don't end in -a, so nothing happens to them. *Pijem sok. Jedem kruh.* You have been using this group since Lesson 3 without noticing it was a case at all."
       },
       "stavke": [
@@ -27612,6 +27830,7 @@ window.PODACI = {
       "naslov": "Shopping",
       "meta": {
         "info": "Places, containers and money. The **-a** words behave like every feminine noun — *Idem u trgovin**u***, *Trebam vrećic**u*** — while *dućan*, *kafić*, *račun* and *novac* end in a consonant and stay the same as targets.",
+        "infokratko": "**-a** words take **-u**: *u trgovinu, vrećicu*. *dućan, kafić, račun, novac* stay.",
         "opis": "Where you buy it, what you carry it in, what you pay. **tržnica** is the open-air farmers' market; **trgovina** and **dućan** are both a shop, and Croatians use them interchangeably."
       },
       "stavke": [
@@ -27672,6 +27891,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Ten verbs with their present-tense forms. Eight of them take a target, so a feminine noun after it ends in **-u**: *Kupujem jabuk**u***, *Tražim rib**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ.",
+        "infokratko": "Feminine target **-u**: *Kupujem jabuku*. *kupovati → kupujem*.",
         "opis": "Eight of them take a target — *ići* and *koštati* do not — and if that target is feminine, it ends in **-u**. *Kupujem jabuku. Plaćam kavu. Tražim ribu.*"
       },
       "stavke": [
@@ -27728,6 +27948,7 @@ window.PODACI = {
       "naslov": "At the counter",
       "meta": {
         "info": "Counter phrases plus describing words. The adjectives come in both shapes (*svjež / svježa*) because they must agree with their noun: *svježa riba*, but *svjež kruh*.",
+        "infokratko": "Adjectives agree: *svježa riba*, *svjež kruh*.",
         "opis": "The words that make you sound like you have done this before. *Izvolite?* is the single most useful word in a Croatian shop — it means both \"How can I help you?\" and \"Here you are.\""
       },
       "stavke": [
@@ -27800,6 +28021,7 @@ window.PODACI = {
       "naslov": "Does it change?",
       "meta": {
         "info": "Sorting by ending. Ends in **-a** → it becomes **-u** as the target of a verb. Anything else — a consonant, *-o*, *-e* — keeps the identical form, which is why *kruh* and *mlijeko* sit in the quiet column.",
+        "infokratko": "**-a** → **-u** as a target; everything else stays (*kruh, mlijeko*).",
         "stupci": "MIJENJA SE (-a → -u) | OSTAJE ISTO",
         "opis": "The single most useful sort on this level. Ends in **-a** → it changes. Anything else → it stays exactly as it is."
       },
@@ -27905,6 +28127,7 @@ window.PODACI = {
       "naslov": "Which family?",
       "meta": {
         "info": "Sorting verbs into the three present-tense families from Lesson 3, judged by the ja-form: **-am** (*trebam*), **-im** (*tražim*), **-em** (*kupujem*). The infinitive can mislead — *kupovati* and *prodavati* are both -em verbs.",
+        "infokratko": "By the *ja* form: *trebam* **-am**, *tražim* **-im**, *kupujem* **-em**.",
         "stupci": "-AM | -IM | -EM",
         "opis": "The three verb families from Lesson 3, now with the shopping verbs. Note *prodavati* and *kupovati*: the infinitive says -ova-, the ja-form says -uje-."
       },
@@ -27962,6 +28185,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, all in the naming form. That is why the feminine ones end in **-a** here; the **-u** appears only once a verb acts on them, as in *Kupujem jabuk**u***.",
+        "infokratko": "Naming forms here; **-u** only after a verb.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -28026,6 +28250,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Croatian-to-English pairs, every word in its naming form. Use the ending as a free clue: **-a** means feminine, which means this word will end in **-u** the moment you buy, eat or need it.",
+        "infokratko": "Naming forms. **-a** = feminine = **-u** as a target.",
         "opis": "Match each market word with its English meaning."
       },
       "stavke": [
@@ -28114,6 +28339,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A flip-and-find game mixing verbs with nouns. The verbs are all ja-forms (*kupujem*, *tražim*, *nosim*), so each one is ready to take a target — and when that target ends in **-a**, the **-a** becomes **-u**.",
+        "infokratko": "*ja* forms ready for a target: *kupujem jabuku*.",
         "opis": "Flip the cards and find the pairs — the shopping edition."
       },
       "stavke": [
@@ -28170,6 +28396,7 @@ window.PODACI = {
       "naslov": "Speed challenge: naming → target",
       "meta": {
         "info": "A timed swap from the naming form to the target form. One letter, always the last: *breskva → breskv**u***, *kutija → kutij**u***. Do not rebuild the word, just replace that final -a.",
+        "infokratko": "Only the last letter: *breskva → breskvu*.",
         "trajanje": "60",
         "opis": "A word flashes in its naming form — tap the target form before it disappears."
       },
@@ -28275,6 +28502,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what is it?",
       "meta": {
         "info": "A timed meaning sprint with no endings to change. Read the ending anyway as a hint: *-a* words are feminine and will take **-u** as targets, while *jaje*, *meso* and *vino* stay as they are.",
+        "infokratko": "Meaning only. **-a** words will take **-u**; *jaje, meso, vino* don't.",
         "trajanje": "60",
         "opis": "Food sprint — tap the English meaning."
       },
@@ -28392,6 +28620,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Croatian writes one letter per sound, so if you can say it you can spell it — but **č, ć, š, ž, đ** are separate letters, and *vrećica* or *tržnica* is simply wrong without them.",
+        "infokratko": "**č, ć, š, ž, đ** are letters: *vrećica, tržnica*.",
         "opis": "Croatian is written exactly as it sounds — so if you can say it, you can spell it. Watch the diacritics: **č, ć, š, ž, đ** are all separate letters."
       },
       "stavke": [
@@ -28448,6 +28677,7 @@ window.PODACI = {
       "naslov": "Type the target form",
       "meta": {
         "info": "Typed production of the target form. Take the naming form, drop the final **-a**, add **-u**: *pekara → pekar**u***, *cijena → cijen**u***. Everything else in the word, diacritics included, stays untouched.",
+        "infokratko": "Drop **-a**, add **-u**: *pekara → pekaru*.",
         "opis": "You get the naming form — type the form you would use after *kupujem*, *jedem* or *pijem*."
       },
       "stavke": [
@@ -28560,6 +28790,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "Recall in the other direction — English in, Croatian out, in the naming form. So feminine words end in **-a** here (*jabuka*, not *jabuku*), and the verbs are wanted as infinitives such as *kupovati*.",
+        "infokratko": "Naming forms (*jabuka*), verbs as infinitives (*kupovati*).",
         "opis": "The final round — type each word in Croatian, in its naming form."
       },
       "stavke": [
@@ -28711,7 +28942,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the first case, officially",
       "meta": {
-        "info": "The formal statement of your first case. The naming form is the **nominative** (*Kava je dobra*); the form for whatever the verb acts on is the **accusative**, feminine **-a → -u** (*Pijem kav**u***). Other nouns stay unchanged for now."
+        "info": "The formal statement of your first case. The naming form is the **nominative** (*Kava je dobra*); the form for whatever the verb acts on is the **accusative**, feminine **-a → -u** (*Pijem kav**u***). Other nouns stay unchanged for now.",
+        "infokratko": "Naming form = **nominative** (*Kava je dobra*); target = **accusative**, feminine **-a → -u** (*Pijem kavu*)."
       },
       "stavke": [
         [
@@ -28760,6 +28992,7 @@ window.PODACI = {
       "naslov": "Naming or target?",
       "meta": {
         "info": "Sorting sentences by the job the noun does. Subject beside *je* → naming form in **-a**; sitting after a verb that acts on it → accusative in **-u**. Compare *Torta je slatka* with *Plaćam tort**u***.",
+        "infokratko": "Beside *je* → **-a**; after a verb acting on it → **-u**. *Torta je slatka. Plaćam tortu.*",
         "stupci": "NAMING (-a) | TARGET (-u)",
         "opis": "Nominative or accusative? Read each sentence and decide what job the food word is doing in it."
       },
@@ -28849,6 +29082,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap for the missing letter. Decide the role first: naming takes **-a**, target takes **-u**. Every verb on this page — *trebam*, *kupujem*, *kuham*, *nosim*, *biram* — takes a target, so its noun ends in **-u**.",
+        "infokratko": "Naming **-a**, target **-u**. All verbs here take a target, so **-u**.",
         "nastavci": "a | u",
         "opis": "One letter, one tap. If the word is naming something it takes **-a**; if it is the target of the verb it takes **-u**."
       },
@@ -28966,6 +29200,7 @@ window.PODACI = {
       "naslov": "Type the accusative",
       "meta": {
         "info": "Typed production of the accusative. Replace the final **-a** with **-u** and change nothing else: *naranča → naranč**u***, *mrkva → mrkv**u***. The diacritics stay exactly where they were.",
+        "infokratko": "Swap **-a** for **-u**, nothing else: *naranča → naranču*.",
         "opis": "Type the accusative form."
       },
       "stavke": [
@@ -29029,7 +29264,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the adjective travels too",
       "meta": {
-        "info": "The rule that a describing word follows its noun into the case. For feminine words the ending is the same on both: *crn**a** kav**a*** becomes *Pijem crn**u** kav**u***. Listen for the rhyme — -u and then -u again."
+        "info": "The rule that a describing word follows its noun into the case. For feminine words the ending is the same on both: *crn**a** kav**a*** becomes *Pijem crn**u** kav**u***. Listen for the rhyme — -u and then -u again.",
+        "infokratko": "The adjective goes along: *crna kava → Pijem crnu kavu*."
       },
       "stavke": [
         [
@@ -29076,6 +29312,7 @@ window.PODACI = {
       "naslov": "Naming or target — the whole phrase",
       "meta": {
         "info": "Choosing a two-word phrase, so both endings must agree. Either both keep **-a** as the subject (*Salata je svježa*) or both take **-u** as the target (*Kupujem svjež**u** rib**u***). A mixed pair is always wrong.",
+        "infokratko": "Both **-a** (*Salata je svježa*) or both **-u** (*Kupujem svježu ribu*). Never mixed.",
         "opis": "Both words must agree. Choose the phrase that fits the sentence."
       },
       "stavke": [
@@ -29164,6 +29401,7 @@ window.PODACI = {
       "naslov": "Tap the adjective's ending",
       "meta": {
         "info": "Only the adjective is missing here, and it copies the noun standing next to it. *Crn**a** kava je dobra*, but *Pijem crn**u** kavu* — the noun already tells you which letter to tap.",
+        "infokratko": "The adjective copies its noun: *Crna kava je dobra. Pijem crnu kavu.*",
         "nastavci": "a | u",
         "opis": "The noun already has its ending — now the adjective has to match it. Same letter, twice in a row."
       },
@@ -29261,6 +29499,7 @@ window.PODACI = {
       "naslov": "Type both endings",
       "meta": {
         "info": "Typing the whole phrase in the target form. Both words move together: *topla juha → topl**u** juh**u***. Changing only the noun and leaving the adjective in **-a** still counts as wrong.",
+        "infokratko": "Both words move: *topla juha → toplu juhu*.",
         "opis": "Put the whole phrase into the target form. Two words, two endings."
       },
       "stavke": [
@@ -29324,7 +29563,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: where are you going?",
       "meta": {
-        "info": "The rule that a destination is a target too, so it takes the same **-u**: *Idem u trgovin**u***. The little word in front depends on the place: **u** for what you can shut a door behind, **na** for open spaces and events."
+        "info": "The rule that a destination is a target too, so it takes the same **-u**: *Idem u trgovin**u***. The little word in front depends on the place: **u** for what you can shut a door behind, **na** for open spaces and events.",
+        "infokratko": "A destination takes **-u** too: *Idem u trgovinu*. **u** enclosed, **na** open or event."
       },
       "stavke": [
         [
@@ -29373,6 +29613,7 @@ window.PODACI = {
       "naslov": "u or na?",
       "meta": {
         "info": "Choosing between the two direction words. **u** goes with enclosed places — *u školu*, *u pekaru*, *u kafić*; **na** goes with open ground or occasions — *na plažu*, *na posao*, *na kavu*. The place keeps its **-u** either way.",
+        "infokratko": "**u**: *u školu, u kafić*. **na**: *na plažu, na posao, na kavu*. **-u** either way.",
         "opis": "Choose the preposition. Enclosed space → u. Open space or event → na."
       },
       "stavke": [
@@ -29449,6 +29690,7 @@ window.PODACI = {
       "naslov": "Open or enclosed?",
       "meta": {
         "info": "Sorting places by the word they take. Can you close a door behind you? Then **u**. Open sky, or an occasion rather than a building? Then **na** — which is why *tržnica* and even *kava* land in that column.",
+        "infokratko": "Door you can close → **u**. Open space or occasion → **na** (*na tržnicu, na kavu*).",
         "stupci": "U (zatvoreno) | NA (otvoreno)",
         "opis": "Sort each place by the word it takes. If you can shut a door behind you it's **u**; open sky or an occasion takes **na**."
       },
@@ -29526,6 +29768,7 @@ window.PODACI = {
       "naslov": "Type the whole direction",
       "meta": {
         "info": "You type both parts: the preposition and the place in its target form. *škola* becomes *u škol**u***, *tržnica* becomes *na tržnic**u***. The ending is the same either way; only the preposition is a real choice.",
+        "infokratko": "Preposition + **-u**: *u školu, na tržnicu*.",
         "opis": "Type the two words — the preposition and the place in its target form."
       },
       "stavke": [
@@ -29582,6 +29825,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Sentence building from tiles. Two things must hold: a feminine target ends in **-u** and drags its adjective along (*crn**u** kav**u***), and a comma stands before *a* and *ali* but not before *i*.",
+        "infokratko": "Feminine target **-u** with its adjective (*crnu kavu*); comma before *a*, *ali*, not *i*.",
         "opis": "Build the sentence. The adjective and the noun have to end the same way."
       },
       "stavke": [
@@ -29633,7 +29877,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: At the market",
       "meta": {
-        "info": "A short story with the English beside it. Read for the endings: everything Ana acts on is feminine in **-u** (*kupuje jabuk**u***, *bira mal**u** vrećic**u***), while *riba je svježa* only names and describes."
+        "info": "A short story with the English beside it. Read for the endings: everything Ana acts on is feminine in **-u** (*kupuje jabuk**u***, *bira mal**u** vrećic**u***), while *riba je svježa* only names and describes.",
+        "infokratko": "What Ana acts on ends in **-u** (*kupuje jabuku*); what is only described keeps **-a** (*riba je svježa*)."
       },
       "stavke": [
         [
@@ -29688,6 +29933,7 @@ window.PODACI = {
       "naslov": "Bought it, or only looked at it?",
       "meta": {
         "info": "Sorting from what the text said, not from the endings — the words are shown in their naming form. *Gleda* means she only looked at it; *kupuje* means it actually went into the bag.",
+        "infokratko": "Sort by what the text says: *gleda* = only looked, *kupuje* = bought.",
         "stupci": "KUPUJE | SAMO GLEDA",
         "opis": "Read Text 1 again in your head. Ana walked away with some of these and left the others on the stall."
       },
@@ -29733,6 +29979,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions on Text 1. Answers about what Ana buys or drinks come back in the target form ending in **-u** (*kavu*, *jabuku*), while answers that describe something keep **-a** (*svježa*, *slatka*).",
+        "infokratko": "What she buys or drinks: **-u** (*kavu*); descriptions: **-a** (*svježa*).",
         "tekst": "Subota je i Ana ide na tržnicu. Tržnica je velika i šarena. Ana kupuje jabuku, bananu i salatu. Ona gleda ribu — riba je svježa, ali je skupa. Ana gleda i tortu, ali torta je skupa. Ana kupuje i čokoladu jer voli čokoladu! Ona bira malu vrećicu i plaća račun. Poslije pije kavu i jede pitu. Kava je jaka, a pita je slatka.",
         "opis": "Answer from the text."
       },
@@ -29785,7 +30032,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: A note on the fridge",
       "meta": {
-        "info": "A note rather than a story, with the same rule at work: *Trebamo riž**u***, *kuham juh**u***, *Ne trebamo čokolad**u***. *Kruh* and *mlijeko* sit there unchanged because they are not feminine."
+        "info": "A note rather than a story, with the same rule at work: *Trebamo riž**u***, *kuham juh**u***, *Ne trebamo čokolad**u***. *Kruh* and *mlijeko* sit there unchanged because they are not feminine.",
+        "infokratko": "*Trebamo rižu, kuham juhu*. *kruh, mlijeko* don't change."
       },
       "stavke": [
         [
@@ -29836,6 +30084,7 @@ window.PODACI = {
       "naslov": "Remember the list",
       "meta": {
         "info": "A short-term memory game with shopping words. They flash in their naming form, but on a real errand you would still say *Trebam rib**u*** — anything you need is a target and takes **-u**.",
+        "infokratko": "Naming forms here; in a sentence: *Trebam ribu*.",
         "opis": "Three things flash, then vanish — pick them again in the same order. Exactly what happens when you leave the note on the fridge and walk to the shop anyway."
       },
       "stavke": [
@@ -29900,6 +30149,7 @@ window.PODACI = {
       "naslov": "What does the note actually say?",
       "meta": {
         "info": "Questions that need working out, not just spotting. Note *Ja plaćam račun* against *Ti kupuješ hranu*: the verb ending alone tells you who does what, since Croatian happily drops *ja* and *ti*.",
+        "infokratko": "Work it out. The ending shows who: *Ja plaćam, ti kupuješ*.",
         "tekst": "Bok! Danas idem na posao rano. Ti kupuješ hranu, a ja plaćam račun. Trebamo kruh, mlijeko i rižu. Trebamo i jednu bocu i jednu vrećicu. Riba je danas svježa — kupuješ ribu? Ja kuham juhu navečer. Ne trebamo čokoladu! Hvala! Mama",
         "opis": "Careful — some of these you have to work out, not just find."
       },
@@ -29947,6 +30197,7 @@ window.PODACI = {
       "naslov": "At the shop",
       "meta": {
         "info": "A shopping dialogue where you choose your replies. Feminine things you ask for end in **-u** (*Trebam jedn**u** boc**u***), and *Trebate li još nešto?* is the yes-or-no pattern — verb first, then *li*.",
+        "infokratko": "What you ask for takes **-u**: *Trebam jednu bocu*. *Trebate li...?* = verb + *li*.",
         "opis": "Now you are the one at the counter. Choose your replies and get through a whole Croatian shop without English. Passive words: *odličnu* (excellent), *jednu* (one), *To je sve?* (Is that everything?)."
       },
       "stavke": [
@@ -30016,7 +30267,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: Three friends, three bags",
       "meta": {
-        "info": "A logic puzzle in Croatian. The bags are described but not handed out, so match each person's habits to the contents; note that the color agrees with its noun, *žut**a** vrećic**a***, and moves with it."
+        "info": "A logic puzzle in Croatian. The bags are described but not handed out, so match each person's habits to the contents; note that the color agrees with its noun, *žut**a** vrećic**a***, and moves with it.",
+        "infokratko": "Match habits to bags. Colour agrees: *žuta vrećica*."
       },
       "stavke": [
         [
@@ -30063,6 +30315,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Deduction questions on Text 3. The questions themselves stand in the target form — *Tko nosi žut**u** vrećic**u***? — because the bag is what gets carried, and color and noun both carry the **-u**.",
+        "infokratko": "Target form in the questions too: *Tko nosi žutu vrećicu?*",
         "tekst": "Ana, Marko i Ivana idu na tržnicu. Ana ne voli ribu, ali voli voće. Marko je gladan. On kupuje kruh i sir. Ivana kuha juhu navečer. Žuta vrećica ima jabuku, krušku i bananu. Crvena vrećica ima kruh i sir. Zelena vrećica ima rajčicu, mrkvu i luk.",
         "opis": "Nobody says whose bag is whose. Work it out from what each person likes and does."
       },
@@ -30115,7 +30368,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Breakfast",
       "meta": {
-        "info": "An ordinary day, thick with **-u** endings. Count them as they go by: *pijem vod**u***, *jedem jabuk**u***, *idem u pekar**u***, *volim subot**u***. Targets and destinations use the very same ending."
+        "info": "An ordinary day, thick with **-u** endings. Count them as they go by: *pijem vod**u***, *jedem jabuk**u***, *idem u pekar**u***, *volim subot**u***. Targets and destinations use the very same ending.",
+        "infokratko": "Lots of **-u**: *pijem vodu, idem u pekaru, volim subotu*."
       },
       "stavke": [
         [
@@ -30170,6 +30424,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "One tap per sentence, almost every sentence lifted from the four texts. Naming beside *je* takes **-a**; whatever a verb acts on takes **-u**. Compare *Juh**a** je topla* with *Mama kuha juh**u***.",
+        "infokratko": "Beside *je* **-a**; acted on **-u**: *Juha je topla. Mama kuha juhu.*",
         "nastavci": "a | u",
         "opis": "Every sentence here came out of the four texts you just read. Naming takes **-a**, target takes **-u**."
       },
@@ -30267,6 +30522,7 @@ window.PODACI = {
       "naslov": "Type the accusative",
       "meta": {
         "info": "You type the target form, with the text above as a safety net. Drop the final **-a** and add **-u**: *televizija → televizij**u***, *škola → škol**u***. A destination after *u* behaves in exactly the same way.",
+        "infokratko": "Drop **-a**, add **-u**: *televiziju, školu*. Same after *u*.",
         "tekst": "Ujutro pijem vodu, a poslije pijem kavu. Jedem jabuku i bananu. Mama kuha juhu, a tata gleda televiziju. Poslije idem u pekaru i kupujem kruh. Volim subotu jer ne idem u školu!",
         "opis": "Type the accusative form — the text has the answer."
       },
@@ -30316,6 +30572,7 @@ window.PODACI = {
       "naslov": "Ana's Saturday, in order",
       "meta": {
         "info": "Ordering seven moments into a sequence that makes sense. No times are given, so use meaning: you choose and check the price before *plaća račun*. Every feminine thing she handles carries **-u**.",
+        "infokratko": "Order by sense: check the price before paying.",
         "opis": "Seven moments from a market morning, shuffled. Nobody wrote this story down — put it in the order it would actually happen."
       },
       "stavke": [
@@ -30353,6 +30610,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian tiles out. Two habits decide most of these: a feminine target ends in **-u** with its adjective matching (*mal**u** vrećic**u***), and a comma comes before *a* and *ali*.",
+        "infokratko": "Feminine target **-u** with its adjective (*malu vrećicu*); comma before *a*, *ali*.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -30481,6 +30739,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word tap, all words in the naming form. That is why you see *jabuka* here and not *jabuku* — the **-u** shows up only once a verb acts on the word.",
+        "infokratko": "Naming forms: *jabuka*, not *jabuku*.",
         "opis": "The market is closing. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -32395,7 +32654,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Things vs. beings",
       "meta": {
-        "info": "A short read that opens the masculine accusative. After verbs like *vidim* and *čekam*, a masculine **living being** takes **-a** (*Vidim prijatelja*), while a **thing** stays exactly as it is (*Vidim tramvaj*). That single split is the whole lesson."
+        "info": "A short read that opens the masculine accusative. After verbs like *vidim* and *čekam*, a masculine **living being** takes **-a** (*Vidim prijatelja*), while a **thing** stays exactly as it is (*Vidim tramvaj*). That single split is the whole lesson.",
+        "infokratko": "Masculine target: a **living being** takes **-a** (*Vidim prijatelja*), a **thing** stays (*Vidim tramvaj*)."
       },
       "stavke": [
         [
@@ -32420,6 +32680,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on last lesson's feminine rule. A feminine noun in **-a** swaps it for **-u** when it is the target of the verb, so *kava* becomes *kavu* and *tržnica* becomes *tržnicu*. Tap fast and trust the ending.",
+        "infokratko": "Lesson 5 against the clock: feminine **-a → -u**. *kava → kavu, tržnica → tržnicu*.",
         "trajanje": "60",
         "opis": "Accusative warm-up from Lesson 5 — tap the target form before it disappears."
       },
@@ -32497,6 +32758,7 @@ window.PODACI = {
       "naslov": "City words",
       "meta": {
         "info": "New city vocabulary, grouped on purpose. Vehicles and places are **things**, so they never change as a target; people and animals are **living**, so they will take **-a**, as in *konobar* to *konobara*. Learn each word together with its group.",
+        "infokratko": "City words in groups. Things never change as targets; people and animals take **-a**: *konobar → konobara*.",
         "opis": "The city vocabulary — plus seven new verbs for urban life. Notice the two groups: vehicles and places on one side, people and animals on the other. Today that line matters."
       },
       "stavke": [
@@ -32632,7 +32894,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Things vs. living beings",
       "meta": {
-        "info": "The rule in one line: a masculine **being** adds **-a**, a masculine **thing** adds nothing. Two spellings to notice right now — *pas* squeezes to **psa** and *policajac* to **policajca**, both losing a vowel before the ending."
+        "info": "The rule in one line: a masculine **being** adds **-a**, a masculine **thing** adds nothing. Two spellings to notice right now — *pas* squeezes to **psa** and *policajac* to **policajca**, both losing a vowel before the ending.",
+        "infokratko": "Masculine being **+a**, masculine thing unchanged. Watch *pas → psa*, *policajac → policajca*."
       },
       "stavke": [
         [
@@ -32680,6 +32943,7 @@ window.PODACI = {
       "naslov": "Does it change?",
       "meta": {
         "info": "A sorting drill on animacy. Ask one question about each masculine word: can it be alive? People and animals go to the changing side and take **-a** (*susjeda*, *psa*); vehicles, bridges and buildings stay untouched.",
+        "infokratko": "Can it be alive? Yes → **-a** (*susjeda, psa*). No → no change.",
         "stupci": "MIJENJA SE (živo) | OSTAJE ISTO (stvar)",
         "opis": "You see all of these on the street. Does the word change after \"vidim\", or stay exactly as it is?"
       },
@@ -32769,6 +33033,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap chooses the ending. A living being takes **-a** (*Čekam konobara*); a thing takes nothing at all, so the dash is a real answer (*Čekam autobus*). The verb is identical either way — only the noun decides.",
+        "infokratko": "Being: **-a** (*Čekam konobara*). Thing: the dash (*Čekam autobus*).",
         "nastavci": "a | -",
         "opis": "English above, Croatian below. One tap: a living being takes **-a**, a thing takes nothing at all. The **—** button means \"no ending\"."
       },
@@ -32886,6 +33151,7 @@ window.PODACI = {
       "naslov": "Transformation drill",
       "meta": {
         "info": "Here you type the target form yourself. Beings gain **-a** (*doktor* to *doktora*), things are typed back unchanged (*most* stays *most*), *pas* becomes **psa**, and feminine words still turn their **-a** into **-u**.",
+        "infokratko": "Type the target: *doktor → doktora*, *most → most*, *pas → psa*, feminine **-a → -u**.",
         "opis": "Type the target form — remember, only living beings change."
       },
       "stavke": [
@@ -32966,6 +33232,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Pick between the plain word and the **-a** form. One trap runs through the whole drill: a thing like *tramvaj* never becomes *tramvaja*, however natural that extra letter looks standing next to *vidim*.",
+        "infokratko": "Plain or **-a**? A thing never adds it: *Vidim tramvaj*, not *tramvaja*.",
         "opis": "Choose the correct form."
       },
       "stavke": [
@@ -33042,6 +33309,7 @@ window.PODACI = {
       "naslov": "Build the street scene",
       "meta": {
         "info": "You build whole sentences from tiles. Order stays subject, verb, target, and the target carries the ending: *Ana vidi prijatelja* but *Čekam tramvaj*. The comma still goes before *ali* and *a*; before *jer* Croatian usually leaves it out.",
+        "infokratko": "Subject, verb, target: *Ana vidi prijatelja*, *Čekam tramvaj*. Comma before *a* and *ali*, usually not before *jer*.",
         "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
@@ -33088,6 +33356,7 @@ window.PODACI = {
       "naslov": "At the stop",
       "meta": {
         "info": "A street conversation where you choose each reply. Every answer keeps the accusative alive — *čekam autobus* for a thing, *čekam prijatelja* for a person. Read the other speaker's line first; it usually contains the word you need.",
+        "infokratko": "Keep the accusative: *čekam autobus*, *čekam prijatelja*. The other line often has the word you need.",
         "opis": "You're waiting at a stop in Zagreb. A friendly local starts a chat — choose your replies. Passive words: *Čekate li?* (Are you waiting?), *pun* (full), *žurim* (I'm in a hurry), *jedan* (one)."
       },
       "stavke": [
@@ -33158,6 +33427,7 @@ window.PODACI = {
       "naslov": "Living-beings sprint",
       "meta": {
         "info": "A timed sprint over living beings only, so the answer always ends in **-a**. What the clock really tests is the two squeezers: *pas* becomes **psa** and *policajac* becomes **policajca**. The rest simply add the letter.",
+        "infokratko": "Living beings only, so always **-a**. Watch *pas → psa*, *policajac → policajca*.",
         "trajanje": "45",
         "opis": "A person or animal flashes in its naming form — tap the target form before it disappears."
       },
@@ -33207,6 +33477,7 @@ window.PODACI = {
       "naslov": "A street in Zagreb",
       "meta": {
         "info": "Read the street scene, then answer. Look for who is the target of each verb, because the **-a** marks it: *vidi policajca*, *zove turista*. A word standing after the verb without **-a** is a thing, like *spomenik*.",
+        "infokratko": "Read, then answer. **-a** marks the person acted on: *vidi policajca*. No **-a** after the verb means a thing.",
         "tekst": "Ulica je puna. Ana čeka tramvaj broj pet. Ona vidi policajca i psa. Policajac gleda promet, a pas gleda goluba. Turist fotografira spomenik. Konobar zove turista jer kava čeka. Sad Ana vidi tramvaj i žuri.",
         "opis": "Read the street scene, then answer the questions. Passive words: *golub* (pigeon), *žuri* (hurries)."
       },
@@ -33254,6 +33525,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The mixed check on this whole lesson. One sentence covers most of it: a masculine being takes **-a**, a masculine thing stays put, and a feminine **-a** turns into **-u**. Watch *pas* to *psa* and *policajac* to *policajca*.",
+        "infokratko": "The whole lesson: being **-a**, thing unchanged, feminine **-a → -u**. *pas → psa*.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 6."
       },
@@ -33339,7 +33611,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing page with no task. It marks the moment your accusative singular is complete — feminine **-u**, masculine being **-a**, masculine thing and neuter unchanged — and points at what the next pages add."
+        "info": "A closing page with no task. It marks the moment your accusative singular is complete — feminine **-u**, masculine being **-a**, masculine thing and neuter unchanged — and points at what the next pages add.",
+        "infokratko": "Your accusative singular is complete: feminine **-u**, masculine being **-a**, thing and neuter unchanged."
       },
       "stavke": [
         [
@@ -33361,6 +33634,7 @@ window.PODACI = {
       "naslov": "People — the ones that change",
       "meta": {
         "info": "Flashcards of living masculine nouns, each shown with its accusative. Because they are alive, every one adds **-a** (*vozač* to *vozača*); the *-ac* words drop a vowel first, so *kupac* becomes **kupca** and *pas* becomes **psa**.",
+        "infokratko": "Living masculine nouns add **-a**: *vozač → vozača*. *kupac → kupca*, *pas → psa*.",
         "opis": "Living masculine nouns, each shown with its target form. Three of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**."
       },
       "stavke": [
@@ -33445,6 +33719,7 @@ window.PODACI = {
       "naslov": "Transport — nothing changes",
       "meta": {
         "info": "Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Čekam vlak*, *Vozim bicikl*. Only *karta* moves, and only because it ends in **-a** (the Lesson 5 rule), giving *kartu*.",
+        "infokratko": "Vehicles are things, no change: *Čekam vlak*. *karta → kartu* (feminine).",
         "opis": "Vehicles are things, so they never move an inch in the accusative. *Čekam tramvaj. Vidim autobus.* Only **karta** shifts, and only because it ends in -a."
       },
       "stavke": [
@@ -33513,6 +33788,7 @@ window.PODACI = {
       "naslov": "Places in the city",
       "meta": {
         "info": "City places to learn. Places are things, so masculine ones never change (*most*, *trg*, *muzej*), but any word ending in **-a** still follows the feminine rule and turns into **-u**: *ulica* to *ulicu*, *banka* to *banku*.",
+        "infokratko": "Masculine places stay (*most, trg*); **-a** places → **-u** (*ulicu, banku*).",
         "opis": "Your map of a Croatian town. Watch which ones end in **-a** — those still follow the Lesson 5 rule."
       },
       "stavke": [
@@ -33613,6 +33889,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Ten city verbs with their present forms. Notice which family each one belongs to, and notice that *čekati*, *vidjeti*, *čuti* and *zvati* often take a person as their target — that is exactly where today's **-a** shows up.",
+        "infokratko": "City verbs. *čekati, vidjeti, čuti, zvati* often take a person: that's where **-a** comes in.",
         "opis": "City verbs. Four of them take a person as their target — and that's exactly where today's ending shows up."
       },
       "stavke": [
@@ -33669,6 +33946,7 @@ window.PODACI = {
       "naslov": "Around town",
       "meta": {
         "info": "Odds and ends of city vocabulary. The adjectives here still agree with their noun in gender (*pun grad*, *puna ulica*), and *Oprostite!* is the polite opener you use before asking a stranger anything at all.",
+        "infokratko": "Adjectives agree: *pun grad, puna ulica*. *Oprostite!* = excuse me.",
         "opis": "The small change of city life — plus the one word that opens every conversation with a stranger."
       },
       "stavke": [
@@ -33729,6 +34007,7 @@ window.PODACI = {
       "naslov": "Does it change after \"vidim\"?",
       "meta": {
         "info": "A sort across the whole accusative singular. Exactly two groups change: feminine words in **-a** and masculine living beings. Everything else — things and neuters like *kino* and *gorivo* — stays precisely as it is.",
+        "infokratko": "Only two groups change: feminine **-a** and masculine living beings.",
         "stupci": "MIJENJA SE | OSTAJE ISTO",
         "opis": "The whole accusative map in one sort. Feminine -a and living masculines change; things and neuters don't."
       },
@@ -33834,6 +34113,7 @@ window.PODACI = {
       "naslov": "Which family?",
       "meta": {
         "info": "A revision sort of the three present-tense families. Judge by the *ja* form, not the infinitive: *čekati* gives *čekam*, *voziti* gives *vozim*, and *zvati* gives the reshaped *zovem*.",
+        "infokratko": "By the *ja* form: *čekam, vozim, zovem*.",
         "stupci": "-AM | -IM | -EM",
         "opis": "The three verb families again, now with the city verbs. *Zvati* and *čuti* both land in -EM, and both change their middle on the way."
       },
@@ -33891,6 +34171,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching for the city set. Everything is in the naming form, so no endings appear here; think of *policajac* as the one card on the board that would turn into *policajca* the moment it became a target.",
+        "infokratko": "Naming forms. *policajac* would become *policajca* as a target.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -33955,6 +34236,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Meaning pairs for the city vocabulary. Two near-twins are worth separating carefully: *stanica* is a stop for a tram or a bus, while *kolodvor* is a full train or coach station.",
+        "infokratko": "*stanica* = tram or bus stop; *kolodvor* = station.",
         "opis": "Match each city word with its English meaning."
       },
       "stavke": [
@@ -34043,6 +34325,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A memory game pairing verb forms with their English. Most Croatian cards are *ja* forms, so the ending names the family: *-am* in *čekam*, *-im* in *vozim*, *-em* in *zovem*.",
+        "infokratko": "*ja* forms: *čekam* **-am**, *vozim* **-im**, *zovem* **-em**.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -34099,6 +34382,7 @@ window.PODACI = {
       "naslov": "Speed challenge: naming → target",
       "meta": {
         "info": "Timed accusative for living beings, where the answer always ends in **-a**. Speed is what exposes the squeezers, so load them first: *policajac* to **policajca**, *kupac* to **kupca**, *pas* to **psa**.",
+        "infokratko": "Living beings, always **-a**. *policajca, kupca, psa*.",
         "trajanje": "60",
         "opis": "A person or animal flashes — tap the target form. Living beings take **-a**, and three of them squeeze."
       },
@@ -34184,6 +34468,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what is it?",
       "meta": {
         "info": "A timed meaning sprint over the city words. No endings are involved, just recognition — though the gender is still worth registering, because a word in **-a** like *galerija* behaves differently once it becomes a target.",
+        "infokratko": "Meaning only. *galerija* (**-a**) will change as a target.",
         "trajanje": "60",
         "opis": "City sprint — tap the English meaning."
       },
@@ -34321,6 +34606,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "You assemble each word letter by letter. Croatian counts **lj**, **nj** and **dž** as single letters, so *ključ*, *knjižnica* and *konj* need the one combined tile there, never a separate l and j.",
+        "infokratko": "**lj, nj, dž** are single tiles: *ključ, knjižnica, konj*.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
       },
       "stavke": [
@@ -34377,6 +34663,7 @@ window.PODACI = {
       "naslov": "Type the target form",
       "meta": {
         "info": "Typing the accusative straight from the naming form. There are only three outcomes: a being adds **-a**, a thing is retyped unchanged, a feminine **-a** becomes **-u**. Mind *policajac* to *policajca* and *pas* to *psa*.",
+        "infokratko": "Being **-a**, thing unchanged, feminine **-u**. *policajca, psa*.",
         "opis": "You get the naming form — type the form you would use after *vidim* or *čekam*. Careful with the three that squeeze."
       },
       "stavke": [
@@ -34489,6 +34776,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English to Croatian typing, all in naming forms. Diacritics count as separate letters here, so *vozač*, *ključ* and *knjižnica* are only accepted with their marks properly in place.",
+        "infokratko": "Naming forms with diacritics: *vozač, ključ, knjižnica*.",
         "opis": "The final round — type each word in Croatian, in its naming form."
       },
       "stavke": [
@@ -34672,7 +34960,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: living & non-living",
       "meta": {
-        "info": "The page that completes your accusative singular. Masculine nouns split by animacy: a living one adds **-a** (*Čekam prijatelja*), a thing adds nothing (*Čekam autobus*). *Tko* counts as living, so it becomes **koga**."
+        "info": "The page that completes your accusative singular. Masculine nouns split by animacy: a living one adds **-a** (*Čekam prijatelja*), a thing adds nothing (*Čekam autobus*). *Tko* counts as living, so it becomes **koga**.",
+        "infokratko": "Masculine: living **+a** (*Čekam prijatelja*), thing unchanged (*Čekam autobus*). *tko → koga*."
       },
       "stavke": [
         [
@@ -34733,6 +35022,7 @@ window.PODACI = {
       "naslov": "Does it change or not?",
       "meta": {
         "info": "A sort testing the finished map. Feminine **-a** words become **-u** and masculine beings add **-a**, while masculine things and neuters such as *pismo* and *more* never move. *Mačka* changes for the feminine reason, not animacy.",
+        "infokratko": "Feminine **-u**, masculine being **-a**; masculine things and neuters stay. *mačka* is feminine.",
         "stupci": "MIJENJA SE | OSTAJE ISTO",
         "opis": "Sort by whether the word changes after *vidim*. Careful — *mačka* is feminine, so it changes by the Lesson 5 rule, not this one."
       },
@@ -34830,6 +35120,7 @@ window.PODACI = {
       "naslov": "Tap the ending: living or thing?",
       "meta": {
         "info": "Masculine words only, one tap each. Alive means **-a** (*Vidim studenta*); a thing means the dash (*Vidim kiosk*). Animals count as alive, so *golub* becomes *goluba* exactly like a person does.",
+        "infokratko": "Masculine only: alive **-a** (*studenta, goluba*), thing the dash (*kiosk*).",
         "nastavci": "a | -",
         "opis": "Masculine words only. A being takes **-a**; a thing takes nothing. The **—** button is \"no ending\"."
       },
@@ -34946,7 +35237,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the letter that falls out",
       "meta": {
-        "info": "The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -er, -ik, -aj, -ač and most in -ar don't squeeze."
+        "info": "The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -er, -ik, -aj, -ač and most in -ar don't squeeze.",
+        "infokratko": "A fleeting **a** drops when an ending comes: *policajac → policajca*. -er, -ik, -aj, -ač, most -ar keep it."
       },
       "stavke": [
         [
@@ -35005,6 +35297,7 @@ window.PODACI = {
       "naslov": "Does it squeeze?",
       "meta": {
         "info": "A sort about the fleeting **a**. The reliable signal is the ending **-ac**, which nearly always loses its vowel (*kupac* to *kupca*), while -er, -ik, -ač and most -ar words keep everything (*konobar* to *konobara*). *Pas* to *psa* is one of the few exceptions.",
+        "infokratko": "**-ac** loses its vowel (*kupac → kupca*); -er, -ik, -ač, most -ar don't. *pas → psa*.",
         "stupci": "STEŽE SE | NE STEŽE SE",
         "opis": "Say the target form in your head before you drop the tile. Anything ending in **-ac** almost certainly squeezes."
       },
@@ -35086,6 +35379,7 @@ window.PODACI = {
       "naslov": "Type the accusative",
       "meta": {
         "info": "Typed accusatives with the squeezers mixed in. Check the ending before you type: **-ac** drops its vowel (*Amerikanac* to *Amerikanca*), other beings simply add **-a**, and things come back exactly as they went in.",
+        "infokratko": "**-ac** drops the vowel (*Amerikanca*), other beings add **-a**, things stay.",
         "opis": "Type the accusative form. Watch the *-ac* words."
       },
       "stavke": [
@@ -35174,6 +35468,7 @@ window.PODACI = {
       "naslov": "The whole map in one tap",
       "meta": {
         "info": "Three buttons for the complete accusative singular. Feminine takes **-u** (*kavu*), a masculine being takes **-a** (*konobara*), a masculine thing takes nothing (*tramvaj*). Settle the gender first, then ask about animacy.",
+        "infokratko": "Feminine **-u**, masculine being **-a**, masculine thing nothing. Gender first, then alive or not.",
         "nastavci": "a | u | -",
         "opis": "Three buttons, three outcomes — everything you have learned about the accusative singular in one place. Feminine takes **-u**, a masculine being takes **-a**, a masculine thing takes nothing."
       },
@@ -35281,6 +35576,7 @@ window.PODACI = {
       "naslov": "The correct sentence",
       "meta": {
         "info": "Two whole sentences, one right. The wrong one usually adds **-a** to a thing (*Vidim tramvaja*) or leaves a being bare (*Čekam prijatelj*). Remember that *policajca* has one *a* fewer than you would expect.",
+        "infokratko": "The wrong one adds **-a** to a thing or leaves a being bare. *policajca*.",
         "opis": "Choose the correct sentence."
       },
       "stavke": [
@@ -35346,7 +35642,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: replacing the target with one small word",
       "meta": {
-        "info": "Your first pronouns: **me, te, ga, je, nas, vas, ih** stand in for a target already named. Gender decides, not life, so *film* and *tramvaj* both become *ga*, while *knjigu* becomes *je*."
+        "info": "Your first pronouns: **me, te, ga, je, nas, vas, ih** stand in for a target already named. Gender decides, not life, so *film* and *tramvaj* both become *ga*, while *knjigu* becomes *je*.",
+        "infokratko": "**me, te, ga, je, nas, vas, ih**. Gender decides: *film → ga*, *knjigu → je*."
       },
       "stavke": [
         [
@@ -35414,6 +35711,7 @@ window.PODACI = {
       "naslov": "Which pronoun replaces it?",
       "meta": {
         "info": "Sorting nouns by the pronoun that replaces them. Masculine and neuter both go to **ga** (*most*, *pismo*), feminine goes to **je** (*kava*, *karta*). Whether the noun is alive makes no difference here at all.",
+        "infokratko": "Masculine and neuter → **ga**; feminine → **je**. Alive or not doesn't matter.",
         "stupci": "GA | JE",
         "opis": "*ga* stands in for masculine and neuter, *je* for feminine. The noun's gender decides — not whether it is alive."
       },
@@ -35511,6 +35809,7 @@ window.PODACI = {
       "naslov": "Replace the target",
       "meta": {
         "info": "Rewriting a sentence with a pronoun instead of the noun. Copy the gender of the word you removed — *Zovem doktora* becomes *Zovem ga*, *Pijem kavu* becomes *Pijem je* — and leave the pronoun sitting after the verb.",
+        "infokratko": "Copy the gender: *Zovem ga. Pijem je.*",
         "opis": "Say the same sentence again, with a pronoun instead of the noun. Watch the gender of the word you're replacing."
       },
       "stavke": [
@@ -35591,6 +35890,7 @@ window.PODACI = {
       "naslov": "Pick the pronoun",
       "meta": {
         "info": "Choosing the right little word and the right slot. **ga** covers masculine and neuter, **je** covers feminine, and the short pronoun sits right after the first word or phrase, so it is *Ana me čeka*, not *Ana čeka me*.",
+        "infokratko": "**ga** m/n, **je** f; after the first word: *Ana me čeka*.",
         "opis": "Which little word replaces the noun in CAPITALS?"
       },
       "stavke": [
@@ -35666,7 +35966,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: they lean",
       "meta": {
-        "info": "Why these pronouns are so fussy about position. They are clitics, like *sam* and *je*: unstressed, leaning on the word in front, and unable to start a sentence. For first place or emphasis use *mene, tebe, njega, nju*."
+        "info": "Why these pronouns are so fussy about position. They are clitics, like *sam* and *je*: unstressed, leaning on the word in front, and unable to start a sentence. For first place or emphasis use *mene, tebe, njega, nju*.",
+        "infokratko": "Short pronouns never start a sentence. For first place or emphasis: *mene, tebe, njega, nju*."
       },
       "stavke": [
         [
@@ -35722,6 +36023,7 @@ window.PODACI = {
       "naslov": "Where does the pronoun go?",
       "meta": {
         "info": "A pure position drill. Only the short forms are banned from first place, so *Vidim ga* is right and *Ga vidim* is impossible; when you want the pronoun up front, its stressed twin takes over, as in *Njega vidim*.",
+        "infokratko": "*Vidim ga*, never *Ga vidim*. Up front: *Njega vidim*.",
         "opis": "Only one of these is a sentence a Croatian would actually say. The short pronoun never comes first."
       },
       "stavke": [
@@ -35778,6 +36080,7 @@ window.PODACI = {
       "naslov": "Answer without repeating",
       "meta": {
         "info": "Short answers that drop the noun. Say *Da*, then the verb, then the pronoun — *Da, čekam ga* — taking **ga** or **je** from the gender of the noun in the question rather than naming that noun again.",
+        "infokratko": "*Da* + verb + pronoun: *Da, čekam ga*.",
         "opis": "Answer *Da*, but don't say the noun again — swap it for its pronoun. Two words after *Da,*."
       },
       "stavke": [
@@ -35834,6 +36137,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Sentence building that mixes everything on this page. Full nouns keep their accusative ending, and a short pronoun can never take the opening tile: *Ana me čeka*, while *Njega vidim* uses the stressed form instead.",
+        "infokratko": "Nouns keep the accusative; short pronouns never first: *Ana me čeka*.",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -35885,7 +36189,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: The tram",
       "meta": {
-        "info": "A short story with a translation beside it. Read it for the accusative at work: *vidi prijatelja* and *zove Marka* mark living targets with **-a**, while *čeka tramvaj* leaves the thing untouched. Names bend too, so *Ana* becomes *Anu*."
+        "info": "A short story with a translation beside it. Read it for the accusative at work: *vidi prijatelja* and *zove Marka* mark living targets with **-a**, while *čeka tramvaj* leaves the thing untouched. Names bend too, so *Ana* becomes *Anu*.",
+        "infokratko": "Living targets **-a** (*vidi prijatelja, zove Marka*), things unchanged (*čeka tramvaj*). *Ana → Anu*."
       },
       "stavke": [
         [
@@ -35947,6 +36252,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions on the tram text. The question word *koga* means *whom*, the target, so its answer must carry the ending: *Koga Ana vidi?* is answered with *prijatelja*, never with *prijatelj*.",
+        "infokratko": "*koga* = whom, so the answer has **-a**: *prijatelja*.",
         "tekst": "Ana ide u grad. Ona čeka tramvaj. Tramvaj je pun. Ana vidi prijatelja. \"Marko! Bok!\" Marko ne čuje Anu jer sluša glazbu. Ana zove Marka još jednom. Sad Marko vidi Anu i maše. Oni gledaju grad kroz prozor i pričaju. Marko fotografira most, a Ana fotografira Marka.",
         "opis": "Answer from the text."
       },
@@ -35999,7 +36305,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: Who sees whom?",
       "meta": {
-        "info": "A chain puzzle rather than a story. The ending is your only clue to who does what, so read each **-a** as the one being watched: in *Policajac gleda turista* the police officer looks and the tourist is looked at."
+        "info": "A chain puzzle rather than a story. The ending is your only clue to who does what, so read each **-a** as the one being watched: in *Policajac gleda turista* the police officer looks and the tourist is looked at.",
+        "infokratko": "The **-a** marks who is watched: *Policajac gleda turista*."
       },
       "stavke": [
         [
@@ -36046,6 +36353,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Questions that follow the chain. Every *koga* question asks for the target, so the answer is the form ending in **-a**; work backwards from the last line, where nobody is watching *dječaka*.",
+        "infokratko": "*koga* asks for the target (**-a**). Start from the last line.",
         "tekst": "Ulica je puna. Turist fotografira spomenik. Policajac gleda turista, ali turist ne vidi policajca. Konobar gleda policajca jer kava čeka. Pas gleda konobara jer konobar nosi kruh. Dječak gleda psa i smije se. Nitko ne gleda dječaka.",
         "opis": "Work the chain out from the end. Every answer is somewhere in the line."
       },
@@ -36099,6 +36407,7 @@ window.PODACI = {
       "naslov": "Changed or not?",
       "meta": {
         "info": "Sorting words exactly as they appeared in the texts. A living masculine gained **-a** (*psa*, *policajca*) and a feminine word gained **-u** (*Anu*, *glazbu*), while things like *most* and *kruh* came through completely untouched.",
+        "infokratko": "As in the texts: beings **-a** (*psa*), feminine **-u** (*Anu*), things unchanged (*most*).",
         "stupci": "PROMIJENJENO | NEPROMIJENJENO",
         "opis": "Every word here appears in one of the texts. Did it take an ending, or did it stay exactly as its naming form?"
       },
@@ -36179,7 +36488,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: Lost and found",
       "meta": {
-        "info": "A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Vidim ga* replaces the same dog with the short pronoun, tucked in neatly after the verb."
+        "info": "A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Vidim ga* replaces the same dog with the short pronoun, tucked in neatly after the verb.",
+        "infokratko": "*Ako vidite psa*; *Vidim ga* replaces the dog."
       },
       "stavke": [
         [
@@ -36226,6 +36536,7 @@ window.PODACI = {
       "naslov": "About the notice",
       "meta": {
         "info": "Questions about the lost-dog notice, some stated and some you have to work out. Note that *pas* shows up as *psa* whenever it is the target — that ending is your signal for what is being seen.",
+        "infokratko": "*pas* as target = *psa*.",
         "tekst": "IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Vidim ga svaki dan kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.",
         "opis": "Some of these are in the notice, and some you have to work out."
       },
@@ -36279,6 +36590,7 @@ window.PODACI = {
       "naslov": "Answer without repeating",
       "meta": {
         "info": "A conversation answered with pronouns. Take the gender from the noun in the question — *tramvaj* gives *ga*, *knjigu* gives *je* — and keep the little word after the verb, as in *Da, čujem je*.",
+        "infokratko": "Gender from the question: *tramvaj → ga*, *knjigu → je*. *Da, čujem je.*",
         "opis": "A neighbour is asking a lot of questions. Answer him — but never say the noun twice. Every reply on the right uses the pronoun instead."
       },
       "stavke": [
@@ -36357,7 +36669,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Traffic",
       "meta": {
-        "info": "A street snapshot to be read for endings. *Čovjek vodi psa* and *pas vuče čovjeka* use the very same two words in swapped roles, and only the **-a** tells you who is pulling whom."
+        "info": "A street snapshot to be read for endings. *Čovjek vodi psa* and *pas vuče čovjeka* use the very same two words in swapped roles, and only the **-a** tells you who is pulling whom.",
+        "infokratko": "Same words, swapped roles: *Čovjek vodi psa. Pas vuče čovjeka.*"
       },
       "stavke": [
         [
@@ -36416,6 +36729,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "Ending taps drawn from the four texts. A being takes **-a**, a thing takes the dash, and animals count as beings, so *pas* becomes *psa* while *semafor* and *kruh* stay exactly as they are.",
+        "infokratko": "Being **-a**, thing the dash. *pas → psa*, *semafor* stays.",
         "nastavci": "a | -",
         "opis": "Almost every sentence came out of the four texts. A being takes **-a**, a thing takes nothing."
       },
@@ -36513,6 +36827,7 @@ window.PODACI = {
       "naslov": "Type the accusative",
       "meta": {
         "info": "Typing the target form back into sentences you have read. Beings add **-a** (*konobar* to *konobara*, *turist* to *turista*), while things such as *semafor*, *spomenik* and *promet* are typed in unchanged.",
+        "infokratko": "Beings **+a** (*konobara, turista*); things unchanged (*semafor*).",
         "tekst": "Vidim čovjeka i psa. Čovjek vodi psa, a pas vuče čovjeka! Turist fotografira spomenik i konobara. Konobar pozdravlja turista. Vozač čeka semafor jer je promet velik.",
         "opis": "Fill in the accusative from the text."
       },
@@ -36562,6 +36877,7 @@ window.PODACI = {
       "naslov": "Say it with a pronoun",
       "meta": {
         "info": "Swapping a named target for its pronoun. Gender rules the choice — masculine and neuter give **ga**, feminine gives **je** — so *Anu* becomes *je* and *psa* becomes *ga*, each sitting in front of the verb here.",
+        "infokratko": "m/n → **ga**, f → **je**: *Anu → je*, *psa → ga*.",
         "opis": "Say the sentence again, but swap the noun for its little word. *ga* for masculine and neuter, *je* for feminine."
       },
       "stavke": [
@@ -36610,6 +36926,7 @@ window.PODACI = {
       "naslov": "Ana's tram ride, in order",
       "meta": {
         "info": "Ordering the events of the tram story. The clues are in the sense of the sentences rather than the endings, but notice that a target keeps its ending wherever the sentence lands: *Ana vidi prijatelja*.",
+        "infokratko": "Order by sense. The target keeps its ending: *Ana vidi prijatelja*.",
         "opis": "Seven moments from a morning in the city, shuffled. Nobody wrote this down — put it in the order it would actually happen."
       },
       "stavke": [
@@ -36647,6 +36964,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English into Croatian, built from tiles. Two things decide the order: a living target ends in **-a** while a thing does not, and a short pronoun can never take the first slot, so *Ana ga čeka* is the only possibility.",
+        "infokratko": "Living target **-a**, thing no ending; pronoun never first: *Ana ga čeka*.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -36767,6 +37085,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word game over the city vocabulary. Everything is a naming form with no endings; for extra value, whisper the target form as you tap, remembering that only *policajac* shifts, to *policajca*.",
+        "infokratko": "Naming forms. Only *policajac → policajca* shifts.",
         "opis": "Rush hour is over. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -38746,7 +39065,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The world multiplies",
       "meta": {
-        "info": "Your opening map for Lesson 7. From here on nouns come in groups — *knjiga* becomes *knjige*, *učenik* becomes *učenici* — and the present tense gets its **we**, **you all** and **they** forms in full — you have met a few of them in the practice texts already."
+        "info": "Your opening map for Lesson 7. From here on nouns come in groups — *knjiga* becomes *knjige*, *učenik* becomes *učenici* — and the present tense gets its **we**, **you all** and **they** forms in full — you have met a few of them in the practice texts already.",
+        "infokratko": "Nouns go plural (*knjiga → knjige, učenik → učenici*), and verbs get *we, you all, they*."
       },
       "stavke": [
         [
@@ -38768,6 +39088,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the **singular target form** from Lesson 6. Feminine swaps *-a* for *-u* (*kava* to *kavu*), masculine living words add *-a* (*pas* to *psa*), and non-living masculine words stay exactly as they are (*most*).",
+        "infokratko": "Lesson 6 against the clock: *kava → kavu*, *pas → psa*, *most → most*.",
         "trajanje": "60",
         "opis": "City warm-up from Lesson 6 — tap the correct target form. Careful: things don't change at all."
       },
@@ -38845,6 +39166,7 @@ window.PODACI = {
       "naslov": "School words",
       "meta": {
         "info": "New school vocabulary, all shown in the **singular**. Note each word's gender from its ending — *-a* is feminine (*škola*), a consonant is masculine (*ispit*), *-o* or *-e* is neuter (*pismo*) — because gender decides the plural you build next.",
+        "infokratko": "School words in the singular. Note the gender: *škola* (f), *ispit* (m), *pismo* (n).",
         "opis": "School vocabulary — plus three new verbs for playing and singing. Every noun is shown in the singular; making it plural is today's job."
       },
       "stavke": [
@@ -38953,6 +39275,7 @@ window.PODACI = {
       "naslov": "One becomes many",
       "meta": {
         "info": "Singular meets plural. Listen for the three endings: masculine **-i**, feminine **-e**, neuter **-a**. Two traps here — *k* softens to *c* (*dječak* to *dječaci*), and short words like *stol* pad out to *stolovi*.",
+        "infokratko": "Plural: masculine **-i**, feminine **-e**, neuter **-a**. *dječak → dječaci*, *stol → stolovi*.",
         "opis": "Match each singular with its plural. Listen for the new ending!"
       },
       "stavke": [
@@ -39016,7 +39339,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The plural patterns",
       "meta": {
-        "info": "The core rule of the whole lesson on one page: **-i / -e / -a**, the same trio you already use for adjectives. Learn it here and *knjige*, *učenici* and *pisma* stop being three problems and become one."
+        "info": "The core rule of the whole lesson on one page: **-i / -e / -a**, the same trio you already use for adjectives. Learn it here and *knjige*, *učenici* and *pisma* stop being three problems and become one.",
+        "infokratko": "**-i / -e / -a**, the same trio as the adjectives: *učenici, knjige, pisma*."
       },
       "stavke": [
         [
@@ -39086,6 +39410,7 @@ window.PODACI = {
       "naslov": "Sort the plurals",
       "meta": {
         "info": "Work backwards from a plural to its gender. An **-i** word is masculine (*prozori*), **-e** is feminine (*olovke*), **-a** is neuter (*jutra*). Watch *stolovi* and *gradovi* — the *-ov-* padding is still just the masculine *-i*.",
+        "infokratko": "From plural to gender: **-i** m (*prozori*), **-e** f (*olovke*), **-a** n (*jutra*). *stolovi* is still **-i**.",
         "stupci": "-I (m.) | -E (f.) | -A (n.)",
         "opis": "Sort the plural words by their ending pattern."
       },
@@ -39175,6 +39500,7 @@ window.PODACI = {
       "naslov": "Tap the plural ending",
       "meta": {
         "info": "One tap fills the plural ending. Masculine takes **-i**, feminine **-e**, neuter **-a**; the adjective in the sentence agrees with the same trio, so *Knjige su nove* but *Pisma su duga*.",
+        "infokratko": "m **-i**, f **-e**, n **-a**, and the adjective agrees: *Knjige su nove. Pisma su duga.*",
         "nastavci": "i | e | a",
         "opis": "English above, Croatian below. The word is waiting for its plural ending — one tap. Masculine takes **-i**, feminine **-e**, neuter **-a**."
       },
@@ -39281,7 +39607,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Verbs go plural too",
       "meta": {
-        "info": "The other half of Lesson 7: the plural persons. **mi** is always **-mo** and **vi** is always **-te**, for every verb in the language. Only **oni** depends on the verb family — *čitaju*, *uče*, *jedu*."
+        "info": "The other half of Lesson 7: the plural persons. **mi** is always **-mo** and **vi** is always **-te**, for every verb in the language. Only **oni** depends on the verb family — *čitaju*, *uče*, *jedu*.",
+        "infokratko": "**mi -mo**, **vi -te** for every verb. *oni* depends on the verb: *čitaju, uče, jedu*."
       },
       "stavke": [
         [
@@ -39339,6 +39666,7 @@ window.PODACI = {
       "naslov": "Tap the person",
       "meta": {
         "info": "You pick the person ending. **-mo** means *we*, **-te** means *you all*, **-ju** means *they* — and *-ju* is safe here only because every verb on this page is an *-am* verb like *pjevati*.",
+        "infokratko": "**-mo** we, **-te** you all, **-ju** they (all *-am* verbs here).",
         "nastavci": "mo | te | ju",
         "opis": "Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every verb here is from the **-am** family, where *oni* really does end in **-ju**; the other two families get their own page in Grammar 7."
       },
@@ -39436,6 +39764,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Match the verb to its subject. Look at the subject first: a plural noun like *dječaci* needs the *they* form, and *djeca* counts as **they** even though it ends in *-a* — *Djeca pjevaju*.",
+        "infokratko": "Subject first. *djeca* is *they*: *Djeca pjevaju*.",
         "opis": "Choose the correct verb form."
       },
       "stavke": [
@@ -39512,6 +39841,7 @@ window.PODACI = {
       "naslov": "Make it plural",
       "meta": {
         "info": "Type the plural yourself, so spelling counts. Remember the two changes the ear notices: *k* becomes *c* before *-i* (*učenik* to *učenici*), and one-syllable masculines grow *-ov-* (*stol* to *stolovi*). *Dijete* follows no rule at all: *djeca*.",
+        "infokratko": "Type the plural: *učenik → učenici*, *stol → stolovi*, *dijete → djeca*.",
         "opis": "Type the plural."
       },
       "stavke": [
@@ -39584,6 +39914,7 @@ window.PODACI = {
       "naslov": "Build the classroom",
       "meta": {
         "info": "Build whole sentences, so every part has to agree. A plural noun needs a plural adjective **and** a plural verb: *Učenici su mladi*, *Knjige su nove*, *Djeca čitaju knjige*.",
+        "infokratko": "Plural noun, plural adjective, plural verb: *Učenici su mladi. Djeca čitaju knjige.*",
         "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
@@ -39630,6 +39961,7 @@ window.PODACI = {
       "naslov": "Morning at school",
       "meta": {
         "info": "A real conversation, so your reply has to fit the question. Most answers here are plural — pick the form that matches who is doing it: *Dobro **smo***, *Oni **igraju** nogomet*.",
+        "infokratko": "Mostly plural answers: *Dobro smo. Oni igraju nogomet.*",
         "opis": "The first bell has gone and your new class is settling in. Choose your replies. Passive words: *Kako ste?* (How are you?), *počinjemo* (we're starting), *otvorite* (open), *uvijek* (always)."
       },
       "stavke": [
@@ -39700,6 +40032,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "Pair each singular with its plural. Mixed in are the irregulars you cannot derive: *dijete* to **djeca** and *brat* to **braća**. Learn those two as words, not as patterns.",
+        "infokratko": "Singular with plural. Irregulars to learn as words: *dijete → djeca*, *brat → braća*.",
         "opis": "Find the pairs — singular and its plural."
       },
       "stavke": [
@@ -39756,6 +40089,7 @@ window.PODACI = {
       "naslov": "A day in the classroom",
       "meta": {
         "info": "Read the scene, then answer. Nearly every noun is plural, so let the endings guide you — *knjige* and *djevojčice* are feminine **-e**, *stolovi* and *prozori* masculine **-i**, and the adjectives copy them.",
+        "infokratko": "Read, then answer. *knjige* f **-e**, *stolovi* m **-i**; adjectives copy them.",
         "tekst": "Ovo je škola. Učenici su mladi i veseli. Knjige su nove, ali stolovi su stari. Dječaci igraju nogomet, a djevojčice pjevaju pjesme. Učiteljica svira klavir. Prozori su veliki, a zidovi su žuti. Dani su dugi, ali su lijepi.",
         "opis": "Read the classroom scene, then answer the questions. Passive words: *zidovi* (walls), *žuti* (yellow, plural)."
       },
@@ -39803,6 +40137,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The end-of-lesson check, mixing everything from Lesson 7: the three plural endings, the *-ovi* words, the irregular *djeca*, and the plural verb persons **-mo**, **-te**, **-ju/-u**.",
+        "infokratko": "Everything: **-i/-e/-a**, *-ovi*, *djeca*, and **-mo, -te, -ju/-u**.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 7."
       },
@@ -39892,7 +40227,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A wrap-up of what you can now say: any noun in the plural, any adjective agreeing with it, and the present tense in all six persons. Grammar 7 next turns those plurals into targets."
+        "info": "A wrap-up of what you can now say: any noun in the plural, any adjective agreeing with it, and the present tense in all six persons. Grammar 7 next turns those plurals into targets.",
+        "infokratko": "Plural nouns, agreeing adjectives, all six persons of the present."
       },
       "stavke": [
         [
@@ -39914,6 +40250,7 @@ window.PODACI = {
       "naslov": "Masculine — one becomes many with -i",
       "meta": {
         "info": "Masculine plurals in bulk. The ending is **-i**, but a final *k* cannot survive in front of it and softens to *c*: *učenik* to *učenici*, *jezik* to *jezici*. Words ending in *-lj* or *-r* simply add the *-i*.",
+        "infokratko": "Masculine plural **-i**; *k → c*: *učenik → učenici, jezik → jezici*.",
         "opis": "Masculine nouns take **-i**. Watch the four where a **k** softens into **c** on the way: *učenik → učenici*."
       },
       "stavke": [
@@ -39986,6 +40323,7 @@ window.PODACI = {
       "naslov": "Short masculine words stretch to -ovi",
       "meta": {
         "info": "The *-ov-* group. Most masculine nouns of **one syllable** insert *-ov-* before the ending: *grad* to *gradovi*, *most* to *mostovi*. It is still the masculine *-i* plural underneath, just padded out.",
+        "infokratko": "One-syllable masculines add *-ov-*: *grad → gradovi, most → mostovi*.",
         "opis": "Most one-syllable masculine nouns don't just take -i — they grow a whole extra piece: **-ovi**. *stol → stolovi*, *grad → gradovi*."
       },
       "stavke": [
@@ -40038,6 +40376,7 @@ window.PODACI = {
       "naslov": "Feminine — -a becomes -e",
       "meta": {
         "info": "The easy group. Feminine nouns in *-a* simply swap it for **-e** in the plural: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*.",
+        "infokratko": "Feminine **-a → -e**: *škola → škole, olovka → olovke*.",
         "opis": "The easiest group on the page: swap the final **-a** for **-e** and you're done. No softening, no stretching."
       },
       "stavke": [
@@ -40118,6 +40457,7 @@ window.PODACI = {
       "naslov": "Neuter — -o or -e becomes -a",
       "meta": {
         "info": "Neuter plurals. Whether the singular ends in *-o* or *-e*, the plural ends in **-a**: *pismo* to *pisma*, *more* to *mora*. Do not read that final *-a* as feminine — *pisma* is many letters, not one.",
+        "infokratko": "Neuter **-o/-e → -a**: *pismo → pisma, more → mora*.",
         "opis": "Neuter nouns end in **-a** in the plural — the same letter that means \"one\" in the feminine. Croatian reuses its letters shamelessly."
       },
       "stavke": [
@@ -40166,6 +40506,7 @@ window.PODACI = {
       "naslov": "The rebels",
       "meta": {
         "info": "Four words that ignore the rules and have to be memorised: *dijete* to **djeca**, *brat* to **braća**, *čovjek* to **ljudi**, *riječ* to **riječi**. *Djeca* and *braća* take plural verbs but act like one feminine word as a target: *Vidim djecu*.",
+        "infokratko": "Memorise: *djeca, braća, ljudi, riječi*. As a target: *Vidim djecu*.",
         "opis": "Four words too important to follow the rules. *Djeca* and *braća* even behave like a single feminine word: *Djeca su dobra*, but *Vidim djecu*."
       },
       "stavke": [
@@ -40198,6 +40539,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Verbs with their plural persons attached. **-mo** and **-te** never vary; only the *they* form follows the family — *pjevaju* for *-am* verbs, *broje* for *-im*, *plešu* for *-em*.",
+        "infokratko": "**-mo**, **-te** always; *they* by family: *pjevaju, broje, plešu*.",
         "opis": "School verbs, each with the three plural forms you learn today. *mi* and *vi* are always **-mo** and **-te**; only *oni* changes with the family — **-aju** for the -am group, **-e** for *brojati*, **-u** for *plesati*."
       },
       "stavke": [
@@ -40254,6 +40596,7 @@ window.PODACI = {
       "naslov": "School subjects",
       "meta": {
         "info": "Subject names, almost all international words wearing Croatian endings. Most are feminine *-a* nouns (*matematika*, *fizika*), so as targets they take *-u*: *Volim **matematiku***; *sport*, *jezik* and *povijest* do not change.",
+        "infokratko": "Mostly feminine **-a**: *Volim matematiku*. *sport, jezik, povijest* stay.",
         "opis": "Nearly all cognates — you can read this list already."
       },
       "stavke": [
@@ -40306,6 +40649,7 @@ window.PODACI = {
       "naslov": "Small words for the classroom",
       "meta": {
         "info": "Adverbs and adjectives for the school day. Adverbs like *glasno* and *brzo* never change shape, but adjectives do — the plural forms *mladi*, *kratki*, *teški* are the ones you need with masculine plural nouns; feminine plurals take **-e** (*nove knjige*) and neuter plurals **-a** (*duga pisma*).",
+        "infokratko": "Adverbs never change (*glasno, brzo*); adjectives agree: *mladi, nove knjige, duga pisma*.",
         "opis": "How things are done, and how the day feels."
       },
       "stavke": [
@@ -40370,6 +40714,7 @@ window.PODACI = {
       "naslov": "Which plural ending?",
       "meta": {
         "info": "Predict the plural from the singular. The clue is the last letter: a consonant means masculine **-i**, *-a* means feminine **-e**, *-o* or *-e* means neuter **-a**. Find the gender and the ending follows.",
+        "infokratko": "Consonant **-i**, *-a* **-e**, *-o/-e* **-a**.",
         "stupci": "-I | -E | -A",
         "opis": "Sort by the ending each word takes in the plural. Masculine takes -i, feminine -e, neuter -a."
       },
@@ -40467,6 +40812,7 @@ window.PODACI = {
       "naslov": "Regular or rebel?",
       "meta": {
         "info": "Sort the predictable words from the awkward ones. Regular means the plain **-i / -e / -a**; the odd ones here are the one-syllable masculines padding to *-ovi* (*zid* to *zidovi*) and the four true irregulars like *čovjek* to *ljudi*.",
+        "infokratko": "Regular **-i/-e/-a**; *-ovi* (*zidovi*); irregular (*ljudi*).",
         "stupci": "PRAVILNO | IZNIMKA",
         "opis": "Most words follow the trio. Four of these do something else entirely — and four just grow a whole syllable."
       },
@@ -40548,6 +40894,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word recognition, all in the singular. Fix each word's final letter in mind as you go — it is the gender clue that decides which plural ending the word will take.",
+        "infokratko": "Singular forms. The last letter tells the plural ending.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -40612,6 +40959,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Croatian to English recall for the school set. Nouns are given in the singular, and the ending you see (*-a* in *zadaća*, a consonant in *odgovor*) is what tells you the plurals will be *zadaće* and *odgovori*.",
+        "infokratko": "Singular; the ending predicts the plural: *zadaća → zadaće, odgovor → odgovori*.",
         "opis": "Match each school word with its English meaning."
       },
       "stavke": [
@@ -40700,6 +41048,7 @@ window.PODACI = {
       "naslov": "Memory: singular & plural",
       "meta": {
         "info": "Pairs, singular with plural. Regular pairs differ only in the last letter, so use that: the ones that change more — *stol* to *stolovi*, *čovjek* to *ljudi*, *dijete* to *djeca* — are the ones worth memorising.",
+        "infokratko": "Memorise the ones that change more: *stolovi, ljudi, djeca*.",
         "opis": "Find each singular's plural."
       },
       "stavke": [
@@ -40756,6 +41105,7 @@ window.PODACI = {
       "naslov": "Speed challenge: make it plural",
       "meta": {
         "info": "Plural formation against the clock, so the rule has to be automatic: **-i / -e / -a**, with *k* softening to *c* before *-i*. Only *dijete*, *brat* and *čovjek* need recall rather than a rule.",
+        "infokratko": "**-i/-e/-a**, *k → c*. Recall *djeca, braća, ljudi*.",
         "trajanje": "60",
         "opis": "A singular flashes — tap its plural before the timer runs out."
       },
@@ -40853,6 +41203,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what is it?",
       "meta": {
         "info": "Timed meaning recall — Croatian in, English out. Nothing to build here, just fast recognition of the school words you will be putting into the plural in the drills that follow.",
+        "infokratko": "Meaning only.",
         "trajanje": "60",
         "opis": "School sprint — tap the English meaning."
       },
@@ -40990,6 +41341,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spell each word from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *učiteljica* and *knjiga* need the whole *lj* or *nj* tile, and *č*, *ć*, *ž* are letters of their own too.",
+        "infokratko": "**lj, nj, dž** are one tile each: *učiteljica, knjiga*.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
       },
       "stavke": [
@@ -41046,6 +41398,7 @@ window.PODACI = {
       "naslov": "Type the plural",
       "meta": {
         "info": "Typed plurals across all three genders. Two spellings trip people up: *k* becomes *c* before *-i* (*dječak* to *dječaci*), and short masculines take *-ovi* (*most* to *mostovi*).",
+        "infokratko": "*dječak → dječaci*, *most → mostovi*.",
         "opis": "You get the singular — type the plural form."
       },
       "stavke": [
@@ -41162,6 +41515,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English in, Croatian out, in the **singular**. Getting the final letter right matters more than usual — that letter carries the gender, and gender is what chooses every plural ending you have just learned.",
+        "infokratko": "Singular forms; the final letter shows the gender.",
         "opis": "The final round — type each word in Croatian, in the singular."
       },
       "stavke": [
@@ -41321,7 +41675,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: plurals of nouns & adjectives",
       "meta": {
-        "info": "The reference page for plural forms. Masculine **-i**, feminine **-e**, neuter **-a**, with one-syllable masculines padding to *-ovi*; adjectives take the very same three endings, so *Knjige su nove* and *Pisma su duga*."
+        "info": "The reference page for plural forms. Masculine **-i**, feminine **-e**, neuter **-a**, with one-syllable masculines padding to *-ovi*; adjectives take the very same three endings, so *Knjige su nove* and *Pisma su duga*.",
+        "infokratko": "Plural: m **-i** (short words *-ovi*), f **-e**, n **-a**. Adjectives the same: *Knjige su nove.*"
       },
       "stavke": [
         [
@@ -41381,7 +41736,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: when k, g and h soften",
       "meta": {
-        "info": "Why it is *učenici* and not *učeniki*. Before the plural **-i** the sounds *k*, *g* and *h* soften to *c*, *z* and *s* — *vojnik* to *vojnici*. The page also lists the four irregulars, including *djeca*, which takes a plural verb."
+        "info": "Why it is *učenici* and not *učeniki*. Before the plural **-i** the sounds *k*, *g* and *h* soften to *c*, *z* and *s* — *vojnik* to *vojnici*. The page also lists the four irregulars, including *djeca*, which takes a plural verb.",
+        "infokratko": "Before **-i**: *k → c, g → z, h → s* (*vojnik → vojnici*). Plus four irregulars, e.g. *djeca*."
       },
       "stavke": [
         [
@@ -41415,6 +41771,7 @@ window.PODACI = {
       "naslov": "Which plural ending?",
       "meta": {
         "info": "Sorting by ending, straight from gender. A consonant ending is masculine and takes **-i**, *-a* is feminine and takes **-e**, *-o* and *-e* are neuter and take **-a** — *ispit*, *torba*, *more*.",
+        "infokratko": "Consonant → **-i**, *-a* → **-e**, *-o/-e* → **-a**: *ispiti, torbe, mora*.",
         "stupci": "-I | -E | -A",
         "opis": "Sort each singular by the plural ending it takes."
       },
@@ -41512,6 +41869,7 @@ window.PODACI = {
       "naslov": "Tap the plural ending",
       "meta": {
         "info": "One tap per gap, the same trio again: **-i** masculine, **-e** feminine, **-a** neuter. Use the adjective as a check — *su duga* can only belong to a neuter plural like *pisma*.",
+        "infokratko": "m **-i**, f **-e**, n **-a**. The adjective is a check: *su duga* → *pisma*.",
         "nastavci": "i | e | a",
         "opis": "One tap. Masculine takes **-i**, feminine **-e**, neuter **-a**."
       },
@@ -41619,6 +41977,7 @@ window.PODACI = {
       "naslov": "Regular or rebel?",
       "meta": {
         "info": "Three piles, not two. Regular words take the plain **-i / -e / -a**; one-syllable masculines take **-ovi** (*test* to *testovi*); and *dijete*, *brat*, *čovjek* and *riječ* follow nothing at all.",
+        "infokratko": "Regular **-i/-e/-a**; short masculines **-ovi** (*testovi*); irregular *djeca, braća, ljudi, riječi*.",
         "stupci": "PRAVILNO | -OVI | IZNIMKA",
         "opis": "Three groups. Most words follow the trio, one-syllable masculines pad with **-ovi**, and four words do their own thing entirely."
       },
@@ -41708,6 +42067,7 @@ window.PODACI = {
       "naslov": "Type the plural",
       "meta": {
         "info": "Typed plurals with both spelling changes in play: *k* softens to *c* before *-i* (*jezik* to *jezici*), and short masculines insert *-ov-* (*zid* to *zidovi*). A feminine *k* is safe — *olovka* gives *olovke*.",
+        "infokratko": "*jezik → jezici*, *zid → zidovi*. Feminine *k* stays: *olovke*.",
         "opis": "Type the plural. Watch the *k → c* words and the one-syllable ones."
       },
       "stavke": [
@@ -41796,6 +42156,7 @@ window.PODACI = {
       "naslov": "The adjective follows the noun",
       "meta": {
         "info": "Agreement in the plural. The adjective copies the noun's gender ending exactly: masculine *-i* (*Prozori su veliki*), feminine *-e* (*Knjige su nove*), neuter *-a* (*Mora su topla*).",
+        "infokratko": "The adjective copies the noun: *Prozori su veliki. Knjige su nove. Mora su topla.*",
         "opis": "Choose the matching adjective. Same trio as the nouns: -i / -e / -a."
       },
       "stavke": [
@@ -41871,7 +42232,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the complete present tense",
       "meta": {
-        "info": "The full six-person table. **-mo** for *mi* and **-te** for *vi* are fixed for every verb in the language; only *oni* varies by family — *-am* verbs give *-aju*, *-im* verbs *-e*, *-em* verbs *-u*."
+        "info": "The full six-person table. **-mo** for *mi* and **-te** for *vi* are fixed for every verb in the language; only *oni* varies by family — *-am* verbs give *-aju*, *-im* verbs *-e*, *-em* verbs *-u*.",
+        "infokratko": "*mi* **-mo**, *vi* **-te** always. *oni*: *-am → -aju*, *-im → -e*, *-em → -u*."
       },
       "stavke": [
         [
@@ -41967,6 +42329,7 @@ window.PODACI = {
       "naslov": "Tap the person",
       "meta": {
         "info": "Choose the person ending. **-mo** is *we*, **-te** is *you all*, **-ju** is *they*; the *-ju* option works throughout because every verb here belongs to the *-am* family, like *igrati* and *vježbati*.",
+        "infokratko": "**-mo** we, **-te** you all, **-ju** they (all *-am* verbs here).",
         "nastavci": "mo | te | ju",
         "opis": "Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every verb here belongs to the -am family."
       },
@@ -42074,6 +42437,7 @@ window.PODACI = {
       "naslov": "Tap what THEY do",
       "meta": {
         "info": "Only the *oni* form, and the bracketed *ja* form is your clue. If *ja* is *-am*, *oni* is **-aju**; if *-im*, **-e**; if *-em*, **-u**. So *čitam* gives *čitaju*, while *čujem* gives *čuju* — stem *j* plus a plain *-u*.",
+        "infokratko": "From the *ja* form: *-am → -aju*, *-im → -e*, *-em → -u*. *čujem → čuju*.",
         "nastavci": "aju | e | u",
         "opis": "Only the *oni* form. Look at the *ja* form in brackets and let the family decide: **-am → -aju**, **-im → -e**, **-em → -u**."
       },
@@ -42171,6 +42535,7 @@ window.PODACI = {
       "naslov": "What do THEY do?",
       "meta": {
         "info": "Sort the verbs by what their *they* form does. The family is set by the *ja* form: *čitam* and *znam* land in **-aju**, *radim* and *brojim* in **-e**, *pijem* and *plešem* in **-u**.",
+        "infokratko": "*čitam, znam* → **-aju**; *radim, brojim* → **-e**; *pijem, plešem* → **-u**.",
         "stupci": "-AJU | -E | -U",
         "opis": "The *oni* form, sorted by verb family. **-am** verbs say **-aju**, **-im** verbs say **-e**, **-em** verbs say **-u**."
       },
@@ -42276,6 +42641,7 @@ window.PODACI = {
       "naslov": "Type the verb",
       "meta": {
         "info": "Type the full form for the given subject. Find the person first, then the family: *mi* and *vi* are always **-mo** and **-te**, and only the *they* forms need the family — *jedu*, *plešu*, *slušaju*.",
+        "infokratko": "*mi* **-mo**, *vi* **-te**; *oni* by family: *jedu, plešu, slušaju*.",
         "opis": "Type the verb form."
       },
       "stavke": [
@@ -42347,7 +42713,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: many targets",
       "meta": {
-        "info": "The plural target form, and it is simpler than the singular. Only masculine changes, *-i* to **-e** (*učenici* to *učenike*, with *c* back to *k*); feminine and neuter plurals stay put, and living versus non-living no longer matters."
+        "info": "The plural target form, and it is simpler than the singular. Only masculine changes, *-i* to **-e** (*učenici* to *učenike*, with *c* back to *k*); feminine and neuter plurals stay put, and living versus non-living no longer matters.",
+        "infokratko": "Plural target: only masculine changes, **-i → -e** (*učenike*). Feminine and neuter stay."
       },
       "stavke": [
         [
@@ -42401,6 +42768,7 @@ window.PODACI = {
       "naslov": "Does it change in the plural?",
       "meta": {
         "info": "Decide whether each plural moves after *vidim*. Masculine plurals do — *gradovi* becomes *gradove* — while feminine **-e** and neuter **-a** plurals look identical in both roles: *Knjige su nove*, *Čitam knjige*.",
+        "infokratko": "Masculine moves (*gradove*); feminine and neuter look the same: *Čitam knjige*.",
         "stupci": "MIJENJA SE | OSTAJE ISTO",
         "opis": "After *vidim* — does the plural form change, or is it identical to the naming form?"
       },
@@ -42482,6 +42850,7 @@ window.PODACI = {
       "naslov": "Tap the plural target",
       "meta": {
         "info": "The same noun twice, first naming, then as the target. Masculine plurals swap **-i** for **-e**, and the softened *c* reverts to *k*, because the **k → c** change only happens in front of an *-i*: *učenici* but *Vidim učenike*.",
+        "infokratko": "Masculine **-i → -e**, and *c* goes back to *k*: *Vidim učenike*.",
         "nastavci": "i | e",
         "opis": "The same word twice — once naming, once as the target. Only masculine plurals move, and watch the **c** turn back into a **k**."
       },
@@ -42579,6 +42948,7 @@ window.PODACI = {
       "naslov": "Type the plural target",
       "meta": {
         "info": "Type the plural target form. Masculine takes **-e** (*prozori* to *prozore*), feminine and neuter stay as they are (*knjige*, *pisma*), and the irregular *djeca* behaves like one feminine word: *Vidim **djecu***.",
+        "infokratko": "m **-e** (*prozore*), f and n unchanged; *djeca → djecu*.",
         "opis": "Put the plural into the target form — after *vidim*."
       },
       "stavke": [
@@ -42651,6 +43021,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Full sentences, so noun, adjective and verb all have to agree in the plural, and any target noun must be in its target form: *Vidim star**e** gradov**e***, *Mi čeka**mo** prijatelj**e***.",
+        "infokratko": "Noun, adjective and verb agree; targets in target form: *Vidim stare gradove.*",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -42702,7 +43073,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: The school",
       "meta": {
-        "info": "A text to read, not a drill. Almost every noun is plural, so track the endings: *učenici* and *prozori* are masculine **-i**, *knjige* and *učiteljice* feminine **-e**, and the adjectives repeat the same ending."
+        "info": "A text to read, not a drill. Almost every noun is plural, so track the endings: *učenici* and *prozori* are masculine **-i**, *knjige* and *učiteljice* feminine **-e**, and the adjectives repeat the same ending.",
+        "infokratko": "Mostly plural: *učenici, prozori* **-i**; *knjige, učiteljice* **-e**. Adjectives match."
       },
       "stavke": [
         [
@@ -42756,6 +43128,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions on the text above. The answers hang on plural adjectives agreeing with their nouns, so *mladi* points back to *učenici* and *stari* to *stolovi*.",
+        "infokratko": "Adjectives point back: *mladi → učenici*, *stari → stolovi*.",
         "tekst": "Ovo je škola. Učenici su mladi i veseli. Učiteljice su dobre. Knjige su nove, ali stolovi su stari. Dječaci igraju nogomet, a djevojčice pjevaju pjesme. Prozori su veliki, a zidovi su žuti. Udžbenici su teški, ali su zanimljivi. Dani su dugi, ali su lijepi.",
         "opis": "Answer from the text."
       },
@@ -42802,7 +43175,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: The timetable",
       "meta": {
-        "info": "Real-world reading rather than a story — scan for what you need. The plurals to spot are *ispiti* with masculine **-i**, and *zadaće* and *ocjene* with feminine **-e**."
+        "info": "Real-world reading rather than a story — scan for what you need. The plurals to spot are *ispiti* with masculine **-i**, and *zadaće* and *ocjene* with feminine **-e**.",
+        "infokratko": "Scan it. *ispiti* **-i**; *zadaće, ocjene* **-e**."
       },
       "stavke": [
         [
@@ -42853,6 +43227,7 @@ window.PODACI = {
       "naslov": "Reading a timetable",
       "meta": {
         "info": "Questions on the timetable, some needing you to work the answer out rather than read it off. Keep the plural endings in view: *ispiti* is masculine **-i**, *zadaće* and *ocjene* are feminine **-e**.",
+        "infokratko": "Work some answers out. *ispiti* m, *zadaće, ocjene* f.",
         "tekst": "RASPORED — 5. razred. Ponedjeljak: matematika, hrvatski, glazba. Utorak: biologija, geografija, sport. Srijeda: fizika, kemija, matematika. Pauza je duga dvadeset minuta. Dječaci igraju nogomet svaki odmor. Ispiti su u srijedu. Zadaće su duge, ali su ocjene dobre!",
         "opis": "Some answers are written down, some you have to work out."
       },
@@ -42905,7 +43280,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: The choir",
       "meta": {
-        "info": "A scene built almost entirely on plural verbs. Watch the *they* forms and their families: *pjevaju* and *slušaju* come from *-am* verbs, but *broje* comes from *brojim*, an *-im* verb."
+        "info": "A scene built almost entirely on plural verbs. Watch the *they* forms and their families: *pjevaju* and *slušaju* come from *-am* verbs, but *broje* comes from *brojim*, an *-im* verb.",
+        "infokratko": "*they* forms: *pjevaju, slušaju* (**-am**), *broje* (**-im**)."
       },
       "stavke": [
         [
@@ -42956,6 +43332,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Check each statement against the text. The meaning sits in the endings — the plural adjectives (*Pjesme su stare*) and the plural verbs (*Ivan i Luka broje*) — so read those, not just the word stems.",
+        "infokratko": "Read the endings: *Pjesme su stare. Ivan i Luka broje.*",
         "tekst": "Djeca pjevaju pjesme. Pjesme su stare, ali su lijepe. Dječaci pjevaju glasno, a djevojčice pjevaju tiho. Učiteljica svira klavir. Roditelji slušaju i plješću. Braća Ivan i Luka ne pjevaju — oni broje minute. Na kraju svi pjevaju zadnju pjesmu zajedno.",
         "opis": "Tap true or false."
       },
@@ -42998,6 +43375,7 @@ window.PODACI = {
       "naslov": "Type the plural verb",
       "meta": {
         "info": "Type the verb to match its subject. *mi* takes **-mo** and *vi* takes **-te** every time; for *they* the family decides — *pjevaju* and *slušaju* end in *-aju*, but *brojati* gives *broje*.",
+        "infokratko": "*mi* **-mo**, *vi* **-te**; *they* by family: *pjevaju*, *broje*.",
         "tekst": "Djeca pjevaju pjesme. Dječaci pjevaju glasno. Roditelji slušaju i plješću. Braća Ivan i Luka ne pjevaju — oni broje minute. Na kraju svi pjevaju zajedno.",
         "opis": "Fill in the plural verb from the text."
       },
@@ -43046,7 +43424,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Four classmates",
       "meta": {
-        "info": "A logic puzzle in Croatian, so read all of it before deciding anything. The grammar at play is negation with the present tense: *ne voli* is *doesn't like*, and *Nitko ne voli* keeps its negative verb."
+        "info": "A logic puzzle in Croatian, so read all of it before deciding anything. The grammar at play is negation with the present tense: *ne voli* is *doesn't like*, and *Nitko ne voli* keeps its negative verb.",
+        "infokratko": "Read it all first. *ne voli* = doesn't like; *Nitko ne voli*."
       },
       "stavke": [
         [
@@ -43093,6 +43472,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Some answers are stated outright and some you have to put together. The Croatian you need is small: *voli* and *ne voli*, plus the singular target form after them, as in *Marko voli matematik**u***.",
+        "infokratko": "*voli / ne voli* + target: *Marko voli matematiku*.",
         "tekst": "Ana, Marko, Iva i Luka su prijatelji. Ana ne voli brojeve, ali voli riječi. Marko i Luka su sportaši. Oni trče brzo. Iva svira klavir i pjeva pjesme. Marko voli matematiku, a Luka ne voli matematiku. Luka voli samo sport. Nitko ne voli fiziku.",
         "opis": "Nobody says outright who likes which subject. Work it out."
       },
@@ -43145,7 +43525,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 5: New pupils",
       "meta": {
-        "info": "A classroom dialogue to read. Two things to notice: the plural of *biti* in *Jesu li oni braća?*, and the plural target in *Mi trebamo brz**e** igrač**e*** — masculine plural targets end in **-e**."
+        "info": "A classroom dialogue to read. Two things to notice: the plural of *biti* in *Jesu li oni braća?*, and the plural target in *Mi trebamo brz**e** igrač**e*** — masculine plural targets end in **-e**.",
+        "infokratko": "*Jesu li oni braća?* Plural masculine target **-e**: *brze igrače*."
       },
       "stavke": [
         [
@@ -43196,6 +43577,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Rebuild the conversation in order — a question has to come before its answer. *Jesu li oni braća?* is answered by *Da, oni su braća*, and the greeting pair opens the scene.",
+        "infokratko": "Question before answer; the greeting opens.",
         "opis": "Rebuild the classroom conversation."
       },
       "stavke": [
@@ -43236,6 +43618,7 @@ window.PODACI = {
       "naslov": "Talking about the class",
       "meta": {
         "info": "You reply in a conversation, and nearly everything is plural. Match the verb to its subject (*Oni igraju*, *One pjevaju*) and keep the adjectives agreeing: *Učenici su veseli*, *Učiteljice su dobre*.",
+        "infokratko": "Mostly plural: *Oni igraju. Učenici su veseli. Učiteljice su dobre.*",
         "opis": "A new pupil is asking about your class. Answer him — everything is plural now. Passive words: *strog* (strict), *neki* (some), *lagan* (easy), *svi* (everyone)."
       },
       "stavke": [
@@ -43315,6 +43698,7 @@ window.PODACI = {
       "naslov": "Tap the plural ending from the texts",
       "meta": {
         "info": "Fill in the plural ending on sentences taken from the readings. Masculine **-i**, feminine **-e**, neuter **-a** — and the adjective confirms your choice, since *su žuti* can only follow a masculine plural like *zidovi*.",
+        "infokratko": "m **-i**, f **-e**, n **-a**. The adjective confirms: *su žuti → zidovi*.",
         "nastavci": "i | e | a",
         "opis": "Almost every sentence came out of the five texts. Masculine takes **-i**, feminine **-e**, neuter **-a**."
       },
@@ -43412,6 +43796,7 @@ window.PODACI = {
       "naslov": "Make it a target",
       "meta": {
         "info": "Turn a naming plural into the target of a verb. Only masculine moves, *-i* to **-e**, with *c* going back to *k*: *dječaci* gives *Vidim dječak**e***. Feminine and neuter plurals stay exactly as they are.",
+        "infokratko": "Only masculine moves, **-i → -e**, *c → k*: *Vidim dječake*.",
         "opis": "The plural is naming something. Say it again as the target of *vidim* — only masculine moves."
       },
       "stavke": [
@@ -43468,6 +43853,7 @@ window.PODACI = {
       "naslov": "A school morning, in order",
       "meta": {
         "info": "Sequence the day by sense, not by grammar. Everything is present tense with plural subjects — *Djeca dolaze*, *Učenici otvaraju* — so the clues are the events themselves.",
+        "infokratko": "Order by the events.",
         "opis": "Seven moments from a school day, shuffled. Nobody wrote this down — put it in the order it would actually happen. Passive words: *dolaze* (they arrive), *kaže* (says), *otvaraju* (they open), *gotov* (finished), *doma* (home)."
       },
       "stavke": [
@@ -43505,6 +43891,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English prompt, Croatian built from tiles. Every piece must agree: a plural noun with a plural adjective and a plural verb, and a target noun in its target form — *Vidim učenik**e***, *Čitam nov**e** knjige*.",
+        "infokratko": "Everything agrees; targets in target form: *Vidim učenike. Čitam nove knjige.*",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
       },
       "stavke": [
@@ -43625,6 +44012,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "Fast picture-to-word tapping, all singular forms. Use the moment to lock in the final letter of each word — that letter is the gender, and gender is what chooses the plural ending.",
+        "infokratko": "Singular forms. The last letter is the gender.",
         "opis": "The bell has gone. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -45754,7 +46142,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Summer is coming!",
       "meta": {
-        "info": "Your first look at the Croatian future, and it needs no new endings. A short helper word plus the dictionary form of the verb does the whole job: *ću* plus *plivati* gives **Plivat ću** — *I will swim*."
+        "info": "Your first look at the Croatian future, and it needs no new endings. A short helper word plus the dictionary form of the verb does the whole job: *ću* plus *plivati* gives **Plivat ću** — *I will swim*.",
+        "infokratko": "Future = helper + dictionary form: *ću* + *plivati* → **Plivat ću** (*I will swim*)."
       },
       "stavke": [
         [
@@ -45776,6 +46165,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the plurals from Lesson 7, before the future arrives. Most masculine nouns add *-i* (*prozor → prozori*), feminine *-a* swaps to *-e* (*knjiga → knjige*), and oddballs like *čovjek → **ljudi*** simply have to be known.",
+        "infokratko": "Lesson 7 against the clock: *prozor → prozori*, *knjiga → knjige*, *čovjek → ljudi*.",
         "trajanje": "60",
         "opis": "Plural sprint from Lesson 7 — tap the plural before the timer runs out."
       },
@@ -45853,6 +46243,7 @@ window.PODACI = {
       "naslov": "Travel words",
       "meta": {
         "info": "Holiday vocabulary, with six verbs shown in three shapes. The third shape is the **future stem**: drop the final *-i* of the infinitive (*plivati → **plivat***) and it is ready to stand in front of *ću*.",
+        "infokratko": "Holiday words. Future stem: drop the final *-i* (*plivati → plivat*) before *ću*.",
         "opis": "Words for summer plans — plus six new verbs. Every verb card shows the *ja* form and, after the second arrow, the shape it takes in front of **ću**."
       },
       "stavke": [
@@ -45968,7 +46359,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The future helpers",
       "meta": {
-        "info": "The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They echo the rhythm of *sam, si, je, smo, ste, su*, and they take their form from the subject, never from the verb: *Mi **ćemo** putovati*."
+        "info": "The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They echo the rhythm of *sam, si, je, smo, ste, su*, and they take their form from the subject, never from the verb: *Mi **ćemo** putovati*.",
+        "infokratko": "*ću, ćeš, će, ćemo, ćete, će*. They follow the subject: *Mi ćemo putovati*."
       },
       "stavke": [
         [
@@ -46031,6 +46423,7 @@ window.PODACI = {
       "naslov": "Match the helpers",
       "meta": {
         "info": "Pair each pronoun with its helper. The helper always matches the person doing the action — *ja* takes *ću*, *ti* takes *ćeš*, *mi* takes *ćemo* — while the verb itself stays in its unchanged dictionary form.",
+        "infokratko": "Pronoun with helper: *ja ću, ti ćeš, mi ćemo*. The verb stays in its dictionary form.",
         "opis": "Match each pronoun with its future helper."
       },
       "stavke": [
@@ -46067,6 +46460,7 @@ window.PODACI = {
       "naslov": "Who will it be?",
       "meta": {
         "info": "Sorting by subject, exactly as with *biti*. One person or one thing takes **će** (*vlak će*, *sestra će*), and any group that includes *ja* takes **ćemo** (*brat i ja ćemo*), even when *mi* is not written.",
+        "infokratko": "One person or thing → **će**. Any group with *ja* → **ćemo** (*brat i ja ćemo*).",
         "stupci": "ĆU | ĆEŠ | ĆE | ĆEMO",
         "opis": "Which helper does each subject take? *Brat i ja* counts as **mi**, and any single person or thing takes **će**."
       },
@@ -46140,6 +46534,7 @@ window.PODACI = {
       "naslov": "Pick the helper",
       "meta": {
         "info": "Choose the helper that matches the subject. Nothing else in the sentence moves: after the helper the verb keeps its full dictionary form, so it is *Ja **ću** plivati*, never *Ja ću plivam*.",
+        "infokratko": "Helper from the subject; the verb stays whole: *Ja ću plivati*.",
         "opis": "Choose the correct helper."
       },
       "stavke": [
@@ -46216,6 +46611,7 @@ window.PODACI = {
       "naslov": "Long or short?",
       "meta": {
         "info": "One tap decides the verb's shape, and only word order decides it. **Before** the helper the infinitive drops its final *-i*: *Plivat ću*, *Učit ćeš*, *Radit ću*. **After** the helper it stays whole: *Ja ću plivati*.",
+        "infokratko": "**Before** the helper drop the *-i* (*Plivat ću*); **after** it keep it (*Ja ću plivati*).",
         "nastavci": "t | ti",
         "opis": "The verb changes shape depending on where it stands. **In front of ću** the infinitive drops its final -i. **After ću** it keeps it. One tap."
       },
@@ -46323,6 +46719,7 @@ window.PODACI = {
       "naslov": "Today → tomorrow",
       "meta": {
         "info": "Turn a present-tense sentence into a future one. Take the verb back to its dictionary form and add the helper: *Plivam* becomes *Ja ću plivati*, or, with the verb first, *Plivat ću*. Both are equally correct.",
+        "infokratko": "Dictionary form + helper: *Plivam → Ja ću plivati* or *Plivat ću*.",
         "opis": "Make it future! Both word orders are accepted."
       },
       "stavke": [
@@ -46378,7 +46775,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Saying which day",
       "meta": {
-        "info": "How a plan gets a day. **u** plus the accusative means *on* that day, so feminine days take *-u* (*u subotu*, *u nedjelju*) while masculine ones do not change (*u ponedjeljak*). Words like *sutra* and *navečer* take no preposition at all."
+        "info": "How a plan gets a day. **u** plus the accusative means *on* that day, so feminine days take *-u* (*u subotu*, *u nedjelju*) while masculine ones do not change (*u ponedjeljak*). Words like *sutra* and *navečer* take no preposition at all.",
+        "infokratko": "**u** + accusative for days: *u subotu, u nedjelju, u ponedjeljak*. *sutra*, *navečer* need nothing."
       },
       "stavke": [
         [
@@ -46428,6 +46826,7 @@ window.PODACI = {
       "naslov": "Build the plan",
       "meta": {
         "info": "Assemble whole sentences from tiles, watching where the helper lands. It can never be the first tile: something must come before it, whether a pronoun, a time word, or the trimmed verb — *Sutra ću ustati*, *Plivat ću*.",
+        "infokratko": "The helper never comes first: *Sutra ću ustati. Plivat ću.*",
         "opis": "Arrange the tiles to build the plan."
       },
       "stavke": [
@@ -46474,6 +46873,7 @@ window.PODACI = {
       "naslov": "Now or later?",
       "meta": {
         "info": "Present or future? The giveaway is the helper. A verb alone with a personal ending is now (*Plivam*), while a dictionary form plus *ću, ćeš, će* is later (*Plivat ću*, *Ona će učiti*).",
+        "infokratko": "Verb with personal ending = now (*Plivam*); dictionary form + *ću/ćeš/će* = later (*Plivat ću*).",
         "stupci": "SADA | POSLIJE",
         "opis": "Is it happening now or in the future? Sort the sentences."
       },
@@ -46547,6 +46947,7 @@ window.PODACI = {
       "naslov": "Helper sprint",
       "meta": {
         "info": "A timed run through the six helpers. Answer from the subject alone: single people and things take *će*, *ti* takes *ćeš*, and anything paired with *ja* — *brat i ja* — takes *ćemo*.",
+        "infokratko": "From the subject alone: one person *će*, *ti ćeš*, anything with *ja* *ćemo*.",
         "trajanje": "45",
         "opis": "A subject flashes — tap the helper that goes with it."
       },
@@ -46604,6 +47005,7 @@ window.PODACI = {
       "naslov": "Weekend plans",
       "meta": {
         "info": "A conversation about the weekend, so every reply is a plan. *Hoćeš li…?* simply means *Will you…?* — take it whole for now and answer with a future sentence: *Gledat ću je*, *Ujutro ću trenirati*.",
+        "infokratko": "*Hoćeš li...?* = *Will you...?* Answer with a plan: *Gledat ću je.*",
         "opis": "Your friend asks about your weekend. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *poslije* (after)."
       },
       "stavke": [
@@ -46674,6 +47076,7 @@ window.PODACI = {
       "naslov": "A summer plan",
       "meta": {
         "info": "Read the plan first, then answer. The helper tells you who does what before you translate anything — *Ana će ustati*, *Marko će nositi* — and *u subotu* is **u** plus the accusative, meaning *on Saturday*.",
+        "infokratko": "Read, then answer. The helper shows who: *Ana će ustati*. *u subotu* = on Saturday.",
         "tekst": "Ljeto dolazi. Ana i Marko planiraju odmor. Putovat će na more u subotu. Vlak kreće rano, pa će Ana ustati prije sunca. Marko će nositi kofer jer je težak. Plivat će svaki dan, a navečer će šetati. Marko će odmarati jer je odmor. Bit će savršeno!",
         "opis": "Read the plan, then answer the questions. Passive words: *planiraju* (they are planning), *pa* (so), *težak* (heavy), *prije sunca* (before sunrise)."
       },
@@ -46721,6 +47124,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "A mixed check on everything in the lesson. Two things decide most answers: the helper can never open a sentence, and the verb loses its *-i* only when it stands in front of the helper — *Plivat ću*, but *Ja ću plivati*.",
+        "infokratko": "The helper never opens a sentence; *-i* drops only before it: *Plivat ću*, *Ja ću plivati*.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 8."
       },
@@ -46808,7 +47212,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Reward & preview",
       "meta": {
-        "info": "A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the full refusal — *neću, nećeš, neće* — and that is the first thing Grammar 8 hands you."
+        "info": "A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the full refusal — *neću, nećeš, neće* — and that is the first thing Grammar 8 hands you.",
+        "infokratko": "Future in both word orders, and *u* + accusative for days. Next: *neću, nećeš, neće*."
       },
       "stavke": [
         [
@@ -46830,6 +47235,7 @@ window.PODACI = {
       "naslov": "Where you're going",
       "meta": {
         "info": "Places a Croatian summer happens in. Note that *more* is the sea itself, and that the phrase everyone uses for going to the coast is *na more*, not *u more* — take it whole as a fixed expression for now.",
+        "infokratko": "Summer places. *more* = the sea; to the coast = *na more*.",
         "opis": "Croatia in summer, in one deck. **more** is the sea itself; going *na more* is what everyone says for \"to the coast\"."
       },
       "stavke": [
@@ -46906,6 +47312,7 @@ window.PODACI = {
       "naslov": "Getting there",
       "meta": {
         "info": "Transport and travel gear. Almost all of these will turn up as objects after a future helper, in the accusative you already know: *Nosit ću **kofer** i **torbu***.",
+        "infokratko": "Travel words, often objects after the future: *Nosit ću kofer i torbu.*",
         "opis": "How you travel and what you need before you leave."
       },
       "stavke": [
@@ -46982,6 +47389,7 @@ window.PODACI = {
       "naslov": "What you'll pack",
       "meta": {
         "info": "Clothes, and a reminder that gender is visible in the ending. *Majica*, *košulja* and *haljina* end in *-a* and are feminine, while *šešir*, *kaput* and *džemper* are masculine. *Hlače* exists only in the plural, like English *trousers*.",
+        "infokratko": "*majica, košulja, haljina* f; *šešir, kaput, džemper* m. *hlače* plural only.",
         "opis": "Clothes for a Croatian summer — and three for when the *bura* starts blowing."
       },
       "stavke": [
@@ -47034,6 +47442,7 @@ window.PODACI = {
       "naslov": "When",
       "meta": {
         "info": "The words that put a plan on a calendar. *Sutra*, *danas*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u subotu*, *u nedjelju*, *u ponedjeljak*.",
+        "infokratko": "*sutra, danas, ujutro, navečer* alone; days with **u** + accusative: *u subotu*.",
         "opis": "The words that put a plan on the calendar. *Sutra* is the one you'll use in almost every future sentence you build today."
       },
       "stavke": [
@@ -47110,6 +47519,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem** — the infinitive minus its final *-i* (*putovati → **putovat***) — which is what stands in front of *ću*.",
+        "infokratko": "Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*.",
         "opis": "Holiday verbs. Each card shows the *ja* form and, after the second arrow, the **future stem** — the shape the verb takes when it stands in front of *ću*."
       },
       "stavke": [
@@ -47166,6 +47576,7 @@ window.PODACI = {
       "naslov": "Words for the road",
       "meta": {
         "info": "Departure phrases plus the adjectives and time words that round out a plan. The adjectives come in two genders (*umoran / umorna*) because they still agree with the person: *Bit ću **umorna***.",
+        "infokratko": "Adjectives agree with the person: *Bit ću umorna*.",
         "opis": "The phrases you say at a station, and the ones you say when you leave."
       },
       "stavke": [
@@ -47230,6 +47641,7 @@ window.PODACI = {
       "naslov": "Sea or suitcase?",
       "meta": {
         "info": "Sort by meaning, not by grammar. A useful check while you go: *plaža*, *majica* and *karta* end in *-a* and are feminine, while *vlak*, *avion* and *šešir* are masculine — which matters the moment they become objects.",
+        "infokratko": "By meaning. *plaža, majica, karta* f; *vlak, avion, šešir* m.",
         "stupci": "MJESTO | PRIJEVOZ | ODJEĆA",
         "opis": "Sort each word: a place you go, a way of getting there, or something you wear."
       },
@@ -47319,6 +47731,7 @@ window.PODACI = {
       "naslov": "Which family?",
       "meta": {
         "info": "The three present-tense families again. The infinitive can mislead, so judge by the *ja* form: *putovati* looks like *plivati* but gives *putujem*, so it is **-EM**, while *plivati* gives *plivam* and is **-AM**.",
+        "infokratko": "By the *ja* form: *putujem* **-em**, *plivam* **-am**.",
         "stupci": "-AM | -IM | -EM",
         "opis": "The three verb families, one more time. *Putovati* and *kretati* hide their family well — the infinitive gives nothing away, the *ja* form gives everything."
       },
@@ -47376,6 +47789,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, pure recognition. Watch the near neighbours: *more* is the sea, *planina* a mountain, *otok* an island, and the pair most often swapped is *brod* (boat) and *vlak* (train).",
+        "infokratko": "*more* sea, *planina* mountain, *otok* island; *brod* boat, *vlak* train.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -47440,6 +47854,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Croatian to English pairing. If a word will not come, its ending still hands you the gender: *plaža*, *karta* and *prtljaga* are feminine, while *otok*, *vlak* and *kofer* are masculine.",
+        "infokratko": "*plaža, karta, prtljaga* f; *otok, vlak, kofer* m.",
         "opis": "Match each travel word with its English meaning."
       },
       "stavke": [
@@ -47528,6 +47943,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A memory grid of the ten new verbs in their dictionary form. That is exactly the form the future needs after a helper, so every card you flip is already half a sentence: *Ja ću **putovati***.",
+        "infokratko": "Dictionary forms, ready for the future: *Ja ću putovati*.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -47584,6 +48000,7 @@ window.PODACI = {
       "naslov": "Speed challenge: the future stem",
       "meta": {
         "info": "A timed drill on one operation only: cut the final *-i* off the infinitive. *plivati → plivat*, *učiti → učit*, *biti → bit*. Nothing else changes — the vowel in front of the *-i* stays put, as in *letjeti → letjet*.",
+        "infokratko": "Cut the final *-i*: *plivati → plivat*, *letjeti → letjet*.",
         "trajanje": "60",
         "opis": "An infinitive flashes — tap the shape it takes in front of **ću**. Drop the final **-i**, and nothing else."
       },
@@ -47681,6 +48098,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what is it?",
       "meta": {
         "info": "A timed vocabulary sprint, Croatian to English. Speed comes from the near-twins of English: *hotel*, *kamp*, *avion* and *plan* cost you nothing, so bank those fast and spend your seconds on the clothes.",
+        "infokratko": "Easy ones fast (*hotel, kamp, avion*); time on the clothes.",
         "trajanje": "60",
         "opis": "Travel sprint — tap the English meaning."
       },
@@ -47834,6 +48252,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling practice, letter tile by letter tile. Croatian treats *lj*, *nj* and *dž* as single letters, so *košulja*, *haljina* and *proljeće* each take one **lj** tile, and *džemper* opens with a single **dž**.",
+        "infokratko": "**lj, nj, dž** one tile each: *košulja, haljina, džemper*.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
       },
       "stavke": [
@@ -47890,6 +48309,7 @@ window.PODACI = {
       "naslov": "Type the future stem",
       "meta": {
         "info": "Type the infinitive minus its final *-i*. A few verbs refuse to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.",
+        "infokratko": "Drop the *-i*; **-ći** verbs stay whole: *Ići ću*.",
         "opis": "You get the infinitive — type the form that stands in front of *ću*."
       },
       "stavke": [
@@ -47982,6 +48402,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the letter with its diacritic, not its plain twin.",
+        "infokratko": "With diacritics: *plaža, ručnik, košulja, šešir, džemper*.",
         "opis": "The final round — type each word in Croatian."
       },
       "stavke": [
@@ -48157,7 +48578,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: helpers & two word orders",
       "meta": {
-        "info": "The core of the future on one page: a helper plus the infinitive. If anything else comes first, the verb stays whole (*Ja ću **plivati***); if the verb comes first, it drops its final *-i* and the helper follows (***Plivat** ću*)."
+        "info": "The core of the future on one page: a helper plus the infinitive. If anything else comes first, the verb stays whole (*Ja ću **plivati***); if the verb comes first, it drops its final *-i* and the helper follows (***Plivat** ću*).",
+        "infokratko": "Future = helper + infinitive. *Ja ću plivati*; verb first drops *-i*: *Plivat ću*."
       },
       "stavke": [
         [
@@ -48202,7 +48624,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the third time you meet this",
       "meta": {
-        "info": "The *why* behind that word order. *ću* is a **clitic**, unstressed like *sam* and *ga*, and an unstressed word cannot open a Croatian sentence — it needs something in front to lean on. So the verb gives up its *-i* to become that something."
+        "info": "The *why* behind that word order. *ću* is a **clitic**, unstressed like *sam* and *ga*, and an unstressed word cannot open a Croatian sentence — it needs something in front to lean on. So the verb gives up its *-i* to become that something.",
+        "infokratko": "*ću* is a clitic like *sam* and *ga*: it can't open a sentence, so something goes before it."
       },
       "stavke": [
         [
@@ -48259,6 +48682,7 @@ window.PODACI = {
       "naslov": "Match pronoun & helper",
       "meta": {
         "info": "Pair each subject with its helper. The full set is *ću, ćeš, će, ćemo, ćete, će*, and *će* is the one form doing double duty: it covers *on/ona* and *oni/one* alike.",
+        "infokratko": "*ću, ćeš, će, ćemo, ćete, će*. *će* covers *on/ona* and *oni*.",
         "opis": "Match pronoun and helper."
       },
       "stavke": [
@@ -48295,6 +48719,7 @@ window.PODACI = {
       "naslov": "Who will it be?",
       "meta": {
         "info": "Sort the subjects by helper. Any single person or thing takes **će**, names and nouns included (*Marko će*, *avion će*), and any group containing *ja* takes **ćemo**, even when *mi* is left unsaid (*brat i ja ćemo*).",
+        "infokratko": "One person or thing → **će**; any group with *ja* → **ćemo**.",
         "stupci": "ĆU | ĆEŠ | ĆE | ĆEMO",
         "opis": "Which helper does each subject take? Any single person or thing takes **će**; a group that includes *ja* takes **ćemo**."
       },
@@ -48376,6 +48801,7 @@ window.PODACI = {
       "naslov": "Long or short?",
       "meta": {
         "info": "One tap per sentence, and word order alone decides it. The verb loses its final *-i* only when it stands directly in front of the helper: *Bit će savršeno*, but *To će **biti** savršeno*.",
+        "infokratko": "*-i* drops only right before the helper: *Bit će savršeno*, *To će biti savršeno*.",
         "nastavci": "t | ti",
         "opis": "The verb changes shape depending on where it stands. **In front of ću** it drops the final -i. **Anywhere else** it keeps it."
       },
@@ -48493,6 +48919,7 @@ window.PODACI = {
       "naslov": "The correctly written sentence",
       "meta": {
         "info": "Spot the correctly written sentence. Three things must hold at once: two separate words (*Plivat ću*, never *Plivaću*), the *-i* dropped only in front of the helper, and *-ći* verbs left untouched (*Ići ću*, not *Ić ću*).",
+        "infokratko": "Two words (*Plivat ću*), *-i* dropped only before the helper, *-ći* kept (*Ići ću*).",
         "opis": "Choose the correctly written sentence."
       },
       "stavke": [
@@ -48569,6 +48996,7 @@ window.PODACI = {
       "naslov": "The second word order",
       "meta": {
         "info": "Rewrite each sentence in the other word order. Moving the verb in front of the helper costs it a final *-i* (*Ja ću gledati → **Gledat** ću*); moving it back behind the helper gives the *-i* straight back.",
+        "infokratko": "Verb before helper loses *-i* (*Gledat ću*); after it gets it back (*Ja ću gledati*).",
         "opis": "Rewrite in the other word order."
       },
       "stavke": [
@@ -48617,6 +49045,7 @@ window.PODACI = {
       "naslov": "Put it in the future",
       "meta": {
         "info": "Build a future from a subject and a dictionary verb. Both orders count as correct, but they are not free: with the pronoun the verb is whole (*Mi ćemo biti*), verb-first it is trimmed (*Bit ćemo*), and *ići* never trims.",
+        "infokratko": "Both orders: *Mi ćemo biti* / *Bit ćemo*. *ići* never trims.",
         "opis": "Put the verb in the future — both word orders are accepted."
       },
       "stavke": [
@@ -48672,7 +49101,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the future that won't",
       "meta": {
-        "info": "The negative future. *ne* fuses with the helper into one stressed word — **neću, nećeš, neće** — which, unlike *ću*, is free to open a sentence, and the verb after it returns to its full form: *Neću **plivati***."
+        "info": "The negative future. *ne* fuses with the helper into one stressed word — **neću, nećeš, neće** — which, unlike *ću*, is free to open a sentence, and the verb after it returns to its full form: *Neću **plivati***.",
+        "infokratko": "**neću, nećeš, neće**: one word, can open a sentence; the verb is whole: *Neću plivati*."
       },
       "stavke": [
         [
@@ -48723,6 +49153,7 @@ window.PODACI = {
       "naslov": "Leans or opens?",
       "meta": {
         "info": "Sort the words by whether they can start a sentence. Anything unstressed leans and cannot (*ću, sam, ga*), while the stressed forms open freely (*neću, nisam, njega*). It is the same split you have now met three times.",
+        "infokratko": "Unstressed can't start (*ću, sam, ga*); stressed can (*neću, nisam, njega*).",
         "stupci": "NASLANJA SE | OTVARA REČENICU",
         "opis": "Which of these can stand at the very beginning of a sentence, and which needs something in front of it to lean on?"
       },
@@ -48804,6 +49235,7 @@ window.PODACI = {
       "naslov": "Positive or negative future?",
       "meta": {
         "info": "Choose the correctly written sentence. *Neću* is always one word, never *ne ću*, and the verb behind it keeps its full *-i* — so *Neću plivati* is right, and *Plivat neću* does not exist.",
+        "infokratko": "*Neću* is one word; verb stays whole: *Neću plivati*.",
         "opis": "Choose the correctly written sentence."
       },
       "stavke": [
@@ -48868,6 +49300,7 @@ window.PODACI = {
       "naslov": "Say you won't",
       "meta": {
         "info": "Turn plans into refusals, which means two changes at once: the helper becomes the fused *neću / nećeš / neće*, and the trimmed verb is restored to its dictionary form — *Plivat ću* becomes *Neću **plivati***.",
+        "infokratko": "*ću* → *neću*, verb back to full form: *Plivat ću → Neću plivati*.",
         "opis": "Turn each plan into a refusal."
       },
       "stavke": [
@@ -48923,7 +49356,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the helper's stressed twin",
       "meta": {
-        "info": "The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exactly where a leaning word cannot go — asking (*Hoćeš li doći?*) and answering (*Hoću.*) — just as *njega* stands where *ga* cannot."
+        "info": "The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exactly where a leaning word cannot go — asking (*Hoćeš li doći?*) and answering (*Hoću.*) — just as *njega* stands where *ga* cannot.",
+        "infokratko": "Stressed *hoću, hoćeš, hoće* for asking and answering: *Hoćeš li doći? — Hoću.*"
       },
       "stavke": [
         [
@@ -48974,6 +49408,7 @@ window.PODACI = {
       "naslov": "Short or full form?",
       "meta": {
         "info": "Pick the right form for the job. A plain statement takes the short helper (*Sutra ću plivati*); asking, answering or contrasting takes the stressed one (*Hoćeš li doći? — **Hoću**.*); and refusing takes *Neću*.",
+        "infokratko": "Statement *ću*; asking or answering *hoću*; refusing *neću*.",
         "opis": "The short helper leans and never stands alone. The full one is stressed — use it to answer, to ask, or to contrast."
       },
       "stavke": [
@@ -49026,6 +49461,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Build each sentence from tiles, positive and negative mixed. The order tests one thing: *ću* can never be the first tile, but *neću* can — so *Plivat ću svaki dan* and *Neću trenirati danas* are both well formed.",
+        "infokratko": "*ću* never first; *neću* can be: *Neću trenirati danas.*",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -49077,7 +49513,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 1: Summer plan",
       "meta": {
-        "info": "A first reading with the translation beside it. Watch the helper move: *Mi ćemo putovati* keeps the verb whole, *Plivat ćemo* trims it, and *Neću učiti* refuses — three shapes of one tense in a short text."
+        "info": "A first reading with the translation beside it. Watch the helper move: *Mi ćemo putovati* keeps the verb whole, *Plivat ćemo* trims it, and *Neću učiti* refuses — three shapes of one tense in a short text.",
+        "infokratko": "Three shapes of the future: *Mi ćemo putovati*, *Plivat ćemo*, *Neću učiti*."
       },
       "stavke": [
         [
@@ -49139,6 +49576,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Answer from Text 1. The helper tells you who does what before you translate anything: *tata **će** voziti* is one person, while *plivat **ćemo*** is the whole family.",
+        "infokratko": "The helper shows who: *tata će voziti* (one), *plivat ćemo* (all of us).",
         "tekst": "Ljeto dolazi! Mi ćemo putovati na more. Ići ćemo u Split. Tata će voziti, a mama će spavati. Brat i ja ćemo gledati more kroz prozor. Plivat ćemo svaki dan. Jest ćemo sladoled i ribu. Navečer ćemo šetati. Neću učiti — odmor je! Bit će savršeno!",
         "opis": "Answer from the text."
       },
@@ -49191,7 +49629,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 2: The packing list",
       "meta": {
-        "info": "A list rather than a story, so the future shows up mostly as a refusal: *Neću nositi kaput*. Note *Džemper ću ipak uzeti* — the object opens the sentence, which gives the leaning helper something to sit behind."
+        "info": "A list rather than a story, so the future shows up mostly as a refusal: *Neću nositi kaput*. Note *Džemper ću ipak uzeti* — the object opens the sentence, which gives the leaning helper something to sit behind.",
+        "infokratko": "Mostly refusals: *Neću nositi kaput*. *Džemper ću ipak uzeti*: the object goes first."
       },
       "stavke": [
         [
@@ -49242,6 +49681,7 @@ window.PODACI = {
       "naslov": "Remember the list",
       "meta": {
         "info": "Short-term memory on the clothing words, in order. If one slips, rebuild it from its ending: *majica*, *košulja* and *torba* end in *-a* and are feminine, while *kaput*, *džemper* and *šešir* are masculine.",
+        "infokratko": "Clothes in order. *majica, košulja, torba* f; *kaput, džemper, šešir* m.",
         "opis": "Three things flash, then vanish — pick them again in the same order. Exactly what happens when you leave the list at home and pack from memory."
       },
       "stavke": [
@@ -49306,6 +49746,7 @@ window.PODACI = {
       "naslov": "What's in the suitcase?",
       "meta": {
         "info": "Some answers sit on the list, others need the *jer* clause. The reasoning runs through the negatives: no coat *jer je ljeto*, but a sweater anyway *jer je navečer hladno*.",
+        "infokratko": "Some answers need the *jer* part: no coat *jer je ljeto*.",
         "tekst": "ZA MORE — što ću nositi: majice, hlače, jedna košulja, ručnik i jastuk za vlak, knjiga za plažu, karta i rezervacija za hotel. Neću nositi kaput — ljeto je! Džemper ću ipak uzeti. Navečer je hladno!",
         "opis": "Some answers are on the list, some you have to work out."
       },
@@ -49358,7 +49799,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: The ticket",
       "meta": {
-        "info": "A real ticket instead of prose. The two words to hold on to are *polazak* (departure) and *dolazak* (arrival); *subota* here names the travel day, and in a sentence it would become *u subotu*."
+        "info": "A real ticket instead of prose. The two words to hold on to are *polazak* (departure) and *dolazak* (arrival); *subota* here names the travel day, and in a sentence it would become *u subotu*.",
+        "infokratko": "*polazak* = departure, *dolazak* = arrival. In a sentence: *u subotu*."
       },
       "stavke": [
         [
@@ -49409,6 +49851,7 @@ window.PODACI = {
       "naslov": "Reading a ticket",
       "meta": {
         "info": "The answers are on the ticket, though some need arithmetic. Two questions are in the future: *Hoće li ustati rano?* uses the stressed form to ask, and the 06:20 departure answers it.",
+        "infokratko": "Some need arithmetic. *Hoće li ustati rano?* asks.",
         "tekst": "HŽ — KARTA ZA VLAK. Zagreb → Split. Polazak: subota, 06:20, peron 3. Dolazak: subota, 12:45. Vrijedi: jedan smjer. Cijena: 24 €. Rezervacija: da.",
         "opis": "Everything you need is on the ticket — but some of it you have to put together yourself."
       },
@@ -49455,7 +49898,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 4: Four friends, four plans",
       "meta": {
-        "info": "A logic puzzle rather than a narrative. Read the negatives closely — *Ana neće ići na more*, *Iva ne voli avione* — because what each person rules out is what tells you where the others end up."
+        "info": "A logic puzzle rather than a narrative. Read the negatives closely — *Ana neće ići na more*, *Iva ne voli avione* — because what each person rules out is what tells you where the others end up.",
+        "infokratko": "Read the negatives closely: *Ana neće ići na more*."
       },
       "stavke": [
         [
@@ -49506,6 +49950,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Work out who goes where by elimination. The load-bearing lines are negative futures with *neće* plus plain present-tense likes and dislikes; combine the two and only one arrangement survives.",
+        "infokratko": "By elimination: *neće* + likes and dislikes.",
         "tekst": "Ana, Marko, Iva i Luka planiraju ljeto. Ana neće ići na more jer ne voli plažu. Marko će letjeti jer je destinacija daleko. Iva ne voli avione, ali voli more. Luka će ostati doma i trenirati cijelo ljeto. Jedna će putovati na otok. Jedna će ići u planinu. Nitko neće ostati doma osim Luke!",
         "opis": "Work it out from what each person likes and fears."
       },
@@ -49558,7 +50003,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 5: The journey",
       "meta": {
-        "info": "A whole day in the future, with the two orders alternating: *Sutra ću putovati* after a time word, *Ustat ću rano* with the verb first. Note that *sat* here means *hour*, not *clock*."
+        "info": "A whole day in the future, with the two orders alternating: *Sutra ću putovati* after a time word, *Ustat ću rano* with the verb first. Note that *sat* here means *hour*, not *clock*.",
+        "infokratko": "Both orders: *Sutra ću putovati*, *Ustat ću rano*. *sat* = hour."
       },
       "stavke": [
         [
@@ -49609,6 +50055,7 @@ window.PODACI = {
       "naslov": "Long or short, from the texts",
       "meta": {
         "info": "The same one-tap rule, now on sentences you have just read. Directly in front of the helper the verb loses its *-i* (*Bit će savršeno*); anywhere after it, the verb keeps it (*Navečer ću **biti** umoran*).",
+        "infokratko": "Right before the helper: no *-i* (*Bit će*); after it: whole (*ću biti*).",
         "nastavci": "t | ti",
         "opis": "Almost every sentence came out of the five texts. In front of *ću* the verb drops its **-i**; after *ću* it keeps it."
       },
@@ -49706,6 +50153,7 @@ window.PODACI = {
       "naslov": "Type the future form",
       "meta": {
         "info": "Type the verb in the shape the slot demands. If the blank stands before the helper, trim the *-i* (*Ustat ću*); if it stands after, leave the verb whole (*Sutra ću putovati*) — and *ići* stays *ići* either way.",
+        "infokratko": "Before the helper trim (*Ustat ću*); after, whole (*Sutra ću putovati*). *ići* stays.",
         "tekst": "Sutra ću putovati u Zagreb. Ustat ću rano jer vlak kreće rano. Tamo ću vidjeti prijatelja Ivana. Ručat ćemo zajedno. Nećemo ići u kino jer ćemo biti umorni.",
         "opis": "Fill in the future form from the text."
       },
@@ -49755,6 +50203,7 @@ window.PODACI = {
       "naslov": "Say you won't",
       "meta": {
         "info": "Every plan falls through. Swap the helper for the single word *neću / nećeš / neće* and give the verb its *-i* back: *Ustat ćemo rano* becomes *Nećemo **ustati** rano*.",
+        "infokratko": "*neću / nećeš / neće* + full verb: *Nećemo ustati rano.*",
         "opis": "Every plan below falls through. Turn it into a refusal — one word, then the full infinitive."
       },
       "stavke": [
@@ -49795,6 +50244,7 @@ window.PODACI = {
       "naslov": "Now or later?",
       "meta": {
         "info": "Sort by tense. A helper anywhere in the sentence — *ću, će, ćemo*, or the negative *neću* — means later; a verb carrying its own personal ending (*dolazi*, *kreće*, *trenira*) means now.",
+        "infokratko": "A helper (*ću, će, neću*) = later; personal ending (*dolazi*) = now.",
         "stupci": "SADA | POSLIJE",
         "opis": "Now or later? Sort the sentences."
       },
@@ -49860,6 +50310,7 @@ window.PODACI = {
       "naslov": "Weekend plans",
       "meta": {
         "info": "A planning conversation, so nearly every reply is a future. *Hoćeš li…?* asks with the stressed form, and you may answer with a full sentence or with a bare *Hoću* or *Neću* — but never with *ću* on its own.",
+        "infokratko": "*Hoćeš li...?* Answer with a sentence, *Hoću* or *Neću*, never *ću* alone.",
         "opis": "Your friend is planning the weekend and wants you in it. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *dogovoreno* (agreed), *možda* (maybe)."
       },
       "stavke": [
@@ -49930,6 +50381,7 @@ window.PODACI = {
       "naslov": "The journey, in order",
       "meta": {
         "info": "Put seven future sentences into the order the trip would really happen in. The time words carry the sequence: *navečer* the night before, then *rano*, then *poslije*, then *navečer* again at the end.",
+        "infokratko": "Follow the time words: *navečer*, *rano*, *poslije*, *navečer*.",
         "opis": "Seven moments from a trip to the sea, shuffled. Nobody wrote this down — put it in the order it would actually happen."
       },
       "stavke": [
@@ -49967,6 +50419,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "Translate by assembling tiles, so word order is the whole test. Decide first what opens the sentence: put the verb first and it is trimmed (*Plivat ćemo*), put anything else first and it stays whole (*Mi ćemo putovati*).",
+        "infokratko": "Verb first → trimmed (*Plivat ćemo*); anything else first → whole (*Mi ćemo putovati*).",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
       },
       "stavke": [
@@ -50087,6 +50540,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "Timed picture-to-word recognition on the travel nouns. Sort the look-alikes before you start: *more* sea, *plaža* beach, *otok* island, *planina* mountain — and *brod* is the boat, *vlak* the train.",
+        "infokratko": "*more* sea, *plaža* beach, *otok* island, *planina* mountain; *brod* boat, *vlak* train.",
         "opis": "The train is leaving. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -51939,6 +52393,7 @@ window.PODACI = {
       "naslov": "Words you already know",
       "meta": {
         "info": "Sport is where Croatian gives you the most words for free. *Hobi, klub, trener, kapetan, gol, tenis, joga* — you can read all of them right now, without learning anything. **Start every new word by asking whether it looks like English**, because in this lesson it usually does. The one new idea is small: how to say that something is *yours*.",
+        "infokratko": "Sport words you can already read: *hobi, klub, trener, gol, tenis*. New idea: saying something is *yours*.",
         "infoodmah": "da",
         "opis": "Read it through — the whole lesson rests on one rule, and you already own half of it."
       },
@@ -51965,6 +52420,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on last lesson's future before anything new arrives. The helper takes its shape from the subject, never from the verb — *ja* takes *ću*, *ti* takes *ćeš*, and any group with *ja* in it takes *ćemo*. **Answer from the subject alone** and you will never need to read the rest.",
+        "infokratko": "Lesson 8 against the clock: *ja ću, ti ćeš*, any group with *ja* → *ćemo*.",
         "trajanje": "60",
         "opis": "Future sprint from Lesson 8 — tap the helper before the timer runs out."
       },
@@ -52030,6 +52486,7 @@ window.PODACI = {
       "naslov": "Sport & hobby words",
       "meta": {
         "info": "Eighteen words, and most of them are gifts: *hobi, klub, trener, kapetan, gol, tenis, joga, fitnes, šah* all arrived in Croatian from the same places they arrived in English. **Read each one out loud before you look at the translation** — Croatian is spelled exactly as it sounds, so hearing yourself say it is half the learning. Nothing here has to be memorised in one pass.",
+        "infokratko": "Mostly familiar words: *hobi, klub, trener, šah*. Read each one aloud.",
         "opis": "Sport vocabulary is international — you can guess most of these before you flip the card."
       },
       "stavke": [
@@ -52118,6 +52575,7 @@ window.PODACI = {
       "naslov": "The body",
       "meta": {
         "info": "The parts of the body you will need to talk about sport. Notice the endings as they go past, because the next page turns them into a rule: *dres* ends in a consonant, *ruka* in **-a**, *koljeno* in **-o**. **That last letter almost always decides** which shape *moj* takes.",
+        "infokratko": "Body words. Note the last letter: *dres*, *ruka* (**-a**), *koljeno* (**-o**). It decides *moj*'s shape.",
         "opis": "From head to knee. Watch the last letter of each word — you will need it in a minute."
       },
       "stavke": [
@@ -52190,6 +52648,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Ten verbs of sport and free time, each shown with its *ja* form. That form is the one worth storing, because from *trčim* you can build *trčiš* and *trči* without being told how — the pattern from Lesson 3 has not changed. **Two are worth a second look:** *skakati → skačem* and *plesati → plešem* both swap a consonant.",
+        "infokratko": "Ten verbs with their *ja* form: *trčim → trčiš, trči*. Note *skakati → skačem*, *plesati → plešem*.",
         "opis": "Ten new verbs, each with its *ja* form — the shape everything else is built from."
       },
       "stavke": [
@@ -52246,6 +52705,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "The same words again, this time without English to lean on — a picture and a word, nothing in between. **Tap the picture first, then hunt for the word**, because recognising the thing is faster than reading. A wrong pair just shakes and comes straight back; nothing here can be lost.",
+        "infokratko": "Picture and word, no English. Tap the picture first.",
         "opis": "Picture to word. No English this time — you do not need it any more."
       },
       "stavke": [
@@ -52302,6 +52762,7 @@ window.PODACI = {
       "naslov": "The rule: it follows the thing, not the owner",
       "meta": {
         "info": "The single rule of this lesson, and it runs opposite to English. In *her jersey* the English word *her* tells you about the owner; in *njezin dres* the Croatian word tells you about the **jersey**. **Look at the noun, never at the owner** — *dres* ends in a consonant, so nothing is added, no matter who owns it.",
+        "infokratko": "The possessive follows the **thing**, not the owner: *njezin dres* (consonant, nothing added).",
         "infoodmah": "da",
         "opis": "One rule, three endings. Read the table, then say the last line out loud."
       },
@@ -52353,6 +52814,7 @@ window.PODACI = {
       "naslov": "Whose is it?",
       "meta": {
         "info": "English on one side, Croatian on the other, so you can watch the rule work in whole sentences. **Read the Croatian noun first and check its last letter** — that letter, not the English, tells you which of the two possessives on offer is the right partner.",
+        "infokratko": "Check the Croatian noun's last letter: it picks the possessive.",
         "opis": "Match each English sentence with its Croatian partner."
       },
       "stavke": [
@@ -52409,6 +52871,7 @@ window.PODACI = {
       "naslov": "Sort by the thing",
       "meta": {
         "info": "Eighteen nouns, three columns, and the sorting is done entirely on the last letter. A consonant sends the word to **MOJ**, an *-a* to **MOJA**, an *-o* or *-e* to **MOJE**. **Say *moj*, *moja*, *moje* under your breath as you drag** — the wrong one will sound wrong before you finish it.",
+        "infokratko": "Consonant → **MOJ**, **-a** → **MOJA**, **-o/-e** → **MOJE**.",
         "stupci": "MOJ | MOJA | MOJE",
         "opis": "Which form does each noun take? Go by the last letter of the noun."
       },
@@ -52498,6 +52961,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Choose the possessive that fits the noun beside it. The owner in the English hint never changes the ending — only the noun does — so *her guitar* and *his guitar* are both *gitara*, both take *-a*: *njezina*, *njegova*. **Cover the English and decide from the Croatian noun alone.**",
+        "infokratko": "The noun decides, not the owner: *njezina gitara*, *njegova gitara*.",
         "opis": "Choose the form that fits the noun."
       },
       "stavke": [
@@ -52586,6 +53050,7 @@ window.PODACI = {
       "naslov": "One tap decides it",
       "meta": {
         "info": "The whole rule reduced to a single tap. The base of the possessive is given; you add nothing for a consonant, **-a** for a word in *-a*, and for a neuter word **-o** or **-e** — *-o* after a hard consonant (*njegovo*), *-e* after *j* or *š* (*moje*, *naše*). **Read the Croatian noun, not the English.**",
+        "infokratko": "Consonant: nothing; **-a**: **-a**; neuter: **-o** (*njegovo*) or **-e** after *j/š* (*moje, naše*).",
         "nastavci": "- | a | e | o",
         "opis": "The noun decides the ending. One tap — and a wrong tap costs nothing."
       },
@@ -52683,6 +53148,7 @@ window.PODACI = {
       "naslov": "Type the possessive",
       "meta": {
         "info": "Now you write it instead of tapping it. The English in brackets tells you *who*; the Croatian noun tells you *which ending* — and only the second one changes what you type. **Build it in two steps:** pick the base from the brackets, then let the noun finish it.",
+        "infokratko": "Brackets say *whose*; the noun says *which ending*: *(her) + gitara → njezina*.",
         "opis": "Type the possessive. The bracket says who, the noun says how it ends."
       },
       "stavke": [
@@ -52747,6 +53213,7 @@ window.PODACI = {
       "naslov": "The rule: *svoj*, the one English is missing",
       "meta": {
         "info": "A word English simply does not have, so it has to be learned by contrast rather than by translation. **When the owner is the same person as the subject of the sentence, Croatian uses *svoj*.** *Marko voli svoju sestru* is his own sister; *Marko voli njegovu sestru* is someone else's — one word apart, two different families.",
+        "infokratko": "Owner = subject → *svoj*. *Marko voli svoju sestru* (his own) vs. *njegovu sestru* (someone else's).",
         "infoodmah": "da",
         "opis": "The one possessive English cannot translate. Read both sentences in the table slowly."
       },
@@ -52797,6 +53264,7 @@ window.PODACI = {
       "naslov": "*svoj* or *njegov*?",
       "meta": {
         "info": "One question decides every item here: does the thing belong to the person doing the action? **Yes → *svoj*. No → *njegov* or *njezin*.** Look for the subject at the front of the sentence and compare it with the owner, and the choice makes itself.",
+        "infokratko": "Does it belong to the subject? Yes → *svoj*. No → *njegov / njezin*.",
         "opis": "Does the thing belong to the person doing the action? Then it is *svoj*."
       },
       "stavke": [
@@ -52863,6 +53331,7 @@ window.PODACI = {
       "naslov": "Build it",
       "meta": {
         "info": "Whole sentences from tiles, so the possessive has to land in the right place as well as the right shape. It stands **in front of** the thing it belongs to — *moj dres*, never *dres moj* — and the two halves joined by *a* each keep their own possessive.",
+        "infokratko": "The possessive goes in front: *moj dres*.",
         "opis": "Arrange the tiles into a sentence."
       },
       "stavke": [
@@ -52915,6 +53384,7 @@ window.PODACI = {
       "naslov": "Is this your ball?",
       "meta": {
         "info": "A ball lands at your feet in the park, and every reply needs a possessive in the right shape. Two words are worth having in advance: *čiji* (whose) and *naravno* (of course). **Read your two options out loud before choosing** — the wrong ending is easier to hear than to see.",
+        "infokratko": "*čiji* = whose, *naravno* = of course. Match the ending to the noun.",
         "opis": "A ball rolls up to you in the park. Choose your replies. Passive words: *čiji* (whose), *naravno* (of course), *super* (great)."
       },
       "stavke": [
@@ -52994,6 +53464,7 @@ window.PODACI = {
       "naslov": "Read: our club",
       "meta": {
         "info": "A short text where almost every sentence carries a possessive. Read it once for the story and once for the endings, and watch what happens in the last line: *svoj klub* is used because the people who love the club are the same people doing the loving.",
+        "infokratko": "Read for the story, then the endings. *svoj klub*: the owners are the subject.",
         "tekst": "Naš klub je mali. Naš trener je strog, ali je pošten. Njegova momčad trenira svaki dan. Ana je kapetan i njezina pozicija je golman. Njezin dres je zelen, a moj je plav. Marko voli svoju loptu i nosi je na svaki trening. Danas je utakmica. Njihova obrana je jaka, ali naša momčad je brza. Mi ćemo pobijediti! Svi u ovom gradu vole svoj klub.",
         "opis": "Read the text, then answer. Passive words: *svaki dan* (every day), *nosi* (carries), *svi* (everyone)."
       },
@@ -53047,6 +53518,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "A mixed check on the whole lesson. Two things decide nearly every answer: the ending comes from the **thing owned**, never from the owner, and *svoj* appears whenever the owner is also the one doing the action.",
+        "infokratko": "The ending follows the thing owned; *svoj* when the owner is the subject.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 9."
       },
@@ -53135,6 +53607,7 @@ window.PODACI = {
       "naslov": "Reward & preview",
       "meta": {
         "info": "A closing summary. You now have the whole possessive set, the *-o* / *-e* wrinkle, and *svoj* — the one Croatian has and English does not. What comes next is the last piece of Module B, and it is the big one: the past.",
+        "infokratko": "Possessives, *-o / -e*, and *svoj*. Next: the past.",
         "opis": "Module B is nearly done. One lesson to go."
       },
       "stavke": [
@@ -53157,6 +53630,7 @@ window.PODACI = {
       "naslov": "Sport & hobbies (cognates)",
       "meta": {
         "info": "Flashcards for the sport words, and most of them are international: *hobi, klub, trener, kapetan, gol, tenis, joga, šah* are spelled the Croatian way but mean what you expect. Read each one aloud once, because the spelling is the only new information here.",
+        "infokratko": "Mostly international: *hobi, klub, trener, gol, tenis, šah*. Read them aloud.",
         "opis": "Sport vocabulary is international — you can guess most of these before you flip the card. Tap a card to reveal its meaning."
       },
       "stavke": [
@@ -53269,6 +53743,7 @@ window.PODACI = {
       "naslov": "The body",
       "meta": {
         "info": "The parts of the body, with the last letter as the thing to notice. A consonant (*nos, zub, prst*) is masculine, **-a** (*glava, ruka, noga*) is feminine, **-o** or **-e** (*oko, koljeno, srce, rame*) is neuter. That letter decides which form of *moj* the word takes on the next pages.",
+        "infokratko": "Consonant m (*nos*), **-a** f (*ruka*), **-o/-e** n (*oko, srce*). It picks *moj* / *moja* / *moje*.",
         "opis": "From head to foot. Watch the last letter of each word — it decides almost everything in Grammar 9."
       },
       "stavke": [
@@ -53365,6 +53840,7 @@ window.PODACI = {
       "naslov": "Ten new verbs",
       "meta": {
         "info": "Twelve verbs with three present-tense forms each — six of them already familiar. Memorise the *ja* form; the *ti* and *on/ona* forms follow from it as in Lesson 3. Two verbs change a consonant between the infinitive and the *ja* form: *skakati → skačem* and *plesati → plešem*.",
+        "infokratko": "Learn the *ja* form. *skakati → skačem*, *plesati → plešem*.",
         "opis": "Verbs for sport and free time. Learn the *ja* form — the other two follow from it."
       },
       "stavke": [
@@ -53429,6 +53905,7 @@ window.PODACI = {
       "naslov": "Possessives & describing words",
       "meta": {
         "info": "The seven possessives, each in three forms, plus the adjectives you need to describe a team. A possessive changes its ending like an adjective: *moj klub*, *moja lopta*, *moje koljeno*. Grammar 9 drills the rule; here only the words are to be learned.",
+        "infokratko": "Possessives work like adjectives: *moj klub, moja lopta, moje koljeno*.",
         "opis": "Whose is it, and what is it like? The possessive is shown in its three forms (m. / f. / n.)."
       },
       "stavke": [
@@ -53517,6 +53994,7 @@ window.PODACI = {
       "naslov": "Phrases you will use",
       "meta": {
         "info": "Whole phrases, to be learned as they are. Two of them use grammar that comes later — *Boli me koljeno* (my knee hurts) and *Navijam za Hajduk* (I support Hajduk) — so treat them as fixed expressions for now. The rest are ordinary sentences built from this level's words.",
+        "infokratko": "Fixed phrases: *Boli me koljeno*, *Navijam za Hajduk*.",
         "opis": "Sentences you will say at a match, at training or about your hobby. Take each one as a whole."
       },
       "stavke": [
@@ -53581,6 +54059,7 @@ window.PODACI = {
       "naslov": "Sport, body or hobby?",
       "meta": {
         "info": "Sorting by meaning. Sport words name the game and the people in it, body words name parts of you, hobby words name what you do in your free time. The ending still gives the gender: *lopta* and *ruka* are feminine, *dres* and *nos* masculine.",
+        "infokratko": "Sport, body or hobby. *lopta, ruka* f; *dres, nos* m.",
         "opis": "Sort each word: part of the game, part of the body, or a hobby.",
         "stupci": "SPORT | TIJELO | HOBI"
       },
@@ -53678,6 +54157,7 @@ window.PODACI = {
       "naslov": "Which family?",
       "meta": {
         "info": "The three present-tense families from Lesson 3, applied to the new verbs. The *ja* form decides: *treniram* is **-AM**, *trčim* is **-IM**, *plešem* is **-EM**. The infinitive is not a reliable guide — *trčati* and *igrati* look alike and land in different columns.",
+        "infokratko": "By the *ja* form: *treniram* **-am**, *trčim* **-im**, *plešem* **-em**.",
         "opis": "Sort each verb by its *ja* form. Seven say -am, three say -im, two say -em.",
         "stupci": "-AM | -IM | -EM"
       },
@@ -53743,6 +54223,7 @@ window.PODACI = {
       "naslov": "moj, moja or moje?",
       "meta": {
         "info": "Sorting nouns by the form of *moj* they take, and the last letter of the noun is your guide. A consonant takes **moj** (*dres*), **-a** takes **moja** (*lopta*), **-o** or **-e** takes **moje** (*koljeno*, *srce*). One trap: *momčad* ends in a consonant but is feminine, so it takes *moja*. The owner is the same in every case, so the owner does not affect the ending.",
+        "infokratko": "Consonant **moj**, **-a** **moja**, **-o/-e** **moje**. *momčad* is feminine: *moja*.",
         "opis": "Which form of *my* does each noun take? The last letter of the noun decides.",
         "stupci": "MOJ | MOJA | MOJE"
       },
@@ -53832,6 +54313,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word recognition, with no English on the page. Every word is in its naming form, so the last letter is visible: use it to say the matching *moj / moja / moje* in your head as you tap.",
+        "infokratko": "Picture and word. Say *moj / moja / moje* in your head.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -53896,6 +54378,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Croatian to English pairing. Two pairs are easy to confuse: *ruka* is the arm or hand and *noga* the leg or foot, and *igrač* is a player while *igrati* is to play.",
+        "infokratko": "*ruka* arm/hand, *noga* leg/foot; *igrač* player, *igrati* play.",
         "opis": "Match each word with its English meaning."
       },
       "stavke": [
@@ -53984,6 +54467,7 @@ window.PODACI = {
       "naslov": "Memory: the ja-form",
       "meta": {
         "info": "A memory grid of the ten verbs in their *ja* form. Each card is already a complete sentence, because the **-m** ending means *I*: *treniram* is *I train*, *plešem* is *I dance*.",
+        "infokratko": "**-m** = I: *treniram*, *plešem*.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -54040,6 +54524,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what is it?",
       "meta": {
         "info": "A timed meaning sprint over the whole level. The cognates cost no time — *klub, tenis, joga, šah* — so answer those first and spend the seconds on the body words.",
+        "infokratko": "Easy ones first (*klub, tenis, joga*); time on the body words.",
         "trajanje": "60",
         "opis": "Sport and body sprint — tap the English meaning before the timer runs out."
       },
@@ -54209,6 +54694,7 @@ window.PODACI = {
       "naslov": "Speed challenge: the ja-form",
       "meta": {
         "info": "Timed recognition of the *ja* forms. Every answer begins with *I*, because the **-m** ending means the speaker. The two consonant changes — *skačem*, *plešem* — are the ones most likely to cost you a second.",
+        "infokratko": "All *I* forms. Watch *skačem, plešem*.",
         "trajanje": "60",
         "opis": "The *ja* form appears — tap the English meaning."
       },
@@ -54274,6 +54760,7 @@ window.PODACI = {
       "naslov": "Words from earlier levels",
       "meta": {
         "info": "A timed return to words from Vocabulary 6 and 7 that have not appeared for a while. Nothing on this page is new; the point is to keep older words in use. If a word will not come back to you, read its ending for the gender: *knjižnica* and *torba* are feminine, *ključ* and *ispit* are masculine.",
+        "infokratko": "Older words from levels 6–7. The ending gives the gender.",
         "trajanje": "60",
         "opis": "Words from two and three levels ago — tap the English meaning before the timer runs out."
       },
@@ -54347,6 +54834,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *koljeno* takes one **lj** tile, and *č*, *ć*, *š*, *ž* are letters of their own: *momčad*, *košarka*, *igrač*.",
+        "infokratko": "**lj** is one tile (*koljeno*); *č, ć, š, ž* are letters.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
       },
       "stavke": [
@@ -54403,6 +54891,7 @@ window.PODACI = {
       "naslov": "Type the ja-form",
       "meta": {
         "info": "Type the form you use about yourself, from the infinitive. Most verbs take the family vowel plus **-m** (*trenirati → treniram*, *trčati → trčim*); two change a consonant on the way (*skakati → skačem*, *plesati → plešem*).",
+        "infokratko": "Vowel + **-m**: *treniram, trčim*; *skačem, plešem*.",
         "opis": "You get the infinitive — type the form you would use about yourself."
       },
       "stavke": [
@@ -54467,6 +54956,7 @@ window.PODACI = {
       "naslov": "Type the possessive phrase",
       "meta": {
         "info": "Type the whole phrase: possessive plus noun. The bracket gives the owner, the noun gives the ending — a consonant takes the bare form (*moj dres*), **-a** takes **-a** (*moja lopta*), **-o** or **-e** takes **-o** or **-e** (*njegovo srce*, *moje koljeno*).",
+        "infokratko": "Owner from the bracket, ending from the noun: *moj dres, moja lopta, moje koljeno*.",
         "opis": "Two words: the possessive in the right form, then the noun."
       },
       "stavke": [
@@ -54539,6 +55029,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English to Croatian, all in the naming form. Diacritics are separate letters, so *momčad*, *košarka*, *igrač*, *leđa* and *koža* count only with their marks in place, and the verbs are wanted as infinitives.",
+        "infokratko": "Naming forms, verbs as infinitives, with diacritics: *momčad, igrač, leđa*.",
         "opis": "The final round — type each word in Croatian."
       },
       "stavke": [
@@ -54746,7 +55237,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the ending comes from the thing owned",
       "meta": {
-        "info": "The reference page for all seven possessives. Each one has the same three endings as an adjective, and the ending is chosen by the **noun that follows it**, not by the owner: *njegova gitara* because *gitara* is feminine, *njezin dres* because *dres* is masculine."
+        "info": "The reference page for all seven possessives. Each one has the same three endings as an adjective, and the ending is chosen by the **noun that follows it**, not by the owner: *njegova gitara* because *gitara* is feminine, *njezin dres* because *dres* is masculine.",
+        "infokratko": "Seven possessives, adjective endings, chosen by the **thing owned**: *njegova gitara*, *njezin dres*."
       },
       "stavke": [
         [
@@ -54825,6 +55317,7 @@ window.PODACI = {
       "naslov": "Sort by the gender of the thing owned",
       "meta": {
         "info": "Sorting by the noun alone. A consonant at the end of the noun gives the bare form (*moj klub*), **-a** gives **moja**, **-o** or **-e** gives **moje**. Note *momčad*: it ends in a consonant but is feminine, so it takes *moja*.",
+        "infokratko": "By the noun: consonant *moj*, **-a** *moja*, **-o/-e** *moje*. *momčad* is feminine: *moja*.",
         "opis": "Which form of *moj* does each noun take? Read the last letter of the noun. One word here ends in a consonant and is still feminine — *momčad*.",
         "stupci": "MOJ | MOJA | MOJE"
       },
@@ -54914,6 +55407,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap completes the possessive. The base is given; a masculine noun takes no ending, a feminine noun takes **-a**, and a neuter noun takes **-o** after a hard consonant (*njegovo*, *njezino*, *njihovo*) or **-e** after *j* and *š* (*moje*, *tvoje*, *naše*, *vaše*).",
+        "infokratko": "m nothing, f **-a**, n **-o** (*njegovo*) or **-e** after *j/š* (*moje, naše*).",
         "nastavci": "- | a | e | o",
         "opis": "English above, Croatian below. One tap completes the possessive. Read the Croatian noun, not the English."
       },
@@ -55036,6 +55530,7 @@ window.PODACI = {
       "naslov": "Pick the form",
       "meta": {
         "info": "Choose the possessive that fits the noun beside it. The English hint names the owner, but the owner does not change the ending — *his guitar* and *her guitar* are both *gitara*, so both take **-a**: *njegova gitara*, *njezina gitara*.",
+        "infokratko": "The owner doesn't change the ending: *njegova gitara*, *njezina gitara*.",
         "opis": "Choose the form that fits the noun. Cover the English and decide from the Croatian noun."
       },
       "stavke": [
@@ -55124,6 +55619,7 @@ window.PODACI = {
       "naslov": "Type the possessive",
       "meta": {
         "info": "Typed production. The bracket names the owner, the noun sets the ending. Build it in two steps: take the base from the bracket (*moj-, naš-, njegov-, njezin-, njihov-*), then add the ending that matches the noun.",
+        "infokratko": "Base from the bracket (*moj-, naš-, njegov-*...), ending from the noun.",
         "opis": "Type the possessive. The bracket says who, the noun decides the ending."
       },
       "stavke": [
@@ -55195,7 +55691,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: more than one thing",
       "meta": {
-        "info": "The plural endings, and they are the same trio as in Lesson 7: **-i** for masculine, **-e** for feminine, **-a** for neuter. The owner still does not matter — *njihovi hobiji* has **-i** because *hobiji* is a masculine plural."
+        "info": "The plural endings, and they are the same trio as in Lesson 7: **-i** for masculine, **-e** for feminine, **-a** for neuter. The owner still does not matter — *njihovi hobiji* has **-i** because *hobiji* is a masculine plural.",
+        "infokratko": "Plural: m **-i**, f **-e**, n **-a**. *njihovi hobiji*."
       },
       "stavke": [
         [
@@ -55243,6 +55740,7 @@ window.PODACI = {
       "naslov": "One or many?",
       "meta": {
         "info": "Sorting whole phrases by the form of the possessive. A masculine plural takes **-i**, a feminine plural **-e**, a neuter plural **-a**. Compare the columns with the singular you drilled above: *naše more* is one sea, *naša mora* several.",
+        "infokratko": "m pl **-i**, f pl **-e**, n pl **-a**: *naše more*, *naša mora*.",
         "opis": "Sort each phrase by the ending on the possessive.",
         "stupci": "-I (m. mn.) | -E (ž. mn.) | -A (s. mn.)"
       },
@@ -55316,6 +55814,7 @@ window.PODACI = {
       "naslov": "Pick the plural form",
       "meta": {
         "info": "Agreement in the plural, where the possessive and the adjective take the same ending. A masculine plural noun gives *naši hobiji su različiti*, a feminine plural gives *njihove pjesme su lijepe*.",
+        "infokratko": "Possessive and adjective share the ending: *naši hobiji su različiti*.",
         "opis": "Choose the form that fits the plural noun."
       },
       "stavke": [
@@ -55392,6 +55891,7 @@ window.PODACI = {
       "naslov": "The rule: svoj",
       "meta": {
         "info": "The eighth possessive, and English has no single word for it. **Svoj** is used when the owner is the subject of the same sentence: *Marko voli svoju sestru* means his own sister, while *Marko voli njegovu sestru* means someone else's.",
+        "infokratko": "Owner = subject → **svoj**: *Marko voli svoju sestru* (his own).",
         "infoodmah": "da"
       },
       "stavke": [
@@ -55443,6 +55943,7 @@ window.PODACI = {
       "naslov": "svoj or njegov?",
       "meta": {
         "info": "One question settles each item: does the thing belong to the subject of the sentence? If it does, the answer is **svoj**; if it belongs to someone else, the answer is *njegov* or *njezin*. The bracket says which situation is meant.",
+        "infokratko": "Belongs to the subject? **svoj**. Someone else? *njegov / njezin*.",
         "opis": "Does the thing belong to the person doing the action? Then it is *svoj*."
       },
       "stavke": [
@@ -55519,6 +56020,7 @@ window.PODACI = {
       "naslov": "Type svoj",
       "meta": {
         "info": "Typed production of *svoj* in the form that matches the noun. The endings are the ones you have drilled above — bare for masculine, **-a** for feminine, **-e** for neuter — and after a verb a feminine noun is in the accusative, so the possessive takes **-u** with it: *svoju sestru*.",
+        "infokratko": "*svoj* agrees with the noun; after a verb, feminine **-u**: *svoju sestru*.",
         "opis": "Type the right form of *svoj*."
       },
       "stavke": [
@@ -55574,7 +56076,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: čiji, and one word from a name",
       "meta": {
-        "info": "Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and copies the noun like every possessive. And from a name Croatian builds a word of its own: a word in **-a** takes **-in**, any other takes **-ov** or **-ev** — *Anin fotoaparat*, *tatin klub*, *Markov dres*."
+        "info": "Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and copies the noun like every possessive. And from a name Croatian builds a word of its own: a word in **-a** takes **-in**, any other takes **-ov** or **-ev** — *Anin fotoaparat*, *tatin klub*, *Markov dres*.",
+        "infokratko": "*čiji / čija / čije* = whose. From a name: **-a** word → **-in** (*Anin*), others **-ov/-ev** (*Markov*)."
       },
       "stavke": [
         [
@@ -55628,6 +56131,7 @@ window.PODACI = {
       "naslov": "Build the owner's word",
       "meta": {
         "info": "Type the word built from the owner's name. A word ending in **-a** takes **-in** (*Ana → Anin*, *sestra → sestrin*, *tata → tatin*), any other word takes **-ov** (*Marko → Markov*, *brat → bratov*), and the result then takes the ending that matches its noun.",
+        "infokratko": "**-a** → **-in** (*Anin, tatin*), others → **-ov** (*Markov, bratov*); then the noun's ending.",
         "opis": "Type the owner's word — a word in **-a** takes **-in**, any other takes **-ov**. Then let the noun finish it."
       },
       "stavke": [
@@ -55684,6 +56188,7 @@ window.PODACI = {
       "naslov": "Whose is it?",
       "meta": {
         "info": "Choose the correct sentence. Two things decide it: *čiji* matches the noun it asks about (*Čija je ovo lopta?*), and the possessive in the answer matches that same noun, whoever the owner turns out to be.",
+        "infokratko": "*čiji* matches the noun (*Čija je ovo lopta?*), and so does the possessive in the answer.",
         "opis": "One of these is how a Croatian would say it."
       },
       "stavke": [
@@ -55750,6 +56255,7 @@ window.PODACI = {
       "naslov": "Naming or target?",
       "meta": {
         "info": "A possessive follows its noun into the accusative from Lesson 5. As a subject the pair ends in **-a** twice (*Moja lopta je crvena*), and after a verb both words end in **-u** (*Tražim moj**u** lopt**u***).",
+        "infokratko": "Possessive goes into the accusative too: *Moja lopta je crvena. Tražim moju loptu.*",
         "opis": "Both words have to end the same way. Choose the phrase that fits the sentence."
       },
       "stavke": [
@@ -55816,6 +56322,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Sentence building from tiles, so the possessive has to land in the right place and the right form. It stands in front of the noun it belongs to, and where two halves are joined by *a* or *ali* each half keeps its own possessive and a comma comes before the connector.",
+        "infokratko": "Possessive before its noun; each half keeps its own; comma before *a* and *ali*.",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -55867,7 +56374,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary of the unit. The whole system is one sentence long: read the noun, and give the possessive the ending that matches it. *Svoj* is the one extra word, used when the owner is the subject of the sentence."
+        "info": "A closing summary of the unit. The whole system is one sentence long: read the noun, and give the possessive the ending that matches it. *Svoj* is the one extra word, used when the owner is the subject of the sentence.",
+        "infokratko": "Read the noun, match the ending. *svoj* when the owner is the subject."
       },
       "stavke": [
         [
@@ -55892,6 +56400,7 @@ window.PODACI = {
       "naslov": "Text 1: My hobby",
       "meta": {
         "info": "A read-along text with the English beside each line. Read it twice: once for the story, once for the endings. Every possessive matches the noun in front of which it stands, so *moj fotoaparat* has no ending and *moja sestra* has **-a**, although the owner is the same person.",
+        "infokratko": "The possessive matches the noun after it: *moj fotoaparat*, *moja sestra*.",
         "opis": "One family, three hobbies. Tap **EN** next to any sentence to see its translation."
       },
       "stavke": [
@@ -55954,6 +56463,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions in Croatian on the text above. *Čiji* asks whose, and its own ending matches the noun: *Čiji hobi* is masculine, *Čija gitara* feminine. The answer is stated outright in one of the lines.",
+        "infokratko": "*čiji* agrees too: *Čiji hobi? Čija gitara?*",
         "opis": "Answer from the text. Passive words: *prljav* (dirty).",
         "tekst": "Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Slikam svoj grad svaki dan. Moja sestra ima drugi hobi — njezin hobi je glazba. Njezina gitara je nova i ona svira cijeli dan. Naš brat voli sport. Njegova lopta je uvijek vani, a njegov dres je uvijek prljav. Njegovo koljeno boli jer trenira svaki dan. Moji roditelji nikad ne igraju nogomet, ali oni navijaju. Naši hobiji su različiti, ali naša kuća je vesela."
       },
@@ -56007,6 +56517,7 @@ window.PODACI = {
       "naslov": "Type the possessive from the text",
       "meta": {
         "info": "Copy the possessive back into the sentence. The noun that follows it decides the ending: *fotoaparat* takes the bare form, *gitara* takes **-a**, *koljeno* takes **-o** after *njegov* and **-e** after *moj*.",
+        "infokratko": "The noun decides: *fotoaparat* bare, *gitara* **-a**, *koljeno* **-o/-e**.",
         "opis": "The text is right above you — read it again and fill each gap.",
         "tekst": "Moj hobi je fotografija. Moj fotoaparat je star, ali je dobar. Njezina gitara je nova. Njegova lopta je uvijek vani, a njegov dres je uvijek prljav. Njegovo koljeno boli. Moji roditelji navijaju. Naši hobiji su različiti, ali naša kuća je vesela."
       },
@@ -56056,6 +56567,7 @@ window.PODACI = {
       "naslov": "Text 2: Is this your ball?",
       "meta": {
         "info": "A conversation in the park, and the whole of it turns on one word: *tvoja*, *moja*, *njegova*, *naš*, *vaš*. Notice *Čija je ovo lopta?* — the question word matches *lopta* and ends in **-a**, exactly like the answer will.",
+        "infokratko": "*tvoja, moja, njegova, naš, vaš*. *Čija je ovo lopta?* ends in **-a** like *lopta*.",
         "opis": "Two strangers, one ball. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -56115,6 +56627,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Check each statement against the dialogue. One word decides the truth of most of them, because *moja lopta* and *njegova lopta* differ only in the owner, and the first speaker says the red one is hers.",
+        "infokratko": "One word decides: *moja lopta* or *njegova lopta*.",
         "opis": "Tap true or false — careful whose is whose.",
         "tekst": "— Oprosti, je li ovo tvoja lopta? — Ne, moja lopta je crvena. To je njegova lopta. — Marko! Je li ovo tvoja lopta? — Da, moja je! — Igraš li nogomet? Naš klub trenira danas. — Igram! Kada trenirate? — U pet — trener je strog, ali je pošten. — A gdje trenirate? Vaš park ili naš park? — Naš, jer naš park ima nove golove."
       },
@@ -56162,6 +56675,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Put the park conversation back into sequence. Each line answers the one before it: a question about the ball is answered before the club is mentioned, and the park is settled last.",
+        "infokratko": "Each line answers the one before.",
         "opis": "The park conversation got shuffled. Put the lines back into the right order."
       },
       "stavke": [
@@ -56205,6 +56719,7 @@ window.PODACI = {
       "naslov": "Text 3: Our club",
       "meta": {
         "info": "A description of one small club, with a possessive in almost every line. Read *svoj* in the last sentence carefully: the people who love the club are the same people the club belongs to, which is exactly when Croatian uses *svoj*.",
+        "infokratko": "A possessive almost every line. *svoj*: the owners are the subject.",
         "opis": "A small club with a strict coach. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -56260,6 +56775,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension on the club text. One question asks *čiji*, so read the possessive in the line, not the name: *njegov dres je plav* places the blue jersey with the captain.",
+        "infokratko": "Read the possessive: *njegov dres je plav*.",
         "opis": "Answer from the text.",
         "tekst": "Naš klub je mali, ali je dobar. Naš trener je strog, ali je pošten. Moja pozicija je golman i moj dres je zelen. Ivan je kapetan — njegov dres je plav. Ana i Maja igraju odlično, njihova obrana je jaka. Subota je naš dan: igramo utakmicu. Svaki igrač nosi svoj dres i svoju loptu. Naši roditelji gledaju i navijaju zajedno."
       },
@@ -56313,6 +56829,7 @@ window.PODACI = {
       "naslov": "Text 4: The box at the club",
       "meta": {
         "info": "A puzzle rather than a story. Nobody says whose things these are, so match each person's habits to the four objects. The color word agrees with its noun, so *zelen dres* and *narančasta lopta* belong to two different owners.",
+        "infokratko": "Match habits to objects. The colour agrees: *zelen dres*, *narančasta lopta*.",
         "opis": "Four things in a box, four people, and no labels. Read it twice before you answer."
       },
       "stavke": [
@@ -56364,6 +56881,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Deduction from the four habits. The answers are built from a name: a name in **-a** takes **-in** (*Anin*, *Majin*) and any other takes **-ov** (*Markov*, *Ivanov*), and the word then matches its noun, so it is *Anin fotoaparat* but *Majina lopta*.",
+        "infokratko": "From a name: **-a** → **-in** (*Anin*), others **-ov** (*Markov*); then agree: *Majina lopta*.",
         "opis": "Nobody says whose is whose. Work it out from what each person does.",
         "tekst": "U kutiji su četiri stvari: dres, lopta, gitara i fotoaparat. Ana slika svaki trening jer je fotografija njezin hobi. Marko je golman i njegov dres je zelen. Ivan svira u pauzi, a poslije trenira. Maja trenira košarku i njezina lopta je narančasta. Dres u kutiji je zelen. Lopta u kutiji je narančasta."
       },
@@ -56417,6 +56935,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "One tap per sentence, and almost every sentence comes from the four texts. The noun after the possessive decides: no ending for a masculine noun, **-a** for a feminine one, **-o** or **-e** for a neuter one — *njegovo koljeno*, but *moje koljeno*.",
+        "infokratko": "m nothing, f **-a**, n **-o/-e**: *njegovo koljeno, moje koljeno*.",
         "nastavci": "- | a | e | o",
         "opis": "Almost every sentence came out of the four texts. Read the Croatian noun and tap the ending."
       },
@@ -56514,6 +57033,7 @@ window.PODACI = {
       "naslov": "Type the possessive",
       "meta": {
         "info": "Type the whole possessive, with the text as a safety net. The bracket names the owner and the noun sets the ending, so *(his)* plus *gitara* gives *njegova*, while *(her)* plus *dres* gives *njezin*.",
+        "infokratko": "Owner from the bracket, ending from the noun: *njegova gitara*, *njezin dres*.",
         "opis": "Fill in the possessive. The bracket says who, the noun decides the ending."
       },
       "stavke": [
@@ -56578,6 +57098,7 @@ window.PODACI = {
       "naslov": "Whose is it?",
       "meta": {
         "info": "Sorting the objects from the texts by the form of *moj*. The last letter of the noun is your guide: a consonant sends the word to **MOJ**, **-a** to **MOJA**, **-o** or **-e** to **MOJE**.",
+        "infokratko": "Consonant **MOJ**, **-a** **MOJA**, **-o/-e** **MOJE**.",
         "opis": "Almost everything here is in one of the four texts. Which form of *my* does it take?",
         "stupci": "MOJ | MOJA | MOJE"
       },
@@ -56659,6 +57180,7 @@ window.PODACI = {
       "naslov": "At the club",
       "meta": {
         "info": "A conversation at your first training session, so every reply carries a possessive. Take the ending from the Croatian noun in your answer, and use *svoj* where the thing belongs to the person doing the action, as in *Nosim svoju loptu*.",
+        "infokratko": "Ending from your noun; *svoj* for your own: *Nosim svoju loptu*.",
         "opis": "You arrive at training for the first time. Choose your replies. Passive words: *Dobro došli!* (welcome!), *prvi* (first), *u obrani* (in defence), *naravno* (of course), *vidimo se* (see you)."
       },
       "stavke": [
@@ -56729,6 +57251,7 @@ window.PODACI = {
       "naslov": "A training day, in order",
       "meta": {
         "info": "Sequence seven moments from a training day. No times are given, so follow the sense of the sentences: the players arrive and change before they train, and the coach speaks before the match begins.",
+        "infokratko": "Order by sense: arrive, change, train, match.",
         "opis": "Seven moments from a day at the club, shuffled. Nobody wrote this down — put it in the order it would actually happen."
       },
       "stavke": [
@@ -56766,6 +57289,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian out, built from tiles taken from the four texts. Two things decide the result: the possessive stands in front of its noun and copies it, and a comma comes before *a*, *ali* and never before *i*.",
+        "infokratko": "Possessive before its noun; comma before *a*, *ali*.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -56846,6 +57370,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word tap over the sport and body words. Everything is in its naming form, so use the moment to say the matching *moj*, *moja* or *moje* in your head as you tap.",
+        "infokratko": "Naming forms. Say *moj / moja / moje* in your head.",
         "opis": "Training is over. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -58446,6 +58971,7 @@ window.PODACI = {
       "naslov": "Telling stories",
       "meta": {
         "info": "A short read that opens the past tense. Croatian builds it from two pieces you already know: the verb **biti** (*sam, si, je, smo, ste, su*) from Lesson 2 and one new form of the main verb, the participle — *Gledao sam film.* Nothing here is to be answered, just read.",
+        "infokratko": "Past = **biti** + participle: *Gledao sam film.* Just read.",
         "opis": "Read it through — by the end of the lesson you'll be telling stories about yesterday."
       },
       "stavke": [
@@ -58474,6 +59000,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the possessives from Lesson 9, before anything new arrives. The ending comes from the **thing owned**, never from the owner: a consonant takes the bare form (*moj dres*), **-a** takes **-a** (*moja lopta*), a neuter noun takes **-o** or **-e** (*njegovo srce*, *moje koljeno*). **Read the noun, not the English.**",
+        "infokratko": "Lesson 9 against the clock. The ending follows the thing: *moj dres, moja lopta, moje koljeno*.",
         "trajanje": "60",
         "opis": "Possessive sprint from Lesson 9 — tap the form that fits the noun before the timer runs out."
       },
@@ -58539,6 +59066,7 @@ window.PODACI = {
       "naslov": "Yesterday words",
       "meta": {
         "info": "Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they announce that a story is coming. *Prošli* takes adjective endings: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three familiar verbs come back in their *ja* form, as always.",
+        "infokratko": "Time words first: *jučer, prošli vikend, cijeli dan*. *prošli / prošla / prošlo* agree like adjectives.",
         "opis": "Words for yesterday, last weekend and everything you did in between. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -58647,6 +59175,7 @@ window.PODACI = {
       "naslov": "The past participle",
       "meta": {
         "info": "Each card shows one verb in its three past shapes: **-o** for he, **-la** for she, **-li** for a group — *gledao, gledala, gledali*. They all come from the dictionary form by dropping **-ti**. Watch two of them: *jesti* drops its *d* and gives **jeo**, and *biti* gives **bio**, the form you will use most often.",
+        "infokratko": "Drop **-ti**: **-o** he, **-la** she, **-li** they: *gledao, gledala, gledali*. *jesti → jeo*, *biti → bio*.",
         "opis": "Take a verb, drop **-ti**, add **-o** (he), **-la** (she), **-li** (we / they). Then add the verb *biti* from Lesson 2: Gledao sam film. Gledala sam film. Gledali smo film."
       },
       "stavke": [
@@ -58731,6 +59260,7 @@ window.PODACI = {
       "naslov": "Make the participle",
       "meta": {
         "info": "Pure form practice: pair each dictionary form with its **he** participle. The recipe is always the same — take off **-ti**, put on **-o** — so *igrati* gives *igrao* and *učiti* gives *učio*. The one that changes most is *jesti → jeo*; say it aloud twice before you start.",
+        "infokratko": "Infinitive to the *he* form: drop **-ti**, add **-o**. *igrati → igrao*, *jesti → jeo*.",
         "opis": "Match each verb with its past form (the he-form)."
       },
       "stavke": [
@@ -58795,6 +59325,7 @@ window.PODACI = {
       "naslov": "The rule: biti + participle",
       "meta": {
         "info": "The core rule of the lesson in one formula: a form of **biti** plus the participle. The participle carries the gender of the subject — **-o** for a man or any masculine word (*Marko je bio*, *Film je bio*), **-la** for a woman or any feminine word (*Ana je bila*, *Voda je bila*), **-li** for a group (*djeca* and *braća* take **-la**), **-lo** for a neuter word like *more* or *sunce* — and *biti* carries the person, exactly as it did in Lesson 2. **The verb form alone shows who is speaking.**",
+        "infokratko": "**biti** + participle. Participle = gender (**-o, -la, -li, -lo**), *biti* = person: *Ana je bila, Marko je bio.*",
         "infoodmah": "da",
         "opis": "One formula, four endings. Read the table, then say the last row out loud in your own gender."
       },
@@ -58872,6 +59403,7 @@ window.PODACI = {
       "naslov": "He, she or they?",
       "meta": {
         "info": "Sorting by the participle ending alone, so read only the last letters. **-o** is a man or boy, **-la** a woman or girl, **-li** any group, and **-lo** belongs to a neuter subject — *bilo*, as in *Bilo je savršeno*, or *dijete je spavalo*. Ignore the front of the word; *pio* and *pjevao* land in the same column.",
+        "infokratko": "Last letters only: **-o** he, **-la** she, **-li** group, **-lo** neuter (*Bilo je savršeno*).",
         "stupci": "ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)",
         "opis": "Who could say this, or what is it said about? Sort the forms by their ending."
       },
@@ -58965,6 +59497,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li**, and a neuter noun like *more* or *sunce* takes **-lo**. **The helper is already in place — only the gender is missing.**",
+        "infokratko": "Subject first: man **-o**, woman **-la**, group **-li**, neuter **-lo**.",
         "nastavci": "o | la | li | lo",
         "opis": "English above, Croatian below. One tap completes the participle. **-o** for him, **-la** for her, **-li** for a group, **-lo** for a neuter thing."
       },
@@ -59082,6 +59615,7 @@ window.PODACI = {
       "naslov": "Pick the right combo",
       "meta": {
         "info": "Multiple choice on the whole pair, helper plus participle. Two things have to agree at once: the helper with the **person** (*je* for Marko, *smo* for us) and the participle with the **gender** (*igrao* for him, *igrala* for her). Each wrong option gets the helper, the gender, or both wrong.",
+        "infokratko": "Helper matches the person (*je, smo*), participle the gender (*igrao / igrala*).",
         "opis": "Choose the correct past form — both halves have to fit."
       },
       "stavke": [
@@ -59170,6 +59704,7 @@ window.PODACI = {
       "naslov": "Type the participle",
       "meta": {
         "info": "Now you type the participle yourself, so spelling counts. Drop **-ti**, add the ending named in the bracket — *(he)* **-o**, *(she)* **-la**, *(they)* **-li**, *(it)* **-lo** — and keep the diacritics exactly as in the infinitive: *čitati → čitala*. Watch *jesti → jeo, jela, jeli*.",
+        "infokratko": "Drop **-ti**, add the ending in brackets: *čitati → čitala*. *jesti → jeo, jela, jeli*.",
         "opis": "Type the participle in the form named in the bracket."
       },
       "stavke": [
@@ -59242,6 +59777,7 @@ window.PODACI = {
       "naslov": "The rule: word order and \"it was\"",
       "meta": {
         "info": "The second rule of the lesson. The helper *sam, si, je…* attaches to the first word and **can never open a sentence**, exactly as *ću* could not in Lesson 8 — so *Gledao sam*, *Ja sam gledao* and *Jučer sam gledao* are all fine, but *Sam gledao* is not Croatian. And the past of *biti* gives you the most useful sentence of all: *Bilo je savršeno.*",
+        "infokratko": "The helper never opens a sentence: *Gledao sam*, *Jučer sam gledao*. And: *Bilo je savršeno.*",
         "infoodmah": "da",
         "opis": "Two things: where the little helper is allowed to stand, and how to say \"it was\". Read the examples aloud."
       },
@@ -59286,6 +59822,7 @@ window.PODACI = {
       "naslov": "Today → yesterday",
       "meta": {
         "info": "Turn a present sentence into a past one. Take the verb back to its dictionary form, build the participle, and put the right form of *biti* behind the first word: *Gledam film* becomes *Gledao sam film* or *Gledala sam film*. **Both genders are accepted wherever *ja* or *ti* is the subject.**",
+        "infokratko": "Participle + *biti* after the first word: *Gledam film → Gledao sam film*. Both genders accepted.",
         "opis": "It happened yesterday! Rewrite in the past — where *I* or *you* is the subject, male or female form are both accepted."
       },
       "stavke": [
@@ -59350,6 +59887,7 @@ window.PODACI = {
       "naslov": "Build yesterday",
       "meta": {
         "info": "Whole sentences from tiles, so the helper has to land in the right place: never first, always right behind the opening word — *Jučer **sam** gledao film*, *Ana **je** pjevala*. When two people do two things, each half keeps its own helper and a comma goes before *a*.",
+        "infokratko": "Helper right after the first word: *Jučer sam gledao film. Ana je pjevala.*",
         "opis": "The English is above — arrange the tiles to tell the story in Croatian."
       },
       "stavke": [
@@ -59414,6 +59952,7 @@ window.PODACI = {
       "naslov": "Participle sprint",
       "meta": {
         "info": "A timed run from dictionary form to the **he** participle, so the answer always ends in **-o**. Speed comes from trusting the one swap — take off *-ti*, put on *-o* — instead of rebuilding the word. The clock is really testing *jesti → jeo* and *biti → bio*.",
+        "infokratko": "Against the clock, always the *he* form: *-ti → -o*. Watch *jeo*, *bio*.",
         "trajanje": "45",
         "opis": "A verb flashes in its dictionary form — tap its he-participle before it disappears."
       },
@@ -59487,6 +60026,7 @@ window.PODACI = {
       "naslov": "How was it?",
       "meta": {
         "info": "A conversation about yesterday, so every reply is in the past. Petra speaks to you as *ti*; answer with *sam* and the participle in **your own gender** — the first option is the man's form, the second the woman's, and both are correct. *Bilo je…* is how you say *it was…* about the day itself.",
+        "infokratko": "Answer with *sam* + participle in your own gender. *Bilo je...* = it was...",
         "opis": "Your friend Petra didn't see you all day yesterday and asks about it. Choose your replies — pick the form that matches you. Passive words: *nisam te vidjela* (I didn't see you), *dosadan* (boring), *dogovoreno* (agreed)."
       },
       "stavke": [
@@ -59561,6 +60101,7 @@ window.PODACI = {
       "naslov": "Last Saturday",
       "meta": {
         "info": "Read the story of one Saturday, then answer in Croatian. The participle ending shows who did what before you translate anything: *Ana je ustala*, *Marko je spavao*, *gledali su*. Time words — *prošla subota*, *poslije*, *navečer*, *u nedjelju* — mark the order of the day.",
+        "infokratko": "Read, then answer. The participle shows who: *Ana je ustala, Marko je spavao*.",
         "tekst": "Prošla subota je bila lijepa. Ana je ustala rano i pila je kavu na balkonu. Poslije je trenirala u parku. Marko je spavao dugo — bio je umoran jer je u petak imao ispit. Navečer su Ana i Marko bili u kinu. Gledali su komediju. Film je bio dug, ali je bio odličan. Poslije kina su jeli pizzu i pričali su cijeli sat. Nedjelja je bila kratka: Ana je učila, a Marko je gledao utakmicu. Njegov klub je pobijedio!",
         "opis": "Read about Ana and Marko's weekend, then answer the questions. Passive words: *ustala* (got up), *balkon* (balcony), *umoran* (tired)."
       },
@@ -59614,6 +60155,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the participles: each dictionary form is paired with its **he** form. Use it to fix the two odd ones — *jesti → jeo* and *biti → bio* — and to notice that everything else is simply the infinitive with *-o* in place of *-ti*.",
+        "infokratko": "Infinitive with *he* participle. The odd ones: *jesti → jeo*, *biti → bio*.",
         "opis": "Find the pairs — each verb with its past form."
       },
       "stavke": [
@@ -59670,6 +60212,7 @@ window.PODACI = {
       "naslov": "Module B final checkpoint",
       "meta": {
         "info": "The end of Module B, so this check covers the past tense and reaches back over Lessons 5–9. For the past, two things carry the points: the participle ending must match the gender (*je igrao / je igrala*), and the helper *sam, je, smo* can never open a sentence. Where *ja* is the subject, either gender is accepted.",
+        "infokratko": "Module B, all of it. Past: gender ending on the participle, helper never first. Either gender for *ja*.",
         "prag": "80",
         "opis": "The big one! Pass this checkpoint to complete Lessons 1–10 — half the course!"
       },
@@ -59774,6 +60317,7 @@ window.PODACI = {
       "naslov": "Reward & preview",
       "meta": {
         "info": "A closing summary. You now own all three tenses — present, future and past — and the past is just *biti* plus a participle whose ending names the speaker. What is still missing is saying that something did **not** happen — *nisam gledao* — and that is the first thing Grammar 10 hands you.",
+        "infokratko": "Present, future and past. Next: *nisam gledao*.",
         "opis": "Module B is complete. Read what you can do now, and what comes next."
       },
       "stavke": [
@@ -59799,6 +60343,7 @@ window.PODACI = {
       "naslov": "Free time & entertainment",
       "meta": {
         "info": "The words for what you did with your free time. Film words are mostly international — *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *film* takes *dobar film*, *serija* takes *dobra serija* and *kino* takes *dobro kino*.",
+        "infokratko": "Free-time words, mostly international. The ending gives the gender: *dobar film, dobra serija, dobro kino*.",
         "opis": "What you watched, where you went, what you ate. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -59903,6 +60448,7 @@ window.PODACI = {
       "naslov": "When did it happen?",
       "meta": {
         "info": "Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *danas*, *sutra*, *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.",
+        "infokratko": "Time words. *jučer* yesterday, *sinoć* last night, *prekjučer* day before. Not all are past: *sutra, uskoro*.",
         "opis": "The words that place a story in time. Only *prošli* changes shape (*prošli vikend*, *prošla godina*); the rest never do."
       },
       "stavke": [
@@ -60007,6 +60553,7 @@ window.PODACI = {
       "naslov": "Verbs and their participles",
       "meta": {
         "info": "Each card gives three shapes: the dictionary form, the *ja* form for the present, and the participle for the past. The participle usually comes from the dictionary form by dropping **-ti** and adding **-o**, but four of these do something else: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.",
+        "infokratko": "Infinitive, *ja* form, participle (**-ti → -o**). Irregular: *išao, došao, vidio, jeo*.",
         "opis": "Three shapes per verb: dictionary form, *ja* form, and the participle you need for the past."
       },
       "stavke": [
@@ -60103,6 +60650,7 @@ window.PODACI = {
       "naslov": "The participle in three forms",
       "meta": {
         "info": "The same participles laid out by speaker: **-o** for a man, **-la** for a woman, **-li** for a group. *Bio, bila, bili* is the one you will use most. Watch *išao → išla* and *došao → došla*, where the *a* of the male form is not there in the others.",
+        "infokratko": "**-o** man, **-la** woman, **-li** group: *bio, bila, bili*. *išao → išla*.",
         "opis": "A man says the first form, a woman the second, a group the third."
       },
       "stavke": [
@@ -60191,6 +60739,7 @@ window.PODACI = {
       "naslov": "Phrases for telling a story",
       "meta": {
         "info": "Whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.",
+        "infokratko": "Fixed phrases, male and female: *Gdje si bio / bila?* *Kako je bilo?* stays.",
         "opis": "The questions you will be asked about yesterday, and the answers you will give."
       },
       "stavke": [
@@ -60255,6 +60804,7 @@ window.PODACI = {
       "naslov": "He, she or they?",
       "meta": {
         "info": "Sorting participles by their ending alone. **-o** belongs to a man or boy, **-la** to a woman or girl, **-li** to any group, and **-lo** to a neuter subject such as *more* or *sunce* — *Bilo je savršeno*.",
+        "infokratko": "**-o** he, **-la** she, **-li** group, **-lo** neuter: *Bilo je savršeno*.",
         "opis": "Who could say this, or what is it said about? Read only the ending.",
         "stupci": "ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)"
       },
@@ -60340,6 +60890,7 @@ window.PODACI = {
       "naslov": "Now or yesterday?",
       "meta": {
         "info": "Sorting by tense. A verb with a personal ending is the present (*pijem*, *gledaš*, *radi*); a participle with a form of *biti* beside it is the past (*pio sam*, *gledali smo*). The helper is the giveaway.",
+        "infokratko": "Personal ending = present; participle + *biti* = past.",
         "opis": "Is it happening now, or did it happen yesterday? Sort the forms.",
         "stupci": "SADA | JUČER"
       },
@@ -60421,6 +60972,7 @@ window.PODACI = {
       "naslov": "Before, now or soon?",
       "meta": {
         "info": "Sorting the time words by where they point. *Jučer*, *sinoć*, *prekjučer* and *nedavno* look back; *danas*, *sad* and *obično* are about now; *sutra* and *uskoro* look forward. *Tada* points back to a moment already mentioned.",
+        "infokratko": "Back: *jučer, sinoć, nedavno*; now: *danas, sad*; forward: *sutra, uskoro*. *tada* = then.",
         "opis": "Does the word point back, at now, or forward? Sort them.",
         "stupci": "PRIJE | SADA | POSLIJE"
       },
@@ -60494,6 +61046,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, with no English on the page. Every word here can be the object of a story about yesterday — *Gledao sam film*, *Jeo sam kruh* — and the masculine ones don't change shape, while the **-a** words take **-u**: *Slušao sam gitaru*.",
+        "infokratko": "Objects for yesterday: *Gledao sam film*; **-a** → **-u**: *Slušao sam gitaru*.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -60558,6 +61111,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Each dictionary form beside its **he** participle. Most take off *-ti* and add *-o*; the four to memorise are *ići → išao*, *doći → došao*, *vidjeti → vidio* and *jesti → jeo*.",
+        "infokratko": "*-ti → -o*. Memorise *išao, došao, vidio, jeo*.",
         "opis": "Match each verb with its past form (the he-form)."
       },
       "stavke": [
@@ -60630,6 +61184,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the free-time words. The film genres are international, so use the game to fix the three that are not: *kazalište*, *izložba* and *dokumentarac*.",
+        "infokratko": "Genres are international; learn *kazalište, izložba, dokumentarac*.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -60686,6 +61241,7 @@ window.PODACI = {
       "naslov": "Speed challenge: what does it mean?",
       "meta": {
         "info": "A timed meaning sprint over the whole level. The film words cost you nothing, so bank those first and spend your seconds on the time words, where *prekjučer*, *sinoć* and *nedavno* are easy to mix up.",
+        "infokratko": "Films are easy; watch *prekjučer, sinoć, nedavno*.",
         "trajanje": "60",
         "opis": "Tap the English meaning before the timer runs out."
       },
@@ -60811,6 +61367,7 @@ window.PODACI = {
       "naslov": "Speed challenge: the participle",
       "meta": {
         "info": "A timed run from the dictionary form to the **he** participle. The rule is one swap — off with *-ti*, on with *-o* — so the seconds you lose will go on *ići*, *doći*, *vidjeti* and *jesti*.",
+        "infokratko": "*-ti → -o*. Slow ones: *ići, doći, vidjeti, jesti*.",
         "trajanje": "45",
         "opis": "A verb flashes — tap its he-participle before it disappears."
       },
@@ -60900,6 +61457,7 @@ window.PODACI = {
       "naslov": "Words from earlier levels",
       "meta": {
         "info": "A timed return to words from Vocabulary 7 and 8 that have not appeared for a while. Nothing here is new; the point is to keep older words in use before they slip.",
+        "infokratko": "Older words from levels 7–8.",
         "trajanje": "60",
         "opis": "Words from two and three levels ago — tap the English meaning."
       },
@@ -60981,6 +61539,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *kazalište* needs no such tile, while *prekjučer* needs **č**, *sinoć* needs **ć** and *izložba* needs **ž**.",
+        "infokratko": "*prekjučer* **č**, *sinoć* **ć**, *izložba* **ž**.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own."
       },
       "stavke": [
@@ -61037,6 +61596,7 @@ window.PODACI = {
       "naslov": "Type the participle",
       "meta": {
         "info": "Type the participle in the form the bracket asks for: *(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Keep every diacritic from the infinitive, and watch the four that change more than the ending — *ići*, *doći*, *vidjeti*, *jesti*.",
+        "infokratko": "*(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Irregular: *ići, doći, vidjeti, jesti*.",
         "opis": "Type the participle in the form named in the bracket."
       },
       "stavke": [
@@ -61117,6 +61677,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English to Croatian, with spelling counted. The nouns are wanted in their naming form and the verbs as infinitives, and the diacritics are part of the word: *kazalište*, *izložba*, *sinoć*, *prekjučer*.",
+        "infokratko": "Naming forms, infinitives, diacritics: *kazalište, sinoć, prekjučer*.",
         "opis": "The final round — type each word in Croatian."
       },
       "stavke": [
@@ -61292,7 +61853,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the past tense formula",
       "meta": {
-        "info": "The reference page for the whole unit. One past tense covers everything English splits into three, and it is built from two pieces: a form of **biti** and the participle. The participle carries the gender, *biti* carries the person."
+        "info": "The reference page for the whole unit. One past tense covers everything English splits into three, and it is built from two pieces: a form of **biti** and the participle. The participle carries the gender, *biti* carries the person.",
+        "infokratko": "One past tense: **biti** + participle. Participle = gender, *biti* = person."
       },
       "stavke": [
         [
@@ -61329,6 +61891,7 @@ window.PODACI = {
       "naslov": "Sort the participles",
       "meta": {
         "info": "Sorting by the ending alone, so read only the last letters. **-o** is a man or boy, **-la** a woman or girl, **-li** any group, **-lo** a neuter subject. The front of the word never says who — *pio* and *pjevao* land in the same column.",
+        "infokratko": "**-o** he, **-la** she, **-li** group, **-lo** neuter.",
         "opis": "Who could say this, or what is it said about? Sort the forms by their ending.",
         "stupci": "ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)"
       },
@@ -61426,6 +61989,7 @@ window.PODACI = {
       "naslov": "Tap the participle ending",
       "meta": {
         "info": "One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li** (but *djeca* and *braća* take **-la**), and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.",
+        "infokratko": "Man **-o**, woman **-la**, group **-li** (*djeca, braća* **-la**), neuter **-lo**.",
         "nastavci": "o | la | li | lo",
         "opis": "English above, Croatian below. One tap completes the participle."
       },
@@ -61543,6 +62107,7 @@ window.PODACI = {
       "naslov": "Tap the helper",
       "meta": {
         "info": "Now the participle is written and the form of **biti** is missing. It comes from the person, exactly as in Lesson 2: *ja sam*, *ti si*, *on* and *ona je*, *mi smo*, *vi ste*, *oni su*. A name behaves like *on* or *ona*, so it takes *je*.",
+        "infokratko": "*biti* from the person: *ja sam, ti si, on/ona je, mi smo, vi ste, oni su*.",
         "nastavci": "sam | si | je | smo | ste | su",
         "opis": "English above, Croatian below. One tap gives the sentence its helper."
       },
@@ -61640,6 +62205,7 @@ window.PODACI = {
       "naslov": "Type the participle",
       "meta": {
         "info": "Typed production, so spelling counts. Drop **-ti**, add the ending named in the bracket, and keep the diacritics of the infinitive: *čitati → čitala*. Four verbs change more than the ending: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.",
+        "infokratko": "Drop **-ti**, add the ending: *čitati → čitala*. Irregular: *išao, došao, vidio, jeo*.",
         "opis": "Type the participle."
       },
       "stavke": [
@@ -61720,6 +62286,7 @@ window.PODACI = {
       "naslov": "The correct sentence",
       "meta": {
         "info": "Two things have to agree at once: the helper with the person (*je* for Ana, *smo* for us) and the participle with the gender (*pjevala* for her, *pjevao* for him). Each wrong option gets the helper, the gender, the case or the word order wrong.",
+        "infokratko": "Helper matches the person, participle the gender: *Ana je pjevala*.",
         "opis": "Choose the correct sentence."
       },
       "stavke": [
@@ -61796,6 +62363,7 @@ window.PODACI = {
       "naslov": "The rule: where the helper stands",
       "meta": {
         "info": "The word-order half of the tense. *Sam, si, je…* are unstressed, so they attach to the first word of the sentence and can never open it. Put a pronoun, a time word or the participle itself in front, and the sentence works.",
+        "infokratko": "*sam, si, je* never open a sentence. Something goes first.",
         "infoodmah": "da"
       },
       "stavke": [
@@ -61839,6 +62407,7 @@ window.PODACI = {
       "naslov": "Now or yesterday?",
       "meta": {
         "info": "Sorting by tense. A verb carrying a personal ending is the present (*pijem*, *gledaš*, *radi*); a participle with a form of *biti* beside it is the past (*pio sam*, *gledali smo*). The helper is what you are looking for.",
+        "infokratko": "Personal ending = present (*pijem*); participle + *biti* = past (*pio sam*).",
         "opis": "Is it happening now, or did it happen yesterday? Sort the sentences.",
         "stupci": "SADA | JUČER"
       },
@@ -61920,6 +62489,7 @@ window.PODACI = {
       "naslov": "The yesterday version",
       "meta": {
         "info": "Turn a present sentence into a past one. Build the participle, then put the right form of *biti* behind the first word. Where *ja* or *ti* is the subject, both genders are accepted.",
+        "infokratko": "Participle + *biti* after the first word. Both genders for *ja* and *ti*.",
         "opis": "Yesterday version, please! Where the subject is *I* or *you*, either gender is accepted."
       },
       "stavke": [
@@ -61983,7 +62553,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the past that didn't happen",
       "meta": {
-        "info": "The negative. The participle does not move a letter; only the helper flips, into the forms you already know from Grammar 2 — *nisam, nisi, nije, nismo, niste, nisu*. Those are stressed, so unlike *sam* they may open a sentence."
+        "info": "The negative. The participle does not move a letter; only the helper flips, into the forms you already know from Grammar 2 — *nisam, nisi, nije, nismo, niste, nisu*. Those are stressed, so unlike *sam* they may open a sentence.",
+        "infokratko": "Negative: only the helper changes, *nisam, nije, nisu*. These can come first."
       },
       "stavke": [
         [
@@ -62034,6 +62605,7 @@ window.PODACI = {
       "naslov": "Say it didn't happen",
       "meta": {
         "info": "Negating the past. Swap the helper for its negative twin — *sam → nisam*, *je → nije*, *smo → nismo* — and leave the participle untouched, with its gender ending exactly as it was.",
+        "infokratko": "*sam → nisam, je → nije*; the participle stays.",
         "opis": "Negate the past. The participle stays exactly as it is."
       },
       "stavke": [
@@ -62098,6 +62670,7 @@ window.PODACI = {
       "naslov": "The correct negative",
       "meta": {
         "info": "The negative of *biti* is always one word — there is no *ne sam* and no *ne je* — and the participle still agrees with the speaker. *Nisi li…?* is the surprised question, with the negative helper in front and *li* right behind it.",
+        "infokratko": "No *ne sam* or *ne je*. *Nisi li...?* = surprised question.",
         "opis": "Choose the grammatical sentence."
       },
       "stavke": [
@@ -62162,6 +62735,7 @@ window.PODACI = {
       "naslov": "Write the whole sentence",
       "meta": {
         "info": "Free production from English, the hardest step in the unit. Build it as a participle plus a form of *biti*, never letting the helper stand first. Where the English says *I* or *you*, both genders are accepted.",
+        "infokratko": "Participle + *biti*, helper never first. Both genders for *I / you*.",
         "opis": "The last step — the English sentence, and you write the Croatian. Word order is free as long as the helper is not first, and either gender is accepted for *I* and *you*."
       },
       "stavke": [
@@ -62234,6 +62808,7 @@ window.PODACI = {
       "naslov": "Build the story",
       "meta": {
         "info": "Whole sentences from tiles, so the helper has to land in the right place — never first, always behind the opening word. Where two halves are joined by *a* or *ali*, each half keeps its own helper and a comma comes before the connector.",
+        "infokratko": "Helper never first; each half keeps its own; comma before *a*, *ali*.",
         "opis": "Build the story."
       },
       "stavke": [
@@ -62285,7 +62860,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary. The tense is one formula — a form of **biti** plus a participle whose ending names the speaker — plus one restriction on where the helper may stand, and one flip for the negative."
+        "info": "A closing summary. The tense is one formula — a form of **biti** plus a participle whose ending names the speaker — plus one restriction on where the helper may stand, and one flip for the negative.",
+        "infokratko": "**biti** + participle; helper never first; negative flips the helper."
       },
       "stavke": [
         [
@@ -62310,6 +62886,7 @@ window.PODACI = {
       "naslov": "Text 1: Yesterday",
       "meta": {
         "info": "A read-along text with the English beside each line. Every sentence is built the same way — a participle plus a form of *biti* — so read it twice: once for the story, once to see where the helper sits. It never opens a sentence.",
+        "infokratko": "Participle + *biti* in every sentence. The helper never comes first.",
         "opis": "One Saturday, told from beginning to end. Tap **EN** next to any sentence to see its translation."
       },
       "stavke": [
@@ -62369,6 +62946,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension questions in Croatian on the text above. The participle tells you who did what before you translate anything, and *Zašto…?* questions are answered by the half that follows *jer*.",
+        "infokratko": "The participle shows who. *Zašto?* → the *jer* part.",
         "opis": "Answer from the text.",
         "tekst": "Jučer je bila subota. Spavao sam dugo. Poslije sam pio kavu i jeo sam kruh. Moj prijatelj je zvao: \"Idemo u kino!\" Išli smo u kino i gledali smo film. Film je bio dug, ali je bio odličan. Poslije smo jeli pizzu i pričali smo cijeli sat. Navečer sam čitao knjigu i slušao sam glazbu. Nisam radio jer je bila subota."
       },
@@ -62422,6 +63000,7 @@ window.PODACI = {
       "naslov": "Type the past form",
       "meta": {
         "info": "Copy the past form back into the sentence. The helper comes from the person and the participle from the gender, so *Ja* takes *sam* plus **-o** or **-la**, while *mi* takes *smo* plus **-li**.",
+        "infokratko": "*Ja* → *sam* + **-o/-la**; *mi* → *smo* + **-li**.",
         "opis": "The text is right above you — fill in the past form.",
         "tekst": "Spavao sam dugo. Poslije sam pio kavu. Išli smo u kino i gledali smo film. Film je bio dug. Poslije smo jeli pizzu i pričali smo cijeli sat. Navečer sam čitao knjigu. Nisam radio jer je bila subota."
       },
@@ -62471,6 +63050,7 @@ window.PODACI = {
       "naslov": "Text 2: How was it?",
       "meta": {
         "info": "A conversation between two friends, and the participle in every line shows who is speaking. *Bio sam* and *Plivao sam* come from a man, *Učila sam* and *Znala sam* from a woman — the ending alone carries that, with no other word in the sentence to help.",
+        "infokratko": "The ending shows who speaks: *Bio sam* (he), *Učila sam* (she).",
         "opis": "Two friends compare their Saturdays. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -62530,6 +63110,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Check each statement against the dialogue, and watch who says what. The **-o** lines belong to the man and the **-la** lines to the woman, so a claim that swaps them is false even when every word in it appears in the text.",
+        "infokratko": "**-o** lines are his, **-la** lines hers.",
         "opis": "Tap true or false — careful who says what.",
         "tekst": "— Gdje si bio jučer? — Bio sam na moru. — Što si radio? — Plivao sam i čitao sam knjigu. — Je li voda bila topla? — Da, voda je bila savršena. — Učila sam cijeli dan. Imala sam ispit danas. — Odlično! Sve sam znala!"
       },
@@ -62577,6 +63158,7 @@ window.PODACI = {
       "naslov": "He or she?",
       "meta": {
         "info": "One ending decides each answer. A sentence with **-o** comes from a man, one with **-la** from a woman, and one with **-li** from a group — the pronoun *ja* would tell you nothing, which is exactly why Croatian puts it in the verb.",
+        "infokratko": "**-o** man, **-la** woman, **-li** group.",
         "opis": "Who is speaking? The participle is the only clue."
       },
       "stavke": [
@@ -62633,6 +63215,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Put the conversation back into sequence. Each line answers the one before it: the question about where comes before the question about what, and *Kako je bilo?* can only follow the mention of the exam.",
+        "infokratko": "Each line answers the one before.",
         "opis": "The conversation got shuffled. Put the lines back into the right order."
       },
       "stavke": [
@@ -62676,6 +63259,7 @@ window.PODACI = {
       "naslov": "Text 3: Last weekend",
       "meta": {
         "info": "A whole weekend in seven sentences, with a different subject in almost every one. Watch the helper change with the person — *smo* for us, *je* for one person, *su* for two — while the participle changes with gender.",
+        "infokratko": "Helper by person (*smo, je, su*), participle by gender.",
         "opis": "Friday, Saturday and Sunday, in one page. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -62723,6 +63307,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension on the weekend text. Most answers are a participle plus its helper, so read the pair together: *sestra je pjevala* is one person, *mama i tata su kuhali* is two.",
+        "infokratko": "Read the pair: *sestra je pjevala*, *mama i tata su kuhali*.",
         "opis": "Answer from the text. Passive words: *donijela* (brought), *kolač* (cake).",
         "tekst": "Prošli vikend je bio super. U petak smo gledali utakmicu — naš klub je pobijedio! U subotu sam igrao tenis, a moja sestra je pjevala na koncertu. Mama i tata su kuhali ručak za cijelu obitelj. U nedjelju smo svi spavali, čitali i gledali smo stari film. Baka je došla u nedjelju navečer i donijela je kolač. Vikend je bio kratak, ali smo bili sretni."
       },
@@ -62776,6 +63361,7 @@ window.PODACI = {
       "naslov": "Text 4: Four friends, one Saturday",
       "meta": {
         "info": "A puzzle rather than a story. Nobody says outright who did what, so read all of it before you answer. The negatives carry most of the information: what a person did **not** do is what tells you who did the rest.",
+        "infokratko": "Read it all first; the negatives carry the clues.",
         "opis": "Four people, four Saturdays, and no names attached to them. Read it twice."
       },
       "stavke": [
@@ -62823,6 +63409,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Deduction from the negatives. Three lines say who the film-watcher was not, and the fourth person is the answer — although he also spent the day at the seaside, which is the point of the puzzle.",
+        "infokratko": "From the negatives: who didn't watch the film.",
         "opis": "Nobody says who did what. Work it out from the text.",
         "tekst": "Ana, Marko, Iva i Luka su imali slobodnu subotu. Ana nije gledala film jer ne voli kino. Marko je bio na moru i plivao je cijeli dan. Iva ima ispit u ponedjeljak, zato je učila. Luka nije bio doma — išao je na utakmicu. Jedna osoba je gledala film navečer. Ta osoba nije bila Ana, nije bila Iva i nije bio Luka."
       },
@@ -62876,6 +63463,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "One tap per sentence, and almost every sentence comes from the four texts. Find the subject first: a man or *Marko* takes **-o**, a woman or *Ana* takes **-la**, a group takes **-li**, and a neuter subject takes **-lo**.",
+        "infokratko": "Man **-o**, woman **-la**, group **-li**, neuter **-lo**.",
         "nastavci": "o | la | li | lo",
         "opis": "Almost every sentence came out of the four texts. One tap completes the participle."
       },
@@ -62973,6 +63561,7 @@ window.PODACI = {
       "naslov": "Now or yesterday?",
       "meta": {
         "info": "Sorting sentences by tense. A verb with a personal ending is the present; a participle with *sam*, *je* or *smo* beside it is the past. The negative works the same way — *ne voli* is now, *nije gledala* is yesterday.",
+        "infokratko": "Personal ending = now; participle + helper = past. *ne voli* / *nije gledala*.",
         "opis": "Sort the sentences by when they happen.",
         "stupci": "SADA | JUČER"
       },
@@ -63046,6 +63635,7 @@ window.PODACI = {
       "naslov": "So how was your Saturday?",
       "meta": {
         "info": "A conversation about your own weekend, so every reply is in the past. Petra speaks to you as *ti*; answer with *sam* and a participle in your own gender — the first option is the man's form, the second the woman's, and both are correct.",
+        "infokratko": "Answer with *sam* + participle in your gender.",
         "opis": "Petra wants to hear about your Saturday. Choose your replies — pick the form that matches you. Passive words: *na moru* (at the seaside), *baš* (really), *dogovoreno* (agreed)."
       },
       "stavke": [
@@ -63116,6 +63706,7 @@ window.PODACI = {
       "naslov": "A Saturday, in order",
       "meta": {
         "info": "Sequence seven moments of one day. No times are given, so follow the sense: getting up comes before the coffee, the cinema before the pizza, and the book at the end of the evening.",
+        "infokratko": "Order by sense: up, coffee, cinema, pizza, book.",
         "opis": "Seven moments from the Saturday in Text 1, shuffled. Put them in the order they happened."
       },
       "stavke": [
@@ -63153,6 +63744,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian out, built from tiles taken from the four texts. The helper can never be the first tile, and where two halves are joined by *a* or *ali* each half keeps its own helper.",
+        "infokratko": "Helper never first; each half keeps its own.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -63241,6 +63833,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word tap over the things that turned up in the four texts. Everything is in its naming form; for extra value, say *Gledao sam…* or *Jeo sam…* in your head as you tap.",
+        "infokratko": "Naming forms. Think *Gledao sam...* as you tap.",
         "opis": "The weekend is over. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -64789,6 +65382,7 @@ window.PODACI = {
       "naslov": "Time to ask",
       "meta": {
         "info": "A short read to open the lesson. Croatian asks a question with no helper word: there is no equivalent of English *do*, so *Što kupuješ?* is the whole question. You already own one way of asking — *li* from Lesson 5 — and today the rest of the set arrives.",
+        "infokratko": "No *do* in Croatian questions: *Što kupuješ?* is the whole question.",
         "opis": "Read it through — by the end you can ask about anything."
       },
       "stavke": [
@@ -64817,6 +65411,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the past tense from Lesson 10. The participle takes **-o** for a man, **-la** for a woman and **-li** for a group, while the form of *biti* comes from the person. Answer from the subject and the bracket.",
+        "infokratko": "Lesson 10 against the clock: **-o** he, **-la** she, **-li** group; *biti* from the person.",
         "trajanje": "60",
         "opis": "Past sprint from Lesson 10 — tap the correct participle before the timer runs out."
       },
@@ -64882,6 +65477,7 @@ window.PODACI = {
       "naslov": "The question words",
       "meta": {
         "info": "The full set. Most never change shape — *tko, što, gdje, kada, zašto, kako, koliko* — while *koji*, *kakav* and *čiji* take endings, because they stand in front of a noun. *Koga* is the target form of *tko*, the same **-a** you learned for living beings in Lesson 6.",
+        "infokratko": "*tko, što, gdje, kada, zašto, kako, koliko* never change. *koji, kakav, čiji* agree with the noun. *koga* = whom.",
         "opis": "The words that open a question. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -64954,6 +65550,7 @@ window.PODACI = {
       "naslov": "Numbers 1–20",
       "meta": {
         "info": "The numbers, and you need them for the two most common questions of all: *Koliko godina imaš?* and *Koliko košta?* The teens are built from the units — *jedan* plus *-naest* gives *jedanaest* — so once you have one to ten, the rest is nearly a pattern; *dvanaest*, *četrnaest* and *šesnaest* trim the unit a little.",
+        "infokratko": "Numbers 1–20: *Koliko godina imaš? Koliko košta?* Teens: *jedan + -naest → jedanaest*.",
         "opis": "One to twenty, plus the round numbers you need for ages and prices."
       },
       "stavke": [
@@ -65070,6 +65667,7 @@ window.PODACI = {
       "naslov": "Question match",
       "meta": {
         "info": "Each question beside the answer it calls for. The answer is what identifies the question word: a name answers *tko*, a place answers *gdje*, a *jer*-clause answers *zašto*, and a number answers *koliko*.",
+        "infokratko": "The answer shows the word: name *tko*, place *gdje*, *jer* *zašto*, number *koliko*.",
         "opis": "Match each question with its logical answer. Passive words: *u Splitu* (in Split), *ovaj* (this one)."
       },
       "stavke": [
@@ -65126,6 +65724,7 @@ window.PODACI = {
       "naslov": "The rule: the question word goes first",
       "meta": {
         "info": "The core rule, and it is shorter than the English one. Put the question word first, then the ordinary present tense — no *do*, no reordering, nothing else added. *Zašto* is answered with *jer*, and the answer may be that half alone.",
+        "infokratko": "Question word first, then the present, nothing added. *Zašto?* → *jer...*",
         "infoodmah": "da",
         "opis": "One rule, no helper word. Read the table and say the last line out loud."
       },
@@ -65183,6 +65782,7 @@ window.PODACI = {
       "naslov": "Which kind of question?",
       "meta": {
         "info": "Three ways to ask, sorted. A question word opens the first kind, *li* sits behind the verb in the second, and the third is an ordinary statement with *zar ne?* attached at the end.",
+        "infokratko": "Three kinds: question word first, verb + *li*, statement + *zar ne?*",
         "opis": "Sort each question by the way it is built.",
         "stupci": "UPITNA RIJEČ | LI | ZAR NE"
       },
@@ -65256,6 +65856,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap for the three question words that agree. They copy the noun that follows: a masculine noun gives the bare form or **-i**, a feminine noun **-a**, a neuter noun **-e** or **-o**. *Kakav* keeps its masculine form whole (*Kakav je film?*), so here it turns up only with feminine and neuter nouns. Two items ask about a target, where the feminine ending is **-u**: *Koj**u** knjigu čitaš?*",
+        "infokratko": "*koji / kakav / čiji* agree with the noun: m bare or **-i**, f **-a**, n **-e/-o**. Target f: *Koju knjigu čitaš?*",
         "nastavci": "i | a | e | o | u",
         "opis": "English above, Croatian below. One tap makes the question word match its noun."
       },
@@ -65343,6 +65944,7 @@ window.PODACI = {
       "naslov": "Build the question",
       "meta": {
         "info": "Choosing the correctly built question. *Li* always stands directly behind the verb and never opens a sentence, and with *biti* the long forms come back: *jesi li*, *je li*, *jeste li*.",
+        "infokratko": "*li* right after the verb, never first. With *biti*: *jesi li, je li, jeste li*.",
         "opis": "Choose the correct question."
       },
       "stavke": [
@@ -65409,6 +66011,7 @@ window.PODACI = {
       "naslov": "Make a li-question",
       "meta": {
         "info": "Turning a statement into a yes-or-no question. Put *li* directly behind the verb and change nothing else — except with *biti*, where the short form grows back into *jesam, jesi, je, jesmo, jeste*.",
+        "infokratko": "Verb + *li*, nothing else changes: *Čitaš li?* With *biti*: *Jesi li...?*",
         "opis": "Turn each statement into a *li* question."
       },
       "stavke": [
@@ -65464,7 +66067,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: li, and the friendly tag",
       "meta": {
-        "info": "The second rule page, and mostly a reminder. *Li* is the yes-or-no question from Lesson 5: verb first, *li* second. With *biti* the long forms are used, and *zar ne?* turns any statement into a question without touching its word order."
+        "info": "The second rule page, and mostly a reminder. *Li* is the yes-or-no question from Lesson 5: verb first, *li* second. With *biti* the long forms are used, and *zar ne?* turns any statement into a question without touching its word order.",
+        "infokratko": "Verb + *li*; long forms with *biti*. *zar ne?* turns any statement into a question."
       },
       "stavke": [
         [
@@ -65515,6 +66119,7 @@ window.PODACI = {
       "naslov": "Pick the question word",
       "meta": {
         "info": "The answer is your clue. A name calls for *tko*, a thing for *što*, a place for *gdje*, a time for *kada*, a reason for *zašto*, a number for *koliko*, and a description for *kakav*.",
+        "infokratko": "The answer is the clue: name *tko*, thing *što*, place *gdje*, time *kada*, reason *zašto*, number *koliko*.",
         "opis": "Which question word fits? Read the answer first."
       },
       "stavke": [
@@ -65591,6 +66196,7 @@ window.PODACI = {
       "naslov": "Type the question word",
       "meta": {
         "info": "You type the word, with the answer given. Three need an ending that matches the noun — *koji*, *kakav* and *čiji* — and one is the target form of *tko*: *Koga čekaš?*",
+        "infokratko": "*koji, kakav, čiji* agree with the noun; *koga* for a person as target: *Koga čekaš?*",
         "opis": "The answer is given — type the question word."
       },
       "stavke": [
@@ -65647,6 +66253,7 @@ window.PODACI = {
       "naslov": "The interview",
       "meta": {
         "info": "Building whole questions from tiles. The question word is the first tile, *li* goes directly behind the verb, and *zar ne* closes the sentence after a comma.",
+        "infokratko": "Question word first, *li* after the verb, *zar ne* after a comma.",
         "opis": "Arrange the tiles to build the question."
       },
       "stavke": [
@@ -65699,6 +66306,7 @@ window.PODACI = {
       "naslov": "The present hunt",
       "meta": {
         "info": "A shop conversation built on questions. Everything you ask uses this lesson: *Što…?*, *Koliko košta…?*, *Imate li…?* The assistant uses *vi*, so answer politely and keep the verb in the *vi* form when you ask her something.",
+        "infokratko": "Ask with *Što...?*, *Koliko košta...?*, *Imate li...?* Use the *vi* form.",
         "opis": "You're buying a birthday present for your sister. Choose your replies. Passive words: *Izvolite?* (What would you like?), *tražim* (I'm looking for), *parfem* (perfume), *jeftinije* (cheaper), *savršen* (perfect)."
       },
       "stavke": [
@@ -65769,6 +66377,7 @@ window.PODACI = {
       "naslov": "Read: a birthday",
       "meta": {
         "info": "Read the story, then answer in Croatian. Every question in the text is built the way this lesson describes, so use the question word to find the line that answers it: *tko* points to a person, *što* to a thing, *koliko* to a number.",
+        "infokratko": "Read, then answer. *tko* person, *što* thing, *koliko* number.",
         "tekst": "Danas je Anin rođendan. Ana ima dvadeset godina. Jutros je na stolu bio poklon. Tko je poslao poklon? Ana ne zna. Kutija je bila velika i teška. Što je unutra? Ana otvara kutiju — unutra je gitara! Koliko košta takva gitara? Sto eura, možda i više. Ana zove baku. \"Bako, jesi li ti poslala gitaru?\" Baka se smije: \"Jesam! Ti voliš glazbu, zar ne?\"",
         "opis": "Read the story, then answer the questions. Passive words: *unutra* (inside), *teška* (heavy), *takva* (such a), *možda* (maybe), *se smije* (laughs)."
       },
@@ -65822,6 +66431,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the question words. Use it to separate the two that English blurs: *koji* picks one out of a known set, while *kakav* asks what something is like.",
+        "infokratko": "*koji* = which one, *kakav* = what kind.",
         "opis": "Flip the cards and find each question word's English partner."
       },
       "stavke": [
@@ -65878,6 +66488,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The scored mix of the whole lesson, and 80% opens Vocabulary 11. Most of the points sit on two things: the question word comes first with no helper added, and *li* comes directly after the verb.",
+        "infokratko": "The whole lesson, mixed; 80% opens Vocabulary 11. Question word first, *li* after the verb.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 11."
       },
@@ -65965,6 +66576,7 @@ window.PODACI = {
       "naslov": "Reward & preview",
       "meta": {
         "info": "A closing summary. You can now ask in all three ways — with a question word, with *li*, and with the tag *zar ne?* — and you have the numbers you need for ages and prices.",
+        "infokratko": "Three ways to ask, plus numbers for ages and prices.",
         "opis": "Read what you can do now, and what comes next."
       },
       "stavke": [
@@ -65990,6 +66602,7 @@ window.PODACI = {
       "naslov": "Question words",
       "meta": {
         "info": "The full set of question words. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji*, *kakav* and *čiji* stand in front of a noun and copy it, so each is shown in three forms. *Koga* is the target form of *tko*, exactly the **-a** of Lesson 6.",
+        "infokratko": "*tko, što, gdje, kada, zašto, kako, koliko* don't change; *koji, kakav, čiji* agree. *koga* = whom.",
         "opis": "Everything you need to ask and to wonder. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -66066,6 +66679,7 @@ window.PODACI = {
       "naslov": "Numbers 1–20",
       "meta": {
         "info": "One to twenty. The teens are built from the units plus **-naest**, so *pet* gives *petnaest* and *devet* gives *devetnaest*. Two of them have a female form: *jedan / jedna* and *dva / dvije*, used when the thing counted is feminine.",
+        "infokratko": "Teens: unit + **-naest** (*petnaest*). *jedan / jedna*, *dva / dvije* for feminine.",
         "opis": "The numbers you need for ages, prices and phone numbers."
       },
       "stavke": [
@@ -66162,6 +66776,7 @@ window.PODACI = {
       "naslov": "Bigger numbers & money",
       "meta": {
         "info": "The round numbers, plus the words for paying. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.",
+        "infokratko": "Round numbers and money. *Koliko košta?* — *deset eura*.",
         "opis": "Prices, ages and the round numbers above twenty."
       },
       "stavke": [
@@ -66258,6 +66873,7 @@ window.PODACI = {
       "naslov": "Presents & birthdays",
       "meta": {
         "info": "The words for a birthday. *Poklon* and *dar* both mean a present, and *rođendan* is built from *rođen* (born) and *dan* (day). Most of these are things you buy, so they will turn up as targets of *kupujem* and *tražim*.",
+        "infokratko": "Birthday words. *poklon, dar* = present; *rođendan* = *rođen* + *dan*.",
         "opis": "What you buy, for whom, and why. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -66338,6 +66954,7 @@ window.PODACI = {
       "naslov": "Questions, answers & new verbs",
       "meta": {
         "info": "The words a conversation is made of, plus five verbs in their *ja* form. *Pitati* is to ask and *odgovarati* is to answer, and they come from the same roots as the nouns *pitanje* and *odgovor*.",
+        "infokratko": "Conversation words; *pitati* ask, *odgovarati* answer.",
         "opis": "The words you need to keep a conversation going."
       },
       "stavke": [
@@ -66434,6 +67051,7 @@ window.PODACI = {
       "naslov": "Which question word?",
       "meta": {
         "info": "Sorting the question words by the kind of answer they call for. *Tko* and *koga* ask about a person, *gdje* and *kada* about place and time, and *koji*, *kakav* and *čiji* stand in front of a noun, so they take endings.",
+        "infokratko": "Person *tko / koga*, place *gdje*, time *kada*; *koji, kakav, čiji* take endings.",
         "opis": "Sort each question word by what it asks about.",
         "stupci": "OSOBA | MJESTO I VRIJEME | UZ IMENICU"
       },
@@ -66507,6 +67125,7 @@ window.PODACI = {
       "naslov": "How much is it?",
       "meta": {
         "info": "Sorting numbers into three ranges by sight. The teens end in **-naest**, *dvadeset* and everything above it ends in **-deset** (except *sto*), and everything below eleven is a single short word.",
+        "infokratko": "Teens **-naest**, tens **-deset**, *sto*; up to ten short words.",
         "opis": "Sort each number by its size.",
         "stupci": "1–10 | 11–20 | VIŠE OD 20"
       },
@@ -66588,6 +67207,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, with no English on the page. Most of these could be a present, and every one of these words can turn up as the target of *kupujem* — where a feminine noun takes **-u**: *Kupujem gitar**u***.",
+        "infokratko": "Possible presents. Feminine target **-u**: *Kupujem gitaru*.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -66652,6 +67272,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Question words beside their meanings. The pair worth keeping apart is *koji* and *kakav*: *koji* picks one out of a known set, *kakav* asks what something is like.",
+        "infokratko": "*koji* = which one, *kakav* = what kind.",
         "opis": "Match each question word with its English meaning."
       },
       "stavke": [
@@ -66716,6 +67337,7 @@ window.PODACI = {
       "naslov": "Match the numbers",
       "meta": {
         "info": "Each number beside its figure. Read the Croatian aloud as you match — the teens are long words, and hearing *četrnaest* next to *četiri* is what makes the pattern stick.",
+        "infokratko": "Read them aloud: *četiri / četrnaest*.",
         "opis": "Match each number with its figure."
       },
       "stavke": [
@@ -66780,6 +67402,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the birthday words. Two of them are worth fixing here: *čestitka* is the card you write, while *Čestitam!* is what you say.",
+        "infokratko": "*čestitka* = card; *Čestitam!* = congratulations.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -66836,6 +67459,7 @@ window.PODACI = {
       "naslov": "Speed challenge: question words",
       "meta": {
         "info": "Timed recognition of the question words. Speed comes from the answers they expect: a name for *tko*, a place for *gdje*, a number for *koliko*, a description for *kakav*.",
+        "infokratko": "Name *tko*, place *gdje*, number *koliko*, description *kakav*.",
         "trajanje": "45",
         "opis": "Tap the English meaning before the timer runs out."
       },
@@ -66901,6 +67525,7 @@ window.PODACI = {
       "naslov": "Speed challenge: numbers",
       "meta": {
         "info": "A timed number sprint. The teens are the slow ones, so read them as their unit plus *-naest* — *šest* gives *šesnaest*, with the *t* dropped, and *četiri* gives *četrnaest*.",
+        "infokratko": "Teens: unit + *-naest*; *šesnaest*, *četrnaest*.",
         "trajanje": "45",
         "opis": "A number flashes — tap the figure."
       },
@@ -66998,6 +67623,7 @@ window.PODACI = {
       "naslov": "Words from earlier levels",
       "meta": {
         "info": "A timed return to words from Vocabulary 8 and 9 that have not appeared for a while. Nothing here is new; the point is to keep older words in use.",
+        "infokratko": "Older words from levels 8–9.",
         "trajanje": "60",
         "opis": "Words from two and three levels ago — tap the English meaning."
       },
@@ -67079,6 +67705,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. Four words here need letters English does not have: *čestitka* and *četrnaest* start with **č**, *svijeća* ends in **-ća**, and *iznenađenje* carries both **đ** and the single letter **nj**.",
+        "infokratko": "*čestitka* **č**, *svijeća* **ć**, *iznenađenje* **đ** and **nj**.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own."
       },
       "stavke": [
@@ -67135,6 +67762,7 @@ window.PODACI = {
       "naslov": "Type the question word",
       "meta": {
         "info": "The answer is given and you type the question. Three of them take an ending from the noun beside them — *koji*, *kakav* and *čiji* — and one asks about a target: *Koga čekaš?*",
+        "infokratko": "*koji, kakav, čiji* agree; *Koga čekaš?*",
         "opis": "Read the answer, then type the question word that fits."
       },
       "stavke": [
@@ -67199,6 +67827,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English to Croatian, with spelling counted. The numbers are wanted as words, the nouns in their naming form, and the verbs as infinitives. The diacritics are part of the word: *čestitka*, *svijeća*, *rođendan*.",
+        "infokratko": "Numbers as words, naming forms, infinitives: *čestitka, svijeća, rođendan*.",
         "opis": "The final round — type each word in Croatian."
       },
       "stavke": [
@@ -67390,7 +68019,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: three ways to ask",
       "meta": {
-        "info": "The reference page for the unit. Croatian asks with a question word, with *li* behind the verb, or with the tag *zar ne?* — and in speech a raised voice alone does the job too. None of them needs a helper word like English *do*."
+        "info": "The reference page for the unit. Croatian asks with a question word, with *li* behind the verb, or with the tag *zar ne?* — and in speech a raised voice alone does the job too. None of them needs a helper word like English *do*.",
+        "infokratko": "Three ways: question word, verb + *li*, statement + *zar ne?* No *do*."
       },
       "stavke": [
         [
@@ -67421,6 +68051,7 @@ window.PODACI = {
       "naslov": "Which type of question?",
       "meta": {
         "info": "Sorting by how the question is built. A question word opens the first kind, *li* stands directly behind the verb in the second, and the third is a plain statement with *zar ne?* attached.",
+        "infokratko": "Question word first; *li* after the verb; statement + *zar ne?*",
         "opis": "Which type of question is it?",
         "stupci": "QUESTION WORD | LI-QUESTION | TAG"
       },
@@ -67494,6 +68125,7 @@ window.PODACI = {
       "naslov": "Make a li-question",
       "meta": {
         "info": "Turning a statement into a yes-or-no question. Put *li* directly behind the verb and move nothing else — except with *biti*, where the short form grows back into *jesam, jesi, jesmo, jeste*, and the third person becomes the fixed pair *je li*.",
+        "infokratko": "*li* right after the verb. *biti*: *jesam, jesi, jesmo, jeste*, and *je li*.",
         "opis": "Turn the statement into a *li* question. Passive words: *gladan* (hungry)."
       },
       "stavke": [
@@ -67558,6 +68190,7 @@ window.PODACI = {
       "naslov": "Find the question",
       "meta": {
         "info": "Working backwards from an answer. The shape of the answer names the question word: a place answers *gdje*, a *jer*-clause answers *zašto*, a number answers *koliko*, and a description answers *kakav*.",
+        "infokratko": "The answer names the word: place *gdje*, *jer* *zašto*, number *koliko*, description *kakav*.",
         "opis": "Pick the natural question for the answer."
       },
       "stavke": [
@@ -67633,7 +68266,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: the three question words that agree",
       "meta": {
-        "info": "Three question words behave like adjectives, because each stands in front of a noun: *koji*, *kakav* and *čiji*. Learn the pair that English blurs — *koji* picks one out of a known set, *kakav* asks what something is like."
+        "info": "Three question words behave like adjectives, because each stands in front of a noun: *koji*, *kakav* and *čiji*. Learn the pair that English blurs — *koji* picks one out of a known set, *kakav* asks what something is like.",
+        "infokratko": "*koji, kakav, čiji* agree with their noun. *koji* = which one, *kakav* = what kind."
       },
       "stavke": [
         [
@@ -67691,6 +68325,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap makes the question word match its noun. A masculine noun gives **-i** for *koji* and *čiji*, and *kakav* keeps its masculine form whole, so it turns up here only with feminine and neuter nouns; a feminine noun gives **-a**, or **-u** when the noun is the target of the verb; a neuter noun gives **-e** or **-o**.",
+        "infokratko": "m **-i** (*koji, čiji*; *kakav* stays), f **-a** (**-u** as target), n **-e/-o**.",
         "nastavci": "i | a | e | o | u",
         "opis": "English above, Croatian below. One tap, and the question word matches the noun beside it."
       },
@@ -67788,6 +68423,7 @@ window.PODACI = {
       "naslov": "koji or kakav?",
       "meta": {
         "info": "One question decides each item: are you picking one out of several, or asking what something is like? Picking takes *koji*, describing takes *kakav*, and the answer confirms it — a name or *ovaj* answers *koji*, an adjective answers *kakav*.",
+        "infokratko": "Picking one → *koji*; describing → *kakav*.",
         "opis": "Asking which one, or asking what it's like?"
       },
       "stavke": [
@@ -67876,6 +68512,7 @@ window.PODACI = {
       "naslov": "Type the question word",
       "meta": {
         "info": "Typed production, and the ending comes from the noun that follows. *Čiji* and *koji* take **-i** for a masculine noun, **-a** for a feminine one, **-e** for a neuter one; *kakav* has no ending in the masculine.",
+        "infokratko": "*čiji, koji*: m **-i**, f **-a**, n **-e**. *kakav* bare in the masculine.",
         "opis": "One word — and it must agree with the noun."
       },
       "stavke": [
@@ -67939,7 +68576,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: asking about a person",
       "meta": {
-        "info": "*Tko* takes case endings like any living being. As the subject it is *tko*, as the target it is **koga** — the same **-a** from Lesson 6 — and after a preposition it stays *koga*: *za koga*, *o kome* comes later."
+        "info": "*Tko* takes case endings like any living being. As the subject it is *tko*, as the target it is **koga** — the same **-a** from Lesson 6 — and after a preposition it stays *koga*: *za koga*, *o kome* comes later.",
+        "infokratko": "Subject *tko*, target and after a preposition **koga**: *za koga*."
       },
       "stavke": [
         [
@@ -67990,6 +68628,7 @@ window.PODACI = {
       "naslov": "tko or koga?",
       "meta": {
         "info": "Decide who does the action and who receives it. The one doing it is *tko*; the one on the receiving end, or the one after *za*, is *koga*.",
+        "infokratko": "Does the action → *tko*; receives it or after *za* → *koga*.",
         "opis": "Is the person doing the action, or on the receiving end of it?"
       },
       "stavke": [
@@ -68055,7 +68694,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: how to answer",
       "meta": {
-        "info": "Answering, which Croatian does in fewer words than English. A *zašto* question is answered by the *jer*-half alone, a yes-or-no question by repeating the verb, and anything you do not know by *Ne znam*."
+        "info": "Answering, which Croatian does in fewer words than English. A *zašto* question is answered by the *jer*-half alone, a yes-or-no question by repeating the verb, and anything you do not know by *Ne znam*.",
+        "infokratko": "*zašto* → the *jer*-half alone; yes/no → repeat the verb; *Ne znam*."
       },
       "stavke": [
         [
@@ -68108,6 +68748,7 @@ window.PODACI = {
       "naslov": "Answer the question",
       "meta": {
         "info": "Short answers. Repeat the verb for a yes, negate it for a no, and answer a *zašto* question with the *jer*-half alone. Nothing else needs to be said.",
+        "infokratko": "Yes: repeat the verb. No: negate it. *zašto*: just *jer...*",
         "opis": "Answer in the natural, short way — one or two words."
       },
       "stavke": [
@@ -68164,6 +68805,7 @@ window.PODACI = {
       "naslov": "Build the questions",
       "meta": {
         "info": "Whole questions from tiles. The question word takes the first tile, *li* goes directly behind the verb, and *zar ne* closes the sentence after a comma.",
+        "infokratko": "Question word first, *li* after the verb, *zar ne* after a comma.",
         "opis": "Build the questions."
       },
       "stavke": [
@@ -68216,6 +68858,7 @@ window.PODACI = {
       "naslov": "Write the whole question",
       "meta": {
         "info": "Free production from English, the hardest step here. Build it as a question word plus the ordinary present tense, with nothing added for *do*, or as a verb plus *li*. Where the noun follows *koji*, *kakav* or *čiji*, the ending comes from that noun.",
+        "infokratko": "Question word + present, or verb + *li*. *koji, kakav, čiji* follow the noun.",
         "opis": "The last step — the English question, and you write the Croatian."
       },
       "stavke": [
@@ -68295,7 +68938,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary. Three ways to ask, one restriction on *li*, and three question words that copy the noun they ask about — that is the whole system at this level."
+        "info": "A closing summary. Three ways to ask, one restriction on *li*, and three question words that copy the noun they ask about — that is the whole system at this level.",
+        "infokratko": "Three ways to ask, *li* after the verb, three agreeing question words."
       },
       "stavke": [
         [
@@ -68320,6 +68964,7 @@ window.PODACI = {
       "naslov": "Text 1: The present",
       "meta": {
         "info": "A read-along shop conversation, and almost every second line is a question. Read it twice: once for the story, once to notice that no line adds a helper word — *Što kupuješ?* is the whole question, with nothing standing in for English *do*.",
+        "infokratko": "Almost every second line is a question, with no *do*: *Što kupuješ?*",
         "opis": "A present, a sister and a shop assistant with opinions. Tap **EN** next to any sentence to see its translation."
       },
       "stavke": [
@@ -68387,6 +69032,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension on the dialogue above. Each question here is built the way the text builds its own: the question word first, then the present tense. The answer is stated outright in one of the lines.",
+        "infokratko": "Question word first, then the present. The answer is in the text.",
         "opis": "Answer from the dialogue.",
         "tekst": "— Što kupuješ? — Kupujem poklon. — Za koga? — Za sestru. Sutra je njezin rođendan. — Koliko godina ima? — Dvadeset. — I što ćeš kupiti? Knjigu ili parfem? — Ne znam... Što ona voli? — Tvoja sestra voli glazbu, zar ne? — Da! Onda je gitara savršen poklon! — Koliko košta gitara? — Sto eura."
       },
@@ -68440,6 +69086,7 @@ window.PODACI = {
       "naslov": "Type the question word",
       "meta": {
         "info": "Copy the question word back into the line. Read the answer first: a thing calls for *što*, a person after *za* calls for *koga*, and a number calls for *koliko*.",
+        "infokratko": "Read the answer first: thing *što*, person after *za* *koga*, number *koliko*.",
         "opis": "Fill in the question word from the dialogue.",
         "tekst": "— Što kupuješ? — Kupujem poklon. — Za koga? — Za sestru. — Koliko godina ima? — Dvadeset. — Koliko košta gitara? — Sto eura."
       },
@@ -68481,6 +69128,7 @@ window.PODACI = {
       "naslov": "Text 2: The mystery",
       "meta": {
         "info": "A story told almost entirely in questions, which is what makes it a mystery. Each question is answered by the line that follows it, so read the pairs together — and notice that the last answer is a *jer*-clause, standing alone as a full answer.",
+        "infokratko": "Each question is answered by the next line. The last answer is a *jer*-clause.",
         "opis": "A box arrives and nobody will say who sent it. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -68540,6 +69188,7 @@ window.PODACI = {
       "naslov": "Match question & answer",
       "meta": {
         "info": "Each question from the story beside its answer. The question word is what tells you which answer fits: *tko* takes a person, *što* a thing, *kada* a time, *kakva* a description, *čija* a possessive.",
+        "infokratko": "*tko* person, *što* thing, *kada* time, *kakva* description, *čija* owner.",
         "opis": "Match each question from the story with its answer."
       },
       "stavke": [
@@ -68588,6 +69237,7 @@ window.PODACI = {
       "naslov": "Solve the mystery",
       "meta": {
         "info": "Questions that need working out rather than looking up. The cake has twenty candles and Ana is twenty, which is the link the story never states outright.",
+        "infokratko": "Work it out: the story never says it directly.",
         "opis": "Some of these are in the story, and some you have to work out.",
         "tekst": "Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kutija je teška. Kada je poklon stigao? Jutros. Čija je ovo kutija? Na kutiji nema imena. Ana otvara kutiju. Unutra je torta! Kakva je torta? Velika, s dvadeset svijeća. A tko je poslao tortu? Baka, naravno! Jer danas je Anin rođendan — a baka nikad ne zaboravlja."
       },
@@ -68641,6 +69291,7 @@ window.PODACI = {
       "naslov": "Text 3: The quiz show",
       "meta": {
         "info": "A quiz show, so the host uses *vi* throughout: *Gdje živite?*, *Koliko godina imate?* Compare those with the *ti* forms from Text 1 — the question word is identical and only the verb ending changes.",
+        "infokratko": "The host uses *vi*: *Gdje živite? Koliko godina imate?*",
         "opis": "Marko is the contestant and the host has seven questions. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -68716,6 +69367,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Check each statement against the quiz show. The traps are the numbers and the *vi* forms: the host asks *Koliko godina imate?* and the answer is thirty, not twenty.",
+        "infokratko": "Watch the numbers and the *vi* forms.",
         "opis": "Tap true or false.",
         "tekst": "— Tko ste vi? — Ja sam Marko. — Gdje živite? — Živim u Splitu. — Koliko godina imate? — Trideset. — Koji je vaš hobi? — Šah. — Kako često igrate? — Svaki dan! — Kakav je šah? — Nije lagan, ali je zanimljiv."
       },
@@ -68763,6 +69415,7 @@ window.PODACI = {
       "naslov": "Text 4: Who bought what?",
       "meta": {
         "info": "A puzzle rather than a story. Four people bought four presents, and nobody says which is whose. The negatives carry the information: what a person did **not** buy is what places the others.",
+        "infokratko": "Four people, four presents. The negatives place them.",
         "opis": "Four friends, four presents, no labels. Read it twice before you answer."
       },
       "stavke": [
@@ -68810,6 +69463,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Deduction from the negatives. Iva buys the guitar, Luka the card, Marko does not buy flowers — so the flowers are Ana's and the perfume is Marko's.",
+        "infokratko": "By elimination from the negatives.",
         "opis": "Nobody says who buys what. Work it out from the text.",
         "tekst": "Marko, Iva i Luka kupuju poklone za Anin rođendan. Ana je isto u dućanu — ona kupuje poklon za baku. Marko ne kupuje cvijeće jer cvijeće nije njegova ideja. Iva kupuje nešto što svira. Luka nema puno novca, zato kupuje čestitku. Pokloni su: gitara, parfem, cvijeće i čestitka. Parfem košta pedeset eura."
       },
@@ -68863,6 +69517,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "One tap per question, and almost every question comes from the four texts. *Koji*, *kakav* and *čiji* copy the noun beside them, and a feminine noun takes **-u** when it is the target of the verb.",
+        "infokratko": "*koji, kakav, čiji* copy the noun; feminine target **-u**.",
         "nastavci": "i | a | e | o | u",
         "opis": "Every question came out of the four texts. One tap makes the question word match its noun."
       },
@@ -68955,6 +69610,7 @@ window.PODACI = {
       "naslov": "Which kind of question?",
       "meta": {
         "info": "Sorting questions by how they are built. A question word opens the first kind, *li* stands behind the verb in the second, and the third is a statement with *zar ne?* on the end.",
+        "infokratko": "Question word first; verb + *li*; statement + *zar ne?*",
         "opis": "Sort each question by the way it is built.",
         "stupci": "UPITNA RIJEČ | LI | ZAR NE"
       },
@@ -69028,6 +69684,7 @@ window.PODACI = {
       "naslov": "Now YOU are on the quiz",
       "meta": {
         "info": "The host asks you six questions of his own, in the polite *vi* form. Any answer keeps the show going, but read the question word first: *gdje* wants a place, *koji* wants one thing out of several, and *zašto* wants a *jer*-clause.",
+        "infokratko": "Polite *vi*. *gdje* place, *koji* one of several, *zašto* → *jer*.",
         "opis": "Answer the host's questions about yourself — any answer keeps the show going. Passive words: *voditelj* (host), *zadnje pitanje* (last question), *odličan odgovor* (excellent answer)."
       },
       "stavke": [
@@ -69107,6 +69764,7 @@ window.PODACI = {
       "naslov": "The mystery, in order",
       "meta": {
         "info": "Sequence the seven moments of the mystery. The questions come before their answers, and the box has to arrive before anyone can open it.",
+        "infokratko": "Questions before answers; the box arrives before it's opened.",
         "opis": "Seven moments from Text 2, shuffled. Put them in the order they happened."
       },
       "stavke": [
@@ -69144,6 +69802,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian out, built from tiles taken from the four texts. The question word is the first tile and nothing stands in for English *do*; *li* goes directly behind the verb.",
+        "infokratko": "Question word first, no *do*; *li* right after the verb.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -69224,6 +69883,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word tap over the things that could be a present. Everything is in its naming form; say *Kupujem…* in your head as you tap, remembering that a feminine word would take **-u**.",
+        "infokratko": "Naming forms. Think *Kupujem...*; feminine **-u**.",
         "opis": "The shop is closing. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [
@@ -70659,6 +71319,7 @@ window.PODACI = {
       "naslov": "Time to say NO",
       "meta": {
         "info": "A short read to open the lesson. You already know the two basic moves — *ne* in front of a verb and *nisam* for *biti*. Today they join the negative words *ništa, nitko, nigdje, nikad*, which in Croatian always keep a second *ne* on the verb.",
+        "infokratko": "You know *ne* + verb and *nisam*. New: *ništa, nitko, nigdje, nikad*, always with *ne* on the verb too.",
         "opis": "Read it through — by the end you can turn down a whole menu."
       },
       "stavke": [
@@ -70687,6 +71348,7 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "info": "A timed warm-up on the questions from Lesson 11. The question word comes first and nothing is added for English *do*; *li* stands directly behind the verb, and with *biti* the long form is used: *Jesi li umoran?* Read the answer first — it names the question word.",
+        "infokratko": "Lesson 11 against the clock. Question word first, *li* after the verb, *Jesi li...?* with *biti*.",
         "trajanje": "60",
         "opis": "Question sprint from Lesson 11 — tap the missing word before the timer runs out."
       },
@@ -70752,6 +71414,7 @@ window.PODACI = {
       "naslov": "The basic \"ne\" + new food",
       "meta": {
         "info": "The food and table words for this lesson, plus four tastes. *Ne* goes directly in front of the verb, so every card here can be refused with one extra word: *Ne jedem gljive.* Watch *ljut*: you know it as *angry* from Vocabulary 2, and with food it means *spicy*.",
+        "infokratko": "Food words and tastes. Refuse with *ne* before the verb: *Ne jedem gljive.* *ljut* = spicy.",
         "opis": "New food, the things on the table and four tastes. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -70856,6 +71519,7 @@ window.PODACI = {
       "naslov": "Words for saying no",
       "meta": {
         "info": "The negative words, each beside its positive twin. The pattern is visible in the spelling: **ni-** gives the negative word (*ništa, nitko, nigdje, nikad*), **ne-** gives the positive one (*nešto, netko, negdje, nekad*). In front of a verb the same two letters do the opposite job — *nemam*, *neću* are negatives. *Nikoga* is the target form of *nitko*, just as *koga* is of *tko*.",
+        "infokratko": "**ni-** negative (*ništa, nitko*), **ne-** positive (*nešto, netko*). *nikoga* = nobody (target).",
         "opis": "The words you need to refuse, plus seven verbs for the restaurant. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -70968,6 +71632,7 @@ window.PODACI = {
       "naslov": "The rule: ne and the three fused verbs",
       "meta": {
         "info": "The first rule of the lesson, and most of it is revision. *Ne* is a separate word directly in front of the verb, and nothing else in the sentence changes. Only three verbs join *ne* into one word — *biti*, *imati* and *htjeti* — and those forms may open a sentence.",
+        "infokratko": "*ne* stands before the verb. Only *biti, imati, htjeti* fuse: *nisam, nemam, neću*.",
         "infoodmah": "da",
         "opis": "One word in front of the verb, and three verbs that join it. Read the tables and say the last line out loud."
       },
@@ -71062,6 +71727,7 @@ window.PODACI = {
       "naslov": "Sort the forms",
       "meta": {
         "info": "Sorting negative forms by the verb inside them. *Nisam, nisi, nije* belong to *biti*, *nemam* and *nema* to *imati*, and *neću* and *neće* to *htjeti*. Every other verb keeps *ne* as a separate word — *ne volim, ne jedem*.",
+        "infokratko": "*nisam, nije* → *biti*; *nemam, nema* → *imati*; *neću, neće* → *htjeti*. Others: *ne volim*.",
         "stupci": "BITI | IMATI | HTJETI | NE + GLAGOL",
         "opis": "Which verb is inside the negative form? Sort each one."
       },
@@ -71143,6 +71809,7 @@ window.PODACI = {
       "naslov": "Pick the right form",
       "meta": {
         "info": "Choosing the negative form that fits. *Biti*, *imati* and *htjeti* join *ne* into one word, so *ne sam*, *ne imamo* and *ne ću* are never written. Check the person as well: *nisam* is *ja*, *nije* is *on* or *ona*, *nisu* is *oni*.",
+        "infokratko": "Never *ne sam, ne imamo, ne ću*. Check the person: *nisam* ja, *nije* on/ona, *nisu* oni.",
         "opis": "Choose the correct negative form."
       },
       "stavke": [
@@ -71231,6 +71898,7 @@ window.PODACI = {
       "naslov": "Say no to everything",
       "meta": {
         "info": "Negating whole sentences in three tenses. In the present put *ne* in front of the verb; in the past swap the helper for *nisam, nije, nismo*; in the future swap *ću* for *neću* and give the verb back its full *-ti*: *Platit ću* → *Neću platiti*.",
+        "infokratko": "Present: *ne* + verb. Past: *nisam, nije...* Future: *neću* + full *-ti*: *Neću platiti*.",
         "opis": "Negate each sentence. Only the verb part changes."
       },
       "stavke": [
@@ -71295,6 +71963,7 @@ window.PODACI = {
       "naslov": "Double negatives are GOOD here",
       "meta": {
         "info": "The second rule, and the one that differs from English. A negative word such as *ništa* or *nikad* never replaces *ne* on the verb — both are required. Each negative word has a positive twin with **ne-** (*nešto, netko*), and those take no *ne* at all.",
+        "infokratko": "Double negation: *Ništa ne jedem.* The **ne-** twins (*nešto, netko*) take no *ne*.",
         "infoodmah": "da",
         "opis": "Two negatives in one sentence, and both are required. Read the table, then fill in the last line."
       },
@@ -71357,6 +72026,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap in front of each word. **Ni-** makes the negative word (*ništa, nitko, nigdje, nikad, nikoga*) and needs *ne* on the verb; **ne-** makes the positive twin (*nešto, netko*). The same taps build *nisam, nemamo, neće*. The dash means no negative at all — read the English.",
+        "infokratko": "**ni-** = negative word, needs *ne* on the verb; **ne-** = positive. The dash: no negation.",
         "nastavci": "ni | ne | -",
         "opis": "English above, Croatian below. One tap in front of the word — or none, if the sentence is positive."
       },
@@ -71464,6 +72134,7 @@ window.PODACI = {
       "naslov": "Stack the negatives",
       "meta": {
         "info": "Choosing the sentence built the Croatian way. When a negative word is present, the verb still takes *ne*, *nisam* or *neću*. When the English says *something* or *somebody*, the word starts with **ne-** and the verb stays positive.",
+        "infokratko": "Negative word → the verb is negative too. *something / somebody* → **ne-** word, positive verb.",
         "opis": "Choose the correct Croatian sentence."
       },
       "stavke": [
@@ -71552,6 +72223,7 @@ window.PODACI = {
       "naslov": "Build the protest",
       "meta": {
         "info": "Whole negative sentences from tiles. *Ne* goes directly in front of the verb, the fused forms *nisam* and *neću* may take the first tile, and every negative word keeps *ne* on the verb beside it.",
+        "infokratko": "*ne* before the verb; *nisam, neću* can come first; negative words keep *ne* on the verb.",
         "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
@@ -71604,6 +72276,7 @@ window.PODACI = {
       "naslov": "Positive → negative",
       "meta": {
         "info": "A timed sprint from positive to negative. Three verbs join *ne* into one word — *sam → nisam*, *imam → nemam*, *ću → neću* — every other verb takes *ne* in front, and each **ne-** word swaps to its **ni-** twin.",
+        "infokratko": "*sam → nisam, imam → nemam, ću → neću*; others take *ne*; **ne-** words swap to **ni-**.",
         "trajanje": "45",
         "opis": "A positive form flashes — tap its negative twin."
       },
@@ -71673,6 +72346,7 @@ window.PODACI = {
       "naslov": "The picky eater",
       "meta": {
         "info": "A restaurant conversation built on refusals. The waiter uses *vi*, and your replies use this lesson: *ne jedem*, *nemate li*, *ni… ni…*, *ništa*. Where a reply shows the speaker's gender, both versions are offered — pick the one that fits you.",
+        "infokratko": "Refuse with *ne jedem, nemate li, ni... ni..., ništa*. Pick the reply that fits your gender.",
         "opis": "You're at a restaurant, but the kitchen is having a bad day. Choose your replies. Passive words: *Izvolite* (here you are), *šteta* (a pity), *za piće* (to drink), *u redu* (all right), *masna* (greasy), *malo* (a little), *slatko* (sweet)."
       },
       "stavke": [
@@ -71752,6 +72426,7 @@ window.PODACI = {
       "naslov": "Read: the picky eaters",
       "meta": {
         "info": "Read the story, then answer in Croatian. Nearly every sentence says what somebody does *not* eat, so watch the negative words: *ni… ni…* rules out two things at once, and *više ne* means that something has stopped.",
+        "infokratko": "Read, then answer. *ni... ni...* = neither... nor; *više ne* = no longer.",
         "tekst": "Obitelj Horvat večera zajedno, ali nitko ne jede isto. Tata ne jede meso jer je vegetarijanac. Ana ne voli ni luk ni češnjak. Marko nikad ništa ne jede — samo palačinke! Baka je skuhala juhu, ali juha je slana i nitko je ne želi. Mama nije sretna: \"Ja više ne kuham!\" Onda djed kaže: \"Nema problema. Idemo u restoran!\" U restoranu svi jedu pizzu. Samo Marko ništa ne jede — u restoranu nemaju palačinke.",
         "opis": "Read the story, then answer the questions. Passive words: *isto* (the same), *skuhala* (cooked, f.), *nitko je ne želi* (nobody wants it), *svi* (everybody)."
       },
@@ -71805,6 +72480,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over positive forms and their negative twins. Two patterns cover every pair here: the fused verbs (*sam → nisam*, *imam → nemam*, *ću → neću*) and the words that swap **ne-** for **ni-** (*nešto → ništa*).",
+        "infokratko": "Positive with negative: *sam → nisam*, *nešto → ništa*.",
         "opis": "Flip the cards and match each positive form with its negative twin."
       },
       "stavke": [
@@ -71861,6 +72537,7 @@ window.PODACI = {
       "naslov": "Lesson checkpoint",
       "meta": {
         "info": "The scored mix of the whole lesson, and 80% opens Vocabulary 12. Most of the points sit on two things: *biti*, *imati* and *htjeti* join *ne* into one word, and a negative word such as *ništa* always keeps *ne* on the verb.",
+        "infokratko": "The whole lesson, mixed; 80% opens Vocabulary 12. Three fused verbs; *ništa* keeps *ne*.",
         "prag": "80",
         "opis": "Final check! Score 80% to be ready for Vocabulary 12."
       },
@@ -71948,6 +72625,7 @@ window.PODACI = {
       "naslov": "Reward & preview",
       "meta": {
         "info": "A closing summary. You can now say no in all three tenses, you know which three verbs join *ne*, and you can stack negative words the Croatian way — with *ne* on the verb every time.",
+        "infokratko": "No in three tenses, three fused verbs, double negatives with *ne* on the verb.",
         "opis": "Read what you can do now, and what comes next."
       },
       "stavke": [
@@ -71973,6 +72651,7 @@ window.PODACI = {
       "naslov": "Food",
       "meta": {
         "info": "New food words, on top of the market words from Vocabulary 5. Two of them are normally used in the plural — *gljive* and *palačinke* — so the verb and the adjective take plural forms too: *Palačinke su slatke.* Feminine words take **-u** as a target: *Ne jedem piletinu.*",
+        "infokratko": "New food words. *gljive, palačinke* are plural: *Palačinke su slatke.* Target **-u**: *Ne jedem piletinu.*",
         "opis": "Meat, vegetables, fruit and things you put on bread. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72077,6 +72756,7 @@ window.PODACI = {
       "naslov": "Tastes & textures",
       "meta": {
         "info": "Adjectives for describing food, each in its masculine and feminine form. Four of them drop the vowel in the feminine — *sladak → slatka*, *gorak → gorka*, *mastan → masna*, *sočan → sočna* — the fleeting **a** from Grammar 2, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* means *angry* for people and *spicy* for food.",
+        "infokratko": "m and f forms: *sladak → slatka, gorak → gorka, kiseo → kisela*. *ljut* = spicy.",
         "opis": "How food tastes and how it is made. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72157,6 +72837,7 @@ window.PODACI = {
       "naslov": "At the table",
       "meta": {
         "info": "The things on a restaurant table and the phrases around a meal. *Dobar tek!* is said before anyone starts eating, and *Račun, molim.* is how the meal ends. *Nema problema* is a fixed phrase — take it whole for now; Lesson 16 explains the ending.",
+        "infokratko": "Table words. *Dobar tek!* before eating, *Račun, molim.* at the end. *Nema problema*: fixed.",
         "opis": "Everything from the menu to the tip. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72245,6 +72926,7 @@ window.PODACI = {
       "naslov": "Negation & more",
       "meta": {
         "info": "The complete set of words for saying no. The negative words start with **ni-** and always keep *ne* on the verb: *Ništa ne jedem.* Their positive twins start with **ne-** and take no *ne*: *Nešto jedem.* *Nego* is used only after a negative, to correct it.",
+        "infokratko": "**ni-** words keep *ne*: *Ništa ne jedem.* **ne-** words don't: *Nešto jedem.* *nego* after a negative.",
         "opis": "The complete toolkit for saying no. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72349,6 +73031,7 @@ window.PODACI = {
       "naslov": "New verbs & diets",
       "meta": {
         "info": "Ten verbs for the kitchen and the restaurant, each with its *ja* form. *Peći* and *rezati* change their stem in the present — *pečem*, *režem* — so learn those forms whole. *Vegetarijanac* is a man, *vegetarijanka* a woman.",
+        "infokratko": "Kitchen verbs. *peći → pečem*, *rezati → režem*. *vegetarijanac / vegetarijanka*.",
         "opis": "What you do with food, and what you can't or won't eat. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72425,6 +73108,7 @@ window.PODACI = {
       "naslov": "Sweet, salty or sour?",
       "meta": {
         "info": "Sorting food by its main taste. Say the adjective with each word as you sort, and let it match the noun: *med je sladak*, *šunka je slana*, *limun je kiseo*. In *kiseli krastavci* (pickled cucumbers) and *kiselo mlijeko* (sour milk) the taste is already part of the name.",
+        "infokratko": "Match the adjective: *med je sladak, šunka je slana, limun je kiseo*.",
         "stupci": "SLATKO | SLANO | KISELO",
         "opis": "Sort each food by its main taste."
       },
@@ -72506,6 +73190,7 @@ window.PODACI = {
       "naslov": "Positive or negative word?",
       "meta": {
         "info": "Sorting by meaning, not by the first letters. Words starting with **ne-** such as *nešto* and *netko* look negative but are positive. The negative words start with **ni-**, and the fused verbs *nemam* and *neću* are negative too.",
+        "infokratko": "**ne-** = positive (*nešto*), **ni-** = negative (*ništa*). *nemam, neću* negative.",
         "stupci": "✓ POZITIVNO | ✗ NEGATIVNO",
         "opis": "Careful — *nešto* and *netko* start with *ne-* but mean something positive."
       },
@@ -72587,6 +73272,7 @@ window.PODACI = {
       "naslov": "Match the pictures",
       "meta": {
         "info": "Picture-to-word matching, with no English on the page. Half of these are food and half are things on the table. Every one of them can be refused in one sentence: *Ne jedem kupus.* A feminine word takes **-u**: *Nemam žlicu.*",
+        "infokratko": "Refuse in one sentence: *Ne jedem kupus.* Feminine **-u**: *Nemam žlicu.*",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -72651,6 +73337,7 @@ window.PODACI = {
       "naslov": "Match the pairs",
       "meta": {
         "info": "Food words beside their meanings. Say each one aloud with *ne volim* in front as you match — *ne volim gljive*, *ne volim češnjak* — so the negative comes with the word from the start.",
+        "infokratko": "Say *ne volim* + word as you match.",
         "opis": "Match each food word with its English meaning."
       },
       "stavke": [
@@ -72715,6 +73402,7 @@ window.PODACI = {
       "naslov": "Yes and no",
       "meta": {
         "info": "Each positive form beside its negative twin. Two patterns cover every pair: *biti*, *imati* and *htjeti* join *ne* into one word, and the **ne-** words swap to **ni-**. *Volim* shows the ordinary case — *ne* as a separate word.",
+        "infokratko": "*nisam, nemam, neću*; **ne- → ni-**; others *ne* + verb.",
         "opis": "Match each positive form with its negative twin."
       },
       "stavke": [
@@ -72771,6 +73459,7 @@ window.PODACI = {
       "naslov": "Memory",
       "meta": {
         "info": "A pairs game over the negative words. Keep *još ne* and *više ne* apart: *još ne* means something has not happened yet, *više ne* means it has stopped. *Nažalost* is the polite way to begin a refusal.",
+        "infokratko": "*još ne* not yet, *više ne* no longer. *Nažalost* = unfortunately.",
         "opis": "Flip the cards and find the pairs."
       },
       "stavke": [
@@ -72827,6 +73516,7 @@ window.PODACI = {
       "naslov": "Speed challenge",
       "meta": {
         "info": "A timed sprint from positive to negative. Three verbs join *ne* into one word — *sam → nisam*, *imam → nemam*, *ću → neću* — and each **ne-** word swaps to its **ni-** twin. Every other verb simply takes *ne* in front.",
+        "infokratko": "*sam → nisam, imam → nemam, ću → neću*; **ne- → ni-**.",
         "trajanje": "45",
         "opis": "Positive → negative! Tap the negated form."
       },
@@ -72908,6 +73598,7 @@ window.PODACI = {
       "naslov": "Speed challenge: food & tastes",
       "meta": {
         "info": "Timed recognition of the food, taste and table words. The tastes come in pairs you can picture — *sladak* and *gorak*, *slan* and *bljutav* — and the table words all belong to one place setting: *tanjur, čaša, žlica, vilica, nož*.",
+        "infokratko": "Tastes in pairs (*sladak / gorak*); table: *tanjur, čaša, žlica, vilica, nož*.",
         "trajanje": "60",
         "opis": "Tap the English meaning before the timer runs out."
       },
@@ -73005,6 +73696,7 @@ window.PODACI = {
       "naslov": "Words from earlier levels",
       "meta": {
         "info": "A timed return to the food words from Vocabulary 5, which this level builds on. Nothing here is new; the point is to keep the older words in use next to the new ones.",
+        "infokratko": "Food words from level 5.",
         "trajanje": "60",
         "opis": "Food from seven levels ago — tap the English meaning."
       },
@@ -73086,6 +73778,7 @@ window.PODACI = {
       "naslov": "Build the word",
       "meta": {
         "info": "Spelling from letter tiles. *Češnjak* needs both **č** and the single letter **nj**, *žlica* starts with **ž**, and *palačinke* carries a **č** in the middle. *Ništa* and *nešto* differ in two letters — and in meaning.",
+        "infokratko": "*češnjak* **č** + **nj**, *žlica* **ž**, *palačinke* **č**.",
         "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own."
       },
       "stavke": [
@@ -73142,6 +73835,7 @@ window.PODACI = {
       "naslov": "Type the negative word",
       "meta": {
         "info": "Short negative answers. A question with *što* is answered by *ništa*, *tko* by *nitko*, *gdje* by *nigdje*, *kada* by *nikad* and *koga* by *nikoga*. In a full sentence the verb would still take *ne*: *Ništa ne jedem.*",
+        "infokratko": "*što → ništa, tko → nitko, gdje → nigdje, kada → nikad, koga → nikoga*.",
         "opis": "Answer each question with one negative word."
       },
       "stavke": [
@@ -73206,6 +73900,7 @@ window.PODACI = {
       "naslov": "Type it in Croatian",
       "meta": {
         "info": "English to Croatian, with spelling counted. Nouns go in their naming form, adjectives in the masculine and verbs as infinitives; for *vegetarian* either form is accepted. The diacritics are part of the word: *češnjak*, *žlica*, *ništa* — and *ništa* is not *nešto*.",
+        "infokratko": "Naming forms, masculine adjectives, infinitives. *ništa* ≠ *nešto*.",
         "opis": "The final round — type each word in Croatian."
       },
       "stavke": [
@@ -73413,7 +74108,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: ne + three fused verbs",
       "meta": {
-        "info": "The reference page for negation. *Ne* is a separate word directly in front of the verb, in every tense. Only *biti*, *imati* and *htjeti* join it into one word, and in the past and the future the negative sits on the helper, not on the participle or the infinitive."
+        "info": "The reference page for negation. *Ne* is a separate word directly in front of the verb, in every tense. Only *biti*, *imati* and *htjeti* join it into one word, and in the past and the future the negative sits on the helper, not on the participle or the infinitive.",
+        "infokratko": "*ne* before the verb in every tense. Fused: *nisam, nemam, neću*. Past and future: negate the helper."
       },
       "stavke": [
         [
@@ -73489,6 +74185,7 @@ window.PODACI = {
       "naslov": "Positive or negative?",
       "meta": {
         "info": "Sorting by polarity. Most negatives show *ne* in front of the verb, but *nisam*, *nemam* and *neću* carry it inside the word. The trap is the **ne-** words: *nešto*, *netko* and *nekad* look negative and are positive.",
+        "infokratko": "*ne* before the verb, or inside *nisam, nemam, neću*. *nešto, netko, nekad* are positive.",
         "stupci": "✓ POZITIVNO | ✗ NEGATIVNO",
         "opis": "Sort the forms. Watch out — *nešto* and *netko* start with *ne-* but are positive."
       },
@@ -73570,6 +74267,7 @@ window.PODACI = {
       "naslov": "Make it negative",
       "meta": {
         "info": "Negating in every tense. In the present add *ne* in front of the verb, in the past swap the helper for *nisam, nije, nismo*, in the future swap *ću* for *neću* and restore the full *-ti*. The last item also swaps a **ne-** word for its **ni-** twin.",
+        "infokratko": "Present *ne* + verb; past *nisam, nije*; future *neću* + full *-ti*; **ne-** → **ni-**.",
         "opis": "Negate it. Only the verb part changes — except in the last one."
       },
       "stavke": [
@@ -73642,6 +74340,7 @@ window.PODACI = {
       "naslov": "The grammatical sentence",
       "meta": {
         "info": "Choosing the sentence a Croatian would say. Three checks decide it: the fused forms are one word, a negative word such as *ništa* or *nikoga* still needs *ne* on the verb, and a participle keeps the speaker's gender after *nisam*.",
+        "infokratko": "Fused forms one word; *ništa, nikoga* keep *ne*; participle keeps the gender.",
         "opis": "Choose the grammatical sentence."
       },
       "stavke": [
@@ -73730,6 +74429,7 @@ window.PODACI = {
       "naslov": "The rule: why ništa needs ne",
       "meta": {
         "info": "The negative words. In Croatian the verb itself must be negative whenever the sentence is, so *ništa*, *nitko*, *nigdje* and *nikad* are added to *ne* and never replace it. Each has a positive twin with **ne-**, and those take no *ne* on the verb.",
+        "infokratko": "*ništa, nitko, nigdje, nikad* come with *ne*, never instead. **ne-** twins take no *ne*.",
         "infoodmah": "da"
       },
       "stavke": [
@@ -73797,6 +74497,7 @@ window.PODACI = {
       "naslov": "Tap the ending",
       "meta": {
         "info": "One tap in front of each word, and the English decides it. **Ni-** gives the negative word and **ne-** the positive twin; the same taps build *nisam*, *nemam*, *neće*, and *ne* can also stand alone in front of a verb. The dash means the sentence is positive.",
+        "infokratko": "**ni-** negative, **ne-** positive; also *nisam, nemam, neće*. Dash = positive.",
         "nastavci": "ni | ne | -",
         "opis": "English above, Croatian below. One tap — or none, if nothing is negative."
       },
@@ -73904,6 +74605,7 @@ window.PODACI = {
       "naslov": "nešto or ništa?",
       "meta": {
         "info": "Choosing between the positive and the negative twin, with the English as your guide. The **ni-** word goes with a negative verb, the **ne-** word with a positive one. Two items also ask for the target form: *nikoga*, *nekoga*.",
+        "infokratko": "**ni-** with a negative verb, **ne-** with a positive one. Target: *nikoga, nekoga*.",
         "opis": "The meaning is in brackets. Pick the word that matches it — and fits the verb."
       },
       "stavke": [
@@ -73992,6 +74694,7 @@ window.PODACI = {
       "naslov": "Answer with a negative word",
       "meta": {
         "info": "Full negative answers. Put the negative word first or after the verb — both orders are accepted — but the verb must be negative too: *ne* in the present, *nisam* in the past, *neću* in the future. Two items tell you who is answering.",
+        "infokratko": "Negative word first or after the verb; the verb is negative too: *ne, nisam, neću*.",
         "opis": "Answer the question with a full sentence: nothing, nobody, nowhere, never."
       },
       "stavke": [
@@ -74055,7 +74758,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: neither, nor, yet, any more",
       "meta": {
-        "info": "Four small additions to the negative. *Ni… ni…* rules out two things, *ni* alone means *not even* or *either*, *još ne* means *not yet* and *više ne* means *no longer*. In all of them the verb keeps its *ne*."
+        "info": "Four small additions to the negative. *Ni… ni…* rules out two things, *ni* alone means *not even* or *either*, *još ne* means *not yet* and *više ne* means *no longer*. In all of them the verb keeps its *ne*.",
+        "infokratko": "*ni... ni...* neither/nor, *ni* not even, *još ne* not yet, *više ne* no longer. *ne* stays."
       },
       "stavke": [
         [
@@ -74106,6 +74810,7 @@ window.PODACI = {
       "naslov": "ni, još ne or više ne?",
       "meta": {
         "info": "Choosing the sentence that matches the English. *Ni… ni…* needs *ne* on the verb, *još* means the thing has not started yet, and *više* means it has stopped. Without a negative verb, *više* means *more*, so *Više sam gladan* says something else.",
+        "infokratko": "*još ne* = not yet, *više ne* = no longer. Without *ne*, *više* = more.",
         "opis": "Choose the Croatian sentence that matches the English."
       },
       "stavke": [
@@ -74181,7 +74886,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "The rule: not this — but that",
       "meta": {
-        "info": "*Ali* and *nego*, which English translates with the same *but*. *Ali* adds a second fact while the first stays true; *nego* follows a negative and replaces the part that was cancelled. A comma stands before both."
+        "info": "*Ali* and *nego*, which English translates with the same *but*. *Ali* adds a second fact while the first stays true; *nego* follows a negative and replaces the part that was cancelled. A comma stands before both.",
+        "infokratko": "*ali* adds; *nego* replaces after a negative. Comma before both."
       },
       "stavke": [
         [
@@ -74234,6 +74940,7 @@ window.PODACI = {
       "naslov": "ali or nego?",
       "meta": {
         "info": "One question decides each item: is the first half still true, or is it being corrected? If it stays true, *ali* adds a second fact. If it is cancelled, *nego* supplies the replacement — and in that case the second half usually has no verb of its own.",
+        "infokratko": "First half still true → *ali*. Cancelled → *nego*.",
         "opis": "Is the first half still true (ali), or is it being corrected (nego)?"
       },
       "stavke": [
@@ -74310,6 +75017,7 @@ window.PODACI = {
       "naslov": "Correct it with nego",
       "meta": {
         "info": "Cancelling the wrong half and giving the right one. Type *nego*, or type the replacement itself — and a replacement that is the target of the verb takes the target form, so *riba* becomes *ribu* after *Ne jedem piletinu, nego…*",
+        "infokratko": "*nego* + the replacement; a target takes target form: *Ne jedem piletinu, nego ribu.*",
         "opis": "Cancel the wrong half and give the right one."
       },
       "stavke": [
@@ -74366,6 +75074,7 @@ window.PODACI = {
       "naslov": "Build the sentence",
       "meta": {
         "info": "Whole sentences from tiles, and each one uses a different piece of this unit. *Ne* goes in front of the verb, a negative word still leaves *ne* on the verb, and a comma comes before *ali* and *nego*.",
+        "infokratko": "*ne* before the verb; negative words keep *ne*; comma before *ali*, *nego*.",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -74418,6 +75127,7 @@ window.PODACI = {
       "naslov": "Write the whole sentence",
       "meta": {
         "info": "Free production from English, the hardest step here. Put *ne* in front of the verb or use a fused form, keep *ne* on the verb beside every negative word, and choose *nego* when the second half replaces the first. Where the speaker's gender shows, both forms are accepted unless the prompt says otherwise.",
+        "infokratko": "*ne* or a fused form; *ne* with every negative word; *nego* to replace.",
         "opis": "The last step — the English sentence, and you write the Croatian."
       },
       "stavke": [
@@ -74497,7 +75207,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "You can do this now",
       "meta": {
-        "info": "A closing summary. Negation at this level comes down to three facts: *ne* stands in front of the verb, three verbs join it into one word, and every negative word keeps *ne* on the verb. *Nego* corrects a negative; *ali* adds to it."
+        "info": "A closing summary. Negation at this level comes down to three facts: *ne* stands in front of the verb, three verbs join it into one word, and every negative word keeps *ne* on the verb. *Nego* corrects a negative; *ali* adds to it.",
+        "infokratko": "*ne* before the verb, three fused verbs, *ne* with negative words. *nego* corrects, *ali* adds."
       },
       "stavke": [
         [
@@ -74522,6 +75233,7 @@ window.PODACI = {
       "naslov": "Text 1: I don't like soup",
       "meta": {
         "info": "A read-along complaint, and nearly every line is negative. Read it twice: once for the story, once to spot the pattern — *ne* in front of the verb, *nije* as one word, and *ni… ni…* ruling out two things with *ne* still on the verb.",
+        "infokratko": "Mostly negative: *ne* before the verb, *nije* as one word, *ni... ni...* with *ne*.",
         "opis": "A boy, his mother and a long list of foods he won't eat. Tap **EN** next to any sentence to see its translation."
       },
       "stavke": [
@@ -74581,6 +75293,7 @@ window.PODACI = {
       "naslov": "True or false?",
       "meta": {
         "info": "Check each statement against the text. The negatives carry the information: *ne volim ni ribu* means he dislikes fish as well as soup, and *mama nije sretna* rules out a happy mother.",
+        "infokratko": "The negatives carry the meaning: *ne volim ni ribu*, *mama nije sretna*.",
         "opis": "Tap true or false.",
         "tekst": "Ne volim juhu. Nikad ne jedem juhu. Mama kaže: \"Juha je zdrava!\" Ali ne volim ni ribu. Riba nije ukusna — riba je riba! Ne jedem ni rajčicu ni luk. Gljive? Ne, hvala. Češnjak? Nikad! Što volim? Volim pizzu i sladoled. Mama nije sretna: \"To nije zdravo!\""
       },
@@ -74628,6 +75341,7 @@ window.PODACI = {
       "naslov": "Type the negation",
       "meta": {
         "info": "Copy the negative word back into its line. Read the whole sentence first: a gap in front of a verb takes *ne*, a gap before an adjective takes *nije*, and a gap in the middle of a list takes *ni*.",
+        "infokratko": "Before a verb *ne*, before an adjective *nije*, in a list *ni*.",
         "opis": "Fill in the negation from the text.",
         "tekst": "Ne volim juhu. Nikad ne jedem juhu. Ali ne volim ni ribu. Riba nije ukusna. Ne jedem ni rajčicu ni luk. Mama nije sretna. Sladoled nikad nije problem!"
       },
@@ -74669,6 +75383,7 @@ window.PODACI = {
       "naslov": "Text 2: At the restaurant",
       "meta": {
         "info": "A restaurant where the kitchen has run out of almost everything. The waiter answers with *nemamo*, the fused negative of *imati*, and *također nemamo* means *we don't have that either*. Notice that the guest answers the same way: *Ne jedem pizzu.*",
+        "infokratko": "*nemamo* = we don't have; *također nemamo* = don't have that either.",
         "opis": "Two friends, one waiter and a very short menu. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -74736,6 +75451,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension on the dialogue above. Keep apart what the restaurant *has* and what it *doesn't have* — *nemamo ribu*, *juhu također nemamo* — and remember that *ni vino ni pivo* rules out both drinks.",
+        "infokratko": "Has vs. doesn't have. *ni vino ni pivo* = neither.",
         "opis": "Answer from the dialogue.",
         "tekst": "— Imate li ribu? — Nažalost, danas nemamo ribu. — A juhu? — Juhu također nemamo. — Hm. Što imate? — Imamo pizzu i salatu. — Ja ne jedem pizzu... ali moj prijatelj ne jede ništa drugo! — Onda jednu pizzu i jednu salatu? — Da, molim. — A za piće? — Ništa posebno — samo vodu, molim. Večeras ne pijemo ni vino ni pivo."
       },
@@ -74789,6 +75505,7 @@ window.PODACI = {
       "naslov": "Order the dialogue",
       "meta": {
         "info": "Rebuild the conversation line by line. Each answer follows its question: *Imate li ribu?* is answered by *nemamo ribu*, *A juhu?* by *Juhu također nemamo*, and *Što imate?* by *Imamo pizzu i salatu*. The guest's order comes last.",
+        "infokratko": "Each answer follows its question; the order comes last.",
         "opis": "Rebuild the restaurant conversation."
       },
       "stavke": [
@@ -74829,6 +75546,7 @@ window.PODACI = {
       "naslov": "Text 3: Marko eats nothing",
       "meta": {
         "info": "A story about a child who refuses everything — almost. The whole story rests on the difference between *ništa* and *nešto*: the first line says *Marko ništa ne jede*, and the last one says *Marko ipak nešto jede*.",
+        "infokratko": "*ništa* vs. *nešto*: *Marko ništa ne jede... Marko ipak nešto jede.*",
         "opis": "A grandmother, a mother and a father try to feed Marko. Tap **EN** to see any line in English."
       },
       "stavke": [
@@ -74884,6 +75602,7 @@ window.PODACI = {
       "naslov": "Did you get it?",
       "meta": {
         "info": "Comprehension on Marko's story. Three people cook, and each question asks who made what or what Marko refused. *Ne želi ni kolač* means he refused the cake as well as the soup.",
+        "infokratko": "Who made what, what Marko refused. *ne želi ni kolač*.",
         "opis": "Answer from the text.",
         "tekst": "Marko je dijete i Marko ništa ne jede. Ne jede povrće. Ne voli voće. Nikad ne pije mlijeko. \"Ne!\" — to je njegova omiljena riječ. Baka kuha juhu — Marko ne želi juhu. Mama peče kolač — Marko ne želi ni kolač! Tata radi palačinke... i gle! Marko jede! Dakle, nije istina. Marko ipak nešto jede: palačinke!"
       },
@@ -74937,6 +75656,7 @@ window.PODACI = {
       "naslov": "Text 4: Who eats what?",
       "meta": {
         "info": "A puzzle rather than a story. Four friends, four dishes, and nobody says who has which. Every clue is a negative, so work by elimination: what a person does **not** eat narrows down what is left for the others.",
+        "infokratko": "Every clue is negative: work by elimination.",
         "opis": "Four friends, four dishes, no labels. Read it twice before you answer."
       },
       "stavke": [
@@ -74992,6 +75712,7 @@ window.PODACI = {
       "naslov": "Solve the puzzle",
       "meta": {
         "info": "Deduction from the negatives. Only Damir can take the chicken, because Ana and Petra eat no meat and Ivan does not want it today. Ivan never eats fish, so the fish is Ana's; Petra does not want pasta, so she has the salad and Ivan the pasta.",
+        "infokratko": "By elimination from the negatives.",
         "opis": "Nobody says who eats what. Work it out from the text.",
         "tekst": "Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela: piletina, riba, tjestenina i salata. Nitko ne jede isto jelo. Petra je vegetarijanka — ne jede ni meso ni ribu. Ana ne jede meso. Damir ne voli ni salatu ni tjesteninu. Ivan nikad ne jede ribu. Danas ne želi ni piletinu. Petra danas ne želi tjesteninu."
       },
@@ -75045,6 +75766,7 @@ window.PODACI = {
       "naslov": "Tap the ending from the texts",
       "meta": {
         "info": "One tap per sentence, and almost every sentence comes from the four texts. **Ni-** builds *ništa*, *nikad*, *nitko* and *nije*; **ne-** builds *nešto* and *nemamo*, and *ne* also stands alone in front of a verb. The dash leaves a positive sentence untouched.",
+        "infokratko": "**ni-**: *ništa, nikad, nitko, nije*; **ne-**: *nešto, nemamo*; or *ne* alone. Dash = positive.",
         "nastavci": "ni | ne | -",
         "opis": "Almost every sentence came out of the four texts. One tap — or none, if the sentence is positive."
       },
@@ -75142,6 +75864,7 @@ window.PODACI = {
       "naslov": "Yes or no?",
       "meta": {
         "info": "Sorting sentences by meaning. A sentence is negative when its verb is — *ne jede*, *nije*, *nemamo*. Two traps: *Marko ipak nešto jede* is positive despite the **ne-** word, and *samo vodu* is a positive answer.",
+        "infokratko": "Negative verb = negative sentence. *nešto jede* is positive.",
         "stupci": "✓ POZITIVNO | ✗ NEGATIVNO",
         "opis": "Does the sentence say yes or no?"
       },
@@ -75215,6 +75938,7 @@ window.PODACI = {
       "naslov": "Now YOU order",
       "meta": {
         "info": "Your turn at the restaurant, with the waiter using the polite *vi*. Any answer keeps the conversation going, but each one uses this unit: *ne jedem*, *nisam*, *ništa više*. Where your gender shows, both forms are offered.",
+        "infokratko": "Polite *vi*: *ne jedem, nisam, ništa više*. Pick your gender's form.",
         "opis": "The waiter is ready and the kitchen is half empty. Choose your replies — any answer works. Passive words: *Evo* (here you are), *u redu* (all right), *malo* (a little), *alkohol* (alcohol), *sokove* (juices), *Hvala vam* (thank you, polite)."
       },
       "stavke": [
@@ -75304,6 +76028,7 @@ window.PODACI = {
       "naslov": "Dinner, in order",
       "meta": {
         "info": "Sequence Marko's dinner from Text 3. Three people offer food one after another — grandmother, mother, father — and the two refusals come before the one dish he finally eats.",
+        "infokratko": "Three offers, two refusals, then one dish.",
         "opis": "Seven moments from Text 3, shuffled. Put them in the order they happened."
       },
       "stavke": [
@@ -75341,6 +76066,7 @@ window.PODACI = {
       "naslov": "Translate by building",
       "meta": {
         "info": "English in, Croatian out, built from tiles taken from the four texts. *Ne* goes directly in front of the verb, *nije* and *nemamo* are single tiles, and every negative word keeps *ne* on the verb.",
+        "infokratko": "*ne* before the verb; *nije, nemamo* one tile; negative words keep *ne*.",
         "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts."
       },
       "stavke": [
@@ -75421,6 +76147,7 @@ window.PODACI = {
       "naslov": "Pop the right balloon",
       "meta": {
         "info": "A timed picture-to-word tap over food and the things on the table. Everything is in its naming form; say *Ne jedem…* or *Nemam…* in your head as you tap, remembering that a feminine word takes **-u**: *Nemam žlicu.*",
+        "infokratko": "Naming forms. Think *Ne jedem...*; *Nemam žlicu*.",
         "opis": "The kitchen is closing. A picture appears — tap the balloon with its word before it floats away."
       },
       "stavke": [

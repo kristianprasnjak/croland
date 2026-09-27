@@ -27,3 +27,8 @@ zasticeno/
 
 # Zapis zadnjeg uploada zasticenog sadrzaja - samo za dijagnostiku
 zadnji-upload-log.txt
+
+# Probne Gemini snimke (radne datoteke, ne idu u repozitorij dok se ne odobre)
+zvuk-gemini/
+zvuk-gemini-mp3/
+zvuk-gemini-log.csv

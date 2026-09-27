@@ -4,6 +4,7 @@ cjelina: Vocabulary 2
 ## Jobs
 format: kartice
 info: Ten new job words, all in the male form. They end in a consonant, so they are masculine and an adjective about them stays bare: *Kuhar je vrijedan*. The female versions come later on this page, so fix the male word in your memory first.
+infokratko: Job words, male form: masculine, so the adjective stays bare. *Kuhar je vrijedan.*
 opis: Lesson 2 gave you four jobs. Here are ten more. Every card shows the male form — the female one is coming right up, and it follows one simple trick. Tap a card to reveal its meaning.
 - kuhar | cook, chef
 - vozač | driver
@@ -19,6 +20,7 @@ opis: Lesson 2 gave you four jobs. Here are ten more. Every card shows the male 
 ## People around you
 format: kartice
 info: More people you will meet, again consonant-final and masculine, so the adjective stays bare: *Šef je ozbiljan*. Note that *čovjek* covers both *person* and *man*, and that three cards are not people at all — *posao*, *ime* and *tim*.
+infokratko: More people, masculine: *Šef je ozbiljan*. *čovjek* = person or man.
 opis: Not everyone has a job title — some people are just *there*. Tap to reveal.
 - susjed | neighbour
 - turist | tourist
@@ -32,6 +34,7 @@ opis: Not everyone has a job title — some people are just *there*. Tap to reve
 ## Speed challenge: jobs & people
 format: brzina
 info: Timed recognition of the words you just met: the Croatian appears, you tap the English. A hook while you race — **-ar**, **-ač**, **-nik** and **-telj** all mark someone who does something (*kuhar, vozač, radnik, učitelj*), so that shape usually means a job.
+infokratko: Tap the English. **-ar, -ač, -nik, -telj** usually mean a job: *kuhar, vozač, radnik, učitelj*.
 trajanje: 60
 opis: Tap the English meaning before the timer runs out!
 - kuhar | cook
@@ -55,6 +58,7 @@ opis: Tap the English meaning before the timer runs out!
 ## Match the jobs
 format: parovi
 info: A pairing drill on the male job words; nothing changes form here, so use the sound. *Pjevač* and *vozač* share the doer ending **-ač**, *radnik* and *odvjetnik* share **-nik**, and *učitelj* has the **-telj** shape you will meet on other jobs.
+infokratko: Male job words: *pjevač, vozač* (**-ač**), *radnik, odvjetnik* (**-nik**).
 opis: Match each Croatian word with its English meaning.
 - kuhar | cook
 - vozač | driver
@@ -68,6 +72,7 @@ opis: Match each Croatian word with its English meaning.
 ## Memory: people
 format: memorija
 info: Memory pairs for the everyday people words — pure recall, no endings change. The two worth pinning down are *čovjek*, which means both *person* and *man*, and *posao*, which is *job* or *work* rather than someone who does it.
+infokratko: People words. *čovjek* = person/man; *posao* = job, work.
 opis: Flip the cards and find each Croatian word's English partner.
 - susjed | neighbour
 - turist | tourist
@@ -81,6 +86,7 @@ opis: Flip the cards and find each Croatian word's English partner.
 ## Make it female
 format: upis
 info: Here is the rule the male cards were setting up: add **-ica** and the job word is hers. *Kuhar → kuharica*, *učitelj → učiteljica*. Two lose a consonant so the word stays pronounceable: *odvjetnik → odvjetnica*, *glumac → glumica*.
+infokratko: Add **-ica** for her: *kuhar → kuharica*. *odvjetnik → odvjetnica*, *glumac → glumica*.
 opis: The trick is **-ica**. Add it and the word is hers. Type the female version of each job.
 - kuhar → | kuharica
 - vozač → | vozačica
@@ -96,6 +102,7 @@ opis: The trick is **-ica**. Add it and the word is hers. Type the female versio
 ## Where are they from?
 format: kartice
 info: Nationality cards in his-and-hers pairs. There is no single ending here: *Hrvat → Hrvatica*, but *Talijan → Talijan**ka*** and *Nijemac → Njemica*, so learn them two at a time. Nationalities also take a capital letter, while job words do not.
+infokratko: Nationalities in pairs: *Hrvat → Hrvatica*, *Talijan → Talijanka*, *Nijemac → Njemica*. Capital letter.
 opis: Nationalities work the same way, but each one likes its own female ending. Learn them in pairs — there are not many.
 - Hrvat | Croat
 - Hrvatica | Croat (she)
@@ -111,6 +118,7 @@ opis: Nationalities work the same way, but each one likes its own female ending.
 ## Man or woman?
 format: razvrstavanje
 info: Sorting by ending rather than by meaning. A word ending in a consonant is his (*kuhar*, *Hrvat*), a word ending in **-a** is hers (*kuharica*, *susjeda*, *Talijanka*) — the same last-letter logic you learned for nouns, now working on people.
+infokratko: Consonant = his (*kuhar*), **-a** = hers (*kuharica*).
 stupci: ON (he) | ONA (she)
 opis: Sort each word by who it belongs to. Let the ending guide you.
 - kuhar | ON (he)
@@ -133,6 +141,7 @@ opis: Sort each word by who it belongs to. Let the ending guide you.
 ## Character & mood
 format: kartice
 info: Twelve more adjectives, again in the **on** form: add **-a** for *ona* and **-i** for *oni*. Several hide a vowel that drops the moment an ending arrives — *gladan → gladna*, *ozbiljan → ozbiljna*, *hrabar → hrabra*, *nizak → niska*.
+infokratko: *on* form; **-a** for *ona*, **-i** for *oni*. *gladan → gladna*, *hrabar → hrabra*, *nizak → niska*.
 opis: Lesson 2 described people in seven words. Here are twelve more. Again the card shows the form for **on** — add **-a** for **ona**, **-i** for **oni**.
 - nizak | short
 - tužan | sad
@@ -150,6 +159,7 @@ opis: Lesson 2 described people in seven words. Here are twelve more. Again the 
 ## Speed challenge: character
 format: brzina
 info: Timed recognition of the character words, all in the male form. Keep the next step in mind as you race: for a woman these take **-a** and for a group **-i**, and most words ending in **-an** or **-ar** lose that vowel first (*žedan → žedna*, but *mekan → mekana* keeps it).
+infokratko: Male forms. *-an / -ar* usually drop the vowel: *žedan → žedna*; *mekan → mekana* keeps it.
 trajanje: 60
 opis: A Croatian word appears — tap its English meaning before the timer runs out!
 - nizak | short
@@ -171,6 +181,7 @@ opis: A Croatian word appears — tap its English meaning before the timer runs 
 ## Memory: character
 format: memorija
 info: Memory pairs for eight words about how someone feels right now. They are ordinary adjectives, so they still follow the person they describe: a man is *gladan*, a woman *gladna*, a group *gladni*.
+infokratko: Moods follow the person: *gladan, gladna, gladni*.
 opis: Flip the cards and find the pairs. These are the words you'll use about people all day.
 - gladan | hungry
 - žedan | thirsty
@@ -184,6 +195,7 @@ opis: Flip the cards and find the pairs. These are the words you'll use about pe
 ## Match the character words
 format: parovi
 info: A pairing drill on eight character adjectives in the male form. The odd one out is *veseo*: for a woman it is not *veseoa* but *vesela*, because the **-o** turns back into an **-l-**. Every other word here takes **-a** or **-i** — several of them dropping a vowel on the way: *nizak → niska*, *ozbiljan → ozbiljna*.
+infokratko: Male forms; *veseo → vesela*, *nizak → niska*, *ozbiljan → ozbiljna*.
 opis: Match each Croatian word with its English meaning.
 - nizak | short
 - drag | kind
@@ -197,6 +209,7 @@ opis: Match each Croatian word with its English meaning.
 ## Greetings & everyday words
 format: kartice
 info: Fixed expressions — take each one whole rather than word by word. The only real choice on this page is *Kako si?* to a friend against *Kako ste?* to a stranger or someone older, which is the *ti* and *vi* decision from the lesson.
+infokratko: Take each phrase whole. *Kako si?* friend, *Kako ste?* polite or group.
 opis: Enough to open a conversation, keep it going, and close it politely.
 - Dobro jutro! | Good morning!
 - Dobra večer! | Good evening!
@@ -214,6 +227,7 @@ opis: Enough to open a conversation, keep it going, and close it politely.
 ## Match the greetings
 format: parovi
 info: A pairing drill on whole phrases, so resist translating the parts. The pair to keep apart is *Kako si?* for one friend and *Kako ste?* for a group or for one person you are being polite to — the same *ti* against *vi* choice.
+infokratko: Whole phrases. *Kako si?* one friend; *Kako ste?* group or polite.
 opis: Match each phrase with its English meaning. These are whole phrases — take them as they are.
 - Dobro jutro! | Good morning!
 - Dobra večer! | Good evening!
@@ -227,6 +241,7 @@ opis: Match each phrase with its English meaning. These are whole phrases — ta
 ## Type it in Croatian
 format: upis
 info: Production from English, so spelling counts. Croatian writes one letter per sound and the letters with diacritics carry real information: *vozač*, *učitelj*, *čovjek*, *žedan*, *tužan*, *Doviđenja*. Capital letters for *Hrvatska* and *Nijemac*.
+infokratko: Spell with diacritics: *vozač, čovjek, žedan, Doviđenja*. Capitals: *Hrvatska, Nijemac*.
 opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
 - cook | kuhar
 - driver | vozač

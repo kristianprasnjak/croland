@@ -4,6 +4,7 @@ cjelina: Vocabulary 6
 ## People — the ones that change
 format: kartice
 info: Flashcards of living masculine nouns, each shown with its accusative. Because they are alive, every one adds **-a** (*vozač* to *vozača*); the *-ac* words drop a vowel first, so *kupac* becomes **kupca** and *pas* becomes **psa**.
+infokratko: Living masculine nouns add **-a**: *vozač → vozača*. *kupac → kupca*, *pas → psa*.
 opis: Living masculine nouns, each shown with its target form. Three of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**.
 - čovjek → čovjeka | man, person
 - prijatelj → prijatelja | friend
@@ -26,6 +27,7 @@ opis: Living masculine nouns, each shown with its target form. Three of them squ
 ## Transport — nothing changes
 format: kartice
 info: Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Čekam vlak*, *Vozim bicikl*. Only *karta* moves, and only because it ends in **-a** (the Lesson 5 rule), giving *kartu*.
+infokratko: Vehicles are things, no change: *Čekam vlak*. *karta → kartu* (feminine).
 opis: Vehicles are things, so they never move an inch in the accusative. *Čekam tramvaj. Vidim autobus.* Only **karta** shifts, and only because it ends in -a.
 - tramvaj | tram
 - autobus | bus
@@ -44,6 +46,7 @@ opis: Vehicles are things, so they never move an inch in the accusative. *Čekam
 ## Places in the city
 format: kartice
 info: City places to learn. Places are things, so masculine ones never change (*most*, *trg*, *muzej*), but any word ending in **-a** still follows the feminine rule and turns into **-u**: *ulica* to *ulicu*, *banka* to *banku*.
+infokratko: Masculine places stay (*most, trg*); **-a** places → **-u** (*ulicu, banku*).
 opis: Your map of a Croatian town. Watch which ones end in **-a** — those still follow the Lesson 5 rule.
 - grad | city
 - ulica → ulicu | street
@@ -70,6 +73,7 @@ opis: Your map of a Croatian town. Watch which ones end in **-a** — those stil
 ## Ten new verbs
 format: kartice
 info: Ten city verbs with their present forms. Notice which family each one belongs to, and notice that *čekati*, *vidjeti*, *čuti* and *zvati* often take a person as their target — that is exactly where today's **-a** shows up.
+infokratko: City verbs. *čekati, vidjeti, čuti, zvati* often take a person: that's where **-a** comes in.
 opis: City verbs. Four of them take a person as their target — and that's exactly where today's ending shows up.
 - čekati → čekam, čekaš, čeka | to wait for
 - vidjeti → vidim, vidiš, vidi | to see
@@ -85,6 +89,7 @@ opis: City verbs. Four of them take a person as their target — and that's exac
 ## Around town
 format: kartice
 info: Odds and ends of city vocabulary. The adjectives here still agree with their noun in gender (*pun grad*, *puna ulica*), and *Oprostite!* is the polite opener you use before asking a stranger anything at all.
+infokratko: Adjectives agree: *pun grad, puna ulica*. *Oprostite!* = excuse me.
 opis: The small change of city life — plus the one word that opens every conversation with a stranger.
 - kat | floor, level
 - ključ | key
@@ -101,6 +106,7 @@ opis: The small change of city life — plus the one word that opens every conve
 ## Does it change after "vidim"?
 format: razvrstavanje
 info: A sort across the whole accusative singular. Exactly two groups change: feminine words in **-a** and masculine living beings. Everything else — things and neuters like *kino* and *gorivo* — stays precisely as it is.
+infokratko: Only two groups change: feminine **-a** and masculine living beings.
 stupci: MIJENJA SE | OSTAJE ISTO
 opis: The whole accusative map in one sort. Feminine -a and living masculines change; things and neuters don't.
 - čovjek | MIJENJA SE
@@ -129,6 +135,7 @@ opis: The whole accusative map in one sort. Feminine -a and living masculines ch
 ## Which family?
 format: razvrstavanje
 info: A revision sort of the three present-tense families. Judge by the *ja* form, not the infinitive: *čekati* gives *čekam*, *voziti* gives *vozim*, and *zvati* gives the reshaped *zovem*.
+infokratko: By the *ja* form: *čekam, vozim, zovem*.
 stupci: -AM | -IM | -EM
 opis: The three verb families again, now with the city verbs. *Zvati* and *čuti* both land in -EM, and both change their middle on the way.
 - čekati | -AM
@@ -145,6 +152,7 @@ opis: The three verb families again, now with the city verbs. *Zvati* and *čuti
 ## Match the pictures
 format: spajanje
 info: Picture-to-word matching for the city set. Everything is in the naming form, so no endings appear here; think of *policajac* as the one card on the board that would turn into *policajca* the moment it became a target.
+infokratko: Naming forms. *policajac* would become *policajca* as a target.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
 - tramvaj | tram
 - autobus | bus
@@ -162,6 +170,7 @@ opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the float
 ## Match the pairs
 format: parovi
 info: Meaning pairs for the city vocabulary. Two near-twins are worth separating carefully: *stanica* is a stop for a tram or a bus, while *kolodvor* is a full train or coach station.
+infokratko: *stanica* = tram or bus stop; *kolodvor* = station.
 opis: Match each city word with its English meaning.
 - tramvaj | tram
 - autobus | bus
@@ -185,6 +194,7 @@ opis: Match each city word with its English meaning.
 ## Memory
 format: memorija
 info: A memory game pairing verb forms with their English. Most Croatian cards are *ja* forms, so the ending names the family: *-am* in *čekam*, *-im* in *vozim*, *-em* in *zovem*.
+infokratko: *ja* forms: *čekam* **-am**, *vozim* **-im**, *zovem* **-em**.
 opis: Flip the cards and find the pairs.
 - čekam | I wait
 - vidim | I see
@@ -200,6 +210,7 @@ opis: Flip the cards and find the pairs.
 ## Speed challenge: naming → target
 format: brzina
 info: Timed accusative for living beings, where the answer always ends in **-a**. Speed is what exposes the squeezers, so load them first: *policajac* to **policajca**, *kupac* to **kupca**, *pas* to **psa**.
+infokratko: Living beings, always **-a**. *policajca, kupca, psa*.
 trajanje: 60
 opis: A person or animal flashes — tap the target form. Living beings take **-a**, and three of them squeeze.
 - čovjek | čovjeka
@@ -223,6 +234,7 @@ opis: A person or animal flashes — tap the target form. Living beings take **-
 ## Speed challenge: what is it?
 format: brzina
 info: A timed meaning sprint over the city words. No endings are involved, just recognition — though the gender is still worth registering, because a word in **-a** like *galerija* behaves differently once it becomes a target.
+infokratko: Meaning only. *galerija* (**-a**) will change as a target.
 trajanje: 60
 opis: City sprint — tap the English meaning.
 - tramvaj | tram
@@ -259,6 +271,7 @@ opis: City sprint — tap the English meaning.
 ## Build the word
 format: slova
 info: You assemble each word letter by letter. Croatian counts **lj**, **nj** and **dž** as single letters, so *ključ*, *knjižnica* and *konj* need the one combined tile there, never a separate l and j.
+infokratko: **lj, nj, dž** are single tiles: *ključ, knjižnica, konj*.
 opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
 - ključ | key
 - knjižnica | library
@@ -274,6 +287,7 @@ opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and
 ## Type the target form
 format: upis
 info: Typing the accusative straight from the naming form. There are only three outcomes: a being adds **-a**, a thing is retyped unchanged, a feminine **-a** becomes **-u**. Mind *policajac* to *policajca* and *pas* to *psa*.
+infokratko: Being **-a**, thing unchanged, feminine **-u**. *policajca, psa*.
 opis: You get the naming form — type the form you would use after *vidim* or *čekam*. Careful with the three that squeeze.
 - čovjek → | čovjeka
 - prijatelj → | prijatelja
@@ -303,6 +317,7 @@ opis: You get the naming form — type the form you would use after *vidim* or *
 ## Type it in Croatian
 format: upis
 info: English to Croatian typing, all in naming forms. Diacritics count as separate letters here, so *vozač*, *ključ* and *knjižnica* are only accepted with their marks properly in place.
+infokratko: Naming forms with diacritics: *vozač, ključ, knjižnica*.
 opis: The final round — type each word in Croatian, in its naming form.
 - tram | tramvaj
 - bus | autobus

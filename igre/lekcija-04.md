@@ -4,6 +4,7 @@ cjelina: Lesson 4
 ## Flow like a native
 format: tekst
 info: A short intro page: it shows what **i**, **a** and **ali** buy you — three words that turn separate little sentences into one flowing thought. Look at *Tata kuha, a brat uči*: two people, two actions, one sentence.
+infokratko: **i**, **a** and **ali** join short sentences into one: *Tata kuha, a brat uči.*
 - You can describe things, introduce people, and say what everyone's doing. But so far, your Croatian comes out one short sentence at a time.
 - Today you get three tiny connector words — **i**, **a**, **ali** — and suddenly your sentences flow: *Tata kuha, a brat uči.* Dad cooks, and my brother studies.
 - You'll practice them on the warmest topic there is: **obitelj** — the family.
@@ -11,6 +12,7 @@ info: A short intro page: it shows what **i**, **a** and **ali** buy you — thr
 ## Rapid recall
 format: brzina
 info: A timed sprint on the Lesson 3 present tense. Only the ending moves: for *ja* it is **-am** (*gledam*), **-em** (*pijem*) or **-im** (*učim*); *ti* swaps that **-m** for **-š**, and *on/ona* drops it — *gleda*, *pije*, *uči*.
+infokratko: Lesson 3 against the clock. *ja* **-am/-em/-im**, *ti* **-š**, *on/ona* bare: *gleda, pije, uči*.
 trajanje: 60
 opis: Verb sprint! Everything here is from Lesson 3 — tap the correct form before the timer runs out.
 - Ja ___ (piti) | pijem
@@ -26,6 +28,7 @@ opis: Verb sprint! Everything here is from Lesson 3 — tap the correct form bef
 ## Meet the family
 format: kartice
 info: Flashcards for the family words you will use all lesson. The four new verbs split the usual way, so learn the *ja* form and the rest follows: *kuham* and *čekam* take **-am**, *čistim* and *sjedim* take **-im**.
+infokratko: Family words and new verbs. Learn the *ja* form: *kuham, čekam* (**-am**), *čistim, sjedim* (**-im**).
 opis: The people you'll be talking about all lesson. Four new verbs come with them — **kuhati**, **čistiti**, **sjediti**, **čekati** — and they all follow the Lesson 3 pattern: kuham, kuhaš, kuha.
 - obitelj | family
 - mama | mom
@@ -48,6 +51,7 @@ opis: The people you'll be talking about all lesson. Four new verbs come with th
 ## Boy word, girl word
 format: razvrstavanje
 info: Sorting nouns by gender from their last letter: **-a** is feminine (*sestra*), **-o** or **-e** neuter (*pismo*, *more*), a consonant masculine (*brat*). Two to memorise: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**.
+infokratko: **-a** feminine, **-o/-e** neuter, consonant masculine. Exceptions: *obitelj* (f), *tata* (m).
 stupci: MUŠKI | ŽENSKI | SREDNJI
 opis: Lesson 1 taught you that the last letter gives away the gender, and family words play by exactly the same rule. Two famous traps: *obitelj* ends in a consonant but is **feminine**, and *tata* ends in **-a** but is **masculine**.
 - tata | MUŠKI
@@ -70,6 +74,7 @@ opis: Lesson 1 taught you that the last letter gives away the gender, and family
 ## Three little connectors
 format: tekst
 info: The rule page for today. **i** simply adds (*Mama radi i čita*), **a** puts two different subjects side by side (*Tata kuha, a brat uči*), and **ali** is a real *but* (*Stan je mali, ali je dom topao*).
+infokratko: **i** adds (*Mama radi i čita*), **a** sets two subjects side by side (*Tata kuha, a brat uči*), **ali** = but.
 - **Three connectors, three jobs.** English uses "and" for the first two — Croatian is more precise.
 - tab: Word | Means | Comma? | Example
 - tab: **i** | and (simply adding) | no comma | *Mama radi i čita.*
@@ -81,6 +86,7 @@ info: The rule page for today. **i** simply adds (*Mama radi i čita*), **a** pu
 ## Choose the connector
 format: izbor
 info: You pick the connector that fits each join. Ask what the second half does: more of the same wants **i**, a different person doing something else wants **a**, a surprise wants **ali**. The comma already printed there rules **i** out.
+infokratko: More of the same → **i**. Different person → **a**. Surprise → **ali**. A comma rules out **i**.
 opis: Which little word fits? Choose i, a or ali.
 - Stan je mali, ___ je dom topao. | ali | i | a
 - Tata kuha, ___ brat uči. | a | i | ali
@@ -94,6 +100,7 @@ opis: Which little word fits? Choose i, a or ali.
 ## Join the sentences
 format: slaganje
 info: You build one joined sentence out of two short ones, so the punctuation is yours too. No comma before **i** (*Djed sjedi i čeka*), always a comma before **a** and **ali** (*Baka čita, a djed gleda film*).
+infokratko: No comma before **i**; always a comma before **a** and **ali**: *Baka čita, a djed gleda film.*
 opis: Two short sentences become one — build the joined sentence.
 - Baka čita, a djed gleda film.
 - Mama je doktorica i radi puno.
@@ -106,6 +113,7 @@ opis: Two short sentences become one — build the joined sentence.
 ## Sunday at the family's
 format: dijalog
 info: A conversation where you choose each of your own replies. Keep them in the *ja* form (*radim*, *ne kuham*, with *ne* right before the verb) and use *A ti?* to hand the question back — **a** is the natural word for turning to the other person.
+infokratko: Answer in the *ja* form, *ne* before the verb (*ne kuham*), and hand it back with *A ti?*
 opis: You bump into your neighbour Ivana on a Sunday morning. Choose your replies and keep the conversation going! Passive words: *gdje* (where), *zajedno* (together), *uvijek* (always), *već* (already).
 - npc | Bok! Kako si?
 - ti | Dobro sam, hvala. A ti? | Umoran sam, ali dobro.
@@ -122,6 +130,7 @@ opis: You bump into your neighbour Ivana on a Sunday morning. Choose your replie
 ## Type the connector
 format: upis
 info: Now you type the connector instead of tapping it. Punctuation narrows the field first: a comma in the sentence rules out **i**. Then meaning decides — a second, different subject takes **a**, an unexpected turn takes **ali**.
+infokratko: Comma in the sentence? Not **i**. New subject → **a**; unexpected turn → **ali**.
 opis: Type the missing word — i, a or ali.
 - Brat uči, ___ ja gledam film. | a
 - Kava je dobra ___ topla. | i
@@ -134,6 +143,7 @@ opis: Type the missing word — i, a or ali.
 ## Memory
 format: memorija
 info: A pairs game over the family words. Use the endings as a hook while you flip: *mama*, *sestra* and *baka* end in **-a** and are feminine, *brat*, *djed* and *dom* end in a consonant and are masculine, and *obitelj* is the feminine exception.
+infokratko: Family words. *mama, sestra, baka* feminine; *brat, djed, dom* masculine; *obitelj* feminine.
 opis: Find the pairs — each family word hides its English partner.
 - mama | mom
 - tata | dad
@@ -149,6 +159,7 @@ opis: Find the pairs — each family word hides its English partner.
 ## Reading the questions
 format: tekst
 info: A recognition page for six Croatian question words, since questions about texts are now asked in Croatian. Croatian needs no *do* or *does*: the question word plus the plain present tense is the whole question — *Što radi tata?* The full rules come in Lesson 11.
+infokratko: Question word + present tense, no *do/does*: *Što radi tata?*
 - From here on, the questions about each text are asked in Croatian — you have already seen a few of them in the tests. That takes six little words — and they are the easiest thing in this lesson, because the question word comes first, just like in English.
 - tab: Word | Means | Example
 - tab: **tko** | who | *Tko kuha?* — Who is cooking?
@@ -165,6 +176,7 @@ info: A recognition page for six Croatian question words, since questions about 
 ## Read about the family
 format: izbor
 info: You read a short text about the Horvat family, then answer questions asked in Croatian. Watch *tko* (who) and *što* (what), and follow the connectors: after **a** expect a different person, after **ali** expect the opposite of what you just read.
+infokratko: Read, then answer. *tko* = who, *što* = what. After **a** a new person, after **ali** the opposite.
 tekst: Ovo je obitelj Horvat. Djed je star, ali je veseo. Baka kuha i sluša radio. Tata čisti, a mama radi. Sestra je mala i još spava. Brat sjedi i čeka. Pas je tih, a mačka je glasna. Kuća je stara, ali je topla.
 opis: Read about the Horvat family, then answer the questions. Passive words: *tih* (quiet), *glasan* (loud) — you only need to recognise them here.
 - Tko kuha? | baka | mama | sestra
@@ -176,6 +188,7 @@ opis: Read about the Horvat family, then answer the questions. Passive words: *t
 ## Lesson checkpoint
 format: provjera
 info: The mixed end-of-lesson check: connectors, commas and family vocabulary. One rule carries most of the points — **i** never takes a comma, **a** and **ali** always do — and **a** is the choice whenever the second half brings in a new subject.
+infokratko: Connectors, commas and family words. **i** without a comma, **a** and **ali** with one.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 4.
 - slaganje | Tata kuha, a brat uči. | en: Dad is cooking, and my brother is studying.
@@ -194,5 +207,6 @@ opis: Final check! Score 80% to be ready for Vocabulary 4.
 ## Reward & preview
 format: tekst
 info: The wrap-up page. Everything here keeps paying off: **i** adds, **a** contrasts two subjects, **ali** twists, and words like *obitelj*, *baka* and *djed* are among the nouns you will meet most often in real Croatian.
+infokratko: **i** adds, **a** contrasts two subjects, **ali** twists.
 - Izvrsno! Your Croatian now flows in full, connected sentences — and you can talk about the whole family.
 - **Next up:** Vocabulary 4 gathers the whole family, the home and eleven new verbs, and Grammar 4 settles the commas. Then the big one: in Lesson 5 you go shopping at a Croatian market and unlock your first *case* — the famous Croatian word-ending magic. It's easier than its reputation, promise.

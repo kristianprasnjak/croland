@@ -4,6 +4,7 @@ cjelina: Practice 1
 ## Text 1: Dubrovnik
 format: tekst
 info: A short reading built only from **je** sentences, with a few extra words given just for recognition, such as *ali* (but). As you read, check every adjective against its noun: *grad* is *star*, *more* is *plavo*, *kava* is *dobra*.
+infokratko: Only **je** sentences. Check each adjective against its noun: *grad je star, more je plavo, kava je dobra*.
 - Time to read real Croatian! These short texts use what you learned in Lesson 1 — plus a few passive words: *ali* (but), *ili* (or), *da* (yes), *vani* (outside), *jako* (very), *savršen* (perfect), *zid* (wall), *kafić* (café), *molim* (please), *hvala* (thanks), *izvolite* (here you are). Tap **EN** next to any sentence to see its translation.
 - Dubrovnik je grad. | Dubrovnik is a city.
 - Grad je star, ali je lijep. | The city is old, but it is beautiful.
@@ -18,6 +19,7 @@ info: A short reading built only from **je** sentences, with a few extra words g
 ## Did you get it?
 format: izbor
 info: Comprehension questions with the text still above you, so each answer is stated outright rather than implied. The correct option also has to agree with its noun: *plavo i toplo* belongs to *more*, and *dobra* to *kava*.
+infokratko: The answer is in the text, and it agrees with its noun: *more je plavo i toplo*.
 tekst: Dubrovnik je grad. Grad je star, ali je lijep. More je plavo i toplo. Nebo je plavo. Hotel je velik i moderan. Restoran je mali. Kava je dobra. Sladoled je hladan i sladak. Dubrovnik je popularan.
 opis: Answer from the text.
 - The city is... | star, ali lijep | nov i moderan
@@ -28,6 +30,7 @@ opis: Answer from the text.
 ## Fill in from the text
 format: upis
 info: You copy the missing word straight out of the text, so spelling and ending both count. These nouns are masculine, which is why the adjectives stay bare: *hladan* and *popularan*, with no **-a** or **-o** added.
+infokratko: Copy the word from the text. Masculine nouns, so bare adjectives: *hladan, popularan*.
 tekst: Dubrovnik je grad. Grad je star, ali je lijep. More je plavo i toplo. Nebo je plavo. Hotel je velik i moderan. Restoran je mali. Kava je dobra. Sladoled je hladan i sladak. Dubrovnik je popularan.
 opis: The text is right above you — read it again and fill each gap.
 - Sladoled je ___ i sladak. | hladan
@@ -37,6 +40,7 @@ opis: The text is right above you — read it again and fill each gap.
 ## Text 2: The room
 format: tekst
 info: A second reading, this time one room described object by object. Look for the pairing in every line: *soba* takes *mala* and *lijepa*, *stol* and *prozor* take *velik*, *lampa* takes *žuta*, and *zid* takes *bijel*.
+infokratko: One room, object by object: *soba je mala, stol je velik, lampa je žuta*.
 - Ovo je soba. | This is a room.
 - Soba je mala, ali je lijepa. | The room is small, but it is beautiful.
 - Stol je velik i star. | The table is big and old.
@@ -51,6 +55,7 @@ info: A second reading, this time one room described object by object. Look for 
 ## True or false?
 format: izbor
 info: Judge each statement against the text, where one word can flip the truth: the text says *stol je star*, not *nov*, and *automobil je crven*, not *plav*. The adjective agrees with its noun in the false versions too.
+infokratko: One word flips the truth: *stol je star*, not *nov*.
 tekst: Ovo je soba. Soba je mala, ali je lijepa. Stol je velik i star. Knjiga je nova. Lampa je žuta. Prozor je velik. Zid je bijel. Krevet je mekan. Automobil je vani. Automobil je crven i brz.
 opis: Tap true or false.
 - Stol je nov. | FALSE | TRUE
@@ -62,6 +67,7 @@ opis: Tap true or false.
 ## Text 3: At the café
 format: tekst
 info: A short dialogue, so the new material is set phrases: *molim* (please), *hvala* (thanks), *izvolite* (here you are). The grammar is unchanged, since *Kava je topla* agrees and *Velika ili mala?* still copies *kava*.
+infokratko: Set phrases: *molim, hvala, izvolite*. *Kava je topla.*
 - — Dobar dan! | — Good day!
 - — Dobar dan! Kava, molim. | — Good day! A coffee, please.
 - — Velika ili mala? | — Large or small?
@@ -74,6 +80,7 @@ info: A short dialogue, so the new material is set phrases: *molim* (please), *h
 ## Order the dialogue
 format: poredak
 info: Reordering the café lines, which tests conversational logic rather than endings. Expect the greeting first, then the order, then the question *Velika ili mala?*, the answer, *Izvolite*, and *Hvala* in reply at the end.
+infokratko: Greeting, order, *Velika ili mala?*, answer, *Izvolite*, *Hvala*.
 opis: The café conversation got shuffled! Put the lines back into the right order.
 - — Dobar dan!
 - — Dobar dan! Kava, molim.
@@ -87,6 +94,7 @@ opis: The café conversation got shuffled! Put the lines back into the right ord
 ## At the café
 format: dijalog
 info: Your first conversation, built from the one pattern you have: a thing, then **je**, then a description — *Kava je dobra*, *Nebo je plavo*. Both replies on offer are correct Croatian, so there is no wrong turn: choose the one you would say, and say it out loud.
+infokratko: Thing + **je** + description. Both replies are correct; pick one and say it aloud.
 opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: *Izvolite?* (here you are — with a question mark: what would you like?), *molim* (please), *hvala* (thanks), *zar ne?* (isn't it?), *savršen* (perfect).
 - npc | Dobar dan! Izvolite?
 - ti | Kava, molim. | Dobar dan! Kava, molim.
@@ -103,6 +111,7 @@ opis: You sit down at a café in Dubrovnik. Choose your replies. Passive words: 
 ## Translate by building
 format: slaganje
 info: Tile translation of sentences taken from the three texts you just read. Keep the frame of noun plus **je** plus adjective, use *i* for *and*, and give the adjective the ending that matches its noun: *More je plavo i toplo.*
+infokratko: Noun + **je** + adjective, *i* for *and*: *More je plavo i toplo.*
 opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the three texts you just read — and you'll hear it once it's right.
 - More je plavo i toplo. | en: The sea is blue and warm.
 - Hotel je velik i moderan. | en: The hotel is big and modern.

@@ -4,6 +4,7 @@ cjelina: Lesson 1
 ## Welcome
 format: tekst
 info: A short read to set up the lesson: Croatian is spelled exactly as it sounds, and it has **no articles** at all, so *kuća* covers house, a house and the house. The one new word today is **je**, meaning *is*, as in *Kava je dobra.*
+infokratko: No articles: *kuća* is house, a house, the house. Today's one new word: **je** (*is*). *Kava je dobra.*
 - Welcome to your first real Croatian lesson!
 - **You already speak some Croatian.** *Hotel*, *banana*, *čokolada*, *gitara* — these are all Croatian words, and you just read them perfectly. Croatian is written exactly as it sounds, so a word you can read is a word you can say.
 - **Today's one new word is je.** It means *is*, and it goes between the thing and its description: *Kava je dobra.* — The coffee is good.
@@ -14,6 +15,7 @@ info: A short read to set up the lesson: Croatian is spelled exactly as it sound
 ## Words you already recognise
 format: brzina
 info: Timed tapping on borrowed words, so speed matters more than thinking here. Croatian spelling is fully phonetic and every letter is always pronounced, so *restoran* and *taksi* look unusual but sound like the English you already know.
+infokratko: Borrowed words against the clock. Every letter is pronounced: *restoran*, *taksi*.
 trajanje: 60
 opis: Quick warm-up — and an easy one. Croatian borrowed these words too, so you can guess every single one. Tap the English meaning before the timer runs out.
 - hotel | hotel
@@ -30,6 +32,7 @@ opis: Quick warm-up — and an easy one. Croatian borrowed these words too, so y
 ## New words: things around you
 format: kartice
 info: Flashcards for the everyday nouns of this level. Notice the last letter of each word as you learn it, because *grad* ends in a consonant, *kuća* in **-a** and *more* in **-e**, and that ending is what a describing word later has to copy.
+infokratko: Everyday nouns. Watch the last letter: *grad* (consonant), *kuća* (**-a**), *more* (**-e**).
 opis: Croatian is 100% phonetic — every word sounds exactly as it's written. Tap a card to reveal the meaning.
 - kuća | house
 - automobil | car
@@ -50,6 +53,7 @@ opis: Croatian is 100% phonetic — every word sounds exactly as it's written. T
 ## Word match
 format: parovi
 info: Pairing Croatian nouns with their English meanings, which is pure recognition. Say each word aloud as you match: Croatian letters never change their sound, so *knjiga* and *krevet* are read exactly as written and the *c* of *sunce* is always *ts*.
+infokratko: Match Croatian and English, and say each word aloud. Letters never change their sound: *sunce* = *sun-tse*.
 opis: Match each Croatian word with its English meaning.
 - kuća | house
 - automobil | car
@@ -63,6 +67,7 @@ opis: Match each Croatian word with its English meaning.
 ## The magic word: je
 format: tekst
 info: The rule page for today's single verb form: **je** means *is* and sits between the thing and its description, as in *Automobil je brz.* There is no word for *a* or *the*, so nothing else belongs in the sentence.
+infokratko: **je** = *is*. Thing + **je** + description: *Automobil je brz.* No *a*, no *the*.
 - To say anything about anything, Croatian needs just one little word: **je** (*is*). It sits between the thing and what you say about it.
 - **The pattern.** thing + **je** + description. Nothing else goes in.
 - tab: Croatian | English
@@ -75,6 +80,7 @@ info: The rule page for today's single verb form: **je** means *is* and sits bet
 ## Adjectives: making it interesting
 format: kartice
 info: Each card shows one describing word in three coats: *velik grad*, *velika kuća*, *veliko more*. The ending is not free choice, it echoes the last letter of the noun, so learn all three forms together as one item.
+infokratko: One adjective, three endings: *velik grad*, *velika kuća*, *veliko more*. Learn all three together.
 opis: Watch the adjective's ending — it changes to match the noun. velik grad, velika kuća, veliko more — same word, three outfits. Just absorb the pattern for now.
 - velik / velika / veliko | big
 - mali / mala / malo | small
@@ -95,6 +101,7 @@ opis: Watch the adjective's ending — it changes to match the noun. velik grad,
 ## Which ending fits?
 format: izbor
 info: You pick the description whose ending echoes the noun. A noun ending in a consonant takes the bare form (*Automobil je velik*), a noun in **-a** takes **-a** (*Kuća je velika*), and a noun in **-o** or **-e** takes **-o** (*More je plavo*).
+infokratko: Consonant → bare form (*Automobil je velik*), **-a** → **-a** (*Kuća je velika*), **-o/-e** → **-o** (*More je plavo*).
 opis: Same meaning, three endings. Look at the last letter of the noun: a consonant takes the short form (velik grad), -a takes -a (velika kuća), -o or -e takes -o (veliko more).
 - The house is red. | Kuća je crvena. | Kuća je crven. | Kuća je crveno.
 - The car is big. | Automobil je velik. | Automobil je velika. | Automobil je veliko.
@@ -106,6 +113,7 @@ opis: Same meaning, three endings. Look at the last letter of the noun: a conson
 ## Find the right outfit
 format: razvrstavanje
 info: Sorting the three forms under the noun each one fits, so go by the ending, not the meaning. The bare form goes with *grad*, the **-a** form with *kuća*, the **-o** form with *more*, even though *more* itself ends in **-e**.
+infokratko: Sort by the noun's ending, not the meaning: *grad* bare, *kuća* **-a**, *more* **-o**.
 stupci: GRAD | KUĆA | MORE
 opis: Each adjective ending belongs to one kind of noun. Tap an adjective, then the noun it fits. Say the pairs out loud!
 - velik | GRAD
@@ -124,6 +132,7 @@ opis: Each adjective ending belongs to one kind of noun. Tap an adjective, then 
 ## Finish the word
 format: upis
 info: You type the whole describing word, so the ending has to be chosen rather than tapped. Match it to the noun's last letter: *Kava je dobra*, *Nebo je plavo*, *Grad je star*. Careful with *sunce*, a noun in **-e** still takes **-o**.
+infokratko: Type the adjective with the right ending: *Kava je dobra, Nebo je plavo, Grad je star.* *Sunce* takes **-o**.
 opis: Type the full adjective — choose the form that matches the noun.
 - Kava je dobar/dobra/dobro. | dobra
 - Nebo je plav/plava/plavo. | plavo
@@ -135,6 +144,7 @@ opis: Type the full adjective — choose the form that matches the noun.
 ## Build your first sentences
 format: slaganje
 info: Tile-building complete sentences from an English prompt. The frame is fixed: the thing, then **je**, then the description, with *i* for *and*, as in *More je plavo i toplo.* There is no article tile, because Croatian has none.
+infokratko: Thing + **je** + description, *i* for *and*: *More je plavo i toplo.*
 opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Kuća je velika. | en: The house is big.
 - More je plavo i toplo. | en: The sea is blue and warm.
@@ -155,6 +165,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 ## Memory
 format: memorija
 info: A memory grid over the nouns you met today, so this is recall rather than new material. While flipping, keep noticing endings: *kava* and *knjiga* end in **-a**, *more* and *sunce* in **-o** or **-e**, *grad* and *prozor* in a consonant.
+infokratko: Recall today's nouns. Keep watching the endings: *kava* **-a**, *more* **-e**, *grad* consonant.
 opis: Flip the cards and find each Croatian word's English partner.
 - kava | coffee
 - kuća | house
@@ -168,6 +179,7 @@ opis: Flip the cards and find each Croatian word's English partner.
 ## Lesson checkpoint
 format: provjera
 info: The scored mix of everything above, and 80% opens Vocabulary 1. Two things carry most of the points: **je** for *is*, and a description whose ending matches its noun, as in *Kava je dobra* and *More je plavo*.
+infokratko: Everything above, mixed; 80% opens Vocabulary 1. Key points: **je**, and the ending follows the noun.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 1.
 - slaganje | Kuća je velika. | en: The house is big.
@@ -182,5 +194,6 @@ opis: Final check! Score 80% to be ready for Vocabulary 1.
 ## Reward & preview
 format: tekst
 info: A closing recap: you can now name a thing and describe it using **je**, and you have seen that the description's ending follows the noun's last letter. The full rules come in Grammar 1, so for now the pattern is enough.
+infokratko: You can now describe things with **je**, and the ending follows the noun. Full rules in Grammar 1.
 - Bravo! You just built your first Croatian sentences — with no articles to worry about and spelling you can always trust.
 - **Next up:** Vocabulary 1 turns today's words into a proper deck — every thing, color and size in one place. Then Grammar 1 names the rule behind the endings you just used.

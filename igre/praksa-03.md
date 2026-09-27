@@ -4,6 +4,7 @@ cjelina: Practice 3
 ## Text 1: A day in the apartment
 format: tekst
 info: Your first reading, and every action in it is an on/ona form with no ending added, so look for the name and then the verb: *Marko pije*, *Ana jede*. The listed new words are there for recognition only — you don't have to produce them.
+infokratko: All on/ona forms: find the name, then the verb. *Marko pije. Ana jede.*
 - A whole day of actions — see how much you catch on the first read.
 - Verbs in the wild! Passive words: *čaj* (tea), *sir* (cheese), *strip* (comic book), *smiješan* (funny), *sjedi* (sits), *čeka* (waits), *kuha* (is cooking), *večer* (evening), *poslije* (afterwards), *kroz* (through), *Dobar tek!* (enjoy your meal), *svira* (is playing), the family — *tata* (dad), *mama* (mum), *brat* (brother), *sestra* (sister), all of them properly yours in Lesson 4 — plus *Što radiš?* (What are you doing?), *Jedeš li?* (Are you eating?) and *Je li…?* (Is…?) — those last three are whole phrases for now, and Lesson 11 takes them apart.
 - Marko radi. | Marko is working.
@@ -20,6 +21,7 @@ info: Your first reading, and every action in it is an on/ona form with no endin
 ## Did you get it?
 format: izbor
 info: Comprehension straight from the text above. The answer is almost always the word sitting right after the verb, because Croatian leaves the object there unchanged: *Marko pije **sok***, *On piše **tekst***.
+infokratko: The answer is usually the word after the verb: *Marko pije sok*.
 tekst: Marko radi. On piše tekst. Ana uči. Ona čita udžbenik. Pas spava. Mačka gleda kroz prozor. Marko pije sok. Ana jede sendvič. Radio svira. Dan je miran.
 opis: Answer from the text.
 - What does Marko drink? | sok | čaj | kruh
@@ -30,6 +32,7 @@ opis: Answer from the text.
 ## Text 2: What are you doing?
 format: tekst
 info: A dialogue, so the endings switch from line to line: **-š** asks about you (*Što piješ?*) and **-m** answers about me (*Pijem čaj*). Track who owns each line — the two speakers are drinking different things.
+infokratko: **-š** asks about you (*Što piješ?*), **-m** answers (*Pijem čaj*).
 - — Bok, Ana! Što radiš? | — Hi, Ana! What are you doing?
 - — Učim hrvatski. A ti? | — I'm learning Croatian. And you?
 - — Ja gledam film. | — I'm watching a film.
@@ -44,6 +47,7 @@ info: A dialogue, so the endings switch from line to line: **-š** asks about yo
 ## True or false?
 format: izbor
 info: Truth checks against the dialogue, and the trap is ownership: an **-m** form belongs to whoever is speaking, not to the person being addressed. Ana is the one who says *Pijem čaj*, so *Ana pije sok* cannot be true.
+infokratko: **-m** belongs to the speaker: Ana says *Pijem čaj*.
 tekst: — Bok, Ana! Što radiš? — Učim hrvatski. A ti? — Ja gledam film. — Je li film dobar? — Da, jako je dobar. Što piješ? — Pijem čaj. Čaj je topao. — Ja pijem sok. Jedeš li? — Da, jedem kruh i sir.
 opis: Tap true or false — careful who says what!
 - Ana uči hrvatski. | TRUE | FALSE
@@ -54,6 +58,7 @@ opis: Tap true or false — careful who says what!
 ## Text 3: Evening
 format: tekst
 info: A third reading, mostly on/ona forms with one *ja* slipped in — *Ja čitam strip* is the narrator speaking. The family words *tata*, *mama*, *brat* and *sestra* are recognition only; the full set comes in Lesson 4.
+infokratko: Mostly on/ona; *Ja čitam strip* is the narrator.
 - Večer je. | It is evening.
 - Tata kuha. | Dad is cooking.
 - Mama piše e-mail. | Mom is writing an email.
@@ -68,6 +73,7 @@ info: A third reading, mostly on/ona forms with one *ja* slipped in — *Ja čit
 ## Type the verb from the text
 format: upis
 info: You type the whole verb, so the subject picks the ending: *tata*, *mama* and *sestra* are all on/ona and take the bare form (*kuha*, *piše*, *jede*), while *Ja* takes **-m** and gives *čitam*.
+infokratko: *tata, mama, sestra* → bare (*kuha, piše*); *ja* → **-m** (*čitam*).
 tekst: Večer je. Tata kuha. Mama piše e-mail. Brat sluša radio. Ja čitam strip. Strip je smiješan. Pas sjedi i čeka. On gleda... sendvič! Sestra jede sendvič. Poslije pas spava.
 opis: Type the whole verb from the text.
 - Tata kuh__ . | kuha
@@ -80,6 +86,7 @@ opis: Type the whole verb from the text.
 ## Did you get it? — the evening
 format: izbor
 info: Comprehension on the evening text. Read it in the order Croatian writes it — subject, verb, object, as in *Mama piše e-mail*. For the adjective questions, pick the form that agrees with its noun: *strip je smiješan*.
+infokratko: Subject, verb, object: *Mama piše e-mail*. *strip je smiješan*.
 tekst: Večer je. Tata kuha. Mama piše e-mail. Brat sluša radio. Ja čitam strip. Strip je smiješan. Pas sjedi i čeka. On gleda... sendvič! Sestra jede sendvič. Poslije pas spava.
 opis: Answer from the text.
 - Who is cooking? | tata | mama | brat
@@ -92,6 +99,7 @@ opis: Answer from the text.
 ## Text 4: Sunday
 format: tekst
 info: The negation reading: watch for *ne* standing in front of the verb, which flips the meaning and changes nothing else — *Ana **ne** čita udžbenik*. With *nitko* the *ne* stays too, so *nitko ne radi* means nobody is working.
+infokratko: *ne* before the verb flips the meaning: *Ana ne čita*. *nitko ne radi* = nobody works.
 - The longest text yet — and this time watch for one little word: **ne**. Passive words: *nedjelja* (Sunday), *nitko* (nobody), *danas* (today). Croatian likes its negatives doubled: *nitko **ne** radi* is literally "nobody isn't working", and that is exactly right.
 - Nedjelja je. | It is Sunday.
 - Danas nitko ne radi. | Today nobody is working.
@@ -112,6 +120,7 @@ info: The negation reading: watch for *ne* standing in front of the verb, which 
 ## A quiet afternoon
 format: dijalog
 info: A conversation about what each of you is doing, so the ending changes with the speaker. A question about you carries **-š** (*Što radiš?*) and your answer carries **-m** (*Učim hrvatski*). Because the ending already names the person, you can leave *ja* out.
+infokratko: **-š** in the question (*Što radiš?*), **-m** in the answer (*Učim hrvatski*).
 opis: Your neighbour Marko calls in the afternoon. Choose your replies. Passive words: *Dobar tek!* (Enjoy your meal!), *A ti?* (And you?), *Vidimo se!* (See you!).
 - npc | Bok! Što radiš?
 - ti | Učim hrvatski. A ti? | Gledam film. A ti?
@@ -129,6 +138,7 @@ opis: Your neighbour Marko calls in the afternoon. Choose your replies. Passive 
 ## Translate by building
 format: slaganje
 info: Building Croatian from English out of tiles. Two things fix the order: the ending has to match the subject, and *ne* goes immediately before the verb. If no pronoun tile is offered, none is needed — *Pijem čaj* is already complete.
+infokratko: Ending matches the subject; *ne* right before the verb. *Pijem čaj* is complete.
 opis: Read the English sentence, then build its Croatian translation from the tiles. Almost every sentence comes from the four texts you just read.
 - Marko radi. | en: Marko is working.
 - On piše tekst. | en: He is writing a text.

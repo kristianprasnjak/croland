@@ -4,6 +4,7 @@ cjelina: Lesson 12
 ## Time to say NO
 format: tekst
 info: A short read to open the lesson. You already know the two basic moves — *ne* in front of a verb and *nisam* for *biti*. Today they join the negative words *ništa, nitko, nigdje, nikad*, which in Croatian always keep a second *ne* on the verb.
+infokratko: You know *ne* + verb and *nisam*. New: *ništa, nitko, nigdje, nikad*, always with *ne* on the verb too.
 opis: Read it through — by the end you can turn down a whole menu.
 - So far you have mostly said yes. Today you learn to say no: to refuse the soup, turn down the onions and say that you *never* drink milk.
 - **You already know the basics.** Grammar 2 gave you *nisam*, and Grammar 3 put *ne* in front of a verb: *Ne pijem sok.* Today those pieces are joined by the rest of the set.
@@ -13,6 +14,7 @@ opis: Read it through — by the end you can turn down a whole menu.
 ## Rapid recall
 format: brzina
 info: A timed warm-up on the questions from Lesson 11. The question word comes first and nothing is added for English *do*; *li* stands directly behind the verb, and with *biti* the long form is used: *Jesi li umoran?* Read the answer first — it names the question word.
+infokratko: Lesson 11 against the clock. Question word first, *li* after the verb, *Jesi li...?* with *biti*.
 trajanje: 60
 opis: Question sprint from Lesson 11 — tap the missing word before the timer runs out.
 - ___ živiš? — U Splitu. | Gdje
@@ -31,6 +33,7 @@ opis: Question sprint from Lesson 11 — tap the missing word before the timer r
 ## The basic "ne" + new food
 format: kartice
 info: The food and table words for this lesson, plus four tastes. *Ne* goes directly in front of the verb, so every card here can be refused with one extra word: *Ne jedem gljive.* Watch *ljut*: you know it as *angry* from Vocabulary 2, and with food it means *spicy*.
+infokratko: Food words and tastes. Refuse with *ne* before the verb: *Ne jedem gljive.* *ljut* = spicy.
 opis: New food, the things on the table and four tastes. Tap a card to reveal the meaning.
 - ne + glagol | not (Ne volim juhu.)
 - piletina | chicken (meat)
@@ -58,6 +61,7 @@ opis: New food, the things on the table and four tastes. Tap a card to reveal th
 ## Words for saying no
 format: kartice
 info: The negative words, each beside its positive twin. The pattern is visible in the spelling: **ni-** gives the negative word (*ništa, nitko, nigdje, nikad*), **ne-** gives the positive one (*nešto, netko, negdje, nekad*). In front of a verb the same two letters do the opposite job — *nemam*, *neću* are negatives. *Nikoga* is the target form of *nitko*, just as *koga* is of *tko*.
+infokratko: **ni-** negative (*ništa, nitko*), **ne-** positive (*nešto, netko*). *nikoga* = nobody (target).
 opis: The words you need to refuse, plus seven verbs for the restaurant. Tap a card to reveal the meaning.
 - ništa | nothing
 - nešto | something
@@ -87,6 +91,7 @@ opis: The words you need to refuse, plus seven verbs for the restaurant. Tap a c
 ## The rule: ne and the three fused verbs
 format: tekst
 info: The first rule of the lesson, and most of it is revision. *Ne* is a separate word directly in front of the verb, and nothing else in the sentence changes. Only three verbs join *ne* into one word — *biti*, *imati* and *htjeti* — and those forms may open a sentence.
+infokratko: *ne* stands before the verb. Only *biti, imati, htjeti* fuse: *nisam, nemam, neću*.
 infoodmah: da
 opis: One word in front of the verb, and three verbs that join it. Read the tables and say the last line out loud.
 - **Ne stands directly in front of the verb, as a separate word.** The rest of the sentence stays as it was: *Volim luk.* → ***Ne** volim luk.*
@@ -109,6 +114,7 @@ opis: One word in front of the verb, and three verbs that join it. Read the tabl
 ## Sort the forms
 format: razvrstavanje
 info: Sorting negative forms by the verb inside them. *Nisam, nisi, nije* belong to *biti*, *nemam* and *nema* to *imati*, and *neću* and *neće* to *htjeti*. Every other verb keeps *ne* as a separate word — *ne volim, ne jedem*.
+infokratko: *nisam, nije* → *biti*; *nemam, nema* → *imati*; *neću, neće* → *htjeti*. Others: *ne volim*.
 stupci: BITI | IMATI | HTJETI | NE + GLAGOL
 opis: Which verb is inside the negative form? Sort each one.
 - nisam | BITI
@@ -131,6 +137,7 @@ opis: Which verb is inside the negative form? Sort each one.
 ## Pick the right form
 format: izbor
 info: Choosing the negative form that fits. *Biti*, *imati* and *htjeti* join *ne* into one word, so *ne sam*, *ne imamo* and *ne ću* are never written. Check the person as well: *nisam* is *ja*, *nije* is *on* or *ona*, *nisu* is *oni*.
+infokratko: Never *ne sam, ne imamo, ne ću*. Check the person: *nisam* ja, *nije* on/ona, *nisu* oni.
 opis: Choose the correct negative form.
 - Ja ___ gladan. | nisam | ne sam | nemam
 - Mama ___ doma. | nije | ne je | nema
@@ -148,6 +155,7 @@ opis: Choose the correct negative form.
 ## Say no to everything
 format: upis
 info: Negating whole sentences in three tenses. In the present put *ne* in front of the verb; in the past swap the helper for *nisam, nije, nismo*; in the future swap *ću* for *neću* and give the verb back its full *-ti*: *Platit ću* → *Neću platiti*.
+infokratko: Present: *ne* + verb. Past: *nisam, nije...* Future: *neću* + full *-ti*: *Neću platiti*.
 opis: Negate each sentence. Only the verb part changes.
 - Volim juhu. → | Ne volim juhu
 - Jedem povrće. → | Ne jedem povrće
@@ -165,6 +173,7 @@ opis: Negate each sentence. Only the verb part changes.
 ## Double negatives are GOOD here
 format: tekst
 info: The second rule, and the one that differs from English. A negative word such as *ništa* or *nikad* never replaces *ne* on the verb — both are required. Each negative word has a positive twin with **ne-** (*nešto, netko*), and those take no *ne* at all.
+infokratko: Double negation: *Ništa ne jedem.* The **ne-** twins (*nešto, netko*) take no *ne*.
 infoodmah: da
 opis: Two negatives in one sentence, and both are required. Read the table, then fill in the last line.
 - **Croatian negative words need a second ne.** *ništa* (nothing), *nitko* (nobody), *nigdje* (nowhere) and *nikad* (never) do not replace *ne* on the verb — they come in addition to it.
@@ -184,6 +193,7 @@ opis: Two negatives in one sentence, and both are required. Read the table, then
 ## Tap the ending
 format: nastavak
 info: One tap in front of each word. **Ni-** makes the negative word (*ništa, nitko, nigdje, nikad, nikoga*) and needs *ne* on the verb; **ne-** makes the positive twin (*nešto, netko*). The same taps build *nisam, nemamo, neće*. The dash means no negative at all — read the English.
+infokratko: **ni-** = negative word, needs *ne* on the verb; **ne-** = positive. The dash: no negation.
 nastavci: ni | ne | -
 opis: English above, Croatian below. One tap in front of the word — or none, if the sentence is positive.
 - Marko ___šta ne jede. | Marko eats nothing. | ni
@@ -208,6 +218,7 @@ opis: English above, Croatian below. One tap in front of the word — or none, i
 ## Stack the negatives
 format: izbor
 info: Choosing the sentence built the Croatian way. When a negative word is present, the verb still takes *ne*, *nisam* or *neću*. When the English says *something* or *somebody*, the word starts with **ne-** and the verb stays positive.
+infokratko: Negative word → the verb is negative too. *something / somebody* → **ne-** word, positive verb.
 opis: Choose the correct Croatian sentence.
 - I never eat soup. | Nikad ne jedem juhu. | Nikad jedem juhu. | Ne nikad jedem juhu.
 - He eats nothing. | On ništa ne jede. | On ništa jede. | On nešto ne jede.
@@ -225,6 +236,7 @@ opis: Choose the correct Croatian sentence.
 ## Build the protest
 format: slaganje
 info: Whole negative sentences from tiles. *Ne* goes directly in front of the verb, the fused forms *nisam* and *neću* may take the first tile, and every negative word keeps *ne* on the verb beside it.
+infokratko: *ne* before the verb; *nisam, neću* can come first; negative words keep *ne* on the verb.
 opis: Arrange the tiles to build the sentence.
 - Ne volim juhu.
 - Riba nije slana.
@@ -242,6 +254,7 @@ opis: Arrange the tiles to build the sentence.
 ## Positive → negative
 format: brzina
 info: A timed sprint from positive to negative. Three verbs join *ne* into one word — *sam → nisam*, *imam → nemam*, *ću → neću* — every other verb takes *ne* in front, and each **ne-** word swaps to its **ni-** twin.
+infokratko: *sam → nisam, imam → nemam, ću → neću*; others take *ne*; **ne-** words swap to **ni-**.
 trajanje: 45
 opis: A positive form flashes — tap its negative twin.
 - volim | ne volim
@@ -261,6 +274,7 @@ opis: A positive form flashes — tap its negative twin.
 ## The picky eater
 format: dijalog
 info: A restaurant conversation built on refusals. The waiter uses *vi*, and your replies use this lesson: *ne jedem*, *nemate li*, *ni… ni…*, *ništa*. Where a reply shows the speaker's gender, both versions are offered — pick the one that fits you.
+infokratko: Refuse with *ne jedem, nemate li, ni... ni..., ništa*. Pick the reply that fits your gender.
 opis: You're at a restaurant, but the kitchen is having a bad day. Choose your replies. Passive words: *Izvolite* (here you are), *šteta* (a pity), *za piće* (to drink), *u redu* (all right), *masna* (greasy), *malo* (a little), *slatko* (sweet).
 - npc | Dobra večer! Izvolite jelovnik.
 - ti | Hvala! Imate li ribu? | Hvala! Imate li juhu?
@@ -280,6 +294,7 @@ opis: You're at a restaurant, but the kitchen is having a bad day. Choose your r
 ## Read: the picky eaters
 format: izbor
 info: Read the story, then answer in Croatian. Nearly every sentence says what somebody does *not* eat, so watch the negative words: *ni… ni…* rules out two things at once, and *više ne* means that something has stopped.
+infokratko: Read, then answer. *ni... ni...* = neither... nor; *više ne* = no longer.
 tekst: Obitelj Horvat večera zajedno, ali nitko ne jede isto. Tata ne jede meso jer je vegetarijanac. Ana ne voli ni luk ni češnjak. Marko nikad ništa ne jede — samo palačinke! Baka je skuhala juhu, ali juha je slana i nitko je ne želi. Mama nije sretna: "Ja više ne kuham!" Onda djed kaže: "Nema problema. Idemo u restoran!" U restoranu svi jedu pizzu. Samo Marko ništa ne jede — u restoranu nemaju palačinke.
 opis: Read the story, then answer the questions. Passive words: *isto* (the same), *skuhala* (cooked, f.), *nitko je ne želi* (nobody wants it), *svi* (everybody).
 - Zašto tata ne jede meso? | jer je vegetarijanac | jer je meso slano | jer nije gladan
@@ -292,6 +307,7 @@ opis: Read the story, then answer the questions. Passive words: *isto* (the same
 ## Memory
 format: memorija
 info: A pairs game over positive forms and their negative twins. Two patterns cover every pair here: the fused verbs (*sam → nisam*, *imam → nemam*, *ću → neću*) and the words that swap **ne-** for **ni-** (*nešto → ništa*).
+infokratko: Positive with negative: *sam → nisam*, *nešto → ništa*.
 opis: Flip the cards and match each positive form with its negative twin.
 - sam | nisam
 - imam | nemam
@@ -307,6 +323,7 @@ opis: Flip the cards and match each positive form with its negative twin.
 ## Lesson checkpoint
 format: provjera
 info: The scored mix of the whole lesson, and 80% opens Vocabulary 12. Most of the points sit on two things: *biti*, *imati* and *htjeti* join *ne* into one word, and a negative word such as *ništa* always keeps *ne* on the verb.
+infokratko: The whole lesson, mixed; 80% opens Vocabulary 12. Three fused verbs; *ništa* keeps *ne*.
 prag: 80
 opis: Final check! Score 80% to be ready for Vocabulary 12.
 - slaganje | Ne volim ljutu juhu. | en: I don't like spicy soup.
@@ -325,6 +342,7 @@ opis: Final check! Score 80% to be ready for Vocabulary 12.
 ## Reward & preview
 format: tekst
 info: A closing summary. You can now say no in all three tenses, you know which three verbs join *ne*, and you can stack negative words the Croatian way — with *ne* on the verb every time.
+infokratko: No in three tenses, three fused verbs, double negatives with *ne* on the verb.
 opis: Read what you can do now, and what comes next.
 - Bravo! You can now refuse, complain and order — in the present, the past and the future — and stack *nitko, ništa, nikad* the Croatian way.
 - **Next up:** Vocabulary 12 collects the food, the tastes and the things on the table, and Grammar 12 adds *nego* — the word that corrects a negative: *Ne pijem kavu, nego čaj.*

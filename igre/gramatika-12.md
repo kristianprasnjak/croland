@@ -4,6 +4,7 @@ cjelina: Grammar 12
 ## The rule: ne + three fused verbs
 format: tekst
 info: The reference page for negation. *Ne* is a separate word directly in front of the verb, in every tense. Only *biti*, *imati* and *htjeti* join it into one word, and in the past and the future the negative sits on the helper, not on the participle or the infinitive.
+infokratko: *ne* before the verb in every tense. Fused: *nisam, nemam, neću*. Past and future: negate the helper.
 - **The standard pattern:** *ne* + verb, two separate words, *ne* first: *Ne volim luk. Ne radim danas. Ne idemo u kino.* Nothing else in the sentence changes.
 - **The three fused verbs** join *ne* into one word. There is no *ne sam*, *ne imam* or *ne ću*.
 - tab: Person | biti | imati | htjeti (future)
@@ -21,6 +22,7 @@ info: The reference page for negation. *Ne* is a separate word directly in front
 ## Positive or negative?
 format: razvrstavanje
 info: Sorting by polarity. Most negatives show *ne* in front of the verb, but *nisam*, *nemam* and *neću* carry it inside the word. The trap is the **ne-** words: *nešto*, *netko* and *nekad* look negative and are positive.
+infokratko: *ne* before the verb, or inside *nisam, nemam, neću*. *nešto, netko, nekad* are positive.
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
 opis: Sort the forms. Watch out — *nešto* and *netko* start with *ne-* but are positive.
 - ima | ✓ POZITIVNO
@@ -43,6 +45,7 @@ opis: Sort the forms. Watch out — *nešto* and *netko* start with *ne-* but ar
 ## Make it negative
 format: upis
 info: Negating in every tense. In the present add *ne* in front of the verb, in the past swap the helper for *nisam, nije, nismo*, in the future swap *ću* for *neću* and restore the full *-ti*. The last item also swaps a **ne-** word for its **ni-** twin.
+infokratko: Present *ne* + verb; past *nisam, nije*; future *neću* + full *-ti*; **ne-** → **ni-**.
 opis: Negate it. Only the verb part changes — except in the last one.
 - Imam psa. → | Nemam psa
 - Ona je doma. → | Ona nije doma
@@ -62,6 +65,7 @@ opis: Negate it. Only the verb part changes — except in the last one.
 ## The grammatical sentence
 format: izbor
 info: Choosing the sentence a Croatian would say. Three checks decide it: the fused forms are one word, a negative word such as *ništa* or *nikoga* still needs *ne* on the verb, and a participle keeps the speaker's gender after *nisam*.
+infokratko: Fused forms one word; *ništa, nikoga* keep *ne*; participle keeps the gender.
 opis: Choose the grammatical sentence.
 - I never eat onion. | Nikad ne jedem luk. | Nikad jedem luk. | Ne nikad jedem luk.
 - I know nothing! | Ništa ne znam! | Ništa znam! | Nešto ne znam!
@@ -79,6 +83,7 @@ opis: Choose the grammatical sentence.
 ## The rule: why ništa needs ne
 format: tekst
 info: The negative words. In Croatian the verb itself must be negative whenever the sentence is, so *ništa*, *nitko*, *nigdje* and *nikad* are added to *ne* and never replace it. Each has a positive twin with **ne-**, and those take no *ne* on the verb.
+infokratko: *ništa, nitko, nigdje, nikad* come with *ne*, never instead. **ne-** twins take no *ne*.
 infoodmah: da
 - **The verb carries the negation.** Whenever a sentence says no, the verb is negative — *ne*, *nisam* or *neću*. A negative word adds to that; it never replaces it.
 - tab: Positive (ne-) | Negative (ni-) | Example
@@ -97,6 +102,7 @@ infoodmah: da
 ## Tap the ending
 format: nastavak
 info: One tap in front of each word, and the English decides it. **Ni-** gives the negative word and **ne-** the positive twin; the same taps build *nisam*, *nemam*, *neće*, and *ne* can also stand alone in front of a verb. The dash means the sentence is positive.
+infokratko: **ni-** negative, **ne-** positive; also *nisam, nemam, neće*. Dash = positive.
 nastavci: ni | ne | -
 opis: English above, Croatian below. One tap — or none, if nothing is negative.
 - Ja ___šta ne želim. | I don't want anything. | ni
@@ -121,6 +127,7 @@ opis: English above, Croatian below. One tap — or none, if nothing is negative
 ## nešto or ništa?
 format: izbor
 info: Choosing between the positive and the negative twin, with the English as your guide. The **ni-** word goes with a negative verb, the **ne-** word with a positive one. Two items also ask for the target form: *nikoga*, *nekoga*.
+infokratko: **ni-** with a negative verb, **ne-** with a positive one. Target: *nikoga, nekoga*.
 opis: The meaning is in brackets. Pick the word that matches it — and fits the verb.
 - Marko ___ ne jede. (nothing) | ništa | nešto | nitko
 - Marko ___ jede. (something) | nešto | ništa | netko
@@ -138,6 +145,7 @@ opis: The meaning is in brackets. Pick the word that matches it — and fits the
 ## Answer with a negative word
 format: upis
 info: Full negative answers. Put the negative word first or after the verb — both orders are accepted — but the verb must be negative too: *ne* in the present, *nisam* in the past, *neću* in the future. Two items tell you who is answering.
+infokratko: Negative word first or after the verb; the verb is negative too: *ne, nisam, neću*.
 opis: Answer the question with a full sentence: nothing, nobody, nowhere, never.
 - Što jedeš? → | Ništa ne jedem / Ne jedem ništa
 - Tko kuha? → | Nitko ne kuha
@@ -155,6 +163,7 @@ opis: Answer the question with a full sentence: nothing, nobody, nowhere, never.
 ## The rule: neither, nor, yet, any more
 format: tekst
 info: Four small additions to the negative. *Ni… ni…* rules out two things, *ni* alone means *not even* or *either*, *još ne* means *not yet* and *više ne* means *no longer*. In all of them the verb keeps its *ne*.
+infokratko: *ni... ni...* neither/nor, *ni* not even, *još ne* not yet, *više ne* no longer. *ne* stays.
 - **ni… ni… — neither… nor…** Each thing gets its own *ni*, and the verb still takes *ne*: *Ne jedem **ni** meso **ni** ribu.* At the start of a sentence the verb is plural: ***Ni** Marko **ni** Ana **ne** jedu luk.*
 - **ni alone — not even, (not) either:** *Ne pijem **ni** vodu.* — I don't even drink water. · *Ana ne jede meso. Ne jede **ni** ribu.* — She doesn't eat fish either.
 - **još and više change the time.**
@@ -169,6 +178,7 @@ info: Four small additions to the negative. *Ni… ni…* rules out two things, 
 ## ni, još ne or više ne?
 format: izbor
 info: Choosing the sentence that matches the English. *Ni… ni…* needs *ne* on the verb, *još* means the thing has not started yet, and *više* means it has stopped. Without a negative verb, *više* means *more*, so *Više sam gladan* says something else.
+infokratko: *još ne* = not yet, *više ne* = no longer. Without *ne*, *više* = more.
 opis: Choose the Croatian sentence that matches the English.
 - I eat neither meat nor fish. | Ne jedem ni meso ni ribu. | Ne jedem i meso i ribu. | Jedem ni meso ni ribu.
 - Neither Marko nor Ana eats onion. | Ni Marko ni Ana ne jedu luk. | Ni Marko ni Ana jedu luk. | Ne Marko ne Ana ne jedu luk.
@@ -184,6 +194,7 @@ opis: Choose the Croatian sentence that matches the English.
 ## The rule: not this — but that
 format: tekst
 info: *Ali* and *nego*, which English translates with the same *but*. *Ali* adds a second fact while the first stays true; *nego* follows a negative and replaces the part that was cancelled. A comma stands before both.
+infokratko: *ali* adds; *nego* replaces after a negative. Comma before both.
 - *Ali* joins two things that are **both true**. **Nego** corrects a negative: the first half is cancelled and the second half takes its place. *Nego* appears only after a negation.
 - tab: Croatian | English
 - tab: Ne pijem kavu, **nego** čaj. | I don't drink coffee, I drink tea.
@@ -199,6 +210,7 @@ info: *Ali* and *nego*, which English translates with the same *but*. *Ali* adds
 ## ali or nego?
 format: izbor
 info: One question decides each item: is the first half still true, or is it being corrected? If it stays true, *ali* adds a second fact. If it is cancelled, *nego* supplies the replacement — and in that case the second half usually has no verb of its own.
+infokratko: First half still true → *ali*. Cancelled → *nego*.
 opis: Is the first half still true (ali), or is it being corrected (nego)?
 - To nije čaj, ___ kava. | nego | ali
 - Kava nije dobra, ___ je topla. | ali | nego
@@ -216,6 +228,7 @@ opis: Is the first half still true (ali), or is it being corrected (nego)?
 ## Correct it with nego
 format: upis
 info: Cancelling the wrong half and giving the right one. Type *nego*, or type the replacement itself — and a replacement that is the target of the verb takes the target form, so *riba* becomes *ribu* after *Ne jedem piletinu, nego…*
+infokratko: *nego* + the replacement; a target takes target form: *Ne jedem piletinu, nego ribu.*
 opis: Cancel the wrong half and give the right one.
 - Ne pijem kavu, ___ čaj. | nego
 - To nije juha, ___ salata. | nego
@@ -231,6 +244,7 @@ opis: Cancel the wrong half and give the right one.
 ## Build the sentence
 format: slaganje
 info: Whole sentences from tiles, and each one uses a different piece of this unit. *Ne* goes in front of the verb, a negative word still leaves *ne* on the verb, and a comma comes before *ali* and *nego*.
+infokratko: *ne* before the verb; negative words keep *ne*; comma before *ali*, *nego*.
 opis: Build the sentence.
 - Ne volim ni juhu ni ribu.
 - Marko nikad ništa ne jede.
@@ -248,6 +262,7 @@ opis: Build the sentence.
 ## Write the whole sentence
 format: upis
 info: Free production from English, the hardest step here. Put *ne* in front of the verb or use a fused form, keep *ne* on the verb beside every negative word, and choose *nego* when the second half replaces the first. Where the speaker's gender shows, both forms are accepted unless the prompt says otherwise.
+infokratko: *ne* or a fused form; *ne* with every negative word; *nego* to replace.
 opis: The last step — the English sentence, and you write the Croatian.
 - I don't like onion. | Ne volim luk
 - I'm not hungry. | Nisam gladan / Nisam gladna
@@ -269,6 +284,7 @@ opis: The last step — the English sentence, and you write the Croatian.
 ## You can do this now
 format: tekst
 info: A closing summary. Negation at this level comes down to three facts: *ne* stands in front of the verb, three verbs join it into one word, and every negative word keeps *ne* on the verb. *Nego* corrects a negative; *ali* adds to it.
+infokratko: *ne* before the verb, three fused verbs, *ne* with negative words. *nego* corrects, *ali* adds.
 - **Bravo.** You can now say no in the present, the past and the future, with *ne* or with *nisam, nemam, neću*.
 - And you did it with one rule for each: **the verb carries the negation**, **negative words add to *ne* and never replace it**, and ***nego* corrects, while *ali* adds.**
 - **Next up:** Practice 12 puts it all into a family of picky eaters and a restaurant with an empty kitchen, and Test 12 closes the unit. Then Lesson 13 shows where things are — *u gradu, u kinu, na tržnici.*
