@@ -2185,6 +2185,14 @@
   .progValK .doKud { font-size: var(--t-xs); color: var(--muted); margin-top: 0.375rem; }
   .progValK .doKud b { color: var(--ink); font-weight: 700; }
   .progValK.pun .doKud { color: var(--zelena); }
+  /* Cijeli tečaj (27.09.2026.): namjerno tiho, ispod mreže, ne na vrhu — početniku bi
+     "0,3 %" na vrhu stranice bilo obeshrabrujuće. Neutralna boja, tanka traka, sitan tekst. */
+  .progCijeli { margin: 1.25rem 0 0; max-width: 26rem; color: var(--muted); font-size: var(--t-xs); }
+  .progCijeli .red { display: flex; justify-content: space-between; margin-bottom: 0.3125rem; }
+  .progCijeli .red b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .progCijeli .progStaza { height: 3px; }
+  .progCijeli .progStaza i { background: var(--muted); opacity: .6; }
+  .progCijeli .pod { margin-top: 0.3125rem; }
 
   .progStat { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
   .progStatK { background: var(--papir); border: 1px solid var(--rub); border-radius: var(--rad-m);
@@ -11067,6 +11075,21 @@
         '<span><i class="pun"></i> everything earned</span>' +
         '<span><i class="zak"></i> locked — hover to see what it needs</span>' +
       '</div><div id="progLadica"></div>';
+
+    // ---- cijeli tečaj: jedan tihi postotak (bodovi vježbi L1–L20 + mini igre; bez streaka i dailyja) ----
+    var cijeliOsv = 0, cijeliMaks = 0;
+    TIPOVI.forEach(function (t) {
+      for (var rz = 1; rz <= MAX_RAZINA; rz++) { cijeliMaks += maksCjeline(t, rz); cijeliOsv += progOsv(t, rz); }
+    });
+    cijeliMaks += miniMaks(); cijeliOsv += miniBodovi();
+    if (cijeliMaks > 0) {
+      var cijeliP = cijeliOsv / cijeliMaks * 100;
+      var cijeliTxt = cijeliP >= 1 ? Math.floor(cijeliP) + '%' : (cijeliP > 0 ? cijeliP.toFixed(1) + '%' : '0%');
+      trake.push({ id: 'pv_cijeli', pct: Math.min(1, cijeliOsv / cijeliMaks) });
+      h += '<div class="progCijeli"><div class="red"><span>The whole course</span><b>' + cijeliTxt + '</b></div>' +
+        '<div class="progStaza"><i id="pv_cijeli"></i></div>' +
+        '<div class="pod">All exercise points across the ' + MAX_RAZINA + ' levels, plus the mini games.</div></div>';
+    }
 
     // ---- vrijedi se vratiti ----
     var popravi = progPopravi(6);
