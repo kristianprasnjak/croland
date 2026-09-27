@@ -18,8 +18,14 @@
      kljuc:   'croland.daily.kuhinja.2026-09-20',   // localStorage ključ napretka
      mini:    'croland-mini-kuhinja',        // neobavezno; zadano 'croland-mini-<id>'
      uvod:    'Five things...',              // neobavezno: rečenica u uputama
-     pojmovi: [ {id, x, y, w, h, o:[...]} ]  // x,y,w,h u postotcima slike
+     pojmovi: [ {id, x, y, w, h, o:[...]} ], // x,y,w,h u postotcima slike
+     recenice: [ {hr:'...', en:'...'} ]      // neobavezno (daily od 28.09.2026.): kratka priča
    }
+
+   Priča (recenice): hrvatske rečenice u kojima se pojmovi sa slike javljaju u raznim
+   oblicima, i njihovi engleski prijevodi izmiješani u drugom stupcu. Igrač spaja parove.
+   Priča je vidljiva cijelo vrijeme rješavanja (dolje na mobitelu, desno na širokom ekranu).
+   Izazov je dovršen tek kad su nađeni svi pojmovi I spojene sve rečenice.
 
    Dovršen izazov javlja aplikaciji (ako je u okviru): parent.crolandIzazovGotov(
    {id, vrsta, ukupno}) — ondje se pali streak. */
@@ -59,6 +65,7 @@ document.body.innerHTML =
       '<button class="gi glavni" id="gPokazi" title="Signal every word still missing">✨<small>Show</small></button>'+
       '<button class="gi" id="gInfo" title="How it works">?</button>'+
     '</div>'+
+    '<div class="sredina'+(K.recenice && K.recenice.length ? ' imaPricu' : '')+'">'+
     '<div class="scena" id="scena">'+
       '<div class="platno" id="platno">'+
         '<img id="slika" src="'+esc(K.slika||'')+'" alt="'+esc(K.stil||K.ime||'')+'">'+
@@ -73,6 +80,8 @@ document.body.innerHTML =
         '</div>'+
       '</form>'+
       '<div class="poruka" id="poruka"></div>'+
+    '</div>'+
+    (K.recenice && K.recenice.length ? '<section class="prica" id="prica"></section>' : '')+
     '</div>'+
   '</div>'+
   '<div class="zastor" id="zastor"><div class="kut" id="kut"></div></div>';
@@ -95,17 +104,19 @@ var scena = $("#scena"), platno = $("#platno"), upis = $("#upis"),
     polje = $("#polje"), poruka = $("#poruka"), brojac = $("#brojac"),
     natuknica = $("#natuknica"), zastor = $("#zastor"), kut = $("#kut");
 
-var S = { k:1, tx:0, ty:0, aktivan:null, rijeseni:{}, pocetak:Date.now() };
+var S = { k:1, tx:0, ty:0, aktivan:null, rijeseni:{}, spojeni:{}, pocetak:Date.now() };
+var RECENICE = K.recenice || [];
 var kmin = .2, kmax = 6, kpocetni = 1;
 
 try{
   var spremljeno = JSON.parse(localStorage.getItem(KLJUC) || "{}");
   if (spremljeno && spremljeno.rijeseni) S.rijeseni = spremljeno.rijeseni;
+  if (spremljeno && spremljeno.spojeni) S.spojeni = spremljeno.spojeni;
 }catch(e){}
 
 function spremi(){
   try{
-    localStorage.setItem(KLJUC, JSON.stringify({rijeseni:S.rijeseni}));
+    localStorage.setItem(KLJUC, JSON.stringify({rijeseni:S.rijeseni, spojeni:S.spojeni}));
     var n = Object.keys(S.rijeseni).length;
     localStorage.setItem(MINI, JSON.stringify(
       n >= UKUPNO ? {naplaceno:n} : {najbolje:n}
@@ -289,7 +300,7 @@ upis.addEventListener("submit", function(e){
     var n = osvjeziStanja();
     zatvori();
     javi("Correct!", "dobro");
-    if (n === UKUPNO){ javiGotovo(); setTimeout(kraj, 700); }
+    if (n === UKUPNO) provjeriKraj();
   } else {
     upis.classList.remove("krivo");
     void upis.offsetWidth;
@@ -497,6 +508,8 @@ function upute(){
       '<li>Lost? <b>✨ Show</b> flashes everything still missing, left to right.</li>'+
       '<li>Zoom is yours: pinch, double-tap or the − / + buttons. Tapping an object never changes it.</li>'+
       '<li>Drag to move around the picture.</li>'+
+      (RECENICE.length ? '<li>Below the picture is a short story. Its Croatian sentences use the same words, '+
+        'not always in the same form. Tap a Croatian sentence, then its English meaning.</li>' : '')+
     '</ul>'+
     '<button class="g glavni" id="_z">Got it</button>'+
     '<button class="g" id="_r">Start over</button>'
@@ -504,7 +517,7 @@ function upute(){
   $("#_z").onclick = function(){ zastor.classList.remove("vidi"); };
   $("#_r").onclick = function(){
     if (!confirm("Clear all found words?")) return;
-    S.rijeseni = {}; spremi(); osvjeziStanja();
+    S.rijeseni = {}; S.spojeni = {}; spremi(); osvjeziStanja(); crtajPricu();
     zastor.classList.remove("vidi"); pocetniPogled();
   };
 }
@@ -514,13 +527,14 @@ function kraj(){
   konfeti();
   panel(
     '<h3>All '+UKUPNO+'!</h3>'+
-    '<p>'+(K.kraj ? esc(K.kraj) : 'You named every object in the picture — in Croatian.')+'</p>'+
+    '<p>'+(K.kraj ? esc(K.kraj) : 'You named every object in the picture — in Croatian.')+
+      (RECENICE.length ? ' And you read the whole story.' : '')+'</p>'+
     '<button class="g glavni" id="_z">Nice</button>'+
     '<button class="g" id="_r">Play again</button>'
   );
   $("#_z").onclick = function(){ zastor.classList.remove("vidi"); };
   $("#_r").onclick = function(){
-    S.rijeseni = {}; spremi(); osvjeziStanja();
+    S.rijeseni = {}; S.spojeni = {}; spremi(); osvjeziStanja(); crtajPricu();
     zastor.classList.remove("vidi"); pocetniPogled();
   };
 }
@@ -546,12 +560,88 @@ function konfeti(){
   }
 }
 
+/* ───────────── priča: spajanje rečenica ───────────── */
+function spojenoBroj(){ var n=0; for (var i=0;i<RECENICE.length;i++) if (S.spojeni[i]) n++; return n; }
+function sveGotovo(){
+  return Object.keys(S.rijeseni).length >= UKUPNO && spojenoBroj() >= RECENICE.length;
+}
+function provjeriKraj(){
+  if (!sveGotovo()){
+    if (RECENICE.length && Object.keys(S.rijeseni).length >= UKUPNO)
+      javi("All words found — now finish the story", "dobro");
+    return;
+  }
+  javiGotovo(); setTimeout(kraj, 700);
+}
+/* Engleski stupac: izmiješan, ali uvijek isto za isti izazov (inače bi se red
+   mijenjao pri svakom otvaranju i igrač bi izgubio orijentaciju). */
+var EN_RED = (function(){
+  var r = RECENICE.map(function(_,i){ return i; });
+  var sjeme = 0, t = String(K.id || '') + String(K.kljuc || '');
+  for (var i=0;i<t.length;i++) sjeme = (sjeme*31 + t.charCodeAt(i)) >>> 0;
+  function slucajno(){ sjeme = (sjeme*1664525 + 1013904223) >>> 0; return sjeme/4294967296; }
+  for (var j=r.length-1;j>0;j--){ var k = Math.floor(slucajno()*(j+1)); var x=r[j]; r[j]=r[k]; r[k]=x; }
+  /* nijedna rečenica ne smije stajati točno nasuprot svom paru */
+  for (var a=0;a<r.length && r.length>1;a++) if (r[a]===a){ var b=(a+1)%r.length; var y=r[a]; r[a]=r[b]; r[b]=y; }
+  return r;
+})();
+var odabranaHr = null;
+var PRICA_SKUPLJENA = false;
+function crtajPricu(){
+  var el = document.getElementById("prica"); if (!el || !RECENICE.length) return;
+  var n = spojenoBroj();
+  var h = '<div class="pricaGlava"><b>Story</b><span class="pricaBroj">'+n+' / '+RECENICE.length+' matched</span>'+
+    '<button type="button" class="pricaSkupi" id="pricaSkupi" aria-label="Show or hide the story">'+
+    (PRICA_SKUPLJENA ? '▴' : '▾')+'</button></div>';
+  if (!PRICA_SKUPLJENA){
+    h += '<p class="pricaUputa">Tap a Croatian sentence, then its English meaning.</p><div class="pricaStupci"><ol class="pricaHr">';
+    RECENICE.forEach(function(r,i){
+      var sp = !!S.spojeni[i];
+      h += '<li><button type="button" data-hr="'+i+'" class="'+(sp?'spojen':'')+(odabranaHr===i?' odabran':'')+'"'+
+        (sp?' disabled':'')+'><span class="br">'+(i+1)+'</span>'+esc(r.hr)+'</button></li>';
+    });
+    h += '</ol><ul class="pricaEn">';
+    EN_RED.forEach(function(i){
+      var sp = !!S.spojeni[i];
+      h += '<li><button type="button" data-en="'+i+'" class="'+(sp?'spojen':'')+'"'+(sp?' disabled':'')+'>'+
+        (sp ? '<span class="br">'+(i+1)+'</span>' : '')+esc(RECENICE[i].en)+'</button></li>';
+    });
+    h += '</ul></div>';
+  }
+  el.innerHTML = h;
+  el.classList.toggle("skupljena", PRICA_SKUPLJENA);
+  document.getElementById("pricaSkupi").onclick = function(){
+    PRICA_SKUPLJENA = !PRICA_SKUPLJENA; crtajPricu();
+    setTimeout(function(){ postavi(); granice(); primijeni(false); }, 30);
+  };
+  Array.prototype.forEach.call(el.querySelectorAll("[data-hr]"), function(b){
+    b.onclick = function(){
+      var i = +b.getAttribute("data-hr");
+      odabranaHr = (odabranaHr === i) ? null : i; crtajPricu();
+    };
+  });
+  Array.prototype.forEach.call(el.querySelectorAll("[data-en]"), function(b){
+    b.onclick = function(){
+      var i = +b.getAttribute("data-en");
+      if (odabranaHr === null){ javi("First tap a Croatian sentence", ""); return; }
+      if (i === odabranaHr){
+        S.spojeni[i] = 1; odabranaHr = null; spremi(); crtajPricu();
+        javi("Correct!", "dobro");
+        if (spojenoBroj() >= RECENICE.length) provjeriKraj();
+      } else {
+        b.classList.remove("krivo"); void b.offsetWidth; b.classList.add("krivo");
+      }
+    };
+  });
+}
+
 /* ───────────── start ───────────── */
 function start(){
   visina();
   pocetniPogled();
   var n = osvjeziStanja();
-  if (n >= UKUPNO) javiGotovo();          /* već riješen: streak se ionako pali jednom na dan */
+  if (sveGotovo()) javiGotovo();          /* već riješen: streak se ionako pali jednom na dan */
+  crtajPricu();
   if (!localStorage.getItem(KLJUC+".vidio")){
     try{ localStorage.setItem(KLJUC+".vidio","1"); }catch(e){}
     upute();

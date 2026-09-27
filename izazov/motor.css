@@ -123,3 +123,38 @@ body{
 .g:active{transform:translateY(3px);box-shadow:0 1px 0 var(--tinta)}
 .g.glavni{background:var(--zut)}
 .konfet{position:fixed;width:10px;height:14px;z-index:90;pointer-events:none;border-radius:2px}
+
+/* ---- priča uz sliku (daily od 28.09.2026.) ----
+   Mobitel/uski ekran: ispod slike, najviše ~42 % visine, može se skupiti.
+   Široki ekran: desno od slike, cijelom visinom. */
+.sredina{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+.sredina .scena{min-height:0}
+.prica{flex:0 0 auto;max-height:42%;overflow:auto;background:var(--papir);border-top:3px solid var(--tinta);
+  padding:10px 12px 14px}
+.prica.skupljena{padding-bottom:10px}
+.pricaGlava{display:flex;align-items:center;gap:8px}
+.pricaGlava b{font-size:15px;font-weight:800}
+.pricaBroj{font-size:12px;font-weight:800;color:var(--meko);margin-right:auto}
+.pricaSkupi{font:inherit;font-weight:900;border:2px solid var(--tinta);border-radius:999px;background:#fff;
+  width:30px;height:30px;cursor:pointer;color:var(--tinta)}
+.pricaUputa{font-size:12px;color:var(--meko);margin:4px 0 8px}
+.pricaStupci{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pricaStupci ol,.pricaStupci ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.pricaStupci button{font:inherit;font-size:14px;line-height:1.35;text-align:left;width:100%;cursor:pointer;
+  border:2px solid var(--tinta);border-radius:12px;background:#fff;color:var(--tinta);padding:7px 9px;
+  box-shadow:0 2px 0 var(--tinta);display:flex;gap:7px;align-items:flex-start}
+.pricaHr button{font-weight:700}
+.pricaStupci button .br{flex:0 0 auto;min-width:20px;height:20px;border-radius:999px;background:var(--papir2);
+  border:2px solid var(--tinta);font-size:11px;font-weight:900;display:inline-flex;align-items:center;justify-content:center}
+.pricaStupci button.odabran{background:var(--zut)}
+.pricaStupci button.spojen{background:rgba(124,179,66,.16);border-color:rgba(124,179,66,.9);box-shadow:none;cursor:default}
+.pricaStupci button.spojen .br{background:var(--zelena);color:#fff}
+.pricaStupci button.krivo{animation:tresi .32s;border-color:var(--koralj)}
+@media (max-width:560px){ .pricaStupci button{font-size:13px;padding:6px 7px} }
+@media (min-width:900px){
+  .sredina.imaPricu{flex-direction:row}
+  .sredina.imaPricu .scena{flex:1 1 auto}
+  .sredina.imaPricu .prica{flex:0 0 380px;max-height:none;border-top:0;border-left:3px solid var(--tinta)}
+  .sredina.imaPricu .pricaStupci{grid-template-columns:1fr}
+  .sredina.imaPricu .pricaSkupi{display:none}
+}

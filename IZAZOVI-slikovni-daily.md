@@ -49,3 +49,19 @@ upisuje u niz. Bodovi niza idu u sve četiri valute, kao i dosad.
 
 Dailyji prije 20. rujna 2026. bili su priča + vježbe (`igre/daily-*.md`, `data.js`).
 Ostaju kao arhiva i i dalje rade za svoje datume; novi se rade samo u ovom obliku.
+
+## Priča uz sliku (od 27.09.2026.)
+
+Daily dobiva i kratku priču: 3–5 hrvatskih rečenica u kojima se pojmovi sa slike javljaju
+u raznim oblicima (*u kadi, iz čaše, pred ogledalom*), i njihovi engleski prijevodi izmiješani
+u drugom stupcu. Igrač spaja parove. Jedna rečenica smije pokriti više pojmova.
+
+- U podacima izazova: `recenice: [ {hr:'...', en:'...'}, ... ]` (vidi `daily/2026-09-27-kupaonica.html`).
+- Samo pasivna gramatika: oblici se vide, ali se ne traže u upisu.
+- Priča je vidljiva cijelo vrijeme: ispod slike na mobitelu (može se skupiti), desno na širokom ekranu.
+- Izazov je dovršen (i streak se pali) tek kad su nađeni svi pojmovi **i** spojene sve rečenice.
+- Engleski stupac je izmiješan uvijek istim redom za isti izazov, i nijedna rečenica ne stoji
+  točno nasuprot svom paru.
+- Pravilo tragova vrijedi i ovdje: ime, broj ili internacionalizam ne smije odati par sam od sebe.
+- Slika: original ide u `slike nekompresirano/daily/`, a u `daily/slike/` samo WebP 1024 px
+  (mapa `daily/` se cijela objavljuje).

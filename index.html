@@ -3158,7 +3158,12 @@
     { id: 'proba', dat: '2026-09-20-proba.html', ime: 'Tržnica', stil: 'Five things at the market',
       emo: '🍎', datum: '2026-09-20', pojmova: 5,
       kljuc: 'croland.daily.proba.2026-09-20',
-      opis: 'Tap five things in the picture and type their Croatian names.' }
+      opis: 'Tap five things in the picture and type their Croatian names.' },
+    // Od 27.09.2026. daily ima i kratku priču: rečenice se spajaju s engleskim prijevodom.
+    { id: 'kupaonica', dat: '2026-09-27-kupaonica.html', ime: 'Kupaonica', stil: 'Seven things in the bathroom',
+      emo: '🛁', datum: '2026-09-27', pojmova: 7,
+      kljuc: 'croland.daily.kupaonica.2026-09-27',
+      opis: 'Name seven things in the picture, then match a short story with its English.' }
   ];
   function dailySlikaPoId(id) {
     for (var i = 0; i < DAILY_SLIKE.length; i++) if (DAILY_SLIKE[i].id === id) return DAILY_SLIKE[i];

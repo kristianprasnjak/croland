@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Kupaonica</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Sve je u podacima — mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori (mala slova, bez kvačica).
+   recenice: priča u kojoj se pojmovi javljaju u raznim oblicima (samo pasivna gramatika). */
+window.IZAZOV = {
+  id: "kupaonica",
+  vrsta: "daily",
+  ime: "Kupaonica",
+  stil: "the bathroom",
+  slika: "slike/kupaonica.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.kupaonica.2026-09-27",
+  uvod: "Seven things are hiding in this bathroom. Tap one — it lights up — then type its Croatian name. The short story below uses the same words.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"ogledalo",  x:66.5, y:6.5,  w:24.5, h:45.0, o:["ogledalo","ogledala","ogledalu","zrcalo","zrcala","spigl"]},
+    {id:"kada",      x:6.5,  y:53.5, w:45.0, h:35.5, o:["kada","kade","kadu","kadi","kadica"]},
+    {id:"umivaonik", x:51.0, y:64.0, w:43.5, h:29.5, o:["umivaonik","umivaonika","umivaoniku","lavabo","lavandin","umivaonici"]},
+    {id:"sapun",     x:62.0, y:58.0, w:8.5,  h:8.0,  o:["sapun","sapuna","sapuni","sapunic","komad sapuna"]},
+    {id:"slavina",   x:71.0, y:59.5, w:10.5, h:8.5,  o:["slavina","slavine","slavinu","pipa","pipe","pipu","spina"]},
+    {id:"casa",      x:85.0, y:58.0, w:6.0,  h:12.5, o:["casa","case","casu","casica","salica","salice"]},
+    {id:"cetkica",   x:88.0, y:46.5, w:4.5,  h:12.0, o:["cetkica","cetkica za zube","cetkicu","cetkice","cetka","cetka za zube","zubna cetkica"]}
+  ],
+  recenice: [
+    {hr:"Svako jutro Ana pjeva u kadi, a mačka je sluša s vrata.",
+     en:"Every morning Ana sings in the bathtub, and the cat listens from the door."},
+    {hr:"Onda uzima četkicu iz čaše i pere zube pred ogledalom.",
+     en:"Then she takes the toothbrush out of the cup and brushes her teeth in front of the mirror."},
+    {hr:"Sapun je mali i zelen, ali miriše na more.",
+     en:"The soap is small and green, but it smells of the sea."},
+    {hr:"Slavina na umivaoniku stalno kaplje, pa Ana zove tatu.",
+     en:"The tap on the washbasin keeps dripping, so Ana calls her dad."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>
