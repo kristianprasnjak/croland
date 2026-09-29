@@ -553,37 +553,63 @@
      Lice: engleski. Nalicje: slika, hrvatska riječ, zvučnik i "+" za rječnik.
      Oba lica stoje u istoj ćeliji grida, pa je kartica visoka koliko viši od njih
      i ništa ne skače pri okretanju. */
-  .kartaVok { cursor: pointer; perspective: 900px; text-align: center; -webkit-tap-highlight-color: transparent; }
-  .kartaVok .okret { display: grid; transition: transform .5s cubic-bezier(.3,.1,.25,1); transform-style: preserve-3d; height: 100%; }
+  /* Karta je u omjeru prave igraće karte (5:7). Veličine unutra idu u cqi, pa
+     slika, riječ i gumbi ostaju u istom omjeru na svakoj širini stupca.
+     Pismo je uvijek ono odabrano u Options (--tekst), i na gumbima. */
+  .kartaVok { cursor: pointer; perspective: 900px; text-align: center; -webkit-tap-highlight-color: transparent;
+    container-type: inline-size; font-family: var(--tekst); }
+  .kartaVok .okret { display: grid; transition: transform .5s cubic-bezier(.3,.1,.25,1); transform-style: preserve-3d;
+    aspect-ratio: 5 / 7; }
   .kartaVok.okrenuta .okret { transform: rotateY(180deg); }
   .kartaVok .lice { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden;
-    border: 2px solid var(--rub); border-radius: var(--rad-m); padding: 0.75rem; background: #fffdfa;
-    display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 6.5rem; }
-  .kartaVok .lice.nalicje { transform: rotateY(180deg); position: relative; }
-  .kartaVok:hover .lice, .kartaVok:focus-visible .lice { border-color: var(--plava); }
+    border-radius: 6cqi; overflow: hidden; min-width: 0; min-height: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 3px 10px rgba(0,0,0,.06); transition: box-shadow .15s; }
+  .kartaVok:hover .lice, .kartaVok:focus-visible .lice { box-shadow: 0 0 0 2px var(--plava), 0 4px 14px rgba(0,0,0,.1); }
   .kartaVok:focus-visible { outline: none; }
-  .kartaVok .en { font-size: var(--t-l); font-weight: 600; color: var(--ink); }
-  .kartaVok .okreniNat { font-size: var(--t-2xs); color: var(--muted); margin-top: 0.375rem; letter-spacing: .03em; }
-  /* Naličje po skici: okrugla slika u sredini, zvučnik i + jedan ispod drugoga
-     u gornjem desnom kutu (zadiru u rub kruga), krupna riječ ispod. */
-  .kartaVok .nalicje { padding: 0.75rem 0.75rem 0.875rem; justify-content: flex-start; }
-  .kartaVok .krugSlika { width: 7.5rem; height: 7.5rem; border-radius: 50%; border: 2px solid var(--ink);
-    overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center; margin: 0.25rem auto 0.625rem; }
-  .kartaVok .krugSlika.bezSlike { font-family: var(--naslov, inherit); font-size: 3rem; font-weight: 700; color: #d8d1c5; }
-  .kartaVok .krugSlika img { width: 82%; height: 82%; object-fit: contain; margin: 0; max-height: none; border-radius: 0; }
-  .kartaVok .hr { font-size: var(--t-2xl); font-weight: 800; line-height: 1.15; word-break: break-word; }
-  .kartaVok .kutGumbi { position: absolute; top: 0.5rem; right: 0.5rem; display: flex; flex-direction: column; gap: 0.375rem; z-index: 2; }
-  .kartaVok .kutGumb { width: 2.25rem; height: 2.25rem; border-radius: 50%; border: 2px solid #9a9a9a; background: #fff;
-    color: #7a7a7a; display: inline-flex; align-items: center; justify-content: center; padding: 0; margin: 0;
-    font-size: 1.25rem; font-weight: 400; line-height: 1; cursor: pointer; opacity: 1;
+
+  /* Lice (engleski) = poleđina igraće karte: puna boja teme, tanak unutarnji
+     okvir, mreža rombova i u sredini svijetla pločica s riječju. */
+  .kartaVok .lice.prednje { background: var(--plava); padding: 5cqi; }
+  .kartaVok .okvirKarte {
+    position: relative; width: 100%; height: 100%; border-radius: 3.5cqi;
+    border: max(1px, 0.8cqi) solid rgba(255,255,255,.55);
+    background:
+      repeating-linear-gradient(45deg, rgba(255,255,255,.13) 0 max(1px, .6cqi), transparent 0 11cqi),
+      repeating-linear-gradient(-45deg, rgba(255,255,255,.13) 0 max(1px, .6cqi), transparent 0 11cqi);
+    display: flex; align-items: center; justify-content: center; padding: 6cqi;
+  }
+  .kartaVok .kartus {
+    background: #fff; border-radius: 3cqi; padding: 7cqi 6cqi; width: 100%;
+    box-shadow: 0 0 0 max(1px, .8cqi) var(--plava), 0 0 0 max(2px, 1.6cqi) rgba(255,255,255,.55);
+  }
+  .kartaVok .en { font-size: clamp(0.8rem, 10cqi, 1.35rem); font-weight: 700; color: var(--ink);
+    line-height: 1.2; overflow-wrap: anywhere; }
+  .kartaVok .okreniNat { font-size: clamp(0.62rem, 6cqi, 0.75rem); color: var(--muted); margin-top: 3cqi; letter-spacing: .04em; }
+
+  /* Naličje (hrvatski): bijelo, slika zauzima veći dio karte, riječ ispod. */
+  .kartaVok .lice.nalicje { transform: rotateY(180deg); position: relative; background: #fff;
+    border: 1px solid var(--rub); justify-content: flex-start; padding: 6cqi 6cqi 5cqi; }
+  .kartaVok .slikaKarte { flex: 1 1 auto; width: 100%; min-height: 0; display: flex; align-items: center; justify-content: center; }
+  .kartaVok .slikaKarte img { width: 100%; height: 100%; object-fit: contain; margin: 0; max-height: none; border-radius: 0; }
+  .kartaVok .slikaKarte.bezSlike { background: var(--tiho); border-radius: 4cqi;
+    font-size: 34cqi; font-weight: 700; color: var(--rub); }
+  .kartaVok .hr { flex: none; width: 100%; padding-top: 4cqi; font-size: clamp(0.95rem, 12cqi, 1.75rem);
+    font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; color: var(--ink); }
+  .kartaVok .kutGumbi { position: absolute; top: 4cqi; right: 4cqi; display: flex; flex-direction: column; gap: 2.5cqi; z-index: 2; }
+  .kartaVok .kutGumb { width: clamp(1.75rem, 17cqi, 2.25rem); height: clamp(1.75rem, 17cqi, 2.25rem); border-radius: 50%;
+    border: 1px solid var(--rub); background: rgba(255,255,255,.92); box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    color: var(--muted); display: inline-flex; align-items: center; justify-content: center; padding: 0; margin: 0;
+    font-family: inherit; font-size: clamp(1rem, 10cqi, 1.2rem); font-weight: 400; line-height: 1; cursor: pointer; opacity: 1;
     transition: border-color .15s, color .15s, transform .15s; }
   .kartaVok .kutGumb:hover { border-color: var(--plava); color: var(--plava); transform: none; }
   .kartaVok .kutGumb:active { transform: scale(.92); }
   .kartaVok .zvucnik.kutGumb.svira { border-color: var(--plava); color: var(--plava); }
   .kartaVok .plusRj.dodano { border-color: var(--zelena); color: var(--zelena); background: #f4f9f5; cursor: default; font-size: 1rem; }
-  /* riječ koju polaznik već ima u rječniku (npr. iz Lesson 0) */
-  .kartaVok.imaVec .lice { border-color: var(--zelena); background: #f4f9f5; }
-  .kartaVok .vecZnas { font-size: var(--t-xs); font-weight: 700; color: var(--zelena); margin-top: 0.375rem; letter-spacing: .02em; }
+  /* riječ koju polaznik već ima u rječniku (npr. iz Lesson 0): poleđina u zelenoj */
+  .kartaVok.imaVec .lice.prednje { background: var(--zelena); }
+  .kartaVok.imaVec .kartus { box-shadow: 0 0 0 max(1px, .8cqi) var(--zelena), 0 0 0 max(2px, 1.6cqi) rgba(255,255,255,.55); }
+  .kartaVok .vecZnas { font-size: clamp(0.62rem, 6.5cqi, 0.78rem); font-weight: 700; color: var(--zelena); margin-top: 2cqi; letter-spacing: .02em; }
   /* "+" -> riječ se pojavi na mjestu plusa, kratko se upali i odlebdi gore;
      ispod nje (samo razine 1-2) oblačić "Added to dictionary". */
   .rjLeti, .rjOblak { position: fixed; z-index: 60; pointer-events: none; transform: translate(-50%, -50%); white-space: nowrap; }
@@ -2505,6 +2531,8 @@
     /* Ploča vježbe ide gotovo do ruba: na 360px svaki milimetar bočnog
        razmaka oduzima se od riječi koje se čitaju. */
     #ploca { max-width: 100%; padding: 1rem 0.875rem; border-radius: var(--rad-m); }
+    /* kartice za okretanje: dvije u retku, tijesno — palac lista okomito */
+    .mrezaVok { gap: 0.625rem; }
     #ploca.siroka { max-width: 100%; }
 
     .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.625rem; margin-top: 1rem; }
@@ -2596,6 +2624,8 @@
        više mjesta od mobitela — sadržaj smije biti gušći. */
     #view { max-width: 52rem; padding: 1.5rem 1.75rem 3rem; }
     #ploca { max-width: 34rem; padding: 1.5rem; }
+    /* kartice za okretanje: tri u retku, gušće nego na računalu */
+    .mrezaVok { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
     #ploca.siroka { max-width: 44rem; }
 
     /* Zaglavlje: tablet ima mjesta za pravu navigaciju, ali ne za pune
@@ -2670,6 +2700,9 @@
 
     #view { max-width: 54rem; padding: 1.5rem 1.25rem 3.5rem; }
     #ploca { max-width: 36rem; padding: 1.125rem 1.375rem; }
+    /* kartice za okretanje: četiri u retku na široj ploči, s više zraka */
+    #ploca:has(.mrezaVok) { max-width: 46rem; }
+    .mrezaVok { grid-template-columns: repeat(4, 1fr); gap: 1.125rem; }
     #ploca.siroka { max-width: 44rem; }
 
     header { padding: 0.625rem 1.25rem; gap: 1rem; }
@@ -5399,18 +5432,21 @@
       k.setAttribute('aria-label', 'Flip card: ' + (st[1] || st[0]));
       var okret = document.createElement('div'); okret.className = 'okret';
       // lice: engleski
+      // lice je poleđina igraće karte: okvir s rombovima, riječ na pločici u sredini
       var lice = document.createElement('div'); lice.className = 'lice prednje';
+      var okvirK = document.createElement('div'); okvirK.className = 'okvirKarte'; lice.appendChild(okvirK);
+      var kartus = document.createElement('div'); kartus.className = 'kartus'; okvirK.appendChild(kartus);
       var en = document.createElement('div'); en.className = 'en'; en.textContent = st[1] || '?';
-      lice.appendChild(en);
+      kartus.appendChild(en);
       var nat = document.createElement('div'); nat.className = 'okreniNat'; nat.textContent = 'tap to flip';
-      lice.appendChild(nat);
+      kartus.appendChild(nat);
       // naličje: slika, hrvatski, zvučnik, +
       var nal = document.createElement('div'); nal.className = 'lice nalicje';
       var kut = document.createElement('div'); kut.className = 'kutGumbi'; nal.appendChild(kut);
-      // Krug se crta UVIJEK (skica 29.09.2026.). Slika se uzima izravno, mimo pravila
-      // "sve ili nijedna" (elSlikaIgre): kartica nije provjera, pa slika ne odaje odgovor.
-      // Bez slike u krugu stoji početno slovo riječi.
-      var krug = document.createElement('div'); krug.className = 'krugSlika';
+      // Slika zauzima veći dio naličja. Uzima se izravno, mimo pravila "sve ili
+      // nijedna" (elSlikaIgre): kartica nije provjera, pa slika ne odaje odgovor.
+      // Bez slike na njezinu mjestu stoji početno slovo riječi.
+      var krug = document.createElement('div'); krug.className = 'slikaKarte';
       var im = elSlika(razdvojiRod(st[0]).hr, 'slikaIgra');
       if (!im) im = elSlika(st[0], 'slikaIgra');
       if (im) {
@@ -5426,7 +5462,7 @@
       if (!bezRjecnika && jeNatuknica(st[0]) && uRjecniku(st[0])) {
         var oz = document.createElement('div'); oz.className = 'vecZnas';
         oz.textContent = '✓ already yours';
-        lice.appendChild(oz); k.classList.add('imaVec');
+        kartus.appendChild(oz); k.classList.add('imaVec');
       }
       var natuknica = !bezRjecnika && jeNatuknica(st[0]);
       var btn = document.createElement('button');
