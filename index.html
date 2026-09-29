@@ -605,6 +605,26 @@
   .kartaVok .kutGumb:hover { border-color: var(--plava); color: var(--plava); transform: none; }
   .kartaVok .kutGumb:active { transform: scale(.92); }
   .kartaVok .zvucnik.kutGumb.svira { border-color: var(--plava); color: var(--plava); }
+  /* kartica otvorena iz lebdećeg rječnika (gumb s knjigom na kartici) — kratko zasvijetli */
+  #panelRj .rijecKart.istaknuta { animation: rjIstakni 1.8s ease-out; border-color: var(--plava); }
+  @keyframes rjIstakni { 0%, 35% { box-shadow: 0 0 0 3px var(--plava); } 100% { box-shadow: 0 0 0 0 transparent; } }
+  /* Favoriti: "+" se nakon dodavanja pretvori u zvjezdicu (klikabilna tek nakon 0,5 s,
+     da drugi dio dvoklika ne označi riječ slučajno). Ista zvjezdica stoji u svakom
+     retku rječnika, a u zaglavlju rječnika je filtar "samo favoriti". */
+  .kartaVok .plusRj.zvj.ceka { opacity: .45; cursor: default; }
+  .kartaVok .plusRj.zvj.da, #panelRj .glavaRj #rjZvj.da, .zvjRj.da, .zvjFilterG.da { color: var(--zlatna); border-color: var(--zlatna); }
+  .kartaVok .plusRj.zvj.da .ikn, #rjZvj.da .ikn, .zvjRj.da .ikn, .zvjFilterG.da .ikn { fill: currentColor; }
+  .zvjRj { flex: none; border: 0; background: none; padding: 0.125rem; margin: -0.125rem -0.25rem -0.125rem 0;
+    color: var(--muted); cursor: pointer; line-height: 1; font: inherit; display: inline-flex; }
+  .zvjRj:hover { color: var(--zlatna); }
+  .rijecRed .zvjRj { order: 9; }
+  .rijecRed:has(.zvjRj) .enR { margin-left: auto; }
+  .zvjFilterG { display: inline-flex; align-items: center; justify-content: center; flex: none;
+    width: 2.25rem; height: 2.25rem; border-radius: 999px; border: 1px solid var(--rub);
+    background: var(--card); color: var(--muted); cursor: pointer; padding: 0; }
+  .zvjFilterG:hover { border-color: var(--zlatna); color: var(--zlatna); }
+  #panelRj .glavaRj #rjZvj { display: inline-flex; align-items: center; justify-content: center; color: var(--muted); }
+  #rjPrekidac.ugasen { opacity: .4; pointer-events: none; }
   .kartaVok .plusRj.dodano { border-color: var(--zelena); color: var(--zelena); background: #f4f9f5; cursor: default; font-size: 1rem; }
   /* riječ koju polaznik već ima u rječniku (npr. iz Lesson 0): poleđina u zelenoj */
   .kartaVok.imaVec .lice.prednje { background: var(--zelena); }
@@ -2877,7 +2897,7 @@
 <div id="izbornikPozadina" onclick="zatvoriIzbornik()"></div>
 <!-- Ikone sucelja: Lucide 1.43 (ISC, lucide.dev). Jedan sprite, bez mreznog zahtjeva;
      boju i velicinu uzimaju iz teksta u kojem stoje. -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-kvaka" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol><symbol id="ik-cedulja" viewBox="0 0 24 24"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11l5-5V5a2 2 0 0 0-2-2z" /><path d="M21 16h-3a2 2 0 0 0-2 2v3" /></symbol><symbol id="ik-linije" viewBox="0 0 24 24"><path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" /></symbol><symbol id="ik-kvadratici" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M3 15h18" /><path d="M9 3v18" /><path d="M15 3v18" /></symbol><symbol id="ik-prazno" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /></symbol></svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="ik-knjiga" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol><symbol id="ik-meta" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol><symbol id="ik-kalendar" viewBox="0 0 24 24"><path d="M8 2v3" /><path d="M16 2v3" /><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M8 13h.01" /><path d="M12 13h.01" /><path d="M16 13h.01" /><path d="M8 17h.01" /><path d="M12 17h.01" /><path d="M16 17h.01" /></symbol><symbol id="ik-plamen" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4" /></symbol><symbol id="ik-igra" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11" /><line x1="8" x2="8" y1="9" y2="13" /><line x1="15" x2="15.01" y1="12" y2="12" /><line x1="18" x2="18.01" y1="10" y2="10" /><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" /></symbol><symbol id="ik-brava" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol><symbol id="ik-otvorena" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol><symbol id="ik-kljuc" viewBox="0 0 24 24"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></symbol><symbol id="ik-zvuk" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" /><path d="M16 9a5 5 0 0 1 0 6" /><path d="M19.364 18.364a9 9 0 0 0 0-12.728" /></symbol><symbol id="ik-sat" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></symbol><symbol id="ik-zastava" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol><symbol id="ik-pehar" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol><symbol id="ik-munja" viewBox="0 0 24 24"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" /></symbol><symbol id="ik-iskra" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /><path d="M20 2v4" /><path d="M22 4h-4" /><circle cx="4" cy="20" r="2" /></symbol><symbol id="ik-ljestvica" viewBox="0 0 24 24"><line x1="4" x2="20" y1="9" y2="9" /><line x1="4" x2="20" y1="15" y2="15" /><line x1="10" x2="8" y1="3" y2="21" /><line x1="16" x2="14" y1="3" y2="21" /></symbol><symbol id="ik-postavke" viewBox="0 0 24 24"><path d="M14 17H5" /><path d="M19 7h-9" /><circle cx="17" cy="17" r="3" /><circle cx="7" cy="7" r="3" /></symbol><symbol id="ik-pauza" viewBox="0 0 24 24"><rect x="14" y="3" width="5" height="18" rx="1" /><rect x="5" y="3" width="5" height="18" rx="1" /></symbol><symbol id="ik-preskoci" viewBox="0 0 24 24"><path d="M21 4v16" /><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" /></symbol><symbol id="ik-popis" viewBox="0 0 24 24"><path d="M13 5h8" /><path d="M13 12h8" /><path d="M13 19h8" /><path d="m3 17 2 2 4-4" /><path d="m3 7 2 2 4-4" /></symbol><symbol id="ik-kvaka" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol><symbol id="ik-strelica" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></symbol><symbol id="ik-trazi" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /><circle cx="11" cy="11" r="8" /></symbol><symbol id="ik-cedulja" viewBox="0 0 24 24"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11l5-5V5a2 2 0 0 0-2-2z" /><path d="M21 16h-3a2 2 0 0 0-2 2v3" /></symbol><symbol id="ik-linije" viewBox="0 0 24 24"><path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" /></symbol><symbol id="ik-kvadratici" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18" /><path d="M3 15h18" /><path d="M9 3v18" /><path d="M15 3v18" /></symbol><symbol id="ik-prazno" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /></symbol><symbol id="ik-zvijezda" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol></svg>
 <div id="view"></div>
 
 <div id="trakaAbc"></div>
@@ -2888,6 +2908,7 @@
 <div id="panelRj">
   <div class="glavaRj">
     <span class="nasRj">Dictionary</span>
+    <button id="rjZvj" title="Show favourites only" aria-pressed="false"><svg class="ikn" aria-hidden="true"><use href="#ik-zvijezda"></use></svg></button>
     <button id="rjManji" title="Smaller icon">−</button>
     <button id="rjVeci" title="Bigger icon">+</button>
     <button id="rjZatvori" title="Close">✕</button>
@@ -3851,6 +3872,43 @@
     for (var i = 0; i < n.length; i++) if (!PROGRESS.rjecnik[kljucRijeci(n[i].hr)]) return false;
     return true;
   }
+  // ---- favoriti ----
+  // Oznaka živi u zapisu riječi (PROGRESS.rjecnik[k].fav), pa putuje na server s
+  // ostatkom rječnika. Favorit je uvijek i riječ iz rječnika: zvjezdica na riječi
+  // koja još nije dodana najprije je doda. Odznačavanje riječ ostavlja u rječniku.
+  // Na bodove ne utječe.
+  function jeFavorit(hr) {
+    if (!PROGRESS.rjecnik) return false;
+    var n = natuknice(hr, '');
+    for (var i = 0; i < n.length; i++) {
+      var r = PROGRESS.rjecnik[kljucRijeci(n[i].hr)];
+      if (!r || !r.fav) return false;
+    }
+    return n.length > 0;
+  }
+  function postaviFavorit(hr, en, izvor, da) {
+    if (!jeNatuknica(hr)) return false;
+    if (da && !uRjecniku(hr)) dodajURjecnik(hr, en || '', izvor || '');
+    var promjena = false;
+    natuknice(hr, en).forEach(function (p) {
+      var r = PROGRESS.rjecnik && PROGRESS.rjecnik[kljucRijeci(p.hr)];
+      if (!r) return;
+      if (da && !r.fav) { r.fav = 1; promjena = true; }
+      if (!da && r.fav) { delete r.fav; promjena = true; }
+    });
+    if (promjena) spremiProgress();
+    return promjena;
+  }
+  // Nakon promjene zvjezdice sve što je na ekranu mora pokazati isto stanje:
+  // gumbi na karticama, otvoreni lebdeći rječnik (ako filtrira favorite) i stranica Dictionary.
+  var dictOsvjeziFav = null;
+  function osvjeziPoslijeFavorita() {
+    var g = document.querySelectorAll('.kartaVok .plusRj');
+    for (var i = 0; i < g.length; i++) if (g[i]._stanje) g[i]._stanje();
+    var pr = $('panelRj');
+    if (pr && pr.classList.contains('otvoren') && rjFav) crtajPopisRj();
+    if (dictOsvjeziFav) dictOsvjeziFav();
+  }
   // Unos se DOPUNJUJE, ne preskače: bogatiji zapis (izgovor, više oblika, rod) pobjeđuje.
   function dodajURjecnik(hr, en, izvor) {
     if (!jeNatuknica(hr)) return false;
@@ -3947,8 +4005,13 @@
       if (nk !== k) promjena = true;
       var rod = st.rod || d.rod || '', broj = st.broj || d.broj || '';
       var post = novi[nk];
-      if (!post) { novi[nk] = { hr: d.hr, en: st.en || '', rod: rod, broj: broj, izvor: st.izvor || '' }; return; }
+      if (!post) {
+        novi[nk] = { hr: d.hr, en: st.en || '', rod: rod, broj: broj, izvor: st.izvor || '' };
+        if (st.fav) novi[nk].fav = 1;
+        return;
+      }
       promjena = true;
+      if (st.fav) post.fav = 1;
       if (!post.rod && rod) post.rod = rod;
       if (!post.broj && broj) post.broj = broj;
       if (String(st.en || '').length > String(post.en || '').length) post.en = st.en;
@@ -5373,6 +5436,30 @@
     var d = w.slice(0, 2).toLowerCase();
     return (d === 'dž' || d === 'lj' || d === 'nj') ? w.charAt(0).toUpperCase() + w.charAt(1) : w.charAt(0).toUpperCase();
   }
+  // Glagol se na kartici prikazuje SAMO u infinitivu: "pisati → pišem, pišeš, piše"
+  // postaje "pisati", a oblici žive u rječniku (gumb s knjigom na kartici).
+  // Vidski parovi "pisati → napisati" ostaju cijeli, jer su oba dijela infinitivi.
+  // Imenice ("kava → kavu", "vlak → vlakom") se ne diraju.
+  function jeInfinitiv(x) {
+    x = String(x || '').trim();
+    if (!x || x.indexOf(',') !== -1) return false;
+    var bez = x.replace(/\s+se$/, '');
+    var z = zapisiZaOblik(bez);
+    if (z.length) return z.some(function (r) {
+      return r.vrsta === 'gl' && (norm(r.lema) === norm(bez) || norm(r.lema) === norm(x));
+    });
+    return /(ti|ći)(\s+se)?$/i.test(x);
+  }
+  function hrZaKarticu(hr) {
+    var s = String(hr == null ? '' : hr);
+    var d = s.split(/\s*(?:→|->|=>)\s*/);
+    if (d.length < 2) return s;
+    var glava = d[0].trim();
+    if (glava.indexOf('/') !== -1 || !jeInfinitiv(glava)) return s;
+    var ostalo = d.slice(1).join(', ').split(/\s*[,\/]\s*/).filter(Boolean);
+    if (ostalo.length && ostalo.every(jeInfinitiv)) return s;
+    return glava;
+  }
   function takeKartice() {
     // Učenje novih riječi: klik na karticu otkriva prijevod (= pročitano),
     // zatim se riječ ručno dodaje u rječnik. Bodovi: (pročitano + dodano) / (2 × ukupno).
@@ -5407,7 +5494,7 @@
     var s = $('sadrzaj'); s.innerHTML = '';
     // Kartice su mjesto gdje se rijec prvi put SLUSA, ne samo cita. Bez ovoga
     // vecina prode cijelu lekciju ne pokrenuvsi nijednu snimku.
-    s.appendChild(trakaSlusanja('Tap a card to **flip it**: the Croatian word, a picture and ' + IK('zvuk') + ' are on the back. Play it, **say the word out loud**, then tap **+** to put it in your dictionary.'));
+    s.appendChild(trakaSlusanja('Tap a card to **flip it**: the Croatian word, a picture and ' + IK('zvuk') + ' are on the back. Play it, **say the word out loud**, then tap **+** to put it in your dictionary (tap it again to star it). ' + IK('knjiga') + ' shows all its forms.'));
     var m = document.createElement('div'); m.className = 'mrezaVok'; s.appendChild(m);
     // Oblačić "Added to dictionary" objašnjava što se dogodilo — treba samo dok je
     // to novo, u razinama 1 i 2 (Lesson/Vocabulary 1–2). Poslije je šum.
@@ -5454,9 +5541,11 @@
         krug.appendChild(im);
       } else { krug.classList.add('bezSlike'); krug.textContent = slovoKruga(st[0]); }
       nal.appendChild(krug);
-      var hr = document.createElement('div'); hr.className = 'hr'; hr.textContent = st[0];
+      var prikaz = hrZaKarticu(st[0]);
+      var hr = document.createElement('div'); hr.className = 'hr'; hr.textContent = prikaz;
       nal.appendChild(hr);
-      var zv = zvucnik(st[0]); if (zv) { zv.classList.add('kutGumb'); kut.appendChild(zv); }
+      var zv = (prikaz !== st[0] && imaZvuk(prikaz)) ? zvucnik(prikaz) : zvucnik(st[0]);
+      if (zv) { zv.classList.add('kutGumb'); kut.appendChild(zv); }
       okret.appendChild(lice); okret.appendChild(nal); k.appendChild(okret);
       // riječ koju polaznik već ima (npr. iz Lesson 0) — reci mu to prije nego okrene karticu
       if (!bezRjecnika && jeNatuknica(st[0]) && uRjecniku(st[0])) {
@@ -5467,25 +5556,61 @@
       var natuknica = !bezRjecnika && jeNatuknica(st[0]);
       var btn = document.createElement('button');
       btn.type = 'button'; btn.className = 'plusRj kutGumb';
+      // "+" dodaje u rječnik; kad je riječ dodana, isti gumb je zvjezdica (favorit).
+      // Zvjezdica se smije kliknuti tek 0,5 s nakon dodavanja.
+      var zvjOd = 0;
       function btnStanje() {
         var u = uRjecniku(st[0]);
-        var n = natuknice(st[0], '').length;
-        btn.textContent = u ? '✓' : '+';
-        btn.classList.toggle('dodano', u);
-        btn.title = u ? 'In your dictionary' : (n > 1 ? 'Add ' + n + ' words to dictionary' : 'Add to dictionary');
+        if (!u) {
+          var n = natuknice(st[0], '').length;
+          btn.classList.remove('zvj', 'da');
+          btn.textContent = '+';
+          btn.title = n > 1 ? 'Add ' + n + ' words to dictionary' : 'Add to dictionary';
+          btn.removeAttribute('aria-pressed');
+        } else {
+          var f = jeFavorit(st[0]);
+          if (!btn.classList.contains('zvj')) { btn.innerHTML = IK('zvijezda'); btn.classList.add('zvj'); }
+          btn.classList.toggle('da', f);
+          btn.title = f ? 'Remove from favourites' : 'Add to favourites';
+          btn.setAttribute('aria-pressed', String(f));
+        }
         btn.setAttribute('aria-label', btn.title);
-        btn.disabled = u;
+        btn.disabled = false;
       }
+      btn._stanje = function () { btnStanje(); osvjezi(); };
       btn.onclick = function (e) {
         e.stopPropagation();
-        if (gotovo || !natuknica || uRjecniku(st[0])) return;
-        dodajURjecnik(st[0], st[1] || '', igra.cjelina || '');
-        odletiURjecnik(btn, razdvojiRod(st[0]).hr);
-        osvjeziOtvorenePanele();
-        btnStanje(); osvjezi();
+        if (!natuknica) return;
+        if (!uRjecniku(st[0])) {
+          if (gotovo) return;
+          dodajURjecnik(st[0], st[1] || '', igra.cjelina || '');
+          odletiURjecnik(btn, razdvojiRod(prikaz).hr);
+          osvjeziOtvorenePanele();
+          zvjOd = Date.now() + 500;
+          btnStanje(); btn.classList.add('ceka');
+          setTimeout(function () { btn.classList.remove('ceka'); }, 500);
+          osvjezi();
+          return;
+        }
+        if (Date.now() < zvjOd) return;
+        postaviFavorit(st[0], st[1] || '', igra.cjelina || '', !jeFavorit(st[0]));
+        osvjeziPoslijeFavorita();
       };
       btn.onkeydown = function (e) { e.stopPropagation(); };
       if (natuknica) { btnStanje(); kut.appendChild(btn); }
+      // knjiga: lebdeći rječnik otvoren na ovoj riječi, s oblicima
+      if (jeNatuknica(st[0])) {
+        var osn = razlomiHr(razdvojiRod(st[0]).hr)[0];
+        if (razlomiHr(st[0])[1].length || zapisiZaOblik(osn).length) {
+          var kb = document.createElement('button');
+          kb.type = 'button'; kb.className = 'obliciRj kutGumb';
+          kb.innerHTML = IK('knjiga');
+          kb.title = 'All forms in the dictionary'; kb.setAttribute('aria-label', kb.title);
+          kb.onclick = function (e) { e.stopPropagation(); otvoriRjNaRijeci(st[0], st[1] || ''); };
+          kb.onkeydown = function (e) { e.stopPropagation(); };
+          kut.appendChild(kb);
+        }
+      }
       var otkriveno = false;
       k.onclick = function () {
         if (gotovo) return;
@@ -6454,6 +6579,7 @@
     postaviVelicinuIkone();
   }
   var POC_IK = pocetakIkona();
+  var rjFav = false;   // zvjezdica u zaglavlju lebdećeg rječnika: samo favoriti
   var rjTip = null, rjRazina = 0, rjOpseg = 'lekcija',
       rjVelicina = POC_IK.vel, rjTop = POC_IK.top;
   // Postaje true cim polaznik sam pomakne ili prevelica ikonu. Od tog trenutka
@@ -6470,6 +6596,19 @@
   function crtajPopisRj() {
     var p = $('rjPopis'); if (!p) return;
     var polje = $('rjTrazi');
+    var z = $('rjZvj');
+    if (z) {
+      z.classList.toggle('da', rjFav); z.setAttribute('aria-pressed', String(rjFav));
+      z.title = rjFav ? 'Show all words' : 'Show favourites only';
+    }
+    var pk = $('rjPrekidac'); if (pk) pk.classList.toggle('ugasen', rjFav);
+    if (rjFav) {
+      // favoriti iz cijelog rječnika, bez obzira na opseg
+      p.innerHTML = htmlPopisRijeci(rjecnikRijeci().filter(function (r) { return jeFavorit(r.hr); }),
+        polje ? polje.value : '',
+        { izvor: true, prazno: 'No favourites yet. Tap ' + IK('zvijezda') + ' next to any word to keep it here.' });
+      return;
+    }
     var prazno = rjOpseg === 'sve'
       ? 'Your dictionary is still empty.'
       : 'No Croatian words on this page.';
@@ -6479,6 +6618,34 @@
   function otvoriRj() {
     sakrijSavjetRj();
     $('panelRj').classList.add('otvoren'); $('zastorRj').classList.add('vidi'); crtajPopisRj();
+  }
+  // Gumb s knjigom na kartici: lebdeći rječnik se otvori točno na toj riječi,
+  // s rasklopljenim oblicima i tablicom. Riječ je uvijek u opsegu "This lesson"
+  // (gradi se iz svih kartica cjeline); ako je ipak nema (npr. Daily challenge),
+  // kartica se složi iz same stavke i stavi na vrh popisa.
+  function otvoriRjNaRijeci(hr, en) {
+    sakrijSavjetRj();
+    rjFav = false;
+    rjOpseg = 'lekcija';
+    Array.prototype.forEach.call($('rjPrekidac').children, function (c) {
+      c.classList.toggle('aktivan', c.getAttribute('data-opseg') === 'lekcija');
+    });
+    $('rjTrazi').value = '';
+    $('panelRj').classList.add('otvoren'); $('zastorRj').classList.add('vidi');
+    crtajPopisRj();
+    var p = $('rjPopis'), n = natuknice(hr, en)[0] || { hr: hr, en: en };
+    var k = norm(razlomiHr(n.hr)[0]);
+    var kart = null, sve = p.querySelectorAll('.rijecKart[data-k]');
+    for (var i = 0; i < sve.length; i++) if (sve[i].getAttribute('data-k') === k) { kart = sve[i]; break; }
+    if (!kart) {
+      var prazno = p.querySelector('.rjPrazno'); if (prazno) p.removeChild(prazno);
+      var tmp = document.createElement('div');
+      tmp.innerHTML = htmlKarticaRijeci({ hr: n.hr, en: n.en || en || '', broj: n.broj || '' }, { izvor: false });
+      kart = tmp.firstChild; p.insertBefore(kart, p.firstChild);
+    }
+    if (kart.querySelector('.rijecDetalj')) { kart.classList.add('otvoren'); napuniGramatiku(kart); }
+    p.scrollTop += kart.getBoundingClientRect().top - p.getBoundingClientRect().top - 8;
+    kart.classList.remove('istaknuta'); void kart.offsetWidth; kart.classList.add('istaknuta');
   }
 
   // ---- tihi oblačić ----
@@ -10280,15 +10447,24 @@
     // samo izvor = izvan računala nema se što otvoriti (v. .samoIzvor u CSS-u)
     var samoIzvor = !!izvorDet && detalj === izvorDet;
     return '<div class="rijecKart' + (detalj ? (samoIzvor ? ' samoIzvor' : ' imaDet') : '') +
-      '" data-s="' + esc(abcSlovo(osnovni)) + '">' +
+      '" data-s="' + esc(abcSlovo(osnovni)) + '" data-k="' + esc(norm(osnovni)) + '">' +
       '<div class="rijecRed">' +
       '<span class="hrR">' + esc(osnovni) + oznakaRoda + zvHtml(osnovni) +
       (detalj ? '<span class="strelicaDet">▾</span>' : '') + '</span>' +
       '<span class="enR">' + esc(prijevod) + '</span>' +
       (opcije.izvor === false ? '' : '<span class="izvorR">' + esc(r.izvor) + '</span>') +
+      htmlZvjRj(r) +
       '</div>' +
       (detalj ? '<div class="rijecDetalj">' + detalj + '</div>' : '') +
       '</div>';
+  }
+  function htmlZvjRj(r) {
+    if (!jeNatuknica(r.hr)) return '';
+    var f = jeFavorit(r.hr);
+    var t = f ? 'Remove from favourites' : 'Add to favourites';
+    return '<button type="button" class="zvjRj' + (f ? ' da' : '') + '" title="' + t + '" aria-label="' + t +
+      '" aria-pressed="' + f + '" data-hr="' + esc(r.hr) + '" data-en="' + esc(r.en || '') +
+      '" data-izvor="' + esc(r.izvor || '') + '">' + IK('zvijezda') + '</button>';
   }
   function htmlPopisRijeci(lista, filter, opcije) {
     var f = norm(filter || ''), html = '', n = 0;
@@ -10309,6 +10485,16 @@
   function vezeKlikPopisa(el) {
     el.onclick = function (e) {
       var t = e.target;
+      var zg = t.closest ? t.closest('.zvjRj') : null;
+      if (zg) {
+        e.stopPropagation();
+        var da = !zg.classList.contains('da');
+        postaviFavorit(zg.getAttribute('data-hr'), zg.getAttribute('data-en'), zg.getAttribute('data-izvor'), da);
+        zg.classList.toggle('da', da); zg.setAttribute('aria-pressed', String(da));
+        zg.title = da ? 'Remove from favourites' : 'Add to favourites'; zg.setAttribute('aria-label', zg.title);
+        osvjeziPoslijeFavorita();
+        return;
+      }
       var zv = t.closest ? t.closest('.zvucnik') : null;
       if (zv) { e.stopPropagation(); sviraj(zv.getAttribute('data-rijec')); return; }
       var kart = t.closest ? t.closest('.rijecKart') : null;
@@ -10396,7 +10582,7 @@
 
   // ---- Dictionary ----
   // Natuknica se prikazuje u OSNOVNOM obliku; ostali oblici se otkrivaju klikom.
-  var dictSmjer = 'hr-en', dictOpseg = 'moje';
+  var dictSmjer = 'hr-en', dictOpseg = 'moje', dictFav = false;
   // ---- segmentirani prekidac ----
   // Klizac se ne da opisati u CSS-u jer sirine segmenata ovise o pismu koje je
   // korisnik izabrao u Options; zato se mjeri iz DOM-a nakon crtanja.
@@ -10474,6 +10660,8 @@
             '<input id="trazi" type="text" placeholder="Search for a word or translation…"></div>' +
           '<button type="button" class="smjerG" id="dictSmjerG">' +
             '<span id="dictSmjerT"></span><span class="zam">⇄</span></button>' +
+          '<button type="button" class="zvjFilterG" id="dictZvjG" title="Show favourites only" aria-pressed="false">' +
+            IK('zvijezda') + '</button>' +
           '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
         '</div>' +
       '</div>' +
@@ -10486,6 +10674,12 @@
       '</div>';
 
     function lista() {
+      if (dictFav) {
+        if (dictSmjer === 'en-hr') return mojeNatukniceEn().filter(function (r) {
+          return (r.hr || []).some(function (h) { return jeFavorit(h); });
+        });
+        return rjecnikRijeci().filter(function (r) { return jeFavorit(r.hr); });
+      }
       if (dictSmjer === 'en-hr') return dictOpseg === 'sve' ? sveNatukniceEn() : mojeNatukniceEn();
       return dictOpseg === 'sve' ? sveNatukniceHr() : rjecnikRijeci();
     }
@@ -10515,8 +10709,14 @@
     function crtaj(filter) {
       zadrziSirinu(filter);
       var l = lista();
-      var praznoStanje = (l.length === 0 && !filter);
-      $('dictBrojac').textContent = dictOpseg === 'sve'
+      var praznoStanje = (l.length === 0 && !filter && !dictFav);
+      var zg = $('dictZvjG');
+      zg.classList.toggle('da', dictFav); zg.setAttribute('aria-pressed', String(dictFav));
+      zg.title = dictFav ? 'Show all words' : 'Show favourites only';
+      zg.setAttribute('aria-label', zg.title);
+      $('dictBrojac').textContent = dictFav
+        ? (l.length ? l.length + (l.length === 1 ? ' favourite' : ' favourites') : 'no favourites yet')
+        : dictOpseg === 'sve'
         ? (l.length ? l.length + ' entries in the full dictionary' : 'dictionary not loaded')
         : (l.length ? l.length + (l.length === 1 ? ' word added' : ' words added') : 'nothing saved yet');
       $('dictAlat').hidden = praznoStanje;
@@ -10529,7 +10729,9 @@
         // slika postoji samo za riječi koje je korisnik dodao; izvor lekcije se u rječniku ne prikazuje
         slikaUDetalju: dictSmjer === 'hr-en' && dictOpseg === 'moje',
         izvor: false,
-        prazno: 'Nothing matches that search.'
+        prazno: (dictFav && !filter)
+          ? 'No favourites yet. Tap ' + IK('zvijezda') + ' next to any word to keep it here.'
+          : 'Nothing matches that search.'
       });
       abcOsvjezi();
       // Novi popis je druge duljine: mozda smo odjednom na vrhu, mozda duboko
@@ -10710,6 +10912,12 @@
       oznaciSmjer(); crtaj($('trazi').value);
     };
     $('dictTestG').onclick = wtPokreni;
+    $('dictZvjG').onclick = function () { dictFav = !dictFav; crtaj($('trazi').value); };
+    // Zvjezdica odznačena u popisu favorita mora iz njega nestati odmah.
+    dictOsvjeziFav = function () {
+      if (!$('dictOkvir')) { dictOsvjeziFav = null; return; }
+      if (dictFav) crtaj($('trazi').value);
+    };
     // Radnje iz praznog stanja žive u istom spremniku kao i popis riječi, pa idu
     // prije njegova vlastitog rukovatelja klikom.
     $('popisRijeci').addEventListener('click', function (e) {
@@ -10758,6 +10966,8 @@
       wtLekcije.forEach(function (n) { izvor = izvor.concat(wtRijeciLekcije(n)); });
     } else if (wtOpseg === 'sve') {
       izvor = sveNatukniceHr();
+    } else if (wtOpseg === 'fav') {
+      izvor = rjecnikRijeci().filter(function (r) { return jeFavorit(r.hr); });
     } else {
       izvor = rjecnikRijeci();
     }
@@ -10812,7 +11022,7 @@
   function wtPokreni() {
     // svaki ulazak počinje čisto: miješani smjer, nula brojača, bez odabranih lekcija.
     // Opseg se nasljeđuje od Dictionaryja — Full dictionary ostaje Full dictionary.
-    wtSmjer = 'mix'; wtOpseg = (dictOpseg === 'sve' ? 'sve' : 'moje'); wtLekcije = [];
+    wtSmjer = 'mix'; wtOpseg = dictFav ? 'fav' : (dictOpseg === 'sve' ? 'sve' : 'moje'); wtLekcije = [];
     wtFilterOtvoren = false; wtVidjeno = 0; wtTocno = 0;
     idi('dictTest');
   }
@@ -10858,7 +11068,8 @@
     if (!wtFilterOtvoren) { mj.innerHTML = ''; wtOznaciSmjer(); return; }
     var h = '<div class="wtFilterPanel">' +
       segmentHtml('wtOpsegP', 'data-o', [
-        { v: 'moje', t: 'My words' }, { v: 'sve', t: 'Full dictionary' }, { v: 'lekcije', t: 'By lesson' }
+        { v: 'moje', t: 'My words' }, { v: 'fav', t: 'Favourites' },
+        { v: 'sve', t: 'Full dictionary' }, { v: 'lekcije', t: 'By lesson' }
       ], wtOpseg);
     // Brojevi lekcija se prikazuju samo uz "By lesson".
     if (wtOpseg === 'lekcije') {
@@ -10871,6 +11082,8 @@
       h += '</div>';
     } else if (wtOpseg === 'sve') {
       h += '<p class="wtNapomena">Every entry in the dictionary, not just your own words.</p>';
+    } else if (wtOpseg === 'fav') {
+      h += '<p class="wtNapomena">Only the words you starred ' + IK('zvijezda') + '.</p>';
     } else {
       h += '<p class="wtNapomena">Every word you have added, all lessons together.</p>';
     }
@@ -10901,6 +11114,7 @@
     if (!el) return;
     var opis = wtOpseg === 'moje' ? 'My Dictionary'
       : wtOpseg === 'sve' ? 'Full dictionary'
+      : wtOpseg === 'fav' ? 'Favourites'
       : (wtLekcije.length === 0 ? 'No lesson selected'
         : 'Lesson' + (wtLekcije.length > 1 ? 's' : '') + ' ' +
           wtLekcije.slice().sort(function (a, b) { return a - b; }).join(', '));
@@ -10916,6 +11130,8 @@
         ? (wtLekcije.length === 0
           ? 'Pick at least one lesson in the Filter.'
           : 'No word pairs in the selected lessons yet.')
+        : wtOpseg === 'fav'
+          ? 'No favourites yet — tap ' + IK('zvijezda') + ' next to a word in the dictionary or on a card.'
         : wtOpseg === 'sve'
           ? 'The dictionary file is missing — run osvježi.bat to generate rjecnik.js.'
           : 'Your dictionary is empty — open a lesson and add words first.') + '</div>';
@@ -12090,6 +12306,7 @@
     $('rjZatvori').onclick = zatvoriRj;
     $('zastorRj').onclick = function () { zatvoriRj(); zatvoriIgru(); zatvoriInfo(); };
     $('rjTrazi').oninput = crtajPopisRj;
+    $('rjZvj').onclick = function () { rjFav = !rjFav; crtajPopisRj(); $('rjPopis').scrollTop = 0; };
     vezeKlikPopisa($('rjPopis'));
     $('rjManji').onclick = function () { rjRucno = true; rjVelicina = Math.max(32, rjVelicina - 8); postaviVelicinuIkone(); };
     $('rjVeci').onclick = function () { rjRucno = true; rjVelicina = Math.min(96, rjVelicina + 8); postaviVelicinuIkone(); };

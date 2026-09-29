@@ -173,5 +173,5 @@ opis: The final challenge — type each word in Croatian. Remember: Croatian is 
 - airplane | avion
 - to rest | odmarati
 - house | kuća
-- perfect | savršen
-- beautiful | lijep
+- perfect | savršen / savršena / savršeno
+- beautiful | lijep / lijepa / lijepo

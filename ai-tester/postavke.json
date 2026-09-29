@@ -1,0 +1,15 @@
+{
+  "model_korisnik": "claude-haiku-4-5",
+  "model_trijaza": "sonnet",
+
+  "tjedni_udio_max_posto": 50,
+  "ukupni_limit_stop_posto": 95,
+  "rezervna_kocnica_poziva_tjedno": 4000,
+
+  "max_koraka_po_danu": 150,
+  "max_koraka_ciljano": 160,
+  "max_dana": 200,
+  "trijaza_svakih_dana": 7,
+  "slike_za_ai_po_danu": 4,
+  "port": 8765
+}

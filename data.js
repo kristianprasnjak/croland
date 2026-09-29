@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-29 12:44:56",
+  "generirano": "2026-09-29 22:55:08",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -7939,7 +7939,7 @@ window.PODACI = {
         ],
         [
           "beautiful",
-          "lijep"
+          "lijep / lijepa / lijepo"
         ],
         [
           "fish",
@@ -7947,7 +7947,7 @@ window.PODACI = {
         ],
         [
           "old",
-          "star"
+          "star / stara / staro"
         ],
         [
           "apple",
@@ -7955,7 +7955,7 @@ window.PODACI = {
         ],
         [
           "white",
-          "bijel"
+          "bijel / bijela / bijelo"
         ],
         [
           "summer",
@@ -44684,11 +44684,11 @@ window.PODACI = {
         ],
         [
           "perfect",
-          "savršen"
+          "savršen / savršena / savršeno"
         ],
         [
           "beautiful",
-          "lijep"
+          "lijep / lijepa / lijepo"
         ]
       ],
       "sortkljuc": 802008,

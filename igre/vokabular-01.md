@@ -167,9 +167,9 @@ opis: The final challenge — type each word in Croatian. Remember: Croatian is 
 - snout | njuška
 - day | dan
 - house | kuća
-- beautiful | lijep
+- beautiful | lijep / lijepa / lijepo
 - fish | riba
-- old | star
+- old | star / stara / staro
 - apple | jabuka
-- white | bijel
+- white | bijel / bijela / bijelo
 - summer | ljeto

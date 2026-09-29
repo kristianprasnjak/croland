@@ -86,7 +86,6 @@ function Radi([string]$oznaka, [string]$prompt, $nista) {
     $i++
     $log = Join-Path $logDir ("$oznaka-$i.log")
     Pisi "$oznaka - pokusaj $i"
-    $prijeGotovo = @(Get-Content -Path $status -ErrorAction SilentlyContinue | Where-Object { $_ -match '^GOTOVO ' }).Count
     & $claudeExe -p $prompt --model $Model --permission-mode acceptEdits --allowedTools $alati 2>&1 | Tee-Object -FilePath $log
     if (Oznaceno $oznaka) { Pisi "$oznaka GOTOVO"; break }
     $izlaz = ''
@@ -96,12 +95,6 @@ function Radi([string]$oznaka, [string]$prompt, $nista) {
       Pisi "$oznaka - limit potrosen, cekam $cekaj min do obnove."
       Start-Sleep -Seconds ($cekaj * 60)
       continue          # limit se ne broji kao greska - ceka koliko god puta treba
-    }
-    $poslijeGotovo = @(Get-Content -Path $status -ErrorAction SilentlyContinue | Where-Object { $_ -match '^GOTOVO ' }).Count
-    if ($poslijeGotovo -gt $prijeGotovo) {
-      Pisi "$oznaka - dio razine gotov ($($poslijeGotovo - $prijeGotovo) cjelina), nastavljam za 1 min."
-      Start-Sleep -Seconds 60
-      continue          # napredak nije greska
     }
     $greske++
     if ($greske -ge 3) {
@@ -130,21 +123,27 @@ Ne postavljaj pitanja - radis bez nadzora. Kad nesto nije jasno, odluci razumno 
   }
 }
 
-# ---------- FAZA 2: razine 13-20 (v5: jedna sesija = cijela razina L+G+P+T) ----------
+# ---------- FAZA 2: razine 13-20 ----------
 if ($SamoFaza -eq 0 -or $SamoFaza -eq 2) {
+  $cjeline = @(
+    @{ K = 'L'; Ime = 'Lesson';   Dat = 'lekcija' },
+    @{ K = 'G'; Ime = 'Grammar';  Dat = 'gramatika' },
+    @{ K = 'P'; Ime = 'Practice'; Dat = 'praksa' },
+    @{ K = 'T'; Ime = 'Test';     Dat = 'test' }
+  )
   for ($n = 13; $n -le 20; $n++) {
     $nn = '{0:D2}' -f $n
-    node izvuci-upute.js $n | Out-Null
-    $p = @"
-Radis cijelu razinu $n redom: Lesson $n (igre/lekcija-$nn.md), Grammar $n (igre/gramatika-$nn.md), Practice $n (igre/praksa-$nn.md), Test $n (igre/test-$nn.md).
-Preskoci svaku cjelinu koja vec ima redak GOTOVO L$n / G$n / P$n / T$n u vokabular-preradba-status.txt.
-Najprije jednom procitaj cijeli _radno/upute-razina-$n.md - to je doslovni izvadak svih pravila za ovu razinu - i drzi ga se doslovno.
-Za svaku cjelinu: procitaj oba uzora iz tablice u izvatku, napisi datoteku, pokreni node osvjezi.js i node provjeri-cjelinu.js na njoj,
-procitaj svoj tekst jos jednom po pravilima 1-7, dopisi odjeljak u NOCNI-dnevnik-13-20.md
-i tek tada dopisi redak GOTOVO za tu cjelinu u vokabular-preradba-status.txt, pa prijedi na sljedecu.
-Kvaliteta je vaznija od brzine i od stednje. Ne postavljaj pitanja - radis bez nadzora. Kad nesto nije jasno, odluci razumno i zapisi odluku u dnevnik.
+    foreach ($c in $cjeline) {
+      $oz = $c.K + $n
+      $p = @"
+Radis $($c.Ime) $n (datoteka igre/$($c.Dat)-$nn.md). Procitaj UPUTE-razine-13-20-nocni.md i drzi ga se doslovno,
+zajedno s dokumentima i uzorima koje on navodi za $($c.Ime).
+Prosiri datoteku, pokreni node osvjezi.js, provjeri rezultat, dopisi odjeljak u NOCNI-dnevnik-13-20.md
+i tek na kraju dopisi redak GOTOVO $oz u vokabular-preradba-status.txt.
+Ne postavljaj pitanja - radis bez nadzora. Kad nesto nije jasno, odluci razumno i zapisi odluku u dnevnik.
 "@
-    Radi "T$n" $p $null
+      Radi $oz $p $null
+    }
   }
 }
 Pisi "Kraj. Status: vokabular-preradba-status.txt"
