@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-27 16:07:16",
+  "generirano": "2026-09-29 02:10:32",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -386,6 +386,7 @@ window.PODACI = {
     "a djevojčice": "zvuk/A djevojčice.mp3",
     "a film za školu": "zvuk/A film za školu.mp3",
     "a gdje je moja lopta": "zvuk/A gdje je moja lopta.mp3",
+    "a gdje trenirate vaš park ili naš park": "zvuk/A gdje trenirate Vaš park ili naš park.mp3",
     "a je li bilo dobro": "zvuk/A je li bilo dobro.mp3",
     "a je li hrvatski težak": "zvuk/A je li hrvatski težak.mp3",
     "a juhu": "zvuk/A juhu.mp3",
@@ -679,6 +680,7 @@ window.PODACI = {
     "da, komedija. film je bio odličan": "zvuk/Da, komedija. Film je bio odličan.mp3",
     "da, mi smo prijatelji": "zvuk/Da, mi smo prijatelji.mp3",
     "da, mi smo turisti": "zvuk/Da, mi smo turisti.mp3",
+    "da, moja je! hvala": "zvuk/Da, moja je! Hvala.mp3",
     "da, molim. hvala": "zvuk/Da, molim. Hvala.mp3",
     "da, molim. ja sam jako žedan": "zvuk/Da, molim. Ja sam jako žedan.mp3",
     "da, molim": "zvuk/Da, molim.mp3",
@@ -1061,7 +1063,9 @@ window.PODACI = {
     "igram nogomet": "zvuk/Igram nogomet.mp3",
     "igram tenis": "zvuk/Igram tenis.mp3",
     "igram u obrani": "zvuk/Igram u obrani.mp3",
+    "igram! čiji je to klub": "zvuk/Igram! Čiji je to klub.mp3",
     "igrači dolaze na stadion": "zvuk/Igrači dolaze na stadion.mp3",
+    "igraš li nogomet naš klub trenira danas": "zvuk/Igraš li nogomet Naš klub trenira danas.mp3",
     "igraš li nogomet": "zvuk/Igraš li nogomet.mp3",
     "ima dvadeset godina": "zvuk/Ima dvadeset godina.mp3",
     "ima li rezervaciju": "zvuk/Ima li rezervaciju.mp3",
@@ -1641,6 +1645,7 @@ window.PODACI = {
     "marko živi u zagrebu": "zvuk/Marko živi u Zagrebu.mp3",
     "marko! a film za školu jesi li pogledao film": "zvuk/Marko! A film za školu Jesi li pogledao film.mp3",
     "marko! bok": "zvuk/Marko! Bok.mp3",
+    "marko! je li ovo tvoja lopta": "zvuk/Marko! Je li ovo tvoja lopta.mp3",
     "marko, je li ovo tvoja lopta": "zvuk/Marko, je li ovo tvoja lopta.mp3",
     "marko": "zvuk/Marko.mp3",
     "markov hobi je šah": "zvuk/Markov hobi je šah.mp3",
@@ -1823,6 +1828,8 @@ window.PODACI = {
     "naš — naš park ima nove golove": "zvuk/Naš — naš park ima nove golove.mp3",
     "naš — naš park je velik! dođi, momčad te čeka": "zvuk/Naš — naš park je velik! Dođi, momčad te čeka.mp3",
     "naš — naš park je velik": "zvuk/Naš — naš park je velik.mp3",
+    "naš — trener je strog, ali je pošten": "zvuk/Naš — trener je strog, ali je pošten.mp3",
+    "naš, jer naš park ima nove golove": "zvuk/Naš, jer naš park ima nove golove.mp3",
     "naša kuća je uvijek vesela": "zvuk/Naša kuća je uvijek vesela.mp3",
     "naša momčad je jaka": "zvuk/Naša momčad je jaka.mp3",
     "naše more je lijepo": "zvuk/Naše more je lijepo.mp3",
@@ -1904,6 +1911,7 @@ window.PODACI = {
     "ne, ja sam profesor": "zvuk/Ne, ja sam profesor.mp3",
     "ne, ja sam profesorica. a ti": "zvuk/Ne, ja sam profesorica. A ti.mp3",
     "ne, ja sam profesorica": "zvuk/Ne, ja sam profesorica.mp3",
+    "ne, ja sam učiteljica. a ti": "zvuk/Ne, ja sam učiteljica. A ti.mp3",
     "ne, kava je dobra": "zvuk/Ne, kava je dobra.mp3",
     "ne, moj hobi je fotografija": "zvuk/Ne, moj hobi je fotografija.mp3",
     "ne, moja lopta je crvena. to je njegova lopta": "zvuk/Ne, moja lopta je crvena. To je njegova lopta.mp3",
@@ -2171,6 +2179,7 @@ window.PODACI = {
     "onda dogovoreno": "zvuk/Onda dogovoreno.mp3",
     "onda dvije pizze, molim": "zvuk/Onda dvije pizze, molim.mp3",
     "onda je gitara savršen poklon": "zvuk/Onda je gitara savršen poklon.mp3",
+    "onda jednu pizzu i jednu salatu": "zvuk/Onda jednu pizzu i jednu salatu.mp3",
     "onda molim salatu. i jednu bananu": "zvuk/Onda molim salatu. I jednu bananu.mp3",
     "onda molim salatu": "zvuk/Onda molim salatu.mp3",
     "onda nosim svoju loptu": "zvuk/Onda nosim svoju loptu.mp3",
@@ -2210,6 +2219,7 @@ window.PODACI = {
     "oni sviraju klavir": "zvuk/Oni sviraju klavir.mp3",
     "oni uvijek brzo igraju": "zvuk/Oni uvijek brzo igraju.mp3",
     "oni će putovati": "zvuk/Oni će putovati.mp3",
+    "oprosti, je li ovo tvoja lopta": "zvuk/Oprosti, je li ovo tvoja lopta.mp3",
     "oprosti": "zvuk/Oprosti.mp3",
     "oprostite! (turist traži most i pokazuje kartu.)": "zvuk/Oprostite! (Turist traži most i pokazuje kartu.).mp3",
     "oprostite, gdje je kolodvor": "zvuk/Oprostite, gdje je kolodvor.mp3",
@@ -2292,6 +2302,7 @@ window.PODACI = {
     "pila sam kavu": "zvuk/Pila sam kavu.mp3",
     "piletinu, molim": "zvuk/Piletinu, molim.mp3",
     "pili smo kavu i pričali smo": "zvuk/Pili smo kavu i pričali smo.mp3",
+    "pilot to je super! odakle si": "zvuk/Pilot To je super! Odakle si.mp3",
     "pilot to je super": "zvuk/Pilot To je super.mp3",
     "pilot": "zvuk/Pilot.mp3",
     "pio bih kavu na balkonu": "zvuk/Pio bih kavu na balkonu.mp3",
@@ -10139,18 +10150,18 @@ window.PODACI = {
           "a"
         ],
         [
-          "Muzika je lijep___.",
-          "The music is beautiful.",
+          "Lampa je lijep___.",
+          "The lamp is beautiful.",
           "a"
         ],
         [
-          "Muzika je nov___.",
-          "The music is new.",
+          "Kuća je nov___.",
+          "The house is new.",
           "a"
         ],
         [
-          "Muzika je dobr___.",
-          "The music is good.",
+          "Knjiga je dobr___.",
+          "The book is good.",
           "a"
         ],
         [
@@ -10420,15 +10431,15 @@ window.PODACI = {
           "dobra"
         ],
         [
-          "Muzika je ___. (beautiful)",
+          "Lampa je ___. (beautiful)",
           "lijepa"
         ],
         [
-          "Muzika je ___. (new)",
+          "Kuća je ___. (new)",
           "nova"
         ],
         [
-          "Muzika je ___. (good)",
+          "Knjiga je ___. (good)",
           "dobra"
         ],
         [
@@ -10639,8 +10650,8 @@ window.PODACI = {
           "en: The telephone is new and fast."
         ],
         [
-          "Muzika je dobra.",
-          "en: The music is good."
+          "Knjiga je dobra.",
+          "en: The book is good."
         ],
         [
           "Čokolada je slatka.",
@@ -13915,7 +13926,7 @@ window.PODACI = {
         ],
         [
           "npc",
-          "Jesi li umoran danas?"
+          "Kako si danas? Umoran? Umorna?"
         ],
         [
           "ti",
@@ -24153,7 +24164,7 @@ window.PODACI = {
         [
           "The apartment is small, but the home is warm.",
           "Stan je mali, ali je dom topao.",
-          "Stan je mali, ali dom je topao."
+          "Stan je mali ali je dom topao."
         ],
         [
           "My uncle lives here and works a lot.",
@@ -33380,7 +33391,7 @@ window.PODACI = {
         ],
         [
           "npc",
-          "Ja čekam prijatelja. On vozi taksi."
+          "Ja čekam prijatelja. On je vozač."
         ],
         [
           "ti",
@@ -36045,7 +36056,7 @@ window.PODACI = {
         [
           "The waiter sees us.",
           "Konobar nas vidi.",
-          "Konobar vidi nas."
+          "Konobar nam vidi."
         ],
         [
           "I'm calling them.",
@@ -36488,8 +36499,8 @@ window.PODACI = {
       "format": "tekst",
       "naslov": "Text 3: Lost and found",
       "meta": {
-        "info": "A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Vidim ga* replaces the same dog with the short pronoun, tucked in neatly after the verb.",
-        "infokratko": "*Ako vidite psa*; *Vidim ga* replaces the dog."
+        "info": "A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Obično ga vodim* replaces the same dog with the short pronoun, tucked in neatly after the verb.",
+        "infokratko": "*Ako vidite psa*; *Obično ga vodim* replaces the dog."
       },
       "stavke": [
         [
@@ -36508,8 +36519,8 @@ window.PODACI = {
           "He is wearing a red key on his neck."
         ],
         [
-          "Vidim ga svaki dan kod mosta.",
-          "I see him every day by the bridge."
+          "Obično ga vodim kod mosta.",
+          "I usually walk him by the bridge."
         ],
         [
           "Ako vidite psa, molim vas, zovite broj 091 234 567.",
@@ -36537,7 +36548,7 @@ window.PODACI = {
       "meta": {
         "info": "Questions about the lost-dog notice, some stated and some you have to work out. Note that *pas* shows up as *psa* whenever it is the target — that ending is your signal for what is being seen.",
         "infokratko": "*pas* as target = *psa*.",
-        "tekst": "IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Vidim ga svaki dan kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.",
+        "tekst": "IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Obično ga vodim kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.",
         "opis": "Some of these are in the notice, and some you have to work out."
       },
       "stavke": [
@@ -36572,7 +36583,7 @@ window.PODACI = {
           "ključ"
         ],
         [
-          "Gdje ga vidimo svaki dan?",
+          "Gdje ga vlasnik obično vodi?",
           "kod mosta",
           "na trgu",
           "u parku"
@@ -38661,7 +38672,7 @@ window.PODACI = {
         [
           "The waiter sees us.",
           "Konobar nas vidi.",
-          "Konobar vidi nas."
+          "Konobar nam vidi."
         ],
         [
           "I'm calling them.",
@@ -39395,7 +39406,7 @@ window.PODACI = {
           "**Two exceptions today.** *dijete* → **djeca** (children) and *brat* → **braća** (brothers). Some words are too important to follow rules."
         ],
         [
-          "**Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, dva [učenika] — a svi zajedno su [učenici]. Jedno pismo, dva [pisma]."
+          "**Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, svi [učenici]. Jedno pismo, dva [pisma]."
         ]
       ],
       "sortkljuc": 701005,
@@ -40813,8 +40824,8 @@ window.PODACI = {
       "meta": {
         "info": "Sort the predictable words from the awkward ones. Regular means the plain **-i / -e / -a**; the odd ones here are the one-syllable masculines padding to *-ovi* (*zid* to *zidovi*) and the four true irregulars like *čovjek* to *ljudi*.",
         "infokratko": "Regular **-i/-e/-a**; *-ovi* (*zidovi*); irregular (*ljudi*).",
-        "stupci": "PRAVILNO | IZNIMKA",
-        "opis": "Most words follow the trio. Four of these do something else entirely — and four just grow a whole syllable."
+        "stupci": "PRAVILNO | -OVI | IZNIMKA",
+        "opis": "Most words follow the trio. Four just grow a whole syllable, **-ovi** — and four do something else entirely."
       },
       "stavke": [
         [
@@ -40867,19 +40878,19 @@ window.PODACI = {
         ],
         [
           "stol",
-          "IZNIMKA"
+          "-OVI"
         ],
         [
           "grad",
-          "IZNIMKA"
+          "-OVI"
         ],
         [
           "most",
-          "IZNIMKA"
+          "-OVI"
         ],
         [
           "zid",
-          "IZNIMKA"
+          "-OVI"
         ]
       ],
       "sortkljuc": 702010,
@@ -43588,7 +43599,7 @@ window.PODACI = {
           "— Dobro jutro!"
         ],
         [
-          "— Danas imamo nove učenike. Ovo su Ivan i Luka."
+          "— Danas igramo nogomet. Ivan i Luka su naši igrači."
         ],
         [
           "— Bok, dečki!"
@@ -43603,7 +43614,7 @@ window.PODACI = {
           "— Super! Mi trebamo brze igrače!"
         ],
         [
-          "— Dobro došli, Ivane i Luka!"
+          "— Bravo, Ivane i Luka!"
         ]
       ],
       "sortkljuc": 704011,
@@ -46581,7 +46592,7 @@ window.PODACI = {
           "ću"
         ],
         [
-          "Vlak ___ stizati rano.",
+          "Vlak ___ biti pun.",
           "će",
           "ćeš",
           "ćemo"
@@ -46931,7 +46942,7 @@ window.PODACI = {
           "SADA"
         ],
         [
-          "Vlak će stizati.",
+          "Vlak će biti pun.",
           "POSLIJE"
         ]
       ],
@@ -49427,7 +49438,7 @@ window.PODACI = {
         [
           "I will swim tomorrow.",
           "Sutra ću plivati.",
-          "Sutra hoću plivati.",
+          "Sutra ću plivat.",
           "Sutra plivati ću."
         ],
         [
@@ -49445,7 +49456,7 @@ window.PODACI = {
         [
           "We will travel on Saturday.",
           "Putovat ćemo u subotu.",
-          "Hoćemo putovati u subotu.",
+          "Ćemo putovati u subotu.",
           "Putovati ćemo u subotu."
         ]
       ],
@@ -50274,7 +50285,7 @@ window.PODACI = {
           "POSLIJE"
         ],
         [
-          "Navečer je hladno na otoku.",
+          "Navečer je hladno.",
           "SADA"
         ],
         [
@@ -50282,7 +50293,7 @@ window.PODACI = {
           "POSLIJE"
         ],
         [
-          "Iva se boji aviona.",
+          "Iva ne voli avione.",
           "SADA"
         ],
         [
@@ -50401,7 +50412,7 @@ window.PODACI = {
           "Vidjet ću more kroz prozor."
         ],
         [
-          "Stizat ću u hotel poslije."
+          "Poslije ću ići u hotel."
         ],
         [
           "Navečer ću šetati i jesti sladoled."
@@ -53284,19 +53295,19 @@ window.PODACI = {
           "njezinu"
         ],
         [
-          "Ja treniram u ___ klubu.",
-          "svom",
-          "mojem"
-        ],
-        [
-          "Ti voliš ___ hobi.",
+          "Maja voli ___ hobi. (her own)",
           "svoj",
-          "tvoj"
+          "njezin"
         ],
         [
-          "Ana slika ___ brata. (her own)",
-          "svoga",
-          "njezinog"
+          "Luka nosi ___ loptu. (his own)",
+          "svoju",
+          "njegovu"
+        ],
+        [
+          "Ana slika ___ mačku. (her own)",
+          "svoju",
+          "njezinu"
         ],
         [
           "Trener gleda ___ momčad. (his own)",
@@ -53426,7 +53437,7 @@ window.PODACI = {
         ],
         [
           "npc",
-          "Danas u pet, u naš park. Dođi, momčad te čeka."
+          "Danas u pet, u našem parku. Dođi, momčad te čeka."
         ],
         [
           "ti",
@@ -55998,14 +56009,14 @@ window.PODACI = {
           "svoj"
         ],
         [
-          "Sestra slika ___ brata. (her own)",
-          "svoga",
-          "njezinog"
+          "Sestra slika ___ mamu. (her own)",
+          "svoju",
+          "njezinu"
         ],
         [
-          "Ja volim ___ klub. (my own)",
+          "Ivan voli ___ grad. (his own)",
           "svoj",
-          "moj"
+          "njegov"
         ]
       ],
       "sortkljuc": 903010,
@@ -56408,7 +56419,7 @@ window.PODACI = {
           "A club, a hobby, and a family that cannot agree on any of it."
         ],
         [
-          "Passive words: *ima / imaju* (has / have — *imati* is yours from Vocabulary 4, the plural comes properly in Lesson 10), *drugi* (a different one), *vani* (outside), *cijeli dan* (all day), *nikad* (never), *to* (that)."
+          "Passive words: *ima / imaju* (has / have — *imati* is yours from Vocabulary 4, the plural *imaju* you know from Lesson 7), *drugi* (a different one), *vani* (outside), *cijeli dan* (all day), *nikad* (never), *to* (that)."
         ],
         [
           "Moj hobi je fotografija.",
@@ -56695,10 +56706,10 @@ window.PODACI = {
           "— Igraš li nogomet? Naš klub trenira danas."
         ],
         [
-          "— Igram! Čiji je to klub?"
+          "— Igram! Kada trenirate?"
         ],
         [
-          "— Naš — trener je strog, ali je pošten."
+          "— U pet — trener je strog, ali je pošten."
         ],
         [
           "— A gdje trenirate? Vaš park ili naš park?"
@@ -57204,7 +57215,7 @@ window.PODACI = {
         ],
         [
           "npc",
-          "Odlično, naša obrana je jaka, ali trebamo golmana."
+          "Odlično, trebamo nove igrače."
         ],
         [
           "ti",
@@ -58292,9 +58303,9 @@ window.PODACI = {
           "svoj"
         ],
         [
-          "Ja volim ___ grad. (my own)",
+          "Ivan voli ___ grad. (his own)",
           "svoj",
-          "moj"
+          "njegov"
         ],
         [
           "Svaki igrač nosi ___ loptu. (his own)",
@@ -59364,10 +59375,22 @@ window.PODACI = {
           "Ana je gledala film."
         ],
         [
-          "tab: we / they",
+          "tab: we / they (mixed or men)",
           "smo / su",
           "-li",
           "Gledali smo film. Oni su gledali film."
+        ],
+        [
+          "tab: women only",
+          "smo / su",
+          "-le",
+          "Ana i Petra su gledale film."
+        ],
+        [
+          "tab: neuter plural",
+          "su",
+          "-la",
+          "Sela su bila mala."
         ],
         [
           "tab: a neuter thing",
@@ -59498,7 +59521,7 @@ window.PODACI = {
       "meta": {
         "info": "One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li**, and a neuter noun like *more* or *sunce* takes **-lo**. **The helper is already in place — only the gender is missing.**",
         "infokratko": "Subject first: man **-o**, woman **-la**, group **-li**, neuter **-lo**.",
-        "nastavci": "o | la | li | lo",
+        "nastavci": "o | la | li | le | lo",
         "opis": "English above, Croatian below. One tap completes the participle. **-o** for him, **-la** for her, **-li** for a group, **-lo** for a neuter thing."
       },
       "stavke": [
@@ -59591,6 +59614,16 @@ window.PODACI = {
           "Sunce je bi___ toplo.",
           "The sun was warm.",
           "lo"
+        ],
+        [
+          "Djevojčice su pjeva___ .",
+          "The girls sang.",
+          "le"
+        ],
+        [
+          "Ana i Petra su bi___ u kinu.",
+          "Ana and Petra were at the cinema.",
+          "le"
         ],
         [
           "Ti si igra___ tenis. (to a friend, m.)",
@@ -61861,7 +61894,7 @@ window.PODACI = {
           "One past tense covers everything in spoken Croatian: *I watched, I was watching, I have watched* — all simply **gledao sam**."
         ],
         [
-          "**The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped."
+          "**The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · women only → **-le** (*Ana i Petra su gledale*) · neuter plural → **-la** (*Sela su bila mala*) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped."
         ],
         [
           "**The speaker's gender matters:** a man says *Spavao sam dugo*; a woman says *Spavala sam dugo*. The verb form alone shows which of the two is speaking — English has no equivalent."
@@ -61990,7 +62023,7 @@ window.PODACI = {
       "meta": {
         "info": "One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li** (but *djeca* and *braća* take **-la**), and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.",
         "infokratko": "Man **-o**, woman **-la**, group **-li** (*djeca, braća* **-la**), neuter **-lo**.",
-        "nastavci": "o | la | li | lo",
+        "nastavci": "o | la | li | le | lo",
         "opis": "English above, Croatian below. One tap completes the participle."
       },
       "stavke": [
@@ -62093,6 +62126,16 @@ window.PODACI = {
           "Ja sam iš___ u kino. (a woman)",
           "I went to the cinema.",
           "la"
+        ],
+        [
+          "Djevojčice su pjeva___ .",
+          "The girls sang.",
+          "le"
+        ],
+        [
+          "Mama i baka su kuha___ ručak.",
+          "Mom and grandma cooked lunch.",
+          "le"
         ]
       ],
       "sortkljuc": 1003003,
@@ -63682,7 +63725,8 @@ window.PODACI = {
         [
           "ti",
           "I ja volim pizzu!",
-          "Nisam jeo pizzu, ali sam jeo sladoled."
+          "Nisam jeo pizzu, ali sam jeo sladoled.",
+          "Nisam jela pizzu, ali sam jela sladoled."
         ],
         [
           "npc",
@@ -66817,7 +66861,7 @@ window.PODACI = {
           "a hundred"
         ],
         [
-          "tisuću",
+          "tisuća",
           "a thousand"
         ],
         [
@@ -69172,7 +69216,7 @@ window.PODACI = {
           "And who sent the cake? Grandma, of course!"
         ],
         [
-          "Jer danas je Anin rođendan — a baka nikad ne zaboravlja.",
+          "Jer je danas Anin rođendan — a baka nikad ne zaboravlja.",
           "Because today is Ana's birthday — and grandma never forgets."
         ]
       ],
@@ -69239,7 +69283,7 @@ window.PODACI = {
         "info": "Questions that need working out rather than looking up. The cake has twenty candles and Ana is twenty, which is the link the story never states outright.",
         "infokratko": "Work it out: the story never says it directly.",
         "opis": "Some of these are in the story, and some you have to work out.",
-        "tekst": "Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kutija je teška. Kada je poklon stigao? Jutros. Čija je ovo kutija? Na kutiji nema imena. Ana otvara kutiju. Unutra je torta! Kakva je torta? Velika, s dvadeset svijeća. A tko je poslao tortu? Baka, naravno! Jer danas je Anin rođendan — a baka nikad ne zaboravlja."
+        "tekst": "Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kutija je teška. Kada je poklon stigao? Jutros. Čija je ovo kutija? Na kutiji nema imena. Ana otvara kutiju. Unutra je torta! Kakva je torta? Velika, s dvadeset svijeća. A tko je poslao tortu? Baka, naravno! Jer je danas Anin rođendan — a baka nikad ne zaboravlja."
       },
       "stavke": [
         [

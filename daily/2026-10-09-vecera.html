@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Večera</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "vecera",
+  vrsta: "daily",
+  ime: "Večera",
+  stil: "a table set for dinner",
+  slika: "slike/vecera.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.vecera.2026-10-09",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"tanjur", x:34, y:30, w:34.5, h:48.5, o:["tanjur", "tanjura", "tanjuru", "tanjir"]},
+    {id:"casa", x:62.5, y:6, w:11.5, h:27, o:["čaša", "čaše", "čašu", "čaši", "čaša soka", "čaša vode"]},
+    {id:"zlica", x:21.5, y:20, w:19, h:17, o:["žlica", "žlice", "žlicu", "kašika", "žličica"]},
+    {id:"vilica", x:25.5, y:43, w:12.5, h:44, o:["vilica", "vilice", "vilicu", "viljuška"]},
+    {id:"noz", x:70.5, y:39, w:12, h:43, o:["nož", "noža", "noževi"]},
+    {id:"salveta", x:9.5, y:46.5, w:19.5, h:46, o:["salveta", "salvete", "salvetu", "ubrus", "ubrusa"]}
+  ],
+  recenice: [
+    {hr:"Konobar stavlja prazan {tanjur|tanjur} na stol.",
+     en:"The waiter puts an empty plate on the table."},
+    {hr:"Lijevo je {vilica|vilica}, desno {noz|nož}, a gore {zlica|žlica}.",
+     en:"On the left there's a fork, on the right a knife, and at the top a spoon."},
+    {hr:"U {casa|čaši} je voda, a {salveta|salveta} je plava.",
+     en:"There's water in the glass, and the napkin is blue."},
+    {hr:"Sve je spremno — samo nema hrane!",
+     en:"Everything is ready — there's just no food!"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

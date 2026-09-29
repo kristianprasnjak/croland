@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Ribolov</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "ribolov",
+  vrsta: "daily",
+  ime: "Ribolov",
+  stil: "fishing on a calm sea",
+  slika: "slike/ribolov.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.ribolov.2026-10-04",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"sunce", x:44.5, y:10.5, w:11, h:19.5, o:["sunce", "sunca", "suncu"]},
+    {id:"ptica", x:63, y:22.5, w:13, h:13.5, o:["ptica", "ptice", "pticu", "galeb", "galeba"]},
+    {id:"ribar", x:28, y:45.5, w:8.5, h:17, o:["ribar", "ribara", "čovjek", "čovjeka", "djed", "djeda", "muškarac", "ribič", "ribiča"]},
+    {id:"brod", x:16, y:53.5, w:36, h:18.5, o:["brod", "broda", "brodu", "čamac", "čamca", "barka", "barku", "brodić"]},
+    {id:"riba", x:69, y:60.5, w:7.5, h:9.5, o:["riba", "ribe", "ribu", "ribi"]},
+    {id:"more", x:0, y:72, w:100, h:28, o:["more", "mora", "moru", "voda", "vode", "jezero", "jezera"]}
+  ],
+  recenice: [
+    {hr:"Djed je u malom {brod|brodu} od šest sati.",
+     en:"Grandpa has been in the small boat since six o'clock."},
+    {hr:"{sunce|Sunce} je visoko, a {more|more} je mirno.",
+     en:"The sun is high, and the sea is calm."},
+    {hr:"{riba|Riba} skače iz vode, ali ne ide na udicu.",
+     en:"A fish jumps out of the water, but it doesn't take the hook."},
+    {hr:"{ptica|Ptica} leti iznad {ribar|ribara} i čeka svoj ručak.",
+     en:"A bird flies above the fisherman and waits for its lunch."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

@@ -150,7 +150,7 @@ opis: You meet Petra on the first day of a language course. Choose your replies 
 - ti | Ja sam Hrvatica, iz Splita. | Ja sam Talijan, iz Rima.
 - npc | Lijepo! Ja sam iz Zagreba. Posao je težak, ali je zanimljiv.
 - ti | Da, posao je težak. | Ne, posao nije težak!
-- npc | Jesi li umoran danas?
+- npc | Kako si danas? Umoran? Umorna?
 - ti | Ne, nisam umorna. | Ne, nisam umoran.
 - npc | Odlično. Mi smo sada prijatelji!
 - ti | Da, mi smo prijatelji. | Drago mi je!

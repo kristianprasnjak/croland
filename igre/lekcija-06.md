@@ -197,7 +197,7 @@ opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — cho
 - ti | Da, čekam autobus broj pet. | Ne, čekam tramvaj.
 - npc | Ja čekam autobus. Promet je danas velik.
 - ti | Da, ulica je puna. | Da, i ja žurim.
-- npc | Ja čekam prijatelja. On vozi taksi.
+- npc | Ja čekam prijatelja. On je vozač.
 - ti | Vidim jedan žuti taksi! | Ne vidim taksi.
 - npc | To nije on. On vozi crven auto.
 - ti | Sad vidim crven auto. | Još ne vidim auto.

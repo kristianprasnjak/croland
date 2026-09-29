@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Ispred kuće</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "ispred-kuce",
+  vrsta: "daily",
+  ime: "Ispred kuće",
+  stil: "a sunny corner in front of the house",
+  slika: "slike/ispred-kuce.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.ispred-kuce.2026-10-15",
+  uvod: "Seven things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"auto", x:5, y:18.5, w:34.5, h:41, o:["auto", "auta", "automobil", "automobila", "kola"]},
+    {id:"bicikl", x:42.5, y:40.5, w:19.5, h:29, o:["bicikl", "bicikla", "biciklu", "biciklom"]},
+    {id:"lampa", x:63.5, y:5.5, w:6, h:60, o:["lampa", "lampe", "lampu", "svjetiljka", "svjetiljku", "stolna lampa", "podna lampa", "ulična lampa", "lampion"]},
+    {id:"stolica", x:72, y:48.5, w:21.5, h:34, o:["stolica", "stolice", "stolicu", "stolici", "fotelja", "fotelju", "naslonjač", "sjedalo"]},
+    {id:"jastuk", x:77, y:52, w:8.5, h:13.5, o:["jastuk", "jastuka", "jastuci"]},
+    {id:"salica", x:90, y:69.5, w:4.5, h:5.5, o:["šalica", "šalice", "šalicu", "šalici", "kava", "kave", "kavu", "čaj", "čaja", "šalica kave", "šalica čaja", "čaša"]},
+    {id:"pas", x:65.5, y:79, w:15, h:12, o:["pas", "psa", "psi", "pseto", "psić", "kuca", "kuja"]}
+  ],
+  recenice: [
+    {hr:"Ispred kuće stoje crveni {auto|auto} i stari {bicikl|bicikl}.",
+     en:"In front of the house there's a red car and an old bicycle."},
+    {hr:"Pored {lampa|lampe} je plava {stolica|stolica} s {jastuk|jastukom}.",
+     en:"Next to the lamp there's a blue armchair with a cushion."},
+    {hr:"Kava u {salica|šalici} se hladi jer nitko ne sjedi.",
+     en:"The coffee in the cup is getting cold because nobody is sitting there."},
+    {hr:"Samo {pas|pas} spava na suncu i ništa ne treba.",
+     en:"Only the dog sleeps in the sun and needs nothing."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

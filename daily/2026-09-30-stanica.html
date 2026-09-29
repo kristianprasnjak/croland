@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Stanica</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "stanica",
+  vrsta: "daily",
+  ime: "Stanica",
+  stil: "at the bus stop",
+  slika: "slike/stanica.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.stanica.2026-09-30",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"kiosk", x:17, y:25, w:27.5, h:45.5, o:["kiosk", "kioska", "kiosku", "trafika", "štand"]},
+    {id:"pas", x:43, y:55.5, w:7, h:16, o:["pas", "psa", "psi", "pseto", "psić", "kuca", "kuja"]},
+    {id:"bicikl", x:54.5, y:49.5, w:14.5, h:24, o:["bicikl", "bicikla", "biciklu", "biciklom"]},
+    {id:"torba", x:56, y:50.5, w:5, h:9, o:["torba", "torbe", "torbu", "torbi", "torbica", "ruksak", "bisage", "košara"]},
+    {id:"semafor", x:62.5, y:14.5, w:5, h:35.5, o:["semafor", "semafora", "semaforu"]},
+    {id:"autobus", x:72.5, y:15.5, w:27.5, h:33, o:["autobus", "autobusa", "bus", "busa"]}
+  ],
+  recenice: [
+    {hr:"Ana čeka {autobus|autobus} pored {kiosk|kioska}.",
+     en:"Ana is waiting for the bus next to the kiosk."},
+    {hr:"Njezin {bicikl|bicikl} stoji kod semafora, s {torba|torbom} na volanu.",
+     en:"Her bicycle stands by the traffic light, with a bag on the handlebars."},
+    {hr:"{pas|Pas} sjedi i gleda ulicu — i on želi ići u grad.",
+     en:"The dog sits and watches the street — he wants to go to town too."},
+    {hr:"Na {semafor|semaforu} je crveno, pa autobus kasni.",
+     en:"The light is red, so the bus is late."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

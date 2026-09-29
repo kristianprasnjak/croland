@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Poštar</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "postar",
+  vrsta: "daily",
+  ime: "Poštar",
+  stil: "the postman at the door",
+  slika: "slike/postar.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.postar.2026-10-11",
+  uvod: "Seven things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"bicikl", x:10.5, y:41, w:24.5, h:34.5, o:["bicikl", "bicikla", "biciklu", "biciklom"]},
+    {id:"torba", x:26.5, y:45.5, w:9, h:12.5, o:["torba", "torbe", "torbu", "torbi", "torbica", "ruksak", "bisage", "košara"]},
+    {id:"postar", x:55.5, y:23, w:13.5, h:58, o:["poštar", "poštara", "dostavljač", "čovjek"]},
+    {id:"pismo", x:66.5, y:34.5, w:4.5, h:8, o:["pismo", "pisma", "omotnica", "koverta", "kuverta"]},
+    {id:"vrata", x:69, y:7, w:14, h:65.5, o:["vrata", "vratima"]},
+    {id:"pas", x:32, y:70.5, w:10.5, h:19, o:["pas", "psa", "psi", "pseto", "psić", "kuca", "kuja"]},
+    {id:"kutija", x:78, y:72.5, w:9, h:13, o:["kutija", "kutije", "kutiju", "paket", "paketa", "karton"]}
+  ],
+  recenice: [
+    {hr:"{postar|Poštar} dolazi {bicikl|biciklom} i nosi {torba|torbu} punu pisama.",
+     en:"The postman comes by bicycle and carries a bag full of letters."},
+    {hr:"Stoji pred {vrata|vratima} i drži jedno {pismo|pismo}.",
+     en:"He stands in front of the door holding one letter."},
+    {hr:"Pored vrata je {kutija|kutija} za susjeda.",
+     en:"Next to the door there's a box for the neighbour."},
+    {hr:"{pas|Pas} sjedi mirno i gleda poštara — za sada.",
+     en:"The dog sits quietly and watches the postman — for now."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

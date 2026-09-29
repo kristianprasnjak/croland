@@ -61,7 +61,7 @@ opis: A box arrives and nobody will say who sent it. Tap **EN** to see any line 
 - Ana otvara kutiju. Unutra je torta! | Ana opens the box. Inside is a cake!
 - Kakva je torta? Velika, s dvadeset svijeća. | What is the cake like? Big, with twenty candles.
 - A tko je poslao tortu? Baka, naravno! | And who sent the cake? Grandma, of course!
-- Jer danas je Anin rođendan — a baka nikad ne zaboravlja. | Because today is Ana's birthday — and grandma never forgets.
+- Jer je danas Anin rođendan — a baka nikad ne zaboravlja. | Because today is Ana's birthday — and grandma never forgets.
 
 ## Match question & answer
 format: parovi
@@ -82,7 +82,7 @@ format: izbor
 info: Questions that need working out rather than looking up. The cake has twenty candles and Ana is twenty, which is the link the story never states outright.
 infokratko: Work it out: the story never says it directly.
 opis: Some of these are in the story, and some you have to work out.
-tekst: Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kutija je teška. Kada je poklon stigao? Jutros. Čija je ovo kutija? Na kutiji nema imena. Ana otvara kutiju. Unutra je torta! Kakva je torta? Velika, s dvadeset svijeća. A tko je poslao tortu? Baka, naravno! Jer danas je Anin rođendan — a baka nikad ne zaboravlja.
+tekst: Na stolu je poklon. Tko je poslao poklon? Ana ne zna. Što je unutra? Kutija je teška. Kada je poklon stigao? Jutros. Čija je ovo kutija? Na kutiji nema imena. Ana otvara kutiju. Unutra je torta! Kakva je torta? Velika, s dvadeset svijeća. A tko je poslao tortu? Baka, naravno! Jer je danas Anin rođendan — a baka nikad ne zaboravlja.
 - Tko je poslao poklon? | baka | sestra | prijatelj
 - Što je bilo u kutiji? | torta | gitara | knjiga
 - Kada je poklon stigao? | jutros | sinoć | jučer

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Kofer</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "kofer",
+  vrsta: "daily",
+  ime: "Kofer",
+  stil: "packing for a holiday",
+  slika: "slike/kofer.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.kofer.2026-10-05",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"kofer", x:5, y:37, w:35, h:42.5, o:["kofer", "kofera", "koferi", "koferu", "putna torba"]},
+    {id:"majica", x:29.5, y:19.5, w:24, h:24, o:["majica", "majice", "majicu", "majca"]},
+    {id:"sesir", x:64.5, y:22, w:17, h:20, o:["šešir", "šešira", "kapa", "kapu", "slamnati šešir", "slamnjak"]},
+    {id:"cipele", x:32.5, y:72.5, w:13.5, h:17, o:["cipela", "cipele", "cipelu", "tenisice", "tenisica", "patike"]},
+    {id:"rucnik", x:51.5, y:53, w:18, h:20, o:["ručnik", "ručnika", "ručniku", "peškir", "deka"]},
+    {id:"kaput", x:65, y:49.5, w:27, h:37, o:["kaput", "kaputa", "jakna", "jaknu", "mantil", "sako"]}
+  ],
+  recenice: [
+    {hr:"Ivana putuje na more i pakira {kofer|kofer}.",
+     en:"Ivana is going to the seaside and packing her suitcase."},
+    {hr:"Uzima {majica|majicu}, {sesir|šešir} i {rucnik|ručnik}.",
+     en:"She takes a T-shirt, a hat and a towel."},
+    {hr:"{cipele|Cipele} su nove, pa ih nosi na nogama.",
+     en:"The shoes are new, so she wears them."},
+    {hr:"A {kaput|kaput}? Ne treba joj — ljeto je!",
+     en:"And the coat? She doesn't need it — it's summer!"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

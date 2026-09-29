@@ -112,7 +112,9 @@ opis: One formula, four endings. Read the table, then say the last row out loud 
 - tab: a woman | sam | -la | Gledala sam film.
 - tab: he (Marko) | je | -o | Marko je gledao film.
 - tab: she (Ana) | je | -la | Ana je gledala film.
-- tab: we / they | smo / su | -li | Gledali smo film. Oni su gledali film.
+- tab: we / they (mixed or men) | smo / su | -li | Gledali smo film. Oni su gledali film.
+- tab: women only | smo / su | -le | Ana i Petra su gledale film.
+- tab: neuter plural | su | -la | Sela su bila mala.
 - tab: a neuter thing | je | -lo | More je bilo toplo.
 - **The speaker's gender matters.** A man says *Spavao sam dugo.* A woman says *Spavala sam dugo.* English has no equivalent: the Croatian verb form alone shows whether a man or a woman is speaking.
 - **One past for everything.** *Gledao sam* covers *I watched*, *I was watching* and *I have watched*. There is nothing else to learn.
@@ -150,7 +152,7 @@ opis: Who could say this, or what is it said about? Sort the forms by their endi
 format: nastavak
 info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li**, and a neuter noun like *more* or *sunce* takes **-lo**. **The helper is already in place — only the gender is missing.**
 infokratko: Subject first: man **-o**, woman **-la**, group **-li**, neuter **-lo**.
-nastavci: o | la | li | lo
+nastavci: o | la | li | le | lo
 opis: English above, Croatian below. One tap completes the participle. **-o** for him, **-la** for her, **-li** for a group, **-lo** for a neuter thing.
 - Marko je gleda___ film. | Marko watched a film. | o
 - Ana je gleda___ film. | Ana watched a film. | la
@@ -170,6 +172,8 @@ opis: English above, Croatian below. One tap completes the participle. **-o** fo
 - Sestra je pjeva___ na koncertu. | My sister sang at the concert. | la
 - Učenici su uči___ cijeli dan. | The pupils studied all day. | li
 - Sunce je bi___ toplo. | The sun was warm. | lo
+- Djevojčice su pjeva___ . | The girls sang. | le
+- Ana i Petra su bi___ u kinu. | Ana and Petra were at the cinema. | le
 - Ti si igra___ tenis. (to a friend, m.) | You played tennis. | o
 - Ti si igra___ tenis. (to a friend, f.) | You played tennis. | la
 

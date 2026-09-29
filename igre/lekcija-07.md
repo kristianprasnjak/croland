@@ -91,7 +91,7 @@ infokratko: **-i / -e / -a**, the same trio as the adjectives: *učenici, knjige
 - tab: feminine | **-e** | pjesma | pjesme
 - tab: neuter | **-a** | pismo | pisma
 - **Two exceptions today.** *dijete* → **djeca** (children) and *brat* → **braća** (brothers). Some words are too important to follow rules.
-- **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, dva [učenika] — a svi zajedno su [učenici]. Jedno pismo, dva [pisma].
+- **Now you write them.** Jedna knjiga, dvije [knjige]. Jedan učenik, svi [učenici]. Jedno pismo, dva [pisma].
 
 ## Sort the plurals
 format: razvrstavanje

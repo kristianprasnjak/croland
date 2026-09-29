@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Peron</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "peron",
+  vrsta: "daily",
+  ime: "Peron",
+  stil: "a quiet railway platform",
+  slika: "slike/peron.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.peron.2026-10-16",
+  uvod: "Seven things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"vlak", x:0, y:10, w:100, h:49, o:["vlak", "vlaka", "vlaku", "voz", "vagon"]},
+    {id:"vrata", x:25.5, y:17, w:10, h:30, o:["vrata", "vratima"]},
+    {id:"sat", x:66.5, y:4.5, w:14.5, h:24.5, o:["sat", "sata", "satu", "zidni sat"]},
+    {id:"kofer", x:36.5, y:50.5, w:21.5, h:33, o:["kofer", "kofera", "koferi", "koferu", "putna torba"]},
+    {id:"karta", x:47.5, y:52, w:7.5, h:7, o:["karta", "karte", "kartu", "karti", "ulaznica", "papir", "cedulja", "etiketa"]},
+    {id:"torba", x:26.5, y:68, w:19.5, h:25, o:["torba", "torbe", "torbu", "torbi", "torbica", "ruksak", "bisage", "košara"]},
+    {id:"golub", x:65.5, y:72, w:10, h:15, o:["golub", "goluba", "golubovi", "ptica", "pticu"]}
+  ],
+  recenice: [
+    {hr:"{vlak|Vlak} stoji na peronu, ali {vrata|vrata} su zatvorena.",
+     en:"The train is at the platform, but the doors are closed."},
+    {hr:"{sat|Sat} kaže da je kasno.",
+     en:"The clock says it's late."},
+    {hr:"Netko je ostavio {kofer|kofer} i {torba|torbu} na peronu.",
+     en:"Someone has left a suitcase and a bag on the platform."},
+    {hr:"Na koferu je {karta|karta}, a pored kofera {golub|golub} čeka vlasnika.",
+     en:"There's a ticket on the suitcase, and next to it a pigeon is waiting for the owner."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

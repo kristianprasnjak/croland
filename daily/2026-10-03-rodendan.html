@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Rođendan</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "rodendan",
+  vrsta: "daily",
+  ime: "Rođendan",
+  stil: "a birthday table",
+  slika: "slike/rodendan.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.rodendan.2026-10-03",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"torta", x:29, y:17, w:17, h:30, o:["torta", "torte", "tortu", "torti", "kolač", "kolača"]},
+    {id:"svijeca", x:35.5, y:16.5, w:4, h:13.5, o:["svijeća", "svijeće", "svijeću", "svjećica", "svjećice"]},
+    {id:"poklon", x:50.5, y:21, w:11, h:21, o:["poklon", "poklona", "dar", "dara", "paket", "kutija"]},
+    {id:"cvijece", x:62, y:10.5, w:14.5, h:40, o:["cvijeće", "cvijeća", "cvijet", "cvjetovi", "buket", "biljka", "teglica", "tegla"]},
+    {id:"cestitka", x:28.5, y:52, w:24, h:27, o:["čestitka", "čestitke", "čestitku", "kartica", "pismo", "koverta", "kuverta"]},
+    {id:"casa", x:60, y:54, w:7.5, h:19, o:["čaša", "čaše", "čašu", "čaši", "čaša soka", "čaša vode"]}
+  ],
+  recenice: [
+    {hr:"Danas je Markov rođendan i na stolu je {torta|torta} s jednom {svijeca|svijećom}.",
+     en:"Today is Marko's birthday, and on the table there's a cake with one candle."},
+    {hr:"Pored torte je {poklon|poklon}, a u vazi {cvijece|cvijeće}.",
+     en:"Next to the cake there's a present, and flowers in a vase."},
+    {hr:"Baka piše {cestitka|čestitku}, a Marko pije sok iz {casa|čaše}.",
+     en:"Grandma writes a card, and Marko drinks juice from a glass."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

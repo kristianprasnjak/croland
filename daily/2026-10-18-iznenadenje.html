@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Iznenađenje</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "iznenadenje",
+  vrsta: "daily",
+  ime: "Iznenađenje",
+  stil: "a surprise on the table",
+  slika: "slike/iznenadenje.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.iznenadenje.2026-10-18",
+  uvod: "Seven things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"torta", x:13, y:34, w:22, h:35, o:["torta", "torte", "tortu", "torti", "kolač", "kolača"]},
+    {id:"svijeca", x:22.5, y:33, w:3.5, h:16, o:["svijeća", "svijeće", "svijeću", "svjećica", "svjećice"]},
+    {id:"poklon", x:34.5, y:23.5, w:14.5, h:20.5, o:["poklon", "poklona", "dar", "dara", "paket", "kutija"]},
+    {id:"cvijece", x:53.5, y:8, w:13.5, h:20.5, o:["cvijeće", "cvijeća", "cvijet", "cvjetovi", "buket", "biljka", "teglica", "tegla"]},
+    {id:"vaza", x:57, y:27.5, w:7.5, h:18.5, o:["vaza", "vaze", "vazu", "staklenka", "boca", "bocu", "teglica"]},
+    {id:"cestitka", x:60.5, y:48, w:18, h:27.5, o:["čestitka", "čestitke", "čestitku", "kartica", "pismo", "koverta", "kuverta"]},
+    {id:"casa", x:79.5, y:33, w:8, h:20.5, o:["čaša", "čaše", "čašu", "čaši", "čaša soka", "čaša vode"]}
+  ],
+  recenice: [
+    {hr:"Mama sprema iznenađenje: {torta|tortu} s jednom {svijeca|svijećom}.",
+     en:"Mum is preparing a surprise: a cake with one candle."},
+    {hr:"{poklon|Poklon} je mali, ali lijep.",
+     en:"The present is small but lovely."},
+    {hr:"{cvijece|Cvijeće} stoji u staklenoj {vaza|vazi}, a pored nje {cestitka|čestitka}.",
+     en:"The flowers stand in a glass vase, and next to it there's a card."},
+    {hr:"U {casa|čaši} je voda — za cvijeće ili za tatu?",
+     en:"There's water in the glass — for the flowers or for Dad?"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

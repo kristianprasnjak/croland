@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Aerodrom</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "aerodrom",
+  vrsta: "daily",
+  ime: "Aerodrom",
+  stil: "waiting at the airport",
+  slika: "slike/aerodrom.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.aerodrom.2026-10-14",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"pilot", x:29.5, y:34, w:27, h:54, o:["pilot", "pilota", "kapetan"]},
+    {id:"avion", x:46.5, y:22, w:51, h:33, o:["avion", "aviona", "zrakoplov", "zrakoplova"]},
+    {id:"kofer", x:59, y:51, w:11, h:36, o:["kofer", "kofera", "koferi", "koferu", "putna torba"]},
+    {id:"torba", x:63.5, y:73, w:12.5, h:18, o:["torba", "torbe", "torbu", "torbi", "torbica", "ruksak", "bisage", "košara"]},
+    {id:"ekran", x:8.5, y:15, w:19, h:23, o:["ekran", "ekrana", "zaslon", "monitor", "televizor", "tv"]},
+    {id:"karta", x:21.5, y:62, w:8.5, h:7.5, o:["karta", "karte", "kartu", "karti", "ulaznica", "papir", "cedulja", "etiketa"]}
+  ],
+  recenice: [
+    {hr:"{pilot|Pilot} sjedi i odmara prije leta.",
+     en:"The pilot sits and rests before the flight."},
+    {hr:"Na {ekran|ekranu} piše da {avion|avion} kasni.",
+     en:"The screen says the plane is late."},
+    {hr:"Pored njega su {kofer|kofer} i velika {torba|torba}.",
+     en:"Next to him are a suitcase and a big bag."},
+    {hr:"Na stolu je nečija {karta|karta} — ali čija?",
+     en:"There's someone's ticket on the table — but whose?"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Plaža</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "plaza",
+  vrsta: "daily",
+  ime: "Plaža",
+  stil: "a hot day on the beach",
+  slika: "slike/plaza.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.plaza.2026-10-13",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"sunce", x:46.5, y:4.5, w:7, h:12, o:["sunce", "sunca", "suncu"]},
+    {id:"more", x:0, y:21, w:100, h:20, o:["more", "mora", "moru", "voda", "vode", "jezero", "jezera"]},
+    {id:"lopta", x:63.5, y:45, w:10, h:17.5, o:["lopta", "lopte", "loptu", "lopti", "nogometna lopta"]},
+    {id:"rucnik", x:12, y:60, w:53.5, h:32, o:["ručnik", "ručnika", "ručniku", "peškir", "deka"]},
+    {id:"sesir", x:62.5, y:72.5, w:16, h:19, o:["šešir", "šešira", "kapa", "kapu", "slamnati šešir", "slamnjak"]},
+    {id:"sladoled", x:42, y:40.5, w:4, h:10.5, o:["sladoled", "sladoleda", "kornet", "kugla sladoleda"]}
+  ],
+  recenice: [
+    {hr:"Marko leži na {rucnik|ručniku} i jede {sladoled|sladoled}.",
+     en:"Marko lies on a towel eating an ice cream."},
+    {hr:"{sunce|Sunce} je jako, ali {sesir|šešir} je na pijesku.",
+     en:"The sun is strong, but the hat is on the sand."},
+    {hr:"{more|More} je toplo, a {lopta|lopta} čeka pored njega.",
+     en:"The sea is warm, and the ball is waiting next to him."},
+    {hr:"Sladoled se topi brže nego što ga Marko jede.",
+     en:"The ice cream melts faster than Marko can eat it."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

@@ -248,9 +248,9 @@ opis: Does the thing belong to the person doing the action? Then it is *svoj*.
 - Marko voli ___ sestru. (his own) | svoju | njegovu
 - Marko voli ___ sestru. (Ivan's) | njegovu | svoju
 - Ana čita ___ knjigu. (her own) | svoju | njezinu
-- Ja treniram u ___ klubu. | svom | mojem
-- Ti voliš ___ hobi. | svoj | tvoj
-- Ana slika ___ brata. (her own) | svoga | njezinog
+- Maja voli ___ hobi. (her own) | svoj | njezin
+- Luka nosi ___ loptu. (his own) | svoju | njegovu
+- Ana slika ___ mačku. (her own) | svoju | njezinu
 - Trener gleda ___ momčad. (his own) | svoju | njegovu
 - Djeca nose ___ dresove. (their own) | svoje | njihove
 - Ona vozi ___ auto. (her own) | svoj | njezin
@@ -287,7 +287,7 @@ opis: A ball rolls up to you in the park. Choose your replies. Passive words: *�
 - ti | Da! Moja pozicija je golman. | Ne, moj hobi je fotografija.
 - npc | Super! Naš klub trenira danas. Naš trener je strog, ali je pošten.
 - ti | Vaš park ili naš park? | Kada trenirate?
-- npc | Danas u pet, u naš park. Dođi, momčad te čeka.
+- npc | Danas u pet, u našem parku. Dođi, momčad te čeka.
 - ti | Naravno! Gdje je moje mjesto? | Hvala, ali moje koljeno boli.
 - npc | Ti si u obrani. Ana je kapetan, a njezina sestra je golman.
 - ti | Njihova obitelj voli nogomet! | Onda ću navijati.

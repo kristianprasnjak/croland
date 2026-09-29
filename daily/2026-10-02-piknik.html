@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Piknik</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "piknik",
+  vrsta: "daily",
+  ime: "Piknik",
+  stil: "a picnic in the park",
+  slika: "slike/piknik.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.piknik.2026-10-02",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"kruh", x:19, y:38, w:18, h:18, o:["kruh", "kruha", "hljeb", "hljeba", "štruca", "tost", "prepečenac"]},
+    {id:"sir", x:40.5, y:34.5, w:9.5, h:15, o:["sir", "sira", "komad sira"]},
+    {id:"jabuka", x:35.5, y:54, w:8, h:15.5, o:["jabuka", "jabuke", "jabuku"]},
+    {id:"boca", x:53.5, y:20.5, w:6.5, h:36, o:["boca", "boce", "bocu", "flaša", "flašu", "boca soka", "boca vina"]},
+    {id:"lopta", x:56, y:61.5, w:9, h:16.5, o:["lopta", "lopte", "loptu", "lopti", "nogometna lopta"]},
+    {id:"pas", x:65.5, y:30, w:23.5, h:33.5, o:["pas", "psa", "psi", "pseto", "psić", "kuca", "kuja"]}
+  ],
+  recenice: [
+    {hr:"Obitelj ima piknik u parku: {kruh|kruh}, {sir|sir} i jednu {jabuka|jabuku}.",
+     en:"The family has a picnic in the park: bread, cheese and one apple."},
+    {hr:"{boca|Boca} soka stoji na deki.",
+     en:"A bottle of juice stands on the blanket."},
+    {hr:"{pas|Pas} ne gleda kruh, nego {lopta|loptu}.",
+     en:"The dog isn't looking at the bread, but at the ball."},
+    {hr:"Tko će prvi baciti loptu?",
+     en:"Who will throw the ball first?"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

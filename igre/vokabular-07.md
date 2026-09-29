@@ -162,8 +162,8 @@ opis: Sort by the ending each word takes in the plural. Masculine takes -i, femi
 format: razvrstavanje
 info: Sort the predictable words from the awkward ones. Regular means the plain **-i / -e / -a**; the odd ones here are the one-syllable masculines padding to *-ovi* (*zid* to *zidovi*) and the four true irregulars like *čovjek* to *ljudi*.
 infokratko: Regular **-i/-e/-a**; *-ovi* (*zidovi*); irregular (*ljudi*).
-stupci: PRAVILNO | IZNIMKA
-opis: Most words follow the trio. Four of these do something else entirely — and four just grow a whole syllable.
+stupci: PRAVILNO | -OVI | IZNIMKA
+opis: Most words follow the trio. Four just grow a whole syllable, **-ovi** — and four do something else entirely.
 - učenik | PRAVILNO
 - knjiga | PRAVILNO
 - pismo | PRAVILNO
@@ -176,10 +176,10 @@ opis: Most words follow the trio. Four of these do something else entirely — a
 - brat | IZNIMKA
 - čovjek | IZNIMKA
 - riječ | IZNIMKA
-- stol | IZNIMKA
-- grad | IZNIMKA
-- most | IZNIMKA
-- zid | IZNIMKA
+- stol | -OVI
+- grad | -OVI
+- most | -OVI
+- zid | -OVI
 
 ## Match the pictures
 format: spajanje

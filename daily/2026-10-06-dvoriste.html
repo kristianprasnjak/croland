@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Dvorište</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "dvoriste",
+  vrsta: "daily",
+  ime: "Dvorište",
+  stil: "football in the backyard",
+  slika: "slike/dvoriste.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.dvoriste.2026-10-06",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"gol", x:4, y:51.5, w:28.5, h:37, o:["gol", "gola", "golovi", "mreža"]},
+    {id:"lopta", x:38.5, y:82, w:6, h:11, o:["lopta", "lopte", "loptu", "lopti", "nogometna lopta"]},
+    {id:"dres", x:49.5, y:32, w:14.5, h:33, o:["dres", "dresa", "majica", "majicu"]},
+    {id:"prozor", x:66.5, y:8, w:30, h:35.5, o:["prozor", "prozora", "prozori", "prozoru"]},
+    {id:"bicikl", x:68, y:50.5, w:31.5, h:36.5, o:["bicikl", "bicikla", "biciklu", "biciklom"]},
+    {id:"macka", x:86, y:79, w:6.5, h:13, o:["mačka", "mačke", "mačku", "mačak", "maca", "mace"]}
+  ],
+  recenice: [
+    {hr:"Dječak ima novi {dres|dres} i jednu {lopta|loptu}.",
+     en:"The boy has a new football shirt and one ball."},
+    {hr:"Puca na {gol|gol}, ali lopta leti visoko.",
+     en:"He shoots at the goal, but the ball flies high."},
+    {hr:"Mama gleda kroz {prozor|prozor} i šuti.",
+     en:"Mum watches through the window and says nothing."},
+    {hr:"{macka|Mačka} se skriva iza {bicikl|bicikla}.",
+     en:"The cat hides behind the bicycle."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

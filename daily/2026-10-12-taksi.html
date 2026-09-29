@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Taksi</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "taksi",
+  vrsta: "daily",
+  ime: "Taksi",
+  stil: "a taxi by the river",
+  slika: "slike/taksi.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.taksi.2026-10-12",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"taksi", x:20.5, y:51, w:28, h:26.5, o:["taksi", "taksija", "auto", "automobil", "taxi"]},
+    {id:"vozac", x:47.5, y:48.5, w:6, h:26.5, o:["vozač", "vozača", "taksist", "taksista", "čovjek", "muškarac"]},
+    {id:"turist", x:76.5, y:51, w:6, h:34.5, o:["turist", "turista", "turistkinja", "turisti", "čovjek", "dečko", "muškarac", "putnik"]},
+    {id:"kofer", x:81.5, y:67.5, w:5, h:18.5, o:["kofer", "kofera", "koferi", "koferu", "putna torba"]},
+    {id:"most", x:52.5, y:40, w:46, h:17, o:["most", "mosta", "mostu"]},
+    {id:"zgrada", x:0, y:0, w:46.5, h:63, o:["zgrada", "zgrade", "zgradu", "kuća", "kuće", "hotel"]}
+  ],
+  recenice: [
+    {hr:"{turist|Turist} stoji na ulici s velikim {kofer|koferom}.",
+     en:"A tourist stands in the street with a big suitcase."},
+    {hr:"{vozac|Vozač} otvara vrata {taksi|taksija} i čeka.",
+     en:"The driver opens the taxi door and waits."},
+    {hr:"Ali turist gleda {most|most} i ne ide nikamo.",
+     en:"But the tourist is looking at the bridge and isn't going anywhere."},
+    {hr:"Hotel je u staroj {zgrada|zgradi}, samo dvadeset metara dalje.",
+     en:"The hotel is in the old building, just twenty metres away."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

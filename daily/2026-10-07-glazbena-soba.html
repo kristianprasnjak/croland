@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Glazbena soba</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "glazbena-soba",
+  vrsta: "daily",
+  ime: "Glazbena soba",
+  stil: "a small music room",
+  slika: "slike/glazbena-soba.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.glazbena-soba.2026-10-07",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"prozor", x:13.5, y:0, w:24.5, h:57.5, o:["prozor", "prozora", "prozori", "prozoru"]},
+    {id:"radio", x:27, y:40, w:13.5, h:16, o:["radio", "radija", "radiju", "radio aparat"]},
+    {id:"gitara", x:43.5, y:29, w:11.5, h:53, o:["gitara", "gitare", "gitaru"]},
+    {id:"stolica", x:53, y:39, w:20, h:49.5, o:["stolica", "stolice", "stolicu", "stolici", "fotelja", "fotelju", "naslonjač", "sjedalo"]},
+    {id:"knjiga", x:56.5, y:60.5, w:11, h:7.5, o:["knjiga", "knjige", "knjigu", "knjizi", "bilježnica"]},
+    {id:"lampa", x:72.5, y:10, w:13.5, h:84, o:["lampa", "lampe", "lampu", "svjetiljka", "svjetiljku", "stolna lampa", "podna lampa", "ulična lampa", "lampion"]}
+  ],
+  recenice: [
+    {hr:"Sestra svira {gitara|gitaru}, a brat sluša {radio|radio}.",
+     en:"The sister plays the guitar, and the brother listens to the radio."},
+    {hr:"{prozor|Prozor} je otvoren i glazba ide na ulicu.",
+     en:"The window is open and the music goes out into the street."},
+    {hr:"Na {stolica|stolici} je {knjiga|knjiga} s pjesmama.",
+     en:"On the chair there's a book of songs."},
+    {hr:"Kad padne mrak, sestra upali {lampa|lampu}.",
+     en:"When it gets dark, the sister turns on the lamp."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

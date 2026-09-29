@@ -226,10 +226,10 @@ infokratko: Statement *ću*; asking or answering *hoću*; refusing *neću*.
 opis: The short helper leans and never stands alone. The full one is stressed — use it to answer, to ask, or to contrast.
 - Answering "Hoćeš li doći?" | Hoću. | Ću. | Ću doći.
 - Asking whether someone will come | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
-- I will swim tomorrow. | Sutra ću plivati. | Sutra hoću plivati. | Sutra plivati ću.
+- I will swim tomorrow. | Sutra ću plivati. | Sutra ću plivat. | Sutra plivati ću.
 - He wants to, but I won't. | On hoće, ali ja neću. | On će, ali ja neću. | On hoće, ali ja ne ću.
 - Refusing "Hoćeš li raditi?" | Neću. | Ne ću. | Ne hoću.
-- We will travel on Saturday. | Putovat ćemo u subotu. | Hoćemo putovati u subotu. | Putovati ćemo u subotu.
+- We will travel on Saturday. | Putovat ćemo u subotu. | Ćemo putovati u subotu. | Putovati ćemo u subotu.
 
 ## Build the sentence
 format: slaganje

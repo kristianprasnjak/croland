@@ -1,0 +1,801 @@
+razina	njemački	engleski	hrvatski
+L0	das Hotel, Hotels	hotel	hotel
+L0	das Taxi, Taxis	taxi	taksi
+L0	die Banane, Bananen	banana	banana
+L0	die Hand, Hände	hand	ruka, šaka
+L0	das Haus, Häuser	house	kuća
+L0	die Butter (Sg.)	butter	maslac
+L0	das Wasser (Sg.)	water	voda
+L0	der Name, Namen (n-Dekl.)	name	ime
+L0	das Radio, Radios	radio	radio
+L0	die Pizza, Pizzas	pizza	pizza
+L0	der Finger, Finger	finger	prst
+L0	das Glas, Gläser	glass	čaša; staklo
+L0	die Maus, Mäuse	mouse	miš
+L0	der Ball, Bälle	ball	lopta
+L0	das Baby, Babys	baby	beba
+L0	die Musik (Sg.)	music	glazba
+L0	das Sofa, Sofas	sofa	kauč
+L0	der Garten, Gärten	garden	vrt
+L0	das Auto, Autos	car	auto
+L0	der Fisch, Fische	fish	riba
+L1	hallo	hello	bok, zdravo
+L1	guten Morgen	good morning	dobro jutro
+L1	guten Tag	hello, good day	dobar dan
+L1	guten Abend	good evening	dobra večer
+L1	gute Nacht	good night	laku noć
+L1	tschüss	bye	bok (na rastanku)
+L1	auf Wiedersehen	goodbye	doviđenja
+L1	danke	thank you	hvala
+L1	bitte	please; you're welcome	molim; izvoli
+L1	Entschuldigung	excuse me; sorry	oprostite
+L1	ja	yes	da
+L1	nein	no	ne
+L1	Wie geht's?	How are you?	Kako si?
+L1	gut	good; well	dobar; dobro
+L1	sehr	very	vrlo, jako
+L1	und	and	i
+L1	aber	but	ali
+L1	ich	I	ja
+L1	du	you (informal)	ti
+L1	Sie	you (formal)	Vi
+L1	sein (ist · ist gewesen)	to be	biti
+L1	heißen (hat geheißen)	to be called	zvati se
+L1	kommen (ist gekommen)	to come	doći, dolaziti
+L1	wohnen	to live (reside)	stanovati
+L1	lernen	to learn	učiti
+L1	sprechen (spricht · hat gesprochen)	to speak	govoriti
+L1	wer	who	tko
+L1	wie	how	kako
+L1	woher	where from	odakle
+L1	wo	where	gdje
+L1	aus	from (origin)	iz
+L1	in	in	u
+L1	das Land, Länder	country	zemlja
+L1	die Stadt, Städte	city, town	grad
+L1	die Sprache, Sprachen	language	jezik
+L1	Deutschland	Germany	Njemačka
+L1	Österreich	Austria	Austrija
+L1	die Schweiz	Switzerland	Švicarska
+L1	Kanada	Canada	Kanada
+L1	Kroatien	Croatia	Hrvatska
+L1	Deutsch	German (language)	njemački
+L1	Englisch	English (language)	engleski
+L1	Kroatisch	Croatian (language)	hrvatski
+L1	null	zero	nula
+L1	eins	one	jedan
+L1	zwei	two	dva
+L1	drei	three	tri
+L1	vier	four	četiri
+L1	fünf	five	pet
+L1	sechs	six	šest
+L1	sieben	seven	sedam
+L1	acht	eight	osam
+L1	neun	nine	devet
+L1	zehn	ten	deset
+L1	elf	eleven	jedanaest
+L1	zwölf	twelve	dvanaest
+L1	zwanzig	twenty	dvadeset
+L2	der Tisch, Tische	table	stol
+L2	der Stuhl, Stühle	chair	stolac
+L2	die Lampe, Lampen	lamp	svjetiljka
+L2	das Bett, Betten	bed	krevet
+L2	das Fenster, Fenster	window	prozor
+L2	die Tür, Türen	door	vrata
+L2	der Schlüssel, Schlüssel	key	ključ
+L2	die Tasche, Taschen	bag	torba
+L2	das Handy, Handys	mobile phone	mobitel
+L2	der Computer, Computer	computer	računalo
+L2	das Buch, Bücher	book	knjiga
+L2	der Kuli, Kulis	pen	kemijska
+L2	der Bleistift, Bleistifte	pencil	olovka
+L2	das Heft, Hefte	notebook	bilježnica
+L2	die Uhr, Uhren	clock, watch	sat
+L2	das Bild, Bilder	picture	slika
+L2	das Zimmer, Zimmer	room	soba
+L2	die Brille, Brillen	glasses	naočale
+L2	der Rucksack, Rucksäcke	backpack	ruksak
+L2	das Foto, Fotos	photo	fotografija
+L2	die Zeitung, Zeitungen	newspaper	novine
+L2	der Spiegel, Spiegel	mirror	ogledalo
+L2	die Farbe, Farben	colour	boja
+L2	rot	red	crven
+L2	blau	blue	plav
+L2	grün	green	zelen
+L2	gelb	yellow	žut
+L2	schwarz	black	crn
+L2	weiß	white	bijel
+L2	grau	grey	siv
+L2	braun	brown	smeđ
+L2	orange	orange	narančast
+L2	rosa	pink	ružičast
+L2	groß	big; tall	velik; visok
+L2	klein	small	malen
+L2	alt	old	star
+L2	neu	new	nov
+L2	schön	beautiful, nice	lijep
+L2	hässlich	ugly	ružan
+L2	teuer	expensive	skup
+L2	billig	cheap	jeftin
+L2	modern	modern	moderan
+L2	lang	long	dug
+L2	kurz	short	kratak
+L2	leicht	light; easy	lagan
+L2	schwer	heavy; difficult	težak
+L2	kaputt	broken	pokvaren
+L2	praktisch	practical	praktičan
+L2	nicht	not	ne
+L2	hier	here	ovdje
+L2	da	there	tu, ondje
+L2	dort	over there	tamo
+L2	was	what	što
+L2	wirklich	really	stvarno
+L2	ziemlich	quite, rather	prilično
+L2	zu (zu groß)	too	pre- (prevelik)
+L3	arbeiten	to work	raditi
+L3	machen	to do, to make	raditi, činiti
+L3	spielen	to play	igrati; svirati
+L3	kochen	to cook	kuhati
+L3	hören	to hear, to listen	čuti, slušati
+L3	trinken (hat getrunken)	to drink	piti
+L3	gehen (ist gegangen)	to go (on foot)	ići
+L3	fragen	to ask	pitati
+L3	antworten	to answer	odgovarati
+L3	brauchen	to need	trebati
+L3	kaufen	to buy	kupovati
+L3	studieren	to study (at university)	studirati
+L3	sagen	to say	reći
+L3	warten	to wait	čekati
+L3	malen	to paint	slikati
+L3	der Montag	Monday	ponedjeljak
+L3	der Dienstag	Tuesday	utorak
+L3	der Mittwoch	Wednesday	srijeda
+L3	der Donnerstag	Thursday	četvrtak
+L3	der Freitag	Friday	petak
+L3	der Samstag	Saturday	subota
+L3	der Sonntag	Sunday	nedjelja
+L3	der Morgen, Morgen	morning	jutro
+L3	der Vormittag, Vormittage	late morning	prijepodne
+L3	der Mittag, Mittage	noon	podne
+L3	der Nachmittag, Nachmittage	afternoon	poslijepodne
+L3	der Abend, Abende	evening	večer
+L3	die Nacht, Nächte	night	noć
+L3	morgens	in the morning	ujutro
+L3	abends	in the evening	navečer
+L3	immer	always	uvijek
+L3	oft	often	često
+L3	manchmal	sometimes	ponekad
+L3	selten	rarely	rijetko
+L3	nie	never	nikad
+L3	heute	today	danas
+L3	morgen	tomorrow	sutra
+L3	jetzt	now	sada
+L3	dann	then	onda
+L3	die Arbeit, Arbeiten	work	posao, rad
+L3	die Schule, Schulen	school	škola
+L3	der Kurs, Kurse	course	tečaj
+L3	die Woche, Wochen	week	tjedan
+L3	der Tag, Tage	day	dan
+L3	das Wochenende, Wochenenden	weekend	vikend
+L3	die Universität, Universitäten	university	sveučilište
+L3	das Café, Cafés	café	kafić
+L3	oder	or	ili
+L3	denn	because (verb stays 2nd)	jer
+L3	um (um acht Uhr)	at (time)	u (u osam sati)
+L3	zu Hause	at home	kod kuće
+L3	nach Hause	home (direction)	kući
+L3	viel	much, a lot	mnogo
+L3	zusammen	together	zajedno
+L3	allein	alone	sam, sama
+L3	noch	still; yet	još
+L4	der Vater, Väter	father	otac
+L4	die Mutter, Mütter	mother	majka
+L4	die Eltern (Pl.)	parents	roditelji
+L4	der Bruder, Brüder	brother	brat
+L4	die Schwester, Schwestern	sister	sestra
+L4	die Geschwister (Pl.)	siblings	braća i sestre
+L4	der Sohn, Söhne	son	sin
+L4	die Tochter, Töchter	daughter	kći
+L4	das Kind, Kinder	child	dijete
+L4	die Oma, Omas	grandma	baka
+L4	der Opa, Opas	grandpa	djed
+L4	die Großeltern (Pl.)	grandparents	djed i baka
+L4	der Onkel, Onkel	uncle	ujak, stric
+L4	die Tante, Tanten	aunt	teta
+L4	der Cousin, Cousins	cousin (m)	bratić
+L4	die Cousine, Cousinen	cousin (f)	sestrična
+L4	der Mann, Männer	man; husband	muškarac; muž
+L4	die Frau, Frauen	woman; wife; Mrs	žena; supruga; gospođa
+L4	die Familie, Familien	family	obitelj
+L4	der Enkel, Enkel	grandson	unuk
+L4	die Enkelin, Enkelinnen	granddaughter	unuka
+L4	der Hund, Hunde	dog	pas
+L4	die Katze, Katzen	cat	mačka
+L4	das Tier, Tiere	animal	životinja
+L4	der Freund, Freunde	friend; boyfriend	prijatelj; dečko
+L4	die Freundin, Freundinnen	friend; girlfriend	prijateljica; djevojka
+L4	das Mädchen, Mädchen	girl	djevojčica
+L4	der Junge, Jungen (n-Dekl.)	boy	dječak
+L4	die Leute (Pl.)	people	ljudi
+L4	der Mensch, Menschen (n-Dekl.)	human being, person	čovjek
+L4	verheiratet	married	oženjen, udana
+L4	ledig	single	neoženjen, neudana
+L4	geschieden	divorced	razveden
+L4	jung	young	mlad
+L4	lieb	dear, kind	drag
+L4	nett	nice	ljubazan
+L4	lustig	funny	smiješan, zabavan
+L4	freundlich	friendly	prijazan
+L4	haben (hat · hat gehabt)	to have	imati
+L4	besuchen	to visit	posjetiti
+L4	lieben	to love	voljeti
+L4	kennen (hat gekannt)	to know (a person)	poznavati
+L4	suchen	to look for	tražiti
+L4	heiraten	to marry	vjenčati se
+L4	leben	to live (be alive)	živjeti
+L4	mein	my	moj
+L4	dein	your (informal)	tvoj
+L4	sein	his; its	njegov
+L4	ihr	her; their	njezin; njihov
+L4	unser	our	naš
+L4	euer	your (plural)	vaš
+L4	kein	no, not a	nijedan, nikakav
+L4	das Jahr, Jahre	year	godina
+L4	dreizehn	thirteen	trinaest
+L4	vierzehn	fourteen	četrnaest
+L4	fünfzehn	fifteen	petnaest
+L4	sechzehn	sixteen	šesnaest
+L4	siebzehn	seventeen	sedamnaest
+L4	achtzehn	eighteen	osamnaest
+L4	neunzehn	nineteen	devetnaest
+L5	das Brot, Brote	bread	kruh
+L5	das Brötchen, Brötchen	bread roll	pecivo
+L5	der Apfel, Äpfel	apple	jabuka
+L5	die Tomate, Tomaten	tomato	rajčica
+L5	das Ei, Eier	egg	jaje
+L5	der Käse (Sg.)	cheese	sir
+L5	die Milch (Sg.)	milk	mlijeko
+L5	die Wurst, Würste	sausage	kobasica
+L5	der Kaffee (Sg.)	coffee	kava
+L5	der Tee, Tees	tea	čaj
+L5	der Saft, Säfte	juice	sok
+L5	das Bier, Biere	beer	pivo
+L5	der Wein, Weine	wine	vino
+L5	das Obst (Sg.)	fruit	voće
+L5	das Gemüse (Sg.)	vegetables	povrće
+L5	die Kartoffel, Kartoffeln	potato	krumpir
+L5	der Reis (Sg.)	rice	riža
+L5	die Nudeln (Pl.)	pasta, noodles	tjestenina
+L5	das Fleisch (Sg.)	meat	meso
+L5	das Hähnchen, Hähnchen	chicken (food)	piletina
+L5	der Zucker (Sg.)	sugar	šećer
+L5	das Salz (Sg.)	salt	sol
+L5	die Orange, Orangen	orange	naranča
+L5	die Zitrone, Zitronen	lemon	limun
+L5	die Erdbeere, Erdbeeren	strawberry	jagoda
+L5	die Karotte, Karotten	carrot	mrkva
+L5	der Salat, Salate	salad; lettuce	salata
+L5	die Suppe, Suppen	soup	juha
+L5	der Kuchen, Kuchen	cake	kolač
+L5	die Schokolade, Schokoladen	chocolate	čokolada
+L5	der Supermarkt, Supermärkte	supermarket	supermarket
+L5	der Laden, Läden	shop	dućan
+L5	die Bäckerei, Bäckereien	bakery	pekarnica
+L5	der Markt, Märkte	market	tržnica
+L5	die Kasse, Kassen	checkout, till	blagajna
+L5	der Preis, Preise	price	cijena
+L5	der Euro, Euros	euro	euro
+L5	der Cent, Cents	cent	cent
+L5	die Flasche, Flaschen	bottle	boca
+L5	die Packung, Packungen	pack, packet	pakiranje
+L5	das Kilo, Kilos	kilo	kilogram
+L5	das Gramm (Sg.)	gram	gram
+L5	das Stück, Stücke	piece	komad
+L5	der Liter, Liter	litre	litra
+L5	kosten	to cost	koštati
+L5	bezahlen	to pay	platiti
+L5	ich möchte	I would like	želio bih, želim
+L5	es gibt	there is, there are	ima, postoji
+L5	verkaufen	to sell	prodavati
+L5	frisch	fresh	svjež
+L5	lecker	tasty	ukusan
+L5	süß	sweet	sladak
+L5	dreißig	thirty	trideset
+L5	vierzig	forty	četrdeset
+L5	fünfzig	fifty	pedeset
+L5	sechzig	sixty	šezdeset
+L5	siebzig	seventy	sedamdeset
+L5	achtzig	eighty	osamdeset
+L5	neunzig	ninety	devedeset
+L5	hundert	hundred	sto
+L5	für	for	za
+L5	ohne	without	bez
+L5	wie viel	how much	koliko
+L5	wenig	little, few	malo
+L5	alles	everything	sve
+L5	etwas	something; some	nešto
+L6	schwimmen (ist geschwommen)	to swim	plivati
+L6	tanzen	to dance	plesati
+L6	singen (hat gesungen)	to sing	pjevati
+L6	lesen (liest · hat gelesen)	to read	čitati
+L6	laufen (läuft · ist gelaufen)	to run; to walk	trčati; hodati
+L6	fahren (fährt · ist gefahren)	to drive, to ride, to go	voziti (se), ići
+L6	fotografieren	to take photos	fotografirati
+L6	schlafen (schläft · hat geschlafen)	to sleep	spavati
+L6	sehen (sieht · hat gesehen)	to see	vidjeti
+L6	essen (isst · hat gegessen)	to eat	jesti
+L6	nehmen (nimmt · hat genommen)	to take	uzeti
+L6	treffen (trifft · hat getroffen)	to meet	sresti, naći se
+L6	geben (gibt · hat gegeben)	to give	dati
+L6	vergessen (vergisst · hat vergessen)	to forget	zaboraviti
+L6	waschen (wäscht · hat gewaschen)	to wash	prati
+L6	der Sport (Sg.)	sport	sport
+L6	das Hobby, Hobbys	hobby	hobi
+L6	der Fußball, Fußbälle	football	nogomet
+L6	die Gitarre, Gitarren	guitar	gitara
+L6	das Klavier, Klaviere	piano	klavir
+L6	der Film, Filme	film	film
+L6	das Spiel, Spiele	game; match	igra; utakmica
+L6	die Freizeit (Sg.)	free time	slobodno vrijeme
+L6	der Verein, Vereine	club	klub, udruga
+L6	das Konzert, Konzerte	concert	koncert
+L6	das Fahrrad, Fahrräder	bicycle	bicikl
+L6	das Schwimmbad, Schwimmbäder	swimming pool	bazen
+L6	das Lied, Lieder	song	pjesma
+L6	die Serie, Serien	TV series	serija
+L6	das Tennis (Sg.)	tennis	tenis
+L6	gern	gladly (likes to)	rado
+L6	lieber	rather (prefers to)	radije
+L6	mich	me	me, mene
+L6	dich	you (informal, acc.)	te, tebe
+L6	ihn	him	ga, njega
+L6	uns	us	nas
+L6	euch	you (pl., acc.)	vas
+L6	interessant	interesting	zanimljiv
+L6	toll	great	super, odličan
+L6	super	super	super
+L6	spannend	exciting	napet, uzbudljiv
+L6	müde	tired	umoran
+L6	das Team, Teams	team	tim
+L6	der Spieler, Spieler	player	igrač
+L6	gewinnen (hat gewonnen)	to win	pobijediti
+L6	verlieren (hat verloren)	to lose	izgubiti
+L6	draußen	outside	vani
+L6	drinnen	inside	unutra
+L6	die Karte, Karten	card; map; ticket	karta
+L6	das Instrument, Instrumente	instrument	instrument
+L6	das Theater, Theater	theatre	kazalište
+L6	die Kamera, Kameras	camera	fotoaparat
+L6	der Ausflug, Ausflüge	trip, outing	izlet
+L6	joggen	to jog	trčati (rekreativno)
+L6	klettern	to climb	penjati se
+L6	Lust haben	to feel like	imati volje
+L6	die Zeit, Zeiten	time	vrijeme
+L6	die Mannschaft, Mannschaften	team (sport)	momčad
+L6	das Training, Trainings	training	trening
+L6	trainieren	to train	trenirati
+L7	der Arzt, Ärzte / die Ärztin, Ärztinnen	doctor	liječnik / liječnica
+L7	der Lehrer, Lehrer / die Lehrerin, Lehrerinnen	teacher	učitelj / učiteljica
+L7	der Koch, Köche / die Köchin, Köchinnen	cook	kuhar / kuharica
+L7	der Verkäufer, Verkäufer / die Verkäuferin, Verkäuferinnen	shop assistant	prodavač / prodavačica
+L7	der Ingenieur, Ingenieure / die Ingenieurin, Ingenieurinnen	engineer	inženjer / inženjerka
+L7	der Kellner, Kellner / die Kellnerin, Kellnerinnen	waiter	konobar / konobarica
+L7	der Student, Studenten (n-Dekl.) / die Studentin, Studentinnen	student	student / studentica
+L7	der Polizist, Polizisten (n-Dekl.) / die Polizistin, Polizistinnen	police officer	policajac / policajka
+L7	der Mechaniker, Mechaniker / die Mechanikerin, Mechanikerinnen	mechanic	mehaničar / mehaničarka
+L7	der Pfleger, Pfleger / die Pflegerin, Pflegerinnen	nurse, carer	medicinski tehničar / medicinska sestra
+L7	der Designer, Designer / die Designerin, Designerinnen	designer	dizajner / dizajnerica
+L7	der Chef, Chefs / die Chefin, Chefinnen	boss	šef / šefica
+L7	der Kollege, Kollegen (n-Dekl.) / die Kollegin, Kolleginnen	colleague	kolega / kolegica
+L7	der Beruf, Berufe	profession	zanimanje
+L7	die Firma, Firmen	company	tvrtka
+L7	das Büro, Büros	office	ured
+L7	der Termin, Termine	appointment	termin, dogovor
+L7	die Besprechung, Besprechungen	meeting	sastanak
+L7	die E-Mail, E-Mails	email	e-pošta
+L7	der Brief, Briefe	letter	pismo
+L7	das Telefon, Telefone	telephone	telefon
+L7	die Pause, Pausen	break	pauza
+L7	das Geld (Sg.)	money	novac
+L7	der Job, Jobs	job	posao
+L7	die Stelle, Stellen	position, job; place	radno mjesto; mjesto
+L7	das Projekt, Projekte	project	projekt
+L7	der Kunde, Kunden (n-Dekl.) / die Kundin, Kundinnen	customer	kupac, klijent
+L7	der Plan, Pläne	plan	plan
+L7	können (kann · hat gekonnt)	can, to be able to	moći, znati
+L7	müssen (muss · hat gemusst)	must, to have to	morati
+L7	wollen (will · hat gewollt)	to want	htjeti
+L7	dürfen (darf · hat gedurft)	may, to be allowed to	smjeti
+L7	sollen (soll · hat gesollt)	should, to be supposed to	trebati (po nečijoj volji)
+L7	möchten	would like	željeti
+L7	schreiben (hat geschrieben)	to write	pisati
+L7	telefonieren	to phone	telefonirati
+L7	erklären	to explain	objasniti
+L7	verdienen	to earn	zarađivati
+L7	beginnen (hat begonnen)	to begin	početi
+L7	planen	to plan	planirati
+L7	reparieren	to repair	popraviti
+L7	drucken	to print	ispisati
+L7	fertig	finished, ready	gotov
+L7	beschäftigt	busy	zauzet
+L7	frei	free	slobodan
+L7	lange	for a long time	dugo
+L7	die Regel, Regeln	rule	pravilo
+L7	die Ruhe (Sg.)	quiet, peace	mir, tišina
+L7	der Müll (Sg.)	rubbish	smeće
+L7	rauchen	to smoke	pušiti
+L7	parken	to park	parkirati
+L7	verboten	forbidden	zabranjeno
+L7	erlaubt	allowed	dopušteno
+L7	leider	unfortunately	nažalost
+L7	natürlich	of course	naravno
+L7	vielleicht	maybe	možda
+L7	das Internet (Sg.)	internet	internet
+L7	die Aufgabe, Aufgaben	task	zadatak
+L7	spülen	to wash up	prati suđe
+L7	man	one, you (general)	(bezlično: se)
+L7	arbeitslos	unemployed	nezaposlen
+L8	auf|stehen (ist aufgestanden)	to get up	ustati
+L8	an|fangen (fängt an · hat angefangen)	to begin	početi
+L8	auf|hören	to stop	prestati
+L8	ein|kaufen	to shop	kupovati (namirnice)
+L8	an|rufen (hat angerufen)	to call (phone)	nazvati
+L8	fern|sehen (sieht fern · hat ferngesehen)	to watch TV	gledati televiziju
+L8	auf|räumen	to tidy up	pospremiti
+L8	mit|kommen (ist mitgekommen)	to come along	poći s nekim
+L8	ab|holen	to pick up	pokupiti
+L8	zurück|kommen (ist zurückgekommen)	to come back	vratiti se
+L8	auf|wachen (ist aufgewacht)	to wake up	probuditi se
+L8	ein|schlafen (schläft ein · ist eingeschlafen)	to fall asleep	zaspati
+L8	aus|gehen (ist ausgegangen)	to go out	izaći
+L8	mit|bringen (hat mitgebracht)	to bring along	donijeti
+L8	frühstücken	to have breakfast	doručkovati
+L8	duschen	to shower	tuširati se
+L8	dauern	to last, to take (time)	trajati
+L8	das Frühstück, Frühstücke	breakfast	doručak
+L8	das Mittagessen, Mittagessen	lunch	ručak
+L8	das Abendessen, Abendessen	dinner	večera
+L8	die Stunde, Stunden	hour	sat (60 min)
+L8	die Minute, Minuten	minute	minuta
+L8	halb (halb acht)	half (7:30)	pola (pola osam)
+L8	das Viertel, Viertel	quarter	četvrt
+L8	vor (Viertel vor acht)	to, before (time)	do (četvrt do osam)
+L8	nach (Viertel nach acht · nach Wien)	past (time); to (cities, countries)	i (osam i četvrt); u (u Beč)
+L8	früh	early	rano
+L8	spät	late	kasno
+L8	pünktlich	on time	točan, na vrijeme
+L8	bald	soon	uskoro
+L8	gleich	right away; same	odmah; isti
+L8	schon	already	već
+L8	erst	only (not until); first	tek; najprije
+L8	der Wecker, Wecker	alarm clock	budilica
+L8	der Alltag (Sg.)	everyday life	svakodnevica
+L8	der Bus, Busse	bus	autobus
+L8	wann	when	kada
+L8	zuerst	first	najprije
+L8	danach	after that	nakon toga
+L8	normalerweise	usually	obično
+L8	wach	awake	budan
+L8	die Dusche, Duschen	shower	tuš
+L8	der Haushalt, Haushalte	household, housework	kućanstvo
+L8	die Wäsche (Sg.)	laundry	rublje
+L8	der Einkauf, Einkäufe	shopping, purchase	kupnja
+L8	Gassi gehen	to walk the dog	šetati psa
+L8	schnell	fast	brz, brzo
+L8	langsam	slow	spor, polako
+L8	fast	almost	gotovo
+L8	ungefähr	about, approximately	otprilike
+L8	jeden Tag	every day	svaki dan
+L8	täglich	daily	svakodnevno
+L8	vormittags	in the late morning	prijepodne
+L8	nachmittags	in the afternoon	poslijepodne
+L8	nachts	at night	noću
+L8	mittags	at noon	u podne
+L8	die Nachricht, Nachrichten	message; news	poruka; vijest
+L8	das Licht, Lichter	light	svjetlo
+L8	ein|schalten	to switch on	uključiti
+L8	aus|schalten	to switch off	isključiti
+L9	der Körper, Körper	body	tijelo
+L9	der Kopf, Köpfe	head	glava
+L9	das Gesicht, Gesichter	face	lice
+L9	das Auge, Augen	eye	oko
+L9	das Ohr, Ohren	ear	uho
+L9	die Nase, Nasen	nose	nos
+L9	der Mund, Münder	mouth	usta
+L9	der Zahn, Zähne	tooth	zub
+L9	der Hals, Hälse	neck; throat	vrat; grlo
+L9	der Arm, Arme	arm	ruka (od ramena)
+L9	das Bein, Beine	leg	noga
+L9	der Fuß, Füße	foot	stopalo
+L9	der Bauch, Bäuche	belly	trbuh
+L9	der Rücken, Rücken	back	leđa
+L9	das Knie, Knie	knee	koljeno
+L9	die Schulter, Schultern	shoulder	rame
+L9	das Herz, Herzen	heart	srce
+L9	das Haar, Haare	hair	kosa
+L9	krank	ill	bolestan
+L9	gesund	healthy	zdrav
+L9	das Fieber (Sg.)	fever	temperatura, groznica
+L9	die Erkältung, Erkältungen	cold	prehlada
+L9	der Husten (Sg.)	cough	kašalj
+L9	der Schnupfen (Sg.)	runny nose	hunjavica
+L9	die Grippe (Sg.)	flu	gripa
+L9	die Schmerzen (Pl.)	pain	bolovi
+L9	weh|tun (tut weh · hat wehgetan)	to hurt	boljeti
+L9	die Praxis, Praxen	doctor's surgery	ordinacija
+L9	das Rezept, Rezepte	prescription; recipe	recept
+L9	die Tablette, Tabletten	pill	tableta
+L9	das Medikament, Medikamente	medicine	lijek
+L9	die Apotheke, Apotheken	pharmacy	ljekarna
+L9	das Krankenhaus, Krankenhäuser	hospital	bolnica
+L9	die Krankenkasse, Krankenkassen	health insurance	zdravstveno osiguranje
+L9	der Zahnarzt, Zahnärzte / die Zahnärztin, Zahnärztinnen	dentist	zubar / zubarica
+L9	die Krankschreibung, Krankschreibungen	sick note	bolovanje (potvrda)
+L9	bleiben (ist geblieben)	to stay	ostati
+L9	atmen	to breathe	disati
+L9	untersuchen	to examine	pregledati
+L9	messen (misst · hat gemessen)	to measure	mjeriti
+L9	Gute Besserung!	Get well soon!	Brzo ozdravi!
+L9	die Hilfe (Sg.)	help	pomoć
+L9	schlecht	bad	loš
+L9	stark	strong	jak
+L9	schwach	weak	slab
+L9	warm	warm	topao
+L9	kalt	cold	hladan
+L9	heiß	hot	vruć
+L9	genug	enough	dovoljno
+L9	mal (Komm mal!)	just (softener)	(ublažava: de, malo)
+L9	sofort	immediately	odmah
+L9	-mal (dreimal)	times (three times)	puta (tri puta)
+L9	das Blut (Sg.)	blood	krv
+L9	die Brust, Brüste	chest; breast	prsa
+L9	der Schlaf (Sg.)	sleep	san (spavanje)
+L9	die Gesundheit (Sg.)	health	zdravlje
+L9	die Allergie, Allergien	allergy	alergija
+L9	der Unfall, Unfälle	accident	nesreća
+L9	Was fehlt Ihnen?	What's wrong with you?	Što Vam je?
+L9	vorsichtig	careful	oprezan
+L10	feiern	to celebrate, to party	slaviti
+L10	grillen	to barbecue	roštiljati
+L10	backen (hat gebacken)	to bake	peći
+L10	putzen	to clean	čistiti
+L10	aus|schlafen (schläft aus · hat ausgeschlafen)	to sleep in	naspavati se
+L10	spazieren gehen (ist spazieren gegangen)	to go for a walk	šetati
+L10	bügeln	to iron	glačati
+L10	erzählen	to tell	pričati
+L10	bekommen (hat bekommen)	to get, to receive	dobiti
+L10	verbringen (hat verbracht)	to spend (time)	provesti
+L10	verstehen (hat verstanden)	to understand	razumjeti
+L10	probieren	to try, to taste	probati
+L10	erleben	to experience	doživjeti
+L10	passieren (ist passiert)	to happen	dogoditi se
+L10	wissen (weiß · hat gewusst)	to know (a fact)	znati
+L10	kennen|lernen	to get to know	upoznati
+L10	reden	to talk	razgovarati, pričati
+L10	zu|hören	to listen	slušati
+L10	gestern	yesterday	jučer
+L10	vorgestern	the day before yesterday	prekjučer
+L10	letzt- (letzte Woche)	last	prošli (prošli tjedan)
+L10	neulich	recently	nedavno
+L10	gerade	just now; right now	upravo
+L10	noch nie	never yet	još nikad
+L10	die Party, Partys	party	zabava
+L10	das Fest, Feste	celebration, festival	slavlje, fešta
+L10	der Grill, Grills	grill	roštilj
+L10	der Spaziergang, Spaziergänge	walk	šetnja
+L10	der Feierabend, Feierabende	end of the working day	kraj radnog dana
+L10	der Flohmarkt, Flohmärkte	flea market	buvljak
+L10	das Picknick, Picknicks	picnic	piknik
+L10	die Kneipe, Kneipen	pub	birtija
+L10	das Restaurant, Restaurants	restaurant	restoran
+L10	das Essen, Essen	meal; food	obrok; hrana
+L10	der Gast, Gäste	guest	gost
+L10	das Tagebuch, Tagebücher	diary	dnevnik
+L10	anstrengend	tiring	naporan
+L10	entspannt	relaxed	opušten
+L10	schrecklich	terrible	užasan
+L10	wunderbar	wonderful	divan
+L10	zufrieden	satisfied	zadovoljan
+L10	Wie war's?	How was it?	Kako je bilo?
+L10	den ganzen Tag	all day	cijeli dan
+L10	endlich	finally	napokon
+L10	plötzlich	suddenly	odjednom
+L10	zum Glück	luckily	srećom
+L10	am Ende	in the end	na kraju
+L10	bis	until	do
+L10	die Geschichte, Geschichten	story; history	priča; povijest
+L10	die Überraschung, Überraschungen	surprise	iznenađenje
+L10	das Mehl (Sg.)	flour	brašno
+L10	die Sahne (Sg.)	cream	vrhnje
+L10	der Nachtisch, Nachtische	dessert	desert
+L10	Kaffee und Kuchen	coffee and cake	kava i kolači (popodne)
+L10	der Kater, Kater	hangover; tomcat	mamurluk; mačak
+L10	der Spaß (Sg.)	fun	zabava
+L10	chatten	to chat (online)	dopisivati se
+L10	das Video, Videos	video	video
+L11	die Reise, Reisen	journey, trip	putovanje
+L11	der Urlaub, Urlaube	holiday	godišnji odmor
+L11	die Ferien (Pl.)	holidays (school)	praznici
+L11	der Zug, Züge	train	vlak
+L11	der Bahnhof, Bahnhöfe	station	kolodvor
+L11	das Gleis, Gleise	platform, track	peron
+L11	die Fahrkarte, Fahrkarten	ticket	vozna karta
+L11	das Ticket, Tickets	ticket	karta
+L11	der Fahrplan, Fahrpläne	timetable	vozni red
+L11	die Verspätung, Verspätungen	delay	kašnjenje
+L11	der Koffer, Koffer	suitcase	kofer
+L11	das Gepäck (Sg.)	luggage	prtljaga
+L11	der Flughafen, Flughäfen	airport	zračna luka
+L11	das Flugzeug, Flugzeuge	aeroplane	zrakoplov
+L11	der Flug, Flüge	flight	let
+L11	der Pass, Pässe	passport	putovnica
+L11	die Grenze, Grenzen	border	granica
+L11	die Jugendherberge, Jugendherbergen	youth hostel	hostel
+L11	die Übernachtung, Übernachtungen	overnight stay	noćenje
+L11	die Sehenswürdigkeit, Sehenswürdigkeiten	sight, attraction	znamenitost
+L11	der Tourist, Touristen (n-Dekl.) / die Touristin, Touristinnen	tourist	turist / turistkinja
+L11	das Meer, Meere	sea	more
+L11	der Strand, Strände	beach	plaža
+L11	die Insel, Inseln	island	otok
+L11	reisen (ist gereist)	to travel	putovati
+L11	fliegen (ist geflogen)	to fly	letjeti
+L11	an|kommen (ist angekommen)	to arrive	stići
+L11	ab|fahren (fährt ab · ist abgefahren)	to depart	otići, krenuti
+L11	um|steigen (ist umgestiegen)	to change (trains)	presjesti
+L11	ein|steigen (ist eingestiegen)	to get on	ući (u vozilo)
+L11	aus|steigen (ist ausgestiegen)	to get off	izaći (iz vozila)
+L11	packen	to pack	pakirati
+L11	buchen	to book	rezervirati
+L11	übernachten	to stay overnight	prenoćiti
+L11	besichtigen	to visit (sights)	razgledati
+L11	wandern (ist gewandert)	to hike	planinariti
+L11	landen (ist gelandet)	to land	sletjeti
+L11	verpassen	to miss	propustiti
+L11	das Wetter (Sg.)	weather	vrijeme (meteorološko)
+L11	die Sonne, Sonnen	sun	sunce
+L11	der Regen (Sg.)	rain	kiša
+L11	der Schnee (Sg.)	snow	snijeg
+L11	der Wind, Winde	wind	vjetar
+L11	die Wolke, Wolken	cloud	oblak
+L11	sonnig	sunny	sunčan
+L11	regnen (es regnet)	to rain	padati (kiša)
+L11	schneien (es schneit)	to snow	padati (snijeg)
+L11	windig	windy	vjetrovit
+L11	bewölkt	cloudy	oblačan
+L11	das Grad, Grad	degree	stupanj
+L11	Berlin	Berlin	Berlin
+L11	Wien	Vienna	Beč
+L11	München	Munich	München
+L11	Köln	Cologne	Köln
+L11	Hamburg	Hamburg	Hamburg
+L11	Zürich	Zurich	Zürich
+L11	Italien	Italy	Italija
+L11	Spanien	Spain	Španjolska
+L11	Frankreich	France	Francuska
+L11	die Türkei	Turkey	Turska
+L11	die Postkarte, Postkarten	postcard	razglednica
+L11	Gute Reise!	Have a good trip!	Sretan put!
+L11	hin und zurück	return (ticket)	povratna (karta)
+L11	unterwegs	on the way	na putu
+L12	die Bank, Banken	bank	banka
+L12	die Post (Sg.)	post office; mail	pošta
+L12	das Kino, Kinos	cinema	kino
+L12	der Park, Parks	park	park
+L12	das Rathaus, Rathäuser	town hall	gradska vijećnica
+L12	das Museum, Museen	museum	muzej
+L12	die Haltestelle, Haltestellen	stop (bus, tram)	stanica
+L12	die Kirche, Kirchen	church	crkva
+L12	die Polizei (Sg.)	police	policija
+L12	der Platz, Plätze	square; seat; space	trg; mjesto
+L12	die Straße, Straßen	street	ulica
+L12	die Kreuzung, Kreuzungen	crossroads	raskrižje
+L12	die Ampel, Ampeln	traffic light	semafor
+L12	die Brücke, Brücken	bridge	most
+L12	das Zentrum, Zentren	centre	centar
+L12	das Einkaufszentrum, Einkaufszentren	shopping centre	trgovački centar
+L12	die Bibliothek, Bibliotheken	library	knjižnica
+L12	das Bürgeramt, Bürgerämter	citizens' office	gradski ured
+L12	das Geschäft, Geschäfte	shop; business	trgovina; posao
+L12	der Kiosk, Kioske	kiosk	kiosk
+L12	die Toilette, Toiletten	toilet	zahod, WC
+L12	die U-Bahn, U-Bahnen	underground	podzemna željeznica
+L12	die S-Bahn, S-Bahnen	suburban train	gradska željeznica
+L12	die Straßenbahn, Straßenbahnen	tram	tramvaj
+L12	die Linie, Linien	line (bus, tram)	linija
+L12	der Fahrer, Fahrer / die Fahrerin, Fahrerinnen	driver	vozač / vozačica
+L12	das Motorrad, Motorräder	motorbike	motocikl
+L12	links	left	lijevo
+L12	rechts	right	desno
+L12	geradeaus	straight on	ravno
+L12	gegenüber	opposite	nasuprot
+L12	weit	far	daleko
+L12	nah	near	blizu
+L12	die Nähe (Sg.)	vicinity	blizina
+L12	mit	with; by (transport)	s, sa; (prijevozom)
+L12	bei	at (someone's); near	kod
+L12	zu	to (a person, place)	k, prema; do
+L12	von	from; of	od
+L12	seit	since; for (time)	od (vremenski)
+L12	zu Fuß gehen	to walk, to go on foot	ići pješice
+L12	ab|biegen (ist abgebogen)	to turn	skrenuti
+L12	finden (hat gefunden)	to find	naći
+L12	halten (hält · hat gehalten)	to stop; to hold	stati; držati
+L12	erreichen	to reach	stići do
+L12	der Weg, Wege	way, path	put
+L12	der Stadtplan, Stadtpläne	city map	plan grada
+L12	die Adresse, Adressen	address	adresa
+L12	die Anmeldung, Anmeldungen	registration	prijava (boravišta)
+L12	das Formular, Formulare	form	obrazac
+L12	der Ausweis, Ausweise	ID card	osobna iskaznica
+L12	der Stadtteil, Stadtteile	district	gradska četvrt
+L12	die Mitte (Sg.)	middle	sredina
+L12	Wie komme ich zum …?	How do I get to …?	Kako da dođem do …?
+L12	das Paket, Pakete	parcel	paket
+L12	die Briefmarke, Briefmarken	stamp	poštanska marka
+L12	das Konto, Konten	bank account	račun (u banci)
+L12	der Geldautomat, Geldautomaten (n-Dekl.)	cash machine	bankomat
+L12	der Mitbewohner, Mitbewohner / die Mitbewohnerin, Mitbewohnerinnen	flatmate	cimer / cimerica
+L12	die WG, WGs	shared flat	zajednički stan
+L12	voll	full	pun
+L12	leer	empty	prazan
+L12	offen	open	otvoren
+L12	geschlossen	closed	zatvoren
+L12	überall	everywhere	svugdje
+L12	die Gegend, Gegenden	area	kraj, okolica
+L13	glauben	to believe, to think	vjerovati, misliti
+L13	meinen	to think, to mean	misliti, smatrati
+L13	denken (hat gedacht)	to think	misliti
+L13	hoffen	to hope	nadati se
+L13	die Meinung, Meinungen	opinion	mišljenje
+L13	der Grund, Gründe	reason	razlog
+L13	die Idee, Ideen	idea	ideja
+L13	das Problem, Probleme	problem	problem
+L13	recht haben	to be right	biti u pravu
+L13	der Vorteil, Vorteile	advantage	prednost
+L13	der Nachteil, Nachteile	disadvantage	nedostatak
+L13	die Frage, Fragen	question	pitanje
+L13	die Antwort, Antworten	answer	odgovor
+L13	die Lösung, Lösungen	solution	rješenje
+L13	das Beispiel, Beispiele	example	primjer
+L13	wichtig	important	važan
+L13	langweilig	boring	dosadan
+L13	schwierig	difficult	težak
+L13	einfach	easy, simple	jednostavan
+L13	richtig	right, correct	točan
+L13	falsch	wrong	pogrešan
+L13	möglich	possible	moguć
+L13	nützlich	useful	koristan
+L13	sicher	sure; safe	siguran
+L13	üben	to practise	vježbati
+L13	wiederholen	to repeat, to revise	ponavljati
+L13	die Prüfung, Prüfungen	exam	ispit
+L13	der Test, Tests	test	test
+L13	die Grammatik (Sg.)	grammar	gramatika
+L13	das Wort, Wörter	word	riječ
+L13	der Satz, Sätze	sentence	rečenica
+L13	die Übung, Übungen	exercise	vježba
+L13	das Wörterbuch, Wörterbücher	dictionary	rječnik
+L13	der Fehler, Fehler	mistake	pogreška
+L13	die Hausaufgabe, Hausaufgaben	homework	domaća zadaća
+L13	bestehen (hat bestanden)	to pass (an exam)	položiti
+L13	der Unterricht (Sg.)	lessons, teaching	nastava
+L13	weil	because (verb goes last)	jer, zato što
+L13	dass	that	da
+L13	wenn	if; when(ever)	ako; kad
+L13	deshalb	therefore	zato
+L13	trotzdem	nevertheless	ipak
+L13	außerdem	besides	osim toga
+L13	also	so	dakle
+L13	doch	yes (contradicting); but	ipak; (odgovor „da“ na niječno pitanje)
+L13	sondern	but rather	nego
+L13	nichts	nothing	ništa
+L13	niemand	nobody	nitko
+L13	diskutieren	to discuss	raspravljati
+L13	einverstanden	agreed	slažem se
+L13	das Gespräch, Gespräche	conversation	razgovor
+L13	entscheiden (hat entschieden)	to decide	odlučiti
+L13	vor|schlagen (schlägt vor · hat vorgeschlagen)	to suggest	predložiti
+L13	der Vorschlag, Vorschläge	suggestion	prijedlog
+L13	die Umwelt (Sg.)	environment	okoliš
+L13	umweltfreundlich	eco-friendly	ekološki prihvatljiv
+L13	egal	doesn't matter	svejedno

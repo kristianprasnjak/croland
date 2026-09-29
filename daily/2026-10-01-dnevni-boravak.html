@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Dnevni boravak</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "dnevni-boravak",
+  vrsta: "daily",
+  ime: "Dnevni boravak",
+  stil: "a quiet living room",
+  slika: "slike/dnevni-boravak.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.dnevni-boravak.2026-10-01",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"prozor", x:6, y:7, w:14, h:45.5, o:["prozor", "prozora", "prozori", "prozoru"]},
+    {id:"lampa", x:26, y:19, w:11, h:63, o:["lampa", "lampe", "lampu", "svjetiljka", "svjetiljku", "stolna lampa", "podna lampa", "ulična lampa", "lampion"]},
+    {id:"sat", x:76, y:11, w:10.5, h:18.5, o:["sat", "sata", "satu", "zidni sat"]},
+    {id:"televizor", x:71.5, y:42.5, w:19.5, h:27.5, o:["televizor", "televizora", "tv", "televizija", "ekran", "ekrana"]},
+    {id:"pas", x:43, y:70.5, w:16, h:15.5, o:["pas", "psa", "psi", "pseto", "psić", "kuca", "kuja"]},
+    {id:"casopis", x:55.5, y:83.5, w:15.5, h:12.5, o:["časopis", "časopisa", "novine", "novina", "magazin", "revija"]}
+  ],
+  recenice: [
+    {hr:"Popodne sunce ulazi kroz {prozor|prozor}.",
+     en:"In the afternoon the sun comes in through the window."},
+    {hr:"{pas|Pas} spava na podu pored {casopis|časopisa}.",
+     en:"The dog is sleeping on the floor next to the magazine."},
+    {hr:"{televizor|Televizor} je ugašen, a {lampa|lampa} ne svijetli.",
+     en:"The TV is off, and the lamp isn't on."},
+    {hr:"Samo {sat|sat} na zidu radi: tik-tak, tik-tak.",
+     en:"Only the clock on the wall is working: tick-tock, tick-tock."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

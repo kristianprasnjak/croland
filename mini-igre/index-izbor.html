@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Croland — choose a game</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#FFF8F0; --papir2:#FFEFE0; --tinta:#2B2118; --meko:#8B7B6B;
+  --zut:#F4B942; --koralj:#E8623A; --zelena:#7CB342; --smeda:#6D4B27;
+  --obrub:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta);
+}
+@font-face{font-family:"Pixelify Sans";src:url("mini games media/font-pixelify-sans.ttf") format("truetype");font-weight:400 700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("mini games media/font-nunito.ttf") format("truetype");font-weight:200 1000;font-display:swap}
+html,body{height:100%}
+body{font-family:"Nunito","Segoe UI",system-ui,sans-serif;background:var(--papir);color:var(--tinta);
+  -webkit-font-smoothing:antialiased;overscroll-behavior:none;
+  background-image:linear-gradient(rgba(109,75,39,.07) 2px,transparent 2px),linear-gradient(90deg,rgba(109,75,39,.07) 2px,transparent 2px);
+  background-size:24px 24px}
+.omot{max-width:1100px;margin:0 auto;padding:18px 16px 40px;min-height:100%;display:flex;flex-direction:column;align-items:center}
+.vrh{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.vrh h1{font-family:"Pixelify Sans","Nunito",sans-serif;font-size:26px}
+.vrh a{color:var(--tinta);font-weight:800;font-size:14px;text-decoration:none;background:#fff;padding:5px 12px;margin:3px;box-shadow:var(--obrub)}
+.vrh a:hover{background:var(--zut)}
+
+/* ---- pozornica ---- */
+.izbor{width:100%;display:grid;grid-template-columns:72px minmax(0,1fr) 72px;align-items:center;gap:22px}
+.strelica{font-family:"Pixelify Sans",sans-serif;font-size:34px;font-weight:700;line-height:1;cursor:pointer;
+  width:64px;height:64px;border:0;background:var(--zut);color:var(--tinta);margin:3px;
+  box-shadow:var(--obrub),0 6px 0 var(--smeda);transition:transform .06s}
+.strelica:hover{background:#FFD36E}
+.strelica:active{transform:translateY(4px);box-shadow:var(--obrub),0 2px 0 var(--smeda)}
+.pozornica{position:relative;touch-action:pan-y}
+/* naziv sjedi ispod profilne slike, lijevo od screenshota; padding-bottom (u % širine) čuva mjesto za dio screenshota koji viri */
+.imeIgre{width:56%;padding:18px 0 4% 2px;text-align:left;font-family:"Pixelify Sans","Nunito",sans-serif;font-size:32px;line-height:1.1}
+.imeIgre small{display:block;font-size:17px;color:var(--meko);margin-top:4px}
+.profil{width:86%;aspect-ratio:16/10;display:block;object-fit:cover;background:var(--papir2);
+  box-shadow:var(--obrub),0 8px 0 var(--smeda);image-rendering:auto}
+.traka{position:absolute;right:0;top:0;width:8%;height:52%;background:#fff;
+  box-shadow:var(--obrub),0 6px 0 var(--smeda);display:flex;align-items:flex-end}
+.traka i{display:block;width:100%;background:var(--zelena);transition:height .35s;
+  background-image:repeating-linear-gradient(0deg,transparent 0 10px,rgba(0,0,0,.12) 10px 12px)}
+.traka b{position:absolute;left:50%;top:calc(100% + 12px);transform:translateX(-50%);
+  font-family:"Pixelify Sans",sans-serif;font-size:15px;white-space:nowrap}
+/* margin-top u % širine: visina profila (86% × 10/16 = 53.75%) minus preklapanje */
+.shot{position:absolute;right:0;top:0;margin-top:39.75%;width:40%;aspect-ratio:16/10;background:var(--papir2);
+  box-shadow:0 0 0 5px #fff,0 -8px 0 var(--tinta),0 8px 0 var(--tinta),-8px 0 0 var(--tinta),8px 0 0 var(--tinta),0 14px 0 var(--smeda);
+  display:flex;align-items:center;justify-content:center;overflow:hidden}
+.shot img{width:100%;height:100%;object-fit:cover;display:block}
+.shot span{font-family:"Pixelify Sans",sans-serif;font-size:14px;color:var(--meko)}
+.broj{position:absolute;left:12px;top:10px;font-family:"Pixelify Sans",sans-serif;font-size:14px;
+  background:var(--tinta);color:#fff;padding:2px 8px}
+
+/* ---- tekst ---- */
+.tekst{width:100%;max-width:640px;text-align:center;margin-top:26px}
+.tekst .stil{font-size:12px;text-transform:uppercase;letter-spacing:.7px;color:var(--koralj);font-weight:800;margin:10px 0 8px}
+.tekst .opis{font-size:15px;color:var(--meko);line-height:1.55;min-height:4.6em}
+.tekst .dno{display:flex;justify-content:center;gap:14px;align-items:center;margin-top:10px;font-size:13px;font-weight:700}
+.tekst .stanje{color:var(--zelena)}
+.igraj{display:inline-block;margin-top:18px;font-family:"Pixelify Sans",sans-serif;font-size:24px;font-weight:700;
+  color:var(--tinta);text-decoration:none;background:var(--zut);padding:10px 40px;margin-left:3px;margin-right:3px;
+  box-shadow:var(--obrub),0 6px 0 var(--smeda)}
+.igraj:hover{background:#FFD36E}
+.tocke{display:flex;gap:8px;justify-content:center;margin-top:22px;flex-wrap:wrap}
+.tocke button{width:12px;height:12px;border:0;background:#fff;box-shadow:0 0 0 2px var(--tinta);cursor:pointer;padding:0}
+.tocke button.on{background:var(--tinta)}
+.dolje{display:none}
+
+/* ---- animacija ---- */
+.ulazD{animation:ulazD .22s ease-out}
+.ulazL{animation:ulazL .22s ease-out}
+@keyframes ulazD{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:none}}
+@keyframes ulazL{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+
+/* ---- računalo: velika pozornica, strelice izvan slike (osnovno gore) ---- */
+@media (min-width:1025px){
+  .pozornica{max-width:860px;width:100%;justify-self:center}
+}
+/* ---- tablet: strelice uz rub, uže, tekst širi ---- */
+@media (min-width:641px) and (max-width:1024px){
+  .omot{padding:14px 14px 34px}
+  .izbor{grid-template-columns:54px minmax(0,1fr) 54px;gap:14px}
+  .strelica{width:50px;height:50px;font-size:28px}
+  .tekst{max-width:560px;margin-top:22px}
+  .imeIgre{font-size:28px}
+}
+/* ---- mobitel: slika preko cijele širine, strelice ispod uz točke ---- */
+@media (max-width:640px){
+  .omot{padding:10px 10px 28px}
+  .vrh h1{font-size:20px}
+  .izbor{display:block}
+  .izbor>.strelica{display:none}
+  .profil{width:88%}
+  .traka{width:9%;height:48%}
+  .traka b{font-size:12px}
+  .shot{width:46%;margin-top:39%;box-shadow:0 0 0 3px #fff,0 -5px 0 var(--tinta),0 5px 0 var(--tinta),-5px 0 0 var(--tinta),5px 0 0 var(--tinta),0 9px 0 var(--smeda)}
+  .dolje{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:22px;width:100%}
+  .dolje .tocke{margin-top:0;flex:1;gap:5px;flex-wrap:nowrap}
+  .dolje .tocke button{width:9px;height:9px}
+  .dolje .strelica{width:48px;height:48px;font-size:26px}
+  .tekst{margin-top:14px}
+  .imeIgre{width:50%;font-size:22px;padding-top:14px}
+  .imeIgre small{font-size:14px}
+  .tekst .opis{font-size:14px;min-height:0}
+  .igraj{display:block;margin:16px 3px 0}
+  .tekst>.tocke{display:none}
+}
+</style>
+</head>
+<body>
+<div class="omot">
+  <div class="vrh"><h1>Choose a game</h1><a href="index.html">List view</a></div>
+
+  <div class="izbor">
+    <button class="strelica" data-smjer="-1" aria-label="Previous game">&lt;</button>
+    <div class="pozornica" id="pozornica">
+      <img class="profil" id="profil" alt="">
+      <span class="broj" id="broj"></span>
+      <div class="traka" title="Progress"><i id="trakaPuni"></i><b id="postotak"></b></div>
+      <h2 class="imeIgre" id="ime"></h2>
+      <div class="shot" id="shot"></div>
+    </div>
+    <button class="strelica" data-smjer="1" aria-label="Next game">&gt;</button>
+  </div>
+
+  <div class="dolje">
+    <button class="strelica" data-smjer="-1" aria-label="Previous game">&lt;</button>
+    <div class="tocke" id="tockeM"></div>
+    <button class="strelica" data-smjer="1" aria-label="Next game">&gt;</button>
+  </div>
+
+  <div class="tekst" id="tekst">
+    <div class="stil" id="stil"></div>
+    <p class="opis" id="opis"></p>
+    <div class="dno"><span id="nagrada"></span><span class="stanje" id="stanje"></span></div>
+    <a class="igraj" id="igraj" href="#">Play ▶</a>
+    <div class="tocke" id="tocke"></div>
+  </div>
+</div>
+<script>
+/* Podaci su prepisani iz kartica u index.html. max = broj razina/mjesta za postotak napretka. */
+var IGRE = [
+  {id:'grad', href:'01-grad.html', br:'01', en:'City', hr:'Grad', stil:'Pokémon Red RPG · difficulty 3/5', max:15,
+   opis:'Ten characters, fifteen tasks: shopping, deliveries, a quiz, conversations, sorting, sentences, typing and a final test. Then a free-roam city with no end.', nagrada:'100 points ×4 currencies'},
+  {id:'pamti', href:'03-pamti-pa-pisi.html', br:'03', en:'Memorize and Type', hr:'Pamti pa piši', stil:'memory + typing · difficulty 4/5', max:150,
+   opis:'Pictures or a sentence flash by, you write them down from memory — strictly, diacritics and all. A hundred and fifty levels and five kinds of material.', nagrada:'100 points ×4 currencies'},
+  {id:'tvrdjava', href:'04-tvrdjava.html', br:'04', en:'The Fortress', hr:'Tvrđava', stil:'story adventure · difficulty 1→5', max:12,
+   opis:'The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.', nagrada:'100 points ×4 currencies'},
+  {id:'konoba', href:'05-konoba.html', br:'05', en:'The Tavern', hr:'Konoba', stil:'serving · difficulty 2/5', max:20,
+   opis:'Guests order in the accusative, you serve by the pictures. Twenty shifts, 38 dishes and four types of guest — from the ones in a hurry to the ones who give you no translation.', nagrada:'50 points ×4 currencies'},
+  {id:'skladiste', href:'06-skladiste.html', br:'06', en:'The Warehouse', hr:'Skladište', stil:'Sokoban · difficulty 1–5/5', max:5,
+   opis:'You choose the stake, the stake sets the number of floors. Every floor has a different rule — category, gender, word type, first letter, translation — and shelves that block the way.', nagrada:'100 points ×4 currencies'},
+  {id:'vlak', href:'07-postanski-vlak.html', br:'07', en:'Mail Train', hr:'Poštanski vlak', stil:'sorting + timer · difficulty 2/5', max:18,
+   opis:'Fill the cars before departure. Eighteen rounds and eight rules: category, gender, first letter, length, word type, translation, opposites and sentences.', nagrada:'30 points ×4 currencies'},
+  {id:'labirint', href:'08-labirint.html', br:'08', en:'Maze', hr:'Labirint', stil:'Pac-Man · difficulty 4/5', max:10,
+   opis:'Ten levels, ten words each. You pick one of three categories, then eat only the words that belong to it. Three hearts for the whole run, and they never come back.', nagrada:'100 points ×4 currencies'},
+  {id:'zmija', href:'09-zmija.html', br:'09', en:'Snake', hr:'Zmija', stil:'Snake · difficulty 3/5', max:3,
+   opis:'You eat letters in the right order to spell the word in the picture. Three levels, thirty words, walls that multiply.', nagrada:'30 points ×4 currencies'},
+  {id:'mario', href:'10-mario.html', br:'10', en:'Portal', hr:'', stil:'platformer · difficulty 3/5', max:30,
+   opis:'Two shores with a lighthouse between them. Three clouds, one word in each — jump into the right one, climb the steps to the portal and cross to the other shore.', nagrada:'50 points ×4 currencies'},
+  {id:'prezivljavanje', href:'11-prezivljavanje.html', br:'11', en:'Survival', hr:'Preživljavanje', stil:'EN→HR, 3 hearts · difficulty 3/5', max:5,
+   opis:'Five stages and sixty tasks against the clock: words in both directions, pictures, gap-fills and sentence translation.', nagrada:'100 points ×4 currencies'},
+  {id:'obrana', href:'12-obrana-baze.html', br:'12', en:'Base Defense', hr:'Obrana baze', stil:'falling words · difficulty 3/5', max:15,
+   opis:'Words fall toward the base, you click the translation. Fifteen waves, both directions, four answers in one row.', nagrada:'40 points ×4 currencies'},
+  {id:'gradovi', href:'13-gradovi.html', br:'13', en:'Towns of Croatia', hr:'Gradovi Hrvatske', stil:'visual novel · difficulty 4/5', max:128,
+   opis:'All 128 towns of Croatia, each with one person who talks to you in Croatian. Only one of three replies fits what they just said.', nagrada:'128 towns · 512 questions'}
+];
+
+function $(id){ return document.getElementById(id); }
+function stanjeIgre(g){
+  var st = {};
+  try { st = JSON.parse(localStorage.getItem('croland-mini-' + g.id) || '{}'); } catch(e){}
+  var pct = 0, txt = '';
+  if (st.naplaceno){ pct = 100; txt = '✓ collected ' + st.naplaceno; }
+  else {
+    var n = st.razina || st.mjesto || 0;
+    pct = Math.min(99, Math.round(n / g.max * 100));
+    if (st.najbolje) txt = 'best ' + st.najbolje;
+    else if (st.razina) txt = 'level ' + st.razina;
+    else if (st.mjesto) txt = 'place ' + st.mjesto;
+  }
+  return {pct:pct, txt:txt};
+}
+
+var i = 0;
+try { var z = IGRE.findIndex(function(g){ return g.id === localStorage.getItem('croland-mini-izbor'); }); if (z >= 0) i = z; } catch(e){}
+
+['tocke','tockeM'].forEach(function(k){
+  IGRE.forEach(function(g, j){
+    var b = document.createElement('button');
+    b.setAttribute('aria-label', g.en);
+    b.onclick = function(){ idi(j - i); };
+    $(k).appendChild(b);
+  });
+});
+
+function prikazi(smjer){
+  var g = IGRE[i], s = stanjeIgre(g);
+  $('profil').src = '../slike/mini-igre/' + g.id + '.webp';
+  $('profil').alt = g.en;
+  $('broj').textContent = g.br;
+  $('trakaPuni').style.height = s.pct + '%';
+  $('postotak').textContent = s.pct + '%';
+  var shot = $('shot');
+  shot.innerHTML = '';
+  var im = new Image();
+  im.alt = '';
+  im.onload = function(){ shot.innerHTML = ''; shot.appendChild(im); };
+  im.onerror = function(){ shot.innerHTML = '<span>screenshot</span>'; };
+  im.src = '../slike/mini-igre/shot/' + g.id + '.webp';
+  $('ime').innerHTML = g.en + (g.hr ? '<small>' + g.hr + '</small>' : '');
+  $('stil').textContent = g.stil;
+  $('opis').textContent = g.opis;
+  $('nagrada').textContent = g.nagrada;
+  $('stanje').textContent = s.txt;
+  $('igraj').href = g.href;
+  ['tocke','tockeM'].forEach(function(k){
+    Array.prototype.forEach.call($(k).children, function(b, j){ b.className = j === i ? 'on' : ''; });
+  });
+  if (smjer){
+    [$('pozornica'), $('tekst')].forEach(function(el){
+      el.classList.remove('ulazD','ulazL'); void el.offsetWidth;
+      el.classList.add(smjer > 0 ? 'ulazD' : 'ulazL');
+    });
+  }
+  try { localStorage.setItem('croland-mini-izbor', g.id); } catch(e){}
+}
+function idi(d){
+  if (!d) return;
+  i = (i + d + IGRE.length) % IGRE.length;
+  prikazi(d);
+}
+
+Array.prototype.forEach.call(document.querySelectorAll('.strelica'), function(b){
+  b.onclick = function(){ idi(+b.dataset.smjer); };
+});
+document.addEventListener('keydown', function(e){
+  if (e.key === 'ArrowLeft') idi(-1);
+  else if (e.key === 'ArrowRight') idi(1);
+  else if (e.key === 'Enter' && document.activeElement === document.body) location.href = IGRE[i].href;
+});
+var dodirX = null;
+$('pozornica').addEventListener('touchstart', function(e){ dodirX = e.touches[0].clientX; }, {passive:true});
+$('pozornica').addEventListener('touchend', function(e){
+  if (dodirX === null) return;
+  var dx = e.changedTouches[0].clientX - dodirX;
+  if (Math.abs(dx) > 40) idi(dx < 0 ? 1 : -1);
+  dodirX = null;
+});
+
+prikazi(0);
+</script>
+</body>
+</html>

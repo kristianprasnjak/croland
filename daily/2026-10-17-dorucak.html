@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Doručak na terasi</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "dorucak",
+  vrsta: "daily",
+  ime: "Doručak na terasi",
+  stil: "breakfast outside",
+  slika: "slike/dorucak.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.dorucak.2026-10-17",
+  uvod: "Five things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Five words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"stol", x:17.5, y:33.5, w:64.5, h:66, o:["stol", "stola", "stolu", "stolić"]},
+    {id:"tanjur", x:37, y:42, w:27.5, h:24, o:["tanjur", "tanjura", "tanjuru", "tanjir"]},
+    {id:"jaje", x:43.5, y:46.5, w:15, h:13.5, o:["jaje", "jaja", "jajeta", "jaje na oko", "jaja na oko"]},
+    {id:"kruh", x:26.5, y:38.5, w:13.5, h:18.5, o:["kruh", "kruha", "hljeb", "hljeba", "štruca", "tost", "prepečenac"]},
+    {id:"vilica", x:63.5, y:40.5, w:11, h:25, o:["vilica", "vilice", "vilicu", "viljuška"]}
+  ],
+  recenice: [
+    {hr:"Na terasi je mali okrugli {stol|stol}.",
+     en:"On the terrace there's a small round table."},
+    {hr:"Na plavom {tanjur|tanjuru} je jedno {jaje|jaje}, a pored njega {kruh|kruh}.",
+     en:"On the blue plate there's one egg, and next to it some bread."},
+    {hr:"{vilica|Vilica} je tu, ali gdje je nož?",
+     en:"The fork is here, but where is the knife?"}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

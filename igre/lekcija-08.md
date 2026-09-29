@@ -121,7 +121,7 @@ opis: Choose the correct helper.
 - Oni ___ ručati zajedno. | će | ću | ćeš
 - Ti ___ ustati rano. | ćeš | ću | ćemo
 - Sestra i ja ___ šetati. | ćemo | ćete | ću
-- Vlak ___ stizati rano. | će | ćeš | ćemo
+- Vlak ___ biti pun. | će | ćeš | ćemo
 - Ja ___ trenirati navečer. | ću | će | ćete
 - Djeca ___ spavati. | će | ćemo | ćeš
 
@@ -216,7 +216,7 @@ opis: Is it happening now or in the future? Sort the sentences.
 - Sutra ćemo šetati. | POSLIJE
 - Danas šetamo. | SADA
 - Vlak stiže. | SADA
-- Vlak će stizati. | POSLIJE
+- Vlak će biti pun. | POSLIJE
 
 ## Helper sprint
 format: brzina

@@ -19,13 +19,16 @@
      mini:    'croland-mini-kuhinja',        // neobavezno; zadano 'croland-mini-<id>'
      uvod:    'Five things...',              // neobavezno: rečenica u uputama
      pojmovi: [ {id, x, y, w, h, o:[...]} ], // x,y,w,h u postotcima slike
-     recenice: [ {hr:'...', en:'...'} ]      // neobavezno (daily od 28.09.2026.): kratka priča
+     recenice: [ {hr:'...', en:'...'} ]      // neobavezno (daily od 27.09.2026.): kratka priča
+                                             // riječ sa slike u hr se piše {id|oblik}, npr. 'u {kada|kadi}'
    }
 
    Priča (recenice): hrvatske rečenice u kojima se pojmovi sa slike javljaju u raznim
    oblicima, i njihovi engleski prijevodi izmiješani u drugom stupcu. Igrač spaja parove.
    Priča je vidljiva cijelo vrijeme rješavanja (dolje na mobitelu, desno na širokom ekranu).
    Izazov je dovršen tek kad su nađeni svi pojmovi I spojene sve rečenice.
+   Riječ sa slike ({id|oblik}) u hrvatskoj rečenici ostaje skrivena dok igrač ne upiše
+   taj pojam na slici; tek tada se pojavi, u obliku u kojem stoji u rečenici (traženo 27.09.2026.).
 
    Dovršen izazov javlja aplikaciji (ako je u okviru): parent.crolandIzazovGotov(
    {id, vrsta, ukupno}) — ondje se pali streak. */
@@ -300,6 +303,7 @@ upis.addEventListener("submit", function(e){
     var n = osvjeziStanja();
     zatvori();
     javi("Correct!", "dobro");
+    crtajPricu();
     if (n === UKUPNO) provjeriKraj();
   } else {
     upis.classList.remove("krivo");
@@ -586,6 +590,18 @@ var EN_RED = (function(){
   return r;
 })();
 var odabranaHr = null;
+/* "u {kada|kadi}" -> skriveno dok pojam 'kada' nije riješen, zatim "kadi" */
+function hrTekst(t){
+  var out = '', zadnji = 0, re = /\{([^|{}]+)\|([^{}]+)\}/g, m;
+  while ((m = re.exec(t))){
+    out += esc(t.slice(zadnji, m.index));
+    out += S.rijeseni[m[1]]
+      ? '<span class="otkrivena">'+esc(m[2])+'</span>'
+      : '<span class="skrivena" title="Find this word in the picture">?</span>';
+    zadnji = re.lastIndex;
+  }
+  return out + esc(t.slice(zadnji));
+}
 var PRICA_SKUPLJENA = false;
 function crtajPricu(){
   var el = document.getElementById("prica"); if (!el || !RECENICE.length) return;
@@ -594,11 +610,11 @@ function crtajPricu(){
     '<button type="button" class="pricaSkupi" id="pricaSkupi" aria-label="Show or hide the story">'+
     (PRICA_SKUPLJENA ? '▴' : '▾')+'</button></div>';
   if (!PRICA_SKUPLJENA){
-    h += '<p class="pricaUputa">Tap a Croatian sentence, then its English meaning.</p><div class="pricaStupci"><ol class="pricaHr">';
+    h += '<p class="pricaUputa">Tap a Croatian sentence, then its English meaning. The words from the picture appear once you name them.</p><div class="pricaStupci"><ol class="pricaHr">';
     RECENICE.forEach(function(r,i){
       var sp = !!S.spojeni[i];
       h += '<li><button type="button" data-hr="'+i+'" class="'+(sp?'spojen':'')+(odabranaHr===i?' odabran':'')+'"'+
-        (sp?' disabled':'')+'><span class="br">'+(i+1)+'</span>'+esc(r.hr)+'</button></li>';
+        (sp?' disabled':'')+'><span class="br">'+(i+1)+'</span><span>'+hrTekst(r.hr)+'</span></button></li>';
     });
     h += '</ol><ul class="pricaEn">';
     EN_RED.forEach(function(i){

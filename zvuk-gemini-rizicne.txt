@@ -1,0 +1,31 @@
+# Rijeci koje postoje i u engleskom (ili izgledaju engleski) - snimaju se pojedinacno, s napomenom za model.
+# Oblik: rijec<TAB>napomena na engleskom (model je ne cita naglas)
+one	Croatian personal pronoun meaning "they" (feminine plural), two syllables: O-ne
+mom	Croatian possessive "mom" (dative of "moj", "to my"), short Croatian o
+red	Croatian noun "red" meaning "order, queue, row", Croatian rolled r
+no	Croatian conjunction "no" meaning "but", short Croatian o
+po	Croatian preposition "po", short Croatian o
+pak	Croatian particle "pak", Croatian a
+par	Croatian noun "par" meaning "pair", Croatian rolled r
+list	Croatian noun "list" meaning "leaf", Croatian i
+kit	Croatian noun "kit" meaning "whale", Croatian i
+rak	Croatian noun "rak" meaning "crab", Croatian rolled r
+rosa	Croatian noun "rosa" meaning "dew"
+bor	Croatian noun "bor" meaning "pine tree", Croatian rolled r
+lift	Croatian noun "lift" meaning "elevator", Croatian pronunciation
+sag	Croatian noun "sag" meaning "carpet", Croatian a and g
+prag	Croatian noun "prag" meaning "threshold"
+lak	Croatian adjective "lak" meaning "light, easy"
+luk	Croatian noun "luk" meaning "onion", Croatian u
+jug	Croatian noun "jug" meaning "south", Croatian j as in "yes" and u
+kum	Croatian noun "kum" meaning "best man, godfather", Croatian u
+zet	Croatian noun "zet" meaning "son-in-law"
+tuba	Croatian noun "tuba" (the instrument), Croatian u
+kanu	Croatian noun "kanu" meaning "canoe", stress on the first syllable
+video	Croatian loanword "video", Croatian pronunciation: VI-de-o
+atlas	Croatian loanword "atlas", Croatian a
+blok	Croatian noun "blok" meaning "notepad, block"
+boks	Croatian noun "boks" meaning "boxing"
+internet	Croatian loanword "internet", Croatian pronunciation with rolled r
+protein	Croatian loanword "protein", Croatian pronunciation: pro-te-in
+vitamin	Croatian loanword "vitamin", Croatian pronunciation: vi-ta-min

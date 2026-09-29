@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Planinska koliba</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "koliba",
+  vrsta: "daily",
+  ime: "Planinska koliba",
+  stil: "a hut in the mountains",
+  slika: "slike/koliba.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.koliba.2026-10-10",
+  uvod: "Seven things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Seven words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"planina", x:0, y:21.5, w:39, h:55, o:["planina", "planine", "planinu", "planini", "brdo", "brda", "vrh", "gora"]},
+    {id:"kaput", x:50, y:30, w:14, h:47, o:["kaput", "kaputa", "jakna", "jaknu", "mantil", "sako"]},
+    {id:"sal", x:63.5, y:26, w:7, h:50, o:["šal", "šala", "marama", "maramu"]},
+    {id:"prozor", x:74, y:9.5, w:19, h:52, o:["prozor", "prozora", "prozori", "prozoru"]},
+    {id:"salica", x:78, y:76, w:7, h:8.5, o:["šalica", "šalice", "šalicu", "šalici", "kava", "kave", "kavu", "čaj", "čaja", "šalica kave", "šalica čaja", "čaša"]},
+    {id:"stolic", x:70.5, y:80.5, w:19.5, h:17.5, o:["stolić", "stolića", "stol", "stola", "stolica", "stolicu", "klupica", "tabure", "hoklica"]},
+    {id:"vrata", x:95.5, y:7, w:4.5, h:93, o:["vrata", "vratima"]}
+  ],
+  recenice: [
+    {hr:"Koliba je visoko u {planina|planini} i vani je jako hladno.",
+     en:"The hut is high in the mountains, and it's very cold outside."},
+    {hr:"Na zidu vise {kaput|kaput} i dugi {sal|šal}.",
+     en:"A coat and a long scarf hang on the wall."},
+    {hr:"Na malom {stolic|stoliću} je {salica|šalica} vrućeg čaja.",
+     en:"On the little stool there's a cup of hot tea."},
+    {hr:"Kroz {prozor|prozor} se vidi svjetlo, a {vrata|vrata} su zatvorena.",
+     en:"Light shows through the window, and the door is closed."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

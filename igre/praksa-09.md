@@ -7,7 +7,7 @@ info: A read-along text with the English beside each line. Read it twice: once f
 infokratko: The possessive matches the noun after it: *moj fotoaparat*, *moja sestra*.
 opis: One family, three hobbies. Tap **EN** next to any sentence to see its translation.
 - A club, a hobby, and a family that cannot agree on any of it.
-- Passive words: *ima / imaju* (has / have — *imati* is yours from Vocabulary 4, the plural comes properly in Lesson 10), *drugi* (a different one), *vani* (outside), *cijeli dan* (all day), *nikad* (never), *to* (that).
+- Passive words: *ima / imaju* (has / have — *imati* is yours from Vocabulary 4, the plural *imaju* you know from Lesson 7), *drugi* (a different one), *vani* (outside), *cijeli dan* (all day), *nikad* (never), *to* (that).
 - Moj hobi je fotografija. | My hobby is photography.
 - Moj fotoaparat je star, ali je dobar. | My camera is old, but it is good.
 - Slikam svoj grad svaki dan. | I photograph my city every day.
@@ -87,8 +87,8 @@ opis: The park conversation got shuffled. Put the lines back into the right orde
 - — Marko! Je li ovo tvoja lopta?
 - — Da, moja je! Hvala!
 - — Igraš li nogomet? Naš klub trenira danas.
-- — Igram! Čiji je to klub?
-- — Naš — trener je strog, ali je pošten.
+- — Igram! Kada trenirate?
+- — U pet — trener je strog, ali je pošten.
 - — A gdje trenirate? Vaš park ili naš park?
 - — Naš, jer naš park ima nove golove.
 
@@ -222,7 +222,7 @@ opis: You arrive at training for the first time. Choose your replies. Passive wo
 - ti | Bok! Drago mi je. Moj hobi je nogomet. | Bok! Drago mi je. Ovo je moj prvi trening.
 - npc | Super. Koja je tvoja pozicija?
 - ti | Moja pozicija je golman. | Igram u obrani.
-- npc | Odlično, naša obrana je jaka, ali trebamo golmana.
+- npc | Odlično, trebamo nove igrače.
 - ti | Čiji je zeleni dres? | Je li ovo naš dres?
 - npc | Zeleni dres je Markov. On je golman.
 - ti | Trebam li svoju loptu? | Onda nosim svoju loptu.

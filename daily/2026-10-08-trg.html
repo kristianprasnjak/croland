@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Trg</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "trg",
+  vrsta: "daily",
+  ime: "Trg",
+  stil: "a sunny town square",
+  slika: "slike/trg.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.trg.2026-10-08",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"spomenik", x:19, y:10, w:18.5, h:60, o:["spomenik", "spomenika", "kip", "kipa", "statua"]},
+    {id:"golub", x:19, y:73.5, w:6, h:9.5, o:["golub", "goluba", "golubovi", "ptica", "pticu"]},
+    {id:"kiosk", x:67, y:4.5, w:24.5, h:49, o:["kiosk", "kioska", "kiosku", "trafika", "štand"]},
+    {id:"turist", x:61.5, y:47, w:8.5, h:42.5, o:["turist", "turista", "turistkinja", "turisti", "čovjek", "dečko", "muškarac", "putnik"]},
+    {id:"sladoled", x:58.5, y:53.5, w:4.5, h:10, o:["sladoled", "sladoleda", "kornet", "kugla sladoleda"]},
+    {id:"bicikl", x:80, y:56.5, w:15, h:25.5, o:["bicikl", "bicikla", "biciklu", "biciklom"]}
+  ],
+  recenice: [
+    {hr:"{turist|Turist} stoji na trgu i jede {sladoled|sladoled}.",
+     en:"A tourist stands in the square eating an ice cream."},
+    {hr:"Gleda veliki {spomenik|spomenik} i ne vidi {golub|goluba}.",
+     en:"He looks at the big monument and doesn't see the pigeon."},
+    {hr:"Golub ne gleda spomenik — on gleda sladoled.",
+     en:"The pigeon isn't looking at the monument — it's looking at the ice cream."},
+    {hr:"Pored {kiosk|kioska} čeka turistov {bicikl|bicikl}.",
+     en:"Next to the kiosk, the tourist's bicycle is waiting."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

@@ -218,7 +218,7 @@ opis: One of these is how a Croatian would write it.
 - My sister is sleeping because it is late. | Sestra spava jer je kasno. | Sestra spava jer kasno je.
 - I am cleaning, and you are cooking. | Ja čistim, a ti kuhaš. | Ja čistim, a ti kuham.
 - Grandma is cooking and listening to the radio. | Baka kuha i sluša radio. | Baka kuham i sluša radio.
-- The apartment is small, but the home is warm. | Stan je mali, ali je dom topao. | Stan je mali, ali dom je topao.
+- The apartment is small, but the home is warm. | Stan je mali, ali je dom topao. | Stan je mali ali je dom topao.
 - My uncle lives here and works a lot. | Ujak živi ovdje i radi puno. | Ujak živi ovdje, i radi puno.
 
 ## Join the sentences

@@ -338,7 +338,7 @@ opis: Only one of these is a sentence a Croatian would actually say. The short p
 - I see him. | Vidim ga. | Ga vidim.
 - Ana is waiting for me. | Ana me čeka. | Ana čeka me.
 - I love you. | Volim te. | Te volim.
-- The waiter sees us. | Konobar nas vidi. | Konobar vidi nas.
+- The waiter sees us. | Konobar nas vidi. | Konobar nam vidi.
 - I'm calling them. | Zovem ih. | Ih zovem.
 - It's HIM I see, not you. | Njega vidim, ne tebe. | Ga vidim, ne te.
 - I'm reading it. (the book) | Čitam je. | Je čitam.

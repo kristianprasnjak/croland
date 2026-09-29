@@ -203,9 +203,9 @@ opis: The English is above. The adjective is waiting for its ending — one tap.
 - Banana je slatk___. | The banana is sweet. | a
 - Čokolada je slatk___. | The chocolate is sweet. | a
 - Čokolada je dobr___. | The chocolate is good. | a
-- Muzika je lijep___. | The music is beautiful. | a
-- Muzika je nov___. | The music is new. | a
-- Muzika je dobr___. | The music is good. | a
+- Lampa je lijep___. | The lamp is beautiful. | a
+- Kuća je nov___. | The house is new. | a
+- Knjiga je dobr___. | The book is good. | a
 - More je plav___. | The sea is blue. | o
 - More je topl___. | The sea is warm. | o
 - More je hladn___. | The sea is cold. | o
@@ -269,9 +269,9 @@ opis: Read the English in brackets and type the Croatian adjective in the form t
 - Banana je ___. (sweet) | slatka
 - Čokolada je ___. (sweet) | slatka
 - Čokolada je ___. (good) | dobra
-- Muzika je ___. (beautiful) | lijepa
-- Muzika je ___. (new) | nova
-- Muzika je ___. (good) | dobra
+- Lampa je ___. (beautiful) | lijepa
+- Kuća je ___. (new) | nova
+- Knjiga je ___. (good) | dobra
 - More je ___. (blue) | plavo
 - More je ___. (warm) | toplo
 - More je ___. (cold) | hladno
@@ -324,7 +324,7 @@ opis: The English is above — tap the tiles to say the same thing in Croatian.
 - Nebo je plavo i sunce je toplo. | en: The sky is blue and the sun is warm.
 - Kuća je bijela i velika. | en: The house is white and big.
 - Telefon je nov i brz. | en: The telephone is new and fast.
-- Muzika je dobra. | en: The music is good.
+- Knjiga je dobra. | en: The book is good.
 - Čokolada je slatka. | en: The chocolate is sweet.
 - Banana je žuta. | en: The banana is yellow.
 - Sunce je veliko i toplo. | en: The sun is big and warm.

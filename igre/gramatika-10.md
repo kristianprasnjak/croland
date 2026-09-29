@@ -6,7 +6,7 @@ format: tekst
 info: The reference page for the whole unit. One past tense covers everything English splits into three, and it is built from two pieces: a form of **biti** and the participle. The participle carries the gender, *biti* carries the person.
 infokratko: One past tense: **biti** + participle. Participle = gender, *biti* = person.
 - One past tense covers everything in spoken Croatian: *I watched, I was watching, I have watched* — all simply **gledao sam**.
-- **The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped.
+- **The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · women only → **-le** (*Ana i Petra su gledale*) · neuter plural → **-la** (*Sela su bila mala*) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped.
 - **The speaker's gender matters:** a man says *Spavao sam dugo*; a woman says *Spavala sam dugo*. The verb form alone shows which of the two is speaking — English has no equivalent.
 - **Djeca and braća take -la**, not -li: they mean many people, but each behaves like one feminine word — *Djeca su spava**la***, *Braća su doš**la***, exactly like *Vidim djecu* in Lesson 7.
 - **Word order — the leaning rule:** *sam/si/je...* never stands first: *Gledao **sam** film. · Ja **sam** gledao film. · Jučer **sam** gledao film.* You know this from the future (*ću*).
@@ -44,7 +44,7 @@ stupci: ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)
 format: nastavak
 info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li** (but *djeca* and *braća* take **-la**), and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.
 infokratko: Man **-o**, woman **-la**, group **-li** (*djeca, braća* **-la**), neuter **-lo**.
-nastavci: o | la | li | lo
+nastavci: o | la | li | le | lo
 opis: English above, Croatian below. One tap completes the participle.
 - Marko je gleda___ film. | Marko watched a film. | o
 - Ana je gleda___ film. | Ana watched a film. | la
@@ -66,6 +66,8 @@ opis: English above, Croatian below. One tap completes the participle.
 - Sunce je bi___ toplo. | The sun was warm. | lo
 - Ja sam iša___ u kino. (a man) | I went to the cinema. | o
 - Ja sam iš___ u kino. (a woman) | I went to the cinema. | la
+- Djevojčice su pjeva___ . | The girls sang. | le
+- Mama i baka su kuha___ ručak. | Mom and grandma cooked lunch. | le
 
 ## Tap the helper
 format: nastavak

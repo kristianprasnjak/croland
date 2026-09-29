@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Balkon</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "balkon",
+  vrsta: "daily",
+  ime: "Balkon",
+  stil: "a morning on the balcony",
+  slika: "slike/balkon.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.balkon.2026-09-29",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"sunce", x:59, y:11, w:7, h:12, o:["sunce", "sunca", "suncu"]},
+    {id:"salica", x:65.5, y:40.5, w:7, h:8.5, o:["šalica", "šalice", "šalicu", "šalici", "kava", "kave", "kavu", "čaj", "čaja", "šalica kave", "šalica čaja", "čaša"]},
+    {id:"stol", x:51.5, y:43, w:25, h:44.5, o:["stol", "stola", "stolu", "stolić"]},
+    {id:"stolica", x:70.5, y:37.5, w:19.5, h:48, o:["stolica", "stolice", "stolicu", "stolici", "fotelja", "fotelju", "naslonjač", "sjedalo"]},
+    {id:"cvijece", x:45.5, y:61, w:12.5, h:28, o:["cvijeće", "cvijeća", "cvijet", "cvjetovi", "buket", "biljka", "teglica", "tegla"]},
+    {id:"macka", x:78, y:80, w:11.5, h:12, o:["mačka", "mačke", "mačku", "mačak", "maca", "mace"]}
+  ],
+  recenice: [
+    {hr:"Baka svako jutro pije kavu na balkonu, na {sunce|suncu}.",
+     en:"Every morning Grandma drinks coffee on the balcony, in the sun."},
+    {hr:"{salica|Šalica} stoji na {stol|stolu}, a baka sjedi na {stolica|stolici}.",
+     en:"The cup stands on the table, and Grandma sits on the chair."},
+    {hr:"{cvijece|Cvijeće} u teglici treba vodu.",
+     en:"The flowers in the pot need water."},
+    {hr:"{macka|Mačka} spava ispod {stolica|stolice} i sanja ribu.",
+     en:"The cat sleeps under the chair and dreams about fish."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

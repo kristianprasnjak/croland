@@ -195,7 +195,7 @@ opis: Does the thing belong to the person doing the action? Then it is *svoj*.
 - Djeca nose ___ dresove. (their own) | svoje | njihove
 - Ona vozi ___ auto. (her own) | svoj | njezin
 - On nosi ___ dres. (Marko's jersey) | njegov | svoj
-- Ja volim ___ grad. (my own) | svoj | moj
+- Ivan voli ___ grad. (his own) | svoj | njegov
 - Svaki igrač nosi ___ loptu. (his own) | svoju | njegovu
 
 ## Whose is it?

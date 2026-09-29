@@ -82,13 +82,13 @@ opis: Every word here appears in one of the texts. Did it take an ending, or did
 
 ## Text 3: Lost and found
 format: tekst
-info: A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Vidim ga* replaces the same dog with the short pronoun, tucked in neatly after the verb.
-infokratko: *Ako vidite psa*; *Vidim ga* replaces the dog.
+info: A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Obično ga vodim* replaces the same dog with the short pronoun, tucked in neatly after the verb.
+infokratko: *Ako vidite psa*; *Obično ga vodim* replaces the dog.
 - A notice on the wall at the tram stop. No story, no dialogue — just somebody who has had a bad morning. Passive words: *izgubljen* (lost), *molim vas* (please), *ako* (if), *zovite* (call), *nagrada* (reward), *smeđ* (brown), *zove se* (is called).
 - IZGUBLJEN PAS | LOST DOG
 - Zove se Riko. Smeđ je i brz. | He is called Riko. He is brown and fast.
 - Nosi crven ključ na vratu. | He is wearing a red key on his neck.
-- Vidim ga svaki dan kod mosta. | I see him every day by the bridge.
+- Obično ga vodim kod mosta. | I usually walk him by the bridge.
 - Ako vidite psa, molim vas, zovite broj 091 234 567. | If you see the dog, please call the number 091 234 567.
 - Nagrada: jedna torta i jedna kava! | Reward: one cake and one coffee!
 - Riko voli kruh, ali ne voli tramvaj. | Riko loves bread, but he doesn't love the tram.
@@ -97,14 +97,14 @@ infokratko: *Ako vidite psa*; *Vidim ga* replaces the dog.
 format: izbor
 info: Questions about the lost-dog notice, some stated and some you have to work out. Note that *pas* shows up as *psa* whenever it is the target — that ending is your signal for what is being seen.
 infokratko: *pas* as target = *psa*.
-tekst: IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Vidim ga svaki dan kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.
+tekst: IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Obično ga vodim kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.
 opis: Some of these are in the notice, and some you have to work out.
 - Tko je Riko? | pas | dječak | konobar
 - Kakav je Riko? | smeđ i brz | velik i star | crn i miran
 - Što Riko nosi? | ključ | kartu | kruh
 - Što Riko voli? | kruh | tramvaj | tortu
 - Nagrada je... | torta i kava | novac | ključ
-- Gdje ga vidimo svaki dan? | kod mosta | na trgu | u parku
+- Gdje ga vlasnik obično vodi? | kod mosta | na trgu | u parku
 
 ## Answer without repeating
 format: dijalog

@@ -158,3 +158,8 @@ body{
   .sredina.imaPricu .pricaStupci{grid-template-columns:1fr}
   .sredina.imaPricu .pricaSkupi{display:none}
 }
+/* skrivena riječ sa slike: dok nije upisana */
+.pricaHr .skrivena{display:inline-block;min-width:3.2em;border-bottom:2px dashed var(--meko);color:transparent;
+  line-height:1;margin:0 1px;user-select:none}
+.pricaHr .otkrivena{color:#3E6E1F;animation:pojavi .5s ease-out}
+@keyframes pojavi{from{background:rgba(244,185,66,.6)}to{background:transparent}}

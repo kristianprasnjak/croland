@@ -62,7 +62,7 @@ opis: Prices, ages and the round numbers above twenty.
 - osamdeset | eighty
 - devedeset | ninety
 - sto | a hundred
-- tisuću | a thousand
+- tisuća | a thousand
 - novac | money
 - euro | euro
 - cijena | price

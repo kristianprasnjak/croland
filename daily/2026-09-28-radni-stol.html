@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Croland — Daily Challenge: Radni stol</title>
+<link rel="stylesheet" href="../izazov/motor.css">
+</head>
+<body>
+<script>
+/* Generirano s _arhiva/_dailyji.py (27.09.2026.). Mehanika je u izazov/motor.js.
+   x, y, w, h su postotci slike; o = prihvaćeni odgovori.
+   recenice: {id|oblik} je riječ sa slike, skrivena dok je igrač ne upiše. */
+window.IZAZOV = {
+  id: "radni-stol",
+  vrsta: "daily",
+  ime: "Radni stol",
+  stil: "a desk by the window",
+  slika: "slike/radni-stol.webp",
+  w: 1024, h: 572,
+  kljuc: "croland.daily.radni-stol.2026-09-28",
+  uvod: "Six things are hiding in this picture. Tap one — it lights up — then type its Croatian name. The short story uses the same words — each one appears in it once you name it.",
+  kraj: "Six words and a whole story, in Croatian. See you tomorrow.",
+  pojmovi: [
+    {id:"lampa", x:13.5, y:23.5, w:17, h:47.5, o:["lampa", "lampe", "lampu", "svjetiljka", "svjetiljku", "stolna lampa", "podna lampa", "ulična lampa", "lampion"]},
+    {id:"knjiga", x:22.5, y:63.5, w:27.5, h:24, o:["knjiga", "knjige", "knjigu", "knjizi", "bilježnica"]},
+    {id:"olovka", x:43, y:78, w:13.5, h:9.5, o:["olovka", "olovke", "olovku", "kemijska"]},
+    {id:"salica", x:58.5, y:58, w:10.5, h:17.5, o:["šalica", "šalice", "šalicu", "šalici", "kava", "kave", "kavu", "čaj", "čaja", "šalica kave", "šalica čaja", "čaša"]},
+    {id:"mobitel", x:65.5, y:73.5, w:17, h:16, o:["mobitel", "mobitela", "telefon", "telefona", "mobilni", "smartphone"]},
+    {id:"prozor", x:54.5, y:0, w:37, h:51.5, o:["prozor", "prozora", "prozori", "prozoru"]}
+  ],
+  recenice: [
+    {hr:"Luka sjedi za stolom i čita {knjiga|knjigu} pod {lampa|lampom}.",
+     en:"Luka sits at the desk and reads a book under the lamp."},
+    {hr:"{olovka|Olovka} je na stolu, ali Luka ne piše.",
+     en:"The pencil is on the desk, but Luka isn't writing."},
+    {hr:"Čaj u {salica|šalici} je hladan jer je {mobitel|mobitel} opet zvonio.",
+     en:"The tea in the mug is cold because the phone rang again."},
+    {hr:"Kroz {prozor|prozor} vidi vrt i misli na vikend.",
+     en:"Through the window he sees the garden and thinks about the weekend."}
+  ]
+};
+</script>
+<script src="../izazov/motor.js"></script>
+</body>
+</html>

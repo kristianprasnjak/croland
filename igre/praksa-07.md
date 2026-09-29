@@ -143,12 +143,12 @@ infokratko: Question before answer; the greeting opens.
 opis: Rebuild the classroom conversation.
 - — Dobro jutro, djeco!
 - — Dobro jutro!
-- — Danas imamo nove učenike. Ovo su Ivan i Luka.
+- — Danas igramo nogomet. Ivan i Luka su naši igrači.
 - — Bok, dečki!
 - — Jesu li oni braća?
 - — Da, oni su braća. I jako su brzi — oni su sportaši!
 - — Super! Mi trebamo brze igrače!
-- — Dobro došli, Ivane i Luka!
+- — Bravo, Ivane i Luka!
 
 ## Talking about the class
 format: dijalog

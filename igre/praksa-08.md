@@ -205,9 +205,9 @@ opis: Now or later? Sort the sentences.
 - Ručat ćemo zajedno. | POSLIJE
 - Ja ću spavati cijeli dan. | POSLIJE
 - Ujutro ću trenirati. | POSLIJE
-- Navečer je hladno na otoku. | SADA
+- Navečer je hladno. | SADA
 - Neću učiti. | POSLIJE
-- Iva se boji aviona. | SADA
+- Iva ne voli avione. | SADA
 - Marko će letjeti. | POSLIJE
 - Luka trenira svaki dan. | SADA
 - Bit će savršeno. | POSLIJE
@@ -240,7 +240,7 @@ opis: Seven moments from a trip to the sea, shuffled. Nobody wrote this down —
 - Nosit ću kofer na kolodvor.
 - Putovat ću šest sati.
 - Vidjet ću more kroz prozor.
-- Stizat ću u hotel poslije.
+- Poslije ću ići u hotel.
 - Navečer ću šetati i jesti sladoled.
 
 ## Translate by building

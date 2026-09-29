@@ -217,7 +217,7 @@ opis: Petra wants to hear about your Saturday. Choose your replies — pick the 
 - npc | Ja sam išla u kino. Film je bio dug, ali odličan.
 - ti | Koji film si gledala? | Je li bilo puno ljudi?
 - npc | Komedija, i bilo je puno ljudi. Poslije smo jeli pizzu i pričali smo cijeli sat.
-- ti | I ja volim pizzu! | Nisam jeo pizzu, ali sam jeo sladoled.
+- ti | I ja volim pizzu! | Nisam jeo pizzu, ali sam jeo sladoled. | Nisam jela pizzu, ali sam jela sladoled.
 - npc | Ha! Onda smo oboje imali dobar vikend.
 - ti | Jesmo. Vidimo se! | Dogovoreno, sljedeći put idemo zajedno!
 

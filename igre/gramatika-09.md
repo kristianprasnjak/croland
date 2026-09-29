@@ -191,8 +191,8 @@ opis: Does the thing belong to the person doing the action? Then it is *svoj*.
 - Djeca nose ___ dresove. (their own) | svoje | njihove
 - Ona vozi ___ auto. (her own) | svoj | njezin
 - On nosi ___ dres. (Marko's jersey) | njegov | svoj
-- Sestra slika ___ brata. (her own) | svoga | njezinog
-- Ja volim ___ klub. (my own) | svoj | moj
+- Sestra slika ___ mamu. (her own) | svoju | njezinu
+- Ivan voli ___ grad. (his own) | svoj | njegov
 
 ## Type svoj
 format: upis
