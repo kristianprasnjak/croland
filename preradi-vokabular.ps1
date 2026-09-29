@@ -13,7 +13,7 @@
 # Pokretanje: preradi-vokabular.bat              (sve)
 #             preradi-vokabular.bat -SamoFaza 2  (samo razine 13-20)
 
-param([int]$SamoFaza = 0)
+param([int]$SamoFaza = 0, [string]$Model = 'opus')
 $ErrorActionPreference = 'Continue'
 Set-Location -LiteralPath $PSScriptRoot
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -30,6 +30,28 @@ if (-not (Test-Path $bakDir)) {
 }
 # racunalo ne smije zaspati dok je na struji (vrati poslije u postavkama napajanja)
 try { powercfg /change standby-timeout-ac 0; powercfg /change hibernate-timeout-ac 0 } catch {}
+
+# ---- gdje je Claude Code? (PATH ili uobicajena mjesta instalacije) ----
+$claudeExe = $null
+$c = Get-Command claude -ErrorAction SilentlyContinue
+if ($c) { $claudeExe = $c.Source }
+if (-not $claudeExe) {
+  foreach ($k in @("$env:USERPROFILE\.local\bin\claude.exe", "$env:APPDATA\npm\claude.cmd", "$env:LOCALAPPDATA\Programs\claude\claude.exe", "$env:USERPROFILE\.claude\local\claude.exe")) {
+    if (Test-Path $k) { $claudeExe = $k; break }
+  }
+}
+if (-not $claudeExe) {
+  Write-Host ''
+  Write-Host 'Claude Code (naredba "claude") nije pronadjen na ovom racunalu.' -ForegroundColor Red
+  Write-Host 'Instaliraj ga: otvori PowerShell i upisi   irm https://claude.ai/install.ps1 | iex'
+  Write-Host 'Zatim u novom prozoru upisi   claude   i prijavi se svojim racunom (jednom).'
+  Write-Host 'Onda ponovno pokreni preradi-vokabular.bat.'
+  exit 1
+}
+Write-Host "Claude Code: $claudeExe   model: $Model"
+# oznake PRESKOCENO iz ranijih pokretanja brisu se, da se te cjeline pokusaju ponovno
+$stari = Get-Content -Path $status -ErrorAction SilentlyContinue | Where-Object { $_ -notmatch '^PRESKOCENO ' }
+Set-Content -Path $status -Value $stari
 
 $alati = @('Read','Edit','Write','Glob','Grep','Bash(node:*)','Bash(ls:*)','Bash(cat:*)','Bash(grep:*)','Bash(head:*)','Bash(wc:*)','Bash(mkdir:*)','Bash(cp:*)')
 
@@ -64,10 +86,10 @@ function Radi([string]$oznaka, [string]$prompt, $nista) {
     $i++
     $log = Join-Path $logDir ("$oznaka-$i.log")
     Pisi "$oznaka - pokusaj $i"
-    & claude -p $prompt --permission-mode acceptEdits --allowedTools $alati 2>&1 | Tee-Object -FilePath $log
+    & $claudeExe -p $prompt --model $Model --permission-mode acceptEdits --allowedTools $alati 2>&1 | Tee-Object -FilePath $log
     if (Oznaceno $oznaka) { Pisi "$oznaka GOTOVO"; break }
     $izlaz = ''
-    try { $izlaz = Get-Content -Raw -Path $log } catch {}
+    if (Test-Path $log) { $izlaz = Get-Content -Raw -Path $log }
     if (JeLimit $izlaz) {
       $cekaj = MinutaDoObnove $izlaz
       Pisi "$oznaka - limit potrosen, cekam $cekaj min do obnove."

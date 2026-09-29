@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-29 02:26:57",
+  "generirano": "2026-09-29 12:44:56",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -7341,25 +7341,13 @@ window.PODACI = {
       "stranica": 1,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "Words you already know (cognates)",
+      "naslov": "Things around you",
       "meta": {
-        "info": "Flashcards of borrowed words that need almost no learning. The real value here is spelling, because Croatian writes what it says: *čokolada* starts with the *ch* sound and *taksi* writes the English x as *ks*. Read every card aloud once.",
-        "infokratko": "Words you already know. Written as said: *čokolada* (*ch*), *taksi* (*ks*). Read them aloud.",
-        "opis": "Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap a card to reveal its meaning."
+        "info": "The core noun deck for level 1, plus the two small words *ovo* (this) and *je* (is) that turn it into a sentence: *Ovo je kava.* Store each noun with its final letter, because a describing word copies it later: *stol* ends in a consonant, *soba* in **-a**, *nebo* in **-o**.",
+        "infokratko": "Core nouns plus *ovo* (this), *je* (is). Remember the last letter: *stol*, *soba* **-a**, *nebo* **-o**.",
+        "opis": "Twenty cards. Read the English, say the Croatian aloud, then flip to check. Tap + to save a word to your dictionary."
       },
       "stavke": [
-        [
-          "hotel",
-          "hotel"
-        ],
-        [
-          "banana",
-          "banana"
-        ],
-        [
-          "čokolada",
-          "chocolate"
-        ],
         [
           "restoran",
           "restaurant"
@@ -7387,315 +7375,73 @@ window.PODACI = {
         [
           "taksi",
           "taxi"
+        ],
+        [
+          "knjiga",
+          "book"
+        ],
+        [
+          "stol",
+          "table"
+        ],
+        [
+          "prozor",
+          "window"
+        ],
+        [
+          "krevet",
+          "bed"
+        ],
+        [
+          "lampa",
+          "lamp"
+        ],
+        [
+          "soba",
+          "room"
+        ],
+        [
+          "grad",
+          "city"
+        ],
+        [
+          "nebo",
+          "sky"
+        ],
+        [
+          "kava",
+          "coffee"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "dan",
+          "day"
+        ],
+        [
+          "ovo",
+          "this"
+        ],
+        [
+          "je",
+          "is"
         ]
       ],
       "sortkljuc": 102001,
-      "bodovi": 102
+      "bodovi": 173
     },
     {
       "cjelina": "Vocabulary 1",
       "cjelinanaslov": "Things, Colors & Sizes",
       "stranica": 2,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: easy words",
-      "meta": {
-        "info": "The same borrowed words against a timer, so recognition has to become instant. If a word looks familiar, trust it: *problem*, *sport* and *taksi* mean exactly what you expect, and none of them changes shape anywhere in this deck.",
-        "infokratko": "The same words against the clock. They mean what you expect: *problem, sport, taksi*.",
-        "trajanje": "60",
-        "opis": "You just met them — now catch them! Tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "hotel",
-          "hotel"
-        ],
-        [
-          "banana",
-          "banana"
-        ],
-        [
-          "čokolada",
-          "chocolate"
-        ],
-        [
-          "restoran",
-          "restaurant"
-        ],
-        [
-          "automobil",
-          "car"
-        ],
-        [
-          "telefon",
-          "telephone"
-        ],
-        [
-          "film",
-          "film"
-        ],
-        [
-          "problem",
-          "problem"
-        ],
-        [
-          "sport",
-          "sport"
-        ],
-        [
-          "taksi",
-          "taxi"
-        ]
-      ],
-      "sortkljuc": 102002,
-      "bodovi": 153
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Things around you",
-      "meta": {
-        "info": "The core noun deck for level 1. Store each word together with its final letter, because that letter is what a describing word must copy later: *stol* ends in a consonant, *soba* in **-a**, *nebo* in **-o**, *sunce* in **-e**.",
-        "infokratko": "Core nouns. Remember the last letter: *stol*, *soba* **-a**, *nebo* **-o**, *sunce* **-e**.",
-        "opis": "Things around you. Tap to reveal."
-      },
-      "stavke": [
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "stol",
-          "table"
-        ],
-        [
-          "prozor",
-          "window"
-        ],
-        [
-          "krevet",
-          "bed"
-        ],
-        [
-          "lampa",
-          "lamp"
-        ],
-        [
-          "soba",
-          "room"
-        ],
-        [
-          "grad",
-          "city"
-        ],
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "nebo",
-          "sky"
-        ],
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "dan",
-          "day"
-        ]
-      ],
-      "sortkljuc": 102003,
-      "bodovi": 153
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "spajanje",
-      "naslov": "Match the pictures",
-      "meta": {
-        "info": "Picture-to-word matching, with no English on the page. You have met every one of these words on the cards above, so this is recognition only. Keep an eye on the last letter while you tap, because that letter is what a describing word has to copy.",
-        "infokratko": "Picture and word, recognition only. Watch the last letter.",
-        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
-      },
-      "stavke": [
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "stol",
-          "table"
-        ],
-        [
-          "prozor",
-          "window"
-        ],
-        [
-          "krevet",
-          "bed"
-        ],
-        [
-          "lampa",
-          "lamp"
-        ],
-        [
-          "soba",
-          "room"
-        ],
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "automobil",
-          "car"
-        ]
-      ],
-      "sortkljuc": 102004,
-      "bodovi": 127
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Pairing nouns with meanings, which is straight recall of the deck above. A useful check while you match: *kuća*, *knjiga* and *soba* all end in **-a**, while *stol*, *prozor*, *krevet* and *grad* end in a consonant.",
-        "infokratko": "Nouns with meanings. *kuća, knjiga, soba* **-a**; *stol, prozor, grad* consonant.",
-        "opis": "Match each Croatian word with its English meaning."
-      },
-      "stavke": [
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "stol",
-          "table"
-        ],
-        [
-          "prozor",
-          "window"
-        ],
-        [
-          "krevet",
-          "bed"
-        ],
-        [
-          "soba",
-          "room"
-        ],
-        [
-          "grad",
-          "city"
-        ],
-        [
-          "nebo",
-          "sky"
-        ]
-      ],
-      "sortkljuc": 102005,
-      "bodovi": 153
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A flip-and-find grid over words you have already met, so treat it as spaced repetition rather than new input. Say each Croatian word aloud when you turn it over, for example *kava*, *more*, *sunce*, since hearing the ending is what makes it stick.",
-        "infokratko": "Words you've met. Say each aloud: *kava, more, sunce*.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "dan",
-          "day"
-        ],
-        [
-          "lampa",
-          "lamp"
-        ],
-        [
-          "automobil",
-          "car"
-        ],
-        [
-          "čokolada",
-          "chocolate"
-        ]
-      ],
-      "sortkljuc": 102006,
-      "bodovi": 127
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 7,
-      "broj": 9999,
       "format": "kartice",
       "naslov": "Adjectives & colors",
       "meta": {
-        "info": "Describing words, plus the three tiny words *je* (is), *ovo* (this) and *i* (and). The cards show only the plain dictionary form; the **-a** and **-o** versions you already saw in Lesson 1 get drilled properly in Grammar 1.",
-        "infokratko": "Adjectives in plain form, plus *je* (is), *ovo* (this), *i* (and).",
+        "info": "Describing words in their plain dictionary form, plus *i* (and) to join two of them: *velik i lijep*. The **-a** and **-o** versions you saw in Lesson 1 get drilled in Grammar 1. Watch the near-twins *crven* (red) and *crn* (black), and keep *zelen* (green) apart from *žut* (yellow).",
+        "infokratko": "Adjectives in plain form, plus *i* (and). Keep apart *crven / crn* and *zelen / žut*.",
         "opis": "One word, one card. How the endings change is Grammar's job — here just learn the words."
       },
       "stavke": [
@@ -7772,147 +7518,33 @@ window.PODACI = {
           "black"
         ],
         [
-          "je",
-          "is"
-        ],
-        [
-          "ovo",
-          "this"
-        ],
-        [
           "i",
           "and"
         ]
       ],
-      "sortkljuc": 102007,
-      "bodovi": 153
+      "sortkljuc": 102002,
+      "bodovi": 173
     },
     {
       "cjelina": "Vocabulary 1",
       "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 8,
+      "stranica": 3,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: adjectives & colors",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "info": "Timed recall of the describing words in their plain form, so it is meaning only and no endings to choose. Watch the near-twins *crven* (red) and *crn* (black), and keep *zelen* (green) apart from *žut* (yellow).",
-        "infokratko": "Meaning only. Keep apart *crven / crn* and *zelen / žut*.",
-        "trajanje": "60",
-        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+        "info": "Picture-to-word matching, with no English on the page. Every word here is on the noun cards you just flipped, so this is recognition only. Keep an eye on the last letter while you tap: *knjiga*, *lampa*, *soba* and *kava* end in **-a**, the rest in a consonant.",
+        "infokratko": "Picture and word, recognition only. *knjiga, lampa, soba, kava* end in **-a**.",
+        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
-        [
-          "velik",
-          "big"
-        ],
-        [
-          "mali",
-          "small"
-        ],
-        [
-          "nov",
-          "new"
-        ],
-        [
-          "star",
-          "old"
-        ],
-        [
-          "dobar",
-          "good"
-        ],
-        [
-          "lijep",
-          "beautiful"
-        ],
-        [
-          "topao",
-          "warm"
-        ],
-        [
-          "hladan",
-          "cold"
-        ],
-        [
-          "brz",
-          "fast"
-        ],
-        [
-          "sladak",
-          "sweet"
-        ],
-        [
-          "mekan",
-          "soft"
-        ],
-        [
-          "moderan",
-          "modern"
-        ],
-        [
-          "crven",
-          "red"
-        ],
-        [
-          "plav",
-          "blue"
-        ],
-        [
-          "žut",
-          "yellow"
-        ],
-        [
-          "zelen",
-          "green"
-        ],
-        [
-          "bijel",
-          "white"
-        ],
-        [
-          "crn",
-          "black"
-        ]
-      ],
-      "sortkljuc": 102008,
-      "bodovi": 153
-    },
-    {
-      "cjelina": "Vocabulary 1",
-      "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Croatian writes one letter per sound, so a word you can say is a word you can spell — but **č**, **ć**, **š**, **ž** are letters of their own, and **nj** is a single letter, not an n followed by a j.",
-        "infokratko": "One letter per sound. **č, ć, š, ž** are letters; **nj** is one letter.",
-        "opis": "Careful — **nj** is one letter in Croatian, and the letters with diacritics (*č, ć, š, ž, đ*) are separate letters too."
-      },
-      "stavke": [
-        [
-          "kuća",
-          "house"
-        ],
         [
           "knjiga",
           "book"
         ],
         [
-          "čokolada",
-          "chocolate"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "automobil",
-          "car"
+          "stol",
+          "table"
         ],
         [
           "prozor",
@@ -7923,73 +7555,415 @@ window.PODACI = {
           "bed"
         ],
         [
-          "žut",
-          "yellow"
+          "lampa",
+          "lamp"
         ],
         [
-          "zelen",
-          "green"
+          "soba",
+          "room"
+        ],
+        [
+          "kava",
+          "coffee"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "automobil",
+          "car"
+        ],
+        [
+          "telefon",
+          "telephone"
+        ],
+        [
+          "taksi",
+          "taxi"
+        ],
+        [
+          "restoran",
+          "restaurant"
         ]
       ],
-      "sortkljuc": 102009,
-      "bodovi": 177
+      "sortkljuc": 102003,
+      "bodovi": 144
     },
     {
       "cjelina": "Vocabulary 1",
       "cjelinanaslov": "Things, Colors & Sizes",
-      "stranica": 10,
+      "stranica": 4,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type it in Croatian",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Here you produce the spelling yourself, which is where the diacritics matter: *kuća* needs **ć** and *čokolada* needs **č**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear, one letter each.",
-        "infokratko": "Type the sounds, with diacritics: *kuća*, *čokolada*.",
-        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+        "info": "You write each new word once, from its English meaning. Croatian writes one letter per sound, so type what you say: *sladoled* has no silent letters and *žut* needs **ž**, not a plain z. This is the only page with new words alone; after it they mix with the words from Lesson 0.",
+        "infokratko": "Type each new word once. One letter per sound; *žut* needs **ž**.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "house",
-          "kuća"
-        ],
-        [
-          "sea",
-          "more"
-        ],
-        [
-          "sun",
-          "sunce"
-        ],
-        [
-          "coffee",
-          "kava"
-        ],
-        [
           "book",
           "knjiga"
+        ],
+        [
+          "table",
+          "stol"
+        ],
+        [
+          "window",
+          "prozor"
+        ],
+        [
+          "bed",
+          "krevet"
+        ],
+        [
+          "room",
+          "soba"
         ],
         [
           "city",
           "grad"
         ],
         [
+          "sky",
+          "nebo"
+        ],
+        [
+          "coffee",
+          "kava"
+        ],
+        [
+          "ice cream",
+          "sladoled"
+        ],
+        [
           "day",
           "dan"
+        ],
+        [
+          "big",
+          "velik"
+        ],
+        [
+          "small",
+          "mali"
+        ],
+        [
+          "red",
+          "crven"
+        ],
+        [
+          "yellow",
+          "žut"
+        ]
+      ],
+      "sortkljuc": 102004,
+      "bodovi": 231
+    },
+    {
+      "cjelina": "Vocabulary 1",
+      "cjelinanaslov": "Things, Colors & Sizes",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "memorija",
+      "naslov": "Memory",
+      "meta": {
+        "info": "A flip-and-find grid that mixes today's words with words from Lesson 0, such as *ananas*, *gitara* and *lav*. Say each Croatian word aloud when you turn it over. Hearing the word again after a break is what moves it from the cards into memory.",
+        "infokratko": "New words mixed with Lesson 0. Say each aloud: *knjiga, ananas, lav*.",
+        "opis": "Flip the cards and find the pairs — half of them are from Lesson 0."
+      },
+      "stavke": [
+        [
+          "knjiga",
+          "book"
+        ],
+        [
+          "prozor",
+          "window"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "crven",
+          "red"
+        ],
+        [
+          "zelen",
+          "green"
+        ],
+        [
+          "ananas",
+          "pineapple"
+        ],
+        [
+          "gitara",
+          "guitar"
+        ],
+        [
+          "lav",
+          "lion"
+        ],
+        [
+          "cipela",
+          "shoe"
+        ],
+        [
+          "jabuka",
+          "apple"
+        ]
+      ],
+      "sortkljuc": 102005,
+      "bodovi": 173
+    },
+    {
+      "cjelina": "Vocabulary 1",
+      "cjelinanaslov": "Things, Colors & Sizes",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recall of today's words mixed with the thirty words of Lesson 0, so recognition has to become instant. The letters **dž**, **đ** and **ć** from Lesson 0 come back here in *džem*, *đak* and *ćevapi*. Keep *hladan* (cold) apart from *topao* (warm).",
+        "infokratko": "New and Lesson 0 words against the clock. Watch *džem, đak, ćevapi*; *hladan / topao*.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "telefon",
+          "telephone"
+        ],
+        [
+          "banana",
+          "banana"
+        ],
+        [
+          "taksi",
+          "taxi"
+        ],
+        [
+          "ćevapi",
+          "grilled meat"
+        ],
+        [
+          "restoran",
+          "restaurant"
+        ],
+        [
+          "drvo",
+          "tree"
+        ],
+        [
+          "krevet",
+          "bed"
+        ],
+        [
+          "džem",
+          "jam"
+        ],
+        [
+          "velik",
+          "big"
+        ],
+        [
+          "đak",
+          "pupil"
+        ],
+        [
+          "mali",
+          "small"
+        ],
+        [
+          "ekran",
+          "screen"
+        ],
+        [
+          "hladan",
+          "cold"
+        ],
+        [
+          "farma",
+          "farm"
+        ],
+        [
+          "topao",
+          "warm"
+        ],
+        [
+          "igla",
+          "needle"
+        ],
+        [
+          "žut",
+          "yellow"
+        ],
+        [
+          "nos",
+          "nose"
+        ],
+        [
+          "crn",
+          "black"
+        ],
+        [
+          "oko",
+          "eye"
+        ]
+      ],
+      "sortkljuc": 102006,
+      "bodovi": 173
+    },
+    {
+      "cjelina": "Vocabulary 1",
+      "cjelinanaslov": "Things, Colors & Sizes",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by the last letter",
+      "meta": {
+        "info": "Sort nouns by their final letter, which is the first thing Grammar 1 builds on. A noun ends in a consonant (*stol*), in **-a** (*soba*), or in **-o** or **-e** (*nebo*, *more*). Half of the words are from Lesson 0, so *ljeto*, *sunce* and *oko* belong in the last column.",
+        "infokratko": "Last letter: consonant (*stol*), **-a** (*soba*), **-o / -e** (*nebo, more*).",
+        "stupci": "consonant | -a | -o / -e",
+        "opis": "Look only at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "stol",
+          "consonant"
+        ],
+        [
+          "grad",
+          "consonant"
+        ],
+        [
+          "prozor",
+          "consonant"
+        ],
+        [
+          "hotel",
+          "consonant"
+        ],
+        [
+          "pas",
+          "consonant"
+        ],
+        [
+          "knjiga",
+          "-a"
+        ],
+        [
+          "lampa",
+          "-a"
+        ],
+        [
+          "soba",
+          "-a"
+        ],
+        [
+          "kava",
+          "-a"
+        ],
+        [
+          "kuća",
+          "-a"
+        ],
+        [
+          "riba",
+          "-a"
+        ],
+        [
+          "nebo",
+          "-o / -e"
+        ],
+        [
+          "ljeto",
+          "-o / -e"
+        ],
+        [
+          "more",
+          "-o / -e"
+        ],
+        [
+          "sunce",
+          "-o / -e"
+        ],
+        [
+          "oko",
+          "-o / -e"
+        ]
+      ],
+      "sortkljuc": 102007,
+      "bodovi": 202
+    },
+    {
+      "cjelina": "Vocabulary 1",
+      "cjelinanaslov": "Things, Colors & Sizes",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with words from Lesson 0, and the diacritics count: *čokolada* needs **č**, *kuća* needs **ć**, and *njuška* starts with the single letter **nj**. Nothing is silent and nothing is doubled, so type exactly the sounds you hear.",
+        "infokratko": "Mixed final round. Diacritics count: *čokolada* **č**, *kuća* **ć**, *njuška* **nj**.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "table",
+          "stol"
+        ],
+        [
+          "chocolate",
+          "čokolada"
+        ],
+        [
+          "room",
+          "soba"
+        ],
+        [
+          "snout",
+          "njuška"
+        ],
+        [
+          "day",
+          "dan"
+        ],
+        [
+          "house",
+          "kuća"
+        ],
+        [
+          "beautiful",
+          "lijep"
+        ],
+        [
+          "fish",
+          "riba"
         ],
         [
           "old",
           "star"
         ],
         [
-          "blue",
-          "plav"
+          "apple",
+          "jabuka"
         ],
         [
-          "chocolate",
-          "čokolada"
+          "white",
+          "bijel"
+        ],
+        [
+          "summer",
+          "ljeto"
         ]
       ],
-      "sortkljuc": 102010,
-      "bodovi": 202
+      "sortkljuc": 102008,
+      "bodovi": 231
     },
     {
       "cjelina": "Grammar 1",
@@ -11523,11 +11497,11 @@ window.PODACI = {
       "stranica": 1,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "Jobs",
+      "naslov": "Jobs & people",
       "meta": {
-        "info": "Ten new job words, all in the male form. They end in a consonant, so they are masculine and an adjective about them stays bare: *Kuhar je vrijedan*. The female versions come later on this page, so fix the male word in your memory first.",
-        "infokratko": "Job words, male form: masculine, so the adjective stays bare. *Kuhar je vrijedan.*",
-        "opis": "Lesson 2 gave you four jobs. Here are ten more. Every card shows the male form — the female one is coming right up, and it follows one simple trick. Tap a card to reveal its meaning."
+        "info": "Ten job words and eight words for the people around you, all in the male form. They end in a consonant, so they are masculine and an adjective about them stays bare: *Kuhar je vrijedan*. For a woman most jobs add **-ica**, as with *student → studentica* in Lesson 2. Note that *čovjek* means both *person* and *man*, and that *posao*, *ime* and *tim* are not people at all.",
+        "infokratko": "Jobs and people, male form: masculine, adjective bare. *Kuhar je vrijedan.* *čovjek* = person or man.",
+        "opis": "Eighteen cards. Read the English, say the Croatian aloud, then flip to check. Tap + to save a word to your dictionary."
       },
       "stavke": [
         [
@@ -11569,24 +11543,7 @@ window.PODACI = {
         [
           "pilot",
           "pilot"
-        ]
-      ],
-      "sortkljuc": 202001,
-      "bodovi": 86
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "People around you",
-      "meta": {
-        "info": "More people you will meet, again consonant-final and masculine, so the adjective stays bare: *Šef je ozbiljan*. Note that *čovjek* covers both *person* and *man*, and that three cards are not people at all — *posao*, *ime* and *tim*.",
-        "infokratko": "More people, masculine: *Šef je ozbiljan*. *čovjek* = person or man.",
-        "opis": "Not everyone has a job title — some people are just *there*. Tap to reveal."
-      },
-      "stavke": [
+        ],
         [
           "susjed",
           "neighbour"
@@ -11620,400 +11577,20 @@ window.PODACI = {
           "team"
         ]
       ],
-      "sortkljuc": 202002,
-      "bodovi": 69
+      "sortkljuc": 202001,
+      "bodovi": 198
     },
     {
       "cjelina": "Vocabulary 2",
       "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: jobs & people",
-      "meta": {
-        "info": "Timed recognition of the words you just met: the Croatian appears, you tap the English. A hook while you race — **-ar**, **-ač**, **-nik** and **-telj** all mark someone who does something (*kuhar, vozač, radnik, učitelj*), so that shape usually means a job.",
-        "infokratko": "Tap the English. **-ar, -ač, -nik, -telj** usually mean a job: *kuhar, vozač, radnik, učitelj*.",
-        "trajanje": "60",
-        "opis": "Tap the English meaning before the timer runs out!"
-      },
-      "stavke": [
-        [
-          "kuhar",
-          "cook"
-        ],
-        [
-          "vozač",
-          "driver"
-        ],
-        [
-          "pjevač",
-          "singer"
-        ],
-        [
-          "učitelj",
-          "teacher"
-        ],
-        [
-          "odvjetnik",
-          "lawyer"
-        ],
-        [
-          "radnik",
-          "worker"
-        ],
-        [
-          "novinar",
-          "journalist"
-        ],
-        [
-          "glumac",
-          "actor"
-        ],
-        [
-          "policajac",
-          "police officer"
-        ],
-        [
-          "pilot",
-          "pilot"
-        ],
-        [
-          "susjed",
-          "neighbour"
-        ],
-        [
-          "turist",
-          "tourist"
-        ],
-        [
-          "šef",
-          "boss"
-        ],
-        [
-          "gost",
-          "guest"
-        ],
-        [
-          "čovjek",
-          "person"
-        ],
-        [
-          "posao",
-          "job"
-        ],
-        [
-          "tim",
-          "team"
-        ]
-      ],
-      "sortkljuc": 202003,
-      "bodovi": 120
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the jobs",
-      "meta": {
-        "info": "A pairing drill on the male job words; nothing changes form here, so use the sound. *Pjevač* and *vozač* share the doer ending **-ač**, *radnik* and *odvjetnik* share **-nik**, and *učitelj* has the **-telj** shape you will meet on other jobs.",
-        "infokratko": "Male job words: *pjevač, vozač* (**-ač**), *radnik, odvjetnik* (**-nik**).",
-        "opis": "Match each Croatian word with its English meaning."
-      },
-      "stavke": [
-        [
-          "kuhar",
-          "cook"
-        ],
-        [
-          "vozač",
-          "driver"
-        ],
-        [
-          "pjevač",
-          "singer"
-        ],
-        [
-          "učitelj",
-          "teacher"
-        ],
-        [
-          "odvjetnik",
-          "lawyer"
-        ],
-        [
-          "glumac",
-          "actor"
-        ],
-        [
-          "novinar",
-          "journalist"
-        ],
-        [
-          "pilot",
-          "pilot"
-        ]
-      ],
-      "sortkljuc": 202004,
-      "bodovi": 120
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory: people",
-      "meta": {
-        "info": "Memory pairs for the everyday people words — pure recall, no endings change. The two worth pinning down are *čovjek*, which means both *person* and *man*, and *posao*, which is *job* or *work* rather than someone who does it.",
-        "infokratko": "People words. *čovjek* = person/man; *posao* = job, work.",
-        "opis": "Flip the cards and find each Croatian word's English partner."
-      },
-      "stavke": [
-        [
-          "susjed",
-          "neighbour"
-        ],
-        [
-          "turist",
-          "tourist"
-        ],
-        [
-          "šef",
-          "boss"
-        ],
-        [
-          "gost",
-          "guest"
-        ],
-        [
-          "čovjek",
-          "person"
-        ],
-        [
-          "posao",
-          "job"
-        ],
-        [
-          "ime",
-          "name"
-        ],
-        [
-          "tim",
-          "team"
-        ]
-      ],
-      "sortkljuc": 202005,
-      "bodovi": 103
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Make it female",
-      "meta": {
-        "info": "Here is the rule the male cards were setting up: add **-ica** and the job word is hers. *Kuhar → kuharica*, *učitelj → učiteljica*. Two lose a consonant so the word stays pronounceable: *odvjetnik → odvjetnica*, *glumac → glumica*.",
-        "infokratko": "Add **-ica** for her: *kuhar → kuharica*. *odvjetnik → odvjetnica*, *glumac → glumica*.",
-        "opis": "The trick is **-ica**. Add it and the word is hers. Type the female version of each job."
-      },
-      "stavke": [
-        [
-          "kuhar →",
-          "kuharica"
-        ],
-        [
-          "vozač →",
-          "vozačica"
-        ],
-        [
-          "pjevač →",
-          "pjevačica"
-        ],
-        [
-          "učitelj →",
-          "učiteljica"
-        ],
-        [
-          "odvjetnik →",
-          "odvjetnica"
-        ],
-        [
-          "radnik →",
-          "radnica"
-        ],
-        [
-          "turist →",
-          "turistica"
-        ],
-        [
-          "šef →",
-          "šefica"
-        ],
-        [
-          "glumac →",
-          "glumica"
-        ],
-        [
-          "student →",
-          "studentica"
-        ]
-      ],
-      "sortkljuc": 202006,
-      "bodovi": 155
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Where are they from?",
-      "meta": {
-        "info": "Nationality cards in his-and-hers pairs. There is no single ending here: *Hrvat → Hrvatica*, but *Talijan → Talijan**ka*** and *Nijemac → Njemica*, so learn them two at a time. Nationalities also take a capital letter, while job words do not.",
-        "infokratko": "Nationalities in pairs: *Hrvat → Hrvatica*, *Talijan → Talijanka*, *Nijemac → Njemica*. Capital letter.",
-        "opis": "Nationalities work the same way, but each one likes its own female ending. Learn them in pairs — there are not many."
-      },
-      "stavke": [
-        [
-          "Hrvat",
-          "Croat"
-        ],
-        [
-          "Hrvatica",
-          "Croat (she)"
-        ],
-        [
-          "Englez",
-          "English person"
-        ],
-        [
-          "Engleskinja",
-          "English person (she)"
-        ],
-        [
-          "Talijan",
-          "Italian"
-        ],
-        [
-          "Talijanka",
-          "Italian (she)"
-        ],
-        [
-          "Nijemac",
-          "German"
-        ],
-        [
-          "Njemica",
-          "German (she)"
-        ],
-        [
-          "Hrvatska",
-          "Croatia"
-        ],
-        [
-          "odakle",
-          "from where"
-        ]
-      ],
-      "sortkljuc": 202007,
-      "bodovi": 86
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Man or woman?",
-      "meta": {
-        "info": "Sorting by ending rather than by meaning. A word ending in a consonant is his (*kuhar*, *Hrvat*), a word ending in **-a** is hers (*kuharica*, *susjeda*, *Talijanka*) — the same last-letter logic you learned for nouns, now working on people.",
-        "infokratko": "Consonant = his (*kuhar*), **-a** = hers (*kuharica*).",
-        "stupci": "ON (he) | ONA (she)",
-        "opis": "Sort each word by who it belongs to. Let the ending guide you."
-      },
-      "stavke": [
-        [
-          "kuhar",
-          "ON (he)"
-        ],
-        [
-          "kuharica",
-          "ONA (she)"
-        ],
-        [
-          "vozač",
-          "ON (he)"
-        ],
-        [
-          "vozačica",
-          "ONA (she)"
-        ],
-        [
-          "učitelj",
-          "ON (he)"
-        ],
-        [
-          "učiteljica",
-          "ONA (she)"
-        ],
-        [
-          "glumac",
-          "ON (he)"
-        ],
-        [
-          "glumica",
-          "ONA (she)"
-        ],
-        [
-          "turist",
-          "ON (he)"
-        ],
-        [
-          "turistica",
-          "ONA (she)"
-        ],
-        [
-          "susjed",
-          "ON (he)"
-        ],
-        [
-          "susjeda",
-          "ONA (she)"
-        ],
-        [
-          "Hrvat",
-          "ON (he)"
-        ],
-        [
-          "Hrvatica",
-          "ONA (she)"
-        ],
-        [
-          "Talijan",
-          "ON (he)"
-        ],
-        [
-          "Talijanka",
-          "ONA (she)"
-        ]
-      ],
-      "sortkljuc": 202008,
-      "bodovi": 137
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 9,
+      "stranica": 2,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Character & mood",
       "meta": {
-        "info": "Twelve more adjectives, again in the **on** form: add **-a** for *ona* and **-i** for *oni*. Several hide a vowel that drops the moment an ending arrives — *gladan → gladna*, *ozbiljan → ozbiljna*, *hrabar → hrabra*, *nizak → niska*.",
-        "infokratko": "*on* form; **-a** for *ona*, **-i** for *oni*. *gladan → gladna*, *hrabar → hrabra*, *nizak → niska*.",
-        "opis": "Lesson 2 described people in seven words. Here are twelve more. Again the card shows the form for **on** — add **-a** for **ona**, **-i** for **oni**."
+        "info": "Twelve adjectives in the **on** form, plus two small words: *jako* (very) and *naravno* (of course). Add **-a** for *ona* and **-i** for *oni*. Several hide a vowel that drops the moment an ending arrives: *gladan → gladna*, *ozbiljan → ozbiljna*, *hrabar → hrabra*, *nizak → niska*.",
+        "infokratko": "*on* form; **-a** for *ona*, **-i** for *oni*. *gladan → gladna*, *hrabar → hrabra*. *jako* = very.",
+        "opis": "Lesson 2 described people in seven words. Here are twelve more, and two small words to go with them. Each card shows the form for **on**."
       },
       "stavke": [
         [
@@ -12063,200 +11640,72 @@ window.PODACI = {
         [
           "zauzet",
           "busy"
+        ],
+        [
+          "jako",
+          "very"
+        ],
+        [
+          "naravno",
+          "of course"
         ]
       ],
-      "sortkljuc": 202009,
-      "bodovi": 103
+      "sortkljuc": 202002,
+      "bodovi": 170
     },
     {
       "cjelina": "Vocabulary 2",
       "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: character",
-      "meta": {
-        "info": "Timed recognition of the character words, all in the male form. Keep the next step in mind as you race: for a woman these take **-a** and for a group **-i**, and most words ending in **-an** or **-ar** lose that vowel first (*žedan → žedna*, but *mekan → mekana* keeps it).",
-        "infokratko": "Male forms. *-an / -ar* usually drop the vowel: *žedan → žedna*; *mekan → mekana* keeps it.",
-        "trajanje": "60",
-        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
-      },
-      "stavke": [
-        [
-          "nizak",
-          "short"
-        ],
-        [
-          "tužan",
-          "sad"
-        ],
-        [
-          "drag",
-          "kind"
-        ],
-        [
-          "ljubazan",
-          "polite"
-        ],
-        [
-          "zabavan",
-          "fun"
-        ],
-        [
-          "ozbiljan",
-          "serious"
-        ],
-        [
-          "hrabar",
-          "brave"
-        ],
-        [
-          "vrijedan",
-          "hard-working"
-        ],
-        [
-          "ljut",
-          "angry"
-        ],
-        [
-          "gladan",
-          "hungry"
-        ],
-        [
-          "žedan",
-          "thirsty"
-        ],
-        [
-          "zauzet",
-          "busy"
-        ],
-        [
-          "umoran",
-          "tired"
-        ],
-        [
-          "pametan",
-          "smart"
-        ],
-        [
-          "sretan",
-          "happy"
-        ]
-      ],
-      "sortkljuc": 202010,
-      "bodovi": 120
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory: character",
-      "meta": {
-        "info": "Memory pairs for eight words about how someone feels right now. They are ordinary adjectives, so they still follow the person they describe: a man is *gladan*, a woman *gladna*, a group *gladni*.",
-        "infokratko": "Moods follow the person: *gladan, gladna, gladni*.",
-        "opis": "Flip the cards and find the pairs. These are the words you'll use about people all day."
-      },
-      "stavke": [
-        [
-          "gladan",
-          "hungry"
-        ],
-        [
-          "žedan",
-          "thirsty"
-        ],
-        [
-          "umoran",
-          "tired"
-        ],
-        [
-          "ljut",
-          "angry"
-        ],
-        [
-          "hrabar",
-          "brave"
-        ],
-        [
-          "tužan",
-          "sad"
-        ],
-        [
-          "zabavan",
-          "fun"
-        ],
-        [
-          "zauzet",
-          "busy"
-        ]
-      ],
-      "sortkljuc": 202011,
-      "bodovi": 103
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the character words",
-      "meta": {
-        "info": "A pairing drill on eight character adjectives in the male form. The odd one out is *veseo*: for a woman it is not *veseoa* but *vesela*, because the **-o** turns back into an **-l-**. Every other word here takes **-a** or **-i** — several of them dropping a vowel on the way: *nizak → niska*, *ozbiljan → ozbiljna*.",
-        "infokratko": "Male forms; *veseo → vesela*, *nizak → niska*, *ozbiljan → ozbiljna*.",
-        "opis": "Match each Croatian word with its English meaning."
-      },
-      "stavke": [
-        [
-          "nizak",
-          "short"
-        ],
-        [
-          "drag",
-          "kind"
-        ],
-        [
-          "ljubazan",
-          "polite"
-        ],
-        [
-          "ozbiljan",
-          "serious"
-        ],
-        [
-          "vrijedan",
-          "hard-working"
-        ],
-        [
-          "pametan",
-          "smart"
-        ],
-        [
-          "sretan",
-          "happy"
-        ],
-        [
-          "veseo",
-          "cheerful"
-        ]
-      ],
-      "sortkljuc": 202012,
-      "bodovi": 120
-    },
-    {
-      "cjelina": "Vocabulary 2",
-      "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 13,
+      "stranica": 3,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "Greetings & everyday words",
+      "naslov": "Nationalities & greetings",
       "meta": {
-        "info": "Fixed expressions — take each one whole rather than word by word. The only real choice on this page is *Kako si?* to a friend against *Kako ste?* to a stranger or someone older, which is the *ti* and *vi* decision from the lesson.",
-        "infokratko": "Take each phrase whole. *Kako si?* friend, *Kako ste?* polite or group.",
-        "opis": "Enough to open a conversation, keep it going, and close it politely."
+        "info": "Nationalities come in his-and-hers pairs with no single ending: *Hrvat → Hrvatica*, but *Talijan → Talijanka* and *Nijemac → Njemica*, so learn them two at a time. They take a capital letter, job words do not. The greetings are fixed phrases: *Kako si?* to a friend, *Kako ste?* to a stranger or someone older.",
+        "infokratko": "Pairs: *Hrvat → Hrvatica*, *Talijan → Talijanka*, *Nijemac → Njemica*. Capital letter. *Kako si?* friend, *Kako ste?* polite.",
+        "opis": "Where people are from, and what to say when you meet them. Take each phrase whole."
       },
       "stavke": [
+        [
+          "Hrvat",
+          "Croat"
+        ],
+        [
+          "Hrvatica",
+          "Croat (she)"
+        ],
+        [
+          "Englez",
+          "English person"
+        ],
+        [
+          "Engleskinja",
+          "English person (she)"
+        ],
+        [
+          "Talijan",
+          "Italian"
+        ],
+        [
+          "Talijanka",
+          "Italian (she)"
+        ],
+        [
+          "Nijemac",
+          "German"
+        ],
+        [
+          "Njemica",
+          "German (she)"
+        ],
+        [
+          "Hrvatska",
+          "Croatia"
+        ],
+        [
+          "odakle",
+          "from where"
+        ],
         [
           "Dobro jutro!",
           "Good morning!"
@@ -12296,79 +11745,87 @@ window.PODACI = {
         [
           "Oprosti!",
           "Sorry!"
-        ],
-        [
-          "naravno",
-          "of course"
-        ],
-        [
-          "jako",
-          "very"
         ]
       ],
-      "sortkljuc": 202013,
-      "bodovi": 103
+      "sortkljuc": 202003,
+      "bodovi": 198
     },
     {
       "cjelina": "Vocabulary 2",
       "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 14,
+      "stranica": 4,
       "broj": 9999,
       "format": "parovi",
-      "naslov": "Match the greetings",
+      "naslov": "Match the new words",
       "meta": {
-        "info": "A pairing drill on whole phrases, so resist translating the parts. The pair to keep apart is *Kako si?* for one friend and *Kako ste?* for a group or for one person you are being polite to — the same *ti* against *vi* choice.",
-        "infokratko": "Whole phrases. *Kako si?* one friend; *Kako ste?* group or polite.",
-        "opis": "Match each phrase with its English meaning. These are whole phrases — take them as they are."
+        "info": "A pairing drill on words from all three card pages, recognition only. Use the shape of the word as a hook: **-ar**, **-ač** and **-nik** usually mark someone who does something (*kuhar*, *pjevač*, *radnik*), and a capital letter means a nationality (*Englez*, *Talijan*).",
+        "infokratko": "New words only. **-ar, -ač, -nik** = a job (*kuhar, pjevač*); capital letter = nationality.",
+        "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
         [
+          "kuhar",
+          "cook"
+        ],
+        [
+          "pjevač",
+          "singer"
+        ],
+        [
+          "novinar",
+          "journalist"
+        ],
+        [
+          "policajac",
+          "police officer"
+        ],
+        [
+          "gost",
+          "guest"
+        ],
+        [
+          "tim",
+          "team"
+        ],
+        [
+          "ozbiljan",
+          "serious"
+        ],
+        [
+          "hrabar",
+          "brave"
+        ],
+        [
+          "drag",
+          "kind"
+        ],
+        [
+          "Englez",
+          "English person"
+        ],
+        [
+          "Talijan",
+          "Italian"
+        ],
+        [
           "Dobro jutro!",
           "Good morning!"
-        ],
-        [
-          "Dobra večer!",
-          "Good evening!"
-        ],
-        [
-          "Doviđenja!",
-          "Goodbye!"
-        ],
-        [
-          "Vidimo se!",
-          "See you!"
-        ],
-        [
-          "Kako si?",
-          "How are you?"
-        ],
-        [
-          "Dobro sam.",
-          "I'm fine."
-        ],
-        [
-          "Nema na čemu.",
-          "You're welcome."
-        ],
-        [
-          "Oprosti!",
-          "Sorry!"
         ]
       ],
-      "sortkljuc": 202014,
-      "bodovi": 120
+      "sortkljuc": 202004,
+      "bodovi": 198
     },
     {
       "cjelina": "Vocabulary 2",
       "cjelinanaslov": "Jobs, Nationalities & Character",
-      "stranica": 15,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type it in Croatian",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Production from English, so spelling counts. Croatian writes one letter per sound and the letters with diacritics carry real information: *vozač*, *učitelj*, *čovjek*, *žedan*, *tužan*, *Doviđenja*. Capital letters for *Hrvatska* and *Nijemac*.",
-        "infokratko": "Spell with diacritics: *vozač, čovjek, žedan, Doviđenja*. Capitals: *Hrvatska, Nijemac*.",
-        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+        "info": "You write each new word once, from its English meaning. Croatian writes one letter per sound, and the diacritics carry real information: *vozač* needs **č**, *šef* needs **š**, *žedan* needs **ž**. Capital letter for *Hrvatska*. This is the only page with new words alone; after it they mix with words from Lesson 0 and Vocabulary 1.",
+        "infokratko": "Type each new word once. Diacritics count: *vozač, šef, žedan*. Capital: *Hrvatska*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
@@ -12380,16 +11837,16 @@ window.PODACI = {
           "vozač"
         ],
         [
-          "singer",
-          "pjevač"
-        ],
-        [
           "teacher",
           "učitelj"
         ],
         [
           "lawyer",
           "odvjetnik"
+        ],
+        [
+          "worker",
+          "radnik"
         ],
         [
           "actor",
@@ -12400,24 +11857,20 @@ window.PODACI = {
           "susjed"
         ],
         [
-          "tourist",
-          "turist"
+          "boss",
+          "šef"
         ],
         [
-          "person",
-          "čovjek"
+          "name",
+          "ime"
         ],
         [
-          "job",
-          "posao"
+          "sad",
+          "tužan"
         ],
         [
-          "Croatia",
-          "Hrvatska"
-        ],
-        [
-          "German (he)",
-          "Nijemac"
+          "serious",
+          "ozbiljan"
         ],
         [
           "hungry",
@@ -12428,32 +11881,261 @@ window.PODACI = {
           "žedan"
         ],
         [
-          "angry",
-          "ljut"
+          "very",
+          "jako"
         ],
         [
-          "brave",
-          "hrabar"
+          "Croatia",
+          "Hrvatska"
+        ]
+      ],
+      "sortkljuc": 202005,
+      "bodovi": 256
+    },
+    {
+      "cjelina": "Vocabulary 2",
+      "cjelinanaslov": "Jobs, Nationalities & Character",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1, half and half. The doer endings still help you spot a job (*pjevač*, *novinar*), and the one pair to keep apart is the old near-twins *crven* (red) and *crn* (black).",
+        "infokratko": "New and old words against the clock. Jobs: *pjevač, novinar*. Keep apart *crven / crn*.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "pjevač",
+          "singer"
         ],
         [
-          "sad",
-          "tužan"
+          "automobil",
+          "car"
         ],
         [
-          "Thank you!",
-          "Hvala"
+          "novinar",
+          "journalist"
         ],
         [
-          "Good morning!",
-          "Dobro jutro"
+          "zebra",
+          "zebra"
+        ],
+        [
+          "policajac",
+          "police officer"
+        ],
+        [
+          "bijel",
+          "white"
+        ],
+        [
+          "pilot",
+          "pilot"
+        ],
+        [
+          "brz",
+          "fast"
+        ],
+        [
+          "turist",
+          "tourist"
+        ],
+        [
+          "crn",
+          "black"
+        ],
+        [
+          "gost",
+          "guest"
+        ],
+        [
+          "crven",
+          "red"
+        ],
+        [
+          "tim",
+          "team"
+        ],
+        [
+          "ananas",
+          "pineapple"
+        ],
+        [
+          "zabavan",
+          "fun"
+        ],
+        [
+          "film",
+          "film"
+        ],
+        [
+          "hrabar",
+          "brave"
+        ],
+        [
+          "ćevapi",
+          "grilled meat"
+        ],
+        [
+          "ljut",
+          "angry"
+        ],
+        [
+          "banana",
+          "banana"
+        ]
+      ],
+      "sortkljuc": 202006,
+      "bodovi": 198
+    },
+    {
+      "cjelina": "Vocabulary 2",
+      "cjelinanaslov": "Jobs, Nationalities & Character",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*kuhar*, *šešir*), **-a** is feminine (*Hrvatica*, *torta*), **-o** or **-e** is neuter (*ime*, *vino*). People follow the same rule, so *Talijanka* is feminine because of her **-a**.",
+        "infokratko": "Consonant = masculine (*kuhar*), **-a** = feminine (*Hrvatica*), **-o / -e** = neuter (*ime*, *vino*).",
+        "stupci": "masculine | feminine | neuter",
+        "opis": "Look at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "kuhar",
+          "masculine"
+        ],
+        [
+          "šešir",
+          "masculine"
+        ],
+        [
+          "vozač",
+          "masculine"
+        ],
+        [
+          "grad",
+          "masculine"
+        ],
+        [
+          "susjed",
+          "masculine"
+        ],
+        [
+          "Englez",
+          "masculine"
+        ],
+        [
+          "Hrvatica",
+          "feminine"
+        ],
+        [
+          "torta",
+          "feminine"
+        ],
+        [
+          "Talijanka",
+          "feminine"
+        ],
+        [
+          "žaba",
+          "feminine"
+        ],
+        [
+          "Hrvatska",
+          "feminine"
+        ],
+        [
+          "knjiga",
+          "feminine"
+        ],
+        [
+          "ime",
+          "neuter"
+        ],
+        [
+          "uho",
+          "neuter"
+        ],
+        [
+          "vino",
+          "neuter"
+        ],
+        [
+          "drvo",
+          "neuter"
+        ]
+      ],
+      "sortkljuc": 202007,
+      "bodovi": 227
+    },
+    {
+      "cjelina": "Vocabulary 2",
+      "cjelinanaslov": "Jobs, Nationalities & Character",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones, and the diacritics count: *čovjek* and *čokolada* need **č**, *Doviđenja* needs **đ**, *zauzet* has two plain z's. Capital letter for *Talijanka*, because nationalities always take one.",
+        "infokratko": "Mixed final round. Diacritics count: *čovjek, čokolada* **č**, *Doviđenja* **đ**. Capital: *Talijanka*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "person",
+          "čovjek"
+        ],
+        [
+          "day",
+          "dan"
+        ],
+        [
+          "from where",
+          "odakle"
+        ],
+        [
+          "good",
+          "dobar"
         ],
         [
           "Goodbye!",
           "Doviđenja"
+        ],
+        [
+          "shoe",
+          "cipela"
+        ],
+        [
+          "polite",
+          "ljubazan"
+        ],
+        [
+          "chocolate",
+          "čokolada"
+        ],
+        [
+          "busy",
+          "zauzet"
+        ],
+        [
+          "cold",
+          "hladan"
+        ],
+        [
+          "Italian (she)",
+          "Talijanka"
+        ],
+        [
+          "coffee",
+          "kava"
         ]
       ],
-      "sortkljuc": 202015,
-      "bodovi": 155
+      "sortkljuc": 202008,
+      "bodovi": 255
     },
     {
       "cjelina": "Grammar 2",
@@ -16985,9 +16667,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Verbs (infinitive → ja / ti / on-ona)",
       "meta": {
-        "info": "Each card gives one verb as a set of three forms. Memorise the *ja* form, the first of the three: strip its **-m** for on/ona (*pijem* → *pije*) and swap in **-š** for ti. The infinitive on its own cannot predict them.",
-        "infokratko": "Learn the *ja* form: drop **-m** for on/ona (*pijem → pije*), **-š** for ti.",
-        "opis": "The nine verbs from Lesson 3. Learn each one as a set of three — the *ja* form is the one worth remembering, because the other two follow from it."
+        "info": "Nineteen verbs, each as a set of three forms. Memorise the *ja* form, the first of the three: strip its **-m** for on/ona (*pijem* → *pije*) and swap in **-š** for ti. The infinitive on its own cannot predict it: *trčati* looks like *spavati* but says *trčim*, and *prati* says *perem*.",
+        "infokratko": "Learn the *ja* form: drop **-m** for on/ona (*pijem → pije*), **-š** for ti. *trčati → trčim*, *prati → perem*.",
+        "opis": "The nine verbs from Lesson 3 and ten more. Read the English, say the Croatian aloud, then flip to check. Tap + to save a word to your dictionary."
       },
       "stavke": [
         [
@@ -17025,24 +16707,7 @@ window.PODACI = {
         [
           "spavati → spavam, spavaš, spava",
           "to sleep"
-        ]
-      ],
-      "sortkljuc": 302001,
-      "bodovi": 101
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Ten more verbs",
-      "meta": {
-        "info": "Ten new verbs in the same three-form layout. The trap is trusting the infinitive: *trčati* looks like *spavati* but says *trčim*, and *prati* says *perem*. Learn the *ja* form and the rest of the verb follows from it.",
-        "infokratko": "Don't trust the infinitive: *trčati → trčim*, *prati → perem*.",
-        "opis": "Ten new ones, same three-form pattern. Several hide a surprise: *trčati* looks like it should say -am, while *prati*, *poznavati*, *razumjeti* and *šutjeti* barely resemble their own *ja* forms. Learn the *ja* form and the surprise disappears."
-      },
-      "stavke": [
+        ],
         [
           "crtati → crtam, crtaš, crta",
           "to draw"
@@ -17084,191 +16749,20 @@ window.PODACI = {
           "to know (a person)"
         ]
       ],
-      "sortkljuc": 302002,
-      "bodovi": 101
+      "sortkljuc": 302001,
+      "bodovi": 211
     },
     {
       "cjelina": "Vocabulary 3",
       "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Three families",
-      "meta": {
-        "info": "Sorting into the three conjugation families, and only the *ja* form decides which. Say the verb about yourself first: *čitam* lands in **-am**, *radim* in **-im**, *pišem* in **-em**. The infinitive can mislead you here.",
-        "infokratko": "The *ja* form decides the family: *čitam* **-am**, *radim* **-im**, *pišem* **-em**.",
-        "stupci": "-AM | -IM | -EM",
-        "opis": "Sort each verb by the *ja* form it makes. Seven say -am, six say -im, six say -em. Sort by the ending you hear, never by the infinitive — *trčati* and *spavati* look alike and land in different columns."
-      },
-      "stavke": [
-        [
-          "čitati",
-          "-AM"
-        ],
-        [
-          "gledati",
-          "-AM"
-        ],
-        [
-          "slušati",
-          "-AM"
-        ],
-        [
-          "spavati",
-          "-AM"
-        ],
-        [
-          "crtati",
-          "-AM"
-        ],
-        [
-          "hodati",
-          "-AM"
-        ],
-        [
-          "večerati",
-          "-AM"
-        ],
-        [
-          "raditi",
-          "-IM"
-        ],
-        [
-          "učiti",
-          "-IM"
-        ],
-        [
-          "govoriti",
-          "-IM"
-        ],
-        [
-          "misliti",
-          "-IM"
-        ],
-        [
-          "trčati",
-          "-IM"
-        ],
-        [
-          "šutjeti",
-          "-IM"
-        ],
-        [
-          "pisati",
-          "-EM"
-        ],
-        [
-          "jesti",
-          "-EM"
-        ],
-        [
-          "piti",
-          "-EM"
-        ],
-        [
-          "razumjeti",
-          "-EM"
-        ],
-        [
-          "prati",
-          "-EM"
-        ],
-        [
-          "poznavati",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 302003,
-      "bodovi": 183
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Meaning only, no endings at play. The useful separations: *gledati* is to watch while *slušati* is to listen, and *učiti* is to study while *misliti* is to think and *razumjeti* is to understand.",
-        "infokratko": "*gledati* watch, *slušati* listen; *učiti* study, *misliti* think, *razumjeti* understand.",
-        "opis": "Match each verb with its English meaning."
-      },
-      "stavke": [
-        [
-          "čitati",
-          "to read"
-        ],
-        [
-          "pisati",
-          "to write"
-        ],
-        [
-          "raditi",
-          "to work"
-        ],
-        [
-          "učiti",
-          "to study"
-        ],
-        [
-          "piti",
-          "to drink"
-        ],
-        [
-          "jesti",
-          "to eat"
-        ],
-        [
-          "gledati",
-          "to watch"
-        ],
-        [
-          "slušati",
-          "to listen"
-        ],
-        [
-          "spavati",
-          "to sleep"
-        ],
-        [
-          "govoriti",
-          "to speak"
-        ],
-        [
-          "misliti",
-          "to think"
-        ],
-        [
-          "trčati",
-          "to run"
-        ],
-        [
-          "crtati",
-          "to draw"
-        ],
-        [
-          "prati",
-          "to wash"
-        ],
-        [
-          "razumjeti",
-          "to understand"
-        ]
-      ],
-      "sortkljuc": 302004,
-      "bodovi": 141
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 5,
+      "stranica": 2,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Things that go with verbs",
       "meta": {
-        "info": "Objects for your new verbs. Each one goes straight after the verb unchanged — *Pijem čaj*, *Gledam film* — and its ending still gives you the gender, so *mačka* is feminine, *film* masculine, *pismo* neuter. The reshaping rules come in Lesson 5.",
-        "infokratko": "Objects go right after the verb, unchanged for now: *Pijem čaj. Gledam film.*",
-        "opis": "The things you read, eat, drink and watch. Almost every one of these keeps the same shape when it becomes the object — *Pijem čaj*, *Gledam film*; only *mačka* and *pas* will change, and that is Lesson 5 — so you can use them today, with no new endings — plus two adjectives, *miran* and *smiješan*, to describe them."
+        "info": "Things you eat, drink, watch and listen to. Each one goes straight after the verb unchanged — *Pijem čaj*, *Gledam crtić* — and its ending still gives you the gender: *mačka* is feminine, *sok* masculine, *jelo* neuter. Only *mačka* will change shape as an object, and that comes in Lesson 5.",
+        "infokratko": "Objects go right after the verb, unchanged for now: *Pijem čaj. Gledam crtić.*",
+        "opis": "Seventeen cards: food and drink, things on a screen or a stage, and one pet. Say each one after a verb: *Jedem kruh. Slušam radio.*"
       },
       "stavke": [
         [
@@ -17308,10 +16802,6 @@ window.PODACI = {
           "dish, food"
         ],
         [
-          "film",
-          "film, movie"
-        ],
-        [
           "crtić",
           "cartoon"
         ],
@@ -17332,10 +16822,6 @@ window.PODACI = {
           "television set"
         ],
         [
-          "ekran",
-          "screen"
-        ],
-        [
           "mobitel",
           "mobile phone"
         ],
@@ -17343,6 +16829,27 @@ window.PODACI = {
           "e-mail",
           "e-mail"
         ],
+        [
+          "mačka",
+          "cat"
+        ]
+      ],
+      "sortkljuc": 302002,
+      "bodovi": 211
+    },
+    {
+      "cjelina": "Vocabulary 3",
+      "cjelinanaslov": "Everyday Verbs & Their Objects",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Reading & how often",
+      "meta": {
+        "info": "Six things to read or write, two adjectives, and five frequency words. The frequency words never change shape and sit in front of the verb: *Često čitam*, *Ponekad pišem pismo*. With *nikad* Croatian still keeps the *ne* — *Nikad ne spavam* — a double negative that is simply the correct form.",
+        "infokratko": "Frequency words sit before the verb: *Često čitam*. With *nikad* keep *ne*: *Nikad ne spavam.*",
+        "opis": "Thirteen cards. The adjectives show the **on / ona / ono** forms; the frequency words have only one."
+      },
+      "stavke": [
         [
           "udžbenik",
           "textbook"
@@ -17368,103 +16875,13 @@ window.PODACI = {
           "magazine"
         ],
         [
-          "pas",
-          "dog"
-        ],
-        [
-          "mačka",
-          "cat"
-        ],
-        [
           "miran / mirna / mirno",
           "calm, quiet"
         ],
         [
           "smiješan / smiješna / smiješno",
           "funny"
-        ]
-      ],
-      "sortkljuc": 302005,
-      "bodovi": 141
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "spajanje",
-      "naslov": "Match the pictures",
-      "meta": {
-        "info": "Picture-to-word matching for the things your new verbs act on. Every word here keeps the same shape as an object — *Pijem sok*, *Jedem kruh* — so what you see on the card is what you say in the sentence.",
-        "infokratko": "Objects keep their shape here: *Pijem sok. Jedem kruh.*",
-        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
-      },
-      "stavke": [
-        [
-          "sok",
-          "juice"
         ],
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sir",
-          "cheese"
-        ],
-        [
-          "sendvič",
-          "sandwich"
-        ],
-        [
-          "pismo",
-          "letter"
-        ],
-        [
-          "strip",
-          "comic book"
-        ],
-        [
-          "film",
-          "film"
-        ],
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "radio",
-          "radio"
-        ],
-        [
-          "mobitel",
-          "mobile phone"
-        ],
-        [
-          "pas",
-          "dog"
-        ],
-        [
-          "mačka",
-          "cat"
-        ]
-      ],
-      "sortkljuc": 302006,
-      "bodovi": 121
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "How often?",
-      "meta": {
-        "info": "Five frequency words that never change shape, sitting in front of the verb: *Često čitam*, *Ponekad gledam film*. With *nikad* Croatian still keeps the *ne* — *Nikad ne spavam* — a double negative that is simply the correct form.",
-        "infokratko": "Before the verb, never change: *Često čitam*. With *nikad* keep *ne*: *Nikad ne spavam.*",
-        "opis": "Five words that turn a verb into a habit. They never change shape, and they sit happily in front of the verb: *Uvijek čitam. Nikad ne spavam.*"
-      },
-      "stavke": [
         [
           "uvijek",
           "always"
@@ -17486,20 +16903,20 @@ window.PODACI = {
           "never"
         ]
       ],
-      "sortkljuc": 302007,
-      "bodovi": 101
+      "sortkljuc": 302003,
+      "bodovi": 211
     },
     {
       "cjelina": "Vocabulary 3",
       "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 8,
+      "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "info": "A pairing game over the nouns you just met, so this is recognition rather than grammar. Use the ending as a free gender clue while you flip: *mačka* is feminine, *sok*, *čaj* and *pas* are masculine, *pismo* is neuter.",
-        "infokratko": "Nouns you've met. *mačka* f; *sok, čaj, pas* m; *pismo* n.",
-        "opis": "Flip the cards and find the pairs."
+        "info": "Picture-to-word matching for the things your new verbs act on. Every word here keeps the same shape as an object — *Pijem sok*, *Jedem kruh* — so what you see on the card is what you say in the sentence. *mačka* is the one exception, and it waits until Lesson 5.",
+        "infokratko": "Objects keep their shape here: *Pijem sok. Jedem kruh.*",
+        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
@@ -17507,20 +16924,20 @@ window.PODACI = {
           "juice"
         ],
         [
-          "čaj",
-          "tea"
-        ],
-        [
           "kruh",
           "bread"
+        ],
+        [
+          "sir",
+          "cheese"
         ],
         [
           "sendvič",
           "sandwich"
         ],
         [
-          "udžbenik",
-          "textbook"
+          "doručak",
+          "breakfast"
         ],
         [
           "pismo",
@@ -17528,393 +16945,43 @@ window.PODACI = {
         ],
         [
           "strip",
-          "comic"
-        ],
-        [
-          "crtić",
-          "cartoon"
-        ],
-        [
-          "pas",
-          "dog"
-        ],
-        [
-          "mačka",
-          "cat"
-        ]
-      ],
-      "sortkljuc": 302008,
-      "bodovi": 141
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: the ja-form",
-      "meta": {
-        "info": "Timed recognition of **-m** forms only, so every English answer begins with *I*. The stem-shifters are what cost you seconds: *perem* is I wash, *poznajem* is I know, *razumijem* is I understand.",
-        "infokratko": "Only **-m** forms, all *I*. Watch *perem, poznajem, razumijem*.",
-        "trajanje": "60",
-        "opis": "The \"ja\" form flashes — tap the English meaning!"
-      },
-      "stavke": [
-        [
-          "čitam",
-          "I read"
-        ],
-        [
-          "pišem",
-          "I write"
-        ],
-        [
-          "radim",
-          "I work"
-        ],
-        [
-          "učim",
-          "I study"
-        ],
-        [
-          "pijem",
-          "I drink"
-        ],
-        [
-          "jedem",
-          "I eat"
-        ],
-        [
-          "gledam",
-          "I watch"
-        ],
-        [
-          "slušam",
-          "I listen"
-        ],
-        [
-          "spavam",
-          "I sleep"
-        ],
-        [
-          "crtam",
-          "I draw"
-        ],
-        [
-          "hodam",
-          "I walk"
-        ],
-        [
-          "večeram",
-          "I have dinner"
-        ],
-        [
-          "govorim",
-          "I speak"
-        ],
-        [
-          "mislim",
-          "I think"
-        ],
-        [
-          "trčim",
-          "I run"
-        ],
-        [
-          "šutim",
-          "I am silent"
-        ],
-        [
-          "razumijem",
-          "I understand"
-        ],
-        [
-          "perem",
-          "I wash"
-        ],
-        [
-          "poznajem",
-          "I know"
-        ]
-      ],
-      "sortkljuc": 302009,
-      "bodovi": 141
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: who is doing it?",
-      "meta": {
-        "info": "Now the person changes, so check the last letter before you tap: **-m** is *I*, **-š** is *you*, and no ending at all is *he* or *she*. *Piješ* and *pije* differ by a single character and by who is drinking.",
-        "infokratko": "**-m** I, **-š** you, nothing he/she: *piješ / pije*.",
-        "trajanje": "60",
-        "opis": "Same verbs, but now the ending decides. Tap the English — watch for that **-š**."
-      },
-      "stavke": [
-        [
-          "čitam",
-          "I read"
-        ],
-        [
-          "čitaš",
-          "you read"
-        ],
-        [
-          "čita",
-          "he reads"
-        ],
-        [
-          "pijem",
-          "I drink"
-        ],
-        [
-          "piješ",
-          "you drink"
-        ],
-        [
-          "pije",
-          "he drinks"
-        ],
-        [
-          "jedem",
-          "I eat"
-        ],
-        [
-          "jedeš",
-          "you eat"
-        ],
-        [
-          "jede",
-          "he eats"
-        ],
-        [
-          "radim",
-          "I work"
-        ],
-        [
-          "radiš",
-          "you work"
-        ],
-        [
-          "radi",
-          "he works"
-        ],
-        [
-          "gledam",
-          "I watch"
-        ],
-        [
-          "gledaš",
-          "you watch"
-        ],
-        [
-          "gleda",
-          "he watches"
-        ],
-        [
-          "govorim",
-          "I speak"
-        ],
-        [
-          "govoriš",
-          "you speak"
-        ],
-        [
-          "govori",
-          "he speaks"
-        ],
-        [
-          "trčim",
-          "I run"
-        ],
-        [
-          "trčiš",
-          "you run"
-        ],
-        [
-          "trči",
-          "he runs"
-        ],
-        [
-          "perem",
-          "I wash"
-        ],
-        [
-          "pereš",
-          "you wash"
-        ],
-        [
-          "pere",
-          "he washes"
-        ]
-      ],
-      "sortkljuc": 302010,
-      "bodovi": 141
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type the ja-form",
-      "meta": {
-        "info": "Production from the infinitive: type the form you would use about yourself, always ending in **-m**. All three families turn up — *hodati* gives *hodam*, *govoriti* gives *govorim*, *prati* gives *perem* — and the stem may shift on the way.",
-        "infokratko": "Type the *ja* form: *hodam, govorim, perem*.",
-        "opis": "You get the infinitive — type the form you would use about yourself."
-      },
-      "stavke": [
-        [
-          "čitati →",
-          "čitam"
-        ],
-        [
-          "pisati →",
-          "pišem"
-        ],
-        [
-          "raditi →",
-          "radim"
-        ],
-        [
-          "učiti →",
-          "učim"
-        ],
-        [
-          "piti →",
-          "pijem"
-        ],
-        [
-          "jesti →",
-          "jedem"
-        ],
-        [
-          "gledati →",
-          "gledam"
-        ],
-        [
-          "slušati →",
-          "slušam"
-        ],
-        [
-          "spavati →",
-          "spavam"
-        ],
-        [
-          "crtati →",
-          "crtam"
-        ],
-        [
-          "hodati →",
-          "hodam"
-        ],
-        [
-          "večerati →",
-          "večeram"
-        ],
-        [
-          "govoriti →",
-          "govorim"
-        ],
-        [
-          "misliti →",
-          "mislim"
-        ],
-        [
-          "trčati →",
-          "trčim"
-        ],
-        [
-          "šutjeti →",
-          "šutim"
-        ],
-        [
-          "razumjeti →",
-          "razumijem"
-        ],
-        [
-          "prati →",
-          "perem"
-        ],
-        [
-          "poznavati →",
-          "poznajem"
-        ]
-      ],
-      "sortkljuc": 302011,
-      "bodovi": 203
-    },
-    {
-      "cjelina": "Vocabulary 3",
-      "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. The letters with diacritics carry meaning of their own: *čaj* starts with the *ch* sound, *učiti* has it in the middle, and **dž** in *udžbenik* is a single letter, never a d followed by a ž.",
-        "infokratko": "Diacritics matter: *čaj, učiti*; **dž** in *udžbenik* is one letter.",
-        "opis": "Careful — **dž** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own."
-      },
-      "stavke": [
-        [
-          "čitati",
-          "to read"
-        ],
-        [
-          "učiti",
-          "to study"
-        ],
-        [
-          "slušati",
-          "to listen"
-        ],
-        [
-          "večerati",
-          "to have dinner"
-        ],
-        [
-          "razumjeti",
-          "to understand"
+          "comic book"
         ],
         [
           "udžbenik",
           "textbook"
         ],
         [
-          "sendvič",
-          "sandwich"
+          "kino",
+          "cinema"
+        ],
+        [
+          "radio",
+          "radio"
+        ],
+        [
+          "mobitel",
+          "mobile phone"
         ],
         [
           "mačka",
           "cat"
-        ],
-        [
-          "čaj",
-          "tea"
-        ],
-        [
-          "pismo",
-          "letter"
         ]
       ],
-      "sortkljuc": 302012,
-      "bodovi": 182
+      "sortkljuc": 302004,
+      "bodovi": 181
     },
     {
       "cjelina": "Vocabulary 3",
       "cjelinanaslov": "Everyday Verbs & Their Objects",
-      "stranica": 13,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type it in Croatian",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Spelling practice, and Croatian is written exactly as it sounds, one letter per sound. Keep the diacritics — *čitati*, *učiti*, *čaj*, *mačka* — and note that the verbs are wanted as infinitives here, not as *ja* forms.",
-        "infokratko": "Infinitives, with diacritics: *čitati, učiti, čaj, mačka*.",
-        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+        "info": "You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**, not as *ja* forms. The diacritics carry real information: *čitati* and *čaj* need **č**, *slušati* needs **š**, *udžbenik* has **dž** as one letter. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once. Verbs as infinitives (*čitati*, not *čitam*). Diacritics count: *čaj, slušati, udžbenik*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
@@ -17926,14 +16993,6 @@ window.PODACI = {
           "pisati"
         ],
         [
-          "to work",
-          "raditi"
-        ],
-        [
-          "to study",
-          "učiti"
-        ],
-        [
           "to drink",
           "piti"
         ],
@@ -17942,36 +17001,16 @@ window.PODACI = {
           "jesti"
         ],
         [
-          "to watch",
-          "gledati"
-        ],
-        [
           "to listen",
           "slušati"
-        ],
-        [
-          "to sleep",
-          "spavati"
         ],
         [
           "to speak",
           "govoriti"
         ],
         [
-          "to think",
-          "misliti"
-        ],
-        [
           "to run",
           "trčati"
-        ],
-        [
-          "to draw",
-          "crtati"
-        ],
-        [
-          "to wash",
-          "prati"
         ],
         [
           "to understand",
@@ -17990,72 +17029,269 @@ window.PODACI = {
           "kruh"
         ],
         [
-          "cheese",
-          "sir"
-        ],
-        [
-          "sandwich",
-          "sendvič"
-        ],
-        [
-          "breakfast",
-          "doručak"
-        ],
-        [
           "textbook",
           "udžbenik"
-        ],
-        [
-          "letter",
-          "pismo"
-        ],
-        [
-          "novel",
-          "roman"
-        ],
-        [
-          "comic book",
-          "strip"
-        ],
-        [
-          "cartoon",
-          "crtić"
-        ],
-        [
-          "screen",
-          "ekran"
-        ],
-        [
-          "dog",
-          "pas"
         ],
         [
           "cat",
           "mačka"
         ],
         [
-          "calm",
-          "miran"
-        ],
-        [
           "funny",
           "smiješan"
+        ],
+        [
+          "often",
+          "često"
+        ]
+      ],
+      "sortkljuc": 302005,
+      "bodovi": 302
+    },
+    {
+      "cjelina": "Vocabulary 3",
+      "cjelinanaslov": "Everyday Verbs & Their Objects",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1, half and half. The **to** in the English gives the verbs away, so the real work is in the rest: keep *rijetko* (rarely) apart from *ponekad* (sometimes), and *roman* (novel) apart from *časopis* (magazine).",
+        "infokratko": "New and old words against the clock. *rijetko* rarely, *ponekad* sometimes; *roman* novel, *časopis* magazine.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "pisati",
+          "to write"
+        ],
+        [
+          "ekran",
+          "screen"
+        ],
+        [
+          "hodati",
+          "to walk"
+        ],
+        [
+          "lijep",
+          "beautiful"
+        ],
+        [
+          "misliti",
+          "to think"
+        ],
+        [
+          "mali",
+          "small"
+        ],
+        [
+          "poznavati",
+          "to know (a person)"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ],
+        [
+          "crtić",
+          "cartoon"
+        ],
+        [
+          "jabuka",
+          "apple"
+        ],
+        [
+          "časopis",
+          "magazine"
+        ],
+        [
+          "nov",
+          "new"
+        ],
+        [
+          "roman",
+          "novel"
+        ],
+        [
+          "plav",
+          "blue"
+        ],
+        [
+          "jogurt",
+          "yoghurt"
+        ],
+        [
+          "lav",
+          "lion"
+        ],
+        [
+          "ponekad",
+          "sometimes"
+        ],
+        [
+          "problem",
+          "problem"
+        ],
+        [
+          "rijetko",
+          "rarely"
+        ],
+        [
+          "restoran",
+          "restaurant"
+        ]
+      ],
+      "sortkljuc": 302006,
+      "bodovi": 211
+    },
+    {
+      "cjelina": "Vocabulary 3",
+      "cjelinanaslov": "Everyday Verbs & Their Objects",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*sok*, *krevet*), **-a** is feminine (*mačka*, *lampa*), **-o** or **-e** is neuter (*kino*, *more*). The words on your new cards follow it just like the old ones.",
+        "infokratko": "Consonant = masculine (*sok*), **-a** = feminine (*mačka*), **-o / -e** = neuter (*kino*, *more*).",
+        "stupci": "masculine | feminine | neuter",
+        "opis": "Look at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "sok",
+          "masculine"
+        ],
+        [
+          "krevet",
+          "masculine"
+        ],
+        [
+          "koncert",
+          "masculine"
+        ],
+        [
+          "prozor",
+          "masculine"
+        ],
+        [
+          "udžbenik",
+          "masculine"
+        ],
+        [
+          "mobitel",
+          "masculine"
+        ],
+        [
+          "mačka",
+          "feminine"
+        ],
+        [
+          "lampa",
+          "feminine"
+        ],
+        [
+          "farma",
+          "feminine"
+        ],
+        [
+          "gitara",
+          "feminine"
+        ],
+        [
+          "kuća",
+          "feminine"
+        ],
+        [
+          "jelo",
+          "neuter"
+        ],
+        [
+          "nebo",
+          "neuter"
+        ],
+        [
+          "kino",
+          "neuter"
+        ],
+        [
+          "more",
+          "neuter"
+        ],
+        [
+          "pismo",
+          "neuter"
+        ]
+      ],
+      "sortkljuc": 302007,
+      "bodovi": 271
+    },
+    {
+      "cjelina": "Vocabulary 3",
+      "cjelinanaslov": "Everyday Verbs & Their Objects",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Verbs as infinitives again, and the diacritics count: *večerati* needs **č**, *džem* has **dž** as one letter, *đak* starts with **đ**, *ljeto* starts with **lj**.",
+        "infokratko": "Mixed final round. Verbs as infinitives. Diacritics count: *večerati* **č**, *džem* **dž**, *đak* **đ**, *ljeto* **lj**.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "to watch",
+          "gledati"
+        ],
+        [
+          "jam",
+          "džem"
+        ],
+        [
+          "to wash",
+          "prati"
+        ],
+        [
+          "pupil",
+          "đak"
+        ],
+        [
+          "to have dinner",
+          "večerati"
+        ],
+        [
+          "summer",
+          "ljeto"
+        ],
+        [
+          "lunch",
+          "ručak"
+        ],
+        [
+          "soft",
+          "mekan"
         ],
         [
           "always",
           "uvijek"
         ],
         [
-          "often",
-          "često"
+          "modern",
+          "moderan"
         ],
         [
-          "never",
-          "nikad"
+          "calm",
+          "miran"
+        ],
+        [
+          "needle",
+          "igla"
         ]
       ],
-      "sortkljuc": 302013,
-      "bodovi": 203
+      "sortkljuc": 302008,
+      "bodovi": 302
     },
     {
       "cjelina": "Grammar 3",
@@ -22320,7 +21556,7 @@ window.PODACI = {
       "meta": {
         "info": "Flashcards for the closest relatives. The ending usually gives the gender away — *mama*, *sestra*, *baka* and *žena* in **-a** are feminine, *brat*, *sin* and *muž* are masculine — but *tata* looks feminine and is **masculine**.",
         "infokratko": "Close family. *mama, sestra, baka, žena* f; *brat, sin, muž* m; *tata* is masculine.",
-        "opis": "Start with the people closest to you. Notice how many end in **-a** — Croatian family words are mostly short and warm."
+        "opis": "Start with the people closest to you. Read the English, say the Croatian aloud, then flip to check. Tap + to save a word to your dictionary."
       },
       "stavke": [
         [
@@ -22385,7 +21621,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 402001,
-      "bodovi": 152
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 4",
@@ -22395,9 +21631,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "The wider circle",
       "meta": {
-        "info": "Relatives beyond the household plus the polite words for strangers. Two things to note: *kolega* ends in **-a** yet is **masculine**, like *tata*, and the female counterpart takes **-ica**, so *prijatelj* becomes *prijateljica*.",
-        "infokratko": "Wider family and polite words. *kolega* is masculine; *prijatelj → prijateljica*.",
-        "opis": "Aunts, uncles, neighbours and the polite words you use with strangers. *Gospodin* and *gospođa* are the everyday *Mr* and *Mrs* — you'll hear them in every shop. Watch *kolega*: it ends in **-a** but it is **masculine**."
+        "info": "Relatives beyond the household, the polite words for strangers, and six words for the place you live. *kolega* ends in **-a** yet is **masculine**, like *tata*. Keep *stan* (the building you live in) apart from *dom*, the home you feel: *Stan je mali, ali je dom topao*.",
+        "infokratko": "Wider family, polite words, home. *kolega* is masculine; *stan* = apartment, *dom* = home.",
+        "opis": "Aunts, uncles, the everyday *Mr* and *Mrs*, and the rooms and doors of home. *Gospodin* and *gospođa* are what you'll hear in every shop."
       },
       "stavke": [
         [
@@ -22415,14 +21651,6 @@ window.PODACI = {
         [
           "rođak",
           "cousin, relative"
-        ],
-        [
-          "susjed",
-          "neighbour"
-        ],
-        [
-          "prijatelj",
-          "friend"
         ],
         [
           "prijateljica",
@@ -22453,34 +21681,13 @@ window.PODACI = {
           "boy, boyfriend"
         ],
         [
-          "čovjek",
-          "man, person"
-        ],
-        [
           "društvo",
           "company, society"
         ],
         [
           "djetinjstvo",
           "childhood"
-        ]
-      ],
-      "sortkljuc": 402002,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Home and around it",
-      "meta": {
-        "info": "Vocabulary for the place the family lives in. Keep two of them apart: *kuća* and *stan* are the building, while *dom* is the home you feel — exactly the contrast in *Stan je mali, ali je dom topao*.",
-        "infokratko": "Home words. *kuća, stan* = the building; *dom* = home.",
-        "opis": "Where the family lives. **dom** is the *home* you feel; **kuća** and **stan** are the building you live in."
-      },
-      "stavke": [
+        ],
         [
           "dom",
           "home"
@@ -22488,14 +21695,6 @@ window.PODACI = {
         [
           "stan",
           "apartment"
-        ],
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "soba",
-          "room"
         ],
         [
           "vrt",
@@ -22506,113 +21705,28 @@ window.PODACI = {
           "balcony"
         ],
         [
-          "prozor",
-          "window"
-        ],
-        [
           "vrata",
           "door"
         ],
         [
-          "krevet",
-          "bed"
-        ],
-        [
-          "stol",
-          "table"
-        ],
-        [
-          "stolica",
-          "chair"
-        ],
-        [
-          "pas",
-          "dog"
-        ],
-        [
-          "mačka",
-          "cat"
-        ]
-      ],
-      "sortkljuc": 402003,
-      "bodovi": 133
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "spajanje",
-      "naslov": "Match the pictures",
-      "meta": {
-        "info": "Picture-to-word matching for the family and the home. While you tap, read the last letter of each word: *baka* and *sestra* end in **-a** and are feminine, *brat* and *djed* end in a consonant and are masculine, and *dijete* is neuter.",
-        "infokratko": "Picture and word. *baka, sestra* f; *brat, djed* m; *dijete* n.",
-        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
-      },
-      "stavke": [
-        [
-          "obitelj",
-          "family"
-        ],
-        [
-          "baka",
-          "grandma"
-        ],
-        [
-          "djed",
-          "grandpa"
-        ],
-        [
-          "brat",
-          "brother"
-        ],
-        [
-          "sestra",
-          "sister"
-        ],
-        [
-          "dijete",
-          "child"
-        ],
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "stan",
-          "apartment"
-        ],
-        [
-          "soba",
-          "room"
-        ],
-        [
-          "vrt",
-          "garden"
-        ],
-        [
-          "prozor",
-          "window"
-        ],
-        [
           "stolica",
           "chair"
         ]
       ],
-      "sortkljuc": 402004,
-      "bodovi": 133
+      "sortkljuc": 402002,
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 4",
       "cjelinanaslov": "The Family & Connectors",
-      "stranica": 5,
+      "stranica": 3,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Eleven new verbs",
       "meta": {
-        "info": "Each card shows the whole present tense at once. Learn the *ja* form and the rest is automatic: swap **-m** for **-š** for *ti*, drop it for *on/ona*. Note *pomagati*, whose stem changes to *pomaž-*: *pomažem*, *pomažeš*, *pomaže*.",
-        "infokratko": "Learn the *ja* form: **-m** → **-š** for *ti*, drop for *on/ona*. *pomažem, pomažeš, pomaže*.",
-        "opis": "Same trick as Lesson 3 — learn the **ja** form and the other two follow. *pomagati* and *ustajati* change the middle a little; the endings never lie."
+        "info": "Eleven verbs with their *ja / ti / on-ona* forms, then eight small words. Learn the *ja* form of each verb: swap **-m** for **-š** for *ti*, drop it for *on/ona*; *pomagati* changes its stem to *pomaž-*. Of the small words, **a** puts two different subjects side by side, **ali** is a real *but* and **jer** gives the reason.",
+        "infokratko": "Learn the *ja* form: **-m** → **-š** for *ti*, drop for *on/ona*. **a** contrasts subjects, **ali** = but, **jer** = because.",
+        "opis": "Eleven verbs and eight little words that hold a sentence together. Grammar 4 shows exactly which connector does which job."
       },
       "stavke": [
         [
@@ -22658,89 +21772,6 @@ window.PODACI = {
         [
           "ustajati → ustajem, ustaješ, ustaje",
           "to get up"
-        ]
-      ],
-      "sortkljuc": 402005,
-      "bodovi": 114
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Three families again",
-      "meta": {
-        "info": "You sort the new verbs into the three present-tense families from Lesson 3. Do not trust the infinitive — *voljeti* gives *volim*, not *voljem* — so sort by the *ja* form from the cards: **-am**, **-im** or **-em**.",
-        "infokratko": "Sort by the *ja* form: **-am, -im, -em**. *voljeti → volim*.",
-        "stupci": "-AM | -IM | -EM",
-        "opis": "The same three verb families you met in Lesson 3, now with the new verbs. Five say -am, four say -im, two say -em."
-      },
-      "stavke": [
-        [
-          "imati",
-          "-AM"
-        ],
-        [
-          "kuhati",
-          "-AM"
-        ],
-        [
-          "čekati",
-          "-AM"
-        ],
-        [
-          "razgovarati",
-          "-AM"
-        ],
-        [
-          "šetati",
-          "-AM"
-        ],
-        [
-          "voljeti",
-          "-IM"
-        ],
-        [
-          "živjeti",
-          "-IM"
-        ],
-        [
-          "sjediti",
-          "-IM"
-        ],
-        [
-          "čistiti",
-          "-IM"
-        ],
-        [
-          "pomagati",
-          "-EM"
-        ],
-        [
-          "ustajati",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 402006,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Little words that hold a sentence together",
-      "meta": {
-        "info": "The four connectors plus five very frequent small words. In one line: **i** adds, **a** puts two different subjects side by side, **ali** is a real *but*, and **jer** gives the reason. Grammar 4 drills which one does which.",
-        "infokratko": "**i** adds, **a** contrasts subjects, **ali** = but, **jer** = because.",
-        "opis": "Four connectors and five words you'll sprinkle everywhere. Grammar 4 shows exactly which connector does which job."
-      },
-      "stavke": [
-        [
-          "i",
-          "and (adding)"
         ],
         [
           "a",
@@ -22775,160 +21806,25 @@ window.PODACI = {
           "whole, entire"
         ]
       ],
-      "sortkljuc": 402007,
-      "bodovi": 95
+      "sortkljuc": 402003,
+      "bodovi": 242
     },
     {
       "cjelina": "Vocabulary 4",
       "cjelinanaslov": "The Family & Connectors",
-      "stranica": 8,
+      "stranica": 4,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "info": "Matching family words to their English meanings. Two sets are easy to confuse: *sin* is son and *kći* is daughter, and *unuk* is a grandson while *ujak* is an uncle — your mother's brother, as opposed to *stric*.",
-        "infokratko": "*sin* son, *kći* daughter; *unuk* grandson, *ujak* uncle (mother's brother).",
-        "opis": "Match each family word with its English meaning."
+        "info": "Picture-to-word matching for the family and the home. While you tap, read the last letter of each word: *baka* and *sestra* end in **-a** and are feminine, *brat* and *djed* end in a consonant and are masculine, and *dijete* is neuter.",
+        "infokratko": "Picture and word. *baka, sestra* f; *brat, djed* m; *dijete* n.",
+        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
           "obitelj",
           "family"
-        ],
-        [
-          "roditelj",
-          "parent"
-        ],
-        [
-          "sin",
-          "son"
-        ],
-        [
-          "kći",
-          "daughter"
-        ],
-        [
-          "dijete",
-          "child"
-        ],
-        [
-          "muž",
-          "husband"
-        ],
-        [
-          "žena",
-          "wife"
-        ],
-        [
-          "unuk",
-          "grandson"
-        ],
-        [
-          "teta",
-          "aunt"
-        ],
-        [
-          "ujak",
-          "uncle"
-        ],
-        [
-          "rođak",
-          "cousin"
-        ],
-        [
-          "kolega",
-          "colleague"
-        ]
-      ],
-      "sortkljuc": 402008,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A flip-and-find game over the home words. A hook while you play: *stan* and *kuća* are the building you live in, *dom* is the home you feel, and *soba* is any single room inside it.",
-        "infokratko": "*stan, kuća* building; *dom* home; *soba* room.",
-        "opis": "Flip the cards and find the pairs — the home edition."
-      },
-      "stavke": [
-        [
-          "dom",
-          "home"
-        ],
-        [
-          "stan",
-          "apartment"
-        ],
-        [
-          "kuća",
-          "house"
-        ],
-        [
-          "soba",
-          "room"
-        ],
-        [
-          "vrt",
-          "garden"
-        ],
-        [
-          "prozor",
-          "window"
-        ],
-        [
-          "vrata",
-          "door"
-        ],
-        [
-          "krevet",
-          "bed"
-        ],
-        [
-          "stolica",
-          "chair"
-        ],
-        [
-          "pas",
-          "dog"
-        ]
-      ],
-      "sortkljuc": 402009,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: people",
-      "meta": {
-        "info": "Timed recognition of the people words. Speed comes from recognising shapes: **-ica** marks a female counterpart (*prijateljica*), and *djetinjstvo* is built on *dijete* (child), so *djet-* should already suggest childhood.",
-        "infokratko": "**-ica** = female (*prijateljica*); *djetinjstvo* from *dijete*.",
-        "trajanje": "60",
-        "opis": "Tap the English meaning — people sprint!"
-      },
-      "stavke": [
-        [
-          "obitelj",
-          "family"
-        ],
-        [
-          "roditelj",
-          "parent"
-        ],
-        [
-          "brat",
-          "brother"
-        ],
-        [
-          "sestra",
-          "sister"
         ],
         [
           "baka",
@@ -22939,268 +21835,56 @@ window.PODACI = {
           "grandpa"
         ],
         [
-          "sin",
-          "son"
+          "brat",
+          "brother"
         ],
         [
-          "kći",
-          "daughter"
+          "sestra",
+          "sister"
         ],
         [
           "dijete",
           "child"
         ],
         [
-          "djeca",
-          "children"
-        ],
-        [
-          "teta",
-          "aunt"
-        ],
-        [
-          "ujak",
-          "uncle"
-        ],
-        [
-          "rođak",
-          "cousin"
-        ],
-        [
-          "susjed",
-          "neighbour"
-        ],
-        [
-          "prijatelj",
-          "friend"
-        ],
-        [
-          "kolega",
-          "colleague"
-        ],
-        [
-          "gospodin",
-          "Mr"
-        ],
-        [
           "gospođa",
           "Mrs"
         ],
         [
-          "djevojka",
-          "girl"
+          "dom",
+          "home"
         ],
         [
-          "dečko",
-          "boy"
+          "stan",
+          "apartment"
         ],
         [
-          "čovjek",
-          "person"
-        ],
-        [
-          "društvo",
-          "company"
-        ],
-        [
-          "djetinjstvo",
-          "childhood"
-        ]
-      ],
-      "sortkljuc": 402010,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: the ja-form",
-      "meta": {
-        "info": "The *ja* forms flash past and you tap the meaning. The final **-m** is itself the *I*, so *kuham* is *I cook*; the vowel in front of it (**-am**, **-im** or **-em**) only tells you which verb family the word belongs to.",
-        "infokratko": "**-m** = I: *kuham* = I cook.",
-        "trajanje": "60",
-        "opis": "The **ja** form flashes — tap the English meaning!"
-      },
-      "stavke": [
-        [
-          "imam",
-          "I have"
-        ],
-        [
-          "kuham",
-          "I cook"
-        ],
-        [
-          "čekam",
-          "I wait"
-        ],
-        [
-          "razgovaram",
-          "I talk"
-        ],
-        [
-          "šetam",
-          "I walk"
-        ],
-        [
-          "volim",
-          "I love"
-        ],
-        [
-          "živim",
-          "I live"
-        ],
-        [
-          "sjedim",
-          "I sit"
-        ],
-        [
-          "čistim",
-          "I clean"
-        ],
-        [
-          "pomažem",
-          "I help"
-        ],
-        [
-          "ustajem",
-          "I get up"
-        ]
-      ],
-      "sortkljuc": 402011,
-      "bodovi": 152
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type the ja-form",
-      "meta": {
-        "info": "You get the infinitive and type the form you use about yourself. Most just take the family vowel plus **-m**: *kuhati* gives *kuham*, *sjediti* gives *sjedim*. Watch the ones whose stem shifts: *voljeti* gives *volim*, *pomagati* gives *pomažem*.",
-        "infokratko": "Family vowel + **-m**: *kuham, sjedim*. Shifts: *volim, pomažem*.",
-        "opis": "You get the infinitive — type the form you would use about yourself."
-      },
-      "stavke": [
-        [
-          "imati →",
-          "imam"
-        ],
-        [
-          "kuhati →",
-          "kuham"
-        ],
-        [
-          "čekati →",
-          "čekam"
-        ],
-        [
-          "razgovarati →",
-          "razgovaram"
-        ],
-        [
-          "šetati →",
-          "šetam"
-        ],
-        [
-          "voljeti →",
-          "volim"
-        ],
-        [
-          "živjeti →",
-          "živim"
-        ],
-        [
-          "sjediti →",
-          "sjedim"
-        ],
-        [
-          "čistiti →",
-          "čistim"
-        ],
-        [
-          "pomagati →",
-          "pomažem"
-        ],
-        [
-          "ustajati →",
-          "ustajem"
-        ]
-      ],
-      "sortkljuc": 402012,
-      "bodovi": 210
-    },
-    {
-      "cjelina": "Vocabulary 4",
-      "cjelinanaslov": "The Family & Connectors",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Five words here need letters English does not have: *kći* ends in **ć**, *gospođa* has **đ**, and *obitelj*, *prijatelj* and *djetinjstvo* each need the single letters **lj** or **nj**.",
-        "infokratko": "New letters: *kći* **ć**, *gospođa* **đ**; **lj**, **nj** are single letters.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
-      },
-      "stavke": [
-        [
-          "obitelj",
-          "family"
-        ],
-        [
-          "prijatelj",
-          "friend"
-        ],
-        [
-          "djetinjstvo",
-          "childhood"
-        ],
-        [
-          "kći",
-          "daughter"
-        ],
-        [
-          "žena",
-          "wife"
-        ],
-        [
-          "čovjek",
-          "person"
-        ],
-        [
-          "susjed",
-          "neighbour"
-        ],
-        [
-          "stolica",
-          "chair"
-        ],
-        [
-          "gospođa",
-          "Mrs"
+          "vrt",
+          "garden"
         ],
         [
           "balkon",
           "balcony"
+        ],
+        [
+          "stolica",
+          "chair"
         ]
       ],
-      "sortkljuc": 402013,
-      "bodovi": 191
+      "sortkljuc": 402004,
+      "bodovi": 212
     },
     {
       "cjelina": "Vocabulary 4",
       "cjelinanaslov": "The Family & Connectors",
-      "stranica": 14,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type it in Croatian",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "The production round: English in, Croatian out, spelled by ear. Croatian writes one sound per letter, so nothing is silent or doubled — but the diacritics are full letters and must be typed: *kći*, *žena*, *čovjek*, *kuća*.",
-        "infokratko": "Diacritics are letters: *kći, žena, čovjek, kuća*.",
-        "opis": "The final round — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+        "info": "You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**, not as *ja* forms. The diacritics are full letters: *kći* ends in **ć**, *muž* in **ž**, and *djetinjstvo* has **nj** as one letter. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once. Verbs as infinitives (*imati*, not *imam*). Diacritics count: *kći, muž, djetinjstvo*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
@@ -23212,22 +21896,6 @@ window.PODACI = {
           "roditelj"
         ],
         [
-          "brother",
-          "brat"
-        ],
-        [
-          "sister",
-          "sestra"
-        ],
-        [
-          "grandma",
-          "baka"
-        ],
-        [
-          "grandpa",
-          "djed"
-        ],
-        [
           "son",
           "sin"
         ],
@@ -23236,16 +21904,20 @@ window.PODACI = {
           "kći"
         ],
         [
-          "child",
-          "dijete"
+          "children",
+          "djeca"
         ],
         [
-          "neighbour",
-          "susjed"
+          "husband",
+          "muž"
         ],
         [
-          "friend",
-          "prijatelj"
+          "grandson",
+          "unuk"
+        ],
+        [
+          "aunt",
+          "teta"
         ],
         [
           "colleague",
@@ -23256,64 +21928,273 @@ window.PODACI = {
           "djetinjstvo"
         ],
         [
-          "home",
-          "dom"
-        ],
-        [
-          "apartment",
-          "stan"
-        ],
-        [
-          "house",
-          "kuća"
-        ],
-        [
           "garden",
           "vrt"
-        ],
-        [
-          "window",
-          "prozor"
         ],
         [
           "door",
           "vrata"
         ],
         [
-          "bed",
-          "krevet"
-        ],
-        [
           "to have",
           "imati"
-        ],
-        [
-          "to cook",
-          "kuhati"
-        ],
-        [
-          "to live",
-          "živjeti"
-        ],
-        [
-          "to love",
-          "voljeti"
         ],
         [
           "to help",
           "pomagati"
         ],
         [
+          "because",
+          "jer"
+        ]
+      ],
+      "sortkljuc": 402005,
+      "bodovi": 334
+    },
+    {
+      "cjelina": "Vocabulary 4",
+      "cjelinanaslov": "The Family & Connectors",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–2, half and half. Two pairs to keep apart: *Englez* is the man and *Engleskinja* the woman, and *ali* (but) is not *a* (and, whereas). *dečko* is a boy, *rođak* a cousin.",
+        "infokratko": "New and old words against the clock. *Englez* he, *Engleskinja* she; *dečko* boy, *rođak* cousin.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "mama",
+          "mom"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "roditelj",
+          "parent"
+        ],
+        [
+          "drag",
+          "kind"
+        ],
+        [
+          "muž",
+          "husband"
+        ],
+        [
+          "Engleskinja",
+          "English person (she)"
+        ],
+        [
+          "rođak",
+          "cousin"
+        ],
+        [
+          "sport",
+          "sport"
+        ],
+        [
+          "gospodin",
+          "Mr"
+        ],
+        [
+          "Englez",
+          "English person"
+        ],
+        [
+          "dečko",
+          "boy"
+        ],
+        [
+          "star",
+          "old"
+        ],
+        [
+          "stan",
+          "apartment"
+        ],
+        [
+          "ananas",
+          "pineapple"
+        ],
+        [
+          "čekati",
+          "to wait"
+        ],
+        [
+          "taksi",
+          "taxi"
+        ],
+        [
+          "razgovarati",
+          "to talk"
+        ],
+        [
+          "banana",
+          "banana"
+        ],
+        [
+          "ali",
+          "but"
+        ],
+        [
+          "telefon",
+          "telephone"
+        ]
+      ],
+      "sortkljuc": 402006,
+      "bodovi": 242
+    },
+    {
+      "cjelina": "Vocabulary 4",
+      "cjelinanaslov": "The Family & Connectors",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*brat*, *nos*), **-a** is feminine (*sestra*, *riba*), **-o** or **-e** is neuter (*oko*, *dijete*). One word breaks the pattern on purpose: *tata* ends in **-a** but is a man, so it is **masculine**.",
+        "infokratko": "Consonant = masculine (*brat*), **-a** = feminine (*sestra*), **-o / -e** = neuter (*oko*). *tata* is masculine.",
+        "stupci": "masculine | feminine | neuter",
+        "opis": "Look at the last letter of each word and drop it into the right column. Watch out for *tata*."
+      },
+      "stavke": [
+        [
+          "brat",
+          "masculine"
+        ],
+        [
+          "tata",
+          "masculine"
+        ],
+        [
+          "balkon",
+          "masculine"
+        ],
+        [
+          "nos",
+          "masculine"
+        ],
+        [
+          "stol",
+          "masculine"
+        ],
+        [
+          "glumac",
+          "masculine"
+        ],
+        [
+          "sestra",
+          "feminine"
+        ],
+        [
+          "stolica",
+          "feminine"
+        ],
+        [
+          "djevojka",
+          "feminine"
+        ],
+        [
+          "soba",
+          "feminine"
+        ],
+        [
+          "riba",
+          "feminine"
+        ],
+        [
+          "njuška",
+          "feminine"
+        ],
+        [
+          "dijete",
+          "neuter"
+        ],
+        [
+          "djetinjstvo",
+          "neuter"
+        ],
+        [
+          "oko",
+          "neuter"
+        ],
+        [
+          "sunce",
+          "neuter"
+        ]
+      ],
+      "sortkljuc": 402007,
+      "bodovi": 303
+    },
+    {
+      "cjelina": "Vocabulary 4",
+      "cjelinanaslov": "The Family & Connectors",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Verbs as infinitives again, and the diacritics count: *žena* and *živjeti* start with **ž**, *čovjek* starts with **č**, and *voljeti* has **lj** as one letter.",
+        "infokratko": "Mixed final round. Verbs as infinitives. Diacritics count: *žena, živjeti* **ž**, *čovjek* **č**, *voljeti* **lj**.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "grandma",
+          "baka"
+        ],
+        [
+          "person",
+          "čovjek"
+        ],
+        [
+          "wife",
+          "žena"
+        ],
+        [
+          "dog",
+          "pas"
+        ],
+        [
+          "to live",
+          "živjeti"
+        ],
+        [
+          "guest",
+          "gost"
+        ],
+        [
+          "to love",
+          "voljeti"
+        ],
+        [
+          "hungry",
+          "gladan"
+        ],
+        [
           "together",
           "zajedno"
         ],
         [
+          "brave",
+          "hrabar"
+        ],
+        [
           "here",
           "ovdje"
+        ],
+        [
+          "sweet",
+          "sladak"
         ]
       ],
-      "sortkljuc": 402014,
-      "bodovi": 210
+      "sortkljuc": 402008,
+      "bodovi": 333
     },
     {
       "cjelina": "Grammar 4",
@@ -27674,30 +26555,14 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Feminine food — the ones that change",
       "meta": {
-        "info": "Flashcards learned as pairs. The left form names the thing, the right form is what you say after a verb that acts on it: *jagoda → jedem jagod**u***. Only the last letter differs, so store the pair as one item.",
-        "infokratko": "Learn in pairs: name and target. *jagoda → jedem jagodu*.",
-        "opis": "Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it or buy it. Learn each one as a pair."
+        "info": "Flashcards learned as pairs. The left form names the thing, the right form is what you say after a verb that acts on it: *jagoda → jedem jagod**u***. Only the last letter differs, so store the pair as one item. The same goes for the shop words at the end: *Idem u trgovin**u***, *Trebam vrećic**u***.",
+        "infokratko": "Learn in pairs: name and target. *jagoda → jedem jagodu*, *trgovina → idem u trgovinu*.",
+        "opis": "Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it, buy it or go into it. Read the English, say the pair aloud, then flip to check. Tap + to save a word to your dictionary."
       },
       "stavke": [
         [
-          "kava → kavu",
-          "coffee"
-        ],
-        [
           "voda → vodu",
           "water"
-        ],
-        [
-          "jabuka → jabuku",
-          "apple"
-        ],
-        [
-          "banana → bananu",
-          "banana"
-        ],
-        [
-          "čokolada → čokoladu",
-          "chocolate"
         ],
         [
           "juha → juhu",
@@ -27708,16 +26573,8 @@ window.PODACI = {
           "salad, lettuce"
         ],
         [
-          "riba → ribu",
-          "fish"
-        ],
-        [
           "pita → pitu",
           "pie"
-        ],
-        [
-          "torta → tortu",
-          "cake"
         ],
         [
           "jagoda → jagodu",
@@ -27746,10 +26603,38 @@ window.PODACI = {
         [
           "riža → rižu",
           "rice"
+        ],
+        [
+          "tržnica → tržnicu",
+          "market"
+        ],
+        [
+          "trgovina → trgovinu",
+          "shop, store"
+        ],
+        [
+          "pekara → pekaru",
+          "bakery"
+        ],
+        [
+          "vrećica → vrećicu",
+          "bag"
+        ],
+        [
+          "boca → bocu",
+          "bottle"
+        ],
+        [
+          "cijena → cijenu",
+          "price"
+        ],
+        [
+          "kutija → kutiju",
+          "box"
         ]
       ],
       "sortkljuc": 502001,
-      "bodovi": 154
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 5",
@@ -27759,23 +26644,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "The quiet ones — no change at all",
       "meta": {
-        "info": "Flashcards for nouns that end in a consonant or in *-o* or *-e*. They look the same whether they name or are the target: *Sir je dobar* and *Jedem sir*. There is no ending to add here, only the meaning to learn.",
-        "infokratko": "Consonant or *-o/-e*: same as name or target. *Sir je dobar. Jedem sir.*",
-        "opis": "These don't end in -a, so nothing happens to them. *Pijem sok. Jedem kruh.* You have been using this group since Lesson 3 without noticing it was a case at all."
+        "info": "Flashcards for nouns that end in a consonant or in *-o* or *-e*. They look the same whether they name or are the target: *Šećer je u kutiji* and *Trebam šećer*. There is no ending to add here, only the meaning to learn. *dućan*, *kafić*, *račun* and *novac* belong here too.",
+        "infokratko": "Consonant or *-o/-e*: same as name or target. *Trebam šećer. Plaćam račun.*",
+        "opis": "These don't end in -a, so nothing happens to them. *Jedem meso. Pijem mlijeko. Plaćam račun.* **dućan** and **trgovina** are both a shop, and Croatians use them interchangeably."
       },
       "stavke": [
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sir",
-          "cheese"
-        ],
-        [
-          "sok",
-          "juice"
-        ],
         [
           "šećer",
           "sugar"
@@ -27791,10 +26664,6 @@ window.PODACI = {
         [
           "krumpir",
           "potato"
-        ],
-        [
-          "sladoled",
-          "ice cream"
         ],
         [
           "kolač",
@@ -27825,55 +26694,6 @@ window.PODACI = {
           "fruit"
         ],
         [
-          "vino",
-          "wine"
-        ]
-      ],
-      "sortkljuc": 502002,
-      "bodovi": 154
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Shopping",
-      "meta": {
-        "info": "Places, containers and money. The **-a** words behave like every feminine noun — *Idem u trgovin**u***, *Trebam vrećic**u*** — while *dućan*, *kafić*, *račun* and *novac* end in a consonant and stay the same as targets.",
-        "infokratko": "**-a** words take **-u**: *u trgovinu, vrećicu*. *dućan, kafić, račun, novac* stay.",
-        "opis": "Where you buy it, what you carry it in, what you pay. **tržnica** is the open-air farmers' market; **trgovina** and **dućan** are both a shop, and Croatians use them interchangeably."
-      },
-      "stavke": [
-        [
-          "tržnica → tržnicu",
-          "market"
-        ],
-        [
-          "trgovina → trgovinu",
-          "shop, store"
-        ],
-        [
-          "pekara → pekaru",
-          "bakery"
-        ],
-        [
-          "vrećica → vrećicu",
-          "bag"
-        ],
-        [
-          "boca → bocu",
-          "bottle"
-        ],
-        [
-          "cijena → cijenu",
-          "price"
-        ],
-        [
-          "kutija → kutiju",
-          "box"
-        ],
-        [
           "dućan",
           "shop, store"
         ],
@@ -27890,20 +26710,20 @@ window.PODACI = {
           "money"
         ]
       ],
-      "sortkljuc": 502003,
-      "bodovi": 120
+      "sortkljuc": 502002,
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 5",
       "cjelinanaslov": "Shopping & Food",
-      "stranica": 4,
+      "stranica": 3,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Ten new verbs",
       "meta": {
-        "info": "Ten verbs with their present-tense forms. Eight of them take a target, so a feminine noun after it ends in **-u**: *Kupujem jabuk**u***, *Tražim rib**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ.",
-        "infokratko": "Feminine target **-u**: *Kupujem jabuku*. *kupovati → kupujem*.",
-        "opis": "Eight of them take a target — *ići* and *koštati* do not — and if that target is feminine, it ends in **-u**. *Kupujem jabuku. Plaćam kavu. Tražim ribu.*"
+        "info": "Ten verbs with their present-tense forms, then the words you need at the counter. Eight verbs take a target, so a feminine noun after them ends in **-u**: *Kupujem krušk**u***, *Tražim vrećic**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ. The adjectives come in both shapes (*svjež / svježa*) because they agree with their noun: *svježa riba*, but *svjež kruh*.",
+        "infokratko": "Feminine target **-u**: *Kupujem krušku*. *kupovati → kupujem*. Adjectives agree: *svjež / svježa*.",
+        "opis": "Eight of the verbs take a target — *ići* and *koštati* do not. *Izvolite?* is the single most useful word in a Croatian shop: it means both \"How can I help you?\" and \"Here you are.\""
       },
       "stavke": [
         [
@@ -27945,24 +26765,7 @@ window.PODACI = {
         [
           "koštati → košta",
           "to cost"
-        ]
-      ],
-      "sortkljuc": 502004,
-      "bodovi": 103
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "At the counter",
-      "meta": {
-        "info": "Counter phrases plus describing words. The adjectives come in both shapes (*svjež / svježa*) because they must agree with their noun: *svježa riba*, but *svjež kruh*.",
-        "infokratko": "Adjectives agree: *svježa riba*, *svjež kruh*.",
-        "opis": "The words that make you sound like you have done this before. *Izvolite?* is the single most useful word in a Croatian shop — it means both \"How can I help you?\" and \"Here you are.\""
-      },
-      "stavke": [
+        ],
         [
           "Izvolite?",
           "How can I help you? / Here you are."
@@ -27970,14 +26773,6 @@ window.PODACI = {
         [
           "molim",
           "please"
-        ],
-        [
-          "hvala",
-          "thank you"
-        ],
-        [
-          "Doviđenja!",
-          "Goodbye!"
         ],
         [
           "svjež / svježa",
@@ -27992,20 +26787,8 @@ window.PODACI = {
           "cheap"
         ],
         [
-          "sladak / slatka",
-          "sweet"
-        ],
-        [
           "ukusan / ukusna",
           "tasty"
-        ],
-        [
-          "gladan / gladna",
-          "hungry"
-        ],
-        [
-          "žedan / žedna",
-          "thirsty"
         ],
         [
           "subota",
@@ -28020,563 +26803,25 @@ window.PODACI = {
           "one (feminine)"
         ]
       ],
-      "sortkljuc": 502005,
-      "bodovi": 154
+      "sortkljuc": 502003,
+      "bodovi": 267
     },
     {
       "cjelina": "Vocabulary 5",
       "cjelinanaslov": "Shopping & Food",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Does it change?",
-      "meta": {
-        "info": "Sorting by ending. Ends in **-a** → it becomes **-u** as the target of a verb. Anything else — a consonant, *-o*, *-e* — keeps the identical form, which is why *kruh* and *mlijeko* sit in the quiet column.",
-        "infokratko": "**-a** → **-u** as a target; everything else stays (*kruh, mlijeko*).",
-        "stupci": "MIJENJA SE (-a → -u) | OSTAJE ISTO",
-        "opis": "The single most useful sort on this level. Ends in **-a** → it changes. Anything else → it stays exactly as it is."
-      },
-      "stavke": [
-        [
-          "kava",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "jabuka",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "juha",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "riba",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "torta",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "kruška",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "rajčica",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "vrećica",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "boca",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "riža",
-          "MIJENJA SE (-a → -u)"
-        ],
-        [
-          "kruh",
-          "OSTAJE ISTO"
-        ],
-        [
-          "sir",
-          "OSTAJE ISTO"
-        ],
-        [
-          "sok",
-          "OSTAJE ISTO"
-        ],
-        [
-          "limun",
-          "OSTAJE ISTO"
-        ],
-        [
-          "krumpir",
-          "OSTAJE ISTO"
-        ],
-        [
-          "sladoled",
-          "OSTAJE ISTO"
-        ],
-        [
-          "jaje",
-          "OSTAJE ISTO"
-        ],
-        [
-          "meso",
-          "OSTAJE ISTO"
-        ],
-        [
-          "mlijeko",
-          "OSTAJE ISTO"
-        ],
-        [
-          "voće",
-          "OSTAJE ISTO"
-        ],
-        [
-          "vino",
-          "OSTAJE ISTO"
-        ],
-        [
-          "kolač",
-          "OSTAJE ISTO"
-        ]
-      ],
-      "sortkljuc": 502006,
-      "bodovi": 189
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which family?",
-      "meta": {
-        "info": "Sorting verbs into the three present-tense families from Lesson 3, judged by the ja-form: **-am** (*trebam*), **-im** (*tražim*), **-em** (*kupujem*). The infinitive can mislead — *kupovati* and *prodavati* are both -em verbs.",
-        "infokratko": "By the *ja* form: *trebam* **-am**, *tražim* **-im**, *kupujem* **-em**.",
-        "stupci": "-AM | -IM | -EM",
-        "opis": "The three verb families from Lesson 3, now with the shopping verbs. Note *prodavati* and *kupovati*: the infinitive says -ova-, the ja-form says -uje-."
-      },
-      "stavke": [
-        [
-          "trebati",
-          "-AM"
-        ],
-        [
-          "plaćati",
-          "-AM"
-        ],
-        [
-          "uzimati",
-          "-AM"
-        ],
-        [
-          "birati",
-          "-AM"
-        ],
-        [
-          "koštati",
-          "-AM"
-        ],
-        [
-          "tražiti",
-          "-IM"
-        ],
-        [
-          "nositi",
-          "-IM"
-        ],
-        [
-          "kupovati",
-          "-EM"
-        ],
-        [
-          "prodavati",
-          "-EM"
-        ],
-        [
-          "ići",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 502007,
-      "bodovi": 137
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 8,
+      "stranica": 4,
       "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
       "meta": {
-        "info": "Picture-to-word matching, all in the naming form. That is why the feminine ones end in **-a** here; the **-u** appears only once a verb acts on them, as in *Kupujem jabuk**u***.",
+        "info": "Picture-to-word matching, all in the naming form. That is why the feminine ones end in **-a** here; the **-u** appears only once a verb acts on them, as in *Kupujem krušk**u***.",
         "infokratko": "Naming forms here; **-u** only after a verb.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
-          "jabuka",
-          "apple"
-        ],
-        [
-          "banana",
-          "banana"
-        ],
-        [
-          "kruška",
-          "pear"
-        ],
-        [
-          "naranča",
-          "orange"
-        ],
-        [
-          "rajčica",
-          "tomato"
-        ],
-        [
-          "riba",
-          "fish"
-        ],
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sok",
-          "juice"
-        ],
-        [
-          "mlijeko",
-          "milk"
-        ],
-        [
-          "jaje",
-          "egg"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "torta",
-          "cake"
-        ]
-      ],
-      "sortkljuc": 502008,
-      "bodovi": 137
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Croatian-to-English pairs, every word in its naming form. Use the ending as a free clue: **-a** means feminine, which means this word will end in **-u** the moment you buy, eat or need it.",
-        "infokratko": "Naming forms. **-a** = feminine = **-u** as a target.",
-        "opis": "Match each market word with its English meaning."
-      },
-      "stavke": [
-        [
-          "voda",
-          "water"
-        ],
-        [
-          "jabuka",
-          "apple"
-        ],
-        [
-          "juha",
-          "soup"
-        ],
-        [
-          "salata",
-          "salad"
-        ],
-        [
-          "riba",
-          "fish"
-        ],
-        [
-          "pita",
-          "pie"
-        ],
-        [
-          "torta",
-          "cake"
-        ],
-        [
           "jagoda",
           "strawberry"
-        ],
-        [
-          "breskva",
-          "peach"
-        ],
-        [
-          "kruška",
-          "pear"
-        ],
-        [
-          "naranča",
-          "orange"
-        ],
-        [
-          "rajčica",
-          "tomato"
-        ],
-        [
-          "tržnica",
-          "market"
-        ],
-        [
-          "trgovina",
-          "shop"
-        ],
-        [
-          "pekara",
-          "bakery"
-        ],
-        [
-          "boca",
-          "bottle"
-        ],
-        [
-          "cijena",
-          "price"
-        ],
-        [
-          "račun",
-          "bill"
-        ]
-      ],
-      "sortkljuc": 502009,
-      "bodovi": 154
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A flip-and-find game mixing verbs with nouns. The verbs are all ja-forms (*kupujem*, *tražim*, *nosim*), so each one is ready to take a target — and when that target ends in **-a**, the **-a** becomes **-u**.",
-        "infokratko": "*ja* forms ready for a target: *kupujem jabuku*.",
-        "opis": "Flip the cards and find the pairs — the shopping edition."
-      },
-      "stavke": [
-        [
-          "kupujem",
-          "I buy"
-        ],
-        [
-          "trebam",
-          "I need"
-        ],
-        [
-          "plaćam",
-          "I pay"
-        ],
-        [
-          "tražim",
-          "I look for"
-        ],
-        [
-          "biram",
-          "I choose"
-        ],
-        [
-          "nosim",
-          "I carry"
-        ],
-        [
-          "idem",
-          "I go"
-        ],
-        [
-          "vrećica",
-          "bag"
-        ],
-        [
-          "boca",
-          "bottle"
-        ],
-        [
-          "račun",
-          "bill"
-        ]
-      ],
-      "sortkljuc": 502010,
-      "bodovi": 154
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: naming → target",
-      "meta": {
-        "info": "A timed swap from the naming form to the target form. One letter, always the last: *breskva → breskv**u***, *kutija → kutij**u***. Do not rebuild the word, just replace that final -a.",
-        "infokratko": "Only the last letter: *breskva → breskvu*.",
-        "trajanje": "60",
-        "opis": "A word flashes in its naming form — tap the target form before it disappears."
-      },
-      "stavke": [
-        [
-          "kava",
-          "kavu"
-        ],
-        [
-          "voda",
-          "vodu"
-        ],
-        [
-          "jabuka",
-          "jabuku"
-        ],
-        [
-          "banana",
-          "bananu"
-        ],
-        [
-          "čokolada",
-          "čokoladu"
-        ],
-        [
-          "juha",
-          "juhu"
-        ],
-        [
-          "salata",
-          "salatu"
-        ],
-        [
-          "riba",
-          "ribu"
-        ],
-        [
-          "pita",
-          "pitu"
-        ],
-        [
-          "torta",
-          "tortu"
-        ],
-        [
-          "jagoda",
-          "jagodu"
-        ],
-        [
-          "breskva",
-          "breskvu"
-        ],
-        [
-          "kruška",
-          "krušku"
-        ],
-        [
-          "naranča",
-          "naranču"
-        ],
-        [
-          "rajčica",
-          "rajčicu"
-        ],
-        [
-          "mrkva",
-          "mrkvu"
-        ],
-        [
-          "riža",
-          "rižu"
-        ],
-        [
-          "tržnica",
-          "tržnicu"
-        ],
-        [
-          "trgovina",
-          "trgovinu"
-        ],
-        [
-          "vrećica",
-          "vrećicu"
-        ],
-        [
-          "boca",
-          "bocu"
-        ],
-        [
-          "kutija",
-          "kutiju"
-        ]
-      ],
-      "sortkljuc": 502011,
-      "bodovi": 154
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what is it?",
-      "meta": {
-        "info": "A timed meaning sprint with no endings to change. Read the ending anyway as a hint: *-a* words are feminine and will take **-u** as targets, while *jaje*, *meso* and *vino* stay as they are.",
-        "infokratko": "Meaning only. **-a** words will take **-u**; *jaje, meso, vino* don't.",
-        "trajanje": "60",
-        "opis": "Food sprint — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sir",
-          "cheese"
-        ],
-        [
-          "šećer",
-          "sugar"
-        ],
-        [
-          "luk",
-          "onion"
-        ],
-        [
-          "grah",
-          "beans"
-        ],
-        [
-          "krumpir",
-          "potato"
-        ],
-        [
-          "limun",
-          "lemon"
-        ],
-        [
-          "jaje",
-          "egg"
-        ],
-        [
-          "meso",
-          "meat"
-        ],
-        [
-          "mlijeko",
-          "milk"
-        ],
-        [
-          "povrće",
-          "vegetables"
-        ],
-        [
-          "voće",
-          "fruit"
-        ],
-        [
-          "vino",
-          "wine"
-        ],
-        [
-          "jagoda",
-          "strawberry"
-        ],
-        [
-          "breskva",
-          "peach"
         ],
         [
           "kruška",
@@ -28595,267 +26840,77 @@ window.PODACI = {
           "carrot"
         ],
         [
-          "riža",
-          "rice"
+          "juha",
+          "soup"
         ],
         [
-          "boca",
-          "bottle"
+          "jaje",
+          "egg"
         ],
         [
-          "cijena",
-          "price"
+          "mlijeko",
+          "milk"
         ],
         [
-          "račun",
-          "bill"
+          "krumpir",
+          "potato"
         ],
         [
-          "novac",
-          "money"
+          "limun",
+          "lemon"
         ],
         [
           "pekara",
           "bakery"
-        ]
-      ],
-      "sortkljuc": 502012,
-      "bodovi": 154
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Croatian writes one letter per sound, so if you can say it you can spell it — but **č, ć, š, ž, đ** are separate letters, and *vrećica* or *tržnica* is simply wrong without them.",
-        "infokratko": "**č, ć, š, ž, đ** are letters: *vrećica, tržnica*.",
-        "opis": "Croatian is written exactly as it sounds — so if you can say it, you can spell it. Watch the diacritics: **č, ć, š, ž, đ** are all separate letters."
-      },
-      "stavke": [
-        [
-          "čokolada",
-          "chocolate"
-        ],
-        [
-          "kruška",
-          "pear"
-        ],
-        [
-          "rajčica",
-          "tomato"
-        ],
-        [
-          "naranča",
-          "orange"
-        ],
-        [
-          "breskva",
-          "peach"
-        ],
-        [
-          "povrće",
-          "vegetables"
-        ],
-        [
-          "šećer",
-          "sugar"
-        ],
-        [
-          "grožđe",
-          "grapes"
         ],
         [
           "vrećica",
           "bag"
-        ],
-        [
-          "tržnica",
-          "market"
         ]
       ],
-      "sortkljuc": 502013,
-      "bodovi": 189
+      "sortkljuc": 502004,
+      "bodovi": 237
     },
     {
       "cjelina": "Vocabulary 5",
       "cjelinanaslov": "Shopping & Food",
-      "stranica": 14,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the target form",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Typed production of the target form. Take the naming form, drop the final **-a**, add **-u**: *pekara → pekar**u***, *cijena → cijen**u***. Everything else in the word, diacritics included, stays untouched.",
-        "infokratko": "Drop **-a**, add **-u**: *pekara → pekaru*.",
-        "opis": "You get the naming form — type the form you would use after *kupujem*, *jedem* or *pijem*."
+        "info": "You write each new word once, from its English meaning, in the naming form: *voda*, not *vodu*. Verbs are wanted as infinitives, ending in **-ti**: *kupovati*, not *kupujem*. The diacritics are full letters: *tržnica* has **ž**, *šećer* has **š** and **ć**, *povrće* has **ć**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once. Naming forms (*voda*), verbs as infinitives (*kupovati*). Diacritics count: *tržnica, šećer, povrće*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "kava →",
-          "kavu"
-        ],
-        [
-          "voda →",
-          "vodu"
-        ],
-        [
-          "jabuka →",
-          "jabuku"
-        ],
-        [
-          "banana →",
-          "bananu"
-        ],
-        [
-          "čokolada →",
-          "čokoladu"
-        ],
-        [
-          "juha →",
-          "juhu"
-        ],
-        [
-          "salata →",
-          "salatu"
-        ],
-        [
-          "riba →",
-          "ribu"
-        ],
-        [
-          "pita →",
-          "pitu"
-        ],
-        [
-          "torta →",
-          "tortu"
-        ],
-        [
-          "jagoda →",
-          "jagodu"
-        ],
-        [
-          "breskva →",
-          "breskvu"
-        ],
-        [
-          "kruška →",
-          "krušku"
-        ],
-        [
-          "naranča →",
-          "naranču"
-        ],
-        [
-          "rajčica →",
-          "rajčicu"
-        ],
-        [
-          "mrkva →",
-          "mrkvu"
-        ],
-        [
-          "riža →",
-          "rižu"
-        ],
-        [
-          "vrećica →",
-          "vrećicu"
-        ],
-        [
-          "boca →",
-          "bocu"
-        ],
-        [
-          "cijena →",
-          "cijenu"
-        ],
-        [
-          "kutija →",
-          "kutiju"
-        ],
-        [
-          "tržnica →",
-          "tržnicu"
-        ],
-        [
-          "trgovina →",
-          "trgovinu"
-        ],
-        [
-          "pekara →",
-          "pekaru"
-        ]
-      ],
-      "sortkljuc": 502014,
-      "bodovi": 224
-    },
-    {
-      "cjelina": "Vocabulary 5",
-      "cjelinanaslov": "Shopping & Food",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "Recall in the other direction — English in, Croatian out, in the naming form. So feminine words end in **-a** here (*jabuka*, not *jabuku*), and the verbs are wanted as infinitives such as *kupovati*.",
-        "infokratko": "Naming forms (*jabuka*), verbs as infinitives (*kupovati*).",
-        "opis": "The final round — type each word in Croatian, in its naming form."
-      },
-      "stavke": [
-        [
-          "apple",
-          "jabuka"
-        ],
-        [
-          "pear",
-          "kruška"
-        ],
-        [
-          "peach",
-          "breskva"
-        ],
-        [
-          "strawberry",
-          "jagoda"
-        ],
-        [
-          "orange",
-          "naranča"
-        ],
-        [
-          "tomato",
-          "rajčica"
-        ],
-        [
-          "carrot",
-          "mrkva"
-        ],
-        [
-          "fish",
-          "riba"
-        ],
-        [
-          "soup",
-          "juha"
+          "water",
+          "voda"
         ],
         [
           "salad",
           "salata"
         ],
         [
-          "cake",
-          "torta"
+          "peach",
+          "breskva"
         ],
         [
-          "bread",
-          "kruh"
+          "rice",
+          "riža"
         ],
         [
-          "cheese",
-          "sir"
+          "market",
+          "tržnica"
+        ],
+        [
+          "bottle",
+          "boca"
+        ],
+        [
+          "price",
+          "cijena"
         ],
         [
           "sugar",
@@ -28866,56 +26921,12 @@ window.PODACI = {
           "luk"
         ],
         [
-          "potato",
-          "krumpir"
-        ],
-        [
-          "egg",
-          "jaje"
-        ],
-        [
           "meat",
           "meso"
         ],
         [
-          "milk",
-          "mlijeko"
-        ],
-        [
-          "fruit",
-          "voće"
-        ],
-        [
           "vegetables",
           "povrće"
-        ],
-        [
-          "market",
-          "tržnica"
-        ],
-        [
-          "shop",
-          "trgovina"
-        ],
-        [
-          "bakery",
-          "pekara"
-        ],
-        [
-          "bottle",
-          "boca"
-        ],
-        [
-          "bag",
-          "vrećica"
-        ],
-        [
-          "price",
-          "cijena"
-        ],
-        [
-          "bill",
-          "račun"
         ],
         [
           "money",
@@ -28926,24 +26937,261 @@ window.PODACI = {
           "kupovati"
         ],
         [
-          "to pay",
-          "plaćati"
+          "to sell",
+          "prodavati"
         ],
         [
-          "to look for",
-          "tražiti"
-        ],
-        [
-          "to choose",
-          "birati"
-        ],
-        [
-          "to carry",
-          "nositi"
+          "today",
+          "danas"
         ]
       ],
-      "sortkljuc": 502015,
-      "bodovi": 223
+      "sortkljuc": 502005,
+      "bodovi": 384
+    },
+    {
+      "cjelina": "Vocabulary 5",
+      "cjelinanaslov": "Shopping & Food",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–3, half and half. Two pairs to keep apart: *crtati* is to draw and *crtić* a cartoon; *čaj* is tea, while *kafić* is the café where you drink it.",
+        "infokratko": "New and old words against the clock. *crtati* to draw, *crtić* cartoon; *čaj* tea, *kafić* café.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "pita",
+          "pie"
+        ],
+        [
+          "cipela",
+          "shoe"
+        ],
+        [
+          "grah",
+          "beans"
+        ],
+        [
+          "topao",
+          "warm"
+        ],
+        [
+          "voće",
+          "fruit"
+        ],
+        [
+          "Hrvat",
+          "Croat"
+        ],
+        [
+          "dućan",
+          "shop"
+        ],
+        [
+          "crtati",
+          "to draw"
+        ],
+        [
+          "kafić",
+          "café"
+        ],
+        [
+          "velik",
+          "big"
+        ],
+        [
+          "račun",
+          "bill"
+        ],
+        [
+          "crtić",
+          "cartoon"
+        ],
+        [
+          "trebati",
+          "to need"
+        ],
+        [
+          "zelen",
+          "green"
+        ],
+        [
+          "nositi",
+          "to carry"
+        ],
+        [
+          "čaj",
+          "tea"
+        ],
+        [
+          "birati",
+          "to choose"
+        ],
+        [
+          "žut",
+          "yellow"
+        ],
+        [
+          "skup",
+          "expensive"
+        ],
+        [
+          "časopis",
+          "magazine"
+        ]
+      ],
+      "sortkljuc": 502006,
+      "bodovi": 267
+    },
+    {
+      "cjelina": "Vocabulary 5",
+      "cjelinanaslov": "Shopping & Food",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Does it change?",
+      "meta": {
+        "info": "Sorting by ending, with new words and old ones. Ends in **-a** → it becomes **-u** as the target of a verb: *čokolada → čokoladu*, *Hrvatska → u Hrvatsku*. Anything else — a consonant, *-o*, *-e* — keeps the identical form, which is why *šešir* and *drvo* sit in the quiet column.",
+        "infokratko": "**-a** → **-u** as a target; everything else stays (*šešir, drvo*).",
+        "stupci": "MIJENJA SE (-a → -u) | OSTAJE ISTO",
+        "opis": "The single most useful sort on this level. Ends in **-a** → it changes. Anything else → it stays exactly as it is."
+      },
+      "stavke": [
+        [
+          "juha",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "kruška",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "vrećica",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "cijena",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "čokolada",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "torta",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "Hrvatska",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "Hrvatica",
+          "MIJENJA SE (-a → -u)"
+        ],
+        [
+          "krumpir",
+          "OSTAJE ISTO"
+        ],
+        [
+          "mlijeko",
+          "OSTAJE ISTO"
+        ],
+        [
+          "limun",
+          "OSTAJE ISTO"
+        ],
+        [
+          "meso",
+          "OSTAJE ISTO"
+        ],
+        [
+          "drvo",
+          "OSTAJE ISTO"
+        ],
+        [
+          "ime",
+          "OSTAJE ISTO"
+        ],
+        [
+          "šešir",
+          "OSTAJE ISTO"
+        ],
+        [
+          "automobil",
+          "OSTAJE ISTO"
+        ]
+      ],
+      "sortkljuc": 502007,
+      "bodovi": 326
+    },
+    {
+      "cjelina": "Vocabulary 5",
+      "cjelinanaslov": "Shopping & Food",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones, all in the naming form: *naranča*, not *naranču*. Verbs as infinitives again, adjectives in the short form (*jeftin*, *bijel*). The diacritics count: *naranča* and *rajčica* have **č**, *kafić* and *ćevapi* have **ć**, and *često* starts with **č**.",
+        "infokratko": "Mixed final round. Naming forms, verbs as infinitives. Diacritics count: *naranča, kafić, ćevapi, često*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "orange",
+          "naranča"
+        ],
+        [
+          "grilled meat",
+          "ćevapi"
+        ],
+        [
+          "tomato",
+          "rajčica"
+        ],
+        [
+          "very",
+          "jako"
+        ],
+        [
+          "café",
+          "kafić"
+        ],
+        [
+          "often",
+          "često"
+        ],
+        [
+          "to go",
+          "ići"
+        ],
+        [
+          "white",
+          "bijel"
+        ],
+        [
+          "to take",
+          "uzimati"
+        ],
+        [
+          "to read",
+          "čitati"
+        ],
+        [
+          "cheap",
+          "jeftin"
+        ],
+        [
+          "cook",
+          "kuhar"
+        ]
+      ],
+      "sortkljuc": 502008,
+      "bodovi": 385
     },
     {
       "cjelina": "Grammar 5",
@@ -33644,70 +31892,26 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "People — the ones that change",
       "meta": {
-        "info": "Flashcards of living masculine nouns, each shown with its accusative. Because they are alive, every one adds **-a** (*vozač* to *vozača*); the *-ac* words drop a vowel first, so *kupac* becomes **kupca** and *pas* becomes **psa**.",
-        "infokratko": "Living masculine nouns add **-a**: *vozač → vozača*. *kupac → kupca*, *pas → psa*.",
-        "opis": "Living masculine nouns, each shown with its target form. Three of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**."
+        "info": "Flashcards of living masculine nouns, each shown with its target form. Because they are alive, every one adds **-a** (*učenik* to *učenika*, *konj* to *konja*); *kupac* drops a vowel first and becomes **kupca**. *osoba* is feminine, so it follows the Lesson 5 rule instead: **osobu**. The verbs below often take a person as their target (*Čekam poštara*, *Vidim dječaka*, *Zovem kupca*), and *Oprostite!* is the polite opener before you ask a stranger anything.",
+        "infokratko": "Living masculine nouns add **-a**: *učenik → učenika*. *kupac → kupca*. *osoba → osobu* (feminine).",
+        "opis": "Living masculine nouns, each shown with its target form, plus the city verbs that so often point at them. One of them squeezes a letter out on the way: **kupac → kupca**."
       },
       "stavke": [
         [
-          "čovjek → čovjeka",
-          "man, person"
-        ],
-        [
-          "prijatelj → prijatelja",
-          "friend"
-        ],
-        [
-          "konobar → konobara",
-          "waiter"
-        ],
-        [
-          "policajac → policajca",
-          "police officer"
-        ],
-        [
-          "turist → turista",
-          "tourist"
-        ],
-        [
-          "susjed → susjeda",
-          "neighbour"
-        ],
-        [
-          "doktor → doktora",
-          "doctor"
-        ],
-        [
-          "student → studenta",
-          "student"
-        ],
-        [
           "učenik → učenika",
           "pupil"
-        ],
-        [
-          "vozač → vozača",
-          "driver"
-        ],
-        [
-          "poštar → poštara",
-          "postman"
         ],
         [
           "dječak → dječaka",
           "boy"
         ],
         [
-          "gospodin → gospodina",
-          "gentleman, Mr"
+          "poštar → poštara",
+          "postman"
         ],
         [
           "kupac → kupca",
           "customer"
-        ],
-        [
-          "pas → psa",
-          "dog"
         ],
         [
           "konj → konja",
@@ -33716,10 +31920,54 @@ window.PODACI = {
         [
           "golub → goluba",
           "pigeon"
+        ],
+        [
+          "osoba → osobu",
+          "person"
+        ],
+        [
+          "vidjeti → vidim, vidiš, vidi",
+          "to see"
+        ],
+        [
+          "čuti → čujem, čuješ, čuje",
+          "to hear"
+        ],
+        [
+          "zvati → zovem, zoveš, zove",
+          "to call"
+        ],
+        [
+          "voziti → vozim, voziš, vozi",
+          "to drive"
+        ],
+        [
+          "pričati → pričam, pričaš, priča",
+          "to chat, to talk"
+        ],
+        [
+          "fotografirati → fotografiram, fotografiraš, fotografira",
+          "to photograph"
+        ],
+        [
+          "ulaziti → ulazim, ulaziš, ulazi",
+          "to enter, to get on"
+        ],
+        [
+          "prelaziti → prelazim, prelaziš, prelazi",
+          "to cross"
+        ],
+        [
+          "žuriti → žurim, žuriš, žuri",
+          "to hurry"
+        ],
+        [
+          "Oprostite!",
+          "Excuse me!"
         ]
       ],
       "sortkljuc": 602001,
-      "bodovi": 178
+      "bodovi": 307
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33729,9 +31977,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Transport — nothing changes",
       "meta": {
-        "info": "Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Čekam vlak*, *Vozim bicikl*. Only *karta* moves, and only because it ends in **-a** (the Lesson 5 rule), giving *kartu*.",
-        "infokratko": "Vehicles are things, no change: *Čekam vlak*. *karta → kartu* (feminine).",
-        "opis": "Vehicles are things, so they never move an inch in the accusative. *Čekam tramvaj. Vidim autobus.* Only **karta** shifts, and only because it ends in -a."
+        "info": "Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Vozim bicikl*, *Vidim tramvaj*. The same goes for *kat*, *ključ* and *broj*. Only *karta* and *glazba* move, and only because they end in **-a** (the Lesson 5 rule): *kartu*, *glazbu*. The adjective *pun* agrees with its noun: *pun autobus*, *puna ulica*.",
+        "infokratko": "Vehicles and other things, no change: *Vozim bicikl*. **-a** words → **-u**: *kartu, glazbu*. *pun / puna* agrees.",
+        "opis": "Vehicles are things, so they never move an inch as a target. *Vozim bicikl. Vidim tramvaj.* Only **karta** and **glazba** shift, and only because they end in -a. *Sretan put!* sends someone off on a journey."
       },
       "stavke": [
         [
@@ -33745,10 +31993,6 @@ window.PODACI = {
         [
           "auto",
           "car"
-        ],
-        [
-          "taksi",
-          "taxi"
         ],
         [
           "vlak",
@@ -33785,10 +32029,42 @@ window.PODACI = {
         [
           "promet",
           "traffic"
+        ],
+        [
+          "Sretan put!",
+          "Have a good trip!"
+        ],
+        [
+          "kat",
+          "floor, level"
+        ],
+        [
+          "ključ",
+          "key"
+        ],
+        [
+          "broj",
+          "number"
+        ],
+        [
+          "glazba → glazbu",
+          "music"
+        ],
+        [
+          "pun / puna",
+          "full"
+        ],
+        [
+          "blizu",
+          "near, nearby"
+        ],
+        [
+          "sad",
+          "now"
         ]
       ],
       "sortkljuc": 602002,
-      "bodovi": 160
+      "bodovi": 307
     },
     {
       "cjelina": "Vocabulary 6",
@@ -33803,10 +32079,6 @@ window.PODACI = {
         "opis": "Your map of a Croatian town. Watch which ones end in **-a** — those still follow the Lesson 5 rule."
       },
       "stavke": [
-        [
-          "grad",
-          "city"
-        ],
         [
           "ulica → ulicu",
           "street"
@@ -33889,300 +32161,18 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 602003,
-      "bodovi": 178
+      "bodovi": 307
     },
     {
       "cjelina": "Vocabulary 6",
       "cjelinanaslov": "The City & Traffic",
       "stranica": 4,
       "broj": 9999,
-      "format": "kartice",
-      "naslov": "Ten new verbs",
-      "meta": {
-        "info": "Ten city verbs with their present forms. Notice which family each one belongs to, and notice that *čekati*, *vidjeti*, *čuti* and *zvati* often take a person as their target — that is exactly where today's **-a** shows up.",
-        "infokratko": "City verbs. *čekati, vidjeti, čuti, zvati* often take a person: that's where **-a** comes in.",
-        "opis": "City verbs. Four of them take a person as their target — and that's exactly where today's ending shows up."
-      },
-      "stavke": [
-        [
-          "čekati → čekam, čekaš, čeka",
-          "to wait for"
-        ],
-        [
-          "vidjeti → vidim, vidiš, vidi",
-          "to see"
-        ],
-        [
-          "čuti → čujem, čuješ, čuje",
-          "to hear"
-        ],
-        [
-          "zvati → zovem, zoveš, zove",
-          "to call"
-        ],
-        [
-          "voziti → vozim, voziš, vozi",
-          "to drive"
-        ],
-        [
-          "pričati → pričam, pričaš, priča",
-          "to chat, to talk"
-        ],
-        [
-          "fotografirati → fotografiram, fotografiraš, fotografira",
-          "to photograph"
-        ],
-        [
-          "ulaziti → ulazim, ulaziš, ulazi",
-          "to enter, to get on"
-        ],
-        [
-          "prelaziti → prelazim, prelaziš, prelazi",
-          "to cross"
-        ],
-        [
-          "žuriti → žurim, žuriš, žuri",
-          "to hurry"
-        ]
-      ],
-      "sortkljuc": 602004,
-      "bodovi": 124
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Around town",
-      "meta": {
-        "info": "Odds and ends of city vocabulary. The adjectives here still agree with their noun in gender (*pun grad*, *puna ulica*), and *Oprostite!* is the polite opener you use before asking a stranger anything at all.",
-        "infokratko": "Adjectives agree: *pun grad, puna ulica*. *Oprostite!* = excuse me.",
-        "opis": "The small change of city life — plus the one word that opens every conversation with a stranger."
-      },
-      "stavke": [
-        [
-          "kat",
-          "floor, level"
-        ],
-        [
-          "ključ",
-          "key"
-        ],
-        [
-          "broj",
-          "number"
-        ],
-        [
-          "glazba → glazbu",
-          "music"
-        ],
-        [
-          "osoba → osobu",
-          "person"
-        ],
-        [
-          "pun / puna",
-          "full"
-        ],
-        [
-          "brz / brza",
-          "fast"
-        ],
-        [
-          "blizu",
-          "near, nearby"
-        ],
-        [
-          "sad",
-          "now"
-        ],
-        [
-          "Oprostite!",
-          "Excuse me!"
-        ],
-        [
-          "Sretan put!",
-          "Have a good trip!"
-        ]
-      ],
-      "sortkljuc": 602005,
-      "bodovi": 142
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Does it change after \"vidim\"?",
-      "meta": {
-        "info": "A sort across the whole accusative singular. Exactly two groups change: feminine words in **-a** and masculine living beings. Everything else — things and neuters like *kino* and *gorivo* — stays precisely as it is.",
-        "infokratko": "Only two groups change: feminine **-a** and masculine living beings.",
-        "stupci": "MIJENJA SE | OSTAJE ISTO",
-        "opis": "The whole accusative map in one sort. Feminine -a and living masculines change; things and neuters don't."
-      },
-      "stavke": [
-        [
-          "čovjek",
-          "MIJENJA SE"
-        ],
-        [
-          "prijatelj",
-          "MIJENJA SE"
-        ],
-        [
-          "konobar",
-          "MIJENJA SE"
-        ],
-        [
-          "policajac",
-          "MIJENJA SE"
-        ],
-        [
-          "turist",
-          "MIJENJA SE"
-        ],
-        [
-          "doktor",
-          "MIJENJA SE"
-        ],
-        [
-          "pas",
-          "MIJENJA SE"
-        ],
-        [
-          "konj",
-          "MIJENJA SE"
-        ],
-        [
-          "ulica",
-          "MIJENJA SE"
-        ],
-        [
-          "stanica",
-          "MIJENJA SE"
-        ],
-        [
-          "banka",
-          "MIJENJA SE"
-        ],
-        [
-          "karta",
-          "MIJENJA SE"
-        ],
-        [
-          "tramvaj",
-          "OSTAJE ISTO"
-        ],
-        [
-          "autobus",
-          "OSTAJE ISTO"
-        ],
-        [
-          "vlak",
-          "OSTAJE ISTO"
-        ],
-        [
-          "bicikl",
-          "OSTAJE ISTO"
-        ],
-        [
-          "most",
-          "OSTAJE ISTO"
-        ],
-        [
-          "trg",
-          "OSTAJE ISTO"
-        ],
-        [
-          "semafor",
-          "OSTAJE ISTO"
-        ],
-        [
-          "spomenik",
-          "OSTAJE ISTO"
-        ],
-        [
-          "kino",
-          "OSTAJE ISTO"
-        ],
-        [
-          "gorivo",
-          "OSTAJE ISTO"
-        ]
-      ],
-      "sortkljuc": 602006,
-      "bodovi": 213
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which family?",
-      "meta": {
-        "info": "A revision sort of the three present-tense families. Judge by the *ja* form, not the infinitive: *čekati* gives *čekam*, *voziti* gives *vozim*, and *zvati* gives the reshaped *zovem*.",
-        "infokratko": "By the *ja* form: *čekam, vozim, zovem*.",
-        "stupci": "-AM | -IM | -EM",
-        "opis": "The three verb families again, now with the city verbs. *Zvati* and *čuti* both land in -EM, and both change their middle on the way."
-      },
-      "stavke": [
-        [
-          "čekati",
-          "-AM"
-        ],
-        [
-          "pričati",
-          "-AM"
-        ],
-        [
-          "fotografirati",
-          "-AM"
-        ],
-        [
-          "vidjeti",
-          "-IM"
-        ],
-        [
-          "voziti",
-          "-IM"
-        ],
-        [
-          "ulaziti",
-          "-IM"
-        ],
-        [
-          "prelaziti",
-          "-IM"
-        ],
-        [
-          "žuriti",
-          "-IM"
-        ],
-        [
-          "zvati",
-          "-EM"
-        ],
-        [
-          "čuti",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 602007,
-      "bodovi": 142
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 8,
-      "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
       "meta": {
-        "info": "Picture-to-word matching for the city set. Everything is in the naming form, so no endings appear here; think of *policajac* as the one card on the board that would turn into *policajca* the moment it became a target.",
-        "infokratko": "Naming forms. *policajac* would become *policajca* as a target.",
+        "info": "Picture-to-word matching for the city set. Everything is in the naming form, so no endings appear here; *konj* and *poštar* are the two cards on the board that would take **-a** the moment they became a target (*konja*, *poštara*).",
+        "infokratko": "Naming forms. *konj* and *poštar* would take **-a** as a target.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
@@ -34195,14 +32185,6 @@ window.PODACI = {
           "bus"
         ],
         [
-          "auto",
-          "car"
-        ],
-        [
-          "taksi",
-          "taxi"
-        ],
-        [
           "vlak",
           "train"
         ],
@@ -34231,614 +32213,34 @@ window.PODACI = {
           "museum"
         ],
         [
-          "policajac",
-          "police officer"
-        ]
-      ],
-      "sortkljuc": 602008,
-      "bodovi": 142
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Meaning pairs for the city vocabulary. Two near-twins are worth separating carefully: *stanica* is a stop for a tram or a bus, while *kolodvor* is a full train or coach station.",
-        "infokratko": "*stanica* = tram or bus stop; *kolodvor* = station.",
-        "opis": "Match each city word with its English meaning."
-      },
-      "stavke": [
-        [
-          "tramvaj",
-          "tram"
-        ],
-        [
-          "autobus",
-          "bus"
-        ],
-        [
-          "stanica",
-          "stop"
-        ],
-        [
-          "ulica",
-          "street"
-        ],
-        [
-          "promet",
-          "traffic"
-        ],
-        [
-          "most",
-          "bridge"
-        ],
-        [
-          "trg",
-          "square"
-        ],
-        [
-          "muzej",
-          "museum"
-        ],
-        [
-          "banka",
-          "bank"
-        ],
-        [
-          "bolnica",
-          "hospital"
-        ],
-        [
-          "knjižnica",
-          "library"
-        ],
-        [
-          "zgrada",
-          "building"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
           "semafor",
           "traffic light"
-        ],
-        [
-          "spomenik",
-          "monument"
-        ],
-        [
-          "ključ",
-          "key"
-        ],
-        [
-          "karta",
-          "ticket"
-        ],
-        [
-          "vozač",
-          "driver"
-        ]
-      ],
-      "sortkljuc": 602009,
-      "bodovi": 178
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A memory game pairing verb forms with their English. Most Croatian cards are *ja* forms, so the ending names the family: *-am* in *čekam*, *-im* in *vozim*, *-em* in *zovem*.",
-        "infokratko": "*ja* forms: *čekam* **-am**, *vozim* **-im**, *zovem* **-em**.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "čekam",
-          "I wait"
-        ],
-        [
-          "vidim",
-          "I see"
-        ],
-        [
-          "čujem",
-          "I hear"
-        ],
-        [
-          "zovem",
-          "I call"
-        ],
-        [
-          "vozim",
-          "I drive"
-        ],
-        [
-          "pričam",
-          "I chat"
-        ],
-        [
-          "žurim",
-          "I hurry"
-        ],
-        [
-          "ulazim",
-          "I get on"
-        ],
-        [
-          "konobar",
-          "waiter"
-        ],
-        [
-          "policajac",
-          "police officer"
-        ]
-      ],
-      "sortkljuc": 602010,
-      "bodovi": 178
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: naming → target",
-      "meta": {
-        "info": "Timed accusative for living beings, where the answer always ends in **-a**. Speed is what exposes the squeezers, so load them first: *policajac* to **policajca**, *kupac* to **kupca**, *pas* to **psa**.",
-        "infokratko": "Living beings, always **-a**. *policajca, kupca, psa*.",
-        "trajanje": "60",
-        "opis": "A person or animal flashes — tap the target form. Living beings take **-a**, and three of them squeeze."
-      },
-      "stavke": [
-        [
-          "čovjek",
-          "čovjeka"
-        ],
-        [
-          "prijatelj",
-          "prijatelja"
-        ],
-        [
-          "konobar",
-          "konobara"
-        ],
-        [
-          "policajac",
-          "policajca"
-        ],
-        [
-          "turist",
-          "turista"
-        ],
-        [
-          "susjed",
-          "susjeda"
-        ],
-        [
-          "doktor",
-          "doktora"
-        ],
-        [
-          "student",
-          "studenta"
-        ],
-        [
-          "učenik",
-          "učenika"
-        ],
-        [
-          "vozač",
-          "vozača"
-        ],
-        [
-          "poštar",
-          "poštara"
-        ],
-        [
-          "dječak",
-          "dječaka"
-        ],
-        [
-          "gospodin",
-          "gospodina"
-        ],
-        [
-          "kupac",
-          "kupca"
-        ],
-        [
-          "pas",
-          "psa"
-        ],
-        [
-          "konj",
-          "konja"
-        ],
-        [
-          "golub",
-          "goluba"
-        ]
-      ],
-      "sortkljuc": 602011,
-      "bodovi": 178
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what is it?",
-      "meta": {
-        "info": "A timed meaning sprint over the city words. No endings are involved, just recognition — though the gender is still worth registering, because a word in **-a** like *galerija* behaves differently once it becomes a target.",
-        "infokratko": "Meaning only. *galerija* (**-a**) will change as a target.",
-        "trajanje": "60",
-        "opis": "City sprint — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "tramvaj",
-          "tram"
-        ],
-        [
-          "autobus",
-          "bus"
-        ],
-        [
-          "vlak",
-          "train"
-        ],
-        [
-          "bicikl",
-          "bicycle"
-        ],
-        [
-          "brod",
-          "boat"
-        ],
-        [
-          "avion",
-          "airplane"
-        ],
-        [
-          "taksi",
-          "taxi"
-        ],
-        [
-          "karta",
-          "ticket"
-        ],
-        [
-          "benzin",
-          "gasoline"
-        ],
-        [
-          "gorivo",
-          "fuel"
-        ],
-        [
-          "promet",
-          "traffic"
-        ],
-        [
-          "grad",
-          "city"
-        ],
-        [
-          "ulica",
-          "street"
-        ],
-        [
-          "cesta",
-          "road"
-        ],
-        [
-          "trg",
-          "square"
-        ],
-        [
-          "most",
-          "bridge"
-        ],
-        [
-          "park",
-          "park"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "kiosk",
-          "kiosk"
-        ],
-        [
-          "muzej",
-          "museum"
-        ],
-        [
-          "galerija",
-          "gallery"
-        ],
-        [
-          "banka",
-          "bank"
-        ],
-        [
-          "bolnica",
-          "hospital"
-        ],
-        [
-          "knjižnica",
-          "library"
-        ],
-        [
-          "zgrada",
-          "building"
-        ],
-        [
-          "ured",
-          "office"
-        ],
-        [
-          "semafor",
-          "traffic light"
-        ],
-        [
-          "spomenik",
-          "monument"
-        ],
-        [
-          "kat",
-          "floor"
-        ],
-        [
-          "ključ",
-          "key"
-        ]
-      ],
-      "sortkljuc": 602012,
-      "bodovi": 178
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "You assemble each word letter by letter. Croatian counts **lj**, **nj** and **dž** as single letters, so *ključ*, *knjižnica* and *konj* need the one combined tile there, never a separate l and j.",
-        "infokratko": "**lj, nj, dž** are single tiles: *ključ, knjižnica, konj*.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
-      },
-      "stavke": [
-        [
-          "ključ",
-          "key"
-        ],
-        [
-          "knjižnica",
-          "library"
-        ],
-        [
-          "prijatelj",
-          "friend"
         ],
         [
           "konj",
           "horse"
         ],
         [
-          "čovjek",
-          "man"
-        ],
-        [
-          "vozač",
-          "driver"
-        ],
-        [
-          "učenik",
-          "pupil"
-        ],
-        [
           "poštar",
           "postman"
-        ],
-        [
-          "kazalište",
-          "theater"
-        ],
-        [
-          "galerija",
-          "gallery"
         ]
       ],
-      "sortkljuc": 602013,
-      "bodovi": 213
+      "sortkljuc": 602004,
+      "bodovi": 245
     },
     {
       "cjelina": "Vocabulary 6",
       "cjelinanaslov": "The City & Traffic",
-      "stranica": 14,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the target form",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Typing the accusative straight from the naming form. There are only three outcomes: a being adds **-a**, a thing is retyped unchanged, a feminine **-a** becomes **-u**. Mind *policajac* to *policajca* and *pas* to *psa*.",
-        "infokratko": "Being **-a**, thing unchanged, feminine **-u**. *policajca, psa*.",
-        "opis": "You get the naming form — type the form you would use after *vidim* or *čekam*. Careful with the three that squeeze."
+        "info": "You write each new word once, from its English meaning, in the naming form: *ulica*, not *ulicu*. Verbs are wanted as infinitives, ending in **-ti**: *vidjeti*, not *vidim*. The diacritics are full letters: *knjižnica* has **ž**, *ključ* has **č**, *čuti* and *žuriti* start with them. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once. Naming forms (*ulica*), verbs as infinitives (*vidjeti*). Diacritics count: *knjižnica, ključ, čuti*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
-        [
-          "čovjek →",
-          "čovjeka"
-        ],
-        [
-          "prijatelj →",
-          "prijatelja"
-        ],
-        [
-          "konobar →",
-          "konobara"
-        ],
-        [
-          "policajac →",
-          "policajca"
-        ],
-        [
-          "turist →",
-          "turista"
-        ],
-        [
-          "susjed →",
-          "susjeda"
-        ],
-        [
-          "doktor →",
-          "doktora"
-        ],
-        [
-          "student →",
-          "studenta"
-        ],
-        [
-          "učenik →",
-          "učenika"
-        ],
-        [
-          "vozač →",
-          "vozača"
-        ],
-        [
-          "poštar →",
-          "poštara"
-        ],
-        [
-          "dječak →",
-          "dječaka"
-        ],
-        [
-          "gospodin →",
-          "gospodina"
-        ],
-        [
-          "kupac →",
-          "kupca"
-        ],
-        [
-          "pas →",
-          "psa"
-        ],
-        [
-          "konj →",
-          "konja"
-        ],
-        [
-          "golub →",
-          "goluba"
-        ],
-        [
-          "tramvaj →",
-          "tramvaj"
-        ],
-        [
-          "autobus →",
-          "autobus"
-        ],
-        [
-          "most →",
-          "most"
-        ],
-        [
-          "ulica →",
-          "ulicu"
-        ],
-        [
-          "stanica →",
-          "stanicu"
-        ],
-        [
-          "banka →",
-          "banku"
-        ],
-        [
-          "karta →",
-          "kartu"
-        ]
-      ],
-      "sortkljuc": 602014,
-      "bodovi": 248
-    },
-    {
-      "cjelina": "Vocabulary 6",
-      "cjelinanaslov": "The City & Traffic",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English to Croatian typing, all in naming forms. Diacritics count as separate letters here, so *vozač*, *ključ* and *knjižnica* are only accepted with their marks properly in place.",
-        "infokratko": "Naming forms with diacritics: *vozač, ključ, knjižnica*.",
-        "opis": "The final round — type each word in Croatian, in its naming form."
-      },
-      "stavke": [
-        [
-          "tram",
-          "tramvaj"
-        ],
-        [
-          "bus",
-          "autobus"
-        ],
-        [
-          "train",
-          "vlak"
-        ],
-        [
-          "bicycle",
-          "bicikl"
-        ],
-        [
-          "boat",
-          "brod"
-        ],
-        [
-          "airplane",
-          "avion"
-        ],
-        [
-          "taxi",
-          "taksi"
-        ],
-        [
-          "ticket",
-          "karta"
-        ],
-        [
-          "gasoline",
-          "benzin"
-        ],
-        [
-          "fuel",
-          "gorivo"
-        ],
-        [
-          "traffic",
-          "promet"
-        ],
-        [
-          "city",
-          "grad"
-        ],
         [
           "street",
           "ulica"
@@ -34848,28 +32250,8 @@ window.PODACI = {
           "cesta"
         ],
         [
-          "square",
-          "trg"
-        ],
-        [
-          "bridge",
-          "most"
-        ],
-        [
           "station",
           "kolodvor"
-        ],
-        [
-          "stop",
-          "stanica"
-        ],
-        [
-          "museum",
-          "muzej"
-        ],
-        [
-          "gallery",
-          "galerija"
         ],
         [
           "bank",
@@ -34888,52 +32270,20 @@ window.PODACI = {
           "zgrada"
         ],
         [
-          "office",
-          "ured"
-        ],
-        [
-          "traffic light",
-          "semafor"
-        ],
-        [
           "monument",
           "spomenik"
+        ],
+        [
+          "ticket",
+          "karta"
         ],
         [
           "key",
           "ključ"
         ],
         [
-          "floor",
-          "kat"
-        ],
-        [
-          "waiter",
-          "konobar"
-        ],
-        [
-          "police officer",
-          "policajac"
-        ],
-        [
-          "tourist",
-          "turist"
-        ],
-        [
-          "driver",
-          "vozač"
-        ],
-        [
-          "postman",
-          "poštar"
-        ],
-        [
-          "pupil",
-          "učenik"
-        ],
-        [
-          "to wait for",
-          "čekati"
+          "customer",
+          "kupac"
         ],
         [
           "to see",
@@ -34944,24 +32294,261 @@ window.PODACI = {
           "čuti"
         ],
         [
-          "to call",
-          "zvati"
-        ],
-        [
           "to drive",
           "voziti"
-        ],
-        [
-          "to cross",
-          "prelaziti"
         ],
         [
           "to hurry",
           "žuriti"
         ]
       ],
-      "sortkljuc": 602015,
-      "bodovi": 248
+      "sortkljuc": 602005,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Vocabulary 6",
+      "cjelinanaslov": "The City & Traffic",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–3, half and half. Two pairs to keep apart: *pričati* is to chat, while *gledati* is to watch; *brz* means fast, while *pun* means full.",
+        "infokratko": "New and old words against the clock. *pričati* to chat, *gledati* to watch; *brz* fast, *pun* full.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "motor",
+          "motorbike"
+        ],
+        [
+          "brz",
+          "fast"
+        ],
+        [
+          "promet",
+          "traffic"
+        ],
+        [
+          "crn",
+          "black"
+        ],
+        [
+          "galerija",
+          "gallery"
+        ],
+        [
+          "ljut",
+          "angry"
+        ],
+        [
+          "tunel",
+          "tunnel"
+        ],
+        [
+          "e-mail",
+          "e-mail"
+        ],
+        [
+          "kvart",
+          "neighborhood"
+        ],
+        [
+          "crven",
+          "red"
+        ],
+        [
+          "pričati",
+          "to chat"
+        ],
+        [
+          "naravno",
+          "of course"
+        ],
+        [
+          "zvati",
+          "to call"
+        ],
+        [
+          "gledati",
+          "to watch"
+        ],
+        [
+          "prelaziti",
+          "to cross"
+        ],
+        [
+          "dan",
+          "day"
+        ],
+        [
+          "glazba",
+          "music"
+        ],
+        [
+          "dobar",
+          "good"
+        ],
+        [
+          "pun",
+          "full"
+        ],
+        [
+          "nizak",
+          "short"
+        ]
+      ],
+      "sortkljuc": 602006,
+      "bodovi": 307
+    },
+    {
+      "cjelina": "Vocabulary 6",
+      "cjelinanaslov": "The City & Traffic",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Does it change after \"vidim\"?",
+      "meta": {
+        "info": "A sort across the whole target form, with today's words and older ones. Exactly two groups change: feminine words in **-a** (*ulica → ulicu*, *baka → baku*) and masculine living beings (*brat → brata*, *Nijemac → Nijemca*). Everything else — things and neuters like *gorivo* and *uho* — stays precisely as it is.",
+        "infokratko": "Only two groups change: feminine **-a** and masculine living beings.",
+        "stupci": "MIJENJA SE | OSTAJE ISTO",
+        "opis": "The whole target-form map in one sort. Feminine -a and living masculines change; things and neuters don't."
+      },
+      "stavke": [
+        [
+          "učenik",
+          "MIJENJA SE"
+        ],
+        [
+          "golub",
+          "MIJENJA SE"
+        ],
+        [
+          "kupac",
+          "MIJENJA SE"
+        ],
+        [
+          "ulica",
+          "MIJENJA SE"
+        ],
+        [
+          "baka",
+          "MIJENJA SE"
+        ],
+        [
+          "zebra",
+          "MIJENJA SE"
+        ],
+        [
+          "brat",
+          "MIJENJA SE"
+        ],
+        [
+          "Nijemac",
+          "MIJENJA SE"
+        ],
+        [
+          "tramvaj",
+          "OSTAJE ISTO"
+        ],
+        [
+          "most",
+          "OSTAJE ISTO"
+        ],
+        [
+          "gorivo",
+          "OSTAJE ISTO"
+        ],
+        [
+          "semafor",
+          "OSTAJE ISTO"
+        ],
+        [
+          "uho",
+          "OSTAJE ISTO"
+        ],
+        [
+          "vino",
+          "OSTAJE ISTO"
+        ],
+        [
+          "balkon",
+          "OSTAJE ISTO"
+        ],
+        [
+          "doručak",
+          "OSTAJE ISTO"
+        ]
+      ],
+      "sortkljuc": 602007,
+      "bodovi": 368
+    },
+    {
+      "cjelina": "Vocabulary 6",
+      "cjelinanaslov": "The City & Traffic",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones, all in the naming form: *katedrala*, not *katedralu*. Verbs as infinitives again, adjectives in the short form (*ljubazan*). The diacritics count: *žaba* starts with **ž**, *džem* with **dž**, and *cijeli* is written with **ije**, just as it sounds.",
+        "infokratko": "Mixed final round. Naming forms, verbs as infinitives. Diacritics count: *žaba, džem*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "now",
+          "sad"
+        ],
+        [
+          "frog",
+          "žaba"
+        ],
+        [
+          "number",
+          "broj"
+        ],
+        [
+          "jam",
+          "džem"
+        ],
+        [
+          "cathedral",
+          "katedrala"
+        ],
+        [
+          "to speak",
+          "govoriti"
+        ],
+        [
+          "to photograph",
+          "fotografirati"
+        ],
+        [
+          "to walk",
+          "hodati"
+        ],
+        [
+          "office",
+          "ured"
+        ],
+        [
+          "polite",
+          "ljubazan"
+        ],
+        [
+          "gasoline",
+          "benzin"
+        ],
+        [
+          "whole",
+          "cijeli"
+        ]
+      ],
+      "sortkljuc": 602008,
+      "bodovi": 430
     },
     {
       "cjelina": "Grammar 6",
@@ -40260,35 +37847,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Masculine — one becomes many with -i",
       "meta": {
-        "info": "Masculine plurals in bulk. The ending is **-i**, but a final *k* cannot survive in front of it and softens to *c*: *učenik* to *učenici*, *jezik* to *jezici*. Words ending in *-lj* or *-r* simply add the *-i*.",
-        "infokratko": "Masculine plural **-i**; *k → c*: *učenik → učenici, jezik → jezici*.",
-        "opis": "Masculine nouns take **-i**. Watch the four where a **k** softens into **c** on the way: *učenik → učenici*."
+        "info": "Flashcards with the plural attached. Masculine nouns take **-i**: *jezik* to *jezici* (a final *k* softens to *c*), *odgovor* to *odgovori*. Short one-syllable ones pad it to **-ovi**: *zid* to *zidovi*, *test* to *testovi*. Neuter nouns in *-o* or *-e* take **-a**: *selo* to *sela*, *pitanje* to *pitanja*. Three words simply have to be memorised: *brat* to **braća**, *čovjek* to **ljudi**, and *riječ* to **riječi**.",
+        "infokratko": "Masculine **-i** (*jezik → jezici*), short ones **-ovi** (*zid → zidovi*), neuter **-a** (*selo → sela*). Memorise *braća, ljudi, riječi*.",
+        "opis": "Masculine nouns take **-i**, short ones grow **-ovi**, neuter nouns take **-a**. Three at the end play by their own rules."
       },
       "stavke": [
-        [
-          "učenik → učenici",
-          "pupil"
-        ],
-        [
-          "učitelj → učitelji",
-          "teacher"
-        ],
-        [
-          "profesor → profesori",
-          "teacher, professor"
-        ],
-        [
-          "dječak → dječaci",
-          "boy"
-        ],
-        [
-          "prijatelj → prijatelji",
-          "friend"
-        ],
-        [
-          "udžbenik → udžbenici",
-          "textbook"
-        ],
         [
           "jezik → jezici",
           "language"
@@ -40314,43 +37877,6 @@ window.PODACI = {
           "answer"
         ],
         [
-          "prozor → prozori",
-          "window"
-        ],
-        [
-          "roditelj → roditelji",
-          "parent"
-        ]
-      ],
-      "sortkljuc": 702001,
-      "bodovi": 176
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Short masculine words stretch to -ovi",
-      "meta": {
-        "info": "The *-ov-* group. Most masculine nouns of **one syllable** insert *-ov-* before the ending: *grad* to *gradovi*, *most* to *mostovi*. It is still the masculine *-i* plural underneath, just padded out.",
-        "infokratko": "One-syllable masculines add *-ov-*: *grad → gradovi, most → mostovi*.",
-        "opis": "Most one-syllable masculine nouns don't just take -i — they grow a whole extra piece: **-ovi**. *stol → stolovi*, *grad → gradovi*."
-      },
-      "stavke": [
-        [
-          "stol → stolovi",
-          "table"
-        ],
-        [
-          "grad → gradovi",
-          "city"
-        ],
-        [
-          "most → mostovi",
-          "bridge"
-        ],
-        [
           "zid → zidovi",
           "wall"
         ],
@@ -40359,36 +37885,52 @@ window.PODACI = {
           "test"
         ],
         [
-          "tekst → tekstovi",
-          "text"
+          "iskustvo → iskustva",
+          "experience"
         ],
         [
-          "sport → sportovi",
-          "sport"
+          "mjesto → mjesta",
+          "place"
         ],
         [
-          "vlak → vlakovi",
-          "train"
+          "pitanje → pitanja",
+          "question"
         ],
         [
-          "brod → brodovi",
-          "boat"
+          "jutro → jutra",
+          "morning"
+        ],
+        [
+          "selo → sela",
+          "village"
+        ],
+        [
+          "riječ → riječi",
+          "word → words"
+        ],
+        [
+          "brat → braća",
+          "brother → brothers"
+        ],
+        [
+          "čovjek → ljudi",
+          "person → people"
         ]
       ],
-      "sortkljuc": 702002,
-      "bodovi": 112
+      "sortkljuc": 702001,
+      "bodovi": 342
     },
     {
       "cjelina": "Vocabulary 7",
       "cjelinanaslov": "School & Songs",
-      "stranica": 3,
+      "stranica": 2,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Feminine — -a becomes -e",
       "meta": {
-        "info": "The easy group. Feminine nouns in *-a* simply swap it for **-e** in the plural: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*.",
-        "infokratko": "Feminine **-a → -e**: *škola → škole, olovka → olovke*.",
-        "opis": "The easiest group on the page: swap the final **-a** for **-e** and you're done. No softening, no stretching."
+        "info": "The easy group. Feminine nouns in *-a* simply swap it for **-e** in the plural: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*. The school subjects at the end are shown in the singular only; almost all are feminine *-a* words too. *povijest* is the odd one: feminine, but it ends in a consonant.",
+        "infokratko": "Feminine **-a → -e**: *škola → škole, olovka → olovke*. Subjects in the singular.",
+        "opis": "The easiest group: swap the final **-a** for **-e** and you're done. Then the school subjects — nearly all cognates you can read already."
       },
       "stavke": [
         [
@@ -40406,10 +37948,6 @@ window.PODACI = {
         [
           "djevojčica → djevojčice",
           "girl"
-        ],
-        [
-          "knjiga → knjige",
-          "book"
         ],
         [
           "olovka → olovke",
@@ -40444,114 +37982,52 @@ window.PODACI = {
           "song"
         ],
         [
-          "gitara → gitare",
-          "guitar"
-        ],
-        [
           "lopta → lopte",
           "ball"
         ],
         [
           "godina → godine",
           "year"
+        ],
+        [
+          "matematika",
+          "mathematics"
+        ],
+        [
+          "geografija",
+          "geography"
+        ],
+        [
+          "biologija",
+          "biology"
+        ],
+        [
+          "fizika",
+          "physics"
+        ],
+        [
+          "kemija",
+          "chemistry"
+        ],
+        [
+          "povijest",
+          "history"
         ]
       ],
-      "sortkljuc": 702003,
-      "bodovi": 176
+      "sortkljuc": 702002,
+      "bodovi": 342
     },
     {
       "cjelina": "Vocabulary 7",
       "cjelinanaslov": "School & Songs",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Neuter — -o or -e becomes -a",
-      "meta": {
-        "info": "Neuter plurals. Whether the singular ends in *-o* or *-e*, the plural ends in **-a**: *pismo* to *pisma*, *more* to *mora*. Do not read that final *-a* as feminine — *pisma* is many letters, not one.",
-        "infokratko": "Neuter **-o/-e → -a**: *pismo → pisma, more → mora*.",
-        "opis": "Neuter nouns end in **-a** in the plural — the same letter that means \"one\" in the feminine. Croatian reuses its letters shamelessly."
-      },
-      "stavke": [
-        [
-          "pismo → pisma",
-          "letter"
-        ],
-        [
-          "iskustvo → iskustva",
-          "experience"
-        ],
-        [
-          "mjesto → mjesta",
-          "place"
-        ],
-        [
-          "pitanje → pitanja",
-          "question"
-        ],
-        [
-          "ime → imena",
-          "name"
-        ],
-        [
-          "jutro → jutra",
-          "morning"
-        ],
-        [
-          "more → mora",
-          "sea"
-        ],
-        [
-          "selo → sela",
-          "village"
-        ]
-      ],
-      "sortkljuc": 702004,
-      "bodovi": 112
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "The rebels",
-      "meta": {
-        "info": "Four words that ignore the rules and have to be memorised: *dijete* to **djeca**, *brat* to **braća**, *čovjek* to **ljudi**, *riječ* to **riječi**. *Djeca* and *braća* take plural verbs but act like one feminine word as a target: *Vidim djecu*.",
-        "infokratko": "Memorise: *djeca, braća, ljudi, riječi*. As a target: *Vidim djecu*.",
-        "opis": "Four words too important to follow the rules. *Djeca* and *braća* even behave like a single feminine word: *Djeca su dobra*, but *Vidim djecu*."
-      },
-      "stavke": [
-        [
-          "dijete → djeca",
-          "child → children"
-        ],
-        [
-          "brat → braća",
-          "brother → brothers"
-        ],
-        [
-          "čovjek → ljudi",
-          "man → people"
-        ],
-        [
-          "riječ → riječi",
-          "word → words"
-        ]
-      ],
-      "sortkljuc": 702005,
-      "bodovi": 112
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 6,
+      "stranica": 3,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Ten new verbs",
       "meta": {
-        "info": "Verbs with their plural persons attached. **-mo** and **-te** never vary; only the *they* form follows the family — *pjevaju* for *-am* verbs, *broje* for *-im*, *plešu* for *-em*.",
-        "infokratko": "**-mo**, **-te** always; *they* by family: *pjevaju, broje, plešu*.",
-        "opis": "School verbs, each with the three plural forms you learn today. *mi* and *vi* are always **-mo** and **-te**; only *oni* changes with the family — **-aju** for the -am group, **-e** for *brojati*, **-u** for *plesati*."
+        "info": "Verbs with their plural persons attached. **-mo** and **-te** never vary; only the *they* form follows the family — *pjevaju* for *-am* verbs, *broje* for *brojati*, *plešu* for *plesati*. Below them are words for how things are done. Adverbs like *glasno* and *brzo* never change shape; the adjectives *kratak* and *težak* show their plural form, *kratki* and *teški*.",
+        "infokratko": "**-mo**, **-te** always; *they* by family: *pjevaju, broje, plešu*. Adverbs never change (*glasno, brzo*).",
+        "opis": "School verbs, each with the three plural forms, then the words for how the day goes. *Dobro došli!* greets a whole class."
       },
       "stavke": [
         [
@@ -40593,77 +38069,7 @@ window.PODACI = {
         [
           "plesati → plešemo, plešete, plešu",
           "to dance"
-        ]
-      ],
-      "sortkljuc": 702006,
-      "bodovi": 128
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "School subjects",
-      "meta": {
-        "info": "Subject names, almost all international words wearing Croatian endings. Most are feminine *-a* nouns (*matematika*, *fizika*), so as targets they take *-u*: *Volim **matematiku***; *sport*, *jezik* and *povijest* do not change.",
-        "infokratko": "Mostly feminine **-a**: *Volim matematiku*. *sport, jezik, povijest* stay.",
-        "opis": "Nearly all cognates — you can read this list already."
-      },
-      "stavke": [
-        [
-          "matematika",
-          "mathematics"
         ],
-        [
-          "geografija",
-          "geography"
-        ],
-        [
-          "biologija",
-          "biology"
-        ],
-        [
-          "fizika",
-          "physics"
-        ],
-        [
-          "kemija",
-          "chemistry"
-        ],
-        [
-          "povijest",
-          "history"
-        ],
-        [
-          "glazba",
-          "music"
-        ],
-        [
-          "sport",
-          "sport"
-        ],
-        [
-          "jezik",
-          "language"
-        ]
-      ],
-      "sortkljuc": 702007,
-      "bodovi": 112
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Small words for the classroom",
-      "meta": {
-        "info": "Adverbs and adjectives for the school day. Adverbs like *glasno* and *brzo* never change shape, but adjectives do — the plural forms *mladi*, *kratki*, *teški* are the ones you need with masculine plural nouns; feminine plurals take **-e** (*nove knjige*) and neuter plurals **-a** (*duga pisma*).",
-        "infokratko": "Adverbs never change (*glasno, brzo*); adjectives agree: *mladi, nove knjige, duga pisma*.",
-        "opis": "How things are done, and how the day feels."
-      },
-      "stavke": [
         [
           "glasno",
           "loudly"
@@ -40673,20 +38079,12 @@ window.PODACI = {
           "quietly"
         ],
         [
-          "zajedno",
-          "together"
-        ],
-        [
           "brzo",
           "quickly"
         ],
         [
           "polako",
           "slowly"
-        ],
-        [
-          "mlad / mladi",
-          "young"
         ],
         [
           "kratak / kratki",
@@ -40705,201 +38103,17 @@ window.PODACI = {
           "boring"
         ],
         [
-          "Dobro jutro!",
-          "Good morning!"
-        ],
-        [
           "Dobro došli!",
           "Welcome!"
         ]
       ],
-      "sortkljuc": 702008,
-      "bodovi": 144
+      "sortkljuc": 702003,
+      "bodovi": 342
     },
     {
       "cjelina": "Vocabulary 7",
       "cjelinanaslov": "School & Songs",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which plural ending?",
-      "meta": {
-        "info": "Predict the plural from the singular. The clue is the last letter: a consonant means masculine **-i**, *-a* means feminine **-e**, *-o* or *-e* means neuter **-a**. Find the gender and the ending follows.",
-        "infokratko": "Consonant **-i**, *-a* **-e**, *-o/-e* **-a**.",
-        "stupci": "-I | -E | -A",
-        "opis": "Sort by the ending each word takes in the plural. Masculine takes -i, feminine -e, neuter -a."
-      },
-      "stavke": [
-        [
-          "učenik",
-          "-I"
-        ],
-        [
-          "dječak",
-          "-I"
-        ],
-        [
-          "prijatelj",
-          "-I"
-        ],
-        [
-          "profesor",
-          "-I"
-        ],
-        [
-          "udžbenik",
-          "-I"
-        ],
-        [
-          "prozor",
-          "-I"
-        ],
-        [
-          "ispit",
-          "-I"
-        ],
-        [
-          "škola",
-          "-E"
-        ],
-        [
-          "knjiga",
-          "-E"
-        ],
-        [
-          "pjesma",
-          "-E"
-        ],
-        [
-          "olovka",
-          "-E"
-        ],
-        [
-          "torba",
-          "-E"
-        ],
-        [
-          "ocjena",
-          "-E"
-        ],
-        [
-          "djevojčica",
-          "-E"
-        ],
-        [
-          "pismo",
-          "-A"
-        ],
-        [
-          "iskustvo",
-          "-A"
-        ],
-        [
-          "pitanje",
-          "-A"
-        ],
-        [
-          "ime",
-          "-A"
-        ],
-        [
-          "more",
-          "-A"
-        ],
-        [
-          "selo",
-          "-A"
-        ]
-      ],
-      "sortkljuc": 702009,
-      "bodovi": 207
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Regular or rebel?",
-      "meta": {
-        "info": "Sort the predictable words from the awkward ones. Regular means the plain **-i / -e / -a**; the odd ones here are the one-syllable masculines padding to *-ovi* (*zid* to *zidovi*) and the four true irregulars like *čovjek* to *ljudi*.",
-        "infokratko": "Regular **-i/-e/-a**; *-ovi* (*zidovi*); irregular (*ljudi*).",
-        "stupci": "PRAVILNO | -OVI | IZNIMKA",
-        "opis": "Most words follow the trio. Four just grow a whole syllable, **-ovi** — and four do something else entirely."
-      },
-      "stavke": [
-        [
-          "učenik",
-          "PRAVILNO"
-        ],
-        [
-          "knjiga",
-          "PRAVILNO"
-        ],
-        [
-          "pismo",
-          "PRAVILNO"
-        ],
-        [
-          "pjesma",
-          "PRAVILNO"
-        ],
-        [
-          "prozor",
-          "PRAVILNO"
-        ],
-        [
-          "ocjena",
-          "PRAVILNO"
-        ],
-        [
-          "iskustvo",
-          "PRAVILNO"
-        ],
-        [
-          "djevojčica",
-          "PRAVILNO"
-        ],
-        [
-          "dijete",
-          "IZNIMKA"
-        ],
-        [
-          "brat",
-          "IZNIMKA"
-        ],
-        [
-          "čovjek",
-          "IZNIMKA"
-        ],
-        [
-          "riječ",
-          "IZNIMKA"
-        ],
-        [
-          "stol",
-          "-OVI"
-        ],
-        [
-          "grad",
-          "-OVI"
-        ],
-        [
-          "most",
-          "-OVI"
-        ],
-        [
-          "zid",
-          "-OVI"
-        ]
-      ],
-      "sortkljuc": 702010,
-      "bodovi": 207
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 11,
+      "stranica": 4,
       "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
@@ -40914,661 +38128,93 @@ window.PODACI = {
           "school"
         ],
         [
-          "učenik",
-          "pupil"
-        ],
-        [
           "učiteljica",
           "teacher"
         ],
         [
-          "dječak",
-          "boy"
-        ],
-        [
           "djevojčica",
           "girl"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "udžbenik",
-          "textbook"
-        ],
-        [
-          "pjesma",
-          "song"
-        ],
-        [
-          "klavir",
-          "piano"
-        ],
-        [
-          "gitara",
-          "guitar"
-        ],
-        [
-          "lopta",
-          "ball"
-        ],
-        [
-          "nogomet",
-          "football"
-        ]
-      ],
-      "sortkljuc": 702011,
-      "bodovi": 144
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Croatian to English recall for the school set. Nouns are given in the singular, and the ending you see (*-a* in *zadaća*, a consonant in *odgovor*) is what tells you the plurals will be *zadaće* and *odgovori*.",
-        "infokratko": "Singular; the ending predicts the plural: *zadaća → zadaće, odgovor → odgovori*.",
-        "opis": "Match each school word with its English meaning."
-      },
-      "stavke": [
-        [
-          "škola",
-          "school"
-        ],
-        [
-          "učenik",
-          "pupil"
-        ],
-        [
-          "učiteljica",
-          "teacher"
-        ],
-        [
-          "dječak",
-          "boy"
-        ],
-        [
-          "djevojčica",
-          "girl"
-        ],
-        [
-          "pjesma",
-          "song"
-        ],
-        [
-          "klavir",
-          "piano"
-        ],
-        [
-          "nogomet",
-          "football"
         ],
         [
           "olovka",
           "pencil"
         ],
         [
-          "kemijska",
-          "pen"
-        ],
-        [
           "torba",
           "bag"
         ],
         [
-          "zadaća",
-          "homework"
-        ],
-        [
-          "ocjena",
-          "grade"
-        ],
-        [
-          "ispit",
-          "exam"
-        ],
-        [
-          "pauza",
-          "break"
-        ],
-        [
-          "odgovor",
-          "answer"
-        ],
-        [
-          "riječ",
-          "word"
-        ],
-        [
-          "godina",
-          "year"
-        ]
-      ],
-      "sortkljuc": 702012,
-      "bodovi": 176
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory: singular & plural",
-      "meta": {
-        "info": "Pairs, singular with plural. Regular pairs differ only in the last letter, so use that: the ones that change more — *stol* to *stolovi*, *čovjek* to *ljudi*, *dijete* to *djeca* — are the ones worth memorising.",
-        "infokratko": "Memorise the ones that change more: *stolovi, ljudi, djeca*.",
-        "opis": "Find each singular's plural."
-      },
-      "stavke": [
-        [
-          "knjiga",
-          "knjige"
-        ],
-        [
-          "učenik",
-          "učenici"
-        ],
-        [
-          "dijete",
-          "djeca"
-        ],
-        [
           "pjesma",
-          "pjesme"
+          "song"
         ],
         [
-          "dječak",
-          "dječaci"
-        ],
-        [
-          "škola",
-          "škole"
-        ],
-        [
-          "stol",
-          "stolovi"
-        ],
-        [
-          "brat",
-          "braća"
-        ],
-        [
-          "pismo",
-          "pisma"
-        ],
-        [
-          "čovjek",
-          "ljudi"
-        ]
-      ],
-      "sortkljuc": 702013,
-      "bodovi": 176
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: make it plural",
-      "meta": {
-        "info": "Plural formation against the clock, so the rule has to be automatic: **-i / -e / -a**, with *k* softening to *c* before *-i*. Only *dijete*, *brat* and *čovjek* need recall rather than a rule.",
-        "infokratko": "**-i/-e/-a**, *k → c*. Recall *djeca, braća, ljudi*.",
-        "trajanje": "60",
-        "opis": "A singular flashes — tap its plural before the timer runs out."
-      },
-      "stavke": [
-        [
-          "učenik",
-          "učenici"
-        ],
-        [
-          "dječak",
-          "dječaci"
-        ],
-        [
-          "prijatelj",
-          "prijatelji"
-        ],
-        [
-          "udžbenik",
-          "udžbenici"
-        ],
-        [
-          "prozor",
-          "prozori"
-        ],
-        [
-          "stol",
-          "stolovi"
-        ],
-        [
-          "grad",
-          "gradovi"
-        ],
-        [
-          "most",
-          "mostovi"
+          "lopta",
+          "ball"
         ],
         [
           "zid",
-          "zidovi"
+          "wall"
         ],
         [
-          "škola",
-          "škole"
+          "test",
+          "test"
         ],
         [
-          "knjiga",
-          "knjige"
+          "dokument",
+          "document"
         ],
         [
-          "pjesma",
-          "pjesme"
+          "jutro",
+          "morning"
         ],
         [
-          "olovka",
-          "olovke"
-        ],
-        [
-          "torba",
-          "torbe"
-        ],
-        [
-          "pismo",
-          "pisma"
-        ],
-        [
-          "iskustvo",
-          "iskustva"
-        ],
-        [
-          "more",
-          "mora"
-        ],
-        [
-          "dijete",
-          "djeca"
-        ],
-        [
-          "brat",
-          "braća"
-        ],
-        [
-          "čovjek",
-          "ljudi"
+          "selo",
+          "village"
         ]
       ],
-      "sortkljuc": 702014,
-      "bodovi": 176
+      "sortkljuc": 702004,
+      "bodovi": 280
     },
     {
       "cjelina": "Vocabulary 7",
       "cjelinanaslov": "School & Songs",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what is it?",
-      "meta": {
-        "info": "Timed meaning recall — Croatian in, English out. Nothing to build here, just fast recognition of the school words you will be putting into the plural in the drills that follow.",
-        "infokratko": "Meaning only.",
-        "trajanje": "60",
-        "opis": "School sprint — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "škola",
-          "school"
-        ],
-        [
-          "učenik",
-          "pupil"
-        ],
-        [
-          "učitelj",
-          "teacher"
-        ],
-        [
-          "ispit",
-          "exam"
-        ],
-        [
-          "ocjena",
-          "grade"
-        ],
-        [
-          "zadaća",
-          "homework"
-        ],
-        [
-          "olovka",
-          "pencil"
-        ],
-        [
-          "kemijska",
-          "pen"
-        ],
-        [
-          "torba",
-          "bag"
-        ],
-        [
-          "udžbenik",
-          "textbook"
-        ],
-        [
-          "pauza",
-          "break"
-        ],
-        [
-          "odmor",
-          "break"
-        ],
-        [
-          "lekcija",
-          "lesson"
-        ],
-        [
-          "odgovor",
-          "answer"
-        ],
-        [
-          "riječ",
-          "word"
-        ],
-        [
-          "pjesma",
-          "song"
-        ],
-        [
-          "gitara",
-          "guitar"
-        ],
-        [
-          "lopta",
-          "ball"
-        ],
-        [
-          "matematika",
-          "mathematics"
-        ],
-        [
-          "geografija",
-          "geography"
-        ],
-        [
-          "biologija",
-          "biology"
-        ],
-        [
-          "fizika",
-          "physics"
-        ],
-        [
-          "kemija",
-          "chemistry"
-        ],
-        [
-          "povijest",
-          "history"
-        ],
-        [
-          "glasno",
-          "loudly"
-        ],
-        [
-          "tiho",
-          "quietly"
-        ],
-        [
-          "brzo",
-          "quickly"
-        ],
-        [
-          "polako",
-          "slowly"
-        ],
-        [
-          "zanimljiv",
-          "interesting"
-        ],
-        [
-          "dosadan",
-          "boring"
-        ]
-      ],
-      "sortkljuc": 702015,
-      "bodovi": 176
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 16,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spell each word from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *učiteljica* and *knjiga* need the whole *lj* or *nj* tile, and *č*, *ć*, *ž* are letters of their own too.",
-        "infokratko": "**lj, nj, dž** are one tile each: *učiteljica, knjiga*.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
-      },
-      "stavke": [
-        [
-          "učiteljica",
-          "teacher"
-        ],
-        [
-          "prijatelj",
-          "friend"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "pjesma",
-          "song"
-        ],
-        [
-          "zadaća",
-          "homework"
-        ],
-        [
-          "kemijska",
-          "pen"
-        ],
-        [
-          "udžbenik",
-          "textbook"
-        ],
-        [
-          "djevojčica",
-          "girl"
-        ],
-        [
-          "povijest",
-          "history"
-        ],
-        [
-          "vježbati",
-          "to practice"
-        ]
-      ],
-      "sortkljuc": 702016,
-      "bodovi": 208
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 17,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the plural",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Typed plurals across all three genders. Two spellings trip people up: *k* becomes *c* before *-i* (*dječak* to *dječaci*), and short masculines take *-ovi* (*most* to *mostovi*).",
-        "infokratko": "*dječak → dječaci*, *most → mostovi*.",
-        "opis": "You get the singular — type the plural form."
+        "info": "You write each new word once, from its English meaning, in the **singular**: *škola*, not *škole*. Verbs are wanted as infinitives, ending in **-ti**: *pjevati*, not *pjevamo*. The diacritics are full letters: *zadaća* has **ć**, *djevojčica* and *riječ* have **č**, and *pitanje* has **nj**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once, in the singular (*škola*); verbs as infinitives (*pjevati*). Diacritics count: *zadaća, riječ, pitanje*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "učenik →",
-          "učenici"
+          "exam",
+          "ispit"
         ],
         [
-          "dječak →",
-          "dječaci"
+          "answer",
+          "odgovor"
         ],
         [
-          "udžbenik →",
-          "udžbenici"
+          "language",
+          "jezik"
         ],
         [
-          "jezik →",
-          "jezici"
+          "wall",
+          "zid"
         ],
-        [
-          "prijatelj →",
-          "prijatelji"
-        ],
-        [
-          "profesor →",
-          "profesori"
-        ],
-        [
-          "prozor →",
-          "prozori"
-        ],
-        [
-          "ispit →",
-          "ispiti"
-        ],
-        [
-          "stol →",
-          "stolovi"
-        ],
-        [
-          "grad →",
-          "gradovi"
-        ],
-        [
-          "most →",
-          "mostovi"
-        ],
-        [
-          "zid →",
-          "zidovi"
-        ],
-        [
-          "test →",
-          "testovi"
-        ],
-        [
-          "škola →",
-          "škole"
-        ],
-        [
-          "knjiga →",
-          "knjige"
-        ],
-        [
-          "pjesma →",
-          "pjesme"
-        ],
-        [
-          "olovka →",
-          "olovke"
-        ],
-        [
-          "torba →",
-          "torbe"
-        ],
-        [
-          "ocjena →",
-          "ocjene"
-        ],
-        [
-          "pismo →",
-          "pisma"
-        ],
-        [
-          "iskustvo →",
-          "iskustva"
-        ],
-        [
-          "more →",
-          "mora"
-        ],
-        [
-          "dijete →",
-          "djeca"
-        ],
-        [
-          "brat →",
-          "braća"
-        ],
-        [
-          "čovjek →",
-          "ljudi"
-        ]
-      ],
-      "sortkljuc": 702017,
-      "bodovi": 254
-    },
-    {
-      "cjelina": "Vocabulary 7",
-      "cjelinanaslov": "School & Songs",
-      "stranica": 18,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English in, Croatian out, in the **singular**. Getting the final letter right matters more than usual — that letter carries the gender, and gender is what chooses every plural ending you have just learned.",
-        "infokratko": "Singular forms; the final letter shows the gender.",
-        "opis": "The final round — type each word in Croatian, in the singular."
-      },
-      "stavke": [
         [
           "school",
           "škola"
-        ],
-        [
-          "pupil",
-          "učenik"
-        ],
-        [
-          "teacher",
-          "učitelj"
-        ],
-        [
-          "boy",
-          "dječak"
         ],
         [
           "girl",
           "djevojčica"
         ],
         [
-          "book",
-          "knjiga"
-        ],
-        [
-          "textbook",
-          "udžbenik"
-        ],
-        [
           "pencil",
           "olovka"
-        ],
-        [
-          "pen",
-          "kemijska"
-        ],
-        [
-          "bag",
-          "torba"
         ],
         [
           "homework",
@@ -41579,104 +38225,277 @@ window.PODACI = {
           "ocjena"
         ],
         [
-          "exam",
-          "ispit"
-        ],
-        [
-          "break",
-          "pauza"
-        ],
-        [
-          "lesson",
-          "lekcija"
-        ],
-        [
-          "answer",
-          "odgovor"
-        ],
-        [
-          "word",
-          "riječ"
-        ],
-        [
           "song",
           "pjesma"
-        ],
-        [
-          "guitar",
-          "gitara"
-        ],
-        [
-          "ball",
-          "lopta"
         ],
         [
           "question",
           "pitanje"
         ],
         [
-          "experience",
-          "iskustvo"
+          "village",
+          "selo"
         ],
         [
-          "report",
-          "izvještaj"
-        ],
-        [
-          "document",
-          "dokument"
-        ],
-        [
-          "language",
-          "jezik"
-        ],
-        [
-          "year",
-          "godina"
+          "word",
+          "riječ"
         ],
         [
           "to sing",
           "pjevati"
         ],
         [
-          "to play a game",
-          "igrati"
-        ],
-        [
-          "to ask",
-          "pitati"
-        ],
-        [
-          "to practice",
-          "vježbati"
-        ],
-        [
-          "to know",
-          "znati"
-        ],
-        [
-          "to count",
-          "brojati"
-        ],
-        [
           "to dance",
           "plesati"
-        ],
-        [
-          "loudly",
-          "glasno"
-        ],
-        [
-          "quietly",
-          "tiho"
-        ],
-        [
-          "interesting",
-          "zanimljiv"
         ]
       ],
-      "sortkljuc": 702018,
-      "bodovi": 254
+      "sortkljuc": 702005,
+      "bodovi": 499
+    },
+    {
+      "cjelina": "Vocabulary 7",
+      "cjelinanaslov": "School & Songs",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–5, half and half. Two pairs to keep apart: *đak* is a pupil, while *dečko* is a boy; *svirati* is to play an instrument, while *birati* is to choose.",
+        "infokratko": "New and old words against the clock. *đak* pupil, *dečko* boy; *svirati* to play, *birati* to choose.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "kemijska",
+          "pen"
+        ],
+        [
+          "đak",
+          "pupil"
+        ],
+        [
+          "lekcija",
+          "lesson"
+        ],
+        [
+          "film",
+          "film"
+        ],
+        [
+          "godina",
+          "year"
+        ],
+        [
+          "birati",
+          "to choose"
+        ],
+        [
+          "jutro",
+          "morning"
+        ],
+        [
+          "grad",
+          "city"
+        ],
+        [
+          "ljudi",
+          "people"
+        ],
+        [
+          "jesti",
+          "to eat"
+        ],
+        [
+          "odmor",
+          "break"
+        ],
+        [
+          "farma",
+          "farm"
+        ],
+        [
+          "svirati",
+          "to play (an instrument)"
+        ],
+        [
+          "jogurt",
+          "yoghurt"
+        ],
+        [
+          "brojati",
+          "to count"
+        ],
+        [
+          "dama",
+          "lady"
+        ],
+        [
+          "glasno",
+          "loudly"
+        ],
+        [
+          "kava",
+          "coffee"
+        ],
+        [
+          "dosadan",
+          "boring"
+        ],
+        [
+          "dečko",
+          "boy, boyfriend"
+        ]
+      ],
+      "sortkljuc": 702006,
+      "bodovi": 342
+    },
+    {
+      "cjelina": "Vocabulary 7",
+      "cjelinanaslov": "School & Songs",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which plural ending?",
+      "meta": {
+        "info": "Predict the plural from the singular, with today's words and older ones. The clue is the last letter: a consonant means masculine **-i** (*novinar → novinari*), *-a* means feminine **-e** (*boca → boce*), *-o* or *-e* means neuter **-a** (*kino → kina*). Find the gender and the ending follows.",
+        "infokratko": "Consonant **-i**, *-a* **-e**, *-o/-e* **-a**.",
+        "stupci": "-I | -E | -A",
+        "opis": "Sort by the ending each word takes in the plural. Masculine takes -i, feminine -e, neuter -a."
+      },
+      "stavke": [
+        [
+          "ispit",
+          "-I"
+        ],
+        [
+          "odgovor",
+          "-I"
+        ],
+        [
+          "izvještaj",
+          "-I"
+        ],
+        [
+          "novinar",
+          "-I"
+        ],
+        [
+          "ekran",
+          "-I"
+        ],
+        [
+          "odvjetnik",
+          "-I"
+        ],
+        [
+          "škola",
+          "-E"
+        ],
+        [
+          "olovka",
+          "-E"
+        ],
+        [
+          "boca",
+          "-E"
+        ],
+        [
+          "breskva",
+          "-E"
+        ],
+        [
+          "cijena",
+          "-E"
+        ],
+        [
+          "pitanje",
+          "-A"
+        ],
+        [
+          "iskustvo",
+          "-A"
+        ],
+        [
+          "selo",
+          "-A"
+        ],
+        [
+          "jelo",
+          "-A"
+        ],
+        [
+          "kino",
+          "-A"
+        ]
+      ],
+      "sortkljuc": 702007,
+      "bodovi": 405
+    },
+    {
+      "cjelina": "Vocabulary 7",
+      "cjelinanaslov": "School & Songs",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones, all in the **singular**: *torba*, not *torbe*. Verbs as infinitives again, adjectives in the short form (*težak*, *hladan*). The diacritics count: *čekati* and *čistiti* start with **č**, *težak* has **ž**, *Njemica* starts with **Nj**, and *povijest* is written with **ije**, just as it sounds.",
+        "infokratko": "Mixed final round. Singular forms, verbs as infinitives. Diacritics count: *čekati, težak, Njemica*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "bag",
+          "torba"
+        ],
+        [
+          "to wait",
+          "čekati"
+        ],
+        [
+          "history",
+          "povijest"
+        ],
+        [
+          "guitar",
+          "gitara"
+        ],
+        [
+          "place",
+          "mjesto"
+        ],
+        [
+          "to clean",
+          "čistiti"
+        ],
+        [
+          "heavy",
+          "težak"
+        ],
+        [
+          "cold",
+          "hladan"
+        ],
+        [
+          "slowly",
+          "polako"
+        ],
+        [
+          "from where",
+          "odakle"
+        ],
+        [
+          "to repeat",
+          "ponavljati"
+        ],
+        [
+          "German (she)",
+          "Njemica"
+        ]
+      ],
+      "sortkljuc": 702008,
+      "bodovi": 498
     },
     {
       "cjelina": "Grammar 7",
@@ -47245,15 +44064,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Where you're going",
       "meta": {
-        "info": "Places a Croatian summer happens in. Note that *more* is the sea itself, and that the phrase everyone uses for going to the coast is *na more*, not *u more* — take it whole as a fixed expression for now.",
-        "infokratko": "Summer places. *more* = the sea; to the coast = *na more*.",
-        "opis": "Croatia in summer, in one deck. **more** is the sea itself; going *na more* is what everyone says for \"to the coast\"."
+        "info": "Places a Croatian summer happens in, and what you take with you. Three words for going somewhere: *put* is the way itself, *putovanje* is the whole journey, and *izlet* is a day trip, there and back again. The last four come in your bag: *kofer*, *prtljaga*, *ručnik*, *jastuk*.",
+        "infokratko": "*put* way, *putovanje* journey, *izlet* day trip. Then what goes in the bag.",
+        "opis": "Croatia in summer, in one deck: the places, the trip, and what you pack for it."
       },
       "stavke": [
-        [
-          "more",
-          "sea"
-        ],
         [
           "plaža",
           "beach"
@@ -47265,18 +44080,6 @@ window.PODACI = {
         [
           "planina",
           "mountain"
-        ],
-        [
-          "selo",
-          "village"
-        ],
-        [
-          "grad",
-          "city"
-        ],
-        [
-          "hotel",
-          "hotel"
         ],
         [
           "kamp",
@@ -47295,10 +44098,6 @@ window.PODACI = {
           "day trip"
         ],
         [
-          "odmor",
-          "holiday, break"
-        ],
-        [
           "avantura",
           "adventure"
         ],
@@ -47309,55 +44108,10 @@ window.PODACI = {
         [
           "tura",
           "tour"
-        ]
-      ],
-      "sortkljuc": 802001,
-      "bodovi": 209
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Getting there",
-      "meta": {
-        "info": "Transport and travel gear. Almost all of these will turn up as objects after a future helper, in the accusative you already know: *Nosit ću **kofer** i **torbu***.",
-        "infokratko": "Travel words, often objects after the future: *Nosit ću kofer i torbu.*",
-        "opis": "How you travel and what you need before you leave."
-      },
-      "stavke": [
-        [
-          "vlak",
-          "train"
-        ],
-        [
-          "avion",
-          "airplane"
-        ],
-        [
-          "brod",
-          "boat"
-        ],
-        [
-          "autobus",
-          "bus"
-        ],
-        [
-          "auto",
-          "car"
         ],
         [
           "aerodrom",
           "airport"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "karta",
-          "ticket"
         ],
         [
           "rezervacija",
@@ -47372,10 +44126,6 @@ window.PODACI = {
           "suitcase"
         ],
         [
-          "torba",
-          "bag"
-        ],
-        [
           "prtljaga",
           "luggage"
         ],
@@ -47388,22 +44138,62 @@ window.PODACI = {
           "pillow"
         ]
       ],
-      "sortkljuc": 802002,
-      "bodovi": 209
+      "sortkljuc": 802001,
+      "bodovi": 381
     },
     {
       "cjelina": "Vocabulary 8",
       "cjelinanaslov": "Plans & Travel",
-      "stranica": 3,
+      "stranica": 2,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "What you'll pack",
+      "naslov": "When",
       "meta": {
-        "info": "Clothes, and a reminder that gender is visible in the ending. *Majica*, *košulja* and *haljina* end in *-a* and are feminine, while *šešir*, *kaput* and *džemper* are masculine. *Hlače* exists only in the plural, like English *trousers*.",
-        "infokratko": "*majica, košulja, haljina* f; *šešir, kaput, džemper* m. *hlače* plural only.",
-        "opis": "Clothes for a Croatian summer — and three for when the *bura* starts blowing."
+        "info": "The words that put a plan on a calendar, then the clothes each season asks for. *Sutra*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u nedjelju*, *u ponedjeljak*. In the clothes, gender is in the ending: *majica*, *košulja* and *haljina* are feminine, *kaput* and *džemper* masculine. *Hlače* exists only in the plural, like English *trousers*.",
+        "infokratko": "*sutra, ujutro, navečer* alone; days with **u**: *u nedjelju*. *hlače* is plural only.",
+        "opis": "The calendar words first — *sutra* is in almost every plan you'll make — then what you wear from *proljeće* to *zima*."
       },
       "stavke": [
+        [
+          "sutra",
+          "tomorrow"
+        ],
+        [
+          "vikend",
+          "weekend"
+        ],
+        [
+          "tjedan",
+          "week"
+        ],
+        [
+          "mjesec",
+          "month"
+        ],
+        [
+          "minuta",
+          "minute"
+        ],
+        [
+          "nedjelja",
+          "Sunday"
+        ],
+        [
+          "ponedjeljak",
+          "Monday"
+        ],
+        [
+          "proljeće",
+          "spring"
+        ],
+        [
+          "jesen",
+          "autumn"
+        ],
+        [
+          "zima",
+          "winter"
+        ],
         [
           "majica",
           "T-shirt"
@@ -47421,14 +44211,6 @@ window.PODACI = {
           "trousers"
         ],
         [
-          "cipela",
-          "shoe"
-        ],
-        [
-          "šešir",
-          "hat"
-        ],
-        [
           "šal",
           "scarf"
         ],
@@ -47441,97 +44223,20 @@ window.PODACI = {
           "sweater"
         ]
       ],
-      "sortkljuc": 802003,
-      "bodovi": 139
+      "sortkljuc": 802002,
+      "bodovi": 381
     },
     {
       "cjelina": "Vocabulary 8",
       "cjelinanaslov": "Plans & Travel",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "When",
-      "meta": {
-        "info": "The words that put a plan on a calendar. *Sutra*, *danas*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u subotu*, *u nedjelju*, *u ponedjeljak*.",
-        "infokratko": "*sutra, danas, ujutro, navečer* alone; days with **u** + accusative: *u subotu*.",
-        "opis": "The words that put a plan on the calendar. *Sutra* is the one you'll use in almost every future sentence you build today."
-      },
-      "stavke": [
-        [
-          "sutra",
-          "tomorrow"
-        ],
-        [
-          "danas",
-          "today"
-        ],
-        [
-          "vikend",
-          "weekend"
-        ],
-        [
-          "tjedan",
-          "week"
-        ],
-        [
-          "mjesec",
-          "month"
-        ],
-        [
-          "godina",
-          "year"
-        ],
-        [
-          "subota",
-          "Saturday"
-        ],
-        [
-          "nedjelja",
-          "Sunday"
-        ],
-        [
-          "ponedjeljak",
-          "Monday"
-        ],
-        [
-          "ljeto",
-          "summer"
-        ],
-        [
-          "zima",
-          "winter"
-        ],
-        [
-          "proljeće",
-          "spring"
-        ],
-        [
-          "jesen",
-          "autumn"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "minuta",
-          "minute"
-        ]
-      ],
-      "sortkljuc": 802004,
-      "bodovi": 209
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 5,
+      "stranica": 3,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Ten new verbs",
       "meta": {
-        "info": "Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem** — the infinitive minus its final *-i* (*putovati → **putovat***) — which is what stands in front of *ću*.",
-        "infokratko": "Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*.",
-        "opis": "Holiday verbs. Each card shows the *ja* form and, after the second arrow, the **future stem** — the shape the verb takes when it stands in front of *ću*."
+        "info": "Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem**, the infinitive minus its final *-i* (*putovati → **putovat***), which is what stands in front of *ću*. Below them, words for timing a plan. The adjective shows both genders (*savršen / savršena*) because it agrees with what it describes.",
+        "infokratko": "Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*. Then *rano, kasno, ujutro, navečer*.",
+        "opis": "Holiday verbs, each with the *ja* form and, after the second arrow, the **future stem**. Then the words that say when."
       },
       "stavke": [
         [
@@ -47573,47 +44278,6 @@ window.PODACI = {
         [
           "letjeti → letim → letjet",
           "to fly"
-        ]
-      ],
-      "sortkljuc": 802005,
-      "bodovi": 157
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Words for the road",
-      "meta": {
-        "info": "Departure phrases plus the adjectives and time words that round out a plan. The adjectives come in two genders (*umoran / umorna*) because they still agree with the person: *Bit ću **umorna***.",
-        "infokratko": "Adjectives agree with the person: *Bit ću umorna*.",
-        "opis": "The phrases you say at a station, and the ones you say when you leave."
-      },
-      "stavke": [
-        [
-          "Sretan put!",
-          "Have a good trip!"
-        ],
-        [
-          "Vidimo se!",
-          "See you!"
-        ],
-        [
-          "cijeli / cijela",
-          "whole"
-        ],
-        [
-          "savršen / savršena",
-          "perfect"
-        ],
-        [
-          "umoran / umorna",
-          "tired"
-        ],
-        [
-          "sretan / sretna",
-          "happy"
         ],
         [
           "rano",
@@ -47636,179 +44300,27 @@ window.PODACI = {
           "afterwards"
         ],
         [
-          "zajedno",
-          "together"
+          "savršen / savršena",
+          "perfect"
         ]
       ],
-      "sortkljuc": 802006,
-      "bodovi": 174
+      "sortkljuc": 802003,
+      "bodovi": 381
     },
     {
       "cjelina": "Vocabulary 8",
       "cjelinanaslov": "Plans & Travel",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Sea or suitcase?",
-      "meta": {
-        "info": "Sort by meaning, not by grammar. A useful check while you go: *plaža*, *majica* and *karta* end in *-a* and are feminine, while *vlak*, *avion* and *šešir* are masculine — which matters the moment they become objects.",
-        "infokratko": "By meaning. *plaža, majica, karta* f; *vlak, avion, šešir* m.",
-        "stupci": "MJESTO | PRIJEVOZ | ODJEĆA",
-        "opis": "Sort each word: a place you go, a way of getting there, or something you wear."
-      },
-      "stavke": [
-        [
-          "more",
-          "MJESTO"
-        ],
-        [
-          "plaža",
-          "MJESTO"
-        ],
-        [
-          "otok",
-          "MJESTO"
-        ],
-        [
-          "planina",
-          "MJESTO"
-        ],
-        [
-          "hotel",
-          "MJESTO"
-        ],
-        [
-          "kamp",
-          "MJESTO"
-        ],
-        [
-          "vlak",
-          "PRIJEVOZ"
-        ],
-        [
-          "avion",
-          "PRIJEVOZ"
-        ],
-        [
-          "brod",
-          "PRIJEVOZ"
-        ],
-        [
-          "autobus",
-          "PRIJEVOZ"
-        ],
-        [
-          "auto",
-          "PRIJEVOZ"
-        ],
-        [
-          "majica",
-          "ODJEĆA"
-        ],
-        [
-          "košulja",
-          "ODJEĆA"
-        ],
-        [
-          "haljina",
-          "ODJEĆA"
-        ],
-        [
-          "hlače",
-          "ODJEĆA"
-        ],
-        [
-          "šešir",
-          "ODJEĆA"
-        ],
-        [
-          "kaput",
-          "ODJEĆA"
-        ],
-        [
-          "džemper",
-          "ODJEĆA"
-        ]
-      ],
-      "sortkljuc": 802007,
-      "bodovi": 263
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which family?",
-      "meta": {
-        "info": "The three present-tense families again. The infinitive can mislead, so judge by the *ja* form: *putovati* looks like *plivati* but gives *putujem*, so it is **-EM**, while *plivati* gives *plivam* and is **-AM**.",
-        "infokratko": "By the *ja* form: *putujem* **-em**, *plivam* **-am**.",
-        "stupci": "-AM | -IM | -EM",
-        "opis": "The three verb families, one more time. *Putovati* and *kretati* hide their family well — the infinitive gives nothing away, the *ja* form gives everything."
-      },
-      "stavke": [
-        [
-          "plivati",
-          "-AM"
-        ],
-        [
-          "ručati",
-          "-AM"
-        ],
-        [
-          "trenirati",
-          "-AM"
-        ],
-        [
-          "planirati",
-          "-AM"
-        ],
-        [
-          "odmarati",
-          "-AM"
-        ],
-        [
-          "letjeti",
-          "-IM"
-        ],
-        [
-          "putovati",
-          "-EM"
-        ],
-        [
-          "ustati",
-          "-EM"
-        ],
-        [
-          "stizati",
-          "-EM"
-        ],
-        [
-          "kretati",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 802008,
-      "bodovi": 174
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 9,
+      "stranica": 4,
       "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
       "meta": {
-        "info": "Picture-to-word matching, pure recognition. Watch the near neighbours: *more* is the sea, *planina* a mountain, *otok* an island, and the pair most often swapped is *brod* (boat) and *vlak* (train).",
-        "infokratko": "*more* sea, *planina* mountain, *otok* island; *brod* boat, *vlak* train.",
+        "info": "Picture-to-word matching, pure recognition. Watch the near neighbours: *planina* is a mountain and *otok* an island; *majica* is a T-shirt and *košulja* a shirt with buttons and a collar.",
+        "infokratko": "*planina* mountain, *otok* island; *majica* T-shirt, *košulja* shirt.",
         "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
-          "more",
-          "sea"
-        ],
-        [
           "plaža",
           "beach"
         ],
@@ -47819,372 +44331,18 @@ window.PODACI = {
         [
           "planina",
           "mountain"
-        ],
-        [
-          "hotel",
-          "hotel"
-        ],
-        [
-          "vlak",
-          "train"
-        ],
-        [
-          "avion",
-          "airplane"
-        ],
-        [
-          "brod",
-          "boat"
-        ],
-        [
-          "kofer",
-          "suitcase"
-        ],
-        [
-          "majica",
-          "T-shirt"
-        ],
-        [
-          "šešir",
-          "hat"
-        ],
-        [
-          "sunce",
-          "sun"
-        ]
-      ],
-      "sortkljuc": 802009,
-      "bodovi": 174
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Croatian to English pairing. If a word will not come, its ending still hands you the gender: *plaža*, *karta* and *prtljaga* are feminine, while *otok*, *vlak* and *kofer* are masculine.",
-        "infokratko": "*plaža, karta, prtljaga* f; *otok, vlak, kofer* m.",
-        "opis": "Match each travel word with its English meaning."
-      },
-      "stavke": [
-        [
-          "vikend",
-          "weekend"
-        ],
-        [
-          "ljeto",
-          "summer"
-        ],
-        [
-          "vlak",
-          "train"
-        ],
-        [
-          "sutra",
-          "tomorrow"
-        ],
-        [
-          "aerodrom",
-          "airport"
-        ],
-        [
-          "karta",
-          "ticket"
-        ],
-        [
-          "avantura",
-          "adventure"
-        ],
-        [
-          "kofer",
-          "suitcase"
-        ],
-        [
-          "plaža",
-          "beach"
-        ],
-        [
-          "otok",
-          "island"
-        ],
-        [
-          "planina",
-          "mountain"
-        ],
-        [
-          "izlet",
-          "day trip"
-        ],
-        [
-          "odmor",
-          "holiday"
-        ],
-        [
-          "prtljaga",
-          "luggage"
-        ],
-        [
-          "ručnik",
-          "towel"
-        ],
-        [
-          "jastuk",
-          "pillow"
-        ],
-        [
-          "tjedan",
-          "week"
-        ],
-        [
-          "mjesec",
-          "month"
-        ]
-      ],
-      "sortkljuc": 802010,
-      "bodovi": 209
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A memory grid of the ten new verbs in their dictionary form. That is exactly the form the future needs after a helper, so every card you flip is already half a sentence: *Ja ću **putovati***.",
-        "infokratko": "Dictionary forms, ready for the future: *Ja ću putovati*.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "putovati",
-          "to travel"
-        ],
-        [
-          "plivati",
-          "to swim"
-        ],
-        [
-          "ručati",
-          "to have lunch"
-        ],
-        [
-          "ustati",
-          "to get up"
-        ],
-        [
-          "trenirati",
-          "to train"
-        ],
-        [
-          "planirati",
-          "to plan"
-        ],
-        [
-          "odmarati",
-          "to rest"
-        ],
-        [
-          "letjeti",
-          "to fly"
-        ],
-        [
-          "stizati",
-          "to arrive"
-        ],
-        [
-          "kretati",
-          "to set off"
-        ]
-      ],
-      "sortkljuc": 802011,
-      "bodovi": 209
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: the future stem",
-      "meta": {
-        "info": "A timed drill on one operation only: cut the final *-i* off the infinitive. *plivati → plivat*, *učiti → učit*, *biti → bit*. Nothing else changes — the vowel in front of the *-i* stays put, as in *letjeti → letjet*.",
-        "infokratko": "Cut the final *-i*: *plivati → plivat*, *letjeti → letjet*.",
-        "trajanje": "60",
-        "opis": "An infinitive flashes — tap the shape it takes in front of **ću**. Drop the final **-i**, and nothing else."
-      },
-      "stavke": [
-        [
-          "plivati",
-          "plivat"
-        ],
-        [
-          "putovati",
-          "putovat"
-        ],
-        [
-          "ručati",
-          "ručat"
-        ],
-        [
-          "ustati",
-          "ustat"
-        ],
-        [
-          "trenirati",
-          "trenirat"
-        ],
-        [
-          "planirati",
-          "planirat"
-        ],
-        [
-          "odmarati",
-          "odmarat"
-        ],
-        [
-          "letjeti",
-          "letjet"
-        ],
-        [
-          "čitati",
-          "čitat"
-        ],
-        [
-          "gledati",
-          "gledat"
-        ],
-        [
-          "slušati",
-          "slušat"
-        ],
-        [
-          "učiti",
-          "učit"
-        ],
-        [
-          "raditi",
-          "radit"
-        ],
-        [
-          "spavati",
-          "spavat"
-        ],
-        [
-          "pisati",
-          "pisat"
-        ],
-        [
-          "vidjeti",
-          "vidjet"
-        ],
-        [
-          "biti",
-          "bit"
-        ],
-        [
-          "jesti",
-          "jest"
-        ],
-        [
-          "piti",
-          "pit"
-        ],
-        [
-          "kupovati",
-          "kupovat"
-        ]
-      ],
-      "sortkljuc": 802012,
-      "bodovi": 209
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what is it?",
-      "meta": {
-        "info": "A timed vocabulary sprint, Croatian to English. Speed comes from the near-twins of English: *hotel*, *kamp*, *avion* and *plan* cost you nothing, so bank those fast and spend your seconds on the clothes.",
-        "infokratko": "Easy ones fast (*hotel, kamp, avion*); time on the clothes.",
-        "trajanje": "60",
-        "opis": "Travel sprint — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "plaža",
-          "beach"
-        ],
-        [
-          "otok",
-          "island"
-        ],
-        [
-          "planina",
-          "mountain"
-        ],
-        [
-          "selo",
-          "village"
-        ],
-        [
-          "hotel",
-          "hotel"
         ],
         [
           "kamp",
           "campsite"
         ],
         [
-          "put",
-          "way"
-        ],
-        [
-          "izlet",
-          "day trip"
-        ],
-        [
-          "odmor",
-          "holiday"
-        ],
-        [
-          "vlak",
-          "train"
-        ],
-        [
-          "avion",
-          "airplane"
-        ],
-        [
-          "brod",
-          "boat"
-        ],
-        [
           "aerodrom",
           "airport"
         ],
         [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "karta",
-          "ticket"
-        ],
-        [
           "kofer",
           "suitcase"
-        ],
-        [
-          "prtljaga",
-          "luggage"
         ],
         [
           "ručnik",
@@ -48207,220 +44365,26 @@ window.PODACI = {
           "dress"
         ],
         [
-          "hlače",
-          "trousers"
-        ],
-        [
-          "šešir",
-          "hat"
-        ],
-        [
           "šal",
           "scarf"
-        ],
-        [
-          "kaput",
-          "coat"
-        ],
-        [
-          "džemper",
-          "sweater"
-        ],
-        [
-          "sutra",
-          "tomorrow"
-        ],
-        [
-          "tjedan",
-          "week"
-        ],
-        [
-          "mjesec",
-          "month"
-        ],
-        [
-          "proljeće",
-          "spring"
-        ],
-        [
-          "jesen",
-          "autumn"
-        ],
-        [
-          "zima",
-          "winter"
         ]
       ],
-      "sortkljuc": 802013,
-      "bodovi": 209
+      "sortkljuc": 802004,
+      "bodovi": 318
     },
     {
       "cjelina": "Vocabulary 8",
       "cjelinanaslov": "Plans & Travel",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling practice, letter tile by letter tile. Croatian treats *lj*, *nj* and *dž* as single letters, so *košulja*, *haljina* and *proljeće* each take one **lj** tile, and *džemper* opens with a single **dž**.",
-        "infokratko": "**lj, nj, dž** one tile each: *košulja, haljina, džemper*.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
-      },
-      "stavke": [
-        [
-          "košulja",
-          "shirt"
-        ],
-        [
-          "haljina",
-          "dress"
-        ],
-        [
-          "putovanje",
-          "journey"
-        ],
-        [
-          "proljeće",
-          "spring"
-        ],
-        [
-          "prtljaga",
-          "luggage"
-        ],
-        [
-          "džemper",
-          "sweater"
-        ],
-        [
-          "ručnik",
-          "towel"
-        ],
-        [
-          "rezervacija",
-          "reservation"
-        ],
-        [
-          "avantura",
-          "adventure"
-        ],
-        [
-          "planina",
-          "mountain"
-        ]
-      ],
-      "sortkljuc": 802014,
-      "bodovi": 262
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 15,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the future stem",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Type the infinitive minus its final *-i*. A few verbs refuse to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.",
-        "infokratko": "Drop the *-i*; **-ći** verbs stay whole: *Ići ću*.",
-        "opis": "You get the infinitive — type the form that stands in front of *ću*."
+        "info": "You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**: *plivati*, not *plivam* or *plivat*. The diacritics are full letters: *plaža* has **ž**, *ručnik* has **č**, *košulja* has **lj**, *džemper* starts with **dž**, and *proljeće* has both **lj** and **ć**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once; verbs as infinitives (*plivati*). Diacritics count: *plaža, ručnik, košulja, džemper*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
-        [
-          "plivati →",
-          "plivat"
-        ],
-        [
-          "putovati →",
-          "putovat"
-        ],
-        [
-          "ručati →",
-          "ručat"
-        ],
-        [
-          "ustati →",
-          "ustat"
-        ],
-        [
-          "trenirati →",
-          "trenirat"
-        ],
-        [
-          "planirati →",
-          "planirat"
-        ],
-        [
-          "odmarati →",
-          "odmarat"
-        ],
-        [
-          "stizati →",
-          "stizat"
-        ],
-        [
-          "kretati →",
-          "kretat"
-        ],
-        [
-          "letjeti →",
-          "letjet"
-        ],
-        [
-          "čitati →",
-          "čitat"
-        ],
-        [
-          "gledati →",
-          "gledat"
-        ],
-        [
-          "učiti →",
-          "učit"
-        ],
-        [
-          "raditi →",
-          "radit"
-        ],
-        [
-          "pisati →",
-          "pisat"
-        ],
-        [
-          "vidjeti →",
-          "vidjet"
-        ],
-        [
-          "biti →",
-          "bit"
-        ],
-        [
-          "jesti →",
-          "jest"
-        ],
-        [
-          "ići →",
-          "ići"
-        ]
-      ],
-      "sortkljuc": 802015,
-      "bodovi": 297
-    },
-    {
-      "cjelina": "Vocabulary 8",
-      "cjelinanaslov": "Plans & Travel",
-      "stranica": 16,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the letter with its diacritic, not its plain twin.",
-        "infokratko": "With diacritics: *plaža, ručnik, košulja, šešir, džemper*.",
-        "opis": "The final round — type each word in Croatian."
-      },
-      "stavke": [
-        [
-          "sea",
-          "more"
-        ],
         [
           "beach",
           "plaža"
@@ -48432,54 +44396,6 @@ window.PODACI = {
         [
           "mountain",
           "planina"
-        ],
-        [
-          "village",
-          "selo"
-        ],
-        [
-          "hotel",
-          "hotel"
-        ],
-        [
-          "campsite",
-          "kamp"
-        ],
-        [
-          "day trip",
-          "izlet"
-        ],
-        [
-          "holiday",
-          "odmor"
-        ],
-        [
-          "journey",
-          "putovanje"
-        ],
-        [
-          "train",
-          "vlak"
-        ],
-        [
-          "airplane",
-          "avion"
-        ],
-        [
-          "boat",
-          "brod"
-        ],
-        [
-          "airport",
-          "aerodrom"
-        ],
-        [
-          "station",
-          "kolodvor"
-        ],
-        [
-          "ticket",
-          "karta"
         ],
         [
           "suitcase",
@@ -48494,36 +44410,12 @@ window.PODACI = {
           "ručnik"
         ],
         [
-          "pillow",
-          "jastuk"
-        ],
-        [
-          "T-shirt",
-          "majica"
-        ],
-        [
           "shirt",
           "košulja"
         ],
         [
           "dress",
           "haljina"
-        ],
-        [
-          "trousers",
-          "hlače"
-        ],
-        [
-          "hat",
-          "šešir"
-        ],
-        [
-          "scarf",
-          "šal"
-        ],
-        [
-          "coat",
-          "kaput"
         ],
         [
           "sweater",
@@ -48538,48 +44430,269 @@ window.PODACI = {
           "tjedan"
         ],
         [
-          "month",
-          "mjesec"
-        ],
-        [
-          "summer",
-          "ljeto"
-        ],
-        [
-          "winter",
-          "zima"
-        ],
-        [
           "spring",
           "proljeće"
         ],
         [
-          "autumn",
-          "jesen"
-        ],
-        [
-          "to travel",
-          "putovati"
+          "early",
+          "rano"
         ],
         [
           "to swim",
           "plivati"
         ],
         [
-          "to rest",
-          "odmarati"
-        ],
-        [
-          "to arrive",
-          "stizati"
-        ],
-        [
           "to fly",
           "letjeti"
         ]
       ],
-      "sortkljuc": 802016,
-      "bodovi": 297
+      "sortkljuc": 802005,
+      "bodovi": 541
+    },
+    {
+      "cjelina": "Vocabulary 8",
+      "cjelinanaslov": "Plans & Travel",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–6, half and half. Two pairs to keep apart: *auto* is a car, while *autobus* is a bus; *stizati* is to arrive, while *putovati* is to travel.",
+        "infokratko": "New and old words against the clock. *auto* car, *autobus* bus; *stizati* arrive, *putovati* travel.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "izlet",
+          "day trip"
+        ],
+        [
+          "hotel",
+          "hotel"
+        ],
+        [
+          "rezervacija",
+          "reservation"
+        ],
+        [
+          "knjiga",
+          "book"
+        ],
+        [
+          "kaput",
+          "coat"
+        ],
+        [
+          "ozbiljan",
+          "serious"
+        ],
+        [
+          "vikend",
+          "weekend"
+        ],
+        [
+          "koncert",
+          "concert"
+        ],
+        [
+          "mjesec",
+          "month"
+        ],
+        [
+          "auto",
+          "car"
+        ],
+        [
+          "jesen",
+          "autumn"
+        ],
+        [
+          "igla",
+          "needle"
+        ],
+        [
+          "putovati",
+          "to travel"
+        ],
+        [
+          "djeca",
+          "children"
+        ],
+        [
+          "stizati",
+          "to arrive"
+        ],
+        [
+          "autobus",
+          "bus"
+        ],
+        [
+          "kasno",
+          "late"
+        ],
+        [
+          "pjevač",
+          "singer"
+        ],
+        [
+          "navečer",
+          "in the evening"
+        ],
+        [
+          "policajac",
+          "police officer"
+        ]
+      ],
+      "sortkljuc": 802006,
+      "bodovi": 381
+    },
+    {
+      "cjelina": "Vocabulary 8",
+      "cjelinanaslov": "Plans & Travel",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*otok*, *krevet*), **-a** is feminine (*plaža*, *jabuka*), **-o** or **-e** is neuter (*putovanje*, *dijete*). It matters the moment a noun becomes an object: *Nosit ću **majicu***, but *Nosit ću **kofer***.",
+        "infokratko": "Consonant = masculine (*otok*), **-a** = feminine (*plaža*), **-o / -e** = neuter (*putovanje*).",
+        "stupci": "masculine | feminine | neuter",
+        "opis": "Look at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "otok",
+          "masculine"
+        ],
+        [
+          "kofer",
+          "masculine"
+        ],
+        [
+          "ručnik",
+          "masculine"
+        ],
+        [
+          "krevet",
+          "masculine"
+        ],
+        [
+          "kruh",
+          "masculine"
+        ],
+        [
+          "dućan",
+          "masculine"
+        ],
+        [
+          "pilot",
+          "masculine"
+        ],
+        [
+          "plaža",
+          "feminine"
+        ],
+        [
+          "majica",
+          "feminine"
+        ],
+        [
+          "planina",
+          "feminine"
+        ],
+        [
+          "jabuka",
+          "feminine"
+        ],
+        [
+          "lampa",
+          "feminine"
+        ],
+        [
+          "mačka",
+          "feminine"
+        ],
+        [
+          "putovanje",
+          "neuter"
+        ],
+        [
+          "proljeće",
+          "neuter"
+        ],
+        [
+          "dijete",
+          "neuter"
+        ]
+      ],
+      "sortkljuc": 802007,
+      "bodovi": 477
+    },
+    {
+      "cjelina": "Vocabulary 8",
+      "cjelinanaslov": "Plans & Travel",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Verbs as infinitives again, adjectives in the short form (*savršen*, *lijep*). The diacritics count: *kuća* ends in **ć**, *ponedjeljak* has **lj**, *hlače* has **č**, and *lijep* is written with **ije**, just as it sounds.",
+        "infokratko": "Mixed final round. Verbs as infinitives. Diacritics count: *kuća, ponedjeljak, hlače*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "pillow",
+          "jastuk"
+        ],
+        [
+          "today",
+          "danas"
+        ],
+        [
+          "trousers",
+          "hlače"
+        ],
+        [
+          "grandpa",
+          "djed"
+        ],
+        [
+          "Monday",
+          "ponedjeljak"
+        ],
+        [
+          "beans",
+          "grah"
+        ],
+        [
+          "in the morning",
+          "ujutro"
+        ],
+        [
+          "airplane",
+          "avion"
+        ],
+        [
+          "to rest",
+          "odmarati"
+        ],
+        [
+          "house",
+          "kuća"
+        ],
+        [
+          "perfect",
+          "savršen"
+        ],
+        [
+          "beautiful",
+          "lijep"
+        ]
+      ],
+      "sortkljuc": 802008,
+      "bodovi": 540
     },
     {
       "cjelina": "Grammar 8",
@@ -53650,10 +49763,6 @@ window.PODACI = {
           "hobby"
         ],
         [
-          "sport",
-          "sport"
-        ],
-        [
           "klub",
           "club"
         ],
@@ -53690,10 +49799,6 @@ window.PODACI = {
           "position"
         ],
         [
-          "lopta",
-          "ball"
-        ],
-        [
           "dres",
           "jersey"
         ],
@@ -53702,16 +49807,8 @@ window.PODACI = {
           "training"
         ],
         [
-          "utakmica",
-          "match"
-        ],
-        [
           "stadion",
           "stadium"
-        ],
-        [
-          "nogomet",
-          "football"
         ],
         [
           "košarka",
@@ -53736,14 +49833,10 @@ window.PODACI = {
         [
           "fotoaparat",
           "camera"
-        ],
-        [
-          "glazba",
-          "music"
         ]
       ],
       "sortkljuc": 902001,
-      "bodovi": 200
+      "bodovi": 393
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53753,8 +49846,8 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "The body",
       "meta": {
-        "info": "The parts of the body, with the last letter as the thing to notice. A consonant (*nos, zub, prst*) is masculine, **-a** (*glava, ruka, noga*) is feminine, **-o** or **-e** (*oko, koljeno, srce, rame*) is neuter. That letter decides which form of *moj* the word takes on the next pages.",
-        "infokratko": "Consonant m (*nos*), **-a** f (*ruka*), **-o/-e** n (*oko, srce*). It picks *moj* / *moja* / *moje*.",
+        "info": "The parts of the body, with the last letter as the thing to notice. A consonant (*zub, vrat, prst*) is masculine, **-a** (*glava, ruka, noga*) is feminine, **-o** or **-e** (*koljeno, srce, rame, lice*) is neuter. That letter decides which form of *moj* the word takes on the next pages. Two words exist only in the plural, like English *trousers*: *usta* (mouth) and *leđa* (back).",
+        "infokratko": "Consonant m (*zub*), **-a** f (*ruka*), **-o/-e** n (*koljeno, srce*). *usta* and *leđa* are plural.",
         "opis": "From head to foot. Watch the last letter of each word — it decides almost everything in Grammar 9."
       },
       "stavke": [
@@ -53773,18 +49866,6 @@ window.PODACI = {
         [
           "lice",
           "face"
-        ],
-        [
-          "oko",
-          "eye"
-        ],
-        [
-          "uho",
-          "ear"
-        ],
-        [
-          "nos",
-          "nose"
         ],
         [
           "usta",
@@ -53840,7 +49921,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 902002,
-      "bodovi": 200
+      "bodovi": 393
     },
     {
       "cjelina": "Vocabulary 9",
@@ -53848,75 +49929,10 @@ window.PODACI = {
       "stranica": 3,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "Ten new verbs",
-      "meta": {
-        "info": "Twelve verbs with three present-tense forms each — six of them already familiar. Memorise the *ja* form; the *ti* and *on/ona* forms follow from it as in Lesson 3. Two verbs change a consonant between the infinitive and the *ja* form: *skakati → skačem* and *plesati → plešem*.",
-        "infokratko": "Learn the *ja* form. *skakati → skačem*, *plesati → plešem*.",
-        "opis": "Verbs for sport and free time. Learn the *ja* form — the other two follow from it."
-      },
-      "stavke": [
-        [
-          "trčati → trčim, trčiš, trči",
-          "to run"
-        ],
-        [
-          "skakati → skačem, skačeš, skače",
-          "to jump"
-        ],
-        [
-          "vježbati → vježbam, vježbaš, vježba",
-          "to exercise"
-        ],
-        [
-          "trenirati → treniram, treniraš, trenira",
-          "to train"
-        ],
-        [
-          "igrati → igram, igraš, igra",
-          "to play (a game)"
-        ],
-        [
-          "svirati → sviram, sviraš, svira",
-          "to play (an instrument)"
-        ],
-        [
-          "navijati → navijam, navijaš, navija",
-          "to cheer, to support"
-        ],
-        [
-          "pobijediti → pobijedim, pobijediš, pobijedi",
-          "to win"
-        ],
-        [
-          "izgubiti → izgubim, izgubiš, izgubi",
-          "to lose"
-        ],
-        [
-          "plesati → plešem, plešeš, pleše",
-          "to dance"
-        ],
-        [
-          "crtati → crtam, crtaš, crta",
-          "to draw"
-        ],
-        [
-          "slikati → slikam, slikaš, slika",
-          "to paint, to take pictures"
-        ]
-      ],
-      "sortkljuc": 902003,
-      "bodovi": 171
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "kartice",
       "naslov": "Possessives & describing words",
       "meta": {
-        "info": "The seven possessives, each in three forms, plus the adjectives you need to describe a team. A possessive changes its ending like an adjective: *moj klub*, *moja lopta*, *moje koljeno*. Grammar 9 drills the rule; here only the words are to be learned.",
-        "infokratko": "Possessives work like adjectives: *moj klub, moja lopta, moje koljeno*.",
+        "info": "The seven possessives, each in three forms, plus the adjectives you need to describe a team. A possessive changes its ending like an adjective: *moj klub*, *moja momčad*, *moje koljeno*. Grammar 9 drills the rule; here only the words are to be learned.",
+        "infokratko": "Possessives work like adjectives: *moj klub, moja momčad, moje koljeno*.",
         "opis": "Whose is it, and what is it like? The possessive is shown in its three forms (m. / f. / n.)."
       },
       "stavke": [
@@ -53965,14 +49981,6 @@ window.PODACI = {
           "fair, honest"
         ],
         [
-          "jak / jaka",
-          "strong"
-        ],
-        [
-          "brz / brza",
-          "fast"
-        ],
-        [
           "slobodan / slobodna",
           "free"
         ],
@@ -53993,22 +50001,42 @@ window.PODACI = {
           "outside"
         ]
       ],
-      "sortkljuc": 902004,
-      "bodovi": 200
+      "sortkljuc": 902003,
+      "bodovi": 393
     },
     {
       "cjelina": "Vocabulary 9",
       "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 5,
+      "stranica": 4,
       "broj": 9999,
       "format": "kartice",
       "naslov": "Phrases you will use",
       "meta": {
-        "info": "Whole phrases, to be learned as they are. Two of them use grammar that comes later — *Boli me koljeno* (my knee hurts) and *Navijam za Hajduk* (I support Hajduk) — so treat them as fixed expressions for now. The rest are ordinary sentences built from this level's words.",
-        "infokratko": "Fixed phrases: *Boli me koljeno*, *Navijam za Hajduk*.",
-        "opis": "Sentences you will say at a match, at training or about your hobby. Take each one as a whole."
+        "info": "Five new verbs first, each with its *ja*, *ti* and *on/ona* form. One of them changes a consonant: *skakati → skačem*. *pobijediti* and *izgubiti* keep their **-i-**: *pobijedim*, *izgubim*. Then whole phrases, to be learned as they are. Three use grammar that comes later — *Boli me koljeno* (my knee hurts), *Navijam za Hajduk* (I support Hajduk) and *Naš klub je pobijedio!* (our club won) — so treat them as fixed expressions for now.",
+        "infokratko": "Learn the *ja* form: *skačem, navijam, pobijedim*. Then fixed phrases: *Boli me koljeno*, *Navijam za Hajduk*.",
+        "opis": "Five verbs for the match and the hobby, then sentences you will say at a match, at training or about your hobby. Take each phrase as a whole."
       },
       "stavke": [
+        [
+          "skakati → skačem, skačeš, skače",
+          "to jump"
+        ],
+        [
+          "navijati → navijam, navijaš, navija",
+          "to cheer, to support"
+        ],
+        [
+          "pobijediti → pobijedim, pobijediš, pobijedi",
+          "to win"
+        ],
+        [
+          "izgubiti → izgubim, izgubiš, izgubi",
+          "to lose"
+        ],
+        [
+          "slikati → slikam, slikaš, slika",
+          "to paint, to take pictures"
+        ],
         [
           "Moj hobi je fotografija.",
           "My hobby is photography."
@@ -54050,275 +50078,17 @@ window.PODACI = {
           "Let's go to the match!"
         ],
         [
-          "Bravo, momčad!",
-          "Well done, team!"
-        ],
-        [
           "Imam slobodan dan.",
           "I have a free day."
         ]
       ],
-      "sortkljuc": 902005,
-      "bodovi": 171
+      "sortkljuc": 902004,
+      "bodovi": 393
     },
     {
       "cjelina": "Vocabulary 9",
       "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Sport, body or hobby?",
-      "meta": {
-        "info": "Sorting by meaning. Sport words name the game and the people in it, body words name parts of you, hobby words name what you do in your free time. The ending still gives the gender: *lopta* and *ruka* are feminine, *dres* and *nos* masculine.",
-        "infokratko": "Sport, body or hobby. *lopta, ruka* f; *dres, nos* m.",
-        "opis": "Sort each word: part of the game, part of the body, or a hobby.",
-        "stupci": "SPORT | TIJELO | HOBI"
-      },
-      "stavke": [
-        [
-          "lopta",
-          "SPORT"
-        ],
-        [
-          "dres",
-          "SPORT"
-        ],
-        [
-          "trener",
-          "SPORT"
-        ],
-        [
-          "gol",
-          "SPORT"
-        ],
-        [
-          "utakmica",
-          "SPORT"
-        ],
-        [
-          "momčad",
-          "SPORT"
-        ],
-        [
-          "stadion",
-          "SPORT"
-        ],
-        [
-          "glava",
-          "TIJELO"
-        ],
-        [
-          "ruka",
-          "TIJELO"
-        ],
-        [
-          "noga",
-          "TIJELO"
-        ],
-        [
-          "koljeno",
-          "TIJELO"
-        ],
-        [
-          "oko",
-          "TIJELO"
-        ],
-        [
-          "srce",
-          "TIJELO"
-        ],
-        [
-          "zub",
-          "TIJELO"
-        ],
-        [
-          "fotografija",
-          "HOBI"
-        ],
-        [
-          "gitara",
-          "HOBI"
-        ],
-        [
-          "šah",
-          "HOBI"
-        ],
-        [
-          "joga",
-          "HOBI"
-        ],
-        [
-          "glazba",
-          "HOBI"
-        ],
-        [
-          "fotoaparat",
-          "HOBI"
-        ]
-      ],
-      "sortkljuc": 902006,
-      "bodovi": 242
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which family?",
-      "meta": {
-        "info": "The three present-tense families from Lesson 3, applied to the new verbs. The *ja* form decides: *treniram* is **-AM**, *trčim* is **-IM**, *plešem* is **-EM**. The infinitive is not a reliable guide — *trčati* and *igrati* look alike and land in different columns.",
-        "infokratko": "By the *ja* form: *treniram* **-am**, *trčim* **-im**, *plešem* **-em**.",
-        "opis": "Sort each verb by its *ja* form. Seven say -am, three say -im, two say -em.",
-        "stupci": "-AM | -IM | -EM"
-      },
-      "stavke": [
-        [
-          "vježbati",
-          "-AM"
-        ],
-        [
-          "trenirati",
-          "-AM"
-        ],
-        [
-          "igrati",
-          "-AM"
-        ],
-        [
-          "svirati",
-          "-AM"
-        ],
-        [
-          "navijati",
-          "-AM"
-        ],
-        [
-          "crtati",
-          "-AM"
-        ],
-        [
-          "slikati",
-          "-AM"
-        ],
-        [
-          "trčati",
-          "-IM"
-        ],
-        [
-          "pobijediti",
-          "-IM"
-        ],
-        [
-          "izgubiti",
-          "-IM"
-        ],
-        [
-          "skakati",
-          "-EM"
-        ],
-        [
-          "plesati",
-          "-EM"
-        ]
-      ],
-      "sortkljuc": 902007,
-      "bodovi": 200
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "moj, moja or moje?",
-      "meta": {
-        "info": "Sorting nouns by the form of *moj* they take, and the last letter of the noun is your guide. A consonant takes **moj** (*dres*), **-a** takes **moja** (*lopta*), **-o** or **-e** takes **moje** (*koljeno*, *srce*). One trap: *momčad* ends in a consonant but is feminine, so it takes *moja*. The owner is the same in every case, so the owner does not affect the ending.",
-        "infokratko": "Consonant **moj**, **-a** **moja**, **-o/-e** **moje**. *momčad* is feminine: *moja*.",
-        "opis": "Which form of *my* does each noun take? The last letter of the noun decides.",
-        "stupci": "MOJ | MOJA | MOJE"
-      },
-      "stavke": [
-        [
-          "dres",
-          "MOJ"
-        ],
-        [
-          "klub",
-          "MOJ"
-        ],
-        [
-          "trener",
-          "MOJ"
-        ],
-        [
-          "hobi",
-          "MOJ"
-        ],
-        [
-          "nos",
-          "MOJ"
-        ],
-        [
-          "zub",
-          "MOJ"
-        ],
-        [
-          "lopta",
-          "MOJA"
-        ],
-        [
-          "gitara",
-          "MOJA"
-        ],
-        [
-          "glava",
-          "MOJA"
-        ],
-        [
-          "ruka",
-          "MOJA"
-        ],
-        [
-          "noga",
-          "MOJA"
-        ],
-        [
-          "momčad",
-          "MOJA"
-        ],
-        [
-          "koljeno",
-          "MOJE"
-        ],
-        [
-          "oko",
-          "MOJE"
-        ],
-        [
-          "uho",
-          "MOJE"
-        ],
-        [
-          "srce",
-          "MOJE"
-        ],
-        [
-          "rame",
-          "MOJE"
-        ],
-        [
-          "tijelo",
-          "MOJE"
-        ]
-      ],
-      "sortkljuc": 902008,
-      "bodovi": 242
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 9,
+      "stranica": 5,
       "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
@@ -54329,16 +50099,20 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "lopta",
-          "ball"
-        ],
-        [
           "dres",
           "jersey"
         ],
         [
-          "gitara",
-          "guitar"
+          "košarka",
+          "basketball"
+        ],
+        [
+          "tenis",
+          "tennis"
+        ],
+        [
+          "šah",
+          "chess"
         ],
         [
           "fotoaparat",
@@ -54349,720 +50123,49 @@ window.PODACI = {
           "head"
         ],
         [
-          "ruka",
-          "arm"
-        ],
-        [
-          "noga",
-          "leg"
-        ],
-        [
-          "oko",
-          "eye"
-        ],
-        [
-          "uho",
-          "ear"
-        ],
-        [
-          "nos",
-          "nose"
-        ],
-        [
-          "zub",
-          "tooth"
-        ],
-        [
-          "srce",
-          "heart"
-        ]
-      ],
-      "sortkljuc": 902009,
-      "bodovi": 171
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Croatian to English pairing. Two pairs are easy to confuse: *ruka* is the arm or hand and *noga* the leg or foot, and *igrač* is a player while *igrati* is to play.",
-        "infokratko": "*ruka* arm/hand, *noga* leg/foot; *igrač* player, *igrati* play.",
-        "opis": "Match each word with its English meaning."
-      },
-      "stavke": [
-        [
-          "momčad",
-          "team"
-        ],
-        [
-          "igrač",
-          "player"
-        ],
-        [
-          "kapetan",
-          "captain"
-        ],
-        [
-          "golman",
-          "goalkeeper"
-        ],
-        [
-          "obrana",
-          "defence"
-        ],
-        [
-          "utakmica",
-          "match"
-        ],
-        [
-          "trening",
-          "training"
-        ],
-        [
-          "dres",
-          "jersey"
-        ],
-        [
-          "ruka",
-          "arm"
-        ],
-        [
-          "noga",
-          "leg"
-        ],
-        [
-          "koljeno",
-          "knee"
-        ],
-        [
-          "rame",
-          "shoulder"
-        ],
-        [
-          "leđa",
-          "back"
-        ],
-        [
-          "kosa",
-          "hair"
-        ],
-        [
-          "koža",
-          "skin"
-        ],
-        [
-          "krv",
-          "blood"
-        ],
-        [
-          "kost",
-          "bone"
-        ],
-        [
-          "omiljen",
-          "favorite"
-        ]
-      ],
-      "sortkljuc": 902010,
-      "bodovi": 200
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory: the ja-form",
-      "meta": {
-        "info": "A memory grid of the ten verbs in their *ja* form. Each card is already a complete sentence, because the **-m** ending means *I*: *treniram* is *I train*, *plešem* is *I dance*.",
-        "infokratko": "**-m** = I: *treniram*, *plešem*.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "trčim",
-          "I run"
-        ],
-        [
-          "skačem",
-          "I jump"
-        ],
-        [
-          "vježbam",
-          "I exercise"
-        ],
-        [
-          "treniram",
-          "I train"
-        ],
-        [
-          "navijam",
-          "I cheer"
-        ],
-        [
-          "pobijedim",
-          "I win"
-        ],
-        [
-          "izgubim",
-          "I lose"
-        ],
-        [
-          "plešem",
-          "I dance"
-        ],
-        [
-          "crtam",
-          "I draw"
-        ],
-        [
-          "slikam",
-          "I paint"
-        ]
-      ],
-      "sortkljuc": 902011,
-      "bodovi": 200
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what is it?",
-      "meta": {
-        "info": "A timed meaning sprint over the whole level. The cognates cost no time — *klub, tenis, joga, šah* — so answer those first and spend the seconds on the body words.",
-        "infokratko": "Easy ones first (*klub, tenis, joga*); time on the body words.",
-        "trajanje": "60",
-        "opis": "Sport and body sprint — tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "hobi",
-          "hobby"
-        ],
-        [
-          "klub",
-          "club"
-        ],
-        [
-          "momčad",
-          "team"
-        ],
-        [
-          "trener",
-          "coach"
-        ],
-        [
-          "kapetan",
-          "captain"
-        ],
-        [
-          "igrač",
-          "player"
-        ],
-        [
-          "golman",
-          "goalkeeper"
-        ],
-        [
-          "gol",
-          "goal"
-        ],
-        [
-          "obrana",
-          "defence"
-        ],
-        [
-          "lopta",
-          "ball"
-        ],
-        [
-          "dres",
-          "jersey"
-        ],
-        [
-          "trening",
-          "training"
-        ],
-        [
-          "utakmica",
-          "match"
-        ],
-        [
-          "stadion",
-          "stadium"
-        ],
-        [
-          "nogomet",
-          "football"
-        ],
-        [
-          "košarka",
-          "basketball"
-        ],
-        [
-          "šah",
-          "chess"
-        ],
-        [
-          "glava",
-          "head"
-        ],
-        [
-          "kosa",
-          "hair"
-        ],
-        [
           "lice",
           "face"
         ],
         [
-          "oko",
-          "eye"
-        ],
-        [
-          "uho",
-          "ear"
-        ],
-        [
-          "nos",
-          "nose"
-        ],
-        [
           "zub",
           "tooth"
-        ],
-        [
-          "vrat",
-          "neck"
-        ],
-        [
-          "rame",
-          "shoulder"
         ],
         [
           "ruka",
           "arm"
         ],
         [
-          "prst",
-          "finger"
-        ],
-        [
-          "leđa",
-          "back"
+          "noga",
+          "leg"
         ],
         [
           "srce",
           "heart"
         ],
         [
-          "noga",
-          "leg"
-        ],
-        [
-          "koljeno",
-          "knee"
-        ],
-        [
-          "koža",
-          "skin"
-        ],
-        [
-          "krv",
-          "blood"
-        ],
-        [
-          "strog",
-          "strict"
-        ],
-        [
-          "pošten",
-          "fair"
-        ],
-        [
-          "slobodan",
-          "free"
-        ],
-        [
-          "različit",
-          "different"
+          "rame",
+          "shoulder"
         ]
       ],
-      "sortkljuc": 902012,
-      "bodovi": 200
+      "sortkljuc": 902005,
+      "bodovi": 337
     },
     {
       "cjelina": "Vocabulary 9",
       "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: the ja-form",
-      "meta": {
-        "info": "Timed recognition of the *ja* forms. Every answer begins with *I*, because the **-m** ending means the speaker. The two consonant changes — *skačem*, *plešem* — are the ones most likely to cost you a second.",
-        "infokratko": "All *I* forms. Watch *skačem, plešem*.",
-        "trajanje": "60",
-        "opis": "The *ja* form appears — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "trčim",
-          "I run"
-        ],
-        [
-          "skačem",
-          "I jump"
-        ],
-        [
-          "vježbam",
-          "I exercise"
-        ],
-        [
-          "treniram",
-          "I train"
-        ],
-        [
-          "igram",
-          "I play"
-        ],
-        [
-          "sviram",
-          "I play (an instrument)"
-        ],
-        [
-          "navijam",
-          "I cheer"
-        ],
-        [
-          "pobijedim",
-          "I win"
-        ],
-        [
-          "izgubim",
-          "I lose"
-        ],
-        [
-          "plešem",
-          "I dance"
-        ],
-        [
-          "crtam",
-          "I draw"
-        ],
-        [
-          "slikam",
-          "I paint"
-        ]
-      ],
-      "sortkljuc": 902013,
-      "bodovi": 200
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Words from earlier levels",
-      "meta": {
-        "info": "A timed return to words from Vocabulary 6 and 7 that have not appeared for a while. Nothing on this page is new; the point is to keep older words in use. If a word will not come back to you, read its ending for the gender: *knjižnica* and *torba* are feminine, *ključ* and *ispit* are masculine.",
-        "infokratko": "Older words from levels 6–7. The ending gives the gender.",
-        "trajanje": "60",
-        "opis": "Words from two and three levels ago — tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "ključ",
-          "key"
-        ],
-        [
-          "knjižnica",
-          "library"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "semafor",
-          "traffic light"
-        ],
-        [
-          "spomenik",
-          "monument"
-        ],
-        [
-          "ulica",
-          "street"
-        ],
-        [
-          "ispit",
-          "exam"
-        ],
-        [
-          "ocjena",
-          "grade"
-        ],
-        [
-          "zadaća",
-          "homework"
-        ],
-        [
-          "torba",
-          "bag"
-        ],
-        [
-          "odgovor",
-          "answer"
-        ],
-        [
-          "pauza",
-          "break"
-        ],
-        [
-          "riječ",
-          "word"
-        ],
-        [
-          "godina",
-          "year"
-        ]
-      ],
-      "sortkljuc": 902014,
-      "bodovi": 200
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *koljeno* takes one **lj** tile, and *č*, *ć*, *š*, *ž* are letters of their own: *momčad*, *košarka*, *igrač*.",
-        "infokratko": "**lj** is one tile (*koljeno*); *č, ć, š, ž* are letters.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work."
-      },
-      "stavke": [
-        [
-          "koljeno",
-          "knee"
-        ],
-        [
-          "momčad",
-          "team"
-        ],
-        [
-          "košarka",
-          "basketball"
-        ],
-        [
-          "igrač",
-          "player"
-        ],
-        [
-          "utakmica",
-          "match"
-        ],
-        [
-          "fotografija",
-          "photography"
-        ],
-        [
-          "leđa",
-          "back"
-        ],
-        [
-          "koža",
-          "skin"
-        ],
-        [
-          "vježbati",
-          "to exercise"
-        ],
-        [
-          "navijati",
-          "to cheer"
-        ]
-      ],
-      "sortkljuc": 902015,
-      "bodovi": 242
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 16,
+      "stranica": 6,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the ja-form",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Type the form you use about yourself, from the infinitive. Most verbs take the family vowel plus **-m** (*trenirati → treniram*, *trčati → trčim*); two change a consonant on the way (*skakati → skačem*, *plesati → plešem*).",
-        "infokratko": "Vowel + **-m**: *treniram, trčim*; *skačem, plešem*.",
-        "opis": "You get the infinitive — type the form you would use about yourself."
+        "info": "You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**: *skakati*, not *skačem*. The diacritics are full letters: *momčad* and *igrač* have **č**, *šah* starts with **š**, *leđa* has **đ**, and *koljeno* has **lj**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once; verbs as infinitives (*skakati*). Diacritics count: *momčad, igrač, šah, leđa*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
-        [
-          "trčati →",
-          "trčim"
-        ],
-        [
-          "skakati →",
-          "skačem"
-        ],
-        [
-          "vježbati →",
-          "vježbam"
-        ],
-        [
-          "trenirati →",
-          "treniram"
-        ],
-        [
-          "igrati →",
-          "igram"
-        ],
-        [
-          "svirati →",
-          "sviram"
-        ],
-        [
-          "navijati →",
-          "navijam"
-        ],
-        [
-          "pobijediti →",
-          "pobijedim"
-        ],
-        [
-          "izgubiti →",
-          "izgubim"
-        ],
-        [
-          "plesati →",
-          "plešem"
-        ],
-        [
-          "crtati →",
-          "crtam"
-        ],
-        [
-          "slikati →",
-          "slikam"
-        ]
-      ],
-      "sortkljuc": 902016,
-      "bodovi": 270
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 17,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type the possessive phrase",
-      "meta": {
-        "info": "Type the whole phrase: possessive plus noun. The bracket gives the owner, the noun gives the ending — a consonant takes the bare form (*moj dres*), **-a** takes **-a** (*moja lopta*), **-o** or **-e** takes **-o** or **-e** (*njegovo srce*, *moje koljeno*).",
-        "infokratko": "Owner from the bracket, ending from the noun: *moj dres, moja lopta, moje koljeno*.",
-        "opis": "Two words: the possessive in the right form, then the noun."
-      },
-      "stavke": [
-        [
-          "my ball →",
-          "moja lopta"
-        ],
-        [
-          "my jersey →",
-          "moj dres"
-        ],
-        [
-          "my knee →",
-          "moje koljeno"
-        ],
-        [
-          "our club →",
-          "naš klub"
-        ],
-        [
-          "our team →",
-          "naša momčad"
-        ],
-        [
-          "our sea →",
-          "naše more"
-        ],
-        [
-          "his guitar →",
-          "njegova gitara"
-        ],
-        [
-          "his heart →",
-          "njegovo srce"
-        ],
-        [
-          "her hobby →",
-          "njezin hobi"
-        ],
-        [
-          "her position →",
-          "njezina pozicija"
-        ],
-        [
-          "their coach →",
-          "njihov trener"
-        ],
-        [
-          "their defence →",
-          "njihova obrana"
-        ],
-        [
-          "your (ti) camera →",
-          "tvoj fotoaparat"
-        ],
-        [
-          "your (vi) team →",
-          "vaša momčad"
-        ]
-      ],
-      "sortkljuc": 902017,
-      "bodovi": 270
-    },
-    {
-      "cjelina": "Vocabulary 9",
-      "cjelinanaslov": "Sport & Hobbies",
-      "stranica": 18,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English to Croatian, all in the naming form. Diacritics are separate letters, so *momčad*, *košarka*, *igrač*, *leđa* and *koža* count only with their marks in place, and the verbs are wanted as infinitives.",
-        "infokratko": "Naming forms, verbs as infinitives, with diacritics: *momčad, igrač, leđa*.",
-        "opis": "The final round — type each word in Croatian."
-      },
-      "stavke": [
-        [
-          "hobby",
-          "hobi"
-        ],
-        [
-          "club",
-          "klub"
-        ],
         [
           "team",
           "momčad"
-        ],
-        [
-          "coach",
-          "trener"
-        ],
-        [
-          "captain",
-          "kapetan"
         ],
         [
           "player",
@@ -55073,80 +50176,24 @@ window.PODACI = {
           "golman"
         ],
         [
-          "goal",
-          "gol"
-        ],
-        [
-          "defence",
-          "obrana"
-        ],
-        [
-          "position",
-          "pozicija"
-        ],
-        [
-          "ball",
-          "lopta"
-        ],
-        [
           "jersey",
           "dres"
-        ],
-        [
-          "training",
-          "trening"
-        ],
-        [
-          "match",
-          "utakmica"
         ],
         [
           "stadium",
           "stadion"
         ],
         [
-          "football",
-          "nogomet"
-        ],
-        [
-          "basketball",
-          "košarka"
-        ],
-        [
           "chess",
           "šah"
-        ],
-        [
-          "camera",
-          "fotoaparat"
-        ],
-        [
-          "music",
-          "glazba"
-        ],
-        [
-          "body",
-          "tijelo"
         ],
         [
           "head",
           "glava"
         ],
         [
-          "hair",
-          "kosa"
-        ],
-        [
-          "eye",
-          "oko"
-        ],
-        [
-          "ear",
-          "uho"
-        ],
-        [
-          "nose",
-          "nos"
+          "face",
+          "lice"
         ],
         [
           "tooth",
@@ -55157,88 +50204,273 @@ window.PODACI = {
           "rame"
         ],
         [
-          "arm",
-          "ruka"
-        ],
-        [
-          "finger",
-          "prst"
-        ],
-        [
-          "back",
-          "leđa"
-        ],
-        [
           "heart",
           "srce"
-        ],
-        [
-          "leg",
-          "noga"
         ],
         [
           "knee",
           "koljeno"
         ],
         [
-          "skin",
-          "koža"
-        ],
-        [
-          "blood",
-          "krv"
-        ],
-        [
-          "to run",
-          "trčati"
+          "back",
+          "leđa"
         ],
         [
           "to jump",
           "skakati"
         ],
         [
-          "to exercise",
-          "vježbati"
-        ],
-        [
-          "to train",
-          "trenirati"
-        ],
-        [
-          "to cheer",
-          "navijati"
-        ],
-        [
           "to win",
           "pobijediti"
+        ]
+      ],
+      "sortkljuc": 902006,
+      "bodovi": 535
+    },
+    {
+      "cjelina": "Vocabulary 9",
+      "cjelinanaslov": "Sport & Hobbies",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–7, half and half. The cognates cost no time — *hobi, klub, kapetan, biologija* — so spend the seconds on the rest. Two pairs to keep apart: *kosa* is hair and *vrat* the neck; *misliti* is to think, while *brojati* is to count.",
+        "infokratko": "New and old words against the clock. *kosa* hair, *vrat* neck; *misliti* think, *brojati* count.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "hobi",
+          "hobby"
         ],
         [
-          "to lose",
-          "izgubiti"
+          "posao",
+          "job"
         ],
         [
-          "to dance",
-          "plesati"
+          "klub",
+          "club"
+        ],
+        [
+          "miran",
+          "calm"
+        ],
+        [
+          "kapetan",
+          "captain"
+        ],
+        [
+          "ići",
+          "to go"
+        ],
+        [
+          "obrana",
+          "defence"
+        ],
+        [
+          "biologija",
+          "biology"
+        ],
+        [
+          "trening",
+          "training"
+        ],
+        [
+          "mekan",
+          "soft"
+        ],
+        [
+          "košarka",
+          "basketball"
+        ],
+        [
+          "misliti",
+          "to think"
+        ],
+        [
+          "kosa",
+          "hair"
+        ],
+        [
+          "benzin",
+          "gasoline"
+        ],
+        [
+          "vrat",
+          "neck"
+        ],
+        [
+          "brojati",
+          "to count"
+        ],
+        [
+          "navijati",
+          "to cheer"
+        ],
+        [
+          "susjed",
+          "neighbour"
+        ],
+        [
+          "omiljen",
+          "favorite"
+        ],
+        [
+          "mobitel",
+          "mobile phone"
+        ]
+      ],
+      "sortkljuc": 902007,
+      "bodovi": 393
+    },
+    {
+      "cjelina": "Vocabulary 9",
+      "cjelinanaslov": "Sport & Hobbies",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "moj, moja or moje?",
+      "meta": {
+        "info": "Sorting nouns by the form of *moj* they take, and the last letter of the noun is your guide. A consonant takes **moj** (*dres*, *lav*), **-a** takes **moja** (*glava*, *banka*), **-o** or **-e** takes **moje** (*koljeno*, *jaje*). One trap: *momčad* ends in a consonant but is feminine, so it takes *moja*. The owner is the same in every case, so the owner does not affect the ending.",
+        "infokratko": "Consonant **moj**, **-a** **moja**, **-o/-e** **moje**. *momčad* is feminine: *moja*.",
+        "opis": "Which form of *my* does each noun take? The last letter of the noun decides.",
+        "stupci": "MOJ | MOJA | MOJE"
+      },
+      "stavke": [
+        [
+          "dres",
+          "MOJ"
+        ],
+        [
+          "zub",
+          "MOJ"
+        ],
+        [
+          "trener",
+          "MOJ"
+        ],
+        [
+          "lav",
+          "MOJ"
+        ],
+        [
+          "radnik",
+          "MOJ"
+        ],
+        [
+          "glava",
+          "MOJA"
+        ],
+        [
+          "momčad",
+          "MOJA"
+        ],
+        [
+          "banka",
+          "MOJA"
+        ],
+        [
+          "djevojka",
+          "MOJA"
+        ],
+        [
+          "jagoda",
+          "MOJA"
+        ],
+        [
+          "koljeno",
+          "MOJE"
+        ],
+        [
+          "srce",
+          "MOJE"
+        ],
+        [
+          "lice",
+          "MOJE"
+        ],
+        [
+          "djetinjstvo",
+          "MOJE"
+        ],
+        [
+          "ljeto",
+          "MOJE"
+        ],
+        [
+          "jaje",
+          "MOJE"
+        ]
+      ],
+      "sortkljuc": 902008,
+      "bodovi": 478
+    },
+    {
+      "cjelina": "Vocabulary 9",
+      "cjelinanaslov": "Sport & Hobbies",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Verbs as infinitives again, adjectives in the short form (*strog*, *moderan*). The diacritics count: *koža* has **ž**, and *mali* and *more* are written just as they sound. *brzo* is the adverb (*quickly*); the adjective *brz* is not wanted here.",
+        "infokratko": "Mixed final round. Verbs as infinitives, adjectives short (*strog*). Diacritics count: *koža*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "finger",
+          "prst"
+        ],
+        [
+          "small",
+          "mali"
+        ],
+        [
+          "skin",
+          "koža"
+        ],
+        [
+          "sea",
+          "more"
+        ],
+        [
+          "bone",
+          "kost"
+        ],
+        [
+          "modern",
+          "moderan"
         ],
         [
           "strict",
           "strog"
         ],
         [
-          "fair",
-          "pošten"
+          "home",
+          "dom"
         ],
         [
-          "free",
-          "slobodan"
+          "to lose",
+          "izgubiti"
         ],
         [
-          "different",
-          "različit"
+          "bicycle",
+          "bicikl"
+        ],
+        [
+          "outside",
+          "vani"
+        ],
+        [
+          "quickly",
+          "brzo"
         ]
       ],
-      "sortkljuc": 902018,
-      "bodovi": 271
+      "sortkljuc": 902009,
+      "bodovi": 535
     },
     {
       "cjelina": "Grammar 9",
@@ -60375,19 +55607,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Free time & entertainment",
       "meta": {
-        "info": "The words for what you did with your free time. Film words are mostly international — *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *film* takes *dobar film*, *serija* takes *dobra serija* and *kino* takes *dobro kino*.",
-        "infokratko": "Free-time words, mostly international. The ending gives the gender: *dobar film, dobra serija, dobro kino*.",
+        "info": "The words for what you watched and where you went. Most are international — *serija*, *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *horor* takes *dobar horor*, *serija* takes *dobra serija* and *kazalište* takes *dobro kazalište*. Two to learn by heart: *kazalište* is the theater and *izložba* an exhibition.",
+        "infokratko": "Free-time words, mostly international. The ending gives the gender: *dobar horor, dobra serija, dobro kazalište*.",
         "opis": "What you watched, where you went, what you ate. Tap a card to reveal the meaning."
       },
       "stavke": [
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "film",
-          "film"
-        ],
         [
           "serija",
           "series"
@@ -60417,14 +55641,6 @@ window.PODACI = {
           "TV program"
         ],
         [
-          "koncert",
-          "concert"
-        ],
-        [
-          "utakmica",
-          "match"
-        ],
-        [
           "kazalište",
           "theater"
         ],
@@ -60435,42 +55651,10 @@ window.PODACI = {
         [
           "pizza",
           "pizza"
-        ],
-        [
-          "sladoled",
-          "ice cream"
-        ],
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "tenis",
-          "tennis"
-        ],
-        [
-          "šah",
-          "chess"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "ispit",
-          "exam"
-        ],
-        [
-          "posao",
-          "work, job"
-        ],
-        [
-          "vikend",
-          "weekend"
         ]
       ],
       "sortkljuc": 1002001,
-      "bodovi": 235
+      "bodovi": 361
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60480,8 +55664,8 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "When did it happen?",
       "meta": {
-        "info": "Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *danas*, *sutra*, *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.",
-        "infokratko": "Time words. *jučer* yesterday, *sinoć* last night, *prekjučer* day before. Not all are past: *sutra, uskoro*.",
+        "info": "Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.",
+        "infokratko": "Time words. *jučer* yesterday, *sinoć* last night, *prekjučer* day before. Not all are past: *uskoro, odmah*.",
         "opis": "The words that place a story in time. Only *prošli* changes shape (*prošli vikend*, *prošla godina*); the rest never do."
       },
       "stavke": [
@@ -60502,20 +55686,8 @@ window.PODACI = {
           "this morning"
         ],
         [
-          "danas",
-          "today"
-        ],
-        [
-          "sutra",
-          "tomorrow"
-        ],
-        [
           "prije",
           "before"
-        ],
-        [
-          "poslije",
-          "afterwards"
         ],
         [
           "tada",
@@ -60575,7 +55747,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1002002,
-      "bodovi": 235
+      "bodovi": 492
     },
     {
       "cjelina": "Vocabulary 10",
@@ -60583,199 +55755,21 @@ window.PODACI = {
       "stranica": 3,
       "broj": 9999,
       "format": "kartice",
-      "naslov": "Verbs and their participles",
+      "naslov": "Phrases for telling a story",
       "meta": {
-        "info": "Each card gives three shapes: the dictionary form, the *ja* form for the present, and the participle for the past. The participle usually comes from the dictionary form by dropping **-ti** and adding **-o**, but four of these do something else: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.",
-        "infokratko": "Infinitive, *ja* form, participle (**-ti → -o**). Irregular: *išao, došao, vidio, jeo*.",
-        "opis": "Three shapes per verb: dictionary form, *ja* form, and the participle you need for the past."
+        "info": "Two new verbs first, each with its *ja* form and its participle, the form a story about yesterday needs. *biti → bio* and *doći → došao* are both irregular, so learn them as they are. Then whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.",
+        "infokratko": "*biti → bio*, *doći → došao*. Fixed phrases, male and female: *Gdje si bio / bila?* *Kako je bilo?* stays.",
+        "opis": "Two verbs, then the questions you will be asked about yesterday and the answers you will give."
       },
       "stavke": [
-        [
-          "gledati → gledam → gledao",
-          "to watch"
-        ],
-        [
-          "čitati → čitam → čitao",
-          "to read"
-        ],
-        [
-          "spavati → spavam → spavao",
-          "to sleep"
-        ],
-        [
-          "igrati → igram → igrao",
-          "to play"
-        ],
-        [
-          "kuhati → kuham → kuhao",
-          "to cook"
-        ],
-        [
-          "plivati → plivam → plivao",
-          "to swim"
-        ],
-        [
-          "pjevati → pjevam → pjevao",
-          "to sing"
-        ],
-        [
-          "raditi → radim → radio",
-          "to work"
-        ],
-        [
-          "učiti → učim → učio",
-          "to study"
-        ],
-        [
-          "putovati → putujem → putovao",
-          "to travel"
-        ],
-        [
-          "piti → pijem → pio",
-          "to drink"
-        ],
-        [
-          "jesti → jedem → jeo",
-          "to eat"
-        ],
         [
           "biti → sam → bio",
           "to be"
         ],
         [
-          "ići → idem → išao",
-          "to go"
-        ],
-        [
           "doći → dođem → došao",
           "to come"
         ],
-        [
-          "vidjeti → vidim → vidio",
-          "to see"
-        ],
-        [
-          "ustati → ustanem → ustao",
-          "to get up"
-        ],
-        [
-          "znati → znam → znao",
-          "to know"
-        ],
-        [
-          "imati → imam → imao",
-          "to have"
-        ],
-        [
-          "pobijediti → pobijedim → pobijedio",
-          "to win"
-        ]
-      ],
-      "sortkljuc": 1002003,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "The participle in three forms",
-      "meta": {
-        "info": "The same participles laid out by speaker: **-o** for a man, **-la** for a woman, **-li** for a group. *Bio, bila, bili* is the one you will use most. Watch *išao → išla* and *došao → došla*, where the *a* of the male form is not there in the others.",
-        "infokratko": "**-o** man, **-la** woman, **-li** group: *bio, bila, bili*. *išao → išla*.",
-        "opis": "A man says the first form, a woman the second, a group the third."
-      },
-      "stavke": [
-        [
-          "bio / bila / bili",
-          "was, were"
-        ],
-        [
-          "gledao / gledala / gledali",
-          "watched"
-        ],
-        [
-          "čitao / čitala / čitali",
-          "read"
-        ],
-        [
-          "spavao / spavala / spavali",
-          "slept"
-        ],
-        [
-          "pio / pila / pili",
-          "drank"
-        ],
-        [
-          "jeo / jela / jeli",
-          "ate"
-        ],
-        [
-          "igrao / igrala / igrali",
-          "played"
-        ],
-        [
-          "učio / učila / učili",
-          "studied"
-        ],
-        [
-          "pjevao / pjevala / pjevali",
-          "sang"
-        ],
-        [
-          "kuhao / kuhala / kuhali",
-          "cooked"
-        ],
-        [
-          "plivao / plivala / plivali",
-          "swam"
-        ],
-        [
-          "radio / radila / radili",
-          "worked"
-        ],
-        [
-          "išao / išla / išli",
-          "went"
-        ],
-        [
-          "došao / došla / došli",
-          "came"
-        ],
-        [
-          "vidio / vidjela / vidjeli",
-          "saw"
-        ],
-        [
-          "ustao / ustala / ustali",
-          "got up"
-        ],
-        [
-          "znao / znala / znali",
-          "knew"
-        ],
-        [
-          "imao / imala / imali",
-          "had"
-        ]
-      ],
-      "sortkljuc": 1002004,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Phrases for telling a story",
-      "meta": {
-        "info": "Whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.",
-        "infokratko": "Fixed phrases, male and female: *Gdje si bio / bila?* *Kako je bilo?* stays.",
-        "opis": "The questions you will be asked about yesterday, and the answers you will give."
-      },
-      "stavke": [
         [
           "Gdje si bio?",
           "Where were you? (to a man)"
@@ -60825,483 +55819,25 @@ window.PODACI = {
           "I knew everything!"
         ]
       ],
-      "sortkljuc": 1002005,
-      "bodovi": 203
+      "sortkljuc": 1002003,
+      "bodovi": 492
     },
     {
       "cjelina": "Vocabulary 10",
       "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "He, she or they?",
-      "meta": {
-        "info": "Sorting participles by their ending alone. **-o** belongs to a man or boy, **-la** to a woman or girl, **-li** to any group, and **-lo** to a neuter subject such as *more* or *sunce* — *Bilo je savršeno*.",
-        "infokratko": "**-o** he, **-la** she, **-li** group, **-lo** neuter: *Bilo je savršeno*.",
-        "opis": "Who could say this, or what is it said about? Read only the ending.",
-        "stupci": "ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)"
-      },
-      "stavke": [
-        [
-          "gledao",
-          "ON (-o)"
-        ],
-        [
-          "pio",
-          "ON (-o)"
-        ],
-        [
-          "bio",
-          "ON (-o)"
-        ],
-        [
-          "išao",
-          "ON (-o)"
-        ],
-        [
-          "vidio",
-          "ON (-o)"
-        ],
-        [
-          "gledala",
-          "ONA (-la)"
-        ],
-        [
-          "pjevala",
-          "ONA (-la)"
-        ],
-        [
-          "bila",
-          "ONA (-la)"
-        ],
-        [
-          "išla",
-          "ONA (-la)"
-        ],
-        [
-          "vidjela",
-          "ONA (-la)"
-        ],
-        [
-          "gledali",
-          "MI / ONI (-li)"
-        ],
-        [
-          "jeli",
-          "MI / ONI (-li)"
-        ],
-        [
-          "bili",
-          "MI / ONI (-li)"
-        ],
-        [
-          "došli",
-          "MI / ONI (-li)"
-        ],
-        [
-          "bilo",
-          "ONO (-lo)"
-        ],
-        [
-          "spavalo",
-          "ONO (-lo)"
-        ],
-        [
-          "čitalo",
-          "ONO (-lo)"
-        ]
-      ],
-      "sortkljuc": 1002006,
-      "bodovi": 281
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Now or yesterday?",
-      "meta": {
-        "info": "Sorting by tense. A verb with a personal ending is the present (*pijem*, *gledaš*, *radi*); a participle with a form of *biti* beside it is the past (*pio sam*, *gledali smo*). The helper is the giveaway.",
-        "infokratko": "Personal ending = present; participle + *biti* = past.",
-        "opis": "Is it happening now, or did it happen yesterday? Sort the forms.",
-        "stupci": "SADA | JUČER"
-      },
-      "stavke": [
-        [
-          "pijem kavu",
-          "SADA"
-        ],
-        [
-          "pio sam kavu",
-          "JUČER"
-        ],
-        [
-          "gledam film",
-          "SADA"
-        ],
-        [
-          "gledao sam film",
-          "JUČER"
-        ],
-        [
-          "učimo",
-          "SADA"
-        ],
-        [
-          "učili smo",
-          "JUČER"
-        ],
-        [
-          "ona pjeva",
-          "SADA"
-        ],
-        [
-          "ona je pjevala",
-          "JUČER"
-        ],
-        [
-          "idem u kino",
-          "SADA"
-        ],
-        [
-          "išao sam u kino",
-          "JUČER"
-        ],
-        [
-          "jedu pizzu",
-          "SADA"
-        ],
-        [
-          "jeli su pizzu",
-          "JUČER"
-        ],
-        [
-          "radim",
-          "SADA"
-        ],
-        [
-          "radio sam",
-          "JUČER"
-        ],
-        [
-          "more je toplo",
-          "SADA"
-        ],
-        [
-          "more je bilo toplo",
-          "JUČER"
-        ]
-      ],
-      "sortkljuc": 1002007,
-      "bodovi": 281
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Before, now or soon?",
-      "meta": {
-        "info": "Sorting the time words by where they point. *Jučer*, *sinoć*, *prekjučer* and *nedavno* look back; *danas*, *sad* and *obično* are about now; *sutra* and *uskoro* look forward. *Tada* points back to a moment already mentioned.",
-        "infokratko": "Back: *jučer, sinoć, nedavno*; now: *danas, sad*; forward: *sutra, uskoro*. *tada* = then.",
-        "opis": "Does the word point back, at now, or forward? Sort them.",
-        "stupci": "PRIJE | SADA | POSLIJE"
-      },
-      "stavke": [
-        [
-          "jučer",
-          "PRIJE"
-        ],
-        [
-          "sinoć",
-          "PRIJE"
-        ],
-        [
-          "prekjučer",
-          "PRIJE"
-        ],
-        [
-          "nedavno",
-          "PRIJE"
-        ],
-        [
-          "prošli tjedan",
-          "PRIJE"
-        ],
-        [
-          "tada",
-          "PRIJE"
-        ],
-        [
-          "jutros",
-          "PRIJE"
-        ],
-        [
-          "danas",
-          "SADA"
-        ],
-        [
-          "sad",
-          "SADA"
-        ],
-        [
-          "obično",
-          "SADA"
-        ],
-        [
-          "odmah",
-          "SADA"
-        ],
-        [
-          "sutra",
-          "POSLIJE"
-        ],
-        [
-          "uskoro",
-          "POSLIJE"
-        ],
-        [
-          "poslije",
-          "POSLIJE"
-        ]
-      ],
-      "sortkljuc": 1002008,
-      "bodovi": 281
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "spajanje",
-      "naslov": "Match the pictures",
-      "meta": {
-        "info": "Picture-to-word matching, with no English on the page. Every word here can be the object of a story about yesterday — *Gledao sam film*, *Jeo sam kruh* — and the masculine ones don't change shape, while the **-a** words take **-u**: *Slušao sam gitaru*.",
-        "infokratko": "Objects for yesterday: *Gledao sam film*; **-a** → **-u**: *Slušao sam gitaru*.",
-        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
-      },
-      "stavke": [
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "film",
-          "film"
-        ],
-        [
-          "koncert",
-          "concert"
-        ],
-        [
-          "gitara",
-          "guitar"
-        ],
-        [
-          "lopta",
-          "ball"
-        ],
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sendvič",
-          "sandwich"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "pas",
-          "dog"
-        ],
-        [
-          "sunce",
-          "sun"
-        ]
-      ],
-      "sortkljuc": 1002009,
-      "bodovi": 203
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 10,
+      "stranica": 4,
       "broj": 9999,
       "format": "parovi",
-      "naslov": "Match the pairs",
+      "naslov": "Match the new words",
       "meta": {
-        "info": "Each dictionary form beside its **he** participle. Most take off *-ti* and add *-o*; the four to memorise are *ići → išao*, *doći → došao*, *vidjeti → vidio* and *jesti → jeo*.",
-        "infokratko": "*-ti → -o*. Memorise *išao, došao, vidio, jeo*.",
-        "opis": "Match each verb with its past form (the he-form)."
+        "info": "A pairing drill on words from all three card pages, recognition only. The film words give themselves away, so spend your attention on the short time words: *tada* is then, *prije* before, *kratko* briefly and *ponovno* again.",
+        "infokratko": "New words only. Films are easy; watch *tada, prije, kratko, ponovno*.",
+        "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
         [
-          "gledati",
-          "gledao"
-        ],
-        [
-          "čitati",
-          "čitao"
-        ],
-        [
-          "spavati",
-          "spavao"
-        ],
-        [
-          "piti",
-          "pio"
-        ],
-        [
-          "jesti",
-          "jeo"
-        ],
-        [
-          "biti",
-          "bio"
-        ],
-        [
-          "igrati",
-          "igrao"
-        ],
-        [
-          "učiti",
-          "učio"
-        ],
-        [
-          "ići",
-          "išao"
-        ],
-        [
-          "doći",
-          "došao"
-        ],
-        [
-          "vidjeti",
-          "vidio"
-        ],
-        [
-          "ustati",
-          "ustao"
-        ],
-        [
-          "putovati",
-          "putovao"
-        ],
-        [
-          "pobijediti",
-          "pobijedio"
-        ]
-      ],
-      "sortkljuc": 1002010,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A pairs game over the free-time words. The film genres are international, so use the game to fix the three that are not: *kazalište*, *izložba* and *dokumentarac*.",
-        "infokratko": "Genres are international; learn *kazalište, izložba, dokumentarac*.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "koncert",
-          "concert"
-        ],
-        [
-          "kazalište",
-          "theater"
-        ],
-        [
-          "izložba",
-          "exhibition"
-        ],
-        [
-          "serija",
-          "series"
-        ],
-        [
-          "komedija",
-          "comedy"
-        ],
-        [
-          "horor",
-          "horror film"
-        ],
-        [
-          "dokumentarac",
-          "documentary"
-        ],
-        [
-          "ispit",
-          "exam"
-        ],
-        [
-          "vikend",
-          "weekend"
-        ]
-      ],
-      "sortkljuc": 1002011,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: what does it mean?",
-      "meta": {
-        "info": "A timed meaning sprint over the whole level. The film words cost you nothing, so bank those first and spend your seconds on the time words, where *prekjučer*, *sinoć* and *nedavno* are easy to mix up.",
-        "infokratko": "Films are easy; watch *prekjučer, sinoć, nedavno*.",
-        "trajanje": "60",
-        "opis": "Tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "koncert",
-          "concert"
-        ],
-        [
-          "kazalište",
-          "theater"
-        ],
-        [
-          "izložba",
-          "exhibition"
-        ],
-        [
-          "serija",
-          "series"
-        ],
-        [
-          "komedija",
-          "comedy"
+          "drama",
+          "drama"
         ],
         [
           "akcija",
@@ -61312,472 +55848,58 @@ window.PODACI = {
           "horror film"
         ],
         [
-          "dokumentarac",
-          "documentary"
-        ],
-        [
           "program",
           "TV program"
         ],
         [
-          "ispit",
-          "exam"
-        ],
-        [
-          "posao",
-          "work"
-        ],
-        [
-          "jučer",
-          "yesterday"
-        ],
-        [
-          "sinoć",
-          "last night"
-        ],
-        [
-          "prekjučer",
-          "the day before yesterday"
-        ],
-        [
-          "jutros",
-          "this morning"
-        ],
-        [
-          "prije",
-          "before"
-        ],
-        [
-          "poslije",
-          "afterwards"
+          "pizza",
+          "pizza"
         ],
         [
           "tada",
           "then"
         ],
         [
-          "nedavno",
-          "recently"
-        ],
-        [
-          "obično",
-          "usually"
-        ],
-        [
-          "ponovno",
-          "again"
-        ],
-        [
-          "uskoro",
-          "soon"
-        ],
-        [
-          "odmah",
-          "immediately"
-        ],
-        [
-          "dugo",
-          "for a long time"
+          "prije",
+          "before"
         ],
         [
           "kratko",
           "briefly"
         ],
         [
-          "prošli tjedan",
-          "last week"
-        ]
-      ],
-      "sortkljuc": 1002012,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: the participle",
-      "meta": {
-        "info": "A timed run from the dictionary form to the **he** participle. The rule is one swap — off with *-ti*, on with *-o* — so the seconds you lose will go on *ići*, *doći*, *vidjeti* and *jesti*.",
-        "infokratko": "*-ti → -o*. Slow ones: *ići, doći, vidjeti, jesti*.",
-        "trajanje": "45",
-        "opis": "A verb flashes — tap its he-participle before it disappears."
-      },
-      "stavke": [
-        [
-          "gledati",
-          "gledao"
-        ],
-        [
-          "čitati",
-          "čitao"
-        ],
-        [
-          "spavati",
-          "spavao"
-        ],
-        [
-          "igrati",
-          "igrao"
-        ],
-        [
-          "kuhati",
-          "kuhao"
-        ],
-        [
-          "plivati",
-          "plivao"
-        ],
-        [
-          "pjevati",
-          "pjevao"
-        ],
-        [
-          "raditi",
-          "radio"
-        ],
-        [
-          "učiti",
-          "učio"
-        ],
-        [
-          "putovati",
-          "putovao"
-        ],
-        [
-          "piti",
-          "pio"
-        ],
-        [
-          "jesti",
-          "jeo"
-        ],
-        [
-          "biti",
-          "bio"
-        ],
-        [
-          "ići",
-          "išao"
-        ],
-        [
-          "doći",
-          "došao"
-        ],
-        [
-          "vidjeti",
-          "vidio"
-        ],
-        [
-          "ustati",
-          "ustao"
-        ],
-        [
-          "znati",
-          "znao"
-        ]
-      ],
-      "sortkljuc": 1002013,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Words from earlier levels",
-      "meta": {
-        "info": "A timed return to words from Vocabulary 7 and 8 that have not appeared for a while. Nothing here is new; the point is to keep older words in use before they slip.",
-        "infokratko": "Older words from levels 7–8.",
-        "trajanje": "60",
-        "opis": "Words from two and three levels ago — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "zadaća",
-          "homework"
-        ],
-        [
-          "ocjena",
-          "grade"
-        ],
-        [
-          "olovka",
-          "pencil"
-        ],
-        [
-          "torba",
-          "bag"
-        ],
-        [
-          "odgovor",
-          "answer"
-        ],
-        [
-          "pauza",
-          "break"
-        ],
-        [
-          "jezik",
-          "language"
-        ],
-        [
-          "kofer",
-          "suitcase"
-        ],
-        [
-          "prtljaga",
-          "luggage"
-        ],
-        [
-          "ručnik",
-          "towel"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "aerodrom",
-          "airport"
-        ],
-        [
-          "plaža",
-          "beach"
-        ],
-        [
-          "otok",
-          "island"
-        ],
-        [
-          "planina",
-          "mountain"
-        ],
-        [
-          "izlet",
-          "day trip"
-        ]
-      ],
-      "sortkljuc": 1002014,
-      "bodovi": 235
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *kazalište* needs no such tile, while *prekjučer* needs **č**, *sinoć* needs **ć** and *izložba* needs **ž**.",
-        "infokratko": "*prekjučer* **č**, *sinoć* **ć**, *izložba* **ž**.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own."
-      },
-      "stavke": [
-        [
-          "kazalište",
-          "theater"
-        ],
-        [
-          "izložba",
-          "exhibition"
-        ],
-        [
-          "dokumentarac",
-          "documentary"
-        ],
-        [
-          "prekjučer",
-          "the day before yesterday"
-        ],
-        [
           "ponovno",
           "again"
         ],
         [
-          "vidjela",
-          "saw (she)"
+          "cijeli sat",
+          "a whole hour"
         ],
         [
-          "došla",
-          "came (she)"
+          "prošla godina",
+          "last year"
         ],
         [
-          "pobijedio",
-          "won"
-        ],
-        [
-          "putovao",
-          "travelled"
-        ],
-        [
-          "sinoć",
-          "last night"
+          "biti",
+          "to be"
         ]
       ],
-      "sortkljuc": 1002015,
-      "bodovi": 281
+      "sortkljuc": 1002004,
+      "bodovi": 492
     },
     {
       "cjelina": "Vocabulary 10",
       "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 16,
+      "stranica": 5,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the participle",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Type the participle in the form the bracket asks for: *(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Keep every diacritic from the infinitive, and watch the four that change more than the ending — *ići*, *doći*, *vidjeti*, *jesti*.",
-        "infokratko": "*(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Irregular: *ići, doći, vidjeti, jesti*.",
-        "opis": "Type the participle in the form named in the bracket."
+        "info": "You write each new word once, from its English meaning. The verb is wanted as an infinitive, ending in **-ći** here: *doći*, not *dođem*. The diacritics are full letters: *jučer* and *prekjučer* have **č**, *sinoć* ends in **ć**, *kazalište* has **š** and *izložba* has **ž**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once; the verb as an infinitive (*doći*). Diacritics count: *jučer, sinoć, kazalište, izložba*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
-        [
-          "gledati (he) →",
-          "gledao"
-        ],
-        [
-          "čitati (she) →",
-          "čitala"
-        ],
-        [
-          "spavati (they) →",
-          "spavali"
-        ],
-        [
-          "piti (she) →",
-          "pila"
-        ],
-        [
-          "jesti (he) →",
-          "jeo"
-        ],
-        [
-          "biti (she) →",
-          "bila"
-        ],
-        [
-          "biti (it) →",
-          "bilo"
-        ],
-        [
-          "igrati (they) →",
-          "igrali"
-        ],
-        [
-          "učiti (he) →",
-          "učio"
-        ],
-        [
-          "ići (he) →",
-          "išao"
-        ],
-        [
-          "ići (she) →",
-          "išla"
-        ],
-        [
-          "doći (they) →",
-          "došli"
-        ],
-        [
-          "vidjeti (he) →",
-          "vidio"
-        ],
-        [
-          "vidjeti (she) →",
-          "vidjela"
-        ],
-        [
-          "ustati (he) →",
-          "ustao"
-        ],
-        [
-          "putovati (they) →",
-          "putovali"
-        ]
-      ],
-      "sortkljuc": 1002016,
-      "bodovi": 327
-    },
-    {
-      "cjelina": "Vocabulary 10",
-      "cjelinanaslov": "Yesterday & Free Time",
-      "stranica": 17,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English to Croatian, with spelling counted. The nouns are wanted in their naming form and the verbs as infinitives, and the diacritics are part of the word: *kazalište*, *izložba*, *sinoć*, *prekjučer*.",
-        "infokratko": "Naming forms, infinitives, diacritics: *kazalište, sinoć, prekjučer*.",
-        "opis": "The final round — type each word in Croatian."
-      },
-      "stavke": [
-        [
-          "cinema",
-          "kino"
-        ],
-        [
-          "film",
-          "film"
-        ],
-        [
-          "series",
-          "serija"
-        ],
-        [
-          "comedy",
-          "komedija"
-        ],
-        [
-          "action film",
-          "akcija"
-        ],
-        [
-          "horror film",
-          "horor"
-        ],
-        [
-          "documentary",
-          "dokumentarac"
-        ],
-        [
-          "concert",
-          "koncert"
-        ],
-        [
-          "theater",
-          "kazalište"
-        ],
-        [
-          "exhibition",
-          "izložba"
-        ],
-        [
-          "match",
-          "utakmica"
-        ],
-        [
-          "exam",
-          "ispit"
-        ],
-        [
-          "work",
-          "posao"
-        ],
-        [
-          "weekend",
-          "vikend"
-        ],
-        [
-          "book",
-          "knjiga"
-        ],
-        [
-          "coffee",
-          "kava"
-        ],
         [
           "yesterday",
           "jučer"
@@ -61795,32 +55917,12 @@ window.PODACI = {
           "jutros"
         ],
         [
-          "tomorrow",
-          "sutra"
-        ],
-        [
-          "before",
-          "prije"
-        ],
-        [
-          "afterwards",
-          "poslije"
-        ],
-        [
-          "then",
-          "tada"
-        ],
-        [
           "recently",
           "nedavno"
         ],
         [
           "usually",
           "obično"
-        ],
-        [
-          "again",
-          "ponovno"
         ],
         [
           "soon",
@@ -61835,48 +55937,277 @@ window.PODACI = {
           "dugo"
         ],
         [
-          "to watch",
-          "gledati"
-        ],
-        [
-          "to read",
-          "čitati"
-        ],
-        [
-          "to sleep",
-          "spavati"
-        ],
-        [
-          "to drink",
-          "piti"
-        ],
-        [
-          "to eat",
-          "jesti"
-        ],
-        [
-          "to go",
-          "ići"
-        ],
-        [
           "to come",
           "doći"
         ],
         [
-          "to see",
-          "vidjeti"
+          "series",
+          "serija"
         ],
         [
-          "to get up",
-          "ustati"
+          "comedy",
+          "komedija"
         ],
         [
-          "to travel",
-          "putovati"
+          "theater",
+          "kazalište"
+        ],
+        [
+          "exhibition",
+          "izložba"
+        ],
+        [
+          "documentary",
+          "dokumentarac"
         ]
       ],
-      "sortkljuc": 1002017,
-      "bodovi": 328
+      "sortkljuc": 1002005,
+      "bodovi": 690
+    },
+    {
+      "cjelina": "Vocabulary 10",
+      "cjelinanaslov": "Yesterday & Free Time",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–8, half and half. Three time words are easy to mix up — *jučer* yesterday, *sinoć* last night, *prekjučer* the day before — and two old ones point the other way: *obično* is usually, *nikad* never.",
+        "infokratko": "New and old words against the clock. *jučer, sinoć, prekjučer*; *obično* usually, *nikad* never.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "jučer",
+          "yesterday"
+        ],
+        [
+          "šef",
+          "boss"
+        ],
+        [
+          "sinoć",
+          "last night"
+        ],
+        [
+          "nikad",
+          "never"
+        ],
+        [
+          "prekjučer",
+          "the day before yesterday"
+        ],
+        [
+          "jedna",
+          "one (feminine)"
+        ],
+        [
+          "nedavno",
+          "recently"
+        ],
+        [
+          "blizu",
+          "near"
+        ],
+        [
+          "obično",
+          "usually"
+        ],
+        [
+          "djevojčica",
+          "girl"
+        ],
+        [
+          "uskoro",
+          "soon"
+        ],
+        [
+          "banana",
+          "banana"
+        ],
+        [
+          "odmah",
+          "immediately"
+        ],
+        [
+          "nov",
+          "new"
+        ],
+        [
+          "tada",
+          "then"
+        ],
+        [
+          "Talijan",
+          "Italian"
+        ],
+        [
+          "kratko",
+          "briefly"
+        ],
+        [
+          "gospodin",
+          "Mr"
+        ],
+        [
+          "komedija",
+          "comedy"
+        ],
+        [
+          "gospođa",
+          "Mrs"
+        ]
+      ],
+      "sortkljuc": 1002006,
+      "bodovi": 492
+    },
+    {
+      "cjelina": "Vocabulary 10",
+      "cjelinanaslov": "Yesterday & Free Time",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "dobar, dobra or dobro?",
+      "meta": {
+        "info": "Sorting nouns by the form of *dobar* they take, and the last letter of the noun is your guide. A consonant takes **dobar** (*dobar horor*, *dobar aerodrom*), **-a** takes **dobra** (*dobra serija*, *dobra juha*), **-o** or **-e** takes **dobro** (*dobro kazalište*, *dobro pismo*). The same ending goes on *prošli*: *prošli program*, *prošla izložba*.",
+        "infokratko": "Consonant **dobar**, **-a** **dobra**, **-o/-e** **dobro**: *dobar horor, dobra serija, dobro kazalište*.",
+        "opis": "Which form of *good* does each noun take? The last letter of the noun decides.",
+        "stupci": "DOBAR | DOBRA | DOBRO"
+      },
+      "stavke": [
+        [
+          "horor",
+          "DOBAR"
+        ],
+        [
+          "dokumentarac",
+          "DOBAR"
+        ],
+        [
+          "program",
+          "DOBAR"
+        ],
+        [
+          "aerodrom",
+          "DOBAR"
+        ],
+        [
+          "ananas",
+          "DOBAR"
+        ],
+        [
+          "serija",
+          "DOBRA"
+        ],
+        [
+          "komedija",
+          "DOBRA"
+        ],
+        [
+          "izložba",
+          "DOBRA"
+        ],
+        [
+          "drama",
+          "DOBRA"
+        ],
+        [
+          "bolnica",
+          "DOBRA"
+        ],
+        [
+          "juha",
+          "DOBRA"
+        ],
+        [
+          "avantura",
+          "DOBRA"
+        ],
+        [
+          "kazalište",
+          "DOBRO"
+        ],
+        [
+          "nebo",
+          "DOBRO"
+        ],
+        [
+          "društvo",
+          "DOBRO"
+        ],
+        [
+          "pismo",
+          "DOBRO"
+        ]
+      ],
+      "sortkljuc": 1002007,
+      "bodovi": 591
+    },
+    {
+      "cjelina": "Vocabulary 10",
+      "cjelinanaslov": "Yesterday & Free Time",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Verbs as infinitives, adjectives in the short form (*plav*, *jeftin*), and *prošli* in the form its noun needs: *prošli tjedan*. *Talijanka* starts with a capital letter, like every nationality, and the diacritics count as always.",
+        "infokratko": "Mixed final round. Verbs as infinitives, adjectives short (*plav*). *prošli tjedan*; *Talijanka* with a capital.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "again",
+          "ponovno"
+        ],
+        [
+          "nose",
+          "nos"
+        ],
+        [
+          "before",
+          "prije"
+        ],
+        [
+          "blue",
+          "plav"
+        ],
+        [
+          "last week",
+          "prošli tjedan"
+        ],
+        [
+          "cheap",
+          "jeftin"
+        ],
+        [
+          "the whole day",
+          "cijeli dan"
+        ],
+        [
+          "to write",
+          "pisati"
+        ],
+        [
+          "action film",
+          "akcija"
+        ],
+        [
+          "document",
+          "dokument"
+        ],
+        [
+          "horror film",
+          "horor"
+        ],
+        [
+          "Italian (she)",
+          "Talijanka"
+        ]
+      ],
+      "sortkljuc": 1002008,
+      "bodovi": 690
     },
     {
       "cjelina": "Grammar 10",
@@ -66645,9 +60976,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Question words",
       "meta": {
-        "info": "The full set of question words. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji*, *kakav* and *čiji* stand in front of a noun and copy it, so each is shown in three forms. *Koga* is the target form of *tko*, exactly the **-a** of Lesson 6.",
-        "infokratko": "*tko, što, gdje, kada, zašto, kako, koliko* don't change; *koji, kakav, čiji* agree. *koga* = whom.",
-        "opis": "Everything you need to ask and to wonder. Tap a card to reveal the meaning."
+        "info": "The full set of question words, and the nouns that go with asking. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji* and *kakav* stand in front of a noun and copy it, so each is shown in three forms — exactly like *čiji* (whose) from Vocabulary 9. *Koga* is the target form of *tko*, the same **-a** as in Lesson 6.",
+        "infokratko": "*tko, što, gdje, kada, zašto, kako, koliko* don't change; *koji, kakav* agree, like *čiji*. *koga* = whom.",
+        "opis": "Everything you need to ask, and the words for asking. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -66695,10 +61026,6 @@ window.PODACI = {
           "what kind of?"
         ],
         [
-          "čiji / čija / čije?",
-          "whose?"
-        ],
-        [
           "li",
           "the yes-or-no particle"
         ],
@@ -66709,10 +61036,34 @@ window.PODACI = {
         [
           "Ne znam.",
           "I don't know."
+        ],
+        [
+          "razgovor",
+          "conversation"
+        ],
+        [
+          "kviz",
+          "quiz"
+        ],
+        [
+          "intervju",
+          "interview"
+        ],
+        [
+          "informacija",
+          "information"
+        ],
+        [
+          "misterij",
+          "mystery"
+        ],
+        [
+          "datum",
+          "date"
         ]
       ],
       "sortkljuc": 1102001,
-      "bodovi": 267
+      "bodovi": 485
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66809,7 +61160,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102002,
-      "bodovi": 267
+      "bodovi": 485
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66819,8 +61170,8 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Bigger numbers & money",
       "meta": {
-        "info": "The round numbers, plus the words for paying. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.",
-        "infokratko": "Round numbers and money. *Koliko košta?* — *deset eura*.",
+        "info": "The round numbers, the euro, and three questions and answers to take whole. The tens end in **-deset**: *četrdeset*, *pedeset*, *šezdeset*. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.",
+        "infokratko": "Tens end in **-deset**. *Koliko košta?* — *deset eura*.",
         "opis": "Prices, ages and the round numbers above twenty."
       },
       "stavke": [
@@ -66865,32 +61216,8 @@ window.PODACI = {
           "a thousand"
         ],
         [
-          "novac",
-          "money"
-        ],
-        [
           "euro",
           "euro"
-        ],
-        [
-          "cijena",
-          "price"
-        ],
-        [
-          "račun",
-          "bill"
-        ],
-        [
-          "jeftin / jeftina",
-          "cheap"
-        ],
-        [
-          "skup / skupa",
-          "expensive"
-        ],
-        [
-          "koštati → košta",
-          "to cost"
         ],
         [
           "Koliko košta?",
@@ -66906,7 +61233,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1102003,
-      "bodovi": 267
+      "bodovi": 485
     },
     {
       "cjelina": "Vocabulary 11",
@@ -66916,9 +61243,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Presents & birthdays",
       "meta": {
-        "info": "The words for a birthday. *Poklon* and *dar* both mean a present, and *rođendan* is built from *rođen* (born) and *dan* (day). Most of these are things you buy, so they will turn up as targets of *kupujem* and *tražim*.",
-        "infokratko": "Birthday words. *poklon, dar* = present; *rođendan* = *rođen* + *dan*.",
-        "opis": "What you buy, for whom, and why. Tap a card to reveal the meaning."
+        "info": "The words for a birthday, and three small words for choosing a present. *Poklon* and *dar* both mean a present. *Možda*, *zapravo* and *onda* keep the choosing going: *Možda parfem? Zapravo, cvijeće. Onda buket!*",
+        "infokratko": "Birthday words. *poklon, dar* = present. *možda* maybe, *zapravo* actually, *onda* then.",
+        "opis": "What you buy, for whom, and what you say. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -66932,10 +61259,6 @@ window.PODACI = {
         [
           "rođendan",
           "birthday"
-        ],
-        [
-          "torta",
-          "cake"
         ],
         [
           "svijeća",
@@ -66956,10 +61279,6 @@ window.PODACI = {
         [
           "parfem",
           "perfume"
-        ],
-        [
-          "kutija",
-          "box"
         ],
         [
           "iznenađenje",
@@ -66984,95 +61303,6 @@ window.PODACI = {
         [
           "Za tebe!",
           "For you!"
-        ]
-      ],
-      "sortkljuc": 1102004,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Questions, answers & new verbs",
-      "meta": {
-        "info": "The words a conversation is made of, plus five verbs in their *ja* form. *Pitati* is to ask and *odgovarati* is to answer, and they come from the same roots as the nouns *pitanje* and *odgovor*.",
-        "infokratko": "Conversation words; *pitati* ask, *odgovarati* answer.",
-        "opis": "The words you need to keep a conversation going."
-      },
-      "stavke": [
-        [
-          "pitanje",
-          "question"
-        ],
-        [
-          "odgovor",
-          "answer"
-        ],
-        [
-          "razgovor",
-          "conversation"
-        ],
-        [
-          "kviz",
-          "quiz"
-        ],
-        [
-          "intervju",
-          "interview"
-        ],
-        [
-          "misterij",
-          "mystery"
-        ],
-        [
-          "informacija",
-          "information"
-        ],
-        [
-          "datum",
-          "date"
-        ],
-        [
-          "godina",
-          "year"
-        ],
-        [
-          "pitati → pitam",
-          "to ask"
-        ],
-        [
-          "odgovarati → odgovaram",
-          "to answer"
-        ],
-        [
-          "znati → znam",
-          "to know"
-        ],
-        [
-          "misliti → mislim",
-          "to think"
-        ],
-        [
-          "živjeti → živim",
-          "to live"
-        ],
-        [
-          "kupovati → kupujem",
-          "to buy"
-        ],
-        [
-          "birati → biram",
-          "to choose"
-        ],
-        [
-          "onda",
-          "then"
-        ],
-        [
-          "naravno",
-          "of course"
         ],
         [
           "možda",
@@ -67081,243 +61311,26 @@ window.PODACI = {
         [
           "zapravo",
           "actually"
+        ],
+        [
+          "onda",
+          "then"
         ]
       ],
-      "sortkljuc": 1102005,
-      "bodovi": 267
+      "sortkljuc": 1102004,
+      "bodovi": 485
     },
     {
       "cjelina": "Vocabulary 11",
       "cjelinanaslov": "Presents & Questions",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Which question word?",
-      "meta": {
-        "info": "Sorting the question words by the kind of answer they call for. *Tko* and *koga* ask about a person, *gdje* and *kada* about place and time, and *koji*, *kakav* and *čiji* stand in front of a noun, so they take endings.",
-        "infokratko": "Person *tko / koga*, place *gdje*, time *kada*; *koji, kakav, čiji* take endings.",
-        "opis": "Sort each question word by what it asks about.",
-        "stupci": "OSOBA | MJESTO I VRIJEME | UZ IMENICU"
-      },
-      "stavke": [
-        [
-          "tko",
-          "OSOBA"
-        ],
-        [
-          "koga",
-          "OSOBA"
-        ],
-        [
-          "za koga",
-          "OSOBA"
-        ],
-        [
-          "čiji",
-          "UZ IMENICU"
-        ],
-        [
-          "koji",
-          "UZ IMENICU"
-        ],
-        [
-          "kakav",
-          "UZ IMENICU"
-        ],
-        [
-          "gdje",
-          "MJESTO I VRIJEME"
-        ],
-        [
-          "kada",
-          "MJESTO I VRIJEME"
-        ],
-        [
-          "odakle",
-          "MJESTO I VRIJEME"
-        ],
-        [
-          "danas",
-          "MJESTO I VRIJEME"
-        ],
-        [
-          "sutra",
-          "MJESTO I VRIJEME"
-        ],
-        [
-          "koja",
-          "UZ IMENICU"
-        ],
-        [
-          "kakvo",
-          "UZ IMENICU"
-        ],
-        [
-          "čije",
-          "UZ IMENICU"
-        ]
-      ],
-      "sortkljuc": 1102006,
-      "bodovi": 313
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "How much is it?",
-      "meta": {
-        "info": "Sorting numbers into three ranges by sight. The teens end in **-naest**, *dvadeset* and everything above it ends in **-deset** (except *sto*), and everything below eleven is a single short word.",
-        "infokratko": "Teens **-naest**, tens **-deset**, *sto*; up to ten short words.",
-        "opis": "Sort each number by its size.",
-        "stupci": "1–10 | 11–20 | VIŠE OD 20"
-      },
-      "stavke": [
-        [
-          "jedan",
-          "1–10"
-        ],
-        [
-          "tri",
-          "1–10"
-        ],
-        [
-          "pet",
-          "1–10"
-        ],
-        [
-          "sedam",
-          "1–10"
-        ],
-        [
-          "devet",
-          "1–10"
-        ],
-        [
-          "deset",
-          "1–10"
-        ],
-        [
-          "jedanaest",
-          "11–20"
-        ],
-        [
-          "dvanaest",
-          "11–20"
-        ],
-        [
-          "četrnaest",
-          "11–20"
-        ],
-        [
-          "petnaest",
-          "11–20"
-        ],
-        [
-          "osamnaest",
-          "11–20"
-        ],
-        [
-          "dvadeset",
-          "11–20"
-        ],
-        [
-          "trideset",
-          "VIŠE OD 20"
-        ],
-        [
-          "pedeset",
-          "VIŠE OD 20"
-        ],
-        [
-          "osamdeset",
-          "VIŠE OD 20"
-        ],
-        [
-          "sto",
-          "VIŠE OD 20"
-        ]
-      ],
-      "sortkljuc": 1102007,
-      "bodovi": 314
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "spajanje",
-      "naslov": "Match the pictures",
-      "meta": {
-        "info": "Picture-to-word matching, with no English on the page. Most of these could be a present, and every one of these words can turn up as the target of *kupujem* — where a feminine noun takes **-u**: *Kupujem gitar**u***.",
-        "infokratko": "Possible presents. Feminine target **-u**: *Kupujem gitaru*.",
-        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
-      },
-      "stavke": [
-        [
-          "gitara",
-          "guitar"
-        ],
-        [
-          "knjiga",
-          "book"
-        ],
-        [
-          "fotoaparat",
-          "camera"
-        ],
-        [
-          "cvijeće",
-          "flowers"
-        ],
-        [
-          "euro",
-          "euro"
-        ],
-        [
-          "kava",
-          "coffee"
-        ],
-        [
-          "film",
-          "film"
-        ],
-        [
-          "kino",
-          "cinema"
-        ],
-        [
-          "koncert",
-          "concert"
-        ],
-        [
-          "more",
-          "sea"
-        ],
-        [
-          "sunce",
-          "sun"
-        ],
-        [
-          "pas",
-          "dog"
-        ]
-      ],
-      "sortkljuc": 1102008,
-      "bodovi": 220
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 9,
+      "stranica": 5,
       "broj": 9999,
       "format": "parovi",
-      "naslov": "Match the pairs",
+      "naslov": "Match the new words",
       "meta": {
-        "info": "Question words beside their meanings. The pair worth keeping apart is *koji* and *kakav*: *koji* picks one out of a known set, *kakav* asks what something is like.",
-        "infokratko": "*koji* = which one, *kakav* = what kind.",
-        "opis": "Match each question word with its English meaning."
+        "info": "A pairing drill on words from all four card pages, recognition only. The pair worth keeping apart is *koji* and *kakav*: *koji* picks one out of a known set, *kakav* asks what something is like. The tens all end in **-deset**, so look at the start, which is the unit: *četrdeset* from *četiri*, *šezdeset* from *šest*, *devedeset* from *devet*.",
+        "infokratko": "New words only. *koji* = which one, *kakav* = what kind; tens by their start.",
+        "opis": "Match each Croatian word with its English meaning."
       },
       "stavke": [
         [
@@ -67325,28 +61338,8 @@ window.PODACI = {
           "who"
         ],
         [
-          "što",
-          "what"
-        ],
-        [
-          "gdje",
-          "where"
-        ],
-        [
-          "kada",
-          "when"
-        ],
-        [
-          "zašto",
-          "why"
-        ],
-        [
-          "kako",
-          "how"
-        ],
-        [
-          "koliko",
-          "how much"
+          "koga",
+          "whom"
         ],
         [
           "koji",
@@ -67357,536 +61350,54 @@ window.PODACI = {
           "what kind of"
         ],
         [
-          "čiji",
-          "whose"
+          "četrdeset",
+          "forty"
         ],
         [
-          "koga",
-          "whom"
+          "šezdeset",
+          "sixty"
         ],
         [
-          "zar ne",
-          "isn't it"
-        ]
-      ],
-      "sortkljuc": 1102009,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the numbers",
-      "meta": {
-        "info": "Each number beside its figure. Read the Croatian aloud as you match — the teens are long words, and hearing *četrnaest* next to *četiri* is what makes the pattern stick.",
-        "infokratko": "Read them aloud: *četiri / četrnaest*.",
-        "opis": "Match each number with its figure."
-      },
-      "stavke": [
-        [
-          "pet",
-          "5"
+          "devedeset",
+          "ninety"
         ],
         [
-          "sedam",
-          "7"
+          "tisuća",
+          "a thousand"
         ],
         [
-          "devet",
-          "9"
+          "dar",
+          "gift"
         ],
         [
-          "deset",
-          "10"
-        ],
-        [
-          "jedanaest",
-          "11"
-        ],
-        [
-          "trinaest",
-          "13"
-        ],
-        [
-          "petnaest",
-          "15"
-        ],
-        [
-          "sedamnaest",
-          "17"
-        ],
-        [
-          "dvadeset",
-          "20"
-        ],
-        [
-          "trideset",
-          "30"
-        ],
-        [
-          "pedeset",
-          "50"
-        ],
-        [
-          "sto",
-          "100"
-        ]
-      ],
-      "sortkljuc": 1102010,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A pairs game over the birthday words. Two of them are worth fixing here: *čestitka* is the card you write, while *Čestitam!* is what you say.",
-        "infokratko": "*čestitka* = card; *Čestitam!* = congratulations.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "poklon",
-          "present"
-        ],
-        [
-          "rođendan",
-          "birthday"
-        ],
-        [
-          "torta",
-          "cake"
-        ],
-        [
-          "svijeća",
-          "candle"
-        ],
-        [
-          "cvijeće",
-          "flowers"
-        ],
-        [
-          "čestitka",
-          "greeting card"
+          "buket",
+          "bouquet"
         ],
         [
           "parfem",
           "perfume"
         ],
         [
-          "kutija",
-          "box"
-        ],
-        [
-          "ideja",
-          "idea"
-        ],
-        [
-          "iznenađenje",
-          "surprise"
-        ]
-      ],
-      "sortkljuc": 1102011,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: question words",
-      "meta": {
-        "info": "Timed recognition of the question words. Speed comes from the answers they expect: a name for *tko*, a place for *gdje*, a number for *koliko*, a description for *kakav*.",
-        "infokratko": "Name *tko*, place *gdje*, number *koliko*, description *kakav*.",
-        "trajanje": "45",
-        "opis": "Tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "tko",
-          "who"
-        ],
-        [
-          "koga",
-          "whom"
-        ],
-        [
-          "što",
-          "what"
-        ],
-        [
-          "gdje",
-          "where"
-        ],
-        [
-          "kada",
-          "when"
-        ],
-        [
-          "zašto",
-          "why"
-        ],
-        [
-          "kako",
-          "how"
-        ],
-        [
-          "koliko",
-          "how much"
-        ],
-        [
-          "koji",
-          "which"
-        ],
-        [
-          "kakav",
-          "what kind of"
-        ],
-        [
-          "čiji",
-          "whose"
-        ],
-        [
-          "zar ne",
-          "isn't it"
-        ]
-      ],
-      "sortkljuc": 1102012,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: numbers",
-      "meta": {
-        "info": "A timed number sprint. The teens are the slow ones, so read them as their unit plus *-naest* — *šest* gives *šesnaest*, with the *t* dropped, and *četiri* gives *četrnaest*.",
-        "infokratko": "Teens: unit + *-naest*; *šesnaest*, *četrnaest*.",
-        "trajanje": "45",
-        "opis": "A number flashes — tap the figure."
-      },
-      "stavke": [
-        [
-          "jedan",
-          "1"
-        ],
-        [
-          "dva",
-          "2"
-        ],
-        [
-          "tri",
-          "3"
-        ],
-        [
-          "četiri",
-          "4"
-        ],
-        [
-          "pet",
-          "5"
-        ],
-        [
-          "šest",
-          "6"
-        ],
-        [
-          "sedam",
-          "7"
-        ],
-        [
-          "osam",
-          "8"
-        ],
-        [
-          "devet",
-          "9"
-        ],
-        [
-          "deset",
-          "10"
-        ],
-        [
-          "jedanaest",
-          "11"
-        ],
-        [
-          "dvanaest",
-          "12"
-        ],
-        [
-          "trinaest",
-          "13"
-        ],
-        [
-          "četrnaest",
-          "14"
-        ],
-        [
-          "petnaest",
-          "15"
-        ],
-        [
-          "šesnaest",
-          "16"
-        ],
-        [
-          "sedamnaest",
-          "17"
-        ],
-        [
-          "osamnaest",
-          "18"
-        ],
-        [
-          "devetnaest",
-          "19"
-        ],
-        [
-          "dvadeset",
-          "20"
-        ]
-      ],
-      "sortkljuc": 1102013,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Words from earlier levels",
-      "meta": {
-        "info": "A timed return to words from Vocabulary 8 and 9 that have not appeared for a while. Nothing here is new; the point is to keep older words in use.",
-        "infokratko": "Older words from levels 8–9.",
-        "trajanje": "60",
-        "opis": "Words from two and three levels ago — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "kofer",
-          "suitcase"
-        ],
-        [
-          "prtljaga",
-          "luggage"
-        ],
-        [
-          "ručnik",
-          "towel"
-        ],
-        [
-          "jastuk",
-          "pillow"
-        ],
-        [
-          "kolodvor",
-          "station"
-        ],
-        [
-          "aerodrom",
-          "airport"
-        ],
-        [
-          "rezervacija",
-          "reservation"
-        ],
-        [
-          "momčad",
-          "team"
-        ],
-        [
-          "igrač",
-          "player"
-        ],
-        [
-          "obrana",
-          "defence"
-        ],
-        [
-          "trening",
-          "training"
-        ],
-        [
-          "koljeno",
-          "knee"
-        ],
-        [
-          "rame",
-          "shoulder"
-        ],
-        [
-          "leđa",
-          "back"
-        ],
-        [
-          "strog",
-          "strict"
-        ],
-        [
-          "pošten",
-          "fair"
-        ]
-      ],
-      "sortkljuc": 1102014,
-      "bodovi": 267
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. Four words here need letters English does not have: *čestitka* and *četrnaest* start with **č**, *svijeća* ends in **-ća**, and *iznenađenje* carries both **đ** and the single letter **nj**.",
-        "infokratko": "*čestitka* **č**, *svijeća* **ć**, *iznenađenje* **đ** and **nj**.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own."
-      },
-      "stavke": [
-        [
-          "čestitka",
-          "greeting card"
-        ],
-        [
-          "svijeća",
-          "candle"
-        ],
-        [
-          "cvijeće",
-          "flowers"
-        ],
-        [
-          "iznenađenje",
-          "surprise"
-        ],
-        [
-          "rođendan",
-          "birthday"
-        ],
-        [
-          "četrnaest",
-          "fourteen"
-        ],
-        [
-          "pedeset",
-          "fifty"
-        ],
-        [
-          "pitanje",
-          "question"
-        ],
-        [
-          "razgovor",
-          "conversation"
-        ],
-        [
           "zapravo",
           "actually"
         ]
       ],
-      "sortkljuc": 1102015,
-      "bodovi": 314
+      "sortkljuc": 1102005,
+      "bodovi": 485
     },
     {
       "cjelina": "Vocabulary 11",
       "cjelinanaslov": "Presents & Questions",
-      "stranica": 16,
+      "stranica": 6,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the question word",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "The answer is given and you type the question. Three of them take an ending from the noun beside them — *koji*, *kakav* and *čiji* — and one asks about a target: *Koga čekaš?*",
-        "infokratko": "*koji, kakav, čiji* agree; *Koga čekaš?*",
-        "opis": "Read the answer, then type the question word that fits."
+        "info": "You write each new word once, from its English meaning. *Koji* and *kakav* are wanted in their basic form, the one that goes with a masculine noun. The diacritics are full letters: *zašto* has **š**, *svijeća* has **ć**, *cvijeće* ends in **ć** + **e**, *rođendan* and *iznenađenje* have **đ**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once; *koji, kakav* in the basic form. Diacritics count: *svijeća, rođendan, iznenađenje*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
-        [
-          "___ je to? — To je Marko.",
-          "Tko"
-        ],
-        [
-          "___ kupuješ? — Poklon.",
-          "Što"
-        ],
-        [
-          "___ živiš? — U Splitu.",
-          "Gdje"
-        ],
-        [
-          "___ je rođendan? — Sutra.",
-          "Kada"
-        ],
-        [
-          "___ učiš hrvatski? — Jer volim jezik.",
-          "Zašto"
-        ],
-        [
-          "___ godina imaš? — Dvadeset.",
-          "Koliko"
-        ],
-        [
-          "___ košta torta? — Petnaest eura.",
-          "Koliko"
-        ],
-        [
-          "___ čekaš? — Prijatelja.",
-          "Koga"
-        ],
-        [
-          "___ je kava? — Jaka.",
-          "Kakva"
-        ],
-        [
-          "___ je ovo poklon? — Anin.",
-          "Čiji"
-        ],
-        [
-          "___ film gledamo? — Ovaj novi.",
-          "Koji"
-        ],
-        [
-          "___ često igraš šah? — Svaki dan.",
-          "Kako"
-        ]
-      ],
-      "sortkljuc": 1102016,
-      "bodovi": 376
-    },
-    {
-      "cjelina": "Vocabulary 11",
-      "cjelinanaslov": "Presents & Questions",
-      "stranica": 17,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English to Croatian, with spelling counted. The numbers are wanted as words, the nouns in their naming form, and the verbs as infinitives. The diacritics are part of the word: *čestitka*, *svijeća*, *rođendan*.",
-        "infokratko": "Numbers as words, naming forms, infinitives: *čestitka, svijeća, rođendan*.",
-        "opis": "The final round — type each word in Croatian."
-      },
-      "stavke": [
-        [
-          "who",
-          "tko"
-        ],
-        [
-          "what",
-          "što"
-        ],
-        [
-          "where",
-          "gdje"
-        ],
         [
           "when",
           "kada"
@@ -67900,10 +61411,6 @@ window.PODACI = {
           "kako"
         ],
         [
-          "how much",
-          "koliko"
-        ],
-        [
           "which",
           "koji"
         ],
@@ -67912,44 +61419,12 @@ window.PODACI = {
           "kakav"
         ],
         [
-          "whose",
-          "čiji"
-        ],
-        [
-          "one",
-          "jedan"
-        ],
-        [
           "three",
           "tri"
         ],
         [
-          "five",
-          "pet"
-        ],
-        [
-          "seven",
-          "sedam"
-        ],
-        [
-          "nine",
-          "devet"
-        ],
-        [
-          "ten",
-          "deset"
-        ],
-        [
-          "eleven",
-          "jedanaest"
-        ],
-        [
-          "fourteen",
-          "četrnaest"
-        ],
-        [
-          "fifteen",
-          "petnaest"
+          "twelve",
+          "dvanaest"
         ],
         [
           "twenty",
@@ -67960,100 +61435,277 @@ window.PODACI = {
           "trideset"
         ],
         [
-          "fifty",
-          "pedeset"
-        ],
-        [
           "a hundred",
           "sto"
-        ],
-        [
-          "present",
-          "poklon"
         ],
         [
           "birthday",
           "rođendan"
         ],
         [
-          "cake",
-          "torta"
-        ],
-        [
           "candle",
           "svijeća"
-        ],
-        [
-          "flowers",
-          "cvijeće"
-        ],
-        [
-          "greeting card",
-          "čestitka"
-        ],
-        [
-          "perfume",
-          "parfem"
-        ],
-        [
-          "box",
-          "kutija"
         ],
         [
           "surprise",
           "iznenađenje"
         ],
         [
-          "idea",
-          "ideja"
-        ],
-        [
-          "question",
-          "pitanje"
-        ],
-        [
-          "answer",
-          "odgovor"
-        ],
-        [
-          "price",
-          "cijena"
-        ],
-        [
-          "money",
-          "novac"
-        ],
-        [
-          "cheap",
-          "jeftin"
-        ],
-        [
-          "expensive",
-          "skup"
-        ],
-        [
-          "to ask",
-          "pitati"
-        ],
-        [
-          "to answer",
-          "odgovarati"
-        ],
-        [
-          "to cost",
-          "koštati"
-        ],
-        [
-          "to live",
-          "živjeti"
+          "flowers",
+          "cvijeće"
         ],
         [
           "maybe",
           "možda"
         ]
       ],
-      "sortkljuc": 1102017,
-      "bodovi": 376
+      "sortkljuc": 1102006,
+      "bodovi": 684
+    },
+    {
+      "cjelina": "Vocabulary 11",
+      "cjelinanaslov": "Presents & Questions",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–9, half and half. Two pairs are easy to mix up: *možda* is maybe and *ponekad* sometimes; *čiji* asks whose, *koliko* how much.",
+        "infokratko": "New and old words against the clock. *možda* maybe, *ponekad* sometimes; *čiji* whose.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "gdje",
+          "where"
+        ],
+        [
+          "tim",
+          "team"
+        ],
+        [
+          "kada",
+          "when"
+        ],
+        [
+          "piti",
+          "to drink"
+        ],
+        [
+          "zašto",
+          "why"
+        ],
+        [
+          "imati",
+          "to have"
+        ],
+        [
+          "koliko",
+          "how much, how many"
+        ],
+        [
+          "dosadan",
+          "boring"
+        ],
+        [
+          "rođendan",
+          "birthday"
+        ],
+        [
+          "čiji",
+          "whose"
+        ],
+        [
+          "svijeća",
+          "candle"
+        ],
+        [
+          "turist",
+          "tourist"
+        ],
+        [
+          "možda",
+          "maybe"
+        ],
+        [
+          "ponekad",
+          "sometimes"
+        ],
+        [
+          "četrdeset",
+          "forty"
+        ],
+        [
+          "još",
+          "still, yet"
+        ],
+        [
+          "tisuća",
+          "a thousand"
+        ],
+        [
+          "pas",
+          "dog"
+        ],
+        [
+          "zapravo",
+          "actually"
+        ],
+        [
+          "kolač",
+          "cake, pastry"
+        ]
+      ],
+      "sortkljuc": 1102007,
+      "bodovi": 485
+    },
+    {
+      "cjelina": "Vocabulary 11",
+      "cjelinanaslov": "Presents & Questions",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "koji, koja or koje?",
+      "meta": {
+        "info": "Sorting nouns by the form of *koji* they take, and the last letter of the noun is your guide. A consonant takes **koji** (*koji poklon*, *koji brod*), **-a** takes **koja** (*koja svijeća*, *koja destinacija*), **-o** or **-e** takes **koje** (*koje oko*, *koje iznenađenje*). *Kakav* and *čiji* follow the same pattern: *kakav poklon*, *kakva ideja*, *čije cvijeće*.",
+        "infokratko": "Consonant **koji**, **-a** **koja**, **-o/-e** **koje**: *koji poklon, koja svijeća, koje oko*.",
+        "opis": "Which form of *which* does each noun take? The last letter of the noun decides.",
+        "stupci": "KOJI | KOJA | KOJE"
+      },
+      "stavke": [
+        [
+          "poklon",
+          "KOJI"
+        ],
+        [
+          "parfem",
+          "KOJI"
+        ],
+        [
+          "problem",
+          "KOJI"
+        ],
+        [
+          "brod",
+          "KOJI"
+        ],
+        [
+          "restoran",
+          "KOJI"
+        ],
+        [
+          "kafić",
+          "KOJI"
+        ],
+        [
+          "svijeća",
+          "KOJA"
+        ],
+        [
+          "čestitka",
+          "KOJA"
+        ],
+        [
+          "ideja",
+          "KOJA"
+        ],
+        [
+          "informacija",
+          "KOJA"
+        ],
+        [
+          "njuška",
+          "KOJA"
+        ],
+        [
+          "destinacija",
+          "KOJA"
+        ],
+        [
+          "fizika",
+          "KOJA"
+        ],
+        [
+          "cvijeće",
+          "KOJE"
+        ],
+        [
+          "iznenađenje",
+          "KOJE"
+        ],
+        [
+          "oko",
+          "KOJE"
+        ]
+      ],
+      "sortkljuc": 1102008,
+      "bodovi": 571
+    },
+    {
+      "cjelina": "Vocabulary 11",
+      "cjelinanaslov": "Presents & Questions",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Numbers as words, nouns in their naming form, the verb as an infinitive and the adjective in the short form (*tužan*). The diacritics count as always: *četrnaest*, *čestitka*, *džemper* with **dž**.",
+        "infokratko": "Mixed final round. Numbers as words, infinitive, short adjective (*tužan*). Diacritics count.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "who",
+          "tko"
+        ],
+        [
+          "window",
+          "prozor"
+        ],
+        [
+          "fourteen",
+          "četrnaest"
+        ],
+        [
+          "number",
+          "broj"
+        ],
+        [
+          "sixty",
+          "šezdeset"
+        ],
+        [
+          "sweater",
+          "džemper"
+        ],
+        [
+          "greeting card",
+          "čestitka"
+        ],
+        [
+          "jersey",
+          "dres"
+        ],
+        [
+          "conversation",
+          "razgovor"
+        ],
+        [
+          "sad",
+          "tužan"
+        ],
+        [
+          "idea",
+          "ideja"
+        ],
+        [
+          "to know (a person)",
+          "poznavati"
+        ]
+      ],
+      "sortkljuc": 1102009,
+      "bodovi": 685
     },
     {
       "cjelina": "Grammar 11",
@@ -72778,18 +66430,10 @@ window.PODACI = {
         [
           "pomfrit",
           "French fries"
-        ],
-        [
-          "sol",
-          "salt"
-        ],
-        [
-          "ocat",
-          "vinegar"
         ]
       ],
       "sortkljuc": 1202001,
-      "bodovi": 299
+      "bodovi": 557
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72799,18 +66443,14 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Tastes & textures",
       "meta": {
-        "info": "Adjectives for describing food, each in its masculine and feminine form. Four of them drop the vowel in the feminine — *sladak → slatka*, *gorak → gorka*, *mastan → masna*, *sočan → sočna* — the fleeting **a** from Grammar 2, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* means *angry* for people and *spicy* for food.",
-        "infokratko": "m and f forms: *sladak → slatka, gorak → gorka, kiseo → kisela*. *ljut* = spicy.",
-        "opis": "How food tastes and how it is made. Tap a card to reveal the meaning."
+        "info": "How food tastes, what goes on it, and what you do with it in the kitchen. Adjectives are shown in the masculine and feminine form. Three drop the vowel in the feminine — *gorak → gorka*, *mastan → masna*, *sočan → sočna* — like *sladak → slatka* from Vocabulary 1, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* is the *angry* from Vocabulary 2; for food it means *spicy*. *Peći* and *rezati* change their stem — *pečem*, *režem* — and the third form is the food after it: *pečen* (baked), *pržen* (fried).",
+        "infokratko": "m and f forms: *gorak → gorka, kiseo → kisela*. *ljut* = spicy. *peći → pečem → pečen*.",
+        "opis": "How food tastes, and how it is made. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
           "okus",
           "taste, flavor"
-        ],
-        [
-          "sladak / slatka",
-          "sweet"
         ],
         [
           "slan / slana",
@@ -72857,20 +66497,40 @@ window.PODACI = {
           "raw"
         ],
         [
-          "kuhan / kuhana",
-          "boiled, cooked"
+          "sol",
+          "salt"
         ],
         [
-          "pečen / pečena",
-          "baked, roasted"
+          "ocat",
+          "vinegar"
         ],
         [
-          "pržen / pržena",
-          "fried"
+          "kušati → kušam",
+          "to taste"
+        ],
+        [
+          "probati → probam",
+          "to try"
+        ],
+        [
+          "peći → pečem → pečen",
+          "to bake (baked, roasted)"
+        ],
+        [
+          "pržiti → pržim → pržen",
+          "to fry (fried)"
+        ],
+        [
+          "rezati → režem",
+          "to cut"
+        ],
+        [
+          "recept",
+          "recipe"
         ]
       ],
       "sortkljuc": 1202002,
-      "bodovi": 299
+      "bodovi": 557
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72880,8 +66540,8 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "At the table",
       "meta": {
-        "info": "The things on a restaurant table and the phrases around a meal. *Dobar tek!* is said before anyone starts eating, and *Račun, molim.* is how the meal ends. *Nema problema* is a fixed phrase — take it whole for now; Lesson 16 explains the ending.",
-        "infokratko": "Table words. *Dobar tek!* before eating, *Račun, molim.* at the end. *Nema problema*: fixed.",
+        "info": "The things on a restaurant table, the verbs around a meal and two phrases. *Dobar tek!* is said before anyone starts eating, and *Račun, molim.* is how the meal ends: you *naručiti* at the start and *platiti* at the end. *Platiti* is the one-time *pay the bill*; *plaćati* from Vocabulary 5 is paying in general.",
+        "infokratko": "Table words. *Dobar tek!* before eating, *Račun, molim.* at the end. *naručiti* order, *platiti* pay.",
         "opis": "Everything from the menu to the tip. Tap a card to reveal the meaning."
       },
       "stavke": [
@@ -72942,8 +66602,20 @@ window.PODACI = {
           "tip"
         ],
         [
-          "konobarica",
-          "waitress"
+          "naručiti → naručim",
+          "to order"
+        ],
+        [
+          "platiti → platim",
+          "to pay"
+        ],
+        [
+          "dijeliti → dijelim",
+          "to share"
+        ],
+        [
+          "dijeta",
+          "diet"
         ],
         [
           "Dobar tek!",
@@ -72952,14 +66624,10 @@ window.PODACI = {
         [
           "Račun, molim.",
           "The bill, please."
-        ],
-        [
-          "Nema problema.",
-          "No problem."
         ]
       ],
       "sortkljuc": 1202003,
-      "bodovi": 299
+      "bodovi": 557
     },
     {
       "cjelina": "Vocabulary 12",
@@ -72969,27 +66637,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Negation & more",
       "meta": {
-        "info": "The complete set of words for saying no. The negative words start with **ni-** and always keep *ne* on the verb: *Ništa ne jedem.* Their positive twins start with **ne-** and take no *ne*: *Nešto jedem.* *Nego* is used only after a negative, to correct it.",
+        "info": "The words for saying no, and for what you won't eat. The negative words start with **ni-** and always keep *ne* on the verb: *Ništa ne jedem.* Their positive twins start with **ne-** and take no *ne*: *Nešto jedem.* *Nikad* (never) you know from Vocabulary 3; it works the same way. *Nego* is used only after a negative, to correct it: *Ne jedem meso, nego ribu.*",
         "infokratko": "**ni-** words keep *ne*: *Ništa ne jedem.* **ne-** words don't: *Nešto jedem.* *nego* after a negative.",
         "opis": "The complete toolkit for saying no. Tap a card to reveal the meaning."
       },
       "stavke": [
-        [
-          "ne",
-          "not (before the verb)"
-        ],
-        [
-          "nisam, nisi, nije, nismo, niste, nisu",
-          "am not, are not, is not…"
-        ],
-        [
-          "nemam, nemaš, nema, nemamo, nemate, nemaju",
-          "don't have, doesn't have…"
-        ],
-        [
-          "neću, nećeš, neće, nećemo, nećete, neće",
-          "won't…"
-        ],
         [
           "ništa",
           "nothing"
@@ -73003,20 +66655,12 @@ window.PODACI = {
           "nowhere"
         ],
         [
-          "nikad",
-          "never"
-        ],
-        [
           "nijedan / nijedna / nijedno",
           "not a single one"
         ],
         [
-          "ni… ni…",
-          "neither… nor…"
-        ],
-        [
-          "ni",
-          "not even, (not) either"
+          "ni · ni… ni…",
+          "not even · neither… nor…"
         ],
         [
           "nego",
@@ -73061,39 +66705,6 @@ window.PODACI = {
         [
           "samo",
           "only"
-        ]
-      ],
-      "sortkljuc": 1202004,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "New verbs & diets",
-      "meta": {
-        "info": "Ten verbs for the kitchen and the restaurant, each with its *ja* form. *Peći* and *rezati* change their stem in the present — *pečem*, *režem* — so learn those forms whole. *Vegetarijanac* is a man, *vegetarijanka* a woman.",
-        "infokratko": "Kitchen verbs. *peći → pečem*, *rezati → režem*. *vegetarijanac / vegetarijanka*.",
-        "opis": "What you do with food, and what you can't or won't eat. Tap a card to reveal the meaning."
-      },
-      "stavke": [
-        [
-          "naručiti → naručim",
-          "to order"
-        ],
-        [
-          "platiti → platim",
-          "to pay"
-        ],
-        [
-          "kušati → kušam",
-          "to taste"
-        ],
-        [
-          "probati → probam",
-          "to try"
         ],
         [
           "mrziti → mrzim",
@@ -73104,213 +66715,21 @@ window.PODACI = {
           "to want, to wish"
         ],
         [
-          "dijeliti → dijelim",
-          "to share"
-        ],
-        [
-          "peći → pečem",
-          "to bake"
-        ],
-        [
-          "pržiti → pržim",
-          "to fry"
-        ],
-        [
-          "rezati → režem",
-          "to cut"
-        ],
-        [
-          "vegetarijanac",
-          "vegetarian (m.)"
-        ],
-        [
-          "vegetarijanka",
-          "vegetarian (f.)"
+          "vegetarijanac / vegetarijanka",
+          "vegetarian"
         ],
         [
           "alergičan / alergična",
           "allergic"
-        ],
-        [
-          "dijeta",
-          "diet"
-        ],
-        [
-          "recept",
-          "recipe"
         ]
       ],
-      "sortkljuc": 1202005,
-      "bodovi": 299
+      "sortkljuc": 1202004,
+      "bodovi": 557
     },
     {
       "cjelina": "Vocabulary 12",
       "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Sweet, salty or sour?",
-      "meta": {
-        "info": "Sorting food by its main taste. Say the adjective with each word as you sort, and let it match the noun: *med je sladak*, *šunka je slana*, *limun je kiseo*. In *kiseli krastavci* (pickled cucumbers) and *kiselo mlijeko* (sour milk) the taste is already part of the name.",
-        "infokratko": "Match the adjective: *med je sladak, šunka je slana, limun je kiseo*.",
-        "stupci": "SLATKO | SLANO | KISELO",
-        "opis": "Sort each food by its main taste."
-      },
-      "stavke": [
-        [
-          "med",
-          "SLATKO"
-        ],
-        [
-          "džem",
-          "SLATKO"
-        ],
-        [
-          "čokolada",
-          "SLATKO"
-        ],
-        [
-          "sladoled",
-          "SLATKO"
-        ],
-        [
-          "palačinke",
-          "SLATKO"
-        ],
-        [
-          "torta",
-          "SLATKO"
-        ],
-        [
-          "šunka",
-          "SLANO"
-        ],
-        [
-          "kobasica",
-          "SLANO"
-        ],
-        [
-          "čips",
-          "SLANO"
-        ],
-        [
-          "pomfrit",
-          "SLANO"
-        ],
-        [
-          "sol",
-          "SLANO"
-        ],
-        [
-          "limun",
-          "KISELO"
-        ],
-        [
-          "ocat",
-          "KISELO"
-        ],
-        [
-          "kiseli krastavci",
-          "KISELO"
-        ],
-        [
-          "kiseli kupus",
-          "KISELO"
-        ],
-        [
-          "kiselo mlijeko",
-          "KISELO"
-        ]
-      ],
-      "sortkljuc": 1202006,
-      "bodovi": 363
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Positive or negative word?",
-      "meta": {
-        "info": "Sorting by meaning, not by the first letters. Words starting with **ne-** such as *nešto* and *netko* look negative but are positive. The negative words start with **ni-**, and the fused verbs *nemam* and *neću* are negative too.",
-        "infokratko": "**ne-** = positive (*nešto*), **ni-** = negative (*ništa*). *nemam, neću* negative.",
-        "stupci": "✓ POZITIVNO | ✗ NEGATIVNO",
-        "opis": "Careful — *nešto* and *netko* start with *ne-* but mean something positive."
-      },
-      "stavke": [
-        [
-          "nešto",
-          "✓ POZITIVNO"
-        ],
-        [
-          "netko",
-          "✓ POZITIVNO"
-        ],
-        [
-          "negdje",
-          "✓ POZITIVNO"
-        ],
-        [
-          "nekad",
-          "✓ POZITIVNO"
-        ],
-        [
-          "nekoga",
-          "✓ POZITIVNO"
-        ],
-        [
-          "uvijek",
-          "✓ POZITIVNO"
-        ],
-        [
-          "imam",
-          "✓ POZITIVNO"
-        ],
-        [
-          "hoću",
-          "✓ POZITIVNO"
-        ],
-        [
-          "ništa",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nitko",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nigdje",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nikad",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nikoga",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nijedan",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "nemam",
-          "✗ NEGATIVNO"
-        ],
-        [
-          "neću",
-          "✗ NEGATIVNO"
-        ]
-      ],
-      "sortkljuc": 1202007,
-      "bodovi": 362
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 8,
+      "stranica": 5,
       "broj": 9999,
       "format": "spajanje",
       "naslov": "Match the pictures",
@@ -73345,8 +66764,8 @@ window.PODACI = {
           "grapes"
         ],
         [
-          "jaje",
-          "egg"
+          "sol",
+          "salt"
         ],
         [
           "tanjur",
@@ -73369,587 +66788,24 @@ window.PODACI = {
           "cup"
         ]
       ],
-      "sortkljuc": 1202008,
-      "bodovi": 252
+      "sortkljuc": 1202005,
+      "bodovi": 469
     },
     {
       "cjelina": "Vocabulary 12",
       "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "info": "Food words beside their meanings. Say each one aloud with *ne volim* in front as you match — *ne volim gljive*, *ne volim češnjak* — so the negative comes with the word from the start.",
-        "infokratko": "Say *ne volim* + word as you match.",
-        "opis": "Match each food word with its English meaning."
-      },
-      "stavke": [
-        [
-          "piletina",
-          "chicken"
-        ],
-        [
-          "šunka",
-          "ham"
-        ],
-        [
-          "kobasica",
-          "sausage"
-        ],
-        [
-          "tjestenina",
-          "pasta"
-        ],
-        [
-          "gljive",
-          "mushrooms"
-        ],
-        [
-          "češnjak",
-          "garlic"
-        ],
-        [
-          "krastavac",
-          "cucumber"
-        ],
-        [
-          "kupus",
-          "cabbage"
-        ],
-        [
-          "med",
-          "honey"
-        ],
-        [
-          "maslac",
-          "butter"
-        ],
-        [
-          "palačinke",
-          "pancakes"
-        ],
-        [
-          "jelovnik",
-          "menu"
-        ]
-      ],
-      "sortkljuc": 1202009,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Yes and no",
-      "meta": {
-        "info": "Each positive form beside its negative twin. Two patterns cover every pair: *biti*, *imati* and *htjeti* join *ne* into one word, and the **ne-** words swap to **ni-**. *Volim* shows the ordinary case — *ne* as a separate word.",
-        "infokratko": "*nisam, nemam, neću*; **ne- → ni-**; others *ne* + verb.",
-        "opis": "Match each positive form with its negative twin."
-      },
-      "stavke": [
-        [
-          "sam",
-          "nisam"
-        ],
-        [
-          "imam",
-          "nemam"
-        ],
-        [
-          "ću",
-          "neću"
-        ],
-        [
-          "volim",
-          "ne volim"
-        ],
-        [
-          "nešto",
-          "ništa"
-        ],
-        [
-          "netko",
-          "nitko"
-        ],
-        [
-          "nekoga",
-          "nikoga"
-        ],
-        [
-          "negdje",
-          "nigdje"
-        ],
-        [
-          "nekad",
-          "nikad"
-        ],
-        [
-          "jedem",
-          "ne jedem"
-        ]
-      ],
-      "sortkljuc": 1202010,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "info": "A pairs game over the negative words. Keep *još ne* and *više ne* apart: *još ne* means something has not happened yet, *više ne* means it has stopped. *Nažalost* is the polite way to begin a refusal.",
-        "infokratko": "*još ne* not yet, *više ne* no longer. *Nažalost* = unfortunately.",
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "ništa",
-          "nothing"
-        ],
-        [
-          "nitko",
-          "nobody"
-        ],
-        [
-          "nigdje",
-          "nowhere"
-        ],
-        [
-          "nikad",
-          "never"
-        ],
-        [
-          "nešto",
-          "something"
-        ],
-        [
-          "još ne",
-          "not yet"
-        ],
-        [
-          "više ne",
-          "no longer"
-        ],
-        [
-          "nažalost",
-          "unfortunately"
-        ],
-        [
-          "uopće",
-          "at all"
-        ],
-        [
-          "nijedan",
-          "not a single one"
-        ]
-      ],
-      "sortkljuc": 1202011,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 12,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
-      "meta": {
-        "info": "A timed sprint from positive to negative. Three verbs join *ne* into one word — *sam → nisam*, *imam → nemam*, *ću → neću* — and each **ne-** word swaps to its **ni-** twin. Every other verb simply takes *ne* in front.",
-        "infokratko": "*sam → nisam, imam → nemam, ću → neću*; **ne- → ni-**.",
-        "trajanje": "45",
-        "opis": "Positive → negative! Tap the negated form."
-      },
-      "stavke": [
-        [
-          "sam",
-          "nisam"
-        ],
-        [
-          "si",
-          "nisi"
-        ],
-        [
-          "je",
-          "nije"
-        ],
-        [
-          "smo",
-          "nismo"
-        ],
-        [
-          "su",
-          "nisu"
-        ],
-        [
-          "imam",
-          "nemam"
-        ],
-        [
-          "ima",
-          "nema"
-        ],
-        [
-          "imaju",
-          "nemaju"
-        ],
-        [
-          "ću",
-          "neću"
-        ],
-        [
-          "ćemo",
-          "nećemo"
-        ],
-        [
-          "jedem",
-          "ne jedem"
-        ],
-        [
-          "volim",
-          "ne volim"
-        ],
-        [
-          "nešto",
-          "ništa"
-        ],
-        [
-          "netko",
-          "nitko"
-        ],
-        [
-          "negdje",
-          "nigdje"
-        ],
-        [
-          "nekad",
-          "nikad"
-        ]
-      ],
-      "sortkljuc": 1202012,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 13,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge: food & tastes",
-      "meta": {
-        "info": "Timed recognition of the food, taste and table words. The tastes come in pairs you can picture — *sladak* and *gorak*, *slan* and *bljutav* — and the table words all belong to one place setting: *tanjur, čaša, žlica, vilica, nož*.",
-        "infokratko": "Tastes in pairs (*sladak / gorak*); table: *tanjur, čaša, žlica, vilica, nož*.",
-        "trajanje": "60",
-        "opis": "Tap the English meaning before the timer runs out."
-      },
-      "stavke": [
-        [
-          "piletina",
-          "chicken"
-        ],
-        [
-          "šunka",
-          "ham"
-        ],
-        [
-          "tjestenina",
-          "pasta"
-        ],
-        [
-          "gljive",
-          "mushrooms"
-        ],
-        [
-          "češnjak",
-          "garlic"
-        ],
-        [
-          "krastavac",
-          "cucumber"
-        ],
-        [
-          "grašak",
-          "peas"
-        ],
-        [
-          "maslac",
-          "butter"
-        ],
-        [
-          "slan",
-          "salty"
-        ],
-        [
-          "kiseo",
-          "sour"
-        ],
-        [
-          "gorak",
-          "bitter"
-        ],
-        [
-          "ljut",
-          "spicy"
-        ],
-        [
-          "bljutav",
-          "bland"
-        ],
-        [
-          "mastan",
-          "greasy"
-        ],
-        [
-          "sirov",
-          "raw"
-        ],
-        [
-          "jelovnik",
-          "menu"
-        ],
-        [
-          "tanjur",
-          "plate"
-        ],
-        [
-          "vilica",
-          "fork"
-        ],
-        [
-          "žlica",
-          "spoon"
-        ],
-        [
-          "napojnica",
-          "tip"
-        ]
-      ],
-      "sortkljuc": 1202013,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 14,
-      "broj": 9999,
-      "format": "brzina",
-      "naslov": "Words from earlier levels",
-      "meta": {
-        "info": "A timed return to the food words from Vocabulary 5, which this level builds on. Nothing here is new; the point is to keep the older words in use next to the new ones.",
-        "infokratko": "Food words from level 5.",
-        "trajanje": "60",
-        "opis": "Food from seven levels ago — tap the English meaning."
-      },
-      "stavke": [
-        [
-          "povrće",
-          "vegetables"
-        ],
-        [
-          "voće",
-          "fruit"
-        ],
-        [
-          "mlijeko",
-          "milk"
-        ],
-        [
-          "meso",
-          "meat"
-        ],
-        [
-          "jaje",
-          "egg"
-        ],
-        [
-          "krumpir",
-          "potato"
-        ],
-        [
-          "riža",
-          "rice"
-        ],
-        [
-          "grah",
-          "beans"
-        ],
-        [
-          "rajčica",
-          "tomato"
-        ],
-        [
-          "mrkva",
-          "carrot"
-        ],
-        [
-          "luk",
-          "onion"
-        ],
-        [
-          "juha",
-          "soup"
-        ],
-        [
-          "salata",
-          "salad"
-        ],
-        [
-          "kruh",
-          "bread"
-        ],
-        [
-          "sir",
-          "cheese"
-        ],
-        [
-          "šećer",
-          "sugar"
-        ]
-      ],
-      "sortkljuc": 1202014,
-      "bodovi": 299
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 15,
-      "broj": 9999,
-      "format": "slova",
-      "naslov": "Build the word",
-      "meta": {
-        "info": "Spelling from letter tiles. *Češnjak* needs both **č** and the single letter **nj**, *žlica* starts with **ž**, and *palačinke* carries a **č** in the middle. *Ništa* and *nešto* differ in two letters — and in meaning.",
-        "infokratko": "*češnjak* **č** + **nj**, *žlica* **ž**, *palačinke* **č**.",
-        "opis": "Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, đ, š, ž** are letters of their own."
-      },
-      "stavke": [
-        [
-          "češnjak",
-          "garlic"
-        ],
-        [
-          "žlica",
-          "spoon"
-        ],
-        [
-          "vilica",
-          "fork"
-        ],
-        [
-          "jelovnik",
-          "menu"
-        ],
-        [
-          "krastavac",
-          "cucumber"
-        ],
-        [
-          "palačinke",
-          "pancakes"
-        ],
-        [
-          "piletina",
-          "chicken"
-        ],
-        [
-          "nažalost",
-          "unfortunately"
-        ],
-        [
-          "ništa",
-          "nothing"
-        ],
-        [
-          "nigdje",
-          "nowhere"
-        ]
-      ],
-      "sortkljuc": 1202015,
-      "bodovi": 362
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 16,
+      "stranica": 6,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the negative word",
+      "naslov": "First writing: the new words",
       "meta": {
-        "info": "Short negative answers. A question with *što* is answered by *ništa*, *tko* by *nitko*, *gdje* by *nigdje*, *kada* by *nikad* and *koga* by *nikoga*. In a full sentence the verb would still take *ne*: *Ništa ne jedem.*",
-        "infokratko": "*što → ništa, tko → nitko, gdje → nigdje, kada → nikad, koga → nikoga*.",
-        "opis": "Answer each question with one negative word."
+        "info": "You write each new word once, from its English meaning. Nouns go in their naming form, *gljive* in the plural, the adjectives in the masculine and the verb as an infinitive. The diacritics are full letters: *šunka* has **š**, *češnjak* has **č** and the single letter **nj**, *ništa* has **š**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, masculine, infinitive. Diacritics count: *šunka, češnjak, ništa*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "Što jedeš? — ___ .",
-          "Ništa"
-        ],
-        [
-          "Tko kuha? — ___ .",
-          "Nitko"
-        ],
-        [
-          "Gdje ideš? — ___ .",
-          "Nigdje"
-        ],
-        [
-          "Kada piješ mlijeko? — ___ .",
-          "Nikad"
-        ],
-        [
-          "Koga čekaš? — ___ .",
-          "Nikoga"
-        ],
-        [
-          "Što želiš? — ___ , hvala.",
-          "Ništa"
-        ],
-        [
-          "Tko je platio račun? — ___ !",
-          "Nitko"
-        ],
-        [
-          "Imaš li vilicu? — Ne, ___ .",
-          "nemam"
-        ],
-        [
-          "Jesi li gladan? — Ne, ___ .",
-          "nisam"
-        ],
-        [
-          "Hoćeš li juhu? — Ne, ___ .",
-          "neću"
-        ],
-        [
-          "Voliš li gljive? — Ne, ___ volim.",
-          "ne"
-        ],
-        [
-          "Jesi li platio? — Ne, još ___ .",
-          "nisam"
-        ]
-      ],
-      "sortkljuc": 1202016,
-      "bodovi": 411
-    },
-    {
-      "cjelina": "Vocabulary 12",
-      "cjelinanaslov": "Food We (Don't) Like",
-      "stranica": 17,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type it in Croatian",
-      "meta": {
-        "info": "English to Croatian, with spelling counted. Nouns go in their naming form, adjectives in the masculine and verbs as infinitives; for *vegetarian* either form is accepted. The diacritics are part of the word: *češnjak*, *žlica*, *ništa* — and *ništa* is not *nešto*.",
-        "infokratko": "Naming forms, masculine adjectives, infinitives. *ništa* ≠ *nešto*.",
-        "opis": "The final round — type each word in Croatian."
-      },
-      "stavke": [
-        [
-          "chicken",
+          "chicken (meat)",
           "piletina"
         ],
         [
@@ -73965,14 +66821,6 @@ window.PODACI = {
           "kobasica"
         ],
         [
-          "pasta",
-          "tjestenina"
-        ],
-        [
-          "mushrooms",
-          "gljive"
-        ],
-        [
           "garlic",
           "češnjak"
         ],
@@ -73981,100 +66829,28 @@ window.PODACI = {
           "krastavac"
         ],
         [
-          "cabbage",
-          "kupus"
-        ],
-        [
-          "peas",
-          "grašak"
+          "mushrooms",
+          "gljive"
         ],
         [
           "honey",
           "med"
         ],
         [
-          "jam",
-          "džem"
-        ],
-        [
           "butter",
           "maslac"
-        ],
-        [
-          "pancakes",
-          "palačinke"
-        ],
-        [
-          "taste",
-          "okus"
-        ],
-        [
-          "sweet",
-          "sladak"
         ],
         [
           "salty",
           "slan"
         ],
         [
-          "sour",
-          "kiseo"
-        ],
-        [
           "bitter",
           "gorak"
         ],
         [
-          "spicy",
-          "ljut"
-        ],
-        [
-          "bland",
-          "bljutav"
-        ],
-        [
-          "healthy",
-          "zdrav"
-        ],
-        [
-          "raw",
-          "sirov"
-        ],
-        [
-          "menu",
-          "jelovnik"
-        ],
-        [
-          "plate",
-          "tanjur"
-        ],
-        [
-          "glass",
-          "čaša"
-        ],
-        [
-          "cup",
-          "šalica"
-        ],
-        [
-          "spoon",
-          "žlica"
-        ],
-        [
-          "fork",
-          "vilica"
-        ],
-        [
-          "knife",
-          "nož"
-        ],
-        [
-          "dessert",
-          "desert"
-        ],
-        [
-          "tip",
-          "napojnica"
+          "napkin",
+          "salveta"
         ],
         [
           "nothing",
@@ -74085,64 +66861,257 @@ window.PODACI = {
           "nitko"
         ],
         [
-          "nowhere",
-          "nigdje"
-        ],
-        [
-          "never",
-          "nikad"
-        ],
-        [
-          "something",
-          "nešto"
-        ],
-        [
-          "somebody",
-          "netko"
-        ],
-        [
-          "not yet",
-          "još ne"
-        ],
-        [
-          "no longer",
-          "više ne"
-        ],
-        [
-          "unfortunately",
-          "nažalost"
-        ],
-        [
           "to order",
           "naručiti"
+        ]
+      ],
+      "sortkljuc": 1202006,
+      "bodovi": 761
+    },
+    {
+      "cjelina": "Vocabulary 12",
+      "cjelinanaslov": "Food We (Don't) Like",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–11, half and half. The tastes come in pairs you can picture — *sladak* and *kiseo*, *ljut* and *bljutav* — and *nigdje* and *nešto* show the two families: **ni-** is the negative, **ne-** the positive.",
+        "infokratko": "New and old words against the clock. *sladak / kiseo*, *ljut / bljutav*; **ni-** no, **ne-** some.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "kiseo",
+          "sour"
         ],
         [
-          "to pay",
-          "platiti"
+          "sladak",
+          "sweet"
         ],
         [
-          "to taste",
-          "kušati"
+          "ljut",
+          "spicy"
+        ],
+        [
+          "koštati",
+          "to cost"
+        ],
+        [
+          "bljutav",
+          "bland"
+        ],
+        [
+          "geografija",
+          "geography"
+        ],
+        [
+          "sirov",
+          "raw"
+        ],
+        [
+          "akcija",
+          "action film"
+        ],
+        [
+          "nigdje",
+          "nowhere"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "nešto",
+          "something"
+        ],
+        [
+          "radio",
+          "radio"
+        ],
+        [
+          "nažalost",
+          "unfortunately"
+        ],
+        [
+          "kolega",
+          "colleague"
+        ],
+        [
+          "obrok",
+          "meal"
+        ],
+        [
+          "glasno",
+          "loudly"
+        ],
+        [
+          "tjestenina",
+          "pasta"
+        ],
+        [
+          "fotografija",
+          "photography"
+        ],
+        [
+          "kušati",
+          "to taste"
+        ],
+        [
+          "biti",
+          "to be"
+        ]
+      ],
+      "sortkljuc": 1202007,
+      "bodovi": 557
+    },
+    {
+      "cjelina": "Vocabulary 12",
+      "cjelinanaslov": "Food We (Don't) Like",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "nijedan, nijedna or nijedno?",
+      "meta": {
+        "info": "Sorting nouns by the form of *nijedan* they take, and the last letter of the noun is your guide. A consonant takes **nijedan** (*nijedan tanjur*, *nijedan vozač*), **-a** takes **nijedna** (*nijedna žlica*, *nijedna soba*), **-o** or **-e** takes **nijedno** (*nijedno predjelo*, *nijedno sunce*). It is the same pattern as *koji, koja, koje* from Vocabulary 11. In a sentence the verb keeps its *ne*: *Nijedan nož ne reže.*",
+        "infokratko": "Consonant **nijedan**, **-a** **nijedna**, **-o/-e** **nijedno**: *nijedan tanjur, nijedna žlica, nijedno sunce*.",
+        "opis": "Which form of *not a single one* does each noun take? The last letter of the noun decides.",
+        "stupci": "NIJEDAN | NIJEDNA | NIJEDNO"
+      },
+      "stavke": [
+        [
+          "tanjur",
+          "NIJEDAN"
+        ],
+        [
+          "jelovnik",
+          "NIJEDAN"
+        ],
+        [
+          "nož",
+          "NIJEDAN"
+        ],
+        [
+          "učitelj",
+          "NIJEDAN"
+        ],
+        [
+          "vozač",
+          "NIJEDAN"
+        ],
+        [
+          "krumpir",
+          "NIJEDAN"
+        ],
+        [
+          "žlica",
+          "NIJEDNA"
+        ],
+        [
+          "vilica",
+          "NIJEDNA"
+        ],
+        [
+          "napojnica",
+          "NIJEDNA"
+        ],
+        [
+          "haljina",
+          "NIJEDNA"
+        ],
+        [
+          "cipela",
+          "NIJEDNA"
+        ],
+        [
+          "soba",
+          "NIJEDNA"
+        ],
+        [
+          "cesta",
+          "NIJEDNA"
+        ],
+        [
+          "predjelo",
+          "NIJEDNO"
+        ],
+        [
+          "grožđe",
+          "NIJEDNO"
+        ],
+        [
+          "sunce",
+          "NIJEDNO"
+        ]
+      ],
+      "sortkljuc": 1202008,
+      "bodovi": 674
+    },
+    {
+      "cjelina": "Vocabulary 12",
+      "cjelinanaslov": "Food We (Don't) Like",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns go in their naming form (*hlače* is always plural), adjectives in the masculine and verbs as infinitives. The diacritics count as always: *sočan* with **č**, *kći* with **ć**, *uopće* with **ć**, *hlače* with **č**.",
+        "infokratko": "Mixed final round. Naming form, masculine, infinitive. Diacritics count: *sočan, kći, uopće*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "fish",
+          "riba"
+        ],
+        [
+          "peas",
+          "grašak"
+        ],
+        [
+          "to wash",
+          "prati"
+        ],
+        [
+          "juicy",
+          "sočan"
+        ],
+        [
+          "daughter",
+          "kći"
+        ],
+        [
+          "dessert",
+          "desert"
+        ],
+        [
+          "to hear",
+          "čuti"
+        ],
+        [
+          "somewhere",
+          "negdje"
+        ],
+        [
+          "trousers",
+          "hlače"
+        ],
+        [
+          "at all",
+          "uopće"
+        ],
+        [
+          "camera",
+          "fotoaparat"
         ],
         [
           "to hate",
           "mrziti"
-        ],
-        [
-          "to want",
-          "željeti"
-        ],
-        [
-          "to share",
-          "dijeliti"
-        ],
-        [
-          "vegetarian",
-          "vegetarijanac / vegetarijanka"
         ]
       ],
-      "sortkljuc": 1202017,
-      "bodovi": 411
+      "sortkljuc": 1202009,
+      "bodovi": 761
     },
     {
       "cjelina": "Grammar 12",
@@ -77653,13 +70622,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Going vs. being",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. Since Lesson 5 you have said where you are going: *Idem u grad.* Today the same places get a second form for where you already are: *Ja sam u gradu.* The preposition stays the same, and only the ending changes.",
+        "infokratko": "Going: *Idem u grad.* Being there: *Ja sam u gradu.* Same preposition, new ending.",
+        "opis": "Read it through — by the end you can say where everybody is."
+      },
       "stavke": [
         [
           "Since Lesson 5 you can say where you're *going*: *Idem u grad.* Today you learn where you *are*: *Ja sam **u gradu**.*"
         ],
         [
           "One tiny ending — **-u** for most words, **-i** for feminine ones — and the whole city becomes describable: at the café, in the park, at the office on a Friday night (hopefully not)."
+        ],
+        [
+          "**You already know the places.** Vocabulary 5, 6 and 10 gave you *kafić, pekara, ured, knjižnica, kazalište*. Today they come back in the new form, together with a few rooms of the flat."
+        ],
+        [
+          "By the end of this lesson you can answer *Gdje si?* on the phone and say where everybody in the family is."
         ]
       ],
       "sortkljuc": 1301001,
@@ -77673,8 +70652,10 @@ window.PODACI = {
       "format": "brzina",
       "naslov": "Rapid recall",
       "meta": {
+        "info": "A timed warm-up on negation from Lesson 12. Three verbs join *ne* into one word — *nisam, nemam, neću* — and every negative word such as *ništa* or *nikad* keeps *ne* on the verb as well. The bracket tells you which negative word is missing.",
+        "infokratko": "Lesson 12 against the clock: *nisam, nemam, neću*; *ništa, nitko, nikad* keep *ne* on the verb.",
         "trajanje": "60",
-        "opis": "Negation sprint! Tap the correct negative form."
+        "opis": "Negation sprint from Lesson 12 — tap the correct negative form before the timer runs out."
       },
       "stavke": [
         [
@@ -77696,10 +70677,38 @@ window.PODACI = {
         [
           "imamo",
           "nemamo"
+        ],
+        [
+          "Marko ___ ne jede. (nothing)",
+          "ništa"
+        ],
+        [
+          "___ ne kuha. (nobody)",
+          "Nitko"
+        ],
+        [
+          "___ ne pijem mlijeko. (never)",
+          "Nikad"
+        ],
+        [
+          "Ana ___ ne ide. (nowhere)",
+          "nigdje"
+        ],
+        [
+          "Ne jedem ni meso ___ ribu.",
+          "ni"
+        ],
+        [
+          "___ ne čekam. (nobody, target)",
+          "Nikoga"
+        ],
+        [
+          "Marko je pio kavu. → Marko ___ pio kavu.",
+          "nije"
         ]
       ],
       "sortkljuc": 1301002,
-      "bodovi": 612
+      "bodovi": 340
     },
     {
       "cjelina": "Lesson 13",
@@ -77709,7 +70718,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Place words",
       "meta": {
-        "opis": "Tap a card to reveal the meaning."
+        "info": "The places of the lesson, in town and at home. Most are old friends from Vocabulary 4, 5, 6 and 10; eight are new: *pošta, teretana, ljekarna, rijeka, kuhinja, kupaonica, hodnik, krov*. Look at the last letter of each word: it decides the \"being there\" ending you learn on the rule page.",
+        "infokratko": "Places in town and at home. The last letter decides the ending you learn next.",
+        "opis": "Your map of the town and the flat. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -77717,28 +70728,48 @@ window.PODACI = {
           "neighborhood"
         ],
         [
-          "kafić",
-          "café"
-        ],
-        [
-          "pošta",
-          "post office"
-        ],
-        [
           "zgrada",
           "building"
+        ],
+        [
+          "kat",
+          "floor, level"
         ],
         [
           "ured",
           "office"
         ],
         [
-          "teretana",
-          "gym"
+          "kafić",
+          "café"
         ],
         [
           "pekara",
           "bakery"
+        ],
+        [
+          "pošta",
+          "post office"
+        ],
+        [
+          "teretana",
+          "gym"
+        ],
+        [
+          "knjižnica",
+          "library"
+        ],
+        [
+          "bolnica",
+          "hospital"
+        ],
+        [
+          "banka",
+          "bank"
+        ],
+        [
+          "ljekarna",
+          "pharmacy"
         ],
         [
           "kazalište",
@@ -77749,53 +70780,105 @@ window.PODACI = {
           "river"
         ],
         [
-          "ljudi",
-          "people"
+          "kuhinja",
+          "kitchen"
+        ],
+        [
+          "kupaonica",
+          "bathroom"
+        ],
+        [
+          "hodnik",
+          "hallway"
+        ],
+        [
+          "balkon",
+          "balcony"
+        ],
+        [
+          "krov",
+          "roof"
         ]
       ],
       "sortkljuc": 1301003,
-      "bodovi": 437
+      "bodovi": 340
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
       "stranica": 4,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "The rule: being somewhere",
-      "meta": {},
+      "format": "kartice",
+      "naslov": "Verbs and little words for places",
+      "meta": {
+        "info": "The verbs that usually come with a place — you live, work, sit, stand, wait and stay *somewhere*. *Stajati* changes its stem: *stojim*. *Stanovati* is living at an address, *živjeti* is living in general. **Gdje?** asks where you are, **kamo?** asks where you are going.",
+        "infokratko": "Verbs of place: *živim, radim, sjedim, stojim*. **gdje?** = where, **kamo?** = where to.",
+        "opis": "Eight verbs and the little words around them. Tap a card to reveal the meaning."
+      },
       "stavke": [
         [
-          "**Going there, or already there?** That one difference is the whole lesson."
+          "živjeti → živim",
+          "to live"
         ],
         [
-          "tab: Motion — where to (L5)",
-          "Location — where you are"
+          "stanovati → stanujem",
+          "to live, to reside"
         ],
         [
-          "tab: Idem u grad.",
-          "Ja sam u gradu."
+          "raditi → radim",
+          "to work"
         ],
         [
-          "tab: Idem u školu.",
-          "Ja sam u školi."
+          "sjediti → sjedim",
+          "to sit"
         ],
         [
-          "tab: Idem u kino.",
-          "Ja sam u kinu."
+          "stajati → stojim",
+          "to stand"
         ],
         [
-          "**The rule for being somewhere.** Masculine and neuter take **-u** (*u gradu, u kinu, u parku, u uredu*); feminine turns **-a** into **-i** (*u školi, na tržnici, u pekari*)."
+          "čekati → čekam",
+          "to wait"
         ],
         [
-          "**Same *u/na* logic as before.** **u** = inside, **na** = on or at open places and events."
+          "trenirati → treniram",
+          "to train, to work out"
         ],
         [
-          "**Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu]."
+          "ostati → ostanem",
+          "to stay"
+        ],
+        [
+          "gdje?",
+          "where? (location)"
+        ],
+        [
+          "kamo?",
+          "where to? (motion)"
+        ],
+        [
+          "tamo",
+          "there"
+        ],
+        [
+          "gore",
+          "up, upstairs"
+        ],
+        [
+          "dolje",
+          "down, downstairs"
+        ],
+        [
+          "doma",
+          "at home"
+        ],
+        [
+          "Halo!",
+          "Hello! (on the phone)"
         ]
       ],
       "sortkljuc": 1301004,
-      "bodovi": 495
+      "bodovi": 340
     },
     {
       "cjelina": "Lesson 13",
@@ -77805,6 +70888,8 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Match the place",
       "meta": {
+        "info": "Each place phrase beside its English meaning. The phrases are already in the new form: masculine and neuter places end in **-u** (*u kafiću, u kinu*), feminine places in **-i** (*u školi, na tržnici*). English uses *in*, *at* or *on*; Croatian uses only *u* or *na*.",
+        "infokratko": "*u kafiću, u kinu* (**-u**), *u školi, na tržnici* (**-i**). English *in/at/on* = *u* or *na*.",
         "opis": "Where are they? Match the phrase with its English meaning."
       },
       "stavke": [
@@ -77839,19 +70924,98 @@ window.PODACI = {
         [
           "u pekari",
           "at the bakery"
+        ],
+        [
+          "u kuhinji",
+          "in the kitchen"
+        ],
+        [
+          "na koncertu",
+          "at the concert"
         ]
       ],
       "sortkljuc": 1301005,
-      "bodovi": 612
+      "bodovi": 340
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
       "stranica": 6,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: being somewhere",
+      "meta": {
+        "info": "The main rule of the lesson. After *u* or *na*, a place where you already are takes a new ending: masculine and neuter get **-u** (*u gradu, u kinu*), feminine **-a** becomes **-i** (*u školi*). Watch the question: *kamo?* keeps the Lesson 5 form, *gdje?* takes the new one.",
+        "infokratko": "*gdje?* → m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*). *kamo?* → Lesson 5 form.",
+        "infoodmah": "da",
+        "opis": "Two questions, two forms of the same place. Read the tables and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**Going there, or already there?** That one difference is the whole lesson."
+        ],
+        [
+          "tab: Motion — kamo? (L5)",
+          "Location — gdje?"
+        ],
+        [
+          "tab: Idem u grad.",
+          "Ja sam u gradu."
+        ],
+        [
+          "tab: Idem u školu.",
+          "Ja sam u školi."
+        ],
+        [
+          "tab: Idem u kino.",
+          "Ja sam u kinu."
+        ],
+        [
+          "**The rule for being somewhere.** Masculine and neuter take **-u** (*u gradu, u kinu, u parku, u uredu*); feminine turns **-a** into **-i** (*u školi, na tržnici, u pekari*)."
+        ],
+        [
+          "tab: Word ends in",
+          "Naming form",
+          "Being there"
+        ],
+        [
+          "tab: consonant (m.)",
+          "ured, kafić, park",
+          "u ured**u**, u kafić**u**, u park**u**"
+        ],
+        [
+          "tab: -o / -e (n.)",
+          "kino, more, kazalište",
+          "u kin**u**, na mor**u**, u kazališt**u**"
+        ],
+        [
+          "tab: -a (f.)",
+          "škola, kuhinja, teretana",
+          "u škol**i**, u kuhinj**i**, u teretan**i**"
+        ],
+        [
+          "**Same *u/na* logic as before.** **u** = inside, **na** = on or at open places and events. The preposition does not change between *kamo?* and *gdje?* — only the ending does."
+        ],
+        [
+          "**This form is the locative.** It always comes after a preposition; on its own, a place stays in the naming form: *Ovo je škola.*"
+        ],
+        [
+          "**Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu]."
+        ]
+      ],
+      "sortkljuc": 1301006,
+      "bodovi": 275
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 7,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Going or being?",
       "meta": {
+        "info": "Sorting sentences by what they describe. A verb of motion (*idem, ide, idemo*) keeps the Lesson 5 form: *u školu, na tržnicu*. Being, living, working or sleeping somewhere takes the new ending: *u školi, na tržnici*. Look at the verb first, then check the ending.",
+        "infokratko": "*idem u školu* = motion; *sam u školi, radi u uredu* = location. Verb first, then ending.",
         "stupci": "IDEM (→) | JESAM (📍)",
         "opis": "Motion or location? Sort the sentences."
       },
@@ -77887,64 +71051,232 @@ window.PODACI = {
         [
           "Marko ide u kafić.",
           "IDEM (→)"
-        ]
-      ],
-      "sortkljuc": 1301006,
-      "bodovi": 495
-    },
-    {
-      "cjelina": "Lesson 13",
-      "cjelinanaslov": "Where Are You? The Locative",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the right form",
-      "meta": {
-        "opis": "Choose the correct form."
-      },
-      "stavke": [
-        [
-          "Radim ___ .",
-          "u uredu",
-          "u ured"
         ],
         [
-          "Ana trenira ___ .",
-          "u teretani",
-          "u teretanu"
+          "Tata radi u uredu.",
+          "JESAM (📍)"
         ],
         [
-          "Idem ___ .",
-          "u kino",
-          "u kinu"
+          "Baka ide u poštu.",
+          "IDEM (→)"
         ],
         [
-          "Kupujem kruh ___ .",
-          "u pekari",
-          "u pekaru"
+          "Mačka spava na krovu.",
+          "JESAM (📍)"
         ],
         [
-          "Djeca su ___ .",
-          "u školi",
-          "u školu"
+          "Djeca idu na more.",
+          "IDEM (→)"
         ],
         [
-          "Sutra idemo ___ .",
-          "na trg",
-          "na trgu"
+          "Živim u Zagrebu.",
+          "JESAM (📍)"
+        ],
+        [
+          "Sutra idemo na koncert.",
+          "IDEM (→)"
         ]
       ],
       "sortkljuc": 1301007,
-      "bodovi": 729
+      "bodovi": 388
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
       "stranica": 8,
       "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap completes the place. Masculine words ending in a consonant and neuter words in **-o** or **-e** take **-u** (*u kafiću, na moru, u kazalištu*); feminine words in **-a** take **-i** (*u školi, na tržnici*). Watch the neuter words: *more* and *kazalište* end in **-e**, but they take **-u**.",
+        "infokratko": "Consonant, **-o**, **-e** → **-u** (*na moru, u kazalištu*). **-a** → **-i** (*u školi*).",
+        "nastavci": "u | i",
+        "opis": "English above, Croatian below. One tap puts the place in the \"being there\" form."
+      },
+      "stavke": [
+        [
+          "Ja sam u grad___.",
+          "I'm in town.",
+          "u"
+        ],
+        [
+          "Ana je u škol___.",
+          "Ana is at school.",
+          "i"
+        ],
+        [
+          "Marko je u kin___.",
+          "Marko is at the cinema.",
+          "u"
+        ],
+        [
+          "Mi smo na tržnic___.",
+          "We are at the market.",
+          "i"
+        ],
+        [
+          "Tata radi u ured___.",
+          "Dad works in an office.",
+          "u"
+        ],
+        [
+          "Ana trenira u teretan___.",
+          "Ana works out at the gym.",
+          "i"
+        ],
+        [
+          "Sjedimo u kafić___.",
+          "We're sitting in the café.",
+          "u"
+        ],
+        [
+          "Baka je u pošt___.",
+          "Grandma is at the post office.",
+          "i"
+        ],
+        [
+          "Djeca su na mor___.",
+          "The children are at the seaside.",
+          "u"
+        ],
+        [
+          "Kruh kupujem u pekar___.",
+          "I buy bread at the bakery.",
+          "i"
+        ],
+        [
+          "Navečer smo u kazališt___.",
+          "In the evening we're at the theater.",
+          "u"
+        ],
+        [
+          "Mama kuha u kuhinj___.",
+          "Mum is cooking in the kitchen.",
+          "i"
+        ],
+        [
+          "Mačka spava na krov___.",
+          "The cat is sleeping on the roof.",
+          "u"
+        ],
+        [
+          "Petra je u kupaonic___.",
+          "Petra is in the bathroom.",
+          "i"
+        ],
+        [
+          "Mi smo na koncert___.",
+          "We are at the concert.",
+          "u"
+        ],
+        [
+          "Djed čita u knjižnic___.",
+          "Grandpa is reading in the library.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1301008,
+      "bodovi": 405
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "info": "Choosing the form that fits the verb. After *idem, ide, idemo* the place keeps the Lesson 5 form (*u kino, na trg*); after *je, radim, živi, spava* it takes the locative (*u uredu, u školi*). The third option is a mix-up you should never write: *u uredi* puts a feminine ending on a masculine word.",
+        "infokratko": "*idem* → *u kino*; *sam, radim, živi* → *u uredu*. Never a feminine **-i** on a masculine word.",
+        "opis": "Choose the correct form. Read the verb first."
+      },
+      "stavke": [
+        [
+          "Radim ___ .",
+          "u uredu",
+          "u ured",
+          "u uredi"
+        ],
+        [
+          "Ana trenira ___ .",
+          "u teretani",
+          "u teretanu",
+          "u teretana"
+        ],
+        [
+          "Idem ___ .",
+          "u kino",
+          "u kinu",
+          "na kinu"
+        ],
+        [
+          "Kupujem kruh ___ .",
+          "u pekari",
+          "u pekaru",
+          "u pekara"
+        ],
+        [
+          "Djeca su ___ .",
+          "u školi",
+          "u školu",
+          "u škola"
+        ],
+        [
+          "Sutra idemo ___ .",
+          "na trg",
+          "na trgu",
+          "u trgu"
+        ],
+        [
+          "Mama je ___ .",
+          "u kuhinji",
+          "u kuhinju",
+          "u kuhinja"
+        ],
+        [
+          "Mi smo ___ .",
+          "na koncertu",
+          "na koncert",
+          "u koncertu"
+        ],
+        [
+          "Baka ide ___ .",
+          "u poštu",
+          "u pošti",
+          "u pošta"
+        ],
+        [
+          "Ivan živi ___ .",
+          "u Zagrebu",
+          "u Zagreb",
+          "na Zagrebu"
+        ],
+        [
+          "Djeca su ___ . (at the seaside)",
+          "na moru",
+          "na more",
+          "u more"
+        ],
+        [
+          "Mačka spava ___ .",
+          "na krovu",
+          "na krov",
+          "na krovi"
+        ]
+      ],
+      "sortkljuc": 1301009,
+      "bodovi": 405
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 10,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the locative",
       "meta": {
+        "info": "You type the place in the locative. Look at the naming form in the bracket: a consonant or **-e** gets **-u** (*gradu, kazalištu*), **-a** becomes **-i** (*školi, knjižnici*). The preposition is already in the sentence, so type only the one word.",
+        "infokratko": "Type one word: consonant or **-e** → **-u**, **-a** → **-i**.",
         "opis": "Say where! Type the correct form."
       },
       "stavke": [
@@ -77971,20 +71303,100 @@ window.PODACI = {
         [
           "Mi smo na ___ . (tržnica)",
           "tržnici"
+        ],
+        [
+          "Tata je u ___ . (hodnik)",
+          "hodniku"
+        ],
+        [
+          "Doktor radi u ___ . (bolnica)",
+          "bolnici"
+        ],
+        [
+          "Učim u ___ . (knjižnica)",
+          "knjižnici"
+        ],
+        [
+          "Navečer smo u ___ . (kazalište)",
+          "kazalištu"
+        ],
+        [
+          "Baka je u ___ . (pošta)",
+          "pošti"
+        ],
+        [
+          "Mačka je na ___ . (krov)",
+          "krovu"
         ]
       ],
-      "sortkljuc": 1301008,
-      "bodovi": 846
+      "sortkljuc": 1301010,
+      "bodovi": 468
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
-      "stranica": 9,
+      "stranica": 11,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: u or na?",
+      "meta": {
+        "info": "The second rule page, and it is shorter. The preposition you use to go somewhere is the same one you use to be there: *u školu → u školi*, *na tržnicu → na tržnici*. **u** is for inside, **na** for open places, surfaces and events. A few words change a letter before **-i** — only a preview today.",
+        "infokratko": "Same preposition for going and being: *u školu → u školi*. **u** inside, **na** open places and events.",
+        "infoodmah": "da",
+        "opis": "Inside or at an open place? Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**The preposition stays the same.** Whatever you use to go somewhere, you use to be there: *Idem **u** školu → Ja sam **u** školi. Idem **na** tržnicu → Ja sam **na** tržnici.*"
+        ],
+        [
+          "tab: u — inside a room or building",
+          "na — open places, surfaces, events"
+        ],
+        [
+          "tab: u školi",
+          "na tržnici"
+        ],
+        [
+          "tab: u kinu",
+          "na trgu"
+        ],
+        [
+          "tab: u kuhinji",
+          "na krovu"
+        ],
+        [
+          "tab: u uredu",
+          "na koncertu"
+        ],
+        [
+          "tab: u parku",
+          "na moru"
+        ],
+        [
+          "**A few are conventions.** *na moru* (at the seaside), *na koncertu*, *na katu* — learn them together with the place, the way you learned *na more* in Lesson 5."
+        ],
+        [
+          "**Preview: k before -i.** A few feminine words change a letter before the new ending: *rijeka → na rijeci*, *banka → u banci*. Grammar 13 explains it; for now, just recognise the form when you hear it."
+        ],
+        [
+          "**Now you write them.** Ana je [na] tržnici. Marko je [u] kinu. Mi smo [na] koncertu."
+        ]
+      ],
+      "sortkljuc": 1301011,
+      "bodovi": 275
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build your day",
       "meta": {
-        "opis": "Arrange the tiles."
+        "info": "Whole sentences about where people are, built from tiles. Each place takes the locative after *u* or *na*, and *je, sam, su* stay in second place — also after *jer*: *jer je Ana u knjižnici*. A comma comes before *a* and *ali*.",
+        "infokratko": "Locative after *u/na*; *je, sam* in second place, also after *jer*. Comma before *a, ali*.",
+        "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
         [
@@ -77997,24 +71409,195 @@ window.PODACI = {
           "Ana je u teretani, a Marko je u kinu."
         ],
         [
-          "Radim u uredu, ali petak je!"
+          "Radim u uredu, ali danas je petak!"
         ],
         [
           "U gradu nikad nije dosadno."
+        ],
+        [
+          "Idem u knjižnicu jer je Ana u knjižnici."
+        ],
+        [
+          "Mama kuha u kuhinji, a tata je u vrtu."
+        ],
+        [
+          "Živim u Zagrebu, ali radim u Splitu."
+        ],
+        [
+          "Djeca su na moru, a mi smo u gradu."
+        ],
+        [
+          "Mačka spava na krovu."
+        ],
+        [
+          "Petak je navečer, a ja sam još u uredu."
+        ],
+        [
+          "Vidimo se na koncertu!"
         ]
       ],
-      "sortkljuc": 1301009,
-      "bodovi": 612
+      "sortkljuc": 1301012,
+      "bodovi": 405
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
-      "stranica": 10,
+      "stranica": 13,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "In or on?",
+      "meta": {
+        "info": "Sorting places by their preposition. The ending is already there, so only *u* or *na* is missing. Rooms and buildings take **u** (*u kuhinji, u kafiću*); open places, surfaces and events take **na** (*na trgu, na krovu, na koncertu*). *Na moru* and *na otoku* are conventions to learn whole.",
+        "infokratko": "Rooms and buildings: **u**. Open places, surfaces, events: **na**. *na moru, na otoku*.",
+        "stupci": "U | NA",
+        "opis": "Which preposition goes in front of each place? Sort them."
+      },
+      "stavke": [
+        [
+          "___ školi",
+          "U"
+        ],
+        [
+          "___ tržnici",
+          "NA"
+        ],
+        [
+          "___ trgu",
+          "NA"
+        ],
+        [
+          "___ kinu",
+          "U"
+        ],
+        [
+          "___ koncertu",
+          "NA"
+        ],
+        [
+          "___ moru",
+          "NA"
+        ],
+        [
+          "___ parku",
+          "U"
+        ],
+        [
+          "___ plaži",
+          "NA"
+        ],
+        [
+          "___ kuhinji",
+          "U"
+        ],
+        [
+          "___ krovu",
+          "NA"
+        ],
+        [
+          "___ uredu",
+          "U"
+        ],
+        [
+          "___ teretani",
+          "U"
+        ],
+        [
+          "___ otoku",
+          "NA"
+        ],
+        [
+          "___ knjižnici",
+          "U"
+        ],
+        [
+          "___ balkonu",
+          "NA"
+        ],
+        [
+          "___ kafiću",
+          "U"
+        ]
+      ],
+      "sortkljuc": 1301013,
+      "bodovi": 405
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Locative sprint",
+      "meta": {
+        "info": "A timed sprint from the naming form to \"being there\". Add **-u** to a consonant, turn **-o/-e** into **-u**, and turn **-a** into **-i**. The preposition comes with the place: *u školi* but *na trgu*, *na moru*, *na koncertu*.",
+        "infokratko": "Naming form → locative: **-u** or **-i**, with the right *u* or *na*.",
+        "trajanje": "45",
+        "opis": "A place flashes — tap the \"being there\" form."
+      },
+      "stavke": [
+        [
+          "škola",
+          "u školi"
+        ],
+        [
+          "trg",
+          "na trgu"
+        ],
+        [
+          "kino",
+          "u kinu"
+        ],
+        [
+          "tržnica",
+          "na tržnici"
+        ],
+        [
+          "ured",
+          "u uredu"
+        ],
+        [
+          "more",
+          "na moru"
+        ],
+        [
+          "kuhinja",
+          "u kuhinji"
+        ],
+        [
+          "koncert",
+          "na koncertu"
+        ],
+        [
+          "teretana",
+          "u teretani"
+        ],
+        [
+          "krov",
+          "na krovu"
+        ],
+        [
+          "kafić",
+          "u kafiću"
+        ],
+        [
+          "park",
+          "u parku"
+        ]
+      ],
+      "sortkljuc": 1301014,
+      "bodovi": 340
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 15,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Where is everyone?",
       "meta": {
-        "opis": "Friday evening phone call — find out where everyone is!"
+        "info": "A phone call built on *Gdje si?* Every answer about a place uses the locative: *u autobusu, u teretani, u uredu*. The friend reacts to what you say, so read the reply before you choose again. Both options are always correct Croatian.",
+        "infokratko": "Answer *Gdje si?* with the locative: *u autobusu, u teretani, u uredu*.",
+        "opis": "Friday evening phone call — find out where everyone is! Passive words: *znači* (so, that means), *bravo* (well done), *u osam* (at eight)."
       },
       "stavke": [
         [
@@ -78023,49 +71606,124 @@ window.PODACI = {
         ],
         [
           "ti",
-          "U autobusu. A ti?",
-          "U teretani. A ti?"
+          "U autobusu sam. A ti?",
+          "U teretani sam. A ti?"
         ],
         [
           "npc",
-          "Ja sam još u uredu. Radim."
+          "Znači, nisi doma! Ja sam još u uredu."
         ],
         [
           "ti",
           "U uredu?! Petak je navečer!",
-          "Dobro, vidimo se poslije."
+          "Još radiš? Petak je navečer!"
         ],
         [
           "npc",
-          "Znam, znam... Gdje je Ana?"
+          "Znam, znam... A gdje je Ana?"
         ],
         [
           "ti",
           "Ana je u teretani. Trenira.",
-          "Ne znam. Nije doma."
+          "Ana je u knjižnici. Uči."
         ],
         [
           "npc",
-          "Dobro. Vidimo se u restoranu u osam!"
+          "Tamo? U petak navečer? Bravo, Ana!"
         ],
         [
           "ti",
-          "Može!"
+          "A Marko je u kinu.",
+          "A Marko je u kafiću."
+        ],
+        [
+          "npc",
+          "Marko je uvijek negdje u gradu. Gdje se vidimo? U restoranu ili u kafiću?"
+        ],
+        [
+          "ti",
+          "U restoranu, molim.",
+          "U kafiću. Samo kavu!"
+        ],
+        [
+          "npc",
+          "Dobro, vidimo se tamo u osam!"
+        ],
+        [
+          "ti",
+          "Može!",
+          "Super, vidimo se!"
         ]
       ],
-      "sortkljuc": 1301010,
-      "bodovi": 495
+      "sortkljuc": 1301015,
+      "bodovi": 340
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
-      "stranica": 11,
+      "stranica": 16,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: around town",
+      "meta": {
+        "info": "Read the story, then answer in Croatian. Almost every sentence says where somebody is, so each answer is a place in the locative: *u teretani, na tržnici, na krovu*. Watch Marko: he is in the library, but he is not studying.",
+        "infokratko": "Read, then answer. Each answer is a place: *u teretani, na tržnici, na krovu*.",
+        "tekst": "Subota je, a obitelj Horvat nije doma. Ana je u teretani i trenira. Marko je u knjižnici, ali ne uči — spava na stolu! Mama je na tržnici i kupuje voće. Tata je u uredu, jer radi i u subotu. Baka i djed su u parku. Djed čita, a baka gleda ljude. Navečer su svi zajedno u kazalištu. Samo mačka je doma. Ona spava na krovu.",
+        "opis": "Read the story, then answer the questions. Passive words: *svi* (everybody)."
+      },
+      "stavke": [
+        [
+          "Gdje je Ana?",
+          "u teretani",
+          "u knjižnici",
+          "u parku"
+        ],
+        [
+          "Što Marko radi u knjižnici?",
+          "spava",
+          "uči",
+          "čita"
+        ],
+        [
+          "Tko je na tržnici?",
+          "mama",
+          "baka",
+          "Ana"
+        ],
+        [
+          "Zašto je tata u uredu?",
+          "jer radi i u subotu",
+          "jer spava na stolu",
+          "jer kupuje voće"
+        ],
+        [
+          "Gdje su navečer svi zajedno?",
+          "u kazalištu",
+          "u parku",
+          "u uredu"
+        ],
+        [
+          "Gdje spava mačka?",
+          "na krovu",
+          "na stolu",
+          "u kuhinji"
+        ]
+      ],
+      "sortkljuc": 1301016,
+      "bodovi": 405
+    },
+    {
+      "cjelina": "Lesson 13",
+      "cjelinanaslov": "Where Are You? The Locative",
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the whole lesson, and 80% opens Vocabulary 13. Most of the points sit on two things: after *u* or *na* a place where you are takes **-u** or **-i**, and a verb of motion keeps the Lesson 5 form instead.",
+        "infokratko": "The whole lesson, mixed; 80% opens Vocabulary 13. *gdje?* → **-u / -i**; motion keeps the L5 form.",
         "prag": "80",
-        "opis": "Final check! Score 80% to be ready for Lesson 14."
+        "opis": "Final check! Score 80% to be ready for Vocabulary 13."
       },
       "stavke": [
         [
@@ -78077,7 +71735,8 @@ window.PODACI = {
           "izbor",
           "Ana trenira ___ .",
           "u teretani",
-          "u teretanu"
+          "u teretanu",
+          "u teretana"
         ],
         [
           "upis",
@@ -78092,16 +71751,17 @@ window.PODACI = {
         ],
         [
           "izbor",
-          "Što znači \"kazalište\"?",
-          "theater",
-          "post office",
-          "office"
+          "Što znači \"kupaonica\"?",
+          "bathroom",
+          "kitchen",
+          "hallway"
         ],
         [
           "izbor",
           "Koja je rečenica točna?",
           "Živim u Zagrebu.",
-          "Živim u Zagreb."
+          "Živim u Zagreb.",
+          "Živim na Zagrebu."
         ],
         [
           "upis",
@@ -78110,30 +71770,59 @@ window.PODACI = {
         ],
         [
           "slaganje",
+          "Mama kuha u kuhinji, a tata je u vrtu.",
+          "en: Mum is cooking in the kitchen, and Dad is in the garden."
+        ],
+        [
+          "upis",
+          "Tata radi u ___ . (ured)",
+          "uredu"
+        ],
+        [
+          "izbor",
+          "Mi smo ___ .",
+          "na koncertu",
+          "u koncertu",
+          "na koncert"
+        ],
+        [
+          "upis",
+          "Mačka spava na ___ . (krov)",
+          "krovu"
+        ],
+        [
+          "slaganje",
           "U muzeju je tiho, a u kafiću nije!",
           "en: It is quiet in the museum, but not in the café!"
         ]
       ],
-      "sortkljuc": 1301011,
-      "bodovi": 817
+      "sortkljuc": 1301017,
+      "bodovi": 679
     },
     {
       "cjelina": "Lesson 13",
       "cjelinanaslov": "Where Are You? The Locative",
-      "stranica": 12,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now say where you are as well as where you are going, you know the two endings **-u** and **-i**, and you can choose between *u* and *na*. Vocabulary 13 and Grammar 13 build on exactly these two endings.",
+        "infokratko": "Where you are: **-u** and **-i** after *u* or *na*.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
           "Sjajno! You now know where you're going AND where you are — the city is fully yours."
         ],
         [
-          "**Next up:** in Lesson 14, generosity: giving things *to people*. *Mami kupujem šal, bratu loptu...* — the dative case, December edition."
+          "**Next up:** Vocabulary 13 brings more places and every room of the flat, each card with its \"being there\" form. Grammar 13 explains the letter change in *na rijeci*, adds *o meni, o tebi* (about me, about you) and shows the plural places."
+        ],
+        [
+          "**Then Lesson 14:** generosity — giving things *to people*. *Mami kupujem šal, bratu loptu...* — the dative case, December edition."
         ]
       ],
-      "sortkljuc": 1301012,
+      "sortkljuc": 1301018,
       "bodovi": 20
     },
     {
@@ -78144,98 +71833,25 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Places (with the locative)",
       "meta": {
-        "opis": "Your map of the town, with the \"being there\" form on every card."
+        "info": "New places in town, each with its \"being there\" form from Lesson 13. Masculine and neuter words take **-u** (*u centru, na parkiralištu*), feminine **-a** turns into **-i** (*u pošti, u crkvi*). Three of them soften **k** to **c** before the **-i**: *rijeka → na rijeci, luka → u luci, klinika → u klinici*. You may hear *apoteka* too; the standard Croatian word is *ljekarna*.",
+        "infokratko": "Places with the locative: m./n. **-u** (*u centru*), f. **-i** (*u pošti*). *rijeka → na rijeci*.",
+        "opis": "Your map of the town, with the \"being there\" form on every card. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "kvart → u kvartu",
-          "neighborhood"
-        ],
-        [
-          "kafić → u kafiću",
-          "café"
-        ],
-        [
           "pošta → u pošti",
           "post office"
-        ],
-        [
-          "zgrada → u zgradi",
-          "building"
-        ],
-        [
-          "ured → u uredu",
-          "office"
         ],
         [
           "teretana → u teretani",
           "gym"
         ],
         [
-          "pekara → u pekari",
-          "bakery"
-        ],
-        [
-          "kazalište → u kazalištu",
-          "theater"
-        ],
-        [
           "rijeka → na rijeci",
           "river"
-        ]
-      ],
-      "sortkljuc": 1302001,
-      "bodovi": 946
-    },
-    {
-      "cjelina": "Vocabulary 13",
-      "cjelinanaslov": "Places & Institutions",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "People, words & extra places",
-      "meta": {
-        "opis": "People, little words and extra place cognates."
-      },
-      "stavke": [
-        [
-          "ljudi (mn.)",
-          "people"
         ],
         [
-          "teta",
-          "aunt"
-        ],
-        [
-          "mir",
-          "peace, quiet"
-        ],
-        [
-          "dosadno",
-          "boring"
-        ],
-        [
-          "još",
-          "still"
-        ],
-        [
-          "Halo!",
-          "Hello! (phone)"
-        ],
-        [
-          "u osam",
-          "at eight"
-        ],
-        [
-          "sjediti → sjedim",
-          "to sit"
-        ],
-        [
-          "stadion → na stadionu",
-          "stadium"
-        ],
-        [
-          "apoteka → u apoteci",
+          "ljekarna → u ljekarni",
           "pharmacy"
         ],
         [
@@ -78247,162 +71863,625 @@ window.PODACI = {
           "clinic"
         ],
         [
+          "crkva → u crkvi",
+          "church"
+        ],
+        [
+          "vrtić → u vrtiću",
+          "kindergarten"
+        ],
+        [
+          "bazen → na bazenu",
+          "swimming pool"
+        ],
+        [
+          "tvornica → u tvornici",
+          "factory"
+        ],
+        [
+          "parkiralište → na parkiralištu",
+          "parking lot"
+        ],
+        [
+          "luka → u luci",
+          "harbor"
+        ],
+        [
+          "centar → u centru",
+          "center (of town)"
+        ],
+        [
           "studio → u studiju",
           "studio"
+        ]
+      ],
+      "sortkljuc": 1302001,
+      "bodovi": 672
+    },
+    {
+      "cjelina": "Vocabulary 13",
+      "cjelinanaslov": "Places & Institutions",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "At home: rooms & furniture",
+      "meta": {
+        "info": "The rooms of a flat or a house, and the things in them. The same two endings work indoors: *u kuhinji, u hodniku, na krovu, u ormaru*. **u** is inside something (*u hladnjaku*), **na** is on top of it (*na polici, na kauču*). *stepenice* is always plural, and *spavaća soba* and *dnevni boravak* are learned as two-word names.",
+        "infokratko": "Rooms and furniture: *u kuhinji, na krovu*. **u** inside, **na** on top: *u ormaru, na polici*.",
+        "opis": "Room by room, from the basement to the roof. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "kupaonica → u kupaonici",
+          "bathroom"
         ],
         [
-          "biblioteka → u biblioteci",
-          "library"
+          "kuhinja → u kuhinji",
+          "kitchen"
         ],
         [
-          "hotel → u hotelu",
-          "hotel"
+          "spavaća soba",
+          "bedroom"
         ],
         [
-          "restoran → u restoranu",
-          "restaurant"
+          "dnevni boravak",
+          "living room"
+        ],
+        [
+          "hodnik → u hodniku",
+          "hallway"
+        ],
+        [
+          "podrum → u podrumu",
+          "basement"
+        ],
+        [
+          "tavan → na tavanu",
+          "attic"
+        ],
+        [
+          "garaža → u garaži",
+          "garage"
+        ],
+        [
+          "krov → na krovu",
+          "roof"
+        ],
+        [
+          "stepenice (mn.)",
+          "stairs"
+        ],
+        [
+          "dizalo → u dizalu",
+          "elevator"
+        ],
+        [
+          "dvorište → u dvorištu",
+          "yard"
+        ],
+        [
+          "hladnjak → u hladnjaku",
+          "fridge"
+        ],
+        [
+          "ormar → u ormaru",
+          "wardrobe"
+        ],
+        [
+          "polica → na polici",
+          "shelf"
+        ],
+        [
+          "kauč → na kauču",
+          "sofa, couch"
+        ],
+        [
+          "fotelja → u fotelji",
+          "armchair"
+        ],
+        [
+          "tepih → na tepihu",
+          "rug"
+        ],
+        [
+          "ogledalo → u ogledalu",
+          "mirror"
+        ],
+        [
+          "tuš",
+          "shower"
         ]
       ],
       "sortkljuc": 1302002,
-      "bodovi": 1420
+      "bodovi": 706
     },
     {
       "cjelina": "Vocabulary 13",
       "cjelinanaslov": "Places & Institutions",
       "stranica": 3,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
+      "format": "kartice",
+      "naslov": "Ten new verbs & little words",
       "meta": {
-        "opis": "Match each place with its English meaning."
+        "info": "Ten verbs for places — where you live, what you open and close, who you meet — with the *ja*-form. Two change their stem: *stajati → stojim*, *stanovati → stanujem*. *Stanovati* is living at an address; *živjeti* from Vocabulary 4 is living in general. The little words point to a place: *gore* (upstairs), *dolje* (downstairs), *tamo* (there). **o** means *about* and takes the same locative: *Pričamo o gradu.*",
+        "infokratko": "Verbs with the *ja*-form: *stajati → stojim*. *gore / dolje / tamo*. **o** + locative: *o gradu*.",
+        "opis": "Verbs for places and the little words around them. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "kvart",
-          "neighborhood"
+          "stanovati → stanujem",
+          "to live, to reside"
         ],
         [
-          "kafić",
-          "café"
+          "stajati → stojim",
+          "to stand"
         ],
         [
-          "pošta",
-          "post office"
+          "spremati → spremam",
+          "to tidy up"
         ],
         [
-          "zgrada",
-          "building"
+          "posjetiti → posjetim",
+          "to visit"
         ],
         [
-          "ured",
-          "office"
+          "parkirati → parkiram",
+          "to park"
         ],
         [
-          "teretana",
-          "gym"
+          "otvarati → otvaram",
+          "to open"
         ],
         [
-          "pekara",
-          "bakery"
+          "zatvarati → zatvaram",
+          "to close"
         ],
         [
-          "kazalište",
-          "theater"
+          "sresti → sretnem",
+          "to meet"
+        ],
+        [
+          "ostati → ostanem",
+          "to stay"
+        ],
+        [
+          "graditi → gradim",
+          "to build"
+        ],
+        [
+          "otvoren / otvorena",
+          "open"
+        ],
+        [
+          "zatvoren / zatvorena",
+          "closed"
+        ],
+        [
+          "gore",
+          "up, upstairs"
+        ],
+        [
+          "dolje",
+          "down, downstairs"
+        ],
+        [
+          "tamo",
+          "there"
+        ],
+        [
+          "kamo?",
+          "where to?"
+        ],
+        [
+          "o",
+          "about"
+        ],
+        [
+          "mir",
+          "peace, quiet"
+        ],
+        [
+          "podne → u podne",
+          "noon"
+        ],
+        [
+          "poslijepodne",
+          "afternoon, in the afternoon"
+        ],
+        [
+          "Halo!",
+          "Hello! (on the phone)"
         ]
       ],
       "sortkljuc": 1302003,
-      "bodovi": 1419
+      "bodovi": 706
     },
     {
       "cjelina": "Vocabulary 13",
       "cjelinanaslov": "Places & Institutions",
       "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "opis": "Flip the cards and find the pairs."
+        "info": "Picture-to-word matching, with no English on the page. Half are places in town and half are rooms and furniture at home. Each one can tell somebody where you are: *Ja sam u kuhinji.* *Ana je u ljekarni.*",
+        "infokratko": "Say where you are: *Ja sam u kuhinji. Ana je u ljekarni.*",
+        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
-          "stadion",
-          "stadium"
-        ],
-        [
-          "apoteka",
-          "pharmacy"
-        ],
-        [
-          "fakultet",
-          "faculty"
-        ],
-        [
-          "klinika",
-          "clinic"
-        ],
-        [
-          "biblioteka",
-          "library"
+          "pošta",
+          "post office"
         ],
         [
           "rijeka",
           "river"
+        ],
+        [
+          "ljekarna",
+          "pharmacy"
+        ],
+        [
+          "fakultet",
+          "university (faculty)"
+        ],
+        [
+          "parkiralište",
+          "parking lot"
+        ],
+        [
+          "kupaonica",
+          "bathroom"
+        ],
+        [
+          "kuhinja",
+          "kitchen"
+        ],
+        [
+          "spavaća soba",
+          "bedroom"
+        ],
+        [
+          "krov",
+          "roof"
+        ],
+        [
+          "hladnjak",
+          "fridge"
+        ],
+        [
+          "ormar",
+          "wardrobe"
+        ],
+        [
+          "polica",
+          "shelf"
         ]
       ],
       "sortkljuc": 1302004,
-      "bodovi": 946
+      "bodovi": 571
     },
     {
       "cjelina": "Vocabulary 13",
       "cjelinanaslov": "Places & Institutions",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "The place flashes — tap its locative (\"being there\") form!"
+        "info": "You write each new word once, from its English meaning. Nouns go in their naming form (*pošta*, not *u pošti*) and verbs as an infinitive. The diacritics are full letters: *pošta* has **š**, *kuhinja* has the single letter **nj**, *ljekarna* starts with the single letter **lj**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive. Diacritics count: *pošta, kuhinja, ljekarna*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "kvart",
-          "u kvartu"
+          "gym",
+          "teretana"
         ],
         [
-          "kafić",
-          "u kafiću"
+          "post office",
+          "pošta"
         ],
         [
-          "pošta",
-          "u pošti"
+          "pharmacy",
+          "ljekarna"
         ],
         [
-          "zgrada",
-          "u zgradi"
+          "bathroom",
+          "kupaonica"
         ],
         [
-          "ured",
-          "u uredu"
+          "kitchen",
+          "kuhinja"
         ],
         [
-          "teretana",
-          "u teretani"
+          "hallway",
+          "hodnik"
         ],
         [
-          "pekara",
-          "u pekari"
+          "basement",
+          "podrum"
         ],
         [
-          "kazalište",
-          "u kazalištu"
+          "fridge",
+          "hladnjak"
         ],
         [
-          "rijeka",
-          "na rijeci"
+          "mirror",
+          "ogledalo"
+        ],
+        [
+          "armchair",
+          "fotelja"
+        ],
+        [
+          "to stand",
+          "stajati"
+        ],
+        [
+          "to tidy up",
+          "spremati"
+        ],
+        [
+          "to park",
+          "parkirati"
+        ],
+        [
+          "to open",
+          "otvarati"
+        ],
+        [
+          "to close",
+          "zatvarati"
         ]
       ],
       "sortkljuc": 1302005,
-      "bodovi": 1419
+      "bodovi": 974
+    },
+    {
+      "cjelina": "Vocabulary 13",
+      "cjelinanaslov": "Places & Institutions",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–12, half and half. Places from today — *crkva, luka, vrtić, tvornica* — sit next to words you already know, like *sport, kruška, gol*. Watch the two verbs: *posjetiti* is to visit, *graditi* is to build.",
+        "infokratko": "New and old words against the clock. *posjetiti* visit, *graditi* build.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "crkva",
+          "church"
+        ],
+        [
+          "sport",
+          "sport"
+        ],
+        [
+          "luka",
+          "harbor"
+        ],
+        [
+          "kruška",
+          "pear"
+        ],
+        [
+          "vrtić",
+          "kindergarten"
+        ],
+        [
+          "buket",
+          "bouquet"
+        ],
+        [
+          "tvornica",
+          "factory"
+        ],
+        [
+          "gol",
+          "goal"
+        ],
+        [
+          "tavan",
+          "attic"
+        ],
+        [
+          "star",
+          "old"
+        ],
+        [
+          "stepenice",
+          "stairs"
+        ],
+        [
+          "zabavan",
+          "fun"
+        ],
+        [
+          "podne",
+          "noon"
+        ],
+        [
+          "vrijedan",
+          "hard-working"
+        ],
+        [
+          "zatvoren",
+          "closed"
+        ],
+        [
+          "fotografirati",
+          "to photograph"
+        ],
+        [
+          "posjetiti",
+          "to visit"
+        ],
+        [
+          "kupovati",
+          "to buy"
+        ],
+        [
+          "graditi",
+          "to build"
+        ],
+        [
+          "cijeli sat",
+          "a whole hour"
+        ]
+      ],
+      "sortkljuc": 1302006,
+      "bodovi": 706
+    },
+    {
+      "cjelina": "Vocabulary 13",
+      "cjelinanaslov": "Places & Institutions",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-u or -i?",
+      "meta": {
+        "info": "Sorting nouns by the ending they take when you are *in* or *at* them — the locative from Lesson 13. A consonant, **-o** or **-e** takes **-u** (*u hodniku, u dizalu, u cvijeću, na izletu*). **-a** becomes **-i** (*u kuhinji, u pošti, o mami*). Look at the last letter of the naming form and you know the answer.",
+        "infokratko": "Consonant, **-o**, **-e** → **-u** (*u hodniku, u dizalu*). **-a** → **-i** (*u kuhinji, o mami*).",
+        "opis": "Which locative ending does each noun take? The last letter of the naming form decides.",
+        "stupci": "-U | -I"
+      },
+      "stavke": [
+        [
+          "hodnik",
+          "-U"
+        ],
+        [
+          "podrum",
+          "-U"
+        ],
+        [
+          "hladnjak",
+          "-U"
+        ],
+        [
+          "dizalo",
+          "-U"
+        ],
+        [
+          "dječak",
+          "-U"
+        ],
+        [
+          "izlet",
+          "-U"
+        ],
+        [
+          "jastuk",
+          "-U"
+        ],
+        [
+          "cvijeće",
+          "-U"
+        ],
+        [
+          "kuhinja",
+          "-I"
+        ],
+        [
+          "garaža",
+          "-I"
+        ],
+        [
+          "teretana",
+          "-I"
+        ],
+        [
+          "pošta",
+          "-I"
+        ],
+        [
+          "čokolada",
+          "-I"
+        ],
+        [
+          "godina",
+          "-I"
+        ],
+        [
+          "glava",
+          "-I"
+        ],
+        [
+          "mama",
+          "-I"
+        ]
+      ],
+      "sortkljuc": 1302007,
+      "bodovi": 840
+    },
+    {
+      "cjelina": "Vocabulary 13",
+      "cjelinanaslov": "Places & Institutions",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns go in their naming form (*ćevapi* is always plural), verbs as infinitives, and *cijeli dan* is two words. The diacritics count as always: *kauč* with **č**, *ćevapi* with **ć**.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *kauč, ćevapi*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "there",
+          "tamo"
+        ],
+        [
+          "to work",
+          "raditi"
+        ],
+        [
+          "downstairs",
+          "dolje"
+        ],
+        [
+          "to cook",
+          "kuhati"
+        ],
+        [
+          "rug",
+          "tepih"
+        ],
+        [
+          "to understand",
+          "razumjeti"
+        ],
+        [
+          "sofa",
+          "kauč"
+        ],
+        [
+          "to play (a game)",
+          "igrati"
+        ],
+        [
+          "to stay",
+          "ostati"
+        ],
+        [
+          "grilled meat",
+          "ćevapi"
+        ],
+        [
+          "swimming pool",
+          "bazen"
+        ],
+        [
+          "the whole day",
+          "cijeli dan"
+        ]
+      ],
+      "sortkljuc": 1302008,
+      "bodovi": 975
     },
     {
       "cjelina": "Grammar 13",
@@ -78411,42 +72490,149 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: where? — always with a preposition",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the unit. The locative answers *gdje?* and always comes after a preposition — *u*, *na* or *o*. Masculine and neuter nouns take **-u**, feminine **-a** becomes **-i**. The preposition is the same one you use for motion; only the ending changes.",
+        "infokratko": "*gdje?* + *u/na/o*: m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*)."
+      },
       "stavke": [
         [
-          "The locative answers *gdje?* (where?) — and it never travels alone: it always comes with a preposition (u, na, o)."
+          "**The locative answers *gdje?* (where?)** and never stands alone: it always comes after a preposition — *u*, *na* or *o*. Without a preposition a place stays in the naming form: *Ovo je škola.*"
         ],
         [
-          "**The endings:** m. → **+u** (grad → u gradu, ured → u uredu, Split → u Splitu) · n. → **-o/-e → -u** (kino → u kinu, kazalište → u kazalištu) · f. → **-a → -i** (škola → u školi, pekara → u pekari, soba → u sobi)."
+          "tab: Gender",
+          "Naming form",
+          "Locative"
         ],
         [
-          "**Motion vs. location:** *kamo?* (where to?) → accusative: *Idem u školu.* · *gdje?* (where?) → locative: *Ja sam u školi.* Same preposition, different ending — the ending carries the meaning."
+          "tab: m. (consonant) → **+u**",
+          "grad, ured, Split",
+          "u grad**u**, u ured**u**, u Split**u**"
         ],
         [
-          "**u or na?** u = enclosed spaces (u kući, u školi, u kinu, u uredu); na = surfaces, open places, events (na trgu, na tržnici, na stadionu, na koncertu, na moru). A few are just conventions — learn them as phrases."
+          "tab: n. (-o / -e) → **-u**",
+          "kino, more, kazalište",
+          "u kin**u**, na mor**u**, u kazališt**u**"
         ],
         [
-          "**Sound-shift preview:** -ka/-ga/-ha soften before -i: rijeka → na rijeci, banka → u banci. Just recognize it for now."
+          "tab: f. (-a) → **-i**",
+          "škola, pekara, soba",
+          "u škol**i**, u pekar**i**, u sob**i**"
         ],
         [
-          "**Bonus:** o + locative = about. *Razgovaramo o filmu.* Same endings!"
+          "**Motion vs. location:** *kamo?* (where to?) takes the accusative from Lessons 5 and 6: *Idem u školu.* · *gdje?* (where?) takes the locative: *Ja sam u školi.* Same preposition, different ending — the ending carries the meaning."
+        ],
+        [
+          "**The verb gives the first hint.** *ići* and *putovati* ask *kamo?*; *biti, živjeti, stanovati, raditi, sjediti, stajati, spavati* and *ostati* ask *gdje?*."
+        ],
+        [
+          "**u or na?** The same choice as for motion: **u** for rooms and buildings (*u kući, u školi, u uredu*), **na** for open places, surfaces and events (*na trgu, na tržnici, na stadionu, na koncertu, na moru*). A few are conventions — learn them as phrases."
+        ],
+        [
+          "**o + locative = about.** *Razgovaramo o filmu. Pričam o školi.* Same endings, and no place involved."
+        ],
+        [
+          "**One trap: days of the week.** *u subotu, u petak* (on Saturday, on Friday) keep the Lesson 8 form — a day is a point in time, not a place."
         ],
         [
           "**Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Razgovaramo o [filmu]."
         ]
       ],
       "sortkljuc": 1303001,
-      "bodovi": 607
+      "bodovi": 291
     },
     {
       "cjelina": "Grammar 13",
       "cjelinanaslov": "The Locative",
       "stranica": 2,
       "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "kamo, gdje or o?",
+      "meta": {
+        "info": "Sorting by the question each sentence answers. A verb of motion keeps the accusative: *idem u ured*. Being, living or sleeping somewhere takes the locative: *radim u uredu*. After *o* the locative means *about*: *pričamo o uredu*. The last two share the ending, so the verb and the preposition decide.",
+        "infokratko": "Motion → *u ured* (kamo?); being → *u uredu* (gdje?); *o uredu* = about.",
+        "stupci": "KAMO? | GDJE? | O (ABOUT)",
+        "opis": "Where to, where, or about what? Sort the sentences."
+      },
+      "stavke": [
+        [
+          "Idem u ured.",
+          "KAMO?"
+        ],
+        [
+          "Tata radi u uredu.",
+          "GDJE?"
+        ],
+        [
+          "Tata često priča o uredu.",
+          "O (ABOUT)"
+        ],
+        [
+          "Ana ide na tržnicu.",
+          "KAMO?"
+        ],
+        [
+          "Ana je na tržnici.",
+          "GDJE?"
+        ],
+        [
+          "Djeca idu na more.",
+          "KAMO?"
+        ],
+        [
+          "Djeca su na moru.",
+          "GDJE?"
+        ],
+        [
+          "Razgovaramo o moru.",
+          "O (ABOUT)"
+        ],
+        [
+          "Putujemo u Split.",
+          "KAMO?"
+        ],
+        [
+          "Živimo u Splitu.",
+          "GDJE?"
+        ],
+        [
+          "Baka čita knjigu o Splitu.",
+          "O (ABOUT)"
+        ],
+        [
+          "Mačka ide na krov.",
+          "KAMO?"
+        ],
+        [
+          "Mačka spava na krovu.",
+          "GDJE?"
+        ],
+        [
+          "Pišem pismo o školi.",
+          "O (ABOUT)"
+        ],
+        [
+          "Sjedimo u kafiću.",
+          "GDJE?"
+        ],
+        [
+          "Idemo u kino.",
+          "KAMO?"
+        ]
+      ],
+      "sortkljuc": 1303002,
+      "bodovi": 428
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 3,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the locative",
       "meta": {
-        "opis": "Type the locative."
+        "info": "Typed production of the basic endings. A consonant takes **-u**, **-o** and **-e** turn into **-u**, and **-a** turns into **-i**. Masculine words in **-k** and **-g** keep their last letter, because their ending is **-u**: *u parku, na trgu, na otoku*.",
+        "infokratko": "Consonant **+u**, **-o/-e → -u**, **-a → -i**. *u parku, na trgu* keep the k and g.",
+        "opis": "Type the locative. The preposition is already there."
       },
       "stavke": [
         [
@@ -78468,45 +72654,46 @@ window.PODACI = {
         [
           "Zagreb → u ___",
           "Zagrebu"
-        ]
-      ],
-      "sortkljuc": 1303002,
-      "bodovi": 912
-    },
-    {
-      "cjelina": "Grammar 13",
-      "cjelinanaslov": "The Locative",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Accusative or locative?",
-      "meta": {
-        "opis": "Motion or location? Choose the right form."
-      },
-      "stavke": [
-        [
-          "Idem ___ .",
-          "u grad",
-          "u gradu"
         ],
         [
-          "Živim ___ .",
-          "u gradu",
-          "u grad"
+          "kazalište → u ___",
+          "kazalištu"
         ],
         [
-          "Ana je ___ .",
-          "na tržnici",
-          "na tržnicu"
+          "kuhinja → u ___",
+          "kuhinji"
         ],
         [
-          "Idemo ___ !",
-          "na more",
-          "na moru"
+          "trg → na ___",
+          "trgu"
+        ],
+        [
+          "hodnik → u ___",
+          "hodniku"
+        ],
+        [
+          "teretana → u ___",
+          "teretani"
+        ],
+        [
+          "otok → na ___",
+          "otoku"
+        ],
+        [
+          "dizalo → u ___",
+          "dizalu"
+        ],
+        [
+          "plaža → na ___",
+          "plaži"
+        ],
+        [
+          "koncert → na ___",
+          "koncertu"
         ]
       ],
       "sortkljuc": 1303003,
-      "bodovi": 645
+      "bodovi": 498
     },
     {
       "cjelina": "Grammar 13",
@@ -78514,9 +72701,99 @@ window.PODACI = {
       "stranica": 4,
       "broj": 9999,
       "format": "izbor",
+      "naslov": "Accusative or locative?",
+      "meta": {
+        "info": "Choosing the form that fits the verb. After *idem, idemo, putujemo* the place takes the accusative: *u grad, u školu*. After *je, živim, radi, sjedimo, ostajem* it takes the locative: *u gradu, u školi*. The third option puts a feminine **-i** on a masculine word or leaves the naming form, which is never correct.",
+        "infokratko": "Motion → *u grad*; being → *u gradu*. Never *u gradi*.",
+        "opis": "Motion or location? Read the verb, then choose the right form."
+      },
+      "stavke": [
+        [
+          "Idem ___ .",
+          "u grad",
+          "u gradu",
+          "u gradi"
+        ],
+        [
+          "Živim ___ .",
+          "u gradu",
+          "u grad",
+          "u gradi"
+        ],
+        [
+          "Ana je ___ .",
+          "na tržnici",
+          "na tržnicu",
+          "na tržnica"
+        ],
+        [
+          "Idemo ___ !",
+          "na more",
+          "na moru"
+        ],
+        [
+          "Tata radi ___ .",
+          "u uredu",
+          "u ured",
+          "u uredi"
+        ],
+        [
+          "Sutra idem ___ .",
+          "u knjižnicu",
+          "u knjižnici",
+          "u knjižnica"
+        ],
+        [
+          "Djed čita ___ .",
+          "u knjižnici",
+          "u knjižnicu",
+          "u knjižnica"
+        ],
+        [
+          "Djeca idu ___ .",
+          "u školu",
+          "u školi",
+          "u škola"
+        ],
+        [
+          "Mačka spava ___ .",
+          "u kuhinji",
+          "u kuhinju",
+          "u kuhinja"
+        ],
+        [
+          "Putujemo ___ .",
+          "u Split",
+          "na Split",
+          "u Spliti"
+        ],
+        [
+          "Ostajem ___ .",
+          "u kafiću",
+          "u kafić",
+          "u kafići"
+        ],
+        [
+          "Sjedimo ___ .",
+          "u parku",
+          "u park",
+          "u parki"
+        ]
+      ],
+      "sortkljuc": 1303004,
+      "bodovi": 428
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "izbor",
       "naslov": "u or na?",
       "meta": {
-        "opis": "Choose the preposition."
+        "info": "Choosing the preposition, with the ending already in place. **u** goes with rooms and buildings (*u uredu, u kinu, u podrumu*); **na** goes with open places, surfaces and events (*na trgu, na koncertu, na utakmici*). *Na fakultetu* and *na plaži* are conventions to learn whole.",
+        "infokratko": "Rooms, buildings → **u**. Open places, events → **na**. *na fakultetu*.",
+        "opis": "Inside, or at an open place or event? Choose the preposition."
       },
       "stavke": [
         [
@@ -78538,19 +72815,308 @@ window.PODACI = {
           "___ kinu",
           "u",
           "na"
+        ],
+        [
+          "___ fakultetu",
+          "na",
+          "u"
+        ],
+        [
+          "___ podrumu",
+          "u",
+          "na"
+        ],
+        [
+          "___ trgu",
+          "na",
+          "u"
+        ],
+        [
+          "___ tržnici",
+          "na",
+          "u"
+        ],
+        [
+          "___ kuhinji",
+          "u",
+          "na"
+        ],
+        [
+          "___ plaži",
+          "na",
+          "u"
+        ],
+        [
+          "___ kazalištu",
+          "u",
+          "na"
+        ],
+        [
+          "___ utakmici",
+          "na",
+          "u"
         ]
       ],
-      "sortkljuc": 1303004,
-      "bodovi": 645
+      "sortkljuc": 1303005,
+      "bodovi": 428
     },
     {
       "cjelina": "Grammar 13",
       "cjelinanaslov": "The Locative",
-      "stranica": 5,
+      "stranica": 6,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: k and g before -i",
+      "meta": {
+        "info": "The sound change of the unit. In feminine words ending in **-ka** and **-ga**, the **k** becomes **c** and the **g** becomes **z** before the locative **-i**: *banka → u banci*, *knjiga → u knjizi*. Masculine words do not change, because their ending is **-u**. Family words like *baka* keep the k.",
+        "infokratko": "f. **-ka → -ci**, **-ga → -zi**: *u banci, u knjizi*. Masculine and *baka* do not change.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "**Only feminine words in -ka and -ga change.** Before the locative **-i**, **k** becomes **c** and **g** becomes **z**. You met the same change in the plural in Lesson 7: *otok → otoci*."
+        ],
+        [
+          "tab: Naming form",
+          "Locative",
+          "Change"
+        ],
+        [
+          "tab: banka",
+          "u ban**ci**",
+          "k → c"
+        ],
+        [
+          "tab: rijeka",
+          "na rije**ci**",
+          "k → c"
+        ],
+        [
+          "tab: luka",
+          "u lu**ci**",
+          "k → c"
+        ],
+        [
+          "tab: ruka",
+          "u ru**ci**",
+          "k → c"
+        ],
+        [
+          "tab: knjiga",
+          "u knji**zi**",
+          "g → z"
+        ],
+        [
+          "tab: noga",
+          "na no**zi**",
+          "g → z"
+        ],
+        [
+          "**Masculine words keep their k and g.** Their ending is **-u**, not **-i**, so nothing changes: *u parku, u hodniku, na otoku, na trgu.*"
+        ],
+        [
+          "**A few feminine words keep the k.** Family words — *baka → o baki* — and words in **-čka** — *mačka → o mački*. Without the k the word would be hard to recognise, so it stays."
+        ],
+        [
+          "**The dropped a from Grammars 2 and 6 drops here too.** *centar → u centru*, *ručak → na ručku*, *doručak → na doručku.*"
+        ],
+        [
+          "***u Hrvatskoj* — take it whole.** *Hrvatska* has the form of an adjective, so its locative ends in **-oj**: *Živim u Hrvatskoj.* Adjectives in the locative come later; for now, learn this one phrase."
+        ],
+        [
+          "**Now you write them.** Idem u banku — sada sam u [banci]. Ana je na [rijeci]. Pričamo o [baki]."
+        ]
+      ],
+      "sortkljuc": 1303006,
+      "bodovi": 291
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap completes the place. Where the **k** or **g** of a feminine word is missing, choose between the changed ending (**-ci**, **-zi**) and **-ki** for *baka* and *mačka*, which keep the k. Where the whole stem is written, it is the ordinary **-u** or **-i** — masculine *park* and *otok* never change.",
+        "infokratko": "f. **-ka → -ci**, **-ga → -zi**; *baka, mačka* → **-ki**; otherwise **-u** or **-i**.",
+        "nastavci": "u | i | ci | zi | ki",
+        "opis": "English above, Croatian below. One tap finishes the locative. Passive words: *Amerika* (America)."
+      },
+      "stavke": [
+        [
+          "Mama je u ban___.",
+          "Mum is at the bank.",
+          "ci"
+        ],
+        [
+          "Ana je u škol___.",
+          "Ana is at school.",
+          "i"
+        ],
+        [
+          "Sjedimo u park___.",
+          "We're sitting in the park.",
+          "u"
+        ],
+        [
+          "Djeca su na rije___.",
+          "The children are at the river.",
+          "ci"
+        ],
+        [
+          "Pričamo o ba___.",
+          "We're talking about Grandma.",
+          "ki"
+        ],
+        [
+          "Brod je u lu___.",
+          "The boat is in the harbor.",
+          "ci"
+        ],
+        [
+          "U knji___ je pismo.",
+          "There's a letter in the book.",
+          "zi"
+        ],
+        [
+          "Marko ima loptu u ru___.",
+          "Marko has a ball in his hand.",
+          "ci"
+        ],
+        [
+          "Pas spava u hodnik___.",
+          "The dog is sleeping in the hallway.",
+          "u"
+        ],
+        [
+          "Pišem pismo o mač___.",
+          "I'm writing a letter about the cat.",
+          "ki"
+        ],
+        [
+          "Mi smo na otok___.",
+          "We are on the island.",
+          "u"
+        ],
+        [
+          "Mama je u kuhinj___.",
+          "Mum is in the kitchen.",
+          "i"
+        ],
+        [
+          "Kafić je na trg___.",
+          "The café is on the square.",
+          "u"
+        ],
+        [
+          "Marko radi u klini___.",
+          "Marko works at the clinic.",
+          "ci"
+        ],
+        [
+          "Mama i tata pričaju o ba___.",
+          "Mum and Dad are talking about Grandma.",
+          "ki"
+        ],
+        [
+          "Ana živi u Ameri___.",
+          "Ana lives in America.",
+          "ci"
+        ],
+        [
+          "Petra je u teretan___.",
+          "Petra is at the gym.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1303007,
+      "bodovi": 428
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the changed form",
+      "meta": {
+        "info": "Typed production of the special forms. Feminine **-ka** gives **-ci** and **-ga** gives **-zi**, but *baka* and *mačka* keep the k. Masculine words never change a letter. *Centar* and *ručak* drop their **a**, and *Hrvatska* takes **-oj**.",
+        "infokratko": "**-ka → -ci**, **-ga → -zi**; *baki, mački*; *u centru, na ručku, u Hrvatskoj*.",
+        "opis": "Type the locative. Watch the last consonant of the naming form."
+      },
+      "stavke": [
+        [
+          "banka → u ___",
+          "banci"
+        ],
+        [
+          "rijeka → na ___",
+          "rijeci"
+        ],
+        [
+          "luka → u ___",
+          "luci"
+        ],
+        [
+          "klinika → u ___",
+          "klinici"
+        ],
+        [
+          "knjiga → u ___",
+          "knjizi"
+        ],
+        [
+          "noga → na ___",
+          "nozi"
+        ],
+        [
+          "ruka → u ___",
+          "ruci"
+        ],
+        [
+          "baka → o ___",
+          "baki"
+        ],
+        [
+          "mačka → o ___",
+          "mački"
+        ],
+        [
+          "park → u ___",
+          "parku"
+        ],
+        [
+          "otok → na ___",
+          "otoku"
+        ],
+        [
+          "centar → u ___",
+          "centru"
+        ],
+        [
+          "ručak → na ___",
+          "ručku"
+        ],
+        [
+          "Hrvatska → u ___",
+          "Hrvatskoj"
+        ]
+      ],
+      "sortkljuc": 1303008,
+      "bodovi": 498
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 9,
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: about me, about you",
-      "meta": {},
+      "meta": {
+        "info": "The pronouns in the locative, which you mostly hear after *o* — *about*. Each person has one form: *meni, tebi, njemu, njoj, nama, vama, njima*. The question words become *o kome?* for people and *o čemu?* for things, and names take the ordinary noun endings: *o Marku, o Ani*.",
+        "infokratko": "*o meni, o tebi, o njemu, o njoj, o nama, o vama, o njima*; *o kome? o čemu?*"
+      },
       "stavke": [
         [
           "Pronouns take the locative too — and this is the shape you'll hear every time somebody is being talked about."
@@ -78591,9 +73157,15 @@ window.PODACI = {
           "Pitam o **vama**."
         ],
         [
-          "tab: oni",
+          "tab: oni, one, ona",
           "**njima**",
           "Ne znam ništa o **njima**."
+        ],
+        [
+          "**The question words:** *tko → o **kome**?* (about whom?), *što → o **čemu**?* (about what?): *O kome pričaš? — O Marku.* · *O čemu razgovarate? — O filmu.*"
+        ],
+        [
+          "**Names are ordinary nouns.** *Marko → o Mark**u***, *Ivan → o Ivan**u***, *Ana → o An**i***, *Petra → o Petr**i***."
         ],
         [
           "**No preposition, no locative** — the rule holds for pronouns too. There is no bare *meni* meaning \"in me\"; it's always *o meni, u meni, na njemu*."
@@ -78602,24 +73174,23 @@ window.PODACI = {
           "**Watch out: *meni* is also the dative** (Lesson 14 — *Daj meni!*). Same form, two jobs, exactly like the nouns: *u školi* (locative) and *sestri* (dative) share their ending."
         ],
         [
-          "**Plural places, in one line:** m. and n. → **-ima**, f. → **-ama**. *u gradov**ima**, na otoc**ima**, u škol**ama**, na ulic**ama**.* You'll read it on every sign in Croatia — recognise it now, drill it later."
-        ],
-        [
-          "**Now you write them.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu]."
+          "**Now you write them.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu]. O [čemu] razgovarate?"
         ]
       ],
-      "sortkljuc": 1303005,
-      "bodovi": 645
+      "sortkljuc": 1303009,
+      "bodovi": 291
     },
     {
       "cjelina": "Grammar 13",
       "cjelinanaslov": "The Locative",
-      "stranica": 6,
+      "stranica": 10,
       "broj": 9999,
       "format": "upis",
       "naslov": "Type the pronoun",
       "meta": {
-        "opis": "Put the pronoun into the locative."
+        "info": "Typed production of the pronoun forms. Every form after *o* is the long one: *meni, tebi, njemu, njoj, nama, vama, njima*. *On* and *ono* share *njemu*, and every plural *oni, one, ona* gives *njima*. *Tko* becomes *kome*, *što* becomes *čemu*.",
+        "infokratko": "*meni, tebi, njemu, njoj, nama, vama, njima*; *kome, čemu*; *o Marku, o Ani*.",
+        "opis": "Put the pronoun, the question word or the name into the locative."
       },
       "stavke": [
         [
@@ -78645,60 +73216,291 @@ window.PODACI = {
         [
           "oni → Ne znam ništa o ___",
           "njima"
+        ],
+        [
+          "vi → Pitam o ___",
+          "vama"
+        ],
+        [
+          "ono (dijete) → Pričamo o ___",
+          "njemu"
+        ],
+        [
+          "Ana i Petra → Znam sve o ___",
+          "njima"
+        ],
+        [
+          "tko → O ___ pričaš?",
+          "kome"
+        ],
+        [
+          "što → O ___ razgovarate?",
+          "čemu"
+        ],
+        [
+          "Marko → Pričamo o ___",
+          "Marku"
+        ],
+        [
+          "Ana → Pričamo o ___",
+          "Ani"
         ]
       ],
-      "sortkljuc": 1303006,
-      "bodovi": 1102
+      "sortkljuc": 1303010,
+      "bodovi": 497
     },
     {
       "cjelina": "Grammar 13",
       "cjelinanaslov": "The Locative",
-      "stranica": 7,
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "The right form after o",
+      "meta": {
+        "info": "Choosing the form that follows *o*. The wrong options use the naming form (*o ja, o Marko*) or the target form from Lesson 6 and Grammar 11 (*o mene, o njega, o koga*). After *o* only the locative is correct: *o meni, o njemu, o kome, o Marku*.",
+        "infokratko": "After *o* only the locative: *o meni, o njemu, o kome*. Never *o mene, o ja*.",
+        "opis": "Choose the correct sentence."
+      },
+      "stavke": [
+        [
+          "They're talking about me.",
+          "Govore o meni.",
+          "Govore o mene.",
+          "Govore o ja."
+        ],
+        [
+          "I know everything about him.",
+          "Sve znam o njemu.",
+          "Sve znam o njega.",
+          "Sve znam o on."
+        ],
+        [
+          "We're writing about her.",
+          "Pišemo o njoj.",
+          "Pišemo o nju.",
+          "Pišemo o ona."
+        ],
+        [
+          "Are they talking about us?",
+          "Govore li o nama?",
+          "Govore li o nas?",
+          "Govore li o mi?"
+        ],
+        [
+          "I don't know anything about them.",
+          "Ne znam ništa o njima.",
+          "Ne znam ništa o njih.",
+          "Ne znam ništa o oni."
+        ],
+        [
+          "Grandma is talking about you. (vi)",
+          "Baka priča o vama.",
+          "Baka priča o vas.",
+          "Baka priča o vi."
+        ],
+        [
+          "What are you talking about?",
+          "O čemu pričaš?",
+          "O što pričaš?",
+          "O čega pričaš?"
+        ],
+        [
+          "Who are you talking about?",
+          "O kome pričaš?",
+          "O tko pričaš?",
+          "O koga pričaš?"
+        ],
+        [
+          "We're talking about Marko.",
+          "Pričamo o Marku.",
+          "Pričamo o Marko.",
+          "Pričamo o Marka."
+        ],
+        [
+          "We're talking about Ana.",
+          "Pričamo o Ani.",
+          "Pričamo o Ana.",
+          "Pričamo o Anu."
+        ],
+        [
+          "The book is about the river.",
+          "Knjiga je o rijeci.",
+          "Knjiga je o rijeki.",
+          "Knjiga je o rijeka."
+        ],
+        [
+          "Mum is talking about Grandma.",
+          "Mama priča o baki.",
+          "Mama priča o baci.",
+          "Mama priča o baku."
+        ]
+      ],
+      "sortkljuc": 1303011,
+      "bodovi": 428
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: many places",
+      "meta": {
+        "info": "The plural locative, which has only two endings. Masculine and neuter nouns take **-ima**, feminine nouns take **-ama**. Start from the plural you learned in Lesson 7: whatever it added, such as **-ov-** or the **c** of *otoci*, stays in the locative.",
+        "infokratko": "Plural: m./n. **-ima** (*u gradovima*), f. **-ama** (*u školama*)."
+      },
+      "stavke": [
+        [
+          "**Two endings for every plural place:** masculine and neuter → **-ima**, feminine → **-ama**. Take the plural from Lesson 7 and swap its last vowel."
+        ],
+        [
+          "tab: Singular",
+          "Plural",
+          "Plural locative"
+        ],
+        [
+          "tab: grad",
+          "gradovi",
+          "u grad**ovima**"
+        ],
+        [
+          "tab: park",
+          "parkovi",
+          "u park**ovima**"
+        ],
+        [
+          "tab: otok",
+          "otoci",
+          "na oto**cima**"
+        ],
+        [
+          "tab: kino",
+          "kina",
+          "u kin**ima**"
+        ],
+        [
+          "tab: škola",
+          "škole",
+          "u škol**ama**"
+        ],
+        [
+          "tab: ulica",
+          "ulice",
+          "na ulic**ama**"
+        ],
+        [
+          "**What the plural added, the locative keeps.** The **-ov-** of *gradovi* and the **c** of *otoci* stay: *u gradovima, na otocima* — never *u gradima, na otokima*."
+        ],
+        [
+          "**No sound change in -ama.** Feminine words keep their k and g, because the ending starts with **a**: *u bankama, na rijekama, u knjigama.*"
+        ],
+        [
+          "**Now you write them.** Turisti su u [gradovima]. Djeca su u [školama]. Bili smo na [otocima]."
+        ]
+      ],
+      "sortkljuc": 1303012,
+      "bodovi": 291
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 13,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Singular or plural place?",
       "meta": {
+        "info": "One place or several, and the bracket tells you which. The singular takes **-u** or **-i**; the plural takes **-ima** for masculine and neuter and **-ama** for feminine. The wrong options drop the **-ov-** (*gradima*), undo the **c** (*otokima*) or give a feminine word **-ima**.",
+        "infokratko": "Singular **-u / -i**; plural **-ima** (m./n.), **-ama** (f.). Keep *-ov-* and *c*.",
         "opis": "One place or many? Pick the right form."
       },
       "stavke": [
         [
           "Živim u ___ . (city, singular)",
           "gradu",
-          "gradovima"
+          "gradovima",
+          "gradi"
         ],
         [
           "Turisti su u ___ . (cities, plural)",
           "gradovima",
-          "gradu"
+          "gradu",
+          "gradima"
         ],
         [
           "Djeca su u ___ . (school, singular)",
           "školi",
-          "školama"
+          "školama",
+          "školu"
         ],
         [
           "Turisti su na ___ . (islands, plural)",
           "otocima",
-          "otoku"
+          "otoku",
+          "otokima"
         ],
         [
           "Bili smo na ___ . (streets, plural)",
           "ulicama",
-          "ulici"
+          "ulici",
+          "ulicima"
+        ],
+        [
+          "Knjige su u ___ . (bags, plural)",
+          "torbama",
+          "torbi",
+          "torbima"
+        ],
+        [
+          "Djeca su u ___ . (parks, plural)",
+          "parkovima",
+          "parku",
+          "parkima"
+        ],
+        [
+          "Petra je u ___ . (kitchen, singular)",
+          "kuhinji",
+          "kuhinjama",
+          "kuhinjima"
+        ],
+        [
+          "Filmovi su u ___ . (cinemas, plural)",
+          "kinima",
+          "kinu",
+          "kinama"
+        ],
+        [
+          "Pričamo o ___ . (books, plural)",
+          "knjigama",
+          "knjizi",
+          "knjizima"
+        ],
+        [
+          "Ana je na ___ . (beach, singular)",
+          "plaži",
+          "plažama",
+          "plažu"
+        ],
+        [
+          "Mama je u ___ . (bank, singular)",
+          "banci",
+          "bankama",
+          "banki"
         ]
       ],
-      "sortkljuc": 1303007,
-      "bodovi": 797
+      "sortkljuc": 1303013,
+      "bodovi": 428
     },
     {
       "cjelina": "Grammar 13",
       "cjelinanaslov": "The Locative",
-      "stranica": 8,
+      "stranica": 14,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the sentence",
       "meta": {
-        "opis": "Build the sentence."
+        "info": "Whole sentences from tiles, each using a different piece of the unit: the basic endings, a sound change, a pronoun after *o* and the plural. *Je, sam, su* stay in second place, and a comma comes before *a* and *ali*.",
+        "infokratko": "Locative after *u, na, o*; *je, sam* second; comma before *a, ali*.",
+        "opis": "Build the sentence. Passive words: *svi* (everybody)."
       },
       "stavke": [
         [
@@ -78715,10 +73517,133 @@ window.PODACI = {
         ],
         [
           "Bili smo u gradovima na moru i na otocima."
+        ],
+        [
+          "Mama je u banci, a tata je na ručku."
+        ],
+        [
+          "Knjiga je u torbi, a torba je na stolu."
+        ],
+        [
+          "O čemu razgovarate u kuhinji?"
+        ],
+        [
+          "Baka živi u centru, a mi živimo na otoku."
+        ],
+        [
+          "Marko ima loptu u ruci."
+        ],
+        [
+          "Živim u Hrvatskoj jer volim more."
+        ],
+        [
+          "Pričamo o baki i o mački."
         ]
       ],
-      "sortkljuc": 1303008,
-      "bodovi": 797
+      "sortkljuc": 1303014,
+      "bodovi": 428
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English, the hardest step in the unit. Choose *u* or *na*, then the ending: **-u**, **-i**, a changed **-ci** or **-zi**, or a plural **-ima / -ama**. After *about* use *o* with the locative. Where the gender of *we* shows, both forms are accepted.",
+        "infokratko": "*u/na* + **-u / -i / -ci / -zi / -ima / -ama**; *about* = *o* + locative.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I'm in town.",
+          "Ja sam u gradu / U gradu sam"
+        ],
+        [
+          "Ana is at the gym.",
+          "Ana je u teretani"
+        ],
+        [
+          "We live in Zagreb.",
+          "Živimo u Zagrebu / Mi živimo u Zagrebu"
+        ],
+        [
+          "Dad works in an office.",
+          "Tata radi u uredu"
+        ],
+        [
+          "The children are at the seaside.",
+          "Djeca su na moru"
+        ],
+        [
+          "Mum is at the bank.",
+          "Mama je u banci"
+        ],
+        [
+          "The book is on the table.",
+          "Knjiga je na stolu"
+        ],
+        [
+          "Grandma lives in the center.",
+          "Baka živi u centru / Baka stanuje u centru"
+        ],
+        [
+          "We're talking about the film.",
+          "Razgovaramo o filmu / Pričamo o filmu"
+        ],
+        [
+          "They're talking about me.",
+          "Govore o meni / Pričaju o meni / Oni govore o meni / Oni pričaju o meni"
+        ],
+        [
+          "What are you talking about?",
+          "O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate"
+        ],
+        [
+          "Who are you talking about?",
+          "O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate"
+        ],
+        [
+          "The tourists are on the islands.",
+          "Turisti su na otocima"
+        ],
+        [
+          "I live in Croatia.",
+          "Živim u Hrvatskoj / Ja živim u Hrvatskoj"
+        ],
+        [
+          "We were at the concert.",
+          "Bili smo na koncertu / Bile smo na koncertu / Mi smo bili na koncertu / Mi smo bile na koncertu"
+        ]
+      ],
+      "sortkljuc": 1303015,
+      "bodovi": 497
+    },
+    {
+      "cjelina": "Grammar 13",
+      "cjelinanaslov": "The Locative",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The locative is two endings after a preposition — **-u** and **-i** — plus one sound change for **-ka** and **-ga**, one set of pronouns after *o*, and two plural endings. Motion keeps the accusative; being somewhere takes the locative.",
+        "infokratko": "**-u / -i** after *u, na, o*; *-ci, -zi*; *o meni*; plural **-ima / -ama**."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say where anybody is, in one place or in many, and what or whom people are talking about."
+        ],
+        [
+          "And you did it with one rule for each: **being somewhere takes -u or -i after *u* or *na***, ***k* and *g* become *c* and *z* before -i in feminine words**, and ***o* + locative means *about*: *o meni, o čemu, o Marku*.**"
+        ],
+        [
+          "**Next up:** Practice 13 takes you around town — a neighbourhood, a phone call and a day in the city — and Test 13 closes the unit. Then Lesson 14 gives things to people — *Mami kupujem šal* — with the dative, whose singular endings you already know from today."
+        ]
+      ],
+      "sortkljuc": 1303016,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 13",
@@ -78727,45 +73652,54 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: My neighborhood",
-      "meta": {},
+      "meta": {
+        "info": "A read-along walk through one neighbourhood, with the English beside each line. Nearly every sentence says where something is, so read it twice: once for the places, once for the endings — **-u** after a consonant (*u parku, na trgu*), **-i** for a feminine place (*u pošti, na rijeci*).",
+        "infokratko": "Where everything is: **-u** (*u parku, na trgu*), **-i** (*u pošti, na rijeci*).",
+        "opis": "A small neighbourhood with everything in it. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "Everyone is somewhere different, and it's Friday night."
-        ],
-        [
-          "The locative on every corner — passive words: *sve tu* (everything's here), *najljepše* (the nicest), *u staroj zgradi / u maloj trgovini* (adjectives change in the locative too — later!), *poslijepodne* (in the afternoon), *u podne* (at noon), *sjede* (they sit)."
+          "Passive words: *tu* (here), *sjede* (they sit, from *sjediti*), *najljepše* (the nicest place)."
         ],
         [
           "Moj kvart je mali, ali je sve tu.",
-          "My neighborhood is small, but everything's here."
+          "My neighbourhood is small, but everything is here."
         ],
         [
-          "U centru je trg.",
-          "In the center there is a square."
-        ],
-        [
-          "Na trgu je kafić.",
-          "On the square there is a café."
+          "U centru je trg, a na trgu je kafić.",
+          "In the centre there is a square, and on the square there is a café."
         ],
         [
           "U kafiću uvijek sjede ljudi.",
           "People always sit in the café."
         ],
         [
-          "Pošta je u staroj zgradi, a u pošti radi moja teta.",
-          "The post office is in an old building, and my aunt works at the post office."
+          "Pošta je u zgradi na trgu.",
+          "The post office is in the building on the square."
         ],
         [
-          "Škola je u parku, a u školi rade dobre učiteljice.",
-          "The school is in the park, and good teachers work at the school."
+          "U pošti radi moja teta.",
+          "My aunt works at the post office."
         ],
         [
-          "Kupujem u maloj trgovini.",
-          "I shop in a small shop."
+          "Škola je u parku, a u školi radi moj brat. On je učitelj.",
+          "The school is in the park, and my brother works at the school. He is a teacher."
+        ],
+        [
+          "Kruh kupujem u pekari, a voće na tržnici.",
+          "I buy bread at the bakery, and fruit at the market."
+        ],
+        [
+          "U ljekarni radi moja sestra.",
+          "My sister works at the pharmacy."
         ],
         [
           "Najljepše je na rijeci: na rijeci je uvijek mir.",
           "The nicest place is by the river: by the river there is always peace."
+        ],
+        [
+          "Navečer idemo na rijeku, a poslije u kafić na trgu.",
+          "In the evening we go to the river, and afterwards to the café on the square."
         ]
       ],
       "sortkljuc": 1304001,
@@ -78779,33 +73713,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "U centru je trg. Na trgu je kafić. U kafiću uvijek sjede ljudi. Pošta je u staroj zgradi, a u pošti radi moja teta. Škola je u parku. Najljepše je na rijeci: na rijeci je uvijek mir.",
-        "opis": "Answer from the text."
+        "info": "Comprehension questions in Croatian on the neighbourhood text. Most answers are a place in the locative, so look for the line with *u* or *na* and the right person or thing in it. *Gdje…?* asks for a place, *Tko…?* for a person.",
+        "infokratko": "*Gdje?* → a place with **-u / -i**; *Tko?* → a person.",
+        "opis": "Answer from the text.",
+        "tekst": "Moj kvart je mali, ali je sve tu. U centru je trg, a na trgu je kafić. U kafiću uvijek sjede ljudi. Pošta je u zgradi na trgu. U pošti radi moja teta. Škola je u parku, a u školi radi moj brat. On je učitelj. Kruh kupujem u pekari, a voće na tržnici. U ljekarni radi moja sestra. Najljepše je na rijeci: na rijeci je uvijek mir."
       },
       "stavke": [
         [
           "Što je na trgu?",
-          "kafić",
-          "pošta"
+          "kafić i pošta",
+          "škola i park",
+          "pekara i tržnica"
         ],
         [
           "Tko radi u pošti?",
           "teta",
-          "učiteljica"
+          "brat",
+          "sestra"
         ],
         [
-          "Gdje je škola?",
-          "u parku",
-          "u centru"
+          "Gdje radi brat?",
+          "u školi",
+          "u pošti",
+          "u ljekarni"
+        ],
+        [
+          "Gdje kupuje voće?",
+          "na tržnici",
+          "u pekari",
+          "u parku"
+        ],
+        [
+          "Tko radi u ljekarni?",
+          "sestra",
+          "teta",
+          "brat"
         ],
         [
           "Gdje je uvijek mir?",
           "na rijeci",
-          "u trgovini"
+          "na trgu",
+          "u kafiću"
         ]
       ],
       "sortkljuc": 1304002,
-      "bodovi": 830
+      "bodovi": 492
     },
     {
       "cjelina": "Practice 13",
@@ -78815,8 +73767,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the locative",
       "meta": {
-        "tekst": "U kafiću uvijek sjede ljudi. U pošti radi moja teta. Najljepše je na rijeci.",
-        "opis": "Fill in the locative from the text."
+        "info": "Copy the place back into its sentence in the locative. The naming form in the bracket tells you the ending: a consonant takes **-u** (*kafiću, trgu*), **-a** becomes **-i** (*pošti, pekari*). In *rijeka* the **k** becomes **c** before **-i**, as in Grammar 13.",
+        "infokratko": "Consonant **+u**, **-a → -i**; *rijeka → rijeci*.",
+        "opis": "The text is right above you — fill in the locative.",
+        "tekst": "U kafiću uvijek sjede ljudi. Pošta je u zgradi na trgu. U pošti radi moja teta. Škola je u parku. Kruh kupujem u pekari, a voće na tržnici. U ljekarni radi moja sestra. Najljepše je na rijeci."
       },
       "stavke": [
         [
@@ -78830,10 +73784,30 @@ window.PODACI = {
         [
           "Najljepše je na ___ . (rijeka)",
           "rijeci"
+        ],
+        [
+          "Pošta je u zgradi na ___ . (trg)",
+          "trgu"
+        ],
+        [
+          "Škola je u ___ . (park)",
+          "parku"
+        ],
+        [
+          "Kruh kupujem u ___ . (pekara)",
+          "pekari"
+        ],
+        [
+          "Voće kupujem na ___ . (tržnica)",
+          "tržnici"
+        ],
+        [
+          "U ___ radi moja sestra. (ljekarna)",
+          "ljekarni"
         ]
       ],
       "sortkljuc": 1304003,
-      "bodovi": 976
+      "bodovi": 571
     },
     {
       "cjelina": "Practice 13",
@@ -78842,15 +73816,22 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: Where are you?",
-      "meta": {},
+      "meta": {
+        "info": "A Friday-evening phone call between Petra and Ivan, built on *Gdje si?* and *Gdje je…?* Every answer is a place in the locative, and it can stand alone without a verb: *U autobusu sam* and just *U autobusu* mean the same thing on the phone.",
+        "infokratko": "*Gdje si?* → *U autobusu sam.* The place can stand alone.",
+        "opis": "Petra calls Ivan to find out where everybody is. Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "— Halo! Gdje si?",
-          "— Hello! Where are you?"
+          "Passive words: *Ovdje Petra* (Petra here, on the phone), *ili* (or), *u osam* (at eight), *Može!* (Sure!)."
         ],
         [
-          "— U autobusu. A ti?",
-          "— On the bus. And you?"
+          "— Halo, Ivan? Ovdje Petra. Gdje si?",
+          "— Hello, Ivan? Petra here. Where are you?"
+        ],
+        [
+          "— Bok, Petra! U autobusu sam. A ti?",
+          "— Hi, Petra! I'm on the bus. And you?"
         ],
         [
           "— Ja sam još u uredu. Radim.",
@@ -78866,7 +73847,7 @@ window.PODACI = {
         ],
         [
           "— Ana je u teretani. Trenira.",
-          "— Ana is at the gym. She's training."
+          "— Ana is at the gym. She's working out."
         ],
         [
           "— A Marko?",
@@ -78896,28 +73877,38 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Who is where?",
       "meta": {
-        "opis": "Who is where? Match the person with the place."
+        "info": "Each person from the phone call beside the place where they are. The places are already in the locative: masculine and neuter **-u** (*u uredu, u kinu*), feminine **-i** (*u teretani*). Marko is in two places, one after the other, so read his line to the end.",
+        "infokratko": "*u uredu, u kinu* (**-u**), *u teretani* (**-i**). Marko: first, then afterwards.",
+        "opis": "Who is where on Friday evening? Match each person with the place."
       },
       "stavke": [
         [
-          "prva osoba",
-          "u autobusu"
+          "Petra",
+          "u uredu"
         ],
         [
-          "druga osoba",
-          "u uredu"
+          "Ivan",
+          "u autobusu"
         ],
         [
           "Ana",
           "u teretani"
         ],
         [
-          "Marko",
+          "Marko prvo",
           "u kinu"
+        ],
+        [
+          "Marko poslije",
+          "u kafiću"
+        ],
+        [
+          "svi u osam",
+          "u restoranu"
         ]
       ],
       "sortkljuc": 1304005,
-      "bodovi": 683
+      "bodovi": 414
     },
     {
       "cjelina": "Practice 13",
@@ -78927,14 +73918,16 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Order the dialogue",
       "meta": {
-        "opis": "Rebuild the phone call."
+        "info": "Rebuild the phone call line by line. Each line answers the one before it: *Gdje si?* is answered by the bus, *U uredu?!* reacts to the office, and every *Gdje je…?* is followed by a place. The plan for the restaurant comes last.",
+        "infokratko": "Each answer follows its question; the plan comes last.",
+        "opis": "The phone call got shuffled. Put the lines back into the right order."
       },
       "stavke": [
         [
-          "— Halo! Gdje si?"
+          "— Halo, Ivan? Ovdje Petra. Gdje si?"
         ],
         [
-          "— U autobusu. A ti?"
+          "— Bok, Petra! U autobusu sam. A ti?"
         ],
         [
           "— Ja sam još u uredu. Radim."
@@ -78959,7 +73952,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304006,
-      "bodovi": 1171
+      "bodovi": 473
     },
     {
       "cjelina": "Practice 13",
@@ -78968,8 +73961,15 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: A day in the city",
-      "meta": {},
+      "meta": {
+        "info": "One Saturday, told place by place. Two kinds of sentences take turns: *Poslije idem na tržnicu* is movement and keeps the Lesson 5 form, *Na tržnici kupujem voće* is being there and takes the locative. The preposition stays the same in both.",
+        "infokratko": "*idem na tržnicu* (going) → *na tržnici kupujem* (being there).",
+        "opis": "A whole Saturday in town, from bread to the theatre. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *naravno* (of course), *na kraju* (in the end)."
+        ],
         [
           "Subota je.",
           "It is Saturday."
@@ -78979,12 +73979,12 @@ window.PODACI = {
           "In the morning I'm at the bakery — I'm buying bread."
         ],
         [
-          "Poslije sam na tržnici i kupujem voće.",
-          "Afterwards I'm at the market and I'm buying fruit."
+          "Poslije idem na tržnicu. Na tržnici kupujem voće.",
+          "Afterwards I go to the market. At the market I buy fruit."
         ],
         [
-          "U podne sam u parku.",
-          "At noon I'm in the park."
+          "U podne idem u park.",
+          "At noon I go to the park."
         ],
         [
           "U parku čitam i gledam ljude.",
@@ -79003,8 +74003,8 @@ window.PODACI = {
           "In the evening I'm at the theatre."
         ],
         [
-          "A poslije? Naravno — u kafiću!",
-          "And afterwards? Of course — at the café!"
+          "A na kraju? Naravno — u kafiću!",
+          "And in the end? Of course — at the café!"
         ],
         [
           "U gradu nikad nije dosadno.",
@@ -79022,30 +74022,35 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Put the day in order",
       "meta": {
-        "opis": "Put the day in order — where is the narrator at each time?"
+        "info": "Sequence the Saturday from morning to night. The time words give the order: *ujutro*, *poslije*, *u podne*, *poslijepodne*, *navečer*, *na kraju*. Each sentence keeps its own form — *idem na tržnicu* for going, *sam u muzeju* for being there.",
+        "infokratko": "*ujutro → poslije → u podne → poslijepodne → navečer → na kraju*.",
+        "opis": "Seven moments from Text 3, shuffled. Put them in the order they happened."
       },
       "stavke": [
         [
-          "ujutro: u pekari"
+          "Subota je."
         ],
         [
-          "poslije: na tržnici"
+          "Ujutro sam u pekari."
         ],
         [
-          "u podne: u parku"
+          "Poslije idem na tržnicu."
         ],
         [
-          "poslijepodne: u muzeju"
+          "U podne idem u park."
         ],
         [
-          "navečer: u kazalištu"
+          "Poslijepodne sam u muzeju."
         ],
         [
-          "na kraju: u kafiću"
+          "Navečer sam u kazalištu."
+        ],
+        [
+          "Na kraju sam u kafiću."
         ]
       ],
       "sortkljuc": 1304008,
-      "bodovi": 830
+      "bodovi": 355
     },
     {
       "cjelina": "Practice 13",
@@ -79055,12 +74060,24 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "Ujutro sam u pekari — kupujem kruh. Poslijepodne sam u muzeju. U muzeju je tiho i hladno. Navečer sam u kazalištu. U gradu nikad nije dosadno.",
-        "opis": "Tap true or false."
+        "info": "Check each statement against the Saturday text. The traps swap two places or two things: bread belongs to the bakery and fruit to the market, and the evening is at the theatre, not the cinema. *Glasno* is the opposite of *tiho*.",
+        "infokratko": "Watch the swapped places: bread at the bakery, fruit at the market.",
+        "opis": "Tap true or false.",
+        "tekst": "Subota je. Ujutro sam u pekari — kupujem kruh. Poslije idem na tržnicu. Na tržnici kupujem voće. U podne idem u park. U parku čitam i gledam ljude. Poslijepodne sam u muzeju. U muzeju je tiho i hladno. Navečer sam u kazalištu. A na kraju? Naravno — u kafiću! U gradu nikad nije dosadno."
       },
       "stavke": [
         [
           "Ujutro kupuje kruh u pekari.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Na tržnici kupuje kruh.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "U parku čita i gleda ljude.",
           "TRUE",
           "FALSE"
         ],
@@ -79081,17 +74098,486 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1304009,
-      "bodovi": 830
+      "bodovi": 493
     },
     {
       "cjelina": "Practice 13",
       "cjelinanaslov": "Reading: Around Town",
       "stranica": 10,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: The family chat",
+      "meta": {
+        "info": "A real family group chat on a Saturday evening, with the time of every message. Mum asks one question and six answers come back, each with a place: *u teretani, u knjižnici, na tržnici, u garaži, na krovu*. One message is movement: *Idem u garažu.*",
+        "infokratko": "A group chat: every answer is a place. *Idem u garažu* is movement.",
+        "opis": "Mum writes to the family group. Read the messages in order. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *svi* (everybody), *po kruh* (to get bread), *opet* (again), *kao uvijek* (as always), *tko kasni* (whoever is late), *pere suđe* (does the dishes)."
+        ],
+        [
+          "**Mama** (18:02): Gdje ste svi? Večera je u osam!",
+          "**Mum** (18:02): Where is everybody? Dinner is at eight!"
+        ],
+        [
+          "**Ana** (18:04): U teretani sam. Poslije idem u pekaru po kruh.",
+          "**Ana** (18:04): I'm at the gym. Afterwards I'm going to the bakery to get bread."
+        ],
+        [
+          "**Marko** (18:05): Ja sam u knjižnici. Učim.",
+          "**Marko** (18:05): I'm at the library. I'm studying."
+        ],
+        [
+          "**Tata** (18:07): U knjižnici? U subotu?",
+          "**Dad** (18:07): At the library? On a Saturday?"
+        ],
+        [
+          "**Marko** (18:08): Dobro, ne učim. Spavam na stolu.",
+          "**Marko** (18:08): Fine, I'm not studying. I'm sleeping on the table."
+        ],
+        [
+          "**Baka** (18:15): Djed i ja smo na tržnici. Kupujemo voće za kolač.",
+          "**Grandma** (18:15): Grandpa and I are at the market. We're buying fruit for a cake."
+        ],
+        [
+          "**Tata** (18:16): Idem u garažu. Auto opet ne radi.",
+          "**Dad** (18:16): I'm going to the garage. The car isn't working again."
+        ],
+        [
+          "**Mama** (18:20): A gdje je mačka? Nije u kuhinji, nije u kupaonici...",
+          "**Mum** (18:20): And where is the cat? She's not in the kitchen, not in the bathroom..."
+        ],
+        [
+          "**Ana** (18:21): Mačka je na krovu, kao uvijek!",
+          "**Ana** (18:21): The cat is on the roof, as always!"
+        ],
+        [
+          "**Mama** (18:22): Dobro. U osam smo svi u kuhinji. Tko kasni, pere suđe!",
+          "**Mum** (18:22): Fine. At eight we're all in the kitchen. Whoever is late does the dishes!"
+        ]
+      ],
+      "sortkljuc": 1304010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Who wrote what?",
+      "meta": {
+        "info": "Comprehension on the group chat. Read who sent each message: Marko's first message and his second one say different things, and the second is the true one. Dad's message is movement — he is going to the garage — and the reason follows in the same message.",
+        "infokratko": "Marko's second message is the true one. Dad is going to the garage.",
+        "opis": "Answer from the messages.",
+        "tekst": "Mama: Gdje ste svi? Večera je u osam! Ana: U teretani sam. Poslije idem u pekaru po kruh. Marko: Ja sam u knjižnici. Učim. Tata: U knjižnici? U subotu? Marko: Dobro, ne učim. Spavam na stolu. Baka: Djed i ja smo na tržnici. Kupujemo voće za kolač. Tata: Idem u garažu. Auto opet ne radi. Mama: A gdje je mačka? Nije u kuhinji, nije u kupaonici... Ana: Mačka je na krovu, kao uvijek! Mama: Dobro. U osam smo svi u kuhinji."
+      },
+      "stavke": [
+        [
+          "Gdje je Ana?",
+          "u teretani",
+          "u pekari",
+          "u knjižnici"
+        ],
+        [
+          "Što Marko radi u knjižnici?",
+          "spava",
+          "uči",
+          "čita"
+        ],
+        [
+          "Tko je na tržnici?",
+          "baka i djed",
+          "mama i tata",
+          "Ana i Marko"
+        ],
+        [
+          "Zašto tata ide u garažu?",
+          "jer auto ne radi",
+          "jer je mačka u garaži",
+          "jer kupuje voće"
+        ],
+        [
+          "Gdje je mačka?",
+          "na krovu",
+          "u kuhinji",
+          "u kupaonici"
+        ],
+        [
+          "Gdje su svi u osam?",
+          "u kuhinji",
+          "u restoranu",
+          "na tržnici"
+        ]
+      ],
+      "sortkljuc": 1304011,
+      "bodovi": 493
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Where is everybody?",
+      "meta": {
+        "info": "A puzzle rather than a story. Four people, four places in the flat, and nobody says outright who is where. One clue is positive and the rest are negatives, so work by elimination: what a place is **not** narrows down who is left for it.",
+        "infokratko": "One positive clue, the rest negative: work by elimination.",
+        "opis": "A Sunday at home, and a flat with four places. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *jedna osoba* (one person), *tamo gdje je Ana* (wherever Ana is)."
+        ],
+        [
+          "Nedjelja je. Mama, tata, Ana i Marko su doma.",
+          "It is Sunday. Mum, Dad, Ana and Marko are at home."
+        ],
+        [
+          "Jedna osoba je u kuhinji, jedna u kupaonici, jedna u podrumu i jedna na balkonu.",
+          "One person is in the kitchen, one in the bathroom, one in the basement and one on the balcony."
+        ],
+        [
+          "Podrum je dolje, a balkon je gore.",
+          "The basement is downstairs, and the balcony is upstairs."
+        ],
+        [
+          "Marko otvara hladnjak. Hladnjak je u kuhinji.",
+          "Marko is opening the fridge. The fridge is in the kitchen."
+        ],
+        [
+          "Tata nije u kupaonici i nije na balkonu.",
+          "Dad is not in the bathroom and not on the balcony."
+        ],
+        [
+          "Mama nije na balkonu.",
+          "Mum is not on the balcony."
+        ],
+        [
+          "Ana ne voli podrum.",
+          "Ana doesn't like the basement."
+        ],
+        [
+          "Mačka je uvijek tamo gdje je Ana.",
+          "The cat is always wherever Ana is."
+        ],
+        [
+          "Tko je gdje?",
+          "Who is where?"
+        ]
+      ],
+      "sortkljuc": 1304012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. The fridge puts Marko in the kitchen. Dad is neither in the bathroom nor on the balcony, so he is in the basement; Mum is not on the balcony, so she has the bathroom, and Ana — with the cat — is on the balcony.",
+        "infokratko": "Fridge → Marko; then eliminate for Dad, Mum and Ana.",
+        "opis": "Nobody says who is where. Work it out from the text.",
+        "tekst": "Nedjelja je. Mama, tata, Ana i Marko su doma. Jedna osoba je u kuhinji, jedna u kupaonici, jedna u podrumu i jedna na balkonu. Podrum je dolje, a balkon je gore. Marko otvara hladnjak. Hladnjak je u kuhinji. Tata nije u kupaonici i nije na balkonu. Mama nije na balkonu. Ana ne voli podrum. Mačka je uvijek tamo gdje je Ana."
+      },
+      "stavke": [
+        [
+          "Tko je u kuhinji?",
+          "Marko",
+          "Ana",
+          "tata"
+        ],
+        [
+          "Gdje je tata?",
+          "u podrumu",
+          "u kupaonici",
+          "na balkonu"
+        ],
+        [
+          "Gdje je mama?",
+          "u kupaonici",
+          "na balkonu",
+          "u podrumu"
+        ],
+        [
+          "Tko je na balkonu?",
+          "Ana",
+          "mama",
+          "Marko"
+        ],
+        [
+          "Tko je dolje?",
+          "tata",
+          "Ana",
+          "mama"
+        ],
+        [
+          "Gdje je mačka?",
+          "na balkonu",
+          "u kuhinji",
+          "u podrumu"
+        ]
+      ],
+      "sortkljuc": 1304013,
+      "bodovi": 493
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "info": "One tap per sentence, and every sentence comes from the five texts. A consonant, **-o** or **-e** takes **-u** (*u kafiću, u kinu, u kazalištu*); a feminine **-a** becomes **-i** (*u pošti, na tržnici*). In *rijeka* the **c** is already written — the ending is still **-i**.",
+        "infokratko": "Consonant, **-o**, **-e** → **-u**; **-a** → **-i**. *na rijeci*.",
+        "nastavci": "u | i",
+        "opis": "Every sentence came out of the five texts. One tap puts the place in the \"being there\" form."
+      },
+      "stavke": [
+        [
+          "U kafić___ uvijek sjede ljudi.",
+          "People always sit in the café.",
+          "u"
+        ],
+        [
+          "U pošt___ radi moja teta.",
+          "My aunt works at the post office.",
+          "i"
+        ],
+        [
+          "Škola je u park___.",
+          "The school is in the park.",
+          "u"
+        ],
+        [
+          "Kruh kupujem u pekar___.",
+          "I buy bread at the bakery.",
+          "i"
+        ],
+        [
+          "Na rijec___ je uvijek mir.",
+          "There is always peace by the river.",
+          "i"
+        ],
+        [
+          "Ja sam još u ured___.",
+          "I'm still at the office.",
+          "u"
+        ],
+        [
+          "Ana je u teretan___.",
+          "Ana is at the gym.",
+          "i"
+        ],
+        [
+          "Marko je u kin___.",
+          "Marko is at the cinema.",
+          "u"
+        ],
+        [
+          "Vidimo se u restoran___ u osam!",
+          "See you at the restaurant at eight!",
+          "u"
+        ],
+        [
+          "Na tržnic___ kupujem voće.",
+          "At the market I buy fruit.",
+          "i"
+        ],
+        [
+          "U muzej___ je tiho i hladno.",
+          "It is quiet and cold in the museum.",
+          "u"
+        ],
+        [
+          "Navečer sam u kazališt___.",
+          "In the evening I'm at the theatre.",
+          "u"
+        ],
+        [
+          "Marko je u knjižnic___.",
+          "Marko is at the library.",
+          "i"
+        ],
+        [
+          "Mačka je na krov___.",
+          "The cat is on the roof.",
+          "u"
+        ],
+        [
+          "Mama je u kupaonic___.",
+          "Mum is in the bathroom.",
+          "i"
+        ],
+        [
+          "Tata je u podrum___.",
+          "Dad is in the basement.",
+          "u"
+        ],
+        [
+          "Djed i baka su na tržnic___.",
+          "Grandpa and Grandma are at the market.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1304014,
+      "bodovi": 493
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Going or being there?",
+      "meta": {
+        "info": "Sorting sentences from the texts by what they describe. A verb of motion (*idem, idemo*) keeps the Lesson 5 form: *na tržnicu, u garažu*. Being, working or sitting somewhere takes the locative: *na tržnici, u uredu*. Read the verb first, then check the ending.",
+        "infokratko": "*idem na tržnicu* = going; *radi u pošti, sam u uredu* = being there.",
+        "stupci": "KAMO? (→) | GDJE? (📍)",
+        "opis": "Every sentence comes from the texts. Is somebody going there, or already there?"
+      },
+      "stavke": [
+        [
+          "Poslije idem na tržnicu.",
+          "KAMO? (→)"
+        ],
+        [
+          "U podne idem u park.",
+          "KAMO? (→)"
+        ],
+        [
+          "Idem u garažu.",
+          "KAMO? (→)"
+        ],
+        [
+          "Poslije idem u pekaru.",
+          "KAMO? (→)"
+        ],
+        [
+          "Navečer idemo na rijeku.",
+          "KAMO? (→)"
+        ],
+        [
+          "Poslije idemo u kafić.",
+          "KAMO? (→)"
+        ],
+        [
+          "Na tržnici kupujem voće.",
+          "GDJE? (📍)"
+        ],
+        [
+          "U pošti radi moja teta.",
+          "GDJE? (📍)"
+        ],
+        [
+          "Ja sam još u uredu.",
+          "GDJE? (📍)"
+        ],
+        [
+          "Ana je u teretani.",
+          "GDJE? (📍)"
+        ],
+        [
+          "U muzeju je tiho i hladno.",
+          "GDJE? (📍)"
+        ],
+        [
+          "Marko je u knjižnici.",
+          "GDJE? (📍)"
+        ],
+        [
+          "Mačka je na krovu.",
+          "GDJE? (📍)"
+        ],
+        [
+          "Mama nije na balkonu.",
+          "GDJE? (📍)"
+        ]
+      ],
+      "sortkljuc": 1304015,
+      "bodovi": 473
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU are in town",
+      "meta": {
+        "info": "Petra calls you on a Saturday, and every question is about a place. Answer with the locative — *u kafiću, na trgu, u teretani* — and read her reply before you choose again: she reacts to where you say you are. No reply needs a gendered form.",
+        "infokratko": "Answer with the locative: *u kafiću, na trgu*. Petra reacts to your answer.",
+        "opis": "Petra is in town too. Choose your replies — any answer keeps the call going. Passive words: *Ovdje Petra* (Petra here), *stvarno* (really), *daleko* (far), *prvo* (first), *u redu* (all right), *Evo me* (here I come), *za pet minuta* (in five minutes)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Halo! Ovdje Petra. Gdje si?"
+        ],
+        [
+          "ti",
+          "U kafiću sam, na trgu.",
+          "U pošti sam, na trgu."
+        ],
+        [
+          "npc",
+          "Na trgu? Odlično! I ja sam na trgu, u pekari!"
+        ],
+        [
+          "ti",
+          "Stvarno? Što kupuješ?",
+          "Super! Onda nismo daleko."
+        ],
+        [
+          "npc",
+          "Kruh i kolač za baku. Poslije idem na rijeku. A gdje su Ana i Marko?"
+        ],
+        [
+          "ti",
+          "Ana je u teretani, a Marko je u kinu.",
+          "Ana je u knjižnici, a Marko je u kafiću."
+        ],
+        [
+          "npc",
+          "Ha! Marko je uvijek negdje u gradu. Idemo li zajedno na rijeku?"
+        ],
+        [
+          "ti",
+          "Može! Vidimo se na rijeci.",
+          "Ne mogu, danas radim."
+        ],
+        [
+          "npc",
+          "U redu! Ali prvo kava na trgu, zar ne?"
+        ],
+        [
+          "ti",
+          "Naravno! Sjedim u kafiću i čekam.",
+          "Naravno! Čekam na trgu."
+        ],
+        [
+          "npc",
+          "Evo me za pet minuta!"
+        ]
+      ],
+      "sortkljuc": 1304016,
+      "bodovi": 414
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 17,
+      "broj": 9999,
       "format": "slaganje",
       "naslov": "Translate by building",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The place after *u* or *na* is in the locative unless the verb is *idem*; *je, sam* and *su* stay in second place, and a comma comes before *a*.",
+        "infokratko": "Locative after *u/na* (not after *idem*); *je, sam* second; comma before *a*.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
       },
       "stavke": [
         [
@@ -79105,10 +74591,1591 @@ window.PODACI = {
         [
           "U gradu nikad nije dosadno.",
           "en: In the city it is never boring."
+        ],
+        [
+          "U centru je trg, a na trgu je kafić.",
+          "en: In the centre there is a square, and on the square there is a café."
+        ],
+        [
+          "U pošti radi moja teta.",
+          "en: My aunt works at the post office."
+        ],
+        [
+          "Na rijeci je uvijek mir.",
+          "en: By the river there is always peace."
+        ],
+        [
+          "Ja sam još u uredu.",
+          "en: I'm still at the office."
+        ],
+        [
+          "Vidimo se u restoranu u osam!",
+          "en: See you at the restaurant at eight!"
+        ],
+        [
+          "Poslije idem na tržnicu.",
+          "en: Afterwards I go to the market."
+        ],
+        [
+          "U muzeju je tiho i hladno.",
+          "en: In the museum it is quiet and cold."
+        ],
+        [
+          "Marko je u knjižnici.",
+          "en: Marko is at the library."
+        ],
+        [
+          "Mačka je na krovu.",
+          "en: The cat is on the roof."
+        ],
+        [
+          "Mama nije na balkonu.",
+          "en: Mum is not on the balcony."
+        ],
+        [
+          "Marko otvara hladnjak.",
+          "en: Marko is opening the fridge."
+        ],
+        [
+          "Tata je u podrumu, a Ana je na balkonu.",
+          "en: Dad is in the basement, and Ana is on the balcony."
         ]
       ],
-      "sortkljuc": 1304010,
-      "bodovi": 830
+      "sortkljuc": 1304017,
+      "bodovi": 493
+    },
+    {
+      "cjelina": "Practice 13",
+      "cjelinanaslov": "Reading: Around Town",
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the places from the five texts. Everything is in its naming form; say *Ja sam u…* in your head as you tap and add the ending — **-u** for *muzej* or *krov*, **-i** for *pošta* or *pekara*.",
+        "infokratko": "Naming forms. Think *Ja sam u...* + **-u / -i**.",
+        "opis": "Saturday is over. A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "pošta",
+          "post office"
+        ],
+        [
+          "kafić",
+          "café"
+        ],
+        [
+          "škola",
+          "school"
+        ],
+        [
+          "pekara",
+          "bakery"
+        ],
+        [
+          "tržnica",
+          "market"
+        ],
+        [
+          "rijeka",
+          "river"
+        ],
+        [
+          "teretana",
+          "gym"
+        ],
+        [
+          "muzej",
+          "museum"
+        ],
+        [
+          "kazalište",
+          "theatre"
+        ],
+        [
+          "knjižnica",
+          "library"
+        ],
+        [
+          "garaža",
+          "garage"
+        ],
+        [
+          "krov",
+          "roof"
+        ]
+      ],
+      "sortkljuc": 1304018,
+      "bodovi": 493
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "pošta",
+          "post office"
+        ],
+        [
+          "teretana",
+          "gym"
+        ],
+        [
+          "rijeka",
+          "river"
+        ],
+        [
+          "ljekarna",
+          "pharmacy"
+        ],
+        [
+          "fakultet",
+          "university (faculty)"
+        ],
+        [
+          "klinika",
+          "clinic"
+        ],
+        [
+          "crkva",
+          "church"
+        ],
+        [
+          "vrtić",
+          "kindergarten"
+        ],
+        [
+          "bazen",
+          "swimming pool"
+        ],
+        [
+          "tvornica",
+          "factory"
+        ],
+        [
+          "parkiralište",
+          "parking lot"
+        ],
+        [
+          "luka",
+          "harbor"
+        ],
+        [
+          "centar",
+          "center (of town)"
+        ],
+        [
+          "kvart",
+          "neighborhood"
+        ],
+        [
+          "zgrada",
+          "building"
+        ],
+        [
+          "kat",
+          "floor, level"
+        ],
+        [
+          "kupaonica",
+          "bathroom"
+        ],
+        [
+          "kuhinja",
+          "kitchen"
+        ],
+        [
+          "spavaća soba",
+          "bedroom"
+        ],
+        [
+          "dnevni boravak",
+          "living room"
+        ],
+        [
+          "hodnik",
+          "hallway"
+        ],
+        [
+          "podrum",
+          "basement"
+        ],
+        [
+          "tavan",
+          "attic"
+        ],
+        [
+          "garaža",
+          "garage"
+        ],
+        [
+          "krov",
+          "roof"
+        ],
+        [
+          "stepenice",
+          "stairs"
+        ],
+        [
+          "dizalo",
+          "elevator"
+        ],
+        [
+          "dvorište",
+          "yard"
+        ],
+        [
+          "hladnjak",
+          "fridge"
+        ],
+        [
+          "ormar",
+          "wardrobe"
+        ],
+        [
+          "polica",
+          "shelf"
+        ],
+        [
+          "kauč",
+          "sofa"
+        ],
+        [
+          "fotelja",
+          "armchair"
+        ],
+        [
+          "tepih",
+          "rug"
+        ],
+        [
+          "ogledalo",
+          "mirror"
+        ],
+        [
+          "tuš",
+          "shower"
+        ],
+        [
+          "stanovati",
+          "to reside"
+        ],
+        [
+          "stajati",
+          "to stand"
+        ],
+        [
+          "spremati",
+          "to tidy up"
+        ],
+        [
+          "posjetiti",
+          "to visit"
+        ],
+        [
+          "parkirati",
+          "to park"
+        ],
+        [
+          "otvarati",
+          "to open"
+        ],
+        [
+          "zatvarati",
+          "to close"
+        ],
+        [
+          "sresti",
+          "to meet"
+        ],
+        [
+          "ostati",
+          "to stay"
+        ],
+        [
+          "graditi",
+          "to build"
+        ],
+        [
+          "otvoren",
+          "open"
+        ],
+        [
+          "zatvoren",
+          "closed"
+        ],
+        [
+          "gore",
+          "upstairs"
+        ],
+        [
+          "dolje",
+          "downstairs"
+        ],
+        [
+          "tamo",
+          "there"
+        ],
+        [
+          "kamo",
+          "where to"
+        ],
+        [
+          "o",
+          "about"
+        ],
+        [
+          "mir",
+          "peace, quiet"
+        ],
+        [
+          "podne",
+          "noon"
+        ],
+        [
+          "poslijepodne",
+          "afternoon"
+        ]
+      ],
+      "sortkljuc": 1305001,
+      "bodovi": 361
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "pošta",
+          "post office",
+          "pharmacy",
+          "bank"
+        ],
+        [
+          "ljekarna",
+          "pharmacy",
+          "post office",
+          "hospital"
+        ],
+        [
+          "teretana",
+          "gym",
+          "swimming pool",
+          "stadium"
+        ],
+        [
+          "rijeka",
+          "river",
+          "harbor",
+          "sea"
+        ],
+        [
+          "luka",
+          "harbor",
+          "river",
+          "island"
+        ],
+        [
+          "fakultet",
+          "university (faculty)",
+          "kindergarten",
+          "school"
+        ],
+        [
+          "vrtić",
+          "kindergarten",
+          "factory",
+          "school"
+        ],
+        [
+          "tvornica",
+          "factory",
+          "shop",
+          "office"
+        ],
+        [
+          "klinika",
+          "clinic",
+          "church",
+          "pharmacy"
+        ],
+        [
+          "parkiralište",
+          "parking lot",
+          "garage",
+          "yard"
+        ],
+        [
+          "kupaonica",
+          "bathroom",
+          "kitchen",
+          "bedroom"
+        ],
+        [
+          "hodnik",
+          "hallway",
+          "basement",
+          "attic"
+        ],
+        [
+          "podrum",
+          "basement",
+          "attic",
+          "roof"
+        ],
+        [
+          "tavan",
+          "attic",
+          "basement",
+          "balcony"
+        ],
+        [
+          "dvorište",
+          "yard",
+          "stairs",
+          "roof"
+        ],
+        [
+          "stepenice",
+          "stairs",
+          "elevator",
+          "hallway"
+        ],
+        [
+          "dizalo",
+          "elevator",
+          "stairs",
+          "garage"
+        ],
+        [
+          "hladnjak",
+          "fridge",
+          "wardrobe",
+          "shelf"
+        ],
+        [
+          "ormar",
+          "wardrobe",
+          "fridge",
+          "armchair"
+        ],
+        [
+          "polica",
+          "shelf",
+          "rug",
+          "mirror"
+        ],
+        [
+          "fotelja",
+          "armchair",
+          "sofa",
+          "rug"
+        ],
+        [
+          "ogledalo",
+          "mirror",
+          "window",
+          "shower"
+        ],
+        [
+          "stanovati",
+          "to reside",
+          "to stand",
+          "to stay"
+        ],
+        [
+          "stajati",
+          "to stand",
+          "to stay",
+          "to sit"
+        ],
+        [
+          "ostati",
+          "to stay",
+          "to stand",
+          "to open"
+        ],
+        [
+          "posjetiti",
+          "to visit",
+          "to build",
+          "to meet"
+        ],
+        [
+          "graditi",
+          "to build",
+          "to visit",
+          "to park"
+        ],
+        [
+          "sresti",
+          "to meet",
+          "to visit",
+          "to close"
+        ],
+        [
+          "zatvoren",
+          "closed",
+          "open",
+          "quiet"
+        ],
+        [
+          "gore",
+          "upstairs",
+          "downstairs",
+          "there"
+        ],
+        [
+          "kamo",
+          "where to",
+          "where",
+          "when"
+        ],
+        [
+          "mir",
+          "peace, quiet",
+          "noon",
+          "afternoon"
+        ]
+      ],
+      "sortkljuc": 1305002,
+      "bodovi": 430
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Where to, where, or about?",
+      "meta": {
+        "stupci": "KAMO? | GDJE? | O (ABOUT)",
+        "opis": "Going there, being there, or talking about it? Read the verb and the preposition."
+      },
+      "stavke": [
+        [
+          "Idem u ljekarnu.",
+          "KAMO?"
+        ],
+        [
+          "Djeca idu u vrtić.",
+          "KAMO?"
+        ],
+        [
+          "Tata ide u garažu.",
+          "KAMO?"
+        ],
+        [
+          "Mačka ide na krov.",
+          "KAMO?"
+        ],
+        [
+          "Idemo na rijeku.",
+          "KAMO?"
+        ],
+        [
+          "Marko ide na fakultet.",
+          "KAMO?"
+        ],
+        [
+          "Mama radi u ljekarni.",
+          "GDJE?"
+        ],
+        [
+          "Djeca spavaju u vrtiću.",
+          "GDJE?"
+        ],
+        [
+          "Auto je u garaži.",
+          "GDJE?"
+        ],
+        [
+          "Mačka spava na krovu.",
+          "GDJE?"
+        ],
+        [
+          "Sjedimo na rijeci.",
+          "GDJE?"
+        ],
+        [
+          "Stanujem u centru.",
+          "GDJE?"
+        ],
+        [
+          "Knjiga je o rijeci.",
+          "O (ABOUT)"
+        ],
+        [
+          "Razgovaramo o fakultetu.",
+          "O (ABOUT)"
+        ],
+        [
+          "Pišem pismo o baki.",
+          "O (ABOUT)"
+        ],
+        [
+          "Svi govore o tebi.",
+          "O (ABOUT)"
+        ],
+        [
+          "Pričamo o Splitu.",
+          "O (ABOUT)"
+        ],
+        [
+          "Ostajem u uredu.",
+          "GDJE?"
+        ]
+      ],
+      "sortkljuc": 1305003,
+      "bodovi": 430
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "In or on?",
+      "meta": {
+        "stupci": "U | NA",
+        "opis": "The ending is already there. Which preposition goes in front of each place?"
+      },
+      "stavke": [
+        [
+          "___ kuhinji",
+          "U"
+        ],
+        [
+          "___ podrumu",
+          "U"
+        ],
+        [
+          "___ crkvi",
+          "U"
+        ],
+        [
+          "___ garaži",
+          "U"
+        ],
+        [
+          "___ ljekarni",
+          "U"
+        ],
+        [
+          "___ tvornici",
+          "U"
+        ],
+        [
+          "___ vrtiću",
+          "U"
+        ],
+        [
+          "___ kupaonici",
+          "U"
+        ],
+        [
+          "___ hodniku",
+          "U"
+        ],
+        [
+          "___ trgu",
+          "NA"
+        ],
+        [
+          "___ krovu",
+          "NA"
+        ],
+        [
+          "___ fakultetu",
+          "NA"
+        ],
+        [
+          "___ tržnici",
+          "NA"
+        ],
+        [
+          "___ parkiralištu",
+          "NA"
+        ],
+        [
+          "___ koncertu",
+          "NA"
+        ],
+        [
+          "___ balkonu",
+          "NA"
+        ],
+        [
+          "___ tavanu",
+          "NA"
+        ],
+        [
+          "___ rijeci",
+          "NA"
+        ]
+      ],
+      "sortkljuc": 1305004,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "u | i | ci | zi | ki",
+        "opis": "The English is above. One tap finishes the locative — watch the feminine words in *-ka* and *-ga*."
+      },
+      "stavke": [
+        [
+          "Tata je u podrum___.",
+          "Dad is in the basement.",
+          "u"
+        ],
+        [
+          "Mama je u ban___.",
+          "Mum is at the bank.",
+          "ci"
+        ],
+        [
+          "Baka je u ljekarn___.",
+          "Grandma is at the pharmacy.",
+          "i"
+        ],
+        [
+          "Brod je u lu___.",
+          "The boat is in the harbor.",
+          "ci"
+        ],
+        [
+          "Pričamo o ba___.",
+          "We're talking about Grandma.",
+          "ki"
+        ],
+        [
+          "Mlijeko je u hladnjak___.",
+          "The milk is in the fridge.",
+          "u"
+        ],
+        [
+          "Pismo je u knji___.",
+          "The letter is in the book.",
+          "zi"
+        ],
+        [
+          "Ana radi u klini___.",
+          "Ana works at the clinic.",
+          "ci"
+        ],
+        [
+          "Djeca su u vrtić___.",
+          "The children are at the kindergarten.",
+          "u"
+        ],
+        [
+          "Knjige su na polic___.",
+          "The books are on the shelf.",
+          "i"
+        ],
+        [
+          "Pišem pismo o mač___.",
+          "I'm writing a letter about the cat.",
+          "ki"
+        ],
+        [
+          "Pas spava na kauč___.",
+          "The dog is sleeping on the sofa.",
+          "u"
+        ],
+        [
+          "Djeca su na rije___.",
+          "The children are at the river.",
+          "ci"
+        ],
+        [
+          "Auto je u garaž___.",
+          "The car is in the garage.",
+          "i"
+        ],
+        [
+          "Marko ima ključ u ru___.",
+          "Marko has a key in his hand.",
+          "ci"
+        ],
+        [
+          "Studenti su na fakultet___.",
+          "The students are at the university.",
+          "u"
+        ],
+        [
+          "Ogledalo je u kupaonic___.",
+          "The mirror is in the bathroom.",
+          "i"
+        ],
+        [
+          "Auto je na parkirališt___.",
+          "The car is in the parking lot.",
+          "u"
+        ]
+      ],
+      "sortkljuc": 1305005,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "opis": "Going there or already there? Read the verb, then choose the form."
+      },
+      "stavke": [
+        [
+          "Idem ___ . (pošta)",
+          "u poštu",
+          "u pošti",
+          "u pošta"
+        ],
+        [
+          "Baka je ___ . (pošta)",
+          "u pošti",
+          "u poštu",
+          "u pošta"
+        ],
+        [
+          "Djeca idu ___ . (vrtić)",
+          "u vrtić",
+          "u vrtiću",
+          "u vrtići"
+        ],
+        [
+          "Djeca su ___ . (vrtić)",
+          "u vrtiću",
+          "u vrtić",
+          "u vrtići"
+        ],
+        [
+          "Mlijeko je ___ . (hladnjak)",
+          "u hladnjaku",
+          "u hladnjak",
+          "u hladnjaki"
+        ],
+        [
+          "Ana trenira ___ . (teretana)",
+          "u teretani",
+          "u teretanu",
+          "u teretana"
+        ],
+        [
+          "Sutra idemo ___ . (Split)",
+          "u Split",
+          "u Splitu",
+          "u Spliti"
+        ],
+        [
+          "Danas ostajem ___ . (kuća)",
+          "u kući",
+          "u kuću",
+          "u kuća"
+        ],
+        [
+          "Marko ide ___ . (fakultet)",
+          "na fakultet",
+          "na fakultetu",
+          "na fakulteti"
+        ],
+        [
+          "Mama stoji ___ . (hodnik)",
+          "u hodniku",
+          "u hodnik",
+          "u hodniki"
+        ],
+        [
+          "Idemo ___ ! (rijeka)",
+          "na rijeku",
+          "na rijeci",
+          "na rijeka"
+        ],
+        [
+          "Sjedimo ___ . (rijeka)",
+          "na rijeci",
+          "na rijeku",
+          "na rijeki"
+        ],
+        [
+          "Stanujem ___ . (centar)",
+          "u centru",
+          "u centaru",
+          "u centar"
+        ]
+      ],
+      "sortkljuc": 1305006,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "About me, about you",
+      "meta": {
+        "opis": "After *o* only the locative is correct. Choose the form."
+      },
+      "stavke": [
+        [
+          "Pričamo o ___ . (ja)",
+          "meni",
+          "mene",
+          "ja"
+        ],
+        [
+          "Govore o ___ . (ti)",
+          "tebi",
+          "tebe",
+          "ti"
+        ],
+        [
+          "Sve znam o ___ . (on)",
+          "njemu",
+          "njega",
+          "on"
+        ],
+        [
+          "Pišu o ___ . (ona)",
+          "njoj",
+          "nju",
+          "ona"
+        ],
+        [
+          "Baka priča o ___ . (mi)",
+          "nama",
+          "nas",
+          "mi"
+        ],
+        [
+          "Ne znam ništa o ___ . (oni)",
+          "njima",
+          "njih",
+          "oni"
+        ],
+        [
+          "O ___ pričaš? — O Marku.",
+          "kome",
+          "koga",
+          "tko"
+        ],
+        [
+          "O ___ razgovarate? — O filmu.",
+          "čemu",
+          "čega",
+          "što"
+        ],
+        [
+          "Pričamo o ___ . (Marko)",
+          "Marku",
+          "Marko",
+          "Marka"
+        ],
+        [
+          "Knjiga je o ___ . (Ana)",
+          "Ani",
+          "Ana",
+          "Anu"
+        ],
+        [
+          "Mama priča o ___ . (baka)",
+          "baki",
+          "baci",
+          "baku"
+        ],
+        [
+          "Film je o ___ . (rijeka)",
+          "rijeci",
+          "rijeki",
+          "rijeka"
+        ]
+      ],
+      "sortkljuc": 1305007,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "One place or many?",
+      "meta": {
+        "opis": "The bracket says one place or several. Pick the right form."
+      },
+      "stavke": [
+        [
+          "Turisti su na ___ . (islands)",
+          "otocima",
+          "otokima",
+          "otoku"
+        ],
+        [
+          "Djeca su u ___ . (schools)",
+          "školama",
+          "školima",
+          "školi"
+        ],
+        [
+          "Turisti su u ___ . (cities)",
+          "gradovima",
+          "gradima",
+          "gradu"
+        ],
+        [
+          "Djeca su u ___ . (parks)",
+          "parkovima",
+          "parkima",
+          "parku"
+        ],
+        [
+          "Filmovi su u ___ . (cinemas)",
+          "kinima",
+          "kinama",
+          "kinu"
+        ],
+        [
+          "Knjige su na ___ . (shelves)",
+          "policama",
+          "policima",
+          "polici"
+        ],
+        [
+          "Auti su u ___ . (garages)",
+          "garažama",
+          "garažima",
+          "garaži"
+        ],
+        [
+          "Ljudi rade u ___ . (factories)",
+          "tvornicama",
+          "tvornicima",
+          "tvornici"
+        ],
+        [
+          "Pričamo o ___ . (rivers)",
+          "rijekama",
+          "rijecama",
+          "rijeci"
+        ],
+        [
+          "Brodovi su u ___ . (harbors)",
+          "lukama",
+          "lucama",
+          "luci"
+        ],
+        [
+          "Djeca su na ___ . (beaches)",
+          "plažama",
+          "plažima",
+          "plaži"
+        ],
+        [
+          "Mama je u ___ . (bank, one)",
+          "banci",
+          "bankama",
+          "banki"
+        ]
+      ],
+      "sortkljuc": 1305008,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the locative",
+      "meta": {
+        "opis": "Type the place in the locative. The preposition is already there."
+      },
+      "stavke": [
+        [
+          "škola → u ___",
+          "školi"
+        ],
+        [
+          "ured → u ___",
+          "uredu"
+        ],
+        [
+          "more → na ___",
+          "moru"
+        ],
+        [
+          "kupaonica → u ___",
+          "kupaonici"
+        ],
+        [
+          "hladnjak → u ___",
+          "hladnjaku"
+        ],
+        [
+          "dvorište → u ___",
+          "dvorištu"
+        ],
+        [
+          "krov → na ___",
+          "krovu"
+        ],
+        [
+          "fotelja → u ___",
+          "fotelji"
+        ],
+        [
+          "banka → u ___",
+          "banci"
+        ],
+        [
+          "rijeka → na ___",
+          "rijeci"
+        ],
+        [
+          "knjiga → u ___",
+          "knjizi"
+        ],
+        [
+          "klinika → u ___",
+          "klinici"
+        ],
+        [
+          "baka → o ___",
+          "baki"
+        ],
+        [
+          "centar → u ___",
+          "centru"
+        ],
+        [
+          "Hrvatska → u ___",
+          "Hrvatskoj"
+        ]
+      ],
+      "sortkljuc": 1305009,
+      "bodovi": 499
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Now they are there",
+      "meta": {
+        "opis": "They went — now they are there. Type the preposition and the place."
+      },
+      "stavke": [
+        [
+          "Ana ide u teretanu. → Ana je ___",
+          "u teretani"
+        ],
+        [
+          "Idemo na tržnicu. → Mi smo ___",
+          "na tržnici"
+        ],
+        [
+          "Marko ide na fakultet. → Marko je ___",
+          "na fakultetu"
+        ],
+        [
+          "Djeca idu u vrtić. → Djeca su ___",
+          "u vrtiću"
+        ],
+        [
+          "Baka ide u crkvu. → Baka je ___",
+          "u crkvi"
+        ],
+        [
+          "Tata ide u garažu. → Tata je ___",
+          "u garaži"
+        ],
+        [
+          "Mačka ide na krov. → Mačka je ___",
+          "na krovu"
+        ],
+        [
+          "Idem u banku. → Ja sam ___",
+          "u banci"
+        ],
+        [
+          "Idemo na rijeku. → Mi smo ___",
+          "na rijeci"
+        ],
+        [
+          "Turisti idu u luku. → Turisti su ___",
+          "u luci"
+        ]
+      ],
+      "sortkljuc": 1305010,
+      "bodovi": 499
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the lost key",
+      "meta": {
+        "tekst": "Ponedjeljak je, a Petra traži ključ. Ključ nije u torbi, nije u kuhinji i nije na polici. Petra zove Marka: \"Gdje si? Imaš li moj ključ?\" Marko je na fakultetu i ne zna ništa o ključu. Onda Petra zove baku. Baka je u ljekarni, ali odmah kaže: \"Ključ je u ormaru, u hodniku. Uvijek je tamo!\" Petra otvara ormar u hodniku — i ključ je tamo. Baka uvijek zna sve o Petri.",
+        "opis": "Read the text, then answer. Every word you need is in the text itself."
+      },
+      "stavke": [
+        [
+          "Što Petra traži?",
+          "ključ",
+          "torbu",
+          "ormar"
+        ],
+        [
+          "Gdje je Marko?",
+          "na fakultetu",
+          "u ljekarni",
+          "u hodniku"
+        ],
+        [
+          "Što Marko zna o ključu?",
+          "ništa",
+          "sve",
+          "gdje je"
+        ],
+        [
+          "Gdje je baka?",
+          "u ljekarni",
+          "na fakultetu",
+          "u kuhinji"
+        ],
+        [
+          "Gdje je ključ?",
+          "u ormaru u hodniku",
+          "u torbi",
+          "na polici"
+        ],
+        [
+          "O kome baka uvijek zna sve?",
+          "o Petri",
+          "o Marku",
+          "o ključu"
+        ]
+      ],
+      "sortkljuc": 1305011,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "opis": "Not about the locative — everything here comes from levels 8 to 12."
+      },
+      "stavke": [
+        [
+          "Ja ___ plivati.",
+          "ću",
+          "ćeš",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Plivat ću.",
+          "Plivati ću.",
+          "Plivaću."
+        ],
+        [
+          "___ gitara je nova. (her)",
+          "Njezina",
+          "Njezin",
+          "Njezino"
+        ],
+        [
+          "___ koljeno boli. (my)",
+          "Moje",
+          "Moj",
+          "Moja"
+        ],
+        [
+          "Čija je ovo lopta? — ___ . (mine)",
+          "Moja",
+          "Moj",
+          "Moje"
+        ],
+        [
+          "Ana je ___ na koncertu. (pjevati)",
+          "pjevala",
+          "pjevao",
+          "pjevali"
+        ],
+        [
+          "Sve je ___ savršeno. (biti)",
+          "bilo",
+          "bio",
+          "bila"
+        ],
+        [
+          "Marko i Ivan su ___ u kino. (ići)",
+          "išli",
+          "išla",
+          "išao"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Gledao sam film.",
+          "Sam gledao film.",
+          "Gledao film sam."
+        ],
+        [
+          "Ana ___ pjevala. (not)",
+          "nije",
+          "ne je",
+          "nisu"
+        ],
+        [
+          "___ živiš? — U Splitu.",
+          "Gdje",
+          "Kada",
+          "Tko"
+        ],
+        [
+          "___ čekaš? — Prijatelja.",
+          "Koga",
+          "Tko",
+          "Što"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Voliš li kavu?",
+          "Li voliš kavu?",
+          "Voliš kavu li?"
+        ],
+        [
+          "Koliko je \"petnaest\"?",
+          "15",
+          "5",
+          "50"
+        ],
+        [
+          "___ je kava? — Jaka.",
+          "Kakva",
+          "Čija",
+          "Kakav"
+        ],
+        [
+          "Ja ___ gladan.",
+          "nisam",
+          "ne sam",
+          "nemam"
+        ],
+        [
+          "Mi ___ vremena.",
+          "nemamo",
+          "ne imamo",
+          "nismo"
+        ],
+        [
+          "Sutra ___ raditi. (ja)",
+          "neću",
+          "ne ću",
+          "nisam"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Nitko ne kuha.",
+          "Nitko kuha.",
+          "Ne nitko kuha."
+        ],
+        [
+          "Ne pijem kavu, ___ čaj.",
+          "nego",
+          "ali",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1305012,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Ja sam u gradu.",
+          "en: I'm in town."
+        ],
+        [
+          "Ana je u teretani, a Marko je u kinu.",
+          "en: Ana is at the gym, and Marko is at the cinema."
+        ],
+        [
+          "Mama je u banci, a tata je u uredu.",
+          "en: Mum is at the bank, and Dad is at the office."
+        ],
+        [
+          "Mlijeko je u hladnjaku.",
+          "en: The milk is in the fridge."
+        ],
+        [
+          "Baka stanuje u centru.",
+          "en: Grandma lives in the center."
+        ],
+        [
+          "Idem u ljekarnu jer je mama u ljekarni.",
+          "en: I'm going to the pharmacy because Mum is at the pharmacy."
+        ],
+        [
+          "Auto je u garaži, a mačka je na krovu.",
+          "en: The car is in the garage, and the cat is on the roof."
+        ],
+        [
+          "Pričamo o baki i o djedu.",
+          "en: We're talking about Grandma and Grandpa."
+        ],
+        [
+          "Oni govore o tebi.",
+          "en: They're talking about you."
+        ],
+        [
+          "O čemu razgovarate?",
+          "en: What are you talking about?"
+        ],
+        [
+          "Turisti su na otocima.",
+          "en: The tourists are on the islands."
+        ],
+        [
+          "Ključ je u ormaru, u hodniku.",
+          "en: The key is in the wardrobe, in the hallway."
+        ],
+        [
+          "Živim u Hrvatskoj.",
+          "en: I live in Croatia."
+        ],
+        [
+          "Ujutro sam u pekari, a navečer u kazalištu.",
+          "en: In the morning I'm at the bakery, and in the evening at the theater."
+        ],
+        [
+          "Marko je na fakultetu, a Petra je u knjižnici.",
+          "en: Marko is at the university, and Petra is at the library."
+        ]
+      ],
+      "sortkljuc": 1305013,
+      "bodovi": 429
+    },
+    {
+      "cjelina": "Test 13",
+      "cjelinanaslov": "Test 13: Where Are You? The Locative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "I'm in town.",
+          "Ja sam u gradu / U gradu sam"
+        ],
+        [
+          "Ana is at the gym.",
+          "Ana je u teretani"
+        ],
+        [
+          "Dad is in the basement.",
+          "Tata je u podrumu"
+        ],
+        [
+          "The milk is in the fridge.",
+          "Mlijeko je u hladnjaku"
+        ],
+        [
+          "The cat is on the roof.",
+          "Mačka je na krovu"
+        ],
+        [
+          "We live in the center.",
+          "Živimo u centru / Mi živimo u centru / Stanujemo u centru / Mi stanujemo u centru"
+        ],
+        [
+          "Grandma is at the bank.",
+          "Baka je u banci"
+        ],
+        [
+          "The children are at the river.",
+          "Djeca su na rijeci"
+        ],
+        [
+          "Marko is at the university.",
+          "Marko je na fakultetu"
+        ],
+        [
+          "The boat is in the harbor.",
+          "Brod je u luci"
+        ],
+        [
+          "I'm going to the post office.",
+          "Idem u poštu / Ja idem u poštu"
+        ],
+        [
+          "We're talking about Grandma.",
+          "Pričamo o baki / Razgovaramo o baki / Mi pričamo o baki / Mi razgovaramo o baki"
+        ],
+        [
+          "They're talking about you.",
+          "Govore o tebi / Pričaju o tebi / Oni govore o tebi / Oni pričaju o tebi / Govore o vama / Pričaju o vama / Oni govore o vama / Oni pričaju o vama"
+        ],
+        [
+          "What are you talking about?",
+          "O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate"
+        ],
+        [
+          "The tourists are on the islands.",
+          "Turisti su na otocima"
+        ],
+        [
+          "I live in Croatia.",
+          "Živim u Hrvatskoj / Ja živim u Hrvatskoj"
+        ]
+      ],
+      "sortkljuc": 1305014,
+      "bodovi": 499
     },
     {
       "cjelina": "Lesson 14",
@@ -79637,21 +76704,11 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Presents & things to give",
       "meta": {
-        "opis": "Gifts, givers and receivers."
+        "info": "New things you can give somebody, from small to special. You already know some gifts from earlier levels: *poklon, dar, šal, cvijeće, buket, kolač, parfem*. With a giving verb, the thing goes into the target form from Lesson 5: *Mami kupujem ogrlicu.* *novine* is always plural, like *hlače*: *Tata čita novine.*",
+        "infokratko": "Gifts and small things to give. The gift takes the target form: *Mami kupujem ogrlicu.*",
+        "opis": "Presents big and small, from a candy to a ring. Tap a card to reveal the meaning."
       },
       "stavke": [
-        [
-          "šal",
-          "scarf"
-        ],
-        [
-          "cvijeće",
-          "flowers"
-        ],
-        [
-          "kolač → kolači",
-          "cake, pastry"
-        ],
         [
           "paket",
           "package"
@@ -79659,101 +76716,6 @@ window.PODACI = {
         [
           "novine (mn.)",
           "newspaper"
-        ],
-        [
-          "karta za koncert",
-          "concert ticket"
-        ]
-      ],
-      "sortkljuc": 1402001,
-      "bodovi": 1062
-    },
-    {
-      "cjelina": "Vocabulary 14",
-      "cjelinanaslov": "Giving & Receivers",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Receivers (with the dative) & verbs",
-      "meta": {
-        "opis": "Receivers with their dative form, plus the giving verbs."
-      },
-      "stavke": [
-        [
-          "mama → mami",
-          "mom"
-        ],
-        [
-          "tata → tati",
-          "dad"
-        ],
-        [
-          "brat → bratu",
-          "brother"
-        ],
-        [
-          "sestra → sestri",
-          "sister"
-        ],
-        [
-          "baka → baki",
-          "grandma"
-        ],
-        [
-          "djed → djedu",
-          "grandpa"
-        ],
-        [
-          "susjed → susjedu",
-          "neighbor"
-        ],
-        [
-          "prijateljica → prijateljici",
-          "friend (f.)"
-        ],
-        [
-          "poštar",
-          "postman"
-        ],
-        [
-          "davati → dajem",
-          "to give"
-        ],
-        [
-          "slati → šaljem",
-          "to send"
-        ],
-        [
-          "nositi → nosim",
-          "to carry, to bring"
-        ],
-        [
-          "Komu?",
-          "To whom?"
-        ],
-        [
-          "prosinac",
-          "December"
-        ],
-        [
-          "vijest → vijesti",
-          "news"
-        ],
-        [
-          "osmijeh",
-          "smile"
-        ],
-        [
-          "savjet",
-          "advice"
-        ],
-        [
-          "besplatno",
-          "for free"
-        ],
-        [
-          "buket",
-          "bouquet"
         ],
         [
           "bombon",
@@ -79768,90 +76730,186 @@ window.PODACI = {
           "poster"
         ],
         [
-          "čestitka",
-          "greeting card"
+          "igračka",
+          "toy"
+        ],
+        [
+          "ogrlica",
+          "necklace"
+        ],
+        [
+          "prsten",
+          "ring"
+        ],
+        [
+          "novčanik",
+          "wallet"
+        ],
+        [
+          "kišobran",
+          "umbrella"
+        ],
+        [
+          "kapa",
+          "cap"
+        ],
+        [
+          "jakna",
+          "jacket"
+        ],
+        [
+          "sapun",
+          "soap"
+        ],
+        [
+          "papir",
+          "paper"
+        ],
+        [
+          "razglednica",
+          "postcard"
+        ],
+        [
+          "kartica",
+          "card"
+        ],
+        [
+          "vaza",
+          "vase"
+        ],
+        [
+          "kravata",
+          "tie"
+        ]
+      ],
+      "sortkljuc": 1402001,
+      "bodovi": 774
+    },
+    {
+      "cjelina": "Vocabulary 14",
+      "cjelinanaslov": "Giving & Receivers",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Receivers (with the dative) & verbs",
+      "meta": {
+        "info": "The person who gets something is the *receiver*, and Lesson 14 gives the receiver the same endings as the locative: **-a** turns into **-i** (*susjeda → susjedi*), a consonant takes **-u** (*nećak → nećaku*). Ask about the receiver with **Komu?** (to whom?). All the verbs here can take a receiver: *Baki šaljem razglednicu. Nećaku dajem poster. Vjerujem mami.* **primati** is the other side of giving: *Primam paket.* *nositi* (to carry, to bring) is from Vocabulary 5 and works the same way.",
+        "infokratko": "Receiver: **-a → -i** (*susjedi*), consonant **+u** (*nećaku*). **Komu?** — to whom? *Baki šaljem razglednicu.*",
+        "opis": "The people who get presents, and the verbs for giving. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "susjeda → susjedi",
+          "neighbour (f.)"
+        ],
+        [
+          "unuka → unuki",
+          "granddaughter"
+        ],
+        [
+          "nećak → nećaku",
+          "nephew"
+        ],
+        [
+          "nećakinja → nećakinji",
+          "niece"
+        ],
+        [
+          "rođakinja → rođakinji",
+          "cousin (f.)"
+        ],
+        [
+          "kum → kumu",
+          "godfather, best man"
+        ],
+        [
+          "kolegica → kolegici",
+          "colleague (f.)"
+        ],
+        [
+          "šefica → šefici",
+          "boss (f.)"
+        ],
+        [
+          "Komu?",
+          "To whom?"
+        ],
+        [
+          "davati → dajem",
+          "to give"
+        ],
+        [
+          "slati → šaljem",
+          "to send"
+        ],
+        [
+          "donijeti → donesem",
+          "to bring"
+        ],
+        [
+          "pokazati → pokažem",
+          "to show"
+        ],
+        [
+          "objasniti → objasnim",
+          "to explain"
+        ],
+        [
+          "vjerovati → vjerujem",
+          "to believe, to trust"
+        ],
+        [
+          "zahvaliti → zahvalim",
+          "to thank"
+        ],
+        [
+          "posuditi → posudim",
+          "to lend"
+        ],
+        [
+          "vratiti → vratim",
+          "to give back, to return"
+        ],
+        [
+          "primati → primam",
+          "to receive"
         ]
       ],
       "sortkljuc": 1402002,
-      "bodovi": 1525
+      "bodovi": 774
     },
     {
       "cjelina": "Vocabulary 14",
       "cjelinanaslov": "Giving & Receivers",
       "stranica": 3,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
+      "format": "kartice",
+      "naslov": "Messages, wishes & December",
       "meta": {
-        "opis": "Match each gift word with its English meaning."
+        "info": "Words for December, for writing to somebody and for the things you give that are not in a box: *savjet, osmijeh, pomoć, ljubav*. *vijest* and *pomoć* end in a consonant but are feminine, like *jesen*: *dobra vijest*. **besplatno** means it costs nothing: *Dajem savjet — besplatno!* **svatko** is everyone, one by one: *Svatko ima jednu želju.*",
+        "infokratko": "December, messages and gifts without a box. *vijest, pomoć*: feminine. *besplatno* — for free.",
+        "opis": "Wishes, messages and good news for the end of the year. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "šal",
-          "scarf"
+          "prosinac",
+          "December"
         ],
         [
-          "cvijeće",
-          "flowers"
+          "blagdan",
+          "holiday"
         ],
         [
-          "kolač",
-          "cake"
+          "snijeg",
+          "snow"
         ],
         [
-          "paket",
-          "package"
+          "želja",
+          "wish"
         ],
         [
-          "novine",
-          "newspaper"
-        ],
-        [
-          "buket",
-          "bouquet"
-        ],
-        [
-          "suvenir",
-          "souvenir"
-        ],
-        [
-          "čestitka",
-          "greeting card"
-        ]
-      ],
-      "sortkljuc": 1402003,
-      "bodovi": 1526
-    },
-    {
-      "cjelina": "Vocabulary 14",
-      "cjelinanaslov": "Giving & Receivers",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "dajem",
-          "I give"
-        ],
-        [
-          "šaljem",
-          "I send"
-        ],
-        [
-          "nosim",
-          "I carry"
-        ],
-        [
-          "poštar",
-          "postman"
-        ],
-        [
-          "susjed",
-          "neighbor"
+          "vijest",
+          "news"
         ],
         [
           "savjet",
@@ -79862,60 +76920,443 @@ window.PODACI = {
           "smile"
         ],
         [
+          "pomoć",
+          "help"
+        ],
+        [
+          "ljubav",
+          "love"
+        ],
+        [
+          "dogovor",
+          "agreement, deal"
+        ],
+        [
+          "dozvola",
+          "permission"
+        ],
+        [
+          "poruka",
+          "message"
+        ],
+        [
+          "adresa",
+          "address"
+        ],
+        [
+          "potpis",
+          "signature"
+        ],
+        [
+          "poseban",
+          "special"
+        ],
+        [
+          "koristan",
+          "useful"
+        ],
+        [
+          "praktičan",
+          "practical"
+        ],
+        [
           "besplatno",
           "for free"
+        ],
+        [
+          "svatko",
+          "everyone"
+        ]
+      ],
+      "sortkljuc": 1402003,
+      "bodovi": 774
+    },
+    {
+      "cjelina": "Vocabulary 14",
+      "cjelinanaslov": "Giving & Receivers",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "spajanje",
+      "naslov": "Match the pictures",
+      "meta": {
+        "info": "Picture-to-word matching, with no English on the page. Most of these can go in a box under the tree, and the last two go on a letter. Say who gets each one: *Nećaku poster. Susjedi sapun.*",
+        "infokratko": "Say who gets it: *Nećaku poster. Susjedi sapun.*",
+        "opis": "Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right."
+      },
+      "stavke": [
+        [
+          "bombon",
+          "candy"
+        ],
+        [
+          "suvenir",
+          "souvenir"
+        ],
+        [
+          "poster",
+          "poster"
+        ],
+        [
+          "novčanik",
+          "wallet"
+        ],
+        [
+          "kišobran",
+          "umbrella"
+        ],
+        [
+          "kapa",
+          "cap"
+        ],
+        [
+          "jakna",
+          "jacket"
+        ],
+        [
+          "sapun",
+          "soap"
+        ],
+        [
+          "novine",
+          "newspaper"
+        ],
+        [
+          "papir",
+          "paper"
+        ],
+        [
+          "paket",
+          "package"
+        ],
+        [
+          "potpis",
+          "signature"
         ]
       ],
       "sortkljuc": 1402004,
-      "bodovi": 1261
+      "bodovi": 640
     },
     {
       "cjelina": "Vocabulary 14",
       "cjelinanaslov": "Giving & Receivers",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "The receiver flashes — tap the dative form!"
+        "info": "You write each new word once, from its English meaning. Nouns go in their naming form (*nećak*, not *nećaku*) and verbs as an infinitive. The diacritics are full letters: *igračka* has **č**, *kišobran* has **š**, *nećakinja* has **ć** and the single letter **nj**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive. Diacritics count: *igračka, kišobran, nećakinja*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "mama",
-          "mami"
+          "toy",
+          "igračka"
         ],
         [
-          "tata",
-          "tati"
+          "necklace",
+          "ogrlica"
         ],
         [
-          "brat",
-          "bratu"
+          "ring",
+          "prsten"
         ],
         [
-          "sestra",
-          "sestri"
+          "umbrella",
+          "kišobran"
         ],
         [
-          "baka",
-          "baki"
+          "postcard",
+          "razglednica"
         ],
         [
-          "djed",
-          "djedu"
+          "vase",
+          "vaza"
         ],
         [
-          "susjed",
-          "susjedu"
+          "wish",
+          "želja"
         ],
         [
-          "prijateljica",
-          "prijateljici"
+          "message",
+          "poruka"
+        ],
+        [
+          "snow",
+          "snijeg"
+        ],
+        [
+          "niece",
+          "nećakinja"
+        ],
+        [
+          "nephew",
+          "nećak"
+        ],
+        [
+          "to send",
+          "slati"
+        ],
+        [
+          "to show",
+          "pokazati"
+        ],
+        [
+          "to explain",
+          "objasniti"
+        ],
+        [
+          "to thank",
+          "zahvaliti"
         ]
       ],
       "sortkljuc": 1402005,
-      "bodovi": 1526
+      "bodovi": 1111
+    },
+    {
+      "cjelina": "Vocabulary 14",
+      "cjelinanaslov": "Giving & Receivers",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–13, half and half. December words — *prosinac, blagdan, vijest* — sit next to words you already know, like *hobi, roman, kamp*. Watch the verbs: *posuditi* is to lend, *vratiti* is to give back, *primati* is to receive.",
+        "infokratko": "New and old words against the clock. *posuditi* lend, *vratiti* give back, *primati* receive.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "prosinac",
+          "December"
+        ],
+        [
+          "zauzet",
+          "busy"
+        ],
+        [
+          "vijest",
+          "news"
+        ],
+        [
+          "rijetko",
+          "rarely"
+        ],
+        [
+          "savjet",
+          "advice"
+        ],
+        [
+          "iskustvo",
+          "experience"
+        ],
+        [
+          "besplatno",
+          "for free"
+        ],
+        [
+          "alergičan",
+          "allergic"
+        ],
+        [
+          "blagdan",
+          "holiday"
+        ],
+        [
+          "šešir",
+          "hat"
+        ],
+        [
+          "vjerovati",
+          "to believe"
+        ],
+        [
+          "taksi",
+          "taxi"
+        ],
+        [
+          "posuditi",
+          "to lend"
+        ],
+        [
+          "roman",
+          "novel"
+        ],
+        [
+          "vratiti",
+          "to give back"
+        ],
+        [
+          "kamp",
+          "campsite"
+        ],
+        [
+          "primati",
+          "to receive"
+        ],
+        [
+          "hobi",
+          "hobby"
+        ],
+        [
+          "donijeti",
+          "to bring"
+        ],
+        [
+          "dokumentarac",
+          "documentary"
+        ]
+      ],
+      "sortkljuc": 1402006,
+      "bodovi": 774
+    },
+    {
+      "cjelina": "Vocabulary 14",
+      "cjelinanaslov": "Giving & Receivers",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-i or -u for the receiver?",
+      "meta": {
+        "info": "Sorting nouns by the ending they take as the receiver — the dative from Lesson 14. In the singular it is the same ending as the locative from Lesson 13: **-a** becomes **-i** (*susjedi, kutiji, čestitki*), a consonant or **-o** takes **-u** (*nećaku, stolu, drvu*). Look at the last letter of the naming form and you know the answer.",
+        "infokratko": "**-a** → **-i** (*susjedi, kutiji*). Consonant, **-o** → **-u** (*nećaku, drvu*).",
+        "opis": "Which ending does each noun take as the receiver? The last letter of the naming form decides.",
+        "stupci": "-I | -U"
+      },
+      "stavke": [
+        [
+          "susjeda",
+          "-I"
+        ],
+        [
+          "nećakinja",
+          "-I"
+        ],
+        [
+          "ogrlica",
+          "-I"
+        ],
+        [
+          "vaza",
+          "-I"
+        ],
+        [
+          "kutija",
+          "-I"
+        ],
+        [
+          "galerija",
+          "-I"
+        ],
+        [
+          "glazba",
+          "-I"
+        ],
+        [
+          "čestitka",
+          "-I"
+        ],
+        [
+          "nećak",
+          "-U"
+        ],
+        [
+          "kum",
+          "-U"
+        ],
+        [
+          "suvenir",
+          "-U"
+        ],
+        [
+          "prsten",
+          "-U"
+        ],
+        [
+          "drvo",
+          "-U"
+        ],
+        [
+          "stol",
+          "-U"
+        ],
+        [
+          "muž",
+          "-U"
+        ],
+        [
+          "golman",
+          "-U"
+        ]
+      ],
+      "sortkljuc": 1402007,
+      "bodovi": 942
+    },
+    {
+      "cjelina": "Vocabulary 14",
+      "cjelinanaslov": "Giving & Receivers",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns go in their naming form and verbs as infinitives. The diacritics count as always: *osmijeh* has **ij**, *žedan* has **ž**, *doći* has **ć**.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *žedan, doći*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "to give",
+          "davati"
+        ],
+        [
+          "thirsty",
+          "žedan"
+        ],
+        [
+          "smile",
+          "osmijeh"
+        ],
+        [
+          "lemon",
+          "limun"
+        ],
+        [
+          "love",
+          "ljubav"
+        ],
+        [
+          "exam",
+          "ispit"
+        ],
+        [
+          "address",
+          "adresa"
+        ],
+        [
+          "family",
+          "obitelj"
+        ],
+        [
+          "special",
+          "poseban"
+        ],
+        [
+          "to come",
+          "doći"
+        ],
+        [
+          "useful",
+          "koristan"
+        ],
+        [
+          "autumn",
+          "jesen"
+        ]
+      ],
+      "sortkljuc": 1402008,
+      "bodovi": 1111
     },
     {
       "cjelina": "Grammar 14",
@@ -81122,7 +78563,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Going out & company",
       "meta": {
-        "opis": "Friends, outings and ways to get there."
+        "info": "Words for a night out and for the people you share it with. **s** / **sa** means *with*, and the person after it takes the instrumental from Lesson 15: *s Markom, sa sestrom*. **sa** comes before s, š, z, ž. Ask about company with **S kim?** (with whom?): *S kim ideš na koncert? — S prijateljem.* **doma** is both *at home* and *(to) home*: *Idem doma. Sjedim doma.* You already know *koncert, kafić, glazba, prijatelj* and *društvo* from earlier levels.",
+        "infokratko": "Night-out words. **s / sa** + instrumental: *s Markom, sa sestrom*. **S kim?** — with whom?",
+        "opis": "Friends, parties and late nights. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -81130,48 +78573,68 @@ window.PODACI = {
           "a night out"
         ],
         [
-          "koncert",
-          "concert"
+          "zabava",
+          "party"
+        ],
+        [
+          "ples",
+          "dance"
         ],
         [
           "priča",
           "story"
         ],
         [
-          "put",
-          "way, journey"
+          "balon",
+          "balloon"
         ],
         [
-          "osmijeh",
-          "smile"
+          "mladić",
+          "young man"
         ],
         [
-          "s Markom / s bratom",
-          "with Marko / my brother"
+          "par",
+          "couple, pair"
         ],
         [
-          "sa sestrom / s Anom",
-          "with my sister / Ana"
+          "gužva",
+          "crowd"
         ],
         [
-          "s prijateljem",
-          "with a friend"
+          "sastanak",
+          "meeting"
         ],
         [
-          "sa psom",
-          "with the dog"
+          "noć",
+          "night"
         ],
         [
-          "s mlijekom / s limunom",
-          "with milk / lemon"
+          "ponoć",
+          "midnight"
         ],
         [
-          "s gitarom / s knjigom",
-          "with a guitar / a book"
+          "doma",
+          "(at/to) home"
+        ],
+        [
+          "bolje",
+          "better"
+        ],
+        [
+          "manje",
+          "less"
+        ],
+        [
+          "s / sa → s Markom, sa sestrom",
+          "with"
+        ],
+        [
+          "S kim?",
+          "With whom?"
         ]
       ],
       "sortkljuc": 1502001,
-      "bodovi": 1292
+      "bodovi": 888
     },
     {
       "cjelina": "Vocabulary 15",
@@ -81181,161 +78644,199 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Transport, verbs & little words",
       "meta": {
-        "opis": "Means of transport (no preposition!) and new verbs."
+        "info": "New ways to get somewhere. For *how* you travel, the vehicle takes the instrumental with **no preposition**: *Idem skuterom. Putujemo trajektom.* You know *vlak, autobus, auto, tramvaj, bicikl* from Vocabulary 6, and they work the same way: *vlakom, autobusom*. Walking has its own word: **pješice** (on foot). The ten verbs come with their *ja*-form. **padati** is to fall, and it is also how it rains: *Kiša pada.*",
+        "infokratko": "Means of transport: instrumental, no *s*: *Idem skuterom.* On foot: **pješice**. *Kiša pada* — it's raining.",
+        "opis": "New vehicles, ten new verbs and a few small words. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "vlakom",
-          "by train"
-        ],
-        [
-          "autobusom",
-          "by bus"
-        ],
-        [
-          "autom",
-          "by car"
-        ],
-        [
-          "tramvajem",
-          "by tram"
-        ],
-        [
-          "biciklom",
-          "by bike"
-        ],
-        [
-          "taksijem",
-          "by taxi"
-        ],
-        [
-          "pješice",
-          "on foot"
-        ],
-        [
-          "izlaziti → izlazim",
-          "to go out"
-        ],
-        [
-          "razgovarati → razgovaram",
-          "to talk, converse"
-        ],
-        [
-          "hodati → hodam",
-          "to walk"
-        ],
-        [
-          "trčati → trčim",
-          "to run"
-        ],
-        [
-          "s / sa",
-          "with"
-        ],
-        [
-          "S kim?",
-          "With whom?"
-        ],
-        [
-          "doma",
-          "(at/to) home"
-        ],
-        [
-          "blizu",
-          "nearby"
-        ],
-        [
-          "spor / spora",
-          "slow"
-        ],
-        [
-          "bolje",
-          "better"
-        ],
-        [
-          "balon",
-          "balloon"
-        ],
-        [
-          "motor",
-          "motorbike"
-        ],
-        [
-          "skuter",
+          "skuter → skuterom",
           "scooter"
-        ],
-        [
-          "brod",
-          "boat"
         ],
         [
           "metro",
           "metro"
         ],
         [
-          "gospođa",
-          "lady, Mrs."
-        ]
-      ],
-      "sortkljuc": 1502002,
-      "bodovi": 1679
-    },
-    {
-      "cjelina": "Vocabulary 15",
-      "cjelinanaslov": "Company & Going Out",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "opis": "Match each transport with its English meaning."
-      },
-      "stavke": [
-        [
-          "vlakom",
-          "by train"
+          "trajekt → trajektom",
+          "ferry"
         ],
         [
-          "autobusom",
-          "by bus"
+          "kombi → kombijem",
+          "van"
         ],
         [
-          "autom",
-          "by car"
-        ],
-        [
-          "tramvajem",
-          "by tram"
-        ],
-        [
-          "biciklom",
-          "by bike"
-        ],
-        [
-          "taksijem",
-          "by taxi"
+          "kamion → kamionom",
+          "truck"
         ],
         [
           "pješice",
           "on foot"
         ],
         [
-          "brod",
-          "boat"
+          "pješak",
+          "pedestrian"
+        ],
+        [
+          "polazak",
+          "departure"
+        ],
+        [
+          "dolazak",
+          "arrival"
+        ],
+        [
+          "spor / spora",
+          "slow"
+        ],
+        [
+          "izlaziti → izlazim",
+          "to go out"
+        ],
+        [
+          "upoznati → upoznam",
+          "to meet, to get to know"
+        ],
+        [
+          "dogovoriti → dogovorim",
+          "to arrange"
+        ],
+        [
+          "kasniti → kasnim",
+          "to be late"
+        ],
+        [
+          "slaviti → slavim",
+          "to celebrate"
+        ],
+        [
+          "pozvati → pozovem",
+          "to invite"
+        ],
+        [
+          "voditi → vodim",
+          "to take (someone), to lead"
+        ],
+        [
+          "krenuti → krenem",
+          "to set off"
+        ],
+        [
+          "ući → uđem",
+          "to enter, to go in"
+        ],
+        [
+          "padati → padam",
+          "to fall"
+        ]
+      ],
+      "sortkljuc": 1502002,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Vocabulary 15",
+      "cjelinanaslov": "Company & Going Out",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Weather & seasons",
+      "meta": {
+        "info": "Before you go out, you check the weather: **Kakvo je vrijeme?** *vrijeme* means both *weather* and *time*, and the sentence tells you which. You already know the four seasons (*proljeće, ljeto, jesen, zima*), *sunce* and *snijeg*; together they are **godišnja doba**. Adjectives describe the day: *sunčan dan, kišovit tjedan*. **hladnoća** and **vrućina** are nouns — *the cold, the heat* — next to the adjectives *hladan* and *vruć* you already know.",
+        "infokratko": "**Kakvo je vrijeme?** — What's the weather like? *vrijeme* = weather or time. *hladnoća, vrućina* are nouns.",
+        "opis": "Rain, wind, sun and everything between. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "vrijeme",
+          "weather"
+        ],
+        [
+          "kiša",
+          "rain"
+        ],
+        [
+          "oblak",
+          "cloud"
+        ],
+        [
+          "vjetar",
+          "wind"
+        ],
+        [
+          "magla",
+          "fog"
+        ],
+        [
+          "oluja",
+          "storm"
+        ],
+        [
+          "grmljavina",
+          "thunder"
+        ],
+        [
+          "pljusak",
+          "downpour"
+        ],
+        [
+          "duga",
+          "rainbow"
+        ],
+        [
+          "led",
+          "ice"
+        ],
+        [
+          "prognoza",
+          "forecast"
+        ],
+        [
+          "temperatura",
+          "temperature"
+        ],
+        [
+          "godišnje doba",
+          "season"
+        ],
+        [
+          "sunčan",
+          "sunny"
+        ],
+        [
+          "oblačan",
+          "cloudy"
+        ],
+        [
+          "kišovit",
+          "rainy"
+        ],
+        [
+          "vjetrovit",
+          "windy"
+        ],
+        [
+          "hladnoća",
+          "cold"
+        ],
+        [
+          "vrućina",
+          "heat"
         ]
       ],
       "sortkljuc": 1502003,
-      "bodovi": 1679
+      "bodovi": 888
     },
     {
       "cjelina": "Vocabulary 15",
       "cjelinanaslov": "Company & Going Out",
       "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "opis": "Flip the cards and find the pairs."
+        "info": "Picture-to-word matching, with no English on the page. Half of these belong to a night out, the other half to the sky above it. Say one with *s* for each company word: *s balonom, s pričom.*",
+        "infokratko": "Night out and weather. Try it with *s*: *s balonom.*",
+        "opis": "Eleven pictures, eleven words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
@@ -81343,84 +78844,370 @@ window.PODACI = {
           "a night out"
         ],
         [
+          "ples",
+          "dance"
+        ],
+        [
           "priča",
           "story"
         ],
         [
-          "put",
-          "journey"
+          "balon",
+          "balloon"
         ],
         [
-          "razgovarati",
-          "to talk"
+          "noć",
+          "night"
         ],
         [
-          "hodati",
-          "to walk"
+          "metro",
+          "metro"
         ],
         [
-          "trčati",
-          "to run"
+          "trajekt",
+          "ferry"
         ],
         [
-          "blizu",
-          "nearby"
+          "kiša",
+          "rain"
         ],
         [
-          "bolje",
-          "better"
+          "oblak",
+          "cloud"
+        ],
+        [
+          "vjetar",
+          "wind"
+        ],
+        [
+          "led",
+          "ice"
         ]
       ],
       "sortkljuc": 1502004,
-      "bodovi": 1421
+      "bodovi": 683
     },
     {
       "cjelina": "Vocabulary 15",
       "cjelinanaslov": "Company & Going Out",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "The word flashes — tap its instrumental form!"
+        "info": "You write each new word once, from its English meaning. Nouns and adjectives go in their naming form (*skuter*, not *skuterom*) and verbs as an infinitive. The diacritics are full letters: *kiša* has **š**, *mladić* has **ć**, *vrućina* has **ć**, *oblačan* has **č**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive. Diacritics count: *kiša, mladić, oblačan*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "brat",
-          "bratom"
+          "rain",
+          "kiša"
         ],
         [
-          "sestra",
-          "sestrom"
+          "wind",
+          "vjetar"
         ],
         [
-          "prijatelj",
-          "prijateljem"
+          "cloudy",
+          "oblačan"
         ],
         [
-          "vlak",
-          "vlakom"
+          "heat",
+          "vrućina"
         ],
         [
-          "tramvaj",
-          "tramvajem"
+          "season",
+          "godišnje doba"
         ],
         [
-          "auto",
-          "autom"
+          "party",
+          "zabava"
         ],
         [
-          "bicikl",
-          "biciklom"
+          "story",
+          "priča"
         ],
         [
-          "gitara",
-          "gitarom"
+          "young man",
+          "mladić"
+        ],
+        [
+          "scooter",
+          "skuter"
+        ],
+        [
+          "truck",
+          "kamion"
+        ],
+        [
+          "ferry",
+          "trajekt"
+        ],
+        [
+          "to go out",
+          "izlaziti"
+        ],
+        [
+          "to get to know",
+          "upoznati"
+        ],
+        [
+          "to arrange",
+          "dogovoriti"
+        ],
+        [
+          "to be late",
+          "kasniti"
         ]
       ],
       "sortkljuc": 1502005,
-      "bodovi": 1679
+      "bodovi": 1228
+    },
+    {
+      "cjelina": "Vocabulary 15",
+      "cjelinanaslov": "Company & Going Out",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–14, half and half. Night-out and travel words — *gužva, ponoć, polazak* — sit next to words you already know, like *kaput, meso, gorivo*. Watch the pair *polazak* (departure) and *dolazak* (arrival): only the start is different.",
+        "infokratko": "New and old words against the clock. *polazak* departure, *dolazak* arrival.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "gužva",
+          "crowd"
+        ],
+        [
+          "čovjek",
+          "person, man"
+        ],
+        [
+          "sastanak",
+          "meeting"
+        ],
+        [
+          "ovdje",
+          "here"
+        ],
+        [
+          "ponoć",
+          "midnight"
+        ],
+        [
+          "luk",
+          "onion"
+        ],
+        [
+          "polazak",
+          "departure"
+        ],
+        [
+          "kaput",
+          "coat"
+        ],
+        [
+          "dolazak",
+          "arrival"
+        ],
+        [
+          "četiri",
+          "four"
+        ],
+        [
+          "oluja",
+          "storm"
+        ],
+        [
+          "bljutav",
+          "bland"
+        ],
+        [
+          "krenuti",
+          "to set off"
+        ],
+        [
+          "automobil",
+          "car"
+        ],
+        [
+          "voditi",
+          "to lead"
+        ],
+        [
+          "drag",
+          "kind, dear"
+        ],
+        [
+          "pješak",
+          "pedestrian"
+        ],
+        [
+          "meso",
+          "meat"
+        ],
+        [
+          "ući",
+          "to enter"
+        ],
+        [
+          "gorivo",
+          "fuel"
+        ]
+      ],
+      "sortkljuc": 1502006,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Vocabulary 15",
+      "cjelinanaslov": "Company & Going Out",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-om or -em?",
+      "meta": {
+        "info": "Sorting nouns by the ending they take in the instrumental from Lesson 15. Most nouns take **-om**: a consonant adds it (*skuterom, golubom*) and **-a** turns into it (*kišom, tortom*). After a soft sound — **j, lj, nj, č, ć, š, ž** — it becomes **-em**: *mladićem, igračem, izvještajem*. A word on **-i** adds **-j-** first, so it is soft too: *kombijem*, like *taksijem*.",
+        "infokratko": "Most nouns: **-om** (*skuterom, kišom*). After j, lj, nj, č, ć, š, ž: **-em** (*mladićem*). *kombi → kombijem*.",
+        "opis": "Which ending does each noun take in the instrumental? Look at the last sound of the naming form.",
+        "stupci": "-OM | -EM"
+      },
+      "stavke": [
+        [
+          "skuter",
+          "-OM"
+        ],
+        [
+          "trajekt",
+          "-OM"
+        ],
+        [
+          "kamion",
+          "-OM"
+        ],
+        [
+          "balon",
+          "-OM"
+        ],
+        [
+          "zabava",
+          "-OM"
+        ],
+        [
+          "kiša",
+          "-OM"
+        ],
+        [
+          "torta",
+          "-OM"
+        ],
+        [
+          "telefon",
+          "-OM"
+        ],
+        [
+          "golub",
+          "-OM"
+        ],
+        [
+          "drama",
+          "-OM"
+        ],
+        [
+          "bazen",
+          "-OM"
+        ],
+        [
+          "mladić",
+          "-EM"
+        ],
+        [
+          "kombi",
+          "-EM"
+        ],
+        [
+          "izvještaj",
+          "-EM"
+        ],
+        [
+          "igrač",
+          "-EM"
+        ],
+        [
+          "sendvič",
+          "-EM"
+        ]
+      ],
+      "sortkljuc": 1502007,
+      "bodovi": 1058
+    },
+    {
+      "cjelina": "Vocabulary 15",
+      "cjelinanaslov": "Company & Going Out",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. The diacritics count as always: *pješice* has **š**, *ručak* and *sunčan* have **č**, *džem* starts with the single letter **dž**.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *pješice, ručak, džem*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "lunch",
+          "ručak"
+        ],
+        [
+          "weather",
+          "vrijeme"
+        ],
+        [
+          "jam",
+          "džem"
+        ],
+        [
+          "fog",
+          "magla"
+        ],
+        [
+          "to help",
+          "pomagati"
+        ],
+        [
+          "to invite",
+          "pozvati"
+        ],
+        [
+          "language",
+          "jezik"
+        ],
+        [
+          "sunny",
+          "sunčan"
+        ],
+        [
+          "late",
+          "kasno"
+        ],
+        [
+          "on foot",
+          "pješice"
+        ],
+        [
+          "to lose",
+          "izgubiti"
+        ],
+        [
+          "rainbow",
+          "duga"
+        ]
+      ],
+      "sortkljuc": 1502008,
+      "bodovi": 1229
     },
     {
       "cjelina": "Grammar 15",
@@ -82665,36 +80452,14 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "House & home (with the genitive)",
       "meta": {
-        "opis": "Grandma's world, with the genitive on every card."
+        "info": "Grandma's house, room by room and out into the garden. Each noun comes with its genitive from Lesson 16, the form it takes after *bez, iz, kod* or when it belongs to something: *miris kave* (the smell of coffee), *komad torte* (a piece of cake), *boja zida* (the color of the wall). Masculine and neuter nouns end in **-a** (*miris → mirisa, zvono → zvona*), feminine nouns change **-a** to **-e** (*boja → boje*). Watch **lonac → lonca**: the *a* before the last letter drops out, as in *pas → psa*. You already know *kuća, vrt, vrata, kuhinja, zid* and *mjesto* from earlier levels.",
+        "infokratko": "Home words with the genitive: m./n. **-a** (*miris → mirisa*), f. **-a → -e** (*boja → boje*). *lonac → lonca*.",
+        "opis": "Grandma's world, with the genitive on every card. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "vrt → vrta",
-          "garden"
-        ],
-        [
-          "vrata (mn.)",
-          "door"
-        ],
-        [
-          "kuhinja → kuhinje",
-          "kitchen"
-        ],
-        [
-          "zid → zida",
-          "wall"
-        ],
-        [
-          "slika → slike",
-          "picture"
-        ],
-        [
           "miris → mirisa",
           "smell"
-        ],
-        [
-          "šećer → šećera",
-          "sugar"
         ],
         [
           "komad → komada",
@@ -82705,16 +80470,76 @@ window.PODACI = {
           "world"
         ],
         [
-          "mjesto → mjesta",
-          "place"
-        ],
-        [
           "boja → boje",
           "color"
+        ],
+        [
+          "slika → slike",
+          "picture"
+        ],
+        [
+          "zavjesa → zavjese",
+          "curtain"
+        ],
+        [
+          "svjetlo → svjetla",
+          "light"
+        ],
+        [
+          "namještaj → namještaja",
+          "furniture"
+        ],
+        [
+          "perilica → perilice",
+          "washing machine"
+        ],
+        [
+          "sudoper → sudopera",
+          "sink"
+        ],
+        [
+          "lonac → lonca",
+          "pot"
+        ],
+        [
+          "zdjela → zdjele",
+          "bowl"
+        ],
+        [
+          "čajnik → čajnika",
+          "teapot"
+        ],
+        [
+          "zvono → zvona",
+          "doorbell"
+        ],
+        [
+          "brava → brave",
+          "lock"
+        ],
+        [
+          "ograda → ograde",
+          "fence"
+        ],
+        [
+          "trava → trave",
+          "grass"
+        ],
+        [
+          "cvijet → cvijeta",
+          "flower"
+        ],
+        [
+          "biljka → biljke",
+          "plant"
+        ],
+        [
+          "kamen → kamena",
+          "stone"
         ]
       ],
       "sortkljuc": 1602001,
-      "bodovi": 1495
+      "bodovi": 1013
     },
     {
       "cjelina": "Vocabulary 16",
@@ -82724,7 +80549,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Prepositions, phrases & cognates",
       "meta": {
-        "opis": "The genitive prepositions, \"nema\" phrases and extras."
+        "info": "All of these prepositions take the **genitive**: *bez šećera, iz Zagreba, kod bake, pokraj kuće, od jutra do večeri*. Most of the place words pair up: **ispred / iza** (in front of / behind), **iznad / ispod** (above / under), and **između** sits in the middle: *između kuće i vrta*. **od** also makes flavors: *čaj od mente, torta od čokolade*. **nakon** means *after* before a noun (*nakon ručka*), while *poslije* from Vocabulary 8 also works on its own (*afterwards*). **Nema** + genitive says something is missing: *Nema problema!*",
+        "infokratko": "Every preposition here takes the genitive: *bez šećera, iz Zagreba, iza kuće*. **Nema** + genitive: *Nema problema!*",
+        "opis": "The genitive prepositions and the \"nema\" phrases. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -82749,7 +80576,51 @@ window.PODACI = {
         ],
         [
           "pokraj",
-          "next to, past"
+          "next to"
+        ],
+        [
+          "ispred",
+          "in front of"
+        ],
+        [
+          "iza",
+          "behind"
+        ],
+        [
+          "iznad",
+          "above"
+        ],
+        [
+          "ispod",
+          "under"
+        ],
+        [
+          "između",
+          "between"
+        ],
+        [
+          "preko",
+          "over, across"
+        ],
+        [
+          "nakon",
+          "after"
+        ],
+        [
+          "tijekom",
+          "during"
+        ],
+        [
+          "osim",
+          "except"
+        ],
+        [
+          "umjesto",
+          "instead of"
+        ],
+        [
+          "izvan",
+          "outside (of)"
         ],
         [
           "Nema problema!",
@@ -82762,184 +80633,478 @@ window.PODACI = {
         [
           "Nema interneta.",
           "There's no internet."
-        ],
-        [
-          "Nema mjesta.",
-          "There's no room."
-        ],
-        [
-          "čaj od mente",
-          "mint tea"
-        ],
-        [
-          "torta od čokolade",
-          "chocolate cake"
-        ],
-        [
-          "specijalitet",
-          "specialty"
-        ],
-        [
-          "menta",
-          "mint"
-        ],
-        [
-          "aroma",
-          "aroma"
-        ],
-        [
-          "autocesta",
-          "highway"
-        ],
-        [
-          "interijer",
-          "interior"
-        ],
-        [
-          "garderoba",
-          "wardrobe"
         ]
       ],
       "sortkljuc": 1602002,
-      "bodovi": 1972
+      "bodovi": 1013
     },
     {
       "cjelina": "Vocabulary 16",
       "cjelinanaslov": "House, Home & Belonging",
       "stranica": 3,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
+      "format": "kartice",
+      "naslov": "Ten new verbs & a few extras",
       "meta": {
-        "opis": "Match each home word with its English meaning."
+        "info": "Ten verbs for life in and around a house, each with its *ja*-form. **rasti** is irregular: *rastem* (I grow), *U vrtu raste sve.* **naći** is irregular too: *nađem* (I find). **visjeti** is what a picture does on a wall: *Slika visi na zidu.* **dolaziti iz** + genitive says where you are from: *Dolazim iz Zagreba.* The rest are words from grandma's house and the road to the sea: *drvena vrata* (a wooden door), *čaj od mente, čaj od kamilice*, *specijalitet kuće* (the house specialty).",
+        "infokratko": "Ten verbs with the *ja*-form: *rastem, nađem, visim*. *Dolazim iz Zagreba.* Plus extras from grandma's house.",
+        "opis": "Ten new verbs and a few extra words. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "vrt",
-          "garden"
+          "rasti → rastem",
+          "to grow"
         ],
         [
-          "vrata",
-          "door"
+          "visjeti → visim",
+          "to hang"
         ],
         [
-          "kuhinja",
-          "kitchen"
+          "čuvati → čuvam",
+          "to look after, to keep"
         ],
         [
-          "zid",
-          "wall"
+          "popraviti → popravim",
+          "to repair"
         ],
         [
-          "slika",
-          "picture"
+          "ostaviti → ostavim",
+          "to leave (behind)"
         ],
         [
-          "miris",
-          "smell"
+          "naći → nađem",
+          "to find"
         ],
         [
-          "komad",
-          "piece"
+          "zaključati → zaključam",
+          "to lock"
         ],
         [
-          "boja",
-          "color"
+          "mijenjati → mijenjam",
+          "to change"
+        ],
+        [
+          "dolaziti → dolazim",
+          "to come"
+        ],
+        [
+          "paliti → palim",
+          "to turn on"
+        ],
+        [
+          "drven",
+          "wooden"
+        ],
+        [
+          "stoljeće",
+          "century"
+        ],
+        [
+          "zvuk",
+          "sound"
+        ],
+        [
+          "početak",
+          "beginning"
+        ],
+        [
+          "kraj",
+          "end"
+        ],
+        [
+          "specijalitet",
+          "specialty"
+        ],
+        [
+          "autocesta",
+          "highway"
+        ],
+        [
+          "menta",
+          "mint"
+        ],
+        [
+          "kamilica",
+          "chamomile"
         ]
       ],
       "sortkljuc": 1602003,
-      "bodovi": 1971
+      "bodovi": 1013
     },
     {
       "cjelina": "Vocabulary 16",
       "cjelinanaslov": "House, Home & Belonging",
       "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory (prepositions)",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "opis": "Find each preposition's English partner."
+        "info": "Picture-to-word matching, with no English on the page. Most of these are things you find in and around grandma's house; one is a verb. Say each noun with *bez* to practise the genitive: *bez lonca, bez slike.*",
+        "infokratko": "Things from grandma's house. Try each with *bez*: *bez slike.*",
+        "opis": "Nine pictures, nine words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
-          "bez",
-          "without"
+          "slika",
+          "picture"
         ],
         [
-          "iz",
-          "from, out of"
+          "svijet",
+          "world"
         ],
         [
-          "od",
-          "of"
+          "cvijet",
+          "flower"
         ],
         [
-          "do",
-          "until"
+          "kamen",
+          "stone"
         ],
         [
-          "kod",
-          "at sb's place"
+          "lonac",
+          "pot"
         ],
         [
-          "pokraj",
-          "next to"
+          "namještaj",
+          "furniture"
+        ],
+        [
+          "menta",
+          "mint"
+        ],
+        [
+          "kamilica",
+          "chamomile"
+        ],
+        [
+          "rasti",
+          "to grow"
         ]
       ],
       "sortkljuc": 1602004,
-      "bodovi": 1291
+      "bodovi": 664
     },
     {
       "cjelina": "Vocabulary 16",
       "cjelinanaslov": "House, Home & Belonging",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "The word flashes — tap its genitive form!"
+        "info": "You write each new word once, from its English meaning. Nouns and adjectives go in their naming form (*miris*, not *mirisa*) and verbs as an infinitive. The diacritics are full letters: *stoljeće* has **ć**, *čuvati* has **č**, *zaključati* has **č**, and *naći* ends in **ć**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive. Diacritics count: *stoljeće, čuvati, naći*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "vrt",
-          "vrta"
+          "smell",
+          "miris"
         ],
         [
-          "kuhinja",
-          "kuhinje"
+          "piece",
+          "komad"
         ],
         [
-          "zid",
-          "zida"
+          "color",
+          "boja"
         ],
         [
-          "slika",
-          "slike"
+          "curtain",
+          "zavjesa"
         ],
         [
-          "miris",
-          "mirisa"
+          "fence",
+          "ograda"
         ],
         [
-          "šećer",
-          "šećera"
+          "grass",
+          "trava"
         ],
         [
-          "svijet",
-          "svijeta"
+          "plant",
+          "biljka"
         ],
         [
-          "mjesto",
-          "mjesta"
+          "without",
+          "bez"
         ],
         [
-          "boja",
-          "boje"
+          "in front of",
+          "ispred"
+        ],
+        [
+          "wooden",
+          "drven"
+        ],
+        [
+          "century",
+          "stoljeće"
+        ],
+        [
+          "to look after",
+          "čuvati"
+        ],
+        [
+          "to repair",
+          "popraviti"
+        ],
+        [
+          "to lock",
+          "zaključati"
+        ],
+        [
+          "to find",
+          "naći"
         ]
       ],
       "sortkljuc": 1602005,
-      "bodovi": 1971
+      "bodovi": 1398
+    },
+    {
+      "cjelina": "Vocabulary 16",
+      "cjelinanaslov": "House, Home & Belonging",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–15, half and half. The place prepositions — *iznad, ispod, iza, između* — sit next to words you already know, like *vino, kat, centar*. Watch the pair *iznad* (above) and *ispod* (under): only the middle is different.",
+        "infokratko": "New and old words against the clock. *iznad* above, *ispod* under.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "iznad",
+          "above"
+        ],
+        [
+          "bijel",
+          "white"
+        ],
+        [
+          "ispod",
+          "under"
+        ],
+        [
+          "Engleskinja",
+          "English person (she)"
+        ],
+        [
+          "iza",
+          "behind"
+        ],
+        [
+          "prijateljica",
+          "friend (female)"
+        ],
+        [
+          "između",
+          "between"
+        ],
+        [
+          "joga",
+          "yoga"
+        ],
+        [
+          "umjesto",
+          "instead of"
+        ],
+        [
+          "dugo",
+          "for a long time"
+        ],
+        [
+          "zvuk",
+          "sound"
+        ],
+        [
+          "centar",
+          "center (of town)"
+        ],
+        [
+          "početak",
+          "beginning"
+        ],
+        [
+          "vino",
+          "wine"
+        ],
+        [
+          "kraj",
+          "end"
+        ],
+        [
+          "puno",
+          "a lot, much"
+        ],
+        [
+          "visjeti",
+          "to hang"
+        ],
+        [
+          "molim",
+          "please"
+        ],
+        [
+          "Nema problema!",
+          "No problem!"
+        ],
+        [
+          "kat",
+          "floor, level"
+        ]
+      ],
+      "sortkljuc": 1602006,
+      "bodovi": 1013
+    },
+    {
+      "cjelina": "Vocabulary 16",
+      "cjelinanaslov": "House, Home & Belonging",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-a or -e in the genitive?",
+      "meta": {
+        "info": "Sorting nouns by the ending they take in the genitive from Lesson 16. Masculine nouns add **-a** (*miris → mirisa, sir → sira*), and neuter nouns change **-o** to **-a** (*zvono → zvona, jutro → jutra*). Feminine nouns on **-a** change it to **-e** (*boja → boje, čaša → čaše*). So the ending **-a** means two different things: added to a masculine noun, it is the genitive; on a feminine noun, it is the naming form.",
+        "infokratko": "m. and n.: **-a** (*mirisa, zvona, jutra*). f.: **-a → -e** (*boje, čaše*).",
+        "opis": "Which ending does each noun take in the genitive? Look at the last letter of the naming form.",
+        "stupci": "-A | -E"
+      },
+      "stavke": [
+        [
+          "miris",
+          "-A"
+        ],
+        [
+          "svijet",
+          "-A"
+        ],
+        [
+          "kamen",
+          "-A"
+        ],
+        [
+          "zvono",
+          "-A"
+        ],
+        [
+          "sir",
+          "-A"
+        ],
+        [
+          "mlijeko",
+          "-A"
+        ],
+        [
+          "jutro",
+          "-A"
+        ],
+        [
+          "kofer",
+          "-A"
+        ],
+        [
+          "boja",
+          "-E"
+        ],
+        [
+          "zavjesa",
+          "-E"
+        ],
+        [
+          "trava",
+          "-E"
+        ],
+        [
+          "biljka",
+          "-E"
+        ],
+        [
+          "karta",
+          "-E"
+        ],
+        [
+          "čaša",
+          "-E"
+        ],
+        [
+          "adresa",
+          "-E"
+        ],
+        [
+          "košulja",
+          "-E"
+        ]
+      ],
+      "sortkljuc": 1602007,
+      "bodovi": 1188
+    },
+    {
+      "cjelina": "Vocabulary 16",
+      "cjelinanaslov": "House, Home & Belonging",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. The diacritics count as always: *četrdeset* has **č**, *slušati* has **š**, and *mijenjati* has **nj**, one letter written with two signs: *mije-nja-ti*.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *četrdeset, slušati, mijenjati*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "ear",
+          "uho"
+        ],
+        [
+          "sink",
+          "sudoper"
+        ],
+        [
+          "English person",
+          "Englez"
+        ],
+        [
+          "light",
+          "svjetlo"
+        ],
+        [
+          "warm",
+          "topao"
+        ],
+        [
+          "to change",
+          "mijenjati"
+        ],
+        [
+          "to listen",
+          "slušati"
+        ],
+        [
+          "to leave (behind)",
+          "ostaviti"
+        ],
+        [
+          "forty",
+          "četrdeset"
+        ],
+        [
+          "specialty",
+          "specijalitet"
+        ],
+        [
+          "chemistry",
+          "kemija"
+        ],
+        [
+          "highway",
+          "autocesta"
+        ]
+      ],
+      "sortkljuc": 1602008,
+      "bodovi": 1398
     },
     {
       "cjelina": "Grammar 16",
@@ -84140,20 +82305,14 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "In the kitchen & on the street",
       "meta": {
-        "opis": "Kitchen ingredients and street directions."
+        "info": "The words for a recipe and for a walk across town. Most of the kitchen words are in the pancake recipe from Lesson 17: *brašno, tava, marmelada*, and you already know *jaje, mlijeko, sol* and *šećer*. **tijesto** is the dough or batter you mix, and **sastojak** is any one ingredient on the list. In town, the new places are where you turn: *na raskrižju* (at the crossroads), *na kružnom toku* (at the roundabout), *na uglu* (on the corner). You already know *cesta, most, semafor* and *kolodvor*.",
+        "infokratko": "Recipe words (*brašno, tava, tijesto*) and turning points in town (*raskrižje, kružni tok, ugao*).",
+        "opis": "What you need in the kitchen and where you turn in town. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "jaje → jaja",
-          "egg → eggs"
-        ],
-        [
           "brašno",
           "flour"
-        ],
-        [
-          "sol",
-          "salt"
         ],
         [
           "tava",
@@ -84164,25 +82323,175 @@ window.PODACI = {
           "jam"
         ],
         [
-          "minuta",
-          "minute"
+          "ulje",
+          "oil"
         ],
         [
-          "kolodvor",
-          "train station"
+          "papar",
+          "pepper (spice)"
         ],
         [
-          "cesta",
-          "road"
+          "tijesto",
+          "dough"
         ],
         [
-          "semafor",
-          "traffic light"
+          "pećnica",
+          "oven"
         ],
         [
-          "most",
-          "bridge"
+          "štednjak",
+          "stove"
         ],
+        [
+          "vrhnje",
+          "cream"
+        ],
+        [
+          "kvasac",
+          "yeast"
+        ],
+        [
+          "sastojak",
+          "ingredient"
+        ],
+        [
+          "žličica",
+          "teaspoon"
+        ],
+        [
+          "kakao",
+          "cocoa"
+        ],
+        [
+          "limunada",
+          "lemonade"
+        ],
+        [
+          "hrana",
+          "food"
+        ],
+        [
+          "raskrižje",
+          "crossroads"
+        ],
+        [
+          "kružni tok",
+          "roundabout"
+        ],
+        [
+          "ugao",
+          "corner"
+        ],
+        [
+          "znak",
+          "sign"
+        ],
+        [
+          "mapa",
+          "map"
+        ]
+      ],
+      "sortkljuc": 1702001,
+      "bodovi": 1132
+    },
+    {
+      "cjelina": "Vocabulary 17",
+      "cjelinanaslov": "Recipes & Directions",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Commands (verb → imperative ti / vi)",
+      "meta": {
+        "info": "Twelve verbs for recipes, directions and the football pitch. Each card shows the infinitive, the *ja*-form and the command to one person: *uzeti → uzmem → uzmi*. For a group, or to be polite, add **-te**: *uzmite, skrenite, dođite*. The command comes from the *ti*-form of the present: *dodaš → dodaj*, *uzmeš → uzmi*, *zagriješ → zagrij*. To say \"don't\", use **ne** with the command (*Ne trči!*) or the softer **nemoj / nemojte** with the infinitive (*Nemoj trčati!*). The three modals from Grammar 17 hand the work to an infinitive: *Moram raditi. Možete li skrenuti lijevo?* On its own, **Može!** means \"sure, fine, deal\". Several of these verbs have a partner you already know: *uzimati, dijeliti, prelaziti, žuriti, odmarati*. The ones here are the forms recipes and directions use for one finished step: *Uzmi jaje! Prijeđi cestu!* In recipes you will also meet *izmiješati, ispeći, ispržiti*: mix, bake and fry until it is done.",
+        "infokratko": "Infinitive → *ja*-form → command: *uzeti → uzmem → uzmi*. Add **-te** for a group. *nemoj* + infinitive = softer \"don't\".",
+        "opis": "Twelve verbs with their commands, plus the modals. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "uzeti → uzmem → uzmi",
+          "to take"
+        ],
+        [
+          "dodati → dodam → dodaj",
+          "to add"
+        ],
+        [
+          "miješati → miješam → miješaj",
+          "to mix"
+        ],
+        [
+          "zagrijati → zagrijem → zagrij",
+          "to heat up"
+        ],
+        [
+          "okrenuti → okrenem → okreni",
+          "to flip, to turn over"
+        ],
+        [
+          "staviti → stavim → stavi",
+          "to put"
+        ],
+        [
+          "podijeliti → podijelim → podijeli",
+          "to share"
+        ],
+        [
+          "skrenuti → skrenem → skreni",
+          "to turn (left or right)"
+        ],
+        [
+          "prijeći → prijeđem → prijeđi",
+          "to cross"
+        ],
+        [
+          "požuriti → požurim → požuri",
+          "to hurry"
+        ],
+        [
+          "skočiti → skočim → skoči",
+          "to jump"
+        ],
+        [
+          "odmoriti → odmorim → odmori",
+          "to rest"
+        ],
+        [
+          "moći → mogu",
+          "can, to be able to"
+        ],
+        [
+          "morati → moram",
+          "must, to have to"
+        ],
+        [
+          "htjeti → hoću",
+          "to want"
+        ],
+        [
+          "nemoj / nemojte",
+          "don't (softer)"
+        ],
+        [
+          "Može!",
+          "Sure! Fine!"
+        ]
+      ],
+      "sortkljuc": 1702002,
+      "bodovi": 1132
+    },
+    {
+      "cjelina": "Vocabulary 17",
+      "cjelinanaslov": "Recipes & Directions",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Which way? Directions & little words",
+      "meta": {
+        "info": "Everything you need to send someone across town. **lijevo, desno, ravno** go with *skrenite* and *idite*: *Skrenite lijevo. Idite ravno.* **naprijed** is forward and **natrag** is back. The four points of the compass, **sjever, jug, istok, zapad**, are all masculine. **zatim** means \"then, after that\" and strings the steps together: *Idite ravno, zatim skrenite desno.* **otprilike** is \"about\": *otprilike dva kilometra*. **uputa** is an instruction, the kind printed on the back of a packet.",
+        "infokratko": "*lijevo, desno, ravno, naprijed, natrag*. *Idite ravno, zatim skrenite desno.*",
+        "opis": "Directions, distances and a few little words. Tap a card to reveal the meaning."
+      },
+      "stavke": [
         [
           "lijevo",
           "left"
@@ -84193,98 +82502,43 @@ window.PODACI = {
         ],
         [
           "ravno",
-          "straight"
+          "straight ahead"
+        ],
+        [
+          "naprijed",
+          "forward"
+        ],
+        [
+          "natrag",
+          "back, backwards"
         ],
         [
           "daleko",
           "far"
-        ]
-      ],
-      "sortkljuc": 1702001,
-      "bodovi": 1973
-    },
-    {
-      "cjelina": "Vocabulary 17",
-      "cjelinanaslov": "Recipes & Directions",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Commands (verb → imperative ti / vi)",
-      "meta": {
-        "opis": "Commands for recipes and directions — plus the soft \"don't\"."
-      },
-      "stavke": [
-        [
-          "uzeti → uzmi / uzmite",
-          "take"
         ],
         [
-          "dodati → dodaj / dodajte",
-          "add; pass"
+          "smjer",
+          "direction"
         ],
         [
-          "miješati → miješaj / miješajte",
-          "mix"
+          "strana",
+          "side"
         ],
         [
-          "zagrijati → zagrij / zagrijte",
-          "heat up"
+          "sjever",
+          "north"
         ],
         [
-          "peći → peci / pecite",
-          "fry, bake"
+          "jug",
+          "south"
         ],
         [
-          "okrenuti → okreni / okrenite",
-          "flip, turn"
+          "istok",
+          "east"
         ],
         [
-          "staviti → stavi / stavite",
-          "put"
-        ],
-        [
-          "podijeliti → podijeli / podijelite",
-          "share"
-        ],
-        [
-          "skrenuti → skreni / skrenite",
-          "turn (left/right)"
-        ],
-        [
-          "požuriti → požuri / požurite",
-          "hurry"
-        ],
-        [
-          "doći → dođi / dođite",
-          "come"
-        ],
-        [
-          "skočiti → skoči / skočite",
-          "jump"
-        ],
-        [
-          "odmoriti → odmori / odmorite",
-          "rest"
-        ],
-        [
-          "ne + imperativ (Ne trči!)",
-          "don't (direct)"
-        ],
-        [
-          "nemoj / nemojte + infinitiv",
-          "don't (softer)"
-        ],
-        [
-          "recept",
-          "recipe"
-        ],
-        [
-          "instrukcija",
-          "instruction"
-        ],
-        [
-          "mapa",
-          "map"
+          "zapad",
+          "west"
         ],
         [
           "kilometar",
@@ -84295,154 +82549,407 @@ window.PODACI = {
           "meter"
         ],
         [
-          "trening",
-          "training (session)"
-        ]
-      ],
-      "sortkljuc": 1702002,
-      "bodovi": 2037
-    },
-    {
-      "cjelina": "Vocabulary 17",
-      "cjelinanaslov": "Recipes & Directions",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
-      "meta": {
-        "opis": "Match each kitchen/street word with its English meaning."
-      },
-      "stavke": [
-        [
-          "jaje",
-          "egg"
+          "zatim",
+          "then, after that"
         ],
         [
-          "brašno",
-          "flour"
+          "uputa",
+          "instruction"
         ],
         [
-          "sol",
-          "salt"
+          "legenda",
+          "legend"
         ],
         [
-          "tava",
-          "pan"
+          "točno",
+          "exactly"
         ],
         [
-          "kolodvor",
-          "train station"
+          "otprilike",
+          "about, approximately"
         ],
         [
-          "cesta",
-          "road"
-        ],
-        [
-          "lijevo",
-          "left"
-        ],
-        [
-          "desno",
-          "right"
+          "dovoljno",
+          "enough"
         ]
       ],
       "sortkljuc": 1702003,
-      "bodovi": 2036
+      "bodovi": 1132
     },
     {
       "cjelina": "Vocabulary 17",
       "cjelinanaslov": "Recipes & Directions",
       "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory (commands)",
+      "format": "spajanje",
+      "naslov": "Match the pictures",
       "meta": {
-        "opis": "Find each command's English partner."
+        "info": "Picture-to-word matching, with no English on the page. Seven of these come from the kitchen and the table; two help you find your way. Say each one inside a command: *Uzmi brašno! Zagrij tavu!*",
+        "infokratko": "Kitchen things and two for the road. Try each in a command: *Uzmi brašno!*",
+        "opis": "Nine pictures, nine words. Not sure? Open the dictionary — the floating icon on the right."
       },
       "stavke": [
         [
-          "uzmi",
-          "take"
+          "brašno",
+          "flour"
         ],
         [
-          "dodaj",
-          "add"
+          "tava",
+          "pan"
         ],
         [
-          "miješaj",
-          "mix"
+          "pećnica",
+          "oven"
         ],
         [
-          "peci",
-          "fry"
+          "štednjak",
+          "stove"
         ],
         [
-          "stavi",
-          "put"
+          "kakao",
+          "cocoa"
         ],
         [
-          "skreni",
-          "turn"
+          "limunada",
+          "lemonade"
         ],
         [
-          "dođi",
-          "come"
+          "hrana",
+          "food"
         ],
         [
-          "požuri",
-          "hurry"
+          "mapa",
+          "map"
+        ],
+        [
+          "metar",
+          "meter"
         ]
       ],
       "sortkljuc": 1702004,
-      "bodovi": 1718
+      "bodovi": 743
     },
     {
       "cjelina": "Vocabulary 17",
       "cjelinanaslov": "Recipes & Directions",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "The infinitive flashes — tap the ti-command!"
+        "info": "You write each new word once, from its English meaning. Nouns go in their naming form and verbs as an infinitive (*miješati*, not *miješaj*). The diacritics are full letters: *miješati* has **š**, *žličica* has **ž** and **č**, and *brašno* has **š**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive. Diacritics count: *miješati, žličica, brašno*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "uzeti",
-          "uzmi"
+          "flour",
+          "brašno"
         ],
         [
-          "dodati",
-          "dodaj"
+          "pan",
+          "tava"
         ],
         [
-          "miješati",
-          "miješaj"
+          "oil",
+          "ulje"
         ],
         [
-          "peći",
-          "peci"
+          "pepper (spice)",
+          "papar"
         ],
         [
-          "staviti",
-          "stavi"
+          "dough",
+          "tijesto"
         ],
         [
-          "skrenuti",
-          "skreni"
+          "ingredient",
+          "sastojak"
         ],
         [
-          "doći",
-          "dođi"
+          "teaspoon",
+          "žličica"
         ],
         [
-          "okrenuti",
-          "okreni"
+          "to mix",
+          "miješati"
+        ],
+        [
+          "to add",
+          "dodati"
+        ],
+        [
+          "to heat up",
+          "zagrijati"
+        ],
+        [
+          "to turn (left or right)",
+          "skrenuti"
+        ],
+        [
+          "straight ahead",
+          "ravno"
+        ],
+        [
+          "far",
+          "daleko"
+        ],
+        [
+          "north",
+          "sjever"
+        ],
+        [
+          "forward",
+          "naprijed"
         ]
       ],
       "sortkljuc": 1702005,
-      "bodovi": 2036
+      "bodovi": 1593
+    },
+    {
+      "cjelina": "Vocabulary 17",
+      "cjelinanaslov": "Recipes & Directions",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–16, half and half. Directions sit next to words you already know, like *velik, balon, katedrala*. Watch the pairs *lijevo* (left) and *desno* (right), and *naprijed* (forward) and *natrag* (back): each pair starts with the same letter or two.",
+        "infokratko": "New and old words against the clock. *lijevo* left, *desno* right.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "lijevo",
+          "left"
+        ],
+        [
+          "velik",
+          "big"
+        ],
+        [
+          "desno",
+          "right"
+        ],
+        [
+          "gladan",
+          "hungry"
+        ],
+        [
+          "natrag",
+          "back, backwards"
+        ],
+        [
+          "smiješan",
+          "funny"
+        ],
+        [
+          "jug",
+          "south"
+        ],
+        [
+          "razgovarati",
+          "to talk, to chat"
+        ],
+        [
+          "zapad",
+          "west"
+        ],
+        [
+          "katedrala",
+          "cathedral"
+        ],
+        [
+          "skočiti",
+          "to jump"
+        ],
+        [
+          "kretati",
+          "to set off"
+        ],
+        [
+          "odmoriti",
+          "to rest"
+        ],
+        [
+          "horor",
+          "horror film"
+        ],
+        [
+          "legenda",
+          "legend"
+        ],
+        [
+          "četrnaest",
+          "fourteen"
+        ],
+        [
+          "otprilike",
+          "about, approximately"
+        ],
+        [
+          "besplatno",
+          "for free"
+        ],
+        [
+          "istok",
+          "east"
+        ],
+        [
+          "balon",
+          "balloon"
+        ]
+      ],
+      "sortkljuc": 1702006,
+      "bodovi": 1132
+    },
+    {
+      "cjelina": "Vocabulary 17",
+      "cjelinanaslov": "Recipes & Directions",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*štednjak*, *kiosk*), **-a** is feminine (*tava*, *crkva*), **-o** or **-e** is neuter (*brašno*, *ulje*). The gender matters for today's grammar too: it tells you the ending after a command, as in *Zagrij tavu!* but *Uzmi brašno!*",
+        "infokratko": "Consonant = masculine (*štednjak*), **-a** = feminine (*tava*), **-o / -e** = neuter (*brašno*).",
+        "stupci": "masculine | feminine | neuter",
+        "opis": "Look at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "štednjak",
+          "masculine"
+        ],
+        [
+          "papar",
+          "masculine"
+        ],
+        [
+          "kapetan",
+          "masculine"
+        ],
+        [
+          "češnjak",
+          "masculine"
+        ],
+        [
+          "glumac",
+          "masculine"
+        ],
+        [
+          "kiosk",
+          "masculine"
+        ],
+        [
+          "tava",
+          "feminine"
+        ],
+        [
+          "žličica",
+          "feminine"
+        ],
+        [
+          "zebra",
+          "feminine"
+        ],
+        [
+          "mrkva",
+          "feminine"
+        ],
+        [
+          "crkva",
+          "feminine"
+        ],
+        [
+          "naranča",
+          "feminine"
+        ],
+        [
+          "brašno",
+          "neuter"
+        ],
+        [
+          "ulje",
+          "neuter"
+        ],
+        [
+          "tijesto",
+          "neuter"
+        ],
+        [
+          "raskrižje",
+          "neuter"
+        ]
+      ],
+      "sortkljuc": 1702007,
+      "bodovi": 1344
+    },
+    {
+      "cjelina": "Vocabulary 17",
+      "cjelinanaslov": "Recipes & Directions",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. The diacritics count as always: *pećnica* has **ć**, *žaba* has **ž**, and *vrhnje* has **nj**, one letter written with two signs: *vrh-nje*.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *pećnica, žaba, vrhnje*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "pen",
+          "kemijska"
+        ],
+        [
+          "oven",
+          "pećnica"
+        ],
+        [
+          "frog",
+          "žaba"
+        ],
+        [
+          "cream",
+          "vrhnje"
+        ],
+        [
+          "green",
+          "zelen"
+        ],
+        [
+          "sign",
+          "znak"
+        ],
+        [
+          "juice",
+          "sok"
+        ],
+        [
+          "direction",
+          "smjer"
+        ],
+        [
+          "parent",
+          "roditelj"
+        ],
+        [
+          "to put",
+          "staviti"
+        ],
+        [
+          "short",
+          "kratak"
+        ],
+        [
+          "kilometer",
+          "kilometar"
+        ]
+      ],
+      "sortkljuc": 1702008,
+      "bodovi": 1592
     },
     {
       "cjelina": "Grammar 17",
@@ -85641,7 +84148,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Dreams & helpers",
       "meta": {
-        "opis": "For dreaming out loud."
+        "info": "The words for dreaming out loud. The first card is the heart of the level: the six conditional helpers **bih, bi, bi, bismo, biste, bi** go with the participle you know from Lesson 10: *Kupio bih jahtu.* The polite wish **Htio bih... / Htjela bih...** (a man / a woman speaking) works in every café and shop. The dream itself is **san**, and in the plural **snovi**; **val → valovi** is a wave on the sea. A dream with a million euros in it might hold a **jahta**, a **vila** or a **dvorac** by the **obala**, with **palma** and **pijesak**. The last three cards are about the dreamer: **bogat** (rich), **siromašan** (poor), **slavan** (famous).",
+        "infokratko": "The helpers *bih, bi, bismo, biste* + the Lesson 10 participle: *Kupio bih jahtu.* Polite wish: *Htio / Htjela bih...*",
+        "opis": "Helpers, dreams and a place by the sea. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -85657,91 +84166,12 @@ window.PODACI = {
           "dream → dreams"
         ],
         [
-          "sreća",
-          "happiness, luck"
-        ],
-        [
-          "zima",
-          "winter"
-        ],
-        [
           "val → valovi",
           "wave → waves"
         ],
         [
-          "zvijezda → zvijezde",
+          "zvijezda",
           "star"
-        ],
-        [
-          "brod",
-          "boat"
-        ],
-        [
-          "ručak",
-          "lunch"
-        ]
-      ],
-      "sortkljuc": 1802001,
-      "bodovi": 1671
-    },
-    {
-      "cjelina": "Vocabulary 18",
-      "cjelinanaslov": "Wishes & Dreams",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "kartice",
-      "naslov": "Verbs, little words & cognates",
-      "meta": {
-        "opis": "New verbs and the dreamers' cognates."
-      },
-      "stavke": [
-        [
-          "dobiti → dobio/dobila bi",
-          "to get"
-        ],
-        [
-          "ostati → ostao/ostala bi",
-          "to stay"
-        ],
-        [
-          "zamisliti → zamisli!",
-          "to imagine"
-        ],
-        [
-          "žuriti → žurim",
-          "to hurry"
-        ],
-        [
-          "sjati → sunce sja",
-          "to shine"
-        ],
-        [
-          "možda",
-          "maybe"
-        ],
-        [
-          "prvo",
-          "first"
-        ],
-        [
-          "isto / isti",
-          "the same"
-        ],
-        [
-          "Dogovoreno!",
-          "Deal!"
-        ],
-        [
-          "k meni",
-          "to my place"
-        ],
-        [
-          "milijun",
-          "million"
-        ],
-        [
-          "lutrija",
-          "lottery"
         ],
         [
           "jahta",
@@ -85752,6 +84182,38 @@ window.PODACI = {
           "villa"
         ],
         [
+          "dvorac",
+          "castle"
+        ],
+        [
+          "palma",
+          "palm tree"
+        ],
+        [
+          "pijesak",
+          "sand"
+        ],
+        [
+          "obala",
+          "coast"
+        ],
+        [
+          "ocean",
+          "ocean"
+        ],
+        [
+          "budućnost",
+          "future"
+        ],
+        [
+          "cilj",
+          "aim, goal"
+        ],
+        [
+          "uspjeh",
+          "success"
+        ],
+        [
           "fantazija",
           "fantasy"
         ],
@@ -85760,21 +84222,217 @@ window.PODACI = {
           "alarm"
         ],
         [
-          "balkon",
-          "balcony"
+          "bogat",
+          "rich"
+        ],
+        [
+          "siromašan",
+          "poor"
+        ],
+        [
+          "slavan",
+          "famous"
+        ]
+      ],
+      "sortkljuc": 1802001,
+      "bodovi": 1215
+    },
+    {
+      "cjelina": "Vocabulary 18",
+      "cjelinanaslov": "Wishes & Dreams",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Verbs, little words & cognates",
+      "meta": {
+        "info": "Eleven verbs for wishing, worrying and dreaming. Each card shows the infinitive and the *ja*-form: *sanjati → sanjam*. Five of them carry a little **se**: *nadati se, bojati se, brinuti se, ljutiti se, smijati se*. The **se** stays with the verb: *Nadam se. Bojim se. Ne brinem se.* In the conditional the participle does the work: *dobio bih, zamislila bih*. **sjati** is almost always about the sun or the stars: *Sunce sja.* The little words help a dream along: **prvo** (first), **ovako** (like this), **isti** (the same), **baš** (really, just), **ako** (if). **k meni** means \"to my place\": *Bi li dolazio k meni ljeti?* And when a plan is settled: **Dogovoreno!**",
+        "infokratko": "Infinitive → *ja*-form: *sanjati → sanjam*. Emotion verbs keep **se**: *Nadam se. Bojim se.* **ako** = if.",
+        "opis": "Eleven verbs, a few little words and two cognates. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "nadati se → nadam se",
+          "to hope"
+        ],
+        [
+          "bojati se → bojim se",
+          "to be afraid"
+        ],
+        [
+          "brinuti se → brinem se",
+          "to worry"
+        ],
+        [
+          "ljutiti se → ljutim se",
+          "to be angry"
+        ],
+        [
+          "sanjati → sanjam",
+          "to dream"
+        ],
+        [
+          "smijati se → smijem se",
+          "to laugh"
+        ],
+        [
+          "osjećati → osjećam",
+          "to feel"
+        ],
+        [
+          "zamisliti → zamislim",
+          "to imagine"
+        ],
+        [
+          "dobiti → dobijem",
+          "to get"
+        ],
+        [
+          "štedjeti → štedim",
+          "to save (money)"
+        ],
+        [
+          "sjati → sunce sja",
+          "to shine"
+        ],
+        [
+          "milijun",
+          "million"
+        ],
+        [
+          "lutrija",
+          "lottery"
+        ],
+        [
+          "prvo",
+          "first"
+        ],
+        [
+          "isti",
+          "the same"
+        ],
+        [
+          "ovako",
+          "like this"
+        ],
+        [
+          "baš",
+          "really, just (for emphasis)"
+        ],
+        [
+          "ako",
+          "if"
+        ],
+        [
+          "Dogovoreno!",
+          "Deal!"
+        ],
+        [
+          "k meni",
+          "to my place"
         ]
       ],
       "sortkljuc": 1802002,
-      "bodovi": 2436
+      "bodovi": 1215
     },
     {
       "cjelina": "Vocabulary 18",
       "cjelinanaslov": "Wishes & Dreams",
       "stranica": 3,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "Feelings",
+      "meta": {
+        "info": "Nouns and adjectives for how a dream feels. **sreća** is both happiness and luck. Several nouns sit next to a verb from the page before: *nada* and *nadati se*, *strah* and *bojati se*, *briga* and *brinuti se*, *ljutnja* and *ljutiti se*, *smijeh* and *smijati se*, *osjećaj* and *osjećati*. **radost** is feminine even though it ends in a consonant, like *budućnost*. The adjectives take the usual endings: *ponosan, ponosna, ponosno*. A woman says *Uzbuđena sam*, a man *Uzbuđen sam*.",
+        "infokratko": "*nada · nadati se*, *strah · bojati se*, *briga · brinuti se*. *radost* is feminine.",
+        "opis": "Eighteen words for feelings. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "sreća",
+          "happiness, luck"
+        ],
+        [
+          "nada",
+          "hope"
+        ],
+        [
+          "strah",
+          "fear"
+        ],
+        [
+          "briga",
+          "worry"
+        ],
+        [
+          "radost",
+          "joy"
+        ],
+        [
+          "tuga",
+          "sadness"
+        ],
+        [
+          "osjećaj",
+          "feeling"
+        ],
+        [
+          "ljutnja",
+          "anger"
+        ],
+        [
+          "smijeh",
+          "laughter"
+        ],
+        [
+          "suza",
+          "tear (from your eye)"
+        ],
+        [
+          "ponosan",
+          "proud"
+        ],
+        [
+          "zadovoljan",
+          "satisfied, pleased"
+        ],
+        [
+          "nervozan",
+          "nervous"
+        ],
+        [
+          "uplašen",
+          "scared"
+        ],
+        [
+          "iznenađen",
+          "surprised"
+        ],
+        [
+          "razočaran",
+          "disappointed"
+        ],
+        [
+          "uzbuđen",
+          "excited"
+        ],
+        [
+          "ljubomoran",
+          "jealous"
+        ]
+      ],
+      "sortkljuc": 1802003,
+      "bodovi": 1215
+    },
+    {
+      "cjelina": "Vocabulary 18",
+      "cjelinanaslov": "Wishes & Dreams",
+      "stranica": 4,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Match the pairs",
       "meta": {
+        "info": "Twelve dream words matched with their English meaning. Most come from Practice 18, the text about a million euros and the perfect day. Say each one inside a dream: *Kupio bih dvorac. Htjela bih vilu.*",
+        "infokratko": "Dream words and their meanings. Try each in a wish: *Kupio bih dvorac.*",
         "opis": "Match each dream word with its English meaning."
       },
       "stavke": [
@@ -85784,11 +84442,7 @@ window.PODACI = {
         ],
         [
           "sreća",
-          "happiness"
-        ],
-        [
-          "zima",
-          "winter"
+          "happiness, luck"
         ],
         [
           "val",
@@ -85809,89 +84463,352 @@ window.PODACI = {
         [
           "vila",
           "villa"
-        ]
-      ],
-      "sortkljuc": 1802003,
-      "bodovi": 2437
-    },
-    {
-      "cjelina": "Vocabulary 18",
-      "cjelinanaslov": "Wishes & Dreams",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
-      "meta": {
-        "opis": "Flip the cards and find the pairs."
-      },
-      "stavke": [
-        [
-          "dobiti",
-          "to get"
         ],
         [
-          "ostati",
-          "to stay"
+          "dvorac",
+          "castle"
         ],
         [
-          "zamisliti",
-          "to imagine"
+          "palma",
+          "palm tree"
         ],
         [
-          "žuriti",
-          "to hurry"
+          "pijesak",
+          "sand"
         ],
         [
-          "možda",
-          "maybe"
+          "obala",
+          "coast"
         ],
         [
-          "prvo",
-          "first"
-        ],
-        [
-          "isto",
-          "the same"
-        ],
-        [
-          "Dogovoreno!",
-          "Deal!"
+          "budućnost",
+          "future"
         ]
       ],
       "sortkljuc": 1802004,
-      "bodovi": 2019
+      "bodovi": 1215
     },
     {
       "cjelina": "Vocabulary 18",
       "cjelinanaslov": "Wishes & Dreams",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "45",
-        "opis": "Tap the conditional helper that fits the pronoun!"
+        "info": "You write each new word once, from its English meaning. Nouns and adjectives go in their naming form and verbs as an infinitive (*sanjati*, not *sanjam*). The verbs with **se** are written with it: *nadati se, bojati se*. The diacritics are full letters: *štedjeti* has **š**. Watch **je** and **ije** too: *uspjeh, štedjeti, smijati se*. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once: naming form, infinitive with **se** where it belongs. Diacritics count: *štedjeti*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
-          "ja",
-          "bih"
+          "to hope",
+          "nadati se"
         ],
         [
-          "mi",
-          "bismo"
+          "to be afraid",
+          "bojati se"
         ],
         [
-          "vi",
-          "biste"
+          "to worry",
+          "brinuti se"
         ],
         [
-          "ti",
-          "bi"
+          "to be angry",
+          "ljutiti se"
+        ],
+        [
+          "to dream",
+          "sanjati"
+        ],
+        [
+          "to imagine",
+          "zamisliti"
+        ],
+        [
+          "to laugh",
+          "smijati se"
+        ],
+        [
+          "to save (money)",
+          "štedjeti"
+        ],
+        [
+          "fear",
+          "strah"
+        ],
+        [
+          "sadness",
+          "tuga"
+        ],
+        [
+          "tear (from your eye)",
+          "suza"
+        ],
+        [
+          "success",
+          "uspjeh"
+        ],
+        [
+          "proud",
+          "ponosan"
+        ],
+        [
+          "rich",
+          "bogat"
+        ],
+        [
+          "if",
+          "ako"
         ]
       ],
       "sortkljuc": 1802005,
-      "bodovi": 2437
+      "bodovi": 1734
+    },
+    {
+      "cjelina": "Vocabulary 18",
+      "cjelinanaslov": "Wishes & Dreams",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–17, half and half. Feelings sit next to words you already know, like *đak, dar, ekran*. Watch **san** and **spavati**: *san* is the dream (and the sleep you have), *spavati* is the verb \"to sleep\".",
+        "infokratko": "New and old words against the clock. *san* dream, *spavati* to sleep.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears — tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "san",
+          "dream"
+        ],
+        [
+          "đak",
+          "pupil"
+        ],
+        [
+          "obala",
+          "coast"
+        ],
+        [
+          "žut",
+          "yellow"
+        ],
+        [
+          "strah",
+          "fear"
+        ],
+        [
+          "spavati",
+          "to sleep"
+        ],
+        [
+          "tuga",
+          "sadness"
+        ],
+        [
+          "rođak",
+          "cousin, relative"
+        ],
+        [
+          "suza",
+          "tear (from your eye)"
+        ],
+        [
+          "nositi",
+          "to carry, to wear"
+        ],
+        [
+          "ponosan",
+          "proud"
+        ],
+        [
+          "letjeti",
+          "to fly"
+        ],
+        [
+          "uzbuđen",
+          "excited"
+        ],
+        [
+          "dar",
+          "gift"
+        ],
+        [
+          "smijati se",
+          "to laugh"
+        ],
+        [
+          "čips",
+          "potato chips"
+        ],
+        [
+          "bojati se",
+          "to be afraid"
+        ],
+        [
+          "ekran",
+          "screen"
+        ],
+        [
+          "ovako",
+          "like this"
+        ],
+        [
+          "hrabar",
+          "brave"
+        ]
+      ],
+      "sortkljuc": 1802006,
+      "bodovi": 1215
+    },
+    {
+      "cjelina": "Vocabulary 18",
+      "cjelinanaslov": "Wishes & Dreams",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
+      "meta": {
+        "info": "Sort nouns into masculine and feminine by the last letter, the rule from Grammar 1: a consonant is masculine (*san*, *ključ*), **-a** is feminine (*zvijezda*, *sestra*). The gender matters in the conditional too: the participle follows the noun, as in *Val bi došao* but *Zvijezda bi sjala*. None of today's nouns is neuter, so there are only two columns. *radost* and *budućnost* are left out on purpose: they end in a consonant but are feminine.",
+        "infokratko": "Consonant = masculine (*san*), **-a** = feminine (*zvijezda*). *Val bi došao, zvijezda bi sjala.*",
+        "stupci": "masculine | feminine",
+        "opis": "Look at the last letter of each word and drop it into the right column."
+      },
+      "stavke": [
+        [
+          "san",
+          "masculine"
+        ],
+        [
+          "val",
+          "masculine"
+        ],
+        [
+          "dvorac",
+          "masculine"
+        ],
+        [
+          "osjećaj",
+          "masculine"
+        ],
+        [
+          "gost",
+          "masculine"
+        ],
+        [
+          "ključ",
+          "masculine"
+        ],
+        [
+          "klub",
+          "masculine"
+        ],
+        [
+          "blagdan",
+          "masculine"
+        ],
+        [
+          "zvijezda",
+          "feminine"
+        ],
+        [
+          "palma",
+          "feminine"
+        ],
+        [
+          "tuga",
+          "feminine"
+        ],
+        [
+          "lutrija",
+          "feminine"
+        ],
+        [
+          "lekcija",
+          "feminine"
+        ],
+        [
+          "izložba",
+          "feminine"
+        ],
+        [
+          "sestra",
+          "feminine"
+        ],
+        [
+          "knjižnica",
+          "feminine"
+        ]
+      ],
+      "sortkljuc": 1802007,
+      "bodovi": 1457
+    },
+    {
+      "cjelina": "Vocabulary 18",
+      "cjelinanaslov": "Wishes & Dreams",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. The diacritics count as always: *iznenađen* has **đ**, *razočaran* has **č**, and *ljubomoran* starts with **lj**, one letter written with two signs: *lju-bo-mo-ran*.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *iznenađen, razočaran, ljubomoran*.",
+        "opis": "The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "elevator",
+          "dizalo"
+        ],
+        [
+          "hope",
+          "nada"
+        ],
+        [
+          "better",
+          "bolje"
+        ],
+        [
+          "joy",
+          "radost"
+        ],
+        [
+          "highway",
+          "autocesta"
+        ],
+        [
+          "surprised",
+          "iznenađen"
+        ],
+        [
+          "fast",
+          "brz"
+        ],
+        [
+          "disappointed",
+          "razočaran"
+        ],
+        [
+          "comic book",
+          "strip"
+        ],
+        [
+          "to get",
+          "dobiti"
+        ],
+        [
+          "money",
+          "novac"
+        ],
+        [
+          "jealous",
+          "ljubomoran"
+        ]
+      ],
+      "sortkljuc": 1802008,
+      "bodovi": 1734
     },
     {
       "cjelina": "Grammar 18",
@@ -87061,7 +85978,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Verb twins (process → done)",
       "meta": {
-        "opis": "Verb twins and the time words that go with them."
+        "info": "The heart of this level: almost every verb has a twin. The first verb on each card is one you know; it tells the **process**, the doing (*pisati*, to be writing). The second is its new twin; it tells that the job got **done** (*napisati*, to get it written). Most twins are made with a prefix: **na-** (*napisati, naučiti, nacrtati*), **po-** (*popiti, pojesti, pogledati, poslati*), **pro-** (*pročitati*), **s-** (*skuhati*), **o-** (*oprati, očistiti*). Some pairs change the ending instead: *odgovarati → odgovoriti*, *završavati → završiti*, *nastavljati → nastaviti*, *objašnjavati → objasniti*; and *kupovati → kupiti*, *počinjati → početi* are two different shapes. The *ja*-form of a done twin sounds like a present, but it talks about the finish: *napišem, pročitam, popijem, pojedem, kupim, pošaljem, počnem*.",
+        "infokratko": "Known verb = process (*pisati*), new twin = done (*napisati*). Prefixes **na-, po-, pro-, s-, o-**; or a new ending: *završavati → završiti*.",
+        "opis": "Eighteen pairs: the process verb, then its \"done\" twin. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -87097,12 +86016,48 @@ window.PODACI = {
           "send → send off"
         ],
         [
-          "završiti",
-          "to finish"
+          "kuhati → skuhati",
+          "cook → get it cooked"
+        ],
+        [
+          "crtati → nacrtati",
+          "draw → finish drawing"
+        ],
+        [
+          "prati → oprati",
+          "wash → get it washed"
+        ],
+        [
+          "čistiti → očistiti",
+          "clean → clean up"
+        ],
+        [
+          "odgovarati → odgovoriti",
+          "answer → give an answer"
+        ],
+        [
+          "završavati → završiti",
+          "be finishing → finish"
+        ],
+        [
+          "dovršavati → dovršiti",
+          "be finishing off → finish off"
+        ],
+        [
+          "počinjati → početi",
+          "be starting → start"
+        ],
+        [
+          "nastavljati → nastaviti",
+          "keep going → continue"
+        ],
+        [
+          "objašnjavati → objasniti",
+          "be explaining → explain"
         ]
       ],
       "sortkljuc": 1902001,
-      "bodovi": 1839
+      "bodovi": 1379
     },
     {
       "cjelina": "Vocabulary 19",
@@ -87112,7 +86067,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Time signals & more",
       "meta": {
-        "opis": "Time signals, school & post words, extra cognates."
+        "info": "Little words tell you which twin to pick. **napokon** (finally), **odjednom** (suddenly), **jednom** (once) and **dva puta** (twice) point to the done twin: *Napokon je napisao pismo!* Known words do the same job: *odmah, za dvije minute*. On the process side stand *polako, dugo, cijeli dan, svaki dan*. **skoro** means almost: *Skoro! Napisao sam pola.* **već** is already, **opet** again, **upravo** just (right now), **usput** along the way. Then the words from Marko's homework and letter: **stranica, lektira** (the book the school tells you to read), **marka** (a stamp for the letter), **rečenica, bilježnica, zadatak**. **gotov** means finished, ready: *Sve je gotovo.*",
+        "infokratko": "*napokon, odjednom, jednom, dva puta* → done twin. *polako, dugo, cijeli dan* → process twin. *gotov* = finished, ready.",
+        "opis": "Time signals, school words and a few more. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -87120,49 +86077,90 @@ window.PODACI = {
           "finally"
         ],
         [
-          "odmah",
-          "right away"
-        ],
-        [
-          "polako",
-          "slowly"
-        ],
-        [
           "skoro",
           "almost"
         ],
         [
-          "dva puta",
-          "twice"
+          "opet",
+          "again"
         ],
         [
-          "za dvije minute",
-          "in two minutes"
+          "jednom → dva puta",
+          "once → twice"
         ],
         [
-          "cijeli tjedan",
-          "the whole week"
+          "usput",
+          "along the way"
         ],
         [
-          "pola",
-          "half"
+          "upravo",
+          "just, right now"
         ],
         [
-          "zadaća",
-          "homework"
+          "već",
+          "already"
+        ],
+        [
+          "odjednom",
+          "suddenly"
+        ],
+        [
+          "trenutak",
+          "moment"
         ],
         [
           "stranica",
           "page"
         ],
         [
+          "lektira",
+          "assigned reading"
+        ],
+        [
           "marka",
           "stamp"
         ],
         [
-          "tjedan",
-          "week"
+          "rečenica",
+          "sentence"
         ],
+        [
+          "bilježnica",
+          "notebook"
+        ],
+        [
+          "zadatak",
+          "task"
+        ],
+        [
+          "razlika",
+          "difference"
+        ],
+        [
+          "važan",
+          "important"
+        ],
+        [
+          "gotov",
+          "finished, ready"
+        ]
+      ],
+      "sortkljuc": 1902002,
+      "bodovi": 1379
+    },
+    {
+      "cjelina": "Vocabulary 19",
+      "cjelinanaslov": "Stories & Events",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "kartice",
+      "naslov": "Ten verbs & race words",
+      "meta": {
+        "info": "Ten verbs with their *ja*-form. Four are built on *pisati*, but the prefix changes the meaning, so they are new verbs, not twins: **opisati** (to describe), **potpisati** (to sign), **zapisati** (to note down), **prepisati** (to copy out). *pričati* (to chat) gets a new meaning in **ispričati**: to tell a whole story. **sjetiti se** keeps its **se**: *Sjetim se.* Watch the sounds: *plakati → plačem*, *brisati → brišem*. Last come the words of a race, where process and done meet: the **start**, the **sprint**, the **finiš**, the **rezultat**, and with luck a **pobjeda** and a **medalja**. A **maraton** is the best picture of the process twin.",
+        "infokratko": "Infinitive → *ja*-form: *plakati → plačem*. *opisati, potpisati, zapisati, prepisati* are new verbs, not twins. Race words: *start, finiš, rezultat, pobjeda*.",
+        "opis": "Ten verbs and eight words from the race track. Tap a card to reveal the meaning."
+      },
+      "stavke": [
         [
           "plakati → plačem",
           "to cry"
@@ -87170,6 +86168,38 @@ window.PODACI = {
         [
           "brisati → brišem",
           "to erase"
+        ],
+        [
+          "odlučiti → odlučim",
+          "to decide"
+        ],
+        [
+          "sjetiti se → sjetim se",
+          "to remember"
+        ],
+        [
+          "ispričati → ispričam",
+          "to tell (a story)"
+        ],
+        [
+          "napraviti → napravim",
+          "to make, to do"
+        ],
+        [
+          "opisati → opišem",
+          "to describe"
+        ],
+        [
+          "potpisati → potpišem",
+          "to sign"
+        ],
+        [
+          "zapisati → zapišem",
+          "to note down"
+        ],
+        [
+          "prepisati → prepišem",
+          "to copy out"
         ],
         [
           "maraton",
@@ -87180,6 +86210,14 @@ window.PODACI = {
           "sprint"
         ],
         [
+          "start",
+          "start"
+        ],
+        [
+          "finiš",
+          "finish (of a race)"
+        ],
+        [
           "proces",
           "process"
         ],
@@ -87188,26 +86226,28 @@ window.PODACI = {
           "result"
         ],
         [
-          "start",
-          "start"
+          "pobjeda",
+          "victory"
         ],
         [
-          "finiš",
-          "finish"
+          "medalja",
+          "medal"
         ]
       ],
-      "sortkljuc": 1902002,
-      "bodovi": 2759
+      "sortkljuc": 1902003,
+      "bodovi": 1379
     },
     {
       "cjelina": "Vocabulary 19",
       "cjelinanaslov": "Stories & Events",
-      "stranica": 3,
+      "stranica": 4,
       "broj": 9999,
       "format": "parovi",
       "naslov": "Match the pairs (twins)",
       "meta": {
-        "opis": "Pair the twins — process with its \"done\" version."
+        "info": "Twelve pairs from the first page. Find the done twin for each process verb. The prefix is usually the clue: *na-, po-, pro-, s-*. Two pairs change the ending: *nastavljati → nastaviti*, and *počinjati → početi* changes almost the whole word. Say both aloud: *Pisao sam... Napisao sam!*",
+        "infokratko": "Process verb ↔ done twin. Look for the prefix: *pisati → napisati*.",
+        "opis": "Pair the twins: process with its \"done\" version."
       },
       "stavke": [
         [
@@ -87241,20 +86281,116 @@ window.PODACI = {
         [
           "slati",
           "poslati"
+        ],
+        [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "crtati",
+          "nacrtati"
+        ],
+        [
+          "nastavljati",
+          "nastaviti"
+        ],
+        [
+          "počinjati",
+          "početi"
         ]
       ],
-      "sortkljuc": 1902003,
-      "bodovi": 2759
+      "sortkljuc": 1902004,
+      "bodovi": 1379
     },
     {
       "cjelina": "Vocabulary 19",
       "cjelinanaslov": "Stories & Events",
-      "stranica": 4,
+      "stranica": 5,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "opis": "Flip the cards and find the pairs."
+        "info": "You write each new word once, from its English meaning. Verbs go in as an infinitive (*napisati*, not *napišem*). When the English says \"finish\" or \"up\", it asks for the done twin: *to drink up* is *popiti*, not *piti*. The diacritics are full letters: *plakati* is plain, but *pročitati* has **č** and *već* has **ć**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once, as an infinitive. \"finish\", \"up\", \"through\" = the done twin. Diacritics count: *pročitati, već*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
+      },
+      "stavke": [
+        [
+          "to finish writing",
+          "napisati"
+        ],
+        [
+          "to drink up",
+          "popiti"
+        ],
+        [
+          "to eat up",
+          "pojesti"
+        ],
+        [
+          "to read through",
+          "pročitati"
+        ],
+        [
+          "to cry",
+          "plakati"
+        ],
+        [
+          "to erase",
+          "brisati"
+        ],
+        [
+          "to decide",
+          "odlučiti"
+        ],
+        [
+          "to describe",
+          "opisati"
+        ],
+        [
+          "to sign",
+          "potpisati"
+        ],
+        [
+          "finally",
+          "napokon"
+        ],
+        [
+          "already",
+          "već"
+        ],
+        [
+          "moment",
+          "trenutak"
+        ],
+        [
+          "page",
+          "stranica"
+        ],
+        [
+          "sentence",
+          "rečenica"
+        ],
+        [
+          "notebook",
+          "bilježnica"
+        ]
+      ],
+      "sortkljuc": 1902005,
+      "bodovi": 1946
+    },
+    {
+      "cjelina": "Vocabulary 19",
+      "cjelinanaslov": "Stories & Events",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–18, half and half. Time signals sit next to words you already know, like *jučer, sin, gitara*. Watch **šutjeti** and **sjediti**: they look alike, but *šutjeti* is to be silent and *sjediti* is to sit. And **skoro** is almost, while **upravo** is just, right now.",
+        "infokratko": "New and old words against the clock. *šutjeti* to be silent, *sjediti* to sit.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears. Tap its English meaning before the timer runs out!"
       },
       "stavke": [
         [
@@ -87262,84 +86398,231 @@ window.PODACI = {
           "finally"
         ],
         [
-          "odmah",
-          "right away"
-        ],
-        [
-          "polako",
-          "slowly"
+          "jučer",
+          "yesterday"
         ],
         [
           "skoro",
           "almost"
         ],
         [
-          "zadaća",
-          "homework"
+          "šutjeti",
+          "to be silent"
         ],
         [
-          "stranica",
-          "page"
+          "odjednom",
+          "suddenly"
         ],
         [
-          "marka",
-          "stamp"
+          "koljeno",
+          "knee"
         ],
         [
-          "tjedan",
-          "week"
+          "usput",
+          "along the way"
+        ],
+        [
+          "crn",
+          "black"
+        ],
+        [
+          "upravo",
+          "just, right now"
+        ],
+        [
+          "desert",
+          "dessert"
+        ],
+        [
+          "opet",
+          "again"
+        ],
+        [
+          "bombon",
+          "candy"
+        ],
+        [
+          "pogledati",
+          "to take a look"
+        ],
+        [
+          "bez",
+          "without"
+        ],
+        [
+          "ispričati",
+          "to tell (a story)"
+        ],
+        [
+          "gitara",
+          "guitar"
+        ],
+        [
+          "prepisati",
+          "to copy out"
+        ],
+        [
+          "crven",
+          "red"
+        ],
+        [
+          "sjetiti se",
+          "to remember"
+        ],
+        [
+          "sjediti",
+          "to sit"
         ]
       ],
-      "sortkljuc": 1902004,
-      "bodovi": 2334
+      "sortkljuc": 1902006,
+      "bodovi": 1379
     },
     {
       "cjelina": "Vocabulary 19",
       "cjelinanaslov": "Stories & Events",
-      "stranica": 5,
+      "stranica": 7,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "razvrstavanje",
+      "naslov": "Sort by gender",
       "meta": {
-        "trajanje": "45",
-        "opis": "The process verb flashes — tap its \"done\" twin!"
+        "info": "Sort nouns into masculine and feminine by the last letter, the rule from Grammar 1: a consonant is masculine (*maraton*, *sin*), **-a** is feminine (*stranica*, *lopta*). The gender shows up in the past tense, too: *Rezultat je napokon došao*, but *Pobjeda je napokon došla*. None of today's nouns is neuter, so there are only two columns. *zadatak* and *trenutak* lose their second **a** in other forms (*zadatka*), but the naming form still ends in a consonant.",
+        "infokratko": "Consonant = masculine (*maraton*), **-a** = feminine (*stranica*). *Rezultat je došao, pobjeda je došla.*",
+        "stupci": "masculine | feminine",
+        "opis": "Look at the last letter of each word and drop it into the right column."
       },
       "stavke": [
         [
-          "pisati",
-          "napisati"
+          "maraton",
+          "masculine"
         ],
         [
-          "čitati",
-          "pročitati"
+          "rezultat",
+          "masculine"
         ],
         [
-          "piti",
-          "popiti"
+          "zadatak",
+          "masculine"
         ],
         [
-          "jesti",
-          "pojesti"
+          "proces",
+          "masculine"
         ],
         [
-          "učiti",
-          "naučiti"
+          "Hrvat",
+          "masculine"
         ],
         [
-          "gledati",
-          "pogledati"
+          "sin",
+          "masculine"
         ],
         [
-          "kupovati",
-          "kupiti"
+          "kolodvor",
+          "masculine"
         ],
         [
-          "slati",
-          "poslati"
+          "datum",
+          "masculine"
+        ],
+        [
+          "stranica",
+          "feminine"
+        ],
+        [
+          "rečenica",
+          "feminine"
+        ],
+        [
+          "pobjeda",
+          "feminine"
+        ],
+        [
+          "medalja",
+          "feminine"
+        ],
+        [
+          "farma",
+          "feminine"
+        ],
+        [
+          "pekara",
+          "feminine"
+        ],
+        [
+          "lopta",
+          "feminine"
+        ],
+        [
+          "majica",
+          "feminine"
         ]
       ],
-      "sortkljuc": 1902005,
-      "bodovi": 2759
+      "sortkljuc": 1902007,
+      "bodovi": 1663
+    },
+    {
+      "cjelina": "Vocabulary 19",
+      "cjelinanaslov": "Stories & Events",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. **dnevni boravak** is two words, with a space. The diacritics count as always: *važan* has **ž**, and *Hrvatica* starts with a capital letter, like every nationality.",
+        "infokratko": "Mixed final round. Naming form, infinitive. *dnevni boravak* is two words. Diacritics count: *važan*.",
+        "opis": "The final challenge: type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "stamp",
+          "marka"
+        ],
+        [
+          "living room",
+          "dnevni boravak"
+        ],
+        [
+          "important",
+          "važan"
+        ],
+        [
+          "flour",
+          "brašno"
+        ],
+        [
+          "difference",
+          "razlika"
+        ],
+        [
+          "to arrange",
+          "dogovoriti"
+        ],
+        [
+          "assigned reading",
+          "lektira"
+        ],
+        [
+          "Croat (she)",
+          "Hrvatica"
+        ],
+        [
+          "once",
+          "jednom"
+        ],
+        [
+          "text",
+          "tekst"
+        ],
+        [
+          "to note down",
+          "zapisati"
+        ],
+        [
+          "pie",
+          "pita"
+        ]
+      ],
+      "sortkljuc": 1902008,
+      "bodovi": 1946
     },
     {
       "cjelina": "Grammar 19",
@@ -88613,16 +87896,14 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Connectors",
       "meta": {
-        "opis": "Connectors for big thoughts."
+        "info": "The last level joins whole thoughts into one big sentence. Five of these connectors you have met before, and here they get their big job: **jer** (because), **kad** (when, the short form of *kada*), **ako** (if), **koji / koja / koje** (which, that, who) and **da** (that), the word you know as \"yes\". The new ones are **zato što**, a longer *because* (*Učim hrvatski zato što volim jezik*), **dok** (while), **iako** (although) and **kao** (like, as): *jezik koji zvuči kao glazba*. **koji** takes the gender of the noun it describes: *film koji*, *knjiga koja*, *more koje*. **da** follows verbs like *znati, misliti, reći*: *Znam da je Zagreb velik.* Then come little words for a story: **čak** (even), **ipak** (still, after all), **dakle** (so), **mnogo** (many, a lot), **neki** (some), **onaj** (that one over there), and two phrases, **prvi put** (the first time) and **jednog dana** (one day).",
+        "infokratko": "*jer, kad, ako, koji, da* in their big-sentence job; new: *zato što, dok, iako, kao*. *koji* follows the gender of the noun: *film koji, knjiga koja, more koje*.",
+        "opis": "The words that join thoughts, and little words for a story. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "jer",
+          "jer / zato što",
           "because"
-        ],
-        [
-          "zato što",
-          "because (that's why)"
         ],
         [
           "kad",
@@ -88641,16 +87922,52 @@ window.PODACI = {
           "although"
         ],
         [
+          "kao",
+          "like, as"
+        ],
+        [
           "koji / koja / koje",
           "which, that, who"
         ],
         [
-          "kao",
-          "like, as"
+          "da",
+          "that (Znam da...)"
+        ],
+        [
+          "čak",
+          "even"
+        ],
+        [
+          "ipak",
+          "still, after all"
+        ],
+        [
+          "dakle",
+          "so, therefore"
+        ],
+        [
+          "mnogo",
+          "many, a lot"
+        ],
+        [
+          "neki",
+          "some"
+        ],
+        [
+          "onaj",
+          "that one (over there)"
+        ],
+        [
+          "prvi put",
+          "the first time"
+        ],
+        [
+          "jednog dana",
+          "one day"
         ]
       ],
       "sortkljuc": 2002001,
-      "bodovi": 2061
+      "bodovi": 1563
     },
     {
       "cjelina": "Vocabulary 20",
@@ -88660,20 +87977,18 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Summer, memories & final cognates",
       "meta": {
-        "opis": "The vocabulary of memories — the last batch of the course!"
+        "info": "The words of a summer you remember. An **uspomena** is a memory you keep, and the **prošlost** is the past. On the island there is the **riva** (the seaside promenade where people walk in the evening), a quiet **uvala** (cove), a **svjetionik** (lighthouse), a **jedrilica** (sailboat), a **ribar** (fisherman), a **galeb** (seagull) and a **školjka** (seashell) on the beach. **zemlja** is a country or the land, and **država** is a state: *gradovi koji su stariji od mnogih država*. **život** is life, **priroda** nature, and a **dnevnik** is the diary where you write it all down. Last come the cognates of the course itself: *melodija, diploma, certifikat, gramatika, vokabular*. Order a coffee on the riva **bez greške**, without a mistake (**greška**)!",
+        "infokratko": "*uspomena* = memory, *prošlost* = past. Island words: *riva, uvala, svjetionik, galeb*. *zemlja* = country, land; *država* = state.",
+        "opis": "The vocabulary of memories — the last batch of the course! Tap a card to reveal the meaning."
       },
       "stavke": [
-        [
-          "otok",
-          "island"
-        ],
         [
           "uspomena",
           "memory"
         ],
         [
-          "kiša",
-          "rain"
+          "prošlost",
+          "past"
         ],
         [
           "galeb",
@@ -88684,6 +87999,26 @@ window.PODACI = {
           "seaside promenade"
         ],
         [
+          "uvala",
+          "cove"
+        ],
+        [
+          "svjetionik",
+          "lighthouse"
+        ],
+        [
+          "jedrilica",
+          "sailboat"
+        ],
+        [
+          "ribar",
+          "fisherman"
+        ],
+        [
+          "školjka",
+          "seashell"
+        ],
+        [
           "greška",
           "mistake"
         ],
@@ -88692,56 +88027,20 @@ window.PODACI = {
           "country, land"
         ],
         [
-          "jezik",
-          "language"
+          "država",
+          "state"
         ],
         [
-          "zaboraviti → zaboravim",
-          "to forget"
+          "život",
+          "life"
         ],
         [
-          "pamtiti → pamtim",
-          "to remember"
+          "priroda",
+          "nature"
         ],
         [
-          "otkriti → otkrijem",
-          "to discover"
-        ],
-        [
-          "trajati → traje",
-          "to last"
-        ],
-        [
-          "naručiti → naručim",
-          "to order"
-        ],
-        [
-          "birati → biram",
-          "to choose"
-        ],
-        [
-          "misliti → mislim",
-          "to think"
-        ],
-        [
-          "mnogo",
-          "many, a lot"
-        ],
-        [
-          "prvi put",
-          "the first time"
-        ],
-        [
-          "jednog dana",
-          "one day"
-        ],
-        [
-          "bez greške",
-          "without a mistake"
-        ],
-        [
-          "trajekt",
-          "ferry"
+          "dnevnik",
+          "diary"
         ],
         [
           "melodija",
@@ -88765,81 +88064,149 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2002002,
-      "bodovi": 3127
+      "bodovi": 1563
     },
     {
       "cjelina": "Vocabulary 20",
       "cjelinanaslov": "Memories & Big Sentences",
       "stranica": 3,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the pairs",
+      "format": "kartice",
+      "naslov": "Verbs & words for learning",
       "meta": {
-        "opis": "Match each connector with its English meaning."
+        "info": "Ten verbs with their *ja*-form, and two you mostly meet as *it*: **trajati → traje** (it lasts: *Film traje tri sata*) and **postojati → postoji** (there is: *Postoji ljeto koje nikad neću zaboraviti*). **zaboraviti** is to forget and **pamtiti** to keep in memory. **zvučati** gives the course its last sentence: *jezik koji zvuči kao glazba*. **izgledati** is to look like, to seem (*Otok je izgledao malen*), not *gledati*, to watch. Watch the *ja*-forms: *otkriti → otkrijem*, *postati → postanem*, *reći → reknem*; **vratiti se** keeps its **se**. Then words about learning: **smisao** (sense), **učenje**, **znanje**, **pravilo**, **rječnik**, and three adjectives: **lak** (easy, light), **dug** (long), **sličan** (similar).",
+        "infokratko": "Infinitive → *ja*-form: *otkriti → otkrijem, reći → reknem*. *trajati → traje*, *postojati → postoji*. *izgledati* = to seem, not *gledati*.",
+        "opis": "Twelve verbs and eight words for learning. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "jer",
-          "because"
+          "zaboraviti → zaboravim",
+          "to forget"
         ],
         [
-          "kad",
-          "when"
+          "pamtiti → pamtim",
+          "to remember (keep in mind)"
         ],
         [
-          "ako",
-          "if"
+          "otkriti → otkrijem",
+          "to discover"
         ],
         [
-          "dok",
-          "while"
+          "zvučati → zvučim",
+          "to sound"
         ],
         [
-          "iako",
-          "although"
+          "izgledati → izgledam",
+          "to look like, to seem"
         ],
         [
-          "koji",
-          "which"
+          "postati → postanem",
+          "to become"
         ],
         [
-          "kao",
-          "like, as"
+          "ploviti → plovim",
+          "to sail"
         ],
         [
-          "zato što",
-          "because (that's why)"
+          "reći → reknem",
+          "to say, to tell"
+        ],
+        [
+          "vratiti se → vratim se",
+          "to come back"
+        ],
+        [
+          "obećati → obećam",
+          "to promise"
+        ],
+        [
+          "trajati → traje",
+          "to last"
+        ],
+        [
+          "postojati → postoji",
+          "to exist, there is"
+        ],
+        [
+          "smisao",
+          "sense, meaning"
+        ],
+        [
+          "učenje",
+          "learning"
+        ],
+        [
+          "znanje",
+          "knowledge"
+        ],
+        [
+          "pravilo",
+          "rule"
+        ],
+        [
+          "rječnik",
+          "dictionary"
+        ],
+        [
+          "lak",
+          "easy, light"
+        ],
+        [
+          "dug",
+          "long"
+        ],
+        [
+          "sličan",
+          "similar"
         ]
       ],
       "sortkljuc": 2002003,
-      "bodovi": 3127
+      "bodovi": 1563
     },
     {
       "cjelina": "Vocabulary 20",
       "cjelinanaslov": "Memories & Big Sentences",
       "stranica": 4,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "parovi",
+      "naslov": "Match the pairs",
       "meta": {
-        "opis": "Flip the cards and find the pairs."
+        "info": "Twelve nouns from the summer page, each with its English meaning. Picture the island: the **galeb** above the **svjetionik**, the **jedrilica** in the **uvala**, the **ribar** on the **riva**. Two pairs are easy to swap: **uspomena** is a memory, but **prošlost** is the past.",
+        "infokratko": "Summer nouns ↔ English. *uspomena* = memory, *prošlost* = past.",
+        "opis": "Match each word with its English meaning."
       },
       "stavke": [
         [
-          "otok",
-          "island"
-        ],
-        [
           "uspomena",
           "memory"
+        ],
+        [
+          "prošlost",
+          "past"
         ],
         [
           "galeb",
           "seagull"
         ],
         [
-          "riva",
-          "promenade"
+          "uvala",
+          "cove"
+        ],
+        [
+          "svjetionik",
+          "lighthouse"
+        ],
+        [
+          "jedrilica",
+          "sailboat"
+        ],
+        [
+          "ribar",
+          "fisherman"
+        ],
+        [
+          "školjka",
+          "seashell"
         ],
         [
           "greška",
@@ -88847,83 +88214,341 @@ window.PODACI = {
         ],
         [
           "zemlja",
-          "country"
+          "country, land"
         ],
         [
-          "jezik",
-          "language"
+          "život",
+          "life"
         ],
         [
-          "trajekt",
-          "ferry"
+          "priroda",
+          "nature"
         ]
       ],
       "sortkljuc": 2002004,
-      "bodovi": 2558
+      "bodovi": 1563
     },
     {
       "cjelina": "Vocabulary 20",
       "cjelinanaslov": "Memories & Big Sentences",
       "stranica": 5,
       "broj": 9999,
-      "format": "brzina",
-      "naslov": "Speed challenge",
+      "format": "upis",
+      "naslov": "First writing: the new words",
       "meta": {
-        "trajanje": "60",
-        "opis": "The final sprint of the course — tap the English meaning!"
+        "info": "You write each new word once, from its English meaning. Verbs go in as an infinitive (*zaboraviti*, not *zaboravim*), and **vratiti se** keeps its **se**. Connectors go in as they are: *while* is **dok**, *although* is **iako**. The diacritics are full letters: *greška* has **š**, *život* has **ž**. This is the only page with new words alone; after it they mix with older words.",
+        "infokratko": "Type each new word once, as an infinitive. *vratiti se* keeps **se**. Diacritics count: *greška, život*.",
+        "opis": "English meaning in, Croatian word out. Say it aloud before you type."
       },
       "stavke": [
         [
+          "to forget",
+          "zaboraviti"
+        ],
+        [
+          "to discover",
+          "otkriti"
+        ],
+        [
+          "to become",
+          "postati"
+        ],
+        [
+          "to sail",
+          "ploviti"
+        ],
+        [
+          "to come back",
+          "vratiti se"
+        ],
+        [
+          "while",
+          "dok"
+        ],
+        [
+          "although",
+          "iako"
+        ],
+        [
+          "mistake",
+          "greška"
+        ],
+        [
+          "memory",
+          "uspomena"
+        ],
+        [
+          "seagull",
+          "galeb"
+        ],
+        [
+          "lighthouse",
+          "svjetionik"
+        ],
+        [
+          "knowledge",
+          "znanje"
+        ],
+        [
+          "rule",
+          "pravilo"
+        ],
+        [
+          "life",
+          "život"
+        ],
+        [
+          "diary",
+          "dnevnik"
+        ]
+      ],
+      "sortkljuc": 2002005,
+      "bodovi": 2169
+    },
+    {
+      "cjelina": "Vocabulary 20",
+      "cjelinanaslov": "Memories & Big Sentences",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Speed challenge: old and new",
+      "meta": {
+        "info": "Timed recognition of today's words mixed with words from Vocabulary 1–19, half and half. Watch the three little connectors: **ako** is if, **iako** is although, and **dok** is while. **pamtiti** is to remember, but **zaboraviti** is to forget. And **davati** is to give, while **dijeliti** is to share.",
+        "infokratko": "New and old words against the clock. *ako* = if, *iako* = although, *dok* = while.",
+        "trajanje": "60",
+        "opis": "A Croatian word appears. Tap its English meaning before the timer runs out!"
+      },
+      "stavke": [
+        [
+          "iako",
+          "although"
+        ],
+        [
+          "jutros",
+          "this morning"
+        ],
+        [
+          "galeb",
+          "seagull"
+        ],
+        [
+          "deset",
+          "ten"
+        ],
+        [
+          "dok",
+          "while"
+        ],
+        [
+          "plaćati",
+          "to pay"
+        ],
+        [
           "zaboraviti",
           "to forget"
+        ],
+        [
+          "dolje",
+          "down, downstairs"
+        ],
+        [
+          "čak",
+          "even"
+        ],
+        [
+          "ako",
+          "if"
+        ],
+        [
+          "prošlost",
+          "past"
+        ],
+        [
+          "dijeliti",
+          "to share"
+        ],
+        [
+          "ipak",
+          "still, after all"
+        ],
+        [
+          "davati",
+          "to give"
         ],
         [
           "pamtiti",
           "to remember"
         ],
         [
-          "otkriti",
-          "to discover"
+          "Hrvatska",
+          "Croatia"
         ],
         [
-          "trajati",
-          "to last"
+          "izgledati",
+          "to look like, to seem"
         ],
         [
-          "naručiti",
-          "to order"
+          "dan",
+          "day"
         ],
         [
-          "birati",
-          "to choose"
+          "riva",
+          "seaside promenade"
         ],
         [
-          "misliti",
-          "to think"
-        ],
-        [
-          "mnogo",
-          "many"
-        ],
-        [
-          "prvi put",
-          "the first time"
-        ],
-        [
-          "jednog dana",
-          "one day"
-        ],
-        [
-          "gramatika",
-          "grammar"
-        ],
-        [
-          "vokabular",
-          "vocabulary"
+          "dobar",
+          "good"
         ]
       ],
-      "sortkljuc": 2002005,
-      "bodovi": 3127
+      "sortkljuc": 2002006,
+      "bodovi": 1563
+    },
+    {
+      "cjelina": "Vocabulary 20",
+      "cjelinanaslov": "Memories & Big Sentences",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Sort by koji / koja / koje",
+      "meta": {
+        "info": "The glue word of this level takes the gender of its noun, so the last letter decides again, the rule from Grammar 1. A consonant is masculine: *hotel **koji** je velik*. **-a** is feminine: *minuta **koja** traje dugo*. **-o** and **-e** are neuter: *pravilo **koje** je lako*. *dolazak* loses its second **a** in other forms (*dolaska*), but the naming form ends in a consonant, so it is **koji**. **ime** ends in **-e**: *ime koje pamtim*.",
+        "infokratko": "Consonant → **koji**, **-a** → **koja**, **-o / -e** → **koje**. *hotel koji, minuta koja, pravilo koje*.",
+        "stupci": "koji | koja | koje",
+        "opis": "Which form of \"koji\" goes with each noun? Look at the last letter and drop the word into the right column."
+      },
+      "stavke": [
+        [
+          "hotel",
+          "koji"
+        ],
+        [
+          "konj",
+          "koji"
+        ],
+        [
+          "dolazak",
+          "koji"
+        ],
+        [
+          "galeb",
+          "koji"
+        ],
+        [
+          "svjetionik",
+          "koji"
+        ],
+        [
+          "rječnik",
+          "koji"
+        ],
+        [
+          "matematika",
+          "koja"
+        ],
+        [
+          "minuta",
+          "koja"
+        ],
+        [
+          "biljka",
+          "koja"
+        ],
+        [
+          "stolica",
+          "koja"
+        ],
+        [
+          "uspomena",
+          "koja"
+        ],
+        [
+          "greška",
+          "koja"
+        ],
+        [
+          "ime",
+          "koje"
+        ],
+        [
+          "učenje",
+          "koje"
+        ],
+        [
+          "znanje",
+          "koje"
+        ],
+        [
+          "pravilo",
+          "koje"
+        ]
+      ],
+      "sortkljuc": 2002007,
+      "bodovi": 1848
+    },
+    {
+      "cjelina": "Vocabulary 20",
+      "cjelinanaslov": "Memories & Big Sentences",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type it in Croatian",
+      "meta": {
+        "info": "The last writing round of the course mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. **televizor** is the set in your living room. The diacritics count as always: *trčati* has **č**, *sličan* has **č**, and *zvučati* has **č** too.",
+        "infokratko": "Mixed final round. Naming form, infinitive. Diacritics count: *trčati, sličan, zvučati*.",
+        "opis": "The final challenge of the course: type each word in Croatian. Remember: Croatian is written exactly as it sounds."
+      },
+      "stavke": [
+        [
+          "television set",
+          "televizor"
+        ],
+        [
+          "seaside promenade",
+          "riva"
+        ],
+        [
+          "needle",
+          "igla"
+        ],
+        [
+          "to sound",
+          "zvučati"
+        ],
+        [
+          "hair",
+          "kosa"
+        ],
+        [
+          "fisherman",
+          "ribar"
+        ],
+        [
+          "far",
+          "daleko"
+        ],
+        [
+          "similar",
+          "sličan"
+        ],
+        [
+          "to run",
+          "trčati"
+        ],
+        [
+          "state",
+          "država"
+        ],
+        [
+          "apartment",
+          "stan"
+        ],
+        [
+          "long",
+          "dug"
+        ]
+      ],
+      "sortkljuc": 2002008,
+      "bodovi": 2168
     },
     {
       "cjelina": "Grammar 20",

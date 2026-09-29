@@ -3,87 +3,55 @@ cjelina: Vocabulary 8
 
 ## Where you're going
 format: kartice
-info: Places a Croatian summer happens in. Note that *more* is the sea itself, and that the phrase everyone uses for going to the coast is *na more*, not *u more* — take it whole as a fixed expression for now.
-infokratko: Summer places. *more* = the sea; to the coast = *na more*.
-opis: Croatia in summer, in one deck. **more** is the sea itself; going *na more* is what everyone says for "to the coast".
-- more | sea
+info: Places a Croatian summer happens in, and what you take with you. Three words for going somewhere: *put* is the way itself, *putovanje* is the whole journey, and *izlet* is a day trip, there and back again. The last four come in your bag: *kofer*, *prtljaga*, *ručnik*, *jastuk*.
+infokratko: *put* way, *putovanje* journey, *izlet* day trip. Then what goes in the bag.
+opis: Croatia in summer, in one deck: the places, the trip, and what you pack for it.
 - plaža | beach
 - otok | island
 - planina | mountain
-- selo | village
-- grad | city
-- hotel | hotel
 - kamp | campsite
 - put | way, journey
 - putovanje | journey
 - izlet | day trip
-- odmor | holiday, break
 - avantura | adventure
 - destinacija | destination
 - tura | tour
-
-## Getting there
-format: kartice
-info: Transport and travel gear. Almost all of these will turn up as objects after a future helper, in the accusative you already know: *Nosit ću **kofer** i **torbu***.
-infokratko: Travel words, often objects after the future: *Nosit ću kofer i torbu.*
-opis: How you travel and what you need before you leave.
-- vlak | train
-- avion | airplane
-- brod | boat
-- autobus | bus
-- auto | car
 - aerodrom | airport
-- kolodvor | station
-- karta | ticket
 - rezervacija | reservation
 - plan | plan
 - kofer | suitcase
-- torba | bag
 - prtljaga | luggage
 - ručnik | towel
 - jastuk | pillow
 
-## What you'll pack
+## When
 format: kartice
-info: Clothes, and a reminder that gender is visible in the ending. *Majica*, *košulja* and *haljina* end in *-a* and are feminine, while *šešir*, *kaput* and *džemper* are masculine. *Hlače* exists only in the plural, like English *trousers*.
-infokratko: *majica, košulja, haljina* f; *šešir, kaput, džemper* m. *hlače* plural only.
-opis: Clothes for a Croatian summer — and three for when the *bura* starts blowing.
+info: The words that put a plan on a calendar, then the clothes each season asks for. *Sutra*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u nedjelju*, *u ponedjeljak*. In the clothes, gender is in the ending: *majica*, *košulja* and *haljina* are feminine, *kaput* and *džemper* masculine. *Hlače* exists only in the plural, like English *trousers*.
+infokratko: *sutra, ujutro, navečer* alone; days with **u**: *u nedjelju*. *hlače* is plural only.
+opis: The calendar words first — *sutra* is in almost every plan you'll make — then what you wear from *proljeće* to *zima*.
+- sutra | tomorrow
+- vikend | weekend
+- tjedan | week
+- mjesec | month
+- minuta | minute
+- nedjelja | Sunday
+- ponedjeljak | Monday
+- proljeće | spring
+- jesen | autumn
+- zima | winter
 - majica | T-shirt
 - košulja | shirt
 - haljina | dress
 - hlače | trousers
-- cipela | shoe
-- šešir | hat
 - šal | scarf
 - kaput | coat
 - džemper | sweater
 
-## When
-format: kartice
-info: The words that put a plan on a calendar. *Sutra*, *danas*, *ujutro* and *navečer* stand on their own with no preposition, while day names need **u** plus the accusative: *u subotu*, *u nedjelju*, *u ponedjeljak*.
-infokratko: *sutra, danas, ujutro, navečer* alone; days with **u** + accusative: *u subotu*.
-opis: The words that put a plan on the calendar. *Sutra* is the one you'll use in almost every future sentence you build today.
-- sutra | tomorrow
-- danas | today
-- vikend | weekend
-- tjedan | week
-- mjesec | month
-- godina | year
-- subota | Saturday
-- nedjelja | Sunday
-- ponedjeljak | Monday
-- ljeto | summer
-- zima | winter
-- proljeće | spring
-- jesen | autumn
-- sunce | sun
-- minuta | minute
-
 ## Ten new verbs
 format: kartice
-info: Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem** — the infinitive minus its final *-i* (*putovati → **putovat***) — which is what stands in front of *ću*.
-infokratko: Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*.
-opis: Holiday verbs. Each card shows the *ja* form and, after the second arrow, the **future stem** — the shape the verb takes when it stands in front of *ću*.
+info: Each verb in three shapes. The middle one is the *ja* form for the present; the last one is the **future stem**, the infinitive minus its final *-i* (*putovati → **putovat***), which is what stands in front of *ću*. Below them, words for timing a plan. The adjective shows both genders (*savršen / savršena*) because it agrees with what it describes.
+infokratko: Three shapes: infinitive, *ja* form, future stem (*putovati → putovat*) for *ću*. Then *rano, kasno, ujutro, navečer*.
+opis: Holiday verbs, each with the *ja* form and, after the second arrow, the **future stem**. Then the words that say when.
 - putovati → putujem → putovat | to travel
 - plivati → plivam → plivat | to swim
 - ručati → ručam → ručat | to have lunch
@@ -94,276 +62,116 @@ opis: Holiday verbs. Each card shows the *ja* form and, after the second arrow, 
 - stizati → stižem → stizat | to arrive
 - kretati → krećem → kretat | to set off
 - letjeti → letim → letjet | to fly
-
-## Words for the road
-format: kartice
-info: Departure phrases plus the adjectives and time words that round out a plan. The adjectives come in two genders (*umoran / umorna*) because they still agree with the person: *Bit ću **umorna***.
-infokratko: Adjectives agree with the person: *Bit ću umorna*.
-opis: The phrases you say at a station, and the ones you say when you leave.
-- Sretan put! | Have a good trip!
-- Vidimo se! | See you!
-- cijeli / cijela | whole
-- savršen / savršena | perfect
-- umoran / umorna | tired
-- sretan / sretna | happy
 - rano | early
 - kasno | late
 - ujutro | in the morning
 - navečer | in the evening
 - poslije | afterwards
-- zajedno | together
-
-## Sea or suitcase?
-format: razvrstavanje
-info: Sort by meaning, not by grammar. A useful check while you go: *plaža*, *majica* and *karta* end in *-a* and are feminine, while *vlak*, *avion* and *šešir* are masculine — which matters the moment they become objects.
-infokratko: By meaning. *plaža, majica, karta* f; *vlak, avion, šešir* m.
-stupci: MJESTO | PRIJEVOZ | ODJEĆA
-opis: Sort each word: a place you go, a way of getting there, or something you wear.
-- more | MJESTO
-- plaža | MJESTO
-- otok | MJESTO
-- planina | MJESTO
-- hotel | MJESTO
-- kamp | MJESTO
-- vlak | PRIJEVOZ
-- avion | PRIJEVOZ
-- brod | PRIJEVOZ
-- autobus | PRIJEVOZ
-- auto | PRIJEVOZ
-- majica | ODJEĆA
-- košulja | ODJEĆA
-- haljina | ODJEĆA
-- hlače | ODJEĆA
-- šešir | ODJEĆA
-- kaput | ODJEĆA
-- džemper | ODJEĆA
-
-## Which family?
-format: razvrstavanje
-info: The three present-tense families again. The infinitive can mislead, so judge by the *ja* form: *putovati* looks like *plivati* but gives *putujem*, so it is **-EM**, while *plivati* gives *plivam* and is **-AM**.
-infokratko: By the *ja* form: *putujem* **-em**, *plivam* **-am**.
-stupci: -AM | -IM | -EM
-opis: The three verb families, one more time. *Putovati* and *kretati* hide their family well — the infinitive gives nothing away, the *ja* form gives everything.
-- plivati | -AM
-- ručati | -AM
-- trenirati | -AM
-- planirati | -AM
-- odmarati | -AM
-- letjeti | -IM
-- putovati | -EM
-- ustati | -EM
-- stizati | -EM
-- kretati | -EM
+- savršen / savršena | perfect
 
 ## Match the pictures
 format: spajanje
-info: Picture-to-word matching, pure recognition. Watch the near neighbours: *more* is the sea, *planina* a mountain, *otok* an island, and the pair most often swapped is *brod* (boat) and *vlak* (train).
-infokratko: *more* sea, *planina* mountain, *otok* island; *brod* boat, *vlak* train.
+info: Picture-to-word matching, pure recognition. Watch the near neighbours: *planina* is a mountain and *otok* an island; *majica* is a T-shirt and *košulja* a shirt with buttons and a collar.
+infokratko: *planina* mountain, *otok* island; *majica* T-shirt, *košulja* shirt.
 opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
-- more | sea
 - plaža | beach
 - otok | island
 - planina | mountain
-- hotel | hotel
-- vlak | train
-- avion | airplane
-- brod | boat
-- kofer | suitcase
-- majica | T-shirt
-- šešir | hat
-- sunce | sun
-
-## Match the pairs
-format: parovi
-info: Croatian to English pairing. If a word will not come, its ending still hands you the gender: *plaža*, *karta* and *prtljaga* are feminine, while *otok*, *vlak* and *kofer* are masculine.
-infokratko: *plaža, karta, prtljaga* f; *otok, vlak, kofer* m.
-opis: Match each travel word with its English meaning.
-- vikend | weekend
-- ljeto | summer
-- vlak | train
-- sutra | tomorrow
-- aerodrom | airport
-- karta | ticket
-- avantura | adventure
-- kofer | suitcase
-- plaža | beach
-- otok | island
-- planina | mountain
-- izlet | day trip
-- odmor | holiday
-- prtljaga | luggage
-- ručnik | towel
-- jastuk | pillow
-- tjedan | week
-- mjesec | month
-
-## Memory
-format: memorija
-info: A memory grid of the ten new verbs in their dictionary form. That is exactly the form the future needs after a helper, so every card you flip is already half a sentence: *Ja ću **putovati***.
-infokratko: Dictionary forms, ready for the future: *Ja ću putovati*.
-opis: Flip the cards and find the pairs.
-- putovati | to travel
-- plivati | to swim
-- ručati | to have lunch
-- ustati | to get up
-- trenirati | to train
-- planirati | to plan
-- odmarati | to rest
-- letjeti | to fly
-- stizati | to arrive
-- kretati | to set off
-
-## Speed challenge: the future stem
-format: brzina
-info: A timed drill on one operation only: cut the final *-i* off the infinitive. *plivati → plivat*, *učiti → učit*, *biti → bit*. Nothing else changes — the vowel in front of the *-i* stays put, as in *letjeti → letjet*.
-infokratko: Cut the final *-i*: *plivati → plivat*, *letjeti → letjet*.
-trajanje: 60
-opis: An infinitive flashes — tap the shape it takes in front of **ću**. Drop the final **-i**, and nothing else.
-- plivati | plivat
-- putovati | putovat
-- ručati | ručat
-- ustati | ustat
-- trenirati | trenirat
-- planirati | planirat
-- odmarati | odmarat
-- letjeti | letjet
-- čitati | čitat
-- gledati | gledat
-- slušati | slušat
-- učiti | učit
-- raditi | radit
-- spavati | spavat
-- pisati | pisat
-- vidjeti | vidjet
-- biti | bit
-- jesti | jest
-- piti | pit
-- kupovati | kupovat
-
-## Speed challenge: what is it?
-format: brzina
-info: A timed vocabulary sprint, Croatian to English. Speed comes from the near-twins of English: *hotel*, *kamp*, *avion* and *plan* cost you nothing, so bank those fast and spend your seconds on the clothes.
-infokratko: Easy ones fast (*hotel, kamp, avion*); time on the clothes.
-trajanje: 60
-opis: Travel sprint — tap the English meaning.
-- more | sea
-- plaža | beach
-- otok | island
-- planina | mountain
-- selo | village
-- hotel | hotel
 - kamp | campsite
-- put | way
-- izlet | day trip
-- odmor | holiday
-- vlak | train
-- avion | airplane
-- brod | boat
 - aerodrom | airport
-- kolodvor | station
-- karta | ticket
 - kofer | suitcase
-- prtljaga | luggage
 - ručnik | towel
 - jastuk | pillow
 - majica | T-shirt
 - košulja | shirt
 - haljina | dress
-- hlače | trousers
-- šešir | hat
 - šal | scarf
-- kaput | coat
-- džemper | sweater
-- sutra | tomorrow
-- tjedan | week
-- mjesec | month
-- proljeće | spring
-- jesen | autumn
-- zima | winter
 
-## Build the word
-format: slova
-info: Spelling practice, letter tile by letter tile. Croatian treats *lj*, *nj* and *dž* as single letters, so *košulja*, *haljina* and *proljeće* each take one **lj** tile, and *džemper* opens with a single **dž**.
-infokratko: **lj, nj, dž** one tile each: *košulja, haljina, džemper*.
-opis: Careful — **lj** and **nj** are single letters in Croatian. Taking l and then j will not work.
-- košulja | shirt
-- haljina | dress
-- putovanje | journey
-- proljeće | spring
-- prtljaga | luggage
-- džemper | sweater
-- ručnik | towel
-- rezervacija | reservation
-- avantura | adventure
-- planina | mountain
-
-## Type the future stem
+## First writing: the new words
 format: upis
-info: Type the infinitive minus its final *-i*. A few verbs refuse to play: verbs in **-ći** have no *-i* to drop and keep their whole shape, so *ići* stays *ići* — *Ići ću na more*.
-infokratko: Drop the *-i*; **-ći** verbs stay whole: *Ići ću*.
-opis: You get the infinitive — type the form that stands in front of *ću*.
-- plivati → | plivat
-- putovati → | putovat
-- ručati → | ručat
-- ustati → | ustat
-- trenirati → | trenirat
-- planirati → | planirat
-- odmarati → | odmarat
-- stizati → | stizat
-- kretati → | kretat
-- letjeti → | letjet
-- čitati → | čitat
-- gledati → | gledat
-- učiti → | učit
-- raditi → | radit
-- pisati → | pisat
-- vidjeti → | vidjet
-- biti → | bit
-- jesti → | jest
-- ići → | ići
-
-## Type it in Croatian
-format: upis
-info: The final round, English to Croatian, with spelling counted. Diacritics are part of the word: *plaža*, *ručnik*, *košulja*, *šešir* and *džemper* are wrong without them, so type the letter with its diacritic, not its plain twin.
-infokratko: With diacritics: *plaža, ručnik, košulja, šešir, džemper*.
-opis: The final round — type each word in Croatian.
-- sea | more
+info: You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**: *plivati*, not *plivam* or *plivat*. The diacritics are full letters: *plaža* has **ž**, *ručnik* has **č**, *košulja* has **lj**, *džemper* starts with **dž**, and *proljeće* has both **lj** and **ć**. This is the only page with new words alone; after it they mix with older words.
+infokratko: Type each new word once; verbs as infinitives (*plivati*). Diacritics count: *plaža, ručnik, košulja, džemper*.
+opis: English meaning in, Croatian word out. Say it aloud before you type.
 - beach | plaža
 - island | otok
 - mountain | planina
-- village | selo
-- hotel | hotel
-- campsite | kamp
-- day trip | izlet
-- holiday | odmor
-- journey | putovanje
-- train | vlak
-- airplane | avion
-- boat | brod
-- airport | aerodrom
-- station | kolodvor
-- ticket | karta
 - suitcase | kofer
 - luggage | prtljaga
 - towel | ručnik
-- pillow | jastuk
-- T-shirt | majica
 - shirt | košulja
 - dress | haljina
-- trousers | hlače
-- hat | šešir
-- scarf | šal
-- coat | kaput
 - sweater | džemper
 - tomorrow | sutra
 - week | tjedan
-- month | mjesec
-- summer | ljeto
-- winter | zima
 - spring | proljeće
-- autumn | jesen
-- to travel | putovati
+- early | rano
 - to swim | plivati
-- to rest | odmarati
-- to arrive | stizati
 - to fly | letjeti
+
+## Speed challenge: old and new
+format: brzina
+info: Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–6, half and half. Two pairs to keep apart: *auto* is a car, while *autobus* is a bus; *stizati* is to arrive, while *putovati* is to travel.
+infokratko: New and old words against the clock. *auto* car, *autobus* bus; *stizati* arrive, *putovati* travel.
+trajanje: 60
+opis: A Croatian word appears — tap its English meaning before the timer runs out!
+- izlet | day trip
+- hotel | hotel
+- rezervacija | reservation
+- knjiga | book
+- kaput | coat
+- ozbiljan | serious
+- vikend | weekend
+- koncert | concert
+- mjesec | month
+- auto | car
+- jesen | autumn
+- igla | needle
+- putovati | to travel
+- djeca | children
+- stizati | to arrive
+- autobus | bus
+- kasno | late
+- pjevač | singer
+- navečer | in the evening
+- policajac | police officer
+
+## Sort by gender
+format: razvrstavanje
+info: Sort nouns into masculine, feminine and neuter by the last letter, the rule from Grammar 1: a consonant is masculine (*otok*, *krevet*), **-a** is feminine (*plaža*, *jabuka*), **-o** or **-e** is neuter (*putovanje*, *dijete*). It matters the moment a noun becomes an object: *Nosit ću **majicu***, but *Nosit ću **kofer***.
+infokratko: Consonant = masculine (*otok*), **-a** = feminine (*plaža*), **-o / -e** = neuter (*putovanje*).
+stupci: masculine | feminine | neuter
+opis: Look at the last letter of each word and drop it into the right column.
+- otok | masculine
+- kofer | masculine
+- ručnik | masculine
+- krevet | masculine
+- kruh | masculine
+- dućan | masculine
+- pilot | masculine
+- plaža | feminine
+- majica | feminine
+- planina | feminine
+- jabuka | feminine
+- lampa | feminine
+- mačka | feminine
+- putovanje | neuter
+- proljeće | neuter
+- dijete | neuter
+
+## Type it in Croatian
+format: upis
+info: The final writing round mixes today's words with older ones. Verbs as infinitives again, adjectives in the short form (*savršen*, *lijep*). The diacritics count: *kuća* ends in **ć**, *ponedjeljak* has **lj**, *hlače* has **č**, and *lijep* is written with **ije**, just as it sounds.
+infokratko: Mixed final round. Verbs as infinitives. Diacritics count: *kuća, ponedjeljak, hlače*.
+opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
+- pillow | jastuk
+- today | danas
+- trousers | hlače
+- grandpa | djed
+- Monday | ponedjeljak
+- beans | grah
+- in the morning | ujutro
+- airplane | avion
+- to rest | odmarati
+- house | kuća
+- perfect | savršen
+- beautiful | lijep

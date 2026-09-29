@@ -1,0 +1,99 @@
+san → snovi
+sreća
+zima
+val → valovi
+zvijezda
+brod
+ručak
+dobiti
+ostati
+zamisliti
+žuriti
+sjati
+možda
+prvo
+isto
+isti
+Dogovoreno!
+k meni
+milijun
+lutrija
+jahta
+vila
+fantazija
+alarm
+balkon
+nadati se
+bojati se
+brinuti se
+ljutiti se
+sanjati
+željeti
+plakati
+smijati se
+osjećati
+veseliti se
+izgledati
+maštati
+nada
+strah
+briga
+radost
+tuga
+osjećaj
+ljubav
+želja
+mir
+otok
+plaža
+budućnost
+cilj
+plan
+ideja
+euro
+televizor
+savršen
+bogat
+siromašan
+sretan
+tužan
+ljut
+zabrinut
+nervozan
+ponosan
+zadovoljan
+iznenađen
+umoran
+ovako
+baš
+duže
+ako
+kad
+da
+posebno
+ništa
+htjeti
+vikend
+rijeka
+teretana
+mjesec
+nebo
+planina
+avantura
+bazen
+vrt
+pas
+konj
+dvorac
+kraljica
+kralj
+princeza
+slavan
+poznat
+uspjeh
+posao
+putovati
+plivati
+kupiti
+imati
+EOF

@@ -3,11 +3,9 @@ cjelina: Vocabulary 10
 
 ## Free time & entertainment
 format: kartice
-info: The words for what you did with your free time. Film words are mostly international — *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *film* takes *dobar film*, *serija* takes *dobra serija* and *kino* takes *dobro kino*.
-infokratko: Free-time words, mostly international. The ending gives the gender: *dobar film, dobra serija, dobro kino*.
+info: The words for what you watched and where you went. Most are international — *serija*, *komedija*, *drama*, *akcija*, *dokumentarac* — and each word's ending gives its gender as usual, so *horor* takes *dobar horor*, *serija* takes *dobra serija* and *kazalište* takes *dobro kazalište*. Two to learn by heart: *kazalište* is the theater and *izložba* an exhibition.
+infokratko: Free-time words, mostly international. The ending gives the gender: *dobar horor, dobra serija, dobro kazalište*.
 opis: What you watched, where you went, what you ate. Tap a card to reveal the meaning.
-- kino | cinema
-- film | film
 - serija | series
 - komedija | comedy
 - drama | drama
@@ -15,33 +13,20 @@ opis: What you watched, where you went, what you ate. Tap a card to reveal the m
 - horor | horror film
 - dokumentarac | documentary
 - program | TV program
-- koncert | concert
-- utakmica | match
 - kazalište | theater
 - izložba | exhibition
 - pizza | pizza
-- sladoled | ice cream
-- kava | coffee
-- tenis | tennis
-- šah | chess
-- knjiga | book
-- ispit | exam
-- posao | work, job
-- vikend | weekend
 
 ## When did it happen?
 format: kartice
-info: Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *danas*, *sutra*, *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.
-infokratko: Time words. *jučer* yesterday, *sinoć* last night, *prekjučer* day before. Not all are past: *sutra, uskoro*.
+info: Time words, and they are what turns a sentence into a story. *Jučer* is yesterday, *sinoć* last night, *prekjučer* the day before. Several are not about the past at all — *obično*, *uskoro*, *ponovno*, *odmah* — so read the meaning on each card rather than assuming.
+infokratko: Time words. *jučer* yesterday, *sinoć* last night, *prekjučer* day before. Not all are past: *uskoro, odmah*.
 opis: The words that place a story in time. Only *prošli* changes shape (*prošli vikend*, *prošla godina*); the rest never do.
 - jučer | yesterday
 - sinoć | last night
 - prekjučer | the day before yesterday
 - jutros | this morning
-- danas | today
-- sutra | tomorrow
 - prije | before
-- poslije | afterwards
 - tada | then, at that time
 - nedavno | recently
 - obično | usually
@@ -57,61 +42,13 @@ opis: The words that place a story in time. Only *prošli* changes shape (*proš
 - prošla godina | last year
 - prošli / prošla / prošlo | last, past
 
-## Verbs and their participles
-format: kartice
-info: Each card gives three shapes: the dictionary form, the *ja* form for the present, and the participle for the past. The participle usually comes from the dictionary form by dropping **-ti** and adding **-o**, but four of these do something else: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.
-infokratko: Infinitive, *ja* form, participle (**-ti → -o**). Irregular: *išao, došao, vidio, jeo*.
-opis: Three shapes per verb: dictionary form, *ja* form, and the participle you need for the past.
-- gledati → gledam → gledao | to watch
-- čitati → čitam → čitao | to read
-- spavati → spavam → spavao | to sleep
-- igrati → igram → igrao | to play
-- kuhati → kuham → kuhao | to cook
-- plivati → plivam → plivao | to swim
-- pjevati → pjevam → pjevao | to sing
-- raditi → radim → radio | to work
-- učiti → učim → učio | to study
-- putovati → putujem → putovao | to travel
-- piti → pijem → pio | to drink
-- jesti → jedem → jeo | to eat
-- biti → sam → bio | to be
-- ići → idem → išao | to go
-- doći → dođem → došao | to come
-- vidjeti → vidim → vidio | to see
-- ustati → ustanem → ustao | to get up
-- znati → znam → znao | to know
-- imati → imam → imao | to have
-- pobijediti → pobijedim → pobijedio | to win
-
-## The participle in three forms
-format: kartice
-info: The same participles laid out by speaker: **-o** for a man, **-la** for a woman, **-li** for a group. *Bio, bila, bili* is the one you will use most. Watch *išao → išla* and *došao → došla*, where the *a* of the male form is not there in the others.
-infokratko: **-o** man, **-la** woman, **-li** group: *bio, bila, bili*. *išao → išla*.
-opis: A man says the first form, a woman the second, a group the third.
-- bio / bila / bili | was, were
-- gledao / gledala / gledali | watched
-- čitao / čitala / čitali | read
-- spavao / spavala / spavali | slept
-- pio / pila / pili | drank
-- jeo / jela / jeli | ate
-- igrao / igrala / igrali | played
-- učio / učila / učili | studied
-- pjevao / pjevala / pjevali | sang
-- kuhao / kuhala / kuhali | cooked
-- plivao / plivala / plivali | swam
-- radio / radila / radili | worked
-- išao / išla / išli | went
-- došao / došla / došli | came
-- vidio / vidjela / vidjeli | saw
-- ustao / ustala / ustali | got up
-- znao / znala / znali | knew
-- imao / imala / imali | had
-
 ## Phrases for telling a story
 format: kartice
-info: Whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.
-infokratko: Fixed phrases, male and female: *Gdje si bio / bila?* *Kako je bilo?* stays.
-opis: The questions you will be asked about yesterday, and the answers you will give.
+info: Two new verbs first, each with its *ja* form and its participle, the form a story about yesterday needs. *biti → bio* and *doći → došao* are both irregular, so learn them as they are. Then whole phrases, to be used as they are. Three of them come in a male and a female version — *Gdje si bio / bila?*, *Što si radio / radila?*, *Jesi li gledao / gledala film?* — so a woman is asked *Gdje si bila?* and answers *Bila sam…*, while *Kako je bilo?* stays as it is.
+infokratko: *biti → bio*, *doći → došao*. Fixed phrases, male and female: *Gdje si bio / bila?* *Kako je bilo?* stays.
+opis: Two verbs, then the questions you will be asked about yesterday and the answers you will give.
+- biti → sam → bio | to be
+- doći → dođem → došao | to come
 - Gdje si bio? | Where were you? (to a man)
 - Gdje si bila? | Where were you? (to a woman)
 - Što si radio? | What did you do? (to a man)
@@ -125,290 +62,109 @@ opis: The questions you will be asked about yesterday, and the answers you will 
 - Nisam imao vremena. | I didn't have time.
 - Sve sam znao! | I knew everything!
 
-## He, she or they?
-format: razvrstavanje
-info: Sorting participles by their ending alone. **-o** belongs to a man or boy, **-la** to a woman or girl, **-li** to any group, and **-lo** to a neuter subject such as *more* or *sunce* — *Bilo je savršeno*.
-infokratko: **-o** he, **-la** she, **-li** group, **-lo** neuter: *Bilo je savršeno*.
-opis: Who could say this, or what is it said about? Read only the ending.
-stupci: ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)
-- gledao | ON (-o)
-- pio | ON (-o)
-- bio | ON (-o)
-- išao | ON (-o)
-- vidio | ON (-o)
-- gledala | ONA (-la)
-- pjevala | ONA (-la)
-- bila | ONA (-la)
-- išla | ONA (-la)
-- vidjela | ONA (-la)
-- gledali | MI / ONI (-li)
-- jeli | MI / ONI (-li)
-- bili | MI / ONI (-li)
-- došli | MI / ONI (-li)
-- bilo | ONO (-lo)
-- spavalo | ONO (-lo)
-- čitalo | ONO (-lo)
-
-## Now or yesterday?
-format: razvrstavanje
-info: Sorting by tense. A verb with a personal ending is the present (*pijem*, *gledaš*, *radi*); a participle with a form of *biti* beside it is the past (*pio sam*, *gledali smo*). The helper is the giveaway.
-infokratko: Personal ending = present; participle + *biti* = past.
-opis: Is it happening now, or did it happen yesterday? Sort the forms.
-stupci: SADA | JUČER
-- pijem kavu | SADA
-- pio sam kavu | JUČER
-- gledam film | SADA
-- gledao sam film | JUČER
-- učimo | SADA
-- učili smo | JUČER
-- ona pjeva | SADA
-- ona je pjevala | JUČER
-- idem u kino | SADA
-- išao sam u kino | JUČER
-- jedu pizzu | SADA
-- jeli su pizzu | JUČER
-- radim | SADA
-- radio sam | JUČER
-- more je toplo | SADA
-- more je bilo toplo | JUČER
-
-## Before, now or soon?
-format: razvrstavanje
-info: Sorting the time words by where they point. *Jučer*, *sinoć*, *prekjučer* and *nedavno* look back; *danas*, *sad* and *obično* are about now; *sutra* and *uskoro* look forward. *Tada* points back to a moment already mentioned.
-infokratko: Back: *jučer, sinoć, nedavno*; now: *danas, sad*; forward: *sutra, uskoro*. *tada* = then.
-opis: Does the word point back, at now, or forward? Sort them.
-stupci: PRIJE | SADA | POSLIJE
-- jučer | PRIJE
-- sinoć | PRIJE
-- prekjučer | PRIJE
-- nedavno | PRIJE
-- prošli tjedan | PRIJE
-- tada | PRIJE
-- jutros | PRIJE
-- danas | SADA
-- sad | SADA
-- obično | SADA
-- odmah | SADA
-- sutra | POSLIJE
-- uskoro | POSLIJE
-- poslije | POSLIJE
-
-## Match the pictures
-format: spajanje
-info: Picture-to-word matching, with no English on the page. Every word here can be the object of a story about yesterday — *Gledao sam film*, *Jeo sam kruh* — and the masculine ones don't change shape, while the **-a** words take **-u**: *Slušao sam gitaru*.
-infokratko: Objects for yesterday: *Gledao sam film*; **-a** → **-u**: *Slušao sam gitaru*.
-opis: Twelve pictures, twelve words. Not sure? Open the dictionary — the floating icon on the right.
-- kino | cinema
-- film | film
-- koncert | concert
-- gitara | guitar
-- lopta | ball
-- more | sea
-- kava | coffee
-- kruh | bread
-- sendvič | sandwich
-- knjiga | book
-- pas | dog
-- sunce | sun
-
-## Match the pairs
+## Match the new words
 format: parovi
-info: Each dictionary form beside its **he** participle. Most take off *-ti* and add *-o*; the four to memorise are *ići → išao*, *doći → došao*, *vidjeti → vidio* and *jesti → jeo*.
-infokratko: *-ti → -o*. Memorise *išao, došao, vidio, jeo*.
-opis: Match each verb with its past form (the he-form).
-- gledati | gledao
-- čitati | čitao
-- spavati | spavao
-- piti | pio
-- jesti | jeo
-- biti | bio
-- igrati | igrao
-- učiti | učio
-- ići | išao
-- doći | došao
-- vidjeti | vidio
-- ustati | ustao
-- putovati | putovao
-- pobijediti | pobijedio
-
-## Memory
-format: memorija
-info: A pairs game over the free-time words. The film genres are international, so use the game to fix the three that are not: *kazalište*, *izložba* and *dokumentarac*.
-infokratko: Genres are international; learn *kazalište, izložba, dokumentarac*.
-opis: Flip the cards and find the pairs.
-- kino | cinema
-- koncert | concert
-- kazalište | theater
-- izložba | exhibition
-- serija | series
-- komedija | comedy
-- horor | horror film
-- dokumentarac | documentary
-- ispit | exam
-- vikend | weekend
-
-## Speed challenge: what does it mean?
-format: brzina
-info: A timed meaning sprint over the whole level. The film words cost you nothing, so bank those first and spend your seconds on the time words, where *prekjučer*, *sinoć* and *nedavno* are easy to mix up.
-infokratko: Films are easy; watch *prekjučer, sinoć, nedavno*.
-trajanje: 60
-opis: Tap the English meaning before the timer runs out.
-- kino | cinema
-- koncert | concert
-- kazalište | theater
-- izložba | exhibition
-- serija | series
-- komedija | comedy
+info: A pairing drill on words from all three card pages, recognition only. The film words give themselves away, so spend your attention on the short time words: *tada* is then, *prije* before, *kratko* briefly and *ponovno* again.
+infokratko: New words only. Films are easy; watch *tada, prije, kratko, ponovno*.
+opis: Match each Croatian word with its English meaning.
+- drama | drama
 - akcija | action film
 - horor | horror film
-- dokumentarac | documentary
 - program | TV program
-- ispit | exam
-- posao | work
-- jučer | yesterday
-- sinoć | last night
-- prekjučer | the day before yesterday
-- jutros | this morning
-- prije | before
-- poslije | afterwards
+- pizza | pizza
 - tada | then
-- nedavno | recently
-- obično | usually
-- ponovno | again
-- uskoro | soon
-- odmah | immediately
-- dugo | for a long time
+- prije | before
 - kratko | briefly
-- prošli tjedan | last week
-
-## Speed challenge: the participle
-format: brzina
-info: A timed run from the dictionary form to the **he** participle. The rule is one swap — off with *-ti*, on with *-o* — so the seconds you lose will go on *ići*, *doći*, *vidjeti* and *jesti*.
-infokratko: *-ti → -o*. Slow ones: *ići, doći, vidjeti, jesti*.
-trajanje: 45
-opis: A verb flashes — tap its he-participle before it disappears.
-- gledati | gledao
-- čitati | čitao
-- spavati | spavao
-- igrati | igrao
-- kuhati | kuhao
-- plivati | plivao
-- pjevati | pjevao
-- raditi | radio
-- učiti | učio
-- putovati | putovao
-- piti | pio
-- jesti | jeo
-- biti | bio
-- ići | išao
-- doći | došao
-- vidjeti | vidio
-- ustati | ustao
-- znati | znao
-
-## Words from earlier levels
-format: brzina
-info: A timed return to words from Vocabulary 7 and 8 that have not appeared for a while. Nothing here is new; the point is to keep older words in use before they slip.
-infokratko: Older words from levels 7–8.
-trajanje: 60
-opis: Words from two and three levels ago — tap the English meaning.
-- zadaća | homework
-- ocjena | grade
-- olovka | pencil
-- torba | bag
-- odgovor | answer
-- pauza | break
-- jezik | language
-- kofer | suitcase
-- prtljaga | luggage
-- ručnik | towel
-- kolodvor | station
-- aerodrom | airport
-- plaža | beach
-- otok | island
-- planina | mountain
-- izlet | day trip
-
-## Build the word
-format: slova
-info: Spelling from letter tiles. Croatian counts **lj**, **nj** and **dž** as single letters, so *kazalište* needs no such tile, while *prekjučer* needs **č**, *sinoć* needs **ć** and *izložba* needs **ž**.
-infokratko: *prekjučer* **č**, *sinoć* **ć**, *izložba* **ž**.
-opis: Careful — **lj** and **nj** are single letters in Croatian, and **č, ć, š, ž** are letters of their own.
-- kazalište | theater
-- izložba | exhibition
-- dokumentarac | documentary
-- prekjučer | the day before yesterday
 - ponovno | again
-- vidjela | saw (she)
-- došla | came (she)
-- pobijedio | won
-- putovao | travelled
-- sinoć | last night
+- cijeli sat | a whole hour
+- prošla godina | last year
+- biti | to be
 
-## Type the participle
+## First writing: the new words
 format: upis
-info: Type the participle in the form the bracket asks for: *(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Keep every diacritic from the infinitive, and watch the four that change more than the ending — *ići*, *doći*, *vidjeti*, *jesti*.
-infokratko: *(he)* **-o**, *(she)* **-la**, *(they)* **-li**. Irregular: *ići, doći, vidjeti, jesti*.
-opis: Type the participle in the form named in the bracket.
-- gledati (he) → | gledao
-- čitati (she) → | čitala
-- spavati (they) → | spavali
-- piti (she) → | pila
-- jesti (he) → | jeo
-- biti (she) → | bila
-- biti (it) → | bilo
-- igrati (they) → | igrali
-- učiti (he) → | učio
-- ići (he) → | išao
-- ići (she) → | išla
-- doći (they) → | došli
-- vidjeti (he) → | vidio
-- vidjeti (she) → | vidjela
-- ustati (he) → | ustao
-- putovati (they) → | putovali
-
-## Type it in Croatian
-format: upis
-info: English to Croatian, with spelling counted. The nouns are wanted in their naming form and the verbs as infinitives, and the diacritics are part of the word: *kazalište*, *izložba*, *sinoć*, *prekjučer*.
-infokratko: Naming forms, infinitives, diacritics: *kazalište, sinoć, prekjučer*.
-opis: The final round — type each word in Croatian.
-- cinema | kino
-- film | film
-- series | serija
-- comedy | komedija
-- action film | akcija
-- horror film | horor
-- documentary | dokumentarac
-- concert | koncert
-- theater | kazalište
-- exhibition | izložba
-- match | utakmica
-- exam | ispit
-- work | posao
-- weekend | vikend
-- book | knjiga
-- coffee | kava
+info: You write each new word once, from its English meaning. The verb is wanted as an infinitive, ending in **-ći** here: *doći*, not *dođem*. The diacritics are full letters: *jučer* and *prekjučer* have **č**, *sinoć* ends in **ć**, *kazalište* has **š** and *izložba* has **ž**. This is the only page with new words alone; after it they mix with older words.
+infokratko: Type each new word once; the verb as an infinitive (*doći*). Diacritics count: *jučer, sinoć, kazalište, izložba*.
+opis: English meaning in, Croatian word out. Say it aloud before you type.
 - yesterday | jučer
 - last night | sinoć
 - the day before yesterday | prekjučer
 - this morning | jutros
-- tomorrow | sutra
-- before | prije
-- afterwards | poslije
-- then | tada
 - recently | nedavno
 - usually | obično
-- again | ponovno
 - soon | uskoro
 - immediately | odmah
 - for a long time | dugo
-- to watch | gledati
-- to read | čitati
-- to sleep | spavati
-- to drink | piti
-- to eat | jesti
-- to go | ići
 - to come | doći
-- to see | vidjeti
-- to get up | ustati
-- to travel | putovati
+- series | serija
+- comedy | komedija
+- theater | kazalište
+- exhibition | izložba
+- documentary | dokumentarac
+
+## Speed challenge: old and new
+format: brzina
+info: Timed recognition of today's words mixed with words from Vocabulary 1–8, half and half. Three time words are easy to mix up — *jučer* yesterday, *sinoć* last night, *prekjučer* the day before — and two old ones point the other way: *obično* is usually, *nikad* never.
+infokratko: New and old words against the clock. *jučer, sinoć, prekjučer*; *obično* usually, *nikad* never.
+trajanje: 60
+opis: A Croatian word appears — tap its English meaning before the timer runs out!
+- jučer | yesterday
+- šef | boss
+- sinoć | last night
+- nikad | never
+- prekjučer | the day before yesterday
+- jedna | one (feminine)
+- nedavno | recently
+- blizu | near
+- obično | usually
+- djevojčica | girl
+- uskoro | soon
+- banana | banana
+- odmah | immediately
+- nov | new
+- tada | then
+- Talijan | Italian
+- kratko | briefly
+- gospodin | Mr
+- komedija | comedy
+- gospođa | Mrs
+
+## dobar, dobra or dobro?
+format: razvrstavanje
+info: Sorting nouns by the form of *dobar* they take, and the last letter of the noun is your guide. A consonant takes **dobar** (*dobar horor*, *dobar aerodrom*), **-a** takes **dobra** (*dobra serija*, *dobra juha*), **-o** or **-e** takes **dobro** (*dobro kazalište*, *dobro pismo*). The same ending goes on *prošli*: *prošli program*, *prošla izložba*.
+infokratko: Consonant **dobar**, **-a** **dobra**, **-o/-e** **dobro**: *dobar horor, dobra serija, dobro kazalište*.
+opis: Which form of *good* does each noun take? The last letter of the noun decides.
+stupci: DOBAR | DOBRA | DOBRO
+- horor | DOBAR
+- dokumentarac | DOBAR
+- program | DOBAR
+- aerodrom | DOBAR
+- ananas | DOBAR
+- serija | DOBRA
+- komedija | DOBRA
+- izložba | DOBRA
+- drama | DOBRA
+- bolnica | DOBRA
+- juha | DOBRA
+- avantura | DOBRA
+- kazalište | DOBRO
+- nebo | DOBRO
+- društvo | DOBRO
+- pismo | DOBRO
+
+## Type it in Croatian
+format: upis
+info: The final writing round mixes today's words with older ones. Verbs as infinitives, adjectives in the short form (*plav*, *jeftin*), and *prošli* in the form its noun needs: *prošli tjedan*. *Talijanka* starts with a capital letter, like every nationality, and the diacritics count as always.
+infokratko: Mixed final round. Verbs as infinitives, adjectives short (*plav*). *prošli tjedan*; *Talijanka* with a capital.
+opis: The final challenge — type each word in Croatian. Remember: Croatian is written exactly as it sounds.
+- again | ponovno
+- nose | nos
+- before | prije
+- blue | plav
+- last week | prošli tjedan
+- cheap | jeftin
+- the whole day | cijeli dan
+- to write | pisati
+- action film | akcija
+- document | dokument
+- horror film | horor
+- Italian (she) | Talijanka

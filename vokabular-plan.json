@@ -1,0 +1,2442 @@
+{
+ "1": [
+  {
+   "hr": "ananas",
+   "en": "pineapple",
+   "od": 0
+  },
+  {
+   "hr": "banana",
+   "en": "banana",
+   "od": 0
+  },
+  {
+   "hr": "cipela",
+   "en": "shoe",
+   "od": 0
+  },
+  {
+   "hr": "čokolada",
+   "en": "chocolate",
+   "od": 0
+  },
+  {
+   "hr": "ćevapi",
+   "en": "grilled meat",
+   "od": 0
+  },
+  {
+   "hr": "drvo",
+   "en": "tree",
+   "od": 0
+  },
+  {
+   "hr": "džem",
+   "en": "jam",
+   "od": 0
+  },
+  {
+   "hr": "đak",
+   "en": "pupil",
+   "od": 0
+  },
+  {
+   "hr": "ekran",
+   "en": "screen",
+   "od": 0
+  },
+  {
+   "hr": "farma",
+   "en": "farm",
+   "od": 0
+  },
+  {
+   "hr": "gitara",
+   "en": "guitar",
+   "od": 0
+  },
+  {
+   "hr": "hotel",
+   "en": "hotel",
+   "od": 0
+  },
+  {
+   "hr": "igla",
+   "en": "needle",
+   "od": 0
+  },
+  {
+   "hr": "jabuka",
+   "en": "apple",
+   "od": 0
+  },
+  {
+   "hr": "kuća",
+   "en": "house",
+   "od": 0
+  },
+  {
+   "hr": "lav",
+   "en": "lion",
+   "od": 0
+  },
+  {
+   "hr": "ljeto",
+   "en": "summer",
+   "od": 0
+  },
+  {
+   "hr": "more",
+   "en": "sea",
+   "od": 0
+  },
+  {
+   "hr": "nos",
+   "en": "nose",
+   "od": 0
+  },
+  {
+   "hr": "njuška",
+   "en": "snout",
+   "od": 0
+  },
+  {
+   "hr": "oko",
+   "en": "eye",
+   "od": 0
+  },
+  {
+   "hr": "pas",
+   "en": "dog",
+   "od": 0
+  },
+  {
+   "hr": "riba",
+   "en": "fish",
+   "od": 0
+  },
+  {
+   "hr": "sunce",
+   "en": "sun",
+   "od": 0
+  }
+ ],
+ "2": [
+  {
+   "hr": "šešir",
+   "en": "hat",
+   "od": 0
+  },
+  {
+   "hr": "torta",
+   "en": "cake",
+   "od": 0
+  },
+  {
+   "hr": "uho",
+   "en": "ear",
+   "od": 0
+  },
+  {
+   "hr": "vino",
+   "en": "wine",
+   "od": 0
+  },
+  {
+   "hr": "zebra",
+   "en": "zebra",
+   "od": 0
+  },
+  {
+   "hr": "žaba",
+   "en": "frog",
+   "od": 0
+  },
+  {
+   "hr": "automobil",
+   "en": "car",
+   "od": 1
+  },
+  {
+   "hr": "bijel",
+   "en": "white",
+   "od": 1
+  },
+  {
+   "hr": "brz",
+   "en": "fast",
+   "od": 1
+  },
+  {
+   "hr": "crn",
+   "en": "black",
+   "od": 1
+  },
+  {
+   "hr": "crven",
+   "en": "red",
+   "od": 1
+  },
+  {
+   "hr": "dan",
+   "en": "day",
+   "od": 1
+  },
+  {
+   "hr": "ananas",
+   "en": "pineapple",
+   "od": 0
+  },
+  {
+   "hr": "dobar",
+   "en": "good",
+   "od": 1
+  },
+  {
+   "hr": "banana",
+   "en": "banana",
+   "od": 0
+  },
+  {
+   "hr": "film",
+   "en": "film",
+   "od": 1
+  },
+  {
+   "hr": "cipela",
+   "en": "shoe",
+   "od": 0
+  },
+  {
+   "hr": "grad",
+   "en": "city",
+   "od": 1
+  },
+  {
+   "hr": "čokolada",
+   "en": "chocolate",
+   "od": 0
+  },
+  {
+   "hr": "hladan",
+   "en": "cold",
+   "od": 1
+  },
+  {
+   "hr": "ćevapi",
+   "en": "grilled meat",
+   "od": 0
+  },
+  {
+   "hr": "kava",
+   "en": "coffee",
+   "od": 1
+  },
+  {
+   "hr": "drvo",
+   "en": "tree",
+   "od": 0
+  },
+  {
+   "hr": "knjiga",
+   "en": "book",
+   "od": 1
+  }
+ ],
+ "3": [
+  {
+   "hr": "džem",
+   "en": "jam",
+   "od": 0
+  },
+  {
+   "hr": "krevet",
+   "en": "bed",
+   "od": 1
+  },
+  {
+   "hr": "đak",
+   "en": "pupil",
+   "od": 0
+  },
+  {
+   "hr": "lampa",
+   "en": "lamp",
+   "od": 1
+  },
+  {
+   "hr": "ekran",
+   "en": "screen",
+   "od": 0
+  },
+  {
+   "hr": "lijep",
+   "en": "beautiful",
+   "od": 1
+  },
+  {
+   "hr": "farma",
+   "en": "farm",
+   "od": 0
+  },
+  {
+   "hr": "mali",
+   "en": "small",
+   "od": 1
+  },
+  {
+   "hr": "gitara",
+   "en": "guitar",
+   "od": 0
+  },
+  {
+   "hr": "mekan",
+   "en": "soft",
+   "od": 1
+  },
+  {
+   "hr": "hotel",
+   "en": "hotel",
+   "od": 0
+  },
+  {
+   "hr": "moderan",
+   "en": "modern",
+   "od": 1
+  },
+  {
+   "hr": "igla",
+   "en": "needle",
+   "od": 0
+  },
+  {
+   "hr": "nebo",
+   "en": "sky",
+   "od": 1
+  },
+  {
+   "hr": "jabuka",
+   "en": "apple",
+   "od": 0
+  },
+  {
+   "hr": "nov",
+   "en": "new",
+   "od": 1
+  },
+  {
+   "hr": "kuća",
+   "en": "house",
+   "od": 0
+  },
+  {
+   "hr": "plav",
+   "en": "blue",
+   "od": 1
+  },
+  {
+   "hr": "lav",
+   "en": "lion",
+   "od": 0
+  },
+  {
+   "hr": "problem",
+   "en": "problem",
+   "od": 1
+  },
+  {
+   "hr": "ljeto",
+   "en": "summer",
+   "od": 0
+  },
+  {
+   "hr": "prozor",
+   "en": "window",
+   "od": 1
+  },
+  {
+   "hr": "more",
+   "en": "sea",
+   "od": 0
+  },
+  {
+   "hr": "restoran",
+   "en": "restaurant",
+   "od": 1
+  }
+ ],
+ "4": [
+  {
+   "hr": "nos",
+   "en": "nose",
+   "od": 0
+  },
+  {
+   "hr": "sladak",
+   "en": "sweet",
+   "od": 1
+  },
+  {
+   "hr": "čovjek",
+   "en": "person, man",
+   "od": 2
+  },
+  {
+   "hr": "njuška",
+   "en": "snout",
+   "od": 0
+  },
+  {
+   "hr": "sladoled",
+   "en": "ice cream",
+   "od": 1
+  },
+  {
+   "hr": "drag",
+   "en": "kind, dear",
+   "od": 2
+  },
+  {
+   "hr": "oko",
+   "en": "eye",
+   "od": 0
+  },
+  {
+   "hr": "soba",
+   "en": "room",
+   "od": 1
+  },
+  {
+   "hr": "Engleskinja",
+   "en": "English person (she)",
+   "od": 2
+  },
+  {
+   "hr": "pas",
+   "en": "dog",
+   "od": 0
+  },
+  {
+   "hr": "sport",
+   "en": "sport",
+   "od": 1
+  },
+  {
+   "hr": "Englez",
+   "en": "English person",
+   "od": 2
+  },
+  {
+   "hr": "riba",
+   "en": "fish",
+   "od": 0
+  },
+  {
+   "hr": "star",
+   "en": "old",
+   "od": 1
+  },
+  {
+   "hr": "gladan",
+   "en": "hungry",
+   "od": 2
+  },
+  {
+   "hr": "sunce",
+   "en": "sun",
+   "od": 0
+  },
+  {
+   "hr": "stol",
+   "en": "table",
+   "od": 1
+  },
+  {
+   "hr": "glumac",
+   "en": "actor",
+   "od": 2
+  },
+  {
+   "hr": "ananas",
+   "en": "pineapple",
+   "od": 0
+  },
+  {
+   "hr": "taksi",
+   "en": "taxi",
+   "od": 1
+  },
+  {
+   "hr": "gost",
+   "en": "guest",
+   "od": 2
+  },
+  {
+   "hr": "banana",
+   "en": "banana",
+   "od": 0
+  },
+  {
+   "hr": "telefon",
+   "en": "telephone",
+   "od": 1
+  },
+  {
+   "hr": "hrabar",
+   "en": "brave",
+   "od": 2
+  }
+ ],
+ "5": [
+  {
+   "hr": "cipela",
+   "en": "shoe",
+   "od": 0
+  },
+  {
+   "hr": "topao",
+   "en": "warm",
+   "od": 1
+  },
+  {
+   "hr": "Hrvat",
+   "en": "Croat",
+   "od": 2
+  },
+  {
+   "hr": "crtati",
+   "en": "to draw",
+   "od": 3
+  },
+  {
+   "hr": "čokolada",
+   "en": "chocolate",
+   "od": 0
+  },
+  {
+   "hr": "velik",
+   "en": "big",
+   "od": 1
+  },
+  {
+   "hr": "Hrvatica",
+   "en": "Croat (she)",
+   "od": 2
+  },
+  {
+   "hr": "crtić",
+   "en": "cartoon",
+   "od": 3
+  },
+  {
+   "hr": "ćevapi",
+   "en": "grilled meat",
+   "od": 0
+  },
+  {
+   "hr": "zelen",
+   "en": "green",
+   "od": 1
+  },
+  {
+   "hr": "Hrvatska",
+   "en": "Croatia",
+   "od": 2
+  },
+  {
+   "hr": "čaj",
+   "en": "tea",
+   "od": 3
+  },
+  {
+   "hr": "drvo",
+   "en": "tree",
+   "od": 0
+  },
+  {
+   "hr": "žut",
+   "en": "yellow",
+   "od": 1
+  },
+  {
+   "hr": "ime",
+   "en": "name",
+   "od": 2
+  },
+  {
+   "hr": "časopis",
+   "en": "magazine",
+   "od": 3
+  },
+  {
+   "hr": "šešir",
+   "en": "hat",
+   "od": 0
+  },
+  {
+   "hr": "automobil",
+   "en": "car",
+   "od": 1
+  },
+  {
+   "hr": "jako",
+   "en": "very",
+   "od": 2
+  },
+  {
+   "hr": "često",
+   "en": "often",
+   "od": 3
+  },
+  {
+   "hr": "torta",
+   "en": "cake",
+   "od": 0
+  },
+  {
+   "hr": "bijel",
+   "en": "white",
+   "od": 1
+  },
+  {
+   "hr": "kuhar",
+   "en": "cook, chef",
+   "od": 2
+  },
+  {
+   "hr": "čitati",
+   "en": "to read",
+   "od": 3
+  }
+ ],
+ "6": [
+  {
+   "hr": "uho",
+   "en": "ear",
+   "od": 0
+  },
+  {
+   "hr": "brz",
+   "en": "fast",
+   "od": 1
+  },
+  {
+   "hr": "ljubazan",
+   "en": "polite",
+   "od": 2
+  },
+  {
+   "hr": "doručak",
+   "en": "breakfast",
+   "od": 3
+  },
+  {
+   "hr": "baka",
+   "en": "grandma",
+   "od": 4
+  },
+  {
+   "hr": "vino",
+   "en": "wine",
+   "od": 0
+  },
+  {
+   "hr": "crn",
+   "en": "black",
+   "od": 1
+  },
+  {
+   "hr": "ljut",
+   "en": "angry",
+   "od": 2
+  },
+  {
+   "hr": "e-mail",
+   "en": "e-mail",
+   "od": 3
+  },
+  {
+   "hr": "balkon",
+   "en": "balcony",
+   "od": 4
+  },
+  {
+   "hr": "zebra",
+   "en": "zebra",
+   "od": 0
+  },
+  {
+   "hr": "crven",
+   "en": "red",
+   "od": 1
+  },
+  {
+   "hr": "naravno",
+   "en": "of course",
+   "od": 2
+  },
+  {
+   "hr": "gledati",
+   "en": "to watch, to look",
+   "od": 3
+  },
+  {
+   "hr": "brat",
+   "en": "brother",
+   "od": 4
+  },
+  {
+   "hr": "žaba",
+   "en": "frog",
+   "od": 0
+  },
+  {
+   "hr": "dan",
+   "en": "day",
+   "od": 1
+  },
+  {
+   "hr": "Nijemac",
+   "en": "German",
+   "od": 2
+  },
+  {
+   "hr": "govoriti",
+   "en": "to speak, to talk",
+   "od": 3
+  },
+  {
+   "hr": "cijeli",
+   "en": "whole, entire",
+   "od": 4
+  },
+  {
+   "hr": "džem",
+   "en": "jam",
+   "od": 0
+  },
+  {
+   "hr": "dobar",
+   "en": "good",
+   "od": 1
+  },
+  {
+   "hr": "nizak",
+   "en": "short",
+   "od": 2
+  },
+  {
+   "hr": "hodati",
+   "en": "to walk",
+   "od": 3
+  }
+ ],
+ "7": [
+  {
+   "hr": "đak",
+   "en": "pupil",
+   "od": 0
+  },
+  {
+   "hr": "film",
+   "en": "film",
+   "od": 1
+  },
+  {
+   "hr": "novinar",
+   "en": "journalist",
+   "od": 2
+  },
+  {
+   "hr": "jelo",
+   "en": "dish, food",
+   "od": 3
+  },
+  {
+   "hr": "čekati",
+   "en": "to wait",
+   "od": 4
+  },
+  {
+   "hr": "birati",
+   "en": "to choose",
+   "od": 5
+  },
+  {
+   "hr": "ekran",
+   "en": "screen",
+   "od": 0
+  },
+  {
+   "hr": "grad",
+   "en": "city",
+   "od": 1
+  },
+  {
+   "hr": "Njemica",
+   "en": "German (she)",
+   "od": 2
+  },
+  {
+   "hr": "jesti",
+   "en": "to eat",
+   "od": 3
+  },
+  {
+   "hr": "čistiti",
+   "en": "to clean",
+   "od": 4
+  },
+  {
+   "hr": "boca",
+   "en": "bottle",
+   "od": 5
+  },
+  {
+   "hr": "farma",
+   "en": "farm",
+   "od": 0
+  },
+  {
+   "hr": "hladan",
+   "en": "cold",
+   "od": 1
+  },
+  {
+   "hr": "odakle",
+   "en": "from where",
+   "od": 2
+  },
+  {
+   "hr": "jogurt",
+   "en": "yoghurt",
+   "od": 3
+  },
+  {
+   "hr": "dama",
+   "en": "lady",
+   "od": 4
+  },
+  {
+   "hr": "breskva",
+   "en": "peach",
+   "od": 5
+  },
+  {
+   "hr": "gitara",
+   "en": "guitar",
+   "od": 0
+  },
+  {
+   "hr": "kava",
+   "en": "coffee",
+   "od": 1
+  },
+  {
+   "hr": "odvjetnik",
+   "en": "lawyer",
+   "od": 2
+  },
+  {
+   "hr": "kino",
+   "en": "cinema",
+   "od": 3
+  },
+  {
+   "hr": "dečko",
+   "en": "boy, boyfriend",
+   "od": 4
+  },
+  {
+   "hr": "cijena",
+   "en": "price",
+   "od": 5
+  }
+ ],
+ "8": [
+  {
+   "hr": "hotel",
+   "en": "hotel",
+   "od": 0
+  },
+  {
+   "hr": "knjiga",
+   "en": "book",
+   "od": 1
+  },
+  {
+   "hr": "ozbiljan",
+   "en": "serious",
+   "od": 2
+  },
+  {
+   "hr": "koncert",
+   "en": "concert",
+   "od": 3
+  },
+  {
+   "hr": "dijete",
+   "en": "child",
+   "od": 4
+  },
+  {
+   "hr": "danas",
+   "en": "today",
+   "od": 5
+  },
+  {
+   "hr": "auto",
+   "en": "car",
+   "od": 6
+  },
+  {
+   "hr": "igla",
+   "en": "needle",
+   "od": 0
+  },
+  {
+   "hr": "krevet",
+   "en": "bed",
+   "od": 1
+  },
+  {
+   "hr": "pilot",
+   "en": "pilot",
+   "od": 2
+  },
+  {
+   "hr": "kruh",
+   "en": "bread",
+   "od": 3
+  },
+  {
+   "hr": "djeca",
+   "en": "children",
+   "od": 4
+  },
+  {
+   "hr": "dućan",
+   "en": "shop, store",
+   "od": 5
+  },
+  {
+   "hr": "autobus",
+   "en": "bus",
+   "od": 6
+  },
+  {
+   "hr": "jabuka",
+   "en": "apple",
+   "od": 0
+  },
+  {
+   "hr": "lampa",
+   "en": "lamp",
+   "od": 1
+  },
+  {
+   "hr": "pjevač",
+   "en": "singer",
+   "od": 2
+  },
+  {
+   "hr": "mačka",
+   "en": "cat",
+   "od": 3
+  },
+  {
+   "hr": "djed",
+   "en": "grandpa",
+   "od": 4
+  },
+  {
+   "hr": "grah",
+   "en": "beans",
+   "od": 5
+  },
+  {
+   "hr": "avion",
+   "en": "airplane",
+   "od": 6
+  },
+  {
+   "hr": "kuća",
+   "en": "house",
+   "od": 0
+  },
+  {
+   "hr": "lijep",
+   "en": "beautiful",
+   "od": 1
+  },
+  {
+   "hr": "policajac",
+   "en": "police officer",
+   "od": 2
+  }
+ ],
+ "9": [
+  {
+   "hr": "lav",
+   "en": "lion",
+   "od": 0
+  },
+  {
+   "hr": "mali",
+   "en": "small",
+   "od": 1
+  },
+  {
+   "hr": "posao",
+   "en": "job, work",
+   "od": 2
+  },
+  {
+   "hr": "miran",
+   "en": "calm, quiet",
+   "od": 3
+  },
+  {
+   "hr": "djetinjstvo",
+   "en": "childhood",
+   "od": 4
+  },
+  {
+   "hr": "ići",
+   "en": "to go",
+   "od": 5
+  },
+  {
+   "hr": "banka",
+   "en": "bank",
+   "od": 6
+  },
+  {
+   "hr": "biologija",
+   "en": "biology",
+   "od": 7
+  },
+  {
+   "hr": "ljeto",
+   "en": "summer",
+   "od": 0
+  },
+  {
+   "hr": "mekan",
+   "en": "soft",
+   "od": 1
+  },
+  {
+   "hr": "radnik",
+   "en": "worker",
+   "od": 2
+  },
+  {
+   "hr": "misliti",
+   "en": "to think",
+   "od": 3
+  },
+  {
+   "hr": "djevojka",
+   "en": "girl, girlfriend",
+   "od": 4
+  },
+  {
+   "hr": "jagoda",
+   "en": "strawberry",
+   "od": 5
+  },
+  {
+   "hr": "benzin",
+   "en": "gasoline",
+   "od": 6
+  },
+  {
+   "hr": "brojati",
+   "en": "to count",
+   "od": 7
+  },
+  {
+   "hr": "more",
+   "en": "sea",
+   "od": 0
+  },
+  {
+   "hr": "moderan",
+   "en": "modern",
+   "od": 1
+  },
+  {
+   "hr": "susjed",
+   "en": "neighbour",
+   "od": 2
+  },
+  {
+   "hr": "mobitel",
+   "en": "mobile phone",
+   "od": 3
+  },
+  {
+   "hr": "dom",
+   "en": "home",
+   "od": 4
+  },
+  {
+   "hr": "jaje",
+   "en": "egg",
+   "od": 5
+  },
+  {
+   "hr": "bicikl",
+   "en": "bicycle",
+   "od": 6
+  },
+  {
+   "hr": "brzo",
+   "en": "quickly",
+   "od": 7
+  }
+ ],
+ "10": [
+  {
+   "hr": "ananas",
+   "en": "pineapple",
+   "od": 0
+  },
+  {
+   "hr": "nebo",
+   "en": "sky",
+   "od": 1
+  },
+  {
+   "hr": "šef",
+   "en": "boss",
+   "od": 2
+  },
+  {
+   "hr": "nikad",
+   "en": "never",
+   "od": 3
+  },
+  {
+   "hr": "društvo",
+   "en": "company, society",
+   "od": 4
+  },
+  {
+   "hr": "jedna",
+   "en": "one (feminine)",
+   "od": 5
+  },
+  {
+   "hr": "blizu",
+   "en": "near, nearby",
+   "od": 6
+  },
+  {
+   "hr": "djevojčica",
+   "en": "girl",
+   "od": 7
+  },
+  {
+   "hr": "aerodrom",
+   "en": "airport",
+   "od": 8
+  },
+  {
+   "hr": "banana",
+   "en": "banana",
+   "od": 0
+  },
+  {
+   "hr": "nov",
+   "en": "new",
+   "od": 1
+  },
+  {
+   "hr": "Talijan",
+   "en": "Italian",
+   "od": 2
+  },
+  {
+   "hr": "pisati",
+   "en": "to write",
+   "od": 3
+  },
+  {
+   "hr": "gospodin",
+   "en": "gentleman, Mr",
+   "od": 4
+  },
+  {
+   "hr": "jeftin",
+   "en": "cheap",
+   "od": 5
+  },
+  {
+   "hr": "bolnica",
+   "en": "hospital",
+   "od": 6
+  },
+  {
+   "hr": "dokument",
+   "en": "document",
+   "od": 7
+  },
+  {
+   "hr": "avantura",
+   "en": "adventure",
+   "od": 8
+  },
+  {
+   "hr": "nos",
+   "en": "nose",
+   "od": 0
+  },
+  {
+   "hr": "plav",
+   "en": "blue",
+   "od": 1
+  },
+  {
+   "hr": "Talijanka",
+   "en": "Italian (she)",
+   "od": 2
+  },
+  {
+   "hr": "pismo",
+   "en": "letter",
+   "od": 3
+  },
+  {
+   "hr": "gospođa",
+   "en": "lady, Mrs",
+   "od": 4
+  },
+  {
+   "hr": "juha",
+   "en": "soup",
+   "od": 5
+  }
+ ],
+ "11": [
+  {
+   "hr": "njuška",
+   "en": "snout",
+   "od": 0
+  },
+  {
+   "hr": "problem",
+   "en": "problem",
+   "od": 1
+  },
+  {
+   "hr": "tim",
+   "en": "team",
+   "od": 2
+  },
+  {
+   "hr": "piti",
+   "en": "to drink",
+   "od": 3
+  },
+  {
+   "hr": "imati",
+   "en": "to have",
+   "od": 4
+  },
+  {
+   "hr": "kafić",
+   "en": "café",
+   "od": 5
+  },
+  {
+   "hr": "brod",
+   "en": "boat",
+   "od": 6
+  },
+  {
+   "hr": "dosadan",
+   "en": "boring",
+   "od": 7
+  },
+  {
+   "hr": "destinacija",
+   "en": "destination",
+   "od": 8
+  },
+  {
+   "hr": "čiji",
+   "en": "whose",
+   "od": 9
+  },
+  {
+   "hr": "oko",
+   "en": "eye",
+   "od": 0
+  },
+  {
+   "hr": "prozor",
+   "en": "window",
+   "od": 1
+  },
+  {
+   "hr": "turist",
+   "en": "tourist",
+   "od": 2
+  },
+  {
+   "hr": "ponekad",
+   "en": "sometimes",
+   "od": 3
+  },
+  {
+   "hr": "još",
+   "en": "still, yet",
+   "od": 4
+  },
+  {
+   "hr": "kolač",
+   "en": "cake, pastry",
+   "od": 5
+  },
+  {
+   "hr": "broj",
+   "en": "number",
+   "od": 6
+  },
+  {
+   "hr": "fizika",
+   "en": "physics",
+   "od": 7
+  },
+  {
+   "hr": "džemper",
+   "en": "sweater",
+   "od": 8
+  },
+  {
+   "hr": "dres",
+   "en": "jersey",
+   "od": 9
+  },
+  {
+   "hr": "pas",
+   "en": "dog",
+   "od": 0
+  },
+  {
+   "hr": "restoran",
+   "en": "restaurant",
+   "od": 1
+  },
+  {
+   "hr": "tužan",
+   "en": "sad",
+   "od": 2
+  },
+  {
+   "hr": "poznavati",
+   "en": "to know (a person)",
+   "od": 3
+  }
+ ],
+ "12": [
+  {
+   "hr": "riba",
+   "en": "fish",
+   "od": 0
+  },
+  {
+   "hr": "sladak",
+   "en": "sweet",
+   "od": 1
+  },
+  {
+   "hr": "učitelj",
+   "en": "teacher",
+   "od": 2
+  },
+  {
+   "hr": "prati",
+   "en": "to wash",
+   "od": 3
+  },
+  {
+   "hr": "kći",
+   "en": "daughter",
+   "od": 4
+  },
+  {
+   "hr": "koštati",
+   "en": "to cost",
+   "od": 5
+  },
+  {
+   "hr": "cesta",
+   "en": "road",
+   "od": 6
+  },
+  {
+   "hr": "geografija",
+   "en": "geography",
+   "od": 7
+  },
+  {
+   "hr": "haljina",
+   "en": "dress",
+   "od": 8
+  },
+  {
+   "hr": "fotoaparat",
+   "en": "camera",
+   "od": 9
+  },
+  {
+   "hr": "akcija",
+   "en": "action film",
+   "od": 10
+  },
+  {
+   "hr": "sunce",
+   "en": "sun",
+   "od": 0
+  },
+  {
+   "hr": "sladoled",
+   "en": "ice cream",
+   "od": 1
+  },
+  {
+   "hr": "vozač",
+   "en": "driver",
+   "od": 2
+  },
+  {
+   "hr": "radio",
+   "en": "radio",
+   "od": 3
+  },
+  {
+   "hr": "kolega",
+   "en": "colleague",
+   "od": 4
+  },
+  {
+   "hr": "krumpir",
+   "en": "potato",
+   "od": 5
+  },
+  {
+   "hr": "čuti",
+   "en": "to hear",
+   "od": 6
+  },
+  {
+   "hr": "glasno",
+   "en": "loudly",
+   "od": 7
+  },
+  {
+   "hr": "hlače",
+   "en": "trousers",
+   "od": 8
+  },
+  {
+   "hr": "fotografija",
+   "en": "photography",
+   "od": 9
+  },
+  {
+   "hr": "biti",
+   "en": "to be",
+   "od": 10
+  },
+  {
+   "hr": "cipela",
+   "en": "shoe",
+   "od": 0
+  },
+  {
+   "hr": "soba",
+   "en": "room",
+   "od": 1
+  }
+ ],
+ "13": [
+  {
+   "hr": "čokolada",
+   "en": "chocolate",
+   "od": 0
+  },
+  {
+   "hr": "sport",
+   "en": "sport",
+   "od": 1
+  },
+  {
+   "hr": "vrijedan",
+   "en": "hard-working",
+   "od": 2
+  },
+  {
+   "hr": "raditi",
+   "en": "to work",
+   "od": 3
+  },
+  {
+   "hr": "kuhati",
+   "en": "to cook",
+   "od": 4
+  },
+  {
+   "hr": "kruška",
+   "en": "pear",
+   "od": 5
+  },
+  {
+   "hr": "dječak",
+   "en": "boy",
+   "od": 6
+  },
+  {
+   "hr": "godina",
+   "en": "year",
+   "od": 7
+  },
+  {
+   "hr": "izlet",
+   "en": "day trip",
+   "od": 8
+  },
+  {
+   "hr": "glava",
+   "en": "head",
+   "od": 9
+  },
+  {
+   "hr": "cijeli dan",
+   "en": "the whole day",
+   "od": 10
+  },
+  {
+   "hr": "buket",
+   "en": "bouquet",
+   "od": 11
+  },
+  {
+   "hr": "ćevapi",
+   "en": "grilled meat",
+   "od": 0
+  },
+  {
+   "hr": "star",
+   "en": "old",
+   "od": 1
+  },
+  {
+   "hr": "zabavan",
+   "en": "fun",
+   "od": 2
+  },
+  {
+   "hr": "razumjeti",
+   "en": "to understand",
+   "od": 3
+  },
+  {
+   "hr": "mama",
+   "en": "mom",
+   "od": 4
+  },
+  {
+   "hr": "kupovati",
+   "en": "to buy",
+   "od": 5
+  },
+  {
+   "hr": "fotografirati",
+   "en": "to photograph",
+   "od": 6
+  },
+  {
+   "hr": "igrati",
+   "en": "to play (a game)",
+   "od": 7
+  },
+  {
+   "hr": "jastuk",
+   "en": "pillow",
+   "od": 8
+  },
+  {
+   "hr": "gol",
+   "en": "goal",
+   "od": 9
+  },
+  {
+   "hr": "cijeli sat",
+   "en": "a whole hour",
+   "od": 10
+  },
+  {
+   "hr": "cvijeće",
+   "en": "flowers",
+   "od": 11
+  }
+ ],
+ "14": [
+  {
+   "hr": "drvo",
+   "en": "tree",
+   "od": 0
+  },
+  {
+   "hr": "stol",
+   "en": "table",
+   "od": 1
+  },
+  {
+   "hr": "zauzet",
+   "en": "busy",
+   "od": 2
+  },
+  {
+   "hr": "rijetko",
+   "en": "rarely",
+   "od": 3
+  },
+  {
+   "hr": "muž",
+   "en": "husband",
+   "od": 4
+  },
+  {
+   "hr": "kutija",
+   "en": "box",
+   "od": 5
+  },
+  {
+   "hr": "galerija",
+   "en": "gallery",
+   "od": 6
+  },
+  {
+   "hr": "iskustvo",
+   "en": "experience",
+   "od": 7
+  },
+  {
+   "hr": "jesen",
+   "en": "autumn",
+   "od": 8
+  },
+  {
+   "hr": "golman",
+   "en": "goalkeeper",
+   "od": 9
+  },
+  {
+   "hr": "doći",
+   "en": "to come",
+   "od": 10
+  },
+  {
+   "hr": "čestitka",
+   "en": "greeting card",
+   "od": 11
+  },
+  {
+   "hr": "alergičan",
+   "en": "allergic",
+   "od": 12
+  },
+  {
+   "hr": "šešir",
+   "en": "hat",
+   "od": 0
+  },
+  {
+   "hr": "taksi",
+   "en": "taxi",
+   "od": 1
+  },
+  {
+   "hr": "žedan",
+   "en": "thirsty",
+   "od": 2
+  },
+  {
+   "hr": "roman",
+   "en": "novel",
+   "od": 3
+  },
+  {
+   "hr": "obitelj",
+   "en": "family",
+   "od": 4
+  },
+  {
+   "hr": "limun",
+   "en": "lemon",
+   "od": 5
+  },
+  {
+   "hr": "glazba",
+   "en": "music",
+   "od": 6
+  },
+  {
+   "hr": "ispit",
+   "en": "exam",
+   "od": 7
+  },
+  {
+   "hr": "kamp",
+   "en": "campsite",
+   "od": 8
+  },
+  {
+   "hr": "hobi",
+   "en": "hobby",
+   "od": 9
+  },
+  {
+   "hr": "dokumentarac",
+   "en": "documentary",
+   "od": 10
+  }
+ ],
+ "15": [
+  {
+   "hr": "torta",
+   "en": "cake",
+   "od": 0
+  },
+  {
+   "hr": "telefon",
+   "en": "telephone",
+   "od": 1
+  },
+  {
+   "hr": "čovjek",
+   "en": "person, man",
+   "od": 2
+  },
+  {
+   "hr": "ručak",
+   "en": "lunch",
+   "od": 3
+  },
+  {
+   "hr": "ovdje",
+   "en": "here",
+   "od": 4
+  },
+  {
+   "hr": "luk",
+   "en": "onion",
+   "od": 5
+  },
+  {
+   "hr": "golub",
+   "en": "pigeon",
+   "od": 6
+  },
+  {
+   "hr": "izvještaj",
+   "en": "report",
+   "od": 7
+  },
+  {
+   "hr": "kaput",
+   "en": "coat",
+   "od": 8
+  },
+  {
+   "hr": "igrač",
+   "en": "player",
+   "od": 9
+  },
+  {
+   "hr": "drama",
+   "en": "drama",
+   "od": 10
+  },
+  {
+   "hr": "četiri",
+   "en": "four",
+   "od": 11
+  },
+  {
+   "hr": "bljutav",
+   "en": "bland",
+   "od": 12
+  },
+  {
+   "hr": "bazen",
+   "en": "swimming pool",
+   "od": 13
+  },
+  {
+   "hr": "džem",
+   "en": "jam",
+   "od": 0
+  },
+  {
+   "hr": "automobil",
+   "en": "car",
+   "od": 1
+  },
+  {
+   "hr": "drag",
+   "en": "kind, dear",
+   "od": 2
+  },
+  {
+   "hr": "sendvič",
+   "en": "sandwich",
+   "od": 3
+  },
+  {
+   "hr": "pomagati",
+   "en": "to help",
+   "od": 4
+  },
+  {
+   "hr": "meso",
+   "en": "meat",
+   "od": 5
+  },
+  {
+   "hr": "gorivo",
+   "en": "fuel",
+   "od": 6
+  },
+  {
+   "hr": "jezik",
+   "en": "language",
+   "od": 7
+  },
+  {
+   "hr": "kasno",
+   "en": "late",
+   "od": 8
+  },
+  {
+   "hr": "izgubiti",
+   "en": "to lose",
+   "od": 9
+  }
+ ],
+ "16": [
+  {
+   "hr": "uho",
+   "en": "ear",
+   "od": 0
+  },
+  {
+   "hr": "bijel",
+   "en": "white",
+   "od": 1
+  },
+  {
+   "hr": "Engleskinja",
+   "en": "English person (she)",
+   "od": 2
+  },
+  {
+   "hr": "sir",
+   "en": "cheese",
+   "od": 3
+  },
+  {
+   "hr": "prijateljica",
+   "en": "friend (female)",
+   "od": 4
+  },
+  {
+   "hr": "mlijeko",
+   "en": "milk",
+   "od": 5
+  },
+  {
+   "hr": "karta",
+   "en": "ticket",
+   "od": 6
+  },
+  {
+   "hr": "jutro",
+   "en": "morning",
+   "od": 7
+  },
+  {
+   "hr": "kofer",
+   "en": "suitcase",
+   "od": 8
+  },
+  {
+   "hr": "joga",
+   "en": "yoga",
+   "od": 9
+  },
+  {
+   "hr": "dugo",
+   "en": "for a long time",
+   "od": 10
+  },
+  {
+   "hr": "četrdeset",
+   "en": "forty",
+   "od": 11
+  },
+  {
+   "hr": "čaša",
+   "en": "glass",
+   "od": 12
+  },
+  {
+   "hr": "centar",
+   "en": "center (of town)",
+   "od": 13
+  },
+  {
+   "hr": "adresa",
+   "en": "address",
+   "od": 14
+  },
+  {
+   "hr": "vino",
+   "en": "wine",
+   "od": 0
+  },
+  {
+   "hr": "topao",
+   "en": "warm",
+   "od": 1
+  },
+  {
+   "hr": "Englez",
+   "en": "English person",
+   "od": 2
+  },
+  {
+   "hr": "slušati",
+   "en": "to listen",
+   "od": 3
+  },
+  {
+   "hr": "puno",
+   "en": "a lot, much",
+   "od": 4
+  },
+  {
+   "hr": "molim",
+   "en": "please",
+   "od": 5
+  },
+  {
+   "hr": "kat",
+   "en": "floor, level",
+   "od": 6
+  },
+  {
+   "hr": "kemija",
+   "en": "chemistry",
+   "od": 7
+  },
+  {
+   "hr": "košulja",
+   "en": "shirt",
+   "od": 8
+  }
+ ],
+ "17": [
+  {
+   "hr": "zebra",
+   "en": "zebra",
+   "od": 0
+  },
+  {
+   "hr": "velik",
+   "en": "big",
+   "od": 1
+  },
+  {
+   "hr": "gladan",
+   "en": "hungry",
+   "od": 2
+  },
+  {
+   "hr": "smiješan",
+   "en": "funny",
+   "od": 3
+  },
+  {
+   "hr": "razgovarati",
+   "en": "to talk, to chat",
+   "od": 4
+  },
+  {
+   "hr": "mrkva",
+   "en": "carrot",
+   "od": 5
+  },
+  {
+   "hr": "katedrala",
+   "en": "cathedral",
+   "od": 6
+  },
+  {
+   "hr": "kemijska",
+   "en": "pen",
+   "od": 7
+  },
+  {
+   "hr": "kretati",
+   "en": "to set off",
+   "od": 8
+  },
+  {
+   "hr": "kapetan",
+   "en": "captain",
+   "od": 9
+  },
+  {
+   "hr": "horor",
+   "en": "horror film",
+   "od": 10
+  },
+  {
+   "hr": "četrnaest",
+   "en": "fourteen",
+   "od": 11
+  },
+  {
+   "hr": "češnjak",
+   "en": "garlic",
+   "od": 12
+  },
+  {
+   "hr": "crkva",
+   "en": "church",
+   "od": 13
+  },
+  {
+   "hr": "besplatno",
+   "en": "for free",
+   "od": 14
+  },
+  {
+   "hr": "balon",
+   "en": "balloon",
+   "od": 15
+  },
+  {
+   "hr": "žaba",
+   "en": "frog",
+   "od": 0
+  },
+  {
+   "hr": "zelen",
+   "en": "green",
+   "od": 1
+  },
+  {
+   "hr": "glumac",
+   "en": "actor",
+   "od": 2
+  },
+  {
+   "hr": "sok",
+   "en": "juice",
+   "od": 3
+  },
+  {
+   "hr": "roditelj",
+   "en": "parent",
+   "od": 4
+  },
+  {
+   "hr": "naranča",
+   "en": "orange",
+   "od": 5
+  },
+  {
+   "hr": "kiosk",
+   "en": "kiosk",
+   "od": 6
+  },
+  {
+   "hr": "kratak",
+   "en": "short",
+   "od": 7
+  }
+ ],
+ "18": [
+  {
+   "hr": "đak",
+   "en": "pupil",
+   "od": 0
+  },
+  {
+   "hr": "žut",
+   "en": "yellow",
+   "od": 1
+  },
+  {
+   "hr": "gost",
+   "en": "guest",
+   "od": 2
+  },
+  {
+   "hr": "spavati",
+   "en": "to sleep",
+   "od": 3
+  },
+  {
+   "hr": "rođak",
+   "en": "cousin, relative",
+   "od": 4
+  },
+  {
+   "hr": "nositi",
+   "en": "to carry, to wear",
+   "od": 5
+  },
+  {
+   "hr": "ključ",
+   "en": "key",
+   "od": 6
+  },
+  {
+   "hr": "lekcija",
+   "en": "lesson",
+   "od": 7
+  },
+  {
+   "hr": "letjeti",
+   "en": "to fly",
+   "od": 8
+  },
+  {
+   "hr": "klub",
+   "en": "club",
+   "od": 9
+  },
+  {
+   "hr": "izložba",
+   "en": "exhibition",
+   "od": 10
+  },
+  {
+   "hr": "dar",
+   "en": "gift",
+   "od": 11
+  },
+  {
+   "hr": "čips",
+   "en": "potato chips",
+   "od": 12
+  },
+  {
+   "hr": "dizalo",
+   "en": "elevator",
+   "od": 13
+  },
+  {
+   "hr": "blagdan",
+   "en": "holiday",
+   "od": 14
+  },
+  {
+   "hr": "bolje",
+   "en": "better",
+   "od": 15
+  },
+  {
+   "hr": "autocesta",
+   "en": "highway",
+   "od": 16
+  },
+  {
+   "hr": "ekran",
+   "en": "screen",
+   "od": 0
+  },
+  {
+   "hr": "brz",
+   "en": "fast",
+   "od": 1
+  },
+  {
+   "hr": "hrabar",
+   "en": "brave",
+   "od": 2
+  },
+  {
+   "hr": "strip",
+   "en": "comic book",
+   "od": 3
+  },
+  {
+   "hr": "sestra",
+   "en": "sister",
+   "od": 4
+  },
+  {
+   "hr": "novac",
+   "en": "money",
+   "od": 5
+  },
+  {
+   "hr": "knjižnica",
+   "en": "library",
+   "od": 6
+  }
+ ],
+ "19": [
+  {
+   "hr": "farma",
+   "en": "farm",
+   "od": 0
+  },
+  {
+   "hr": "crn",
+   "en": "black",
+   "od": 1
+  },
+  {
+   "hr": "Hrvat",
+   "en": "Croat",
+   "od": 2
+  },
+  {
+   "hr": "šutjeti",
+   "en": "to be silent",
+   "od": 3
+  },
+  {
+   "hr": "sin",
+   "en": "son",
+   "od": 4
+  },
+  {
+   "hr": "pekara",
+   "en": "bakery",
+   "od": 5
+  },
+  {
+   "hr": "kolodvor",
+   "en": "station",
+   "od": 6
+  },
+  {
+   "hr": "lopta",
+   "en": "ball",
+   "od": 7
+  },
+  {
+   "hr": "majica",
+   "en": "T-shirt",
+   "od": 8
+  },
+  {
+   "hr": "koljeno",
+   "en": "knee",
+   "od": 9
+  },
+  {
+   "hr": "jučer",
+   "en": "yesterday",
+   "od": 10
+  },
+  {
+   "hr": "datum",
+   "en": "date",
+   "od": 11
+  },
+  {
+   "hr": "desert",
+   "en": "dessert",
+   "od": 12
+  },
+  {
+   "hr": "dnevni boravak",
+   "en": "living room",
+   "od": 13
+  },
+  {
+   "hr": "bombon",
+   "en": "candy",
+   "od": 14
+  },
+  {
+   "hr": "dogovoriti",
+   "en": "to arrange",
+   "od": 15
+  },
+  {
+   "hr": "bez",
+   "en": "without",
+   "od": 16
+  },
+  {
+   "hr": "brašno",
+   "en": "flour",
+   "od": 17
+  },
+  {
+   "hr": "gitara",
+   "en": "guitar",
+   "od": 0
+  },
+  {
+   "hr": "crven",
+   "en": "red",
+   "od": 1
+  },
+  {
+   "hr": "Hrvatica",
+   "en": "Croat (she)",
+   "od": 2
+  },
+  {
+   "hr": "tekst",
+   "en": "text",
+   "od": 3
+  },
+  {
+   "hr": "sjediti",
+   "en": "to sit",
+   "od": 4
+  },
+  {
+   "hr": "pita",
+   "en": "pie",
+   "od": 5
+  }
+ ],
+ "20": [
+  {
+   "hr": "hotel",
+   "en": "hotel",
+   "od": 0
+  },
+  {
+   "hr": "dan",
+   "en": "day",
+   "od": 1
+  },
+  {
+   "hr": "Hrvatska",
+   "en": "Croatia",
+   "od": 2
+  },
+  {
+   "hr": "televizor",
+   "en": "television set",
+   "od": 3
+  },
+  {
+   "hr": "stan",
+   "en": "apartment",
+   "od": 4
+  },
+  {
+   "hr": "plaćati",
+   "en": "to pay",
+   "od": 5
+  },
+  {
+   "hr": "konj",
+   "en": "horse",
+   "od": 6
+  },
+  {
+   "hr": "matematika",
+   "en": "mathematics",
+   "od": 7
+  },
+  {
+   "hr": "minuta",
+   "en": "minute",
+   "od": 8
+  },
+  {
+   "hr": "kosa",
+   "en": "hair",
+   "od": 9
+  },
+  {
+   "hr": "jutros",
+   "en": "this morning",
+   "od": 10
+  },
+  {
+   "hr": "deset",
+   "en": "ten",
+   "od": 11
+  },
+  {
+   "hr": "dijeliti",
+   "en": "to share",
+   "od": 12
+  },
+  {
+   "hr": "dolje",
+   "en": "down, downstairs",
+   "od": 13
+  },
+  {
+   "hr": "davati",
+   "en": "to give",
+   "od": 14
+  },
+  {
+   "hr": "dolazak",
+   "en": "arrival",
+   "od": 15
+  },
+  {
+   "hr": "biljka",
+   "en": "plant",
+   "od": 16
+  },
+  {
+   "hr": "daleko",
+   "en": "far",
+   "od": 17
+  },
+  {
+   "hr": "ako",
+   "en": "if",
+   "od": 18
+  },
+  {
+   "hr": "igla",
+   "en": "needle",
+   "od": 0
+  },
+  {
+   "hr": "dobar",
+   "en": "good",
+   "od": 1
+  },
+  {
+   "hr": "ime",
+   "en": "name",
+   "od": 2
+  },
+  {
+   "hr": "trčati",
+   "en": "to run",
+   "od": 3
+  },
+  {
+   "hr": "stolica",
+   "en": "chair",
+   "od": 4
+  }
+ ]
+}
