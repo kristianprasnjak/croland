@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-09-29 22:55:08",
+  "generirano": "2026-10-01 09:47:43",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -75230,7 +75230,7 @@ window.PODACI = {
           "O (ABOUT)"
         ],
         [
-          "Svi govore o tebi.",
+          "Baka govori o tebi.",
           "O (ABOUT)"
         ],
         [
@@ -75879,10 +75879,10 @@ window.PODACI = {
           "na polici"
         ],
         [
-          "O kome baka uvijek zna sve?",
-          "o Petri",
-          "o Marku",
-          "o ključu"
+          "Tko uvijek zna sve o Petri?",
+          "baka",
+          "Marko",
+          "nitko"
         ]
       ],
       "sortkljuc": 1305011,
@@ -76166,8 +76166,16 @@ window.PODACI = {
           "O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate"
         ],
         [
+          "Who are you talking about?",
+          "O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate"
+        ],
+        [
           "The tourists are on the islands.",
           "Turisti su na otocima"
+        ],
+        [
+          "We were at the seaside.",
+          "Bili smo na moru / Bile smo na moru / Mi smo bili na moru / Mi smo bile na moru"
         ],
         [
           "I live in Croatia.",
@@ -76184,13 +76192,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "December generosity",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. Today you give things to people: the person who receives something takes a new form, the dative. It uses the two endings you learned for places in Lesson 13, **-i** and **-u**, in a new job: *Mami kupujem šal.*",
+        "infokratko": "The receiver takes the dative: **-i** or **-u**, the endings from Lesson 13. *Mami kupujem šal.*",
+        "opis": "Read it through — by the end you can hand out presents to the whole family."
+      },
       "stavke": [
         [
-          "December in Croatia: presents for everyone! But who gets what? *Mami* a scarf, *bratu* a ball, *sestri* a guitar..."
+          "December in Croatia: presents for everyone! But who gets what? *Mami* a scarf, *bratu* a ball, *sestri* a book..."
         ],
         [
-          "Those endings — **-i** and **-u** — mark the *receiver*. It's the dative case, and good news: you've already seen both endings in the locative. Croatian recycles!"
+          "Those endings — **-i** and **-u** — mark the *receiver*, the person something goes to. This form is the dative."
+        ],
+        [
+          "**You already know the endings.** In Lesson 13 you said *u školi* and *u gradu*. The dative uses the same **-i** and **-u**, only without *u* or *na* in front: *sestri*, *bratu*."
+        ],
+        [
+          "By the end of this lesson you can say who gets what, ask *Komu?* — to whom? — and send, bring and write things to anyone."
         ]
       ],
       "sortkljuc": 1401001,
@@ -76204,33 +76222,63 @@ window.PODACI = {
       "format": "brzina",
       "naslov": "Rapid recall",
       "meta": {
+        "info": "A timed warm-up on the locative from Lesson 13. After *u* or *na*, a place where you already are takes **-u** (*u gradu, na moru*) or turns **-a** into **-i** (*u školi*). *Gdje?* asks where you are, *kamo?* where you are going.",
+        "infokratko": "Lesson 13 against the clock: **-u** or **-i** after *u/na*. *gdje?* = where, *kamo?* = where to.",
         "trajanje": "60",
-        "opis": "Location sprint! Tap the correct locative."
+        "opis": "Location sprint from Lesson 13 — tap the correct form before the timer runs out."
       },
       "stavke": [
-        [
-          "grad",
-          "u gradu"
-        ],
         [
           "škola",
           "u školi"
         ],
         [
-          "kafić",
-          "u kafiću"
+          "trg",
+          "na trgu"
+        ],
+        [
+          "kino",
+          "u kinu"
+        ],
+        [
+          "ured",
+          "u uredu"
         ],
         [
           "tržnica",
           "na tržnici"
         ],
         [
-          "kino",
-          "u kinu"
+          "more",
+          "na moru"
+        ],
+        [
+          "Ana je u ___ . (teretana)",
+          "teretani"
+        ],
+        [
+          "Mačka spava na ___ . (krov)",
+          "krovu"
+        ],
+        [
+          "Idem u školu — sad sam u ___ .",
+          "školi"
+        ],
+        [
+          "___ si? — U kafiću.",
+          "Gdje"
+        ],
+        [
+          "___ ideš? — U kino.",
+          "Kamo"
+        ],
+        [
+          "Mama kuha ___ kuhinji.",
+          "u"
         ]
       ],
       "sortkljuc": 1401002,
-      "bodovi": 687
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
@@ -76240,9 +76288,39 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Gift words",
       "meta": {
-        "opis": "Gifts and the three giving verbs."
+        "info": "The presents of the lesson and six verbs that take a receiver. Many are from earlier levels: *poklon, čestitka, parfem, šal*. The gift itself takes the target form from Lesson 5: *Mami kupujem knjig**u**.* *Rukavice* and *novine* are always plural, like *hlače*.",
+        "infokratko": "Presents and six giving verbs. The gift takes the target form: *Mami kupujem knjigu.*",
+        "opis": "Presents big and small, and the verbs for giving them. Tap a card to reveal the meaning."
       },
       "stavke": [
+        [
+          "poklon / dar",
+          "present, gift"
+        ],
+        [
+          "čestitka",
+          "greeting card"
+        ],
+        [
+          "kartica",
+          "card"
+        ],
+        [
+          "e-mail",
+          "e-mail"
+        ],
+        [
+          "rukavice (mn.)",
+          "gloves"
+        ],
+        [
+          "parfem",
+          "perfume"
+        ],
+        [
+          "knjiga",
+          "book"
+        ],
         [
           "šal",
           "scarf"
@@ -76253,14 +76331,14 @@ window.PODACI = {
         ],
         [
           "kolač",
-          "cake"
+          "cake, pastry"
         ],
         [
           "paket",
           "package"
         ],
         [
-          "novine",
+          "novine (mn.)",
           "newspaper"
         ],
         [
@@ -76272,6 +76350,10 @@ window.PODACI = {
           "ticket"
         ],
         [
+          "Božić",
+          "Christmas"
+        ],
+        [
           "davati → dajem",
           "to give"
         ],
@@ -76281,169 +76363,497 @@ window.PODACI = {
         ],
         [
           "nositi → nosim",
-          "to carry / bring"
+          "to carry, to bring"
+        ],
+        [
+          "kupovati → kupujem",
+          "to buy"
+        ],
+        [
+          "pisati → pišem",
+          "to write"
+        ],
+        [
+          "pomagati → pomažem",
+          "to help"
         ]
       ],
       "sortkljuc": 1401003,
-      "bodovi": 478
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
       "stranica": 4,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "The receiver endings",
-      "meta": {},
+      "format": "kartice",
+      "naslov": "The receivers",
+      "meta": {
+        "info": "The people who get presents, each with the form it takes as the receiver. A word ending in **-a** turns it into **-i** (*mama → mami*), and a consonant takes **-u** (*brat → bratu*). Look at *tata* and *pas*: *tati* ends in **-i** because *tata* ends in **-a**, and *pas* drops its *a*, as in *psa*.",
+        "infokratko": "**-a → -i** (*mami, tati*); consonant **+u** (*bratu*). *pas → psu*.",
+        "opis": "Family, friends and neighbours, first as they are named, then as receivers. Tap a card to reveal the meaning."
+      },
       "stavke": [
         [
-          "**Who receives, gets the dative.**"
+          "mama → mami",
+          "mum → to mum"
         ],
         [
-          "tab: The person",
-          "As the receiver",
-          "Ending"
+          "tata → tati",
+          "dad → to dad"
         ],
         [
-          "tab: mama",
-          "mami",
-          "**-a → -i**"
+          "sestra → sestri",
+          "sister → to my sister"
         ],
         [
-          "tab: sestra",
-          "sestri",
-          "**-a → -i**"
+          "baka → baki",
+          "grandma → to grandma"
         ],
         [
-          "tab: baka",
-          "baki",
-          "**-a → -i**"
+          "brat → bratu",
+          "brother → to my brother"
         ],
         [
-          "tab: tata",
-          "tati",
-          "**-a → -i**"
+          "djed → djedu",
+          "grandpa → to grandpa"
         ],
         [
-          "tab: brat",
-          "bratu",
-          "**+u**"
+          "prijatelj → prijatelju",
+          "friend (m.) → to a friend"
         ],
         [
-          "tab: djed",
-          "djedu",
-          "**+u**"
+          "prijateljica → prijateljici",
+          "friend (f.) → to a friend"
         ],
         [
-          "tab: Marko",
-          "Marku",
-          "**+u**"
+          "učiteljica → učiteljici",
+          "teacher (f.) → to the teacher"
         ],
         [
-          "*Mami kupujem šal.* — I'm buying mum a scarf. *Bratu dajem loptu.* — I'm giving my brother a ball."
+          "susjed → susjedu",
+          "neighbour → to the neighbour"
         ],
         [
-          "**The question word is *komu*.** — To whom? *Komu pišeš? — Baki!*"
+          "poštar → poštaru",
+          "postman → to the postman"
         ],
         [
-          "**Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo."
+          "pas → psu",
+          "dog → to the dog"
+        ],
+        [
+          "Ana → Ani",
+          "Ana → to Ana"
+        ],
+        [
+          "Marko → Marku",
+          "Marko → to Marko"
+        ],
+        [
+          "Komu?",
+          "To whom?"
         ]
       ],
       "sortkljuc": 1401004,
-      "bodovi": 568
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
       "stranica": 5,
       "broj": 9999,
-      "format": "parovi",
-      "naslov": "Who gets what?",
+      "format": "tekst",
+      "naslov": "The receiver endings",
       "meta": {
-        "opis": "Ana bought everyone a present. Match each receiver with the gift."
+        "info": "The main rule of the lesson. The person who receives something takes the dative: a word ending in **-a** turns it into **-i** (*mami, sestri*), a consonant or **-o** takes **-u** (*bratu, Marku*). Watch *tata*: it is masculine, but it ends in **-a**, so the receiver is *tati*.",
+        "infokratko": "Receiver: **-a → -i** (*mami, tati*); consonant or **-o** → **-u** (*bratu, Marku*).",
+        "infoodmah": "da",
+        "opis": "One question, two endings. Read the table and fill in the last line."
       },
       "stavke": [
         [
-          "Mami kupuje...",
-          "šal"
+          "**The person who receives takes the dative.** The thing you give keeps the target form from Lesson 5: ***Mami** kupujem šal.* — I'm buying Mum a scarf."
         ],
         [
-          "Tati kupuje...",
-          "knjigu"
+          "tab: Naming form ends in",
+          "The person",
+          "As the receiver"
         ],
         [
-          "Bratu kupuje...",
-          "loptu"
+          "tab: -a",
+          "mama, sestra, Ana",
+          "mam**i**, sestr**i**, An**i**"
         ],
         [
-          "Sestri kupuje...",
-          "gitaru"
+          "tab: -a (also masculine)",
+          "tata",
+          "tat**i**"
         ],
         [
-          "Baki šalje...",
-          "čokoladu"
+          "tab: consonant",
+          "brat, djed, susjed",
+          "brat**u**, djed**u**, susjed**u**"
         ],
         [
-          "Djedu piše...",
-          "pismo"
+          "tab: -o (names)",
+          "Marko",
+          "Mark**u**"
+        ],
+        [
+          "tab: consonant, a dropped",
+          "pas",
+          "ps**u**"
+        ],
+        [
+          "**The last letter decides, not the gender.** *Tata* is masculine, but it ends in **-a**, so the receiver is *tati*. *Pas* drops its *a* here as well, exactly as in *psa*."
+        ],
+        [
+          "**The question word is *komu*.** — to whom? *Komu pišeš? — Baki!* The answer is one word, already in the dative."
+        ],
+        [
+          "**Now you write them.** Mama gets a scarf: [Mami] kupujem šal. Brat gets a ball: [Bratu] dajem loptu. Baka gets a letter: [Baki] pišem pismo."
         ]
       ],
       "sortkljuc": 1401005,
-      "bodovi": 687
+      "bodovi": 314
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
       "stranica": 6,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the right form",
+      "format": "parovi",
+      "naslov": "Who gets what?",
       "meta": {
-        "opis": "Choose the receiver's form."
+        "info": "Each Croatian sentence beside its English meaning, in pairs that differ by one ending. *Mama kupuje šal* — Mum is the one buying. *Mami kupujem šal* — Mum is the one who gets it. Read the ending before you read the rest of the sentence.",
+        "infokratko": "*Mama kupuje* = Mum buys. *Mami kupujem* = I'm buying for Mum. The ending decides.",
+        "opis": "Who is giving, and who is getting? Match each sentence with its meaning."
       },
       "stavke": [
         [
-          "Pišem ___ .",
-          "baki",
-          "baka"
+          "Mama kupuje šal.",
+          "Mum is buying a scarf."
         ],
         [
-          "Dajem loptu ___ .",
-          "bratu",
-          "brat"
+          "Mami kupujem šal.",
+          "I'm buying Mum a scarf."
         ],
         [
-          "Šaljem paket ___ .",
-          "sestri",
-          "sestra"
+          "Brat piše pismo.",
+          "My brother is writing a letter."
         ],
         [
-          "Nosim kolače ___ .",
-          "djedu",
-          "djed"
+          "Bratu pišem pismo.",
+          "I'm writing my brother a letter."
         ],
         [
-          "Kupujem cvijeće ___ .",
-          "mami",
-          "mama"
+          "Baka šalje paket.",
+          "Grandma is sending a package."
         ],
         [
-          "Konobar nosi kavu ___ .",
-          "turistu",
-          "turist"
+          "Baki šaljem paket.",
+          "I'm sending Grandma a package."
+        ],
+        [
+          "Djed nosi cvijeće.",
+          "Grandpa is bringing flowers."
+        ],
+        [
+          "Djedu nosim cvijeće.",
+          "I'm bringing Grandpa flowers."
+        ],
+        [
+          "Sestra daje knjigu.",
+          "My sister is giving a book."
+        ],
+        [
+          "Sestri dajem knjigu.",
+          "I'm giving my sister a book."
         ]
       ],
       "sortkljuc": 1401006,
-      "bodovi": 836
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
       "stranica": 7,
       "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-I or -U?",
+      "meta": {
+        "info": "Sorting people by the ending they take as the receiver. Only the last letter of the naming form counts: **-a** gives **-i** (*mami, tati*), a consonant or **-o** gives **-u** (*bratu, Marku*). *Tata* and *Marko* are the two to watch — one masculine word takes **-i**, and one word in **-o** takes **-u**.",
+        "infokratko": "**-a** → **-i**, even *tata → tati*. Consonant or **-o** → **-u**: *bratu, Marku*.",
+        "stupci": "-I | -U",
+        "opis": "Which ending does each person take as the receiver? Look at the last letter."
+      },
+      "stavke": [
+        [
+          "mama",
+          "-I"
+        ],
+        [
+          "sestra",
+          "-I"
+        ],
+        [
+          "baka",
+          "-I"
+        ],
+        [
+          "tata",
+          "-I"
+        ],
+        [
+          "Ana",
+          "-I"
+        ],
+        [
+          "Petra",
+          "-I"
+        ],
+        [
+          "prijateljica",
+          "-I"
+        ],
+        [
+          "učiteljica",
+          "-I"
+        ],
+        [
+          "brat",
+          "-U"
+        ],
+        [
+          "djed",
+          "-U"
+        ],
+        [
+          "Marko",
+          "-U"
+        ],
+        [
+          "Ivan",
+          "-U"
+        ],
+        [
+          "prijatelj",
+          "-U"
+        ],
+        [
+          "susjed",
+          "-U"
+        ],
+        [
+          "poštar",
+          "-U"
+        ],
+        [
+          "pas",
+          "-U"
+        ]
+      ],
+      "sortkljuc": 1401007,
+      "bodovi": 462
+    },
+    {
+      "cjelina": "Lesson 14",
+      "cjelinanaslov": "Giving: The Dative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap completes the receiver. A word in **-a** takes **-i** (*mami, tati, učiteljici*), a consonant or **-o** takes **-u** (*bratu, Marku*). Watch *pomagati*: English *help* has no *to*, but the person you help takes the dative too — *Pomažem prijatelju*.",
+        "infokratko": "**-a** → **-i** (*tati* too); consonant or **-o** → **-u**. *Pomažem prijatelju.*",
+        "nastavci": "i | u",
+        "opis": "English above, Croatian below. One tap puts the person in the receiver form."
+      },
+      "stavke": [
+        [
+          "Mam___ kupujem šal.",
+          "I'm buying Mum a scarf.",
+          "i"
+        ],
+        [
+          "Brat___ dajem loptu.",
+          "I'm giving my brother a ball.",
+          "u"
+        ],
+        [
+          "Sestr___ šaljem paket.",
+          "I'm sending my sister a package.",
+          "i"
+        ],
+        [
+          "Djed___ pišem pismo.",
+          "I'm writing Grandpa a letter.",
+          "u"
+        ],
+        [
+          "Tat___ kupujem knjigu.",
+          "I'm buying Dad a book.",
+          "i"
+        ],
+        [
+          "Mark___ šaljem e-mail.",
+          "I'm sending Marko an e-mail.",
+          "u"
+        ],
+        [
+          "An___ nosim cvijeće.",
+          "I'm bringing Ana flowers.",
+          "i"
+        ],
+        [
+          "Pomažem prijatelj___.",
+          "I'm helping my friend.",
+          "u"
+        ],
+        [
+          "Bak___ nosim kolače.",
+          "I'm bringing Grandma cakes.",
+          "i"
+        ],
+        [
+          "Poštar___ dajem pismo.",
+          "I'm giving the postman a letter.",
+          "u"
+        ],
+        [
+          "Učiteljic___ pišem čestitku.",
+          "I'm writing the teacher a greeting card.",
+          "i"
+        ],
+        [
+          "Susjed___ nosim novine.",
+          "I'm bringing the neighbour the newspaper.",
+          "u"
+        ],
+        [
+          "Petr___ kupujem parfem.",
+          "I'm buying Petra perfume.",
+          "i"
+        ],
+        [
+          "Ivan___ dajem kartu.",
+          "I'm giving Ivan a ticket.",
+          "u"
+        ],
+        [
+          "Pomažem mam___ u kuhinji.",
+          "I'm helping Mum in the kitchen.",
+          "i"
+        ],
+        [
+          "Za Božić prijateljic___ šaljem rukavice.",
+          "For Christmas I'm sending my friend gloves.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1401008,
+      "bodovi": 462
+    },
+    {
+      "cjelina": "Lesson 14",
+      "cjelinanaslov": "Giving: The Dative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "info": "Choosing the receiver's form. The dative ends in **-i** or **-u**; the naming form (*baka*) and the target form (*baku*) are the two mistakes to avoid. *Komu?* asks about the receiver, *koga?* about the target. With *tata*, **-u** is wrong: the receiver is *tati*.",
+        "infokratko": "Receiver: *baki*, not *baka* or *baku*. *Komu?* for the receiver. *tati*, never *tatu* here.",
+        "opis": "Choose the receiver's form."
+      },
+      "stavke": [
+        [
+          "Pišem ___ .",
+          "baki",
+          "baka",
+          "baku"
+        ],
+        [
+          "___ dajem loptu.",
+          "Bratu",
+          "Brat",
+          "Brata"
+        ],
+        [
+          "Šaljem paket ___ .",
+          "sestri",
+          "sestra",
+          "sestru"
+        ],
+        [
+          "Nosim kolače ___ .",
+          "djedu",
+          "djed",
+          "djedi"
+        ],
+        [
+          "Kupujem cvijeće ___ .",
+          "mami",
+          "mama",
+          "mamu"
+        ],
+        [
+          "___ šaljem e-mail.",
+          "Marku",
+          "Marko",
+          "Marka"
+        ],
+        [
+          "Kupujem knjigu ___ .",
+          "tati",
+          "tatu",
+          "tata"
+        ],
+        [
+          "Pomažem ___ .",
+          "prijatelju",
+          "prijatelja",
+          "prijatelj"
+        ],
+        [
+          "___ pišeš? — Baki.",
+          "Komu",
+          "Koga",
+          "Tko"
+        ],
+        [
+          "Ana nosi cvijeće ___ .",
+          "učiteljici",
+          "učiteljicu",
+          "učitelji"
+        ],
+        [
+          "Ne dajem čokoladu ___ !",
+          "psu",
+          "pasu",
+          "pas"
+        ],
+        [
+          "Za Božić ___ šaljem rukavice.",
+          "Ani",
+          "Ana",
+          "Anu"
+        ]
+      ],
+      "sortkljuc": 1401009,
+      "bodovi": 462
+    },
+    {
+      "cjelina": "Lesson 14",
+      "cjelinanaslov": "Giving: The Dative",
+      "stranica": 10,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the dative",
       "meta": {
+        "info": "You type the receiver's form of each word. Look at the last letter: **-a** becomes **-i** (*mami, tati, Ani*), a consonant or **-o** takes **-u** (*bratu, Marku*). Two need extra care: *pas* drops its *a* (*psu*), and *učiteljica* keeps all its letters before the **-i**.",
+        "infokratko": "**-a → -i**, consonant or **-o** → **-u**. *pas → psu*, *učiteljica → učiteljici*.",
         "opis": "Type the receiver's form."
       },
       "stavke": [
@@ -76470,42 +76880,104 @@ window.PODACI = {
         [
           "pas →",
           "psu"
+        ],
+        [
+          "Ana →",
+          "Ani"
+        ],
+        [
+          "Marko →",
+          "Marku"
+        ],
+        [
+          "učiteljica →",
+          "učiteljici"
+        ],
+        [
+          "djed →",
+          "djedu"
+        ],
+        [
+          "prijatelj →",
+          "prijatelju"
+        ],
+        [
+          "baka →",
+          "baki"
         ]
       ],
-      "sortkljuc": 1401007,
-      "bodovi": 985
+      "sortkljuc": 1401010,
+      "bodovi": 544
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 8,
+      "stranica": 11,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Three giving verbs",
-      "meta": {},
+      "meta": {
+        "info": "The second rule page, and it is shorter. Verbs of giving put the person in the dative and the thing in the target form. *Pomagati* takes the dative as well, though English *help* has no *to*. The dative has the same endings as the locative, in a different job.",
+        "infokratko": "Person in the dative, thing in the target form. *Pomažem mami.* Same endings as the locative, new job.",
+        "infoodmah": "da",
+        "opis": "Who gets it, and what they get. Read the table and fill in the last line."
+      },
       "stavke": [
         [
-          "*Dajem, šaljem, nosim* — give, send, carry. All three love the dative:"
+          "**Dajem, šaljem, nosim — and kupujem, pišem as well.** With all of them the person goes into the dative and the thing into the target form from Lesson 5."
         ],
         [
-          "***Baki** šaljem čokoladu.* — I'm sending grandma chocolate. ***Učiteljici** nosim pismo.* — I'm bringing the teacher a letter."
+          "tab: Receiver (dative)",
+          "Verb",
+          "Thing (target form)"
         ],
         [
-          "Word order is flexible — the receiver can come first for emphasis: *Mami kupujem šal, a tati knjigu.*"
+          "tab: Baki",
+          "šaljem",
+          "čokoladu."
+        ],
+        [
+          "tab: Učiteljici",
+          "nosim",
+          "pismo."
+        ],
+        [
+          "tab: Bratu",
+          "kupujem",
+          "loptu."
+        ],
+        [
+          "tab: Tati",
+          "pišem",
+          "e-mail."
+        ],
+        [
+          "**Pomagati works the same way.** English says *I help Mum* with no *to*, but in Croatian the person you help takes the dative: *Pomažem **mami**.* *Pomažem mamu* is wrong."
+        ],
+        [
+          "**Word order is free.** *Kupujem mami šal* and *Mami kupujem šal* are both correct. The receiver often comes first, especially in a list: *Mami kupujem šal, a tati knjigu.*"
+        ],
+        [
+          "**Same endings, a different job.** In the singular the dative has the same endings as the locative from Lesson 13. The locative always follows *u* or *na* and says where (*u školi*); the dative stands without them and says to whom (*sestri*)."
+        ],
+        [
+          "**Now you write them.** [Komu] pišeš? — Baki. Mama is cooking, and you help: Pomažem [mami]. The dog gets nothing: [Psu] ne dajem ništa!"
         ]
       ],
-      "sortkljuc": 1401008,
-      "bodovi": 20
+      "sortkljuc": 1401011,
+      "bodovi": 314
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 9,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the gift list",
       "meta": {
-        "opis": "Arrange the tiles."
+        "info": "Whole sentences about who gets what, built from tiles. The receiver takes **-i** or **-u** and often takes the first tile; the gift is in the target form. In a list, the second verb can be left out after *a*: *Tati kupujem knjigu, a mami parfem.*",
+        "infokratko": "Receiver in **-i/-u**, often first; gift in the target form. Comma before *a*.",
+        "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
         [
@@ -76522,20 +76994,44 @@ window.PODACI = {
         ],
         [
           "Psu ne dajem ništa!"
+        ],
+        [
+          "Komu pišeš čestitku?"
+        ],
+        [
+          "Pomažem tati u vrtu."
+        ],
+        [
+          "Za Božić sestri šaljem parfem."
+        ],
+        [
+          "Učiteljici nosim cvijeće jer je danas njezin rođendan."
+        ],
+        [
+          "Marku šaljem e-mail, a Ani pišem pismo."
+        ],
+        [
+          "Susjedu nosim novine."
+        ],
+        [
+          "Tati kupujem knjigu, a mami parfem."
         ]
       ],
-      "sortkljuc": 1401009,
-      "bodovi": 687
+      "sortkljuc": 1401012,
+      "bodovi": 462
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 10,
+      "stranica": 13,
       "broj": 9999,
-      "format": "memorija",
-      "naslov": "Memory",
+      "format": "brzina",
+      "naslov": "Dative sprint",
       "meta": {
-        "opis": "Find the pairs — person and their dative form."
+        "info": "A timed sprint from the naming form to the receiver. Turn **-a** into **-i** (*mama → mami*, also *tata → tati*) and give a consonant or **-o** the ending **-u** (*brat → bratu*, *Marko → Marku*). *Pas* drops its *a*: *psu*.",
+        "infokratko": "Naming form → receiver: **-a → -i**, consonant or **-o** → **-u**. *pas → psu*.",
+        "trajanje": "45",
+        "opis": "A person flashes — tap the receiver form."
       },
       "stavke": [
         [
@@ -76559,85 +77055,244 @@ window.PODACI = {
           "djedu"
         ],
         [
+          "tata",
+          "tati"
+        ],
+        [
+          "Ana",
+          "Ani"
+        ],
+        [
+          "Marko",
+          "Marku"
+        ],
+        [
           "pas",
           "psu"
+        ],
+        [
+          "prijatelj",
+          "prijatelju"
+        ],
+        [
+          "učiteljica",
+          "učiteljici"
+        ],
+        [
+          "susjed",
+          "susjedu"
         ]
       ],
-      "sortkljuc": 1401010,
-      "bodovi": 478
+      "sortkljuc": 1401013,
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 11,
+      "stranica": 14,
       "broj": 9999,
       "format": "dijalog",
-      "naslov": "The generous brother",
+      "naslov": "The generous sibling",
       "meta": {
-        "opis": "Your friend is curious about your gift plans. Answer away!"
+        "info": "A chat about Christmas presents built on the dative. Every receiver you name takes **-i** or **-u**: *baki, bratu, sestri, psu*. Your friend reacts to what you say, so read each reply before you choose again. Both options are always correct Croatian.",
+        "infokratko": "Name the receivers with **-i** or **-u**: *baki, bratu, sestri, psu*.",
+        "opis": "A friend asks about your Christmas presents. Choose your replies. Passive words: *Baš lijepo od tebe!* (How nice of you!), *slatko* (sweet), *isto* (too, also), *Djed Mraz* (Father Christmas), *u redu* (all right), *za tebe* (for you)."
       },
       "stavke": [
         [
           "npc",
-          "Komu pišeš?"
+          "Bok! Što to pišeš?"
         ],
         [
           "ti",
-          "Pišem baki. Sutra je njezin rođendan.",
-          "Pišem sestri u Zagreb."
+          "Pišem baki čestitku za Božić.",
+          "Pišem čestitku baki. Ona živi u Splitu."
         ],
         [
           "npc",
-          "Lijepo! Što ćeš kupiti baki?"
+          "Čestitku baki? Baš lijepo od tebe!"
         ],
         [
           "ti",
-          "Kupit ću baki cvijeće.",
-          "Baki nosim kolače."
+          "Baki šaljem i čokoladu.",
+          "Baki šaljem i kolače."
         ],
         [
           "npc",
-          "A šalješ li nešto sestri?"
+          "Nešto slatko? Baka će biti sretna! A što kupuješ bratu?"
         ],
         [
           "ti",
-          "Da, sestri šaljem paket.",
-          "Ne, sestra dolazi doma!"
+          "Bratu kupujem loptu.",
+          "Bratu kupujem knjigu."
         ],
         [
           "npc",
-          "Ti si dobar brat!"
+          "Odlično! A sestri?"
         ],
         [
           "ti",
-          "Znam! Ali tko što daje meni?"
+          "Sestri kupujem parfem.",
+          "Sestri šaljem rukavice. Ona živi u Zagrebu."
+        ],
+        [
+          "npc",
+          "A psu? Pas je isto obitelj!"
+        ],
+        [
+          "ti",
+          "Psu ne dajem ništa!",
+          "Psu kupujem novu loptu."
+        ],
+        [
+          "npc",
+          "Ha-ha! A tko kupuje poklon za tebe?"
+        ],
+        [
+          "ti",
+          "Ne znam. Možda Djed Mraz!",
+          "Nitko! Ali to je u redu."
+        ],
+        [
+          "npc",
+          "Hm... možda ja!"
         ]
       ],
-      "sortkljuc": 1401011,
-      "bodovi": 568
+      "sortkljuc": 1401014,
+      "bodovi": 380
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 12,
+      "stranica": 15,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: December gifts",
+      "meta": {
+        "info": "Read the story, then answer in Croatian. Almost every sentence names a receiver in the dative — *mami, tati, baki, psu* — so the ending tells you who gets each present. Watch Marko: he has no money, so his present is different.",
+        "infokratko": "Read, then answer. The receiver in **-i/-u** shows who gets each present.",
+        "tekst": "Uskoro je Božić i obitelj Horvat kupuje poklone. Ana mami kupuje parfem, a tati knjigu. Marko nema novca, pa baki i djedu piše pismo. Mama šalje paket baki i djedu u Split. U paketu su kolači, rukavice i Markovo pismo. Tata ne zna što kupiti mami. Na kraju mami kupuje cvijeće. Psu nitko ništa ne kupuje, ali Marko psu daje jedan kolač.",
+        "opis": "Read the story, then answer the questions. Passive words: *nema novca* (has no money), *pa* (so), *na kraju* (in the end)."
+      },
+      "stavke": [
+        [
+          "Što Ana kupuje tati?",
+          "knjigu",
+          "parfem",
+          "cvijeće"
+        ],
+        [
+          "Komu Marko piše pismo?",
+          "baki i djedu",
+          "mami",
+          "tati"
+        ],
+        [
+          "Zašto Marko piše pismo?",
+          "jer nema novca",
+          "jer tata nema novca",
+          "jer Ana kupuje parfem"
+        ],
+        [
+          "Što je u paketu?",
+          "kolači, rukavice i pismo",
+          "parfem i knjiga",
+          "cvijeće i šal"
+        ],
+        [
+          "Što tata na kraju kupuje mami?",
+          "cvijeće",
+          "parfem",
+          "knjigu"
+        ],
+        [
+          "Komu Marko daje kolač?",
+          "psu",
+          "baki",
+          "tati"
+        ]
+      ],
+      "sortkljuc": 1401015,
+      "bodovi": 462
+    },
+    {
+      "cjelina": "Lesson 14",
+      "cjelinanaslov": "Giving: The Dative",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "memorija",
+      "naslov": "Memory",
+      "meta": {
+        "info": "A pairs game over the lesson's forms. Six giving verbs sit beside their *ja*-forms (*slati → šaljem*, *pomagati → pomažem*), and three people beside their receiver form — the three that surprise most: *tati*, *Marku*, *psu*.",
+        "infokratko": "Verbs with their *ja*-forms, and *tati, Marku, psu*.",
+        "opis": "Flip the cards: match each verb with its *ja*-form, and each person with the receiver form."
+      },
+      "stavke": [
+        [
+          "davati",
+          "dajem"
+        ],
+        [
+          "slati",
+          "šaljem"
+        ],
+        [
+          "nositi",
+          "nosim"
+        ],
+        [
+          "kupovati",
+          "kupujem"
+        ],
+        [
+          "pisati",
+          "pišem"
+        ],
+        [
+          "pomagati",
+          "pomažem"
+        ],
+        [
+          "tata",
+          "tati"
+        ],
+        [
+          "Marko",
+          "Marku"
+        ],
+        [
+          "pas",
+          "psu"
+        ]
+      ],
+      "sortkljuc": 1401016,
+      "bodovi": 363
+    },
+    {
+      "cjelina": "Lesson 14",
+      "cjelinanaslov": "Giving: The Dative",
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the whole lesson, and 80% opens Vocabulary 14. Most of the points sit on two things: the receiver takes **-i** after a word in **-a** and **-u** after a consonant, and *komu?* is the question that asks about the receiver.",
+        "infokratko": "The whole lesson, mixed; 80% opens Vocabulary 14. **-a → -i**, consonant **+u**; *komu?*",
         "prag": "80",
-        "opis": "Final check! Score 80% to be ready for Lesson 15."
+        "opis": "Final check! Score 80% to be ready for Vocabulary 14."
       },
       "stavke": [
         [
           "slaganje",
           "Mami kupujem šal.",
-          "en: I am buying a scarf for Mum."
+          "en: I'm buying Mum a scarf."
         ],
         [
           "izbor",
-          "Dajem loptu ___ .",
-          "bratu",
-          "brat"
+          "___ dajem loptu.",
+          "Bratu",
+          "Brat",
+          "Brata"
         ],
         [
           "upis",
@@ -76655,7 +77310,8 @@ window.PODACI = {
           "izbor",
           "___ pišeš? — Baki.",
           "Komu",
-          "Koga"
+          "Koga",
+          "Tko"
         ],
         [
           "upis",
@@ -76666,34 +77322,64 @@ window.PODACI = {
           "izbor",
           "Koja je rečenica točna?",
           "Šaljem paket sestri.",
-          "Šaljem paket sestra."
+          "Šaljem paket sestra.",
+          "Šaljem paket sestru."
+        ],
+        [
+          "slaganje",
+          "Baki šaljem čokoladu, a djedu pišem pismo.",
+          "en: I'm sending Grandma chocolate, and I'm writing Grandpa a letter."
+        ],
+        [
+          "upis",
+          "Kupujem knjigu ___ . (tata)",
+          "tati"
+        ],
+        [
+          "izbor",
+          "Pomažem ___ u kuhinji.",
+          "mami",
+          "mamu",
+          "mama"
+        ],
+        [
+          "upis",
+          "Ne dajem čokoladu ___ ! (pas)",
+          "psu"
         ],
         [
           "slaganje",
           "Djedu nosim kolače jer voli slatko.",
-          "en: I am bringing Grandpa cakes because he likes sweet things."
+          "en: I'm bringing Grandpa cakes because he likes sweet things."
         ]
       ],
-      "sortkljuc": 1401012,
-      "bodovi": 926
+      "sortkljuc": 1401017,
+      "bodovi": 775
     },
     {
       "cjelina": "Lesson 14",
       "cjelinanaslov": "Giving: The Dative",
-      "stranica": 13,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now say who gets what: the receiver takes **-i** or **-u**, the gift keeps the target form, and *komu?* asks about the receiver. Vocabulary 14 and Grammar 14 build on exactly this form.",
+        "infokratko": "Receiver in **-i/-u**, gift in the target form, *komu?* for the receiver.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
-          "Divno! You can now give, send and bring things to anyone — Croatian generosity unlocked."
+          "Divno! You can now give, send, bring and write things to anyone — the whole family is covered for Christmas."
         ],
         [
-          "**Next up:** the last case of this module! In Lesson 15 you'll go out *with friends*, travel *by train* and drink coffee *with milk* — the instrumental."
+          "**Next up:** Vocabulary 14 brings more receivers — *susjeda, nećak, kum* — and verbs such as *posuditi* (to lend) and *vratiti* (to give back). Grammar 14 adds the short receiver words *mi, ti, mu, joj, nam, vam, im*: *Baka **mi** šalje paket.*"
+        ],
+        [
+          "**Then Lesson 15:** going out — *with friends*, *by train*, coffee *with milk*. That is the instrumental, the last case of this module."
         ]
       ],
-      "sortkljuc": 1401013,
+      "sortkljuc": 1401018,
       "bodovi": 20
     },
     {
@@ -76752,6 +77438,10 @@ window.PODACI = {
         [
           "kapa",
           "cap"
+        ],
+        [
+          "rukavice (mn.)",
+          "gloves"
         ],
         [
           "jakna",
@@ -76894,6 +77584,10 @@ window.PODACI = {
         [
           "prosinac",
           "December"
+        ],
+        [
+          "Božić",
+          "Christmas"
         ],
         [
           "blagdan",
@@ -77365,39 +78059,165 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: the receiver",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the dative. The receiver takes **-i** after a word in **-a** and **-u** after a consonant or **-o**; in the plural it takes **-ima** or **-ama**. These are exactly the locative endings from Grammar 13, now without a preposition. The question is *komu?*",
+        "infokratko": "Receiver: **-i / -u**, plural **-ima / -ama** — the locative endings, no preposition. *Komu?*"
+      },
       "stavke": [
         [
-          "The dative marks the *receiver* — the person something goes to."
+          "**The dative marks the receiver** — the person something goes to or is done for. The thing itself keeps the target form: ***Sestri** šaljem paket.*"
         ],
         [
-          "**The endings (déjà vu!):** f. (and m. on -a) → **-a → -i** (mami, sestri, baki, tati) · m. & n. → **+u** (bratu, doktoru, psu, djetetu). In the singular, **the dative and the locative have the same endings** — one set of endings, two jobs: *Pišem sestri.* (dative — to my sister) vs. *Ja sam u školi.* (locative — in school)."
+          "tab: Naming form",
+          "Receiver (singular)",
+          "Receiver (plural)"
         ],
         [
-          "**The questions:** Komu? — to whom? *Komu šalješ paket? — Sestri.* Čemu? — to what? (rare)."
+          "tab: mama",
+          "mam**i**",
+          "mam**ama**"
         ],
         [
-          "**The giving verbs:** davati (*Dajem bratu loptu.*), slati (*Šaljem baki čokoladu.*), nositi (*Nosim učiteljici pismo.*), pisati (*Pišem djedu.*), kupovati (*Kupujem mami šal.*)."
+          "tab: kolegica",
+          "kolegic**i**",
+          "kolegic**ama**"
         ],
         [
-          "**Word order:** both work — *Kupujem mami šal.* / *Mami kupujem šal.* Croatian loves starting with the receiver; it sounds caring."
+          "tab: tata",
+          "tat**i**",
+          "tat**ama**"
         ],
         [
-          "**Now you write them.** [Mami] kupujem šal. [Bratu] dajem loptu. [Baki] pišem pismo."
+          "tab: prijatelj",
+          "prijatelj**u**",
+          "prijatelj**ima**"
+        ],
+        [
+          "tab: susjed",
+          "susjed**u**",
+          "susjed**ima**"
+        ],
+        [
+          "tab: Marko",
+          "Mark**u**",
+          "—"
+        ],
+        [
+          "**The same endings as the locative.** One set of forms, two jobs: after *u* or *na* the form says where (*u školi*); without a preposition it says to whom (*sestri*). The plural works the same way: *u gradovima* and *prijateljima*."
+        ],
+        [
+          "**The last letter decides, not the gender.** *Tata* is masculine but ends in **-a**, so it takes *tati*. *Pas* drops its *a*, as in *psa*: *psu*. Family words keep their k, as in *o baki*: *baki*."
+        ],
+        [
+          "**The question word is *komu?*** *Komu šalješ paket? — Sestri.* For things there is *čemu?*, which you will rarely need."
+        ],
+        [
+          "**Now you write them.** Your sister gets a package: [Sestri] šaljem paket. Your friends get an e-mail: [Prijateljima] pišem e-mail. The neighbour gets the newspaper: Nosim novine [susjedu]."
         ]
       ],
       "sortkljuc": 1403001,
-      "bodovi": 617
+      "bodovi": 353
     },
     {
       "cjelina": "Grammar 14",
       "cjelinanaslov": "The Dative",
       "stranica": 2,
       "broj": 9999,
+      "format": "izbor",
+      "naslov": "Dative or locative?",
+      "meta": {
+        "info": "One form, two jobs, and the sentence tells you which. Without a preposition the form names the receiver — *komu?* After *u* or *na* it names the place — *gdje?* After *o* it names the topic — *o kome? o čemu?* Look for the little word in front first.",
+        "infokratko": "No preposition → *komu?* (dative). *u, na* → *gdje?* *o* → *o kome? o čemu?*",
+        "opis": "Same ending, different job. Which question does the form in **-i** or **-u** answer?"
+      },
+      "stavke": [
+        [
+          "Pišem sestri.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Ana je u školi.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Nosim kolače baki.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Kupujem kruh u pekari.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pričamo o baki.",
+          "o kome? (lokativ)",
+          "komu? (dativ)",
+          "gdje? (lokativ)"
+        ],
+        [
+          "Pomažem mami.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Sestra živi u Splitu.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Susjedi dajem ključ.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Knjiga je na stolu.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pišem pismo o Marku.",
+          "o kome? (lokativ)",
+          "komu? (dativ)",
+          "gdje? (lokativ)"
+        ],
+        [
+          "Vjerujem prijatelju.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Djeca su na moru.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ]
+      ],
+      "sortkljuc": 1403002,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 3,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the dative",
       "meta": {
-        "opis": "Type the dative."
+        "info": "Typed production of the receiver. A word in **-a** turns it into **-i** (*susjedi, tati*), a consonant or **-o** takes **-u** (*nećaku, Marku*), and *pas* drops its *a*. The last two are plural: swap the last vowel for **-ima** or **-ama**.",
+        "infokratko": "**-a → -i**, consonant or **-o** → **-u**, *psu*. Plural: **-ima / -ama**.",
+        "opis": "Type the receiver's form. The last two are plural."
       },
       "stavke": [
         [
@@ -77419,45 +78239,46 @@ window.PODACI = {
         [
           "tata →",
           "tati"
-        ]
-      ],
-      "sortkljuc": 1403002,
-      "bodovi": 1041
-    },
-    {
-      "cjelina": "Grammar 14",
-      "cjelinanaslov": "The Dative",
-      "stranica": 3,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Dative or locative?",
-      "meta": {
-        "opis": "Same ending, different job — receiver or place?"
-      },
-      "stavke": [
-        [
-          "Pišem sestri.",
-          "primatelj (dativ)",
-          "mjesto (lokativ)"
         ],
         [
-          "Ana je u školi.",
-          "mjesto (lokativ)",
-          "primatelj (dativ)"
+          "susjeda →",
+          "susjedi"
         ],
         [
-          "Nosim kolače baki.",
-          "primatelj (dativ)",
-          "mjesto (lokativ)"
+          "nećak →",
+          "nećaku"
         ],
         [
-          "Kupujem kruh u pekari.",
-          "mjesto (lokativ)",
-          "primatelj (dativ)"
+          "kolegica →",
+          "kolegici"
+        ],
+        [
+          "kum →",
+          "kumu"
+        ],
+        [
+          "šefica →",
+          "šefici"
+        ],
+        [
+          "pas →",
+          "psu"
+        ],
+        [
+          "Marko →",
+          "Marku"
+        ],
+        [
+          "prijatelji →",
+          "prijateljima"
+        ],
+        [
+          "sestre →",
+          "sestrama"
         ]
       ],
       "sortkljuc": 1403003,
-      "bodovi": 732
+      "bodovi": 613
     },
     {
       "cjelina": "Grammar 14",
@@ -77467,27 +78288,86 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Pick the form",
       "meta": {
-        "opis": "Choose the correct form."
+        "info": "Choosing the receiver's form in a sentence. The mistakes to avoid are the naming form (*brat*), the target form (*brata, prijateljicu*) and a plural with the wrong vowel (*sestrima*). *Pomagati, vjerovati* and *zahvaliti* take the dative, although English has no *to*.",
+        "infokratko": "Not *brat*, not *brata*: *bratu*. Plural f. **-ama**. *pomagati, vjerovati, zahvaliti* + dative.",
+        "opis": "Choose the correct form. The bracket gives the naming form where you need it."
       },
       "stavke": [
         [
-          "Šaljem pismo ___ .",
-          "bratu",
-          "brat"
+          "___ šaljem pismo.",
+          "Bratu",
+          "Brat",
+          "Brata"
         ],
         [
           "___ dajem novine.",
           "Susjedu",
-          "Susjed"
+          "Susjed",
+          "Susjeda"
         ],
         [
           "Kupujem kartu ___ .",
           "prijateljici",
-          "prijateljica"
+          "prijateljica",
+          "prijateljicu"
+        ],
+        [
+          "Pomažem ___ . (kolegica)",
+          "kolegici",
+          "kolegicu",
+          "kolegica"
+        ],
+        [
+          "Vjerujem ___ .",
+          "prijatelju",
+          "prijatelja",
+          "prijatelj"
+        ],
+        [
+          "Sutra ću zahvaliti ___ .",
+          "učiteljici",
+          "učiteljicu",
+          "učiteljica"
+        ],
+        [
+          "Pišem e-mail ___ . (prijatelji)",
+          "prijateljima",
+          "prijateljama",
+          "prijatelji"
+        ],
+        [
+          "___ šaljem razglednice. (sestre)",
+          "Sestrama",
+          "Sestrima",
+          "Sestre"
+        ],
+        [
+          "___ ću posuditi knjigu. (Ivan)",
+          "Ivanu",
+          "Ivana",
+          "Ivan"
+        ],
+        [
+          "___ ću pokazati grad. (turisti)",
+          "Turistima",
+          "Turistama",
+          "Turisti"
+        ],
+        [
+          "___ kupuješ parfem? — Mami.",
+          "Komu",
+          "Koga",
+          "Tko"
+        ],
+        [
+          "___ dajem vodu. (pas)",
+          "Psu",
+          "Pasu",
+          "Psa"
         ]
       ],
       "sortkljuc": 1403004,
-      "bodovi": 732
+      "bodovi": 521
     },
     {
       "cjelina": "Grammar 14",
@@ -77495,75 +78375,2936 @@ window.PODACI = {
       "stranica": 5,
       "broj": 9999,
       "format": "tekst",
-      "naslov": "The rule: the receiver in one syllable",
-      "meta": {},
+      "naslov": "The rule: more receivers",
+      "meta": {
+        "info": "Two additions. In the plural the receiver takes **-ima** (masculine) or **-ama** (feminine), the same as the plural locative. And several verbs take a receiver where English has no *to*: *pomagati, vjerovati, zahvaliti*. The person is still the receiver, so it takes the dative.",
+        "infokratko": "Plural **-ima / -ama**. *pomagati, vjerovati, zahvaliti* take the dative.",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
-          "Once everybody knows who the receiver is, Croatian stops naming them. One small word does the whole job."
+          "**Plural: -ima and -ama.** Start from the plural of Lesson 7 and swap its last vowel, exactly as in Grammar 13."
         ],
         [
-          "tab: Receiver",
-          "Short form",
-          "Example"
+          "tab: Singular",
+          "Plural",
+          "Plural receiver"
         ],
         [
-          "tab: to me",
-          "**mi**",
-          "Baka **mi** šalje paket."
+          "tab: prijatelj",
+          "prijatelji",
+          "prijatelj**ima**"
         ],
         [
-          "tab: to you",
-          "**ti**",
-          "Što **ti** kupujem?"
+          "tab: susjed",
+          "susjedi",
+          "susjed**ima**"
         ],
         [
-          "tab: to him",
-          "**mu**",
-          "Dajem **mu** loptu."
+          "tab: turist",
+          "turisti",
+          "turist**ima**"
         ],
         [
-          "tab: to her",
-          "**joj**",
-          "Pišem **joj** pismo."
+          "tab: sestra",
+          "sestre",
+          "sestr**ama**"
         ],
         [
-          "tab: to us",
-          "**nam**",
-          "Poštar **nam** nosi novine."
+          "tab: kolegica",
+          "kolegice",
+          "kolegic**ama**"
         ],
         [
-          "tab: to you (pl.)",
-          "**vam**",
-          "Kupujem **vam** karte."
+          "**A receiver without *to* in English.** With these verbs the person takes the dative, and the English has no preposition at all."
         ],
         [
-          "tab: to them",
-          "**im**",
-          "Šaljem **im** poklon."
+          "tab: Croatian",
+          "English"
         ],
         [
-          "**Careful — *mi* and *ti* lead double lives.** *Mi* is also \"we\" and *ti* is also \"you\". Position decides: *Mi radimo* (we work) vs. *Mama **mi** kuha* (mum cooks for me)."
+          "tab: Pomažem **mami**.",
+          "I help Mum."
         ],
         [
-          "**They lean, like *sam* and *ga*.** Never first in the sentence — they slide in right after the first word: *Baka **mi** šalje paket.*"
+          "tab: Vjerujem **prijatelju**.",
+          "I trust my friend."
         ],
         [
-          "**The long forms are for emphasis:** *Meni šalje paket, ne tebi!* Same meaning, stressed, and free to stand first."
+          "tab: Zahvalit ću **učiteljici**.",
+          "I'll thank the teacher."
         ],
         [
-          "**Stacking order:** when a dative and an accusative pronoun meet, dative goes first — *Dajem **mu ga**.* (I'm giving it to him.)"
+          "**A receiver and a thing.** With *davati, slati, donijeti, posuditi, vratiti, pokazati* and *objasniti* the person takes the dative and the thing the target form: *Nećaku ću posuditi knjigu.* · *Vratit ću Ivanu kišobran.*"
         ],
         [
-          "**Now you write them.** Dajem loptu bratu → Dajem [mu] loptu. Dajem [mu] [ga]."
+          "***Za* + the target form** means the same with buying: *Kupujem poklon **za mamu**.* = *Kupujem **mami** poklon.* You met *za koga?* in Lesson 11."
+        ],
+        [
+          "**Now you write them.** Your friends get an e-mail: Pišem e-mail [prijateljima]. You help Mum: Pomažem [mami]. You trust your sisters: Vjerujem [sestrama]."
         ]
       ],
       "sortkljuc": 1403005,
-      "bodovi": 732
+      "bodovi": 353
     },
     {
       "cjelina": "Grammar 14",
       "cjelinanaslov": "The Dative",
       "stranica": 6,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap completes the receiver, and the English decides singular or plural. In the singular **-a** gives **-i** and a consonant or **-o** gives **-u**; in the plural masculine words take **-ima**, feminine words **-ama**. Watch *tata* (**-i**) and *Marko* (**-u**).",
+        "infokratko": "Singular **-i / -u**; plural **-ima** (m.), **-ama** (f.). *tati, Marku*.",
+        "nastavci": "i | u | ima | ama",
+        "opis": "English above, Croatian below. One tap finishes the receiver — one person or several?"
+      },
+      "stavke": [
+        [
+          "Mam___ kupujem parfem.",
+          "I'm buying Mum perfume.",
+          "i"
+        ],
+        [
+          "Nećak___ šaljem poster.",
+          "I'm sending my nephew a poster.",
+          "u"
+        ],
+        [
+          "Prijatelj___ pišem e-mail.",
+          "I'm writing my friends an e-mail.",
+          "ima"
+        ],
+        [
+          "Sestr___ šaljem razglednice.",
+          "I'm sending my sisters postcards.",
+          "ama"
+        ],
+        [
+          "Tat___ pomažem u vrtu.",
+          "I'm helping Dad in the garden.",
+          "i"
+        ],
+        [
+          "Kum___ nosim kolače.",
+          "I'm bringing my godfather cakes.",
+          "u"
+        ],
+        [
+          "Kolegic___ kupujem kavu.",
+          "I'm buying my colleagues coffee.",
+          "ama"
+        ],
+        [
+          "Turist___ ću pokazati grad.",
+          "I'll show the tourists the town.",
+          "ima"
+        ],
+        [
+          "Vratit ću Mark___ loptu.",
+          "I'll give Marko back his ball.",
+          "u"
+        ],
+        [
+          "Zahvalit ću učiteljic___.",
+          "I'll thank the teacher.",
+          "i"
+        ],
+        [
+          "Nećakinj___ šaljem igračku.",
+          "I'm sending my niece a toy.",
+          "i"
+        ],
+        [
+          "Vjerujem prijatelj___.",
+          "I trust my friend.",
+          "u"
+        ],
+        [
+          "Susjed___ nosimo kolače.",
+          "We're bringing the neighbours cakes.",
+          "ima"
+        ],
+        [
+          "Šefic___ šaljem poruku.",
+          "I'm sending the boss a message.",
+          "i"
+        ],
+        [
+          "Učiteljic___ nosimo cvijeće.",
+          "We're bringing the teachers flowers.",
+          "ama"
+        ],
+        [
+          "Posudit ću kišobran kolegic___.",
+          "I'll lend my colleague an umbrella.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1403006,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: the receiver in one syllable",
+      "meta": {
+        "info": "The short receiver words. When the receiver is already known, a pronoun replaces the name: *mi, ti, mu, joj, nam, vam, im*. Like *sam* and *ga*, they are unstressed and stand in second place — also after *da, jer, ako, kad* — and never open a sentence.",
+        "infokratko": "*mi, ti, mu, joj, nam, vam, im* replace a known receiver; second place, never first.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "**A pronoun replaces a known receiver.** *Dajem bratu loptu.* → *Dajem **mu** loptu.* In everyday speech this short form is the normal one."
+        ],
+        [
+          "tab: Person",
+          "Receiver (short)",
+          "Example"
+        ],
+        [
+          "tab: ja",
+          "**mi**",
+          "Baka **mi** šalje paket."
+        ],
+        [
+          "tab: ti",
+          "**ti**",
+          "Mama **ti** šalje razglednicu."
+        ],
+        [
+          "tab: on, ono",
+          "**mu**",
+          "Dajem **mu** loptu."
+        ],
+        [
+          "tab: ona",
+          "**joj**",
+          "Pišem **joj** pismo."
+        ],
+        [
+          "tab: mi",
+          "**nam**",
+          "Poštar **nam** nosi novine."
+        ],
+        [
+          "tab: vi",
+          "**vam**",
+          "Kupujem **vam** karte."
+        ],
+        [
+          "tab: oni, one, ona",
+          "**im**",
+          "Šaljem **im** poklon."
+        ],
+        [
+          "**Mi and ti have two meanings.** *Mi* is also *we*, and *ti* is also *you*. The position shows which: at the start of the sentence it is the subject (*Mi radimo.*), in second place after another word it is the receiver (*Mama **mi** kuha ručak.*)."
+        ],
+        [
+          "**Second place, as with sam and ga.** The short form comes after the first word or phrase, also after *da, jer, ako, kad*: *Znam da **mu** šalješ paket.* It never opens a sentence: *Mu dajem loptu* is wrong."
+        ],
+        [
+          "**Receiver first, then the target.** When a receiver pronoun and a target pronoun meet, the dative comes first: *Dajem **mu ga**.* — I'm giving it to him. *Šaljem **joj ga**.* — I'm sending it to her."
+        ],
+        [
+          "**Now you write them.** Dajem loptu bratu → Dajem [mu] loptu. Pišem sestri → Pišem [joj]. Dajem mu loptu → Dajem mu [je]."
+        ]
+      ],
+      "sortkljuc": 1403007,
+      "bodovi": 353
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Replace the receiver",
+      "meta": {
+        "info": "Rewriting each sentence with the short form. The receiver disappears from its place and the short word takes the second position: after the verb here, or after *ću* in the future (*Posudit ću mu*). Everything else in the sentence stays as it was.",
+        "infokratko": "Short form in second place, after *ću* in the future: *Posudit ću mu kišobran.*",
+        "opis": "Say it again, with the short form instead of the name."
+      },
+      "stavke": [
+        [
+          "Dajem bratu loptu. →",
+          "Dajem mu loptu"
+        ],
+        [
+          "Pišem sestri pismo. →",
+          "Pišem joj pismo"
+        ],
+        [
+          "Baka šalje meni paket. →",
+          "Baka mi šalje paket"
+        ],
+        [
+          "Poštar nosi nama novine. →",
+          "Poštar nam nosi novine"
+        ],
+        [
+          "Kupujem prijateljima karte. →",
+          "Kupujem im karte"
+        ],
+        [
+          "Nosim učiteljici cvijeće. →",
+          "Nosim joj cvijeće"
+        ],
+        [
+          "Mama šalje tebi razglednicu. →",
+          "Mama ti šalje razglednicu"
+        ],
+        [
+          "Pomažem susjedi. →",
+          "Pomažem joj"
+        ],
+        [
+          "Vjerujem Marku. →",
+          "Vjerujem mu"
+        ],
+        [
+          "Šaljem vama poruku. →",
+          "Šaljem vam poruku"
+        ],
+        [
+          "Posudit ću nećaku kišobran. →",
+          "Posudit ću mu kišobran"
+        ],
+        [
+          "Vratit ću sestrama knjige. →",
+          "Vratit ću im knjige"
+        ]
+      ],
+      "sortkljuc": 1403008,
+      "bodovi": 614
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which little word?",
+      "meta": {
+        "info": "Replacing the receiver in capitals. Three checks decide it: the receiver needs the dative form (*mu*, not *ga*), the short form stands in second place and never first, and when two short forms meet, the dative comes before the target and after *ću*.",
+        "infokratko": "Dative (*mu*, not *ga*); second place, never first; *ću* → dative → target.",
+        "opis": "Replace the receiver in CAPITALS — and remember the short form can never open the sentence."
+      },
+      "stavke": [
+        [
+          "Dajem loptu BRATU.",
+          "Dajem mu loptu.",
+          "Mu dajem loptu.",
+          "Dajem ga loptu."
+        ],
+        [
+          "Pišem SESTRI.",
+          "Pišem joj.",
+          "Joj pišem."
+        ],
+        [
+          "Baka šalje paket MENI.",
+          "Baka mi šalje paket.",
+          "Baka šalje mi paket.",
+          "Mi baka šalje paket."
+        ],
+        [
+          "Kupujem karte VAMA.",
+          "Kupujem vam karte.",
+          "Kupujem vas karte.",
+          "Vam kupujem karte."
+        ],
+        [
+          "Šaljem poklon NJIMA.",
+          "Šaljem im poklon.",
+          "Šaljem ih poklon.",
+          "Im šaljem poklon."
+        ],
+        [
+          "Poštar nosi novine NAMA.",
+          "Poštar nam nosi novine.",
+          "Poštar nas nosi novine.",
+          "Poštar nosi nam novine."
+        ],
+        [
+          "Pomažem MAMI.",
+          "Pomažem joj.",
+          "Pomažem je.",
+          "Joj pomažem."
+        ],
+        [
+          "Vjerujem MARKU.",
+          "Vjerujem mu.",
+          "Vjerujem ga.",
+          "Mu vjerujem."
+        ],
+        [
+          "Dajem loptu bratu. (both as pronouns)",
+          "Dajem mu je.",
+          "Dajem je mu.",
+          "Mu je dajem."
+        ],
+        [
+          "Šaljem paket sestri. (both as pronouns)",
+          "Šaljem joj ga.",
+          "Šaljem ga joj.",
+          "Joj ga šaljem."
+        ],
+        [
+          "Kupit ću parfem MAMI.",
+          "Kupit ću joj parfem.",
+          "Kupit joj ću parfem.",
+          "Joj ću kupiti parfem."
+        ],
+        [
+          "Mama kuha ručak MENI.",
+          "Mama mi kuha ručak.",
+          "Mi mama kuha ručak.",
+          "Mama kuha mi ručak."
+        ]
+      ],
+      "sortkljuc": 1403009,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: long forms and the order",
+      "meta": {
+        "info": "The long receiver forms and the order of short words. *Meni, tebi, njemu, njoj, nama, vama, njima* — the forms you used after *o* in Grammar 13 — carry stress, so they are used for contrast and one-word answers. In a cluster the helper comes first, then the dative, then the target.",
+        "infokratko": "Long forms for contrast and answers: *Meni, ne tebi!* Order: helper → dative → target; *je* last.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "**Each short form has a long twin.** The long form is stressed, so it can open a sentence or stand alone."
+        ],
+        [
+          "tab: Short",
+          "Long",
+          "Example with the long form"
+        ],
+        [
+          "tab: mi",
+          "**meni**",
+          "**Meni** šalje paket, ne tebi!"
+        ],
+        [
+          "tab: ti",
+          "**tebi**",
+          "Kupujem cvijeće **tebi**, a ne Ani."
+        ],
+        [
+          "tab: mu",
+          "**njemu**",
+          "Pišem **njemu**, a ne sestri."
+        ],
+        [
+          "tab: joj",
+          "**njoj**",
+          "**Njoj** dajem ključ."
+        ],
+        [
+          "tab: nam",
+          "**nama**",
+          "Poštar nosi novine **nama**, a ne susjedu."
+        ],
+        [
+          "tab: vam",
+          "**vama**",
+          "**Vama** šaljem poruku."
+        ],
+        [
+          "tab: im",
+          "**njima**",
+          "Komu pišeš? — **Njima**."
+        ],
+        [
+          "**A one-word answer is always long.** *Komu pišeš? — **Njoj**.* A short form cannot stand alone."
+        ],
+        [
+          "**The same forms as the locative.** *Meni, tebi, njemu* are the forms from *o meni, o tebi, o njemu* in Grammar 13 — one form, two jobs again."
+        ],
+        [
+          "**The order of short words.** First *li* or the helper (*sam, si, ću, ćeš…*), then the dative, then the target. The helper *je* is the exception and goes last."
+        ],
+        [
+          "tab: Croatian",
+          "English"
+        ],
+        [
+          "tab: Kupit ću **joj** šal.",
+          "I'll buy her a scarf."
+        ],
+        [
+          "tab: Šalješ li **mi** poruku?",
+          "Are you sending me a message?"
+        ],
+        [
+          "tab: Poslali smo **mu ga**.",
+          "We sent it to him."
+        ],
+        [
+          "tab: Baka **mu je** poslala paket.",
+          "Grandma sent him a package."
+        ],
+        [
+          "**Now you write them.** Komu šalješ paket? Not to him — to her: [Njoj]! Grandma sent him a package: Baka [mu] je poslala paket. You'll buy her a scarf: Kupit ću [joj] šal."
+        ]
+      ],
+      "sortkljuc": 1403010,
+      "bodovi": 353
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Komu or koga?",
+      "meta": {
+        "info": "Sorting pronouns by their job. The receiver forms answer *komu?* (*mi, mu, joj, nam, vam, im* and the long *meni, njoj*); the target forms from Grammar 6 answer *koga?* (*me, ga, nas, vas, ih* and the long *mene, njega, nju*). *Mu* and *ga* are the pair most often mixed up.",
+        "infokratko": "*komu?* → *mi, mu, joj, nam, vam, im, meni, njoj*. *koga?* → *me, ga, nas, vas, ih, mene, njega, nju*.",
+        "stupci": "KOMU? (DATIV) | KOGA? (AKUZATIV)",
+        "opis": "Receiver or target? Sort each pronoun."
+      },
+      "stavke": [
+        [
+          "mi",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "mu",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "joj",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "nam",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "vam",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "im",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "meni",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "njoj",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "me",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "ga",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "nas",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "vas",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "ih",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "mene",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "njega",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "nju",
+          "KOGA? (AKUZATIV)"
+        ]
+      ],
+      "sortkljuc": 1403011,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Long or short?",
+      "meta": {
+        "info": "Choosing between the long and the short receiver form. The short form goes in second place in an ordinary sentence; the long one opens the sentence, stands in contrast or answers alone. The target forms *me, ga, nas* are the mistake to avoid.",
+        "infokratko": "Second place → short (*mi, mu*). First, contrast, alone → long (*meni, njemu*). Not *ga, nas*.",
+        "opis": "Choose the form that fits. The bracket tells you who the receiver is."
+      },
+      "stavke": [
+        [
+          "Komu pišeš? — ___ . (him)",
+          "Njemu",
+          "Mu",
+          "Njega"
+        ],
+        [
+          "Baka ___ šalje paket. (to me)",
+          "mi",
+          "me",
+          "mene"
+        ],
+        [
+          "___ šalje paket, ne tebi! (to me)",
+          "Meni",
+          "Mi",
+          "Mene"
+        ],
+        [
+          "Dajem ___ loptu. (to him)",
+          "mu",
+          "ga",
+          "njega"
+        ],
+        [
+          "Kupujem cvijeće ___, a ne Ani. (to her)",
+          "njoj",
+          "joj",
+          "nju"
+        ],
+        [
+          "Poštar ___ nosi novine. (to us)",
+          "nam",
+          "nas",
+          "ih"
+        ],
+        [
+          "Šaljem ___ poruku. (to you, plural)",
+          "vam",
+          "vas",
+          "vi"
+        ],
+        [
+          "Komu daješ ključ? — ___ . (to them)",
+          "Njima",
+          "Im",
+          "Ih"
+        ],
+        [
+          "Kupit ću ___ šal. (to her)",
+          "joj",
+          "je",
+          "nju"
+        ],
+        [
+          "Mama ___ je poslala paket. (to him)",
+          "mu",
+          "ga",
+          "njega"
+        ]
+      ],
+      "sortkljuc": 1403012,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentence",
+      "meta": {
+        "info": "Whole sentences from tiles, each using a different piece of this unit. The receiver takes **-i, -u, -ima** or **-ama**, a short form such as *mi* or *joj* takes the second tile, and a long form such as *meni* may take the first.",
+        "infokratko": "Receiver **-i, -u, -ima, -ama**; short forms second; long forms may come first.",
+        "opis": "Build the sentence."
+      },
+      "stavke": [
+        [
+          "Mami kupujem cvijeće, a tati knjigu."
+        ],
+        [
+          "Poštar nosi susjedu novine."
+        ],
+        [
+          "Komu šalješ paket?"
+        ],
+        [
+          "Baka mi šalje paket, a ja joj pišem pismo."
+        ],
+        [
+          "Dajem mu loptu jer je danas njegov rođendan."
+        ],
+        [
+          "Pomažem susjedi u vrtu."
+        ],
+        [
+          "Vjerujem ti."
+        ],
+        [
+          "Prijateljima pišem e-mail."
+        ],
+        [
+          "Kupit ću joj šal za Božić."
+        ],
+        [
+          "Šaljem joj ga sutra."
+        ],
+        [
+          "Meni šalje paket, a ne tebi!"
+        ],
+        [
+          "Nećaku ću posuditi kišobran."
+        ]
+      ],
+      "sortkljuc": 1403013,
+      "bodovi": 521
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English, the hardest step here. Put the receiver in the dative — **-i, -u, -ima, -ama**, or a short form in second place — and the thing in the target form. Where the word order may vary, the common orders are all accepted.",
+        "infokratko": "Receiver in the dative or a short form in second place; the thing in the target form.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I'm buying Mum flowers.",
+          "Mami kupujem cvijeće / Kupujem mami cvijeće / Kupujem cvijeće mami"
+        ],
+        [
+          "I'm sending my sister a package.",
+          "Sestri šaljem paket / Šaljem sestri paket / Šaljem paket sestri"
+        ],
+        [
+          "I'm helping Dad.",
+          "Pomažem tati"
+        ],
+        [
+          "I trust my friend. (m.)",
+          "Vjerujem prijatelju"
+        ],
+        [
+          "To whom are you writing?",
+          "Komu pišeš"
+        ],
+        [
+          "I'm writing an e-mail to my friends.",
+          "Pišem e-mail prijateljima / Prijateljima pišem e-mail / Pišem prijateljima e-mail"
+        ],
+        [
+          "Grandma is sending me a package.",
+          "Baka mi šalje paket"
+        ],
+        [
+          "I'm giving him the ball.",
+          "Dajem mu loptu"
+        ],
+        [
+          "I'm writing her a letter.",
+          "Pišem joj pismo"
+        ],
+        [
+          "The postman brings us the newspaper.",
+          "Poštar nam nosi novine"
+        ],
+        [
+          "I'm sending them a present.",
+          "Šaljem im poklon / Šaljem im dar"
+        ],
+        [
+          "I'm giving it to him. (the ball)",
+          "Dajem mu je"
+        ],
+        [
+          "I'll buy her a scarf.",
+          "Kupit ću joj šal"
+        ],
+        [
+          "He's sending the package to me, not to you!",
+          "Meni šalje paket, ne tebi / Meni šalje paket, a ne tebi"
+        ]
+      ],
+      "sortkljuc": 1403014,
+      "bodovi": 614
+    },
+    {
+      "cjelina": "Grammar 14",
+      "cjelinanaslov": "The Dative",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The dative at this level comes down to three facts: the receiver takes the locative endings without a preposition, a known receiver becomes a short form in second place, and the long form is kept for contrast and one-word answers.",
+        "infokratko": "Locative endings without a preposition; short forms second; long forms for contrast."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say who gets what — one person or many, by name or with a single short word."
+        ],
+        [
+          "And you did it with one rule for each: **the receiver takes the locative endings without a preposition**, **a short form such as *mu* or *joj* stands in second place**, and **the long form — *meni, njoj* — is for contrast and one-word answers.**"
+        ],
+        [
+          "**Next up:** Practice 14 fills a December of presents, letters and a busy postman, and Test 14 closes the unit. Then Lesson 15 takes you out *with friends* — the instrumental."
+        ]
+      ],
+      "sortkljuc": 1403015,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 1: Presents",
+      "meta": {
+        "info": "A read-along list of who gets what, and almost every line opens with a receiver. Read it twice: once for the story, once to spot the pattern — **-i** after a word in **-a** (*mami, baki*), **-u** after a consonant (*bratu, djedu*), and *svima* in the plural.",
+        "infokratko": "Nearly every line opens with a receiver: *mami, baki* (**-i**), *bratu, djedu* (**-u**), *svima*.",
+        "opis": "Ana, a shopping list and a whole family. Tap **EN** next to any sentence to see its translation."
+      },
+      "stavke": [
+        [
+          "Passive words: *svi* (everyone), *svima* (to everyone), *pas ima sve* (the dog has everything)."
+        ],
+        [
+          "Prosinac je i Ana kupuje poklone.",
+          "It's December and Ana is buying presents."
+        ],
+        [
+          "Mami kupuje parfem, a tati knjigu.",
+          "She's buying Mum perfume and Dad a book."
+        ],
+        [
+          "Bratu Marku kupuje loptu.",
+          "She's buying her brother Marko a ball."
+        ],
+        [
+          "Baki šalje čokoladu, a djedu piše pismo.",
+          "She's sending Grandma chocolate, and she's writing Grandpa a letter."
+        ],
+        [
+          "Prijateljici Maji daje kartu za koncert.",
+          "She's giving her friend Maja a concert ticket."
+        ],
+        [
+          "Susjedi nosi kolače, jer joj susjeda uvijek pomaže.",
+          "She's bringing her neighbour cakes, because the neighbour always helps her."
+        ],
+        [
+          "A psu? Psu ništa — pas ima sve!",
+          "And the dog? Nothing for the dog — the dog has everything!"
+        ],
+        [
+          "A tko kupuje poklon Ani? Svi!",
+          "And who is buying Ana a present? Everyone!"
+        ],
+        [
+          "Jer je Ana dobra svima.",
+          "Because Ana is good to everyone."
+        ]
+      ],
+      "sortkljuc": 1404001,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Who gets what?",
+      "meta": {
+        "info": "Each receiver from Text 1 beside the present Ana has for them. The receiver is in the dative, with **-i** or **-u**, and the present is given in its naming form. One receiver gets nothing at all.",
+        "infokratko": "Receiver in the dative, present in the naming form. One gets nothing.",
+        "opis": "Who gets what? Match each receiver with the present from Text 1."
+      },
+      "stavke": [
+        [
+          "mami",
+          "parfem"
+        ],
+        [
+          "tati",
+          "knjiga"
+        ],
+        [
+          "bratu Marku",
+          "lopta"
+        ],
+        [
+          "baki",
+          "čokolada"
+        ],
+        [
+          "djedu",
+          "pismo"
+        ],
+        [
+          "prijateljici Maji",
+          "karta za koncert"
+        ],
+        [
+          "susjedi",
+          "kolači"
+        ],
+        [
+          "psu",
+          "ništa"
+        ]
+      ],
+      "sortkljuc": 1404002,
+      "bodovi": 443
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the dative",
+      "meta": {
+        "info": "Copy each receiver back into its line. The bracket gives the naming form: a word in **-a** turns it into **-i** (*mami, susjedi, prijateljici*), a consonant takes **-u** (*bratu, djedu*), and *svi* becomes *svima*.",
+        "infokratko": "**-a → -i**, consonant **+u**, *svi → svima*.",
+        "opis": "Fill in the receiver from the text.",
+        "tekst": "Mami kupuje parfem, a tati knjigu. Bratu Marku kupuje loptu. Baki šalje čokoladu, a djedu piše pismo. Prijateljici Maji daje kartu za koncert. Susjedi nosi kolače. Jer je Ana dobra svima."
+      },
+      "stavke": [
+        [
+          "___ kupuje parfem. (mama)",
+          "Mami"
+        ],
+        [
+          "___ kupuje knjigu. (tata)",
+          "Tati"
+        ],
+        [
+          "___ Marku kupuje loptu. (brat)",
+          "Bratu"
+        ],
+        [
+          "___ šalje čokoladu. (baka)",
+          "Baki"
+        ],
+        [
+          "___ piše pismo. (djed)",
+          "Djedu"
+        ],
+        [
+          "___ Maji daje kartu za koncert. (prijateljica)",
+          "Prijateljici"
+        ],
+        [
+          "___ nosi kolače. (susjeda)",
+          "Susjedi"
+        ],
+        [
+          "Ana je dobra ___ . (svi)",
+          "svima"
+        ]
+      ],
+      "sortkljuc": 1404003,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 2: Who are you writing to?",
+      "meta": {
+        "info": "A conversation between two friends, and it starts with *Komu pišeš?* — to whom are you writing? The answers use both kinds of receiver: nouns in the dative (*baki, djedu, sestri*) and the short forms from Grammar 14 (*joj, ti*).",
+        "infokratko": "*Komu pišeš?* Answers with nouns (*baki, sestri*) and short forms (*joj, ti*).",
+        "opis": "A card, some cakes and a package for the whole family. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *Baš lijepo od tebe!* (How nice of you!), *slatko* (sweet things), *i to* (and what's more)."
+        ],
+        [
+          "— Komu pišeš?",
+          "— Who are you writing to?"
+        ],
+        [
+          "— Pišem baki. Sutra je njezin rođendan.",
+          "— I'm writing to Grandma. Tomorrow is her birthday."
+        ],
+        [
+          "— Lijepo! Što ćeš joj kupiti?",
+          "— Nice! What will you buy her?"
+        ],
+        [
+          "— Kupit ću joj cvijeće.",
+          "— I'll buy her flowers."
+        ],
+        [
+          "— A što kupuješ djedu?",
+          "— And what are you buying Grandpa?"
+        ],
+        [
+          "— Djedu nosim kolače. On voli slatko.",
+          "— I'm bringing Grandpa cakes. He likes sweet things."
+        ],
+        [
+          "— Šalješ li nešto sestri?",
+          "— Are you sending your sister anything?"
+        ],
+        [
+          "— Da, sestri šaljem paket. Ona živi u Zagrebu.",
+          "— Yes, I'm sending my sister a package. She lives in Zagreb."
+        ],
+        [
+          "— Baš lijepo od tebe!",
+          "— How nice of you!"
+        ],
+        [
+          "— Znam! Ali tko što daje meni?",
+          "— I know! But who gives anything to me?"
+        ],
+        [
+          "— Ja ti dajem savjet — i to besplatno!",
+          "— I'm giving you advice — and for free!"
+        ]
+      ],
+      "sortkljuc": 1404004,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Did you get it?",
+      "meta": {
+        "info": "Comprehension on the dialogue above. Each person gets something different, so match the receiver to the present: *joj* in *Kupit ću joj cvijeće* is Grandma, and *ti* in *Ja ti dajem savjet* is the one who asked for a present.",
+        "infokratko": "Match the receiver to the present: *joj* = Grandma, *ti* = the one asking.",
+        "opis": "Answer from the dialogue.",
+        "tekst": "— Komu pišeš? — Pišem baki. Sutra je njezin rođendan. — Lijepo! Što ćeš joj kupiti? — Kupit ću joj cvijeće. — A što kupuješ djedu? — Djedu nosim kolače. On voli slatko. — Šalješ li nešto sestri? — Da, sestri šaljem paket. Ona živi u Zagrebu. — Baš lijepo od tebe! — Znam! Ali tko što daje meni? — Ja ti dajem savjet — i to besplatno!"
+      },
+      "stavke": [
+        [
+          "Komu piše?",
+          "baki",
+          "sestri",
+          "djedu"
+        ],
+        [
+          "Zašto piše baki?",
+          "jer je sutra njezin rođendan",
+          "jer baka živi u Zagrebu",
+          "jer baka voli slatko"
+        ],
+        [
+          "Što će kupiti baki?",
+          "cvijeće",
+          "kolače",
+          "paket"
+        ],
+        [
+          "Što nosi djedu?",
+          "kolače",
+          "cvijeće",
+          "savjet"
+        ],
+        [
+          "Gdje živi sestra?",
+          "u Zagrebu",
+          "u Splitu",
+          "na moru"
+        ],
+        [
+          "Što je besplatno?",
+          "savjet",
+          "paket",
+          "cvijeće"
+        ]
+      ],
+      "sortkljuc": 1404005,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "poredak",
+      "naslov": "Order the dialogue",
+      "meta": {
+        "info": "Rebuild the conversation line by line. Each answer follows its question: *Komu pišeš?* is answered by *Pišem baki*, *A što kupuješ djedu?* by *Djedu nosim kolače*, and *Šalješ li nešto sestri?* by the package for Zagreb.",
+        "infokratko": "Each answer follows its question: *Komu pišeš? — Pišem baki.*",
+        "opis": "Rebuild the first eight lines of the conversation."
+      },
+      "stavke": [
+        [
+          "— Komu pišeš?"
+        ],
+        [
+          "— Pišem baki. Sutra je njezin rođendan."
+        ],
+        [
+          "— Lijepo! Što ćeš joj kupiti?"
+        ],
+        [
+          "— Kupit ću joj cvijeće."
+        ],
+        [
+          "— A što kupuješ djedu?"
+        ],
+        [
+          "— Djedu nosim kolače. On voli slatko."
+        ],
+        [
+          "— Šalješ li nešto sestri?"
+        ],
+        [
+          "— Da, sestri šaljem paket. Ona živi u Zagrebu."
+        ]
+      ],
+      "sortkljuc": 1404006,
+      "bodovi": 443
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 3: The postman",
+      "meta": {
+        "info": "A day on the postman's round, and every stop has a receiver. Most are nouns with a name beside them — *susjedu Marku, učiteljici Ani* — and both words take the dative. The last line uses the short plural form: *jer im Ivo nosi*.",
+        "infokratko": "Noun and name both in the dative: *susjedu Marku, učiteljici Ani*. *im* = to them.",
+        "opis": "Ivo carries the whole town's post. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *djeci* (to the children), *laje* (barks), *cijeli* (whole), *poznaje* (knows), *dobre vijesti* (good news)."
+        ],
+        [
+          "Poštar Ivo radi svaki dan.",
+          "Ivo the postman works every day."
+        ],
+        [
+          "Nosi pisma i pakete.",
+          "He carries letters and packages."
+        ],
+        [
+          "Susjedu Marku daje novine.",
+          "He gives the newspaper to Marko, the neighbour."
+        ],
+        [
+          "Učiteljici Ani nosi pismo.",
+          "He brings a letter to Ana, the teacher."
+        ],
+        [
+          "Doktoru daje paket.",
+          "He gives the doctor a package."
+        ],
+        [
+          "Baki Mariji uvijek kaže: \"Dobro jutro!\"",
+          "To Grandma Marija he always says: \"Good morning!\""
+        ],
+        [
+          "Djeci daje osmijeh, a psu... psu ne daje ništa, jer pas laje!",
+          "He gives the children a smile, and the dog... the dog gets nothing, because the dog barks!"
+        ],
+        [
+          "Cijeli grad poznaje Ivu i svi su sretni, jer im Ivo nosi dobre vijesti.",
+          "The whole town knows Ivo and everyone is happy, because Ivo brings them good news."
+        ]
+      ],
+      "sortkljuc": 1404007,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "True or false?",
+      "meta": {
+        "info": "Check each statement against Ivo's round. The receivers carry the information: *Doktoru daje paket* means the doctor gets a package, not a letter, and *psu ne daje ništa* rules out anything for the dog.",
+        "infokratko": "The receiver decides: the doctor gets a package; the dog gets nothing.",
+        "opis": "Tap true or false.",
+        "tekst": "Poštar Ivo radi svaki dan. Nosi pisma i pakete. Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket. Psu ne daje ništa, jer pas laje! Svi su sretni, jer im Ivo nosi dobre vijesti."
+      },
+      "stavke": [
+        [
+          "Ivo susjedu daje novine.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Doktoru nosi pismo.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Učiteljici nosi pismo.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Psu daje kolače.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Ivo radi samo u subotu.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Svi su sretni, jer im Ivo nosi dobre vijesti.",
+          "TRUE",
+          "FALSE"
+        ]
+      ],
+      "sortkljuc": 1404008,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the receiver",
+      "meta": {
+        "info": "Copy each receiver back into Ivo's round. A noun with a name beside it takes the dative just like the name: *susjed → susjedu*, *učiteljica → učiteljici*. The last item asks for the short plural form, *im* — to them.",
+        "infokratko": "*susjedu Marku, učiteljici Ani*; the last one is *im*.",
+        "opis": "Fill in the receivers from the text.",
+        "tekst": "Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket. Baki Mariji uvijek kaže: \"Dobro jutro!\" Psu ne daje ništa. Svi su sretni, jer im Ivo nosi dobre vijesti."
+      },
+      "stavke": [
+        [
+          "___ Marku daje novine. (susjed)",
+          "Susjedu"
+        ],
+        [
+          "___ Ani nosi pismo. (učiteljica)",
+          "Učiteljici"
+        ],
+        [
+          "___ daje paket. (doktor)",
+          "Doktoru"
+        ],
+        [
+          "___ Mariji kaže: \"Dobro jutro!\" (baka)",
+          "Baki"
+        ],
+        [
+          "___ ne daje ništa. (pas)",
+          "Psu"
+        ],
+        [
+          "Svi su sretni, jer ___ Ivo nosi dobre vijesti. (to them)",
+          "im"
+        ]
+      ],
+      "sortkljuc": 1404009,
+      "bodovi": 636
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: A card from Grandma",
+      "meta": {
+        "info": "A real Christmas card, the reply to the package the Horvats sent to Split in Lesson 14. Read it as a card: the greeting on top, one line per receiver, the signature at the bottom and the address last. *Vama* is the long form, used for contrast: now it is Grandma's turn.",
+        "infokratko": "A real card: greeting, one receiver per line, signature, address. *vama* for contrast.",
+        "opis": "Grandma writes back from Split. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *Dragi / Draga* (Dear), *Sretan Božić* (Merry Christmas), *hvala vam na…* (thank you for…), *pozdrav* (greetings), *vaša* (your), *Za:* (To:)."
+        ],
+        [
+          "Dragi Marko, draga Ana!",
+          "Dear Marko, dear Ana!"
+        ],
+        [
+          "Sretan Božić iz Splita!",
+          "Merry Christmas from Split!"
+        ],
+        [
+          "Hvala vam na paketu i na pismu.",
+          "Thank you for the package and the letter."
+        ],
+        [
+          "Djed čita Markovo pismo svaki dan.",
+          "Grandpa reads Marko's letter every day."
+        ],
+        [
+          "Sada ja vama šaljem paket.",
+          "Now I'm sending you a package."
+        ],
+        [
+          "Marku šaljem rukavice, a Ani šal.",
+          "I'm sending Marko gloves and Ana a scarf."
+        ],
+        [
+          "Mami i tati šaljem kolače.",
+          "I'm sending Mum and Dad cakes."
+        ],
+        [
+          "A psu? Psu šaljem jedan kolač — ali samo jedan!",
+          "And the dog? I'm sending the dog one cake — but only one!"
+        ],
+        [
+          "Djed vam šalje veliki pozdrav.",
+          "Grandpa sends you his warmest greetings."
+        ],
+        [
+          "Vaša baka",
+          "Your Grandma"
+        ],
+        [
+          "Za: obitelj Horvat, Zagreb",
+          "To: the Horvat family, Zagreb"
+        ]
+      ],
+      "sortkljuc": 1404010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Did you read the card?",
+      "meta": {
+        "info": "Comprehension on Grandma's card. Each question asks who gets what, and the answer is on a single line of the card. Where the card does not say it outright — where Grandma lives — the greeting at the top answers it.",
+        "infokratko": "One line per receiver. The greeting tells you where Grandma lives.",
+        "opis": "Answer from the card.",
+        "tekst": "Dragi Marko, draga Ana! Sretan Božić iz Splita! Hvala vam na paketu i na pismu. Djed čita Markovo pismo svaki dan. Sada ja vama šaljem paket. Marku šaljem rukavice, a Ani šal. Mami i tati šaljem kolače. A psu? Psu šaljem jedan kolač — ali samo jedan! Djed vam šalje veliki pozdrav. Vaša baka"
+      },
+      "stavke": [
+        [
+          "Tko piše čestitku?",
+          "baka",
+          "djed",
+          "mama"
+        ],
+        [
+          "Gdje živi baka?",
+          "u Splitu",
+          "u Zagrebu",
+          "na moru"
+        ],
+        [
+          "Što djed čita svaki dan?",
+          "Markovo pismo",
+          "čestitku",
+          "novine"
+        ],
+        [
+          "Što baka šalje Marku?",
+          "rukavice",
+          "šal",
+          "kolače"
+        ],
+        [
+          "Komu baka šalje šal?",
+          "Ani",
+          "mami",
+          "Marku"
+        ],
+        [
+          "Što baka šalje psu?",
+          "jedan kolač",
+          "ništa",
+          "rukavice"
+        ]
+      ],
+      "sortkljuc": 1404011,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Four parcels",
+      "meta": {
+        "info": "A puzzle rather than a story. Ivo has four parcels and four receivers, and nobody says which parcel is whose. Every clue says what somebody does **not** get, so work by elimination, starting with the parcel that only one person can take.",
+        "infokratko": "Every clue is negative: work by elimination.",
+        "opis": "Four parcels, four people, no labels. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *u paketima* (in the parcels), *alergičan na* (allergic to), *dobiva* (gets)."
+        ],
+        [
+          "Danas poštar Ivo nosi pakete.",
+          "Today Ivo the postman is delivering parcels."
+        ],
+        [
+          "U paketima su knjiga, cvijeće, parfem i lopta.",
+          "In the parcels there is a book, flowers, perfume and a ball."
+        ],
+        [
+          "Paketi su za doktora, za baku Mariju, za susjeda Marka i za učiteljicu Anu.",
+          "The parcels are for the doctor, Grandma Marija, Marko the neighbour and Ana the teacher."
+        ],
+        [
+          "Doktoru Ivo ne nosi ni cvijeće ni parfem.",
+          "Ivo is bringing the doctor neither flowers nor perfume."
+        ],
+        [
+          "Doktor ne igra nogomet.",
+          "The doctor doesn't play football."
+        ],
+        [
+          "Susjed Marko je alergičan na cvijeće.",
+          "Marko the neighbour is allergic to flowers."
+        ],
+        [
+          "Učiteljici Ani Ivo ne nosi ni cvijeće ni loptu.",
+          "Ivo is bringing Ana the teacher neither flowers nor a ball."
+        ],
+        [
+          "Baka Marija ne igra nogomet.",
+          "Grandma Marija doesn't play football."
+        ],
+        [
+          "Tko dobiva koji paket?",
+          "Who gets which parcel?"
+        ]
+      ],
+      "sortkljuc": 1404012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the negatives. The flowers can only go to Grandma Marija, because the doctor, Marko and the teacher are all ruled out. The doctor then takes the book, since he gets no perfume and plays no football, which leaves the perfume for the teacher and the ball for Marko.",
+        "infokratko": "Flowers first: only one person is left for them. Then the doctor, then the rest.",
+        "opis": "Nobody says who gets which parcel. Work it out from the text.",
+        "tekst": "Danas poštar Ivo nosi pakete. U paketima su knjiga, cvijeće, parfem i lopta. Paketi su za doktora, za baku Mariju, za susjeda Marka i za učiteljicu Anu. Doktoru Ivo ne nosi ni cvijeće ni parfem. Doktor ne igra nogomet. Susjed Marko je alergičan na cvijeće. Učiteljici Ani Ivo ne nosi ni cvijeće ni loptu. Baka Marija ne igra nogomet."
+      },
+      "stavke": [
+        [
+          "Komu Ivo nosi cvijeće?",
+          "baki Mariji",
+          "učiteljici Ani",
+          "doktoru"
+        ],
+        [
+          "Komu Ivo nosi knjigu?",
+          "doktoru",
+          "susjedu Marku",
+          "učiteljici Ani"
+        ],
+        [
+          "Komu Ivo nosi parfem?",
+          "učiteljici Ani",
+          "baki Mariji",
+          "susjedu Marku"
+        ],
+        [
+          "Komu Ivo nosi loptu?",
+          "susjedu Marku",
+          "doktoru",
+          "baki Mariji"
+        ],
+        [
+          "Zašto Marko ne dobiva cvijeće?",
+          "jer je alergičan na cvijeće",
+          "jer ne igra nogomet",
+          "jer ne čita knjige"
+        ],
+        [
+          "Što Ivo ne nosi učiteljici Ani?",
+          "ni cvijeće ni loptu",
+          "ni knjigu ni parfem",
+          "ni cvijeće ni parfem"
+        ]
+      ],
+      "sortkljuc": 1404013,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "info": "One tap per sentence, and almost every sentence comes from the five texts. A word in **-a** takes **-i**, a consonant or **-o** takes **-u**, and a plural takes **-ima**. One plural is a place, not a receiver: *u paketima* — the same ending in its locative job.",
+        "infokratko": "**-i** after **-a**, **-u** after a consonant, **-ima** in the plural — also *u paketima*.",
+        "nastavci": "i | u | ima",
+        "opis": "Almost every sentence came out of the five texts. One tap finishes the word."
+      },
+      "stavke": [
+        [
+          "Mam___ kupuje parfem.",
+          "She's buying Mum perfume.",
+          "i"
+        ],
+        [
+          "Brat___ Marku kupuje loptu.",
+          "She's buying her brother Marko a ball.",
+          "u"
+        ],
+        [
+          "Bak___ šalje čokoladu.",
+          "She's sending Grandma chocolate.",
+          "i"
+        ],
+        [
+          "Djed___ piše pismo.",
+          "She's writing Grandpa a letter.",
+          "u"
+        ],
+        [
+          "Prijateljic___ Maji daje kartu.",
+          "She's giving her friend Maja a ticket.",
+          "i"
+        ],
+        [
+          "Ana je dobra sv___.",
+          "Ana is good to everyone.",
+          "ima"
+        ],
+        [
+          "Sestr___ šaljem paket.",
+          "I'm sending my sister a package.",
+          "i"
+        ],
+        [
+          "Susjed___ Marku daje novine.",
+          "He gives Marko, the neighbour, the newspaper.",
+          "u"
+        ],
+        [
+          "Učiteljic___ Ani nosi pismo.",
+          "He brings Ana, the teacher, a letter.",
+          "i"
+        ],
+        [
+          "Doktor___ daje paket.",
+          "He gives the doctor a package.",
+          "u"
+        ],
+        [
+          "U paket___ su knjiga i lopta.",
+          "In the parcels there is a book and a ball.",
+          "ima"
+        ],
+        [
+          "Mark___ šaljem rukavice.",
+          "I'm sending Marko gloves.",
+          "u"
+        ],
+        [
+          "Tat___ kupuje knjigu.",
+          "She's buying Dad a book.",
+          "i"
+        ],
+        [
+          "Ps___ šaljem jedan kolač.",
+          "I'm sending the dog one cake.",
+          "u"
+        ],
+        [
+          "Djed___ nosim kolače.",
+          "I'm bringing Grandpa cakes.",
+          "u"
+        ],
+        [
+          "Susjed___ nosi kolače.",
+          "She's bringing her neighbour (f.) cakes.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1404014,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Receiver or place?",
+      "meta": {
+        "info": "Sorting sentences by the job of the **-i**, **-u** or **-ima** form. Without a preposition it names the receiver and answers *komu?*; after *u* or *na* it names the place and answers *gdje?* The ending alone does not decide it — look for *u* and *na*.",
+        "infokratko": "No preposition → *komu?* (dative). After *u / na* → *gdje?* (locative).",
+        "stupci": "KOMU? (DATIV) | GDJE? (LOKATIV)",
+        "opis": "Does the form say who gets something, or where something is?"
+      },
+      "stavke": [
+        [
+          "Mami kupuje parfem.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Baki šalje čokoladu.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Susjedu Marku daje novine.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Doktoru daje paket.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Ana je dobra svima.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Marku šaljem rukavice.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Djedu nosim kolače.",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "Ona živi u Zagrebu.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "U paketima su knjiga i lopta.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "Baka živi u Splitu.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "Paket je na stolu.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "Poštar je u pošti.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "Djed je u vrtu.",
+          "GDJE? (LOKATIV)"
+        ],
+        [
+          "Pas spava na krovu.",
+          "GDJE? (LOKATIV)"
+        ]
+      ],
+      "sortkljuc": 1404015,
+      "bodovi": 520
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU send a parcel",
+      "meta": {
+        "info": "Your turn at the post office, and the clerk uses the polite *vi*. Every receiver you name takes the dative — *baki, prijatelju, sestri* — and the clerk reacts to what you put in the parcel. All options are correct Croatian.",
+        "infokratko": "Polite *vi*. Name the receiver in the dative: *baki, prijatelju, sestri*.",
+        "opis": "A parcel, a card and a queue at the post office. Choose your replies. Passive words: *Izvolite* (can I help you / here you are), *naravno* (of course), *ih šaljemo* (we send them), *trebam* (I need), *Sretan Božić* (Merry Christmas), *i vama* (to you too)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Dobar dan! Izvolite?"
+        ],
+        [
+          "ti",
+          "Dobar dan! Šaljem paket.",
+          "Dobar dan! Šaljem paket i razglednicu."
+        ],
+        [
+          "npc",
+          "Naravno. Komu šaljete paket?"
+        ],
+        [
+          "ti",
+          "Baki. Ona živi u Splitu.",
+          "Prijatelju. On živi u Rijeci.",
+          "Sestri. Ona živi u Zagrebu."
+        ],
+        [
+          "npc",
+          "Lijepo! Što je u paketu?"
+        ],
+        [
+          "ti",
+          "Kolači i čokolada.",
+          "Kolači i bomboni."
+        ],
+        [
+          "npc",
+          "Kolači? Mmm! Onda ih šaljemo danas, ne sutra!"
+        ],
+        [
+          "ti",
+          "Hvala!",
+          "Super, hvala!"
+        ],
+        [
+          "npc",
+          "Trebate li i čestitku? Imamo lijepe čestitke za Božić."
+        ],
+        [
+          "ti",
+          "Da, jednu čestitku, molim.",
+          "Ne, hvala, imam čestitku."
+        ],
+        [
+          "npc",
+          "Dobro. Trebam još adresu i vaš potpis."
+        ],
+        [
+          "ti",
+          "Adresa je na paketu.",
+          "Evo, adresa i potpis."
+        ],
+        [
+          "npc",
+          "Hvala! Paket košta deset eura. Sretan Božić!"
+        ],
+        [
+          "ti",
+          "Hvala, i vama!",
+          "Izvolite, deset eura. Sretan Božić!"
+        ]
+      ],
+      "sortkljuc": 1404016,
+      "bodovi": 443
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 17,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Translate by building",
+      "meta": {
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The receiver takes **-i**, **-u** or **-ima** and often the first tile; a short form such as *joj, ti, im* takes the second place, also after *jer*.",
+        "infokratko": "Receiver **-i, -u, -ima**, often first; *joj, ti, im* in second place, also after *jer*.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
+      },
+      "stavke": [
+        [
+          "Mami kupuje parfem, a tati knjigu.",
+          "en: She's buying Mum perfume and Dad a book."
+        ],
+        [
+          "Baki šalje čokoladu, a djedu piše pismo.",
+          "en: She's sending Grandma chocolate, and she's writing Grandpa a letter."
+        ],
+        [
+          "Prijateljici Maji daje kartu za koncert.",
+          "en: She's giving her friend Maja a concert ticket."
+        ],
+        [
+          "Jer je Ana dobra svima.",
+          "en: Because Ana is good to everyone."
+        ],
+        [
+          "Komu pišeš?",
+          "en: Who are you writing to?"
+        ],
+        [
+          "Kupit ću joj cvijeće.",
+          "en: I'll buy her flowers."
+        ],
+        [
+          "Djedu nosim kolače.",
+          "en: I'm bringing Grandpa cakes."
+        ],
+        [
+          "Sestri šaljem paket.",
+          "en: I'm sending my sister a package."
+        ],
+        [
+          "Ja ti dajem savjet.",
+          "en: I'm giving you advice."
+        ],
+        [
+          "Susjedu Marku daje novine.",
+          "en: He gives Marko, the neighbour, the newspaper."
+        ],
+        [
+          "Psu ne daje ništa!",
+          "en: He gives the dog nothing!"
+        ],
+        [
+          "Svi su sretni, jer im Ivo nosi dobre vijesti.",
+          "en: Everyone is happy, because Ivo brings them good news."
+        ],
+        [
+          "Sada ja vama šaljem paket.",
+          "en: Now I'm sending you a package."
+        ],
+        [
+          "Marku šaljem rukavice, a Ani šal.",
+          "en: I'm sending Marko gloves and Ana a scarf."
+        ],
+        [
+          "Doktoru Ivo ne nosi ni cvijeće ni parfem.",
+          "en: Ivo is bringing the doctor neither flowers nor perfume."
+        ],
+        [
+          "Komu šaljete paket?",
+          "en: Who are you sending the parcel to?"
+        ]
+      ],
+      "sortkljuc": 1404017,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Practice 14",
+      "cjelinanaslov": "Reading: December Gifts",
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the presents and the post. Everything is in its naming form; say *Šaljem baki…* in your head as you tap, remembering that the present takes the target form: *Šaljem baki knjigu.*",
+        "infokratko": "Naming forms. Think *Šaljem baki...*; the present takes the target form.",
+        "opis": "The post office is closing. A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "parfem",
+          "perfume"
+        ],
+        [
+          "knjiga",
+          "book"
+        ],
+        [
+          "lopta",
+          "ball"
+        ],
+        [
+          "cvijeće",
+          "flowers"
+        ],
+        [
+          "kolač",
+          "cake"
+        ],
+        [
+          "pismo",
+          "letter"
+        ],
+        [
+          "paket",
+          "package"
+        ],
+        [
+          "novine",
+          "newspaper"
+        ],
+        [
+          "kišobran",
+          "umbrella"
+        ],
+        [
+          "kapa",
+          "cap"
+        ],
+        [
+          "bombon",
+          "candy"
+        ],
+        [
+          "gitara",
+          "guitar"
+        ]
+      ],
+      "sortkljuc": 1404018,
+      "bodovi": 540
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "poklon",
+          "present"
+        ],
+        [
+          "čestitka",
+          "greeting card"
+        ],
+        [
+          "kartica",
+          "card"
+        ],
+        [
+          "razglednica",
+          "postcard"
+        ],
+        [
+          "paket",
+          "package"
+        ],
+        [
+          "novine",
+          "newspaper"
+        ],
+        [
+          "rukavice",
+          "gloves"
+        ],
+        [
+          "igračka",
+          "toy"
+        ],
+        [
+          "ogrlica",
+          "necklace"
+        ],
+        [
+          "prsten",
+          "ring"
+        ],
+        [
+          "novčanik",
+          "wallet"
+        ],
+        [
+          "kišobran",
+          "umbrella"
+        ],
+        [
+          "sapun",
+          "soap"
+        ],
+        [
+          "vaza",
+          "vase"
+        ],
+        [
+          "kravata",
+          "tie"
+        ],
+        [
+          "bombon",
+          "candy"
+        ],
+        [
+          "suvenir",
+          "souvenir"
+        ],
+        [
+          "susjeda",
+          "neighbour (f.)"
+        ],
+        [
+          "nećak",
+          "nephew"
+        ],
+        [
+          "nećakinja",
+          "niece"
+        ],
+        [
+          "rođakinja",
+          "cousin (f.)"
+        ],
+        [
+          "kum",
+          "godfather"
+        ],
+        [
+          "kolegica",
+          "colleague (f.)"
+        ],
+        [
+          "šefica",
+          "boss (f.)"
+        ],
+        [
+          "prosinac",
+          "December"
+        ],
+        [
+          "Božić",
+          "Christmas"
+        ],
+        [
+          "blagdan",
+          "holiday"
+        ],
+        [
+          "želja",
+          "wish"
+        ],
+        [
+          "vijest",
+          "news"
+        ],
+        [
+          "savjet",
+          "advice"
+        ],
+        [
+          "osmijeh",
+          "smile"
+        ],
+        [
+          "pomoć",
+          "help"
+        ],
+        [
+          "ljubav",
+          "love"
+        ],
+        [
+          "dogovor",
+          "agreement"
+        ],
+        [
+          "dozvola",
+          "permission"
+        ],
+        [
+          "poruka",
+          "message"
+        ],
+        [
+          "adresa",
+          "address"
+        ],
+        [
+          "potpis",
+          "signature"
+        ],
+        [
+          "poseban",
+          "special"
+        ],
+        [
+          "koristan",
+          "useful"
+        ],
+        [
+          "besplatno",
+          "for free"
+        ],
+        [
+          "svatko",
+          "everyone"
+        ],
+        [
+          "komu",
+          "to whom"
+        ],
+        [
+          "davati",
+          "to give"
+        ],
+        [
+          "slati",
+          "to send"
+        ],
+        [
+          "donijeti",
+          "to bring"
+        ],
+        [
+          "pokazati",
+          "to show"
+        ],
+        [
+          "objasniti",
+          "to explain"
+        ],
+        [
+          "vjerovati",
+          "to believe"
+        ],
+        [
+          "zahvaliti",
+          "to thank"
+        ],
+        [
+          "posuditi",
+          "to lend"
+        ],
+        [
+          "vratiti",
+          "to give back"
+        ],
+        [
+          "primati",
+          "to receive"
+        ],
+        [
+          "pomagati",
+          "to help"
+        ]
+      ],
+      "sortkljuc": 1405001,
+      "bodovi": 369
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "komu",
+          "to whom",
+          "whom",
+          "whose"
+        ],
+        [
+          "razglednica",
+          "postcard",
+          "greeting card",
+          "letter"
+        ],
+        [
+          "čestitka",
+          "greeting card",
+          "postcard",
+          "message"
+        ],
+        [
+          "rukavice",
+          "gloves",
+          "socks",
+          "scarf"
+        ],
+        [
+          "ogrlica",
+          "necklace",
+          "ring",
+          "tie"
+        ],
+        [
+          "novčanik",
+          "wallet",
+          "umbrella",
+          "package"
+        ],
+        [
+          "kišobran",
+          "umbrella",
+          "wallet",
+          "cap"
+        ],
+        [
+          "nećak",
+          "nephew",
+          "niece",
+          "cousin"
+        ],
+        [
+          "nećakinja",
+          "niece",
+          "nephew",
+          "granddaughter"
+        ],
+        [
+          "susjeda",
+          "neighbour (f.)",
+          "colleague (f.)",
+          "cousin (f.)"
+        ],
+        [
+          "šefica",
+          "boss (f.)",
+          "teacher (f.)",
+          "colleague (f.)"
+        ],
+        [
+          "prosinac",
+          "December",
+          "November",
+          "January"
+        ],
+        [
+          "Božić",
+          "Christmas",
+          "New Year",
+          "holiday"
+        ],
+        [
+          "želja",
+          "wish",
+          "news",
+          "help"
+        ],
+        [
+          "vijest",
+          "news",
+          "advice",
+          "message"
+        ],
+        [
+          "savjet",
+          "advice",
+          "agreement",
+          "answer"
+        ],
+        [
+          "osmijeh",
+          "smile",
+          "love",
+          "wish"
+        ],
+        [
+          "dozvola",
+          "permission",
+          "agreement",
+          "signature"
+        ],
+        [
+          "potpis",
+          "signature",
+          "address",
+          "message"
+        ],
+        [
+          "besplatno",
+          "for free",
+          "expensive",
+          "special"
+        ],
+        [
+          "koristan",
+          "useful",
+          "special",
+          "practical"
+        ],
+        [
+          "svatko",
+          "everyone",
+          "nobody",
+          "somebody"
+        ],
+        [
+          "slati",
+          "to send",
+          "to give",
+          "to bring"
+        ],
+        [
+          "donijeti",
+          "to bring",
+          "to give back",
+          "to send"
+        ],
+        [
+          "posuditi",
+          "to lend",
+          "to give back",
+          "to receive"
+        ],
+        [
+          "vratiti",
+          "to give back",
+          "to lend",
+          "to show"
+        ],
+        [
+          "primati",
+          "to receive",
+          "to send",
+          "to thank"
+        ],
+        [
+          "zahvaliti",
+          "to thank",
+          "to believe",
+          "to explain"
+        ],
+        [
+          "vjerovati",
+          "to believe",
+          "to thank",
+          "to help"
+        ],
+        [
+          "pomagati",
+          "to help",
+          "to show",
+          "to explain"
+        ]
+      ],
+      "sortkljuc": 1405002,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-I or -U?",
+      "meta": {
+        "stupci": "-I | -U",
+        "opis": "Which ending does each word take as the receiver? Look at the last letter."
+      },
+      "stavke": [
+        [
+          "mama",
+          "-I"
+        ],
+        [
+          "baka",
+          "-I"
+        ],
+        [
+          "tata",
+          "-I"
+        ],
+        [
+          "susjeda",
+          "-I"
+        ],
+        [
+          "nećakinja",
+          "-I"
+        ],
+        [
+          "kolegica",
+          "-I"
+        ],
+        [
+          "šefica",
+          "-I"
+        ],
+        [
+          "učiteljica",
+          "-I"
+        ],
+        [
+          "brat",
+          "-U"
+        ],
+        [
+          "djed",
+          "-U"
+        ],
+        [
+          "Marko",
+          "-U"
+        ],
+        [
+          "nećak",
+          "-U"
+        ],
+        [
+          "kum",
+          "-U"
+        ],
+        [
+          "prijatelj",
+          "-U"
+        ],
+        [
+          "poštar",
+          "-U"
+        ],
+        [
+          "pas",
+          "-U"
+        ]
+      ],
+      "sortkljuc": 1405003,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Komu or koga?",
+      "meta": {
+        "stupci": "KOMU? (DATIV) | KOGA? (AKUZATIV)",
+        "opis": "Receiver or target? Sort each pronoun."
+      },
+      "stavke": [
+        [
+          "mi",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "mu",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "joj",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "nam",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "vam",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "im",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "meni",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "njemu",
+          "KOMU? (DATIV)"
+        ],
+        [
+          "me",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "ga",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "nas",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "vas",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "ih",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "mene",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "njega",
+          "KOGA? (AKUZATIV)"
+        ],
+        [
+          "nju",
+          "KOGA? (AKUZATIV)"
+        ]
+      ],
+      "sortkljuc": 1405004,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "i | u | ima | ama",
+        "opis": "The English is above. One tap finishes the receiver — one person or several?"
+      },
+      "stavke": [
+        [
+          "Mam___ kupujem šal.",
+          "I'm buying Mum a scarf.",
+          "i"
+        ],
+        [
+          "Brat___ dajem loptu.",
+          "I'm giving my brother a ball.",
+          "u"
+        ],
+        [
+          "Prijatelj___ pišem e-mail.",
+          "I'm writing my friends an e-mail.",
+          "ima"
+        ],
+        [
+          "Sestr___ šaljem razglednice.",
+          "I'm sending my sisters postcards.",
+          "ama"
+        ],
+        [
+          "Tat___ pomažem u vrtu.",
+          "I'm helping Dad in the garden.",
+          "i"
+        ],
+        [
+          "Mark___ šaljem rukavice.",
+          "I'm sending Marko gloves.",
+          "u"
+        ],
+        [
+          "Kolegic___ kupujem kavu.",
+          "I'm buying my colleagues coffee.",
+          "ama"
+        ],
+        [
+          "Turist___ ću pokazati grad.",
+          "I'll show the tourists the town.",
+          "ima"
+        ],
+        [
+          "Nećak___ ću posuditi kišobran.",
+          "I'll lend my nephew an umbrella.",
+          "u"
+        ],
+        [
+          "Bak___ šaljem čokoladu.",
+          "I'm sending Grandma chocolate.",
+          "i"
+        ],
+        [
+          "Vjerujem prijatelj___.",
+          "I trust my friend.",
+          "u"
+        ],
+        [
+          "Susjed___ nosimo kolače.",
+          "We're bringing the neighbours cakes.",
+          "ima"
+        ],
+        [
+          "Učiteljic___ nosimo cvijeće.",
+          "We're bringing the teachers flowers.",
+          "ama"
+        ],
+        [
+          "Šefic___ šaljem poruku.",
+          "I'm sending the boss a message.",
+          "i"
+        ],
+        [
+          "Ps___ ne dajem ništa.",
+          "I'm giving the dog nothing.",
+          "u"
+        ],
+        [
+          "Zahvalit ću nećakinj___.",
+          "I'll thank my niece.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1405005,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "opis": "Choose the receiver's form. The bracket gives the naming form where you need it."
+      },
+      "stavke": [
+        [
+          "Pišem ___ .",
+          "baki",
+          "baka",
+          "baku"
+        ],
+        [
+          "___ dajem loptu.",
+          "Bratu",
+          "Brat",
+          "Brata"
+        ],
+        [
+          "Šaljem paket ___ .",
+          "sestri",
+          "sestra",
+          "sestru"
+        ],
+        [
+          "Kupujem knjigu ___ .",
+          "tati",
+          "tatu",
+          "tata"
+        ],
+        [
+          "Pomažem ___ .",
+          "prijatelju",
+          "prijatelja",
+          "prijatelj"
+        ],
+        [
+          "Vjerujem ___ . (kolegica)",
+          "kolegici",
+          "kolegicu",
+          "kolegica"
+        ],
+        [
+          "___ šaljem e-mail.",
+          "Marku",
+          "Marko",
+          "Marka"
+        ],
+        [
+          "Pišem e-mail ___ . (prijatelji)",
+          "prijateljima",
+          "prijateljama",
+          "prijatelji"
+        ],
+        [
+          "___ šaljem razglednice. (sestre)",
+          "Sestrama",
+          "Sestrima",
+          "Sestre"
+        ],
+        [
+          "___ pišeš? — Baki.",
+          "Komu",
+          "Koga",
+          "Tko"
+        ],
+        [
+          "___ dajem vodu. (pas)",
+          "Psu",
+          "Pasu",
+          "Psa"
+        ],
+        [
+          "Sutra ću zahvaliti ___ .",
+          "učiteljici",
+          "učiteljicu",
+          "učiteljica"
+        ]
+      ],
+      "sortkljuc": 1405006,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Dative or locative?",
+      "meta": {
+        "opis": "Same ending, different job. Which question does the form in **-i**, **-u** or **-ima** answer?"
+      },
+      "stavke": [
+        [
+          "Šaljem paket sestri.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Sestra živi u Zagrebu.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pomažem baki.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pričamo o baki.",
+          "o kome? (lokativ)",
+          "komu? (dativ)",
+          "gdje? (lokativ)"
+        ],
+        [
+          "Paket je na stolu.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Poštar nosi novine susjedu.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "U paketima su kolači.",
+          "gdje? (lokativ)",
+          "komu? (dativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pišem e-mail prijateljima.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ],
+        [
+          "Pišem pismo o Marku.",
+          "o kome? (lokativ)",
+          "komu? (dativ)",
+          "gdje? (lokativ)"
+        ],
+        [
+          "Vjerujem nećaku.",
+          "komu? (dativ)",
+          "gdje? (lokativ)",
+          "o kome? (lokativ)"
+        ]
+      ],
+      "sortkljuc": 1405007,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which little word?",
+      "meta": {
+        "opis": "Replace the receiver in CAPITALS — the short form can never open the sentence."
+      },
+      "stavke": [
+        [
+          "Dajem loptu BRATU.",
+          "Dajem mu loptu.",
+          "Mu dajem loptu.",
+          "Dajem ga loptu."
+        ],
+        [
+          "Pišem SESTRI.",
+          "Pišem joj.",
+          "Joj pišem."
+        ],
+        [
+          "Baka šalje paket MENI.",
+          "Baka mi šalje paket.",
+          "Baka šalje mi paket.",
+          "Mi baka šalje paket."
+        ],
+        [
+          "Kupujem karte VAMA.",
+          "Kupujem vam karte.",
+          "Kupujem vas karte.",
+          "Vam kupujem karte."
+        ],
+        [
+          "Šaljem poklon NJIMA.",
+          "Šaljem im poklon.",
+          "Šaljem ih poklon.",
+          "Im šaljem poklon."
+        ],
+        [
+          "Pomažem MAMI.",
+          "Pomažem joj.",
+          "Pomažem je.",
+          "Joj pomažem."
+        ],
+        [
+          "Vjerujem MARKU.",
+          "Vjerujem mu.",
+          "Vjerujem ga.",
+          "Mu vjerujem."
+        ],
+        [
+          "Šaljem paket sestri. (both as pronouns)",
+          "Šaljem joj ga.",
+          "Šaljem ga joj.",
+          "Joj ga šaljem."
+        ],
+        [
+          "Kupit ću parfem MAMI.",
+          "Kupit ću joj parfem.",
+          "Kupit joj ću parfem.",
+          "Joj ću kupiti parfem."
+        ],
+        [
+          "Mama kuha ručak MENI.",
+          "Mama mi kuha ručak.",
+          "Mi mama kuha ručak.",
+          "Mama kuha mi ručak."
+        ]
+      ],
+      "sortkljuc": 1405008,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Long or short?",
+      "meta": {
+        "opis": "Choose the form that fits. The bracket tells you who the receiver is."
+      },
+      "stavke": [
+        [
+          "Komu pišeš? — ___ . (him)",
+          "Njemu",
+          "Mu",
+          "Njega"
+        ],
+        [
+          "Baka ___ šalje paket. (to me)",
+          "mi",
+          "me",
+          "mene"
+        ],
+        [
+          "___ šalje paket, ne tebi! (to me)",
+          "Meni",
+          "Mi",
+          "Mene"
+        ],
+        [
+          "Dajem ___ loptu. (to him)",
+          "mu",
+          "ga",
+          "njega"
+        ],
+        [
+          "Poštar ___ nosi novine. (to us)",
+          "nam",
+          "nas",
+          "ih"
+        ],
+        [
+          "Komu daješ ključ? — ___ . (to them)",
+          "Njima",
+          "Im",
+          "Ih"
+        ],
+        [
+          "Kupit ću ___ šal. (to her)",
+          "joj",
+          "je",
+          "nju"
+        ],
+        [
+          "Mama ___ je poslala paket. (to him)",
+          "mu",
+          "ga",
+          "njega"
+        ]
+      ],
+      "sortkljuc": 1405009,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the dative",
+      "meta": {
+        "opis": "Type the receiver's form. The last two are plural."
+      },
+      "stavke": [
+        [
+          "mama →",
+          "mami"
+        ],
+        [
+          "brat →",
+          "bratu"
+        ],
+        [
+          "tata →",
+          "tati"
+        ],
+        [
+          "pas →",
+          "psu"
+        ],
+        [
+          "Ana →",
+          "Ani"
+        ],
+        [
+          "Marko →",
+          "Marku"
+        ],
+        [
+          "učiteljica →",
+          "učiteljici"
+        ],
+        [
+          "susjeda →",
+          "susjedi"
+        ],
+        [
+          "nećak →",
+          "nećaku"
+        ],
+        [
+          "šefica →",
+          "šefici"
+        ],
+        [
+          "prijatelji →",
+          "prijateljima"
+        ],
+        [
+          "sestre →",
+          "sestrama"
+        ]
+      ],
+      "sortkljuc": 1405010,
+      "bodovi": 531
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 11,
       "broj": 9999,
       "format": "upis",
       "naslov": "Replace the receiver",
@@ -77592,477 +81333,369 @@ window.PODACI = {
           "Kupujem im karte"
         ],
         [
-          "Nosim učiteljici cvijeće. →",
-          "Nosim joj cvijeće"
+          "Mama šalje tebi razglednicu. →",
+          "Mama ti šalje razglednicu"
+        ],
+        [
+          "Pomažem susjedi. →",
+          "Pomažem joj"
+        ],
+        [
+          "Vjerujem Marku. →",
+          "Vjerujem mu"
+        ],
+        [
+          "Šaljem vama poruku. →",
+          "Šaljem vam poruku"
+        ],
+        [
+          "Posudit ću nećaku kišobran. →",
+          "Posudit ću mu kišobran"
         ]
       ],
-      "sortkljuc": 1403006,
-      "bodovi": 1272
+      "sortkljuc": 1405011,
+      "bodovi": 531
     },
     {
-      "cjelina": "Grammar 14",
-      "cjelinanaslov": "The Dative",
-      "stranica": 7,
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 12,
       "broj": 9999,
       "format": "izbor",
-      "naslov": "Which little word?",
+      "naslov": "Read: the parcel without an address",
       "meta": {
-        "opis": "Replace the receiver in CAPITALS — and remember the short form can never open the sentence."
+        "tekst": "U prosincu poštar Ivo radi i u subotu. Danas ima problem: jedan paket nema adresu. Na paketu piše samo: \"Za Anu. Sretan Božić! Baka.\" Ivo pita susjedu Petru: \"Znate li komu je ovaj paket?\" Petra kaže: \"Ani Horvat, naravno! Njezina baka živi u Splitu.\" Ivo nosi paket Ani. Ana je sretna i daje poštaru kolač. \"Hvala vam, Ivo! Vi nam uvijek nosite dobre vijesti.\" Onda Ana piše baki poruku: \"Paket je stigao. Hvala ti!\"",
+        "opis": "Read the text, then answer. Passive words: *u prosincu* (in December), *piše* (it says), *Sretan Božić* (Merry Christmas), *naravno* (of course), *dobre vijesti* (good news), *stigao* (arrived)."
       },
       "stavke": [
         [
-          "Dajem loptu BRATU.",
-          "Dajem mu loptu.",
-          "Mu dajem loptu.",
-          "Dajem ga loptu."
+          "Koji problem ima Ivo?",
+          "paket nema adresu",
+          "paket je težak",
+          "Ivo ne radi u subotu"
         ],
         [
-          "Pišem SESTRI.",
-          "Pišem joj.",
-          "Joj pišem.",
-          "Pišem je."
+          "Što piše na paketu?",
+          "\"Za Anu. Sretan Božić! Baka.\"",
+          "\"Za Petru. Sretan Božić!\"",
+          "\"Za baku. Ana.\""
         ],
         [
-          "Baka šalje paket MENI.",
+          "Koga Ivo pita?",
+          "susjedu Petru",
+          "Anu",
+          "baku"
+        ],
+        [
+          "Komu je paket?",
+          "Ani Horvat",
+          "susjedi Petri",
+          "baki"
+        ],
+        [
+          "Što Ana daje poštaru?",
+          "kolač",
+          "poruku",
+          "paket"
+        ],
+        [
+          "Komu Ana piše poruku?",
+          "baki",
+          "susjedi Petri",
+          "poštaru"
+        ]
+      ],
+      "sortkljuc": 1405012,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "opis": "Not about the dative — everything here comes from levels 9 to 13."
+      },
+      "stavke": [
+        [
+          "Ja sam u ___ . (grad)",
+          "gradu",
+          "grad",
+          "gradi"
+        ],
+        [
+          "Idem u ___ . (škola)",
+          "školu",
+          "školi",
+          "škola"
+        ],
+        [
+          "Mi smo na ___ . (tržnica)",
+          "tržnici",
+          "tržnicu",
+          "tržnica"
+        ],
+        [
+          "Djeca su ___ . (at the seaside)",
+          "na moru",
+          "na more",
+          "na mori"
+        ],
+        [
+          "Novac je u ___ . (banka)",
+          "banci",
+          "banki",
+          "banku"
+        ],
+        [
+          "Pričamo o ___ . (ti)",
+          "tebi",
+          "te",
+          "ti"
+        ],
+        [
+          "Djeca su u ___ . (škole)",
+          "školama",
+          "školima",
+          "škole"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Idem u knjižnicu jer je Ana u knjižnici.",
+          "Idem u knjižnicu jer Ana je u knjižnici.",
+          "Idem u knjižnici jer je Ana u knjižnicu."
+        ],
+        [
+          "Marko ___ ne jede. (nothing)",
+          "ništa",
+          "nešto",
+          "nitko"
+        ],
+        [
+          "Ja ___ gladan.",
+          "nisam",
+          "ne sam",
+          "nemam"
+        ],
+        [
+          "Nitko ___ kuha.",
+          "ne",
+          "ni",
+          "nije"
+        ],
+        [
+          "Ne pijem kavu, ___ čaj.",
+          "nego",
+          "ali",
+          "i"
+        ],
+        [
+          "___ živiš? — U Splitu.",
+          "Gdje",
+          "Kamo",
+          "Tko"
+        ],
+        [
+          "___ čekaš? — Prijatelja.",
+          "Koga",
+          "Tko",
+          "Komu"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Voliš li kavu?",
+          "Li voliš kavu?",
+          "Voliš kavu li?"
+        ],
+        [
+          "Jučer sam ___ film. (gledati, ž.)",
+          "gledala",
+          "gledao",
+          "gledali"
+        ],
+        [
+          "Sutra ___ plivati. (ja)",
+          "ću",
+          "ćeš",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Plivat ću.",
+          "Plivati ću.",
+          "Plivaću."
+        ],
+        [
+          "___ gitara je nova. (her)",
+          "Njezina",
+          "Njezin",
+          "Njezino"
+        ],
+        [
+          "Množina od \"stol\" je...",
+          "stolovi",
+          "stoli",
+          "stole"
+        ]
+      ],
+      "sortkljuc": 1405013,
+      "bodovi": 449
+    },
+    {
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Baki šaljem čokoladu, a djedu pišem pismo.",
+          "en: I'm sending Grandma chocolate, and I'm writing Grandpa a letter."
+        ],
+        [
+          "Mami kupujem šal.",
+          "en: I'm buying Mum a scarf."
+        ],
+        [
+          "Komu pišeš čestitku?",
+          "en: Who are you writing a greeting card to?"
+        ],
+        [
+          "Pomažem tati u vrtu.",
+          "en: I'm helping Dad in the garden."
+        ],
+        [
+          "Psu ne dajem ništa!",
+          "en: I'm giving the dog nothing!"
+        ],
+        [
+          "Prijateljima pišem e-mail.",
+          "en: I'm writing my friends an e-mail."
+        ],
+        [
           "Baka mi šalje paket.",
-          "Baka šalje mi paket.",
-          "Mi baka šalje paket."
+          "en: Grandma is sending me a package."
         ],
         [
-          "Kupujem karte VAMA.",
-          "Kupujem vam karte.",
-          "Kupujem vas karte.",
-          "Vam kupujem karte."
+          "Dajem mu loptu jer je danas njegov rođendan.",
+          "en: I'm giving him a ball because it's his birthday today."
         ],
         [
-          "Šaljem poklon NJIMA.",
-          "Šaljem im poklon.",
-          "Šaljem ih poklon.",
-          "Im šaljem poklon."
+          "Kupit ću joj šal za Božić.",
+          "en: I'll buy her a scarf for Christmas."
+        ],
+        [
+          "Šaljem joj ga sutra.",
+          "en: I'm sending it to her tomorrow."
+        ],
+        [
+          "Meni šalje paket, a ne tebi!",
+          "en: He's sending the package to me, not to you!"
+        ],
+        [
+          "Nećaku ću posuditi kišobran.",
+          "en: I'll lend my nephew an umbrella."
+        ],
+        [
+          "Vjerujem ti.",
+          "en: I trust you."
+        ],
+        [
+          "Poštar nosi susjedu novine.",
+          "en: The postman brings the neighbour the newspaper."
+        ],
+        [
+          "Svi su sretni, jer im Ivo nosi dobre vijesti.",
+          "en: Everyone is happy, because Ivo brings them good news."
         ]
       ],
-      "sortkljuc": 1403007,
-      "bodovi": 887
+      "sortkljuc": 1405014,
+      "bodovi": 449
     },
     {
-      "cjelina": "Grammar 14",
-      "cjelinanaslov": "The Dative",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "slaganje",
-      "naslov": "Build the sentence",
-      "meta": {
-        "opis": "Build the sentence."
-      },
-      "stavke": [
-        [
-          "Mami kupujem cvijeće, a tati knjigu."
-        ],
-        [
-          "Poštar nosi susjedu novine."
-        ],
-        [
-          "Komu šalješ paket?"
-        ],
-        [
-          "Baka mi šalje paket, a ja joj pišem pismo."
-        ],
-        [
-          "Dajem mu loptu jer je danas njegov rođendan."
-        ]
-      ],
-      "sortkljuc": 1403008,
-      "bodovi": 887
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 1,
-      "broj": 9999,
-      "format": "tekst",
-      "naslov": "Text 1: Presents",
-      "meta": {},
-      "stavke": [
-        [
-          "December, and everyone is buying something for someone."
-        ],
-        [
-          "The dative delivering happiness — passive words: *svima* (to everyone), *meni* (to me), *ti dajem* (I give you — dative pronouns later!), *laje* (barks), *poznaje* (knows), *živi* (lives)."
-        ],
-        [
-          "Prosinac je i Ana kupuje poklone.",
-          "It is December and Ana is buying presents."
-        ],
-        [
-          "Mami kupuje šal.",
-          "For mom she is buying a scarf."
-        ],
-        [
-          "Tati kupuje knjigu.",
-          "For dad she is buying a book."
-        ],
-        [
-          "Bratu kupuje loptu, a sestri kupuje gitaru.",
-          "For her brother she is buying a ball, and for her sister a guitar."
-        ],
-        [
-          "Baki šalje čokoladu, a djedu piše pismo.",
-          "To grandma she is sending chocolate, and to grandpa she is writing a letter."
-        ],
-        [
-          "Prijateljici Maji daje kartu za koncert.",
-          "To her friend Maja she is giving a concert ticket."
-        ],
-        [
-          "A tko kupuje poklon Ani? Svi!",
-          "And who is buying a present for Ana? Everyone!"
-        ],
-        [
-          "Jer Ana je dobra svima.",
-          "Because Ana is good to everyone."
-        ]
-      ],
-      "sortkljuc": 1404001,
-      "bodovi": 20
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 2,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Who gets what?",
-      "meta": {
-        "opis": "Who gets what? Match the receiver with the gift."
-      },
-      "stavke": [
-        [
-          "mami",
-          "šal"
-        ],
-        [
-          "tati",
-          "knjiga"
-        ],
-        [
-          "bratu",
-          "lopta"
-        ],
-        [
-          "sestri",
-          "gitara"
-        ],
-        [
-          "baki",
-          "čokolada"
-        ],
-        [
-          "djedu",
-          "pismo"
-        ],
-        [
-          "Maji",
-          "karta za koncert"
-        ]
-      ],
-      "sortkljuc": 1404002,
-      "bodovi": 1079
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 3,
+      "cjelina": "Test 14",
+      "cjelinanaslov": "Test 14: Dative & Locative",
+      "stranica": 15,
       "broj": 9999,
       "format": "upis",
-      "naslov": "Type the dative",
+      "naslov": "Write it in Croatian",
       "meta": {
-        "tekst": "Mami kupuje šal. Bratu kupuje loptu. Baki šalje čokoladu.",
-        "opis": "Fill in the dative from the text."
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
       },
       "stavke": [
         [
-          "___ kupuje šal. (mama)",
-          "Mami"
+          "I'm buying Mum flowers.",
+          "Mami kupujem cvijeće / Kupujem mami cvijeće / Kupujem cvijeće mami"
         ],
         [
-          "___ kupuje loptu. (brat)",
-          "Bratu"
+          "I'm sending my sister a package.",
+          "Sestri šaljem paket / Šaljem sestri paket / Šaljem paket sestri"
         ],
         [
-          "___ šalje čokoladu. (baka)",
-          "Baki"
+          "I'm helping Dad.",
+          "Pomažem tati"
+        ],
+        [
+          "I trust my friend. (m.)",
+          "Vjerujem prijatelju"
+        ],
+        [
+          "To whom are you writing?",
+          "Komu pišeš"
+        ],
+        [
+          "I'm writing an e-mail to my friends.",
+          "Pišem e-mail prijateljima / Prijateljima pišem e-mail / Pišem prijateljima e-mail"
+        ],
+        [
+          "Grandma is sending me a package.",
+          "Baka mi šalje paket"
+        ],
+        [
+          "I'm giving him the ball.",
+          "Dajem mu loptu"
+        ],
+        [
+          "I'm writing her a letter.",
+          "Pišem joj pismo"
+        ],
+        [
+          "The postman brings us the newspaper.",
+          "Poštar nam nosi novine"
+        ],
+        [
+          "I'm sending them a present.",
+          "Šaljem im poklon / Šaljem im dar"
+        ],
+        [
+          "I'm giving it to him. (the ball)",
+          "Dajem mu je"
+        ],
+        [
+          "I'll buy her a scarf.",
+          "Kupit ću joj šal"
+        ],
+        [
+          "I'll lend my nephew an umbrella.",
+          "Posudit ću nećaku kišobran / Nećaku ću posuditi kišobran"
+        ],
+        [
+          "I'm giving the dog nothing.",
+          "Psu ne dajem ništa / Ne dajem psu ništa / Ne dajem ništa psu"
+        ],
+        [
+          "He's sending the package to me, not to you!",
+          "Meni šalje paket, ne tebi / Meni šalje paket, a ne tebi"
         ]
       ],
-      "sortkljuc": 1404003,
-      "bodovi": 1033
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "tekst",
-      "naslov": "Text 2: Who are you writing to?",
-      "meta": {},
-      "stavke": [
-        [
-          "— Komu pišeš?",
-          "— Who are you writing to?"
-        ],
-        [
-          "— Pišem baki. Sutra je njezin rođendan.",
-          "— I'm writing to grandma. Tomorrow is her birthday."
-        ],
-        [
-          "— Lijepo! Što ćeš kupiti baki?",
-          "— Nice! What will you buy for grandma?"
-        ],
-        [
-          "— Kupit ću baki cvijeće.",
-          "— I'll buy grandma flowers."
-        ],
-        [
-          "— A što kupuješ djedu?",
-          "— And what are you buying for grandpa?"
-        ],
-        [
-          "— Djedu nosim kolače. On voli slatko.",
-          "— I'm bringing grandpa cakes. He likes sweets."
-        ],
-        [
-          "— Šalješ li nešto sestri?",
-          "— Are you sending anything to your sister?"
-        ],
-        [
-          "— Da, sestri šaljem paket. Ona živi u Zagrebu.",
-          "— Yes, I'm sending my sister a package. She lives in Zagreb."
-        ],
-        [
-          "— Ti si dobar brat!",
-          "— You are a good brother!"
-        ],
-        [
-          "— Znam! Ali tko što daje meni?",
-          "— I know! But who gives anything to me?"
-        ],
-        [
-          "— Ja ti dajem savjet — i to besplatno!",
-          "— I give you advice — and for free!"
-        ]
-      ],
-      "sortkljuc": 1404004,
-      "bodovi": 20
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Did you get it?",
-      "meta": {
-        "tekst": "— Komu pišeš? — Pišem baki. Sutra je njezin rođendan. — Kupit ću baki cvijeće. — Djedu nosim kolače. On voli slatko. — Sestri šaljem paket. Ona živi u Zagrebu.",
-        "opis": "Answer from the dialogue."
-      },
-      "stavke": [
-        [
-          "Komu piše?",
-          "baki",
-          "sestri"
-        ],
-        [
-          "Što će kupiti baki?",
-          "cvijeće",
-          "kolače"
-        ],
-        [
-          "Zašto djedu nosi kolače?",
-          "jer voli slatko",
-          "jer je rođendan"
-        ],
-        [
-          "Gdje živi sestra?",
-          "u Zagrebu",
-          "u Splitu"
-        ]
-      ],
-      "sortkljuc": 1404005,
-      "bodovi": 892
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "poredak",
-      "naslov": "Order the dialogue",
-      "meta": {
-        "opis": "Rebuild the conversation."
-      },
-      "stavke": [
-        [
-          "— Komu pišeš?"
-        ],
-        [
-          "— Pišem baki. Sutra je njezin rođendan."
-        ],
-        [
-          "— Lijepo! Što ćeš kupiti baki?"
-        ],
-        [
-          "— Kupit ću baki cvijeće."
-        ],
-        [
-          "— A što kupuješ djedu?"
-        ],
-        [
-          "— Djedu nosim kolače. On voli slatko."
-        ],
-        [
-          "— Šalješ li nešto sestri?"
-        ],
-        [
-          "— Da, sestri šaljem paket. Ona živi u Zagrebu."
-        ]
-      ],
-      "sortkljuc": 1404006,
-      "bodovi": 1079
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "tekst",
-      "naslov": "Text 3: The postman",
-      "meta": {},
-      "stavke": [
-        [
-          "Poštar Ivo radi svaki dan.",
-          "Postman Ivo works every day."
-        ],
-        [
-          "Nosi pisma i pakete.",
-          "He carries letters and packages."
-        ],
-        [
-          "Susjedu Marku daje novine.",
-          "To neighbor Marko he gives the newspaper."
-        ],
-        [
-          "Učiteljici Ani nosi pismo.",
-          "To teacher Ana he brings a letter."
-        ],
-        [
-          "Doktoru daje paket.",
-          "To the doctor he gives a package."
-        ],
-        [
-          "Baki Mariji uvijek kaže: \"Dobro jutro!\"",
-          "To grandma Marija he always says: \"Good morning!\""
-        ],
-        [
-          "Djeci daje osmijeh, a psu... psu ne daje ništa, jer pas laje!",
-          "To the children he gives a smile, and to the dog... to the dog he gives nothing, because the dog barks!"
-        ],
-        [
-          "Cijeli grad poznaje Ivu i svi su sretni jer Ivo svima nosi dobre vijesti.",
-          "The whole city knows Ivo and everyone is happy because Ivo brings good news to everyone."
-        ]
-      ],
-      "sortkljuc": 1404007,
-      "bodovi": 20
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "True or false?",
-      "meta": {
-        "tekst": "Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket. Psu ne daje ništa, jer pas laje! Svi su sretni jer Ivo svima nosi dobre vijesti.",
-        "opis": "Tap true or false."
-      },
-      "stavke": [
-        [
-          "Ivo susjedu daje novine.",
-          "TRUE",
-          "FALSE"
-        ],
-        [
-          "Doktoru nosi pismo.",
-          "FALSE",
-          "TRUE"
-        ],
-        [
-          "Psu daje kolače.",
-          "FALSE",
-          "TRUE"
-        ],
-        [
-          "Svi su sretni jer Ivo nosi dobre vijesti.",
-          "TRUE",
-          "FALSE"
-        ]
-      ],
-      "sortkljuc": 1404008,
-      "bodovi": 892
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type the receiver",
-      "meta": {
-        "tekst": "Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Psu ne daje ništa.",
-        "opis": "Fill in the receivers."
-      },
-      "stavke": [
-        [
-          "___ Marku daje novine. (susjed)",
-          "Susjedu"
-        ],
-        [
-          "___ Ani nosi pismo. (učiteljica)",
-          "Učiteljici"
-        ],
-        [
-          "___ ne daje ništa. (pas)",
-          "Psu"
-        ]
-      ],
-      "sortkljuc": 1404009,
-      "bodovi": 1033
-    },
-    {
-      "cjelina": "Practice 14",
-      "cjelinanaslov": "Reading: December Gifts",
-      "stranica": 10,
-      "broj": 9999,
-      "format": "slaganje",
-      "naslov": "Translate by building",
-      "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
-      },
-      "stavke": [
-        [
-          "Ana kupuje mami šal.",
-          "en: Ana is buying mom a scarf."
-        ],
-        [
-          "Pišem baki.",
-          "en: I'm writing to grandma."
-        ],
-        [
-          "Psu ne daje ništa!",
-          "en: He gives nothing to the dog!"
-        ]
-      ],
-      "sortkljuc": 1404010,
-      "bodovi": 892
+      "sortkljuc": 1405015,
+      "bodovi": 530
     },
     {
       "cjelina": "Lesson 15",
@@ -78071,13 +81704,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Friday night!",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. Today's case, the instrumental, answers two questions: *with whom?* and *by what?* Company takes *s* or *sa* in front (*s Markom*), while the vehicle you travel in stands alone (*vlakom*). It is the last case of Module C.",
+        "infokratko": "The instrumental: *s Markom* (with Marko), *vlakom* (by train). Last case of Module C.",
+        "opis": "Read it through — by the end you can plan a whole Friday night."
+      },
       "stavke": [
         [
-          "Friday night! You're going out — but *with whom* and *how*?"
+          "Friday night! You're going out — but *with whom*, and *how* are you getting there?"
         ],
         [
-          "*S Markom* (with Marko), *sa sestrom* (with my sister), *vlakom* (by train), *s kavom u ruci*... Today's case is the instrumental — the case of company and means. It's the last case of this module, and arguably the most social one."
+          "*S Markom* (with Marko), *sa sestrom* (with my sister), *vlakom* (by train), *kava s mlijekom* (coffee with milk)... Today's case is the instrumental — the case of company and means, and the last case of this module."
+        ],
+        [
+          "**One ending, two jobs.** With *s* or *sa* in front, the instrumental says who is with you: *Idem u kino **s Markom**.* With nothing in front, it says how you travel: *Idem **vlakom**.*"
+        ],
+        [
+          "By the end of this lesson you can say who you go out with, how you get there, and ask *S kim ideš?* — who are you going with?"
         ]
       ],
       "sortkljuc": 1501001,
@@ -78091,8 +81734,10 @@ window.PODACI = {
       "format": "brzina",
       "naslov": "Rapid recall",
       "meta": {
+        "info": "A timed warm-up on the dative from Lesson 14. The person who receives something turns **-a** into **-i** (*mami, tati*), and a consonant or **-o** takes **-u** (*bratu, Marku*). *Pas* drops its *a*: *psu*. *Komu?* asks about the receiver.",
+        "infokratko": "Lesson 14 against the clock: **-a → -i**, consonant or **-o** → **-u**. *pas → psu*, *Komu?*",
         "trajanje": "60",
-        "opis": "Dative sprint! Tap the receiver's form."
+        "opis": "Dative sprint from Lesson 14 — tap the receiver's form before the timer runs out."
       },
       "stavke": [
         [
@@ -78114,75 +81759,286 @@ window.PODACI = {
         [
           "pas",
           "psu"
+        ],
+        [
+          "tata",
+          "tati"
+        ],
+        [
+          "Marko",
+          "Marku"
+        ],
+        [
+          "___ kupujem šal. (baka)",
+          "Baki"
+        ],
+        [
+          "Šaljem paket ___ . (Ana)",
+          "Ani"
+        ],
+        [
+          "Pomažem ___ . (prijatelj)",
+          "prijatelju"
+        ],
+        [
+          "Nosim novine ___ . (susjed)",
+          "susjedu"
+        ],
+        [
+          "___ pišeš? — Baki.",
+          "Komu"
         ]
       ],
       "sortkljuc": 1501002,
-      "bodovi": 738
+      "bodovi": 434
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
       "stranica": 3,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "The company endings",
-      "meta": {},
+      "format": "kartice",
+      "naslov": "Words for a night out",
+      "meta": {
+        "info": "The places, drinks and verbs for going out. Most are from earlier levels — *kino, koncert, kafić, šećer* — and come back because today they take the instrumental. New are *izlazak*, *večera* (dinner), *prijevoz* (transport) and *izlaziti*. *S kim?* asks who you are going with.",
+        "infokratko": "Places, drinks and verbs for going out. New: *izlazak, večera, prijevoz, izlaziti*. *S kim?* = with whom?",
+        "opis": "Where you go, what you drink there and what you do. Tap a card to reveal the meaning."
+      },
       "stavke": [
         [
-          "**With someone = s / sa + instrumental.**"
+          "izlazak",
+          "a night out"
         ],
         [
-          "tab: The person",
-          "With them",
-          "Ending"
+          "koncert",
+          "concert"
         ],
         [
-          "tab: Marko",
-          "s Markom",
-          "**-om**"
+          "kino",
+          "cinema"
         ],
         [
-          "tab: brat",
-          "s bratom",
-          "**-om**"
+          "kazalište",
+          "theatre"
         ],
         [
-          "tab: prijatelj",
-          "s prijateljem",
-          "**-em** after a soft sound"
+          "klub",
+          "club"
         ],
         [
-          "tab: sestra",
-          "sa sestrom",
-          "**-a → -om**"
+          "kafić",
+          "café"
         ],
         [
-          "tab: Ana",
-          "s Anom",
-          "**-a → -om**"
+          "večera",
+          "dinner"
         ],
         [
-          "**Small spelling rule.** *s* becomes *sa* before s, š, z and ž — *sa sestrom*, because *s sestrom* is a tongue twister."
+          "prijevoz",
+          "transport"
         ],
         [
-          "*Idem u kino **s Markom**. Pijem kavu **s mlijekom**.*"
+          "mlijeko",
+          "milk"
         ],
         [
-          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom]."
+          "šećer",
+          "sugar"
+        ],
+        [
+          "limun",
+          "lemon"
+        ],
+        [
+          "šalica",
+          "cup"
+        ],
+        [
+          "izlaziti → izlazim",
+          "to go out"
+        ],
+        [
+          "ići → idem",
+          "to go"
+        ],
+        [
+          "putovati → putujem",
+          "to travel"
+        ],
+        [
+          "hodati → hodam",
+          "to walk"
+        ],
+        [
+          "večerati → večeram",
+          "to have dinner"
+        ],
+        [
+          "razgovarati → razgovaram",
+          "to talk, to chat"
+        ],
+        [
+          "plesati → plešem",
+          "to dance"
+        ],
+        [
+          "sjediti → sjedim",
+          "to sit"
+        ],
+        [
+          "s / sa",
+          "with"
+        ],
+        [
+          "S kim?",
+          "With whom?"
         ]
       ],
       "sortkljuc": 1501003,
-      "bodovi": 596
+      "bodovi": 434
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
       "stranica": 4,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "With whom? By what?",
+      "meta": {
+        "info": "Every word here is shown twice: as you name it, and in the instrumental. A consonant adds **-om** (*vlakom, s bratom*), **-a** turns into **-om** (*sa sestrom*), and a soft ending such as **-j** or **-lj** takes **-em** (*tramvajem, s prijateljem*). *Taksi* adds a *j* first: *taksijem*. People come with *s*, vehicles without it.",
+        "infokratko": "**-om** after a consonant or for **-a**; **-em** after a soft sound. People with *s*, vehicles without.",
+        "opis": "People you go out with and ways to get there, each with its instrumental form. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "brat → s bratom",
+          "brother → with my brother"
+        ],
+        [
+          "sestra → sa sestrom",
+          "sister → with my sister"
+        ],
+        [
+          "mama → s mamom",
+          "mum → with Mum"
+        ],
+        [
+          "tata → s tatom",
+          "dad → with Dad"
+        ],
+        [
+          "Marko → s Markom",
+          "Marko → with Marko"
+        ],
+        [
+          "Ana → s Anom",
+          "Ana → with Ana"
+        ],
+        [
+          "prijatelj → s prijateljem",
+          "friend → with a friend"
+        ],
+        [
+          "vlak → vlakom",
+          "train → by train"
+        ],
+        [
+          "autobus → autobusom",
+          "bus → by bus"
+        ],
+        [
+          "tramvaj → tramvajem",
+          "tram → by tram"
+        ],
+        [
+          "auto → autom",
+          "car → by car"
+        ],
+        [
+          "bicikl → biciklom",
+          "bicycle → by bike"
+        ],
+        [
+          "taksi → taksijem",
+          "taxi → by taxi"
+        ],
+        [
+          "pješice",
+          "on foot"
+        ]
+      ],
+      "sortkljuc": 1501004,
+      "bodovi": 418
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The company endings",
+      "meta": {
+        "info": "The first rule of the lesson. With *s* in front, the person who is with you takes the instrumental: a consonant or **-o** adds **-om** (*s bratom, s Markom*), **-a** turns into **-om** (*sa sestrom*), and after a soft sound the ending is **-em** (*s prijateljem*). Before s, š, z, ž the preposition is *sa*.",
+        "infokratko": "*s* + **-om** (*s bratom, sa sestrom*); after a soft sound **-em** (*s prijateljem*). *sa* before s, š, z, ž.",
+        "infoodmah": "da",
+        "opis": "One preposition, two endings. Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**With someone = s / sa + instrumental.** The person after *s* takes a new ending: *Idem u kino **s Markom**.* — I'm going to the cinema with Marko."
+        ],
+        [
+          "tab: Naming form ends in",
+          "The person",
+          "With them"
+        ],
+        [
+          "tab: consonant",
+          "brat, Ivan",
+          "s brat**om**, s Ivan**om**"
+        ],
+        [
+          "tab: -o",
+          "Marko",
+          "s Mark**om**"
+        ],
+        [
+          "tab: -a",
+          "sestra, Ana, tata",
+          "sa sestr**om**, s An**om**, s tat**om**"
+        ],
+        [
+          "tab: soft sound (j, lj, nj, č, ć, š, ž)",
+          "prijatelj, muž",
+          "s prijatelj**em**, s muž**em**"
+        ],
+        [
+          "**The last sound decides.** Most words take **-om**. Only after a soft sound does the ending become **-em**: *s prijateljem, s mužem*, and in the same way *s kolačem*."
+        ],
+        [
+          "**Things that come along take the same form.** Milk in the coffee is company too: *kava **s mlijekom**, čaj **s limunom***. A neuter word in **-o** takes **-om** like a masculine one: *mlijeko → s mlijekom*."
+        ],
+        [
+          "**s or sa?** Before a word that starts with s, š, z or ž, *s* becomes *sa*: ***sa** sestrom, čaj **sa** šećerom*. Everywhere else it is *s*: *s bratom, s Anom*."
+        ],
+        [
+          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom]."
+        ]
+      ],
+      "sortkljuc": 1501005,
+      "bodovi": 351
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 6,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Who are you going with?",
       "meta": {
-        "opis": "Match the person with their \"with\" form."
+        "info": "Each person beside the form that follows *s*. The last letter of the naming form decides: **-a** turns into **-om** (*s Anom, s bakom*), a consonant or **-o** adds **-om** (*s Markom, s djedom*), and a soft *lj* or *ž* takes **-em** (*s prijateljem, s mužem*). *Sestra* takes *sa*, because it starts with *s*.",
+        "infokratko": "**-a → -om**, consonant or **-o** + **-om**, soft sound + **-em**. *sa sestrom*.",
+        "opis": "Match each person with the \"with\" form."
       },
       "stavke": [
         [
@@ -78206,27 +82062,143 @@ window.PODACI = {
           "s prijateljem"
         ],
         [
-          "pas",
-          "sa psom"
+          "tata",
+          "s tatom"
+        ],
+        [
+          "Petra",
+          "s Petrom"
+        ],
+        [
+          "muž",
+          "s mužem"
+        ],
+        [
+          "baka",
+          "s bakom"
+        ],
+        [
+          "djed",
+          "s djedom"
         ]
       ],
-      "sortkljuc": 1501004,
-      "bodovi": 738
+      "sortkljuc": 1501006,
+      "bodovi": 434
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 5,
+      "stranica": 7,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap completes the instrumental. Most words take **-om**: a consonant adds it and **-a** turns into it, so *sestra* becomes *sestrom*. After a soft sound — **j, lj, nj, č, ć, š, ž** — the ending is **-em**: *prijateljem, tramvajem, kolačem*. The vehicles take the same endings, only without *s*.",
+        "infokratko": "**-om** after most sounds and for **-a**; **-em** after j, lj, nj, č, ć, š, ž: *prijateljem, tramvajem*.",
+        "nastavci": "om | em",
+        "opis": "English above, Croatian below. One tap puts the word in the instrumental."
+      },
+      "stavke": [
+        [
+          "Idem u kino s brat___.",
+          "I'm going to the cinema with my brother.",
+          "om"
+        ],
+        [
+          "Izlazim s prijatelj___.",
+          "I'm going out with a friend.",
+          "em"
+        ],
+        [
+          "Pijem kavu s mlijek___.",
+          "I drink coffee with milk.",
+          "om"
+        ],
+        [
+          "Putujemo vlak___.",
+          "We're travelling by train.",
+          "om"
+        ],
+        [
+          "Idem na koncert sa sestr___.",
+          "I'm going to the concert with my sister.",
+          "om"
+        ],
+        [
+          "Idemo u grad tramvaj___.",
+          "We're going into town by tram.",
+          "em"
+        ],
+        [
+          "S Mark___ igram šah.",
+          "I play chess with Marko.",
+          "om"
+        ],
+        [
+          "Pijem kavu s kolač___.",
+          "I'm having coffee with a cake.",
+          "em"
+        ],
+        [
+          "Ana ide na posao autobus___.",
+          "Ana goes to work by bus.",
+          "om"
+        ],
+        [
+          "Petra ide u kazalište s muž___.",
+          "Petra is going to the theatre with her husband.",
+          "em"
+        ],
+        [
+          "Pijem čaj s limun___.",
+          "I drink tea with lemon.",
+          "om"
+        ],
+        [
+          "Idem na posao bicikl___.",
+          "I go to work by bike.",
+          "om"
+        ],
+        [
+          "Razgovaram s konobar___.",
+          "I'm talking with the waiter.",
+          "om"
+        ],
+        [
+          "Večeram s An___.",
+          "I'm having dinner with Ana.",
+          "om"
+        ],
+        [
+          "Sjedim u kafiću s učitelj___.",
+          "I'm sitting in a café with the teacher.",
+          "em"
+        ],
+        [
+          "Baka pije čaj sa šećer___.",
+          "Grandma drinks tea with sugar.",
+          "om"
+        ]
+      ],
+      "sortkljuc": 1501007,
+      "bodovi": 518
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 8,
       "broj": 9999,
       "format": "tekst",
       "naslov": "By train, by bus: means without \"s\"",
-      "meta": {},
+      "meta": {
+        "info": "The second rule, and the second job of the instrumental. For the way you travel, the vehicle takes the same ending with nothing in front: *Idem vlakom*, never *s vlakom*. Ask *S kim?* about company and *Kako?* about the way. On foot is one fixed word: *pješice*.",
+        "infokratko": "Vehicle: instrumental, no *s*: *Idem vlakom.* *S kim?* for company, *Kako?* for the way.",
+        "infoodmah": "da",
+        "opis": "Same endings, no preposition. Read the table and fill in the last line."
+      },
       "stavke": [
         [
-          "For *how* you travel, use the same endings — but **no preposition**:"
-        ],
-        [
-          "**Company keeps the *s*, means drops it.**"
+          "**Company keeps the *s*, means drops it.** For *how* you travel, the vehicle takes the instrumental with no preposition in front."
         ],
         [
           "tab: Company — with someone",
@@ -78245,25 +82217,37 @@ window.PODACI = {
           "Idem biciklom."
         ],
         [
-          "**Think of it as: the vehicle is your instrument.** That is literally why the case is called the instrumental."
+          "tab: Idem s prijateljem.",
+          "Idem tramvajem."
         ],
         [
-          "**Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]?"
+          "**The vehicle is the instrument.** That is where the case gets its name: the thing you use takes the instrumental. Small tools work the same way: *Jedem juhu **žlicom**. Pišem **olovkom**. Plaćam **karticom**.*"
+        ],
+        [
+          "**Idem s vlakom is wrong.** With *s*, the train would be your companion. A person takes *s*, a vehicle takes nothing, and both fit in one sentence: *Idem **s Markom vlakom**.* — I'm going by train with Marko."
+        ],
+        [
+          "**Two questions.** ***S kim?*** — with whom? — asks about company: *S kim ideš? — S Anom.* ***Kako?*** — how? — asks about the way: *Kako ideš? — Vlakom.* On foot is one fixed word, not a case form: *Idem **pješice**.*"
+        ],
+        [
+          "**Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]? [S] kim ideš na koncert?"
         ]
       ],
-      "sortkljuc": 1501005,
-      "bodovi": 596
+      "sortkljuc": 1501008,
+      "bodovi": 351
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 6,
+      "stranica": 9,
       "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "s or no s?",
       "meta": {
+        "info": "Sorting phrases by whether they need *s* or *sa*. People, and the things that come along with you or with your drink, take *s*: *s Anom, čaj s limunom*. A vehicle or a tool you use takes the instrumental alone: *vlakom, žlicom*.",
+        "infokratko": "Company (people, milk in the coffee): *s / sa*. Vehicle or tool: nothing in front.",
         "stupci": "WITH s/sa (company) | NO PREPOSITION (means)",
-        "opis": "Company or means? Does the sentence need \"s/sa\"? (Kava s mlijekom — društvo u šalici!)"
+        "opis": "Company or means? Does the phrase need *s* or *sa*? (Coffee with milk counts as company — the milk comes along.)"
       },
       "stavke": [
         [
@@ -78291,71 +82275,149 @@ window.PODACI = {
           "NO PREPOSITION (means)"
         ],
         [
-          "___ kavom",
+          "kava ___ mlijekom",
           "WITH s/sa (company)"
         ],
         [
           "___ biciklom",
           "NO PREPOSITION (means)"
+        ],
+        [
+          "___ Anom",
+          "WITH s/sa (company)"
+        ],
+        [
+          "___ tramvajem",
+          "NO PREPOSITION (means)"
+        ],
+        [
+          "čaj ___ limunom",
+          "WITH s/sa (company)"
+        ],
+        [
+          "jedem juhu ___ žlicom",
+          "NO PREPOSITION (means)"
+        ],
+        [
+          "___ tatom",
+          "WITH s/sa (company)"
+        ],
+        [
+          "___ taksijem",
+          "NO PREPOSITION (means)"
+        ],
+        [
+          "___ mužem",
+          "WITH s/sa (company)"
+        ],
+        [
+          "pišem ___ olovkom",
+          "NO PREPOSITION (means)"
         ]
       ],
-      "sortkljuc": 1501006,
-      "bodovi": 596
+      "sortkljuc": 1501009,
+      "bodovi": 518
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 7,
+      "stranica": 10,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Pick the right form",
       "meta": {
+        "info": "Choosing the correct instrumental. The two usual mistakes are the naming form after *s* (*s Marko*) and an *s* in front of a vehicle (*s vlakom*). Watch the soft endings too: *s prijateljem* and *tramvajem*, never *s prijateljom* or *tramvajom*.",
+        "infokratko": "Not *s Marko*, not *s vlakom*. Soft endings: *s prijateljem, tramvajem*.",
         "opis": "Choose the correct form."
       },
       "stavke": [
         [
           "Idem u kino ___ .",
           "s Markom",
-          "s Marko"
+          "s Marko",
+          "s Marka"
         ],
         [
           "Putujemo ___ .",
           "vlakom",
+          "s vlakom",
           "vlak"
         ],
         [
           "Pijem čaj ___ .",
           "s limunom",
-          "s limun"
+          "s limun",
+          "limunom"
         ],
         [
           "Idem na koncert ___ .",
           "sa sestrom",
-          "sa sestra"
+          "sa sestra",
+          "sa sestru"
         ],
         [
           "Hodam ___ .",
           "s prijateljem",
+          "s prijateljom",
           "s prijatelj"
         ],
         [
           "Ana pije kavu ___ .",
           "s mlijekom",
-          "s mlijeko"
+          "s mlijeko",
+          "mlijekom"
+        ],
+        [
+          "Idemo u grad ___ .",
+          "tramvajem",
+          "tramvajom",
+          "s tramvajem"
+        ],
+        [
+          "___ ideš na koncert? — S bratom.",
+          "S kim",
+          "Komu",
+          "Koga"
+        ],
+        [
+          "Kako ideš na posao? — ___ .",
+          "Autobusom",
+          "S autobusom",
+          "Autobus"
+        ],
+        [
+          "Petra večera ___ .",
+          "s mužem",
+          "s mužom",
+          "s muž"
+        ],
+        [
+          "Baka pije čaj ___ .",
+          "sa šećerom",
+          "sa šećer",
+          "šećerom"
+        ],
+        [
+          "Jedem juhu ___ .",
+          "žlicom",
+          "žlica",
+          "žlicu"
         ]
       ],
-      "sortkljuc": 1501007,
-      "bodovi": 880
+      "sortkljuc": 1501010,
+      "bodovi": 518
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 8,
+      "stranica": 11,
       "broj": 9999,
       "format": "upis",
       "naslov": "Type the instrumental",
       "meta": {
-        "opis": "Type the \"with\" form — add s/sa where needed!"
+        "info": "You type the instrumental, and you decide what goes in front. People and things that come along take *s* (*s bratom, s limunom*), *sa* before s, š, z, ž (*sa sestrom*), and a vehicle takes nothing (*vlakom*). After a soft sound the ending is **-em**.",
+        "infokratko": "Company: *s* or *sa* + instrumental. Vehicle: instrumental alone. Soft sound: **-em**.",
+        "opis": "Type the \"with\" form — add *s* or *sa* where it is needed."
       },
       "stavke": [
         [
@@ -78379,26 +82441,52 @@ window.PODACI = {
           "autobusom"
         ],
         [
-          "(gitara) Mladić ___ svira.",
-          "s gitarom"
+          "(Marko) Izlazim ___ .",
+          "s Markom"
+        ],
+        [
+          "(prijatelj) Večeram ___ .",
+          "s prijateljem"
+        ],
+        [
+          "(tramvaj) Ana ide u grad ___ .",
+          "tramvajem"
+        ],
+        [
+          "(mlijeko) Pijem kavu ___ .",
+          "s mlijekom"
+        ],
+        [
+          "(bicikl) Ivan ide na posao ___ .",
+          "biciklom"
+        ],
+        [
+          "(šećer) Baka pije čaj ___ .",
+          "sa šećerom"
+        ],
+        [
+          "(Ana) Plešem ___ .",
+          "s Anom"
         ]
       ],
-      "sortkljuc": 1501008,
-      "bodovi": 1022
+      "sortkljuc": 1501011,
+      "bodovi": 601
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 9,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the night out",
       "meta": {
-        "opis": "Arrange the tiles. (\"s prijateljima\" = with friends — ready-made plural phrase.)"
+        "info": "Whole sentences about a night out, built from tiles. *S* or *sa* stands directly in front of the person, a vehicle has no tile in front of it, and a comma comes before *a* and *nego*.",
+        "infokratko": "*s / sa* before the person, nothing before the vehicle. Comma before *a* and *nego*.",
+        "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
         [
-          "Izlazim s prijateljima."
+          "Izlazim s prijateljem."
         ],
         [
           "S Markom idem u kino."
@@ -78410,39 +82498,129 @@ window.PODACI = {
           "Idemo vlakom, a vi idete autobusom."
         ],
         [
-          "S prijateljima je sve bolje!"
+          "S kim ideš na koncert?"
+        ],
+        [
+          "U petak navečer izlazim sa sestrom."
+        ],
+        [
+          "Tata ide na posao biciklom."
+        ],
+        [
+          "Idem u kazalište s mamom i s tatom."
+        ],
+        [
+          "Ne idem autom, nego tramvajem."
+        ],
+        [
+          "Baka pije čaj sa šećerom."
+        ],
+        [
+          "Petra večera s mužem u restoranu."
         ]
       ],
-      "sortkljuc": 1501009,
-      "bodovi": 738
+      "sortkljuc": 1501012,
+      "bodovi": 518
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 10,
+      "stranica": 13,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Instrumental sprint",
+      "meta": {
+        "info": "A timed sprint from the naming form to the instrumental. People and drinks come with *s* or *sa* (*s bratom, sa sestrom, s mlijekom*), vehicles come alone (*vlakom*). The soft endings take **-em**: *s prijateljem, tramvajem*, and *taksi* adds a *j*: *taksijem*.",
+        "infokratko": "Naming form → instrumental. People with *s*, vehicles alone; soft sound **-em**.",
+        "trajanje": "45",
+        "opis": "A word flashes — tap its instrumental: with *s* for company, alone for a vehicle."
+      },
+      "stavke": [
+        [
+          "brat",
+          "s bratom"
+        ],
+        [
+          "sestra",
+          "sa sestrom"
+        ],
+        [
+          "Marko",
+          "s Markom"
+        ],
+        [
+          "Ana",
+          "s Anom"
+        ],
+        [
+          "prijatelj",
+          "s prijateljem"
+        ],
+        [
+          "mlijeko",
+          "s mlijekom"
+        ],
+        [
+          "limun",
+          "s limunom"
+        ],
+        [
+          "vlak",
+          "vlakom"
+        ],
+        [
+          "autobus",
+          "autobusom"
+        ],
+        [
+          "tramvaj",
+          "tramvajem"
+        ],
+        [
+          "auto",
+          "autom"
+        ],
+        [
+          "bicikl",
+          "biciklom"
+        ],
+        [
+          "taksi",
+          "taksijem"
+        ]
+      ],
+      "sortkljuc": 1501013,
+      "bodovi": 434
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 14,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Concert plans",
       "meta": {
-        "opis": "Saturday's concert is coming up. Sort out the logistics with your friend!"
+        "info": "A chat about Saturday's concert, built on the instrumental. You say who you are going with (*sa sestrom, s bratom*) and how you get there (*vlakom*), and your friend reacts to your answer. Both options are always correct Croatian, so pick the one you like.",
+        "infokratko": "Say who with (*sa sestrom*) and how (*vlakom*). Your friend reacts to your answer.",
+        "opis": "Saturday's concert is coming up. Sort out the plans with your friend. Passive words: *već* (already), *još* (still, yet), *zajedno* (together), *zna sve pjesme* (knows all the songs), *poslije* (afterwards)."
       },
       "stavke": [
         [
           "npc",
-          "Ideš li na koncert u subotu?"
+          "Bok! Ideš li u subotu na koncert?"
         ],
         [
           "ti",
-          "Idem! A ti?",
-          "Nažalost, ne idem."
+          "Idem! Već imam kartu.",
+          "Idem, ali još nemam kartu."
         ],
         [
           "npc",
-          "I ja! S kim ideš?"
+          "Dobro! S kim ideš?"
         ],
         [
           "ti",
-          "Sa sestrom i s Markom.",
+          "Idem sa sestrom i s Markom.",
           "Idem s bratom."
         ],
         [
@@ -78451,42 +82629,175 @@ window.PODACI = {
         ],
         [
           "ti",
-          "Ne, idemo vlakom.",
-          "Da, idemo autom."
+          "Ne, idemo vlakom. Nemamo auto.",
+          "Ne, auto ne radi. Idemo vlakom."
         ],
         [
           "npc",
-          "Mi idemo autobusom. Naš auto ne radi!"
+          "Vlakom? I ja idem vlakom! Onda putujemo zajedno."
         ],
         [
           "ti",
-          "Ha! Onda se vidimo na koncertu!"
+          "Odlično! S kim ideš ti?",
+          "Super! Ideš li s prijateljem?"
+        ],
+        [
+          "npc",
+          "S Petrom. Ona svira gitaru i zna sve pjesme!"
+        ],
+        [
+          "ti",
+          "Onda pjevamo u vlaku!",
+          "Super, glazba u vlaku!"
+        ],
+        [
+          "npc",
+          "Da! A poslije idemo u kafić."
+        ],
+        [
+          "ti",
+          "Može! Ja pijem kavu s mlijekom.",
+          "Može, ali ja pijem samo čaj s limunom."
+        ],
+        [
+          "npc",
+          "Ha-ha! Onda se vidimo u subotu na kolodvoru!"
         ]
       ],
-      "sortkljuc": 1501010,
-      "bodovi": 625
+      "sortkljuc": 1501014,
+      "bodovi": 434
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 11,
+      "stranica": 15,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: Friday night & train rides",
+      "meta": {
+        "info": "Read the story, then answer in Croatian. Almost every sentence has an instrumental, so ask the same two questions as the lesson: *s kim?* points to a person with *s*, *kako?* to a vehicle with nothing in front.",
+        "infokratko": "Read, then answer. *s kim?* → a person with *s*; *kako?* → a vehicle alone.",
+        "tekst": "U petak navečer Ana izlazi s Markom. U grad idu tramvajem. Prvo večeraju u restoranu s Petrom. Onda idu u kafić. Ana pije kavu s mlijekom, a Marko čaj s limunom. U subotu Ana putuje vlakom u Split. Vlak je spor, ali Ana sjedi s knjigom i s kavom. Na kolodvoru Anu čeka baka s djedom. Doma idu autom. Djed vozi, a Ana razgovara s bakom.",
+        "opis": "Read the story, then answer the questions. Passive words: *prvo* (first), *onda* (then), *spor* (slow), *doma* (home)."
+      },
+      "stavke": [
+        [
+          "S kim Ana izlazi u petak?",
+          "s Markom",
+          "s Petrom",
+          "s bakom"
+        ],
+        [
+          "Kako idu u grad?",
+          "tramvajem",
+          "autom",
+          "vlakom"
+        ],
+        [
+          "S kim večeraju u restoranu?",
+          "s Petrom",
+          "s Markom",
+          "s djedom"
+        ],
+        [
+          "Što pije Marko?",
+          "čaj s limunom",
+          "kavu s mlijekom",
+          "čaj s mlijekom"
+        ],
+        [
+          "Kako Ana putuje u Split?",
+          "vlakom",
+          "tramvajem",
+          "autom"
+        ],
+        [
+          "Tko vozi auto?",
+          "djed",
+          "baka",
+          "Ana"
+        ]
+      ],
+      "sortkljuc": 1501015,
+      "bodovi": 518
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "memorija",
+      "naslov": "Memory",
+      "meta": {
+        "info": "A pairs game over naming forms and their instrumentals. Two patterns cover every pair: people and drinks come with *s* or *sa* (*s bratom, s mlijekom*), and vehicles come alone (*vlakom*). Three pairs take **-em**: *s prijateljem, tramvajem, taksijem*.",
+        "infokratko": "Naming form with instrumental: *s bratom*, *vlakom*; **-em** in *s prijateljem, tramvajem*.",
+        "opis": "Flip the cards and match each word with its instrumental."
+      },
+      "stavke": [
+        [
+          "brat",
+          "s bratom"
+        ],
+        [
+          "sestra",
+          "sa sestrom"
+        ],
+        [
+          "prijatelj",
+          "s prijateljem"
+        ],
+        [
+          "Marko",
+          "s Markom"
+        ],
+        [
+          "mlijeko",
+          "s mlijekom"
+        ],
+        [
+          "vlak",
+          "vlakom"
+        ],
+        [
+          "tramvaj",
+          "tramvajem"
+        ],
+        [
+          "autobus",
+          "autobusom"
+        ],
+        [
+          "taksi",
+          "taksijem"
+        ]
+      ],
+      "sortkljuc": 1501016,
+      "bodovi": 401
+    },
+    {
+      "cjelina": "Lesson 15",
+      "cjelinanaslov": "Going Out: The Instrumental",
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Module C checkpoint",
       "meta": {
+        "info": "The scored mix of the lesson and of Module C, and 80% opens Vocabulary 15. Most of the points sit on the instrumental — *s* for company, nothing for a vehicle — and four questions come back from Lessons 11 to 14: a question word, a negation, a place and a receiver.",
+        "infokratko": "Lesson 15 plus Module C; 80% opens Vocabulary 15. *s* for company, nothing for a vehicle.",
         "prag": "80",
-        "opis": "Module checkpoint! Questions, negation and three cases — show what you've got."
+        "opis": "Module checkpoint! The instrumental, plus questions, negation and the cases from Lessons 13 and 14. Score 80% to be ready for Vocabulary 15."
       },
       "stavke": [
         [
           "slaganje",
           "Idem na koncert sa sestrom.",
-          "en: I am going to a concert with my sister."
+          "en: I'm going to a concert with my sister."
         ],
         [
           "izbor",
           "Putujemo ___ .",
           "vlakom",
+          "s vlakom",
           "vlak"
         ],
         [
@@ -78500,6 +82811,49 @@ window.PODACI = {
           "S kim"
         ],
         [
+          "izbor",
+          "Izlazim ___ . (prijatelj)",
+          "s prijateljem",
+          "s prijateljom",
+          "s prijatelj"
+        ],
+        [
+          "izbor",
+          "Što znači \"putovati\"?",
+          "to travel",
+          "to walk",
+          "to go out"
+        ],
+        [
+          "upis",
+          "Idemo u grad ___ . (tramvaj)",
+          "tramvajem"
+        ],
+        [
+          "slaganje",
+          "Baka pije čaj sa šećerom.",
+          "en: Grandma drinks tea with sugar."
+        ],
+        [
+          "izbor",
+          "Koja je rečenica točna?",
+          "Idem vlakom s Markom.",
+          "Idem s vlakom s Markom.",
+          "Idem vlakom Markom."
+        ],
+        [
+          "slaganje",
+          "S kim ideš u kino?",
+          "en: Who are you going to the cinema with?"
+        ],
+        [
+          "izbor",
+          "___ košta karta za koncert? — Deset eura.",
+          "Koliko",
+          "Kako",
+          "Koji"
+        ],
+        [
           "upis",
           "Negiraj: Imamo auto. →",
           "Nemamo auto"
@@ -78508,51 +82862,42 @@ window.PODACI = {
           "izbor",
           "Vidimo se ___ .",
           "na koncertu",
-          "na koncert"
+          "na koncert",
+          "na koncerta"
         ],
         [
           "upis",
           "Kupujem kartu ___ . (sestra)",
           "sestri"
-        ],
-        [
-          "izbor",
-          "s ili sa? ___ sestrom",
-          "sa",
-          "s"
-        ],
-        [
-          "izbor",
-          "Koja je rečenica točna?",
-          "Idem vlakom.",
-          "Idem s vlakom."
-        ],
-        [
-          "slaganje",
-          "S kim ideš u kino?",
-          "en: Who are you going to the cinema with?"
         ]
       ],
-      "sortkljuc": 1501011,
-      "bodovi": 1221
+      "sortkljuc": 1501017,
+      "bodovi": 868
     },
     {
       "cjelina": "Lesson 15",
       "cjelinanaslov": "Going Out: The Instrumental",
-      "stranica": 12,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now say who you are with and how you travel: *s* or *sa* with the instrumental for company, the instrumental alone for a vehicle, and *s kim?* to ask about company. With it, Module C is complete.",
+        "infokratko": "*s / sa* + instrumental for company, instrumental alone for a vehicle. Module C complete.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
-          "ČESTITAMO! Module C complete — you can ask, refuse, locate, give and accompany. That's five of Croatia's seven cases already under your belt."
+          "ČESTITAMO! Module C is complete. You can ask, refuse, say where things are, say who gets what — and now who you are with and how you get there. That makes five of the seven Croatian cases."
         ],
         [
-          "**Next up, Module D:** possession (*genitiv*), commands (*imperativ*), wishes (*kondicional*) — the home stretch toward full conversational Croatian!"
+          "**Next up:** Vocabulary 15 brings more words for a night out, new vehicles such as *trajekt* and *skuter*, and the weather: *kiša, vjetar, sunčan*. Grammar 15 adds the short company words *sa mnom, s tobom, s njim, s njom*: *Ideš li **sa mnom**?*"
+        ],
+        [
+          "**Then Lesson 16:** grandma's house and the genitive — whose something is, what is missing, and where it comes from."
         ]
       ],
-      "sortkljuc": 1501012,
+      "sortkljuc": 1501018,
       "bodovi": 20
     },
     {
@@ -78571,6 +82916,10 @@ window.PODACI = {
         [
           "izlazak",
           "a night out"
+        ],
+        [
+          "večera",
+          "dinner"
         ],
         [
           "zabava",
@@ -78649,6 +82998,10 @@ window.PODACI = {
         "opis": "New vehicles, ten new verbs and a few small words. Tap a card to reveal the meaning."
       },
       "stavke": [
+        [
+          "prijevoz",
+          "transport"
+        ],
         [
           "skuter → skuterom",
           "scooter"
@@ -79216,29 +83569,59 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: with whom? with what?",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the instrumental. It answers *s kim?* — with whom? — with *s* or *sa* in front, and *čime?* — by what means? — with nothing in front. Most nouns take **-om**, a soft ending takes **-em**, and before s, š, z, ž the preposition is *sa*.",
+        "infokratko": "*s kim?* → *s / sa* + instrumental; *čime?* → instrumental alone. **-om**, after a soft sound **-em**."
+      },
       "stavke": [
         [
-          "The instrumental answers two questions: **s kim?** (with whom?) and **čime?** (by what means?)."
+          "**The instrumental answers two questions:** ***s kim?*** (with whom?) and ***čime?*** (by what means?). The endings are the same for both; only the preposition in front is different."
         ],
         [
-          "**The endings:** m. & n. → **+om** (s bratom, s Markom, vlakom, autom) · m. & n. soft → **+em** (s prijateljem, tramvajem, taksijem — \"soft\" = -j, -lj, -nj, -č, -ć, -š, -ž) · f. → **-a → -om** (sa sestrom, s kavom, gitarom)."
+          "tab: Naming form ends in",
+          "Example",
+          "Instrumental"
         ],
         [
-          "**Company: s/sa + instrumental.** *Idem u kino s Markom. Pijem kavu s mlijekom* (food can be company too!). **s → sa** before s, š, z, ž: *sa sestrom, sa psom* — purely for pronunciation."
+          "tab: consonant",
+          "brat, vlak, skuter",
+          "brat**om**, vlak**om**, skuter**om**"
         ],
         [
-          "**Means: instrumental WITHOUT preposition.** *Putujem vlakom. Idemo autobusom.* The most common English-speaker mistake: \"idem s vlakom\" — you're not *accompanying* the train, you're *using* it. No s! (Walking has its own word: **pješice** — on foot.)"
+          "tab: -o",
+          "Marko, auto, mlijeko",
+          "Mark**om**, aut**om**, mlijek**om**"
         ],
         [
-          "**The case count so far:** nominativ (subject, L1) · akuzativ (target/direction, L5–6) · lokativ (location, L13) · dativ (receiver, L14) · instrumental (company/means, L15). Five down, two to go — you're past the hardest part."
+          "tab: -a (also tata)",
+          "sestra, kiša, tata",
+          "sestr**om**, kiš**om**, tat**om**"
         ],
         [
-          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Putujem [vlakom] — bez prijedloga."
+          "tab: soft sound: j, lj, nj, č, ć, š, ž",
+          "tramvaj, prijatelj, mladić",
+          "tramvaj**em**, prijatelj**em**, mladić**em**"
+        ],
+        [
+          "tab: -i",
+          "taksi, kombi",
+          "taksi**jem**, kombi**jem**"
+        ],
+        [
+          "**Company: s / sa + instrumental.** *Idem u kino **s Markom**. Pijem kavu **s mlijekom**.* Before s, š, z and ž the preposition is **sa**, only for pronunciation: ***sa** sestrom, **sa** šećerom*. Everywhere else it is **s**."
+        ],
+        [
+          "**Means: the instrumental alone.** *Putujem **vlakom**. Idemo **trajektom**.* *Idem s vlakom* is the most common mistake: the train is not your companion, so there is no *s*. On foot is one fixed word: *pješice*."
+        ],
+        [
+          "**The case count so far:** nominative (the subject), accusative (the target, and the direction after *u / na*), locative (the place, Lesson 13), dative (the receiver, Lesson 14), instrumental (company and means, Lesson 15). That makes five of the seven cases."
+        ],
+        [
+          "**Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Putujem [vlakom]."
         ]
       ],
       "sortkljuc": 1503001,
-      "bodovi": 649
+      "bodovi": 393
     },
     {
       "cjelina": "Grammar 15",
@@ -79248,7 +83631,9 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the instrumental",
       "meta": {
-        "opis": "Type the instrumental."
+        "info": "The instrumental of single words, old and new. Most take **-om**; after a soft sound the ending is **-em** (*prijateljem, mladićem, tramvajem*), and a word in **-i** adds *j* first: *kombijem*. A word in **-a** replaces the *a*: *sestra → sestrom*.",
+        "infokratko": "**-om** for most words; **-em** after a soft sound; *kombi → kombijem*; *sestra → sestrom*.",
+        "opis": "Type the instrumental of each word — just the form, without *s*."
       },
       "stavke": [
         [
@@ -79270,10 +83655,46 @@ window.PODACI = {
         [
           "tramvaj →",
           "tramvajem"
+        ],
+        [
+          "Marko →",
+          "Markom"
+        ],
+        [
+          "mlijeko →",
+          "mlijekom"
+        ],
+        [
+          "skuter →",
+          "skuterom"
+        ],
+        [
+          "trajekt →",
+          "trajektom"
+        ],
+        [
+          "mladić →",
+          "mladićem"
+        ],
+        [
+          "kombi →",
+          "kombijem"
+        ],
+        [
+          "kiša →",
+          "kišom"
+        ],
+        [
+          "balon →",
+          "balonom"
+        ],
+        [
+          "muž →",
+          "mužem"
         ]
       ],
       "sortkljuc": 1503002,
-      "bodovi": 1145
+      "bodovi": 675
     },
     {
       "cjelina": "Grammar 15",
@@ -79283,6 +83704,8 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "s, sa or nothing?",
       "meta": {
+        "info": "Choosing the little word in front, or none. A person, or something that comes along with you or your drink, takes *s*, and *sa* before s, š, z, ž. A vehicle takes nothing, so there the dash is the right answer.",
+        "infokratko": "Company: *s*, or *sa* before s, š, z, ž. Vehicle: nothing (—).",
         "opis": "Choose the right little word (— means nothing)."
       },
       "stavke": [
@@ -79305,14 +83728,62 @@ window.PODACI = {
           "sa"
         ],
         [
-          "Šećem ___ psom.",
+          "Pijem čaj ___ šećerom.",
+          "sa",
+          "s",
+          "—"
+        ],
+        [
+          "Izlazim ___ Anom.",
+          "s",
+          "sa",
+          "—"
+        ],
+        [
+          "Idemo na otok ___ trajektom.",
+          "—",
+          "s",
+          "sa"
+        ],
+        [
+          "Plešem ___ mladićem.",
+          "s",
+          "sa",
+          "—"
+        ],
+        [
+          "Ivan ide na posao ___ skuterom.",
+          "—",
+          "s",
+          "sa"
+        ],
+        [
+          "Palačinke ___ džemom, molim.",
+          "s",
+          "sa",
+          "—"
+        ],
+        [
+          "Mama ide u grad ___ tramvajem.",
+          "—",
+          "s",
+          "sa"
+        ],
+        [
+          "Pijem kavu ___ mlijekom.",
+          "s",
+          "sa",
+          "—"
+        ],
+        [
+          "Kava ___ sendvičem, molim.",
           "sa",
           "s",
           "—"
         ]
       ],
       "sortkljuc": 1503003,
-      "bodovi": 802
+      "bodovi": 580
     },
     {
       "cjelina": "Grammar 15",
@@ -79322,12 +83793,14 @@ window.PODACI = {
       "format": "razvrstavanje",
       "naslov": "Company or means?",
       "meta": {
+        "info": "Sorting bare instrumental forms by the job they would do. People and the things that come along with them would take *s* in a sentence (*s Anom, s limunom*); vehicles take nothing (*vlakom*). Say each one in a short sentence before you sort it.",
+        "infokratko": "People and things that come along: *s*. Vehicles: nothing.",
         "stupci": "COMPANY (s/sa) | MEANS (no preposition)",
-        "opis": "Company or means?"
+        "opis": "The little word is missing. Would the form need *s / sa* (company) or nothing (means)?"
       },
       "stavke": [
         [
-          "s Anom",
+          "Anom",
           "COMPANY (s/sa)"
         ],
         [
@@ -79335,7 +83808,7 @@ window.PODACI = {
           "MEANS (no preposition)"
         ],
         [
-          "s limunom",
+          "limunom",
           "COMPANY (s/sa)"
         ],
         [
@@ -79343,16 +83816,56 @@ window.PODACI = {
           "MEANS (no preposition)"
         ],
         [
-          "s prijateljem",
+          "prijateljem",
           "COMPANY (s/sa)"
         ],
         [
           "autom",
           "MEANS (no preposition)"
+        ],
+        [
+          "sestrom",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "trajektom",
+          "MEANS (no preposition)"
+        ],
+        [
+          "mladićem",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "skuterom",
+          "MEANS (no preposition)"
+        ],
+        [
+          "mlijekom",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "kamionom",
+          "MEANS (no preposition)"
+        ],
+        [
+          "šećerom",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "tramvajem",
+          "MEANS (no preposition)"
+        ],
+        [
+          "mužem",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "taksijem",
+          "MEANS (no preposition)"
         ]
       ],
       "sortkljuc": 1503004,
-      "bodovi": 802
+      "bodovi": 580
     },
     {
       "cjelina": "Grammar 15",
@@ -79360,15 +83873,213 @@ window.PODACI = {
       "stranica": 5,
       "broj": 9999,
       "format": "tekst",
+      "naslov": "The rule: tools, food and the order",
+      "meta": {
+        "info": "The second rule page, with more on the two jobs. A tool works like a vehicle and takes the instrumental alone (*pišem olovkom*); food that comes with something takes *s* (*palačinke s džemom*); and a person and a vehicle can share one sentence: *Idem s Markom vlakom.*",
+        "infokratko": "Tools like vehicles: *pišem olovkom*. Food with *s*: *palačinke s džemom*. Both in one sentence.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "**Tools work like vehicles.** Whatever you use to do something takes the instrumental with nothing in front. The question is ***čime?*** — with what?"
+        ],
+        [
+          "tab: Croatian",
+          "English"
+        ],
+        [
+          "tab: Pišem **olovkom**.",
+          "I write with a pencil."
+        ],
+        [
+          "tab: Jedem juhu **žlicom**.",
+          "I eat soup with a spoon."
+        ],
+        [
+          "tab: Jedem **vilicom** i **nožem**.",
+          "I eat with a fork and a knife."
+        ],
+        [
+          "tab: Plaćam **karticom**.",
+          "I pay by card."
+        ],
+        [
+          "**Food that comes with something takes s.** English uses *with* for both jobs, but in Croatian only company takes *s*: *kava **s mlijekom**, palačinke **s džemom**, čaj **sa šećerom***. The milk comes along with the coffee, so it counts as company."
+        ],
+        [
+          "**A person and a vehicle in one sentence.** Each keeps its own form: *Idem **s Markom vlakom**.* — I'm going by train with Marko. The order is free: *Vlakom idem s Markom.*"
+        ],
+        [
+          "**Three questions, three answers.** ***S kim?*** asks for a person: *S kim ideš? — S Anom.* ***Čime?*** asks for a vehicle or a tool: *Čime putuješ? — Trajektom.* ***Kako?*** asks about the way in general, and *pješice* answers it too: *Kako ideš? — Pješice.*"
+        ],
+        [
+          "**Now you write them.** Pišem [olovkom]. Plaćam [karticom]. [S] kim ideš? — S Anom. [Čime] putuješ? — Vlakom."
+        ]
+      ],
+      "sortkljuc": 1503005,
+      "bodovi": 393
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Answer the question",
+      "meta": {
+        "info": "Short answers in the instrumental. A *s kim?* question is answered with a person after *s* or *sa*, a *čime?* question with a vehicle or a tool alone. The word in brackets gives you the naming form, and the answer is one or two words.",
+        "infokratko": "*S kim?* → *s / sa* + person. *Čime?* → vehicle or tool alone.",
+        "opis": "Answer in one or two words. The word in brackets is your answer."
+      },
+      "stavke": [
+        [
+          "S kim ideš u kino? (brat) →",
+          "S bratom"
+        ],
+        [
+          "Čime putuješ? (vlak) →",
+          "Vlakom"
+        ],
+        [
+          "S kim večeraš? (sestra) →",
+          "Sa sestrom"
+        ],
+        [
+          "Čime ideš na posao? (tramvaj) →",
+          "Tramvajem"
+        ],
+        [
+          "S kim plešeš? (Ivan) →",
+          "S Ivanom"
+        ],
+        [
+          "Čime pišeš? (olovka) →",
+          "Olovkom"
+        ],
+        [
+          "S kim izlaziš? (prijatelj) →",
+          "S prijateljem"
+        ],
+        [
+          "Čime plaćate? (kartica) →",
+          "Karticom"
+        ],
+        [
+          "Čime idete na otok? (trajekt) →",
+          "Trajektom"
+        ],
+        [
+          "S kim razgovaraš? (konobar) →",
+          "S konobarom"
+        ],
+        [
+          "S kim pjevaš? (Petra) →",
+          "S Petrom"
+        ],
+        [
+          "Čime jedeš juhu? (žlica) →",
+          "Žlicom"
+        ]
+      ],
+      "sortkljuc": 1503006,
+      "bodovi": 675
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Tool, food or company?",
+      "meta": {
+        "info": "The second rule page in practice. A tool works like a vehicle and takes the instrumental alone (*pišem olovkom, plaćam karticom*); food that comes with something takes *s* or *sa* (*palačinke s džemom*); and a person always takes *s*. The English in brackets tells you which job the word does.",
+        "infokratko": "Tool: alone (*olovkom*). Food that comes along: *s / sa* (*s džemom*). Person: *s* (*s Markom*).",
+        "opis": "Tool, food or company? Pick the form that fits the gap."
+      },
+      "stavke": [
+        [
+          "Pišem ___ . (with a pencil)",
+          "olovkom",
+          "s olovkom",
+          "olovka"
+        ],
+        [
+          "Plaćam ___ . (by card)",
+          "karticom",
+          "s karticom",
+          "kartica"
+        ],
+        [
+          "Palačinke ___ , molim. (with jam)",
+          "s džemom",
+          "džemom",
+          "s džem"
+        ],
+        [
+          "Čaj ___ , molim. (with lemon)",
+          "s limunom",
+          "limunom",
+          "s limun"
+        ],
+        [
+          "Idem ___ vlakom. (with Marko)",
+          "s Markom",
+          "Markom",
+          "s Marko"
+        ],
+        [
+          "Kavu pijem ___ . (with sugar)",
+          "sa šećerom",
+          "šećerom",
+          "sa šećer"
+        ],
+        [
+          "Jedem ___ i nožem. (with a fork)",
+          "vilicom",
+          "s vilicom",
+          "vilica"
+        ],
+        [
+          "Pizzu jedem ___ . (with my hand)",
+          "rukom",
+          "s rukom",
+          "ruka"
+        ],
+        [
+          "Pišem pismo ___ . (together with my sister)",
+          "sa sestrom",
+          "sestrom",
+          "sa sestra"
+        ],
+        [
+          "Čime putuješ? — ___ . (by bus)",
+          "Autobusom",
+          "S autobusom",
+          "Autobus"
+        ]
+      ],
+      "sortkljuc": 1503007,
+      "bodovi": 580
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "tekst",
       "naslov": "The rule: with me, with you",
-      "meta": {},
+      "meta": {
+        "info": "The company forms of the pronouns — the words you need the moment someone asks *s kim?* Most do not look like the naming form, so learn them as a set. *Sa mnom* takes *sa*, and *s nama, s vama, s njima* repeat the long dative forms from Grammar 14.",
+        "infokratko": "*sa mnom, s tobom, s njim, s njom, s nama, s vama, s njima*.",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
           "The company forms of the pronouns — the words you need the moment somebody asks *s kim?*"
         ],
         [
           "tab: Pronoun",
-          "With..."
+          "With…"
         ],
         [
           "tab: ja",
@@ -79379,7 +84090,7 @@ window.PODACI = {
           "**s tobom**"
         ],
         [
-          "tab: on / ono",
+          "tab: on, ono",
           "**s njim**"
         ],
         [
@@ -79395,36 +84106,38 @@ window.PODACI = {
           "**s vama**"
         ],
         [
-          "tab: oni",
+          "tab: oni, one, ona",
           "**s njima**"
         ],
         [
-          "***sa mnom* breaks two habits at once.** The pronoun doesn't look remotely like *ja*, and *s* becomes *sa* even though no s/š/z/ž follows — purely because *s mnom* is unpronounceable."
+          "***Sa mnom* has two surprises.** The form looks nothing like *ja*, and the preposition is *sa* although no s, š, z or ž follows — *s mnom* cannot be pronounced. The other six take plain *s*."
         ],
         [
-          "**Pronouns are always company, never means.** You travel *vlakom* with no preposition, but a person is never a vehicle: *Putujem s bratom*, and *Putujem s njim*."
+          "**Three of them are old friends of the eye.** *Nama, vama, njima* are the long dative forms from Grammar 14; with *s* in front they mean *with us, with you, with them*."
         ],
         [
-          "**The question and its answer rhyme:** *S kim ideš? — S njom.* *S kim putuješ? — S tobom!*"
+          "**Pronouns are always company, never means.** You travel *vlakom* with no preposition, but a person always takes *s*: *Putujem s bratom.* → *Putujem **s njim**.*"
         ],
         [
-          "**Same forms carry the whole preposition family:** *pred njim, za njom, nad nama* — learn these seven and a lot of Croatian opens up at once."
+          "**The question and the answer:** *S kim ideš? — **S njom**.* *S kim putuješ? — **S tobom**!* The pronoun form can stand alone as the whole answer."
         ],
         [
-          "**Now you write them.** Ideš li sa [mnom]? Idem s [tobom]. Idem s [njim]."
+          "**Now you write them.** Ideš li sa [mnom]? Idem s [tobom]. Marko is going too: Idem s [njim]."
         ]
       ],
-      "sortkljuc": 1503005,
-      "bodovi": 802
+      "sortkljuc": 1503008,
+      "bodovi": 393
     },
     {
       "cjelina": "Grammar 15",
       "cjelinanaslov": "The Instrumental",
-      "stranica": 6,
+      "stranica": 9,
       "broj": 9999,
       "format": "upis",
       "naslov": "Type the pronoun",
       "meta": {
+        "info": "You replace a person with the company form of the pronoun, preposition included. *Ja* gives *sa mnom*, every other pronoun takes plain *s*: *s tobom, s njim, s njom, s nama, s vama, s njima*. For a name, choose the pronoun first: Marko is *on*, Ana is *ona*.",
+        "infokratko": "*sa mnom*; all others with *s*: *s tobom, s njim, s njom, s nama, s vama, s njima*.",
         "opis": "Put the pronoun into the company form — with its preposition."
       },
       "stavke": [
@@ -79433,87 +84146,319 @@ window.PODACI = {
           "sa mnom"
         ],
         [
-          "ti → Idem ___",
+          "ti → Idem ___ .",
           "s tobom"
         ],
         [
-          "on → Putujem ___",
+          "on → Putujem ___ .",
           "s njim"
         ],
         [
-          "ona → Pjevam ___",
+          "ona → Pjevam ___ .",
           "s njom"
         ],
         [
-          "mi → Dođi ___",
+          "mi → Ideš li ___ na koncert?",
           "s nama"
         ],
         [
-          "oni → Treniram ___",
+          "oni → Treniram ___ .",
+          "s njima"
+        ],
+        [
+          "vi → Idem ___ u kino.",
+          "s vama"
+        ],
+        [
+          "Marko → Izlazim ___ .",
+          "s njim"
+        ],
+        [
+          "Ana → Plešem ___ .",
+          "s njom"
+        ],
+        [
+          "ja → Tko ide u kino ___ ?",
+          "sa mnom"
+        ],
+        [
+          "sestra i ja → Mama putuje ___ .",
+          "s nama"
+        ],
+        [
+          "brat i sestra → Večeram ___ .",
           "s njima"
         ]
       ],
-      "sortkljuc": 1503006,
-      "bodovi": 1374
+      "sortkljuc": 1503009,
+      "bodovi": 674
     },
     {
       "cjelina": "Grammar 15",
       "cjelinanaslov": "The Instrumental",
-      "stranica": 7,
+      "stranica": 10,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Person or vehicle?",
       "meta": {
-        "opis": "Company takes s/sa. Means takes nothing. Which is it?"
+        "info": "Company takes *s* or *sa*, means takes nothing — and a pronoun is always company. Watch the three usual slips: *s vlakom* (an *s* before a vehicle), *s mnom* (it is *sa mnom*), and the naming form after *s* (*s on*).",
+        "infokratko": "Vehicle alone; pronoun with *s*. *sa mnom*, never *s mnom* or *s ja*.",
+        "opis": "Company takes *s / sa*. Means takes nothing. Which is it?"
       },
       "stavke": [
         [
           "Putujem ___ . (by train)",
           "vlakom",
-          "s vlakom"
+          "s vlakom",
+          "vlak"
         ],
         [
           "Idem u kino ___ . (with him)",
           "s njim",
-          "njim"
+          "njim",
+          "s on"
         ],
         [
           "Idemo ___ . (by bus)",
           "autobusom",
-          "s autobusom"
+          "s autobusom",
+          "autobus"
         ],
         [
-          "Dođi ___ ! (with me)",
+          "Ideš li ___ ? (with me)",
           "sa mnom",
-          "s menom"
+          "s mnom",
+          "s ja"
         ],
         [
           "Ana putuje ___ . (with us)",
           "s nama",
-          "nama"
+          "nama",
+          "s mi"
         ],
         [
-          "Šećem ___ . (with the dog)",
-          "sa psom",
-          "psom"
+          "Plešem ___ . (with her)",
+          "s njom",
+          "s njim",
+          "s ona"
+        ],
+        [
+          "Idem na otok ___ . (by ferry)",
+          "trajektom",
+          "s trajektom",
+          "trajekt"
+        ],
+        [
+          "Večeramo ___ . (with them)",
+          "s njima",
+          "s njim",
+          "njima"
+        ],
+        [
+          "Idem ___ u grad. (with you, a friend)",
+          "s tobom",
+          "s ti",
+          "tobom"
+        ],
+        [
+          "Putujete li ___ ? (by car)",
+          "autom",
+          "s autom",
+          "auto"
+        ],
+        [
+          "Marko izlazi ___ . (with you, polite)",
+          "s vama",
+          "s vi",
+          "vama"
+        ],
+        [
+          "Pijem kavu ___ . (with milk)",
+          "s mlijekom",
+          "mlijekom",
+          "s mlijeko"
         ]
       ],
-      "sortkljuc": 1503007,
-      "bodovi": 1183
+      "sortkljuc": 1503010,
+      "bodovi": 580
     },
     {
       "cjelina": "Grammar 15",
       "cjelinanaslov": "The Instrumental",
-      "stranica": 8,
+      "stranica": 11,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: with friends — the plural",
+      "meta": {
+        "info": "The plural of the instrumental, with nothing new to learn: it has the same endings as the plural locative and dative, **-ima** and **-ama**. Only the preposition shows the job. *S prijateljima* is the form you hear on every Friday night.",
+        "infokratko": "Plural: **-ima / -ama**, as in the locative and dative. *s prijateljima, sa sestrama*.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "**Plural: -ima and -ama, the forms you already know.** Grammar 13 used them for places (*u gradovima*) and Grammar 14 for receivers (*prijateljima*). The instrumental plural has exactly the same form."
+        ],
+        [
+          "tab: Singular",
+          "Plural",
+          "With them"
+        ],
+        [
+          "tab: prijatelj",
+          "prijatelji",
+          "s prijatelj**ima**"
+        ],
+        [
+          "tab: susjed",
+          "susjedi",
+          "sa susjed**ima**"
+        ],
+        [
+          "tab: turist",
+          "turisti",
+          "s turist**ima**"
+        ],
+        [
+          "tab: sestra",
+          "sestre",
+          "sa sestr**ama**"
+        ],
+        [
+          "tab: prijateljica",
+          "prijateljice",
+          "s prijateljic**ama**"
+        ],
+        [
+          "tab: gljiva",
+          "gljive",
+          "s gljiv**ama**"
+        ],
+        [
+          "**One form, three jobs.** The preposition, or its absence, shows which: *u gradovima* (where), *Šaljem paket prijateljima* (to whom), *Izlazim s prijateljima* (with whom)."
+        ],
+        [
+          "**Food in the plural works the same way:** *pizza **s gljivama***, the menu classic, is company in the plural."
+        ],
+        [
+          "**Now you write them.** Izlazim s [prijateljima]. Idem na koncert sa [sestrama]. Pizza s [gljivama], molim."
+        ]
+      ],
+      "sortkljuc": 1503011,
+      "bodovi": 393
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "info": "One tap for all four endings of the instrumental. In the singular most words take **-om** and a soft ending takes **-em**; in the plural the ending is **-ima**, or **-ama** for words in **-a**. The English decides between *a friend* and *friends*, so read it before you tap.",
+        "infokratko": "Singular **-om / -em**; plural **-ima / -ama**. The English shows one or many.",
+        "nastavci": "om | em | ima | ama",
+        "opis": "English above, Croatian below. One tap puts the word in the instrumental — singular or plural."
+      },
+      "stavke": [
+        [
+          "Izlazim s prijatelj___.",
+          "I'm going out with friends.",
+          "ima"
+        ],
+        [
+          "Idem u kino s brat___.",
+          "I'm going to the cinema with my brother.",
+          "om"
+        ],
+        [
+          "Putujemo tramvaj___.",
+          "We're travelling by tram.",
+          "em"
+        ],
+        [
+          "Idem na koncert sa sestr___.",
+          "I'm going to the concert with my sisters.",
+          "ama"
+        ],
+        [
+          "Pijem kavu s mlijek___.",
+          "I drink coffee with milk.",
+          "om"
+        ],
+        [
+          "Plešem s mladić___.",
+          "I'm dancing with a young man.",
+          "em"
+        ],
+        [
+          "Pizza s gljiv___, molim.",
+          "A pizza with mushrooms, please.",
+          "ama"
+        ],
+        [
+          "Razgovaram s turist___.",
+          "I'm talking with the tourists.",
+          "ima"
+        ],
+        [
+          "Putujemo trajekt___.",
+          "We're travelling by ferry.",
+          "om"
+        ],
+        [
+          "Ana ide na zabavu s prijateljic___.",
+          "Ana is going to the party with her friends (women).",
+          "ama"
+        ],
+        [
+          "Petra večera s muž___.",
+          "Petra is having dinner with her husband.",
+          "em"
+        ],
+        [
+          "Sjedim u kafiću sa susjed___.",
+          "I'm sitting in a café with the neighbours.",
+          "ima"
+        ],
+        [
+          "Pijem čaj sa šećer___.",
+          "I drink tea with sugar.",
+          "om"
+        ],
+        [
+          "Marko igra šah s prijatelj___.",
+          "Marko is playing chess with a friend.",
+          "em"
+        ],
+        [
+          "Idem na posao skuter___.",
+          "I go to work by scooter.",
+          "om"
+        ],
+        [
+          "Mama ide u kazalište s kolegic___.",
+          "Mum is going to the theatre with her colleagues (women).",
+          "ama"
+        ]
+      ],
+      "sortkljuc": 1503012,
+      "bodovi": 580
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 13,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the sentence",
       "meta": {
+        "info": "Whole sentences from tiles, each using a different part of this unit. *S* or *sa* stands directly before the person or the pronoun, a vehicle or tool has nothing in front of it, and a comma comes before *a* and *nego*.",
+        "infokratko": "*s / sa* before a person or pronoun; nothing before a vehicle or tool. Comma before *a, nego*.",
         "opis": "Build the sentence."
       },
       "stavke": [
         [
-          "Putujem vlakom s dobrom knjigom."
+          "Putujem vlakom s knjigom."
         ],
         [
           "S kim ideš na koncert?"
@@ -79526,10 +84471,129 @@ window.PODACI = {
         ],
         [
           "Putujem s njom vlakom, a on ide autobusom."
+        ],
+        [
+          "U petak navečer izlazim s prijateljima."
+        ],
+        [
+          "Pijem kavu s mlijekom i sa šećerom."
+        ],
+        [
+          "Na otok idemo trajektom."
+        ],
+        [
+          "Ne idem s bratom, nego sa sestrom."
+        ],
+        [
+          "Pizzu jedem rukom, a ne vilicom."
+        ],
+        [
+          "Mladić s balonom čeka na kolodvoru."
+        ],
+        [
+          "Idem na zabavu s njim i s njom."
         ]
       ],
-      "sortkljuc": 1503008,
-      "bodovi": 993
+      "sortkljuc": 1503013,
+      "bodovi": 580
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English, the hardest step here. Company takes *s* or *sa* with the instrumental, a vehicle or a tool takes the instrumental alone, and a pronoun after *s* takes its company form: *sa mnom, s tobom, s njim*. Several word orders are accepted.",
+        "infokratko": "Company: *s / sa* + instrumental. Vehicle or tool: alone. Pronouns: *sa mnom, s tobom*.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I'm going to the cinema with Marko.",
+          "Idem u kino s Markom / S Markom idem u kino / Idem s Markom u kino"
+        ],
+        [
+          "We travel by train.",
+          "Putujemo vlakom"
+        ],
+        [
+          "I drink coffee with milk.",
+          "Pijem kavu s mlijekom"
+        ],
+        [
+          "I'm going out with my sister.",
+          "Izlazim sa sestrom"
+        ],
+        [
+          "Who are you going with?",
+          "S kim ideš?"
+        ],
+        [
+          "Ana goes to work by bus.",
+          "Ana ide na posao autobusom / Ana ide autobusom na posao"
+        ],
+        [
+          "Are you going with me?",
+          "Ideš li sa mnom?"
+        ],
+        [
+          "I'm going with you.",
+          "Idem s tobom"
+        ],
+        [
+          "We're going to the island by ferry.",
+          "Idemo na otok trajektom / Idemo trajektom na otok / Na otok idemo trajektom"
+        ],
+        [
+          "I'm going out with friends.",
+          "Izlazim s prijateljima"
+        ],
+        [
+          "I pay by card.",
+          "Plaćam karticom"
+        ],
+        [
+          "I'm going on foot.",
+          "Idem pješice"
+        ],
+        [
+          "I'm not going by car, but by tram.",
+          "Ne idem autom, nego tramvajem"
+        ],
+        [
+          "She is dancing with him.",
+          "Ona pleše s njim / Pleše s njim"
+        ]
+      ],
+      "sortkljuc": 1503014,
+      "bodovi": 674
+    },
+    {
+      "cjelina": "Grammar 15",
+      "cjelinanaslov": "The Instrumental",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The instrumental at this level comes down to three facts: company takes *s* or *sa*, a vehicle or a tool takes the instrumental alone, and the plural repeats **-ima** and **-ama**. The pronouns have their own set, from *sa mnom* to *s njima*.",
+        "infokratko": "Company *s / sa*; vehicle or tool alone; plural **-ima / -ama**; *sa mnom… s njima*."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say who you are with and how you travel — with a name, with a pronoun, or with a whole group of friends."
+        ],
+        [
+          "And you did it with one rule for each: **company takes *s* or *sa***, **a vehicle or a tool takes the instrumental alone**, and **the plural repeats *-ima* and *-ama*.**"
+        ],
+        [
+          "**Next up:** Practice 15 follows a Friday night out and a train journey, and Test 15 closes Module C. Then Lesson 16 takes you to grandma's house and the genitive."
+        ]
+      ],
+      "sortkljuc": 1503015,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 15",
@@ -79538,29 +84602,30 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: Going out",
-      "meta": {},
+      "meta": {
+        "info": "A read-along Friday night, and nearly every line has an instrumental. Read it twice: once for the story, once to spot the two jobs — *s Markom, s mlijekom* with *s* for company, *tramvajem* alone for the way you travel — and the plural *s prijateljima* from Grammar 15.",
+        "infokratko": "Company with *s*: *s Markom, s mlijekom*. The way alone: *tramvajem*. Plural: *s prijateljima*.",
+        "opis": "A cinema, a café and a walk home at midnight. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "A night out and a train ride, both in the instrumental."
+          "Passive words: *prvo* (first), *cijeli put* (the whole way)."
         ],
         [
-          "The instrumental in its natural habitat — passive words: *s prijateljima* (with friends — plural instrumental, later!), *o filmu / o vremenu* (about the film / the weather), *mladić* (young man), *gospođa* (lady), *balon* (balloon), *cijeli put* (the whole way), *ne radi* (doesn't work)."
+          "Petak je navečer i izlazim s prijateljima.",
+          "It's Friday evening and I'm going out with friends."
         ],
         [
-          "Petak je navečer!",
-          "It's Friday evening!"
+          "Prvo idem s Markom u kino.",
+          "First I'm going to the cinema with Marko."
         ],
         [
-          "Izlazim s prijateljima.",
-          "I'm going out with friends."
+          "Idemo tramvajem, jer je kino u centru.",
+          "We go by tram, because the cinema is in the centre."
         ],
         [
-          "S Markom idem u kino.",
-          "With Marko I'm going to the cinema."
-        ],
-        [
-          "Poslije idemo s Anom i Majom u kafić.",
-          "Afterwards we're going to the café with Ana and Maja."
+          "Poslije idemo u kafić s Anom i Majom.",
+          "Afterwards we go to the café with Ana and Maja."
         ],
         [
           "Razgovaramo o filmu.",
@@ -79571,8 +84636,16 @@ window.PODACI = {
           "Ana drinks coffee with milk, and I drink tea with lemon."
         ],
         [
-          "Doma idemo pješice — hodam s Markom i pričamo cijeli put.",
-          "We go home on foot — I walk with Marko and we chat the whole way."
+          "Marko jede palačinke s čokoladom, a Maja ne jede ništa.",
+          "Marko eats pancakes with chocolate, and Maja eats nothing."
+        ],
+        [
+          "U ponoć idemo doma pješice.",
+          "At midnight we go home on foot."
+        ],
+        [
+          "Hodam s Markom i pričamo cijeli put.",
+          "I walk with Marko and we chat the whole way."
         ],
         [
           "S prijateljima je sve bolje!",
@@ -79590,33 +84663,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "S Markom idem u kino. Poslije idemo s Anom i Majom u kafić. Razgovaramo o filmu. Ana pije kavu s mlijekom, a ja pijem čaj s limunom. Doma idemo pješice.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on the Friday night. The questions use the two question words of this level: *s kim?* is answered by a person after *s*, and *kako?* by a vehicle alone or by *pješice*. Everything else is stated outright in one line of the text.",
+        "infokratko": "*S kim?* → a person after *s*. *Kako?* → a vehicle alone, or *pješice*.",
+        "opis": "Answer from the text.",
+        "tekst": "Petak je navečer i izlazim s prijateljima. Prvo idem s Markom u kino. Idemo tramvajem, jer je kino u centru. Poslije idemo u kafić s Anom i Majom. Razgovaramo o filmu. Ana pije kavu s mlijekom, a ja pijem čaj s limunom. Marko jede palačinke s čokoladom, a Maja ne jede ništa. U ponoć idemo doma pješice. Hodam s Markom i pričamo cijeli put."
       },
       "stavke": [
         [
           "S kim ide u kino?",
           "s Markom",
-          "s Anom"
+          "s Anom",
+          "s Majom"
         ],
         [
-          "Što Ana pije?",
+          "Kako idu u kino?",
+          "tramvajem",
+          "autobusom",
+          "pješice"
+        ],
+        [
+          "S kim idu u kafić?",
+          "s Anom i Majom",
+          "s mamom i tatom",
+          "s Petrom i Ivanom"
+        ],
+        [
+          "Što pije Ana?",
           "kavu s mlijekom",
-          "čaj s limunom"
+          "čaj s limunom",
+          "kavu sa šećerom"
+        ],
+        [
+          "Što jede Marko?",
+          "palačinke s čokoladom",
+          "palačinke s džemom",
+          "ništa"
         ],
         [
           "Kako idu doma?",
           "pješice",
-          "autobusom"
-        ],
-        [
-          "O čemu razgovaraju?",
-          "o filmu",
-          "o vremenu"
+          "tramvajem",
+          "taksijem"
         ]
       ],
       "sortkljuc": 1504002,
-      "bodovi": 1078
+      "bodovi": 625
     },
     {
       "cjelina": "Practice 15",
@@ -79626,8 +84717,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the instrumental",
       "meta": {
-        "tekst": "Izlazim s prijateljima. S Markom idem u kino. Pijem čaj s limunom.",
-        "opis": "Fill in the instrumental from the text."
+        "info": "Copy each instrumental back into its line. The bracket gives the naming form: a consonant or **-o** adds **-om** (*Markom, mlijekom*), **-a** turns into **-om** (*Anom*), a soft **-j** takes **-em** (*tramvajem*), and a group of friends takes the plural **-ima**.",
+        "infokratko": "**-om** (*Markom, Anom*), **-em** after **-j** (*tramvajem*), plural **-ima**.",
+        "opis": "Fill in the instrumental from the text.",
+        "tekst": "Petak je navečer i izlazim s prijateljima. Prvo idem s Markom u kino. Idemo tramvajem, jer je kino u centru. Poslije idemo u kafić s Anom i Majom. Ana pije kavu s mlijekom, a ja pijem čaj s limunom. Marko jede palačinke s čokoladom."
       },
       "stavke": [
         [
@@ -79635,29 +84728,94 @@ window.PODACI = {
           "prijateljima"
         ],
         [
-          "S ___ idem u kino. (Marko)",
+          "Prvo idem s ___ u kino. (Marko)",
           "Markom"
         ],
         [
-          "Pijem čaj s ___ . (limun)",
+          "Idemo ___ , jer je kino u centru. (tramvaj)",
+          "tramvajem"
+        ],
+        [
+          "Poslije idemo u kafić s ___ i Majom. (Ana)",
+          "Anom"
+        ],
+        [
+          "Poslije idemo u kafić s Anom i ___ . (Maja)",
+          "Majom"
+        ],
+        [
+          "Ana pije kavu s ___ . (mlijeko)",
+          "mlijekom"
+        ],
+        [
+          "Ja pijem čaj s ___ . (limun)",
           "limunom"
+        ],
+        [
+          "Marko jede palačinke s ___ . (čokolada)",
+          "čokoladom"
         ]
       ],
       "sortkljuc": 1504003,
-      "bodovi": 1232
+      "bodovi": 726
     },
     {
       "cjelina": "Practice 15",
       "cjelinanaslov": "Reading: Friday Night & Train Rides",
       "stranica": 4,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "Text 2: Who are you going with?",
-      "meta": {},
+      "format": "poredak",
+      "naslov": "Friday night, in order",
+      "meta": {
+        "info": "Sequence the evening from Text 1. The night has three stops — the cinema, the café, the way home — and the tram comes right after the cinema plan, because it is how they get there. The chat on the walk home is the last thing that happens.",
+        "infokratko": "Cinema, café, the way home. The tram belongs to the cinema.",
+        "opis": "Seven moments from Text 1, shuffled. Put them in the order they happen."
+      },
       "stavke": [
         [
-          "— Ideš li na koncert u subotu?",
-          "— Are you going to the concert on Saturday?"
+          "Petak je navečer i izlazim s prijateljima."
+        ],
+        [
+          "Prvo idem s Markom u kino."
+        ],
+        [
+          "Idemo tramvajem, jer je kino u centru."
+        ],
+        [
+          "Poslije idemo u kafić s Anom i Majom."
+        ],
+        [
+          "Razgovaramo o filmu."
+        ],
+        [
+          "U ponoć idemo doma pješice."
+        ],
+        [
+          "Hodam s Markom i pričamo cijeli put."
+        ]
+      ],
+      "sortkljuc": 1504004,
+      "bodovi": 464
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 2: Who are you going with?",
+      "meta": {
+        "info": "A phone call about a concert in another town. Two questions drive it: *S kim ideš?* for the company and *Kako idete?* for the way there. Watch *s nama* — with us, from Grammar 15 — because that one offer changes the plan.",
+        "infokratko": "*S kim ideš?* — company. *Kako idete?* — the way. *s nama* = with us.",
+        "opis": "Ivan calls Petra about Saturday's concert in Rijeka. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *Ovdje Ivan* (It's Ivan, on the phone), *ne radi* (doesn't work), *u sedam* (at seven), *Vidimo se!* (See you!)."
+        ],
+        [
+          "— Bok, Petra! Ovdje Ivan. Ideš li u subotu na koncert u Rijeku?",
+          "— Hi, Petra! It's Ivan. Are you going to the concert in Rijeka on Saturday?"
         ],
         [
           "— Idem! A ti?",
@@ -79668,86 +84826,104 @@ window.PODACI = {
           "— Me too! Who are you going with?"
         ],
         [
-          "— Sa sestrom i s Markom.",
-          "— With my sister and with Marko."
+          "— Sa sestrom i s Markom. A ti?",
+          "— With my sister and with Marko. And you?"
         ],
         [
-          "— Super! Ja idem s bratom.",
-          "— Great! I'm going with my brother."
+          "— Ja idem s bratom i s prijateljem.",
+          "— I'm going with my brother and a friend."
         ],
         [
           "— Kako idete? Autom?",
           "— How are you getting there? By car?"
         ],
         [
-          "— Ne, idemo vlakom. A vi?",
-          "— No, we're going by train. And you?"
+          "— Ne, naš auto ne radi. Idemo autobusom. A vi?",
+          "— No, our car doesn't work. We're going by bus. And you?"
         ],
         [
-          "— Mi idemo autobusom. Naš auto ne radi!",
-          "— We're going by bus. Our car doesn't work!"
+          "— Mi idemo vlakom. Idete li s nama?",
+          "— We're going by train. Are you coming with us?"
         ],
         [
-          "— Ha! Onda se vidimo na koncertu!",
-          "— Ha! Then see you at the concert!"
+          "— Vlakom? Može! Autobus uvijek kasni.",
+          "— By train? Sure! The bus is always late."
         ],
         [
-          "— Može!",
-          "— Sure!"
-        ]
-      ],
-      "sortkljuc": 1504004,
-      "bodovi": 20
-    },
-    {
-      "cjelina": "Practice 15",
-      "cjelinanaslov": "Reading: Friday Night & Train Rides",
-      "stranica": 5,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "True or false?",
-      "meta": {
-        "tekst": "— S kim ideš? — Sa sestrom i s Markom. — Ja idem s bratom. — Kako idete? Autom? — Ne, idemo vlakom. — Mi idemo autobusom. Naš auto ne radi!",
-        "opis": "Tap true or false."
-      },
-      "stavke": [
-        [
-          "Prva osoba ide sa sestrom i s Markom.",
-          "TRUE",
-          "FALSE"
+          "— Super! Polazak je u sedam, na kolodvoru.",
+          "— Great! Departure is at seven, at the station."
         ],
         [
-          "Druga osoba ide s mamom.",
-          "FALSE",
-          "TRUE"
-        ],
-        [
-          "Idu vlakom i autobusom.",
-          "TRUE",
-          "FALSE"
-        ],
-        [
-          "Njihov auto radi odlično.",
-          "FALSE",
-          "TRUE"
+          "— Dobro. Vidimo se na kolodvoru!",
+          "— Good. See you at the station!"
         ]
       ],
       "sortkljuc": 1504005,
-      "bodovi": 1078
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 15",
       "cjelinanaslov": "Reading: Friday Night & Train Rides",
       "stranica": 6,
       "broj": 9999,
-      "format": "poredak",
-      "naslov": "Order the dialogue",
+      "format": "izbor",
+      "naslov": "True or false?",
       "meta": {
-        "opis": "Rebuild the concert plans."
+        "info": "Check each statement against the phone call. Keep the two groups apart: Petra goes *sa sestrom i s Markom*, Ivan *s bratom i s prijateljem*. The plan changes halfway through — *Idete li s nama?* — so the bus is not how the call ends.",
+        "infokratko": "Petra: *sa sestrom i s Markom*. Ivan: *s bratom i s prijateljem*. The plan changes.",
+        "opis": "Tap true or false.",
+        "tekst": "— Bok, Petra! Ovdje Ivan. Ideš li u subotu na koncert u Rijeku? — Idem! A ti? — I ja! S kim ideš? — Sa sestrom i s Markom. A ti? — Ja idem s bratom i s prijateljem. — Kako idete? Autom? — Ne, naš auto ne radi. Idemo autobusom. A vi? — Mi idemo vlakom. Idete li s nama? — Vlakom? Može! Autobus uvijek kasni. — Super! Polazak je u sedam, na kolodvoru."
       },
       "stavke": [
         [
-          "— Ideš li na koncert u subotu?"
+          "Petra ide na koncert sa sestrom i s Markom.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Ivan ide na koncert s mamom.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Koncert je u Rijeci.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Petra, njezina sestra i Marko idu autobusom.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Ivan ide vlakom s Petrom.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Polazak je u osam.",
+          "FALSE",
+          "TRUE"
+        ]
+      ],
+      "sortkljuc": 1504006,
+      "bodovi": 625
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "poredak",
+      "naslov": "Order the dialogue",
+      "meta": {
+        "info": "Rebuild the call line by line. Each answer follows its question: *S kim ideš?* is answered by *Sa sestrom i s Markom*, and *Kako idete? Autom?* by the car that does not work. The offer *Idete li s nama?* comes only after both ways of travelling are named.",
+        "infokratko": "Each answer follows its question; the offer *s nama* comes last.",
+        "opis": "Rebuild the first eight lines of the call."
+      },
+      "stavke": [
+        [
+          "— Bok, Petra! Ovdje Ivan. Ideš li u subotu na koncert u Rijeku?"
         ],
         [
           "— Idem! A ti?"
@@ -79756,83 +84932,104 @@ window.PODACI = {
           "— I ja! S kim ideš?"
         ],
         [
-          "— Sa sestrom i s Markom."
+          "— Sa sestrom i s Markom. A ti?"
         ],
         [
-          "— Super! Ja idem s bratom."
+          "— Ja idem s bratom i s prijateljem."
         ],
         [
           "— Kako idete? Autom?"
         ],
         [
-          "— Ne, idemo vlakom. A vi?"
+          "— Ne, naš auto ne radi. Idemo autobusom. A vi?"
         ],
         [
-          "— Mi idemo autobusom. Naš auto ne radi!"
-        ]
-      ],
-      "sortkljuc": 1504006,
-      "bodovi": 1333
-    },
-    {
-      "cjelina": "Practice 15",
-      "cjelinanaslov": "Reading: Friday Night & Train Rides",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "tekst",
-      "naslov": "Text 3: A train journey",
-      "meta": {},
-      "stavke": [
-        [
-          "Volim putovati vlakom.",
-          "I love travelling by train."
-        ],
-        [
-          "Vlak je spor, ali putovanje je mirno.",
-          "The train is slow, but the journey is peaceful."
-        ],
-        [
-          "Sjedim s knjigom i s kavom.",
-          "I sit with a book and a coffee."
-        ],
-        [
-          "Gospođa sa psom sjedi blizu i razgovaramo o vremenu.",
-          "A lady with a dog sits nearby and we talk about the weather."
-        ],
-        [
-          "Mladić s gitarom svira tiho.",
-          "A young man with a guitar plays quietly."
-        ],
-        [
-          "Dijete s balonom trči i pjeva.",
-          "A child with a balloon runs and sings."
-        ],
-        [
-          "Putujem s osmijehom: vlakom, s dobrim ljudima i s pričama.",
-          "I travel with a smile: by train, with good people and with stories."
+          "— Mi idemo vlakom. Idete li s nama?"
         ]
       ],
       "sortkljuc": 1504007,
-      "bodovi": 20
+      "bodovi": 525
     },
     {
       "cjelina": "Practice 15",
       "cjelinanaslov": "Reading: Friday Night & Train Rides",
       "stranica": 8,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 3: A train journey",
+      "meta": {
+        "info": "Ana's Saturday trip to Split, told in the present. The train is the only vehicle without *s* until the car at the end; every other instrumental is company — people, a book, a coffee, a cat. *S njom* is the short form from Grammar 15: with her.",
+        "infokratko": "Vehicles alone: *vlakom, autom*. Everything else takes *s*. *s njom* = with her.",
+        "opis": "A slow train, a quiet carriage and a family waiting in Split. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *o vremenu* (about the weather), *deset minuta* (ten minutes)."
+        ],
+        [
+          "U subotu Ana putuje vlakom u Split.",
+          "On Saturday Ana travels to Split by train."
+        ],
+        [
+          "Vlak je spor, ali putovanje je mirno.",
+          "The train is slow, but the journey is peaceful."
+        ],
+        [
+          "Ana sjedi s knjigom i s kavom.",
+          "Ana sits with a book and a coffee."
+        ],
+        [
+          "U vlaku je i gospođa s mužem i s mačkom.",
+          "On the train there is also a lady with her husband and a cat."
+        ],
+        [
+          "Ana razgovara s njom o vremenu.",
+          "Ana talks with her about the weather."
+        ],
+        [
+          "Mladić s gitarom tiho svira.",
+          "A young man with a guitar plays quietly."
+        ],
+        [
+          "Dijete s balonom pjeva s mamom.",
+          "A child with a balloon sings with its mum."
+        ],
+        [
+          "Vlak kasni deset minuta, ali nitko ne žuri.",
+          "The train is ten minutes late, but nobody is in a hurry."
+        ],
+        [
+          "Na kolodvoru Anu čeka baka s djedom.",
+          "At the station Grandma and Grandpa are waiting for Ana."
+        ],
+        [
+          "Doma idu autom. Djed vozi, a Ana razgovara s bakom.",
+          "They go home by car. Grandpa drives, and Ana talks with Grandma."
+        ]
+      ],
+      "sortkljuc": 1504008,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 9,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Who travels with what?",
       "meta": {
+        "info": "Each person from Text 3 beside what they have with them. Every right-hand side is company, so every one has *s* — *s mačkom, s gitarom, s balonom*. Ana appears twice: once on the train and once in the car.",
+        "infokratko": "Company only: *s mačkom, s gitarom*. Ana appears twice.",
         "opis": "Who travels with what? Match from the text."
       },
       "stavke": [
         [
-          "ja",
+          "Ana u vlaku",
           "s knjigom i s kavom"
         ],
         [
           "gospođa",
-          "sa psom"
+          "s mužem i s mačkom"
         ],
         [
           "mladić",
@@ -79841,77 +85038,2177 @@ window.PODACI = {
         [
           "dijete",
           "s balonom"
-        ]
-      ],
-      "sortkljuc": 1504008,
-      "bodovi": 873
-    },
-    {
-      "cjelina": "Practice 15",
-      "cjelinanaslov": "Reading: Friday Night & Train Rides",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "razvrstavanje",
-      "naslov": "Company or means?",
-      "meta": {
-        "stupci": "COMPANY (s/sa) | MEANS (no preposition)",
-        "opis": "Company or means? Sort the phrases from the text."
-      },
-      "stavke": [
-        [
-          "vlakom",
-          "MEANS (no preposition)"
         ],
         [
-          "s knjigom",
-          "COMPANY (s/sa)"
+          "baka na kolodvoru",
+          "s djedom"
         ],
         [
-          "sa psom",
-          "COMPANY (s/sa)"
-        ],
-        [
-          "s gitarom",
-          "COMPANY (s/sa)"
-        ],
-        [
-          "s osmijehom",
-          "COMPANY (s/sa)"
-        ],
-        [
-          "autobusom",
-          "MEANS (no preposition)"
+          "Ana u autu",
+          "s bakom i s djedom"
         ]
       ],
       "sortkljuc": 1504009,
-      "bodovi": 1078
+      "bodovi": 525
     },
     {
       "cjelina": "Practice 15",
       "cjelinanaslov": "Reading: Friday Night & Train Rides",
       "stranica": 10,
       "broj": 9999,
-      "format": "slaganje",
-      "naslov": "Translate by building",
+      "format": "razvrstavanje",
+      "naslov": "Company or means?",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "Sorting sentences from the texts by the job of the instrumental. With *s* or *sa* in front it is company — a person, a book, the milk in a coffee. Alone it is the way you travel: *vlakom, tramvajem*. *Pješice* is no case form, but it answers the same question, *kako?*",
+        "infokratko": "*s / sa* → company. Alone → the way you travel. *pješice* goes with the way.",
+        "stupci": "COMPANY (s/sa) | MEANS (no preposition)",
+        "opis": "Company or means? Sort the sentences from the texts."
       },
       "stavke": [
         [
-          "Volim putovati vlakom.",
-          "en: I love travelling by train."
+          "Izlazim s prijateljima.",
+          "COMPANY (s/sa)"
         ],
         [
-          "Sjedim s knjigom i s kavom.",
-          "en: I sit with a book and a coffee."
+          "Prvo idem s Markom u kino.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Ana pije kavu s mlijekom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Ana sjedi s knjigom i s kavom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Mladić s gitarom tiho svira.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Ja idem s bratom i s prijateljem.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Petra ide sa sestrom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Idemo tramvajem.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Ana putuje vlakom u Split.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Doma idu autom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Idemo autobusom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "U ponoć idemo doma pješice.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Marko i Ivan ne idu tramvajem.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Mi idemo vlakom.",
+          "MEANS (no preposition)"
+        ]
+      ],
+      "sortkljuc": 1504010,
+      "bodovi": 605
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: The café menu",
+      "meta": {
+        "info": "A real menu from the café in Text 1. Menus are full of the instrumental with *s*, because food that comes with something counts as company: *kava s mlijekom, sendvič sa sirom*, and in the plural *pizza s gljivama*. The last line uses the other job: you pay *karticom*.",
+        "infokratko": "A real menu: *kava s mlijekom, sendvič sa sirom, pizza s gljivama*. Paying: *karticom*.",
+        "opis": "The menu from Café Riva, prices included. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *pića* (drinks), *jela* (food, dishes), *do ponoći* (until midnight), *plaćanje* (payment), *gotovinom* (in cash), *glazba uživo* (live music)."
+        ],
+        [
+          "KAFIĆ RIVA — otvoreno do ponoći",
+          "CAFÉ RIVA — open until midnight"
+        ],
+        [
+          "PIĆA",
+          "DRINKS"
+        ],
+        [
+          "Kava — 2 €",
+          "Coffee — €2"
+        ],
+        [
+          "Kava s mlijekom — 2,50 €",
+          "Coffee with milk — €2.50"
+        ],
+        [
+          "Čaj s limunom — 2 €",
+          "Tea with lemon — €2"
+        ],
+        [
+          "Čaj s medom — 2,50 €",
+          "Tea with honey — €2.50"
+        ],
+        [
+          "Sok — 3 €",
+          "Juice — €3"
+        ],
+        [
+          "JELA",
+          "FOOD"
+        ],
+        [
+          "Palačinke s džemom — 4 €",
+          "Pancakes with jam — €4"
+        ],
+        [
+          "Palačinke s čokoladom — 5 €",
+          "Pancakes with chocolate — €5"
+        ],
+        [
+          "Sendvič sa sirom — 4 €",
+          "Cheese sandwich — €4"
+        ],
+        [
+          "Sendvič sa šunkom — 5 €",
+          "Ham sandwich — €5"
+        ],
+        [
+          "Pizza s gljivama — 8 €",
+          "Pizza with mushrooms — €8"
+        ],
+        [
+          "Sladoled s jagodama — 4 €",
+          "Ice cream with strawberries — €4"
+        ],
+        [
+          "Plaćanje: karticom ili gotovinom.",
+          "Payment: by card or in cash."
+        ],
+        [
+          "U petak navečer: glazba uživo!",
+          "On Friday evening: live music!"
+        ]
+      ],
+      "sortkljuc": 1504011,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What will you order?",
+      "meta": {
+        "info": "Reading the menu for what you need. The answer to each question is on one line, but some need a second step: a vegetarian leaves out *šunka*, and the price in the question tells you which of the two teas is meant.",
+        "infokratko": "One line per answer. A vegetarian skips *šunka*; the price picks the tea.",
+        "opis": "Answer from the menu.",
+        "tekst": "KAFIĆ RIVA — otvoreno do ponoći. PIĆA: Kava — 2 €. Kava s mlijekom — 2,50 €. Čaj s limunom — 2 €. Čaj s medom — 2,50 €. Sok — 3 €. JELA: Palačinke s džemom — 4 €. Palačinke s čokoladom — 5 €. Sendvič sa sirom — 4 €. Sendvič sa šunkom — 5 €. Pizza s gljivama — 8 €. Sladoled s jagodama — 4 €. Plaćanje: karticom ili gotovinom. U petak navečer: glazba uživo!"
+      },
+      "stavke": [
+        [
+          "Koliko košta kava s mlijekom?",
+          "2,50 €",
+          "2 €",
+          "3 €"
+        ],
+        [
+          "Koji čaj košta 2,50 €?",
+          "čaj s medom",
+          "čaj s limunom",
+          "čaj s mlijekom"
+        ],
+        [
+          "Ana je vegetarijanka. Koji sendvič uzima?",
+          "sendvič sa sirom",
+          "sendvič sa šunkom",
+          "sendvič s piletinom"
+        ],
+        [
+          "Što je na pizzi?",
+          "gljive",
+          "sir i šunka",
+          "jagode"
+        ],
+        [
+          "Kako plaćaš u kafiću?",
+          "karticom ili gotovinom",
+          "samo karticom",
+          "samo gotovinom"
+        ],
+        [
+          "Kada je glazba uživo?",
+          "u petak navečer",
+          "u subotu navečer",
+          "svaki dan"
+        ]
+      ],
+      "sortkljuc": 1504012,
+      "bodovi": 626
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Four friends, four rides",
+      "meta": {
+        "info": "A puzzle rather than a story. Four friends go to one party, each a different way, and nobody says who takes what. Every clue rules something out, so work by elimination, starting with the tram: three of the four cannot take it.",
+        "infokratko": "Every clue rules something out. Start with the tram.",
+        "opis": "Four friends, four ways to travel, no labels. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *isto* (the same way), *na zabavu* (to the party)."
+        ],
+        [
+          "Subota je navečer i Ana, Marko, Petra i Ivan idu na zabavu.",
+          "It's Saturday evening and Ana, Marko, Petra and Ivan are going to a party."
+        ],
+        [
+          "Idu biciklom, tramvajem, taksijem i pješice.",
+          "They go by bike, by tram, by taxi and on foot."
+        ],
+        [
+          "Nitko ne ide isto.",
+          "Nobody goes the same way."
+        ],
+        [
+          "Marko i Ivan ne idu tramvajem.",
+          "Marko and Ivan don't go by tram."
+        ],
+        [
+          "Ana ne ide ni taksijem ni tramvajem.",
+          "Ana goes neither by taxi nor by tram."
+        ],
+        [
+          "Ivan nema bicikl.",
+          "Ivan doesn't have a bike."
+        ],
+        [
+          "Ivan nikad ne ide taksijem, jer je taksi skup.",
+          "Ivan never goes by taxi, because a taxi is expensive."
+        ],
+        [
+          "Marko uvijek kasni.",
+          "Marko is always late."
+        ],
+        [
+          "Tko ide kako?",
+          "Who goes how?"
+        ]
+      ],
+      "sortkljuc": 1504013,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Only Petra is left for the tram, because Marko, Ivan and Ana are all ruled out. Ivan has no bike and takes no taxi, so he walks; Ana cannot take the taxi, so she rides the bike, and the taxi goes to Marko.",
+        "infokratko": "The tram first: only Petra is left for it. Then Ivan, then the rest.",
+        "opis": "Nobody says who goes how. Work it out from the text.",
+        "tekst": "Subota je navečer i Ana, Marko, Petra i Ivan idu na zabavu. Idu biciklom, tramvajem, taksijem i pješice. Nitko ne ide isto. Marko i Ivan ne idu tramvajem. Ana ne ide ni taksijem ni tramvajem. Ivan nema bicikl. Ivan nikad ne ide taksijem, jer je taksi skup. Marko uvijek kasni."
+      },
+      "stavke": [
+        [
+          "Tko ide tramvajem?",
+          "Petra",
+          "Ana",
+          "Marko"
+        ],
+        [
+          "Kako ide Ivan?",
+          "pješice",
+          "biciklom",
+          "taksijem"
+        ],
+        [
+          "Kako ide Ana?",
+          "biciklom",
+          "tramvajem",
+          "pješice"
+        ],
+        [
+          "Tko ide taksijem?",
+          "Marko",
+          "Ivan",
+          "Petra"
+        ],
+        [
+          "Zašto Ivan ne ide biciklom?",
+          "jer nema bicikl",
+          "jer je taksi skup",
+          "jer uvijek kasni"
+        ],
+        [
+          "Kamo idu?",
+          "na zabavu",
+          "na koncert",
+          "u kino"
+        ]
+      ],
+      "sortkljuc": 1504014,
+      "bodovi": 626
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "info": "One tap per sentence, and almost every sentence comes from the five texts. In the singular most words take **-om** and a soft ending takes **-em** (*tramvajem, s mužem*); in the plural the ending is **-ima**, or **-ama** for words in **-a** (*s gljivama*). The English shows one or many.",
+        "infokratko": "Singular **-om / -em**; plural **-ima / -ama**. The English shows one or many.",
+        "nastavci": "om | em | ima | ama",
+        "opis": "Almost every sentence came out of the five texts. One tap finishes the word."
+      },
+      "stavke": [
+        [
+          "Izlazim s prijatelj___.",
+          "I'm going out with friends.",
+          "ima"
+        ],
+        [
+          "Prvo idem s Mark___ u kino.",
+          "First I'm going to the cinema with Marko.",
+          "om"
+        ],
+        [
+          "Idemo tramvaj___.",
+          "We go by tram.",
+          "em"
+        ],
+        [
+          "Ana pije kavu s mlijek___.",
+          "Ana drinks coffee with milk.",
+          "om"
+        ],
+        [
+          "Pizza s gljiv___, molim.",
+          "A pizza with mushrooms, please.",
+          "ama"
+        ],
+        [
+          "Petra ide sa sestr___ i s Markom.",
+          "Petra is going with her sister and with Marko.",
+          "om"
+        ],
+        [
+          "Ja idem s bratom i s prijatelj___.",
+          "I'm going with my brother and a friend.",
+          "em"
+        ],
+        [
+          "Sladoled s jagod___, molim.",
+          "Ice cream with strawberries, please.",
+          "ama"
+        ],
+        [
+          "Ana sjedi s knjig___ i s kavom.",
+          "Ana sits with a book and a coffee.",
+          "om"
+        ],
+        [
+          "U vlaku je gospođa s muž___.",
+          "On the train there is a lady with her husband.",
+          "em"
+        ],
+        [
+          "S prijatelj___ je sve bolje!",
+          "With friends everything is better!",
+          "ima"
+        ],
+        [
+          "Mladić s gitar___ tiho svira.",
+          "A young man with a guitar plays quietly.",
+          "om"
+        ],
+        [
+          "Marko ide taksij___.",
+          "Marko goes by taxi.",
+          "em"
+        ],
+        [
+          "Na kolodvoru Anu čeka baka s djed___.",
+          "Grandma and Grandpa are waiting for Ana at the station.",
+          "om"
+        ],
+        [
+          "Sendvič sa šunk___, molim.",
+          "A ham sandwich, please.",
+          "om"
+        ],
+        [
+          "Ana ide na zabavu bicikl___.",
+          "Ana goes to the party by bike.",
+          "om"
+        ]
+      ],
+      "sortkljuc": 1504015,
+      "bodovi": 626
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU go out",
+      "meta": {
+        "info": "Your turn: Petra calls with a plan for the evening. You say who is coming (*s tobom, s nama*), how you get there and what you order, and Petra reacts to what you pick. Every option is correct Croatian, and nothing in your lines depends on your gender.",
+        "infokratko": "*sa mnom, s tobom, s nama*; the way you go; what you order. Petra reacts.",
+        "opis": "Saturday evening, a phone call and a plan. Choose your replies. Passive words: *Ovdje Petra* (It's Petra, on the phone), *Vidimo se* (See you), *najbolje* (the best), *večeras* (tonight), *u osam* (at eight), *u sedam i pol* (at half past seven)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Bok! Ovdje Petra. Što radiš večeras?"
+        ],
+        [
+          "ti",
+          "Ništa. Sjedim doma.",
+          "Ne znam još. Zašto?"
+        ],
+        [
+          "npc",
+          "Idem u kino. Ideš li sa mnom?"
+        ],
+        [
+          "ti",
+          "Da, idem s tobom!",
+          "Može! Ide li još netko s nama?"
+        ],
+        [
+          "npc",
+          "Super! Idu i Marko i Ana. Marko kupuje karte."
+        ],
+        [
+          "ti",
+          "Super! Kako idemo? Tramvajem?",
+          "Odlično! Idemo li autobusom?"
+        ],
+        [
+          "npc",
+          "Ne, kino je blizu. Idemo pješice!"
+        ],
+        [
+          "ti",
+          "Pješice? Odlično, volim hodati.",
+          "Pješice? Hm... Dobro."
+        ],
+        [
+          "npc",
+          "A poslije idemo u kafić Riva. Što uzimaš?"
+        ],
+        [
+          "ti",
+          "Kavu s mlijekom i palačinke s čokoladom.",
+          "Čaj s limunom i palačinke s džemom."
+        ],
+        [
+          "npc",
+          "Palačinke? I ja! U Rivi su palačinke najbolje."
+        ],
+        [
+          "ti",
+          "Kada idemo?",
+          "I kada je film?"
+        ],
+        [
+          "npc",
+          "Film je u osam. Čekam te u sedam i pol na trgu."
+        ],
+        [
+          "ti",
+          "Dobro. Vidimo se na trgu!",
+          "Može. Ja nikad ne kasnim!"
+        ]
+      ],
+      "sortkljuc": 1504016,
+      "bodovi": 525
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 17,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Translate by building",
+      "meta": {
+        "info": "English in, Croatian out, built from tiles taken from the five texts. *S* or *sa* stands directly in front of the person or thing that comes along, a vehicle has no tile in front of it, and *je* takes the second place, also after *jer*.",
+        "infokratko": "*s / sa* before the company; nothing before a vehicle; *je* second, also after *jer*.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
+      },
+      "stavke": [
+        [
+          "Petak je navečer i izlazim s prijateljima.",
+          "en: It's Friday evening and I'm going out with friends."
+        ],
+        [
+          "Prvo idem s Markom u kino.",
+          "en: First I'm going to the cinema with Marko."
+        ],
+        [
+          "Idemo tramvajem, jer je kino u centru.",
+          "en: We go by tram, because the cinema is in the centre."
+        ],
+        [
+          "Ana pije kavu s mlijekom, a ja pijem čaj s limunom.",
+          "en: Ana drinks coffee with milk, and I drink tea with lemon."
+        ],
+        [
+          "U ponoć idemo doma pješice.",
+          "en: At midnight we go home on foot."
         ],
         [
           "S prijateljima je sve bolje!",
           "en: With friends everything is better!"
+        ],
+        [
+          "S kim ideš?",
+          "en: Who are you going with?"
+        ],
+        [
+          "Sa sestrom i s Markom.",
+          "en: With my sister and with Marko."
+        ],
+        [
+          "Mi idemo vlakom. Idete li s nama?",
+          "en: We're going by train. Are you coming with us?"
+        ],
+        [
+          "U subotu Ana putuje vlakom u Split.",
+          "en: On Saturday Ana travels to Split by train."
+        ],
+        [
+          "Ana sjedi s knjigom i s kavom.",
+          "en: Ana sits with a book and a coffee."
+        ],
+        [
+          "Ana razgovara s njom o vremenu.",
+          "en: Ana talks with her about the weather."
+        ],
+        [
+          "Mladić s gitarom tiho svira.",
+          "en: A young man with a guitar plays quietly."
+        ],
+        [
+          "Na kolodvoru Anu čeka baka s djedom.",
+          "en: At the station Grandma and Grandpa are waiting for Ana."
+        ],
+        [
+          "Sendvič sa sirom i čaj s medom, molim.",
+          "en: A cheese sandwich and tea with honey, please."
+        ],
+        [
+          "Ana ne ide ni taksijem ni tramvajem.",
+          "en: Ana goes neither by taxi nor by tram."
         ]
       ],
-      "sortkljuc": 1504010,
-      "bodovi": 1078
+      "sortkljuc": 1504017,
+      "bodovi": 626
+    },
+    {
+      "cjelina": "Practice 15",
+      "cjelinanaslov": "Reading: Friday Night & Train Rides",
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the ways to travel and the things you take along. Everything is in its naming form; say it with *Idem…* or *s…* in your head as you tap: *Idem vlakom. Kava s mlijekom.* A vehicle takes no *s*.",
+        "infokratko": "Naming forms. Think *Idem vlakom*, *kava s mlijekom*. No *s* before a vehicle.",
+        "opis": "The last train is leaving. A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "vlak",
+          "train"
+        ],
+        [
+          "autobus",
+          "bus"
+        ],
+        [
+          "tramvaj",
+          "tram"
+        ],
+        [
+          "bicikl",
+          "bicycle"
+        ],
+        [
+          "taksi",
+          "taxi"
+        ],
+        [
+          "trajekt",
+          "ferry"
+        ],
+        [
+          "metro",
+          "metro"
+        ],
+        [
+          "balon",
+          "balloon"
+        ],
+        [
+          "gitara",
+          "guitar"
+        ],
+        [
+          "šalica",
+          "cup"
+        ],
+        [
+          "limun",
+          "lemon"
+        ],
+        [
+          "mlijeko",
+          "milk"
+        ]
+      ],
+      "sortkljuc": 1504018,
+      "bodovi": 626
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1500",
+        "prag": "70",
+        "info": "The words of Level 15: going out, getting there and the weather. Nouns are in their naming form and verbs in the infinitive. Watch the look-alike pair *polazak* and *dolazak*, and *vrijeme*, which is both the weather and the time.",
+        "infokratko": "Level 15 words: going out, transport, weather. *polazak / dolazak*.",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "izlazak",
+          "a night out"
+        ],
+        [
+          "večera",
+          "dinner"
+        ],
+        [
+          "zabava",
+          "party"
+        ],
+        [
+          "ples",
+          "dance"
+        ],
+        [
+          "priča",
+          "story"
+        ],
+        [
+          "balon",
+          "balloon"
+        ],
+        [
+          "mladić",
+          "young man"
+        ],
+        [
+          "par",
+          "couple, pair"
+        ],
+        [
+          "gužva",
+          "crowd"
+        ],
+        [
+          "sastanak",
+          "meeting"
+        ],
+        [
+          "noć",
+          "night"
+        ],
+        [
+          "ponoć",
+          "midnight"
+        ],
+        [
+          "doma",
+          "(at/to) home"
+        ],
+        [
+          "bolje",
+          "better"
+        ],
+        [
+          "manje",
+          "less"
+        ],
+        [
+          "S kim?",
+          "With whom?"
+        ],
+        [
+          "prijevoz",
+          "transport"
+        ],
+        [
+          "skuter",
+          "scooter"
+        ],
+        [
+          "trajekt",
+          "ferry"
+        ],
+        [
+          "kombi",
+          "van"
+        ],
+        [
+          "kamion",
+          "truck"
+        ],
+        [
+          "pješice",
+          "on foot"
+        ],
+        [
+          "pješak",
+          "pedestrian"
+        ],
+        [
+          "polazak",
+          "departure"
+        ],
+        [
+          "dolazak",
+          "arrival"
+        ],
+        [
+          "spor",
+          "slow"
+        ],
+        [
+          "kazalište",
+          "theatre"
+        ],
+        [
+          "šalica",
+          "cup"
+        ],
+        [
+          "izlaziti",
+          "to go out"
+        ],
+        [
+          "upoznati",
+          "to meet, to get to know"
+        ],
+        [
+          "dogovoriti",
+          "to arrange"
+        ],
+        [
+          "kasniti",
+          "to be late"
+        ],
+        [
+          "slaviti",
+          "to celebrate"
+        ],
+        [
+          "pozvati",
+          "to invite"
+        ],
+        [
+          "voditi",
+          "to take (someone), to lead"
+        ],
+        [
+          "krenuti",
+          "to set off"
+        ],
+        [
+          "ući",
+          "to enter, to go in"
+        ],
+        [
+          "padati",
+          "to fall"
+        ],
+        [
+          "putovati",
+          "to travel"
+        ],
+        [
+          "hodati",
+          "to walk"
+        ],
+        [
+          "vrijeme",
+          "weather, time"
+        ],
+        [
+          "kiša",
+          "rain"
+        ],
+        [
+          "oblak",
+          "cloud"
+        ],
+        [
+          "vjetar",
+          "wind"
+        ],
+        [
+          "magla",
+          "fog"
+        ],
+        [
+          "oluja",
+          "storm"
+        ],
+        [
+          "grmljavina",
+          "thunder"
+        ],
+        [
+          "pljusak",
+          "downpour"
+        ],
+        [
+          "duga",
+          "rainbow"
+        ],
+        [
+          "led",
+          "ice"
+        ],
+        [
+          "prognoza",
+          "forecast"
+        ],
+        [
+          "godišnje doba",
+          "season"
+        ],
+        [
+          "sunčan",
+          "sunny"
+        ],
+        [
+          "oblačan",
+          "cloudy"
+        ],
+        [
+          "kišovit",
+          "rainy"
+        ],
+        [
+          "vjetrovit",
+          "windy"
+        ],
+        [
+          "hladnoća",
+          "cold"
+        ],
+        [
+          "vrućina",
+          "heat"
+        ]
+      ],
+      "sortkljuc": 1505001,
+      "bodovi": 424
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 15 words, with three meanings to choose from. The wrong options come from the same group of words — weather, transport, going out — so read the whole list before you tap.",
+        "infokratko": "Level 15 words; the wrong options come from the same group.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "izlazak",
+          "a night out",
+          "a dinner",
+          "a meeting"
+        ],
+        [
+          "zabava",
+          "party",
+          "dance",
+          "story"
+        ],
+        [
+          "gužva",
+          "crowd",
+          "couple",
+          "meeting"
+        ],
+        [
+          "sastanak",
+          "meeting",
+          "party",
+          "departure"
+        ],
+        [
+          "ponoć",
+          "midnight",
+          "night",
+          "noon"
+        ],
+        [
+          "mladić",
+          "young man",
+          "pedestrian",
+          "waiter"
+        ],
+        [
+          "par",
+          "couple, pair",
+          "crowd",
+          "party"
+        ],
+        [
+          "pješice",
+          "on foot",
+          "by bike",
+          "slowly"
+        ],
+        [
+          "polazak",
+          "departure",
+          "arrival",
+          "transport"
+        ],
+        [
+          "dolazak",
+          "arrival",
+          "departure",
+          "delay"
+        ],
+        [
+          "spor",
+          "slow",
+          "late",
+          "cloudy"
+        ],
+        [
+          "trajekt",
+          "ferry",
+          "truck",
+          "van"
+        ],
+        [
+          "kamion",
+          "truck",
+          "scooter",
+          "ferry"
+        ],
+        [
+          "prijevoz",
+          "transport",
+          "journey",
+          "arrival"
+        ],
+        [
+          "kasniti",
+          "to be late",
+          "to set off",
+          "to arrange"
+        ],
+        [
+          "krenuti",
+          "to set off",
+          "to enter",
+          "to invite"
+        ],
+        [
+          "ući",
+          "to enter, to go in",
+          "to go out",
+          "to fall"
+        ],
+        [
+          "pozvati",
+          "to invite",
+          "to celebrate",
+          "to meet"
+        ],
+        [
+          "dogovoriti",
+          "to arrange",
+          "to invite",
+          "to lead"
+        ],
+        [
+          "upoznati",
+          "to meet, to get to know",
+          "to arrange",
+          "to walk"
+        ],
+        [
+          "slaviti",
+          "to celebrate",
+          "to invite",
+          "to dance"
+        ],
+        [
+          "voditi",
+          "to take (someone), to lead",
+          "to drive",
+          "to travel"
+        ],
+        [
+          "padati",
+          "to fall",
+          "to walk",
+          "to be late"
+        ],
+        [
+          "magla",
+          "fog",
+          "cloud",
+          "storm"
+        ],
+        [
+          "oluja",
+          "storm",
+          "downpour",
+          "thunder"
+        ],
+        [
+          "pljusak",
+          "downpour",
+          "rainbow",
+          "wind"
+        ],
+        [
+          "duga",
+          "rainbow",
+          "cloud",
+          "ice"
+        ],
+        [
+          "prognoza",
+          "forecast",
+          "season",
+          "temperature"
+        ],
+        [
+          "oblačan",
+          "cloudy",
+          "rainy",
+          "windy"
+        ],
+        [
+          "vrućina",
+          "heat",
+          "cold",
+          "sun"
+        ]
+      ],
+      "sortkljuc": 1505002,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Company or means?",
+      "meta": {
+        "info": "Sorting instrumentals by their job. With *s* or *sa* in front the form means company — a person, or something that comes along. Alone it is the way you travel or the tool you use. The little word in front decides it.",
+        "infokratko": "*s / sa* → company. Alone → vehicle or tool.",
+        "stupci": "COMPANY (s/sa) | MEANS (no preposition)",
+        "opis": "Company or means? Sort each sentence."
+      },
+      "stavke": [
+        [
+          "Idem u kino s Petrom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Pijem čaj s medom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Ana pleše s mladićem.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Izlazim s prijateljima.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Idem na zabavu sa sestrom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Ideš li sa mnom?",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Pizza s gljivama, molim.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Večeram s njom.",
+          "COMPANY (s/sa)"
+        ],
+        [
+          "Putujemo na otok trajektom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Ivan ide na posao skuterom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Idemo u grad tramvajem.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Doma idemo taksijem.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Plaćam karticom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Pišem olovkom.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Marko putuje kombijem.",
+          "MEANS (no preposition)"
+        ],
+        [
+          "Ana ide na posao biciklom.",
+          "MEANS (no preposition)"
+        ]
+      ],
+      "sortkljuc": 1505003,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which question?",
+      "meta": {
+        "info": "The four cases of Module C side by side. The question word shows the case: *kamo?* takes the accusative after *u / na*, *gdje?* the locative, *komu?* the dative, and *s kim?* or *čime?* the instrumental. Ask each sentence its question before you sort it.",
+        "infokratko": "*Kamo?* accusative, *Gdje?* locative, *Komu?* dative, *S kim? Čime?* instrumental.",
+        "stupci": "KAMO? | GDJE? | KOMU? | S KIM? ČIME?",
+        "opis": "Which question does the last word answer? Sort each sentence."
+      },
+      "stavke": [
+        [
+          "Idem u kino.",
+          "KAMO?"
+        ],
+        [
+          "Idemo na koncert.",
+          "KAMO?"
+        ],
+        [
+          "Putujem u Split.",
+          "KAMO?"
+        ],
+        [
+          "Ana ide na posao.",
+          "KAMO?"
+        ],
+        [
+          "Sjedim u kinu.",
+          "GDJE?"
+        ],
+        [
+          "Vidimo se na koncertu.",
+          "GDJE?"
+        ],
+        [
+          "Baka živi u Splitu.",
+          "GDJE?"
+        ],
+        [
+          "Ana je na poslu.",
+          "GDJE?"
+        ],
+        [
+          "Pišem baki.",
+          "KOMU?"
+        ],
+        [
+          "Šaljem paket bratu.",
+          "KOMU?"
+        ],
+        [
+          "Kupujem poklon mami.",
+          "KOMU?"
+        ],
+        [
+          "Pomažem prijatelju.",
+          "KOMU?"
+        ],
+        [
+          "Idem u kino s Markom.",
+          "S KIM? ČIME?"
+        ],
+        [
+          "Putujem vlakom.",
+          "S KIM? ČIME?"
+        ],
+        [
+          "Idem na posao biciklom.",
+          "S KIM? ČIME?"
+        ],
+        [
+          "Idem na koncert sa sestrom.",
+          "S KIM? ČIME?"
+        ]
+      ],
+      "sortkljuc": 1505004,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "om | em | ima | ama",
+        "info": "One tap for the instrumental. In the singular most words take **-om** and a soft ending takes **-em**; in the plural the ending is **-ima**, or **-ama** for words in **-a**. The English shows whether it is one or many.",
+        "infokratko": "Singular **-om / -em**, plural **-ima / -ama**. The English shows one or many.",
+        "opis": "The English is above. One tap puts the word in the instrumental."
+      },
+      "stavke": [
+        [
+          "Idem na zabavu s Ivan___.",
+          "I'm going to the party with Ivan.",
+          "om"
+        ],
+        [
+          "Putujemo na otok trajekt___.",
+          "We're travelling to the island by ferry.",
+          "om"
+        ],
+        [
+          "Ana pleše s mladić___.",
+          "Ana is dancing with a young man.",
+          "em"
+        ],
+        [
+          "Sjedim u kafiću sa susjed___.",
+          "I'm sitting in a café with the neighbours.",
+          "ima"
+        ],
+        [
+          "Pijem čaj s med___.",
+          "I drink tea with honey.",
+          "om"
+        ],
+        [
+          "Palačinke s jagod___, molim.",
+          "Pancakes with strawberries, please.",
+          "ama"
+        ],
+        [
+          "Ivan ide na posao skuter___.",
+          "Ivan goes to work by scooter.",
+          "om"
+        ],
+        [
+          "Petra večera s muž___.",
+          "Petra is having dinner with her husband.",
+          "em"
+        ],
+        [
+          "Mama ide u kino s kolegic___.",
+          "Mum is going to the cinema with her colleagues.",
+          "ama"
+        ],
+        [
+          "Razgovaram s konobar___.",
+          "I'm talking with the waiter.",
+          "om"
+        ],
+        [
+          "Idemo u grad tramvaj___.",
+          "We're going into town by tram.",
+          "em"
+        ],
+        [
+          "Izlazim s prijatelj___.",
+          "I'm going out with friends.",
+          "ima"
+        ],
+        [
+          "Kava s mlijek___, molim.",
+          "Coffee with milk, please.",
+          "om"
+        ],
+        [
+          "Marko putuje kombij___.",
+          "Marko is travelling by van.",
+          "em"
+        ],
+        [
+          "Baka putuje sa sestr___.",
+          "Grandma is travelling with her sisters.",
+          "ama"
+        ],
+        [
+          "Dijete trči s balon___.",
+          "The child is running with a balloon.",
+          "om"
+        ]
+      ],
+      "sortkljuc": 1505005,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "info": "Choosing the correct instrumental. The wrong options keep the naming form after *s*, use the ending of another case, or give a soft word the hard ending *-om*. The word in brackets gives you the naming form.",
+        "infokratko": "No naming form after *s*; soft words take **-em**; plural **-ima / -ama**.",
+        "opis": "Choose the correct form."
+      },
+      "stavke": [
+        [
+          "Idem u kino ___ . (Petra)",
+          "s Petrom",
+          "s Petra",
+          "s Petri"
+        ],
+        [
+          "Putujemo na otok ___ . (trajekt)",
+          "trajektom",
+          "trajekt",
+          "trajektu"
+        ],
+        [
+          "Ana pleše ___ . (mladić)",
+          "s mladićem",
+          "s mladićom",
+          "s mladić"
+        ],
+        [
+          "Pijem kavu ___ . (šećer)",
+          "sa šećerom",
+          "sa šećer",
+          "sa šećeru"
+        ],
+        [
+          "Izlazim ___ . (prijatelji)",
+          "s prijateljima",
+          "s prijateljama",
+          "s prijatelji"
+        ],
+        [
+          "Idemo u grad ___ . (tramvaj)",
+          "tramvajem",
+          "tramvajom",
+          "tramvaju"
+        ],
+        [
+          "Kava ___ , molim. (mlijeko)",
+          "s mlijekom",
+          "s mlijeka",
+          "s mlijeko"
+        ],
+        [
+          "Idemo ___ . (skuter)",
+          "skuterom",
+          "skuter",
+          "skuteru"
+        ],
+        [
+          "Pizza ___ , molim. (gljive)",
+          "s gljivama",
+          "s gljive",
+          "s gljivima"
+        ],
+        [
+          "Marko putuje ___ . (kombi)",
+          "kombijem",
+          "kombiom",
+          "kombiju"
+        ],
+        [
+          "Plešem ___ . (Ivan)",
+          "s Ivanom",
+          "s Ivan",
+          "s Ivanu"
+        ],
+        [
+          "Idem u kazalište ___ . (kolegice)",
+          "s kolegicama",
+          "s kolegicima",
+          "s kolegice"
+        ]
+      ],
+      "sortkljuc": 1505006,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which question word?",
+      "meta": {
+        "info": "Choosing the question that fits the answer. *S kim?* asks for a person with *s*, *čime?* for a vehicle or a tool, *komu?* for a receiver and *gdje?* for a place. *Kamo?* asks about a direction, and *o kome?* about the person you talk about.",
+        "infokratko": "*S kim?* person; *Čime?* vehicle, tool; *Komu?* receiver; *Gdje?* place; *Kamo?* direction.",
+        "opis": "Read the answer, then choose the question word."
+      },
+      "stavke": [
+        [
+          "___ ideš u kino? — S bratom.",
+          "S kim",
+          "Komu",
+          "Gdje"
+        ],
+        [
+          "___ putuješ na otok? — Trajektom.",
+          "Čime",
+          "S kim",
+          "Komu"
+        ],
+        [
+          "___ pišeš? — Baki.",
+          "Komu",
+          "Koga",
+          "S kim"
+        ],
+        [
+          "___ si? — U kinu.",
+          "Gdje",
+          "Kamo",
+          "Komu"
+        ],
+        [
+          "___ ideš? — U kino.",
+          "Kamo",
+          "Komu",
+          "S kim"
+        ],
+        [
+          "___ govorite? — O Marku.",
+          "O kome",
+          "Komu",
+          "S kim"
+        ],
+        [
+          "___ čekaš? — Prijatelja.",
+          "Koga",
+          "Komu",
+          "S kim"
+        ],
+        [
+          "___ plaćaš? — Karticom.",
+          "Čime",
+          "Komu",
+          "Gdje"
+        ],
+        [
+          "___ je koncert? — U subotu.",
+          "Kada",
+          "Gdje",
+          "Kamo"
+        ],
+        [
+          "___ košta karta? — Deset eura.",
+          "Koliko",
+          "Kada",
+          "Čime"
+        ]
+      ],
+      "sortkljuc": 1505007,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "With me, with you",
+      "meta": {
+        "info": "The company forms of the pronouns from Grammar 15. *Ja* gives *sa mnom*; every other pronoun takes plain *s*: *s tobom, s njim, s njom, s nama, s vama, s njima*. The wrong options put the naming form or the dative after *s*.",
+        "infokratko": "*sa mnom, s tobom, s njim, s njom, s nama, s vama, s njima*.",
+        "opis": "Choose the company form of the pronoun."
+      },
+      "stavke": [
+        [
+          "Ideš li ___ u kino? (with me)",
+          "sa mnom",
+          "s ja",
+          "sa meni"
+        ],
+        [
+          "Idem ___ . (with you, a friend)",
+          "s tobom",
+          "s ti",
+          "s tebi"
+        ],
+        [
+          "Marko ide na koncert. Idem ___ .",
+          "s njim",
+          "s on",
+          "s njemu"
+        ],
+        [
+          "Ana ide na zabavu. Idem ___ .",
+          "s njom",
+          "s ona",
+          "s njoj"
+        ],
+        [
+          "Idete li ___ ? (with us)",
+          "s nama",
+          "s mi",
+          "s nas"
+        ],
+        [
+          "Večeramo ___ . (with them)",
+          "s njima",
+          "s oni",
+          "s njih"
+        ],
+        [
+          "Putujem ___ . (with you, polite)",
+          "s vama",
+          "s vi",
+          "s vas"
+        ],
+        [
+          "S kim plešeš? — ___ . (with him)",
+          "S njim",
+          "S on",
+          "S njemu"
+        ],
+        [
+          "Tko putuje ___ ? (with me)",
+          "sa mnom",
+          "s mene",
+          "s ja"
+        ],
+        [
+          "Petra i Ana idu u kino. Idem ___ .",
+          "s njima",
+          "s one",
+          "s njih"
+        ]
+      ],
+      "sortkljuc": 1505008,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "One word, four cases",
+      "meta": {
+        "info": "The same noun in four jobs, the core of Module C. After *u / na* a direction takes the accusative and a place the locative; a receiver takes the dative; company and means take the instrumental. The question in your head decides the ending.",
+        "infokratko": "*Kamo?* accusative, *Gdje?* locative, *Komu?* dative, *S kim? Čime?* instrumental.",
+        "opis": "The naming form is in brackets. Choose the form that fits the sentence."
+      },
+      "stavke": [
+        [
+          "Idem u ___ . (kino)",
+          "kino",
+          "kinu",
+          "kinom"
+        ],
+        [
+          "Sjedim u ___ . (kino)",
+          "kinu",
+          "kino",
+          "kinom"
+        ],
+        [
+          "Idem na koncert s ___ . (Ana)",
+          "Anom",
+          "Ani",
+          "Anu"
+        ],
+        [
+          "Šaljem paket ___ . (Ana)",
+          "Ani",
+          "Anom",
+          "Anu"
+        ],
+        [
+          "Vidim ___ na trgu. (Ana)",
+          "Anu",
+          "Ani",
+          "Anom"
+        ],
+        [
+          "Pričamo o ___ . (Ana)",
+          "Ani",
+          "Anom",
+          "Anu"
+        ],
+        [
+          "Idemo ___ . (vlak)",
+          "vlakom",
+          "vlaku",
+          "vlak"
+        ],
+        [
+          "Sjedimo u ___ . (vlak)",
+          "vlaku",
+          "vlakom",
+          "vlak"
+        ],
+        [
+          "Pomažem ___ . (brat)",
+          "bratu",
+          "brata",
+          "bratom"
+        ],
+        [
+          "Čekam ___ . (brat)",
+          "brata",
+          "bratu",
+          "bratom"
+        ],
+        [
+          "Putujem s ___ . (brat)",
+          "bratom",
+          "bratu",
+          "brata"
+        ],
+        [
+          "Kupujem poklon ___ . (mama)",
+          "mami",
+          "mamom",
+          "mamu"
+        ]
+      ],
+      "sortkljuc": 1505009,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the instrumental",
+      "meta": {
+        "info": "You type the instrumental and decide what goes in front. People and things that come along take *s*, or *sa* before s, š, z, ž; a vehicle or a tool takes nothing. A pronoun takes its company form, and a group takes **-ima** or **-ama**.",
+        "infokratko": "Company *s / sa* + instrumental; vehicle or tool alone; *sa mnom*; plural **-ima / -ama**.",
+        "opis": "Type the \"with\" form — add *s* or *sa* where it is needed."
+      },
+      "stavke": [
+        [
+          "(sestra) Idem na koncert ___ .",
+          "sa sestrom"
+        ],
+        [
+          "(trajekt) Putujemo na otok ___ .",
+          "trajektom"
+        ],
+        [
+          "(mladić) Ana pleše ___ .",
+          "s mladićem"
+        ],
+        [
+          "(med) Pijem čaj ___ .",
+          "s medom"
+        ],
+        [
+          "(prijatelji) U petak izlazim ___ .",
+          "s prijateljima"
+        ],
+        [
+          "(autobus) Ivan ide na posao ___ .",
+          "autobusom"
+        ],
+        [
+          "(ti) Idem ___ u kino.",
+          "s tobom"
+        ],
+        [
+          "(kolegice) Mama ide u kazalište ___ .",
+          "s kolegicama"
+        ],
+        [
+          "(taksi) Doma idemo ___ .",
+          "taksijem"
+        ],
+        [
+          "(Petra) Razgovaram ___ .",
+          "s Petrom"
+        ],
+        [
+          "(ja) Ideš li ___ ?",
+          "sa mnom"
+        ],
+        [
+          "(kartica) Plaćam ___ .",
+          "karticom"
+        ]
+      ],
+      "sortkljuc": 1505010,
+      "bodovi": 586
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Answer the question",
+      "meta": {
+        "info": "Short answers across the four cases of Module C. The question word decides the form: *s kim?* and *čime?* the instrumental, *komu?* the dative, *gdje?* and *o kome?* the locative, *kamo?* the accusative. The word in brackets is your answer.",
+        "infokratko": "*S kim? Čime?* instrumental; *Komu?* dative; *Gdje? O kome?* locative; *Kamo?* accusative.",
+        "opis": "Answer in one or two words. The word in brackets is your answer."
+      },
+      "stavke": [
+        [
+          "S kim ideš na koncert? (sestra) →",
+          "Sa sestrom"
+        ],
+        [
+          "Čime putuješ? (vlak) →",
+          "Vlakom"
+        ],
+        [
+          "Komu pišeš? (baka) →",
+          "Baki"
+        ],
+        [
+          "Gdje si? (kino) →",
+          "U kinu"
+        ],
+        [
+          "Kamo ideš? (kino) →",
+          "U kino"
+        ],
+        [
+          "O kome govorite? (Marko) →",
+          "O Marku"
+        ],
+        [
+          "S kim plešeš? (on) →",
+          "S njim"
+        ],
+        [
+          "Komu daješ poklon? (mama) →",
+          "Mami"
+        ],
+        [
+          "Gdje živi baka? (Split) →",
+          "U Splitu"
+        ],
+        [
+          "Čime ideš na posao? (tramvaj) →",
+          "Tramvajem"
+        ]
+      ],
+      "sortkljuc": 1505011,
+      "bodovi": 587
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: Grandma's birthday trip",
+      "meta": {
+        "info": "A short story with all four cases of Module C. Before you answer, find the key word in the question — *s kim, kako, komu, gdje* — and look for the same kind of form in the text.",
+        "infokratko": "Find the question word, then the matching form in the text.",
+        "tekst": "U nedjelju Ana putuje vlakom u Rijeku. Putuje s bakom, jer baka ima rođendan. U vlaku baka pije čaj s limunom, a Ana čita knjigu. Vani pada kiša. U Rijeci ih na kolodvoru čeka Ivan s kišobranom. Ivan baki daje cvijeće, a Ani kišobran. Onda idu autobusom u restoran. U restoranu sjede dugo i razgovaraju o putovanju. Baka kaže: \"Ovo je moj najljepši rođendan!\"",
+        "opis": "Read the text, then answer. Passive words: *ih* (them), *najljepši* (most beautiful)."
+      },
+      "stavke": [
+        [
+          "S kim Ana putuje u Rijeku?",
+          "s bakom",
+          "s Ivanom",
+          "s mamom"
+        ],
+        [
+          "Kako putuju u Rijeku?",
+          "vlakom",
+          "autobusom",
+          "autom"
+        ],
+        [
+          "Što baka pije u vlaku?",
+          "čaj s limunom",
+          "kavu s mlijekom",
+          "čaj s medom"
+        ],
+        [
+          "Tko ih čeka na kolodvoru?",
+          "Ivan",
+          "djed",
+          "Marko"
+        ],
+        [
+          "Komu Ivan daje kišobran?",
+          "Ani",
+          "baki",
+          "Marku"
+        ],
+        [
+          "Gdje razgovaraju o putovanju?",
+          "u restoranu",
+          "u vlaku",
+          "na kolodvoru"
+        ]
+      ],
+      "sortkljuc": 1505012,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "The rest of Module C and a little from before it: question words, negation, the locative, the dative and the perfect. Each item comes from a lesson you have finished, so read the brackets and the English carefully.",
+        "infokratko": "Module C review: questions, negation, locative, dative, plus the perfect.",
+        "opis": "Not only the instrumental — everything here comes from levels 8 to 14."
+      },
+      "stavke": [
+        [
+          "___ je ovo torba? — Moja.",
+          "Čija",
+          "Čiji",
+          "Čije"
+        ],
+        [
+          "Koliko ___ karta? — Deset eura.",
+          "košta",
+          "koštaju",
+          "koštam"
+        ],
+        [
+          "___ ideš na koncert? — U subotu.",
+          "Kada",
+          "Koliko",
+          "Tko"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Ideš li sa mnom?",
+          "Li ideš sa mnom?",
+          "Ideš sa mnom li?"
+        ],
+        [
+          "Danas ___ ne ide u kino. (nobody)",
+          "nitko",
+          "nikoga",
+          "ni"
+        ],
+        [
+          "Ne idem autom, ___ vlakom.",
+          "nego",
+          "ali",
+          "i"
+        ],
+        [
+          "Mi ___ auto. (we don't have)",
+          "nemamo",
+          "ne imamo",
+          "nismo"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Nikad ne idem taksijem.",
+          "Nikad idem taksijem.",
+          "Ne nikad idem taksijem."
+        ],
+        [
+          "Koncert je na ___ . (trg)",
+          "trgu",
+          "trg",
+          "trga"
+        ],
+        [
+          "Vidimo se u ___ . (kafić)",
+          "kafiću",
+          "kafić",
+          "kafića"
+        ],
+        [
+          "Ana živi u ___ . (Rijeka)",
+          "Rijeci",
+          "Rijeki",
+          "Rijeku"
+        ],
+        [
+          "Pričamo o ___ . (on)",
+          "njemu",
+          "njega",
+          "on"
+        ],
+        [
+          "Kupujem kartu ___ . (sestra)",
+          "sestri",
+          "sestru",
+          "sestrom"
+        ],
+        [
+          "___ pišem pismo. (djed)",
+          "Djedu",
+          "Djed",
+          "Djeda"
+        ],
+        [
+          "Ana ima rođendan. Kupit ću ___ cvijeće.",
+          "joj",
+          "je",
+          "nju"
+        ],
+        [
+          "Komu šalješ paket? — ___ . (brat)",
+          "Bratu",
+          "Brat",
+          "Bratom"
+        ],
+        [
+          "Ana i Petra su ___ vlakom. (putovati)",
+          "putovale",
+          "putovao",
+          "putovala"
+        ],
+        [
+          "Jučer sam ___ u kino s bratom. (ići, a woman speaking)",
+          "išla",
+          "išao",
+          "išle"
+        ],
+        [
+          "Sutra ___ putovati trajektom. (mi)",
+          "ćemo",
+          "ćete",
+          "ću"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Putovat ćemo vlakom.",
+          "Putovati ćemo vlakom.",
+          "Ćemo putovati vlakom."
+        ]
+      ],
+      "sortkljuc": 1505013,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "Whole sentences from Module C, built from tiles. *S* or *sa* stands directly before the company, a vehicle has nothing in front of it, a receiver often takes the first tile, and short words such as *je* and *li* take the second place.",
+        "infokratko": "*s / sa* before the company; nothing before a vehicle; *je, li* second.",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "S kim ideš na koncert?",
+          "en: Who are you going to the concert with?"
+        ],
+        [
+          "U petak navečer izlazim s prijateljima.",
+          "en: On Friday evening I'm going out with friends."
+        ],
+        [
+          "Putujemo na otok trajektom.",
+          "en: We're travelling to the island by ferry."
+        ],
+        [
+          "Ana pije kavu s mlijekom, a Marko čaj s limunom.",
+          "en: Ana drinks coffee with milk, and Marko tea with lemon."
+        ],
+        [
+          "Ideš li sa mnom u kino?",
+          "en: Are you coming to the cinema with me?"
+        ],
+        [
+          "Ne idem autom, nego vlakom.",
+          "en: I'm not going by car, but by train."
+        ],
+        [
+          "S Markom putujem vlakom.",
+          "en: I'm travelling by train with Marko."
+        ],
+        [
+          "Idemo taksijem, jer pada kiša.",
+          "en: We're going by taxi, because it's raining."
+        ],
+        [
+          "Večeram s njom u restoranu.",
+          "en: I'm having dinner with her in a restaurant."
+        ],
+        [
+          "Pizza s gljivama i sok, molim.",
+          "en: A pizza with mushrooms and a juice, please."
+        ],
+        [
+          "Baki šaljem čokoladu, a djedu pišem pismo.",
+          "en: I'm sending Grandma chocolate, and I'm writing Grandpa a letter."
+        ],
+        [
+          "Ana je u teretani, a Marko je u kinu.",
+          "en: Ana is at the gym, and Marko is at the cinema."
+        ],
+        [
+          "Marko nikad ništa ne jede.",
+          "en: Marko never eats anything."
+        ],
+        [
+          "Koliko godina ima tvoj brat?",
+          "en: How old is your brother?"
+        ],
+        [
+          "Čekam te na kolodvoru.",
+          "en: I'm waiting for you at the station."
+        ]
+      ],
+      "sortkljuc": 1505014,
+      "bodovi": 506
+    },
+    {
+      "cjelina": "Test 15",
+      "cjelinanaslov": "Test 15: Module C — Four Cases",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English, the hardest step. Company takes *s* or *sa* with the instrumental, a vehicle takes the instrumental alone, a receiver the dative and a place the locative. Where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "Company *s / sa*; vehicle alone; receiver dative; place locative. Both genders accepted.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "I'm going to the cinema with my brother.",
+          "Idem u kino s bratom / S bratom idem u kino / Idem s bratom u kino"
+        ],
+        [
+          "We travel by train.",
+          "Putujemo vlakom / Vlakom putujemo"
+        ],
+        [
+          "Tea with lemon, please.",
+          "Čaj s limunom, molim"
+        ],
+        [
+          "Who are you going with?",
+          "S kim ideš"
+        ],
+        [
+          "Are you coming with me?",
+          "Ideš li sa mnom"
+        ],
+        [
+          "I'm going out with friends.",
+          "Izlazim s prijateljima"
+        ],
+        [
+          "She goes to work by bus.",
+          "Ona ide na posao autobusom / Ide na posao autobusom / Ona ide autobusom na posao / Ide autobusom na posao"
+        ],
+        [
+          "I'm going on foot.",
+          "Idem pješice / Idem pješke"
+        ],
+        [
+          "I'm not going by car, but by tram.",
+          "Ne idem autom, nego tramvajem"
+        ],
+        [
+          "I'm dancing with him.",
+          "Plešem s njim"
+        ],
+        [
+          "I'm sending Grandma a package.",
+          "Šaljem baki paket / Baki šaljem paket / Šaljem paket baki"
+        ],
+        [
+          "Ana is in the café.",
+          "Ana je u kafiću"
+        ],
+        [
+          "We were at the concert.",
+          "Bili smo na koncertu / Bile smo na koncertu"
+        ],
+        [
+          "I was late.",
+          "Kasnio sam / Kasnila sam"
+        ],
+        [
+          "It's raining.",
+          "Pada kiša / Kiša pada"
+        ],
+        [
+          "Nobody goes by taxi.",
+          "Nitko ne ide taksijem"
+        ]
+      ],
+      "sortkljuc": 1505015,
+      "bodovi": 587
     },
     {
       "cjelina": "Lesson 16",
@@ -79920,13 +87217,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Whose? Without what? From where?",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. Today's case, the genitive, has three everyday jobs: it shows what something belongs to (*miris kave*), it follows little words such as *bez* and *iz* (*bez šećera, iz Zagreba*), and it names what is missing after *nema*.",
+        "infokratko": "The genitive: belonging (*miris kave*), after *bez, iz, kod…* (*bez šećera*), after *nema*.",
+        "opis": "Read it through — by the end you can find your way around Grandma's house."
+      },
       "stavke": [
         [
           "Whose house? Grandma's. Coffee without what? Without sugar. From where? From Zagreb."
         ],
         [
-          "All three answers live in one case — the **genitive**, the case of *belonging, origin and absence*. It's the last big case of the course, and after dative and locative, its endings will feel like familiar territory."
+          "All three answers use one case — the **genitive**: *kuća moje **bake*** (my grandma's house), *kava bez **šećera*** (coffee without sugar), *iz **Zagreba*** (from Zagreb)."
+        ],
+        [
+          "**Two endings do most of the work.** A masculine or neuter word adds **-a** (*šećer → šećera, more → mora*), and a feminine word in **-a** turns it into **-e** (*baka → bake*)."
+        ],
+        [
+          "By the end of this lesson you can say where you come from (*Odakle si? — Iz Splita.*), describe a house — what is next to it, in front of it and behind it — and say what is missing: *Nema problema!*"
         ]
       ],
       "sortkljuc": 1601001,
@@ -79941,7 +87248,9 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "trajanje": "60",
-        "opis": "Instrumental sprint! Tap the correct form."
+        "info": "A timed warm-up on the instrumental from Lesson 15. People and things that come along take *s* or *sa* (*s bratom, sa sestrom, s mlijekom*), and a vehicle stands alone (*vlakom*). After a soft sound the ending is **-em**: *s prijateljem, tramvajem*.",
+        "infokratko": "Lesson 15 against the clock: *s bratom, sa sestrom*, vehicle alone: *vlakom*. Soft sound **-em**.",
+        "opis": "Instrumental sprint from Lesson 15 — tap the correct form before the timer runs out."
       },
       "stavke": [
         [
@@ -79963,10 +87272,38 @@ window.PODACI = {
         [
           "autobus",
           "autobusom"
+        ],
+        [
+          "Marko",
+          "s Markom"
+        ],
+        [
+          "mlijeko",
+          "s mlijekom"
+        ],
+        [
+          "tramvaj",
+          "tramvajem"
+        ],
+        [
+          "Ana",
+          "s Anom"
+        ],
+        [
+          "taksi",
+          "taksijem"
+        ],
+        [
+          "___ ideš u kino? — S bratom.",
+          "S kim"
+        ],
+        [
+          "Pijem čaj ___ . (limun)",
+          "s limunom"
         ]
       ],
       "sortkljuc": 1601002,
-      "bodovi": 838
+      "bodovi": 494
     },
     {
       "cjelina": "Lesson 16",
@@ -79976,7 +87313,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "House & home words",
       "meta": {
-        "opis": "Tap a card to reveal the meaning."
+        "info": "The words for Grandma's house and garden. Most nouns are new; *vrt, vrata, kuhinja, zid* and *šećer* come back from earlier levels, because today they take the genitive. *Vrata* exists only in the plural, like *hlače*. The verbs come with their *ja*-form.",
+        "infokratko": "House and garden words. *vrata* is plural only. Verbs with the *ja*-form.",
+        "opis": "Rooms, walls, a garden and the things that happen in it. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -79996,12 +87335,32 @@ window.PODACI = {
           "wall"
         ],
         [
+          "ograda",
+          "fence"
+        ],
+        [
+          "trava",
+          "grass"
+        ],
+        [
+          "cvijet",
+          "flower"
+        ],
+        [
           "slika",
           "picture"
         ],
         [
+          "boja",
+          "colour"
+        ],
+        [
           "miris",
           "smell"
+        ],
+        [
+          "svjetlo",
+          "light"
         ],
         [
           "šećer",
@@ -80018,19 +87377,121 @@ window.PODACI = {
         [
           "mjesto",
           "place"
+        ],
+        [
+          "dolaziti → dolazim",
+          "to come"
+        ],
+        [
+          "čuvati → čuvam",
+          "to look after, to keep"
+        ],
+        [
+          "rasti → rastem",
+          "to grow"
+        ],
+        [
+          "visjeti → visim",
+          "to hang"
+        ],
+        [
+          "ostaviti → ostavim",
+          "to leave (behind)"
+        ],
+        [
+          "naći → nađem",
+          "to find"
+        ],
+        [
+          "popraviti → popravim",
+          "to repair"
         ]
       ],
       "sortkljuc": 1601003,
-      "bodovi": 578
+      "bodovi": 494
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
       "stranica": 4,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "Little words with the genitive",
+      "meta": {
+        "info": "The little words that are followed by the genitive, each shown in a phrase. *Bez* means without, *iz* from or out of, *kod* at someone's place, and *pokraj, ispred, iza, blizu* place something next to, in front of, behind or near something else. *Odakle?* asks where someone comes from.",
+        "infokratko": "*bez, iz, od, do, kod, pokraj, ispred, iza, blizu* + genitive. *Odakle?* = from where?",
+        "opis": "Each little word with a genitive after it. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "bez → bez šećera",
+          "without → without sugar"
+        ],
+        [
+          "iz → iz Zagreba",
+          "from, out of → from Zagreb"
+        ],
+        [
+          "od → torta od čokolade",
+          "from, of → a chocolate cake"
+        ],
+        [
+          "od… do… → od Zagreba do mora",
+          "from… to… → from Zagreb to the sea"
+        ],
+        [
+          "kod → kod bake",
+          "at someone's place → at Grandma's"
+        ],
+        [
+          "pokraj → pokraj kuće",
+          "next to → next to the house"
+        ],
+        [
+          "ispred → ispred kuće",
+          "in front of → in front of the house"
+        ],
+        [
+          "iza → iza zida",
+          "behind → behind the wall"
+        ],
+        [
+          "blizu → blizu mora",
+          "near → near the sea"
+        ],
+        [
+          "Odakle? → Odakle si? — Iz Splita.",
+          "From where? → Where are you from? — From Split."
+        ],
+        [
+          "nema → Nema šećera.",
+          "there is no → There's no sugar."
+        ],
+        [
+          "Nema problema!",
+          "No problem!"
+        ],
+        [
+          "Nema žurbe.",
+          "No hurry."
+        ]
+      ],
+      "sortkljuc": 1601004,
+      "bodovi": 443
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 5,
+      "broj": 9999,
       "format": "tekst",
       "naslov": "The genitive endings",
-      "meta": {},
+      "meta": {
+        "info": "The first rule of the lesson. A masculine or neuter noun adds **-a** (*brat → brata, more → mora*), and a feminine noun turns **-a** into **-e** (*baka → bake*). The genitive has three jobs: the owner, after little words such as *bez* and *iz*, and after *nema*.",
+        "infokratko": "Masculine and neuter **+a** (*brata, mora*); feminine **-a → -e** (*bake*). Three jobs.",
+        "infoodmah": "da",
+        "opis": "Two endings, three jobs. Read the table and fill in the last line."
+      },
       "stavke": [
         [
           "**The endings, by gender.**"
@@ -80043,68 +87504,60 @@ window.PODACI = {
         ],
         [
           "tab: masculine",
-          "brat",
-          "brata",
+          "brat, šećer",
+          "brata, šećera",
           "**+a**"
         ],
         [
-          "tab: masculine",
-          "djed",
-          "djeda",
-          "**+a**"
+          "tab: masculine in -o",
+          "Marko",
+          "Marka",
+          "**-o → -a**"
         ],
         [
           "tab: neuter",
-          "more",
-          "mora",
-          "**+a**"
+          "more, mlijeko",
+          "mora, mlijeka",
+          "**-e / -o → -a**"
         ],
         [
           "tab: feminine",
-          "baka",
-          "bake",
+          "baka, kava",
+          "bake, kave",
           "**-a → -e**"
         ],
         [
-          "tab: feminine",
-          "sestra",
-          "sestre",
-          "**-a → -e**"
+          "**A familiar form.** For a person or an animal, the masculine genitive looks just like the target form from Lesson 6: *Čekam brata.* — *kod brata*. A word that loses its **a** there loses it here too: *pas → psa*."
         ],
         [
-          "tab: feminine",
-          "kava",
-          "kave",
-          "**-a → -e**"
+          "**Three jobs, one case.** **1. Belonging:** the owner comes *after* the thing, in the genitive — *miris **kave*** (the smell of coffee), *vrata **kuće*** (the door of the house). **2. After certain little words:** *bez **šećera**, iz **Zagreba**, kod **bake**, pokraj **kuće**.* **3. After *nema*:** *Nema **šećera**.*"
         ],
         [
-          "**Three jobs, one case.** **1. Belonging** — *kuća **bake*** (grandma's house; the owner comes *after*, in the genitive). **2. After certain prepositions** — *bez **šećera**, iz **Zagreba**, kod **tete**, pokraj **kuće**, od… do…* **3. After *nema*** — *Nema **interneta**!*"
+          "**Things and people.** The genitive is the standard way to say *of* for things: *boja neba, miris mora*. For a single family word, Croatian usually uses another form, *bakina kuća* (Grandma's house) — take that one whole for now. When the owner has a word with it, the genitive is standard, and the word *moja* takes **-e** too: *kuća **moje bake***."
         ],
         [
-          "**Now you write them.** Ovo je kuća [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba]."
+          "**Now you write them.** Ovo je kuća moje [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba]."
         ]
       ],
-      "sortkljuc": 1601004,
-      "bodovi": 665
+      "sortkljuc": 1601005,
+      "bodovi": 392
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 5,
+      "stranica": 6,
       "broj": 9999,
       "format": "parovi",
       "naslov": "Whose is it?",
       "meta": {
+        "info": "Each English phrase beside its Croatian version. In every pair the owner or the whole comes second and takes the genitive: *miris kave* is the smell of coffee, *komad torte* a piece of cake. A feminine word ends in **-e**, a masculine or neuter one in **-a**.",
+        "infokratko": "The owner comes second, in the genitive: *miris kave, komad torte, boja neba*.",
         "opis": "Match the English with the Croatian — notice who owns what."
       },
       "stavke": [
         [
-          "grandma's house",
-          "kuća bake"
-        ],
-        [
-          "brother's car",
-          "auto brata"
+          "my grandma's house",
+          "kuća moje bake"
         ],
         [
           "the door of the house",
@@ -80119,66 +87572,308 @@ window.PODACI = {
           "miris kave"
         ],
         [
-          "the color of the sky",
+          "the colour of the sky",
           "boja neba"
-        ]
-      ],
-      "sortkljuc": 1601005,
-      "bodovi": 838
-    },
-    {
-      "cjelina": "Lesson 16",
-      "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the right form",
-      "meta": {
-        "opis": "Choose the correct genitive."
-      },
-      "stavke": [
-        [
-          "Kava bez ___ , molim.",
-          "mlijeka",
-          "mlijeko"
         ],
         [
-          "Putujemo iz ___ .",
-          "Zagreba",
-          "Zagreb"
+          "the centre of the town",
+          "centar grada"
         ],
         [
-          "Pijemo kavu kod ___ .",
-          "tete",
-          "teta"
+          "the kitchen wall",
+          "zid kuhinje"
         ],
         [
-          "Pokraj ___ je vrt.",
-          "kuće",
-          "kuća"
+          "the smell of the sea",
+          "miris mora"
         ],
         [
-          "Nema ___ !",
-          "problema",
-          "problem"
+          "the colour of the grass",
+          "boja trave"
         ],
         [
-          "Komad ___ , molim.",
-          "torte",
-          "torta"
+          "a picture of the sea",
+          "slika mora"
         ]
       ],
       "sortkljuc": 1601006,
-      "bodovi": 983
+      "bodovi": 494
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
       "stranica": 7,
       "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which job?",
+      "meta": {
+        "info": "Sorting sentences by the job of the genitive. If the form tells you whose or of what, it is **belonging**. If it follows a little word such as *bez, iz, kod, pokraj*, it is **a preposition**. If it follows *nema*, something is **missing**.",
+        "infokratko": "*whose / of what* → belonging; after *bez, iz, kod…* → preposition; after *nema* → missing.",
+        "stupci": "BELONGING | AFTER A LITTLE WORD | AFTER NEMA",
+        "opis": "What is the genitive doing in each sentence? Sort them."
+      },
+      "stavke": [
+        [
+          "Miris kave je lijep.",
+          "BELONGING"
+        ],
+        [
+          "Vrata kuće su stara.",
+          "BELONGING"
+        ],
+        [
+          "Kuća moje bake je stara.",
+          "BELONGING"
+        ],
+        [
+          "Komad torte, molim.",
+          "BELONGING"
+        ],
+        [
+          "Zid kuhinje je bijel.",
+          "BELONGING"
+        ],
+        [
+          "Pijem kavu bez šećera.",
+          "AFTER A LITTLE WORD"
+        ],
+        [
+          "Dolazim iz Zagreba.",
+          "AFTER A LITTLE WORD"
+        ],
+        [
+          "Sjedimo kod bake.",
+          "AFTER A LITTLE WORD"
+        ],
+        [
+          "Pokraj kuće je vrt.",
+          "AFTER A LITTLE WORD"
+        ],
+        [
+          "Iza zida je trava.",
+          "AFTER A LITTLE WORD"
+        ],
+        [
+          "Nema šećera.",
+          "AFTER NEMA"
+        ],
+        [
+          "Nema mlijeka.",
+          "AFTER NEMA"
+        ],
+        [
+          "Nema problema!",
+          "AFTER NEMA"
+        ],
+        [
+          "Danas nema interneta.",
+          "AFTER NEMA"
+        ],
+        [
+          "Nema žurbe.",
+          "AFTER NEMA"
+        ]
+      ],
+      "sortkljuc": 1601007,
+      "bodovi": 578
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "a | e",
+        "info": "One tap completes the genitive. A masculine or neuter word takes **-a** — also *Marko → Marka* and *more → mora* — and a feminine word in **-a** takes **-e**. Read the whole sentence: the little word in front or *nema* tells you the genitive is needed.",
+        "infokratko": "Masculine and neuter **-a** (*Marka, mora*); feminine **-e** (*bake*).",
+        "opis": "English above, Croatian below. One tap puts the word in the genitive."
+      },
+      "stavke": [
+        [
+          "Pijem kavu bez šećer___.",
+          "I drink coffee without sugar.",
+          "a"
+        ],
+        [
+          "Kod bak___ je lijepo.",
+          "It's nice at Grandma's.",
+          "e"
+        ],
+        [
+          "Dolazim iz Zagreb___.",
+          "I come from Zagreb.",
+          "a"
+        ],
+        [
+          "Pokraj kuć___ je vrt.",
+          "Next to the house there's a garden.",
+          "e"
+        ],
+        [
+          "Nema mlijek___.",
+          "There's no milk.",
+          "a"
+        ],
+        [
+          "Komad tort___, molim.",
+          "A piece of cake, please.",
+          "e"
+        ],
+        [
+          "Putujemo do mor___.",
+          "We're travelling to the sea.",
+          "a"
+        ],
+        [
+          "Miris kav___ je lijep.",
+          "The smell of coffee is lovely.",
+          "e"
+        ],
+        [
+          "Iza zid___ je trava.",
+          "Behind the wall there's grass.",
+          "a"
+        ],
+        [
+          "Vrata kuhinj___ su otvorena.",
+          "The kitchen door is open.",
+          "e"
+        ],
+        [
+          "Kod Mark___ nema interneta.",
+          "There's no internet at Marko's.",
+          "a"
+        ],
+        [
+          "Kuća moje bak___ je stara.",
+          "My grandma's house is old.",
+          "e"
+        ],
+        [
+          "Slika mor___ visi na zidu.",
+          "A picture of the sea hangs on the wall.",
+          "a"
+        ],
+        [
+          "Ispred škol___ je park.",
+          "In front of the school there's a park.",
+          "e"
+        ],
+        [
+          "Blizu mor___ je kuća.",
+          "Near the sea there's a house.",
+          "a"
+        ],
+        [
+          "Torta od čokolad___, molim.",
+          "A chocolate cake, please.",
+          "e"
+        ]
+      ],
+      "sortkljuc": 1601008,
+      "bodovi": 579
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "info": "Choosing the correct genitive. The usual mistakes are the naming form after a little word (*bez šećer*), the place form from Lesson 13 (*iz Zagrebu*), and *-a* on a feminine word (*kod baka*). The genitive of a feminine word ends in **-e**.",
+        "infokratko": "Not *bez šećer*, not *iz Zagrebu*. Feminine: **-e** (*kod bake*).",
+        "opis": "Choose the correct genitive."
+      },
+      "stavke": [
+        [
+          "Kava bez ___ , molim.",
+          "mlijeka",
+          "mlijeko",
+          "mlijeku"
+        ],
+        [
+          "Putujemo iz ___ .",
+          "Zagreba",
+          "Zagreb",
+          "Zagrebu"
+        ],
+        [
+          "Pijemo kavu kod ___ .",
+          "bake",
+          "baka",
+          "baki"
+        ],
+        [
+          "Pokraj ___ je vrt.",
+          "kuće",
+          "kuća",
+          "kući"
+        ],
+        [
+          "Nema ___ !",
+          "problema",
+          "problem",
+          "problemu"
+        ],
+        [
+          "Komad ___ , molim.",
+          "torte",
+          "torta",
+          "tortu"
+        ],
+        [
+          "Ana dolazi iz ___ .",
+          "Splita",
+          "Split",
+          "Splitu"
+        ],
+        [
+          "Miris ___ je lijep.",
+          "kave",
+          "kava",
+          "kavu"
+        ],
+        [
+          "Ispred ___ je ograda.",
+          "kuće",
+          "kuća",
+          "kuću"
+        ],
+        [
+          "Danas nema ___ .",
+          "šećera",
+          "šećer",
+          "šećeru"
+        ],
+        [
+          "Sjedim kod ___ .",
+          "Marka",
+          "Marko",
+          "Marku"
+        ],
+        [
+          "Vrata ___ su stara.",
+          "kuhinje",
+          "kuhinja",
+          "kuhinji"
+        ]
+      ],
+      "sortkljuc": 1601009,
+      "bodovi": 579
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 10,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the genitive",
       "meta": {
+        "info": "You type the genitive yourself. The little word or *nema* is given, and the word in the naming form is in front of the arrow. Masculine and neuter words add **-a** (*šećera, mora*), feminine words turn **-a** into **-e** (*bake*), and *Marko* becomes *Marka*.",
+        "infokratko": "Masculine and neuter **+a**; feminine **-a → -e**; *Marko → Marka*.",
         "opis": "Type the genitive form."
       },
       "stavke": [
@@ -80187,7 +87882,7 @@ window.PODACI = {
           "šećera"
         ],
         [
-          "baka → kuća ___",
+          "baka → kuća moje ___",
           "bake"
         ],
         [
@@ -80205,22 +87900,51 @@ window.PODACI = {
         [
           "čokolada → torta od ___",
           "čokolade"
+        ],
+        [
+          "mlijeko → Nema ___ .",
+          "mlijeka"
+        ],
+        [
+          "kuća → ispred ___",
+          "kuće"
+        ],
+        [
+          "Marko → kod ___",
+          "Marka"
+        ],
+        [
+          "zid → iza ___",
+          "zida"
+        ],
+        [
+          "kava → komad torte i šalica ___",
+          "kave"
+        ],
+        [
+          "škola → pokraj ___",
+          "škole"
         ]
       ],
-      "sortkljuc": 1601007,
-      "bodovi": 1157
+      "sortkljuc": 1601010,
+      "bodovi": 680
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 8,
+      "stranica": 11,
       "broj": 9999,
       "format": "tekst",
       "naslov": "\"Nema\" — the useful no",
-      "meta": {},
+      "meta": {
+        "info": "The second rule: *nema* means *there is no*, and what is missing takes the genitive: *Šećer je na stolu.* → *Nema šećera.* The same pattern gives three everyday phrases. The page also sets *iz* beside *u*: *u Zagrebu* is where, *iz Zagreba* is where from.",
+        "infokratko": "*nema* + genitive = there is no: *Nema šećera.* *u Zagrebu* (where) vs. *iz Zagreba* (from where).",
+        "infoodmah": "da",
+        "opis": "One small word, a whole phrasebook. Read the tables and fill in the last line."
+      },
       "stavke": [
         [
-          "*Nema* + genitive says something's missing — one of the most Croatian phrases there is:"
+          "**There is no = nema + genitive.** When something is missing, *nema* stands in front and the missing thing takes the genitive: *Šećer je na stolu.* → ***Nema šećera.*** It does not change with the person — it is always *nema*."
         ],
         [
           "tab: Croatian",
@@ -80243,21 +87967,46 @@ window.PODACI = {
           "said to you, kindly"
         ],
         [
-          "**Now you write them.** Nema [problema]! Nema [interneta]. Nema [žurbe]."
+          "**Kamo? Gdje? Odakle?** The same town in three cases, one for each question. *Iz* is the opposite of *u*."
+        ],
+        [
+          "tab: Question",
+          "Answer",
+          "Case"
+        ],
+        [
+          "tab: Kamo ideš?",
+          "U Zagreb.",
+          "accusative (Grammar 5)"
+        ],
+        [
+          "tab: Gdje si?",
+          "U Zagrebu.",
+          "locative (Lesson 13)"
+        ],
+        [
+          "tab: Odakle dolaziš?",
+          "Iz Zagreba.",
+          "genitive (today)"
+        ],
+        [
+          "**Now you write them.** Nema [problema]! Nema [interneta]. Dolazim iz [Zagreba]."
         ]
       ],
-      "sortkljuc": 1601008,
-      "bodovi": 549
+      "sortkljuc": 1601011,
+      "bodovi": 392
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 9,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build it",
       "meta": {
-        "opis": "Arrange the tiles."
+        "info": "Whole sentences about Grandma's house, built from tiles. The genitive comes right after the little word or after the thing it belongs to — *bez šećera, vrata kuće* — and a comma comes before *ali* and *a*.",
+        "infokratko": "Genitive right after the little word or the thing: *bez šećera, vrata kuće*.",
+        "opis": "Arrange the tiles to build the sentence."
       },
       "stavke": [
         [
@@ -80274,20 +88023,235 @@ window.PODACI = {
         ],
         [
           "Nema interneta, ali nema ni problema!"
+        ],
+        [
+          "Odakle si? — Iz Splita."
+        ],
+        [
+          "Ispred kuće raste cvijeće."
+        ],
+        [
+          "Slika mora visi na zidu."
+        ],
+        [
+          "Miris kave je lijep."
+        ],
+        [
+          "Kod bake nema interneta."
+        ],
+        [
+          "Iza zida je ograda, a iza ograde je more."
         ]
       ],
-      "sortkljuc": 1601009,
-      "bodovi": 838
+      "sortkljuc": 1601012,
+      "bodovi": 579
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 10,
+      "stranica": 13,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Genitive sprint",
+      "meta": {
+        "trajanje": "45",
+        "info": "A timed sprint from the naming form to the genitive. Masculine and neuter words add **-a** (*brata, mora*), feminine words turn **-a** into **-e** (*bake, kuće*). Names work the same way: *Marko → Marka, Ana → Ane*.",
+        "infokratko": "Naming form → genitive: **+a** (*brata, mora*), **-a → -e** (*bake, kuće*).",
+        "opis": "A word flashes — tap its genitive before the timer runs out."
+      },
+      "stavke": [
+        [
+          "brat",
+          "brata"
+        ],
+        [
+          "baka",
+          "bake"
+        ],
+        [
+          "kuća",
+          "kuće"
+        ],
+        [
+          "šećer",
+          "šećera"
+        ],
+        [
+          "more",
+          "mora"
+        ],
+        [
+          "mlijeko",
+          "mlijeka"
+        ],
+        [
+          "kava",
+          "kave"
+        ],
+        [
+          "Marko",
+          "Marka"
+        ],
+        [
+          "Ana",
+          "Ane"
+        ],
+        [
+          "zid",
+          "zida"
+        ],
+        [
+          "torta",
+          "torte"
+        ],
+        [
+          "Zagreb",
+          "Zagreba"
+        ]
+      ],
+      "sortkljuc": 1601013,
+      "bodovi": 494
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "At the café",
+      "meta": {
+        "info": "A café order with the genitive everywhere: *bez šećera, komad torte, nema interneta*, and at the end *Odakle ste?* The waiter uses the polite *vi*, reacts to your order, and every option you can choose is correct Croatian.",
+        "infokratko": "*bez šećera, komad torte, nema interneta, Odakle ste?* The waiter reacts to your order.",
+        "opis": "Order like a local — the genitive is in almost every line. Passive words: *Izvolite?* (What can I get you?), *specijalitet kuće* (house speciality), *kolač od sira* (cheesecake), *Dobro došli!* (Welcome!), *izdaleka* (from far away)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Dobar dan! Izvolite?"
+        ],
+        [
+          "ti",
+          "Jednu kavu, molim.",
+          "Jedan čaj, molim."
+        ],
+        [
+          "npc",
+          "Sa šećerom ili bez šećera?"
+        ],
+        [
+          "ti",
+          "Bez šećera, molim.",
+          "Sa šećerom, molim."
+        ],
+        [
+          "npc",
+          "A nešto slatko? Imamo tortu od čokolade i kolač od sira."
+        ],
+        [
+          "ti",
+          "Komad torte od čokolade, molim!",
+          "Komad torte od čokolade i čašu vode, molim!"
+        ],
+        [
+          "npc",
+          "Torta od čokolade? Odlično — to je specijalitet kuće!"
+        ],
+        [
+          "ti",
+          "Super! Imate li internet?",
+          "Hvala! Imate li i internet?"
+        ],
+        [
+          "npc",
+          "Nažalost, danas nema interneta. Ali imamo knjige!"
+        ],
+        [
+          "ti",
+          "Nema problema!",
+          "Nema problema, imam knjigu."
+        ],
+        [
+          "npc",
+          "Izvolite, i dobar tek! Govorite dobro hrvatski. Odakle ste?"
+        ],
+        [
+          "ti",
+          "Iz Londona.",
+          "Iz Amerike."
+        ],
+        [
+          "npc",
+          "Izdaleka! Dobro došli u Zagreb!"
+        ]
+      ],
+      "sortkljuc": 1601014,
+      "bodovi": 494
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: Grandma's house",
+      "meta": {
+        "info": "Read the description, then answer in Croatian. Almost every sentence has a genitive — *pokraj kuće, iza kuće, bez šećera, komad torte* — so look for the little word in the question and find the same one in the text.",
+        "infokratko": "Read, then answer. Find the little word from the question in the text.",
+        "tekst": "Moja baka živi u kući blizu mora. Pokraj kuće je veliki vrt. Ispred kuće raste cvijeće, a iza kuće je stara ograda. Djed svaki dan popravlja ogradu. U kuhinji je uvijek miris kave. Na zidu kuhinje visi slika mora. Baka pije kavu bez šećera, a ja pijem čaj s limunom. Kod bake nema interneta, ali nema ni problema: čitam knjige i jedem komad torte od čokolade.",
+        "opis": "Read the text, then answer the questions. Passive words: *veliki* (big), *popravlja* (repairs), *nema ni problema* (there's no problem either)."
+      },
+      "stavke": [
+        [
+          "Gdje živi baka?",
+          "blizu mora",
+          "u centru grada",
+          "pokraj škole"
+        ],
+        [
+          "Što je pokraj kuće?",
+          "vrt",
+          "ograda",
+          "more"
+        ],
+        [
+          "Što raste ispred kuće?",
+          "cvijeće",
+          "trava",
+          "vrt"
+        ],
+        [
+          "Što djed popravlja?",
+          "ogradu",
+          "vrata",
+          "zid"
+        ],
+        [
+          "Što visi na zidu kuhinje?",
+          "slika mora",
+          "slika bake",
+          "slika djeda"
+        ],
+        [
+          "Kakvu kavu pije baka?",
+          "bez šećera",
+          "sa šećerom",
+          "s mlijekom"
+        ]
+      ],
+      "sortkljuc": 1601015,
+      "bodovi": 579
+    },
+    {
+      "cjelina": "Lesson 16",
+      "cjelinanaslov": "Grandma's House: The Genitive",
+      "stranica": 16,
       "broj": 9999,
       "format": "memorija",
       "naslov": "Memory",
       "meta": {
-        "opis": "Match the pairs — noun and its genitive."
+        "info": "A pairs game over naming forms and their genitives. Masculine and neuter words add **-a**: *brat → brata, more → mora*. Feminine words turn **-a** into **-e**: *baka → bake*. The pair *Marko → Marka* works like *brat → brata*.",
+        "infokratko": "Naming form with genitive: **+a** (*brata, mora*), **-a → -e** (*bake*).",
+        "opis": "Flip the cards and match each noun with its genitive."
       },
       "stavke": [
         [
@@ -80313,67 +88277,35 @@ window.PODACI = {
         [
           "kuća",
           "kuće"
+        ],
+        [
+          "Marko",
+          "Marka"
+        ],
+        [
+          "mlijeko",
+          "mlijeka"
+        ],
+        [
+          "torta",
+          "torte"
         ]
       ],
-      "sortkljuc": 1601010,
-      "bodovi": 549
+      "sortkljuc": 1601016,
+      "bodovi": 460
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 11,
-      "broj": 9999,
-      "format": "dijalog",
-      "naslov": "At the café",
-      "meta": {
-        "opis": "Order like a local — genitive everywhere!"
-      },
-      "stavke": [
-        [
-          "npc",
-          "Dobar dan! Izvolite?"
-        ],
-        [
-          "ti",
-          "Jednu kavu, molim.",
-          "Čaj od mente, molim."
-        ],
-        [
-          "npc",
-          "Sa šećerom ili bez šećera?"
-        ],
-        [
-          "ti",
-          "Bez šećera. I bez mlijeka, molim.",
-          "Sa šećerom i s mlijekom!"
-        ],
-        [
-          "npc",
-          "A nešto slatko?"
-        ],
-        [
-          "ti",
-          "Komad torte od čokolade, molim!",
-          "Ne, hvala. Nema mjesta!"
-        ],
-        [
-          "npc",
-          "Odlično! Torta od čokolade je specijalitet kuće."
-        ]
-      ],
-      "sortkljuc": 1601011,
-      "bodovi": 607
-    },
-    {
-      "cjelina": "Lesson 16",
-      "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 12,
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the lesson, and 80% opens Vocabulary 16. Most points are on the two genitive endings — **+a** for masculine and neuter, **-e** for feminine — and on the three jobs: belonging, the little words and *nema*.",
+        "infokratko": "Lesson 16; 80% opens Vocabulary 16. **+a** / **-e**; belonging, little words, *nema*.",
         "prag": "80",
-        "opis": "Final check! Score 80% to be ready for Lesson 17."
+        "opis": "Final check! Score 80% to be ready for Vocabulary 16."
       },
       "stavke": [
         [
@@ -80385,11 +88317,12 @@ window.PODACI = {
           "izbor",
           "Putujem iz ___ .",
           "Zagreba",
-          "Zagreb"
+          "Zagreb",
+          "Zagrebu"
         ],
         [
           "upis",
-          "kuća ___ (baka)",
+          "kuća moje ___ (baka)",
           "bake"
         ],
         [
@@ -80403,7 +88336,8 @@ window.PODACI = {
           "izbor",
           "Nema ___ !",
           "problema",
-          "problem"
+          "problem",
+          "problemu"
         ],
         [
           "upis",
@@ -80414,34 +88348,64 @@ window.PODACI = {
           "izbor",
           "Koja je rečenica točna?",
           "Miris kave je lijep.",
-          "Miris kava je lijep."
+          "Miris kava je lijep.",
+          "Miris kavu je lijep."
         ],
         [
           "slaganje",
-          "Vrata kuće su stara i teška.",
-          "en: The door of the house is old and heavy."
+          "Vrata kuće su stara.",
+          "en: The door of the house is old."
+        ],
+        [
+          "upis",
+          "___ si? — Iz Splita.",
+          "Odakle"
+        ],
+        [
+          "izbor",
+          "Sjedimo kod ___ .",
+          "Marka",
+          "Marko",
+          "Marku"
+        ],
+        [
+          "upis",
+          "Mlijeko je na stolu. → Nema ___ .",
+          "mlijeka"
+        ],
+        [
+          "slaganje",
+          "Pokraj kuće je vrt.",
+          "en: Next to the house there's a garden."
         ]
       ],
-      "sortkljuc": 1601012,
-      "bodovi": 1098
+      "sortkljuc": 1601017,
+      "bodovi": 969
     },
     {
       "cjelina": "Lesson 16",
       "cjelinanaslov": "Grandma's House: The Genitive",
-      "stranica": 13,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now say whose something is, where you come from and what is missing: masculine and neuter words add **-a**, feminine words take **-e**, and *nema* is followed by the genitive.",
+        "infokratko": "**+a** / **-e**; belonging, *bez, iz, kod, pokraj…*, *nema* + genitive.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
-          "Bravo! Belonging, origin and absence — the genitive completes your everyday case toolkit."
+          "Bravo! Belonging, origin and absence — you can describe Grandma's house, say where you come from and order coffee *bez šećera*."
         ],
         [
-          "**Next up:** in Lesson 17 you take command: *Uzmi! Dodaj! Miješaj!* — the imperative, taught the tastiest way possible: with a pancake recipe."
+          "**Next up:** Vocabulary 16 brings more of the house — *zavjesa, namještaj, lonac* — and the rest of the little words: *iznad, ispod, između*. Grammar 16 shows what happens after numbers: *dva brata, pet kuća*."
+        ],
+        [
+          "**Then Lesson 17:** you take command — *Uzmi! Dodaj! Miješaj!* — the imperative, taught with a pancake recipe."
         ]
       ],
-      "sortkljuc": 1601013,
+      "sortkljuc": 1601018,
       "bodovi": 20
     },
     {
@@ -80621,6 +88585,10 @@ window.PODACI = {
         [
           "izvan",
           "outside (of)"
+        ],
+        [
+          "Odakle?",
+          "From where?"
         ],
         [
           "Nema problema!",
@@ -81113,32 +89081,65 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: the busiest case",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the genitive singular. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i** (*noć → noći*). The case answers *koga?* and *čega?* and has three jobs: belonging, the little words, and *nema*.",
+        "infokratko": "m./n. **-a**, f. **-a → -e**, f. consonant **-i** (*noći*). *Koga? Čega?* Three jobs."
+      },
       "stavke": [
         [
-          "The genitive answers **koga? / čega?** — and it's Croatia's busiest case."
+          "The genitive answers ***koga?*** (of whom?) and ***čega?*** (of what?) — and it is the busiest case in Croatian."
         ],
         [
-          "**The endings (singular):** m. → **+a** (grad → grada, šećer → šećera, pas → psa — same fleeting-a as in the accusative; for masculine *living* nouns genitive = accusative!) · n. → **-o/-e → -a** (more → mora, mjesto → mjesta) · f. → **-a → -e** (kava → kave, kuća → kuće, baka → bake)."
+          "tab: Naming form ends in",
+          "Example",
+          "Genitive",
+          "Ending"
         ],
         [
-          "**Job one — belonging:** the owner follows the owned thing: *kuća **bake*** (grandma's house), *auto **brata***, *specijalitet **kuće***."
+          "tab: consonant (m.)",
+          "grad, šećer, brat",
+          "grad**a**, šećer**a**, brat**a**",
+          "**+a**"
         ],
         [
-          "**Job two — prepositions:** bez (without) · iz (from) · od (from/of) · do (to/until) · kod (at sb's place) · pokraj (next to). *Kava bez mlijeka · vlak iz Splita · od jutra do večeri · ručak kod bake.* **od** also makes \"flavors\": *čaj od mente, torta od čokolade, sok od jabuke*."
+          "tab: -o, -e (m., n.)",
+          "Marko, mlijeko, more",
+          "Mark**a**, mlijek**a**, mor**a**",
+          "**-o / -e → -a**"
         ],
         [
-          "**Job three — nema + genitive:** existence-negation always takes the genitive: *Ima li kave? — Nema **kave**. Nema **problema**!*"
+          "tab: -a (f., also tata)",
+          "kava, baka, tata",
+          "kav**e**, bak**e**, tat**e**",
+          "**-a → -e**"
         ],
         [
-          "**Case toolkit — complete!** Six of seven — only the vocative (calling someone: *Marko! Ana!*) remains, and you've been using it in dialogues all along."
+          "tab: consonant (f.)",
+          "noć, obitelj, sol",
+          "noć**i**, obitelj**i**, sol**i**",
+          "**+i**"
         ],
         [
-          "**Now you write them.** Ovo je kuća [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Nema [problema]!"
+          "**Words that lose an a.** Words that lose an **a** in the target form lose it here too: *pas → psa, ručak → ručka, lonac → lonca, početak → početka*. For people and animals the masculine genitive looks exactly like the target form from Grammar 6: *Čekam brata.* — *kod brata*."
+        ],
+        [
+          "**Job one — belonging.** The owner or the whole comes after the thing and takes the genitive: *vrata **kuće**, miris **kave**, komad **kruha**, početak **filma***. With a family word and *moja*, *moje* takes **-e** too: *kuća **moje bake***."
+        ],
+        [
+          "**Job two — after the little words** on the next rule page: *kava bez **mlijeka**, vlak iz **Splita**, ručak kod **bake**, čaj od **mente***."
+        ],
+        [
+          "**Job three — nema.** *Nema* means *there is no*, and the missing thing takes the genitive: *Nema **šećera**. Nema **problema**!*"
+        ],
+        [
+          "**The case count:** nominative, accusative, locative, dative, instrumental — and now the genitive. That makes six of the seven cases."
+        ],
+        [
+          "**Now you write them.** Ovo je kuća moje [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Do [ponoći] smo na zabavi."
         ]
       ],
       "sortkljuc": 1603001,
-      "bodovi": 843
+      "bodovi": 462
     },
     {
       "cjelina": "Grammar 16",
@@ -81148,7 +89149,9 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the genitive",
       "meta": {
-        "opis": "Type the genitive."
+        "info": "The genitive of single words, old and new. Masculine and neuter nouns take **-a** (*grada, mora*), feminine nouns in **-a** take **-e** (*kuće*), and a feminine word on a consonant takes **-i** (*noći*). Watch the words that lose an **a**: *ručak → ručka*.",
+        "infokratko": "**-a** (*grada, mora*), **-e** (*kuće*), f. consonant **-i** (*noći*). *ručak → ručka*.",
+        "opis": "Type the genitive after the little word."
       },
       "stavke": [
         [
@@ -81170,10 +89173,46 @@ window.PODACI = {
         [
           "žurba → nema ___",
           "žurbe"
+        ],
+        [
+          "noć → do ___",
+          "noći"
+        ],
+        [
+          "obitelj → kod ___",
+          "obitelji"
+        ],
+        [
+          "sol → juha bez ___",
+          "soli"
+        ],
+        [
+          "ručak → nakon ___",
+          "ručka"
+        ],
+        [
+          "pas → bez ___",
+          "psa"
+        ],
+        [
+          "menta → čaj od ___",
+          "mente"
+        ],
+        [
+          "stol → iznad ___",
+          "stola"
+        ],
+        [
+          "lonac → komad ___",
+          "lonca"
+        ],
+        [
+          "more → blizu ___",
+          "mora"
         ]
       ],
       "sortkljuc": 1603002,
-      "bodovi": 1265
+      "bodovi": 804
     },
     {
       "cjelina": "Grammar 16",
@@ -81183,71 +89222,168 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Which case is it?",
       "meta": {
-        "opis": "The ending knows — which case is the bolded word?"
+        "info": "Recognising the genitive among the other cases. Ask the question for the word: *bez čega?* or *čiji?* points to the genitive, *komu?* to the dative, *gdje?* to the locative, *s kim?* or *čime?* to the instrumental. The same ending can do two jobs, so read the whole sentence.",
+        "infokratko": "Ask the question: *čega? / koga?* genitive, *komu?* dative, *gdje?* locative, *s kim?* instrumental.",
+        "opis": "Which case is the word in quotation marks?"
       },
       "stavke": [
         [
           "Pijem kavu bez šećera. — \"šećera\" je...",
           "genitiv",
-          "dativ"
+          "dativ",
+          "akuzativ"
         ],
         [
           "Šaljem pismo baki. — \"baki\" je...",
           "dativ",
-          "genitiv"
+          "genitiv",
+          "lokativ"
         ],
         [
           "Kupujem kavu. — \"kavu\" je...",
           "akuzativ",
-          "genitiv"
+          "genitiv",
+          "dativ"
         ],
         [
           "Živim u gradu. — \"gradu\" je...",
           "lokativ",
+          "genitiv",
           "instrumental"
+        ],
+        [
+          "Dolazim iz grada. — \"grada\" je...",
+          "genitiv",
+          "akuzativ",
+          "lokativ"
+        ],
+        [
+          "Idem u kino s bratom. — \"bratom\" je...",
+          "instrumental",
+          "genitiv",
+          "dativ"
+        ],
+        [
+          "Kuća moje bake je stara. — \"bake\" je...",
+          "genitiv",
+          "dativ",
+          "nominativ"
+        ],
+        [
+          "Čekam brata. — \"brata\" je...",
+          "akuzativ",
+          "genitiv",
+          "dativ"
+        ],
+        [
+          "Ručam kod brata. — \"brata\" je...",
+          "genitiv",
+          "akuzativ",
+          "lokativ"
+        ],
+        [
+          "Nema mlijeka. — \"mlijeka\" je...",
+          "genitiv",
+          "nominativ",
+          "akuzativ"
+        ],
+        [
+          "Mlijeko je na stolu. — \"stolu\" je...",
+          "lokativ",
+          "dativ",
+          "genitiv"
+        ],
+        [
+          "Idemo vlakom do mora. — \"mora\" je...",
+          "genitiv",
+          "akuzativ",
+          "lokativ"
         ]
       ],
       "sortkljuc": 1603003,
-      "bodovi": 881
+      "bodovi": 683
     },
     {
       "cjelina": "Grammar 16",
       "cjelinanaslov": "The Genitive",
       "stranica": 4,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the preposition",
+      "format": "razvrstavanje",
+      "naslov": "-A, -E or -I?",
       "meta": {
-        "opis": "Choose the preposition."
+        "info": "Sorting nouns by their genitive ending. Masculine and neuter nouns take **-a**, also those in **-o** and **-e** (*Marka, mora*). Feminine nouns in **-a** take **-e**, and so does *tata*. Feminine nouns that end in a consonant — *noć, obitelj, sol, ljubav* — take **-i**.",
+        "infokratko": "m./n. **-a**; f. in **-a** **-e** (also *tata*); f. on a consonant **-i**.",
+        "stupci": "-A | -E | -I",
+        "opis": "Which ending does each noun take in the genitive? Look at the naming form, and remember the feminine words that end in a consonant."
       },
       "stavke": [
         [
-          "Kava ___ mlijeka, molim.",
-          "bez",
-          "iz",
-          "kod"
+          "grad",
+          "-A"
         ],
         [
-          "Putujem ___ Splita.",
-          "iz",
-          "bez",
-          "pokraj"
+          "šećer",
+          "-A"
         ],
         [
-          "Večeras smo ___ bake.",
-          "kod",
-          "do",
-          "od"
+          "Marko",
+          "-A"
         ],
         [
-          "___ kuće je vrt.",
-          "Pokraj",
-          "Bez",
-          "Iz"
+          "more",
+          "-A"
+        ],
+        [
+          "mlijeko",
+          "-A"
+        ],
+        [
+          "ručak",
+          "-A"
+        ],
+        [
+          "baka",
+          "-E"
+        ],
+        [
+          "kuća",
+          "-E"
+        ],
+        [
+          "tata",
+          "-E"
+        ],
+        [
+          "menta",
+          "-E"
+        ],
+        [
+          "jabuka",
+          "-E"
+        ],
+        [
+          "noć",
+          "-I"
+        ],
+        [
+          "obitelj",
+          "-I"
+        ],
+        [
+          "sol",
+          "-I"
+        ],
+        [
+          "ljubav",
+          "-I"
+        ],
+        [
+          "jesen",
+          "-I"
         ]
       ],
       "sortkljuc": 1603004,
-      "bodovi": 881
+      "bodovi": 683
     },
     {
       "cjelina": "Grammar 16",
@@ -81255,11 +89391,358 @@ window.PODACI = {
       "stranica": 5,
       "broj": 9999,
       "format": "tekst",
-      "naslov": "The rule: counting reaches for the genitive",
-      "meta": {},
+      "naslov": "The rule: little words that take the genitive",
+      "meta": {
+        "info": "The second rule: the little words that are always followed by the genitive, grouped by meaning. Most describe a place — *ispred, iza, iznad, ispod, između, pokraj* — and some a time or a choice: *nakon, tijekom, osim, umjesto*. After them, a pronoun uses its long form: *kod mene, bez tebe*.",
+        "infokratko": "Place, time and choice words + genitive. Pronouns: *kod mene, bez tebe, pokraj nje*.",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
-          "Croatian numbers don't just sit in front of a noun — they **govern** it. And they split into two camps."
+          "**Where something is.** Every one of these is followed by the genitive."
+        ],
+        [
+          "tab: Little word",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "tab: pokraj",
+          "next to",
+          "pokraj **kuće**"
+        ],
+        [
+          "tab: ispred / iza",
+          "in front of / behind",
+          "ispred **škole**, iza **zida**"
+        ],
+        [
+          "tab: iznad / ispod",
+          "above / under",
+          "iznad **stola**, ispod **kreveta**"
+        ],
+        [
+          "tab: između … i …",
+          "between … and …",
+          "između **kuće** i **mora**"
+        ],
+        [
+          "tab: kod",
+          "at someone's place",
+          "kod **bake**"
+        ],
+        [
+          "tab: blizu / izvan",
+          "near / outside",
+          "blizu **mora**, izvan **grada**"
+        ],
+        [
+          "**From, to, when, instead.**"
+        ],
+        [
+          "tab: Little word",
+          "Meaning",
+          "Example"
+        ],
+        [
+          "tab: iz / od … do …",
+          "from, out of / from … to …",
+          "iz **Splita**, od **jutra** do **ponoći**"
+        ],
+        [
+          "tab: bez / osim",
+          "without / except",
+          "bez **šećera**, osim **Marka**"
+        ],
+        [
+          "tab: umjesto",
+          "instead of",
+          "umjesto **kave**"
+        ],
+        [
+          "tab: nakon / tijekom",
+          "after / during",
+          "nakon **ručka**, tijekom **noći**"
+        ],
+        [
+          "**od has three jobs.** Where something comes from (*pismo od bake*), what it is made of or tastes of (*torta od čokolade, čaj od mente*), and where a stretch starts (*od Zagreba do mora*)."
+        ],
+        [
+          "**Pronouns: the long forms from Grammar 6.** After a little word the pronoun takes the same long form as the target: ***kod mene, bez tebe, iza njega, kod nas, bez vas, pokraj njih***. Only *ona* is different: the target is *nju*, but the genitive is ***nje***: *Sjedim pokraj nje.*"
+        ],
+        [
+          "**The two questions.** *Koga?* asks about a person (*Kod koga si? — Kod bake.*) and *čega?* about a thing (*Bez čega piješ kavu? — Bez šećera.*)."
+        ],
+        [
+          "**Now you write them.** Mačka spava ispod [kreveta]. Pijem čaj umjesto [kave]. Ključ je kod [mene]. [Čega] nema? — Mlijeka."
+        ]
+      ],
+      "sortkljuc": 1603005,
+      "bodovi": 462
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the preposition",
+      "meta": {
+        "info": "Choosing the little word from its English meaning. All of them are followed by the genitive, so the ending does not help — the meaning in brackets decides. *Kod* is someone's place, *iz* is out of a place, and *od* is from a person or what something is made of.",
+        "infokratko": "The meaning decides: *kod* at someone's, *iz* out of, *od* from a person or made of.",
+        "opis": "Choose the little word that matches the English in brackets."
+      },
+      "stavke": [
+        [
+          "Kava ___ mlijeka, molim. (without)",
+          "bez",
+          "iz",
+          "kod"
+        ],
+        [
+          "Putujem ___ Splita. (from)",
+          "iz",
+          "bez",
+          "pokraj"
+        ],
+        [
+          "Večeras smo ___ bake. (at … 's place)",
+          "kod",
+          "do",
+          "od"
+        ],
+        [
+          "___ kuće je vrt. (next to)",
+          "Pokraj",
+          "Bez",
+          "Iz"
+        ],
+        [
+          "Mačka spava ___ kreveta. (under)",
+          "ispod",
+          "iznad",
+          "između"
+        ],
+        [
+          "Svjetlo visi ___ stola. (above)",
+          "iznad",
+          "ispod",
+          "iza"
+        ],
+        [
+          "___ ručka spavam. (after)",
+          "Nakon",
+          "Tijekom",
+          "Umjesto"
+        ],
+        [
+          "Pijem čaj ___ kave. (instead of)",
+          "umjesto",
+          "osim",
+          "nakon"
+        ],
+        [
+          "Park je ___ škole i pošte. (between)",
+          "između",
+          "ispred",
+          "osim"
+        ],
+        [
+          "Torta ___ čokolade, molim. (made of)",
+          "od",
+          "iz",
+          "bez"
+        ],
+        [
+          "Nitko ne zna ___ Marka. (except)",
+          "osim",
+          "umjesto",
+          "kod"
+        ],
+        [
+          "Auto je ___ kuće. (in front of)",
+          "ispred",
+          "iznad",
+          "između"
+        ]
+      ],
+      "sortkljuc": 1603006,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "a | e | i",
+        "info": "One tap for the genitive after a little word. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**: *noći, obitelji, soli*. *Ručk___* has already lost its *a* — it only needs the ending.",
+        "infokratko": "m./n. **-a**, f. **-e**, f. on a consonant **-i** (*noći, soli*).",
+        "opis": "English above, Croatian below. One tap puts the word in the genitive."
+      },
+      "stavke": [
+        [
+          "Pijem kavu bez šećer___.",
+          "I drink coffee without sugar.",
+          "a"
+        ],
+        [
+          "Kod bak___ nema interneta.",
+          "There's no internet at Grandma's.",
+          "e"
+        ],
+        [
+          "Tijekom noć___ pada kiša.",
+          "During the night it rains.",
+          "i"
+        ],
+        [
+          "Čaj od ment___, molim.",
+          "Mint tea, please.",
+          "e"
+        ],
+        [
+          "Nakon ručk___ spavam.",
+          "After lunch I sleep.",
+          "a"
+        ],
+        [
+          "Ručamo kod obitelj___.",
+          "We have lunch with the family.",
+          "i"
+        ],
+        [
+          "Sok od jabuk___, molim.",
+          "Apple juice, please.",
+          "e"
+        ],
+        [
+          "Kuća je blizu mor___.",
+          "The house is near the sea.",
+          "a"
+        ],
+        [
+          "Juha bez sol___ nije ukusna.",
+          "Soup without salt isn't tasty.",
+          "i"
+        ],
+        [
+          "Osim Mark___ nitko ne zna.",
+          "Nobody knows except Marko.",
+          "a"
+        ],
+        [
+          "Umjesto kav___ pijem čaj.",
+          "Instead of coffee I drink tea.",
+          "e"
+        ],
+        [
+          "Iznad stol___ visi svjetlo.",
+          "A light hangs above the table.",
+          "a"
+        ],
+        [
+          "Do ponoć___ smo na zabavi.",
+          "We're at the party until midnight.",
+          "i"
+        ],
+        [
+          "Između kuć___ i škole je park.",
+          "Between the house and the school there's a park.",
+          "e"
+        ],
+        [
+          "Mačka spava ispod krevet___.",
+          "The cat sleeps under the bed.",
+          "a"
+        ],
+        [
+          "Pismo je od prijateljic___.",
+          "The letter is from a friend.",
+          "e"
+        ]
+      ],
+      "sortkljuc": 1603007,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Answer with a pronoun",
+      "meta": {
+        "info": "The pronoun after a little word takes its long form, the same as the target form from Grammar 6: *mene, tebe, njega, nas, vas, njih*. Only *ona* has a genitive of its own: *nje*. The last two items ask for the question words *koga* and *čega*.",
+        "infokratko": "*kod mene, bez tebe, iza njega, pokraj nje, kod nas, bez vas, kod njih*. *Koga? Čega?*",
+        "opis": "Type the pronoun in the form that follows the little word."
+      },
+      "stavke": [
+        [
+          "(ja) Ključ je kod ___ .",
+          "mene"
+        ],
+        [
+          "(ti) Ne idem na koncert bez ___ .",
+          "tebe"
+        ],
+        [
+          "(on) Sjedim iza ___ .",
+          "njega"
+        ],
+        [
+          "(ona) Sjedim pokraj ___ .",
+          "nje"
+        ],
+        [
+          "(mi) Kod ___ nema interneta.",
+          "nas"
+        ],
+        [
+          "(vi) Ovo pismo je od ___ .",
+          "vas"
+        ],
+        [
+          "(oni) Ručam kod ___ .",
+          "njih"
+        ],
+        [
+          "(Ana) Knjiga je kod ___ .",
+          "nje"
+        ],
+        [
+          "(Marko) Ne idem u kino bez ___ .",
+          "njega"
+        ],
+        [
+          "Kod ___ si? — Kod bake.",
+          "koga"
+        ],
+        [
+          "Bez ___ piješ kavu? — Bez šećera.",
+          "čega"
+        ]
+      ],
+      "sortkljuc": 1603008,
+      "bodovi": 804
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: counting reaches for the genitive",
+      "meta": {
+        "info": "The third rule: numbers decide the form of the noun. After *jedan* the noun stays as it is, after 2, 3 and 4 it takes the genitive singular (*dvije kave*), and from 5 up the genitive plural (*pet kava*). *Koliko?* takes the genitive plural too. *Dva* is masculine and neuter, *dvije* feminine.",
+        "infokratko": "1: as it is. 2–4: genitive singular (*dvije kave*). 5+ and *koliko*: genitive plural (*pet kava*).",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "A number in Croatian decides the form of the noun after it. There are three groups."
         ],
         [
           "tab: Number",
@@ -81268,46 +89751,51 @@ window.PODACI = {
         ],
         [
           "tab: 1",
-          "nominative",
-          "jedn**a** kav**a**"
+          "the usual form",
+          "jedn**a** kav**a**, jedan sok"
         ],
         [
           "tab: 2, 3, 4",
           "genitive **singular**",
-          "dvije kav**e** · tri sok**a** · četiri pism**a**"
+          "dvije kav**e**, tri sok**a**, četiri brat**a**"
         ],
         [
           "tab: 5 and up",
           "genitive **plural**",
-          "pet kav**a** · deset sokov**a** · sto pisam**a**"
+          "pet kav**a**, deset sokov**a**, šest jabuk**a**"
         ],
         [
-          "**Two has a gender:** **dva** for m. and n. (*dva soka*), **dvije** for f. (*dvije kave*). Three and four don't care."
+          "**Dva or dvije?** *Dva* goes with masculine and neuter words (*dva soka, dva brata*), *dvije* with feminine ones (*dvije kave, dvije sestre*). *Tri* and *četiri* stay the same for all."
         ],
         [
-          "**Genitive plural endings:** f. → **-a** (kava → kav**a**) · m. → **-a** or **-ova** (prijatelj → prijatelj**a**, sok → sok**ova**) · n. → **-a** (pismo → pisam**a**)."
+          "**The genitive plural: take the plural from Grammar 7 and end it in -a.** *kave → kava, prijatelji → prijatelja, sokovi → sokova, stolovi → stolova, mjesta → mjesta.* A short masculine word keeps its **-ov-**: *sokova, gradova*."
         ],
         [
-          "**Where you'll use this tomorrow: ordering.** *Dvije kave, molim. Pet piva. Tri sladoleda.* Learn these as ready-made phrases and you will never go thirsty in Croatia."
+          "**You already know some.** *Imam dvadeset **godina**. Karta košta deset **eura**.* Both are the genitive plural after a number. Take a few whole: *pet **sati*** (five hours), *pet **ljudi*** (five people)."
         ],
         [
-          "***koliko* takes the genitive plural too:** *Koliko kav**a** piješ na dan?*"
+          "**Koliko? takes the genitive plural too:** *Koliko **kava** piješ na dan? — Dvije.*"
         ],
         [
-          "**Now you write them.** [Koliko] kava piješ na dan? Nema [vremena]."
+          "**Ordering, the practical side:** *Dvije kave i tri soka, molim.* *Jednu kavu, molim* — after *jedan* the noun keeps the target form."
+        ],
+        [
+          "**Now you write them.** dvije [kave], pet [kava], tri [soka], deset [sokova]. [Koliko] kava piješ na dan?"
         ]
       ],
-      "sortkljuc": 1603005,
-      "bodovi": 881
+      "sortkljuc": 1603009,
+      "bodovi": 462
     },
     {
       "cjelina": "Grammar 16",
       "cjelinanaslov": "The Genitive",
-      "stranica": 6,
+      "stranica": 10,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Which form after the number?",
       "meta": {
+        "info": "Choosing the form after a number. Two, three and four take the genitive singular (*dvije kave, tri soka*), five and up the genitive plural (*pet kava, deset sokova*). *Dva* is for masculine and neuter words, *dvije* for feminine ones.",
+        "infokratko": "2–4: genitive singular (*dvije kave*); 5+: genitive plural (*pet kava*). *dva* m./n., *dvije* f.",
         "opis": "Two-three-four, or five and up? The number decides."
       },
       "stavke": [
@@ -81333,32 +89821,70 @@ window.PODACI = {
           "deset ___",
           "sokova",
           "soka",
-          "sok"
+          "sokovi"
         ],
         [
-          "___ kave (two, feminine)",
+          "___ kave (two)",
           "dvije",
           "dva",
           "dvoje"
         ],
         [
-          "___ soka (two, masculine)",
+          "___ soka (two)",
           "dva",
           "dvije",
           "dvoje"
+        ],
+        [
+          "četiri ___",
+          "brata",
+          "bratom",
+          "brat"
+        ],
+        [
+          "šest ___",
+          "jabuka",
+          "jabuke",
+          "jabuku"
+        ],
+        [
+          "dva ___",
+          "stola",
+          "stolova",
+          "stol"
+        ],
+        [
+          "sedam ___",
+          "prijatelja",
+          "prijatelji",
+          "prijatelju"
+        ],
+        [
+          "tri ___",
+          "sestre",
+          "sestra",
+          "sestru"
+        ],
+        [
+          "___ kava piješ na dan?",
+          "Koliko",
+          "Kakva",
+          "Koja"
         ]
       ],
-      "sortkljuc": 1603006,
-      "bodovi": 1304
+      "sortkljuc": 1603010,
+      "bodovi": 683
     },
     {
       "cjelina": "Grammar 16",
       "cjelinanaslov": "The Genitive",
-      "stranica": 7,
+      "stranica": 11,
       "broj": 9999,
       "format": "upis",
       "naslov": "Order it",
       "meta": {
+        "info": "You type the noun in the form the number needs. After 2, 3 and 4 it is the genitive singular — **-a** for masculine words, **-e** for feminine ones — and from 5 up the genitive plural, which ends in **-a**: *pet kava, deset sokova*.",
+        "infokratko": "2–4: **-a** / **-e**; 5+: genitive plural in **-a** (*kava, sokova*).",
         "opis": "Type the noun in the form the number wants."
       },
       "stavke": [
@@ -81385,19 +89911,45 @@ window.PODACI = {
         [
           "sladoled (3) → tri ___",
           "sladoleda"
+        ],
+        [
+          "jabuka (6) → šest ___",
+          "jabuka"
+        ],
+        [
+          "brat (2) → dva ___",
+          "brata"
+        ],
+        [
+          "sestra (2) → dvije ___",
+          "sestre"
+        ],
+        [
+          "prijatelj (5) → pet ___",
+          "prijatelja"
+        ],
+        [
+          "kolač (8) → osam ___",
+          "kolača"
+        ],
+        [
+          "stol (4) → četiri ___",
+          "stola"
         ]
       ],
-      "sortkljuc": 1603007,
-      "bodovi": 1534
+      "sortkljuc": 1603011,
+      "bodovi": 804
     },
     {
       "cjelina": "Grammar 16",
       "cjelinanaslov": "The Genitive",
-      "stranica": 8,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the sentence",
       "meta": {
+        "info": "Whole sentences from tiles, each using a different job of the genitive. The genitive follows the thing it belongs to (*miris kave*), the little word (*bez šećera*), *nema* or the number (*dvije kave*). *Kod mene* and *bez tebe* use the long pronoun forms.",
+        "infokratko": "Genitive after the thing, the little word, *nema* or a number. *kod mene, bez tebe*.",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -81415,10 +89967,129 @@ window.PODACI = {
         ],
         [
           "Koliko kava piješ na dan?"
+        ],
+        [
+          "Mačka spava ispod kreveta."
+        ],
+        [
+          "Nakon ručka pijem čaj od mente."
+        ],
+        [
+          "Ključ je kod mene."
+        ],
+        [
+          "Ne idem na koncert bez tebe."
+        ],
+        [
+          "Tijekom noći pada kiša."
+        ],
+        [
+          "Umjesto kave pijem sok od jabuke."
+        ],
+        [
+          "Imam dva brata i dvije sestre."
         ]
       ],
-      "sortkljuc": 1603008,
-      "bodovi": 1111
+      "sortkljuc": 1603012,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English. The genitive follows the little word, *nema* and the number, and the owner comes after the thing. A pronoun after a little word takes its long form. Several word orders are accepted where Croatian allows them.",
+        "infokratko": "Genitive after little words, *nema*, numbers; owner after the thing. *kod mene*.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I drink coffee without sugar.",
+          "Pijem kavu bez šećera"
+        ],
+        [
+          "I come from Zagreb.",
+          "Dolazim iz Zagreba / Ja sam iz Zagreba"
+        ],
+        [
+          "There's no milk.",
+          "Nema mlijeka"
+        ],
+        [
+          "My grandma's house is old.",
+          "Kuća moje bake je stara"
+        ],
+        [
+          "The key is with me.",
+          "Ključ je kod mene"
+        ],
+        [
+          "A piece of cake, please.",
+          "Komad torte, molim"
+        ],
+        [
+          "Mint tea, please.",
+          "Čaj od mente, molim"
+        ],
+        [
+          "After lunch I sleep.",
+          "Nakon ručka spavam / Spavam nakon ručka"
+        ],
+        [
+          "The cat is under the bed.",
+          "Mačka je ispod kreveta"
+        ],
+        [
+          "Two coffees and three juices, please.",
+          "Dvije kave i tri soka, molim"
+        ],
+        [
+          "I have two brothers.",
+          "Imam dva brata"
+        ],
+        [
+          "Five coffees, please.",
+          "Pet kava, molim"
+        ],
+        [
+          "How many coffees do you drink a day?",
+          "Koliko kava piješ na dan"
+        ],
+        [
+          "No problem!",
+          "Nema problema"
+        ]
+      ],
+      "sortkljuc": 1603013,
+      "bodovi": 804
+    },
+    {
+      "cjelina": "Grammar 16",
+      "cjelinanaslov": "The Genitive",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The genitive at this level comes down to three endings (**-a**, **-e**, **-i**), three jobs (belonging, the little words, *nema*) and one rule for counting: 2–4 take the genitive singular, 5 and up the genitive plural.",
+        "infokratko": "**-a / -e / -i**; belonging, little words, *nema*; 2–4 singular, 5+ plural."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say whose something is, where it is and where it comes from, what is missing — and how many of it you want."
+        ],
+        [
+          "And you did it with a small set of rules: **-a** for masculine and neuter words, **-e** for feminine words in **-a**, **-i** for feminine words on a consonant; **the genitive after the little words and *nema***; and **2–4 + genitive singular, 5 and up + genitive plural**."
+        ],
+        [
+          "**Next up:** Practice 16 takes you to Grandma's house and down the road from Zagreb to the sea, and Test 16 checks the whole level. Then Lesson 17: the imperative — *Uzmi! Dodaj! Miješaj!*"
+        ]
+      ],
+      "sortkljuc": 1603014,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 16",
@@ -81427,13 +90098,14 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: My grandma's house",
-      "meta": {},
+      "meta": {
+        "info": "A read-along description, and nearly every line has a genitive. Read it twice: once for the house, once to spot the three jobs — the owner after the thing (*vrata kuće, miris kolača*), the little words (*pokraj kuće, od rajčice do jabuke*) and *nema*.",
+        "infokratko": "The three jobs: *vrata kuće*; *pokraj kuće, od… do…*; *nema interneta*.",
+        "opis": "An old house, a garden where everything grows, and no internet. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "Grandma's house, and the road that leads to the sea."
-        ],
-        [
-          "The genitive everywhere — passive words: *raste* (grows), *visi* (hangs), *drvena* (wooden), *teška* (heavy), *žurba* (hurry), *moga/moje* (of my — recognize only), *kroz* (through), *preko* (over), *ispred* (in front of), *na pola puta* (halfway), *vožnja* (drive), *valovi* (waves), *kamilica* (chamomile), *šipak* (rosehip)."
+          "Passive words: *sto godina* (a hundred years), *drvena* (wooden), *sve* (everything), *boljeg* (better, after *nema*)."
         ],
         [
           "Kuća moje bake je stara sto godina.",
@@ -81452,16 +90124,24 @@ window.PODACI = {
           "In my grandma's garden everything grows: from tomatoes to apples."
         ],
         [
+          "Ispred kuće raste cvijeće, a iza kuće je stara ograda.",
+          "In front of the house there are flowers, and behind the house there's an old fence."
+        ],
+        [
           "Miris kolača je uvijek u kuhinji.",
           "The smell of cake is always in the kitchen."
         ],
         [
-          "Na zidu visi slika moga djeda.",
-          "On the wall hangs a picture of my grandpa."
+          "Na zidu kuhinje visi slika djeda i bake.",
+          "On the kitchen wall hangs a picture of Grandpa and Grandma."
         ],
         [
-          "Nema interneta, nema žurbe — ali nema ni boljeg mjesta na svijetu!",
-          "There is no internet, no hurry — but there is also no better place in the world!"
+          "Kod bake nema interneta i nema žurbe.",
+          "At Grandma's there's no internet and no hurry."
+        ],
+        [
+          "Nema boljeg mjesta na svijetu!",
+          "There's no better place in the world!"
         ]
       ],
       "sortkljuc": 1604001,
@@ -81475,33 +90155,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "Kuća moje bake je stara sto godina. Vrata kuće su drvena i teška. Pokraj kuće je vrt. Miris kolača je uvijek u kuhinji. Na zidu visi slika moga djeda. Nema interneta, nema žurbe.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on the house. Each question uses a genitive or asks for one: *Što je pokraj kuće?* looks for a place word, and *Čega nema kod bake?* is answered by two genitives. The answer is stated outright in one line.",
+        "infokratko": "*Što je pokraj kuće?* → a place. *Čega nema?* → genitives.",
+        "opis": "Answer from the text.",
+        "tekst": "Kuća moje bake je stara sto godina. Vrata kuće su drvena i teška. Pokraj kuće je vrt. U vrtu moje bake raste sve: od rajčice do jabuke. Ispred kuće raste cvijeće, a iza kuće je stara ograda. Miris kolača je uvijek u kuhinji. Na zidu kuhinje visi slika djeda i bake. Kod bake nema interneta i nema žurbe."
       },
       "stavke": [
         [
           "Koliko je stara kuća?",
           "sto godina",
-          "dvadeset godina"
+          "dvadeset godina",
+          "deset godina"
+        ],
+        [
+          "Kakva su vrata kuće?",
+          "drvena i teška",
+          "nova i lijepa",
+          "stara i mala"
         ],
         [
           "Što je pokraj kuće?",
           "vrt",
-          "garaža"
+          "ograda",
+          "cvijeće"
         ],
         [
-          "Što visi na zidu?",
-          "slika djeda",
-          "slika bake"
+          "Što je iza kuće?",
+          "stara ograda",
+          "vrt",
+          "cvijeće"
         ],
         [
-          "Čega nema u kući?",
+          "Što visi na zidu kuhinje?",
+          "slika djeda i bake",
+          "slika mora",
+          "slika kuće"
+        ],
+        [
+          "Čega nema kod bake?",
           "interneta i žurbe",
-          "kolača i kave"
+          "kolača i kave",
+          "vrta i cvijeća"
         ]
       ],
       "sortkljuc": 1604002,
-      "bodovi": 1143
+      "bodovi": 683
     },
     {
       "cjelina": "Practice 16",
@@ -81511,25 +90209,47 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the genitive",
       "meta": {
-        "tekst": "Vrata kuće su drvena. Miris kolača je uvijek u kuhinji. Nema interneta.",
-        "opis": "Fill in the genitive from the text."
+        "info": "Copy each genitive back into its line. The bracket gives the naming form: a masculine or neuter word adds **-a** (*kolača, interneta*), and a feminine word in **-a** turns it into **-e** (*kuće, bake, rajčice*).",
+        "infokratko": "Masculine and neuter **+a** (*kolača*); feminine **-a → -e** (*kuće, bake*).",
+        "opis": "Fill in the genitive from the text.",
+        "tekst": "Kuća moje bake je stara. Vrata kuće su drvena i teška. Pokraj kuće je vrt. U vrtu raste sve: od rajčice do jabuke. Iza kuće je stara ograda. Miris kolača je uvijek u kuhinji. Na zidu kuhinje visi slika. Kod bake nema interneta."
       },
       "stavke": [
         [
-          "Vrata ___ su drvena. (kuća)",
+          "Kuća moje ___ je stara. (baka)",
+          "bake"
+        ],
+        [
+          "Vrata ___ su drvena i teška. (kuća)",
           "kuće"
         ],
         [
-          "Miris ___ je u kuhinji. (kolač)",
+          "Pokraj ___ je vrt. (kuća)",
+          "kuće"
+        ],
+        [
+          "U vrtu raste sve: od ___ do jabuke. (rajčica)",
+          "rajčice"
+        ],
+        [
+          "Miris ___ je uvijek u kuhinji. (kolač)",
           "kolača"
         ],
         [
-          "Nema ___ . (internet)",
+          "Na zidu ___ visi slika. (kuhinja)",
+          "kuhinje"
+        ],
+        [
+          "Kod ___ nema interneta. (baka)",
+          "bake"
+        ],
+        [
+          "Kod bake nema ___ . (internet)",
           "interneta"
         ]
       ],
       "sortkljuc": 1604003,
-      "bodovi": 1343
+      "bodovi": 804
     },
     {
       "cjelina": "Practice 16",
@@ -81538,35 +90258,50 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: No sugar",
-      "meta": {},
+      "meta": {
+        "info": "A café order in which almost every line has a genitive: *bez šećera, bez mlijeka, čaj od mente, komad torte*. Watch the waiter's *nema mente* — there is no mint today — because it changes Marko's order.",
+        "infokratko": "*bez šećera, čaj od mente, komad torte*. *Nema mente* changes the order.",
+        "opis": "Ana and Marko order at a café. Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "— Dobar dan! Jednu kavu, molim.",
-          "— Good afternoon! One coffee, please."
+          "Passive words: *dakle* (so, then), *crna kava* (black coffee), *šipak* (rosehip), *Zato smo i tu!* (That's why we're here!)."
         ],
         [
-          "— Sa šećerom ili bez šećera?",
-          "— With sugar or without sugar?"
+          "Ana i Marko sjede u kafiću. Dolazi konobar.",
+          "Ana and Marko are sitting in a café. The waiter comes."
+        ],
+        [
+          "— Dobar dan! Izvolite?",
+          "— Good afternoon! What can I get you?"
+        ],
+        [
+          "— Jednu kavu za mene i jedan čaj za Marka, molim.",
+          "— One coffee for me and one tea for Marko, please."
+        ],
+        [
+          "— Kava sa šećerom ili bez šećera?",
+          "— The coffee with sugar or without sugar?"
         ],
         [
           "— Bez šećera. I bez mlijeka, molim.",
           "— Without sugar. And without milk, please."
         ],
         [
-          "— Crna kava, dakle. A za vas?",
-          "— Black coffee, then. And for you?"
+          "— Crna kava, dakle. A čaj?",
+          "— Black coffee, then. And the tea?"
         ],
         [
-          "— Za mene čaj od mente.",
-          "— For me, mint tea."
+          "— Čaj od mente, molim.",
+          "— Mint tea, please."
         ],
         [
-          "— Imamo čaj od kamilice, od šipka i od mente.",
-          "— We have chamomile, rosehip and mint tea."
+          "— Nažalost, danas nema mente. Imamo čaj od kamilice i od šipka.",
+          "— Unfortunately, there's no mint today. We have chamomile and rosehip tea."
         ],
         [
-          "— Od mente, molim. I komad torte od čokolade!",
-          "— Mint, please. And a piece of chocolate cake!"
+          "— Onda od kamilice. I komad torte od čokolade!",
+          "— Then chamomile. And a piece of chocolate cake!"
         ],
         [
           "— Naravno. Torta od čokolade je specijalitet kuće!",
@@ -81588,28 +90323,45 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "— Bez šećera. I bez mlijeka, molim. — Za mene čaj od mente. — Od mente, molim. I komad torte od čokolade! — Torta od čokolade je specijalitet kuće!",
-        "opis": "Tap true or false."
+        "info": "Check each statement against the café order. Keep Ana and Marko apart: Ana orders the coffee *bez šećera i bez mlijeka*, Marko the tea. *Nema mente* means Marko's first wish cannot be met, so he drinks something else.",
+        "infokratko": "Ana: coffee *bez šećera*. Marko: tea — but *nema mente*.",
+        "opis": "Tap true or false.",
+        "tekst": "Ana i Marko sjede u kafiću. — Jednu kavu za mene i jedan čaj za Marka, molim. — Kava sa šećerom ili bez šećera? — Bez šećera. I bez mlijeka, molim. — Čaj od mente, molim. — Nažalost, danas nema mente. Imamo čaj od kamilice i od šipka. — Onda od kamilice. I komad torte od čokolade! — Naravno. Torta od čokolade je specijalitet kuće!"
       },
       "stavke": [
         [
-          "Prva osoba pije kavu bez šećera i bez mlijeka.",
+          "Ana pije kavu bez šećera i bez mlijeka.",
           "TRUE",
           "FALSE"
         ],
         [
-          "Druga osoba naručuje čaj od kamilice.",
+          "Ana pije kavu s mlijekom.",
           "FALSE",
           "TRUE"
         ],
         [
-          "Torta od čokolade je specijalitet kuće.",
+          "Marko pije čaj od mente.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Danas nema mente.",
           "TRUE",
           "FALSE"
+        ],
+        [
+          "Marko želi komad torte od čokolade.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Specijalitet kuće je čaj od kamilice.",
+          "FALSE",
+          "TRUE"
         ]
       ],
       "sortkljuc": 1604005,
-      "bodovi": 1143
+      "bodovi": 683
     },
     {
       "cjelina": "Practice 16",
@@ -81619,36 +90371,38 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Order the dialogue",
       "meta": {
+        "info": "Rebuild the order line by line. The waiter asks and the guests answer: the question about sugar comes before *Bez šećera*, and *nema mente* has to come before Marko chooses chamomile. The cake is ordered last.",
+        "infokratko": "Question, then answer. *nema mente* before *Onda od kamilice*.",
         "opis": "Rebuild the café order."
       },
       "stavke": [
         [
-          "— Dobar dan! Jednu kavu, molim."
+          "— Dobar dan! Izvolite?"
         ],
         [
-          "— Sa šećerom ili bez šećera?"
+          "— Jednu kavu za mene i jedan čaj za Marka, molim."
+        ],
+        [
+          "— Kava sa šećerom ili bez šećera?"
         ],
         [
           "— Bez šećera. I bez mlijeka, molim."
         ],
         [
-          "— Crna kava, dakle. A za vas?"
+          "— Crna kava, dakle. A čaj?"
         ],
         [
-          "— Za mene čaj od mente."
+          "— Čaj od mente, molim."
         ],
         [
-          "— Imamo čaj od kamilice, od šipka i od mente."
+          "— Nažalost, danas nema mente. Imamo čaj od kamilice i od šipka."
         ],
         [
-          "— Od mente, molim. I komad torte od čokolade!"
-        ],
-        [
-          "— Naravno. Torta od čokolade je specijalitet kuće!"
+          "— Onda od kamilice. I komad torte od čokolade!"
         ]
       ],
       "sortkljuc": 1604006,
-      "bodovi": 1443
+      "bodovi": 583
     },
     {
       "cjelina": "Practice 16",
@@ -81657,31 +90411,42 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: From Zagreb to the sea",
-      "meta": {},
+      "meta": {
+        "info": "A car journey told as a string of little words: *iz, do, ispred, pokraj, preko, kod, blizu*. Each is followed by the genitive, so the text is also a list of genitives. *Kroz* (through) is the one exception here: it takes the target form, *kroz tunel*.",
+        "infokratko": "*iz, do, ispred, pokraj, preko, kod, blizu* + genitive. *kroz tunel* is different.",
+        "opis": "A family, a car and the road to the sea. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *u sedam* (at seven), *kroz tunel* (through a tunnel), *na pola puta* (halfway), *vožnje* (of driving), *valova* (of the waves)."
+        ],
         [
           "Putujemo iz Zagreba do mora.",
           "We are travelling from Zagreb to the sea."
         ],
         [
-          "Krećemo ispred kuće moga brata.",
-          "We set off in front of my brother's house."
+          "Krećemo ispred naše kuće u sedam.",
+          "We set off in front of our house at seven."
         ],
         [
-          "Vozimo se pokraj rijeke, kroz tunel i preko mosta.",
-          "We drive past the river, through a tunnel and over a bridge."
+          "Vozimo pokraj rijeke, kroz tunel i preko mosta.",
+          "We drive along the river, through a tunnel and over a bridge."
         ],
         [
-          "Na pola puta pijemo kavu kod tete Vesne — teta živi blizu autoceste.",
-          "Halfway there we have coffee at aunt Vesna's — my aunt lives near the motorway."
+          "Na pola puta pijemo kavu kod tete Vesne.",
+          "Halfway there we have coffee at Aunt Vesna's."
+        ],
+        [
+          "Teta živi blizu autoceste.",
+          "Our aunt lives near the motorway."
         ],
         [
           "Poslije dva sata vožnje vidimo more!",
           "After two hours of driving we see the sea!"
         ],
         [
-          "Miris mora, zvuk valova, boja neba — to je početak ljeta i kraj dugog putovanja.",
-          "The smell of the sea, the sound of the waves, the color of the sky — that is the beginning of summer and the end of a long journey."
+          "Miris mora, zvuk valova, boja neba — to je početak ljeta.",
+          "The smell of the sea, the sound of the waves, the colour of the sky — that is the beginning of summer."
         ]
       ],
       "sortkljuc": 1604007,
@@ -81695,11 +90460,13 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Put the journey in order",
       "meta": {
+        "info": "Sequence the journey from Text 3. The car leaves home first and the sea comes last; in between, the road follows the river before the tunnel and the bridge, and the coffee at Aunt Vesna's comes halfway.",
+        "infokratko": "Home first, sea last. River, tunnel, bridge, then the aunt.",
         "opis": "Put the journey in order."
       },
       "stavke": [
         [
-          "ispred kuće brata"
+          "ispred naše kuće"
         ],
         [
           "pokraj rijeke"
@@ -81718,7 +90485,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1604008,
-      "bodovi": 1143
+      "bodovi": 462
     },
     {
       "cjelina": "Practice 16",
@@ -81728,8 +90495,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the genitive",
       "meta": {
-        "tekst": "Putujemo iz Zagreba do mora. Na pola puta pijemo kavu kod tete Vesne. Miris mora, zvuk valova.",
-        "opis": "Fill in the genitive."
+        "info": "Copy each genitive back into the journey. The little word is given: *iz, do, ispred, pokraj, preko, kod, blizu* all take the genitive. *More* and *Zagreb* take **-a**; *teta, rijeka, autocesta* take **-e**.",
+        "infokratko": "*iz Zagreba, do mora*; *kod tete, pokraj rijeke, blizu autoceste*.",
+        "opis": "Fill in the genitive.",
+        "tekst": "Putujemo iz Zagreba do mora. Krećemo ispred naše kuće. Vozimo pokraj rijeke i preko mosta. Na pola puta pijemo kavu kod tete Vesne. Teta živi blizu autoceste. Miris mora, boja neba — to je početak ljeta."
       },
       "stavke": [
         [
@@ -81737,26 +90506,523 @@ window.PODACI = {
           "Zagreba"
         ],
         [
-          "Pijemo kavu kod ___ . (teta)",
+          "Putujemo iz Zagreba do ___ . (more)",
+          "mora"
+        ],
+        [
+          "Krećemo ispred naše ___ . (kuća)",
+          "kuće"
+        ],
+        [
+          "Vozimo pokraj ___ . (rijeka)",
+          "rijeke"
+        ],
+        [
+          "Vozimo preko ___ . (most)",
+          "mosta"
+        ],
+        [
+          "Pijemo kavu kod ___ Vesne. (teta)",
           "tete"
         ],
         [
-          "Miris ___ . (more)",
-          "mora"
+          "Teta živi blizu ___ . (autocesta)",
+          "autoceste"
+        ],
+        [
+          "To je početak ___ . (ljeto)",
+          "ljeta"
         ]
       ],
       "sortkljuc": 1604009,
-      "bodovi": 1342
+      "bodovi": 804
     },
     {
       "cjelina": "Practice 16",
       "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
       "stranica": 10,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: A house by the sea",
+      "meta": {
+        "info": "A real holiday-rental advert, with the genitive in almost every line: distances (*blizu mora*), dates (*od subote do subote*) and what is missing (*nema interneta*). Numbers come with it too — *tri sobe, dvije kupaonice* — the genitive singular after 2, 3 and 4.",
+        "infokratko": "A real advert: *blizu mora, od subote do subote, nema interneta*, *tri sobe, dvije kupaonice*.",
+        "opis": "Grandma's neighbour rents out a house on the island. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *za odmor* (for a holiday), *iznajmljujem* (I rent out), *slobodno* (available), *pušenje* (smoking), *metara* (metres), *parking* (parking), *velika* (big)."
+        ],
+        [
+          "KUĆA ZA ODMOR — OTOK BRAČ",
+          "HOLIDAY HOUSE — ISLAND OF BRAČ"
+        ],
+        [
+          "Iznajmljujem kuću blizu mora, 50 metara od plaže.",
+          "I rent out a house near the sea, 50 metres from the beach."
+        ],
+        [
+          "Tri sobe, dvije kupaonice i velika kuhinja.",
+          "Three bedrooms, two bathrooms and a big kitchen."
+        ],
+        [
+          "Pokraj kuće je vrt, a ispred kuće parking za dva auta.",
+          "Next to the house there's a garden, and in front of it parking for two cars."
+        ],
+        [
+          "Nema interneta, ali je tiho.",
+          "There's no internet, but it's quiet."
+        ],
+        [
+          "Slobodno: od subote do subote.",
+          "Available: Saturday to Saturday."
+        ],
+        [
+          "Cijena: 90 eura za noć.",
+          "Price: 90 euros a night."
+        ],
+        [
+          "Pušenje: samo izvan kuće.",
+          "Smoking: only outside the house."
+        ],
+        [
+          "Kontakt: Marija, 091 234 5678",
+          "Contact: Marija, 091 234 5678"
+        ]
+      ],
+      "sortkljuc": 1604010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Did you read the ad?",
+      "meta": {
+        "info": "Reading the advert for what you need. Most answers are on one line, but the numbers ask you to read carefully: *tri sobe* and *dvije kupaonice* are different rooms, and *za dva auta* is the parking, not the garden.",
+        "infokratko": "Read the numbers carefully: *tri sobe, dvije kupaonice, dva auta*.",
+        "opis": "Answer from the advert.",
+        "tekst": "KUĆA ZA ODMOR — OTOK BRAČ. Iznajmljujem kuću blizu mora, 50 metara od plaže. Tri sobe, dvije kupaonice i velika kuhinja. Pokraj kuće je vrt, a ispred kuće parking za dva auta. Nema interneta, ali je tiho. Slobodno: od subote do subote. Cijena: 90 eura za noć. Pušenje: samo izvan kuće. Kontakt: Marija."
+      },
+      "stavke": [
+        [
+          "Gdje je kuća?",
+          "blizu mora",
+          "u centru grada",
+          "pokraj autoceste"
+        ],
+        [
+          "Koliko soba ima kuća?",
+          "tri",
+          "dvije",
+          "četiri"
+        ],
+        [
+          "Što je pokraj kuće?",
+          "vrt",
+          "parking",
+          "plaža"
+        ],
+        [
+          "Čega nema u kući?",
+          "interneta",
+          "kuhinje",
+          "kupaonice"
+        ],
+        [
+          "Koliko košta noć?",
+          "90 eura",
+          "50 eura",
+          "9 eura"
+        ],
+        [
+          "Kada je kuća slobodna?",
+          "od subote do subote",
+          "od petka do nedjelje",
+          "samo u subotu"
+        ]
+      ],
+      "sortkljuc": 1604011,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Where is everything?",
+      "meta": {
+        "info": "A puzzle rather than a story. Grandma has put four things in four places, and every clue says where something is **not**. Work by elimination, starting with the table: three of the four things are ruled out there, so the fourth one must be under it.",
+        "infokratko": "Every clue is negative. Start with the table.",
+        "opis": "Four things, four places, and Grandma is not telling. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *stvari* (things), *skriva* (hides), *nešto drugo* (something else)."
+        ],
+        [
+          "Baka uvijek skriva stvari, a djed ih uvijek traži.",
+          "Grandma always hides things, and Grandpa always looks for them."
+        ],
+        [
+          "Danas traži četiri stvari: ključ, pismo, čokoladu i novac.",
+          "Today he's looking for four things: the key, a letter, the chocolate and the money."
+        ],
+        [
+          "Stvari su ispod kreveta, iza vrata, pokraj prozora i ispod stola.",
+          "The things are under the bed, behind the door, next to the window and under the table."
+        ],
+        [
+          "Na svakom mjestu je nešto drugo.",
+          "In each place there's something different."
+        ],
+        [
+          "Ispod stola nije ni ključ, ni pismo, ni čokolada.",
+          "Under the table there's neither the key, nor the letter, nor the chocolate."
+        ],
+        [
+          "Ključ nije ispod kreveta.",
+          "The key isn't under the bed."
+        ],
+        [
+          "Čokolada nije ni iza vrata ni pokraj prozora.",
+          "The chocolate is neither behind the door nor next to the window."
+        ],
+        [
+          "Pismo nije pokraj prozora.",
+          "The letter isn't next to the window."
+        ],
+        [
+          "Gdje je što?",
+          "What is where?"
+        ]
+      ],
+      "sortkljuc": 1604012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Only the money is left for the table. The chocolate is not behind the door or by the window, so it is under the bed; the letter is not by the window, so it is behind the door, and the key is next to the window.",
+        "infokratko": "The table first: only the money is left. Then the chocolate, then the letter.",
+        "opis": "Nobody says where each thing is. Work it out from the text.",
+        "tekst": "Danas djed traži četiri stvari: ključ, pismo, čokoladu i novac. Stvari su ispod kreveta, iza vrata, pokraj prozora i ispod stola. Na svakom mjestu je nešto drugo. Ispod stola nije ni ključ, ni pismo, ni čokolada. Ključ nije ispod kreveta. Čokolada nije ni iza vrata ni pokraj prozora. Pismo nije pokraj prozora."
+      },
+      "stavke": [
+        [
+          "Što je ispod stola?",
+          "novac",
+          "ključ",
+          "čokolada"
+        ],
+        [
+          "Gdje je čokolada?",
+          "ispod kreveta",
+          "iza vrata",
+          "ispod stola"
+        ],
+        [
+          "Gdje je pismo?",
+          "iza vrata",
+          "pokraj prozora",
+          "ispod kreveta"
+        ],
+        [
+          "Gdje je ključ?",
+          "pokraj prozora",
+          "ispod kreveta",
+          "iza vrata"
+        ],
+        [
+          "Što je iza vrata?",
+          "pismo",
+          "ključ",
+          "novac"
+        ],
+        [
+          "Tko traži stvari?",
+          "djed",
+          "baka",
+          "Marko"
+        ]
+      ],
+      "sortkljuc": 1604013,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "nastavci": "a | e | i",
+        "info": "One tap per sentence, and almost every sentence comes from the five texts. Masculine and neuter words take **-a** (*šećera, mora, kreveta*), feminine words in **-a** take **-e** (*kuće, mente*), and a feminine word on a consonant takes **-i**: *za noć* is the target, but *do ponoći* the genitive.",
+        "infokratko": "m./n. **-a**, f. **-e**, f. on a consonant **-i**.",
+        "opis": "Almost every sentence came out of the five texts. One tap finishes the genitive."
+      },
+      "stavke": [
+        [
+          "Vrata kuć___ su drvena.",
+          "The door of the house is wooden.",
+          "e"
+        ],
+        [
+          "Miris kolač___ je u kuhinji.",
+          "The smell of cake is in the kitchen.",
+          "a"
+        ],
+        [
+          "Kava bez šećer___, molim.",
+          "Coffee without sugar, please.",
+          "a"
+        ],
+        [
+          "Danas nema ment___.",
+          "There's no mint today.",
+          "e"
+        ],
+        [
+          "Putujemo iz Zagreb___ do mora.",
+          "We're travelling from Zagreb to the sea.",
+          "a"
+        ],
+        [
+          "Pijemo kavu kod tet___ Vesne.",
+          "We have coffee at Aunt Vesna's.",
+          "e"
+        ],
+        [
+          "Kuća je blizu mor___.",
+          "The house is near the sea.",
+          "a"
+        ],
+        [
+          "Pokraj kuće je vrt, a ispred kuć___ parking.",
+          "Next to the house there's a garden, and parking in front of it.",
+          "e"
+        ],
+        [
+          "Čokolada je ispod krevet___.",
+          "The chocolate is under the bed.",
+          "a"
+        ],
+        [
+          "Ključ je pokraj prozor___.",
+          "The key is next to the window.",
+          "a"
+        ],
+        [
+          "Slobodno od subot___ do subote.",
+          "Available from Saturday to Saturday.",
+          "e"
+        ],
+        [
+          "Na zabavi smo do ponoć___.",
+          "We're at the party until midnight.",
+          "i"
+        ],
+        [
+          "Nakon ručk___ baka spava.",
+          "After lunch Grandma sleeps.",
+          "a"
+        ],
+        [
+          "Ručamo kod obitelj___.",
+          "We have lunch with the family.",
+          "i"
+        ],
+        [
+          "Čaj od kamilic___, molim.",
+          "Chamomile tea, please.",
+          "e"
+        ],
+        [
+          "Juha bez sol___ nije dobra.",
+          "Soup without salt isn't good.",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1604014,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which job?",
+      "meta": {
+        "info": "Sorting sentences from the texts by the job of the genitive. The owner after a thing is **belonging**; a genitive after *bez, iz, kod, pokraj…* follows **a little word**; after *nema* something is **missing**; and after 2, 3 or 4 it follows **a number**.",
+        "infokratko": "Owner → belonging; after *bez, iz…*; after *nema*; after 2–4.",
+        "stupci": "BELONGING | LITTLE WORD | NEMA | NUMBER",
+        "opis": "What is the genitive doing in each sentence? Sort them."
+      },
+      "stavke": [
+        [
+          "Vrata kuće su drvena i teška.",
+          "BELONGING"
+        ],
+        [
+          "Miris kolača je uvijek u kuhinji.",
+          "BELONGING"
+        ],
+        [
+          "Kuća moje bake je stara.",
+          "BELONGING"
+        ],
+        [
+          "Miris mora, boja neba.",
+          "BELONGING"
+        ],
+        [
+          "Kava bez šećera, molim.",
+          "LITTLE WORD"
+        ],
+        [
+          "Putujemo iz Zagreba do mora.",
+          "LITTLE WORD"
+        ],
+        [
+          "Pijemo kavu kod tete Vesne.",
+          "LITTLE WORD"
+        ],
+        [
+          "Pokraj kuće je vrt.",
+          "LITTLE WORD"
+        ],
+        [
+          "Kod bake nema interneta.",
+          "NEMA"
+        ],
+        [
+          "Danas nema mente.",
+          "NEMA"
+        ],
+        [
+          "Nema žurbe.",
+          "NEMA"
+        ],
+        [
+          "Nema interneta, ali je tiho.",
+          "NEMA"
+        ],
+        [
+          "Tri sobe i dvije kupaonice.",
+          "NUMBER"
+        ],
+        [
+          "Parking je za dva auta.",
+          "NUMBER"
+        ],
+        [
+          "Poslije dva sata vidimo more.",
+          "NUMBER"
+        ],
+        [
+          "Imam četiri brata.",
+          "NUMBER"
+        ]
+      ],
+      "sortkljuc": 1604015,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU visit Grandma",
+      "meta": {
+        "info": "Your turn: you arrive at Grandma's house after the drive from Zagreb. She asks where you come from and what you want, and every answer uses a genitive — *iz Zagreba, bez šećera, dva komada*. Grandma reacts to what you pick, and nothing in your lines depends on your gender.",
+        "infokratko": "*iz Zagreba, bez šećera, komad torte, dva komada*. Grandma reacts.",
+        "opis": "The door opens and the smell of cake comes out. Choose your replies. Passive words: *Napokon!* (At last!), *dušo* (dear), *Uđi!* (Come in!), *Sjedni* (Sit down), *peče* (bakes), *Mislim da…* (I think that…), *kao uvijek* (as always)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Napokon! Uđi, dušo! Odakle dolaziš? Iz Zagreba?"
+        ],
+        [
+          "ti",
+          "Da, iz Zagreba.",
+          "Ne, iz Splita."
+        ],
+        [
+          "npc",
+          "Odlično! Sjedni u kuhinju. Hoćeš li čaj ili kavu?"
+        ],
+        [
+          "ti",
+          "Čaj, molim.",
+          "Kavu, molim."
+        ],
+        [
+          "npc",
+          "Imam čaj od mente, a kavu kuham bez šećera. Može?"
+        ],
+        [
+          "ti",
+          "Može, bez šećera, hvala!",
+          "Molim te, sa šećerom."
+        ],
+        [
+          "npc",
+          "Nema problema. A torta? Imam tortu od čokolade i kolač od jabuka."
+        ],
+        [
+          "ti",
+          "Komad torte od čokolade, molim!",
+          "Komad torte od čokolade i komad kolača, molim!"
+        ],
+        [
+          "npc",
+          "Torta od čokolade? Djed je peče svaku subotu!"
+        ],
+        [
+          "ti",
+          "Stvarno? Gdje je djed?",
+          "Super! A gdje je djed?"
+        ],
+        [
+          "npc",
+          "Djed je u vrtu, iza kuće. Traži ključ... kao uvijek!"
+        ],
+        [
+          "ti",
+          "Ključ? Mislim da je pokraj prozora!",
+          "Idem u vrt, pomažem djedu!"
+        ],
+        [
+          "npc",
+          "Ha-ha! Hvala ti. Bez tebe ne znamo ništa!"
+        ]
+      ],
+      "sortkljuc": 1604016,
+      "bodovi": 583
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 17,
+      "broj": 9999,
       "format": "slaganje",
       "naslov": "Translate by building",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The genitive comes right after the thing it belongs to (*vrata kuće*), after the little word (*bez šećera, pokraj prozora*), after *nema* and after 2, 3 or 4 (*dvije kupaonice*).",
+        "infokratko": "Genitive after the thing, the little word, *nema*, or 2–4.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
       },
       "stavke": [
         [
@@ -81764,16 +91030,1638 @@ window.PODACI = {
           "en: My grandma's house is old."
         ],
         [
+          "Vrata kuće su drvena i teška.",
+          "en: The door of the house is wooden and heavy."
+        ],
+        [
+          "Pokraj kuće je vrt.",
+          "en: Next to the house there's a garden."
+        ],
+        [
+          "Miris kolača je uvijek u kuhinji.",
+          "en: The smell of cake is always in the kitchen."
+        ],
+        [
+          "Kod bake nema interneta i nema žurbe.",
+          "en: At Grandma's there's no internet and no hurry."
+        ],
+        [
+          "Bez šećera i bez mlijeka, molim.",
+          "en: Without sugar and without milk, please."
+        ],
+        [
+          "Nažalost, danas nema mente.",
+          "en: Unfortunately, there's no mint today."
+        ],
+        [
+          "Onda od kamilice.",
+          "en: Then chamomile."
+        ],
+        [
           "Putujemo iz Zagreba do mora.",
           "en: We are travelling from Zagreb to the sea."
         ],
         [
-          "Nema boljeg mjesta na svijetu!",
-          "en: There is no better place in the world!"
+          "Na pola puta pijemo kavu kod tete Vesne.",
+          "en: Halfway there we have coffee at Aunt Vesna's."
+        ],
+        [
+          "Teta živi blizu autoceste.",
+          "en: Our aunt lives near the motorway."
+        ],
+        [
+          "Tri sobe, dvije kupaonice i velika kuhinja.",
+          "en: Three bedrooms, two bathrooms and a big kitchen."
+        ],
+        [
+          "Nema interneta, ali je tiho.",
+          "en: There's no internet, but it's quiet."
+        ],
+        [
+          "Ispod stola nije ni ključ, ni pismo, ni čokolada.",
+          "en: Under the table there's neither the key, nor the letter, nor the chocolate."
+        ],
+        [
+          "Čokolada je ispod kreveta.",
+          "en: The chocolate is under the bed."
+        ],
+        [
+          "Ključ je pokraj prozora.",
+          "en: The key is next to the window."
         ]
       ],
-      "sortkljuc": 1604010,
-      "bodovi": 1143
+      "sortkljuc": 1604017,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Practice 16",
+      "cjelinanaslov": "Reading: Grandma's House & the Road to the Sea",
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over Grandma's house. Everything is in its naming form; say it with *pokraj* or *ispod* in your head as you tap, and add the genitive ending: *pokraj kuće, ispod stola, iza vrata*.",
+        "infokratko": "Naming forms. Think *pokraj kuće, ispod stola*.",
+        "opis": "Grandma is calling you for lunch. A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "kuća",
+          "house"
+        ],
+        [
+          "vrata",
+          "door"
+        ],
+        [
+          "vrt",
+          "garden"
+        ],
+        [
+          "zid",
+          "wall"
+        ],
+        [
+          "prozor",
+          "window"
+        ],
+        [
+          "krevet",
+          "bed"
+        ],
+        [
+          "stol",
+          "table"
+        ],
+        [
+          "stolica",
+          "chair"
+        ],
+        [
+          "ormar",
+          "wardrobe"
+        ],
+        [
+          "ključ",
+          "key"
+        ],
+        [
+          "krov",
+          "roof"
+        ],
+        [
+          "sat",
+          "clock"
+        ]
+      ],
+      "sortkljuc": 1604018,
+      "bodovi": 683
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "info": "The words of Level 16: the house, the garden, the little words that take the genitive, and ten verbs. Nouns are in their naming form, verbs in the infinitive. Watch the pairs that look alike: *iznad* and *ispod*, *ispred* and *iza*.",
+        "infokratko": "Level 16 words. Watch *iznad / ispod*, *ispred / iza*.",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "miris",
+          "smell"
+        ],
+        [
+          "komad",
+          "piece"
+        ],
+        [
+          "svijet",
+          "world"
+        ],
+        [
+          "boja",
+          "colour"
+        ],
+        [
+          "slika",
+          "picture"
+        ],
+        [
+          "zavjesa",
+          "curtain"
+        ],
+        [
+          "svjetlo",
+          "light"
+        ],
+        [
+          "namještaj",
+          "furniture"
+        ],
+        [
+          "perilica",
+          "washing machine"
+        ],
+        [
+          "sudoper",
+          "sink"
+        ],
+        [
+          "lonac",
+          "pot"
+        ],
+        [
+          "zdjela",
+          "bowl"
+        ],
+        [
+          "čajnik",
+          "teapot"
+        ],
+        [
+          "zvono",
+          "doorbell"
+        ],
+        [
+          "brava",
+          "lock"
+        ],
+        [
+          "ograda",
+          "fence"
+        ],
+        [
+          "trava",
+          "grass"
+        ],
+        [
+          "cvijet",
+          "flower"
+        ],
+        [
+          "biljka",
+          "plant"
+        ],
+        [
+          "kamen",
+          "stone"
+        ],
+        [
+          "bez",
+          "without"
+        ],
+        [
+          "iz",
+          "from, out of"
+        ],
+        [
+          "od",
+          "from, of"
+        ],
+        [
+          "do",
+          "to, until"
+        ],
+        [
+          "kod",
+          "at someone's place"
+        ],
+        [
+          "pokraj",
+          "next to"
+        ],
+        [
+          "ispred",
+          "in front of"
+        ],
+        [
+          "iza",
+          "behind"
+        ],
+        [
+          "iznad",
+          "above"
+        ],
+        [
+          "ispod",
+          "under"
+        ],
+        [
+          "između",
+          "between"
+        ],
+        [
+          "preko",
+          "over, across"
+        ],
+        [
+          "nakon",
+          "after"
+        ],
+        [
+          "tijekom",
+          "during"
+        ],
+        [
+          "osim",
+          "except"
+        ],
+        [
+          "umjesto",
+          "instead of"
+        ],
+        [
+          "izvan",
+          "outside (of)"
+        ],
+        [
+          "Odakle?",
+          "From where?"
+        ],
+        [
+          "rasti",
+          "to grow"
+        ],
+        [
+          "visjeti",
+          "to hang"
+        ],
+        [
+          "čuvati",
+          "to look after, to keep"
+        ],
+        [
+          "popraviti",
+          "to repair"
+        ],
+        [
+          "ostaviti",
+          "to leave (behind)"
+        ],
+        [
+          "naći",
+          "to find"
+        ],
+        [
+          "zaključati",
+          "to lock"
+        ],
+        [
+          "mijenjati",
+          "to change"
+        ],
+        [
+          "dolaziti",
+          "to come"
+        ],
+        [
+          "paliti",
+          "to turn on"
+        ],
+        [
+          "drven",
+          "wooden"
+        ],
+        [
+          "stoljeće",
+          "century"
+        ],
+        [
+          "zvuk",
+          "sound"
+        ],
+        [
+          "početak",
+          "beginning"
+        ],
+        [
+          "kraj",
+          "end"
+        ],
+        [
+          "autocesta",
+          "highway"
+        ],
+        [
+          "menta",
+          "mint"
+        ],
+        [
+          "kamilica",
+          "chamomile"
+        ]
+      ],
+      "sortkljuc": 1605001,
+      "bodovi": 482
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 16 words, with three meanings to choose from. The wrong options come from the same group — little words, kitchen things, verbs — so the pairs that look alike are the real test.",
+        "infokratko": "Level 16 words; the wrong options come from the same group.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "bez",
+          "without",
+          "from",
+          "behind"
+        ],
+        [
+          "iz",
+          "from, out of",
+          "without",
+          "next to"
+        ],
+        [
+          "kod",
+          "at someone's place",
+          "from",
+          "until"
+        ],
+        [
+          "pokraj",
+          "next to",
+          "behind",
+          "under"
+        ],
+        [
+          "ispred",
+          "in front of",
+          "behind",
+          "above"
+        ],
+        [
+          "iza",
+          "behind",
+          "in front of",
+          "between"
+        ],
+        [
+          "iznad",
+          "above",
+          "under",
+          "outside"
+        ],
+        [
+          "ispod",
+          "under",
+          "above",
+          "instead of"
+        ],
+        [
+          "između",
+          "between",
+          "during",
+          "except"
+        ],
+        [
+          "nakon",
+          "after",
+          "during",
+          "before"
+        ],
+        [
+          "tijekom",
+          "during",
+          "after",
+          "until"
+        ],
+        [
+          "osim",
+          "except",
+          "instead of",
+          "without"
+        ],
+        [
+          "umjesto",
+          "instead of",
+          "except",
+          "over"
+        ],
+        [
+          "izvan",
+          "outside (of)",
+          "inside",
+          "behind"
+        ],
+        [
+          "preko",
+          "over, across",
+          "under",
+          "between"
+        ],
+        [
+          "Odakle?",
+          "From where?",
+          "Where to?",
+          "Where?"
+        ],
+        [
+          "miris",
+          "smell",
+          "sound",
+          "colour"
+        ],
+        [
+          "zvuk",
+          "sound",
+          "smell",
+          "light"
+        ],
+        [
+          "komad",
+          "piece",
+          "bowl",
+          "end"
+        ],
+        [
+          "početak",
+          "beginning",
+          "end",
+          "century"
+        ],
+        [
+          "kraj",
+          "end",
+          "beginning",
+          "fence"
+        ],
+        [
+          "stoljeće",
+          "century",
+          "year",
+          "world"
+        ],
+        [
+          "zavjesa",
+          "curtain",
+          "fence",
+          "lock"
+        ],
+        [
+          "sudoper",
+          "sink",
+          "pot",
+          "washing machine"
+        ],
+        [
+          "zdjela",
+          "bowl",
+          "teapot",
+          "pot"
+        ],
+        [
+          "brava",
+          "lock",
+          "doorbell",
+          "key"
+        ],
+        [
+          "rasti",
+          "to grow",
+          "to hang",
+          "to find"
+        ],
+        [
+          "čuvati",
+          "to look after, to keep",
+          "to change",
+          "to lock"
+        ],
+        [
+          "zaključati",
+          "to lock",
+          "to repair",
+          "to leave (behind)"
+        ],
+        [
+          "paliti",
+          "to turn on",
+          "to grow",
+          "to change"
+        ]
+      ],
+      "sortkljuc": 1605002,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "-A, -E or -I?",
+      "meta": {
+        "info": "Sorting nouns by their genitive ending. Masculine and neuter nouns take **-a** — also those in **-o** and **-e**. Feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**.",
+        "infokratko": "m./n. **-a**; f. in **-a** **-e**; f. on a consonant **-i**.",
+        "stupci": "-A | -E | -I",
+        "opis": "Which ending does each noun take in the genitive?"
+      },
+      "stavke": [
+        [
+          "miris",
+          "-A"
+        ],
+        [
+          "lonac",
+          "-A"
+        ],
+        [
+          "zvono",
+          "-A"
+        ],
+        [
+          "stoljeće",
+          "-A"
+        ],
+        [
+          "kamen",
+          "-A"
+        ],
+        [
+          "sudoper",
+          "-A"
+        ],
+        [
+          "zavjesa",
+          "-E"
+        ],
+        [
+          "trava",
+          "-E"
+        ],
+        [
+          "biljka",
+          "-E"
+        ],
+        [
+          "brava",
+          "-E"
+        ],
+        [
+          "menta",
+          "-E"
+        ],
+        [
+          "autocesta",
+          "-E"
+        ],
+        [
+          "noć",
+          "-I"
+        ],
+        [
+          "sol",
+          "-I"
+        ],
+        [
+          "obitelj",
+          "-I"
+        ],
+        [
+          "ljubav",
+          "-I"
+        ]
+      ],
+      "sortkljuc": 1605003,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which job?",
+      "meta": {
+        "info": "Sorting sentences by the job of the genitive. The owner after a thing is belonging; a genitive after *bez, iz, kod, ispod…* follows a little word; after *nema* something is missing; and after 2, 3 or 4 it follows a number.",
+        "infokratko": "Owner → belonging; after *bez, iz…*; after *nema*; after 2–4.",
+        "stupci": "BELONGING | LITTLE WORD | NEMA | NUMBER",
+        "opis": "What is the genitive doing in each sentence? Sort them."
+      },
+      "stavke": [
+        [
+          "Miris kave je u kuhinji.",
+          "BELONGING"
+        ],
+        [
+          "Boja zavjese je plava.",
+          "BELONGING"
+        ],
+        [
+          "Zvono kuće ne radi.",
+          "BELONGING"
+        ],
+        [
+          "Kuća moje bake je stara.",
+          "BELONGING"
+        ],
+        [
+          "Pijem čaj bez šećera.",
+          "LITTLE WORD"
+        ],
+        [
+          "Mačka spava ispod kreveta.",
+          "LITTLE WORD"
+        ],
+        [
+          "Nakon ručka čitam.",
+          "LITTLE WORD"
+        ],
+        [
+          "Dolazim iz Splita.",
+          "LITTLE WORD"
+        ],
+        [
+          "Nema mlijeka.",
+          "NEMA"
+        ],
+        [
+          "U kući nema interneta.",
+          "NEMA"
+        ],
+        [
+          "Danas nema kamilice.",
+          "NEMA"
+        ],
+        [
+          "Nema problema!",
+          "NEMA"
+        ],
+        [
+          "Imam dva brata.",
+          "NUMBER"
+        ],
+        [
+          "Tri kave, molim.",
+          "NUMBER"
+        ],
+        [
+          "Kuća ima četiri sobe.",
+          "NUMBER"
+        ],
+        [
+          "Kuća je stara dva stoljeća.",
+          "NUMBER"
+        ]
+      ],
+      "sortkljuc": 1605004,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "a | e | i",
+        "info": "One tap for the genitive. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**. A word that has lost its *a* only needs the ending: *lonc___, ručk___*.",
+        "infokratko": "m./n. **-a**, f. **-e**, f. on a consonant **-i**.",
+        "opis": "The English is above. One tap puts the word in the genitive."
+      },
+      "stavke": [
+        [
+          "Kava bez mlijek___, molim.",
+          "Coffee without milk, please.",
+          "a"
+        ],
+        [
+          "Slika visi iznad sudoper___.",
+          "The picture hangs above the sink.",
+          "a"
+        ],
+        [
+          "Ključ je ispod zdjel___.",
+          "The key is under the bowl.",
+          "e"
+        ],
+        [
+          "Tijekom noć___ pada kiša.",
+          "During the night it rains.",
+          "i"
+        ],
+        [
+          "Čaj od kamilic___, molim.",
+          "Chamomile tea, please.",
+          "e"
+        ],
+        [
+          "Komad kamen___ je na stolu.",
+          "A piece of stone is on the table.",
+          "a"
+        ],
+        [
+          "Nakon ručk___ baka spava.",
+          "After lunch Grandma sleeps.",
+          "a"
+        ],
+        [
+          "Juha bez sol___ nije ukusna.",
+          "Soup without salt isn't tasty.",
+          "i"
+        ],
+        [
+          "Iza ograd___ raste trava.",
+          "Behind the fence grass grows.",
+          "e"
+        ],
+        [
+          "Kuća je stara dva stoljeć___.",
+          "The house is two centuries old.",
+          "a"
+        ],
+        [
+          "Poklon je od obitelj___.",
+          "The present is from the family.",
+          "i"
+        ],
+        [
+          "Miris juh___ je u kuhinji.",
+          "The smell of soup is in the kitchen.",
+          "e"
+        ],
+        [
+          "Pijem sok umjesto kav___.",
+          "I drink juice instead of coffee.",
+          "e"
+        ],
+        [
+          "Boja lonc___ je crvena.",
+          "The colour of the pot is red.",
+          "a"
+        ],
+        [
+          "Na zabavi smo do ponoć___.",
+          "We're at the party until midnight.",
+          "i"
+        ],
+        [
+          "Vrt je pokraj kuć___.",
+          "The garden is next to the house.",
+          "e"
+        ]
+      ],
+      "sortkljuc": 1605005,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the right form",
+      "meta": {
+        "info": "Choosing the correct genitive. The wrong options put the naming form or a form from another case after the little word — the target form, the place form or the company form. Only the genitive fits after *bez, iz, kod, ispod* and *nema*.",
+        "infokratko": "After *bez, iz, kod, ispod…* and *nema*: only the genitive.",
+        "opis": "Choose the correct form."
+      },
+      "stavke": [
+        [
+          "Pijem kavu bez ___ .",
+          "šećera",
+          "šećer",
+          "šećerom"
+        ],
+        [
+          "Dolazim iz ___ .",
+          "Zagreba",
+          "Zagreb",
+          "Zagrebu"
+        ],
+        [
+          "Ručamo kod ___ .",
+          "bake",
+          "baku",
+          "baki"
+        ],
+        [
+          "Mačka je ispod ___ .",
+          "stola",
+          "stol",
+          "stolu"
+        ],
+        [
+          "Danas nema ___ .",
+          "mlijeka",
+          "mlijeko",
+          "mlijekom"
+        ],
+        [
+          "Čaj od ___ , molim.",
+          "mente",
+          "menta",
+          "mentu"
+        ],
+        [
+          "Tijekom ___ pada kiša.",
+          "noći",
+          "noć",
+          "noća"
+        ],
+        [
+          "Kuća je blizu ___ .",
+          "mora",
+          "more",
+          "moru"
+        ],
+        [
+          "Iza ___ je vrt.",
+          "kuće",
+          "kuća",
+          "kuću"
+        ],
+        [
+          "Juha bez ___ nije dobra.",
+          "soli",
+          "sole",
+          "sol"
+        ],
+        [
+          "Ključ je kod ___ . (ja)",
+          "mene",
+          "meni",
+          "ja"
+        ],
+        [
+          "Sjedim pokraj ___ . (ona)",
+          "nje",
+          "nju",
+          "njoj"
+        ]
+      ],
+      "sortkljuc": 1605006,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the little word",
+      "meta": {
+        "info": "Choosing the little word from its English meaning. All of them take the genitive, so the ending does not help: the meaning in brackets decides. Keep *iznad* and *ispod*, *ispred* and *iza*, *osim* and *umjesto* apart.",
+        "infokratko": "The meaning decides. *iznad / ispod*, *ispred / iza*, *osim / umjesto*.",
+        "opis": "Choose the little word that matches the English in brackets."
+      },
+      "stavke": [
+        [
+          "Slika visi ___ stola. (above)",
+          "iznad",
+          "ispod",
+          "ispred"
+        ],
+        [
+          "Mačka spava ___ kreveta. (under)",
+          "ispod",
+          "iznad",
+          "iza"
+        ],
+        [
+          "Auto je ___ kuće. (in front of)",
+          "ispred",
+          "iza",
+          "ispod"
+        ],
+        [
+          "Vrt je ___ kuće. (behind)",
+          "iza",
+          "ispred",
+          "iznad"
+        ],
+        [
+          "Pijem čaj ___ kave. (instead of)",
+          "umjesto",
+          "osim",
+          "nakon"
+        ],
+        [
+          "Nitko ne zna ___ Marka. (except)",
+          "osim",
+          "umjesto",
+          "kod"
+        ],
+        [
+          "___ ručka spavam. (after)",
+          "Nakon",
+          "Tijekom",
+          "Osim"
+        ],
+        [
+          "___ noći pada snijeg. (during)",
+          "Tijekom",
+          "Nakon",
+          "Umjesto"
+        ],
+        [
+          "Park je ___ škole i pošte. (between)",
+          "između",
+          "preko",
+          "izvan"
+        ],
+        [
+          "Kuća je ___ grada. (outside)",
+          "izvan",
+          "između",
+          "iznad"
+        ]
+      ],
+      "sortkljuc": 1605007,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "After the number",
+      "meta": {
+        "info": "Choosing the form after a number. After 2, 3 and 4 the noun takes the genitive singular (*dvije kave, tri soka*), and from 5 up the genitive plural (*pet kava, deset sokova*). *Dva* goes with masculine and neuter words, *dvije* with feminine ones.",
+        "infokratko": "2–4: genitive singular; 5+: genitive plural. *dva* m./n., *dvije* f.",
+        "opis": "Two-three-four, or five and up? The number decides."
+      },
+      "stavke": [
+        [
+          "dvije ___",
+          "kave",
+          "kava",
+          "kavu"
+        ],
+        [
+          "pet ___",
+          "kava",
+          "kave",
+          "kavu"
+        ],
+        [
+          "tri ___",
+          "brata",
+          "braća",
+          "brat"
+        ],
+        [
+          "šest ___",
+          "prijatelja",
+          "prijatelji",
+          "prijatelju"
+        ],
+        [
+          "___ sestre (two)",
+          "dvije",
+          "dva",
+          "dvoje"
+        ],
+        [
+          "___ brata (two)",
+          "dva",
+          "dvije",
+          "dvoje"
+        ],
+        [
+          "četiri ___",
+          "sobe",
+          "soba",
+          "sobu"
+        ],
+        [
+          "deset ___",
+          "sokova",
+          "soka",
+          "sokovi"
+        ],
+        [
+          "dva ___",
+          "stoljeća",
+          "stoljeće",
+          "stoljećima"
+        ],
+        [
+          "sedam ___",
+          "jabuka",
+          "jabuke",
+          "jabuku"
+        ],
+        [
+          "tri ___",
+          "lonca",
+          "lonaca",
+          "lonac"
+        ],
+        [
+          "___ kava piješ na dan?",
+          "Koliko",
+          "Kakva",
+          "Koja"
+        ]
+      ],
+      "sortkljuc": 1605008,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which case is it?",
+      "meta": {
+        "info": "Telling the genitive apart from the other cases. The same ending can belong to two cases — *brata* is the target in *Čekam brata* and the genitive in *kod brata* — so ask the question the sentence answers: *čega?*, *koga?*, *komu?*, *gdje?* or *s kim?*",
+        "infokratko": "Ask the question: *čega? / koga?* genitive; *komu?* dative; *gdje?* locative; *s kim?* instrumental.",
+        "opis": "Which case is the word in quotation marks?"
+      },
+      "stavke": [
+        [
+          "Kava bez šećera. — \"šećera\" je...",
+          "genitiv",
+          "akuzativ",
+          "dativ"
+        ],
+        [
+          "Čekam brata. — \"brata\" je...",
+          "akuzativ",
+          "genitiv",
+          "dativ"
+        ],
+        [
+          "Ručam kod brata. — \"brata\" je...",
+          "genitiv",
+          "akuzativ",
+          "lokativ"
+        ],
+        [
+          "Pišem baki. — \"baki\" je...",
+          "dativ",
+          "genitiv",
+          "lokativ"
+        ],
+        [
+          "Knjiga je na stolu. — \"stolu\" je...",
+          "lokativ",
+          "dativ",
+          "genitiv"
+        ],
+        [
+          "Dolazim iz grada. — \"grada\" je...",
+          "genitiv",
+          "akuzativ",
+          "lokativ"
+        ],
+        [
+          "Idem u grad. — \"grad\" je...",
+          "akuzativ",
+          "genitiv",
+          "nominativ"
+        ],
+        [
+          "Idem s bratom. — \"bratom\" je...",
+          "instrumental",
+          "genitiv",
+          "dativ"
+        ],
+        [
+          "Nema kave. — \"kave\" je...",
+          "genitiv",
+          "akuzativ",
+          "nominativ"
+        ],
+        [
+          "Dvije kave, molim. — \"kave\" je...",
+          "genitiv",
+          "nominativ",
+          "akuzativ"
+        ]
+      ],
+      "sortkljuc": 1605009,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the genitive",
+      "meta": {
+        "info": "You type the genitive after the little word, *nema* or the owned thing. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns on a consonant take **-i**. Watch the words that lose an *a*: *lonac → lonca*.",
+        "infokratko": "**-a / -e / -i**. *lonac → lonca, ručak → ručka*.",
+        "opis": "Type the genitive of the word in brackets."
+      },
+      "stavke": [
+        [
+          "Pijem kavu bez ___ . (mlijeko)",
+          "mlijeka"
+        ],
+        [
+          "Dolazim iz ___ . (Split)",
+          "Splita"
+        ],
+        [
+          "Ručamo kod ___ . (teta)",
+          "tete"
+        ],
+        [
+          "Mačka je ispod ___ . (krevet)",
+          "kreveta"
+        ],
+        [
+          "Nema ___ . (šećer)",
+          "šećera"
+        ],
+        [
+          "Čaj od ___ , molim. (kamilica)",
+          "kamilice"
+        ],
+        [
+          "Tijekom ___ pada kiša. (noć)",
+          "noći"
+        ],
+        [
+          "Nakon ___ spavam. (ručak)",
+          "ručka"
+        ],
+        [
+          "Boja ___ je crvena. (lonac)",
+          "lonca"
+        ],
+        [
+          "Zvuk ___ je lijep. (zvono)",
+          "zvona"
+        ],
+        [
+          "Boja ___ je plava. (zavjesa)",
+          "zavjese"
+        ],
+        [
+          "Nitko ne dolazi osim ___ . (Marko)",
+          "Marka"
+        ]
+      ],
+      "sortkljuc": 1605010,
+      "bodovi": 664
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "With me, without you",
+      "meta": {
+        "info": "The pronoun after a little word takes its long form, the same as the long target form: *mene, tebe, njega, nas, vas, njih*. Only *ona* has its own genitive, *nje*. The last two items ask for the question words *koga* and *čega*.",
+        "infokratko": "*kod mene, bez tebe, iza njega, pokraj nje, kod nas, bez vas, kod njih*. *Koga? Čega?*",
+        "opis": "Type the pronoun in the form that follows the little word."
+      },
+      "stavke": [
+        [
+          "(ja) Ključ je kod ___ .",
+          "mene"
+        ],
+        [
+          "(ti) Ne idem bez ___ .",
+          "tebe"
+        ],
+        [
+          "(on) Sjedim iza ___ .",
+          "njega"
+        ],
+        [
+          "(ona) Sjedim pokraj ___ .",
+          "nje"
+        ],
+        [
+          "(mi) Kod ___ nema interneta.",
+          "nas"
+        ],
+        [
+          "(vi) Ovo pismo je od ___ .",
+          "vas"
+        ],
+        [
+          "(oni) Ručam kod ___ .",
+          "njih"
+        ],
+        [
+          "(Ana) Knjiga je kod ___ .",
+          "nje"
+        ],
+        [
+          "Kod ___ si? — Kod bake.",
+          "koga"
+        ],
+        [
+          "Bez ___ piješ kavu? — Bez šećera.",
+          "čega"
+        ]
+      ],
+      "sortkljuc": 1605011,
+      "bodovi": 664
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the key to the cellar",
+      "meta": {
+        "info": "A short story with the genitive in almost every sentence: places after little words, a number, *nema* and a thing that belongs to something. Find the little word from the question in the text before you answer.",
+        "infokratko": "Find the little word from the question in the text.",
+        "tekst": "U subotu je Petra kod bake. Baka živi u kući blizu mora. Kuća je stara dva stoljeća. Pokraj kuće je vrt, a u vrtu rastu menta, kamilica i dva limuna. Nakon ručka baka i Petra piju čaj od kamilice bez šećera. Onda baka traži ključ od podruma, ali ključa nema. Nema ga ni ispod stola ni iza vrata. Na kraju ga Petra nađe: ključ je u loncu, pokraj sudopera!",
+        "opis": "Read the text, then answer. Passive words: *rastu* (grow), *ključ od podruma* (the cellar key), *ga* (it), *na kraju* (in the end), *nađe* (finds)."
+      },
+      "stavke": [
+        [
+          "Gdje je Petra u subotu?",
+          "kod bake",
+          "kod tete",
+          "kod Marka"
+        ],
+        [
+          "Koliko je stara kuća?",
+          "dva stoljeća",
+          "sto godina",
+          "dvije godine"
+        ],
+        [
+          "Što je pokraj kuće?",
+          "vrt",
+          "more",
+          "podrum"
+        ],
+        [
+          "Kakav čaj piju nakon ručka?",
+          "od kamilice, bez šećera",
+          "od mente, sa šećerom",
+          "od kamilice, s mlijekom"
+        ],
+        [
+          "Što baka traži?",
+          "ključ od podruma",
+          "ključ od auta",
+          "lonac"
+        ],
+        [
+          "Gdje je ključ?",
+          "u loncu, pokraj sudopera",
+          "ispod stola",
+          "iza vrata"
+        ]
+      ],
+      "sortkljuc": 1605012,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "A review of Module C and the perfect: the instrumental, the dative, the locative, questions and negation. Each item comes from a level you have finished, so read the brackets carefully.",
+        "infokratko": "Review: instrumental, dative, locative, questions, negation, the perfect.",
+        "opis": "Not about the genitive — everything here comes from levels 8 to 15."
+      },
+      "stavke": [
+        [
+          "Idem u kino ___ . (Marko)",
+          "s Markom",
+          "s Marko",
+          "s Marku"
+        ],
+        [
+          "Putujemo na otok ___ . (trajekt)",
+          "trajektom",
+          "trajekt",
+          "trajektu"
+        ],
+        [
+          "Ideš li ___ ? (with me)",
+          "sa mnom",
+          "s ja",
+          "sa meni"
+        ],
+        [
+          "Pizza ___ , molim. (gljive)",
+          "s gljivama",
+          "s gljive",
+          "s gljivima"
+        ],
+        [
+          "Šaljem pismo ___ . (baka)",
+          "baki",
+          "baku",
+          "bakom"
+        ],
+        [
+          "___ pomažeš? — Mami.",
+          "Komu",
+          "Koga",
+          "S kim"
+        ],
+        [
+          "Kupit ću ___ knjigu. (to him)",
+          "mu",
+          "ga",
+          "njega"
+        ],
+        [
+          "Sjedim u ___ . (kuhinja)",
+          "kuhinji",
+          "kuhinju",
+          "kuhinje"
+        ],
+        [
+          "Ključ je na ___ . (stol)",
+          "stolu",
+          "stol",
+          "stola"
+        ],
+        [
+          "Pričamo o ___ . (ti)",
+          "tebi",
+          "tebe",
+          "ti"
+        ],
+        [
+          "Nitko ___ zna.",
+          "ne",
+          "ni",
+          "nije"
+        ],
+        [
+          "Ne pijem čaj, ___ kavu.",
+          "nego",
+          "ali",
+          "i"
+        ],
+        [
+          "___ je ovo kuća? — Moja.",
+          "Čija",
+          "Čiji",
+          "Čije"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Imaš li ključ?",
+          "Li imaš ključ?",
+          "Imaš ključ li?"
+        ],
+        [
+          "Ana i Petra su jučer ___ kod bake. (biti)",
+          "bile",
+          "bio",
+          "bila"
+        ],
+        [
+          "Jučer sam ___ ključ. (tražiti, a man speaking)",
+          "tražio",
+          "tražila",
+          "tražili"
+        ],
+        [
+          "Sutra ___ ručati kod bake. (mi)",
+          "ćemo",
+          "ćete",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Ručat ćemo kod bake.",
+          "Ručati ćemo kod bake.",
+          "Ćemo ručati kod bake."
+        ],
+        [
+          "Vidim ___ . (pas)",
+          "psa",
+          "pas",
+          "psu"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Kupujem kartu jer je koncert u subotu.",
+          "Kupujem kartu jer koncert je u subotu.",
+          "Kupujem kartu je jer koncert u subotu."
+        ]
+      ],
+      "sortkljuc": 1605013,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "Whole sentences with the genitive in all its jobs, built from tiles. The genitive follows the thing it belongs to, the little word, *nema* or the number, and a comma comes before *a* and *ali*.",
+        "infokratko": "Genitive after the thing, the little word, *nema* or 2–4. Comma before *a, ali*.",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Kuća moje bake je stara.",
+          "en: My grandma's house is old."
+        ],
+        [
+          "Pijem kavu bez šećera i bez mlijeka.",
+          "en: I drink coffee without sugar and without milk."
+        ],
+        [
+          "Putujemo iz Zagreba do mora.",
+          "en: We're travelling from Zagreb to the sea."
+        ],
+        [
+          "Pokraj kuće je vrt, a iza kuće je ograda.",
+          "en: Next to the house there's a garden, and behind the house a fence."
+        ],
+        [
+          "Odakle si? — Iz Splita.",
+          "en: Where are you from? — From Split."
+        ],
+        [
+          "Kod bake nema interneta, ali nema ni žurbe.",
+          "en: At Grandma's there's no internet, but there's no hurry either."
+        ],
+        [
+          "Mačka spava ispod kreveta.",
+          "en: The cat sleeps under the bed."
+        ],
+        [
+          "Slika visi iznad sudopera.",
+          "en: The picture hangs above the sink."
+        ],
+        [
+          "Nakon ručka pijem čaj od mente.",
+          "en: After lunch I drink mint tea."
+        ],
+        [
+          "Ključ je kod mene.",
+          "en: The key is with me."
+        ],
+        [
+          "Dvije kave i tri soka, molim.",
+          "en: Two coffees and three juices, please."
+        ],
+        [
+          "Imam dva brata i dvije sestre.",
+          "en: I have two brothers and two sisters."
+        ],
+        [
+          "Koliko kava piješ na dan?",
+          "en: How many coffees do you drink a day?"
+        ],
+        [
+          "Umjesto kave pijem čaj.",
+          "en: Instead of coffee I drink tea."
+        ],
+        [
+          "Kuća je stara dva stoljeća.",
+          "en: The house is two centuries old."
+        ]
+      ],
+      "sortkljuc": 1605014,
+      "bodovi": 566
+    },
+    {
+      "cjelina": "Test 16",
+      "cjelinanaslov": "Test 16: The Genitive",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English. The genitive follows little words, *nema* and numbers, and the owner comes after the thing. A pronoun after a little word takes its long form. Where Croatian allows more than one word order, the usual ones are accepted.",
+        "infokratko": "Genitive after little words, *nema*, numbers; owner after the thing. *kod mene*.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Coffee without sugar, please.",
+          "Kava bez šećera, molim / Kavu bez šećera, molim"
+        ],
+        [
+          "I come from Split.",
+          "Dolazim iz Splita / Ja sam iz Splita"
+        ],
+        [
+          "Where are you from?",
+          "Odakle si / Odakle ste"
+        ],
+        [
+          "There's no milk.",
+          "Nema mlijeka"
+        ],
+        [
+          "My grandma's house is old.",
+          "Kuća moje bake je stara"
+        ],
+        [
+          "The cat is under the table.",
+          "Mačka je ispod stola"
+        ],
+        [
+          "The garden is behind the house.",
+          "Vrt je iza kuće"
+        ],
+        [
+          "The key is with me.",
+          "Ključ je kod mene"
+        ],
+        [
+          "I'm not going without you.",
+          "Ne idem bez tebe"
+        ],
+        [
+          "After lunch I sleep.",
+          "Nakon ručka spavam / Spavam nakon ručka"
+        ],
+        [
+          "Mint tea, please.",
+          "Čaj od mente, molim"
+        ],
+        [
+          "I have two brothers.",
+          "Imam dva brata"
+        ],
+        [
+          "Three coffees, please.",
+          "Tri kave, molim"
+        ],
+        [
+          "Five juices, please.",
+          "Pet sokova, molim"
+        ],
+        [
+          "A piece of cake, please.",
+          "Komad torte, molim"
+        ],
+        [
+          "No problem!",
+          "Nema problema"
+        ]
+      ],
+      "sortkljuc": 1605015,
+      "bodovi": 664
     },
     {
       "cjelina": "Lesson 17",
@@ -81782,13 +92670,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Time to give orders",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. The imperative gives orders, instructions and directions. You build it from the *ti* form of the present: *gledaš → gledaj, uzmeš → uzmi, piješ → pij*, and for a group or a polite *vi* you add **-te**: *uzmite*.",
+        "infokratko": "The imperative, from the *ti* form: *gledaj, uzmi, pij*. Groups and polite *vi*: **+te**.",
+        "opis": "Read it through — by the end you can make pancakes and send a tourist to the station."
+      },
       "stavke": [
         [
-          "Time to give orders — politely, of course. Recipes, directions, a bossy football coach: they all run on the **imperative**."
+          "Time to give orders — politely, of course. Recipes, directions, a football coach: they all use the **imperative**."
         ],
         [
-          "Croatian commands are short and punchy: *Uzmi!* (take!), *Idi!* (go!), *Miješaj!* (mix!). Today you'll learn them the best way there is: by making pancakes."
+          "Croatian commands are short: *Uzmi!* (take!), *Idi!* (go!), *Miješaj!* (mix!). For a group, or for someone you call *vi*, they get **-te**: *Uzmite! Idite!*"
+        ],
+        [
+          "**You already know the ti form.** The imperative is built from it, so every verb you have learned since Lesson 3 can now give an order."
+        ],
+        [
+          "By the end of this lesson you can follow and write a recipe, give directions in town, and say *don't* two ways: *Ne trči!* and *Nemoj trčati!*"
         ]
       ],
       "sortkljuc": 1701001,
@@ -81803,7 +92701,9 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "trajanje": "60",
-        "opis": "Genitive sprint! Tap the correct form."
+        "info": "A timed warm-up on the genitive from Lesson 16. After *bez, iz, kod, pokraj* and *nema* a masculine or neuter word takes **-a** (*šećera, mora*), and a feminine word in **-a** takes **-e** (*bake, kuće*).",
+        "infokratko": "Lesson 16 against the clock: **+a** (*šećera, mora*), **-a → -e** (*bake, kuće*).",
+        "opis": "Genitive sprint from Lesson 16 — tap the correct form before the timer runs out."
       },
       "stavke": [
         [
@@ -81825,10 +92725,38 @@ window.PODACI = {
         [
           "nema (problem)",
           "problema"
+        ],
+        [
+          "pokraj (kuća)",
+          "kuće"
+        ],
+        [
+          "blizu (more)",
+          "mora"
+        ],
+        [
+          "bez (mlijeko)",
+          "mlijeka"
+        ],
+        [
+          "iza (zid)",
+          "zida"
+        ],
+        [
+          "kod (Marko)",
+          "Marka"
+        ],
+        [
+          "miris (kava)",
+          "kave"
+        ],
+        [
+          "___ si? — Iz Splita.",
+          "Odakle"
         ]
       ],
       "sortkljuc": 1701002,
-      "bodovi": 953
+      "bodovi": 509
     },
     {
       "cjelina": "Lesson 17",
@@ -81838,7 +92766,9 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Kitchen & street words",
       "meta": {
-        "opis": "Tap a card to reveal the meaning."
+        "info": "The words for a recipe and for finding your way. The kitchen half is new — *brašno, tava, ulje, tijesto* — and the street half brings the three directions *lijevo, desno, ravno* with *naprijed* and *natrag*. *Kolodvor, cesta* and *semafor* come back from Vocabulary 6.",
+        "infokratko": "Recipe words (*brašno, tava, ulje*) and directions (*lijevo, desno, ravno, naprijed, natrag*).",
+        "opis": "What you cook with and how you get there. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
@@ -81858,6 +92788,18 @@ window.PODACI = {
           "pan"
         ],
         [
+          "ulje",
+          "oil"
+        ],
+        [
+          "vrhnje",
+          "cream"
+        ],
+        [
+          "tijesto",
+          "dough"
+        ],
+        [
           "marmelada",
           "jam"
         ],
@@ -81874,6 +92816,14 @@ window.PODACI = {
           "road"
         ],
         [
+          "semafor",
+          "traffic lights"
+        ],
+        [
+          "raskrižje",
+          "crossroads"
+        ],
+        [
           "lijevo",
           "left"
         ],
@@ -81883,78 +92833,164 @@ window.PODACI = {
         ],
         [
           "ravno",
-          "straight"
+          "straight ahead"
+        ],
+        [
+          "naprijed",
+          "forward"
+        ],
+        [
+          "natrag",
+          "back, backwards"
+        ],
+        [
+          "daleko",
+          "far"
         ]
       ],
       "sortkljuc": 1701003,
-      "bodovi": 715
+      "bodovi": 509
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
       "stranica": 4,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "Making commands",
-      "meta": {},
+      "format": "kartice",
+      "naslov": "Verbs and their commands",
+      "meta": {
+        "info": "Each verb is shown three times: the infinitive, the *ti* form and the order. Compare the last two — the imperative is the *ti* form with a new ending. *Peci* (bake!) changes *č* back to *c*, and *dođi* and *idi* are worth learning whole.",
+        "infokratko": "infinitive → *ti* form → order: *uzeti → uzmeš → uzmi!* *peci, dođi, idi*: learn whole.",
+        "opis": "Infinitive, *ti* form, command. Tap a card to reveal the meaning."
+      },
       "stavke": [
         [
-          "**Take the *ti* form and swap the ending.**"
+          "uzeti → uzmeš → uzmi!",
+          "to take → take!"
         ],
         [
-          "tab: Family",
-          "You say (ti)",
-          "The order",
-          "Ending"
+          "dodati → dodaš → dodaj!",
+          "to add → add!"
         ],
         [
-          "tab: -am verbs",
-          "gledaš",
-          "gledaj!",
-          "**-aj**"
+          "miješati → miješaš → miješaj!",
+          "to mix → mix!"
         ],
         [
-          "tab: -am verbs",
-          "dodaš",
-          "dodaj!",
-          "**-aj**"
+          "zagrijati → zagriješ → zagrij!",
+          "to heat up → heat up!"
         ],
         [
-          "tab: most others",
-          "ideš",
-          "idi!",
-          "**-i**"
+          "staviti → staviš → stavi!",
+          "to put → put!"
         ],
         [
-          "tab: most others",
-          "uzmeš",
-          "uzmi!",
-          "**-i**"
+          "okrenuti → okreneš → okreni!",
+          "to flip, to turn over → flip!"
         ],
         [
-          "tab: vowel verbs",
-          "piješ",
-          "pij!",
-          "**-j**"
+          "peći → pečeš → peci!",
+          "to bake, to fry → bake!"
         ],
         [
-          "**For groups or politeness, just add *-te*.** *idite, uzmite, pijte*. You've heard it for sixteen lessons: *Izvoli**te**!*"
+          "podijeliti → podijeliš → podijeli!",
+          "to share → share!"
         ],
         [
-          "**Now you write them.** [Gledaj] me! [Idi] doma! [Uzmi] jednu!"
+          "skrenuti → skreneš → skreni!",
+          "to turn (left or right) → turn!"
+        ],
+        [
+          "prijeći → prijeđeš → prijeđi!",
+          "to cross → cross!"
+        ],
+        [
+          "požuriti → požuriš → požuri!",
+          "to hurry → hurry!"
+        ],
+        [
+          "doći → dođeš → dođi!",
+          "to come → come!"
+        ],
+        [
+          "ići → ideš → idi!",
+          "to go → go!"
+        ],
+        [
+          "nemoj / nemojte",
+          "don't (softer)"
         ]
       ],
       "sortkljuc": 1701004,
-      "bodovi": 745
+      "bodovi": 493
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
       "stranica": 5,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Making commands",
+      "meta": {
+        "info": "The first rule of the lesson. Take the *ti* form and change its ending: **-aš** becomes **-aj** (*gledaj*), **-eš** or **-iš** becomes **-i** (*uzmi, stavi*), and after a **j** the ending is dropped (*piješ → pij*). For a group or the polite *vi*, add **-te**.",
+        "infokratko": "**-aš → -aj**, **-eš / -iš → -i**, *-ješ* → **-j** (*pij*). Group or polite: **+te**.",
+        "infoodmah": "da",
+        "opis": "One form, three endings. Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**Take the *ti* form and change the ending.**"
+        ],
+        [
+          "tab: The ti form ends in",
+          "You say (ti)",
+          "The order (ti)",
+          "The order (vi)"
+        ],
+        [
+          "tab: -aš",
+          "gledaš, dodaš",
+          "gled**aj**!, dod**aj**!",
+          "gled**ajte**!, dod**ajte**!"
+        ],
+        [
+          "tab: -eš, -iš",
+          "uzmeš, staviš",
+          "uzm**i**!, stav**i**!",
+          "uzm**ite**!, stav**ite**!"
+        ],
+        [
+          "tab: -ješ (a j before -eš)",
+          "piješ, zagriješ",
+          "pi**j**!, zagri**j**!",
+          "pi**jte**!, zagri**jte**!"
+        ],
+        [
+          "**Three steps.** Say the *ti* form, drop **-š**, and look at what is left: *dodaš → doda- → dodaj*, *uzmeš → uzme- → uzmi*, *piješ → pije- → pij*. The same works for every verb you know: *kupuješ → kupuj, trčiš → trči, pišeš → piši*."
+        ],
+        [
+          "**For a group or for vi, add -te.** *Uzmi!* to a friend, ***Uzmite!*** to two friends or to a stranger. You have heard it since the early lessons: *Izvoli**te**!*"
+        ],
+        [
+          "**Two to learn whole.** *Ići* and *doći* have present forms that do not look like the infinitive (*ideš, dođeš*), so learn their orders as a pair: ***idi / idite*** and ***dođi / dođite***. *Peći* gives ***peci***."
+        ],
+        [
+          "**Now you write them.** [Gledaj] me! [Uzmi] jednu! [Pij] vodu! [Uzmite] kartu!"
+        ]
+      ],
+      "sortkljuc": 1701005,
+      "bodovi": 398
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 6,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Spot the command",
       "meta": {
+        "info": "Each command beside its meaning. The endings show the three groups: **-aj** from verbs in *-aš* (*dodaj, miješaj*), **-i** from verbs in *-eš* or *-iš* (*uzmi, skreni, stavi*), and **-j** after a *j* (*pij*). *Idi* and *dođi* are the two to learn whole.",
+        "infokratko": "**-aj** (*dodaj*), **-i** (*uzmi, skreni*), **-j** (*pij*). *idi, dođi* whole.",
         "opis": "Match the command with its meaning."
       },
       "stavke": [
@@ -81979,7 +93015,7 @@ window.PODACI = {
           "Turn!"
         ],
         [
-          "Pogledaj!",
+          "Gledaj!",
           "Look!"
         ],
         [
@@ -81989,71 +93025,370 @@ window.PODACI = {
         [
           "Dođi!",
           "Come!"
-        ]
-      ],
-      "sortkljuc": 1701005,
-      "bodovi": 953
-    },
-    {
-      "cjelina": "Lesson 17",
-      "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the form",
-      "meta": {
-        "opis": "One friend or a group? Choose the right command."
-      },
-      "stavke": [
-        [
-          "(prijatelju) ___ tri jaja!",
-          "Uzmi",
-          "Uzmite"
         ],
         [
-          "(grupi) ___ ravno do semafora!",
-          "Idite",
-          "Idi"
+          "Stavi!",
+          "Put!"
         ],
         [
-          "(prijatelju) ___ malo soli!",
-          "Dodaj",
-          "Dodajte"
-        ],
-        [
-          "(grupi) ___ vodu!",
-          "Pijte",
-          "Pij"
-        ],
-        [
-          "(prijatelju) ___ lijevo!",
-          "Skreni",
-          "Skrenite"
+          "Pij!",
+          "Drink!"
         ]
       ],
       "sortkljuc": 1701006,
-      "bodovi": 953
+      "bodovi": 509
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
       "stranica": 7,
       "broj": 9999,
-      "format": "tekst",
-      "naslov": "Saying \"don't\"",
-      "meta": {},
+      "format": "razvrstavanje",
+      "naslov": "One friend or a group?",
+      "meta": {
+        "info": "Sorting commands by who they are for. The plain form is for one person you call *ti*: *uzmi, idi, pij*. With **-te** it is for a group, or for one person you call *vi*: *uzmite, idite, pijte*. *Nemoj* and *nemojte* work the same way.",
+        "infokratko": "No **-te** → one friend (*ti*). **-te** → a group or polite *vi*.",
+        "stupci": "JEDNOM (ti) | GRUPI ILI VI",
+        "opis": "Is the command for one friend, or for a group (or someone you call *vi*)?"
+      },
       "stavke": [
         [
-          "Two flavours of don't:"
+          "Uzmi tri jaja!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Idi ravno!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Pij vodu!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Dođi sutra!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Skreni lijevo!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Nemoj trčati!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Dodaj malo soli!",
+          "JEDNOM (ti)"
+        ],
+        [
+          "Uzmite kartu!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Idite ravno do semafora!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Pijte vodu!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Dođite sutra!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Skrenite desno!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Nemojte spavati!",
+          "GRUPI ILI VI"
+        ],
+        [
+          "Požurite!",
+          "GRUPI ILI VI"
+        ]
+      ],
+      "sortkljuc": 1701007,
+      "bodovi": 589
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "aj | i | j",
+        "info": "One tap turns the verb into an order for one friend. Verbs whose *ti* form ends in **-aš** take **-aj**, verbs in **-eš** or **-iš** take **-i**, and when a **j** comes before *-eš* the order ends in that **j**: *piješ → pij, kupuješ → kupuj*.",
+        "infokratko": "*-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.",
+        "opis": "The *ti* form is in the English line. One tap makes the order."
+      },
+      "stavke": [
+        [
+          "Gled___ me!",
+          "Look at me! (gledaš)",
+          "aj"
+        ],
+        [
+          "Uzm___ tri jaja!",
+          "Take three eggs! (uzmeš)",
+          "i"
+        ],
+        [
+          "Pi___ vodu!",
+          "Drink water! (piješ)",
+          "j"
+        ],
+        [
+          "Dod___ malo soli!",
+          "Add a little salt! (dodaš)",
+          "aj"
+        ],
+        [
+          "Skren___ lijevo!",
+          "Turn left! (skreneš)",
+          "i"
+        ],
+        [
+          "Zagri___ tavu!",
+          "Heat up the pan! (zagriješ)",
+          "j"
+        ],
+        [
+          "Miješ___ dvije minute!",
+          "Mix for two minutes! (miješaš)",
+          "aj"
+        ],
+        [
+          "Stav___ marmeladu!",
+          "Put on the jam! (staviš)",
+          "i"
+        ],
+        [
+          "Kupu___ kruh!",
+          "Buy bread! (kupuješ)",
+          "j"
+        ],
+        [
+          "Sluš___ učiteljicu!",
+          "Listen to the teacher! (slušaš)",
+          "aj"
+        ],
+        [
+          "Okren___ palačinku!",
+          "Flip the pancake! (okreneš)",
+          "i"
+        ],
+        [
+          "Ču___ ovo!",
+          "Listen to this! (čuješ)",
+          "j"
+        ],
+        [
+          "Čit___ knjigu!",
+          "Read the book! (čitaš)",
+          "aj"
+        ],
+        [
+          "Piš___ pismo!",
+          "Write the letter! (pišeš)",
+          "i"
+        ],
+        [
+          "Trč___!",
+          "Run! (trčiš)",
+          "i"
+        ],
+        [
+          "Vježb___ svaki dan!",
+          "Practise every day! (vježbaš)",
+          "aj"
+        ]
+      ],
+      "sortkljuc": 1701008,
+      "bodovi": 605
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the form",
+      "meta": {
+        "info": "Choosing the correct imperative. The wrong options take the wrong ending: **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j* where none belongs. The label in brackets tells you who gets the order: one friend, or a group.",
+        "infokratko": "Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.",
+        "opis": "One friend or a group? Choose the right command."
+      },
+      "stavke": [
+        [
+          "(prijatelju) ___ tri jaja!",
+          "Uzmi",
+          "Uzmaj",
+          "Uzmij"
+        ],
+        [
+          "(grupi) ___ ravno do semafora!",
+          "Idite",
+          "Idajte",
+          "Idijte"
+        ],
+        [
+          "(prijatelju) ___ malo soli!",
+          "Dodaj",
+          "Dodi",
+          "Dodij"
+        ],
+        [
+          "(grupi) ___ vodu!",
+          "Pijte",
+          "Pijite",
+          "Pijajte"
+        ],
+        [
+          "(prijatelju) ___ lijevo!",
+          "Skreni",
+          "Skrenaj",
+          "Skrenij"
+        ],
+        [
+          "(prijatelju) ___ tavu!",
+          "Zagrij",
+          "Zagriji",
+          "Zagrijaj"
+        ],
+        [
+          "(grupi) ___ dvije minute!",
+          "Miješajte",
+          "Miješite",
+          "Miješijte"
+        ],
+        [
+          "(prijatelju) ___ sutra!",
+          "Dođi",
+          "Dođaj",
+          "Dođij"
+        ],
+        [
+          "(grupi) ___ marmeladu!",
+          "Stavite",
+          "Stavajte",
+          "Stavijte"
+        ],
+        [
+          "(prijatelju) ___ palačinku!",
+          "Okreni",
+          "Okrenaj",
+          "Okrenij"
+        ],
+        [
+          "(grupi) ___ ! Vlak kreće!",
+          "Požurite",
+          "Požurajte",
+          "Požurijte"
+        ],
+        [
+          "(prijatelju) ___ pismo!",
+          "Piši",
+          "Pišaj",
+          "Pišij"
+        ]
+      ],
+      "sortkljuc": 1701009,
+      "bodovi": 605
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the order",
+      "meta": {
+        "info": "You type the order yourself, for one friend or for a group. Start from the *ti* form: **-aš** gives **-aj**, **-eš** and **-iš** give **-i**, and *-ješ* gives **-j**. For the group add **-te**. *Idi* and *dođi* are the two learned whole.",
+        "infokratko": "*ti* form → **-aj / -i / -j**; group **+te**. *idi, dođi*.",
+        "opis": "Type the command. (ti) = one friend, (vi) = a group."
+      },
+      "stavke": [
+        [
+          "(ti) uzeti →",
+          "Uzmi"
+        ],
+        [
+          "(vi) uzeti →",
+          "Uzmite"
+        ],
+        [
+          "(ti) dodati →",
+          "Dodaj"
+        ],
+        [
+          "(vi) dodati →",
+          "Dodajte"
+        ],
+        [
+          "(ti) piti →",
+          "Pij"
+        ],
+        [
+          "(vi) piti →",
+          "Pijte"
+        ],
+        [
+          "(ti) skrenuti →",
+          "Skreni"
+        ],
+        [
+          "(vi) skrenuti →",
+          "Skrenite"
+        ],
+        [
+          "(ti) ići →",
+          "Idi"
+        ],
+        [
+          "(vi) doći →",
+          "Dođite"
+        ],
+        [
+          "(ti) staviti →",
+          "Stavi"
+        ],
+        [
+          "(vi) gledati →",
+          "Gledajte"
+        ]
+      ],
+      "sortkljuc": 1701010,
+      "bodovi": 715
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Saying \"don't\"",
+      "meta": {
+        "info": "The second rule: two ways to say *don't*. Put *ne* in front of the order (*Ne trči!*), or use *nemoj* / *nemojte* with the infinitive (*Nemoj trčati!*). Both are correct; *nemoj* sounds softer. A *don't* is usually about an ongoing action, so it takes a verb like *trčati* or *gledati*.",
+        "infokratko": "*Ne* + order (*Ne trči!*) or *nemoj / nemojte* + infinitive (*Nemoj trčati!*).",
+        "infoodmah": "da",
+        "opis": "Two ways to say *don't*. Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**Two kinds of *don't*.**"
         ],
         [
           "tab: Style",
-          "Recipe",
+          "How",
           "Example"
         ],
         [
           "tab: direct",
-          "**ne** + imperative",
+          "**ne** + order",
           "Ne trči! Ne gledaj telefon!"
         ],
         [
@@ -82062,23 +93397,31 @@ window.PODACI = {
           "Nemoj trčati! Nemojte spavati!"
         ],
         [
-          "**Both are correct**, and *nemoj* sounds friendlier — it is the one you want with people you have just met."
+          "**Both are correct**, and *nemoj* sounds friendlier — it is the one you want with people you have just met. *Nemoj* is for one friend, *nemojte* for a group or for *vi*, just like *uzmi / uzmite*."
+        ],
+        [
+          "**After *nemoj*, the verb stays in the infinitive:** *Nemoj **gledati** telefon!* — not *Nemoj gledaj*."
+        ],
+        [
+          "**Don't, while something is going on.** A *don't* usually stops an activity, so it uses a verb for an ongoing action: *Ne trči! Nemoj piti kavu navečer!*"
         ],
         [
           "**Now you write them.** [Ne] trči! [Nemoj] trčati! [Nemojte] spavati!"
         ]
       ],
-      "sortkljuc": 1701007,
-      "bodovi": 626
+      "sortkljuc": 1701011,
+      "bodovi": 398
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 8,
+      "stranica": 12,
       "broj": 9999,
       "format": "upis",
       "naslov": "Make it negative",
       "meta": {
+        "info": "You turn each order into a *don't*, and both ways are accepted: *ne* in front of the order, or *nemoj / nemojte* with the infinitive. Keep the person: an order with **-te** needs *nemojte*.",
+        "infokratko": "*Ne* + order, or *nemoj(te)* + infinitive. **-te** → *nemojte*.",
         "opis": "Tell them NOT to do it — both ways work."
       },
       "stavke": [
@@ -82093,19 +93436,49 @@ window.PODACI = {
         [
           "Spavajte! →",
           "Ne spavajte / Nemojte spavati"
+        ],
+        [
+          "Pij kavu! →",
+          "Ne pij kavu / Nemoj piti kavu"
+        ],
+        [
+          "Idi doma! →",
+          "Ne idi doma / Nemoj ići doma"
+        ],
+        [
+          "Čekajte ovdje! →",
+          "Ne čekajte ovdje / Nemojte čekati ovdje"
+        ],
+        [
+          "Jedi kolač! →",
+          "Ne jedi kolač / Nemoj jesti kolač"
+        ],
+        [
+          "Sjedi ovdje! →",
+          "Ne sjedi ovdje / Nemoj sjediti ovdje"
+        ],
+        [
+          "Trčite preko ceste! →",
+          "Ne trčite preko ceste / Nemojte trčati preko ceste"
+        ],
+        [
+          "Pjevaj tako glasno! →",
+          "Ne pjevaj tako glasno / Nemoj pjevati tako glasno"
         ]
       ],
-      "sortkljuc": 1701008,
-      "bodovi": 894
+      "sortkljuc": 1701012,
+      "bodovi": 716
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 9,
+      "stranica": 13,
       "broj": 9999,
       "format": "poredak",
       "naslov": "The recipe",
       "meta": {
+        "info": "Sequence the pancake recipe. Ingredients come first, then salt and mixing; the pan is heated before anything is fried, and a pancake is flipped only after it has been in the pan. Jam and sharing come last.",
+        "infokratko": "Ingredients, mixing, the hot pan, frying, flipping, jam, sharing.",
         "opis": "The pancake recipe got scrambled! Put the steps in order."
       },
       "stavke": [
@@ -82134,17 +93507,19 @@ window.PODACI = {
           "Podijeli sa sestrom!"
         ]
       ],
-      "sortkljuc": 1701009,
-      "bodovi": 953
+      "sortkljuc": 1701013,
+      "bodovi": 509
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 10,
+      "stranica": 14,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the instructions",
       "meta": {
+        "info": "Whole instructions from tiles. The order usually opens the sentence (*Uzmi, Idite, Skrenite*), *ne* stands directly in front of it, and after *nemoj* the verb is an infinitive. Two orders can be joined with *i*.",
+        "infokratko": "The order first; *ne* right before it; *nemoj* + infinitive.",
         "opis": "Arrange the tiles."
       },
       "stavke": [
@@ -82162,20 +93537,106 @@ window.PODACI = {
         ],
         [
           "Dođi sutra i pij vodu!"
+        ],
+        [
+          "Zagrij tavu i stavi malo ulja."
+        ],
+        [
+          "Nemoj gledati telefon!"
+        ],
+        [
+          "Okreni palačinku i peci još jednu minutu."
+        ],
+        [
+          "Idi natrag do raskrižja."
+        ],
+        [
+          "Požurite, vlak kreće za deset minuta!"
+        ],
+        [
+          "Nemojte ići lijevo, skrenite desno!"
         ]
       ],
-      "sortkljuc": 1701010,
-      "bodovi": 953
+      "sortkljuc": 1701014,
+      "bodovi": 605
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 11,
+      "stranica": 15,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Command sprint",
+      "meta": {
+        "trajanje": "45",
+        "info": "A timed sprint from the *ti* form to the order. **-aš** becomes **-aj** (*gledaš → gledaj*), **-eš** or **-iš** becomes **-i** (*uzmeš → uzmi, staviš → stavi*), and *-ješ* becomes **-j** (*piješ → pij*). *Ideš → idi* and *dođeš → dođi* are the two learned whole.",
+        "infokratko": "*ti* form → order: **-aj**, **-i**, **-j**. *idi, dođi*.",
+        "opis": "A *ti* form flashes — tap the order before the timer runs out."
+      },
+      "stavke": [
+        [
+          "gledaš",
+          "gledaj"
+        ],
+        [
+          "uzmeš",
+          "uzmi"
+        ],
+        [
+          "piješ",
+          "pij"
+        ],
+        [
+          "dodaš",
+          "dodaj"
+        ],
+        [
+          "ideš",
+          "idi"
+        ],
+        [
+          "dođeš",
+          "dođi"
+        ],
+        [
+          "staviš",
+          "stavi"
+        ],
+        [
+          "skreneš",
+          "skreni"
+        ],
+        [
+          "trčiš",
+          "trči"
+        ],
+        [
+          "miješaš",
+          "miješaj"
+        ],
+        [
+          "zagriješ",
+          "zagrij"
+        ],
+        [
+          "pišeš",
+          "piši"
+        ]
+      ],
+      "sortkljuc": 1701015,
+      "bodovi": 509
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 16,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Lost in town",
       "meta": {
-        "opis": "A tourist asks you for directions. Be the local hero!"
+        "info": "A tourist asks you the way, so you use the *vi* orders: *idite, skrenite, hodajte*. The tourist reacts to what you say, and both of your options are correct directions. Nothing in your lines depends on your gender.",
+        "infokratko": "Polite *vi* orders: *idite, skrenite, hodajte*. The tourist reacts.",
+        "opis": "A tourist asks you for directions. Be the local hero! Passive words: *Oprostite* (Excuse me), *Hvala vam puno* (Thank you very much), *za deset minuta* (in ten minutes), *Sretan put* (Have a good trip)."
       },
       "stavke": [
         [
@@ -82185,16 +93646,25 @@ window.PODACI = {
         [
           "ti",
           "Idite ravno do semafora.",
-          "Nemojte ići ravno — skrenite desno!"
+          "Idite ravno do raskrižja."
         ],
         [
           "npc",
-          "Dobro. A onda?"
+          "Ravno? Dobro. A onda?"
         ],
         [
           "ti",
           "Na semaforu skrenite lijevo.",
-          "Hodajte pokraj parka."
+          "Na raskrižju skrenite desno."
+        ],
+        [
+          "npc",
+          "I onda?"
+        ],
+        [
+          "ti",
+          "Hodajte pokraj parka. Kolodvor je iza parka.",
+          "Prijeđite cestu. Kolodvor je ispred vas."
         ],
         [
           "npc",
@@ -82207,26 +93677,92 @@ window.PODACI = {
         ],
         [
           "npc",
-          "Hvala vam puno!"
+          "Odlično, nije daleko! Idem odmah."
         ],
         [
           "ti",
-          "Sretan put! I ne trčite preko ceste!"
+          "Dobro! I ne trčite preko ceste!",
+          "Dobro! Nemojte trčati preko ceste!"
+        ],
+        [
+          "npc",
+          "Neću! Hvala vam puno!"
+        ],
+        [
+          "ti",
+          "Nema problema. Sretan put!",
+          "Molim. Sretan put!"
         ]
       ],
-      "sortkljuc": 1701011,
-      "bodovi": 804
+      "sortkljuc": 1701016,
+      "bodovi": 509
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 12,
+      "stranica": 17,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: Coach Zvone",
+      "meta": {
+        "info": "Read the training session, then answer in Croatian. Zvone speaks almost only in orders: to one child the order has no **-te** (*dodaj, skoči*), to the whole team it has **-te** (*trčite, pijte*). Watch who each order is for.",
+        "infokratko": "Read, then answer. No **-te** → one child; **-te** → the whole team.",
+        "tekst": "U subotu ujutro trener Zvone trenira djecu. \"Dobro jutro! Prvo trčite pet minuta!\" Djeca trče. Onda Zvone daje upute: \"Ana, dodaj loptu Marku! Marko, skoči! Petra, ne gledaj telefon, ti si golman!\" Poslije sat vremena Zvone kaže: \"Sada pijte vodu. Nemojte piti sok!\" Na kraju kaže: \"Bravo! Dođite sutra u devet. Sutra je utakmica!\"",
+        "opis": "Read the story, then answer the questions. Passive words: *daje upute* (gives instructions), *skoči* (jump!), *sat vremena* (an hour), *na kraju* (at the end), *u devet* (at nine)."
+      },
+      "stavke": [
+        [
+          "Tko je Zvone?",
+          "trener",
+          "golman",
+          "učitelj"
+        ],
+        [
+          "Što djeca prvo rade?",
+          "trče pet minuta",
+          "piju vodu",
+          "igraju utakmicu"
+        ],
+        [
+          "Komu Ana dodaje loptu?",
+          "Marku",
+          "Petri",
+          "Ivanu"
+        ],
+        [
+          "Što Zvone kaže Petri?",
+          "Ne gledaj telefon!",
+          "Dodaj loptu!",
+          "Skoči!"
+        ],
+        [
+          "Što djeca trebaju piti?",
+          "vodu",
+          "sok",
+          "mlijeko"
+        ],
+        [
+          "Kada je utakmica?",
+          "sutra",
+          "danas",
+          "u subotu navečer"
+        ]
+      ],
+      "sortkljuc": 1701017,
+      "bodovi": 605
+    },
+    {
+      "cjelina": "Lesson 17",
+      "cjelinanaslov": "Take Command: The Imperative",
+      "stranica": 18,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the lesson, and 80% opens Vocabulary 17. Most of the points sit on the three endings — **-aj**, **-i**, **-j** — with **-te** for a group, and on the two ways of saying *don't*: *ne* + order and *nemoj* + infinitive.",
+        "infokratko": "Lesson 17; 80% opens Vocabulary 17. **-aj / -i / -j**, **+te**; *ne* or *nemoj*.",
         "prag": "80",
-        "opis": "Final check! Score 80% to be ready for Lesson 18."
+        "opis": "Final check! Score 80% to be ready for Vocabulary 17."
       },
       "stavke": [
         [
@@ -82236,24 +93772,25 @@ window.PODACI = {
         ],
         [
           "izbor",
-          "(grupi) ___ !",
+          "(grupi) ___ sutra!",
           "Dođite",
-          "Dođi"
+          "Dođajte",
+          "Doćite"
         ],
         [
           "upis",
-          "Napravi zapovijed: ti ideš →",
+          "Napravi naredbu: ti ideš →",
           "Idi"
         ],
         [
           "upis",
-          "Reci nježno \"nemoj\": Gledaj telefon! →",
+          "Reci \"nemoj\": Gledaj telefon! →",
           "Nemoj gledati telefon / Ne gledaj telefon"
         ],
         [
           "izbor",
           "Što znači \"ravno\"?",
-          "straight",
+          "straight ahead",
           "left",
           "right"
         ],
@@ -82261,40 +93798,71 @@ window.PODACI = {
           "izbor",
           "Prvi korak recepta je...",
           "Uzmi jaja, brašno i mlijeko.",
-          "Peci palačinku."
+          "Peci palačinku.",
+          "Okreni palačinku."
         ],
         [
           "izbor",
           "Naredba grupi je...",
           "Pijte vodu!",
-          "Piju vodu!"
+          "Piju vodu!",
+          "Pijajte vodu!"
         ],
         [
           "slaganje",
           "Uzmite kartu i idite na kolodvor.",
           "en: Take a ticket and go to the station."
+        ],
+        [
+          "upis",
+          "(ti) dodati → ___ malo soli!",
+          "Dodaj"
+        ],
+        [
+          "izbor",
+          "(prijatelju) ___ tavu!",
+          "Zagrij",
+          "Zagriji",
+          "Zagrijaj"
+        ],
+        [
+          "upis",
+          "(vi) uzeti → ___ tri jaja!",
+          "Uzmite"
+        ],
+        [
+          "slaganje",
+          "Nemoj trčati preko ceste!",
+          "en: Don't run across the road!"
         ]
       ],
-      "sortkljuc": 1701012,
-      "bodovi": 1251
+      "sortkljuc": 1701018,
+      "bodovi": 1017
     },
     {
       "cjelina": "Lesson 17",
       "cjelinanaslov": "Take Command: The Imperative",
-      "stranica": 13,
+      "stranica": 19,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now give orders and instructions: the *ti* form turns into **-aj**, **-i** or **-j**, a group or a polite *vi* adds **-te**, and *don't* is *ne* + order or *nemoj* + infinitive.",
+        "infokratko": "**-aj / -i / -j**, **+te**; *Ne trči! Nemoj trčati!*",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
           "Odlično! You can now give directions, run a kitchen and coach a football team — all in Croatian."
         ],
         [
-          "**Next up:** in Lesson 18 we dream big: *Kupio bih kuću pokraj mora...* — the conditional, the grammar of wishes and million-euro questions."
+          "**Next up:** Vocabulary 17 brings the rest of the kitchen — *pećnica, štednjak, papar* — and the four sides of the map: *sjever, jug, istok, zapad*. Grammar 17 shows how to make an order softer, with *možeš li* and *molim te*."
+        ],
+        [
+          "**Then Lesson 18:** we dream big — *Kupio bih kuću pokraj mora…* — the conditional, the grammar of wishes and million-euro questions."
         ]
       ],
-      "sortkljuc": 1701013,
+      "sortkljuc": 1701019,
       "bodovi": 20
     },
     {
@@ -82958,32 +94526,59 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: commands, recipes & directions",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the imperative. Start from the *ti* form: **-aš** becomes **-aj**, **-eš** and **-iš** become **-i**, and *-ješ* becomes **-j**. A group or the polite *vi* adds **-te**, and *let's* adds **-mo**. A few verbs are learned whole: *budi, idi, dođi, peci*.",
+        "infokratko": "*ti* form → **-aj / -i / -j**; **+te** for *vi*; **+mo** for *let's*. Whole: *budi, idi, dođi, peci*."
+      },
       "stavke": [
         [
-          "Commands, requests, recipes and directions — one mood does it all."
+          "Commands, requests, recipes and directions — one form does all four jobs."
         ],
         [
-          "**Building the imperative** (start from the *ti* form of the present): -aš → **-aj** (gledaj! dodaj! miješaj!) · otherwise → **-i** (idi! uzmi! skreni! skoči!) · vowel + ješ → **-j** (pij! čuj!)."
+          "tab: The ti form",
+          "ti",
+          "vi",
+          "let's (mi)"
         ],
         [
-          "**Plural / polite:** add **-te** — *idite, uzmite, pijte, izvolite*. **Bonus — \"let's\":** add **-mo** — *Idemo! Pjevajmo!*"
+          "tab: gled**aš**",
+          "gled**aj**!",
+          "gled**ajte**!",
+          "gled**ajmo**!"
         ],
         [
-          "**Negative commands:** direct — **ne + imperativ** (*Ne trči! Ne spavajte!*); softer — **nemoj(te) + infinitiv** (*Nemoj trčati! Nemojte spavati!*)."
+          "tab: uzm**eš**, stav**iš**",
+          "uzm**i**!, stav**i**!",
+          "uzm**ite**!, stav**ite**!",
+          "uzm**imo**!, stav**imo**!"
         ],
         [
-          "**Politeness toolkit:** bare commands are fine in recipes and between friends; otherwise soften them: *Molim te, dodaj sol.* (friend) · *Molim vas, skrenite lijevo.* (polite) · *Izvolite!* — the all-purpose service word."
+          "tab: pi**ješ**, zagri**ješ**",
+          "pi**j**!, zagri**j**!",
+          "pi**jte**!, zagri**jte**!",
+          "pi**jmo**!, zagri**jmo**!"
         ],
         [
-          "**Familiar faces:** you've been obeying imperatives all course long: *Izvolite? Oprostite! Dobro došli!* — all commands in disguise."
+          "**One rule for every regular verb.** Say the *ti* form, drop the **-š**, and look at the last letter: **-a** gets **-j** (*doda- → dodaj*), **-e** or **-i** becomes **-i** (*uzme- → uzmi, stavi- → stavi*), and after a **j** nothing is added (*pije- → pij*)."
+        ],
+        [
+          "**Let's = -mo.** *Pjevajmo! Uzmimo taksi!* With *ići* the everyday form is simply the present: ***Idemo!*** — Let's go!"
+        ],
+        [
+          "**Learn these whole.** *biti → **budi / budite***, *ići → **idi / idite***, *doći → **dođi / dođite***, *peći → **peci / pecite***."
+        ],
+        [
+          "**Negative commands:** directly with **ne** + order (*Ne trči! Ne spavajte!*), or more softly with **nemoj / nemojte** + infinitive (*Nemoj trčati! Nemojte spavati!*)."
+        ],
+        [
+          "**Politeness.** Bare orders are fine in recipes and between friends. Otherwise add *molim te* (to a friend) or *molim vas* (to a stranger): *Molim te, dodaj sol. Molim vas, skrenite lijevo.* You have been hearing polite orders since the first lessons: *Izvolite! Oprostite!*"
         ],
         [
           "**Now you write them.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!"
         ]
       ],
       "sortkljuc": 1703001,
-      "bodovi": 822
+      "bodovi": 455
     },
     {
       "cjelina": "Grammar 17",
@@ -82993,6 +94588,8 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Make the command (ti)",
       "meta": {
+        "info": "You make the order for one friend from the infinitive. Think of the *ti* form first: *čitaš → čitaj, uzmeš → uzmi, piješ → pij*. *Biti, ići* and *doći* are the ones learned whole: *budi, idi, dođi*.",
+        "infokratko": "Via the *ti* form: *čitaj, uzmi, pij*. Whole: *budi, idi, dođi*.",
         "opis": "Make the command (ti form)."
       },
       "stavke": [
@@ -83015,10 +94612,38 @@ window.PODACI = {
         [
           "staviti →",
           "Stavi"
+        ],
+        [
+          "miješati →",
+          "Miješaj"
+        ],
+        [
+          "skrenuti →",
+          "Skreni"
+        ],
+        [
+          "kupovati →",
+          "Kupuj"
+        ],
+        [
+          "pisati →",
+          "Piši"
+        ],
+        [
+          "doći →",
+          "Dođi"
+        ],
+        [
+          "biti →",
+          "Budi"
+        ],
+        [
+          "zagrijati →",
+          "Zagrij"
         ]
       ],
       "sortkljuc": 1703002,
-      "bodovi": 1217
+      "bodovi": 817
     },
     {
       "cjelina": "Grammar 17",
@@ -83028,6 +94653,8 @@ window.PODACI = {
       "format": "upis",
       "naslov": "For a group",
       "meta": {
+        "info": "The same orders for a group or for someone you call *vi*: add **-te** to the *ti* order. *Dođi → dođite, pij → pijte, budi → budite.* Nothing else changes.",
+        "infokratko": "Group or *vi*: **+te** — *dođite, pijte, budite*.",
         "opis": "Now for a group."
       },
       "stavke": [
@@ -83042,46 +94669,226 @@ window.PODACI = {
         [
           "pjevati →",
           "Pjevajte"
+        ],
+        [
+          "uzeti →",
+          "Uzmite"
+        ],
+        [
+          "piti →",
+          "Pijte"
+        ],
+        [
+          "ići →",
+          "Idite"
+        ],
+        [
+          "slušati →",
+          "Slušajte"
+        ],
+        [
+          "biti →",
+          "Budite"
+        ],
+        [
+          "staviti →",
+          "Stavite"
+        ],
+        [
+          "čekati →",
+          "Čekajte"
         ]
       ],
       "sortkljuc": 1703003,
-      "bodovi": 987
+      "bodovi": 818
     },
     {
       "cjelina": "Grammar 17",
       "cjelinanaslov": "The Imperative",
       "stranica": 4,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "The gentler \"nemoj\"",
+      "format": "nastavak",
+      "naslov": "Tap the ending",
       "meta": {
-        "opis": "Choose the softer \"don't\"."
+        "nastavci": "i | ite | aj | ajte",
+        "info": "One tap finishes the order. The bracket says who gets it: one friend (*ti*) or a group (*vi*). Verbs in *-aš* take **-aj** or **-ajte**, verbs in *-eš* and *-iš* take **-i** or **-ite**.",
+        "infokratko": "*-aš* verbs: **-aj / -ajte**; *-eš / -iš* verbs: **-i / -ite**.",
+        "opis": "The English is above. One tap finishes the order — for one friend or for a group."
       },
       "stavke": [
         [
-          "(prijatelju, nježno)",
-          "Nemoj gledati telefon!",
-          "Ne gledaj telefon!"
+          "Uzm___ tri jaja!",
+          "(ti) Take three eggs!",
+          "i"
         ],
         [
-          "(grupi, nježno)",
-          "Nemojte trčati!",
-          "Ne trčite!"
+          "Uzm___ kartu!",
+          "(vi) Take a ticket!",
+          "ite"
+        ],
+        [
+          "Dod___ malo soli!",
+          "(ti) Add a little salt!",
+          "aj"
+        ],
+        [
+          "Dod___ šećer!",
+          "(vi) Add the sugar!",
+          "ajte"
+        ],
+        [
+          "Skren___ lijevo!",
+          "(ti) Turn left!",
+          "i"
+        ],
+        [
+          "Skren___ desno na semaforu!",
+          "(vi) Turn right at the lights!",
+          "ite"
+        ],
+        [
+          "Gled___ ovo!",
+          "(ti) Look at this!",
+          "aj"
+        ],
+        [
+          "Sluš___ učiteljicu!",
+          "(vi) Listen to the teacher!",
+          "ajte"
+        ],
+        [
+          "Stav___ tavu na štednjak!",
+          "(ti) Put the pan on the stove!",
+          "i"
+        ],
+        [
+          "Čit___ tekst!",
+          "(vi) Read the text!",
+          "ajte"
+        ],
+        [
+          "Miješ___ dvije minute!",
+          "(ti) Mix for two minutes!",
+          "aj"
+        ],
+        [
+          "Okren___ palačinke!",
+          "(vi) Flip the pancakes!",
+          "ite"
+        ],
+        [
+          "Piš___ pismo!",
+          "(ti) Write the letter!",
+          "i"
+        ],
+        [
+          "Ček___ ovdje!",
+          "(vi) Wait here!",
+          "ajte"
+        ],
+        [
+          "Požur___!",
+          "(vi) Hurry!",
+          "ite"
+        ],
+        [
+          "Pjev___ sa mnom!",
+          "(ti) Sing with me!",
+          "aj"
         ]
       ],
       "sortkljuc": 1703004,
-      "bodovi": 822
+      "bodovi": 691
     },
     {
       "cjelina": "Grammar 17",
       "cjelinanaslov": "The Imperative",
       "stranica": 5,
       "broj": 9999,
+      "format": "izbor",
+      "naslov": "The gentler \"nemoj\"",
+      "meta": {
+        "info": "Choosing the correct *nemoj* sentence. After *nemoj* or *nemojte* the verb stays in the infinitive — *Nemoj gledati* — and *nemoj* is for one friend, *nemojte* for a group or *vi*. The wrong options put a personal ending or an order after it.",
+        "infokratko": "*nemoj / nemojte* + infinitive: *Nemoj gledati!* Not *Nemoj gledaj*.",
+        "opis": "Choose the correct softer \"don't\"."
+      },
+      "stavke": [
+        [
+          "(prijatelju)",
+          "Nemoj gledati telefon!",
+          "Nemoj gledaj telefon!",
+          "Nemoj gledaš telefon!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte trčati!",
+          "Nemojte trčite!",
+          "Nemoj trčite!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj piti kavu navečer!",
+          "Nemoj pij kavu navečer!",
+          "Nemoj piješ kavu navečer!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte čekati!",
+          "Nemojte čekajte!",
+          "Nemoj čekate!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj jesti sve kolače!",
+          "Nemoj jedi sve kolače!",
+          "Nemoj jedeš sve kolače!"
+        ],
+        [
+          "(vi, polite)",
+          "Nemojte ići lijevo!",
+          "Nemojte idite lijevo!",
+          "Nemoj idete lijevo!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj kasniti!",
+          "Nemoj kasni!",
+          "Nemoj kasniš!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte spavati na satu!",
+          "Nemojte spavajte na satu!",
+          "Nemoj spavate na satu!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj pjevati tako glasno!",
+          "Nemoj pjevaj tako glasno!",
+          "Nemoj pjevaš tako glasno!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte trčati preko ceste!",
+          "Nemojte trčite preko ceste!",
+          "Nemoj trčite preko ceste!"
+        ]
+      ],
+      "sortkljuc": 1703005,
+      "bodovi": 691
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 6,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Command or statement?",
       "meta": {
+        "info": "Sorting sentences by what they do. An order uses the imperative — *Pij! Dodajte!* — and a statement the present: *Piješ, Dodajete*. The two look alike, so check the ending: *pij, dodaj, uzmite, pjevajmo* are orders, while the present keeps its **-š, -mo, -te** after the full form: *piješ, dodaješ, uzimate, pjevamo*.",
+        "infokratko": "*Pij! Dodaj! Uzmite!* are orders; *Piješ. Dodaješ. Uzimate.* are statements.",
         "stupci": "COMMAND | STATEMENT",
-        "opis": "Command or statement?"
+        "opis": "Is it an order, or does it say what someone does?"
       },
       "stavke": [
         [
@@ -83093,91 +94900,379 @@ window.PODACI = {
           "STATEMENT"
         ],
         [
-          "Idemo na rijeku!",
-          "COMMAND"
-        ],
-        [
-          "Idemo na rijeku sutra.",
-          "STATEMENT"
-        ],
-        [
           "Dodaj sol!",
           "COMMAND"
         ],
         [
           "Dodaješ sol.",
           "STATEMENT"
-        ]
-      ],
-      "sortkljuc": 1703005,
-      "bodovi": 822
-    },
-    {
-      "cjelina": "Grammar 17",
-      "cjelinanaslov": "The Imperative",
-      "stranica": 6,
-      "broj": 9999,
-      "format": "tekst",
-      "naslov": "The rule: asking instead of ordering",
-      "meta": {},
-      "stavke": [
-        [
-          "An imperative is direct. Croatian's polite alternative is a question — and it runs on a kind of verb you haven't met head-on: the **modal**."
         ],
         [
-          "tab: Verb",
-          "ja",
-          "ti",
-          "on / ona"
+          "Uzmite kartu!",
+          "COMMAND"
         ],
         [
-          "tab: moći (can)",
-          "**mogu**",
-          "**možeš**",
-          "**može**"
+          "Uzimate kartu.",
+          "STATEMENT"
         ],
         [
-          "tab: morati (must)",
-          "**moram**",
-          "**moraš**",
-          "**mora**"
+          "Skreni lijevo!",
+          "COMMAND"
         ],
         [
-          "tab: htjeti (want)",
-          "**hoću**",
-          "**hoćeš**",
-          "**hoće**"
+          "Skreneš lijevo.",
+          "STATEMENT"
         ],
         [
-          "**All three hand the work to an infinitive** — never a second personal ending: *Moram raditi. Možeš doći. Ne mogu plivati.*"
+          "Čitajte tekst!",
+          "COMMAND"
         ],
         [
-          "**The polite request:** *Skrenite lijevo!* → ***Možete li** skrenuti lijevo?* · *Dodaj sol!* → ***Možeš li** dodati sol?* Same content, no command in sight."
+          "Čitate tekst.",
+          "STATEMENT"
         ],
         [
-          "**The most useful word in Croatia:** ***Može!*** on its own means \"sure, fine, deal, go ahead\". You will hear it forty times a day."
+          "Pjevajmo!",
+          "COMMAND"
         ],
         [
-          "**A warning about *hoću*:** one verb, two shapes. The stressed forms *hoću, hoćeš, hoće* mean \"I want\" and can stand alone with a noun — *Hoću kavu.* The unstressed forms *ću, ćeš, će* lost that meaning and became the future helpers from Lesson 8 — *Pit ću kavu.* Same verb, and the shape tells you which job it's doing."
+          "Pjevamo.",
+          "STATEMENT"
         ],
         [
-          "**In practice Croats mostly say *želim* for \"want\"** with things and *hoću* when they're being firm about it. *Htio bih* from Lesson 18 is the polite version of both."
+          "Budi ovdje u osam!",
+          "COMMAND"
         ],
         [
-          "**Now you write them.** Direct: [Ne] trči! Softer: [Nemoj] trčati! To a group: [Nemojte] spavati!"
+          "Ovdje si u osam.",
+          "STATEMENT"
         ]
       ],
       "sortkljuc": 1703006,
-      "bodovi": 822
+      "bodovi": 673
     },
     {
       "cjelina": "Grammar 17",
       "cjelinanaslov": "The Imperative",
       "stranica": 7,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: asking instead of ordering",
+      "meta": {
+        "info": "The second rule: three modal verbs, *moći* (can), *morati* (must) and *htjeti* (want), followed by an infinitive. A question with *Možeš li…?* or *Možete li…?* is the polite way to ask for something, and *Može!* on its own means *sure*.",
+        "infokratko": "*mogu, moram, hoću* + infinitive. *Možeš li…? / Možete li…?* = polite request. *Može!* = sure.",
+        "infoodmah": "da"
+      },
+      "stavke": [
+        [
+          "An order is direct. The polite alternative is a question with a **modal verb** — a verb that is followed by another verb in the infinitive."
+        ],
+        [
+          "tab: Person",
+          "moći (can)",
+          "morati (must)",
+          "htjeti (want)"
+        ],
+        [
+          "tab: ja",
+          "**mogu**",
+          "**moram**",
+          "**hoću**"
+        ],
+        [
+          "tab: ti",
+          "**možeš**",
+          "**moraš**",
+          "**hoćeš**"
+        ],
+        [
+          "tab: on, ona, ono",
+          "**može**",
+          "**mora**",
+          "**hoće**"
+        ],
+        [
+          "tab: mi",
+          "**možemo**",
+          "**moramo**",
+          "**hoćemo**"
+        ],
+        [
+          "tab: vi",
+          "**možete**",
+          "**morate**",
+          "**hoćete**"
+        ],
+        [
+          "tab: oni, one, ona",
+          "**mogu**",
+          "**moraju**",
+          "**hoće**"
+        ],
+        [
+          "**The second verb stays in the infinitive** — it never gets a personal ending: *Moram raditi. Možeš doći. Ne mogu plivati.* Not *Moram radim*."
+        ],
+        [
+          "**The polite request:** *Skrenite lijevo!* → ***Možete li** skrenuti lijevo?* *Dodaj sol!* → ***Možeš li** dodati sol?* The content is the same, but it is a question."
+        ],
+        [
+          "**The most useful word in Croatia:** ***Može!*** on its own means *sure, fine, deal*. *Kava? — Može!*"
+        ],
+        [
+          "**Hoću and ću.** The long forms *hoću, hoćeš, hoće* mean *I want* and can stand with a noun: *Hoću kavu.* The short forms *ću, ćeš, će* are the future helpers from Lesson 8: *Pit ću kavu.* The negative is the same for both: *neću*."
+        ],
+        [
+          "**Want: želim or hoću?** With things, *želim* is the neutral choice and *hoću* sounds firmer. For a polite wish you will learn *htio bih / htjela bih* in Lesson 18."
+        ],
+        [
+          "**Now you write them.** Ja [moram] raditi. [Možeš] li dodati sol? Ne [mogu] plivati."
+        ]
+      ],
+      "sortkljuc": 1703007,
+      "bodovi": 455
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Can, must or want?",
+      "meta": {
+        "info": "Sorting the forms of the three modal verbs. *Mogu, možeš, možemo* belong to *moći*; *moram, moraju* to *morati*; *hoću, hoće, hoćemo* to *htjeti*. Watch *mogu*: it is both *I can* and *they can*.",
+        "infokratko": "*mogu, možeš* → *moći*; *moram, moraju* → *morati*; *hoću, hoćeš* → *htjeti*.",
+        "stupci": "MOĆI | MORATI | HTJETI",
+        "opis": "Which verb does each form belong to?"
+      },
+      "stavke": [
+        [
+          "mogu",
+          "MOĆI"
+        ],
+        [
+          "možeš",
+          "MOĆI"
+        ],
+        [
+          "može",
+          "MOĆI"
+        ],
+        [
+          "možemo",
+          "MOĆI"
+        ],
+        [
+          "možete",
+          "MOĆI"
+        ],
+        [
+          "moram",
+          "MORATI"
+        ],
+        [
+          "moraš",
+          "MORATI"
+        ],
+        [
+          "mora",
+          "MORATI"
+        ],
+        [
+          "moramo",
+          "MORATI"
+        ],
+        [
+          "moraju",
+          "MORATI"
+        ],
+        [
+          "hoću",
+          "HTJETI"
+        ],
+        [
+          "hoćeš",
+          "HTJETI"
+        ],
+        [
+          "hoće",
+          "HTJETI"
+        ],
+        [
+          "hoćemo",
+          "HTJETI"
+        ],
+        [
+          "hoćete",
+          "HTJETI"
+        ]
+      ],
+      "sortkljuc": 1703008,
+      "bodovi": 691
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the modal",
+      "meta": {
+        "info": "You type the modal in the form that matches the person. The English in brackets tells you which verb: *can* is *moći*, *must* is *morati*, *want* is *htjeti*. The verb after it is already given, in the infinitive.",
+        "infokratko": "*can* → *mogu…*, *must* → *moram…*, *want* → *hoću…*. The next verb stays in the infinitive.",
+        "opis": "The verb after it never takes a personal ending — it stays in the infinitive."
+      },
+      "stavke": [
+        [
+          "Ja ___ raditi danas. (must)",
+          "moram"
+        ],
+        [
+          "Ti ___ doći sutra. (can)",
+          "možeš"
+        ],
+        [
+          "Ona ne ___ plivati. (can)",
+          "može"
+        ],
+        [
+          "Mi ___ učiti. (must)",
+          "moramo"
+        ],
+        [
+          "Ja ___ kavu. (want)",
+          "hoću"
+        ],
+        [
+          "Oni ___ ići pješice. (must)",
+          "moraju"
+        ],
+        [
+          "Vi ___ skrenuti lijevo. (can)",
+          "možete"
+        ],
+        [
+          "___ li doći u osam? (can, ti)",
+          "Možeš"
+        ],
+        [
+          "Mi ___ ići na more. (want)",
+          "hoćemo"
+        ],
+        [
+          "Oni ne ___ plivati. (can)",
+          "mogu"
+        ],
+        [
+          "Marko ___ kupiti kartu. (must)",
+          "mora"
+        ],
+        [
+          "___ li skrenuti desno? (can, vi)",
+          "Možete"
+        ]
+      ],
+      "sortkljuc": 1703009,
+      "bodovi": 818
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Modal + infinitive",
+      "meta": {
+        "info": "Choosing the second verb. After *mogu, moram* and *hoću* the verb stays in the infinitive, whatever the person: *Moram raditi, Možemo doći, Hoće plivati.* The wrong options give the second verb a personal ending.",
+        "infokratko": "After a modal: infinitive only — *Moram raditi*, not *Moram radim*.",
+        "opis": "Choose the correct second verb."
+      },
+      "stavke": [
+        [
+          "Moram ___ danas.",
+          "raditi",
+          "radim",
+          "radi"
+        ],
+        [
+          "Možeš li ___ sol?",
+          "dodati",
+          "dodaš",
+          "dodaj"
+        ],
+        [
+          "Ne mogu ___ .",
+          "plivati",
+          "plivam",
+          "pliva"
+        ],
+        [
+          "Moramo ___ na kolodvor.",
+          "ići",
+          "idemo",
+          "idi"
+        ],
+        [
+          "Hoćeš li ___ kavu?",
+          "piti",
+          "piješ",
+          "pij"
+        ],
+        [
+          "Možete li ___ lijevo?",
+          "skrenuti",
+          "skrenete",
+          "skrenite"
+        ],
+        [
+          "Marko mora ___ kartu.",
+          "kupiti",
+          "kupi",
+          "kupuje"
+        ],
+        [
+          "Oni ne mogu ___ u osam.",
+          "doći",
+          "dođu",
+          "dođi"
+        ],
+        [
+          "Ana hoće ___ na more.",
+          "putovati",
+          "putuje",
+          "putuj"
+        ],
+        [
+          "Moraš ___ tavu.",
+          "zagrijati",
+          "zagriješ",
+          "zagrij"
+        ],
+        [
+          "Možemo li ___ taksi?",
+          "uzeti",
+          "uzmemo",
+          "uzmimo"
+        ],
+        [
+          "Ne moram ___ rano.",
+          "ustati",
+          "ustanem",
+          "ustani"
+        ]
+      ],
+      "sortkljuc": 1703010,
+      "bodovi": 691
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 11,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Command or request?",
       "meta": {
+        "info": "Sorting orders and polite requests. An order uses the imperative (*Skrenite lijevo!*); a polite request is a question with *možeš li* or *možete li* and an infinitive (*Možete li skrenuti lijevo?*). *Molim vas* in front softens an order, but it is still an order.",
+        "infokratko": "Imperative → command. *Možeš li / Možete li* + infinitive → polite request.",
         "stupci": "COMMAND | POLITE REQUEST",
         "opis": "Which one would you use with a stranger?"
       },
@@ -83205,19 +95300,53 @@ window.PODACI = {
         [
           "Možete li doći u osam?",
           "POLITE REQUEST"
+        ],
+        [
+          "Uzmi kartu!",
+          "COMMAND"
+        ],
+        [
+          "Možeš li uzeti kartu?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Čekajte ovdje!",
+          "COMMAND"
+        ],
+        [
+          "Možete li čekati ovdje?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Molim vas, idite ravno.",
+          "COMMAND"
+        ],
+        [
+          "Možete li ići ravno?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Požuri!",
+          "COMMAND"
+        ],
+        [
+          "Možeš li požuriti?",
+          "POLITE REQUEST"
         ]
       ],
-      "sortkljuc": 1703007,
-      "bodovi": 822
+      "sortkljuc": 1703011,
+      "bodovi": 673
     },
     {
       "cjelina": "Grammar 17",
       "cjelinanaslov": "The Imperative",
-      "stranica": 8,
+      "stranica": 12,
       "broj": 9999,
       "format": "upis",
       "naslov": "Make it polite",
       "meta": {
+        "info": "You turn each order into a polite question. *Ti* orders become *Možeš li…?*, *vi* orders *Možete li…?*, and the order itself turns back into the infinitive: *dodaj → dodati, skrenite → skrenuti*.",
+        "infokratko": "*ti* → *Možeš li* + infinitive; *vi* → *Možete li* + infinitive.",
         "opis": "Turn the command into a \"možeš li / možete li\" question."
       },
       "stavke": [
@@ -83240,62 +95369,57 @@ window.PODACI = {
         [
           "Uzmi kartu! →",
           "Možeš li uzeti kartu"
+        ],
+        [
+          "Čekajte ovdje! →",
+          "Možete li čekati ovdje"
+        ],
+        [
+          "Zagrij tavu! →",
+          "Možeš li zagrijati tavu"
+        ],
+        [
+          "Idite ravno! →",
+          "Možete li ići ravno"
+        ],
+        [
+          "Pij vodu! →",
+          "Možeš li piti vodu"
+        ],
+        [
+          "Stavite kartu na stol! →",
+          "Možete li staviti kartu na stol"
+        ],
+        [
+          "Požuri! →",
+          "Možeš li požuriti"
+        ],
+        [
+          "Pjevajte tiho! →",
+          "Možete li pjevati tiho"
         ]
       ],
-      "sortkljuc": 1703008,
-      "bodovi": 1217
+      "sortkljuc": 1703012,
+      "bodovi": 818
     },
     {
       "cjelina": "Grammar 17",
       "cjelinanaslov": "The Imperative",
-      "stranica": 9,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Type the modal",
-      "meta": {
-        "opis": "The verb after it never takes a personal ending — it stays in the infinitive."
-      },
-      "stavke": [
-        [
-          "Ja ___ raditi danas. (must)",
-          "moram"
-        ],
-        [
-          "Ti ___ doći sutra. (can)",
-          "možeš"
-        ],
-        [
-          "Ona ne ___ plivati. (can)",
-          "može"
-        ],
-        [
-          "Mi ___ učiti. (must)",
-          "moramo"
-        ],
-        [
-          "Ja ___ kavu. (want)",
-          "hoću"
-        ]
-      ],
-      "sortkljuc": 1703009,
-      "bodovi": 1217
-    },
-    {
-      "cjelina": "Grammar 17",
-      "cjelinanaslov": "The Imperative",
-      "stranica": 10,
+      "stranica": 13,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the sentence",
       "meta": {
-        "opis": "Build the sentence. (zaboraviti = to forget — a preview of L20.)"
+        "info": "Whole sentences from tiles. An order opens the sentence, *molim te* or *molim vas* can stand in front of it with a comma, *nemoj* is followed by an infinitive, and after a modal the second verb is an infinitive too.",
+        "infokratko": "*Molim vas, …*; *nemoj* + infinitive; modal + infinitive.",
+        "opis": "Build the sentence."
       },
       "stavke": [
         [
           "Molim vas, skrenite desno na semaforu."
         ],
         [
-          "Nemoj zaboraviti kartu!"
+          "Nemoj gledati telefon!"
         ],
         [
           "Uzmi kavu i dođi na balkon."
@@ -83305,10 +95429,129 @@ window.PODACI = {
         ],
         [
           "Ne mogu doći jer moram raditi."
+        ],
+        [
+          "Molim te, dodaj sol."
+        ],
+        [
+          "Pjevajmo zajedno!"
+        ],
+        [
+          "Nemojte trčati preko ceste!"
+        ],
+        [
+          "Možeš li zagrijati tavu?"
+        ],
+        [
+          "Hoćeš li kavu? — Može!"
+        ],
+        [
+          "Idemo pješice, nije daleko."
+        ],
+        [
+          "Moramo kupiti brašno i jaja."
         ]
       ],
-      "sortkljuc": 1703010,
-      "bodovi": 1052
+      "sortkljuc": 1703013,
+      "bodovi": 691
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English. An order uses the imperative, **-te** for a group or *vi*; *don't* is *ne* + order or *nemoj* + infinitive; and a polite request is *Možeš li…?* or *Možete li…?* with an infinitive.",
+        "infokratko": "Imperative (**+te** for *vi*); *ne* / *nemoj*; *Možeš li / Možete li* + infinitive.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "Take three eggs! (to a friend)",
+          "Uzmi tri jaja"
+        ],
+        [
+          "Turn left! (polite)",
+          "Skrenite lijevo"
+        ],
+        [
+          "Come tomorrow! (to a group)",
+          "Dođite sutra"
+        ],
+        [
+          "Don't run! (to a friend)",
+          "Ne trči / Nemoj trčati"
+        ],
+        [
+          "Don't wait! (to a group)",
+          "Ne čekajte / Nemojte čekati"
+        ],
+        [
+          "Let's sing!",
+          "Pjevajmo"
+        ],
+        [
+          "Let's go!",
+          "Idemo"
+        ],
+        [
+          "Can you add the salt? (to a friend)",
+          "Možeš li dodati sol"
+        ],
+        [
+          "Can you turn right? (polite)",
+          "Možete li skrenuti desno"
+        ],
+        [
+          "I must work.",
+          "Moram raditi"
+        ],
+        [
+          "I can't swim.",
+          "Ne mogu plivati"
+        ],
+        [
+          "Please, pass the salt. (to a friend)",
+          "Molim te, dodaj sol / Dodaj sol, molim te"
+        ],
+        [
+          "Do you want coffee? (to a friend)",
+          "Hoćeš li kavu / Želiš li kavu"
+        ],
+        [
+          "We have to buy flour.",
+          "Moramo kupiti brašno"
+        ]
+      ],
+      "sortkljuc": 1703014,
+      "bodovi": 818
+    },
+    {
+      "cjelina": "Grammar 17",
+      "cjelinanaslov": "The Imperative",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The imperative comes from the *ti* form (**-aj, -i, -j**), a group or *vi* adds **-te**, and *let's* adds **-mo**. *Ne* or *nemoj* makes a *don't*, and *Možeš li…?* turns an order into a polite request.",
+        "infokratko": "**-aj / -i / -j**, **+te**, **+mo**; *ne / nemoj*; *Možeš li…?*"
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now give an order, soften it, forbid something politely and ask for help the Croatian way."
+        ],
+        [
+          "And you did it with a short set of rules: **the *ti* form gives the order**, **-te is for a group or *vi***, **nemoj takes an infinitive**, and **mogu, moram, hoću take an infinitive too**."
+        ],
+        [
+          "**Next up:** Practice 17 makes pancakes, finds the way through town and trains with Coach Zvone, and Test 17 checks the whole level. Then Lesson 18: the conditional — *Kupio bih kuću pokraj mora.*"
+        ]
+      ],
+      "sortkljuc": 1703015,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 17",
@@ -83317,13 +95560,14 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: Pancakes (a recipe)",
-      "meta": {},
+      "meta": {
+        "info": "A real recipe, and every step is an order for one person. Read it twice: once for the pancakes, once for the endings — **-aj** (*dodaj, miješaj*), **-i** (*uzmi, stavi, okreni*), **-j** (*zagrij*) — and *peci*, the one learned whole.",
+        "infokratko": "One order per step: *dodaj, miješaj* · *uzmi, stavi, okreni* · *zagrij* · *peci*.",
+        "opis": "A recipe for pancakes, step by step. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "A recipe, a set of directions, and a coach who shouts."
-        ],
-        [
-          "Commands in real life — passive words: *smotaj* (roll it up), *posluži* (serve), *najvažnije* (most importantly), *zatim* (then), *prijeđite* (cross), *odmah tu* (right there), *za deset minuta* (in ten minutes), *legenda* (legend), *preko* (across)."
+          "Passive words: *recept* (recipe), *smotaj* (roll it up), *posluži* (serve), *najvažnije* (most importantly)."
         ],
         [
           "Recept za palačinke.",
@@ -83342,8 +95586,8 @@ window.PODACI = {
           "Mix for two minutes."
         ],
         [
-          "Zagrij tavu.",
-          "Heat the pan."
+          "Zagrij tavu i stavi malo ulja.",
+          "Heat the pan and put in a little oil."
         ],
         [
           "Peci palačinku jednu minutu, a onda je okreni!",
@@ -83373,6 +95617,8 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Put the recipe in order",
       "meta": {
+        "info": "Sequence the recipe from Text 1. The ingredients come first and the sharing last. Between them, the salt goes into the mixture before it is mixed, the pan is heated before anything is fried, and a pancake is flipped only after its first minute.",
+        "infokratko": "Ingredients, salt, mixing, the pan, frying, flipping, jam, sharing.",
         "opis": "Put the recipe steps in order."
       },
       "stavke": [
@@ -83402,7 +95648,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 1704002,
-      "bodovi": 1713
+      "bodovi": 736
     },
     {
       "cjelina": "Practice 17",
@@ -83412,8 +95658,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the command",
       "meta": {
-        "tekst": "Uzmi tri jaja, brašno i mlijeko. Dodaj malo soli. Miješaj dvije minute. Peci palačinku jednu minutu, a onda je okreni!",
-        "opis": "Fill in the command from the recipe."
+        "info": "Copy each order back into the recipe. The bracket gives the infinitive; think of the *ti* form first: *dodaš → dodaj, uzmeš → uzmi, zagriješ → zagrij*. *Peći* gives *peci*, the form learned whole.",
+        "infokratko": "Via the *ti* form: *dodaj, uzmi, zagrij*. *peći → peci*.",
+        "opis": "Fill in the command from the recipe.",
+        "tekst": "Uzmi tri jaja, brašno i mlijeko. Dodaj malo soli. Miješaj dvije minute. Zagrij tavu i stavi malo ulja. Peci palačinku jednu minutu, a onda je okreni! Stavi marmeladu ili čokoladu. Podijeli sa sestrom!"
       },
       "stavke": [
         [
@@ -83429,12 +95677,28 @@ window.PODACI = {
           "Miješaj"
         ],
         [
+          "___ tavu. (zagrijati)",
+          "Zagrij"
+        ],
+        [
+          "___ palačinku jednu minutu. (peći)",
+          "Peci"
+        ],
+        [
           "___ palačinku! (okrenuti)",
           "Okreni"
+        ],
+        [
+          "___ marmeladu ili čokoladu. (staviti)",
+          "Stavi"
+        ],
+        [
+          "___ sa sestrom! (podijeliti)",
+          "Podijeli"
         ]
       ],
       "sortkljuc": 1704003,
-      "bodovi": 1606
+      "bodovi": 1036
     },
     {
       "cjelina": "Practice 17",
@@ -83443,8 +95707,15 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: Directions",
-      "meta": {},
+      "meta": {
+        "info": "A tourist asks the way, so every order is for *vi* and ends in **-te**: *idite, skrenite, prijeđite, hodajte, požurite*. The last line is a *don't* with *ne*: *Ne trčite preko ceste!*",
+        "infokratko": "Polite *vi* orders: *idite, skrenite, prijeđite, hodajte*. *Ne trčite!*",
+        "opis": "A tourist, a map and ten minutes to the train. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *Oprostite* (Excuse me), *pogledajte* (look), *odmah tu* (right there), *za deset minuta* (in ten minutes), *Sretan put* (Have a good trip)."
+        ],
         [
           "— Oprostite, gdje je kolodvor?",
           "— Excuse me, where is the station?"
@@ -83467,7 +95738,7 @@ window.PODACI = {
         ],
         [
           "— Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta!",
-          "— Look right — the station is right there. But hurry, the train departs in ten minutes!"
+          "— Look right — the station is right there. But hurry, the train leaves in ten minutes!"
         ],
         [
           "— Hvala vam puno!",
@@ -83489,6 +95760,8 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Put the route in order",
       "meta": {
+        "info": "Trace the route from Text 2. Straight on to the lights comes first, the turn happens at the lights, the bridge comes before the park, and the station appears when you look right at the end.",
+        "infokratko": "Lights, turn, bridge, park, look right, station.",
         "opis": "Trace the route — put the directions in order."
       },
       "stavke": [
@@ -83496,23 +95769,23 @@ window.PODACI = {
           "ravno do semafora"
         ],
         [
-          "skreni lijevo"
+          "skrenite lijevo"
         ],
         [
-          "preko mosta"
+          "prijeđite most"
         ],
         [
-          "pokraj parka"
+          "hodajte pokraj parka"
         ],
         [
-          "pogledaj desno"
+          "pogledajte desno"
         ],
         [
           "kolodvor!"
         ]
       ],
       "sortkljuc": 1704005,
-      "bodovi": 1339
+      "bodovi": 575
     },
     {
       "cjelina": "Practice 17",
@@ -83522,8 +95795,10 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "— Idite ravno do semafora. Na semaforu skrenite lijevo. Zatim prijeđite most i hodajte pokraj parka. Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta!",
-        "opis": "Tap true or false."
+        "info": "Check each statement against the directions. The turn at the lights is to the left, the station comes after the park, and the train leaves in ten minutes — so *požurite* is good advice, but *ne trčite preko ceste*.",
+        "infokratko": "Left at the lights, the station after the park, ten minutes to the train.",
+        "opis": "Tap true or false.",
+        "tekst": "— Oprostite, gdje je kolodvor? — Idite ravno do semafora. Na semaforu skrenite lijevo. Zatim prijeđite most i hodajte pokraj parka. Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta! — Hvala vam puno! — Sretan put! I ne trčite preko ceste!"
       },
       "stavke": [
         [
@@ -83540,10 +95815,25 @@ window.PODACI = {
           "Vlak kreće za deset minuta.",
           "TRUE",
           "FALSE"
+        ],
+        [
+          "Turist treba prijeći most.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Kolodvor je pokraj semafora.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
+          "Turist treba trčati preko ceste.",
+          "FALSE",
+          "TRUE"
         ]
       ],
       "sortkljuc": 1704006,
-      "bodovi": 1339
+      "bodovi": 875
     },
     {
       "cjelina": "Practice 17",
@@ -83552,8 +95842,15 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: The coach",
-      "meta": {},
+      "meta": {
+        "info": "Coach Zvone speaks in short orders. To the whole team they end in **-te** (*trčite, skočite, dodajte*); to one player they have no **-te** (*pij, ne gledaj*). The team's own sentences are in the present: *trčimo, skačemo, dodajemo*.",
+        "infokratko": "Team: **-te** (*trčite, dodajte*). One player: *pij, ne gledaj*. The team: *trčimo* (present).",
+        "opis": "A coach, a team and a lot of running. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *legenda* (legend), *njegove riječi* (his words), *kaže* (says), *na kraju treninga* (at the end of training), *isto* (the same), *bez njega* (without him)."
+        ],
         [
           "Trener Zvone je legenda.",
           "Coach Zvone is a legend."
@@ -83575,8 +95872,12 @@ window.PODACI = {
           "\"Don't look at your phone!\" he says to Maja."
         ],
         [
-          "Na kraju treninga uvijek kaže isto: \"Odmorite, jedite dobro i dođite sutra.\"",
-          "At the end of training he always says the same: \"Rest, eat well and come tomorrow.\""
+          "\"Nemoj kasniti!\" kaže Marku.",
+          "\"Don't be late!\" he says to Marko."
+        ],
+        [
+          "Na kraju treninga uvijek kaže isto: \"Jedite dobro, spavajte i dođite sutra.\"",
+          "At the end of training he always says the same: \"Eat well, sleep and come tomorrow.\""
         ],
         [
           "Strog je, ali bez njega nismo tim.",
@@ -83594,6 +95895,8 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Who gets which order?",
       "meta": {
+        "info": "Each receiver from Text 3 beside the order Zvone gives. The receivers are in the dative (*Ivanu, Maji, Marku*), and the orders show who they are for: no **-te** for one player, **-te** for the whole team.",
+        "infokratko": "Receiver in the dative; no **-te** for one player, **-te** for the team.",
         "opis": "Who does Zvone tell what? Match from the text."
       },
       "stavke": [
@@ -83606,12 +95909,20 @@ window.PODACI = {
           "\"Ne gledaj telefon!\""
         ],
         [
-          "svima na kraju",
-          "\"Odmorite i dođite sutra.\""
+          "Marku",
+          "\"Nemoj kasniti!\""
+        ],
+        [
+          "timu na treningu",
+          "\"Trčite! Skočite!\""
+        ],
+        [
+          "timu na kraju",
+          "\"Jedite dobro i dođite sutra.\""
         ]
       ],
       "sortkljuc": 1704008,
-      "bodovi": 1125
+      "bodovi": 621
     },
     {
       "cjelina": "Practice 17",
@@ -83621,8 +95932,10 @@ window.PODACI = {
       "format": "razvrstavanje",
       "naslov": "One person or a group?",
       "meta": {
+        "info": "Sorting orders from the texts by who they are for. Without **-te** the order is for one person you call *ti*: *pij, uzmi, ne gledaj*. With **-te** it is for a group or a polite *vi*: *trčite, skrenite, požurite*. *Nemoj* and *nemojte* follow the same split.",
+        "infokratko": "No **-te** → one person (*ti*). **-te** → a group or polite *vi*.",
         "stupci": "ONE PERSON (ti) | A GROUP (vi)",
-        "opis": "Singular or plural command? Sort Zvone's orders."
+        "opis": "Singular or plural command? Sort the orders from the texts."
       },
       "stavke": [
         [
@@ -83642,26 +95955,457 @@ window.PODACI = {
           "ONE PERSON (ti)"
         ],
         [
-          "Odmorite!",
+          "Dođite sutra!",
           "A GROUP (vi)"
         ],
         [
-          "Dođite sutra!",
+          "Nemoj kasniti!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Uzmi tri jaja!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Dodaj malo soli!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Zagrij tavu!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Podijeli sa sestrom!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Skrenite lijevo!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Prijeđite most!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Požurite!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Ne trčite preko ceste!",
           "A GROUP (vi)"
         ]
       ],
       "sortkljuc": 1704009,
-      "bodovi": 1339
+      "bodovi": 851
     },
     {
       "cjelina": "Practice 17",
       "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
       "stranica": 10,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: A note on the fridge",
+      "meta": {
+        "info": "A real note left on the fridge, and every line is an order for one person: *zagrij, jedi, nemoj, zaključaj, čekaj*. Read it as a to-do list — the questions ask what Marko has to do, and what he must not do.",
+        "infokratko": "A real note, all orders for one person: *zagrij, jedi, nemoj, zaključaj*.",
+        "opis": "Mum has gone to work, and Marko finds a note. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *Dragi* (Dear), *do* (until), *posebno* (especially), *Vraćam se* (I'll be back), *van* (out), *tepih* (mat, rug)."
+        ],
+        [
+          "Dragi Marko,",
+          "Dear Marko,"
+        ],
+        [
+          "idem na posao. Vraćam se u šest.",
+          "I'm going to work. I'll be back at six."
+        ],
+        [
+          "Ručak je u hladnjaku.",
+          "Lunch is in the fridge."
+        ],
+        [
+          "Zagrij juhu pet minuta.",
+          "Heat up the soup for five minutes."
+        ],
+        [
+          "Jedi i kruh, ne samo kolače!",
+          "Eat some bread too, not only cakes!"
+        ],
+        [
+          "Nemoj gledati telefon do ponoći.",
+          "Don't look at your phone until midnight."
+        ],
+        [
+          "Uči za test — posebno matematiku!",
+          "Study for the test — especially maths!"
+        ],
+        [
+          "Kad ideš van, zaključaj vrata.",
+          "When you go out, lock the door."
+        ],
+        [
+          "Ključ stavi ispod tepiha.",
+          "Put the key under the mat."
+        ],
+        [
+          "Čekaj me za večeru.",
+          "Wait for me for dinner."
+        ],
+        [
+          "Mama",
+          "Mum"
+        ]
+      ],
+      "sortkljuc": 1704010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does Mum want?",
+      "meta": {
+        "info": "Reading the note for what Marko has to do. Each question has its answer on one line; the orders say what to do, and *nemoj* says what not to do. Watch the details: the soup, not the lunch, gets five minutes.",
+        "infokratko": "Orders say what to do; *nemoj* what not to do. One line per answer.",
+        "opis": "Answer from the note.",
+        "tekst": "Dragi Marko, idem na posao. Vraćam se u šest. Ručak je u hladnjaku. Zagrij juhu pet minuta. Jedi i kruh, ne samo kolače! Nemoj gledati telefon do ponoći. Uči za test — posebno matematiku! Kad ideš van, zaključaj vrata. Ključ stavi ispod tepiha. Čekaj me za večeru. Mama"
+      },
+      "stavke": [
+        [
+          "Gdje je ručak?",
+          "u hladnjaku",
+          "na stolu",
+          "u pećnici"
+        ],
+        [
+          "Što Marko treba zagrijati?",
+          "juhu",
+          "kruh",
+          "kolače"
+        ],
+        [
+          "Nemoj ___ do ponoći. Što piše mama?",
+          "gledati telefon",
+          "učiti",
+          "jesti"
+        ],
+        [
+          "Za što Marko treba učiti?",
+          "za test",
+          "za utakmicu",
+          "za koncert"
+        ],
+        [
+          "Gdje treba staviti ključ?",
+          "ispod tepiha",
+          "u hladnjak",
+          "na stol"
+        ],
+        [
+          "Kada se mama vraća?",
+          "u šest",
+          "u ponoć",
+          "za pet minuta"
+        ]
+      ],
+      "sortkljuc": 1704011,
+      "bodovi": 874
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Who said what?",
+      "meta": {
+        "info": "A puzzle rather than a story. Four people make pancakes and each one gives a single order, but nobody says who gave which. Every clue rules something out; start with Marko, because one extra clue decides his order, and the rest follows.",
+        "infokratko": "Every clue rules something out. Start with Marko.",
+        "opis": "Four cooks, four orders, no names. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *svatko* (each one), *jednu naredbu* (one order), *ne voli miješati* (doesn't like mixing)."
+        ],
+        [
+          "U nedjelju mama, tata, baka i Marko peku palačinke.",
+          "On Sunday Mum, Dad, Grandma and Marko are making pancakes."
+        ],
+        [
+          "Svatko kaže jednu naredbu: \"Miješaj!\", \"Zagrij tavu!\", \"Dodaj sol!\" i \"Okreni palačinku!\"",
+          "Each one gives one order: \"Mix!\", \"Heat up the pan!\", \"Add salt!\" and \"Flip the pancake!\""
+        ],
+        [
+          "Baka ne kaže ni \"Miješaj!\" ni \"Dodaj sol!\".",
+          "Grandma says neither \"Mix!\" nor \"Add salt!\"."
+        ],
+        [
+          "Marko ne kaže ni \"Dodaj sol!\" ni \"Zagrij tavu!\".",
+          "Marko says neither \"Add salt!\" nor \"Heat up the pan!\"."
+        ],
+        [
+          "Mama ne kaže ni \"Okreni palačinku!\" ni \"Zagrij tavu!\".",
+          "Mum says neither \"Flip the pancake!\" nor \"Heat up the pan!\"."
+        ],
+        [
+          "Tata ne kaže ni \"Miješaj!\" ni \"Okreni palačinku!\".",
+          "Dad says neither \"Mix!\" nor \"Flip the pancake!\"."
+        ],
+        [
+          "Marko ne voli miješati.",
+          "Marko doesn't like mixing."
+        ],
+        [
+          "Tko kaže što?",
+          "Who says what?"
+        ]
+      ],
+      "sortkljuc": 1704012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Marko cannot say the salt or the pan, and he does not like mixing, so his order is *Okreni palačinku!* Grandma is then left with the pan, Dad with the salt, and Mum with *Miješaj!*",
+        "infokratko": "Marko first: *Okreni palačinku!* Then Grandma, Dad and Mum.",
+        "opis": "Nobody says who gave which order. Work it out from the text.",
+        "tekst": "U nedjelju mama, tata, baka i Marko peku palačinke. Svatko kaže jednu naredbu: \"Miješaj!\", \"Zagrij tavu!\", \"Dodaj sol!\" i \"Okreni palačinku!\" Baka ne kaže ni \"Miješaj!\" ni \"Dodaj sol!\". Marko ne kaže ni \"Dodaj sol!\" ni \"Zagrij tavu!\". Mama ne kaže ni \"Okreni palačinku!\" ni \"Zagrij tavu!\". Tata ne kaže ni \"Miješaj!\" ni \"Okreni palačinku!\". Marko ne voli miješati."
+      },
+      "stavke": [
+        [
+          "Tko kaže \"Okreni palačinku!\"?",
+          "Marko",
+          "baka",
+          "mama"
+        ],
+        [
+          "Tko kaže \"Zagrij tavu!\"?",
+          "baka",
+          "tata",
+          "mama"
+        ],
+        [
+          "Tko kaže \"Dodaj sol!\"?",
+          "tata",
+          "mama",
+          "Marko"
+        ],
+        [
+          "Tko kaže \"Miješaj!\"?",
+          "mama",
+          "Marko",
+          "tata"
+        ],
+        [
+          "Što kaže baka?",
+          "\"Zagrij tavu!\"",
+          "\"Okreni palačinku!\"",
+          "\"Dodaj sol!\""
+        ],
+        [
+          "Što kaže tata?",
+          "\"Dodaj sol!\"",
+          "\"Miješaj!\"",
+          "\"Zagrij tavu!\""
+        ]
+      ],
+      "sortkljuc": 1704013,
+      "bodovi": 874
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "nastavci": "aj | i | ajte | ite",
+        "info": "One tap per order, and almost every order comes from the five texts. The English says whether it is for one person or for a group. Verbs in *-aš* take **-aj** or **-ajte**; verbs in *-eš* and *-iš* take **-i** or **-ite**.",
+        "infokratko": "*-aš* verbs: **-aj / -ajte**; *-eš / -iš* verbs: **-i / -ite**.",
+        "opis": "Almost every order came out of the five texts. One tap finishes it."
+      },
+      "stavke": [
+        [
+          "Uzm___ tri jaja!",
+          "(one person) Take three eggs!",
+          "i"
+        ],
+        [
+          "Dod___ malo soli!",
+          "(one person) Add a little salt!",
+          "aj"
+        ],
+        [
+          "Miješ___ dvije minute!",
+          "(one person) Mix for two minutes!",
+          "aj"
+        ],
+        [
+          "Stav___ marmeladu!",
+          "(one person) Put on the jam!",
+          "i"
+        ],
+        [
+          "Okren___ palačinku!",
+          "(one person) Flip the pancake!",
+          "i"
+        ],
+        [
+          "Skren___ lijevo!",
+          "(a tourist, polite) Turn left!",
+          "ite"
+        ],
+        [
+          "Prijeđ___ most!",
+          "(a tourist, polite) Cross the bridge!",
+          "ite"
+        ],
+        [
+          "Hod___ pokraj parka!",
+          "(a tourist, polite) Walk past the park!",
+          "ajte"
+        ],
+        [
+          "Požur___!",
+          "(a tourist, polite) Hurry!",
+          "ite"
+        ],
+        [
+          "Trč___!",
+          "(the team) Run!",
+          "ite"
+        ],
+        [
+          "Dod___ loptu!",
+          "(the team) Pass the ball!",
+          "ajte"
+        ],
+        [
+          "Ne spav___!",
+          "(the team) Don't sleep!",
+          "ajte"
+        ],
+        [
+          "Ne gled___ telefon!",
+          "(one player) Don't look at your phone!",
+          "aj"
+        ],
+        [
+          "Zaključ___ vrata!",
+          "(Marko) Lock the door!",
+          "aj"
+        ],
+        [
+          "Ček___ me za večeru!",
+          "(Marko) Wait for me for dinner!",
+          "aj"
+        ],
+        [
+          "Podijel___ sa sestrom!",
+          "(one person) Share with your sister!",
+          "i"
+        ]
+      ],
+      "sortkljuc": 1704014,
+      "bodovi": 874
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU cook",
+      "meta": {
+        "info": "Your turn: a friend wants to make pancakes and asks you what to do. You answer with orders for one person — *uzmi, dodaj, miješaj, zagrij, okreni* — and your friend reacts to each step. Every option is correct Croatian, and nothing depends on your gender.",
+        "infokratko": "Orders for one friend: *uzmi, dodaj, miješaj, zagrij, okreni*. Your friend reacts.",
+        "opis": "Your friend is hungry and the kitchen is ready. Choose your replies. Passive words: *Što prvo?* (What first?), *gotovo* (done), *vruća* (hot), *Hop!* (Hup!), *Uspjelo je!* (It worked!), *Dobar tek* (Enjoy your meal)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Bok! Hoću peći palačinke, ali ne znam kako. Što prvo?"
+        ],
+        [
+          "ti",
+          "Uzmi tri jaja, brašno i mlijeko.",
+          "Prvo uzmi jaja, brašno i mlijeko."
+        ],
+        [
+          "npc",
+          "Imam sve. A sol?"
+        ],
+        [
+          "ti",
+          "Dodaj malo soli i miješaj.",
+          "Da, dodaj malo soli. Zatim miješaj dvije minute."
+        ],
+        [
+          "npc",
+          "Miješam, miješam... Sada?"
+        ],
+        [
+          "ti",
+          "Zagrij tavu i stavi malo ulja.",
+          "Sada zagrij tavu."
+        ],
+        [
+          "npc",
+          "Tava je vruća! Mogu li peći?"
+        ],
+        [
+          "ti",
+          "Da! Peci jednu minutu.",
+          "Može! Peci palačinku jednu minutu."
+        ],
+        [
+          "npc",
+          "Minuta je gotova. I sad?"
+        ],
+        [
+          "ti",
+          "Okreni palačinku!",
+          "Sada je okreni!"
+        ],
+        [
+          "npc",
+          "Okrenuti? Hop! Uspjelo je! Marmelada ili čokolada?"
+        ],
+        [
+          "ti",
+          "Marmelada, molim!",
+          "Čokolada, naravno!"
+        ],
+        [
+          "npc",
+          "Evo — i dobar tek!"
+        ]
+      ],
+      "sortkljuc": 1704015,
+      "bodovi": 736
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 16,
+      "broj": 9999,
       "format": "slaganje",
       "naslov": "Translate by building",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The order usually takes the first tile, *ne* stands directly in front of it, *nemoj* is followed by an infinitive, and a short word such as *je* comes after the first part: *a onda je okreni*.",
+        "infokratko": "The order first; *ne* right before it; *nemoj* + infinitive; *je* after the first part.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
       },
       "stavke": [
         [
@@ -83669,16 +96413,1566 @@ window.PODACI = {
           "en: Take three eggs, flour and milk."
         ],
         [
+          "Dodaj malo soli.",
+          "en: Add a little salt."
+        ],
+        [
+          "Zagrij tavu i stavi malo ulja.",
+          "en: Heat the pan and put in a little oil."
+        ],
+        [
+          "Peci palačinku jednu minutu, a onda je okreni!",
+          "en: Fry the pancake for one minute, and then flip it!"
+        ],
+        [
+          "Podijeli sa sestrom!",
+          "en: Share with your sister!"
+        ],
+        [
           "Na semaforu skrenite lijevo.",
           "en: At the traffic lights turn left."
         ],
         [
+          "Zatim prijeđite most i hodajte pokraj parka.",
+          "en: Then cross the bridge and walk past the park."
+        ],
+        [
           "Ne trčite preko ceste!",
           "en: Don't run across the road!"
+        ],
+        [
+          "Trčite, skočite i dodajte loptu!",
+          "en: Run, jump and pass the ball!"
+        ],
+        [
+          "Ne gledaj telefon!",
+          "en: Don't look at your phone!"
+        ],
+        [
+          "Nemoj kasniti!",
+          "en: Don't be late!"
+        ],
+        [
+          "Jedite dobro, spavajte i dođite sutra.",
+          "en: Eat well, sleep and come tomorrow."
+        ],
+        [
+          "Zagrij juhu pet minuta.",
+          "en: Heat up the soup for five minutes."
+        ],
+        [
+          "Kad ideš van, zaključaj vrata.",
+          "en: When you go out, lock the door."
+        ],
+        [
+          "Čekaj me za večeru.",
+          "en: Wait for me for dinner."
+        ],
+        [
+          "Baka ne kaže ni \"Miješaj!\" ni \"Dodaj sol!\".",
+          "en: Grandma says neither \"Mix!\" nor \"Add salt!\"."
         ]
       ],
-      "sortkljuc": 1704010,
-      "bodovi": 1339
+      "sortkljuc": 1704016,
+      "bodovi": 874
+    },
+    {
+      "cjelina": "Practice 17",
+      "cjelinanaslov": "Reading: Recipes, Directions & Coach Zvone",
+      "stranica": 17,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the kitchen. Everything is in its naming form; say an order with it in your head as you tap — *Uzmi jaje! Dodaj šećer! Zagrij tavu!* — and remember that a feminine word takes **-u**: *tavu, juhu*.",
+        "infokratko": "Naming forms. Think *Uzmi jaje! Zagrij tavu!*",
+        "opis": "The pancakes are burning! A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "jaje",
+          "egg"
+        ],
+        [
+          "mlijeko",
+          "milk"
+        ],
+        [
+          "brašno",
+          "flour"
+        ],
+        [
+          "tava",
+          "pan"
+        ],
+        [
+          "šećer",
+          "sugar"
+        ],
+        [
+          "sol",
+          "salt"
+        ],
+        [
+          "čokolada",
+          "chocolate"
+        ],
+        [
+          "žlica",
+          "spoon"
+        ],
+        [
+          "nož",
+          "knife"
+        ],
+        [
+          "tanjur",
+          "plate"
+        ],
+        [
+          "palačinke",
+          "pancakes"
+        ],
+        [
+          "hladnjak",
+          "fridge"
+        ]
+      ],
+      "sortkljuc": 1704017,
+      "bodovi": 874
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "info": "The words of Level 17: the kitchen, directions, the verbs that give orders and the three modal verbs. Nouns are in their naming form, verbs in the infinitive. Watch the direction pairs: *lijevo / desno*, *naprijed / natrag*, *sjever / jug*, *istok / zapad*.",
+        "infokratko": "Level 17 words. Watch *lijevo / desno*, *naprijed / natrag*, *sjever / jug*.",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "brašno",
+          "flour"
+        ],
+        [
+          "tava",
+          "pan"
+        ],
+        [
+          "marmelada",
+          "jam"
+        ],
+        [
+          "ulje",
+          "oil"
+        ],
+        [
+          "papar",
+          "pepper (spice)"
+        ],
+        [
+          "tijesto",
+          "dough"
+        ],
+        [
+          "pećnica",
+          "oven"
+        ],
+        [
+          "štednjak",
+          "stove"
+        ],
+        [
+          "vrhnje",
+          "cream"
+        ],
+        [
+          "kvasac",
+          "yeast"
+        ],
+        [
+          "sastojak",
+          "ingredient"
+        ],
+        [
+          "žličica",
+          "teaspoon"
+        ],
+        [
+          "kakao",
+          "cocoa"
+        ],
+        [
+          "limunada",
+          "lemonade"
+        ],
+        [
+          "hrana",
+          "food"
+        ],
+        [
+          "raskrižje",
+          "crossroads"
+        ],
+        [
+          "kružni tok",
+          "roundabout"
+        ],
+        [
+          "ugao",
+          "corner"
+        ],
+        [
+          "znak",
+          "sign"
+        ],
+        [
+          "mapa",
+          "map"
+        ],
+        [
+          "uzeti",
+          "to take"
+        ],
+        [
+          "dodati",
+          "to add"
+        ],
+        [
+          "miješati",
+          "to mix"
+        ],
+        [
+          "zagrijati",
+          "to heat up"
+        ],
+        [
+          "okrenuti",
+          "to flip, to turn over"
+        ],
+        [
+          "staviti",
+          "to put"
+        ],
+        [
+          "podijeliti",
+          "to share"
+        ],
+        [
+          "skrenuti",
+          "to turn (left or right)"
+        ],
+        [
+          "prijeći",
+          "to cross"
+        ],
+        [
+          "požuriti",
+          "to hurry"
+        ],
+        [
+          "skočiti",
+          "to jump"
+        ],
+        [
+          "moći",
+          "can, to be able to"
+        ],
+        [
+          "morati",
+          "must, to have to"
+        ],
+        [
+          "htjeti",
+          "to want"
+        ],
+        [
+          "nemoj",
+          "don't"
+        ],
+        [
+          "lijevo",
+          "left"
+        ],
+        [
+          "desno",
+          "right"
+        ],
+        [
+          "ravno",
+          "straight ahead"
+        ],
+        [
+          "naprijed",
+          "forward"
+        ],
+        [
+          "natrag",
+          "back, backwards"
+        ],
+        [
+          "daleko",
+          "far"
+        ],
+        [
+          "smjer",
+          "direction"
+        ],
+        [
+          "strana",
+          "side"
+        ],
+        [
+          "sjever",
+          "north"
+        ],
+        [
+          "jug",
+          "south"
+        ],
+        [
+          "istok",
+          "east"
+        ],
+        [
+          "zapad",
+          "west"
+        ],
+        [
+          "kilometar",
+          "kilometre"
+        ],
+        [
+          "zatim",
+          "then, after that"
+        ],
+        [
+          "uputa",
+          "instruction"
+        ],
+        [
+          "točno",
+          "exactly"
+        ],
+        [
+          "otprilike",
+          "about, approximately"
+        ],
+        [
+          "dovoljno",
+          "enough"
+        ]
+      ],
+      "sortkljuc": 1705001,
+      "bodovi": 535
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 17 words, with three meanings to choose from. The wrong options come from the same group — kitchen, directions or verbs — so the pairs that belong together are the real test.",
+        "infokratko": "Level 17 words; the wrong options come from the same group.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "brašno",
+          "flour",
+          "sugar",
+          "yeast"
+        ],
+        [
+          "tava",
+          "pan",
+          "pot",
+          "oven"
+        ],
+        [
+          "ulje",
+          "oil",
+          "vinegar",
+          "cream"
+        ],
+        [
+          "tijesto",
+          "dough",
+          "flour",
+          "cake"
+        ],
+        [
+          "pećnica",
+          "oven",
+          "stove",
+          "pan"
+        ],
+        [
+          "štednjak",
+          "stove",
+          "oven",
+          "sink"
+        ],
+        [
+          "sastojak",
+          "ingredient",
+          "recipe",
+          "teaspoon"
+        ],
+        [
+          "žličica",
+          "teaspoon",
+          "spoon",
+          "cup"
+        ],
+        [
+          "raskrižje",
+          "crossroads",
+          "roundabout",
+          "corner"
+        ],
+        [
+          "kružni tok",
+          "roundabout",
+          "crossroads",
+          "traffic lights"
+        ],
+        [
+          "ugao",
+          "corner",
+          "side",
+          "sign"
+        ],
+        [
+          "znak",
+          "sign",
+          "map",
+          "direction"
+        ],
+        [
+          "uzeti",
+          "to take",
+          "to put",
+          "to add"
+        ],
+        [
+          "staviti",
+          "to put",
+          "to take",
+          "to share"
+        ],
+        [
+          "dodati",
+          "to add",
+          "to mix",
+          "to put"
+        ],
+        [
+          "miješati",
+          "to mix",
+          "to heat up",
+          "to flip"
+        ],
+        [
+          "okrenuti",
+          "to flip, to turn over",
+          "to turn (left or right)",
+          "to cross"
+        ],
+        [
+          "skrenuti",
+          "to turn (left or right)",
+          "to flip, to turn over",
+          "to jump"
+        ],
+        [
+          "prijeći",
+          "to cross",
+          "to hurry",
+          "to go back"
+        ],
+        [
+          "požuriti",
+          "to hurry",
+          "to cross",
+          "to rest"
+        ],
+        [
+          "morati",
+          "must, to have to",
+          "can, to be able to",
+          "to want"
+        ],
+        [
+          "moći",
+          "can, to be able to",
+          "must, to have to",
+          "to want"
+        ],
+        [
+          "ravno",
+          "straight ahead",
+          "right",
+          "back, backwards"
+        ],
+        [
+          "natrag",
+          "back, backwards",
+          "forward",
+          "far"
+        ],
+        [
+          "naprijed",
+          "forward",
+          "back, backwards",
+          "straight ahead"
+        ],
+        [
+          "sjever",
+          "north",
+          "south",
+          "east"
+        ],
+        [
+          "zapad",
+          "west",
+          "east",
+          "north"
+        ],
+        [
+          "zatim",
+          "then, after that",
+          "exactly",
+          "enough"
+        ],
+        [
+          "otprilike",
+          "about, approximately",
+          "exactly",
+          "far"
+        ],
+        [
+          "dovoljno",
+          "enough",
+          "about, approximately",
+          "exactly"
+        ]
+      ],
+      "sortkljuc": 1705002,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "One person or a group?",
+      "meta": {
+        "info": "Sorting orders by who they are for. Without **-te** the order is for one person you call *ti*; with **-te** it is for a group or for someone you call *vi*. *Nemoj* and *nemojte* follow the same split.",
+        "infokratko": "No **-te** → one person (*ti*). **-te** → a group or polite *vi*.",
+        "stupci": "ONE PERSON (ti) | A GROUP (vi)",
+        "opis": "Is the order for one friend, or for a group (or someone you call *vi*)?"
+      },
+      "stavke": [
+        [
+          "Uzmi jaje!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Skreni desno!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Pij vodu!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Nemoj kasniti!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Zagrij tavu!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Dođi sutra!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Budi ovdje u osam!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Idi ravno!",
+          "ONE PERSON (ti)"
+        ],
+        [
+          "Uzmite kartu!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Skrenite lijevo!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Pijte vodu!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Nemojte trčati!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Prijeđite most!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Dođite u devet!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Budite na kolodvoru u osam!",
+          "A GROUP (vi)"
+        ],
+        [
+          "Idite natrag!",
+          "A GROUP (vi)"
+        ]
+      ],
+      "sortkljuc": 1705003,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Command or request?",
+      "meta": {
+        "info": "Sorting orders and polite requests. An order uses the imperative; a polite request is a question with *možeš li* or *možete li* and an infinitive. *Molim vas* makes an order softer, but it is still an order.",
+        "infokratko": "Imperative → command. *Možeš li / Možete li* + infinitive → polite request.",
+        "stupci": "COMMAND | POLITE REQUEST",
+        "opis": "Which one is a polite request?"
+      },
+      "stavke": [
+        [
+          "Dodaj papar!",
+          "COMMAND"
+        ],
+        [
+          "Možeš li dodati papar?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Skrenite desno!",
+          "COMMAND"
+        ],
+        [
+          "Možete li skrenuti desno?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Stavi tijesto u pećnicu!",
+          "COMMAND"
+        ],
+        [
+          "Možeš li staviti tijesto u pećnicu?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Molim vas, idite natrag.",
+          "COMMAND"
+        ],
+        [
+          "Možete li ići natrag?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Požuri!",
+          "COMMAND"
+        ],
+        [
+          "Možeš li požuriti?",
+          "POLITE REQUEST"
+        ],
+        [
+          "Uzmite mapu!",
+          "COMMAND"
+        ],
+        [
+          "Možete li uzeti mapu?",
+          "POLITE REQUEST"
+        ]
+      ],
+      "sortkljuc": 1705004,
+      "bodovi": 535
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "aj | i | j",
+        "info": "One tap turns the verb into an order for one friend. Verbs whose *ti* form ends in **-aš** take **-aj**, verbs in **-eš** or **-iš** take **-i**, and when a *j* comes before *-eš* the order ends in that **j**.",
+        "infokratko": "*-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.",
+        "opis": "The *ti* form is in the English line. One tap makes the order."
+      },
+      "stavke": [
+        [
+          "Dod___ ulje!",
+          "Add the oil! (dodaš)",
+          "aj"
+        ],
+        [
+          "Uzm___ žličicu!",
+          "Take a teaspoon! (uzmeš)",
+          "i"
+        ],
+        [
+          "Zagri___ pećnicu!",
+          "Heat up the oven! (zagriješ)",
+          "j"
+        ],
+        [
+          "Miješ___ tijesto!",
+          "Mix the dough! (miješaš)",
+          "aj"
+        ],
+        [
+          "Stav___ tavu na štednjak!",
+          "Put the pan on the stove! (staviš)",
+          "i"
+        ],
+        [
+          "Pi___ limunadu!",
+          "Drink the lemonade! (piješ)",
+          "j"
+        ],
+        [
+          "Skren___ desno!",
+          "Turn right! (skreneš)",
+          "i"
+        ],
+        [
+          "Gled___ znak!",
+          "Look at the sign! (gledaš)",
+          "aj"
+        ],
+        [
+          "Kupu___ brašno!",
+          "Buy flour! (kupuješ)",
+          "j"
+        ],
+        [
+          "Prijeđ___ cestu!",
+          "Cross the road! (prijeđeš)",
+          "i"
+        ],
+        [
+          "Ček___ na uglu!",
+          "Wait on the corner! (čekaš)",
+          "aj"
+        ],
+        [
+          "Okren___ mapu!",
+          "Turn the map over! (okreneš)",
+          "i"
+        ],
+        [
+          "Ču___ ovo!",
+          "Listen to this! (čuješ)",
+          "j"
+        ],
+        [
+          "Čit___ upute!",
+          "Read the instructions! (čitaš)",
+          "aj"
+        ],
+        [
+          "Požur___!",
+          "Hurry! (požuriš)",
+          "i"
+        ],
+        [
+          "Sluš___ me!",
+          "Listen to me! (slušaš)",
+          "aj"
+        ]
+      ],
+      "sortkljuc": 1705005,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the form",
+      "meta": {
+        "info": "Choosing the correct imperative. The wrong options take the wrong ending — **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j*. The bracket tells you who gets the order.",
+        "infokratko": "Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.",
+        "opis": "Choose the correct command."
+      },
+      "stavke": [
+        [
+          "(prijatelju) ___ brašno!",
+          "Uzmi",
+          "Uzmaj",
+          "Uzmij"
+        ],
+        [
+          "(grupi) ___ lijevo!",
+          "Skrenite",
+          "Skrenajte",
+          "Skrenijte"
+        ],
+        [
+          "(prijatelju) ___ papar!",
+          "Dodaj",
+          "Dodi",
+          "Dodij"
+        ],
+        [
+          "(grupi) ___ limunadu!",
+          "Pijte",
+          "Pijite",
+          "Pijajte"
+        ],
+        [
+          "(prijatelju) ___ pećnicu!",
+          "Zagrij",
+          "Zagriji",
+          "Zagrijaj"
+        ],
+        [
+          "(grupi) ___ tijesto!",
+          "Miješajte",
+          "Miješite",
+          "Miješijte"
+        ],
+        [
+          "(prijatelju) ___ sutra!",
+          "Dođi",
+          "Dođaj",
+          "Dođij"
+        ],
+        [
+          "(grupi) ___ most!",
+          "Prijeđite",
+          "Prijeđajte",
+          "Prijeđijte"
+        ],
+        [
+          "(prijatelju) ___ tavu na štednjak!",
+          "Stavi",
+          "Stavaj",
+          "Stavij"
+        ],
+        [
+          "(grupi) ___ ! Vlak kreće!",
+          "Požurite",
+          "Požurajte",
+          "Požurijte"
+        ],
+        [
+          "(prijatelju) ___ ravno!",
+          "Idi",
+          "Idaj",
+          "Idij"
+        ],
+        [
+          "(grupi) ___ ovdje u osam!",
+          "Budite",
+          "Bidite",
+          "Bujte"
+        ]
+      ],
+      "sortkljuc": 1705006,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "The gentler \"nemoj\"",
+      "meta": {
+        "info": "Choosing the correct *don't* with *nemoj*. The verb after *nemoj* or *nemojte* stays in the infinitive, and *nemoj* is for one friend, *nemojte* for a group or *vi*. The wrong options put a personal ending or an order after it.",
+        "infokratko": "*nemoj / nemojte* + infinitive: *Nemoj kasniti!*",
+        "opis": "Choose the correct softer \"don't\"."
+      },
+      "stavke": [
+        [
+          "(prijatelju)",
+          "Nemoj kasniti!",
+          "Nemoj kasni!",
+          "Nemoj kasniš!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte trčati!",
+          "Nemojte trčite!",
+          "Nemoj trčite!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj jesti tijesto!",
+          "Nemoj jedi tijesto!",
+          "Nemoj jedeš tijesto!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte skrenuti lijevo!",
+          "Nemojte skrenite lijevo!",
+          "Nemoj skrenete lijevo!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj piti kavu navečer!",
+          "Nemoj pij kavu navečer!",
+          "Nemoj piješ kavu navečer!"
+        ],
+        [
+          "(vi, polite)",
+          "Nemojte ići autom!",
+          "Nemojte idite autom!",
+          "Nemoj idete autom!"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj gledati mapu!",
+          "Nemoj gledaj mapu!",
+          "Nemoj gledaš mapu!"
+        ],
+        [
+          "(grupi)",
+          "Nemojte čekati!",
+          "Nemojte čekajte!",
+          "Nemoj čekate!"
+        ]
+      ],
+      "sortkljuc": 1705007,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Modal + infinitive",
+      "meta": {
+        "info": "Choosing the second verb after *mogu, moram* and *hoću*. Whatever the person, the second verb stays in the infinitive: *Moram ići, Možemo doći, Hoće plivati.* The wrong options give it a personal ending or turn it into an order.",
+        "infokratko": "After a modal: infinitive only — *Moram ići*, not *Moram idem*.",
+        "opis": "Choose the correct second verb."
+      },
+      "stavke": [
+        [
+          "Moram ___ na kolodvor.",
+          "ići",
+          "idem",
+          "idi"
+        ],
+        [
+          "Možeš li ___ ulje?",
+          "dodati",
+          "dodaš",
+          "dodaj"
+        ],
+        [
+          "Ne mogu ___ tijesto.",
+          "miješati",
+          "miješam",
+          "miješaj"
+        ],
+        [
+          "Hoćeš li ___ limunadu?",
+          "piti",
+          "piješ",
+          "pij"
+        ],
+        [
+          "Možete li ___ desno?",
+          "skrenuti",
+          "skrenete",
+          "skrenite"
+        ],
+        [
+          "Moramo ___ pećnicu.",
+          "zagrijati",
+          "zagrijemo",
+          "zagrijmo"
+        ],
+        [
+          "Ana ne može ___ sutra.",
+          "doći",
+          "dođe",
+          "dođi"
+        ],
+        [
+          "Oni moraju ___ cestu.",
+          "prijeći",
+          "prijeđu",
+          "prijeđite"
+        ],
+        [
+          "Hoćemo ___ palačinke.",
+          "peći",
+          "pečemo",
+          "pecimo"
+        ],
+        [
+          "Možemo li ___ taksi?",
+          "uzeti",
+          "uzmemo",
+          "uzmimo"
+        ]
+      ],
+      "sortkljuc": 1705008,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Make the command",
+      "meta": {
+        "info": "You make the order from the infinitive. Think of the *ti* form: **-aš** gives **-aj**, **-eš** and **-iš** give **-i**, *-ješ* gives **-j**. For a group add **-te**. *Idi, dođi, budi* and *peci* are learned whole.",
+        "infokratko": "*ti* form → **-aj / -i / -j**; group **+te**. Whole: *idi, dođi, budi, peci*.",
+        "opis": "Type the command. (ti) = one friend, (vi) = a group."
+      },
+      "stavke": [
+        [
+          "(ti) dodati →",
+          "Dodaj"
+        ],
+        [
+          "(vi) dodati →",
+          "Dodajte"
+        ],
+        [
+          "(ti) uzeti →",
+          "Uzmi"
+        ],
+        [
+          "(vi) skrenuti →",
+          "Skrenite"
+        ],
+        [
+          "(ti) zagrijati →",
+          "Zagrij"
+        ],
+        [
+          "(vi) piti →",
+          "Pijte"
+        ],
+        [
+          "(ti) prijeći →",
+          "Prijeđi"
+        ],
+        [
+          "(vi) čekati →",
+          "Čekajte"
+        ],
+        [
+          "(ti) peći →",
+          "Peci"
+        ],
+        [
+          "(vi) ići →",
+          "Idite"
+        ],
+        [
+          "(ti) doći →",
+          "Dođi"
+        ],
+        [
+          "(vi) biti →",
+          "Budite"
+        ]
+      ],
+      "sortkljuc": 1705009,
+      "bodovi": 754
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Make it polite",
+      "meta": {
+        "info": "You turn each order into a polite question: a *ti* order becomes *Možeš li…?*, a *vi* order *Možete li…?*, and the order itself goes back to the infinitive: *dodaj → dodati, skrenite → skrenuti*.",
+        "infokratko": "*ti* → *Možeš li* + infinitive; *vi* → *Možete li* + infinitive.",
+        "opis": "Turn the command into a \"možeš li / možete li\" question."
+      },
+      "stavke": [
+        [
+          "Dodaj papar! →",
+          "Možeš li dodati papar"
+        ],
+        [
+          "Skrenite desno! →",
+          "Možete li skrenuti desno"
+        ],
+        [
+          "Uzmi mapu! →",
+          "Možeš li uzeti mapu"
+        ],
+        [
+          "Čekajte na uglu! →",
+          "Možete li čekati na uglu"
+        ],
+        [
+          "Zagrij pećnicu! →",
+          "Možeš li zagrijati pećnicu"
+        ],
+        [
+          "Idite natrag! →",
+          "Možete li ići natrag"
+        ],
+        [
+          "Dođi u osam! →",
+          "Možeš li doći u osam"
+        ],
+        [
+          "Prijeđite cestu! →",
+          "Možete li prijeći cestu"
+        ],
+        [
+          "Požuri! →",
+          "Možeš li požuriti"
+        ],
+        [
+          "Stavite tavu na štednjak! →",
+          "Možete li staviti tavu na štednjak"
+        ]
+      ],
+      "sortkljuc": 1705010,
+      "bodovi": 754
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the modal",
+      "meta": {
+        "info": "You type the modal verb in the form that matches the person. *Can* is *moći* (*mogu, možeš, može…*), *must* is *morati* (*moram, moraš…*), and *want* is *htjeti* (*hoću, hoćeš…*). *Mogu* is both *I can* and *they can*.",
+        "infokratko": "*mogu, možeš…* / *moram, moraš…* / *hoću, hoćeš…*",
+        "opis": "Type the modal in the right person."
+      },
+      "stavke": [
+        [
+          "Ja ___ ići. (must)",
+          "moram"
+        ],
+        [
+          "Ti ___ doći. (can)",
+          "možeš"
+        ],
+        [
+          "Mi ___ kupiti brašno. (must)",
+          "moramo"
+        ],
+        [
+          "Oni ne ___ plivati. (can)",
+          "mogu"
+        ],
+        [
+          "Ona ___ limunadu. (want)",
+          "hoće"
+        ],
+        [
+          "Vi ___ skrenuti ovdje. (can)",
+          "možete"
+        ],
+        [
+          "Oni ___ požuriti. (must)",
+          "moraju"
+        ],
+        [
+          "Ja ___ kavu. (want)",
+          "hoću"
+        ],
+        [
+          "___ li dodati sol? (can, ti)",
+          "Možeš"
+        ],
+        [
+          "Marko ___ učiti. (must)",
+          "mora"
+        ]
+      ],
+      "sortkljuc": 1705011,
+      "bodovi": 754
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the way to the beach",
+      "meta": {
+        "info": "A short story with directions in it. The woman speaks to two people, so her orders end in **-te** (*idite, skrenite, uzmite*), and one of them is a *don't* with *nemojte*. Find the order in the text that answers each question.",
+        "infokratko": "Orders to two people: **-te**. One *nemojte*. Find the order that answers the question.",
+        "tekst": "Ana i Petra su u Splitu i traže plažu. Na trgu pitaju jednu gospođu: \"Oprostite, gdje je plaža?\" Gospođa kaže: \"Idite ravno do raskrižja. Tamo skrenite desno i hodajte pokraj mora otprilike deset minuta. Plaža je iza hotela. Ali nemojte ići autom, tamo nema parkinga! I uzmite vodu, danas je vruće.\" Petra pita: \"Možete li nam pokazati na mapi?\" Gospođa kaže: \"Može!\"",
+        "opis": "Read the text, then answer. Passive words: *jednu gospođu* (a lady), *nema parkinga* (there's no parking), *vruće* (hot), *nam* (to us)."
+      },
+      "stavke": [
+        [
+          "Što traže Ana i Petra?",
+          "plažu",
+          "hotel",
+          "kolodvor"
+        ],
+        [
+          "Gdje pitaju gospođu?",
+          "na trgu",
+          "na plaži",
+          "u hotelu"
+        ],
+        [
+          "Kamo trebaju ići prvo?",
+          "ravno do raskrižja",
+          "lijevo do hotela",
+          "natrag do trga"
+        ],
+        [
+          "Gdje je plaža?",
+          "iza hotela",
+          "ispred hotela",
+          "pokraj trga"
+        ],
+        [
+          "Zašto ne trebaju ići autom?",
+          "jer nema parkinga",
+          "jer je plaža daleko",
+          "jer nemaju auto"
+        ],
+        [
+          "Što trebaju uzeti?",
+          "vodu",
+          "kartu",
+          "mapu"
+        ]
+      ],
+      "sortkljuc": 1705012,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "A review of Levels 12 to 16: the genitive, the instrumental, the dative, the locative and negation, plus the perfect with both genders. Each item comes from a level you have finished, so read the brackets carefully.",
+        "infokratko": "Review: genitive, instrumental, dative, locative, negation, the perfect.",
+        "opis": "Not about the imperative — everything here comes from levels 10 to 16."
+      },
+      "stavke": [
+        [
+          "Pijem kavu bez ___ .",
+          "šećera",
+          "šećer",
+          "šećerom"
+        ],
+        [
+          "Dolazim iz ___ . (Split)",
+          "Splita",
+          "Split",
+          "Splitu"
+        ],
+        [
+          "dvije ___ , molim",
+          "kave",
+          "kava",
+          "kavu"
+        ],
+        [
+          "Mačka je ispod ___ .",
+          "stola",
+          "stol",
+          "stolu"
+        ],
+        [
+          "Ključ je kod ___ . (ja)",
+          "mene",
+          "meni",
+          "ja"
+        ],
+        [
+          "Idem u kino ___ . (sestra)",
+          "sa sestrom",
+          "sa sestra",
+          "sa sestri"
+        ],
+        [
+          "Putujemo ___ . (trajekt)",
+          "trajektom",
+          "trajekt",
+          "trajektu"
+        ],
+        [
+          "___ pišeš? — Baki.",
+          "Komu",
+          "Koga",
+          "S kim"
+        ],
+        [
+          "Šaljem paket ___ . (brat)",
+          "bratu",
+          "brata",
+          "bratom"
+        ],
+        [
+          "Ana je u ___ . (kuhinja)",
+          "kuhinji",
+          "kuhinju",
+          "kuhinje"
+        ],
+        [
+          "Vidimo se na ___ . (kolodvor)",
+          "kolodvoru",
+          "kolodvor",
+          "kolodvora"
+        ],
+        [
+          "Marko ___ ne jede. (nothing)",
+          "ništa",
+          "nešto",
+          "nitko"
+        ],
+        [
+          "Ne idem autom, ___ vlakom.",
+          "nego",
+          "ali",
+          "i"
+        ],
+        [
+          "Mi ___ vremena.",
+          "nemamo",
+          "ne imamo",
+          "nismo"
+        ],
+        [
+          "Jučer sam ___ juhu. (kuhati, a woman speaking)",
+          "kuhala",
+          "kuhao",
+          "kuhale"
+        ],
+        [
+          "Ana i Petra su ___ na plaži. (biti)",
+          "bile",
+          "bio",
+          "bila"
+        ],
+        [
+          "Marko je ___ kartu. (kupiti)",
+          "kupio",
+          "kupila",
+          "kupili"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Nisam pio kavu.",
+          "Ne sam pio kavu.",
+          "Nisam pili kavu."
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Idem u knjižnicu jer je Ana u knjižnici.",
+          "Idem u knjižnicu jer Ana je u knjižnici.",
+          "Idem u knjižnici jer je Ana u knjižnicu."
+        ],
+        [
+          "Sutra ___ peći palačinke. (ja)",
+          "ću",
+          "ćeš",
+          "će"
+        ]
+      ],
+      "sortkljuc": 1705013,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "Whole sentences with orders, requests and modals, built from tiles. The order usually opens the sentence, *ne* stands right in front of it, *nemoj* and the modals are followed by an infinitive, and *molim vas* takes a comma.",
+        "infokratko": "The order first; *ne* right before it; *nemoj* and modals + infinitive; *Molim vas, …*",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Uzmi tri jaja i dodaj brašno.",
+          "en: Take three eggs and add the flour."
+        ],
+        [
+          "Na raskrižju skrenite desno.",
+          "en: At the crossroads turn right."
+        ],
+        [
+          "Nemoj kasniti!",
+          "en: Don't be late!"
+        ],
+        [
+          "Ne trčite preko ceste!",
+          "en: Don't run across the road!"
+        ],
+        [
+          "Možete li skrenuti lijevo?",
+          "en: Can you turn left?"
+        ],
+        [
+          "Molim te, dodaj papar.",
+          "en: Please pass the pepper."
+        ],
+        [
+          "Zagrij pećnicu i stavi tijesto.",
+          "en: Heat up the oven and put in the dough."
+        ],
+        [
+          "Idite ravno do semafora.",
+          "en: Go straight to the traffic lights."
+        ],
+        [
+          "Ne mogu doći jer moram raditi.",
+          "en: I can't come because I have to work."
+        ],
+        [
+          "Hoćeš li limunadu? — Može!",
+          "en: Do you want lemonade? — Sure!"
+        ],
+        [
+          "Pjevajmo zajedno!",
+          "en: Let's sing together!"
+        ],
+        [
+          "Nemojte ići autom!",
+          "en: Don't go by car!"
+        ],
+        [
+          "Moramo kupiti ulje i brašno.",
+          "en: We have to buy oil and flour."
+        ],
+        [
+          "Kolodvor je otprilike dva kilometra daleko.",
+          "en: The station is about two kilometres away."
+        ],
+        [
+          "Idi natrag do ugla.",
+          "en: Go back to the corner."
+        ]
+      ],
+      "sortkljuc": 1705014,
+      "bodovi": 635
+    },
+    {
+      "cjelina": "Test 17",
+      "cjelinanaslov": "Test 17: The Imperative",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English. An order uses the imperative, with **-te** for a group or *vi*; *don't* is *ne* + order or *nemoj* + infinitive; a polite request is *Možeš li…?* or *Možete li…?*; and a modal is followed by an infinitive.",
+        "infokratko": "Imperative (**+te**); *ne / nemoj*; *Možeš li / Možete li*; modal + infinitive.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Take the flour! (to a friend)",
+          "Uzmi brašno"
+        ],
+        [
+          "Add the oil! (to a group)",
+          "Dodajte ulje"
+        ],
+        [
+          "Turn left! (polite)",
+          "Skrenite lijevo"
+        ],
+        [
+          "Go straight ahead! (to a friend)",
+          "Idi ravno"
+        ],
+        [
+          "Come tomorrow! (to a group)",
+          "Dođite sutra"
+        ],
+        [
+          "Don't be late! (to a friend)",
+          "Nemoj kasniti / Ne kasni"
+        ],
+        [
+          "Don't run! (to a group)",
+          "Ne trčite / Nemojte trčati"
+        ],
+        [
+          "Can you add the salt? (to a friend)",
+          "Možeš li dodati sol"
+        ],
+        [
+          "Can you wait? (polite)",
+          "Možete li čekati"
+        ],
+        [
+          "I must go.",
+          "Moram ići"
+        ],
+        [
+          "We can't come.",
+          "Ne možemo doći"
+        ],
+        [
+          "Let's go!",
+          "Idemo"
+        ],
+        [
+          "Heat up the oven! (to a friend)",
+          "Zagrij pećnicu"
+        ],
+        [
+          "Cross the road! (polite)",
+          "Prijeđite cestu"
+        ],
+        [
+          "Please wait! (polite)",
+          "Molim vas, čekajte / Čekajte, molim vas"
+        ],
+        [
+          "Do you want lemonade? (to a friend)",
+          "Hoćeš li limunadu / Želiš li limunadu"
+        ]
+      ],
+      "sortkljuc": 1705015,
+      "bodovi": 753
     },
     {
       "cjelina": "Lesson 18",
@@ -83687,13 +97981,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Imagine...",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. The conditional says what you *would* do: the participle from Lesson 10 plus a new helper, *bih, bi, bismo, biste*. It shows the speaker's gender like the past tense does: *kupio bih* for a man, *kupila bih* for a woman.",
+        "infokratko": "Participle + *bih / bi / bismo / biste*: *Kupio bih… / Kupila bih…*",
+        "opis": "Read it through — by the end you can spend a million euros, at least in Croatian."
+      },
       "stavke": [
         [
           "Imagine: a million euros lands in your account. What *would* you do?"
         ],
         [
-          "Croatian dreams run on the **conditional**: *Kupio bih kuću pokraj mora. Putovao bih cijelu godinu.* The recipe is sweet and familiar: the past participle you know from Lesson 10 + a tiny new helper. Let's dream."
+          "Croatian dreams use the **conditional**: *Kupio bih kuću pokraj mora. Putovala bih cijelu godinu.* You already know half of it — the participle from Lesson 10 (*kupio, putovala*)."
+        ],
+        [
+          "**Only the helper is new.** In the past tense it is *sam*: *Kupio **sam** kuću* (I bought a house). In the conditional it is *bih*: *Kupio **bih** kuću* (I would buy a house)."
+        ],
+        [
+          "By the end of this lesson you can say what you would buy, where you would live and what you would like — and order politely with *Htio bih… / Htjela bih…*"
         ]
       ],
       "sortkljuc": 1801001,
@@ -83708,7 +98012,9 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "trajanje": "60",
-        "opis": "Command sprint! Tap the imperative."
+        "info": "A timed warm-up on the imperative from Lesson 17. Take the *ti* form: **-aš** gives **-aj** (*dodaj*), **-eš** or **-iš** gives **-i** (*uzmi, stavi*), and after a *j* the order ends in **-j** (*pij*). *Idi* and *dođi* are learned whole.",
+        "infokratko": "Lesson 17 against the clock: *dodaj, uzmi, pij*; *idi, dođi*.",
+        "opis": "Command sprint from Lesson 17 — tap the order before the timer runs out."
       },
       "stavke": [
         [
@@ -83730,19 +98036,149 @@ window.PODACI = {
         [
           "doći",
           "Dođi!"
+        ],
+        [
+          "skrenuti",
+          "Skreni!"
+        ],
+        [
+          "miješati",
+          "Miješaj!"
+        ],
+        [
+          "zagrijati",
+          "Zagrij!"
+        ],
+        [
+          "staviti",
+          "Stavi!"
+        ],
+        [
+          "ići (vi)",
+          "Idite!"
+        ],
+        [
+          "uzeti (vi)",
+          "Uzmite!"
+        ],
+        [
+          "trčati (ne)",
+          "Ne trči!"
         ]
       ],
       "sortkljuc": 1801002,
-      "bodovi": 1222
+      "bodovi": 648
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
       "stranica": 3,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "Dream words",
+      "meta": {
+        "info": "The words for a dream with a million euros in it. Each verb is shown three times — infinitive, *ja*-form and the participle from Lesson 10 — because the conditional is built from the participle: *dobiti → dobio*, *živjeti → živio*.",
+        "infokratko": "Dream words. Verbs with the participle: *dobiti → dobio, živjeti → živio*.",
+        "opis": "Money, dreams, the sea — and the verbs to go with them. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "milijun",
+          "million"
+        ],
+        [
+          "lutrija",
+          "lottery"
+        ],
+        [
+          "san",
+          "dream"
+        ],
+        [
+          "želja",
+          "wish"
+        ],
+        [
+          "brod",
+          "boat"
+        ],
+        [
+          "vila",
+          "villa"
+        ],
+        [
+          "obala",
+          "coast"
+        ],
+        [
+          "val",
+          "wave"
+        ],
+        [
+          "zvijezda",
+          "star"
+        ],
+        [
+          "putovanje",
+          "journey, trip"
+        ],
+        [
+          "zima",
+          "winter"
+        ],
+        [
+          "bogat / bogata",
+          "rich"
+        ],
+        [
+          "dobiti → dobijem → dobio",
+          "to get"
+        ],
+        [
+          "kupiti → kupim → kupio",
+          "to buy"
+        ],
+        [
+          "ostati → ostanem → ostao",
+          "to stay"
+        ],
+        [
+          "živjeti → živim → živio",
+          "to live"
+        ],
+        [
+          "putovati → putujem → putovao",
+          "to travel"
+        ],
+        [
+          "sanjati → sanjam → sanjao",
+          "to dream"
+        ],
+        [
+          "zamisliti → zamislim → zamislio",
+          "to imagine"
+        ],
+        [
+          "štedjeti → štedim → štedio",
+          "to save (money)"
+        ]
+      ],
+      "sortkljuc": 1801003,
+      "bodovi": 648
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 4,
+      "broj": 9999,
       "format": "tekst",
       "naslov": "The dream helpers",
-      "meta": {},
+      "meta": {
+        "info": "The first rule of the lesson. The conditional is the participle plus a helper: *bih* for *ja*, *bismo* for *mi*, *biste* for *vi*, and *bi* for everyone else. Like *sam* and *ću*, the helper never opens a sentence: *Kupio bih*, or *Ja bih kupio*.",
+        "infokratko": "participle + *bih, bi, bi, bismo, biste, bi*. The helper is never first.",
+        "infoodmah": "da",
+        "opis": "Six persons, four helpers. Read the table and fill in the last line."
+      },
       "stavke": [
         [
           "**All six helpers in one place.**"
@@ -83755,22 +98191,22 @@ window.PODACI = {
         [
           "tab: ja",
           "bih",
-          "Kupio bih brod."
+          "Kupio bih brod. / Kupila bih brod."
         ],
         [
           "tab: ti",
           "bi",
-          "Ti bi putovao."
+          "Ti bi putovao. / Ti bi putovala."
         ],
         [
           "tab: on, ona, ono",
           "bi",
-          "Ona bi plivala."
+          "On bi plivao. Ona bi plivala."
         ],
         [
           "tab: mi",
           "bismo",
-          "Mi bismo jeli dugo."
+          "Mi bismo putovali."
         ],
         [
           "tab: vi",
@@ -83780,60 +98216,80 @@ window.PODACI = {
         [
           "tab: oni, one, ona",
           "bi",
-          "Oni bi došli na ručak."
+          "Oni bi došli. One bi došle."
         ],
         [
-          "**Same participle, new helper.** The participle is the one from Lesson 10 (*kupio / kupila / kupili*); only the helper changes — *bih* instead of *sam*. And it follows the leaning rule you know from *sam* and *ću*: never first in the sentence."
+          "**Same participle, new helper.** The participle is the one from Lesson 10, and it still shows who is speaking: *kupio* (a man), *kupila* (a woman), *kupili* (a group), *kupile* (a group of women)."
+        ],
+        [
+          "**The helper takes the second place,** exactly like *sam* and *ću*: ***Kupio bih** brod.* or *Ja **bih** kupio brod.* — never *Bih kupio brod*."
         ],
         [
           "**Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali cijelu godinu. Oni [bi] došli na ručak."
-        ],
-        [
-          "**Novi glagoli:** dobiti (to get), ostati (to stay), zamisliti (to imagine)."
-        ]
-      ],
-      "sortkljuc": 1801003,
-      "bodovi": 978
-    },
-    {
-      "cjelina": "Lesson 18",
-      "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 4,
-      "broj": 9999,
-      "format": "parovi",
-      "naslov": "Match the helpers",
-      "meta": {
-        "opis": "Match each pronoun with its conditional helper."
-      },
-      "stavke": [
-        [
-          "ja",
-          "bih"
-        ],
-        [
-          "mi",
-          "bismo"
-        ],
-        [
-          "vi",
-          "biste"
-        ],
-        [
-          "ona",
-          "bi"
         ]
       ],
       "sortkljuc": 1801004,
-      "bodovi": 838
+      "bodovi": 519
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
       "stranica": 5,
       "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the helpers",
+      "meta": {
+        "info": "Each English phrase beside its conditional. The helper shows the person — *bih* for *I*, *bismo* for *we*, *biste* for *you* (a group) and *bi* for *he, she, they* — and the participle ending shows the gender: *kupio* or *kupila*.",
+        "infokratko": "*bih* I, *bismo* we, *biste* you (group), *bi* he / she / they. **-o** / **-la** / **-li** / **-le**.",
+        "opis": "Match each English phrase with its conditional."
+      },
+      "stavke": [
+        [
+          "I would buy (a man)",
+          "kupio bih"
+        ],
+        [
+          "I would buy (a woman)",
+          "kupila bih"
+        ],
+        [
+          "we would travel",
+          "putovali bismo"
+        ],
+        [
+          "we would travel (only women)",
+          "putovale bismo"
+        ],
+        [
+          "you (a group) would stay",
+          "ostali biste"
+        ],
+        [
+          "she would swim",
+          "plivala bi"
+        ],
+        [
+          "he would live",
+          "živio bi"
+        ],
+        [
+          "they would come",
+          "došli bi"
+        ]
+      ],
+      "sortkljuc": 1801005,
+      "bodovi": 648
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 6,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Past or dream?",
       "meta": {
+        "info": "Sorting sentences by what they say. With *sam, je, smo, su* the participle tells what happened; with *bih, bi, bismo, biste* it tells what would happen. The participle is the same in both — only the helper is different.",
+        "infokratko": "*sam, je, smo* → it happened. *bih, bi, bismo* → a wish.",
         "stupci": "HAPPENED (past) | WISH (conditional)",
         "opis": "Did it happen, or is it a dream? Sort the sentences."
       },
@@ -83869,27 +98325,151 @@ window.PODACI = {
         [
           "Ostao sam doma.",
           "HAPPENED (past)"
+        ],
+        [
+          "Živjeli su u Zagrebu.",
+          "HAPPENED (past)"
+        ],
+        [
+          "Živjeli bi pokraj mora.",
+          "WISH (conditional)"
+        ],
+        [
+          "Dobila sam poklon.",
+          "HAPPENED (past)"
+        ],
+        [
+          "Dobila bih milijun eura.",
+          "WISH (conditional)"
+        ],
+        [
+          "Jeste li putovali vlakom?",
+          "HAPPENED (past)"
+        ],
+        [
+          "Biste li putovali brodom?",
+          "WISH (conditional)"
         ]
       ],
-      "sortkljuc": 1801005,
-      "bodovi": 978
+      "sortkljuc": 1801006,
+      "bodovi": 759
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 6,
+      "stranica": 7,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "h | smo | ste | -",
+        "info": "One tap finishes the helper *bi*. For *ja* it becomes *bih*, for *mi* *bismo*, for *vi* *biste*. For *ti*, *on*, *ona* and *oni* it stays *bi*, so the dash is the right answer. The pronoun or the participle shows the person.",
+        "infokratko": "*ja* → **bih**, *mi* → **bismo**, *vi* → **biste**; *ti, on, ona, oni* → *bi* (dash).",
+        "opis": "English above, Croatian below. One tap finishes the helper — or none."
+      },
+      "stavke": [
+        [
+          "Ja bi___ kupio kuću.",
+          "I would buy a house.",
+          "h"
+        ],
+        [
+          "Mi bi___ putovali cijelu godinu.",
+          "We would travel all year.",
+          "smo"
+        ],
+        [
+          "Ona bi___ plivala svaki dan.",
+          "She would swim every day.",
+          "-"
+        ],
+        [
+          "Vi bi___ ostali doma.",
+          "You would stay at home.",
+          "ste"
+        ],
+        [
+          "Kupila bi___ vilu.",
+          "I would buy a villa. (a woman)",
+          "h"
+        ],
+        [
+          "Oni bi___ došli na ručak.",
+          "They would come for lunch.",
+          "-"
+        ],
+        [
+          "Živjeli bi___ pokraj mora.",
+          "We would live by the sea.",
+          "smo"
+        ],
+        [
+          "Ti bi___ dobio brod.",
+          "You would get a boat.",
+          "-"
+        ],
+        [
+          "Gdje bi___ živjeli?",
+          "Where would you live? (a group)",
+          "ste"
+        ],
+        [
+          "Htio bi___ kavu.",
+          "I would like a coffee. (a man)",
+          "h"
+        ],
+        [
+          "Marko bi___ štedio.",
+          "Marko would save money.",
+          "-"
+        ],
+        [
+          "Ana i ja bi___ sanjale.",
+          "Ana and I would dream. (two women)",
+          "smo"
+        ],
+        [
+          "Bi___ li putovali brodom?",
+          "Would you travel by boat? (a group)",
+          "ste"
+        ],
+        [
+          "Mama bi___ dobila novi auto.",
+          "Mum would get a new car.",
+          "-"
+        ],
+        [
+          "Ja bi___ ostala na obali.",
+          "I would stay on the coast. (a woman)",
+          "h"
+        ],
+        [
+          "Djeca bi___ plivala.",
+          "The children would swim.",
+          "-"
+        ]
+      ],
+      "sortkljuc": 1801007,
+      "bodovi": 778
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 8,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Pick the helper",
       "meta": {
+        "info": "Choosing the helper that matches the person. *Ja* takes *bih*, *mi* takes *bismo*, *vi* takes *biste*, and every other person takes *bi*. A name or a noun is a third person: *Mama bi, Marko bi*. In speech you may hear *bi* for everyone; write the full forms.",
+        "infokratko": "*ja bih, mi bismo, vi biste*; everyone else *bi*.",
         "opis": "Choose the correct helper."
       },
       "stavke": [
         [
           "Ja ___ kupio kuću pokraj mora.",
           "bih",
-          "bi",
-          "bismo"
+          "bismo",
+          "biste"
         ],
         [
           "Mama ___ dobila novi auto.",
@@ -83898,35 +98478,147 @@ window.PODACI = {
           "biste"
         ],
         [
-          "Mi ___ išli na rijeku.",
+          "Mi ___ išli na more.",
           "bismo",
-          "bi",
-          "bih"
-        ],
-        [
-          "___ li radio? — pitam sebe!",
-          "Bih",
-          "Bi",
-          "Bismo"
+          "bih",
+          "biste"
         ],
         [
           "Vi ___ ostali u gradu.",
           "biste",
           "bismo",
           "bih"
+        ],
+        [
+          "Marko ___ putovao brodom.",
+          "bi",
+          "bih",
+          "bismo"
+        ],
+        [
+          "Ti ___ živio na obali.",
+          "bi",
+          "bih",
+          "biste"
+        ],
+        [
+          "Ja ___ ostala doma.",
+          "bih",
+          "biste",
+          "bismo"
+        ],
+        [
+          "Ana i Petra ___ plivale svaki dan.",
+          "bi",
+          "bismo",
+          "bih"
+        ],
+        [
+          "Petra i ja ___ štedjele.",
+          "bismo",
+          "biste",
+          "bih"
+        ],
+        [
+          "___ li putovali sa mnom? (vi)",
+          "Biste",
+          "Bismo",
+          "Bih"
+        ],
+        [
+          "Oni ___ došli na ručak.",
+          "bi",
+          "bismo",
+          "biste"
+        ],
+        [
+          "Ja ___ zamislio vilu.",
+          "bih",
+          "bismo",
+          "biste"
         ]
       ],
-      "sortkljuc": 1801006,
-      "bodovi": 1222
+      "sortkljuc": 1801008,
+      "bodovi": 778
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 7,
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Today → in your dreams",
+      "meta": {
+        "info": "You turn a present-tense sentence into a dream. Make the participle from the infinitive, add the helper for the person, and keep the rest of the sentence. For *ja* both forms are accepted: *kupio bih* and *kupila bih*.",
+        "infokratko": "participle + helper: *Kupujem → Kupio bih / Kupila bih*.",
+        "opis": "Make it a dream — rewrite in the conditional (male or female form)."
+      },
+      "stavke": [
+        [
+          "Kupujem brod. →",
+          "Kupio bih brod / Kupila bih brod"
+        ],
+        [
+          "Putujemo cijelu godinu. →",
+          "Putovali bismo cijelu godinu / Putovale bismo cijelu godinu"
+        ],
+        [
+          "Ona pliva svaki dan. →",
+          "Ona bi plivala svaki dan / Plivala bi svaki dan"
+        ],
+        [
+          "Želim kavu. →",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "Živim pokraj mora. →",
+          "Živio bih pokraj mora / Živjela bih pokraj mora"
+        ],
+        [
+          "Oni ostaju doma. →",
+          "Oni bi ostali doma / Ostali bi doma"
+        ],
+        [
+          "Dobijem milijun eura. →",
+          "Dobio bih milijun eura / Dobila bih milijun eura"
+        ],
+        [
+          "Vi štedite. →",
+          "Vi biste štedjeli / Štedjeli biste"
+        ],
+        [
+          "Marko spava cijeli dan. →",
+          "Marko bi spavao cijeli dan / Spavao bi cijeli dan"
+        ],
+        [
+          "Idemo na more. →",
+          "Išli bismo na more / Išle bismo na more"
+        ],
+        [
+          "Ana kupuje vilu. →",
+          "Ana bi kupila vilu / Kupila bi vilu"
+        ],
+        [
+          "Pijem kavu na obali. →",
+          "Pio bih kavu na obali / Pila bih kavu na obali"
+        ]
+      ],
+      "sortkljuc": 1801009,
+      "bodovi": 926
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 10,
       "broj": 9999,
       "format": "tekst",
       "naslov": "The magic phrase: Htio bih...",
-      "meta": {},
+      "meta": {
+        "info": "The second rule: the conditional makes a wish polite. *Htio bih* (a man) and *Htjela bih* (a woman) mean *I would like*, and a polite question starts with *Biste li…?* The participle of *moći* is *mogao / mogla*: *Biste li mogli…?* — could you…?",
+        "infokratko": "*Htio bih / Htjela bih* = I would like. *Biste li mogli…?* = could you…?",
+        "infoodmah": "da",
+        "opis": "The politest way to want something. Read the table and fill in the last line."
+      },
       "stavke": [
         [
           "The politest way to want something in Croatian:"
@@ -83944,54 +98636,35 @@ window.PODACI = {
           "Htjela bih kavu."
         ],
         [
-          "**This single phrase upgrades every restaurant, shop and hotel.** Use it everywhere."
+          "tab: a group",
+          "Htjeli bismo dvije kave."
         ],
         [
-          "**Now you write them.** [Htio] bih kavu — kaže muškarac. [Htjela] bih kavu — kaže žena."
+          "**This single phrase makes every order polite** — in a café, a shop or a hotel. *Hoću kavu* sounds firm; *Htio bih kavu* is the everyday polite form."
+        ],
+        [
+          "**Polite questions.** *Biste li…?* asks a stranger, *Bi li…?* a friend. With *moći* (participle *mogao, mogla, mogli*) it means *could you*: ***Biste li mogli** skrenuti lijevo?* It is even softer than *Možete li…?* from Grammar 17."
+        ],
+        [
+          "**A dream with a condition.** *Da imam milijun eura, kupio bih kuću.* — If I had a million euros, I would buy a house. Take *da imam* (if I had) whole for now; Grammar 18 explains it."
+        ],
+        [
+          "**Now you write them.** [Htio] bih kavu — kaže muškarac. [Htjela] bih kavu — kaže žena. [Biste] li mogli skrenuti lijevo?"
         ]
       ],
-      "sortkljuc": 1801007,
-      "bodovi": 838
+      "sortkljuc": 1801010,
+      "bodovi": 519
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Today → in your dreams",
-      "meta": {
-        "opis": "Make it a dream — rewrite in the conditional (male or female form)."
-      },
-      "stavke": [
-        [
-          "Kupujem brod. →",
-          "Kupio bih brod / Kupila bih brod"
-        ],
-        [
-          "Putujemo cijelu godinu. →",
-          "Putovali bismo cijelu godinu"
-        ],
-        [
-          "Ona pliva svaki dan. →",
-          "Ona bi plivala svaki dan"
-        ],
-        [
-          "Želim kavu. →",
-          "Htio bih kavu / Htjela bih kavu"
-        ]
-      ],
-      "sortkljuc": 1801008,
-      "bodovi": 1152
-    },
-    {
-      "cjelina": "Lesson 18",
-      "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 9,
+      "stranica": 11,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the dream",
       "meta": {
+        "info": "Whole dreams from tiles. The helper *bih, bi, bismo, biste* takes the second place — after the participle or after the first word — and the participle keeps the speaker's gender. A comma comes before *a* and *ali*.",
+        "infokratko": "The helper second: *Kupio bih…* or *Ja bih kupio…*. Comma before *a, ali*.",
         "opis": "Arrange the tiles."
       },
       "stavke": [
@@ -84002,74 +98675,290 @@ window.PODACI = {
           "Mama bi dobila novi auto."
         ],
         [
-          "Zimi bih čitao i gledao valove."
+          "Zimi bih čitala i gledala valove."
         ],
         [
           "Prijatelji bi došli na ručak."
         ],
         [
           "Htjela bih komad torte, molim."
+        ],
+        [
+          "Da imam milijun eura, putovao bih."
+        ],
+        [
+          "Mi bismo živjeli na obali."
+        ],
+        [
+          "Biste li mogli skrenuti lijevo?"
+        ],
+        [
+          "Ja bih ostala doma, a ti bi putovao."
+        ],
+        [
+          "Što bi ti radio s milijun eura?"
+        ],
+        [
+          "Marko ne bi kupio ništa."
         ]
       ],
-      "sortkljuc": 1801009,
-      "bodovi": 1222
+      "sortkljuc": 1801011,
+      "bodovi": 778
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 10,
+      "stranica": 12,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Conditional sprint",
+      "meta": {
+        "trajanje": "45",
+        "info": "A timed sprint from the infinitive to the conditional. Make the participle and add the helper for the person in brackets: *kupiti (ja, m.) → kupio bih*, *putovati (mi) → putovali bismo*. The gender in brackets decides **-o** or **-la**.",
+        "infokratko": "infinitive → participle + helper: *kupio bih, putovali bismo*.",
+        "opis": "A verb flashes with a person — tap its conditional before the timer runs out."
+      },
+      "stavke": [
+        [
+          "kupiti (ja, m.)",
+          "kupio bih"
+        ],
+        [
+          "kupiti (ja, ž.)",
+          "kupila bih"
+        ],
+        [
+          "putovati (mi)",
+          "putovali bismo"
+        ],
+        [
+          "ostati (vi)",
+          "ostali biste"
+        ],
+        [
+          "živjeti (on)",
+          "živio bi"
+        ],
+        [
+          "plivati (ona)",
+          "plivala bi"
+        ],
+        [
+          "dobiti (oni)",
+          "dobili bi"
+        ],
+        [
+          "htjeti (ja, m.)",
+          "htio bih"
+        ],
+        [
+          "htjeti (ja, ž.)",
+          "htjela bih"
+        ],
+        [
+          "sanjati (ti, m.)",
+          "sanjao bi"
+        ],
+        [
+          "štedjeti (mi)",
+          "štedjeli bismo"
+        ],
+        [
+          "ići (ja, ž.)",
+          "išla bih"
+        ]
+      ],
+      "sortkljuc": 1801012,
+      "bodovi": 648
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 13,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Where would you live?",
       "meta": {
-        "opis": "The big question — city or sea? Defend your dream!"
+        "info": "The big question — city or sea? Your friend asks a whole group (*Gdje biste živjeli?*), so the question does not assume anyone's gender, and your answers come in both forms. Your friend reacts to your choice between the sea and the city.",
+        "infokratko": "*Gdje biste živjeli?* Answers in both forms: *plivao / plivala bih*. Your friend reacts.",
+        "opis": "The big question — city or sea? Defend your dream! Passive words: *naravno* (of course), *bez* (without), *k meni* (to my place), *ljeti* (in summer), *Dogovoreno!* (Deal!), *da imate* (if you had), *ako me zoveš* (if you invite me)."
       },
       "stavke": [
         [
           "npc",
-          "Gdje bi živio: u gradu ili pokraj mora?"
+          "Da imate milijun eura, gdje biste živjeli: u gradu ili pokraj mora?"
         ],
         [
           "ti",
           "Pokraj mora, naravno! Svaki dan bih plivao.",
-          "U gradu! Ne bih mogao bez kina i kafića."
+          "Pokraj mora, naravno! Svaki dan bih plivala.",
+          "U gradu! Ne bih mogao bez kina.",
+          "U gradu! Ne bih mogla bez kina."
         ],
         [
           "npc",
-          "A što bi radio zimi?"
+          "I more i grad su lijepi! A što biste radili zimi?"
         ],
         [
           "ti",
-          "Zimi bih čitao, kuhao i gledao valove.",
-          "Zimi bih trenirao u teretani."
+          "Zimi bih čitao i gledao valove.",
+          "Zimi bih čitala i gledala valove.",
+          "Zimi bih trenirao u teretani.",
+          "Zimi bih trenirala u teretani."
         ],
         [
           "npc",
-          "A bi li dolazio k meni ljeti?"
+          "A biste li kupili brod?"
+        ],
+        [
+          "ti",
+          "Da, kupio bih mali brod!",
+          "Da, kupila bih mali brod!",
+          "Ne, štedio bih novac.",
+          "Ne, štedjela bih novac."
+        ],
+        [
+          "npc",
+          "Ja bih kupila vilu i ne bih radila ništa! A biste li dolazili k meni ljeti?"
         ],
         [
           "ti",
           "Dolazio bih svaki vikend!",
-          "Naravno — ako ima kave!"
+          "Dolazila bih svaki vikend!",
+          "Naravno — ako me zoveš!"
         ],
         [
           "npc",
-          "Onda dogovoreno!"
+          "Onda dogovoreno! Vidimo se ljeti!"
+        ],
+        [
+          "ti",
+          "Dogovoreno!",
+          "Super, vidimo se!"
         ]
       ],
-      "sortkljuc": 1801010,
-      "bodovi": 908
+      "sortkljuc": 1801013,
+      "bodovi": 648
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 11,
+      "stranica": 14,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: The perfect day",
+      "meta": {
+        "info": "Read what four people would do with a million euros, then answer in Croatian. Every sentence is a conditional: *bi kupila, bi plivala, bi putovao*. The participle ending shows who is meant — *-la* for Ana and Petra, *-o* for Marko, *-li* for Grandma and Grandpa together.",
+        "infokratko": "Read, then answer. *-la* Ana, Petra; *-o* Marko; *-li* Grandma and Grandpa.",
+        "tekst": "Što bi Ana radila s milijun eura? Prvo bi kupila malu kuću pokraj mora. Svako jutro bi plivala, a onda bi pila kavu na obali. Marko bi putovao cijelu godinu: prvo u Ameriku, onda u Japan. Baka i djed ne bi kupili ništa. Ostali bi doma, u vrtu. \"Nama je dobro ovako,\" kaže baka. A Petra? Petra bi štedjela i sanjala o jahti.",
+        "opis": "Read the story, then answer the questions. Passive words: *malu* (small), *svako jutro* (every morning), *Nama je dobro ovako* (We're fine like this), *jahta* (yacht)."
+      },
+      "stavke": [
+        [
+          "Što bi Ana prvo kupila?",
+          "kuću pokraj mora",
+          "brod",
+          "vilu"
+        ],
+        [
+          "Kada bi Ana plivala?",
+          "svako jutro",
+          "navečer",
+          "zimi"
+        ],
+        [
+          "Kamo bi Marko putovao prvo?",
+          "u Ameriku",
+          "u Japan",
+          "na more"
+        ],
+        [
+          "Što bi kupili baka i djed?",
+          "ništa",
+          "kuću",
+          "vrt"
+        ],
+        [
+          "Gdje bi ostali baka i djed?",
+          "doma",
+          "na obali",
+          "u Japanu"
+        ],
+        [
+          "O čemu bi Petra sanjala?",
+          "o jahti",
+          "o vili",
+          "o kući"
+        ]
+      ],
+      "sortkljuc": 1801014,
+      "bodovi": 778
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "memorija",
+      "naslov": "Memory",
+      "meta": {
+        "info": "A pairs game over infinitives and their conditionals. The participle drops **-ti** and takes **-o** or **-la**; *bih* follows it. Four participles change more: *htio* (htjeti), *išao* (ići), *jeo* (jesti), *živio* (živjeti).",
+        "infokratko": "infinitive ↔ *kupio bih*; irregular: *htio, išao, jeo, živio*.",
+        "opis": "Flip the cards and match each verb with its conditional."
+      },
+      "stavke": [
+        [
+          "kupiti",
+          "kupio bih"
+        ],
+        [
+          "putovati",
+          "putovala bih"
+        ],
+        [
+          "ostati",
+          "ostao bih"
+        ],
+        [
+          "živjeti",
+          "živio bih"
+        ],
+        [
+          "htjeti",
+          "htjela bih"
+        ],
+        [
+          "ići",
+          "išao bih"
+        ],
+        [
+          "jesti",
+          "jela bih"
+        ],
+        [
+          "dobiti",
+          "dobio bih"
+        ],
+        [
+          "plivati",
+          "plivala bih"
+        ]
+      ],
+      "sortkljuc": 1801015,
+      "bodovi": 611
+    },
+    {
+      "cjelina": "Lesson 18",
+      "cjelinanaslov": "A Million Euros: The Conditional",
+      "stranica": 16,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the lesson, and 80% opens Vocabulary 18. Most of the points sit on the helper — *bih, bi, bismo, biste* — and on the participle that shows the gender. The helper never opens the sentence, and *Htio bih / Htjela bih* makes a wish polite.",
+        "infokratko": "Lesson 18; 80% opens Vocabulary 18. *bih, bi, bismo, biste*; *Htio / Htjela bih*.",
         "prag": "80",
-        "opis": "Final check! Score 80% to be ready for Lesson 19."
+        "opis": "Final check! Score 80% to be ready for Vocabulary 18."
       },
       "stavke": [
         [
@@ -84104,40 +98993,71 @@ window.PODACI = {
           "izbor",
           "Ona ___ plivala svaki dan.",
           "bi",
-          "bih"
+          "bih",
+          "bismo"
         ],
         [
           "izbor",
           "Koja je rečenica točna?",
           "Kupio bih brod.",
-          "Bih kupio brod."
+          "Bih kupio brod.",
+          "Kupio brod bih."
         ],
         [
           "slaganje",
           "Što bi ti radio s milijun eura?",
           "en: What would you do with a million euros?"
+        ],
+        [
+          "upis",
+          "Vi ___ ostali doma.",
+          "biste"
+        ],
+        [
+          "izbor",
+          "Ana i Petra bi ___ na moru. (živjeti)",
+          "živjele",
+          "živjeli",
+          "živio"
+        ],
+        [
+          "upis",
+          "ostati (ja, ž.) → ___ bih",
+          "ostala"
+        ],
+        [
+          "slaganje",
+          "Htjela bih komad torte, molim.",
+          "en: I would like a piece of cake, please."
         ]
       ],
-      "sortkljuc": 1801011,
-      "bodovi": 1642
+      "sortkljuc": 1801016,
+      "bodovi": 1314
     },
     {
       "cjelina": "Lesson 18",
       "cjelinanaslov": "A Million Euros: The Conditional",
-      "stranica": 12,
+      "stranica": 17,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now dream and wish: the participle from Lesson 10 with *bih, bi, bismo* or *biste*, the gender shown in the participle, and *Htio bih / Htjela bih* for a polite wish.",
+        "infokratko": "participle + *bih / bi / bismo / biste*; *Htio / Htjela bih*.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
-          "Krasno! You can now dream, wish and order coffee like a true gentleman/lady: *Htio bih...*"
+          "Krasno! You can now dream, wish and order politely: *Htio bih… / Htjela bih…*"
         ],
         [
-          "**Next up:** Lesson 19 reveals Croatian's best-kept secret — every verb has a twin. *Pisati* vs *napisati*: doing vs getting it done."
+          "**Next up:** Vocabulary 18 brings the words for feelings — *nada, strah, sreća* — and the verbs *nadati se, bojati se, brinuti se*. Grammar 18 explains *da imam* and *kad bih*: how to say *if* for a dream."
+        ],
+        [
+          "**Then Lesson 19:** every verb has a twin. *Pisati* and *napisati*: doing something, and getting it done."
         ]
       ],
-      "sortkljuc": 1801012,
+      "sortkljuc": 1801017,
       "bodovi": 20
     },
     {
@@ -84285,6 +99205,10 @@ window.PODACI = {
         [
           "dobiti → dobijem",
           "to get"
+        ],
+        [
+          "kupiti → kupim",
+          "to buy"
         ],
         [
           "štedjeti → štedim",
@@ -84817,29 +99741,77 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: what would be",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for the conditional: *bih, bi, bi, bismo, biste, bi* plus the past participle, which shows gender and number as in the past tense. The helper takes the second place, *ne bih* is the negative, and *bi li* or *biste li* asks the question.",
+        "infokratko": "*bih / bi / bismo / biste* + participle. Second place. *ne bih*, *bi li…?*"
+      },
       "stavke": [
         [
           "The conditional says what *would* happen — wishes, dreams, polite requests and gentle suggestions."
         ],
         [
-          "**The formula:** bih/bi/bi/bismo/biste/bi + past participle. The participle is the *same one* you use for the past (L10) — gender and number rules included. Only the helper changes: *sam → bih*. *Kupio/kupila bih · kupili bismo · kupili biste · kupili bi.*"
+          "tab: Person",
+          "Helper",
+          "A man / a group",
+          "A woman / only women"
         ],
         [
-          "**Word order — the leaning rule, third time:** the helper can't stand first: *Kupio **bih** brod. · Ja **bih** kupio brod. · Sutra **bih** kupio brod.* Negative: **ne bih** — *Ne bih radio ponedjeljkom!* Question: **bi li** — *Bi li dolazio k meni ljeti?*"
+          "tab: ja",
+          "bih",
+          "kupio bih",
+          "kupila bih"
         ],
         [
-          "**The politeness machine:** the conditional is Croatian's \"please-mode\": *Želim kavu.* → ***Htio/Htjela bih** kavu.*"
+          "tab: ti",
+          "bi",
+          "kupio bi",
+          "kupila bi"
         ],
         [
-          "**Speech shortcut:** in everyday speech many Croats use *bi* for all persons (*mi bi išli*). You'll hear it — but write *bismo/biste*; every teacher will thank you."
+          "tab: on / ona",
+          "bi",
+          "kupio bi",
+          "kupila bi"
+        ],
+        [
+          "tab: mi",
+          "bismo",
+          "kupili bismo",
+          "kupile bismo"
+        ],
+        [
+          "tab: vi",
+          "biste",
+          "kupili biste",
+          "kupile biste"
+        ],
+        [
+          "tab: oni / one",
+          "bi",
+          "kupili bi",
+          "kupile bi"
+        ],
+        [
+          "**The formula.** The participle is the one from Lesson 10, with the same endings: **-o** for a man, **-la** for a woman, **-li** for a group, **-le** for a group of women, **-la** for neuter plural (*djeca bi plivala*). Only the helper is new: *sam → bih*."
+        ],
+        [
+          "**Word order — the second-place rule.** The helper cannot open a sentence: *Kupio **bih** brod. Ja **bih** kupio brod. Sutra **bih** kupio brod.* The negative is **ne bih** (*Ne bih radio ponedjeljkom.*), and the question uses **bi li / biste li**: *Bi li dolazio k meni ljeti?*"
+        ],
+        [
+          "**With se.** In a verb with *se* the helper comes first and *se* right after it: *Bojao **bih se**. Ne bih se brinula. Nadali **bismo se**.*"
+        ],
+        [
+          "**Politeness.** *Želim kavu.* → ***Htio / Htjela bih** kavu.* A request becomes softer again with *moći*: ***Biste li mogli** doći u osam?*"
+        ],
+        [
+          "**In speech you will hear *bi* for every person** (*mi bi išli, ja bi išao*). In writing use the full forms *bih, bismo, biste*."
         ],
         [
           "**Now you write them.** Ja [bih] kupio kuću. Mi [bismo] putovali. Vi [biste] ostali doma."
         ]
       ],
       "sortkljuc": 1803001,
-      "bodovi": 971
+      "bodovi": 559
     },
     {
       "cjelina": "Grammar 18",
@@ -84849,6 +99821,8 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the helper",
       "meta": {
+        "info": "You type the helper that matches the person. *Ja* takes *bih*, *mi* *bismo*, *vi* *biste*, and everyone else *bi*. When the pronoun is missing, the participle and the rest of the sentence show the person.",
+        "infokratko": "*ja bih, mi bismo, vi biste*; everyone else *bi*.",
         "opis": "Add the right helper."
       },
       "stavke": [
@@ -84867,49 +99841,240 @@ window.PODACI = {
         [
           "Vi ___ gledali zvijezde.",
           "biste"
+        ],
+        [
+          "Ana ___ živjela na obali.",
+          "bi"
+        ],
+        [
+          "Ti ___ kupio brod.",
+          "bi"
+        ],
+        [
+          "Ja ___ se bojala.",
+          "bih"
+        ],
+        [
+          "Petra i ja ___ plivale svaki dan.",
+          "bismo"
+        ],
+        [
+          "Ne ___ radio ponedjeljkom. (ja)",
+          "bih"
+        ],
+        [
+          "___ li mogli doći u osam? (vi)",
+          "Biste"
+        ],
+        [
+          "Djeca ___ plivala cijeli dan.",
+          "bi"
+        ],
+        [
+          "Marko i Ivan ___ štedjeli.",
+          "bi"
         ]
       ],
       "sortkljuc": 1803002,
-      "bodovi": 1335
+      "bodovi": 999
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
       "stranica": 3,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "The grammatical sentence",
+      "format": "nastavak",
+      "naslov": "Tap the ending",
       "meta": {
-        "opis": "Choose the grammatical sentence."
+        "nastavci": "o | la | li | le",
+        "info": "One tap finishes the participle. It shows gender and number exactly as in the past tense: **-o** for a man, **-la** for a woman (and for neuter plural like *djeca*), **-li** for a group with at least one man, **-le** for a group of women. The English tells you who it is.",
+        "infokratko": "**-o** man, **-la** woman (and *djeca*), **-li** group, **-le** only women.",
+        "opis": "English above, Croatian below. One tap finishes the participle."
       },
       "stavke": [
         [
-          "swimming every day",
-          "Plivao bih svaki dan.",
-          "Bih plivao svaki dan."
+          "Kupi___ bih brod.",
+          "I would buy a boat. (a man)",
+          "o"
         ],
         [
-          "can't without coffee",
-          "Ne bih mogao bez kave.",
-          "Ne mogao bih bez kave."
+          "Kupi___ bih vilu.",
+          "I would buy a villa. (a woman)",
+          "la"
         ],
         [
-          "summer visits",
-          "Bi li dolazio ljeti?",
-          "Li bi dolazio ljeti?"
+          "Putova___ bismo cijelu godinu.",
+          "We would travel all year. (Marko and I)",
+          "li"
+        ],
+        [
+          "Putova___ bismo cijelu godinu.",
+          "We would travel all year. (Ana and I, two women)",
+          "le"
+        ],
+        [
+          "Ana bi pliva___ svaki dan.",
+          "Ana would swim every day.",
+          "la"
+        ],
+        [
+          "Marko bi štedi___.",
+          "Marko would save.",
+          "o"
+        ],
+        [
+          "Djeca bi pliva___ cijeli dan.",
+          "The children would swim all day.",
+          "la"
+        ],
+        [
+          "Mama i tata bi osta___ doma.",
+          "Mum and Dad would stay at home.",
+          "li"
+        ],
+        [
+          "Petra i Ana bi sanja___ o moru.",
+          "Petra and Ana would dream of the sea.",
+          "le"
+        ],
+        [
+          "Htje___ bih kavu.",
+          "I would like a coffee. (a woman)",
+          "la"
+        ],
+        [
+          "Ti bi dobi___ milijun.",
+          "You would get a million. (a friend, a man)",
+          "o"
+        ],
+        [
+          "Vi biste živje___ na obali.",
+          "You would live on the coast. (a group)",
+          "li"
+        ],
+        [
+          "Baka bi čita___ knjige.",
+          "Grandma would read books.",
+          "la"
+        ],
+        [
+          "Ivan i Marko bi igra___ nogomet.",
+          "Ivan and Marko would play football.",
+          "li"
+        ],
+        [
+          "Sestre bi pjeva___.",
+          "The sisters would sing.",
+          "le"
+        ],
+        [
+          "Djed bi gleda___ valove.",
+          "Grandpa would watch the waves.",
+          "o"
         ]
       ],
       "sortkljuc": 1803003,
-      "bodovi": 1132
+      "bodovi": 838
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
       "stranica": 4,
       "broj": 9999,
+      "format": "izbor",
+      "naslov": "The grammatical sentence",
+      "meta": {
+        "info": "Choosing the sentence with the right word order. The helper takes the second place, *ne bih* stays together in front of the participle, *li* follows *bi*, and in a verb with *se* the helper comes first: *bojao bih se*.",
+        "infokratko": "Helper second; *ne bih* together; *bi li*; *bih se*.",
+        "opis": "Choose the grammatical sentence."
+      },
+      "stavke": [
+        [
+          "swimming every day",
+          "Plivao bih svaki dan.",
+          "Bih plivao svaki dan.",
+          "Plivao svaki dan bih."
+        ],
+        [
+          "can't without coffee",
+          "Ne bih mogao bez kave.",
+          "Ne mogao bih bez kave.",
+          "Bih ne mogao bez kave."
+        ],
+        [
+          "summer visits",
+          "Bi li dolazio ljeti?",
+          "Li bi dolazio ljeti?",
+          "Dolazio li bi ljeti?"
+        ],
+        [
+          "afraid of the sea",
+          "Bojala bih se mora.",
+          "Bojala se bih mora.",
+          "Bih se bojala mora."
+        ],
+        [
+          "we would travel",
+          "Mi bismo putovali.",
+          "Mi putovali bismo.",
+          "Bismo mi putovali."
+        ],
+        [
+          "polite question",
+          "Biste li mogli doći?",
+          "Li biste mogli doći?",
+          "Biste mogli li doći?"
+        ],
+        [
+          "I wouldn't worry",
+          "Ne bih se brinuo.",
+          "Ne se bih brinuo.",
+          "Bih se ne brinuo."
+        ],
+        [
+          "a gift for Ana",
+          "Ana bi dobila poklon.",
+          "Ana dobila bi poklon.",
+          "Bi Ana dobila poklon."
+        ],
+        [
+          "they would stay",
+          "Oni bi ostali doma.",
+          "Oni ostali bi doma.",
+          "Bi oni ostali doma."
+        ],
+        [
+          "tomorrow I'd buy",
+          "Sutra bih kupio kartu.",
+          "Sutra kupio bih kartu.",
+          "Bih sutra kupio kartu."
+        ],
+        [
+          "I would hope",
+          "Nadala bih se.",
+          "Nadala se bih.",
+          "Bih se nadala."
+        ],
+        [
+          "would you like?",
+          "Biste li htjeli kavu?",
+          "Li biste htjeli kavu?",
+          "Biste htjeli li kavu?"
+        ]
+      ],
+      "sortkljuc": 1803004,
+      "bodovi": 838
+    },
+    {
+      "cjelina": "Grammar 18",
+      "cjelinanaslov": "The Conditional (Kondicional I)",
+      "stranica": 5,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Past, future or dream?",
       "meta": {
+        "info": "Sorting sentences by tense. The past has *sam, je, smo* with the participle; the future has *ću, ćeš, ćemo* (or *-t ću*); the conditional has *bih, bi, bismo, biste* with the participle. The participle alone does not decide — look at the helper.",
+        "infokratko": "*sam / je / smo* → past; *ću / ćemo* → future; *bih / bi / bismo* → conditional.",
         "stupci": "PAST | FUTURE | CONDITIONAL",
         "opis": "Sort the sentences."
       },
@@ -84937,22 +100102,62 @@ window.PODACI = {
         [
           "Plivali bismo.",
           "CONDITIONAL"
+        ],
+        [
+          "Ana je putovala.",
+          "PAST"
+        ],
+        [
+          "Ana će putovati.",
+          "FUTURE"
+        ],
+        [
+          "Ana bi putovala.",
+          "CONDITIONAL"
+        ],
+        [
+          "Ostali ste doma.",
+          "PAST"
+        ],
+        [
+          "Ostat ćete doma.",
+          "FUTURE"
+        ],
+        [
+          "Ostali biste doma.",
+          "CONDITIONAL"
+        ],
+        [
+          "Bojala sam se.",
+          "PAST"
+        ],
+        [
+          "Neću se bojati.",
+          "FUTURE"
+        ],
+        [
+          "Ne bih se bojala.",
+          "CONDITIONAL"
         ]
       ],
-      "sortkljuc": 1803004,
-      "bodovi": 1132
+      "sortkljuc": 1803005,
+      "bodovi": 838
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
-      "stranica": 5,
+      "stranica": 6,
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: putting a condition in front of the dream",
-      "meta": {},
+      "meta": {
+        "info": "The second rule: two kinds of *if*. For something that can really happen, *ako* goes with the present, and the other half is in the future or the present. For a dream, *da* goes with the present and the other half is in the conditional — or *kad bih* puts both halves in the conditional.",
+        "infokratko": "Real: *ako* + present → future. Dream: *da* + present → conditional, or *kad bih* + conditional.",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
-          "Lesson 18 gave you the dream. Here is the *if* that belongs in front of it — and Croatian keeps two of them apart."
+          "Lesson 18 gave you the dream. Here is the *if* that belongs in front of it — and Croatian has two kinds."
         ],
         [
           "tab: Condition",
@@ -84970,39 +100175,46 @@ window.PODACI = {
           "but I don't"
         ],
         [
-          "**Real → ako + present or future**, main half in the future: ***Ako bude** sunca, ići ćemo na more.*"
+          "tab: unreal, a dream",
+          "**Kad bih** imao vremena, došao bih.",
+          "but I don't"
         ],
         [
-          "**Unreal → da + present**, main half in the conditional: ***Da imam** milijun eura, kupio **bih** brod.* · ***Da je** ljeto, plivali **bismo**.*"
+          "**Real → ako + present**, and the other half in the future or the present: ***Ako** je sunčano, ići ćemo na more. **Ako** pada kiša, ostajemo doma.*"
         ],
         [
-          "**The pattern is symmetrical:** *ako* pairs with *ću*, *da* pairs with *bih*. Mixing them is the one mistake to avoid."
+          "**Unreal → da + present**, and the other half in the conditional: ***Da imam** milijun eura, kupio **bih** brod. **Da je** ljeto, plivali **bismo**.*"
         ],
         [
-          "**A second way to say the same dream: *kad bih*.** ***Kad bih imao** milijun eura, kupio **bih** brod.* Same meaning as *Da imam...*, just as common — only here the *if*-half takes the conditional too, so *bih* turns up twice."
+          "**The same dream with kad bih.** ***Kad bih imao** milijun eura, kupio **bih** brod.* The meaning is the same as *Da imam…*; here both halves are in the conditional, so *bih* appears twice."
         ],
         [
-          "**Comma obligatory** when the condition comes first — and it usually does."
+          "**The pairs to keep:** *ako* goes with *ću* or the present, *da* and *kad bih* go with *bih*. *Ako imam milijun, kupio bih brod* mixes the two and is wrong."
         ],
         [
-          "**Careful with *da*.** After a conditional it's the \"if\" of dreams; after *znam, mislim, kažem* it's the ordinary \"that\". You'll sort those out in Grammar 20."
+          "**A comma** separates the two halves when the condition comes first — and it usually does."
         ],
         [
-          "**Now you write them.** [Kad] bih imao milijun, kupio bih brod. [Htio] bih kavu, molim."
+          "**Careful with da.** In front of a dream it means *if*; after *znam, mislim, kažem* it is the ordinary *that*. Grammar 20 sorts those out."
+        ],
+        [
+          "**Now you write them.** [Ako] imam vremena, doći ću. [Da] imam vremena, došao bih. [Kad] bih imao milijun, kupio bih brod."
         ]
       ],
-      "sortkljuc": 1803005,
-      "bodovi": 1132
+      "sortkljuc": 1803006,
+      "bodovi": 559
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
-      "stranica": 6,
+      "stranica": 7,
       "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Real or unreal?",
       "meta": {
-        "stupci": "MOGUĆE (ako) | SAN (da)",
+        "info": "Sorting conditions by whether they can happen. *Ako* with a future or present in the other half is a real possibility. *Da* or *kad bih* with a conditional in the other half is a dream — something that is not true now.",
+        "infokratko": "*ako* … future → possible. *da / kad bih* … conditional → a dream.",
+        "stupci": "MOGUĆE (ako) | SAN (da, kad bih)",
         "opis": "Could it really happen, or is it a daydream?"
       },
       "stavke": [
@@ -85012,41 +100224,67 @@ window.PODACI = {
         ],
         [
           "Da imam milijun eura, kupio bih brod.",
-          "SAN (da)"
+          "SAN (da, kad bih)"
         ],
         [
-          "Ako bude sunca, idemo na more.",
+          "Ako je sunčano, idemo na more.",
           "MOGUĆE (ako)"
         ],
         [
           "Da je ljeto, plivali bismo.",
-          "SAN (da)"
+          "SAN (da, kad bih)"
         ],
         [
-          "Ako padne kiša, ostat ćemo doma.",
+          "Ako pada kiša, ostat ćemo doma.",
           "MOGUĆE (ako)"
         ],
         [
           "Da znam hrvatski, živio bih u Splitu.",
-          "SAN (da)"
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Ako dođeš, pit ćemo kavu.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Kad bih imala vilu, zvala bih prijatelje.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Ako Marko štedi, kupit će auto.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Kad bismo bili bogati, putovali bismo.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Ako je more toplo, plivat ću.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Da imamo brod, živjeli bismo na moru.",
+          "SAN (da, kad bih)"
         ]
       ],
-      "sortkljuc": 1803006,
-      "bodovi": 1132
+      "sortkljuc": 1803007,
+      "bodovi": 699
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
-      "stranica": 7,
+      "stranica": 8,
       "broj": 9999,
       "format": "izbor",
       "naslov": "ako or da?",
       "meta": {
+        "info": "Choosing the *if* from the other half of the sentence. If the other half is in the future or the present, the condition is real and takes *ako*. If it is in the conditional (*bih, bi, bismo*), the condition is a dream and takes *da*.",
+        "infokratko": "future / present → *ako*; conditional → *da*.",
         "opis": "The second half tells you which \"if\" the sentence needs."
       },
       "stavke": [
         [
-          "___ bude sunca, ići ćemo na more.",
+          "___ je sunčano, ići ćemo na more.",
           "Ako",
           "Da"
         ],
@@ -85061,7 +100299,7 @@ window.PODACI = {
           "Ako"
         ],
         [
-          "___ padne kiša, ostat ćemo doma.",
+          "___ pada kiša, ostat ćemo doma.",
           "Ako",
           "Da"
         ],
@@ -85069,19 +100307,56 @@ window.PODACI = {
           "___ znam hrvatski, živio bih u Splitu.",
           "Da",
           "Ako"
+        ],
+        [
+          "___ dođeš, pit ćemo kavu.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ imamo vremena, išli bismo na otok.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ Marko štedi, kupit će auto.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ je more toplo, plivat ću.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ imam vilu, zvala bih prijatelje.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ imaš vremena, dođi!",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ sam bogat, putovao bih cijelu godinu.",
+          "Da",
+          "Ako"
         ]
       ],
-      "sortkljuc": 1803007,
-      "bodovi": 1416
+      "sortkljuc": 1803008,
+      "bodovi": 838
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
-      "stranica": 8,
+      "stranica": 9,
       "broj": 9999,
       "format": "upis",
       "naslov": "Finish the condition",
       "meta": {
+        "info": "One word opens the condition. Read the other half first: a future, a present or an order means a real condition and *ako*; a conditional means a dream and *da*. The bracket confirms it.",
+        "infokratko": "future, present, order → *Ako*; conditional → *Da*.",
         "opis": "One word — and it must agree with the half that follows."
       },
       "stavke": [
@@ -85094,25 +100369,153 @@ window.PODACI = {
           "Da"
         ],
         [
-          "___ bude lijepo, idemo na rijeku. (possible)",
+          "___ je lijepo, idemo na rijeku. (possible)",
           "Ako"
         ],
         [
           "___ je more toplo, plivali bismo. (a dream)",
           "Da"
+        ],
+        [
+          "___ pada kiša, ostat ću doma. (possible)",
+          "Ako"
+        ],
+        [
+          "___ imam brod, putovala bih. (a dream)",
+          "Da"
+        ],
+        [
+          "___ dođeš u osam, idemo u kino. (possible)",
+          "Ako"
+        ],
+        [
+          "___ znam kuhati, kuhao bih svaki dan. (a dream)",
+          "Da"
+        ],
+        [
+          "___ bih imao vremena, došao bih. (a dream)",
+          "Kad"
+        ],
+        [
+          "___ bismo bili bogati, kupili bismo vilu. (a dream)",
+          "Kad"
         ]
       ],
-      "sortkljuc": 1803008,
-      "bodovi": 1335
+      "sortkljuc": 1803009,
+      "bodovi": 999
     },
     {
       "cjelina": "Grammar 18",
       "cjelinanaslov": "The Conditional (Kondicional I)",
-      "stranica": 9,
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "From da to kad bih",
+      "meta": {
+        "info": "The same dream said the other way. *Da* + present becomes *kad* + conditional: *da imam → kad bih imao / imala*, *da smo → kad bismo bili*. The second half stays as it is. Both genders are accepted where the speaker is *ja*.",
+        "infokratko": "*da imam* → *kad bih imao / imala*; *da smo* → *kad bismo bili*.",
+        "opis": "Rewrite the dream with *kad bih*."
+      },
+      "stavke": [
+        [
+          "Da imam milijun, kupio bih vilu. →",
+          "Kad bih imao milijun, kupio bih vilu"
+        ],
+        [
+          "Da imam milijun, kupila bih vilu. →",
+          "Kad bih imala milijun, kupila bih vilu"
+        ],
+        [
+          "Da imam vremena, došao bih. →",
+          "Kad bih imao vremena, došao bih"
+        ],
+        [
+          "Da imamo brod, putovali bismo. →",
+          "Kad bismo imali brod, putovali bismo"
+        ],
+        [
+          "Da znam kuhati, kuhala bih svaki dan. →",
+          "Kad bih znala kuhati, kuhala bih svaki dan"
+        ],
+        [
+          "Da je Marko ovdje, bio bih sretan. →",
+          "Kad bi Marko bio ovdje, bio bih sretan"
+        ],
+        [
+          "Da smo bogati, živjeli bismo na obali. →",
+          "Kad bismo bili bogati, živjeli bismo na obali"
+        ],
+        [
+          "Da imaš vremena, bi li došao? →",
+          "Kad bi imao vremena, bi li došao"
+        ]
+      ],
+      "sortkljuc": 1803010,
+      "bodovi": 999
+    },
+    {
+      "cjelina": "Grammar 18",
+      "cjelinanaslov": "The Conditional (Kondicional I)",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Make it softer",
+      "meta": {
+        "info": "You make a request more polite with the conditional. *Možete li…?* becomes *Biste li mogli…?*, and *Možeš li…?* becomes *Bi li mogao…?* or *Bi li mogla…?* The second verb stays in the infinitive. *Želim* becomes *Htio / Htjela bih*.",
+        "infokratko": "*Možete li…?* → *Biste li mogli…?*; *Želim* → *Htio / Htjela bih*.",
+        "opis": "Make it softer with the conditional."
+      },
+      "stavke": [
+        [
+          "Možete li doći u osam? →",
+          "Biste li mogli doći u osam"
+        ],
+        [
+          "Možete li skrenuti lijevo? →",
+          "Biste li mogli skrenuti lijevo"
+        ],
+        [
+          "Želim kavu. →",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "Možete li čekati? →",
+          "Biste li mogli čekati"
+        ],
+        [
+          "Želimo dvije kave. →",
+          "Htjeli bismo dvije kave / Htjele bismo dvije kave"
+        ],
+        [
+          "Možeš li dodati sol? (a friend, a man) →",
+          "Bi li mogao dodati sol"
+        ],
+        [
+          "Možeš li dodati sol? (a friend, a woman) →",
+          "Bi li mogla dodati sol"
+        ],
+        [
+          "Želim komad torte. →",
+          "Htio bih komad torte / Htjela bih komad torte"
+        ],
+        [
+          "Možete li pokazati na mapi? →",
+          "Biste li mogli pokazati na mapi"
+        ]
+      ],
+      "sortkljuc": 1803011,
+      "bodovi": 998
+    },
+    {
+      "cjelina": "Grammar 18",
+      "cjelinanaslov": "The Conditional (Kondicional I)",
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the dream",
       "meta": {
+        "info": "Whole sentences with the conditional and the two kinds of *if*. The helper takes the second place, *se* follows it, and a comma separates the condition from the other half.",
+        "infokratko": "Helper second, *se* after it; comma after the condition.",
         "opis": "Build the dream."
       },
       "stavke": [
@@ -85129,11 +100532,130 @@ window.PODACI = {
           "Da imam milijun eura, kupio bih kuću pokraj mora."
         ],
         [
-          "Ako bude sunca, ići ćemo na rijeku."
+          "Ako je sunčano, ići ćemo na rijeku."
+        ],
+        [
+          "Kad bih imala vremena, putovala bih."
+        ],
+        [
+          "Ne bih se bojao mora."
+        ],
+        [
+          "Biste li mogli doći u osam?"
+        ],
+        [
+          "Da je ljeto, plivali bismo cijeli dan."
+        ],
+        [
+          "Ako pada kiša, ostat ćemo doma."
+        ],
+        [
+          "Djeca bi plivala cijeli dan."
+        ],
+        [
+          "Ne bih se brinula."
         ]
       ],
-      "sortkljuc": 1803009,
-      "bodovi": 1415
+      "sortkljuc": 1803012,
+      "bodovi": 838
+    },
+    {
+      "cjelina": "Grammar 18",
+      "cjelinanaslov": "The Conditional (Kondicional I)",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English. The conditional is the participle plus *bih, bi, bismo, biste*; a real *if* is *ako* with the present, a dream is *da* + present or *kad bih*. Where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "participle + helper; *ako* real, *da / kad bih* dream. Both genders accepted.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I would buy a boat.",
+          "Kupio bih brod / Kupila bih brod"
+        ],
+        [
+          "We would travel all year.",
+          "Putovali bismo cijelu godinu / Putovale bismo cijelu godinu"
+        ],
+        [
+          "She would stay at home.",
+          "Ostala bi doma / Ona bi ostala doma"
+        ],
+        [
+          "I would like a coffee.",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "I wouldn't be afraid.",
+          "Ne bih se bojao / Ne bih se bojala"
+        ],
+        [
+          "Would you come? (to a group)",
+          "Biste li došli"
+        ],
+        [
+          "Could you wait? (polite)",
+          "Biste li mogli čekati"
+        ],
+        [
+          "If it's sunny, we'll go to the sea.",
+          "Ako je sunčano, ići ćemo na more / Ako je sunčano, idemo na more"
+        ],
+        [
+          "If it rains, I'll stay at home.",
+          "Ako pada kiša, ostat ću doma"
+        ],
+        [
+          "If I had a million euros, I would buy a house.",
+          "Da imam milijun eura, kupio bih kuću / Da imam milijun eura, kupila bih kuću / Kad bih imao milijun eura, kupio bih kuću / Kad bih imala milijun eura, kupila bih kuću"
+        ],
+        [
+          "If it were summer, we would swim.",
+          "Da je ljeto, plivali bismo / Da je ljeto, plivale bismo"
+        ],
+        [
+          "The children would swim all day.",
+          "Djeca bi plivala cijeli dan"
+        ],
+        [
+          "They would come for lunch.",
+          "Došli bi na ručak / Oni bi došli na ručak"
+        ],
+        [
+          "What would you do? (to a friend)",
+          "Što bi radio / Što bi radila / Što bi ti radio / Što bi ti radila"
+        ]
+      ],
+      "sortkljuc": 1803013,
+      "bodovi": 998
+    },
+    {
+      "cjelina": "Grammar 18",
+      "cjelinanaslov": "The Conditional (Kondicional I)",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The conditional is the participle plus *bih, bi, bismo, biste*, always in the second place. *Ako* opens a real condition, *da* or *kad bih* a dream, and *Htio bih* or *Biste li mogli…?* make a request polite.",
+        "infokratko": "participle + *bih…*; *ako* real, *da / kad bih* dream; *Htio bih*, *Biste li mogli…?*"
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now dream out loud, set a condition in front of the dream, and ask for anything in the politest Croatian there is."
+        ],
+        [
+          "And you did it with a few rules: **participle + bih, bi, bismo, biste**, **the helper in second place**, **ako for what can happen, da and kad bih for dreams**."
+        ],
+        [
+          "**Next up:** Practice 18 spends a million euros and plans the perfect day, and Test 18 checks the whole level. Then Lesson 19: every verb has a twin — *pisati* and *napisati*."
+        ]
+      ],
+      "sortkljuc": 1803014,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 18",
@@ -85142,13 +100664,14 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: A million euros",
-      "meta": {},
+      "meta": {
+        "info": "A read-along daydream by Marko, and nearly every line is a conditional. Read it twice: once for the story, once for the pattern — the participle with *bih* for Marko (*kupio bih*), *bi* for the others (*mama bi dobila*), and *Bih li…?* for a question.",
+        "infokratko": "Marko: *kupio bih*. Others: *mama bi dobila*. Question: *Bih li radio?*",
+        "opis": "Marko imagines a million euros. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "A million euros, and a perfect day nobody has had yet."
-        ],
-        [
-          "Million-euro dreams — passive words: *zamislite* (imagine), *košta* (costs), *ne bih mogao* (I couldn't), *k meni* (to my place), *dolazio* (came/would come), *sjalo* (shone), *duže* (longer), *izgledao* (looked), *ovako* (like this), *baš zato* (exactly because of that), *bez alarma* (without an alarm)."
+          "Passive words: *zamislite* (imagine), *veliki* (big), *sve dao* (gave it all away)."
         ],
         [
           "Zamislite: milijun eura! Što bih kupio?",
@@ -85164,7 +100687,7 @@ window.PODACI = {
         ],
         [
           "Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor.",
-          "Mom would get a new car, and dad would get peace — and a big television."
+          "Mum would get a new car, and Dad would get peace — and a big television."
         ],
         [
           "Putovao bih cijelu godinu.",
@@ -85194,33 +100717,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor. Putovao bih cijelu godinu. Bih li radio? Možda... ali samo ponedjeljkom! Jer sreća ne košta milijun eura.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on Marko's daydream. Each question uses the conditional too, so the answer is on the line with the same verb: *Što bi prvo kupio?* matches *Prvo bih kupio…*, and *Što bi mama dobila?* matches *Mama bi dobila…*",
+        "infokratko": "Find the same verb: *Što bi kupio?* → *Prvo bih kupio…*",
+        "opis": "Answer from the text.",
+        "tekst": "Zamislite: milijun eura! Što bih kupio? Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor. Putovao bih cijelu godinu. Bih li radio? Možda... ali samo ponedjeljkom! A možda bih sve dao i ostao isti. Jer sreća ne košta milijun eura."
       },
       "stavke": [
         [
-          "Što bi prvo kupio?",
+          "Što bi Marko prvo kupio?",
           "kuću pokraj mora",
-          "brod"
+          "brod",
+          "auto"
+        ],
+        [
+          "Što bi Marko kupio poslije kuće?",
+          "brod",
+          "vilu",
+          "televizor"
         ],
         [
           "Što bi mama dobila?",
           "novi auto",
-          "televizor"
+          "televizor",
+          "brod"
         ],
         [
-          "Bi li radio?",
+          "Što bi tata dobio?",
+          "mir i televizor",
+          "novi auto",
+          "kuću"
+        ],
+        [
+          "Bi li Marko radio?",
           "možda, samo ponedjeljkom",
-          "nikad"
+          "nikad",
+          "svaki dan"
         ],
         [
           "Što ne košta milijun eura?",
           "sreća",
-          "kuća"
+          "kuća",
+          "brod"
         ]
       ],
       "sortkljuc": 1804002,
-      "bodovi": 1481
+      "bodovi": 880
     },
     {
       "cjelina": "Practice 18",
@@ -85230,8 +100771,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the conditional",
       "meta": {
-        "tekst": "Prvo bih kupio kuću. Mama bi dobila novi auto. Putovao bih cijelu godinu.",
-        "opis": "Fill in the conditional from the text."
+        "info": "Copy each helper back into its line. Marko speaks about himself, so he uses *bih*; Mum, Dad and happiness are third persons and take *bi*. The helper is never first — it follows the first word or the participle.",
+        "infokratko": "Marko: *bih*. Mum, Dad: *bi*. The helper is second.",
+        "opis": "Fill in the conditional from the text.",
+        "tekst": "Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila novi auto, a tata bi dobio mir. Putovao bih cijelu godinu. Bih li radio? A možda bih sve dao i ostao isti."
       },
       "stavke": [
         [
@@ -85239,16 +100782,36 @@ window.PODACI = {
           "bih"
         ],
         [
+          "Onda ___ kupio brod.",
+          "bih"
+        ],
+        [
           "Mama ___ dobila novi auto.",
+          "bi"
+        ],
+        [
+          "Tata ___ dobio mir.",
           "bi"
         ],
         [
           "Putovao ___ cijelu godinu.",
           "bih"
+        ],
+        [
+          "___ li radio?",
+          "Bih"
+        ],
+        [
+          "A možda bih sve dao i ___ isti. (ostati)",
+          "ostao"
+        ],
+        [
+          "Mama bi ___ novi auto. (dobiti)",
+          "dobila"
         ]
       ],
       "sortkljuc": 1804003,
-      "bodovi": 1745
+      "bodovi": 1048
     },
     {
       "cjelina": "Practice 18",
@@ -85257,22 +100820,29 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: Where would you live?",
-      "meta": {},
+      "meta": {
+        "info": "A phone call between Petra and Ivan about the city and the sea. Petra's forms end in **-la** (*plivala bih, čitala*), Ivan's in **-o** (*ostao bih, dolazio*), so the participle tells you who is speaking even without names. *Ne bih mogao* uses the participle of *moći*.",
+        "infokratko": "Petra: **-la** (*plivala bih*). Ivan: **-o** (*ostao bih*). *ne bih mogao*.",
+        "opis": "Petra and Ivan can't agree: city or sea? Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "— Gdje bi živio: u gradu ili pokraj mora?",
-          "— Where would you live: in the city or by the sea?"
+          "Passive words: *Ovdje Ivan* (It's Ivan, on the phone), *k meni* (to my place), *ljeti* (in summer), *i grad i more* (both the city and the sea)."
         ],
         [
-          "— Pokraj mora, naravno! Svaki dan bih plivao.",
+          "— Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora?",
+          "— Hi, Petra, it's Ivan! Where would you live: in the city or by the sea?"
+        ],
+        [
+          "— Pokraj mora, naravno! Svaki dan bih plivala.",
           "— By the sea, of course! I would swim every day."
         ],
         [
-          "— A što bi radio zimi?",
+          "— A što bi radila zimi?",
           "— And what would you do in winter?"
         ],
         [
-          "— Zimi bih čitao, kuhao i gledao valove. A ti?",
+          "— Zimi bih čitala, kuhala i gledala valove. A ti?",
           "— In winter I would read, cook and watch the waves. And you?"
         ],
         [
@@ -85288,7 +100858,7 @@ window.PODACI = {
           "— I would come every weekend!"
         ],
         [
-          "— Onda dogovoreno: ja bih imao more, a ti bi imao i grad i more!",
+          "— Onda dogovoreno: ja bih imala more, a ti bi imao i grad i more!",
           "— Then it's a deal: I would have the sea, and you would have both the city and the sea!"
         ]
       ],
@@ -85303,33 +100873,45 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "— Pokraj mora, naravno! Svaki dan bih plivao. — Zimi bih čitao, kuhao i gledao valove. — Ja bih ostao u gradu. Ne bih mogao bez kina i kafića. — Dolazio bih svaki vikend!",
-        "opis": "Tap true or false."
+        "info": "Check each statement against the call. Keep the two speakers apart: Petra would live by the sea and read in winter, Ivan would stay in the city and visit every weekend. The endings help — *-la* is Petra, *-o* is Ivan.",
+        "infokratko": "Petra: sea, reading in winter. Ivan: city, every weekend.",
+        "opis": "Tap true or false.",
+        "tekst": "— Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora? — Pokraj mora, naravno! Svaki dan bih plivala. — A što bi radila zimi? — Zimi bih čitala, kuhala i gledala valove. A ti? — Ja bih ostao u gradu. Ne bih mogao bez kina i kafića. — A bi li dolazio k meni ljeti? — Dolazio bih svaki vikend!"
       },
       "stavke": [
         [
-          "Prva osoba bi živjela pokraj mora.",
+          "Petra bi živjela pokraj mora.",
           "TRUE",
           "FALSE"
         ],
         [
-          "Zimi bi trenirala u teretani.",
+          "Petra bi zimi trenirala u teretani.",
           "FALSE",
           "TRUE"
         ],
         [
-          "Druga osoba ne bi mogla bez kina i kafića.",
+          "Ivan ne bi mogao bez kina i kafića.",
           "TRUE",
           "FALSE"
         ],
         [
-          "Dolazila bi jednom godišnje.",
+          "Ivan bi dolazio jednom godišnje.",
           "FALSE",
           "TRUE"
+        ],
+        [
+          "Ivan bi ostao u gradu.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Petra bi svaki dan plivala.",
+          "TRUE",
+          "FALSE"
         ]
       ],
       "sortkljuc": 1804005,
-      "bodovi": 1481
+      "bodovi": 880
     },
     {
       "cjelina": "Practice 18",
@@ -85339,20 +100921,22 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Order the dialogue",
       "meta": {
+        "info": "Rebuild the call line by line. Each answer follows its question: *Gdje bi živjela?* is answered by *Pokraj mora*, *Što bi radila zimi?* by the winter plans, and *Bi li dolazio k meni ljeti?* by *Dolazio bih svaki vikend*. The deal comes last.",
+        "infokratko": "Each answer follows its question; the deal comes last.",
         "opis": "Rebuild the debate."
       },
       "stavke": [
         [
-          "— Gdje bi živio: u gradu ili pokraj mora?"
+          "— Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora?"
         ],
         [
-          "— Pokraj mora, naravno! Svaki dan bih plivao."
+          "— Pokraj mora, naravno! Svaki dan bih plivala."
         ],
         [
-          "— A što bi radio zimi?"
+          "— A što bi radila zimi?"
         ],
         [
-          "— Zimi bih čitao, kuhao i gledao valove. A ti?"
+          "— Zimi bih čitala, kuhala i gledala valove. A ti?"
         ],
         [
           "— Ja bih ostao u gradu. Ne bih mogao bez kina i kafića."
@@ -85364,11 +100948,11 @@ window.PODACI = {
           "— Dolazio bih svaki vikend!"
         ],
         [
-          "— Onda dogovoreno: ja bih imao more, a ti bi imao i grad i more!"
+          "— Onda dogovoreno: ja bih imala more, a ti bi imao i grad i more!"
         ]
       ],
       "sortkljuc": 1804006,
-      "bodovi": 1850
+      "bodovi": 733
     },
     {
       "cjelina": "Practice 18",
@@ -85377,18 +100961,25 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: The perfect day",
-      "meta": {},
+      "meta": {
+        "info": "Ana describes her perfect day, from morning to night. Her own forms end in **-la** (*ustala bih, pila bih*); when her friends join, the helper becomes *bismo* and the participle *-li* (*jeli bismo, išli bismo*). *Sunce bi sjalo* is a third person.",
+        "infokratko": "Ana: *ustala bih*. With friends: *jeli bismo*. *Sunce bi sjalo*.",
+        "opis": "Ana's perfect day, hour by hour. Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "Moj savršen dan bi izgledao ovako: ustao bih kasno, bez alarma.",
+          "Passive words: *izgledao* (would look), *ovako* (like this), *bez alarma* (without an alarm), *sjalo* (would shine), *još duže* (even longer), *ništa posebno* (nothing special), *baš zato* (exactly for that reason)."
+        ],
+        [
+          "Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma.",
           "My perfect day would look like this: I would get up late, without an alarm."
         ],
         [
-          "Pio bih kavu na balkonu.",
+          "Pila bih kavu na balkonu.",
           "I would drink coffee on the balcony."
         ],
         [
-          "Sunce bi sjalo, a ja ne bih žurio.",
+          "Sunce bi sjalo, a ja ne bih žurila.",
           "The sun would shine, and I wouldn't hurry."
         ],
         [
@@ -85404,12 +100995,12 @@ window.PODACI = {
           "In the afternoon we would go to the river."
         ],
         [
-          "Navečer bih gledao zvijezde.",
+          "Navečer bih gledala zvijezde.",
           "In the evening I would watch the stars."
         ],
         [
           "Ništa posebno — i baš zato savršeno.",
-          "Nothing special — and exactly because of that, perfect."
+          "Nothing special — and exactly for that reason, perfect."
         ]
       ],
       "sortkljuc": 1804007,
@@ -85423,27 +101014,32 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Put the perfect day in order",
       "meta": {
+        "info": "Sequence Ana's day from Text 3. The day runs from a late morning to the stars: coffee comes before the friends arrive, the long lunch before the afternoon at the river, and the stars at the very end.",
+        "infokratko": "Late morning, coffee, lunch, the river, the stars.",
         "opis": "Put the perfect day in order."
       },
       "stavke": [
         [
-          "ustao bih kasno"
+          "Ustala bih kasno."
         ],
         [
-          "kava na balkonu"
+          "Pila bih kavu na balkonu."
         ],
         [
-          "prijatelji na ručku"
+          "Prijatelji bi došli na ručak."
         ],
         [
-          "rijeka poslijepodne"
+          "Jeli bismo dugo."
         ],
         [
-          "zvijezde navečer"
+          "Poslijepodne bismo išli na rijeku."
+        ],
+        [
+          "Navečer bih gledala zvijezde."
         ]
       ],
       "sortkljuc": 1804008,
-      "bodovi": 1481
+      "bodovi": 587
     },
     {
       "cjelina": "Practice 18",
@@ -85453,55 +101049,1977 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "Ustao bih kasno, bez alarma. Pio bih kavu na balkonu. Navečer bih gledao zvijezde.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on Ana's day. The questions ask *when, where* and *what*, and each answer is on one line. Watch the times of day: coffee is in the morning on the balcony, the river in the afternoon, the stars in the evening.",
+        "infokratko": "Morning: balcony. Afternoon: river. Evening: stars.",
+        "opis": "Answer from the text.",
+        "tekst": "Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma. Pila bih kavu na balkonu. Sunce bi sjalo, a ja ne bih žurila. Prijatelji bi došli na ručak. Jeli bismo dugo, a pričali bismo još duže. Poslijepodne bismo išli na rijeku. Navečer bih gledala zvijezde."
       },
       "stavke": [
         [
-          "Kako bi ustao?",
+          "Kako bi Ana ustala?",
           "kasno, bez alarma",
-          "rano"
+          "rano, s alarmom",
+          "u podne"
         ],
         [
-          "Gdje bi pio kavu?",
+          "Gdje bi pila kavu?",
           "na balkonu",
-          "u kafiću"
+          "u kafiću",
+          "na rijeci"
         ],
         [
-          "Što bi gledao navečer?",
+          "Tko bi došao na ručak?",
+          "prijatelji",
+          "baka i djed",
+          "Marko"
+        ],
+        [
+          "Kamo bi išli poslijepodne?",
+          "na rijeku",
+          "na more",
+          "u kino"
+        ],
+        [
+          "Što bi Ana gledala navečer?",
           "zvijezde",
-          "film"
+          "film",
+          "valove"
+        ],
+        [
+          "Bi li Ana žurila?",
+          "ne bi",
+          "bi",
+          "možda"
         ]
       ],
       "sortkljuc": 1804009,
-      "bodovi": 1481
+      "bodovi": 880
     },
     {
       "cjelina": "Practice 18",
       "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
       "stranica": 10,
       "broj": 9999,
-      "format": "slaganje",
-      "naslov": "Translate by building",
+      "format": "tekst",
+      "naslov": "Text 4: Street survey",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "A real newspaper street survey: one question, four people, four answers. Each person answers for themselves, so the participle shows who is speaking — *putovao* (Luka), *kupila* (Vesna, Maja), *kupio* (Zoran). The question itself uses *biste*, the polite *vi*.",
+        "infokratko": "A real survey. *Što biste radili…?* Answers: *putovao bih, kupila bih, ne bih kupio*.",
+        "opis": "A newspaper asks people in the street one question. Tap **EN** to see any line in English."
       },
       "stavke": [
         [
-          "Pio bih kavu na balkonu.",
-          "en: I would drink coffee on the balcony."
+          "Passive words: *pitali smo* (we asked), *oko svijeta* (around the world), *više ne* (no longer), *za unuke* (for the grandchildren), *pola* (half), *dala* (would give), *bolnici* (to the hospital)."
+        ],
+        [
+          "PITALI SMO VAS: Što biste radili s milijun eura?",
+          "WE ASKED YOU: What would you do with a million euros?"
+        ],
+        [
+          "Luka (19), student: \"Putovao bih oko svijeta. Prvo u Japan!\"",
+          "Luka (19), student: \"I would travel around the world. Japan first!\""
+        ],
+        [
+          "Vesna (45), učiteljica: \"Kupila bih kuću na otoku. I više ne bih radila!\"",
+          "Vesna (45), teacher: \"I would buy a house on an island. And I wouldn't work any more!\""
+        ],
+        [
+          "Zoran (70), djed: \"Ništa ne bih kupio. Štedio bih za unuke.\"",
+          "Zoran (70), grandfather: \"I wouldn't buy anything. I would save for my grandchildren.\""
+        ],
+        [
+          "Maja (28), doktorica: \"Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu.\"",
+          "Maja (28), doctor: \"I would give half to the hospital, and with the other half I would buy a flat in Zagreb.\""
+        ]
+      ],
+      "sortkljuc": 1804010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Who said it?",
+      "meta": {
+        "info": "Reading the survey for who said what. Each person has one line, and the participle confirms the answer: *Putovao bih* is a man, *Kupila bih* a woman. Two people are women, so read the whole answer, not only the ending.",
+        "infokratko": "One line per person. *-o* a man, *-la* a woman — then read the rest.",
+        "opis": "Answer from the survey.",
+        "tekst": "PITALI SMO VAS: Što biste radili s milijun eura? Luka (19), student: \"Putovao bih oko svijeta. Prvo u Japan!\" Vesna (45), učiteljica: \"Kupila bih kuću na otoku. I više ne bih radila!\" Zoran (70), djed: \"Ništa ne bih kupio. Štedio bih za unuke.\" Maja (28), doktorica: \"Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu.\""
+      },
+      "stavke": [
+        [
+          "Tko bi putovao oko svijeta?",
+          "Luka",
+          "Zoran",
+          "Maja"
+        ],
+        [
+          "Kamo bi Luka išao prvo?",
+          "u Japan",
+          "na otok",
+          "u Zagreb"
+        ],
+        [
+          "Što bi Vesna kupila?",
+          "kuću na otoku",
+          "stan u Zagrebu",
+          "brod"
+        ],
+        [
+          "Tko ne bi ništa kupio?",
+          "Zoran",
+          "Luka",
+          "Vesna"
+        ],
+        [
+          "Tko više ne bi radio?",
+          "Vesna",
+          "Maja",
+          "Luka"
+        ],
+        [
+          "Gdje bi Maja kupila stan?",
+          "u Zagrebu",
+          "na otoku",
+          "u Japanu"
+        ]
+      ],
+      "sortkljuc": 1804011,
+      "bodovi": 880
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Four dreams",
+      "meta": {
+        "info": "A puzzle rather than a story. Four friends would each do something different with the lottery money, and every clue rules something out. Start with Marko: after two clues only one thing is left for him, and the rest follows.",
+        "infokratko": "Every clue rules something out. Start with Marko.",
+        "opis": "Four friends, a lottery ticket and four different dreams. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *svatko* (each one), *nešto drugo* (something different), *se boji mora* (is afraid of the sea)."
+        ],
+        [
+          "Ana, Marko, Petra i Ivan imaju kartu za lutriju.",
+          "Ana, Marko, Petra and Ivan have a lottery ticket."
+        ],
+        [
+          "Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, jedan auto, a jedan bi štedio.",
+          "Each would do something different with the money: one would buy a villa, one a boat, one a car, and one would save."
+        ],
+        [
+          "Ana se boji mora. Ne bi kupila brod.",
+          "Ana is afraid of the sea. She wouldn't buy a boat."
+        ],
+        [
+          "Marko ne bi kupio ni auto ni vilu.",
+          "Marko would buy neither a car nor a villa."
+        ],
+        [
+          "Petra ne bi štedjela.",
+          "Petra wouldn't save."
+        ],
+        [
+          "Ivan ne vozi i ne bi kupio auto.",
+          "Ivan doesn't drive and wouldn't buy a car."
+        ],
+        [
+          "Ni Marko ni Ivan ne bi kupili brod.",
+          "Neither Marko nor Ivan would buy a boat."
+        ],
+        [
+          "Tko bi što radio?",
+          "Who would do what?"
+        ]
+      ],
+      "sortkljuc": 1804012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Marko would buy neither the car, the villa nor the boat, so he would save. Ivan cannot take the car or the boat, and saving is Marko's, so he would buy the villa. Ana is left with the car, and Petra with the boat.",
+        "infokratko": "Marko first: he would save. Then Ivan, Ana and Petra.",
+        "opis": "Nobody says who would do what. Work it out from the text.",
+        "tekst": "Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, jedan auto, a jedan bi štedio. Ana se boji mora. Ne bi kupila brod. Marko ne bi kupio ni auto ni vilu. Petra ne bi štedjela. Ivan ne vozi i ne bi kupio auto. Ni Marko ni Ivan ne bi kupili brod."
+      },
+      "stavke": [
+        [
+          "Tko bi štedio?",
+          "Marko",
+          "Ivan",
+          "Ana"
+        ],
+        [
+          "Što bi kupio Ivan?",
+          "vilu",
+          "brod",
+          "auto"
+        ],
+        [
+          "Što bi kupila Ana?",
+          "auto",
+          "vilu",
+          "brod"
+        ],
+        [
+          "Tko bi kupio brod?",
+          "Petra",
+          "Marko",
+          "Ivan"
+        ],
+        [
+          "Zašto Ana ne bi kupila brod?",
+          "jer se boji mora",
+          "jer ne vozi",
+          "jer bi štedjela"
+        ],
+        [
+          "Tko ne vozi?",
+          "Ivan",
+          "Marko",
+          "Petra"
+        ]
+      ],
+      "sortkljuc": 1804013,
+      "bodovi": 880
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "nastavci": "o | la | li | le",
+        "info": "One tap finishes the participle, and almost every sentence comes from the five texts. **-o** is a man (Marko, Ivan, Luka), **-la** a woman (Ana, Petra, Vesna), **-li** a group, **-le** a group of women.",
+        "infokratko": "**-o** man, **-la** woman, **-li** group, **-le** only women.",
+        "opis": "Almost every sentence came out of the five texts. One tap finishes the participle."
+      },
+      "stavke": [
+        [
+          "Prvo bih kupi___ kuću.",
+          "First I would buy a house. (Marko)",
+          "o"
+        ],
+        [
+          "Mama bi dobi___ novi auto.",
+          "Mum would get a new car.",
+          "la"
+        ],
+        [
+          "Svaki dan bih pliva___.",
+          "I would swim every day. (Petra)",
+          "la"
+        ],
+        [
+          "Ja bih osta___ u gradu.",
+          "I would stay in the city. (Ivan)",
+          "o"
+        ],
+        [
+          "Prijatelji bi doš___ na ručak.",
+          "Friends would come for lunch.",
+          "li"
+        ],
+        [
+          "Pi___ bih kavu na balkonu.",
+          "I would drink coffee on the balcony. (Ana)",
+          "la"
+        ],
+        [
+          "Jeli bismo dugo, a priča___ bismo još duže.",
+          "We would eat for a long time and talk even longer.",
+          "li"
+        ],
+        [
+          "Putova___ bih oko svijeta.",
+          "I would travel around the world. (Luka)",
+          "o"
+        ],
+        [
+          "Više ne bih radi___!",
+          "I wouldn't work any more! (Vesna)",
+          "la"
+        ],
+        [
+          "Štedi___ bih za unuke.",
+          "I would save for my grandchildren. (Zoran)",
+          "o"
+        ],
+        [
+          "Ana i Petra bi kupi___ brod.",
+          "Ana and Petra would buy a boat.",
+          "le"
+        ],
+        [
+          "Navečer bih gleda___ zvijezde.",
+          "In the evening I would watch the stars. (Ana)",
+          "la"
+        ],
+        [
+          "Tata bi dobi___ mir.",
+          "Dad would get peace.",
+          "o"
+        ],
+        [
+          "Ni Marko ni Ivan ne bi kupi___ brod.",
+          "Neither Marko nor Ivan would buy a boat.",
+          "li"
+        ],
+        [
+          "Petra ne bi štedje___.",
+          "Petra wouldn't save.",
+          "la"
+        ],
+        [
+          "Vesna i Maja bi kupi___ kuću.",
+          "Vesna and Maja would buy a house.",
+          "le"
+        ]
+      ],
+      "sortkljuc": 1804014,
+      "bodovi": 880
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "A man or a woman?",
+      "meta": {
+        "info": "Sorting sentences by who is speaking. In the past tense and in the conditional, the participle shows the speaker's gender: **-o** for a man (*kupio bih*), **-la** for a woman (*kupila bih*). *Bih* itself is the same for both.",
+        "infokratko": "*kupio bih* → a man; *kupila bih* → a woman. *bih* is the same.",
+        "stupci": "MUŠKARAC | ŽENA",
+        "opis": "Is the speaker a man or a woman? Look at the participle."
+      },
+      "stavke": [
+        [
+          "Prvo bih kupio kuću pokraj mora.",
+          "MUŠKARAC"
+        ],
+        [
+          "Putovao bih cijelu godinu.",
+          "MUŠKARAC"
+        ],
+        [
+          "Ja bih ostao u gradu.",
+          "MUŠKARAC"
+        ],
+        [
+          "Dolazio bih svaki vikend!",
+          "MUŠKARAC"
+        ],
+        [
+          "Ništa ne bih kupio.",
+          "MUŠKARAC"
+        ],
+        [
+          "Putovao bih oko svijeta.",
+          "MUŠKARAC"
+        ],
+        [
+          "Ne bih mogao bez kina.",
+          "MUŠKARAC"
+        ],
+        [
+          "Svaki dan bih plivala.",
+          "ŽENA"
+        ],
+        [
+          "Zimi bih čitala i kuhala.",
+          "ŽENA"
+        ],
+        [
+          "Ustala bih kasno.",
+          "ŽENA"
+        ],
+        [
+          "Pila bih kavu na balkonu.",
+          "ŽENA"
+        ],
+        [
+          "Kupila bih kuću na otoku.",
+          "ŽENA"
+        ],
+        [
+          "Više ne bih radila!",
+          "ŽENA"
+        ],
+        [
+          "Ja ne bih žurila.",
+          "ŽENA"
+        ]
+      ],
+      "sortkljuc": 1804015,
+      "bodovi": 859
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU dream",
+      "meta": {
+        "info": "Your turn: a friend asks what you would do with a million euros. Every answer is a conditional, and where your gender shows you pick your own form (*kupio / kupila bih*). The friend asks without assuming your gender and reacts to your choice.",
+        "infokratko": "Pick your form: *kupio / kupila bih*. Your friend reacts.",
+        "opis": "A lottery ticket, a friend and a big question. Choose your replies. Passive words: *Da imaš* (if you had), *Stvarno?* (Really?), *s tobom* (with you)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Imam kartu za lutriju! Da imaš milijun eura, što bi kupio ili kupila?"
+        ],
+        [
+          "ti",
+          "Kupio bih kuću pokraj mora.",
+          "Kupila bih kuću pokraj mora.",
+          "Kupio bih brod.",
+          "Kupila bih brod."
+        ],
+        [
+          "npc",
+          "More! I ja bih živjela pokraj mora. A bi li još radio ili radila?"
+        ],
+        [
+          "ti",
+          "Ne bih radio!",
+          "Ne bih radila!",
+          "Radio bih, ali samo ponedjeljkom.",
+          "Radila bih, ali samo ponedjeljkom."
+        ],
+        [
+          "npc",
+          "Ha-ha! A kamo bi putovao ili putovala?"
+        ],
+        [
+          "ti",
+          "Putovao bih u Japan.",
+          "Putovala bih u Japan.",
+          "Ostao bih doma, u vrtu.",
+          "Ostala bih doma, u vrtu."
+        ],
+        [
+          "npc",
+          "Lijepo! Bi li i meni nešto kupio ili kupila?"
+        ],
+        [
+          "ti",
+          "Da, kupio bih ti auto!",
+          "Da, kupila bih ti auto!",
+          "Ne, ali platio bih ti putovanje!",
+          "Ne, ali platila bih ti putovanje!"
+        ],
+        [
+          "npc",
+          "Stvarno? Onda bih putovala s tobom!"
+        ],
+        [
+          "ti",
+          "Dogovoreno! Samo trebamo milijun eura.",
+          "Može! Idemo kupiti kartu za lutriju!"
+        ],
+        [
+          "npc",
+          "Ha-ha! Idemo!"
+        ]
+      ],
+      "sortkljuc": 1804016,
+      "bodovi": 733
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 17,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Translate by building",
+      "meta": {
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The helper *bih, bi, bismo* takes the second place — after the first word or after the participle — and the participle shows who is speaking.",
+        "infokratko": "The helper second; the participle shows who speaks.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
+      },
+      "stavke": [
+        [
+          "Prvo bih kupio kuću pokraj mora.",
+          "en: First I would buy a house by the sea."
+        ],
+        [
+          "Mama bi dobila novi auto.",
+          "en: Mum would get a new car."
+        ],
+        [
+          "Putovao bih cijelu godinu.",
+          "en: I would travel the whole year."
+        ],
+        [
+          "Sreća ne košta milijun eura.",
+          "en: Happiness doesn't cost a million euros."
+        ],
+        [
+          "Gdje bi živjela?",
+          "en: Where would you live? (to a woman)"
+        ],
+        [
+          "Svaki dan bih plivala.",
+          "en: I would swim every day. (a woman)"
+        ],
+        [
+          "Ne bih mogao bez kina i kafića.",
+          "en: I couldn't live without the cinema and cafés. (a man)"
+        ],
+        [
+          "Bi li dolazio k meni ljeti?",
+          "en: Would you come to my place in summer? (to a man)"
+        ],
+        [
+          "Pila bih kavu na balkonu.",
+          "en: I would drink coffee on the balcony. (a woman)"
         ],
         [
           "Prijatelji bi došli na ručak.",
           "en: Friends would come for lunch."
         ],
         [
-          "Sreća ne košta milijun eura.",
-          "en: Happiness doesn't cost a million euros."
+          "Poslijepodne bismo išli na rijeku.",
+          "en: In the afternoon we would go to the river."
+        ],
+        [
+          "Što biste radili s milijun eura?",
+          "en: What would you do with a million euros?"
+        ],
+        [
+          "Kupila bih kuću na otoku.",
+          "en: I would buy a house on an island. (a woman)"
+        ],
+        [
+          "Ništa ne bih kupio.",
+          "en: I wouldn't buy anything. (a man)"
+        ],
+        [
+          "Ana se boji mora.",
+          "en: Ana is afraid of the sea."
+        ],
+        [
+          "Ni Marko ni Ivan ne bi kupili brod.",
+          "en: Neither Marko nor Ivan would buy a boat."
         ]
       ],
-      "sortkljuc": 1804010,
-      "bodovi": 1481
+      "sortkljuc": 1804017,
+      "bodovi": 880
+    },
+    {
+      "cjelina": "Practice 18",
+      "cjelinanaslov": "Reading: A Million Euros & the Perfect Day",
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the things a million euros could buy — and the ones it cannot. Everything is in its naming form; say *Kupio bih…* or *Kupila bih…* in your head as you tap, with **-u** on a feminine word: *Kupila bih vilu.*",
+        "infokratko": "Naming forms. Think *Kupio / Kupila bih…*; *vilu, kuću*.",
+        "opis": "The lottery numbers are coming! A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "brod",
+          "boat"
+        ],
+        [
+          "kuća",
+          "house"
+        ],
+        [
+          "vila",
+          "villa"
+        ],
+        [
+          "jahta",
+          "yacht"
+        ],
+        [
+          "auto",
+          "car"
+        ],
+        [
+          "avion",
+          "plane"
+        ],
+        [
+          "more",
+          "sea"
+        ],
+        [
+          "plaža",
+          "beach"
+        ],
+        [
+          "val",
+          "wave"
+        ],
+        [
+          "sunce",
+          "sun"
+        ],
+        [
+          "zvijezda",
+          "star"
+        ],
+        [
+          "novac",
+          "money"
+        ]
+      ],
+      "sortkljuc": 1804018,
+      "bodovi": 880
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "info": "The words of Level 18: dreams, feelings and the verbs that go with them. Nouns are in their naming form and verbs in the infinitive. Several verbs have *se*: *nadati se, bojati se, brinuti se, ljutiti se, smijati se*.",
+        "infokratko": "Level 18 words: dreams and feelings. Verbs with *se*: *nadati se, bojati se…*",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "san",
+          "dream"
+        ],
+        [
+          "val",
+          "wave"
+        ],
+        [
+          "zvijezda",
+          "star"
+        ],
+        [
+          "jahta",
+          "yacht"
+        ],
+        [
+          "vila",
+          "villa"
+        ],
+        [
+          "dvorac",
+          "castle"
+        ],
+        [
+          "palma",
+          "palm tree"
+        ],
+        [
+          "pijesak",
+          "sand"
+        ],
+        [
+          "obala",
+          "coast"
+        ],
+        [
+          "ocean",
+          "ocean"
+        ],
+        [
+          "budućnost",
+          "future"
+        ],
+        [
+          "cilj",
+          "aim, goal"
+        ],
+        [
+          "uspjeh",
+          "success"
+        ],
+        [
+          "bogat",
+          "rich"
+        ],
+        [
+          "siromašan",
+          "poor"
+        ],
+        [
+          "slavan",
+          "famous"
+        ],
+        [
+          "nadati se",
+          "to hope"
+        ],
+        [
+          "bojati se",
+          "to be afraid"
+        ],
+        [
+          "brinuti se",
+          "to worry"
+        ],
+        [
+          "ljutiti se",
+          "to be angry"
+        ],
+        [
+          "sanjati",
+          "to dream"
+        ],
+        [
+          "smijati se",
+          "to laugh"
+        ],
+        [
+          "osjećati",
+          "to feel"
+        ],
+        [
+          "zamisliti",
+          "to imagine"
+        ],
+        [
+          "dobiti",
+          "to get"
+        ],
+        [
+          "štedjeti",
+          "to save (money)"
+        ],
+        [
+          "milijun",
+          "million"
+        ],
+        [
+          "lutrija",
+          "lottery"
+        ],
+        [
+          "isti",
+          "the same"
+        ],
+        [
+          "ovako",
+          "like this"
+        ],
+        [
+          "ako",
+          "if"
+        ],
+        [
+          "Dogovoreno!",
+          "Deal!"
+        ],
+        [
+          "sreća",
+          "happiness, luck"
+        ],
+        [
+          "nada",
+          "hope"
+        ],
+        [
+          "strah",
+          "fear"
+        ],
+        [
+          "briga",
+          "worry"
+        ],
+        [
+          "radost",
+          "joy"
+        ],
+        [
+          "tuga",
+          "sadness"
+        ],
+        [
+          "osjećaj",
+          "feeling"
+        ],
+        [
+          "ljutnja",
+          "anger"
+        ],
+        [
+          "smijeh",
+          "laughter"
+        ],
+        [
+          "suza",
+          "tear (from your eye)"
+        ],
+        [
+          "ponosan",
+          "proud"
+        ],
+        [
+          "zadovoljan",
+          "satisfied, pleased"
+        ],
+        [
+          "nervozan",
+          "nervous"
+        ],
+        [
+          "uplašen",
+          "scared"
+        ],
+        [
+          "iznenađen",
+          "surprised"
+        ],
+        [
+          "razočaran",
+          "disappointed"
+        ],
+        [
+          "uzbuđen",
+          "excited"
+        ],
+        [
+          "ljubomoran",
+          "jealous"
+        ]
+      ],
+      "sortkljuc": 1805001,
+      "bodovi": 644
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 18 words, with three meanings to choose from. The wrong options come from the same group — feelings, dreams or verbs with *se* — so words that are close in meaning are the real test.",
+        "infokratko": "Level 18 words; the wrong options come from the same group.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "san",
+          "dream",
+          "star",
+          "wave"
+        ],
+        [
+          "obala",
+          "coast",
+          "sand",
+          "ocean"
+        ],
+        [
+          "pijesak",
+          "sand",
+          "coast",
+          "stone"
+        ],
+        [
+          "budućnost",
+          "future",
+          "success",
+          "aim, goal"
+        ],
+        [
+          "uspjeh",
+          "success",
+          "future",
+          "luck"
+        ],
+        [
+          "cilj",
+          "aim, goal",
+          "success",
+          "hope"
+        ],
+        [
+          "siromašan",
+          "poor",
+          "rich",
+          "famous"
+        ],
+        [
+          "slavan",
+          "famous",
+          "rich",
+          "proud"
+        ],
+        [
+          "nadati se",
+          "to hope",
+          "to worry",
+          "to dream"
+        ],
+        [
+          "bojati se",
+          "to be afraid",
+          "to be angry",
+          "to hope"
+        ],
+        [
+          "brinuti se",
+          "to worry",
+          "to be afraid",
+          "to laugh"
+        ],
+        [
+          "ljutiti se",
+          "to be angry",
+          "to worry",
+          "to feel"
+        ],
+        [
+          "smijati se",
+          "to laugh",
+          "to dream",
+          "to be angry"
+        ],
+        [
+          "osjećati",
+          "to feel",
+          "to imagine",
+          "to hope"
+        ],
+        [
+          "zamisliti",
+          "to imagine",
+          "to feel",
+          "to get"
+        ],
+        [
+          "štedjeti",
+          "to save (money)",
+          "to get",
+          "to spend"
+        ],
+        [
+          "lutrija",
+          "lottery",
+          "million",
+          "success"
+        ],
+        [
+          "ovako",
+          "like this",
+          "the same",
+          "if"
+        ],
+        [
+          "isti",
+          "the same",
+          "like this",
+          "rich"
+        ],
+        [
+          "sreća",
+          "happiness, luck",
+          "hope",
+          "joy"
+        ],
+        [
+          "strah",
+          "fear",
+          "worry",
+          "anger"
+        ],
+        [
+          "briga",
+          "worry",
+          "fear",
+          "sadness"
+        ],
+        [
+          "tuga",
+          "sadness",
+          "anger",
+          "fear"
+        ],
+        [
+          "ljutnja",
+          "anger",
+          "sadness",
+          "laughter"
+        ],
+        [
+          "suza",
+          "tear (from your eye)",
+          "laughter",
+          "fear"
+        ],
+        [
+          "ponosan",
+          "proud",
+          "satisfied, pleased",
+          "jealous"
+        ],
+        [
+          "zadovoljan",
+          "satisfied, pleased",
+          "proud",
+          "excited"
+        ],
+        [
+          "uplašen",
+          "scared",
+          "surprised",
+          "nervous"
+        ],
+        [
+          "razočaran",
+          "disappointed",
+          "surprised",
+          "jealous"
+        ],
+        [
+          "ljubomoran",
+          "jealous",
+          "nervous",
+          "disappointed"
+        ]
+      ],
+      "sortkljuc": 1805002,
+      "bodovi": 772
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Past, future or dream?",
+      "meta": {
+        "info": "Sorting sentences by tense. The past has *sam, je, smo* with the participle, the future has *ću, ćeš, ćemo*, and the conditional has *bih, bi, bismo, biste* with the participle. Look at the helper — the participle alone does not decide.",
+        "infokratko": "*sam / je* → past; *ću / ćemo* → future; *bih / bi / bismo* → conditional.",
+        "stupci": "PAST | FUTURE | CONDITIONAL",
+        "opis": "Sort the sentences."
+      },
+      "stavke": [
+        [
+          "Dobio sam poklon.",
+          "PAST"
+        ],
+        [
+          "Dobit ću poklon.",
+          "FUTURE"
+        ],
+        [
+          "Dobio bih poklon.",
+          "CONDITIONAL"
+        ],
+        [
+          "Štedjeli smo.",
+          "PAST"
+        ],
+        [
+          "Štedjet ćemo.",
+          "FUTURE"
+        ],
+        [
+          "Štedjeli bismo.",
+          "CONDITIONAL"
+        ],
+        [
+          "Ana je sanjala o moru.",
+          "PAST"
+        ],
+        [
+          "Ana će sanjati o moru.",
+          "FUTURE"
+        ],
+        [
+          "Ana bi sanjala o moru.",
+          "CONDITIONAL"
+        ],
+        [
+          "Bojala sam se.",
+          "PAST"
+        ],
+        [
+          "Neću se bojati.",
+          "FUTURE"
+        ],
+        [
+          "Ne bih se bojala.",
+          "CONDITIONAL"
+        ],
+        [
+          "Putovali ste.",
+          "PAST"
+        ],
+        [
+          "Putovat ćete.",
+          "FUTURE"
+        ],
+        [
+          "Putovali biste.",
+          "CONDITIONAL"
+        ]
+      ],
+      "sortkljuc": 1805003,
+      "bodovi": 772
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Real or unreal?",
+      "meta": {
+        "info": "Sorting conditions by whether they can happen. *Ako* with a present or future in the other half is a real possibility; *da* or *kad bih* with a conditional in the other half is a dream.",
+        "infokratko": "*ako* … future / present → possible. *da / kad bih* … conditional → a dream.",
+        "stupci": "MOGUĆE (ako) | SAN (da, kad bih)",
+        "opis": "Could it really happen, or is it a daydream?"
+      },
+      "stavke": [
+        [
+          "Ako imam vremena, doći ću.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Ako je sunčano, idemo na plažu.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Ako Ana štedi, kupit će auto.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Ako pada kiša, ostat ćemo doma.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Ako dođeš, pit ćemo kavu.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Ako dobijem poklon, zvat ću baku.",
+          "MOGUĆE (ako)"
+        ],
+        [
+          "Da imam milijun eura, kupio bih vilu.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Da je ljeto, plivali bismo.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Da sam bogata, putovala bih.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Kad bih imao brod, živio bih na moru.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Kad bismo dobili na lutriji, kupili bismo dvorac.",
+          "SAN (da, kad bih)"
+        ],
+        [
+          "Da znam kuhati, kuhala bih svaki dan.",
+          "SAN (da, kad bih)"
+        ]
+      ],
+      "sortkljuc": 1805004,
+      "bodovi": 644
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "o | la | li | le",
+        "info": "One tap finishes the participle. It shows gender and number as in the past tense: **-o** for a man, **-la** for a woman (and for neuter plural like *djeca*), **-li** for a group with a man in it, **-le** for a group of women.",
+        "infokratko": "**-o** man, **-la** woman (and *djeca*), **-li** group, **-le** only women.",
+        "opis": "English above, Croatian below. One tap finishes the participle."
+      },
+      "stavke": [
+        [
+          "Kupi___ bih jahtu.",
+          "I would buy a yacht. (a man)",
+          "o"
+        ],
+        [
+          "Kupi___ bih vilu.",
+          "I would buy a villa. (a woman)",
+          "la"
+        ],
+        [
+          "Štedje___ bismo.",
+          "We would save. (Marko and I)",
+          "li"
+        ],
+        [
+          "Sanja___ bismo o moru.",
+          "We would dream of the sea. (Ana and I, two women)",
+          "le"
+        ],
+        [
+          "Petra bi dobi___ poklon.",
+          "Petra would get a present.",
+          "la"
+        ],
+        [
+          "Ivan bi zamisli___ dvorac.",
+          "Ivan would imagine a castle.",
+          "o"
+        ],
+        [
+          "Djeca bi pliva___ cijeli dan.",
+          "The children would swim all day.",
+          "la"
+        ],
+        [
+          "Vi biste osta___ doma.",
+          "You would stay at home. (a group)",
+          "li"
+        ],
+        [
+          "Ana i Maja bi putova___.",
+          "Ana and Maja would travel.",
+          "le"
+        ],
+        [
+          "Htje___ bih kavu.",
+          "I would like a coffee. (a man)",
+          "o"
+        ],
+        [
+          "Ne bih se boja___.",
+          "I wouldn't be afraid. (a woman)",
+          "la"
+        ],
+        [
+          "Oni bi se smija___.",
+          "They would laugh.",
+          "li"
+        ],
+        [
+          "Sestre bi se nada___.",
+          "The sisters would hope.",
+          "le"
+        ],
+        [
+          "Ti bi živje___ na obali.",
+          "You would live on the coast. (a friend, a man)",
+          "o"
+        ],
+        [
+          "Baka bi se brinu___.",
+          "Grandma would worry.",
+          "la"
+        ],
+        [
+          "Mama i tata bi doš___.",
+          "Mum and Dad would come.",
+          "li"
+        ]
+      ],
+      "sortkljuc": 1805005,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the helper",
+      "meta": {
+        "info": "Choosing the helper that matches the person. *Ja* takes *bih*, *mi* takes *bismo*, *vi* takes *biste*, and every other person takes *bi*. In writing, *bi* is never used for *ja, mi* or *vi*.",
+        "infokratko": "*ja bih, mi bismo, vi biste*; everyone else *bi*.",
+        "opis": "Choose the correct helper."
+      },
+      "stavke": [
+        [
+          "Ja ___ kupio vilu.",
+          "bih",
+          "bismo",
+          "biste"
+        ],
+        [
+          "Mama ___ dobila novi auto.",
+          "bi",
+          "bih",
+          "biste"
+        ],
+        [
+          "Mi ___ putovali cijelu godinu.",
+          "bismo",
+          "bih",
+          "biste"
+        ],
+        [
+          "Vi ___ ostali doma.",
+          "biste",
+          "bismo",
+          "bih"
+        ],
+        [
+          "Marko ___ štedio.",
+          "bi",
+          "bih",
+          "bismo"
+        ],
+        [
+          "Ja ___ se bojala mora.",
+          "bih",
+          "biste",
+          "bismo"
+        ],
+        [
+          "Ana i Petra ___ sanjale o jahti.",
+          "bi",
+          "bismo",
+          "bih"
+        ],
+        [
+          "Petra i ja ___ plivale.",
+          "bismo",
+          "biste",
+          "bih"
+        ],
+        [
+          "___ li mogli doći? (vi)",
+          "Biste",
+          "Bismo",
+          "Bih"
+        ],
+        [
+          "Oni ___ se smijali.",
+          "bi",
+          "bismo",
+          "biste"
+        ],
+        [
+          "Ti ___ dobio milijun.",
+          "bi",
+          "bih",
+          "biste"
+        ],
+        [
+          "Ne ___ se brinuo. (ja)",
+          "bih",
+          "bismo",
+          "biste"
+        ]
+      ],
+      "sortkljuc": 1805006,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "The grammatical sentence",
+      "meta": {
+        "info": "Choosing the sentence with the right word order. The helper takes the second place, *ne bih* stays together, *li* follows *bi*, and in a verb with *se* the helper comes first: *bojao bih se*.",
+        "infokratko": "Helper second; *ne bih* together; *bi li*; *bih se*.",
+        "opis": "Choose the grammatical sentence."
+      },
+      "stavke": [
+        [
+          "I would buy a villa.",
+          "Kupio bih vilu.",
+          "Bih kupio vilu.",
+          "Kupio vilu bih."
+        ],
+        [
+          "I wouldn't worry.",
+          "Ne bih se brinula.",
+          "Ne se bih brinula.",
+          "Bih se ne brinula."
+        ],
+        [
+          "Would you come?",
+          "Biste li došli?",
+          "Li biste došli?",
+          "Biste došli li?"
+        ],
+        [
+          "I would be afraid of the sea.",
+          "Bojao bih se mora.",
+          "Bojao se bih mora.",
+          "Bih se bojao mora."
+        ],
+        [
+          "We would travel.",
+          "Mi bismo putovali.",
+          "Mi putovali bismo.",
+          "Bismo mi putovali."
+        ],
+        [
+          "She would laugh.",
+          "Smijala bi se.",
+          "Smijala se bi.",
+          "Bi se smijala."
+        ],
+        [
+          "Tomorrow I would save.",
+          "Sutra bih štedio.",
+          "Sutra štedio bih.",
+          "Bih sutra štedio."
+        ],
+        [
+          "Would he come?",
+          "Bi li došao?",
+          "Li bi došao?",
+          "Došao li bi?"
+        ]
+      ],
+      "sortkljuc": 1805007,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "ako or da?",
+      "meta": {
+        "info": "Choosing the *if* from the other half of the sentence. A future, a present or an order in the other half means a real condition and *ako*; a conditional (*bih, bi, bismo*) means a dream and *da*.",
+        "infokratko": "future / present / order → *ako*; conditional → *da*.",
+        "opis": "The second half tells you which \"if\" the sentence needs."
+      },
+      "stavke": [
+        [
+          "___ je sunčano, ići ćemo na plažu.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ imam milijun eura, kupila bih jahtu.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ pada kiša, ostat ću doma.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ je ljeto, plivali bismo.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ imaš vremena, dođi!",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ sam bogat, putovao bih.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ Marko štedi, kupit će auto.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ imamo brod, živjeli bismo na obali.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "___ dođeš u osam, idemo u kino.",
+          "Ako",
+          "Da"
+        ],
+        [
+          "___ znam kuhati, kuhao bih svaki dan.",
+          "Da",
+          "Ako"
+        ]
+      ],
+      "sortkljuc": 1805008,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Today → in your dreams",
+      "meta": {
+        "info": "You turn a present-tense sentence into a conditional. Make the participle from the verb, add the helper for the person, and keep the rest. Where the speaker is *ja* or *mi*, both genders are accepted.",
+        "infokratko": "participle + helper. *ja*: both *-o* and *-la* accepted.",
+        "opis": "Rewrite the sentence in the conditional."
+      },
+      "stavke": [
+        [
+          "Kupujem jahtu. →",
+          "Kupio bih jahtu / Kupila bih jahtu"
+        ],
+        [
+          "Mi štedimo. →",
+          "Mi bismo štedjeli / Mi bismo štedjele / Štedjeli bismo / Štedjele bismo"
+        ],
+        [
+          "Ana sanja o moru. →",
+          "Ana bi sanjala o moru"
+        ],
+        [
+          "Oni ostaju doma. →",
+          "Oni bi ostali doma / Ostali bi doma"
+        ],
+        [
+          "Vi putujete. →",
+          "Vi biste putovali / Putovali biste"
+        ],
+        [
+          "Živim na obali. →",
+          "Živio bih na obali / Živjela bih na obali"
+        ],
+        [
+          "Marko dobije milijun. →",
+          "Marko bi dobio milijun"
+        ],
+        [
+          "Bojim se mora. →",
+          "Bojao bih se mora / Bojala bih se mora"
+        ],
+        [
+          "Želim kavu. →",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "Djeca plivaju. →",
+          "Djeca bi plivala"
+        ]
+      ],
+      "sortkljuc": 1805009,
+      "bodovi": 919
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Make it softer",
+      "meta": {
+        "info": "You make a request more polite with the conditional. *Možete li…?* becomes *Biste li mogli…?*, *Možeš li…?* becomes *Bi li mogao…?* or *Bi li mogla…?*, and *Želim* becomes *Htio / Htjela bih*.",
+        "infokratko": "*Možete li…?* → *Biste li mogli…?*; *Želim* → *Htio / Htjela bih*.",
+        "opis": "Make it softer with the conditional."
+      },
+      "stavke": [
+        [
+          "Možete li doći u osam? →",
+          "Biste li mogli doći u osam"
+        ],
+        [
+          "Želim komad torte. →",
+          "Htio bih komad torte / Htjela bih komad torte"
+        ],
+        [
+          "Možete li čekati? →",
+          "Biste li mogli čekati"
+        ],
+        [
+          "Možeš li dodati sol? (a friend, a man) →",
+          "Bi li mogao dodati sol"
+        ],
+        [
+          "Možeš li dodati sol? (a friend, a woman) →",
+          "Bi li mogla dodati sol"
+        ],
+        [
+          "Želimo dvije kave. →",
+          "Htjeli bismo dvije kave / Htjele bismo dvije kave"
+        ],
+        [
+          "Možete li skrenuti lijevo? →",
+          "Biste li mogli skrenuti lijevo"
+        ],
+        [
+          "Želim živjeti na obali. →",
+          "Htio bih živjeti na obali / Htjela bih živjeti na obali"
+        ]
+      ],
+      "sortkljuc": 1805010,
+      "bodovi": 919
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the lottery ticket",
+      "meta": {
+        "info": "A short story in which three people dream out loud. Their participles show who is speaking — *-o* for Grandpa, *-la* for Grandma and Petra — and one of them is a real plan with *ako*, not a dream. Find the speaker before you answer.",
+        "infokratko": "The participle shows the speaker. One line is a real plan with *ako*.",
+        "tekst": "Djed ima kartu za lutriju. \"Da dobijem milijun eura, kupio bih brod,\" kaže djed. \"Plovio bih po obali cijelo ljeto.\" Baka se smije: \"Ja ne bih kupila ništa. Štedjela bih za unuke.\" Petra kaže: \"A ja bih putovala oko svijeta!\" Navečer čitaju brojeve. Djed nema sreće — nije dobio ništa. \"Nema veze,\" kaže baka. \"Ako je sutra sunčano, idemo na plažu. To je besplatno!\"",
+        "opis": "Read the text, then answer. Passive words: *plovio* (would sail), *po obali* (along the coast), *brojeve* (numbers), *nema veze* (never mind), *besplatno* (free)."
+      },
+      "stavke": [
+        [
+          "Što bi djed kupio?",
+          "brod",
+          "vilu",
+          "jahtu"
+        ],
+        [
+          "Što bi baka radila s novcem?",
+          "štedjela bi za unuke",
+          "kupila bi brod",
+          "putovala bi"
+        ],
+        [
+          "Tko bi putovao oko svijeta?",
+          "Petra",
+          "djed",
+          "baka"
+        ],
+        [
+          "Je li djed dobio na lutriji?",
+          "nije dobio ništa",
+          "dobio je milijun",
+          "dobio je brod"
+        ],
+        [
+          "Tko se smije?",
+          "baka",
+          "djed",
+          "Petra"
+        ],
+        [
+          "Što će raditi ako je sutra sunčano?",
+          "ići na plažu",
+          "kupiti brod",
+          "štedjeti"
+        ]
+      ],
+      "sortkljuc": 1805011,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "A review of Levels 13 to 17: the imperative, the genitive, the instrumental, the dative and the locative, plus the perfect with both genders. Each item comes from a level you have finished, so read the brackets carefully.",
+        "infokratko": "Review: imperative, genitive, instrumental, dative, locative, the perfect.",
+        "opis": "Not about the conditional — everything here comes from levels 10 to 17."
+      },
+      "stavke": [
+        [
+          "(prijatelju) ___ tri jaja!",
+          "Uzmi",
+          "Uzmaj",
+          "Uzmij"
+        ],
+        [
+          "(grupi) ___ lijevo!",
+          "Skrenite",
+          "Skrenajte",
+          "Skrenijte"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj kasniti!",
+          "Nemoj kasni!",
+          "Nemoj kasniš!"
+        ],
+        [
+          "Moram ___ na posao.",
+          "ići",
+          "idem",
+          "idi"
+        ],
+        [
+          "Pijem kavu bez ___ .",
+          "šećera",
+          "šećer",
+          "šećerom"
+        ],
+        [
+          "tri ___",
+          "sestre",
+          "sestra",
+          "sestru"
+        ],
+        [
+          "Mačka je ispod ___ .",
+          "kreveta",
+          "krevet",
+          "krevetu"
+        ],
+        [
+          "Ključ je kod ___ . (ona)",
+          "nje",
+          "nju",
+          "njoj"
+        ],
+        [
+          "Idem na koncert ___ . (prijatelji)",
+          "s prijateljima",
+          "s prijatelji",
+          "s prijateljama"
+        ],
+        [
+          "Ideš li ___ ? (with me)",
+          "sa mnom",
+          "s ja",
+          "sa meni"
+        ],
+        [
+          "Šaljem paket ___ . (sestra)",
+          "sestri",
+          "sestru",
+          "sestrom"
+        ],
+        [
+          "Kupit ću ___ cvijeće. (to her)",
+          "joj",
+          "je",
+          "nju"
+        ],
+        [
+          "Živim u ___ . (Rijeka)",
+          "Rijeci",
+          "Rijeki",
+          "Rijeku"
+        ],
+        [
+          "Pričamo o ___ . (on)",
+          "njemu",
+          "njega",
+          "on"
+        ],
+        [
+          "Ana i Petra su ___ na moru. (biti)",
+          "bile",
+          "bio",
+          "bila"
+        ],
+        [
+          "Jučer sam ___ film. (gledati, a woman speaking)",
+          "gledala",
+          "gledao",
+          "gledale"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Nisam pio kavu.",
+          "Ne sam pio kavu.",
+          "Nisam pili kavu."
+        ],
+        [
+          "Nitko ___ zna.",
+          "ne",
+          "ni",
+          "nije"
+        ],
+        [
+          "Sutra ___ putovati. (mi)",
+          "ćemo",
+          "ćete",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Idem u knjižnicu jer je Ana u knjižnici.",
+          "Idem u knjižnicu jer Ana je u knjižnici.",
+          "Idem u knjižnici jer je Ana u knjižnicu."
+        ]
+      ],
+      "sortkljuc": 1805012,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "Whole sentences with the conditional, built from tiles. The helper takes the second place, *se* comes right after it, a comma separates the condition from the other half, and the participle shows the speaker's gender.",
+        "infokratko": "Helper second, *se* after it; comma after the condition.",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Kupio bih kuću pokraj mora.",
+          "en: I would buy a house by the sea."
+        ],
+        [
+          "Mi bismo putovali cijelu godinu.",
+          "en: We would travel the whole year."
+        ],
+        [
+          "Htjela bih komad torte, molim.",
+          "en: I would like a piece of cake, please."
+        ],
+        [
+          "Da imam milijun eura, kupila bih jahtu.",
+          "en: If I had a million euros, I would buy a yacht."
+        ],
+        [
+          "Ako je sunčano, ići ćemo na plažu.",
+          "en: If it's sunny, we'll go to the beach."
+        ],
+        [
+          "Kad bih imao vremena, putovao bih.",
+          "en: If I had time, I would travel."
+        ],
+        [
+          "Ne bih se bojala mora.",
+          "en: I wouldn't be afraid of the sea."
+        ],
+        [
+          "Biste li mogli doći u osam?",
+          "en: Could you come at eight?"
+        ],
+        [
+          "Što biste radili s milijun eura?",
+          "en: What would you do with a million euros?"
+        ],
+        [
+          "Djeca bi plivala cijeli dan.",
+          "en: The children would swim all day."
+        ],
+        [
+          "Baka bi štedjela za unuke.",
+          "en: Grandma would save for her grandchildren."
+        ],
+        [
+          "Bi li dolazio k meni ljeti?",
+          "en: Would you come to my place in summer?"
+        ],
+        [
+          "Da je ljeto, plivali bismo.",
+          "en: If it were summer, we would swim."
+        ],
+        [
+          "Baka i djed se smiju.",
+          "en: Grandma and Grandpa are laughing."
+        ],
+        [
+          "Ne bih mogao bez kina.",
+          "en: I couldn't live without the cinema."
+        ]
+      ],
+      "sortkljuc": 1805013,
+      "bodovi": 773
+    },
+    {
+      "cjelina": "Test 18",
+      "cjelinanaslov": "Test 18: The Conditional",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English. The conditional is the participle plus *bih, bi, bismo, biste*, always in the second place; a real *if* is *ako*, a dream is *da* or *kad bih*. Where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "participle + helper; *ako* real, *da / kad bih* dream. Both genders accepted.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "I would buy a villa.",
+          "Kupio bih vilu / Kupila bih vilu"
+        ],
+        [
+          "We would save.",
+          "Štedjeli bismo / Štedjele bismo / Mi bismo štedjeli / Mi bismo štedjele"
+        ],
+        [
+          "She would stay at home.",
+          "Ostala bi doma / Ona bi ostala doma"
+        ],
+        [
+          "I would like a coffee.",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "I wouldn't be afraid.",
+          "Ne bih se bojao / Ne bih se bojala"
+        ],
+        [
+          "Would you come? (to a group)",
+          "Biste li došli"
+        ],
+        [
+          "Could you wait? (polite)",
+          "Biste li mogli čekati"
+        ],
+        [
+          "If it rains, I'll stay at home.",
+          "Ako pada kiša, ostat ću doma"
+        ],
+        [
+          "If I had a million euros, I would travel.",
+          "Da imam milijun eura, putovao bih / Da imam milijun eura, putovala bih / Kad bih imao milijun eura, putovao bih / Kad bih imala milijun eura, putovala bih"
+        ],
+        [
+          "If it were summer, we would swim.",
+          "Da je ljeto, plivali bismo / Da je ljeto, plivale bismo"
+        ],
+        [
+          "The children would laugh.",
+          "Djeca bi se smijala"
+        ],
+        [
+          "They would come for lunch.",
+          "Došli bi na ručak / Oni bi došli na ručak"
+        ],
+        [
+          "I hope so.",
+          "Nadam se"
+        ],
+        [
+          "What would you do? (to a friend)",
+          "Što bi radio / Što bi radila / Što bi ti radio / Što bi ti radila"
+        ],
+        [
+          "Deal!",
+          "Dogovoreno"
+        ],
+        [
+          "I would live by the sea.",
+          "Živio bih pokraj mora / Živjela bih pokraj mora"
+        ]
+      ],
+      "sortkljuc": 1805014,
+      "bodovi": 919
     },
     {
       "cjelina": "Lesson 19",
@@ -85510,16 +103028,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The deepest secret",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the lesson. Most Croatian verbs come in pairs: one for the activity (*pisati* — to be writing) and one for the finished result (*napisati* — to get it written). The second twin usually adds a small prefix such as *na-, po-, pro-*.",
+        "infokratko": "Verb twins: *pisati* (the activity) and *napisati* (the result). Prefixes *na-, po-, pro-*.",
+        "opis": "Read it through — by the end you can tell someone you have finally finished your homework."
+      },
       "stavke": [
         [
-          "Here's Croatian's deepest secret, saved for near the end: almost every verb has a *twin*."
+          "Almost every Croatian verb has a *twin*."
         ],
         [
           "*Pisati* = to be writing. ***Na**pisati* = to get it written. *Piti* = to be drinking. ***Po**piti* = to drink it up."
         ],
         [
-          "One twin describes the *doing*, the other the *getting done*. English needs whole phrases for this — Croatian does it with a prefix. Once you see it, you'll see it everywhere."
+          "**One twin describes the activity, the other the finished result.** English often needs extra words for this — *finish, up, through* — while Croatian adds a small prefix to the verb."
+        ],
+        [
+          "By the end of this lesson you can say what you were doing all afternoon and what you finally got done: *Pisala sam pismo cijelo poslijepodne. Napokon sam ga napisala!*"
         ]
       ],
       "sortkljuc": 1901001,
@@ -85534,7 +103059,9 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "trajanje": "60",
-        "opis": "Conditional sprint! Tap the right helper."
+        "info": "A timed warm-up on the conditional from Lesson 18. The helper follows the person — *bih* for *ja*, *bismo* for *mi*, *biste* for *vi*, *bi* for the rest — and the participle shows the gender: *kupio bih, kupila bih*.",
+        "infokratko": "Lesson 18 against the clock: *bih, bi, bismo, biste*; *kupio / kupila bih*.",
+        "opis": "Conditional sprint from Lesson 18 — tap the right form before the timer runs out."
       },
       "stavke": [
         [
@@ -85552,10 +103079,42 @@ window.PODACI = {
         [
           "ona",
           "bi"
+        ],
+        [
+          "oni",
+          "bi"
+        ],
+        [
+          "ti",
+          "bi"
+        ],
+        [
+          "kupiti (ja, m.)",
+          "kupio bih"
+        ],
+        [
+          "kupiti (ja, ž.)",
+          "kupila bih"
+        ],
+        [
+          "putovati (mi)",
+          "putovali bismo"
+        ],
+        [
+          "ostati (vi)",
+          "ostali biste"
+        ],
+        [
+          "htjeti (ja, ž.)",
+          "htjela bih"
+        ],
+        [
+          "Uljudno: Želim kavu. (m.)",
+          "Htio bih kavu."
         ]
       ],
       "sortkljuc": 1901002,
-      "bodovi": 1226
+      "bodovi": 699
     },
     {
       "cjelina": "Lesson 19",
@@ -85565,50 +103124,151 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Meet the twins",
       "meta": {
-        "opis": "Process → done! Tap to reveal."
+        "info": "Twelve verb pairs, the activity first and the finished result second. Most result twins add a prefix — *na-, po-, pro-, s-, o-* — and keep the rest of the verb. *Kupovati → kupiti* changes its ending instead, and *raditi → napraviti* uses a different verb.",
+        "infokratko": "activity → result: *pisati → napisati, piti → popiti, čitati → pročitati*. *kupovati → kupiti*.",
+        "opis": "The activity → the finished result. Tap to reveal."
       },
       "stavke": [
         [
           "pisati → napisati",
-          "write → finish writing"
+          "to write → to finish writing"
         ],
         [
           "čitati → pročitati",
-          "read → read through"
+          "to read → to read through"
         ],
         [
           "piti → popiti",
-          "drink → drink up"
+          "to drink → to drink up"
         ],
         [
           "jesti → pojesti",
-          "eat → eat up"
+          "to eat → to eat up"
         ],
         [
           "učiti → naučiti",
-          "study → learn (master)"
+          "to study → to learn (master)"
         ],
         [
           "gledati → pogledati",
-          "watch → take a look / watch whole"
+          "to watch → to watch (to the end), to take a look"
+        ],
+        [
+          "kuhati → skuhati",
+          "to cook → to get it cooked"
+        ],
+        [
+          "crtati → nacrtati",
+          "to draw → to finish drawing"
+        ],
+        [
+          "slati → poslati",
+          "to send → to send off"
+        ],
+        [
+          "prati → oprati",
+          "to wash → to get it washed"
         ],
         [
           "kupovati → kupiti",
-          "shop for → buy"
+          "to shop for → to buy"
+        ],
+        [
+          "raditi → napraviti",
+          "to do, to work → to make, to get done"
         ]
       ],
       "sortkljuc": 1901003,
-      "bodovi": 817
+      "bodovi": 591
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
       "stranica": 4,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "Words that give it away",
+      "meta": {
+        "info": "Time words that point to one twin or the other. *Cijeli dan, dugo, svaki dan, polako* describe an activity that goes on or repeats. *Napokon, odmah, već, za dvije minute* describe something finished. *Gotov* means finished or ready.",
+        "infokratko": "activity: *cijeli dan, dugo, svaki dan, polako*; result: *napokon, odmah, već, za dvije minute*.",
+        "opis": "The little words that tell you which twin to use. Tap to reveal."
+      },
+      "stavke": [
+        [
+          "cijeli dan",
+          "all day"
+        ],
+        [
+          "cijelo poslijepodne",
+          "all afternoon"
+        ],
+        [
+          "dugo",
+          "for a long time"
+        ],
+        [
+          "svaki dan",
+          "every day"
+        ],
+        [
+          "polako",
+          "slowly"
+        ],
+        [
+          "često",
+          "often"
+        ],
+        [
+          "napokon",
+          "finally"
+        ],
+        [
+          "odmah",
+          "immediately"
+        ],
+        [
+          "već",
+          "already"
+        ],
+        [
+          "skoro",
+          "almost"
+        ],
+        [
+          "za dvije minute",
+          "in two minutes"
+        ],
+        [
+          "jednom → dva puta",
+          "once → twice"
+        ],
+        [
+          "gotov / gotova",
+          "finished, ready"
+        ],
+        [
+          "lektira",
+          "assigned reading"
+        ],
+        [
+          "stranica",
+          "page"
+        ]
+      ],
+      "sortkljuc": 1901004,
+      "bodovi": 699
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 5,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Find the twin",
       "meta": {
-        "opis": "Match each process verb with its \"done!\" twin."
+        "info": "Each activity verb beside its result twin. Nine of them keep the whole verb and add a prefix (*pisati → napisati, kuhati → skuhati*). *Kupovati → kupiti* is a pair of a different kind: the ending changes, not the start.",
+        "infokratko": "Prefix pairs: *pisati → napisati*. Different kind: *kupovati → kupiti*.",
+        "opis": "Match each activity verb with its result twin."
       },
       "stavke": [
         [
@@ -85636,28 +103296,45 @@ window.PODACI = {
           "pogledati"
         ],
         [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "crtati",
+          "nacrtati"
+        ],
+        [
+          "slati",
+          "poslati"
+        ],
+        [
           "kupovati",
           "kupiti"
         ]
       ],
-      "sortkljuc": 1901004,
-      "bodovi": 1226
+      "sortkljuc": 1901005,
+      "bodovi": 699
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 5,
+      "stranica": 6,
       "broj": 9999,
       "format": "tekst",
       "naslov": "When to use which",
-      "meta": {},
+      "meta": {
+        "info": "The first rule of the lesson. The activity twin describes something in progress, lasting or repeated (*Pisao sam pismo cijelo poslijepodne.*); the result twin describes one finished action (*Napisao sam pismo.*). The time words in the sentence usually show which one fits.",
+        "infokratko": "In progress, lasting, repeated → *pisati*. One finished action → *napisati*.",
+        "infoodmah": "da",
+        "opis": "Two twins, two ways of seeing the same action. Read the table and fill in the last line."
+      },
       "stavke": [
         [
           "**The two twins side by side.**"
         ],
         [
-          "tab: Process twin — the doing",
-          "Done twin — the getting done"
+          "tab: Activity twin — in progress",
+          "Result twin — finished"
         ],
         [
           "tab: Pisao sam pismo cijelo poslijepodne.",
@@ -85668,27 +103345,39 @@ window.PODACI = {
           "Popio je kavu odmah."
         ],
         [
-          "tab: Čitao sam knjigu dugo.",
-          "Pročitao sam knjigu."
+          "tab: Čitala sam knjigu dugo.",
+          "Pročitala sam knjigu."
         ],
         [
-          "**The tell-tale words.** *cijeli dan · dugo · svaki dan* point to the process twin. *napokon · odmah · za dvije minute* point to the done twin."
+          "tab: Baka je kuhala juhu.",
+          "Baka je skuhala juhu."
+        ],
+        [
+          "**Three questions to ask.** Is it going on, lasting or repeated? Use the activity twin. Is it one action with a finished result? Use the result twin. Does the sentence say *how long*, or *that it is done*?"
+        ],
+        [
+          "**The time words.** *Cijeli dan, dugo, svaki dan, često, polako* go with the activity twin. *Napokon, odmah, već, za dvije minute* go with the result twin. *Pila je kavu polako* — she was drinking slowly; *Popila je kavu odmah* — she drank it up at once."
+        ],
+        [
+          "**In the present tense** you normally use the activity twin: *Pišem pismo. Svaki dan pijem kavu.*"
         ],
         [
           "**Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu."
         ]
       ],
-      "sortkljuc": 1901005,
-      "bodovi": 975
+      "sortkljuc": 1901006,
+      "bodovi": 555
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 6,
+      "stranica": 7,
       "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Process or done?",
       "meta": {
+        "info": "Sorting sentences by what they describe. An activity that lasts or repeats — with *cijeli, dugo, svaki dan, polako* — takes the activity twin and goes under PROCESS. One finished action — with *napokon, odmah, za jedan dan* — takes the result twin and goes under DONE!",
+        "infokratko": "*cijeli, dugo, svaki dan, polako* → PROCESS. *napokon, odmah, za jedan dan* → DONE!",
         "stupci": "PROCESS | DONE!",
         "opis": "Sort the sentences — is it about the doing or the done?"
       },
@@ -85716,64 +103405,240 @@ window.PODACI = {
         [
           "Popio je kavu odmah.",
           "DONE!"
-        ]
-      ],
-      "sortkljuc": 1901006,
-      "bodovi": 975
-    },
-    {
-      "cjelina": "Lesson 19",
-      "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 7,
-      "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the twin",
-      "meta": {
-        "opis": "Choose the right twin for the sentence."
-      },
-      "stavke": [
-        [
-          "Marko je ___ pismo cijelu večer.",
-          "pisao",
-          "napisao"
         ],
         [
-          "Napokon je ___ pismo!",
-          "napisao",
-          "pisao"
+          "Svaki dan učim nove riječi.",
+          "PROCESS"
         ],
         [
-          "Brat je ___ juhu za dvije minute.",
-          "pojeo",
-          "jeo"
+          "Naučila sam sve riječi!",
+          "DONE!"
         ],
         [
-          "Ja sam ___ juhu pola sata.",
-          "jeo",
-          "pojeo"
+          "Baka je dugo kuhala juhu.",
+          "PROCESS"
         ],
         [
-          "Ana je učila cijelu večer i sve je ___ !",
-          "naučila",
-          "učila"
+          "Baka je već skuhala juhu.",
+          "DONE!"
         ],
         [
-          "Jesi li ___ film do kraja?",
-          "pogledao",
-          "gledao"
+          "Često gledamo filmove.",
+          "PROCESS"
+        ],
+        [
+          "Pogledali smo film do kraja.",
+          "DONE!"
+        ],
+        [
+          "Marko je jeo juhu pola sata.",
+          "PROCESS"
+        ],
+        [
+          "Brat je pojeo juhu za dvije minute.",
+          "DONE!"
         ]
       ],
       "sortkljuc": 1901007,
-      "bodovi": 1478
+      "bodovi": 824
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
       "stranica": 8,
       "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the prefix",
+      "meta": {
+        "nastavci": "na | po | pro | -",
+        "info": "One tap in front of the verb decides the twin. Add a prefix — *na-, po-* or *pro-* — when the action is finished once (*napokon, odmah, za jedan dan*); leave it out, with the dash, when the action lasts or repeats (*cijeli dan, dugo, svaki dan*).",
+        "infokratko": "finished once → *na- / po- / pro-*; lasting or repeated → dash.",
+        "opis": "English above, Croatian below. One tap adds a prefix — or none."
+      },
+      "stavke": [
+        [
+          "Napokon sam ___pisala pismo.",
+          "I finally wrote the letter.",
+          "na"
+        ],
+        [
+          "Cijeli dan sam ___pisao pismo.",
+          "I was writing the letter all day.",
+          "-"
+        ],
+        [
+          "Brat je ___jeo juhu za dvije minute.",
+          "My brother ate up the soup in two minutes.",
+          "po"
+        ],
+        [
+          "Ana je ___čitala knjigu za jedan dan.",
+          "Ana read the book in one day.",
+          "pro"
+        ],
+        [
+          "Dugo sam ___čitao knjigu.",
+          "I was reading the book for a long time.",
+          "-"
+        ],
+        [
+          "Marko je odmah ___pio kavu.",
+          "Marko drank the coffee straight away.",
+          "po"
+        ],
+        [
+          "Cijeli dan ___pijem vodu.",
+          "I drink water all day.",
+          "-"
+        ],
+        [
+          "Ana je ___učila sve riječi.",
+          "Ana has learned all the words.",
+          "na"
+        ],
+        [
+          "Za dvije minute sam ___pila kavu.",
+          "I drank up my coffee in two minutes.",
+          "po"
+        ],
+        [
+          "Cijelu večer smo ___gledali televiziju.",
+          "We were watching TV all evening.",
+          "-"
+        ],
+        [
+          "Djed je ___čitao novine za pet minuta.",
+          "Grandpa read the paper in five minutes.",
+          "pro"
+        ],
+        [
+          "Mama je ___pisala pismo baki.",
+          "Mum has written a letter to Grandma.",
+          "na"
+        ],
+        [
+          "Petra je ___jela cijeli kolač!",
+          "Petra ate up the whole cake!",
+          "po"
+        ],
+        [
+          "Polako ___jedem juhu.",
+          "I'm eating the soup slowly.",
+          "-"
+        ],
+        [
+          "Cijelo poslijepodne ___učim.",
+          "I study all afternoon.",
+          "-"
+        ],
+        [
+          "Već sam ___crtao kuću.",
+          "I've already drawn the house.",
+          "na"
+        ]
+      ],
+      "sortkljuc": 1901008,
+      "bodovi": 842
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the twin",
+      "meta": {
+        "info": "Choosing the twin that fits the sentence. Look for the time words first: *cijelu večer, pola sata, polako* call for the activity twin; *napokon, za dvije minute, do kraja, sve* call for the result twin. The participle ending must still match the person.",
+        "infokratko": "*cijelu večer, pola sata* → activity; *napokon, za dvije minute, do kraja* → result.",
+        "opis": "Choose the right twin for the sentence."
+      },
+      "stavke": [
+        [
+          "Marko je ___ pismo cijelu večer.",
+          "pisao",
+          "napisao",
+          "napisala"
+        ],
+        [
+          "Napokon je ___ pismo! (Marko)",
+          "napisao",
+          "pisao",
+          "napisala"
+        ],
+        [
+          "Brat je ___ juhu za dvije minute.",
+          "pojeo",
+          "jeo",
+          "pojela"
+        ],
+        [
+          "Ja sam ___ juhu pola sata. (a man)",
+          "jeo",
+          "pojeo",
+          "jela"
+        ],
+        [
+          "Ana je učila cijelu večer i sve je ___ !",
+          "naučila",
+          "učila",
+          "naučio"
+        ],
+        [
+          "Ana je ___ pismo za pet minuta.",
+          "napisala",
+          "pisala",
+          "napisao"
+        ],
+        [
+          "Baka je ___ juhu za deset minuta.",
+          "skuhala",
+          "kuhala",
+          "skuhao"
+        ],
+        [
+          "Petra je ___ pismo i poslala ga.",
+          "napisala",
+          "pisala",
+          "napisao"
+        ],
+        [
+          "Dugo smo ___ knjigu.",
+          "čitali",
+          "pročitali",
+          "čitao"
+        ],
+        [
+          "Svaki dan ___ kavu. (ja)",
+          "pijem",
+          "piju",
+          "pio"
+        ],
+        [
+          "Djeca su ___ cijelu tortu za pet minuta!",
+          "pojela",
+          "jela",
+          "pojeli"
+        ],
+        [
+          "Ivan je ___ poklon cijelo poslijepodne.",
+          "kupovao",
+          "kupio",
+          "kupila"
+        ]
+      ],
+      "sortkljuc": 1901009,
+      "bodovi": 842
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 10,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Type the twin",
       "meta": {
+        "info": "You type the result twin of each verb. Most take a prefix and keep the rest of the verb: *na-* (*napisati, naučiti, nacrtati*), *po-* (*popiti, pojesti, pogledati, poslati*), *pro-* (*pročitati*), *s-* (*skuhati*), *o-* (*oprati*). *Kupovati* becomes *kupiti*.",
+        "infokratko": "*na-, po-, pro-, s-, o-* + the verb; *kupovati → kupiti*.",
         "opis": "Type the \"done!\" twin."
       },
       "stavke": [
@@ -85800,19 +103665,90 @@ window.PODACI = {
         [
           "kupovati →",
           "kupiti"
+        ],
+        [
+          "gledati →",
+          "pogledati"
+        ],
+        [
+          "kuhati →",
+          "skuhati"
+        ],
+        [
+          "crtati →",
+          "nacrtati"
+        ],
+        [
+          "slati →",
+          "poslati"
+        ],
+        [
+          "prati →",
+          "oprati"
+        ],
+        [
+          "raditi →",
+          "napraviti"
         ]
       ],
-      "sortkljuc": 1901008,
-      "bodovi": 1729
+      "sortkljuc": 1901010,
+      "bodovi": 985
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 9,
+      "stranica": 11,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: other pairs, and questions",
+      "meta": {
+        "info": "The second rule. A few twins change their ending rather than adding a prefix (*kupovati → kupiti*), and *raditi* pairs with a different verb, *napraviti*. In a question, the result twin asks whether something is finished: *Jesi li napisao zadaću?*",
+        "infokratko": "*kupovati → kupiti*, *raditi → napraviti*. *Jesi li napisao?* = is it finished?",
+        "infoodmah": "da",
+        "opis": "Pairs of another kind, and what the twin does in a question. Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**Not every pair uses a prefix.**"
+        ],
+        [
+          "tab: Activity twin",
+          "Result twin",
+          "Example"
+        ],
+        [
+          "tab: kupovati",
+          "kupiti",
+          "Kupovao je poklon u tri trgovine i napokon ga je kupio."
+        ],
+        [
+          "tab: raditi",
+          "napraviti",
+          "Radio je cijeli dan i sve je napravio."
+        ],
+        [
+          "**Questions.** The result twin asks about the finished result: ***Jesi li napisao** zadaću?* — Is your homework done? The activity twin asks about the activity itself: *Što si radio cijelo poslijepodne?*"
+        ],
+        [
+          "**The present of a result twin.** *Popijem kavu i idem.* — I'll drink up my coffee and go. A result twin in the present points to one finished action, often in the near future. You only need to recognise it for now."
+        ],
+        [
+          "**Now you write them.** Kupovao je poklon cijeli dan i napokon ga je [kupio]. Jesi li [napisala] zadaću? Radila sam cijeli dan i sve sam [napravila]."
+        ]
+      ],
+      "sortkljuc": 1901011,
+      "bodovi": 555
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the story",
       "meta": {
+        "info": "Sentences with both twins, built from tiles. The activity twin goes with *cijelo poslijepodne, dugo, svaki dan*; the result twin with *napokon, odmah, za jedan dan*. *Je, sam, ga* take the second place, and a comma comes before *a*.",
+        "infokratko": "activity with *dugo, cijelo…*; result with *napokon, odmah*. *je, sam, ga* second.",
         "opis": "Arrange the tiles."
       },
       "stavke": [
@@ -85829,96 +103765,308 @@ window.PODACI = {
           "Čitao sam knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan."
         ],
         [
-          "Kupovao je marku u tri trgovine i napokon je kupio jednu."
+          "Kupovao je poklon u tri trgovine i napokon ga je kupio."
+        ],
+        [
+          "Svaki dan pijem kavu polako."
+        ],
+        [
+          "Baka je skuhala juhu i sada ručamo."
+        ],
+        [
+          "Jesi li pogledala film do kraja?"
+        ],
+        [
+          "Naučila sam sve riječi!"
+        ],
+        [
+          "Radio sam cijeli dan i sve sam napravio."
+        ],
+        [
+          "Mama je napisala pismo i poslala ga baki."
         ]
       ],
-      "sortkljuc": 1901009,
-      "bodovi": 1226
+      "sortkljuc": 1901012,
+      "bodovi": 842
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 10,
+      "stranica": 13,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Twin sprint",
+      "meta": {
+        "trajanje": "45",
+        "info": "A timed sprint from the activity twin to the result twin. Most add a prefix — *na-, po-, pro-, s-, o-* — and keep the rest of the verb: *pisati → napisati, kuhati → skuhati*. *Kupovati → kupiti* and *raditi → napraviti* are the two different pairs.",
+        "infokratko": "activity → result: *napisati, popiti, pročitati, skuhati*; *kupiti, napraviti*.",
+        "opis": "An activity verb flashes — tap its result twin before the timer runs out."
+      },
+      "stavke": [
+        [
+          "pisati",
+          "napisati"
+        ],
+        [
+          "čitati",
+          "pročitati"
+        ],
+        [
+          "piti",
+          "popiti"
+        ],
+        [
+          "jesti",
+          "pojesti"
+        ],
+        [
+          "učiti",
+          "naučiti"
+        ],
+        [
+          "gledati",
+          "pogledati"
+        ],
+        [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "crtati",
+          "nacrtati"
+        ],
+        [
+          "slati",
+          "poslati"
+        ],
+        [
+          "prati",
+          "oprati"
+        ],
+        [
+          "kupovati",
+          "kupiti"
+        ],
+        [
+          "raditi",
+          "napraviti"
+        ]
+      ],
+      "sortkljuc": 1901013,
+      "bodovi": 699
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 14,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Did you finish?",
       "meta": {
-        "opis": "Mom wants to know about your homework. The twins matter here!"
+        "info": "Mum wants to know about your homework, so the twins matter: the result twin says it is done (*napisao / napisala sam*), the activity twin says you were at it (*pisao / pisala sam*). Mum asks without assuming your gender, and reacts to what you say.",
+        "infokratko": "done: *napisao / napisala sam*; at it: *pisao / pisala sam*. Mum reacts.",
+        "opis": "Mum wants to know about your homework. The twins matter here! Passive words: *Hm* (Hmm), *dva puta* (twice), *Naravno...* (Of course...), *do kraja* (to the end)."
       },
       "stavke": [
         [
           "npc",
-          "Jesi li napisao zadaću?"
+          "Bok! Zadaća — je li gotova?"
         ],
         [
           "ti",
           "Pisao sam zadaću cijelu večer...",
-          "Da, napisao sam sve!"
+          "Pisala sam zadaću cijelu večer...",
+          "Da, napisao sam sve!",
+          "Da, napisala sam sve!"
         ],
         [
           "npc",
-          "Ali jesi li završio?"
+          "Hm. A je li sve gotovo?"
         ],
         [
           "ti",
           "Skoro! Napisao sam pola.",
+          "Skoro! Napisala sam pola.",
           "Da, sve je gotovo."
         ],
         [
           "npc",
-          "A lektira? Jesi li pročitao knjigu?"
+          "Dobro. A lektira? Što je s knjigom?"
         ],
         [
           "ti",
           "Čitao sam... jednu stranicu.",
-          "Pročitao sam je dva puta!"
+          "Čitala sam... jednu stranicu.",
+          "Pročitao sam je dva puta!",
+          "Pročitala sam je dva puta!"
         ],
         [
           "npc",
-          "A film za školu?"
+          "Ha! Ne vjerujem! A film za školu?"
         ],
         [
           "ti",
-          "Film sam pogledao! Dva puta!"
+          "Film sam pogledao! Dva puta!",
+          "Film sam pogledala! Dva puta!"
         ],
         [
           "npc",
-          "Naravno... Filmove uvijek pogledaš do kraja!"
+          "Naravno... Filmove uvijek gledaš do kraja!"
+        ],
+        [
+          "ti",
+          "Ali film je za školu!",
+          "Sutra ću pročitati knjigu!"
+        ],
+        [
+          "npc",
+          "Dobro. Ali prvo zadaća, onda film!"
         ]
       ],
-      "sortkljuc": 1901010,
-      "bodovi": 1163
+      "sortkljuc": 1901014,
+      "bodovi": 699
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 11,
+      "stranica": 15,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: The letter",
+      "meta": {
+        "info": "Read the story, then answer in Croatian. The activity twin tells you what went on for a while — *pisala je cijelo poslijepodne, pila je polako* — and the result twin what got finished: *napisala je, pročitala ga je, pojeo je sve kolače*.",
+        "infokratko": "Read, then answer. Activity: *pisala, pila*. Finished: *napisala, pročitala, pojeo*.",
+        "tekst": "Petra je cijelo poslijepodne pisala pismo baki. Pisala je o školi, o prijateljima i o moru. Čaj je pila polako, a Marko je u kuhinji pojeo sve kolače. Navečer je Petra napokon napisala pismo. Onda ga je pročitala još jednom i stavila ga je u omotnicu. Sutra će ga poslati. Pismo je dugo tri stranice, pa će ga baka čitati dugo!",
+        "opis": "Read the story, then answer the questions. Passive words: *još jednom* (once more), *omotnica* (envelope), *dugo tri stranice* (three pages long), *pa* (so)."
+      },
+      "stavke": [
+        [
+          "Komu je Petra pisala pismo?",
+          "baki",
+          "Marku",
+          "mami"
+        ],
+        [
+          "Koliko dugo je Petra pisala?",
+          "cijelo poslijepodne",
+          "pet minuta",
+          "cijelu noć"
+        ],
+        [
+          "Kako je Petra pila čaj?",
+          "polako",
+          "brzo",
+          "nije pila čaj"
+        ],
+        [
+          "Što je Marko pojeo?",
+          "sve kolače",
+          "juhu",
+          "pismo"
+        ],
+        [
+          "Što je Petra napravila navečer?",
+          "napisala je pismo",
+          "pojela je kolače",
+          "poslala je pismo"
+        ],
+        [
+          "Kada će Petra poslati pismo?",
+          "sutra",
+          "danas",
+          "za tjedan dana"
+        ]
+      ],
+      "sortkljuc": 1901015,
+      "bodovi": 842
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "memorija",
+      "naslov": "Memory",
+      "meta": {
+        "info": "A pairs game over the verb twins. Most result twins add a prefix and keep the rest of the verb: *piti → popiti, čitati → pročitati*. The pair *kupovati → kupiti* changes its ending instead.",
+        "infokratko": "activity ↔ result: *piti → popiti*; *kupovati → kupiti*.",
+        "opis": "Flip the cards and match each verb with its twin."
+      },
+      "stavke": [
+        [
+          "pisati",
+          "napisati"
+        ],
+        [
+          "čitati",
+          "pročitati"
+        ],
+        [
+          "piti",
+          "popiti"
+        ],
+        [
+          "jesti",
+          "pojesti"
+        ],
+        [
+          "učiti",
+          "naučiti"
+        ],
+        [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "gledati",
+          "pogledati"
+        ],
+        [
+          "slati",
+          "poslati"
+        ],
+        [
+          "kupovati",
+          "kupiti"
+        ]
+      ],
+      "sortkljuc": 1901016,
+      "bodovi": 663
+    },
+    {
+      "cjelina": "Lesson 19",
+      "cjelinanaslov": "Verb Twins: Aspect",
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "Lesson checkpoint",
       "meta": {
+        "info": "The scored mix of the lesson, and 80% opens Vocabulary 19. Most points are on choosing the twin: the activity twin for something lasting or repeated, the result twin for one finished action — and on the prefixes that make the result twins.",
+        "infokratko": "Lesson 19; 80% opens Vocabulary 19. Lasting → activity twin; finished → result twin.",
         "prag": "80",
-        "opis": "Final check! Score 80% to unlock the final lesson!"
+        "opis": "Final check! Score 80% to be ready for Vocabulary 19."
       },
       "stavke": [
         [
           "izbor",
           "Blizanac od \"pisati\" je...",
           "napisati",
-          "popisati",
+          "propisati",
           "pisati"
         ],
         [
           "izbor",
-          "Pio je kavu ___ .",
+          "Pio je kavu ___ . (slowly)",
           "polako",
-          "odmah"
+          "odmah",
+          "za minutu"
         ],
         [
           "izbor",
           "Marko je ___ juhu za dvije minute.",
           "pojeo",
-          "jeo"
+          "jeo",
+          "pojela"
         ],
         [
           "upis",
@@ -85929,13 +104077,15 @@ window.PODACI = {
           "izbor",
           "\"cijeli tjedan\" ide uz...",
           "proces",
-          "dovršeno"
+          "dovršeno",
+          "ništa"
         ],
         [
           "izbor",
           "Koja je rečenica točna?",
           "Pisao sam pismo cijeli dan.",
-          "Napisao sam pismo cijeli dan."
+          "Napisao sam pismo cijeli dan.",
+          "Napisao pismo sam cijeli dan."
         ],
         [
           "slaganje",
@@ -85945,29 +104095,58 @@ window.PODACI = {
         [
           "slaganje",
           "Jesi li napisao zadaću?",
-          "en: Have you written your homework?"
+          "en: Have you finished your homework? (to a boy)"
+        ],
+        [
+          "upis",
+          "Napiši blizanca: kupovati →",
+          "kupiti"
+        ],
+        [
+          "izbor",
+          "Svaki dan ___ kavu. (ja)",
+          "pijem",
+          "piju",
+          "pio"
+        ],
+        [
+          "upis",
+          "Napokon sam ___ pismo. (napisati, ž.)",
+          "napisala"
+        ],
+        [
+          "slaganje",
+          "Baka je skuhala juhu.",
+          "en: Grandma has cooked the soup."
         ]
       ],
-      "sortkljuc": 1901011,
-      "bodovi": 1635
+      "sortkljuc": 1901017,
+      "bodovi": 1414
     },
     {
       "cjelina": "Lesson 19",
       "cjelinanaslov": "Verb Twins: Aspect",
-      "stranica": 12,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Reward & preview",
-      "meta": {},
+      "meta": {
+        "info": "A closing summary. You can now tell the activity from the finished result: *pisati* and *napisati*, *piti* and *popiti*. The time words — *cijeli dan, dugo* or *napokon, odmah* — show which twin fits.",
+        "infokratko": "*pisati / napisati*; *cijeli dan, dugo* vs. *napokon, odmah*.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
-          "Fantastično! You've cracked aspect — the concept that makes Slavic languages famous. You now hear the difference between *doing* and *done*."
+          "Fantastično! You can now hear the difference between *doing* and *done* — and use it: *Pisala sam cijelo poslijepodne. Napokon sam napisala pismo!*"
         ],
         [
-          "**Next up:** the grand finale. Lesson 20 ties everything together — *jer, kad, ako, dok, koji* — and you'll read your first real Croatian essay: \"Why I'm learning Croatian.\""
+          "**Next up:** Vocabulary 19 brings more twins — *završavati / završiti, počinjati / početi* — and the words for stories: *odjednom, trenutak, rečenica*. Grammar 19 shows prefixes that change the meaning of a verb."
+        ],
+        [
+          "**Then Lesson 20:** the grand finale — *jer, kad, ako, dok, koji* — and your first real Croatian essay: \"Why I'm learning Croatian.\""
         ]
       ],
-      "sortkljuc": 1901012,
+      "sortkljuc": 1901018,
       "bodovi": 20
     },
     {
@@ -86631,29 +104810,62 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: is the action finished?",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for aspect. The imperfective twin (*pisati*) shows an activity in progress, lasting or repeated; the perfective twin (*napisati*) shows one finished action. Pairs are made with a prefix (*na-, po-, pro-*) or by changing the ending (*kupovati / kupiti, završavati / završiti*).",
+        "infokratko": "Imperfective *pisati*: in progress, lasting, repeated. Perfective *napisati*: one finished action."
+      },
       "stavke": [
         [
-          "Every Croatian verb carries a built-in answer to one question: *is the action complete?*"
+          "Every Croatian verb answers one question: *is the action seen as finished?*"
         ],
         [
-          "**The two aspects:** imperfective (nesvršeni) — process, duration, habit (\"was writing\", \"used to write\"): *pisati*. Perfective (svršeni) — completion, result, single event (\"wrote and finished\"): *napisati*."
+          "**The two aspects.** *Nesvršeni* (imperfective) — an activity in progress, lasting or repeated: *pisati* (to be writing, to write regularly). *Svršeni* (perfective) — one finished action with a result: *napisati* (to get it written)."
         ],
         [
-          "**How twins are made** — most often a prefix turns process into done: **na-** (pisati → napisati, učiti → naučiti) · **po-** (piti → popiti, jesti → pojesti, gledati → pogledati, slati → poslati) · **pro-** (čitati → pročitati). Sometimes the pair is two different words: **kupovati / kupiti**."
+          "**How the pairs are made.**"
         ],
         [
-          "**Where each twin lives:** imperfective is at home in the present (*Pijem kavu* — right now) and with duration words: *cijeli dan, dugo, svaki dan, polako*. Perfective shines in past and future for finished events: *Popio sam kavu. Napisat ću pismo.* Its signal words: *napokon, odmah, za dvije minute, dva puta*. Caution: perfective verbs don't describe \"right now\" — you can't be in the middle of *popiti*."
+          "tab: How",
+          "Imperfective",
+          "Perfective"
         ],
         [
-          "**The homework trap:** *Jesi li **pisao** zadaću?* — did you do (some) homework? *Jesi li **napisao** zadaću?* — did you FINISH it? (mom's version). One prefix, very different conversation."
+          "tab: prefix na-",
+          "pisati, učiti, crtati",
+          "**na**pisati, **na**učiti, **na**crtati"
+        ],
+        [
+          "tab: prefix po-",
+          "piti, jesti, gledati, slati",
+          "**po**piti, **po**jesti, **po**gledati, **po**slati"
+        ],
+        [
+          "tab: prefix pro-, s-, o-",
+          "čitati, kuhati, prati",
+          "**pro**čitati, **s**kuhati, **o**prati"
+        ],
+        [
+          "tab: a longer / shorter ending",
+          "kupovati, završavati, odgovarati",
+          "kup**iti**, završ**iti**, odgovor**iti**"
+        ],
+        [
+          "tab: different words",
+          "raditi, počinjati",
+          "napraviti, početi"
+        ],
+        [
+          "**Where each twin is used.** The imperfective is normal in the present (*Pijem kavu* — right now) and with *cijeli dan, dugo, svaki dan, polako, često*. The perfective is normal in the past and future for finished actions (*Popio sam kavu. Napisat ću pismo.*), with *napokon, odmah, već, za dvije minute*. A perfective verb does not describe what is happening right now."
+        ],
+        [
+          "**The homework question.** *Jesi li **pisao / pisala** zadaću?* — did you work on your homework? *Jesi li **napisao / napisala** zadaću?* — is it finished? One prefix, two different questions."
         ],
         [
           "**Now you write them.** Cijelo poslijepodne sam [pisao] pismo. Napokon sam ga [napisao]. Svaki dan [pijem] kavu. Odmah ju je [popio]."
         ]
       ],
       "sortkljuc": 1903001,
-      "bodovi": 1079
+      "bodovi": 659
     },
     {
       "cjelina": "Grammar 19",
@@ -86663,6 +104875,8 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Match the twins",
       "meta": {
+        "info": "Each imperfective verb beside its perfective twin. Most add a prefix; *kupovati, završavati, odgovarati, počinjati, nastavljati* change the ending instead, and *početi* looks shorter than its twin.",
+        "infokratko": "Prefix pairs (*pisati → napisati*) and ending pairs (*kupovati → kupiti, završavati → završiti*).",
         "opis": "Pair the twins — process with its \"done\" version."
       },
       "stavke": [
@@ -86685,56 +104899,197 @@ window.PODACI = {
         [
           "slati",
           "poslati"
+        ],
+        [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "završavati",
+          "završiti"
+        ],
+        [
+          "odgovarati",
+          "odgovoriti"
+        ],
+        [
+          "počinjati",
+          "početi"
+        ],
+        [
+          "nastavljati",
+          "nastaviti"
         ]
       ],
       "sortkljuc": 1903002,
-      "bodovi": 1369
+      "bodovi": 829
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
       "stranica": 3,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the twin",
+      "format": "upis",
+      "naslov": "Type the twin",
       "meta": {
-        "opis": "Choose the right twin."
+        "info": "You type the perfective twin of each imperfective verb. Most take a prefix — *na-, po-, pro-, s-, o-* — and keep the rest; the ending pairs shorten the verb: *kupovati → kupiti, završavati → završiti, odgovarati → odgovoriti, nastavljati → nastaviti*.",
+        "infokratko": "prefix pairs (*napisati, popiti, skuhati*) and ending pairs (*kupiti, završiti, odgovoriti*).",
+        "opis": "Type the perfective twin."
       },
       "stavke": [
         [
-          "Svaki dan ___ kavu.",
-          "pijem",
-          "popijem"
+          "pisati →",
+          "napisati"
         ],
         [
-          "Jučer sam ___ cijelu knjigu!",
-          "pročitao",
-          "čitao"
+          "piti →",
+          "popiti"
         ],
         [
-          "___ je pismo cijelu večer.",
-          "Pisao",
-          "Napisao"
+          "čitati →",
+          "pročitati"
         ],
         [
-          "Sutra ću ___ poklon — odlučio sam!",
-          "kupiti",
-          "kupovati"
+          "kuhati →",
+          "skuhati"
+        ],
+        [
+          "prati →",
+          "oprati"
+        ],
+        [
+          "učiti →",
+          "naučiti"
+        ],
+        [
+          "slati →",
+          "poslati"
+        ],
+        [
+          "kupovati →",
+          "kupiti"
+        ],
+        [
+          "završavati →",
+          "završiti"
+        ],
+        [
+          "odgovarati →",
+          "odgovoriti"
+        ],
+        [
+          "nastavljati →",
+          "nastaviti"
+        ],
+        [
+          "počinjati →",
+          "početi"
         ]
       ],
       "sortkljuc": 1903003,
-      "bodovi": 1287
+      "bodovi": 1168
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
       "stranica": 4,
       "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the twin",
+      "meta": {
+        "info": "Choosing the twin that fits the context. Duration and repetition (*cijelu večer, svaki dan, dugo*) take the imperfective; one finished action (*cijelu knjigu, napokon, za pet minuta*) takes the perfective. A plan for one finished action in the future also takes the perfective: *Sutra ću kupiti poklon.*",
+        "infokratko": "*cijelu večer, dugo* → imperfective; *napokon, za pet minuta, cijelu knjigu* → perfective.",
+        "opis": "Choose the right twin."
+      },
+      "stavke": [
+        [
+          "Upravo sada ___ kavu.",
+          "pijem",
+          "popijem",
+          "popijam"
+        ],
+        [
+          "Jučer sam ___ cijelu knjigu!",
+          "pročitao",
+          "čitao",
+          "pročitam"
+        ],
+        [
+          "___ je pismo cijelu večer.",
+          "Pisao",
+          "Napisao",
+          "Napisala"
+        ],
+        [
+          "Sutra ću ___ poklon — odlučio sam!",
+          "kupiti",
+          "kupovati",
+          "kupim"
+        ],
+        [
+          "Film je ___ u osam i završio u deset.",
+          "počeo",
+          "počinje",
+          "početi"
+        ],
+        [
+          "Dugo sam ___ na pitanje.",
+          "odgovarao",
+          "odgovorio",
+          "odgovoriti"
+        ],
+        [
+          "Napokon smo ___ zadatak!",
+          "završili",
+          "završavali",
+          "završiti"
+        ],
+        [
+          "Baka je ___ juhu za deset minuta.",
+          "skuhala",
+          "kuhala",
+          "skuhati"
+        ],
+        [
+          "Cijelu noć je ___ . (Petra)",
+          "plakala",
+          "plakao",
+          "plakale"
+        ],
+        [
+          "Ana je ___ pismo i odmah ga poslala.",
+          "napisala",
+          "pisala",
+          "napisati"
+        ],
+        [
+          "Svaki dan mu ___ na poruke. (ja)",
+          "odgovaram",
+          "odgovaraš",
+          "odgovorio"
+        ],
+        [
+          "Za dvije minute je ___ cijeli sendvič! (Marko)",
+          "pojeo",
+          "jeo",
+          "pojela"
+        ]
+      ],
+      "sortkljuc": 1903004,
+      "bodovi": 998
+    },
+    {
+      "cjelina": "Grammar 19",
+      "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
+      "stranica": 5,
+      "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Signal words",
       "meta": {
+        "info": "Sorting time words by the twin they go with. Words for duration and repetition — *cijeli dan, dugo, svaki dan, polako, često* — go with the imperfective. Words for one finished action — *napokon, odmah, već, za dvije minute* — go with the perfective.",
+        "infokratko": "Duration, repetition → imperfective. *napokon, odmah, već, za…* → perfective.",
         "stupci": "PROCESS (imperfective) | DONE (perfective)",
-        "opis": "Which signal word goes with which twin? (\"dva puta\" može uz oba — ovdje ide uz DOVRŠENO: pogledao sam film dva puta.)"
+        "opis": "Which signal word goes with which twin?"
       },
       "stavke": [
         [
@@ -86766,24 +105121,117 @@ window.PODACI = {
           "PROCESS (imperfective)"
         ],
         [
-          "dva puta",
+          "već",
+          "DONE (perfective)"
+        ],
+        [
+          "često",
+          "PROCESS (imperfective)"
+        ],
+        [
+          "odjednom",
+          "DONE (perfective)"
+        ],
+        [
+          "cijelu noć",
+          "PROCESS (imperfective)"
+        ],
+        [
+          "za jedan dan",
+          "DONE (perfective)"
+        ],
+        [
+          "svake subote",
+          "PROCESS (imperfective)"
+        ],
+        [
+          "u trenutku",
           "DONE (perfective)"
         ]
       ],
-      "sortkljuc": 1903004,
-      "bodovi": 1287
+      "sortkljuc": 1903005,
+      "bodovi": 977
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
-      "stranica": 5,
+      "stranica": 6,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Process or result?",
+      "meta": {
+        "info": "You type the right twin in the past tense. The bracket gives both infinitives and the speaker; the time words decide: duration and repetition take the imperfective, one finished action the perfective. The participle takes the speaker's gender.",
+        "infokratko": "Duration → imperfective participle; finished → perfective participle. Gender from the bracket.",
+        "opis": "Type the participle of the right twin."
+      },
+      "stavke": [
+        [
+          "Cijelo poslijepodne sam ___ pismo. (pisati / napisati, a man)",
+          "pisao"
+        ],
+        [
+          "Napokon sam ___ pismo. (pisati / napisati, a woman)",
+          "napisala"
+        ],
+        [
+          "Odmah je ___ kavu. (piti / popiti, Marko)",
+          "popio"
+        ],
+        [
+          "Dugo je ___ knjigu. (čitati / pročitati, Ana)",
+          "čitala"
+        ],
+        [
+          "Za jedan dan smo ___ knjigu. (čitati / pročitati)",
+          "pročitali"
+        ],
+        [
+          "Baka je već ___ juhu. (kuhati / skuhati)",
+          "skuhala"
+        ],
+        [
+          "Cijeli dan su ___ televiziju. (gledati / pogledati, djeca)",
+          "gledala"
+        ],
+        [
+          "Napokon sam ___ sve riječi. (učiti / naučiti, a woman)",
+          "naučila"
+        ],
+        [
+          "Svaki dan sam ___ kruh. (kupovati / kupiti, a man)",
+          "kupovao"
+        ],
+        [
+          "Film je ___ u osam. (počinjati / početi)",
+          "počeo"
+        ],
+        [
+          "Jesi li ___ zadaću? (pisati / napisati, to a boy)",
+          "napisao"
+        ],
+        [
+          "Dugo smo ___ na pitanje. (odgovarati / odgovoriti)",
+          "odgovarali"
+        ]
+      ],
+      "sortkljuc": 1903006,
+      "bodovi": 1168
+    },
+    {
+      "cjelina": "Grammar 19",
+      "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
+      "stranica": 7,
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: when the prefix isn't just aspect",
-      "meta": {},
+      "meta": {
+        "info": "The second rule. Some prefixes add only *finished* (*pisati → napisati*); others change the meaning, and the result is a new verb: *potpisati* (to sign), *prepisati* (to copy out), *zapisati* (to note down), *opisati* (to describe). The aspect also changes what an order asks for: *Pij!* or *Popij!*",
+        "infokratko": "*napisati* = finished; *potpisati, prepisati, zapisati, opisati* = new verbs. *Pij!* vs. *Popij!*",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
-          "*pisati → napisati* only adds \"finished\". But most prefixes do more than that — **they change the meaning outright**, and then the new verb is a different word, not a twin."
+          "*Pisati → napisati* only adds *finished*. Many other prefixes do more: **they change the meaning**, and the new verb is a different word, not a twin."
         ],
         [
           "tab: Base",
@@ -86793,7 +105241,7 @@ window.PODACI = {
         [
           "tab: pisati (write)",
           "**na**pisati",
-          "write and finish — pure aspect"
+          "write and finish — only aspect"
         ],
         [
           "tab: pisati (write)",
@@ -86816,29 +105264,31 @@ window.PODACI = {
           "to describe"
         ],
         [
-          "**The test is the English.** If the translation stays the same and only \"finished\" is added, it's a twin. If the translation changes, it's a new verb — and it will grow twins of its own (*potpisati / potpisivati*)."
+          "**The test is the English.** If the translation stays the same and only *finished* is added, it is a twin. If the translation changes, it is a new verb."
         ],
         [
-          "**Aspect changes commands, too:** ***Pij** vodu!* — drink water, as a habit. ***Popij** vodu!* — drink it up, now, all of it. Both correct; they ask for different things."
+          "**Aspect in orders.** ***Pij** vodu!* — drink water (as a habit, or go on drinking). ***Popij** vodu!* — drink it up, now. Both are correct; they ask for different things."
         ],
         [
-          "**After *nemoj*, Croatian prefers the process twin:** *Nemoj **pisati**!* — even for a one-off action. Handy default when you're unsure."
+          "**After nemoj, use the imperfective:** *Nemoj **pisati**! Nemoj **jesti** kolač!* It works even for a single action."
         ],
         [
           "**Now you write them.** Nemoj [pisati]! Svaki dan [čitam]. Napokon sam [pročitao] knjigu."
         ]
       ],
-      "sortkljuc": 1903005,
-      "bodovi": 1287
+      "sortkljuc": 1903007,
+      "bodovi": 659
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
-      "stranica": 6,
+      "stranica": 8,
       "broj": 9999,
       "format": "razvrstavanje",
       "naslov": "Twin or new verb?",
       "meta": {
+        "info": "Sorting prefixed verbs by what the prefix does. If it only adds *finished* and the English stays the same, the verb is a twin (*napisati, pročitati, popiti*). If the English changes, it is a new verb (*potpisati* — to sign, *opisati* — to describe).",
+        "infokratko": "Same meaning + finished → twin. New meaning → new verb.",
         "stupci": "TWIN (same meaning) | NEW VERB (new meaning)",
         "opis": "Does the prefix only add \"finished\", or does it change the meaning?"
       },
@@ -86874,19 +105324,115 @@ window.PODACI = {
         [
           "opisati",
           "NEW VERB (new meaning)"
+        ],
+        [
+          "naučiti",
+          "TWIN (same meaning)"
+        ],
+        [
+          "skuhati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "oprati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "nacrtati",
+          "TWIN (same meaning)"
         ]
       ],
-      "sortkljuc": 1903006,
-      "bodovi": 1287
+      "sortkljuc": 1903008,
+      "bodovi": 829
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
-      "stranica": 7,
+      "stranica": 9,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the prefix",
+      "meta": {
+        "nastavci": "na | pot | pre | za | o",
+        "info": "One tap puts a prefix in front of *-pisati* and gives the verb its meaning. *Na-* only finishes the writing, *pot-* makes it a signature, *pre-* a copy, *za-* a note, and *o-* a description. The English line tells you which one.",
+        "infokratko": "*na-* finish, *pot-* sign, *pre-* copy, *za-* note down, *o-* describe.",
+        "opis": "English above, Croatian below. One tap adds the prefix."
+      },
+      "stavke": [
+        [
+          "Napokon sam ___pisala pismo.",
+          "I finally finished writing the letter.",
+          "na"
+        ],
+        [
+          "Molim vas, ___pišite ovdje.",
+          "Please sign here.",
+          "pot"
+        ],
+        [
+          "Učenici su ___pisali tekst iz knjige.",
+          "The pupils copied the text from the book.",
+          "pre"
+        ],
+        [
+          "___piši moj broj!",
+          "Note down my number!",
+          "za"
+        ],
+        [
+          "Možeš li ___pisati svoju kuću?",
+          "Can you describe your house?",
+          "o"
+        ],
+        [
+          "Mama je ___pisala dokument.",
+          "Mum signed the document.",
+          "pot"
+        ],
+        [
+          "Ana je ___pisala zadaću za pet minuta.",
+          "Ana finished her homework in five minutes.",
+          "na"
+        ],
+        [
+          "Marko je ___pisao zadaću od Ivana!",
+          "Marko copied his homework from Ivan!",
+          "pre"
+        ],
+        [
+          "___pisala sam adresu u bilježnicu.",
+          "I noted down the address in my notebook.",
+          "za"
+        ],
+        [
+          "U pismu je ___pisao more i plažu.",
+          "In the letter he described the sea and the beach.",
+          "o"
+        ],
+        [
+          "Nisam ___pisao razglednicu.",
+          "I didn't sign the postcard.",
+          "pot"
+        ],
+        [
+          "Petra je ___pisala sve riječi u bilježnicu.",
+          "Petra noted down all the words in her notebook.",
+          "za"
+        ]
+      ],
+      "sortkljuc": 1903009,
+      "bodovi": 998
+    },
+    {
+      "cjelina": "Grammar 19",
+      "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
+      "stranica": 10,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Which prefix?",
       "meta": {
+        "info": "Choosing the prefixed verb from its meaning. All five come from *pisati*, so the prefix alone carries the difference: *potpisati* signs, *zapisati* notes down, *opisati* describes, *prepisati* copies, and *napisati* finishes writing.",
+        "infokratko": "*potpisati* sign, *zapisati* note down, *opisati* describe, *prepisati* copy, *napisati* finish.",
         "opis": "One base verb, five jobs. Pick the prefix the meaning needs."
       },
       "stavke": [
@@ -86919,19 +105465,39 @@ window.PODACI = {
           "prepisati",
           "zapisati",
           "potpisati"
+        ],
+        [
+          "to sign the postcard",
+          "potpisati",
+          "opisati",
+          "zapisati"
+        ],
+        [
+          "to describe your family",
+          "opisati",
+          "prepisati",
+          "potpisati"
+        ],
+        [
+          "to note down the address",
+          "zapisati",
+          "opisati",
+          "napisati"
         ]
       ],
-      "sortkljuc": 1903007,
-      "bodovi": 1618
+      "sortkljuc": 1903010,
+      "bodovi": 999
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
-      "stranica": 8,
+      "stranica": 11,
       "broj": 9999,
       "format": "izbor",
       "naslov": "Which command?",
       "meta": {
+        "info": "Choosing the order that asks for the right thing. The imperfective order asks for an activity or a habit (*Pij vodu svaki dan!*); the perfective asks for one finished action, now (*Popij vodu!*). After *nemoj* the verb is an imperfective infinitive.",
+        "infokratko": "habit or activity → *Pij!*; one finished action now → *Popij!*; *Nemoj pisati!*",
         "opis": "Process or result — which one is the speaker asking for?"
       },
       "stavke": [
@@ -86958,21 +105524,49 @@ window.PODACI = {
         [
           "Don't write! (gently)",
           "Nemoj pisati!",
-          "Nemoj napisati!",
-          "Ne napiši!"
+          "Nemoj piši!",
+          "Nemoj pišeš!"
+        ],
+        [
+          "Eat up the soup!",
+          "Pojedi juhu!",
+          "Jedi juhu!"
+        ],
+        [
+          "Cook every day, not only on Sundays!",
+          "Kuhaj svaki dan!",
+          "Skuhaj svaki dan!"
+        ],
+        [
+          "Send the letter today!",
+          "Pošalji pismo danas!",
+          "Šalji pismo danas!"
+        ],
+        [
+          "Don't eat the cake! (gently)",
+          "Nemoj jesti kolač!",
+          "Nemoj jedi kolač!",
+          "Nemoj jedeš kolač!"
+        ],
+        [
+          "Finish your homework!",
+          "Napiši zadaću!",
+          "Piši zadaću!"
         ]
       ],
-      "sortkljuc": 1903008,
-      "bodovi": 1618
+      "sortkljuc": 1903011,
+      "bodovi": 999
     },
     {
       "cjelina": "Grammar 19",
       "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
-      "stranica": 9,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the sentence",
       "meta": {
+        "info": "Sentences with both aspects, built from tiles. The imperfective goes with *polako, svaki dan, tri dana*; the perfective with *odmah, napokon, sada*. *Je, sam* take the second place, and a comma comes before *a* and *ali*.",
+        "infokratko": "imperfective with *polako, svaki dan*; perfective with *odmah, napokon, sada*.",
         "opis": "Build the sentence."
       },
       "stavke": [
@@ -86980,7 +105574,7 @@ window.PODACI = {
           "Pila je kavu polako, a on je popio kavu odmah."
         ],
         [
-          "Napokon sam naučio sve padeže!"
+          "Napokon sam naučila sve riječi!"
         ],
         [
           "Kupovao sam poklon tri dana i napokon sam kupio gitaru."
@@ -86990,10 +105584,129 @@ window.PODACI = {
         ],
         [
           "Pij vodu svaki dan, ali sada popij ovu čašu."
+        ],
+        [
+          "Film je počeo u osam."
+        ],
+        [
+          "Dugo sam odgovarao na pitanja."
+        ],
+        [
+          "Molim vas, potpišite ovdje."
+        ],
+        [
+          "Opiši mi svoju kuću."
+        ],
+        [
+          "Nemoj jesti kolač prije ručka!"
+        ],
+        [
+          "Za jedan dan je pročitala cijelu knjigu."
+        ],
+        [
+          "Svaki dan čitam novine."
         ]
       ],
-      "sortkljuc": 1903009,
-      "bodovi": 1618
+      "sortkljuc": 1903012,
+      "bodovi": 999
+    },
+    {
+      "cjelina": "Grammar 19",
+      "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English. Something lasting or repeated takes the imperfective, one finished action the perfective, and the participle shows the speaker's gender. Where the speaker is *I*, both forms are accepted.",
+        "infokratko": "Lasting → imperfective; finished → perfective. Both genders accepted for *I*.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I was writing a letter all afternoon.",
+          "Pisao sam pismo cijelo poslijepodne / Pisala sam pismo cijelo poslijepodne / Cijelo poslijepodne sam pisao pismo / Cijelo poslijepodne sam pisala pismo"
+        ],
+        [
+          "I finally finished writing the letter.",
+          "Napokon sam napisao pismo / Napokon sam napisala pismo"
+        ],
+        [
+          "He drank up his coffee at once.",
+          "Odmah je popio kavu / Popio je kavu odmah"
+        ],
+        [
+          "She read the book in one day.",
+          "Pročitala je knjigu za jedan dan / Za jedan dan je pročitala knjigu"
+        ],
+        [
+          "I drink coffee every day.",
+          "Svaki dan pijem kavu / Pijem kavu svaki dan"
+        ],
+        [
+          "Grandma has cooked the soup.",
+          "Baka je skuhala juhu"
+        ],
+        [
+          "The film started at eight.",
+          "Film je počeo u osam"
+        ],
+        [
+          "Sign here, please. (polite)",
+          "Potpišite ovdje, molim / Molim vas, potpišite ovdje / Potpišite ovdje, molim vas"
+        ],
+        [
+          "Note down my number! (to a friend)",
+          "Zapiši moj broj"
+        ],
+        [
+          "Describe your house! (to a friend)",
+          "Opiši svoju kuću / Opiši kuću"
+        ],
+        [
+          "Drink up your water! (to a friend)",
+          "Popij vodu"
+        ],
+        [
+          "Don't eat the cake! (to a friend)",
+          "Nemoj jesti kolač / Ne jedi kolač"
+        ],
+        [
+          "Have you finished your homework? (to a girl)",
+          "Jesi li napisala zadaću"
+        ],
+        [
+          "We finished the task.",
+          "Završili smo zadatak / Završile smo zadatak"
+        ]
+      ],
+      "sortkljuc": 1903013,
+      "bodovi": 1168
+    },
+    {
+      "cjelina": "Grammar 19",
+      "cjelinanaslov": "Verbal Aspect (Glagolski vid)",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary. The imperfective twin describes an activity that lasts or repeats, the perfective twin one finished action; prefixes make most pairs, and some prefixes create new verbs such as *potpisati* and *opisati*.",
+        "infokratko": "Imperfective: lasting, repeated. Perfective: finished. *potpisati, opisati* = new verbs."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say not only what happened, but how you see it: going on, or done."
+        ],
+        [
+          "And you did it with a few rules: **the imperfective for activity, duration and habit**, **the perfective for one finished action**, **the time words show which one fits**, and **a prefix can finish a verb or change its meaning**."
+        ],
+        [
+          "**Next up:** Practice 19 reads a letter and a homework interrogation, and Test 19 checks the whole level. Then Lesson 20, the grand finale: *jer, kad, ako, dok, iako, koji*."
+        ]
+      ],
+      "sortkljuc": 1903014,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 19",
@@ -87002,13 +105715,14 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: The letter",
-      "meta": {},
+      "meta": {
+        "info": "A read-along story that uses both twins side by side. The imperfective shows what went on for a while — *pisao je cijelo poslijepodne, kupovao je* — and the perfective what got finished: *napisao je, kupio je, poslao je, pročitala je*.",
+        "infokratko": "Going on: *pisao, kupovao, čitala*. Finished: *napisao, kupio, poslao, pročitala*.",
+        "opis": "A letter that took all afternoon, a stamp that took three shops, and a happy grandmother. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "A letter that took all afternoon, and a mother who wants to know if it's finished."
-        ],
-        [
-          "Aspect in action — passive words: *brisao* (erased), *usput* (along the way), *zatim* (then), *plakala od sreće* (cried with joy), *razlika* (difference), *važna* (important), *traje* (lasts), *lektira* (assigned reading), *gotovo* (done)."
+          "Passive words: *brisao* (erased), *usput* (along the way), *plakala od sreće* (cried with joy)."
         ],
         [
           "Marko je pisao pismo cijelo poslijepodne.",
@@ -87032,7 +105746,7 @@ window.PODACI = {
         ],
         [
           "Poslao je pismo u podne. Komu? Baki, naravno.",
-          "He sent the letter at noon. To whom? To grandma, of course."
+          "He sent the letter at noon. To whom? To Grandma, of course."
         ],
         [
           "Baka je čitala pismo polako.",
@@ -87054,33 +105768,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "Marko je pisao pismo cijelo poslijepodne. Napokon je napisao pismo! Usput je popio tri kave. Poslao je pismo baki. Baka je pročitala pismo dva puta i plakala je od sreće.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on the letter. Some questions ask how long something went on — the answer is next to an imperfective (*pisao je cijelo poslijepodne*) — and some ask what got done: *popio je, poslao je, pročitala je*.",
+        "infokratko": "How long → next to *pisao*. What got done → *popio, poslao, pročitala*.",
+        "opis": "Answer from the text.",
+        "tekst": "Marko je pisao pismo cijelo poslijepodne. Pisao je, brisao i opet pisao. Napokon je napisao pismo! Usput je popio tri kave i pojeo je cijelu čokoladu. Zatim je kupovao marku — tri trgovine! — i napokon je kupio jednu. Poslao je pismo u podne. Baka je čitala pismo polako. Pročitala je pismo dva puta i plakala je od sreće."
       },
       "stavke": [
         [
           "Koliko dugo je Marko pisao pismo?",
           "cijelo poslijepodne",
-          "dvije minute"
+          "dvije minute",
+          "cijelu noć"
         ],
         [
           "Što je popio usput?",
           "tri kave",
-          "tri čaja"
+          "tri čaja",
+          "tri soka"
+        ],
+        [
+          "Koliko trgovina je trebao za marku?",
+          "tri",
+          "jednu",
+          "dvije"
         ],
         [
           "Komu je poslao pismo?",
           "baki",
-          "sestri"
+          "sestri",
+          "mami"
+        ],
+        [
+          "Kako je baka čitala pismo?",
+          "polako",
+          "brzo",
+          "nije ga čitala"
         ],
         [
           "Koliko puta je baka pročitala pismo?",
           "dva puta",
-          "jedan put"
+          "jedan put",
+          "tri puta"
         ]
       ],
       "sortkljuc": 1904002,
-      "bodovi": 1771
+      "bodovi": 1055
     },
     {
       "cjelina": "Practice 19",
@@ -87090,6 +105822,8 @@ window.PODACI = {
       "format": "razvrstavanje",
       "naslov": "Process or done?",
       "meta": {
+        "info": "Sorting the verbs from the text by their twin. The imperfective describes something that went on (*pisao je, kupovao je, čitala je*); the perfective one finished action (*napisao je, kupio je, poslao je*).",
+        "infokratko": "Going on → PROCESS. Finished → DONE.",
         "stupci": "PROCESS | DONE",
         "opis": "Process or done? Sort the verbs from the text."
       },
@@ -87117,10 +105851,42 @@ window.PODACI = {
         [
           "pročitala je",
           "DONE"
+        ],
+        [
+          "učila je",
+          "PROCESS"
+        ],
+        [
+          "naučila je",
+          "DONE"
+        ],
+        [
+          "pila je",
+          "PROCESS"
+        ],
+        [
+          "popio je",
+          "DONE"
+        ],
+        [
+          "jela sam",
+          "PROCESS"
+        ],
+        [
+          "pojeo je",
+          "DONE"
+        ],
+        [
+          "čitala sam",
+          "PROCESS"
+        ],
+        [
+          "poslao je",
+          "DONE"
         ]
       ],
       "sortkljuc": 1904003,
-      "bodovi": 1770
+      "bodovi": 1032
     },
     {
       "cjelina": "Practice 19",
@@ -87129,8 +105895,15 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: Two verbs, one day",
-      "meta": {},
+      "meta": {
+        "info": "A short text built on pairs: in every sentence one person takes their time and another finishes. The narrator is a woman (*jela sam, čitala sam*), and the endings of *učila, naučila, pila, popio* show who did what.",
+        "infokratko": "Every sentence: one twin takes its time, the other finishes.",
+        "opis": "A family, a table and two kinds of verbs. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *dolaze u parovima* (come in pairs), *razlika* (difference), *važna* (important), *traje* (lasts), *završava posao* (finishes the job)."
+        ],
         [
           "Hrvatski glagoli dolaze u parovima.",
           "Croatian verbs come in pairs."
@@ -87140,15 +105913,15 @@ window.PODACI = {
           "Ana was studying all evening — and she learned everything!"
         ],
         [
-          "Ja sam jeo juhu pola sata, a brat je pojeo juhu za dvije minute.",
+          "Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute.",
           "I was eating soup for half an hour, while my brother finished his soup in two minutes."
         ],
         [
           "Mama je pila kavu polako, a tata je popio kavu odmah.",
-          "Mom drank her coffee slowly, while dad drank his up right away."
+          "Mum drank her coffee slowly, while Dad drank his up right away."
         ],
         [
-          "Ja sam čitao knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan.",
+          "Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan.",
           "I was reading a book all week, while my sister read her book through in one day."
         ],
         [
@@ -87167,6 +105940,8 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Who did it how?",
       "meta": {
+        "info": "Each person from Text 2 beside what they did. Some took their time (*pila kavu polako, jela juhu pola sata*) and some finished quickly (*pojeo juhu za dvije minute, popio kavu odmah*). The ending of the participle matches the person.",
+        "infokratko": "Taking time: *pila polako*. Finished fast: *pojeo za dvije minute*.",
         "opis": "Who did it how? Match from the text."
       },
       "stavke": [
@@ -87185,10 +105960,18 @@ window.PODACI = {
         [
           "sestra",
           "pročitala knjigu za jedan dan"
+        ],
+        [
+          "mama",
+          "pila kavu polako"
+        ],
+        [
+          "ja",
+          "čitala knjigu cijeli tjedan"
         ]
       ],
       "sortkljuc": 1904005,
-      "bodovi": 1485
+      "bodovi": 875
     },
     {
       "cjelina": "Practice 19",
@@ -87198,8 +105981,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the right twin",
       "meta": {
-        "tekst": "Ana je učila cijelu večer — i naučila je sve! Tata je popio kavu odmah.",
-        "opis": "Fill in the right twin from the text."
+        "info": "Copy the right twin back into its line. The bracket gives the infinitive of the twin you need; the time words in the sentence confirm it — *cijelu večer, polako, cijeli tjedan* for the imperfective, *odmah, za dvije minute, za jedan dan* for the perfective.",
+        "infokratko": "*cijelu večer, polako* → imperfective; *odmah, za dvije minute* → perfective.",
+        "opis": "Fill in the right twin from the text.",
+        "tekst": "Ana je učila cijelu večer — i naučila je sve! Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute. Mama je pila kavu polako, a tata je popio kavu odmah. Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan."
       },
       "stavke": [
         [
@@ -87213,10 +105998,30 @@ window.PODACI = {
         [
           "Tata je ___ kavu odmah. (popiti)",
           "popio"
+        ],
+        [
+          "Mama je ___ kavu polako. (piti)",
+          "pila"
+        ],
+        [
+          "Brat je ___ juhu za dvije minute. (pojesti)",
+          "pojeo"
+        ],
+        [
+          "Ja sam ___ juhu pola sata. (jesti)",
+          "jela"
+        ],
+        [
+          "Sestra je ___ knjigu za jedan dan. (pročitati)",
+          "pročitala"
+        ],
+        [
+          "Ja sam ___ knjigu cijeli tjedan. (čitati)",
+          "čitala"
         ]
       ],
       "sortkljuc": 1904006,
-      "bodovi": 2114
+      "bodovi": 1235
     },
     {
       "cjelina": "Practice 19",
@@ -87225,11 +106030,18 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: Did you finish your homework?",
-      "meta": {},
+      "meta": {
+        "info": "A mother questions Marko about his homework, and every answer depends on the twin. *Pisao sam* means he was at it; *napisao sam pola* means half is done. The last line is a perfective in the present for something he always does to the end: *pogledaš do kraja*.",
+        "infokratko": "*Pisao sam* — at it. *Napisao sam pola* — half done. *Pogledaš do kraja* — always to the end.",
+        "opis": "A mother, a son and a very long evening. Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "— Jesi li napisao zadaću?",
-          "— Did you finish writing your homework?"
+          "Passive words: *završio* (finished), *Koliko?* (How much?), *do kraja* (to the end)."
+        ],
+        [
+          "— Marko, jesi li napisao zadaću?",
+          "— Marko, have you finished your homework?"
         ],
         [
           "— Pisao sam zadaću cijelu večer...",
@@ -87283,8 +106095,10 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "— Jesi li napisao zadaću? — Pisao sam zadaću cijelu večer... — Napisao sam pola. — Jesi li pročitao knjigu? — Čitao sam... jednu stranicu. — Film sam pogledao! Dva puta!",
-        "opis": "Tap true or false."
+        "info": "Check each statement against the interrogation. The twins carry the facts: *pisao sam* and *čitao sam* mean the work is not finished, *napisao sam pola* means half is done, and *pogledao sam* means the film was watched to the end — twice.",
+        "infokratko": "*pisao, čitao* → not finished. *napisao pola* → half. *pogledao* → the whole film.",
+        "opis": "Tap true or false.",
+        "tekst": "— Marko, jesi li napisao zadaću? — Pisao sam zadaću cijelu večer... — Ali jesi li završio? — Skoro! Napisao sam pola. — A lektira? Jesi li pročitao knjigu? — Čitao sam... jednu stranicu. — A film za školu? — Film sam pogledao! Dva puta!"
       },
       "stavke": [
         [
@@ -87293,18 +106107,33 @@ window.PODACI = {
           "TRUE"
         ],
         [
+          "Marko je napisao pola zadaće.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
           "Pročitao je samo jednu stranicu.",
           "TRUE",
           "FALSE"
         ],
         [
+          "Pročitao je cijelu knjigu.",
+          "FALSE",
+          "TRUE"
+        ],
+        [
           "Film je pogledao dva puta.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Marko je pisao zadaću cijelu večer.",
           "TRUE",
           "FALSE"
         ]
       ],
       "sortkljuc": 1904008,
-      "bodovi": 1770
+      "bodovi": 1054
     },
     {
       "cjelina": "Practice 19",
@@ -87314,54 +106143,1889 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "What does it really mean?",
       "meta": {
+        "info": "What each answer really says. The imperfective (*pisao sam, čitao sam*) describes the activity and says nothing about finishing it. The perfective (*napisao sam pola, pogledao sam*) states a finished result — here, half of the homework and the whole film.",
+        "infokratko": "*pisao, čitao* → the activity, not finished. *napisao pola, pogledao* → a finished result.",
         "opis": "The aspect tells the story — what does each answer really mean?"
       },
       "stavke": [
         [
           "\"Pisao sam zadaću cijelu večer...\" znači:",
           "radio je, ali nije gotovo",
-          "sve je gotovo"
+          "sve je gotovo",
+          "nije ništa radio"
         ],
         [
           "\"Napisao sam pola.\" znači:",
-          "pola je završeno",
+          "pola je gotovo",
+          "sve je gotovo",
           "piše upravo sada"
         ],
         [
           "\"Film sam pogledao!\" znači:",
           "gledao je film do kraja",
-          "gleda film sada"
+          "gleda film sada",
+          "nije gledao film"
+        ],
+        [
+          "\"Čitao sam...\" znači:",
+          "čitao je, ali nije pročitao knjigu",
+          "pročitao je knjigu",
+          "nije čitao"
+        ],
+        [
+          "\"Napokon je napisao pismo!\" znači:",
+          "pismo je gotovo",
+          "piše pismo sada",
+          "nije počeo pisati"
+        ],
+        [
+          "\"Baka je čitala pismo polako.\" znači:",
+          "čitala ga je dugo",
+          "pročitala ga je za minutu",
+          "nije ga čitala"
         ]
       ],
       "sortkljuc": 1904009,
-      "bodovi": 1770
+      "bodovi": 1054
     },
     {
       "cjelina": "Practice 19",
       "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
       "stranica": 10,
       "broj": 9999,
-      "format": "slaganje",
-      "naslov": "Translate by building",
+      "format": "tekst",
+      "naslov": "Text 4: Saturday's list",
       "meta": {
-        "opis": "Read the English sentence, then build its Croatian translation from the tiles."
+        "info": "A real to-do list on the fridge, and Mum's note at the bottom. Each task is a perfective infinitive — the job has to be finished: *oprati auto, skuhati ručak, poslati e-mail*. A tick means done, a cross means not done yet.",
+        "infokratko": "A real list: *oprati, skuhati, poslati*. ✓ = done, ✗ = not done.",
+        "opis": "Marko's list for Saturday, with ticks. Tap **EN** to see any line in English."
       },
       "stavke": [
         [
+          "Passive words: *popis* (list), *zalijevao* (watered), *nije još* (not yet), *Bravo, ali…* (Well done, but…)."
+        ],
+        [
+          "SUBOTA — POPIS ZA MARKA",
+          "SATURDAY — MARKO'S LIST"
+        ],
+        [
+          "✓ oprati auto",
+          "✓ wash the car"
+        ],
+        [
+          "✓ skuhati ručak",
+          "✓ cook lunch"
+        ],
+        [
+          "✗ poslati e-mail baki",
+          "✗ send Grandma an e-mail"
+        ],
+        [
+          "✓ kupiti kruh i mlijeko",
+          "✓ buy bread and milk"
+        ],
+        [
+          "✗ napisati zadaću",
+          "✗ write the homework"
+        ],
+        [
+          "✓ pročitati deset stranica lektire",
+          "✓ read ten pages of the book"
+        ],
+        [
+          "Mama: \"Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!\"",
+          "Mum: \"Well done, you washed the car and cooked lunch. But you haven't written your homework, and Grandma is still waiting for the e-mail!\""
+        ]
+      ],
+      "sortkljuc": 1904010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What did Marko do?",
+      "meta": {
+        "info": "Reading the list for what is finished. A tick means the perfective happened — *oprao je auto* — and a cross means it did not: *nije napisao zadaću*. Mum's note at the bottom confirms the two tasks that are still open.",
+        "infokratko": "✓ → *oprao je*. ✗ → *nije napisao*. Mum's note confirms it.",
+        "opis": "Answer from the list.",
+        "tekst": "SUBOTA — POPIS ZA MARKA. ✓ oprati auto. ✓ skuhati ručak. ✗ poslati e-mail baki. ✓ kupiti kruh i mlijeko. ✗ napisati zadaću. ✓ pročitati deset stranica lektire. Mama: \"Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!\""
+      },
+      "stavke": [
+        [
+          "Je li Marko oprao auto?",
+          "da, oprao je auto",
+          "ne, nije ga oprao",
+          "prao ga je, ali nije gotov"
+        ],
+        [
+          "Što je Marko skuhao?",
+          "ručak",
+          "juhu za baku",
+          "kavu"
+        ],
+        [
+          "Što Marko nije napisao?",
+          "zadaću",
+          "e-mail mami",
+          "popis"
+        ],
+        [
+          "Tko čeka e-mail?",
+          "baka",
+          "mama",
+          "Marko"
+        ],
+        [
+          "Što je Marko kupio?",
+          "kruh i mlijeko",
+          "marku",
+          "knjigu"
+        ],
+        [
+          "Koliko stranica je pročitao?",
+          "deset",
+          "jednu",
+          "cijelu knjigu"
+        ]
+      ],
+      "sortkljuc": 1904011,
+      "bodovi": 1054
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Who finished what?",
+      "meta": {
+        "info": "A puzzle rather than a story. Four friends each finished one job on Saturday, and every clue rules something out. Petra's clues decide her job first; after that, one more clue about Ana is enough.",
+        "infokratko": "Every clue rules something out. Start with Petra.",
+        "opis": "Four friends, four finished jobs, no labels. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *svatko* (each one), *jedan posao* (one job), *ne zna kuhati* (can't cook)."
+        ],
+        [
+          "U subotu su Ana, Marko, Petra i Ivan radili doma.",
+          "On Saturday Ana, Marko, Petra and Ivan were working at home."
+        ],
+        [
+          "Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto.",
+          "Each finished one job: someone wrote a letter, someone read a book, someone cooked soup and someone washed the car."
+        ],
+        [
+          "Ana nije ni kuhala ni prala.",
+          "Ana neither cooked nor washed."
+        ],
+        [
+          "Marko je cijeli dan čitao, ali knjigu nije pročitao.",
+          "Marko was reading all day, but he didn't finish the book."
+        ],
+        [
+          "Ivan nije napisao pismo i nije oprao auto.",
+          "Ivan didn't write the letter and didn't wash the car."
+        ],
+        [
+          "Petra ne zna kuhati i nije ni pisala ni čitala.",
+          "Petra can't cook, and she neither wrote nor read."
+        ],
+        [
+          "Ana nije pročitala knjigu.",
+          "Ana didn't finish the book."
+        ],
+        [
+          "Tko je što napravio?",
+          "Who did what?"
+        ]
+      ],
+      "sortkljuc": 1904012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Petra did not cook, write or read, so she washed the car. Ana did not cook or finish the book, so she wrote the letter. Marko did not finish the book, so he cooked the soup, and Ivan read the book.",
+        "infokratko": "Petra first (the car), then Ana (the letter), Marko (the soup), Ivan (the book).",
+        "opis": "Nobody says who did what. Work it out from the text.",
+        "tekst": "Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto. Ana nije ni kuhala ni prala. Marko je cijeli dan čitao, ali knjigu nije pročitao. Ivan nije napisao pismo i nije oprao auto. Petra ne zna kuhati i nije ni pisala ni čitala. Ana nije pročitala knjigu."
+      },
+      "stavke": [
+        [
+          "Tko je oprao auto?",
+          "Petra",
+          "Ana",
+          "Ivan"
+        ],
+        [
+          "Tko je napisao pismo?",
+          "Ana",
+          "Marko",
+          "Petra"
+        ],
+        [
+          "Tko je skuhao juhu?",
+          "Marko",
+          "Ivan",
+          "Ana"
+        ],
+        [
+          "Tko je pročitao knjigu?",
+          "Ivan",
+          "Marko",
+          "Ana"
+        ],
+        [
+          "Što je Marko radio cijeli dan?",
+          "čitao je",
+          "kuhao je",
+          "prao je auto"
+        ],
+        [
+          "Zašto Petra nije skuhala juhu?",
+          "jer ne zna kuhati",
+          "jer je čitala",
+          "jer je pisala pismo"
+        ]
+      ],
+      "sortkljuc": 1904013,
+      "bodovi": 1054
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the prefix from the texts",
+      "meta": {
+        "nastavci": "na | po | pro | -",
+        "info": "One tap in front of the verb decides the twin, and almost every sentence comes from the five texts. Add *na-, po-* or *pro-* for one finished action (*napokon, odmah, za jedan dan, dva puta*); leave it out, with the dash, for an action that went on (*cijelo poslijepodne, polako, cijeli tjedan*).",
+        "infokratko": "finished once → *na- / po- / pro-*; going on → dash.",
+        "opis": "Almost every sentence came out of the five texts. One tap adds a prefix — or none."
+      },
+      "stavke": [
+        [
+          "Marko je ___pisao pismo cijelo poslijepodne.",
+          "Marko was writing a letter all afternoon.",
+          "-"
+        ],
+        [
+          "Napokon je ___pisao pismo!",
+          "Finally he finished writing the letter!",
+          "na"
+        ],
+        [
+          "Usput je ___pio tri kave.",
+          "Along the way he drank three coffees.",
+          "po"
+        ],
+        [
+          "Baka je ___čitala pismo polako.",
+          "Grandma read the letter slowly.",
+          "-"
+        ],
+        [
+          "Pismo je ___čitala dva puta.",
+          "She read the letter through twice.",
+          "pro"
+        ],
+        [
+          "Ana je ___učila sve!",
+          "Ana learned everything!",
+          "na"
+        ],
+        [
+          "Mama je ___pila kavu polako.",
+          "Mum drank her coffee slowly.",
+          "-"
+        ],
+        [
+          "Tata je ___pio kavu odmah.",
+          "Dad drank up his coffee right away.",
+          "po"
+        ],
+        [
+          "Brat je ___jeo juhu za dvije minute.",
+          "My brother ate up his soup in two minutes.",
+          "po"
+        ],
+        [
+          "Sestra je ___čitala knjigu za jedan dan.",
+          "My sister read the book in one day.",
+          "pro"
+        ],
+        [
+          "Ja sam ___čitala knjigu cijeli tjedan.",
+          "I was reading a book all week.",
+          "-"
+        ],
+        [
+          "Skoro! Pola sam ___pisao.",
+          "Almost! I've written half.",
+          "na"
+        ],
+        [
+          "Film sam ___gledao! Dva puta!",
+          "I watched the film! Twice!",
+          "po"
+        ],
+        [
+          "Pisao sam zadaću cijelu večer, ali je nisam ___pisao.",
+          "I was writing my homework all evening, but I didn't finish it.",
+          "na"
+        ],
+        [
+          "Marko je cijeli dan ___čitao.",
+          "Marko was reading all day.",
+          "-"
+        ],
+        [
+          "Ivan je ___čitao knjigu.",
+          "Ivan finished reading the book.",
+          "pro"
+        ]
+      ],
+      "sortkljuc": 1904014,
+      "bodovi": 1054
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU explain",
+      "meta": {
+        "info": "Your turn: the teacher asks about your homework and the book, and your answers depend on the twin — finished (*napisao / napisala sam*) or still going (*pisao / pisala sam*). The teacher reacts to what you say and does not assume your gender.",
+        "infokratko": "Finished: *napisao / napisala sam*. Still going: *pisao / pisala sam*. The teacher reacts.",
+        "opis": "Monday morning, and the teacher is checking. Choose your replies. Passive words: *do srijede* (by Wednesday), *vidjet ćemo* (we'll see), *u redu* (all right), *pokaži mi* (show me), *O čemu je…?* (What is … about?)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Dobro jutro! Je li zadaća gotova?"
+        ],
+        [
+          "ti",
+          "Da, napisao sam zadaću.",
+          "Da, napisala sam zadaću.",
+          "Pisao sam, ali nisam gotov.",
+          "Pisala sam, ali nisam gotova."
+        ],
+        [
+          "npc",
+          "Gotova ili ne — pokaži mi bilježnicu. A lektira?"
+        ],
+        [
+          "ti",
+          "Pročitao sam knjigu!",
+          "Pročitala sam knjigu!",
+          "Čitao sam, ali nisam pročitao.",
+          "Čitala sam, ali nisam pročitala."
+        ],
+        [
+          "npc",
+          "Dobro. Reci mi: o čemu je knjiga?"
+        ],
+        [
+          "ti",
+          "O psu i o baki.",
+          "Ne znam, nisam je pročitao do kraja.",
+          "Ne znam, nisam je pročitala do kraja."
+        ],
+        [
+          "npc",
+          "Hm. Onda pročitaj knjigu do srijede. Može?"
+        ],
+        [
+          "ti",
+          "Može, pročitat ću je!",
+          "Dobro, čitat ću svaki dan."
+        ],
+        [
+          "npc",
+          "U redu. I zadaću napiši do kraja!"
+        ],
+        [
+          "ti",
+          "Napisat ću je danas.",
+          "Pisat ću je cijelo poslijepodne."
+        ],
+        [
+          "npc",
+          "Dobro. Vidjet ćemo u srijedu!"
+        ]
+      ],
+      "sortkljuc": 1904015,
+      "bodovi": 875
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Translate by building",
+      "meta": {
+        "info": "English in, Croatian out, built from tiles taken from the five texts. The imperfective goes with *cijelo poslijepodne, polako, cijeli tjedan*; the perfective with *napokon, odmah, za dvije minute, dva puta*. *Je, sam* take the second place.",
+        "infokratko": "imperfective with *cijelo…, polako*; perfective with *napokon, odmah, za…*.",
+        "opis": "Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts."
+      },
+      "stavke": [
+        [
+          "Marko je pisao pismo cijelo poslijepodne.",
+          "en: Marko was writing a letter all afternoon."
+        ],
+        [
           "Napokon je napisao pismo!",
           "en: Finally he finished writing the letter!"
+        ],
+        [
+          "Usput je popio tri kave.",
+          "en: Along the way he drank three coffees."
         ],
         [
           "Baka je pročitala pismo dva puta.",
           "en: Grandma read the letter through twice."
         ],
         [
+          "Ana je učila cijelu večer i naučila je sve.",
+          "en: Ana was studying all evening and she learned everything."
+        ],
+        [
+          "Mama je pila kavu polako, a tata je popio kavu odmah.",
+          "en: Mum drank her coffee slowly, and Dad drank his up right away."
+        ],
+        [
+          "Brat je pojeo juhu za dvije minute.",
+          "en: My brother ate up his soup in two minutes."
+        ],
+        [
           "Jesi li napisao zadaću?",
-          "en: Did you finish writing your homework?"
+          "en: Have you finished your homework? (to a boy)"
+        ],
+        [
+          "Pisao sam zadaću cijelu večer.",
+          "en: I was writing my homework all evening. (a boy)"
+        ],
+        [
+          "Skoro! Napisao sam pola.",
+          "en: Almost! I've written half."
+        ],
+        [
+          "Film sam pogledao dva puta!",
+          "en: I watched the film twice!"
+        ],
+        [
+          "Auto si oprao i ručak si skuhao.",
+          "en: You washed the car and cooked lunch."
+        ],
+        [
+          "Zadaću nisi napisao.",
+          "en: You haven't written your homework."
+        ],
+        [
+          "Petra je oprala auto.",
+          "en: Petra washed the car."
+        ],
+        [
+          "Marko je cijeli dan čitao.",
+          "en: Marko was reading all day."
+        ],
+        [
+          "Ivan je pročitao knjigu.",
+          "en: Ivan read the book."
         ]
       ],
-      "sortkljuc": 1904010,
-      "bodovi": 1770
+      "sortkljuc": 1904016,
+      "bodovi": 1054
+    },
+    {
+      "cjelina": "Practice 19",
+      "cjelinanaslov": "Reading: The Letter & the Homework Interrogation",
+      "stranica": 17,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A timed picture-to-word tap over the things from the five texts. Everything is in its naming form; say a finished action with it in your head as you tap — *napisao pismo, popio kavu, pojeo čokoladu, oprao auto*.",
+        "infokratko": "Naming forms. Think *napisao pismo, popio kavu*.",
+        "opis": "The post office is closing! A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "pismo",
+          "letter"
+        ],
+        [
+          "marka",
+          "stamp"
+        ],
+        [
+          "pošta",
+          "post office"
+        ],
+        [
+          "knjiga",
+          "book"
+        ],
+        [
+          "olovka",
+          "pencil"
+        ],
+        [
+          "kava",
+          "coffee"
+        ],
+        [
+          "čokolada",
+          "chocolate"
+        ],
+        [
+          "juha",
+          "soup"
+        ],
+        [
+          "auto",
+          "car"
+        ],
+        [
+          "kolač",
+          "cake"
+        ],
+        [
+          "film",
+          "film"
+        ],
+        [
+          "sat",
+          "clock"
+        ]
+      ],
+      "sortkljuc": 1904017,
+      "bodovi": 1054
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "1380",
+        "prag": "70",
+        "info": "The words of Level 19: verb twins, time signals, school words and race words. Verbs are in the infinitive; for the twins, the imperfective and the perfective are matched separately, so read the English carefully.",
+        "infokratko": "Level 19 words: twins, time signals, school and race words.",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "napisati",
+          "to finish writing"
+        ],
+        [
+          "pročitati",
+          "to read through"
+        ],
+        [
+          "popiti",
+          "to drink up"
+        ],
+        [
+          "pojesti",
+          "to eat up"
+        ],
+        [
+          "naučiti",
+          "to learn (master)"
+        ],
+        [
+          "pogledati",
+          "to take a look"
+        ],
+        [
+          "kupiti",
+          "to buy"
+        ],
+        [
+          "poslati",
+          "to send off"
+        ],
+        [
+          "skuhati",
+          "to get it cooked"
+        ],
+        [
+          "nacrtati",
+          "to finish drawing"
+        ],
+        [
+          "oprati",
+          "to get it washed"
+        ],
+        [
+          "očistiti",
+          "to clean up"
+        ],
+        [
+          "odgovoriti",
+          "to give an answer"
+        ],
+        [
+          "završiti",
+          "to finish"
+        ],
+        [
+          "početi",
+          "to start"
+        ],
+        [
+          "nastaviti",
+          "to continue"
+        ],
+        [
+          "objasniti",
+          "to explain"
+        ],
+        [
+          "plakati",
+          "to cry"
+        ],
+        [
+          "brisati",
+          "to erase"
+        ],
+        [
+          "odlučiti",
+          "to decide"
+        ],
+        [
+          "sjetiti se",
+          "to remember"
+        ],
+        [
+          "ispričati",
+          "to tell (a story)"
+        ],
+        [
+          "napraviti",
+          "to make, to do"
+        ],
+        [
+          "opisati",
+          "to describe"
+        ],
+        [
+          "potpisati",
+          "to sign"
+        ],
+        [
+          "zapisati",
+          "to note down"
+        ],
+        [
+          "prepisati",
+          "to copy out"
+        ],
+        [
+          "napokon",
+          "finally"
+        ],
+        [
+          "skoro",
+          "almost"
+        ],
+        [
+          "opet",
+          "again"
+        ],
+        [
+          "usput",
+          "along the way"
+        ],
+        [
+          "upravo",
+          "just, right now"
+        ],
+        [
+          "već",
+          "already"
+        ],
+        [
+          "odjednom",
+          "suddenly"
+        ],
+        [
+          "trenutak",
+          "moment"
+        ],
+        [
+          "stranica",
+          "page"
+        ],
+        [
+          "lektira",
+          "assigned reading"
+        ],
+        [
+          "marka",
+          "stamp"
+        ],
+        [
+          "rečenica",
+          "sentence"
+        ],
+        [
+          "bilježnica",
+          "notebook"
+        ],
+        [
+          "zadatak",
+          "task"
+        ],
+        [
+          "razlika",
+          "difference"
+        ],
+        [
+          "važan",
+          "important"
+        ],
+        [
+          "gotov",
+          "finished, ready"
+        ],
+        [
+          "maraton",
+          "marathon"
+        ],
+        [
+          "rezultat",
+          "result"
+        ],
+        [
+          "pobjeda",
+          "victory"
+        ],
+        [
+          "medalja",
+          "medal"
+        ]
+      ],
+      "sortkljuc": 1905001,
+      "bodovi": 737
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 19 words, with three meanings to choose from. The wrong options come from the same group, and several are close: *opisati, potpisati, zapisati, prepisati* all come from *pisati*.",
+        "infokratko": "Level 19 words. Watch the *-pisati* family.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "napokon",
+          "finally",
+          "almost",
+          "again"
+        ],
+        [
+          "skoro",
+          "almost",
+          "finally",
+          "already"
+        ],
+        [
+          "odjednom",
+          "suddenly",
+          "again",
+          "slowly"
+        ],
+        [
+          "upravo",
+          "just, right now",
+          "already",
+          "again"
+        ],
+        [
+          "već",
+          "already",
+          "not yet",
+          "almost"
+        ],
+        [
+          "usput",
+          "along the way",
+          "suddenly",
+          "again"
+        ],
+        [
+          "trenutak",
+          "moment",
+          "page",
+          "task"
+        ],
+        [
+          "rečenica",
+          "sentence",
+          "page",
+          "notebook"
+        ],
+        [
+          "bilježnica",
+          "notebook",
+          "stamp",
+          "page"
+        ],
+        [
+          "zadatak",
+          "task",
+          "result",
+          "sentence"
+        ],
+        [
+          "razlika",
+          "difference",
+          "victory",
+          "result"
+        ],
+        [
+          "gotov",
+          "finished, ready",
+          "important",
+          "slow"
+        ],
+        [
+          "važan",
+          "important",
+          "finished, ready",
+          "almost"
+        ],
+        [
+          "lektira",
+          "assigned reading",
+          "notebook",
+          "homework"
+        ],
+        [
+          "marka",
+          "stamp",
+          "page",
+          "medal"
+        ],
+        [
+          "plakati",
+          "to cry",
+          "to laugh",
+          "to erase"
+        ],
+        [
+          "brisati",
+          "to erase",
+          "to write",
+          "to cry"
+        ],
+        [
+          "odlučiti",
+          "to decide",
+          "to remember",
+          "to explain"
+        ],
+        [
+          "sjetiti se",
+          "to remember",
+          "to decide",
+          "to forget"
+        ],
+        [
+          "ispričati",
+          "to tell (a story)",
+          "to explain",
+          "to answer"
+        ],
+        [
+          "opisati",
+          "to describe",
+          "to sign",
+          "to copy out"
+        ],
+        [
+          "potpisati",
+          "to sign",
+          "to note down",
+          "to describe"
+        ],
+        [
+          "zapisati",
+          "to note down",
+          "to copy out",
+          "to sign"
+        ],
+        [
+          "prepisati",
+          "to copy out",
+          "to describe",
+          "to note down"
+        ],
+        [
+          "objasniti",
+          "to explain",
+          "to answer",
+          "to decide"
+        ],
+        [
+          "odgovoriti",
+          "to give an answer",
+          "to explain",
+          "to ask"
+        ],
+        [
+          "nastaviti",
+          "to continue",
+          "to start",
+          "to finish"
+        ],
+        [
+          "početi",
+          "to start",
+          "to continue",
+          "to finish"
+        ],
+        [
+          "pobjeda",
+          "victory",
+          "result",
+          "medal"
+        ],
+        [
+          "rezultat",
+          "result",
+          "victory",
+          "difference"
+        ]
+      ],
+      "sortkljuc": 1905002,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Process or done?",
+      "meta": {
+        "info": "Sorting sentences by aspect. An action that lasts or repeats — with *cijeli dan, dugo, svaki dan, polako* — takes the imperfective. One finished action — with *napokon, odmah, već, za dvije minute* — takes the perfective.",
+        "infokratko": "Lasting, repeated → PROCESS. One finished action → DONE!",
+        "stupci": "PROCESS | DONE!",
+        "opis": "Sort the sentences — is it about the doing or the done?"
+      },
+      "stavke": [
+        [
+          "Pisala je pismo cijelo poslijepodne.",
+          "PROCESS"
+        ],
+        [
+          "Napokon je napisala pismo.",
+          "DONE!"
+        ],
+        [
+          "Svaki dan čitam novine.",
+          "PROCESS"
+        ],
+        [
+          "Pročitao sam knjigu za jedan dan.",
+          "DONE!"
+        ],
+        [
+          "Dugo smo odgovarali na pitanja.",
+          "PROCESS"
+        ],
+        [
+          "Odmah je odgovorio.",
+          "DONE!"
+        ],
+        [
+          "Djeca su cijelu noć plakala.",
+          "PROCESS"
+        ],
+        [
+          "Baka je već skuhala ručak.",
+          "DONE!"
+        ],
+        [
+          "Polako pijem čaj.",
+          "PROCESS"
+        ],
+        [
+          "Popio je čaj za minutu.",
+          "DONE!"
+        ],
+        [
+          "Često crtam more.",
+          "PROCESS"
+        ],
+        [
+          "Nacrtala je kuću za pet minuta.",
+          "DONE!"
+        ],
+        [
+          "Cijeli tjedan smo učili.",
+          "PROCESS"
+        ],
+        [
+          "Napokon smo naučili sve riječi.",
+          "DONE!"
+        ]
+      ],
+      "sortkljuc": 1905003,
+      "bodovi": 869
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Twin or new verb?",
+      "meta": {
+        "info": "Sorting prefixed verbs by what the prefix does. If only *finished* is added and the English stays the same, the verb is a twin. If the English changes — *potpisati* (sign), *opisati* (describe) — it is a new verb.",
+        "infokratko": "Same meaning + finished → twin. New meaning → new verb.",
+        "stupci": "TWIN (same meaning) | NEW VERB (new meaning)",
+        "opis": "Does the prefix only add \"finished\", or does it change the meaning?"
+      },
+      "stavke": [
+        [
+          "napisati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "pročitati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "popiti",
+          "TWIN (same meaning)"
+        ],
+        [
+          "skuhati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "oprati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "nacrtati",
+          "TWIN (same meaning)"
+        ],
+        [
+          "potpisati",
+          "NEW VERB (new meaning)"
+        ],
+        [
+          "opisati",
+          "NEW VERB (new meaning)"
+        ],
+        [
+          "zapisati",
+          "NEW VERB (new meaning)"
+        ],
+        [
+          "prepisati",
+          "NEW VERB (new meaning)"
+        ]
+      ],
+      "sortkljuc": 1905004,
+      "bodovi": 623
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the prefix",
+      "meta": {
+        "nastavci": "na | po | pro | -",
+        "info": "One tap in front of the verb decides the twin. Add *na-, po-* or *pro-* for one finished action (*napokon, odmah, za jedan dan*); leave it out, with the dash, for an action that lasts or repeats (*cijeli dan, dugo, svaki dan*).",
+        "infokratko": "finished once → *na- / po- / pro-*; lasting or repeated → dash.",
+        "opis": "English above, Croatian below. One tap adds a prefix — or none."
+      },
+      "stavke": [
+        [
+          "Napokon je ___pisao pismo.",
+          "Finally he finished writing the letter.",
+          "na"
+        ],
+        [
+          "Dugo je ___pisala pismo.",
+          "She was writing the letter for a long time.",
+          "-"
+        ],
+        [
+          "Za minutu je ___pio sok.",
+          "He drank up the juice in a minute.",
+          "po"
+        ],
+        [
+          "Cijeli dan ___čitam novine.",
+          "I read the newspaper all day.",
+          "-"
+        ],
+        [
+          "Knjigu sam ___čitala za jedan dan.",
+          "I read the book in one day.",
+          "pro"
+        ],
+        [
+          "Djeca su odmah ___jela kolače.",
+          "The children ate up the cakes straight away.",
+          "po"
+        ],
+        [
+          "Polako ___jedem juhu.",
+          "I'm eating the soup slowly.",
+          "-"
+        ],
+        [
+          "Ana je već ___učila pjesmu.",
+          "Ana has already learned the song.",
+          "na"
+        ],
+        [
+          "Cijelo poslijepodne ___gledamo televiziju.",
+          "We watch TV all afternoon.",
+          "-"
+        ],
+        [
+          "Djed je ___čitao novine za pet minuta.",
+          "Grandpa read the paper in five minutes.",
+          "pro"
+        ],
+        [
+          "Petra je ___crtala kuću.",
+          "Petra finished drawing the house.",
+          "na"
+        ],
+        [
+          "Marko je ___slao pismo u podne.",
+          "Marko sent off the letter at noon.",
+          "po"
+        ],
+        [
+          "Cijeli dan ___učim.",
+          "I study all day.",
+          "-"
+        ],
+        [
+          "Za dvije minute je ___jeo sendvič.",
+          "He ate up the sandwich in two minutes.",
+          "po"
+        ],
+        [
+          "Tata je ___čitao pismo dva puta.",
+          "Dad read the letter through twice.",
+          "pro"
+        ],
+        [
+          "Dugo smo ___pisali zadaću.",
+          "We were writing the homework for a long time.",
+          "-"
+        ]
+      ],
+      "sortkljuc": 1905005,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the twin",
+      "meta": {
+        "info": "Choosing the twin that fits the sentence. Time words decide it: *cijelu večer, dugo, polako, svaki dan* take the imperfective; *napokon, za dvije minute, odmah, već* take the perfective. The participle ending must match the person too.",
+        "infokratko": "*cijelu večer, dugo, polako* → imperfective; *napokon, za…, odmah* → perfective.",
+        "opis": "Choose the right twin for the sentence."
+      },
+      "stavke": [
+        [
+          "Marko je ___ pismo cijelu večer.",
+          "pisao",
+          "napisao",
+          "pisala"
+        ],
+        [
+          "Napokon je ___ pismo! (Ana)",
+          "napisala",
+          "pisala",
+          "napisao"
+        ],
+        [
+          "Brat je ___ juhu za dvije minute.",
+          "pojeo",
+          "jeo",
+          "pojela"
+        ],
+        [
+          "Upravo sada ___ kavu. (ja)",
+          "pijem",
+          "popijem",
+          "popijam"
+        ],
+        [
+          "Baka je ___ ručak za pola sata.",
+          "skuhala",
+          "kuhala",
+          "skuhao"
+        ],
+        [
+          "Dugo smo ___ knjigu.",
+          "čitali",
+          "pročitali",
+          "čitao"
+        ],
+        [
+          "Film je ___ u osam.",
+          "počeo",
+          "počinje",
+          "početi"
+        ],
+        [
+          "Djeca su ___ cijelu tortu za pet minuta!",
+          "pojela",
+          "jela",
+          "pojeli"
+        ],
+        [
+          "Ivan je ___ poklon cijelo poslijepodne.",
+          "kupovao",
+          "kupio",
+          "kupila"
+        ],
+        [
+          "Napokon smo ___ zadatak!",
+          "završili",
+          "završavali",
+          "završiti"
+        ],
+        [
+          "Petra je ___ pismo i odmah ga poslala.",
+          "napisala",
+          "pisala",
+          "napisao"
+        ],
+        [
+          "Svaki dan ___ novine. (ja)",
+          "čitam",
+          "čitaš",
+          "pročitao"
+        ]
+      ],
+      "sortkljuc": 1905006,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which prefix?",
+      "meta": {
+        "info": "Choosing the verb from its meaning. All five come from *pisati*, and the prefix carries the difference: *potpisati* signs, *zapisati* notes down, *opisati* describes, *prepisati* copies, and *napisati* finishes writing.",
+        "infokratko": "*potpisati, zapisati, opisati, prepisati, napisati*.",
+        "opis": "One base verb, five jobs. Pick the prefix the meaning needs."
+      },
+      "stavke": [
+        [
+          "to sign the document",
+          "potpisati",
+          "napisati",
+          "zapisati"
+        ],
+        [
+          "to finish writing the letter",
+          "napisati",
+          "opisati",
+          "prepisati"
+        ],
+        [
+          "to note down a number",
+          "zapisati",
+          "potpisati",
+          "prepisati"
+        ],
+        [
+          "to describe a city",
+          "opisati",
+          "napisati",
+          "prepisati"
+        ],
+        [
+          "to copy out the homework",
+          "prepisati",
+          "zapisati",
+          "potpisati"
+        ],
+        [
+          "to sign a postcard",
+          "potpisati",
+          "opisati",
+          "zapisati"
+        ],
+        [
+          "to describe your family",
+          "opisati",
+          "prepisati",
+          "potpisati"
+        ],
+        [
+          "to note down an address",
+          "zapisati",
+          "opisati",
+          "napisati"
+        ]
+      ],
+      "sortkljuc": 1905007,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Which command?",
+      "meta": {
+        "info": "Choosing the order that asks for the right thing. An imperfective order asks for an activity or a habit (*Pij vodu svaki dan!*); a perfective order asks for one finished action, now (*Popij vodu!*). After *nemoj* the verb is an imperfective infinitive.",
+        "infokratko": "habit → *Pij!*; one finished action now → *Popij!*; *Nemoj pisati!*",
+        "opis": "Process or result — which one is the speaker asking for?"
+      },
+      "stavke": [
+        [
+          "Drink up your juice, now!",
+          "Popij sok!",
+          "Pij sok!"
+        ],
+        [
+          "Drink water every day.",
+          "Pij vodu!",
+          "Popij vodu!"
+        ],
+        [
+          "Read the whole book — all of it!",
+          "Pročitaj knjigu!",
+          "Čitaj knjigu!"
+        ],
+        [
+          "Read a bit every evening.",
+          "Čitaj knjigu!",
+          "Pročitaj knjigu!"
+        ],
+        [
+          "Eat up the soup!",
+          "Pojedi juhu!",
+          "Jedi juhu!"
+        ],
+        [
+          "Send the letter today!",
+          "Pošalji pismo danas!",
+          "Šalji pismo danas!"
+        ],
+        [
+          "Don't write! (gently)",
+          "Nemoj pisati!",
+          "Nemoj piši!",
+          "Nemoj pišeš!"
+        ],
+        [
+          "Finish your homework!",
+          "Napiši zadaću!",
+          "Piši zadaću!"
+        ]
+      ],
+      "sortkljuc": 1905008,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Process or result?",
+      "meta": {
+        "info": "You type the participle of the right twin. The bracket gives both infinitives and the speaker; the time words decide the twin, and the speaker decides the ending: **-o** for a man, **-la** for a woman, **-li** for a group.",
+        "infokratko": "Time words → twin; speaker → **-o / -la / -li**.",
+        "opis": "Type the participle of the right twin."
+      },
+      "stavke": [
+        [
+          "Cijelo poslijepodne sam ___ pismo. (pisati / napisati, a man)",
+          "pisao"
+        ],
+        [
+          "Napokon sam ___ pismo. (pisati / napisati, a woman)",
+          "napisala"
+        ],
+        [
+          "Odmah je ___ kavu. (piti / popiti, Marko)",
+          "popio"
+        ],
+        [
+          "Dugo je ___ knjigu. (čitati / pročitati, Ana)",
+          "čitala"
+        ],
+        [
+          "Za jedan dan smo ___ knjigu. (čitati / pročitati)",
+          "pročitali"
+        ],
+        [
+          "Baka je već ___ juhu. (kuhati / skuhati)",
+          "skuhala"
+        ],
+        [
+          "Napokon sam ___ sve riječi. (učiti / naučiti, a man)",
+          "naučio"
+        ],
+        [
+          "Film je ___ u osam. (počinjati / početi)",
+          "počeo"
+        ],
+        [
+          "Dugo smo ___ na pitanja. (odgovarati / odgovoriti)",
+          "odgovarali"
+        ],
+        [
+          "Jesi li ___ zadaću? (pisati / napisati, to a girl)",
+          "napisala"
+        ]
+      ],
+      "sortkljuc": 1905009,
+      "bodovi": 1039
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Type the twin",
+      "meta": {
+        "info": "You type the perfective twin of each verb. Most take a prefix — *na-, po-, pro-, s-, o-* — and keep the rest; the ending pairs shorten the verb: *kupovati → kupiti, završavati → završiti*. *Raditi* pairs with *napraviti*.",
+        "infokratko": "prefix pairs and ending pairs; *raditi → napraviti*.",
+        "opis": "Type the perfective twin."
+      },
+      "stavke": [
+        [
+          "pisati →",
+          "napisati"
+        ],
+        [
+          "piti →",
+          "popiti"
+        ],
+        [
+          "čitati →",
+          "pročitati"
+        ],
+        [
+          "kuhati →",
+          "skuhati"
+        ],
+        [
+          "učiti →",
+          "naučiti"
+        ],
+        [
+          "slati →",
+          "poslati"
+        ],
+        [
+          "kupovati →",
+          "kupiti"
+        ],
+        [
+          "završavati →",
+          "završiti"
+        ],
+        [
+          "odgovarati →",
+          "odgovoriti"
+        ],
+        [
+          "raditi →",
+          "napraviti"
+        ]
+      ],
+      "sortkljuc": 1905010,
+      "bodovi": 1039
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the marathon",
+      "meta": {
+        "info": "A short story about a race, with both twins. The imperfective tells what went on for a long time (*trčao je, trenirao je*); the perfective tells what got finished (*završio je, dobio je, napisao je*). Look for the time words before you answer.",
+        "infokratko": "Going on: *trčao, trenirao*. Finished: *završio, dobio, napisao*.",
+        "tekst": "Ivan je cijelu godinu trenirao za maraton. Trčao je svaki dan, polako i dugo. U nedjelju je napokon trčao maraton u Zagrebu. Prvih dvadeset kilometara bilo je lako, a onda je odjednom počela kiša. Ivan nije stao. Završio je maraton za četiri sata i dobio je medalju! Navečer je napisao poruku baki: \"Završio sam!\" Baka je pročitala poruku i plakala je od sreće.",
+        "opis": "Read the text, then answer. Passive words: *prvih dvadeset kilometara* (the first twenty kilometres), *lako* (easy), *nije stao* (didn't stop), *za četiri sata* (in four hours)."
+      },
+      "stavke": [
+        [
+          "Koliko dugo je Ivan trenirao?",
+          "cijelu godinu",
+          "jedan tjedan",
+          "jedan dan"
+        ],
+        [
+          "Kako je Ivan trčao svaki dan?",
+          "polako i dugo",
+          "brzo i kratko",
+          "nije trčao"
+        ],
+        [
+          "Što je odjednom počelo?",
+          "kiša",
+          "utakmica",
+          "koncert"
+        ],
+        [
+          "Za koliko sati je završio maraton?",
+          "za četiri sata",
+          "za dva sata",
+          "za deset sati"
+        ],
+        [
+          "Što je dobio?",
+          "medalju",
+          "poklon",
+          "pismo"
+        ],
+        [
+          "Što je baka napravila kad je pročitala poruku?",
+          "plakala je od sreće",
+          "zvala je Ivana",
+          "trčala je"
+        ]
+      ],
+      "sortkljuc": 1905011,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "A review of Levels 14 to 18: the conditional, the imperative, the genitive, the instrumental and the dative, plus the perfect with both genders. Each item comes from a level you have finished.",
+        "infokratko": "Review: conditional, imperative, genitive, instrumental, dative, the perfect.",
+        "opis": "Not about aspect — everything here comes from levels 10 to 18."
+      },
+      "stavke": [
+        [
+          "Ja ___ kupio vilu.",
+          "bih",
+          "bismo",
+          "biste"
+        ],
+        [
+          "Mi ___ putovali cijelu godinu.",
+          "bismo",
+          "bih",
+          "biste"
+        ],
+        [
+          "___ imam milijun eura, kupio bih brod.",
+          "Da",
+          "Ako"
+        ],
+        [
+          "Htjela ___ kavu, molim.",
+          "bih",
+          "bismo",
+          "biste"
+        ],
+        [
+          "(prijatelju) ___ tri jaja!",
+          "Uzmi",
+          "Uzmaj",
+          "Uzmij"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj kasniti!",
+          "Nemoj kasni!",
+          "Nemoj kasniš!"
+        ],
+        [
+          "Možete li ___ lijevo?",
+          "skrenuti",
+          "skrenete",
+          "skrenite"
+        ],
+        [
+          "Pijem kavu bez ___ .",
+          "šećera",
+          "šećer",
+          "šećerom"
+        ],
+        [
+          "dvije ___",
+          "kave",
+          "kava",
+          "kavu"
+        ],
+        [
+          "Mačka spava ispod ___ .",
+          "kreveta",
+          "krevet",
+          "krevetu"
+        ],
+        [
+          "Idem u kino ___ . (sestra)",
+          "sa sestrom",
+          "sa sestra",
+          "sa sestri"
+        ],
+        [
+          "Ideš li ___ ? (with me)",
+          "sa mnom",
+          "s ja",
+          "sa meni"
+        ],
+        [
+          "Šaljem pismo ___ . (baka)",
+          "baki",
+          "baku",
+          "bakom"
+        ],
+        [
+          "Ana je u ___ . (kuhinja)",
+          "kuhinji",
+          "kuhinju",
+          "kuhinje"
+        ],
+        [
+          "Ana i Petra su ___ na moru. (biti)",
+          "bile",
+          "bio",
+          "bila"
+        ],
+        [
+          "Jučer sam ___ kolač. (jesti, a woman speaking)",
+          "jela",
+          "jeo",
+          "jele"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Nisam pio kavu.",
+          "Ne sam pio kavu.",
+          "Nisam pili kavu."
+        ],
+        [
+          "Nitko ___ zna.",
+          "ne",
+          "ni",
+          "nije"
+        ],
+        [
+          "Sutra ___ putovati. (mi)",
+          "ćemo",
+          "ćete",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Ne bih se bojala.",
+          "Ne se bih bojala.",
+          "Bih se ne bojala."
+        ]
+      ],
+      "sortkljuc": 1905012,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "Whole sentences with both twins, built from tiles. The imperfective goes with *cijelo poslijepodne, dugo, svaki dan, polako*; the perfective with *napokon, odmah, za jedan dan*. *Je, sam, ga* take the second place, and a comma comes before *a*.",
+        "infokratko": "imperfective with *dugo, svaki dan*; perfective with *napokon, odmah*. *je, sam, ga* second.",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "Pisala je pismo cijelo poslijepodne.",
+          "en: She was writing a letter all afternoon."
+        ],
+        [
+          "Napokon je napisala pismo!",
+          "en: Finally she finished writing the letter!"
+        ],
+        [
+          "Pila je kavu polako, a on je popio kavu odmah.",
+          "en: She drank her coffee slowly, and he drank his up at once."
+        ],
+        [
+          "Pročitao sam knjigu za jedan dan.",
+          "en: I read the book in one day."
+        ],
+        [
+          "Svaki dan čitam novine.",
+          "en: I read the newspaper every day."
+        ],
+        [
+          "Kupovao je poklon cijeli dan i napokon ga je kupio.",
+          "en: He was shopping for a present all day and finally bought it."
+        ],
+        [
+          "Baka je već skuhala ručak.",
+          "en: Grandma has already cooked lunch."
+        ],
+        [
+          "Molim vas, potpišite ovdje.",
+          "en: Please sign here."
+        ],
+        [
+          "Zapiši moj broj!",
+          "en: Note down my number!"
+        ],
+        [
+          "Opiši svoju kuću.",
+          "en: Describe your house."
+        ],
+        [
+          "Popij sok!",
+          "en: Drink up your juice!"
+        ],
+        [
+          "Film je počeo u osam.",
+          "en: The film started at eight."
+        ],
+        [
+          "Djeca su cijelu noć plakala.",
+          "en: The children cried all night."
+        ],
+        [
+          "Jesi li napisala zadaću?",
+          "en: Have you finished your homework? (to a girl)"
+        ],
+        [
+          "Odjednom je počela kiša.",
+          "en: Suddenly it started to rain."
+        ]
+      ],
+      "sortkljuc": 1905013,
+      "bodovi": 888
+    },
+    {
+      "cjelina": "Test 19",
+      "cjelinanaslov": "Test 19: Verbal Aspect",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English. Something lasting or repeated takes the imperfective, one finished action the perfective, and the participle shows the speaker's gender. Where the speaker is *I*, both forms are accepted.",
+        "infokratko": "Lasting → imperfective; finished → perfective. Both genders accepted for *I*.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "I was writing a letter all afternoon.",
+          "Pisao sam pismo cijelo poslijepodne / Pisala sam pismo cijelo poslijepodne / Cijelo poslijepodne sam pisao pismo / Cijelo poslijepodne sam pisala pismo"
+        ],
+        [
+          "I finally finished writing the letter.",
+          "Napokon sam napisao pismo / Napokon sam napisala pismo"
+        ],
+        [
+          "He drank up his coffee at once.",
+          "Odmah je popio kavu / Popio je kavu odmah"
+        ],
+        [
+          "She read the book in one day.",
+          "Pročitala je knjigu za jedan dan / Za jedan dan je pročitala knjigu"
+        ],
+        [
+          "I drink coffee every day.",
+          "Svaki dan pijem kavu / Pijem kavu svaki dan"
+        ],
+        [
+          "Grandma has cooked lunch.",
+          "Baka je skuhala ručak"
+        ],
+        [
+          "The film started at eight.",
+          "Film je počeo u osam"
+        ],
+        [
+          "Sign here, please. (polite)",
+          "Potpišite ovdje, molim / Molim vas, potpišite ovdje / Potpišite ovdje, molim vas"
+        ],
+        [
+          "Note down my number! (to a friend)",
+          "Zapiši moj broj"
+        ],
+        [
+          "Drink up your water! (to a friend)",
+          "Popij vodu"
+        ],
+        [
+          "Don't eat the cake! (to a friend)",
+          "Nemoj jesti kolač / Ne jedi kolač"
+        ],
+        [
+          "We finished the task.",
+          "Završili smo zadatak / Završile smo zadatak"
+        ],
+        [
+          "Suddenly it started to rain.",
+          "Odjednom je počela kiša / Odjednom je počela padati kiša"
+        ],
+        [
+          "I have already learned the words.",
+          "Već sam naučio riječi / Već sam naučila riječi"
+        ],
+        [
+          "Have you finished your homework? (to a boy)",
+          "Jesi li napisao zadaću"
+        ],
+        [
+          "The children cried all night.",
+          "Djeca su plakala cijelu noć / Djeca su cijelu noć plakala"
+        ]
+      ],
+      "sortkljuc": 1905014,
+      "bodovi": 1039
     },
     {
       "cjelina": "Lesson 20",
@@ -87370,16 +108034,23 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Finish strong",
-      "meta": {},
+      "meta": {
+        "info": "A short read to open the last lesson. Long sentences in Croatian are two short sentences joined by a connector — *jer, kad, ako, dok, iako* — or by *koji*, which attaches a description to a noun. The connector changes nothing in the sentence that follows it.",
+        "infokratko": "Two sentences + a connector: *jer, kad, ako, dok, iako*. *koji* describes a noun.",
+        "opis": "Read it through — by the end you can say why you are learning Croatian, in one sentence."
+      },
       "stavke": [
         [
           "Twenty lessons ago, your first sentence was *Kava je dobra* — three words."
         ],
         [
-          "Today you'll build sentences like: *Učim hrvatski **jer** volim jezik **koji** zvuči **kao** glazba.* — I'm learning Croatian because I love a language that sounds like music."
+          "Today you will build sentences like: *Učim hrvatski **jer** volim jezik **koji** zvuči **kao** glazba.* — I'm learning Croatian because I love a language that sounds like music."
         ],
         [
-          "The final ingredients: five little connectors and one word — *koji* — that glues whole thoughts together. Let's finish strong."
+          "**Two sentences, one connector.** *Učim hrvatski. Volim jezik.* → *Učim hrvatski **jer** volim jezik.* The second sentence keeps its word order; *je, sam, ću* still take the second place: *jer **je** jezik lijep*."
+        ],
+        [
+          "By the end of this lesson you can say why, when, if and although — and write a short essay about your own Croatian."
         ]
       ],
       "sortkljuc": 2001001,
@@ -87394,7 +108065,9 @@ window.PODACI = {
       "naslov": "Rapid recall",
       "meta": {
         "trajanje": "60",
-        "opis": "Twin sprint! Tap the \"done\" twin."
+        "info": "A timed warm-up on aspect from Lesson 19. The perfective twin usually adds a prefix — *na-, po-, pro-, s-* — to the imperfective (*pisati → napisati, kuhati → skuhati*), and *kupovati* pairs with *kupiti*.",
+        "infokratko": "Lesson 19 against the clock: *napisati, popiti, pročitati, skuhati*; *kupiti*.",
+        "opis": "Twin sprint from Lesson 19 — tap the \"done\" twin before the timer runs out."
       },
       "stavke": [
         [
@@ -87416,10 +108089,38 @@ window.PODACI = {
         [
           "kupovati",
           "kupiti"
+        ],
+        [
+          "jesti",
+          "pojesti"
+        ],
+        [
+          "gledati",
+          "pogledati"
+        ],
+        [
+          "kuhati",
+          "skuhati"
+        ],
+        [
+          "slati",
+          "poslati"
+        ],
+        [
+          "crtati",
+          "nacrtati"
+        ],
+        [
+          "raditi",
+          "napraviti"
+        ],
+        [
+          "prati",
+          "oprati"
         ]
       ],
       "sortkljuc": 2001002,
-      "bodovi": 1388
+      "bodovi": 793
     },
     {
       "cjelina": "Lesson 20",
@@ -87429,41 +108130,134 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "The five connectors",
       "meta": {
-        "opis": "You've known \"jer\" since Lesson 11 — the rest follow the same logic: connector + sentence, comma between the parts."
+        "info": "The connectors that join two sentences, each with an example. You have known *jer* and *zato što* since Lesson 4 and *ako* from Grammar 18; new are *kad* (when), *dok* (while), *iako* (although) and *kao* (like). Each is followed by a complete sentence.",
+        "infokratko": "*jer, zato što, kad, ako, dok, iako* + a whole sentence. *kao* = like.",
+        "opis": "Connector + sentence. Tap a card to reveal the meaning."
       },
       "stavke": [
         [
-          "jer / zato što",
-          "because (Učim hrvatski jer volim jezik.)"
+          "jer → Učim hrvatski jer volim jezik.",
+          "because → I'm learning Croatian because I love the language."
         ],
         [
-          "kad",
-          "when (Kad sam prvi put čuo hrvatski...)"
+          "zato što → Ostajem doma zato što pada kiša.",
+          "because → I'm staying at home because it's raining."
         ],
         [
-          "ako",
-          "if (Ako bude sunca, idemo na rijeku!)"
+          "kad → Kad sam na moru, plivam svaki dan.",
+          "when → When I'm at the seaside, I swim every day."
         ],
         [
-          "dok",
-          "while (Dok ti biraš film, ja kuham ručak.)"
+          "ako → Ako je sunčano, idemo na rijeku.",
+          "if → If it's sunny, we're going to the river."
         ],
         [
-          "iako",
-          "although (Iako je film dug, odličan je.)"
+          "dok → Dok ti biraš film, ja kuham ručak.",
+          "while → While you choose a film, I'm cooking lunch."
+        ],
+        [
+          "iako → Iako je film dug, odličan je.",
+          "although → Although the film is long, it's excellent."
+        ],
+        [
+          "kao → Jezik zvuči kao glazba.",
+          "like → The language sounds like music."
+        ],
+        [
+          "prvi put",
+          "the first time"
+        ],
+        [
+          "koji / koja / koje",
+          "which, that, who"
         ]
       ],
       "sortkljuc": 2001003,
-      "bodovi": 914
+      "bodovi": 523
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
       "stranica": 4,
       "broj": 9999,
+      "format": "kartice",
+      "naslov": "Words for the big sentences",
+      "meta": {
+        "info": "The words for talking about memories, the future and learning a language. *Djetinjstvo* and *budućnost* come back from earlier levels. New verbs: *zvučati* (to sound) and *početi* with its participle *počeo*, which you need for *Kad sam počeo…*",
+        "infokratko": "Memory and learning words. *zvučati → zvuči, početi → počeo, čuti → čuo*.",
+        "opis": "Memories, mistakes and the future. Tap a card to reveal the meaning."
+      },
+      "stavke": [
+        [
+          "uspomena",
+          "memory"
+        ],
+        [
+          "djetinjstvo",
+          "childhood"
+        ],
+        [
+          "budućnost",
+          "future"
+        ],
+        [
+          "jezik",
+          "language"
+        ],
+        [
+          "glazba",
+          "music"
+        ],
+        [
+          "riva",
+          "seaside promenade"
+        ],
+        [
+          "greška",
+          "mistake"
+        ],
+        [
+          "život",
+          "life"
+        ],
+        [
+          "zemlja",
+          "country, land"
+        ],
+        [
+          "zvučati → zvuči",
+          "to sound → it sounds"
+        ],
+        [
+          "početi → počnem → počeo",
+          "to start"
+        ],
+        [
+          "misliti → mislim",
+          "to think"
+        ],
+        [
+          "čuti → čujem → čuo",
+          "to hear"
+        ],
+        [
+          "učiti → učim",
+          "to learn, to study"
+        ]
+      ],
+      "sortkljuc": 2001004,
+      "bodovi": 757
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 5,
+      "broj": 9999,
       "format": "parovi",
       "naslov": "Match the connector",
       "meta": {
+        "info": "Each connector beside its meaning. *Jer* and *zato što* both mean *because*; *kad* is *when*, *ako* is *if*, *dok* is *while*, *iako* is *although*, and *kao* is *like*. *Koji* is the odd one out: it attaches a description to a noun.",
+        "infokratko": "*jer / zato što* because, *kad* when, *ako* if, *dok* while, *iako* although, *kao* like.",
         "opis": "Match each connector with its English meaning."
       },
       "stavke": [
@@ -87489,28 +108283,327 @@ window.PODACI = {
         ],
         [
           "zato što",
-          "because (that's why)"
+          "because (longer form)"
+        ],
+        [
+          "kao",
+          "like, as"
+        ],
+        [
+          "koji",
+          "which, that, who"
         ]
       ],
-      "sortkljuc": 2001004,
-      "bodovi": 1387
+      "sortkljuc": 2001005,
+      "bodovi": 793
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 5,
+      "stranica": 6,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "The rule: joining two sentences",
+      "meta": {
+        "info": "The first rule: a connector joins two complete sentences, and the order is free. When the connector sentence comes first, a comma separates it from the rest. *Je, sam, ću* and the other short words take the second place inside each sentence: *jer je, kad sam, ako ćeš*.",
+        "infokratko": "Connector + whole sentence. Connector part first → comma. *jer je, kad sam*: short words second.",
+        "infoodmah": "da",
+        "opis": "One connector, two sentences, free order. Read the table and fill in the last line."
+      },
+      "stavke": [
+        [
+          "**What each connector adds.**"
+        ],
+        [
+          "tab: Meaning",
+          "Connector",
+          "Example"
+        ],
+        [
+          "tab: reason",
+          "jer, zato što",
+          "Učim hrvatski **jer** volim jezik."
+        ],
+        [
+          "tab: time",
+          "kad, dok",
+          "**Kad** sam na moru, plivam. **Dok** ti kuhaš, ja čitam."
+        ],
+        [
+          "tab: condition",
+          "ako",
+          "**Ako** je sunčano, idemo na rijeku."
+        ],
+        [
+          "tab: contrast",
+          "iako",
+          "**Iako** je film dug, odličan je."
+        ],
+        [
+          "**The order is free.** *Plivam kad sam na moru.* = *Kad sam na moru, plivam.* When the connector part comes first, put a comma after it. When it comes second, no comma is needed before *kad* and *ako*; before *jer* and *iako* a comma is common: *Film je odličan, iako je dug.*"
+        ],
+        [
+          "**Short words still take the second place.** In the connector part, the connector counts as the first word: *jer **je** jezik lijep* (not *jer jezik je lijep*), *kad **sam** bila mala*, *ako **ćeš** doći*."
+        ],
+        [
+          "**Tense works as usual.** *Kad sam bio mali, živio sam pokraj mora.* — both halves in the past. *Ako je sunčano, ići ćemo na rijeku.* — present, then future."
+        ],
+        [
+          "**Now you write them.** Učim hrvatski [jer] volim jezik. [Ako] je sunčano, idemo na rijeku. [Iako] je film dug, odličan je."
+        ]
+      ],
+      "sortkljuc": 2001006,
+      "bodovi": 631
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "What does it connect?",
+      "meta": {
+        "info": "Sorting sentences by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.",
+        "infokratko": "*jer, zato što* reason; *kad, dok* time; *ako* condition; *iako* contrast.",
+        "stupci": "UZROK | VRIJEME | UVJET | SUPROTNOST",
+        "opis": "Why, when, if or although? Sort the sentences by their connector."
+      },
+      "stavke": [
+        [
+          "Učim hrvatski jer volim jezik.",
+          "UZROK"
+        ],
+        [
+          "Ostajem doma zato što pada kiša.",
+          "UZROK"
+        ],
+        [
+          "Pijem kavu jer sam umoran.",
+          "UZROK"
+        ],
+        [
+          "Nosim kaput zato što je hladno.",
+          "UZROK"
+        ],
+        [
+          "Kad sam na moru, plivam svaki dan.",
+          "VRIJEME"
+        ],
+        [
+          "Dok ti kuhaš, ja čitam.",
+          "VRIJEME"
+        ],
+        [
+          "Kad sam bila mala, živjela sam u Splitu.",
+          "VRIJEME"
+        ],
+        [
+          "Dok pijem kavu, čitam novine.",
+          "VRIJEME"
+        ],
+        [
+          "Ako je sunčano, idemo na rijeku.",
+          "UVJET"
+        ],
+        [
+          "Ako dođeš, pit ćemo kavu.",
+          "UVJET"
+        ],
+        [
+          "Ako pada kiša, ostat ću doma.",
+          "UVJET"
+        ],
+        [
+          "Ako imaš vremena, zovi me.",
+          "UVJET"
+        ],
+        [
+          "Iako je film dug, odličan je.",
+          "SUPROTNOST"
+        ],
+        [
+          "Iako pada kiša, idem u park.",
+          "SUPROTNOST"
+        ],
+        [
+          "Iako je hrvatski težak, učim ga.",
+          "SUPROTNOST"
+        ],
+        [
+          "Iako sam umorna, idem na koncert.",
+          "SUPROTNOST"
+        ]
+      ],
+      "sortkljuc": 2001007,
+      "bodovi": 936
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the connector",
+      "meta": {
+        "info": "Choosing the connector that fits both halves. Ask what the first half does for the second: a reason calls for *jer*, a time for *kad* or *dok*, a condition for *ako*, and a contrast for *iako*. The wrong options either do not fit the meaning or cannot introduce a sentence at all, like *kao*.",
+        "infokratko": "reason *jer*, time *kad / dok*, condition *ako*, contrast *iako*.",
+        "opis": "Choose the connector that fits."
+      },
+      "stavke": [
+        [
+          "Učim hrvatski ___ volim Hrvatsku.",
+          "jer",
+          "kao",
+          "iako"
+        ],
+        [
+          "___ pada kiša, ostat ćemo doma.",
+          "Ako",
+          "Kao",
+          "Iako"
+        ],
+        [
+          "___ ti kuhaš, ja biram film.",
+          "Dok",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "___ je dug, film je odličan.",
+          "Iako",
+          "Jer",
+          "Ako"
+        ],
+        [
+          "___ sam prvi put bio u Splitu, sve je bilo novo.",
+          "Kad",
+          "Iako",
+          "Ako"
+        ],
+        [
+          "Nosim kaput ___ je hladno.",
+          "jer",
+          "kao",
+          "iako"
+        ],
+        [
+          "___ je hladno, idem na plažu. Volim zimu!",
+          "Iako",
+          "Jer",
+          "Kao"
+        ],
+        [
+          "___ imaš vremena, dođi na kavu.",
+          "Ako",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "___ Ana spava, Marko čita.",
+          "Dok",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "Jezik zvuči ___ glazba.",
+          "kao",
+          "jer",
+          "ako"
+        ],
+        [
+          "Ostajem doma ___ sam umoran.",
+          "zato što",
+          "kao",
+          "iako"
+        ],
+        [
+          "___ sam bila mala, živjela sam na moru.",
+          "Kad",
+          "Iako",
+          "Ako"
+        ]
+      ],
+      "sortkljuc": 2001008,
+      "bodovi": 937
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Join the thoughts",
+      "meta": {
+        "info": "You join two sentences into one with the connector in brackets. Put the connector in front of the sentence it introduces, keep the word order of both halves, and use a comma when the connector part comes first. Both orders are accepted where they make sense.",
+        "infokratko": "connector + its sentence; comma when that part comes first. Both orders accepted.",
+        "opis": "Join the two thoughts with the connector in brackets."
+      },
+      "stavke": [
+        [
+          "Ostat ćemo doma. + Pada kiša. (ako) →",
+          "Ako pada kiša, ostat ćemo doma / Ostat ćemo doma ako pada kiša"
+        ],
+        [
+          "Učim hrvatski. + Volim jezik. (jer) →",
+          "Učim hrvatski jer volim jezik"
+        ],
+        [
+          "Ja kuham ručak. + Ti biraš film. (dok) →",
+          "Ja kuham ručak dok ti biraš film / Dok ti biraš film, ja kuham ručak"
+        ],
+        [
+          "Film je odličan. + Film je dug. (iako) →",
+          "Iako je film dug, odličan je / Film je odličan, iako je dug / Iako je dug, film je odličan"
+        ],
+        [
+          "Plivam svaki dan. + Na moru sam. (kad) →",
+          "Kad sam na moru, plivam svaki dan / Plivam svaki dan kad sam na moru"
+        ],
+        [
+          "Nosim kaput. + Hladno je. (jer) →",
+          "Nosim kaput jer je hladno"
+        ],
+        [
+          "Idem u park. + Pada kiša. (iako) →",
+          "Iako pada kiša, idem u park / Idem u park, iako pada kiša"
+        ],
+        [
+          "Pit ćemo kavu. + Dođeš. (ako) →",
+          "Ako dođeš, pit ćemo kavu / Pit ćemo kavu ako dođeš"
+        ],
+        [
+          "Čitam novine. + Pijem kavu. (dok) →",
+          "Dok pijem kavu, čitam novine / Čitam novine dok pijem kavu"
+        ],
+        [
+          "Ostajem doma. + Umorna sam. (zato što) →",
+          "Ostajem doma zato što sam umorna"
+        ]
+      ],
+      "sortkljuc": 2001009,
+      "bodovi": 1098
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 10,
       "broj": 9999,
       "format": "tekst",
       "naslov": "The glue word: koji",
-      "meta": {},
+      "meta": {
+        "info": "The second rule: *koji, koja, koje* attach a whole sentence to a noun, like an adjective: *film koji traje tri sata*. It agrees with the noun in gender and number, and when the noun is the target of the verb in its own sentence, *koja* becomes *koju*: *knjiga koju čitam*.",
+        "infokratko": "*koji / koja / koje* agree with the noun. Target: *koju* (f.). *film koji gledam*.",
+        "infoodmah": "da",
+        "opis": "One word that attaches a sentence to a noun. Read the table and fill in the last line."
+      },
       "stavke": [
         [
-          "**koji / koja / koje** (which, that, who) connects a noun with its description — and it agrees in gender, like every adjective you've ever met:"
+          "**koji / koja / koje** (which, that, who) connects a noun with its description, and it agrees with the noun like an adjective:"
         ],
         [
-          "tab: The thing",
-          "The glue",
-          "Whole thought"
+          "tab: The noun",
+          "koji",
+          "The whole thought"
         ],
         [
           "tab: film (m.)",
@@ -87528,73 +108621,139 @@ window.PODACI = {
           "more koje je plavo"
         ],
         [
-          "tab: ljudi (pl.)",
+          "tab: ljudi, prijatelji (m. pl.)",
           "koji",
           "ljudi koji uvijek imaju vremena za kavu"
         ],
         [
-          "**And it changes by case like everything else.** *knjiga **koju** čitam* — your old friend **-a → -u**, back one last time."
+          "tab: knjige (f. pl.)",
+          "koje",
+          "knjige koje su na stolu"
+        ],
+        [
+          "**When the noun is the target in its own sentence,** *koji* takes the target form, like any adjective: *knjiga **koju** čitam* (the **-a → -u** rule from Lesson 5). For a masculine thing and for neuter nouns the target form looks the same: *film **koji** gledam, more **koje** volim*."
+        ],
+        [
+          "**The comma.** A *koji* part in the middle is usually set off with commas when it adds extra information: *Moja baka, koja živi u Splitu, ima psa.*"
+        ],
+        [
+          "**The same question word from Lesson 11.** *Koji film?* asks *which film?*; *film koji volim* is *the film that I like*. Grammar 20 shows *koji* in the other cases."
         ],
         [
           "**Now you write them.** Film [koji] traje tri sata. More [koje] je plavo. Knjiga [koju] čitam."
         ]
       ],
-      "sortkljuc": 2001005,
-      "bodovi": 1104
+      "sortkljuc": 2001010,
+      "bodovi": 631
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 6,
+      "stranica": 11,
       "broj": 9999,
-      "format": "izbor",
-      "naslov": "Pick the connector",
+      "format": "nastavak",
+      "naslov": "Tap the ending",
       "meta": {
-        "opis": "Choose the connector that fits."
+        "nastavci": "i | a | e | u",
+        "info": "One tap finishes *koj___*. A masculine noun and a group of people take **-i** (*film koji, ljudi koji*), a feminine noun **-a** (*knjiga koja*), a neuter noun or a feminine plural **-e** (*more koje, knjige koje*), and a feminine noun that is the target in its own sentence **-u** (*knjiga koju čitam*).",
+        "infokratko": "m. and people **-i**, f. **-a**, n. and f. pl. **-e**, f. target **-u**.",
+        "opis": "English above, Croatian below. One tap finishes *koji*."
       },
       "stavke": [
         [
-          "Učim hrvatski ___ volim Hrvatsku.",
-          "jer",
-          "dok",
-          "ako"
+          "Gledamo film koj___ traje tri sata.",
+          "We're watching a film that lasts three hours.",
+          "i"
         ],
         [
-          "___ padne kiša, ostat ćemo doma.",
-          "Ako",
-          "Jer",
-          "Iako"
+          "Čitam knjigu koj___ je nova.",
+          "I'm reading a book that is new.",
+          "a"
         ],
         [
-          "___ ti kuhaš, ja biram film.",
-          "Dok",
-          "Ako",
-          "Jer"
+          "Volim more koj___ je toplo.",
+          "I love the sea that is warm.",
+          "e"
         ],
         [
-          "___ je dug, film je odličan.",
-          "Iako",
-          "Jer",
-          "Kad"
+          "To je knjiga koj___ čitam.",
+          "That's the book I'm reading.",
+          "u"
         ],
         [
-          "___ sam prvi put čuo hrvatski, mislio sam da je težak.",
-          "Kad",
-          "Ako",
-          "Dok"
+          "Imam prijatelje koj___ vole glazbu.",
+          "I have friends who love music.",
+          "i"
+        ],
+        [
+          "To je pjesma koj___ pjevam svaki dan.",
+          "That's the song I sing every day.",
+          "u"
+        ],
+        [
+          "Kupila sam knjige koj___ su na stolu.",
+          "I bought the books that are on the table.",
+          "e"
+        ],
+        [
+          "Živim u gradu koj___ je star.",
+          "I live in a town that is old.",
+          "i"
+        ],
+        [
+          "Baka ima kuću koj___ je blizu mora.",
+          "Grandma has a house that is near the sea.",
+          "a"
+        ],
+        [
+          "Učim jezik koj___ zvuči kao glazba.",
+          "I'm learning a language that sounds like music.",
+          "i"
+        ],
+        [
+          "To je selo koj___ volim.",
+          "That's the village I love.",
+          "e"
+        ],
+        [
+          "Pijem kavu koj___ je jaka.",
+          "I'm drinking coffee that is strong.",
+          "a"
+        ],
+        [
+          "Ovo je torta koj___ je baka napravila.",
+          "This is the cake Grandma made.",
+          "u"
+        ],
+        [
+          "Ljudi koj___ žive na moru uvijek imaju vremena.",
+          "People who live by the sea always have time.",
+          "i"
+        ],
+        [
+          "Tražim olovku koj___ je bila na stolu.",
+          "I'm looking for the pencil that was on the table.",
+          "a"
+        ],
+        [
+          "Gledam slike koj___ si poslao.",
+          "I'm looking at the pictures you sent.",
+          "e"
         ]
       ],
-      "sortkljuc": 2001006,
-      "bodovi": 1387
+      "sortkljuc": 2001011,
+      "bodovi": 937
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 7,
+      "stranica": 12,
       "broj": 9999,
       "format": "izbor",
       "naslov": "koji, koja or koje?",
       "meta": {
+        "info": "Choosing the form of *koji*. The noun in front decides the gender and number, and the sentence after it decides the case: if *koji* is the target of the verb there, a feminine noun needs *koju*. Masculine things and neuter nouns look the same in both jobs.",
+        "infokratko": "The noun decides gender; the verb after it decides *koja* or *koju*.",
         "opis": "Choose the right form of \"koji\" — the noun decides!"
       },
       "stavke": [
@@ -87627,50 +108786,63 @@ window.PODACI = {
           "koju",
           "koja",
           "koje"
+        ],
+        [
+          "ljudi ___ imaju vremena",
+          "koji",
+          "koja",
+          "koju"
+        ],
+        [
+          "kuća ___ je blizu mora",
+          "koja",
+          "koju",
+          "koje"
+        ],
+        [
+          "pjesma ___ volim",
+          "koju",
+          "koja",
+          "koji"
+        ],
+        [
+          "knjige ___ su na stolu",
+          "koje",
+          "koja",
+          "koji"
+        ],
+        [
+          "jezik ___ zvuči kao glazba",
+          "koji",
+          "koja",
+          "koje"
+        ],
+        [
+          "selo ___ je malo",
+          "koje",
+          "koji",
+          "koja"
+        ],
+        [
+          "kava ___ pijem svako jutro",
+          "koju",
+          "koja",
+          "koje"
         ]
       ],
-      "sortkljuc": 2001007,
-      "bodovi": 1387
+      "sortkljuc": 2001012,
+      "bodovi": 937
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 8,
-      "broj": 9999,
-      "format": "upis",
-      "naslov": "Join the thoughts",
-      "meta": {
-        "opis": "Join the two thoughts with the connector in brackets. (Zarez slobodno izostavi.)"
-      },
-      "stavke": [
-        [
-          "Ostat ćemo doma. + Padne kiša. (ako) →",
-          "Ako padne kiša, ostat ćemo doma / Ako padne kiša ostat ćemo doma"
-        ],
-        [
-          "Učim hrvatski. + Volim jezik. (jer) →",
-          "Učim hrvatski jer volim jezik"
-        ],
-        [
-          "Ja kuham ručak. + Ti biraš film. (dok) →",
-          "Ja kuham ručak dok ti biraš film"
-        ],
-        [
-          "Film je odličan. + Film je dug. (iako) →",
-          "Iako je dug, film je odličan / Iako je dug film je odličan"
-        ]
-      ],
-      "sortkljuc": 2001008,
-      "bodovi": 1293
-    },
-    {
-      "cjelina": "Lesson 20",
-      "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 9,
+      "stranica": 13,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "Build the big sentences",
       "meta": {
+        "info": "Full-size Croatian sentences, built from tiles. The connector opens its own half, short words such as *je* and *sam* take the second place after it, a comma follows the connector part when it comes first, and *koji* stands right after its noun.",
+        "infokratko": "Connector opens its half; *je, sam* second; comma after a first connector part; *koji* after its noun.",
         "opis": "Arrange the tiles — these are real, full-size Croatian sentences now!"
       },
       "stavke": [
@@ -87678,7 +108850,7 @@ window.PODACI = {
           "Učim hrvatski jer volim jezik koji zvuči kao glazba."
         ],
         [
-          "Ako bude sunca, idemo na rijeku."
+          "Ako je sunčano, idemo na rijeku."
         ],
         [
           "Kad sam bio mali, živio sam pokraj mora."
@@ -87688,20 +108860,106 @@ window.PODACI = {
         ],
         [
           "Dok ja kuham, ti biraš glazbu."
+        ],
+        [
+          "Iako je hrvatski težak, učim ga svaki dan."
+        ],
+        [
+          "Kad sam bila mala, živjela sam u Splitu."
+        ],
+        [
+          "To je knjiga koju čitam."
+        ],
+        [
+          "Nosim kaput jer je hladno."
+        ],
+        [
+          "Baka ima kuću koja je blizu mora."
+        ],
+        [
+          "Ako imaš vremena, dođi na kavu."
         ]
       ],
-      "sortkljuc": 2001009,
-      "bodovi": 1387
+      "sortkljuc": 2001013,
+      "bodovi": 937
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 10,
+      "stranica": 14,
+      "broj": 9999,
+      "format": "brzina",
+      "naslov": "Connector sprint",
+      "meta": {
+        "trajanje": "45",
+        "info": "A timed sprint from the English meaning to the connector. *Because* is *jer* (or *zato što*), *when* is *kad*, *if* is *ako*, *while* is *dok*, *although* is *iako*, *like* is *kao*, and *which* or *that* after a noun is *koji*.",
+        "infokratko": "because *jer*, when *kad*, if *ako*, while *dok*, although *iako*, like *kao*.",
+        "opis": "An English word flashes — tap the Croatian connector before the timer runs out."
+      },
+      "stavke": [
+        [
+          "because",
+          "jer"
+        ],
+        [
+          "when",
+          "kad"
+        ],
+        [
+          "if",
+          "ako"
+        ],
+        [
+          "while",
+          "dok"
+        ],
+        [
+          "although",
+          "iako"
+        ],
+        [
+          "like, as",
+          "kao"
+        ],
+        [
+          "the first time",
+          "prvi put"
+        ],
+        [
+          "which (m.)",
+          "koji"
+        ],
+        [
+          "which (f.)",
+          "koja"
+        ],
+        [
+          "which (n.)",
+          "koje"
+        ],
+        [
+          "which (f., target)",
+          "koju"
+        ],
+        [
+          "because (longer)",
+          "zato što"
+        ]
+      ],
+      "sortkljuc": 2001014,
+      "bodovi": 793
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 15,
       "broj": 9999,
       "format": "dijalog",
       "naslov": "Why are YOU learning Croatian?",
       "meta": {
-        "opis": "The final conversation. A Croatian friend asks the big question — answer from the heart!"
+        "info": "The final conversation. A Croatian friend asks the big question, and your answers use everything from this lesson: *jer, kad, iako, koji*. Where your gender shows (*počeo / počela*), both forms are offered, and your friend reacts to what you say.",
+        "infokratko": "*jer, kad, iako, koji* in your answers; *počeo / počela* in both forms. Your friend reacts.",
+        "opis": "The final conversation. A Croatian friend asks the big question — answer from the heart! Passive words: *mislio sam da…* (I thought that…), *pretežak* (too difficult), *bez greške* (without a mistake), *Vidimo se* (See you)."
       },
       "stavke": [
         [
@@ -87715,40 +108973,111 @@ window.PODACI = {
         ],
         [
           "npc",
-          "A je li hrvatski težak?"
+          "Glazba, more, kava — to je Hrvatska! A je li hrvatski težak?"
         ],
         [
           "ti",
-          "Kad sam počeo, mislio sam da je pretežak. Ali već znam mnogo riječi!",
-          "Nije lako, ali nema problema!"
+          "Kad sam počeo, mislio sam da je pretežak.",
+          "Kad sam počela, mislila sam da je pretežak.",
+          "Iako nije lak, volim ga!"
         ],
         [
           "npc",
-          "Što ćeš raditi kad dođeš u Hrvatsku?"
+          "A sada? Govoriš jako dobro!"
         ],
         [
           "ti",
-          "Stajat ću na rivi i naručit ću kavu bez greške!",
+          "Hvala! Učim svaki dan, iako radim greške.",
+          "Hvala! Kad pijem kavu, čitam hrvatske novine."
+        ],
+        [
+          "npc",
+          "Greške nisu problem. Što ćeš raditi kad dođeš u Hrvatsku?"
+        ],
+        [
+          "ti",
+          "Sjedit ću na rivi i naručit ću kavu bez greške!",
           "Plivat ću, jest ću ribu i pričat ću hrvatski cijeli dan!"
         ],
         [
           "npc",
-          "Bravo! Vidimo se u Hrvatskoj!"
+          "Riva, kava, more... Zvuči savršeno! Vidimo se u Hrvatskoj!"
+        ],
+        [
+          "ti",
+          "Vidimo se!",
+          "Hvala za sve — vidimo se!"
         ]
       ],
-      "sortkljuc": 2001010,
-      "bodovi": 1009
+      "sortkljuc": 2001015,
+      "bodovi": 793
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 11,
+      "stranica": 16,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: Why I'm learning Croatian",
+      "meta": {
+        "info": "Read Emma's short essay, then answer in Croatian. Each sentence joins two thoughts: *kad* gives the time, *jer* the reason, *iako* the contrast, *dok* two things at once, and *koji* describes the flat. Find the connector from the question in the text.",
+        "infokratko": "Read, then answer. *kad* time, *jer* reason, *iako* contrast, *dok* at the same time, *koji* description.",
+        "tekst": "Zovem se Emma i dolazim iz Londona. Kad sam prvi put bila u Splitu, čula sam ljude na rivi. Jezik je zvučao kao glazba! Zato sada učim hrvatski. Iako je gramatika teška, učim svaki dan, jer želim razgovarati s ljudima. Dok pijem kavu, čitam hrvatske novine. Moja učiteljica kaže da radim mnogo grešaka, ali to nije problem. Ako sve ide dobro, sljedeće ljeto živjet ću u Splitu, u stanu koji je blizu mora.",
+        "opis": "Read the essay, then answer the questions. Passive words: *zato* (that's why), *hrvatske novine* (Croatian newspapers), *kaže da* (says that), *mnogo grešaka* (a lot of mistakes), *sljedeće ljeto* (next summer)."
+      },
+      "stavke": [
+        [
+          "Odakle je Emma?",
+          "iz Londona",
+          "iz Splita",
+          "iz Zagreba"
+        ],
+        [
+          "Kad je prvi put čula hrvatski?",
+          "kad je bila u Splitu",
+          "kad je bila u Londonu",
+          "kad je čitala novine"
+        ],
+        [
+          "Kako je zvučao jezik?",
+          "kao glazba",
+          "kao more",
+          "kao engleski"
+        ],
+        [
+          "Zašto Emma uči svaki dan?",
+          "jer želi razgovarati s ljudima",
+          "jer je gramatika laka",
+          "jer nema posla"
+        ],
+        [
+          "Što Emma radi dok pije kavu?",
+          "čita hrvatske novine",
+          "razgovara s učiteljicom",
+          "piše pismo"
+        ],
+        [
+          "Kakav je stan u Splitu?",
+          "blizu mora",
+          "u centru Londona",
+          "pokraj škole"
+        ]
+      ],
+      "sortkljuc": 2001016,
+      "bodovi": 937
+    },
+    {
+      "cjelina": "Lesson 20",
+      "cjelinanaslov": "The Grand Finale: Complex Sentences",
+      "stranica": 17,
       "broj": 9999,
       "format": "provjera",
       "naslov": "THE FINAL CHECKPOINT",
       "meta": {
+        "info": "The course final: one question from each of the twenty lessons, and 80% completes the lessons of the course. Read each item's label — it tells you which lesson it comes from — and remember the gender rules: where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "One question per lesson, 1 to 20. 80% completes the course lessons.",
         "prag": "80",
-        "opis": "The course final! Everything you've learned, one last time. Spreman? Spremna? Idemo!"
+        "opis": "The course final! Everything you've learned, one last time. Ready? Idemo!"
       },
       "stavke": [
         [
@@ -87767,7 +109096,8 @@ window.PODACI = {
           "izbor",
           "(L3) Ja ___ sok.",
           "pijem",
-          "pije"
+          "pije",
+          "piju"
         ],
         [
           "upis",
@@ -87783,7 +109113,8 @@ window.PODACI = {
           "izbor",
           "(L6) Čekam ___ .",
           "prijatelja",
-          "prijatelj"
+          "prijatelj",
+          "prijatelju"
         ],
         [
           "upis",
@@ -87798,8 +109129,9 @@ window.PODACI = {
         [
           "izbor",
           "(L9) ___ gitara je nova.",
-          "moja",
-          "moj"
+          "Moja",
+          "Moj",
+          "Moje"
         ],
         [
           "upis",
@@ -87820,7 +109152,8 @@ window.PODACI = {
           "izbor",
           "(L13) Živim ___ .",
           "u gradu",
-          "u grad"
+          "u grad",
+          "u grada"
         ],
         [
           "upis",
@@ -87831,7 +109164,8 @@ window.PODACI = {
           "izbor",
           "(L15) Putujem ___ .",
           "vlakom",
-          "vlak"
+          "vlak",
+          "vlaku"
         ],
         [
           "upis",
@@ -87840,7 +109174,7 @@ window.PODACI = {
         ],
         [
           "upis",
-          "(L17) Zapovijed grupi: ići →",
+          "(L17) Naredba grupi: ići →",
           "Idite"
         ],
         [
@@ -87852,7 +109186,8 @@ window.PODACI = {
           "izbor",
           "(L19) Napokon je ___ pismo!",
           "napisao",
-          "pisao"
+          "pisao",
+          "napisati"
         ],
         [
           "slaganje",
@@ -87860,17 +109195,21 @@ window.PODACI = {
           "en: (L20) I am learning Croatian because I love a language that sounds like music."
         ]
       ],
-      "sortkljuc": 2001011,
-      "bodovi": 2744
+      "sortkljuc": 2001017,
+      "bodovi": 1567
     },
     {
       "cjelina": "Lesson 20",
       "cjelinanaslov": "The Grand Finale: Complex Sentences",
-      "stranica": 12,
+      "stranica": 18,
       "broj": 9999,
       "format": "tekst",
       "naslov": "CONGRATULATIONS! 🎓",
-      "meta": {},
+      "meta": {
+        "info": "The end of the twenty lessons. You can describe, ask, refuse, place, give, travel, count, command, wish, finish and connect — every case but the vocative, four tenses and moods, and the verb twins. Vocabulary 20, Grammar 20, Practice 20 and the final test are still ahead.",
+        "infokratko": "Twenty lessons done. Vocabulary 20, Grammar 20, Practice 20 and the final test are next.",
+        "opis": "Read what you can do now, and what comes next."
+      },
       "stavke": [
         [
           "You did it. Twenty lessons ago you knew *banana* and *hotel*. Now you can:"
@@ -87879,13 +109218,13 @@ window.PODACI = {
           "describe the world and the people in it, talk about yesterday, today, tomorrow and your wildest dreams, ask anything, refuse politely, give directions, order coffee *bez greške*, and build sentences that flow like real Croatian — because they ARE real Croatian."
         ],
         [
-          "*Naučili ste hrvatski koji zvuči kao glazba. Sada idite u Hrvatsku, stanite na rivu, naručite kavu — i uživajte. Zaslužili ste!*"
+          "*Naučili ste hrvatski koji zvuči kao glazba. Sada idite u Hrvatsku, sjednite na rivu, naručite kavu — i uživajte!*"
         ],
         [
-          "**What's next:** the Dictionary and Practice modules stay open forever. And when you're ready... the advanced course awaits. *Vidimo se!*"
+          "**What's next:** Vocabulary 20 brings the words for memories and the sea — *uspomena, galeb, svjetionik*. Grammar 20 shows *da* (that) and *koji* in all its cases, then Practice 20 and the final test close the course. The Dictionary and the Practice modules stay open forever. *Vidimo se!*"
         ]
       ],
-      "sortkljuc": 2001012,
+      "sortkljuc": 2001018,
       "bodovi": 20
     },
     {
@@ -88557,32 +109896,62 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: all together",
-      "meta": {},
+      "meta": {
+        "info": "The reference page for joined sentences. *Jer / zato što, kad, ako, dok, iako* join two events; the part with the connector gets a comma when it comes first; short words take the second place after the connector; and *koji* agrees with its noun and takes the case its own sentence needs.",
+        "infokratko": "*jer, kad, ako, dok, iako*; comma when that part is first; *jer je*; *koji / koja / koje / koju*."
+      },
       "stavke": [
         [
-          "The last grammar page — where everything you've learned starts working together."
+          "The last grammar page — where everything you have learned works together."
         ],
         [
-          "**Subordinate connectors:** jer / zato što (because — *Ostajem doma **jer** pada kiša.*) · kad (when — ***Kad** dođeš, zovi me.*) · ako (if — ***Ako** bude sunca, idemo na rijeku.*) · dok (while — ***Dok** ja kuham, ti biraš film.*) · iako (although — ***Iako** je spor, vlak je ugodan.*)."
+          "tab: Meaning",
+          "Connector",
+          "Example"
         ],
         [
-          "**Comma rule:** when the connector's part comes *first*, put a comma after it: *Ako padne kiša**,** ostat ćemo doma.* When it comes second, no comma before *jer*."
+          "tab: reason",
+          "jer, zato što",
+          "Ostajem doma **jer** pada kiša."
         ],
         [
-          "**The relative pronoun koji** agrees in gender and number — and changes by case: grad **koji** je star · pjesma **koja** je lijepa · more **koje** je toplo · film **koji** gledam · knjiga **koju** čitam (feminine accusative — your old friend -a → -u, still at work!)."
+          "tab: time",
+          "kad",
+          "**Kad** dođeš, zovi me."
         ],
         [
-          "**\"ako bude\" — the future condition:** *Ako **bude** sunca, idemo na rijeku.* Learn *ako bude sunca / kiše / vremena* as ready-made phrases for now."
+          "tab: condition",
+          "ako",
+          "**Ako** je sunčano, idemo na rijeku."
         ],
         [
-          "**You now have the full sentence machine:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep — **iako** ne bih trebao treću!* That's the whole grammar of the course in one sentence."
+          "tab: at the same time",
+          "dok",
+          "**Dok** ja kuham, ti biraš film."
         ],
         [
-          "**Now you write the whole machine.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep."
+          "tab: contrast",
+          "iako",
+          "**Iako** je spor, vlak je ugodan."
+        ],
+        [
+          "**The comma.** When the connector part comes *first*, put a comma after it: *Ako pada kiša**,** ostat ćemo doma.* When it comes second, no comma is needed before *kad* and *ako*; before *jer* and *iako* a comma is common."
+        ],
+        [
+          "**Short words after the connector.** The connector counts as the first word, so *je, sam, ću, ga, se* come right after it: *jer **je** dan lijep, kad **sam** bila mala, ako **ga** vidiš*."
+        ],
+        [
+          "**koji agrees like an adjective.** *grad **koji** je star, pjesma **koja** je lijepa, more **koje** je toplo, knjiga **koju** čitam* — the last one is the target of *čitam*, so **-a → -u**."
+        ],
+        [
+          "**The whole course in one sentence:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep.*"
+        ],
+        [
+          "**Now you write them.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep."
         ]
       ],
       "sortkljuc": 2003001,
-      "bodovi": 1315
+      "bodovi": 732
     },
     {
       "cjelina": "Grammar 20",
@@ -88592,30 +109961,74 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Pick the connector",
       "meta": {
-        "opis": "Choose the connector. (kišobran = umbrella)"
+        "info": "Choosing the connector that fits both halves. A reason takes *jer*, a condition *ako*, a contrast *iako*, a time *kad*, two things at once *dok*. *Kao* cannot introduce a sentence, so it is never the answer here.",
+        "infokratko": "reason *jer*, condition *ako*, contrast *iako*, time *kad*, at once *dok*.",
+        "opis": "Choose the connector."
       },
       "stavke": [
         [
           "Nosim kišobran ___ pada kiša.",
           "jer",
-          "iako",
-          "dok"
+          "kao",
+          "iako"
         ],
         [
-          "___ bude vremena, doći ćemo.",
+          "___ imamo vremena, doći ćemo.",
           "Ako",
-          "Jer",
-          "Iako"
+          "Kao",
+          "Jer"
         ],
         [
           "___ je skup, restoran je uvijek pun.",
           "Iako",
+          "Kao",
+          "Ako"
+        ],
+        [
+          "___ dođeš, zovi me.",
+          "Kad",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "___ ja kuham, ti biraš film.",
+          "Dok",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "Učim hrvatski ___ volim more.",
+          "jer",
+          "kao",
+          "iako"
+        ],
+        [
+          "___ je film dug, gledam ga do kraja.",
+          "Iako",
+          "Kao",
+          "Jer"
+        ],
+        [
+          "___ je sunčano, idemo na plažu.",
           "Ako",
-          "Kad"
+          "Kao",
+          "Iako"
+        ],
+        [
+          "Ostajem doma ___ sam umorna.",
+          "zato što",
+          "kao",
+          "iako"
+        ],
+        [
+          "___ sam bio mali, živio sam na moru.",
+          "Kad",
+          "Kao",
+          "Iako"
         ]
       ],
       "sortkljuc": 2003002,
-      "bodovi": 1354
+      "bodovi": 1088
     },
     {
       "cjelina": "Grammar 20",
@@ -88625,27 +110038,74 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "koji, koja, koje or koju?",
       "meta": {
+        "info": "Choosing the form of *koji* in the nominative and the target form. The noun in front decides gender and number; the verb after it decides the case. Only the feminine singular has a separate target form, *koju*; masculine things and neuter nouns look the same in both jobs.",
+        "infokratko": "m. *koji*, f. *koja*, n. *koje*; f. target *koju*.",
         "opis": "Match the relative pronoun."
       },
       "stavke": [
         [
           "vlak ___ kreće u sedam",
           "koji",
-          "koja"
+          "koja",
+          "koje"
         ],
         [
           "riba ___ jedem",
           "koju",
-          "koja"
+          "koja",
+          "koji"
         ],
         [
           "dijete ___ pjeva",
           "koje",
-          "koji"
+          "koji",
+          "koja"
+        ],
+        [
+          "kuća ___ je stara",
+          "koja",
+          "koju",
+          "koje"
+        ],
+        [
+          "pjesma ___ volim",
+          "koju",
+          "koja",
+          "koje"
+        ],
+        [
+          "film ___ gledam",
+          "koji",
+          "kojeg",
+          "koju"
+        ],
+        [
+          "more ___ je toplo",
+          "koje",
+          "koji",
+          "koja"
+        ],
+        [
+          "ljudi ___ žive na otoku",
+          "koji",
+          "koje",
+          "koja"
+        ],
+        [
+          "knjige ___ su na stolu",
+          "koje",
+          "koji",
+          "koju"
+        ],
+        [
+          "kava ___ pijem",
+          "koju",
+          "koja",
+          "koje"
         ]
       ],
       "sortkljuc": 2003003,
-      "bodovi": 1354
+      "bodovi": 1088
     },
     {
       "cjelina": "Grammar 20",
@@ -88655,7 +110115,9 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Join with a connector",
       "meta": {
-        "opis": "Join with the connector in brackets. (Zarez slobodno izostavi.)"
+        "info": "You join two sentences with the connector in brackets. Put the connector in front of its own sentence and keep the word order of both halves; when the connector part comes first, a comma follows it. Both orders are accepted where they make sense.",
+        "infokratko": "connector + its sentence; comma when that part is first.",
+        "opis": "Join with the connector in brackets."
       },
       "stavke": [
         [
@@ -88663,16 +110125,36 @@ window.PODACI = {
           "Učim jer volim jezik"
         ],
         [
-          "Bude sunca. + Idemo na more. (ako) →",
-          "Ako bude sunca, idemo na more / Ako bude sunca idemo na more"
+          "Sunčano je. + Idemo na more. (ako) →",
+          "Ako je sunčano, idemo na more / Idemo na more ako je sunčano"
         ],
         [
           "Ti spavaš. + Ja radim. (dok) →",
-          "Dok ti spavaš, ja radim / Dok ti spavaš ja radim"
+          "Dok ti spavaš, ja radim / Ja radim dok ti spavaš"
+        ],
+        [
+          "Vlak je spor. + Vlak je ugodan. (iako) →",
+          "Iako je vlak spor, ugodan je / Iako je spor, vlak je ugodan / Vlak je ugodan, iako je spor"
+        ],
+        [
+          "Dođeš. + Zovi me. (kad) →",
+          "Kad dođeš, zovi me / Zovi me kad dođeš"
+        ],
+        [
+          "Nosim kišobran. + Pada kiša. (jer) →",
+          "Nosim kišobran jer pada kiša"
+        ],
+        [
+          "Restoran je skup. + Uvijek je pun. (iako) →",
+          "Iako je restoran skup, uvijek je pun / Restoran je uvijek pun, iako je skup"
+        ],
+        [
+          "Imamo vremena. + Doći ćemo. (ako) →",
+          "Ako imamo vremena, doći ćemo / Doći ćemo ako imamo vremena"
         ]
       ],
       "sortkljuc": 2003004,
-      "bodovi": 1586
+      "bodovi": 1278
     },
     {
       "cjelina": "Grammar 20",
@@ -88681,13 +110163,17 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "The rule: da — the connector that carries everything",
-      "meta": {},
+      "meta": {
+        "info": "The second rule. *Da* joins a sentence to a verb of saying, thinking or knowing: *Znam da je Zagreb velik.* There is no comma before it and no change of tense. *Da* + present also replaces the infinitive when the subjects are different: *Želim da dođeš.* And *koji* now takes every case.",
+        "infokratko": "*Znam da…, Mislim da…, Rekao je da…* No comma, no tense shift. *Želim da dođeš.* *koji* in all cases.",
+        "infoodmah": "da"
+      },
       "stavke": [
         [
-          "*jer, kad, ako, dok, iako* connect two **events**. **da** connects a sentence to a **head verb** — it's how you report, think, hope and want. It is the most frequent connector in the language."
+          "*Jer, kad, ako, dok, iako* join two **events**. ***Da*** joins a sentence to a **verb of saying, thinking, knowing or hoping** — and it is the most frequent connector in Croatian."
         ],
         [
-          "tab: Head verb",
+          "tab: Verb",
           "Example",
           "English"
         ],
@@ -88703,8 +110189,8 @@ window.PODACI = {
         ],
         [
           "tab: reći",
-          "Rekao je **da** nema vremena.",
-          "He said he had no time."
+          "Rekao je **da** nema vremena. / Rekla je **da** nema vremena.",
+          "He / She said he / she had no time."
         ],
         [
           "tab: nadati se",
@@ -88712,23 +110198,23 @@ window.PODACI = {
           "I hope everything's fine."
         ],
         [
-          "**No comma before *da*** in these sentences — unlike *a*, *ali* and *nego*."
+          "**No comma before *da*** in these sentences, and the short words come right after it: *da **je**, da **ćeš**, da **sam***."
         ],
         [
-          "**Croatian doesn't shift tenses.** English turns \"He said: I am tired\" into \"He said he **was** tired\". Croatian keeps the original words: *Rekao je **da je** umoran.* One rule fewer than English."
+          "**No tense shift.** English turns *He said: I am tired* into *He said he **was** tired*. Croatian keeps the original tense: *Rekao je **da je** umoran.*"
         ],
         [
-          "**da + present replaces the infinitive when the subjects differ:** *Želim **doći*** = I want to come (myself). *Želim **da dođeš*** = I want *you* to come. English needs a whole new construction; Croatian just changes the ending."
+          "**Da + present when the subjects are different.** *Želim **doći**.* = I want to come (myself). *Želim **da dođeš**.* = I want *you* to come."
         ],
         [
-          "**And *koji* keeps travelling through the cases:** *čovjek **kojeg** čekam* (accusative) · *grad u **kojem** živim* (locative) · *vlak **kojim** putujem* (instrumental). Every case you learned, now inside a relative clause."
+          "**koji in the other cases.** It takes the case its own sentence needs, with the adjective endings: *čovjek **kojeg** čekam* (target, a person), *grad u **kojem** živim* (place), *vlak **kojim** putujem* (means), *prijatelj **kojem** pišem* (receiver), *kuća u **kojoj** živim* (place, feminine)."
         ],
         [
           "**Now you write them.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim."
         ]
       ],
       "sortkljuc": 2003005,
-      "bodovi": 1354
+      "bodovi": 732
     },
     {
       "cjelina": "Grammar 20",
@@ -88738,6 +110224,8 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Which connector?",
       "meta": {
+        "info": "Choosing between *da* and the other connectors. After *znam, mislim, nadam se, rekao je* the sentence that follows is joined with *da*. A reason takes *jer*, a condition *ako*, a contrast *iako*. *Da* never means *because*.",
+        "infokratko": "after *znam, mislim, nadam se, rekao je* → *da*; reason *jer*; condition *ako*.",
         "opis": "An event, a reason, a condition — or a reported thought?"
       },
       "stavke": [
@@ -88751,7 +110239,7 @@ window.PODACI = {
           "Ostajem doma ___ pada kiša.",
           "jer",
           "da",
-          "dok"
+          "kao"
         ],
         [
           "Mislim ___ ćeš doći sutra.",
@@ -88760,7 +110248,7 @@ window.PODACI = {
           "iako"
         ],
         [
-          "___ bude sunca, idemo na rijeku.",
+          "___ je sunčano, idemo na rijeku.",
           "Ako",
           "Da",
           "Jer"
@@ -88769,17 +110257,41 @@ window.PODACI = {
           "Nadam se ___ je sve u redu.",
           "da",
           "jer",
-          "dok"
+          "kao"
         ],
         [
           "___ je spor, vlak je ugodan.",
           "Iako",
           "Da",
-          "Ako"
+          "Jer"
+        ],
+        [
+          "Rekla je ___ nema vremena.",
+          "da",
+          "jer",
+          "ako"
+        ],
+        [
+          "Želim ___ dođeš na kavu.",
+          "da",
+          "jer",
+          "iako"
+        ],
+        [
+          "Mislim ___ je ovo dobar film.",
+          "da",
+          "ako",
+          "kao"
+        ],
+        [
+          "Znaš li ___ Ana živi u Splitu?",
+          "da",
+          "jer",
+          "iako"
         ]
       ],
       "sortkljuc": 2003006,
-      "bodovi": 2010
+      "bodovi": 1088
     },
     {
       "cjelina": "Grammar 20",
@@ -88789,6 +110301,8 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "koji in the right case",
       "meta": {
+        "info": "Choosing the case of *koji* from its own sentence. A person as the target takes *kojeg*, a place after *u* or *na* takes *kojem* (or *kojoj* for a feminine noun), a vehicle takes *kojim*, and a receiver *kojem*. Ask the question inside the *koji* sentence: *koga? gdje? čime? komu?*",
+        "infokratko": "person target *kojeg*; place *u kojem / u kojoj*; means *kojim*; receiver *kojem*.",
         "opis": "The relative pronoun takes the case its own clause needs."
       },
       "stavke": [
@@ -88821,19 +110335,320 @@ window.PODACI = {
           "koja",
           "koju",
           "kojoj"
+        ],
+        [
+          "kuća u ___ živi baka",
+          "kojoj",
+          "kojom",
+          "koju"
+        ],
+        [
+          "prijatelj ___ pišem pismo",
+          "kojem",
+          "kojim",
+          "kojeg"
+        ],
+        [
+          "autobus ___ idem na posao",
+          "kojim",
+          "kojem",
+          "koji"
+        ],
+        [
+          "djevojka ___ volim",
+          "koju",
+          "kojoj",
+          "koja"
+        ],
+        [
+          "selo u ___ smo bili",
+          "kojem",
+          "koje",
+          "kojim"
+        ],
+        [
+          "brat ___ vidim svaki dan",
+          "kojeg",
+          "kojem",
+          "koji"
+        ],
+        [
+          "ulica u ___ je pošta",
+          "kojoj",
+          "koju",
+          "kojom"
         ]
       ],
       "sortkljuc": 2003007,
-      "bodovi": 1702
+      "bodovi": 1088
     },
     {
       "cjelina": "Grammar 20",
       "cjelinanaslov": "Complex Sentences",
       "stranica": 8,
       "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Which case is koji?",
+      "meta": {
+        "info": "Sorting *koji* forms by case. The naming form (*koji, koja, koje*) is the subject of its sentence; the target has *kojeg* for a person and *koju* for a feminine noun; *kojem / kojoj* after *u* is a place; *kojim* is company or means.",
+        "infokratko": "naming *koji / koja*; target *kojeg / koju*; place *u kojem / u kojoj*; means *kojim*.",
+        "stupci": "SUBJECT | TARGET | PLACE | MEANS",
+        "opis": "What job does *koji* do in its own sentence?"
+      },
+      "stavke": [
+        [
+          "film koji traje tri sata",
+          "SUBJECT"
+        ],
+        [
+          "pjesma koja je lijepa",
+          "SUBJECT"
+        ],
+        [
+          "ljudi koji žive na moru",
+          "SUBJECT"
+        ],
+        [
+          "more koje je toplo",
+          "SUBJECT"
+        ],
+        [
+          "čovjek kojeg čekam",
+          "TARGET"
+        ],
+        [
+          "knjiga koju čitam",
+          "TARGET"
+        ],
+        [
+          "brat kojeg vidim",
+          "TARGET"
+        ],
+        [
+          "kava koju pijem",
+          "TARGET"
+        ],
+        [
+          "grad u kojem živim",
+          "PLACE"
+        ],
+        [
+          "kuća u kojoj živi baka",
+          "PLACE"
+        ],
+        [
+          "selo u kojem smo bili",
+          "PLACE"
+        ],
+        [
+          "ulica u kojoj je pošta",
+          "PLACE"
+        ],
+        [
+          "vlak kojim putujem",
+          "MEANS"
+        ],
+        [
+          "autobus kojim idem na posao",
+          "MEANS"
+        ],
+        [
+          "olovka kojom pišem",
+          "MEANS"
+        ],
+        [
+          "tramvaj kojim ideš u grad",
+          "MEANS"
+        ]
+      ],
+      "sortkljuc": 2003008,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Grammar 20",
+      "cjelinanaslov": "Complex Sentences",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "i | a | u | eg | em | im | oj | om",
+        "info": "One tap finishes *koj___* in the case its own sentence needs. Subject: **-i** or **-a**. Target: **-eg** for a person, **-u** for a feminine noun. Place after *u*: **-em**, or **-oj** for a feminine noun. Means: **-im**, or **-om** for a feminine noun. A receiver takes **-em**.",
+        "infokratko": "subject **-i / -a**; target **-eg / -u**; place **-em / -oj**; means **-im / -om**; receiver **-em**.",
+        "opis": "English above, Croatian below. One tap finishes *koji*."
+      },
+      "stavke": [
+        [
+          "Film koj___ gledamo traje tri sata.",
+          "The film we're watching lasts three hours.",
+          "i"
+        ],
+        [
+          "Knjiga koj___ čitam je nova.",
+          "The book I'm reading is new.",
+          "u"
+        ],
+        [
+          "To je čovjek koj___ čekam.",
+          "That's the man I'm waiting for.",
+          "eg"
+        ],
+        [
+          "Grad u koj___ živim je star.",
+          "The town I live in is old.",
+          "em"
+        ],
+        [
+          "Vlak koj___ putujem je spor.",
+          "The train I travel by is slow.",
+          "im"
+        ],
+        [
+          "Kuća u koj___ živi baka je blizu mora.",
+          "The house Grandma lives in is near the sea.",
+          "oj"
+        ],
+        [
+          "Pjesma koj___ je lijepa.",
+          "The song that is beautiful.",
+          "a"
+        ],
+        [
+          "Prijatelj koj___ pišem živi u Splitu.",
+          "The friend I'm writing to lives in Split.",
+          "em"
+        ],
+        [
+          "Brat koj___ vidim svaki dan.",
+          "The brother I see every day.",
+          "eg"
+        ],
+        [
+          "Autobus koj___ idem na posao uvijek kasni.",
+          "The bus I take to work is always late.",
+          "im"
+        ],
+        [
+          "Ulica u koj___ je pošta je mala.",
+          "The street with the post office is small.",
+          "oj"
+        ],
+        [
+          "Djevojka koj___ pjeva je moja sestra.",
+          "The girl who is singing is my sister.",
+          "a"
+        ],
+        [
+          "Kava koj___ pijem je jaka.",
+          "The coffee I'm drinking is strong.",
+          "u"
+        ],
+        [
+          "Ljudi koj___ žive na otoku imaju vremena.",
+          "People who live on the island have time.",
+          "i"
+        ],
+        [
+          "Selo u koj___ smo bili je malo.",
+          "The village we were in is small.",
+          "em"
+        ],
+        [
+          "Olovka koj___ pišem je crvena.",
+          "The pencil I write with is red.",
+          "om"
+        ]
+      ],
+      "sortkljuc": 2003009,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Grammar 20",
+      "cjelinanaslov": "Complex Sentences",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Where do the short words go?",
+      "meta": {
+        "info": "Choosing the sentence with the short words in the right place. After a connector — *jer, kad, ako, da, koji* — the short words *je, sam, ću, ga, se* come immediately after it, because the connector counts as the first word.",
+        "infokratko": "connector + short word: *jer je, da ćeš, kad sam, koji se*.",
+        "opis": "Choose the correct sentence."
+      },
+      "stavke": [
+        [
+          "because the concert is on Saturday",
+          "Kupujem kartu jer je koncert u subotu.",
+          "Kupujem kartu jer koncert je u subotu.",
+          "Kupujem kartu je jer koncert u subotu."
+        ],
+        [
+          "I think you'll come",
+          "Mislim da ćeš doći.",
+          "Mislim da doći ćeš.",
+          "Mislim ćeš da doći."
+        ],
+        [
+          "when I was little",
+          "Kad sam bila mala, živjela sam u Splitu.",
+          "Kad bila sam mala, živjela sam u Splitu.",
+          "Sam kad bila mala, živjela sam u Splitu."
+        ],
+        [
+          "if you see him",
+          "Ako ga vidiš, zovi me.",
+          "Ako vidiš ga, zovi me.",
+          "Ga ako vidiš, zovi me."
+        ],
+        [
+          "although it is late",
+          "Iako je kasno, idem u kino.",
+          "Iako kasno je, idem u kino.",
+          "Je iako kasno, idem u kino."
+        ],
+        [
+          "he said he was tired",
+          "Rekao je da je umoran.",
+          "Rekao je da umoran je.",
+          "Rekao da je je umoran."
+        ],
+        [
+          "the man who is laughing",
+          "Čovjek koji se smije je moj djed.",
+          "Čovjek koji smije se je moj djed.",
+          "Čovjek se koji smije je moj djed."
+        ],
+        [
+          "because I will be late",
+          "Zovem te jer ću kasniti.",
+          "Zovem te jer kasniti ću.",
+          "Zovem te ću jer kasniti."
+        ],
+        [
+          "I hope it's fine",
+          "Nadam se da je sve u redu.",
+          "Nadam se da sve je u redu.",
+          "Se nadam da je sve u redu."
+        ],
+        [
+          "when I get back",
+          "Zvat ću te kad se vratim.",
+          "Zvat ću te kad vratim se.",
+          "Zvat ću te se kad vratim."
+        ]
+      ],
+      "sortkljuc": 2003010,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Grammar 20",
+      "cjelinanaslov": "Complex Sentences",
+      "stranica": 11,
+      "broj": 9999,
       "format": "upis",
       "naslov": "Join it with da",
       "meta": {
+        "info": "You report a thought or a statement by joining the two halves with *da*. No comma before *da*, no change of tense, and the short words come right after it: *da je, da ćeš*. With a different subject, *želim* is followed by *da* + present.",
+        "infokratko": "*Znam da…, Mislim da ćeš…, Rekao je da…, Želim da dođeš.* No comma.",
         "opis": "Report the thought — join the halves with \"da\"."
       },
       "stavke": [
@@ -88843,7 +110658,7 @@ window.PODACI = {
         ],
         [
           "Mislim. + Ti ćeš doći. →",
-          "Mislim da ćeš doći"
+          "Mislim da ćeš doći / Mislim da ćeš ti doći"
         ],
         [
           "Nadam se. + Sve je u redu. →",
@@ -88851,36 +110666,186 @@ window.PODACI = {
         ],
         [
           "Želim. + Ti dođeš. →",
-          "Želim da dođeš"
+          "Želim da dođeš / Želim da ti dođeš"
         ],
         [
           "Rekao je. + Nema vremena. →",
           "Rekao je da nema vremena"
+        ],
+        [
+          "Rekla je. + Umorna je. →",
+          "Rekla je da je umorna"
+        ],
+        [
+          "Znaš li? + Ana živi u Splitu. →",
+          "Znaš li da Ana živi u Splitu"
+        ],
+        [
+          "Mislim. + Film je dobar. →",
+          "Mislim da je film dobar"
+        ],
+        [
+          "Nadamo se. + Vi ćete doći. →",
+          "Nadamo se da ćete doći / Nadamo se da ćete vi doći"
+        ],
+        [
+          "Znam. + Marko nije doma. →",
+          "Znam da Marko nije doma"
         ]
       ],
-      "sortkljuc": 2003008,
-      "bodovi": 1971
+      "sortkljuc": 2003011,
+      "bodovi": 1277
     },
     {
       "cjelina": "Grammar 20",
       "cjelinanaslov": "Complex Sentences",
-      "stranica": 9,
+      "stranica": 12,
       "broj": 9999,
       "format": "slaganje",
       "naslov": "The final sentence",
       "meta": {
-        "opis": "The graduation sentence!"
+        "info": "The last sentences of the course, built from tiles. Each joins at least two thoughts: *koji* after its noun, *da* after a verb of thinking, *jer, ako, iako* in front of their own half, and short words right after the connector.",
+        "infokratko": "*koji* after its noun; *da* after *mislim*; short words right after the connector.",
+        "opis": "The graduation sentences!"
       },
       "stavke": [
         [
-          "Naučio sam jezik koji zvuči kao glazba — i to nije kraj, nego početak!"
+          "Naučila sam jezik koji zvuči kao glazba — i to nije kraj, nego početak!"
         ],
         [
           "Mislim da je ovo bio dobar početak, a ne kraj."
+        ],
+        [
+          "Znam da je Zagreb velik, ali volim Split."
+        ],
+        [
+          "Grad u kojem živim je star i lijep."
+        ],
+        [
+          "Iako je gramatika teška, učim svaki dan."
+        ],
+        [
+          "Nadam se da ćeš doći na kavu."
+        ],
+        [
+          "Knjiga koju čitam je nova."
+        ],
+        [
+          "Rekao je da nema vremena."
+        ],
+        [
+          "Ako je sunčano, idemo na rijeku."
+        ],
+        [
+          "Želim da dođeš u Split."
+        ],
+        [
+          "Vlak kojim putujem je spor, ali je ugodan."
+        ],
+        [
+          "Naučio sam jezik koji zvuči kao glazba."
         ]
       ],
-      "sortkljuc": 2003009,
-      "bodovi": 1354
+      "sortkljuc": 2003012,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Grammar 20",
+      "cjelinanaslov": "Complex Sentences",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write the whole sentence",
+      "meta": {
+        "info": "Free production from English, and the last step of the grammar. Join the halves with the right connector, put the short words right after it, use *da* after verbs of saying and thinking, and give *koji* the case its own sentence needs. Where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "Connector + sentence; *da* after *mislim, znam*; *koji* in its case. Both genders accepted.",
+        "opis": "The last step — the English sentence, and you write the Croatian."
+      },
+      "stavke": [
+        [
+          "I'm learning Croatian because I love the sea.",
+          "Učim hrvatski jer volim more / Učim hrvatski zato što volim more"
+        ],
+        [
+          "If it's sunny, we're going to the beach.",
+          "Ako je sunčano, idemo na plažu / Idemo na plažu ako je sunčano"
+        ],
+        [
+          "Although the train is slow, it's pleasant.",
+          "Iako je vlak spor, ugodan je / Vlak je ugodan, iako je spor / Iako je spor, vlak je ugodan"
+        ],
+        [
+          "While I'm cooking, you choose the film.",
+          "Dok ja kuham, ti biraš film / Dok kuham, ti biraš film"
+        ],
+        [
+          "When you come, call me.",
+          "Kad dođeš, zovi me"
+        ],
+        [
+          "I know that Zagreb is big.",
+          "Znam da je Zagreb velik"
+        ],
+        [
+          "I think you'll come.",
+          "Mislim da ćeš doći"
+        ],
+        [
+          "I hope everything is fine.",
+          "Nadam se da je sve u redu"
+        ],
+        [
+          "I want you to come.",
+          "Želim da dođeš"
+        ],
+        [
+          "He said he had no time.",
+          "Rekao je da nema vremena"
+        ],
+        [
+          "The book I'm reading is new.",
+          "Knjiga koju čitam je nova"
+        ],
+        [
+          "The town I live in is old.",
+          "Grad u kojem živim je star"
+        ],
+        [
+          "The man I'm waiting for is late.",
+          "Čovjek kojeg čekam kasni"
+        ],
+        [
+          "I've learned a language that sounds like music.",
+          "Naučio sam jezik koji zvuči kao glazba / Naučila sam jezik koji zvuči kao glazba"
+        ]
+      ],
+      "sortkljuc": 2003013,
+      "bodovi": 1277
+    },
+    {
+      "cjelina": "Grammar 20",
+      "cjelinanaslov": "Complex Sentences",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "You can do this now",
+      "meta": {
+        "info": "A closing summary of the grammar of the course. Two sentences become one with *jer, kad, ako, dok, iako* or *da*; the short words follow the connector; and *koji* attaches a sentence to a noun, in whatever case its own sentence needs.",
+        "infokratko": "*jer, kad, ako, dok, iako, da*; short words after the connector; *koji* in every case."
+      },
+      "stavke": [
+        [
+          "**Bravo.** You can now say why, when, if, although and *that* — and join a description to any noun with *koji*."
+        ],
+        [
+          "And you did it with the same rules you have used all course long: **short words take the second place**, **each noun takes the case its job needs**, and **the connector opens its own sentence**."
+        ],
+        [
+          "**Next up:** Practice 20 reads the summer you remember and Emma's essay, and the final test closes the course. Čestitamo!"
+        ]
+      ],
+      "sortkljuc": 2003014,
+      "bodovi": 20
     },
     {
       "cjelina": "Practice 20",
@@ -88889,37 +110854,42 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 1: The summer I remember",
-      "meta": {},
+      "meta": {
+        "info": "A memory told by Ana, and every sentence joins two thoughts. Read it twice: once for the story, once for the connectors — *kad* for the time, *dok* for two things at once, *jer* and *zato što* for the reason, *ako* for the plan, and *koji / koje* for a description.",
+        "infokratko": "*kad, dok, jer, zato što, ako* + *koji / koje*. Ana speaks: *imala sam, plivala sam*.",
+        "opis": "Ana remembers her first summer on an island. Tap **EN** next to any sentence to see its translation."
+      },
       "stavke": [
         [
-          "Your last text is someone remembering a summer. Read it slowly."
-        ],
-        [
-          "The course finale — passive words: *postoji* (there exists), *plovio* (sailed), *stajao* (stood), *zašlo* (set — the sun), *postao* (became), *pretežak* (too hard), *stariji od* (older than), *imati smisla* (to make sense), *padne kiša* (it rains), *onaj / baš taj* (that one / exactly that one)."
+          "Passive words: *postoji* (there is), *zaboraviti* (to forget), *plovio* (was sailing), *izgledao* (looked), *postao* (became), *dok sunce nije zašlo* (until the sun set), *neka mjesta* (some places)."
         ],
         [
           "Postoji ljeto koje nikad neću zaboraviti.",
           "There is a summer I will never forget."
         ],
         [
-          "Imao sam deset godina kad smo prvi put putovali na otok.",
+          "Imala sam deset godina kad smo prvi put putovali na otok.",
           "I was ten years old when we travelled to the island for the first time."
         ],
         [
-          "Dok je trajekt plovio, ja sam stajao i gledao galebove.",
-          "While the ferry sailed, I stood and watched the seagulls."
+          "Dok je trajekt plovio, ja sam stajala i gledala galebove.",
+          "While the ferry was sailing, I stood and watched the seagulls."
         ],
         [
           "Otok, koji je izgledao malen, postao je cijeli moj svijet.",
           "The island, which looked small, became my whole world."
         ],
         [
-          "Plivao sam dok sunce nije zašlo, jer je more bilo toplo kao juha.",
+          "Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha.",
           "I swam until the sun set, because the sea was as warm as soup."
         ],
         [
-          "Ako jednog dana budem imao djecu, vodit ću i njih na isti otok — zato što neka mjesta nisu samo mjesta. Ona su uspomene.",
-          "If one day I have children, I will take them to the same island — because some places are not just places. They are memories."
+          "Ako jednog dana imam djecu, vodit ću i njih na isti otok.",
+          "If one day I have children, I will take them to the same island too."
+        ],
+        [
+          "Zato što neka mjesta nisu samo mjesta. Ona su uspomene.",
+          "Because some places are not just places. They are memories."
         ]
       ],
       "sortkljuc": 2004001,
@@ -88933,33 +110903,51 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "Did you get it?",
       "meta": {
-        "tekst": "Imao sam deset godina kad smo prvi put putovali na otok. Dok je trajekt plovio, ja sam stajao i gledao galebove. Plivao sam dok sunce nije zašlo, jer je more bilo toplo kao juha. Neka mjesta nisu samo mjesta. Ona su uspomene.",
-        "opis": "Answer from the text."
+        "info": "Comprehension on Ana's memory. The connectors lead to the answers: *kad* tells you how old she was, *dok* what she did on the ferry, *jer* why she swam so long, and the last line what some places really are.",
+        "infokratko": "*kad* → her age; *dok* → on the ferry; *jer* → why she swam.",
+        "opis": "Answer from the text.",
+        "tekst": "Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo prvi put putovali na otok. Dok je trajekt plovio, ja sam stajala i gledala galebove. Otok, koji je izgledao malen, postao je cijeli moj svijet. Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. Ako jednog dana imam djecu, vodit ću i njih na isti otok. Zato što neka mjesta nisu samo mjesta. Ona su uspomene."
       },
       "stavke": [
         [
-          "Koliko godina je imao?",
+          "Koliko godina je Ana imala?",
           "deset",
-          "dvadeset"
+          "dvadeset",
+          "pet"
         ],
         [
-          "Što je gledao s trajekta?",
+          "Kako su putovali na otok?",
+          "trajektom",
+          "avionom",
+          "autom"
+        ],
+        [
+          "Što je gledala s trajekta?",
           "galebove",
-          "valove"
+          "valove",
+          "ribe"
         ],
         [
-          "Zašto je plivao dugo?",
+          "Zašto je plivala dugo?",
           "jer je more bilo toplo kao juha",
-          "jer je bio sam"
+          "jer je bila sama",
+          "jer nije bilo sunca"
+        ],
+        [
+          "Kamo će voditi svoju djecu?",
+          "na isti otok",
+          "u Zagreb",
+          "na planinu"
         ],
         [
           "Što su neka mjesta?",
           "uspomene",
-          "samo mjesta"
+          "samo mjesta",
+          "otoci"
         ]
       ],
       "sortkljuc": 2004002,
-      "bodovi": 1885
+      "bodovi": 1102
     },
     {
       "cjelina": "Practice 20",
@@ -88969,8 +110957,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "Type the connector",
       "meta": {
-        "tekst": "Postoji ljeto koje nikad neću zaboraviti. Dok je trajekt plovio, gledao sam galebove. Plivao sam dok sunce nije zašlo. Ako jednog dana budem imao djecu, vodit ću i njih na isti otok.",
-        "opis": "Fill in the connector from the text."
+        "info": "Copy each connector back into its line. *Koje* describes the summer (a neuter noun), *kad* gives the time, *dok* two things at once, *jer* the reason and *ako* the plan. Read the whole line before you choose.",
+        "infokratko": "*koje* (the summer), *kad* time, *dok* at once, *jer* reason, *ako* plan.",
+        "opis": "Fill in the connector from the text.",
+        "tekst": "Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo prvi put putovali na otok. Dok je trajekt plovio, ja sam stajala i gledala galebove. Otok, koji je izgledao malen, postao je cijeli moj svijet. Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. Ako jednog dana imam djecu, vodit ću i njih na isti otok."
       },
       "stavke": [
         [
@@ -88978,20 +110968,36 @@ window.PODACI = {
           "koje"
         ],
         [
-          "___ je trajekt plovio, gledao sam galebove.",
+          "Imala sam deset godina ___ smo prvi put putovali na otok.",
+          "kad"
+        ],
+        [
+          "___ je trajekt plovio, gledala sam galebove.",
           "Dok"
         ],
         [
-          "Plivao sam ___ sunce nije zašlo.",
-          "dok"
+          "Otok, ___ je izgledao malen, postao je cijeli moj svijet.",
+          "koji"
         ],
         [
-          "___ jednog dana budem imao djecu...",
+          "Plivala sam, ___ je more bilo toplo kao juha.",
+          "jer"
+        ],
+        [
+          "___ jednog dana imam djecu, vodit ću ih na otok.",
           "Ako"
+        ],
+        [
+          "More je bilo toplo ___ juha.",
+          "kao"
+        ],
+        [
+          "Neka mjesta nisu samo mjesta, ___ su uspomene.",
+          "nego"
         ]
       ],
       "sortkljuc": 2004003,
-      "bodovi": 2207
+      "bodovi": 1293
     },
     {
       "cjelina": "Practice 20",
@@ -89000,22 +111006,29 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 2: If it's sunny",
-      "meta": {},
+      "meta": {
+        "info": "Ana and Marko plan tomorrow, and nearly every line is a condition with *ako*: *ako je sunčano… ako pada kiša…* The other connectors come too — *koji* for the film, *iako* for the contrast and *dok* for two things at the same time.",
+        "infokratko": "*ako je sunčano, ako pada kiša*; *film koji…, iako je dug, dok ti biraš*.",
+        "opis": "Ana and Marko plan the weekend. Tap **EN** to see any line in English."
+      },
       "stavke": [
         [
-          "— Što radimo sutra ako bude sunca?",
-          "— What are we doing tomorrow if it's sunny?"
+          "Passive words: *htio* (wanted), *onaj* (that one), *baš taj* (exactly that one), *kažu da* (they say that), *mislim* (I do the thinking)."
         ],
         [
-          "— Ako bude sunca, idemo na rijeku!",
+          "— Marko, što radimo sutra ako je sunčano?",
+          "— Marko, what are we doing tomorrow if it's sunny?"
+        ],
+        [
+          "— Ako je sunčano, idemo na rijeku!",
           "— If it's sunny, we're going to the river!"
         ],
         [
-          "— A ako padne kiša?",
+          "— A ako pada kiša?",
           "— And if it rains?"
         ],
         [
-          "— Ako padne kiša, ostat ćemo doma i gledat ćemo film koji si htio.",
+          "— Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela.",
           "— If it rains, we'll stay home and watch the film you wanted."
         ],
         [
@@ -89032,7 +111045,7 @@ window.PODACI = {
         ],
         [
           "— Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim!",
-          "— Deal! See why we're a good team: you cook, and I think!"
+          "— Deal! See why we're a good team: you cook, and I do the thinking!"
         ]
       ],
       "sortkljuc": 2004004,
@@ -89046,24 +111059,34 @@ window.PODACI = {
       "format": "parovi",
       "naslov": "Match condition & plan",
       "meta": {
+        "info": "Each condition or time from Text 2 beside the plan that goes with it. *Ako* gives the condition, *dok* two things at once, and *iako* something true in spite of the other half.",
+        "infokratko": "*ako* → the plan; *dok* → at the same time; *iako* → in spite of.",
         "opis": "Match the condition with the plan."
       },
       "stavke": [
         [
-          "ako bude sunca",
+          "ako je sunčano",
           "idemo na rijeku"
         ],
         [
-          "ako padne kiša",
-          "ostajemo doma i gledamo film"
+          "ako pada kiša",
+          "ostat ćemo doma i gledat ćemo film"
         ],
         [
-          "dok jedan bira film",
-          "drugi kuha ručak"
+          "dok Marko bira film",
+          "Ana kuha ručak"
+        ],
+        [
+          "iako je film dug",
+          "kažu da je odličan"
+        ],
+        [
+          "film koji traje",
+          "tri sata"
         ]
       ],
       "sortkljuc": 2004005,
-      "bodovi": 1562
+      "bodovi": 762
     },
     {
       "cjelina": "Practice 20",
@@ -89073,20 +111096,22 @@ window.PODACI = {
       "format": "poredak",
       "naslov": "Order the dialogue",
       "meta": {
+        "info": "Rebuild the plan line by line. The sunny plan comes before the rainy one, the film comes up only in the rainy plan, and the lunch is decided after the film. The deal is the last line.",
+        "infokratko": "Sun, then rain, then the film, then lunch, then the deal.",
         "opis": "Rebuild the weekend negotiation."
       },
       "stavke": [
         [
-          "— Što radimo sutra ako bude sunca?"
+          "— Marko, što radimo sutra ako je sunčano?"
         ],
         [
-          "— Ako bude sunca, idemo na rijeku!"
+          "— Ako je sunčano, idemo na rijeku!"
         ],
         [
-          "— A ako padne kiša?"
+          "— A ako pada kiša?"
         ],
         [
-          "— Ako padne kiša, ostat ćemo doma i gledat ćemo film koji si htio."
+          "— Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela."
         ],
         [
           "— Onaj koji traje tri sata?"
@@ -89102,7 +111127,7 @@ window.PODACI = {
         ]
       ],
       "sortkljuc": 2004006,
-      "bodovi": 2368
+      "bodovi": 932
     },
     {
       "cjelina": "Practice 20",
@@ -89111,27 +111136,38 @@ window.PODACI = {
       "broj": 9999,
       "format": "tekst",
       "naslov": "Text 3: Why I'm learning Croatian (an essay)",
-      "meta": {},
+      "meta": {
+        "info": "Ben's essay about learning Croatian, and the longest text of the course. Nearly every sentence uses a connector — *jer, kad, dok, ako* — or *koji* in several forms (*koji zvuči, koje je plavo, koji su stariji*). *Da* after *mislio sam* and *otkrio sam* means *that*.",
+        "infokratko": "*jer, kad, dok, ako*; *koji / koje / koji*; *mislio sam da* = I thought that.",
+        "opis": "Ben, who comes from Canada, writes about his Croatian. Tap **EN** to see any line in English."
+      },
       "stavke": [
+        [
+          "Passive words: *pretežak* (too difficult), *otkrio* (discovered), *otkrivam* (I'm discovering), *stariji od mnogih država* (older than many countries), *stajao* (stood), *učenja* (of learning), *imao smisla* (made sense)."
+        ],
+        [
+          "Zovem se Ben i dolazim iz Kanade.",
+          "My name is Ben and I come from Canada."
+        ],
         [
           "Učim hrvatski jer volim jezik koji zvuči kao glazba.",
           "I'm learning Croatian because I love a language that sounds like music."
         ],
         [
           "Kad sam prvi put čuo hrvatski, mislio sam da je pretežak.",
-          "When I first heard Croatian, I thought it was too hard."
+          "When I first heard Croatian, I thought it was too difficult."
         ],
         [
           "Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada...",
-          "But I discovered that I already know many words: banana, hotel, film, čokolada..."
+          "But I discovered that I already know many words: banana, hotel, film, chocolate..."
         ],
         [
           "Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu.",
-          "While I learn the language, I'm also discovering the country: a sea that is blue like in the pictures, cities that are older than many countries, and people who always have time for coffee."
+          "While I learn the language, I'm also discovering the country: a sea that is as blue as in the pictures, towns that are older than many countries, and people who always have time for coffee."
         ],
         [
-          "Ako jednom budem stajao na rivi i naručio kavu bez greške, znat ću da je svaki sat učenja imao smisla.",
-          "If one day I stand on the waterfront and order a coffee without a mistake, I will know that every hour of learning made sense."
+          "Ako jednog dana na rivi naručim kavu bez greške, znat ću da je svaki sat učenja imao smisla.",
+          "If one day I order a coffee on the waterfront without a mistake, I'll know that every hour of learning made sense."
         ],
         [
           "A vi? Zašto vi učite hrvatski?",
@@ -89149,17 +111185,19 @@ window.PODACI = {
       "format": "izbor",
       "naslov": "True or false?",
       "meta": {
-        "tekst": "Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... More koje je plavo kao na slikama, gradovi koji su stariji od mnogih država i ljudi koji uvijek imaju vremena za kavu.",
-        "opis": "Tap true or false."
+        "info": "Check each statement against Ben's essay. *Mislio sam da je pretežak* is what he thought at the start, *otkrio sam da već znam mnogo riječi* is what he found out, and the *koji* parts describe the country.",
+        "infokratko": "At the start: *pretežak*. Then: *već znam mnogo riječi*. *koji* describes the country.",
+        "opis": "Tap true or false.",
+        "tekst": "Zovem se Ben i dolazim iz Kanade. Učim hrvatski jer volim jezik koji zvuči kao glazba. Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu."
       },
       "stavke": [
         [
-          "Na početku je mislio da je hrvatski pretežak.",
+          "Na početku je Ben mislio da je hrvatski pretežak.",
           "TRUE",
           "FALSE"
         ],
         [
-          "Nije znao nijednu riječ.",
+          "Ben nije znao nijednu riječ.",
           "FALSE",
           "TRUE"
         ],
@@ -89172,10 +111210,20 @@ window.PODACI = {
           "Ljudi nikad nemaju vremena za kavu.",
           "FALSE",
           "TRUE"
+        ],
+        [
+          "Ben dolazi iz Kanade.",
+          "TRUE",
+          "FALSE"
+        ],
+        [
+          "Ben uči hrvatski jer ima posao u Hrvatskoj.",
+          "FALSE",
+          "TRUE"
         ]
       ],
       "sortkljuc": 2004008,
-      "bodovi": 1885
+      "bodovi": 1101
     },
     {
       "cjelina": "Practice 20",
@@ -89185,8 +111233,10 @@ window.PODACI = {
       "format": "upis",
       "naslov": "The essay's key sentence",
       "meta": {
-        "tekst": "Učim hrvatski jer volim jezik koji zvuči kao glazba. Dok učim jezik, otkrivam i zemlju.",
-        "opis": "Fill in the connectors."
+        "info": "Copy the connectors back into Ben's key sentences. *Jer* gives his reason, *koji / koje* describe the language, the sea and the towns, *kad* and *dok* give the time, and *da* follows *mislio sam* and *znat ću*.",
+        "infokratko": "*jer* reason; *koji / koje* description; *kad, dok* time; *da* after *mislio sam*.",
+        "opis": "Fill in the connectors.",
+        "tekst": "Učim hrvatski jer volim jezik koji zvuči kao glazba. Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama i ljude koji uvijek imaju vremena za kavu."
       },
       "stavke": [
         [
@@ -89200,19 +111250,498 @@ window.PODACI = {
         [
           "___ učim jezik, otkrivam i zemlju.",
           "Dok"
+        ],
+        [
+          "___ sam prvi put čuo hrvatski...",
+          "Kad"
+        ],
+        [
+          "...mislio sam ___ je pretežak.",
+          "da"
+        ],
+        [
+          "more ___ je plavo kao na slikama",
+          "koje"
+        ],
+        [
+          "ljudi ___ uvijek imaju vremena za kavu",
+          "koji"
+        ],
+        [
+          "Jezik zvuči ___ glazba.",
+          "kao"
         ]
       ],
       "sortkljuc": 2004009,
-      "bodovi": 2208
+      "bodovi": 1293
     },
     {
       "cjelina": "Practice 20",
       "cjelinanaslov": "Reading: The Summer I Remember",
       "stranica": 10,
       "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 4: A postcard from the island",
+      "meta": {
+        "info": "A real postcard, the kind you still send from a Croatian island. It has a greeting, a few long sentences with *koju, iako, kad* and *da*, a signature and an address. Read it as a postcard: who writes, to whom, from where.",
+        "infokratko": "A real postcard: greeting, *koju, iako, kad, da*, signature, address.",
+        "opis": "Petra writes to Grandma from Brač. Tap **EN** to see any line in English."
+      },
+      "stavke": [
+        [
+          "Passive words: *Pozdrav s otoka* (Greetings from the island), *prekrasno* (wonderful), *vraćamo se* (we're coming back), *jedva čekam* (I can't wait), *puno pozdrava* (lots of love)."
+        ],
+        [
+          "POZDRAV S OTOKA BRAČA!",
+          "GREETINGS FROM THE ISLAND OF BRAČ!"
+        ],
+        [
+          "Draga bako,",
+          "Dear Grandma,"
+        ],
+        [
+          "ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće.",
+          "it's wonderful here! The sea is as warm as soup, and the beach you see in the picture is close to our house."
+        ],
+        [
+          "Svaki dan plivam, iako je voda ujutro hladna.",
+          "I swim every day, although the water is cold in the morning."
+        ],
+        [
+          "Kad pada kiša, čitamo knjige i pijemo čaj.",
+          "When it rains, we read books and drink tea."
+        ],
+        [
+          "Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke!",
+          "Mum says we're coming back on Saturday. I can't wait for your pancakes!"
+        ],
+        [
+          "Puno pozdrava, tvoja Petra",
+          "Lots of love, your Petra"
+        ],
+        [
+          "Za: Marija Horvat, Zagreb",
+          "To: Marija Horvat, Zagreb"
+        ]
+      ],
+      "sortkljuc": 2004010,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Did you read the postcard?",
+      "meta": {
+        "info": "Reading the postcard for the facts. Each answer is in one sentence: *koju* tells you which beach, *iako* what is true in spite of the swimming, *kad* what happens on rainy days, and *da* what Mum says.",
+        "infokratko": "*koju* → the beach; *iako* → the cold water; *kad* → rainy days; *da* → Mum's plan.",
+        "opis": "Answer from the postcard.",
+        "tekst": "POZDRAV S OTOKA BRAČA! Draga bako, ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. Svaki dan plivam, iako je voda ujutro hladna. Kad pada kiša, čitamo knjige i pijemo čaj. Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! Puno pozdrava, tvoja Petra. Za: Marija Horvat, Zagreb"
+      },
+      "stavke": [
+        [
+          "Tko piše razglednicu?",
+          "Petra",
+          "baka",
+          "mama"
+        ],
+        [
+          "Gdje je Petra?",
+          "na otoku Braču",
+          "u Zagrebu",
+          "na planini"
+        ],
+        [
+          "Gdje je plaža?",
+          "blizu kuće",
+          "u centru grada",
+          "daleko od kuće"
+        ],
+        [
+          "Kakva je voda ujutro?",
+          "hladna",
+          "topla kao juha",
+          "vruća"
+        ],
+        [
+          "Što rade kad pada kiša?",
+          "čitaju knjige",
+          "plivaju",
+          "idu na plažu"
+        ],
+        [
+          "Kada se vraćaju?",
+          "u subotu",
+          "u nedjelju",
+          "sutra"
+        ]
+      ],
+      "sortkljuc": 2004011,
+      "bodovi": 1101
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "tekst",
+      "naslov": "Text 5: Four summers",
+      "meta": {
+        "info": "A puzzle rather than a story. Four friends spent the summer in four different places, and every clue joins two thoughts with *jer, iako* or *ali*. Start with Marko: two clues are enough to place him.",
+        "infokratko": "Every clue rules something out. Start with Marko.",
+        "opis": "Four friends, four summers, no labels. Read it twice before you answer."
+      },
+      "stavke": [
+        [
+          "Passive words: *svatko* (each one), *negdje drugdje* (somewhere else), *ove godine* (this year), *tamo* (there)."
+        ],
+        [
+          "Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu.",
+          "Ana, Marko, Petra and Ivan spent the summer in four places: on an island, in the mountains, in Split and in Zagreb."
+        ],
+        [
+          "Svatko je bio negdje drugdje.",
+          "Each one was somewhere else."
+        ],
+        [
+          "Ana nije bila na moru, jer ne voli more.",
+          "Ana wasn't at the seaside, because she doesn't like the sea."
+        ],
+        [
+          "Marko je plivao svaki dan.",
+          "Marko swam every day."
+        ],
+        [
+          "Iako Marko voli Split, ove godine nije bio tamo.",
+          "Although Marko likes Split, this year he wasn't there."
+        ],
+        [
+          "Petra nije bila ni u Zagrebu ni na otoku.",
+          "Petra was neither in Zagreb nor on the island."
+        ],
+        [
+          "Petra cijelo ljeto nije plivala.",
+          "Petra didn't swim all summer."
+        ],
+        [
+          "Ivan je bio u gradu, ali ne u Zagrebu.",
+          "Ivan was in a city, but not in Zagreb."
+        ],
+        [
+          "Tko je bio gdje?",
+          "Who was where?"
+        ]
+      ],
+      "sortkljuc": 2004012,
+      "bodovi": 20
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Solve the puzzle",
+      "meta": {
+        "info": "Deduction from the clues. Marko swam every day but was not in Split, so he was on the island. Ivan was in a city but not in Zagreb, so he was in Split. Petra did not swim and was not in Zagreb, so she was in the mountains, and Ana was in Zagreb.",
+        "infokratko": "Marko first (the island), then Ivan (Split), Petra (the mountains), Ana (Zagreb).",
+        "opis": "Nobody says who was where. Work it out from the text.",
+        "tekst": "Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. Svatko je bio negdje drugdje. Ana nije bila na moru, jer ne voli more. Marko je plivao svaki dan. Iako Marko voli Split, ove godine nije bio tamo. Petra nije bila ni u Zagrebu ni na otoku. Petra cijelo ljeto nije plivala. Ivan je bio u gradu, ali ne u Zagrebu."
+      },
+      "stavke": [
+        [
+          "Gdje je bio Marko?",
+          "na otoku",
+          "u Splitu",
+          "na planini"
+        ],
+        [
+          "Gdje je bio Ivan?",
+          "u Splitu",
+          "u Zagrebu",
+          "na otoku"
+        ],
+        [
+          "Gdje je bila Petra?",
+          "na planini",
+          "u Splitu",
+          "u Zagrebu"
+        ],
+        [
+          "Gdje je bila Ana?",
+          "u Zagrebu",
+          "na otoku",
+          "na planini"
+        ],
+        [
+          "Zašto Ana nije bila na moru?",
+          "jer ne voli more",
+          "jer nije znala plivati",
+          "jer je bila u Splitu"
+        ],
+        [
+          "Tko je plivao svaki dan?",
+          "Marko",
+          "Petra",
+          "Ana"
+        ]
+      ],
+      "sortkljuc": 2004013,
+      "bodovi": 1101
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 14,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending from the texts",
+      "meta": {
+        "nastavci": "i | a | e | u",
+        "info": "One tap finishes *koj___*, and almost every sentence comes from the five texts. A masculine noun and a group of people take **-i**, a feminine noun **-a**, a neuter noun and a feminine plural **-e**, and a feminine noun that is the target in its own sentence **-u**.",
+        "infokratko": "m. and people **-i**, f. **-a**, n. and f. pl. **-e**, f. target **-u**.",
+        "opis": "Almost every sentence came out of the five texts. One tap finishes *koji*."
+      },
+      "stavke": [
+        [
+          "Postoji ljeto koj___ nikad neću zaboraviti.",
+          "There is a summer I will never forget.",
+          "e"
+        ],
+        [
+          "Otok, koj___ je izgledao malen, postao je moj svijet.",
+          "The island, which looked small, became my world.",
+          "i"
+        ],
+        [
+          "Gledat ćemo film koj___ si htjela.",
+          "We'll watch the film you wanted.",
+          "i"
+        ],
+        [
+          "Onaj koj___ traje tri sata?",
+          "The one that lasts three hours?",
+          "i"
+        ],
+        [
+          "Volim jezik koj___ zvuči kao glazba.",
+          "I love a language that sounds like music.",
+          "i"
+        ],
+        [
+          "More koj___ je plavo kao na slikama.",
+          "A sea that is as blue as in the pictures.",
+          "e"
+        ],
+        [
+          "Ljudi koj___ uvijek imaju vremena za kavu.",
+          "People who always have time for coffee.",
+          "i"
+        ],
+        [
+          "Plaža koj___ vidiš na slici je blizu kuće.",
+          "The beach you see in the picture is close to the house.",
+          "u"
+        ],
+        [
+          "Gradovi koj___ su stariji od mnogih država.",
+          "Towns that are older than many countries.",
+          "i"
+        ],
+        [
+          "Baka ima kuću koj___ je blizu mora.",
+          "Grandma has a house that is near the sea.",
+          "a"
+        ],
+        [
+          "To je razglednica koj___ je Petra poslala.",
+          "That's the postcard Petra sent.",
+          "u"
+        ],
+        [
+          "Petra ima psa koj___ voli plivati.",
+          "Petra has a dog that loves swimming.",
+          "i"
+        ],
+        [
+          "Voda koj___ je ujutro hladna.",
+          "The water that is cold in the morning.",
+          "a"
+        ],
+        [
+          "Knjige koj___ čitamo kad pada kiša.",
+          "The books we read when it rains.",
+          "e"
+        ],
+        [
+          "Palačinke koj___ baka peče su odlične.",
+          "The pancakes Grandma makes are excellent.",
+          "e"
+        ],
+        [
+          "Uspomena koj___ nikad neću zaboraviti.",
+          "A memory I will never forget.",
+          "u"
+        ]
+      ],
+      "sortkljuc": 2004014,
+      "bodovi": 1101
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 15,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Why, when, if or although?",
+      "meta": {
+        "info": "Sorting sentences from the texts by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.",
+        "infokratko": "*jer, zato što* reason; *kad, dok* time; *ako* condition; *iako* contrast.",
+        "stupci": "UZROK | VRIJEME | UVJET | SUPROTNOST",
+        "opis": "Why, when, if or although? Sort the sentences from the texts."
+      },
+      "stavke": [
+        [
+          "Plivala sam, jer je more bilo toplo kao juha.",
+          "UZROK"
+        ],
+        [
+          "Učim hrvatski jer volim jezik.",
+          "UZROK"
+        ],
+        [
+          "Ana nije bila na moru, jer ne voli more.",
+          "UZROK"
+        ],
+        [
+          "Zato što neka mjesta nisu samo mjesta.",
+          "UZROK"
+        ],
+        [
+          "Imala sam deset godina kad smo putovali na otok.",
+          "VRIJEME"
+        ],
+        [
+          "Dok je trajekt plovio, gledala sam galebove.",
+          "VRIJEME"
+        ],
+        [
+          "Kad pada kiša, čitamo knjige.",
+          "VRIJEME"
+        ],
+        [
+          "Dok učim jezik, otkrivam i zemlju.",
+          "VRIJEME"
+        ],
+        [
+          "Ako je sunčano, idemo na rijeku.",
+          "UVJET"
+        ],
+        [
+          "Ako pada kiša, ostat ćemo doma.",
+          "UVJET"
+        ],
+        [
+          "Ako jednog dana imam djecu, vodit ću ih na otok.",
+          "UVJET"
+        ],
+        [
+          "Iako je film dug, kažu da je odličan.",
+          "SUPROTNOST"
+        ],
+        [
+          "Svaki dan plivam, iako je voda hladna.",
+          "SUPROTNOST"
+        ],
+        [
+          "Iako Marko voli Split, nije bio tamo.",
+          "SUPROTNOST"
+        ]
+      ],
+      "sortkljuc": 2004015,
+      "bodovi": 1080
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 16,
+      "broj": 9999,
+      "format": "dijalog",
+      "naslov": "Now YOU remember",
+      "meta": {
+        "info": "Your turn: a friend asks about the summer you will never forget. Your answers use *kad, jer, koji* and *iako*, and where your gender shows (*bio / bila*), both forms are offered. The friend reacts to the place you choose.",
+        "infokratko": "*kad, jer, koji, iako*; *bio / bila* in both forms. Your friend reacts.",
+        "opis": "A café, a friend and old memories. Choose your replies. Passive words: *zaboraviti* (to forget), *sjećam se* (I remember), *još uvijek* (still), *Idemo zajedno!* (Let's go together!)."
+      },
+      "stavke": [
+        [
+          "npc",
+          "Koje ljeto nikad nećeš zaboraviti?"
+        ],
+        [
+          "ti",
+          "Ljeto kad sam bio na otoku.",
+          "Ljeto kad sam bila na otoku.",
+          "Ljeto kad sam bio u Splitu.",
+          "Ljeto kad sam bila u Splitu."
+        ],
+        [
+          "npc",
+          "Otok ili Split — to je more! Zašto baš to ljeto?"
+        ],
+        [
+          "ti",
+          "Jer je more bilo toplo kao juha.",
+          "Jer sam tamo upoznao prijatelja koji živi u Splitu.",
+          "Jer sam tamo upoznala prijateljicu koja živi u Splitu."
+        ],
+        [
+          "npc",
+          "Lijepo! A što ste radili?"
+        ],
+        [
+          "ti",
+          "Plivali smo svaki dan, iako je voda ujutro bila hladna.",
+          "Kad je padala kiša, čitali smo knjige."
+        ],
+        [
+          "npc",
+          "Ja se još uvijek sjećam ljeta kad sam prvi put vidjela more. Imala sam pet godina!"
+        ],
+        [
+          "ti",
+          "Kakvo je more bilo?",
+          "Gdje je to bilo?"
+        ],
+        [
+          "npc",
+          "Plavo kao na slikama — u Rovinju. Ako je iduće ljeto sunčano, idemo zajedno?"
+        ],
+        [
+          "ti",
+          "Idemo! Ako imam vremena, idem s tobom.",
+          "Može! Kupit ću kartu za trajekt."
+        ],
+        [
+          "npc",
+          "Dogovoreno! Vidimo se na moru!"
+        ]
+      ],
+      "sortkljuc": 2004016,
+      "bodovi": 932
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 17,
+      "broj": 9999,
       "format": "slaganje",
       "naslov": "Translate by building",
       "meta": {
+        "info": "English in, Croatian out, built from tiles taken from the five texts — your graduation sentences. The connector opens its own half, short words take the second place right after it, and *koji* stands right after its noun.",
+        "infokratko": "Connector opens its half; short words right after it; *koji* after its noun.",
         "opis": "Read the English sentence, then build its Croatian translation — your graduation sentences!"
       },
       "stavke": [
@@ -89221,38 +111750,1469 @@ window.PODACI = {
           "en: I'm learning Croatian because I love a language that sounds like music."
         ],
         [
-          "Ako padne kiša, ostat ćemo doma.",
+          "Ako pada kiša, ostat ćemo doma.",
           "en: If it rains, we'll stay home."
         ],
         [
           "Neka mjesta nisu samo mjesta.",
           "en: Some places are not just places."
+        ],
+        [
+          "Postoji ljeto koje nikad neću zaboraviti.",
+          "en: There is a summer I will never forget."
+        ],
+        [
+          "Imala sam deset godina kad smo prvi put putovali na otok.",
+          "en: I was ten years old when we first travelled to the island."
+        ],
+        [
+          "Dok je trajekt plovio, gledala sam galebove.",
+          "en: While the ferry was sailing, I watched the seagulls."
+        ],
+        [
+          "Ako je sunčano, idemo na rijeku!",
+          "en: If it's sunny, we're going to the river!"
+        ],
+        [
+          "Iako je film dug, kažu da je odličan.",
+          "en: Although the film is long, they say it's excellent."
+        ],
+        [
+          "Ja kuham ručak dok ti biraš film.",
+          "en: I'm cooking lunch while you choose the film."
+        ],
+        [
+          "Kad sam prvi put čuo hrvatski, mislio sam da je pretežak.",
+          "en: When I first heard Croatian, I thought it was too difficult."
+        ],
+        [
+          "Plaža koju vidiš na slici je blizu naše kuće.",
+          "en: The beach you see in the picture is close to our house."
+        ],
+        [
+          "Svaki dan plivam, iako je voda hladna.",
+          "en: I swim every day, although the water is cold."
+        ],
+        [
+          "Mama kaže da se vraćamo u subotu.",
+          "en: Mum says we're coming back on Saturday."
+        ],
+        [
+          "Ana nije bila na moru, jer ne voli more.",
+          "en: Ana wasn't at the seaside, because she doesn't like the sea."
+        ],
+        [
+          "A vi? Zašto vi učite hrvatski?",
+          "en: And you? Why are you learning Croatian?"
         ]
       ],
-      "sortkljuc": 2004010,
-      "bodovi": 1885
+      "sortkljuc": 2004017,
+      "bodovi": 1101
     },
     {
       "cjelina": "Practice 20",
       "cjelinanaslov": "Reading: The Summer I Remember",
-      "stranica": 11,
+      "stranica": 18,
+      "broj": 9999,
+      "format": "baloni",
+      "naslov": "Pop the right balloon",
+      "meta": {
+        "info": "A last timed picture-to-word tap over a Croatian summer. Everything is in its naming form; make a sentence with it in your head as you tap — *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*",
+        "infokratko": "Naming forms. Think *trajekt koji plovi, more koje je plavo*.",
+        "opis": "The last ferry of the summer is leaving! A picture appears — tap the balloon with its word before it floats away."
+      },
+      "stavke": [
+        [
+          "galeb",
+          "seagull"
+        ],
+        [
+          "trajekt",
+          "ferry"
+        ],
+        [
+          "otok",
+          "island"
+        ],
+        [
+          "more",
+          "sea"
+        ],
+        [
+          "riva",
+          "seaside promenade"
+        ],
+        [
+          "plaža",
+          "beach"
+        ],
+        [
+          "sunce",
+          "sun"
+        ],
+        [
+          "brod",
+          "boat"
+        ],
+        [
+          "val",
+          "wave"
+        ],
+        [
+          "pijesak",
+          "sand"
+        ],
+        [
+          "sladoled",
+          "ice cream"
+        ],
+        [
+          "kava",
+          "coffee"
+        ]
+      ],
+      "sortkljuc": 2004018,
+      "bodovi": 1101
+    },
+    {
+      "cjelina": "Practice 20",
+      "cjelinanaslov": "Reading: The Summer I Remember",
+      "stranica": 19,
       "broj": 9999,
       "format": "tekst",
       "naslov": "Final challenge",
-      "meta": {},
+      "meta": {
+        "info": "The last page of the course's reading. Say your own answer to the essay's question out loud, in one sentence with *jer* or *koji* — there is no wrong answer here, only your own Croatian.",
+        "infokratko": "Your own answer, out loud: one sentence with *jer* or *koji*."
+      },
       "stavke": [
         [
           "And now — say YOUR answer out loud: **Zašto vi učite hrvatski?**"
         ],
         [
-          "One sentence with *jer* or *koji*. There's no wrong answer — only your first real Croatian thought."
+          "One sentence with *jer* or *koji*. There's no wrong answer — only your own first real Croatian thought."
         ],
         [
           "*Kraj tečaja — čestitamo!* 🎓"
         ]
       ],
-      "sortkljuc": 2004011,
+      "sortkljuc": 2004019,
       "bodovi": 20
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 1,
+      "broj": 9999,
+      "format": "parovi",
+      "naslov": "Match the words",
+      "meta": {
+        "trajanje": "2400",
+        "prag": "75",
+        "info": "The words of Level 20: connectors, memories, the sea and the words for learning a language. Nouns are in their naming form and verbs in the infinitive. Several connectors look alike — *kad, ako, dok, iako* — so read the English carefully.",
+        "infokratko": "Level 20 words: connectors, memories, the sea, learning.",
+        "opis": "Match each Croatian word with its English meaning."
+      },
+      "stavke": [
+        [
+          "jer",
+          "because"
+        ],
+        [
+          "kad",
+          "when"
+        ],
+        [
+          "ako",
+          "if"
+        ],
+        [
+          "dok",
+          "while, until"
+        ],
+        [
+          "iako",
+          "although"
+        ],
+        [
+          "kao",
+          "like, as"
+        ],
+        [
+          "da",
+          "that"
+        ],
+        [
+          "čak",
+          "even"
+        ],
+        [
+          "ipak",
+          "still, after all"
+        ],
+        [
+          "dakle",
+          "so, therefore"
+        ],
+        [
+          "mnogo",
+          "many, a lot"
+        ],
+        [
+          "neki",
+          "some"
+        ],
+        [
+          "prvi put",
+          "the first time"
+        ],
+        [
+          "jednog dana",
+          "one day"
+        ],
+        [
+          "uspomena",
+          "memory"
+        ],
+        [
+          "prošlost",
+          "past"
+        ],
+        [
+          "galeb",
+          "seagull"
+        ],
+        [
+          "riva",
+          "seaside promenade"
+        ],
+        [
+          "uvala",
+          "cove"
+        ],
+        [
+          "svjetionik",
+          "lighthouse"
+        ],
+        [
+          "jedrilica",
+          "sailboat"
+        ],
+        [
+          "ribar",
+          "fisherman"
+        ],
+        [
+          "školjka",
+          "seashell"
+        ],
+        [
+          "greška",
+          "mistake"
+        ],
+        [
+          "zemlja",
+          "country, land"
+        ],
+        [
+          "država",
+          "state"
+        ],
+        [
+          "život",
+          "life"
+        ],
+        [
+          "priroda",
+          "nature"
+        ],
+        [
+          "dnevnik",
+          "diary"
+        ],
+        [
+          "melodija",
+          "melody"
+        ],
+        [
+          "zaboraviti",
+          "to forget"
+        ],
+        [
+          "pamtiti",
+          "to remember (keep in mind)"
+        ],
+        [
+          "otkriti",
+          "to discover"
+        ],
+        [
+          "zvučati",
+          "to sound"
+        ],
+        [
+          "izgledati",
+          "to look like, to seem"
+        ],
+        [
+          "postati",
+          "to become"
+        ],
+        [
+          "ploviti",
+          "to sail"
+        ],
+        [
+          "reći",
+          "to say, to tell"
+        ],
+        [
+          "vratiti se",
+          "to come back"
+        ],
+        [
+          "obećati",
+          "to promise"
+        ],
+        [
+          "trajati",
+          "to last"
+        ],
+        [
+          "postojati",
+          "to exist"
+        ],
+        [
+          "smisao",
+          "sense, meaning"
+        ],
+        [
+          "učenje",
+          "learning"
+        ],
+        [
+          "znanje",
+          "knowledge"
+        ],
+        [
+          "pravilo",
+          "rule"
+        ],
+        [
+          "rječnik",
+          "dictionary"
+        ],
+        [
+          "lak",
+          "easy, light"
+        ],
+        [
+          "dug",
+          "long"
+        ],
+        [
+          "sličan",
+          "similar"
+        ]
+      ],
+      "sortkljuc": 2005001,
+      "bodovi": 921
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 2,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "What does it mean?",
+      "meta": {
+        "info": "Recognition of the Level 20 words, with three meanings to choose from. The wrong options come from the same group — connectors, the sea or learning — so the words that are close in meaning are the real test.",
+        "infokratko": "Level 20 words; the wrong options come from the same group.",
+        "opis": "Pick the correct meaning."
+      },
+      "stavke": [
+        [
+          "iako",
+          "although",
+          "because",
+          "while"
+        ],
+        [
+          "dok",
+          "while, until",
+          "when",
+          "if"
+        ],
+        [
+          "kad",
+          "when",
+          "while, until",
+          "although"
+        ],
+        [
+          "kao",
+          "like, as",
+          "that",
+          "because"
+        ],
+        [
+          "čak",
+          "even",
+          "still",
+          "so"
+        ],
+        [
+          "ipak",
+          "still, after all",
+          "even",
+          "so, therefore"
+        ],
+        [
+          "dakle",
+          "so, therefore",
+          "still",
+          "even"
+        ],
+        [
+          "neki",
+          "some",
+          "many",
+          "the same"
+        ],
+        [
+          "uspomena",
+          "memory",
+          "past",
+          "diary"
+        ],
+        [
+          "prošlost",
+          "past",
+          "future",
+          "memory"
+        ],
+        [
+          "svjetionik",
+          "lighthouse",
+          "sailboat",
+          "cove"
+        ],
+        [
+          "uvala",
+          "cove",
+          "coast",
+          "seashell"
+        ],
+        [
+          "jedrilica",
+          "sailboat",
+          "ferry",
+          "lighthouse"
+        ],
+        [
+          "školjka",
+          "seashell",
+          "sand",
+          "cove"
+        ],
+        [
+          "greška",
+          "mistake",
+          "rule",
+          "meaning"
+        ],
+        [
+          "zemlja",
+          "country, land",
+          "state",
+          "nature"
+        ],
+        [
+          "zaboraviti",
+          "to forget",
+          "to remember (keep in mind)",
+          "to discover"
+        ],
+        [
+          "pamtiti",
+          "to remember (keep in mind)",
+          "to forget",
+          "to promise"
+        ],
+        [
+          "otkriti",
+          "to discover",
+          "to become",
+          "to sail"
+        ],
+        [
+          "postati",
+          "to become",
+          "to exist",
+          "to come back"
+        ],
+        [
+          "obećati",
+          "to promise",
+          "to say, to tell",
+          "to remember (keep in mind)"
+        ],
+        [
+          "trajati",
+          "to last",
+          "to sound",
+          "to exist"
+        ],
+        [
+          "zvučati",
+          "to sound",
+          "to seem",
+          "to last"
+        ],
+        [
+          "smisao",
+          "sense, meaning",
+          "knowledge",
+          "rule"
+        ],
+        [
+          "znanje",
+          "knowledge",
+          "learning",
+          "dictionary"
+        ],
+        [
+          "sličan",
+          "similar",
+          "easy, light",
+          "long"
+        ]
+      ],
+      "sortkljuc": 2005002,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 3,
+      "broj": 9999,
+      "format": "razvrstavanje",
+      "naslov": "Why, when, if or although?",
+      "meta": {
+        "info": "Sorting sentences by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.",
+        "infokratko": "*jer, zato što* reason; *kad, dok* time; *ako* condition; *iako* contrast.",
+        "stupci": "UZROK | VRIJEME | UVJET | SUPROTNOST",
+        "opis": "Why, when, if or although? Sort the sentences by their connector."
+      },
+      "stavke": [
+        [
+          "Ostajem doma jer pada kiša.",
+          "UZROK"
+        ],
+        [
+          "Učim hrvatski zato što volim more.",
+          "UZROK"
+        ],
+        [
+          "Nosim kaput jer je hladno.",
+          "UZROK"
+        ],
+        [
+          "Kad sam bila mala, živjela sam na otoku.",
+          "VRIJEME"
+        ],
+        [
+          "Dok ti kuhaš, ja čitam.",
+          "VRIJEME"
+        ],
+        [
+          "Kad dođeš, zovi me.",
+          "VRIJEME"
+        ],
+        [
+          "Ako je sunčano, idemo na plažu.",
+          "UVJET"
+        ],
+        [
+          "Ako imaš vremena, dođi na kavu.",
+          "UVJET"
+        ],
+        [
+          "Ako pada kiša, ostat ćemo doma.",
+          "UVJET"
+        ],
+        [
+          "Iako je gramatika teška, učim svaki dan.",
+          "SUPROTNOST"
+        ],
+        [
+          "Iako je vlak spor, ugodan je.",
+          "SUPROTNOST"
+        ],
+        [
+          "Svaki dan plivam, iako je voda hladna.",
+          "SUPROTNOST"
+        ]
+      ],
+      "sortkljuc": 2005003,
+      "bodovi": 921
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 4,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Pick the connector",
+      "meta": {
+        "info": "Choosing the connector that fits both halves. After *znam, mislim, nadam se, rekao je* the answer is *da*; a reason takes *jer*, a condition *ako*, a contrast *iako*, a time *kad* or *dok*. *Kao* cannot introduce a sentence.",
+        "infokratko": "*da* after *znam, mislim*; reason *jer*; condition *ako*; contrast *iako*; time *kad / dok*.",
+        "opis": "Choose the connector that fits."
+      },
+      "stavke": [
+        [
+          "Znam ___ je Zagreb velik.",
+          "da",
+          "jer",
+          "kao"
+        ],
+        [
+          "Ostajem doma ___ sam umorna.",
+          "jer",
+          "da",
+          "kao"
+        ],
+        [
+          "___ je sunčano, idemo na rijeku.",
+          "Ako",
+          "Da",
+          "Kao"
+        ],
+        [
+          "___ je film dug, odličan je.",
+          "Iako",
+          "Da",
+          "Kao"
+        ],
+        [
+          "___ ti kuhaš, ja biram film.",
+          "Dok",
+          "Da",
+          "Kao"
+        ],
+        [
+          "Mislim ___ ćeš doći.",
+          "da",
+          "jer",
+          "iako"
+        ],
+        [
+          "___ sam prvi put čuo hrvatski, mislio sam da je težak.",
+          "Kad",
+          "Da",
+          "Kao"
+        ],
+        [
+          "Jezik zvuči ___ glazba.",
+          "kao",
+          "da",
+          "jer"
+        ],
+        [
+          "Nadam se ___ je sve u redu.",
+          "da",
+          "jer",
+          "ako"
+        ],
+        [
+          "Rekla je ___ nema vremena.",
+          "da",
+          "jer",
+          "kao"
+        ]
+      ],
+      "sortkljuc": 2005004,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 5,
+      "broj": 9999,
+      "format": "nastavak",
+      "naslov": "Tap the ending",
+      "meta": {
+        "nastavci": "i | a | e | u | eg | em | im",
+        "info": "One tap finishes *koj___* in the case its own sentence needs. Subject: **-i** (masculine, people), **-a** (feminine), **-e** (neuter, feminine plural). Target: **-u** for a feminine noun, **-eg** for a person. Place after *u*: **-em**. Means: **-im**.",
+        "infokratko": "subject **-i / -a / -e**; target **-u / -eg**; place **-em**; means **-im**.",
+        "opis": "English above, Croatian below. One tap finishes *koji*."
+      },
+      "stavke": [
+        [
+          "Volim jezik koj___ zvuči kao glazba.",
+          "I love a language that sounds like music.",
+          "i"
+        ],
+        [
+          "Knjiga koj___ čitam je nova.",
+          "The book I'm reading is new.",
+          "u"
+        ],
+        [
+          "More koj___ je plavo.",
+          "A sea that is blue.",
+          "e"
+        ],
+        [
+          "Pjesma koj___ je lijepa.",
+          "A song that is beautiful.",
+          "a"
+        ],
+        [
+          "Čovjek koj___ čekam kasni.",
+          "The man I'm waiting for is late.",
+          "eg"
+        ],
+        [
+          "Grad u koj___ živim je star.",
+          "The town I live in is old.",
+          "em"
+        ],
+        [
+          "Vlak koj___ putujem je spor.",
+          "The train I travel by is slow.",
+          "im"
+        ],
+        [
+          "Ljudi koj___ žive na moru.",
+          "People who live by the sea.",
+          "i"
+        ],
+        [
+          "Plaža koj___ vidiš na slici.",
+          "The beach you see in the picture.",
+          "u"
+        ],
+        [
+          "Knjige koj___ su na stolu.",
+          "The books that are on the table.",
+          "e"
+        ],
+        [
+          "Uspomena koj___ nikad neću zaboraviti.",
+          "A memory I will never forget.",
+          "u"
+        ],
+        [
+          "Selo u koj___ smo bili.",
+          "The village we were in.",
+          "em"
+        ],
+        [
+          "Autobus koj___ idem na posao.",
+          "The bus I take to work.",
+          "im"
+        ],
+        [
+          "Brat koj___ vidim svaki dan.",
+          "The brother I see every day.",
+          "eg"
+        ]
+      ],
+      "sortkljuc": 2005005,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 6,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "koji in the right case",
+      "meta": {
+        "info": "Choosing the case of *koji* from its own sentence. Ask the question inside that sentence: *tko? / što?* gives *koji, koja, koje*; the target gives *koju* or *kojeg*; *gdje?* after *u* gives *kojem* or *kojoj*; *čime?* gives *kojim*.",
+        "infokratko": "subject *koji / koja / koje*; target *koju / kojeg*; place *u kojem / u kojoj*; means *kojim*.",
+        "opis": "The relative pronoun takes the case its own clause needs."
+      },
+      "stavke": [
+        [
+          "film ___ traje tri sata",
+          "koji",
+          "koju",
+          "kojim"
+        ],
+        [
+          "knjiga ___ čitam",
+          "koju",
+          "koja",
+          "kojoj"
+        ],
+        [
+          "more ___ je toplo",
+          "koje",
+          "koji",
+          "koja"
+        ],
+        [
+          "čovjek ___ čekam",
+          "kojeg",
+          "koji",
+          "kojem"
+        ],
+        [
+          "grad u ___ živim",
+          "kojem",
+          "koji",
+          "kojeg"
+        ],
+        [
+          "kuća u ___ živi baka",
+          "kojoj",
+          "koju",
+          "kojom"
+        ],
+        [
+          "vlak ___ putujem",
+          "kojim",
+          "koji",
+          "kojem"
+        ],
+        [
+          "prijatelj ___ pišem pismo",
+          "kojem",
+          "kojim",
+          "kojeg"
+        ],
+        [
+          "ljudi ___ imaju vremena",
+          "koji",
+          "koje",
+          "koja"
+        ],
+        [
+          "pjesma ___ volim",
+          "koju",
+          "koja",
+          "kojoj"
+        ]
+      ],
+      "sortkljuc": 2005006,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 7,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Where do the short words go?",
+      "meta": {
+        "info": "Choosing the sentence with the short words in the right place. After a connector — *jer, kad, ako, da, iako, koji* — the short words *je, sam, ću, ga, se* come immediately after it, because the connector counts as the first word.",
+        "infokratko": "connector + short word: *jer je, da ćeš, kad sam, koji se*.",
+        "opis": "Choose the correct sentence."
+      },
+      "stavke": [
+        [
+          "because it is late",
+          "Idem doma jer je kasno.",
+          "Idem doma jer kasno je.",
+          "Idem doma je jer kasno."
+        ],
+        [
+          "I think you'll come",
+          "Mislim da ćeš doći.",
+          "Mislim da doći ćeš.",
+          "Mislim ćeš da doći."
+        ],
+        [
+          "when I was little",
+          "Kad sam bio mali, živio sam u Splitu.",
+          "Kad bio sam mali, živio sam u Splitu.",
+          "Sam kad bio mali, živio sam u Splitu."
+        ],
+        [
+          "if you see him",
+          "Ako ga vidiš, zovi me.",
+          "Ako vidiš ga, zovi me.",
+          "Ga ako vidiš, zovi me."
+        ],
+        [
+          "although it is cold",
+          "Iako je hladno, plivam.",
+          "Iako hladno je, plivam.",
+          "Je iako hladno, plivam."
+        ],
+        [
+          "she said she was tired",
+          "Rekla je da je umorna.",
+          "Rekla je da umorna je.",
+          "Rekla da je je umorna."
+        ],
+        [
+          "the man who is laughing",
+          "Čovjek koji se smije je moj djed.",
+          "Čovjek koji smije se je moj djed.",
+          "Čovjek se koji smije je moj djed."
+        ],
+        [
+          "when I get back",
+          "Zvat ću te kad se vratim.",
+          "Zvat ću te kad vratim se.",
+          "Zvat ću te se kad vratim."
+        ]
+      ],
+      "sortkljuc": 2005007,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 8,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "The cases, one last time",
+      "meta": {
+        "info": "A review of all six cases from the course. The question behind the word decides the ending: *kamo?* accusative after *u / na*, *gdje?* locative, *komu?* dative, *s kim? / čime?* instrumental, *čiji? / bez čega? / nema* genitive, and the target of the verb accusative.",
+        "infokratko": "accusative, locative, dative, instrumental, genitive — the question decides.",
+        "opis": "The naming form is in brackets. Choose the form that fits."
+      },
+      "stavke": [
+        [
+          "Idem u ___ . (škola)",
+          "školu",
+          "školi",
+          "škole"
+        ],
+        [
+          "Ana je u ___ . (škola)",
+          "školi",
+          "školu",
+          "škole"
+        ],
+        [
+          "Šaljem pismo ___ . (sestra)",
+          "sestri",
+          "sestru",
+          "sestrom"
+        ],
+        [
+          "Idem u kino ___ . (sestra)",
+          "sa sestrom",
+          "sa sestri",
+          "sa sestru"
+        ],
+        [
+          "Kuća moje ___ je stara. (baka)",
+          "bake",
+          "baki",
+          "baku"
+        ],
+        [
+          "Pijem kavu bez ___ . (mlijeko)",
+          "mlijeka",
+          "mlijeko",
+          "mlijekom"
+        ],
+        [
+          "Vidim ___ . (Marko)",
+          "Marka",
+          "Marku",
+          "Markom"
+        ],
+        [
+          "Putujemo ___ . (vlak)",
+          "vlakom",
+          "vlaku",
+          "vlaka"
+        ],
+        [
+          "Pomažem ___ . (brat)",
+          "bratu",
+          "brata",
+          "bratom"
+        ],
+        [
+          "Pričamo o ___ . (more)",
+          "moru",
+          "more",
+          "mora"
+        ],
+        [
+          "dvije ___",
+          "kave",
+          "kava",
+          "kavu"
+        ],
+        [
+          "pet ___",
+          "kava",
+          "kave",
+          "kavi"
+        ],
+        [
+          "Ideš li ___ ? (with me)",
+          "sa mnom",
+          "s ja",
+          "sa meni"
+        ],
+        [
+          "Ključ je kod ___ . (ja)",
+          "mene",
+          "meni",
+          "ja"
+        ]
+      ],
+      "sortkljuc": 2005008,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 9,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "The verbs, one last time",
+      "meta": {
+        "info": "A review of every verb form from the course: the present, the perfect with both genders, the future, the imperative, the conditional and the two aspects. Read the bracket for the person and the time before you choose.",
+        "infokratko": "present, perfect (both genders), future, imperative, conditional, aspect.",
+        "opis": "Choose the correct form."
+      },
+      "stavke": [
+        [
+          "Ja ___ hrvatski svaki dan. (učiti)",
+          "učim",
+          "uči",
+          "učiš"
+        ],
+        [
+          "Jučer sam ___ u kinu. (biti, a woman speaking)",
+          "bila",
+          "bio",
+          "bile"
+        ],
+        [
+          "Ana i Petra su ___ na moru. (biti)",
+          "bile",
+          "bio",
+          "bila"
+        ],
+        [
+          "Sutra ___ plivati. (ja)",
+          "ću",
+          "ćeš",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Plivat ću sutra.",
+          "Plivati ću sutra.",
+          "Ću plivati sutra."
+        ],
+        [
+          "(prijatelju) ___ tri jaja!",
+          "Uzmi",
+          "Uzmaj",
+          "Uzmij"
+        ],
+        [
+          "(grupi) ___ lijevo!",
+          "Skrenite",
+          "Skrenajte",
+          "Skrenijte"
+        ],
+        [
+          "(prijatelju)",
+          "Nemoj kasniti!",
+          "Nemoj kasni!",
+          "Nemoj kasniš!"
+        ],
+        [
+          "Ja ___ kupio brod.",
+          "bih",
+          "bismo",
+          "biste"
+        ],
+        [
+          "Mi ___ putovali cijelu godinu.",
+          "bismo",
+          "bih",
+          "biste"
+        ],
+        [
+          "Napokon je ___ pismo. (Marko)",
+          "napisao",
+          "pisao",
+          "napisati"
+        ],
+        [
+          "Cijelo poslijepodne je ___ pismo. (Ana)",
+          "pisala",
+          "napisala",
+          "pisao"
+        ],
+        [
+          "Moram ___ na posao.",
+          "ići",
+          "idem",
+          "idi"
+        ],
+        [
+          "___ imam milijun eura, kupio bih vilu.",
+          "Da",
+          "Ako"
+        ]
+      ],
+      "sortkljuc": 2005009,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 10,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "Read: the last letter",
+      "meta": {
+        "info": "A letter that uses almost everything from the course: the past, the future, the conditional, the cases and the connectors. Find the sentence that answers each question — the connector in it (*jer, kad, iako, ako*) usually points the way.",
+        "infokratko": "Everything from the course. The connector in the sentence points to the answer.",
+        "tekst": "Draga Ana, pišem ti iz Splita, gdje sam već mjesec dana. Kad sam stigla, nisam znala ništa reći, iako sam učila hrvatski cijelu godinu. Sada svako jutro pijem kavu na rivi i razgovaram s konobarom koji je iz Zagreba. Jučer sam prvi put naručila ručak bez greške! Grad mi se jako sviđa, jer su ljudi dragi i more je toplo. Ako imaš vremena, dođi u kolovozu. Išle bismo zajedno na otok. Puno pozdrava, tvoja Emma",
+        "opis": "Read the letter, then answer. Passive words: *mjesec dana* (a month), *stigla* (arrived), *svako jutro* (every morning), *mi se sviđa* (I like), *u kolovozu* (in August)."
+      },
+      "stavke": [
+        [
+          "Odakle Emma piše?",
+          "iz Splita",
+          "iz Zagreba",
+          "iz Londona"
+        ],
+        [
+          "Je li Emma znala govoriti kad je stigla?",
+          "nije znala ništa reći",
+          "govorila je odlično",
+          "znala je samo engleski"
+        ],
+        [
+          "S kim Emma razgovara na rivi?",
+          "s konobarom",
+          "s Anom",
+          "s bakom"
+        ],
+        [
+          "Odakle je konobar?",
+          "iz Zagreba",
+          "iz Splita",
+          "s otoka"
+        ],
+        [
+          "Zašto se Emmi sviđa grad?",
+          "jer su ljudi dragi i more je toplo",
+          "jer je velik",
+          "jer ima mnogo kina"
+        ],
+        [
+          "Kamo bi Emma i Ana išle zajedno?",
+          "na otok",
+          "u Zagreb",
+          "na planinu"
+        ]
+      ],
+      "sortkljuc": 2005010,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 11,
+      "broj": 9999,
+      "format": "izbor",
+      "naslov": "From the earlier levels",
+      "meta": {
+        "info": "The beginning of the course, one last time: gender and adjectives, *biti*, the present, the family and connectors, the first accusatives, the plural, the future, possessives and the perfect. Each item comes from Levels 1 to 10.",
+        "infokratko": "Levels 1 to 10: gender, *biti*, present, accusative, plural, future, possessives, perfect.",
+        "opis": "Everything here comes from levels 1 to 10."
+      },
+      "stavke": [
+        [
+          "More je ___ i toplo.",
+          "plavo",
+          "plav",
+          "plava"
+        ],
+        [
+          "Kuća je ___ .",
+          "velika",
+          "velik",
+          "veliko"
+        ],
+        [
+          "Ona ___ pametna.",
+          "je",
+          "sam",
+          "su"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Ja sam Ana.",
+          "Sam ja Ana.",
+          "Ja je Ana."
+        ],
+        [
+          "Ana ___ udžbenik.",
+          "čita",
+          "čitam",
+          "čitaju"
+        ],
+        [
+          "Mi ___ kavu.",
+          "pijemo",
+          "piju",
+          "pijem"
+        ],
+        [
+          "Stan je mali, ___ je dom topao.",
+          "ali",
+          "i",
+          "nego"
+        ],
+        [
+          "Mama kuha svježu ___ .",
+          "ribu",
+          "riba",
+          "ribi"
+        ],
+        [
+          "Vidim ___ . (konobar)",
+          "konobara",
+          "konobar",
+          "konobaru"
+        ],
+        [
+          "Množina od \"knjiga\" je...",
+          "knjige",
+          "knjigi",
+          "knjiga"
+        ],
+        [
+          "Množina od \"stol\" je...",
+          "stolovi",
+          "stoli",
+          "stole"
+        ],
+        [
+          "Knjige su ___ .",
+          "nove",
+          "novi",
+          "nova"
+        ],
+        [
+          "Plivat ___ svaki dan. (ja)",
+          "ću",
+          "ćeš",
+          "će"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Sutra ću putovati.",
+          "Sutra putovati ću.",
+          "Ću sutra putovati."
+        ],
+        [
+          "Njegov dres je plav, a ___ je crven. (mine)",
+          "moj",
+          "moja",
+          "moje"
+        ],
+        [
+          "___ gitara je nova. (her)",
+          "Njezina",
+          "Njezin",
+          "Njezino"
+        ],
+        [
+          "Ana je ___ , a Marko je svirao gitaru. (pjevati)",
+          "pjevala",
+          "pjevao",
+          "pjevali"
+        ],
+        [
+          "Jučer sam ___ film. (gledati, a man speaking)",
+          "gledao",
+          "gledala",
+          "gledali"
+        ],
+        [
+          "Koja je rečenica točna?",
+          "Gledao sam film.",
+          "Sam gledao film.",
+          "Gledao film sam."
+        ],
+        [
+          "Ana ___ pjevala. (not)",
+          "nije",
+          "ne je",
+          "nisu"
+        ]
+      ],
+      "sortkljuc": 2005011,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 12,
+      "broj": 9999,
+      "format": "slaganje",
+      "naslov": "Build the sentences",
+      "meta": {
+        "info": "The key sentences of the whole course, one per level group, built from tiles. Short words take the second place in each half, the connector opens its own half, and each noun takes the case its job needs.",
+        "infokratko": "The course's key sentences. Short words second; connector opens its half.",
+        "opis": "The English is above — tap the tiles to build the Croatian sentence."
+      },
+      "stavke": [
+        [
+          "More je plavo i toplo.",
+          "en: The sea is blue and warm."
+        ],
+        [
+          "Stan je mali, ali je dom topao.",
+          "en: The flat is small, but the home is warm."
+        ],
+        [
+          "Mama kuha svježu ribu, a ja jedem slatku pitu.",
+          "en: Mum is cooking fresh fish, and I'm eating a sweet pie."
+        ],
+        [
+          "Plivat ću svaki dan.",
+          "en: I will swim every day."
+        ],
+        [
+          "Ana je pjevala, a Marko je svirao gitaru.",
+          "en: Ana was singing, and Marko was playing the guitar."
+        ],
+        [
+          "Marko nikad ništa ne jede.",
+          "en: Marko never eats anything."
+        ],
+        [
+          "Baki šaljem čokoladu, a djedu pišem pismo.",
+          "en: I'm sending Grandma chocolate, and I'm writing Grandpa a letter."
+        ],
+        [
+          "S Markom putujem vlakom.",
+          "en: I'm travelling by train with Marko."
+        ],
+        [
+          "Kuća moje bake je stara.",
+          "en: My grandma's house is old."
+        ],
+        [
+          "Na semaforu skrenite lijevo.",
+          "en: At the traffic lights, turn left."
+        ],
+        [
+          "Kupio bih kuću pokraj mora.",
+          "en: I would buy a house by the sea."
+        ],
+        [
+          "Pila je kavu polako, a on je popio kavu odmah.",
+          "en: She was drinking her coffee slowly, and he drank his up at once."
+        ],
+        [
+          "Učim hrvatski jer volim jezik koji zvuči kao glazba.",
+          "en: I'm learning Croatian because I love a language that sounds like music."
+        ],
+        [
+          "Mislim da je ovo bio dobar početak.",
+          "en: I think this was a good beginning."
+        ],
+        [
+          "Grad u kojem živim je star.",
+          "en: The town I live in is old."
+        ]
+      ],
+      "sortkljuc": 2005012,
+      "bodovi": 1088
+    },
+    {
+      "cjelina": "Test 20",
+      "cjelinanaslov": "Test 20: The Final Test",
+      "stranica": 13,
+      "broj": 9999,
+      "format": "upis",
+      "naslov": "Write it in Croatian",
+      "meta": {
+        "info": "Free production from English, the last task of the course. Each sentence uses a different part of Croatian grammar: cases, tenses, the imperative, the conditional, aspect and joined sentences. Where the speaker's gender shows, both forms are accepted.",
+        "infokratko": "The whole course in sixteen sentences. Both genders accepted.",
+        "opis": "No tiles, no options. Read the English and write the whole Croatian sentence."
+      },
+      "stavke": [
+        [
+          "The sea is blue.",
+          "More je plavo"
+        ],
+        [
+          "I'm drinking coffee without sugar.",
+          "Pijem kavu bez šećera"
+        ],
+        [
+          "I'm going to the cinema with my sister.",
+          "Idem u kino sa sestrom / Sa sestrom idem u kino / Idem sa sestrom u kino"
+        ],
+        [
+          "I'm writing a letter to Grandma.",
+          "Pišem pismo baki / Pišem baki pismo / Baki pišem pismo"
+        ],
+        [
+          "Ana is at school.",
+          "Ana je u školi"
+        ],
+        [
+          "Yesterday I watched a film.",
+          "Jučer sam gledao film / Jučer sam gledala film"
+        ],
+        [
+          "Tomorrow I'll swim.",
+          "Sutra ću plivati / Plivat ću sutra"
+        ],
+        [
+          "Turn left! (polite)",
+          "Skrenite lijevo"
+        ],
+        [
+          "I would like a coffee.",
+          "Htio bih kavu / Htjela bih kavu"
+        ],
+        [
+          "I finally finished writing the letter.",
+          "Napokon sam napisao pismo / Napokon sam napisala pismo"
+        ],
+        [
+          "If it's sunny, we're going to the beach.",
+          "Ako je sunčano, idemo na plažu / Idemo na plažu ako je sunčano"
+        ],
+        [
+          "I know that Zagreb is big.",
+          "Znam da je Zagreb velik"
+        ],
+        [
+          "The book I'm reading is new.",
+          "Knjiga koju čitam je nova"
+        ],
+        [
+          "Although it's cold, I'm swimming.",
+          "Iako je hladno, plivam / Plivam, iako je hladno"
+        ],
+        [
+          "I'm learning Croatian because I love the sea.",
+          "Učim hrvatski jer volim more / Učim hrvatski zato što volim more"
+        ],
+        [
+          "Nobody knows.",
+          "Nitko ne zna"
+        ]
+      ],
+      "sortkljuc": 2005013,
+      "bodovi": 1278
     },
     {
       "cjelina": "Daily challenge 1",

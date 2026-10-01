@@ -118,7 +118,7 @@ opis: Going there, being there, or talking about it? Read the verb and the prepo
 - Knjiga je o rijeci. | O (ABOUT)
 - Razgovaramo o fakultetu. | O (ABOUT)
 - Pišem pismo o baki. | O (ABOUT)
-- Svi govore o tebi. | O (ABOUT)
+- Baka govori o tebi. | O (ABOUT)
 - Pričamo o Splitu. | O (ABOUT)
 - Ostajem u uredu. | GDJE?
 
@@ -259,7 +259,7 @@ opis: Read the text, then answer. Every word you need is in the text itself.
 - Što Marko zna o ključu? | ništa | sve | gdje je
 - Gdje je baka? | u ljekarni | na fakultetu | u kuhinji
 - Gdje je ključ? | u ormaru u hodniku | u torbi | na polici
-- O kome baka uvijek zna sve? | o Petri | o Marku | o ključu
+- Tko uvijek zna sve o Petri? | baka | Marko | nitko
 
 ## From the earlier levels
 format: izbor
@@ -321,5 +321,7 @@ opis: No tiles, no options. Read the English and write the whole Croatian senten
 - We're talking about Grandma. | Pričamo o baki / Razgovaramo o baki / Mi pričamo o baki / Mi razgovaramo o baki
 - They're talking about you. | Govore o tebi / Pričaju o tebi / Oni govore o tebi / Oni pričaju o tebi / Govore o vama / Pričaju o vama / Oni govore o vama / Oni pričaju o vama
 - What are you talking about? | O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate
+- Who are you talking about? | O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate
 - The tourists are on the islands. | Turisti su na otocima
+- We were at the seaside. | Bili smo na moru / Bile smo na moru / Mi smo bili na moru / Mi smo bile na moru
 - I live in Croatia. | Živim u Hrvatskoj / Ja živim u Hrvatskoj

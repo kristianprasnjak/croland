@@ -14,7 +14,10 @@ HOW TO BEHAVE
 - Elements marked {niže...} are further down the page; you can still click them.
 - To type, use action "upisi" (you can type č ć đ š ž directly; the on-screen letter keyboard is optional).
 - You have limited time per day (shown as VRIJEME). When time is up, finish the current exercise and use "kraj_dana".
-- The app may be broken in places. If something doesn't react, don't click it forever — try something else, like a real user would.
+- Marks in {braces} are what you see visually: {odabran} = highlighted/selected, {otvoreno} = flipped/open, {rijesen}/{potroseno} = already done/used, {prekriven: ...} = something is on top of it.
+- "KRATKO SE POJAVILO" = things you saw for a moment right after your action (a flipped card, flashing pictures, a "Correct!" message) before they disappeared. Remember them, like a person would.
+- If a click seems to do nothing, look at the screen again the way a person would (is something selected? do I need to pick the picture first?) and try something sensible. Don't click the same thing more than twice.
+- "NAPOMENA TESTA" lines are about the test machinery, not the app. Never write notes about them.
 
 NOTES — THE IMPORTANT PART
 Almost always use "biljeska": null. Write a note ONLY when something is worth telling the developer:
@@ -26,7 +29,7 @@ Almost always use "biljeska": null. Write a note ONLY when something is worth te
   svidja     — a genuinely strong good moment (not politeness)
   ideja      — a concrete improvement
 vaznost: 1 = small, 2 = noticeable, 3 = would make a real user complain or quit.
-Note text: CROATIAN, 1–2 short concrete sentences (what exactly, where). Never "sve je ok".
+Note text: CROATIAN, 1–2 short concrete sentences (what exactly, where), written as a user would describe it. Never mention element numbers like [23], "radnje", the test, or the harness. Never "sve je ok". Don't repeat a note you already wrote today. Don't carry yesterday's complaints into new notes — note only what happens now.
 If the prompt contains "PITANJE:", answer it in a note only if you have something real to say.
 
 ANSWER WITH JSON ONLY, no other text:
@@ -35,10 +38,13 @@ or with a note: "biljeska":{"tip":"zbunjenost","vaznost":2,"tekst":"..."}
 "pogledaj" = see the real screen as an image (use rarely: when the text seems wrong or layout matters).`;
 }
 
-export function upitKoraka({ zaglavlje, povijest, situacije, zvukovi, neuspjeh, ekran, vrijemeIsteklo }) {
+export function upitKoraka({ zaglavlje, povijest, situacije, zvukovi, neuspjeh, ekran, vrijemeIsteklo, kratko = [], mojeBiljeske = [], zapamceno = [] }) {
   let s = zaglavlje + '\n';
+  if (zapamceno.length) s += '\nSJEĆAŠ SE ŠTO JE ISPOD ZATVORENIH KARATA (vidio si ih okrenute):\n' + zapamceno.join('\n') + '\n(U igri pamćenja: okreni kartu koju još nisi vidio; kad znaš gdje su dvije koje idu zajedno, okreni te dvije jednu za drugom.)\n';
   if (povijest.length) s += '\nDANAS DOSAD (zadnje radnje):\n' + povijest.join('\n') + '\n';
-  if (neuspjeh) s += '\nTVOJA ZADNJA RADNJA NIJE USPJELA: ' + neuspjeh + '\n';
+  if (mojeBiljeske.length) s += '\nTVOJE BILJEŠKE DANAS (ne ponavljaj ih):\n' + mojeBiljeske.map(b => '- ' + b).join('\n') + '\n';
+  if (neuspjeh) s += '\nNAPOMENA TESTA: ' + neuspjeh + '\n';
+  if (kratko.length) s += '\nKRATKO SE POJAVILO NAKON TVOJE RADNJE (pa nestalo):\n' + kratko.map(k => '  ' + k).join('\n') + '\n';
   if (zvukovi && zvukovi.length) s += '\nČUO SI: ' + zvukovi.map(z => '"' + z + '"').join(', ') + '\n';
   for (const q of situacije) s += '\nPITANJE: ' + q + '\n';
   if (vrijemeIsteklo) s += '\nVRIJEME: tvoje vrijeme za danas je isteklo — dovrši ovo što radiš i završi dan (kraj_dana).\n';

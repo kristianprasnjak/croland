@@ -7,6 +7,7 @@ info: Words for a night out and for the people you share it with. **s** / **sa**
 infokratko: Night-out words. **s / sa** + instrumental: *s Markom, sa sestrom*. **S kim?** — with whom?
 opis: Friends, parties and late nights. Tap a card to reveal the meaning.
 - izlazak | a night out
+- večera | dinner
 - zabava | party
 - ples | dance
 - priča | story
@@ -28,6 +29,7 @@ format: kartice
 info: New ways to get somewhere. For *how* you travel, the vehicle takes the instrumental with **no preposition**: *Idem skuterom. Putujemo trajektom.* You know *vlak, autobus, auto, tramvaj, bicikl* from Vocabulary 6, and they work the same way: *vlakom, autobusom*. Walking has its own word: **pješice** (on foot). The ten verbs come with their *ja*-form. **padati** is to fall, and it is also how it rains: *Kiša pada.*
 infokratko: Means of transport: instrumental, no *s*: *Idem skuterom.* On foot: **pješice**. *Kiša pada* — it's raining.
 opis: New vehicles, ten new verbs and a few small words. Tap a card to reveal the meaning.
+- prijevoz | transport
 - skuter → skuterom | scooter
 - metro | metro
 - trajekt → trajektom | ferry

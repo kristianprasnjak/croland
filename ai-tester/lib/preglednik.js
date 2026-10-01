@@ -82,7 +82,7 @@ function snimiEkranUPregledniku(opts) {
     for (const c of k) { const t = (c.innerText || '').trim().toLowerCase(); if (/^(a|b|c|č|ć|d|dž|đ|e|f|g|h|i|j|k|l|lj|m|n|nj|o|p|r|s|š|t|u|v|z|ž|⌫|␣|space)$/.test(t)) slova++; }
     if (slova >= 12 && slova / k.length > 0.8) tipkovnice.add(el);
   });
-  const HINT = /(tocn|točn|kriv|correct|wrong|greska|pogres|odabr|aktiv|selected|active|done|gotov|zaklj|locked|disabled|uspjeh|pogod|oznac|rijes|riješ|potros|zavrs|okren|otvor|flip|match|spoj)/i;
+  const HINT = /(tocn|točn|kriv|correct|wrong|greska|pogres|odabr|aktiv|selected|active|done|gotov|zaklj|locked|disabled|uspjeh|pogod|oznac|rijes|riješ|potros|zavrs|okren|otvor|flip)/i;
   const polozaj = r => {
     const v = r.top < H * 0.33 ? 'gore' : r.top < H * 0.66 ? 'sredina' : 'dolje';
     const h = r.left + r.width / 2 < W * 0.33 ? 'lijevo' : r.left + r.width / 2 > W * 0.66 ? 'desno' : '';
@@ -118,8 +118,14 @@ function snimiEkranUPregledniku(opts) {
       const cx = Math.min(W - 1, Math.max(0, r.left + r.width / 2)), cy = Math.min(H - 1, Math.max(0, r.top + r.height / 2));
       const t = document.elementFromPoint(cx, cy);
       if (t && t !== el && !el.contains(t) && !t.contains(el)) {
-        const pt = (t.getAttribute('title') || t.innerText || t.className || t.tagName).toString().replace(/\s+/g, ' ').trim().slice(0, 30);
-        oznake.push('prekriven: "' + pt + '"');
+        // pokriva li ga traka/tipkovnica pričvršćena na dno ekrana? Onda se samo treba pomaknuti.
+        let fiksno = false;
+        for (let a = t; a && a !== document.body; a = a.parentElement) { const ps = getComputedStyle(a).position; if (ps === 'fixed' || ps === 'sticky') { fiksno = true; break; } }
+        if (fiksno) oznake.push('niže, treba se pomaknuti');
+        else {
+          const pt = (t.getAttribute('title') || t.innerText || t.className || t.tagName).toString().replace(/\s+/g, ' ').trim().slice(0, 30);
+          oznake.push('prekriven: "' + pt + '"');
+        }
       }
     }
     if (t === 'ikona bez natpisa' || t.length <= 2) oznake.push(polozaj(r));
@@ -265,6 +271,36 @@ export class Preglednik {
     try { await this.page.waitForLoadState('domcontentloaded', { timeout: 5000 }); } catch (e) {}
   }
 
+  // Kao pusti(), ali usput "gleda" ekran, da uhvati ono što se pojavi pa nestane
+  // (okrenuta karta, slike koje bljesnu, poruka "Correct!"). Vraća te retke.
+  async pustiIGledaj(ms) {
+    ms = Math.max(300, Math.round(ms));
+    const vidjeno = new Map();   // normalizirani redak -> redak s brojem (da AI zna KOJA je karta bila što)
+    const uzmi = async () => {
+      try {
+        const t = await this.page.evaluate(snimiEkranUPregledniku, { max: 5000 });
+        for (const l of t.tekst.split('\n')) {
+          const k = l.replace(/^\[\d+\] /, '').replace(/\s*\{[^}]*\}\s*$/, '');
+          if (!vidjeno.has(k)) vidjeno.set(k, l.replace(/\s*\{[^}]*\}\s*$/, ''));
+        }
+      } catch (e) {}
+    };
+    let proslo = 0;
+    for (const k of [250, 600, 900, 1200, 1500, 2000, 3000]) {
+      if (proslo >= ms) break;
+      const d = Math.min(k, ms - proslo);
+      try { await this.page.clock.runFor(d); } catch (e) {}
+      proslo += d;
+      await this.page.waitForTimeout(80);
+      await uzmi();
+    }
+    if (proslo < ms) { try { await this.page.clock.runFor(ms - proslo); } catch (e) {} }
+    this.virtualnoMs += ms;
+    await this.page.waitForTimeout(Math.min(600, 150 + ms / 20));
+    try { await this.page.waitForLoadState('domcontentloaded', { timeout: 5000 }); } catch (e) {}
+    return vidjeno;
+  }
+
   async pogled(maxZnakova = 3500) {
     for (let i = 0; i < 3; i++) {
       try {
@@ -312,26 +348,36 @@ export class Preglednik {
     if (rad === 'klik') {
       const el = await this.element(r.n);
       const opis = (r._opis || (await el.innerText().catch(() => '')) || '').replace(/\s+/g, ' ').trim().slice(0, 60);
-      try { await el.click({ timeout: 2500 }); }
-      catch (e) {
-        // Je li element stvarno prekriven nečim drugim? To je pravi nalaz; inače samo klikni silom.
-        const pokriva = await el.evaluate(n => {
-          n.scrollIntoView({ block: 'center' });
-          const r = n.getBoundingClientRect();
-          const x = r.left + r.width / 2, y = r.top + r.height / 2;
-          const top = document.elementFromPoint(x, y);
-          if (!top || top === n || n.contains(top) || top.contains(n)) return null;
-          const t = (top.innerText || top.getAttribute('title') || top.id || top.className || top.tagName).toString().replace(/\s+/g, ' ').trim().slice(0, 60);
-          return t || top.tagName;
-        }).catch(() => null);
-        if (pokriva) this.greska('prekriveno', `"${opis}" je prekriven elementom "${pokriva}" — korisnik ga ne može kliknuti`);
-        if (pokriva) {
-          await el.click({ timeout: 3000, force: true }).catch(() => {});
-          return `klik [${r.n}] "${opis}" (prekriveno: ${pokriva})`;
+      // kao čovjek: pomakni stranicu da je element na sredini ekrana (iznad trake/tipkovnice na dnu)
+      await el.evaluate(n => n.scrollIntoView({ block: 'center', inline: 'center' })).catch(() => {});
+      await this.page.waitForTimeout(120);
+      try { await el.click({ timeout: 1500 }); return `klik [${r.n}] "${opis}"`; }
+      catch (e) { /* miče se, animira se ili je prekriven — probaj kao čovjek: dodir na točku */ }
+      const info = await el.evaluate(async n => {
+        const a = n.getBoundingClientRect();
+        await new Promise(res => setTimeout(res, 200));
+        const b = n.getBoundingClientRect();
+        const mice = Math.abs(a.left - b.left) + Math.abs(a.top - b.top) > 2;
+        const moj = t => t && (t === n || n.contains(t));
+        // čovjek dodirne vidljivi dio elementa — traži točku koja nije prekrivena
+        const tocke = [[.5, .5], [.3, .3], [.7, .3], [.3, .7], [.7, .7], [.15, .5], [.85, .5], [.5, .15], [.5, .85]];
+        for (const [fx, fy] of tocke) {
+          const x = b.left + b.width * fx, y = b.top + b.height * fy;
+          if (x < 0 || y < 0 || x >= innerWidth || y >= innerHeight) continue;
+          if (moj(document.elementFromPoint(x, y))) return { x, y, mice, pokriva: null };
         }
-        await el.click({ timeout: 3000, force: true });
-      }
-      return `klik [${r.n}] "${opis}"`;
+        const x = b.left + b.width / 2, y = b.top + b.height / 2;
+        const top = document.elementFromPoint(x, y);
+        let pokriva = null;
+        if (!mice && top && !moj(top) && !top.contains(n)) {
+          pokriva = (top.innerText || top.getAttribute('title') || top.id || String(top.className) || top.tagName).toString().replace(/\s+/g, ' ').trim().slice(0, 60) || top.tagName;
+        }
+        return { x, y, mice, pokriva };
+      }).catch(() => null);
+      if (!info) throw new Error('Element [' + r.n + '] se ne može kliknuti');
+      if (info.pokriva) this.greska('prekriveno', `"${opis}" je potpuno prekriven elementom "${info.pokriva}" i kad je na sredini ekrana — dodir pogađa taj element`);
+      await this.page.mouse.click(info.x, info.y);
+      return `klik [${r.n}] "${opis}"` + (info.pokriva ? ` (prekriveno: ${info.pokriva})` : '');
     }
     if (rad === 'upisi') {
       let el = null;
@@ -349,7 +395,14 @@ export class Preglednik {
       return `upis "${r.tekst}"${r.enter ? ' + Enter' : ''}`;
     }
     if (rad === 'tipka') { await this.page.keyboard.press(String(r.tipka || 'Enter')); return 'tipka ' + r.tipka; }
-    if (rad === 'natrag') { await this.page.goBack({ timeout: 5000 }).catch(() => {}); return 'natrag (preglednik)'; }
+    if (rad === 'natrag') {
+      // tipka "natrag" preglednika — ali nikad izvan aplikacije
+      const prije = this.page.url();
+      await this.page.goBack({ timeout: 5000 }).catch(() => {});
+      if (!this.page.url().startsWith(`http://127.0.0.1:${this.port}/`)) { await this.page.goto(prije).catch(() => {}); return 'natrag (nema kamo — ostao u aplikaciji)'; }
+      return 'natrag (preglednik)';
+    }
+    if (rad === 'biljeska' || rad === 'pogledaj') return 'čekanje';
     if (rad === 'pomakni') { await this.page.mouse.wheel(0, 600); return 'pomak dolje'; }
     if (rad === 'cekaj') return 'čekanje';
     throw new Error('Nepoznata radnja: ' + rad);

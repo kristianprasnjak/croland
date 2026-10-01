@@ -13,7 +13,7 @@ const ROOT = path.join(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ZASTICENO = path.join(ROOT, 'zasticeno');
 
-const FILES = ['index.html', 'rjecnik.js', 'terms.html', 'privacy.html'];
+const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html'];
 const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily'];
 
 fs.rmSync(DIST, { recursive: true, force: true });

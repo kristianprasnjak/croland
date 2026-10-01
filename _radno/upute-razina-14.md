@@ -17,14 +17,23 @@ Redoslijed po razini: **Lesson → Grammar → Practice → Test**. Vocabulary N
 
 ## Što čitati prije pisanja
 
-| Cjelina | Upute | Uzor (gotove, pregledane) |
-|---|---|---|
-| Lesson | `UPUTE-prosirenje-lekcija-10-20.md` — cijeli dokument, uključujući § 4 specifikaciju za tvoju razinu | `igre/lekcija-10.md`, `lekcija-11.md`, `lekcija-12.md` |
-| Grammar | isti dokument, § 1 i § 3 | `igre/gramatika-10.md`, `-11`, `-12` |
-| Practice | isti dokument, § 1 i § 3 | `igre/praksa-10.md`, `-11`, `-12` |
-| Test | isti dokument, § 1 | `igre/test-10.md`, `-11`, `-12` |
+**Od v5 (30.09.) jedna sesija radi cijelu razinu:** Lesson → Grammar → Practice → Test, redom, i nakon svake cjeline odmah upisuje njezin `GOTOVO` redak. Ako neka cjelina razine već ima `GOTOVO`, preskoči je.
 
-Uvijek pročitaj i: `igre/vokabular-NN.md` iste razine (riječi razine), cjeline iste razine koje su već gotove, `popis lekcija.md` (redak razine), `VODIC-izrada-i-prijevod.md` C2–C4, i `REVIEW-razine-L1-L12.md` § 3–4 (greške koje se ne smiju ponoviti).
+1. **Upute:** `_radno/upute-razina-N.md` — doslovni izvadak svih odjeljaka koji vrijede za razinu N (ovaj dokument, `UPUTE-prosirenje-lekcija-10-20.md` § 1–3, § 4 za tvoju razinu i § 5, `VODIC` C2–C4 i F, `REVIEW` § 3–4, redak iz `popis lekcija.md`). Pročitaj ga **jednom, cijelog**, na početku sesije. Izvorne dokumente otvaraj samo ako ti u izvatku nešto nedostaje.
+2. **Uzori** (gotovi, pregledani), prije pisanja svake cjeline:
+
+| Cjelina | Obavezni uzor | Drugi uzor (za raznolikost) |
+|---|---|---|
+| Lesson | `igre/lekcija-12.md` | `igre/lekcija-11.md` |
+| Grammar | `igre/gramatika-12.md` | `igre/gramatika-11.md` |
+| Practice | `igre/praksa-12.md` | `igre/praksa-11.md` |
+| Test | `igre/test-12.md` | `igre/test-11.md` |
+
+3. `igre/vokabular-NN.md` iste razine (riječi razine) i izvorni kostur cjeline koju pišeš. Cjeline iste razine koje si u ovoj sesiji već napisao imaš u kontekstu — ne čitaj ih ponovno.
+
+**Ako datoteka cjeline već izgleda proširena** (prekinut raniji pokušaj, npr. zbog limita), ne počinji ispočetka: pročitaj je, provjeri po pravilima i dovrši.
+
+**Štednja bez gubitka kvalitete:** svaku datoteku zapiši jednim `Write` kad je gotova (ne gradi je nizom sitnih izmjena); `data.js` (1,9 MB) nikad ne otvaraj — za provjeru služi `provjeri-cjelinu.js`; dnevnik ne čitaj, samo mu dopiši odjeljak na kraj.
 
 ## Pravila koja proizlaze iz pregleda razina 1–12 (obavezna)
 
@@ -42,13 +51,13 @@ Uvijek pročitaj i: `igre/vokabular-NN.md` iste razine (riječi razine), cjeline
 
 Samo datoteku cjeline koju radiš (`igre/lekcija-NN.md`, `gramatika-NN.md`, `praksa-NN.md` ili `test-NN.md`), iznimno kartice u `igre/vokabular-NN.md` (pravilo 8), plus dnevnik i status. Prije pisanja spremi kopiju izvorne datoteke u `igre/_bak-prije-prosirenja/` ako tamo još nije. Zaglavlje (`# Naslov`, `cjelina: …`) ostaje. Postojeći naslovi stranica (`## …`) koji ostaju istog formata zadržavaju točan naslov (bodovi su vezani uz njih).
 
-## Provjera prije kraja
+## Provjera prije kraja (za svaku cjelinu)
 
 1. `node osvjezi.js` prolazi bez greške.
-2. U `data.js` cjelina ima očekivani broj stranica (Lesson 15–19; Grammar, Practice i Test po uzoru na razine 10–12) i svaka stranica ima stavke.
-3. Prođi pravila 1–7 za svoju datoteku i ispravi što ne štima.
+2. `node provjeri-cjelinu.js igre/<datoteka>.md` — nema GRESAKA; svako UPOZORENJE pogledaj i ispravi ili u dnevniku obrazloži zašto je u redu.
+3. **Pročitaj svoj tekst još jednom, stavku po stavku,** i prođi pravila 1–7: skripta hvata samo mehaniku (format, prazna polja, broj stranica, očite klitike); gramatiku, distraktore, rod, vid, dijaloge i logiku priče provjeravaš ti.
 4. Dopiši u `NOCNI-dnevnik-13-20.md` odjeljak `## <Cjelina> N`: broj stranica, što je dodano u vokabular, odluke koje si donio sam, i sve što treba ljudski pregled.
-5. **Tek na kraju** dopiši točno zadani redak (npr. `GOTOVO L13`) u `vokabular-preradba-status.txt`.
+5. **Tek na kraju** dopiši točno zadani redak (npr. `GOTOVO L14`) u `vokabular-preradba-status.txt`, pa prijeđi na sljedeću cjelinu razine.
 
 ## Kad nešto nije jasno
 

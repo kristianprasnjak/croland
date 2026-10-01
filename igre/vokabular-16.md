@@ -49,6 +49,7 @@ opis: The genitive prepositions and the "nema" phrases. Tap a card to reveal the
 - osim | except
 - umjesto | instead of
 - izvan | outside (of)
+- Odakle? | From where?
 - Nema problema! | No problem!
 - Nema žurbe. | No hurry.
 - Nema interneta. | There's no internet.

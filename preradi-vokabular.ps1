@@ -91,6 +91,10 @@ function Radi([string]$oznaka, [string]$prompt, $nista) {
     if (Oznaceno $oznaka) { Pisi "$oznaka GOTOVO"; break }
     $izlaz = ''
     if (Test-Path $log) { $izlaz = Get-Content -Raw -Path $log }
+    if ($izlaz -match '(?i)(failed to authenticate|not logged in|run /login|oauth session expired|invalid api key)') {
+      Pisi "$oznaka - PRIJAVA ISTEKLA. U PowerShellu pokreni: claude  pa /login, zatim ponovno pokreni ovu skriptu. Prekidam."
+      exit 2
+    }
     if (JeLimit $izlaz) {
       $cekaj = MinutaDoObnove $izlaz
       Pisi "$oznaka - limit potrosen, cekam $cekaj min do obnove."
@@ -140,7 +144,7 @@ Radis cijelu razinu $n redom: Lesson $n (igre/lekcija-$nn.md), Grammar $n (igre/
 Preskoci svaku cjelinu koja vec ima redak GOTOVO L$n / G$n / P$n / T$n u vokabular-preradba-status.txt.
 Najprije jednom procitaj cijeli _radno/upute-razina-$n.md - to je doslovni izvadak svih pravila za ovu razinu - i drzi ga se doslovno.
 Za svaku cjelinu: procitaj oba uzora iz tablice u izvatku, napisi datoteku, pokreni node osvjezi.js i node provjeri-cjelinu.js na njoj,
-procitaj svoj tekst jos jednom po pravilima 1-7, dopisi odjeljak u NOCNI-dnevnik-13-20.md
+procitaj svoj tekst jos jednom po pravilima 1-7, dopisi odjeljak u DNEVNIK-razine-13-20.md
 i tek tada dopisi redak GOTOVO za tu cjelinu u vokabular-preradba-status.txt, pa prijedi na sljedecu.
 Kvaliteta je vaznija od brzine i od stednje. Ne postavljaj pitanja - radis bez nadzora. Kad nesto nije jasno, odluci razumno i zapisi odluku u dnevnik.
 "@

@@ -17,6 +17,7 @@ opis: Presents big and small, from a candy to a ring. Tap a card to reveal the m
 - novčanik | wallet
 - kišobran | umbrella
 - kapa | cap
+- rukavice (mn.) | gloves
 - jakna | jacket
 - sapun | soap
 - papir | paper
@@ -56,6 +57,7 @@ info: Words for December, for writing to somebody and for the things you give th
 infokratko: December, messages and gifts without a box. *vijest, pomoć*: feminine. *besplatno* — for free.
 opis: Wishes, messages and good news for the end of the year. Tap a card to reveal the meaning.
 - prosinac | December
+- Božić | Christmas
 - blagdan | holiday
 - snijeg | snow
 - želja | wish

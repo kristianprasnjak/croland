@@ -54,3 +54,151 @@
 [29.09. 11:20] P13 GOTOVO
 [29.09. 11:20] T13 - pokusaj 1
 [29.09. 11:24] T13 - limit potrosen, cekam 259 min do obnove.
+[30.09. 14:02] 1 vec oznacen - preskacem.
+[30.09. 14:02] 2 vec oznacen - preskacem.
+[30.09. 14:02] 3 vec oznacen - preskacem.
+[30.09. 14:02] 4 vec oznacen - preskacem.
+[30.09. 14:02] 5 vec oznacen - preskacem.
+[30.09. 14:02] 6 vec oznacen - preskacem.
+[30.09. 14:02] 7 vec oznacen - preskacem.
+[30.09. 14:02] 8 vec oznacen - preskacem.
+[30.09. 14:02] 9 vec oznacen - preskacem.
+[30.09. 14:02] 10 vec oznacen - preskacem.
+[30.09. 14:02] 11 vec oznacen - preskacem.
+[30.09. 14:02] 12 vec oznacen - preskacem.
+[30.09. 14:02] 13 vec oznacen - preskacem.
+[30.09. 14:02] 14 vec oznacen - preskacem.
+[30.09. 14:02] 15 vec oznacen - preskacem.
+[30.09. 14:02] 16 vec oznacen - preskacem.
+[30.09. 14:02] 17 vec oznacen - preskacem.
+[30.09. 14:02] 18 vec oznacen - preskacem.
+[30.09. 14:02] 19 vec oznacen - preskacem.
+[30.09. 14:02] 20 vec oznacen - preskacem.
+[30.09. 14:02] T13 - pokusaj 1
+[30.09. 14:05] T13 GOTOVO
+[30.09. 14:05] T14 - pokusaj 1
+[30.09. 14:22] T14 GOTOVO
+[30.09. 14:22] T15 - pokusaj 1
+[30.09. 14:33] T15 - limit potrosen, cekam 270 min do obnove.
+[30.09. 20:49] 1 vec oznacen - preskacem.
+[30.09. 20:49] 2 vec oznacen - preskacem.
+[30.09. 20:49] 3 vec oznacen - preskacem.
+[30.09. 20:49] 4 vec oznacen - preskacem.
+[30.09. 20:49] 5 vec oznacen - preskacem.
+[30.09. 20:49] 6 vec oznacen - preskacem.
+[30.09. 20:49] 7 vec oznacen - preskacem.
+[30.09. 20:49] 8 vec oznacen - preskacem.
+[30.09. 20:49] 9 vec oznacen - preskacem.
+[30.09. 20:49] 10 vec oznacen - preskacem.
+[30.09. 20:49] 11 vec oznacen - preskacem.
+[30.09. 20:49] 12 vec oznacen - preskacem.
+[30.09. 20:49] 13 vec oznacen - preskacem.
+[30.09. 20:49] 14 vec oznacen - preskacem.
+[30.09. 20:49] 15 vec oznacen - preskacem.
+[30.09. 20:49] 16 vec oznacen - preskacem.
+[30.09. 20:49] 17 vec oznacen - preskacem.
+[30.09. 20:49] 18 vec oznacen - preskacem.
+[30.09. 20:49] 19 vec oznacen - preskacem.
+[30.09. 20:49] 20 vec oznacen - preskacem.
+[30.09. 20:49] T13 vec oznacen - preskacem.
+[30.09. 20:49] T14 vec oznacen - preskacem.
+[30.09. 20:49] T15 - pokusaj 1
+[30.09. 20:49] T15 - nije zavrsen, ponavljam za 3 min.
+[30.09. 20:52] T15 - pokusaj 2
+[30.09. 20:52] T15 - nije zavrsen, ponavljam za 3 min.
+[30.09. 20:55] T15 - pokusaj 3
+[30.09. 20:55] T15 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 20:56] T16 - pokusaj 1
+[30.09. 20:56] T16 - nije zavrsen, ponavljam za 3 min.
+[30.09. 20:59] T16 - pokusaj 2
+[30.09. 20:59] T16 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:02] T16 - pokusaj 3
+[30.09. 21:02] T16 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 21:02] T17 - pokusaj 1
+[30.09. 21:02] T17 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:05] T17 - pokusaj 2
+[30.09. 21:05] T17 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:08] T17 - pokusaj 3
+[30.09. 21:08] T17 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 21:08] T18 - pokusaj 1
+[30.09. 21:08] T18 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:11] T18 - pokusaj 2
+[30.09. 21:11] T18 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:14] T18 - pokusaj 3
+[30.09. 21:14] T18 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 21:14] T19 - pokusaj 1
+[30.09. 21:14] T19 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:17] T19 - pokusaj 2
+[30.09. 21:17] T19 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:20] T19 - pokusaj 3
+[30.09. 21:20] T19 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 21:20] T20 - pokusaj 1
+[30.09. 21:20] T20 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:23] T20 - pokusaj 2
+[30.09. 21:23] T20 - nije zavrsen, ponavljam za 3 min.
+[30.09. 21:26] T20 - pokusaj 3
+[30.09. 21:26] T20 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 21:26] Kraj. Status: vokabular-preradba-status.txt
+[30.09. 22:08] 1 vec oznacen - preskacem.
+[30.09. 22:08] 2 vec oznacen - preskacem.
+[30.09. 22:08] 3 vec oznacen - preskacem.
+[30.09. 22:08] 4 vec oznacen - preskacem.
+[30.09. 22:08] 5 vec oznacen - preskacem.
+[30.09. 22:08] 6 vec oznacen - preskacem.
+[30.09. 22:08] 7 vec oznacen - preskacem.
+[30.09. 22:08] 8 vec oznacen - preskacem.
+[30.09. 22:08] 9 vec oznacen - preskacem.
+[30.09. 22:08] 10 vec oznacen - preskacem.
+[30.09. 22:08] 11 vec oznacen - preskacem.
+[30.09. 22:08] 12 vec oznacen - preskacem.
+[30.09. 22:08] 13 vec oznacen - preskacem.
+[30.09. 22:08] 14 vec oznacen - preskacem.
+[30.09. 22:08] 15 vec oznacen - preskacem.
+[30.09. 22:08] 16 vec oznacen - preskacem.
+[30.09. 22:08] 17 vec oznacen - preskacem.
+[30.09. 22:08] 18 vec oznacen - preskacem.
+[30.09. 22:08] 19 vec oznacen - preskacem.
+[30.09. 22:08] 20 vec oznacen - preskacem.
+[30.09. 22:08] T13 vec oznacen - preskacem.
+[30.09. 22:08] T14 vec oznacen - preskacem.
+[30.09. 22:08] T15 - pokusaj 1
+[30.09. 22:08] T15 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:11] T15 - pokusaj 2
+[30.09. 22:11] T15 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:14] T15 - pokusaj 3
+[30.09. 22:14] T15 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 22:14] T16 - pokusaj 1
+[30.09. 22:15] T16 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:18] T16 - pokusaj 2
+[30.09. 22:18] T16 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:21] T16 - pokusaj 3
+[30.09. 22:21] T16 - 3 neuspjela pokusaja, PRESKOCENO. Pogledaj C:\Users\Korisnik\Claude\Projects\croland app v0.11\_arhiva\nocni-rad-log
+[30.09. 22:21] T17 - pokusaj 1
+[30.09. 22:21] T17 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:24] T17 - pokusaj 2
+[30.09. 22:24] T17 - nije zavrsen, ponavljam za 3 min.
+[30.09. 22:27] T17 - pokusaj 3
+[30.09. 22:27] 1 vec oznacen - preskacem.
+[30.09. 22:27] 2 vec oznacen - preskacem.
+[30.09. 22:27] 3 vec oznacen - preskacem.
+[30.09. 22:27] 4 vec oznacen - preskacem.
+[30.09. 22:27] 5 vec oznacen - preskacem.
+[30.09. 22:27] 6 vec oznacen - preskacem.
+[30.09. 22:27] 7 vec oznacen - preskacem.
+[30.09. 22:27] 8 vec oznacen - preskacem.
+[30.09. 22:27] 9 vec oznacen - preskacem.
+[30.09. 22:27] 10 vec oznacen - preskacem.
+[30.09. 22:27] 11 vec oznacen - preskacem.
+[30.09. 22:27] 12 vec oznacen - preskacem.
+[30.09. 22:27] 13 vec oznacen - preskacem.
+[30.09. 22:27] 14 vec oznacen - preskacem.
+[30.09. 22:27] 15 vec oznacen - preskacem.
+[30.09. 22:27] 16 vec oznacen - preskacem.
+[30.09. 22:27] 17 vec oznacen - preskacem.
+[30.09. 22:27] 18 vec oznacen - preskacem.
+[30.09. 22:27] 19 vec oznacen - preskacem.
+[30.09. 22:27] 20 vec oznacen - preskacem.
+[30.09. 22:27] T13 vec oznacen - preskacem.
+[30.09. 22:27] T14 vec oznacen - preskacem.
+[30.09. 22:27] T15 - pokusaj 1
+[30.09. 22:27] T15 - PRIJAVA ISTEKLA. U PowerShellu pokreni: claude  pa /login, zatim ponovno pokreni ovu skriptu. Prekidam.

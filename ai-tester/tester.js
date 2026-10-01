@@ -136,7 +136,8 @@ const PLACANJE_RE = /(subscri|upgrade|unlock|per month|\/month|€|\$\s?\d|start
 async function odigrajDan(ctx) {
   const { st, danas, pr, model, zapis, persona, podaci, sustav, ciljano } = ctx;
   const maxKoraka = ciljano ? (CFG.max_koraka_ciljano || 160) : CFG.max_koraka_po_danu;
-  let neuspjeh = null, zvukovi = [], zadnjaRadnja = null, zahtjevSlike = false;
+  let neuspjeh = null, zvukovi = [], zadnjaRadnja = null, zahtjevSlike = false, vidjenoUsput = null, ekranPrijeRadnje = '', kratkoZaSljedeci = [];
+  const norm = l => l.replace(/^\[\d+\] /, '').replace(/\s*\{[^}]*\}\s*$/, '');
   const pitanjaNaCekanju = danas.pitanjaNaCekanju || (danas.pitanjaNaCekanju = []);
   let prosliEkran = '';
   const zaglavlje = () => {
@@ -176,7 +177,7 @@ async function odigrajDan(ctx) {
         if (danas.vanCilja > 8) { danas.prisilniKraj = 'izašao iz ciljane cjeline'; break; }
       }
     }
-    if (vjezbaKljuc !== danas.vjezbaSad) { danas.vjezbaSad = vjezbaKljuc; danas.vjezbaOd = pr.virtualnoMs; danas.pitanoDugo = false; }
+    if (vjezbaKljuc !== danas.vjezbaSad) { danas.vjezbaSad = vjezbaKljuc; danas.vjezbaOd = pr.virtualnoMs; danas.pitanoDugo = false; danas.zapamceno = {}; }
     else if (!danas.pitanoDugo && pr.virtualnoMs - danas.vjezbaOd > 7 * 60e3 && v.vjezba) {
       danas.pitanoDugo = true; situacije.push(P.pitanjeDugo(Math.round((pr.virtualnoMs - danas.vjezbaOd) / 60e3)));
     }
@@ -189,7 +190,8 @@ async function odigrajDan(ctx) {
     if (zadnjaRadnja && zadnjaRadnja !== 'cekaj' && zadnjaRadnja !== 'pogledaj' && v.hash === danas.zadnjiHash) danas.isti = (danas.isti || 0) + 1;
     else if (v.hash !== danas.zadnjiHash) danas.isti = 0;
     danas.zadnjiHash = v.hash;
-    if (danas.isti === 3) situacije.push(P.PITANJE_ZAPEO);
+    danas.zapeoPitano = danas.zapeoPitano || [];
+    if (danas.isti === 3 && !danas.zapeoPitano.includes(vjezbaKljuc)) { danas.zapeoPitano.push(vjezbaKljuc); situacije.push(P.PITANJE_ZAPEO); }
     if (danas.isti >= 6) {
       const sl = zapis.imeSlike(`zapeo_d${danas.dan}_k${danas.koraci}`);
       await pr.slika(path.join(zapis.dir, sl));
@@ -207,9 +209,12 @@ async function odigrajDan(ctx) {
     let slikaB64 = null;
     if (slikaZaAI) { slikaB64 = await pr.slikaBase64(); danas.slikeAI = (danas.slikeAI || 0) + 1; }
 
+    const kratko = kratkoZaSljedeci; kratkoZaSljedeci = [];
     const upit = P.upitKoraka({
       zaglavlje: zaglavlje() + ((danas.koraci < 4 || !v.vjezba || ciljano) && st.pamtim ? '\nPAMTIŠ OD PRIJE:\n' + st.pamtim : ''),
-      povijest: danas.povijest.slice(-8), situacije, zvukovi, neuspjeh, ekran: v.tekst,
+      zapamceno: Object.entries(danas.zapamceno || {}).filter(([n]) => new RegExp('^\\[' + n + '\\] \\?').test(v.tekst.split('\n').find(l => l.startsWith('[' + n + '] ')) || '')).map(([n, t]) => '[' + n + '] = ' + t),
+      povijest: danas.povijest.slice(-12), situacije, zvukovi, neuspjeh, ekran: v.tekst, kratko,
+      mojeBiljeske: danas.biljeske.slice(-5).map(b => b.replace(/^B\d+ /, '').slice(0, 90)),
       vrijemeIsteklo: !ciljano && vmin >= danas.budzet
     });
     let odg = null, sirovo = '';
@@ -253,9 +258,20 @@ async function odigrajDan(ctx) {
       if (red) odg._opis = red.slice(String(odg.n).length + 3).replace(/\s*\{[^}]*\}\s*$/, '');
     }
     try { opis = await pr.izvrsi(odg); }
-    catch (e) { neuspjeh = String(e.message).split('\n')[0].slice(0, 160); opis = rad + ' [NEUSPJEH]'; }
-    await pr.pusti(ljudskoVrijeme(odg, prosliEkran || v.tekst, v.tekst));
+    catch (e) { neuspjeh = 'tehnička greška testa, ne aplikacije — pogledaj ekran ponovno (' + String(e.message).split('\n')[0].slice(0, 100) + ')'; opis = rad + ' [NEUSPJEH]'; }
+    ekranPrijeRadnje = v.tekst;
+    vidjenoUsput = await pr.pustiIGledaj(ljudskoVrijeme(odg, prosliEkran || v.tekst, v.tekst));
     prosliEkran = v.tekst;
+    // ostao u aplikaciji?
+    try {
+      const url = pr.page.url();
+      if (!url.startsWith(`http://127.0.0.1:${CFG.port}/`) || /\/(privacy|terms)\.html/.test(url) && danas.vanAplikacije > 3) {
+        if (!url.startsWith(`http://127.0.0.1:${CFG.port}/`)) {
+          await pr.page.goto(`http://127.0.0.1:${CFG.port}/`).catch(() => {}); await pr.pusti(2000);
+          neuspjeh = 'napustio si aplikaciju pa si je ponovno otvorio';
+        }
+      }
+    } catch (e) {}
     zvukovi = await pr.preuzmiZvukove();
 
     // završene vježbe (napredak u lažnoj bazi ili gostujući napredak)
@@ -300,7 +316,25 @@ async function odigrajDan(ctx) {
       }
     }
 
-    const ishod = neuspjeh ? 'nije uspjelo' : '';
+    // što se kratko pojavilo pa nestalo (okrenuta karta, bljesak slika, poruka)
+    let pokazalo = '';
+    if (vidjenoUsput && odg.n != null) {
+      const r = [...vidjenoUsput.values()].find(l => l.startsWith('[' + odg.n + '] '));
+      const prijeRed = ekranPrijeRadnje.split('\n').find(l => l.startsWith('[' + odg.n + '] '));
+      if (r && (!prijeRed || norm(prijeRed) !== norm(r))) pokazalo = r.replace(/^\[\d+\] /, '').slice(0, 50);
+      // pamti što je ispod koje karte (kao čovjek koji gleda igru pamćenja)
+      if (pokazalo && prijeRed && /^\[\d+\] \?\s*$/.test(prijeRed.replace(/\s*\{[^}]*\}\s*$/, ''))) {
+        danas.zapamceno = danas.zapamceno || {};
+        danas.zapamceno[odg.n] = pokazalo;
+      }
+    }
+    if (vidjenoUsput) {
+      const poslije = await pr.pogled();
+      const sad = new Set(poslije.tekst.split('\n').map(norm)), prije = new Set(ekranPrijeRadnje.split('\n').map(norm));
+      kratkoZaSljedeci = [...vidjenoUsput.entries()].filter(([k]) => k && !sad.has(k) && !prije.has(k) && !/^\(tipkovnica/.test(k)).map(([, raw]) => raw).slice(0, 12);
+      vidjenoUsput = null;
+    }
+    const ishod = neuspjeh ? 'nije uspjelo' : [pokazalo ? 'pokazalo: ' + pokazalo : '', kratkoZaSljedeci.length ? 'kratko vidio: ' + kratkoZaSljedeci.join('; ').slice(0, 90) : ''].filter(Boolean).join(', ');
     danas.povijest.push(`${danas.koraci}. ${opis}${ishod ? ' → ' + ishod : ''}`);
     if (danas.povijest.length > 30) danas.povijest.splice(0, danas.povijest.length - 30);
     zapis.cinjenica({ tip: 'korak', dan: danas.dan, korak: danas.koraci, vmin: +(pr.virtualnoMs / 60e3).toFixed(2), ekran: v.naslov, vjezba: vjezbaKljuc, format,

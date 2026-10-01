@@ -53,6 +53,8 @@ PRAVILA:
 - Status "odbaceno" = developer rejected it: do not include it again unless there is NEW strong evidence (then mention that in "napomena").
 - Status "ispravljeno": include only if notes from AFTER the fix show it again (napomena: "ponovno se javlja").
 - A day with "prekid" was stopped by the TEST HARNESS (step/time cap), not by the app — never report that as a bug or as a UX problem, and discount the persona's complaints about the day ending.
+- AI personas are weak at flip-card memory games ("memorija") and fast timed games: slow progress or frustration there is NOT evidence of a UX problem unless there is an objective bug (error, element not reacting at all).
+- Complaints that only repeat an earlier day's complaint ("again the same...") are the same finding, not new evidence.
 - Ignore pure noise, vague praise and single low-importance feelings. Missing Daily challenge content for far-future dates is not a bug.
 - "sazetak": 4–7 sentences for the developer: how the persona's journey went, the 3 most important things, and where it quit (if it did).
 Format:

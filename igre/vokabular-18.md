@@ -41,6 +41,7 @@ opis: Eleven verbs, a few little words and two cognates. Tap a card to reveal th
 - osjećati → osjećam | to feel
 - zamisliti → zamislim | to imagine
 - dobiti → dobijem | to get
+- kupiti → kupim | to buy
 - štedjeti → štedim | to save (money)
 - sjati → sunce sja | to shine
 - milijun | million

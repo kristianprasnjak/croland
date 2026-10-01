@@ -49,7 +49,7 @@ Samo datoteku cjeline koju radiš (`igre/lekcija-NN.md`, `gramatika-NN.md`, `pra
 1. `node osvjezi.js` prolazi bez greške.
 2. `node provjeri-cjelinu.js igre/<datoteka>.md` — nema GRESAKA; svako UPOZORENJE pogledaj i ispravi ili u dnevniku obrazloži zašto je u redu.
 3. **Pročitaj svoj tekst još jednom, stavku po stavku,** i prođi pravila 1–7: skripta hvata samo mehaniku (format, prazna polja, broj stranica, očite klitike); gramatiku, distraktore, rod, vid, dijaloge i logiku priče provjeravaš ti.
-4. Dopiši u `NOCNI-dnevnik-13-20.md` odjeljak `## <Cjelina> N`: broj stranica, što je dodano u vokabular, odluke koje si donio sam, i sve što treba ljudski pregled.
+4. Dopiši u `DNEVNIK-razine-13-20.md` odjeljak `## <Cjelina> N`: broj stranica, što je dodano u vokabular, odluke koje si donio sam, i sve što treba ljudski pregled.
 5. **Tek na kraju** dopiši točno zadani redak (npr. `GOTOVO L14`) u `vokabular-preradba-status.txt`, pa prijeđi na sljedeću cjelinu razine.
 
 ## Kad nešto nije jasno
