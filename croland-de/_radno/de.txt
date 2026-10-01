@@ -1,0 +1,29 @@
+0	— Dobar dan! | — Guten Tag!
+1	— Dobar dan! Kava, molim. | — Guten Tag! Einen Kaffee, bitte.
+2	— Velika, molim. | — Einen großen, bitte.
+3	**Jetzt schreibst du.** Ja [sam] Ana. Ti [si] student. Ona [je] doktorica. Mi [smo] turisti.
+4	**Jetzt schreibst du.** Ja [sam] student. Ti [si] gladan. Mi [smo] turisti. Oni [su] doma.
+5	**Jetzt schreibst du.** On je [visok]. Ona je [visoka]. Oni su [visoki].
+6	Ja sam Ana. | Ich bin Ana.
+7	Ja sam studentica. | Ich bin Studentin.
+8	— Bok! Ja sam Maja. | — Hallo! Ich bin Maja.
+9	— Ne, ja sam učiteljica. A ti? | — Nein, ich bin Lehrerin. Und du?
+10	— Ja sam pilot. | — Ich bin Pilot.
+11	— Pilot? To je super! | — Pilot? Das ist super!
+12	— Ja sam Talijanka, ali sam sada u Zagrebu. | — Ich bin Italienerin, aber ich bin jetzt in Zagreb.
+13	— Drago mi je, Maja! | — Freut mich, Maja!
+14	— Dobar dan! Kako ste? | — Guten Tag! Wie geht es Ihnen?
+15	— I ja sam dobro. Vi ste turisti? | — Mir geht's auch gut. Sind Sie Touristen?
+16	— Da, molim. Ja sam jako žedan. | — Ja, bitte. Ich bin sehr durstig.
+17	**Jetzt schreibst du.** Ja [čitam] udžbenik. Ti [piješ] sok. Ona [jede] kruh.
+18	**Jetzt schreibst du.** Ja [čitam] udžbenik. Ti [čitaš] udžbenik. Ona [čita] udžbenik.
+19	**Jetzt schreibst du.** pisati → ja [pišem]. raditi → ja [radim]. gledati → ja [gledam].
+20	— Je li film dobar? | — Ist der Film gut?
+21	**Jetzt schreibst du.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao.
+22	**Eine *zašto*-Frage wird mit *jer*** (*weil*) **beantwortet** – das vierte Bindewort, das in der Grammatik dieses Levels auf dich wartet. *Zašto baka kuha? — **Jer** je subota.*
+23	**Jetzt schreibst du.** Ne plivam [jer] je more hladno. Zašto baka kuha? [Jer] je subota.
+24	**Jetzt schreibst du alle vier.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao. Ne plivam [jer] je more hladno.
+25	— Ha! To je savršen vikend. | — Ha! Das ist ein perfektes Wochenende.
+26	Sestra ne uči jer je subota. | Meine Schwester lernt nicht, weil Samstag ist.
+27	Ja ne šetam jer sam umoran. | Ich gehe nicht spazieren, weil ich müde bin.
+28	Ja sjedim i čekam jer sam gladan. | Ich sitze und warte, weil ich hungrig bin.

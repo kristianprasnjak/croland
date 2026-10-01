@@ -1,0 +1,360 @@
+331	listet jedes Wort auf dieser Seite auf, mit ' + IK('zvuk') + ' – und das ' + IK('igra') + '-Spiel direkt darunter übt die Wörter, die du gespeichert hast.', tekst: 'Jedes Wort in den Beispielen, das du nicht kennst, steht im
+332	– es enthält jedes Wort auf dieser Seite. ' + IK('knjiga'), provjera: 'Das
+333	bleibt auch während der Abschlussprüfung offen. Hier ist nichts eine Falle. ' + IK('knjiga'), slaganje: 'Nicht sicher, welches Wort welches ist? Das
+334	Nichts geht je verloren
+335	Keine Strafe, niemals.
+336	Noch keine Wörter.
+337	' + 'Wörter aus dieser Lektion erscheinen hier, sobald du sie zu deinem Wörterbuch hinzufügst ' + 'mit
+338	„+ Zum Wörterbuch hinzufügen“
+339	' + (tekst ? mdInline(tekst) : 'Zu dieser Übung gibt es noch keinen Hinweis. Falls du hier einen erwartet hast, läuft die App mit einer älteren ' + '
+340	– erzeuge sie neu und lade die Seite neu.') + '
+341	Frag zu dieser Seite
+342	Neu anfangen
+343	Hängst du fest oder fragst dich, warum? Frag in deinen eigenen Worten – der Helfer sieht diese Seite.
+344	Fragen
+345	Zieh eines davon
+346	Farbschema
+347	✓ aktiv
+348	Leseschrift
+349	Größe der Oberfläche
+350	Aa
+351	Kopfzeile
+352	Punkte in der Kopfzeile anzeigen
+353	LP · VP · GP · PP neben dem Menü. Standardmäßig aus – ' + 'Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.
+354	Anleitungen
+355	Kürzere Anleitungen
+356	Der Hinweis hinter dem Info-Symbol kommt in einer kürzeren Fassung, wo es eine gibt: ' + 'die Regel und ein Beispiel, ohne Erklärung. Regelseiten bleiben, wie sie sind.
+357	Haftnotizen
+358	Haftnotizen anzeigen
+359	Setzt
+360	zu den schwebenden Symbolen. ' + 'Vier Papierplätze warten im freien Raum neben dem Inhalt — zwei links, ' + 'zwei rechts — und jede Notiz kann liniert, kariert oder blanko sein. Eine Notiz gehört zu ' + 'der Lektion oder dem Minispiel, wo du sie geschrieben hast, und bleibt dort, bis du sie löschst. ' + 'Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. ' + 'Ausschalten blendet deine Notizen nur aus, löscht sie aber nie.' + (cedBroj ? ' Du hast ' + cedBroj + ' Notiz' + (cedBroj === 1 ? '' : 'en') + ' gespeichert.' : '') + '
+361	Vorschau
+362	=
+363	=
+364	' + 'Das Kroatische markiert das Objekt eines Satzes durch seine Endung, nicht durch die Wortstellung. ' + '
+365	=
+366	ist der Apfel, mit dem jemand ' + 'etwas macht. Ändere die Endung, und du änderst, wer auf was einwirkt.
+367	Sitzung wird geprüft …
+368	Start
+369	' + z.osv + ' von ' + z.maks + ' Punkten erreicht
+370	Weiter
+371	' + (m ? 'noch ' + m.treba + ' ' + m.val + ', dann öffnet sich das' : 'schließe diese Reihe ab, um es zu öffnen') + '
+372	Karte ansehen
+373	Alles erledigt
+374	Alles Offene ist abgeschlossen
+375	Sammle irgendwo Punkte, und das nächste Level öffnet sich von selbst.
+376	Karte öffnen
+377	Schnell üben
+378	' + (rj ? rj + ' Wort' + (rj === 1 ? '' : 'e') + ' gelernt' : 'Wörter, die dir begegnen, werden hier gespeichert') + '
+379	Extras
+380	Die lange Form. Eine Sitzung, alle vier Fertigkeiten.
+381	keine Punkte – dein eigener Text
+382	Minispiele
+383	' + MINI_IGRE.length + ' kurze. Jedes ist ein eigener Prototyp, jedes zahlt einmal aus.
+384	Spiele & Extras ' + IK('igra') + '
+385	von ' + maks + ' Punkten erreicht
+386	jedes Spiel zahlt denselben Betrag in
+387	alle vier Währungen
+388	' + 'Jedes Spiel ist ein eigenständiger Prototyp mit eigenem Wortschatz von 246 Wörtern. ' + 'Der Fortschritt wird pro Spiel getrennt gespeichert, und Punkte zählen zum Freischalten von Lektionen.
+389	Im Vollbild spielen · Handy quer halten
+390	Vollbild verlassen
+391	Vollbild
+392	Lektion 0 – Willkommen im Kroatischen
+393	das ganze Alphabet gehört dir · jederzeit wiederholen
+394	 von 30 Buchstaben freigeschaltet
+395	kostenlose Einführung, kein Konto, etwa 5 Minuten
+396	Wort
+397	Gram
+398	Prax
+399	Plus
+400	Lektion 
+401	Level 
+402	Gesperrt
+403	Level
+404	% zum Bestehen
+405	Abgeschlossen
+406	Überblick
+407	Spickzettel
+408	=
+409	Übung 
+410	Test 
+411	Bevor du anfängst
+412	für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.
+413	Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.
+414	Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.
+415	Pausiere, wann du willst. Die Uhr hält mit dir an.
+416	Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.
+417	Dein bisher bestes Ergebnis:
+418	Punkte. Nur ein besseres Ergebnis ersetzt es.
+419	Test starten →
+420	Wenn du vor dem Ende gehst, zählt dieser Versuch nicht.
+421	Pause
+422	Diese Übung überspringen
+423	Test abbrechen?
+424	Der Test wird in einer Sitzung bewertet. Wenn du jetzt gehst, zählt dieser Versuch nicht und nichts wird gespeichert.
+425	Diese Übung überspringen?
+426	Sie wird mit dem bewertet, was du bisher beantwortet hast, und der Test geht weiter. Du kannst nicht zurückkehren.
+427	Unbekanntes Format: 
+428	Pausiert
+429	Die Uhr ist angehalten.
+430	übrig, wenn du zurückkommst.
+431	Nächste Übung →
+432	Dein Ergebnis wird berechnet.
+433	 · dein Ergebnis kommt am Ende
+434	Zeit abgelaufen
+435	nicht erreicht
+436	Übung
+437	 – noch nicht 💪
+438	Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.
+439	Ganzer Test, eine Sitzung. So ist es gelaufen.
+440	Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.
+441	↻ Test wiederholen
+442	← Zurück zu den Lektionen
+443	Diese Einheit wird geladen …
+444	=
+445	=
+446	Diese Einheit ist vorübergehend nicht verfügbar –
+447	ihr Inhalt ist auf dem Server veraltet. Bitte versuch es später noch einmal.
+448	Diese Einheit konnte nicht geladen werden.
+449	Prüfe deine Verbindung und versuch es noch einmal.
+450	‹ App erkunden
+451	Jetzt beenden?
+452	Die Übung endet, und du bekommst die bisher gesammelten Punkte.
+453	Nochmal versuchen?
+454	Der aktuelle Fortschritt in dieser Übung geht verloren.
+455	Das ganze Alphabet gehört dir. 🎉
+456	Gut gemacht! 🎉
+457	Du kannst Kroatisch lesen.
+458	Vor fünf Minuten waren das noch fremde Buchstaben.
+459	Alle 
+460	Wörter aus dieser Lektion sind jetzt in deinem
+461	Wörter aus dieser Lektion sind schon in deinem
+462	Alle 30 Buchstaben freigeschaltet.
+463	Buchstaben sind noch dunkel – wiederhole eine beliebige Übung, um sie aufleuchten zu lassen.
+464	Lektion 1 beginnt den eigentlichen Kurs – 13 Übungen, weiterhin kostenlos.
+465	‹ Erst die App erkunden
+466	title="Diese Übung wiederholen">
+467	nicht gespielt
+468	Alles in dieser Einheit gehört dir – alle
+469	Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.
+470	 warten noch in 
+471	Einheit gemeistert! 🏆
+472	Einheit abgeschlossen! 🎉
+473	\')">‹ Zurück zu 
+474	lesen · TSCHI-ta-ti
+475	lesen
+476	Nom
+477	Gen
+478	Dat
+479	Akk
+480	Vok
+481	Lok
+482	Ins
+483	Singular
+484	Plural
+485	Präsens
+486	Imperativ
+487	Partizip Perfekt
+488	Futurstamm
+489	Steigerung
+490	Aspektpaar
+491	Form von:
+492	Variante von:
+493	Weitere Formen
+494	Aussprache
+495	Hinzugefügt aus
+496	Bild
+497	Aus Favoriten entfernen
+498	Zu Favoriten hinzufügen
+499	Kein Treffer für „
+500	Hier ist noch nichts.
+501	Nicht in der Grammatikdatenbank.
+502	Ganzes Wörterbuch
+503	Alle
+504	Meine Wörter
+505	Meine
+506	Teste deine Wörter
+507	Die Wörterbuchdatei fehlt
+508	rjecnik.js wurde nicht erzeugt – führe osvježi.bat aus und lade die Seite neu.
+509	Noch keine Wörter gespeichert
+510	Jedes Wort aus einer Lektion kannst du hier behalten – tippe auf
+511	darunter. Diese Liste übt der Worttest.
+512	Lektion öffnen
+513	Ganzes Wörterbuch durchsuchen
+514	Alle Wörter anzeigen
+515	noch keine Favoriten
+516	 Einträge im ganzen Wörterbuch
+517	Wörterbuch nicht geladen
+518	Noch keine Favoriten. Tippe auf 
+519	 neben einem Wort, um es hier zu behalten.
+520	Nichts passt zu dieser Suche.
+521	Ende
+522	Kroatisch zuerst – auf Deutsch zuerst umschalten
+523	Deutsch zuerst – auf Kroatisch zuerst umschalten
+524	Worttest
+525	Filter
+526	Test beenden
+527	Favoriten
+528	Nach Lektion
+529	Tippe auf eine oder mehrere Lektionsnummern – 0 bis
+530	Jeder Eintrag im Wörterbuch, nicht nur deine eigenen Wörter.
+531	Nur die Wörter mit Stern
+532	Jedes Wort, das du hinzugefügt hast, alle Lektionen zusammen.
+533	Mein Wörterbuch
+534	Keine Lektion ausgewählt
+535	Wähle im Filter mindestens eine Lektion.
+536	In den ausgewählten Lektionen gibt es noch keine Wortpaare.
+537	Noch keine Favoriten – tippe auf 
+538	 neben einem Wort im Wörterbuch oder auf einer Karte.
+539	Die Wörterbuchdatei fehlt – führe osvježi.bat aus, um rjecnik.js zu erzeugen.
+540	Dein Wörterbuch ist leer – öffne eine Lektion und füge zuerst Wörter hinzu.
+541	Deutsch → Kroatisch
+542	Kroatisch → Deutsch
+543	Schreib es auf Kroatisch …
+544	Schreib es auf Deutsch …
+545	Prüfen
+546	– achte auf die Akzente:
+547	– die Antwort ist:
+548	Nächstes Wort →
+549	Tage in Folge
+550	Serienpunkte erreicht · zählen für LP, VP, GP und PP
+551	Für heute fertig – komm morgen wieder und mach daraus 
+552	Spiel die heutige Challenge für +
+553	 und halte die Serie am Leben.
+554	 und starte eine Serie.
+555	Heute
+556	Ein Bild pro Tag. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.
+557	Die heutige Challenge ist noch nicht fertig. Schau bald wieder vorbei.
+558	Du bist am Ende der täglichen Challenges angekommen. 🎉 Neue sind unterwegs.
+559	Eine Challenge pro Tag. Morgen wird eine neue freigeschaltet.
+560	Wöchentliche Challenges kommen bald.
+561	Woche
+562	Ein Bild pro Woche. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.
+563	Dauert eine Minute, keine Karte nötig. Das wird freigeschaltet:
+564	Melde dich an und mach genau dort weiter, wo du aufgehört hast.
+565	Level 1, die tägliche Challenge und alle Minispiele – kostenlos.
+566	Punkte und Wörterbuch begleiten dich auf jedes Gerät.
+567	Lektion 0 braucht überhaupt kein Konto – sie ist sofort offen.
+568	Lektionspunkte
+569	Wortschatzpunkte
+570	Grammatikpunkte
+571	Praxispunkte
+572	Alles, was du erreicht hast, und der kürzeste Weg zu mehr. 
+573	Klicke auf eine Einheit, um sie Übung für Übung zu sehen.
+574	Du
+575	Freunde & Gruppen
+576	Wo du stehst
+577	Tägliche Serie ·
+578	Wörter in deinem Wörterbuch
+579	Gespielte Übungen
+580	Minispielpunkte
+581	Ein Feld pro Einheit. Klick eines an, um es Übung für Übung zu öffnen – dort
+582	siehst du, welche einzelne Übung noch Punkte hält, und springst direkt wieder hinein.
+583	braucht alle vier Arten auf Level 
+584	Alle anzeigen
+585	Weniger anzeigen ▴
+586	nicht begonnen
+587	in Arbeit
+588	gesperrt – fahr mit der Maus darüber, um zu sehen, was nötig ist
+589	Der ganze Kurs
+590	 Punkte aus allen Einheiten der 
+591	Level (Minispiele und Challenges nicht mitgerechnet)
+592	Alle deine Punkte zusammen:
+593	– Einheiten, Spiele, Challenges und Serie
+594	Lohnt sich zu wiederholen
+595	Die freigeschalteten Übungen mit den meisten offenen Punkten. Nur dein bester Versuch
+596	zählt, also kann Wiederholen Punkte bringen, aber nie welche kosten.
+597	Tägliche Challenges
+598	 sind wert 
+599	Punkte in jeder Währung.
+600	Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen.
+601	Klick eine an, um sie zu öffnen.
+602	" title="Diese Übung öffnen">
+603	warten noch in dieser Einheit.
+604	Alles hier gehört dir – alle
+605	Klick auf eine Übung, um sie zu wiederholen.
+606	Diese Übung öffnen?
+607	Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle 
+608	 Punkte sind noch da.
+609	Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (
+610	) bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.
+611	Übung öffnen
+612	Du hast bereits alle 
+613	 Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also 
+614	ist erneutes Spielen reiner Spaß.
+615	Du hast hier 
+616	 Punkte erreicht. Der Rest wartet noch, und Punkte, die 
+617	du schon hast, können nicht verloren gehen.
+618	 Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.
+619	Dieses Spiel öffnen?
+620	Öffnen: 
+621	Dieser Teil konnte nicht geladen werden.
+622	Deine ID
+623	Kopieren
+624	Nur so kann dich jemand finden. Deine E-Mail-Adresse wird
+625	nie angezeigt – nicht Freunden, nicht dem, der für deinen Zugang bezahlt.
+626	<input class="progIme" id="progNadimak" maxlength="40" placeholder="der Name, den andere sehen" value="
+627	Namen speichern
+628	Bis du einen festlegst, sehen andere nur deine ID.
+629	Jemanden hinzufügen
+630	Fünf Zeichen. Keine Null und kein Buchstabe O, damit man sich nicht vertippen kann.
+631	Wenn du eine Anfrage sendest, seht ihr euch gegenseitig, sobald sie angenommen wird.
+632	Anfrage senden
+633	Wartet
+634	Jemand
+635	möchte deine Punkte sehen
+636	Annehmen
+637	Ablehnen
+638	deine Anfrage – noch nicht beantwortet
+639	Alle, die du hinzugefügt hast
+640	Noch niemand. Teile deine ID oder gib oben die ID von jemand anderem ein.
+641	Punkte sind immer sichtbar. Alles andere nur, wenn die Person ihren
+642	Fortschritt öffentlich gemacht hat – diese Zeilen öffnen sich, wenn du darauf klickst.
+643	Wer
+644	Gesamt
+645	Teilt
+646	Aktualisiert
+647	Was andere von dir sehen
+648	Das gilt für alle in der Liste oben und für niemanden sonst.
+649	Nur Punkte
+650	Deine vier Summen und sonst nichts.
+651	Das ist die Standardeinstellung, und sie ändert sich nie von selbst.
+652	Voller Fortschritt
+653	Jede Einheit mit ihren Punkten – dieselbe
+654	Karte, die du unter „Du“ siehst.
+655	vor über einem Monat
+656	Kopiert
+657	Speichern fehlgeschlagen – versuch es noch einmal.
+658	Gespeichert.
+659	Gelöscht – andere sehen nur deine ID.
+660	Eine ID hat genau fünf Zeichen.
+661	Senden fehlgeschlagen – versuch es später noch einmal.
+662	Niemand hat diese ID.
+663	=
+664	Das ist deine eigene ID.
+665	Anfrage gesendet an 
+666	Punkte insgesamt
+667	Nur lesbar, und nie ihre E-Mail-Adresse.
+668	Zuletzt aktualisiert 
+669	Alles freigeschaltet ✓
+670	Jedes Level ist offen für
+671	alle Konten, gerade jetzt
+672	Croland Plus ✓
+673	Aktiv
+674	Abo verwalten
+675	Link zur Abo-Verwaltung noch nicht eingerichtet
+676	(STRIPE_PORTAL_URL in index.html) – kontaktiere uns vorerst, um zu ändern oder zu kündigen.
+677	Weiterleitung zur Kasse …
+678	Kostenloses Konto – Level 1, tägliche
+679	Challenges und Minispiele freigeschaltet. Abonniere für Level 2 und höher.
+680	Abonnieren
+681	Dein Abo wird bestätigt …
+682	Abmelden
+683	Gespielte Übungen:
+684	Tägliche Serie:
+685	Serienpunkte (zu jeder Währung addiert)
+686	Möchtest du eine Kopie deiner Daten oder willst du sie
+687	löschen lassen? In unserer
+688	Datenschutzerklärung
+689	steht, wie du das beantragst.
+690	=

@@ -1,0 +1,2077 @@
+razina	njemački	hrvatski	engleski	izvor	slika	primjer	primjer_hr	primjer_en
+L0	die Ananas	ananas	pineapple	tečaj	ananas			
+L0	das Auto, Autos	auto	car	osnovni	auto	Jonas wäscht das Auto.	Jonas pere auto.	Jonas is washing the car.
+L0	das Baby, Babys	beba	baby	osnovni				
+L0	der Ball, Bälle	lopta	ball	osnovni	lopta	Max freut sich über den neuen Ball.	Max se raduje novoj lopti.	Max is happy about his new ball.
+L0	die Banane, Bananen	banana	banana	osnovni	banana			
+L0	die Butter (Sg.)	maslac	butter	osnovni				
+L0	der Finger, Finger	prst	finger	osnovni	prst			
+L0	der Fisch, Fische	riba	fish	osnovni	riba	Max isst nicht gern Fisch.	Max ne voli ribu.	Max doesn't like fish.
+L0	der Garten, Gärten	vrt	garden	osnovni	vrt	Herr Schulz: Und ich hätte endlich Zeit für meinen Garten.	Gospodin Schulz: A ja bih napokon imao vremena za vrt.	Herr Schulz: And I'd finally have time for my garden.
+L0	die Gitarre, Gitarren	gitara	guitar	osnovni	gitara	Heute spielt Jonas Gitarre.	Danas Jonas svira gitaru.	Today Jonas is playing the guitar.
+L0	das Glas, Gläser	čaša; staklo	glass	osnovni	čaša			
+L0	die Hand, Hände	ruka, šaka	hand	osnovni	ruka	Steht auf! Hände hoch!	Ustanite! Ruke gore!	Stand up! Hands up!
+L0	das Haus, Häuser	kuća	house	osnovni	kuća	Das Haus ist gelb. Du kannst es nicht verpassen!	Kuća je žuta. Ne možeš je promašiti!	The house is yellow. You can't miss it!
+L0	das Hotel, Hotels	hotel	hotel	osnovni	hotel			
+L0	der Löwe	lav	lion	tečaj	lav			
+L0	die Maus, Mäuse	miš	mouse	osnovni	miš			
+L0	die Musik (Sg.)	glazba	music	osnovni	muzika	Hört Anna Musik?	Sluša li Ana glazbu?	Is Anna listening to music?
+L0	der Name, Namen (n-Dekl.)	ime	name	osnovni				
+L0	die Pizza, Pizzas	pizza	pizza	osnovni	pizza	Jonas will Pizza essen.	Jonas želi jesti pizzu.	Jonas wants to eat pizza.
+L0	das Radio, Radios	radio	radio	osnovni	radio			
+L0	die Schokolade, Schokoladen	čokolada	chocolate	osnovni	čokolada			
+L0	das Sofa, Sofas	kauč	sofa	osnovni		Jonas: Wohin kommt das Sofa?	Jonas: Kamo ide kauč?	Jonas: Where does the sofa go?
+L0	das Taxi, Taxis	taksi	taxi	osnovni	taksi			
+L0	das Wasser (Sg.)	voda	water	osnovni	voda	Trinkt viel Wasser!	Pijte puno vode!	Drink lots of water!
+L0	das Zebra	zebra	zebra	tečaj	zebra			
+L0	die Zitrone, Zitronen	limun	lemon	osnovni	limun			
+L1	aber	ali	but	osnovni		Das ist ein Tisch. Der Tisch ist klein, aber schön.	Ovo je stol. Stol je malen, ali lijep.	This is a table. The table is small but nice.
+L1	acht	osam	eight	osnovni		Max ist acht.	Max ima osam godina.	Max is eight.
+L1	das Alter (Sg.)	dob, starost	age	dodatno				
+L1	der Amerikaner, Amerikaner / die Amerikanerin, Amerikanerinnen	Amerikanac, Amerikanka	American (man, woman)	dodatno				
+L1	auf Wiedersehen	doviđenja	goodbye	osnovni				
+L1	aus	iz	from (origin)	osnovni		Jonas ist aus Hamburg.	Jonas je iz Hamburga.	Jonas is from Hamburg.
+L1	Bis bald!	Do skorog viđenja!	See you soon!	dodatno				
+L1	bitte	molim; izvoli	please; you're welcome	osnovni		Ich möchte zwei Brötchen und ein Brot, bitte.	Molim dva peciva i jedan kruh.	Two rolls and a loaf, please.
+L1	buchstabieren → hat buchstabiert	slovkati	to spell	dodatno				
+L1	China	Kina	China	dodatno				
+L1	Chinesisch	kineski (jezik)	Chinese (language)	dodatno				
+L1	danke	hvala	thank you	osnovni		Gut, danke. Sag, hast du eine Freundin?	Dobro, hvala. Reci, imaš li djevojku?	Fine, thanks. Tell me, do you have a girlfriend?
+L1	Deutsch	njemački	German (language)	osnovni		Lernst du Deutsch?	Učiš li njemački?	Are you learning German?
+L1	Deutschland	Njemačka	Germany	osnovni		Gut! Willkommen in Deutschland!	Dobro! Dobro došli u Njemačku!	Good! Welcome to Germany!
+L1	drei	tri	three	osnovni		Und drei Äpfel. Was kostet das?	I tri jabuke. Koliko to košta?	And three apples. How much is that?
+L1	du	ti	you (informal)	osnovni				
+L1	eins	jedan	one	osnovni				
+L1	elf	jedanaest	eleven	osnovni				
+L1	England	Engleska	England	tečaj				
+L1	Englisch	engleski	English (language)	osnovni		Sprechen Sie Englisch?	Govorite li engleski?	Do you speak English?
+L1	Entschuldigung	oprostite	excuse me; sorry	osnovni		Entschuldigung, wie komme ich zum Bahnhof?	Oprostite, kako da dođem do kolodvora?	Excuse me, how do I get to the station?
+L1	er	on	he	dodatno				
+L1	es	ono	it	dodatno				
+L1	Europa	Europa	Europe	dodatno				
+L1	der Familienname, Familiennamen	prezime	surname	tečaj				
+L1	der Franzose, Franzosen (n-Dekl.) / die Französin, Französinnen	Francuz, Francuskinja	Frenchman, Frenchwoman	dodatno				
+L1	Französisch	francuski (jezik)	French	dodatno				
+L1	fünf	pet	five	osnovni		Ich habe eine Lampe gekauft — nur fünf Euro!	Kupila sam svjetiljku — samo pet eura!	I bought a lamp — only five euros!
+L1	das Geschlecht, Geschlechter	spol	sex, gender	dodatno				
+L1	Griechenland	Grčka	Greece	dodatno				
+L1	gut → besser → am besten	dobar; dobro	good; well	osnovni		Du tanzt gut.	Dobro plešeš.	You dance well.
+L1	gute Nacht	laku noć	good night	osnovni				
+L1	guten Abend	dobra večer	good evening	osnovni				
+L1	guten Morgen	dobro jutro	good morning	osnovni				
+L1	guten Tag	dobar dan	hello, good day	osnovni				
+L1	hallo	bok, zdravo	hello	osnovni				
+L1	die Hausnummer, Hausnummern	kućni broj	house number	dodatno				
+L1	heißen → ich heiße	zvati se	to be called	osnovni		Wie heißen Sie?	Kako se zovete?	What is your name?
+L1	der Herr, Herren (Dat./Akk. Sg.: Herrn)	gospodin	Mr, gentleman	dodatno		Sind Sie Herr Schulz?	Jeste li Vi gospodin Schulz?	Are you Mr Schulz?
+L1	ich	ja	I	osnovni		Ja, ich bin Herr Schulz.	Da, ja sam gospodin Schulz.	Yes, I am Mr Schulz.
+L1	in	u	in	osnovni				
+L1	Italien	Italija	Italy	osnovni		Der Kaffee hier ist so gut wie in Italien!	Kava je ovdje dobra kao u Italiji!	The coffee here is as good as in Italy!
+L1	der Italiener, Italiener / die Italienerin, Italienerinnen	Talijan, Talijanka	Italian (man, woman)	dodatno				
+L1	Italienisch	talijanski (jezik)	Italian	tečaj		Ich würde gern Italienisch lernen.	Rado bih učila talijanski.	I'd like to learn Italian.
+L1	ja	da	yes	osnovni				
+L1	Japanisch	japanski (jezik)	Japanese	tečaj		Dort könnte ich Japanisch lernen.	Tamo bih mogao, mogla učiti japanski.	There I could learn Japanese.
+L1	Kanada	Kanada	Canada	osnovni		Ich komme aus Kanada.	Dolazim iz Kanade.	I come from Canada.
+L1	kommen → ist gekommen	doći, dolaziti	to come	osnovni		Woher kommen Sie?	Odakle ste?	Where are you from?
+L1	der Kroate, Kroaten (n-Dekl.) / die Kroatin, Kroatinnen	Hrvat, Hrvatica	Croat	dodatno				
+L1	Kroatien	Hrvatska	Croatia	osnovni		Ich komme aus Kroatien.	Dolazim iz Hrvatske.	I come from Croatia.
+L1	Kroatisch	hrvatski	Croatian (language)	osnovni		Ich spreche Englisch und Kroatisch.	Govorim engleski i hrvatski.	I speak English and Croatian.
+L1	das Land, Länder	zemlja	country	osnovni	zemlja	Auf dem Land ist es ruhiger, aber man braucht ein Auto.	Na selu je mirnije, ali treba auto.	It's quieter in the country, but you need a car.
+L1	lernen → ich lerne	učiti	to learn	osnovni	učiti	Ich lerne Deutsch.	Učim njemački.	I am learning German.
+L1	die Muttersprache, Muttersprachen	materinski jezik	mother tongue	dodatno				
+L1	männlich	muški	male	dodatno				
+L1	nein	ne	no	osnovni				
+L1	neun	devet	nine	osnovni		Zusammen neun Euro achtzig.	Ukupno devet eura i osamdeset.	That's nine euros eighty altogether.
+L1	null	nula	zero	osnovni				
+L1	die Person, Personen	osoba	person	tečaj		Ich suche eine Person, die aus Graz kommt und Autos repariert.	Tražim osobu koja je iz Graza i popravlja aute.	I'm looking for someone who comes from Graz and repairs cars.
+L1	Polen	Poljska	Poland	dodatno				
+L1	Polnisch	poljski (jezik)	Polish (language)	dodatno				
+L1	die Postleitzahl, Postleitzahlen	poštanski broj	postcode	dodatno				
+L1	Russisch	ruski (jezik)	Russian (language)	dodatno				
+L1	Russland	Rusija	Russia	dodatno				
+L1	die Schweiz	Švicarska	Switzerland	osnovni		Lena fährt in die Schweiz.	Lena putuje u Švicarsku.	Lena is going to Switzerland.
+L1	sechs	šest	six	osnovni		Ich stehe um sechs Uhr auf.	Ustajem u šest.	I get up at six.
+L1	sehr	vrlo, jako	very	osnovni		Die Brille ist sehr teuer.	Naočale su jako skupe.	The glasses are very expensive.
+L1	sein → ist gewesen	biti	to be	osnovni		Am Sonntag muss man leise sein.	U nedjelju se mora biti tiho.	On Sunday you have to be quiet.
+L1	Sie	Vi	you (formal)	osnovni		Wo wohnen Sie?	Gdje stanujete?	Where do you live?
+L1	sieben	sedam	seven	osnovni		Ich stehe um sieben Uhr auf.	Ustajem u sedam.	I get up at seven.
+L1	Slowenien	Slovenija	Slovenia	dodatno				
+L1	Spanisch	španjolski (jezik)	Spanish	tečaj				
+L1	die Sprache, Sprachen	jezik	language	osnovni		Deutsch ist eine Sprache, die mir viel gegeben hat.	Njemački je jezik koji mi je puno dao.	German is a language that has given me a lot.
+L1	sprechen → er spricht	govoriti	to speak	osnovni	govoriti	Lena spricht Englisch.	Lena govori engleski.	Lena speaks English.
+L1	die Stadt, Städte	grad	city, town	osnovni	grad	Jonas zeigt mir die Stadt.	Jonas mi pokazuje grad.	Jonas is showing me the city.
+L1	tschüss	bok (na rastanku)	bye	osnovni				
+L1	der Türke, Türken (n-Dekl.) / die Türkin, Türkinnen	Turčin, Turkinja	Turk	dodatno				
+L1	Türkisch	turski (jezik)	Turkish (language)	dodatno				
+L1	und	i	and	osnovni		Ich spreche Englisch und Kroatisch.	Govorim engleski i hrvatski.	I speak English and Croatian.
+L1	Ungarn	Mađarska	Hungary	dodatno				
+L1	die USA (Pl.)	SAD	the USA	dodatno				
+L1	vier	četiri	four	osnovni		Das kostet vier Euro fünfzig.	To košta četiri eura i pedeset centi.	That's four euros fifty.
+L1	der Vorname, Vornamen	ime	first name	tečaj				
+L1	warum	zašto	why	dodatno		Lena: Anna, warum lernst du Deutsch?	Lena: Ana, zašto učiš njemački?	Lena: Anna, why are you learning German?
+L1	weiblich	ženski	female	dodatno				
+L1	wer	tko	who	osnovni				
+L1	wie	kako	how	osnovni		Entschuldigung, wie komme ich zum Bahnhof?	Oprostite, kako da dođem do kolodvora?	Excuse me, how do I get to the station?
+L1	Wie geht's?	Kako si?	How are you?	osnovni		Hallo Oma! Wie geht's?	Bok bako! Kako si?	Hello Grandma! How are you?
+L1	willkommen	dobrodošao	welcome	tečaj				
+L1	wir	mi	we	dodatno		Wann spielen wir Tennis?	Kada igramo tenis?	When are we playing tennis?
+L1	wo	gdje	where	osnovni				
+L1	woher	odakle	where from	osnovni				
+L1	wohin	kamo, kuda	where to	dodatno				
+L1	wohnen → ich wohne	stanovati	to live (reside)	osnovni		Wo wohnen Sie?	Gdje stanujete?	Where do you live?
+L1	der Wohnort, Wohnorte	mjesto stanovanja	place of residence	tečaj				
+L1	zehn	deset	ten	osnovni		Hier, zehn Euro.	Izvolite, deset eura.	Here, ten euros.
+L1	zwanzig	dvadeset	twenty	osnovni		Ein Stück kostet zwei Euro zwanzig.	Komad košta dva eura i dvadeset.	A piece costs two euros twenty.
+L1	zwei	dva	two	osnovni		Ich möchte zwei Brötchen und ein Brot, bitte.	Molim dva peciva i jedan kruh.	Two rolls and a loaf, please.
+L1	zwölf	dvanaest	twelve	osnovni		Um zwölf können wir Pause machen.	U dvanaest možemo napraviti pauzu.	At twelve we can take a break.
+L1	Österreich	Austrija	Austria	osnovni				
+L1	der Österreicher, Österreicher / die Österreicherin, Österreicherinnen	Austrijanac, Austrijanka	Austrian (man, woman)	dodatno				
+L2	alt → älter → am ältesten	star	old	osnovni		Das ist ein Stuhl. Er ist alt.	Ovo je stolac. Star je.	This is a chair. It's old.
+L2	das Bett, Betten	krevet	bed	osnovni	krevet	Das ist ein Bett. Das Bett ist alt.	Ovo je krevet. Krevet je star.	This is a bed. The bed is old.
+L2	das Bild, Bilder	slika	picture	osnovni	slika	Das Bild ist nicht hässlich.	Slika nije ružna.	The picture is not ugly.
+L2	der Bildschirm, Bildschirme	zaslon	screen	dodatno				
+L2	billig	jeftin	cheap	osnovni		Das Handy ist nicht billig.	Mobitel nije jeftin.	The phone is not cheap.
+L2	das Blatt, Blätter	list (papira)	sheet, leaf	dodatno	list			
+L2	blau	plav	blue	osnovni				
+L2	der Bleistift, Bleistifte	olovka	pencil	osnovni	olovka			
+L2	braun	smeđ	brown	osnovni		Das ist ein Tisch. Er ist braun.	Ovo je stol. Smeđ je.	This is a table. It's brown.
+L2	die Brille, Brillen	naočale	glasses	osnovni		Die Brille ist nicht teuer.	Naočale nisu skupe.	The glasses are not expensive.
+L2	das Buch, Bücher	knjiga	book	osnovni	knjiga	Das ist ein Buch.	Ovo je knjiga.	This is a book.
+L2	der Computer, Computer	računalo	computer	osnovni		Der Computer ist nicht alt.	Računalo nije staro.	The computer is not old.
+L2	da	tu, ondje	there	osnovni				
+L2	doppelt	dvostruk	double	dodatno				
+L2	dort	tamo	over there	osnovni				
+L2	der Drucker, Drucker	pisač	printer	dodatno	pisač			
+L2	die Farbe, Farben	boja	colour	osnovni				
+L2	das Fenster, Fenster	prozor	window	osnovni	prozor	Das Fenster ist nicht groß.	Prozor nije velik.	The window is not big.
+L2	das Foto, Fotos	fotografija	photo	osnovni	fotografija	Das ist ein Foto. Es ist schön.	Ovo je fotografija. Lijepa je.	This is a photo. It's nice.
+L2	gelb	žut	yellow	osnovni		Das Haus ist gelb. Du kannst es nicht verpassen!	Kuća je žuta. Ne možeš je promašiti!	The house is yellow. You can't miss it!
+L2	grau	siv	grey	osnovni				
+L2	groß → größer → am größten	velik; visok	big; tall	osnovni		Das Zimmer ist nicht groß.	Soba nije velika.	The room is not big.
+L2	grün	zelen	green	osnovni				
+L2	das Handy, Handys	mobitel	mobile phone	osnovni	mobitel	Das Handy ist nicht billig.	Mobitel nije jeftin.	The phone is not cheap.
+L2	das Heft, Hefte	bilježnica	notebook	osnovni				
+L2	hier	ovdje	here	osnovni		Jonas wartet hier.	Jonas čeka ovdje.	Jonas is waiting here.
+L2	das Holz	drvo (materijal)	wood	tečaj	drvo	Für meine Eltern in Toronto kaufe ich eine Kerze aus Holz.	Za roditelje u Torontu kupujem svijeću od drva.	For my parents in Toronto I buy a wooden candle.
+L2	die Hälfte, Hälften	polovica	half	dodatno				
+L2	hässlich	ružan	ugly	osnovni		Das Bild ist nicht hässlich.	Slika nije ružna.	The picture is not ugly.
+L2	der Kalender, Kalender	kalendar	calendar	dodatno				
+L2	kaputt	pokvaren	broken	osnovni		Der Stuhl ist nicht kaputt.	Stolac nije pokvaren.	The chair is not broken.
+L2	die Kiste, Kisten	sanduk, kutija	crate, box	dodatno				
+L2	das Klassenzimmer, Klassenzimmer	učionica	classroom	dodatno				
+L2	klein	malen	small	osnovni		Das ist ein Tisch. Der Tisch ist klein, aber schön.	Ovo je stol. Stol je malen, ali lijep.	This is a table. The table is small but nice.
+L2	die Kreide, Kreiden	kreda	chalk	dodatno				
+L2	der Kugelschreiber, Kugelschreiber	kemijska olovka	ballpoint pen	dodatno				
+L2	der Kuli, Kulis	kemijska	pen	osnovni				
+L2	kurz	kratak	short	osnovni		Dürfte ich kurz telefonieren?	Bih li smio kratko telefonirati?	May I make a quick call?
+L2	die Lampe, Lampen	svjetiljka	lamp	osnovni	lampa	Das ist eine Lampe. Die Lampe ist neu.	Ovo je svjetiljka. Svjetiljka je nova.	This is a lamp. The lamp is new.
+L2	lang	dug	long	osnovni		Anna: Der Anzug ist gut, aber die Hose ist zu lang.	Ana: Odijelo je dobro, ali hlače su preduge.	Anna: The suit is good, but the trousers are too long.
+L2	der Laptop, Laptops	prijenosno računalo	laptop	tečaj		Ich habe ihm mit seinem neuen Laptop geholfen.	Pomogla sam mu s novim laptopom.	I helped him with his new laptop.
+L2	leicht	lagan	light; easy	osnovni				
+L2	lila	ljubičast	purple	dodatno				
+L2	das Lineal, Lineale	ravnalo	ruler	dodatno				
+L2	die Million, Millionen	milijun	million	dodatno				
+L2	modern	moderan	modern	osnovni		Das ist eine Lampe. Sie ist neu und sehr modern.	Ovo je svjetiljka. Nova je i vrlo moderna.	This is a lamp. It's new and very modern.
+L2	neu	nov	new	osnovni		Das ist eine Uhr. Sie ist neu.	Ovo je sat. Nov je.	This is a watch. It's new.
+L2	nicht	ne	not	osnovni		Der Tisch ist nicht alt.	Stol nije star.	The table is not old.
+L2	die Orange, Orangen	narančast	orange	osnovni	naranča			
+L2	der Ordner, Ordner	registrator, mapa	folder, file	dodatno				
+L2	das Papier, Papiere	papir	paper	tečaj	papir			
+L2	das Plastik	plastika	plastic	tečaj				
+L2	das Poster, Poster	plakat, poster	poster	dodatno				
+L2	praktisch	praktičan	practical	osnovni				
+L2	der Radiergummi, Radiergummis	gumica	rubber, eraser	dodatno				
+L2	der Raum, Räume	prostorija, prostor	room, space	dodatno				
+L2	rechnen → hat gerechnet	računati	to calculate	dodatno				
+L2	rosa	ružičast	pink	osnovni				
+L2	rot	crven	red	osnovni				
+L2	der Rucksack, Rucksäcke	ruksak	backpack	osnovni				
+L2	die Schere, Scheren	škare	scissors	dodatno				
+L2	der Schlüssel, Schlüssel	ključ	key	osnovni	ključ	Das ist ein Schlüssel.	Ovo je ključ.	This is a key.
+L2	schwarz	crn	black	osnovni		Die Tasche ist klein und schwarz.	Torba je mala i crna.	The bag is small and black.
+L2	schwer	težak	heavy; difficult	osnovni		Die Tasche ist nicht schwer.	Torba nije teška.	The bag is not heavy.
+L2	schön	lijep	beautiful, nice	osnovni		Das ist ein Foto. Es ist schön.	Ovo je fotografija. Lijepa je.	This is a photo. It's nice.
+L2	der Schüler, Schüler / die Schülerin, Schülerinnen	učenik	pupil	tečaj	učenik			
+L2	die Seite, Seiten	stranica	page, side	dodatno				
+L2	der Spiegel, Spiegel	ogledalo	mirror	osnovni		Das ist ein Spiegel. Er ist nicht groß.	Ovo je ogledalo. Nije veliko.	This is a mirror. It's not big.
+L2	der Stift, Stifte	olovka, pisaljka	pen, pencil	dodatno	olovka			
+L2	der Stuhl, Stühle	stolac	chair	osnovni	stolica	Das ist ein Stuhl. Er ist alt.	Ovo je stolac. Star je.	This is a chair. It's old.
+L2	die Tafel, Tafeln	ploča	board	dodatno				
+L2	die Tasche, Taschen	torba	bag	osnovni	torba	Die Tasche ist nicht schwer.	Torba nije teška.	The bag is not heavy.
+L2	der Taschenrechner, Taschenrechner	džepno računalo, kalkulator	calculator	dodatno				
+L2	die Tastatur, Tastaturen	tipkovnica	keyboard	dodatno				
+L2	tausend	tisuću	thousand	dodatno				
+L2	der Teller, Teller	tanjur	plate	tečaj	tanjur			
+L2	teuer	skup	expensive	osnovni		Die Brille ist nicht teuer.	Naočale nisu skupe.	The glasses are not expensive.
+L2	der Tisch, Tische	stol	table	osnovni	stol	Der Tisch ist nicht alt.	Stol nije star.	The table is not old.
+L2	die Tür, Türen	vrata	door	osnovni	vrata			
+L2	türkis	tirkizan	turquoise	dodatno				
+L2	die Uhr, Uhren	sat	clock, watch	osnovni	sat	Das ist eine Uhr. Sie ist neu.	Ovo je sat. Nov je.	This is a watch. It's new.
+L2	die Vase, Vasen	vaza	vase	tečaj				
+L2	was	što	what	osnovni		Was kostet das? → Können Sie mir sagen, was das kostet?	Možete li mi reći koliko to košta?	Can you tell me how much that costs?
+L2	weiß	bijel	white	osnovni		Oma! Das weiß ich nicht!	Bako! To ne znam!	Grandma! I don't know!
+L2	wirklich	stvarno	really	osnovni		Ich habe mich so gefreut. Jetzt fühle ich mich hier wirklich zu Hause.	Toliko sam se razveselila. Sad se ovdje stvarno osjećam kao kod kuće.	I was so happy. Now I really feel at home here.
+L2	die Zahl, Zahlen	broj, brojka	number, figure	dodatno				
+L2	die Zeitung, Zeitungen	novine	newspaper	osnovni	novine	Danach esse ich ein Brötchen und lese die Zeitung.	Nakon toga jedem pecivo i čitam novine.	After that I eat a roll and read the paper.
+L2	der Zettel, Zettel	papirić, cedulja	note, slip of paper	tečaj				
+L2	ziemlich	prilično	quite, rather	osnovni				
+L2	das Zimmer, Zimmer	soba	room	osnovni	soba	Das Zimmer ist nicht groß.	Soba nije velika.	The room is not big.
+L2	zu (zu groß)	pre- (prevelik)	too	osnovni				
+L2	zählen → hat gezählt	brojati	to count	dodatno				
+L3	ab und zu	tu i tamo	now and then	dodatno				
+L3	der Abend, Abende	večer	evening	osnovni	večer	Max sieht am Abend fern.	Max navečer gleda televiziju.	Max watches TV in the evening.
+L3	abends	navečer	in the evening	osnovni		Anna lernt abends Deutsch.	Ana navečer uči njemački.	Anna studies German in the evenings.
+L3	allein	sam, sama	alone	osnovni		Anna fühlt sich allein.	Ana se osjeća usamljeno.	Anna feels lonely.
+L3	antworten → ich antworte	odgovarati	to answer	osnovni		Ich antworte dem Lehrer.	Odgovaram učitelju.	I answer the teacher.
+L3	die Arbeit, Arbeiten	posao, rad	work	osnovni		Heute beginnt Anna ihre Arbeit.	Danas Ana počinje raditi.	Today Anna starts her job.
+L3	arbeiten → ich arbeite	raditi	to work	osnovni	raditi	Am Montag arbeite ich.	U ponedjeljak radim.	On Monday I work.
+L3	baden → hat gebadet	kupati se	to bathe	dodatno				
+L3	brauchen → ich brauche	trebati	to need	osnovni		Ich brauche keine Tomaten.	Ne trebaju mi rajčice.	I don't need tomatoes.
+L3	das Café, Cafés	kafić	café	osnovni	kafić	Jonas arbeitet seit einer Woche im Café.	Jonas radi u kafiću već tjedan dana.	Jonas has been working at the café for a week.
+L3	dann	onda	then	osnovni		Jonas sieht gern Filme, aber dann schläft er oft!	Jonas voli gledati filmove, ali onda često spava!	Jonas likes watching films, but then he often sleeps!
+L3	denn	jer	because (verb stays 2nd)	osnovni		Ich trinke Kaffee, denn ich arbeite viel.	Pijem kavu jer puno radim.	I drink coffee because I work a lot.
+L3	der Dienstag	utorak	Tuesday	osnovni		Am Dienstag kocht Anna.	U utorak kuha Ana.	On Tuesday Anna cooks.
+L3	der Donnerstag	četvrtak	Thursday	osnovni		Am Donnerstag kauft Jonas Brot und Milch.	U četvrtak Jonas kupuje kruh i mlijeko.	On Thursday Jonas buys bread and milk.
+L3	enden → hat geendet	završavati / završiti	to end	dodatno				
+L3	fragen → ich frage	pitati	to ask	osnovni		Du sollst die Chefin fragen.	Trebaš pitati šeficu.	You should ask the boss.
+L3	der Freitag	petak	Friday	osnovni		Am Freitag gehen wir zusammen.	U petak idemo zajedno.	On Friday we go together.
+L3	der Frühling	proljeće	spring	tečaj				
+L3	gehen → ich gehe	ići	to go (on foot)	osnovni		Am Freitag gehen wir zusammen.	U petak idemo zajedno.	On Friday we go together.
+L3	das Gewitter, Gewitter	grmljavinsko nevrijeme, oluja	thunderstorm	dodatno				
+L3	das Handtuch, Handtücher	ručnik	towel	dodatno	ručnik			
+L3	der Herbst	jesen	autumn	dodatno				
+L3	heute	danas	today	osnovni		Kochst du heute?	Kuhaš li danas?	Are you cooking today?
+L3	die Hitze (Sg.)	vrućina	heat	dodatno				
+L3	häufig	često	frequently	dodatno				
+L3	hören → ich höre	čuti, slušati	to hear, to listen	osnovni	slušati			
+L3	immer	uvijek	always	osnovni		An deiner Stelle würde ich beim Bäcker immer auf Deutsch bestellen.	Na tvom mjestu u pekarnici bih uvijek naručivao na njemačkom.	If I were you, I'd always order in German at the bakery.
+L3	die Jahreszeit, Jahreszeiten	godišnje doba	season	dodatno				
+L3	jetzt	sada	now	osnovni		Ich arbeite jetzt in Berlin. Ich bin Designerin.	Sada radim u Berlinu. Dizajnerica sam.	I work in Berlin now. I'm a designer.
+L3	kaufen → ich kaufe	kupovati	to buy	osnovni		Ich kaufe Äpfel.	Kupujem jabuke.	I'm buying apples.
+L3	kochen → ich koche	kuhati	to cook	osnovni	lonac	Was machst du? — Ich koche.	Što radiš? — Kuham.	What are you doing? — I'm cooking.
+L3	der Kurs, Kurse	tečaj	course	osnovni		Wann fängt der Kurs an?	Kada počinje tečaj?	When does the course start?
+L3	die Kälte (Sg.)	hladnoća	cold	dodatno				
+L3	kühl	svjež, hladnjikav	cool	dodatno				
+L3	machen → ich mache	raditi, činiti	to do, to make	osnovni	raditi	Am Sonntag kocht niemand — sie machen nichts!	U nedjelju nitko ne kuha — ne rade ništa!	On Sunday nobody cooks — they do nothing!
+L3	malen → ich male	slikati	to paint	osnovni	slika			
+L3	die Mama / der Papa	mama / tata	mum / dad	tečaj		Liebe Mama, lieber Papa, heute bin ich genau ein Jahr in Berlin.	Draga mama, dragi tata, danas sam točno godinu dana u Berlinu.	Dear Mum, dear Dad, today it's exactly a year since I came to Berlin.
+L3	manchmal	ponekad	sometimes	osnovni				
+L3	meistens	većinom, najčešće	mostly	dodatno				
+L3	der Mittag, Mittage	podne	noon	osnovni				
+L3	die Mitternacht (Sg.)	ponoć	midnight	dodatno				
+L3	der Mittwoch	srijeda	Wednesday	osnovni		Am Mittwoch kochen sie zusammen.	U srijedu kuhaju zajedno.	On Wednesday they cook together.
+L3	der Monat, Monate	mjesec	month	tečaj		Anna wohnt seit einem Monat hier.	Ana ovdje stanuje već mjesec dana.	Anna has lived here for a month.
+L3	monatlich	mjesečno	monthly	dodatno				
+L3	der Montag	ponedjeljak	Monday	osnovni		Wann arbeitest du? — Am Montag.	Kada radiš? — U ponedjeljak.	When do you work? — On Monday.
+L3	der Morgen, Morgen	jutro	morning	osnovni	jutro	Morgen spielen wir Tennis.	Sutra igramo tenis.	Tomorrow we're playing tennis.
+L3	morgens	ujutro	in the morning	osnovni		Jonas arbeitet morgens.	Jonas radi ujutro.	Jonas works in the mornings.
+L3	nach Hause	kući	home (direction)	osnovni		Wir fahren nach Hause.	Idemo kući.	We're going home.
+L3	der Nachmittag, Nachmittage	poslijepodne	afternoon	osnovni		Am Nachmittag haben wir das Schloss Schönbrunn besichtigt.	Poslijepodne smo razgledali dvorac Schönbrunn.	In the afternoon we visited Schönbrunn Palace.
+L3	die Nacht, Nächte	noć	night	osnovni	noć			
+L3	nass	mokar	wet	dodatno				
+L3	der Nebel, Nebel	magla	fog	dodatno				
+L3	nie	nikad	never	osnovni		Ich bin noch nie in Wien gewesen.	Nikad nisam bio, bila u Beču.	I've never been to Vienna.
+L3	noch	još	still; yet	osnovni		Ich kann noch nicht gut Deutsch sprechen.	Još ne znam dobro govoriti njemački.	I can't speak German well yet.
+L3	oder	ili	or	osnovni		Ich suche einen Tandempartner, der Kroatisch oder Englisch lernt.	Tražim tandem-partnera koji uči hrvatski ili engleski.	I'm looking for a tandem partner who's learning Croatian or English.
+L3	oft	često	often	osnovni		Jonas sieht gern Filme, aber dann schläft er oft!	Jonas voli gledati filmove, ali onda često spava!	Jonas likes watching films, but then he often sleeps!
+L3	regelmäßig	redovito	regularly	dodatno				
+L3	sagen → ich sage	reći	to say	osnovni		Meine Kollegin Lena ist super. Wir sagen schon „du“.	Moja kolegica Lena je super. Već si govorimo „ti“.	My colleague Lena is great. We already say "du".
+L3	der Samstag	subota	Saturday	osnovni		Am Samstag kauft Lena Brot.	U subotu Lena kupuje kruh.	On Saturday Lena buys bread.
+L3	scheinen → hat geschienen	sijati	to shine	dodatno				
+L3	die Schule, Schulen	škola	school	osnovni	škola	Max kommt aus der Schule.	Max dolazi iz škole.	Max is coming out of school.
+L3	die Seife, Seifen	sapun	soap	dodatno	sapun			
+L3	die Sekunde, Sekunden	sekunda	second	dodatno				
+L3	selten	rijetko	rarely	osnovni				
+L3	der Sommer	ljeto	summer	tečaj	ljeto	Im Sommer fahren wir weg.	Ljeti putujemo.	In summer we go away.
+L3	der Sonntag	nedjelja	Sunday	osnovni		Was macht ihr am Sonntag?	Što radite u nedjelju?	What are you doing on Sunday?
+L3	spielen → ich spiele	igrati; svirati	to play	osnovni		Wann spielen wir Tennis?	Kada igramo tenis?	When are we playing tennis?
+L3	studieren → ich studiere	studirati	to study (at university)	osnovni				
+L3	der Sturm, Stürme	oluja	storm	dodatno				
+L3	der Tag, Tage	dan	day	osnovni	dan	Guten Tag, Frau Horvat. Was fehlt Ihnen?	Dobar dan, gospođo Horvat. Što Vam je?	Hello, Ms Horvat. What's wrong?
+L3	die Temperatur, Temperaturen	temperatura	temperature	dodatno				
+L3	trinken → ich trinke	piti	to drink	osnovni	piti	Morgens trinke ich Kaffee.	Ujutro pijem kavu.	In the morning I drink coffee.
+L3	trocken	suh	dry	dodatno				
+L3	die Uhrzeit, Uhrzeiten	vrijeme (na satu), sat	time of day	dodatno	vrijeme			
+L3	um (um acht Uhr)	u (u osam sati)	at (time)	osnovni				
+L3	die Universität, Universitäten	sveučilište	university	osnovni				
+L3	viel → mehr → am meisten	mnogo	much, a lot	osnovni		Ihr arbeitet viel.	Puno radite.	You work a lot.
+L3	der Vormittag, Vormittage	prijepodne	late morning	osnovni				
+L3	warten → ich warte	čekati	to wait	osnovni		Wir warten seit einer Stunde.	Čekamo već sat vremena.	We've been waiting for an hour.
+L3	der Wetterbericht, Wetterberichte	vremenska prognoza	weather report	dodatno				
+L3	der Winter	zima	winter	tečaj	zima			
+L3	die Woche, Wochen	tjedan	week	osnovni		Jonas arbeitet seit einer Woche im Café.	Jonas radi u kafiću već tjedan dana.	Jonas has been working at the café for a week.
+L3	das Wochenende, Wochenenden	vikend	weekend	osnovni		Danke! Schönes Wochenende!	Hvala! Lijep vikend!	Thank you! Have a nice weekend!
+L3	wolkig	oblačno	cloudy	dodatno				
+L3	wöchentlich	tjedno, svaki tjedan	weekly	dodatno				
+L3	die Zahnbürste, Zahnbürsten	četkica za zube	toothbrush	dodatno				
+L3	die Zahnpasta, Zahnpasten	pasta za zube	toothpaste	dodatno				
+L3	zu Hause	kod kuće	at home	osnovni		Bleiben Sie zu Hause!	Ostanite kod kuće!	Stay at home!
+L3	zusammen	zajedno	together	osnovni		Am Montag kochen sie zusammen.	U ponedjeljak kuhaju zajedno.	On Monday they cook together.
+L3	übermorgen	prekosutra	the day after tomorrow	dodatno				
+L4	achtzehn	osamnaest	eighteen	osnovni		Ich bin achtzehn.	Imam osamnaest godina.	I'm eighteen.
+L4	besuchen → ich besuche	posjetiti	to visit	osnovni		Ich besuche den Opa.	Posjećujem djeda.	I'm visiting grandpa.
+L4	der Bruder, Brüder	brat	brother	osnovni	brat	Ich habe einen Bruder. Er heißt Tom.	Imam brata. Zove se Tom.	I have a brother. His name is Tom.
+L4	der Cousin, Cousins	bratić	cousin (m)	osnovni				
+L4	die Cousine, Cousinen	sestrična	cousin (f)	osnovni				
+L4	dein	tvoj	your (informal)	osnovni		Lena: Wie war dein Wochenende?	Lena: Kakav ti je bio vikend?	Lena: How was your weekend?
+L4	dreizehn	trinaest	thirteen	osnovni				
+L4	der Durst	žeđ	thirst	dodatno				
+L4	dünn	mršav, tanak	thin	dodatno				
+L4	die Ehefrau, Ehefrauen	supruga, žena	wife	dodatno				
+L4	der Ehemann, Ehemänner	suprug, muž	husband	dodatno				
+L4	das Ehepaar, Ehepaare	bračni par	married couple	dodatno				
+L4	das Einzelkind, Einzelkinder	jedinac, jedinica	only child	dodatno				
+L4	die Eltern (Pl.)	roditelji	parents	osnovni		Wir schicken den Eltern eine Karte.	Šaljemo roditeljima čestitku.	We're sending our parents a card.
+L4	der Enkel, Enkel	unuk	grandson	osnovni		Ihr Enkel aus München hat ihr einen Blumenstrauß gebracht.	Unuk iz Münchena donio joj je buket.	Her grandson from Munich brought her a bouquet.
+L4	die Enkelin, Enkelinnen	unuka	granddaughter	osnovni				
+L4	erwachsen	odrastao	adult, grown-up	dodatno				
+L4	euer	vaš	your (plural)	osnovni				
+L4	die Familie, Familien	obitelj	family	osnovni	obitelj	Das ist meine Familie.	Ovo je moja obitelj.	This is my family.
+L4	faul	lijen	lazy	dodatno				
+L4	fleißig	marljiv	hard-working	dodatno				
+L4	die Frau, Frauen	žena; supruga; gospođa	woman; wife; Mrs	osnovni		Guten Morgen, Frau Yilmaz!	Dobro jutro, gospođo Yilmaz!	Good morning, Mrs Yilmaz!
+L4	der Freund, Freunde	prijatelj; dečko	friend; boyfriend	osnovni		Hat Anna einen Freund?	Ima li Ana dečka?	Does Anna have a boyfriend?
+L4	die Freundin, Freundinnen	prijateljica; djevojka	friend; girlfriend	osnovni		Gut, danke. Sag, hast du eine Freundin?	Dobro, hvala. Reci, imaš li djevojku?	Fine, thanks. Tell me, do you have a girlfriend?
+L4	freundlich	prijazan	friendly	osnovni		Liebe Müde, du solltest zuerst mit ihm sprechen — freundlich, nicht wütend.	Draga Umorna, prvo bi trebala razgovarati s njim — ljubazno, ne ljutito.	Dear Tired, you should talk to him first — kindly, not angrily.
+L4	fünfzehn	petnaest	fifteen	osnovni				
+L4	füttern → hat gefüttert	hraniti (životinje)	to feed (animals)	dodatno				
+L4	geschieden	razveden	divorced	osnovni				
+L4	die Geschwister (Pl.)	braća i sestre	siblings	osnovni		Hast du Geschwister?	Imaš li braće i sestara?	Do you have siblings?
+L4	die Großeltern (Pl.)	djed i baka	grandparents	osnovni				
+L4	die Großmutter, Großmütter	baka	grandmother	dodatno	baka			
+L4	der Großvater, Großväter	djed	grandfather	dodatno	djed			
+L4	haben → ich habe	imati	to have	osnovni		Wir haben keinen Computer.	Nemamo računalo.	We don't have a computer.
+L4	der Hamster, Hamster	hrčak	hamster	dodatno				
+L4	heiraten → ich heirate	vjenčati se	to marry	osnovni				
+L4	der Hund, Hunde	pas	dog	osnovni	pas	Ich habe einen Hund.	Imam psa.	I have a dog.
+L4	der Hunger	glad	hunger	tečaj		Max sagt, dass er Hunger hat.	Max kaže da je gladan.	Max says he's hungry.
+L4	höflich	pristojan, uljudan	polite	dodatno				
+L4	ihr	njezin; njihov	her; their	osnovni		(ihr) Lest das Buch!	Čitajte knjigu!	Read the book!
+L4	das Jahr, Jahre	godina	year	osnovni		Ich lerne seit einem Jahr Deutsch.	Učim njemački već godinu dana.	I've been learning German for a year.
+L4	jung → jünger → am jüngsten	mlad	young	osnovni				
+L4	der Junge, Jungen (n-Dekl.)	dječak	boy	osnovni	dječak			
+L4	das Kaninchen, Kaninchen	kunić	rabbit	dodatno				
+L4	die Katze, Katzen	mačka	cat	osnovni	mačka	Ich habe keine Katze.	Nemam mačku.	I don't have a cat.
+L4	kein	nijedan, nikakav	no, not a	osnovni		Jonas hat kein Kind.	Jonas nema dijete.	Jonas doesn't have a child.
+L4	kennen → ich kenne	poznavati	to know (a person)	osnovni				
+L4	das Kind, Kinder	dijete	child	osnovni	dijete	Wir haben ein Kind.	Imamo dijete.	We have a child.
+L4	klug	pametan	clever	dodatno				
+L4	der Käfig, Käfige	kavez	cage	dodatno				
+L4	leben → ich lebe	živjeti	to live (be alive)	osnovni				
+L4	ledig	neoženjen, neudana	single	osnovni				
+L4	die Leute (Pl.)	ljudi	people	osnovni		Hallo Leute! Seid ihr fit?	Bok ljudi! Jeste li spremni?	Hi everyone! Are you fit?
+L4	lieb	drag	dear, kind	osnovni				
+L4	lieben → ich liebe	voljeti	to love	osnovni		Foto 4: Das ist Omas Kuchen, den alle lieben.	Slika 4: To je bakin kolač, koji svi vole.	Photo 4: That's Oma's cake, which everyone loves.
+L4	lustig	smiješan, zabavan	funny	osnovni		Max lacht, weil der Film lustig ist.	Max se smije jer je film smiješan.	Max is laughing because the film is funny.
+L4	der Mann, Männer	muškarac; muž	man; husband	osnovni		Das ist der Mann, der neben uns wohnt.	To je čovjek koji stanuje pokraj nas.	That's the man who lives next door.
+L4	das Meerschweinchen, Meerschweinchen	zamorac	guinea pig	dodatno				
+L4	mein	moj	my	osnovni		Das ist mein Vater. Er heißt Ivan.	Ovo je moj otac. Zove se Ivan.	This is my father. His name is Ivan.
+L4	der Mensch, Menschen (n-Dekl.)	čovjek	human being, person	osnovni	čovjek			
+L4	die Mutter, Mütter	majka	mother	osnovni		Das ist meine Mutter. Sie heißt Marija.	Ovo je moja majka. Zove se Marija.	This is my mother. Her name is Marija.
+L4	das Mädchen, Mädchen	djevojčica	girl	osnovni	djevojčica			
+L4	der Neffe, Neffen (n-Dekl.)	nećak	nephew	dodatno				
+L4	nett	ljubazan	nice	osnovni		Meine Chefin heißt Frau Berg. Sie ist nett.	Moja šefica zove se gospođa Berg. Ljubazna je.	My boss is called Mrs Berg. She's nice.
+L4	neunzehn	devetnaest	nineteen	osnovni				
+L4	die Nichte, Nichten	nećakinja	niece	dodatno				
+L4	die Nummer, Nummern	broj	number	tečaj		Vom Bahnhof nimmst du den Bus Nummer drei.	S kolodvora uzmeš autobus broj tri.	From the station you take bus number three.
+L4	die Oma, Omas	baka	grandma	osnovni	baka	Jonas und seine Oma.	Jonas i njegova baka.	Jonas and his grandma.
+L4	der Onkel, Onkel	ujak, stric	uncle	osnovni				
+L4	der Opa, Opas	djed	grandpa	osnovni	djed	Ich besuche den Opa.	Posjećujem djeda.	I'm visiting grandpa.
+L4	der Partner, Partner / die Partnerin, Partnerinnen	partner, partnerica	partner	dodatno				
+L4	schade	šteta	a pity	tečaj				
+L4	die Schildkröte, Schildkröten	kornjača	tortoise	dodatno				
+L4	die Schwester, Schwestern	sestra	sister	osnovni	sestra	Ich habe keine Schwester.	Nemam sestru.	I don't have a sister.
+L4	die Schwiegermutter, Schwiegermütter	svekrva, punica	mother-in-law	dodatno				
+L4	der Schwiegervater, Schwiegerväter	svekar, punac	father-in-law	dodatno				
+L4	schüchtern	sramežljiv	shy	dodatno				
+L4	sechzehn	šesnaest	sixteen	osnovni				
+L4	siebzehn	sedamnaest	seventeen	osnovni				
+L4	der Sohn, Söhne	sin	son	osnovni		Lena liebt ihren Sohn.	Lena voli svog sina.	Lena loves her son.
+L4	sportlich	sportski, atletski građen	sporty	dodatno				
+L4	sterben → er stirbt · ist gestorben	umirati / umrijeti	to die	dodatno				
+L4	suchen → ich suche	tražiti	to look for	osnovni		Ich suche den Schlüssel.	Tražim ključ.	I'm looking for the key.
+L4	sympathisch	simpatičan	likeable	dodatno				
+L4	die Tante, Tanten	teta	aunt	osnovni				
+L4	die Telefonnummer, Telefonnummern	broj telefona	phone number	tečaj				
+L4	das Tier, Tiere	životinja	animal	osnovni				
+L4	die Tochter, Töchter	kći	daughter	osnovni				
+L4	unser	naš	our	osnovni				
+L4	der Vater, Väter	otac	father	osnovni		Das ist mein Vater. Er heißt Ivan.	Ovo je moj otac. Zove se Ivan.	This is my father. His name is Ivan.
+L4	verheiratet	oženjen, udana	married	osnovni				
+L4	der Verwandte, Verwandten / die Verwandte	rođak, rođakinja	relative	dodatno				
+L4	verwitwet	udovac, udovica (pridjev)	widowed	dodatno				
+L4	vierzehn	četrnaest	fourteen	osnovni				
+L4	der Zwilling, Zwillinge	blizanac, blizanka	twin	dodatno				
+L4	ähnlich	sličan	similar	dodatno				
+L5	achtzig	osamdeset	eighty	osnovni		Zusammen neun Euro achtzig.	Ukupno devet eura i osamdeset.	That's nine euros eighty altogether.
+L5	alles	sve	everything	osnovni		Marko: Anna, ich bin eingezogen! Aber alles steht im Flur.	Marko: Ana, uselio sam se! Ali sve stoji u hodniku.	Marko: Anna, I've moved in! But everything is in the hallway.
+L5	der Apfel, Äpfel	jabuka	apple	osnovni	jabuka	Ich kaufe Äpfel.	Kupujem jabuke.	I'm buying apples.
+L5	die Bar, Bars	gotovinom	in cash	dodatno				
+L5	bestellen → hat bestellt	naručivati / naručiti	to order	dodatno		An deiner Stelle würde ich beim Bäcker immer auf Deutsch bestellen.	Na tvom mjestu u pekarnici bih uvijek naručivao na njemačkom.	If I were you, I'd always order in German at the bakery.
+L5	bezahlen → ich bezahle	platiti	to pay	osnovni				
+L5	das Bier, Biere	pivo	beer	osnovni	pivo	Oma: Und das Bier ist hier am besten!	Baka: A pivo je ovdje najbolje!	Oma: And the beer is best here!
+L5	die Birne, Birnen	kruška	pear	dodatno	kruška			
+L5	braten → er brät · hat gebraten	peći, pržiti	to fry, roast	dodatno				
+L5	die Brezel, Brezeln	perec	pretzel	tečaj		Jonas: Und das ist Frau Yilmaz, die dir immer Brezeln schenkt!	Jonas: A to je gospođa Yilmaz, koja ti uvijek poklanja perece!	Jonas: And that's Frau Yilmaz, who always gives you pretzels!
+L5	das Brot, Brote	kruh	bread	osnovni	kruh	Ich möchte zwei Brötchen und ein Brot, bitte.	Molim dva peciva i jedan kruh.	Two rolls and a loaf, please.
+L5	das Brötchen, Brötchen	pecivo	bread roll	osnovni		Anna kauft die Brötchen.	Ana kupuje peciva.	Anna buys the rolls.
+L5	der Bäcker / die Bäckerin	pekar, pekarica	baker	tečaj		An deiner Stelle würde ich beim Bäcker immer auf Deutsch bestellen.	Na tvom mjestu u pekarnici bih uvijek naručivao na njemačkom.	If I were you, I'd always order in German at the bakery.
+L5	die Bäckerei, Bäckereien	pekarnica	bakery	osnovni	pekara	Es gibt eine Bäckerei.	Ima pekarnica.	There's a bakery.
+L5	der Cent, Cents	cent	cent	osnovni				
+L5	die Dose, Dosen	limenka, konzerva	tin, can	dodatno				
+L5	dreißig	trideset	thirty	osnovni				
+L5	durstig	žedan	thirsty	dodatno				
+L5	das Ei, Eier	jaje	egg	osnovni	jaje	Wir haben keine Eier.	Nemamo jaja.	We have no eggs.
+L5	der Einkaufswagen, Einkaufswagen	kolica za kupnju	shopping trolley	dodatno				
+L5	das Eis (Sg.)	sladoled; led	ice cream, ice	dodatno	sladoled	Max will ein Eis.	Max želi sladoled.	Max wants an ice cream.
+L5	die Erdbeere, Erdbeeren	jagoda	strawberry	osnovni	jagoda			
+L5	es gibt	ima, postoji	there is, there are	osnovni				
+L5	etwas	nešto	something; some	osnovni		Wenn du Hunger hast, iss etwas!	Ako si gladan, gladna, pojedi nešto!	If you're hungry, eat something!
+L5	der Euro, Euros	euro	euro	osnovni	euro	Das kostet vier Euro fünfzig.	To košta četiri eura i pedeset centi.	That's four euros fifty.
+L5	die Flasche, Flaschen	boca	bottle	osnovni				
+L5	das Fleisch (Sg.)	meso	meat	osnovni	meso			
+L5	frisch	svjež	fresh	osnovni		Verkäufer: Drei Euro. Sie sind sehr frisch!	Prodavač: Tri eura. Jako su svježe!	Seller: Three euros. They're very fresh!
+L5	fünfzig	pedeset	fifty	osnovni		Das kostet vier Euro fünfzig.	To košta četiri eura i pedeset centi.	That's four euros fifty.
+L5	für	za	for	osnovni		Tom: Ich finde, dass Deutsch gut für die Karriere ist.	Tom: Mislim da je njemački dobar za karijeru.	Tom: I think German is good for your career.
+L5	die Gabel, Gabeln	vilica	fork	dodatno				
+L5	das Gemüse (Sg.)	povrće	vegetables	osnovni	povrće			
+L5	das Gramm (Sg.)	gram	gram	osnovni				
+L5	die Gurke, Gurken	krastavac	cucumber	dodatno				
+L5	der Honig	med	honey	tečaj				
+L5	hundert	sto	hundred	osnovni				
+L5	hungrig	gladan	hungry	dodatno				
+L5	das Hähnchen, Hähnchen	piletina	chicken (food)	osnovni				
+L5	ich möchte	želio bih, želim	I would like	osnovni				
+L5	der Joghurt, Joghurts	jogurt	yoghurt	dodatno				
+L5	der Kaffee (Sg.)	kava	coffee	osnovni	kava	Es gibt keinen Kaffee.	Nema kave.	There's no coffee.
+L5	die Karotte, Karotten	mrkva	carrot	osnovni	mrkva			
+L5	die Kartoffel, Kartoffeln	krumpir	potato	osnovni	krumpir	Jonas: Wir brauchen Tomaten, Kartoffeln und Äpfel.	Jonas: Trebamo rajčice, krumpir i jabuke.	Jonas: We need tomatoes, potatoes and apples.
+L5	die Kasse, Kassen	blagajna	checkout, till	osnovni				
+L5	der Keks, Kekse	keks	biscuit	tečaj				
+L5	das Kilo, Kilos	kilogram	kilo	osnovni		Anna: Hier gibt es Tomaten. Was kostet ein Kilo?	Ana: Ovdje ima rajčica. Koliko košta kilogram?	Anna: There are tomatoes here. How much is a kilo?
+L5	kosten → es kostet	koštati	to cost	osnovni		Und drei Äpfel. Was kostet das?	I tri jabuke. Koliko to košta?	And three apples. How much is that?
+L5	die Kreditkarte, Kreditkarten	kreditna kartica	credit card	dodatno				
+L5	der Kuchen, Kuchen	kolač	cake	osnovni	kolač	Gern. Möchten Sie auch Kuchen?	Rado. Želite li i kolač?	Of course. Would you like some cake too?
+L5	der Käse (Sg.)	sir	cheese	osnovni	sir			
+L5	der Laden, Läden	dućan	shop	osnovni				
+L5	die Lebensmittel (Pl.)	namirnice	groceries, food	tečaj				
+L5	lecker	ukusan	tasty	osnovni		Anna: Aber sie sind lecker. Ein Kilo, bitte.	Ana: Ali ukusne su. Jedan kilogram, molim.	Anna: But they're tasty. One kilo, please.
+L5	die Limonade, Limonaden	limunada	lemonade	dodatno	limunada			
+L5	der Liter, Liter	litra	litre	osnovni				
+L5	der Löffel, Löffel	žlica	spoon	dodatno	žlica			
+L5	der Markt, Märkte	tržnica	market	osnovni	tržnica	Hier gibt es einen Markt.	Ovdje ima tržnica.	There's a market here.
+L5	die Marmelade, Marmeladen	marmelada, džem	jam	dodatno				
+L5	das Messer, Messer	nož	knife	dodatno	nož			
+L5	die Milch (Sg.)	mlijeko	milk	osnovni	mlijeko	Es gibt keine Milch!	Nema mlijeka!	There's no milk!
+L5	das Mineralwasser, Mineralwässer	mineralna voda	mineral water	dodatno				
+L5	mögen → er mag · hat gemocht	voljeti, sviđati se	to like	dodatno		Der Kollege, den ich am liebsten mag, heißt Tim.	Kolega kojeg najviše volim zove se Tim.	The colleague I like most is called Tim.
+L5	das Müsli, Müslis	musli	muesli	dodatno				
+L5	neunzig	devedeset	ninety	osnovni				
+L5	die Nudeln (Pl.)	tjestenina	pasta, noodles	osnovni				
+L5	das Obst (Sg.)	voće	fruit	osnovni	voće	du isst → Iss Obst!	Jedi voće!	Eat fruit!
+L5	ohne	bez	without	osnovni				
+L5	die Packung, Packungen	pakiranje	pack, packet	osnovni				
+L5	die Paprika, Paprikas	paprika	pepper (vegetable)	dodatno				
+L5	das Pfand	povratna naknada (za bocu)	deposit (on bottles)	tečaj				
+L5	die Pfanne, Pfannen	tava	frying pan	dodatno	tava			
+L5	der Pfeffer (Sg.)	papar	pepper	dodatno				
+L5	die Pommes (Pl.)	pomfrit	chips, fries	dodatno				
+L5	der Preis, Preise	cijena	price	osnovni				
+L5	der Reis (Sg.)	riža	rice	osnovni	riža			
+L5	der Saft, Säfte	sok	juice	osnovni	sok			
+L5	der Salat, Salate	salata	salad; lettuce	osnovni	salata			
+L5	das Salz (Sg.)	sol	salt	osnovni	sol	Würden Sie mir bitte das Salz geben?	Biste li mi dodali sol?	Would you pass me the salt, please?
+L5	salzig	slan	salty	dodatno				
+L5	satt	sit	full (not hungry)	dodatno				
+L5	sauer	kiseo	sour	dodatno				
+L5	die Scheibe, Scheiben	kriška, šnita	slice	dodatno				
+L5	der Schinken	šunka	ham	tečaj		Jonas hat Rauchbier getrunken. Es schmeckt wie Schinken!	Jonas je pio dimljeno pivo. Ima okus kao šunka!	Jonas drank smoked beer. It tastes like ham!
+L5	schneiden → hat geschnitten	rezati / izrezati	to cut	dodatno				
+L5	sechzig	šezdeset	sixty	osnovni				
+L5	siebzig	sedamdeset	seventy	osnovni				
+L5	die Soße, Soßen	umak	sauce	tečaj				
+L5	die Speisekarte, Speisekarten	jelovnik	menu	dodatno				
+L5	das Stück, Stücke	komad	piece	osnovni		Ein Stück kostet zwei Euro zwanzig.	Komad košta dva eura i dvadeset.	A piece costs two euros twenty.
+L5	der Supermarkt, Supermärkte	supermarket	supermarket	osnovni		Es gibt zwei Supermärkte.	Ima dva supermarketa.	There are two supermarkets.
+L5	die Suppe, Suppen	juha	soup	osnovni	juha	Die Suppe schmeckt mir.	Juha mi je fina.	I like the soup.
+L5	süß	sladak	sweet	osnovni				
+L5	die Tasse, Tassen	šalica	cup	dodatno	šalica			
+L5	der Tee, Tees	čaj	tea	osnovni		Möchtest du einen Tee?	Želiš li čaj?	Would you like a tea?
+L5	die Tomate, Tomaten	rajčica	tomato	osnovni	rajčica	Ich brauche keine Tomaten.	Ne trebaju mi rajčice.	I don't need tomatoes.
+L5	der Topf, Töpfe	lonac	pot	dodatno	lonac			
+L5	die Traube, Trauben	grožđe, grozd	grape	dodatno	grožđe			
+L5	das Trinkgeld, Trinkgelder	napojnica	tip	dodatno				
+L5	die Tüte, Tüten	vrećica	bag	dodatno	vrećica			
+L5	vegetarisch	vegetarijanski	vegetarian	dodatno				
+L5	verkaufen → ich verkaufe	prodavati	to sell	osnovni				
+L5	vierzig	četrdeset	forty	osnovni				
+L5	das Wechselgeld (Sg.)	kusur	change (money)	dodatno				
+L5	der Wein, Weine	vino	wine	osnovni	vino			
+L5	wenig	malo	little, few	osnovni				
+L5	wie viel	koliko	how much	osnovni		Weißt du, wie viel die Wohnung kostet?	Znaš li koliko stan košta?	Do you know how much the flat costs?
+L5	die Wurst, Würste	kobasica	sausage	osnovni				
+L5	der Zucker (Sg.)	šećer	sugar	osnovni	šećer			
+L5	die Zwiebel, Zwiebeln	luk	onion	tečaj	luk			
+L5	das Öl, Öle	ulje	oil	dodatno				
+L6	der Anfänger / die Anfängerin	početnik, početnica	beginner	tečaj				
+L6	angeln → hat geangelt	pecati, loviti ribu	to fish	dodatno				
+L6	die App, Apps	aplikacija	app	dodatno		Ich arbeite als Designerin in einer Firma, die Apps macht.	Radim kao dizajnerica u firmi koja izrađuje aplikacije.	I work as a designer at a company that makes apps.
+L6	der Ausflug, Ausflüge	izlet	trip, outing	osnovni				
+L6	die Band, Bands	glazbeni sastav, bend	band	dodatno				
+L6	der Basketball, Basketbälle	košarka; košarkaška lopta	basketball	dodatno	košarka			
+L6	basteln → hat gebastelt	izrađivati rukotvorine	to do crafts	dodatno				
+L6	der Chor, Chöre	zbor	choir	tečaj				
+L6	dich	te, tebe	you (informal, acc.)	osnovni		Lena, ich sehe dich!	Lena, vidim te!	Lena, I can see you!
+L6	draußen	vani	outside	osnovni				
+L6	drinnen	unutra	inside	osnovni				
+L6	das Essen, Essen	jesti	to eat	osnovni	hrana	Nach dem Essen gehen wir spazieren.	Nakon jela idemo u šetnju.	After the meal we go for a walk.
+L6	euch	vas	you (pl., acc.)	osnovni		Was trägt man bei euch im Büro?	Što se kod vas nosi u uredu?	What do people wear in your office?
+L6	fahren → er fährt	voziti (se), ići	to drive, to ride, to go	osnovni	voziti	Jonas fährt gern Rad.	Jonas rado vozi bicikl.	Jonas likes cycling.
+L6	das Fahrrad, Fahrräder	bicikl	bicycle	osnovni	bicikl	Um acht Uhr fährt Jonas mit dem Fahrrad zum Arzt.	U osam Jonas biciklom ide liječniku.	At eight Jonas cycles to the doctor's.
+L6	der Fan, Fans	navijač, obožavatelj	fan	dodatno				
+L6	fern·sehen → er sieht fern	gledati televiziju	to watch TV	osnovni	televizija	Die Kinder? Lena sieht sie.	Djeca? Lena ih vidi.	The children? Lena can see them.
+L6	der Fernseher, Fernseher	televizor	television set	dodatno	televizija			
+L6	der Film, Filme	film	film	osnovni	film	Siehst du den Film?	Gledaš li film?	Are you watching the film?
+L6	das Fitnessstudio, Fitnessstudios	teretana	gym	dodatno	teretana			
+L6	fotografieren → ich fotografiere	fotografirati	to take photos	osnovni				
+L6	die Freizeit (Sg.)	slobodno vrijeme	free time	osnovni				
+L6	der Fußball, Fußbälle	nogomet	football	osnovni	nogomet	Ich spiele gern Fußball.	Rado igram nogomet.	I like playing football.
+L6	geben → er gibt	dati	to give	osnovni		In der Bank gibt es keinen Geldautomaten!	U banci nema bankomata!	There's no cash machine in the bank!
+L6	die Geige, Geigen	violina	violin	dodatno				
+L6	gern → lieber → am liebsten	rado	gladly (likes to)	osnovni		Die Serie? Ich sehe sie gern.	Serija? Rado je gledam.	The series? I like watching it.
+L6	gewinnen → ich gewinne	pobijediti	to win	osnovni		Jonas: Wenn ich im Lotto gewinnen würde, würde ich ein Café aufmachen.	Jonas: Kad bih dobio na lotu, otvorio bih kafić.	Jonas: If I won the lottery, I'd open a café.
+L6	das Hobby, Hobbys	hobi	hobby	osnovni		Mein Hobby ist Laufen.	Moj hobi je trčanje.	My hobby is running.
+L6	ihn	ga, njega	him	osnovni		Den Kuchen? Max isst ihn.	Kolač? Max ga jede.	The cake? Max is eating it.
+L6	das Instrument, Instrumente	instrument	instrument	osnovni				
+L6	interessant	zanimljiv	interesting	osnovni		Und ich finde, dass Deutsch interessant ist.	I mislim da je njemački zanimljiv.	And I think German is interesting.
+L6	joggen → ich jogge	trčati (rekreativno)	to jog	osnovni	trčati			
+L6	die Kamera, Kameras	fotoaparat	camera	osnovni	fotoaparat			
+L6	die Karte, Karten	karta	card; map; ticket	osnovni	čestitka	Wir schicken den Eltern eine Karte.	Šaljemo roditeljima čestitku.	We're sending our parents a card.
+L6	das Klavier, Klaviere	klavir	piano	osnovni	klavir			
+L6	klettern → ich klettere	penjati se	to climb	osnovni				
+L6	das Konzert, Konzerte	koncert	concert	osnovni	koncert			
+L6	die Kunst	umjetnost	art	tečaj				
+L6	laufen → er läuft	trčati; hodati	to run; to walk	osnovni	trčanje	Anna läuft lieber am Morgen.	Ana radije trči ujutro.	Anna prefers running in the morning.
+L6	lesen → er liest	čitati	to read	osnovni	čitati	Anna liest ein Buch.	Ana čita knjigu.	Anna is reading a book.
+L6	lieber	radije	rather (prefers to)	osnovni		Lena spielt lieber Tennis.	Lena radije igra tenis.	Lena prefers tennis.
+L6	das Lied, Lieder	pjesma	song	osnovni	pjesma			
+L6	Lust haben	imati volje	to feel like	osnovni				
+L6	die Mannschaft, Mannschaften	momčad	team (sport)	osnovni				
+L6	mich	me, mene	me	osnovni		Max fragt mich.	Max me pita.	Max is asking me.
+L6	müde	umoran	tired	osnovni		Ich war am Samstag müde.	U subotu sam bio umoran, bila umorna.	On Saturday I was tired.
+L6	nehmen → er nimmt	uzeti	to take	osnovni		Jonas isst kein Brötchen. Er nimmt nur Kaffee.	Jonas ne jede pecivo. Uzima samo kavu.	Jonas doesn't eat a roll. He just has coffee.
+L6	die Politik	politika	politics	tečaj		Interessierst du dich für Politik? — Nein, dafür interessiere ich mich nicht.	Zanima li te politika? — Ne, to me ne zanima.	Are you interested in politics? — No, I'm not interested in that.
+L6	Rad fahren → ich fahre Rad	voziti bicikl	to cycle	tečaj		Ich fahre nicht gern Rad. Ich lese lieber.	Ja ne volim voziti bicikl. Radije čitam.	I don't like cycling. I'd rather read.
+L6	reiten → ist geritten	jahati	to ride (a horse)	dodatno				
+L6	der Roman, Romane	roman	novel	dodatno				
+L6	sammeln → hat gesammelt	skupljati / skupiti	to collect	dodatno				
+L6	das Schach (Sg.)	šah	chess	dodatno	šah			
+L6	schlafen → er schläft	spavati	to sleep	osnovni	spavati	Und Max? Max schläft lange.	A Max? Max dugo spava.	And Max? Max sleeps late.
+L6	das Schlagzeug, Schlagzeuge	bubnjevi	drums	dodatno				
+L6	das Schwimmbad, Schwimmbäder	bazen	swimming pool	osnovni				
+L6	schwimmen → ich schwimme	plivati	to swim	osnovni	plivanje	Ich schwimme nicht gern.	Ne volim plivati.	I don't like swimming.
+L6	sehen → er sieht	vidjeti	to see	osnovni		Die Kinder? Lena sieht sie.	Djeca? Lena ih vidi.	The children? Lena can see them.
+L6	die Sendung, Sendungen	emisija	programme	dodatno				
+L6	die Serie, Serien	serija	TV series	osnovni	serija	Die Serie? Ich sehe sie gern.	Serija? Rado je gledam.	The series? I like watching it.
+L6	singen → ich singe	pjevati	to sing	osnovni				
+L6	der Ski, Skier	skija	ski	dodatno				
+L6	Ski fahren → er fährt Ski · ist Ski gefahren	skijati	to ski	dodatno		Jonas fährt gern Rad.	Jonas rado vozi bicikl.	Jonas likes cycling.
+L6	spannend	napet, uzbudljiv	exciting	osnovni				
+L6	das Spiel, Spiele	igra; utakmica	game; match	osnovni				
+L6	der Spieler, Spieler	igrač	player	osnovni	igrač			
+L6	der Spielplatz, Spielplätze	igralište	playground	dodatno				
+L6	der Sport (Sg.)	sport	sport	osnovni	sport	Ich interessiere mich für Musik und Sport.	Zanimaju me glazba i sport.	I'm interested in music and sport.
+L6	der Sportverein, Sportvereine	sportski klub	sports club	tečaj				
+L6	das Stadion, Stadien	stadion	stadium	dodatno	stadion			
+L6	stricken → hat gestrickt	plesti	to knit	dodatno				
+L6	super	super	super	osnovni		Meine Kollegin Lena ist super. Wir sagen schon „du“.	Moja kolegica Lena je super. Već si govorimo „ti“.	My colleague Lena is great. We already say "du".
+L6	surfen → hat gesurft	surfati	to surf	dodatno				
+L6	der Sänger, Sänger / die Sängerin, Sängerinnen	pjevač, pjevačica	singer	dodatno				
+L6	der Tanz, Tänze	ples	dance	dodatno	ples			
+L6	tanzen → ich tanze	plesati	to dance	osnovni	ples	Wir tanzen sehr gern.	Jako volimo plesati.	We love dancing.
+L6	das Team, Teams	tim	team	osnovni				
+L6	das Tennis (Sg.)	tenis	tennis	osnovni	tenis	Lena spielt lieber Tennis.	Lena radije igra tenis.	Lena prefers tennis.
+L6	das Theater, Theater	kazalište	theatre	osnovni	kazalište			
+L6	toll	super, odličan	great	osnovni		Wie war das Wochenende? — Es war toll!	Kakav je bio vikend? — Bio je super!	How was the weekend? — It was great!
+L6	das Tor, Tore	gol; vrata (dvorišna)	goal; gate	tečaj	gol			
+L6	der Trainer, Trainer / die Trainerin, Trainerinnen	trener, trenerica	coach	dodatno	trener			
+L6	trainieren → ich trainiere	trenirati	to train	osnovni				
+L6	das Training, Trainings	trening	training	osnovni				
+L6	treffen → er trifft	sresti, naći se	to meet	osnovni		Wir treffen uns um acht.	Nalazimo se u osam.	We're meeting at eight.
+L6	uns	nas	us	osnovni		Wir feiern am Samstag, dem 15. März, um 15 Uhr bei uns.	Slavimo u subotu, 15. ožujka, u 15 sati kod nas.	We're celebrating on Saturday 15 March at 3 p.m. at our place.
+L6	der Verein, Vereine	klub, udruga	club	osnovni				
+L6	vergessen → er vergisst	zaboraviti	to forget	osnovni		Ich habe den Schlüssel vergessen.	Zaboravio sam, zaboravila sam ključ.	I forgot the key.
+L6	verlieren → ich verliere	izgubiti	to lose	osnovni				
+L6	der Volleyball, Volleybälle	odbojka	volleyball	dodatno				
+L6	waschen → er wäscht	prati	to wash	osnovni		Jonas wäscht das Auto.	Jonas pere auto.	Jonas is washing the car.
+L6	die Website, Websites	web-stranica	website	dodatno				
+L6	zeichnen → hat gezeichnet	crtati	to draw	dodatno				
+L6	die Zeit, Zeiten	vrijeme	time	osnovni	vrijeme	Wir hatten keine Zeit.	Nismo imali vremena.	We didn't have time.
+L6	die Zeitschrift, Zeitschriften	časopis	magazine	dodatno				
+L6	das Zelt, Zelte	šator	tent	dodatno				
+L6	zelten → hat gezeltet	kampirati	to camp	dodatno				
+L7	die Abteilung, Abteilungen	odjel	department	dodatno				
+L7	der Apotheker, Apotheker / die Apothekerin, Apothekerinnen	ljekarnik, ljekarnica	pharmacist	dodatno				
+L7	der Arbeiter, Arbeiter / die Arbeiterin, Arbeiterinnen	radnik, radnica	worker	dodatno				
+L7	der Arbeitgeber, Arbeitgeber	poslodavac	employer	dodatno				
+L7	arbeitslos	nezaposlen	unemployed	osnovni				
+L7	die Arbeitszeit, Arbeitszeiten	radno vrijeme	working hours	dodatno				
+L7	der Architekt, Architekten (n-Dekl.) / die Architektin, Architektinnen	arhitekt, arhitektica	architect	dodatno				
+L7	der Arzt, Ärzte / die Ärztin, Ärztinnen	liječnik / liječnica	doctor	osnovni	doktor	Jonas ist beim Arzt.	Jonas je kod liječnika.	Jonas is at the doctor's.
+L7	die Aufgabe, Aufgaben	zadatak	task	osnovni				
+L7	der Azubi, Azubis	naučnik, pripravnik	trainee, apprentice	dodatno				
+L7	der Bauarbeiter, Bauarbeiter / die Bauarbeiterin, Bauarbeiterinnen	građevinski radnik, građevinska radnica	building worker	dodatno				
+L7	die Baustelle, Baustellen	gradilište	building site	dodatno				
+L7	der Beamte / die Beamtin	službenik, službenica	civil servant	tečaj				
+L7	beginnen → ich beginne	početi	to begin	osnovni		Wir müssen um acht Uhr beginnen.	Moramo početi u osam.	We have to start at eight.
+L7	der Beruf, Berufe	zanimanje	profession	osnovni				
+L7	beschäftigt	zauzet	busy	osnovni				
+L7	die Besprechung, Besprechungen	sastanak	meeting	osnovni				
+L7	der Brief, Briefe	pismo	letter	osnovni	pismo			
+L7	der Busfahrer, Busfahrer / die Busfahrerin, Busfahrerinnen	vozač autobusa, vozačica autobusa	bus driver	dodatno				
+L7	das Büro, Büros	ured	office	osnovni	ured	Was trägt man bei euch im Büro?	Što se kod vas nosi u uredu?	What do people wear in your office?
+L7	der Chef, Chefs / die Chefin, Chefinnen	šef / šefica	boss	osnovni				
+L7	die Chefin, Chefinnen	šefica	boss (f)	tečaj		Die Chefin sagt, ich soll morgen kommen.	Šefica kaže da trebam doći sutra.	The boss says I should come tomorrow.
+L7	der Designer, Designer / die Designerin, Designerinnen	dizajner / dizajnerica	designer	osnovni				
+L7	drucken → ich drucke	ispisati	to print	osnovni				
+L7	durchfallen → er fällt durch · ist durchgefallen	pasti (na ispitu)	to fail (an exam)	dodatno				
+L7	dürfen → ich darf	smjeti	may, to be allowed to	osnovni		Hier darf man nicht parken.	Ovdje se ne smije parkirati.	You can't park here.
+L7	die E-Mail, E-Mails	e-pošta	email	osnovni				
+L7	der Elektriker, Elektriker / die Elektrikerin, Elektrikerinnen	električar, električarka	electrician	dodatno				
+L7	erklären → ich erkläre	objasniti	to explain	osnovni		Kannst du es mir erklären?	Možeš li mi to objasniti?	Can you explain it to me?
+L7	erlaubt	dopušteno	allowed	osnovni				
+L7	das Fach, Fächer	predmet	subject	dodatno				
+L7	der Feierabend, Feierabende	kraj radnog dana	end of the working day	osnovni		Ich habe heute lange gearbeitet. Jetzt ist Feierabend!	Danas sam dugo radio, radila. Sad je kraj radnog dana!	I worked late today. Now it's Feierabend!
+L7	fertig	gotov	finished, ready	osnovni				
+L7	die Firma, Firmen	tvrtka	company	osnovni		Die Firma ist ein kleines Start-up. Die Leute tragen Jeans.	Firma je mali start-up. Ljudi nose traperice.	The company is a small start-up. People wear jeans.
+L7	frei	slobodan	free	osnovni		Wenn ich ein Jahr frei hätte, würde ich reisen.	Da imam godinu slobodno, putovao, putovala bih.	If I had a year off, I'd travel.
+L7	der Friseur / die Friseurin	frizer, frizerka	hairdresser	tečaj		Er geht zum Friseur. Der Friseur ist geschlossen.	Ide frizeru. Frizer je zatvoren.	He goes to the hairdresser. The hairdresser is closed.
+L7	das Gehalt, Gehälter	plaća	salary	dodatno				
+L7	das Geld (Sg.)	novac	money	osnovni	novac	Wenn ich nur mehr Geld hätte!	Kad bih bar imao više novca!	If only I had more money!
+L7	die Grundschule, Grundschulen	osnovna škola	primary school	dodatno				
+L7	der Hausmeister / die Hausmeisterin	domar, domarica	caretaker	tečaj		Anna: Und hier ist der Hausmeister, mit dem ich jetzt Kaffee trinke.	Ana: A ovdje je domar s kojim sad pijem kavu.	Anna: And here's the caretaker I now have coffee with.
+L7	die Hausordnung	kućni red	house rules	tečaj				
+L7	das Homeoffice	rad od kuće	working from home	tečaj				
+L7	der Ingenieur, Ingenieure / die Ingenieurin, Ingenieurinnen	inženjer / inženjerka	engineer	osnovni				
+L7	das Internet (Sg.)	internet	internet	osnovni				
+L7	der Job, Jobs	posao	job	osnovni				
+L7	der Journalist, Journalisten (n-Dekl.) / die Journalistin, Journalistinnen	novinar, novinarka	journalist	dodatno				
+L7	die Kantine, Kantinen	kantina, menza	canteen	dodatno				
+L7	der Kellner, Kellner / die Kellnerin, Kellnerinnen	konobar / konobarica	waiter	osnovni	konobar			
+L7	der Kindergarten, Kindergärten	vrtić	nursery, kindergarten	dodatno				
+L7	die Klasse, Klassen	razred	class	dodatno				
+L7	der Koch, Köche / die Köchin, Köchinnen	kuhar / kuharica	cook	osnovni				
+L7	der Kollege, Kollegen (n-Dekl.) / die Kollegin, Kolleginnen	kolega / kolegica	colleague	osnovni		Der Kollege, den ich am liebsten mag, heißt Tim.	Kolega kojeg najviše volim zove se Tim.	The colleague I like most is called Tim.
+L7	kopieren → hat kopiert	kopirati	to copy	dodatno				
+L7	die Krankenschwester, Krankenschwestern	medicinska sestra	nurse	dodatno				
+L7	der Kunde, Kunden (n-Dekl.) / die Kundin, Kundinnen	kupac, klijent	customer	osnovni	kupac			
+L7	die Köchin	kuharica	cook (f)	tečaj				
+L7	können → ich kann	moći, znati	can, to be able to	osnovni		Er kann gut kochen.	On zna dobro kuhati.	He can cook well.
+L7	kündigen → hat gekündigt	otkazati	to give notice, to cancel	dodatno				
+L7	lange	dugo	for a long time	osnovni		Ich muss heute lange arbeiten.	Danas moram dugo raditi.	I have to work late today.
+L7	der Lehrer, Lehrer / die Lehrerin, Lehrerinnen	učitelj / učiteljica	teacher	osnovni		Ich frage den Lehrer.	Pitam učitelja.	I ask the teacher.
+L7	die Lehrerin	učiteljica	teacher (f)	tečaj	učiteljica			
+L7	leider	nažalost	unfortunately	osnovni				
+L7	der Lohn, Löhne	nadnica, plaća	wages	dodatno				
+L7	man	(bezlično: se)	one, you (general)	osnovni		Hier spricht man Deutsch.	Ovdje se govori njemački.	German is spoken here.
+L7	der Mechaniker, Mechaniker / die Mechanikerin, Mechanikerinnen	mehaničar / mehaničarka	mechanic	osnovni				
+L7	der Mitarbeiter, Mitarbeiter / die Mitarbeiterin, Mitarbeiterinnen	suradnik, suradnica, zaposlenik	employee, colleague	dodatno				
+L7	möchten → ich möchte	željeti	would like	osnovni		Ich möchte einen Kaffee trinken.	Želio bih popiti kavu.	I'd like to drink a coffee.
+L7	der Müll (Sg.)	smeće	rubbish	osnovni		Man muss den Müll trennen.	Smeće se mora odvajati.	You have to separate the rubbish.
+L7	müssen → ich muss	morati	must, to have to	osnovni		Man muss den Müll trennen.	Smeće se mora odvajati.	You have to separate the rubbish.
+L7	natürlich	naravno	of course	osnovni				
+L7	die Note, Noten	ocjena	grade, mark	dodatno				
+L7	parken → ich parke	parkirati	to park	osnovni		Dürfen wir hier parken?	Smijemo li ovdje parkirati?	May we park here?
+L7	die Pause, Pausen	pauza	break	osnovni		Um zwölf können wir Pause machen.	U dvanaest možemo napraviti pauzu.	At twelve we can take a break.
+L7	der Pfleger, Pfleger / die Pflegerin, Pflegerinnen	medicinski tehničar / medicinska sestra	nurse, carer	osnovni				
+L7	der Pilot / die Pilotin	pilot, pilotkinja	pilot	tečaj	pilot	Max will Pilot werden.	Max želi postati pilot.	Max wants to become a pilot.
+L7	der Plan, Pläne	plan	plan	osnovni				
+L7	planen → ich plane	planirati	to plan	osnovni				
+L7	der Polizist, Polizisten (n-Dekl.) / die Polizistin, Polizistinnen	policajac / policajka	police officer	osnovni	policajac			
+L7	das Praktikum, Praktika	praksa	internship	dodatno				
+L7	der Programmierer, Programmierer / die Programmiererin, Programmiererinnen	programer, programerka	programmer	dodatno				
+L7	das Projekt, Projekte	projekt	project	osnovni				
+L7	rauchen → ich rauche	pušiti	to smoke	osnovni		Hier darf man nicht rauchen.	Ovdje se ne smije pušiti.	You can't smoke here.
+L7	der Rechtsanwalt, Rechtsanwälte / die Rechtsanwältin, Rechtsanwältinnen	odvjetnik, odvjetnica	lawyer	dodatno				
+L7	die Regel, Regeln	pravilo	rule	osnovni		Ihr könntet Regeln machen: Ab 23 Uhr ist Ruhe.	Mogli biste dogovoriti pravila: od 23 sata je tišina.	You could make rules: quiet from 11 p.m.
+L7	reparieren → ich repariere	popraviti	to repair	osnovni				
+L7	die Ruhe (Sg.)	mir, tišina	quiet, peace	osnovni		Ihr könntet Regeln machen: Ab 23 Uhr ist Ruhe.	Mogli biste dogovoriti pravila: od 23 sata je tišina.	You could make rules: quiet from 11 p.m.
+L7	der Schauspieler / die Schauspielerin	glumac, glumica	actor, actress	tečaj				
+L7	die Schicht, Schichten	smjena	shift	dodatno				
+L7	schreiben → ich schreibe	pisati	to write	osnovni				
+L7	das Semester, Semester	semestar	semester	dodatno				
+L7	sollen → ich soll	trebati (po nečijoj volji)	should, to be supposed to	osnovni		Die Chefin sagt, ich soll morgen kommen.	Šefica kaže da trebam doći sutra.	The boss says I should come tomorrow.
+L7	spülen → ich spüle	prati suđe	to wash up	osnovni		Anna muss am Dienstag spülen.	Ana u utorak mora prati suđe.	On Tuesday Anna has to wash up.
+L7	die Stelle, Stellen	radno mjesto; mjesto	position, job; place	osnovni		An deiner Stelle würde ich nicht so viel arbeiten.	Na tvom mjestu ne bih toliko radio.	If I were you, I wouldn't work so much.
+L7	der Student, Studenten (n-Dekl.) / die Studentin, Studentinnen	student / studentica	student	osnovni	student			
+L7	der Stundenplan, Stundenpläne	raspored sati	timetable	dodatno				
+L7	der Taxifahrer, Taxifahrer / die Taxifahrerin, Taxifahrerinnen	taksist, taksistica	taxi driver	dodatno				
+L7	Teilzeit	nepuno radno vrijeme	part-time	dodatno				
+L7	das Telefon, Telefone	telefon	telephone	osnovni	telefon			
+L7	telefonieren → ich telefoniere	telefonirati	to phone	osnovni		Dürfte ich kurz telefonieren?	Bih li smio kratko telefonirati?	May I make a quick call?
+L7	der Termin, Termine	termin, dogovor	appointment	osnovni		Der Termin fängt um acht Uhr an. Ich komme um Viertel vor acht.	Termin počinje u osam. Dolazim u četvrt do osam.	The appointment starts at eight. I'm coming at quarter to eight.
+L7	unterrichten → hat unterrichtet	predavati, podučavati	to teach	dodatno				
+L7	verboten	zabranjeno	forbidden	osnovni				
+L7	verdienen → ich verdiene	zarađivati	to earn	osnovni				
+L7	der Verkäufer, Verkäufer / die Verkäuferin, Verkäuferinnen	prodavač / prodavačica	shop assistant	osnovni		Verkäufer: Ja, hier. Und vielleicht eine rote Krawatte?	Prodavač: Da, izvolite. I možda crvena kravata?	Assistant: Yes, here. And maybe a red tie?
+L7	vielleicht	možda	maybe	osnovni		Verkäufer: Ja, hier. Und vielleicht eine rote Krawatte?	Prodavač: Da, izvolite. I možda crvena kravata?	Assistant: Yes, here. And maybe a red tie?
+L7	Vollzeit	puno radno vrijeme	full-time	dodatno				
+L7	die Werkstatt, Werkstätten	radionica	workshop	dodatno				
+L7	wollen → ich will	htjeti	to want	osnovni		Sie (ona // she) will in Wien wohnen.	Želi živjeti u Beču.	She wants to live in Vienna.
+L7	das Zeugnis, Zeugnisse	svjedodžba	certificate, report	dodatno				
+L7	die Ärztin	liječnica	doctor (f)	tečaj	doktorica	Ruf die Ärztin an!	Nazovi liječnicu!	Call the doctor!
+L7	die Überstunden (Pl.)	prekovremeni sati	overtime	dodatno				
+L8	das Abendessen, Abendessen	večera	dinner	osnovni				
+L8	ab·holen → ich hole ab	pokupiti	to pick up	osnovni		Kannst du Max abholen?	Možeš li pokupiti Maxa?	Can you pick up Max?
+L8	ab·räumen → hat abgeräumt	pospremiti (stol)	to clear away	dodatno				
+L8	ab·trocknen → hat abgetrocknet	brisati, obrisati	to dry (dishes)	dodatno				
+L8	der Abwasch (Sg.)	pranje posuđa	washing-up	dodatno				
+L8	ab·waschen → er wäscht ab · hat abgewaschen	prati posuđe	to wash up	dodatno		Jonas wäscht das Auto.	Jonas pere auto.	Jonas is washing the car.
+L8	der Akku, Akkus	baterija (punjiva)	battery	tečaj		Er will die Chefin anrufen, aber der Akku ist leer!	Želi nazvati šeficu, ali baterija je prazna!	He wants to call the boss, but the battery is dead!
+L8	der Alltag (Sg.)	svakodnevica	everyday life	osnovni				
+L8	an·fangen → er fängt an	početi	to begin	osnovni		Wann fängt der Kurs an?	Kada počinje tečaj?	When does the course start?
+L8	an·machen → hat angemacht	upaliti, uključiti	to switch on	dodatno				
+L8	an·rufen → ich rufe an	nazvati	to call (phone)	osnovni		Er will die Chefin anrufen, aber der Akku ist leer!	Želi nazvati šeficu, ali baterija je prazna!	He wants to call the boss, but the battery is dead!
+L8	Auf Wiederhören!	Doviđenja! (na telefonu)	Goodbye! (on the phone)	tečaj				
+L8	auf·hören → ich höre auf	prestati	to stop	osnovni				
+L8	auf·räumen → ich räume auf	pospremiti	to tidy up	osnovni				
+L8	auf·stehen → ich stehe auf	ustati	to get up	osnovni		Ich stehe um sieben Uhr auf.	Ustajem u sedam.	I get up at seven.
+L8	auf·wachen → ich wache auf	probuditi se	to wake up	osnovni		Ich wache um halb sieben auf.	Budim se u pola sedam.	I wake up at half past six.
+L8	auf·wecken → hat aufgeweckt	probuditi	to wake up (someone)	dodatno				
+L8	aus·gehen → ich gehe aus	izaći	to go out	osnovni		Wir wollen heute ausgehen.	Danas želimo izaći.	We want to go out today.
+L8	aus·machen → hat ausgemacht	ugasiti, isključiti	to switch off	dodatno				
+L8	aus·schalten → ich schalte aus	isključiti	to switch off	osnovni				
+L8	bald	uskoro	soon	osnovni				
+L8	der Bus, Busse	autobus	bus	osnovni	autobus	Der Bus kommt um acht Uhr fünfundzwanzig. Jonas ist zu spät.	Autobus dolazi u 8:25. Jonas kasni.	The bus comes at 8:25. Jonas is too late.
+L8	das Bügeleisen, Bügeleisen	glačalo	iron	dodatno				
+L8	danach	nakon toga	after that	osnovni				
+L8	dauern → es dauert	trajati	to last, to take (time)	osnovni				
+L8	die Dusche, Duschen	tuš	shower	osnovni		Küche mit Herd und Kühlschrank, Bad mit Dusche.	Kuhinja sa štednjakom i hladnjakom, kupaonica s tušem.	Kitchen with cooker and fridge, bathroom with shower.
+L8	duschen → ich dusche	tuširati se	to shower	osnovni				
+L8	der Eimer, Eimer	kanta	bucket	dodatno				
+L8	der Einkauf, Einkäufe	kupnja	shopping, purchase	osnovni				
+L8	ein·kaufen → ich kaufe ein	kupovati (namirnice)	to shop	osnovni		Am Samstag kaufe ich ein.	U subotu kupujem.	On Saturday I go shopping.
+L8	ein·schalten → ich schalte ein	uključiti	to switch on	osnovni				
+L8	ein·schlafen → er schläft ein	zaspati	to fall asleep	osnovni		Er schläft wieder ein.	Opet zaspi.	He falls asleep again.
+L8	erst	tek; najprije	only (not until); first	osnovni				
+L8	fast	gotovo	almost	osnovni				
+L8	fegen → hat gefegt	pomesti	to sweep	dodatno				
+L8	früh	rano	early	osnovni		Ich muss morgen früh aufstehen.	Sutra moram rano ustati.	I have to get up early tomorrow.
+L8	das Frühstück, Frühstücke	doručak	breakfast	osnovni	doručak			
+L8	frühstücken → ich frühstücke	doručkovati	to have breakfast	osnovni		Ich frühstücke um Viertel nach sieben.	Doručkujem u sedam i četvrt.	I have breakfast at quarter past seven.
+L8	Gassi gehen	šetati psa	to walk the dog	osnovni				
+L8	gleich	odmah; isti	right away; same	osnovni				
+L8	halb (halb acht)	pola (pola osam)	half (7:30)	osnovni		Die Arbeit fängt um halb neun an.	Posao počinje u pola devet.	Work starts at half past eight.
+L8	die Hausarbeit, Hausarbeiten	kućanski posao	housework	dodatno				
+L8	der Haushalt, Haushalte	kućanstvo	household, housework	osnovni				
+L8	jeden Tag	svaki dan	every day	osnovni		Trotzdem lerne ich jeden Tag.	Ipak učim svaki dan.	Still, I study every day.
+L8	langsam	spor, polako	slow	osnovni		(Sie) Fahren Sie langsam!	Vozite polako!	Drive slowly!
+L8	das Licht, Lichter	svjetlo	light	osnovni	lampa	Schalt das Licht aus!	Ugasi svjetlo!	Switch off the light!
+L8	los·gehen → ist losgegangen	krenuti	to set off	dodatno				
+L8	lüften → hat gelüftet	prozračiti	to air	dodatno				
+L8	die Minute, Minuten	minuta	minute	osnovni		Ist es weit? — Nein, fünf Minuten zu Fuß.	Je li daleko? — Ne, pet minuta pješice.	Is it far? — No, five minutes on foot.
+L8	mit·bringen → ich bringe mit	donijeti	to bring along	osnovni		Kannst du bitte Brot mitbringen?	Možeš li, molim te, donijeti kruh?	Can you bring some bread, please?
+L8	mit·kommen → ich komme mit	poći s nekim	to come along	osnovni		Ich komme um zehn Uhr zurück.	Vraćam se u deset.	I'm coming back at ten.
+L8	das Mittagessen, Mittagessen	ručak	lunch	osnovni	ručak			
+L8	mittags	u podne	at noon	osnovni				
+L8	der Moment, Momente	trenutak	moment	tečaj				
+L8	nach (Viertel nach acht · nach Wien)	i (osam i četvrt); u (u Beč)	past (time); to (cities, countries)	osnovni		Um Viertel nach acht wacht er auf. Mist!	U osam i četvrt se probudi. K vragu!	At quarter past eight he wakes up. Damn!
+L8	nachmittags	poslijepodne	in the afternoon	osnovni				
+L8	die Nachricht, Nachrichten	poruka; vijest	message; news	osnovni				
+L8	nachts	noću	at night	osnovni				
+L8	normalerweise	obično	usually	osnovni				
+L8	pünktlich	točan, na vrijeme	on time	osnovni		Seien Sie bitte pünktlich!	Molim vas, budite točni!	Please be on time!
+L8	schnell	brz, brzo	fast	osnovni		Er steht schnell auf.	Brzo ustaje.	He gets up quickly.
+L8	schon	već	already	osnovni		Bist du schon in Graz gewesen?	Jesi li već bio, bila u Grazu?	Have you been to Graz?
+L8	das Shampoo, Shampoos	šampon	shampoo	dodatno				
+L8	spät	kasno	late	osnovni		Wie spät ist es? — Es ist halb acht.	Koliko je sati? — Pola osam.	What time is it? — Half past seven.
+L8	der Staub (Sg.)	prašina	dust	dodatno				
+L8	die Stunde, Stunden	sat (60 min)	hour	osnovni	sat	Wir warten seit einer Stunde.	Čekamo već sat vremena.	We've been waiting for an hour.
+L8	der Termin beim Friseur	termin kod frizera	hairdresser's appointment	tečaj				
+L8	trocknen → hat getrocknet	sušiti	to dry	dodatno				
+L8	täglich	svakodnevno	daily	osnovni				
+L8	ungefähr	otprilike	about, approximately	osnovni				
+L8	das Viertel, Viertel	četvrt	quarter	osnovni		Der Termin fängt um acht Uhr an. Ich komme um Viertel vor acht.	Termin počinje u osam. Dolazim u četvrt do osam.	The appointment starts at eight. I'm coming at quarter to eight.
+L8	vor (Viertel vor acht)	do (četvrt do osam)	to, before (time)	osnovni		Der Termin fängt um acht Uhr an. Ich komme um Viertel vor acht.	Termin počinje u osam. Dolazim u četvrt do osam.	The appointment starts at eight. I'm coming at quarter to eight.
+L8	vorbei·kommen → ist vorbeigekommen	svratiti	to drop by	dodatno				
+L8	vormittags	prijepodne	in the late morning	osnovni				
+L8	wach	budan	awake	osnovni				
+L8	wann	kada	when	osnovni		Können Sie mir sagen, wann der Kurs beginnt?	Možete li mi reći kad počinje tečaj?	Can you tell me when the course starts?
+L8	der Wecker, Wecker	budilica	alarm clock	osnovni	alarm	Der Wecker klingelt um sechs Uhr. Jonas schaltet ihn aus.	Budilica zvoni u šest. Jonas je isključi.	The alarm rings at six. Jonas switches it off.
+L8	weg·gehen → ist weggegangen	otići	to go away	dodatno				
+L8	wischen → hat gewischt	brisati (pod)	to wipe, to mop	dodatno				
+L8	die Wäsche (Sg.)	rublje	laundry	osnovni				
+L8	der Wäschekorb, Wäschekörbe	košara za rublje	laundry basket	dodatno				
+L8	zuerst	najprije	first	osnovni		Anna: Kein Problem. Stell zuerst das Bett ins Schlafzimmer.	Ana: Nema problema. Prvo stavi krevet u spavaću sobu.	Anna: No problem. First put the bed in the bedroom.
+L8	zu·machen → hat zugemacht	zatvoriti	to close	dodatno				
+L8	zurück·kommen → ich komme zurück	vratiti se	to come back	osnovni		Ich komme um zehn Uhr zurück.	Vraćam se u deset.	I'm coming back at ten.
+L9	-mal (dreimal)	puta (tri puta)	times (three times)	osnovni				
+L9	die Allergie, Allergien	alergija	allergy	osnovni				
+L9	ansteckend	zarazan	contagious	dodatno				
+L9	die Apotheke, Apotheken	ljekarna	pharmacy	osnovni	ljekarna	Mit dem Rezept geht er zur Apotheke.	S receptom ide u ljekarnu.	With the prescription he goes to the pharmacy.
+L9	der Arm, Arme	ruka (od ramena)	arm	osnovni	ruka			
+L9	atmen → ich atme	disati	to breathe	osnovni				
+L9	das Auge, Augen	oko	eye	osnovni	oko	Mir tun die Augen weh.	Bole me oči.	My eyes hurt.
+L9	der Bauch, Bäuche	trbuh	belly	osnovni		Mir tut der Bauch weh.	Boli me trbuh.	My stomach hurts.
+L9	die Bauchschmerzen (Pl.)	bolovi u trbuhu	stomach ache	dodatno				
+L9	das Bein, Beine	noga	leg	osnovni	noga	Mir tun die Beine weh.	Bole me noge.	My legs hurt.
+L9	bleiben → ich bleibe	ostati	to stay	osnovni		Ich bin krank. Ich bleibe zu Hause.	Bolestan sam, bolesna sam. Ostajem kod kuće.	I'm ill. I'm staying at home.
+L9	das Blut (Sg.)	krv	blood	osnovni				
+L9	bluten → hat geblutet	krvariti	to bleed	dodatno				
+L9	brechen → er bricht · hat gebrochen	slomiti	to break	dodatno				
+L9	die Brust, Brüste	prsa	chest; breast	osnovni				
+L9	die Creme, Cremes	krema	cream	tečaj				
+L9	der Daumen, Daumen	palac	thumb	dodatno				
+L9	der Doktor	doktor	doctor	tečaj	doktor			
+L9	der Durchfall (Sg.)	proljev	diarrhoea	dodatno				
+L9	der Ellbogen, Ellbogen	lakat	elbow	dodatno				
+L9	die Erkältung, Erkältungen	prehlada	cold	osnovni		Sie haben eine Erkältung. Nicht schlimm.	Imate prehladu. Nije strašno.	You have a cold. Nothing serious.
+L9	die Ernährung (Sg.)	prehrana	nutrition	dodatno				
+L9	das Feuer, Feuer	vatra, požar	fire	dodatno				
+L9	die Feuerwehr (Sg.)	vatrogasci	fire brigade	dodatno				
+L9	das Fieber (Sg.)	temperatura, groznica	fever	osnovni		Anna ist krank. Sie hat Fieber.	Ana je bolesna. Ima temperaturu.	Anna is ill. She has a fever.
+L9	fit	u formi	fit	dodatno		Hallo Leute! Seid ihr fit?	Bok ljudi! Jeste li spremni?	Hi everyone! Are you fit?
+L9	der Fuß, Füße	stopalo	foot	osnovni	noga	Ist es weit? — Nein, fünf Minuten zu Fuß.	Je li daleko? — Ne, pet minuta pješice.	Is it far? — No, five minutes on foot.
+L9	genug	dovoljno	enough	osnovni				
+L9	das Gesicht, Gesichter	lice	face	osnovni	lice			
+L9	gesund	zdrav	healthy	osnovni				
+L9	die Gesundheit (Sg.)	zdravlje	health	osnovni				
+L9	der Gips (Sg.)	gips	plaster cast	dodatno				
+L9	die Grippe (Sg.)	gripa	flu	osnovni				
+L9	Gute Besserung!	Brzo ozdravi!	Get well soon!	osnovni				
+L9	das Haar, Haare	kosa	hair	osnovni				
+L9	der Hals, Hälse	vrat; grlo	neck; throat	osnovni	vrat	Mir tut der Hals weh.	Boli me grlo.	My throat hurts.
+L9	die Halsschmerzen (Pl.)	grlobolja	sore throat	dodatno				
+L9	die Haut (Sg.)	koža	skin	dodatno				
+L9	heiß	vruć	hot	osnovni		Wir trinken Glühwein. Er schmeckt mir — aber er ist heiß!	Pijemo kuhano vino. Fino mi je — ali vruće je!	We drink mulled wine. I like it — but it's hot!
+L9	das Herz, Herzen	srce	heart	osnovni	srce			
+L9	die Hilfe (Sg.)	pomoć	help	osnovni		Hilfe! Morgen ist das Interview und ich habe nichts zum Anziehen!	Upomoć! Sutra je razgovor, a nemam što obući!	Help! The interview is tomorrow and I've got nothing to wear!
+L9	der Husten (Sg.)	kašalj	cough	osnovni		Ich habe Husten, und mir tut der Hals weh.	Imam kašalj i boli me grlo.	I have a cough and my throat hurts.
+L9	impfen → hat geimpft	cijepiti	to vaccinate	dodatno				
+L9	die Impfung, Impfungen	cijepljenje	vaccination	dodatno				
+L9	kalt	hladan	cold	osnovni		Miete: 690 Euro kalt, 140 Euro NK.	Najam: 690 eura bez režija, 140 eura režije.	Rent: 690 euros cold, 140 euros utilities.
+L9	das Knie, Knie	koljeno	knee	osnovni				
+L9	der Knochen, Knochen	kost	bone	dodatno				
+L9	der Kopf, Köpfe	glava	head	osnovni	glava	Mir tut der Kopf weh.	Boli me glava.	My head hurts.
+L9	die Kopfschmerzen (Pl.)	glavobolja	headache	tečaj				
+L9	krank	bolestan	ill	osnovni		Anna ist krank. Sie hat Fieber.	Ana je bolesna. Ima temperaturu.	Anna is ill. She has a fever.
+L9	das Krankenhaus, Krankenhäuser	bolnica	hospital	osnovni				
+L9	die Krankenkasse, Krankenkassen	zdravstveno osiguranje	health insurance	osnovni				
+L9	der Krankenwagen, Krankenwagen	hitna pomoć (vozilo)	ambulance	dodatno				
+L9	die Krankheit, Krankheiten	bolest	illness	dodatno				
+L9	die Krankschreibung, Krankschreibungen	bolovanje (potvrda)	sick note	osnovni				
+L9	der Körper, Körper	tijelo	body	osnovni				
+L9	die Lippe, Lippen	usna	lip	dodatno				
+L9	die Lunge, Lungen	pluća	lung	dodatno				
+L9	der Magen, Mägen	želudac	stomach	dodatno				
+L9	mal (Komm mal!)	(ublažava: de, malo)	just (softener)	osnovni		Komm mal her!	Dođi malo ovamo!	Come here!
+L9	das Medikament, Medikamente	lijek	medicine	osnovni	lijek			
+L9	messen → er misst	mjeriti	to measure	osnovni				
+L9	der Mund, Münder	usta	mouth	osnovni	usta	Machen Sie bitte den Mund auf.	Otvorite usta, molim.	Please open your mouth.
+L9	der Muskel, Muskeln	mišić	muscle	dodatno				
+L9	die Nase, Nasen	nos	nose	osnovni	nos			
+L9	niesen → hat geniest	kihati	to sneeze	dodatno				
+L9	der Notarzt, Notärzte	hitni liječnik	emergency doctor	dodatno				
+L9	der Notfall, Notfälle	hitni slučaj	emergency	dodatno				
+L9	der Notruf, Notrufe	hitni poziv	emergency call	dodatno				
+L9	das Ohr, Ohren	uho	ear	osnovni	uho			
+L9	der Patient / die Patientin	pacijent, pacijentica	patient	tečaj				
+L9	das Pflaster, Pflaster	flaster	plaster	dodatno				
+L9	die Praxis, Praxen	ordinacija	doctor's surgery	osnovni				
+L9	das Rezept, Rezepte	recept	prescription; recipe	osnovni		Mit dem Rezept geht er zur Apotheke.	S receptom ide u ljekarnu.	With the prescription he goes to the pharmacy.
+L9	der Rücken, Rücken	leđa	back	osnovni		Was tut weh? — Der Rücken.	Što te boli? — Leđa.	What hurts? — My back.
+L9	die Salbe, Salben	mast	ointment	dodatno				
+L9	der Schlaf (Sg.)	san (spavanje)	sleep	osnovni		du schläfst → Schlaf viel!	Puno spavaj!	Sleep a lot!
+L9	schlecht	loš	bad	osnovni				
+L9	die Schmerzen (Pl.)	bolovi	pain	osnovni				
+L9	der Schnupfen (Sg.)	hunjavica	runny nose	osnovni				
+L9	die Schulter, Schultern	rame	shoulder	osnovni	rame			
+L9	schwach	slab	weak	osnovni				
+L9	der Schwindel (Sg.)	vrtoglavica	dizziness	dodatno				
+L9	sofort	odmah	immediately	osnovni		Frei ab sofort. Keine Haustiere.	Slobodno odmah. Bez kućnih ljubimaca.	Available now. No pets.
+L9	die Sprechstunde, Sprechstunden	ordinacijsko vrijeme	surgery hours	dodatno				
+L9	die Spritze, Spritzen	injekcija, štrcaljka	injection	dodatno				
+L9	stark	jak	strong	osnovni				
+L9	die Tablette, Tabletten	tableta	pill	osnovni		Nimm die Tablette!	Uzmi tabletu!	Take the pill!
+L9	das Thermometer, Thermometer	toplomjer	thermometer	dodatno				
+L9	der Tipp, Tipps	savjet	tip	tečaj				
+L9	die Tropfen (Pl.)	kapi	drops	dodatno				
+L9	der Unfall, Unfälle	nesreća	accident	osnovni				
+L9	ungesund	nezdrav	unhealthy	dodatno				
+L9	untersuchen → ich untersuche	pregledati	to examine	osnovni				
+L9	der Verband, Verbände	zavoj	bandage	dodatno				
+L9	verletzen → hat verletzt	ozlijediti	to injure	dodatno				
+L9	die Verletzung, Verletzungen	ozljeda	injury	dodatno				
+L9	das Vitamin, Vitamine	vitamin	vitamin	dodatno				
+L9	vorsichtig	oprezan	careful	osnovni		Seien Sie vorsichtig!	Budite oprezni!	Be careful!
+L9	warm	topao	warm	osnovni				
+L9	Was fehlt Ihnen?	Što Vam je?	What's wrong with you?	osnovni		Guten Tag, Frau Horvat. Was fehlt Ihnen?	Dobar dan, gospođo Horvat. Što Vam je?	Hello, Ms Horvat. What's wrong?
+L9	wehtun → es tut weh	boljeti	to hurt	osnovni		Mir tut der Kopf weh.	Boli me glava.	My head hurts.
+L9	die Wunde, Wunden	rana	wound	dodatno				
+L9	der Zahn, Zähne	zub	tooth	osnovni	zub	Mir tut der Zahn weh.	Boli me zub.	My tooth hurts.
+L9	der Zahnarzt, Zahnärzte / die Zahnärztin, Zahnärztinnen	zubar / zubarica	dentist	osnovni				
+L9	die Zahnschmerzen (Pl.)	zubobolja	toothache	dodatno				
+L9	die Zehe, Zehen	prst na nozi	toe	dodatno				
+L9	die Zunge, Zungen	jezik	tongue	dodatno				
+L9	die Übelkeit (Sg.)	mučnina	nausea	dodatno				
+L10	ab·sagen → hat abgesagt	otkazati	to cancel	dodatno				
+L10	am Ende	na kraju	in the end	osnovni				
+L10	am Wochenende	vikendom	at the weekend	tečaj		Was hast du am Wochenende gemacht?	Što si radio, radila vikendom?	What did you do at the weekend?
+L10	sich amüsieren → hat sich amüsiert	zabavljati se	to enjoy oneself	dodatno				
+L10	anstrengend	naporan	tiring	osnovni		Lena: Mein Wochenende war anstrengend. Max hatte Geburtstag.	Lena: Moj vikend je bio naporan. Max je imao rođendan.	Lena: My weekend was tiring. It was Max's birthday.
+L10	aus·schlafen → ausgeschlafen	naspavati se	to sleep in	osnovni				
+L10	die Ausstellung, Ausstellungen	izložba	exhibition	dodatno				
+L10	backen → gebacken	peći	to bake	osnovni		Anna: Und wir backen ihr einen Kuchen.	Ana: I ispeći ćemo joj kolač.	Anna: And we'll bake her a cake.
+L10	bekommen → bekommen	dobiti	to get, to receive	osnovni				
+L10	der Besuch, Besuche	posjet	visit	dodatno				
+L10	bis	do	until	osnovni		Du fährst bis zum Marktplatz.	Voziš se do tržnog trga.	You go as far as the market square.
+L10	das Brettspiel, Brettspiele	društvena igra	board game	dodatno				
+L10	bügeln → gebügelt	glačati	to iron	osnovni				
+L10	die Bühne, Bühnen	pozornica	stage	dodatno				
+L10	chatten → gechattet	dopisivati se	to chat (online)	osnovni				
+L10	der Club, Clubs	klub	club	dodatno				
+L10	damals	tada, u ono vrijeme	back then	dodatno				
+L10	den ganzen Tag	cijeli dan	all day	osnovni				
+L10	die Disco, Discos	disko, noćni klub	disco	dodatno				
+L10	der Eintritt (Sg.)	ulaz, ulaznina	admission	dodatno				
+L10	die Eintrittskarte, Eintrittskarten	ulaznica	admission ticket	dodatno				
+L10	endlich	napokon	finally	osnovni		Um fünf Uhr kommt er endlich nach Hause.	U pet napokon dolazi kući.	At five he finally comes home.
+L10	entspannt	opušten	relaxed	osnovni				
+L10	das Ereignis, Ereignisse	događaj	event	dodatno				
+L10	erleben → erlebt	doživjeti	to experience	osnovni				
+L10	das Erlebnis, Erlebnisse	doživljaj	experience	dodatno				
+L10	erzählen → erzählt	pričati	to tell	osnovni				
+L10	feiern → gefeiert	slaviti	to celebrate, to party	osnovni		Wir feiern am Samstag, dem 15. März, um 15 Uhr bei uns.	Slavimo u subotu, 15. ožujka, u 15 sati kod nas.	We're celebrating on Saturday 15 March at 3 p.m. at our place.
+L10	das Fest, Feste	slavlje, fešta	celebration, festival	osnovni	ples			
+L10	das Festival, Festivals	festival	festival	dodatno				
+L10	der Flohmarkt, Flohmärkte	buvljak	flea market	osnovni		Dann haben Jonas und ich einen Flohmarkt besucht.	Onda smo Jonas i ja posjetili buvljak.	Then Jonas and I went to a flea market.
+L10	der Freizeitpark, Freizeitparks	zabavni park	theme park	dodatno				
+L10	der Gast, Gäste	gost	guest	osnovni	gost	Es waren 25 Gäste da — Nachbarn, Freunde und Familie.	Bilo je 25 gostiju — susjedi, prijatelji i obitelj.	There were 25 guests — neighbours, friends and family.
+L10	gerade	upravo	just now; right now	osnovni		Ich komme gerade von der Arbeit.	Upravo dolazim s posla.	I'm just coming from work.
+L10	die Geschichte, Geschichten	priča; povijest	story; history	osnovni	priča			
+L10	gestern	jučer	yesterday	osnovni		Wir haben gestern nicht gekocht.	Jučer nismo kuhali.	We didn't cook yesterday.
+L10	der Grill, Grills	roštilj	grill	osnovni				
+L10	grillen → gegrillt	roštiljati	to barbecue	osnovni		Das sind die Nachbarn, mit denen wir grillen.	To su susjedi s kojima roštiljamo.	Those are the neighbours we barbecue with.
+L10	die Gruppe, Gruppen	grupa	group	dodatno				
+L10	Kaffee und Kuchen	kava i kolači (popodne)	coffee and cake	osnovni				
+L10	das Kartenspiel, Kartenspiele	igra karata	card game	dodatno				
+L10	der Kater, Kater	mamurluk; mačak	hangover; tomcat	osnovni	mačka			
+L10	kennen·lernen → kennengelernt	upoznati	to get to know	osnovni				
+L10	die Kneipe, Kneipen	birtija	pub	osnovni				
+L10	letzt- (letzte Woche)	prošli (prošli tjedan)	last	osnovni				
+L10	letzte Woche	prošli tjedan	last week	tečaj				
+L10	letztes Jahr	prošle godine	last year	tečaj				
+L10	das Mehl (Sg.)	brašno	flour	osnovni	brašno			
+L10	mit·machen → hat mitgemacht	sudjelovati	to join in	dodatno				
+L10	nachher	poslije, nakon toga	afterwards	dodatno				
+L10	der Nachtisch, Nachtische	desert	dessert	osnovni				
+L10	neulich	nedavno	recently	osnovni				
+L10	noch nie	još nikad	never yet	osnovni		Ich bin noch nie in Wien gewesen.	Nikad nisam bio, bila u Beču.	I've never been to Vienna.
+L10	die Oper, Opern	opera	opera	dodatno				
+L10	die Party, Partys	zabava	party	osnovni		Wir haben eine Party gemacht. Zehn Kinder!	Napravili smo zabavu. Deset djece!	We had a party. Ten children!
+L10	passieren → ist passiert	dogoditi se	to happen	osnovni		Was ist passiert?	Što se dogodilo?	What happened?
+L10	das Picknick, Picknicks	piknik	picnic	osnovni				
+L10	das Plakat, Plakate	plakat	poster	dodatno				
+L10	plötzlich	odjednom	suddenly	osnovni				
+L10	probieren → probiert	probati	to try, to taste	osnovni				
+L10	das Programm, Programme	program	programme	dodatno				
+L10	das Publikum (Sg.)	publika	audience	dodatno				
+L10	putzen → geputzt	čistiti	to clean	osnovni				
+L10	reden → geredet	razgovarati, pričati	to talk	osnovni				
+L10	das Restaurant, Restaurants	restoran	restaurant	osnovni	restoran	Wir würden jeden Tag ins Restaurant gehen.	Svaki dan bismo išli u restoran.	We'd go to a restaurant every day.
+L10	die Sahne (Sg.)	vrhnje	cream	osnovni				
+L10	schrecklich	užasan	terrible	osnovni				
+L10	spazieren gehen (ist spazieren gegangen)	šetati	to go for a walk	osnovni	šetati			
+L10	der Spaziergang, Spaziergänge	šetnja	walk	osnovni	šetati			
+L10	der Spaß (Sg.)	zabava	fun	osnovni				
+L10	statt·finden → hat stattgefunden	održavati se	to take place	dodatno				
+L10	die Stimmung, Stimmungen	raspoloženje, atmosfera	mood, atmosphere	dodatno				
+L10	das Tagebuch, Tagebücher	dnevnik	diary	osnovni	knjiga			
+L10	der Text, Texte	tekst	text	tečaj		Lesen Sie den Text!	Pročitajte tekst!	Read the text!
+L10	die Veranstaltung, Veranstaltungen	priredba, događaj	event	dodatno				
+L10	verbringen → verbracht	provesti	to spend (time)	osnovni				
+L10	verstehen → verstanden	razumjeti	to understand	osnovni		Ich bin verliebt — und ich will seine Familie verstehen!	Zaljubljena sam — i želim razumjeti njegovu obitelj!	I'm in love — and I want to understand his family!
+L10	das Video, Videos	video	video	osnovni				
+L10	vorgestern	prekjučer	the day before yesterday	osnovni				
+L10	vorher	prije toga	beforehand	dodatno				
+L10	die Vorstellung, Vorstellungen	predstava	performance	dodatno				
+L10	Wie war's?	Kako je bilo?	How was it?	osnovni				
+L10	wissen → er weiß	znati	to know (a fact)	osnovni		Ich weiß, dass Jonas gern kocht.	Znam da Jonas rado kuha.	I know Jonas likes cooking.
+L10	der Witz, Witze	šala, vic	joke	tečaj				
+L10	wunderbar	divan	wonderful	osnovni				
+L10	der Zirkus, Zirkusse	cirkus	circus	dodatno				
+L10	der Zoo, Zoos	zoološki vrt	zoo	dodatno				
+L10	zufrieden	zadovoljan	satisfied	osnovni				
+L10	zu·hören → zugehört	slušati	to listen	osnovni	slušati			
+L10	zum Glück	srećom	luckily	osnovni				
+L10	der Zuschauer, Zuschauer	gledatelj	spectator	dodatno				
+L10	die Überraschung, Überraschungen	iznenađenje	surprise	osnovni				
+L11	ab·fahren → ist abgefahren	otići, krenuti	to depart	osnovni		Der Zug ist um sieben Uhr abgefahren.	Vlak je krenuo u sedam.	The train left at seven.
+L11	die Abfahrt, Abfahrten	polazak	departure	tečaj				
+L11	ab·fliegen → ist abgeflogen	poletjeti	to take off, to depart	dodatno				
+L11	die Abreise, Abreisen	odlazak, odlazak s odmora	departure	dodatno				
+L11	ab·reisen → ist abgereist	otputovati, odjaviti se	to depart	dodatno				
+L11	das Abteil, Abteile	kupe	compartment	dodatno				
+L11	an·kommen → ist angekommen	stići	to arrive	osnovni		Wir sind um zwölf Uhr angekommen.	Stigli smo u dvanaest.	We arrived at twelve.
+L11	die Ankunft, Ankünfte	dolazak	arrival	dodatno				
+L11	die Anreise (Sg.)	dolazak, putovanje do odredišta	journey there	dodatno				
+L11	der Anschluss, Anschlüsse	veza (prijelaz)	connection	dodatno				
+L11	der Aufenthalt, Aufenthalte	boravak	stay	dodatno				
+L11	das Ausland (Sg.)	inozemstvo	abroad	dodatno				
+L11	aus·steigen → ist ausgestiegen	izaći (iz vozila)	to get off	osnovni				
+L11	die Autobahn, Autobahnen	autocesta	motorway	dodatno				
+L11	der Automat, Automaten (n-Dekl.)	automat	machine	dodatno				
+L11	der Bahnhof, Bahnhöfe	kolodvor	station	osnovni	kolodvor	Sie warten am Bahnhof.	Čekaju na kolodvoru.	They wait at the station.
+L11	der Bahnsteig, Bahnsteige	peron	platform	dodatno				
+L11	das Benzin (Sg.)	benzin	petrol	dodatno				
+L11	Berlin	Berlin	Berlin	osnovni		Anna wohnt seit einem Monat in Berlin.	Ana stanuje u Berlinu već mjesec dana.	Anna has lived in Berlin for a month.
+L11	besichtigen → hat besichtigt	razgledati	to visit (sights)	osnovni		Am Nachmittag haben wir das Schloss Schönbrunn besichtigt.	Poslijepodne smo razgledali dvorac Schönbrunn.	In the afternoon we visited Schönbrunn Palace.
+L11	bewölkt	oblačan	cloudy	osnovni				
+L11	das Boot, Boote	čamac	boat	tečaj	čamac			
+L11	buchen → hat gebucht	rezervirati	to book	osnovni				
+L11	der Campingplatz, Campingplätze	kamp	campsite	dodatno	kamp			
+L11	das Doppelzimmer, Doppelzimmer	dvokrevetna soba	double room	dodatno				
+L11	ein·steigen → ist eingestiegen	ući (u vozilo)	to get on	osnovni				
+L11	das Einzelzimmer, Einzelzimmer	jednokrevetna soba	single room	dodatno				
+L11	es regnet	pada kiša	it's raining	tečaj		Weil es regnet, bleiben wir zu Hause.	Budući da pada kiša, ostajemo kod kuće.	Because it's raining, we're staying at home.
+L11	die Fahrkarte, Fahrkarten	vozna karta	ticket	osnovni		Jonas hat die Fahrkarten gekauft.	Jonas je kupio karte.	Jonas bought the tickets.
+L11	der Fahrplan, Fahrpläne	vozni red	timetable	osnovni				
+L11	die Fahrt, Fahrten	vožnja, putovanje	journey	dodatno	vožnja	Fahrt nicht so schnell!	Ne vozite tako brzo!	Don't drive so fast!
+L11	die Ferien (Pl.)	praznici	holidays (school)	osnovni				
+L11	die Ferienwohnung, Ferienwohnungen	apartman za odmor	holiday flat	dodatno				
+L11	fliegen → ist geflogen	letjeti	to fly	osnovni		Sie (oni // they) sind geflogen.	Letjeli su.	They flew.
+L11	der Flug, Flüge	let	flight	osnovni				
+L11	der Flughafen, Flughäfen	zračna luka	airport	osnovni	aerodrom			
+L11	das Flugzeug, Flugzeuge	zrakoplov	aeroplane	osnovni	avion	Der Zug ist schnell, das Flugzeug ist schneller, aber die Rakete ist am schnellsten.	Vlak je brz, avion je brži, ali raketa je najbrža.	The train is fast, the plane is faster, but the rocket is the fastest.
+L11	Frankreich	Francuska	France	osnovni				
+L11	die Fähre, Fähren	trajekt	ferry	tečaj	trajekt			
+L11	der Führerschein, Führerscheine	vozačka dozvola	driving licence	dodatno				
+L11	das Gate	izlaz (u zračnoj luci)	gate	tečaj				
+L11	das Gepäck (Sg.)	prtljaga	luggage	osnovni	prtljaga			
+L11	das Gleis, Gleise	peron	platform, track	osnovni				
+L11	das Grad, Grad	stupanj	degree	osnovni				
+L11	die Grenze, Grenzen	granica	border	osnovni				
+L11	Gute Reise!	Sretan put!	Have a good trip!	osnovni				
+L11	die Halbpension (Sg.)	polupansion	half board	dodatno				
+L11	Hamburg	Hamburg	Hamburg	osnovni		Wir sind nach Hamburg gefahren.	Putovali smo u Hamburg.	We went to Hamburg.
+L11	das Handgepäck (Sg.)	ručna prtljaga	hand luggage	dodatno				
+L11	der Himmel	nebo	sky	tečaj	nebo	Die Luft war frischer und der Himmel war blauer als in Berlin.	Zrak je bio svježiji, a nebo plavije nego u Berlinu.	The air was fresher and the sky bluer than in Berlin.
+L11	hin und zurück	povratna (karta)	return (ticket)	osnovni				
+L11	die Insel, Inseln	otok	island	osnovni	otok			
+L11	die Jugendherberge, Jugendherbergen	hostel	youth hostel	osnovni				
+L11	der Koffer, Koffer	kofer	suitcase	osnovni	kofer	Er hat den Koffer gepackt.	Spakirao je kofer.	He packed the suitcase.
+L11	die Kontrolle, Kontrollen	kontrola	check	dodatno				
+L11	Köln	Köln	Cologne	osnovni				
+L11	die Küste, Küsten	obala	coast	dodatno				
+L11	landen → ist gelandet	sletjeti	to land	osnovni				
+L11	die Landkarte, Landkarten	zemljovid	map	dodatno				
+L11	das Meer, Meere	more	sea	osnovni	more	Am liebsten wohne ich am Meer.	Najradije živim uz more.	I like living by the sea best.
+L11	mieten → hat gemietet	unajmiti, iznajmiti (kao zakupnik)	to rent	dodatno				
+L11	der Mietwagen, Mietwagen	unajmljeni automobil	hire car	dodatno				
+L11	München	München	Munich	osnovni		Ihr Enkel aus München hat ihr einen Blumenstrauß gebracht.	Unuk iz Münchena donio joj je buket.	Her grandson from Munich brought her a bouquet.
+L11	packen → hat gepackt	pakirati	to pack	osnovni		Er hat den Koffer gepackt.	Spakirao je kofer.	He packed the suitcase.
+L11	der Pass, Pässe	putovnica	passport	osnovni	putovnica			
+L11	der Passagier, Passagiere	putnik	passenger	tečaj				
+L11	die Postkarte, Postkarten	razglednica	postcard	osnovni				
+L11	der Regen (Sg.)	kiša	rain	osnovni	kiša			
+L11	regnen → es regnet	padati (kiša)	to rain	osnovni		Weil es regnet, bleiben wir zu Hause.	Budući da pada kiša, ostajemo kod kuće.	Because it's raining, we're staying at home.
+L11	die Reise, Reisen	putovanje	journey, trip	osnovni	putovanje			
+L11	das Reisebüro, Reisebüros	putnička agencija	travel agency	dodatno				
+L11	der Reiseführer, Reiseführer	turistički vodič (knjiga)	guidebook	dodatno				
+L11	reisen → ist gereist	putovati	to travel	osnovni		Wenn ich ein Jahr frei hätte, würde ich reisen.	Da imam godinu slobodno, putovao, putovala bih.	If I had a year off, I'd travel.
+L11	die Reisetasche, Reisetaschen	putna torba	travel bag	dodatno				
+L11	reservieren → hat reserviert	rezervirati	to reserve	dodatno				
+L11	die Reservierung, Reservierungen	rezervacija	reservation	dodatno				
+L11	die Rezeption (Sg.)	recepcija	reception	dodatno				
+L11	das Riesenrad	panoramski kotač	Ferris wheel	tečaj		Anna ist Riesenrad gefahren, ich nicht!	Ana se vozila na panoramskom kotaču, ja ne!	Anna rode the big wheel, I didn't!
+L11	das Schiff, Schiffe	brod	ship	tečaj	brod			
+L11	das Schloss, Schlösser	dvorac	castle, palace	tečaj		Am Nachmittag haben wir das Schloss Schönbrunn besichtigt.	Poslijepodne smo razgledali dvorac Schönbrunn.	In the afternoon we visited Schönbrunn Palace.
+L11	der Schnee (Sg.)	snijeg	snow	osnovni	snijeg			
+L11	schneien → es schneit	padati (snijeg)	to snow	osnovni				
+L11	die Sehenswürdigkeit, Sehenswürdigkeiten	znamenitost	sight, attraction	osnovni				
+L11	der Sitzplatz, Sitzplätze	sjedalo	seat	dodatno				
+L11	die Sonne, Sonnen	sunce	sun	osnovni	sunce			
+L11	der Sonnenbrand, Sonnenbrände	opekline od sunca	sunburn	dodatno				
+L11	die Sonnencreme, Sonnencremes	krema za sunčanje	sun cream	dodatno				
+L11	sonnig	sunčan	sunny	osnovni				
+L11	das Souvenir, Souvenirs	suvenir	souvenir	dodatno	suvenir			
+L11	Spanien	Španjolska	Spain	osnovni		Die neue Kollegin kommt aus Spanien.	Nova kolegica je iz Španjolske.	The new colleague is from Spain.
+L11	der Strand, Strände	plaža	beach	osnovni	plaža			
+L11	tanken → hat getankt	natočiti gorivo	to fill up	dodatno				
+L11	die Tankstelle, Tankstellen	benzinska postaja	petrol station	dodatno				
+L11	das Ticket, Tickets	karta	ticket	osnovni	karta	In der Tasche: ein kleiner Schlüssel und ein altes Ticket.	U džepu: mali ključ i stara karta.	In the pocket: a small key and an old ticket.
+L11	der Tourist, Touristen (n-Dekl.) / die Touristin, Touristinnen	turist / turistkinja	tourist	osnovni				
+L11	die Türkei	Turska	Turkey	osnovni		Wir fahren in die Türkei.	Putujemo u Tursku.	We're going to Turkey.
+L11	umsteigen → ist umgestiegen	presjesti	to change (trains)	osnovni		In Nürnberg sind wir umgestiegen.	U Nürnbergu smo presjeli.	We changed trains in Nuremberg.
+L11	unterwegs	na putu	on the way	osnovni				
+L11	der Urlaub, Urlaube	godišnji odmor	holiday	osnovni		Worauf freust du dich? — Auf den Urlaub.	Čemu se veseliš? — Godišnjem odmoru.	What are you looking forward to? — The holiday.
+L11	verpassen → hat verpasst	propustiti	to miss	osnovni		Das Haus ist gelb. Du kannst es nicht verpassen!	Kuća je žuta. Ne možeš je promašiti!	The house is yellow. You can't miss it!
+L11	verreisen → ist verreist	otputovati	to go away (on a trip)	dodatno				
+L11	die Verspätung, Verspätungen	kašnjenje	delay	osnovni		Der Zug hat Verspätung.	Vlak kasni.	The train is delayed.
+L11	das Visum, Visa	viza	visa	dodatno				
+L11	wandern → ist gewandert	planinariti	to hike	osnovni		Wir sind gewandert.	Planinarili smo.	We went hiking.
+L11	die Welt	svijet	world	tečaj	svijet	Oma sagt: Bamberg ist die schönste Stadt der Welt!	Baka kaže: Bamberg je najljepši grad na svijetu!	Oma says: Bamberg is the most beautiful town in the world!
+L11	das Wetter (Sg.)	vrijeme (meteorološko)	weather	osnovni	vrijeme	Bei uns ist das Wetter wärmer.	Kod nas je vrijeme toplije.	The weather's warmer where I live.
+L11	Wien	Beč	Vienna	osnovni		Wir sind nach Wien gefahren.	Putovali smo u Beč.	We went to Vienna.
+L11	der Wind, Winde	vjetar	wind	osnovni	vjetar			
+L11	windig	vjetrovit	windy	osnovni				
+L11	die Wolke, Wolken	oblak	cloud	osnovni	oblak			
+L11	der Zoll (Sg.)	carina	customs	dodatno				
+L11	der Zug, Züge	vlak	train	osnovni	vlak	Der Zug ist um sieben Uhr abgefahren.	Vlak je krenuo u sedam.	The train left at seven.
+L11	Zürich	Zürich	Zurich	osnovni				
+L11	übernachten → hat übernachtet	prenoćiti	to stay overnight	osnovni				
+L11	die Übernachtung, Übernachtungen	noćenje	overnight stay	osnovni				
+L12	ab·biegen → ist abgebogen	skrenuti	to turn	osnovni				
+L12	ab·heben → hat abgehoben	podići (novac)	to withdraw	dodatno				
+L12	der Absender, Absender	pošiljatelj	sender	dodatno				
+L12	die Adresse, Adressen	adresa	address	osnovni				
+L12	die Ampel, Ampeln	semafor	traffic light	osnovni	semafor	An der Ampel gehen Sie rechts.	Na semaforu skrenite desno.	At the lights turn right.
+L12	die Anmeldung, Anmeldungen	prijava (boravišta)	registration	osnovni		Ich gehe zum Bürgeramt. Ich mache die Anmeldung.	Idem u gradski ured. Prijavljujem boravište.	I'm going to the citizens' office. I'm registering.
+L12	der Ausgang, Ausgänge	izlaz	exit	dodatno				
+L12	die Auskunft, Auskünfte	informacija	information	dodatno				
+L12	der Ausweis, Ausweise	osobna iskaznica	ID card	osnovni				
+L12	die Bahn, Bahnen	željeznica, vlak	railway, train	tečaj		Dann fährt er mit der S-Bahn zur Bank.	Onda gradskom željeznicom ide u banku.	Then he takes the S-Bahn to the bank.
+L12	die Bank, Banken	banka	bank	osnovni	novac	Die Bank ist gegenüber vom Rathaus.	Banka je nasuprot vijećnici.	The bank is opposite the town hall.
+L12	das Bargeld (Sg.)	gotovina	cash	dodatno				
+L12	die Behörde, Behörden	ured, vlast	authority	dodatno	ured			
+L12	bei	kod	at (someone's); near	osnovni		Ich wohne bei meiner Schwester.	Stanujem kod sestre.	I live at my sister's.
+L12	die Bibliothek, Bibliotheken	knjižnica	library	osnovni	knjižnica			
+L12	die Briefmarke, Briefmarken	poštanska marka	stamp	osnovni	marka			
+L12	der Brunnen, Brunnen	fontana, bunar	fountain	dodatno				
+L12	die Brücke, Brücken	most	bridge	osnovni	most	Am schönsten ist das alte Rathaus auf einer kleinen Brücke.	Najljepša je stara vijećnica na malom mostu.	The prettiest thing is the old town hall on a small bridge.
+L12	die Buchhandlung, Buchhandlungen	knjižara	bookshop	dodatno				
+L12	die Burg, Burgen	tvrđava, burg	castle	dodatno				
+L12	das Bürgeramt, Bürgerämter	gradski ured	citizens' office	osnovni		Ich gehe zum Bürgeramt. Ich mache die Anmeldung.	Idem u gradski ured. Prijavljujem boravište.	I'm going to the citizens' office. I'm registering.
+L12	das Denkmal, Denkmäler	spomenik	monument	dodatno	spomenik			
+L12	die Drogerie, Drogerien	drogerija	chemist's	dodatno				
+L12	der Eingang, Eingänge	ulaz	entrance	tečaj				
+L12	das Einkaufszentrum, Einkaufszentren	trgovački centar	shopping centre	osnovni				
+L12	ein·zahlen → hat eingezahlt	uplatiti	to pay in	dodatno				
+L12	der Empfänger, Empfänger	primatelj	recipient	dodatno				
+L12	erreichen → ich erreiche	stići do	to reach	osnovni				
+L12	die Fabrik, Fabriken	tvornica	factory	dodatno				
+L12	der Fahrer, Fahrer / die Fahrerin, Fahrerinnen	vozač / vozačica	driver	osnovni				
+L12	finden → ich finde	naći	to find	osnovni		Ich finde, dass Deutsch schön ist.	Mislim da je njemački lijep.	I think German is beautiful.
+L12	folgen → ist gefolgt	slijediti	to follow	dodatno				
+L12	das Formular, Formulare	obrazac	form	osnovni				
+L12	der Fußgänger, Fußgänger	pješak	pedestrian	dodatno				
+L12	die Fußgängerzone, Fußgängerzonen	pješačka zona	pedestrian zone	dodatno				
+L12	der Geburtsort	mjesto rođenja	place of birth	tečaj				
+L12	die Gegend, Gegenden	kraj, okolica	area	osnovni				
+L12	gegenüber	nasuprot	opposite	osnovni		Die Bank ist gegenüber vom Rathaus.	Banka je nasuprot vijećnici.	The bank is opposite the town hall.
+L12	der Geldautomat, Geldautomaten (n-Dekl.)	bankomat	cash machine	osnovni		In der Bank gibt es keinen Geldautomaten!	U banci nema bankomata!	There's no cash machine in the bank!
+L12	geradeaus	ravno	straight on	osnovni		Gehen Sie geradeaus.	Idite ravno.	Go straight on.
+L12	geschlossen	zatvoren	closed	osnovni		Er geht zum Friseur. Der Friseur ist geschlossen.	Ide frizeru. Frizer je zatvoren.	He goes to the hairdresser. The hairdresser is closed.
+L12	das Geschäft, Geschäfte	trgovina; posao	shop; business	osnovni	trgovina			
+L12	halten → er hält	stati; držati	to stop; to hold	osnovni				
+L12	die Haltestelle, Haltestellen	stanica	stop (bus, tram)	osnovni	stanica			
+L12	der Hauptbahnhof	glavni kolodvor	main station	tečaj				
+L12	das Hochhaus, Hochhäuser	neboder	high-rise	dodatno				
+L12	die Information, Informationen	informacija	information	dodatno				
+L12	der Kassenbon, Kassenbons	račun (blagajnički)	till receipt	dodatno	račun			
+L12	das Kaufhaus, Kaufhäuser	robna kuća	department store	dodatno				
+L12	der Kilometer, Kilometer	kilometar	kilometre	dodatno				
+L12	das Kino, Kinos	kino	cinema	osnovni	kino	Wir sind im Kino.	U kinu smo.	We're at the cinema.
+L12	der Kiosk, Kioske	kiosk	kiosk	osnovni	kiosk			
+L12	die Kirche, Kirchen	crkva	church	osnovni	crkva	Oma wohnt in der Gartenstraße, gegenüber von der Kirche.	Baka stanuje u Vrtnoj ulici, nasuprot crkvi.	Grandma lives in Gartenstraße, opposite the church.
+L12	das Konto, Konten	račun (u banci)	bank account	osnovni	račun			
+L12	die Kreuzung, Kreuzungen	raskrižje	crossroads	osnovni				
+L12	leer	prazan	empty	osnovni		Er will die Chefin anrufen, aber der Akku ist leer!	Želi nazvati šeficu, ali baterija je prazna!	He wants to call the boss, but the battery is dead!
+L12	die Linie, Linien	linija	line (bus, tram)	osnovni				
+L12	links	lijevo	left	osnovni		Am Marktplatz gehst du links.	Na trgu skreneš lijevo.	At the market square you turn left.
+L12	der Marktplatz, Marktplätze	glavni trg	market square	tečaj		Du fährst bis zum Marktplatz.	Voziš se do tržnog trga.	You go as far as the market square.
+L12	der Meter, Meter	metar	metre	dodatno	metar			
+L12	die Metzgerei, Metzgereien	mesnica	butcher's	dodatno				
+L12	mit	s, sa; (prijevozom)	with; by (transport)	osnovni		Lena spielt mit den Kindern.	Lena se igra s djecom.	Lena plays with the children.
+L12	der Mitbewohner, Mitbewohner / die Mitbewohnerin, Mitbewohnerinnen	cimer / cimerica	flatmate	osnovni				
+L12	die Mitte (Sg.)	sredina	middle	osnovni				
+L12	das Motorrad, Motorräder	motocikl	motorbike	osnovni				
+L12	das Museum, Museen	muzej	museum	osnovni	muzej	Ist das Museum offen? → Wissen Sie, ob das Museum offen ist?	Znate li je li muzej otvoren?	Do you know if the museum is open?
+L12	nah → näher → am nächsten	blizu	near	osnovni				
+L12	der Norden (Sg.)	sjever	north	dodatno				
+L12	die Nähe (Sg.)	blizina	vicinity	osnovni				
+L12	offen	otvoren	open	osnovni		Ist das Museum offen? → Wissen Sie, ob das Museum offen ist?	Znate li je li muzej otvoren?	Do you know if the museum is open?
+L12	der Osten (Sg.)	istok	east	dodatno				
+L12	das Paket, Pakete	paket	parcel	osnovni	paket			
+L12	der Park, Parks	park	park	osnovni	park	Max spielt mit den Kindern im Park.	Max se igra s djecom u parku.	Max plays with the children in the park.
+L12	das Parkhaus, Parkhäuser	garaža (javna)	multi-storey car park	dodatno	garaža			
+L12	der Parkplatz, Parkplätze	parkiralište	car park	dodatno	parkiralište			
+L12	der Platz, Plätze	trg; mjesto	square; seat; space	osnovni	trg	Nehmen Sie bitte Platz!	Izvolite sjesti!	Please take a seat!
+L12	die Polizei (Sg.)	policija	police	osnovni				
+L12	die Post (Sg.)	pošta	post office; mail	osnovni	pošta	Dann ist sie auf der Post.	Onda je na pošti.	Then she's at the post office.
+L12	die Quittung, Quittungen	potvrda o plaćanju	receipt	dodatno				
+L12	das Rathaus, Rathäuser	gradska vijećnica	town hall	osnovni		Die Bank ist gegenüber vom Rathaus.	Banka je nasuprot vijećnici.	The bank is opposite the town hall.
+L12	rechts	desno	right	osnovni		An der Ampel gehen Sie rechts.	Na semaforu skrenite desno.	At the lights turn right.
+L12	die Reinigung, Reinigungen	kemijska čistionica	dry cleaner's	dodatno				
+L12	die Richtung, Richtungen	smjer	direction	dodatno				
+L12	die Rolltreppe, Rolltreppen	pokretne stepenice	escalator	dodatno				
+L12	die S-Bahn, S-Bahnen	gradska željeznica	suburban train	osnovni		Dann fährt er mit der S-Bahn zur Bank.	Onda gradskom željeznicom ide u banku.	Then he takes the S-Bahn to the bank.
+L12	das Schild, Schilder	znak, ploča	sign	dodatno				
+L12	seit	od (vremenski)	since; for (time)	osnovni		Ich lerne seit drei Monaten Deutsch.	Učim njemački već tri mjeseca.	I've been learning German for three months.
+L12	die Staatsangehörigkeit (Sg.)	državljanstvo	nationality	dodatno				
+L12	der Stadtplan, Stadtpläne	plan grada	city map	osnovni				
+L12	der Stadtteil, Stadtteile	gradska četvrt	district	osnovni				
+L12	die Straße, Straßen	ulica	street	osnovni	ulica			
+L12	die Straßenbahn, Straßenbahnen	tramvaj	tram	osnovni	tramvaj			
+L12	der Süden (Sg.)	jug	south	dodatno				
+L12	die Toilette, Toiletten	zahod, WC	toilet	osnovni				
+L12	die Tram, Trams	tramvaj	tram	tečaj	tramvaj	Wo? — In der Tram M10.	Gdje? — U tramvaju M10.	Where? — On the M10 tram.
+L12	der Turm, Türme	toranj	tower	dodatno				
+L12	die U-Bahn, U-Bahnen	podzemna željeznica	underground	osnovni	metro			
+L12	der Umschlag, Umschläge	omotnica	envelope	dodatno				
+L12	voll	pun	full	osnovni		Der Zug, der nach Bamberg fährt, ist voll.	Vlak koji vozi za Bamberg je pun.	The train to Bamberg is full.
+L12	von	od	from; of	osnovni		Ich komme gerade von der Arbeit.	Upravo dolazim s posla.	I'm just coming from work.
+L12	die Ware, Waren	roba	goods	dodatno				
+L12	der Weg, Wege	put	way, path	osnovni	put			
+L12	weit	daleko	far	osnovni		Ist es weit? — Nein, fünf Minuten zu Fuß.	Je li daleko? — Ne, pet minuta pješice.	Is it far? — No, five minutes on foot.
+L12	der Westen (Sg.)	zapad	west	dodatno				
+L12	die WG, WGs	zajednički stan	shared flat	osnovni				
+L12	Wie komme ich zum …?	Kako da dođem do …?	How do I get to …?	osnovni		Wie komme ich zum …?	Kako da dođem do …?	How do I get to …?
+L12	das Zentrum, Zentren	centar	centre	osnovni				
+L12	zu Fuß gehen	ići pješice	to walk, to go on foot	osnovni				
+L12	die Öffnungszeiten (Pl.)	radno vrijeme	opening hours	dodatno				
+L12	überall	svugdje	everywhere	osnovni		Marko: Die liegen überall: auf dem Boden, unter dem Tisch, sogar in der Dusche!	Marko: Leže posvuda: na podu, ispod stola, čak i u tušu!	Marko: They're everywhere: on the floor, under the table, even in the shower!
+L12	überqueren → hat überquert	prijeći (cestu)	to cross	dodatno				
+L12	überweisen → hat überwiesen	uplatiti, prebaciti novac	to transfer	dodatno				
+L12	die Überweisung, Überweisungen	uplata, doznaka	bank transfer	dodatno				
+L13	der Abfall, Abfälle	otpad	rubbish	dodatno				
+L13	der Abschluss, Abschlüsse	završetak, diploma	qualification	dodatno				
+L13	also	dakle	so	osnovni				
+L13	die Ansicht, Ansichten	mišljenje, stajalište	view	dodatno				
+L13	die Antwort, Antworten	odgovor	answer	osnovni				
+L13	die Aussprache (Sg.)	izgovor	pronunciation	dodatno				
+L13	außerdem	osim toga	besides	osnovni				
+L13	begründen → hat begründet	obrazložiti	to give reasons for	dodatno				
+L13	behaupten → hat behauptet	tvrditi	to claim	dodatno				
+L13	das Beispiel, Beispiele	primjer	example	osnovni				
+L13	der Bericht, Berichte	izvještaj	report	dodatno				
+L13	berichten → hat berichtet	izvijestiti	to report	dodatno				
+L13	bestehen → hat bestanden	položiti	to pass (an exam)	osnovni				
+L13	die Biologie (Sg.)	biologija	biology	dodatno				
+L13	der Buchstabe, Buchstaben (n-Dekl.)	slovo	letter	dodatno				
+L13	dagegen	protiv toga	against it	dodatno				
+L13	dass	da	that	osnovni		Ich finde, dass Deutsch schön ist.	Mislim da je njemački lijep.	I think German is beautiful.
+L13	denken → ich denke	misliti	to think	osnovni				
+L13	deshalb	zato	therefore	osnovni		In Deutschland gibt es viel Arbeit, deshalb bin ich hier.	U Njemačkoj ima puno posla, zato sam ovdje.	There's lots of work in Germany, that's why I'm here.
+L13	die Diskussion, Diskussionen	rasprava	discussion	dodatno				
+L13	diskutieren → hat diskutiert	raspravljati	to discuss	osnovni				
+L13	doch	ipak; (odgovor „da“ na niječno pitanje)	yes (contradicting); but	osnovni				
+L13	egal	svejedno	doesn't matter	osnovni				
+L13	einfach	jednostavan	easy, simple	osnovni		Wenn ich Deutsch spreche, ist das Leben einfach.	Kad govorim njemački, život je jednostavan.	When I speak German, life is easy.
+L13	einverstanden	slažem se	agreed	osnovni				
+L13	die Energie, Energien	energija	energy	dodatno				
+L13	entscheiden → hat entschieden	odlučiti	to decide	osnovni				
+L13	die Erde (Sg.)	Zemlja, zemlja	earth	dodatno				
+L13	fair	pošten	fair	tečaj				
+L13	falsch	pogrešan	wrong	osnovni				
+L13	der Fehler, Fehler	pogreška	mistake	osnovni		Lieber Tom, Fehler sind normal! Ohne Fehler würdest du nie lernen.	Dragi Tome, greške su normalne! Bez grešaka nikad ne bi učio.	Dear Tom, mistakes are normal! Without mistakes you'd never learn.
+L13	die Frage, Fragen	pitanje	question	osnovni				
+L13	die Fremdsprache, Fremdsprachen	strani jezik	foreign language	dodatno				
+L13	das Geschirr	posuđe	dishes	tečaj				
+L13	das Gespräch, Gespräche	razgovor	conversation	osnovni				
+L13	glauben → ich glaube	vjerovati, misliti	to believe, to think	osnovni		Wir glauben, dass der Zug Verspätung hat.	Mislimo da vlak kasni.	We think the train is delayed.
+L13	die Grammatik (Sg.)	gramatika	grammar	osnovni		Die Grammatik ist schwierig, trotzdem lerne ich gern.	Gramatika je teška, ipak rado učim.	The grammar is hard, but I still enjoy learning.
+L13	der Grund, Gründe	razlog	reason	osnovni				
+L13	die Hausaufgabe, Hausaufgaben	domaća zadaća	homework	osnovni				
+L13	hoffen → ich hoffe	nadati se	to hope	osnovni		Ich hoffe, dass du morgen kommst.	Nadam se da sutra dolaziš.	I hope you're coming tomorrow.
+L13	die Idee, Ideen	ideja	idea	osnovni		Gute Idee! Ich bringe einen Kuchen mit.	Dobra ideja! Ja donosim kolač.	Good idea! I'll bring a cake.
+L13	jemand	netko	somebody	tečaj				
+L13	die Karriere	karijera	career	tečaj		Tom: Ich finde, dass Deutsch gut für die Karriere ist.	Tom: Mislim da je njemački dobar za karijeru.	Tom: I think German is good for your career.
+L13	die Klausur, Klausuren	pisana provjera, ispit	written exam	dodatno				
+L13	korrigieren → hat korrigiert	ispraviti	to correct	dodatno				
+L13	die Kritik, Kritiken	kritika	criticism	dodatno				
+L13	kritisieren → hat kritisiert	kritizirati	to criticise	dodatno				
+L13	langweilig	dosadan	boring	osnovni		Frau Berg: Ich würde weiterarbeiten. Ohne Arbeit wäre mir langweilig.	Gospođa Berg: Nastavila bih raditi. Bez posla bi mi bilo dosadno.	Frau Berg: I'd keep working. I'd be bored without work.
+L13	das Lehrbuch	udžbenik	textbook	tečaj	udžbenik			
+L13	die Lektion, Lektionen	lekcija	lesson (unit)	dodatno				
+L13	loben → hat gelobt	hvaliti, pohvaliti	to praise	dodatno				
+L13	die Lösung, Lösungen	rješenje	solution	osnovni		Wenn das nicht hilft, wäre vielleicht eine neue WG die Lösung.	Ako to ne pomogne, možda bi novi stan bio rješenje.	If that doesn't help, maybe a new flat-share would be the answer.
+L13	die Mail, Mails	e-mail	e-mail	tečaj				
+L13	die Mathematik (Sg.)	matematika	maths	dodatno				
+L13	die Medien (Pl.)	mediji	media	dodatno				
+L13	meinen → ich meine	misliti, smatrati	to think, to mean	osnovni		Ich besuche meine Oma.	Posjećujem baku.	I visit my grandma.
+L13	die Meinung, Meinungen	mišljenje	opinion	osnovni				
+L13	möglich	moguć	possible	osnovni		Wäre Montag für Sie möglich?	Bi li Vam ponedjeljak odgovarao?	Would Monday be possible for you?
+L13	der Nachteil, Nachteile	nedostatak	disadvantage	osnovni				
+L13	nichts	ništa	nothing	osnovni		Niemand ist zu Hause. Ich sehe nichts.	Nitko nije kod kuće. Ništa ne vidim.	Nobody's home. I can't see anything.
+L13	niemand	nitko	nobody	osnovni		Am Sonntag kocht niemand — sie machen nichts!	U nedjelju nitko ne kuha — ne rade ništa!	On Sunday nobody cooks — they do nothing!
+L13	nützlich	koristan	useful	osnovni		Anna meint, dass der Kurs nützlich ist.	Ana misli da je tečaj koristan.	Anna thinks the course is useful.
+L13	online	na mreži, online	online	dodatno				
+L13	die Pflege	njega	care, nursing	tečaj		Mehmet: Ich lerne Deutsch, weil ich in der Pflege arbeiten will.	Mehmet: Učim njemački jer želim raditi u njezi.	Mehmet: I'm learning German because I want to work in nursing.
+L13	das Problem, Probleme	problem	problem	osnovni	problem	Anna: Kein Problem. Stell zuerst das Bett ins Schlafzimmer.	Ana: Nema problema. Prvo stavi krevet u spavaću sobu.	Anna: No problem. First put the bed in the bedroom.
+L13	die Prüfung, Prüfungen	ispit	exam	osnovni				
+L13	der Putzplan	raspored čišćenja	cleaning rota	tečaj				
+L13	recht haben	biti u pravu	to be right	osnovni				
+L13	recyceln → hat recycelt	reciklirati	to recycle	dodatno				
+L13	richtig	točan	right, correct	osnovni				
+L13	der Satz, Sätze	rečenica	sentence	osnovni				
+L13	der Schutz (Sg.)	zaštita	protection	dodatno				
+L13	schwierig	težak	difficult	osnovni		Die Grammatik ist schwierig, trotzdem lerne ich gern.	Gramatika je teška, ipak rado učim.	The grammar is hard, but I still enjoy learning.
+L13	schützen → hat geschützt	zaštititi	to protect	dodatno				
+L13	sicher	siguran	sure; safe	osnovni				
+L13	sondern	nego	but rather	osnovni		Ich komme nicht heute, sondern morgen.	Ne dolazim danas, nego sutra.	I'm not coming today but tomorrow.
+L13	sparen → hat gespart	štedjeti	to save	dodatno				
+L13	der Strom (Sg.)	električna struja	electricity	dodatno				
+L13	der Test, Tests	test	test	osnovni	test			
+L13	das Thema, Themen	tema	topic	dodatno				
+L13	trotzdem	ipak	nevertheless	osnovni		Die Grammatik ist schwierig, trotzdem lerne ich gern.	Gramatika je teška, ipak rado učim.	The grammar is hard, but I still enjoy learning.
+L13	die Umwelt (Sg.)	okoliš	environment	osnovni				
+L13	umweltfreundlich	ekološki prihvatljiv	eco-friendly	osnovni				
+L13	die Uni	fakultet	university	tečaj	fakultet			
+L13	unmöglich	nemoguć	impossible	tečaj				
+L13	der Unterricht (Sg.)	nastava	lessons, teaching	osnovni				
+L13	der Unterschied, Unterschiede	razlika	difference	dodatno				
+L13	verbrauchen → hat verbraucht	potrošiti	to use up	dodatno				
+L13	vergleichen → hat verglichen	usporediti	to compare	dodatno				
+L13	der Vorschlag, Vorschläge	prijedlog	suggestion	osnovni				
+L13	vor·schlagen → er schlägt vor	predložiti	to suggest	osnovni				
+L13	der Vorteil, Vorteile	prednost	advantage	osnovni				
+L13	wahr	istinit	true	tečaj				
+L13	die Webseite, Webseiten	web-stranica	website	dodatno				
+L13	weil	jer, zato što	because (verb goes last)	osnovni		Anna: Ich lerne Deutsch, weil ich in Berlin arbeite.	Ana: Učim njemački jer radim u Berlinu.	Anna: I'm learning German because I work in Berlin.
+L13	wenn	ako; kad	if; when(ever)	osnovni				
+L13	die Werbung (Sg.)	reklama	advertising	dodatno				
+L13	wichtig	važan	important	osnovni		Es ist wichtig, dass du viel übst.	Važno je da puno vježbaš.	It's important that you practise a lot.
+L13	widersprechen → er widerspricht · hat widersprochen	proturječiti	to contradict	dodatno				
+L13	wiederholen → hat wiederholt	ponavljati	to repeat, to revise	osnovni		Könnten Sie das bitte wiederholen?	Biste li to mogli ponoviti?	Could you repeat that, please?
+L13	das Wort, Wörter	riječ	word	osnovni		Das Wort, das ich am liebsten mag, ist „Feierabend“.	Riječ koju najviše volim je „Feierabend“.	The word I like best is "Feierabend".
+L13	der Wortschatz (Sg.)	vokabular	vocabulary	dodatno				
+L13	das Wörterbuch, Wörterbücher	rječnik	dictionary	osnovni				
+L13	das Zertifikat, Zertifikate	certifikat	certificate	tečaj	certifikat			
+L13	zum Beispiel	na primjer	for example	tečaj				
+L13	zu·stimmen → hat zugestimmt	pristati, složiti se	to agree	dodatno				
+L13	üben → hat geübt	vježbati	to practise	osnovni				
+L13	übersetzen → hat übersetzt	prevesti	to translate	dodatno				
+L13	die Übung, Übungen	vježba	exercise	osnovni				
+L14	ab·bauen → hat abgebaut	rastaviti, demontirati	to dismantle	dodatno				
+L14	der Altbau	stara zgrada	old building	tečaj		2-Zimmer-Wohnung in Neukölln, 52 qm, Altbau.	Dvosoban stan u Neuköllnu, 52 m², stara zgrada.	Two-room flat in Neukölln, 52 m², old building.
+L14	an	na (okomito), uz	on (vertical), at	tečaj				
+L14	die Anleitung, Anleitungen	uputa	instructions	dodatno				
+L14	auf	na (vodoravno)	on (horizontal)	tečaj		Ich lege das Handy auf den Tisch.	Stavljam mobitel na stol.	I put the phone on the table.
+L14	auf·bauen → hat aufgebaut	sastaviti, postaviti	to assemble, to set up	dodatno				
+L14	der Aufzug, Aufzüge	dizalo	lift	tečaj		3. Stock, kein Aufzug.	3. kat, bez dizala.	3rd floor, no lift.
+L14	aus·ziehen → ist ausgezogen	iseliti se	to move out	tečaj				
+L14	der Backofen, Backöfen	pećnica	oven	dodatno	pećnica			
+L14	das Bad, Bäder	kupaonica	bathroom	tečaj	kupaonica	Jonas geht ins Bad.	Jonas ide u kupaonicu.	Jonas goes into the bathroom.
+L14	die Badewanne, Badewannen	kada	bathtub	tečaj				
+L14	der Balkon, Balkone	balkon	balcony	tečaj	balkon	Balkon zum Hof.	Balkon prema dvorištu.	Balcony facing the courtyard.
+L14	der Besen	metla	broom	dodatno				
+L14	die Besichtigung, Besichtigungen	razgledavanje	viewing	tečaj		Besichtigung: Samstag, 11 Uhr.	Razgledavanje: subota, 11 sati.	Viewing: Saturday, 11 o'clock.
+L14	der Boden, Böden	pod	floor	tečaj	pod	Marko: Die liegen überall: auf dem Boden, unter dem Tisch, sogar in der Dusche!	Marko: Leže posvuda: na podu, ispod stola, čak i u tušu!	Marko: They're everywhere: on the floor, under the table, even in the shower!
+L14	bohren → hat gebohrt	bušiti	to drill	dodatno				
+L14	die Bohrmaschine	bušilica	drill	tečaj		Anna: Ich komme am Samstag und helfe. Jonas bringt eine Bohrmaschine mit.	Ana: Dolazim u subotu i pomažem. Jonas donosi bušilicu.	Anna: I'll come on Saturday and help. Jonas is bringing a drill.
+L14	der Briefkasten	poštanski sandučić	letterbox	dodatno				
+L14	das Dach, Dächer	krov	roof	dodatno	krov			
+L14	der Dachboden, Dachböden	tavan, potkrovlje	attic	dodatno				
+L14	die Decke, Decken	deka; strop	blanket; ceiling	tečaj				
+L14	die Ecke, Ecken	kut, ugao	corner	tečaj		Ich stelle den Stuhl in die Ecke.	Stavljam stolac u kut.	I put the chair in the corner.
+L14	ein·ziehen → ist eingezogen	useliti se	to move in	tečaj		Marko: Anna, ich bin eingezogen! Aber alles steht im Flur.	Marko: Ana, uselio sam se! Ali sve stoji u hodniku.	Marko: Anna, I've moved in! But everything is in the hallway.
+L14	das Erdgeschoss	prizemlje	ground floor	tečaj				
+L14	der Flur, Flure	hodnik	hallway	tečaj	hodnik	Marko: Anna, ich bin eingezogen! Aber alles steht im Flur.	Marko: Ana, uselio sam se! Ali sve stoji u hodniku.	Marko: Anna, I've moved in! But everything is in the hallway.
+L14	die Garage, Garagen	garaža	garage	dodatno	garaža			
+L14	die Gardine, Gardinen	zavjesa (prozirna)	curtain	dodatno				
+L14	das Gas (Sg.)	plin	gas	dodatno				
+L14	gemütlich	ugodan, udoban	cosy	dodatno				
+L14	die Glühbirne, Glühbirnen	žarulja	light bulb	dodatno				
+L14	der Hammer, Hämmer	čekić	hammer	dodatno				
+L14	das Haustier, Haustiere	kućni ljubimac	pet	tečaj		Frei ab sofort. Keine Haustiere.	Slobodno odmah. Bez kućnih ljubimaca.	Available now. No pets.
+L14	die Heizung	grijanje	heating	tečaj				
+L14	hell	svijetao	light	tečaj				
+L14	der Herd, Herde	štednjak	cooker, stove	tečaj	štednjak	Küche mit Herd und Kühlschrank, Bad mit Dusche.	Kuhinja sa štednjakom i hladnjakom, kupaonica s tušem.	Kitchen with cooker and fridge, bathroom with shower.
+L14	hinter	iza	behind	tečaj				
+L14	der Hof, Höfe	dvorište	courtyard	tečaj		Den Müll bringe ich in den Hof.	Smeće nosim u dvorište.	I take the rubbish to the courtyard.
+L14	hängen → hat gehängt	objesiti	to hang (something)	tečaj		Marko: Super! Dann hängen wir die Lampe über den Tisch.	Marko: Super! Onda objesimo lampu iznad stola.	Marko: Great! Then we'll hang the lamp above the table.
+L14	die Kaltmiete / die Warmmiete	najam bez / s režijama	rent excl. / incl. heating	tečaj				
+L14	der Karton, Kartons	kutija	box	tečaj	kutija	Anna: Und die Kartons?	Ana: A kutije?	Anna: And the boxes?
+L14	die Kaution, Kautionen	jamčevina, depozit	deposit	dodatno				
+L14	der Keller, Keller	podrum	cellar	tečaj	podrum			
+L14	das Kinderzimmer	dječja soba	children's room	tečaj				
+L14	das Kissen, Kissen	jastuk	cushion, pillow	tečaj	jastuk			
+L14	die Klingel	zvono (na vratima)	doorbell	dodatno				
+L14	klingeln → hat geklingelt	zvoniti	to ring	dodatno				
+L14	die Kommode, Kommoden	komoda	chest of drawers	dodatno				
+L14	die Küche, Küchen	kuhinja	kitchen	tečaj	kuhinja	Anna ist in der Küche.	Ana je u kuhinji.	Anna is in the kitchen.
+L14	der Kühlschrank, Kühlschränke	hladnjak	fridge	tečaj	hladnjak	Küche mit Herd und Kühlschrank, Bad mit Dusche.	Kuhinja sa štednjakom i hladnjakom, kupaonica s tušem.	Kitchen with cooker and fridge, bathroom with shower.
+L14	die Kündigung, Kündigungen	otkaz	notice, termination	dodatno				
+L14	legen → hat gelegt	položiti	to lay, put (flat)	tečaj				
+L14	die Leiter, Leitern	ljestve	ladder	dodatno				
+L14	liegen → hat gelegen	ležati	to lie	tečaj		Marko: Die liegen überall: auf dem Boden, unter dem Tisch, sogar in der Dusche!	Marko: Leže posvuda: na podu, ispod stola, čak i u tušu!	Marko: They're everywhere: on the floor, under the table, even in the shower!
+L14	die Matratze, Matratzen	madrac	mattress	dodatno				
+L14	die Miete, Mieten	najamnina	rent	tečaj		Miete: 690 Euro kalt, 140 Euro NK.	Najam: 690 eura bez režija, 140 eura režije.	Rent: 690 euros cold, 140 euros utilities.
+L14	der Mieter, Mieter	podstanar, stanar (najmoprimac)	tenant	dodatno				
+L14	der Mietvertrag, Mietverträge	ugovor o najmu	tenancy agreement	tečaj				
+L14	die Mikrowelle, Mikrowellen	mikrovalna pećnica	microwave	dodatno				
+L14	die Möbel (Pl.)	namještaj	furniture	tečaj	namještaj			
+L14	möbliert	namješten	furnished	tečaj				
+L14	der Mülleimer, Mülleimer	kanta za smeće	bin	tečaj				
+L14	die Mülltonne, Mülltonnen	kanta za smeće (velika)	wheelie bin	tečaj				
+L14	der Nachbar	susjed	neighbour	tečaj	susjed			
+L14	der Nagel, Nägel	čavao	nail	dodatno				
+L14	neben	pored	next to	tečaj		Marko: Das Bett steht schon im Schlafzimmer, neben dem Fenster.	Marko: Krevet već stoji u spavaćoj sobi, pokraj prozora.	Marko: The bed's already in the bedroom, next to the window.
+L14	die Nebenkosten (Pl.)	režije	utilities, running costs	tečaj				
+L14	der Neubau	nova zgrada	new building	dodatno				
+L14	die Pflanze, Pflanzen	biljka	plant	tečaj				
+L14	der Pinsel, Pinsel	kist	brush	dodatno				
+L14	der Quadratmeter (qm)	kvadratni metar	square metre	tečaj				
+L14	das Regal, Regale	polica	shelf	tečaj	polica			
+L14	renovieren → hat renoviert	renovirati, obnoviti	to renovate	dodatno				
+L14	der Sack, Säcke	vreća	sack, bag	tečaj				
+L14	das Schlafzimmer, Schlafzimmer	spavaća soba	bedroom	tečaj	spavaća soba	Anna: Kein Problem. Stell zuerst das Bett ins Schlafzimmer.	Ana: Nema problema. Prvo stavi krevet u spavaću sobu.	Anna: No problem. First put the bed in the bedroom.
+L14	der Schrank, Schränke	ormar	wardrobe, cupboard	tečaj	ormar			
+L14	die Schraube, Schrauben	vijak	screw	dodatno				
+L14	der Schraubenzieher, Schraubenzieher	odvijač	screwdriver	dodatno				
+L14	der Schreibtisch, Schreibtische	radni stol	desk	tečaj				
+L14	der Sessel, Sessel	fotelja	armchair	tečaj				
+L14	setzen → hat gesetzt	sjesti	to sit down	tečaj		Bitte setzen Sie sich, Frau Horvat.	Izvolite sjesti, gospođo Horvat.	Please sit down, Ms Horvat.
+L14	sitzen → hat gesessen	sjediti	to sit	dodatno				
+L14	die Spüle, Spülen	sudoper	kitchen sink	dodatno				
+L14	die Spülmaschine, Spülmaschinen	perilica posuđa	dishwasher	tečaj				
+L14	staubsaugen → hat gestaubsaugt	usisavati	to vacuum	dodatno				
+L14	der Staubsauger	usisavač	vacuum cleaner	dodatno				
+L14	die Steckdose, Steckdosen	utičnica	socket	dodatno				
+L14	stecken → hat gesteckt	utaknuti	to put into, stick	tečaj				
+L14	stehen → hat gestanden	stajati	to stand	tečaj				
+L14	stellen → hat gestellt	staviti (uspravno)	to put (upright)	tečaj				
+L14	der Stock, Stockwerke	kat	floor, storey	tečaj		3. Stock, kein Aufzug.	3. kat, bez dizala.	3rd floor, no lift.
+L14	streichen → hat gestrichen	bojiti, farbati	to paint	dodatno				
+L14	die Tapete, Tapeten	tapeta	wallpaper	dodatno				
+L14	tapezieren → hat tapeziert	postavljati tapete	to wallpaper	dodatno				
+L14	der Teppich, Teppiche	tepih	carpet	tečaj		Ich lege den Teppich ins Wohnzimmer.	Stavljam tepih u dnevnu sobu.	I put the carpet in the living room.
+L14	tragen → er trägt	nositi	to carry	tečaj		Er trägt einen grauen Anzug.	Nosi sivo odijelo.	He's wearing a grey suit.
+L14	die Treppe, Treppen	stubište	stairs	tečaj				
+L14	das Treppenhaus, Treppenhäuser	stubište	stairwell	dodatno				
+L14	der Trockner, Trockner	sušilica rublja	tumble dryer	dodatno				
+L14	um·ziehen → ist umgezogen	preseliti se	to move house	tečaj				
+L14	der Umzug, Umzüge	selidba	move	tečaj				
+L14	unter	ispod	under	tečaj		Die Katze liegt unter dem Bett.	Mačka leži ispod kreveta.	The cat is lying under the bed.
+L14	der Vermieter	najmodavac	landlord	tečaj				
+L14	der Vorhang, Vorhänge	zavjesa	curtain	tečaj				
+L14	die Wand, Wände	zid	wall	tečaj	zid	Ich hänge das Bild an die Wand.	Vješam sliku na zid.	I hang the picture on the wall.
+L14	das Waschbecken, Waschbecken	umivaonik	washbasin	tečaj				
+L14	die Waschmaschine, Waschmaschinen	perilica rublja	washing machine	tečaj				
+L14	der Wasserhahn, Wasserhähne	slavina	tap	dodatno				
+L14	das Werkzeug, Werkzeuge	alat	tool	dodatno				
+L14	die Wohnung, Wohnungen	stan	flat	tečaj	stan	2-Zimmer-Wohnung in Neukölln, 52 qm, Altbau.	Dvosoban stan u Neuköllnu, 52 m², stara zgrada.	Two-room flat in Neukölln, 52 m², old building.
+L14	das Wohnzimmer, Wohnzimmer	dnevna soba	living room	tečaj	dnevna soba	Lena: Ins Wohnzimmer, bitte.	Lena: U dnevnu sobu, molim.	Lena: Into the living room, please.
+L14	die Zange, Zangen	kliješta	pliers	dodatno				
+L14	zwischen	između	between	tečaj				
+L14	über	iznad	above, over	tečaj		Die Lampe hängt über dem Tisch.	Lampa visi iznad stola.	The lamp hangs above the table.
+L15	die Absage, Absagen	otkaz, odbijenica	cancellation, refusal	dodatno				
+L15	der achte (8.)	osmi	eighth	tečaj				
+L15	der Adventskranz, Adventskränze	adventski vijenac	Advent wreath	dodatno				
+L15	Alles Gute!	Sve najbolje!	All the best!	tečaj		Herzlichen Glückwunsch! Alles Gute!	Sretan rođendan! Sve najbolje!	Happy birthday! All the best!
+L15	der Anlass, Anlässe	prigoda, povod	occasion	dodatno				
+L15	an·stoßen → hat angestoßen	nazdraviti	to clink glasses	dodatno				
+L15	der April	travanj	April	tečaj				
+L15	der August	kolovoz	August	tečaj				
+L15	die Blume, Blumen	cvijet	flower	tečaj	cvijet	Wir schenken ihnen Blumen.	Poklanjamo im cvijeće.	We're giving them flowers.
+L15	der Blumenstrauß, Blumensträuße	buket	bouquet	tečaj	buket	Ihr Enkel aus München hat ihr einen Blumenstrauß gebracht.	Unuk iz Münchena donio joj je buket.	Her grandson from Munich brought her a bouquet.
+L15	die Braut, Bräute	nevjesta, mladenka	bride	dodatno				
+L15	das Brautpaar, Brautpaare	mladenci	bridal couple	dodatno				
+L15	bringen → hat gebracht	donijeti	to bring	tečaj		Ihr Enkel aus München hat ihr einen Blumenstrauß gebracht.	Unuk iz Münchena donio joj je buket.	Her grandson from Munich brought her a bouquet.
+L15	der Bräutigam, Bräutigame	mladoženja	groom	dodatno				
+L15	danken → hat gedankt	zahvaliti	to thank	tečaj				
+L15	das Datum, Daten	datum	date	tečaj				
+L15	die Dekoration, Dekorationen	ukras, dekoracija	decoration	dodatno				
+L15	dekorieren → hat dekoriert	ukrasiti	to decorate	dodatno				
+L15	der Dezember	prosinac	December	tečaj		Im Dezember gibt es in Berlin über 60 Weihnachtsmärkte.	U prosincu u Berlinu ima više od 60 božićnih sajmova.	In December there are over 60 Christmas markets in Berlin.
+L15	der dritte (3.)	treći	third	tečaj				
+L15	ein·laden → er lädt ein	pozvati	to invite	tečaj				
+L15	die Einladung, Einladungen	pozivnica	invitation	tečaj				
+L15	der erste (1.)	prvi	first	tečaj				
+L15	der Februar	veljača	February	tečaj				
+L15	die Feier, Feiern	proslava	celebration	tečaj				
+L15	der Feiertag, Feiertage	praznik	public holiday	tečaj				
+L15	das Feuerwerk	vatromet	fireworks	dodatno				
+L15	das Fotobuch	fotoknjiga	photo book	tečaj		Anna: Wir schenken ihr ein Fotobuch!	Ana: Poklonit ćemo joj fotoknjigu!	Anna: We'll give her a photo book!
+L15	Frohe Weihnachten!	Sretan Božić!	Merry Christmas!	tečaj				
+L15	der fünfte (5.)	peti	fifth	tečaj				
+L15	der Gastgeber, Gastgeber	domaćin	host	dodatno				
+L15	der Geburtstag, Geburtstage	rođendan	birthday	tečaj		Max hat am 14. März Geburtstag — dann ist er neun!	Max ima rođendan 14. ožujka — tada će imati devet godina!	Max's birthday is on 14 March — he'll be nine!
+L15	gefallen → es gefällt	sviđati se	to please, like	tečaj		Jonas: Super! Fotos gefallen ihr sehr.	Jonas: Super! Fotografije joj se jako sviđaju.	Jonas: Great! She really likes photos.
+L15	gehören → hat gehört	pripadati	to belong to	tečaj		Das Buch, das auf dem Tisch liegt, gehört mir.	Knjiga koja leži na stolu je moja.	The book lying on the table is mine.
+L15	das Geschenk, Geschenke	poklon	present	tečaj	poklon	Ich freue mich über das Geschenk.	Drago mi je zbog poklona.	I'm happy about the present.
+L15	das Geschenkpapier (Sg.)	papir za zamatanje poklona	wrapping paper	dodatno				
+L15	der Glückwunsch, Glückwünsche	čestitka	congratulations	tečaj	čestitka	Herzlichen Glückwunsch zum Geburtstag!	Sretan rođendan!	Happy birthday!
+L15	die Glückwunschkarte, Glückwunschkarten	čestitka	greeting card	dodatno	čestitka			
+L15	der Glühwein	kuhano vino	mulled wine	tečaj		Wir trinken Glühwein. Er schmeckt mir — aber er ist heiß!	Pijemo kuhano vino. Fino mi je — ali vruće je!	We drink mulled wine. I like it — but it's hot!
+L15	gratulieren → hat gratuliert	čestitati	to congratulate	tečaj				
+L15	Guten Rutsch!	Sretna Nova godina! (prije)	Happy New Year! (before)	tečaj				
+L15	der Gutschein, Gutscheine	poklon-bon	voucher	tečaj		Ich finde, ein Gutschein wäre besser.	Mislim da bi bon bio bolji.	I think a voucher would be better.
+L15	Heiligabend (Sg.)	Badnjak	Christmas Eve	dodatno				
+L15	helfen → er hilft	pomoći	to help	tečaj		Kannst du mir helfen?	Možeš li mi pomoći?	Can you help me?
+L15	herzlich	srdačan, srdačno	warm, cordial	dodatno				
+L15	Herzlichen Glückwunsch!	Čestitam! Sretan rođendan!	Congratulations! Happy birthday!	tečaj		Herzlichen Glückwunsch! Alles Gute!	Sretan rođendan! Sve najbolje!	Happy birthday! All the best!
+L15	die Hochzeit, Hochzeiten	vjenčanje	wedding	tečaj				
+L15	der Jahrestag, Jahrestage	godišnjica	anniversary	dodatno				
+L15	der Januar	siječanj	January	tečaj		Aber ich erinnere mich: Im Januar wollte ich unbedingt nach Berlin kommen!	Ali sjećam se: u siječnju sam htjela svakako doći u Berlin!	But I remember: in January I really wanted to come to Berlin!
+L15	das Jubiläum, Jubiläen	jubilej, obljetnica	anniversary	dodatno				
+L15	der Juli	srpanj	July	tečaj		Im Juli ist es wärmer als im Mai.	U srpnju je toplije nego u svibnju.	It's warmer in July than in May.
+L15	der Juni	lipanj	June	tečaj				
+L15	der Karneval / der Fasching	karneval, fašnik	carnival	dodatno				
+L15	die Kerze, Kerzen	svijeća	candle	tečaj		Für meine Eltern in Toronto kaufe ich eine Kerze aus Holz.	Za roditelje u Torontu kupujem svijeću od drva.	For my parents in Toronto I buy a wooden candle.
+L15	das Kochbuch, Kochbücher	kuharica (knjiga)	cookbook	tečaj				
+L15	die Konzertkarte, Konzertkarten	ulaznica za koncert	concert ticket	tečaj				
+L15	lachen → hat gelacht	smijati se	to laugh	tečaj				
+L15	der Lebkuchen	medenjak	gingerbread	tečaj		An einem Stand kaufe ich Lebkuchen für Oma.	Na jednom štandu kupujem medenjake za baku.	At a stall I buy gingerbread for Oma.
+L15	leihen → hat geliehen	posuditi (nekomu)	to lend	tečaj		Kannst du mir das Buch leihen? — Ja, ich leihe es dir.	Možeš li mi posuditi knjigu? — Da, posudit ću ti je.	Can you lend me the book? — Yes, I'll lend it to you.
+L15	der Luftballon, Luftballons	balon	balloon	dodatno	balon			
+L15	der Mai	svibanj	May	tečaj		Im Juli ist es wärmer als im Mai.	U srpnju je toplije nego u svibnju.	It's warmer in July than in May.
+L15	mir / dir / ihm / ihr	meni / tebi / njemu / njoj	(to) me / you / him / her	tečaj	meni	Kannst du mir das Buch leihen? — Ja, ich leihe es dir.	Možeš li mi posuditi knjigu? — Da, posudit ću ti je.	Can you lend me the book? — Yes, I'll lend it to you.
+L15	das Mitbringsel, Mitbringsel	mali dar (koji se donosi)	small gift	dodatno				
+L15	der Muttertag	Majčin dan	Mother's Day	dodatno				
+L15	der März	ožujak	March	tečaj		Max hat am 14. März Geburtstag — dann ist er neun!	Max ima rođendan 14. ožujka — tada će imati devet godina!	Max's birthday is on 14 March — he'll be nine!
+L15	Neujahr	Nova godina	New Year's Day	tečaj				
+L15	der November	studeni	November	tečaj				
+L15	der Oktober	listopad	October	tečaj				
+L15	das Osterei, Ostereier	uskrsno jaje, pisanica	Easter egg	dodatno				
+L15	Ostern	Uskrs	Easter	tečaj				
+L15	das Paar, Paare	par	couple	dodatno				
+L15	passen → hat gepasst	odgovarati; pristajati	to suit; to fit	tečaj				
+L15	die Rede, Reden	govor	speech	tečaj		Jonas hat eine Rede gehalten. Oma hat geweint.	Jonas je održao govor. Baka je plakala.	Jonas gave a speech. Oma cried.
+L15	schenken → hat geschenkt	pokloniti	to give (as a present)	tečaj		Lena hat ihm einen Schal geschenkt.	Lena mu je poklonila šal.	Lena gave him a scarf.
+L15	schicken → hat geschickt	poslati	to send	tečaj		Wir schicken den Eltern eine Karte.	Šaljemo roditeljima čestitku.	We're sending our parents a card.
+L15	schmecken → hat geschmeckt	biti ukusan	to taste (good)	tečaj		Der Kuchen hat allen geschmeckt — ich habe drei Stücke gegessen!	Kolač je svima bio fin — pojela sam tri komada!	Everyone liked the cake — I ate three pieces!
+L15	der Sekt (Sg.)	pjenušac	sparkling wine	dodatno				
+L15	der September	rujan	September	tečaj				
+L15	der siebte (7.)	sedmi	seventh	tečaj				
+L15	Silvester	Stara godina	New Year's Eve	tečaj				
+L15	der Stand, Stände	štand	stall	tečaj		An einem Stand kaufe ich Lebkuchen für Oma.	Na jednom štandu kupujem medenjake za baku.	At a stall I buy gingerbread for Oma.
+L15	der Tannenbaum	bor (božićno drvce)	Christmas tree	dodatno				
+L15	die Taufe, Taufen	krštenje	christening	dodatno				
+L15	die Torte, Torten	torta	gateau, cake	tečaj	torta			
+L15	das Unglück	nesreća	bad luck	tečaj				
+L15	der Valentinstag	Valentinovo	Valentine's Day	dodatno				
+L15	sich verloben → hat sich verlobt	zaručiti se	to get engaged	dodatno				
+L15	die Verlobung, Verlobungen	zaruke	engagement	dodatno				
+L15	verpacken → hat verpackt	zapakirati	to wrap, to pack	dodatno				
+L15	verschieben → hat verschoben	odgoditi	to postpone	dodatno				
+L15	der vierte (4.)	četvrti	fourth	tečaj				
+L15	Weihnachten	Božić	Christmas	tečaj		Oma freut sich auf Weihnachten.	Baka se veseli Božiću.	Oma is looking forward to Christmas.
+L15	der Weihnachtsmarkt, Weihnachtsmärkte	božićni sajam	Christmas market	tečaj		Im Dezember gibt es in Berlin über 60 Weihnachtsmärkte.	U prosincu u Berlinu ima više od 60 božićnih sajmova.	In December there are over 60 Christmas markets in Berlin.
+L15	weinen → hat geweint	plakati	to cry	tečaj		Jonas hat eine Rede gehalten. Oma hat geweint.	Jonas je održao govor. Baka je plakala.	Jonas gave a speech. Oma cried.
+L15	wem?	komu?	to whom?	tečaj				
+L15	wünschen → hat gewünscht	željeti (nekomu)	to wish	tečaj				
+L15	der zehnte (10.)	deseti	tenth	tečaj				
+L15	zeigen → hat gezeigt	pokazati	to show	tečaj		Wir haben ihr ein Fotobuch geschenkt. Sie hat es allen gezeigt!	Poklonili smo joj fotoknjigu. Svima ju je pokazala!	We gave her a photo book. She showed it to everyone!
+L15	die Zusage, Zusagen	potvrda, pristanak	acceptance	dodatno				
+L15	zu·sagen → hat zugesagt	prihvatiti poziv, potvrditi dolazak	to accept an invitation	dodatno				
+L15	der zwanzigste (20.)	dvadeseti	twentieth	tečaj				
+L15	der zweite (2.)	drugi	second	tečaj				
+L15	überraschen → hat überrascht	iznenaditi	to surprise	dodatno				
+L16	altmodisch	staromodan	old-fashioned	dodatno				
+L16	das Angebot, Angebote	ponuda, akcija	special offer	tečaj		Wenn ich du wäre, würde ich das Angebot annehmen.	Da sam ja ti, prihvatio bih ponudu.	If I were you, I'd take the offer.
+L16	an·probieren → hat anprobiert	isprobati	to try on	tečaj				
+L16	an·ziehen → hat angezogen	obući	to put on	tečaj				
+L16	der Anzug, Anzüge	odijelo	suit	tečaj		Er trägt einen grauen Anzug.	Nosi sivo odijelo.	He's wearing a grey suit.
+L16	das Armband, Armbänder	narukvica	bracelet	dodatno				
+L16	die Armbanduhr, Armbanduhren	ručni sat	wristwatch	dodatno				
+L16	aus·sehen → er sieht aus	izgledati	to look	tečaj		Die Kinder? Lena sieht sie.	Djeca? Lena ih vidi.	The children? Lena can see them.
+L16	der Ausverkauf, Ausverkäufe	rasprodaja	clearance sale	dodatno				
+L16	der Ausweis verlieren	izgubiti osobnu	to lose your ID	dodatno				
+L16	der Badeanzug, Badeanzüge	kupaći kostim	swimsuit	dodatno				
+L16	der Bart, Bärte	brada	beard	tečaj				
+L16	die Baumwolle	pamuk	cotton	tečaj				
+L16	die Bekleidung (Sg.)	odjeća	clothing	dodatno				
+L16	bequem	udoban	comfortable	tečaj		Meine Schuhe sind alt, aber bequem.	Cipele su mi stare, ali udobne.	My shoes are old but comfortable.
+L16	die Beschreibung	opis	description	tečaj		Beschreibung: Größe S, aus Nylon, mit einer Kapuze.	Opis: veličina S, od najlona, s kapuljačom.	Description: size S, nylon, with a hood.
+L16	der Bikini / die Badehose	bikini / kupaće gaće	bikini / swimming trunks	dodatno				
+L16	der Blazer	sako	blazer	tečaj		Lena: Ja, und dazu ein blauer Blazer.	Lena: Da, i uz to plavi sako.	Lena: Yes, and a blue blazer with it.
+L16	blond	plav (kosa)	blond	tečaj				
+L16	die Bluse, Blusen	bluza	blouse	tečaj		Anna: Und die weiße Bluse? Die ist schön.	Ana: A bijela bluza? Lijepa je.	Anna: And the white blouse? It's nice.
+L16	bunt	šaren	colourful	tečaj				
+L16	die Bürste, Bürsten	četka	brush	dodatno				
+L16	dick	debeo	fat, thick	tečaj				
+L16	dieser, diese, dieses	ovaj, ova, ovo	this	tečaj				
+L16	der Dresscode	pravila odijevanja	dress code	tečaj				
+L16	dunkel → dunkler → am dunkelsten	taman	dark	tečaj		Es wird dunkel.	Pada mrak.	It's getting dark.
+L16	einfarbig	jednobojan	plain	tečaj				
+L16	elegant	elegantan	elegant	tečaj		Das blaue Kleid ist schön, aber ist es zu elegant?	Plava haljina je lijepa, ali je li preelegantna?	The blue dress is nice, but is it too smart?
+L16	eng	uzak, tijesan	tight	tečaj		Der schwarze Anzug ist zu eng.	Crno odijelo je pretijesno.	The black suit is too tight.
+L16	die Frisur, Frisuren	frizura	hairstyle	dodatno				
+L16	das Fundbüro	ured izgubljenih stvari	lost-property office	tečaj				
+L16	gepunktet	na točkice	spotted	tečaj				
+L16	der Geschmack (Sg.)	okus, ukus	taste	dodatno				
+L16	gestreift	prugast	striped	tečaj				
+L16	glatt	ravan (kosa)	straight	tečaj				
+L16	die Glatze, Glatzen	ćelavost, ćela	bald head	dodatno				
+L16	das Gold (Sg.)	zlato	gold	dodatno				
+L16	die Größe, Größen	veličina	size	tečaj		Welche Größe brauchen Sie?	Koju veličinu trebate?	What size do you need?
+L16	der Gürtel, Gürtel	remen	belt	tečaj				
+L16	die Haare (Pl.)	kosa	hair	tečaj				
+L16	die Handschuhe (Pl.)	rukavice	gloves	tečaj				
+L16	die Handtasche, Handtaschen	ručna torbica	handbag	dodatno				
+L16	hart	tvrd	hard	dodatno				
+L16	das Hemd, Hemden	košulja	shirt	tečaj	košulja	Jonas kauft den dunklen Anzug, ein weißes Hemd und eine blaue Krawatte.	Jonas kupuje tamno odijelo, bijelu košulju i plavu kravatu.	Jonas buys the dark suit, a white shirt and a blue tie.
+L16	die Hose, Hosen	hlače	trousers	tečaj	hlače	Lena: Ich brauche eine schwarze Hose.	Lena: Trebam crne hlače.	Lena: I need black trousers.
+L16	der Hut, Hüte	šešir	hat	tečaj	šešir			
+L16	hübsch	lijep, zgodan	pretty	tečaj				
+L16	das Interview, Interviews	razgovor za posao	interview	tečaj		Hilfe! Morgen ist das Interview und ich habe nichts zum Anziehen!	Upomoć! Sutra je razgovor, a nemam što obući!	Help! The interview is tomorrow and I've got nothing to wear!
+L16	die Jacke, Jacken	jakna	jacket	tečaj	jakna	Welche Jacke nimmst du? — Diese.	Koju jaknu uzimaš? — Ovu.	Which jacket are you taking? — This one.
+L16	die Jeans, Jeans	traperice	jeans	tečaj		Die Firma ist ein kleines Start-up. Die Leute tragen Jeans.	Firma je mali start-up. Ljudi nose traperice.	The company is a small start-up. People wear jeans.
+L16	jeder, jede, jedes	svaki, svaka, svako	every, each	tečaj				
+L16	der Kamm, Kämme	češalj	comb	dodatno				
+L16	die Kapuze, Kapuzen	kapuljača	hood	tečaj		Beschreibung: Größe S, aus Nylon, mit einer Kapuze.	Opis: veličina S, od najlona, s kapuljačom.	Description: size S, nylon, with a hood.
+L16	kariert	kockast	checked	tečaj				
+L16	die Kette, Ketten	ogrlica	necklace	tečaj				
+L16	das Kleid, Kleider	haljina	dress	tečaj	haljina	Das ist ein schönes Kleid.	To je lijepa haljina.	That's a beautiful dress.
+L16	die Kleidung	odjeća	clothes	tečaj				
+L16	der Knopf, Knöpfe	gumb	button	dodatno				
+L16	die Krawatte, Krawatten	kravata	tie	tečaj		Verkäufer: Ja, hier. Und vielleicht eine rote Krawatte?	Prodavač: Da, izvolite. I možda crvena kravata?	Assistant: Yes, here. And maybe a red tie?
+L16	das Leder	koža	leather	tečaj				
+L16	der Lippenstift, Lippenstifte	ruž za usne	lipstick	dodatno				
+L16	die Locke, Locken	kovrča	curl	dodatno				
+L16	lockig	kovrčav	curly	tečaj				
+L16	das Make-up, Make-ups	šminka	make-up	dodatno				
+L16	der Mantel, Mäntel	kaput	coat	tečaj	kaput	Ich suche einen warmen Mantel.	Tražim topli kaput.	I'm looking for a warm coat.
+L16	die Marke, Marken	marka	brand	dodatno	marka			
+L16	das Metall, Metalle	metal	metal	dodatno				
+L16	die Mode	moda	fashion	dodatno				
+L16	die Mütze, Mützen	kapa	woolly hat	tečaj	kapa			
+L16	die Ohrringe (Pl.)	naušnice	earrings	dodatno				
+L16	das Parfüm, Parfüms	parfem	perfume	dodatno	parfem			
+L16	passend	odgovarajući, prikladan	matching, suitable	dodatno				
+L16	das Portemonnaie, Portemonnaies	novčanik	purse, wallet	dodatno	novčanik			
+L16	das Prozent, Prozente	posto	per cent	tečaj				
+L16	der Pullover, Pullover	pulover	jumper	tečaj	pulover	Welcher Pullover gefällt dir? — Dieser hier.	Koji ti se pulover sviđa? — Ovaj ovdje.	Which jumper do you like? — This one here.
+L16	der Rabatt	popust	discount	tečaj				
+L16	sich rasieren → hat sich rasiert	brijati se	to shave	dodatno				
+L16	die Regenjacke	kabanica	rain jacket	tečaj		Was haben Sie verloren? — Eine grüne Regenjacke.	Što ste izgubili? — Zelenu kabanicu.	What have you lost? — A green rain jacket.
+L16	der Regenschirm, Regenschirme	kišobran	umbrella	tečaj	kišobran			
+L16	der Reißverschluss, Reißverschlüsse	patent-zatvarač, zip	zip	dodatno				
+L16	der Ring, Ringe	prsten	ring	tečaj				
+L16	der Rock, Röcke	suknja	skirt	tečaj	suknja			
+L16	rund	okrugao	round	tečaj				
+L16	die Sandale, Sandalen	sandala	sandal	dodatno				
+L16	der Schal, Schals	šal	scarf	tečaj	šal	Lena hat ihm einen Schal geschenkt.	Lena mu je poklonila šal.	Lena gave him a scarf.
+L16	schick	šik, otmjen	smart, chic	dodatno				
+L16	der Schlafanzug	pidžama	pyjamas	dodatno				
+L16	schlank	vitak	slim	tečaj				
+L16	sich schminken → hat sich geschminkt	našminkati se	to put on make-up	dodatno				
+L16	der Schmuck	nakit	jewellery	dodatno				
+L16	der Schuh, Schuhe	cipela	shoe	tečaj	cipela	Ich habe die roten Schuhe gekauft.	Kupila sam crvene cipele.	I bought the red shoes.
+L16	die Seide	svila	silk	dodatno				
+L16	das Silber (Sg.)	srebro	silver	dodatno				
+L16	silbern / golden	srebrn / zlatan	silver / golden	tečaj				
+L16	die Socke, Socken	čarapa	sock	tečaj				
+L16	das Sonderangebot, Sonderangebote	posebna ponuda, akcija	special offer	dodatno				
+L16	die Sonnenbrille	sunčane naočale	sunglasses	dodatno				
+L16	der Stiefel, Stiefel	čizma	boot	tečaj				
+L16	der Stoff, Stoffe	tkanina	fabric	dodatno				
+L16	die Strickjacke, Strickjacken	pletena jakna, džemper na kopčanje	cardigan	dodatno				
+L16	die Strumpfhose, Strumpfhosen	hulahopke	tights	dodatno				
+L16	das T-Shirt, T-Shirts	majica	T-shirt	tečaj	majica			
+L16	der Turnschuh, Turnschuhe	tenisica	trainer	tečaj				
+L16	die Umkleidekabine	kabina za presvlačenje	changing room	tečaj				
+L16	um·tauschen → hat umgetauscht	zamijeniti	to exchange	tečaj				
+L16	die Unterwäsche	donje rublje	underwear	tečaj				
+L16	wasserdicht	vodootporan	waterproof	dodatno				
+L16	weich	mekan	soft	dodatno				
+L16	welcher? welche? welches?	koji? koja? koje?	which?	tečaj				
+L16	die Wolle	vuna	wool	tečaj		Der Pullover ist aus Wolle. Er gefällt mir.	Pulover je od vune. Sviđa mi se.	The jumper is made of wool. I like it.
+L16	der Zopf, Zöpfe	pletenica, rep	plait, ponytail	dodatno				
+L16	der Ärmel, Ärmel	rukav	sleeve	dodatno				
+L17	der Affe, Affen (n-Dekl.)	majmun	monkey	dodatno				
+L17	als	nego, od (kod usporedbe)	than	tečaj		Bamberg ist kleiner als Berlin.	Bamberg je manji od Berlina.	Bamberg is smaller than Berlin.
+L17	die Altstadt	stari grad	old town	tečaj		Die Altstadt ist Weltkulturerbe. Sie ist älter als Berlin!	Stari grad je svjetska baština. Stariji je od Berlina!	The old town is World Heritage. It's older than Berlin!
+L17	am liebsten	najradije	most of all	tečaj		Der Kollege, den ich am liebsten mag, heißt Tim.	Kolega kojeg najviše volim zove se Tim.	The colleague I like most is called Tim.
+L17	der Ast, Äste	grana	branch	dodatno				
+L17	auf dem Land	na selu	in the country	tečaj				
+L17	die Aussicht, Aussichten	pogled, vidik	view	dodatno				
+L17	der Bach, Bäche	potok	stream	dodatno				
+L17	der Bauernhof, Bauernhöfe	farma	farm	tečaj	farma			
+L17	der Baum, Bäume	drvo	tree	dodatno	drvo			
+L17	der Berg, Berge	planina, brdo	mountain	tečaj	planina	Frau Berg: Ich würde weiterarbeiten. Ohne Arbeit wäre mir langweilig.	Gospođa Berg: Nastavila bih raditi. Bez posla bi mi bilo dosadno.	Frau Berg: I'd keep working. I'd be bored without work.
+L17	besser	bolji	better	tečaj		Wenn ich nur besser Deutsch sprechen könnte!	Kad bih bar bolje govorio njemački!	If only I could speak better German!
+L17	die Biene, Bienen	pčela	bee	dodatno	pčela			
+L17	der Blitz, Blitze	munja	lightning	dodatno				
+L17	breit	širok	wide	dodatno				
+L17	das Bundesland, Bundesländer	savezna zemlja	federal state	tečaj				
+L17	der Bär, Bären (n-Dekl.)	medvjed	bear	dodatno	medvjed			
+L17	der Dialekt, Dialekte	dijalekt	dialect	tečaj				
+L17	das Dorf, Dörfer	selo	village	tečaj	selo	Mein Dorf ist viel kleiner als Berlin.	Moje selo je puno manje od Berlina.	My village is much smaller than Berlin.
+L17	der Döner	döner, kebab	doner kebab	tečaj				
+L17	der Einwohner, Einwohner	stanovnik	inhabitant	tečaj		Bamberg ist viel kleiner als Berlin — nur 80.000 Einwohner.	Bamberg je puno manji od Berlina — samo 80.000 stanovnika.	Bamberg is much smaller than Berlin — only 80,000 inhabitants.
+L17	die Ente, Enten	patka	duck	dodatno				
+L17	ernten → hat geerntet	žeti, ubirati	to harvest	dodatno				
+L17	das Feld, Felder	polje	field	tečaj				
+L17	feucht	vlažan	damp	dodatno				
+L17	flach	plitak, ravan	flat, shallow	dodatno				
+L17	der Fluss, Flüsse	rijeka	river	tečaj	rijeka			
+L17	der Fuchs, Füchse	lisica	fox	dodatno				
+L17	das Gebirge, Gebirge	gorje, planine	mountains	dodatno				
+L17	das Gebäude	zgrada	building	tečaj	zgrada			
+L17	gefährlich	opasan	dangerous	tečaj				
+L17	der Gipfel, Gipfel	vrh	summit	dodatno				
+L17	das Gras (Sg.)	trava	grass	dodatno				
+L17	die Großstadt, Großstädte	veliki grad	city	tečaj				
+L17	der Hase, Hasen (n-Dekl.)	zec	hare	dodatno	zec			
+L17	die Hauptstadt, Hauptstädte	glavni grad	capital	tečaj				
+L17	historisch	povijesni	historic	tečaj				
+L17	hoch → höher → am höchsten	visok → viši → najviši	high → higher → highest	tečaj		Steht auf! Hände hoch!	Ustanite! Ruke gore!	Stand up! Hands up!
+L17	das Huhn, Hühner	kokoš	chicken	dodatno				
+L17	der Hügel, Hügel	brežuljak	hill	dodatno				
+L17	das Klima	klima	climate	dodatno				
+L17	die Kuh, Kühe	krava	cow	tečaj	krava			
+L17	die Kultur, Kulturen	kultura	culture	tečaj		Jonas: Aber in Berlin gibt es mehr Arbeit und mehr Kultur.	Jonas: Ali u Berlinu ima više posla i više kulture.	Jonas: But in Berlin there's more work and more culture.
+L17	die Landschaft, Landschaften	krajolik	landscape	tečaj				
+L17	die Landwirtschaft (Sg.)	poljoprivreda	agriculture	dodatno				
+L17	laut	bučan	loud, noisy	tečaj		Du solltest jeden Tag fünf Minuten laut sprechen — auch allein.	Trebao bi svaki dan pet minuta glasno govoriti — i sam.	You should speak out loud for five minutes every day — even alone.
+L17	lebendig	živ, živahan	lively	tečaj				
+L17	die Luft	zrak	air	tečaj		Hier ist es ruhiger und die Luft ist sauberer.	Ovdje je mirnije i zrak je čišći.	It's quieter here and the air is cleaner.
+L17	ländlich	seoski	rural	dodatno				
+L17	der Lärm	buka	noise	tečaj		Oma: Und mehr Lärm! Hier hört man am Morgen nur die Vögel.	Baka: I više buke! Ovdje se ujutro čuju samo ptice.	Oma: And more noise! Here in the morning you only hear the birds.
+L17	mehr / weniger	više / manje	more / less	tečaj		Jonas: Aber in Berlin gibt es mehr Arbeit und mehr Kultur.	Jonas: Ali u Berlinu ima više posla i više kulture.	Jonas: But in Berlin there's more work and more culture.
+L17	die Mücke, Mücken	komarac	mosquito	dodatno				
+L17	die Natur	priroda	nature	tečaj				
+L17	neblig	maglovit	foggy	dodatno				
+L17	das Pferd, Pferde	konj	horse	dodatno	konj			
+L17	das Reh, Rehe	srna	deer	dodatno				
+L17	die Reihenfolge	redoslijed	order, ranking	dodatno				
+L17	die Rose, Rosen	ruža	rose	dodatno				
+L17	ruhig	miran	quiet	tečaj				
+L17	sauber	čist	clean	tečaj				
+L17	das Schaf, Schafe	ovca	sheep	dodatno				
+L17	scharf	ljut (okus)	spicy	tečaj				
+L17	der Schatten, Schatten	sjena	shadow, shade	dodatno				
+L17	die Schlange, Schlangen	zmija	snake	dodatno				
+L17	schmal	uzak	narrow	dodatno				
+L17	schmutzig	prljav	dirty	tečaj				
+L17	das Schwein, Schweine	svinja	pig	dodatno				
+L17	der See, Seen	jezero	lake	tečaj	jezero			
+L17	so … wie	tako … kao	as … as	tečaj				
+L17	die Spinne, Spinnen	pauk	spider	dodatno				
+L17	der Stau, Staus	gužva u prometu	traffic jam	tečaj				
+L17	steil	strm	steep	dodatno				
+L17	das Tal, Täler	dolina	valley	dodatno				
+L17	der Teich, Teiche	ribnjak, jezerce	pond	dodatno				
+L17	tief	dubok	deep	dodatno		Atmen Sie tief. Noch einmal.	Duboko dišite. Još jednom.	Breathe deeply. Once more.
+L17	das Ufer	obala (rijeke, jezera)	bank, shore	dodatno				
+L17	die Umgebung	okolina	surroundings	tečaj				
+L17	unterschiedlich	različit	different	dodatno				
+L17	der Verkehr	promet	traffic	tečaj	promet			
+L17	der Vogel, Vögel	ptica	bird	tečaj	ptica	Oma: Und mehr Lärm! Hier hört man am Morgen nur die Vögel.	Baka: I više buke! Ovdje se ujutro čuju samo ptice.	Oma: And more noise! Here in the morning you only hear the birds.
+L17	der Vorort, Vororte	predgrađe	suburb	dodatno				
+L17	der Wald, Wälder	šuma	forest	tečaj	šuma			
+L17	die Welle, Wellen	val	wave	dodatno	val			
+L17	das Weltkulturerbe	svjetska baština	World Heritage	tečaj		Die Altstadt ist Weltkulturerbe. Sie ist älter als Berlin!	Stari grad je svjetska baština. Stariji je od Berlina!	The old town is World Heritage. It's older than Berlin!
+L17	die Wettervorhersage, Wettervorhersagen	vremenska prognoza	weather forecast	dodatno				
+L17	die Wiese, Wiesen	livada	meadow	tečaj				
+L17	der Wolf, Wölfe	vuk	wolf	dodatno	vuk			
+L17	die Wüste	pustinja	desert	dodatno				
+L17	die Ziege, Ziegen	koza	goat	dodatno				
+L18	als Kind	kao dijete	as a child	tečaj				
+L18	die Angst, Ängste	strah	fear	tečaj				
+L18	sich an·strengen → hat sich angestrengt	truditi se	to make an effort	dodatno				
+L18	aufgeregt	uzbuđen	excited	tečaj				
+L18	sich aufregen	uzrujavati se	to get upset	tečaj				
+L18	sich ausruhen	odmoriti se	to rest	tečaj				
+L18	sich bedanken	zahvaliti se	to say thank you	dodatno				
+L18	sich beeilen	žuriti se	to hurry	tečaj				
+L18	sich beruhigen → hat sich beruhigt	smiriti se	to calm down	dodatno				
+L18	sich beschweren	žaliti se	to complain	dodatno				
+L18	sich beschäftigen → hat sich beschäftigt	baviti se	to occupy oneself	dodatno				
+L18	sich bewegen → hat sich bewegt	micati se, kretati se	to move	dodatno				
+L18	die Beziehung, Beziehungen	odnos, veza	relationship	dodatno				
+L18	der Charakter, Charaktere	karakter	character	dodatno				
+L18	denken an	misliti na	to think of	tečaj				
+L18	sich die Zähne putzen	prati zube	to brush your teeth	tečaj				
+L18	dumm	glup	stupid	dodatno				
+L18	durfte	smio	was allowed to	tečaj		Ein Jahr lang durfte ich nur „Herr Schulz“ sagen!	Cijelu godinu smjela sam reći samo „gospodine Schulz“!	For a whole year I could only say "Herr Schulz"!
+L18	duzen / siezen	govoriti ti / Vi	to say du / Sie	tečaj		Wollen wir uns duzen?	Hoćemo li prijeći na „ti“?	Shall we use "du"?
+L18	die Ehe, Ehen	brak	marriage	dodatno				
+L18	ehrlich	iskren	honest	tečaj				
+L18	eifersüchtig	ljubomoran	jealous	dodatno				
+L18	die Eigenschaft, Eigenschaften	osobina	quality, trait	dodatno				
+L18	sich einigen → hat sich geeinigt	dogovoriti se	to agree	dodatno				
+L18	einsam	usamljen	lonely	tečaj				
+L18	sich entschuldigen	ispričati se	to apologise	tečaj				
+L18	sich entspannen	opustiti se	to relax	tečaj				
+L18	enttäuscht	razočaran	disappointed	tečaj				
+L18	sich erholen	oporaviti se, odmoriti se	to recover, relax	tečaj				
+L18	sich erinnern	sjećati se	to remember	tečaj				
+L18	sich erinnern an	sjećati se	to remember	tečaj				
+L18	flüstern → hat geflüstert	šaptati	to whisper	dodatno				
+L18	die Freude, Freuden	radost	joy	dodatno				
+L18	sich freuen	radovati se	to be glad	tečaj		Wir freuen uns auf den Sommer.	Radujemo se ljetu.	We're looking forward to summer.
+L18	sich freuen auf	veseliti se (nečemu što dolazi)	to look forward to	tečaj				
+L18	sich freuen über	radovati se (nečemu)	to be happy about	tečaj				
+L18	die Freundschaft, Freundschaften	prijateljstvo	friendship	tečaj				
+L18	froh	veseo, drag	glad	tečaj		Max ist froh, weil heute Samstag ist.	Max je sretan jer je danas subota.	Max is happy because today is Saturday.
+L18	früher	prije, nekad	in the past, used to	tečaj				
+L18	sich fühlen	osjećati se	to feel	tečaj				
+L18	sich fürchten → hat sich gefürchtet	bojati se	to be afraid	dodatno				
+L18	der Gedanke, Gedanken (n-Dekl.)	misao	thought	dodatno				
+L18	geduldig / ungeduldig	strpljiv / nestrpljiv	patient / impatient	tečaj				
+L18	getrennt	rastavljen	separated	tečaj				
+L18	sich gewöhnen an	navikavati se na	to get used to	dodatno				
+L18	glücklich	sretan	happy	tečaj				
+L18	großzügig	velikodušan, darežljiv	generous	dodatno				
+L18	gute / schlechte Laune haben	biti dobre / loše volje	to be in a good / bad mood	dodatno				
+L18	das Heimweh	čežnja za domom	homesickness	tečaj				
+L18	sich hin·setzen → hat sich hingesetzt	sjesti	to sit down	dodatno				
+L18	humorvoll	duhovit	humorous	dodatno				
+L18	sich interessieren für	zanimati se za	to be interested in	tečaj				
+L18	konnte	mogao	could	tečaj		Früher konnte Oma gut tanzen.	Prije je baka dobro plesala.	Oma used to be a good dancer.
+L18	sich konzentrieren → hat sich konzentriert	koncentrirati se	to concentrate	dodatno				
+L18	der Kummer (Sg.)	tuga, briga	grief, worry	dodatno				
+L18	der Kuss, Küsse	poljubac	kiss	dodatno				
+L18	sich kämmen	češljati se	to comb your hair	tečaj				
+L18	sich kümmern um	brinuti se o	to look after	tečaj				
+L18	küssen → hat geküsst	ljubiti	to kiss	dodatno				
+L18	sich langweilen	dosađivati se	to be bored	dodatno				
+L18	die Laune	raspoloženje	mood	dodatno				
+L18	die Liebe	ljubav	love	tečaj		Liebe Müde, du solltest zuerst mit ihm sprechen — freundlich, nicht wütend.	Draga Umorna, prvo bi trebala razgovarati s njim — ljubazno, ne ljutito.	Dear Tired, you should talk to him first — kindly, not angrily.
+L18	lächeln → hat gelächelt	smiješiti se	to smile	dodatno				
+L18	sich melden → hat sich gemeldet	javiti se	to get in touch, to report	dodatno				
+L18	das Missverständnis, Missverständnisse	nesporazum	misunderstanding	tečaj				
+L18	musste	morao	had to	tečaj		Ich bin nicht gekommen, weil ich arbeiten musste.	Nisam došla jer sam morala raditi.	I didn't come because I had to work.
+L18	der Mut	hrabrost	courage	dodatno				
+L18	mutig	hrabar	brave	dodatno				
+L18	nervös	nervozan	nervous	tečaj		Ich weiß noch, wie nervös ich am ersten Tag war.	Sjećam se kako sam prvi dan bila nervozna.	I still remember how nervous I was on the first day.
+L18	neugierig	znatiželjan	curious	dodatno				
+L18	rufen → hat gerufen	zvati, vikati	to call	dodatno				
+L18	der Schatz	blago; dušo	treasure; darling	tečaj				
+L18	schreien → hat geschrien	vrištati, vikati	to shout, to scream	dodatno				
+L18	sich schämen → hat sich geschämt	sramiti se	to be ashamed	dodatno				
+L18	sich Sorgen machen	brinuti se	to worry	tečaj				
+L18	sparsam	štedljiv	thrifty	dodatno				
+L18	stolz	ponosan	proud	tečaj				
+L18	der Streit	svađa	argument	tečaj				
+L18	sich streiten	svađati se	to argue	tečaj				
+L18	streng	strog	strict	dodatno				
+L18	traurig	tužan	sad	tečaj				
+L18	sich trennen	rastati se	to split up	dodatno		Man muss den Müll trennen.	Smeće se mora odvajati.	You have to separate the rubbish.
+L18	umarmen → hat umarmt	zagrliti	to hug	dodatno				
+L18	unhöflich	nepristojan	impolite	dodatno				
+L18	sich unterhalten → er unterhält sich · hat sich unterhalten	razgovarati, zabavljati se	to chat, to enjoy oneself	dodatno				
+L18	sich verabreden	dogovoriti se (za susret)	to arrange to meet	dodatno				
+L18	sich verirren → hat sich verirrt	izgubiti se, zalutati	to get lost	dodatno				
+L18	sich verlieben	zaljubiti se	to fall in love	tečaj				
+L18	verliebt	zaljubljen	in love	tečaj		Ich bin verliebt — und ich will seine Familie verstehen!	Zaljubljena sam — i želim razumjeti njegovu obitelj!	I'm in love — and I want to understand his family!
+L18	vermissen → hat vermisst	nedostajati	to miss	tečaj				
+L18	sich verspäten → hat sich verspätet	zakasniti	to be late	dodatno				
+L18	sich versöhnen → hat sich versöhnt	pomiriti se	to make up	dodatno				
+L18	sich vertragen → er verträgt sich · hat sich vertragen	slagati se	to get along	dodatno				
+L18	vertrauen (+ Dat.)	vjerovati, imati povjerenja	to trust	tečaj				
+L18	verzeihen → hat verziehen	oprostiti	to forgive	dodatno				
+L18	sich vorstellen	predstaviti se; zamisliti	to introduce oneself; to imagine	tečaj				
+L18	warten auf	čekati	to wait for	tečaj				
+L18	wofür? / dafür	za što? / za to	for what? / for that	tečaj				
+L18	sich wohl·fühlen → hat sich wohlgefühlt	osjećati se ugodno	to feel at ease	dodatno				
+L18	wollte	htio	wanted to	tečaj		Ich wollte anrufen, aber ich konnte nicht.	Htjela sam nazvati, ali nisam mogla.	I wanted to call, but I couldn't.
+L18	woran? / daran	na što? / na to	of what? / of that	tečaj				
+L18	worauf? / darauf	čemu? / tome	what for? / to that	tečaj				
+L18	worüber? / darüber	o čemu? / o tome	about what? / about that	tečaj				
+L18	sich wundern → hat sich gewundert	čuditi se	to be surprised	dodatno				
+L18	wütend	bijesan	angry	tečaj		Liebe Müde, du solltest zuerst mit ihm sprechen — freundlich, nicht wütend.	Draga Umorna, prvo bi trebala razgovarati s njim — ljubazno, ne ljutito.	Dear Tired, you should talk to him first — kindly, not angrily.
+L18	zuverlässig	pouzdan	reliable	dodatno				
+L18	ängstlich	plašljiv	anxious	dodatno				
+L18	der Ärger (Sg.)	ljutnja, nevolja	anger, trouble	dodatno				
+L18	sich ärgern	ljutiti se	to be annoyed	tečaj				
+L18	sich ärgern über	ljutiti se zbog	to be annoyed about	tečaj				
+L18	überrascht	iznenađen	surprised	tečaj				
+L19	das Abenteuer, Abenteuer	avantura	adventure	tečaj				
+L19	ab·geben → hat abgegeben	predati	to hand in	dodatno				
+L19	ab·raten → er rät ab · hat abgeraten	odgovarati (od nečega)	to advise against	dodatno				
+L19	das Amt, Ämter	ured (državni)	public office	tečaj	ured			
+L19	an deiner Stelle	na tvom mjestu	if I were you	tečaj				
+L19	an·melden → hat angemeldet	prijaviti	to register	tečaj				
+L19	der Antrag, Anträge	zahtjev	application	tečaj				
+L19	der Arbeitnehmer, Arbeitnehmer	zaposlenik	employee	dodatno				
+L19	der Arbeitsvertrag, Arbeitsverträge	ugovor o radu	employment contract	dodatno				
+L19	aufgeben → hat aufgegeben	odustati	to give up	tečaj				
+L19	auf·machen → hat aufgemacht	otvoriti	to open	tečaj		Jonas: Wenn ich im Lotto gewinnen würde, würde ich ein Café aufmachen.	Jonas: Kad bih dobio na lotu, otvorio bih kafić.	Jonas: If I won the lottery, I'd open a café.
+L19	aus·füllen → hat ausgefüllt	ispuniti	to fill in	tečaj				
+L19	aus·stellen → hat ausgestellt	izdati	to issue	dodatno				
+L19	beantragen → hat beantragt	podnijeti zahtjev	to apply for	dodatno				
+L19	die Berufserfahrung, Berufserfahrungen	radno iskustvo	work experience	dodatno				
+L19	die Bescheinigung, Bescheinigungen	potvrda	certificate	dodatno				
+L19	bestätigen → hat bestätigt	potvrditi	to confirm	dodatno				
+L19	die Bestätigung	potvrda	confirmation	tečaj				
+L19	der Betrag, Beträge	iznos	amount	dodatno				
+L19	sich bewerben	prijaviti se (za posao)	to apply	dodatno				
+L19	der Bewerber, Bewerber / die Bewerberin, Bewerberinnen	kandidat / kandidatkinja	applicant	dodatno				
+L19	die Bewerbung, Bewerbungen	prijava (za posao)	application	dodatno				
+L19	der Deutschkurs, Deutschkurse	tečaj njemačkog	German course	tečaj				
+L19	das Diplom	diploma	diploma	tečaj	diploma			
+L19	das Dokument, Dokumente	dokument	document	tečaj	dokument			
+L19	ein·reichen → hat eingereicht	podnijeti, predati	to submit	dodatno				
+L19	empfehlen → hat empfohlen	preporučiti	to recommend	tečaj				
+L19	die Empfehlung, Empfehlungen	preporuka	recommendation	dodatno				
+L19	die Erlaubnis	dozvola	permission	dodatno				
+L19	die Frist, Fristen	rok	deadline	dodatno				
+L19	das Geburtsdatum, Geburtsdaten	datum rođenja	date of birth	dodatno				
+L19	die Gebühr, Gebühren	pristojba	fee	dodatno				
+L19	die Genehmigung, Genehmigungen	odobrenje	permit, approval	dodatno				
+L19	das Girokonto, Girokonten	tekući račun	current account	dodatno				
+L19	das Glück	sreća	luck, happiness	tečaj				
+L19	gültig	važeći	valid	dodatno				
+L19	die Haftpflichtversicherung, Haftpflichtversicherungen	osiguranje od odgovornosti	liability insurance	dodatno				
+L19	hätte	imao bih	would have	tečaj		Ich wünschte, ich hätte mehr Zeit.	Volio bih da imam više vremena.	I wish I had more time.
+L19	Hätten Sie …?	Biste li imali…?	Would you have…?	tečaj		Hätten Sie …?	Biste li imali…?	Would you have…?
+L19	Ich hätte gern …	Želio, željela bih…	I'd like…	tečaj				
+L19	Ich werde …	Ja ću…	I will…	tečaj				
+L19	ich wünschte	volio bih (da)	I wish	tečaj				
+L19	Ich würde gern …	Rado bih…	I'd like to…	tečaj				
+L19	in Ordnung	u redu	all right	tečaj				
+L19	keine Ahnung	nemam pojma	no idea	tečaj				
+L19	der Kontoauszug, Kontoauszüge	izvadak s računa	bank statement	dodatno				
+L19	die Kontonummer, Kontonummern	broj računa	account number	dodatno				
+L19	der Kopfhörer, Kopfhörer	slušalice	headphones	tečaj		An deiner Stelle würde ich ihm Kopfhörer schenken!	Na tvom mjestu poklonio bih mu slušalice!	If I were you, I'd give him headphones!
+L19	die Kopie, Kopien	kopija	copy	dodatno				
+L19	die Krankenversicherung, Krankenversicherungen	zdravstveno osiguranje	health insurance	dodatno				
+L19	der Kredit, Kredite	kredit	loan	dodatno				
+L19	könnte	mogao bih	could	tečaj		Wenn ich nur besser Deutsch sprechen könnte!	Kad bih bar bolje govorio njemački!	If only I could speak better German!
+L19	Könnten Sie …?	Biste li mogli…?	Could you…?	tečaj		Könnten Sie …?	Biste li mogli…?	Could you…?
+L19	der Lebenslauf	životopis	CV	dodatno				
+L19	das Lotto	loto	lottery	tečaj		Jonas: Wenn ich im Lotto gewinnen würde, würde ich ein Café aufmachen.	Jonas: Kad bih dobio na lotu, otvorio bih kafić.	Jonas: If I won the lottery, I'd open a café.
+L19	der Rat	savjet	advice	tečaj				
+L19	raten (+ Dat.) → er rät	savjetovati	to advise	tečaj				
+L19	der Ratschlag, Ratschläge	savjet	piece of advice	dodatno				
+L19	reich	bogat	rich	tečaj				
+L19	der Schaden, Schäden	šteta	damage	dodatno				
+L19	der Schalter, Schalter	šalter	counter	tečaj				
+L19	die Schulden (Pl.)	dugovi	debts	dodatno				
+L19	das Segelboot	jedrilica	sailing boat	tečaj		Tim: Ich würde ein Segelboot kaufen und um die Welt segeln.	Tim: Kupio bih jedrilicu i oplovio svijet.	Tim: I'd buy a sailing boat and sail round the world.
+L19	selbstverständlich	samo se po sebi razumije	of course	tečaj				
+L19	sollte	trebao bih	should	tečaj				
+L19	die Sorge, Sorgen	briga	worry	tečaj				
+L19	die Stellenanzeige, Stellenanzeigen	oglas za posao	job advertisement	dodatno				
+L19	der Stempel, Stempel	pečat, žig	stamp	dodatno				
+L19	die Steuer, Steuern	porez	tax	dodatno				
+L19	der Stress	stres	stress	tečaj				
+L19	stören → hat gestört	smetati	to disturb	tečaj				
+L19	der Tandempartner / die Tandempartnerin	partner za tandem	tandem partner	tečaj		Du könntest einen Tandempartner suchen.	Mogao bi potražiti partnera za tandem.	You could look for a tandem partner.
+L19	der Traum, Träume	san	dream	tečaj		Das wäre mein Traum!	To bi bio moj san!	That would be my dream!
+L19	träumen von (+ Dat.)	sanjati o	to dream of	tečaj				
+L19	unbedingt	svakako, obavezno	definitely	tečaj		Aber ich erinnere mich: Im Januar wollte ich unbedingt nach Berlin kommen!	Ali sjećam se: u siječnju sam htjela svakako doći u Berlin!	But I remember: in January I really wanted to come to Berlin!
+L19	unterschreiben → hat unterschrieben	potpisati	to sign	tečaj				
+L19	die Unterschrift, Unterschriften	potpis	signature	tečaj	potpis			
+L19	verlängern → hat verlängert	produžiti	to extend	dodatno				
+L19	versichern → hat versichert	osigurati	to insure	dodatno				
+L19	die Versicherung	osiguranje	insurance	dodatno				
+L19	versuchen → hat versucht	pokušati	to try	tečaj				
+L19	der Vertrag, Verträge	ugovor	contract	tečaj				
+L19	das Vorstellungsgespräch, Vorstellungsgespräche	razgovor za posao	job interview	dodatno				
+L19	die Wartenummer	broj u redu	queue number	tečaj				
+L19	die Weltreise, Weltreisen	putovanje oko svijeta	round-the-world trip	tečaj		Anna: Ich würde eine Weltreise machen.	Ana: Ja bih putovala oko svijeta.	Anna: I'd travel round the world.
+L19	werden → ist geworden	postati	to become	tečaj		Max will Pilot werden.	Max želi postati pilot.	Max wants to become a pilot.
+L19	der Wohnsitz, Wohnsitze	prebivalište	place of residence	dodatno				
+L19	der Wunsch, Wünsche	želja	wish	tečaj				
+L19	wäre	bio bih	would be	tečaj		Ich wünschte, es wäre Sommer.	Volio bih da je ljeto.	I wish it were summer.
+L19	würde	bih, bi	would	tečaj		Jonas: Wenn ich im Lotto gewinnen würde, würde ich ein Café aufmachen.	Jonas: Kad bih dobio na lotu, otvorio bih kafić.	Jonas: If I won the lottery, I'd open a café.
+L19	Würden Sie …?	Biste li…?	Would you…?	tečaj		Würden Sie …?	Biste li…?	Would you…?
+L19	das Ziel, Ziele	cilj	goal	tečaj				
+L19	die Zinsen (Pl.)	kamate	interest	dodatno				
+L19	die Zukunft	budućnost	future	tečaj				
+L19	zuständig	nadležan	responsible	dodatno				
+L19	ändern → hat geändert	promijeniti	to change	tečaj				
+L19	Ärztin werden	postati liječnica	to become a doctor	tečaj				
+L20	der Abschied, Abschiede	rastanak	farewell	tečaj				
+L20	allerdings	međutim, doduše	however	dodatno				
+L20	der Anhang, Anhänge	privitak	attachment	dodatno				
+L20	der Artikel, Artikel	član; članak	article	tečaj		Am schwierigsten waren die Artikel.	Najteži su bili članovi.	The articles were the hardest.
+L20	die Ausbildung	obrazovanje, stručna obuka	training, education	dodatno				
+L20	bei·bringen → hat beigebracht	naučiti (nekoga)	to teach	tečaj				
+L20	bemerken → hat bemerkt	primijetiti	to notice	tečaj				
+L20	beschreiben → hat beschrieben	opisati	to describe	tečaj				
+L20	besonders	posebno	especially	dodatno				
+L20	bevor	prije nego što	before	dodatno				
+L20	die Bezahlung	plaća, plaćanje	pay	tečaj				
+L20	die Bildung (Sg.)	obrazovanje	education	dodatno				
+L20	bisher	do sada	so far	dodatno				
+L20	die Chance, Chancen	šansa	chance	dodatno				
+L20	die Datei, Dateien	datoteka	file	dodatno				
+L20	denen	kojima	(to) whom, which (dat. pl.)	tečaj		Das sind die Nachbarn, mit denen wir grillen.	To su susjedi s kojima roštiljamo.	Those are the neighbours we barbecue with.
+L20	der, die, das (Relativpronomen)	koji, koja, koje	who, which, that	tečaj		Können Sie mir sagen, wann der Kurs beginnt?	Možete li mi reći kad počinje tečaj?	Can you tell me when the course starts?
+L20	deswegen	zbog toga	therefore	dodatno				
+L20	ehrlich gesagt	iskreno rečeno	to be honest	tečaj				
+L20	eigentlich	zapravo	actually	tečaj				
+L20	entdecken → hat entdeckt	otkriti	to discover	dodatno				
+L20	die Entscheidung, Entscheidungen	odluka	decision	tečaj				
+L20	sich entwickeln → hat sich entwickelt	razvijati se	to develop	dodatno				
+L20	die Entwicklung, Entwicklungen	razvoj	development	dodatno				
+L20	erfahren → er erfährt · hat erfahren	saznati, doživjeti	to find out, to experience	dodatno				
+L20	die Erfahrung, Erfahrungen	iskustvo	experience	tečaj				
+L20	erfinden → hat erfunden	izumiti	to invent	dodatno				
+L20	der Erfolg, Erfolge	uspjeh	success	tečaj				
+L20	das Ergebnis, Ergebnisse	rezultat	result	dodatno				
+L20	die Erinnerung, Erinnerungen	sjećanje, uspomena	memory	tečaj				
+L20	falls	ako, u slučaju da	in case, if	dodatno				
+L20	der Fortschritt, Fortschritte	napredak	progress	dodatno				
+L20	die Freiheit	sloboda	freedom	tečaj				
+L20	geboren	rođen	born	tečaj				
+L20	die Geduld (Sg.)	strpljenje	patience	dodatno				
+L20	das Gefühl, Gefühle	osjećaj	feeling	tečaj				
+L20	die Gegenwart	sadašnjost	present	tečaj				
+L20	die Gelegenheit, Gelegenheiten	prilika	opportunity	dodatno				
+L20	genau	točno	exactly	tečaj		Liebe Mama, lieber Papa, heute bin ich genau ein Jahr in Berlin.	Draga mama, dragi tata, danas sam točno godinu dana u Berlinu.	Dear Mum, dear Dad, today it's exactly a year since I came to Berlin.
+L20	das Gerät, Geräte	uređaj	device, appliance	tečaj				
+L20	die Gesellschaft	društvo	society	dodatno				
+L20	gespannt sein	biti napet, znatiželjan	to be curious, eager	tečaj				
+L20	die Gewohnheit, Gewohnheiten	navika	habit	dodatno				
+L20	gratis / kostenlos	besplatno	free (of charge)	tečaj				
+L20	die Heimat	domovina, zavičaj	home(land)	tečaj				
+L20	herunter·laden → hat heruntergeladen	preuzeti	to download	dodatno				
+L20	hoffentlich	nadam se, nadajmo se	hopefully	dodatno				
+L20	die Hoffnung	nada	hope	dodatno				
+L20	höchstens	najviše	at most	dodatno				
+L20	immer noch	još uvijek	still	tečaj				
+L20	installieren → hat installiert	instalirati	to install	dodatno				
+L20	inzwischen	u međuvremenu	meanwhile	dodatno				
+L20	irgendwo	negdje	somewhere	dodatno				
+L20	jedoch	međutim	however	dodatno				
+L20	klicken → hat geklickt	kliknuti	to click	dodatno				
+L20	der Link, Links	poveznica	link	dodatno				
+L20	löschen → hat gelöscht	izbrisati	to delete	dodatno				
+L20	mindestens	najmanje	at least	dodatno				
+L20	die Möglichkeit, Möglichkeiten	mogućnost	possibility	tečaj				
+L20	nachdem	nakon što	after	dodatno				
+L20	die Neuigkeit, Neuigkeiten	novost	piece of news	tečaj				
+L20	noch nicht	još ne	not yet	tečaj		Ich weiß noch nicht, ob ich B1 mache.	Još ne znam hoću li polagati B1.	I don't know yet if I'll do B1.
+L20	nämlich	naime	namely	dodatno				
+L20	ob	da li, je li	whether, if	tečaj				
+L20	obwohl	iako	although	dodatno				
+L20	das Passwort, Passwörter	lozinka	password	dodatno				
+L20	der Podcast, Podcasts	podcast	podcast	tečaj				
+L20	die Prüfung bestehen	položiti ispit	to pass an exam	tečaj				
+L20	die Rechnung	račun	bill	tečaj	račun			
+L20	das Risiko, Risiken	rizik	risk	dodatno				
+L20	schaffen → hat geschafft	uspjeti	to manage, make it	tečaj				
+L20	schließlich	napokon, naposljetku	finally	dodatno				
+L20	sicher sein	biti siguran	to be sure	tečaj				
+L20	die Sicherheit (Sg.)	sigurnost	safety, security	dodatno				
+L20	die Situation, Situationen	situacija	situation	dodatno				
+L20	das Smartphone, Smartphones	pametni telefon	smartphone	dodatno				
+L20	sobald	čim	as soon as	dodatno				
+L20	sogar	čak	even	tečaj		Marko: Die liegen überall: auf dem Boden, unter dem Tisch, sogar in der Dusche!	Marko: Leže posvuda: na podu, ispod stola, čak i u tušu!	Marko: They're everywhere: on the floor, under the table, even in the shower!
+L20	sonst	inače	otherwise	dodatno				
+L20	speichern → hat gespeichert	spremiti	to save	dodatno				
+L20	der Stern	zvijezda	star	tečaj	zvijezda			
+L20	die Studie, Studien	studija	study	tečaj				
+L20	das Studium	studij	university studies	dodatno				
+L20	ständig	stalno	constantly	dodatno				
+L20	tagsüber	preko dana	during the day	tečaj				
+L20	unternehmen → hat unternommen	poduzeti (nešto)	to do (activities)	tečaj				
+L20	der Untertitel, Untertitel	titl	subtitle	tečaj				
+L20	die Verantwortung (Sg.)	odgovornost	responsibility	dodatno				
+L20	verbessern → hat verbessert	poboljšati	to improve	dodatno				
+L20	die Verbindung, Verbindungen	veza	connection	dodatno				
+L20	die Vergangenheit	prošlost	past	tečaj				
+L20	verwechseln → hat verwechselt	pobrkati	to mix up	tečaj				
+L20	die Veränderung, Veränderungen	promjena	change	tečaj				
+L20	die Wahrheit	istina	truth	dodatno				
+L20	wahrscheinlich	vjerojatno	probably	dodatno				
+L20	weiter·machen → hat weitergemacht	nastaviti	to carry on	tečaj				
+L20	das Wesen	biće	being, creature	tečaj				
+L20	das WLAN, WLANs	Wi-Fi	Wi-Fi	dodatno				
+L20	während	dok, tijekom	while, during	dodatno				
+L20	ziehen → ist gezogen	preseliti se	to move	tečaj		Wenn ich Kinder hätte, würde ich vielleicht aufs Land ziehen.	Da imam djecu, možda bih se preselio, preselila na selo.	If I had children, I might move to the country.
+L20	der Zufall, Zufälle	slučaj	coincidence	dodatno				
+L20	das Zuhause	dom	home	tečaj	dom	Ehrlich gesagt: Ich bleibe noch. Berlin ist jetzt auch mein Zuhause.	Iskreno: ostajem još. Berlin je sad i moj dom.	To be honest: I'm staying. Berlin is my home now too.
+L20	zurück·gehen → ist zurückgegangen	vratiti se	to go back	tečaj				
+L20	zweifeln → hat gezweifelt	sumnjati	to doubt	tečaj				
+L20	überhaupt	uopće	at all	dodatno				
+L20	überlegen → hat überlegt	razmišljati	to think over	tečaj				
+L20	übrigens	usput	by the way	tečaj				

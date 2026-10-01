@@ -1,0 +1,375 @@
+# Test 1: Die Welt beschreiben
+cjelina: Test 1
+
+## Ordne die Wörter zu
+format: parovi
+trajanje: 1080
+prag: 70
+opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
+- hotel | Hotel
+- banana | Banane
+- čokolada | Schokolade
+- restoran | Restaurant
+- automobil | Auto
+- telefon | Telefon
+- film | Film
+- problem | Problem
+- sport | Sport
+- taksi | Taxi
+- kuća | Haus
+- knjiga | Buch
+- stol | Tisch
+- prozor | Fenster
+- krevet | Bett
+- lampa | Lampe
+- soba | Zimmer
+- grad | Stadt
+- more | Meer
+- sunce | Sonne
+- nebo | Himmel
+- kava | Kaffee
+- sladoled | Eis
+- dan | Tag
+- velik | groß
+- mali | klein
+- nov | neu
+- star | alt
+- dobar | gut
+- lijep | schön
+- topao | warm
+- hladan | kalt
+- brz | schnell
+- mekan | weich
+- sladak | süß
+- moderan | modern
+- crven | rot
+- plav | blau
+- žut | gelb
+- zelen | grün
+- bijel | weiß
+- crn | schwarz
+- ovo | das, dies
+- i | und
+
+## Was bedeutet das?
+format: izbor
+opis: Wähle die richtige Bedeutung.
+- kuća | Haus | Zimmer | Stadt
+- more | Meer | Himmel | Sonne
+- sunce | Sonne | Himmel | Meer
+- nebo | Himmel | Wand | Fenster
+- knjiga | Buch | Tisch | Bett
+- stol | Tisch | Stuhl | Wand
+- prozor | Fenster | Tür | Wand
+- krevet | Bett | Zimmer | Tisch
+- lampa | Lampe | Sonne | Licht
+- soba | Zimmer | Haus | Stadt
+- grad | Stadt | Wand | Café
+- kava | Kaffee | Schokolade | Eis
+- sladoled | Eis | Schokolade | Banane
+- dan | Tag | Sonne | Himmel
+- velik | groß | klein | neu
+- mali | klein | groß | alt
+- nov | neu | alt | gut
+- star | alt | neu | schnell
+- dobar | gut | schön | warm
+- lijep | schön | gut | weich
+- topao | warm | kalt | süß
+- hladan | kalt | warm | weich
+- brz | schnell | groß | neu
+- mekan | weich | süß | warm
+- sladak | süß | weich | gut
+- moderan | modern | neu | beliebt
+- Haus | kuća | soba | grad
+- Meer | more | nebo | sunce
+- Buch | knjiga | lampa | kava
+- Fenster | prozor | krevet | stol
+- Kaffee | kava | čokolada | sladoled
+- Stadt | grad | kuća | restoran
+- Tag | dan | sunce | nebo
+- rot | crven | plav | žut
+- blau | plav | zelen | crn
+- gelb | žut | bijel | crven
+- grün | zelen | plav | žut
+- weiß | bijel | crn | žut
+- schwarz | crn | bijel | plav
+- groß | velik | mali | brz
+- alt | star | nov | dobar
+- warm | topao | hladan | mekan
+- das, dies | ovo | i | je
+- und | i | ovo | je
+
+## Zu welchem Nomen passt es?
+format: razvrstavanje
+stupci: GRAD | KUĆA | MORE
+opis: Jede Adjektivform gehört zu einem Nomen. Tippe auf ein Adjektiv und dann auf das Nomen, zu dem es passt.
+- velik | GRAD
+- velika | KUĆA
+- veliko | MORE
+- nov | GRAD
+- nova | KUĆA
+- novo | MORE
+- star | GRAD
+- stara | KUĆA
+- staro | MORE
+- lijep | GRAD
+- lijepa | KUĆA
+- lijepo | MORE
+- brz | GRAD
+- brza | KUĆA
+- brzo | MORE
+- crven | GRAD
+- crvena | KUĆA
+- crveno | MORE
+- plav | GRAD
+- plava | KUĆA
+- plavo | MORE
+- žut | GRAD
+- žuta | KUĆA
+- žuto | MORE
+- zelen | GRAD
+- zelena | KUĆA
+- zeleno | MORE
+- bijel | GRAD
+- bijela | KUĆA
+- bijelo | MORE
+- crn | GRAD
+- crna | KUĆA
+- crno | MORE
+- mekan | GRAD
+- mekana | KUĆA
+- mekano | MORE
+- dobar | GRAD
+- dobra | KUĆA
+- dobro | MORE
+- topao | GRAD
+- topla | KUĆA
+- toplo | MORE
+- hladan | GRAD
+- hladna | KUĆA
+- hladno | MORE
+- sladak | GRAD
+- slatka | KUĆA
+- slatko | MORE
+- moderan | GRAD
+- moderna | KUĆA
+- moderno | MORE
+
+## Tippe auf die Endung
+format: nastavak
+nastavci: - | a | o
+opis: Oben steht das Deutsche. Das Adjektiv wartet auf seine Endung – ein Tipp.
+- Hotel je velik___. | Das Hotel ist groß. | -
+- Grad je star___. | Die Stadt ist alt. | -
+- Grad je lijep___. | Die Stadt ist schön. | -
+- Stol je nov___. | Der Tisch ist neu. | -
+- Stol je star___. | Der Tisch ist alt. | -
+- Krevet je mekan___. | Das Bett ist weich. | -
+- Krevet je nov___. | Das Bett ist neu. | -
+- Prozor je velik___. | Das Fenster ist groß. | -
+- Automobil je brz___. | Das Auto ist schnell. | -
+- Automobil je crn___. | Das Auto ist schwarz. | -
+- Automobil je crven___. | Das Auto ist rot. | -
+- Sladoled je hladan___. | Das Eis ist kalt. | -
+- Sladoled je sladak___. | Das Eis ist süß. | -
+- Sladoled je dobar___. | Das Eis ist gut. | -
+- Dan je lijep___. | Der Tag ist schön. | -
+- Dan je topao___. | Der Tag ist warm. | -
+- Telefon je nov___. | Das Telefon ist neu. | -
+- Telefon je star___. | Das Telefon ist alt. | -
+- Hotel je moderan___. | Das Hotel ist modern. | -
+- Problem je velik___. | Das Problem ist groß. | -
+- Restoran je nov___. | Das Restaurant ist neu. | -
+- Kuća je velik___. | Das Haus ist groß. | a
+- Kuća je bijel___. | Das Haus ist weiß. | a
+- Kuća je star___. | Das Haus ist alt. | a
+- Kuća je crven___. | Das Haus ist rot. | a
+- Kuća je lijep___. | Das Haus ist schön. | a
+- Knjiga je nov___. | Das Buch ist neu. | a
+- Knjiga je star___. | Das Buch ist alt. | a
+- Knjiga je lijep___. | Das Buch ist schön. | a
+- Lampa je žut___. | Die Lampe ist gelb. | a
+- Lampa je zelen___. | Die Lampe ist grün. | a
+- Lampa je nov___. | Die Lampe ist neu. | a
+- Soba je velik___. | Das Zimmer ist groß. | a
+- Soba je topl___. | Das Zimmer ist warm. | a
+- Soba je bijel___. | Das Zimmer ist weiß. | a
+- Soba je lijep___. | Das Zimmer ist schön. | a
+- Kava je dobr___. | Der Kaffee ist gut. | a
+- Kava je topl___. | Der Kaffee ist warm. | a
+- Kava je hladn___. | Der Kaffee ist kalt. | a
+- Kava je crn___. | Der Kaffee ist schwarz. | a
+- Banana je žut___. | Die Banane ist gelb. | a
+- Banana je slatk___. | Die Banane ist süß. | a
+- Čokolada je slatk___. | Die Schokolade ist süß. | a
+- Čokolada je dobr___. | Die Schokolade ist gut. | a
+- Lampa je lijep___. | Die Lampe ist schön. | a
+- Kuća je nov___. | Das Haus ist neu. | a
+- Knjiga je dobr___. | Das Buch ist gut. | a
+- More je plav___. | Das Meer ist blau. | o
+- More je topl___. | Das Meer ist warm. | o
+- More je hladn___. | Das Meer ist kalt. | o
+- More je zelen___. | Das Meer ist grün. | o
+- More je lijep___. | Das Meer ist schön. | o
+- More je velik___. | Das Meer ist groß. | o
+- Nebo je plav___. | Der Himmel ist blau. | o
+- Nebo je crn___. | Der Himmel ist schwarz. | o
+- Nebo je lijep___. | Der Himmel ist schön. | o
+- Nebo je velik___. | Der Himmel ist groß. | o
+- Sunce je topl___. | Die Sonne ist warm. | o
+- Sunce je žut___. | Die Sonne ist gelb. | o
+- Sunce je velik___. | Die Sonne ist groß. | o
+- Sunce je crven___. | Die Sonne ist rot. | o
+- Sunce je lijep___. | Die Sonne ist schön. | o
+
+## Tippe das Adjektiv
+format: upis
+opis: Lies das Deutsche in Klammern und tippe das kroatische Adjektiv in der Form, die zum Nomen passt.
+- Hotel je ___. (groß) | velik
+- Grad je ___. (alt) | star
+- Grad je ___. (schön) | lijep
+- Stol je ___. (neu) | nov
+- Stol je ___. (alt) | star
+- Krevet je ___. (weich) | mekan
+- Krevet je ___. (neu) | nov
+- Prozor je ___. (groß) | velik
+- Automobil je ___. (schnell) | brz
+- Automobil je ___. (schwarz) | crn
+- Automobil je ___. (red) | crven
+- Sladoled je ___. (kalt) | hladan
+- Sladoled je ___. (süß) | sladak
+- Sladoled je ___. (gut) | dobar
+- Dan je ___. (schön) | lijep
+- Dan je ___. (warm) | topao
+- Telefon je ___. (neu) | nov
+- Telefon je ___. (alt) | star
+- Hotel je ___. (modern) | moderan
+- Problem je ___. (groß) | velik
+- Restoran je ___. (neu) | nov
+- Kuća je ___. (groß) | velika
+- Kuća je ___. (weiß) | bijela
+- Kuća je ___. (alt) | stara
+- Kuća je ___. (red) | crvena
+- Kuća je ___. (schön) | lijepa
+- Knjiga je ___. (neu) | nova
+- Knjiga je ___. (alt) | stara
+- Knjiga je ___. (schön) | lijepa
+- Lampa je ___. (gelb) | žuta
+- Lampa je ___. (grün) | zelena
+- Lampa je ___. (neu) | nova
+- Soba je ___. (groß) | velika
+- Soba je ___. (warm) | topla
+- Soba je ___. (weiß) | bijela
+- Soba je ___. (schön) | lijepa
+- Kava je ___. (gut) | dobra
+- Kava je ___. (warm) | topla
+- Kava je ___. (kalt) | hladna
+- Kava je ___. (schwarz) | crna
+- Banana je ___. (gelb) | žuta
+- Banana je ___. (süß) | slatka
+- Čokolada je ___. (süß) | slatka
+- Čokolada je ___. (gut) | dobra
+- Lampa je ___. (schön) | lijepa
+- Kuća je ___. (neu) | nova
+- Knjiga je ___. (gut) | dobra
+- More je ___. (blau) | plavo
+- More je ___. (warm) | toplo
+- More je ___. (kalt) | hladno
+- More je ___. (grün) | zeleno
+- More je ___. (schön) | lijepo
+- More je ___. (groß) | veliko
+- Nebo je ___. (blau) | plavo
+- Nebo je ___. (schwarz) | crno
+- Nebo je ___. (schön) | lijepo
+- Nebo je ___. (groß) | veliko
+- Sunce je ___. (warm) | toplo
+- Sunce je ___. (gelb) | žuto
+- Sunce je ___. (groß) | veliko
+- Sunce je ___. (red) | crveno
+- Sunce je ___. (schön) | lijepo
+
+## Bau den Satz
+format: slaganje
+opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
+- Kuća je velika. | en: Das Haus ist groß.
+- More je plavo. | en: Das Meer ist blau.
+- Nebo je plavo. | en: Der Himmel ist blau.
+- Kava je dobra. | en: Der Kaffee ist gut.
+- Automobil je brz. | en: Das Auto ist schnell.
+- Knjiga je nova. | en: Das Buch ist neu.
+- Stol je star. | en: Der Tisch ist alt.
+- Lampa je žuta. | en: Die Lampe ist gelb.
+- Krevet je mekan. | en: Das Bett ist weich.
+- Soba je mala. | en: Das Zimmer ist klein.
+- Prozor je velik. | en: Das Fenster ist groß.
+- Sunce je toplo. | en: Die Sonne ist warm.
+- Dan je lijep. | en: Der Tag ist schön.
+- Ovo je kuća. | en: Das ist ein Haus.
+- Ovo je soba. | en: Das ist ein Zimmer.
+- Ovo je grad. | en: Das ist eine Stadt.
+- Ovo je knjiga. | en: Das ist ein Buch.
+- Dubrovnik je grad. | en: Dubrovnik ist eine Stadt.
+- Hotel je velik i moderan. | en: Das Hotel ist groß und modern.
+- Restoran je mali. | en: Das Restaurant ist klein.
+- Sladoled je hladan i sladak. | en: Das Eis ist kalt und süß.
+- More je plavo i toplo. | en: Das Meer ist blau und warm.
+- Kava je topla i dobra. | en: Der Kaffee ist warm und gut.
+- Automobil je crven i brz. | en: Das Auto ist rot und schnell.
+- Knjiga je nova i lijepa. | en: Das Buch ist neu und schön.
+- Stol je velik i star. | en: Der Tisch ist groß und alt.
+- Grad je star i lijep. | en: Die Stadt ist alt und schön.
+- Soba je mala i lijepa. | en: Das Zimmer ist klein und schön.
+- Kuća je stara i lijepa. | en: Das Haus ist alt und schön.
+- Dan je lijep, sunce je toplo. | en: Der Tag ist schön, die Sonne ist warm.
+- Nebo je plavo i sunce je toplo. | en: Der Himmel ist blau, und die Sonne ist warm.
+- Kuća je bijela i velika. | en: Das Haus ist weiß und groß.
+- Telefon je nov i brz. | en: Das Telefon ist neu und schnell.
+- Knjiga je dobra. | en: Das Buch ist gut.
+- Čokolada je slatka. | en: Die Schokolade ist süß.
+- Banana je žuta. | en: Die Banane ist gelb.
+- Sunce je veliko i toplo. | en: Die Sonne ist groß und warm.
+- More je zeleno i hladno. | en: Das Meer ist grün und kalt.
+
+## Schreib es auf Kroatisch
+format: upis
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz. Die Wortstellung ist frei, also wird mehr als eine Antwort akzeptiert – solange *je* nicht das erste Wort ist.
+- Das Haus ist groß. | Kuća je velika. / Velika je kuća.
+- Das Meer ist blau. | More je plavo. / Plavo je more.
+- Der Himmel ist blau. | Nebo je plavo. / Plavo je nebo.
+- Der Kaffee ist gut. | Kava je dobra. / Dobra je kava.
+- Das Auto ist schnell. | Automobil je brz. / Brz je automobil.
+- Das Buch ist neu. | Knjiga je nova. / Nova je knjiga.
+- Der Tisch ist alt. | Stol je star. / Star je stol.
+- Die Lampe ist gelb. | Lampa je žuta. / Žuta je lampa.
+- Das Bett ist weich. | Krevet je mekan. / Mekan je krevet.
+- Das Zimmer ist klein. | Soba je mala. / Mala je soba.
+- Das Fenster ist groß. | Prozor je velik. / Velik je prozor.
+- Die Sonne ist warm. | Sunce je toplo. / Toplo je sunce.
+- Der Tag ist schön. | Dan je lijep. / Lijep je dan.
+- Das ist ein Haus. | Ovo je kuća.
+- Das ist ein Zimmer. | Ovo je soba.
+- Das ist eine Stadt. | Ovo je grad.
+- Das ist ein Buch. | Ovo je knjiga.
+- Das ist ein Tisch. | Ovo je stol.
+- Die Stadt ist alt. | Grad je star. / Star je grad.
+- Das Hotel ist modern. | Hotel je moderan. / Moderan je hotel.
+- Das Restaurant ist klein. | Restoran je mali. / Mali je restoran.
+- Das Eis ist kalt. | Sladoled je hladan. / Hladan je sladoled.
+- Die Schokolade ist süß. | Čokolada je slatka. / Slatka je čokolada.
+- Die Banane ist gelb. | Banana je žuta. / Žuta je banana.
+- Der Film ist gut. | Film je dobar. / Dobar je film.
+- Das Telefon ist neu. | Telefon je nov. / Nov je telefon.
+- Das Meer ist warm. | More je toplo. / Toplo je more.
+- Das Meer ist grün. | More je zeleno. / Zeleno je more.
+- Das Haus ist weiß. | Kuća je bijela. / Bijela je kuća.
+- Das Auto ist rot. | Automobil je crven. / Crven je automobil.
+- Die Sonne ist groß. | Sunce je veliko. / Veliko je sunce.
+- Der Himmel ist schwarz. | Nebo je crno. / Crno je nebo.
+- Der Kaffee ist kalt. | Kava je hladna. / Hladna je kava.
+- Das Buch ist schön. | Knjiga je lijepa. / Lijepa je knjiga.
+- Das Zimmer ist warm. | Soba je topla. / Topla je soba.
+- Das Problem ist groß. | Problem je velik. / Velik je problem.
+- Die Stadt ist schön. | Grad je lijep. / Lijep je grad.
+- Das Bett ist neu. | Krevet je nov. / Nov je krevet.
+- Die Lampe ist grün. | Lampa je zelena. / Zelena je lampa.
+- Der Tisch ist schwarz. | Stol je crn. / Crn je stol.

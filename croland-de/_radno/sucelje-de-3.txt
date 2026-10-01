@@ -1,0 +1,366 @@
+691	Deine ersten kroatischen Sätze
+693	Der Kaffee ist gut.
+695	Das Meer ist blau.
+697	Die Stadt ist groß.
+699	Das Haus ist groß.
+701	Das Meer ist groß.
+702	Dinge, Farben und Größen
+703	Etwa 40 Alltagswörter.
+704	Endungen, die zusammenpassen
+706	Der Kaffee ist nicht gut.
+707	Lies deine ersten Texte
+708	Eine Stadt, ein Zimmer und ein Café.
+710	Einen Kaffee, bitte.
+712	Bitte schön.
+713	Danke!
+714	Zeig, was du kannst
+715	Wörter, Endungen und einfache Sätze.
+716	Über Menschen sprechen
+718	Ich bin Studentin.
+720	Sie ist groß.
+722	Ich bin Ana.
+724	Du bist Marko.
+726	Sie sind fröhlich.
+727	Berufe, Länder, Charakter
+728	Wörter für Menschen und deine ersten Begrüßungen.
+730	Kroate
+732	Italiener
+734	Deutscher
+736	Wie geht's dir?
+738	Mir geht's gut.
+739	Das Verb „sein“
+741	Wir sind Touristen.
+743	Ich habe keinen Hunger.
+745	Neue Leute kennenlernen
+746	Vorstellungen, ein Café und ein Team.
+748	Wer bist du?
+751	Mir geht's gut, danke.
+752	Menschen, „sein“ und Vorstellungen.
+753	ich bin
+754	wir sind
+755	sie sind
+756	Was du tust
+758	Ich trinke Tee.
+760	Ana arbeitet.
+761	ich lese
+762	du liest
+763	Alltagsverben
+764	Verben und was dazugehört.
+765	Das Präsens
+767	Ich lerne Kroatisch.
+769	Ich trinke keinen Saft.
+770	Ein Tag voller Tätigkeiten
+771	Eine Wohnung, ein Abend und ein ruhiger Sonntag.
+773	Was machst du?
+775	Ich schaue einen Film.
+776	Alltagsverben im Präsens.
+777	ich trinke nicht
+778	Die Familie
+780	Papa kocht, mein Bruder lernt.
+782	Mama arbeitet und liest.
+783	und, während
+784	Familie und Zuhause
+785	Engste Familie, weitere Familie und neue Verben.
+786	Sätze verbinden
+788	Ich schwimme nicht, weil es kalt ist.
+789	Familienleben
+790	Eine Familie, ein hektischer Morgen und ein Samstag zu Hause.
+792	Das ist eine Familie.
+794	Was machst du heute?
+796	Oma kocht.
+797	Familienwörter, Verben und Bindewörter.
+798	Einkaufen
+800	Ich trinke Kaffee.
+802	Brauchen Sie eine Tüte?
+804	Ich esse einen Apfel.
+805	Einkaufen und Essen
+806	Marktwörter und 10 neue Verben.
+807	Dein erster Fall
+809	Ich kaufe frischen Salat.
+811	Ich gehe in den Laden.
+813	in den Laden
+814	auf den Markt
+815	Auf dem Markt
+816	Ein Markt, ein Zettel am Kühlschrank und Frühstück.
+818	Ana kauft einen Apfel.
+820	Wir brauchen Brot und Reis.
+822	Ich liebe Kaffee!
+823	Essen, Einkaufen und dein erster Fall.
+824	Brot (keine Änderung)
+825	In der Stadt
+827	Ich sehe einen Freund.
+829	Ich warte auf die Straßenbahn.
+831	Ich sehe eine Straßenbahn.
+833	Ich sehe einen Hund.
+834	Die Stadt und der Verkehr
+835	Menschen, Verkehrsmittel und Orte in der Stadt.
+836	Menschen und Dinge
+838	Ich warte auf einen Freund.
+840	Ich sehe ihn.
+841	Stadtleben
+842	Eine Straßenbahnfahrt, eine belebte Straße und ein verlorener Hund.
+844	Ana wartet auf die Straßenbahn.
+846	Die Straßenbahn ist voll.
+847	Entschuldigung!
+848	Die Stadt und der ganze erste Fall.
+849	ihn, es
+850	In der Schule: mehr als eins
+852	Die Bücher sind neu.
+854	Die Schüler singen.
+855	Schule und Lieder
+856	Schulwörter, Plural und 10 neue Verben.
+857	Der Plural
+859	Die Tische sind alt.
+861	Die Kinder singen.
+862	Schultage
+863	Eine Schule, ein Stundenplan, ein Chor und neue Schüler.
+865	Guten Morgen, Kinder!
+866	Nomen, Adjektive und Verben im Plural.
+867	Sommerpläne
+869	Ich werde schwimmen.
+871	Wir werden reisen.
+873	Wir werden am Samstag reisen.
+875	Ich werde nicht schwimmen.
+876	Pläne und Reisen
+877	Urlaub, Tage, Kleidung und 10 neue Verben.
+878	Das Futur
+880	Morgen werde ich schwimmen.
+882	Ich werde nicht arbeiten.
+883	Pläne und Fahrten
+884	Ein Sommerplan, eine Packliste und eine Zugfahrkarte.
+886	Wir werden nach Split fahren.
+888	Ich werde früh aufstehen.
+890	Papa wird fahren.
+891	Pläne, Reisen und das Futur.
+893	Sport und Hobbys
+895	Mein Hobby ist Fotografie.
+897	Mein Knie tut weh.
+898	mein Trikot
+899	mein Ball
+900	mein Knie
+901	Sport, Körper und „mein“
+902	Sportwörter, der Körper und wem was gehört.
+903	Mein, dein, unser
+905	Marko liebt seine (eigene) Schwester.
+906	mein / sein / ihr eigener
+907	Unser Verein, mein Hobby
+908	Ein Hobby, ein verlorener Ball und ein Fußballverein.
+910	Ist das dein Ball?
+912	Ja, das ist meiner!
+914	Unser Verein ist klein.
+915	Possessivpronomen, Sport und der Körper.
+916	Gestern
+918	Ich habe einen Film geschaut.
+920	Es war perfekt.
+922	Er hat geschaut.
+924	Sie hat geschaut.
+926	Sie haben geschaut.
+927	Gestern und Freizeit
+928	Filme, Zeitwörter und Wendungen zum Erzählen.
+930	Wie war es?
+932	Es war super!
+933	Die Vergangenheit
+935	Gestern habe ich einen Film geschaut.
+937	Ich hatte keine Zeit.
+938	ich (habe gemacht)
+939	ich habe nicht
+940	Letztes Wochenende
+941	Ein fauler Samstag, das Meer und ein Familienwochenende.
+943	Wo warst du gestern?
+945	Ich war am Meer.
+947	Ich bin geschwommen.
+948	Die Vergangenheit und Freizeit.
+949	ich war nicht / habe nicht
+950	Fragen stellen
+952	Was kaufst du?
+954	Wie viel kostet das?
+956	Wo wohnst du?
+958	Magst du Kaffee?
+960	Schön, nicht wahr?
+961	Fragen und Zahlen
+962	Fragewörter, Zahlen und Geburtstage.
+963	wie viel
+964	hundert
+965	Drei Arten zu fragen
+967	Wann kommst du?
+969	Magst du Kaffee? – Ja.
+971	Wo bist du?
+973	Bist du müde?
+975	Du bist müde, oder?
+976	was für ein
+977	Das Geschenkrätsel
+978	Ein Geburtstagsgeschenk, eine geheimnisvolle Kiste und ein Quiz.
+980	Für wen?
+982	Wer hat das Geschenk geschickt?
+984	Alles Gute zum Geburtstag!
+985	Fragen, Zahlen und Preise.
+987	Wie alt bist du?
+989	Ich bin zwanzig.
+990	Nein sagen
+992	Ich esse nichts.
+994	Ich trinke nie Milch.
+995	ich bin nicht
+996	ich habe nicht
+997	ich werde nicht
+998	Essen, das wir (nicht) mögen
+999	Essen, Geschmack und auswärts essen.
+1001	Guten Appetit!
+1003	Die Rechnung, bitte.
+1004	Verneinung
+1006	Niemand kocht.
+1008	Ich trinke keinen Kaffee, sondern Tee.
+1010	noch nicht
+1011	nicht mehr
+1012	Die heiklen Esser
+1013	Suppe, ein Restaurant und ein Kind, das nichts isst.
+1015	Ich mag keine Suppe.
+1017	Haben Sie Fisch?
+1019	Leider nicht.
+1020	Nein sagen, und Essen.
+1022	Ich habe keine Zeit.
+1024	Ich komme nicht.
+1026	Ich bin in der Stadt.
+1028	Ana ist in der Schule.
+1030	Ich gehe in die Stadt.
+1031	Orte und Zuhause
+1032	Orte in der Stadt, Zimmer und Möbel.
+1033	Der Lokativ
+1035	Ich arbeite in einem Büro.
+1037	Ich rede über dich.
+1038	in der Bank
+1039	über mich
+1040	Unterwegs in der Stadt
+1041	Ein Viertel, ein Telefonat und ein Familiengespräch.
+1043	Ich bin im Bus.
+1045	Ich bin noch im Büro.
+1046	Wo Menschen und Dinge sind.
+1047	Geschenke machen
+1049	Ich kaufe Mama einen Schal.
+1051	Ich helfe meinem Bruder.
+1052	der Mama
+1053	dem Papa
+1054	meinem Bruder
+1055	Geben und Empfänger
+1056	Geschenke, Empfänger und Dezemberwörter.
+1057	Weihnachten
+1058	Der Dativ
+1060	Oma schickt mir ein Paket.
+1062	Mir, nicht dir!
+1063	Wem?
+1064	Dezembergeschenke
+1065	Geschenke, ein Briefträger und eine Karte von Oma.
+1067	Wem schreibst du?
+1069	Ich schreibe Oma.
+1071	Frohe Weihnachten!
+1072	Jemandem etwas geben und irgendwo sein.
+1074	Ich gebe Mama Blumen.
+1076	Mama ist in der Küche.
+1077	Ausgehen
+1079	Ich gehe mit Marko.
+1081	Wir fahren mit dem Zug.
+1082	mit meinem Bruder
+1083	mit meiner Schwester
+1084	Ausgehen und Wetter
+1085	Ein Abend in der Stadt, Verkehrsmittel und das Wetter.
+1086	zu Fuß
+1087	Der Instrumental
+1089	Ich schreibe mit einem Bleistift.
+1091	Ich gehe mit dir.
+1092	mit mir
+1093	mit dir
+1094	Freitagabend
+1095	Ausgehen, eine Zugfahrt und eine Café-Karte.
+1097	Mit wem gehst du?
+1099	Mit meiner Schwester.
+1101	Kaffee mit Milch
+1102	Vier Fälle, ein Wort.
+1104	Ich sehe Mama.
+1106	Ich schreibe Mama.
+1108	Ich rede über Mama.
+1110	Ich gehe mit Mama.
+1111	Omas Haus
+1113	Kaffee ohne Zucker.
+1115	Kein Problem!
+1116	neben dem Haus
+1117	Haus und Zuhause
+1118	Wörter fürs Zuhause und kleine Ortswörter.
+1119	vor
+1120	Der Genitiv
+1122	das Haus meiner Oma
+1124	Zwei Kaffee, bitte.
+1125	Der Weg ans Meer
+1126	Omas Haus, ein Café und eine Fahrt an die Küste.
+1128	Neben dem Haus ist ein Garten.
+1130	Einen Tee für Marko.
+1132	Wir reisen aus Zagreb ab.
+1133	Der Genitiv und das Zuhause.
+1134	Befehle geben
+1136	Nimm drei Eier.
+1138	Biegen Sie links ab.
+1139	geradeaus
+1140	Rezepte und Wegbeschreibungen
+1141	Küchenwörter, Befehle und Wegbeschreibungen.
+1142	Der Imperativ
+1143	Schaut! (ihr alle)
+1145	Kannst du mir helfen?
+1146	ich kann
+1147	ich muss
+1148	ich will
+1149	Pfannkuchen, der Weg zum Bahnhof und ein strenger Trainer.
+1151	Wo ist der Bahnhof?
+1153	Gehen Sie geradeaus.
+1155	Trink Wasser!
+1156	Befehle, Rezepte und Wegbeschreibungen.
+1157	Eine Million Euro
+1159	Ich würde ein Haus kaufen.
+1161	Ich hätte gern einen Kaffee.
+1163	Ich würde … kaufen. (er)
+1165	Ich würde … kaufen. (sie)
+1167	Könnten Sie …?
+1168	Wünsche und Gefühle
+1169	Träume, Gefühle und „würde“.
+1170	Der Konditional
+1172	Wir würden ans Meer fahren.
+1174	Ich würde mich nicht beeilen.
+1175	Träume und perfekte Tage
+1176	Lottoträume, ein perfekter Tag und eine Straßenumfrage.
+1178	Zuerst würde ich ein Haus kaufen.
+1180	Ich würde jeden Tag schwimmen.
+1182	Was würden Sie tun?
+1183	Wünsche, Träume und Gefühle.
+1184	Verbzwillinge
+1186	Ich war dabei, einen Brief zu schreiben.
+1188	Ich habe den Brief fertig geschrieben.
+1189	lesen → ganz durchlesen
+1190	lange
+1191	Geschichten und Ereignisse
+1192	Verbpaare, Zeitwörter und Erzählwörter.
+1193	Fertig oder nicht?
+1195	Ana hat den ganzen Abend gelernt.
+1197	Sie hat alles gelernt.
+1198	im Verlauf
+1199	Der Brief
+1200	Ein langer Brief, Hausaufgaben und eine Samstagsliste.
+1202	Hast du deine Hausaufgaben fertig?
+1203	Verbpaare: im Verlauf oder abgeschlossen.
+1204	Lange Sätze
+1206	Ich bleibe zu Hause, weil es regnet.
+1208	Wenn es sonnig ist, gehen wir raus.
+1209	Erinnerungen und lange Sätze
+1210	Bindewörter, Sommererinnerungen und Lernen.
+1211	Komplexe Sätze
+1213	Ich glaube, dass du kommst.
+1214	der Film, den ich schaue
+1216	Wenn du kommst, ruf mich an.
+1218	Ich weiß, dass es groß ist.
+1219	Der Sommer, an den ich mich erinnere
+1220	Ein Inselsommer, ein Aufsatz und eine Postkarte.
+1222	Grüße von der Insel!
+1224	Liebe Oma,
+1226	Ich lerne Kroatisch, weil …
+1227	Der Abschlusstest
+1228	Alles aus allen 20 Lektionen.
+1229	Ich lerne.
+1231	Ich habe gelernt.
+1233	Ich werde lernen.
+1235	Ich würde lernen.

@@ -1,0 +1,1160 @@
+L1	der Vorname, Vornamen	ime	first name	tečaj
+L1	der Familienname, Familiennamen	prezime	surname	tečaj
+L1	der Wohnort, Wohnorte	mjesto stanovanja	place of residence	tečaj
+L1	willkommen	dobrodošao	welcome	tečaj
+L1	die Person, Personen	osoba	person	tečaj
+L1	Spanisch	španjolski (jezik)	Spanish	tečaj
+L1	Italienisch	talijanski (jezik)	Italian	tečaj
+L1	Japanisch	japanski (jezik)	Japanese	tečaj
+L1	Kroatisch	hrvatski (jezik)	Croatian	tečaj
+L2	der Zettel, Zettel	papirić, cedulja	note, slip of paper	tečaj
+L2	das Papier, Papiere	papir	paper	tečaj
+L2	der Laptop, Laptops	prijenosno računalo	laptop	tečaj
+L2	die Vase, Vasen	vaza	vase	tečaj
+L2	der Teller, Teller	tanjur	plate	tečaj
+L2	das Holz	drvo (materijal)	wood	tečaj
+L2	das Plastik	plastika	plastic	tečaj
+L3	die Mama / der Papa	mama / tata	mum / dad	tečaj
+L3	der Monat, Monate	mjesec	month	tečaj
+L3	der Frühling	proljeće	spring	tečaj
+L3	der Sommer	ljeto	summer	tečaj
+L3	der Herbst	jesen	autumn	dodatno
+L3	der Winter	zima	winter	tečaj
+L4	schade	šteta	a pity	tečaj
+L4	der Hunger	glad	hunger	tečaj
+L4	der Durst	žeđ	thirst	dodatno
+L4	die Nummer, Nummern	broj	number	tečaj
+L4	die Telefonnummer, Telefonnummern	broj telefona	phone number	tečaj
+L5	der Honig	med	honey	tečaj
+L5	die Zwiebel, Zwiebeln	luk	onion	tečaj
+L5	der Schinken	šunka	ham	tečaj
+L5	die Soße, Soßen	umak	sauce	tečaj
+L5	der Keks, Kekse	keks	biscuit	tečaj
+L5	das Pfand	povratna naknada (za bocu)	deposit (on bottles)	tečaj
+L5	die Brezel, Brezeln	perec	pretzel	tečaj
+L5	der Bäcker / die Bäckerin	pekar, pekarica	baker	tečaj
+L5	die Lebensmittel (Pl.)	namirnice	groceries, food	tečaj
+L5	der Teller, Teller	tanjur	plate	tečaj
+L6	der Chor, Chöre	zbor	choir	tečaj
+L6	der Verein, Vereine	udruga, klub	club, association	tečaj
+L6	der Sportverein, Sportvereine	sportski klub	sports club	tečaj
+L6	der Anfänger / die Anfängerin	početnik, početnica	beginner	tečaj
+L6	die Kunst	umjetnost	art	tečaj
+L6	die Politik	politika	politics	tečaj
+L6	das Tor, Tore	gol; vrata (dvorišna)	goal; gate	tečaj
+L7	die Hausordnung	kućni red	house rules	tečaj
+L7	der Hausmeister / die Hausmeisterin	domar, domarica	caretaker	tečaj
+L7	der Schauspieler / die Schauspielerin	glumac, glumica	actor, actress	tečaj
+L7	der Pilot / die Pilotin	pilot, pilotkinja	pilot	tečaj
+L7	der Beamte / die Beamtin	službenik, službenica	civil servant	tečaj
+L7	der Friseur / die Friseurin	frizer, frizerka	hairdresser	tečaj
+L7	der Mechaniker / die Mechanikerin	mehaničar, mehaničarka	mechanic	dodatno
+L7	der Designer / die Designerin	dizajner, dizajnerica	designer	tečaj
+L7	das Homeoffice	rad od kuće	working from home	tečaj
+L7	der Feierabend	kraj radnog dana	end of the working day	tečaj
+L8	der Akku, Akkus	baterija (punjiva)	battery	tečaj
+L8	der Termin beim Friseur	termin kod frizera	hairdresser's appointment	tečaj
+L8	Auf Wiederhören!	Doviđenja! (na telefonu)	Goodbye! (on the phone)	tečaj
+L8	der Moment, Momente	trenutak	moment	tečaj
+L9	die Creme, Cremes	krema	cream	tečaj
+L9	die Kopfschmerzen (Pl.)	glavobolja	headache	tečaj
+L9	der Doktor	doktor	doctor	tečaj
+L9	der Tipp, Tipps	savjet	tip	tečaj
+L9	der Patient / die Patientin	pacijent, pacijentica	patient	tečaj
+L10	der Text, Texte	tekst	text	tečaj
+L10	der Witz, Witze	šala, vic	joke	tečaj
+L11	die Abfahrt, Abfahrten	polazak	departure	tečaj
+L11	die Ankunft, Ankünfte	dolazak	arrival	dodatno
+L11	das Schloss, Schlösser	dvorac	castle, palace	tečaj
+L11	das Riesenrad	panoramski kotač	Ferris wheel	tečaj
+L11	der Passagier, Passagiere	putnik	passenger	tečaj
+L11	das Gate	izlaz (u zračnoj luci)	gate	tečaj
+L11	die Welt	svijet	world	tečaj
+L11	der Himmel	nebo	sky	tečaj
+L11	das Boot, Boote	čamac	boat	tečaj
+L11	die Insel, Inseln	otok	island	dodatno
+L11	die Küste, Küsten	obala	coast	dodatno
+L12	die Bahn, Bahnen	željeznica, vlak	railway, train	tečaj
+L12	der Hauptbahnhof	glavni kolodvor	main station	tečaj
+L12	der Marktplatz, Marktplätze	glavni trg	market square	tečaj
+L12	der Geburtsort	mjesto rođenja	place of birth	tečaj
+L12	die Tram, Trams	tramvaj	tram	tečaj
+L12	die Kreuzung, Kreuzungen	raskrižje	crossroads	dodatno
+L12	der Eingang, Eingänge	ulaz	entrance	tečaj
+L12	der Ausgang, Ausgänge	izlaz	exit	dodatno
+L13	das Geschirr	posuđe	dishes	tečaj
+L13	der Putzplan	raspored čišćenja	cleaning rota	tečaj
+L13	die Pflege	njega	care, nursing	tečaj
+L13	die Karriere	karijera	career	tečaj
+L13	die Mail, Mails	e-mail	e-mail	tečaj
+L13	die Regel, Regeln	pravilo	rule	tečaj
+L13	der Grund, Gründe	razlog	reason	tečaj
+L13	die Meinung, Meinungen	mišljenje	opinion	tečaj
+L13	hoffen → hat gehofft	nadati se	to hope	tečaj
+L13	glauben → hat geglaubt	vjerovati, misliti	to believe, think	tečaj
+L13	meinen → hat gemeint	misliti, smatrati	to think, mean	tečaj
+L13	recht haben	biti u pravu	to be right	tečaj
+L13	jemand	netko	somebody	tečaj
+L14	der Altbau	stara zgrada	old building	tečaj
+L14	der Neubau	nova zgrada	new building	dodatno
+L14	die Nebenkosten (Pl.)	režije	utilities, running costs	tečaj
+L14	die Kaltmiete / die Warmmiete	najam bez / s režijama	rent excl. / incl. heating	tečaj
+L14	der Quadratmeter (qm)	kvadratni metar	square metre	tečaj
+L14	die Besichtigung, Besichtigungen	razgledavanje	viewing	tečaj
+L14	das Haustier, Haustiere	kućni ljubimac	pet	tečaj
+L14	die Bohrmaschine	bušilica	drill	tečaj
+L14	das Kinderzimmer	dječja soba	children's room	tečaj
+L14	der Mietvertrag, Mietverträge	ugovor o najmu	tenancy agreement	tečaj
+L14	der Nachbar / die Nachbarin	susjed, susjeda	neighbour	tečaj
+L14	der Stock, Stockwerke	kat	floor, storey	tečaj
+L14	die Mülltonne, Mülltonnen	kanta za smeće (velika)	wheelie bin	tečaj
+L14	der Sack, Säcke	vreća	sack, bag	tečaj
+L14	das Licht, Lichter	svjetlo	light	dodatno
+L14	die Steckdose, Steckdosen	utičnica	socket	dodatno
+L14	der Staubsauger	usisavač	vacuum cleaner	dodatno
+L14	staubsaugen → hat gestaubsaugt	usisavati	to vacuum	dodatno
+L14	der Besen	metla	broom	dodatno
+L14	das Dach, Dächer	krov	roof	dodatno
+L14	die Garage, Garagen	garaža	garage	dodatno
+L14	der Briefkasten	poštanski sandučić	letterbox	dodatno
+L14	die Klingel	zvono (na vratima)	doorbell	dodatno
+L14	klingeln → hat geklingelt	zvoniti	to ring	dodatno
+L14	sitzen → hat gesessen	sjediti	to sit	dodatno
+L14	setzen → hat gesetzt	posjesti, staviti	to put, seat	tečaj
+L14	gemütlich	ugodan, udoban	cosy	dodatno
+L14	hell / dunkel	svijetao / taman	bright / dark	tečaj
+L14	möbliert	namješten	furnished	tečaj
+L15	der Glückwunsch, Glückwünsche	čestitka	congratulations	tečaj
+L15	Herzlichen Glückwunsch!	Čestitam! Sretan rođendan!	Congratulations! Happy birthday!	tečaj
+L15	Alles Gute!	Sve najbolje!	All the best!	tečaj
+L15	Frohe Weihnachten!	Sretan Božić!	Merry Christmas!	tečaj
+L15	Guten Rutsch!	Sretna Nova godina! (prije)	Happy New Year! (before)	tečaj
+L15	der Weihnachtsmarkt, Weihnachtsmärkte	božićni sajam	Christmas market	tečaj
+L15	der Glühwein	kuhano vino	mulled wine	tečaj
+L15	der Lebkuchen	medenjak	gingerbread	tečaj
+L15	der Stand, Stände	štand	stall	tečaj
+L15	die Rede, Reden	govor	speech	tečaj
+L15	das Unglück	nesreća	bad luck	tečaj
+L15	die Überraschung, Überraschungen	iznenađenje	surprise	dodatno
+L15	überraschen → hat überrascht	iznenaditi	to surprise	dodatno
+L15	der Gutschein, Gutscheine	poklon-bon	voucher	tečaj
+L15	das Kochbuch, Kochbücher	kuharica (knjiga)	cookbook	tečaj
+L15	das Fotobuch	fotoknjiga	photo book	tečaj
+L15	die Konzertkarte, Konzertkarten	ulaznica za koncert	concert ticket	tečaj
+L15	der Enkel / die Enkelin	unuk, unuka	grandson, granddaughter	tečaj
+L15	das Stück, Stücke	komad	piece	tečaj
+L15	weinen → hat geweint	plakati	to cry	tečaj
+L15	lachen → hat gelacht	smijati se	to laugh	tečaj
+L15	erzählen → hat erzählt	pričati	to tell	tečaj
+L15	erklären → hat erklärt	objasniti	to explain	tečaj
+L15	antworten (+ Dat.)	odgovoriti (nekomu)	to answer (someone)	tečaj
+L15	glauben (+ Dat.)	vjerovati (nekomu)	to believe (someone)	tečaj
+L15	der Muttertag	Majčin dan	Mother's Day	dodatno
+L15	der Valentinstag	Valentinovo	Valentine's Day	dodatno
+L15	der Karneval / der Fasching	karneval, fašnik	carnival	dodatno
+L15	das Feuerwerk	vatromet	fireworks	dodatno
+L15	der Tannenbaum	bor (božićno drvce)	Christmas tree	dodatno
+L15	das Ei, Eier	jaje	egg	dodatno
+L15	die Party, Partys	zabava	party	tečaj
+L15	wem?	komu?	to whom?	tečaj
+L15	mir / dir / ihm / ihr	meni / tebi / njemu / njoj	(to) me / you / him / her	tečaj
+L15	uns / euch / ihnen / Ihnen	nama / vama / njima / Vama	(to) us / you / them / you	tečaj
+L16	welcher? welche? welches?	koji? koja? koje?	which?	tečaj
+L16	dieser, diese, dieses	ovaj, ova, ovo	this	tečaj
+L16	jeder, jede, jedes	svaki, svaka, svako	every, each	tečaj
+L16	der Blazer	sako	blazer	tečaj
+L16	der Regenschirm, Regenschirme	kišobran	umbrella	tečaj
+L16	die Regenjacke	kabanica	rain jacket	tečaj
+L16	die Kapuze, Kapuzen	kapuljača	hood	tečaj
+L16	das Fundbüro	ured izgubljenih stvari	lost-property office	tečaj
+L16	die Beschreibung	opis	description	tečaj
+L16	das Interview, Interviews	razgovor za posao	interview	tečaj
+L16	der Dresscode	pravila odijevanja	dress code	tečaj
+L16	das Prozent, Prozente	posto	per cent	tečaj
+L16	der Verkäufer / die Verkäuferin	prodavač, prodavačica	shop assistant	tečaj
+L16	die Kasse, Kassen	blagajna	till, checkout	tečaj
+L16	der Stoff, Stoffe	tkanina	fabric	dodatno
+L16	die Seide	svila	silk	dodatno
+L16	der Schmuck	nakit	jewellery	dodatno
+L16	die Ohrringe (Pl.)	naušnice	earrings	dodatno
+L16	der Rucksack, Rucksäcke	ruksak	rucksack	dodatno
+L16	die Sonnenbrille	sunčane naočale	sunglasses	dodatno
+L16	der Bikini / die Badehose	bikini / kupaće gaće	bikini / swimming trunks	dodatno
+L16	der Schlafanzug	pidžama	pyjamas	dodatno
+L16	die Mode	moda	fashion	dodatno
+L16	modern / altmodisch	moderan / staromodan	modern / old-fashioned	dodatno
+L16	silbern / golden	srebrn / zlatan	silver / golden	tečaj
+L16	braun / grau / rosa / lila	smeđ / siv / ružičast / ljubičast	brown / grey / pink / purple	tečaj
+L16	das Gesicht, Gesichter	lice	face	tečaj
+L16	rund	okrugao	round	tečaj
+L16	der Ausweis verlieren	izgubiti osobnu	to lose your ID	dodatno
+L16	verlieren → hat verloren	izgubiti	to lose	tečaj
+L16	finden → hat gefunden	naći	to find	tečaj
+L17	als	nego, od (kod usporedbe)	than	tečaj
+L17	so … wie	tako … kao	as … as	tečaj
+L17	mehr / weniger	više / manje	more / less	tečaj
+L17	die Altstadt	stari grad	old town	tečaj
+L17	das Weltkulturerbe	svjetska baština	World Heritage	tečaj
+L17	das Rathaus, Rathäuser	gradska vijećnica	town hall	tečaj
+L17	die Brücke, Brücken	most	bridge	tečaj
+L17	das Bundesland, Bundesländer	savezna zemlja	federal state	tečaj
+L17	der Dialekt, Dialekte	dijalekt	dialect	tečaj
+L17	das Meer, Meere	more	sea	tečaj
+L17	der Strand, Strände	plaža	beach	dodatno
+L17	der Hügel, Hügel	brežuljak	hill	dodatno
+L17	das Tal, Täler	dolina	valley	dodatno
+L17	das Ufer	obala (rijeke, jezera)	bank, shore	dodatno
+L17	die Wüste	pustinja	desert	dodatno
+L17	das Klima	klima	climate	dodatno
+L17	die Umwelt	okoliš	environment	tečaj
+L17	der Baum, Bäume	drvo	tree	dodatno
+L17	die Blume, Blumen	cvijet	flower	tečaj
+L17	das Pferd, Pferde	konj	horse	dodatno
+L17	das Schwein, Schweine	svinja	pig	dodatno
+L17	das Huhn, Hühner	kokoš	chicken	dodatno
+L17	das Schaf, Schafe	ovca	sheep	dodatno
+L17	der Döner	döner, kebab	doner kebab	tečaj
+L17	frisch	svjež	fresh	tečaj
+L17	scharf	ljut (okus)	spicy	tečaj
+L17	lecker	ukusan	tasty	tečaj
+L17	langsam	spor	slow	tečaj
+L17	weit / nah	daleko / blizu	far / near	tečaj
+L17	billig / teuer	jeftin / skup	cheap / expensive	tečaj
+L17	sonnig	sunčan	sunny	dodatno
+L17	wandern → ist gewandert	planinariti, pješačiti	to hike	tečaj
+L17	spazieren gehen	šetati	to go for a walk	tečaj
+L17	der Ausflug, Ausflüge	izlet	trip, outing	dodatno
+L17	die Reihenfolge	redoslijed	order, ranking	dodatno
+L18	sich setzen / sitzen	sjesti / sjediti	to sit down / to sit	tečaj
+L18	sich treffen	naći se	to meet	tečaj
+L18	sich kennenlernen	upoznati se	to get to know each other	tečaj
+L18	sich waschen	prati se	to wash	tečaj
+L18	sich anziehen	obući se	to get dressed	tečaj
+L18	sich die Zähne putzen	prati zube	to brush your teeth	tečaj
+L18	sich kämmen	češljati se	to comb your hair	tečaj
+L18	sich aufregen	uzrujavati se	to get upset	tečaj
+L18	sich duschen	tuširati se	to shower	tečaj
+L18	sich Sorgen machen	brinuti se	to worry	tečaj
+L18	sich wünschen	željeti (sebi)	to wish for	tečaj
+L18	sich vorstellen	predstaviti se; zamisliti	to introduce oneself; to imagine	tečaj
+L18	sich verabreden	dogovoriti se (za susret)	to arrange to meet	dodatno
+L18	sich bedanken	zahvaliti se	to say thank you	dodatno
+L18	sich langweilen	dosađivati se	to be bored	dodatno
+L18	sich beschweren	žaliti se	to complain	dodatno
+L18	sich gewöhnen an	navikavati se na	to get used to	dodatno
+L18	worauf? / darauf	čemu? / tome	what for? / to that	tečaj
+L18	worüber? / darüber	o čemu? / o tome	about what? / about that	tečaj
+L18	wofür? / dafür	za što? / za to	for what? / for that	tečaj
+L18	woran? / daran	na što? / na to	of what? / of that	tečaj
+L18	durfte	smio	was allowed to	tečaj
+L18	wollte	htio	wanted to	tečaj
+L18	der Schatz	blago; dušo	treasure; darling	tečaj
+L18	die Laune	raspoloženje	mood	dodatno
+L18	gute / schlechte Laune haben	biti dobre / loše volje	to be in a good / bad mood	dodatno
+L18	der Spaß	zabava, užitak	fun	dodatno
+L18	der Mut	hrabrost	courage	dodatno
+L18	mutig	hrabar	brave	dodatno
+L18	ängstlich	plašljiv	anxious	dodatno
+L18	eifersüchtig	ljubomoran	jealous	dodatno
+L18	geduldig / ungeduldig	strpljiv / nestrpljiv	patient / impatient	tečaj
+L18	freundlich / unfreundlich	ljubazan / neljubazan	friendly / unfriendly	dodatno
+L18	ehrlich	iskren	honest	tečaj
+L18	lustig	smiješan, veseo	funny	tečaj
+L18	der Kuss, Küsse	poljubac	kiss	dodatno
+L18	umarmen → hat umarmt	zagrliti	to hug	dodatno
+L18	heiraten → hat geheiratet	vjenčati se	to marry	tečaj
+L18	sich trennen	rastati se	to split up	dodatno
+L18	ledig	neoženjen, neudana	single	dodatno
+L18	geschieden	razveden	divorced	dodatno
+L18	der Freund / die Freundin	prijatelj; dečko / prijateljica; cura	friend; boyfriend / girlfriend	tečaj
+L18	der Mitbewohner / die Mitbewohnerin	cimer, cimerica	flatmate	tečaj
+L19	würde	bih, bi	would	tečaj
+L19	hätte	imao bih	would have	tečaj
+L19	wäre	bio bih	would be	tečaj
+L19	könnte	mogao bih	could	tečaj
+L19	sollte	trebao bih	should	tečaj
+L19	ich wünschte	volio bih (da)	I wish	tečaj
+L19	das Lotto	loto	lottery	tečaj
+L19	die Lösung, Lösungen	rješenje	solution	tečaj
+L19	der Kopfhörer, Kopfhörer	slušalice	headphones	tečaj
+L19	das Segelboot	jedrilica	sailing boat	tečaj
+L19	der Tandempartner / die Tandempartnerin	partner za tandem	tandem partner	tečaj
+L19	der Deutschkurs, Deutschkurse	tečaj njemačkog	German course	tečaj
+L19	die Ruhe	mir, tišina	quiet, peace	tečaj
+L19	keine Ahnung	nemam pojma	no idea	tečaj
+L19	in Ordnung	u redu	all right	tečaj
+L19	selbstverständlich	samo se po sebi razumije	of course	tečaj
+L19	die Anmeldung	prijava	registration	tečaj
+L19	das Bürgeramt	gradski ured za građane	citizens' office	tečaj
+L19	der Schalter, Schalter	šalter	counter	tečaj
+L19	ab·geben → hat abgegeben	predati	to hand in	dodatno
+L19	beantragen → hat beantragt	podnijeti zahtjev	to apply for	dodatno
+L19	verlängern → hat verlängert	produžiti	to extend	dodatno
+L19	gültig	važeći	valid	dodatno
+L19	die Gebühr, Gebühren	pristojba	fee	dodatno
+L19	die Steuer, Steuern	porez	tax	dodatno
+L19	die Versicherung	osiguranje	insurance	dodatno
+L19	das Konto, Konten	račun (u banci)	bank account	dodatno
+L19	der Lebenslauf	životopis	CV	dodatno
+L19	die Bewerbung, Bewerbungen	prijava (za posao)	application	dodatno
+L19	sich bewerben	prijaviti se (za posao)	to apply	dodatno
+L19	die Stelle, Stellen	radno mjesto	job, position	tečaj
+L19	die Erlaubnis	dozvola	permission	dodatno
+L19	stören → hat gestört	smetati	to disturb	tečaj
+L19	auf·machen → hat aufgemacht	otvoriti	to open	tečaj
+L19	aufgeben → hat aufgegeben	odustati	to give up	tečaj
+L19	gewinnen → hat gewonnen	pobijediti, dobiti	to win	tečaj
+L19	die Weltreise	putovanje oko svijeta	world trip	tečaj
+L20	der, die, das (Relativpronomen)	koji, koja, koje	who, which, that	tečaj
+L20	denen	kojima	(to) whom, which (dat. pl.)	tečaj
+L20	ob	da li, je li	whether, if	tečaj
+L20	wer	tko	who	tečaj
+L20	die Neuigkeit, Neuigkeiten	novost	piece of news	tečaj
+L20	das Gerät, Geräte	uređaj	device, appliance	tečaj
+L20	das Wesen	biće	being, creature	tečaj
+L20	die Studie, Studien	studija	study	tečaj
+L20	der Artikel, Artikel	član; članak	article	tečaj
+L20	die Bibliothek, Bibliotheken	knjižnica	library	tečaj
+L20	der Abschied, Abschiede	rastanak	farewell	tečaj
+L20	zurück·gehen → ist zurückgegangen	vratiti se	to go back	tečaj
+L20	bleiben → ist geblieben	ostati	to stay	tečaj
+L20	verwechseln → hat verwechselt	pobrkati	to mix up	tečaj
+L20	bei·bringen → hat beigebracht	naučiti (nekoga)	to teach	tečaj
+L20	unternehmen → hat unternommen	poduzeti (nešto)	to do (activities)	tečaj
+L20	weiter·machen → hat weitergemacht	nastaviti	to carry on	tečaj
+L20	schaffen → hat geschafft	uspjeti	to manage, make it	tečaj
+L20	ziehen → ist gezogen	preseliti se	to move	tečaj
+L20	geboren	rođen	born	tečaj
+L20	gratis / kostenlos	besplatno	free (of charge)	tečaj
+L20	die Bezahlung	plaća, plaćanje	pay	tečaj
+L20	tagsüber	preko dana	during the day	tečaj
+L20	endlich	napokon	finally	tečaj
+L20	zusammen	zajedno	together	tečaj
+L20	die Hoffnung	nada	hope	dodatno
+L20	das Leben	život	life	tečaj
+L20	die Gesellschaft	društvo	society	dodatno
+L20	die Wahrheit	istina	truth	dodatno
+L20	die Freiheit	sloboda	freedom	tečaj
+L20	die Ausbildung	obrazovanje, stručna obuka	training, education	dodatno
+L20	das Studium	studij	university studies	dodatno
+L20	die Prüfung bestehen	položiti ispit	to pass an exam	tečaj
+L20	das Zertifikat, Zertifikate	certifikat	certificate	tečaj
+L20	der Untertitel, Untertitel	titl	subtitle	tečaj
+L20	der Podcast, Podcasts	podcast	podcast	tečaj
+L20	die Serie, Serien	serija	series	tečaj
+L20	wiederholen → hat wiederholt	ponoviti	to repeat	tečaj
+L20	verbessern → hat verbessert	poboljšati	to improve	dodatno
+L20	der Fortschritt, Fortschritte	napredak	progress	dodatno
+L1	Französisch	francuski (jezik)	French	dodatno
+L1	Polnisch	poljski (jezik)	Polish (language)	dodatno
+L1	Russisch	ruski (jezik)	Russian (language)	dodatno
+L1	Türkisch	turski (jezik)	Turkish (language)	dodatno
+L1	Chinesisch	kineski (jezik)	Chinese (language)	dodatno
+L1	Polen	Poljska	Poland	dodatno
+L1	Russland	Rusija	Russia	dodatno
+L1	Griechenland	Grčka	Greece	dodatno
+L1	Ungarn	Mađarska	Hungary	dodatno
+L1	Slowenien	Slovenija	Slovenia	dodatno
+L1	Europa	Europa	Europe	dodatno
+L1	China	Kina	China	dodatno
+L1	die USA (Pl.)	SAD	the USA	dodatno
+L1	der Franzose, Franzosen (n-Dekl.) / die Französin, Französinnen	Francuz, Francuskinja	Frenchman, Frenchwoman	dodatno
+L1	der Italiener, Italiener / die Italienerin, Italienerinnen	Talijan, Talijanka	Italian (man, woman)	dodatno
+L1	der Österreicher, Österreicher / die Österreicherin, Österreicherinnen	Austrijanac, Austrijanka	Austrian (man, woman)	dodatno
+L1	der Amerikaner, Amerikaner / die Amerikanerin, Amerikanerinnen	Amerikanac, Amerikanka	American (man, woman)	dodatno
+L1	der Kroate, Kroaten (n-Dekl.) / die Kroatin, Kroatinnen	Hrvat, Hrvatica	Croat	dodatno
+L1	der Türke, Türken (n-Dekl.) / die Türkin, Türkinnen	Turčin, Turkinja	Turk	dodatno
+L1	die Muttersprache, Muttersprachen	materinski jezik	mother tongue	dodatno
+L1	das Alter (Sg.)	dob, starost	age	dodatno
+L1	das Geschlecht, Geschlechter	spol	sex, gender	dodatno
+L1	männlich	muški	male	dodatno
+L1	weiblich	ženski	female	dodatno
+L1	die Postleitzahl, Postleitzahlen	poštanski broj	postcode	dodatno
+L1	die Hausnummer, Hausnummern	kućni broj	house number	dodatno
+L1	buchstabieren → hat buchstabiert	slovkati	to spell	dodatno
+L1	der Herr, Herren (Dat./Akk. Sg.: Herrn)	gospodin	Mr, gentleman	dodatno
+L1	er	on	he	dodatno
+L1	es	ono	it	dodatno
+L1	wir	mi	we	dodatno
+L1	warum	zašto	why	dodatno
+L1	wohin	kamo, kuda	where to	dodatno
+L1	Bis bald!	Do skorog viđenja!	See you soon!	dodatno
+L1	Gern geschehen.	Nema na čemu.	You're welcome.	dodatno
+L2	der Kugelschreiber, Kugelschreiber	kemijska olovka	ballpoint pen	dodatno
+L2	der Radiergummi, Radiergummis	gumica	rubber, eraser	dodatno
+L2	das Lineal, Lineale	ravnalo	ruler	dodatno
+L2	die Schere, Scheren	škare	scissors	dodatno
+L2	der Taschenrechner, Taschenrechner	džepno računalo, kalkulator	calculator	dodatno
+L2	die Tafel, Tafeln	ploča	board	dodatno
+L2	der Kalender, Kalender	kalendar	calendar	dodatno
+L2	der Ordner, Ordner	registrator, mapa	folder, file	dodatno
+L2	der Drucker, Drucker	pisač	printer	dodatno
+L2	die Tastatur, Tastaturen	tipkovnica	keyboard	dodatno
+L2	der Bildschirm, Bildschirme	zaslon	screen	dodatno
+L2	das Blatt, Blätter	list (papira)	sheet, leaf	dodatno
+L2	die Kreide, Kreiden	kreda	chalk	dodatno
+L2	das Poster, Poster	plakat, poster	poster	dodatno
+L2	die Kiste, Kisten	sanduk, kutija	crate, box	dodatno
+L2	der Raum, Räume	prostorija, prostor	room, space	dodatno
+L2	die Seite, Seiten	stranica	page, side	dodatno
+L2	der Stift, Stifte	olovka, pisaljka	pen, pencil	dodatno
+L2	das Klassenzimmer, Klassenzimmer	učionica	classroom	dodatno
+L2	der Schüler, Schüler / die Schülerin, Schülerinnen	učenik, učenica	pupil	dodatno
+L2	lila	ljubičast	purple	dodatno
+L2	türkis	tirkizan	turquoise	dodatno
+L2	tausend	tisuću	thousand	dodatno
+L2	die Million, Millionen	milijun	million	dodatno
+L2	die Zahl, Zahlen	broj, brojka	number, figure	dodatno
+L2	rechnen → hat gerechnet	računati	to calculate	dodatno
+L2	zählen → hat gezählt	brojati	to count	dodatno
+L2	die Hälfte, Hälften	polovica	half	dodatno
+L2	doppelt	dvostruk	double	dodatno
+L3	übermorgen	prekosutra	the day after tomorrow	dodatno
+L3	die Sekunde, Sekunden	sekunda	second	dodatno
+L3	die Uhrzeit, Uhrzeiten	vrijeme (na satu), sat	time of day	dodatno
+L3	die Mitternacht (Sg.)	ponoć	midnight	dodatno
+L3	die Jahreszeit, Jahreszeiten	godišnje doba	season	dodatno
+L3	wöchentlich	tjedno, svaki tjedan	weekly	dodatno
+L3	monatlich	mjesečno	monthly	dodatno
+L3	meistens	većinom, najčešće	mostly	dodatno
+L3	häufig	često	frequently	dodatno
+L3	regelmäßig	redovito	regularly	dodatno
+L3	ab und zu	tu i tamo	now and then	dodatno
+L3	enden → hat geendet	završavati / završiti	to end	dodatno
+L3	baden → hat gebadet	kupati se	to bathe	dodatno
+L3	die Zahnbürste, Zahnbürsten	četkica za zube	toothbrush	dodatno
+L3	die Zahnpasta, Zahnpasten	pasta za zube	toothpaste	dodatno
+L3	die Seife, Seifen	sapun	soap	dodatno
+L3	das Handtuch, Handtücher	ručnik	towel	dodatno
+L3	das Gewitter, Gewitter	grmljavinsko nevrijeme, oluja	thunderstorm	dodatno
+L3	der Nebel (Sg.)	magla	fog	dodatno
+L3	die Temperatur, Temperaturen	temperatura	temperature	dodatno
+L3	kühl	svjež, hladnjikav	cool	dodatno
+L3	der Sturm, Stürme	oluja	storm	dodatno
+L3	scheinen → hat geschienen	sijati	to shine	dodatno
+L3	trocken	suh	dry	dodatno
+L3	nass	mokar	wet	dodatno
+L3	wolkig	oblačno	cloudy	dodatno
+L3	die Hitze (Sg.)	vrućina	heat	dodatno
+L3	die Kälte (Sg.)	hladnoća	cold	dodatno
+L3	der Wetterbericht, Wetterberichte	vremenska prognoza	weather report	dodatno
+L4	der Großvater, Großväter	djed	grandfather	dodatno
+L4	die Großmutter, Großmütter	baka	grandmother	dodatno
+L4	der Neffe, Neffen (n-Dekl.)	nećak	nephew	dodatno
+L4	die Nichte, Nichten	nećakinja	niece	dodatno
+L4	der Zwilling, Zwillinge	blizanac, blizanka	twin	dodatno
+L4	der Ehemann, Ehemänner	suprug, muž	husband	dodatno
+L4	die Ehefrau, Ehefrauen	supruga, žena	wife	dodatno
+L4	das Ehepaar, Ehepaare	bračni par	married couple	dodatno
+L4	der Verwandte, Verwandten / die Verwandte	rođak, rođakinja	relative	dodatno
+L4	der Partner, Partner / die Partnerin, Partnerinnen	partner, partnerica	partner	dodatno
+L4	die Schwiegermutter, Schwiegermütter	svekrva, punica	mother-in-law	dodatno
+L4	der Schwiegervater, Schwiegerväter	svekar, punac	father-in-law	dodatno
+L4	das Einzelkind, Einzelkinder	jedinac, jedinica	only child	dodatno
+L4	verwitwet	udovac, udovica (pridjev)	widowed	dodatno
+L4	sterben → er stirbt · ist gestorben	umirati / umrijeti	to die	dodatno
+L4	erwachsen	odrastao	adult, grown-up	dodatno
+L4	dünn	mršav, tanak	thin	dodatno
+L4	sympathisch	simpatičan	likeable	dodatno
+L4	höflich	pristojan, uljudan	polite	dodatno
+L4	schüchtern	sramežljiv	shy	dodatno
+L4	sportlich	sportski, atletski građen	sporty	dodatno
+L4	klug	pametan	clever	dodatno
+L4	fleißig	marljiv	hard-working	dodatno
+L4	faul	lijen	lazy	dodatno
+L4	ähnlich	sličan	similar	dodatno
+L4	das Kaninchen, Kaninchen	kunić	rabbit	dodatno
+L4	der Hamster, Hamster	hrčak	hamster	dodatno
+L4	das Meerschweinchen, Meerschweinchen	zamorac	guinea pig	dodatno
+L4	die Schildkröte, Schildkröten	kornjača	tortoise	dodatno
+L4	der Käfig, Käfige	kavez	cage	dodatno
+L4	füttern → hat gefüttert	hraniti (životinje)	to feed (animals)	dodatno
+L5	die Birne, Birnen	kruška	pear	dodatno
+L5	die Traube, Trauben	grožđe, grozd	grape	dodatno
+L5	die Gurke, Gurken	krastavac	cucumber	dodatno
+L5	die Paprika, Paprikas	paprika	pepper (vegetable)	dodatno
+L5	die Limonade, Limonaden	limunada	lemonade	dodatno
+L5	das Mineralwasser, Mineralwässer	mineralna voda	mineral water	dodatno
+L5	das Eis (Sg.)	sladoled; led	ice cream, ice	dodatno
+L5	der Joghurt, Joghurts	jogurt	yoghurt	dodatno
+L5	das Müsli, Müslis	musli	muesli	dodatno
+L5	die Marmelade, Marmeladen	marmelada, džem	jam	dodatno
+L5	das Öl, Öle	ulje	oil	dodatno
+L5	der Pfeffer (Sg.)	papar	pepper	dodatno
+L5	die Pommes (Pl.)	pomfrit	chips, fries	dodatno
+L5	die Dose, Dosen	limenka, konzerva	tin, can	dodatno
+L5	die Tüte, Tüten	vrećica	bag	dodatno
+L5	die Scheibe, Scheiben	kriška, šnita	slice	dodatno
+L5	der Einkaufswagen, Einkaufswagen	kolica za kupnju	shopping trolley	dodatno
+L5	das Wechselgeld (Sg.)	kusur	change (money)	dodatno
+L5	bar	gotovinom	in cash	dodatno
+L5	die Kreditkarte, Kreditkarten	kreditna kartica	credit card	dodatno
+L5	schneiden → hat geschnitten	rezati / izrezati	to cut	dodatno
+L5	braten → er brät · hat gebraten	peći, pržiti	to fry, roast	dodatno
+L5	bestellen → hat bestellt	naručivati / naručiti	to order	dodatno
+L5	mögen → er mag · hat gemocht	voljeti, sviđati se	to like	dodatno
+L5	die Speisekarte, Speisekarten	jelovnik	menu	dodatno
+L5	das Trinkgeld, Trinkgelder	napojnica	tip	dodatno
+L5	der Löffel, Löffel	žlica	spoon	dodatno
+L5	die Gabel, Gabeln	vilica	fork	dodatno
+L5	das Messer, Messer	nož	knife	dodatno
+L5	die Tasse, Tassen	šalica	cup	dodatno
+L5	der Topf, Töpfe	lonac	pot	dodatno
+L5	die Pfanne, Pfannen	tava	frying pan	dodatno
+L5	sauer	kiseo	sour	dodatno
+L5	salzig	slan	salty	dodatno
+L5	hungrig	gladan	hungry	dodatno
+L5	durstig	žedan	thirsty	dodatno
+L5	satt	sit	full (not hungry)	dodatno
+L5	vegetarisch	vegetarijanski	vegetarian	dodatno
+L6	der Basketball, Basketbälle	košarka; košarkaška lopta	basketball	dodatno
+L6	der Volleyball, Volleybälle	odbojka	volleyball	dodatno
+L6	Ski fahren → er fährt Ski · ist Ski gefahren	skijati	to ski	dodatno
+L6	der Ski, Skier	skija	ski	dodatno
+L6	das Schach (Sg.)	šah	chess	dodatno
+L6	die Zeitschrift, Zeitschriften	časopis	magazine	dodatno
+L6	der Roman, Romane	roman	novel	dodatno
+L6	der Fernseher, Fernseher	televizor	television set	dodatno
+L6	das Fernsehen (Sg.)	televizija	television	dodatno
+L6	die Sendung, Sendungen	emisija	programme	dodatno
+L6	die Website, Websites	web-stranica	website	dodatno
+L6	die App, Apps	aplikacija	app	dodatno
+L6	die Band, Bands	glazbeni sastav, bend	band	dodatno
+L6	der Sänger, Sänger / die Sängerin, Sängerinnen	pjevač, pjevačica	singer	dodatno
+L6	das Schlagzeug, Schlagzeuge	bubnjevi	drums	dodatno
+L6	die Geige, Geigen	violina	violin	dodatno
+L6	das Stadion, Stadien	stadion	stadium	dodatno
+L6	das Fitnessstudio, Fitnessstudios	teretana	gym	dodatno
+L6	der Trainer, Trainer / die Trainerin, Trainerinnen	trener, trenerica	coach	dodatno
+L6	der Fan, Fans	navijač, obožavatelj	fan	dodatno
+L6	das Zelt, Zelte	šator	tent	dodatno
+L6	zelten → hat gezeltet	kampirati	to camp	dodatno
+L6	angeln → hat geangelt	pecati, loviti ribu	to fish	dodatno
+L6	stricken → hat gestrickt	plesti	to knit	dodatno
+L6	zeichnen → hat gezeichnet	crtati	to draw	dodatno
+L6	basteln → hat gebastelt	izrađivati rukotvorine	to do crafts	dodatno
+L6	sammeln → hat gesammelt	skupljati / skupiti	to collect	dodatno
+L6	der Tanz, Tänze	ples	dance	dodatno
+L6	reiten → ist geritten	jahati	to ride (a horse)	dodatno
+L6	surfen → hat gesurft	surfati	to surf	dodatno
+L6	der Spielplatz, Spielplätze	igralište	playground	dodatno
+L7	die Krankenschwester, Krankenschwestern	medicinska sestra	nurse	dodatno
+L7	der Bauarbeiter, Bauarbeiter / die Bauarbeiterin, Bauarbeiterinnen	građevinski radnik, građevinska radnica	building worker	dodatno
+L7	der Busfahrer, Busfahrer / die Busfahrerin, Busfahrerinnen	vozač autobusa, vozačica autobusa	bus driver	dodatno
+L7	der Taxifahrer, Taxifahrer / die Taxifahrerin, Taxifahrerinnen	taksist, taksistica	taxi driver	dodatno
+L7	der Elektriker, Elektriker / die Elektrikerin, Elektrikerinnen	električar, električarka	electrician	dodatno
+L7	der Journalist, Journalisten (n-Dekl.) / die Journalistin, Journalistinnen	novinar, novinarka	journalist	dodatno
+L7	der Programmierer, Programmierer / die Programmiererin, Programmiererinnen	programer, programerka	programmer	dodatno
+L7	der Rechtsanwalt, Rechtsanwälte / die Rechtsanwältin, Rechtsanwältinnen	odvjetnik, odvjetnica	lawyer	dodatno
+L7	der Architekt, Architekten (n-Dekl.) / die Architektin, Architektinnen	arhitekt, arhitektica	architect	dodatno
+L7	der Apotheker, Apotheker / die Apothekerin, Apothekerinnen	ljekarnik, ljekarnica	pharmacist	dodatno
+L7	der Arbeiter, Arbeiter / die Arbeiterin, Arbeiterinnen	radnik, radnica	worker	dodatno
+L7	der Arbeitgeber, Arbeitgeber	poslodavac	employer	dodatno
+L7	der Mitarbeiter, Mitarbeiter / die Mitarbeiterin, Mitarbeiterinnen	suradnik, suradnica, zaposlenik	employee, colleague	dodatno
+L7	der Azubi, Azubis	naučnik, pripravnik	trainee, apprentice	dodatno
+L7	das Praktikum, Praktika	praksa	internship	dodatno
+L7	die Schicht, Schichten	smjena	shift	dodatno
+L7	das Gehalt, Gehälter	plaća	salary	dodatno
+L7	der Lohn, Löhne	nadnica, plaća	wages	dodatno
+L7	die Arbeitszeit, Arbeitszeiten	radno vrijeme	working hours	dodatno
+L7	die Überstunden (Pl.)	prekovremeni sati	overtime	dodatno
+L7	Vollzeit	puno radno vrijeme	full-time	dodatno
+L7	Teilzeit	nepuno radno vrijeme	part-time	dodatno
+L7	die Kantine, Kantinen	kantina, menza	canteen	dodatno
+L7	die Abteilung, Abteilungen	odjel	department	dodatno
+L7	die Werkstatt, Werkstätten	radionica	workshop	dodatno
+L7	die Baustelle, Baustellen	gradilište	building site	dodatno
+L7	der Stundenplan, Stundenpläne	raspored sati	timetable	dodatno
+L7	das Zeugnis, Zeugnisse	svjedodžba	certificate, report	dodatno
+L7	die Note, Noten	ocjena	grade, mark	dodatno
+L7	das Fach, Fächer	predmet	subject	dodatno
+L7	die Klasse, Klassen	razred	class	dodatno
+L7	das Semester, Semester	semestar	semester	dodatno
+L7	der Kindergarten, Kindergärten	vrtić	nursery, kindergarten	dodatno
+L7	die Grundschule, Grundschulen	osnovna škola	primary school	dodatno
+L7	unterrichten → hat unterrichtet	predavati, podučavati	to teach	dodatno
+L7	kündigen → hat gekündigt	otkazati	to give notice, to cancel	dodatno
+L7	durchfallen → er fällt durch · ist durchgefallen	pasti (na ispitu)	to fail (an exam)	dodatno
+L7	kopieren → hat kopiert	kopirati	to copy	dodatno
+L8	die Zahnbürste, Zahnbürsten	četkica za zube	toothbrush	dodatno
+L8	die Zahnpasta, Zahnpasten	pasta za zube	toothpaste	dodatno
+L8	das Handtuch, Handtücher	ručnik	towel	dodatno
+L8	die Seife, Seifen	sapun	soap	dodatno
+L8	das Shampoo, Shampoos	šampon	shampoo	dodatno
+L8	die Tasse, Tassen	šalica	cup	dodatno
+L8	der Löffel, Löffel	žlica	spoon	dodatno
+L8	die Gabel, Gabeln	vilica	fork	dodatno
+L8	das Messer, Messer	nož	knife	dodatno
+L8	der Topf, Töpfe	lonac	pot	dodatno
+L8	die Pfanne, Pfannen	tava	frying pan	dodatno
+L8	der Eimer, Eimer	kanta	bucket	dodatno
+L8	der Abwasch (Sg.)	pranje posuđa	washing-up	dodatno
+L8	die Hausarbeit, Hausarbeiten	kućanski posao	housework	dodatno
+L8	der Staub (Sg.)	prašina	dust	dodatno
+L8	das Müsli (Sg.)	müsli	muesli	dodatno
+L8	die Sekunde, Sekunden	sekunda	second	dodatno
+L8	die Mitternacht (Sg.)	ponoć	midnight	dodatno
+L8	die Schicht, Schichten	smjena	shift	dodatno
+L8	ab·waschen → er wäscht ab · hat abgewaschen	prati posuđe	to wash up	dodatno
+L8	ab·trocknen → hat abgetrocknet	brisati, obrisati	to dry (dishes)	dodatno
+L8	ab·räumen → hat abgeräumt	pospremiti (stol)	to clear away	dodatno
+L8	an·machen → hat angemacht	upaliti, uključiti	to switch on	dodatno
+L8	aus·machen → hat ausgemacht	ugasiti, isključiti	to switch off	dodatno
+L8	zu·machen → hat zugemacht	zatvoriti	to close	dodatno
+L8	auf·wecken → hat aufgeweckt	probuditi	to wake up (someone)	dodatno
+L8	lüften → hat gelüftet	prozračiti	to air	dodatno
+L8	fegen → hat gefegt	pomesti	to sweep	dodatno
+L8	wischen → hat gewischt	brisati (pod)	to wipe, to mop	dodatno
+L8	trocknen → hat getrocknet	sušiti	to dry	dodatno
+L8	los·gehen → ist losgegangen	krenuti	to set off	dodatno
+L8	weg·gehen → ist weggegangen	otići	to go away	dodatno
+L8	vorbei·kommen → ist vorbeigekommen	svratiti	to drop by	dodatno
+L8	der Wäschekorb, Wäschekörbe	košara za rublje	laundry basket	dodatno
+L8	das Bügeleisen, Bügeleisen	glačalo	iron	dodatno
+L9	der Magen, Mägen	želudac	stomach	dodatno
+L9	der Daumen, Daumen	palac	thumb	dodatno
+L9	die Zunge, Zungen	jezik	tongue	dodatno
+L9	die Lippe, Lippen	usna	lip	dodatno
+L9	die Haut (Sg.)	koža	skin	dodatno
+L9	der Knochen, Knochen	kost	bone	dodatno
+L9	der Muskel, Muskeln	mišić	muscle	dodatno
+L9	die Lunge, Lungen	pluća	lung	dodatno
+L9	die Zehe, Zehen	prst na nozi	toe	dodatno
+L9	der Ellbogen, Ellbogen	lakat	elbow	dodatno
+L9	die Übelkeit (Sg.)	mučnina	nausea	dodatno
+L9	der Durchfall (Sg.)	proljev	diarrhoea	dodatno
+L9	der Schwindel (Sg.)	vrtoglavica	dizziness	dodatno
+L9	die Krankheit, Krankheiten	bolest	illness	dodatno
+L9	die Verletzung, Verletzungen	ozljeda	injury	dodatno
+L9	verletzen → hat verletzt	ozlijediti	to injure	dodatno
+L9	die Wunde, Wunden	rana	wound	dodatno
+L9	das Pflaster, Pflaster	flaster	plaster	dodatno
+L9	der Verband, Verbände	zavoj	bandage	dodatno
+L9	die Spritze, Spritzen	injekcija, štrcaljka	injection	dodatno
+L9	die Impfung, Impfungen	cijepljenje	vaccination	dodatno
+L9	impfen → hat geimpft	cijepiti	to vaccinate	dodatno
+L9	die Sprechstunde, Sprechstunden	ordinacijsko vrijeme	surgery hours	dodatno
+L9	die Salbe, Salben	mast	ointment	dodatno
+L9	die Tropfen (Pl.)	kapi	drops	dodatno
+L9	das Thermometer, Thermometer	toplomjer	thermometer	dodatno
+L9	der Krankenwagen, Krankenwagen	hitna pomoć (vozilo)	ambulance	dodatno
+L9	der Notarzt, Notärzte	hitni liječnik	emergency doctor	dodatno
+L9	der Notfall, Notfälle	hitni slučaj	emergency	dodatno
+L9	der Notruf, Notrufe	hitni poziv	emergency call	dodatno
+L9	die Feuerwehr (Sg.)	vatrogasci	fire brigade	dodatno
+L9	das Feuer, Feuer	vatra, požar	fire	dodatno
+L9	niesen → hat geniest	kihati	to sneeze	dodatno
+L9	brechen → er bricht · hat gebrochen	slomiti	to break	dodatno
+L9	bluten → hat geblutet	krvariti	to bleed	dodatno
+L9	ansteckend	zarazan	contagious	dodatno
+L9	ungesund	nezdrav	unhealthy	dodatno
+L9	fit	u formi	fit	dodatno
+L9	die Bauchschmerzen (Pl.)	bolovi u trbuhu	stomach ache	dodatno
+L9	die Halsschmerzen (Pl.)	grlobolja	sore throat	dodatno
+L9	die Zahnschmerzen (Pl.)	zubobolja	toothache	dodatno
+L9	der Apotheker, Apotheker	ljekarnik	pharmacist	dodatno
+L9	die Ernährung (Sg.)	prehrana	nutrition	dodatno
+L9	das Vitamin, Vitamine	vitamin	vitamin	dodatno
+L9	der Gips (Sg.)	gips	plaster cast	dodatno
+L10	die Disco, Discos	disko, noćni klub	disco	dodatno
+L10	der Club, Clubs	klub	club	dodatno
+L10	die Bar, Bars	bar	bar	dodatno
+L10	die Ausstellung, Ausstellungen	izložba	exhibition	dodatno
+L10	das Festival, Festivals	festival	festival	dodatno
+L10	die Veranstaltung, Veranstaltungen	priredba, događaj	event	dodatno
+L10	der Eintritt (Sg.)	ulaz, ulaznina	admission	dodatno
+L10	die Eintrittskarte, Eintrittskarten	ulaznica	admission ticket	dodatno
+L10	die Vorstellung, Vorstellungen	predstava	performance	dodatno
+L10	der Besuch, Besuche	posjet	visit	dodatno
+L10	die Gruppe, Gruppen	grupa	group	dodatno
+L10	das Programm, Programme	program	programme	dodatno
+L10	das Ereignis, Ereignisse	događaj	event	dodatno
+L10	statt·finden → hat stattgefunden	održavati se	to take place	dodatno
+L10	der Tanz, Tänze	ples	dance	dodatno
+L10	die Band, Bands	bend, glazbeni sastav	band	dodatno
+L10	das Plakat, Plakate	plakat	poster	dodatno
+L10	die Bühne, Bühnen	pozornica	stage	dodatno
+L10	der Zuschauer, Zuschauer	gledatelj	spectator	dodatno
+L10	das Publikum (Sg.)	publika	audience	dodatno
+L10	die Oper, Opern	opera	opera	dodatno
+L10	der Zirkus, Zirkusse	cirkus	circus	dodatno
+L10	der Zoo, Zoos	zoološki vrt	zoo	dodatno
+L10	der Freizeitpark, Freizeitparks	zabavni park	theme park	dodatno
+L10	ab·sagen → hat abgesagt	otkazati	to cancel	dodatno
+L10	mit·machen → hat mitgemacht	sudjelovati	to join in	dodatno
+L10	das Erlebnis, Erlebnisse	doživljaj	experience	dodatno
+L10	die Stimmung (Sg.)	raspoloženje, atmosfera	mood, atmosphere	dodatno
+L10	vorher	prije toga	beforehand	dodatno
+L10	nachher	poslije, nakon toga	afterwards	dodatno
+L10	damals	tada, u ono vrijeme	back then	dodatno
+L10	das Brettspiel, Brettspiele	društvena igra	board game	dodatno
+L10	das Kartenspiel, Kartenspiele	igra karata	card game	dodatno
+L10	das Schach (Sg.)	šah	chess	dodatno
+L10	angeln → hat geangelt	pecati	to fish	dodatno
+L10	sich amüsieren → hat sich amüsiert	zabavljati se	to enjoy oneself	dodatno
+L11	das Reisebüro, Reisebüros	putnička agencija	travel agency	dodatno
+L11	das Visum, Visa	viza	visa	dodatno
+L11	der Zoll (Sg.)	carina	customs	dodatno
+L11	die Kontrolle, Kontrollen	kontrola	check	dodatno
+L11	das Handgepäck (Sg.)	ručna prtljaga	hand luggage	dodatno
+L11	die Reisetasche, Reisetaschen	putna torba	travel bag	dodatno
+L11	das Schiff, Schiffe	brod	ship	dodatno
+L11	die Fähre, Fähren	trajekt	ferry	dodatno
+L11	die Fahrt, Fahrten	vožnja, putovanje	journey	dodatno
+L11	die Reservierung, Reservierungen	rezervacija	reservation	dodatno
+L11	reservieren → hat reserviert	rezervirati	to reserve	dodatno
+L11	das Einzelzimmer, Einzelzimmer	jednokrevetna soba	single room	dodatno
+L11	das Doppelzimmer, Doppelzimmer	dvokrevetna soba	double room	dodatno
+L11	die Rezeption (Sg.)	recepcija	reception	dodatno
+L11	die Halbpension (Sg.)	polupansion	half board	dodatno
+L11	der Campingplatz, Campingplätze	kamp	campsite	dodatno
+L11	das Zelt, Zelte	šator	tent	dodatno
+L11	zelten → hat gezeltet	kampirati	to camp	dodatno
+L11	die Ferienwohnung, Ferienwohnungen	apartman za odmor	holiday flat	dodatno
+L11	der Reiseführer, Reiseführer	turistički vodič (knjiga)	guidebook	dodatno
+L11	die Landkarte, Landkarten	zemljovid	map	dodatno
+L11	die Sonnencreme, Sonnencremes	krema za sunčanje	sun cream	dodatno
+L11	der Sonnenbrand, Sonnenbrände	opekline od sunca	sunburn	dodatno
+L11	das Gewitter, Gewitter	grmljavinsko nevrijeme	thunderstorm	dodatno
+L11	der Nebel (Sg.)	magla	fog	dodatno
+L11	die Hitze (Sg.)	vrućina	heat	dodatno
+L11	die Kälte (Sg.)	hladnoća	cold	dodatno
+L11	der Sturm, Stürme	oluja	storm	dodatno
+L11	trocken	suh	dry	dodatno
+L11	nass	mokar	wet	dodatno
+L11	die Temperatur, Temperaturen	temperatura	temperature	dodatno
+L11	der Wetterbericht, Wetterberichte	vremenska prognoza	weather report	dodatno
+L11	der Aufenthalt, Aufenthalte	boravak	stay	dodatno
+L11	verreisen → ist verreist	otputovati	to go away (on a trip)	dodatno
+L11	ab·fliegen → ist abgeflogen	poletjeti	to take off, to depart	dodatno
+L11	ab·reisen → ist abgereist	otputovati, odjaviti se	to depart	dodatno
+L11	die Anreise (Sg.)	dolazak, putovanje do odredišta	journey there	dodatno
+L11	die Abreise, Abreisen	odlazak, odlazak s odmora	departure	dodatno
+L11	der Automat, Automaten (n-Dekl.)	automat	machine	dodatno
+L11	der Sitzplatz, Sitzplätze	sjedalo	seat	dodatno
+L11	das Abteil, Abteile	kupe	compartment	dodatno
+L11	der Bahnsteig, Bahnsteige	peron	platform	dodatno
+L11	der Anschluss, Anschlüsse	veza (prijelaz)	connection	dodatno
+L11	das Ausland (Sg.)	inozemstvo	abroad	dodatno
+L11	das Souvenir, Souvenirs	suvenir	souvenir	dodatno
+L11	die Autobahn, Autobahnen	autocesta	motorway	dodatno
+L11	das Benzin (Sg.)	benzin	petrol	dodatno
+L11	tanken → hat getankt	natočiti gorivo	to fill up	dodatno
+L11	die Tankstelle, Tankstellen	benzinska postaja	petrol station	dodatno
+L11	mieten → hat gemietet	unajmiti, iznajmiti (kao zakupnik)	to rent	dodatno
+L11	der Mietwagen, Mietwagen	unajmljeni automobil	hire car	dodatno
+L11	der Führerschein, Führerscheine	vozačka dozvola	driving licence	dodatno
+L12	der Fußgänger, Fußgänger	pješak	pedestrian	dodatno
+L12	die Fußgängerzone, Fußgängerzonen	pješačka zona	pedestrian zone	dodatno
+L12	die Metzgerei, Metzgereien	mesnica	butcher's	dodatno
+L12	die Drogerie, Drogerien	drogerija	chemist's	dodatno
+L12	die Buchhandlung, Buchhandlungen	knjižara	bookshop	dodatno
+L12	das Kaufhaus, Kaufhäuser	robna kuća	department store	dodatno
+L12	die Reinigung, Reinigungen	kemijska čistionica	dry cleaner's	dodatno
+L12	der Spielplatz, Spielplätze	igralište	playground	dodatno
+L12	der Kindergarten, Kindergärten	dječji vrtić	nursery school	dodatno
+L12	das Stadion, Stadien	stadion	stadium	dodatno
+L12	das Denkmal, Denkmäler	spomenik	monument	dodatno
+L12	der Turm, Türme	toranj	tower	dodatno
+L12	der Brunnen, Brunnen	fontana, bunar	fountain	dodatno
+L12	die Burg, Burgen	tvrđava, burg	castle	dodatno
+L12	das Hochhaus, Hochhäuser	neboder	high-rise	dodatno
+L12	die Fabrik, Fabriken	tvornica	factory	dodatno
+L12	der Parkplatz, Parkplätze	parkiralište	car park	dodatno
+L12	das Parkhaus, Parkhäuser	garaža (javna)	multi-storey car park	dodatno
+L12	die Richtung, Richtungen	smjer	direction	dodatno
+L12	der Kilometer, Kilometer	kilometar	kilometre	dodatno
+L12	der Meter, Meter	metar	metre	dodatno
+L12	die Seite, Seiten	strana	side	dodatno
+L12	der Norden (Sg.)	sjever	north	dodatno
+L12	der Süden (Sg.)	jug	south	dodatno
+L12	der Osten (Sg.)	istok	east	dodatno
+L12	der Westen (Sg.)	zapad	west	dodatno
+L12	die Überweisung, Überweisungen	uplata, doznaka	bank transfer	dodatno
+L12	überweisen → hat überwiesen	uplatiti, prebaciti novac	to transfer	dodatno
+L12	ab·heben → hat abgehoben	podići (novac)	to withdraw	dodatno
+L12	ein·zahlen → hat eingezahlt	uplatiti	to pay in	dodatno
+L12	die Kreditkarte, Kreditkarten	kreditna kartica	credit card	dodatno
+L12	das Bargeld (Sg.)	gotovina	cash	dodatno
+L12	die Öffnungszeiten (Pl.)	radno vrijeme	opening hours	dodatno
+L12	das Schild, Schilder	znak, ploča	sign	dodatno
+L12	der Absender, Absender	pošiljatelj	sender	dodatno
+L12	der Empfänger, Empfänger	primatelj	recipient	dodatno
+L12	die Postleitzahl, Postleitzahlen	poštanski broj	postcode	dodatno
+L12	der Umschlag, Umschläge	omotnica	envelope	dodatno
+L12	die Behörde, Behörden	ured, vlast	authority	dodatno
+L12	die Staatsangehörigkeit (Sg.)	državljanstvo	nationality	dodatno
+L12	die Auskunft, Auskünfte	informacija	information	dodatno
+L12	die Information, Informationen	informacija	information	dodatno
+L12	überqueren → hat überquert	prijeći (cestu)	to cross	dodatno
+L12	folgen → ist gefolgt	slijediti	to follow	dodatno
+L12	die Rolltreppe, Rolltreppen	pokretne stepenice	escalator	dodatno
+L12	der Einkaufswagen, Einkaufswagen	kolica za kupnju	shopping trolley	dodatno
+L12	die Tüte, Tüten	vrećica	bag	dodatno
+L12	die Quittung, Quittungen	potvrda o plaćanju	receipt	dodatno
+L12	der Kassenbon, Kassenbons	račun (blagajnički)	till receipt	dodatno
+L12	die Ware, Waren	roba	goods	dodatno
+L13	die Ansicht, Ansichten	mišljenje, stajalište	view	dodatno
+L13	zu·stimmen → hat zugestimmt	pristati, složiti se	to agree	dodatno
+L13	widersprechen → er widerspricht · hat widersprochen	proturječiti	to contradict	dodatno
+L13	behaupten → hat behauptet	tvrditi	to claim	dodatno
+L13	die Diskussion, Diskussionen	rasprava	discussion	dodatno
+L13	begründen → hat begründet	obrazložiti	to give reasons for	dodatno
+L13	dagegen	protiv toga	against it	dodatno
+L13	kritisieren → hat kritisiert	kritizirati	to criticise	dodatno
+L13	die Kritik, Kritiken	kritika	criticism	dodatno
+L13	loben → hat gelobt	hvaliti, pohvaliti	to praise	dodatno
+L13	der Unterschied, Unterschiede	razlika	difference	dodatno
+L13	vergleichen → hat verglichen	usporediti	to compare	dodatno
+L13	der Schüler, Schüler	učenik	pupil	dodatno
+L13	die Klasse, Klassen	razred	class	dodatno
+L13	die Note, Noten	ocjena	mark	dodatno
+L13	das Zeugnis, Zeugnisse	svjedodžba	certificate, report	dodatno
+L13	das Fach, Fächer	predmet	subject	dodatno
+L13	die Mathematik (Sg.)	matematika	maths	dodatno
+L13	die Biologie (Sg.)	biologija	biology	dodatno
+L13	die Tafel, Tafeln	ploča	board	dodatno
+L13	das Thema, Themen	tema	topic	dodatno
+L13	die Lektion, Lektionen	lekcija	lesson (unit)	dodatno
+L13	unterrichten → hat unterrichtet	poučavati	to teach	dodatno
+L13	der Stundenplan, Stundenpläne	raspored sati	timetable	dodatno
+L13	die Klausur, Klausuren	pisana provjera, ispit	written exam	dodatno
+L13	der Abschluss, Abschlüsse	završetak, diploma	qualification	dodatno
+L13	die Fremdsprache, Fremdsprachen	strani jezik	foreign language	dodatno
+L13	der Wortschatz (Sg.)	vokabular	vocabulary	dodatno
+L13	die Aussprache (Sg.)	izgovor	pronunciation	dodatno
+L13	buchstabieren → hat buchstabiert	slovkati	to spell	dodatno
+L13	der Buchstabe, Buchstaben (n-Dekl.)	slovo	letter	dodatno
+L13	korrigieren → hat korrigiert	ispraviti	to correct	dodatno
+L13	übersetzen → hat übersetzt	prevesti	to translate	dodatno
+L13	die Medien (Pl.)	mediji	media	dodatno
+L13	die Sendung, Sendungen	emisija	programme, broadcast	dodatno
+L13	der Fernseher, Fernseher	televizor	television set	dodatno
+L13	die Werbung (Sg.)	reklama	advertising	dodatno
+L13	die Zeitschrift, Zeitschriften	časopis	magazine	dodatno
+L13	der Bericht, Berichte	izvještaj	report	dodatno
+L13	berichten → hat berichtet	izvijestiti	to report	dodatno
+L13	der Journalist, Journalisten (n-Dekl.)	novinar	journalist	dodatno
+L13	die Webseite, Webseiten	web-stranica	website	dodatno
+L13	online	na mreži, online	online	dodatno
+L13	sparen → hat gespart	štedjeti	to save	dodatno
+L13	der Strom (Sg.)	električna struja	electricity	dodatno
+L13	die Energie, Energien	energija	energy	dodatno
+L13	recyceln → hat recycelt	reciklirati	to recycle	dodatno
+L13	der Abfall, Abfälle	otpad	rubbish	dodatno
+L13	schützen → hat geschützt	zaštititi	to protect	dodatno
+L13	der Schutz (Sg.)	zaštita	protection	dodatno
+L13	die Erde (Sg.)	Zemlja, zemlja	earth	dodatno
+L13	verbrauchen → hat verbraucht	potrošiti	to use up	dodatno
+L14	die Kaution, Kautionen	jamčevina, depozit	deposit	dodatno
+L14	der Mieter, Mieter	podstanar, stanar (najmoprimac)	tenant	dodatno
+L14	der Backofen, Backöfen	pećnica	oven	dodatno
+L14	die Mikrowelle, Mikrowellen	mikrovalna pećnica	microwave	dodatno
+L14	der Wasserhahn, Wasserhähne	slavina	tap	dodatno
+L14	die Glühbirne, Glühbirnen	žarulja	light bulb	dodatno
+L14	der Hammer, Hämmer	čekić	hammer	dodatno
+L14	der Nagel, Nägel	čavao	nail	dodatno
+L14	die Schraube, Schrauben	vijak	screw	dodatno
+L14	der Schraubenzieher, Schraubenzieher	odvijač	screwdriver	dodatno
+L14	die Zange, Zangen	kliješta	pliers	dodatno
+L14	die Leiter, Leitern	ljestve	ladder	dodatno
+L14	der Pinsel, Pinsel	kist	brush	dodatno
+L14	streichen → hat gestrichen	bojiti, farbati	to paint	dodatno
+L14	tapezieren → hat tapeziert	postavljati tapete	to wallpaper	dodatno
+L14	bohren → hat gebohrt	bušiti	to drill	dodatno
+L14	die Tapete, Tapeten	tapeta	wallpaper	dodatno
+L14	die Matratze, Matratzen	madrac	mattress	dodatno
+L14	die Kommode, Kommoden	komoda	chest of drawers	dodatno
+L14	das Bügeleisen, Bügeleisen	glačalo	iron	dodatno
+L14	der Trockner, Trockner	sušilica rublja	tumble dryer	dodatno
+L14	die Kündigung, Kündigungen	otkaz	notice, termination	dodatno
+L14	kündigen → hat gekündigt	otkazati	to give notice	dodatno
+L14	das Treppenhaus, Treppenhäuser	stubište	stairwell	dodatno
+L14	der Dachboden, Dachböden	tavan, potkrovlje	attic	dodatno
+L14	die Hausnummer, Hausnummern	kućni broj	house number	dodatno
+L14	der Strom (Sg.)	struja	electricity	dodatno
+L14	das Gas (Sg.)	plin	gas	dodatno
+L14	renovieren → hat renoviert	renovirati, obnoviti	to renovate	dodatno
+L14	auf·bauen → hat aufgebaut	sastaviti, postaviti	to assemble, to set up	dodatno
+L14	ab·bauen → hat abgebaut	rastaviti, demontirati	to dismantle	dodatno
+L14	die Anleitung, Anleitungen	uputa	instructions	dodatno
+L14	das Werkzeug, Werkzeuge	alat	tool	dodatno
+L14	die Spüle, Spülen	sudoper	kitchen sink	dodatno
+L14	die Gardine, Gardinen	zavjesa (prozirna)	curtain	dodatno
+L15	der Gastgeber, Gastgeber	domaćin	host	dodatno
+L15	das Jubiläum, Jubiläen	jubilej, obljetnica	anniversary	dodatno
+L15	die Glückwunschkarte, Glückwunschkarten	čestitka	greeting card	dodatno
+L15	verpacken → hat verpackt	zapakirati	to wrap, to pack	dodatno
+L15	das Geschenkpapier (Sg.)	papir za zamatanje poklona	wrapping paper	dodatno
+L15	der Luftballon, Luftballons	balon	balloon	dodatno
+L15	der Sekt (Sg.)	pjenušac	sparkling wine	dodatno
+L15	an·stoßen → hat angestoßen	nazdraviti	to clink glasses	dodatno
+L15	die Taufe, Taufen	krštenje	christening	dodatno
+L15	Heiligabend (Sg.)	Badnjak	Christmas Eve	dodatno
+L15	der Adventskranz, Adventskränze	adventski vijenac	Advent wreath	dodatno
+L15	das Osterei, Ostereier	uskrsno jaje, pisanica	Easter egg	dodatno
+L15	der Bräutigam, Bräutigame	mladoženja	groom	dodatno
+L15	die Braut, Bräute	nevjesta, mladenka	bride	dodatno
+L15	das Paar, Paare	par	couple	dodatno
+L15	sich verloben → hat sich verlobt	zaručiti se	to get engaged	dodatno
+L15	zu·sagen → hat zugesagt	prihvatiti poziv, potvrditi dolazak	to accept an invitation	dodatno
+L15	ab·sagen → hat abgesagt	otkazati	to cancel, to decline	dodatno
+L15	die Zusage, Zusagen	potvrda, pristanak	acceptance	dodatno
+L15	die Absage, Absagen	otkaz, odbijenica	cancellation, refusal	dodatno
+L15	verschieben → hat verschoben	odgoditi	to postpone	dodatno
+L15	vorbei·kommen → ist vorbeigekommen	navratiti, svratiti	to drop by	dodatno
+L15	der Anlass, Anlässe	prigoda, povod	occasion	dodatno
+L15	das Mitbringsel, Mitbringsel	mali dar (koji se donosi)	small gift	dodatno
+L15	der Kalender, Kalender	kalendar	calendar	dodatno
+L15	die Dekoration, Dekorationen	ukras, dekoracija	decoration	dodatno
+L15	dekorieren → hat dekoriert	ukrasiti	to decorate	dodatno
+L15	herzlich	srdačan, srdačno	warm, cordial	dodatno
+L15	der Jahrestag, Jahrestage	godišnjica	anniversary	dodatno
+L15	die Verlobung, Verlobungen	zaruke	engagement	dodatno
+L15	das Brautpaar, Brautpaare	mladenci	bridal couple	dodatno
+L16	die Strumpfhose, Strumpfhosen	hulahopke	tights	dodatno
+L16	die Sandale, Sandalen	sandala	sandal	dodatno
+L16	der Knopf, Knöpfe	gumb	button	dodatno
+L16	der Reißverschluss, Reißverschlüsse	patent-zatvarač, zip	zip	dodatno
+L16	die Handtasche, Handtaschen	ručna torbica	handbag	dodatno
+L16	das Portemonnaie, Portemonnaies	novčanik	purse, wallet	dodatno
+L16	die Armbanduhr, Armbanduhren	ručni sat	wristwatch	dodatno
+L16	das Armband, Armbänder	narukvica	bracelet	dodatno
+L16	die Strickjacke, Strickjacken	pletena jakna, džemper na kopčanje	cardigan	dodatno
+L16	der Badeanzug, Badeanzüge	kupaći kostim	swimsuit	dodatno
+L16	die Bekleidung (Sg.)	odjeća	clothing	dodatno
+L16	das Sonderangebot, Sonderangebote	posebna ponuda, akcija	special offer	dodatno
+L16	der Ausverkauf, Ausverkäufe	rasprodaja	clearance sale	dodatno
+L16	der Kassenbon, Kassenbons	račun (blagajnički)	receipt	dodatno
+L16	passend	odgovarajući, prikladan	matching, suitable	dodatno
+L16	die Frisur, Frisuren	frizura	hairstyle	dodatno
+L16	sich schminken → hat sich geschminkt	našminkati se	to put on make-up	dodatno
+L16	das Make-up, Make-ups	šminka	make-up	dodatno
+L16	der Lippenstift, Lippenstifte	ruž za usne	lipstick	dodatno
+L16	das Parfüm, Parfüms	parfem	perfume	dodatno
+L16	sich rasieren → hat sich rasiert	brijati se	to shave	dodatno
+L16	die Glatze, Glatzen	ćelavost, ćela	bald head	dodatno
+L16	die Locke, Locken	kovrča	curl	dodatno
+L16	der Zopf, Zöpfe	pletenica, rep	plait, ponytail	dodatno
+L16	der Kamm, Kämme	češalj	comb	dodatno
+L16	die Bürste, Bürsten	četka	brush	dodatno
+L16	das Metall, Metalle	metal	metal	dodatno
+L16	das Gold (Sg.)	zlato	gold	dodatno
+L16	das Silber (Sg.)	srebro	silver	dodatno
+L16	weich	mekan	soft	dodatno
+L16	hart	tvrd	hard	dodatno
+L16	wasserdicht	vodootporan	waterproof	dodatno
+L16	sportlich	sportski	sporty, casual	dodatno
+L16	altmodisch	staromodan	old-fashioned	dodatno
+L16	schick	šik, otmjen	smart, chic	dodatno
+L16	die Marke, Marken	marka	brand	dodatno
+L16	der Ärmel, Ärmel	rukav	sleeve	dodatno
+L16	der Geschmack (Sg.)	okus, ukus	taste	dodatno
+L17	das Gebirge, Gebirge	gorje, planine	mountains	dodatno
+L17	der Gipfel, Gipfel	vrh	summit	dodatno
+L17	das Gras (Sg.)	trava	grass	dodatno
+L17	das Blatt, Blätter	list	leaf	dodatno
+L17	der Ast, Äste	grana	branch	dodatno
+L17	die Rose, Rosen	ruža	rose	dodatno
+L17	der Bach, Bäche	potok	stream	dodatno
+L17	der Teich, Teiche	ribnjak, jezerce	pond	dodatno
+L17	die Welle, Wellen	val	wave	dodatno
+L17	der Hase, Hasen (n-Dekl.)	zec	hare	dodatno
+L17	das Reh, Rehe	srna	deer	dodatno
+L17	der Fuchs, Füchse	lisica	fox	dodatno
+L17	der Bär, Bären (n-Dekl.)	medvjed	bear	dodatno
+L17	der Wolf, Wölfe	vuk	wolf	dodatno
+L17	die Ziege, Ziegen	koza	goat	dodatno
+L17	die Ente, Enten	patka	duck	dodatno
+L17	das Kaninchen, Kaninchen	kunić	rabbit	dodatno
+L17	die Biene, Bienen	pčela	bee	dodatno
+L17	die Mücke, Mücken	komarac	mosquito	dodatno
+L17	die Spinne, Spinnen	pauk	spider	dodatno
+L17	die Schlange, Schlangen	zmija	snake	dodatno
+L17	der Affe, Affen (n-Dekl.)	majmun	monkey	dodatno
+L17	das Gewitter, Gewitter	grmljavina, oluja s grmljavinom	thunderstorm	dodatno
+L17	der Blitz, Blitze	munja	lightning	dodatno
+L17	der Nebel, Nebel	magla	fog	dodatno
+L17	der Sturm, Stürme	oluja	storm	dodatno
+L17	die Temperatur, Temperaturen	temperatura	temperature	dodatno
+L17	die Hitze (Sg.)	vrućina	heat	dodatno
+L17	die Kälte (Sg.)	hladnoća	cold	dodatno
+L17	der Schatten, Schatten	sjena	shadow, shade	dodatno
+L17	die Wettervorhersage, Wettervorhersagen	vremenska prognoza	weather forecast	dodatno
+L17	trocken	suh	dry	dodatno
+L17	nass	mokar	wet	dodatno
+L17	feucht	vlažan	damp	dodatno
+L17	neblig	maglovit	foggy	dodatno
+L17	wolkig	oblačan	cloudy	dodatno
+L17	scheinen → hat geschienen	sjati	to shine	dodatno
+L17	breit	širok	wide	dodatno
+L17	schmal	uzak	narrow	dodatno
+L17	tief	dubok	deep	dodatno
+L17	flach	plitak, ravan	flat, shallow	dodatno
+L17	steil	strm	steep	dodatno
+L17	dünn	tanak, mršav	thin	dodatno
+L17	ähnlich	sličan	similar	dodatno
+L17	unterschiedlich	različit	different	dodatno
+L17	ländlich	seoski	rural	dodatno
+L17	die Landwirtschaft (Sg.)	poljoprivreda	agriculture	dodatno
+L17	ernten → hat geerntet	žeti, ubirati	to harvest	dodatno
+L17	der Vorort, Vororte	predgrađe	suburb	dodatno
+L17	die Fußgängerzone, Fußgängerzonen	pješačka zona	pedestrian zone	dodatno
+L17	die Aussicht, Aussichten	pogled, vidik	view	dodatno
+L18	sich unterhalten → er unterhält sich · hat sich unterhalten	razgovarati, zabavljati se	to chat, to enjoy oneself	dodatno
+L18	sich verspäten → hat sich verspätet	zakasniti	to be late	dodatno
+L18	sich versöhnen → hat sich versöhnt	pomiriti se	to make up	dodatno
+L18	sich verletzen → hat sich verletzt	ozlijediti se	to injure oneself	dodatno
+L18	sich bewegen → hat sich bewegt	micati se, kretati se	to move	dodatno
+L18	sich wundern → hat sich gewundert	čuditi se	to be surprised	dodatno
+L18	sich fürchten → hat sich gefürchtet	bojati se	to be afraid	dodatno
+L18	sich schämen → hat sich geschämt	sramiti se	to be ashamed	dodatno
+L18	sich beruhigen → hat sich beruhigt	smiriti se	to calm down	dodatno
+L18	sich konzentrieren → hat sich konzentriert	koncentrirati se	to concentrate	dodatno
+L18	sich verirren → hat sich verirrt	izgubiti se, zalutati	to get lost	dodatno
+L18	sich melden → hat sich gemeldet	javiti se	to get in touch, to report	dodatno
+L18	sich beschäftigen → hat sich beschäftigt	baviti se	to occupy oneself	dodatno
+L18	sich vertragen → er verträgt sich · hat sich vertragen	slagati se	to get along	dodatno
+L18	sich hin·setzen → hat sich hingesetzt	sjesti	to sit down	dodatno
+L18	sich wohl·fühlen → hat sich wohlgefühlt	osjećati se ugodno	to feel at ease	dodatno
+L18	sich einigen → hat sich geeinigt	dogovoriti se	to agree	dodatno
+L18	sich an·strengen → hat sich angestrengt	truditi se	to make an effort	dodatno
+L18	höflich	pristojan, uljudan	polite	dodatno
+L18	unhöflich	nepristojan	impolite	dodatno
+L18	schüchtern	sramežljiv	shy	dodatno
+L18	faul	lijen	lazy	dodatno
+L18	fleißig	marljiv	hard-working	dodatno
+L18	klug	pametan	clever	dodatno
+L18	dumm	glup	stupid	dodatno
+L18	sympathisch	simpatičan	likeable	dodatno
+L18	großzügig	velikodušan, darežljiv	generous	dodatno
+L18	sparsam	štedljiv	thrifty	dodatno
+L18	neugierig	znatiželjan	curious	dodatno
+L18	zuverlässig	pouzdan	reliable	dodatno
+L18	streng	strog	strict	dodatno
+L18	humorvoll	duhovit	humorous	dodatno
+L18	die Beziehung, Beziehungen	odnos, veza	relationship	dodatno
+L18	der Partner, Partner / die Partnerin, Partnerinnen	partner / partnerica	partner	dodatno
+L18	die Ehe, Ehen	brak	marriage	dodatno
+L18	der Charakter, Charaktere	karakter	character	dodatno
+L18	die Eigenschaft, Eigenschaften	osobina	quality, trait	dodatno
+L18	die Stimmung, Stimmungen	raspoloženje	mood, atmosphere	dodatno
+L18	der Gedanke, Gedanken (n-Dekl.)	misao	thought	dodatno
+L18	die Freude, Freuden	radost	joy	dodatno
+L18	der Ärger (Sg.)	ljutnja, nevolja	anger, trouble	dodatno
+L18	der Kummer (Sg.)	tuga, briga	grief, worry	dodatno
+L18	die Diskussion, Diskussionen	rasprava	discussion	dodatno
+L18	verzeihen → hat verziehen	oprostiti	to forgive	dodatno
+L18	schreien → hat geschrien	vrištati, vikati	to shout, to scream	dodatno
+L18	rufen → hat gerufen	zvati, vikati	to call	dodatno
+L18	flüstern → hat geflüstert	šaptati	to whisper	dodatno
+L18	lächeln → hat gelächelt	smiješiti se	to smile	dodatno
+L18	küssen → hat geküsst	ljubiti	to kiss	dodatno
+L19	die Behörde, Behörden	ured, vlast	authority	dodatno
+L19	das Dokument, Dokumente	dokument	document	dodatno
+L19	die Kopie, Kopien	kopija	copy	dodatno
+L19	kopieren → hat kopiert	kopirati	to copy	dodatno
+L19	die Genehmigung, Genehmigungen	odobrenje	permit, approval	dodatno
+L19	der Stempel, Stempel	pečat, žig	stamp	dodatno
+L19	die Frist, Fristen	rok	deadline	dodatno
+L19	die Bescheinigung, Bescheinigungen	potvrda	certificate	dodatno
+L19	das Visum, Visa	viza	visa	dodatno
+L19	der Wohnsitz, Wohnsitze	prebivalište	place of residence	dodatno
+L19	das Geburtsdatum, Geburtsdaten	datum rođenja	date of birth	dodatno
+L19	die Öffnungszeiten (Pl.)	radno vrijeme	opening hours	dodatno
+L19	die Sprechstunde, Sprechstunden	termin za primanje stranaka, ordinacija	consultation hours	dodatno
+L19	aus·stellen → hat ausgestellt	izdati	to issue	dodatno
+L19	ein·reichen → hat eingereicht	podnijeti, predati	to submit	dodatno
+L19	bestätigen → hat bestätigt	potvrditi	to confirm	dodatno
+L19	zuständig	nadležan	responsible	dodatno
+L19	die Überweisung, Überweisungen	uplata, doznaka	bank transfer	dodatno
+L19	überweisen → hat überwiesen	uplatiti, prebaciti novac	to transfer	dodatno
+L19	ab·heben → hat abgehoben	podići (novac)	to withdraw	dodatno
+L19	ein·zahlen → hat eingezahlt	uplatiti, položiti	to pay in	dodatno
+L19	das Girokonto, Girokonten	tekući račun	current account	dodatno
+L19	die Kontonummer, Kontonummern	broj računa	account number	dodatno
+L19	der Kredit, Kredite	kredit	loan	dodatno
+L19	die Zinsen (Pl.)	kamate	interest	dodatno
+L19	das Bargeld (Sg.)	gotovina	cash	dodatno
+L19	die Kreditkarte, Kreditkarten	kreditna kartica	credit card	dodatno
+L19	sparen → hat gespart	štedjeti	to save	dodatno
+L19	die Schulden (Pl.)	dugovi	debts	dodatno
+L19	der Betrag, Beträge	iznos	amount	dodatno
+L19	der Kontoauszug, Kontoauszüge	izvadak s računa	bank statement	dodatno
+L19	der Schaden, Schäden	šteta	damage	dodatno
+L19	die Haftpflichtversicherung, Haftpflichtversicherungen	osiguranje od odgovornosti	liability insurance	dodatno
+L19	die Krankenversicherung, Krankenversicherungen	zdravstveno osiguranje	health insurance	dodatno
+L19	versichern → hat versichert	osigurati	to insure	dodatno
+L19	das Vorstellungsgespräch, Vorstellungsgespräche	razgovor za posao	job interview	dodatno
+L19	das Zeugnis, Zeugnisse	svjedodžba	certificate, reference	dodatno
+L19	die Berufserfahrung, Berufserfahrungen	radno iskustvo	work experience	dodatno
+L19	der Arbeitsvertrag, Arbeitsverträge	ugovor o radu	employment contract	dodatno
+L19	der Arbeitgeber, Arbeitgeber	poslodavac	employer	dodatno
+L19	der Arbeitnehmer, Arbeitnehmer	zaposlenik	employee	dodatno
+L19	das Gehalt, Gehälter	plaća	salary	dodatno
+L19	die Stellenanzeige, Stellenanzeigen	oglas za posao	job advertisement	dodatno
+L19	das Praktikum, Praktika	praksa	work placement	dodatno
+L19	der Bewerber, Bewerber / die Bewerberin, Bewerberinnen	kandidat / kandidatkinja	applicant	dodatno
+L19	der Ratschlag, Ratschläge	savjet	piece of advice	dodatno
+L19	ab·raten → er rät ab · hat abgeraten	odgovarati (od nečega)	to advise against	dodatno
+L19	die Empfehlung, Empfehlungen	preporuka	recommendation	dodatno
+L20	die Gelegenheit, Gelegenheiten	prilika	opportunity	dodatno
+L20	die Chance, Chancen	šansa	chance	dodatno
+L20	das Risiko, Risiken	rizik	risk	dodatno
+L20	das Ergebnis, Ergebnisse	rezultat	result	dodatno
+L20	die Gewohnheit, Gewohnheiten	navika	habit	dodatno
+L20	die Sicherheit (Sg.)	sigurnost	safety, security	dodatno
+L20	die Bildung (Sg.)	obrazovanje	education	dodatno
+L20	die Verantwortung (Sg.)	odgovornost	responsibility	dodatno
+L20	die Geduld (Sg.)	strpljenje	patience	dodatno
+L20	der Unterschied, Unterschiede	razlika	difference	dodatno
+L20	die Situation, Situationen	situacija	situation	dodatno
+L20	der Zufall, Zufälle	slučaj	coincidence	dodatno
+L20	die Entwicklung, Entwicklungen	razvoj	development	dodatno
+L20	entdecken → hat entdeckt	otkriti	to discover	dodatno
+L20	erfinden → hat erfunden	izumiti	to invent	dodatno
+L20	erfahren → er erfährt · hat erfahren	saznati, doživjeti	to find out, to experience	dodatno
+L20	sich entwickeln → hat sich entwickelt	razvijati se	to develop	dodatno
+L20	allerdings	međutim, doduše	however	dodatno
+L20	jedoch	međutim	however	dodatno
+L20	deswegen	zbog toga	therefore	dodatno
+L20	obwohl	iako	although	dodatno
+L20	während	dok, tijekom	while, during	dodatno
+L20	bevor	prije nego što	before	dodatno
+L20	nachdem	nakon što	after	dodatno
+L20	falls	ako, u slučaju da	in case, if	dodatno
+L20	sobald	čim	as soon as	dodatno
+L20	inzwischen	u međuvremenu	meanwhile	dodatno
+L20	bisher	do sada	so far	dodatno
+L20	nämlich	naime	namely	dodatno
+L20	schließlich	napokon, naposljetku	finally	dodatno
+L20	sonst	inače	otherwise	dodatno
+L20	besonders	posebno	especially	dodatno
+L20	mindestens	najmanje	at least	dodatno
+L20	höchstens	najviše	at most	dodatno
+L20	wahrscheinlich	vjerojatno	probably	dodatno
+L20	hoffentlich	nadam se, nadajmo se	hopefully	dodatno
+L20	ständig	stalno	constantly	dodatno
+L20	meistens	najčešće	mostly	dodatno
+L20	überhaupt	uopće	at all	dodatno
+L20	irgendwo	negdje	somewhere	dodatno
+L20	das Passwort, Passwörter	lozinka	password	dodatno
+L20	die Datei, Dateien	datoteka	file	dodatno
+L20	das Programm, Programme	program	programme	dodatno
+L20	die App, Apps	aplikacija	app	dodatno
+L20	die Webseite, Webseiten	web-stranica	website	dodatno
+L20	der Bildschirm, Bildschirme	zaslon	screen	dodatno
+L20	die Tastatur, Tastaturen	tipkovnica	keyboard	dodatno
+L20	der Drucker, Drucker	pisač	printer	dodatno
+L20	das WLAN, WLANs	Wi-Fi	Wi-Fi	dodatno
+L20	der Link, Links	poveznica	link	dodatno
+L20	der Anhang, Anhänge	privitak	attachment	dodatno
+L20	das Smartphone, Smartphones	pametni telefon	smartphone	dodatno
+L20	die Verbindung, Verbindungen	veza	connection	dodatno
+L20	herunter·laden → hat heruntergeladen	preuzeti	to download	dodatno
+L20	speichern → hat gespeichert	spremiti	to save	dodatno
+L20	löschen → hat gelöscht	izbrisati	to delete	dodatno
+L20	klicken → hat geklickt	kliknuti	to click	dodatno
+L20	surfen → hat gesurft	surfati	to surf	dodatno
+L20	installieren → hat installiert	instalirati	to install	dodatno
+L20	online	na mreži, online	online	dodatno

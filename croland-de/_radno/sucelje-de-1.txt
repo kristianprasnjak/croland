@@ -1,0 +1,200 @@
+0	Croland · info-v1
+1	Start
+2	Lektionen
+3	Wörterbuch
+4	Spiele & Extras
+5	Tägliche Challenge
+6	Fortschritt
+7	Benutzerkonto
+8	Optionen
+9	Diese Lektion
+10	Alles bisher
+11	Wortspiel
+12	HR → DE
+13	DE → HR
+14	Gemischt
+15	Auswählen
+16	Tippen
+17	Zurücksetzen
+18	Warum das funktioniert
+19	Croland
+20	Fortschritt öffnen
+21	Kleinere Oberfläche
+22	Größere Oberfläche
+23	Nur Favoriten anzeigen
+24	Kleineres Symbol
+25	Größeres Symbol
+26	Schließen
+27	Dieses Wort überspringen
+28	Haftnotiz hinzufügen
+29	Lektion
+30	Wortschatz
+31	Grammatik
+32	Praxis
+33	Test
+34	Portal-Link
+35	=
+36	=
+37	Ausblenden
+38	Wöchentliche Challenge
+39	Januar
+40	Februar
+41	März
+42	April
+43	Mai
+44	Juni
+45	Juli
+46	August
+47	September
+48	Oktober
+49	November
+50	Dezember
+51	heute keine Challenge
+52	Tägliche Challenge 
+53	=
+54	Stadt
+55	Lauf durch die Stadt, sprich mit Leuten, löse fünf Aufgaben: Einkaufen, Lieferung, Quiz und ein Plausch an der Kasse.
+56	=
+57	Merken & Schreiben
+58	Bilder blitzen auf, du schreibst sie aus dem Gedächtnis auf – streng, mit allen diakritischen Zeichen. Hundert Level, drei Herzen.
+59	Festung
+60	Der Burgvogt liegt im Krankenhaus, und jeder Schlüssel ist versteckt. Zwölf Räume, ein Schlüssel nach dem anderen – bevor der Stadtrat über den Verkauf der Festung abstimmt.
+61	=
+62	Taverne
+63	Gäste bestellen im Akkusativ, du servierst nach Bildern. Acht Schichten, jedes Mal mehr Gerichte und Adjektive.
+64	Lagerhaus
+65	Du wählst den Einsatz. Schieb Wortkisten in die Garage ihrer Kategorie. Höherer Einsatz, größeres Lager.
+66	=
+67	Postzug
+68	Füll die Waggons vor der Abfahrt. Die Regel ändert sich ständig: Kategorie, Geschlecht, Anfangsbuchstabe, Übersetzung.
+69	=
+70	Labyrinth
+71	Sammle nur die Wörter der vorgegebenen Kategorie. Eindringlinge kosten Herzen, Geister jagen dich.
+72	=
+73	Schlange
+74	Friss die Buchstaben in der richtigen Reihenfolge, um das Wort zum Bild zu schreiben. Ein falscher Buchstabe kostet ein Herz.
+75	Portal
+76	Jump 'n' Run
+77	Zwei Ufer und ein Leuchtturm. Spring in die Wolke mit dem richtigen Wort, kletter zum Portal und wechsle auf die andere Seite. Krabben klettern auch.
+78	Überleben
+79	Zwanzig richtige Antworten gegen die Uhr. Treffer landen in deiner Liste der beherrschten Wörter, Fehler in der Wiederholungsliste.
+80	=
+81	Basisverteidigung
+82	Wörter fallen auf deine Basis zu, du klickst die Übersetzung an. Fünfzehn Wellen, beide Richtungen, vier Antworten am unteren Rand.
+83	=
+84	Kroatische Städte
+85	Alle 128 Städte Kroatiens, von Ilok an der Donau bis Dubrovnik. In jeder spricht dich jemand auf Kroatisch an, und nur eine von drei Antworten passt. Drei Herzen, die nie zurückkommen.
+86	Der Markt
+87	Tippe auf irgendetwas am Marktstand und schreib seinen kroatischen Namen.
+88	Fünf Dinge auf dem Markt
+89	Tippe auf fünf Dinge im Bild und schreib ihre kroatischen Namen.
+90	=
+91	Sieben Dinge im Badezimmer
+92	Benenne sieben Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.
+93	=
+94	Ein Schreibtisch am Fenster
+95	Benenne sechs Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.
+96	=
+97	Ein Morgen auf dem Balkon
+98	=
+99	An der Bushaltestelle
+100	=
+101	Ein ruhiges Wohnzimmer
+102	=
+103	Ein Picknick im Park
+104	Ein Geburtstagstisch
+105	=
+106	Angeln auf ruhiger See
+107	=
+108	Koffer packen für den Urlaub
+109	Fußball im Hinterhof
+110	=
+111	Ein kleines Musikzimmer
+112	=
+113	Ein sonniger Marktplatz
+114	Ein gedeckter Tisch zum Abendessen
+115	=
+116	Eine Hütte in den Bergen
+117	Der Briefträger an der Tür
+118	=
+119	Ein Taxi am Fluss
+120	Ein heißer Tag am Strand
+121	=
+122	Warten am Flughafen
+123	=
+124	Ein sonniges Eckchen vor dem Haus
+125	=
+126	Ein ruhiger Bahnsteig
+127	=
+128	Frühstück draußen
+129	Benenne fünf Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.
+130	Eine Überraschung auf dem Tisch
+131	Hören Lesen Schreiben Sprechen
+132	Notizbuch
+133	Füge einen beliebigen Text ein – ein Lied, ein Gedicht, einen Artikel. Er wird in Zeilen aufgeteilt: Hör dir jede an, prüf sie mit Google Übersetzer, schreib deine eigene Übersetzung und sprich sie dann laut aus, um zu sehen, was das Mikrofon gehört hat.
+134	=
+135	+ Zum Wörterbuch hinzufügen
+136	=
+137	=
+138	=
+139	Noch keine Wörter
+140	Die Anmeldung ist noch nicht eingerichtet.
+141	Anmeldung fehlgeschlagen
+142	Registrierung fehlgeschlagen
+143	E-Mail bestätigen
+144	Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. 
+145	Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.
+146	Anmeldung fehlgeschlagen: 
+147	Keine Daten – führe osvježi.bat aus, um data.js zu erzeugen.
+148	Die Anmeldung wurde nicht abgeschlossen. Wenn du Croland in einer anderen App geöffnet hast 
+149	(Messenger, Instagram, Facebook), öffne es stattdessen in deinem Browser – Google blockiert 
+150	die Anmeldung in eingebetteten Browsern.
+151	Nochmal spielen
+152	=
+153	=
+154	kuća (f.)
+155	Aussprache abspielen – dann laut nachsprechen
+156	Aussprache abspielen
+157	Eingabe
+158	Einfügen 
+159	Neue Einheiten freigeschaltet!
+160	Neue Einheit freigeschaltet!
+161	Du hast genug Punkte gesammelt – gut gemacht! 🎉
+162	Jetzt offen:
+163	Weiter erkunden
+164	Erstelle dein kostenloses Konto
+165	Willkommen zurück
+166	Ein kostenloses Konto öffnet Level 1 in allen Bereichen, dazu tägliche Challenges und Minispiele.
+167	Melde dich an, um dort weiterzumachen, wo du aufgehört hast.
+168	Weiter mit Google
+169	E-Mail
+170	Passwort
+171	dein Passwort
+172	Konto erstellen
+173	Anmelden
+174	Du hast schon ein Konto?
+175	Neu hier?
+176	Kostenloses Konto erstellen
+177	Nicht jetzt
+178	Gib eine E-Mail-Adresse und ein Passwort mit mindestens 6 Zeichen ein.
+179	Fast geschafft – schau in dein Postfach, klick auf den Bestätigungslink und melde dich dann an.
+180	Gib eine E-Mail-Adresse und ein Passwort ein.
+181	Croland Plus
+182	Ab Level 2 brauchst du ein aktives Abo. Du verwaltest es auf deiner Kontoseite.
+183	Zum Konto
+184	Konto erstellt!
+185	Der Kurs ist offen. Neben Lektion 1 kannst du jetzt spielen:
+186	Ja
+187	Abbrechen
+188	Jetzt beenden
+189	Fertig gelesen
+190	Nochmal versuchen
+191	Fehler: N
+192	Super gemacht! 🎉
+193	Gut gemacht! 👍
+194	Weiter so! 💪
+195	in deinem Wörterbuch gespeichert – das Wortspiel kann sie jetzt verwenden.
+196	Tag
+197	 Punkte in jeder Währung
+198	Komm morgen wieder für +
+199	Weiter

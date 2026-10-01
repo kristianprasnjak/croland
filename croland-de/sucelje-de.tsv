@@ -1,0 +1,1237 @@
+en	de	izvor	redak
+Croland · info-v1	Croland · info-v1	html	6
+Home	Start	html	3060
+Lessons	Lektionen	html	3061
+Dictionary	Wörterbuch	html	3062
+Games & Extras	Spiele & Extras	html	3063
+Daily challenge	Tägliche Challenge	html	3064
+Progress	Fortschritt	html	3065
+User account	Benutzerkonto	html	3066
+Options	Optionen	html	3067
+This lesson	Diese Lektion	html	3098
+All so far	Alles bisher	html	3099
+Word game	Wortspiel	html	3107
+HR → EN	HR → DE	html	3112
+EN → HR	DE → HR	html	3113
+Mixed	Gemischt	html	3114
+Choose	Auswählen	html	3117
+Type	Tippen	html	3118
+Reset	Zurücksetzen	html	3125
+Why this works	Warum das funktioniert	html	3131
+Croland	Croland	html-attr	3058
+Open Progress	Fortschritt öffnen	html-attr	3071
+Smaller interface	Kleinere Oberfläche	html-attr	3073
+Bigger interface	Größere Oberfläche	html-attr	3074
+Show favourites only	Nur Favoriten anzeigen	html-attr	3092
+Smaller icon	Kleineres Symbol	html-attr	3093
+Bigger icon	Größeres Symbol	html-attr	3094
+Close	Schließen	html-attr	3095
+Skip this word	Dieses Wort überspringen	html-attr	3108
+Add a sticky note	Haftnotiz hinzufügen	html-attr	3137
+Lesson	Lektion	js	3151
+Vocabulary	Wortschatz	js	3151
+Grammar	Grammatik	js	3151
+Practice	Praxis	js	3151
+Test	Test	js	3151
+Portal link	Portal-Link	js	3174
+Authorization	=	js	3183
+Bearer 	=	js	3183
+Dismiss	Ausblenden	js	3233
+Weekly challenge	Wöchentliche Challenge	js	3279
+January	Januar	js	3361
+February	Februar	js	3361
+March	März	js	3361
+April	April	js	3361
+May	Mai	js	3361
+June	Juni	js	3361
+July	Juli	js	3362
+August	August	js	3362
+September	September	js	3362
+October	Oktober	js	3362
+November	November	js	3362
+December	Dezember	js	3362
+no challenge today	heute keine Challenge	js	3377
+Daily challenge 	Tägliche Challenge 	js	3383
+Grad	=	js	3408
+Town	Stadt	js	3408
+Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.	Lauf durch die Stadt, sprich mit Leuten, löse fünf Aufgaben: Einkaufen, Lieferung, Quiz und ein Plausch an der Kasse.	js	3409
+Pamti pa piši	=	js	3410
+Remember & Write	Merken & Schreiben	js	3410
+Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.	Bilder blitzen auf, du schreibst sie aus dem Gedächtnis auf – streng, mit allen diakritischen Zeichen. Hundert Level, drei Herzen.	js	3411
+Fortress	Festung	js	3412
+The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.	Der Burgvogt liegt im Krankenhaus, und jeder Schlüssel ist versteckt. Zwölf Räume, ein Schlüssel nach dem anderen – bevor der Stadtrat über den Verkauf der Festung abstimmt.	js	3413
+Konoba	=	js	3414
+Tavern	Taverne	js	3414
+Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.	Gäste bestellen im Akkusativ, du servierst nach Bildern. Acht Schichten, jedes Mal mehr Gerichte und Adjektive.	js	3415
+Warehouse	Lagerhaus	js	3416
+You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.	Du wählst den Einsatz. Schieb Wortkisten in die Garage ihrer Kategorie. Höherer Einsatz, größeres Lager.	js	3417
+Poštanski vlak	=	js	3418
+Mail Train	Postzug	js	3418
+Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.	Füll die Waggons vor der Abfahrt. Die Regel ändert sich ständig: Kategorie, Geschlecht, Anfangsbuchstabe, Übersetzung.	js	3419
+Labirint	=	js	3420
+Maze	Labyrinth	js	3420
+Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.	Sammle nur die Wörter der vorgegebenen Kategorie. Eindringlinge kosten Herzen, Geister jagen dich.	js	3421
+Zmija	=	js	3422
+Snake	Schlange	js	3422
+Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.	Friss die Buchstaben in der richtigen Reihenfolge, um das Wort zum Bild zu schreiben. Ein falscher Buchstabe kostet ein Herz.	js	3423
+Portal	Portal	js	3424
+Platformer	Jump 'n' Run	js	3424
+Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.	Zwei Ufer und ein Leuchtturm. Spring in die Wolke mit dem richtigen Wort, kletter zum Portal und wechsle auf die andere Seite. Krabben klettern auch.	js	3425
+Survival	Überleben	js	3426
+Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.	Zwanzig richtige Antworten gegen die Uhr. Treffer landen in deiner Liste der beherrschten Wörter, Fehler in der Wiederholungsliste.	js	3427
+Obrana baze	=	js	3428
+Base Defense	Basisverteidigung	js	3428
+Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.	Wörter fallen auf deine Basis zu, du klickst die Übersetzung an. Fünfzehn Wellen, beide Richtungen, vier Antworten am unteren Rand.	js	3429
+Gradovi Hrvatske	=	js	3430
+Croatian Towns	Kroatische Städte	js	3430
+All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.	Alle 128 Städte Kroatiens, von Ilok an der Donau bis Dubrovnik. In jeder spricht dich jemand auf Kroatisch an, und nur eine von drei Antworten passt. Drei Herzen, die nie zurückkommen.	js	3431
+The market	Der Markt	js	3443
+Tap anything on the market stall and type its Croatian name.	Tippe auf irgendetwas am Marktstand und schreib seinen kroatischen Namen.	js	3446
+Five things at the market	Fünf Dinge auf dem Markt	js	3467
+Tap five things in the picture and type their Croatian names.	Tippe auf fünf Dinge im Bild und schreib ihre kroatischen Namen.	js	3470
+Kupaonica	=	js	3472
+Seven things in the bathroom	Sieben Dinge im Badezimmer	js	3472
+Name seven things in the picture, then match a short story with its English.	Benenne sieben Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3475
+Radni stol	=	js	3476
+A desk by the window	Ein Schreibtisch am Fenster	js	3476
+Name six things in the picture, then match a short story with its English.	Benenne sechs Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3479
+Balkon	=	js	3480
+A morning on the balcony	Ein Morgen auf dem Balkon	js	3480
+Stanica	=	js	3484
+At the bus stop	An der Bushaltestelle	js	3484
+Dnevni boravak	=	js	3488
+A quiet living room	Ein ruhiges Wohnzimmer	js	3488
+Piknik	=	js	3492
+A picnic in the park	Ein Picknick im Park	js	3492
+A birthday table	Ein Geburtstagstisch	js	3496
+Ribolov	=	js	3500
+Fishing on a calm sea	Angeln auf ruhiger See	js	3500
+Kofer	=	js	3504
+Packing for a holiday	Koffer packen für den Urlaub	js	3504
+Football in the backyard	Fußball im Hinterhof	js	3508
+Glazbena soba	=	js	3512
+A small music room	Ein kleines Musikzimmer	js	3512
+Trg	=	js	3516
+A sunny town square	Ein sonniger Marktplatz	js	3516
+A table set for dinner	Ein gedeckter Tisch zum Abendessen	js	3520
+Planinska koliba	=	js	3524
+A hut in the mountains	Eine Hütte in den Bergen	js	3524
+The postman at the door	Der Briefträger an der Tür	js	3528
+Taksi	=	js	3532
+A taxi by the river	Ein Taxi am Fluss	js	3532
+A hot day on the beach	Ein heißer Tag am Strand	js	3536
+Aerodrom	=	js	3540
+Waiting at the airport	Warten am Flughafen	js	3540
+Ispred kuće	=	js	3544
+A sunny corner in front of the house	Ein sonniges Eckchen vor dem Haus	js	3544
+Peron	=	js	3548
+A quiet railway platform	Ein ruhiger Bahnsteig	js	3548
+Doručak na terasi	=	js	3552
+Breakfast outside	Frühstück draußen	js	3552
+Name five things in the picture, then match a short story with its English.	Benenne fünf Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3555
+A surprise on the table	Eine Überraschung auf dem Tisch	js	3556
+Listen Read Write Speak	Hören Lesen Schreiben Sprechen	js	3624
+Notebook	Notizbuch	js	3625
+Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.	Füge einen beliebigen Text ein – ein Lied, ein Gedicht, einen Artikel. Er wird in Zeilen aufgeteilt: Hör dir jede an, prüf sie mit Google Übersetzer, schreib deine eigene Übersetzung und sprich sie dann laut aus, um zu sehen, was das Mikrofon gehört hat.	js	3626
+Zasticeni sadrzaj nije ucitan:	=	js	3839
++ Add to dictionary	+ Zum Wörterbuch hinzufügen	js	3997
+on je	=	js	4003
+Htio bih... / Htjela bih...	=	js	4004
+zato što	=	js	4008
+No words yet	Noch keine Wörter	js	4124
+Sign-in isn\'t configured yet.	Die Anmeldung ist noch nicht eingerichtet.	js	4328
+Login failed	Anmeldung fehlgeschlagen	js	4330
+Sign-up failed	Registrierung fehlgeschlagen	js	4336
+Confirm email	E-Mail bestätigen	js	4337
+Sign-in is unavailable — the app could not load its login library. 	Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. 	js	4348
+Check your connection or any content blocker, then reload the page.	Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.	js	4349
+Sign-in failed: 	Anmeldung fehlgeschlagen: 	js	4356
+No data — run osvježi.bat to generate data.js.	Keine Daten – führe osvježi.bat aus, um data.js zu erzeugen.	js-html	4408
+Sign-in did not complete. If you opened Croland from inside another app 	Die Anmeldung wurde nicht abgeschlossen. Wenn du Croland in einer anderen App geöffnet hast 	js	4444
+(Messenger, Instagram, Facebook), open it in your browser instead — Google blocks 	(Messenger, Instagram, Facebook), öffne es stattdessen in deinem Browser – Google blockiert 	js	4445
+sign-in in embedded browsers.	die Anmeldung in eingebetteten Browsern.	js	4446
+Play again	Nochmal spielen	js	4465
+Stol je star i velik	=	js	4496
+Stol je velik i star	=	js	4496
+kuća (f.)	kuća (f.)	js	4526
+Play pronunciation — then say it out loud	Aussprache abspielen – dann laut nachsprechen	js	4654
+Play pronunciation	Aussprache abspielen	js	4656
+Enter	Eingabe	js	4659
+Insert 	Einfügen 	js	4703
+New units unlocked!	Neue Einheiten freigeschaltet!	js	4855
+New unit unlocked!	Neue Einheit freigeschaltet!	js	4855
+You\'ve earned enough points — nicely done! 🎉	Du hast genug Punkte gesammelt – gut gemacht! 🎉	js-html	4856
+Now open:	Jetzt offen:	js-html	4857
+Keep exploring	Weiter erkunden	js	4869
+Create your free account	Erstelle dein kostenloses Konto	js	4894
+Welcome back	Willkommen zurück	js	4894
+A free account opens Level 1 across every track, plus daily challenges and mini games.	Ein kostenloses Konto öffnet Level 1 in allen Bereichen, dazu tägliche Challenges und Minispiele.	js	4896
+Log in to carry on where you left off.	Melde dich an, um dort weiterzumachen, wo du aufgehört hast.	js	4897
+Continue with Google	Weiter mit Google	js-html	4900
+Email	E-Mail	js-html	4902
+Password	Passwort	js-html	4904
+your password	dein Passwort	js	4907
+Create account	Konto erstellen	js	4909
+Log in	Anmelden	js	4909
+Already have an account?	Du hast schon ein Konto?	js-html	4911
+New here?	Neu hier?	js-html	4912
+Create a free account	Kostenloses Konto erstellen	js-html	4912
+Not now	Nicht jetzt	js-html	4913
+Enter an email and a password of at least 6 characters.	Gib eine E-Mail-Adresse und ein Passwort mit mindestens 6 Zeichen ein.	js	4936
+Almost there — check your inbox and click the confirmation link, then log in.	Fast geschafft – schau in dein Postfach, klick auf den Bestätigungslink und melde dich dann an.	js	4943
+Enter an email and password.	Gib eine E-Mail-Adresse und ein Passwort ein.	js	4949
+Croland Plus	Croland Plus	js-html	4981
+Level 2 and above need an active subscription. Manage it from your account page.	Ab Level 2 brauchst du ein aktives Abo. Du verwaltest es auf deiner Kontoseite.	js-html	4982
+Go to account	Zum Konto	js	4983
+Account created!	Konto erstellt!	js-html	5005
+The course is open. Alongside Lesson 1 you can now play:	Der Kurs ist offen. Neben Lektion 1 kannst du jetzt spielen:	js-html	5006
+Yes	Ja	js	5056
+Cancel	Abbrechen	js	5058
+Finish now	Jetzt beenden	js	5071
+Done reading	Fertig gelesen	js	5071
+Try again	Nochmal versuchen	js	5071
+Mistakes: N	Fehler: N	js	5077
+Great job! 🎉	Super gemacht! 🎉	js	5108
+Well done! 👍	Gut gemacht! 👍	js	5108
+Keep going! 💪	Weiter so! 💪	js	5108
+saved to your dictionary — the word game can use them now.	in deinem Wörterbuch gespeichert – das Wortspiel kann sie jetzt verwenden.	js-html	5117
+Day	Tag	js-html	5131
+ points to every currency	 Punkte in jeder Währung	js	5132
+Come back tomorrow for +	Komm morgen wieder für +	js-html	5133
+Next	Weiter	js	5141
+Welcome to your first real Croatian lesson!	@blobby	js	5172
+Here's a secret: you already speak some Croatian	@blobby	js	5173
+By the end of this lesson you'll describe houses	@blobby	js	5174
+To say anything about anything, Croatian needs	@blobby	js	5175
+Notice what's missing?	@blobby	js	5176
+Bravo! You just built your first Croatian	@blobby	js	5177
+You've already used everything on this page	@blobby	js	5178
+Every noun has a gender.	@blobby	js	5179
+One exception worth knowing.	@blobby	js	5180
+Time to read real Croatian!	@blobby	js	5181
+In Lesson 1 you described houses and coffee	@blobby	js	5182
+One verb, six forms — and you already know	@blobby	js	5183
+Spot the pattern:	@blobby	js	5184
+Odlično! You can now introduce yourself	@blobby	js	5185
+Here's the complete map of the verb you've been	@blobby	js	5186
+When in doubt in Croatia: start with	@blobby	js	5187
+Four people introduce themselves	@blobby	js	5188
+So far you can describe the world	@blobby	js	5189
+And notice something: you often don't even need	@blobby	js	5190
+The ending is the name tag:	@blobby	js	5191
+Sjajno! You can now say what you and others	@blobby	js	5192
+In Lesson 3 your ear learned the endings	@blobby	js	5193
+Drop the pronoun:	@blobby	js	5194
+A whole day of actions	@blobby	js	5195
+You can describe things, introduce people	@blobby	js	5196
+Today you get three tiny connector words	@blobby	js	5197
+You'll practice them on the warmest topic	@blobby	js	5198
+English uses	@blobby	js	5199
+Izvrsno! Your Croatian now flows in full	@blobby	js	5200
+The test: if English	@blobby	js	5201
+A family in one page	@blobby	js	5202
+Today is a big day	@blobby	js	5203
+Don't worry. Your first case changes exactly	@blobby	js	5204
+When a feminine word (ending in	@blobby	js	5205
+You just discovered it yourself:	@blobby	js	5206
+Čestitamo! You just learned your first Croatian	@blobby	js	5207
+"What a \""case\"" is:"	@blobby	js	5208
+Your accusative in action	@blobby	js	5209
+Last lesson you mastered the	@blobby	js	5210
+Things stay the same. People and animals get	@blobby	js	5211
+Two quirks to meet today:	@blobby	js	5212
+Bravo! You now handle the accusative for	@blobby	js	5213
+Croatian likes to mark	@blobby	js	5214
+This is why Lesson 3 felt easy	@blobby	js	5215
+City life, written the way Croatians actually	@blobby	js	5216
+One coffee, one friend, one tram	@blobby	js	5217
+We'll practice in the liveliest place possible	@blobby	js	5218
+One exception today:	@blobby	js	5219
+Sjajno! You can now talk about many things	@blobby	js	5220
+With this page your present tense is	@blobby	js	5221
+Learn them as words, not rules.	@blobby	js	5222
+A school day in the plural	@blobby	js	5223
+Summer is coming	@blobby	js	5224
+The Croatian future is refreshingly simple	@blobby	js	5225
+Recognize the rhythm?	@blobby	js	5226
+Odlično! Past lessons gave you the present	@blobby	js	5227
+Rule of thumb: the helper	@blobby	js	5228
+Summer plans — the kind of message	@blobby	js	5229
+Today's lesson is full of words you already know	@blobby	js	5230
+The new bit: making things	@blobby	js	5231
+The familiar trio again	@blobby	js	5232
+Bravo! Things are officially	@blobby	js	5233
+The possessives are adjectives at heart	@blobby	js	5234
+English speakers: this is the one trap.	@blobby	js	5235
+A club, a hobby, and a few people	@blobby	js	5236
+You can describe, ask, plan and dream in Croatian	@blobby	js	5237
+Good news: the past tense recycles something	@blobby	js	5238
+Let's talk about yesterday.	@blobby	js	5239
+All three are fine	@blobby	js	5240
+ČESTITAMO! Lessons 1–10 complete	@blobby	js	5241
+The participle shows the speaker's gender	@blobby	js	5242
+Your perfekt in the wild	@blobby	js	5243
+So far you've mostly been	@blobby	js	5244
+Seven little question words and one magic	@blobby	js	5245
+And the friendly tag at the end:	@blobby	js	5246
+Izvrsno! You can now ask about anything	@blobby	js	5247
+No question word? Use	@blobby	js	5248
+A present arrives, and nobody will say	@blobby	js	5249
+You've been suspiciously agreeable	@blobby	js	5250
+Today you learn to refuse soup	@blobby	js	5251
+English teachers hate this.	@blobby	js	5252
+Bravo! You can now refuse, deny and protest	@blobby	js	5253
+In Croatian, negatives stack	@blobby	js	5254
+A family of picky eaters	@blobby	js	5255
+Since Lesson 5 you can say where you're	@blobby	js	5256
+One tiny ending	@blobby	js	5257
+Same u/na logic as before:	@blobby	js	5258
+Sjajno! You now know where you're going AND	@blobby	js	5259
+Everyone is somewhere different	@blobby	js	5260
+December in Croatia: presents for everyone!	@blobby	js	5261
+Those endings	@blobby	js	5262
+Word order is flexible	@blobby	js	5263
+Divno! You can now give, send and bring	@blobby	js	5264
+The dative marks the	@blobby	js	5265
+December, and everyone is buying something	@blobby	js	5266
+Friday night! You're going out	@blobby	js	5267
+Today's case is the instrumental	@blobby	js	5268
+Think of it as: the vehicle is your instrument	@blobby	js	5269
+ČESTITAMO! Module C complete	@blobby	js	5270
+The most common English-speaker mistake	@blobby	js	5271
+Five down, two to go	@blobby	js	5272
+A night out and a train ride	@blobby	js	5273
+Whose house? Grandma's.	@blobby	js	5274
+All three answers live in one case	@blobby	js	5275
+Nema + genitive says something's missing	@blobby	js	5276
+Bravo! Belonging, origin and absence	@blobby	js	5277
+The genitive answers	@blobby	js	5278
+Case toolkit — complete!	@blobby	js	5279
+Grandma's house, and the road that leads	@blobby	js	5280
+Time to give orders — politely, of course	@blobby	js	5281
+Croatian commands are short and punchy	@blobby	js	5282
+Odlično! You can now give directions	@blobby	js	5283
+Familiar faces:	@blobby	js	5284
+A recipe, a set of directions, and a coach	@blobby	js	5285
+Imagine: a million euros lands in your account	@blobby	js	5286
+Croatian dreams run on the	@blobby	js	5287
+Krasno! You can now dream, wish and order	@blobby	js	5288
+The politeness machine:	@blobby	js	5289
+every teacher will thank you	@blobby	js	5290
+A million euros, and a perfect day	@blobby	js	5291
+Here's Croatian's deepest secret	@blobby	js	5292
+One twin describes the	@blobby	js	5293
+The tell-tale words:	@blobby	js	5294
+Fantastično! You've cracked aspect	@blobby	js	5295
+Every Croatian verb carries a built-in answer	@blobby	js	5296
+The homework trap:	@blobby	js	5297
+A letter that took all afternoon	@blobby	js	5298
+Twenty lessons ago, your first sentence was	@blobby	js	5299
+The final ingredients: five little connectors	@blobby	js	5300
+You did it. Twenty lessons ago you knew	@blobby	js	5301
+Your last text is someone remembering a summer	@blobby	js	5302
+lists every word on this page, with ' + IK('zvuk') + ' — and the ' + IK('igra') + ' game right under it drills the ones you saved.', tekst: 'Any word in the examples you do not recognise is in the	listet jedes Wort auf dieser Seite auf, mit ' + IK('zvuk') + ' – und das ' + IK('igra') + '-Spiel direkt darunter übt die Wörter, die du gespeichert hast.', tekst: 'Jedes Wort in den Beispielen, das du nicht kennst, steht im	js-html	5307
+— it holds every word on this page. ' + IK('knjiga'), provjera: 'The	– es enthält jedes Wort auf dieser Seite. ' + IK('knjiga'), provjera: 'Das	js-html	5307
+stays open during the checkpoint too. Nothing here is a trap. ' + IK('knjiga'), slaganje: 'Not sure which word is which? The	bleibt auch während der Abschlussprüfung offen. Hier ist nichts eine Falle. ' + IK('knjiga'), slaganje: 'Nicht sicher, welches Wort welches ist? Das	js-html	5307
+Nothing is ever lost	Nichts geht je verloren	js-html	5307
+No penalty, ever.	Keine Strafe, niemals.	js-html	5307
+No words yet.	Noch keine Wörter.	js-html	5307
+' + 'Words from this lesson appear here as soon as you add them to your dictionary ' + 'with	' + 'Wörter aus dieser Lektion erscheinen hier, sobald du sie zu deinem Wörterbuch hinzufügst ' + 'mit	js-html	5307
+“+ Add to dictionary”	„+ Zum Wörterbuch hinzufügen“	js-html	5307
+' + (tekst ? mdInline(tekst) : 'This exercise has no note yet. If you expected one here, the app is running on an older ' + '	' + (tekst ? mdInline(tekst) : 'Zu dieser Übung gibt es noch keinen Hinweis. Falls du hier einen erwartet hast, läuft die App mit einer älteren ' + '	js-html	5307
+— regenerate it and reload the page.') + '	– erzeuge sie neu und lade die Seite neu.') + '	js-html	5307
+Ask about this page	Frag zu dieser Seite	js-html	5307
+Start over	Neu anfangen	js-html	5307
+Stuck, or wondering why? Ask in your own words — the helper can see this page.	Hängst du fest oder fragst dich, warum? Frag in deinen eigenen Worten – der Helfer sieht diese Seite.	js-html	5307
+Ask	Fragen	js-html	5307
+Drag any of them	Zieh eines davon	js-html	5307
+Color scheme	Farbschema	js-html	5307
+\u2713 in use	✓ aktiv	js-html	5307
+Reading font	Leseschrift	js-html	5307
+Interface size	Größe der Oberfläche	js-html	5307
+Aa	Aa	js-html	5307
+Header	Kopfzeile	js-html	5307
+Show your points in the header	Punkte in der Kopfzeile anzeigen	js-html	5307
+LP · VP · GP · PP next to the menu. Off by default — ' + 'Progress shows the same numbers with more of the story.	LP · VP · GP · PP neben dem Menü. Standardmäßig aus – ' + 'Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.	js-html	5307
+Instructions	Anleitungen	js-html	5307
+Shorter instructions	Kürzere Anleitungen	js-html	5307
+The hint behind the info icon comes in a shorter version where one exists: ' + 'the rule and an example, without the explanation. Rule pages stay as they are.	Der Hinweis hinter dem Info-Symbol kommt in einer kürzeren Fassung, wo es eine gibt: ' + 'die Regel und ein Beispiel, ohne Erklärung. Regelseiten bleiben, wie sie sind.	js-html	5307
+Sticky notes	Haftnotizen	js-html	5307
+Show sticky notes	Haftnotizen anzeigen	js-html	5307
+Puts	Setzt	js-html	5307
+among the floating icons. ' + 'Four paper spots wait in the empty space beside the content \u2014 two on the left, ' + 'two on the right \u2014 and each note can be lined, squared or plain. A note belongs to ' + 'the lesson or mini game you wrote it on and stays there until you delete it. ' + 'Wide screens only: a phone or a tablet has no margin to put paper in. ' + 'Switching this off hides your notes, never deletes them.' + (cedBroj ? ' You have ' + cedBroj + ' note' + (cedBroj === 1 ? '' : 's') + ' saved.' : '') + '	zu den schwebenden Symbolen. ' + 'Vier Papierplätze warten im freien Raum neben dem Inhalt — zwei links, ' + 'zwei rechts — und jede Notiz kann liniert, kariert oder blanko sein. Eine Notiz gehört zu ' + 'der Lektion oder dem Minispiel, wo du sie geschrieben hast, und bleibt dort, bis du sie löschst. ' + 'Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. ' + 'Ausschalten blendet deine Notizen nur aus, löscht sie aber nie.' + (cedBroj ? ' Du hast ' + cedBroj + ' Notiz' + (cedBroj === 1 ? '' : 'en') + ' gespeichert.' : '') + '	js-html	5307
+Preview	Vorschau	js-html	5307
+Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.	=	js-html	5307
+Kupujem	=	js-html	5307
+' + 'Croatian marks the object of a sentence with its ending, not with word order. ' + '	' + 'Das Kroatische markiert das Objekt eines Satzes durch seine Endung, nicht durch die Wortstellung. ' + '	js-html	5307
+Jabuka	=	js-html	5307
+is the apple somebody ' + 'is doing something to. Change the ending and you change who is acting on what.	ist der Apfel, mit dem jemand ' + 'etwas macht. Ändere die Endung, und du änderst, wer auf was einwirkt.	js-html	5307
+Checking your session…	Sitzung wird geprüft …	js-html	5307
+Start	Start	js-html	5307
+' + z.osv + ' of ' + z.maks + ' points earned	' + z.osv + ' von ' + z.maks + ' Punkten erreicht	js-html	5307
+Continue	Weiter	js-html	5307
+' + (m ? m.treba + ' more ' + m.val + ' and this opens' : 'finish this row to open it') + '	' + (m ? 'noch ' + m.treba + ' ' + m.val + ', dann öffnet sich das' : 'schließe diese Reihe ab, um es zu öffnen') + '	js-html	5307
+See the map	Karte ansehen	js-html	5307
+All clear	Alles erledigt	js-html	5307
+Everything open is finished	Alles Offene ist abgeschlossen	js-html	5307
+Earn points anywhere and the next level opens by itself.	Sammle irgendwo Punkte, und das nächste Level öffnet sich von selbst.	js-html	5307
+Open the map	Karte öffnen	js-html	5307
+Quick practice	Schnell üben	js-html	5307
+' + (rj ? rj + ' word' + (rj === 1 ? '' : 's') + ' learned' : 'words you meet get saved here') + '	' + (rj ? rj + ' Wort' + (rj === 1 ? '' : 'e') + ' gelernt' : 'Wörter, die dir begegnen, werden hier gespeichert') + '	js-html	5307
+Extras	Extras	js-html	5307
+The long form. One sitting, all four skills.	Die lange Form. Eine Sitzung, alle vier Fertigkeiten.	js-html	5307
+no points — your own text	keine Punkte – dein eigener Text	js-html	5307
+Mini games	Minispiele	js-html	5307
+' + MINI_IGRE.length + ' short ones. Each is its own prototype, each pays out once.	' + MINI_IGRE.length + ' kurze. Jedes ist ein eigener Prototyp, jedes zahlt einmal aus.	js-html	5307
+Games & Extras ' + IK('igra') + '	Spiele & Extras ' + IK('igra') + '	js-html	5307
+of ' + maks + ' points earned	von ' + maks + ' Punkten erreicht	js-html	5307
+each game pays the same amount into	jedes Spiel zahlt denselben Betrag in	js-html	5307
+all four currencies	alle vier Währungen	js-html	5307
+' + 'Each game is a standalone prototype with its own built-in vocabulary of 246 words. ' + 'Progress is saved separately per game, and points count towards unlocking lessons.	' + 'Jedes Spiel ist ein eigenständiger Prototyp mit eigenem Wortschatz von 246 Wörtern. ' + 'Der Fortschritt wird pro Spiel getrennt gespeichert, und Punkte zählen zum Freischalten von Lektionen.	js-html	5307
+Play full screen · turn your phone sideways	Im Vollbild spielen · Handy quer halten	js-html	9408
+Exit full screen	Vollbild verlassen	js	9494
+Full screen	Vollbild	js	9494
+Lesson 0 — Welcome to Croatian	Lektion 0 – Willkommen im Kroatischen	js-html	9537
+the whole alphabet is yours · replay any time	das ganze Alphabet gehört dir · jederzeit wiederholen	js	9539
+ of 30 letters unlocked	 von 30 Buchstaben freigeschaltet	js	9540
+free intro, no account, about 5 minutes	kostenlose Einführung, kein Konto, etwa 5 Minuten	js	9540
+Vocab	Wort	js	9570
+Gram	Gram	js	9570
+Pract	Prax	js	9570
+Plus	Plus	js-html	9641
+Lesson 	Lektion 	js	9672
+Level 	Level 	js	9673
+Locked	Gesperrt	js-html	9694
+Level	Level	js-html	9732
+% to pass	% zum Bestehen	js	9794
+Complete	Abgeschlossen	js-html	9798
+Overview	Überblick	js-html	9840
+Cheat sheet	Spickzettel	js-html	9841
+Escape	=	js	9887
+Exercise 	Übung 	js	9930
+Test 	Test 	js	9996
+Before you start	Bevor du anfängst	js-html	10003
+for the whole test. The clock runs across all exercises.	für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.	js-html	10006
+One sitting: exercises follow one another and you cannot go back.	Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.	js-html	10007
+No scores in between — your result appears only at the end.	Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.	js-html	10008
+Pause whenever you like. The clock stops with you.	Pausiere, wann du willst. Die Uhr hält mit dir an.	js-html	10009
+No dictionary. Where a word is needed, the English is written into the question.	Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.	js-html	10010
+Your best so far:	Dein bisher bestes Ergebnis:	js-html	10012
+points. Only a better result replaces it.	Punkte. Nur ein besseres Ergebnis ersetzt es.	js-html	10012
+Start the test →	Test starten →	js-html	10013
+Leaving before the end means this attempt does not count.	Wenn du vor dem Ende gehst, zählt dieser Versuch nicht.	js-html	10014
+Pause	Pause	js-html	10051
+Skip this exercise	Diese Übung überspringen	js-html	10061
+Quit the test?	Test abbrechen?	js	10066
+The test is graded in one sitting. If you leave now, this attempt does not count and nothing is recorded.	Der Test wird in einer Sitzung bewertet. Wenn du jetzt gehst, zählt dieser Versuch nicht und nichts wird gespeichert.	js	10067
+Skip this exercise?	Diese Übung überspringen?	js	10073
+It is scored with whatever you have answered so far, and the test moves on. You cannot come back to it.	Sie wird mit dem bewertet, was du bisher beantwortet hast, und der Test geht weiter. Du kannst nicht zurückkehren.	js	10074
+Unknown format: 	Unbekanntes Format: 	js	10085
+Paused	Pausiert	js-html	10120
+The clock is stopped.	Die Uhr ist angehalten.	js-html	10121
+left when you come back.	übrig, wenn du zurückkommst.	js-html	10121
+Next exercise →	Nächste Übung →	js	10145
+Adding up your result.	Dein Ergebnis wird berechnet.	js	10147
+ · your score comes at the end	 · dein Ergebnis kommt am Ende	js	10148
+ran out of time	Zeit abgelaufen	js	10169
+not reached	nicht erreicht	js	10177
+Exercise	Übung	js	10190
+ — not yet 💪	 – noch nicht 💪	js	10198
+Time ran out — everything you answered still counts.	Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.	js	10200
+Whole test, one sitting. Here is how it went.	Ganzer Test, eine Sitzung. So ist es gelaufen.	js	10201
+Only your best test result is kept — retake it any time.	Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.	js-html	10205
+↻ Take the test again	↻ Test wiederholen	js-html	10206
+← Back to lessons	← Zurück zu den Lektionen	js-html	10207
+Loading this unit…	Diese Einheit wird geladen …	js	10234
+Maximum call stack size exceeded	=	js	10235
+Vjezbe bez para u data-plus.json (	=	js	10239
+This unit is temporarily unavailable —	Diese Einheit ist vorübergehend nicht verfügbar –	js-html	10241
+its content is out of date on the server. Please try again later.	ihr Inhalt ist auf dem Server veraltet. Bitte versuch es später noch einmal.	js-html	10242
+This unit could not be loaded.	Diese Einheit konnte nicht geladen werden.	js-html	10248
+Check your connection and try again.	Prüfe deine Verbindung und versuch es noch einmal.	js-html	10249
+‹ Explore the app	‹ App erkunden	js	10278
+Finish now?	Jetzt beenden?	js	10305
+The exercise ends and you take the points earned so far.	Die Übung endet, und du bekommst die bisher gesammelten Punkte.	js	10305
+Try again?	Nochmal versuchen?	js	10313
+Current progress in this exercise will be lost.	Der aktuelle Fortschritt in dieser Übung geht verloren.	js	10313
+The whole alphabet is yours. 🎉	Das ganze Alphabet gehört dir. 🎉	js	10371
+Nice work! 🎉	Gut gemacht! 🎉	js	10371
+You can read Croatian.	Du kannst Kroatisch lesen.	js-html	10372
+Five minutes ago these were strange letters.	Vor fünf Minuten waren das noch fremde Buchstaben.	js-html	10373
+All 	Alle 	js	10377
+words from this lesson are now in your	Wörter aus dieser Lektion sind jetzt in deinem	js-html	10377
+words from this lesson are already in your	Wörter aus dieser Lektion sind schon in deinem	js-html	10378
+All 30 letters unlocked.	Alle 30 Buchstaben freigeschaltet.	js-html	10381
+letters still dark — replay any exercise to light them up.	Buchstaben sind noch dunkel – wiederhole eine beliebige Übung, um sie aufleuchten zu lassen.	js-html	10383
+Lesson 1 starts the course itself — 13 exercises, still free.	Lektion 1 beginnt den eigentlichen Kurs – 13 Übungen, weiterhin kostenlos.	js-html	10386
+‹ Explore the app first	‹ Erst die App erkunden	js-html	10388
+"title=""Replay this exercise"">"	"title=""Diese Übung wiederholen"">"	js	10426
+not played	nicht gespielt	js-html	10428
+Everything in this unit is yours — all	Alles in dieser Einheit gehört dir – alle	js-html	10434
+points earned. Nothing left to win here.	Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.	js-html	10435
+ still waiting in 	 warten noch in 	js	10436
+Unit mastered! 🏆	Einheit gemeistert! 🏆	js	10448
+Unit complete! 🎉	Einheit abgeschlossen! 🎉	js	10448
+"\')"">‹ Back to "	"\')"">‹ Zurück zu "	js	10461
+to read · CHEE-tah-tee	lesen · TSCHI-ta-ti	js	10534
+to read	lesen	js	10534
+Nom	Nom	js	10716
+Gen	Gen	js	10716
+Dat	Dat	js	10716
+Acc	Akk	js	10716
+Voc	Vok	js	10716
+Loc	Lok	js	10716
+Ins	Ins	js	10716
+Singular	Singular	js	10732
+Plural	Plural	js	10732
+Present	Präsens	js	10770
+Imperative	Imperativ	js	10770
+Past participle	Partizip Perfekt	js-html	10774
+Future stem	Futurstamm	js-html	10777
+Comparison	Steigerung	js-html	10806
+Aspect pair	Aspektpaar	js-html	10811
+Form of:	Form von:	js-html	10813
+Variant of:	Variante von:	js-html	10814
+Other forms	Weitere Formen	js-html	10845
+Pronunciation	Aussprache	js-html	10849
+Added from	Hinzugefügt aus	js-html	10855
+Picture	Bild	js-html	10861
+Remove from favourites	Aus Favoriten entfernen	js	10891
+Add to favourites	Zu Favoriten hinzufügen	js	10891
+No match for “	Kein Treffer für „	js	10905
+Nothing here yet.	Hier ist noch nichts.	js	10906
+Not in the grammar database.	Nicht in der Grammatikdatenbank.	js-html	10941
+Full dictionary	Ganzes Wörterbuch	js	11017
+All	Alle	js	11017
+My words	Meine Wörter	js	11080
+Mine	Meine	js	11080
+Test your words	Teste deine Wörter	js-html	11092
+The dictionary file is missing	Die Wörterbuchdatei fehlt	js-html	11116
+rjecnik.js was not generated — run osvježi.bat and reload the page.	rjecnik.js wurde nicht erzeugt – führe osvježi.bat aus und lade die Seite neu.	js-html	11117
+No words saved yet	Noch keine Wörter gespeichert	js-html	11120
+Every word you meet in a lesson can be kept here — tap	Jedes Wort aus einer Lektion kannst du hier behalten – tippe auf	js-html	11121
+underneath it. This list is what the word test drills.	darunter. Diese Liste übt der Worttest.	js-html	11122
+Open a lesson	Lektion öffnen	js-html	11124
+Browse the full dictionary	Ganzes Wörterbuch durchsuchen	js-html	11125
+Show all words	Alle Wörter anzeigen	js	11142
+no favourites yet	noch keine Favoriten	js	11145
+ entries in the full dictionary	 Einträge im ganzen Wörterbuch	js	11147
+dictionary not loaded	Wörterbuch nicht geladen	js	11147
+No favourites yet. Tap 	Noch keine Favoriten. Tippe auf 	js	11160
+ next to any word to keep it here.	 neben einem Wort, um es hier zu behalten.	js	11160
+Nothing matches that search.	Nichts passt zu dieser Suche.	js	11161
+End	Ende	js	11302
+Croatian first — switch to English first	Kroatisch zuerst – auf Deutsch zuerst umschalten	js	11317
+English first — switch to Croatian first	Deutsch zuerst – auf Kroatisch zuerst umschalten	js	11318
+Word test	Worttest	js-html	11463
+Filter	Filter	js-html	11468
+Exit test	Test beenden	js-html	11473
+Favourites	Favoriten	js	11498
+By lesson	Nach Lektion	js	11499
+Tap one or more lesson numbers — 0 to	Tippe auf eine oder mehrere Lektionsnummern – 0 bis	js-html	11503
+Every entry in the dictionary, not just your own words.	Jeder Eintrag im Wörterbuch, nicht nur deine eigenen Wörter.	js-html	11511
+Only the words you starred	Nur die Wörter mit Stern	js-html	11513
+Every word you have added, all lessons together.	Jedes Wort, das du hinzugefügt hast, alle Lektionen zusammen.	js-html	11515
+My Dictionary	Mein Wörterbuch	js	11542
+No lesson selected	Keine Lektion ausgewählt	js	11545
+Pick at least one lesson in the Filter.	Wähle im Filter mindestens eine Lektion.	js	11558
+No word pairs in the selected lessons yet.	In den ausgewählten Lektionen gibt es noch keine Wortpaare.	js	11559
+No favourites yet — tap 	Noch keine Favoriten – tippe auf 	js	11561
+ next to a word in the dictionary or on a card.	 neben einem Wort im Wörterbuch oder auf einer Karte.	js	11561
+The dictionary file is missing — run osvježi.bat to generate rjecnik.js.	Die Wörterbuchdatei fehlt – führe osvježi.bat aus, um rjecnik.js zu erzeugen.	js	11563
+Your dictionary is empty — open a lesson and add words first.	Dein Wörterbuch ist leer – öffne eine Lektion und füge zuerst Wörter hinzu.	js	11564
+English → Croatian	Deutsch → Kroatisch	js	11576
+Croatian → English	Kroatisch → Deutsch	js	11576
+Write it in Croatian…	Schreib es auf Kroatisch …	js	11579
+Write it in English…	Schreib es auf Deutsch …	js	11579
+Check	Prüfen	js-html	11582
+— mind the accents:	– achte auf die Akzente:	js-html	11607
+— the answer is:	– die Antwort ist:	js-html	11608
+Next word →	Nächstes Wort →	js	11611
+Day streak	Tage in Folge	js-html	11634
+streak points earned · counts toward LP, VP, GP and PP	Serienpunkte erreicht · zählen für LP, VP, GP und PP	js-html	11635
+Done for today — come back tomorrow to make it 	Für heute fertig – komm morgen wieder und mach daraus 	js	11637
+Play today\'s challenge for +	Spiel die heutige Challenge für +	js	11638
+ and keep the streak alive.	 und halte die Serie am Leben.	js	11639
+ and start a streak.	 und starte eine Serie.	js	11639
+Today	Heute	js-html	11647
+One picture a day. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Tag. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11649
+Today\'s challenge is not ready yet. Check back soon.	Die heutige Challenge ist noch nicht fertig. Schau bald wieder vorbei.	js-html	11651
+You have reached the end of the daily challenges. 🎉 New ones are on the way.	Du bist am Ende der täglichen Challenges angekommen. 🎉 Neue sind unterwegs.	js-html	11654
+One challenge per day. A new one unlocks tomorrow.	Eine Challenge pro Tag. Morgen wird eine neue freigeschaltet.	js-html	11665
+Weekly challenges are coming soon.	Wöchentliche Challenges kommen bald.	js-html	11670
+Week	Woche	js-html	11678
+One picture a week. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Woche. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11681
+Takes a minute, and no card. Here is what it opens:	Dauert eine Minute, keine Karte nötig. Das wird freigeschaltet:	js	11755
+Log in and pick up exactly where you left off.	Melde dich an und mach genau dort weiter, wo du aufgehört hast.	js	11756
+Level 1, the daily challenge and all mini games — free.	Level 1, die tägliche Challenge und alle Minispiele – kostenlos.	js-html	11776
+Points and dictionary follow you to any device.	Punkte und Wörterbuch begleiten dich auf jedes Gerät.	js-html	11777
+Lesson 0 needs no account at all — it is open right now.	Lektion 0 braucht überhaupt kein Konto – sie ist sofort offen.	js-html	11778
+Lesson points	Lektionspunkte	js	11840
+Vocabulary points	Wortschatzpunkte	js	11840
+Grammar points	Grammatikpunkte	js	11841
+Practice points	Praxispunkte	js	11841
+Everything you have earned, and the shortest way to more of it. 	Alles, was du erreicht hast, und der kürzeste Weg zu mehr. 	js	11863
+Click any unit to see it exercise by exercise.	Klicke auf eine Einheit, um sie Übung für Übung zu sehen.	js-html	11864
+You	Du	js-html	11866
+Friends & groups	Freunde & Gruppen	js-html	11868
+Where you stand	Wo du stehst	js	11883
+Daily streak ·	Tägliche Serie ·	js-html	11916
+Words in your dictionary	Wörter in deinem Wörterbuch	js-html	11918
+Exercises played	Gespielte Übungen	js-html	11920
+Mini game points	Minispielpunkte	js-html	11922
+One square per unit. Click one to open it exercise by exercise — that is where	Ein Feld pro Einheit. Klick eines an, um es Übung für Übung zu öffnen – dort	js-html	11927
+you see which single exercise is still holding points, and jump straight back into it.	siehst du, welche einzelne Übung noch Punkte hält, und springst direkt wieder hinein.	js-html	11928
+needs all four types at level 	braucht alle vier Arten auf Level 	js	11947
+Show all	Alle anzeigen	js-html	11968
+Show less ▴	Weniger anzeigen ▴	js-html	11972
+not started	nicht begonnen	js-html	11975
+in progress	in Arbeit	js-html	11976
+locked — hover to see what it needs	gesperrt – fahr mit der Maus darüber, um zu sehen, was nötig ist	js-html	11978
+The whole course	Der ganze Kurs	js-html	11992
+ points from all units of the 	 Punkte aus allen Einheiten der 	js	11994
+levels (mini games and challenges not included)	Level (Minispiele und Challenges nicht mitgerechnet)	js-html	11995
+All your points together:	Alle deine Punkte zusammen:	js-html	11997
+— units, games, challenges and streak	– Einheiten, Spiele, Challenges und Serie	js-html	11998
+Worth going back to	Lohnt sich zu wiederholen	js-html	12004
+The unlocked exercises holding the most points. Only your best attempt ever	Die freigeschalteten Übungen mit den meisten offenen Punkten. Nur dein bester Versuch	js-html	12005
+counts, so replaying one can add points but never take them away.	zählt, also kann Wiederholen Punkte bringen, aber nie welche kosten.	js-html	12006
+Daily challenges	Tägliche Challenges	js-html	12026
+ will be worth 	 sind wert 	js	12029
+points in every currency.	Punkte in jeder Währung.	js-html	12030
+Each one pays out once, the same amount into all four currencies.	Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen.	js-html	12044
+Click one to open it.	Klick eine an, um sie zu öffnen.	js-html	12045
+""" title=""Open this exercise"">"	""" title=""Diese Übung öffnen"">"	js	12114
+are still waiting in this unit.	warten noch in dieser Einheit.	js-html	12134
+Everything here is yours — all	Alles hier gehört dir – alle	js-html	12135
+Click any exercise to replay it.	Klick auf eine Übung, um sie zu wiederholen.	js-html	12136
+Open this exercise?	Diese Übung öffnen?	js	12184
+You will leave Progress and go straight into the exercise. You have not played it yet — all 	Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle 	js	12188
+ points are still there.	 Punkte sind noch da.	js	12189
+You will leave Progress and go straight into the exercise. Your best result (	Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (	js	12190
+) is kept: a weaker run can never cost you points.	) bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.	js	12191
+Open exercise	Übung öffnen	js	12192
+You have already earned all 	Du hast bereits alle 	js	12201
+ points from this one. The payout happens once, so 	 Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also 	js	12201
+playing it again is purely for the fun of it.	ist erneutes Spielen reiner Spaß.	js	12202
+You have earned 	Du hast hier 	js	12204
+ points here. The rest is still waiting, and points 	 Punkte erreicht. Der Rest wartet noch, und Punkte, die 	js	12204
+already earned cannot be lost.	du schon hast, können nicht verloren gehen.	js	12205
+ points are still there. They go into every currency at once.	 Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.	js	12206
+Open this game?	Dieses Spiel öffnen?	js	12207
+Open 	Öffnen: 	js	12209
+This part could not be loaded.	Dieser Teil konnte nicht geladen werden.	js-html	12245
+Your ID	Deine ID	js-html	12259
+Copy	Kopieren	js-html	12262
+The only way anyone can find you. Your e-mail is	Nur so kann dich jemand finden. Deine E-Mail-Adresse wird	js-html	12263
+never shown — not to friends, not to whoever pays for your access.	nie angezeigt – nicht Freunden, nicht dem, der für deinen Zugang bezahlt.	js-html	12264
+"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""the name others see"" value="""	"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""der Name, den andere sehen"" value="""	js	12267
+Save name	Namen speichern	js-html	12269
+Until you set one, people see only your ID.	Bis du einen festlegst, sehen andere nur deine ID.	js	12271
+Add someone	Jemanden hinzufügen	js-html	12275
+Five characters. No zero and no letter O, so there is nothing to mistype.	Fünf Zeichen. Keine Null und kein Buchstabe O, damit man sich nicht vertippen kann.	js-html	12276
+Sending a request means you will both see each other once they accept.	Wenn du eine Anfrage sendest, seht ihr euch gegenseitig, sobald sie angenommen wird.	js-html	12277
+Send request	Anfrage senden	js-html	12280
+Waiting	Wartet	js-html	12285
+Someone	Jemand	js	12288
+wants to see your points	möchte deine Punkte sehen	js-html	12290
+Accept	Annehmen	js-html	12292
+Decline	Ablehnen	js-html	12293
+your request — not answered yet	deine Anfrage – noch nicht beantwortet	js-html	12299
+Everyone you added	Alle, die du hinzugefügt hast	js-html	12306
+Nobody yet. Share your ID, or type someone else\'s above.	Noch niemand. Teile deine ID oder gib oben die ID von jemand anderem ein.	js-html	12308
+Points are always visible. Everything else only if that person set their	Punkte sind immer sichtbar. Alles andere nur, wenn die Person ihren	js-html	12310
+progress to public — those rows open up when you click them.	Fortschritt öffentlich gemacht hat – diese Zeilen öffnen sich, wenn du darauf klickst.	js-html	12311
+Who	Wer	js-html	12319
+Total	Gesamt	js-html	12320
+Shares	Teilt	js-html	12320
+Updated	Aktualisiert	js-html	12320
+What others see of you	Was andere von dir sehen	js-html	12340
+This applies to everyone in the list above, and to nobody else.	Das gilt für alle in der Liste oben und für niemanden sonst.	js-html	12341
+Points only	Nur Punkte	js-html	12345
+Your four totals and nothing else.	Deine vier Summen und sonst nichts.	js-html	12345
+This is the default and it never changes on its own.	Das ist die Standardeinstellung, und sie ändert sich nie von selbst.	js-html	12346
+Full progress	Voller Fortschritt	js-html	12349
+Every unit with its points — the same	Jede Einheit mit ihren Punkten – dieselbe	js-html	12349
+map you see under You.	Karte, die du unter „Du“ siehst.	js-html	12350
+over a month ago	vor über einem Monat	js	12369
+Copied	Kopiert	js	12377
+Could not save — try again.	Speichern fehlgeschlagen – versuch es noch einmal.	js	12384
+Saved.	Gespeichert.	js	12386
+Cleared — people see only your ID.	Gelöscht – andere sehen nur deine ID.	js	12386
+An ID is exactly five characters.	Eine ID hat genau fünf Zeichen.	js	12394
+Could not send it — try again later.	Senden fehlgeschlagen – versuch es später noch einmal.	js	12397
+No one has that ID.	Niemand hat diese ID.	js	12398
+to si ti	=	js	12399
+That is your own ID.	Das ist deine eigene ID.	js	12399
+Request sent to 	Anfrage gesendet an 	js	12400
+points in total	Punkte insgesamt	js-html	12479
+Read-only, and never their e-mail.	Nur lesbar, und nie ihre E-Mail-Adresse.	js-html	12483
+Last updated 	Zuletzt aktualisiert 	js	12484
+Everything unlocked ✓	Alles freigeschaltet ✓	js-html	12537
+Every level is open to	Jedes Level ist offen für	js-html	12538
+all accounts right now	alle Konten, gerade jetzt	js	12539
+Croland Plus ✓	Croland Plus ✓	js-html	12545
+Active	Aktiv	js-html	12546
+Manage subscription	Abo verwalten	js-html	12550
+Subscription management link not set up yet	Link zur Abo-Verwaltung noch nicht eingerichtet	js-html	12551
+(STRIPE_PORTAL_URL in index.html) — contact us to change or cancel for now.	(STRIPE_PORTAL_URL in index.html) – kontaktiere uns vorerst, um zu ändern oder zu kündigen.	js-html	12552
+Redirecting to checkout…	Weiterleitung zur Kasse …	js-html	12556
+Free account — Level 1, daily	Kostenloses Konto – Level 1, tägliche	js-html	12560
+challenges and mini games unlocked. Subscribe for Level 2 and above.	Challenges und Minispiele freigeschaltet. Abonniere für Level 2 und höher.	js-html	12561
+Subscribe	Abonnieren	js-html	12562
+Confirming your subscription…	Dein Abo wird bestätigt …	js-html	12567
+Log out	Abmelden	js-html	12573
+Exercises played:	Gespielte Übungen:	js-html	12580
+Daily streak:	Tägliche Serie:	js-html	12581
+streak points (added to each currency)	Serienpunkte (zu jeder Währung addiert)	js-html	12583
+Want a copy of your data, or want it	Möchtest du eine Kopie deiner Daten oder willst du sie	js-html	12585
+deleted? See our	löschen lassen? In unserer	js-html	12586
+Privacy Policy	Datenschutzerklärung	js-html	12586
+for how to request that.	steht, wie du das beantragst.	js-html	12586
+nisi unutar vježbe	=	js	12873
+Your first Croatian sentences	Deine ersten kroatischen Sätze	pregledi.js	14
+Kava je dobra.	=	pregledi.js	15
+The coffee is good.	Der Kaffee ist gut.	pregledi.js	15
+More je plavo.	=	pregledi.js	15
+The sea is blue.	Das Meer ist blau.	pregledi.js	15
+Grad je velik.	=	pregledi.js	16
+The city is big.	Die Stadt ist groß.	pregledi.js	16
+Kuća je velika.	=	pregledi.js	16
+The house is big.	Das Haus ist groß.	pregledi.js	16
+More je veliko.	=	pregledi.js	16
+The sea is big.	Das Meer ist groß.	pregledi.js	16
+Things, colours and sizes	Dinge, Farben und Größen	pregledi.js	18
+About 40 everyday words.	Etwa 40 Alltagswörter.	pregledi.js	18
+Endings that match	Endungen, die zusammenpassen	pregledi.js	22
+Kava nije dobra.	=	pregledi.js	23
+The coffee isn't good.	Der Kaffee ist nicht gut.	pregledi.js	23
+Read your first texts	Lies deine ersten Texte	pregledi.js	26
+A city, a room and a café.	Eine Stadt, ein Zimmer und ein Café.	pregledi.js	26
+Kava, molim.	=	pregledi.js	27
+A coffee, please.	Einen Kaffee, bitte.	pregledi.js	27
+Izvolite.	=	pregledi.js	27
+Here you are.	Bitte schön.	pregledi.js	27
+Thank you!	Danke!	pregledi.js	27
+Show what you know	Zeig, was du kannst	pregledi.js	28
+Words, endings and simple sentences.	Wörter, Endungen und einfache Sätze.	pregledi.js	28
+Talking about people	Über Menschen sprechen	pregledi.js	33
+Ja sam studentica.	=	pregledi.js	34
+I am a student.	Ich bin Studentin.	pregledi.js	34
+Ona je visoka.	=	pregledi.js	34
+She is tall.	Sie ist groß.	pregledi.js	34
+Ja sam Ana.	=	pregledi.js	35
+I am Ana.	Ich bin Ana.	pregledi.js	35
+Ti si Marko.	=	pregledi.js	35
+You are Marko.	Du bist Marko.	pregledi.js	35
+Oni su veseli.	=	pregledi.js	35
+They are cheerful.	Sie sind fröhlich.	pregledi.js	35
+Jobs, countries, character	Berufe, Länder, Charakter	pregledi.js	37
+People words and your first greetings.	Wörter für Menschen und deine ersten Begrüßungen.	pregledi.js	37
+Hrvat	=	pregledi.js	39
+Croat	Kroate	pregledi.js	39
+Talijan	=	pregledi.js	39
+Italian	Italiener	pregledi.js	39
+Nijemac	=	pregledi.js	39
+German	Deutscher	pregledi.js	39
+Kako si?	=	pregledi.js	40
+How are you?	Wie geht's dir?	pregledi.js	40
+Dobro sam.	=	pregledi.js	40
+I'm fine.	Mir geht's gut.	pregledi.js	40
+"The verb ""to be"""	Das Verb „sein“	pregledi.js	41
+Mi smo turisti.	=	pregledi.js	42
+We are tourists.	Wir sind Touristen.	pregledi.js	42
+Nisam gladan.	=	pregledi.js	42
+I'm not hungry.	Ich habe keinen Hunger.	pregledi.js	42
+on / ona	=	pregledi.js	43
+Meet new people	Neue Leute kennenlernen	pregledi.js	44
+Introductions, a café and a team.	Vorstellungen, ein Café und ein Team.	pregledi.js	44
+Tko si ti?	=	pregledi.js	45
+Who are you?	Wer bist du?	pregledi.js	45
+Kako ste?	=	pregledi.js	45
+Dobro sam, hvala.	=	pregledi.js	45
+I'm fine, thanks.	Mir geht's gut, danke.	pregledi.js	45
+"People, ""to be"" and introductions."	Menschen, „sein“ und Vorstellungen.	pregledi.js	46
+I am	ich bin	pregledi.js	48
+we are	wir sind	pregledi.js	48
+they are	sie sind	pregledi.js	48
+Things you do	Was du tust	pregledi.js	51
+Pijem čaj.	=	pregledi.js	52
+I'm drinking tea.	Ich trinke Tee.	pregledi.js	52
+Ana radi.	=	pregledi.js	52
+Ana is working.	Ana arbeitet.	pregledi.js	52
+I read	ich lese	pregledi.js	53
+you read	du liest	pregledi.js	53
+Everyday verbs	Alltagsverben	pregledi.js	55
+Verbs and the things that go with them.	Verben und was dazugehört.	pregledi.js	55
+The present tense	Das Präsens	pregledi.js	59
+Učim hrvatski.	=	pregledi.js	60
+I'm learning Croatian.	Ich lerne Kroatisch.	pregledi.js	60
+Ne pijem sok.	=	pregledi.js	60
+I'm not drinking juice.	Ich trinke keinen Saft.	pregledi.js	60
+A day of actions	Ein Tag voller Tätigkeiten	pregledi.js	62
+A flat, an evening and a quiet Sunday.	Eine Wohnung, ein Abend und ein ruhiger Sonntag.	pregledi.js	62
+Što radiš?	=	pregledi.js	63
+What are you doing?	Was machst du?	pregledi.js	63
+Gledam film.	=	pregledi.js	63
+I'm watching a film.	Ich schaue einen Film.	pregledi.js	63
+Everyday verbs in the present.	Alltagsverben im Präsens.	pregledi.js	64
+I don't drink	ich trinke nicht	pregledi.js	66
+The family	Die Familie	pregledi.js	69
+Tata kuha, a brat uči.	=	pregledi.js	70
+Dad cooks, my brother studies.	Papa kocht, mein Bruder lernt.	pregledi.js	70
+Mama radi i čita.	=	pregledi.js	70
+Mum works and reads.	Mama arbeitet und liest.	pregledi.js	70
+and, while	und, während	pregledi.js	71
+Family and home	Familie und Zuhause	pregledi.js	73
+Close family, wider family and new verbs.	Engste Familie, weitere Familie und neue Verben.	pregledi.js	73
+Joining sentences	Sätze verbinden	pregledi.js	77
+Ne plivam jer je hladno.	=	pregledi.js	78
+I'm not swimming because it's cold.	Ich schwimme nicht, weil es kalt ist.	pregledi.js	78
+Family life	Familienleben	pregledi.js	80
+A family, a busy morning and Saturday at home.	Eine Familie, ein hektischer Morgen und ein Samstag zu Hause.	pregledi.js	80
+Ovo je obitelj.	=	pregledi.js	81
+This is a family.	Das ist eine Familie.	pregledi.js	81
+Što radiš danas?	=	pregledi.js	81
+What are you doing today?	Was machst du heute?	pregledi.js	81
+Baka kuha.	=	pregledi.js	81
+Grandma is cooking.	Oma kocht.	pregledi.js	81
+Family words, verbs and joining words.	Familienwörter, Verben und Bindewörter.	pregledi.js	82
+Shopping	Einkaufen	pregledi.js	86
+Pijem kavu.	=	pregledi.js	87
+I'm drinking coffee.	Ich trinke Kaffee.	pregledi.js	87
+Trebate li vrećicu?	=	pregledi.js	87
+Do you need a bag?	Brauchen Sie eine Tüte?	pregledi.js	87
+Jedem jabuku.	=	pregledi.js	88
+I'm eating an apple.	Ich esse einen Apfel.	pregledi.js	88
+Shopping and food	Einkaufen und Essen	pregledi.js	90
+Market words and 10 new verbs.	Marktwörter und 10 neue Verben.	pregledi.js	90
+Your first case	Dein erster Fall	pregledi.js	94
+Kupujem svježu salatu.	=	pregledi.js	95
+I'm buying fresh lettuce.	Ich kaufe frischen Salat.	pregledi.js	95
+Idem u trgovinu.	=	pregledi.js	95
+I'm going to the shop.	Ich gehe in den Laden.	pregledi.js	95
+Pijem crnu kavu.	=	pregledi.js	96
+to the shop	in den Laden	pregledi.js	97
+to the market	auf den Markt	pregledi.js	97
+At the market	Auf dem Markt	pregledi.js	98
+A market, a note on the fridge and breakfast.	Ein Markt, ein Zettel am Kühlschrank und Frühstück.	pregledi.js	98
+Ana kupuje jabuku.	=	pregledi.js	99
+Ana is buying an apple.	Ana kauft einen Apfel.	pregledi.js	99
+Trebamo kruh i rižu.	=	pregledi.js	99
+We need bread and rice.	Wir brauchen Brot und Reis.	pregledi.js	99
+Volim kavu!	=	pregledi.js	99
+I love coffee!	Ich liebe Kaffee!	pregledi.js	99
+Food, shopping and your first case.	Essen, Einkaufen und dein erster Fall.	pregledi.js	100
+bread (no change)	Brot (keine Änderung)	pregledi.js	102
+In the city	In der Stadt	pregledi.js	105
+Vidim prijatelja.	=	pregledi.js	106
+I see a friend.	Ich sehe einen Freund.	pregledi.js	106
+Čekam tramvaj.	=	pregledi.js	106
+I'm waiting for the tram.	Ich warte auf die Straßenbahn.	pregledi.js	106
+Vidim tramvaj.	=	pregledi.js	107
+I see a tram.	Ich sehe eine Straßenbahn.	pregledi.js	107
+Vidim psa.	=	pregledi.js	107
+I see a dog.	Ich sehe einen Hund.	pregledi.js	107
+The city and traffic	Die Stadt und der Verkehr	pregledi.js	109
+People, transport and places in town.	Menschen, Verkehrsmittel und Orte in der Stadt.	pregledi.js	109
+People and things	Menschen und Dinge	pregledi.js	113
+Čekam prijatelja.	=	pregledi.js	114
+I'm waiting for a friend.	Ich warte auf einen Freund.	pregledi.js	114
+Vidim ga.	=	pregledi.js	114
+I see him.	Ich sehe ihn.	pregledi.js	114
+City life	Stadtleben	pregledi.js	117
+A tram ride, a busy street and a lost dog.	Eine Straßenbahnfahrt, eine belebte Straße und ein verlorener Hund.	pregledi.js	117
+Ana čeka tramvaj.	=	pregledi.js	118
+Ana is waiting for the tram.	Ana wartet auf die Straßenbahn.	pregledi.js	118
+Tramvaj je pun.	=	pregledi.js	118
+The tram is full.	Die Straßenbahn ist voll.	pregledi.js	118
+Excuse me!	Entschuldigung!	pregledi.js	118
+The city and the whole first case.	Die Stadt und der ganze erste Fall.	pregledi.js	119
+him, it	ihn, es	pregledi.js	121
+At school: more than one	In der Schule: mehr als eins	pregledi.js	124
+Knjige su nove.	=	pregledi.js	125
+The books are new.	Die Bücher sind neu.	pregledi.js	125
+Učenici pjevaju.	=	pregledi.js	125
+The pupils are singing.	Die Schüler singen.	pregledi.js	125
+School and songs	Schule und Lieder	pregledi.js	128
+School words, plurals and 10 new verbs.	Schulwörter, Plural und 10 neue Verben.	pregledi.js	128
+The plural	Der Plural	pregledi.js	132
+Stolovi su stari.	=	pregledi.js	133
+The tables are old.	Die Tische sind alt.	pregledi.js	133
+Djeca pjevaju.	=	pregledi.js	133
+The children are singing.	Die Kinder singen.	pregledi.js	133
+School days	Schultage	pregledi.js	136
+A school, a timetable, a choir and new pupils.	Eine Schule, ein Stundenplan, ein Chor und neue Schüler.	pregledi.js	136
+Dobro jutro, djeco!	=	pregledi.js	137
+Good morning, children!	Guten Morgen, Kinder!	pregledi.js	137
+Plural nouns, adjectives and verbs.	Nomen, Adjektive und Verben im Plural.	pregledi.js	138
+Summer plans	Sommerpläne	pregledi.js	143
+Plivat ću.	=	pregledi.js	144
+I will swim.	Ich werde schwimmen.	pregledi.js	144
+Mi ćemo putovati.	=	pregledi.js	144
+We will travel.	Wir werden reisen.	pregledi.js	144
+Putovat ćemo u subotu.	=	pregledi.js	145
+We will travel on Saturday.	Wir werden am Samstag reisen.	pregledi.js	145
+Neću plivati.	=	pregledi.js	145
+I won't swim.	Ich werde nicht schwimmen.	pregledi.js	145
+Plans and travel	Pläne und Reisen	pregledi.js	147
+Holidays, days, clothes and 10 new verbs.	Urlaub, Tage, Kleidung und 10 neue Verben.	pregledi.js	147
+The future	Das Futur	pregledi.js	151
+Sutra ću plivati.	=	pregledi.js	152
+Tomorrow I will swim.	Morgen werde ich schwimmen.	pregledi.js	152
+Neću raditi.	=	pregledi.js	152
+I won't work.	Ich werde nicht arbeiten.	pregledi.js	152
+Plans and journeys	Pläne und Fahrten	pregledi.js	154
+A summer plan, a packing list and a train ticket.	Ein Sommerplan, eine Packliste und eine Zugfahrkarte.	pregledi.js	154
+Ići ćemo u Split.	=	pregledi.js	155
+We will go to Split.	Wir werden nach Split fahren.	pregledi.js	155
+Ustat ću rano.	=	pregledi.js	155
+I will get up early.	Ich werde früh aufstehen.	pregledi.js	155
+Tata će voziti.	=	pregledi.js	155
+Dad will drive.	Papa wird fahren.	pregledi.js	155
+Plans, travel and the future.	Pläne, Reisen und das Futur.	pregledi.js	156
+Ja ću plivati.	=	pregledi.js	157
+Sport and hobbies	Sport und Hobbys	pregledi.js	160
+Moj hobi je fotografija.	=	pregledi.js	161
+My hobby is photography.	Mein Hobby ist Fotografie.	pregledi.js	161
+Boli me koljeno.	=	pregledi.js	161
+My knee hurts.	Mein Knie tut weh.	pregledi.js	161
+my jersey	mein Trikot	pregledi.js	162
+my ball	mein Ball	pregledi.js	162
+my knee	mein Knie	pregledi.js	162
+"Sport, body and ""my"""	Sport, Körper und „mein“	pregledi.js	164
+Sport words, the body and whose it is.	Sportwörter, der Körper und wem was gehört.	pregledi.js	164
+Mine, yours, ours	Mein, dein, unser	pregledi.js	168
+Marko voli svoju sestru.	=	pregledi.js	169
+Marko loves his own sister.	Marko liebt seine (eigene) Schwester.	pregledi.js	169
+my / his / her own	mein / sein / ihr eigener	pregledi.js	171
+Our club, my hobby	Unser Verein, mein Hobby	pregledi.js	172
+A hobby, a lost ball and a football club.	Ein Hobby, ein verlorener Ball und ein Fußballverein.	pregledi.js	172
+Je li ovo tvoja lopta?	=	pregledi.js	173
+Is this your ball?	Ist das dein Ball?	pregledi.js	173
+Da, moja je!	=	pregledi.js	173
+Yes, it's mine!	Ja, das ist meiner!	pregledi.js	173
+Naš klub je mali.	=	pregledi.js	173
+Our club is small.	Unser Verein ist klein.	pregledi.js	173
+Possessives, sport and the body.	Possessivpronomen, Sport und der Körper.	pregledi.js	174
+Yesterday	Gestern	pregledi.js	179
+Gledao sam film.	=	pregledi.js	180
+I watched a film.	Ich habe einen Film geschaut.	pregledi.js	180
+Bilo je savršeno.	=	pregledi.js	180
+It was perfect.	Es war perfekt.	pregledi.js	180
+On je gledao.	=	pregledi.js	181
+He watched.	Er hat geschaut.	pregledi.js	181
+Ona je gledala.	=	pregledi.js	181
+She watched.	Sie hat geschaut.	pregledi.js	181
+Oni su gledali.	=	pregledi.js	181
+They watched.	Sie haben geschaut.	pregledi.js	181
+Yesterday and free time	Gestern und Freizeit	pregledi.js	183
+Films, time words and phrases for stories.	Filme, Zeitwörter und Wendungen zum Erzählen.	pregledi.js	183
+Kako je bilo?	=	pregledi.js	186
+How was it?	Wie war es?	pregledi.js	186
+Bilo je super!	=	pregledi.js	186
+It was great!	Es war super!	pregledi.js	186
+The past tense	Die Vergangenheit	pregledi.js	187
+Jučer sam gledao film.	=	pregledi.js	188
+Yesterday I watched a film.	Gestern habe ich einen Film geschaut.	pregledi.js	188
+Nisam imao vremena.	=	pregledi.js	188
+I didn't have time.	Ich hatte keine Zeit.	pregledi.js	188
+I (did)	ich (habe gemacht)	pregledi.js	190
+I didn't	ich habe nicht	pregledi.js	190
+Last weekend	Letztes Wochenende	pregledi.js	191
+A lazy Saturday, the seaside and a family weekend.	Ein fauler Samstag, das Meer und ein Familienwochenende.	pregledi.js	191
+Gdje si bio jučer?	=	pregledi.js	192
+Where were you yesterday?	Wo warst du gestern?	pregledi.js	192
+Bio sam na moru.	=	pregledi.js	192
+I was at the seaside.	Ich war am Meer.	pregledi.js	192
+Plivao sam.	=	pregledi.js	192
+I swam.	Ich bin geschwommen.	pregledi.js	192
+The past tense and free time.	Die Vergangenheit und Freizeit.	pregledi.js	193
+I wasn't / didn't	ich war nicht / habe nicht	pregledi.js	195
+Asking questions	Fragen stellen	pregledi.js	198
+Što kupuješ?	=	pregledi.js	199
+What are you buying?	Was kaufst du?	pregledi.js	199
+Koliko košta?	=	pregledi.js	199
+How much is it?	Wie viel kostet das?	pregledi.js	199
+Gdje živiš?	=	pregledi.js	200
+Where do you live?	Wo wohnst du?	pregledi.js	200
+Voliš li kavu?	=	pregledi.js	200
+Do you like coffee?	Magst du Kaffee?	pregledi.js	200
+Lijepo je, zar ne?	=	pregledi.js	200
+It's nice, isn't it?	Schön, nicht wahr?	pregledi.js	200
+Questions and numbers	Fragen und Zahlen	pregledi.js	202
+Question words, numbers and birthdays.	Fragewörter, Zahlen und Geburtstage.	pregledi.js	202
+how much	wie viel	pregledi.js	204
+a hundred	hundert	pregledi.js	205
+Three ways to ask	Drei Arten zu fragen	pregledi.js	206
+Kada dolaziš?	=	pregledi.js	207
+When are you coming?	Wann kommst du?	pregledi.js	207
+Voliš li kavu? — Volim.	=	pregledi.js	207
+Do you like coffee? — I do.	Magst du Kaffee? – Ja.	pregledi.js	207
+Gdje si?	=	pregledi.js	208
+Where are you?	Wo bist du?	pregledi.js	208
+Jesi li umoran?	=	pregledi.js	208
+Are you tired?	Bist du müde?	pregledi.js	208
+Umoran si, zar ne?	=	pregledi.js	208
+You're tired, right?	Du bist müde, oder?	pregledi.js	208
+what kind	was für ein	pregledi.js	209
+The present mystery	Das Geschenkrätsel	pregledi.js	210
+A birthday present, a mystery box and a quiz.	Ein Geburtstagsgeschenk, eine geheimnisvolle Kiste und ein Quiz.	pregledi.js	210
+Za koga?	=	pregledi.js	211
+For whom?	Für wen?	pregledi.js	211
+Tko je poslao poklon?	=	pregledi.js	211
+Who sent the present?	Wer hat das Geschenk geschickt?	pregledi.js	211
+Sretan rođendan!	=	pregledi.js	211
+Happy birthday!	Alles Gute zum Geburtstag!	pregledi.js	211
+Questions, numbers and prices.	Fragen, Zahlen und Preise.	pregledi.js	212
+Koliko godina imaš?	=	pregledi.js	213
+How old are you?	Wie alt bist du?	pregledi.js	213
+Imam dvadeset godina.	=	pregledi.js	213
+I'm twenty.	Ich bin zwanzig.	pregledi.js	213
+Saying no	Nein sagen	pregledi.js	216
+Ništa ne jedem.	=	pregledi.js	217
+I'm not eating anything.	Ich esse nichts.	pregledi.js	217
+Nikad ne pijem mlijeko.	=	pregledi.js	217
+I never drink milk.	Ich trinke nie Milch.	pregledi.js	217
+I am not	ich bin nicht	pregledi.js	218
+I don't have	ich habe nicht	pregledi.js	218
+I won't	ich werde nicht	pregledi.js	218
+Food we (don't) like	Essen, das wir (nicht) mögen	pregledi.js	220
+Food, tastes and eating out.	Essen, Geschmack und auswärts essen.	pregledi.js	220
+Dobar tek!	=	pregledi.js	223
+Enjoy your meal!	Guten Appetit!	pregledi.js	223
+Račun, molim.	=	pregledi.js	223
+The bill, please.	Die Rechnung, bitte.	pregledi.js	223
+Negation	Verneinung	pregledi.js	224
+Nitko ne kuha.	=	pregledi.js	225
+Nobody is cooking.	Niemand kocht.	pregledi.js	225
+Ne pijem kavu, nego čaj.	=	pregledi.js	225
+I don't drink coffee, but tea.	Ich trinke keinen Kaffee, sondern Tee.	pregledi.js	225
+nešto → ništa	=	pregledi.js	226
+not yet	noch nicht	pregledi.js	227
+no longer	nicht mehr	pregledi.js	227
+The picky eaters	Die heiklen Esser	pregledi.js	228
+Soup, a restaurant and a child who eats nothing.	Suppe, ein Restaurant und ein Kind, das nichts isst.	pregledi.js	228
+Ne volim juhu.	=	pregledi.js	229
+I don't like soup.	Ich mag keine Suppe.	pregledi.js	229
+Imate li ribu?	=	pregledi.js	229
+Do you have fish?	Haben Sie Fisch?	pregledi.js	229
+Nažalost, nemamo.	=	pregledi.js	229
+Sorry, we don't.	Leider nicht.	pregledi.js	229
+Saying no, and food.	Nein sagen, und Essen.	pregledi.js	230
+Nemam vremena.	=	pregledi.js	231
+I don't have time.	Ich habe keine Zeit.	pregledi.js	231
+Neću doći.	=	pregledi.js	231
+I won't come.	Ich komme nicht.	pregledi.js	231
+Ja sam u gradu.	=	pregledi.js	235
+I'm in town.	Ich bin in der Stadt.	pregledi.js	235
+Ana je u školi.	=	pregledi.js	235
+Ana is at school.	Ana ist in der Schule.	pregledi.js	235
+Idem u grad.	=	pregledi.js	236
+I'm going to town.	Ich gehe in die Stadt.	pregledi.js	236
+Places and home	Orte und Zuhause	pregledi.js	238
+Places in town, rooms and furniture.	Orte in der Stadt, Zimmer und Möbel.	pregledi.js	238
+The locative	Der Lokativ	pregledi.js	242
+Radim u uredu.	=	pregledi.js	243
+I work in an office.	Ich arbeite in einem Büro.	pregledi.js	243
+Pričam o tebi.	=	pregledi.js	243
+I'm talking about you.	Ich rede über dich.	pregledi.js	243
+in the bank	in der Bank	pregledi.js	245
+about me	über mich	pregledi.js	245
+Around town	Unterwegs in der Stadt	pregledi.js	246
+A neighbourhood, a phone call and a family chat.	Ein Viertel, ein Telefonat und ein Familiengespräch.	pregledi.js	246
+U autobusu sam.	=	pregledi.js	247
+I'm on the bus.	Ich bin im Bus.	pregledi.js	247
+Još sam u uredu.	=	pregledi.js	247
+I'm still at the office.	Ich bin noch im Büro.	pregledi.js	247
+Where people and things are.	Wo Menschen und Dinge sind.	pregledi.js	248
+Giving presents	Geschenke machen	pregledi.js	252
+Mami kupujem šal.	=	pregledi.js	253
+I'm buying Mum a scarf.	Ich kaufe Mama einen Schal.	pregledi.js	253
+Pomažem bratu.	=	pregledi.js	253
+I'm helping my brother.	Ich helfe meinem Bruder.	pregledi.js	253
+to Mum	der Mama	pregledi.js	254
+to Dad	dem Papa	pregledi.js	254
+to my brother	meinem Bruder	pregledi.js	254
+Giving and receivers	Geben und Empfänger	pregledi.js	256
+Gifts, receivers and December words.	Geschenke, Empfänger und Dezemberwörter.	pregledi.js	256
+Christmas	Weihnachten	pregledi.js	259
+The dative	Der Dativ	pregledi.js	260
+Baka mi šalje paket.	=	pregledi.js	261
+Grandma is sending me a package.	Oma schickt mir ein Paket.	pregledi.js	261
+Meni, ne tebi!	=	pregledi.js	261
+To me, not to you!	Mir, nicht dir!	pregledi.js	261
+To whom?	Wem?	pregledi.js	263
+December gifts	Dezembergeschenke	pregledi.js	264
+Presents, a postman and a card from Grandma.	Geschenke, ein Briefträger und eine Karte von Oma.	pregledi.js	264
+Komu pišeš?	=	pregledi.js	265
+Who are you writing to?	Wem schreibst du?	pregledi.js	265
+Pišem baki.	=	pregledi.js	265
+I'm writing to Grandma.	Ich schreibe Oma.	pregledi.js	265
+Sretan Božić!	=	pregledi.js	265
+Merry Christmas!	Frohe Weihnachten!	pregledi.js	265
+Giving to someone, and being somewhere.	Jemandem etwas geben und irgendwo sein.	pregledi.js	266
+Dajem mami cvijeće.	=	pregledi.js	267
+I give Mum flowers.	Ich gebe Mama Blumen.	pregledi.js	267
+Mama je u kuhinji.	=	pregledi.js	267
+Mum is in the kitchen.	Mama ist in der Küche.	pregledi.js	267
+Going out	Ausgehen	pregledi.js	270
+Idem s Markom.	=	pregledi.js	271
+I'm going with Marko.	Ich gehe mit Marko.	pregledi.js	271
+Idemo vlakom.	=	pregledi.js	271
+We're going by train.	Wir fahren mit dem Zug.	pregledi.js	271
+with my brother	mit meinem Bruder	pregledi.js	272
+with my sister	mit meiner Schwester	pregledi.js	272
+Going out and weather	Ausgehen und Wetter	pregledi.js	274
+A night out, transport and the weather.	Ein Abend in der Stadt, Verkehrsmittel und das Wetter.	pregledi.js	274
+on foot	zu Fuß	pregledi.js	276
+The instrumental	Der Instrumental	pregledi.js	278
+Pišem olovkom.	=	pregledi.js	279
+I write with a pencil.	Ich schreibe mit einem Bleistift.	pregledi.js	279
+Idem s tobom.	=	pregledi.js	279
+I'm going with you.	Ich gehe mit dir.	pregledi.js	279
+with me	mit mir	pregledi.js	281
+with you	mit dir	pregledi.js	281
+Friday night	Freitagabend	pregledi.js	282
+Going out, a train ride and a café menu.	Ausgehen, eine Zugfahrt und eine Café-Karte.	pregledi.js	282
+S kim ideš?	=	pregledi.js	283
+Who are you going with?	Mit wem gehst du?	pregledi.js	283
+Sa sestrom.	=	pregledi.js	283
+With my sister.	Mit meiner Schwester.	pregledi.js	283
+Kava s mlijekom	=	pregledi.js	283
+Coffee with milk	Kaffee mit Milch	pregledi.js	283
+Four cases, one word.	Vier Fälle, ein Wort.	pregledi.js	284
+Vidim mamu.	=	pregledi.js	285
+I see Mum.	Ich sehe Mama.	pregledi.js	285
+Pišem mami.	=	pregledi.js	285
+I'm writing to Mum.	Ich schreibe Mama.	pregledi.js	285
+Pričam o mami.	=	pregledi.js	285
+I'm talking about Mum.	Ich rede über Mama.	pregledi.js	285
+Idem s mamom.	=	pregledi.js	285
+I'm going with Mum.	Ich gehe mit Mama.	pregledi.js	285
+Grandma's house	Omas Haus	pregledi.js	288
+Kava bez šećera.	=	pregledi.js	289
+Coffee without sugar.	Kaffee ohne Zucker.	pregledi.js	289
+Nema problema!	=	pregledi.js	289
+No problem!	Kein Problem!	pregledi.js	289
+next to the house	neben dem Haus	pregledi.js	290
+House and home	Haus und Zuhause	pregledi.js	292
+Home words and little words for places.	Wörter fürs Zuhause und kleine Ortswörter.	pregledi.js	292
+in front of	vor	pregledi.js	295
+The genitive	Der Genitiv	pregledi.js	296
+kuća moje bake	=	pregledi.js	297
+my grandma's house	das Haus meiner Oma	pregledi.js	297
+Dvije kave, molim.	=	pregledi.js	297
+Two coffees, please.	Zwei Kaffee, bitte.	pregledi.js	297
+The road to the sea	Der Weg ans Meer	pregledi.js	300
+Grandma's house, a café and a drive to the coast.	Omas Haus, ein Café und eine Fahrt an die Küste.	pregledi.js	300
+Pokraj kuće je vrt.	=	pregledi.js	301
+Next to the house is a garden.	Neben dem Haus ist ein Garten.	pregledi.js	301
+Jedan čaj za Marka.	=	pregledi.js	301
+One tea for Marko.	Einen Tee für Marko.	pregledi.js	301
+Putujemo iz Zagreba.	=	pregledi.js	301
+We're travelling from Zagreb.	Wir reisen aus Zagreb ab.	pregledi.js	301
+The genitive and the home.	Der Genitiv und das Zuhause.	pregledi.js	302
+Giving orders	Befehle geben	pregledi.js	306
+Uzmi tri jaja.	=	pregledi.js	307
+Take three eggs.	Nimm drei Eier.	pregledi.js	307
+Skrenite lijevo.	=	pregledi.js	307
+Turn left.	Biegen Sie links ab.	pregledi.js	307
+straight on	geradeaus	pregledi.js	309
+Recipes and directions	Rezepte und Wegbeschreibungen	pregledi.js	310
+Kitchen words, commands and directions.	Küchenwörter, Befehle und Wegbeschreibungen.	pregledi.js	310
+The imperative	Der Imperativ	pregledi.js	314
+Look! (all of you)	Schaut! (ihr alle)	pregledi.js	315
+Možeš li mi pomoći?	=	pregledi.js	315
+Can you help me?	Kannst du mir helfen?	pregledi.js	315
+I can	ich kann	pregledi.js	317
+I must	ich muss	pregledi.js	317
+I want	ich will	pregledi.js	317
+Pancakes, finding the station and a strict coach.	Pfannkuchen, der Weg zum Bahnhof und ein strenger Trainer.	pregledi.js	318
+Gdje je kolodvor?	=	pregledi.js	319
+Where is the station?	Wo ist der Bahnhof?	pregledi.js	319
+Idite ravno.	=	pregledi.js	319
+Go straight on.	Gehen Sie geradeaus.	pregledi.js	319
+Pij vodu!	=	pregledi.js	319
+Drink water!	Trink Wasser!	pregledi.js	319
+Commands, recipes and directions.	Befehle, Rezepte und Wegbeschreibungen.	pregledi.js	320
+A million euros	Eine Million Euro	pregledi.js	324
+Kupio bih kuću.	=	pregledi.js	325
+I would buy a house.	Ich würde ein Haus kaufen.	pregledi.js	325
+Htjela bih kavu.	=	pregledi.js	325
+I'd like a coffee.	Ich hätte gern einen Kaffee.	pregledi.js	325
+Kupio bih...	=	pregledi.js	326
+I would buy... (he)	Ich würde … kaufen. (er)	pregledi.js	326
+Kupila bih...	=	pregledi.js	326
+I would buy... (she)	Ich würde … kaufen. (sie)	pregledi.js	326
+Biste li mogli...?	=	pregledi.js	326
+Could you...?	Könnten Sie …?	pregledi.js	326
+Wishes and feelings	Wünsche und Gefühle	pregledi.js	328
+"Dreams, feelings and ""would""."	Träume, Gefühle und „würde“.	pregledi.js	328
+The conditional	Der Konditional	pregledi.js	332
+Išli bismo na more.	=	pregledi.js	333
+We would go to the sea.	Wir würden ans Meer fahren.	pregledi.js	333
+Ne bih žurila.	=	pregledi.js	333
+I wouldn't hurry.	Ich würde mich nicht beeilen.	pregledi.js	333
+Dreams and perfect days	Träume und perfekte Tage	pregledi.js	335
+Lottery dreams, a perfect day and a street survey.	Lottoträume, ein perfekter Tag und eine Straßenumfrage.	pregledi.js	335
+Prvo bih kupio kuću.	=	pregledi.js	336
+First I'd buy a house.	Zuerst würde ich ein Haus kaufen.	pregledi.js	336
+Svaki dan bih plivala.	=	pregledi.js	336
+I'd swim every day.	Ich würde jeden Tag schwimmen.	pregledi.js	336
+Što biste radili?	=	pregledi.js	336
+What would you do?	Was würden Sie tun?	pregledi.js	336
+Wishes, dreams and feelings.	Wünsche, Träume und Gefühle.	pregledi.js	337
+Verb twins	Verbzwillinge	pregledi.js	341
+Pisao sam pismo.	=	pregledi.js	342
+I was writing a letter.	Ich war dabei, einen Brief zu schreiben.	pregledi.js	342
+Napisao sam pismo.	=	pregledi.js	342
+I finished the letter.	Ich habe den Brief fertig geschrieben.	pregledi.js	342
+read → read it all	lesen → ganz durchlesen	pregledi.js	343
+for long	lange	pregledi.js	344
+Stories and events	Geschichten und Ereignisse	pregledi.js	345
+Verb pairs, time words and story words.	Verbpaare, Zeitwörter und Erzählwörter.	pregledi.js	345
+Finished or not?	Fertig oder nicht?	pregledi.js	348
+Ana je učila cijelu večer.	=	pregledi.js	349
+Ana studied all evening.	Ana hat den ganzen Abend gelernt.	pregledi.js	349
+Naučila je sve.	=	pregledi.js	349
+She learned everything.	Sie hat alles gelernt.	pregledi.js	349
+going on	im Verlauf	pregledi.js	350
+The letter	Der Brief	pregledi.js	351
+A long letter, homework and a Saturday list.	Ein langer Brief, Hausaufgaben und eine Samstagsliste.	pregledi.js	351
+Jesi li napisao zadaću?	=	pregledi.js	352
+Did you finish your homework?	Hast du deine Hausaufgaben fertig?	pregledi.js	352
+Verb pairs: going on or finished.	Verbpaare: im Verlauf oder abgeschlossen.	pregledi.js	353
+Big sentences	Lange Sätze	pregledi.js	357
+Ostajem doma jer pada kiša.	=	pregledi.js	358
+I'm staying in because it's raining.	Ich bleibe zu Hause, weil es regnet.	pregledi.js	358
+Ako je sunčano, idemo van.	=	pregledi.js	358
+If it's sunny, we'll go out.	Wenn es sonnig ist, gehen wir raus.	pregledi.js	358
+Memories and big sentences	Erinnerungen und lange Sätze	pregledi.js	361
+Joining words, summer memories and learning.	Bindewörter, Sommererinnerungen und Lernen.	pregledi.js	361
+Complex sentences	Komplexe Sätze	pregledi.js	365
+Mislim da ćeš doći.	=	pregledi.js	366
+I think you'll come.	Ich glaube, dass du kommst.	pregledi.js	366
+the film I'm watching	der Film, den ich schaue	pregledi.js	366
+Kad dođeš, zovi me.	=	pregledi.js	367
+When you come, call me.	Wenn du kommst, ruf mich an.	pregledi.js	367
+Znam da je velik.	=	pregledi.js	367
+I know that it is big.	Ich weiß, dass es groß ist.	pregledi.js	367
+The summer I remember	Der Sommer, an den ich mich erinnere	pregledi.js	369
+An island summer, an essay and a postcard.	Ein Inselsommer, ein Aufsatz und eine Postkarte.	pregledi.js	369
+Pozdrav s otoka!	=	pregledi.js	370
+Greetings from the island!	Grüße von der Insel!	pregledi.js	370
+Draga bako,	=	pregledi.js	370
+Dear Grandma,	Liebe Oma,	pregledi.js	370
+Učim hrvatski jer...	=	pregledi.js	370
+I'm learning Croatian because...	Ich lerne Kroatisch, weil …	pregledi.js	370
+The final test	Der Abschlusstest	pregledi.js	371
+Everything from all 20 lessons.	Alles aus allen 20 Lektionen.	pregledi.js	371
+I'm learning.	Ich lerne.	pregledi.js	372
+Učio sam.	=	pregledi.js	372
+I learned.	Ich habe gelernt.	pregledi.js	372
+Učit ću.	=	pregledi.js	372
+I will learn.	Ich werde lernen.	pregledi.js	372
+Učio bih.	=	pregledi.js	372
+I would learn.	Ich würde lernen.	pregledi.js	372

@@ -1,0 +1,1182 @@
+{
+ "_opis": {
+  "hr": "Tekstovi sučelja njemačkog tečaja na hrvatskom i engleskom. Ključevi su prijedlog — uskladiti s app.html.",
+  "en": "Interface strings for the German course in Croatian and English. Keys are a proposal — align with app.html."
+ },
+ "sucelje": {
+  "jezik_sucelja": {
+   "hr": "Jezik sučelja",
+   "en": "Interface language"
+  },
+  "hrvatski": {
+   "hr": "Hrvatski",
+   "en": "Croatian"
+  },
+  "engleski": {
+   "hr": "Engleski",
+   "en": "English"
+  },
+  "naziv_tecaja": {
+   "hr": "Njemački — Croland",
+   "en": "German — Croland"
+  },
+  "razina": {
+   "hr": "Razina",
+   "en": "Level"
+  },
+  "razina_n": {
+   "hr": "Razina {n}",
+   "en": "Level {n}"
+  },
+  "cjelina_lesson": {
+   "hr": "Lekcija",
+   "en": "Lesson"
+  },
+  "cjelina_vocabulary": {
+   "hr": "Vokabular",
+   "en": "Vocabulary"
+  },
+  "cjelina_grammar": {
+   "hr": "Gramatika",
+   "en": "Grammar"
+  },
+  "cjelina_practice": {
+   "hr": "Praksa",
+   "en": "Practice"
+  },
+  "cjelina_test": {
+   "hr": "Test",
+   "en": "Test"
+  },
+  "pocni": {
+   "hr": "Počni",
+   "en": "Start"
+  },
+  "nastavi": {
+   "hr": "Nastavi",
+   "en": "Continue"
+  },
+  "dalje": {
+   "hr": "Dalje",
+   "en": "Next"
+  },
+  "natrag": {
+   "hr": "Natrag",
+   "en": "Back"
+  },
+  "provjeri": {
+   "hr": "Provjeri",
+   "en": "Check"
+  },
+  "preskoci": {
+   "hr": "Preskoči",
+   "en": "Skip"
+  },
+  "ponovi": {
+   "hr": "Ponovi",
+   "en": "Try again"
+  },
+  "zatvori": {
+   "hr": "Zatvori",
+   "en": "Close"
+  },
+  "tocno": {
+   "hr": "Točno!",
+   "en": "Correct!"
+  },
+  "netocno": {
+   "hr": "Nije točno.",
+   "en": "Not quite."
+  },
+  "tocan_odgovor": {
+   "hr": "Točan odgovor:",
+   "en": "Correct answer:"
+  },
+  "bravo": {
+   "hr": "Bravo!",
+   "en": "Well done!"
+  },
+  "skoro": {
+   "hr": "Skoro!",
+   "en": "Almost!"
+  },
+  "rezultat": {
+   "hr": "Rezultat",
+   "en": "Score"
+  },
+  "bodovi": {
+   "hr": "Bodovi",
+   "en": "Points"
+  },
+  "prag": {
+   "hr": "Prag za prolaz: {p} %",
+   "en": "Pass mark: {p}%"
+  },
+  "polozeno": {
+   "hr": "Položeno!",
+   "en": "Passed!"
+  },
+  "nije_polozeno": {
+   "hr": "Još ne — pokušaj ponovno.",
+   "en": "Not yet — try again."
+  },
+  "vrijeme": {
+   "hr": "Preostalo vrijeme",
+   "en": "Time left"
+  },
+  "minuta": {
+   "hr": "{n} min",
+   "en": "{n} min"
+  },
+  "pomoc_info": {
+   "hr": "Objašnjenje",
+   "en": "Explanation"
+  },
+  "pomoc_most": {
+   "hr": "Usporedba s tvojim jezikom",
+   "en": "Compared with your language"
+  },
+  "sad_ti": {
+   "hr": "Sad ti.",
+   "en": "Your turn."
+  },
+  "nepoznate_rijeci": {
+   "hr": "Nepoznate riječi",
+   "en": "Passive words"
+  },
+  "hoeren_slusaj": {
+   "hr": "Poslušaj",
+   "en": "Listen"
+  },
+  "hoeren_ponovno": {
+   "hr": "Poslušaj ponovno",
+   "en": "Listen again"
+  },
+  "hoeren_sporije": {
+   "hr": "Sporije",
+   "en": "Slower"
+  },
+  "hoeren_tekst": {
+   "hr": "Prikaži tekst",
+   "en": "Show transcript"
+  },
+  "hoeren_preostalo": {
+   "hr": "Preostala slušanja: {n}",
+   "en": "Plays left: {n}"
+  },
+  "schreiben_zadatak": {
+   "hr": "Zadatak",
+   "en": "Task"
+  },
+  "schreiben_rijeci": {
+   "hr": "Broj riječi: {n} (cilj {od}–{do})",
+   "en": "Words: {n} (target {od}–{do})"
+  },
+  "schreiben_posalji": {
+   "hr": "Pošalji na provjeru",
+   "en": "Get feedback"
+  },
+  "schreiben_kriteriji": {
+   "hr": "Na što pazimo",
+   "en": "What we check"
+  },
+  "schreiben_uzorak": {
+   "hr": "Prikaži primjer rješenja",
+   "en": "Show model answer"
+  },
+  "sprechen_snimi": {
+   "hr": "Snimi",
+   "en": "Record"
+  },
+  "sprechen_stop": {
+   "hr": "Zaustavi",
+   "en": "Stop"
+  },
+  "sprechen_poslusaj_sebe": {
+   "hr": "Poslušaj sebe",
+   "en": "Play back"
+  },
+  "sprechen_izvorno": {
+   "hr": "Poslušaj izvorni izgovor",
+   "en": "Hear the model"
+  },
+  "sprechen_mikrofon": {
+   "hr": "Dopusti pristup mikrofonu",
+   "en": "Allow microphone access"
+  },
+  "baloni_promasaj": {
+   "hr": "Balon je odletio — vratit će se.",
+   "en": "The balloon floated away — it will come back."
+  },
+  "pamti_gledaj": {
+   "hr": "Zapamti!",
+   "en": "Remember!"
+  },
+  "pamti_izaberi": {
+   "hr": "Izaberi istim redom",
+   "en": "Pick them in the same order"
+  },
+  "slova_ponisti": {
+   "hr": "⌫ Poništi",
+   "en": "⌫ Undo"
+  },
+  "zid_dodirni": {
+   "hr": "Dodirni sliku",
+   "en": "Tap a picture"
+  },
+  "rjecnik": {
+   "hr": "Rječnik",
+   "en": "Dictionary"
+  },
+  "rjecnik_trazi": {
+   "hr": "Pretraži njemački, hrvatski ili engleski",
+   "en": "Search German, Croatian or English"
+  },
+  "rjecnik_rod": {
+   "hr": "Rod",
+   "en": "Gender"
+  },
+  "rod_der": {
+   "hr": "muški (der)",
+   "en": "masculine (der)"
+  },
+  "rod_die": {
+   "hr": "ženski (die)",
+   "en": "feminine (die)"
+  },
+  "rod_das": {
+   "hr": "srednji (das)",
+   "en": "neuter (das)"
+  },
+  "rjecnik_mnozina": {
+   "hr": "Množina",
+   "en": "Plural"
+  },
+  "rjecnik_oblici": {
+   "hr": "Oblici",
+   "en": "Forms"
+  },
+  "rjecnik_primjer": {
+   "hr": "Primjer",
+   "en": "Example"
+  },
+  "rjecnik_razina": {
+   "hr": "Uči se na razini {n}",
+   "en": "Taught at level {n}"
+  },
+  "rjecnik_odvojivi": {
+   "hr": "· = odvojivi prefiks",
+   "en": "· = separable prefix"
+  },
+  "ponavljanje": {
+   "hr": "Dnevno ponavljanje",
+   "en": "Daily review"
+  },
+  "ponavljanje_prazno": {
+   "hr": "Za danas nema ničega — bravo!",
+   "en": "Nothing to review today — well done!"
+  },
+  "napredak": {
+   "hr": "Napredak",
+   "en": "Progress"
+  },
+  "niz": {
+   "hr": "Niz dana: {n}",
+   "en": "Day streak: {n}"
+  },
+  "racun_napravi": {
+   "hr": "Napravi besplatan račun",
+   "en": "Create a free account"
+  },
+  "prijava": {
+   "hr": "Prijava",
+   "en": "Log in"
+  },
+  "odjava": {
+   "hr": "Odjava",
+   "en": "Log out"
+  },
+  "ai_napomena": {
+   "hr": "Sadržaj je pripremljen uz pomoć umjetne inteligencije.",
+   "en": "This content was prepared with the help of AI."
+  }
+ },
+ "formati": {
+  "tekst": {
+   "naziv": {
+    "hr": "Tekst",
+    "en": "Text"
+   },
+   "opis": {
+    "hr": "Pročitaj i poslušaj. Upiši riječ u prazno polje.",
+    "en": "Read and listen. Type the word into the gap."
+   }
+  },
+  "kartice": {
+   "naziv": {
+    "hr": "Kartice",
+    "en": "Flashcards"
+   },
+   "opis": {
+    "hr": "Okreni karticu i poslušaj riječ.",
+    "en": "Flip the card and listen to the word."
+   }
+  },
+  "brzina": {
+   "naziv": {
+    "hr": "Brzina",
+    "en": "Speed round"
+   },
+   "opis": {
+    "hr": "Odgovori prije isteka vremena.",
+    "en": "Answer before time runs out."
+   }
+  },
+  "parovi": {
+   "naziv": {
+    "hr": "Parovi",
+    "en": "Pairs"
+   },
+   "opis": {
+    "hr": "Spoji parove.",
+    "en": "Match the pairs."
+   }
+  },
+  "memorija": {
+   "naziv": {
+    "hr": "Memorija",
+    "en": "Memory"
+   },
+   "opis": {
+    "hr": "Okreni dvije kartice i pronađi par.",
+    "en": "Turn over two cards and find the pair."
+   }
+  },
+  "spajanje": {
+   "naziv": {
+    "hr": "Slike",
+    "en": "Pictures"
+   },
+   "opis": {
+    "hr": "Spoji sliku s riječju.",
+    "en": "Match each picture with its word."
+   }
+  },
+  "baloni": {
+   "naziv": {
+    "hr": "Baloni",
+    "en": "Balloons"
+   },
+   "opis": {
+    "hr": "Pojavi se slika — dodirni balon s njenom riječju.",
+    "en": "A picture appears — tap the balloon with its word."
+   }
+  },
+  "pamti": {
+   "naziv": {
+    "hr": "Zapamti",
+    "en": "Remember"
+   },
+   "opis": {
+    "hr": "Tri slike bljesnu pa nestanu — izaberi ih istim redom.",
+    "en": "Three pictures flash, then vanish — pick them in the same order."
+   }
+  },
+  "slova": {
+   "naziv": {
+    "hr": "Složi riječ",
+    "en": "Build the word"
+   },
+   "opis": {
+    "hr": "Složi riječ od slova ispod slike.",
+    "en": "Build the word from the letters under the picture."
+   }
+  },
+  "zid": {
+   "naziv": {
+    "hr": "Zid riječi",
+    "en": "Word wall"
+   },
+   "opis": {
+    "hr": "Dodirni sliku i poslušaj riječ.",
+    "en": "Tap a picture to hear the word."
+   }
+  },
+  "razvrstavanje": {
+   "naziv": {
+    "hr": "Razvrstaj",
+    "en": "Sort"
+   },
+   "opis": {
+    "hr": "Razvrstaj u stupce.",
+    "en": "Sort into the columns."
+   }
+  },
+  "izbor": {
+   "naziv": {
+    "hr": "Izaberi",
+    "en": "Choose"
+   },
+   "opis": {
+    "hr": "Izaberi točan odgovor.",
+    "en": "Choose the correct answer."
+   }
+  },
+  "nastavak": {
+   "naziv": {
+    "hr": "Nastavak",
+    "en": "Ending"
+   },
+   "opis": {
+    "hr": "Dodirni točan nastavak.",
+    "en": "Tap the correct ending."
+   }
+  },
+  "upis": {
+   "naziv": {
+    "hr": "Upiši",
+    "en": "Type it"
+   },
+   "opis": {
+    "hr": "Upiši odgovor.",
+    "en": "Type the answer."
+   }
+  },
+  "slaganje": {
+   "naziv": {
+    "hr": "Složi rečenicu",
+    "en": "Build the sentence"
+   },
+   "opis": {
+    "hr": "Složi rečenicu od riječi.",
+    "en": "Build the sentence from the words."
+   }
+  },
+  "poredak": {
+   "naziv": {
+    "hr": "Poredaj",
+    "en": "Put in order"
+   },
+   "opis": {
+    "hr": "Poredaj dijelove pravim redom.",
+    "en": "Put the parts in the right order."
+   }
+  },
+  "dijalog": {
+   "naziv": {
+    "hr": "Dijalog",
+    "en": "Dialogue"
+   },
+   "opis": {
+    "hr": "Izaberi što ćeš reći.",
+    "en": "Choose what you say."
+   }
+  },
+  "provjera": {
+   "naziv": {
+    "hr": "Provjera",
+    "en": "Checkpoint"
+   },
+   "opis": {
+    "hr": "Završna provjera — prag je naveden na početku.",
+    "en": "Final check — the pass mark is shown at the start."
+   }
+  },
+  "hoeren": {
+   "naziv": {
+    "hr": "Slušanje",
+    "en": "Listening"
+   },
+   "opis": {
+    "hr": "Poslušaj i odgovori. Tekst se otkriva nakon odgovora.",
+    "en": "Listen and answer. The transcript appears after you answer."
+   }
+  },
+  "schreiben": {
+   "naziv": {
+    "hr": "Pisanje",
+    "en": "Writing"
+   },
+   "opis": {
+    "hr": "Napiši tekst prema zadatku. Dobit ćeš povratnu informaciju.",
+    "en": "Write a text for the task. You will get feedback."
+   }
+  },
+  "sprechen": {
+   "naziv": {
+    "hr": "Govor",
+    "en": "Speaking"
+   },
+   "opis": {
+    "hr": "Izgovori rečenice naglas, a zatim riješi zadatak.",
+    "en": "Say the sentences out loud, then do the task."
+   }
+  }
+ },
+ "cjeline": {
+  "gramatika-01": {
+   "cjelina": "Grammar 1",
+   "hr": "Glagol sein i pitanje sa Sie",
+   "en": "sein & the Sie Question"
+  },
+  "gramatika-02": {
+   "cjelina": "Grammar 2",
+   "hr": "Tragovi za rod i nicht",
+   "en": "Gender Clues & nicht"
+  },
+  "gramatika-03": {
+   "cjelina": "Grammar 3",
+   "hr": "Prezent",
+   "en": "The Present Tense"
+  },
+  "gramatika-04": {
+   "cjelina": "Grammar 4",
+   "hr": "Akuzativ",
+   "en": "The Accusative"
+  },
+  "gramatika-05": {
+   "cjelina": "Grammar 5",
+   "hr": "Množina",
+   "en": "The Plural"
+  },
+  "gramatika-06": {
+   "cjelina": "Grammar 6",
+   "hr": "Glagoli koji mijenjaju samoglasnik",
+   "en": "Vowel-Changing Verbs"
+  },
+  "gramatika-07": {
+   "cjelina": "Grammar 7",
+   "hr": "Modalni glagoli",
+   "en": "Modal Verbs"
+  },
+  "gramatika-08": {
+   "cjelina": "Grammar 8",
+   "hr": "Odvojivi glagoli",
+   "en": "Separable Verbs"
+  },
+  "gramatika-09": {
+   "cjelina": "Grammar 9",
+   "hr": "Imperativ",
+   "en": "The Imperative"
+  },
+  "gramatika-10": {
+   "cjelina": "Grammar 10",
+   "hr": "Perfekt s haben",
+   "en": "Perfekt with haben"
+  },
+  "gramatika-11": {
+   "cjelina": "Grammar 11",
+   "hr": "haben ili sein?",
+   "en": "haben or sein?"
+  },
+  "gramatika-12": {
+   "cjelina": "Grammar 12",
+   "hr": "Dativ",
+   "en": "The Dative"
+  },
+  "gramatika-13": {
+   "cjelina": "Grammar 13",
+   "hr": "Zavisne rečenice",
+   "en": "Subordinate Clauses"
+  },
+  "gramatika-14": {
+   "cjelina": "Grammar 14",
+   "hr": "Gdje i kamo",
+   "en": "Where and Where To"
+  },
+  "gramatika-15": {
+   "cjelina": "Grammar 15",
+   "hr": "Dativni objekti i zamjenice",
+   "en": "Dative Objects & Pronouns"
+  },
+  "gramatika-16": {
+   "cjelina": "Grammar 16",
+   "hr": "Nastavci pridjeva I",
+   "en": "Adjective Endings I"
+  },
+  "gramatika-17": {
+   "cjelina": "Grammar 17",
+   "hr": "Uspoređivanje",
+   "en": "Comparing"
+  },
+  "gramatika-18": {
+   "cjelina": "Grammar 18",
+   "hr": "Povratni glagoli",
+   "en": "Reflexive Verbs"
+  },
+  "gramatika-19": {
+   "cjelina": "Grammar 19",
+   "hr": "Kondicional (Konjunktiv II)",
+   "en": "The Conditional (Konjunktiv II)"
+  },
+  "gramatika-20": {
+   "cjelina": "Grammar 20",
+   "hr": "Odnosne rečenice",
+   "en": "Relative Clauses"
+  },
+  "lekcija-00": {
+   "cjelina": "Lesson 0",
+   "hr": "Glasovi i pravopis",
+   "en": "Sounds & Spelling"
+  },
+  "lekcija-01": {
+   "cjelina": "Lesson 1",
+   "hr": "Hallo! Ja i ti",
+   "en": "Hallo! Me & You"
+  },
+  "lekcija-02": {
+   "cjelina": "Lesson 2",
+   "hr": "Stvari oko nas",
+   "en": "Things Around Us"
+  },
+  "lekcija-03": {
+   "cjelina": "Lesson 3",
+   "hr": "Svakodnevica",
+   "en": "Everyday Life"
+  },
+  "lekcija-04": {
+   "cjelina": "Lesson 4",
+   "hr": "Obitelj",
+   "en": "Family"
+  },
+  "lekcija-05": {
+   "cjelina": "Lesson 5",
+   "hr": "Kupovina i hrana",
+   "en": "Shopping & Food"
+  },
+  "lekcija-06": {
+   "cjelina": "Lesson 6",
+   "hr": "Slobodno vrijeme i hobiji",
+   "en": "Free Time & Hobbies"
+  },
+  "lekcija-07": {
+   "cjelina": "Lesson 7",
+   "hr": "Posao i obaveze",
+   "en": "Work & Duties"
+  },
+  "lekcija-08": {
+   "cjelina": "Lesson 8",
+   "hr": "Dnevna rutina",
+   "en": "Daily Routine"
+  },
+  "lekcija-09": {
+   "cjelina": "Lesson 9",
+   "hr": "Zdravlje i tijelo",
+   "en": "Health & Body"
+  },
+  "lekcija-10": {
+   "cjelina": "Lesson 10",
+   "hr": "Vikend",
+   "en": "The Weekend"
+  },
+  "lekcija-11": {
+   "cjelina": "Lesson 11",
+   "hr": "Putovanje",
+   "en": "Travel"
+  },
+  "lekcija-12": {
+   "cjelina": "Lesson 12",
+   "hr": "U gradu",
+   "en": "In the City"
+  },
+  "lekcija-13": {
+   "cjelina": "Lesson 13",
+   "hr": "Razlozi i mišljenja",
+   "en": "Reasons & Opinions"
+  },
+  "lekcija-14": {
+   "cjelina": "Lesson 14",
+   "hr": "Stan i selidba",
+   "en": "Home & Moving"
+  },
+  "lekcija-15": {
+   "cjelina": "Lesson 15",
+   "hr": "Darovi i slavlja",
+   "en": "Gifts & Celebrations"
+  },
+  "lekcija-16": {
+   "cjelina": "Lesson 16",
+   "hr": "Odjeća i stil",
+   "en": "Clothes & Style"
+  },
+  "lekcija-17": {
+   "cjelina": "Lesson 17",
+   "hr": "Grad ili selo?",
+   "en": "City or Country?"
+  },
+  "lekcija-18": {
+   "cjelina": "Lesson 18",
+   "hr": "Osjećaji i prijatelji",
+   "en": "Feelings & Friends"
+  },
+  "lekcija-19": {
+   "cjelina": "Lesson 19",
+   "hr": "Snovi i savjeti",
+   "en": "Dreams & Advice"
+  },
+  "lekcija-20": {
+   "cjelina": "Lesson 20",
+   "hr": "Veliko finale",
+   "en": "Grand Finale"
+  },
+  "praksa-01": {
+   "cjelina": "Practice 1",
+   "hr": "Dolazak",
+   "en": "Arrival"
+  },
+  "praksa-02": {
+   "cjelina": "Practice 2",
+   "hr": "Anina soba",
+   "en": "Anna's Room"
+  },
+  "praksa-03": {
+   "cjelina": "Practice 3",
+   "hr": "Tjedan u stanu",
+   "en": "A Week in the WG"
+  },
+  "praksa-04": {
+   "cjelina": "Practice 4",
+   "hr": "Oma Hilde zove",
+   "en": "Oma Hilde Calls"
+  },
+  "praksa-05": {
+   "cjelina": "Practice 5",
+   "hr": "Kod gospođe Yilmaz",
+   "en": "At Frau Yilmaz's"
+  },
+  "praksa-06": {
+   "cjelina": "Practice 6",
+   "hr": "Jonasova nedjelja",
+   "en": "Jonas's Sunday"
+  },
+  "praksa-07": {
+   "cjelina": "Practice 7",
+   "hr": "Prvi radni dan",
+   "en": "Anna's First Day"
+  },
+  "praksa-08": {
+   "cjelina": "Practice 8",
+   "hr": "Jonas se uspavao",
+   "en": "Jonas Oversleeps"
+  },
+  "praksa-09": {
+   "cjelina": "Practice 9",
+   "hr": "Ana je bolesna",
+   "en": "Anna Is Ill"
+  },
+  "praksa-10": {
+   "cjelina": "Practice 10",
+   "hr": "Kako ti je bilo na vikendu?",
+   "en": "How Was Your Weekend?"
+  },
+  "praksa-11": {
+   "cjelina": "Practice 11",
+   "hr": "Vikend u Beču",
+   "en": "A Weekend in Vienna"
+  },
+  "praksa-12": {
+   "cjelina": "Practice 12",
+   "hr": "Poslovi po Berlinu",
+   "en": "Errands in Berlin"
+  },
+  "praksa-13": {
+   "cjelina": "Practice 13",
+   "hr": "Sastanak u stanu",
+   "en": "The WG Meeting"
+  },
+  "praksa-14": {
+   "cjelina": "Practice 14",
+   "hr": "Markov novi stan",
+   "en": "Marko's New Flat"
+  },
+  "praksa-15": {
+   "cjelina": "Practice 15",
+   "hr": "Bakin 80. rođendan",
+   "en": "Oma's 80th Birthday"
+  },
+  "praksa-16": {
+   "cjelina": "Practice 16",
+   "hr": "Lenin razgovor za posao",
+   "en": "Lena's Job Interview"
+  },
+  "praksa-17": {
+   "cjelina": "Practice 17",
+   "hr": "Najbolji döner u Berlinu",
+   "en": "The Best Döner in Berlin"
+  },
+  "praksa-18": {
+   "cjelina": "Practice 18",
+   "hr": "Nesporazum",
+   "en": "The Misunderstanding"
+  },
+  "praksa-19": {
+   "cjelina": "Practice 19",
+   "hr": "Pitaj Blobbyja",
+   "en": "Ask Blobby"
+  },
+  "praksa-20": {
+   "cjelina": "Practice 20",
+   "hr": "Godinu dana poslije",
+   "en": "One Year Later"
+  },
+  "test-00": {
+   "cjelina": "Test 0",
+   "hr": "Test 0: Izgovor",
+   "en": "Test 0: Pronunciation"
+  },
+  "test-01": {
+   "cjelina": "Test 1",
+   "hr": "Test 1: Predstavljanje",
+   "en": "Test 1: Introducing yourself"
+  },
+  "test-02": {
+   "cjelina": "Test 2",
+   "hr": "Test 2: der, die, das",
+   "en": "Test 2: der, die, das"
+  },
+  "test-03": {
+   "cjelina": "Test 3",
+   "hr": "Test 3: Prezent",
+   "en": "Test 3: The Present Tense"
+  },
+  "test-04": {
+   "cjelina": "Test 4",
+   "hr": "Test 4: Akuzativ i obitelj",
+   "en": "Test 4: Accusative & Family"
+  },
+  "test-05": {
+   "cjelina": "Test 5",
+   "hr": "Test 5: Množina i brojevi",
+   "en": "Test 5: Plurals & Numbers"
+  },
+  "test-06": {
+   "cjelina": "Test 6",
+   "hr": "Test 6: Jaki glagoli",
+   "en": "Test 6: Vowel-Changing Verbs"
+  },
+  "test-07": {
+   "cjelina": "Test 7",
+   "hr": "Test 7: Modalni glagoli",
+   "en": "Test 7: Modal Verbs"
+  },
+  "test-08": {
+   "cjelina": "Test 8",
+   "hr": "Test 8: Odvojivi glagoli",
+   "en": "Test 8: Separable Verbs"
+  },
+  "test-09": {
+   "cjelina": "Test 9",
+   "hr": "Test 9: Imperativ",
+   "en": "Test 9: The Imperative"
+  },
+  "test-10": {
+   "cjelina": "Test 10",
+   "hr": "Test 10: Perfekt s haben",
+   "en": "Test 10: Perfekt with haben"
+  },
+  "test-11": {
+   "cjelina": "Test 11",
+   "hr": "Test 11: Perfekt sa sein",
+   "en": "Test 11: Perfekt with sein"
+  },
+  "test-12": {
+   "cjelina": "Test 12",
+   "hr": "Modul A1: probni ispit",
+   "en": "Module A1: practice exam"
+  },
+  "test-13": {
+   "cjelina": "Test 13",
+   "hr": "Test 13: Zavisne rečenice",
+   "en": "Test 13: Subordinate Clauses"
+  },
+  "test-14": {
+   "cjelina": "Test 14",
+   "hr": "Test 14: Stan i selidba",
+   "en": "Test 14: Home & Moving"
+  },
+  "test-15": {
+   "cjelina": "Test 15",
+   "hr": "Test 15: Dativ",
+   "en": "Test 15: The Dative"
+  },
+  "test-16": {
+   "cjelina": "Test 16",
+   "hr": "Modul B: padeži i red riječi",
+   "en": "Module B: Cases & Word Order"
+  },
+  "test-17": {
+   "cjelina": "Test 17",
+   "hr": "Test 17: Usporedba",
+   "en": "Test 17: Comparison"
+  },
+  "test-18": {
+   "cjelina": "Test 18",
+   "hr": "Test 18: Povratni glagoli",
+   "en": "Test 18: Reflexive Verbs"
+  },
+  "test-19": {
+   "cjelina": "Test 19",
+   "hr": "Test 19: Kondicional",
+   "en": "Test 19: The Conditional"
+  },
+  "test-20": {
+   "cjelina": "Test 20",
+   "hr": "Završni ispit A2",
+   "en": "Final Exam A2"
+  },
+  "vokabular-01": {
+   "cjelina": "Vocabulary 1",
+   "hr": "Pozdravi, zemlje i jezici",
+   "en": "Greetings & Countries"
+  },
+  "vokabular-02": {
+   "cjelina": "Vocabulary 2",
+   "hr": "Soba i boje",
+   "en": "The Room & Colours"
+  },
+  "vokabular-03": {
+   "cjelina": "Vocabulary 3",
+   "hr": "Svakodnevni glagoli i tjedan",
+   "en": "Everyday Verbs & the Week"
+  },
+  "vokabular-04": {
+   "cjelina": "Vocabulary 4",
+   "hr": "Obitelj i ljubimci",
+   "en": "Family & Pets"
+  },
+  "vokabular-05": {
+   "cjelina": "Vocabulary 5",
+   "hr": "Hrana i dućani",
+   "en": "Food & Shops"
+  },
+  "vokabular-06": {
+   "cjelina": "Vocabulary 6",
+   "hr": "Hobiji i sport",
+   "en": "Hobbies & Sport"
+  },
+  "vokabular-07": {
+   "cjelina": "Vocabulary 7",
+   "hr": "Zanimanja i ured",
+   "en": "Jobs & the Office"
+  },
+  "vokabular-08": {
+   "cjelina": "Vocabulary 8",
+   "hr": "Rutina i vrijeme",
+   "en": "Routine & Time"
+  },
+  "vokabular-09": {
+   "cjelina": "Vocabulary 9",
+   "hr": "Tijelo i liječnik",
+   "en": "The Body & the Doctor"
+  },
+  "vokabular-10": {
+   "cjelina": "Vocabulary 10",
+   "hr": "Vikend i izlasci",
+   "en": "Weekend & Going Out"
+  },
+  "vokabular-11": {
+   "cjelina": "Vocabulary 11",
+   "hr": "Vlakovi i putovanja",
+   "en": "Trains & Trips"
+  },
+  "vokabular-12": {
+   "cjelina": "Vocabulary 12",
+   "hr": "Grad i prijevoz",
+   "en": "City & Transport"
+  },
+  "vokabular-13": {
+   "cjelina": "Vocabulary 13",
+   "hr": "Mišljenja i učenje",
+   "en": "Opinions & Learning"
+  },
+  "vokabular-14": {
+   "cjelina": "Vocabulary 14",
+   "hr": "Selidba i kućanstvo",
+   "en": "Moving & Household"
+  },
+  "vokabular-15": {
+   "cjelina": "Vocabulary 15",
+   "hr": "Slavlja i darovi",
+   "en": "Celebrations & Gifts"
+  },
+  "vokabular-16": {
+   "cjelina": "Vocabulary 16",
+   "hr": "Odjeća i izgled",
+   "en": "Clothes & Appearance"
+  },
+  "vokabular-17": {
+   "cjelina": "Vocabulary 17",
+   "hr": "Grad, selo i priroda",
+   "en": "City, Country & Nature"
+  },
+  "vokabular-18": {
+   "cjelina": "Vocabulary 18",
+   "hr": "Osjećaji i odnosi",
+   "en": "Feelings & Relationships"
+  },
+  "vokabular-19": {
+   "cjelina": "Vocabulary 19",
+   "hr": "Želje, savjeti i uredi",
+   "en": "Wishes, Advice & Offices"
+  },
+  "vokabular-20": {
+   "cjelina": "Vocabulary 20",
+   "hr": "Apstraktne riječi i ponavljanje",
+   "en": "Abstract Words & Review"
+  }
+ },
+ "gramaticki_pojmovi": {
+  "nominativ": {
+   "hr": "nominativ",
+   "en": "nominative"
+  },
+  "akuzativ": {
+   "hr": "akuzativ",
+   "en": "accusative"
+  },
+  "dativ": {
+   "hr": "dativ",
+   "en": "dative"
+  },
+  "genitiv": {
+   "hr": "genitiv",
+   "en": "genitive"
+  },
+  "član": {
+   "hr": "član",
+   "en": "article"
+  },
+  "određeni član": {
+   "hr": "određeni član",
+   "en": "definite article"
+  },
+  "neodređeni član": {
+   "hr": "neodređeni član",
+   "en": "indefinite article"
+  },
+  "imenica": {
+   "hr": "imenica",
+   "en": "noun"
+  },
+  "glagol": {
+   "hr": "glagol",
+   "en": "verb"
+  },
+  "pridjev": {
+   "hr": "pridjev",
+   "en": "adjective"
+  },
+  "prilog": {
+   "hr": "prilog",
+   "en": "adverb"
+  },
+  "zamjenica": {
+   "hr": "zamjenica",
+   "en": "pronoun"
+  },
+  "prijedlog": {
+   "hr": "prijedlog",
+   "en": "preposition"
+  },
+  "veznik": {
+   "hr": "veznik",
+   "en": "conjunction"
+  },
+  "množina": {
+   "hr": "množina",
+   "en": "plural"
+  },
+  "jednina": {
+   "hr": "jednina",
+   "en": "singular"
+  },
+  "muški rod": {
+   "hr": "muški rod",
+   "en": "masculine"
+  },
+  "ženski rod": {
+   "hr": "ženski rod",
+   "en": "feminine"
+  },
+  "srednji rod": {
+   "hr": "srednji rod",
+   "en": "neuter"
+  },
+  "prezent": {
+   "hr": "prezent",
+   "en": "present tense"
+  },
+  "perfekt": {
+   "hr": "perfekt",
+   "en": "perfect tense"
+  },
+  "particip": {
+   "hr": "particip",
+   "en": "participle"
+  },
+  "infinitiv": {
+   "hr": "infinitiv",
+   "en": "infinitive"
+  },
+  "imperativ": {
+   "hr": "imperativ",
+   "en": "imperative"
+  },
+  "kondicional (Konjunktiv II)": {
+   "hr": "kondicional (Konjunktiv II)",
+   "en": "conditional (Konjunktiv II)"
+  },
+  "modalni glagol": {
+   "hr": "modalni glagol",
+   "en": "modal verb"
+  },
+  "odvojivi glagol": {
+   "hr": "odvojivi glagol",
+   "en": "separable verb"
+  },
+  "povratni glagol": {
+   "hr": "povratni glagol",
+   "en": "reflexive verb"
+  },
+  "zavisna rečenica": {
+   "hr": "zavisna rečenica",
+   "en": "subordinate clause"
+  },
+  "odnosna rečenica": {
+   "hr": "odnosna rečenica",
+   "en": "relative clause"
+  },
+  "neizravno pitanje": {
+   "hr": "neizravno pitanje",
+   "en": "indirect question"
+  },
+  "red riječi": {
+   "hr": "red riječi",
+   "en": "word order"
+  },
+  "glagol drugi": {
+   "hr": "glagol drugi",
+   "en": "verb second"
+  },
+  "glagol na kraju": {
+   "hr": "glagol na kraju",
+   "en": "verb last"
+  },
+  "okvir rečenice": {
+   "hr": "okvir rečenice",
+   "en": "sentence bracket"
+  },
+  "komparativ": {
+   "hr": "komparativ",
+   "en": "comparative"
+  },
+  "superlativ": {
+   "hr": "superlativ",
+   "en": "superlative"
+  },
+  "nastavak": {
+   "hr": "nastavak",
+   "en": "ending"
+  }
+ }
+}
