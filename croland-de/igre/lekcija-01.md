@@ -189,7 +189,7 @@ opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 1 zu sein.
 - izbor | Was bedeutet „sladoled“? | Eis | Fenster | Himmel
 - izbor | Die Lampe ist gelb. | Lampa je žuta. | Lampa je plava.
 - upis | Grad je lijep/lijepa/lijepo. | lijep
-- izbor | "Krevet je velik." means... | Das Bett ist groß. | Das Bett ist klein.
+- izbor | „Krevet je velik.“ heißt ... | Das Bett ist groß. | Das Bett ist klein.
 
 ## Belohnung & Ausblick
 format: tekst

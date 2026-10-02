@@ -225,16 +225,16 @@ format: izbor
 info: Zwischen der langen und der kurzen Empfängerform wählen. Die kurze Form steht in einem normalen Satz an zweiter Stelle; die lange eröffnet den Satz, steht im Kontrast oder antwortet allein. Die Zielformen *me, ga, nas* sind der Fehler, den du vermeiden musst.
 infokratko: Zweite Stelle → kurz (*mi, mu*). Erste Stelle, Kontrast, allein → lang (*meni, njemu*). Nicht *ga, nas*.
 opis: Wähle die passende Form. Die Klammer sagt dir, wer der Empfänger ist.
-- Komu pišeš? — ___ . (him) | Njemu | Mu | Njega
-- Baka ___ šalje paket. (to me) | mi | me | mene
-- ___ šalje paket, ne tebi! (to me) | Meni | Mi | Mene
-- Dajem ___ loptu. (to him) | mu | ga | njega
+- Komu pišeš? — ___ . (ihm) | Njemu | Mu | Njega
+- Baka ___ šalje paket. (mir) | mi | me | mene
+- ___ šalje paket, ne tebi! (mir) | Meni | Mi | Mene
+- Dajem ___ loptu. (ihm) | mu | ga | njega
 - Kupujem cvijeće ___, a ne Ani. (ihr) | njoj | joj | nju
-- Poštar ___ nosi novine. (to us) | nam | nas | ih
+- Poštar ___ nosi novine. (uns) | nam | nas | ih
 - Šaljem ___ poruku. (euch) | vam | vas | vi
-- Komu daješ ključ? — ___ . (to them) | Njima | Im | Ih
+- Komu daješ ključ? — ___ . (ihnen) | Njima | Im | Ih
 - Kupit ću ___ šal. (ihr) | joj | je | nju
-- Mama ___ je poslala paket. (to him) | mu | ga | njega
+- Mama ___ je poslala paket. (ihm) | mu | ga | njega
 
 ## Bau den Satz
 format: slaganje

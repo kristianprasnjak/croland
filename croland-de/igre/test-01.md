@@ -235,7 +235,7 @@ opis: Lies das Deutsche in Klammern und tippe das kroatische Adjektiv in der For
 - Prozor je ___. (groß) | velik
 - Automobil je ___. (schnell) | brz
 - Automobil je ___. (schwarz) | crn
-- Automobil je ___. (red) | crven
+- Automobil je ___. (rot) | crven
 - Sladoled je ___. (kalt) | hladan
 - Sladoled je ___. (süß) | sladak
 - Sladoled je ___. (gut) | dobar
@@ -249,7 +249,7 @@ opis: Lies das Deutsche in Klammern und tippe das kroatische Adjektiv in der For
 - Kuća je ___. (groß) | velika
 - Kuća je ___. (weiß) | bijela
 - Kuća je ___. (alt) | stara
-- Kuća je ___. (red) | crvena
+- Kuća je ___. (rot) | crvena
 - Kuća je ___. (schön) | lijepa
 - Knjiga je ___. (neu) | nova
 - Knjiga je ___. (alt) | stara
@@ -285,7 +285,7 @@ opis: Lies das Deutsche in Klammern und tippe das kroatische Adjektiv in der For
 - Sunce je ___. (warm) | toplo
 - Sunce je ___. (gelb) | žuto
 - Sunce je ___. (groß) | veliko
-- Sunce je ___. (red) | crveno
+- Sunce je ___. (rot) | crveno
 - Sunce je ___. (schön) | lijepo
 
 ## Bau den Satz

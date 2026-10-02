@@ -1,7 +1,7 @@
-# Pick the right one — Lesson 1
+# Wähle das Richtige – Lektion 1
 broj: 6
 format: izbor
-opis: Choose the word that correctly completes the sentence.
+opis: Wähle das Wort, das den Satz richtig ergänzt.
 
 - Kava je ___ | dobra | dobar | dobro
 - More je ___ | plavo | plav | plava
@@ -14,5 +14,5 @@ opis: Choose the word that correctly completes the sentence.
 - Sunce je ___ | toplo | topao | topla
 - Lampa je ___ | žuta | žut | žuto
 - Auto ___ brz. | je | su | i
-- More je plavo. — true or false? | TRUE | FALSE
-- Sunce je hladno. — true or false? | FALSE | TRUE
+- More je plavo. — richtig oder falsch? | RICHTIG | FALSCH
+- Sunce je hladno. — richtig oder falsch? | FALSCH | RICHTIG

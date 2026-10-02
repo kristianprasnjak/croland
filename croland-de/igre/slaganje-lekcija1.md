@@ -1,7 +1,7 @@
-# Build the sentence — Lesson 1
+# Bau den Satz – Lektion 1
 broj: 8
 format: slaganje
-opis: Arrange the tiles in the right order to build the sentence.
+opis: Ordne die Kacheln in der richtigen Reihenfolge, um den Satz zu bauen.
 
 - Kuća je velika.
 - More je plavo i toplo.

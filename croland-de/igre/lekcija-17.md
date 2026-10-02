@@ -134,22 +134,22 @@ nastavci: aj | i | j
 info: Ein Tippen macht aus dem Verb einen Befehl an einen Freund. Verben, deren *ti*-Form auf **-aš** endet, bekommen **-aj**, Verben auf **-eš** oder **-iš** bekommen **-i**, und wenn vor *-eš* ein **j** steht, endet der Befehl auf diesem **j**: *piješ → pij, kupuješ → kupuj*.
 infokratko: *-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
 opis: Die *ti*-Form steht in der deutschen Zeile. Ein Tippen macht den Befehl.
-- Gled___ me! | Look at me! (gledaš) | aj
-- Uzm___ tri jaja! | Take three eggs! (uzmeš) | i
-- Pi___ vodu! | Drink water! (piješ) | j
-- Dod___ malo soli! | Add a little salt! (dodaš) | aj
-- Skren___ lijevo! | Turn left! (skreneš) | i
-- Zagri___ tavu! | Heat up the pan! (zagriješ) | j
-- Miješ___ dvije minute! | Mix for two minutes! (miješaš) | aj
+- Gled___ me! | Schau mich an! (gledaš) | aj
+- Uzm___ tri jaja! | Nimm drei Eier! (uzmeš) | i
+- Pi___ vodu! | Trink Wasser! (piješ) | j
+- Dod___ malo soli! | Füg ein bisschen Salz hinzu! (dodaš) | aj
+- Skren___ lijevo! | Bieg links ab! (skreneš) | i
+- Zagri___ tavu! | Erhitze die Pfanne! (zagriješ) | j
+- Miješ___ dvije minute! | Rühr zwei Minuten lang! (miješaš) | aj
 - Stav___ marmeladu! | Gib die Marmelade drauf! (staviš) | i
-- Kupu___ kruh! | Buy bread! (kupuješ) | j
-- Sluš___ učiteljicu! | Listen to the teacher! (slušaš) | aj
-- Okren___ palačinku! | Flip the pancake! (okreneš) | i
-- Ču___ ovo! | Listen to this! (čuješ) | j
-- Čit___ knjigu! | Read the book! (čitaš) | aj
-- Piš___ pismo! | Write the letter! (pišeš) | i
-- Trč___! | Run! (trčiš) | i
-- Vježb___ svaki dan! | Practise every day! (vježbaš) | aj
+- Kupu___ kruh! | Kauf Brot! (kupuješ) | j
+- Sluš___ učiteljicu! | Hör der Lehrerin zu! (slušaš) | aj
+- Okren___ palačinku! | Wende den Pfannkuchen! (okreneš) | i
+- Ču___ ovo! | Hör dir das an! (čuješ) | j
+- Čit___ knjigu! | Lies das Buch! (čitaš) | aj
+- Piš___ pismo! | Schreib den Brief! (pišeš) | i
+- Trč___! | Lauf! (trčiš) | i
+- Vježb___ svaki dan! | Üb jeden Tag! (vježbaš) | aj
 
 ## Wähle die Form
 format: izbor

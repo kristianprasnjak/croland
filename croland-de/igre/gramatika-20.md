@@ -75,7 +75,7 @@ infoodmah: da
 - tab: misliti | Mislim **da** ćeš doći. | Ich glaube, dass du kommst.
 - tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | Er / Sie hat gesagt, dass er / sie keine Zeit hat.
 - tab: nadati se | Nadam se **da** je sve u redu. | Ich hoffe, dass alles in Ordnung ist.
-- **No comma before *da*** in these sentences, and the short words come right after it: *da **je**, da **ćeš**, da **sam***.
+- **Kein Komma vor *da*** in diesen Sätzen, und die kurzen Wörter kommen direkt danach: *da **je**, da **ćeš**, da **sam***.
 - **Keine Zeitverschiebung.** Das Deutsche macht aus *Er sagte: Ich bin müde* oft *Er sagte, er sei müde*. Das Kroatische behält einfach die ursprüngliche Zeitform: *Rekao je **da je** umoran.*
 - **Da + Präsens, wenn die Subjekte verschieden sind.** *Želim **doći**.* = Ich will kommen (selbst). *Želim **da dođeš**.* = Ich will, dass *du* kommst.
 - **koji in den anderen Fällen.** Es nimmt den Fall, den sein eigener Satz braucht, mit den Adjektivendungen: *čovjek **kojeg** čekam* (Ziel, eine Person), *grad u **kojem** živim* (Ort), *vlak **kojim** putujem* (Mittel), *prijatelj **kojem** pišem* (Empfänger), *kuća u **kojoj** živim* (Ort, feminin) – wie *den, in dem, mit dem, dem, in der* im Deutschen.
@@ -229,4 +229,12 @@ opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen
 - Das Buch, das ich lese, ist neu. | Knjiga koju čitam je nova
 - Die Stadt, in der ich wohne, ist alt. | Grad u kojem živim je star
 - Der Mann, auf den ich warte, hat Verspätung. | Čovjek kojeg čekam kasni
-- Ich habe eine Sprache gelernt, die wie Musik klingt. | Nau
+- Ich habe eine Sprache gelernt, die wie Musik klingt. | Naučio sam jezik koji zvuči kao glazba / Naučila sam jezik koji zvuči kao glazba
+
+## Das kannst du jetzt
+format: tekst
+info: Eine abschließende Zusammenfassung der Grammatik des Kurses. Zwei Sätze werden mit *jer, kad, ako, dok, iako* oder *da* zu einem; die kurzen Wörter folgen dem Bindewort; und *koji* hängt einem Substantiv einen Satz an, in dem Fall, den sein eigener Satz braucht.
+infokratko: *jer, kad, ako, dok, iako, da*; kurze Wörter nach dem Bindewort; *koji* in jedem Fall.
+- **Bravo.** Jetzt kannst du warum, wann, wenn, obwohl und *dass* sagen – und mit *koji* jedem Substantiv eine Beschreibung anhängen.
+- Und das mit denselben Regeln, die du den ganzen Kurs über benutzt hast: **Kurze Wörter nehmen die zweite Stelle ein**, **jedes Substantiv nimmt den Fall, den seine Aufgabe braucht**, und **das Bindewort eröffnet seinen eigenen Satz**.
+- **Als Nächstes:** Praxis 20 liest den Sommer, an den du dich erinnerst, und Emmas Aufsatz, und der Abschlusstest schließt den Kurs ab. Čestitamo!

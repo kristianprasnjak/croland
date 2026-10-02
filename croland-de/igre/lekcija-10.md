@@ -17,18 +17,18 @@ info: Ein Aufwärmen auf Zeit mit den Possessivpronomen aus Lektion 9, bevor etw
 infokratko: Lektion 9 gegen die Uhr. Die Endung folgt der Sache: *moj dres, moja lopta, moje koljeno*.
 trajanje: 60
 opis: Possessiv-Sprint aus Lektion 9 – tippe auf die Form, die zum Nomen passt, bevor die Zeit abläuft.
-- ___ gitara (my) | moja
-- ___ klub (our) | naš
-- ___ dres (his) | njegov
-- ___ lopta (her) | njezina
-- ___ more (our) | naše
-- ___ koljeno (my) | moje
-- ___ trener (their) | njihov
-- ___ momčad (your, one friend) | tvoja
-- ___ srce (his) | njegovo
-- ___ obrana (your, plural) | vaša
-- ___ hobi (my) | moj
-- ___ tijelo (her) | njezino
+- ___ gitara (mein) | moja
+- ___ klub (unser) | naš
+- ___ dres (sein) | njegov
+- ___ lopta (ihr – von ihr) | njezina
+- ___ more (unser) | naše
+- ___ koljeno (mein) | moje
+- ___ trener (ihr – von ihnen) | njihov
+- ___ momčad (dein) | tvoja
+- ___ srce (sein) | njegovo
+- ___ obrana (euer) | vaša
+- ___ hobi (mein) | moj
+- ___ tijelo (ihr – von ihr) | njezino
 
 ## Wörter für gestern
 format: kartice
@@ -157,8 +157,8 @@ opis: Oben Deutsch, unten Kroatisch. Ein Tipp vollendet das Partizip. **-o** fü
 - Marko je gleda___ film. | Marko watched a film. | o
 - Ana je gleda___ film. | Ana hat einen Film geschaut. | la
 - Mi smo gleda___ film. | Wir haben einen Film geschaut. | li
-- Jučer sam spava___ dugo. (a man) | Gestern habe ich lange geschlafen. | o
-- Jučer sam spava___ dugo. (a woman) | Gestern habe ich lange geschlafen. | la
+- Jučer sam spava___ dugo. (ein Mann) | Gestern habe ich lange geschlafen. | o
+- Jučer sam spava___ dugo. (eine Frau) | Gestern habe ich lange geschlafen. | la
 - Dječaci su spava___ dugo. | Die Jungen haben lange geschlafen. | li
 - Marko je pi___ kavu. | Marko hat Kaffee getrunken. | o
 - Petra je pi___ sok. | Petra hat Saft getrunken. | la
@@ -174,8 +174,8 @@ opis: Oben Deutsch, unten Kroatisch. Ein Tipp vollendet das Partizip. **-o** fü
 - Sunce je bi___ toplo. | Die Sonne war warm. | lo
 - Djevojčice su pjeva___ . | Die Mädchen haben gesungen. | le
 - Ana i Petra su bi___ u kinu. | Ana und Petra waren im Kino. | le
-- Ti si igra___ tenis. (to a friend, m.) | Du hast Tennis gespielt. | o
-- Ti si igra___ tenis. (to a friend, f.) | Du hast Tennis gespielt. | la
+- Ti si igra___ tenis. (zu einem Freund) | Du hast Tennis gespielt. | o
+- Ti si igra___ tenis. (zu einer Freundin) | Du hast Tennis gespielt. | la
 
 ## Wähle die richtige Kombination
 format: izbor

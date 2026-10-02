@@ -205,14 +205,14 @@ opis: Ersetze den Empfänger in GROSSBUCHSTABEN – die kurze Form kann nie den 
 ## Lang oder kurz?
 format: izbor
 opis: Wähle die passende Form. Die Klammer sagt dir, wer der Empfänger ist.
-- Komu pišeš? — ___ . (him) | Njemu | Mu | Njega
-- Baka ___ šalje paket. (to me) | mi | me | mene
-- ___ šalje paket, ne tebi! (to me) | Meni | Mi | Mene
-- Dajem ___ loptu. (to him) | mu | ga | njega
-- Poštar ___ nosi novine. (to us) | nam | nas | ih
-- Komu daješ ključ? — ___ . (to them) | Njima | Im | Ih
+- Komu pišeš? — ___ . (ihm) | Njemu | Mu | Njega
+- Baka ___ šalje paket. (mir) | mi | me | mene
+- ___ šalje paket, ne tebi! (mir) | Meni | Mi | Mene
+- Dajem ___ loptu. (ihm) | mu | ga | njega
+- Poštar ___ nosi novine. (uns) | nam | nas | ih
+- Komu daješ ključ? — ___ . (ihnen) | Njima | Im | Ih
 - Kupit ću ___ šal. (ihr) | joj | je | nju
-- Mama ___ je poslala paket. (to him) | mu | ga | njega
+- Mama ___ je poslala paket. (ihm) | mu | ga | njega
 
 ## Schreib den Dativ
 format: upis

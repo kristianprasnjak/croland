@@ -146,22 +146,22 @@ nastavci: aj | i | j
 info: Ein Tippen macht aus dem Verb einen Befehl an einen Freund. Verben, deren *ti*-Form auf **-aš** endet, bekommen **-aj**, Verben auf **-eš** oder **-iš** bekommen **-i**, und wenn vor *-eš* ein *j* steht, endet der Befehl auf diesem **j**.
 infokratko: *-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
 opis: Die *ti*-Form steht in der deutschen Zeile. Ein Tippen macht den Befehl.
-- Dod___ ulje! | Add the oil! (dodaš) | aj
-- Uzm___ žličicu! | Take a teaspoon! (uzmeš) | i
-- Zagri___ pećnicu! | Heat up the oven! (zagriješ) | j
-- Miješ___ tijesto! | Mix the dough! (miješaš) | aj
+- Dod___ ulje! | Füg das Öl hinzu! (dodaš) | aj
+- Uzm___ žličicu! | Nimm einen Teelöffel! (uzmeš) | i
+- Zagri___ pećnicu! | Heiz den Backofen vor! (zagriješ) | j
+- Miješ___ tijesto! | Rühr den Teig! (miješaš) | aj
 - Stav___ tavu na štednjak! | Stell die Pfanne auf den Herd! (staviš) | i
-- Pi___ limunadu! | Drink the lemonade! (piješ) | j
-- Skren___ desno! | Turn right! (skreneš) | i
+- Pi___ limunadu! | Trink die Limonade! (piješ) | j
+- Skren___ desno! | Bieg rechts ab! (skreneš) | i
 - Gled___ znak! | Schau auf das Schild! (gledaš) | aj
-- Kupu___ brašno! | Buy flour! (kupuješ) | j
-- Prijeđ___ cestu! | Cross the road! (prijeđeš) | i
-- Ček___ na uglu! | Wait on the corner! (čekaš) | aj
-- Okren___ mapu! | Turn the map over! (okreneš) | i
-- Ču___ ovo! | Listen to this! (čuješ) | j
-- Čit___ upute! | Read the instructions! (čitaš) | aj
-- Požur___! | Hurry! (požuriš) | i
-- Sluš___ me! | Listen to me! (slušaš) | aj
+- Kupu___ brašno! | Kauf Mehl! (kupuješ) | j
+- Prijeđ___ cestu! | Überquere die Straße! (prijeđeš) | i
+- Ček___ na uglu! | Warte an der Ecke! (čekaš) | aj
+- Okren___ mapu! | Dreh den Stadtplan um! (okreneš) | i
+- Ču___ ovo! | Hör dir das an! (čuješ) | j
+- Čit___ upute! | Lies die Anleitung! (čitaš) | aj
+- Požur___! | Beeil dich! (požuriš) | i
+- Sluš___ me! | Hör mir zu! (slušaš) | aj
 
 ## Wähle die Form
 format: izbor

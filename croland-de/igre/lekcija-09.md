@@ -128,16 +128,16 @@ format: parovi
 info: Deutsch auf der einen Seite, Kroatisch auf der anderen, damit du die Regel in ganzen Sätzen arbeiten siehst. **Lies zuerst das kroatische Nomen und prüf seinen letzten Buchstaben** – dieser Buchstabe, nicht das Deutsche, sagt dir, welches der zwei angebotenen Possessivpronomen der richtige Partner ist. Vorsicht: Das deutsche Genus führt oft in die Irre (*die Mannschaft*, aber *momčad* ist auch feminin; *das Knie*, *koljeno* neutral – aber *der Ball*, *lopta* feminin).
 infokratko: Prüf den letzten Buchstaben des kroatischen Nomens: Er wählt das Possessivpronomen.
 opis: Ordne jedem deutschen Satz seinen kroatischen Partner zu.
-- My ball is red. | Moja lopta je crvena.
-- His jersey is blue. | Njegov dres je plav.
-- Her guitar is new. | Njezina gitara je nova.
-- Our coach is strict. | Naš trener je strog.
-- Their defence is strong. | Njihova obrana je jaka.
-- My knee hurts. | Moje koljeno boli.
-- Your team is fast. | Tvoja momčad je brza.
-- Our club is small. | Naš klub je mali.
-- His position is goalkeeper. | Njegova pozicija je golman.
-- Whose ball is this? | Čija je ovo lopta?
+- Mein Ball ist rot. | Moja lopta je crvena.
+- Sein Trikot ist blau. | Njegov dres je plav.
+- Ihre Gitarre ist neu. | Njezina gitara je nova.
+- Unser Trainer ist streng. | Naš trener je strog.
+- Ihre Verteidigung ist stark. | Njihova obrana je jaka.
+- Mein Knie tut weh. | Moje koljeno boli.
+- Deine Mannschaft ist schnell. | Tvoja momčad je brza.
+- Unser Verein ist klein. | Naš klub je mali.
+- Seine Position ist Torwart. | Njegova pozicija je golman.
+- Wessen Ball ist das? | Čija je ovo lopta?
 
 ## Nach der Sache sortieren
 format: razvrstavanje

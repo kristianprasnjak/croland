@@ -309,7 +309,7 @@ opis: Nicht nur der Instrumental – alles hier stammt aus den Stufen 8 bis 14.
 - Ana ima rođendan. Kupit ću ___ cvijeće. | joj | je | nju
 - Komu šalješ paket? — ___ . (brat) | Bratu | Brat | Bratom
 - Ana i Petra su ___ vlakom. (putovati) | putovale | putovao | putovala
-- Jučer sam ___ u kino s bratom. (ići, a woman speaking) | išla | išao | išle
+- Jučer sam ___ u kino s bratom. (ići, eine Frau spricht) | išla | išao | išle
 - Sutra ___ putovati trajektom. (mi) | ćemo | ćete | ću
 - Koja je rečenica točna? | Putovat ćemo vlakom. | Putovati ćemo vlakom. | Ćemo putovati vlakom.
 

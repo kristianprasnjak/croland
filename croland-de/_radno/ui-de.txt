@@ -1,0 +1,330 @@
+30	=
+38	=
+39	=
+40	=
+43	=
+44	=
+57	 Tage in Folge · 
+85	=
+160	=
+161	=
+166	▶ Weiter: 
+175	=
+176	mindestens 6 Zeichen
+194	Perfekt! 🌟
+198	neues Wort
+199	neue Wörter
+335	Antworten prüfen
+336	✓ Fertig gelesen
+337	Füll die Lücken
+338	Lesen
+339	Richtig: 
+340	 Lücken gefüllt – das fehlende Wort ist immer eines, das du gerade oben gelesen hast.
+341	=
+342	Fehlendes Wort
+343	Gelesen: 
+344	tippe jede Karte an
+345	Im Wörterbuch: 
+346	 · Ins Wörterbuch aufgenommen: 
+347	Tippe auf eine Karte, um sie **umzudrehen**: Auf der Rückseite findest du das kroatische Wort, ein Bild und 
+348	. Spiel es ab, **sprich das Wort laut aus** und tippe dann auf **+**, um es in dein Wörterbuch aufzunehmen (noch einmal tippen setzt einen Stern). 
+349	 zeigt alle seine Formen.
+350	Ins Wörterbuch aufgenommen
+351	Karte umdrehen: 
+352	zum Umdrehen tippen
+353	✓ schon deins
+354	 
+355	 Wörter ins Wörterbuch aufnehmen
+356	Ins Wörterbuch aufnehmen
+359	Alle Formen im Wörterbuch
+360	Gespräch
+361	wähle deine Antwort
+362	Jede Zeile hat ein 
+363	 – spiel es ab und **lies deine Antwort laut vor**, bevor du sie antippst.
+364	Gespräch beendet
+365	Fehler: 0
+366	 · Fehler: 
+367	Tippe bei einem kroatischen Wort auf 
+368	 und **sprich es nach**, bevor du sein Paar suchst.
+369	Fehler: 
+370	Paare: 0/
+371	Extra-Umdrehungen: 0
+372	Paare: 
+373	 · Extra-Umdrehungen: 
+374	Extra-Umdrehungen: 
+376	 Paare gefunden
+377	Punkte: 
+378	 neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.
+379	=
+380	Zeit: 
+381	 richtig mit 
+382	 s übrig · Fehler: 
+383	Frage: 
+384	Schreib **nur das fehlende Wort** – nicht den ganzen Satz. Tippe zuerst auf den Lautsprecher und sprich es laut aus.
+385	Schreib den **ganzen Satz** auf Kroatisch. Tippe zuerst auf den Lautsprecher und sprich ihn laut aus.
+387	Aufgabe: 
+388	Fast – nur die Zeichen fehlen (č, ć, š, ž, đ). Richtige Antwort: 
+389	Richtige Antwort: 
+390	Satz: 
+391	Am richtigen Platz: 
+392	Satz: 1/
+393	Richtig: 0
+394	keine Endung
+395	Prüfen, wenn du bereit bist
+396	Ergebnis: 
+397	 · unter der 
+398	Bau den Satz:
+399	=
+403	Dein Wörterbuch ist noch leer.
+404	Auf dieser Seite gibt es keine kroatischen Wörter.
+405	Hängst du fest? Das
+406	enthält jedes Wort auf dieser Seite.
+407	Neue Wörter? Das
+408	listet jedes Wort auf dieser Seite auf, mit
+409	 – und das Spiel 
+410	 direkt darunter übt die Wörter, die du gespeichert hast.
+411	Jedes Wort in den Beispielen, das du nicht kennst, steht im
+412	Ein Wort fällt dir nicht ein? Öffne das
+413	– es enthält jedes Wort auf dieser Seite.
+414	Das
+415	bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen.
+416	Nicht sicher, welches Wort welches ist? Das
+417	hat sie alle, mit
+418	Jedes Wort auf dieser Seite steht im
+419	, mit
+420	 – es öffnet sich direkt hier, ohne dass du die Übung verlässt.
+421	Nicht sicher, was ein Bild bedeutet? Tippe hier – jedes Wort auf dieser Seite ist aufgelistet, mit 
+422	Das Wörterbuch begleitet dich. Zieh das Symbol, wohin es dir passt. 
+423	Stolperst du über Doppelbuchstaben? Öffne das Wörterbuch und hör dir das Wort zuerst an. 
+424	Deine Punkte sammeln sich hier oben.
+426	– jede Übung kann
+427	so oft wiederholt werden, wie du willst, und nur dein bester Versuch zählt. Entspann dich und probier aus.
+428	Nicht zufrieden mit dem Ergebnis?
+430	– so oft du willst.
+431	Dein bestes Ergebnis ist das, was zählt.
+432	Die Uhr ist keine Prüfung. Wenn sie abläuft, behältst du einfach die Punkte, die du verdient hast – 
+433	dann spiel noch einmal, wenn du mehr willst.
+436	Wörter aus dieser Lektion erscheinen hier, sobald du sie in dein Wörterbuch aufnimmst 
+440	auf Deutsch…
+441	Richtige Antwort:
+443	Für diese Übung gibt es noch keine Notiz. Wenn du hier eine erwartet hast, läuft die App mit einer älteren 
+444	– erzeuge sie neu und lade die Seite neu.
+445	=
+449	=
+450	Deine kostenlose Frage für heute ist verbraucht. Abonnenten bekommen 20 pro Tag.
+451	Eine kostenlose Frage pro Tag. Abonnenten bekommen 20.
+452	Für heute keine Fragen mehr. Morgen bekommst du 
+453	 neue.
+454	 Fragen für heute übrig
+456	Neu anfangen?
+457	Damit wird das Gespräch über diese Seite gelöscht. Deine Punkte sind davon nicht betroffen.
+458	=
+459	Der Helfer ist heute sehr beschäftigt. Bitte versuch es später noch einmal.
+460	Der Helfer hat diesmal nicht geantwortet. Deine Frage wurde nicht gezählt – versuch es noch einmal.
+461	Keine Verbindung. Deine Frage wurde nicht gezählt – versuch es noch einmal.
+462	Diese Symbole kleben hier nicht fest.
+464	an den linken Rand, den rechten Rand oder nach oben in die Kopfzeile.
+465	Liniert
+466	Kariert
+467	Blanko
+468	Alle vier Notizplätze sind belegt
+469	=
+470	=
+471	=
+472	=
+473	=
+474	=
+475	=
+476	=
+477	=
+478	hier eine Haftnotiz
+479	Diese Notiz löschen?
+480	Was darauf steht, ist dann endgültig weg. 
+481	Die anderen Notizen bleiben, wo sie sind.
+482	Alle zugeordnet: 
+483	Alle geplatzt: 
+484	Wörter: 0/
+485	Wörter: 
+486	Gebaut: 
+487	Richtig: 0/
+488	Merk dir diese drei – Runde 
+489	sie verschwinden in
+490	weg – jetzt bau die Reihenfolge nach
+491	Welche drei, in dieser Reihenfolge?
+492	Alles, was du getroffen hast
+493	=
+494	=
+495	=
+496	=
+497	Warmes Papier und Ziegelrot – die Standardeinstellung.
+498	Adria
+499	Kühles Papier und tiefes Meeresblau.
+500	Olive
+501	Grünliches Papier und Olivgrün.
+502	Tinte
+503	Grau und Schwarz, ohne Akzentfarbe.
+504	Pflaume
+505	Zart rosa Papier und Pflaume.
+506	System
+507	=
+508	=
+509	=
+510	=
+511	=
+512	=
+513	Kompakt
+514	Mehr passt auf den Bildschirm.
+515	Standard
+516	Empfohlen.
+517	Groß
+518	Schonender für die Augen.
+519	Größe der Oberfläche: 
+521	=
+524	=
+525	=
+527	=
+531	LP · VP · GP · PP neben dem Menü. Standardmäßig aus –
+532	Der Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.
+535	Der Hinweis hinter dem Info-Symbol gibt es in einer kürzeren Fassung, wo eine existiert:
+536	die Regel und ein Beispiel, ohne Erklärung. Regelseiten bleiben, wie sie sind.
+540	Haftnotiz hinzufügen
+541	zu den schwebenden Symbolen hinzu.
+542	Vier Papierplätze warten im freien Raum neben dem Inhalt – zwei links, 
+543	zwei rechts –, und jede Notiz kann liniert, kariert oder blanko sein. Eine Notiz gehört zu 
+544	der Lektion oder dem Minispiel, in dem du sie geschrieben hast, und bleibt dort, bis du sie löschst. 
+545	Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. 
+546	Wenn du das ausschaltest, werden deine Notizen nur ausgeblendet, nie gelöscht.
+547	 Du hast 
+551	Das Kroatische markiert das Objekt eines Satzes mit seiner Endung, nicht mit der Wortstellung. 
+553	ist der Apfel, mit dem jemand
+554	etwas macht. Ändere die Endung, und du änderst, wer was womit tut.
+556	Punkte warten
+557	hier noch nichts erledigt
+559	bisher erledigt
+561	 und das hier öffnet sich
+562	beende diese Reihe, um es zu öffnen
+564	=
+565	=
+566	=
+567	=
+568	Mach dort weiter, wo du aufgehört hast
+569	Fang etwas Neues an
+570	Fang hier an
+571	Als Nächstes freischalten
+572	=
+573	Nichts wartet
+578	=
+580	 · nur Übung, keine Punkte
+581	=
+582	=
+584	 abgeschlossen · jederzeit wiederholbar
+585	=
+586	beliebiger Text · hören, übersetzen, schreiben, sprechen
+588	Wörter, die dir begegnen, werden hier gespeichert
+589	angemeldet · Fortschritt wird gespeichert
+590	speichere deinen Fortschritt auf allen Geräten
+591	=
+592	=
+593	 – bis zu 
+594	=
+597	=
+598	=
+600	demnächst
+601	kurze. Jedes ist ein eigener Prototyp, jedes zahlt einmal aus.
+604	Jedes Spiel ist ein eigenständiger Prototyp mit einem eingebauten Wortschatz von 246 Wörtern. 
+605	Der Fortschritt wird pro Spiel separat gespeichert, und Punkte zählen zum Freischalten von Lektionen.
+606	=
+607	=
+609	⛶ Vollbild
+619	=
+620	=
+621	 – braucht Croland Plus
+626	=
+627	=
+631	=
+632	=
+633	=
+634	=
+639	=
+640	=
+642	‹ Zurück
+644	 Punkte – alles ab Stufe 
+673	 Punkte · Bestehensgrenze 
+684	Weiter →
+685	↻ Noch einmal spielen
+687	↻ Noch einmal versuchen
+690	vorzeitig abgegeben
+702	▶ Lektion 1 starten
+704	=
+705	=
+713	=
+715	=
+716	=
+717	=
+731	nur Plural
+740	=
+741	=
+742	=
+746	=
+747	=
+763	 Wort hinzugefügt
+764	 Wörter hinzugefügt
+765	noch nichts gespeichert
+767	=
+782	 bisher richtig
+789	=
+790	=
+795	auch akzeptiert:
+810	← Tägliche Challenge
+824	jede Stufe offen
+825	=
+833	=
+835	=
+837	 mehr, noch gesperrt)
+841	alles verdient
+843	de-DE
+852	nie gespielt
+853	bisher bestes 
+854	=
+855	=
+857	 teilweise erledigt, 
+858	 unberührt. Aktuelle Serie 
+861	=
+862	=
+911	=
+912	voller Fortschritt
+913	nur Punkte
+916	=
+917	=
+924	gerade eben
+925	 Min. her
+926	 Std. her
+927	 Tage her
+939	=
+940	öffentlicher Fortschritt
+947	=
+960	 · Gelernte Wörter: 
+967	=
+1041	er / sie liest
+1183	seine Gitarre
+1207	gestern Abend
+1291	etwas → nichts
+1292	jemand → niemand
+1293	manchmal → nie
+1315	Post
+1369	mit der Straßenbahn
+1370	Abend in der Stadt
+1403	bei Oma
+1404	aus Zagreb
+1414	ein Kaffee
+1415	fünf Kaffee
+1430	Schau!
+1431	Trink!
+1482	schreiben → fertig schreiben
+1483	trinken → austrinken
+1486	sofort
+1489	lernen → erlernen
+1490	einkaufen → kaufen
+1501	Fast!
+1502	Endlich!
+1509	der, welcher

@@ -79,14 +79,14 @@ format: parovi
 info: Jede deutsche Wendung neben ihrem Konditional. Der Helfer zeigt die Person – *bih* für *ich*, *bismo* für *wir*, *biste* für *ihr* und *bi* für *er, sie, sie (Plural)* –, und die Partizipendung zeigt das Geschlecht: *kupio* oder *kupila*.
 infokratko: *bih* ich, *bismo* wir, *biste* ihr, *bi* er / sie / sie (Pl.). **-o** / **-la** / **-li** / **-le**.
 opis: Ordne jeder deutschen Wendung ihren Konditional zu.
-- I would buy (a man) | kupio bih
-- I would buy (a woman) | kupila bih
-- we would travel | putovali bismo
-- we would travel (only women) | putovale bismo
-- you (a group) would stay | ostali biste
-- she would swim | plivala bi
-- he would live | živio bi
-- they would come | došli bi
+- ich würde kaufen (ein Mann) | kupio bih
+- ich würde kaufen (eine Frau) | kupila bih
+- wir würden reisen | putovali bismo
+- wir würden reisen (nur Frauen) | putovale bismo
+- ihr würdet bleiben | ostali biste
+- sie würde schwimmen | plivala bi
+- er würde leben | živio bi
+- sie würden kommen | došli bi
 
 ## Vergangenheit oder Traum?
 format: razvrstavanje

@@ -1,12 +1,34 @@
 #!/usr/bin/env python3
 """Izvlaci korisniku vidljive engleske stringove iz index.html (HTML tekst, atributi, JS literali)
 i pregledi.js u sucelje-de.tsv (en, de, izvor, redak). Postojeci prijevodi se cuvaju."""
-import re, os, csv, html
+import re, os, csv, html, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sucelje_lib import js_literali
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.dirname(os.path.abspath(__file__))
 EN = set("the a an is are you your to of in on for with and or but not this that it be can will what how why we our my me no yes all".split())
 
+# siri engleski rjecnik: rijeci iz engleskih segmenata lekcija, bez rijeci koje se javljaju u hrvatskim
+def _vokab():
+    import csv as _c
+    en, hr = {}, set()
+    for r in _c.DictReader(open(os.path.join(OUT, 'segmenti.tsv'), encoding='utf-8'), delimiter='\t'):
+        ws = re.findall(r"[a-z']+", r['tekst'].lower())
+        if r['jezik'] == 'en':
+            for w in ws: en[w] = en.get(w, 0) + 1
+        elif r['jezik'] == 'hr': hr.update(ws)
+    return {w for w, n in en.items() if (n >= 3 and w not in hr and len(w) > 1) or (n >= 1 and len(w) > 3 and w not in hr)} | {'of', 'to', 'in', 'on', 'at', 'by', 'or', 'and', 'the', 'is', 'up', 'no', 'ago'}
+VOK = _vokab()
+
 def eng(s):
+    t = s.strip()
+    if re.search(r'[{};]|=>|\bfunction\b|\breturn\b|rgba?\(|^https?:|^[.#/]', t): return False
+    w0 = re.findall(r"[A-Za-z']+", t)
+    if w0 and len(t) < 200 and re.search(r'[A-Za-z]{2}', t):
+        # tekst s barem jednom engleskom rijeci iz lekcija, a nije identifikator
+        frag = s != s.strip() or re.search(r'[:→↻‹›]\s*$|^\s*[·—–]', s)
+        if (len(w0) >= 2 or frag or re.search(r'^[A-Z][a-z]+( \d+)?[:!?.]?$', t)) and sum(x.lower() in VOK for x in w0) >= max(1, (len(w0) + 1) // 2):
+            return True
     t = s.strip()
     if len(t) < 2 or not re.search(r'[A-Za-z]{2}', t): return False
     if re.fullmatch(r'[\w.#:\-\[\]=>~*+,() ]*\{?', t) and ' ' not in t.strip(): 
@@ -36,15 +58,15 @@ for m in re.finditer(r'<(script|style)[^>]*>(.*?)</\1>', src, re.S):
         if eng(s): rez.append((s, 'html-attr', base + vani[:t.start()].count('\n') + 1))
     if m.group(1) == 'script':
         js = m.group(2); b2 = src[:m.start(2)].count('\n')
-        for t in re.finditer(r"'((?:[^'\\\n]|\\.)*)'|\"((?:[^\"\\\n]|\\.)*)\"|`((?:[^`\\]|\\.)*)`", js):
-            s = next(g for g in t.groups() if g is not None)
+        for a, b, q in js_literali(js):
+            s = js[a:b]
             # u JS-u stringovi s HTML-om: izvuci tekst izmedu tagova
             if '<' in s and '>' in s:
                 for tt in re.finditer(r'>([^<>]+)<', '>' + s + '<'):
                     x = html.unescape(tt.group(1)).strip()
-                    if x and eng(x): rez.append((re.sub(r'\s+', ' ', x), 'js-html', b2 + js[:t.start()].count('\n') + 1))
+                    if x and eng(x): rez.append((re.sub(r'\s+', ' ', x), 'js-html', b2 + js[:a].count('\n') + 1))
             elif eng(s):
-                rez.append((s, 'js', b2 + js[:t.start()].count('\n') + 1))
+                rez.append((s, 'js', b2 + js[:a].count('\n') + 1))
     poz = m.end()
 vani = src[poz:]; base = src[:poz].count('\n')
 for t in re.finditer(r'>([^<>]+)<', vani):
@@ -53,9 +75,9 @@ for t in re.finditer(r'>([^<>]+)<', vani):
 
 # pregledi.js
 pj = open(os.path.join(ROOT, 'pregledi.js'), encoding='utf-8').read()
-for t in re.finditer(r"'((?:[^'\\\n]|\\.)*)'|\"((?:[^\"\\\n]|\\.)*)\"|`((?:[^`\\]|\\.)*)`", pj):
-    s = next(g for g in t.groups() if g is not None)
-    if eng(s): rez.append((s, 'pregledi.js', pj[:t.start()].count('\n') + 1))
+for a, b, q in js_literali(pj):
+    s = pj[a:b]
+    if eng(s): rez.append((s, 'pregledi.js', pj[:a].count('\n') + 1))
 
 put = os.path.join(OUT, 'sucelje-de.tsv')
 stari = {}

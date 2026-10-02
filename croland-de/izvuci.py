@@ -129,6 +129,7 @@ def obradi(f, tr=None):
             body = m.group(2); pre = line[:len(line) - len(line.lstrip())] + m.group(1)
             if fmt == 'tekst' or (st == 0 and not fmt):
                 jez = jezik_proza(body)
+                jez = IZNIMKE.get(f'{f}#{st}#s{n_st}', jez)
                 dodaj(f'{f}#{st}#s{n_st}', f, st, fmt, 'redak', body, jez)
                 out.append(pre + T(body, jez)); continue
             parts = [p.strip() for p in body.split('|')]

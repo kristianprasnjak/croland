@@ -1,24 +1,24 @@
-# Reading: The Summer I Remember
+# Lesen: Der Sommer, an den ich mich erinnere
 cjelina: Practice 20
 
-## Text 1: The summer I remember
+## Text 1: Der Sommer, an den ich mich erinnere
 format: tekst
-info: A memory told by Ana, and every sentence joins two thoughts. Read it twice: once for the story, once for the connectors — *kad* for the time, *dok* for two things at once, *jer* and *zato što* for the reason, *ako* for the plan, and *koji / koje* for a description.
-infokratko: *kad, dok, jer, zato što, ako* + *koji / koje*. Ana speaks: *imala sam, plivala sam*.
-opis: Ana remembers her first summer on an island. Tap **EN** next to any sentence to see its translation.
-- Passive words: *postoji* (there is), *zaboraviti* (to forget), *plovio* (was sailing), *izgledao* (looked), *postao* (became), *dok sunce nije zašlo* (until the sun set), *neka mjesta* (some places).
-- Postoji ljeto koje nikad neću zaboraviti. | There is a summer I will never forget.
-- Imala sam deset godina kad smo prvi put putovali na otok. | I was ten years old when we travelled to the island for the first time.
-- Dok je trajekt plovio, ja sam stajala i gledala galebove. | While the ferry was sailing, I stood and watched the seagulls.
-- Otok, koji je izgledao malen, postao je cijeli moj svijet. | The island, which looked small, became my whole world.
-- Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. | I swam until the sun set, because the sea was as warm as soup.
-- Ako jednog dana imam djecu, vodit ću i njih na isti otok. | If one day I have children, I will take them to the same island too.
-- Zato što neka mjesta nisu samo mjesta. Ona su uspomene. | Because some places are not just places. They are memories.
+info: Eine Erinnerung, erzählt von Ana, und jeder Satz verbindet zwei Gedanken. Lies sie zweimal: einmal für die Geschichte, einmal für die Bindewörter – *kad* für die Zeit, *dok* für zwei Dinge gleichzeitig, *jer* und *zato što* für den Grund, *ako* für den Plan und *koji / koje* für eine Beschreibung.
+infokratko: *kad, dok, jer, zato što, ako* + *koji / koje*. Ana spricht: *imala sam, plivala sam*.
+opis: Ana erinnert sich an ihren ersten Sommer auf einer Insel. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+- Passive Wörter: *postoji* (es gibt), *zaboraviti* (vergessen), *plovio* (fuhr, segelte), *izgledao* (sah aus), *postao* (wurde), *dok sunce nije zašlo* (bis die Sonne unterging), *neka mjesta* (manche Orte).
+- Postoji ljeto koje nikad neću zaboraviti. | Es gibt einen Sommer, den ich nie vergessen werde.
+- Imala sam deset godina kad smo prvi put putovali na otok. | Ich war zehn Jahre alt, als wir zum ersten Mal auf die Insel fuhren.
+- Dok je trajekt plovio, ja sam stajala i gledala galebove. | Während die Fähre fuhr, stand ich da und schaute den Möwen zu.
+- Otok, koji je izgledao malen, postao je cijeli moj svijet. | Die Insel, die klein aussah, wurde meine ganze Welt.
+- Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. | Ich schwamm, bis die Sonne unterging, weil das Meer so warm war wie Suppe.
+- Ako jednog dana imam djecu, vodit ću i njih na isti otok. | Wenn ich eines Tages Kinder habe, werde ich auch sie auf dieselbe Insel mitnehmen.
+- Zato što neka mjesta nisu samo mjesta. Ona su uspomene. | Denn manche Orte sind nicht nur Orte. Sie sind Erinnerungen.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on Ana's memory. The connectors lead to the answers: *kad* tells you how old she was, *dok* what she did on the ferry, *jer* why she swam so long, and the last line what some places really are.
-infokratko: *kad* → her age; *dok* → on the ferry; *jer* → why she swam.
+info: Verständnis zu Anas Erinnerung. Die Bindewörter führen zu den Antworten: *kad* sagt dir, wie alt sie war, *dok*, was sie auf der Fähre machte, *jer*, warum sie so lange schwamm, und die letzte Zeile, was manche Orte wirklich sind.
+infokratko: *kad* → ihr Alter; *dok* → auf der Fähre; *jer* → warum sie schwamm.
 opis: Antworte aus dem Text.
 tekst: Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo prvi put putovali na otok. Dok je trajekt plovio, ja sam stajala i gledala galebove. Otok, koji je izgledao malen, postao je cijeli moj svijet. Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. Ako jednog dana imam djecu, vodit ću i njih na isti otok. Zato što neka mjesta nisu samo mjesta. Ona su uspomene.
 - Koliko godina je Ana imala? | deset | dvadeset | pet
@@ -30,9 +30,9 @@ tekst: Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo
 
 ## Tippe das Bindewort
 format: upis
-info: Copy each connector back into its line. *Koje* describes the summer (a neuter noun), *kad* gives the time, *dok* two things at once, *jer* the reason and *ako* the plan. Read the whole line before you choose.
-infokratko: *koje* (the summer), *kad* time, *dok* at once, *jer* reason, *ako* plan.
-opis: Fill in the connector from the text.
+info: Schreib jedes Bindewort zurück in seine Zeile. *Koje* beschreibt den Sommer (ein neutrales Substantiv), *kad* gibt die Zeit an, *dok* zwei Dinge gleichzeitig, *jer* den Grund und *ako* den Plan. Lies die ganze Zeile, bevor du wählst.
+infokratko: *koje* (der Sommer), *kad* Zeit, *dok* gleichzeitig, *jer* Grund, *ako* Plan.
+opis: Setz das Bindewort aus dem Text ein.
 tekst: Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo prvi put putovali na otok. Dok je trajekt plovio, ja sam stajala i gledala galebove. Otok, koji je izgledao malen, postao je cijeli moj svijet. Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. Ako jednog dana imam djecu, vodit ću i njih na isti otok.
 - ljeto ___ nikad neću zaboraviti | koje
 - Imala sam deset godina ___ smo prvi put putovali na otok. | kad
@@ -43,26 +43,26 @@ tekst: Postoji ljeto koje nikad neću zaboraviti. Imala sam deset godina kad smo
 - More je bilo toplo ___ juha. | kao
 - Neka mjesta nisu samo mjesta, ___ su uspomene. | nego
 
-## Text 2: If it's sunny
+## Text 2: Wenn es sonnig ist
 format: tekst
-info: Ana and Marko plan tomorrow, and nearly every line is a condition with *ako*: *ako je sunčano… ako pada kiša…* The other connectors come too — *koji* for the film, *iako* for the contrast and *dok* for two things at the same time.
+info: Ana und Marko planen morgen, und fast jede Zeile ist eine Bedingung mit *ako*: *ako je sunčano… ako pada kiša…* Auch die anderen Bindewörter kommen vor – *koji* für den Film, *iako* für den Gegensatz und *dok* für zwei Dinge gleichzeitig.
 infokratko: *ako je sunčano, ako pada kiša*; *film koji…, iako je dug, dok ti biraš*.
-opis: Ana and Marko plan the weekend. Tap **EN** to see any line in English.
-- Passive words: *htio* (wanted), *onaj* (that one), *baš taj* (exactly that one), *kažu da* (they say that), *mislim* (I do the thinking).
-- — Marko, što radimo sutra ako je sunčano? | — Marko, what are we doing tomorrow if it's sunny?
-- — Ako je sunčano, idemo na rijeku! | — If it's sunny, we're going to the river!
-- — A ako pada kiša? | — And if it rains?
-- — Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela. | — If it rains, we'll stay home and watch the film you wanted.
-- — Onaj koji traje tri sata? | — The one that lasts three hours?
-- — Da, baš taj! Iako je dug, kažu da je odličan. | — Yes, exactly that one! Although it's long, they say it's excellent.
-- — Dobro. A ja kuham ručak dok ti biraš film. | — Fine. And I'll cook lunch while you choose the film.
-- — Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim! | — Deal! See why we're a good team: you cook, and I do the thinking!
+opis: Ana und Marko planen das Wochenende. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *htio* (wollte), *onaj* (jener), *baš taj* (genau der), *kažu da* (man sagt, dass), *mislim* (ich denke).
+- — Marko, što radimo sutra ako je sunčano? | — Marko, was machen wir morgen, wenn es sonnig ist?
+- — Ako je sunčano, idemo na rijeku! | — Wenn es sonnig ist, gehen wir an den Fluss!
+- — A ako pada kiša? | — Und wenn es regnet?
+- — Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela. | — Wenn es regnet, bleiben wir zu Hause und schauen den Film, den du wolltest.
+- — Onaj koji traje tri sata? | — Den, der drei Stunden dauert?
+- — Da, baš taj! Iako je dug, kažu da je odličan. | — Ja, genau den! Obwohl er lang ist, soll er großartig sein.
+- — Dobro. A ja kuham ručak dok ti biraš film. | — Gut. Und ich koche das Mittagessen, während du den Film aussuchst.
+- — Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim! | — Abgemacht! Siehst du, warum wir ein gutes Team sind: Du kochst, und ich denke!
 
-## Match condition & plan
+## Ordne Bedingung & Plan zu
 format: parovi
-info: Each condition or time from Text 2 beside the plan that goes with it. *Ako* gives the condition, *dok* two things at once, and *iako* something true in spite of the other half.
-infokratko: *ako* → the plan; *dok* → at the same time; *iako* → in spite of.
-opis: Match the condition with the plan.
+info: Jede Bedingung oder Zeit aus Text 2 neben dem Plan, der dazugehört. *Ako* gibt die Bedingung an, *dok* zwei Dinge gleichzeitig und *iako* etwas, das trotz der anderen Hälfte wahr ist.
+infokratko: *ako* → der Plan; *dok* → gleichzeitig; *iako* → trotzdem.
+opis: Ordne jeder Bedingung den Plan zu.
 - ako je sunčano | idemo na rijeku
 - ako pada kiša | ostat ćemo doma i gledat ćemo film
 - dok Marko bira film | Ana kuha ručak
@@ -71,9 +71,9 @@ opis: Match the condition with the plan.
 
 ## Bring den Dialog in Ordnung
 format: poredak
-info: Rebuild the plan line by line. The sunny plan comes before the rainy one, the film comes up only in the rainy plan, and the lunch is decided after the film. The deal is the last line.
-infokratko: Sun, then rain, then the film, then lunch, then the deal.
-opis: Rebuild the weekend negotiation.
+info: Bau den Plan Zeile für Zeile wieder auf. Der Sonnenplan kommt vor dem Regenplan, der Film taucht nur im Regenplan auf, und das Mittagessen wird nach dem Film entschieden. Die Abmachung ist die letzte Zeile.
+infokratko: Sonne, dann Regen, dann der Film, dann das Mittagessen, dann die Abmachung.
+opis: Bau die Wochenendverhandlung wieder auf.
 - — Marko, što radimo sutra ako je sunčano?
 - — Ako je sunčano, idemo na rijeku!
 - — A ako pada kiša?
@@ -83,24 +83,24 @@ opis: Rebuild the weekend negotiation.
 - — Dobro. A ja kuham ručak dok ti biraš film.
 - — Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim!
 
-## Text 3: Why I'm learning Croatian (an essay)
+## Text 3: Warum ich Kroatisch lerne (ein Aufsatz)
 format: tekst
-info: Ben's essay about learning Croatian, and the longest text of the course. Nearly every sentence uses a connector — *jer, kad, dok, ako* — or *koji* in several forms (*koji zvuči, koje je plavo, koji su stariji*). *Da* after *mislio sam* and *otkrio sam* means *that*.
-infokratko: *jer, kad, dok, ako*; *koji / koje / koji*; *mislio sam da* = I thought that.
-opis: Ben, who comes from Canada, writes about his Croatian. Tap **EN** to see any line in English.
-- Passive words: *pretežak* (too difficult), *otkrio* (discovered), *otkrivam* (I'm discovering), *stariji od mnogih država* (older than many countries), *stajao* (stood), *učenja* (of learning), *imao smisla* (made sense).
-- Zovem se Ben i dolazim iz Kanade. | My name is Ben and I come from Canada.
-- Učim hrvatski jer volim jezik koji zvuči kao glazba. | I'm learning Croatian because I love a language that sounds like music.
-- Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | When I first heard Croatian, I thought it was too difficult.
-- Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... | But I discovered that I already know many words: banana, hotel, film, chocolate...
-- Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu. | While I learn the language, I'm also discovering the country: a sea that is as blue as in the pictures, towns that are older than many countries, and people who always have time for coffee.
-- Ako jednog dana na rivi naručim kavu bez greške, znat ću da je svaki sat učenja imao smisla. | If one day I order a coffee on the waterfront without a mistake, I'll know that every hour of learning made sense.
-- A vi? Zašto vi učite hrvatski? | And you? Why are you learning Croatian?
+info: Bens Aufsatz über das Kroatischlernen, der längste Text des Kurses. Fast jeder Satz benutzt ein Bindewort – *jer, kad, dok, ako* – oder *koji* in mehreren Formen (*koji zvuči, koje je plavo, koji su stariji*). *Da* nach *mislio sam* und *otkrio sam* heißt *dass*.
+infokratko: *jer, kad, dok, ako*; *koji / koje / koji*; *mislio sam da* = ich dachte, dass.
+opis: Ben, der aus Kanada kommt, schreibt über sein Kroatisch. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *pretežak* (zu schwer), *otkrio* (entdeckte), *otkrivam* (ich entdecke), *stariji od mnogih država* (älter als viele Staaten), *stajao* (stand), *učenja* (des Lernens), *imao smisla* (hatte Sinn).
+- Zovem se Ben i dolazim iz Kanade. | Ich heiße Ben und komme aus Kanada.
+- Učim hrvatski jer volim jezik koji zvuči kao glazba. | Ich lerne Kroatisch, weil ich eine Sprache liebe, die wie Musik klingt.
+- Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | Als ich zum ersten Mal Kroatisch hörte, dachte ich, dass es zu schwer ist.
+- Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... | Aber ich habe entdeckt, dass ich schon viele Wörter kenne: Banane, Hotel, Film, Schokolade ...
+- Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu. | Während ich die Sprache lerne, entdecke ich auch das Land: ein Meer, das so blau ist wie auf den Bildern, Städte, die älter sind als viele Staaten, und Menschen, die immer Zeit für einen Kaffee haben.
+- Ako jednog dana na rivi naručim kavu bez greške, znat ću da je svaki sat učenja imao smisla. | Wenn ich eines Tages auf der Riva ohne Fehler einen Kaffee bestelle, werde ich wissen, dass jede Stunde Lernen Sinn hatte.
+- A vi? Zašto vi učite hrvatski? | Und ihr? Warum lernt ihr Kroatisch?
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against Ben's essay. *Mislio sam da je pretežak* is what he thought at the start, *otkrio sam da već znam mnogo riječi* is what he found out, and the *koji* parts describe the country.
-infokratko: At the start: *pretežak*. Then: *već znam mnogo riječi*. *koji* describes the country.
+info: Prüf jede Aussage an Bens Aufsatz. *Mislio sam da je pretežak* ist, was er am Anfang dachte, *otkrio sam da već znam mnogo riječi* ist, was er herausgefunden hat, und die *koji*-Teile beschreiben das Land.
+infokratko: Am Anfang: *pretežak*. Dann: *već znam mnogo riječi*. *koji* beschreibt das Land.
 opis: Tippe auf richtig oder falsch.
 tekst: Zovem se Ben i dolazim iz Kanade. Učim hrvatski jer volim jezik koji zvuči kao glazba. Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu.
 - Na početku je Ben mislio da je hrvatski pretežak. | RICHTIG | FALSCH
@@ -110,11 +110,11 @@ tekst: Zovem se Ben i dolazim iz Kanade. Učim hrvatski jer volim jezik koji zvu
 - Ben dolazi iz Kanade. | RICHTIG | FALSCH
 - Ben uči hrvatski jer ima posao u Hrvatskoj. | FALSCH | RICHTIG
 
-## The essay's key sentence
+## Der Schlüsselsatz des Aufsatzes
 format: upis
-info: Copy the connectors back into Ben's key sentences. *Jer* gives his reason, *koji / koje* describe the language, the sea and the towns, *kad* and *dok* give the time, and *da* follows *mislio sam* and *znat ću*.
-infokratko: *jer* reason; *koji / koje* description; *kad, dok* time; *da* after *mislio sam*.
-opis: Fill in the connectors.
+info: Schreib die Bindewörter zurück in Bens Schlüsselsätze. *Jer* gibt seinen Grund an, *koji / koje* beschreiben die Sprache, das Meer und die Städte, *kad* und *dok* geben die Zeit an, und *da* folgt auf *mislio sam* und *znat ću*.
+infokratko: *jer* Grund; *koji / koje* Beschreibung; *kad, dok* Zeit; *da* nach *mislio sam*.
+opis: Setz die Bindewörter ein.
 tekst: Učim hrvatski jer volim jezik koji zvuči kao glazba. Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama i ljude koji uvijek imaju vremena za kavu.
 - Učim hrvatski ___ volim jezik... | jer
 - ...jezik ___ zvuči kao glazba. | koji
@@ -125,26 +125,26 @@ tekst: Učim hrvatski jer volim jezik koji zvuči kao glazba. Kad sam prvi put �
 - ljudi ___ uvijek imaju vremena za kavu | koji
 - Jezik zvuči ___ glazba. | kao
 
-## Text 4: A postcard from the island
+## Text 4: Eine Postkarte von der Insel
 format: tekst
-info: A real postcard, the kind you still send from a Croatian island. It has a greeting, a few long sentences with *koju, iako, kad* and *da*, a signature and an address. Read it as a postcard: who writes, to whom, from where.
-infokratko: A real postcard: greeting, *koju, iako, kad, da*, signature, address.
-opis: Petra writes to Grandma from Brač. Tap **EN** to see any line in English.
-- Passive words: *Pozdrav s otoka* (Greetings from the island), *prekrasno* (wonderful), *vraćamo se* (we're coming back), *jedva čekam* (I can't wait), *puno pozdrava* (lots of love).
-- POZDRAV S OTOKA BRAČA! | GREETINGS FROM THE ISLAND OF BRAČ!
-- Draga bako, | Dear Grandma,
-- ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. | it's wonderful here! The sea is as warm as soup, and the beach you see in the picture is close to our house.
-- Svaki dan plivam, iako je voda ujutro hladna. | I swim every day, although the water is cold in the morning.
-- Kad pada kiša, čitamo knjige i pijemo čaj. | When it rains, we read books and drink tea.
-- Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! | Mum says we're coming back on Saturday. I can't wait for your pancakes!
-- Puno pozdrava, tvoja Petra | Lots of love, your Petra
+info: Eine echte Postkarte, wie man sie von einer kroatischen Insel noch verschickt. Sie hat eine Anrede, ein paar lange Sätze mit *koju, iako, kad* und *da*, eine Unterschrift und eine Adresse. Lies sie wie eine Postkarte: wer schreibt, an wen, von wo.
+infokratko: Eine echte Postkarte: Anrede, *koju, iako, kad, da*, Unterschrift, Adresse.
+opis: Petra schreibt Oma von Brač. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Pozdrav s otoka* (Grüße von der Insel), *prekrasno* (wunderschön), *vraćamo se* (wir kommen zurück), *jedva čekam* (ich kann es kaum erwarten), *puno pozdrava* (viele Grüße).
+- POZDRAV S OTOKA BRAČA! | GRÜSSE VON DER INSEL BRAČ!
+- Draga bako, | Liebe Oma,
+- ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. | hier ist es wunderschön! Das Meer ist so warm wie Suppe, und der Strand, den du auf dem Bild siehst, ist in der Nähe unseres Hauses.
+- Svaki dan plivam, iako je voda ujutro hladna. | Ich schwimme jeden Tag, obwohl das Wasser morgens kalt ist.
+- Kad pada kiša, čitamo knjige i pijemo čaj. | Wenn es regnet, lesen wir Bücher und trinken Tee.
+- Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! | Mama sagt, dass wir am Samstag zurückkommen. Ich kann deine Pfannkuchen kaum erwarten!
+- Puno pozdrava, tvoja Petra | Viele Grüße, deine Petra
 - Za: Marija Horvat, Zagreb | To: Marija Horvat, Zagreb
 
-## Did you read the postcard?
+## Hast du die Postkarte gelesen?
 format: izbor
-info: Reading the postcard for the facts. Each answer is in one sentence: *koju* tells you which beach, *iako* what is true in spite of the swimming, *kad* what happens on rainy days, and *da* what Mum says.
-infokratko: *koju* → the beach; *iako* → the cold water; *kad* → rainy days; *da* → Mum's plan.
-opis: Answer from the postcard.
+info: Die Postkarte nach den Fakten lesen. Jede Antwort steht in einem Satz: *koju* sagt dir, welcher Strand, *iako*, was trotz des Schwimmens wahr ist, *kad*, was an Regentagen passiert, und *da*, was Mama sagt.
+infokratko: *koju* → der Strand; *iako* → das kalte Wasser; *kad* → Regentage; *da* → Mamas Plan.
+opis: Antworte anhand der Postkarte.
 tekst: POZDRAV S OTOKA BRAČA! Draga bako, ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. Svaki dan plivam, iako je voda ujutro hladna. Kad pada kiša, čitamo knjige i pijemo čaj. Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! Puno pozdrava, tvoja Petra. Za: Marija Horvat, Zagreb
 - Tko piše razglednicu? | Petra | baka | mama
 - Gdje je Petra? | na otoku Braču | u Zagrebu | na planini
@@ -153,27 +153,27 @@ tekst: POZDRAV S OTOKA BRAČA! Draga bako, ovdje je prekrasno! More je toplo kao
 - Što rade kad pada kiša? | čitaju knjige | plivaju | idu na plažu
 - Kada se vraćaju? | u subotu | u nedjelju | sutra
 
-## Text 5: Four summers
+## Text 5: Vier Sommer
 format: tekst
-info: A puzzle rather than a story. Four friends spent the summer in four different places, and every clue joins two thoughts with *jer, iako* or *ali*. Start with Marko: two clues are enough to place him.
+info: Eher ein Rätsel als eine Geschichte. Vier Freunde haben den Sommer an vier verschiedenen Orten verbracht, und jeder Hinweis verbindet zwei Gedanken mit *jer, iako* oder *ali*. Fang mit Marko an: Zwei Hinweise reichen, um ihn zuzuordnen.
 infokratko: Jeder Hinweis schließt etwas aus. Fang mit Marko an.
-opis: Four friends, four summers, no labels. Read it twice before you answer.
-- Passive words: *svatko* (each one), *negdje drugdje* (somewhere else), *ove godine* (this year), *tamo* (there).
-- Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. | Ana, Marko, Petra and Ivan spent the summer in four places: on an island, in the mountains, in Split and in Zagreb.
-- Svatko je bio negdje drugdje. | Each one was somewhere else.
-- Ana nije bila na moru, jer ne voli more. | Ana wasn't at the seaside, because she doesn't like the sea.
-- Marko je plivao svaki dan. | Marko swam every day.
-- Iako Marko voli Split, ove godine nije bio tamo. | Although Marko likes Split, this year he wasn't there.
-- Petra nije bila ni u Zagrebu ni na otoku. | Petra was neither in Zagreb nor on the island.
-- Petra cijelo ljeto nije plivala. | Petra didn't swim all summer.
-- Ivan je bio u gradu, ali ne u Zagrebu. | Ivan was in a city, but not in Zagreb.
-- Tko je bio gdje? | Who was where?
+opis: Vier Freunde, vier Sommer, keine Etiketten. Lies den Text zweimal, bevor du antwortest.
+- Passive Wörter: *svatko* (jeder), *negdje drugdje* (woanders), *ove godine* (dieses Jahr), *tamo* (dort).
+- Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. | Ana, Marko, Petra und Ivan haben den Sommer an vier Orten verbracht: auf einer Insel, in den Bergen, in Split und in Zagreb.
+- Svatko je bio negdje drugdje. | Jeder war woanders.
+- Ana nije bila na moru, jer ne voli more. | Ana war nicht am Meer, weil sie das Meer nicht mag.
+- Marko je plivao svaki dan. | Marko ist jeden Tag geschwommen.
+- Iako Marko voli Split, ove godine nije bio tamo. | Obwohl Marko Split mag, war er dieses Jahr nicht dort.
+- Petra nije bila ni u Zagrebu ni na otoku. | Petra war weder in Zagreb noch auf der Insel.
+- Petra cijelo ljeto nije plivala. | Petra ist den ganzen Sommer nicht geschwommen.
+- Ivan je bio u gradu, ali ne u Zagrebu. | Ivan war in einer Stadt, aber nicht in Zagreb.
+- Tko je bio gdje? | Wer war wo?
 
 ## Löse das Rätsel
 format: izbor
-info: Deduction from the clues. Marko swam every day but was not in Split, so he was on the island. Ivan was in a city but not in Zagreb, so he was in Split. Petra did not swim and was not in Zagreb, so she was in the mountains, and Ana was in Zagreb.
-infokratko: Marko first (the island), then Ivan (Split), Petra (the mountains), Ana (Zagreb).
-opis: Nobody says who was where. Work it out from the text.
+info: Schlussfolgern aus den Hinweisen. Marko ist jeden Tag geschwommen, war aber nicht in Split, also war er auf der Insel. Ivan war in einer Stadt, aber nicht in Zagreb, also war er in Split. Petra ist nicht geschwommen und war nicht in Zagreb, also war sie in den Bergen, und Ana war in Zagreb.
+infokratko: Zuerst Marko (die Insel), dann Ivan (Split), Petra (die Berge), Ana (Zagreb).
+opis: Niemand sagt, wer wo war. Finde es aus dem Text heraus.
 tekst: Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. Svatko je bio negdje drugdje. Ana nije bila na moru, jer ne voli more. Marko je plivao svaki dan. Iako Marko voli Split, ove godine nije bio tamo. Petra nije bila ni u Zagrebu ni na otoku. Petra cijelo ljeto nije plivala. Ivan je bio u gradu, ali ne u Zagrebu.
 - Gdje je bio Marko? | na otoku | u Splitu | na planini
 - Gdje je bio Ivan? | u Splitu | u Zagrebu | na otoku
@@ -185,32 +185,32 @@ tekst: Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na
 ## Tippe die Endung aus den Texten
 format: nastavak
 nastavci: i | a | e | u
-info: One tap finishes *koj___*, and almost every sentence comes from the five texts. A masculine noun and a group of people take **-i**, a feminine noun **-a**, a neuter noun and a feminine plural **-e**, and a feminine noun that is the target in its own sentence **-u**.
+info: Ein Tippen vollendet *koj___*, und fast jeder Satz stammt aus den fünf Texten. Ein maskulines Substantiv und eine Gruppe von Menschen bekommen **-i**, ein feminines Substantiv **-a**, ein neutrales Substantiv und ein femininer Plural **-e**, und ein feminines Substantiv, das in seinem eigenen Satz das Ziel ist, **-u**.
 infokratko: m. und Menschen **-i**, f. **-a**, n. und f. Pl. **-e**, f. Ziel **-u**.
-opis: Almost every sentence came out of the five texts. One tap finishes *koji*.
-- Postoji ljeto koj___ nikad neću zaboraviti. | There is a summer I will never forget. | e
-- Otok, koj___ je izgledao malen, postao je moj svijet. | The island, which looked small, became my world. | i
-- Gledat ćemo film koj___ si htjela. | We'll watch the film you wanted. | i
-- Onaj koj___ traje tri sata? | The one that lasts three hours? | i
-- Volim jezik koj___ zvuči kao glazba. | I love a language that sounds like music. | i
-- More koj___ je plavo kao na slikama. | A sea that is as blue as in the pictures. | e
-- Ljudi koj___ uvijek imaju vremena za kavu. | People who always have time for coffee. | i
-- Plaža koj___ vidiš na slici je blizu kuće. | The beach you see in the picture is close to the house. | u
-- Gradovi koj___ su stariji od mnogih država. | Towns that are older than many countries. | i
+opis: Fast jeder Satz stammt aus den fünf Texten. Ein Tippen vollendet *koji*.
+- Postoji ljeto koj___ nikad neću zaboraviti. | Es gibt einen Sommer, den ich nie vergessen werde. | e
+- Otok, koj___ je izgledao malen, postao je moj svijet. | Die Insel, die klein aussah, wurde meine Welt. | i
+- Gledat ćemo film koj___ si htjela. | Wir schauen den Film, den du wolltest. | i
+- Onaj koj___ traje tri sata? | Den, der drei Stunden dauert? | i
+- Volim jezik koj___ zvuči kao glazba. | Ich liebe eine Sprache, die wie Musik klingt. | i
+- More koj___ je plavo kao na slikama. | Ein Meer, das so blau ist wie auf den Bildern. | e
+- Ljudi koj___ uvijek imaju vremena za kavu. | Menschen, die immer Zeit für einen Kaffee haben. | i
+- Plaža koj___ vidiš na slici je blizu kuće. | Der Strand, den du auf dem Bild siehst, ist in der Nähe des Hauses. | u
+- Gradovi koj___ su stariji od mnogih država. | Städte, die älter sind als viele Staaten. | i
 - Baka ima kuću koj___ je blizu mora. | Oma hat ein Haus, das in der Nähe des Meeres ist. | a
-- To je razglednica koj___ je Petra poslala. | That's the postcard Petra sent. | u
-- Petra ima psa koj___ voli plivati. | Petra has a dog that loves swimming. | i
-- Voda koj___ je ujutro hladna. | The water that is cold in the morning. | a
-- Knjige koj___ čitamo kad pada kiša. | The books we read when it rains. | e
-- Palačinke koj___ baka peče su odlične. | The pancakes Grandma makes are excellent. | e
-- Uspomena koj___ nikad neću zaboraviti. | A memory I will never forget. | u
+- To je razglednica koj___ je Petra poslala. | Das ist die Postkarte, die Petra geschickt hat. | u
+- Petra ima psa koj___ voli plivati. | Petra hat einen Hund, der gern schwimmt. | i
+- Voda koj___ je ujutro hladna. | Das Wasser, das morgens kalt ist. | a
+- Knjige koj___ čitamo kad pada kiša. | Die Bücher, die wir lesen, wenn es regnet. | e
+- Palačinke koj___ baka peče su odlične. | Die Pfannkuchen, die Oma macht, sind großartig. | e
+- Uspomena koj___ nikad neću zaboraviti. | Eine Erinnerung, die ich nie vergessen werde. | u
 
-## Why, when, if or although?
+## Warum, wann, wenn oder obwohl?
 format: razvrstavanje
-info: Sorting sentences from the texts by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.
+info: Sätze aus den Texten nach der Bedeutung ihres Bindeworts sortieren. *Jer* und *zato što* geben einen Grund an; *kad* und *dok* die Zeit; *ako* eine Bedingung; *iako* einen Gegensatz – etwas, das trotz der anderen Hälfte wahr ist.
 infokratko: *jer, zato što* Grund; *kad, dok* Zeit; *ako* Bedingung; *iako* Gegensatz.
 stupci: UZROK | VRIJEME | UVJET | SUPROTNOST
-opis: Why, when, if or although? Sort the sentences from the texts.
+opis: Warum, wann, wenn oder obwohl? Sortiere die Sätze aus den Texten.
 - Plivala sam, jer je more bilo toplo kao juha. | UZROK
 - Učim hrvatski jer volim jezik. | UZROK
 - Ana nije bila na moru, jer ne voli more. | UZROK
@@ -226,11 +226,11 @@ opis: Why, when, if or although? Sort the sentences from the texts.
 - Svaki dan plivam, iako je voda hladna. | SUPROTNOST
 - Iako Marko voli Split, nije bio tamo. | SUPROTNOST
 
-## Now YOU remember
+## Jetzt erinnerst DU dich
 format: dijalog
-info: Your turn: a friend asks about the summer you will never forget. Your answers use *kad, jer, koji* and *iako*, and where your gender shows (*bio / bila*), both forms are offered. The friend reacts to the place you choose.
-infokratko: *kad, jer, koji, iako*; *bio / bila* in both forms. Your friend reacts.
-opis: A café, a friend and old memories. Choose your replies. Passive words: *zaboraviti* (to forget), *sjećam se* (I remember), *još uvijek* (still), *Idemo zajedno!* (Let's go together!).
+info: Du bist dran: Ein Freund fragt nach dem Sommer, den du nie vergessen wirst. Deine Antworten benutzen *kad, jer, koji* und *iako*, und wo dein Geschlecht sichtbar wird (*bio / bila*), werden beide Formen angeboten. Der Freund reagiert auf den Ort, den du wählst.
+infokratko: *kad, jer, koji, iako*; *bio / bila* in beiden Formen. Dein Freund reagiert.
+opis: Ein Café, ein Freund und alte Erinnerungen. Wähle deine Antworten. Passive Wörter: *zaboraviti* (vergessen), *sjećam se* (ich erinnere mich), *još uvijek* (immer noch), *Idemo zajedno!* (Gehen wir zusammen!).
 - npc | Koje ljeto nikad nećeš zaboraviti?
 - ti | Ljeto kad sam bio na otoku. | Ljeto kad sam bila na otoku. | Ljeto kad sam bio u Splitu. | Ljeto kad sam bila u Splitu.
 - npc | Otok ili Split — to je more! Zašto baš to ljeto?
@@ -245,30 +245,30 @@ opis: A café, a friend and old memories. Choose your replies. Passive words: *z
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the five texts — your graduation sentences. The connector opens its own half, short words take the second place right after it, and *koji* stands right after its noun.
-infokratko: Connector opens its half; short words right after it; *koji* after its noun.
-opis: Read the English sentence, then build its Croatian translation — your graduation sentences!
-- Učim hrvatski jer volim jezik koji zvuči kao glazba. | en: I'm learning Croatian because I love a language that sounds like music.
-- Ako pada kiša, ostat ćemo doma. | en: If it rains, we'll stay home.
-- Neka mjesta nisu samo mjesta. | en: Some places are not just places.
-- Postoji ljeto koje nikad neću zaboraviti. | en: There is a summer I will never forget.
-- Imala sam deset godina kad smo prvi put putovali na otok. | en: I was ten years old when we first travelled to the island.
-- Dok je trajekt plovio, gledala sam galebove. | en: While the ferry was sailing, I watched the seagulls.
-- Ako je sunčano, idemo na rijeku! | en: If it's sunny, we're going to the river!
-- Iako je film dug, kažu da je odličan. | en: Although the film is long, they say it's excellent.
-- Ja kuham ručak dok ti biraš film. | en: I'm cooking lunch while you choose the film.
-- Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | en: When I first heard Croatian, I thought it was too difficult.
-- Plaža koju vidiš na slici je blizu naše kuće. | en: The beach you see in the picture is close to our house.
-- Svaki dan plivam, iako je voda hladna. | en: I swim every day, although the water is cold.
-- Mama kaže da se vraćamo u subotu. | en: Mum says we're coming back on Saturday.
-- Ana nije bila na moru, jer ne voli more. | en: Ana wasn't at the seaside, because she doesn't like the sea.
-- A vi? Zašto vi učite hrvatski? | en: And you? Why are you learning Croatian?
+info: Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten – deine Abschlusssätze. Das Bindewort eröffnet seine eigene Hälfte, kurze Wörter nehmen die zweite Stelle direkt danach ein, und *koji* steht direkt nach seinem Substantiv.
+infokratko: Bindewort eröffnet seine Hälfte; kurze Wörter direkt danach; *koji* nach seinem Substantiv.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung – deine Abschlusssätze!
+- Učim hrvatski jer volim jezik koji zvuči kao glazba. | en: Ich lerne Kroatisch, weil ich eine Sprache liebe, die wie Musik klingt.
+- Ako pada kiša, ostat ćemo doma. | en: Wenn es regnet, bleiben wir zu Hause.
+- Neka mjesta nisu samo mjesta. | en: Manche Orte sind nicht nur Orte.
+- Postoji ljeto koje nikad neću zaboraviti. | en: Es gibt einen Sommer, den ich nie vergessen werde.
+- Imala sam deset godina kad smo prvi put putovali na otok. | en: Ich war zehn Jahre alt, als wir zum ersten Mal auf die Insel fuhren.
+- Dok je trajekt plovio, gledala sam galebove. | en: Während die Fähre fuhr, schaute ich den Möwen zu.
+- Ako je sunčano, idemo na rijeku! | en: Wenn es sonnig ist, gehen wir an den Fluss!
+- Iako je film dug, kažu da je odličan. | en: Obwohl der Film lang ist, soll er großartig sein.
+- Ja kuham ručak dok ti biraš film. | en: Ich koche das Mittagessen, während du den Film aussuchst.
+- Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | en: Als ich zum ersten Mal Kroatisch hörte, dachte ich, dass es zu schwer ist.
+- Plaža koju vidiš na slici je blizu naše kuće. | en: Der Strand, den du auf dem Bild siehst, ist in der Nähe unseres Hauses.
+- Svaki dan plivam, iako je voda hladna. | en: Ich schwimme jeden Tag, obwohl das Wasser kalt ist.
+- Mama kaže da se vraćamo u subotu. | en: Mama sagt, dass wir am Samstag zurückkommen.
+- Ana nije bila na moru, jer ne voli more. | en: Ana war nicht am Meer, weil sie das Meer nicht mag.
+- A vi? Zašto vi učite hrvatski? | en: Und ihr? Warum lernt ihr Kroatisch?
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A last timed picture-to-word tap over a Croatian summer. Everything is in its naming form; make a sentence with it in your head as you tap — *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*
-infokratko: Naming forms. Think *trajekt koji plovi, more koje je plavo*.
-opis: The last ferry of the summer is leaving! A picture appears — tap the balloon with its word before it floats away.
+info: Ein letztes zeitgebundenes Bild-zu-Wort-Tippen über einen kroatischen Sommer. Alles steht in der Grundform; bilde beim Tippen im Kopf einen Satz damit – *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*
+infokratko: Grundformen. Denk *trajekt koji plovi, more koje je plavo*.
+opis: Die letzte Fähre des Sommers legt ab! Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
 - galeb | Möwe
 - trajekt | Fähre
 - otok | Insel
@@ -282,10 +282,10 @@ opis: The last ferry of the summer is leaving! A picture appears — tap the bal
 - sladoled | Eis
 - kava | Kaffee
 
-## Final challenge
+## Letzte Herausforderung
 format: tekst
-info: The last page of the course's reading. Say your own answer to the essay's question out loud, in one sentence with *jer* or *koji* — there is no wrong answer here, only your own Croatian.
-infokratko: Your own answer, out loud: one sentence with *jer* or *koji*.
-- And now — say YOUR answer out loud: **Zašto vi učite hrvatski?**
-- One sentence with *jer* or *koji*. There's no wrong answer — only your own first real Croatian thought.
+info: Die letzte Leseseite des Kurses. Sag deine eigene Antwort auf die Frage des Aufsatzes laut, in einem Satz mit *jer* oder *koji* – hier gibt es keine falsche Antwort, nur dein eigenes Kroatisch.
+infokratko: Deine eigene Antwort, laut: ein Satz mit *jer* oder *koji*.
+- Und jetzt – sag DEINE Antwort laut: **Zašto vi učite hrvatski?**
+- Ein Satz mit *jer* oder *koji*. Es gibt keine falsche Antwort – nur deinen eigenen ersten echten kroatischen Gedanken.
 - *Kraj tečaja — čestitamo!* 🎓

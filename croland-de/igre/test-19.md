@@ -211,7 +211,7 @@ opis: Schreib das Partizip des richtigen Zwillings.
 - Dugo je ___ knjigu. (čitati / pročitati, Ana) | čitala
 - Za jedan dan smo ___ knjigu. (čitati / pročitati) | pročitali
 - Baka je već ___ juhu. (kuhati / skuhati) | skuhala
-- Napokon sam ___ sve riječi. (učiti / naučiti, a man) | naučio
+- Napokon sam ___ sve riječi. (učiti / naučiti, ein Mann) | naučio
 - Film je ___ u osam. (počinjati / početi) | počeo
 - Dugo smo ___ na pitanja. (odgovarati / odgovoriti) | odgovarali
 - Jesi li ___ zadaću? (pisati / napisati, zu einem Mädchen) | napisala

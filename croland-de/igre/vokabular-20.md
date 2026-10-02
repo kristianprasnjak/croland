@@ -77,7 +77,7 @@ opis: Zwölf Verben und acht Wörter fürs Lernen. Tippe auf eine Karte, um die 
 
 ## Ordne die Paare zu
 format: parovi
-info: Zwölf Substantive von der Sommerseite, jeweils mit ihrer deutschen Bedeutung. Stell dir die Insel vor: die **galeb** über dem **svjetionik**, die **jedrilica** in der **uvala**, den **ribar** auf der **riva**. Zwei Paare verwechselt man leicht: **uspomena** ist eine Erinnerung, aber **prošlost** ist die Vergangenheit.
+info: Zwölf Substantive von der Sommerseite, jeweils mit ihrer deutschen Bedeutung. Stell dir die Insel vor: den **galeb** über dem **svjetionik**, die **jedrilica** in der **uvala**, den **ribar** auf der **riva**. Zwei Paare verwechselt man leicht: **uspomena** ist eine Erinnerung, aber **prošlost** ist die Vergangenheit.
 infokratko: Sommersubstantive ↔ Deutsch. *uspomena* = Erinnerung, *prošlost* = Vergangenheit.
 opis: Ordne jedem Wort seine deutsche Bedeutung zu.
 - uspomena | Erinnerung

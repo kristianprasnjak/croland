@@ -158,13 +158,13 @@ infokratko: Nach dem deutschen Hinweis; *Ana*, *pas* nehmen die nackte Form: *pi
 opis: Diesmal wird nichts angeboten. Lies das Deutsche und tippe das kroatische Verb in der richtigen Form.
 - Ja ___ sok. (trinken) | pijem
 - Ti ___ kruh. (essen) | jedeš
-- Ana ___ pismo. (writes) | piše
+- Ana ___ pismo. (schreibt) | piše
 - Ja ___ film. (schauen) | gledam
-- Marko ___ . (works) | radi
+- Marko ___ . (arbeitet) | radi
 - Ti ___ udžbenik. (lesen) | čitaš
 - Ja ___ hrvatski. (lernen) | učim
-- Pas ___ . (sleeps) | spava
-- Ona ___ radio. (listens to) | sluša
+- Pas ___ . (schläft) | spava
+- Ona ___ radio. (hört) | sluša
 - Ja ___ sendvič. (essen) | jedem
 
 ## Die Regel: sagen, dass du etwas nicht tust

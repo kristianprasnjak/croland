@@ -296,7 +296,7 @@ opis: Nicht zum Genitiv – alles hier stammt aus den Stufen 8 bis 15.
 - Pizza ___ , molim. (gljive) | s gljivama | s gljive | s gljivima
 - Šaljem pismo ___ . (baka) | baki | baku | bakom
 - ___ pomažeš? — Mami. | Komu | Koga | S kim
-- Kupit ću ___ knjigu. (to him) | mu | ga | njega
+- Kupit ću ___ knjigu. (ihm) | mu | ga | njega
 - Sjedim u ___ . (kuhinja) | kuhinji | kuhinju | kuhinje
 - Ključ je na ___ . (stol) | stolu | stol | stola
 - Pričamo o ___ . (ti) | tebi | tebe | ti
@@ -305,7 +305,7 @@ opis: Nicht zum Genitiv – alles hier stammt aus den Stufen 8 bis 15.
 - ___ je ovo kuća? — Moja. | Čija | Čiji | Čije
 - Koja je rečenica točna? | Imaš li ključ? | Li imaš ključ? | Imaš ključ li?
 - Ana i Petra su jučer ___ kod bake. (biti) | bile | bio | bila
-- Jučer sam ___ ključ. (tražiti, a man speaking) | tražio | tražila | tražili
+- Jučer sam ___ ključ. (tražiti, ein Mann spricht) | tražio | tražila | tražili
 - Sutra ___ ručati kod bake. (mi) | ćemo | ćete | će
 - Koja je rečenica točna? | Ručat ćemo kod bake. | Ručati ćemo kod bake. | Ćemo ručati kod bake.
 - Vidim ___ . (pas) | psa | pas | psu

@@ -204,17 +204,17 @@ opis: Nach *o* ist nur der Lokativ richtig. Wähle die Form.
 ## Ein Ort oder viele?
 format: izbor
 opis: Die Klammer sagt: ein Ort oder mehrere. Wähle die richtige Form.
-- Turisti su na ___ . (islands) | otocima | otokima | otoku
-- Djeca su u ___ . (schools) | školama | školima | školi
-- Turisti su u ___ . (cities) | gradovima | gradima | gradu
-- Djeca su u ___ . (parks) | parkovima | parkima | parku
-- Filmovi su u ___ . (cinemas) | kinima | kinama | kinu
-- Knjige su na ___ . (shelves) | policama | policima | polici
-- Auti su u ___ . (garages) | garažama | garažima | garaži
-- Ljudi rade u ___ . (factories) | tvornicama | tvornicima | tvornici
-- Pričamo o ___ . (rivers) | rijekama | rijecama | rijeci
-- Brodovi su u ___ . (harbors) | lukama | lucama | luci
-- Djeca su na ___ . (beaches) | plažama | plažima | plaži
+- Turisti su na ___ . (Inseln) | otocima | otokima | otoku
+- Djeca su u ___ . (Schulen) | školama | školima | školi
+- Turisti su u ___ . (Städte) | gradovima | gradima | gradu
+- Djeca su u ___ . (Parks) | parkovima | parkima | parku
+- Filmovi su u ___ . (Kinos) | kinima | kinama | kinu
+- Knjige su na ___ . (Regale) | policama | policima | polici
+- Auti su u ___ . (Garagen) | garažama | garažima | garaži
+- Ljudi rade u ___ . (Fabriken) | tvornicama | tvornicima | tvornici
+- Pričamo o ___ . (Flüsse) | rijekama | rijecama | rijeci
+- Brodovi su u ___ . (Häfen) | lukama | lucama | luci
+- Djeca su na ___ . (Strände) | plažama | plažima | plaži
 - Mama je u ___ . (Bank, eine) | banci | bankama | banki
 
 ## Tippe den Lokativ

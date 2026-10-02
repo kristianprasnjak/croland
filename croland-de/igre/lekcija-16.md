@@ -99,16 +99,16 @@ format: parovi
 info: Jede deutsche Wendung neben ihrer kroatischen Fassung. In jedem Paar steht der Besitzer oder das Ganze an zweiter Stelle und im Genitiv: *miris kave* ist der Duft von Kaffee, *komad torte* ein Stück Kuchen. Ein feminines Wort endet auf **-e**, ein maskulines oder neutrales auf **-a**.
 infokratko: Der Besitzer steht an zweiter Stelle, im Genitiv: *miris kave, komad torte, boja neba*.
 opis: Ordne das Deutsche dem Kroatischen zu – achte darauf, wem was gehört.
-- my grandma's house | kuća moje bake
-- the door of the house | vrata kuće
-- a piece of cake | komad torte
-- the smell of coffee | miris kave
-- the colour of the sky | boja neba
-- the centre of the town | centar grada
-- the kitchen wall | zid kuhinje
-- the smell of the sea | miris mora
-- the colour of the grass | boja trave
-- a picture of the sea | slika mora
+- das Haus meiner Oma | kuća moje bake
+- die Tür des Hauses | vrata kuće
+- ein Stück Kuchen | komad torte
+- der Duft von Kaffee | miris kave
+- die Farbe des Himmels | boja neba
+- das Zentrum der Stadt | centar grada
+- die Küchenwand | zid kuhinje
+- der Duft des Meeres | miris mora
+- die Farbe des Grases | boja trave
+- ein Bild vom Meer | slika mora
 
 ## Welche Aufgabe?
 format: razvrstavanje

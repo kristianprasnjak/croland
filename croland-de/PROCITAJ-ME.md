@@ -25,23 +25,38 @@ Stupci: `en | de | puta (koliko se puta pojavljuje) | prvi_id (gdje se prvi put 
 
 `iznimke.tsv`: ručna iznimka za pojedini segment (`id <TAB> hr|en`) kad prepoznavanje jezika pogriješi.
 
-## Stanje (01.10.2026.)
+## Stanje (02.10.2026.)
 
 | dio | stanje |
 |---|---|
 | Rječnik (`prijevodi.jsonl`, 2401 lema) | **gotovo** → `rjecnik/prijevodi-de.jsonl`, obrnuti DE→HR `rjecnik/rjecnik-de-hr.jsonl` |
 | Sučelje (`index.html` + `pregledi.js`, 1236 stringova) | **gotovo** → `sucelje-de.tsv` (131 redak označen `@blobby` generira se iz lekcija, vidi niže) |
-| Lekcije: L0–L4 (Lesson, Vocabulary, Grammar, Practice, Test) | **gotovo** (provjereno: 0 grešaka strukture, bez zaostalog engleskog) |
-| L5–L20, daily challenge | sljedeće — redom po razinama (oko 25 % ukupnog teksta je gotovo) |
+| Lekcije L0–L20 (Lesson, Vocabulary, Grammar, Practice, Test) | **gotovo** |
+| Daily challenge (`daily-*.md`) i `*-lekcija1.md` | **gotovo** |
+| Ukupno | **100 %** (16 912 stringova), 0 grešaka strukture; provjera zaostalog engleskog prošla (uključujući 155 ručnih iznimki u `iznimke.tsv`) |
 
 Trenutni postotak: `python3 posao.py stanje`.
 
-## Što još treba (nakon prijevoda)
+## Njemačka verzija aplikacije (lokalni build)
 
-1. **Player**: `index.html` nema sustav jezika — tekstovi su upisani u kod. Treba uvesti `T('…')` (ključ = engleski string) koji čita `sucelje-de.tsv`, i izbor jezika EN/DE.
-2. **data-de.js**: `osvjezi.js` s `igreDir = croland-de/igre` i `prijevodi-de.jsonl` umjesto `prijevodi.jsonl`.
-3. **BLOBBY_RECI** (`index.html`): popis odsječaka redaka iz lekcija koje izgovara Blobby — za DE se generira iz prijevodne memorije (odsječak → njemački redak), zato je u `sucelje-de.tsv` označen `@blobby`.
-4. Gumb **EN** pored rečenica u čitanjima → u DE verziji **DE** (lekcije ga već tako spominju).
+Original se ne dira: build stvara zasebne datoteke u korijenu projekta, uz `index.html`.
+
+```
+node croland-de/osvjezi-de.js           # data-de.js + rjecnik-de.js (iz croland-de/igre i croland-de/rjecnik)
+python3 croland-de/izgradi-sucelje-de.py # index-de.html + pregledi-de.js (iz sucelje-de.tsv)
+```
+
+Otvaranje: `pokreni-lokalno.bat`, pa `http://localhost:8000/index-de.html`.
+
+- `osvjezi-de.js` učita `osvjezi.js` kao tekst i samo preusmjeri ulaz/izlaz — svaka promjena bodovanja ili formata u originalu automatski vrijedi i za DE.
+- `izgradi-sucelje-de.py` mijenja samo stringove izvučene u `sucelje-de.tsv`; JS se tokenizira pravim parserom (acorn u `_alati/`), pa kod, regexi i ključevi ostaju netaknuti.
+- **Interni ključevi ostaju engleski** (`Lesson 1`, `Daily challenge`, tipke `Enter/Escape`, `Authorization`…) jer se po njima sprema napredak u Supabase — korisnik koji promijeni jezik zadržava napredak. Prikaz imena tipova ide kroz `deTip()` / `deCjelina()` koje build ubacuje na ~30 mjesta (popis `ZAKRPE` u skripti; ako se izvorni redak promijeni, build stane s porukom umjesto da tiho propusti mjesto).
+- Novi tekst u `index.html` → `python3 croland-de/izvuci-sucelje.py` (doda nove retke u `sucelje-de.tsv`, stari prijevodi ostaju), prevesti prazne retke (`=` = ne mijenjaj, za kod), pa ponovno build.
+
+Što još nije riješeno:
+1. **Objava**: `objavi.bat` / `scripts/build.js` znaju samo za EN. Za DE treba odluka: zaseban put (npr. `/de/`) ili izbor jezika u istoj aplikaciji, i zaseban `data-plus-de.json` u Supabase bucketu.
+2. Nekoliko rečenica u kodu gradi se gramatički na engleski način (npr. `' point</strong> is'`); prijevod fragmenata je mjestimično nespretan.
+3. BLOBBY_RECI: 58 starih odsječaka ne postoji ni u engleskim lekcijama — ostaju neprevedeni i bez učinka.
 
 ## Odluke o prijevodu
 
@@ -50,3 +65,5 @@ Trenutni postotak: `python3 posao.py stanje`.
 - **Mostovi**: gdje engleski tekst uspoređuje s engleskim (*like English him*, *no articles*), njemački tekst uspoređuje s njemačkim (padeži, rod, *du/ihr/Sie*, *-in* kao *-ica*). Njemački polaznik zna padeže i rod — objašnjenja to koriste.
 - **Sie-dvosmislenost**: njemački *Sie sind* = *oni su* i *vi ste* (polite). Gdje to mijenja točan odgovor, uz rečenicu stoji *(höflich)* ili *(Plural)*.
 - TRUE/FALSE u izboru → RICHTIG/FALSCH (player ih ne prepoznaje posebno).
+- Engleski nagovještaji u zagradama prevode se na njemački oblik koji odgovara hrvatskom odgovoru: *(to him)* → *(ihm)*, *(my)* → *(mein)*, *(a woman speaking)* → *(eine Frau spricht)*.
+- Kategorije razvrstavanja koje su na hrvatskom (KAMO?, GDJE?, UZROK, MUŠKARAC…) ostaju hrvatske.

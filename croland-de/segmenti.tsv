@@ -879,7 +879,7 @@ daily-2026-08-24.md#3#s4.0	daily-2026-08-24.md	3	izbor	stavka.0	en	The restauran
 daily-2026-08-24.md#3#s4.1	daily-2026-08-24.md	3	izbor	stavka.1	en	small
 daily-2026-08-24.md#3#s4.2	daily-2026-08-24.md	3	izbor	stavka.2	en	big
 daily-2026-08-24.md#3#s4.3	daily-2026-08-24.md	3	izbor	stavka.3	en	red
-daily-2026-08-24.md#3#s5.0	daily-2026-08-24.md	3	izbor	stavka.0	hr	"""Račun, molim"" means..."
+daily-2026-08-24.md#3#s5.0	daily-2026-08-24.md	3	izbor	stavka.0	en	"""Račun, molim"" means..."
 daily-2026-08-24.md#3#s5.1	daily-2026-08-24.md	3	izbor	stavka.1	en	The bill, please
 daily-2026-08-24.md#3#s5.2	daily-2026-08-24.md	3	izbor	stavka.2	en	The menu, please
 daily-2026-08-24.md#3#s5.3	daily-2026-08-24.md	3	izbor	stavka.3	en	More soup, please
@@ -3216,19 +3216,19 @@ gramatika-03.md#9#s1.0	gramatika-03.md	9	upis	stavka.0	en	Ja ___ sok. (drink)
 gramatika-03.md#9#s1.1	gramatika-03.md	9	upis	stavka.1	hr	pijem
 gramatika-03.md#9#s2.0	gramatika-03.md	9	upis	stavka.0	en	Ti ___ kruh. (eat)
 gramatika-03.md#9#s2.1	gramatika-03.md	9	upis	stavka.1	hr	jedeš
-gramatika-03.md#9#s3.0	gramatika-03.md	9	upis	stavka.0	hr	Ana ___ pismo. (writes)
+gramatika-03.md#9#s3.0	gramatika-03.md	9	upis	stavka.0	en	Ana ___ pismo. (writes)
 gramatika-03.md#9#s3.1	gramatika-03.md	9	upis	stavka.1	hr	piše
 gramatika-03.md#9#s4.0	gramatika-03.md	9	upis	stavka.0	en	Ja ___ film. (watch)
 gramatika-03.md#9#s4.1	gramatika-03.md	9	upis	stavka.1	hr	gledam
-gramatika-03.md#9#s5.0	gramatika-03.md	9	upis	stavka.0	hr	Marko ___ . (works)
+gramatika-03.md#9#s5.0	gramatika-03.md	9	upis	stavka.0	en	Marko ___ . (works)
 gramatika-03.md#9#s5.1	gramatika-03.md	9	upis	stavka.1	hr	radi
 gramatika-03.md#9#s6.0	gramatika-03.md	9	upis	stavka.0	en	Ti ___ udžbenik. (read)
 gramatika-03.md#9#s6.1	gramatika-03.md	9	upis	stavka.1	hr	čitaš
 gramatika-03.md#9#s7.0	gramatika-03.md	9	upis	stavka.0	en	Ja ___ hrvatski. (study)
 gramatika-03.md#9#s7.1	gramatika-03.md	9	upis	stavka.1	hr	učim
-gramatika-03.md#9#s8.0	gramatika-03.md	9	upis	stavka.0	hr	Pas ___ . (sleeps)
+gramatika-03.md#9#s8.0	gramatika-03.md	9	upis	stavka.0	en	Pas ___ . (sleeps)
 gramatika-03.md#9#s8.1	gramatika-03.md	9	upis	stavka.1	hr	spava
-gramatika-03.md#9#s9.0	gramatika-03.md	9	upis	stavka.0	hr	Ona ___ radio. (listens to)
+gramatika-03.md#9#s9.0	gramatika-03.md	9	upis	stavka.0	en	Ona ___ radio. (listens to)
 gramatika-03.md#9#s9.1	gramatika-03.md	9	upis	stavka.1	hr	sluša
 gramatika-03.md#9#s10.0	gramatika-03.md	9	upis	stavka.0	en	Ja ___ sendvič. (eat)
 gramatika-03.md#9#s10.1	gramatika-03.md	9	upis	stavka.1	hr	jedem
@@ -4995,7 +4995,7 @@ gramatika-07.md#13#s4	gramatika-07.md	13	tekst	redak	en	tab: f. | knjige, jabuke
 gramatika-07.md#13#s5	gramatika-07.md	13	tekst	redak	en	tab: n. | pisma | pism**a** — no change
 gramatika-07.md#13#s6	gramatika-07.md	13	tekst	redak	en	**Only masculine moves: -i → -e.** And the *k* softens back: *učenic**i*** but *učenik**e***, *dječac**i*** but *dječak**e***. The **k → c** change only happens in front of an **-i**.
 gramatika-07.md#13#s7	gramatika-07.md	13	tekst	redak	en	**Living or not, same form now:** *Vidim prijatelj**e**.* *Vidim tramvaj**e**.* The *-a* trick was a singular-only rule, and you have just been let off it.
-gramatika-07.md#13#s8	gramatika-07.md	13	tekst	redak	hr	**Adjectives follow, as always:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
+gramatika-07.md#13#s8	gramatika-07.md	13	tekst	redak	en	**Adjectives follow, as always:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
 gramatika-07.md#13#s9	gramatika-07.md	13	tekst	redak	en	**And the pronoun for all of them is *ih*:** *Vidim učenike → Vidim **ih**.* One word for every gender, every time.
 gramatika-07.md#13#s10	gramatika-07.md	13	tekst	redak	en	**Now you write them.** Vidim učenike → Vidim [ih]. Vidim knjige → Vidim [ih]. Vidim pisma → Vidim [ih].
 gramatika-07.md#14#naslov	gramatika-07.md	14	razvrstavanje	naslov	en	Does it change in the plural?
@@ -6053,9 +6053,9 @@ gramatika-10.md#3#s2.0	gramatika-10.md	3	nastavak	stavka.0	hr	Ana je gleda___ fi
 gramatika-10.md#3#s2.1	gramatika-10.md	3	nastavak	stavka.1	?	Ana watched a film.
 gramatika-10.md#3#s3.0	gramatika-10.md	3	nastavak	stavka.0	hr	Mi smo gleda___ film.
 gramatika-10.md#3#s3.1	gramatika-10.md	3	nastavak	stavka.1	en	We watched a film.
-gramatika-10.md#3#s4.0	gramatika-10.md	3	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a man)
+gramatika-10.md#3#s4.0	gramatika-10.md	3	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a man)
 gramatika-10.md#3#s4.1	gramatika-10.md	3	nastavak	stavka.1	en	Yesterday I slept for a long time.
-gramatika-10.md#3#s5.0	gramatika-10.md	3	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a woman)
+gramatika-10.md#3#s5.0	gramatika-10.md	3	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a woman)
 gramatika-10.md#3#s5.1	gramatika-10.md	3	nastavak	stavka.1	en	Yesterday I slept for a long time.
 gramatika-10.md#3#s6.0	gramatika-10.md	3	nastavak	stavka.0	hr	Dječaci su spava___ dugo.
 gramatika-10.md#3#s6.1	gramatika-10.md	3	nastavak	stavka.1	en	The boys slept for a long time.
@@ -6083,9 +6083,9 @@ gramatika-10.md#3#s17.0	gramatika-10.md	3	nastavak	stavka.0	hr	Učenici su uči_
 gramatika-10.md#3#s17.1	gramatika-10.md	3	nastavak	stavka.1	en	The pupils studied all day.
 gramatika-10.md#3#s18.0	gramatika-10.md	3	nastavak	stavka.0	hr	Sunce je bi___ toplo.
 gramatika-10.md#3#s18.1	gramatika-10.md	3	nastavak	stavka.1	en	The sun was warm.
-gramatika-10.md#3#s19.0	gramatika-10.md	3	nastavak	stavka.0	hr	Ja sam iša___ u kino. (a man)
+gramatika-10.md#3#s19.0	gramatika-10.md	3	nastavak	stavka.0	en	Ja sam iša___ u kino. (a man)
 gramatika-10.md#3#s19.1	gramatika-10.md	3	nastavak	stavka.1	en	I went to the cinema.
-gramatika-10.md#3#s20.0	gramatika-10.md	3	nastavak	stavka.0	hr	Ja sam iš___ u kino. (a woman)
+gramatika-10.md#3#s20.0	gramatika-10.md	3	nastavak	stavka.0	en	Ja sam iš___ u kino. (a woman)
 gramatika-10.md#3#s20.1	gramatika-10.md	3	nastavak	stavka.1	en	I went to the cinema.
 gramatika-10.md#3#s21.0	gramatika-10.md	3	nastavak	stavka.0	hr	Djevojčice su pjeva___ .
 gramatika-10.md#3#s21.1	gramatika-10.md	3	nastavak	stavka.1	en	The girls sang.
@@ -7269,7 +7269,7 @@ gramatika-13.md#0#naslov	gramatika-13.md	0		naslov	en	The Locative
 gramatika-13.md#1#naslov	gramatika-13.md	1	tekst	naslov	en	The rule: where? — always with a preposition
 gramatika-13.md#1#info	gramatika-13.md	1	tekst	info	en	The reference page for the unit. The locative answers *gdje?* and always comes after a preposition — *u*, *na* or *o*. Masculine and neuter nouns take **-u**, feminine **-a** becomes **-i**. The preposition is the same one you use for motion; only the ending changes.
 gramatika-13.md#1#infokratko	gramatika-13.md	1	tekst	infokratko	en	*gdje?* + *u/na/o*: m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*).
-gramatika-13.md#1#s1	gramatika-13.md	1	tekst	redak	hr	**The locative answers *gdje?* (where?)** and never stands alone: it always comes after a preposition — *u*, *na* or *o*. Without a preposition a place stays in the naming form: *Ovo je škola.*
+gramatika-13.md#1#s1	gramatika-13.md	1	tekst	redak	en	**The locative answers *gdje?* (where?)** and never stands alone: it always comes after a preposition — *u*, *na* or *o*. Without a preposition a place stays in the naming form: *Ovo je škola.*
 gramatika-13.md#1#s2	gramatika-13.md	1	tekst	redak	en	tab: Gender | Naming form | Locative
 gramatika-13.md#1#s3	gramatika-13.md	1	tekst	redak	en	tab: m. (consonant) → **+u** | grad, ured, Split | u grad**u**, u ured**u**, u Split**u**
 gramatika-13.md#1#s4	gramatika-13.md	1	tekst	redak	en	tab: n. (-o / -e) → **-u** | kino, more, kazalište | u kin**u**, na mor**u**, u kazališt**u**
@@ -8117,19 +8117,19 @@ gramatika-14.md#12#naslov	gramatika-14.md	12	izbor	naslov	en	Long or short?
 gramatika-14.md#12#info	gramatika-14.md	12	izbor	info	en	Choosing between the long and the short receiver form. The short form goes in second place in an ordinary sentence; the long one opens the sentence, stands in contrast or answers alone. The target forms *me, ga, nas* are the mistake to avoid.
 gramatika-14.md#12#infokratko	gramatika-14.md	12	izbor	infokratko	en	Second place → short (*mi, mu*). First, contrast, alone → long (*meni, njemu*). Not *ga, nas*.
 gramatika-14.md#12#opis	gramatika-14.md	12	izbor	opis	en	Choose the form that fits. The bracket tells you who the receiver is.
-gramatika-14.md#12#s1.0	gramatika-14.md	12	izbor	stavka.0	hr	Komu pišeš? — ___ . (him)
+gramatika-14.md#12#s1.0	gramatika-14.md	12	izbor	stavka.0	en	Komu pišeš? — ___ . (him)
 gramatika-14.md#12#s1.1	gramatika-14.md	12	izbor	stavka.1	hr	Njemu
 gramatika-14.md#12#s1.2	gramatika-14.md	12	izbor	stavka.2	hr	Mu
 gramatika-14.md#12#s1.3	gramatika-14.md	12	izbor	stavka.3	hr	Njega
-gramatika-14.md#12#s2.0	gramatika-14.md	12	izbor	stavka.0	hr	Baka ___ šalje paket. (to me)
+gramatika-14.md#12#s2.0	gramatika-14.md	12	izbor	stavka.0	en	Baka ___ šalje paket. (to me)
 gramatika-14.md#12#s2.1	gramatika-14.md	12	izbor	stavka.1	hr	mi
 gramatika-14.md#12#s2.2	gramatika-14.md	12	izbor	stavka.2	hr	me
 gramatika-14.md#12#s2.3	gramatika-14.md	12	izbor	stavka.3	hr	mene
-gramatika-14.md#12#s3.0	gramatika-14.md	12	izbor	stavka.0	hr	___ šalje paket, ne tebi! (to me)
+gramatika-14.md#12#s3.0	gramatika-14.md	12	izbor	stavka.0	en	___ šalje paket, ne tebi! (to me)
 gramatika-14.md#12#s3.1	gramatika-14.md	12	izbor	stavka.1	hr	Meni
 gramatika-14.md#12#s3.2	gramatika-14.md	12	izbor	stavka.2	hr	Mi
 gramatika-14.md#12#s3.3	gramatika-14.md	12	izbor	stavka.3	hr	Mene
-gramatika-14.md#12#s4.0	gramatika-14.md	12	izbor	stavka.0	hr	Dajem ___ loptu. (to him)
+gramatika-14.md#12#s4.0	gramatika-14.md	12	izbor	stavka.0	en	Dajem ___ loptu. (to him)
 gramatika-14.md#12#s4.1	gramatika-14.md	12	izbor	stavka.1	hr	mu
 gramatika-14.md#12#s4.2	gramatika-14.md	12	izbor	stavka.2	hr	ga
 gramatika-14.md#12#s4.3	gramatika-14.md	12	izbor	stavka.3	hr	njega
@@ -8137,7 +8137,7 @@ gramatika-14.md#12#s5.0	gramatika-14.md	12	izbor	stavka.0	en	Kupujem cvijeće __
 gramatika-14.md#12#s5.1	gramatika-14.md	12	izbor	stavka.1	hr	njoj
 gramatika-14.md#12#s5.2	gramatika-14.md	12	izbor	stavka.2	hr	joj
 gramatika-14.md#12#s5.3	gramatika-14.md	12	izbor	stavka.3	hr	nju
-gramatika-14.md#12#s6.0	gramatika-14.md	12	izbor	stavka.0	hr	Poštar ___ nosi novine. (to us)
+gramatika-14.md#12#s6.0	gramatika-14.md	12	izbor	stavka.0	en	Poštar ___ nosi novine. (to us)
 gramatika-14.md#12#s6.1	gramatika-14.md	12	izbor	stavka.1	hr	nam
 gramatika-14.md#12#s6.2	gramatika-14.md	12	izbor	stavka.2	hr	nas
 gramatika-14.md#12#s6.3	gramatika-14.md	12	izbor	stavka.3	hr	ih
@@ -8145,7 +8145,7 @@ gramatika-14.md#12#s7.0	gramatika-14.md	12	izbor	stavka.0	en	Šaljem ___ poruku.
 gramatika-14.md#12#s7.1	gramatika-14.md	12	izbor	stavka.1	hr	vam
 gramatika-14.md#12#s7.2	gramatika-14.md	12	izbor	stavka.2	hr	vas
 gramatika-14.md#12#s7.3	gramatika-14.md	12	izbor	stavka.3	hr	vi
-gramatika-14.md#12#s8.0	gramatika-14.md	12	izbor	stavka.0	hr	Komu daješ ključ? — ___ . (to them)
+gramatika-14.md#12#s8.0	gramatika-14.md	12	izbor	stavka.0	en	Komu daješ ključ? — ___ . (to them)
 gramatika-14.md#12#s8.1	gramatika-14.md	12	izbor	stavka.1	hr	Njima
 gramatika-14.md#12#s8.2	gramatika-14.md	12	izbor	stavka.2	hr	Im
 gramatika-14.md#12#s8.3	gramatika-14.md	12	izbor	stavka.3	hr	Ih
@@ -8153,7 +8153,7 @@ gramatika-14.md#12#s9.0	gramatika-14.md	12	izbor	stavka.0	en	Kupit ću ___ šal.
 gramatika-14.md#12#s9.1	gramatika-14.md	12	izbor	stavka.1	hr	joj
 gramatika-14.md#12#s9.2	gramatika-14.md	12	izbor	stavka.2	hr	je
 gramatika-14.md#12#s9.3	gramatika-14.md	12	izbor	stavka.3	hr	nju
-gramatika-14.md#12#s10.0	gramatika-14.md	12	izbor	stavka.0	hr	Mama ___ je poslala paket. (to him)
+gramatika-14.md#12#s10.0	gramatika-14.md	12	izbor	stavka.0	en	Mama ___ je poslala paket. (to him)
 gramatika-14.md#12#s10.1	gramatika-14.md	12	izbor	stavka.1	hr	mu
 gramatika-14.md#12#s10.2	gramatika-14.md	12	izbor	stavka.2	hr	ga
 gramatika-14.md#12#s10.3	gramatika-14.md	12	izbor	stavka.3	hr	njega
@@ -10042,7 +10042,7 @@ gramatika-19.md#6#s6.0	gramatika-19.md	6	upis	stavka.0	hr	Baka je već ___ juhu.
 gramatika-19.md#6#s6.1	gramatika-19.md	6	upis	stavka.1	hr	skuhala
 gramatika-19.md#6#s7.0	gramatika-19.md	6	upis	stavka.0	hr	Cijeli dan su ___ televiziju. (gledati / pogledati, djeca)
 gramatika-19.md#6#s7.1	gramatika-19.md	6	upis	stavka.1	hr	gledala
-gramatika-19.md#6#s8.0	gramatika-19.md	6	upis	stavka.0	hr	Napokon sam ___ sve riječi. (učiti / naučiti, a woman)
+gramatika-19.md#6#s8.0	gramatika-19.md	6	upis	stavka.0	en	Napokon sam ___ sve riječi. (učiti / naučiti, a woman)
 gramatika-19.md#6#s8.1	gramatika-19.md	6	upis	stavka.1	hr	naučila
 gramatika-19.md#6#s9.0	gramatika-19.md	6	upis	stavka.0	en	Svaki dan sam ___ kruh. (kupovati / kupiti, a man)
 gramatika-19.md#6#s9.1	gramatika-19.md	6	upis	stavka.1	hr	kupovao
@@ -10385,7 +10385,7 @@ gramatika-20.md#5#s3	gramatika-20.md	5	tekst	redak	en	tab: znati | Znam **da** j
 gramatika-20.md#5#s4	gramatika-20.md	5	tekst	redak	en	tab: misliti | Mislim **da** ćeš doći. | I think you'll come.
 gramatika-20.md#5#s5	gramatika-20.md	5	tekst	redak	en	tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | He / She said he / she had no time.
 gramatika-20.md#5#s6	gramatika-20.md	5	tekst	redak	en	tab: nadati se | Nadam se **da** je sve u redu. | I hope everything's fine.
-gramatika-20.md#5#s7	gramatika-20.md	5	tekst	redak	hr	**No comma before *da*** in these sentences, and the short words come right after it: *da **je**, da **ćeš**, da **sam***.
+gramatika-20.md#5#s7	gramatika-20.md	5	tekst	redak	en	**No comma before *da*** in these sentences, and the short words come right after it: *da **je**, da **ćeš**, da **sam***.
 gramatika-20.md#5#s8	gramatika-20.md	5	tekst	redak	en	**No tense shift.** English turns *He said: I am tired* into *He said he **was** tired*. Croatian keeps the original tense: *Rekao je **da je** umoran.*
 gramatika-20.md#5#s9	gramatika-20.md	5	tekst	redak	en	**Da + present when the subjects are different.** *Želim **doći**.* = I want to come (myself). *Želim **da dođeš**.* = I want *you* to come.
 gramatika-20.md#5#s10	gramatika-20.md	5	tekst	redak	en	**koji in the other cases.** It takes the case its own sentence needs, with the adjective endings: *čovjek **kojeg** čekam* (target, a person), *grad u **kojem** živim* (place), *vlak **kojim** putujem* (means), *prijatelj **kojem** pišem* (receiver), *kuća u **kojoj** živim* (place, feminine).
@@ -11254,7 +11254,7 @@ lekcija-01.md#12#s6.2	lekcija-01.md	12	provjera	stavka.2	hr	Lampa je žuta.
 lekcija-01.md#12#s6.3	lekcija-01.md	12	provjera	stavka.3	hr	Lampa je plava.
 lekcija-01.md#12#s7.1	lekcija-01.md	12	provjera	stavka.1	hr	Grad je lijep/lijepa/lijepo.
 lekcija-01.md#12#s7.2	lekcija-01.md	12	provjera	stavka.2	hr	lijep
-lekcija-01.md#12#s8.1	lekcija-01.md	12	provjera	stavka.1	hr	"""Krevet je velik."" means..."
+lekcija-01.md#12#s8.1	lekcija-01.md	12	provjera	stavka.1	en	"""Krevet je velik."" means..."
 lekcija-01.md#12#s8.2	lekcija-01.md	12	provjera	stavka.2	en	The bed is big.
 lekcija-01.md#12#s8.3	lekcija-01.md	12	provjera	stavka.3	en	The bed is small.
 lekcija-01.md#13#naslov	lekcija-01.md	13	tekst	naslov	en	Reward & preview
@@ -11504,7 +11504,7 @@ lekcija-02.md#11#s6.2	lekcija-02.md	11	provjera	stavka.2	hr	studentica
 lekcija-02.md#11#s6.3	lekcija-02.md	11	provjera	stavka.3	hr	student
 lekcija-02.md#11#s7.1	lekcija-02.md	11	provjera	stavka.1	hr	Ona je pametna i vesela.
 lekcija-02.md#11#s7.2	lekcija-02.md	11	provjera	stavka.2	en	en: She is smart and cheerful.
-lekcija-02.md#11#s8.1	lekcija-02.md	11	provjera	stavka.1	hr	"""Vi ste"" means ""I am."""
+lekcija-02.md#11#s8.1	lekcija-02.md	11	provjera	stavka.1	en	"""Vi ste"" means ""I am."""
 lekcija-02.md#11#s8.2	lekcija-02.md	11	provjera	stavka.2	?	FALSE
 lekcija-02.md#11#s8.3	lekcija-02.md	11	provjera	stavka.3	?	TRUE
 lekcija-02.md#11#s9.1	lekcija-02.md	11	provjera	stavka.1	hr	Tko ___ ti?
@@ -14048,25 +14048,25 @@ lekcija-09.md#8#naslov	lekcija-09.md	8	parovi	naslov	en	Whose is it?
 lekcija-09.md#8#info	lekcija-09.md	8	parovi	info	en	English on one side, Croatian on the other, so you can watch the rule work in whole sentences. **Read the Croatian noun first and check its last letter** — that letter, not the English, tells you which of the two possessives on offer is the right partner.
 lekcija-09.md#8#infokratko	lekcija-09.md	8	parovi	infokratko	en	Check the Croatian noun's last letter: it picks the possessive.
 lekcija-09.md#8#opis	lekcija-09.md	8	parovi	opis	en	Match each English sentence with its Croatian partner.
-lekcija-09.md#8#s1.0	lekcija-09.md	8	parovi	stavka.0	hr	My ball is red.
+lekcija-09.md#8#s1.0	lekcija-09.md	8	parovi	stavka.0	en	My ball is red.
 lekcija-09.md#8#s1.1	lekcija-09.md	8	parovi	stavka.1	en	Moja lopta je crvena.
-lekcija-09.md#8#s2.0	lekcija-09.md	8	parovi	stavka.0	hr	His jersey is blue.
+lekcija-09.md#8#s2.0	lekcija-09.md	8	parovi	stavka.0	en	His jersey is blue.
 lekcija-09.md#8#s2.1	lekcija-09.md	8	parovi	stavka.1	en	Njegov dres je plav.
-lekcija-09.md#8#s3.0	lekcija-09.md	8	parovi	stavka.0	hr	Her guitar is new.
+lekcija-09.md#8#s3.0	lekcija-09.md	8	parovi	stavka.0	en	Her guitar is new.
 lekcija-09.md#8#s3.1	lekcija-09.md	8	parovi	stavka.1	en	Njezina gitara je nova.
-lekcija-09.md#8#s4.0	lekcija-09.md	8	parovi	stavka.0	hr	Our coach is strict.
+lekcija-09.md#8#s4.0	lekcija-09.md	8	parovi	stavka.0	en	Our coach is strict.
 lekcija-09.md#8#s4.1	lekcija-09.md	8	parovi	stavka.1	en	Naš trener je strog.
-lekcija-09.md#8#s5.0	lekcija-09.md	8	parovi	stavka.0	hr	Their defence is strong.
+lekcija-09.md#8#s5.0	lekcija-09.md	8	parovi	stavka.0	en	Their defence is strong.
 lekcija-09.md#8#s5.1	lekcija-09.md	8	parovi	stavka.1	en	Njihova obrana je jaka.
-lekcija-09.md#8#s6.0	lekcija-09.md	8	parovi	stavka.0	hr	My knee hurts.
+lekcija-09.md#8#s6.0	lekcija-09.md	8	parovi	stavka.0	en	My knee hurts.
 lekcija-09.md#8#s6.1	lekcija-09.md	8	parovi	stavka.1	en	Moje koljeno boli.
-lekcija-09.md#8#s7.0	lekcija-09.md	8	parovi	stavka.0	hr	Your team is fast.
+lekcija-09.md#8#s7.0	lekcija-09.md	8	parovi	stavka.0	en	Your team is fast.
 lekcija-09.md#8#s7.1	lekcija-09.md	8	parovi	stavka.1	en	Tvoja momčad je brza.
-lekcija-09.md#8#s8.0	lekcija-09.md	8	parovi	stavka.0	hr	Our club is small.
+lekcija-09.md#8#s8.0	lekcija-09.md	8	parovi	stavka.0	en	Our club is small.
 lekcija-09.md#8#s8.1	lekcija-09.md	8	parovi	stavka.1	en	Naš klub je mali.
-lekcija-09.md#8#s9.0	lekcija-09.md	8	parovi	stavka.0	hr	His position is goalkeeper.
+lekcija-09.md#8#s9.0	lekcija-09.md	8	parovi	stavka.0	en	His position is goalkeeper.
 lekcija-09.md#8#s9.1	lekcija-09.md	8	parovi	stavka.1	en	Njegova pozicija je golman.
-lekcija-09.md#8#s10.0	lekcija-09.md	8	parovi	stavka.0	hr	Whose ball is this?
+lekcija-09.md#8#s10.0	lekcija-09.md	8	parovi	stavka.0	en	Whose ball is this?
 lekcija-09.md#8#s10.1	lekcija-09.md	8	parovi	stavka.1	en	Čija je ovo lopta?
 lekcija-09.md#9#naslov	lekcija-09.md	9	razvrstavanje	naslov	en	Sort by the thing
 lekcija-09.md#9#info	lekcija-09.md	9	razvrstavanje	info	en	Eighteen nouns, three columns, and the sorting is done entirely on the last letter. A consonant sends the word to **MOJ**, an *-a* to **MOJA**, an *-o* or *-e* to **MOJE**. **Say *moj*, *moja*, *moje* under your breath as you drag** — the wrong one will sound wrong before you finish it.
@@ -14403,29 +14403,29 @@ lekcija-10.md#2#naslov	lekcija-10.md	2	brzina	naslov	en	Rapid recall
 lekcija-10.md#2#info	lekcija-10.md	2	brzina	info	en	A timed warm-up on the possessives from Lesson 9, before anything new arrives. The ending comes from the **thing owned**, never from the owner: a consonant takes the bare form (*moj dres*), **-a** takes **-a** (*moja lopta*), a neuter noun takes **-o** or **-e** (*njegovo srce*, *moje koljeno*). **Read the noun, not the English.**
 lekcija-10.md#2#infokratko	lekcija-10.md	2	brzina	infokratko	en	Lesson 9 against the clock. The ending follows the thing: *moj dres, moja lopta, moje koljeno*.
 lekcija-10.md#2#opis	lekcija-10.md	2	brzina	opis	en	Possessive sprint from Lesson 9 — tap the form that fits the noun before the timer runs out.
-lekcija-10.md#2#s1.0	lekcija-10.md	2	brzina	stavka.0	hr	___ gitara (my)
+lekcija-10.md#2#s1.0	lekcija-10.md	2	brzina	stavka.0	en	___ gitara (my)
 lekcija-10.md#2#s1.1	lekcija-10.md	2	brzina	stavka.1	hr	moja
-lekcija-10.md#2#s2.0	lekcija-10.md	2	brzina	stavka.0	hr	___ klub (our)
+lekcija-10.md#2#s2.0	lekcija-10.md	2	brzina	stavka.0	en	___ klub (our)
 lekcija-10.md#2#s2.1	lekcija-10.md	2	brzina	stavka.1	hr	naš
-lekcija-10.md#2#s3.0	lekcija-10.md	2	brzina	stavka.0	hr	___ dres (his)
+lekcija-10.md#2#s3.0	lekcija-10.md	2	brzina	stavka.0	en	___ dres (his)
 lekcija-10.md#2#s3.1	lekcija-10.md	2	brzina	stavka.1	hr	njegov
-lekcija-10.md#2#s4.0	lekcija-10.md	2	brzina	stavka.0	hr	___ lopta (her)
+lekcija-10.md#2#s4.0	lekcija-10.md	2	brzina	stavka.0	en	___ lopta (her)
 lekcija-10.md#2#s4.1	lekcija-10.md	2	brzina	stavka.1	hr	njezina
-lekcija-10.md#2#s5.0	lekcija-10.md	2	brzina	stavka.0	hr	___ more (our)
+lekcija-10.md#2#s5.0	lekcija-10.md	2	brzina	stavka.0	en	___ more (our)
 lekcija-10.md#2#s5.1	lekcija-10.md	2	brzina	stavka.1	hr	naše
-lekcija-10.md#2#s6.0	lekcija-10.md	2	brzina	stavka.0	hr	___ koljeno (my)
+lekcija-10.md#2#s6.0	lekcija-10.md	2	brzina	stavka.0	en	___ koljeno (my)
 lekcija-10.md#2#s6.1	lekcija-10.md	2	brzina	stavka.1	hr	moje
-lekcija-10.md#2#s7.0	lekcija-10.md	2	brzina	stavka.0	hr	___ trener (their)
+lekcija-10.md#2#s7.0	lekcija-10.md	2	brzina	stavka.0	en	___ trener (their)
 lekcija-10.md#2#s7.1	lekcija-10.md	2	brzina	stavka.1	hr	njihov
-lekcija-10.md#2#s8.0	lekcija-10.md	2	brzina	stavka.0	hr	___ momčad (your, one friend)
+lekcija-10.md#2#s8.0	lekcija-10.md	2	brzina	stavka.0	en	___ momčad (your, one friend)
 lekcija-10.md#2#s8.1	lekcija-10.md	2	brzina	stavka.1	hr	tvoja
-lekcija-10.md#2#s9.0	lekcija-10.md	2	brzina	stavka.0	hr	___ srce (his)
+lekcija-10.md#2#s9.0	lekcija-10.md	2	brzina	stavka.0	en	___ srce (his)
 lekcija-10.md#2#s9.1	lekcija-10.md	2	brzina	stavka.1	hr	njegovo
-lekcija-10.md#2#s10.0	lekcija-10.md	2	brzina	stavka.0	hr	___ obrana (your, plural)
+lekcija-10.md#2#s10.0	lekcija-10.md	2	brzina	stavka.0	en	___ obrana (your, plural)
 lekcija-10.md#2#s10.1	lekcija-10.md	2	brzina	stavka.1	hr	vaša
-lekcija-10.md#2#s11.0	lekcija-10.md	2	brzina	stavka.0	hr	___ hobi (my)
+lekcija-10.md#2#s11.0	lekcija-10.md	2	brzina	stavka.0	en	___ hobi (my)
 lekcija-10.md#2#s11.1	lekcija-10.md	2	brzina	stavka.1	hr	moj
-lekcija-10.md#2#s12.0	lekcija-10.md	2	brzina	stavka.0	hr	___ tijelo (her)
+lekcija-10.md#2#s12.0	lekcija-10.md	2	brzina	stavka.0	en	___ tijelo (her)
 lekcija-10.md#2#s12.1	lekcija-10.md	2	brzina	stavka.1	hr	njezino
 lekcija-10.md#3#naslov	lekcija-10.md	3	kartice	naslov	en	Yesterday words
 lekcija-10.md#3#info	lekcija-10.md	3	kartice	info	en	Flashcards for talking about the past. The time words are the ones to store first — *jučer*, *prošli vikend*, *cijeli dan* — because they announce that a story is coming. *Prošli* takes adjective endings: *prošli vikend*, *prošla subota*, *prošlo ljeto*. Three familiar verbs come back in their *ja* form, as always.
@@ -14619,9 +14619,9 @@ lekcija-10.md#8#s2.0	lekcija-10.md	8	nastavak	stavka.0	hr	Ana je gleda___ film.
 lekcija-10.md#8#s2.1	lekcija-10.md	8	nastavak	stavka.1	?	Ana watched a film.
 lekcija-10.md#8#s3.0	lekcija-10.md	8	nastavak	stavka.0	hr	Mi smo gleda___ film.
 lekcija-10.md#8#s3.1	lekcija-10.md	8	nastavak	stavka.1	en	We watched a film.
-lekcija-10.md#8#s4.0	lekcija-10.md	8	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a man)
+lekcija-10.md#8#s4.0	lekcija-10.md	8	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a man)
 lekcija-10.md#8#s4.1	lekcija-10.md	8	nastavak	stavka.1	en	Yesterday I slept for a long time.
-lekcija-10.md#8#s5.0	lekcija-10.md	8	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a woman)
+lekcija-10.md#8#s5.0	lekcija-10.md	8	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a woman)
 lekcija-10.md#8#s5.1	lekcija-10.md	8	nastavak	stavka.1	en	Yesterday I slept for a long time.
 lekcija-10.md#8#s6.0	lekcija-10.md	8	nastavak	stavka.0	hr	Dječaci su spava___ dugo.
 lekcija-10.md#8#s6.1	lekcija-10.md	8	nastavak	stavka.1	en	The boys slept for a long time.
@@ -14653,9 +14653,9 @@ lekcija-10.md#8#s19.0	lekcija-10.md	8	nastavak	stavka.0	hr	Djevojčice su pjeva_
 lekcija-10.md#8#s19.1	lekcija-10.md	8	nastavak	stavka.1	en	The girls sang.
 lekcija-10.md#8#s20.0	lekcija-10.md	8	nastavak	stavka.0	hr	Ana i Petra su bi___ u kinu.
 lekcija-10.md#8#s20.1	lekcija-10.md	8	nastavak	stavka.1	en	Ana and Petra were at the cinema.
-lekcija-10.md#8#s21.0	lekcija-10.md	8	nastavak	stavka.0	hr	Ti si igra___ tenis. (to a friend, m.)
+lekcija-10.md#8#s21.0	lekcija-10.md	8	nastavak	stavka.0	en	Ti si igra___ tenis. (to a friend, m.)
 lekcija-10.md#8#s21.1	lekcija-10.md	8	nastavak	stavka.1	en	You played tennis.
-lekcija-10.md#8#s22.0	lekcija-10.md	8	nastavak	stavka.0	hr	Ti si igra___ tenis. (to a friend, f.)
+lekcija-10.md#8#s22.0	lekcija-10.md	8	nastavak	stavka.0	en	Ti si igra___ tenis. (to a friend, f.)
 lekcija-10.md#8#s22.1	lekcija-10.md	8	nastavak	stavka.1	en	You played tennis.
 lekcija-10.md#9#naslov	lekcija-10.md	9	izbor	naslov	en	Pick the right combo
 lekcija-10.md#9#info	lekcija-10.md	9	izbor	info	en	Multiple choice on the whole pair, helper plus participle. Two things have to agree at once: the helper with the **person** (*je* for Marko, *smo* for us) and the participle with the **gender** (*igrao* for him, *igrala* for her). Each wrong option gets the helper, the gender, or both wrong.
@@ -16051,17 +16051,17 @@ lekcija-13.md#2#s4.0	lekcija-13.md	2	brzina	stavka.0	hr	ću
 lekcija-13.md#2#s4.1	lekcija-13.md	2	brzina	stavka.1	hr	neću
 lekcija-13.md#2#s5.0	lekcija-13.md	2	brzina	stavka.0	hr	imamo
 lekcija-13.md#2#s5.1	lekcija-13.md	2	brzina	stavka.1	hr	nemamo
-lekcija-13.md#2#s6.0	lekcija-13.md	2	brzina	stavka.0	hr	Marko ___ ne jede. (nothing)
+lekcija-13.md#2#s6.0	lekcija-13.md	2	brzina	stavka.0	en	Marko ___ ne jede. (nothing)
 lekcija-13.md#2#s6.1	lekcija-13.md	2	brzina	stavka.1	hr	ništa
-lekcija-13.md#2#s7.0	lekcija-13.md	2	brzina	stavka.0	hr	___ ne kuha. (nobody)
+lekcija-13.md#2#s7.0	lekcija-13.md	2	brzina	stavka.0	en	___ ne kuha. (nobody)
 lekcija-13.md#2#s7.1	lekcija-13.md	2	brzina	stavka.1	hr	Nitko
-lekcija-13.md#2#s8.0	lekcija-13.md	2	brzina	stavka.0	hr	___ ne pijem mlijeko. (never)
+lekcija-13.md#2#s8.0	lekcija-13.md	2	brzina	stavka.0	en	___ ne pijem mlijeko. (never)
 lekcija-13.md#2#s8.1	lekcija-13.md	2	brzina	stavka.1	hr	Nikad
-lekcija-13.md#2#s9.0	lekcija-13.md	2	brzina	stavka.0	hr	Ana ___ ne ide. (nowhere)
+lekcija-13.md#2#s9.0	lekcija-13.md	2	brzina	stavka.0	en	Ana ___ ne ide. (nowhere)
 lekcija-13.md#2#s9.1	lekcija-13.md	2	brzina	stavka.1	hr	nigdje
 lekcija-13.md#2#s10.0	lekcija-13.md	2	brzina	stavka.0	hr	Ne jedem ni meso ___ ribu.
 lekcija-13.md#2#s10.1	lekcija-13.md	2	brzina	stavka.1	hr	ni
-lekcija-13.md#2#s11.0	lekcija-13.md	2	brzina	stavka.0	hr	___ ne čekam. (nobody, target)
+lekcija-13.md#2#s11.0	lekcija-13.md	2	brzina	stavka.0	en	___ ne čekam. (nobody, target)
 lekcija-13.md#2#s11.1	lekcija-13.md	2	brzina	stavka.1	hr	Nikoga
 lekcija-13.md#2#s12.0	lekcija-13.md	2	brzina	stavka.0	hr	Marko je pio kavu. → Marko ___ pio kavu.
 lekcija-13.md#2#s12.1	lekcija-13.md	2	brzina	stavka.1	hr	nije
@@ -17639,25 +17639,25 @@ lekcija-16.md#6#naslov	lekcija-16.md	6	parovi	naslov	en	Whose is it?
 lekcija-16.md#6#info	lekcija-16.md	6	parovi	info	en	Each English phrase beside its Croatian version. In every pair the owner or the whole comes second and takes the genitive: *miris kave* is the smell of coffee, *komad torte* a piece of cake. A feminine word ends in **-e**, a masculine or neuter one in **-a**.
 lekcija-16.md#6#infokratko	lekcija-16.md	6	parovi	infokratko	en	The owner comes second, in the genitive: *miris kave, komad torte, boja neba*.
 lekcija-16.md#6#opis	lekcija-16.md	6	parovi	opis	en	Match the English with the Croatian — notice who owns what.
-lekcija-16.md#6#s1.0	lekcija-16.md	6	parovi	stavka.0	hr	my grandma's house
+lekcija-16.md#6#s1.0	lekcija-16.md	6	parovi	stavka.0	en	my grandma's house
 lekcija-16.md#6#s1.1	lekcija-16.md	6	parovi	stavka.1	en	kuća moje bake
-lekcija-16.md#6#s2.0	lekcija-16.md	6	parovi	stavka.0	hr	the door of the house
+lekcija-16.md#6#s2.0	lekcija-16.md	6	parovi	stavka.0	en	the door of the house
 lekcija-16.md#6#s2.1	lekcija-16.md	6	parovi	stavka.1	en	vrata kuće
-lekcija-16.md#6#s3.0	lekcija-16.md	6	parovi	stavka.0	hr	a piece of cake
+lekcija-16.md#6#s3.0	lekcija-16.md	6	parovi	stavka.0	en	a piece of cake
 lekcija-16.md#6#s3.1	lekcija-16.md	6	parovi	stavka.1	en	komad torte
-lekcija-16.md#6#s4.0	lekcija-16.md	6	parovi	stavka.0	hr	the smell of coffee
+lekcija-16.md#6#s4.0	lekcija-16.md	6	parovi	stavka.0	en	the smell of coffee
 lekcija-16.md#6#s4.1	lekcija-16.md	6	parovi	stavka.1	en	miris kave
-lekcija-16.md#6#s5.0	lekcija-16.md	6	parovi	stavka.0	hr	the colour of the sky
+lekcija-16.md#6#s5.0	lekcija-16.md	6	parovi	stavka.0	en	the colour of the sky
 lekcija-16.md#6#s5.1	lekcija-16.md	6	parovi	stavka.1	en	boja neba
-lekcija-16.md#6#s6.0	lekcija-16.md	6	parovi	stavka.0	hr	the centre of the town
+lekcija-16.md#6#s6.0	lekcija-16.md	6	parovi	stavka.0	en	the centre of the town
 lekcija-16.md#6#s6.1	lekcija-16.md	6	parovi	stavka.1	en	centar grada
-lekcija-16.md#6#s7.0	lekcija-16.md	6	parovi	stavka.0	hr	the kitchen wall
+lekcija-16.md#6#s7.0	lekcija-16.md	6	parovi	stavka.0	en	the kitchen wall
 lekcija-16.md#6#s7.1	lekcija-16.md	6	parovi	stavka.1	en	zid kuhinje
-lekcija-16.md#6#s8.0	lekcija-16.md	6	parovi	stavka.0	hr	the smell of the sea
+lekcija-16.md#6#s8.0	lekcija-16.md	6	parovi	stavka.0	en	the smell of the sea
 lekcija-16.md#6#s8.1	lekcija-16.md	6	parovi	stavka.1	en	miris mora
-lekcija-16.md#6#s9.0	lekcija-16.md	6	parovi	stavka.0	hr	the colour of the grass
+lekcija-16.md#6#s9.0	lekcija-16.md	6	parovi	stavka.0	en	the colour of the grass
 lekcija-16.md#6#s9.1	lekcija-16.md	6	parovi	stavka.1	en	boja trave
-lekcija-16.md#6#s10.0	lekcija-16.md	6	parovi	stavka.0	hr	a picture of the sea
+lekcija-16.md#6#s10.0	lekcija-16.md	6	parovi	stavka.0	en	a picture of the sea
 lekcija-16.md#6#s10.1	lekcija-16.md	6	parovi	stavka.1	en	slika mora
 lekcija-16.md#7#naslov	lekcija-16.md	7	razvrstavanje	naslov	en	Which job?
 lekcija-16.md#7#info	lekcija-16.md	7	razvrstavanje	info	en	Sorting sentences by the job of the genitive. If the form tells you whose or of what, it is **belonging**. If it follows a little word such as *bez, iz, kod, pokraj*, it is **a preposition**. If it follows *nema*, something is **missing**.
@@ -18177,37 +18177,37 @@ lekcija-17.md#8#info	lekcija-17.md	8	nastavak	info	en	One tap turns the verb int
 lekcija-17.md#8#infokratko	lekcija-17.md	8	nastavak	infokratko	en	*-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
 lekcija-17.md#8#opis	lekcija-17.md	8	nastavak	opis	en	The *ti* form is in the English line. One tap makes the order.
 lekcija-17.md#8#s1.0	lekcija-17.md	8	nastavak	stavka.0	hr	Gled___ me!
-lekcija-17.md#8#s1.1	lekcija-17.md	8	nastavak	stavka.1	hr	Look at me! (gledaš)
+lekcija-17.md#8#s1.1	lekcija-17.md	8	nastavak	stavka.1	en	Look at me! (gledaš)
 lekcija-17.md#8#s2.0	lekcija-17.md	8	nastavak	stavka.0	hr	Uzm___ tri jaja!
-lekcija-17.md#8#s2.1	lekcija-17.md	8	nastavak	stavka.1	hr	Take three eggs! (uzmeš)
+lekcija-17.md#8#s2.1	lekcija-17.md	8	nastavak	stavka.1	en	Take three eggs! (uzmeš)
 lekcija-17.md#8#s3.0	lekcija-17.md	8	nastavak	stavka.0	hr	Pi___ vodu!
-lekcija-17.md#8#s3.1	lekcija-17.md	8	nastavak	stavka.1	hr	Drink water! (piješ)
+lekcija-17.md#8#s3.1	lekcija-17.md	8	nastavak	stavka.1	en	Drink water! (piješ)
 lekcija-17.md#8#s4.0	lekcija-17.md	8	nastavak	stavka.0	hr	Dod___ malo soli!
-lekcija-17.md#8#s4.1	lekcija-17.md	8	nastavak	stavka.1	hr	Add a little salt! (dodaš)
+lekcija-17.md#8#s4.1	lekcija-17.md	8	nastavak	stavka.1	en	Add a little salt! (dodaš)
 lekcija-17.md#8#s5.0	lekcija-17.md	8	nastavak	stavka.0	hr	Skren___ lijevo!
-lekcija-17.md#8#s5.1	lekcija-17.md	8	nastavak	stavka.1	hr	Turn left! (skreneš)
+lekcija-17.md#8#s5.1	lekcija-17.md	8	nastavak	stavka.1	en	Turn left! (skreneš)
 lekcija-17.md#8#s6.0	lekcija-17.md	8	nastavak	stavka.0	hr	Zagri___ tavu!
-lekcija-17.md#8#s6.1	lekcija-17.md	8	nastavak	stavka.1	hr	Heat up the pan! (zagriješ)
+lekcija-17.md#8#s6.1	lekcija-17.md	8	nastavak	stavka.1	en	Heat up the pan! (zagriješ)
 lekcija-17.md#8#s7.0	lekcija-17.md	8	nastavak	stavka.0	hr	Miješ___ dvije minute!
-lekcija-17.md#8#s7.1	lekcija-17.md	8	nastavak	stavka.1	hr	Mix for two minutes! (miješaš)
+lekcija-17.md#8#s7.1	lekcija-17.md	8	nastavak	stavka.1	en	Mix for two minutes! (miješaš)
 lekcija-17.md#8#s8.0	lekcija-17.md	8	nastavak	stavka.0	hr	Stav___ marmeladu!
 lekcija-17.md#8#s8.1	lekcija-17.md	8	nastavak	stavka.1	en	Put on the jam! (staviš)
 lekcija-17.md#8#s9.0	lekcija-17.md	8	nastavak	stavka.0	hr	Kupu___ kruh!
-lekcija-17.md#8#s9.1	lekcija-17.md	8	nastavak	stavka.1	hr	Buy bread! (kupuješ)
+lekcija-17.md#8#s9.1	lekcija-17.md	8	nastavak	stavka.1	en	Buy bread! (kupuješ)
 lekcija-17.md#8#s10.0	lekcija-17.md	8	nastavak	stavka.0	hr	Sluš___ učiteljicu!
-lekcija-17.md#8#s10.1	lekcija-17.md	8	nastavak	stavka.1	hr	Listen to the teacher! (slušaš)
+lekcija-17.md#8#s10.1	lekcija-17.md	8	nastavak	stavka.1	en	Listen to the teacher! (slušaš)
 lekcija-17.md#8#s11.0	lekcija-17.md	8	nastavak	stavka.0	hr	Okren___ palačinku!
-lekcija-17.md#8#s11.1	lekcija-17.md	8	nastavak	stavka.1	hr	Flip the pancake! (okreneš)
+lekcija-17.md#8#s11.1	lekcija-17.md	8	nastavak	stavka.1	en	Flip the pancake! (okreneš)
 lekcija-17.md#8#s12.0	lekcija-17.md	8	nastavak	stavka.0	hr	Ču___ ovo!
-lekcija-17.md#8#s12.1	lekcija-17.md	8	nastavak	stavka.1	hr	Listen to this! (čuješ)
+lekcija-17.md#8#s12.1	lekcija-17.md	8	nastavak	stavka.1	en	Listen to this! (čuješ)
 lekcija-17.md#8#s13.0	lekcija-17.md	8	nastavak	stavka.0	hr	Čit___ knjigu!
-lekcija-17.md#8#s13.1	lekcija-17.md	8	nastavak	stavka.1	hr	Read the book! (čitaš)
+lekcija-17.md#8#s13.1	lekcija-17.md	8	nastavak	stavka.1	en	Read the book! (čitaš)
 lekcija-17.md#8#s14.0	lekcija-17.md	8	nastavak	stavka.0	hr	Piš___ pismo!
-lekcija-17.md#8#s14.1	lekcija-17.md	8	nastavak	stavka.1	hr	Write the letter! (pišeš)
+lekcija-17.md#8#s14.1	lekcija-17.md	8	nastavak	stavka.1	en	Write the letter! (pišeš)
 lekcija-17.md#8#s15.0	lekcija-17.md	8	nastavak	stavka.0	hr	Trč___!
-lekcija-17.md#8#s15.1	lekcija-17.md	8	nastavak	stavka.1	hr	Run! (trčiš)
+lekcija-17.md#8#s15.1	lekcija-17.md	8	nastavak	stavka.1	en	Run! (trčiš)
 lekcija-17.md#8#s16.0	lekcija-17.md	8	nastavak	stavka.0	hr	Vježb___ svaki dan!
-lekcija-17.md#8#s16.1	lekcija-17.md	8	nastavak	stavka.1	hr	Practise every day! (vježbaš)
+lekcija-17.md#8#s16.1	lekcija-17.md	8	nastavak	stavka.1	en	Practise every day! (vježbaš)
 lekcija-17.md#9#naslov	lekcija-17.md	9	izbor	naslov	en	Pick the form
 lekcija-17.md#9#info	lekcija-17.md	9	izbor	info	en	Choosing the correct imperative. The wrong options take the wrong ending: **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j* where none belongs. The label in brackets tells you who gets the order: one friend, or a group.
 lekcija-17.md#9#infokratko	lekcija-17.md	9	izbor	infokratko	en	Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.
@@ -18576,21 +18576,21 @@ lekcija-18.md#5#naslov	lekcija-18.md	5	parovi	naslov	en	Match the helpers
 lekcija-18.md#5#info	lekcija-18.md	5	parovi	info	en	Each English phrase beside its conditional. The helper shows the person — *bih* for *I*, *bismo* for *we*, *biste* for *you* (a group) and *bi* for *he, she, they* — and the participle ending shows the gender: *kupio* or *kupila*.
 lekcija-18.md#5#infokratko	lekcija-18.md	5	parovi	infokratko	en	*bih* I, *bismo* we, *biste* you (group), *bi* he / she / they. **-o** / **-la** / **-li** / **-le**.
 lekcija-18.md#5#opis	lekcija-18.md	5	parovi	opis	en	Match each English phrase with its conditional.
-lekcija-18.md#5#s1.0	lekcija-18.md	5	parovi	stavka.0	hr	I would buy (a man)
+lekcija-18.md#5#s1.0	lekcija-18.md	5	parovi	stavka.0	en	I would buy (a man)
 lekcija-18.md#5#s1.1	lekcija-18.md	5	parovi	stavka.1	en	kupio bih
-lekcija-18.md#5#s2.0	lekcija-18.md	5	parovi	stavka.0	hr	I would buy (a woman)
+lekcija-18.md#5#s2.0	lekcija-18.md	5	parovi	stavka.0	en	I would buy (a woman)
 lekcija-18.md#5#s2.1	lekcija-18.md	5	parovi	stavka.1	en	kupila bih
-lekcija-18.md#5#s3.0	lekcija-18.md	5	parovi	stavka.0	hr	we would travel
+lekcija-18.md#5#s3.0	lekcija-18.md	5	parovi	stavka.0	en	we would travel
 lekcija-18.md#5#s3.1	lekcija-18.md	5	parovi	stavka.1	en	putovali bismo
-lekcija-18.md#5#s4.0	lekcija-18.md	5	parovi	stavka.0	hr	we would travel (only women)
+lekcija-18.md#5#s4.0	lekcija-18.md	5	parovi	stavka.0	en	we would travel (only women)
 lekcija-18.md#5#s4.1	lekcija-18.md	5	parovi	stavka.1	en	putovale bismo
-lekcija-18.md#5#s5.0	lekcija-18.md	5	parovi	stavka.0	hr	you (a group) would stay
+lekcija-18.md#5#s5.0	lekcija-18.md	5	parovi	stavka.0	en	you (a group) would stay
 lekcija-18.md#5#s5.1	lekcija-18.md	5	parovi	stavka.1	en	ostali biste
-lekcija-18.md#5#s6.0	lekcija-18.md	5	parovi	stavka.0	hr	she would swim
+lekcija-18.md#5#s6.0	lekcija-18.md	5	parovi	stavka.0	en	she would swim
 lekcija-18.md#5#s6.1	lekcija-18.md	5	parovi	stavka.1	en	plivala bi
-lekcija-18.md#5#s7.0	lekcija-18.md	5	parovi	stavka.0	hr	he would live
+lekcija-18.md#5#s7.0	lekcija-18.md	5	parovi	stavka.0	en	he would live
 lekcija-18.md#5#s7.1	lekcija-18.md	5	parovi	stavka.1	en	živio bi
-lekcija-18.md#5#s8.0	lekcija-18.md	5	parovi	stavka.0	hr	they would come
+lekcija-18.md#5#s8.0	lekcija-18.md	5	parovi	stavka.0	en	they would come
 lekcija-18.md#5#s8.1	lekcija-18.md	5	parovi	stavka.1	en	došli bi
 lekcija-18.md#6#naslov	lekcija-18.md	6	razvrstavanje	naslov	en	Past or dream?
 lekcija-18.md#6#info	lekcija-18.md	6	razvrstavanje	info	en	Sorting sentences by what they say. With *sam, je, smo, su* the participle tells what happened; with *bih, bi, bismo, biste* it tells what would happen. The participle is the same in both — only the helper is different.
@@ -19749,29 +19749,29 @@ lekcija-20.md#14#naslov	lekcija-20.md	14	brzina	naslov	en	Connector sprint
 lekcija-20.md#14#info	lekcija-20.md	14	brzina	info	en	A timed sprint from the English meaning to the connector. *Because* is *jer* (or *zato što*), *when* is *kad*, *if* is *ako*, *while* is *dok*, *although* is *iako*, *like* is *kao*, and *which* or *that* after a noun is *koji*.
 lekcija-20.md#14#infokratko	lekcija-20.md	14	brzina	infokratko	en	because *jer*, when *kad*, if *ako*, while *dok*, although *iako*, like *kao*.
 lekcija-20.md#14#opis	lekcija-20.md	14	brzina	opis	en	An English word flashes — tap the Croatian connector before the timer runs out.
-lekcija-20.md#14#s1.0	lekcija-20.md	14	brzina	stavka.0	hr	because
+lekcija-20.md#14#s1.0	lekcija-20.md	14	brzina	stavka.0	en	because
 lekcija-20.md#14#s1.1	lekcija-20.md	14	brzina	stavka.1	hr	jer
-lekcija-20.md#14#s2.0	lekcija-20.md	14	brzina	stavka.0	hr	when
+lekcija-20.md#14#s2.0	lekcija-20.md	14	brzina	stavka.0	en	when
 lekcija-20.md#14#s2.1	lekcija-20.md	14	brzina	stavka.1	hr	kad
-lekcija-20.md#14#s3.0	lekcija-20.md	14	brzina	stavka.0	hr	if
+lekcija-20.md#14#s3.0	lekcija-20.md	14	brzina	stavka.0	en	if
 lekcija-20.md#14#s3.1	lekcija-20.md	14	brzina	stavka.1	hr	ako
-lekcija-20.md#14#s4.0	lekcija-20.md	14	brzina	stavka.0	hr	while
+lekcija-20.md#14#s4.0	lekcija-20.md	14	brzina	stavka.0	en	while
 lekcija-20.md#14#s4.1	lekcija-20.md	14	brzina	stavka.1	hr	dok
-lekcija-20.md#14#s5.0	lekcija-20.md	14	brzina	stavka.0	hr	although
+lekcija-20.md#14#s5.0	lekcija-20.md	14	brzina	stavka.0	en	although
 lekcija-20.md#14#s5.1	lekcija-20.md	14	brzina	stavka.1	hr	iako
-lekcija-20.md#14#s6.0	lekcija-20.md	14	brzina	stavka.0	hr	like, as
+lekcija-20.md#14#s6.0	lekcija-20.md	14	brzina	stavka.0	en	like, as
 lekcija-20.md#14#s6.1	lekcija-20.md	14	brzina	stavka.1	hr	kao
-lekcija-20.md#14#s7.0	lekcija-20.md	14	brzina	stavka.0	hr	the first time
+lekcija-20.md#14#s7.0	lekcija-20.md	14	brzina	stavka.0	en	the first time
 lekcija-20.md#14#s7.1	lekcija-20.md	14	brzina	stavka.1	en	prvi put
-lekcija-20.md#14#s8.0	lekcija-20.md	14	brzina	stavka.0	hr	which (m.)
+lekcija-20.md#14#s8.0	lekcija-20.md	14	brzina	stavka.0	en	which (m.)
 lekcija-20.md#14#s8.1	lekcija-20.md	14	brzina	stavka.1	hr	koji
-lekcija-20.md#14#s9.0	lekcija-20.md	14	brzina	stavka.0	hr	which (f.)
+lekcija-20.md#14#s9.0	lekcija-20.md	14	brzina	stavka.0	en	which (f.)
 lekcija-20.md#14#s9.1	lekcija-20.md	14	brzina	stavka.1	hr	koja
-lekcija-20.md#14#s10.0	lekcija-20.md	14	brzina	stavka.0	hr	which (n.)
+lekcija-20.md#14#s10.0	lekcija-20.md	14	brzina	stavka.0	en	which (n.)
 lekcija-20.md#14#s10.1	lekcija-20.md	14	brzina	stavka.1	hr	koje
-lekcija-20.md#14#s11.0	lekcija-20.md	14	brzina	stavka.0	hr	which (f., target)
+lekcija-20.md#14#s11.0	lekcija-20.md	14	brzina	stavka.0	en	which (f., target)
 lekcija-20.md#14#s11.1	lekcija-20.md	14	brzina	stavka.1	hr	koju
-lekcija-20.md#14#s12.0	lekcija-20.md	14	brzina	stavka.0	hr	because (longer)
+lekcija-20.md#14#s12.0	lekcija-20.md	14	brzina	stavka.0	en	because (longer)
 lekcija-20.md#14#s12.1	lekcija-20.md	14	brzina	stavka.1	hr	zato što
 lekcija-20.md#15#naslov	lekcija-20.md	15	dijalog	naslov	en	Why are YOU learning Croatian?
 lekcija-20.md#15#info	lekcija-20.md	15	dijalog	info	en	The final conversation. A Croatian friend asks the big question, and your answers use everything from this lesson: *jer, kad, iako, koji*. Where your gender shows (*počeo / počela*), both forms are offered, and your friend reacts to what you say.
@@ -20200,7 +20200,7 @@ praksa-02.md#8#s2.3	praksa-02.md	8	izbor	stavka.3	hr	umoran
 praksa-02.md#8#s3.0	praksa-02.md	8	izbor	stavka.0	en	The waiter is...
 praksa-02.md#8#s3.1	praksa-02.md	8	izbor	stavka.1	hr	ljubazan
 praksa-02.md#8#s3.2	praksa-02.md	8	izbor	stavka.2	hr	ljut
-praksa-02.md#8#s4.0	praksa-02.md	8	izbor	stavka.0	hr	"What does ""Nema na čemu."" mean?"
+praksa-02.md#8#s4.0	praksa-02.md	8	izbor	stavka.0	en	"What does ""Nema na čemu."" mean?"
 praksa-02.md#8#s4.1	praksa-02.md	8	izbor	stavka.1	en	You're welcome.
 praksa-02.md#8#s4.2	praksa-02.md	8	izbor	stavka.2	en	See you!
 praksa-02.md#8#s5.0	praksa-02.md	8	izbor	stavka.0	en	"What does ""Kako ste?"" mean?"
@@ -20399,7 +20399,7 @@ praksa-03.md#7#s1.2	praksa-03.md	7	izbor	stavka.2	hr	mama
 praksa-03.md#7#s1.3	praksa-03.md	7	izbor	stavka.3	hr	brat
 praksa-03.md#7#s2.0	praksa-03.md	7	izbor	stavka.0	en	What is Mom writing?
 praksa-03.md#7#s2.1	praksa-03.md	7	izbor	stavka.1	en	e-mail
-praksa-03.md#7#s2.2	praksa-03.md	7	izbor	stavka.2	en	strip
+praksa-03.md#7#s2.2	praksa-03.md	7	izbor	stavka.2	hr	strip
 praksa-03.md#7#s2.3	praksa-03.md	7	izbor	stavka.3	hr	pismo
 praksa-03.md#7#s3.0	praksa-03.md	7	izbor	stavka.0	en	What is the brother listening to?
 praksa-03.md#7#s3.1	praksa-03.md	7	izbor	stavka.1	hr	radio
@@ -24358,7 +24358,7 @@ praksa-14.md#9#s4.0	praksa-14.md	9	upis	stavka.0	hr	"___ Mariji kaže: ""Dobro j
 praksa-14.md#9#s4.1	praksa-14.md	9	upis	stavka.1	hr	Baki
 praksa-14.md#9#s5.0	praksa-14.md	9	upis	stavka.0	hr	___ ne daje ništa. (pas)
 praksa-14.md#9#s5.1	praksa-14.md	9	upis	stavka.1	hr	Psu
-praksa-14.md#9#s6.0	praksa-14.md	9	upis	stavka.0	hr	Svi su sretni, jer ___ Ivo nosi dobre vijesti. (to them)
+praksa-14.md#9#s6.0	praksa-14.md	9	upis	stavka.0	en	Svi su sretni, jer ___ Ivo nosi dobre vijesti. (to them)
 praksa-14.md#9#s6.1	praksa-14.md	9	upis	stavka.1	hr	im
 praksa-14.md#10#naslov	praksa-14.md	10	tekst	naslov	en	Text 4: A card from Grandma
 praksa-14.md#10#info	praksa-14.md	10	tekst	info	en	A real Christmas card, the reply to the package the Horvats sent to Split in Lesson 14. Read it as a card: the greeting on top, one line per receiver, the signature at the bottom and the address last. *Vama* is the long form, used for contrast: now it is Grandma's turn.
@@ -26393,7 +26393,7 @@ praksa-19.md#11#s2.3	praksa-19.md	11	izbor	stavka.3	hr	kavu
 praksa-19.md#11#s3.0	praksa-19.md	11	izbor	stavka.0	hr	Što Marko nije napisao?
 praksa-19.md#11#s3.1	praksa-19.md	11	izbor	stavka.1	hr	zadaću
 praksa-19.md#11#s3.2	praksa-19.md	11	izbor	stavka.2	en	e-mail mami
-praksa-19.md#11#s3.3	praksa-19.md	11	izbor	stavka.3	en	popis
+praksa-19.md#11#s3.3	praksa-19.md	11	izbor	stavka.3	hr	popis
 praksa-19.md#11#s4.0	praksa-19.md	11	izbor	stavka.0	hr	Tko čeka e-mail?
 praksa-19.md#11#s4.1	praksa-19.md	11	izbor	stavka.1	hr	baka
 praksa-19.md#11#s4.2	praksa-19.md	11	izbor	stavka.2	hr	mama
@@ -27523,7 +27523,7 @@ test-01.md#5#s9.0	test-01.md	5	upis	stavka.0	en	Automobil je ___. (fast)
 test-01.md#5#s9.1	test-01.md	5	upis	stavka.1	hr	brz
 test-01.md#5#s10.0	test-01.md	5	upis	stavka.0	en	Automobil je ___. (black)
 test-01.md#5#s10.1	test-01.md	5	upis	stavka.1	hr	crn
-test-01.md#5#s11.0	test-01.md	5	upis	stavka.0	hr	Automobil je ___. (red)
+test-01.md#5#s11.0	test-01.md	5	upis	stavka.0	en	Automobil je ___. (red)
 test-01.md#5#s11.1	test-01.md	5	upis	stavka.1	hr	crven
 test-01.md#5#s12.0	test-01.md	5	upis	stavka.0	en	Sladoled je ___. (cold)
 test-01.md#5#s12.1	test-01.md	5	upis	stavka.1	hr	hladan
@@ -27551,7 +27551,7 @@ test-01.md#5#s23.0	test-01.md	5	upis	stavka.0	en	Kuća je ___. (white)
 test-01.md#5#s23.1	test-01.md	5	upis	stavka.1	hr	bijela
 test-01.md#5#s24.0	test-01.md	5	upis	stavka.0	en	Kuća je ___. (old)
 test-01.md#5#s24.1	test-01.md	5	upis	stavka.1	hr	stara
-test-01.md#5#s25.0	test-01.md	5	upis	stavka.0	hr	Kuća je ___. (red)
+test-01.md#5#s25.0	test-01.md	5	upis	stavka.0	en	Kuća je ___. (red)
 test-01.md#5#s25.1	test-01.md	5	upis	stavka.1	hr	crvena
 test-01.md#5#s26.0	test-01.md	5	upis	stavka.0	en	Kuća je ___. (beautiful)
 test-01.md#5#s26.1	test-01.md	5	upis	stavka.1	hr	lijepa
@@ -27623,7 +27623,7 @@ test-01.md#5#s59.0	test-01.md	5	upis	stavka.0	en	Sunce je ___. (yellow)
 test-01.md#5#s59.1	test-01.md	5	upis	stavka.1	hr	žuto
 test-01.md#5#s60.0	test-01.md	5	upis	stavka.0	en	Sunce je ___. (big)
 test-01.md#5#s60.1	test-01.md	5	upis	stavka.1	hr	veliko
-test-01.md#5#s61.0	test-01.md	5	upis	stavka.0	hr	Sunce je ___. (red)
+test-01.md#5#s61.0	test-01.md	5	upis	stavka.0	en	Sunce je ___. (red)
 test-01.md#5#s61.1	test-01.md	5	upis	stavka.1	hr	crveno
 test-01.md#5#s62.0	test-01.md	5	upis	stavka.0	en	Sunce je ___. (beautiful)
 test-01.md#5#s62.1	test-01.md	5	upis	stavka.1	hr	lijepo
@@ -28537,9 +28537,9 @@ test-02.md#8#s9.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (hungry)
 test-02.md#8#s9.1	test-02.md	8	upis	stavka.1	hr	gladna
 test-02.md#8#s10.0	test-02.md	8	upis	stavka.0	en	Ja sam ___. (thirsty)
 test-02.md#8#s10.1	test-02.md	8	upis	stavka.1	hr	žedan
-test-02.md#8#s11.0	test-02.md	8	upis	stavka.0	hr	Oni su ___. (brave)
+test-02.md#8#s11.0	test-02.md	8	upis	stavka.0	en	Oni su ___. (brave)
 test-02.md#8#s11.1	test-02.md	8	upis	stavka.1	hr	hrabri
-test-02.md#8#s12.0	test-02.md	8	upis	stavka.0	hr	Ona je ___. (brave)
+test-02.md#8#s12.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (brave)
 test-02.md#8#s12.1	test-02.md	8	upis	stavka.1	hr	hrabra
 test-02.md#8#s13.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (kind)
 test-02.md#8#s13.1	test-02.md	8	upis	stavka.1	hr	draga
@@ -28559,7 +28559,7 @@ test-02.md#8#s20.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (fun)
 test-02.md#8#s20.1	test-02.md	8	upis	stavka.1	hr	zabavna
 test-02.md#8#s21.0	test-02.md	8	upis	stavka.0	en	On je ___. (fun)
 test-02.md#8#s21.1	test-02.md	8	upis	stavka.1	hr	zabavan
-test-02.md#8#s22.0	test-02.md	8	upis	stavka.0	hr	Ona je ___. (sad)
+test-02.md#8#s22.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (sad)
 test-02.md#8#s22.1	test-02.md	8	upis	stavka.1	hr	tužna
 test-02.md#8#s23.0	test-02.md	8	upis	stavka.0	en	On je ___. (angry)
 test-02.md#8#s23.1	test-02.md	8	upis	stavka.1	hr	ljut
@@ -28589,7 +28589,7 @@ test-02.md#8#s35.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (a doctor)
 test-02.md#8#s35.1	test-02.md	8	upis	stavka.1	hr	doktorica
 test-02.md#8#s36.0	test-02.md	8	upis	stavka.0	en	On je ___. (a waiter)
 test-02.md#8#s36.1	test-02.md	8	upis	stavka.1	hr	konobar
-test-02.md#8#s37.0	test-02.md	8	upis	stavka.0	hr	Ona je ___. (a student)
+test-02.md#8#s37.0	test-02.md	8	upis	stavka.0	en	Ona je ___. (a student)
 test-02.md#8#s37.1	test-02.md	8	upis	stavka.1	hr	studentica
 test-02.md#8#s38.0	test-02.md	8	upis	stavka.0	en	On je ___. (a Croat)
 test-02.md#8#s38.1	test-02.md	8	upis	stavka.1	hr	Hrvat
@@ -35596,9 +35596,9 @@ test-10.md#5#s2.0	test-10.md	5	nastavak	stavka.0	hr	Ana je gleda___ film.
 test-10.md#5#s2.1	test-10.md	5	nastavak	stavka.1	?	Ana watched a film.
 test-10.md#5#s3.0	test-10.md	5	nastavak	stavka.0	hr	Mi smo gleda___ film.
 test-10.md#5#s3.1	test-10.md	5	nastavak	stavka.1	en	We watched a film.
-test-10.md#5#s4.0	test-10.md	5	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a man)
+test-10.md#5#s4.0	test-10.md	5	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a man)
 test-10.md#5#s4.1	test-10.md	5	nastavak	stavka.1	en	Yesterday I slept for a long time.
-test-10.md#5#s5.0	test-10.md	5	nastavak	stavka.0	hr	Jučer sam spava___ dugo. (a woman)
+test-10.md#5#s5.0	test-10.md	5	nastavak	stavka.0	en	Jučer sam spava___ dugo. (a woman)
 test-10.md#5#s5.1	test-10.md	5	nastavak	stavka.1	en	Yesterday I slept for a long time.
 test-10.md#5#s6.0	test-10.md	5	nastavak	stavka.0	hr	Dječaci su spava___ dugo.
 test-10.md#5#s6.1	test-10.md	5	nastavak	stavka.1	en	The boys slept for a long time.
@@ -35620,9 +35620,9 @@ test-10.md#5#s14.0	test-10.md	5	nastavak	stavka.0	hr	Sestra je pjeva___ na konce
 test-10.md#5#s14.1	test-10.md	5	nastavak	stavka.1	en	My sister sang at the concert.
 test-10.md#5#s15.0	test-10.md	5	nastavak	stavka.0	hr	Učenici su uči___ cijeli dan.
 test-10.md#5#s15.1	test-10.md	5	nastavak	stavka.1	en	The pupils studied all day.
-test-10.md#5#s16.0	test-10.md	5	nastavak	stavka.0	hr	Ja sam iša___ u kino. (a man)
+test-10.md#5#s16.0	test-10.md	5	nastavak	stavka.0	en	Ja sam iša___ u kino. (a man)
 test-10.md#5#s16.1	test-10.md	5	nastavak	stavka.1	en	I went to the cinema.
-test-10.md#5#s17.0	test-10.md	5	nastavak	stavka.0	hr	Ja sam iš___ u kino. (a woman)
+test-10.md#5#s17.0	test-10.md	5	nastavak	stavka.0	en	Ja sam iš___ u kino. (a woman)
 test-10.md#5#s17.1	test-10.md	5	nastavak	stavka.1	en	I went to the cinema.
 test-10.md#5#s18.0	test-10.md	5	nastavak	stavka.0	hr	Baka je doš___ u nedjelju.
 test-10.md#5#s18.1	test-10.md	5	nastavak	stavka.1	en	Grandma came on Sunday.
@@ -37834,47 +37834,47 @@ test-13.md#7#s12.2	test-13.md	7	izbor	stavka.2	hr	rijeki
 test-13.md#7#s12.3	test-13.md	7	izbor	stavka.3	hr	rijeka
 test-13.md#8#naslov	test-13.md	8	izbor	naslov	en	One place or many?
 test-13.md#8#opis	test-13.md	8	izbor	opis	en	The bracket says one place or several. Pick the right form.
-test-13.md#8#s1.0	test-13.md	8	izbor	stavka.0	hr	Turisti su na ___ . (islands)
+test-13.md#8#s1.0	test-13.md	8	izbor	stavka.0	en	Turisti su na ___ . (islands)
 test-13.md#8#s1.1	test-13.md	8	izbor	stavka.1	hr	otocima
 test-13.md#8#s1.2	test-13.md	8	izbor	stavka.2	hr	otokima
 test-13.md#8#s1.3	test-13.md	8	izbor	stavka.3	hr	otoku
-test-13.md#8#s2.0	test-13.md	8	izbor	stavka.0	hr	Djeca su u ___ . (schools)
+test-13.md#8#s2.0	test-13.md	8	izbor	stavka.0	en	Djeca su u ___ . (schools)
 test-13.md#8#s2.1	test-13.md	8	izbor	stavka.1	hr	školama
 test-13.md#8#s2.2	test-13.md	8	izbor	stavka.2	hr	školima
 test-13.md#8#s2.3	test-13.md	8	izbor	stavka.3	hr	školi
-test-13.md#8#s3.0	test-13.md	8	izbor	stavka.0	hr	Turisti su u ___ . (cities)
+test-13.md#8#s3.0	test-13.md	8	izbor	stavka.0	en	Turisti su u ___ . (cities)
 test-13.md#8#s3.1	test-13.md	8	izbor	stavka.1	hr	gradovima
 test-13.md#8#s3.2	test-13.md	8	izbor	stavka.2	hr	gradima
 test-13.md#8#s3.3	test-13.md	8	izbor	stavka.3	hr	gradu
-test-13.md#8#s4.0	test-13.md	8	izbor	stavka.0	hr	Djeca su u ___ . (parks)
+test-13.md#8#s4.0	test-13.md	8	izbor	stavka.0	en	Djeca su u ___ . (parks)
 test-13.md#8#s4.1	test-13.md	8	izbor	stavka.1	hr	parkovima
 test-13.md#8#s4.2	test-13.md	8	izbor	stavka.2	hr	parkima
 test-13.md#8#s4.3	test-13.md	8	izbor	stavka.3	hr	parku
-test-13.md#8#s5.0	test-13.md	8	izbor	stavka.0	hr	Filmovi su u ___ . (cinemas)
+test-13.md#8#s5.0	test-13.md	8	izbor	stavka.0	en	Filmovi su u ___ . (cinemas)
 test-13.md#8#s5.1	test-13.md	8	izbor	stavka.1	hr	kinima
 test-13.md#8#s5.2	test-13.md	8	izbor	stavka.2	hr	kinama
 test-13.md#8#s5.3	test-13.md	8	izbor	stavka.3	hr	kinu
-test-13.md#8#s6.0	test-13.md	8	izbor	stavka.0	hr	Knjige su na ___ . (shelves)
+test-13.md#8#s6.0	test-13.md	8	izbor	stavka.0	en	Knjige su na ___ . (shelves)
 test-13.md#8#s6.1	test-13.md	8	izbor	stavka.1	hr	policama
 test-13.md#8#s6.2	test-13.md	8	izbor	stavka.2	hr	policima
 test-13.md#8#s6.3	test-13.md	8	izbor	stavka.3	hr	polici
-test-13.md#8#s7.0	test-13.md	8	izbor	stavka.0	hr	Auti su u ___ . (garages)
+test-13.md#8#s7.0	test-13.md	8	izbor	stavka.0	en	Auti su u ___ . (garages)
 test-13.md#8#s7.1	test-13.md	8	izbor	stavka.1	hr	garažama
 test-13.md#8#s7.2	test-13.md	8	izbor	stavka.2	hr	garažima
 test-13.md#8#s7.3	test-13.md	8	izbor	stavka.3	hr	garaži
-test-13.md#8#s8.0	test-13.md	8	izbor	stavka.0	hr	Ljudi rade u ___ . (factories)
+test-13.md#8#s8.0	test-13.md	8	izbor	stavka.0	en	Ljudi rade u ___ . (factories)
 test-13.md#8#s8.1	test-13.md	8	izbor	stavka.1	hr	tvornicama
 test-13.md#8#s8.2	test-13.md	8	izbor	stavka.2	hr	tvornicima
 test-13.md#8#s8.3	test-13.md	8	izbor	stavka.3	hr	tvornici
-test-13.md#8#s9.0	test-13.md	8	izbor	stavka.0	hr	Pričamo o ___ . (rivers)
+test-13.md#8#s9.0	test-13.md	8	izbor	stavka.0	en	Pričamo o ___ . (rivers)
 test-13.md#8#s9.1	test-13.md	8	izbor	stavka.1	hr	rijekama
 test-13.md#8#s9.2	test-13.md	8	izbor	stavka.2	hr	rijecama
 test-13.md#8#s9.3	test-13.md	8	izbor	stavka.3	hr	rijeci
-test-13.md#8#s10.0	test-13.md	8	izbor	stavka.0	hr	Brodovi su u ___ . (harbors)
+test-13.md#8#s10.0	test-13.md	8	izbor	stavka.0	en	Brodovi su u ___ . (harbors)
 test-13.md#8#s10.1	test-13.md	8	izbor	stavka.1	hr	lukama
 test-13.md#8#s10.2	test-13.md	8	izbor	stavka.2	hr	lucama
 test-13.md#8#s10.3	test-13.md	8	izbor	stavka.3	hr	luci
-test-13.md#8#s11.0	test-13.md	8	izbor	stavka.0	hr	Djeca su na ___ . (beaches)
+test-13.md#8#s11.0	test-13.md	8	izbor	stavka.0	en	Djeca su na ___ . (beaches)
 test-13.md#8#s11.1	test-13.md	8	izbor	stavka.1	hr	plažama
 test-13.md#8#s11.2	test-13.md	8	izbor	stavka.2	hr	plažima
 test-13.md#8#s11.3	test-13.md	8	izbor	stavka.3	hr	plaži
@@ -38588,27 +38588,27 @@ test-14.md#8#s10.2	test-14.md	8	izbor	stavka.2	hr	Mi mama kuha ručak.
 test-14.md#8#s10.3	test-14.md	8	izbor	stavka.3	hr	Mama kuha mi ručak.
 test-14.md#9#naslov	test-14.md	9	izbor	naslov	en	Long or short?
 test-14.md#9#opis	test-14.md	9	izbor	opis	en	Choose the form that fits. The bracket tells you who the receiver is.
-test-14.md#9#s1.0	test-14.md	9	izbor	stavka.0	hr	Komu pišeš? — ___ . (him)
+test-14.md#9#s1.0	test-14.md	9	izbor	stavka.0	en	Komu pišeš? — ___ . (him)
 test-14.md#9#s1.1	test-14.md	9	izbor	stavka.1	hr	Njemu
 test-14.md#9#s1.2	test-14.md	9	izbor	stavka.2	hr	Mu
 test-14.md#9#s1.3	test-14.md	9	izbor	stavka.3	hr	Njega
-test-14.md#9#s2.0	test-14.md	9	izbor	stavka.0	hr	Baka ___ šalje paket. (to me)
+test-14.md#9#s2.0	test-14.md	9	izbor	stavka.0	en	Baka ___ šalje paket. (to me)
 test-14.md#9#s2.1	test-14.md	9	izbor	stavka.1	hr	mi
 test-14.md#9#s2.2	test-14.md	9	izbor	stavka.2	hr	me
 test-14.md#9#s2.3	test-14.md	9	izbor	stavka.3	hr	mene
-test-14.md#9#s3.0	test-14.md	9	izbor	stavka.0	hr	___ šalje paket, ne tebi! (to me)
+test-14.md#9#s3.0	test-14.md	9	izbor	stavka.0	en	___ šalje paket, ne tebi! (to me)
 test-14.md#9#s3.1	test-14.md	9	izbor	stavka.1	hr	Meni
 test-14.md#9#s3.2	test-14.md	9	izbor	stavka.2	hr	Mi
 test-14.md#9#s3.3	test-14.md	9	izbor	stavka.3	hr	Mene
-test-14.md#9#s4.0	test-14.md	9	izbor	stavka.0	hr	Dajem ___ loptu. (to him)
+test-14.md#9#s4.0	test-14.md	9	izbor	stavka.0	en	Dajem ___ loptu. (to him)
 test-14.md#9#s4.1	test-14.md	9	izbor	stavka.1	hr	mu
 test-14.md#9#s4.2	test-14.md	9	izbor	stavka.2	hr	ga
 test-14.md#9#s4.3	test-14.md	9	izbor	stavka.3	hr	njega
-test-14.md#9#s5.0	test-14.md	9	izbor	stavka.0	hr	Poštar ___ nosi novine. (to us)
+test-14.md#9#s5.0	test-14.md	9	izbor	stavka.0	en	Poštar ___ nosi novine. (to us)
 test-14.md#9#s5.1	test-14.md	9	izbor	stavka.1	hr	nam
 test-14.md#9#s5.2	test-14.md	9	izbor	stavka.2	hr	nas
 test-14.md#9#s5.3	test-14.md	9	izbor	stavka.3	hr	ih
-test-14.md#9#s6.0	test-14.md	9	izbor	stavka.0	hr	Komu daješ ključ? — ___ . (to them)
+test-14.md#9#s6.0	test-14.md	9	izbor	stavka.0	en	Komu daješ ključ? — ___ . (to them)
 test-14.md#9#s6.1	test-14.md	9	izbor	stavka.1	hr	Njima
 test-14.md#9#s6.2	test-14.md	9	izbor	stavka.2	hr	Im
 test-14.md#9#s6.3	test-14.md	9	izbor	stavka.3	hr	Ih
@@ -38616,7 +38616,7 @@ test-14.md#9#s7.0	test-14.md	9	izbor	stavka.0	en	Kupit ću ___ šal. (to her)
 test-14.md#9#s7.1	test-14.md	9	izbor	stavka.1	hr	joj
 test-14.md#9#s7.2	test-14.md	9	izbor	stavka.2	hr	je
 test-14.md#9#s7.3	test-14.md	9	izbor	stavka.3	hr	nju
-test-14.md#9#s8.0	test-14.md	9	izbor	stavka.0	hr	Mama ___ je poslala paket. (to him)
+test-14.md#9#s8.0	test-14.md	9	izbor	stavka.0	en	Mama ___ je poslala paket. (to him)
 test-14.md#9#s8.1	test-14.md	9	izbor	stavka.1	hr	mu
 test-14.md#9#s8.2	test-14.md	9	izbor	stavka.2	hr	ga
 test-14.md#9#s8.3	test-14.md	9	izbor	stavka.3	hr	njega
@@ -39545,7 +39545,7 @@ test-15.md#13#s17.0	test-15.md	13	izbor	stavka.0	hr	Ana i Petra su ___ vlakom. (
 test-15.md#13#s17.1	test-15.md	13	izbor	stavka.1	hr	putovale
 test-15.md#13#s17.2	test-15.md	13	izbor	stavka.2	hr	putovao
 test-15.md#13#s17.3	test-15.md	13	izbor	stavka.3	hr	putovala
-test-15.md#13#s18.0	test-15.md	13	izbor	stavka.0	hr	Jučer sam ___ u kino s bratom. (ići, a woman speaking)
+test-15.md#13#s18.0	test-15.md	13	izbor	stavka.0	en	Jučer sam ___ u kino s bratom. (ići, a woman speaking)
 test-15.md#13#s18.1	test-15.md	13	izbor	stavka.1	hr	išla
 test-15.md#13#s18.2	test-15.md	13	izbor	stavka.2	hr	išao
 test-15.md#13#s18.3	test-15.md	13	izbor	stavka.3	hr	išle
@@ -40283,7 +40283,7 @@ test-16.md#13#s6.0	test-16.md	13	izbor	stavka.0	hr	___ pomažeš? — Mami.
 test-16.md#13#s6.1	test-16.md	13	izbor	stavka.1	hr	Komu
 test-16.md#13#s6.2	test-16.md	13	izbor	stavka.2	hr	Koga
 test-16.md#13#s6.3	test-16.md	13	izbor	stavka.3	hr	S kim
-test-16.md#13#s7.0	test-16.md	13	izbor	stavka.0	hr	Kupit ću ___ knjigu. (to him)
+test-16.md#13#s7.0	test-16.md	13	izbor	stavka.0	en	Kupit ću ___ knjigu. (to him)
 test-16.md#13#s7.1	test-16.md	13	izbor	stavka.1	hr	mu
 test-16.md#13#s7.2	test-16.md	13	izbor	stavka.2	hr	ga
 test-16.md#13#s7.3	test-16.md	13	izbor	stavka.3	hr	njega
@@ -40319,7 +40319,7 @@ test-16.md#13#s15.0	test-16.md	13	izbor	stavka.0	hr	Ana i Petra su jučer ___ ko
 test-16.md#13#s15.1	test-16.md	13	izbor	stavka.1	hr	bile
 test-16.md#13#s15.2	test-16.md	13	izbor	stavka.2	hr	bio
 test-16.md#13#s15.3	test-16.md	13	izbor	stavka.3	hr	bila
-test-16.md#13#s16.0	test-16.md	13	izbor	stavka.0	hr	Jučer sam ___ ključ. (tražiti, a man speaking)
+test-16.md#13#s16.0	test-16.md	13	izbor	stavka.0	en	Jučer sam ___ ključ. (tražiti, a man speaking)
 test-16.md#13#s16.1	test-16.md	13	izbor	stavka.1	hr	tražio
 test-16.md#13#s16.2	test-16.md	13	izbor	stavka.2	hr	tražila
 test-16.md#13#s16.3	test-16.md	13	izbor	stavka.3	hr	tražili
@@ -40717,37 +40717,37 @@ test-17.md#5#info	test-17.md	5	nastavak	info	en	One tap turns the verb into an o
 test-17.md#5#infokratko	test-17.md	5	nastavak	infokratko	en	*-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
 test-17.md#5#opis	test-17.md	5	nastavak	opis	en	The *ti* form is in the English line. One tap makes the order.
 test-17.md#5#s1.0	test-17.md	5	nastavak	stavka.0	hr	Dod___ ulje!
-test-17.md#5#s1.1	test-17.md	5	nastavak	stavka.1	hr	Add the oil! (dodaš)
+test-17.md#5#s1.1	test-17.md	5	nastavak	stavka.1	en	Add the oil! (dodaš)
 test-17.md#5#s2.0	test-17.md	5	nastavak	stavka.0	hr	Uzm___ žličicu!
-test-17.md#5#s2.1	test-17.md	5	nastavak	stavka.1	hr	Take a teaspoon! (uzmeš)
+test-17.md#5#s2.1	test-17.md	5	nastavak	stavka.1	en	Take a teaspoon! (uzmeš)
 test-17.md#5#s3.0	test-17.md	5	nastavak	stavka.0	hr	Zagri___ pećnicu!
-test-17.md#5#s3.1	test-17.md	5	nastavak	stavka.1	hr	Heat up the oven! (zagriješ)
+test-17.md#5#s3.1	test-17.md	5	nastavak	stavka.1	en	Heat up the oven! (zagriješ)
 test-17.md#5#s4.0	test-17.md	5	nastavak	stavka.0	hr	Miješ___ tijesto!
-test-17.md#5#s4.1	test-17.md	5	nastavak	stavka.1	hr	Mix the dough! (miješaš)
+test-17.md#5#s4.1	test-17.md	5	nastavak	stavka.1	en	Mix the dough! (miješaš)
 test-17.md#5#s5.0	test-17.md	5	nastavak	stavka.0	hr	Stav___ tavu na štednjak!
 test-17.md#5#s5.1	test-17.md	5	nastavak	stavka.1	en	Put the pan on the stove! (staviš)
 test-17.md#5#s6.0	test-17.md	5	nastavak	stavka.0	hr	Pi___ limunadu!
-test-17.md#5#s6.1	test-17.md	5	nastavak	stavka.1	hr	Drink the lemonade! (piješ)
+test-17.md#5#s6.1	test-17.md	5	nastavak	stavka.1	en	Drink the lemonade! (piješ)
 test-17.md#5#s7.0	test-17.md	5	nastavak	stavka.0	hr	Skren___ desno!
-test-17.md#5#s7.1	test-17.md	5	nastavak	stavka.1	hr	Turn right! (skreneš)
+test-17.md#5#s7.1	test-17.md	5	nastavak	stavka.1	en	Turn right! (skreneš)
 test-17.md#5#s8.0	test-17.md	5	nastavak	stavka.0	hr	Gled___ znak!
 test-17.md#5#s8.1	test-17.md	5	nastavak	stavka.1	en	Look at the sign! (gledaš)
 test-17.md#5#s9.0	test-17.md	5	nastavak	stavka.0	hr	Kupu___ brašno!
-test-17.md#5#s9.1	test-17.md	5	nastavak	stavka.1	hr	Buy flour! (kupuješ)
+test-17.md#5#s9.1	test-17.md	5	nastavak	stavka.1	en	Buy flour! (kupuješ)
 test-17.md#5#s10.0	test-17.md	5	nastavak	stavka.0	hr	Prijeđ___ cestu!
-test-17.md#5#s10.1	test-17.md	5	nastavak	stavka.1	hr	Cross the road! (prijeđeš)
+test-17.md#5#s10.1	test-17.md	5	nastavak	stavka.1	en	Cross the road! (prijeđeš)
 test-17.md#5#s11.0	test-17.md	5	nastavak	stavka.0	hr	Ček___ na uglu!
-test-17.md#5#s11.1	test-17.md	5	nastavak	stavka.1	hr	Wait on the corner! (čekaš)
+test-17.md#5#s11.1	test-17.md	5	nastavak	stavka.1	en	Wait on the corner! (čekaš)
 test-17.md#5#s12.0	test-17.md	5	nastavak	stavka.0	hr	Okren___ mapu!
-test-17.md#5#s12.1	test-17.md	5	nastavak	stavka.1	hr	Turn the map over! (okreneš)
+test-17.md#5#s12.1	test-17.md	5	nastavak	stavka.1	en	Turn the map over! (okreneš)
 test-17.md#5#s13.0	test-17.md	5	nastavak	stavka.0	hr	Ču___ ovo!
-test-17.md#5#s13.1	test-17.md	5	nastavak	stavka.1	hr	Listen to this! (čuješ)
+test-17.md#5#s13.1	test-17.md	5	nastavak	stavka.1	en	Listen to this! (čuješ)
 test-17.md#5#s14.0	test-17.md	5	nastavak	stavka.0	hr	Čit___ upute!
-test-17.md#5#s14.1	test-17.md	5	nastavak	stavka.1	hr	Read the instructions! (čitaš)
+test-17.md#5#s14.1	test-17.md	5	nastavak	stavka.1	en	Read the instructions! (čitaš)
 test-17.md#5#s15.0	test-17.md	5	nastavak	stavka.0	hr	Požur___!
-test-17.md#5#s15.1	test-17.md	5	nastavak	stavka.1	hr	Hurry! (požuriš)
+test-17.md#5#s15.1	test-17.md	5	nastavak	stavka.1	en	Hurry! (požuriš)
 test-17.md#5#s16.0	test-17.md	5	nastavak	stavka.0	hr	Sluš___ me!
-test-17.md#5#s16.1	test-17.md	5	nastavak	stavka.1	hr	Listen to me! (slušaš)
+test-17.md#5#s16.1	test-17.md	5	nastavak	stavka.1	en	Listen to me! (slušaš)
 test-17.md#6#naslov	test-17.md	6	izbor	naslov	en	Pick the form
 test-17.md#6#info	test-17.md	6	izbor	info	en	Choosing the correct imperative. The wrong options take the wrong ending — **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j*. The bracket tells you who gets the order.
 test-17.md#6#infokratko	test-17.md	6	izbor	infokratko	en	Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.
@@ -42272,7 +42272,7 @@ test-19.md#9#s5.0	test-19.md	9	upis	stavka.0	hr	Za jedan dan smo ___ knjigu. (č
 test-19.md#9#s5.1	test-19.md	9	upis	stavka.1	hr	pročitali
 test-19.md#9#s6.0	test-19.md	9	upis	stavka.0	hr	Baka je već ___ juhu. (kuhati / skuhati)
 test-19.md#9#s6.1	test-19.md	9	upis	stavka.1	hr	skuhala
-test-19.md#9#s7.0	test-19.md	9	upis	stavka.0	hr	Napokon sam ___ sve riječi. (učiti / naučiti, a man)
+test-19.md#9#s7.0	test-19.md	9	upis	stavka.0	en	Napokon sam ___ sve riječi. (učiti / naučiti, a man)
 test-19.md#9#s7.1	test-19.md	9	upis	stavka.1	hr	naučio
 test-19.md#9#s8.0	test-19.md	9	upis	stavka.0	hr	Film je ___ u osam. (počinjati / početi)
 test-19.md#9#s8.1	test-19.md	9	upis	stavka.1	hr	počeo
@@ -43189,16 +43189,16 @@ test-20.md#13#s16.0	test-20.md	13	upis	stavka.0	en	Nobody knows.
 test-20.md#13#s16.1	test-20.md	13	upis	stavka.1	hr	Nitko ne zna
 upis-lekcija1.md#0#naslov	upis-lekcija1.md	0		naslov	en	Type the word — Lesson 1
 upis-lekcija1.md#0#opis	upis-lekcija1.md	0		opis	en	Type the missing word (the whole word).
-upis-lekcija1.md#0#s1	upis-lekcija1.md	0		redak	hr	Kava je ___ (good) | dobra
-upis-lekcija1.md#0#s2	upis-lekcija1.md	0		redak	hr	Nebo je ___ (blue) | plavo
-upis-lekcija1.md#0#s3	upis-lekcija1.md	0		redak	hr	Grad je ___ (old) | star
-upis-lekcija1.md#0#s4	upis-lekcija1.md	0		redak	hr	Kuća je ___ (big) | velika
-upis-lekcija1.md#0#s5	upis-lekcija1.md	0		redak	hr	Sunce je ___ (warm) | toplo
-upis-lekcija1.md#0#s6	upis-lekcija1.md	0		redak	hr	Knjiga je ___ (new) | nova
-upis-lekcija1.md#0#s7	upis-lekcija1.md	0		redak	hr	Sladoled je ___ (cold) | hladan
+upis-lekcija1.md#0#s1	upis-lekcija1.md	0		redak	en	Kava je ___ (good) | dobra
+upis-lekcija1.md#0#s2	upis-lekcija1.md	0		redak	en	Nebo je ___ (blue) | plavo
+upis-lekcija1.md#0#s3	upis-lekcija1.md	0		redak	en	Grad je ___ (old) | star
+upis-lekcija1.md#0#s4	upis-lekcija1.md	0		redak	en	Kuća je ___ (big) | velika
+upis-lekcija1.md#0#s5	upis-lekcija1.md	0		redak	en	Sunce je ___ (warm) | toplo
+upis-lekcija1.md#0#s6	upis-lekcija1.md	0		redak	en	Knjiga je ___ (new) | nova
+upis-lekcija1.md#0#s7	upis-lekcija1.md	0		redak	en	Sladoled je ___ (cold) | hladan
 upis-lekcija1.md#0#s8	upis-lekcija1.md	0		redak	hr	Auto ___ brz. | je
 upis-lekcija1.md#0#s9	upis-lekcija1.md	0		redak	hr	Ovo ___ kuća. | je
-upis-lekcija1.md#0#s10	upis-lekcija1.md	0		redak	hr	Krevet je ___ (big) | velik
+upis-lekcija1.md#0#s10	upis-lekcija1.md	0		redak	en	Krevet je ___ (big) | velik
 vokabular-01.md#0#naslov	vokabular-01.md	0		naslov	en	Things, Colors & Sizes
 vokabular-01.md#1#naslov	vokabular-01.md	1	kartice	naslov	en	Things around you
 vokabular-01.md#1#info	vokabular-01.md	1	kartice	info	en	The core noun deck for level 1, plus the two small words *ovo* (this) and *je* (is) that turn it into a sentence: *Ovo je kava.* Store each noun with its final letter, because a describing word copies it later: *stol* ends in a consonant, *soba* in **-a**, *nebo* in **-o**.

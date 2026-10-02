@@ -167,7 +167,7 @@ opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 2 zu sein.
 - izbor | Welcher Satz ist richtig? | On je visok. | On je visoka.
 - izbor | Eine Frau, die studiert, ist eine … | studentica | student
 - slaganje | Ona je pametna i vesela. | en: Sie ist klug und fröhlich.
-- izbor | "Vi ste" means "I am." | FALSCH | RICHTIG
+- izbor | „Vi ste“ heißt „ich bin“. | FALSCH | RICHTIG
 - upis | Tko ___ ti? | si
 - izbor | Mi ___ studenti. | smo | ste | sam
 - slaganje | Ja sam student. | en: Ich bin Student.

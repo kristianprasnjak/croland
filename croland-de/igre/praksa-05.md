@@ -91,7 +91,7 @@ opis: Vorsicht – manche davon musst du herleiten, nicht nur finden.
 format: dijalog
 info: Ein Einkaufsdialog, in dem du deine Antworten wählst. Feminine Dinge, die du verlangst, enden auf **-u** (*Trebam jedn**u** boc**u***), und *Trebate li još nešto?* ist das Ja-Nein-Muster – Verb zuerst, dann *li*.
 infokratko: Was du verlangst, nimmt **-u**: *Trebam jednu bocu*. *Trebate li …?* = Verb + *li*.
-opis: Jetzt stehst du an der Theke. Wähle deine Antworten und schaff einen ganzen kroatischen Laden ohne Englisch. Passive Wörter: *odličnu* (ausgezeichnete), *jednu* (eine), *To je sve?* (Ist das alles?).
+opis: Jetzt stehst du an der Theke. Wähle deine Antworten und schaff einen ganzen kroatischen Laden ohne Deutsch. Passive Wörter: *odličnu* (ausgezeichnete), *jednu* (eine), *To je sve?* (Ist das alles?).
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Trebam kruh, mlijeko i rižu. | Dobar dan! Samo gledam, hvala.
 - npc | Izvolite. Imamo i svježu ribu danas.

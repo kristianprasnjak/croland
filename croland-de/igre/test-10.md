@@ -146,8 +146,8 @@ opis: Oben steht das Deutsche. Ein Tipp vollendet das Partizip – finde zuerst 
 - Marko je gleda___ film. | Marko watched a film. | o
 - Ana je gleda___ film. | Ana hat einen Film geschaut. | la
 - Mi smo gleda___ film. | Wir haben einen Film geschaut. | li
-- Jučer sam spava___ dugo. (a man) | Gestern habe ich lange geschlafen. | o
-- Jučer sam spava___ dugo. (a woman) | Gestern habe ich lange geschlafen. | la
+- Jučer sam spava___ dugo. (ein Mann) | Gestern habe ich lange geschlafen. | o
+- Jučer sam spava___ dugo. (eine Frau) | Gestern habe ich lange geschlafen. | la
 - Dječaci su spava___ dugo. | Die Jungen haben lange geschlafen. | li
 - Marko je pi___ kavu. | Marko hat Kaffee getrunken. | o
 - Petra je pi___ sok. | Petra hat Saft getrunken. | la
@@ -158,8 +158,8 @@ opis: Oben steht das Deutsche. Ein Tipp vollendet das Partizip – finde zuerst 
 - Tata je kuha___ ručak. | Papa hat Mittagessen gekocht. | o
 - Sestra je pjeva___ na koncertu. | Meine Schwester hat beim Konzert gesungen. | la
 - Učenici su uči___ cijeli dan. | Die Schüler haben den ganzen Tag gelernt. | li
-- Ja sam iša___ u kino. (a man) | Ich bin ins Kino gegangen. | o
-- Ja sam iš___ u kino. (a woman) | Ich bin ins Kino gegangen. | la
+- Ja sam iša___ u kino. (ein Mann) | Ich bin ins Kino gegangen. | o
+- Ja sam iš___ u kino. (eine Frau) | Ich bin ins Kino gegangen. | la
 - Baka je doš___ u nedjelju. | Oma ist am Sonntag gekommen. | la
 - Naš klub je pobijedi___ . | Unser Verein hat gewonnen. | o
 - Ana nije gleda___ film. | Ana hat keinen Film geschaut. | la

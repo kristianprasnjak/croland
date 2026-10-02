@@ -119,7 +119,7 @@ opis: Antworte aus dem Text.
 - Wer sind sie? | turisti | studenti | konobari
 - Wie fühlt sich der Gast? | žedan | gladan | umoran
 - Der Kellner ist … | ljubazan | ljut
-- What does "Nema na čemu." mean? | Gern geschehen. | Bis bald!
+- Was heißt „Nema na čemu.“? | Gern geschehen. | Bis bald!
 - Was bedeutet „Kako ste?“? | Wie geht's dir? | Woher kommst du?
 
 ## Text 4: Sie sind ein Team

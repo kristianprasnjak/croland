@@ -1,0 +1,135 @@
+39	error_code
+59	today: 
+135	2026-10-16-peron.html
+138	croland.daily.peron.2026-10-16
+146	 earned
+147	best 
+148	level 
+149	place 
+154	Vocabulary 1
+155	Vocabulary 2
+156	Vocabulary 3
+200	Grammar 1
+201	Practice 1
+212	 mistake
+213	 mistakes
+353	 correct
+378	conversation: 
+380	Matched: 
+453	 · page 
+464	 of 
+466	"<button type=""button"" class=""aiSalji"" id=""aiSalji"""
+474	aria-hidden
+486	"<button type=""button"" data-papir="""
+488	" paper"">"
+534	" style=""font-family:\'"
+536	"<span class=""uzorakV"" style=""font-size:"
+539	"<button type=""button"" class=""sklopkaRed"" role=""switch"" aria-checked="""
+557	 note
+558	 saved.
+567	 exercise
+571	points earned
+574	"<div class=""slajd"" role=""button"" tabindex=""0"" data-cilj=""view:lessons"" "
+591	 word
+595	all 
+597	 finished
+600	 learned
+604	(prefers-reduced-motion: reduce)
+618	"<button class=""miniPoster"" onclick=""miniCijeliUdi()"" aria-label=""Play "
+632	"<circle class=""puni"" id="""
+635	 — complete
+639	"style=""--boja:"
+644	 parts
+645	 steps
+651	""" style=""--boja:"
+657	"<button class=""vnav vfin"
+700	Lesson 0
+703	Skip →
+723	 — needs 
+730	— summary
+765	button.aktivan
+799	 words
+840	 waiting
+872	 finished, 
+874	 days — 
+875	day 
+884	points earned.
+962	, until 
+985	Lesson 1
+1011	Lesson 2
+1035	Grammar 2
+1042	Practice 2
+1054	Lesson 3
+1065	Grammar 3
+1071	Practice 3
+1080	Lesson 4
+1087	Vocabulary 4
+1090	Grammar 4
+1094	Practice 4
+1104	Lesson 5
+1112	Vocabulary 5
+1115	Grammar 5
+1124	Practice 5
+1135	Lesson 6
+1145	Vocabulary 6
+1148	Grammar 6
+1154	Practice 6
+1164	Lesson 7
+1170	Vocabulary 7
+1173	Grammar 7
+1179	Practice 7
+1185	Lesson 8
+1195	Vocabulary 8
+1198	Grammar 8
+1204	Practice 8
+1215	Lesson 9
+1224	Vocabulary 9
+1227	Grammar 9
+1233	Practice 9
+1243	Lesson 10
+1256	Vocabulary 10
+1263	Grammar 10
+1271	Practice 10
+1282	Lesson 11
+1294	Vocabulary 11
+1297	zašto
+1300	Grammar 11
+1313	Practice 11
+1327	Lesson 12
+1336	Vocabulary 12
+1343	Grammar 12
+1355	Practice 12
+1369	Lesson 13
+1377	Vocabulary 13
+1380	Grammar 13
+1388	Practice 13
+1396	Lesson 14
+1405	Vocabulary 14
+1409	Grammar 14
+1416	Practice 14
+1430	Lesson 15
+1440	Vocabulary 15
+1444	Grammar 15
+1452	Practice 15
+1470	Lesson 16
+1479	Vocabulary 16
+1483	Grammar 16
+1489	noći
+1492	Practice 16
+1502	Lesson 17
+1511	Vocabulary 17
+1514	brašno
+1515	Grammar 17
+1523	Practice 17
+1532	Lesson 18
+1544	Vocabulary 18
+1547	Grammar 18
+1553	Practice 18
+1563	Lesson 19
+1574	Vocabulary 19
+1579	Grammar 19
+1586	Practice 19
+1594	Lesson 20
+1601	Vocabulary 20
+1604	Grammar 20
+1613	Practice 20

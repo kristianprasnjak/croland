@@ -274,7 +274,7 @@ infokratko: Ziel im Plural: nur maskulin ändert sich, **-i → -e** (*učenike*
 - tab: n. | pisma | pism**a** – keine Änderung
 - **Nur das Maskulinum bewegt sich: -i → -e.** Und das *k* wird wieder hart: *učenic**i***, aber *učenik**e***, *dječac**i***, aber *dječak**e***. Der Wechsel **k → c** passiert nur vor einem **-i**.
 - **Belebt oder nicht, jetzt dieselbe Form:** *Vidim prijatelj**e**.* *Vidim tramvaj**e**.* Der *-a*-Trick war eine reine Singularregel, und davon bist du gerade befreit.
-- **Adjectives follow, as always:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
+- **Adjektive passen sich wie immer an:** *Čitam nov**e** knjige. Vidim star**e** gradove.*
 - **Und das Pronomen für alle ist *ih*:** *Vidim učenike → Vidim **ih**.* Ein Wort für jedes Genus, jedes Mal – wie deutsch *sie*.
 - **Jetzt schreibst du.** Vidim učenike → Vidim [ih]. Vidim knjige → Vidim [ih]. Vidim pisma → Vidim [ih].
 

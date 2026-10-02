@@ -103,7 +103,7 @@ opis: Schreib das Partizip des richtigen Zwillings.
 - Za jedan dan smo ___ knjigu. (čitati / pročitati) | pročitali
 - Baka je već ___ juhu. (kuhati / skuhati) | skuhala
 - Cijeli dan su ___ televiziju. (gledati / pogledati, djeca) | gledala
-- Napokon sam ___ sve riječi. (učiti / naučiti, a woman) | naučila
+- Napokon sam ___ sve riječi. (učiti / naučiti, eine Frau) | naučila
 - Svaki dan sam ___ kruh. (kupovati / kupiti, ein Mann) | kupovao
 - Film je ___ u osam. (počinjati / početi) | počeo
 - Jesi li ___ zadaću? (pisati / napisati, zu einem Jungen) | napisao

@@ -22,12 +22,12 @@ opis: Verneinungs-Sprint aus Lektion 12 – tippe auf die richtige verneinte For
 - je | nije
 - ću | neću
 - imamo | nemamo
-- Marko ___ ne jede. (nothing) | ništa
-- ___ ne kuha. (nobody) | Nitko
-- ___ ne pijem mlijeko. (never) | Nikad
-- Ana ___ ne ide. (nowhere) | nigdje
+- Marko ___ ne jede. (nichts) | ništa
+- ___ ne kuha. (niemand) | Nitko
+- ___ ne pijem mlijeko. (nie) | Nikad
+- Ana ___ ne ide. (nirgendwohin) | nigdje
 - Ne jedem ni meso ___ ribu. | ni
-- ___ ne čekam. (nobody, target) | Nikoga
+- ___ ne čekam. (niemand, Ziel) | Nikoga
 - Marko je pio kavu. → Marko ___ pio kavu. | nije
 
 ## Ortswörter

@@ -344,8 +344,8 @@ opis: Lies das Deutsche in Klammern und tippe das Kroatische in der Form, die zu
 - Marko je ___. (hungrig) | gladan
 - Ona je ___. (hungrig) | gladna
 - Ja sam ___. (durstig) | žedan
-- Oni su ___. (brave) | hrabri
-- Ona je ___. (brave) | hrabra
+- Oni su ___. (mutig) | hrabri
+- Ona je ___. (mutig) | hrabra
 - Ona je ___. (nett) | draga
 - Vi ste ___. (höflich) | ljubazni
 - Ona je ___. (höflich) | ljubazna
@@ -355,7 +355,7 @@ opis: Lies das Deutsche in Klammern und tippe das Kroatische in der Form, die zu
 - On je ___. (beschäftigt) | zauzet
 - Ona je ___. (lustig) | zabavna
 - On je ___. (lustig) | zabavan
-- Ona je ___. (sad) | tužna
+- Ona je ___. (traurig) | tužna
 - On je ___. (wütend) | ljut
 - Ona je ___. (wütend) | ljuta
 - On je ___. (jung) | mlad
@@ -370,7 +370,7 @@ opis: Lies das Deutsche in Klammern und tippe das Kroatische in der Form, die zu
 - On je ___. (Anwalt) | odvjetnik
 - Ona je ___. (Ärztin) | doktorica
 - On je ___. (Kellner) | konobar
-- Ona je ___. (a student) | studentica
+- Ona je ___. (eine Studentin) | studentica
 - On je ___. (Kroate) | Hrvat
 - Ona je ___. (Italienerin) | Talijanka
 - On je ___. (Deutscher) | Nijemac

@@ -235,18 +235,18 @@ trajanje: 45
 info: Ein zeitgebundener Sprint von der deutschen Bedeutung zum Bindewort. *Weil* ist *jer* (oder *zato što*), *wenn / als* ist *kad*, *wenn, falls* ist *ako*, *während* ist *dok*, *obwohl* ist *iako*, *wie* ist *kao*, und *der, die, das* nach einem Substantiv ist *koji*.
 infokratko: weil *jer*, wenn / als *kad*, falls *ako*, während *dok*, obwohl *iako*, wie *kao*.
 opis: Ein deutsches Wort blinkt auf – tippe das kroatische Bindewort, bevor die Zeit abläuft.
-- because | jer
-- when | kad
-- if | ako
-- while | dok
-- although | iako
-- like, as | kao
-- the first time | prvi put
-- which (m.) | koji
-- which (f.) | koja
-- which (n.) | koje
-- which (f., target) | koju
-- because (longer) | zato što
+- weil | jer
+- wann | kad
+- wenn, falls | ako
+- während | dok
+- obwohl | iako
+- wie, als | kao
+- das erste Mal | prvi put
+- der, welcher (m.) | koji
+- die, welche (f.) | koja
+- das, welches (n.) | koje
+- die, welche (f., Ziel) | koju
+- weil (länger) | zato što
 
 ## Warum lernst DU Kroatisch?
 format: dijalog

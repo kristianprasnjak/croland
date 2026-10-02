@@ -130,7 +130,7 @@ tekst: Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket
 - ___ daje paket. (doktor) | Doktoru
 - ___ Mariji kaže: "Dobro jutro!" (baka) | Baki
 - ___ ne daje ništa. (pas) | Psu
-- Svi su sretni, jer ___ Ivo nosi dobre vijesti. (to them) | im
+- Svi su sretni, jer ___ Ivo nosi dobre vijesti. (ihnen) | im
 
 ## Text 4: Eine Karte von Oma
 format: tekst

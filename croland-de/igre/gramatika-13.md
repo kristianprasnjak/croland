@@ -5,7 +5,7 @@ cjelina: Grammar 13
 format: tekst
 info: Die Übersichtsseite der Einheit. Der Lokativ antwortet auf *gdje?* (wo?) und steht immer nach einer Präposition – *u*, *na* oder *o*. Maskulina und Neutra bekommen **-u**, das feminine **-a** wird zu **-i**. Die Präposition ist dieselbe wie bei der Bewegung; nur die Endung ändert sich – wie im Deutschen *in die Schule* / *in der Schule*.
 infokratko: *gdje?* + *u/na/o*: m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*).
-- **The locative answers *gdje?* (where?)** and never stands alone: it always comes after a preposition — *u*, *na* or *o*. Without a preposition a place stays in the naming form: *Ovo je škola.*
+- **Der Lokativ antwortet auf *gdje?* (wo?)** und steht nie allein: Er kommt immer nach einer Präposition – *u*, *na* oder *o*. Ohne Präposition bleibt ein Ort in der Grundform: *Ovo je škola.*
 - tab: Genus | Grundform | Lokativ
 - tab: m. (Konsonant) → **+u** | grad, ured, Split | u grad**u**, u ured**u**, u Split**u**
 - tab: n. (-o / -e) → **-u** | kino, more, kazalište | u kin**u**, na mor**u**, u kazališt**u**

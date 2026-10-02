@@ -1,8 +1,8 @@
-# Sort the adjectives — Lesson 1
+# Sortiere die Adjektive – Lektion 1
 broj: 9
 format: razvrstavanje
 stupci: GRAD | KUĆA | MORE
-opis: Each noun likes adjectives that sound like it. Tap a word, then the column it belongs to!
+opis: Jedes Substantiv mag Adjektive, die so klingen wie es selbst. Tippe ein Wort an, dann die Spalte, in die es gehört!
 
 - velik | GRAD
 - velika | KUĆA
