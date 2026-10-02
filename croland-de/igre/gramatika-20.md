@@ -1,27 +1,27 @@
-# Complex Sentences
+# Komplexe Sätze
 cjelina: Grammar 20
 
-## The rule: all together
+## Die Regel: alles zusammen
 format: tekst
-info: The reference page for joined sentences. *Jer / zato što, kad, ako, dok, iako* join two events; the part with the connector gets a comma when it comes first; short words take the second place after the connector; and *koji* agrees with its noun and takes the case its own sentence needs.
-infokratko: *jer, kad, ako, dok, iako*; comma when that part is first; *jer je*; *koji / koja / koje / koju*.
-- The last grammar page — where everything you have learned works together.
-- tab: Meaning | Connector | Example
-- tab: reason | jer, zato što | Ostajem doma **jer** pada kiša.
-- tab: time | kad | **Kad** dođeš, zovi me.
-- tab: condition | ako | **Ako** je sunčano, idemo na rijeku.
-- tab: at the same time | dok | **Dok** ja kuham, ti biraš film.
-- tab: contrast | iako | **Iako** je spor, vlak je ugodan.
-- **The comma.** When the connector part comes *first*, put a comma after it: *Ako pada kiša**,** ostat ćemo doma.* When it comes second, no comma is needed before *kad* and *ako*; before *jer* and *iako* a comma is common.
-- **Short words after the connector.** The connector counts as the first word, so *je, sam, ću, ga, se* come right after it: *jer **je** dan lijep, kad **sam** bila mala, ako **ga** vidiš*.
-- **koji agrees like an adjective.** *grad **koji** je star, pjesma **koja** je lijepa, more **koje** je toplo, knjiga **koju** čitam* — the last one is the target of *čitam*, so **-a → -u**.
-- **The whole course in one sentence:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep.*
-- **Now you write them.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep.
+info: Die Übersichtsseite zu verbundenen Sätzen. *Jer / zato što, kad, ako, dok, iako* verbinden zwei Ereignisse; der Teil mit dem Bindewort bekommt ein Komma, wenn er zuerst kommt; kurze Wörter nehmen die zweite Stelle nach dem Bindewort ein; und *koji* richtet sich nach seinem Substantiv und nimmt den Fall, den sein eigener Satz braucht.
+infokratko: *jer, kad, ako, dok, iako*; Komma, wenn dieser Teil zuerst kommt; *jer je*; *koji / koja / koje / koju*.
+- Die letzte Grammatikseite – auf der alles, was du gelernt hast, zusammenarbeitet.
+- tab: Bedeutung | Bindewort | Beispiel
+- tab: Grund | jer, zato što | Ostajem doma **jer** pada kiša.
+- tab: Zeit | kad | **Kad** dođeš, zovi me.
+- tab: Bedingung | ako | **Ako** je sunčano, idemo na rijeku.
+- tab: gleichzeitig | dok | **Dok** ja kuham, ti biraš film.
+- tab: Gegensatz | iako | **Iako** je spor, vlak je ugodan.
+- **Das Komma.** Wenn der Bindewort-Teil *zuerst* kommt, setz ein Komma danach: *Ako pada kiša**,** ostat ćemo doma.* Wenn er an zweiter Stelle steht, braucht man vor *kad* und *ako* kein Komma; vor *jer* und *iako* ist ein Komma üblich.
+- **Kurze Wörter nach dem Bindewort.** Das Bindewort zählt als erstes Wort, also kommen *je, sam, ću, ga, se* direkt danach: *jer **je** dan lijep, kad **sam** bila mala, ako **ga** vidiš*.
+- **koji richtet sich wie ein Adjektiv.** *grad **koji** je star, pjesma **koja** je lijepa, more **koje** je toplo, knjiga **koju** čitam* – das letzte ist das Ziel von *čitam*, also **-a → -u**.
+- **Der ganze Kurs in einem Satz:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep.*
+- **Jetzt schreibst du sie.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep.
 
-## Pick the connector
+## Wähle das Bindewort
 format: izbor
-info: Choosing the connector that fits both halves. A reason takes *jer*, a condition *ako*, a contrast *iako*, a time *kad*, two things at once *dok*. *Kao* cannot introduce a sentence, so it is never the answer here.
-infokratko: reason *jer*, condition *ako*, contrast *iako*, time *kad*, at once *dok*.
+info: Das Bindewort wählen, das zu beiden Hälften passt. Ein Grund nimmt *jer*, eine Bedingung *ako*, ein Gegensatz *iako*, eine Zeit *kad*, zwei Dinge gleichzeitig *dok*. *Kao* kann keinen Satz einleiten, also ist es hier nie die Antwort.
+infokratko: Grund *jer*, Bedingung *ako*, Gegensatz *iako*, Zeit *kad*, gleichzeitig *dok*.
 opis: Wähle das Bindewort.
 - Nosim kišobran ___ pada kiša. | jer | kao | iako
 - ___ imamo vremena, doći ćemo. | Ako | Kao | Jer
@@ -34,11 +34,11 @@ opis: Wähle das Bindewort.
 - Ostajem doma ___ sam umorna. | zato što | kao | iako
 - ___ sam bio mali, živio sam na moru. | Kad | Kao | Iako
 
-## koji, koja, koje or koju?
+## koji, koja, koje oder koju?
 format: izbor
-info: Choosing the form of *koji* in the nominative and the target form. The noun in front decides gender and number; the verb after it decides the case. Only the feminine singular has a separate target form, *koju*; masculine things and neuter nouns look the same in both jobs.
-infokratko: m. *koji*, f. *koja*, n. *koje*; f. target *koju*.
-opis: Match the relative pronoun.
+info: Die Form von *koji* im Nominativ und in der Zielform wählen. Das Substantiv davor entscheidet Genus und Zahl; das Verb danach entscheidet den Fall. Nur das feminine Singular hat eine eigene Zielform, *koju*; maskuline Sachen und Neutra sehen in beiden Aufgaben gleich aus.
+infokratko: m. *koji*, f. *koja*, n. *koje*; f. Ziel *koju*.
+opis: Ordne das Relativpronomen zu.
 - vlak ___ kreće u sedam | koji | koja | koje
 - riba ___ jedem | koju | koja | koji
 - dijete ___ pjeva | koje | koji | koja
@@ -50,11 +50,11 @@ opis: Match the relative pronoun.
 - knjige ___ su na stolu | koje | koji | koju
 - kava ___ pijem | koju | koja | koje
 
-## Join with a connector
+## Mit einem Bindewort verbinden
 format: upis
-info: You join two sentences with the connector in brackets. Put the connector in front of its own sentence and keep the word order of both halves; when the connector part comes first, a comma follows it. Both orders are accepted where they make sense.
-infokratko: connector + its sentence; comma when that part is first.
-opis: Join with the connector in brackets.
+info: Du verbindest zwei Sätze mit dem Bindewort in Klammern. Setz das Bindewort vor seinen eigenen Satz und behalte die Wortstellung beider Hälften bei; wenn der Bindewort-Teil zuerst kommt, folgt ihm ein Komma. Beide Reihenfolgen werden akzeptiert, wo sie Sinn ergeben.
+infokratko: Bindewort + sein Satz; Komma, wenn dieser Teil zuerst kommt.
+opis: Verbinde mit dem Bindewort in Klammern.
 - Učim. + Volim jezik. (jer) → | Učim jer volim jezik
 - Sunčano je. + Idemo na more. (ako) → | Ako je sunčano, idemo na more / Idemo na more ako je sunčano
 - Ti spavaš. + Ja radim. (dok) → | Dok ti spavaš, ja radim / Ja radim dok ti spavaš
@@ -64,28 +64,28 @@ opis: Join with the connector in brackets.
 - Restoran je skup. + Uvijek je pun. (iako) → | Iako je restoran skup, uvijek je pun / Restoran je uvijek pun, iako je skup
 - Imamo vremena. + Doći ćemo. (ako) → | Ako imamo vremena, doći ćemo / Doći ćemo ako imamo vremena
 
-## The rule: da — the connector that carries everything
+## Die Regel: da – das Bindewort, das alles trägt
 format: tekst
-info: The second rule. *Da* joins a sentence to a verb of saying, thinking or knowing: *Znam da je Zagreb velik.* There is no comma before it and no change of tense. *Da* + present also replaces the infinitive when the subjects are different: *Želim da dođeš.* And *koji* now takes every case.
-infokratko: *Znam da…, Mislim da…, Rekao je da…* No comma, no tense shift. *Želim da dođeš.* *koji* in all cases.
+info: Die zweite Regel. *Da* verbindet einen Satz mit einem Verb des Sagens, Denkens oder Wissens: *Znam da je Zagreb velik.* Davor steht kein Komma, und die Zeitform ändert sich nicht. *Da* + Präsens ersetzt auch den Infinitiv, wenn die Subjekte verschieden sind: *Želim da dođeš.* Und *koji* nimmt jetzt jeden Fall.
+infokratko: *Znam da…, Mislim da…, Rekao je da…* Kein Komma, keine Zeitverschiebung. *Želim da dođeš.* *koji* in allen Fällen.
 infoodmah: da
-- *Jer, kad, ako, dok, iako* join two **events**. ***Da*** joins a sentence to a **verb of saying, thinking, knowing or hoping** — and it is the most frequent connector in Croatian.
-- tab: Verb | Example | English
-- tab: znati | Znam **da** je Zagreb velik. | I know that Zagreb is big.
-- tab: misliti | Mislim **da** ćeš doći. | I think you'll come.
-- tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | He / She said he / she had no time.
-- tab: nadati se | Nadam se **da** je sve u redu. | I hope everything's fine.
+- *Jer, kad, ako, dok, iako* verbinden zwei **Ereignisse**. ***Da*** verbindet einen Satz mit einem **Verb des Sagens, Denkens, Wissens oder Hoffens** – und es ist das häufigste Bindewort im Kroatischen.
+- tab: Verb | Beispiel | Deutsch
+- tab: znati | Znam **da** je Zagreb velik. | Ich weiß, dass Zagreb groß ist.
+- tab: misliti | Mislim **da** ćeš doći. | Ich glaube, dass du kommst.
+- tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | Er / Sie hat gesagt, dass er / sie keine Zeit hat.
+- tab: nadati se | Nadam se **da** je sve u redu. | Ich hoffe, dass alles in Ordnung ist.
 - **No comma before *da*** in these sentences, and the short words come right after it: *da **je**, da **ćeš**, da **sam***.
-- **No tense shift.** English turns *He said: I am tired* into *He said he **was** tired*. Croatian keeps the original tense: *Rekao je **da je** umoran.*
-- **Da + present when the subjects are different.** *Želim **doći**.* = I want to come (myself). *Želim **da dođeš**.* = I want *you* to come.
-- **koji in the other cases.** It takes the case its own sentence needs, with the adjective endings: *čovjek **kojeg** čekam* (target, a person), *grad u **kojem** živim* (place), *vlak **kojim** putujem* (means), *prijatelj **kojem** pišem* (receiver), *kuća u **kojoj** živim* (place, feminine).
-- **Now you write them.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim.
+- **Keine Zeitverschiebung.** Das Deutsche macht aus *Er sagte: Ich bin müde* oft *Er sagte, er sei müde*. Das Kroatische behält einfach die ursprüngliche Zeitform: *Rekao je **da je** umoran.*
+- **Da + Präsens, wenn die Subjekte verschieden sind.** *Želim **doći**.* = Ich will kommen (selbst). *Želim **da dođeš**.* = Ich will, dass *du* kommst.
+- **koji in den anderen Fällen.** Es nimmt den Fall, den sein eigener Satz braucht, mit den Adjektivendungen: *čovjek **kojeg** čekam* (Ziel, eine Person), *grad u **kojem** živim* (Ort), *vlak **kojim** putujem* (Mittel), *prijatelj **kojem** pišem* (Empfänger), *kuća u **kojoj** živim* (Ort, feminin) – wie *den, in dem, mit dem, dem, in der* im Deutschen.
+- **Jetzt schreibst du sie.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim.
 
 ## Welches Bindewort?
 format: izbor
-info: Choosing between *da* and the other connectors. After *znam, mislim, nadam se, rekao je* the sentence that follows is joined with *da*. A reason takes *jer*, a condition *ako*, a contrast *iako*. *Da* never means *because*.
-infokratko: after *znam, mislim, nadam se, rekao je* → *da*; reason *jer*; condition *ako*.
-opis: An event, a reason, a condition — or a reported thought?
+info: Zwischen *da* und den anderen Bindewörtern wählen. Nach *znam, mislim, nadam se, rekao je* wird der folgende Satz mit *da* angeschlossen. Ein Grund nimmt *jer*, eine Bedingung *ako*, ein Gegensatz *iako*. *Da* heißt nie *weil*.
+infokratko: nach *znam, mislim, nadam se, rekao je* → *da*; Grund *jer*; Bedingung *ako*.
+opis: Ein Ereignis, ein Grund, eine Bedingung – oder ein wiedergegebener Gedanke?
 - Znam ___ je Zagreb velik. | da | jer | ako
 - Ostajem doma ___ pada kiša. | jer | da | kao
 - Mislim ___ ćeš doći sutra. | da | kad | iako
@@ -97,11 +97,11 @@ opis: An event, a reason, a condition — or a reported thought?
 - Mislim ___ je ovo dobar film. | da | ako | kao
 - Znaš li ___ Ana živi u Splitu? | da | jer | iako
 
-## koji in the right case
+## koji im richtigen Fall
 format: izbor
-info: Choosing the case of *koji* from its own sentence. A person as the target takes *kojeg*, a place after *u* or *na* takes *kojem* (or *kojoj* for a feminine noun), a vehicle takes *kojim*, and a receiver *kojem*. Ask the question inside the *koji* sentence: *koga? gdje? čime? komu?*
-infokratko: person target *kojeg*; place *u kojem / u kojoj*; means *kojim*; receiver *kojem*.
-opis: The relative pronoun takes the case its own clause needs.
+info: Den Fall von *koji* aus seinem eigenen Satz wählen. Eine Person als Ziel nimmt *kojeg*, ein Ort nach *u* oder *na* nimmt *kojem* (oder *kojoj* bei einem femininen Substantiv), ein Fahrzeug nimmt *kojim* und ein Empfänger *kojem*. Stell die Frage innerhalb des *koji*-Satzes: *koga? gdje? čime? komu?*
+infokratko: Person als Ziel *kojeg*; Ort *u kojem / u kojoj*; Mittel *kojim*; Empfänger *kojem*.
+opis: Das Relativpronomen nimmt den Fall, den sein eigener Satz braucht.
 - čovjek ___ čekam | kojeg | koji | kojem
 - grad u ___ živim | kojem | koji | kojeg
 - vlak ___ putujem | kojim | koji | kojeg
@@ -115,73 +115,73 @@ opis: The relative pronoun takes the case its own clause needs.
 - brat ___ vidim svaki dan | kojeg | kojem | koji
 - ulica u ___ je pošta | kojoj | koju | kojom
 
-## Which case is koji?
+## In welchem Fall steht koji?
 format: razvrstavanje
-info: Sorting *koji* forms by case. The naming form (*koji, koja, koje*) is the subject of its sentence; the target has *kojeg* for a person and *koju* for a feminine noun; *kojem / kojoj* after *u* is a place; *kojim* is company or means.
-infokratko: naming *koji / koja*; target *kojeg / koju*; place *u kojem / u kojoj*; means *kojim*.
-stupci: SUBJECT | TARGET | PLACE | MEANS
-opis: What job does *koji* do in its own sentence?
-- film koji traje tri sata | SUBJECT
-- pjesma koja je lijepa | SUBJECT
-- ljudi koji žive na moru | SUBJECT
-- more koje je toplo | SUBJECT
-- čovjek kojeg čekam | TARGET
-- knjiga koju čitam | TARGET
-- brat kojeg vidim | TARGET
-- kava koju pijem | TARGET
-- grad u kojem živim | PLACE
-- kuća u kojoj živi baka | PLACE
-- selo u kojem smo bili | PLACE
-- ulica u kojoj je pošta | PLACE
-- vlak kojim putujem | MEANS
-- autobus kojim idem na posao | MEANS
-- olovka kojom pišem | MEANS
-- tramvaj kojim ideš u grad | MEANS
+info: *koji*-Formen nach Fall sortieren. Die Grundform (*koji, koja, koje*) ist das Subjekt ihres Satzes; das Ziel hat *kojeg* für eine Person und *koju* für ein feminines Substantiv; *kojem / kojoj* nach *u* ist ein Ort; *kojim* ist Begleitung oder Mittel.
+infokratko: Grundform *koji / koja*; Ziel *kojeg / koju*; Ort *u kojem / u kojoj*; Mittel *kojim*.
+stupci: SUBJEKT | ZIEL | ORT | MITTEL
+opis: Welche Aufgabe hat *koji* in seinem eigenen Satz?
+- film koji traje tri sata | SUBJEKT
+- pjesma koja je lijepa | SUBJEKT
+- ljudi koji žive na moru | SUBJEKT
+- more koje je toplo | SUBJEKT
+- čovjek kojeg čekam | ZIEL
+- knjiga koju čitam | ZIEL
+- brat kojeg vidim | ZIEL
+- kava koju pijem | ZIEL
+- grad u kojem živim | ORT
+- kuća u kojoj živi baka | ORT
+- selo u kojem smo bili | ORT
+- ulica u kojoj je pošta | ORT
+- vlak kojim putujem | MITTEL
+- autobus kojim idem na posao | MITTEL
+- olovka kojom pišem | MITTEL
+- tramvaj kojim ideš u grad | MITTEL
 
 ## Tippe auf die Endung
 format: nastavak
 nastavci: i | a | u | eg | em | im | oj | om
-info: One tap finishes *koj___* in the case its own sentence needs. Subject: **-i** or **-a**. Target: **-eg** for a person, **-u** for a feminine noun. Place after *u*: **-em**, or **-oj** for a feminine noun. Means: **-im**, or **-om** for a feminine noun. A receiver takes **-em**.
-infokratko: subject **-i / -a**; target **-eg / -u**; place **-em / -oj**; means **-im / -om**; receiver **-em**.
-opis: English above, Croatian below. One tap finishes *koji*.
-- Film koj___ gledamo traje tri sata. | The film we're watching lasts three hours. | i
-- Knjiga koj___ čitam je nova. | The book I'm reading is new. | u
-- To je čovjek koj___ čekam. | That's the man I'm waiting for. | eg
-- Grad u koj___ živim je star. | The town I live in is old. | em
-- Vlak koj___ putujem je spor. | The train I travel by is slow. | im
-- Kuća u koj___ živi baka je blizu mora. | The house Grandma lives in is near the sea. | oj
-- Pjesma koj___ je lijepa. | The song that is beautiful. | a
-- Prijatelj koj___ pišem živi u Splitu. | The friend I'm writing to lives in Split. | em
-- Brat koj___ vidim svaki dan. | The brother I see every day. | eg
-- Autobus koj___ idem na posao uvijek kasni. | The bus I take to work is always late. | im
-- Ulica u koj___ je pošta je mala. | The street with the post office is small. | oj
-- Djevojka koj___ pjeva je moja sestra. | The girl who is singing is my sister. | a
-- Kava koj___ pijem je jaka. | The coffee I'm drinking is strong. | u
-- Ljudi koj___ žive na otoku imaju vremena. | People who live on the island have time. | i
-- Selo u koj___ smo bili je malo. | The village we were in is small. | em
-- Olovka koj___ pišem je crvena. | The pencil I write with is red. | om
+info: Ein Tippen vollendet *koj___* in dem Fall, den sein eigener Satz braucht. Subjekt: **-i** oder **-a**. Ziel: **-eg** für eine Person, **-u** für ein feminines Substantiv. Ort nach *u*: **-em**, oder **-oj** für ein feminines Substantiv. Mittel: **-im**, oder **-om** für ein feminines Substantiv. Ein Empfänger bekommt **-em**.
+infokratko: Subjekt **-i / -a**; Ziel **-eg / -u**; Ort **-em / -oj**; Mittel **-im / -om**; Empfänger **-em**.
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen vollendet *koji*.
+- Film koj___ gledamo traje tri sata. | Der Film, den wir schauen, dauert drei Stunden. | i
+- Knjiga koj___ čitam je nova. | Das Buch, das ich lese, ist neu. | u
+- To je čovjek koj___ čekam. | Das ist der Mann, auf den ich warte. | eg
+- Grad u koj___ živim je star. | Die Stadt, in der ich wohne, ist alt. | em
+- Vlak koj___ putujem je spor. | Der Zug, mit dem ich fahre, ist langsam. | im
+- Kuća u koj___ živi baka je blizu mora. | Das Haus, in dem Oma wohnt, ist in der Nähe des Meeres. | oj
+- Pjesma koj___ je lijepa. | Das Lied, das schön ist. | a
+- Prijatelj koj___ pišem živi u Splitu. | Der Freund, dem ich schreibe, wohnt in Split. | em
+- Brat koj___ vidim svaki dan. | Der Bruder, den ich jeden Tag sehe. | eg
+- Autobus koj___ idem na posao uvijek kasni. | Der Bus, mit dem ich zur Arbeit fahre, hat immer Verspätung. | im
+- Ulica u koj___ je pošta je mala. | Die Straße, in der die Post ist, ist klein. | oj
+- Djevojka koj___ pjeva je moja sestra. | Das Mädchen, das singt, ist meine Schwester. | a
+- Kava koj___ pijem je jaka. | Der Kaffee, den ich trinke, ist stark. | u
+- Ljudi koj___ žive na otoku imaju vremena. | Leute, die auf der Insel wohnen, haben Zeit. | i
+- Selo u koj___ smo bili je malo. | Das Dorf, in dem wir waren, ist klein. | em
+- Olovka koj___ pišem je crvena. | Der Bleistift, mit dem ich schreibe, ist rot. | om
 
-## Where do the short words go?
+## Wohin gehören die kurzen Wörter?
 format: izbor
-info: Choosing the sentence with the short words in the right place. After a connector — *jer, kad, ako, da, koji* — the short words *je, sam, ću, ga, se* come immediately after it, because the connector counts as the first word.
-infokratko: connector + short word: *jer je, da ćeš, kad sam, koji se*.
-opis: Choose the correct sentence.
-- because the concert is on Saturday | Kupujem kartu jer je koncert u subotu. | Kupujem kartu jer koncert je u subotu. | Kupujem kartu je jer koncert u subotu.
-- I think you'll come | Mislim da ćeš doći. | Mislim da doći ćeš. | Mislim ćeš da doći.
-- when I was little | Kad sam bila mala, živjela sam u Splitu. | Kad bila sam mala, živjela sam u Splitu. | Sam kad bila mala, živjela sam u Splitu.
-- if you see him | Ako ga vidiš, zovi me. | Ako vidiš ga, zovi me. | Ga ako vidiš, zovi me.
-- although it is late | Iako je kasno, idem u kino. | Iako kasno je, idem u kino. | Je iako kasno, idem u kino.
-- he said he was tired | Rekao je da je umoran. | Rekao je da umoran je. | Rekao da je je umoran.
-- the man who is laughing | Čovjek koji se smije je moj djed. | Čovjek koji smije se je moj djed. | Čovjek se koji smije je moj djed.
-- because I will be late | Zovem te jer ću kasniti. | Zovem te jer kasniti ću. | Zovem te ću jer kasniti.
-- I hope it's fine | Nadam se da je sve u redu. | Nadam se da sve je u redu. | Se nadam da je sve u redu.
-- when I get back | Zvat ću te kad se vratim. | Zvat ću te kad vratim se. | Zvat ću te se kad vratim.
+info: Den Satz wählen, in dem die kurzen Wörter an der richtigen Stelle stehen. Nach einem Bindewort – *jer, kad, ako, da, koji* – kommen die kurzen Wörter *je, sam, ću, ga, se* direkt danach, weil das Bindewort als erstes Wort zählt.
+infokratko: Bindewort + kurzes Wort: *jer je, da ćeš, kad sam, koji se*.
+opis: Wähle den richtigen Satz.
+- weil das Konzert am Samstag ist | Kupujem kartu jer je koncert u subotu. | Kupujem kartu jer koncert je u subotu. | Kupujem kartu je jer koncert u subotu.
+- ich glaube, dass du kommst | Mislim da ćeš doći. | Mislim da doći ćeš. | Mislim ćeš da doći.
+- als ich klein war | Kad sam bila mala, živjela sam u Splitu. | Kad bila sam mala, živjela sam u Splitu. | Sam kad bila mala, živjela sam u Splitu.
+- wenn du ihn siehst | Ako ga vidiš, zovi me. | Ako vidiš ga, zovi me. | Ga ako vidiš, zovi me.
+- obwohl es spät ist | Iako je kasno, idem u kino. | Iako kasno je, idem u kino. | Je iako kasno, idem u kino.
+- er sagte, er sei müde | Rekao je da je umoran. | Rekao je da umoran je. | Rekao da je je umoran.
+- der Mann, der lacht | Čovjek koji se smije je moj djed. | Čovjek koji smije se je moj djed. | Čovjek se koji smije je moj djed.
+- weil ich zu spät kommen werde | Zovem te jer ću kasniti. | Zovem te jer kasniti ću. | Zovem te ću jer kasniti.
+- ich hoffe, es ist in Ordnung | Nadam se da je sve u redu. | Nadam se da sve je u redu. | Se nadam da je sve u redu.
+- wenn ich zurückkomme | Zvat ću te kad se vratim. | Zvat ću te kad vratim se. | Zvat ću te se kad vratim.
 
-## Join it with da
+## Verbinde es mit da
 format: upis
-info: You report a thought or a statement by joining the two halves with *da*. No comma before *da*, no change of tense, and the short words come right after it: *da je, da ćeš*. With a different subject, *želim* is followed by *da* + present.
-infokratko: *Znam da…, Mislim da ćeš…, Rekao je da…, Želim da dođeš.* No comma.
-opis: Report the thought — join the halves with "da".
+info: Du gibst einen Gedanken oder eine Aussage wieder, indem du die zwei Hälften mit *da* verbindest. Kein Komma vor *da*, keine Änderung der Zeitform, und die kurzen Wörter kommen direkt danach: *da je, da ćeš*. Bei einem anderen Subjekt folgt auf *želim* ein *da* + Präsens.
+infokratko: *Znam da…, Mislim da ćeš…, Rekao je da…, Želim da dođeš.* Kein Komma.
+opis: Gib den Gedanken wieder – verbinde die Hälften mit „da“.
 - Znam. + Zagreb je velik. → | Znam da je Zagreb velik
 - Mislim. + Ti ćeš doći. → | Mislim da ćeš doći / Mislim da ćeš ti doći
 - Nadam se. + Sve je u redu. → | Nadam se da je sve u redu
@@ -193,11 +193,11 @@ opis: Report the thought — join the halves with "da".
 - Nadamo se. + Vi ćete doći. → | Nadamo se da ćete doći / Nadamo se da ćete vi doći
 - Znam. + Marko nije doma. → | Znam da Marko nije doma
 
-## The final sentence
+## Der letzte Satz
 format: slaganje
-info: The last sentences of the course, built from tiles. Each joins at least two thoughts: *koji* after its noun, *da* after a verb of thinking, *jer, ako, iako* in front of their own half, and short words right after the connector.
-infokratko: *koji* after its noun; *da* after *mislim*; short words right after the connector.
-opis: The graduation sentences!
+info: Die letzten Sätze des Kurses, aus Kacheln gebaut. Jeder verbindet mindestens zwei Gedanken: *koji* nach seinem Substantiv, *da* nach einem Verb des Denkens, *jer, ako, iako* vor ihrer eigenen Hälfte und kurze Wörter direkt nach dem Bindewort.
+infokratko: *koji* nach seinem Substantiv; *da* nach *mislim*; kurze Wörter direkt nach dem Bindewort.
+opis: Die Abschlusssätze!
 - Naučila sam jezik koji zvuči kao glazba — i to nije kraj, nego početak!
 - Mislim da je ovo bio dobar početak, a ne kraj.
 - Znam da je Zagreb velik, ali volim Split.
@@ -213,28 +213,20 @@ opis: The graduation sentences!
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English, and the last step of the grammar. Join the halves with the right connector, put the short words right after it, use *da* after verbs of saying and thinking, and give *koji* the case its own sentence needs. Where the speaker's gender shows, both forms are accepted.
-infokratko: Connector + sentence; *da* after *mislim, znam*; *koji* in its case. Both genders accepted.
-opis: The last step — the English sentence, and you write the Croatian.
-- I'm learning Croatian because I love the sea. | Učim hrvatski jer volim more / Učim hrvatski zato što volim more
-- If it's sunny, we're going to the beach. | Ako je sunčano, idemo na plažu / Idemo na plažu ako je sunčano
-- Although the train is slow, it's pleasant. | Iako je vlak spor, ugodan je / Vlak je ugodan, iako je spor / Iako je spor, vlak je ugodan
-- While I'm cooking, you choose the film. | Dok ja kuham, ti biraš film / Dok kuham, ti biraš film
-- When you come, call me. | Kad dođeš, zovi me
-- I know that Zagreb is big. | Znam da je Zagreb velik
-- I think you'll come. | Mislim da ćeš doći
-- I hope everything is fine. | Nadam se da je sve u redu
-- I want you to come. | Želim da dođeš
-- He said he had no time. | Rekao je da nema vremena
-- The book I'm reading is new. | Knjiga koju čitam je nova
-- The town I live in is old. | Grad u kojem živim je star
-- The man I'm waiting for is late. | Čovjek kojeg čekam kasni
-- I've learned a language that sounds like music. | Naučio sam jezik koji zvuči kao glazba / Naučila sam jezik koji zvuči kao glazba
-
-## Das kannst du jetzt
-format: tekst
-info: A closing summary of the grammar of the course. Two sentences become one with *jer, kad, ako, dok, iako* or *da*; the short words follow the connector; and *koji* attaches a sentence to a noun, in whatever case its own sentence needs.
-infokratko: *jer, kad, ako, dok, iako, da*; short words after the connector; *koji* in every case.
-- **Bravo.** You can now say why, when, if, although and *that* — and join a description to any noun with *koji*.
-- And you did it with the same rules you have used all course long: **short words take the second place**, **each noun takes the case its job needs**, and **the connector opens its own sentence**.
-- **Next up:** Practice 20 reads the summer you remember and Emma's essay, and the final test closes the course. Čestitamo!
+info: Freie Produktion aus dem Deutschen und der letzte Schritt der Grammatik. Verbinde die Hälften mit dem richtigen Bindewort, setz die kurzen Wörter direkt danach, benutze *da* nach Verben des Sagens und Denkens und gib *koji* den Fall, den sein eigener Satz braucht. Wo das Geschlecht des Sprechers sichtbar wird, werden beide Formen akzeptiert.
+infokratko: Bindewort + Satz; *da* nach *mislim, znam*; *koji* in seinem Fall. Beide Geschlechter akzeptiert.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen.
+- Ich lerne Kroatisch, weil ich das Meer liebe. | Učim hrvatski jer volim more / Učim hrvatski zato što volim more
+- Wenn es sonnig ist, gehen wir an den Strand. | Ako je sunčano, idemo na plažu / Idemo na plažu ako je sunčano
+- Obwohl der Zug langsam ist, ist er angenehm. | Iako je vlak spor, ugodan je / Vlak je ugodan, iako je spor / Iako je spor, vlak je ugodan
+- Während ich koche, suchst du den Film aus. | Dok ja kuham, ti biraš film / Dok kuham, ti biraš film
+- Wenn du kommst, ruf mich an. | Kad dođeš, zovi me
+- Ich weiß, dass Zagreb groß ist. | Znam da je Zagreb velik
+- Ich glaube, dass du kommst. | Mislim da ćeš doći
+- Ich hoffe, dass alles in Ordnung ist. | Nadam se da je sve u redu
+- Ich will, dass du kommst. | Želim da dođeš
+- Er hat gesagt, dass er keine Zeit hat. | Rekao je da nema vremena
+- Das Buch, das ich lese, ist neu. | Knjiga koju čitam je nova
+- Die Stadt, in der ich wohne, ist alt. | Grad u kojem živim je star
+- Der Mann, auf den ich warte, hat Verspätung. | Čovjek kojeg čekam kasni
+- Ich habe eine Sprache gelernt, die wie Musik klingt. | Nau

@@ -1,27 +1,27 @@
-# Reading: Plans & Journeys
+# Lesen: Pläne & Reisen
 cjelina: Practice 8
 
-## Text 1: Summer plan
+## Text 1: Sommerplan
 format: tekst
-info: A first reading with the translation beside it. Watch the helper move: *Mi ćemo putovati* keeps the verb whole, *Plivat ćemo* trims it, and *Neću učiti* refuses — three shapes of one tense in a short text.
-infokratko: Three shapes of the future: *Mi ćemo putovati*, *Plivat ćemo*, *Neću učiti*.
-- Summer plans — the kind of message you'll get from a Croatian friend in June.
-- Passive words: *dolazi* (is coming), *kroz* (through), *bit će* (it will be), *svaki dan* (every day).
-- Ljeto dolazi! | Summer is coming!
-- Mi ćemo putovati na more. | We will travel to the seaside.
-- Ići ćemo u Split. | We will go to Split.
-- Tata će voziti, a mama će spavati. | Dad will drive, while mom will sleep.
-- Brat i ja ćemo gledati more kroz prozor. | My brother and I will watch the sea through the window.
-- Plivat ćemo svaki dan. | We will swim every day.
-- Jest ćemo sladoled i ribu. | We will eat ice cream and fish.
-- Navečer ćemo šetati. | In the evening we will take walks.
-- Neću učiti — odmor je! | I won't study — it's a holiday!
-- Bit će savršeno! | It will be perfect!
+info: Ein erster Lesetext mit der Übersetzung daneben. Sieh zu, wie sich das Hilfswort bewegt: *Mi ćemo putovati* lässt das Verb ganz, *Plivat ćemo* kürzt es, und *Neću učiti* sagt ab – drei Gestalten einer Zeitform in einem kurzen Text.
+infokratko: Drei Gestalten des Futurs: *Mi ćemo putovati*, *Plivat ćemo*, *Neću učiti*.
+- Sommerpläne – die Art Nachricht, die du im Juni von einem kroatischen Freund bekommst.
+- Passive Wörter: *dolazi* (kommt), *kroz* (durch), *bit će* (es wird sein), *svaki dan* (jeden Tag).
+- Ljeto dolazi! | Der Sommer kommt!
+- Mi ćemo putovati na more. | Wir werden ans Meer reisen.
+- Ići ćemo u Split. | Wir werden nach Split fahren.
+- Tata će voziti, a mama će spavati. | Papa wird fahren, während Mama schlafen wird.
+- Brat i ja ćemo gledati more kroz prozor. | Mein Bruder und ich werden durchs Fenster aufs Meer schauen.
+- Plivat ćemo svaki dan. | Wir werden jeden Tag schwimmen.
+- Jest ćemo sladoled i ribu. | Wir werden Eis und Fisch essen.
+- Navečer ćemo šetati. | Abends werden wir spazieren gehen.
+- Neću učiti — odmor je! | Ich werde nicht lernen – es ist Urlaub!
+- Bit će savršeno! | Es wird perfekt!
 
 ## Hast du's verstanden?
 format: izbor
-info: Answer from Text 1. The helper tells you who does what before you translate anything: *tata **će** voziti* is one person, while *plivat **ćemo*** is the whole family.
-infokratko: The helper shows who: *tata će voziti* (one), *plivat ćemo* (all of us).
+info: Antworte aus Text 1. Das Hilfswort sagt dir, wer was tut, bevor du irgendetwas übersetzt: *tata **će** voziti* ist eine Person, während *plivat **ćemo*** die ganze Familie ist.
+infokratko: Das Hilfswort zeigt, wer: *tata će voziti* (einer), *plivat ćemo* (wir alle).
 tekst: Ljeto dolazi! Mi ćemo putovati na more. Ići ćemo u Split. Tata će voziti, a mama će spavati. Brat i ja ćemo gledati more kroz prozor. Plivat ćemo svaki dan. Jest ćemo sladoled i ribu. Navečer ćemo šetati. Neću učiti — odmor je! Bit će savršeno!
 opis: Antworte aus dem Text.
 - Kamo će putovati? | u Split | u Zagreb | na otok
@@ -31,44 +31,44 @@ opis: Antworte aus dem Text.
 - Što neće raditi? | učiti | plivati | šetati
 - Što će raditi navečer? | šetati | voziti | spavati
 
-## Text 2: The packing list
+## Text 2: Die Packliste
 format: tekst
-info: A list rather than a story, so the future shows up mostly as a refusal: *Neću nositi kaput*. Note *Džemper ću ipak uzeti* — the object opens the sentence, which gives the leaning helper something to sit behind.
-infokratko: Mostly refusals: *Neću nositi kaput*. *Džemper ću ipak uzeti*: the object goes first.
-- No story — just a list stuck to the suitcase. Read it the way you'd read your own. Passive words: *ipak* (anyway, after all), *hladno* (cold), *za* (for).
-- ZA MORE — što ću nositi | FOR THE SEASIDE — what I am taking
-- majice, hlače, jedna košulja | T-shirts, trousers, one shirt
-- ručnik i jastuk za vlak | a towel and a pillow for the train
-- knjiga za plažu | a book for the beach
-- karta i rezervacija za hotel | the ticket and the hotel reservation
-- Neću nositi kaput — ljeto je! | I won't wear a coat — it's summer!
-- Džemper ću ipak uzeti. | I'll take a sweater anyway.
-- Navečer je hladno! | In the evening it's cold!
+info: Eine Liste statt einer Geschichte, also taucht das Futur meist als Absage auf: *Neću nositi kaput*. Beachte *Džemper ću ipak uzeti* – das Objekt eröffnet den Satz, und so hat das angelehnte Hilfswort etwas, hinter dem es sitzen kann.
+infokratko: Meist Absagen: *Neću nositi kaput*. *Džemper ću ipak uzeti*: Das Objekt steht zuerst.
+- Keine Geschichte – nur eine Liste, die am Koffer klebt. Lies sie, wie du deine eigene lesen würdest. Passive Wörter: *ipak* (trotzdem, doch), *hladno* (kalt), *za* (für).
+- ZA MORE — što ću nositi | FÜRS MEER – was ich mitnehme
+- majice, hlače, jedna košulja | T-Shirts, Hosen, ein Hemd
+- ručnik i jastuk za vlak | ein Handtuch und ein Kissen für den Zug
+- knjiga za plažu | ein Buch für den Strand
+- karta i rezervacija za hotel | die Fahrkarte und die Hotelreservierung
+- Neću nositi kaput — ljeto je! | Ich nehme keinen Mantel mit – es ist Sommer!
+- Džemper ću ipak uzeti. | Einen Pullover nehme ich trotzdem mit.
+- Navečer je hladno! | Abends ist es kalt!
 
-## Remember the list
+## Merk dir die Liste
 format: pamti
-info: Short-term memory on the clothing words, in order. If one slips, rebuild it from its ending: *majica*, *košulja* and *torba* end in *-a* and are feminine, while *kaput*, *džemper* and *šešir* are masculine.
-infokratko: Clothes in order. *majica, košulja, torba* f; *kaput, džemper, šešir* m.
-opis: Three things flash, then vanish — pick them again in the same order. Exactly what happens when you leave the list at home and pack from memory.
-- majica | T-shirt
-- košulja | shirt
-- hlače | trousers
-- kaput | coat
-- džemper | sweater
+info: Kurzzeitgedächtnis mit den Kleidungswörtern, der Reihe nach. Wenn dir eines entfällt, bau es aus seiner Endung wieder auf: *majica*, *košulja* und *torba* enden auf *-a* und sind feminin, während *kaput*, *džemper* und *šešir* maskulin sind.
+infokratko: Kleidung der Reihe nach. *majica, košulja, torba* f; *kaput, džemper, šešir* m.
+opis: Drei Dinge blitzen auf und verschwinden – wähle sie in derselben Reihenfolge wieder aus. Genau das passiert, wenn du die Liste zu Hause liegen lässt und aus dem Gedächtnis packst.
+- majica | T-Shirt
+- košulja | Hemd
+- hlače | Hose
+- kaput | Mantel
+- džemper | Pullover
 - šešir | Hut
-- ručnik | towel
-- jastuk | pillow
-- kofer | suitcase
-- karta | ticket
+- ručnik | Handtuch
+- jastuk | Kissen
+- kofer | Koffer
+- karta | Fahrkarte
 - knjiga | Buch
-- torba | bag
+- torba | Tüte
 
-## What's in the suitcase?
+## Was ist im Koffer?
 format: izbor
-info: Some answers sit on the list, others need the *jer* clause. The reasoning runs through the negatives: no coat *jer je ljeto*, but a sweater anyway *jer je navečer hladno*.
-infokratko: Some answers need the *jer* part: no coat *jer je ljeto*.
+info: Manche Antworten stehen auf der Liste, andere brauchen den *jer*-Satz. Die Begründung läuft über die Verneinungen: kein Mantel, *jer je ljeto*, aber trotzdem ein Pullover, *jer je navečer hladno*.
+infokratko: Manche Antworten brauchen den *jer*-Teil: kein Mantel, *jer je ljeto*.
 tekst: ZA MORE — što ću nositi: majice, hlače, jedna košulja, ručnik i jastuk za vlak, knjiga za plažu, karta i rezervacija za hotel. Neću nositi kaput — ljeto je! Džemper ću ipak uzeti. Navečer je hladno!
-opis: Some answers are on the list, some you have to work out.
+opis: Manche Antworten stehen auf der Liste, manche musst du herleiten.
 - Što neće nositi? | kaput | džemper | ručnik
 - Zašto neće nositi kaput? | jer je ljeto | jer je težak | jer ga nema
 - Zašto će ipak uzeti džemper? | jer je navečer hladno | jer je lijep | jer je zima
@@ -76,52 +76,52 @@ opis: Some answers are on the list, some you have to work out.
 - Za što je knjiga? | za plažu | za vlak | za hotel
 - Kamo putuje? | na more | u planinu | u grad
 
-## Text 3: The ticket
+## Text 3: Die Fahrkarte
 format: tekst
-info: A real ticket instead of prose. The two words to hold on to are *polazak* (departure) and *dolazak* (arrival); *subota* here names the travel day, and in a sentence it would become *u subotu*.
-infokratko: *polazak* = departure, *dolazak* = arrival. In a sentence: *u subotu*.
-- A train ticket and what it tells you. Passive words: *polazak* (departure), *dolazak* (arrival), *peron* (platform), *vrijedi* (is valid), *jedan smjer* (one way).
-- HŽ — KARTA ZA VLAK | CROATIAN RAILWAYS — TRAIN TICKET
+info: Eine echte Fahrkarte statt Prosa. Die zwei Wörter, an denen du festhalten solltest, sind *polazak* (Abfahrt) und *dolazak* (Ankunft); *subota* nennt hier den Reisetag, und in einem Satz würde daraus *u subotu*.
+infokratko: *polazak* = Abfahrt, *dolazak* = Ankunft. Im Satz: *u subotu*.
+- Eine Zugfahrkarte und was sie dir sagt. Passive Wörter: *polazak* (Abfahrt), *dolazak* (Ankunft), *peron* (Bahnsteig), *vrijedi* (gilt), *jedan smjer* (einfache Fahrt).
+- HŽ — KARTA ZA VLAK | KROATISCHE BAHN – ZUGFAHRKARTE
 - Zagreb → Split | Zagreb → Split
-- Polazak: subota, 06:20, peron 3 | Departure: Saturday, 06:20, platform 3
-- Dolazak: subota, 12:45 | Arrival: Saturday, 12:45
-- Vrijedi: jedan smjer | Valid: one way
-- Cijena: 24 € | Price: 24 €
-- Rezervacija: da | Reservation: yes
-- Sretan put! | Have a good trip!
+- Polazak: subota, 06:20, peron 3 | Abfahrt: Samstag, 06:20, Bahnsteig 3
+- Dolazak: subota, 12:45 | Ankunft: Samstag, 12:45
+- Vrijedi: jedan smjer | Gültig: einfache Fahrt
+- Cijena: 24 € | Preis: 24 €
+- Rezervacija: da | Reservierung: ja
+- Sretan put! | Gute Reise!
 
-## Reading a ticket
+## Eine Fahrkarte lesen
 format: izbor
-info: The answers are on the ticket, though some need arithmetic. Two questions are in the future: *Hoće li ustati rano?* uses the stressed form to ask, and the 06:20 departure answers it.
-infokratko: Some need arithmetic. *Hoće li ustati rano?* asks.
+info: Die Antworten stehen auf der Fahrkarte, manche brauchen aber Rechnen. Zwei Fragen stehen im Futur: *Hoće li ustati rano?* fragt mit der betonten Form, und die Abfahrt um 06:20 beantwortet sie.
+infokratko: Manche brauchen Rechnen. *Hoće li ustati rano?* fragt.
 tekst: HŽ — KARTA ZA VLAK. Zagreb → Split. Polazak: subota, 06:20, peron 3. Dolazak: subota, 12:45. Vrijedi: jedan smjer. Cijena: 24 €. Rezervacija: da.
-opis: Everything you need is on the ticket — but some of it you have to put together yourself.
+opis: Alles, was du brauchst, steht auf der Fahrkarte – aber manches musst du selbst zusammensetzen.
 - Kada kreće vlak? | u subotu ujutro | u subotu navečer | u nedjelju
 - Koliko dugo će putovati? | više od šest sati | jedan sat | cijeli dan
 - Vrijedi li karta za povratak? | ne, karta je za jedan smjer | da | ne piše
 - Ima li rezervaciju? | da | ne | ne piše
 - Hoće li ustati rano? | da, vlak kreće u 06:20 | ne | ne piše
 
-## Text 4: Four friends, four plans
+## Text 4: Vier Freunde, vier Pläne
 format: tekst
-info: A logic puzzle rather than a narrative. Read the negatives closely — *Ana neće ići na more*, *Iva ne voli avione* — because what each person rules out is what tells you where the others end up.
-infokratko: Read the negatives closely: *Ana neće ići na more*.
-- A puzzle, not a story. Four people, four different summers — but nobody says outright who goes where. Passive words: *nitko* (nobody), *daleko* (far), *osim* (except), *ostati* (to stay).
-- Ana, Marko, Iva i Luka planiraju ljeto. | Ana, Marko, Iva and Luka are planning the summer.
-- Ana neće ići na more jer ne voli plažu. | Ana won't go to the seaside because she doesn't like the beach.
-- Marko će letjeti jer je destinacija daleko. | Marko will fly because the destination is far.
-- Iva ne voli avione, ali voli more. | Iva doesn't like planes, but she loves the sea.
-- Luka će ostati doma i trenirati cijelo ljeto. | Luka will stay at home and train all summer.
-- Jedna će putovati na otok. | One of them will travel to an island.
-- Jedna će ići u planinu. | One of them will go to the mountains.
-- Nitko neće ostati doma osim Luke! | Nobody will stay at home except Luka!
+info: Ein Logikrätsel statt einer Erzählung. Lies die Verneinungen genau – *Ana neće ići na more*, *Iva ne voli avione* –, denn was jede Person ausschließt, verrät dir, wo die anderen landen.
+infokratko: Lies die Verneinungen genau: *Ana neće ići na more*.
+- Ein Rätsel, keine Geschichte. Vier Menschen, vier verschiedene Sommer – aber niemand sagt ausdrücklich, wer wohin fährt. Passive Wörter: *nitko* (niemand), *daleko* (weit), *osim* (außer), *ostati* (bleiben).
+- Ana, Marko, Iva i Luka planiraju ljeto. | Ana, Marko, Iva und Luka planen den Sommer.
+- Ana neće ići na more jer ne voli plažu. | Ana wird nicht ans Meer fahren, weil sie den Strand nicht mag.
+- Marko će letjeti jer je destinacija daleko. | Marko wird fliegen, weil das Reiseziel weit weg ist.
+- Iva ne voli avione, ali voli more. | Iva mag keine Flugzeuge, aber sie liebt das Meer.
+- Luka će ostati doma i trenirati cijelo ljeto. | Luka wird zu Hause bleiben und den ganzen Sommer trainieren.
+- Jedna će putovati na otok. | Eine von ihnen wird auf eine Insel reisen.
+- Jedna će ići u planinu. | Eine von ihnen wird in die Berge fahren.
+- Nitko neće ostati doma osim Luke! | Niemand wird zu Hause bleiben außer Luka!
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Work out who goes where by elimination. The load-bearing lines are negative futures with *neće* plus plain present-tense likes and dislikes; combine the two and only one arrangement survives.
-infokratko: By elimination: *neće* + likes and dislikes.
+info: Finde durch Ausschluss heraus, wer wohin fährt. Die tragenden Zeilen sind verneinte Futursätze mit *neće* plus einfache Vorlieben und Abneigungen im Präsens; kombiniere beides, und nur eine Verteilung bleibt übrig.
+infokratko: Durch Ausschluss: *neće* + Vorlieben und Abneigungen.
 tekst: Ana, Marko, Iva i Luka planiraju ljeto. Ana neće ići na more jer ne voli plažu. Marko će letjeti jer je destinacija daleko. Iva ne voli avione, ali voli more. Luka će ostati doma i trenirati cijelo ljeto. Jedna će putovati na otok. Jedna će ići u planinu. Nitko neće ostati doma osim Luke!
-opis: Work it out from what each person likes and fears.
+opis: Finde es heraus aus dem, was jede Person mag und fürchtet.
 - Tko će ići u planinu? | Ana | Iva | Marko
 - Tko će putovati na otok? | Iva | Ana | Luka
 - Tko će letjeti? | Marko | Iva | Luka
@@ -129,49 +129,49 @@ opis: Work it out from what each person likes and fears.
 - Zašto Iva neće letjeti? | jer ne voli avione | jer nema kartu | jer voli vlak
 - Zašto Ana neće na more? | jer ne voli plažu | jer nema odmor | jer je daleko
 
-## Text 5: The journey
+## Text 5: Die Reise
 format: tekst
-info: A whole day in the future, with the two orders alternating: *Sutra ću putovati* after a time word, *Ustat ću rano* with the verb first. Note that *sat* here means *hour*, not *clock*.
-infokratko: Both orders: *Sutra ću putovati*, *Ustat ću rano*. *sat* = hour.
-- Passive words: *kreće* (departs), *tamo* (there), *sat* here means *hour*.
-- Sutra ću putovati u Zagreb. | Tomorrow I will travel to Zagreb.
-- Ustat ću rano jer vlak kreće rano. | I will get up early because the train departs early.
-- Putovat ću tri sata. | I will travel for three hours.
-- Čitat ću knjigu i slušat ću glazbu. | I will read a book and listen to music.
-- Tamo ću vidjeti prijatelja Ivana. | There I will see my friend Ivan.
-- Ručat ćemo zajedno, a poslije ćemo gledati utakmicu. | We will have lunch together, and afterwards we will watch the match.
-- Nećemo ići u kino jer ćemo biti umorni. | We won't go to the cinema because we will be tired.
-- Navečer ću biti umoran, ali sretan. | In the evening I will be tired, but happy.
+info: Ein ganzer Tag im Futur, wobei sich die zwei Stellungen abwechseln: *Sutra ću putovati* nach einem Zeitwort, *Ustat ću rano* mit dem Verb zuerst. Beachte, dass *sat* hier *Stunde* heißt, nicht *Uhr*.
+infokratko: Beide Stellungen: *Sutra ću putovati*, *Ustat ću rano*. *sat* = Stunde.
+- Passive Wörter: *kreće* (fährt ab), *tamo* (dort), *sat* heißt hier *Stunde*.
+- Sutra ću putovati u Zagreb. | Morgen werde ich nach Zagreb reisen.
+- Ustat ću rano jer vlak kreće rano. | Ich werde früh aufstehen, weil der Zug früh abfährt.
+- Putovat ću tri sata. | Ich werde drei Stunden unterwegs sein.
+- Čitat ću knjigu i slušat ću glazbu. | Ich werde ein Buch lesen und Musik hören.
+- Tamo ću vidjeti prijatelja Ivana. | Dort werde ich meinen Freund Ivan sehen.
+- Ručat ćemo zajedno, a poslije ćemo gledati utakmicu. | Wir werden zusammen zu Mittag essen, und danach werden wir das Spiel anschauen.
+- Nećemo ići u kino jer ćemo biti umorni. | Wir werden nicht ins Kino gehen, weil wir müde sein werden.
+- Navečer ću biti umoran, ali sretan. | Abends werde ich müde sein, aber glücklich.
 
-## Long or short, from the texts
+## Lang oder kurz, aus den Texten
 format: nastavak
-info: The same one-tap rule, now on sentences you have just read. Directly in front of the helper the verb loses its *-i* (*Bit će savršeno*); anywhere after it, the verb keeps it (*Navečer ću **biti** umoran*).
-infokratko: Right before the helper: no *-i* (*Bit će*); after it: whole (*ću biti*).
+info: Dieselbe Ein-Tipp-Regel, jetzt mit Sätzen, die du gerade gelesen hast. Direkt vor dem Hilfswort verliert das Verb sein *-i* (*Bit će savršeno*); irgendwo danach behält es es (*Navečer ću **biti** umoran*).
+infokratko: Direkt vor dem Hilfswort: kein *-i* (*Bit će*); danach: ganz (*ću biti*).
 nastavci: t | ti
-opis: Almost every sentence came out of the five texts. In front of *ću* the verb drops its **-i**; after *ću* it keeps it.
-- Pliva___ ćemo svaki dan. | We will swim every day. | t
-- Mi ćemo putova___ na more. | We will travel to the seaside. | ti
-- Šeta___ ćemo navečer. | We will walk in the evening. | t
-- Navečer ćemo šeta___ . | In the evening we will walk. | ti
-- Usta___ ću rano. | I will get up early. | t
-- Sutra ću usta___ rano. | Tomorrow I will get up early. | ti
-- Čita___ ću knjigu. | I will read a book. | t
-- Ja ću čita___ knjigu. | I will read a book. | ti
-- Ruča___ ćemo zajedno. | We will have lunch together. | t
-- Poslije ćemo ruča___ zajedno. | Afterwards we will have lunch together. | ti
-- Putova___ ću tri sata. | I will travel for three hours. | t
-- Sutra ću putova___ u Zagreb. | Tomorrow I will travel to Zagreb. | ti
-- Bi___ će savršeno. | It will be perfect. | t
-- Navečer ću bi___ umoran. | In the evening I will be tired. | ti
-- Vidje___ ću prijatelja. | I will see my friend. | t
-- Tamo ću vidje___ prijatelja. | There I will see my friend. | ti
+opis: Fast jeder Satz stammt aus den fünf Texten. Vor *ću* verliert das Verb sein **-i**; nach *ću* behält es es.
+- Pliva___ ćemo svaki dan. | Wir werden jeden Tag schwimmen. | t
+- Mi ćemo putova___ na more. | Wir werden ans Meer reisen. | ti
+- Šeta___ ćemo navečer. | Wir werden abends spazieren gehen. | t
+- Navečer ćemo šeta___ . | Abends werden wir spazieren gehen. | ti
+- Usta___ ću rano. | Ich werde früh aufstehen. | t
+- Sutra ću usta___ rano. | Morgen werde ich früh aufstehen. | ti
+- Čita___ ću knjigu. | Ich werde ein Buch lesen. | t
+- Ja ću čita___ knjigu. | Ich werde ein Buch lesen. | ti
+- Ruča___ ćemo zajedno. | Wir werden zusammen zu Mittag essen. | t
+- Poslije ćemo ruča___ zajedno. | Danach werden wir zusammen zu Mittag essen. | ti
+- Putova___ ću tri sata. | Ich werde drei Stunden unterwegs sein. | t
+- Sutra ću putova___ u Zagreb. | Morgen werde ich nach Zagreb reisen. | ti
+- Bi___ će savršeno. | Es wird perfekt sein. | t
+- Navečer ću bi___ umoran. | Abends werde ich müde sein. | ti
+- Vidje___ ću prijatelja. | Ich werde meinen Freund sehen. | t
+- Tamo ću vidje___ prijatelja. | Dort werde ich meinen Freund sehen. | ti
 
-## Type the future form
+## Tippe die Futurform
 format: upis
-info: Type the verb in the shape the slot demands. If the blank stands before the helper, trim the *-i* (*Ustat ću*); if it stands after, leave the verb whole (*Sutra ću putovati*) — and *ići* stays *ići* either way.
-infokratko: Before the helper trim (*Ustat ću*); after, whole (*Sutra ću putovati*). *ići* stays.
+info: Tippe das Verb in der Gestalt, die die Lücke verlangt. Steht die Lücke vor dem Hilfswort, kürze das *-i* (*Ustat ću*); steht sie danach, lass das Verb ganz (*Sutra ću putovati*) – und *ići* bleibt in beiden Fällen *ići*.
+infokratko: Vor dem Hilfswort kürzen (*Ustat ću*); danach ganz (*Sutra ću putovati*). *ići* bleibt.
 tekst: Sutra ću putovati u Zagreb. Ustat ću rano jer vlak kreće rano. Tamo ću vidjeti prijatelja Ivana. Ručat ćemo zajedno. Nećemo ići u kino jer ćemo biti umorni.
-opis: Fill in the future form from the text.
+opis: Ergänze die Futurform aus dem Text.
 - Sutra ću ___ u Zagreb. (putovati) | putovati
 - ___ ću rano. (ustati) | Ustat
 - Tamo ću ___ prijatelja. (vidjeti) | vidjeti
@@ -181,11 +181,11 @@ opis: Fill in the future form from the text.
 - Navečer ću ___ umoran. (biti) | biti
 - ___ ću knjigu. (čitati) | Čitat
 
-## Say you won't
+## Sag, dass du es nicht tust
 format: upis
-info: Every plan falls through. Swap the helper for the single word *neću / nećeš / neće* and give the verb its *-i* back: *Ustat ćemo rano* becomes *Nećemo **ustati** rano*.
-infokratko: *neću / nećeš / neće* + full verb: *Nećemo ustati rano.*
-opis: Every plan below falls through. Turn it into a refusal — one word, then the full infinitive.
+info: Jeder Plan platzt. Tausche das Hilfswort gegen das einzelne Wort *neću / nećeš / neće* und gib dem Verb sein *-i* zurück: Aus *Ustat ćemo rano* wird *Nećemo **ustati** rano*.
+infokratko: *neću / nećeš / neće* + volles Verb: *Nećemo ustati rano.*
+opis: Jeder Plan unten platzt. Mach eine Absage daraus – ein Wort, dann der volle Infinitiv.
 - Plivat ću sutra. → | Neću plivati sutra
 - Putovat ćemo u subotu. → | Nećemo putovati u subotu
 - Trenirat ćeš navečer. → | Nećeš trenirati navečer
@@ -193,12 +193,12 @@ opis: Every plan below falls through. Turn it into a refusal — one word, then 
 - Ići ću u kino. → | Neću ići u kino
 - Ustat ćemo rano. → | Nećemo ustati rano
 
-## Now or later?
+## Jetzt oder später?
 format: razvrstavanje
-info: Sort by tense. A helper anywhere in the sentence — *ću, će, ćemo*, or the negative *neću* — means later; a verb carrying its own personal ending (*dolazi*, *kreće*, *trenira*) means now.
-infokratko: A helper (*ću, će, neću*) = later; personal ending (*dolazi*) = now.
+info: Sortiere nach Zeitform. Ein Hilfswort irgendwo im Satz – *ću, će, ćemo* oder das verneinte *neću* – heißt später; ein Verb mit eigener Personalendung (*dolazi*, *kreće*, *trenira*) heißt jetzt.
+infokratko: Ein Hilfswort (*ću, će, neću*) = später; Personalendung (*dolazi*) = jetzt.
 stupci: SADA | POSLIJE
-opis: Now or later? Sort the sentences.
+opis: Jetzt oder später? Sortiere die Sätze.
 - Ljeto dolazi. | SADA
 - Plivat ćemo svaki dan. | POSLIJE
 - Vlak kreće rano. | SADA
@@ -212,11 +212,11 @@ opis: Now or later? Sort the sentences.
 - Luka trenira svaki dan. | SADA
 - Bit će savršeno. | POSLIJE
 
-## Weekend plans
+## Wochenendpläne
 format: dijalog
-info: A planning conversation, so nearly every reply is a future. *Hoćeš li…?* asks with the stressed form, and you may answer with a full sentence or with a bare *Hoću* or *Neću* — but never with *ću* on its own.
-infokratko: *Hoćeš li...?* Answer with a sentence, *Hoću* or *Neću*, never *ću* alone.
-opis: Your friend is planning the weekend and wants you in it. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *dogovoreno* (agreed), *možda* (maybe).
+info: Ein Planungsgespräch, also ist fast jede Antwort ein Futur. *Hoćeš li …?* fragt mit der betonten Form, und du darfst mit einem ganzen Satz oder mit einem bloßen *Hoću* oder *Neću* antworten – aber nie mit *ću* allein.
+infokratko: *Hoćeš li …?* Antworte mit einem Satz, *Hoću* oder *Neću*, nie mit *ću* allein.
+opis: Dein Freund plant das Wochenende und will dich dabeihaben. Wähle deine Antworten. Passive Wörter: *Hoćeš li …?* (Wirst du …?), *naravno* (natürlich), *dogovoreno* (abgemacht), *možda* (vielleicht).
 - npc | Bok! Što ćeš raditi u subotu?
 - ti | Ujutro ću trenirati, a poslije ću učiti. | Još ne znam. Možda ću spavati cijeli dan.
 - npc | Hoćeš li gledati utakmicu navečer?
@@ -230,11 +230,11 @@ opis: Your friend is planning the weekend and wants you in it. Choose your repli
 - npc | Bit će savršeno. Vidimo se u nedjelju!
 - ti | Vidimo se u nedjelju! | Vidimo se!
 
-## The journey, in order
+## Die Reise, der Reihe nach
 format: poredak
-info: Put seven future sentences into the order the trip would really happen in. The time words carry the sequence: *navečer* the night before, then *rano*, then *poslije*, then *navečer* again at the end.
-infokratko: Follow the time words: *navečer*, *rano*, *poslije*, *navečer*.
-opis: Seven moments from a trip to the sea, shuffled. Nobody wrote this down — put it in the order it would actually happen.
+info: Bring sieben Futursätze in die Reihenfolge, in der die Reise wirklich ablaufen würde. Die Zeitwörter tragen die Abfolge: *navečer* am Vorabend, dann *rano*, dann *poslije*, dann am Ende wieder *navečer*.
+infokratko: Folge den Zeitwörtern: *navečer*, *rano*, *poslije*, *navečer*.
+opis: Sieben Momente einer Reise ans Meer, durcheinandergewürfelt. Niemand hat das aufgeschrieben – bring es in die Reihenfolge, in der es wirklich passieren würde.
 - Planirat ću put navečer.
 - Ustat ću rano jer vlak kreće rano.
 - Nosit ću kofer na kolodvor.
@@ -245,50 +245,50 @@ opis: Seven moments from a trip to the sea, shuffled. Nobody wrote this down —
 
 ## Übersetze durch Bauen
 format: slaganje
-info: Translate by assembling tiles, so word order is the whole test. Decide first what opens the sentence: put the verb first and it is trimmed (*Plivat ćemo*), put anything else first and it stays whole (*Mi ćemo putovati*).
-infokratko: Verb first → trimmed (*Plivat ćemo*); anything else first → whole (*Mi ćemo putovati*).
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
-- Ljeto dolazi! | en: Summer is coming!
-- Mi ćemo putovati na more. | en: We will travel to the seaside.
-- Ići ćemo u Split. | en: We will go to Split.
-- Tata će voziti, a mama će spavati. | en: Dad will drive, while mom will sleep.
-- Plivat ćemo svaki dan. | en: We will swim every day.
-- Navečer ćemo šetati. | en: In the evening we will take walks.
-- Bit će savršeno! | en: It will be perfect!
-- Neću učiti. | en: I won't study.
-- Neću nositi kaput. | en: I won't take a coat.
-- Sutra ću putovati u Zagreb. | en: Tomorrow I will travel to Zagreb.
-- Ustat ću rano. | en: I will get up early.
-- Putovat ću tri sata. | en: I will travel for three hours.
-- Čitat ću knjigu i slušat ću glazbu. | en: I will read a book and listen to music.
-- Tamo ću vidjeti prijatelja. | en: There I will see my friend.
-- Ručat ćemo zajedno. | en: We will have lunch together.
-- Nećemo ići u kino. | en: We won't go to the cinema.
-- Navečer ću biti umoran. | en: In the evening I will be tired.
-- Marko će letjeti. | en: Marko will fly.
-- Luka će ostati doma. | en: Luka will stay at home.
-- Ana neće ići na more. | en: Ana won't go to the seaside.
-- Iva voli more. | en: Iva loves the sea.
-- Ja ću nositi ručnike. | en: I will carry the towels.
-- Nosit ću kofer na kolodvor. | en: I will carry the suitcase to the station.
-- Vidjet ću more kroz prozor. | en: I will see the sea through the window.
-- Ujutro ću trenirati. | en: In the morning I will train.
-- Gledat ćemo utakmicu. | en: We will watch the match.
+info: Übersetze durch Zusammensetzen von Kärtchen, also ist die Wortstellung der ganze Test. Entscheide zuerst, was den Satz eröffnet: Steht das Verb zuerst, wird es gekürzt (*Plivat ćemo*); steht etwas anderes zuerst, bleibt es ganz (*Mi ćemo putovati*).
+infokratko: Verb zuerst → gekürzt (*Plivat ćemo*); etwas anderes zuerst → ganz (*Mi ćemo putovati*).
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den fünf Texten.
+- Ljeto dolazi! | en: Der Sommer kommt!
+- Mi ćemo putovati na more. | en: Wir werden ans Meer reisen.
+- Ići ćemo u Split. | en: Wir werden nach Split fahren.
+- Tata će voziti, a mama će spavati. | en: Papa wird fahren, während Mama schlafen wird.
+- Plivat ćemo svaki dan. | en: Wir werden jeden Tag schwimmen.
+- Navečer ćemo šetati. | en: Abends werden wir spazieren gehen.
+- Bit će savršeno! | en: Es wird perfekt!
+- Neću učiti. | en: Ich werde nicht lernen.
+- Neću nositi kaput. | en: Ich werde keinen Mantel mitnehmen.
+- Sutra ću putovati u Zagreb. | en: Morgen werde ich nach Zagreb reisen.
+- Ustat ću rano. | en: Ich werde früh aufstehen.
+- Putovat ću tri sata. | en: Ich werde drei Stunden unterwegs sein.
+- Čitat ću knjigu i slušat ću glazbu. | en: Ich werde ein Buch lesen und Musik hören.
+- Tamo ću vidjeti prijatelja. | en: Dort werde ich meinen Freund sehen.
+- Ručat ćemo zajedno. | en: Wir werden zusammen zu Mittag essen.
+- Nećemo ići u kino. | en: Wir werden nicht ins Kino gehen.
+- Navečer ću biti umoran. | en: Abends werde ich müde sein.
+- Marko će letjeti. | en: Marko wird fliegen.
+- Luka će ostati doma. | en: Luka wird zu Hause bleiben.
+- Ana neće ići na more. | en: Ana wird nicht ans Meer fahren.
+- Iva voli more. | en: Iva liebt das Meer.
+- Ja ću nositi ručnike. | en: Ich werde die Handtücher tragen.
+- Nosit ću kofer na kolodvor. | en: Ich werde den Koffer zum Bahnhof tragen.
+- Vidjet ću more kroz prozor. | en: Ich werde das Meer durchs Fenster sehen.
+- Ujutro ću trenirati. | en: Morgens werde ich trainieren.
+- Gledat ćemo utakmicu. | en: Wir werden das Spiel anschauen.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: Timed picture-to-word recognition on the travel nouns. Sort the look-alikes before you start: *more* sea, *plaža* beach, *otok* island, *planina* mountain — and *brod* is the boat, *vlak* the train.
-infokratko: *more* sea, *plaža* beach, *otok* island, *planina* mountain; *brod* boat, *vlak* train.
-opis: The train is leaving. A picture appears — tap the balloon with its word before it floats away.
+info: Bild-Wort-Wiedererkennen auf Zeit mit den Reisenomen. Sortiere die Ähnlichen vorher: *more* Meer, *plaža* Strand, *otok* Insel, *planina* Berg – und *brod* ist das Schiff, *vlak* der Zug.
+infokratko: *more* Meer, *plaža* Strand, *otok* Insel, *planina* Berg; *brod* Schiff, *vlak* Zug.
+opis: Der Zug fährt ab. Ein Bild erscheint – tippe auf den Ballon mit seinem Wort, bevor er davonschwebt.
 - more | Meer
-- plaža | beach
-- otok | island
-- planina | mountain
+- plaža | Strand
+- otok | Insel
+- planina | Berg
 - hotel | Hotel
-- vlak | train
-- avion | airplane
-- brod | boat
-- kofer | suitcase
-- majica | T-shirt
+- vlak | Zug
+- avion | Flugzeug
+- brod | Boot
+- kofer | Koffer
+- majica | T-Shirt
 - šešir | Hut
 - sunce | Sonne

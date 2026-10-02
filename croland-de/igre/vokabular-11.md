@@ -1,172 +1,172 @@
-# Presents & Questions
+# Geschenke & Fragen
 cjelina: Vocabulary 11
 
-## Question words
+## Fragewörter
 format: kartice
-info: The full set of question words, and the nouns that go with asking. *Tko, što, gdje, kada, zašto, kako* and *koliko* never change shape, but *koji* and *kakav* stand in front of a noun and copy it, so each is shown in three forms — exactly like *čiji* (whose) from Vocabulary 9. *Koga* is the target form of *tko*, the same **-a** as in Lesson 6.
-infokratko: *tko, što, gdje, kada, zašto, kako, koliko* don't change; *koji, kakav* agree, like *čiji*. *koga* = whom.
-opis: Everything you need to ask, and the words for asking. Tap a card to reveal the meaning.
-- tko? | who?
-- koga? | whom? (as the target)
-- za koga? | for whom?
-- što? | what?
-- gdje? | where?
-- kada? | when?
-- zašto? | why?
-- kako? | how?
-- koliko? | how much, how many?
-- koji / koja / koje? | which?
-- kakav / kakva / kakvo? | what kind of?
-- li | the yes-or-no particle
-- zar ne? | ...right? isn't it?
-- Ne znam. | I don't know.
-- razgovor | conversation
-- kviz | quiz
-- intervju | interview
-- informacija | information
-- misterij | mystery
-- datum | date
+info: Der ganze Satz Fragewörter und die Nomen, die zum Fragen gehören. *Tko, što, gdje, kada, zašto, kako* und *koliko* ändern nie ihre Gestalt, aber *koji* und *kakav* stehen vor einem Nomen und ahmen es nach, deshalb steht jedes in drei Formen – genau wie *čiji* (wessen) aus Wortschatz 9. *Koga* ist die Zielform von *tko*, dasselbe **-a** wie in Lektion 6.
+infokratko: *tko, što, gdje, kada, zašto, kako, koliko* ändern sich nicht; *koji, kakav* stimmen überein, wie *čiji*. *koga* = wen.
+opis: Alles, was du zum Fragen brauchst, und die Wörter fürs Fragen. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- tko? | wer?
+- koga? | wen?
+- za koga? | für wen?
+- što? | was?
+- gdje? | wo?
+- kada? | wann?
+- zašto? | warum?
+- kako? | wie?
+- koliko? | wie viel, wie viele?
+- koji / koja / koje? | welcher?
+- kakav / kakva / kakvo? | was für ein?
+- li | die Ja-Nein-Partikel
+- zar ne? | … nicht wahr? oder?
+- Ne znam. | Ich weiß nicht.
+- razgovor | Gespräch
+- kviz | Quiz
+- intervju | Interview
+- informacija | Information
+- misterij | Geheimnis, Rätsel
+- datum | Datum
 
-## Numbers 1–20
+## Zahlen 1–20
 format: kartice
-info: One to twenty. The teens are built from the units plus **-naest**, so *pet* gives *petnaest* and *devet* gives *devetnaest*. Two of them have a female form: *jedan / jedna* and *dva / dvije*, used when the thing counted is feminine.
-infokratko: Teens: unit + **-naest** (*petnaest*). *jedan / jedna*, *dva / dvije* for feminine.
-opis: The numbers you need for ages, prices and phone numbers.
-- jedan / jedna | one
-- dva / dvije | two
-- tri | three
-- četiri | four
-- pet | five
-- šest | six
-- sedam | seven
-- osam | eight
-- devet | nine
-- deset | ten
-- jedanaest | eleven
-- dvanaest | twelve
-- trinaest | thirteen
-- četrnaest | fourteen
-- petnaest | fifteen
-- šesnaest | sixteen
-- sedamnaest | seventeen
-- osamnaest | eighteen
-- devetnaest | nineteen
-- dvadeset | twenty
+info: Eins bis zwanzig. 11–19 werden aus den Einern plus **-naest** gebaut, also ergibt *pet* *petnaest* und *devet* *devetnaest*. Zwei davon haben eine weibliche Form: *jedan / jedna* und *dva / dvije*, verwendet, wenn das Gezählte feminin ist.
+infokratko: 11–19: Einer + **-naest** (*petnaest*). *jedan / jedna*, *dva / dvije* für feminin.
+opis: Die Zahlen, die du für Alter, Preise und Telefonnummern brauchst.
+- jedan / jedna | eins
+- dva / dvije | zwei
+- tri | drei
+- četiri | vier
+- pet | fünf
+- šest | sechs
+- sedam | sieben
+- osam | acht
+- devet | neun
+- deset | zehn
+- jedanaest | elf
+- dvanaest | zwölf
+- trinaest | dreizehn
+- četrnaest | vierzehn
+- petnaest | fünfzehn
+- šesnaest | sechzehn
+- sedamnaest | siebzehn
+- osamnaest | achtzehn
+- devetnaest | neunzehn
+- dvadeset | zwanzig
 
-## Bigger numbers & money
+## Größere Zahlen & Geld
 format: kartice
-info: The round numbers, the euro, and three questions and answers to take whole. The tens end in **-deset**: *četrdeset*, *pedeset*, *šezdeset*. *Koliko košta?* is the question you will use most in a shop, and the answer is a number followed by *eura* — a form you can take whole for now.
-infokratko: Tens end in **-deset**. *Koliko košta?* — *deset eura*.
-opis: Prices, ages and the round numbers above twenty.
-- dvadeset jedan | twenty-one
-- trideset | thirty
-- četrdeset | forty
-- pedeset | fifty
-- šezdeset | sixty
-- sedamdeset | seventy
-- osamdeset | eighty
-- devedeset | ninety
-- sto | a hundred
-- tisuća | a thousand
-- euro | euro
-- Koliko košta? | How much does it cost?
-- Koliko godina imaš? | How old are you?
-- Imam dvadeset godina. | I am twenty years old.
+info: Die runden Zahlen, der Euro und drei Fragen und Antworten zum Mitnehmen. Die Zehner enden auf **-deset**: *četrdeset*, *pedeset*, *šezdeset*. *Koliko košta?* ist die Frage, die du im Laden am häufigsten brauchst, und die Antwort ist eine Zahl, gefolgt von *eura* – einer Form, die du vorerst als Ganzes nehmen kannst.
+infokratko: Zehner enden auf **-deset**. *Koliko košta?* — *deset eura*.
+opis: Preise, Alter und die runden Zahlen über zwanzig.
+- dvadeset jedan | einundzwanzig
+- trideset | dreißig
+- četrdeset | vierzig
+- pedeset | fünfzig
+- šezdeset | sechzig
+- sedamdeset | siebzig
+- osamdeset | achtzig
+- devedeset | neunzig
+- sto | hundert
+- tisuća | tausend
+- euro | Euro
+- Koliko košta? | Wie viel kostet das?
+- Koliko godina imaš? | Wie alt bist du?
+- Imam dvadeset godina. | Ich bin zwanzig Jahre alt.
 
-## Presents & birthdays
+## Geschenke & Geburtstage
 format: kartice
-info: The words for a birthday, and three small words for choosing a present. *Poklon* and *dar* both mean a present. *Možda*, *zapravo* and *onda* keep the choosing going: *Možda parfem? Zapravo, cvijeće. Onda buket!*
-infokratko: Birthday words. *poklon, dar* = present. *možda* maybe, *zapravo* actually, *onda* then.
-opis: What you buy, for whom, and what you say. Tap a card to reveal the meaning.
-- poklon | present, gift
-- dar | gift
-- rođendan | birthday
-- svijeća | candle
-- cvijeće | flowers
-- buket | bouquet
-- čestitka | greeting card
-- parfem | perfume
-- iznenađenje | surprise
-- ideja | idea
-- Sretan rođendan! | Happy birthday!
-- Čestitam! | Congratulations!
-- Hvala lijepa! | Thank you very much!
-- Za tebe! | For you!
-- možda | maybe
-- zapravo | actually
-- onda | then
+info: Die Wörter für einen Geburtstag und drei kleine Wörter, um ein Geschenk auszuwählen. *Poklon* und *dar* bedeuten beide Geschenk. *Možda*, *zapravo* und *onda* halten das Auswählen am Laufen: *Možda parfem? Zapravo, cvijeće. Onda buket!*
+infokratko: Geburtstagswörter. *poklon, dar* = Geschenk. *možda* vielleicht, *zapravo* eigentlich, *onda* dann.
+opis: Was du kaufst, für wen und was du sagst. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- poklon | Geschenk
+- dar | Geschenk
+- rođendan | Geburtstag
+- svijeća | Kerze
+- cvijeće | Blumen
+- buket | Blumenstrauß
+- čestitka | Glückwunschkarte
+- parfem | Parfüm
+- iznenađenje | Überraschung
+- ideja | Idee
+- Sretan rođendan! | Alles Gute zum Geburtstag!
+- Čestitam! | Herzlichen Glückwunsch!
+- Hvala lijepa! | Vielen Dank!
+- Za tebe! | Für dich!
+- možda | vielleicht
+- zapravo | eigentlich
+- onda | damals
 
 ## Ordne die neuen Wörter zu
 format: parovi
-info: A pairing drill on words from all four card pages, recognition only. The pair worth keeping apart is *koji* and *kakav*: *koji* picks one out of a known set, *kakav* asks what something is like. The tens all end in **-deset**, so look at the start, which is the unit: *četrdeset* from *četiri*, *šezdeset* from *šest*, *devedeset* from *devet*.
-infokratko: New words only. *koji* = which one, *kakav* = what kind; tens by their start.
+info: Eine Zuordnungsübung mit Wörtern von allen vier Kartenseiten, nur Wiedererkennen. Das Paar, das du auseinanderhalten solltest, ist *koji* und *kakav*: *koji* wählt eins aus einer bekannten Menge, *kakav* fragt, wie etwas ist. Die Zehner enden alle auf **-deset**, also schau auf den Anfang, das ist der Einer: *četrdeset* von *četiri*, *šezdeset* von *šest*, *devedeset* von *devet*.
+infokratko: Nur neue Wörter. *koji* = welcher, *kakav* = was für ein; Zehner nach ihrem Anfang.
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
 - tko | wer
-- koga | whom
-- koji | which
-- kakav | what kind of
-- četrdeset | forty
-- šezdeset | sixty
-- devedeset | ninety
-- tisuća | a thousand
-- dar | gift
-- buket | bouquet
-- parfem | perfume
-- zapravo | actually
+- koga | wen
+- koji | welcher
+- kakav | was für ein
+- četrdeset | vierzig
+- šezdeset | sechzig
+- devedeset | neunzig
+- tisuća | tausend
+- dar | Geschenk
+- buket | Blumenstrauß
+- parfem | Parfüm
+- zapravo | eigentlich
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. *Koji* and *kakav* are wanted in their basic form, the one that goes with a masculine noun. The diacritics are full letters: *zašto* has **š**, *svijeća* has **ć**, *cvijeće* ends in **ć** + **e**, *rođendan* and *iznenađenje* have **đ**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once; *koji, kakav* in the basic form. Diacritics count: *svijeća, rođendan, iznenađenje*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. *Koji* und *kakav* werden in ihrer Grundform gesucht, der Form, die zu einem maskulinen Nomen gehört. Die diakritischen Zeichen sind vollwertige Buchstaben: *zašto* hat **š**, *svijeća* hat **ć**, *cvijeće* endet auf **ć** + **e**, *rođendan* und *iznenađenje* haben **đ**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal; *koji, kakav* in der Grundform. Diakritische Zeichen zählen: *svijeća, rođendan, iznenađenje*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- when | kada
+- wann | kada
 - warum | zašto
 - wie | kako
-- which | koji
-- what kind of | kakav
-- three | tri
-- twelve | dvanaest
-- twenty | dvadeset
-- thirty | trideset
-- a hundred | sto
-- birthday | rođendan
-- candle | svijeća
-- surprise | iznenađenje
-- flowers | cvijeće
-- maybe | možda
+- welcher | koji
+- was für ein | kakav
+- drei | tri
+- zwölf | dvanaest
+- zwanzig | dvadeset
+- dreißig | trideset
+- hundert | sto
+- Geburtstag | rođendan
+- Kerze | svijeća
+- Überraschung | iznenađenje
+- Blumen | cvijeće
+- vielleicht | možda
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–9, half and half. Two pairs are easy to mix up: *možda* is maybe and *ponekad* sometimes; *čiji* asks whose, *koliko* how much.
-infokratko: New and old words against the clock. *možda* maybe, *ponekad* sometimes; *čiji* whose.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Wortschatz 1–9, halb und halb. Zwei Paare verwechselt man leicht: *možda* heißt vielleicht und *ponekad* manchmal; *čiji* fragt wessen, *koliko* wie viel.
+infokratko: Neue und alte Wörter gegen die Uhr. *možda* vielleicht, *ponekad* manchmal; *čiji* wessen.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- gdje | where
+- gdje | wo
 - tim | Team
-- kada | when
+- kada | wann
 - piti | trinken
 - zašto | warum
 - imati | haben
-- koliko | how much, how many
-- dosadan | boring
-- rođendan | birthday
-- čiji | whose
-- svijeća | candle
+- koliko | wie viel, wie viele
+- dosadan | langweilig
+- rođendan | Geburtstag
+- čiji | wessen
+- svijeća | Kerze
 - turist | Tourist
-- možda | maybe
+- možda | vielleicht
 - ponekad | manchmal
-- četrdeset | forty
+- četrdeset | vierzig
 - još | noch
-- tisuća | a thousand
+- tisuća | tausend
 - pas | Hund
-- zapravo | actually
-- kolač | cake, pastry
+- zapravo | eigentlich
+- kolač | Kuchen, Gebäck
 
-## koji, koja or koje?
+## koji, koja oder koje?
 format: razvrstavanje
-info: Sorting nouns by the form of *koji* they take, and the last letter of the noun is your guide. A consonant takes **koji** (*koji poklon*, *koji brod*), **-a** takes **koja** (*koja svijeća*, *koja destinacija*), **-o** or **-e** takes **koje** (*koje oko*, *koje iznenađenje*). *Kakav* and *čiji* follow the same pattern: *kakav poklon*, *kakva ideja*, *čije cvijeće*.
-infokratko: Consonant **koji**, **-a** **koja**, **-o/-e** **koje**: *koji poklon, koja svijeća, koje oko*.
-opis: Which form of *which* does each noun take? The last letter of the noun decides.
+info: Nomen nach der Form von *koji* sortieren, die sie nehmen, und der letzte Buchstabe des Nomens ist dein Wegweiser. Ein Konsonant nimmt **koji** (*koji poklon*, *koji brod*), **-a** nimmt **koja** (*koja svijeća*, *koja destinacija*), **-o** oder **-e** nimmt **koje** (*koje oko*, *koje iznenađenje*). *Kakav* und *čiji* folgen demselben Muster: *kakav poklon*, *kakva ideja*, *čije cvijeće*.
+infokratko: Konsonant **koji**, **-a** **koja**, **-o/-e** **koje**: *koji poklon, koja svijeća, koje oko*.
+opis: Welche Form von *welcher* nimmt jedes Nomen? Der letzte Buchstabe des Nomens entscheidet.
 stupci: KOJI | KOJA | KOJE
 - poklon | KOJI
 - parfem | KOJI
@@ -187,18 +187,18 @@ stupci: KOJI | KOJA | KOJE
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Numbers as words, nouns in their naming form, the verb as an infinitive and the adjective in the short form (*tužan*). The diacritics count as always: *četrnaest*, *čestitka*, *džemper* with **dž**.
-infokratko: Mixed final round. Numbers as words, infinitive, short adjective (*tužan*). Diacritics count.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren. Zahlen als Wörter, Nomen in ihrer Benennungsform, das Verb als Infinitiv und das Adjektiv in der Kurzform (*tužan*). Die diakritischen Zeichen zählen wie immer: *četrnaest*, *čestitka*, *džemper* mit **dž**.
+infokratko: Gemischte Schlussrunde. Zahlen als Wörter, Infinitiv, kurzes Adjektiv (*tužan*). Diakritische Zeichen zählen.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
 - wer | tko
 - Fenster | prozor
-- fourteen | četrnaest
-- number | broj
-- sixty | šezdeset
-- sweater | džemper
-- greeting card | čestitka
-- jersey | dres
-- conversation | razgovor
+- vierzehn | četrnaest
+- Nummer | broj
+- sechzig | šezdeset
+- Pullover | džemper
+- Glückwunschkarte | čestitka
+- Trikot | dres
+- Gespräch | razgovor
 - traurig | tužan
-- idea | ideja
+- Idee | ideja
 - kennen (eine Person) | poznavati

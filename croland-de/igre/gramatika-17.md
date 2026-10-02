@@ -1,27 +1,27 @@
-# The Imperative
+# Der Imperativ
 cjelina: Grammar 17
 
-## The rule: commands, recipes & directions
+## Die Regel: Befehle, Rezepte & Wegbeschreibungen
 format: tekst
-info: The reference page for the imperative. Start from the *ti* form: **-aš** becomes **-aj**, **-eš** and **-iš** become **-i**, and *-ješ* becomes **-j**. A group or the polite *vi* adds **-te**, and *let's* adds **-mo**. A few verbs are learned whole: *budi, idi, dođi, peci*.
-infokratko: *ti* form → **-aj / -i / -j**; **+te** for *vi*; **+mo** for *let's*. Whole: *budi, idi, dođi, peci*.
-- Commands, requests, recipes and directions — one form does all four jobs.
-- tab: The ti form | ti | vi | let's (mi)
+info: Die Übersichtsseite zum Imperativ. Geh von der *ti*-Form aus: **-aš** wird zu **-aj**, **-eš** und **-iš** werden zu **-i**, und *-ješ* wird zu **-j**. Eine Gruppe oder das höfliche *vi* bekommt **-te**, und *lass uns* bekommt **-mo**. Ein paar Verben lernt man als Ganzes: *budi, idi, dođi, peci*.
+infokratko: *ti*-Form → **-aj / -i / -j**; **+te** für *vi*; **+mo** für *lass uns*. Als Ganzes: *budi, idi, dođi, peci*.
+- Befehle, Bitten, Rezepte und Wegbeschreibungen – eine Form erledigt alle vier Aufgaben.
+- tab: Die ti-Form | ti | vi | lass uns (mi)
 - tab: gled**aš** | gled**aj**! | gled**ajte**! | gled**ajmo**!
 - tab: uzm**eš**, stav**iš** | uzm**i**!, stav**i**! | uzm**ite**!, stav**ite**! | uzm**imo**!, stav**imo**!
 - tab: pi**ješ**, zagri**ješ** | pi**j**!, zagri**j**! | pi**jte**!, zagri**jte**! | pi**jmo**!, zagri**jmo**!
-- **One rule for every regular verb.** Say the *ti* form, drop the **-š**, and look at the last letter: **-a** gets **-j** (*doda- → dodaj*), **-e** or **-i** becomes **-i** (*uzme- → uzmi, stavi- → stavi*), and after a **j** nothing is added (*pije- → pij*).
-- **Let's = -mo.** *Pjevajmo! Uzmimo taksi!* With *ići* the everyday form is simply the present: ***Idemo!*** — Let's go!
-- **Learn these whole.** *biti → **budi / budite***, *ići → **idi / idite***, *doći → **dođi / dođite***, *peći → **peci / pecite***.
-- **Negative commands:** directly with **ne** + order (*Ne trči! Ne spavajte!*), or more softly with **nemoj / nemojte** + infinitive (*Nemoj trčati! Nemojte spavati!*).
-- **Politeness.** Bare orders are fine in recipes and between friends. Otherwise add *molim te* (to a friend) or *molim vas* (to a stranger): *Molim te, dodaj sol. Molim vas, skrenite lijevo.* You have been hearing polite orders since the first lessons: *Izvolite! Oprostite!*
-- **Now you write them.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!
+- **Eine Regel für jedes regelmäßige Verb.** Sag die *ti*-Form, lass das **-š** weg und schau auf den letzten Buchstaben: **-a** bekommt **-j** (*doda- → dodaj*), **-e** oder **-i** wird zu **-i** (*uzme- → uzmi, stavi- → stavi*), und nach einem **j** kommt nichts dazu (*pije- → pij*).
+- **Lass uns = -mo.** *Pjevajmo! Uzmimo taksi!* – wie *Singen wir! Nehmen wir ein Taxi!* Bei *ići* ist die Alltagsform einfach das Präsens: ***Idemo!*** – Gehen wir!
+- **Diese als Ganzes lernen.** *biti → **budi / budite***, *ići → **idi / idite***, *doći → **dođi / dođite***, *peći → **peci / pecite***.
+- **Verneinte Befehle:** direkt mit **ne** + Befehl (*Ne trči! Ne spavajte!*) oder sanfter mit **nemoj / nemojte** + Infinitiv (*Nemoj trčati! Nemojte spavati!*).
+- **Höflichkeit.** Nackte Befehle sind in Rezepten und unter Freunden in Ordnung. Sonst füg *molim te* (zu einem Freund) oder *molim vas* (zu einem Fremden) hinzu: *Molim te, dodaj sol. Molim vas, skrenite lijevo.* Höfliche Befehle hörst du seit den ersten Lektionen: *Izvolite! Oprostite!*
+- **Jetzt schreibst du sie.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!
 
-## Make the command (ti)
+## Bilde den Befehl (ti)
 format: upis
-info: You make the order for one friend from the infinitive. Think of the *ti* form first: *čitaš → čitaj, uzmeš → uzmi, piješ → pij*. *Biti, ići* and *doći* are the ones learned whole: *budi, idi, dođi*.
-infokratko: Via the *ti* form: *čitaj, uzmi, pij*. Whole: *budi, idi, dođi*.
-opis: Make the command (ti form).
+info: Du bildest den Befehl an einen Freund aus dem Infinitiv. Denk zuerst an die *ti*-Form: *čitaš → čitaj, uzmeš → uzmi, piješ → pij*. *Biti, ići* und *doći* lernt man als Ganzes: *budi, idi, dođi*.
+infokratko: Über die *ti*-Form: *čitaj, uzmi, pij*. Als Ganzes: *budi, idi, dođi*.
+opis: Bilde den Befehl (ti-Form).
 - čitati → | Čitaj
 - ići → | Idi
 - piti → | Pij
@@ -35,11 +35,11 @@ opis: Make the command (ti form).
 - biti → | Budi
 - zagrijati → | Zagrij
 
-## For a group
+## Für eine Gruppe
 format: upis
-info: The same orders for a group or for someone you call *vi*: add **-te** to the *ti* order. *Dođi → dođite, pij → pijte, budi → budite.* Nothing else changes.
-infokratko: Group or *vi*: **+te** — *dođite, pijte, budite*.
-opis: Now for a group.
+info: Dieselben Befehle für eine Gruppe oder für jemanden, den du mit *vi* ansprichst: Häng **-te** an den *ti*-Befehl. *Dođi → dođite, pij → pijte, budi → budite.* Sonst ändert sich nichts.
+infokratko: Gruppe oder *vi*: **+te** – *dođite, pijte, budite*.
+opis: Jetzt für eine Gruppe.
 - doći → | Dođite
 - skrenuti → | Skrenite
 - pjevati → | Pjevajte
@@ -54,89 +54,89 @@ opis: Now for a group.
 ## Tippe auf die Endung
 format: nastavak
 nastavci: i | ite | aj | ajte
-info: One tap finishes the order. The bracket says who gets it: one friend (*ti*) or a group (*vi*). Verbs in *-aš* take **-aj** or **-ajte**, verbs in *-eš* and *-iš* take **-i** or **-ite**.
-infokratko: *-aš* verbs: **-aj / -ajte**; *-eš / -iš* verbs: **-i / -ite**.
-opis: The English is above. One tap finishes the order — for one friend or for a group.
-- Uzm___ tri jaja! | (ti) Take three eggs! | i
+info: Ein Tippen vollendet den Befehl. Die Klammer sagt, wer ihn bekommt: ein Freund (*ti*) oder eine Gruppe (*vi*). Verben auf *-aš* bekommen **-aj** oder **-ajte**, Verben auf *-eš* und *-iš* bekommen **-i** oder **-ite**.
+infokratko: Verben auf *-aš*: **-aj / -ajte**; Verben auf *-eš / -iš*: **-i / -ite**.
+opis: Oben steht das Deutsche. Ein Tippen vollendet den Befehl – für einen Freund oder für eine Gruppe.
+- Uzm___ tri jaja! | (ti) Nimm drei Eier! | i
 - Uzm___ kartu! | (vi) Take a ticket! | ite
 - Dod___ malo soli! | (ti) Add a little salt! | aj
-- Dod___ šećer! | (vi) Add the sugar! | ajte
+- Dod___ šećer! | (vi) Fügt den Zucker hinzu! | ajte
 - Skren___ lijevo! | (ti) Turn left! | i
-- Skren___ desno na semaforu! | (vi) Turn right at the lights! | ite
-- Gled___ ovo! | (ti) Look at this! | aj
-- Sluš___ učiteljicu! | (vi) Listen to the teacher! | ajte
-- Stav___ tavu na štednjak! | (ti) Put the pan on the stove! | i
-- Čit___ tekst! | (vi) Read the text! | ajte
-- Miješ___ dvije minute! | (ti) Mix for two minutes! | aj
-- Okren___ palačinke! | (vi) Flip the pancakes! | ite
-- Piš___ pismo! | (ti) Write the letter! | i
-- Ček___ ovdje! | (vi) Wait here! | ajte
+- Skren___ desno na semaforu! | (vi) Biegt an der Ampel rechts ab! | ite
+- Gled___ ovo! | (ti) Schau dir das an! | aj
+- Sluš___ učiteljicu! | (vi) Hört der Lehrerin zu! | ajte
+- Stav___ tavu na štednjak! | (ti) Stell die Pfanne auf den Herd! | i
+- Čit___ tekst! | (vi) Lest den Text! | ajte
+- Miješ___ dvije minute! | (ti) Rühr zwei Minuten lang! | aj
+- Okren___ palačinke! | (vi) Wendet die Pfannkuchen! | ite
+- Piš___ pismo! | (ti) Schreib den Brief! | i
+- Ček___ ovdje! | (vi) Wartet hier! | ajte
 - Požur___! | (vi) Hurry! | ite
-- Pjev___ sa mnom! | (ti) Sing with me! | aj
+- Pjev___ sa mnom! | (ti) Sing mit mir! | aj
 
-## The gentler "nemoj"
+## Das sanftere „nemoj“
 format: izbor
-info: Choosing the correct *nemoj* sentence. After *nemoj* or *nemojte* the verb stays in the infinitive — *Nemoj gledati* — and *nemoj* is for one friend, *nemojte* for a group or *vi*. The wrong options put a personal ending or an order after it.
-infokratko: *nemoj / nemojte* + infinitive: *Nemoj gledati!* Not *Nemoj gledaj*.
-opis: Choose the correct softer "don't".
+info: Den richtigen *nemoj*-Satz wählen. Nach *nemoj* oder *nemojte* bleibt das Verb im Infinitiv – *Nemoj gledati* –, und *nemoj* ist für einen Freund, *nemojte* für eine Gruppe oder *vi*. Die falschen Optionen setzen danach eine Personalendung oder einen Befehl.
+infokratko: *nemoj / nemojte* + Infinitiv: *Nemoj gledati!* Nicht *Nemoj gledaj*.
+opis: Wähle das richtige sanftere „nicht“.
 - (prijatelju) | Nemoj gledati telefon! | Nemoj gledaj telefon! | Nemoj gledaš telefon!
 - (grupi) | Nemojte trčati! | Nemojte trčite! | Nemoj trčite!
 - (prijatelju) | Nemoj piti kavu navečer! | Nemoj pij kavu navečer! | Nemoj piješ kavu navečer!
 - (grupi) | Nemojte čekati! | Nemojte čekajte! | Nemoj čekate!
 - (prijatelju) | Nemoj jesti sve kolače! | Nemoj jedi sve kolače! | Nemoj jedeš sve kolače!
-- (vi, polite) | Nemojte ići lijevo! | Nemojte idite lijevo! | Nemoj idete lijevo!
+- (vi, höflich) | Nemojte ići lijevo! | Nemojte idite lijevo! | Nemoj idete lijevo!
 - (prijatelju) | Nemoj kasniti! | Nemoj kasni! | Nemoj kasniš!
 - (grupi) | Nemojte spavati na satu! | Nemojte spavajte na satu! | Nemoj spavate na satu!
 - (prijatelju) | Nemoj pjevati tako glasno! | Nemoj pjevaj tako glasno! | Nemoj pjevaš tako glasno!
 - (grupi) | Nemojte trčati preko ceste! | Nemojte trčite preko ceste! | Nemoj trčite preko ceste!
 
-## Command or statement?
+## Befehl oder Aussage?
 format: razvrstavanje
-info: Sorting sentences by what they do. An order uses the imperative — *Pij! Dodajte!* — and a statement the present: *Piješ, Dodajete*. The two look alike, so check the ending: *pij, dodaj, uzmite, pjevajmo* are orders, while the present keeps its **-š, -mo, -te** after the full form: *piješ, dodaješ, uzimate, pjevamo*.
-infokratko: *Pij! Dodaj! Uzmite!* are orders; *Piješ. Dodaješ. Uzimate.* are statements.
-stupci: COMMAND | STATEMENT
-opis: Is it an order, or does it say what someone does?
-- Pij vodu! | COMMAND
-- Piješ vodu. | STATEMENT
-- Dodaj sol! | COMMAND
-- Dodaješ sol. | STATEMENT
-- Uzmite kartu! | COMMAND
-- Uzimate kartu. | STATEMENT
-- Skreni lijevo! | COMMAND
-- Skreneš lijevo. | STATEMENT
-- Čitajte tekst! | COMMAND
-- Čitate tekst. | STATEMENT
-- Pjevajmo! | COMMAND
-- Pjevamo. | STATEMENT
-- Budi ovdje u osam! | COMMAND
-- Ovdje si u osam. | STATEMENT
+info: Sätze danach sortieren, was sie tun. Ein Befehl benutzt den Imperativ – *Pij! Dodajte!* – und eine Aussage das Präsens: *Piješ, Dodajete*. Die beiden sehen sich ähnlich, also prüf die Endung: *pij, dodaj, uzmite, pjevajmo* sind Befehle, während das Präsens sein **-š, -mo, -te** nach der vollen Form behält: *piješ, dodaješ, uzimate, pjevamo*.
+infokratko: *Pij! Dodaj! Uzmite!* sind Befehle; *Piješ. Dodaješ. Uzimate.* sind Aussagen.
+stupci: BEFEHL | AUSSAGE
+opis: Ist es ein Befehl, oder sagt es, was jemand tut?
+- Pij vodu! | BEFEHL
+- Piješ vodu. | AUSSAGE
+- Dodaj sol! | BEFEHL
+- Dodaješ sol. | AUSSAGE
+- Uzmite kartu! | BEFEHL
+- Uzimate kartu. | AUSSAGE
+- Skreni lijevo! | BEFEHL
+- Skreneš lijevo. | AUSSAGE
+- Čitajte tekst! | BEFEHL
+- Čitate tekst. | AUSSAGE
+- Pjevajmo! | BEFEHL
+- Pjevamo. | AUSSAGE
+- Budi ovdje u osam! | BEFEHL
+- Ovdje si u osam. | AUSSAGE
 
-## The rule: asking instead of ordering
+## Die Regel: bitten statt befehlen
 format: tekst
-info: The second rule: three modal verbs, *moći* (can), *morati* (must) and *htjeti* (want), followed by an infinitive. A question with *Možeš li…?* or *Možete li…?* is the polite way to ask for something, and *Može!* on its own means *sure*.
-infokratko: *mogu, moram, hoću* + infinitive. *Možeš li…? / Možete li…?* = polite request. *Može!* = sure.
+info: Die zweite Regel: drei Modalverben, *moći* (können), *morati* (müssen) und *htjeti* (wollen), gefolgt von einem Infinitiv – genau wie im Deutschen. Eine Frage mit *Možeš li…?* oder *Možete li…?* ist die höfliche Art, um etwas zu bitten, und *Može!* allein heißt *klar*.
+infokratko: *mogu, moram, hoću* + Infinitiv. *Možeš li…? / Možete li…?* = höfliche Bitte. *Može!* = klar.
 infoodmah: da
-- An order is direct. The polite alternative is a question with a **modal verb** — a verb that is followed by another verb in the infinitive.
-- tab: Person | moći (can) | morati (must) | htjeti (want)
+- Ein Befehl ist direkt. Die höfliche Alternative ist eine Frage mit einem **Modalverb** – einem Verb, auf das ein anderes Verb im Infinitiv folgt.
+- tab: Person | moći (können) | morati (müssen) | htjeti (wollen)
 - tab: ja | **mogu** | **moram** | **hoću**
 - tab: ti | **možeš** | **moraš** | **hoćeš**
 - tab: on, ona, ono | **može** | **mora** | **hoće**
 - tab: mi | **možemo** | **moramo** | **hoćemo**
 - tab: vi | **možete** | **morate** | **hoćete**
 - tab: oni, one, ona | **mogu** | **moraju** | **hoće**
-- **The second verb stays in the infinitive** — it never gets a personal ending: *Moram raditi. Možeš doći. Ne mogu plivati.* Not *Moram radim*.
-- **The polite request:** *Skrenite lijevo!* → ***Možete li** skrenuti lijevo?* *Dodaj sol!* → ***Možeš li** dodati sol?* The content is the same, but it is a question.
-- **The most useful word in Croatia:** ***Može!*** on its own means *sure, fine, deal*. *Kava? — Može!*
-- **Hoću and ću.** The long forms *hoću, hoćeš, hoće* mean *I want* and can stand with a noun: *Hoću kavu.* The short forms *ću, ćeš, će* are the future helpers from Lesson 8: *Pit ću kavu.* The negative is the same for both: *neću*.
-- **Want: želim or hoću?** With things, *želim* is the neutral choice and *hoću* sounds firmer. For a polite wish you will learn *htio bih / htjela bih* in Lesson 18.
-- **Now you write them.** Ja [moram] raditi. [Možeš] li dodati sol? Ne [mogu] plivati.
+- **Das zweite Verb bleibt im Infinitiv** – es bekommt nie eine Personalendung, wie im Deutschen *Ich muss arbeiten*: *Moram raditi. Možeš doći. Ne mogu plivati.* Nicht *Moram radim*.
+- **Die höfliche Bitte:** *Skrenite lijevo!* → ***Možete li** skrenuti lijevo?* *Dodaj sol!* → ***Možeš li** dodati sol?* Der Inhalt ist derselbe, aber es ist eine Frage.
+- **Das nützlichste Wort in Kroatien:** ***Može!*** allein heißt *klar, gut, abgemacht*. *Kava? — Može!*
+- **Hoću und ću.** Die langen Formen *hoću, hoćeš, hoće* heißen *ich will* und können mit einem Substantiv stehen: *Hoću kavu.* Die kurzen Formen *ću, ćeš, će* sind die Futurhelfer aus Lektion 8: *Pit ću kavu.* Die Verneinung ist für beide gleich: *neću*.
+- **Wollen: želim oder hoću?** Bei Dingen ist *želim* die neutrale Wahl, und *hoću* klingt bestimmter. Für einen höflichen Wunsch lernst du in Lektion 18 *htio bih / htjela bih* – ich möchte.
+- **Jetzt schreibst du sie.** Ja [moram] raditi. [Možeš] li dodati sol? Ne [mogu] plivati.
 
-## Can, must or want?
+## Können, müssen oder wollen?
 format: razvrstavanje
-info: Sorting the forms of the three modal verbs. *Mogu, možeš, možemo* belong to *moći*; *moram, moraju* to *morati*; *hoću, hoće, hoćemo* to *htjeti*. Watch *mogu*: it is both *I can* and *they can*.
+info: Die Formen der drei Modalverben sortieren. *Mogu, možeš, možemo* gehören zu *moći*; *moram, moraju* zu *morati*; *hoću, hoće, hoćemo* zu *htjeti*. Achte auf *mogu*: Es heißt sowohl *ich kann* als auch *sie können*.
 infokratko: *mogu, možeš* → *moći*; *moram, moraju* → *morati*; *hoću, hoćeš* → *htjeti*.
 stupci: MOĆI | MORATI | HTJETI
-opis: Which verb does each form belong to?
+opis: Zu welchem Verb gehört jede Form?
 - mogu | MOĆI
 - možeš | MOĆI
 - može | MOĆI
@@ -153,29 +153,29 @@ opis: Which verb does each form belong to?
 - hoćemo | HTJETI
 - hoćete | HTJETI
 
-## Type the modal
+## Schreib das Modalverb
 format: upis
-info: You type the modal in the form that matches the person. The English in brackets tells you which verb: *can* is *moći*, *must* is *morati*, *want* is *htjeti*. The verb after it is already given, in the infinitive.
-infokratko: *can* → *mogu…*, *must* → *moram…*, *want* → *hoću…*. The next verb stays in the infinitive.
-opis: The verb after it never takes a personal ending — it stays in the infinitive.
-- Ja ___ raditi danas. (must) | moram
-- Ti ___ doći sutra. (can) | možeš
-- Ona ne ___ plivati. (can) | može
-- Mi ___ učiti. (must) | moramo
-- Ja ___ kavu. (want) | hoću
-- Oni ___ ići pješice. (must) | moraju
-- Vi ___ skrenuti lijevo. (can) | možete
-- ___ li doći u osam? (can, ti) | Možeš
-- Mi ___ ići na more. (want) | hoćemo
-- Oni ne ___ plivati. (can) | mogu
-- Marko ___ kupiti kartu. (must) | mora
-- ___ li skrenuti desno? (can, vi) | Možete
+info: Du schreibst das Modalverb in der Form, die zur Person passt. Das Deutsche in Klammern sagt dir, welches Verb: *können* ist *moći*, *müssen* ist *morati*, *wollen* ist *htjeti*. Das Verb danach steht schon da, im Infinitiv.
+infokratko: *können* → *mogu…*, *müssen* → *moram…*, *wollen* → *hoću…*. Das nächste Verb bleibt im Infinitiv.
+opis: Das Verb danach bekommt nie eine Personalendung – es bleibt im Infinitiv.
+- Ja ___ raditi danas. (müssen) | moram
+- Ti ___ doći sutra. (können) | možeš
+- Ona ne ___ plivati. (können) | može
+- Mi ___ učiti. (müssen) | moramo
+- Ja ___ kavu. (wollen) | hoću
+- Oni ___ ići pješice. (müssen) | moraju
+- Vi ___ skrenuti lijevo. (können) | možete
+- ___ li doći u osam? (können, ti) | Možeš
+- Mi ___ ići na more. (wollen) | hoćemo
+- Oni ne ___ plivati. (können) | mogu
+- Marko ___ kupiti kartu. (müssen) | mora
+- ___ li skrenuti desno? (können, vi) | Možete
 
-## Modal + infinitive
+## Modalverb + Infinitiv
 format: izbor
-info: Choosing the second verb. After *mogu, moram* and *hoću* the verb stays in the infinitive, whatever the person: *Moram raditi, Možemo doći, Hoće plivati.* The wrong options give the second verb a personal ending.
-infokratko: After a modal: infinitive only — *Moram raditi*, not *Moram radim*.
-opis: Choose the correct second verb.
+info: Das zweite Verb wählen. Nach *mogu, moram* und *hoću* bleibt das Verb im Infinitiv, egal welche Person: *Moram raditi, Možemo doći, Hoće plivati.* Die falschen Optionen geben dem zweiten Verb eine Personalendung.
+infokratko: Nach einem Modalverb: nur Infinitiv – *Moram raditi*, nicht *Moram radim*.
+opis: Wähle das richtige zweite Verb.
 - Moram ___ danas. | raditi | radim | radi
 - Možeš li ___ sol? | dodati | dodaš | dodaj
 - Ne mogu ___ . | plivati | plivam | pliva
@@ -189,32 +189,32 @@ opis: Choose the correct second verb.
 - Možemo li ___ taksi? | uzeti | uzmemo | uzmimo
 - Ne moram ___ rano. | ustati | ustanem | ustani
 
-## Command or request?
+## Befehl oder Bitte?
 format: razvrstavanje
-info: Sorting orders and polite requests. An order uses the imperative (*Skrenite lijevo!*); a polite request is a question with *možeš li* or *možete li* and an infinitive (*Možete li skrenuti lijevo?*). *Molim vas* in front softens an order, but it is still an order.
-infokratko: Imperative → command. *Možeš li / Možete li* + infinitive → polite request.
-stupci: COMMAND | POLITE REQUEST
-opis: Which one would you use with a stranger?
-- Skrenite lijevo! | COMMAND
-- Možete li skrenuti lijevo? | POLITE REQUEST
-- Dodaj sol! | COMMAND
-- Možeš li dodati sol? | POLITE REQUEST
-- Dođite u osam! | COMMAND
-- Možete li doći u osam? | POLITE REQUEST
-- Uzmi kartu! | COMMAND
-- Možeš li uzeti kartu? | POLITE REQUEST
-- Čekajte ovdje! | COMMAND
-- Možete li čekati ovdje? | POLITE REQUEST
-- Molim vas, idite ravno. | COMMAND
-- Možete li ići ravno? | POLITE REQUEST
-- Požuri! | COMMAND
-- Možeš li požuriti? | POLITE REQUEST
+info: Befehle und höfliche Bitten sortieren. Ein Befehl benutzt den Imperativ (*Skrenite lijevo!*); eine höfliche Bitte ist eine Frage mit *možeš li* oder *možete li* und einem Infinitiv (*Možete li skrenuti lijevo?*). *Molim vas* davor macht einen Befehl sanfter, aber es bleibt ein Befehl.
+infokratko: Imperativ → Befehl. *Možeš li / Možete li* + Infinitiv → höfliche Bitte.
+stupci: BEFEHL | HÖFLICHE BITTE
+opis: Was würdest du bei einem Fremden benutzen?
+- Skrenite lijevo! | BEFEHL
+- Možete li skrenuti lijevo? | HÖFLICHE BITTE
+- Dodaj sol! | BEFEHL
+- Možeš li dodati sol? | HÖFLICHE BITTE
+- Dođite u osam! | BEFEHL
+- Možete li doći u osam? | HÖFLICHE BITTE
+- Uzmi kartu! | BEFEHL
+- Možeš li uzeti kartu? | HÖFLICHE BITTE
+- Čekajte ovdje! | BEFEHL
+- Možete li čekati ovdje? | HÖFLICHE BITTE
+- Molim vas, idite ravno. | BEFEHL
+- Možete li ići ravno? | HÖFLICHE BITTE
+- Požuri! | BEFEHL
+- Možeš li požuriti? | HÖFLICHE BITTE
 
-## Make it polite
+## Mach es höflich
 format: upis
-info: You turn each order into a polite question. *Ti* orders become *Možeš li…?*, *vi* orders *Možete li…?*, and the order itself turns back into the infinitive: *dodaj → dodati, skrenite → skrenuti*.
-infokratko: *ti* → *Možeš li* + infinitive; *vi* → *Možete li* + infinitive.
-opis: Turn the command into a "možeš li / možete li" question.
+info: Du machst aus jedem Befehl eine höfliche Frage. *Ti*-Befehle werden zu *Možeš li…?*, *vi*-Befehle zu *Možete li…?*, und der Befehl selbst wird wieder zum Infinitiv: *dodaj → dodati, skrenite → skrenuti*.
+infokratko: *ti* → *Možeš li* + Infinitiv; *vi* → *Možete li* + Infinitiv.
+opis: Mach aus dem Befehl eine „možeš li / možete li“-Frage.
 - Dodaj sol! → | Možeš li dodati sol
 - Skrenite lijevo! → | Možete li skrenuti lijevo
 - Dođi u osam! → | Možeš li doći u osam
@@ -230,9 +230,9 @@ opis: Turn the command into a "možeš li / možete li" question.
 
 ## Bau den Satz
 format: slaganje
-info: Whole sentences from tiles. An order opens the sentence, *molim te* or *molim vas* can stand in front of it with a comma, *nemoj* is followed by an infinitive, and after a modal the second verb is an infinitive too.
-infokratko: *Molim vas, …*; *nemoj* + infinitive; modal + infinitive.
-opis: Build the sentence.
+info: Ganze Sätze aus Kacheln. Ein Befehl eröffnet den Satz, *molim te* oder *molim vas* kann mit Komma davorstehen, auf *nemoj* folgt ein Infinitiv, und nach einem Modalverb ist das zweite Verb auch ein Infinitiv.
+infokratko: *Molim vas, …*; *nemoj* + Infinitiv; Modalverb + Infinitiv.
+opis: Bau den Satz.
 - Molim vas, skrenite desno na semaforu.
 - Nemoj gledati telefon!
 - Uzmi kavu i dođi na balkon.
@@ -248,28 +248,28 @@ opis: Build the sentence.
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English. An order uses the imperative, **-te** for a group or *vi*; *don't* is *ne* + order or *nemoj* + infinitive; and a polite request is *Možeš li…?* or *Možete li…?* with an infinitive.
-infokratko: Imperative (**+te** for *vi*); *ne* / *nemoj*; *Možeš li / Možete li* + infinitive.
-opis: The last step — the English sentence, and you write the Croatian.
-- Take three eggs! (to a friend) | Uzmi tri jaja
-- Turn left! (polite) | Skrenite lijevo
-- Come tomorrow! (to a group) | Dođite sutra
-- Don't run! (to a friend) | Ne trči / Nemoj trčati
-- Don't wait! (to a group) | Ne čekajte / Nemojte čekati
-- Let's sing! | Pjevajmo
-- Let's go! | Idemo
-- Can you add the salt? (to a friend) | Možeš li dodati sol
-- Can you turn right? (polite) | Možete li skrenuti desno
-- I must work. | Moram raditi
-- I can't swim. | Ne mogu plivati
-- Please, pass the salt. (to a friend) | Molim te, dodaj sol / Dodaj sol, molim te
-- Do you want coffee? (to a friend) | Hoćeš li kavu / Želiš li kavu
-- We have to buy flour. | Moramo kupiti brašno
+info: Freie Produktion aus dem Deutschen. Ein Befehl benutzt den Imperativ, **-te** für eine Gruppe oder *vi*; *nicht* ist *ne* + Befehl oder *nemoj* + Infinitiv; und eine höfliche Bitte ist *Možeš li…?* oder *Možete li…?* mit einem Infinitiv.
+infokratko: Imperativ (**+te** für *vi*); *ne* / *nemoj*; *Možeš li / Možete li* + Infinitiv.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen.
+- Nimm drei Eier! (zu einem Freund) | Uzmi tri jaja
+- Biegen Sie links ab! (höflich) | Skrenite lijevo
+- Kommt morgen! (zu einer Gruppe) | Dođite sutra
+- Lauf nicht! (zu einem Freund) | Ne trči / Nemoj trčati
+- Wartet nicht! (zu einer Gruppe) | Ne čekajte / Nemojte čekati
+- Singen wir! | Pjevajmo
+- Gehen wir! | Idemo
+- Kannst du das Salz hinzufügen? (zu einem Freund) | Možeš li dodati sol
+- Können Sie rechts abbiegen? (höflich) | Možete li skrenuti desno
+- Ich muss arbeiten. | Moram raditi
+- Ich kann nicht schwimmen. | Ne mogu plivati
+- Bitte gib mir das Salz. (zu einem Freund) | Molim te, dodaj sol / Dodaj sol, molim te
+- Willst du Kaffee? (zu einem Freund) | Hoćeš li kavu / Želiš li kavu
+- Wir müssen Mehl kaufen. | Moramo kupiti brašno
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary. The imperative comes from the *ti* form (**-aj, -i, -j**), a group or *vi* adds **-te**, and *let's* adds **-mo**. *Ne* or *nemoj* makes a *don't*, and *Možeš li…?* turns an order into a polite request.
+info: Eine abschließende Zusammenfassung. Der Imperativ kommt aus der *ti*-Form (**-aj, -i, -j**), eine Gruppe oder *vi* bekommt **-te**, und *lass uns* bekommt **-mo**. *Ne* oder *nemoj* macht ein Verbot, und *Možeš li…?* verwandelt einen Befehl in eine höfliche Bitte.
 infokratko: **-aj / -i / -j**, **+te**, **+mo**; *ne / nemoj*; *Možeš li…?*
-- **Bravo.** You can now give an order, soften it, forbid something politely and ask for help the Croatian way.
-- And you did it with a short set of rules: **the *ti* form gives the order**, **-te is for a group or *vi***, **nemoj takes an infinitive**, and **mogu, moram, hoću take an infinitive too**.
-- **Next up:** Practice 17 makes pancakes, finds the way through town and trains with Coach Zvone, and Test 17 checks the whole level. Then Lesson 18: the conditional — *Kupio bih kuću pokraj mora.*
+- **Bravo.** Jetzt kannst du einen Befehl geben, ihn abschwächen, höflich etwas verbieten und auf kroatische Art um Hilfe bitten.
+- Und das mit wenigen Regeln: **Die *ti*-Form ergibt den Befehl**, **-te ist für eine Gruppe oder *vi***, **nemoj nimmt einen Infinitiv**, und **auch mogu, moram, hoću nehmen einen Infinitiv**.
+- **Als Nächstes:** Praxis 17 macht Pfannkuchen, findet den Weg durch die Stadt und trainiert mit Trainer Zvone, und Test 17 prüft die ganze Stufe. Dann Lektion 18: der Konditional – *Kupio bih kuću pokraj mora.*

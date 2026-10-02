@@ -1,159 +1,159 @@
-# Test 17: The Imperative
+# Test 17: Der Imperativ
 cjelina: Test 17
 
 ## Ordne die Wörter zu
 format: parovi
 trajanje: 1380
 prag: 70
-info: The words of Level 17: the kitchen, directions, the verbs that give orders and the three modal verbs. Nouns are in their naming form, verbs in the infinitive. Watch the direction pairs: *lijevo / desno*, *naprijed / natrag*, *sjever / jug*, *istok / zapad*.
-infokratko: Level 17 words. Watch *lijevo / desno*, *naprijed / natrag*, *sjever / jug*.
+info: Die Wörter von Stufe 17: die Küche, Richtungen, die Verben, die Befehle geben, und die drei Modalverben. Substantive stehen in der Grundform, Verben im Infinitiv. Achte auf die Richtungspaare: *lijevo / desno*, *naprijed / natrag*, *sjever / jug*, *istok / zapad*.
+infokratko: Wörter von Stufe 17. Achte auf *lijevo / desno*, *naprijed / natrag*, *sjever / jug*.
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- brašno | flour
-- tava | pan
+- brašno | Mehl
+- tava | Pfanne
 - marmelada | Marmelade
-- ulje | oil
-- papar | pepper (spice)
-- tijesto | dough
-- pećnica | oven
-- štednjak | stove
-- vrhnje | cream
-- kvasac | yeast
-- sastojak | ingredient
-- žličica | teaspoon
-- kakao | cocoa
-- limunada | lemonade
-- hrana | food
-- raskrižje | crossroads
-- kružni tok | roundabout
-- ugao | corner
-- znak | sign
-- mapa | map
-- uzeti | to take
-- dodati | to add
-- miješati | to mix
-- zagrijati | to heat up
-- okrenuti | to flip, to turn over
-- staviti | to put
-- podijeliti | to share
-- skrenuti | to turn (left or right)
-- prijeći | to cross
-- požuriti | to hurry
-- skočiti | to jump
-- moći | can, to be able to
-- morati | must, to have to
+- ulje | Öl
+- papar | Pfeffer (Gewürz)
+- tijesto | Teig
+- pećnica | Backofen
+- štednjak | Herd
+- vrhnje | Sahne
+- kvasac | Hefe
+- sastojak | Zutat
+- žličica | Teelöffel
+- kakao | Kakao
+- limunada | Limonade
+- hrana | Essen, Lebensmittel
+- raskrižje | Kreuzung
+- kružni tok | Kreisverkehr
+- ugao | Ecke
+- znak | Schild
+- mapa | Karte
+- uzeti | nehmen
+- dodati | hinzufügen
+- miješati | rühren, mischen
+- zagrijati | erhitzen
+- okrenuti | wenden, umdrehen
+- staviti | legen, stellen
+- podijeliti | teilen
+- skrenuti | abbiegen
+- prijeći | überqueren
+- požuriti | sich beeilen
+- skočiti | springen
+- moći | können
+- morati | müssen
 - htjeti | wollen
-- nemoj | don't
-- lijevo | left
-- desno | right
-- ravno | straight ahead
-- naprijed | forward
-- natrag | back, backwards
-- daleko | far
-- smjer | direction
-- strana | side
-- sjever | north
-- jug | south
-- istok | east
-- zapad | west
-- kilometar | kilometre
-- zatim | then, after that
-- uputa | instruction
-- točno | exactly
-- otprilike | about, approximately
-- dovoljno | enough
+- nemoj | nicht (Verbot)
+- lijevo | links
+- desno | rechts
+- ravno | geradeaus
+- naprijed | vorwärts, nach vorn
+- natrag | zurück
+- daleko | weit
+- smjer | Richtung
+- strana | Seite
+- sjever | Norden
+- jug | Süden
+- istok | Osten
+- zapad | Westen
+- kilometar | Kilometer
+- zatim | dann, danach
+- uputa | Anleitung
+- točno | genau
+- otprilike | ungefähr
+- dovoljno | genug
 
 ## Was bedeutet das?
 format: izbor
-info: Recognition of the Level 17 words, with three meanings to choose from. The wrong options come from the same group — kitchen, directions or verbs — so the pairs that belong together are the real test.
-infokratko: Level 17 words; the wrong options come from the same group.
+info: Wiedererkennen der Wörter von Stufe 17, mit drei Bedeutungen zur Auswahl. Die falschen Optionen stammen aus derselben Gruppe – Küche, Richtungen oder Verben –, also sind die zusammengehörigen Paare der eigentliche Test.
+infokratko: Wörter von Stufe 17; die falschen Optionen stammen aus derselben Gruppe.
 opis: Wähle die richtige Bedeutung.
-- brašno | flour | sugar | yeast
-- tava | pan | pot | oven
-- ulje | oil | vinegar | cream
-- tijesto | dough | flour | Torte
-- pećnica | oven | stove | pan
-- štednjak | stove | oven | sink
-- sastojak | ingredient | recipe | teaspoon
-- žličica | teaspoon | spoon | cup
-- raskrižje | crossroads | roundabout | corner
-- kružni tok | roundabout | crossroads | traffic lights
-- ugao | corner | side | sign
-- znak | sign | map | direction
-- uzeti | to take | to put | to add
-- staviti | to put | to take | to share
-- dodati | to add | to mix | to put
-- miješati | to mix | to heat up | to flip
-- okrenuti | to flip, to turn over | to turn (left or right) | to cross
-- skrenuti | to turn (left or right) | to flip, to turn over | to jump
-- prijeći | to cross | to hurry | to go back
-- požuriti | to hurry | to cross | to rest
-- morati | must, to have to | can, to be able to | wollen
-- moći | can, to be able to | must, to have to | wollen
-- ravno | straight ahead | right | back, backwards
-- natrag | back, backwards | forward | far
-- naprijed | forward | back, backwards | straight ahead
-- sjever | north | south | east
-- zapad | west | east | north
-- zatim | then, after that | exactly | enough
-- otprilike | about, approximately | exactly | far
-- dovoljno | enough | about, approximately | exactly
+- brašno | Mehl | Zucker | Hefe
+- tava | Pfanne | Topf | Backofen
+- ulje | Öl | Essig | Sahne
+- tijesto | Teig | Mehl | Torte
+- pećnica | Backofen | Herd | Pfanne
+- štednjak | Herd | Backofen | Spüle, Waschbecken
+- sastojak | Zutat | Rezept | Teelöffel
+- žličica | Teelöffel | Löffel | Tasse
+- raskrižje | Kreuzung | Kreisverkehr | Ecke
+- kružni tok | Kreisverkehr | Kreuzung | Ampel
+- ugao | Ecke | Seite | Schild
+- znak | Schild | Karte | Richtung
+- uzeti | nehmen | legen, stellen | hinzufügen
+- staviti | legen, stellen | nehmen | teilen
+- dodati | hinzufügen | rühren, mischen | legen, stellen
+- miješati | rühren, mischen | erhitzen | wenden
+- okrenuti | wenden, umdrehen | abbiegen | überqueren
+- skrenuti | abbiegen | wenden, umdrehen | springen
+- prijeći | überqueren | sich beeilen | zurückgehen
+- požuriti | sich beeilen | überqueren | sich ausruhen
+- morati | müssen | können | wollen
+- moći | können | müssen | wollen
+- ravno | geradeaus | rechts | zurück
+- natrag | zurück | vorwärts, nach vorn | weit
+- naprijed | vorwärts, nach vorn | zurück | geradeaus
+- sjever | Norden | Süden | Osten
+- zapad | Westen | Osten | Norden
+- zatim | dann, danach | genau | genug
+- otprilike | ungefähr | genau | weit
+- dovoljno | genug | ungefähr | genau
 
-## One person or a group?
+## Eine Person oder eine Gruppe?
 format: razvrstavanje
-info: Sorting orders by who they are for. Without **-te** the order is for one person you call *ti*; with **-te** it is for a group or for someone you call *vi*. *Nemoj* and *nemojte* follow the same split.
-infokratko: No **-te** → one person (*ti*). **-te** → a group or polite *vi*.
-stupci: ONE PERSON (ti) | A GROUP (vi)
-opis: Is the order for one friend, or for a group (or someone you call *vi*)?
-- Uzmi jaje! | ONE PERSON (ti)
-- Skreni desno! | ONE PERSON (ti)
-- Pij vodu! | ONE PERSON (ti)
-- Nemoj kasniti! | ONE PERSON (ti)
-- Zagrij tavu! | ONE PERSON (ti)
-- Dođi sutra! | ONE PERSON (ti)
-- Budi ovdje u osam! | ONE PERSON (ti)
-- Idi ravno! | ONE PERSON (ti)
-- Uzmite kartu! | A GROUP (vi)
-- Skrenite lijevo! | A GROUP (vi)
-- Pijte vodu! | A GROUP (vi)
-- Nemojte trčati! | A GROUP (vi)
-- Prijeđite most! | A GROUP (vi)
-- Dođite u devet! | A GROUP (vi)
-- Budite na kolodvoru u osam! | A GROUP (vi)
-- Idite natrag! | A GROUP (vi)
+info: Befehle danach sortieren, für wen sie sind. Ohne **-te** ist der Befehl für eine Person, die du mit *ti* ansprichst; mit **-te** ist er für eine Gruppe oder für jemanden, den du mit *vi* ansprichst. *Nemoj* und *nemojte* folgen derselben Aufteilung.
+infokratko: Kein **-te** → eine Person (*ti*). **-te** → eine Gruppe oder höfliches *vi*.
+stupci: EINE PERSON (ti) | EINE GRUPPE (vi)
+opis: Ist der Befehl für einen Freund oder für eine Gruppe (oder jemanden, den du mit *vi* ansprichst)?
+- Uzmi jaje! | EINE PERSON (ti)
+- Skreni desno! | EINE PERSON (ti)
+- Pij vodu! | EINE PERSON (ti)
+- Nemoj kasniti! | EINE PERSON (ti)
+- Zagrij tavu! | EINE PERSON (ti)
+- Dođi sutra! | EINE PERSON (ti)
+- Budi ovdje u osam! | EINE PERSON (ti)
+- Idi ravno! | EINE PERSON (ti)
+- Uzmite kartu! | EINE GRUPPE (vi)
+- Skrenite lijevo! | EINE GRUPPE (vi)
+- Pijte vodu! | EINE GRUPPE (vi)
+- Nemojte trčati! | EINE GRUPPE (vi)
+- Prijeđite most! | EINE GRUPPE (vi)
+- Dođite u devet! | EINE GRUPPE (vi)
+- Budite na kolodvoru u osam! | EINE GRUPPE (vi)
+- Idite natrag! | EINE GRUPPE (vi)
 
-## Command or request?
+## Befehl oder Bitte?
 format: razvrstavanje
-info: Sorting orders and polite requests. An order uses the imperative; a polite request is a question with *možeš li* or *možete li* and an infinitive. *Molim vas* makes an order softer, but it is still an order.
-infokratko: Imperative → command. *Možeš li / Možete li* + infinitive → polite request.
-stupci: COMMAND | POLITE REQUEST
-opis: Which one is a polite request?
-- Dodaj papar! | COMMAND
-- Možeš li dodati papar? | POLITE REQUEST
-- Skrenite desno! | COMMAND
-- Možete li skrenuti desno? | POLITE REQUEST
-- Stavi tijesto u pećnicu! | COMMAND
-- Možeš li staviti tijesto u pećnicu? | POLITE REQUEST
-- Molim vas, idite natrag. | COMMAND
-- Možete li ići natrag? | POLITE REQUEST
-- Požuri! | COMMAND
-- Možeš li požuriti? | POLITE REQUEST
-- Uzmite mapu! | COMMAND
-- Možete li uzeti mapu? | POLITE REQUEST
+info: Befehle und höfliche Bitten sortieren. Ein Befehl benutzt den Imperativ; eine höfliche Bitte ist eine Frage mit *možeš li* oder *možete li* und einem Infinitiv. *Molim vas* macht einen Befehl sanfter, aber es bleibt ein Befehl.
+infokratko: Imperativ → Befehl. *Možeš li / Možete li* + Infinitiv → höfliche Bitte.
+stupci: BEFEHL | HÖFLICHE BITTE
+opis: Was ist eine höfliche Bitte?
+- Dodaj papar! | BEFEHL
+- Možeš li dodati papar? | HÖFLICHE BITTE
+- Skrenite desno! | BEFEHL
+- Možete li skrenuti desno? | HÖFLICHE BITTE
+- Stavi tijesto u pećnicu! | BEFEHL
+- Možeš li staviti tijesto u pećnicu? | HÖFLICHE BITTE
+- Molim vas, idite natrag. | BEFEHL
+- Možete li ići natrag? | HÖFLICHE BITTE
+- Požuri! | BEFEHL
+- Možeš li požuriti? | HÖFLICHE BITTE
+- Uzmite mapu! | BEFEHL
+- Možete li uzeti mapu? | HÖFLICHE BITTE
 
 ## Tippe auf die Endung
 format: nastavak
 nastavci: aj | i | j
-info: One tap turns the verb into an order for one friend. Verbs whose *ti* form ends in **-aš** take **-aj**, verbs in **-eš** or **-iš** take **-i**, and when a *j* comes before *-eš* the order ends in that **j**.
+info: Ein Tippen macht aus dem Verb einen Befehl an einen Freund. Verben, deren *ti*-Form auf **-aš** endet, bekommen **-aj**, Verben auf **-eš** oder **-iš** bekommen **-i**, und wenn vor *-eš* ein *j* steht, endet der Befehl auf diesem **j**.
 infokratko: *-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
-opis: The *ti* form is in the English line. One tap makes the order.
+opis: Die *ti*-Form steht in der deutschen Zeile. Ein Tippen macht den Befehl.
 - Dod___ ulje! | Add the oil! (dodaš) | aj
 - Uzm___ žličicu! | Take a teaspoon! (uzmeš) | i
 - Zagri___ pećnicu! | Heat up the oven! (zagriješ) | j
 - Miješ___ tijesto! | Mix the dough! (miješaš) | aj
-- Stav___ tavu na štednjak! | Put the pan on the stove! (staviš) | i
+- Stav___ tavu na štednjak! | Stell die Pfanne auf den Herd! (staviš) | i
 - Pi___ limunadu! | Drink the lemonade! (piješ) | j
 - Skren___ desno! | Turn right! (skreneš) | i
-- Gled___ znak! | Look at the sign! (gledaš) | aj
+- Gled___ znak! | Schau auf das Schild! (gledaš) | aj
 - Kupu___ brašno! | Buy flour! (kupuješ) | j
 - Prijeđ___ cestu! | Cross the road! (prijeđeš) | i
 - Ček___ na uglu! | Wait on the corner! (čekaš) | aj
@@ -165,9 +165,9 @@ opis: The *ti* form is in the English line. One tap makes the order.
 
 ## Wähle die Form
 format: izbor
-info: Choosing the correct imperative. The wrong options take the wrong ending — **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j*. The bracket tells you who gets the order.
-infokratko: Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.
-opis: Choose the correct command.
+info: Den richtigen Imperativ wählen. Die falschen Optionen haben die falsche Endung – **-aj** bei einem Verb auf *-eš*, **-i** bei einem Verb auf *-aš* oder ein zusätzliches *-j*. Die Klammer sagt dir, wer den Befehl bekommt.
+infokratko: Nicht *uzmaj*, nicht *dodi*, nicht *uzmij*. Ein Freund: kein **-te**; Gruppe: **+te**.
+opis: Wähle den richtigen Befehl.
 - (prijatelju) ___ brašno! | Uzmi | Uzmaj | Uzmij
 - (grupi) ___ lijevo! | Skrenite | Skrenajte | Skrenijte
 - (prijatelju) ___ papar! | Dodaj | Dodi | Dodij
@@ -181,25 +181,25 @@ opis: Choose the correct command.
 - (prijatelju) ___ ravno! | Idi | Idaj | Idij
 - (grupi) ___ ovdje u osam! | Budite | Bidite | Bujte
 
-## The gentler "nemoj"
+## Das sanftere „nemoj“
 format: izbor
-info: Choosing the correct *don't* with *nemoj*. The verb after *nemoj* or *nemojte* stays in the infinitive, and *nemoj* is for one friend, *nemojte* for a group or *vi*. The wrong options put a personal ending or an order after it.
-infokratko: *nemoj / nemojte* + infinitive: *Nemoj kasniti!*
-opis: Choose the correct softer "don't".
+info: Das richtige Verbot mit *nemoj* wählen. Das Verb nach *nemoj* oder *nemojte* bleibt im Infinitiv, und *nemoj* ist für einen Freund, *nemojte* für eine Gruppe oder *vi*. Die falschen Optionen setzen danach eine Personalendung oder einen Befehl.
+infokratko: *nemoj / nemojte* + Infinitiv: *Nemoj kasniti!*
+opis: Wähle das richtige sanftere „nicht“.
 - (prijatelju) | Nemoj kasniti! | Nemoj kasni! | Nemoj kasniš!
 - (grupi) | Nemojte trčati! | Nemojte trčite! | Nemoj trčite!
 - (prijatelju) | Nemoj jesti tijesto! | Nemoj jedi tijesto! | Nemoj jedeš tijesto!
 - (grupi) | Nemojte skrenuti lijevo! | Nemojte skrenite lijevo! | Nemoj skrenete lijevo!
 - (prijatelju) | Nemoj piti kavu navečer! | Nemoj pij kavu navečer! | Nemoj piješ kavu navečer!
-- (vi, polite) | Nemojte ići autom! | Nemojte idite autom! | Nemoj idete autom!
+- (vi, höflich) | Nemojte ići autom! | Nemojte idite autom! | Nemoj idete autom!
 - (prijatelju) | Nemoj gledati mapu! | Nemoj gledaj mapu! | Nemoj gledaš mapu!
 - (grupi) | Nemojte čekati! | Nemojte čekajte! | Nemoj čekate!
 
-## Modal + infinitive
+## Modalverb + Infinitiv
 format: izbor
-info: Choosing the second verb after *mogu, moram* and *hoću*. Whatever the person, the second verb stays in the infinitive: *Moram ići, Možemo doći, Hoće plivati.* The wrong options give it a personal ending or turn it into an order.
-infokratko: After a modal: infinitive only — *Moram ići*, not *Moram idem*.
-opis: Choose the correct second verb.
+info: Das zweite Verb nach *mogu, moram* und *hoću* wählen. Egal welche Person, das zweite Verb bleibt im Infinitiv: *Moram ići, Možemo doći, Hoće plivati.* Die falschen Optionen geben ihm eine Personalendung oder machen einen Befehl daraus.
+infokratko: Nach einem Modalverb: nur Infinitiv – *Moram ići*, nicht *Moram idem*.
+opis: Wähle das richtige zweite Verb.
 - Moram ___ na kolodvor. | ići | idem | idi
 - Možeš li ___ ulje? | dodati | dodaš | dodaj
 - Ne mogu ___ tijesto. | miješati | miješam | miješaj
@@ -211,11 +211,11 @@ opis: Choose the correct second verb.
 - Hoćemo ___ palačinke. | peći | pečemo | pecimo
 - Možemo li ___ taksi? | uzeti | uzmemo | uzmimo
 
-## Make the command
+## Bilde den Befehl
 format: upis
-info: You make the order from the infinitive. Think of the *ti* form: **-aš** gives **-aj**, **-eš** and **-iš** give **-i**, *-ješ* gives **-j**. For a group add **-te**. *Idi, dođi, budi* and *peci* are learned whole.
-infokratko: *ti* form → **-aj / -i / -j**; group **+te**. Whole: *idi, dođi, budi, peci*.
-opis: Type the command. (ti) = one friend, (vi) = a group.
+info: Du bildest den Befehl aus dem Infinitiv. Denk an die *ti*-Form: **-aš** ergibt **-aj**, **-eš** und **-iš** ergeben **-i**, *-ješ* ergibt **-j**. Für eine Gruppe hängst du **-te** an. *Idi, dođi, budi* und *peci* lernt man als Ganzes.
+infokratko: *ti*-Form → **-aj / -i / -j**; Gruppe **+te**. Als Ganzes: *idi, dođi, budi, peci*.
+opis: Schreib den Befehl. (ti) = ein Freund, (vi) = eine Gruppe.
 - (ti) dodati → | Dodaj
 - (vi) dodati → | Dodajte
 - (ti) uzeti → | Uzmi
@@ -229,11 +229,11 @@ opis: Type the command. (ti) = one friend, (vi) = a group.
 - (ti) doći → | Dođi
 - (vi) biti → | Budite
 
-## Make it polite
+## Mach es höflich
 format: upis
-info: You turn each order into a polite question: a *ti* order becomes *Možeš li…?*, a *vi* order *Možete li…?*, and the order itself goes back to the infinitive: *dodaj → dodati, skrenite → skrenuti*.
-infokratko: *ti* → *Možeš li* + infinitive; *vi* → *Možete li* + infinitive.
-opis: Turn the command into a "možeš li / možete li" question.
+info: Du machst aus jedem Befehl eine höfliche Frage: Ein *ti*-Befehl wird zu *Možeš li…?*, ein *vi*-Befehl zu *Možete li…?*, und der Befehl selbst wird wieder zum Infinitiv: *dodaj → dodati, skrenite → skrenuti*.
+infokratko: *ti* → *Možeš li* + Infinitiv; *vi* → *Možete li* + Infinitiv.
+opis: Mach aus dem Befehl eine „možeš li / možete li“-Frage.
 - Dodaj papar! → | Možeš li dodati papar
 - Skrenite desno! → | Možete li skrenuti desno
 - Uzmi mapu! → | Možeš li uzeti mapu
@@ -245,28 +245,28 @@ opis: Turn the command into a "možeš li / možete li" question.
 - Požuri! → | Možeš li požuriti
 - Stavite tavu na štednjak! → | Možete li staviti tavu na štednjak
 
-## Type the modal
+## Schreib das Modalverb
 format: upis
-info: You type the modal verb in the form that matches the person. *Can* is *moći* (*mogu, možeš, može…*), *must* is *morati* (*moram, moraš…*), and *want* is *htjeti* (*hoću, hoćeš…*). *Mogu* is both *I can* and *they can*.
+info: Du schreibst das Modalverb in der Form, die zur Person passt. *Können* ist *moći* (*mogu, možeš, može…*), *müssen* ist *morati* (*moram, moraš…*), und *wollen* ist *htjeti* (*hoću, hoćeš…*). *Mogu* heißt sowohl *ich kann* als auch *sie können*.
 infokratko: *mogu, možeš…* / *moram, moraš…* / *hoću, hoćeš…*
-opis: Type the modal in the right person.
-- Ja ___ ići. (must) | moram
-- Ti ___ doći. (can) | možeš
-- Mi ___ kupiti brašno. (must) | moramo
-- Oni ne ___ plivati. (can) | mogu
-- Ona ___ limunadu. (want) | hoće
-- Vi ___ skrenuti ovdje. (can) | možete
-- Oni ___ požuriti. (must) | moraju
-- Ja ___ kavu. (want) | hoću
-- ___ li dodati sol? (can, ti) | Možeš
-- Marko ___ učiti. (must) | mora
+opis: Schreib das Modalverb in der richtigen Person.
+- Ja ___ ići. (müssen) | moram
+- Ti ___ doći. (können) | možeš
+- Mi ___ kupiti brašno. (müssen) | moramo
+- Oni ne ___ plivati. (können) | mogu
+- Ona ___ limunadu. (wollen) | hoće
+- Vi ___ skrenuti ovdje. (können) | možete
+- Oni ___ požuriti. (müssen) | moraju
+- Ja ___ kavu. (wollen) | hoću
+- ___ li dodati sol? (können, ti) | Možeš
+- Marko ___ učiti. (müssen) | mora
 
-## Read: the way to the beach
+## Lesen: der Weg zum Strand
 format: izbor
-info: A short story with directions in it. The woman speaks to two people, so her orders end in **-te** (*idite, skrenite, uzmite*), and one of them is a *don't* with *nemojte*. Find the order in the text that answers each question.
-infokratko: Orders to two people: **-te**. One *nemojte*. Find the order that answers the question.
+info: Eine kurze Geschichte mit einer Wegbeschreibung. Die Frau spricht mit zwei Personen, also enden ihre Befehle auf **-te** (*idite, skrenite, uzmite*), und einer davon ist ein Verbot mit *nemojte*. Finde den Befehl im Text, der jede Frage beantwortet.
+infokratko: Befehle an zwei Personen: **-te**. Ein *nemojte*. Finde den Befehl, der die Frage beantwortet.
 tekst: Ana i Petra su u Splitu i traže plažu. Na trgu pitaju jednu gospođu: "Oprostite, gdje je plaža?" Gospođa kaže: "Idite ravno do raskrižja. Tamo skrenite desno i hodajte pokraj mora otprilike deset minuta. Plaža je iza hotela. Ali nemojte ići autom, tamo nema parkinga! I uzmite vodu, danas je vruće." Petra pita: "Možete li nam pokazati na mapi?" Gospođa kaže: "Može!"
-opis: Read the text, then answer. Passive words: *jednu gospođu* (a lady), *nema parkinga* (there's no parking), *vruće* (hot), *nam* (to us).
+opis: Lies den Text und antworte dann. Passive Wörter: *jednu gospođu* (eine Dame), *nema parkinga* (es gibt keinen Parkplatz), *vruće* (heiß), *nam* (uns).
 - Što traže Ana i Petra? | plažu | hotel | kolodvor
 - Gdje pitaju gospođu? | na trgu | na plaži | u hotelu
 - Kamo trebaju ići prvo? | ravno do raskrižja | lijevo do hotela | natrag do trga
@@ -276,9 +276,9 @@ opis: Read the text, then answer. Passive words: *jednu gospođu* (a lady), *nem
 
 ## Aus den früheren Levels
 format: izbor
-info: A review of Levels 12 to 16: the genitive, the instrumental, the dative, the locative and negation, plus the perfect with both genders. Each item comes from a level you have finished, so read the brackets carefully.
-infokratko: Review: genitive, instrumental, dative, locative, negation, the perfect.
-opis: Not about the imperative — everything here comes from levels 10 to 16.
+info: Eine Wiederholung der Stufen 12 bis 16: der Genitiv, der Instrumental, der Dativ, der Lokativ und die Verneinung, dazu das Perfekt mit beiden Geschlechtern. Jede Aufgabe stammt aus einer Stufe, die du abgeschlossen hast, also lies die Klammern genau.
+infokratko: Wiederholung: Genitiv, Instrumental, Dativ, Lokativ, Verneinung, das Perfekt.
+opis: Nicht zum Imperativ – alles hier stammt aus den Stufen 10 bis 16.
 - Pijem kavu bez ___ . | šećera | šećer | šećerom
 - Dolazim iz ___ . (Split) | Splita | Split | Splitu
 - dvije ___ , molim | kave | kava | kavu
@@ -290,55 +290,55 @@ opis: Not about the imperative — everything here comes from levels 10 to 16.
 - Šaljem paket ___ . (brat) | bratu | brata | bratom
 - Ana je u ___ . (kuhinja) | kuhinji | kuhinju | kuhinje
 - Vidimo se na ___ . (kolodvor) | kolodvoru | kolodvor | kolodvora
-- Marko ___ ne jede. (nothing) | ništa | nešto | nitko
+- Marko ___ ne jede. (nichts) | ništa | nešto | nitko
 - Ne idem autom, ___ vlakom. | nego | ali | i
 - Mi ___ vremena. | nemamo | ne imamo | nismo
-- Jučer sam ___ juhu. (kuhati, a woman speaking) | kuhala | kuhao | kuhale
+- Jučer sam ___ juhu. (kuhati, eine Frau spricht) | kuhala | kuhao | kuhale
 - Ana i Petra su ___ na plaži. (biti) | bile | bio | bila
 - Marko je ___ kartu. (kupiti) | kupio | kupila | kupili
 - Koja je rečenica točna? | Nisam pio kavu. | Ne sam pio kavu. | Nisam pili kavu.
 - Koja je rečenica točna? | Idem u knjižnicu jer je Ana u knjižnici. | Idem u knjižnicu jer Ana je u knjižnici. | Idem u knjižnici jer je Ana u knjižnicu.
 - Sutra ___ peći palačinke. (ja) | ću | ćeš | će
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-info: Whole sentences with orders, requests and modals, built from tiles. The order usually opens the sentence, *ne* stands right in front of it, *nemoj* and the modals are followed by an infinitive, and *molim vas* takes a comma.
-infokratko: The order first; *ne* right before it; *nemoj* and modals + infinitive; *Molim vas, …*
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- Uzmi tri jaja i dodaj brašno. | en: Take three eggs and add the flour.
-- Na raskrižju skrenite desno. | en: At the crossroads turn right.
-- Nemoj kasniti! | en: Don't be late!
-- Ne trčite preko ceste! | en: Don't run across the road!
-- Možete li skrenuti lijevo? | en: Can you turn left?
-- Molim te, dodaj papar. | en: Please pass the pepper.
-- Zagrij pećnicu i stavi tijesto. | en: Heat up the oven and put in the dough.
-- Idite ravno do semafora. | en: Go straight to the traffic lights.
-- Ne mogu doći jer moram raditi. | en: I can't come because I have to work.
-- Hoćeš li limunadu? — Može! | en: Do you want lemonade? — Sure!
-- Pjevajmo zajedno! | en: Let's sing together!
-- Nemojte ići autom! | en: Don't go by car!
-- Moramo kupiti ulje i brašno. | en: We have to buy oil and flour.
-- Kolodvor je otprilike dva kilometra daleko. | en: The station is about two kilometres away.
-- Idi natrag do ugla. | en: Go back to the corner.
+info: Ganze Sätze mit Befehlen, Bitten und Modalverben, aus Kacheln gebaut. Der Befehl eröffnet meist den Satz, *ne* steht direkt davor, auf *nemoj* und die Modalverben folgt ein Infinitiv, und *molim vas* bekommt ein Komma.
+infokratko: Der Befehl zuerst; *ne* direkt davor; *nemoj* und Modalverben + Infinitiv; *Molim vas, …*
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- Uzmi tri jaja i dodaj brašno. | en: Nimm drei Eier und füg das Mehl hinzu.
+- Na raskrižju skrenite desno. | en: An der Kreuzung biegen Sie rechts ab.
+- Nemoj kasniti! | en: Komm nicht zu spät!
+- Ne trčite preko ceste! | en: Lauf nicht über die Straße!
+- Možete li skrenuti lijevo? | en: Können Sie links abbiegen?
+- Molim te, dodaj papar. | en: Gib mir bitte den Pfeffer.
+- Zagrij pećnicu i stavi tijesto. | en: Heiz den Backofen vor und schieb den Teig hinein.
+- Idite ravno do semafora. | en: Gehen Sie geradeaus bis zur Ampel.
+- Ne mogu doći jer moram raditi. | en: Ich kann nicht kommen, weil ich arbeiten muss.
+- Hoćeš li limunadu? — Može! | en: Willst du Limonade? – Klar!
+- Pjevajmo zajedno! | en: Singen wir zusammen!
+- Nemojte ići autom! | en: Fahrt nicht mit dem Auto!
+- Moramo kupiti ulje i brašno. | en: Wir müssen Öl und Mehl kaufen.
+- Kolodvor je otprilike dva kilometra daleko. | en: Der Bahnhof ist ungefähr zwei Kilometer entfernt.
+- Idi natrag do ugla. | en: Geh zurück zur Ecke.
 
 ## Schreib es auf Kroatisch
 format: upis
-info: Free production from English. An order uses the imperative, with **-te** for a group or *vi*; *don't* is *ne* + order or *nemoj* + infinitive; a polite request is *Možeš li…?* or *Možete li…?*; and a modal is followed by an infinitive.
-infokratko: Imperative (**+te**); *ne / nemoj*; *Možeš li / Možete li*; modal + infinitive.
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- Take the flour! (to a friend) | Uzmi brašno
-- Add the oil! (to a group) | Dodajte ulje
-- Turn left! (polite) | Skrenite lijevo
-- Go straight ahead! (to a friend) | Idi ravno
-- Come tomorrow! (to a group) | Dođite sutra
-- Don't be late! (to a friend) | Nemoj kasniti / Ne kasni
-- Don't run! (to a group) | Ne trčite / Nemojte trčati
-- Can you add the salt? (to a friend) | Možeš li dodati sol
-- Can you wait? (polite) | Možete li čekati
-- I must go. | Moram ići
-- We can't come. | Ne možemo doći
-- Let's go! | Idemo
-- Heat up the oven! (to a friend) | Zagrij pećnicu
-- Cross the road! (polite) | Prijeđite cestu
-- Please wait! (polite) | Molim vas, čekajte / Čekajte, molim vas
-- Do you want lemonade? (to a friend) | Hoćeš li limunadu / Želiš li limunadu
+info: Freie Produktion aus dem Deutschen. Ein Befehl benutzt den Imperativ, mit **-te** für eine Gruppe oder *vi*; *nicht* ist *ne* + Befehl oder *nemoj* + Infinitiv; eine höfliche Bitte ist *Možeš li…?* oder *Možete li…?*; und auf ein Modalverb folgt ein Infinitiv.
+infokratko: Imperativ (**+te**); *ne / nemoj*; *Možeš li / Možete li*; Modalverb + Infinitiv.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Nimm das Mehl! (zu einem Freund) | Uzmi brašno
+- Fügt das Öl hinzu! (zu einer Gruppe) | Dodajte ulje
+- Biegen Sie links ab! (höflich) | Skrenite lijevo
+- Geh geradeaus! (zu einem Freund) | Idi ravno
+- Kommt morgen! (zu einer Gruppe) | Dođite sutra
+- Komm nicht zu spät! (zu einem Freund) | Nemoj kasniti / Ne kasni
+- Lauft nicht! (zu einer Gruppe) | Ne trčite / Nemojte trčati
+- Kannst du das Salz hinzufügen? (zu einem Freund) | Možeš li dodati sol
+- Können Sie warten? (höflich) | Možete li čekati
+- Ich muss gehen. | Moram ići
+- Wir können nicht kommen. | Ne možemo doći
+- Gehen wir! | Idemo
+- Heiz den Backofen vor! (zu einem Freund) | Zagrij pećnicu
+- Gehen Sie über die Straße! (höflich) | Prijeđite cestu
+- Bitte warten Sie! (höflich) | Molim vas, čekajte / Čekajte, molim vas
+- Willst du Limonade? (zu einem Freund) | Hoćeš li limunadu / Želiš li limunadu

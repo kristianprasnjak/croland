@@ -1,0 +1,325 @@
+0	Complex Sentences
+1	The rule: all together
+2	The reference page for joined sentences. *Jer / zato što, kad, ako, dok, iako* join two events; the part with the connector gets a comma when it comes first; short words take the second place after the connector; and *koji* agrees with its noun and takes the case its own sentence needs.
+3	*jer, kad, ako, dok, iako*; comma when that part is first; *jer je*; *koji / koja / koje / koju*.
+4	The last grammar page — where everything you have learned works together.
+5	tab: reason | jer, zato što | Ostajem doma **jer** pada kiša.
+6	tab: time | kad | **Kad** dođeš, zovi me.
+7	tab: at the same time | dok | **Dok** ja kuham, ti biraš film.
+8	tab: contrast | iako | **Iako** je spor, vlak je ugodan.
+9	**The comma.** When the connector part comes *first*, put a comma after it: *Ako pada kiša**,** ostat ćemo doma.* When it comes second, no comma is needed before *kad* and *ako*; before *jer* and *iako* a comma is common.
+10	**Short words after the connector.** The connector counts as the first word, so *je, sam, ću, ga, se* come right after it: *jer **je** dan lijep, kad **sam** bila mala, ako **ga** vidiš*.
+11	**koji agrees like an adjective.** *grad **koji** je star, pjesma **koja** je lijepa, more **koje** je toplo, knjiga **koju** čitam* — the last one is the target of *čitam*, so **-a → -u**.
+12	**The whole course in one sentence:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep.*
+13	**Now you write them.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep.
+14	Choosing the connector that fits both halves. A reason takes *jer*, a condition *ako*, a contrast *iako*, a time *kad*, two things at once *dok*. *Kao* cannot introduce a sentence, so it is never the answer here.
+15	reason *jer*, condition *ako*, contrast *iako*, time *kad*, at once *dok*.
+16	koji, koja, koje or koju?
+17	Choosing the form of *koji* in the nominative and the target form. The noun in front decides gender and number; the verb after it decides the case. Only the feminine singular has a separate target form, *koju*; masculine things and neuter nouns look the same in both jobs.
+18	m. *koji*, f. *koja*, n. *koje*; f. target *koju*.
+19	Match the relative pronoun.
+20	Join with a connector
+21	You join two sentences with the connector in brackets. Put the connector in front of its own sentence and keep the word order of both halves; when the connector part comes first, a comma follows it. Both orders are accepted where they make sense.
+22	connector + its sentence; comma when that part is first.
+23	Join with the connector in brackets.
+24	The rule: da — the connector that carries everything
+25	The second rule. *Da* joins a sentence to a verb of saying, thinking or knowing: *Znam da je Zagreb velik.* There is no comma before it and no change of tense. *Da* + present also replaces the infinitive when the subjects are different: *Želim da dođeš.* And *koji* now takes every case.
+26	*Znam da…, Mislim da…, Rekao je da…* No comma, no tense shift. *Želim da dođeš.* *koji* in all cases.
+27	*Jer, kad, ako, dok, iako* join two **events**. ***Da*** joins a sentence to a **verb of saying, thinking, knowing or hoping** — and it is the most frequent connector in Croatian.
+28	tab: Verb | Example | English
+29	tab: znati | Znam **da** je Zagreb velik. | I know that Zagreb is big.
+30	tab: misliti | Mislim **da** ćeš doći. | I think you'll come.
+31	tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | He / She said he / she had no time.
+32	tab: nadati se | Nadam se **da** je sve u redu. | I hope everything's fine.
+33	**No tense shift.** English turns *He said: I am tired* into *He said he **was** tired*. Croatian keeps the original tense: *Rekao je **da je** umoran.*
+34	**Da + present when the subjects are different.** *Želim **doći**.* = I want to come (myself). *Želim **da dođeš**.* = I want *you* to come.
+35	**koji in the other cases.** It takes the case its own sentence needs, with the adjective endings: *čovjek **kojeg** čekam* (target, a person), *grad u **kojem** živim* (place), *vlak **kojim** putujem* (means), *prijatelj **kojem** pišem* (receiver), *kuća u **kojoj** živim* (place, feminine).
+36	**Now you write them.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim.
+37	Choosing between *da* and the other connectors. After *znam, mislim, nadam se, rekao je* the sentence that follows is joined with *da*. A reason takes *jer*, a condition *ako*, a contrast *iako*. *Da* never means *because*.
+38	after *znam, mislim, nadam se, rekao je* → *da*; reason *jer*; condition *ako*.
+39	An event, a reason, a condition — or a reported thought?
+40	koji in the right case
+41	Choosing the case of *koji* from its own sentence. A person as the target takes *kojeg*, a place after *u* or *na* takes *kojem* (or *kojoj* for a feminine noun), a vehicle takes *kojim*, and a receiver *kojem*. Ask the question inside the *koji* sentence: *koga? gdje? čime? komu?*
+42	person target *kojeg*; place *u kojem / u kojoj*; means *kojim*; receiver *kojem*.
+43	The relative pronoun takes the case its own clause needs.
+44	Which case is koji?
+45	Sorting *koji* forms by case. The naming form (*koji, koja, koje*) is the subject of its sentence; the target has *kojeg* for a person and *koju* for a feminine noun; *kojem / kojoj* after *u* is a place; *kojim* is company or means.
+46	naming *koji / koja*; target *kojeg / koju*; place *u kojem / u kojoj*; means *kojim*.
+47	SUBJECT
+48	TARGET
+49	PLACE
+50	MEANS
+51	What job does *koji* do in its own sentence?
+52	One tap finishes *koj___* in the case its own sentence needs. Subject: **-i** or **-a**. Target: **-eg** for a person, **-u** for a feminine noun. Place after *u*: **-em**, or **-oj** for a feminine noun. Means: **-im**, or **-om** for a feminine noun. A receiver takes **-em**.
+53	subject **-i / -a**; target **-eg / -u**; place **-em / -oj**; means **-im / -om**; receiver **-em**.
+54	The film we're watching lasts three hours.
+55	The book I'm reading is new.
+56	That's the man I'm waiting for.
+57	The town I live in is old.
+58	The train I travel by is slow.
+59	The house Grandma lives in is near the sea.
+60	The song that is beautiful.
+61	The friend I'm writing to lives in Split.
+62	The brother I see every day.
+63	The bus I take to work is always late.
+64	The street with the post office is small.
+65	The girl who is singing is my sister.
+66	The coffee I'm drinking is strong.
+67	People who live on the island have time.
+68	The village we were in is small.
+69	The pencil I write with is red.
+70	Where do the short words go?
+71	Choosing the sentence with the short words in the right place. After a connector — *jer, kad, ako, da, koji* — the short words *je, sam, ću, ga, se* come immediately after it, because the connector counts as the first word.
+72	connector + short word: *jer je, da ćeš, kad sam, koji se*.
+73	because the concert is on Saturday
+74	I think you'll come
+75	when I was little
+76	if you see him
+77	although it is late
+78	he said he was tired
+79	the man who is laughing
+80	because I will be late
+81	I hope it's fine
+82	when I get back
+83	Join it with da
+84	You report a thought or a statement by joining the two halves with *da*. No comma before *da*, no change of tense, and the short words come right after it: *da je, da ćeš*. With a different subject, *želim* is followed by *da* + present.
+85	*Znam da…, Mislim da ćeš…, Rekao je da…, Želim da dođeš.* No comma.
+86	Report the thought — join the halves with "da".
+87	The final sentence
+88	The last sentences of the course, built from tiles. Each joins at least two thoughts: *koji* after its noun, *da* after a verb of thinking, *jer, ako, iako* in front of their own half, and short words right after the connector.
+89	*koji* after its noun; *da* after *mislim*; short words right after the connector.
+90	The graduation sentences!
+91	Free production from English, and the last step of the grammar. Join the halves with the right connector, put the short words right after it, use *da* after verbs of saying and thinking, and give *koji* the case its own sentence needs. Where the speaker's gender shows, both forms are accepted.
+92	Connector + sentence; *da* after *mislim, znam*; *koji* in its case. Both genders accepted.
+93	I'm learning Croatian because I love the sea.
+94	If it's sunny, we're going to the beach.
+95	Although the train is slow, it's pleasant.
+96	While I'm cooking, you choose the film.
+97	When you come, call me.
+98	I know that Zagreb is big.
+99	I think you'll come.
+100	I hope everything is fine.
+101	I want you to come.
+102	He said he had no time.
+103	The man I'm waiting for is late.
+104	I've learned a language that sounds like music.
+105	A closing summary of the grammar of the course. Two sentences become one with *jer, kad, ako, dok, iako* or *da*; the short words follow the connector; and *koji* attaches a sentence to a noun, in whatever case its own sentence needs.
+106	*jer, kad, ako, dok, iako, da*; short words after the connector; *koji* in every case.
+107	**Bravo.** You can now say why, when, if, although and *that* — and join a description to any noun with *koji*.
+108	And you did it with the same rules you have used all course long: **short words take the second place**, **each noun takes the case its job needs**, and **the connector opens its own sentence**.
+109	**Next up:** Practice 20 reads the summer you remember and Emma's essay, and the final test closes the course. Čestitamo!
+110	Reading: The Summer I Remember
+111	Text 1: The summer I remember
+112	A memory told by Ana, and every sentence joins two thoughts. Read it twice: once for the story, once for the connectors — *kad* for the time, *dok* for two things at once, *jer* and *zato što* for the reason, *ako* for the plan, and *koji / koje* for a description.
+113	*kad, dok, jer, zato što, ako* + *koji / koje*. Ana speaks: *imala sam, plivala sam*.
+114	Ana remembers her first summer on an island. Tap **EN** next to any sentence to see its translation.
+115	Passive words: *postoji* (there is), *zaboraviti* (to forget), *plovio* (was sailing), *izgledao* (looked), *postao* (became), *dok sunce nije zašlo* (until the sun set), *neka mjesta* (some places).
+116	Postoji ljeto koje nikad neću zaboraviti. | There is a summer I will never forget.
+117	Imala sam deset godina kad smo prvi put putovali na otok. | I was ten years old when we travelled to the island for the first time.
+118	Dok je trajekt plovio, ja sam stajala i gledala galebove. | While the ferry was sailing, I stood and watched the seagulls.
+119	Otok, koji je izgledao malen, postao je cijeli moj svijet. | The island, which looked small, became my whole world.
+120	Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. | I swam until the sun set, because the sea was as warm as soup.
+121	Ako jednog dana imam djecu, vodit ću i njih na isti otok. | If one day I have children, I will take them to the same island too.
+122	Zato što neka mjesta nisu samo mjesta. Ona su uspomene. | Because some places are not just places. They are memories.
+123	Comprehension on Ana's memory. The connectors lead to the answers: *kad* tells you how old she was, *dok* what she did on the ferry, *jer* why she swam so long, and the last line what some places really are.
+124	*kad* → her age; *dok* → on the ferry; *jer* → why she swam.
+125	Copy each connector back into its line. *Koje* describes the summer (a neuter noun), *kad* gives the time, *dok* two things at once, *jer* the reason and *ako* the plan. Read the whole line before you choose.
+126	*koje* (the summer), *kad* time, *dok* at once, *jer* reason, *ako* plan.
+127	Fill in the connector from the text.
+128	Text 2: If it's sunny
+129	Ana and Marko plan tomorrow, and nearly every line is a condition with *ako*: *ako je sunčano… ako pada kiša…* The other connectors come too — *koji* for the film, *iako* for the contrast and *dok* for two things at the same time.
+130	*ako je sunčano, ako pada kiša*; *film koji…, iako je dug, dok ti biraš*.
+131	Ana and Marko plan the weekend. Tap **EN** to see any line in English.
+132	Passive words: *htio* (wanted), *onaj* (that one), *baš taj* (exactly that one), *kažu da* (they say that), *mislim* (I do the thinking).
+133	— Marko, što radimo sutra ako je sunčano? | — Marko, what are we doing tomorrow if it's sunny?
+134	— Ako je sunčano, idemo na rijeku! | — If it's sunny, we're going to the river!
+135	— A ako pada kiša? | — And if it rains?
+136	— Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela. | — If it rains, we'll stay home and watch the film you wanted.
+137	— Onaj koji traje tri sata? | — The one that lasts three hours?
+138	— Da, baš taj! Iako je dug, kažu da je odličan. | — Yes, exactly that one! Although it's long, they say it's excellent.
+139	— Dobro. A ja kuham ručak dok ti biraš film. | — Fine. And I'll cook lunch while you choose the film.
+140	— Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim! | — Deal! See why we're a good team: you cook, and I do the thinking!
+141	Match condition & plan
+142	Each condition or time from Text 2 beside the plan that goes with it. *Ako* gives the condition, *dok* two things at once, and *iako* something true in spite of the other half.
+143	*ako* → the plan; *dok* → at the same time; *iako* → in spite of.
+144	Match the condition with the plan.
+145	idemo na rijeku
+146	ostat ćemo doma i gledat ćemo film
+147	Ana kuha ručak
+148	kažu da je odličan
+149	tri sata
+150	Rebuild the plan line by line. The sunny plan comes before the rainy one, the film comes up only in the rainy plan, and the lunch is decided after the film. The deal is the last line.
+151	Sun, then rain, then the film, then lunch, then the deal.
+152	Rebuild the weekend negotiation.
+153	Text 3: Why I'm learning Croatian (an essay)
+154	Ben's essay about learning Croatian, and the longest text of the course. Nearly every sentence uses a connector — *jer, kad, dok, ako* — or *koji* in several forms (*koji zvuči, koje je plavo, koji su stariji*). *Da* after *mislio sam* and *otkrio sam* means *that*.
+155	*jer, kad, dok, ako*; *koji / koje / koji*; *mislio sam da* = I thought that.
+156	Ben, who comes from Canada, writes about his Croatian. Tap **EN** to see any line in English.
+157	Passive words: *pretežak* (too difficult), *otkrio* (discovered), *otkrivam* (I'm discovering), *stariji od mnogih država* (older than many countries), *stajao* (stood), *učenja* (of learning), *imao smisla* (made sense).
+158	Zovem se Ben i dolazim iz Kanade. | My name is Ben and I come from Canada.
+159	Učim hrvatski jer volim jezik koji zvuči kao glazba. | I'm learning Croatian because I love a language that sounds like music.
+160	Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | When I first heard Croatian, I thought it was too difficult.
+161	Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... | But I discovered that I already know many words: banana, hotel, film, chocolate...
+162	Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu. | While I learn the language, I'm also discovering the country: a sea that is as blue as in the pictures, towns that are older than many countries, and people who always have time for coffee.
+163	Ako jednog dana na rivi naručim kavu bez greške, znat ću da je svaki sat učenja imao smisla. | If one day I order a coffee on the waterfront without a mistake, I'll know that every hour of learning made sense.
+164	A vi? Zašto vi učite hrvatski? | And you? Why are you learning Croatian?
+165	Check each statement against Ben's essay. *Mislio sam da je pretežak* is what he thought at the start, *otkrio sam da već znam mnogo riječi* is what he found out, and the *koji* parts describe the country.
+166	At the start: *pretežak*. Then: *već znam mnogo riječi*. *koji* describes the country.
+167	The essay's key sentence
+168	Copy the connectors back into Ben's key sentences. *Jer* gives his reason, *koji / koje* describe the language, the sea and the towns, *kad* and *dok* give the time, and *da* follows *mislio sam* and *znat ću*.
+169	*jer* reason; *koji / koje* description; *kad, dok* time; *da* after *mislio sam*.
+170	Fill in the connectors.
+171	Text 4: A postcard from the island
+172	A real postcard, the kind you still send from a Croatian island. It has a greeting, a few long sentences with *koju, iako, kad* and *da*, a signature and an address. Read it as a postcard: who writes, to whom, from where.
+173	A real postcard: greeting, *koju, iako, kad, da*, signature, address.
+174	Petra writes to Grandma from Brač. Tap **EN** to see any line in English.
+175	Passive words: *Pozdrav s otoka* (Greetings from the island), *prekrasno* (wonderful), *vraćamo se* (we're coming back), *jedva čekam* (I can't wait), *puno pozdrava* (lots of love).
+176	POZDRAV S OTOKA BRAČA! | GREETINGS FROM THE ISLAND OF BRAČ!
+177	Draga bako, | Dear Grandma,
+178	ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. | it's wonderful here! The sea is as warm as soup, and the beach you see in the picture is close to our house.
+179	Svaki dan plivam, iako je voda ujutro hladna. | I swim every day, although the water is cold in the morning.
+180	Kad pada kiša, čitamo knjige i pijemo čaj. | When it rains, we read books and drink tea.
+181	Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! | Mum says we're coming back on Saturday. I can't wait for your pancakes!
+182	Puno pozdrava, tvoja Petra | Lots of love, your Petra
+183	Did you read the postcard?
+184	Reading the postcard for the facts. Each answer is in one sentence: *koju* tells you which beach, *iako* what is true in spite of the swimming, *kad* what happens on rainy days, and *da* what Mum says.
+185	*koju* → the beach; *iako* → the cold water; *kad* → rainy days; *da* → Mum's plan.
+186	Answer from the postcard.
+187	Text 5: Four summers
+188	A puzzle rather than a story. Four friends spent the summer in four different places, and every clue joins two thoughts with *jer, iako* or *ali*. Start with Marko: two clues are enough to place him.
+189	Four friends, four summers, no labels. Read it twice before you answer.
+190	Passive words: *svatko* (each one), *negdje drugdje* (somewhere else), *ove godine* (this year), *tamo* (there).
+191	Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. | Ana, Marko, Petra and Ivan spent the summer in four places: on an island, in the mountains, in Split and in Zagreb.
+192	Svatko je bio negdje drugdje. | Each one was somewhere else.
+193	Ana nije bila na moru, jer ne voli more. | Ana wasn't at the seaside, because she doesn't like the sea.
+194	Marko je plivao svaki dan. | Marko swam every day.
+195	Iako Marko voli Split, ove godine nije bio tamo. | Although Marko likes Split, this year he wasn't there.
+196	Petra nije bila ni u Zagrebu ni na otoku. | Petra was neither in Zagreb nor on the island.
+197	Petra cijelo ljeto nije plivala. | Petra didn't swim all summer.
+198	Ivan je bio u gradu, ali ne u Zagrebu. | Ivan was in a city, but not in Zagreb.
+199	Tko je bio gdje? | Who was where?
+200	Deduction from the clues. Marko swam every day but was not in Split, so he was on the island. Ivan was in a city but not in Zagreb, so he was in Split. Petra did not swim and was not in Zagreb, so she was in the mountains, and Ana was in Zagreb.
+201	Marko first (the island), then Ivan (Split), Petra (the mountains), Ana (Zagreb).
+202	Nobody says who was where. Work it out from the text.
+203	One tap finishes *koj___*, and almost every sentence comes from the five texts. A masculine noun and a group of people take **-i**, a feminine noun **-a**, a neuter noun and a feminine plural **-e**, and a feminine noun that is the target in its own sentence **-u**.
+204	Almost every sentence came out of the five texts. One tap finishes *koji*.
+205	There is a summer I will never forget.
+206	The island, which looked small, became my world.
+207	We'll watch the film you wanted.
+208	The one that lasts three hours?
+209	I love a language that sounds like music.
+210	A sea that is as blue as in the pictures.
+211	People who always have time for coffee.
+212	The beach you see in the picture is close to the house.
+213	Towns that are older than many countries.
+214	That's the postcard Petra sent.
+215	Petra has a dog that loves swimming.
+216	The water that is cold in the morning.
+217	The books we read when it rains.
+218	The pancakes Grandma makes are excellent.
+219	A memory I will never forget.
+220	Why, when, if or although?
+221	Sorting sentences from the texts by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.
+222	Why, when, if or although? Sort the sentences from the texts.
+223	Now YOU remember
+224	Your turn: a friend asks about the summer you will never forget. Your answers use *kad, jer, koji* and *iako*, and where your gender shows (*bio / bila*), both forms are offered. The friend reacts to the place you choose.
+225	*kad, jer, koji, iako*; *bio / bila* in both forms. Your friend reacts.
+226	A café, a friend and old memories. Choose your replies. Passive words: *zaboraviti* (to forget), *sjećam se* (I remember), *još uvijek* (still), *Idemo zajedno!* (Let's go together!).
+227	English in, Croatian out, built from tiles taken from the five texts — your graduation sentences. The connector opens its own half, short words take the second place right after it, and *koji* stands right after its noun.
+228	Connector opens its half; short words right after it; *koji* after its noun.
+229	Read the English sentence, then build its Croatian translation — your graduation sentences!
+230	en: I'm learning Croatian because I love a language that sounds like music.
+231	en: If it rains, we'll stay home.
+232	en: Some places are not just places.
+233	en: There is a summer I will never forget.
+234	en: I was ten years old when we first travelled to the island.
+235	en: While the ferry was sailing, I watched the seagulls.
+236	en: If it's sunny, we're going to the river!
+237	en: Although the film is long, they say it's excellent.
+238	en: I'm cooking lunch while you choose the film.
+239	en: When I first heard Croatian, I thought it was too difficult.
+240	en: The beach you see in the picture is close to our house.
+241	en: I swim every day, although the water is cold.
+242	en: Mum says we're coming back on Saturday.
+243	en: Ana wasn't at the seaside, because she doesn't like the sea.
+244	en: And you? Why are you learning Croatian?
+245	A last timed picture-to-word tap over a Croatian summer. Everything is in its naming form; make a sentence with it in your head as you tap — *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*
+246	Naming forms. Think *trajekt koji plovi, more koje je plavo*.
+247	The last ferry of the summer is leaving! A picture appears — tap the balloon with its word before it floats away.
+248	Final challenge
+249	The last page of the course's reading. Say your own answer to the essay's question out loud, in one sentence with *jer* or *koji* — there is no wrong answer here, only your own Croatian.
+250	Your own answer, out loud: one sentence with *jer* or *koji*.
+251	And now — say YOUR answer out loud: **Zašto vi učite hrvatski?**
+252	One sentence with *jer* or *koji*. There's no wrong answer — only your own first real Croatian thought.
+253	Test 20: The Final Test
+254	The words of Level 20: connectors, memories, the sea and the words for learning a language. Nouns are in their naming form and verbs in the infinitive. Several connectors look alike — *kad, ako, dok, iako* — so read the English carefully.
+255	Level 20 words: connectors, memories, the sea, learning.
+256	that
+257	to exist
+258	Recognition of the Level 20 words, with three meanings to choose from. The wrong options come from the same group — connectors, the sea or learning — so the words that are close in meaning are the real test.
+259	Level 20 words; the wrong options come from the same group.
+260	still
+261	so
+262	many
+263	meaning
+264	to seem
+265	Choosing the connector that fits both halves. After *znam, mislim, nadam se, rekao je* the answer is *da*; a reason takes *jer*, a condition *ako*, a contrast *iako*, a time *kad* or *dok*. *Kao* cannot introduce a sentence.
+266	*da* after *znam, mislim*; reason *jer*; condition *ako*; contrast *iako*; time *kad / dok*.
+267	One tap finishes *koj___* in the case its own sentence needs. Subject: **-i** (masculine, people), **-a** (feminine), **-e** (neuter, feminine plural). Target: **-u** for a feminine noun, **-eg** for a person. Place after *u*: **-em**. Means: **-im**.
+268	subject **-i / -a / -e**; target **-u / -eg**; place **-em**; means **-im**.
+269	A sea that is blue.
+270	A song that is beautiful.
+271	People who live by the sea.
+272	The beach you see in the picture.
+273	The books that are on the table.
+274	The village we were in.
+275	The bus I take to work.
+276	Choosing the case of *koji* from its own sentence. Ask the question inside that sentence: *tko? / što?* gives *koji, koja, koje*; the target gives *koju* or *kojeg*; *gdje?* after *u* gives *kojem* or *kojoj*; *čime?* gives *kojim*.
+277	subject *koji / koja / koje*; target *koju / kojeg*; place *u kojem / u kojoj*; means *kojim*.
+278	Choosing the sentence with the short words in the right place. After a connector — *jer, kad, ako, da, iako, koji* — the short words *je, sam, ću, ga, se* come immediately after it, because the connector counts as the first word.
+279	because it is late
+280	although it is cold
+281	she said she was tired
+282	The cases, one last time
+283	A review of all six cases from the course. The question behind the word decides the ending: *kamo?* accusative after *u / na*, *gdje?* locative, *komu?* dative, *s kim? / čime?* instrumental, *čiji? / bez čega? / nema* genitive, and the target of the verb accusative.
+284	accusative, locative, dative, instrumental, genitive — the question decides.
+285	The naming form is in brackets. Choose the form that fits.
+286	The verbs, one last time
+287	A review of every verb form from the course: the present, the perfect with both genders, the future, the imperative, the conditional and the two aspects. Read the bracket for the person and the time before you choose.
+288	present, perfect (both genders), future, imperative, conditional, aspect.
+289	Jučer sam ___ u kinu. (biti, a woman speaking)
+290	Read: the last letter
+291	A letter that uses almost everything from the course: the past, the future, the conditional, the cases and the connectors. Find the sentence that answers each question — the connector in it (*jer, kad, iako, ako*) usually points the way.
+292	Everything from the course. The connector in the sentence points to the answer.
+293	Read the letter, then answer. Passive words: *mjesec dana* (a month), *stigla* (arrived), *svako jutro* (every morning), *mi se sviđa* (I like), *u kolovozu* (in August).
+294	The beginning of the course, one last time: gender and adjectives, *biti*, the present, the family and connectors, the first accusatives, the plural, the future, possessives and the perfect. Each item comes from Levels 1 to 10.
+295	Levels 1 to 10: gender, *biti*, present, accusative, plural, future, possessives, perfect.
+296	Everything here comes from levels 1 to 10.
+297	Njegov dres je plav, a ___ je crven. (mine)
+298	Jučer sam ___ film. (gledati, a man speaking)
+299	The key sentences of the whole course, one per level group, built from tiles. Short words take the second place in each half, the connector opens its own half, and each noun takes the case its job needs.
+300	The course's key sentences. Short words second; connector opens its half.
+301	en: The flat is small, but the home is warm.
+302	en: Mum is cooking fresh fish, and I'm eating a sweet pie.
+303	en: Ana was singing, and Marko was playing the guitar.
+304	en: She was drinking her coffee slowly, and he drank his up at once.
+305	en: I think this was a good beginning.
+306	en: The town I live in is old.
+307	Free production from English, the last task of the course. Each sentence uses a different part of Croatian grammar: cases, tenses, the imperative, the conditional, aspect and joined sentences. Where the speaker's gender shows, both forms are accepted.
+308	The whole course in sixteen sentences. Both genders accepted.
+309	I'm drinking coffee without sugar.
+310	I'm going to the cinema with my sister.
+311	I'm writing a letter to Grandma.
+312	Yesterday I watched a film.
+313	Tomorrow I'll swim.
+314	Although it's cold, I'm swimming.
+315	Nobody knows.
+316	Sort the adjectives — Lesson 1
+317	Each noun likes adjectives that sound like it. Tap a word, then the column it belongs to!
+318	velika | KUĆA
+319	veliko | MORE
+320	nova | KUĆA
+321	novo | MORE
+322	stara | KUĆA
+323	staro | MORE
+324	dobro | MORE

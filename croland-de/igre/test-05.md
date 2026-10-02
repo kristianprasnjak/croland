@@ -1,4 +1,4 @@
-# Test 5: Shopping & the Feminine Accusative
+# Test 5: Einkaufen & der feminine Akkusativ
 cjelina: Test 5
 
 ## Ordne die Wörter zu
@@ -7,148 +7,148 @@ trajanje: 1200
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
 - jabuka | Apfel
-- kruška | pear
-- breskva | peach
-- jagoda | strawberry
-- naranča | orange
-- rajčica | tomato
-- mrkva | carrot
+- kruška | Birne
+- breskva | Pfirsich
+- jagoda | Erdbeere
+- naranča | Orange
+- rajčica | Tomate
+- mrkva | Karotte
 - riba | Fisch
-- juha | soup
-- salata | salad
-- pita | pie
+- juha | Suppe
+- salata | Salat
+- pita | Pita (gefüllter Teigkuchen)
 - torta | Torte
 - čokolada | Schokolade
 - kava | Kaffee
-- voda | water
-- riža | rice
+- voda | Wasser
+- riža | Reis
 - kruh | Brot
 - sir | Käse
-- šećer | sugar
-- luk | onion
-- grah | beans
-- krumpir | potato
-- limun | lemon
-- jaje | egg
-- meso | meat
-- mlijeko | milk
-- povrće | vegetables
-- voće | fruit
+- šećer | Zucker
+- luk | Zwiebel
+- grah | Bohnen
+- krumpir | Kartoffel
+- limun | Zitrone
+- jaje | Ei
+- meso | Fleisch
+- mlijeko | Milch
+- povrće | Gemüse
+- voće | Obst
 - vino | Wein
-- tržnica | market
-- trgovina | shop
-- pekara | bakery
-- vrećica | bag
-- boca | bottle
-- cijena | price
-- kutija | box
-- račun | bill
-- novac | money
-- kupovati | to buy
-- trebati | to need
-- plaćati | to pay
-- tražiti | to look for
-- birati | to choose
-- nositi | to carry
-- uzimati | to take
-- prodavati | to sell
-- ići | to go
-- svjež | fresh
-- skup | expensive
-- jeftin | cheap
+- tržnica | Markt
+- trgovina | Geschäft, Laden
+- pekara | Bäckerei
+- vrećica | Tüte
+- boca | Flasche
+- cijena | Preis
+- kutija | Schachtel, Kiste
+- račun | Rechnung
+- novac | Geld
+- kupovati | kaufen
+- trebati | brauchen
+- plaćati | bezahlen
+- tražiti | suchen
+- birati | wählen, aussuchen
+- nositi | tragen
+- uzimati | nehmen
+- prodavati | verkaufen
+- ići | gehen
+- svjež | frisch
+- skup | teuer
+- jeftin | billig
 - gladan | hungrig
 - žedan | durstig
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- jabuka | Apfel | pear | peach
-- kruška | pear | Apfel | orange
-- breskva | peach | strawberry | tomato
-- jagoda | strawberry | peach | carrot
-- naranča | orange | lemon | Apfel
-- rajčica | tomato | carrot | onion
-- mrkva | carrot | tomato | beans
-- riba | Fisch | meat | egg
-- juha | soup | salad | pie
-- salata | salad | soup | vegetables
-- pita | pie | Torte | Brot
-- torta | Torte | pie | biscuit
-- riža | rice | flour | sugar
+- jabuka | Apfel | Birne | Pfirsich
+- kruška | Birne | Apfel | Orange
+- breskva | Pfirsich | Erdbeere | Tomate
+- jagoda | Erdbeere | Pfirsich | Karotte
+- naranča | Orange | Zitrone | Apfel
+- rajčica | Tomate | Karotte | Zwiebel
+- mrkva | Karotte | Tomate | Bohnen
+- riba | Fisch | Fleisch | Ei
+- juha | Suppe | Salat | Pita (gefüllter Teigkuchen)
+- salata | Salat | Suppe | Gemüse
+- pita | Pita (gefüllter Teigkuchen) | Torte | Brot
+- torta | Torte | Pita (gefüllter Teigkuchen) | Keks
+- riža | Reis | Mehl | Zucker
 - kruh | Brot | Käse | Torte
-- sir | Käse | Brot | milk
-- šećer | sugar | salt | flour
-- luk | onion | garlic | carrot
-- grah | beans | rice | potato
-- krumpir | potato | onion | tomato
-- limun | lemon | orange | peach
-- jaje | egg | milk | meat
-- meso | meat | Fisch | egg
-- mlijeko | milk | water | Wein
-- povrće | vegetables | fruit | meat
-- voće | fruit | vegetables | Saft
-- vino | Wein | beer | Saft
-- tržnica | market | shop | bakery
-- trgovina | shop | market | Café
-- pekara | bakery | butcher | Café
-- dućan | shop | market | bag
-- vrećica | bag | box | bottle
-- boca | bottle | bag | glass
-- cijena | price | bill | money
-- kutija | box | bag | bottle
-- račun | bill | price | money
-- novac | money | price | bill
-- kupovati | to buy | to sell | to pay
-- trebati | to need | wollen | to take
-- plaćati | to pay | to buy | to cost
-- tražiti | to look for | to choose | to carry
-- birati | to choose | to look for | to take
-- nositi | to carry | to bring | to buy
-- uzimati | to take | to give | to need
-- prodavati | to sell | to buy | to pay
-- koštati | to cost | to pay | to count
-- ići | to go | to come | gehen, spazieren
-- svjež | fresh | expensive | süß
-- skup | expensive | cheap | tasty
-- jeftin | cheap | expensive | fresh
+- sir | Käse | Brot | Milch
+- šećer | Zucker | Salz | Mehl
+- luk | Zwiebel | Knoblauch | Karotte
+- grah | Bohnen | Reis | Kartoffel
+- krumpir | Kartoffel | Zwiebel | Tomate
+- limun | Zitrone | Orange | Pfirsich
+- jaje | Ei | Milch | Fleisch
+- meso | Fleisch | Fisch | Ei
+- mlijeko | Milch | Wasser | Wein
+- povrće | Gemüse | Obst | Fleisch
+- voće | Obst | Gemüse | Saft
+- vino | Wein | Bier | Saft
+- tržnica | Markt | Geschäft, Laden | Bäckerei
+- trgovina | Geschäft, Laden | Markt | Café
+- pekara | Bäckerei | Metzger | Café
+- dućan | Geschäft, Laden | Markt | Tüte
+- vrećica | Tüte | Schachtel, Kiste | Flasche
+- boca | Flasche | Tüte | Glas
+- cijena | Preis | Rechnung | Geld
+- kutija | Schachtel, Kiste | Tüte | Flasche
+- račun | Rechnung | Preis | Geld
+- novac | Geld | Preis | Rechnung
+- kupovati | kaufen | verkaufen | bezahlen
+- trebati | brauchen | wollen | nehmen
+- plaćati | bezahlen | kaufen | kosten
+- tražiti | suchen | wählen, aussuchen | tragen
+- birati | wählen, aussuchen | suchen | nehmen
+- nositi | tragen | bringen | kaufen
+- uzimati | nehmen | geben | brauchen
+- prodavati | verkaufen | kaufen | bezahlen
+- koštati | kosten | bezahlen | zählen
+- ići | gehen | kommen | gehen, spazieren
+- svjež | frisch | teuer | süß
+- skup | teuer | billig | lecker
+- jeftin | billig | teuer | frisch
 - gladan | hungrig | durstig | müde
 - žedan | durstig | hungrig | glücklich
 - Apfel | jabuka | kruška | breskva
-- pear | kruška | jabuka | naranča
-- peach | breskva | jagoda | rajčica
-- strawberry | jagoda | breskva | mrkva
-- orange | naranča | limun | jabuka
-- tomato | rajčica | mrkva | luk
-- carrot | mrkva | rajčica | krumpir
+- Birne | kruška | jabuka | naranča
+- Pfirsich | breskva | jagoda | rajčica
+- Erdbeere | jagoda | breskva | mrkva
+- Orange | naranča | limun | jabuka
+- Tomate | rajčica | mrkva | luk
+- Karotte | mrkva | rajčica | krumpir
 - Fisch | riba | meso | jaje
-- soup | juha | salata | pita
+- Suppe | juha | salata | pita
 - Torte | torta | pita | sir
 - Brot | kruh | sir | riža
-- sugar | šećer | sol | brašno
-- egg | jaje | meso | mlijeko
-- milk | mlijeko | voda | vino
-- fruit | voće | povrće | salata
-- vegetables | povrće | voće | grah
-- market | tržnica | trgovina | pekara
-- shop | trgovina | tržnica | kafić
-- bakery | pekara | trgovina | dućan
-- bag | vrećica | kutija | boca
-- bottle | boca | vrećica | kutija
-- price | cijena | račun | novac
-- bill | račun | cijena | novac
-- to buy | kupovati | prodavati | plaćati
-- to pay | plaćati | koštati | kupovati
-- to look for | tražiti | birati | nositi
-- to choose | birati | tražiti | uzimati
-- to carry | nositi | uzimati | ići
-- fresh | svjež | skup | sladak
-- expensive | skup | jeftin | svjež
-- cheap | jeftin | skup | ukusan
+- Zucker | šećer | sol | brašno
+- Ei | jaje | meso | mlijeko
+- Milch | mlijeko | voda | vino
+- Obst | voće | povrće | salata
+- Gemüse | povrće | voće | grah
+- Markt | tržnica | trgovina | pekara
+- Geschäft, Laden | trgovina | tržnica | kafić
+- Bäckerei | pekara | trgovina | dućan
+- Tüte | vrećica | kutija | boca
+- Flasche | boca | vrećica | kutija
+- Preis | cijena | račun | novac
+- Rechnung | račun | cijena | novac
+- kaufen | kupovati | prodavati | plaćati
+- bezahlen | plaćati | koštati | kupovati
+- suchen | tražiti | birati | nositi
+- wählen, aussuchen | birati | tražiti | uzimati
+- tragen | nositi | uzimati | ići
+- frisch | svjež | skup | sladak
+- teuer | skup | jeftin | svjež
+- billig | jeftin | skup | ukusan
 
-## Does it change?
+## Ändert es sich?
 format: razvrstavanje
 stupci: MIJENJA SE (-a → -u) | OSTAJE ISTO
-opis: The heart of this level. Ends in -a → it changes in the accusative. Anything else → it stays exactly as it is.
+opis: Das Herz dieses Levels. Endet auf -a → es ändert sich im Akkusativ. Alles andere → es bleibt genau, wie es ist.
 - kava | MIJENJA SE (-a → -u)
 - jabuka | MIJENJA SE (-a → -u)
 - juha | MIJENJA SE (-a → -u)
@@ -174,33 +174,33 @@ opis: The heart of this level. Ends in -a → it changes in the accusative. Anyt
 - vino | OSTAJE ISTO
 - račun | OSTAJE ISTO
 
-## Naming or target?
+## Benennung oder Ziel?
 format: razvrstavanje
-stupci: NAMING (-a) | TARGET (-u)
-opis: Read each sentence and decide what job the feminine word is doing in it.
-- Juha je topla. | NAMING (-a)
-- Kuham juhu. | TARGET (-u)
-- Trebam vrećicu. | TARGET (-u)
-- Salata je svježa. | NAMING (-a)
-- Volim subotu. | TARGET (-u)
-- Kava je jaka. | NAMING (-a)
-- Pijem kavu. | TARGET (-u)
-- Riba je skupa. | NAMING (-a)
-- Kupujem ribu. | TARGET (-u)
-- Tržnica je velika. | NAMING (-a)
-- Tražim tržnicu. | TARGET (-u)
-- Torta je slatka. | NAMING (-a)
-- Plaćam tortu. | TARGET (-u)
-- Kruška je žuta. | NAMING (-a)
-- Biram krušku. | TARGET (-u)
-- Vrećica je mala. | NAMING (-a)
-- Nosim vrećicu. | TARGET (-u)
-- Cijena je visoka. | NAMING (-a)
+stupci: BENENNUNG (-a) | ZIEL (-u)
+opis: Lies jeden Satz und entscheide, welche Aufgabe das feminine Wort darin hat.
+- Juha je topla. | BENENNUNG (-a)
+- Kuham juhu. | ZIEL (-u)
+- Trebam vrećicu. | ZIEL (-u)
+- Salata je svježa. | BENENNUNG (-a)
+- Volim subotu. | ZIEL (-u)
+- Kava je jaka. | BENENNUNG (-a)
+- Pijem kavu. | ZIEL (-u)
+- Riba je skupa. | BENENNUNG (-a)
+- Kupujem ribu. | ZIEL (-u)
+- Tržnica je velika. | BENENNUNG (-a)
+- Tražim tržnicu. | ZIEL (-u)
+- Torta je slatka. | BENENNUNG (-a)
+- Plaćam tortu. | ZIEL (-u)
+- Kruška je žuta. | BENENNUNG (-a)
+- Biram krušku. | ZIEL (-u)
+- Vrećica je mala. | BENENNUNG (-a)
+- Nosim vrećicu. | ZIEL (-u)
+- Cijena je visoka. | BENENNUNG (-a)
 
-## u or na?
+## u oder na?
 format: razvrstavanje
 stupci: U (zatvoreno) | NA (otvoreno)
-opis: Sort each place by the word it takes when you are going there. Can you shut a door behind you? Then u. Open sky or an occasion? Then na.
+opis: Sortiere jeden Ort nach dem Wort, das er nimmt, wenn du dorthin gehst. Kannst du eine Tür hinter dir schließen? Dann u. Freier Himmel oder ein Anlass? Dann na.
 - trgovina | U (zatvoreno)
 - škola | U (zatvoreno)
 - pekara | U (zatvoreno)
@@ -220,60 +220,60 @@ opis: Sort each place by the word it takes when you are going there. Can you shu
 ## Tippe auf die Endung
 format: nastavak
 nastavci: a | u
-opis: The English is above. One tap: naming takes **-a**, target takes **-u**.
+opis: Oben steht das Deutsche. Ein Tipp: Benennen nimmt **-a**, Ziel nimmt **-u**.
 - Kav___ je dobra. | Der Kaffee ist gut. | a
-- Pijem kav___ . | I'm drinking coffee. | u
-- Jabuk___ je crvena. | The apple is red. | a
-- Jedem jabuk___ . | I'm eating an apple. | u
-- Rib___ je svježa. | The fish is fresh. | a
-- Kupujem rib___ . | I'm buying fish. | u
+- Pijem kav___ . | Ich trinke Kaffee. | u
+- Jabuk___ je crvena. | Der Apfel ist rot. | a
+- Jedem jabuk___ . | Ich esse einen Apfel. | u
+- Rib___ je svježa. | Der Fisch ist frisch. | a
+- Kupujem rib___ . | Ich kaufe Fisch. | u
 - Čokolad___ je slatka. | Die Schokolade ist süß. | a
-- Volim čokolad___ . | I love chocolate. | u
-- Juh___ je topla. | The soup is warm. | a
-- Kuham juh___ . | I'm cooking soup. | u
-- Vod___ je hladna. | The water is cold. | a
-- Trebam vod___ . | I need water. | u
-- Salat___ je svježa. | The salad is fresh. | a
-- Kupujem salat___ . | I'm buying salad. | u
-- Tort___ je velika. | The cake is big. | a
-- Plaćam tort___ . | I'm paying for the cake. | u
-- Krušk___ je žuta. | The pear is yellow. | a
-- Biram krušk___ . | I'm choosing a pear. | u
-- Rajčic___ je crvena. | The tomato is red. | a
-- Kupujem rajčic___ . | I'm buying a tomato. | u
-- Vrećic___ je mala. | The bag is small. | a
-- Nosim vrećic___ . | I'm carrying the bag. | u
-- Tržnic___ je velika. | The market is big. | a
-- Tražim tržnic___ . | I'm looking for the market. | u
+- Volim čokolad___ . | Ich liebe Schokolade. | u
+- Juh___ je topla. | Die Suppe ist warm. | a
+- Kuham juh___ . | Ich koche Suppe. | u
+- Vod___ je hladna. | Das Wasser ist kalt. | a
+- Trebam vod___ . | Ich brauche Wasser. | u
+- Salat___ je svježa. | Der Salat ist frisch. | a
+- Kupujem salat___ . | Ich kaufe Salat. | u
+- Tort___ je velika. | Die Torte ist groß. | a
+- Plaćam tort___ . | Ich bezahle die Torte. | u
+- Krušk___ je žuta. | Die Birne ist gelb. | a
+- Biram krušk___ . | Ich suche eine Birne aus. | u
+- Rajčic___ je crvena. | Die Tomate ist rot. | a
+- Kupujem rajčic___ . | Ich kaufe eine Tomate. | u
+- Vrećic___ je mala. | Die Tüte ist klein. | a
+- Nosim vrećic___ . | Ich trage die Tüte. | u
+- Tržnic___ je velika. | Der Markt ist groß. | a
+- Tražim tržnic___ . | Ich suche den Markt. | u
 - Knjig___ je nova. | Das Buch ist neu. | a
-- Čitam knjig___ . | I'm reading a book. | u
+- Čitam knjig___ . | Ich lese ein Buch. | u
 
-## Tap the adjective's ending
+## Tippe auf die Endung des Adjektivs
 format: nastavak
 nastavci: a | u
-opis: The noun already has its ending — the adjective has to match it. Same letter, twice in a row.
-- Crn___ kava je dobra. | Black coffee is good. | a
-- Pijem crn___ kavu. | I drink black coffee. | u
-- Svjež___ riba je skupa. | Fresh fish is expensive. | a
-- Kupujem svjež___ ribu. | I'm buying fresh fish. | u
-- Velik___ kuća je stara. | The big house is old. | a
-- Gledam velik___ kuću. | I'm looking at the big house. | u
-- Topl___ juha je dobra. | Warm soup is good. | a
-- Kuham topl___ juhu. | I'm cooking warm soup. | u
-- Nov___ knjiga je dobra. | The new book is good. | a
-- Čitam nov___ knjigu. | I'm reading the new book. | u
-- Slatk___ čokolada je skupa. | Sweet chocolate is expensive. | a
-- Volim slatk___ čokoladu. | I love sweet chocolate. | u
-- Mal___ vrećica je jeftina. | The small bag is cheap. | a
-- Trebam mal___ vrećicu. | I need a small bag. | u
-- Crven___ jabuka je slatka. | The red apple is sweet. | a
-- Kupujem crven___ jabuku. | I'm buying a red apple. | u
-- Žut___ kruška je dobra. | The yellow pear is good. | a
-- Jedem žut___ krušku. | I'm eating a yellow pear. | u
+opis: Das Nomen hat seine Endung schon – das Adjektiv muss dazu passen. Derselbe Buchstabe, zweimal hintereinander.
+- Crn___ kava je dobra. | Schwarzer Kaffee ist gut. | a
+- Pijem crn___ kavu. | Ich trinke schwarzen Kaffee. | u
+- Svjež___ riba je skupa. | Frischer Fisch ist teuer. | a
+- Kupujem svjež___ ribu. | Ich kaufe frischen Fisch. | u
+- Velik___ kuća je stara. | Das große Haus ist alt. | a
+- Gledam velik___ kuću. | Ich schaue das große Haus an. | u
+- Topl___ juha je dobra. | Warme Suppe ist gut. | a
+- Kuham topl___ juhu. | Ich koche warme Suppe. | u
+- Nov___ knjiga je dobra. | Das neue Buch ist gut. | a
+- Čitam nov___ knjigu. | Ich lese das neue Buch. | u
+- Slatk___ čokolada je skupa. | Süße Schokolade ist teuer. | a
+- Volim slatk___ čokoladu. | Ich liebe süße Schokolade. | u
+- Mal___ vrećica je jeftina. | Die kleine Tüte ist billig. | a
+- Trebam mal___ vrećicu. | Ich brauche eine kleine Tüte. | u
+- Crven___ jabuka je slatka. | Der rote Apfel ist süß. | a
+- Kupujem crven___ jabuku. | Ich kaufe einen roten Apfel. | u
+- Žut___ kruška je dobra. | Die gelbe Birne ist gut. | a
+- Jedem žut___ krušku. | Ich esse eine gelbe Birne. | u
 
-## Type the accusative
+## Tippe den Akkusativ
 format: upis
-opis: Type the accusative form of the word.
+opis: Tippe die Akkusativform des Wortes.
 - kava → | kavu
 - voda → | vodu
 - jabuka → | jabuku
@@ -301,9 +301,9 @@ opis: Type the accusative form of the word.
 - knjiga → | knjigu
 - škola → | školu
 
-## Type both endings
+## Tippe beide Endungen
 format: upis
-opis: Put the whole phrase into the target form. Two words, two endings.
+opis: Setz die ganze Wendung in die Zielform. Zwei Wörter, zwei Endungen.
 - crna kava → Pijem ___ | crnu kavu
 - svježa salata → Kupujem ___ | svježu salatu
 - velika kuća → Gledam ___ | veliku kuću
@@ -317,9 +317,9 @@ opis: Put the whole phrase into the target form. Two words, two endings.
 - mala boca → Nosim ___ | malu bocu
 - žuta kruška → Jedem ___ | žutu krušku
 
-## Where are you going?
+## Wohin gehst du?
 format: upis
-opis: Type the two words — the preposition and the place in its target form.
+opis: Tippe die zwei Wörter – die Präposition und den Ort in seiner Zielform.
 - Idem ___ . (trgovina) | u trgovinu
 - Idem ___ . (tržnica) | na tržnicu
 - Idem ___ . (škola) | u školu
@@ -335,7 +335,7 @@ opis: Type the two words — the preposition and the place in its target form.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about level 5 — everything here comes from the levels before it.
+opis: Nicht über Level 5 – alles hier stammt aus den Levels davor.
 - Tata kuha, ___ brat uči. | a | i | ali
 - Stan je mali, ___ je dom topao. | ali | i | a
 - Mama radi ___ čita. | i | a | ali
@@ -356,59 +356,59 @@ opis: Not about level 5 — everything here comes from the levels before it.
 ## Bau den Satz
 format: slaganje
 opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
-- Pijem kavu. | en: I'm drinking coffee.
-- Jedem jabuku. | en: I'm eating an apple.
-- Trebam vodu. | en: I need water.
-- Volim čokoladu. | en: I love chocolate.
-- Mama kuha juhu. | en: Mom is cooking soup.
-- Ana kupuje ribu. | en: Ana is buying fish.
-- Ana plaća tortu. | en: Ana is paying for the cake.
-- Nosim vrećicu. | en: I'm carrying the bag.
-- Biram krušku. | en: I'm choosing a pear.
-- Tražim tržnicu. | en: I'm looking for the market.
-- Ana čita knjigu. | en: Ana is reading a book.
-- Kupujem ribu i salatu. | en: I'm buying fish and salad.
-- Pijem crnu kavu. | en: I'm drinking black coffee.
-- Kupujem svježu ribu. | en: I'm buying fresh fish.
-- Kuham toplu juhu. | en: I'm cooking warm soup.
-- Trebam malu vrećicu. | en: I need a small bag.
-- Volim slatku čokoladu. | en: I love sweet chocolate.
-- Idem u trgovinu. | en: I'm going to the shop.
-- Idem na tržnicu. | en: I'm going to the market.
-- Idem u pekaru i kupujem kruh. | en: I go to the bakery and buy bread.
-- Idemo na kavu. | en: Let's go for a coffee.
-- Idem na tržnicu jer trebam svježu ribu. | en: I'm going to the market because I need fresh fish.
-- Pijem crnu kavu i jedem slatku pitu. | en: I drink black coffee and eat sweet pie.
-- Idem u trgovinu, a ti ideš na tržnicu. | en: I'm going to the shop, and you are going to the market.
-- Riba je svježa, ali je skupa. | en: The fish is fresh, but it is expensive.
-- Volim subotu jer ne idem u školu. | en: I love Saturday because I don't go to school.
+- Pijem kavu. | en: Ich trinke Kaffee.
+- Jedem jabuku. | en: Ich esse einen Apfel.
+- Trebam vodu. | en: Ich brauche Wasser.
+- Volim čokoladu. | en: Ich liebe Schokolade.
+- Mama kuha juhu. | en: Mama kocht Suppe.
+- Ana kupuje ribu. | en: Ana kauft Fisch.
+- Ana plaća tortu. | en: Ana bezahlt die Torte.
+- Nosim vrećicu. | en: Ich trage die Tüte.
+- Biram krušku. | en: Ich suche eine Birne aus.
+- Tražim tržnicu. | en: Ich suche den Markt.
+- Ana čita knjigu. | en: Ana liest ein Buch.
+- Kupujem ribu i salatu. | en: Ich kaufe Fisch und Salat.
+- Pijem crnu kavu. | en: Ich trinke schwarzen Kaffee.
+- Kupujem svježu ribu. | en: Ich kaufe frischen Fisch.
+- Kuham toplu juhu. | en: Ich koche warme Suppe.
+- Trebam malu vrećicu. | en: Ich brauche eine kleine Tüte.
+- Volim slatku čokoladu. | en: Ich liebe süße Schokolade.
+- Idem u trgovinu. | en: Ich gehe in den Laden.
+- Idem na tržnicu. | en: Ich gehe auf den Markt.
+- Idem u pekaru i kupujem kruh. | en: Ich gehe in die Bäckerei und kaufe Brot.
+- Idemo na kavu. | en: Gehen wir auf einen Kaffee.
+- Idem na tržnicu jer trebam svježu ribu. | en: Ich gehe auf den Markt, weil ich frischen Fisch brauche.
+- Pijem crnu kavu i jedem slatku pitu. | en: Ich trinke schwarzen Kaffee und esse süße Pita.
+- Idem u trgovinu, a ti ideš na tržnicu. | en: Ich gehe in den Laden, und du gehst auf den Markt.
+- Riba je svježa, ali je skupa. | en: Der Fisch ist frisch, aber er ist teuer.
+- Volim subotu jer ne idem u školu. | en: Ich liebe den Samstag, weil ich nicht in die Schule gehe.
 
 ## Schreib es auf Kroatisch
 format: upis
 opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz. Bei *ja* und *ti* ist das Pronomen optional, dort zählen also beide Fassungen; bei *on* und *ona* behalte es.
-- I'm drinking coffee. | Pijem kavu. / Ja pijem kavu.
-- I'm eating an apple. | Jedem jabuku. / Ja jedem jabuku.
-- I need water. | Trebam vodu. / Ja trebam vodu.
-- I love chocolate. | Volim čokoladu. / Ja volim čokoladu.
-- Mom is cooking soup. | Mama kuha juhu.
-- Ana is buying fish. | Ana kupuje ribu.
-- I'm carrying the bag. | Nosim vrećicu. / Ja nosim vrećicu.
-- I'm choosing a pear. | Biram krušku. / Ja biram krušku.
-- I'm looking for the market. | Tražim tržnicu. / Ja tražim tržnicu.
-- Ana is reading a book. | Ana čita knjigu.
-- I'm drinking black coffee. | Pijem crnu kavu. / Ja pijem crnu kavu.
-- I'm buying fresh fish. | Kupujem svježu ribu. / Ja kupujem svježu ribu.
-- I'm cooking warm soup. | Kuham toplu juhu. / Ja kuham toplu juhu.
-- I need a small bag. | Trebam malu vrećicu. / Ja trebam malu vrećicu.
-- I love sweet chocolate. | Volim slatku čokoladu. / Ja volim slatku čokoladu.
-- I'm going to the shop. | Idem u trgovinu. / Ja idem u trgovinu.
-- I'm going to the market. | Idem na tržnicu. / Ja idem na tržnicu.
-- I'm going to school. | Idem u školu. / Ja idem u školu.
-- I'm going to the beach. | Idem na plažu. / Ja idem na plažu.
-- I'm going to work. | Idem na posao. / Ja idem na posao.
-- The fish is fresh, but it is expensive. | Riba je svježa, ali je skupa.
-- The market is big. | Tržnica je velika.
-- The bag is small. | Vrećica je mala.
-- Ana is paying for the cake. | Ana plaća tortu.
-- I'm buying fish and salad. | Kupujem ribu i salatu. / Ja kupujem ribu i salatu.
-- I love Saturday. | Volim subotu. / Ja volim subotu.
+- Ich trinke Kaffee. | Pijem kavu. / Ja pijem kavu.
+- Ich esse einen Apfel. | Jedem jabuku. / Ja jedem jabuku.
+- Ich brauche Wasser. | Trebam vodu. / Ja trebam vodu.
+- Ich liebe Schokolade. | Volim čokoladu. / Ja volim čokoladu.
+- Mama kocht Suppe. | Mama kuha juhu.
+- Ana kauft Fisch. | Ana kupuje ribu.
+- Ich trage die Tüte. | Nosim vrećicu. / Ja nosim vrećicu.
+- Ich suche eine Birne aus. | Biram krušku. / Ja biram krušku.
+- Ich suche den Markt. | Tražim tržnicu. / Ja tražim tržnicu.
+- Ana liest ein Buch. | Ana čita knjigu.
+- Ich trinke schwarzen Kaffee. | Pijem crnu kavu. / Ja pijem crnu kavu.
+- Ich kaufe frischen Fisch. | Kupujem svježu ribu. / Ja kupujem svježu ribu.
+- Ich koche warme Suppe. | Kuham toplu juhu. / Ja kuham toplu juhu.
+- Ich brauche eine kleine Tüte. | Trebam malu vrećicu. / Ja trebam malu vrećicu.
+- Ich liebe süße Schokolade. | Volim slatku čokoladu. / Ja volim slatku čokoladu.
+- Ich gehe in den Laden. | Idem u trgovinu. / Ja idem u trgovinu.
+- Ich gehe auf den Markt. | Idem na tržnicu. / Ja idem na tržnicu.
+- Ich gehe in die Schule. | Idem u školu. / Ja idem u školu.
+- Ich gehe an den Strand. | Idem na plažu. / Ja idem na plažu.
+- Ich gehe zur Arbeit. | Idem na posao. / Ja idem na posao.
+- Der Fisch ist frisch, aber er ist teuer. | Riba je svježa, ali je skupa.
+- Der Markt ist groß. | Tržnica je velika.
+- Die Tüte ist klein. | Vrećica je mala.
+- Ana bezahlt die Torte. | Ana plaća tortu.
+- Ich kaufe Fisch und Salat. | Kupujem ribu i salatu. / Ja kupujem ribu i salatu.
+- Ich liebe den Samstag. | Volim subotu. / Ja volim subotu.

@@ -156,7 +156,7 @@ tekst: POZDRAV S OTOKA BRAČA! Draga bako, ovdje je prekrasno! More je toplo kao
 ## Text 5: Four summers
 format: tekst
 info: A puzzle rather than a story. Four friends spent the summer in four different places, and every clue joins two thoughts with *jer, iako* or *ali*. Start with Marko: two clues are enough to place him.
-infokratko: Every clue rules something out. Start with Marko.
+infokratko: Jeder Hinweis schließt etwas aus. Fang mit Marko an.
 opis: Four friends, four summers, no labels. Read it twice before you answer.
 - Passive words: *svatko* (each one), *negdje drugdje* (somewhere else), *ove godine* (this year), *tamo* (there).
 - Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. | Ana, Marko, Petra and Ivan spent the summer in four places: on an island, in the mountains, in Split and in Zagreb.
@@ -169,7 +169,7 @@ opis: Four friends, four summers, no labels. Read it twice before you answer.
 - Ivan je bio u gradu, ali ne u Zagrebu. | Ivan was in a city, but not in Zagreb.
 - Tko je bio gdje? | Who was where?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
 info: Deduction from the clues. Marko swam every day but was not in Split, so he was on the island. Ivan was in a city but not in Zagreb, so he was in Split. Petra did not swim and was not in Zagreb, so she was in the mountains, and Ana was in Zagreb.
 infokratko: Marko first (the island), then Ivan (Split), Petra (the mountains), Ana (Zagreb).
@@ -182,11 +182,11 @@ tekst: Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na
 - Zašto Ana nije bila na moru? | jer ne voli more | jer nije znala plivati | jer je bila u Splitu
 - Tko je plivao svaki dan? | Marko | Petra | Ana
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
 nastavci: i | a | e | u
 info: One tap finishes *koj___*, and almost every sentence comes from the five texts. A masculine noun and a group of people take **-i**, a feminine noun **-a**, a neuter noun and a feminine plural **-e**, and a feminine noun that is the target in its own sentence **-u**.
-infokratko: m. and people **-i**, f. **-a**, n. and f. pl. **-e**, f. target **-u**.
+infokratko: m. und Menschen **-i**, f. **-a**, n. und f. Pl. **-e**, f. Ziel **-u**.
 opis: Almost every sentence came out of the five texts. One tap finishes *koji*.
 - Postoji ljeto koj___ nikad neću zaboraviti. | There is a summer I will never forget. | e
 - Otok, koj___ je izgledao malen, postao je moj svijet. | The island, which looked small, became my world. | i
@@ -197,7 +197,7 @@ opis: Almost every sentence came out of the five texts. One tap finishes *koji*.
 - Ljudi koj___ uvijek imaju vremena za kavu. | People who always have time for coffee. | i
 - Plaža koj___ vidiš na slici je blizu kuće. | The beach you see in the picture is close to the house. | u
 - Gradovi koj___ su stariji od mnogih država. | Towns that are older than many countries. | i
-- Baka ima kuću koj___ je blizu mora. | Grandma has a house that is near the sea. | a
+- Baka ima kuću koj___ je blizu mora. | Oma hat ein Haus, das in der Nähe des Meeres ist. | a
 - To je razglednica koj___ je Petra poslala. | That's the postcard Petra sent. | u
 - Petra ima psa koj___ voli plivati. | Petra has a dog that loves swimming. | i
 - Voda koj___ je ujutro hladna. | The water that is cold in the morning. | a
@@ -208,7 +208,7 @@ opis: Almost every sentence came out of the five texts. One tap finishes *koji*.
 ## Why, when, if or although?
 format: razvrstavanje
 info: Sorting sentences from the texts by the meaning of their connector. *Jer* and *zato što* give a reason; *kad* and *dok* give the time; *ako* gives a condition; *iako* gives a contrast — something that is true in spite of the other half.
-infokratko: *jer, zato što* reason; *kad, dok* time; *ako* condition; *iako* contrast.
+infokratko: *jer, zato što* Grund; *kad, dok* Zeit; *ako* Bedingung; *iako* Gegensatz.
 stupci: UZROK | VRIJEME | UVJET | SUPROTNOST
 opis: Why, when, if or although? Sort the sentences from the texts.
 - Plivala sam, jer je more bilo toplo kao juha. | UZROK
@@ -269,16 +269,16 @@ format: baloni
 info: A last timed picture-to-word tap over a Croatian summer. Everything is in its naming form; make a sentence with it in your head as you tap — *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*
 infokratko: Naming forms. Think *trajekt koji plovi, more koje je plavo*.
 opis: The last ferry of the summer is leaving! A picture appears — tap the balloon with its word before it floats away.
-- galeb | seagull
-- trajekt | ferry
-- otok | island
+- galeb | Möwe
+- trajekt | Fähre
+- otok | Insel
 - more | Meer
-- riva | seaside promenade
-- plaža | beach
+- riva | Uferpromenade
+- plaža | Strand
 - sunce | Sonne
-- brod | boat
-- val | wave
-- pijesak | sand
+- brod | Boot
+- val | Welle
+- pijesak | Sand
 - sladoled | Eis
 - kava | Kaffee
 

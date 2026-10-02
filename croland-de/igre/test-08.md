@@ -1,4 +1,4 @@
-# Test 8: Summer Plans & the Future
+# Test 8: Sommerpläne & das Futur
 cjelina: Test 8
 
 ## Ordne die Wörter zu
@@ -7,145 +7,145 @@ trajanje: 1200
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
 - more | Meer
-- plaža | beach
-- otok | island
-- planina | mountain
-- selo | village
+- plaža | Strand
+- otok | Insel
+- planina | Berg
+- selo | Dorf
 - hotel | Hotel
-- kamp | campsite
-- put | way
-- putovanje | journey
-- izlet | day trip
-- odmor | holiday
-- avantura | adventure
-- destinacija | destination
-- vlak | train
-- avion | airplane
-- brod | boat
-- autobus | bus
-- aerodrom | airport
-- kolodvor | station
-- karta | ticket
-- rezervacija | reservation
-- plan | plan
-- kofer | suitcase
-- torba | bag
-- prtljaga | luggage
-- ručnik | towel
-- jastuk | pillow
-- majica | T-shirt
-- košulja | shirt
-- haljina | dress
-- hlače | trousers
+- kamp | Campingplatz
+- put | Weg
+- putovanje | Reise
+- izlet | Ausflug
+- odmor | Urlaub
+- avantura | Abenteuer
+- destinacija | Reiseziel
+- vlak | Zug
+- avion | Flugzeug
+- brod | Boot
+- autobus | Bus
+- aerodrom | Flughafen
+- kolodvor | Bahnhof
+- karta | Fahrkarte
+- rezervacija | Reservierung
+- plan | Plan
+- kofer | Koffer
+- torba | Tüte
+- prtljaga | Gepäck
+- ručnik | Handtuch
+- jastuk | Kissen
+- majica | T-Shirt
+- košulja | Hemd
+- haljina | Kleid
+- hlače | Hose
 - cipela | Schuh
 - šešir | Hut
-- šal | scarf
-- kaput | coat
-- džemper | sweater
-- sutra | tomorrow
-- vikend | weekend
-- tjedan | week
-- mjesec | month
-- godina | year
-- subota | Saturday
-- nedjelja | Sunday
+- šal | Schal
+- kaput | Mantel
+- džemper | Pullover
+- sutra | morgen
+- vikend | Wochenende
+- tjedan | Woche
+- mjesec | Monat
+- godina | Jahr
+- subota | Samstag
+- nedjelja | Sonntag
 - ljeto | Sommer
-- zima | winter
-- proljeće | spring
-- jesen | autumn
+- zima | Winter
+- proljeće | Frühling
+- jesen | Herbst
 - sunce | Sonne
-- putovati | to travel
-- plivati | to swim
-- ručati | to have lunch
+- putovati | reisen
+- plivati | schwimmen
+- ručati | zu Mittag essen
 - ustati | aufstehen
-- trenirati | to train
-- planirati | to plan
-- odmarati | to rest
-- stizati | to arrive
-- kretati | to set off
-- letjeti | to fly
+- trenirati | trainieren
+- planirati | planen
+- odmarati | sich ausruhen
+- stizati | ankommen
+- kretati | aufbrechen, losfahren
+- letjeti | fliegen
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- more | Meer | lake | river
-- plaža | beach | island | shore road
-- otok | island | peninsula | beach
-- planina | mountain | hill | forest
-- selo | village | Stadt | neighborhood
-- kamp | campsite | camp bed | Hotel
-- put | way | ticket | map
-- putovanje | journey | traveller | luggage
-- izlet | day trip | holiday | tour
-- odmor | holiday | weekend | rest home
-- avantura | adventure | tour | plan
-- destinacija | destination | direction | reservation
-- vlak | train | tram | bus
-- avion | airplane | airport | boat
-- brod | boat | bridge | port
-- aerodrom | airport | airplane | station
-- kolodvor | station | stop | platform
-- karta | ticket | suitcase | receipt
-- rezervacija | reservation | reception | receipt
-- kofer | suitcase | bag | box
-- prtljaga | luggage | suitcase | passenger
-- ručnik | towel | pillow | blanket
-- jastuk | pillow | towel | mattress
-- majica | T-shirt | shirt | jumper
-- košulja | shirt | T-shirt | dress
-- haljina | dress | skirt | shirt
-- hlače | trousers | shoes | socks
-- šešir | Hut | scarf | coat
-- šal | scarf | Hut | glove
-- kaput | coat | sweater | shirt
-- džemper | sweater | coat | T-shirt
-- sutra | tomorrow | today | yesterday
-- tjedan | week | month | Tag
-- mjesec | month | week | year
-- proljeće | spring | autumn | Sommer
-- jesen | autumn | spring | winter
-- putovati | to travel | to arrive | to fly
-- plivati | to swim | to sail | gehen, spazieren
-- ručati | to have lunch | kochen | to eat breakfast
-- ustati | aufstehen | stehen | to wake someone
-- trenirati | to train | to play | laufen, rennen
-- planirati | to plan | to prepare | to pack
-- odmarati | to rest | schlafen | to stay
-- stizati | to arrive | to set off | to catch
-- kretati | to set off | to arrive | to move house
-- letjeti | to fly | to travel | to fall
+- more | Meer | See | Fluss
+- plaža | Strand | Insel | Küstenstraße
+- otok | Insel | Halbinsel | Strand
+- planina | Berg | Hügel | Wald
+- selo | Dorf | Stadt | Viertel
+- kamp | Campingplatz | Feldbett | Hotel
+- put | Weg | Fahrkarte | Karte
+- putovanje | Reise | Reisender | Gepäck
+- izlet | Ausflug | Urlaub | Tour
+- odmor | Urlaub | Wochenende | Erholungsheim
+- avantura | Abenteuer | Tour | Plan
+- destinacija | Reiseziel | Richtung | Reservierung
+- vlak | Zug | Straßenbahn | Bus
+- avion | Flugzeug | Flughafen | Boot
+- brod | Boot | Brücke | Hafen
+- aerodrom | Flughafen | Flugzeug | Bahnhof
+- kolodvor | Bahnhof | Haltestelle | Bahnsteig
+- karta | Fahrkarte | Koffer | Quittung
+- rezervacija | Reservierung | Rezeption | Quittung
+- kofer | Koffer | Tüte | Schachtel, Kiste
+- prtljaga | Gepäck | Koffer | Fahrgast
+- ručnik | Handtuch | Kissen | Decke
+- jastuk | Kissen | Handtuch | Matratze
+- majica | T-Shirt | Hemd | Pulli
+- košulja | Hemd | T-Shirt | Kleid
+- haljina | Kleid | Rock | Hemd
+- hlače | Hose | Schuhe | Socken
+- šešir | Hut | Schal | Mantel
+- šal | Schal | Hut | Handschuh
+- kaput | Mantel | Pullover | Hemd
+- džemper | Pullover | Mantel | T-Shirt
+- sutra | morgen | heute | gestern
+- tjedan | Woche | Monat | Tag
+- mjesec | Monat | Woche | Jahr
+- proljeće | Frühling | Herbst | Sommer
+- jesen | Herbst | Frühling | Winter
+- putovati | reisen | ankommen | fliegen
+- plivati | schwimmen | segeln | gehen, spazieren
+- ručati | zu Mittag essen | kochen | frühstücken
+- ustati | aufstehen | stehen | jemanden wecken
+- trenirati | trainieren | spielen | laufen, rennen
+- planirati | planen | vorbereiten | packen
+- odmarati | sich ausruhen | schlafen | bleiben
+- stizati | ankommen | aufbrechen, losfahren | fangen
+- kretati | aufbrechen, losfahren | ankommen | umziehen
+- letjeti | fliegen | reisen | fallen
 - Meer | more | plaža | otok
-- beach | plaža | more | obala
-- island | otok | planina | selo
-- mountain | planina | otok | more
-- train | vlak | autobus | avion
-- airplane | avion | brod | vlak
-- boat | brod | avion | most
-- airport | aerodrom | kolodvor | stanica
-- station | kolodvor | aerodrom | kiosk
-- ticket | karta | rezervacija | račun
-- suitcase | kofer | torba | kutija
-- towel | ručnik | jastuk | majica
-- pillow | jastuk | ručnik | torba
-- T-shirt | majica | košulja | haljina
-- shirt | košulja | majica | džemper
-- dress | haljina | košulja | hlače
-- coat | kaput | džemper | šal
-- sweater | džemper | kaput | majica
-- tomorrow | sutra | danas | jučer
-- week | tjedan | mjesec | godina
+- Strand | plaža | more | obala
+- Insel | otok | planina | selo
+- Berg | planina | otok | more
+- Zug | vlak | autobus | avion
+- Flugzeug | avion | brod | vlak
+- Boot | brod | avion | most
+- Flughafen | aerodrom | kolodvor | stanica
+- Bahnhof | kolodvor | aerodrom | kiosk
+- Fahrkarte | karta | rezervacija | račun
+- Koffer | kofer | torba | kutija
+- Handtuch | ručnik | jastuk | majica
+- Kissen | jastuk | ručnik | torba
+- T-Shirt | majica | košulja | haljina
+- Hemd | košulja | majica | džemper
+- Kleid | haljina | košulja | hlače
+- Mantel | kaput | džemper | šal
+- Pullover | džemper | kaput | majica
+- morgen | sutra | danas | jučer
+- Woche | tjedan | mjesec | godina
 - Sommer | ljeto | zima | jesen
-- winter | zima | ljeto | proljeće
-- to travel | putovati | stizati | letjeti
-- to swim | plivati | plesati | šetati
+- Winter | zima | ljeto | proljeće
+- reisen | putovati | stizati | letjeti
+- schwimmen | plivati | plesati | šetati
 - aufstehen | ustati | odmarati | spavati
-- to arrive | stizati | kretati | putovati
-- to fly | letjeti | stizati | putovati
+- ankommen | stizati | kretati | putovati
+- fliegen | letjeti | stizati | putovati
 
-## Who will it be?
+## Wer wird es sein?
 format: razvrstavanje
 stupci: ĆU | ĆEŠ | ĆE | ĆEMO
-opis: Which helper does each subject take? Any single person or thing takes **će**; a group that includes *ja* takes **ćemo**.
+opis: Welches Hilfswort nimmt jedes Subjekt? Jede einzelne Person oder Sache nimmt **će**; eine Gruppe, die *ja* einschließt, nimmt **ćemo**.
 - ja | ĆU
 - ti | ĆEŠ
 - on | ĆE
@@ -163,10 +163,10 @@ opis: Which helper does each subject take? Any single person or thing takes **ć
 - Marko | ĆE
 - avion | ĆE
 
-## Leans or opens?
+## Lehnt sich an oder eröffnet?
 format: razvrstavanje
 stupci: NASLANJA SE | OTVARA REČENICU
-opis: Which of these can stand at the very beginning of a sentence, and which needs something in front of it to lean on?
+opis: Welche davon können ganz am Anfang eines Satzes stehen, und welche brauchen etwas davor, an das sie sich lehnen können?
 - ću | NASLANJA SE
 - ćeš | NASLANJA SE
 - će | NASLANJA SE
@@ -186,10 +186,10 @@ opis: Which of these can stand at the very beginning of a sentence, and which ne
 - hoću | OTVARA REČENICU
 - hoćeš | OTVARA REČENICU
 
-## Now or later?
+## Jetzt oder später?
 format: razvrstavanje
 stupci: SADA | POSLIJE
-opis: Present or future? Sort the sentences.
+opis: Präsens oder Futur? Sortiere die Sätze.
 - Plivam. | SADA
 - Plivat ću. | POSLIJE
 - Mi ćemo ručati. | POSLIJE
@@ -207,64 +207,64 @@ opis: Present or future? Sort the sentences.
 - Neću učiti. | POSLIJE
 - Ne učim. | SADA
 
-## Long or short?
+## Lang oder kurz?
 format: nastavak
 nastavci: t | ti
-opis: In front of *ću* the verb drops its final **-i**. Anywhere else it keeps it.
-- Pliva___ ću svaki dan. | I will swim every day. | t
-- Ja ću pliva___ svaki dan. | I will swim every day. | ti
-- Putova___ ćemo na more. | We will travel to the sea. | t
-- Mi ćemo putova___ na more. | We will travel to the sea. | ti
-- Uči___ ćeš navečer. | You will study in the evening. | t
-- Ti ćeš uči___ navečer. | You will study in the evening. | ti
-- Gleda___ ću utakmicu. | I will watch the match. | t
-- Sutra ću gleda___ utakmicu. | Tomorrow I will watch the match. | ti
-- Usta___ ću rano. | I will get up early. | t
-- Sutra ću usta___ rano. | Tomorrow I will get up early. | ti
-- Ruča___ ćemo zajedno. | We will have lunch together. | t
-- Poslije ćemo ruča___ zajedno. | Afterwards we will have lunch together. | ti
-- Radi___ će cijeli dan. | He will work all day. | t
-- On će radi___ cijeli dan. | He will work all day. | ti
-- Bi___ će savršeno. | It will be perfect. | t
-- To će bi___ savršeno. | That will be perfect. | ti
-- Čita___ ću knjigu. | I will read a book. | t
-- Navečer ću čita___ knjigu. | In the evening I will read a book. | ti
-- Vidje___ ćemo more. | We will see the sea. | t
-- Sutra ćemo vidje___ more. | Tomorrow we will see the sea. | ti
-- Trenira___ ću navečer. | I will train in the evening. | t
-- Ja ću trenira___ navečer. | I will train in the evening. | ti
+opis: Vor *ću* verliert das Verb sein letztes **-i**. Überall sonst behält es es.
+- Pliva___ ću svaki dan. | Ich werde jeden Tag schwimmen. | t
+- Ja ću pliva___ svaki dan. | Ich werde jeden Tag schwimmen. | ti
+- Putova___ ćemo na more. | Wir werden ans Meer reisen. | t
+- Mi ćemo putova___ na more. | Wir werden ans Meer reisen. | ti
+- Uči___ ćeš navečer. | Du wirst abends lernen. | t
+- Ti ćeš uči___ navečer. | Du wirst abends lernen. | ti
+- Gleda___ ću utakmicu. | Ich werde das Spiel anschauen. | t
+- Sutra ću gleda___ utakmicu. | Morgen werde ich das Spiel anschauen. | ti
+- Usta___ ću rano. | Ich werde früh aufstehen. | t
+- Sutra ću usta___ rano. | Morgen werde ich früh aufstehen. | ti
+- Ruča___ ćemo zajedno. | Wir werden zusammen zu Mittag essen. | t
+- Poslije ćemo ruča___ zajedno. | Danach werden wir zusammen zu Mittag essen. | ti
+- Radi___ će cijeli dan. | Er wird den ganzen Tag arbeiten. | t
+- On će radi___ cijeli dan. | Er wird den ganzen Tag arbeiten. | ti
+- Bi___ će savršeno. | Es wird perfekt sein. | t
+- To će bi___ savršeno. | Das wird perfekt sein. | ti
+- Čita___ ću knjigu. | Ich werde ein Buch lesen. | t
+- Navečer ću čita___ knjigu. | Abends werde ich ein Buch lesen. | ti
+- Vidje___ ćemo more. | Wir werden das Meer sehen. | t
+- Sutra ćemo vidje___ more. | Morgen werden wir das Meer sehen. | ti
+- Trenira___ ću navečer. | Ich werde abends trainieren. | t
+- Ja ću trenira___ navečer. | Ich werde abends trainieren. | ti
 
-## The correctly written sentence
+## Der richtig geschriebene Satz
 format: izbor
-opis: Choose the correctly written sentence.
-- swimming, verb first | Plivat ću. | Plivati ću. | Plivaću.
-- studying, pronoun first | Ja ću učiti. | Ću ja učiti. | Ja ću učit.
-- lunch tomorrow | Sutra ćemo ručati. | Ćemo sutra ručati. | Sutra ćemo ručat.
-- going to the sea | Ići ću na more. | Ić ću na more. | Ićiću na more.
-- travelling, verb first | Putovat ćemo. | Putovati ćemo. | Putovaćemo.
-- getting up early | Ustat ću rano. | Ustati ću rano. | Ću ustati rano.
-- he will work | On će raditi. | Će on raditi. | On će radit.
-- it will be perfect | Bit će savršeno. | Biti će savršeno. | Biće savršeno.
-- coming tomorrow | Doći ćeš sutra. | Doć ćeš sutra. | Dočićeš sutra.
-- we will watch | Gledat ćemo film. | Gledati ćemo film. | Ćemo gledati film.
+opis: Wähle den richtig geschriebenen Satz.
+- schwimmen, Verb zuerst | Plivat ću. | Plivati ću. | Plivaću.
+- lernen, Pronomen zuerst | Ja ću učiti. | Ću ja učiti. | Ja ću učit.
+- morgen Mittagessen | Sutra ćemo ručati. | Ćemo sutra ručati. | Sutra ćemo ručat.
+- ans Meer fahren | Ići ću na more. | Ić ću na more. | Ićiću na more.
+- reisen, Verb zuerst | Putovat ćemo. | Putovati ćemo. | Putovaćemo.
+- früh aufstehen | Ustat ću rano. | Ustati ću rano. | Ću ustati rano.
+- er wird arbeiten | On će raditi. | Će on raditi. | On će radit.
+- es wird perfekt sein | Bit će savršeno. | Biti će savršeno. | Biće savršeno.
+- morgen kommen | Doći ćeš sutra. | Doć ćeš sutra. | Dočićeš sutra.
+- wir werden schauen | Gledat ćemo film. | Gledati ćemo film. | Ćemo gledati film.
 
-## Positive or negative future?
+## Bejahtes oder verneintes Futur?
 format: izbor
-opis: Choose the correctly written sentence.
-- I won't swim. | Neću plivati. | Ne ću plivati. | Plivat neću.
-- We won't travel. | Nećemo putovati. | Ne ćemo putovati. | Nećemo putovat.
-- She won't work tomorrow. | Sutra neće raditi. | Sutra ne će raditi. | Sutra neće radit.
-- You won't watch the film. | Nećeš gledati film. | Nećeš gledat film. | Ne ćeš gledati film.
-- They won't get up early. | Neće ustati rano. | Ne će ustati rano. | Neće ustat rano.
-- I won't go to the sea. | Neću ići na more. | Neću ić na more. | Ne ću ići na more.
-- We won't be tired. | Nećemo biti umorni. | Nećemo bit umorni. | Ne ćemo biti umorni.
+opis: Wähle den richtig geschriebenen Satz.
+- Ich werde nicht schwimmen. | Neću plivati. | Ne ću plivati. | Plivat neću.
+- Wir werden nicht reisen. | Nećemo putovati. | Ne ćemo putovati. | Nećemo putovat.
+- Sie wird morgen nicht arbeiten. | Sutra neće raditi. | Sutra ne će raditi. | Sutra neće radit.
+- Du wirst den Film nicht schauen. | Nećeš gledati film. | Nećeš gledat film. | Ne ćeš gledati film.
+- Sie werden nicht früh aufstehen. | Neće ustati rano. | Ne će ustati rano. | Neće ustat rano.
+- Ich werde nicht ans Meer fahren. | Neću ići na more. | Neću ić na more. | Ne ću ići na more.
+- Wir werden nicht müde sein. | Nećemo biti umorni. | Nećemo bit umorni. | Ne ćemo biti umorni.
 - Answering "Hoćeš li doći?" | Hoću. | Ću. | Ću doći.
-- Asking whether someone will come | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
-- He wants to, but I won't. | On hoće, ali ja neću. | On će, ali ja neću. | On hoće, ali ja ne ću.
+- Fragen, ob jemand kommt | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
+- Er will, aber ich nicht. | On hoće, ali ja neću. | On će, ali ja neću. | On hoće, ali ja ne ću.
 
-## Type the future stem
+## Tippe den Futurstamm
 format: upis
-opis: You get the infinitive — type the form that stands in front of *ću*.
+opis: Du bekommst den Infinitiv – tippe die Form, die vor *ću* steht.
 - plivati → | plivat
 - putovati → | putovat
 - ručati → | ručat
@@ -286,9 +286,9 @@ opis: You get the infinitive — type the form that stands in front of *ću*.
 - piti → | pit
 - ići → | ići
 
-## Put it in the future
+## Setz es ins Futur
 format: upis
-opis: Put the verb in the future — both word orders are accepted.
+opis: Setz das Verb ins Futur – beide Wortstellungen werden akzeptiert.
 - (ja, plivati) | Ja ću plivati / Plivat ću
 - (mi, ručati) | Mi ćemo ručati / Ručat ćemo
 - (oni, putovati) | Oni će putovati / Putovat će
@@ -300,9 +300,9 @@ opis: Put the verb in the future — both word orders are accepted.
 - (ja, ići) | Ja ću ići / Ići ću
 - (mi, biti) | Mi ćemo biti / Bit ćemo
 
-## The second word order
+## Die zweite Wortstellung
 format: upis
-opis: Rewrite in the other word order.
+opis: Schreib es in der anderen Wortstellung.
 - Ja ću gledati film. → | Gledat ću film
 - Putovat ćemo sutra. → | Mi ćemo putovati sutra
 - Ti ćeš trenirati. → | Trenirat ćeš
@@ -312,9 +312,9 @@ opis: Rewrite in the other word order.
 - Ja ću ustati rano. → | Ustat ću rano
 - Radit će cijeli dan. → | On će raditi cijeli dan
 
-## Say you won't
+## Sag, dass du es nicht tust
 format: upis
-opis: Turn each plan into a refusal.
+opis: Mach aus jedem Plan eine Absage.
 - Plivat ću. → | Neću plivati
 - Putovat ćemo. → | Nećemo putovati
 - Gledat ćeš film. → | Nećeš gledati film
@@ -328,7 +328,7 @@ opis: Turn each plan into a refusal.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about level 8 — everything here comes from the levels before it.
+opis: Nicht über Level 8 – alles hier stammt aus den Levels davor.
 - Napiši množinu: učenik → | učenici | učeniki | učenikovi
 - Napiši množinu: stol → | stolovi | stoli | stole
 - Napiši množinu: dijete → | djeca | dijete | djetovi
@@ -343,56 +343,56 @@ opis: Not about level 8 — everything here comes from the levels before it.
 - Pijem ___ . (kava) | kavu | kava | kave
 - Idem ___ . (škola) | u školu | u škola
 - Tata kuha, ___ brat uči. | a | i | ali
-- Što znači "zadaća"? | homework | grade | exam
-- Što znači "pauza"? | break | lesson | answer
+- Što znači "zadaća"? | Hausaufgabe | Note | Prüfung
+- Što znači "pauza"? | Pause | Unterrichtsstunde | Antwort
 
 ## Bau den Satz
 format: slaganje
 opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
-- Plivat ću svaki dan. | en: I will swim every day.
-- Mi ćemo putovati na more. | en: We will travel to the seaside.
-- Ići ćemo u Split. | en: We will go to Split.
-- Sutra ću ustati rano. | en: Tomorrow I will get up early.
-- Tata će voziti, a mama će spavati. | en: Dad will drive, while mom will sleep.
-- Navečer ćemo šetati. | en: In the evening we will take walks.
-- Bit će savršeno! | en: It will be perfect!
-- Neću učiti. | en: I won't study.
-- Neću nositi kaput. | en: I won't wear a coat.
-- Neću trenirati danas. | en: I won't train today.
-- Ona neće raditi u nedjelju. | en: She won't work on Sunday.
-- Nećemo ići u kino. | en: We won't go to the cinema.
-- On hoće, ali ja neću. | en: He wants to, but I won't.
-- Sutra ću putovati u Zagreb. | en: Tomorrow I will travel to Zagreb.
-- Čitat ću knjigu i slušat ću glazbu. | en: I will read a book and listen to music.
-- Tamo ću vidjeti prijatelja. | en: There I will see my friend.
-- Ručat ćemo zajedno. | en: We will have lunch together.
-- Navečer ću biti umoran. | en: In the evening I will be tired.
-- Marko će letjeti. | en: Marko will fly.
-- Luka će ostati doma. | en: Luka will stay at home.
-- Nosit ću kofer na kolodvor. | en: I will carry the suitcase to the station.
-- Gledat ćemo utakmicu. | en: We will watch the match.
-- Nećemo ustati rano jer je odmor. | en: We won't get up early because it's a holiday.
+- Plivat ću svaki dan. | en: Ich werde jeden Tag schwimmen.
+- Mi ćemo putovati na more. | en: Wir werden ans Meer reisen.
+- Ići ćemo u Split. | en: Wir werden nach Split fahren.
+- Sutra ću ustati rano. | en: Morgen werde ich früh aufstehen.
+- Tata će voziti, a mama će spavati. | en: Papa wird fahren, während Mama schlafen wird.
+- Navečer ćemo šetati. | en: Abends werden wir spazieren gehen.
+- Bit će savršeno! | en: Es wird perfekt!
+- Neću učiti. | en: Ich werde nicht lernen.
+- Neću nositi kaput. | en: Ich werde keinen Mantel tragen.
+- Neću trenirati danas. | en: Ich werde heute nicht trainieren.
+- Ona neće raditi u nedjelju. | en: Sie wird am Sonntag nicht arbeiten.
+- Nećemo ići u kino. | en: Wir werden nicht ins Kino gehen.
+- On hoće, ali ja neću. | en: Er will, aber ich nicht.
+- Sutra ću putovati u Zagreb. | en: Morgen werde ich nach Zagreb reisen.
+- Čitat ću knjigu i slušat ću glazbu. | en: Ich werde ein Buch lesen und Musik hören.
+- Tamo ću vidjeti prijatelja. | en: Dort werde ich meinen Freund sehen.
+- Ručat ćemo zajedno. | en: Wir werden zusammen zu Mittag essen.
+- Navečer ću biti umoran. | en: Abends werde ich müde sein.
+- Marko će letjeti. | en: Marko wird fliegen.
+- Luka će ostati doma. | en: Luka wird zu Hause bleiben.
+- Nosit ću kofer na kolodvor. | en: Ich werde den Koffer zum Bahnhof tragen.
+- Gledat ćemo utakmicu. | en: Wir werden das Spiel anschauen.
+- Nećemo ustati rano jer je odmor. | en: Wir werden nicht früh aufstehen, weil Urlaub ist.
 
 ## Schreib es auf Kroatisch
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence. Both word orders count, and so does the pronoun.
-- I will swim every day. | Plivat ću svaki dan. / Ja ću plivati svaki dan.
-- We will travel to the seaside. | Putovat ćemo na more. / Mi ćemo putovati na more.
-- Tomorrow I will get up early. | Sutra ću ustati rano. / Ustat ću rano sutra.
-- In the evening we will take walks. | Navečer ćemo šetati. / Šetat ćemo navečer.
-- It will be perfect! | Bit će savršeno.
-- I won't study. | Neću učiti.
-- I won't wear a coat. | Neću nositi kaput.
-- She won't work on Sunday. | Ona neće raditi u nedjelju. / Neće raditi u nedjelju.
-- We won't go to the cinema. | Nećemo ići u kino.
-- Tomorrow I will travel to Zagreb. | Sutra ću putovati u Zagreb. / Putovat ću sutra u Zagreb.
-- I will read a book. | Čitat ću knjigu. / Ja ću čitati knjigu.
-- We will have lunch together. | Ručat ćemo zajedno. / Mi ćemo ručati zajedno.
-- In the evening I will be tired. | Navečer ću biti umoran. / Bit ću umoran navečer.
-- Dad will drive. | Tata će voziti.
-- Marko will fly. | Marko će letjeti.
-- Luka will stay at home. | Luka će ostati doma.
-- I will carry the suitcase to the station. | Nosit ću kofer na kolodvor. / Ja ću nositi kofer na kolodvor.
-- We will watch the match. | Gledat ćemo utakmicu. / Mi ćemo gledati utakmicu.
-- I will go to the sea. | Ići ću na more. / Ja ću ići na more.
-- They won't sleep. | Oni neće spavati. / Neće spavati.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz. Beide Wortstellungen zählen, und das Pronomen auch.
+- Ich werde jeden Tag schwimmen. | Plivat ću svaki dan. / Ja ću plivati svaki dan.
+- Wir werden ans Meer reisen. | Putovat ćemo na more. / Mi ćemo putovati na more.
+- Morgen werde ich früh aufstehen. | Sutra ću ustati rano. / Ustat ću rano sutra.
+- Abends werden wir spazieren gehen. | Navečer ćemo šetati. / Šetat ćemo navečer.
+- Es wird perfekt! | Bit će savršeno.
+- Ich werde nicht lernen. | Neću učiti.
+- Ich werde keinen Mantel tragen. | Neću nositi kaput.
+- Sie wird am Sonntag nicht arbeiten. | Ona neće raditi u nedjelju. / Neće raditi u nedjelju.
+- Wir werden nicht ins Kino gehen. | Nećemo ići u kino.
+- Morgen werde ich nach Zagreb reisen. | Sutra ću putovati u Zagreb. / Putovat ću sutra u Zagreb.
+- Ich werde ein Buch lesen. | Čitat ću knjigu. / Ja ću čitati knjigu.
+- Wir werden zusammen zu Mittag essen. | Ručat ćemo zajedno. / Mi ćemo ručati zajedno.
+- Abends werde ich müde sein. | Navečer ću biti umoran. / Bit ću umoran navečer.
+- Papa wird fahren. | Tata će voziti.
+- Marko wird fliegen. | Marko će letjeti.
+- Luka wird zu Hause bleiben. | Luka će ostati doma.
+- Ich werde den Koffer zum Bahnhof tragen. | Nosit ću kofer na kolodvor. / Ja ću nositi kofer na kolodvor.
+- Wir werden das Spiel anschauen. | Gledat ćemo utakmicu. / Mi ćemo gledati utakmicu.
+- Ich werde ans Meer fahren. | Ići ću na more. / Ja ću ići na more.
+- Sie werden nicht schlafen. | Oni neće spavati. / Neće spavati.

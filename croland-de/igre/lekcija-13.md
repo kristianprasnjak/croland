@@ -1,22 +1,22 @@
-# Where Are You? The Locative
+# Wo bist du? Der Lokativ
 cjelina: Lesson 13
 
-## Going vs. being
+## Hingehen gegen da sein
 format: tekst
-info: A short read to open the lesson. Since Lesson 5 you have said where you are going: *Idem u grad.* Today the same places get a second form for where you already are: *Ja sam u gradu.* The preposition stays the same, and only the ending changes.
-infokratko: Going: *Idem u grad.* Being there: *Ja sam u gradu.* Same preposition, new ending.
-opis: Read it through — by the end you can say where everybody is.
-- Since Lesson 5 you can say where you're *going*: *Idem u grad.* Today you learn where you *are*: *Ja sam **u gradu**.*
-- One tiny ending — **-u** for most words, **-i** for feminine ones — and the whole city becomes describable: at the café, in the park, at the office on a Friday night (hopefully not).
-- **You already know the places.** Vocabulary 5, 6 and 10 gave you *kafić, pekara, ured, knjižnica, kazalište*. Today they come back in the new form, together with a few rooms of the flat.
-- By the end of this lesson you can answer *Gdje si?* on the phone and say where everybody in the family is.
+info: Ein kurzer Text zum Einstieg. Seit Lektion 5 sagst du, wohin du gehst: *Idem u grad.* Heute bekommen dieselben Orte eine zweite Form für dort, wo du schon bist: *Ja sam u gradu.* Die Präposition bleibt gleich, nur die Endung ändert sich – genau wie im Deutschen *in die Stadt* (wohin?) gegen *in der Stadt* (wo?).
+infokratko: Hingehen: *Idem u grad.* Da sein: *Ja sam u gradu.* Gleiche Präposition, neue Endung.
+opis: Lies es durch – am Ende kannst du sagen, wo alle sind.
+- Seit Lektion 5 kannst du sagen, wohin du *gehst*: *Idem u grad.* Heute lernst du, wo du *bist*: *Ja sam **u gradu**.*
+- Eine winzige Endung – **-u** für die meisten Wörter, **-i** für feminine –, und die ganze Stadt lässt sich beschreiben: im Café, im Park, Freitagabend im Büro (hoffentlich nicht).
+- **Die Orte kennst du schon.** Wortschatz 5, 6 und 10 haben dir *kafić, pekara, ured, knjižnica, kazalište* gegeben. Heute kommen sie in der neuen Form zurück, zusammen mit ein paar Zimmern der Wohnung.
+- Am Ende dieser Lektion kannst du am Telefon *Gdje si?* beantworten und sagen, wo jeder in der Familie ist.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on negation from Lesson 12. Three verbs join *ne* into one word — *nisam, nemam, neću* — and every negative word such as *ništa* or *nikad* keeps *ne* on the verb as well. The bracket tells you which negative word is missing.
-infokratko: Lesson 12 against the clock: *nisam, nemam, neću*; *ništa, nitko, nikad* keep *ne* on the verb.
+info: Ein Aufwärmen auf Zeit mit der Verneinung aus Lektion 12. Drei Verben verschmelzen *ne* zu einem Wort – *nisam, nemam, neću* –, und jedes Verneinungswort wie *ništa* oder *nikad* behält ebenfalls *ne* am Verb. Die Klammer sagt dir, welches Verneinungswort fehlt.
+infokratko: Lektion 12 gegen die Uhr: *nisam, nemam, neću*; *ništa, nitko, nikad* behalten *ne* am Verb.
 trajanje: 60
-opis: Negation sprint from Lesson 12 — tap the correct negative form before the timer runs out.
+opis: Verneinungs-Sprint aus Lektion 12 – tippe auf die richtige verneinte Form, bevor die Zeit abläuft.
 - sam | nisam
 - imam | nemam
 - je | nije
@@ -30,94 +30,94 @@ opis: Negation sprint from Lesson 12 — tap the correct negative form before th
 - ___ ne čekam. (nobody, target) | Nikoga
 - Marko je pio kavu. → Marko ___ pio kavu. | nije
 
-## Place words
+## Ortswörter
 format: kartice
-info: The places of the lesson, in town and at home. Most are old friends from Vocabulary 4, 5, 6 and 10; eight are new: *pošta, teretana, ljekarna, rijeka, kuhinja, kupaonica, hodnik, krov*. Look at the last letter of each word: it decides the "being there" ending you learn on the rule page.
-infokratko: Places in town and at home. The last letter decides the ending you learn next.
-opis: Your map of the town and the flat. Tap a card to reveal the meaning.
-- kvart | neighborhood
-- zgrada | building
-- kat | floor, level
-- ured | office
+info: Die Orte der Lektion, in der Stadt und zu Hause. Die meisten sind alte Bekannte aus Wortschatz 4, 5, 6 und 10; acht sind neu: *pošta, teretana, ljekarna, rijeka, kuhinja, kupaonica, hodnik, krov*. Schau auf den letzten Buchstaben jedes Wortes: Er entscheidet die Endung fürs Dasein, die du auf der Regelseite lernst.
+infokratko: Orte in der Stadt und zu Hause. Der letzte Buchstabe entscheidet die Endung, die du als Nächstes lernst.
+opis: Deine Karte der Stadt und der Wohnung. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- kvart | Viertel
+- zgrada | Gebäude
+- kat | Stockwerk, Etage
+- ured | Büro
 - kafić | Café
-- pekara | bakery
-- pošta | post office
-- teretana | gym
-- knjižnica | library
-- bolnica | hospital
-- banka | bank
-- ljekarna | pharmacy
-- kazalište | theater
-- rijeka | river
+- pekara | Bäckerei
+- pošta | Post, Postamt
+- teretana | Fitnessstudio
+- knjižnica | Bibliothek
+- bolnica | Krankenhaus
+- banka | Bank
+- ljekarna | Apotheke
+- kazalište | Theater
+- rijeka | Fluss
 - kuhinja | Küche
-- kupaonica | bathroom
-- hodnik | hallway
+- kupaonica | Badezimmer
+- hodnik | Flur
 - balkon | Balkon
-- krov | roof
+- krov | Dach
 
-## Verbs and little words for places
+## Verben und kleine Wörter für Orte
 format: kartice
-info: The verbs that usually come with a place — you live, work, sit, stand, wait and stay *somewhere*. *Stajati* changes its stem: *stojim*. *Stanovati* is living at an address, *živjeti* is living in general. **Gdje?** asks where you are, **kamo?** asks where you are going.
-infokratko: Verbs of place: *živim, radim, sjedim, stojim*. **gdje?** = where, **kamo?** = where to.
-opis: Eight verbs and the little words around them. Tap a card to reveal the meaning.
+info: Die Verben, die meist mit einem Ort kommen – du wohnst, arbeitest, sitzt, stehst, wartest und bleibst *irgendwo*. *Stajati* ändert seinen Stamm: *stojim*. *Stanovati* ist an einer Adresse wohnen, *živjeti* leben allgemein. **Gdje?** fragt, wo du bist, **kamo?** fragt, wohin du gehst – genau wie *wo?* und *wohin?*.
+infokratko: Ortsverben: *živim, radim, sjedim, stojim*. **gdje?** = wo, **kamo?** = wohin.
+opis: Acht Verben und die kleinen Wörter darum herum. Tippe auf eine Karte, um die Bedeutung aufzudecken.
 - živjeti → živim | leben, wohnen
-- stanovati → stanujem | to live, to reside
+- stanovati → stanujem | wohnen
 - raditi → radim | arbeiten
 - sjediti → sjedim | sitzen
 - stajati → stojim | stehen
 - čekati → čekam | warten
-- trenirati → treniram | to train, to work out
-- ostati → ostanem | to stay
-- gdje? | where? (location)
-- kamo? | where to? (motion)
-- tamo | there
-- gore | up, upstairs
-- dolje | down, downstairs
-- doma | at home
-- Halo! | Hello! (on the phone)
+- trenirati → treniram | trainieren
+- ostati → ostanem | bleiben
+- gdje? | wo?
+- kamo? | wohin?
+- tamo | dort
+- gore | oben
+- dolje | unten
+- doma | zu Hause
+- Halo! | Hallo! (am Telefon)
 
-## Match the place
+## Ordne den Ort zu
 format: parovi
-info: Each place phrase beside its English meaning. The phrases are already in the new form: masculine and neuter places end in **-u** (*u kafiću, u kinu*), feminine places in **-i** (*u školi, na tržnici*). English uses *in*, *at* or *on*; Croatian uses only *u* or *na*.
-infokratko: *u kafiću, u kinu* (**-u**), *u školi, na tržnici* (**-i**). English *in/at/on* = *u* or *na*.
-opis: Where are they? Match the phrase with its English meaning.
-- u kafiću | at the café
-- u školi | at school
-- na tržnici | at the market
-- u parku | in the park
-- u teretani | at the gym
-- u kinu | at the cinema
-- na trgu | on the square
-- u pekari | at the bakery
-- u kuhinji | in the kitchen
-- na koncertu | at the concert
+info: Jede Ortswendung neben ihrer deutschen Bedeutung. Die Wendungen stehen schon in der neuen Form: Maskuline und neutrale Orte enden auf **-u** (*u kafiću, u kinu*), feminine Orte auf **-i** (*u školi, na tržnici*). Deutsch nimmt *in*, *an* oder *auf*; Kroatisch nur *u* oder *na*.
+infokratko: *u kafiću, u kinu* (**-u**), *u školi, na tržnici* (**-i**). Deutsch *in/an/auf* = *u* oder *na*.
+opis: Wo sind sie? Ordne die Wendung ihrer deutschen Bedeutung zu.
+- u kafiću | im Café
+- u školi | in der Schule
+- na tržnici | auf dem Markt
+- u parku | im Park
+- u teretani | im Fitnessstudio
+- u kinu | im Kino
+- na trgu | auf dem Platz
+- u pekari | in der Bäckerei
+- u kuhinji | in der Küche
+- na koncertu | beim Konzert
 
-## The rule: being somewhere
+## Die Regel: irgendwo sein
 format: tekst
-info: The main rule of the lesson. After *u* or *na*, a place where you already are takes a new ending: masculine and neuter get **-u** (*u gradu, u kinu*), feminine **-a** becomes **-i** (*u školi*). Watch the question: *kamo?* keeps the Lesson 5 form, *gdje?* takes the new one.
-infokratko: *gdje?* → m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*). *kamo?* → Lesson 5 form.
+info: Die Hauptregel der Lektion. Nach *u* oder *na* nimmt ein Ort, an dem du schon bist, eine neue Endung: Maskulinum und Neutrum bekommen **-u** (*u gradu, u kinu*), feminines **-a** wird zu **-i** (*u školi*). Achte auf die Frage: *kamo?* behält die Form aus Lektion 5, *gdje?* nimmt die neue – wie im Deutschen *wohin?* mit Akkusativ und *wo?* mit Dativ.
+infokratko: *gdje?* → m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*). *kamo?* → Form aus Lektion 5.
 infoodmah: da
-opis: Two questions, two forms of the same place. Read the tables and fill in the last line.
-- **Going there, or already there?** That one difference is the whole lesson.
-- tab: Motion — kamo? (L5) | Location — gdje?
+opis: Zwei Fragen, zwei Formen desselben Ortes. Lies die Tabellen und füll die letzte Zeile aus.
+- **Dorthin gehen oder schon da sein?** Dieser eine Unterschied ist die ganze Lektion – und du kennst ihn: *Ich gehe in die Stadt* gegen *Ich bin in der Stadt*.
+- tab: Bewegung – kamo? (L5) | Ort – gdje?
 - tab: Idem u grad. | Ja sam u gradu.
 - tab: Idem u školu. | Ja sam u školi.
 - tab: Idem u kino. | Ja sam u kinu.
-- **The rule for being somewhere.** Masculine and neuter take **-u** (*u gradu, u kinu, u parku, u uredu*); feminine turns **-a** into **-i** (*u školi, na tržnici, u pekari*).
-- tab: Word ends in | Naming form | Being there
-- tab: consonant (m.) | ured, kafić, park | u ured**u**, u kafić**u**, u park**u**
+- **Die Regel fürs Dasein.** Maskulinum und Neutrum nehmen **-u** (*u gradu, u kinu, u parku, u uredu*); Femininum macht aus **-a** ein **-i** (*u školi, na tržnici, u pekari*).
+- tab: Wort endet auf | Benennungsform | Da sein
+- tab: Konsonant (m.) | ured, kafić, park | u ured**u**, u kafić**u**, u park**u**
 - tab: -o / -e (n.) | kino, more, kazalište | u kin**u**, na mor**u**, u kazališt**u**
 - tab: -a (f.) | škola, kuhinja, teretana | u škol**i**, u kuhinj**i**, u teretan**i**
-- **Same *u/na* logic as before.** **u** = inside, **na** = on or at open places and events. The preposition does not change between *kamo?* and *gdje?* — only the ending does.
-- **This form is the locative.** It always comes after a preposition; on its own, a place stays in the naming form: *Ovo je škola.*
-- **Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu].
+- **Dieselbe *u/na*-Logik wie vorher.** **u** = drinnen, **na** = auf oder an offenen Orten und bei Veranstaltungen. Die Präposition ändert sich zwischen *kamo?* und *gdje?* nicht – nur die Endung. Genau wie bei den deutschen Wechselpräpositionen.
+- **Diese Form ist der Lokativ.** Sie kommt immer nach einer Präposition; allein bleibt ein Ort in der Benennungsform: *Ovo je škola.*
+- **Jetzt schreibst du.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Idem u kino — sada sam u [kinu].
 
-## Going or being?
+## Hingehen oder da sein?
 format: razvrstavanje
-info: Sorting sentences by what they describe. A verb of motion (*idem, ide, idemo*) keeps the Lesson 5 form: *u školu, na tržnicu*. Being, living, working or sleeping somewhere takes the new ending: *u školi, na tržnici*. Look at the verb first, then check the ending.
-infokratko: *idem u školu* = motion; *sam u školi, radi u uredu* = location. Verb first, then ending.
+info: Sätze danach sortieren, was sie beschreiben. Ein Bewegungsverb (*idem, ide, idemo*) behält die Form aus Lektion 5: *u školu, na tržnicu*. Irgendwo sein, wohnen, arbeiten oder schlafen nimmt die neue Endung: *u školi, na tržnici*. Schau zuerst aufs Verb, dann prüf die Endung.
+infokratko: *idem u školu* = Bewegung; *sam u školi, radi u uredu* = Ort. Erst das Verb, dann die Endung.
 stupci: IDEM (→) | JESAM (📍)
-opis: Motion or location? Sort the sentences.
+opis: Bewegung oder Ort? Sortiere die Sätze.
 - Idem u školu. | IDEM (→)
 - Ja sam u školi. | JESAM (📍)
 - Ana je u kinu. | JESAM (📍)
@@ -135,32 +135,32 @@ opis: Motion or location? Sort the sentences.
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap completes the place. Masculine words ending in a consonant and neuter words in **-o** or **-e** take **-u** (*u kafiću, na moru, u kazalištu*); feminine words in **-a** take **-i** (*u školi, na tržnici*). Watch the neuter words: *more* and *kazalište* end in **-e**, but they take **-u**.
-infokratko: Consonant, **-o**, **-e** → **-u** (*na moru, u kazalištu*). **-a** → **-i** (*u školi*).
+info: Ein Tipp vervollständigt den Ort. Maskuline Wörter auf Konsonant und neutrale auf **-o** oder **-e** nehmen **-u** (*u kafiću, na moru, u kazalištu*); feminine Wörter auf **-a** nehmen **-i** (*u školi, na tržnici*). Achte auf die neutralen Wörter: *more* und *kazalište* enden auf **-e**, nehmen aber **-u**.
+infokratko: Konsonant, **-o**, **-e** → **-u** (*na moru, u kazalištu*). **-a** → **-i** (*u školi*).
 nastavci: u | i
-opis: English above, Croatian below. One tap puts the place in the "being there" form.
-- Ja sam u grad___. | I'm in town. | u
-- Ana je u škol___. | Ana is at school. | i
-- Marko je u kin___. | Marko is at the cinema. | u
-- Mi smo na tržnic___. | We are at the market. | i
-- Tata radi u ured___. | Dad works in an office. | u
-- Ana trenira u teretan___. | Ana works out at the gym. | i
-- Sjedimo u kafić___. | We're sitting in the café. | u
-- Baka je u pošt___. | Grandma is at the post office. | i
-- Djeca su na mor___. | The children are at the seaside. | u
-- Kruh kupujem u pekar___. | I buy bread at the bakery. | i
-- Navečer smo u kazališt___. | In the evening we're at the theater. | u
-- Mama kuha u kuhinj___. | Mum is cooking in the kitchen. | i
-- Mačka spava na krov___. | The cat is sleeping on the roof. | u
-- Petra je u kupaonic___. | Petra is in the bathroom. | i
-- Mi smo na koncert___. | We are at the concert. | u
-- Djed čita u knjižnic___. | Grandpa is reading in the library. | i
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp setzt den Ort in die Da-sein-Form.
+- Ja sam u grad___. | Ich bin in der Stadt. | u
+- Ana je u škol___. | Ana ist in der Schule. | i
+- Marko je u kin___. | Marko ist im Kino. | u
+- Mi smo na tržnic___. | Wir sind auf dem Markt. | i
+- Tata radi u ured___. | Papa arbeitet in einem Büro. | u
+- Ana trenira u teretan___. | Ana trainiert im Fitnessstudio. | i
+- Sjedimo u kafić___. | Wir sitzen im Café. | u
+- Baka je u pošt___. | Oma ist auf der Post. | i
+- Djeca su na mor___. | Die Kinder sind am Meer. | u
+- Kruh kupujem u pekar___. | Ich kaufe Brot in der Bäckerei. | i
+- Navečer smo u kazališt___. | Abends sind wir im Theater. | u
+- Mama kuha u kuhinj___. | Mama kocht in der Küche. | i
+- Mačka spava na krov___. | Die Katze schläft auf dem Dach. | u
+- Petra je u kupaonic___. | Petra ist im Badezimmer. | i
+- Mi smo na koncert___. | Wir sind beim Konzert. | u
+- Djed čita u knjižnic___. | Opa liest in der Bibliothek. | i
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing the form that fits the verb. After *idem, ide, idemo* the place keeps the Lesson 5 form (*u kino, na trg*); after *je, radim, živi, spava* it takes the locative (*u uredu, u školi*). The third option is a mix-up you should never write: *u uredi* puts a feminine ending on a masculine word.
-infokratko: *idem* → *u kino*; *sam, radim, živi* → *u uredu*. Never a feminine **-i** on a masculine word.
-opis: Choose the correct form. Read the verb first.
+info: Wähle die Form, die zum Verb passt. Nach *idem, ide, idemo* behält der Ort die Form aus Lektion 5 (*u kino, na trg*); nach *je, radim, živi, spava* nimmt er den Lokativ (*u uredu, u školi*). Die dritte Option ist eine Verwechslung, die du nie schreiben solltest: *u uredi* setzt eine feminine Endung an ein maskulines Wort.
+infokratko: *idem* → *u kino*; *sam, radim, živi* → *u uredu*. Nie ein feminines **-i** an einem maskulinen Wort.
+opis: Wähle die richtige Form. Lies zuerst das Verb.
 - Radim ___ . | u uredu | u ured | u uredi
 - Ana trenira ___ . | u teretani | u teretanu | u teretana
 - Idem ___ . | u kino | u kinu | na kinu
@@ -171,14 +171,14 @@ opis: Choose the correct form. Read the verb first.
 - Mi smo ___ . | na koncertu | na koncert | u koncertu
 - Baka ide ___ . | u poštu | u pošti | u pošta
 - Ivan živi ___ . | u Zagrebu | u Zagreb | na Zagrebu
-- Djeca su ___ . (at the seaside) | na moru | na more | u more
+- Djeca su ___ . (am Meer) | na moru | na more | u more
 - Mačka spava ___ . | na krovu | na krov | na krovi
 
-## Type the locative
+## Tippe den Lokativ
 format: upis
-info: You type the place in the locative. Look at the naming form in the bracket: a consonant or **-e** gets **-u** (*gradu, kazalištu*), **-a** becomes **-i** (*školi, knjižnici*). The preposition is already in the sentence, so type only the one word.
-infokratko: Type one word: consonant or **-e** → **-u**, **-a** → **-i**.
-opis: Say where! Type the correct form.
+info: Du tippst den Ort im Lokativ. Schau auf die Benennungsform in der Klammer: Ein Konsonant oder **-e** bekommt **-u** (*gradu, kazalištu*), **-a** wird zu **-i** (*školi, knjižnici*). Die Präposition steht schon im Satz, also tippe nur das eine Wort.
+infokratko: Tippe ein Wort: Konsonant oder **-e** → **-u**, **-a** → **-i**.
+opis: Sag, wo! Tippe die richtige Form.
 - Ja sam u ___ . (grad) | gradu
 - Ona je u ___ . (škola) | školi
 - Sjedimo u ___ . (kafić) | kafiću
@@ -192,28 +192,28 @@ opis: Say where! Type the correct form.
 - Baka je u ___ . (pošta) | pošti
 - Mačka je na ___ . (krov) | krovu
 
-## The rule: u or na?
+## Die Regel: u oder na?
 format: tekst
-info: The second rule page, and it is shorter. The preposition you use to go somewhere is the same one you use to be there: *u školu → u školi*, *na tržnicu → na tržnici*. **u** is for inside, **na** for open places, surfaces and events. A few words change a letter before **-i** — only a preview today.
-infokratko: Same preposition for going and being: *u školu → u školi*. **u** inside, **na** open places and events.
+info: Die zweite Regelseite, und sie ist kürzer. Die Präposition, mit der du irgendwohin gehst, ist dieselbe, mit der du dort bist: *u školu → u školi*, *na tržnicu → na tržnici*. **u** ist für drinnen, **na** für offene Orte, Oberflächen und Veranstaltungen. Ein paar Wörter ändern vor **-i** einen Buchstaben – heute nur eine Vorschau.
+infokratko: Gleiche Präposition für hingehen und da sein: *u školu → u školi*. **u** drinnen, **na** offene Orte und Veranstaltungen.
 infoodmah: da
-opis: Inside or at an open place? Read the table and fill in the last line.
-- **The preposition stays the same.** Whatever you use to go somewhere, you use to be there: *Idem **u** školu → Ja sam **u** školi. Idem **na** tržnicu → Ja sam **na** tržnici.*
-- tab: u — inside a room or building | na — open places, surfaces, events
+opis: Drinnen oder an einem offenen Ort? Lies die Tabelle und füll die letzte Zeile aus.
+- **Die Präposition bleibt gleich.** Was du nimmst, um irgendwohin zu gehen, nimmst du auch, um dort zu sein: *Idem **u** školu → Ja sam **u** školi. Idem **na** tržnicu → Ja sam **na** tržnici.*
+- tab: u – in einem Raum oder Gebäude | na – offene Orte, Oberflächen, Veranstaltungen
 - tab: u školi | na tržnici
 - tab: u kinu | na trgu
 - tab: u kuhinji | na krovu
 - tab: u uredu | na koncertu
 - tab: u parku | na moru
-- **A few are conventions.** *na moru* (at the seaside), *na koncertu*, *na katu* — learn them together with the place, the way you learned *na more* in Lesson 5.
-- **Preview: k before -i.** A few feminine words change a letter before the new ending: *rijeka → na rijeci*, *banka → u banci*. Grammar 13 explains it; for now, just recognise the form when you hear it.
-- **Now you write them.** Ana je [na] tržnici. Marko je [u] kinu. Mi smo [na] koncertu.
+- **Ein paar sind Konvention.** *na moru* (am Meer), *na koncertu*, *na katu* – lerne sie zusammen mit dem Ort, so wie du in Lektion 5 *na more* gelernt hast.
+- **Vorschau: k vor -i.** Ein paar feminine Wörter ändern vor der neuen Endung einen Buchstaben: *rijeka → na rijeci*, *banka → u banci*. Grammatik 13 erklärt es; vorerst erkenne die Form einfach, wenn du sie hörst.
+- **Jetzt schreibst du.** Ana je [na] tržnici. Marko je [u] kinu. Mi smo [na] koncertu.
 
-## Build your day
+## Bau deinen Tag
 format: slaganje
-info: Whole sentences about where people are, built from tiles. Each place takes the locative after *u* or *na*, and *je, sam, su* stay in second place — also after *jer*: *jer je Ana u knjižnici*. A comma comes before *a* and *ali*.
-infokratko: Locative after *u/na*; *je, sam* in second place, also after *jer*. Comma before *a, ali*.
-opis: Arrange the tiles to build the sentence.
+info: Ganze Sätze darüber, wo Menschen sind, aus Kärtchen gebaut. Jeder Ort nimmt nach *u* oder *na* den Lokativ, und *je, sam, su* bleiben an zweiter Stelle – auch nach *jer*: *jer je Ana u knjižnici*. Vor *a* und *ali* steht ein Komma.
+infokratko: Lokativ nach *u/na*; *je, sam* an zweiter Stelle, auch nach *jer*. Komma vor *a, ali*.
+opis: Ordne die Kärtchen, um den Satz zu bauen.
 - Ujutro sam u pekari.
 - U parku čitam i gledam ljude.
 - Ana je u teretani, a Marko je u kinu.
@@ -227,12 +227,12 @@ opis: Arrange the tiles to build the sentence.
 - Petak je navečer, a ja sam još u uredu.
 - Vidimo se na koncertu!
 
-## In or on?
+## In oder auf?
 format: razvrstavanje
-info: Sorting places by their preposition. The ending is already there, so only *u* or *na* is missing. Rooms and buildings take **u** (*u kuhinji, u kafiću*); open places, surfaces and events take **na** (*na trgu, na krovu, na koncertu*). *Na moru* and *na otoku* are conventions to learn whole.
-infokratko: Rooms and buildings: **u**. Open places, surfaces, events: **na**. *na moru, na otoku*.
+info: Orte nach ihrer Präposition sortieren. Die Endung steht schon da, nur *u* oder *na* fehlt. Zimmer und Gebäude nehmen **u** (*u kuhinji, u kafiću*); offene Orte, Oberflächen und Veranstaltungen nehmen **na** (*na trgu, na krovu, na koncertu*). *Na moru* und *na otoku* sind Konventionen, die man als Ganzes lernt.
+infokratko: Zimmer und Gebäude: **u**. Offene Orte, Oberflächen, Veranstaltungen: **na**. *na moru, na otoku*.
 stupci: U | NA
-opis: Which preposition goes in front of each place? Sort them.
+opis: Welche Präposition steht vor jedem Ort? Sortiere sie.
 - ___ školi | U
 - ___ tržnici | NA
 - ___ trgu | NA
@@ -250,12 +250,12 @@ opis: Which preposition goes in front of each place? Sort them.
 - ___ balkonu | NA
 - ___ kafiću | U
 
-## Locative sprint
+## Lokativ-Sprint
 format: brzina
-info: A timed sprint from the naming form to "being there". Add **-u** to a consonant, turn **-o/-e** into **-u**, and turn **-a** into **-i**. The preposition comes with the place: *u školi* but *na trgu*, *na moru*, *na koncertu*.
-infokratko: Naming form → locative: **-u** or **-i**, with the right *u* or *na*.
+info: Ein Sprint auf Zeit von der Benennungsform zum Dasein. Häng an einen Konsonanten **-u** an, mach aus **-o/-e** ein **-u** und aus **-a** ein **-i**. Die Präposition kommt mit dem Ort: *u školi*, aber *na trgu*, *na moru*, *na koncertu*.
+infokratko: Benennungsform → Lokativ: **-u** oder **-i**, mit dem richtigen *u* oder *na*.
 trajanje: 45
-opis: A place flashes — tap the "being there" form.
+opis: Ein Ort blitzt auf – tippe auf die Da-sein-Form.
 - škola | u školi
 - trg | na trgu
 - kino | u kinu
@@ -269,11 +269,11 @@ opis: A place flashes — tap the "being there" form.
 - kafić | u kafiću
 - park | u parku
 
-## Where is everyone?
+## Wo sind alle?
 format: dijalog
-info: A phone call built on *Gdje si?* Every answer about a place uses the locative: *u autobusu, u teretani, u uredu*. The friend reacts to what you say, so read the reply before you choose again. Both options are always correct Croatian.
-infokratko: Answer *Gdje si?* with the locative: *u autobusu, u teretani, u uredu*.
-opis: Friday evening phone call — find out where everyone is! Passive words: *znači* (so, that means), *bravo* (well done), *u osam* (at eight).
+info: Ein Telefonat, das auf *Gdje si?* aufgebaut ist. Jede Antwort über einen Ort verwendet den Lokativ: *u autobusu, u teretani, u uredu*. Der Freund reagiert auf das, was du sagst, also lies die Antwort, bevor du wieder wählst. Beide Optionen sind immer korrektes Kroatisch.
+infokratko: Beantworte *Gdje si?* mit dem Lokativ: *u autobusu, u teretani, u uredu*.
+opis: Telefonat am Freitagabend – finde heraus, wo alle sind! Passive Wörter: *znači* (also, das heißt), *bravo* (gut gemacht), *u osam* (um acht).
 - npc | Halo! Gdje si?
 - ti | U autobusu sam. A ti? | U teretani sam. A ti?
 - npc | Znači, nisi doma! Ja sam još u uredu.
@@ -287,12 +287,12 @@ opis: Friday evening phone call — find out where everyone is! Passive words: *
 - npc | Dobro, vidimo se tamo u osam!
 - ti | Može! | Super, vidimo se!
 
-## Read: around town
+## Lesen: in der Stadt
 format: izbor
-info: Read the story, then answer in Croatian. Almost every sentence says where somebody is, so each answer is a place in the locative: *u teretani, na tržnici, na krovu*. Watch Marko: he is in the library, but he is not studying.
-infokratko: Read, then answer. Each answer is a place: *u teretani, na tržnici, na krovu*.
+info: Lies die Geschichte und antworte dann auf Kroatisch. Fast jeder Satz sagt, wo jemand ist, also ist jede Antwort ein Ort im Lokativ: *u teretani, na tržnici, na krovu*. Achte auf Marko: Er ist in der Bibliothek, aber er lernt nicht.
+infokratko: Lies, dann antworte. Jede Antwort ist ein Ort: *u teretani, na tržnici, na krovu*.
 tekst: Subota je, a obitelj Horvat nije doma. Ana je u teretani i trenira. Marko je u knjižnici, ali ne uči — spava na stolu! Mama je na tržnici i kupuje voće. Tata je u uredu, jer radi i u subotu. Baka i djed su u parku. Djed čita, a baka gleda ljude. Navečer su svi zajedno u kazalištu. Samo mačka je doma. Ona spava na krovu.
-opis: Read the story, then answer the questions. Passive words: *svi* (everybody).
+opis: Lies die Geschichte und beantworte dann die Fragen. Passive Wörter: *svi* (alle).
 - Gdje je Ana? | u teretani | u knjižnici | u parku
 - Što Marko radi u knjižnici? | spava | uči | čita
 - Tko je na tržnici? | mama | baka | Ana
@@ -302,28 +302,28 @@ opis: Read the story, then answer the questions. Passive words: *svi* (everybody
 
 ## Lektionscheck
 format: provjera
-info: The scored mix of the whole lesson, and 80% opens Vocabulary 13. Most of the points sit on two things: after *u* or *na* a place where you are takes **-u** or **-i**, and a verb of motion keeps the Lesson 5 form instead.
-infokratko: The whole lesson, mixed; 80% opens Vocabulary 13. *gdje?* → **-u / -i**; motion keeps the L5 form.
+info: Die bewertete Mischung der ganzen Lektion, und 80 % öffnen Wortschatz 13. Die meisten Punkte stecken in zwei Dingen: Nach *u* oder *na* nimmt ein Ort, an dem du bist, **-u** oder **-i**, und ein Bewegungsverb behält stattdessen die Form aus Lektion 5.
+infokratko: Die ganze Lektion gemischt; 80 % öffnen Wortschatz 13. *gdje?* → **-u / -i**; Bewegung behält die Form aus L5.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 13.
-- slaganje | Ja sam u gradu. | en: I am in town.
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 13 zu sein.
+- slaganje | Ja sam u gradu. | en: Ich bin in der Stadt.
 - izbor | Ana trenira ___ . | u teretani | u teretanu | u teretana
 - upis | Kupujem kruh u ___ . (pekara) | pekari
 - izbor | "Idem u kino." — kretanje ili mjesto? | kretanje | mjesto
-- izbor | Što znači "kupaonica"? | bathroom | Küche | hallway
+- izbor | Što znači "kupaonica"? | Badezimmer | Küche | Flur
 - izbor | Koja je rečenica točna? | Živim u Zagrebu. | Živim u Zagreb. | Živim na Zagrebu.
 - upis | Mi smo na ___ . (trg) | trgu
-- slaganje | Mama kuha u kuhinji, a tata je u vrtu. | en: Mum is cooking in the kitchen, and Dad is in the garden.
+- slaganje | Mama kuha u kuhinji, a tata je u vrtu. | en: Mama kocht in der Küche, und Papa ist im Garten.
 - upis | Tata radi u ___ . (ured) | uredu
 - izbor | Mi smo ___ . | na koncertu | u koncertu | na koncert
 - upis | Mačka spava na ___ . (krov) | krovu
-- slaganje | U muzeju je tiho, a u kafiću nije! | en: It is quiet in the museum, but not in the café!
+- slaganje | U muzeju je tiho, a u kafiću nije! | en: Im Museum ist es ruhig, aber nicht im Café!
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You can now say where you are as well as where you are going, you know the two endings **-u** and **-i**, and you can choose between *u* and *na*. Vocabulary 13 and Grammar 13 build on exactly these two endings.
-infokratko: Where you are: **-u** and **-i** after *u* or *na*.
-opis: Read what you can do now, and what comes next.
-- Sjajno! You now know where you're going AND where you are — the city is fully yours.
-- **Next up:** Vocabulary 13 brings more places and every room of the flat, each card with its "being there" form. Grammar 13 explains the letter change in *na rijeci*, adds *o meni, o tebi* (about me, about you) and shows the plural places.
-- **Then Lesson 14:** generosity — giving things *to people*. *Mami kupujem šal, bratu loptu...* — the dative case, December edition.
+info: Eine Abschlusszusammenfassung. Du kannst jetzt sagen, wo du bist und wohin du gehst, du kennst die zwei Endungen **-u** und **-i**, und du kannst zwischen *u* und *na* wählen. Wortschatz 13 und Grammatik 13 bauen genau auf diesen zwei Endungen auf.
+infokratko: Wo du bist: **-u** und **-i** nach *u* oder *na*.
+opis: Lies, was du jetzt kannst und was als Nächstes kommt.
+- Sjajno! Du weißt jetzt, wohin du gehst UND wo du bist – die Stadt gehört ganz dir.
+- **Als Nächstes:** Wortschatz 13 bringt mehr Orte und jedes Zimmer der Wohnung, jede Karte mit ihrer Da-sein-Form. Grammatik 13 erklärt den Buchstabenwechsel in *na rijeci*, fügt *o meni, o tebi* (über mich, über dich) hinzu und zeigt die Orte im Plural.
+- **Dann Lektion 14:** Großzügigkeit – Dinge *Menschen* geben. *Mami kupujem šal, bratu loptu …* – der Dativ, Dezember-Ausgabe.

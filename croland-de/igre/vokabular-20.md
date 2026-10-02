@@ -1,152 +1,152 @@
-# Memories & Big Sentences
+# Erinnerungen & große Sätze
 cjelina: Vocabulary 20
 
-## Connectors
+## Bindewörter
 format: kartice
-info: The last level joins whole thoughts into one big sentence. Five of these connectors you have met before, and here they get their big job: **jer** (because), **kad** (when, the short form of *kada*), **ako** (if), **koji / koja / koje** (which, that, who) and **da** (that), the word you know as "yes". The new ones are **zato što**, a longer *because* (*Učim hrvatski zato što volim jezik*), **dok** (while), **iako** (although) and **kao** (like, as): *jezik koji zvuči kao glazba*. **koji** takes the gender of the noun it describes: *film koji*, *knjiga koja*, *more koje*. **da** follows verbs like *znati, misliti, reći*: *Znam da je Zagreb velik.* Then come little words for a story: **čak** (even), **ipak** (still, after all), **dakle** (so), **mnogo** (many, a lot), **neki** (some), **onaj** (that one over there), and two phrases, **prvi put** (the first time) and **jednog dana** (one day).
-infokratko: *jer, kad, ako, koji, da* in their big-sentence job; new: *zato što, dok, iako, kao*. *koji* follows the gender of the noun: *film koji, knjiga koja, more koje*.
-opis: The words that join thoughts, and little words for a story. Tap a card to reveal the meaning.
+info: Die letzte Stufe verbindet ganze Gedanken zu einem großen Satz. Fünf dieser Bindewörter hast du schon getroffen, und hier bekommen sie ihre große Aufgabe: **jer** (weil), **kad** (wenn, als – die kurze Form von *kada*), **ako** (wenn, falls), **koji / koja / koje** (der, die, das; welcher) und **da** (dass), das Wort, das du als „ja“ kennst. Die neuen sind **zato što**, ein längeres *weil* (*Učim hrvatski zato što volim jezik*), **dok** (während), **iako** (obwohl) und **kao** (wie, als): *jezik koji zvuči kao glazba*. **koji** nimmt das Genus des Substantivs an, das es beschreibt: *film koji*, *knjiga koja*, *more koje*. **da** folgt auf Verben wie *znati, misliti, reći*: *Znam da je Zagreb velik.* Dann kommen kleine Wörter für eine Geschichte: **čak** (sogar), **ipak** (trotzdem, doch), **dakle** (also), **mnogo** (viel, viele), **neki** (einige), **onaj** (jener dort), und zwei Wendungen, **prvi put** (das erste Mal) und **jednog dana** (eines Tages).
+infokratko: *jer, kad, ako, koji, da* in ihrer Aufgabe für große Sätze; neu: *zato što, dok, iako, kao*. *koji* richtet sich nach dem Genus des Substantivs: *film koji, knjiga koja, more koje*.
+opis: Die Wörter, die Gedanken verbinden, und kleine Wörter für eine Geschichte. Tippe auf eine Karte, um die Bedeutung zu sehen.
 - jer / zato što | weil
-- kad | when
-- ako | if
-- dok | while, until
-- iako | although
-- kao | like, as
-- koji / koja / koje | which, that, who
-- da | that (Znam da...)
-- čak | even
-- ipak | still, after all
-- dakle | so, therefore
-- mnogo | many, a lot
-- neki | some
-- onaj | that one (over there)
-- prvi put | the first time
-- jednog dana | one day
+- kad | wann
+- ako | wenn, falls
+- dok | während, bis
+- iako | obwohl
+- kao | wie, als
+- koji / koja / koje | der, die, das (welcher)
+- da | dass (Znam da...)
+- čak | sogar
+- ipak | trotzdem, doch
+- dakle | also, daher
+- mnogo | viel, viele
+- neki | einige, manche
+- onaj | jener (dort)
+- prvi put | das erste Mal
+- jednog dana | eines Tages
 
-## Summer, memories & final cognates
+## Sommer, Erinnerungen & letzte Lehnwörter
 format: kartice
-info: The words of a summer you remember. An **uspomena** is a memory you keep, and the **prošlost** is the past. On the island there is the **riva** (the seaside promenade where people walk in the evening), a quiet **uvala** (cove), a **svjetionik** (lighthouse), a **jedrilica** (sailboat), a **ribar** (fisherman), a **galeb** (seagull) and a **školjka** (seashell) on the beach. **zemlja** is a country or the land, and **država** is a state: *gradovi koji su stariji od mnogih država*. **život** is life, **priroda** nature, and a **dnevnik** is the diary where you write it all down. Last come the cognates of the course itself: *melodija, diploma, certifikat, gramatika, vokabular*. Order a coffee on the riva **bez greške**, without a mistake (**greška**)!
-infokratko: *uspomena* = memory, *prošlost* = past. Island words: *riva, uvala, svjetionik, galeb*. *zemlja* = country, land; *država* = state.
-opis: The vocabulary of memories — the last batch of the course! Tap a card to reveal the meaning.
-- uspomena | memory
-- prošlost | past
-- galeb | seagull
-- riva | seaside promenade
-- uvala | cove
-- svjetionik | lighthouse
-- jedrilica | sailboat
-- ribar | fisherman
-- školjka | seashell
-- greška | mistake
-- zemlja | country, land
-- država | state
-- život | life
-- priroda | nature
-- dnevnik | diary
-- melodija | melody
-- diploma | diploma
-- certifikat | certificate
-- gramatika | grammar
-- vokabular | vocabulary
+info: Die Wörter eines Sommers, an den du dich erinnerst. Eine **uspomena** ist eine Erinnerung, die du bewahrst, und die **prošlost** ist die Vergangenheit. Auf der Insel gibt es die **riva** (die Uferpromenade, auf der die Leute abends spazieren gehen), eine ruhige **uvala** (Bucht), einen **svjetionik** (Leuchtturm), eine **jedrilica** (Segelboot), einen **ribar** (Fischer), einen **galeb** (Möwe) und eine **školjka** (Muschel) am Strand. **zemlja** ist ein Land oder die Erde, und **država** ist ein Staat: *gradovi koji su stariji od mnogih država*. **život** ist das Leben, **priroda** die Natur, und ein **dnevnik** ist das Tagebuch, in das du alles hineinschreibst. Zuletzt kommen die Lehnwörter des Kurses selbst: *melodija, diploma, certifikat, gramatika, vokabular*. Bestell einen Kaffee auf der Riva **bez greške**, ohne Fehler (**greška**)!
+infokratko: *uspomena* = Erinnerung, *prošlost* = Vergangenheit. Inselwörter: *riva, uvala, svjetionik, galeb*. *zemlja* = Land; *država* = Staat.
+opis: Der Wortschatz der Erinnerungen – die letzte Ladung des Kurses! Tippe auf eine Karte, um die Bedeutung zu sehen.
+- uspomena | Erinnerung
+- prošlost | Vergangenheit
+- galeb | Möwe
+- riva | Uferpromenade
+- uvala | Bucht
+- svjetionik | Leuchtturm
+- jedrilica | Segelboot
+- ribar | Fischer
+- školjka | Muschel
+- greška | Fehler
+- zemlja | Land
+- država | Staat
+- život | Leben
+- priroda | Natur
+- dnevnik | Tagebuch
+- melodija | Melodie
+- diploma | Diplom
+- certifikat | Zertifikat
+- gramatika | Grammatik
+- vokabular | Wortschatz
 
-## Verbs & words for learning
+## Verben & Wörter fürs Lernen
 format: kartice
-info: Ten verbs with their *ja*-form, and two you mostly meet as *it*: **trajati → traje** (it lasts: *Film traje tri sata*) and **postojati → postoji** (there is: *Postoji ljeto koje nikad neću zaboraviti*). **zaboraviti** is to forget and **pamtiti** to keep in memory. **zvučati** gives the course its last sentence: *jezik koji zvuči kao glazba*. **izgledati** is to look like, to seem (*Otok je izgledao malen*), not *gledati*, to watch. Watch the *ja*-forms: *otkriti → otkrijem*, *postati → postanem*, *reći → reknem*; **vratiti se** keeps its **se**. Then words about learning: **smisao** (sense), **učenje**, **znanje**, **pravilo**, **rječnik**, and three adjectives: **lak** (easy, light), **dug** (long), **sličan** (similar).
-infokratko: Infinitive → *ja*-form: *otkriti → otkrijem, reći → reknem*. *trajati → traje*, *postojati → postoji*. *izgledati* = to seem, not *gledati*.
-opis: Twelve verbs and eight words for learning. Tap a card to reveal the meaning.
-- zaboraviti → zaboravim | to forget
-- pamtiti → pamtim | to remember (keep in mind)
-- otkriti → otkrijem | to discover
-- zvučati → zvučim | to sound
-- izgledati → izgledam | to look like, to seem
-- postati → postanem | to become
-- ploviti → plovim | to sail
-- reći → reknem | to say, to tell
-- vratiti se → vratim se | to come back
-- obećati → obećam | to promise
-- trajati → traje | to last
-- postojati → postoji | to exist, there is
-- smisao | sense, meaning
-- učenje | learning
-- znanje | knowledge
-- pravilo | rule
-- rječnik | dictionary
-- lak | easy, light
-- dug | long
-- sličan | similar
+info: Zehn Verben mit ihrer *ja*-Form, und zwei, die du meist als *es* triffst: **trajati → traje** (es dauert: *Film traje tri sata*) und **postojati → postoji** (es gibt: *Postoji ljeto koje nikad neću zaboraviti*). **zaboraviti** heißt vergessen und **pamtiti** im Gedächtnis behalten. **zvučati** gibt dem Kurs seinen letzten Satz: *jezik koji zvuči kao glazba*. **izgledati** heißt aussehen, scheinen (*Otok je izgledao malen*), nicht *gledati*, schauen. Achte auf die *ja*-Formen: *otkriti → otkrijem*, *postati → postanem*, *reći → reknem*; **vratiti se** behält sein **se**. Dann Wörter übers Lernen: **smisao** (Sinn), **učenje**, **znanje**, **pravilo**, **rječnik** und drei Adjektive: **lak** (leicht), **dug** (lang), **sličan** (ähnlich).
+infokratko: Infinitiv → *ja*-Form: *otkriti → otkrijem, reći → reknem*. *trajati → traje*, *postojati → postoji*. *izgledati* = scheinen, nicht *gledati*.
+opis: Zwölf Verben und acht Wörter fürs Lernen. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- zaboraviti → zaboravim | vergessen
+- pamtiti → pamtim | sich merken, im Gedächtnis behalten
+- otkriti → otkrijem | entdecken
+- zvučati → zvučim | klingen
+- izgledati → izgledam | aussehen, scheinen
+- postati → postanem | werden
+- ploviti → plovim | segeln
+- reći → reknem | sagen
+- vratiti se → vratim se | zurückkommen
+- obećati → obećam | versprechen
+- trajati → traje | dauern
+- postojati → postoji | existieren, es gibt
+- smisao | Sinn, Bedeutung
+- učenje | Lernen
+- znanje | Wissen
+- pravilo | Regel
+- rječnik | Wörterbuch
+- lak | leicht
+- dug | lang
+- sličan | ähnlich
 
-## Match the pairs
+## Ordne die Paare zu
 format: parovi
-info: Twelve nouns from the summer page, each with its English meaning. Picture the island: the **galeb** above the **svjetionik**, the **jedrilica** in the **uvala**, the **ribar** on the **riva**. Two pairs are easy to swap: **uspomena** is a memory, but **prošlost** is the past.
-infokratko: Summer nouns ↔ English. *uspomena* = memory, *prošlost* = past.
-opis: Match each word with its English meaning.
-- uspomena | memory
-- prošlost | past
-- galeb | seagull
-- uvala | cove
-- svjetionik | lighthouse
-- jedrilica | sailboat
-- ribar | fisherman
-- školjka | seashell
-- greška | mistake
-- zemlja | country, land
-- život | life
-- priroda | nature
+info: Zwölf Substantive von der Sommerseite, jeweils mit ihrer deutschen Bedeutung. Stell dir die Insel vor: die **galeb** über dem **svjetionik**, die **jedrilica** in der **uvala**, den **ribar** auf der **riva**. Zwei Paare verwechselt man leicht: **uspomena** ist eine Erinnerung, aber **prošlost** ist die Vergangenheit.
+infokratko: Sommersubstantive ↔ Deutsch. *uspomena* = Erinnerung, *prošlost* = Vergangenheit.
+opis: Ordne jedem Wort seine deutsche Bedeutung zu.
+- uspomena | Erinnerung
+- prošlost | Vergangenheit
+- galeb | Möwe
+- uvala | Bucht
+- svjetionik | Leuchtturm
+- jedrilica | Segelboot
+- ribar | Fischer
+- školjka | Muschel
+- greška | Fehler
+- zemlja | Land
+- život | Leben
+- priroda | Natur
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Verbs go in as an infinitive (*zaboraviti*, not *zaboravim*), and **vratiti se** keeps its **se**. Connectors go in as they are: *while* is **dok**, *although* is **iako**. The diacritics are full letters: *greška* has **š**, *život* has **ž**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once, as an infinitive. *vratiti se* keeps **se**. Diacritics count: *greška, život*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Verben im Infinitiv (*zaboraviti*, nicht *zaboravim*), und **vratiti se** behält sein **se**. Bindewörter schreibst du, wie sie sind: *während* ist **dok**, *obwohl* ist **iako**. Die diakritischen Zeichen sind vollwertige Buchstaben: *greška* hat **š**, *život* hat **ž**. Das ist die einzige Seite nur mit neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Schreib jedes neue Wort einmal, im Infinitiv. *vratiti se* behält **se**. Diakritische Zeichen zählen: *greška, život*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- to forget | zaboraviti
-- to discover | otkriti
-- to become | postati
-- to sail | ploviti
-- to come back | vratiti se
-- while | dok
-- although | iako
-- mistake | greška
-- memory | uspomena
-- seagull | galeb
-- lighthouse | svjetionik
-- knowledge | znanje
-- rule | pravilo
-- life | život
-- diary | dnevnik
+- vergessen | zaboraviti
+- entdecken | otkriti
+- werden | postati
+- segeln | ploviti
+- zurückkommen | vratiti se
+- während | dok
+- obwohl | iako
+- Fehler | greška
+- Erinnerung | uspomena
+- Möwe | galeb
+- Leuchtturm | svjetionik
+- Wissen | znanje
+- Regel | pravilo
+- Leben | život
+- Tagebuch | dnevnik
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–19, half and half. Watch the three little connectors: **ako** is if, **iako** is although, and **dok** is while. **pamtiti** is to remember, but **zaboraviti** is to forget. And **davati** is to give, while **dijeliti** is to share.
-infokratko: New and old words against the clock. *ako* = if, *iako* = although, *dok* = while.
+info: Zeitgebundenes Wiedererkennen der heutigen Wörter, halb und halb gemischt mit Wörtern aus Wortschatz 1–19. Achte auf die drei kleinen Bindewörter: **ako** ist falls, **iako** ist obwohl, und **dok** ist während. **pamtiti** heißt sich merken, aber **zaboraviti** heißt vergessen. Und **davati** heißt geben, während **dijeliti** teilen heißt.
+infokratko: Neue und alte Wörter gegen die Uhr. *ako* = falls, *iako* = obwohl, *dok* = während.
 trajanje: 60
-opis: A Croatian word appears. Tap its English meaning before the timer runs out!
-- iako | although
-- jutros | this morning
-- galeb | seagull
-- deset | ten
-- dok | while
-- plaćati | to pay
-- zaboraviti | to forget
-- dolje | down, downstairs
-- čak | even
-- ako | if
-- prošlost | past
-- dijeliti | to share
-- ipak | still, after all
-- davati | to give
-- pamtiti | to remember
+opis: Ein kroatisches Wort erscheint. Tippe seine deutsche Bedeutung, bevor die Zeit abläuft!
+- iako | obwohl
+- jutros | heute Morgen
+- galeb | Möwe
+- deset | zehn
+- dok | während
+- plaćati | bezahlen
+- zaboraviti | vergessen
+- dolje | unten
+- čak | sogar
+- ako | wenn, falls
+- prošlost | Vergangenheit
+- dijeliti | teilen
+- ipak | trotzdem, doch
+- davati | geben
+- pamtiti | sich erinnern
 - Hrvatska | Kroatien
-- izgledati | to look like, to seem
+- izgledati | aussehen, scheinen
 - dan | Tag
-- riva | seaside promenade
+- riva | Uferpromenade
 - dobar | gut
 
-## Sort by koji / koja / koje
+## Sortiere nach koji / koja / koje
 format: razvrstavanje
-info: The glue word of this level takes the gender of its noun, so the last letter decides again, the rule from Grammar 1. A consonant is masculine: *hotel **koji** je velik*. **-a** is feminine: *minuta **koja** traje dugo*. **-o** and **-e** are neuter: *pravilo **koje** je lako*. *dolazak* loses its second **a** in other forms (*dolaska*), but the naming form ends in a consonant, so it is **koji**. **ime** ends in **-e**: *ime koje pamtim*.
-infokratko: Consonant → **koji**, **-a** → **koja**, **-o / -e** → **koje**. *hotel koji, minuta koja, pravilo koje*.
+info: Das Klebewort dieser Stufe nimmt das Genus seines Substantivs an, also entscheidet wieder der letzte Buchstabe, die Regel aus Grammatik 1. Ein Konsonant ist maskulin: *hotel **koji** je velik*. **-a** ist feminin: *minuta **koja** traje dugo*. **-o** und **-e** sind neutral: *pravilo **koje** je lako*. *dolazak* verliert in anderen Formen sein zweites **a** (*dolaska*), aber die Grundform endet auf einen Konsonanten, also ist es **koji**. **ime** endet auf **-e**: *ime koje pamtim*.
+infokratko: Konsonant → **koji**, **-a** → **koja**, **-o / -e** → **koje**. *hotel koji, minuta koja, pravilo koje*.
 stupci: koji | koja | koje
-opis: Which form of "koji" goes with each noun? Look at the last letter and drop the word into the right column.
+opis: Welche Form von „koji“ gehört zu jedem Substantiv? Schau auf den letzten Buchstaben und zieh das Wort in die richtige Spalte.
 - hotel | koji
 - konj | koji
 - dolazak | koji
@@ -166,18 +166,18 @@ opis: Which form of "koji" goes with each noun? Look at the last letter and drop
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The last writing round of the course mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. **televizor** is the set in your living room. The diacritics count as always: *trčati* has **č**, *sličan* has **č**, and *zvučati* has **č** too.
-infokratko: Mixed final round. Naming form, infinitive. Diacritics count: *trčati, sličan, zvučati*.
-opis: The final challenge of the course: type each word in Croatian. Remember: Croatian is written exactly as it sounds.
+info: Die letzte Schreibrunde des Kurses mischt die heutigen Wörter mit älteren. Substantive und Adjektive in der Grundform und Verben im Infinitiv. **televizor** ist das Gerät in deinem Wohnzimmer. Die diakritischen Zeichen zählen wie immer: *trčati* hat **č**, *sličan* hat **č**, und *zvučati* hat auch **č**.
+infokratko: Gemischte Schlussrunde. Grundform, Infinitiv. Diakritische Zeichen zählen: *trčati, sličan, zvučati*.
+opis: Die letzte Herausforderung des Kurses: Schreib jedes Wort auf Kroatisch. Denk daran: Kroatisch wird genau so geschrieben, wie es klingt.
 - Fernseher | televizor
-- seaside promenade | riva
+- Uferpromenade | riva
 - Nadel | igla
-- to sound | zvučati
-- hair | kosa
-- fisherman | ribar
-- far | daleko
-- similar | sličan
+- klingen | zvučati
+- Haar | kosa
+- Fischer | ribar
+- weit | daleko
+- ähnlich | sličan
 - laufen, rennen | trčati
-- state | država
+- Staat | država
 - Wohnung | stan
-- long | dug
+- lang | dug

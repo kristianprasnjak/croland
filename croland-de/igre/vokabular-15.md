@@ -1,151 +1,151 @@
-# Company & Going Out
+# Begleitung & Ausgehen
 cjelina: Vocabulary 15
 
-## Going out & company
+## Ausgehen & Begleitung
 format: kartice
-info: Words for a night out and for the people you share it with. **s** / **sa** means *with*, and the person after it takes the instrumental from Lesson 15: *s Markom, sa sestrom*. **sa** comes before s, š, z, ž. Ask about company with **S kim?** (with whom?): *S kim ideš na koncert? — S prijateljem.* **doma** is both *at home* and *(to) home*: *Idem doma. Sjedim doma.* You already know *koncert, kafić, glazba, prijatelj* and *društvo* from earlier levels.
-infokratko: Night-out words. **s / sa** + instrumental: *s Markom, sa sestrom*. **S kim?** — with whom?
-opis: Friends, parties and late nights. Tap a card to reveal the meaning.
-- izlazak | a night out
-- večera | dinner
-- zabava | party
-- ples | dance
-- priča | story
-- balon | balloon
-- mladić | young man
-- par | couple, pair
-- gužva | crowd
-- sastanak | meeting
-- noć | night
-- ponoć | midnight
-- doma | (at/to) home
-- bolje | better
-- manje | less
-- s / sa → s Markom, sa sestrom | with
-- S kim? | With whom?
+info: Wörter für einen Abend in der Stadt und für die Menschen, mit denen du ihn verbringst. **s** / **sa** bedeutet *mit*, und die Person danach steht im Instrumental aus Lektion 15: *s Markom, sa sestrom*. **sa** steht vor s, š, z, ž. Nach Begleitung fragst du mit **S kim?** (mit wem?): *S kim ideš na koncert? — S prijateljem.* **doma** heißt sowohl *zu Hause* als auch *nach Hause*: *Idem doma. Sjedim doma.* *koncert, kafić, glazba, prijatelj* und *društvo* kennst du schon aus früheren Stufen.
+infokratko: Wörter fürs Ausgehen. **s / sa** + Instrumental: *s Markom, sa sestrom*. **S kim?** – mit wem?
+opis: Freunde, Partys und lange Nächte. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- izlazak | ein Abend in der Stadt, Ausgehen
+- večera | Abendessen
+- zabava | Party
+- ples | Tanz
+- priča | Geschichte
+- balon | Luftballon
+- mladić | junger Mann
+- par | Paar
+- gužva | Gedränge, Menschenmenge
+- sastanak | Treffen
+- noć | Nacht
+- ponoć | Mitternacht
+- doma | zu Hause, nach Hause
+- bolje | besser
+- manje | weniger
+- s / sa → s Markom, sa sestrom | mit
+- S kim? | Mit wem?
 
-## Transport, verbs & little words
+## Verkehrsmittel, Verben & kleine Wörter
 format: kartice
-info: New ways to get somewhere. For *how* you travel, the vehicle takes the instrumental with **no preposition**: *Idem skuterom. Putujemo trajektom.* You know *vlak, autobus, auto, tramvaj, bicikl* from Vocabulary 6, and they work the same way: *vlakom, autobusom*. Walking has its own word: **pješice** (on foot). The ten verbs come with their *ja*-form. **padati** is to fall, and it is also how it rains: *Kiša pada.*
-infokratko: Means of transport: instrumental, no *s*: *Idem skuterom.* On foot: **pješice**. *Kiša pada* — it's raining.
-opis: New vehicles, ten new verbs and a few small words. Tap a card to reveal the meaning.
-- prijevoz | transport
-- skuter → skuterom | scooter
-- metro | metro
-- trajekt → trajektom | ferry
-- kombi → kombijem | van
-- kamion → kamionom | truck
-- pješice | on foot
-- pješak | pedestrian
-- polazak | departure
-- dolazak | arrival
-- spor / spora | slow
-- izlaziti → izlazim | to go out
-- upoznati → upoznam | to meet, to get to know
-- dogovoriti → dogovorim | to arrange
-- kasniti → kasnim | to be late
-- slaviti → slavim | to celebrate
-- pozvati → pozovem | to invite
-- voditi → vodim | to take (someone), to lead
-- krenuti → krenem | to set off
-- ući → uđem | to enter, to go in
-- padati → padam | to fall
+info: Neue Wege, irgendwohin zu kommen. Für das *Wie* deiner Reise steht das Fahrzeug im Instrumental **ohne Präposition**: *Idem skuterom. Putujemo trajektom.* *vlak, autobus, auto, tramvaj, bicikl* kennst du aus Wortschatz 6, und sie funktionieren genauso: *vlakom, autobusom*. Zu Fuß gehen hat ein eigenes Wort: **pješice** (zu Fuß). Die zehn Verben stehen mit ihrer *ja*-Form da. **padati** heißt fallen, und so regnet es auch: *Kiša pada.*
+infokratko: Verkehrsmittel: Instrumental, ohne *s*: *Idem skuterom.* Zu Fuß: **pješice**. *Kiša pada* – es regnet.
+opis: Neue Fahrzeuge, zehn neue Verben und ein paar kleine Wörter. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- prijevoz | Verkehrsmittel, Transport
+- skuter → skuterom | Roller
+- metro | U-Bahn
+- trajekt → trajektom | Fähre
+- kombi → kombijem | Kleinbus, Transporter
+- kamion → kamionom | Lastwagen
+- pješice | zu Fuß
+- pješak | Fußgänger
+- polazak | Abfahrt
+- dolazak | Ankunft
+- spor / spora | langsam
+- izlaziti → izlazim | ausgehen
+- upoznati → upoznam | treffen, kennenlernen
+- dogovoriti → dogovorim | vereinbaren, abmachen
+- kasniti → kasnim | sich verspäten, zu spät kommen
+- slaviti → slavim | feiern
+- pozvati → pozovem | einladen
+- voditi → vodim | (jemanden) mitnehmen, führen
+- krenuti → krenem | aufbrechen, losfahren
+- ući → uđem | eintreten, hineingehen
+- padati → padam | fallen
 
-## Weather & seasons
+## Wetter & Jahreszeiten
 format: kartice
-info: Before you go out, you check the weather: **Kakvo je vrijeme?** *vrijeme* means both *weather* and *time*, and the sentence tells you which. You already know the four seasons (*proljeće, ljeto, jesen, zima*), *sunce* and *snijeg*; together they are **godišnja doba**. Adjectives describe the day: *sunčan dan, kišovit tjedan*. **hladnoća** and **vrućina** are nouns — *the cold, the heat* — next to the adjectives *hladan* and *vruć* you already know.
-infokratko: **Kakvo je vrijeme?** — What's the weather like? *vrijeme* = weather or time. *hladnoća, vrućina* are nouns.
-opis: Rain, wind, sun and everything between. Tap a card to reveal the meaning.
-- vrijeme | weather
-- kiša | rain
-- oblak | cloud
-- vjetar | wind
-- magla | fog
-- oluja | storm
-- grmljavina | thunder
-- pljusak | downpour
-- duga | rainbow
-- led | ice
-- prognoza | forecast
-- temperatura | temperature
-- godišnje doba | season
-- sunčan | sunny
-- oblačan | cloudy
-- kišovit | rainy
-- vjetrovit | windy
+info: Bevor du ausgehst, schaust du nach dem Wetter: **Kakvo je vrijeme?** *vrijeme* heißt sowohl *Wetter* als auch *Zeit*, und der Satz verrät dir, welches. Die vier Jahreszeiten (*proljeće, ljeto, jesen, zima*), *sunce* und *snijeg* kennst du schon; zusammen sind sie **godišnja doba**. Adjektive beschreiben den Tag: *sunčan dan, kišovit tjedan*. **hladnoća** und **vrućina** sind Substantive – *die Kälte, die Hitze* – neben den Adjektiven *hladan* und *vruć*, die du schon kennst.
+infokratko: **Kakvo je vrijeme?** – Wie ist das Wetter? *vrijeme* = Wetter oder Zeit. *hladnoća, vrućina* sind Substantive.
+opis: Regen, Wind, Sonne und alles dazwischen. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- vrijeme | Wetter
+- kiša | Regen
+- oblak | Wolke
+- vjetar | Wind
+- magla | Nebel
+- oluja | Sturm, Unwetter
+- grmljavina | Donner
+- pljusak | Regenguss, Platzregen
+- duga | Regenbogen
+- led | Eis
+- prognoza | Vorhersage
+- temperatura | Temperatur
+- godišnje doba | Jahreszeit
+- sunčan | sonnig
+- oblačan | bewölkt
+- kišovit | regnerisch
+- vjetrovit | windig
 - hladnoća | kalt
-- vrućina | heat
+- vrućina | Hitze
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Half of these belong to a night out, the other half to the sky above it. Say one with *s* for each company word: *s balonom, s pričom.*
-infokratko: Night out and weather. Try it with *s*: *s balonom.*
-opis: Eleven pictures, eleven words. Not sure? Open the dictionary — the floating icon on the right.
-- izlazak | a night out
-- ples | dance
-- priča | story
-- balon | balloon
-- noć | night
-- metro | metro
-- trajekt | ferry
-- kiša | rain
-- oblak | cloud
-- vjetar | wind
-- led | ice
+info: Bild-zu-Wort-Zuordnung, ohne Deutsch auf der Seite. Die Hälfte gehört zu einem Abend in der Stadt, die andere Hälfte zum Himmel darüber. Sag bei jedem Begleitungswort eins mit *s*: *s balonom, s pričom.*
+infokratko: Abend in der Stadt und Wetter. Versuch es mit *s*: *s balonom.*
+opis: Elf Bilder, elf Wörter. Nicht sicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
+- izlazak | ein Abend in der Stadt, Ausgehen
+- ples | Tanz
+- priča | Geschichte
+- balon | Luftballon
+- noć | Nacht
+- metro | U-Bahn
+- trajekt | Fähre
+- kiša | Regen
+- oblak | Wolke
+- vjetar | Wind
+- led | Eis
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Nouns and adjectives go in their naming form (*skuter*, not *skuterom*) and verbs as an infinitive. The diacritics are full letters: *kiša* has **š**, *mladić* has **ć**, *vrućina* has **ć**, *oblačan* has **č**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once: naming form, infinitive. Diacritics count: *kiša, mladić, oblačan*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Substantive und Adjektive in der Grundform (*skuter*, nicht *skuterom*) und Verben im Infinitiv. Die diakritischen Zeichen sind vollwertige Buchstaben: *kiša* hat **š**, *mladić* hat **ć**, *vrućina* hat **ć**, *oblačan* hat **č**. Das ist die einzige Seite nur mit neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Schreib jedes neue Wort einmal: Grundform, Infinitiv. Diakritische Zeichen zählen: *kiša, mladić, oblačan*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- rain | kiša
-- wind | vjetar
-- cloudy | oblačan
-- heat | vrućina
-- season | godišnje doba
-- party | zabava
-- story | priča
-- young man | mladić
-- scooter | skuter
-- truck | kamion
-- ferry | trajekt
-- to go out | izlaziti
-- to get to know | upoznati
-- to arrange | dogovoriti
-- to be late | kasniti
+- Regen | kiša
+- Wind | vjetar
+- bewölkt | oblačan
+- Hitze | vrućina
+- Jahreszeit | godišnje doba
+- Party | zabava
+- Geschichte | priča
+- junger Mann | mladić
+- Roller | skuter
+- Lastwagen | kamion
+- Fähre | trajekt
+- ausgehen | izlaziti
+- kennenlernen | upoznati
+- vereinbaren, abmachen | dogovoriti
+- sich verspäten, zu spät kommen | kasniti
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–14, half and half. Night-out and travel words — *gužva, ponoć, polazak* — sit next to words you already know, like *kaput, meso, gorivo*. Watch the pair *polazak* (departure) and *dolazak* (arrival): only the start is different.
-infokratko: New and old words against the clock. *polazak* departure, *dolazak* arrival.
+info: Zeitgebundenes Wiedererkennen der heutigen Wörter, halb und halb gemischt mit Wörtern aus Wortschatz 1–14. Wörter fürs Ausgehen und Reisen – *gužva, ponoć, polazak* – stehen neben Wörtern, die du schon kennst, wie *kaput, meso, gorivo*. Achte auf das Paar *polazak* (Abfahrt) und *dolazak* (Ankunft): Nur der Anfang ist anders.
+infokratko: Neue und alte Wörter gegen die Uhr. *polazak* Abfahrt, *dolazak* Ankunft.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- gužva | crowd
+- gužva | Gedränge, Menschenmenge
 - čovjek | Mensch, Mann
-- sastanak | meeting
+- sastanak | Treffen
 - ovdje | hier
-- ponoć | midnight
-- luk | onion
-- polazak | departure
-- kaput | coat
-- dolazak | arrival
-- četiri | four
-- oluja | storm
-- bljutav | bland
-- krenuti | to set off
+- ponoć | Mitternacht
+- luk | Zwiebel
+- polazak | Abfahrt
+- kaput | Mantel
+- dolazak | Ankunft
+- četiri | vier
+- oluja | Sturm, Unwetter
+- bljutav | fade
+- krenuti | aufbrechen, losfahren
 - automobil | Auto
-- voditi | to lead
+- voditi | führen
 - drag | lieb, nett
-- pješak | pedestrian
-- meso | meat
-- ući | to enter
-- gorivo | fuel
+- pješak | Fußgänger
+- meso | Fleisch
+- ući | eintreten
+- gorivo | Kraftstoff
 
-## -om or -em?
+## -om oder -em?
 format: razvrstavanje
-info: Sorting nouns by the ending they take in the instrumental from Lesson 15. Most nouns take **-om**: a consonant adds it (*skuterom, golubom*) and **-a** turns into it (*kišom, tortom*). After a soft sound — **j, lj, nj, č, ć, š, ž** — it becomes **-em**: *mladićem, igračem, izvještajem*. A word on **-i** adds **-j-** first, so it is soft too: *kombijem*, like *taksijem*.
-infokratko: Most nouns: **-om** (*skuterom, kišom*). After j, lj, nj, č, ć, š, ž: **-em** (*mladićem*). *kombi → kombijem*.
-opis: Which ending does each noun take in the instrumental? Look at the last sound of the naming form.
+info: Substantive nach der Endung sortieren, die sie im Instrumental aus Lektion 15 bekommen. Die meisten Substantive bekommen **-om**: Ein Konsonant hängt es an (*skuterom, golubom*), und **-a** wird dazu (*kišom, tortom*). Nach einem weichen Laut – **j, lj, nj, č, ć, š, ž** – wird es zu **-em**: *mladićem, igračem, izvještajem*. Ein Wort auf **-i** fügt zuerst **-j-** ein und ist damit auch weich: *kombijem*, wie *taksijem*.
+infokratko: Die meisten Substantive: **-om** (*skuterom, kišom*). Nach j, lj, nj, č, ć, š, ž: **-em** (*mladićem*). *kombi → kombijem*.
+opis: Welche Endung bekommt jedes Substantiv im Instrumental? Schau auf den letzten Laut der Grundform.
 stupci: -OM | -EM
 - skuter | -OM
 - trajekt | -OM
@@ -166,18 +166,18 @@ stupci: -OM | -EM
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. The diacritics count as always: *pješice* has **š**, *ručak* and *sunčan* have **č**, *džem* starts with the single letter **dž**.
-infokratko: Mixed final round. Naming form, infinitive. Diacritics count: *pješice, ručak, džem*.
+info: Die letzte Schreibrunde mischt die heutigen Wörter mit älteren. Substantive und Adjektive in der Grundform und Verben im Infinitiv. Die diakritischen Zeichen zählen wie immer: *pješice* hat **š**, *ručak* und *sunčan* haben **č**, *džem* beginnt mit dem Einzelbuchstaben **dž**.
+infokratko: Gemischte Schlussrunde. Grundform, Infinitiv. Diakritische Zeichen zählen: *pješice, ručak, džem*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
 - Mittagessen | ručak
-- weather | vrijeme
+- Wetter | vrijeme
 - Marmelade | džem
-- fog | magla
+- Nebel | magla
 - helfen | pomagati
-- to invite | pozvati
-- language | jezik
-- sunny | sunčan
-- late | kasno
-- on foot | pješice
-- to lose | izgubiti
-- rainbow | duga
+- einladen | pozvati
+- Sprache | jezik
+- sonnig | sunčan
+- spät | kasno
+- zu Fuß | pješice
+- verlieren | izgubiti
+- Regenbogen | duga

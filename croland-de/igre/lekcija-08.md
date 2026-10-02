@@ -1,19 +1,19 @@
-# Summer Plans: The Future Tense
+# Sommerpläne: das Futur
 cjelina: Lesson 8
 
-## Summer is coming!
+## Der Sommer kommt!
 format: tekst
-info: Your first look at the Croatian future, and it needs no new endings. A short helper word plus the dictionary form of the verb does the whole job: *ću* plus *plivati* gives **Plivat ću** — *I will swim*.
-infokratko: Future = helper + dictionary form: *ću* + *plivati* → **Plivat ću** (*I will swim*).
-- Summer is coming — *ljeto dolazi!* Time to make plans: the sea, ice cream, swimming every day...
-- The Croatian future is refreshingly simple: take a tiny helper word (**ću** — "I will"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — and you have already met the helper's negative twin, *neću*, back in Grammar 3.
+info: Dein erster Blick auf das kroatische Futur, und es braucht keine neuen Endungen. Ein kurzes Hilfswort plus die Wörterbuchform des Verbs erledigt die ganze Arbeit: *ću* plus *plivati* ergibt **Plivat ću** – *Ich werde schwimmen*.
+infokratko: Futur = Hilfswort + Wörterbuchform: *ću* + *plivati* → **Plivat ću** (*ich werde schwimmen*).
+- Der Sommer kommt – *ljeto dolazi!* Zeit, Pläne zu machen: das Meer, Eis, jeden Tag schwimmen …
+- Das kroatische Futur ist erfrischend einfach – und funktioniert genau wie das deutsche *werden* + Infinitiv: Nimm ein winziges Hilfswort (**ću** – „ich werde“), häng die Wörterbuchform des Verbs an, fertig. *Plivat ću!* – Ich werde schwimmen! Keine neuen Endungen zu lernen – und den verneinten Zwilling des Hilfsworts, *neću*, kennst du schon aus Grammatik 3.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on the plurals from Lesson 7, before the future arrives. Most masculine nouns add *-i* (*prozor → prozori*), feminine *-a* swaps to *-e* (*knjiga → knjige*), and oddballs like *čovjek → **ljudi*** simply have to be known.
-infokratko: Lesson 7 against the clock: *prozor → prozori*, *knjiga → knjige*, *čovjek → ljudi*.
+info: Ein Aufwärmen auf Zeit mit den Pluralen aus Lektion 7, bevor das Futur kommt. Die meisten maskulinen Nomen hängen *-i* an (*prozor → prozori*), feminines *-a* wird zu *-e* (*knjiga → knjige*), und Sonderlinge wie *čovjek → **ljudi*** muss man einfach kennen.
+infokratko: Lektion 7 gegen die Uhr: *prozor → prozori*, *knjiga → knjige*, *čovjek → ljudi*.
 trajanje: 60
-opis: Plural sprint from Lesson 7 — tap the plural before the timer runs out.
+opis: Plural-Sprint aus Lektion 7 – tippe auf den Plural, bevor die Zeit abläuft.
 - knjiga | knjige
 - učenik | učenici
 - dijete | djeca
@@ -30,70 +30,70 @@ opis: Plural sprint from Lesson 7 — tap the plural before the timer runs out.
 - udžbenik | udžbenici
 - more | mora
 
-## Travel words
+## Reisewörter
 format: kartice
-info: Holiday vocabulary, with six verbs shown in three shapes. The third shape is the **future stem**: drop the final *-i* of the infinitive (*plivati → **plivat***) and it is ready to stand in front of *ću*.
-infokratko: Holiday words. Future stem: drop the final *-i* (*plivati → plivat*) before *ću*.
-opis: Words for summer plans — plus six new verbs. Every verb card shows the *ja* form and, after the second arrow, the shape it takes in front of **ću**.
+info: Urlaubswortschatz, mit sechs Verben in drei Gestalten. Die dritte Gestalt ist der **Futurstamm**: Lass das letzte *-i* des Infinitivs weg (*plivati → **plivat***), und er ist bereit, vor *ću* zu stehen.
+infokratko: Urlaubswörter. Futurstamm: letztes *-i* weg (*plivati → plivat*) vor *ću*.
+opis: Wörter für Sommerpläne – plus sechs neue Verben. Jede Verbkarte zeigt die *ja*-Form und, nach dem zweiten Pfeil, die Gestalt, die es vor **ću** annimmt.
 - ljeto | Sommer
 - more | Meer
-- plaža | beach
-- otok | island
-- planina | mountain
+- plaža | Strand
+- otok | Insel
+- planina | Berg
 - hotel | Hotel
-- vlak | train
-- avion | airplane
-- brod | boat
-- aerodrom | airport
-- karta | ticket
-- kofer | suitcase
-- utakmica | match
-- sat | hour
-- vikend | weekend
-- subota | Saturday
-- nedjelja | Sunday
-- ponedjeljak | Monday
-- sutra | tomorrow
-- putovati → putujem → putovat | to travel
-- plivati → plivam → plivat | to swim
-- šetati → šetam → šetat | to walk, stroll
-- ručati → ručam → ručat | to have lunch
+- vlak | Zug
+- avion | Flugzeug
+- brod | Boot
+- aerodrom | Flughafen
+- karta | Fahrkarte
+- kofer | Koffer
+- utakmica | Spiel, Match
+- sat | Stunde
+- vikend | Wochenende
+- subota | Samstag
+- nedjelja | Sonntag
+- ponedjeljak | Montag
+- sutra | morgen
+- putovati → putujem → putovat | reisen
+- plivati → plivam → plivat | schwimmen
+- šetati → šetam → šetat | spazieren gehen
+- ručati → ručam → ručat | zu Mittag essen
 - ustati → ustanem → ustat | aufstehen
-- trenirati → treniram → trenirat | to train
+- trenirati → treniram → trenirat | trainieren
 
-## The future helpers
+## Die Futur-Hilfswörter
 format: tekst
-info: The six helpers in one place: *ću, ćeš, će, ćemo, ćete, će*. They echo the rhythm of *sam, si, je, smo, ste, su*, and they take their form from the subject, never from the verb: *Mi **ćemo** putovati*.
-infokratko: *ću, ćeš, će, ćemo, ćete, će*. They follow the subject: *Mi ćemo putovati*.
-- **All six helpers in one place.**
-- tab: Person | Helper | Example
+info: Die sechs Hilfswörter an einem Ort: *ću, ćeš, će, ćemo, ćete, će*. Sie wiederholen den Rhythmus von *sam, si, je, smo, ste, su*, und sie richten ihre Form nach dem Subjekt, nie nach dem Verb: *Mi **ćemo** putovati*.
+infokratko: *ću, ćeš, će, ćemo, ćete, će*. Sie folgen dem Subjekt: *Mi ćemo putovati*.
+- **Alle sechs Hilfswörter an einem Ort** – wie *werde, wirst, wird, werden, werdet, werden*.
+- tab: Person | Hilfswort | Beispiel
 - tab: ja | ću | Ja ću plivati.
 - tab: ti | ćeš | Ti ćeš učiti.
 - tab: on, ona, ono | će | Ona će raditi.
 - tab: mi | ćemo | Mi ćemo putovati.
 - tab: vi | ćete | Vi ćete gledati.
 - tab: oni, one, ona | će | Oni će spavati.
-- **Recognise the rhythm?** *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su* from Lesson 2. Same six people, same order, same rhythm.
-- **Two word orders, same meaning.** With a pronoun → *Ja ću plivati.* Without → flip it and trim the **-i**: *Plivat ću.*
-- **Now you write them.** Ja [ću] plivati. Ti [ćeš] učiti. Mi [ćemo] putovati. Oni [će] spavati.
+- **Erkennst du den Rhythmus?** *ću–ćeš–će–ćemo–ćete–će* wiederholt *sam–si–je–smo–ste–su* aus Lektion 2. Dieselben sechs Personen, dieselbe Reihenfolge, derselbe Rhythmus.
+- **Zwei Wortstellungen, gleiche Bedeutung.** Mit Pronomen → *Ja ću plivati.* Ohne → dreh es um und kürze das **-i**: *Plivat ću.*
+- **Jetzt schreibst du.** Ja [ću] plivati. Ti [ćeš] učiti. Mi [ćemo] putovati. Oni [će] spavati.
 
-## Match the helpers
+## Ordne die Hilfswörter zu
 format: parovi
-info: Pair each pronoun with its helper. The helper always matches the person doing the action — *ja* takes *ću*, *ti* takes *ćeš*, *mi* takes *ćemo* — while the verb itself stays in its unchanged dictionary form.
-infokratko: Pronoun with helper: *ja ću, ti ćeš, mi ćemo*. The verb stays in its dictionary form.
-opis: Match each pronoun with its future helper.
+info: Bilde Paare aus Pronomen und Hilfswort. Das Hilfswort passt immer zur handelnden Person – *ja* nimmt *ću*, *ti* nimmt *ćeš*, *mi* nimmt *ćemo* –, während das Verb selbst in seiner unveränderten Wörterbuchform bleibt.
+infokratko: Pronomen mit Hilfswort: *ja ću, ti ćeš, mi ćemo*. Das Verb bleibt in seiner Wörterbuchform.
+opis: Ordne jedem Pronomen sein Futur-Hilfswort zu.
 - ja | ću
 - ti | ćeš
 - ona | će
 - mi | ćemo
 - vi | ćete
 
-## Who will it be?
+## Wer wird es sein?
 format: razvrstavanje
-info: Sorting by subject, exactly as with *biti*. One person or one thing takes **će** (*vlak će*, *sestra će*), and any group that includes *ja* takes **ćemo** (*brat i ja ćemo*), even when *mi* is not written.
-infokratko: One person or thing → **će**. Any group with *ja* → **ćemo** (*brat i ja ćemo*).
+info: Sortieren nach Subjekt, genau wie bei *biti*. Eine Person oder eine Sache nimmt **će** (*vlak će*, *sestra će*), und jede Gruppe, die *ja* einschließt, nimmt **ćemo** (*brat i ja ćemo*), auch wenn *mi* nicht dasteht.
+infokratko: Eine Person oder Sache → **će**. Jede Gruppe mit *ja* → **ćemo** (*brat i ja ćemo*).
 stupci: ĆU | ĆEŠ | ĆE | ĆEMO
-opis: Which helper does each subject take? *Brat i ja* counts as **mi**, and any single person or thing takes **će**.
+opis: Welches Hilfswort nimmt jedes Subjekt? *Brat i ja* zählt als **mi**, und jede einzelne Person oder Sache nimmt **će**.
 - ja | ĆU
 - ti | ĆEŠ
 - on | ĆE
@@ -109,11 +109,11 @@ opis: Which helper does each subject take? *Brat i ja* counts as **mi**, and any
 - djeca | ĆE
 - ti i ja | ĆEMO
 
-## Pick the helper
+## Wähle das Hilfswort
 format: izbor
-info: Choose the helper that matches the subject. Nothing else in the sentence moves: after the helper the verb keeps its full dictionary form, so it is *Ja **ću** plivati*, never *Ja ću plivam*.
-infokratko: Helper from the subject; the verb stays whole: *Ja ću plivati*.
-opis: Choose the correct helper.
+info: Wähle das Hilfswort, das zum Subjekt passt. Sonst bewegt sich nichts im Satz: Nach dem Hilfswort behält das Verb seine volle Wörterbuchform, es heißt also *Ja **ću** plivati*, nie *Ja ću plivam*.
+infokratko: Hilfswort nach dem Subjekt; das Verb bleibt ganz: *Ja ću plivati*.
+opis: Wähle das richtige Hilfswort.
 - Ja ___ plivati svaki dan. | ću | ćeš | će
 - Mi ___ putovati u Split. | ćemo | ću | ćete
 - Tata ___ voziti. | će | ćeš | ćemo
@@ -125,36 +125,36 @@ opis: Choose the correct helper.
 - Ja ___ trenirati navečer. | ću | će | ćete
 - Djeca ___ spavati. | će | ćemo | ćeš
 
-## Long or short?
+## Lang oder kurz?
 format: nastavak
-info: One tap decides the verb's shape, and only word order decides it. **Before** the helper the infinitive drops its final *-i*: *Plivat ću*, *Učit ćeš*, *Radit ću*. **After** the helper it stays whole: *Ja ću plivati*.
-infokratko: **Before** the helper drop the *-i* (*Plivat ću*); **after** it keep it (*Ja ću plivati*).
+info: Ein Tipp entscheidet die Gestalt des Verbs, und nur die Wortstellung entscheidet sie. **Vor** dem Hilfswort verliert der Infinitiv sein letztes *-i*: *Plivat ću*, *Učit ćeš*, *Radit ću*. **Nach** dem Hilfswort bleibt er ganz: *Ja ću plivati*.
+infokratko: **Vor** dem Hilfswort fällt das *-i* weg (*Plivat ću*); **danach** bleibt es (*Ja ću plivati*).
 nastavci: t | ti
-opis: The verb changes shape depending on where it stands. **In front of ću** the infinitive drops its final -i. **After ću** it keeps it. One tap.
-- Pliva___ ću svaki dan. | I will swim every day. | t
-- Ja ću pliva___ svaki dan. | I will swim every day. | ti
-- Putova___ ćemo na more. | We will travel to the sea. | t
-- Mi ćemo putova___ na more. | We will travel to the sea. | ti
-- Uči___ ćeš navečer. | You will study in the evening. | t
-- Ti ćeš uči___ navečer. | You will study in the evening. | ti
-- Gleda___ ću utakmicu. | I will watch the match. | t
-- Ja ću gleda___ utakmicu. | I will watch the match. | ti
-- Usta___ ću rano. | I will get up early. | t
-- Sutra ću usta___ rano. | Tomorrow I will get up early. | ti
-- Ruča___ ćemo zajedno. | We will have lunch together. | t
-- Poslije ćemo ruča___ zajedno. | Afterwards we will have lunch together. | ti
-- Trenira___ će navečer. | He will train in the evening. | t
-- On će trenira___ navečer. | He will train in the evening. | ti
-- Šeta___ ćemo poslije. | We will walk afterwards. | t
-- Navečer ćemo šeta___ . | In the evening we will walk. | ti
-- Spava___ ću cijeli dan. | I will sleep all day. | t
-- Ja ću spava___ cijeli dan. | I will sleep all day. | ti
+opis: Das Verb ändert seine Gestalt je nachdem, wo es steht. **Vor ću** verliert der Infinitiv sein letztes -i. **Nach ću** behält er es. Ein Tipp.
+- Pliva___ ću svaki dan. | Ich werde jeden Tag schwimmen. | t
+- Ja ću pliva___ svaki dan. | Ich werde jeden Tag schwimmen. | ti
+- Putova___ ćemo na more. | Wir werden ans Meer reisen. | t
+- Mi ćemo putova___ na more. | Wir werden ans Meer reisen. | ti
+- Uči___ ćeš navečer. | Du wirst abends lernen. | t
+- Ti ćeš uči___ navečer. | Du wirst abends lernen. | ti
+- Gleda___ ću utakmicu. | Ich werde das Spiel anschauen. | t
+- Ja ću gleda___ utakmicu. | Ich werde das Spiel anschauen. | ti
+- Usta___ ću rano. | Ich werde früh aufstehen. | t
+- Sutra ću usta___ rano. | Morgen werde ich früh aufstehen. | ti
+- Ruča___ ćemo zajedno. | Wir werden zusammen zu Mittag essen. | t
+- Poslije ćemo ruča___ zajedno. | Danach werden wir zusammen zu Mittag essen. | ti
+- Trenira___ će navečer. | Er wird abends trainieren. | t
+- On će trenira___ navečer. | Er wird abends trainieren. | ti
+- Šeta___ ćemo poslije. | Wir werden danach spazieren gehen. | t
+- Navečer ćemo šeta___ . | Abends werden wir spazieren gehen. | ti
+- Spava___ ću cijeli dan. | Ich werde den ganzen Tag schlafen. | t
+- Ja ću spava___ cijeli dan. | Ich werde den ganzen Tag schlafen. | ti
 
-## Today → tomorrow
+## Heute → morgen
 format: upis
-info: Turn a present-tense sentence into a future one. Take the verb back to its dictionary form and add the helper: *Plivam* becomes *Ja ću plivati*, or, with the verb first, *Plivat ću*. Both are equally correct.
-infokratko: Dictionary form + helper: *Plivam → Ja ću plivati* or *Plivat ću*.
-opis: Make it future! Both word orders are accepted.
+info: Mach aus einem Satz im Präsens einen im Futur. Bring das Verb zurück in seine Wörterbuchform und füge das Hilfswort hinzu: Aus *Plivam* wird *Ja ću plivati* oder, mit dem Verb zuerst, *Plivat ću*. Beides ist gleich richtig.
+infokratko: Wörterbuchform + Hilfswort: *Plivam → Ja ću plivati* oder *Plivat ću*.
+opis: Mach es zum Futur! Beide Wortstellungen werden akzeptiert.
 - Plivam. → | Plivat ću / Ja ću plivati
 - Učim. → | Učit ću / Ja ću učiti
 - Putujemo. → | Putovat ćemo / Mi ćemo putovati
@@ -166,26 +166,26 @@ opis: Make it future! Both word orders are accepted.
 - Čitam knjigu. → | Čitat ću knjigu / Ja ću čitati knjigu
 - Radim. → | Radit ću / Ja ću raditi
 
-## Saying which day
+## Den Tag nennen
 format: tekst
-info: How a plan gets a day. **u** plus the accusative means *on* that day, so feminine days take *-u* (*u subotu*, *u nedjelju*) while masculine ones do not change (*u ponedjeljak*). Words like *sutra* and *navečer* take no preposition at all.
-infokratko: **u** + accusative for days: *u subotu, u nedjelju, u ponedjeljak*. *sutra*, *navečer* need nothing.
-- A plan needs a day, and Croatian puts the day in a shape you already own. To say *on Saturday*, take **u** plus the accusative from Lesson 5 — the same two pieces you used for *Idem u školu*.
-- tab: The day | On that day
-- tab: subota | **u subotu** — on Saturday
-- tab: nedjelja | **u nedjelju** — on Sunday
-- tab: ponedjeljak | **u ponedjeljak** — on Monday
-- **Feminine days take *-u*** (*subota → u subotu*, *srijeda → u srijedu*), exactly like *jabuka → jabuku*. **Masculine days don't move at all** (*u ponedjeljak*, *u utorak*, *u petak*) — a day is not a living being, so nothing is added.
-- **Same *u*, different job.** With a place it means *into* (*u školu*); with a day it means *on*. Croatian sees both as arriving somewhere — one in space, one in time.
-- **Words for parts of the day take no preposition**: *ujutro* (in the morning), *navečer* (in the evening), *sutra* (tomorrow), *danas* (today). Just drop them in: *Sutra ću ustati rano.*
-- The day usually opens the sentence or closes it, and the *ću*-helper still can't come first: ***U subotu** ću putovati.* — *Putovat ću **u subotu**.*
-- **Now you write them.** Idem u kino u [subotu]. Radim u [ponedjeljak]. Putujem u [srijedu].
+info: Wie ein Plan einen Tag bekommt. **u** plus Akkusativ heißt *an* diesem Tag, also nehmen feminine Tage *-u* (*u subotu*, *u nedjelju*), während maskuline sich nicht ändern (*u ponedjeljak*). Wörter wie *sutra* und *navečer* nehmen überhaupt keine Präposition.
+infokratko: **u** + Akkusativ für Tage: *u subotu, u nedjelju, u ponedjeljak*. *sutra*, *navečer* brauchen nichts.
+- Ein Plan braucht einen Tag, und das Kroatische bringt den Tag in eine Form, die du schon besitzt. Um *am Samstag* zu sagen, nimm **u** plus den Akkusativ aus Lektion 5 – dieselben zwei Teile, die du für *Idem u školu* verwendet hast.
+- tab: Der Tag | An diesem Tag
+- tab: subota | **u subotu** — am Samstag
+- tab: nedjelja | **u nedjelju** — am Sonntag
+- tab: ponedjeljak | **u ponedjeljak** — am Montag
+- **Feminine Tage nehmen *-u*** (*subota → u subotu*, *srijeda → u srijedu*), genau wie *jabuka → jabuku*. **Maskuline Tage bewegen sich gar nicht** (*u ponedjeljak*, *u utorak*, *u petak*) – ein Tag ist kein Lebewesen, also kommt nichts dazu.
+- **Dasselbe *u*, eine andere Aufgabe.** Bei einem Ort bedeutet es *in … hinein* (*u školu*); bei einem Tag bedeutet es *an*. Das Kroatische sieht beides als Ankommen – einmal im Raum, einmal in der Zeit.
+- **Wörter für Tageszeiten nehmen keine Präposition**: *ujutro* (morgens), *navečer* (abends), *sutra* (morgen), *danas* (heute). Setz sie einfach ein: *Sutra ću ustati rano.*
+- Der Tag eröffnet meist den Satz oder schließt ihn ab, und das *ću*-Hilfswort darf trotzdem nicht zuerst kommen: ***U subotu** ću putovati.* — *Putovat ću **u subotu**.*
+- **Jetzt schreibst du.** Idem u kino u [subotu]. Radim u [ponedjeljak]. Putujem u [srijedu].
 
-## Build the plan
+## Bau den Plan
 format: slaganje
-info: Assemble whole sentences from tiles, watching where the helper lands. It can never be the first tile: something must come before it, whether a pronoun, a time word, or the trimmed verb — *Sutra ću ustati*, *Plivat ću*.
-infokratko: The helper never comes first: *Sutra ću ustati. Plivat ću.*
-opis: Arrange the tiles to build the plan.
+info: Setz ganze Sätze aus Kärtchen zusammen und achte darauf, wo das Hilfswort landet. Es kann nie das erste Kärtchen sein: Davor muss etwas stehen, ob Pronomen, Zeitwort oder das gekürzte Verb – *Sutra ću ustati*, *Plivat ću*.
+infokratko: Das Hilfswort kommt nie zuerst: *Sutra ću ustati. Plivat ću.*
+opis: Ordne die Kärtchen, um den Plan zu bauen.
 - Mi ćemo putovati na more.
 - Plivat ću svaki dan.
 - Tata će voziti, a mama će spavati.
@@ -197,12 +197,12 @@ opis: Arrange the tiles to build the plan.
 - Putovat ćemo na more jer je ljeto.
 - Bit će savršeno!
 
-## Now or later?
+## Jetzt oder später?
 format: razvrstavanje
-info: Present or future? The giveaway is the helper. A verb alone with a personal ending is now (*Plivam*), while a dictionary form plus *ću, ćeš, će* is later (*Plivat ću*, *Ona će učiti*).
-infokratko: Verb with personal ending = now (*Plivam*); dictionary form + *ću/ćeš/će* = later (*Plivat ću*).
+info: Präsens oder Futur? Das Hilfswort verrät es. Ein Verb allein mit Personalendung ist jetzt (*Plivam*), während eine Wörterbuchform plus *ću, ćeš, će* später ist (*Plivat ću*, *Ona će učiti*).
+infokratko: Verb mit Personalendung = jetzt (*Plivam*); Wörterbuchform + *ću/ćeš/će* = später (*Plivat ću*).
 stupci: SADA | POSLIJE
-opis: Is it happening now or in the future? Sort the sentences.
+opis: Passiert es jetzt oder in der Zukunft? Sortiere die Sätze.
 - Plivam. | SADA
 - Plivat ću. | POSLIJE
 - Mi ćemo ručati. | POSLIJE
@@ -218,12 +218,12 @@ opis: Is it happening now or in the future? Sort the sentences.
 - Vlak stiže. | SADA
 - Vlak će biti pun. | POSLIJE
 
-## Helper sprint
+## Hilfswort-Sprint
 format: brzina
-info: A timed run through the six helpers. Answer from the subject alone: single people and things take *će*, *ti* takes *ćeš*, and anything paired with *ja* — *brat i ja* — takes *ćemo*.
-infokratko: From the subject alone: one person *će*, *ti ćeš*, anything with *ja* *ćemo*.
+info: Ein Lauf auf Zeit durch die sechs Hilfswörter. Antworte allein nach dem Subjekt: Einzelne Personen und Dinge nehmen *će*, *ti* nimmt *ćeš*, und alles, was mit *ja* gepaart ist – *brat i ja* –, nimmt *ćemo*.
+infokratko: Allein nach dem Subjekt: eine Person *će*, *ti ćeš*, alles mit *ja* *ćemo*.
 trajanje: 45
-opis: A subject flashes — tap the helper that goes with it.
+opis: Ein Subjekt blitzt auf – tippe auf das Hilfswort, das dazugehört.
 - ja | ću
 - ti | ćeš
 - on | će
@@ -235,11 +235,11 @@ opis: A subject flashes — tap the helper that goes with it.
 - brat i ja | ćemo
 - sestra | će
 
-## Weekend plans
+## Wochenendpläne
 format: dijalog
-info: A conversation about the weekend, so every reply is a plan. *Hoćeš li…?* simply means *Will you…?* — take it whole for now and answer with a future sentence: *Gledat ću je*, *Ujutro ću trenirati*.
-infokratko: *Hoćeš li...?* = *Will you...?* Answer with a plan: *Gledat ću je.*
-opis: Your friend asks about your weekend. Choose your replies. Passive words: *Hoćeš li…?* (Will you…?), *naravno* (of course), *poslije* (after).
+info: Ein Gespräch übers Wochenende, also ist jede Antwort ein Plan. *Hoćeš li …?* heißt einfach *Wirst du …?* – nimm es vorerst als Ganzes und antworte mit einem Satz im Futur: *Gledat ću je*, *Ujutro ću trenirati*.
+infokratko: *Hoćeš li …?* = *Wirst du …?* Antworte mit einem Plan: *Gledat ću je.*
+opis: Dein Freund fragt nach deinem Wochenende. Wähle deine Antworten. Passive Wörter: *Hoćeš li …?* (Wirst du …?), *naravno* (natürlich), *poslije* (danach).
 - npc | Bok! Što ćeš raditi u subotu?
 - ti | Ujutro ću trenirati, a poslije ću učiti. | Spavat ću cijeli dan!
 - npc | Hoćeš li gledati utakmicu navečer?
@@ -253,12 +253,12 @@ opis: Your friend asks about your weekend. Choose your replies. Passive words: *
 - npc | Da! Vidimo se poslije odmora!
 - ti | Vidimo se! | Bok, vidimo se!
 
-## A summer plan
+## Ein Sommerplan
 format: izbor
-info: Read the plan first, then answer. The helper tells you who does what before you translate anything — *Ana će ustati*, *Marko će nositi* — and *u subotu* is **u** plus the accusative, meaning *on Saturday*.
-infokratko: Read, then answer. The helper shows who: *Ana će ustati*. *u subotu* = on Saturday.
+info: Lies zuerst den Plan, dann antworte. Das Hilfswort sagt dir, wer was tut, bevor du irgendetwas übersetzt – *Ana će ustati*, *Marko će nositi* –, und *u subotu* ist **u** plus Akkusativ und heißt *am Samstag*.
+infokratko: Lies, dann antworte. Das Hilfswort zeigt, wer: *Ana će ustati*. *u subotu* = am Samstag.
 tekst: Ljeto dolazi. Ana i Marko planiraju odmor. Putovat će na more u subotu. Vlak kreće rano, pa će Ana ustati prije sunca. Marko će nositi kofer jer je težak. Plivat će svaki dan, a navečer će šetati. Marko će odmarati jer je odmor. Bit će savršeno!
-opis: Read the plan, then answer the questions. Passive words: *planiraju* (they are planning), *pa* (so), *težak* (heavy), *prije sunca* (before sunrise).
+opis: Lies den Plan und beantworte dann die Fragen. Passive Wörter: *planiraju* (sie planen), *pa* (also), *težak* (schwer), *prije sunca* (vor Sonnenaufgang).
 - Kada će putovati? | u subotu | u nedjelju | u ponedjeljak
 - Zašto će Ana ustati rano? | jer vlak kreće rano | jer voli jutro | jer će trenirati
 - Tko će nositi kofer? | Marko | Ana | tata
@@ -267,26 +267,26 @@ opis: Read the plan, then answer the questions. Passive words: *planiraju* (they
 
 ## Lektionscheck
 format: provjera
-info: A mixed check on everything in the lesson. Two things decide most answers: the helper can never open a sentence, and the verb loses its *-i* only when it stands in front of the helper — *Plivat ću*, but *Ja ću plivati*.
-infokratko: The helper never opens a sentence; *-i* drops only before it: *Plivat ću*, *Ja ću plivati*.
+info: Ein gemischter Check über alles in der Lektion. Zwei Dinge entscheiden die meisten Antworten: Das Hilfswort kann nie einen Satz eröffnen, und das Verb verliert sein *-i* nur, wenn es vor dem Hilfswort steht – *Plivat ću*, aber *Ja ću plivati*.
+infokratko: Das Hilfswort eröffnet nie einen Satz; *-i* fällt nur davor weg: *Plivat ću*, *Ja ću plivati*.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 8.
-- slaganje | Mi ćemo putovati na more. | en: We will travel to the seaside.
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 8 zu sein.
+- slaganje | Mi ćemo putovati na more. | en: Wir werden ans Meer reisen.
 - izbor | Ja ___ plivati. | ću | ćeš | će
 - upis | Pretvori u futur: Učim. → | Učit ću / Ja ću učiti
-- izbor | Što znači "vlak"? | train | Sommer | weekend
+- izbor | Što znači "vlak"? | Zug | Sommer | Wochenende
 - izbor | Oni ___ gledati film. | će | ćemo | ćete
 - izbor | "Ručamo." — sada ili poslije? | sada | poslije
 - izbor | Koja je rečenica točna? | Plivat ću. | Plivati ću.
-- slaganje | Navečer ćemo šetati. | en: In the evening we will go for a walk.
+- slaganje | Navečer ćemo šetati. | en: Abends werden wir spazieren gehen.
 - upis | Pretvori u futur: Putujemo. → | Putovat ćemo / Mi ćemo putovati
 - izbor | Sestra i ja ___ šetati. | ćemo | ćete | će
 - izbor | Koja je rečenica točna? | Ja ću gledati film. | Ću gledati film.
-- slaganje | Sutra ću ustati rano. | en: Tomorrow I will get up early.
+- slaganje | Sutra ću ustati rano. | en: Morgen werde ich früh aufstehen.
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary: you now have the future, both word orders, and *u* plus the accusative for days. What is still missing is the full refusal — *neću, nećeš, neće* — and that is the first thing Grammar 8 hands you.
-infokratko: Future in both word orders, and *u* + accusative for days. Next: *neću, nećeš, neće*.
-- Odlično! Past lessons gave you the present; now the future is yours too. Your summer plans are officially in Croatian.
-- **Next up:** Vocabulary 8 packs the suitcase — travel, clothes and ten new verbs. Then Grammar 8 explains *why* the helper is never allowed to open a sentence — the same rule you already met twice — and gives you the future that refuses: *neću, nećeš, neće*. Then Lesson 9 brings sport, hobbies and the little words that make things *yours*.
+info: Eine Abschlusszusammenfassung: Du hast jetzt das Futur, beide Wortstellungen und *u* plus Akkusativ für Tage. Was noch fehlt, ist die volle Absage – *neću, nećeš, neće* –, und das gibt dir Grammatik 8 als Erstes.
+infokratko: Futur in beiden Wortstellungen und *u* + Akkusativ für Tage. Als Nächstes: *neću, nećeš, neće*.
+- Odlično! Die vergangenen Lektionen haben dir das Präsens gegeben; jetzt gehört dir auch die Zukunft. Deine Sommerpläne sind offiziell auf Kroatisch.
+- **Als Nächstes:** Wortschatz 8 packt den Koffer – Reisen, Kleidung und zehn neue Verben. Dann erklärt Grammatik 8, *warum* das Hilfswort nie einen Satz eröffnen darf – dieselbe Regel, die du schon zweimal getroffen hast –, und gibt dir das Futur, das ablehnt: *neću, nećeš, neće*. Dann bringt Lektion 9 Sport, Hobbys und die kleinen Wörter, die Dinge zu *deinen* machen.

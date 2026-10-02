@@ -1,22 +1,22 @@
-# Grandma's House: The Genitive
+# Omas Haus: Der Genitiv
 cjelina: Lesson 16
 
-## Whose? Without what? From where?
+## Wessen? Ohne was? Woher?
 format: tekst
-info: A short read to open the lesson. Today's case, the genitive, has three everyday jobs: it shows what something belongs to (*miris kave*), it follows little words such as *bez* and *iz* (*bez šećera, iz Zagreba*), and it names what is missing after *nema*.
-infokratko: The genitive: belonging (*miris kave*), after *bez, iz, kod…* (*bez šećera*), after *nema*.
-opis: Read it through — by the end you can find your way around Grandma's house.
-- Whose house? Grandma's. Coffee without what? Without sugar. From where? From Zagreb.
-- All three answers use one case — the **genitive**: *kuća moje **bake*** (my grandma's house), *kava bez **šećera*** (coffee without sugar), *iz **Zagreba*** (from Zagreb).
-- **Two endings do most of the work.** A masculine or neuter word adds **-a** (*šećer → šećera, more → mora*), and a feminine word in **-a** turns it into **-e** (*baka → bake*).
-- By the end of this lesson you can say where you come from (*Odakle si? — Iz Splita.*), describe a house — what is next to it, in front of it and behind it — and say what is missing: *Nema problema!*
+info: Ein kurzer Text zum Einstieg. Der Fall von heute, der Genitiv, hat drei Alltagsaufgaben: Er zeigt, wozu etwas gehört (*miris kave*), er folgt kleinen Wörtern wie *bez* und *iz* (*bez šećera, iz Zagreba*), und er nennt nach *nema*, was fehlt.
+infokratko: Der Genitiv: Zugehörigkeit (*miris kave*), nach *bez, iz, kod…* (*bez šećera*), nach *nema*.
+opis: Lies es durch – am Ende findest du dich in Omas Haus zurecht.
+- Wessen Haus? Omas. Kaffee ohne was? Ohne Zucker. Woher? Aus Zagreb.
+- Alle drei Antworten benutzen einen Fall – den **Genitiv**: *kuća moje **bake*** (das Haus meiner Oma), *kava bez **šećera*** (Kaffee ohne Zucker), *iz **Zagreba*** (aus Zagreb).
+- **Zwei Endungen erledigen fast alles.** Ein maskulines oder neutrales Wort hängt **-a** an (*šećer → šećera, more → mora*), und ein feminines Wort auf **-a** macht daraus **-e** (*baka → bake*).
+- Am Ende dieser Lektion kannst du sagen, woher du kommst (*Odakle si? — Iz Splita.*), ein Haus beschreiben – was daneben, davor und dahinter ist – und sagen, was fehlt: *Nema problema!*
 
 ## Schnelles Abrufen
 format: brzina
 trajanje: 60
-info: A timed warm-up on the instrumental from Lesson 15. People and things that come along take *s* or *sa* (*s bratom, sa sestrom, s mlijekom*), and a vehicle stands alone (*vlakom*). After a soft sound the ending is **-em**: *s prijateljem, tramvajem*.
-infokratko: Lesson 15 against the clock: *s bratom, sa sestrom*, vehicle alone: *vlakom*. Soft sound **-em**.
-opis: Instrumental sprint from Lesson 15 — tap the correct form before the timer runs out.
+info: Ein zeitgebundenes Aufwärmen zum Instrumental aus Lektion 15. Personen und Dinge, die mitkommen, bekommen *s* oder *sa* (*s bratom, sa sestrom, s mlijekom*), und ein Fahrzeug steht allein (*vlakom*). Nach einem weichen Laut ist die Endung **-em**: *s prijateljem, tramvajem*.
+infokratko: Lektion 15 gegen die Uhr: *s bratom, sa sestrom*, Fahrzeug allein: *vlakom*. Weicher Laut **-em**.
+opis: Instrumental-Sprint aus Lektion 15 – tippe die richtige Form, bevor die Zeit abläuft.
 - brat | s bratom
 - sestra | sa sestrom
 - vlak | vlakom
@@ -30,75 +30,75 @@ opis: Instrumental sprint from Lesson 15 — tap the correct form before the tim
 - ___ ideš u kino? — S bratom. | S kim
 - Pijem čaj ___ . (limun) | s limunom
 
-## House & home words
+## Wörter für Haus und Zuhause
 format: kartice
-info: The words for Grandma's house and garden. Most nouns are new; *vrt, vrata, kuhinja, zid* and *šećer* come back from earlier levels, because today they take the genitive. *Vrata* exists only in the plural, like *hlače*. The verbs come with their *ja*-form.
-infokratko: House and garden words. *vrata* is plural only. Verbs with the *ja*-form.
-opis: Rooms, walls, a garden and the things that happen in it. Tap a card to reveal the meaning.
+info: Die Wörter für Omas Haus und Garten. Die meisten Substantive sind neu; *vrt, vrata, kuhinja, zid* und *šećer* kommen aus früheren Stufen zurück, weil sie heute im Genitiv stehen. *Vrata* gibt es nur im Plural, wie *hlače*. Die Verben stehen mit ihrer *ja*-Form da.
+infokratko: Wörter für Haus und Garten. *vrata* gibt es nur im Plural. Verben mit der *ja*-Form.
+opis: Zimmer, Wände, ein Garten und was darin passiert. Tippe auf eine Karte, um die Bedeutung zu sehen.
 - vrt | Garten
 - vrata | Tür
 - kuhinja | Küche
 - zid | Wand
-- ograda | fence
-- trava | grass
-- cvijet | flower
-- slika | picture
-- boja | colour
-- miris | smell
+- ograda | Zaun
+- trava | Gras
+- cvijet | Blume
+- slika | Bild
+- boja | Farbe
+- miris | Geruch, Duft
 - svjetlo | Licht
-- šećer | sugar
-- komad | piece
-- svijet | world
-- mjesto | place
-- dolaziti → dolazim | to come
-- čuvati → čuvam | to look after, to keep
-- rasti → rastem | to grow
-- visjeti → visim | to hang
-- ostaviti → ostavim | to leave (behind)
-- naći → nađem | to find
-- popraviti → popravim | to repair
+- šećer | Zucker
+- komad | Stück
+- svijet | Welt
+- mjesto | Ort
+- dolaziti → dolazim | kommen
+- čuvati → čuvam | aufpassen auf, aufbewahren
+- rasti → rastem | wachsen
+- visjeti → visim | hängen
+- ostaviti → ostavim | (zurück)lassen
+- naći → nađem | finden
+- popraviti → popravim | reparieren
 
-## Little words with the genitive
+## Kleine Wörter mit dem Genitiv
 format: kartice
-info: The little words that are followed by the genitive, each shown in a phrase. *Bez* means without, *iz* from or out of, *kod* at someone's place, and *pokraj, ispred, iza, blizu* place something next to, in front of, behind or near something else. *Odakle?* asks where someone comes from.
-infokratko: *bez, iz, od, do, kod, pokraj, ispred, iza, blizu* + genitive. *Odakle?* = from where?
-opis: Each little word with a genitive after it. Tap a card to reveal the meaning.
-- bez → bez šećera | without → without sugar
-- iz → iz Zagreba | from, out of → from Zagreb
-- od → torta od čokolade | from, of → a chocolate cake
-- od… do… → od Zagreba do mora | from… to… → from Zagreb to the sea
-- kod → kod bake | at someone's place → at Grandma's
-- pokraj → pokraj kuće | next to → next to the house
-- ispred → ispred kuće | in front of → in front of the house
-- iza → iza zida | behind → behind the wall
-- blizu → blizu mora | near → near the sea
-- Odakle? → Odakle si? — Iz Splita. | From where? → Where are you from? — From Split.
-- nema → Nema šećera. | there is no → There's no sugar.
-- Nema problema! | No problem!
-- Nema žurbe. | No hurry.
+info: Die kleinen Wörter, auf die der Genitiv folgt, jeweils in einer Wendung. *Bez* heißt ohne, *iz* aus, *kod* bei jemandem, und *pokraj, ispred, iza, blizu* stellen etwas neben, vor, hinter oder in die Nähe von etwas anderem. *Odakle?* fragt, woher jemand kommt.
+infokratko: *bez, iz, od, do, kod, pokraj, ispred, iza, blizu* + Genitiv. *Odakle?* = woher?
+opis: Jedes kleine Wort mit einem Genitiv danach. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- bez → bez šećera | ohne → ohne Zucker
+- iz → iz Zagreba | aus → aus Zagreb
+- od → torta od čokolade | von, aus → ein Schokoladenkuchen
+- od… do… → od Zagreba do mora | von … bis … → von Zagreb bis ans Meer
+- kod → kod bake | bei jemandem → bei Oma
+- pokraj → pokraj kuće | neben → neben dem Haus
+- ispred → ispred kuće | vor → vor dem Haus
+- iza → iza zida | hinter → hinter der Mauer
+- blizu → blizu mora | in der Nähe von → in der Nähe des Meeres
+- Odakle? → Odakle si? — Iz Splita. | Woher? → Woher kommst du? – Aus Split.
+- nema → Nema šećera. | es gibt kein → Es gibt keinen Zucker.
+- Nema problema! | Kein Problem!
+- Nema žurbe. | Keine Eile.
 
-## The genitive endings
+## Die Genitivendungen
 format: tekst
-info: The first rule of the lesson. A masculine or neuter noun adds **-a** (*brat → brata, more → mora*), and a feminine noun turns **-a** into **-e** (*baka → bake*). The genitive has three jobs: the owner, after little words such as *bez* and *iz*, and after *nema*.
-infokratko: Masculine and neuter **+a** (*brata, mora*); feminine **-a → -e** (*bake*). Three jobs.
+info: Die erste Regel der Lektion. Ein maskulines oder neutrales Substantiv hängt **-a** an (*brat → brata, more → mora*), und ein feminines Substantiv macht aus **-a** ein **-e** (*baka → bake*). Der Genitiv hat drei Aufgaben: der Besitzer, nach kleinen Wörtern wie *bez* und *iz* und nach *nema*.
+infokratko: Maskulinum und Neutrum **+a** (*brata, mora*); Femininum **-a → -e** (*bake*). Drei Aufgaben.
 infoodmah: da
-opis: Two endings, three jobs. Read the table and fill in the last line.
-- **The endings, by gender.**
-- tab: Gender | On its own | In the genitive | Ending
-- tab: masculine | brat, šećer | brata, šećera | **+a**
-- tab: masculine in -o | Marko | Marka | **-o → -a**
-- tab: neuter | more, mlijeko | mora, mlijeka | **-e / -o → -a**
-- tab: feminine | baka, kava | bake, kave | **-a → -e**
-- **A familiar form.** For a person or an animal, the masculine genitive looks just like the target form from Lesson 6: *Čekam brata.* — *kod brata*. A word that loses its **a** there loses it here too: *pas → psa*.
-- **Three jobs, one case.** **1. Belonging:** the owner comes *after* the thing, in the genitive — *miris **kave*** (the smell of coffee), *vrata **kuće*** (the door of the house). **2. After certain little words:** *bez **šećera**, iz **Zagreba**, kod **bake**, pokraj **kuće**.* **3. After *nema*:** *Nema **šećera**.*
-- **Things and people.** The genitive is the standard way to say *of* for things: *boja neba, miris mora*. For a single family word, Croatian usually uses another form, *bakina kuća* (Grandma's house) — take that one whole for now. When the owner has a word with it, the genitive is standard, and the word *moja* takes **-e** too: *kuća **moje bake***.
-- **Now you write them.** Ovo je kuća moje [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba].
+opis: Zwei Endungen, drei Aufgaben. Lies die Tabelle und ergänze die letzte Zeile.
+- **Die Endungen nach Genus.**
+- tab: Genus | Allein | Im Genitiv | Endung
+- tab: maskulin | brat, šećer | brata, šećera | **+a**
+- tab: maskulin auf -o | Marko | Marka | **-o → -a**
+- tab: neutral | more, mlijeko | mora, mlijeka | **-e / -o → -a**
+- tab: feminin | baka, kava | bake, kave | **-a → -e**
+- **Eine bekannte Form.** Bei einer Person oder einem Tier sieht der maskuline Genitiv genauso aus wie die Zielform aus Lektion 6: *Čekam brata.* — *kod brata*. Ein Wort, das dort sein **a** verliert, verliert es auch hier: *pas → psa*.
+- **Drei Aufgaben, ein Fall.** **1. Zugehörigkeit:** Der Besitzer steht *nach* der Sache, im Genitiv – *miris **kave*** (der Duft des Kaffees), *vrata **kuće*** (die Tür des Hauses). Wie im Deutschen *die Tür des Hauses*. **2. Nach bestimmten kleinen Wörtern:** *bez **šećera**, iz **Zagreba**, kod **bake**, pokraj **kuće**.* **3. Nach *nema*:** *Nema **šećera**.*
+- **Dinge und Personen.** Der Genitiv ist die normale Art, bei Dingen *von* oder *des* zu sagen: *boja neba, miris mora*. Für ein einzelnes Familienwort benutzt das Kroatische meist eine andere Form, *bakina kuća* (Omas Haus) – lern sie vorerst als Ganzes. Wenn beim Besitzer noch ein Wort steht, ist der Genitiv normal, und auch das Wort *moja* bekommt **-e**: *kuća **moje bake*** – das Haus meiner Oma.
+- **Jetzt schreibst du sie.** Ovo je kuća moje [bake]. Pijem kavu bez [šećera]. Dolazim iz [Zagreba].
 
-## Whose is it?
+## Wem gehört es?
 format: parovi
-info: Each English phrase beside its Croatian version. In every pair the owner or the whole comes second and takes the genitive: *miris kave* is the smell of coffee, *komad torte* a piece of cake. A feminine word ends in **-e**, a masculine or neuter one in **-a**.
-infokratko: The owner comes second, in the genitive: *miris kave, komad torte, boja neba*.
-opis: Match the English with the Croatian — notice who owns what.
+info: Jede deutsche Wendung neben ihrer kroatischen Fassung. In jedem Paar steht der Besitzer oder das Ganze an zweiter Stelle und im Genitiv: *miris kave* ist der Duft von Kaffee, *komad torte* ein Stück Kuchen. Ein feminines Wort endet auf **-e**, ein maskulines oder neutrales auf **-a**.
+infokratko: Der Besitzer steht an zweiter Stelle, im Genitiv: *miris kave, komad torte, boja neba*.
+opis: Ordne das Deutsche dem Kroatischen zu – achte darauf, wem was gehört.
 - my grandma's house | kuća moje bake
 - the door of the house | vrata kuće
 - a piece of cake | komad torte
@@ -110,56 +110,56 @@ opis: Match the English with the Croatian — notice who owns what.
 - the colour of the grass | boja trave
 - a picture of the sea | slika mora
 
-## Which job?
+## Welche Aufgabe?
 format: razvrstavanje
-info: Sorting sentences by the job of the genitive. If the form tells you whose or of what, it is **belonging**. If it follows a little word such as *bez, iz, kod, pokraj*, it is **a preposition**. If it follows *nema*, something is **missing**.
-infokratko: *whose / of what* → belonging; after *bez, iz, kod…* → preposition; after *nema* → missing.
-stupci: BELONGING | AFTER A LITTLE WORD | AFTER NEMA
-opis: What is the genitive doing in each sentence? Sort them.
-- Miris kave je lijep. | BELONGING
-- Vrata kuće su stara. | BELONGING
-- Kuća moje bake je stara. | BELONGING
-- Komad torte, molim. | BELONGING
-- Zid kuhinje je bijel. | BELONGING
-- Pijem kavu bez šećera. | AFTER A LITTLE WORD
-- Dolazim iz Zagreba. | AFTER A LITTLE WORD
-- Sjedimo kod bake. | AFTER A LITTLE WORD
-- Pokraj kuće je vrt. | AFTER A LITTLE WORD
-- Iza zida je trava. | AFTER A LITTLE WORD
-- Nema šećera. | AFTER NEMA
-- Nema mlijeka. | AFTER NEMA
-- Nema problema! | AFTER NEMA
-- Danas nema interneta. | AFTER NEMA
-- Nema žurbe. | AFTER NEMA
+info: Sätze nach der Aufgabe des Genitivs sortieren. Wenn die Form sagt, wessen oder wovon, ist es **Zugehörigkeit**. Wenn sie einem kleinen Wort wie *bez, iz, kod, pokraj* folgt, ist es **eine Präposition**. Wenn sie *nema* folgt, **fehlt** etwas.
+infokratko: *wessen / wovon* → Zugehörigkeit; nach *bez, iz, kod…* → Präposition; nach *nema* → es fehlt.
+stupci: ZUGEHÖRIGKEIT | NACH EINEM KLEINEN WORT | NACH NEMA
+opis: Was macht der Genitiv in jedem Satz? Sortiere sie.
+- Miris kave je lijep. | ZUGEHÖRIGKEIT
+- Vrata kuće su stara. | ZUGEHÖRIGKEIT
+- Kuća moje bake je stara. | ZUGEHÖRIGKEIT
+- Komad torte, molim. | ZUGEHÖRIGKEIT
+- Zid kuhinje je bijel. | ZUGEHÖRIGKEIT
+- Pijem kavu bez šećera. | NACH EINEM KLEINEN WORT
+- Dolazim iz Zagreba. | NACH EINEM KLEINEN WORT
+- Sjedimo kod bake. | NACH EINEM KLEINEN WORT
+- Pokraj kuće je vrt. | NACH EINEM KLEINEN WORT
+- Iza zida je trava. | NACH EINEM KLEINEN WORT
+- Nema šećera. | NACH NEMA
+- Nema mlijeka. | NACH NEMA
+- Nema problema! | NACH NEMA
+- Danas nema interneta. | NACH NEMA
+- Nema žurbe. | NACH NEMA
 
 ## Tippe auf die Endung
 format: nastavak
 nastavci: a | e
-info: One tap completes the genitive. A masculine or neuter word takes **-a** — also *Marko → Marka* and *more → mora* — and a feminine word in **-a** takes **-e**. Read the whole sentence: the little word in front or *nema* tells you the genitive is needed.
-infokratko: Masculine and neuter **-a** (*Marka, mora*); feminine **-e** (*bake*).
-opis: English above, Croatian below. One tap puts the word in the genitive.
-- Pijem kavu bez šećer___. | I drink coffee without sugar. | a
-- Kod bak___ je lijepo. | It's nice at Grandma's. | e
-- Dolazim iz Zagreb___. | I come from Zagreb. | a
-- Pokraj kuć___ je vrt. | Next to the house there's a garden. | e
-- Nema mlijek___. | There's no milk. | a
-- Komad tort___, molim. | A piece of cake, please. | e
-- Putujemo do mor___. | We're travelling to the sea. | a
-- Miris kav___ je lijep. | The smell of coffee is lovely. | e
-- Iza zid___ je trava. | Behind the wall there's grass. | a
-- Vrata kuhinj___ su otvorena. | The kitchen door is open. | e
-- Kod Mark___ nema interneta. | There's no internet at Marko's. | a
-- Kuća moje bak___ je stara. | My grandma's house is old. | e
-- Slika mor___ visi na zidu. | A picture of the sea hangs on the wall. | a
-- Ispred škol___ je park. | In front of the school there's a park. | e
-- Blizu mor___ je kuća. | Near the sea there's a house. | a
-- Torta od čokolad___, molim. | A chocolate cake, please. | e
+info: Ein Tippen vervollständigt den Genitiv. Ein maskulines oder neutrales Wort bekommt **-a** – auch *Marko → Marka* und *more → mora* –, und ein feminines Wort auf **-a** bekommt **-e**. Lies den ganzen Satz: Das kleine Wort davor oder *nema* verrät dir, dass der Genitiv nötig ist.
+infokratko: Maskulinum und Neutrum **-a** (*Marka, mora*); Femininum **-e** (*bake*).
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen bringt das Wort in den Genitiv.
+- Pijem kavu bez šećer___. | Ich trinke Kaffee ohne Zucker. | a
+- Kod bak___ je lijepo. | Bei Oma ist es schön. | e
+- Dolazim iz Zagreb___. | Ich komme aus Zagreb. | a
+- Pokraj kuć___ je vrt. | Neben dem Haus ist ein Garten. | e
+- Nema mlijek___. | Es gibt keine Milch. | a
+- Komad tort___, molim. | Ein Stück Kuchen, bitte. | e
+- Putujemo do mor___. | Wir fahren ans Meer. | a
+- Miris kav___ je lijep. | Der Duft von Kaffee ist herrlich. | e
+- Iza zid___ je trava. | Hinter der Mauer ist Gras. | a
+- Vrata kuhinj___ su otvorena. | Die Küchentür ist offen. | e
+- Kod Mark___ nema interneta. | Bei Marko gibt es kein Internet. | a
+- Kuća moje bak___ je stara. | Das Haus meiner Oma ist alt. | e
+- Slika mor___ visi na zidu. | Ein Bild vom Meer hängt an der Wand. | a
+- Ispred škol___ je park. | Vor der Schule ist ein Park. | e
+- Blizu mor___ je kuća. | In der Nähe des Meeres steht ein Haus. | a
+- Torta od čokolad___, molim. | Einen Schokoladenkuchen, bitte. | e
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing the correct genitive. The usual mistakes are the naming form after a little word (*bez šećer*), the place form from Lesson 13 (*iz Zagrebu*), and *-a* on a feminine word (*kod baka*). The genitive of a feminine word ends in **-e**.
-infokratko: Not *bez šećer*, not *iz Zagrebu*. Feminine: **-e** (*kod bake*).
-opis: Choose the correct genitive.
+info: Den richtigen Genitiv wählen. Die üblichen Fehler sind die Grundform nach einem kleinen Wort (*bez šećer*), die Ortsform aus Lektion 13 (*iz Zagrebu*) und *-a* bei einem femininen Wort (*kod baka*). Der Genitiv eines femininen Worts endet auf **-e**.
+infokratko: Nicht *bez šećer*, nicht *iz Zagrebu*. Femininum: **-e** (*kod bake*).
+opis: Wähle den richtigen Genitiv.
 - Kava bez ___ , molim. | mlijeka | mlijeko | mlijeku
 - Putujemo iz ___ . | Zagreba | Zagreb | Zagrebu
 - Pijemo kavu kod ___ . | bake | baka | baki
@@ -173,11 +173,11 @@ opis: Choose the correct genitive.
 - Sjedim kod ___ . | Marka | Marko | Marku
 - Vrata ___ su stara. | kuhinje | kuhinja | kuhinji
 
-## Type the genitive
+## Schreib den Genitiv
 format: upis
-info: You type the genitive yourself. The little word or *nema* is given, and the word in the naming form is in front of the arrow. Masculine and neuter words add **-a** (*šećera, mora*), feminine words turn **-a** into **-e** (*bake*), and *Marko* becomes *Marka*.
-infokratko: Masculine and neuter **+a**; feminine **-a → -e**; *Marko → Marka*.
-opis: Type the genitive form.
+info: Du schreibst den Genitiv selbst. Das kleine Wort oder *nema* ist vorgegeben, und das Wort in der Grundform steht vor dem Pfeil. Maskuline und neutrale Wörter hängen **-a** an (*šećera, mora*), feminine Wörter machen aus **-a** ein **-e** (*bake*), und *Marko* wird zu *Marka*.
+infokratko: Maskulinum und Neutrum **+a**; Femininum **-a → -e**; *Marko → Marka*.
+opis: Schreib die Genitivform.
 - šećer → bez ___ | šećera
 - baka → kuća moje ___ | bake
 - more → miris ___ | mora
@@ -191,29 +191,29 @@ opis: Type the genitive form.
 - kava → komad torte i šalica ___ | kave
 - škola → pokraj ___ | škole
 
-## "Nema" — the useful no
+## „Nema“ – das nützliche Nein
 format: tekst
-info: The second rule: *nema* means *there is no*, and what is missing takes the genitive: *Šećer je na stolu.* → *Nema šećera.* The same pattern gives three everyday phrases. The page also sets *iz* beside *u*: *u Zagrebu* is where, *iz Zagreba* is where from.
-infokratko: *nema* + genitive = there is no: *Nema šećera.* *u Zagrebu* (where) vs. *iz Zagreba* (from where).
+info: Die zweite Regel: *nema* heißt *es gibt kein*, und was fehlt, steht im Genitiv: *Šećer je na stolu.* → *Nema šećera.* Dasselbe Muster ergibt drei Alltagswendungen. Die Seite stellt auch *iz* neben *u*: *u Zagrebu* ist wo, *iz Zagreba* ist woher.
+infokratko: *nema* + Genitiv = es gibt kein: *Nema šećera.* *u Zagrebu* (wo) gegenüber *iz Zagreba* (woher).
 infoodmah: da
-opis: One small word, a whole phrasebook. Read the tables and fill in the last line.
-- **There is no = nema + genitive.** When something is missing, *nema* stands in front and the missing thing takes the genitive: *Šećer je na stolu.* → ***Nema šećera.*** It does not change with the person — it is always *nema*.
-- tab: Croatian | English | When you hear it
-- tab: Nema problema! | No problem! | daily, everywhere
-- tab: Nema interneta. | There's no internet. | in a café
-- tab: Nema žurbe. | No hurry. | said to you, kindly
-- **Kamo? Gdje? Odakle?** The same town in three cases, one for each question. *Iz* is the opposite of *u*.
-- tab: Question | Answer | Case
-- tab: Kamo ideš? | U Zagreb. | accusative (Grammar 5)
-- tab: Gdje si? | U Zagrebu. | locative (Lesson 13)
-- tab: Odakle dolaziš? | Iz Zagreba. | genitive (today)
-- **Now you write them.** Nema [problema]! Nema [interneta]. Dolazim iz [Zagreba].
+opis: Ein kleines Wort, ein ganzer Sprachführer. Lies die Tabellen und ergänze die letzte Zeile.
+- **Es gibt kein = nema + Genitiv.** Wenn etwas fehlt, steht *nema* davor, und das Fehlende steht im Genitiv: *Šećer je na stolu.* → ***Nema šećera.*** Es ändert sich nicht mit der Person – es heißt immer *nema*.
+- tab: Kroatisch | Deutsch | Wann du es hörst
+- tab: Nema problema! | Kein Problem! | täglich, überall
+- tab: Nema interneta. | Es gibt kein Internet. | im Café
+- tab: Nema žurbe. | Keine Eile. | freundlich zu dir gesagt
+- **Kamo? Gdje? Odakle?** Dieselbe Stadt in drei Fällen, einer für jede Frage. *Iz* ist das Gegenteil von *u* – wie *aus* und *in*.
+- tab: Frage | Antwort | Fall
+- tab: Kamo ideš? | U Zagreb. | Akkusativ (Grammatik 5)
+- tab: Gdje si? | U Zagrebu. | Lokativ (Lektion 13)
+- tab: Odakle dolaziš? | Iz Zagreba. | Genitiv (heute)
+- **Jetzt schreibst du sie.** Nema [problema]! Nema [interneta]. Dolazim iz [Zagreba].
 
-## Build it
+## Bau es
 format: slaganje
-info: Whole sentences about Grandma's house, built from tiles. The genitive comes right after the little word or after the thing it belongs to — *bez šećera, vrata kuće* — and a comma comes before *ali* and *a*.
-infokratko: Genitive right after the little word or the thing: *bez šećera, vrata kuće*.
-opis: Arrange the tiles to build the sentence.
+info: Ganze Sätze über Omas Haus, aus Kacheln gebaut. Der Genitiv kommt direkt nach dem kleinen Wort oder nach der Sache, zu der er gehört – *bez šećera, vrata kuće* –, und vor *ali* und *a* steht ein Komma.
+infokratko: Genitiv direkt nach dem kleinen Wort oder der Sache: *bez šećera, vrata kuće*.
+opis: Ordne die Kärtchen, um den Satz zu bauen.
 - Kuća moje bake je stara.
 - Pijem kavu bez šećera i bez mlijeka.
 - Putujemo iz Zagreba do mora.
@@ -226,12 +226,12 @@ opis: Arrange the tiles to build the sentence.
 - Kod bake nema interneta.
 - Iza zida je ograda, a iza ograde je more.
 
-## Genitive sprint
+## Genitiv-Sprint
 format: brzina
 trajanje: 45
-info: A timed sprint from the naming form to the genitive. Masculine and neuter words add **-a** (*brata, mora*), feminine words turn **-a** into **-e** (*bake, kuće*). Names work the same way: *Marko → Marka, Ana → Ane*.
-infokratko: Naming form → genitive: **+a** (*brata, mora*), **-a → -e** (*bake, kuće*).
-opis: A word flashes — tap its genitive before the timer runs out.
+info: Ein zeitgebundener Sprint von der Grundform zum Genitiv. Maskuline und neutrale Wörter hängen **-a** an (*brata, mora*), feminine Wörter machen aus **-a** ein **-e** (*bake, kuće*). Namen funktionieren genauso: *Marko → Marka, Ana → Ane*.
+infokratko: Grundform → Genitiv: **+a** (*brata, mora*), **-a → -e** (*bake, kuće*).
+opis: Ein Wort blinkt auf – tippe seinen Genitiv, bevor die Zeit abläuft.
 - brat | brata
 - baka | bake
 - kuća | kuće
@@ -247,9 +247,9 @@ opis: A word flashes — tap its genitive before the timer runs out.
 
 ## Im Café
 format: dijalog
-info: A café order with the genitive everywhere: *bez šećera, komad torte, nema interneta*, and at the end *Odakle ste?* The waiter uses the polite *vi*, reacts to your order, and every option you can choose is correct Croatian.
-infokratko: *bez šećera, komad torte, nema interneta, Odakle ste?* The waiter reacts to your order.
-opis: Order like a local — the genitive is in almost every line. Passive words: *Izvolite?* (What can I get you?), *specijalitet kuće* (house speciality), *kolač od sira* (cheesecake), *Dobro došli!* (Welcome!), *izdaleka* (from far away).
+info: Eine Bestellung im Café mit Genitiv überall: *bez šećera, komad torte, nema interneta* und am Ende *Odakle ste?* Der Kellner benutzt das höfliche *vi*, reagiert auf deine Bestellung, und jede Option, die du wählen kannst, ist korrektes Kroatisch.
+infokratko: *bez šećera, komad torte, nema interneta, Odakle ste?* Der Kellner reagiert auf deine Bestellung.
+opis: Bestell wie ein Einheimischer – der Genitiv steckt in fast jeder Zeile. Passive Wörter: *Izvolite?* (Was darf es sein?), *specijalitet kuće* (Spezialität des Hauses), *kolač od sira* (Käsekuchen), *Dobro došli!* (Willkommen!), *izdaleka* (von weit her).
 - npc | Dobar dan! Izvolite?
 - ti | Jednu kavu, molim. | Jedan čaj, molim.
 - npc | Sa šećerom ili bez šećera?
@@ -264,12 +264,12 @@ opis: Order like a local — the genitive is in almost every line. Passive words
 - ti | Iz Londona. | Iz Amerike.
 - npc | Izdaleka! Dobro došli u Zagreb!
 
-## Read: Grandma's house
+## Lesen: Omas Haus
 format: izbor
-info: Read the description, then answer in Croatian. Almost every sentence has a genitive — *pokraj kuće, iza kuće, bez šećera, komad torte* — so look for the little word in the question and find the same one in the text.
-infokratko: Read, then answer. Find the little word from the question in the text.
+info: Lies die Beschreibung und antworte dann auf Kroatisch. Fast jeder Satz hat einen Genitiv – *pokraj kuće, iza kuće, bez šećera, komad torte* –, also such das kleine Wort in der Frage und finde dasselbe im Text.
+infokratko: Lesen, dann antworten. Finde das kleine Wort aus der Frage im Text.
 tekst: Moja baka živi u kući blizu mora. Pokraj kuće je veliki vrt. Ispred kuće raste cvijeće, a iza kuće je stara ograda. Djed svaki dan popravlja ogradu. U kuhinji je uvijek miris kave. Na zidu kuhinje visi slika mora. Baka pije kavu bez šećera, a ja pijem čaj s limunom. Kod bake nema interneta, ali nema ni problema: čitam knjige i jedem komad torte od čokolade.
-opis: Read the text, then answer the questions. Passive words: *veliki* (big), *popravlja* (repairs), *nema ni problema* (there's no problem either).
+opis: Lies den Text und beantworte dann die Fragen. Passive Wörter: *veliki* (groß), *popravlja* (repariert), *nema ni problema* (es gibt auch kein Problem).
 - Gdje živi baka? | blizu mora | u centru grada | pokraj škole
 - Što je pokraj kuće? | vrt | ograda | more
 - Što raste ispred kuće? | cvijeće | trava | vrt
@@ -279,9 +279,9 @@ opis: Read the text, then answer the questions. Passive words: *veliki* (big), *
 
 ## Memory
 format: memorija
-info: A pairs game over naming forms and their genitives. Masculine and neuter words add **-a**: *brat → brata, more → mora*. Feminine words turn **-a** into **-e**: *baka → bake*. The pair *Marko → Marka* works like *brat → brata*.
-infokratko: Naming form with genitive: **+a** (*brata, mora*), **-a → -e** (*bake*).
-opis: Flip the cards and match each noun with its genitive.
+info: Ein Paarspiel mit Grundformen und ihren Genitiven. Maskuline und neutrale Wörter hängen **-a** an: *brat → brata, more → mora*. Feminine Wörter machen aus **-a** ein **-e**: *baka → bake*. Das Paar *Marko → Marka* funktioniert wie *brat → brata*.
+infokratko: Grundform mit Genitiv: **+a** (*brata, mora*), **-a → -e** (*bake*).
+opis: Dreh die Karten um und ordne jedem Substantiv seinen Genitiv zu.
 - baka | bake
 - brat | brata
 - more | mora
@@ -294,28 +294,28 @@ opis: Flip the cards and match each noun with its genitive.
 
 ## Lektionscheck
 format: provjera
-info: The scored mix of the lesson, and 80% opens Vocabulary 16. Most points are on the two genitive endings — **+a** for masculine and neuter, **-e** for feminine — and on the three jobs: belonging, the little words and *nema*.
-infokratko: Lesson 16; 80% opens Vocabulary 16. **+a** / **-e**; belonging, little words, *nema*.
+info: Die bewertete Mischung der Lektion, und 80 % schalten Wortschatz 16 frei. Die meisten Punkte hängen an den zwei Genitivendungen – **+a** für Maskulinum und Neutrum, **-e** für Femininum – und an den drei Aufgaben: Zugehörigkeit, die kleinen Wörter und *nema*.
+infokratko: Lektion 16; 80 % schalten Wortschatz 16 frei. **+a** / **-e**; Zugehörigkeit, kleine Wörter, *nema*.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 16.
-- slaganje | Kava bez šećera, molim. | en: Coffee without sugar, please.
+opis: Letzter Check! Erreiche 80 %, um bereit für Wortschatz 16 zu sein.
+- slaganje | Kava bez šećera, molim. | en: Kaffee ohne Zucker, bitte.
 - izbor | Putujem iz ___ . | Zagreba | Zagreb | Zagrebu
 - upis | kuća moje ___ (baka) | bake
-- izbor | Što znači "pokraj"? | next to | without | from
+- izbor | Što znači "pokraj"? | neben | ohne | aus
 - izbor | Nema ___ ! | problema | problem | problemu
 - upis | komad ___ (torta) | torte
 - izbor | Koja je rečenica točna? | Miris kave je lijep. | Miris kava je lijep. | Miris kavu je lijep.
-- slaganje | Vrata kuće su stara. | en: The door of the house is old.
+- slaganje | Vrata kuće su stara. | en: Die Tür des Hauses ist alt.
 - upis | ___ si? — Iz Splita. | Odakle
 - izbor | Sjedimo kod ___ . | Marka | Marko | Marku
 - upis | Mlijeko je na stolu. → Nema ___ . | mlijeka
-- slaganje | Pokraj kuće je vrt. | en: Next to the house there's a garden.
+- slaganje | Pokraj kuće je vrt. | en: Neben dem Haus ist ein Garten.
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You can now say whose something is, where you come from and what is missing: masculine and neuter words add **-a**, feminine words take **-e**, and *nema* is followed by the genitive.
-infokratko: **+a** / **-e**; belonging, *bez, iz, kod, pokraj…*, *nema* + genitive.
-opis: Read what you can do now, and what comes next.
-- Bravo! Belonging, origin and absence — you can describe Grandma's house, say where you come from and order coffee *bez šećera*.
-- **Next up:** Vocabulary 16 brings more of the house — *zavjesa, namještaj, lonac* — and the rest of the little words: *iznad, ispod, između*. Grammar 16 shows what happens after numbers: *dva brata, pet kuća*.
-- **Then Lesson 17:** you take command — *Uzmi! Dodaj! Miješaj!* — the imperative, taught with a pancake recipe.
+info: Eine abschließende Zusammenfassung. Jetzt kannst du sagen, wem etwas gehört, woher du kommst und was fehlt: Maskuline und neutrale Wörter hängen **-a** an, feminine Wörter bekommen **-e**, und auf *nema* folgt der Genitiv.
+infokratko: **+a** / **-e**; Zugehörigkeit, *bez, iz, kod, pokraj…*, *nema* + Genitiv.
+opis: Lies, was du jetzt kannst und was als Nächstes kommt.
+- Bravo! Zugehörigkeit, Herkunft und Fehlen – du kannst Omas Haus beschreiben, sagen, woher du kommst, und Kaffee *bez šećera* bestellen.
+- **Als Nächstes:** Wortschatz 16 bringt mehr vom Haus – *zavjesa, namještaj, lonac* – und die restlichen kleinen Wörter: *iznad, ispod, između*. Grammatik 16 zeigt, was nach Zahlen passiert: *dva brata, pet kuća*.
+- **Dann Lektion 17:** Du gibst Befehle – *Uzmi! Dodaj! Miješaj!* – der Imperativ, gelernt an einem Pfannkuchenrezept.

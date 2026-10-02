@@ -1,27 +1,27 @@
-# Reading: The Picky Eaters
+# Lesen: Die heiklen Esser
 cjelina: Practice 12
 
-## Text 1: I don't like soup
+## Text 1: Ich mag keine Suppe
 format: tekst
-info: A read-along complaint, and nearly every line is negative. Read it twice: once for the story, once to spot the pattern — *ne* in front of the verb, *nije* as one word, and *ni… ni…* ruling out two things with *ne* still on the verb.
-infokratko: Mostly negative: *ne* before the verb, *nije* as one word, *ni... ni...* with *ne*.
-opis: A boy, his mother and a long list of foods he won't eat. Tap **EN** next to any sentence to see its translation.
-- Passive words: *kaže* (says), *zdravo* (healthy, about a thing).
-- Ne volim juhu. | I don't like soup.
-- Nikad ne jedem juhu. | I never eat soup.
-- Mama kaže: "Juha je zdrava!" | Mom says: "Soup is healthy!"
-- Ali ne volim ni ribu. | But I don't like fish either.
-- Riba nije ukusna — riba je riba! | Fish isn't tasty — fish is fish!
-- Ne jedem ni rajčicu ni luk. | I eat neither tomatoes nor onions.
-- Gljive? Ne, hvala. Češnjak? Nikad! | Mushrooms? No, thank you. Garlic? Never!
-- Što volim? Volim pizzu i sladoled. | What do I like? I like pizza and ice cream.
-- Mama nije sretna: "To nije zdravo!" | Mom isn't happy: "That isn't healthy!"
-- Znam, mama. Ali sladoled nikad nije problem! | I know, Mom. But ice cream is never a problem!
+info: Eine Mitlese-Beschwerde, und fast jede Zeile ist verneint. Lies sie zweimal: einmal für die Geschichte, einmal, um das Muster zu entdecken – *ne* vor dem Verb, *nije* als ein Wort und *ni … ni …*, das zwei Dinge ausschließt, mit *ne* weiterhin am Verb.
+infokratko: Meist verneint: *ne* vor dem Verb, *nije* als ein Wort, *ni … ni …* mit *ne*.
+opis: Ein Junge, seine Mutter und eine lange Liste von Dingen, die er nicht isst. Tippe neben einem Satz auf **DE**, um seine Übersetzung zu sehen.
+- Passive Wörter: *kaže* (sagt), *zdravo* (gesund, über eine Sache).
+- Ne volim juhu. | Ich mag keine Suppe.
+- Nikad ne jedem juhu. | Ich esse nie Suppe.
+- Mama kaže: "Juha je zdrava!" | Mama sagt: „Suppe ist gesund!“
+- Ali ne volim ni ribu. | Aber ich mag auch keinen Fisch.
+- Riba nije ukusna — riba je riba! | Fisch ist nicht lecker – Fisch ist Fisch!
+- Ne jedem ni rajčicu ni luk. | Ich esse weder Tomaten noch Zwiebeln.
+- Gljive? Ne, hvala. Češnjak? Nikad! | Pilze? Nein, danke. Knoblauch? Nie!
+- Što volim? Volim pizzu i sladoled. | Was ich mag? Ich mag Pizza und Eis.
+- Mama nije sretna: "To nije zdravo!" | Mama ist nicht glücklich: „Das ist nicht gesund!“
+- Znam, mama. Ali sladoled nikad nije problem! | Ich weiß, Mama. Aber Eis ist nie ein Problem!
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against the text. The negatives carry the information: *ne volim ni ribu* means he dislikes fish as well as soup, and *mama nije sretna* rules out a happy mother.
-infokratko: The negatives carry the meaning: *ne volim ni ribu*, *mama nije sretna*.
+info: Prüfe jede Aussage am Text. Die Verneinungen tragen die Information: *ne volim ni ribu* heißt, er mag Fisch genauso wenig wie Suppe, und *mama nije sretna* schließt eine glückliche Mutter aus.
+infokratko: Die Verneinungen tragen die Bedeutung: *ne volim ni ribu*, *mama nije sretna*.
 opis: Tippe auf richtig oder falsch.
 tekst: Ne volim juhu. Nikad ne jedem juhu. Mama kaže: "Juha je zdrava!" Ali ne volim ni ribu. Riba nije ukusna — riba je riba! Ne jedem ni rajčicu ni luk. Gljive? Ne, hvala. Češnjak? Nikad! Što volim? Volim pizzu i sladoled. Mama nije sretna: "To nije zdravo!"
 - On voli juhu. | FALSCH | RICHTIG
@@ -31,11 +31,11 @@ tekst: Ne volim juhu. Nikad ne jedem juhu. Mama kaže: "Juha je zdrava!" Ali ne 
 - On voli pizzu i sladoled. | RICHTIG | FALSCH
 - Mama je sretna. | FALSCH | RICHTIG
 
-## Type the negation
+## Tippe die Verneinung
 format: upis
-info: Copy the negative word back into its line. Read the whole sentence first: a gap in front of a verb takes *ne*, a gap before an adjective takes *nije*, and a gap in the middle of a list takes *ni*.
-infokratko: Before a verb *ne*, before an adjective *nije*, in a list *ni*.
-opis: Fill in the negation from the text.
+info: Übertrag das Verneinungswort zurück in seine Zeile. Lies zuerst den ganzen Satz: Eine Lücke vor einem Verb nimmt *ne*, eine Lücke vor einem Adjektiv *nije*, und eine Lücke mitten in einer Aufzählung *ni*.
+infokratko: Vor einem Verb *ne*, vor einem Adjektiv *nije*, in einer Aufzählung *ni*.
+opis: Ergänze die Verneinung aus dem Text.
 tekst: Ne volim juhu. Nikad ne jedem juhu. Ali ne volim ni ribu. Riba nije ukusna. Ne jedem ni rajčicu ni luk. Mama nije sretna. Sladoled nikad nije problem!
 - ___ volim juhu. | Ne
 - ___ ne jedem juhu. | Nikad
@@ -44,30 +44,30 @@ tekst: Ne volim juhu. Nikad ne jedem juhu. Ali ne volim ni ribu. Riba nije ukusn
 - Mama ___ sretna. | nije
 - Sladoled nikad ___ problem! | nije
 
-## Text 2: At the restaurant
+## Text 2: Im Restaurant
 format: tekst
-info: A restaurant where the kitchen has run out of almost everything. The waiter answers with *nemamo*, the fused negative of *imati*, and *također nemamo* means *we don't have that either*. Notice that the guest answers the same way: *Ne jedem pizzu.*
-infokratko: *nemamo* = we don't have; *također nemamo* = don't have that either.
-opis: Two friends, one waiter and a very short menu. Tap **EN** to see any line in English.
-- Passive words: *drugo* (else), *za piće* (to drink), *posebno* (special), *večeras* (tonight), *pivo* (beer).
-- — Dobra večer! Izvolite jelovnik. | — Good evening! Here's the menu.
-- — Imate li ribu? | — Do you have fish?
-- — Nažalost, danas nemamo ribu. | — Unfortunately, we don't have fish today.
-- — A juhu? | — And soup?
-- — Juhu također nemamo. | — We don't have soup either.
-- — Hm. Što imate? | — Hm. What do you have?
-- — Imamo pizzu i salatu. | — We have pizza and salad.
-- — Ja ne jedem pizzu... ali moj prijatelj ne jede ništa drugo! | — I don't eat pizza... but my friend eats nothing else!
-- — Onda jednu pizzu i jednu salatu? | — Then one pizza and one salad?
-- — Da, molim. | — Yes, please.
-- — Odlično! A za piće? | — Excellent! And to drink?
-- — Ništa posebno — samo vodu, molim. Večeras ne pijemo ni vino ni pivo. | — Nothing special — just water, please. Tonight we're drinking neither wine nor beer.
+info: Ein Restaurant, in dem die Küche fast alles ausverkauft hat. Der Kellner antwortet mit *nemamo*, der verschmolzenen Verneinung von *imati*, und *također nemamo* heißt *das haben wir auch nicht*. Beachte, dass der Gast genauso antwortet: *Ne jedem pizzu.*
+infokratko: *nemamo* = wir haben nicht; *također nemamo* = haben wir auch nicht.
+opis: Zwei Freunde, ein Kellner und eine sehr kurze Speisekarte. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *drugo* (anderes), *za piće* (zu trinken), *posebno* (besonders), *večeras* (heute Abend), *pivo* (Bier).
+- — Dobra večer! Izvolite jelovnik. | — Guten Abend! Hier ist die Speisekarte.
+- — Imate li ribu? | — Haben Sie Fisch?
+- — Nažalost, danas nemamo ribu. | — Leider haben wir heute keinen Fisch.
+- — A juhu? | — Und Suppe?
+- — Juhu također nemamo. | — Suppe haben wir auch nicht.
+- — Hm. Što imate? | — Hm. Was haben Sie?
+- — Imamo pizzu i salatu. | — Wir haben Pizza und Salat.
+- — Ja ne jedem pizzu... ali moj prijatelj ne jede ništa drugo! | — Ich esse keine Pizza … aber mein Freund isst nichts anderes!
+- — Onda jednu pizzu i jednu salatu? | — Dann eine Pizza und einen Salat?
+- — Da, molim. | — Ja, bitte.
+- — Odlično! A za piće? | — Ausgezeichnet! Und zu trinken?
+- — Ništa posebno — samo vodu, molim. Večeras ne pijemo ni vino ni pivo. | — Nichts Besonderes – nur Wasser, bitte. Heute Abend trinken wir weder Wein noch Bier.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on the dialogue above. Keep apart what the restaurant *has* and what it *doesn't have* — *nemamo ribu*, *juhu također nemamo* — and remember that *ni vino ni pivo* rules out both drinks.
-infokratko: Has vs. doesn't have. *ni vino ni pivo* = neither.
-opis: Answer from the dialogue.
+info: Verständnis zum Dialog oben. Halte auseinander, was das Restaurant *hat* und was es *nicht hat* – *nemamo ribu*, *juhu također nemamo* –, und denk dran, dass *ni vino ni pivo* beide Getränke ausschließt.
+infokratko: Hat gegen hat nicht. *ni vino ni pivo* = weder noch.
+opis: Antworte aus dem Dialog.
 tekst: — Imate li ribu? — Nažalost, danas nemamo ribu. — A juhu? — Juhu također nemamo. — Hm. Što imate? — Imamo pizzu i salatu. — Ja ne jedem pizzu... ali moj prijatelj ne jede ništa drugo! — Onda jednu pizzu i jednu salatu? — Da, molim. — A za piće? — Ništa posebno — samo vodu, molim. Večeras ne pijemo ni vino ni pivo.
 - Što restoran nema? | ribu i juhu | pizzu i salatu | vodu i vino
 - Što restoran ima? | pizzu i salatu | ribu i juhu | samo vodu
@@ -78,9 +78,9 @@ tekst: — Imate li ribu? — Nažalost, danas nemamo ribu. — A juhu? — Juhu
 
 ## Bring den Dialog in Ordnung
 format: poredak
-info: Rebuild the conversation line by line. Each answer follows its question: *Imate li ribu?* is answered by *nemamo ribu*, *A juhu?* by *Juhu također nemamo*, and *Što imate?* by *Imamo pizzu i salatu*. The guest's order comes last.
-infokratko: Each answer follows its question; the order comes last.
-opis: Rebuild the restaurant conversation.
+info: Bau das Gespräch Zeile für Zeile wieder auf. Jede Antwort folgt ihrer Frage: *Imate li ribu?* wird mit *nemamo ribu* beantwortet, *A juhu?* mit *Juhu također nemamo* und *Što imate?* mit *Imamo pizzu i salatu*. Die Bestellung des Gastes kommt zuletzt.
+infokratko: Jede Antwort folgt ihrer Frage; die Bestellung kommt zuletzt.
+opis: Bau das Restaurantgespräch wieder auf.
 - — Dobra večer! Izvolite jelovnik.
 - — Imate li ribu?
 - — Nažalost, danas nemamo ribu.
@@ -90,26 +90,26 @@ opis: Rebuild the restaurant conversation.
 - — Imamo pizzu i salatu.
 - — Onda jednu pizzu i jednu salatu?
 
-## Text 3: Marko eats nothing
+## Text 3: Marko isst nichts
 format: tekst
-info: A story about a child who refuses everything — almost. The whole story rests on the difference between *ništa* and *nešto*: the first line says *Marko ništa ne jede*, and the last one says *Marko ipak nešto jede*.
-infokratko: *ništa* vs. *nešto*: *Marko ništa ne jede... Marko ipak nešto jede.*
-opis: A grandmother, a mother and a father try to feed Marko. Tap **EN** to see any line in English.
-- Passive words: *njegova* (his), *gle!* (look!), *dakle* (so), *istina* (true), *ipak* (after all), *radi* (makes).
-- Marko je dijete i Marko ništa ne jede. | Marko is a child and Marko eats nothing.
-- Ne jede povrće. | He doesn't eat vegetables.
-- Ne voli voće. | He doesn't like fruit.
-- Nikad ne pije mlijeko. | He never drinks milk.
-- "Ne!" — to je njegova omiljena riječ. | "No!" — that is his favorite word.
-- Baka kuha juhu — Marko ne želi juhu. | Grandma cooks soup — Marko doesn't want soup.
-- Mama peče kolač — Marko ne želi ni kolač! | Mom bakes a cake — Marko doesn't even want the cake!
-- Tata radi palačinke... i gle! Marko jede! | Dad makes pancakes... and look! Marko is eating!
-- Dakle, nije istina. Marko ipak nešto jede: palačinke! | So it isn't true. Marko does eat something after all: pancakes!
+info: Eine Geschichte über ein Kind, das alles ablehnt – fast. Die ganze Geschichte ruht auf dem Unterschied zwischen *ništa* und *nešto*: Die erste Zeile sagt *Marko ništa ne jede*, und die letzte *Marko ipak nešto jede*.
+infokratko: *ništa* gegen *nešto*: *Marko ništa ne jede … Marko ipak nešto jede.*
+opis: Eine Oma, eine Mutter und ein Vater versuchen, Marko zu füttern. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *njegova* (seine), *gle!* (schau!), *dakle* (also), *istina* (wahr), *ipak* (doch), *radi* (macht).
+- Marko je dijete i Marko ništa ne jede. | Marko ist ein Kind, und Marko isst nichts.
+- Ne jede povrće. | Er isst kein Gemüse.
+- Ne voli voće. | Er mag kein Obst.
+- Nikad ne pije mlijeko. | Er trinkt nie Milch.
+- "Ne!" — to je njegova omiljena riječ. | „Nein!“ – das ist sein Lieblingswort.
+- Baka kuha juhu — Marko ne želi juhu. | Oma kocht Suppe – Marko will keine Suppe.
+- Mama peče kolač — Marko ne želi ni kolač! | Mama backt einen Kuchen – Marko will nicht einmal den Kuchen!
+- Tata radi palačinke... i gle! Marko jede! | Papa macht Pfannkuchen … und schau! Marko isst!
+- Dakle, nije istina. Marko ipak nešto jede: palačinke! | Also stimmt es nicht. Marko isst doch etwas: Pfannkuchen!
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on Marko's story. Three people cook, and each question asks who made what or what Marko refused. *Ne želi ni kolač* means he refused the cake as well as the soup.
-infokratko: Who made what, what Marko refused. *ne želi ni kolač*.
+info: Verständnis zu Markos Geschichte. Drei Menschen kochen, und jede Frage fragt, wer was gemacht oder was Marko abgelehnt hat. *Ne želi ni kolač* heißt, er hat den Kuchen genauso abgelehnt wie die Suppe.
+infokratko: Wer was gemacht hat, was Marko abgelehnt hat. *ne želi ni kolač*.
 opis: Antworte aus dem Text.
 tekst: Marko je dijete i Marko ništa ne jede. Ne jede povrće. Ne voli voće. Nikad ne pije mlijeko. "Ne!" — to je njegova omiljena riječ. Baka kuha juhu — Marko ne želi juhu. Mama peče kolač — Marko ne želi ni kolač! Tata radi palačinke... i gle! Marko jede! Dakle, nije istina. Marko ipak nešto jede: palačinke!
 - Što Marko nikad ne pije? | mlijeko | vodu | sok
@@ -119,27 +119,27 @@ tekst: Marko je dijete i Marko ništa ne jede. Ne jede povrće. Ne voli voće. N
 - Tko radi palačinke? | tata | baka | mama
 - Što Marko ipak jede? | palačinke | juhu | kolač
 
-## Text 4: Who eats what?
+## Text 4: Wer isst was?
 format: tekst
-info: A puzzle rather than a story. Four friends, four dishes, and nobody says who has which. Every clue is a negative, so work by elimination: what a person does **not** eat narrows down what is left for the others.
-infokratko: Every clue is negative: work by elimination.
-opis: Four friends, four dishes, no labels. Read it twice before you answer.
-- Passive words: *četiri jela* (four dishes), *isto* (the same).
-- Ana, Damir, Petra i Ivan večeraju u restoranu. | Ana, Damir, Petra and Ivan are having dinner at a restaurant.
-- Na stolu su četiri jela: piletina, riba, tjestenina i salata. | There are four dishes on the table: chicken, fish, pasta and salad.
-- Nitko ne jede isto jelo. | Nobody eats the same dish.
-- Petra je vegetarijanka — ne jede ni meso ni ribu. | Petra is a vegetarian — she eats neither meat nor fish.
-- Ana ne jede meso. | Ana doesn't eat meat.
-- Damir ne voli ni salatu ni tjesteninu. | Damir likes neither salad nor pasta.
-- Ivan nikad ne jede ribu. Danas ne želi ni piletinu. | Ivan never eats fish. Today he doesn't want chicken either.
-- Petra danas ne želi tjesteninu. | Petra doesn't want pasta today.
-- Tko jede što? | Who is eating what?
+info: Ein Rätsel statt einer Geschichte. Vier Freunde, vier Gerichte, und niemand sagt, wer welches hat. Jeder Hinweis ist eine Verneinung, also arbeite durch Ausschluss: Was eine Person **nicht** isst, grenzt ein, was für die anderen übrig bleibt.
+infokratko: Jeder Hinweis ist verneint: Arbeite durch Ausschluss.
+opis: Vier Freunde, vier Gerichte, keine Schilder. Lies es zweimal, bevor du antwortest.
+- Passive Wörter: *četiri jela* (vier Gerichte), *isto* (dasselbe).
+- Ana, Damir, Petra i Ivan večeraju u restoranu. | Ana, Damir, Petra und Ivan essen im Restaurant zu Abend.
+- Na stolu su četiri jela: piletina, riba, tjestenina i salata. | Auf dem Tisch stehen vier Gerichte: Hähnchen, Fisch, Nudeln und Salat.
+- Nitko ne jede isto jelo. | Niemand isst dasselbe Gericht.
+- Petra je vegetarijanka — ne jede ni meso ni ribu. | Petra ist Vegetarierin – sie isst weder Fleisch noch Fisch.
+- Ana ne jede meso. | Ana isst kein Fleisch.
+- Damir ne voli ni salatu ni tjesteninu. | Damir mag weder Salat noch Nudeln.
+- Ivan nikad ne jede ribu. Danas ne želi ni piletinu. | Ivan isst nie Fisch. Heute will er auch kein Hähnchen.
+- Petra danas ne želi tjesteninu. | Petra will heute keine Nudeln.
+- Tko jede što? | Wer isst was?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the negatives. Only Damir can take the chicken, because Ana and Petra eat no meat and Ivan does not want it today. Ivan never eats fish, so the fish is Ana's; Petra does not want pasta, so she has the salad and Ivan the pasta.
-infokratko: By elimination from the negatives.
-opis: Nobody says who eats what. Work it out from the text.
+info: Schlussfolgern aus den Verneinungen. Nur Damir kann das Hähnchen nehmen, weil Ana und Petra kein Fleisch essen und Ivan es heute nicht will. Ivan isst nie Fisch, also ist der Fisch Anas; Petra will keine Nudeln, also hat sie den Salat und Ivan die Nudeln.
+infokratko: Durch Ausschluss aus den Verneinungen.
+opis: Niemand sagt, wer was isst. Finde es aus dem Text heraus.
 tekst: Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela: piletina, riba, tjestenina i salata. Nitko ne jede isto jelo. Petra je vegetarijanka — ne jede ni meso ni ribu. Ana ne jede meso. Damir ne voli ni salatu ni tjesteninu. Ivan nikad ne jede ribu. Danas ne želi ni piletinu. Petra danas ne želi tjesteninu.
 - Tko jede piletinu? | Damir | Ivan | Ana
 - Tko jede ribu? | Ana | Damir | Petra
@@ -148,35 +148,35 @@ tekst: Ana, Damir, Petra i Ivan večeraju u restoranu. Na stolu su četiri jela:
 - Zašto Petra ne jede ribu? | jer je vegetarijanka | jer ne voli ribu | jer riba nije svježa
 - Što Damir ne voli? | ni salatu ni tjesteninu | ni meso ni ribu | ni piletinu ni ribu
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
-info: One tap per sentence, and almost every sentence comes from the four texts. **Ni-** builds *ništa*, *nikad*, *nitko* and *nije*; **ne-** builds *nešto* and *nemamo*, and *ne* also stands alone in front of a verb. The dash leaves a positive sentence untouched.
-infokratko: **ni-**: *ništa, nikad, nitko, nije*; **ne-**: *nešto, nemamo*; or *ne* alone. Dash = positive.
+info: Ein Tipp pro Satz, und fast jeder Satz stammt aus den vier Texten. **Ni-** baut *ništa*, *nikad*, *nitko* und *nije*; **ne-** baut *nešto* und *nemamo*, und *ne* steht auch allein vor einem Verb. Der Strich lässt einen bejahten Satz unberührt.
+infokratko: **ni-**: *ništa, nikad, nitko, nije*; **ne-**: *nešto, nemamo*; oder *ne* allein. Strich = bejaht.
 nastavci: ni | ne | -
-opis: Almost every sentence came out of the four texts. One tap — or none, if the sentence is positive.
-- Marko ___šta ne jede. | Marko eats nothing. | ni
-- Marko ipak ___što jede. | Marko does eat something after all. | ne
-- Juha ___je zdrava. | Soup is healthy. | -
-- Mama ___je sretna. | Mom isn't happy. | ni
-- Danas ___mamo ribu. | We don't have fish today. | ne
-- Marko ___je dijete. | Marko is a child. | -
-- Ja ___kad ne jedem juhu. | I never eat soup. | ni
-- Moj prijatelj ___ jede ništa drugo. | My friend eats nothing else. | ne
-- Petra ___je vegetarijanka. | Petra is a vegetarian. | -
-- Riba ___je ukusna. | Fish isn't tasty. | ni
-- Juhu također ___mamo. | We don't have soup either. | ne
-- Marko ne želi ___ kolač. | Marko doesn't even want the cake. | ni
-- Sladoled nikad ___je problem. | Ice cream is never a problem. | ni
-- Petra ___ jede ni meso ni ribu. | Petra eats neither meat nor fish. | ne
-- Danas ___tko ne jede isto jelo. | Nobody is eating the same dish today. | ni
-- Ivan ___kad ne jede ribu. | Ivan never eats fish. | ni
+opis: Fast jeder Satz stammt aus den vier Texten. Ein Tipp – oder keiner, wenn der Satz bejaht ist.
+- Marko ___šta ne jede. | Marko isst nichts. | ni
+- Marko ipak ___što jede. | Marko isst doch etwas. | ne
+- Juha ___je zdrava. | Suppe ist gesund. | -
+- Mama ___je sretna. | Mama ist nicht glücklich. | ni
+- Danas ___mamo ribu. | Wir haben heute keinen Fisch. | ne
+- Marko ___je dijete. | Marko ist ein Kind. | -
+- Ja ___kad ne jedem juhu. | Ich esse nie Suppe. | ni
+- Moj prijatelj ___ jede ništa drugo. | Mein Freund isst nichts anderes. | ne
+- Petra ___je vegetarijanka. | Petra ist Vegetarierin. | -
+- Riba ___je ukusna. | Fisch ist nicht lecker. | ni
+- Juhu također ___mamo. | Suppe haben wir auch nicht. | ne
+- Marko ne želi ___ kolač. | Marko will nicht einmal den Kuchen. | ni
+- Sladoled nikad ___je problem. | Eis ist nie ein Problem. | ni
+- Petra ___ jede ni meso ni ribu. | Petra isst weder Fleisch noch Fisch. | ne
+- Danas ___tko ne jede isto jelo. | Heute isst niemand dasselbe Gericht. | ni
+- Ivan ___kad ne jede ribu. | Ivan isst nie Fisch. | ni
 
 ## Ja oder nein?
 format: razvrstavanje
-info: Sorting sentences by meaning. A sentence is negative when its verb is — *ne jede*, *nije*, *nemamo*. Two traps: *Marko ipak nešto jede* is positive despite the **ne-** word, and *samo vodu* is a positive answer.
-infokratko: Negative verb = negative sentence. *nešto jede* is positive.
+info: Sätze nach Bedeutung sortieren. Ein Satz ist verneint, wenn sein Verb es ist – *ne jede*, *nije*, *nemamo*. Zwei Fallen: *Marko ipak nešto jede* ist trotz des **ne-**-Wortes bejaht, und *samo vodu* ist eine bejahte Antwort.
+infokratko: Verneintes Verb = verneinter Satz. *nešto jede* ist bejaht.
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
-opis: Does the sentence say yes or no?
+opis: Sagt der Satz Ja oder Nein?
 - Volim pizzu i sladoled. | ✓ POZITIVNO
 - Imamo pizzu i salatu. | ✓ POZITIVNO
 - Marko ipak nešto jede. | ✓ POZITIVNO
@@ -192,11 +192,11 @@ opis: Does the sentence say yes or no?
 - Mama nije sretna. | ✗ NEGATIVNO
 - Ne jedem ni rajčicu ni luk. | ✗ NEGATIVNO
 
-## Now YOU order
+## Jetzt bestellst DU
 format: dijalog
-info: Your turn at the restaurant, with the waiter using the polite *vi*. Any answer keeps the conversation going, but each one uses this unit: *ne jedem*, *nisam*, *ništa više*. Where your gender shows, both forms are offered.
-infokratko: Polite *vi*: *ne jedem, nisam, ništa više*. Pick your gender's form.
-opis: The waiter is ready and the kitchen is half empty. Choose your replies — any answer works. Passive words: *Evo* (here you are), *u redu* (all right), *malo* (a little), *alkohol* (alcohol), *sokove* (juices), *Hvala vam* (thank you, polite).
+info: Du bist im Restaurant dran, und der Kellner siezt dich (*vi*). Jede Antwort hält das Gespräch am Laufen, aber jede verwendet diese Einheit: *ne jedem*, *nisam*, *ništa više*. Wo dein Geschlecht sichtbar ist, werden beide Formen angeboten.
+infokratko: Höfliches *vi*: *ne jedem, nisam, ništa više*. Wähle die Form deines Geschlechts.
+opis: Der Kellner ist bereit, und die Küche ist halb leer. Wähle deine Antworten – jede Antwort funktioniert. Passive Wörter: *Evo* (bitte schön), *u redu* (in Ordnung), *malo* (ein bisschen), *alkohol* (Alkohol), *sokove* (Säfte), *Hvala vam* (danke, höflich).
 - npc | Dobra večer! Izvolite jelovnik.
 - ti | Hvala! Imate li ribu? | Hvala! Imate li juhu?
 - npc | Nažalost, danas nemamo ni ribu ni juhu. Imamo piletinu i tjesteninu.
@@ -213,11 +213,11 @@ opis: The waiter is ready and the kitchen is half empty. Choose your replies —
 - ti | Ne, hvala. Ništa više ne želim. | Da, palačinke, molim! | Ne jedem ništa slatko. Račun, molim.
 - npc | Hvala vam i doviđenja!
 
-## Dinner, in order
+## Das Abendessen, der Reihe nach
 format: poredak
-info: Sequence Marko's dinner from Text 3. Three people offer food one after another — grandmother, mother, father — and the two refusals come before the one dish he finally eats.
-infokratko: Three offers, two refusals, then one dish.
-opis: Seven moments from Text 3, shuffled. Put them in the order they happened.
+info: Ordne Markos Abendessen aus Text 3. Drei Menschen bieten nacheinander Essen an – Oma, Mama, Papa –, und die zwei Ablehnungen kommen vor dem einen Gericht, das er schließlich isst.
+infokratko: Drei Angebote, zwei Ablehnungen, dann ein Gericht.
+opis: Sieben Momente aus Text 3, durcheinandergewürfelt. Bring sie in die Reihenfolge, in der sie passiert sind.
 - Baka kuha juhu.
 - Marko ne želi juhu.
 - Mama peče kolač.
@@ -228,40 +228,40 @@ opis: Seven moments from Text 3, shuffled. Put them in the order they happened.
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the four texts. *Ne* goes directly in front of the verb, *nije* and *nemamo* are single tiles, and every negative word keeps *ne* on the verb.
-infokratko: *ne* before the verb; *nije, nemamo* one tile; negative words keep *ne*.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
-- Ne volim juhu. | en: I don't like soup.
-- Nikad ne jedem juhu. | en: I never eat soup.
-- Ali ne volim ni ribu. | en: But I don't like fish either.
-- Riba nije ukusna. | en: Fish isn't tasty.
-- Ne jedem ni rajčicu ni luk. | en: I eat neither tomatoes nor onions.
-- Mama nije sretna. | en: Mom isn't happy.
-- Nažalost, danas nemamo ribu. | en: Unfortunately, we don't have fish today.
-- Juhu također nemamo. | en: We don't have soup either.
-- Samo vodu, molim. | en: Just water, please.
-- Marko ništa ne jede. | en: Marko eats nothing.
-- Nikad ne pije mlijeko. | en: He never drinks milk.
-- Marko ne želi ni kolač. | en: Marko doesn't even want the cake.
-- Marko ipak nešto jede. | en: Marko does eat something after all.
-- Nitko ne jede isto jelo. | en: Nobody eats the same dish.
-- Petra ne jede ni meso ni ribu. | en: Petra eats neither meat nor fish.
-- Ivan nikad ne jede ribu. | en: Ivan never eats fish.
+info: Deutsch rein, Kroatisch raus, gebaut aus Kärtchen aus den vier Texten. *Ne* steht direkt vor dem Verb, *nije* und *nemamo* sind je ein Kärtchen, und jedes Verneinungswort behält *ne* am Verb.
+infokratko: *ne* vor dem Verb; *nije, nemamo* ein Kärtchen; Verneinungswörter behalten *ne*.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den vier Texten.
+- Ne volim juhu. | en: Ich mag keine Suppe.
+- Nikad ne jedem juhu. | en: Ich esse nie Suppe.
+- Ali ne volim ni ribu. | en: Aber ich mag auch keinen Fisch.
+- Riba nije ukusna. | en: Fisch ist nicht lecker.
+- Ne jedem ni rajčicu ni luk. | en: Ich esse weder Tomaten noch Zwiebeln.
+- Mama nije sretna. | en: Mama ist nicht glücklich.
+- Nažalost, danas nemamo ribu. | en: Leider haben wir heute keinen Fisch.
+- Juhu također nemamo. | en: Suppe haben wir auch nicht.
+- Samo vodu, molim. | en: Nur Wasser, bitte.
+- Marko ništa ne jede. | en: Marko isst nichts.
+- Nikad ne pije mlijeko. | en: Er trinkt nie Milch.
+- Marko ne želi ni kolač. | en: Marko will nicht einmal den Kuchen.
+- Marko ipak nešto jede. | en: Marko isst doch etwas.
+- Nitko ne jede isto jelo. | en: Niemand isst dasselbe Gericht.
+- Petra ne jede ni meso ni ribu. | en: Petra isst weder Fleisch noch Fisch.
+- Ivan nikad ne jede ribu. | en: Ivan isst nie Fisch.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over food and the things on the table. Everything is in its naming form; say *Ne jedem…* or *Nemam…* in your head as you tap, remembering that a feminine word takes **-u**: *Nemam žlicu.*
-infokratko: Naming forms. Think *Ne jedem...*; *Nemam žlicu*.
-opis: The kitchen is closing. A picture appears — tap the balloon with its word before it floats away.
-- palačinke | pancakes
-- kupus | cabbage
+info: Ein Bild-Wort-Tippen auf Zeit über Essen und die Dinge auf dem Tisch. Alles steht in der Benennungsform; sag beim Tippen im Kopf *Ne jedem …* oder *Nemam …* und denk dran, dass ein feminines Wort **-u** nimmt: *Nemam žlicu.*
+infokratko: Benennungsformen. Denk *Ne jedem …*; *Nemam žlicu*.
+opis: Die Küche schließt. Ein Bild erscheint – tippe auf den Ballon mit seinem Wort, bevor er davonschwebt.
+- palačinke | Pfannkuchen
+- kupus | Kohl
 - džem | Marmelade
-- grožđe | grapes
+- grožđe | Weintrauben
 - riba | Fisch
-- juha | soup
-- luk | onion
-- mlijeko | milk
-- tanjur | plate
-- žlica | spoon
-- nož | knife
-- čaša | glass
+- juha | Suppe
+- luk | Zwiebel
+- mlijeko | Milch
+- tanjur | Teller
+- žlica | Löffel
+- nož | Messer
+- čaša | Glas

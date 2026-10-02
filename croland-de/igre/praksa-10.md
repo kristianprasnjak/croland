@@ -1,27 +1,27 @@
-# Reading: Last Weekend
+# Lesen: Letztes Wochenende
 cjelina: Practice 10
 
-## Text 1: Yesterday
+## Text 1: Gestern
 format: tekst
-info: A read-along text with the English beside each line. Every sentence is built the same way — a participle plus a form of *biti* — so read it twice: once for the story, once to see where the helper sits. It never opens a sentence.
-infokratko: Participle + *biti* in every sentence. The helper never comes first.
-opis: One Saturday, told from beginning to end. Tap **EN** next to any sentence to see its translation.
-- Passive words: *zvao* (called), *Idemo!* (let's go!), *gdje* (where), *na moru* (at the seaside), *sve* (everything), *za* (for).
-- Jučer je bila subota. | Yesterday was Saturday.
-- Spavao sam dugo. | I slept for a long time.
-- Poslije sam pio kavu i jeo sam kruh. | Afterwards I drank coffee and ate bread.
-- Moj prijatelj je zvao: "Idemo u kino!" | My friend called: "Let's go to the cinema!"
-- Išli smo u kino i gledali smo film. | We went to the cinema and watched a film.
-- Film je bio dug, ali je bio odličan. | The film was long, but it was excellent.
-- Poslije smo jeli pizzu i pričali smo cijeli sat. | Afterwards we ate pizza and talked for a whole hour.
-- Navečer sam čitao knjigu i slušao sam glazbu. | In the evening I read a book and listened to music.
-- Nisam radio jer je bila subota. | I didn't work because it was Saturday.
-- Bio je to dobar dan. | It was a good day.
+info: Ein Mitlesetext mit dem Deutschen neben jeder Zeile. Jeder Satz ist gleich gebaut – ein Partizip plus eine Form von *biti* –, also lies ihn zweimal: einmal für die Geschichte, einmal, um zu sehen, wo das Hilfswort sitzt. Es eröffnet nie einen Satz.
+infokratko: Partizip + *biti* in jedem Satz. Das Hilfswort kommt nie zuerst.
+opis: Ein Samstag, von Anfang bis Ende erzählt. Tippe neben einem Satz auf **DE**, um seine Übersetzung zu sehen.
+- Passive Wörter: *zvao* (rief an), *Idemo!* (los geht's!), *gdje* (wo), *na moru* (am Meer), *sve* (alles), *za* (für).
+- Jučer je bila subota. | Gestern war Samstag.
+- Spavao sam dugo. | Ich habe lange geschlafen.
+- Poslije sam pio kavu i jeo sam kruh. | Danach habe ich Kaffee getrunken und Brot gegessen.
+- Moj prijatelj je zvao: "Idemo u kino!" | Mein Freund hat angerufen: „Gehen wir ins Kino!“
+- Išli smo u kino i gledali smo film. | Wir sind ins Kino gegangen und haben einen Film geschaut.
+- Film je bio dug, ali je bio odličan. | Der Film war lang, aber er war ausgezeichnet.
+- Poslije smo jeli pizzu i pričali smo cijeli sat. | Danach haben wir Pizza gegessen und eine ganze Stunde geplaudert.
+- Navečer sam čitao knjigu i slušao sam glazbu. | Abends habe ich ein Buch gelesen und Musik gehört.
+- Nisam radio jer je bila subota. | Ich habe nicht gearbeitet, weil Samstag war.
+- Bio je to dobar dan. | Das war ein guter Tag.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension questions in Croatian on the text above. The participle tells you who did what before you translate anything, and *Zašto…?* questions are answered by the half that follows *jer*.
-infokratko: The participle shows who. *Zašto?* → the *jer* part.
+info: Verständnisfragen auf Kroatisch zum Text oben. Das Partizip sagt dir, wer was getan hat, bevor du irgendetwas übersetzt, und *Zašto …?*-Fragen werden mit der Hälfte nach *jer* beantwortet.
+infokratko: Das Partizip zeigt, wer. *Zašto?* → der *jer*-Teil.
 opis: Antworte aus dem Text.
 tekst: Jučer je bila subota. Spavao sam dugo. Poslije sam pio kavu i jeo sam kruh. Moj prijatelj je zvao: "Idemo u kino!" Išli smo u kino i gledali smo film. Film je bio dug, ali je bio odličan. Poslije smo jeli pizzu i pričali smo cijeli sat. Navečer sam čitao knjigu i slušao sam glazbu. Nisam radio jer je bila subota.
 - Koji je dan bio jučer? | subota | nedjelja | petak
@@ -31,11 +31,11 @@ tekst: Jučer je bila subota. Spavao sam dugo. Poslije sam pio kavu i jeo sam kr
 - Što su jeli poslije kina? | pizzu | kruh | sladoled
 - Zašto nije radio? | jer je bila subota | jer je bio umoran | jer je gledao film
 
-## Type the past form
+## Tippe die Vergangenheitsform
 format: upis
-info: Copy the past form back into the sentence. The helper comes from the person and the participle from the gender, so *Ja* takes *sam* plus **-o** or **-la**, while *mi* takes *smo* plus **-li**.
+info: Übertrag die Vergangenheitsform zurück in den Satz. Das Hilfswort kommt von der Person und das Partizip vom Genus, also nimmt *Ja* *sam* plus **-o** oder **-la**, während *mi* *smo* plus **-li** nimmt.
 infokratko: *Ja* → *sam* + **-o/-la**; *mi* → *smo* + **-li**.
-opis: The text is right above you — fill in the past form.
+opis: Der Text steht direkt über dir – ergänze die Vergangenheitsform.
 tekst: Spavao sam dugo. Poslije sam pio kavu. Išli smo u kino i gledali smo film. Film je bio dug. Poslije smo jeli pizzu i pričali smo cijeli sat. Navečer sam čitao knjigu. Nisam radio jer je bila subota.
 - ___ sam dugo. (spavati, m.) | Spavao
 - Poslije sam ___ kavu. (piti, m.) | pio
@@ -46,28 +46,28 @@ tekst: Spavao sam dugo. Poslije sam pio kavu. Išli smo u kino i gledali smo fil
 - Navečer sam ___ knjigu. (čitati, m.) | čitao
 - ___ sam radio jer je bila subota. (negacija) | Nisam
 
-## Text 2: How was it?
+## Text 2: Wie war's?
 format: tekst
-info: A conversation between two friends, and the participle in every line shows who is speaking. *Bio sam* and *Plivao sam* come from a man, *Učila sam* and *Znala sam* from a woman — the ending alone carries that, with no other word in the sentence to help.
-infokratko: The ending shows who speaks: *Bio sam* (he), *Učila sam* (she).
-opis: Two friends compare their Saturdays. Tap **EN** to see any line in English.
-- Passive words: *na moru* (at the seaside), *Je li bilo…?* (was it…?), *Jesi li…?* (did you…?), *sve* (everything), *I?* (and so?).
-- — Bok! Gdje si bio jučer? | — Hi! Where were you yesterday?
-- — Bio sam na moru. | — I was at the seaside.
-- — Super! Što si radio? | — Great! What did you do?
-- — Plivao sam i čitao sam knjigu. | — I swam and read a book.
-- — Je li voda bila topla? | — Was the water warm?
-- — Da, voda je bila savršena. A ti? Što si ti radila? | — Yes, the water was perfect. And you? What did you do?
-- — Učila sam cijeli dan. Imala sam ispit danas. | — I studied all day. I had an exam today.
-- — I? Kako je bilo? | — And? How was it?
-- — Odlično! Sve sam znala! | — Excellent! I knew everything!
-- — Bravo! Onda smo oboje imali dobar dan. | — Well done! Then we both had a good day.
+info: Ein Gespräch zwischen zwei Freunden, und das Partizip in jeder Zeile zeigt, wer spricht. *Bio sam* und *Plivao sam* kommen von einem Mann, *Učila sam* und *Znala sam* von einer Frau – allein die Endung trägt das, kein anderes Wort im Satz hilft.
+infokratko: Die Endung zeigt, wer spricht: *Bio sam* (er), *Učila sam* (sie).
+opis: Zwei Freunde vergleichen ihre Samstage. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *na moru* (am Meer), *Je li bilo …?* (war es …?), *Jesi li …?* (hast du …?), *sve* (alles), *I?* (und?).
+- — Bok! Gdje si bio jučer? | — Hallo! Wo warst du gestern?
+- — Bio sam na moru. | — Ich war am Meer.
+- — Super! Što si radio? | — Super! Was hast du gemacht?
+- — Plivao sam i čitao sam knjigu. | — Ich bin geschwommen und habe ein Buch gelesen.
+- — Je li voda bila topla? | — War das Wasser warm?
+- — Da, voda je bila savršena. A ti? Što si ti radila? | — Ja, das Wasser war perfekt. Und du? Was hast du gemacht?
+- — Učila sam cijeli dan. Imala sam ispit danas. | — Ich habe den ganzen Tag gelernt. Ich hatte heute eine Prüfung.
+- — I? Kako je bilo? | — Und? Wie war's?
+- — Odlično! Sve sam znala! | — Ausgezeichnet! Ich wusste alles!
+- — Bravo! Onda smo oboje imali dobar dan. | — Bravo! Dann hatten wir beide einen guten Tag.
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against the dialogue, and watch who says what. The **-o** lines belong to the man and the **-la** lines to the woman, so a claim that swaps them is false even when every word in it appears in the text.
-infokratko: **-o** lines are his, **-la** lines hers.
-opis: Tap true or false — careful who says what.
+info: Prüfe jede Aussage am Dialog und achte darauf, wer was sagt. Die **-o**-Zeilen gehören dem Mann und die **-la**-Zeilen der Frau, also ist eine Behauptung, die sie vertauscht, falsch, auch wenn jedes Wort darin im Text vorkommt.
+infokratko: **-o**-Zeilen sind seine, **-la**-Zeilen ihre.
+opis: Tippe auf richtig oder falsch – pass auf, wer was sagt.
 tekst: — Gdje si bio jučer? — Bio sam na moru. — Što si radio? — Plivao sam i čitao sam knjigu. — Je li voda bila topla? — Da, voda je bila savršena. — Učila sam cijeli dan. Imala sam ispit danas. — Odlično! Sve sam znala!
 - On je bio na moru. | RICHTIG | FALSCH
 - Voda je bila hladna. | FALSCH | RICHTIG
@@ -76,11 +76,11 @@ tekst: — Gdje si bio jučer? — Bio sam na moru. — Što si radio? — Pliva
 - Ona je imala ispit. | RICHTIG | FALSCH
 - Ona nije znala odgovore. | FALSCH | RICHTIG
 
-## He or she?
+## Er oder sie?
 format: izbor
-info: One ending decides each answer. A sentence with **-o** comes from a man, one with **-la** from a woman, and one with **-li** from a group — the pronoun *ja* would tell you nothing, which is exactly why Croatian puts it in the verb.
-infokratko: **-o** man, **-la** woman, **-li** group.
-opis: Who is speaking? The participle is the only clue.
+info: Eine Endung entscheidet jede Antwort. Ein Satz mit **-o** kommt von einem Mann, einer mit **-la** von einer Frau und einer mit **-li** von einer Gruppe – das Pronomen *ja* würde dir nichts sagen, und genau deshalb steckt das Kroatische es ins Verb.
+infokratko: **-o** Mann, **-la** Frau, **-li** Gruppe.
+opis: Wer spricht? Das Partizip ist der einzige Hinweis.
 - "Plivao sam." — govori... | muškarac | žena
 - "Učila sam cijeli dan." — govori... | žena | muškarac
 - "Sve sam znala!" — govori... | žena | muškarac
@@ -92,9 +92,9 @@ opis: Who is speaking? The participle is the only clue.
 
 ## Bring den Dialog in Ordnung
 format: poredak
-info: Put the conversation back into sequence. Each line answers the one before it: the question about where comes before the question about what, and *Kako je bilo?* can only follow the mention of the exam.
-infokratko: Each line answers the one before.
-opis: The conversation got shuffled. Put the lines back into the right order.
+info: Bring das Gespräch wieder in die Reihenfolge. Jede Zeile antwortet auf die vorige: Die Frage nach dem Wo kommt vor der Frage nach dem Was, und *Kako je bilo?* kann erst nach der Erwähnung der Prüfung kommen.
+infokratko: Jede Zeile antwortet auf die vorige.
+opis: Das Gespräch ist durcheinandergeraten. Bring die Zeilen wieder in die richtige Reihenfolge.
 - — Bok! Gdje si bio jučer?
 - — Bio sam na moru.
 - — Super! Što si radio?
@@ -105,25 +105,25 @@ opis: The conversation got shuffled. Put the lines back into the right order.
 - — I? Kako je bilo?
 - — Odlično! Sve sam znala!
 
-## Text 3: Last weekend
+## Text 3: Letztes Wochenende
 format: tekst
-info: A whole weekend in seven sentences, with a different subject in almost every one. Watch the helper change with the person — *smo* for us, *je* for one person, *su* for two — while the participle changes with gender.
-infokratko: Helper by person (*smo, je, su*), participle by gender.
-opis: Friday, Saturday and Sunday, in one page. Tap **EN** to see any line in English.
-- Passive words: *na koncertu* (at the concert), *za cijelu obitelj* (for the whole family), *svi* (everyone).
-- Prošli vikend je bio super. | Last weekend was great.
-- U petak smo gledali utakmicu — naš klub je pobijedio! | On Friday we watched a match — our club won!
-- U subotu sam igrao tenis, a moja sestra je pjevala na koncertu. | On Saturday I played tennis, while my sister sang at a concert.
-- Mama i tata su kuhali ručak za cijelu obitelj. | Mom and dad cooked lunch for the whole family.
-- U nedjelju smo svi spavali, čitali i gledali smo stari film. | On Sunday we all slept, read and watched an old film.
-- Baka je došla u nedjelju navečer i donijela je kolač. | Grandma came on Sunday evening and brought a cake.
-- Vikend je bio kratak, ali smo bili sretni. | The weekend was short, but we were happy.
+info: Ein ganzes Wochenende in sieben Sätzen, mit einem anderen Subjekt in fast jedem. Sieh zu, wie sich das Hilfswort mit der Person ändert – *smo* für uns, *je* für eine Person, *su* für zwei –, während sich das Partizip mit dem Genus ändert.
+infokratko: Hilfswort nach Person (*smo, je, su*), Partizip nach Genus.
+opis: Freitag, Samstag und Sonntag auf einer Seite. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *na koncertu* (beim Konzert), *za cijelu obitelj* (für die ganze Familie), *svi* (alle).
+- Prošli vikend je bio super. | Letztes Wochenende war super.
+- U petak smo gledali utakmicu — naš klub je pobijedio! | Am Freitag haben wir ein Spiel geschaut – unser Verein hat gewonnen!
+- U subotu sam igrao tenis, a moja sestra je pjevala na koncertu. | Am Samstag habe ich Tennis gespielt, während meine Schwester bei einem Konzert gesungen hat.
+- Mama i tata su kuhali ručak za cijelu obitelj. | Mama und Papa haben Mittagessen für die ganze Familie gekocht.
+- U nedjelju smo svi spavali, čitali i gledali smo stari film. | Am Sonntag haben wir alle geschlafen, gelesen und einen alten Film geschaut.
+- Baka je došla u nedjelju navečer i donijela je kolač. | Oma ist am Sonntagabend gekommen und hat einen Kuchen mitgebracht.
+- Vikend je bio kratak, ali smo bili sretni. | Das Wochenende war kurz, aber wir waren glücklich.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on the weekend text. Most answers are a participle plus its helper, so read the pair together: *sestra je pjevala* is one person, *mama i tata su kuhali* is two.
-infokratko: Read the pair: *sestra je pjevala*, *mama i tata su kuhali*.
-opis: Answer from the text. Passive words: *donijela* (brought), *kolač* (cake).
+info: Verständnis zum Wochenendtext. Die meisten Antworten sind ein Partizip plus sein Hilfswort, also lies das Paar zusammen: *sestra je pjevala* ist eine Person, *mama i tata su kuhali* sind zwei.
+infokratko: Lies das Paar: *sestra je pjevala*, *mama i tata su kuhali*.
+opis: Antworte aus dem Text. Passive Wörter: *donijela* (brachte mit), *kolač* (Kuchen).
 tekst: Prošli vikend je bio super. U petak smo gledali utakmicu — naš klub je pobijedio! U subotu sam igrao tenis, a moja sestra je pjevala na koncertu. Mama i tata su kuhali ručak za cijelu obitelj. U nedjelju smo svi spavali, čitali i gledali smo stari film. Baka je došla u nedjelju navečer i donijela je kolač. Vikend je bio kratak, ali smo bili sretni.
 - Tko je pobijedio? | naš klub | njihov klub | nitko
 - Što je sestra radila u subotu? | pjevala na koncertu | igrala tenis | kuhala ručak
@@ -132,25 +132,25 @@ tekst: Prošli vikend je bio super. U petak smo gledali utakmicu — naš klub j
 - Kada je došla baka? | u nedjelju navečer | u petak | u subotu ujutro
 - Kakav je bio vikend? | kratak, ali sretan | dug i dosadan | hladan
 
-## Text 4: Four friends, one Saturday
+## Text 4: Vier Freunde, ein Samstag
 format: tekst
-info: A puzzle rather than a story. Nobody says outright who did what, so read all of it before you answer. The negatives carry most of the information: what a person did **not** do is what tells you who did the rest.
-infokratko: Read it all first; the negatives carry the clues.
-opis: Four people, four Saturdays, and no names attached to them. Read it twice.
-- Passive words: *nitko* (nobody), *ali* you already know, *zato* (that is why), *osim* (except).
-- Ana, Marko, Iva i Luka su imali slobodnu subotu. | Ana, Marko, Iva and Luka had a free Saturday.
-- Ana nije gledala film jer ne voli kino. | Ana didn't watch a film because she doesn't like the cinema.
-- Marko je bio na moru i plivao je cijeli dan. | Marko was at the seaside and swam all day.
-- Iva ima ispit u ponedjeljak, zato je učila. | Iva has an exam on Monday, that is why she studied.
-- Luka nije bio doma — išao je na utakmicu. | Luka wasn't at home — he went to a match.
-- Jedna osoba je gledala film navečer. | One person watched a film in the evening.
-- Ta osoba nije bila Ana, nije bila Iva i nije bio Luka. | That person was not Ana, not Iva and not Luka.
+info: Ein Rätsel statt einer Geschichte. Niemand sagt ausdrücklich, wer was getan hat, also lies alles, bevor du antwortest. Die Verneinungen tragen die meiste Information: Was eine Person **nicht** getan hat, verrät dir, wer den Rest getan hat.
+infokratko: Lies erst alles; die Verneinungen tragen die Hinweise.
+opis: Vier Menschen, vier Samstage, und keine Namen daran. Lies es zweimal.
+- Passive Wörter: *nitko* (niemand), *ali* kennst du schon, *zato* (deshalb), *osim* (außer).
+- Ana, Marko, Iva i Luka su imali slobodnu subotu. | Ana, Marko, Iva und Luka hatten einen freien Samstag.
+- Ana nije gledala film jer ne voli kino. | Ana hat keinen Film geschaut, weil sie das Kino nicht mag.
+- Marko je bio na moru i plivao je cijeli dan. | Marko war am Meer und ist den ganzen Tag geschwommen.
+- Iva ima ispit u ponedjeljak, zato je učila. | Iva hat am Montag eine Prüfung, deshalb hat sie gelernt.
+- Luka nije bio doma — išao je na utakmicu. | Luka war nicht zu Hause – er ist zu einem Spiel gegangen.
+- Jedna osoba je gledala film navečer. | Eine Person hat abends einen Film geschaut.
+- Ta osoba nije bila Ana, nije bila Iva i nije bio Luka. | Diese Person war nicht Ana, nicht Iva und nicht Luka.
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the negatives. Three lines say who the film-watcher was not, and the fourth person is the answer — although he also spent the day at the seaside, which is the point of the puzzle.
-infokratko: From the negatives: who didn't watch the film.
-opis: Nobody says who did what. Work it out from the text.
+info: Schlussfolgern aus den Verneinungen. Drei Zeilen sagen, wer der Filmschauer nicht war, und die vierte Person ist die Antwort – obwohl er den Tag auch am Meer verbracht hat, und genau das ist der Witz des Rätsels.
+infokratko: Aus den Verneinungen: wer den Film nicht geschaut hat.
+opis: Niemand sagt, wer was getan hat. Finde es aus dem Text heraus.
 tekst: Ana, Marko, Iva i Luka su imali slobodnu subotu. Ana nije gledala film jer ne voli kino. Marko je bio na moru i plivao je cijeli dan. Iva ima ispit u ponedjeljak, zato je učila. Luka nije bio doma — išao je na utakmicu. Jedna osoba je gledala film navečer. Ta osoba nije bila Ana, nije bila Iva i nije bio Luka.
 - Tko je gledao film? | Marko | Ana | Iva
 - Tko je bio na moru? | Marko | Luka | Iva
@@ -159,34 +159,34 @@ tekst: Ana, Marko, Iva i Luka su imali slobodnu subotu. Ana nije gledala film je
 - Zašto Ana nije gledala film? | jer ne voli kino | jer je učila | jer je bila na moru
 - Tko nije bio doma? | Luka | Iva | Ana
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
-info: One tap per sentence, and almost every sentence comes from the four texts. Find the subject first: a man or *Marko* takes **-o**, a woman or *Ana* takes **-la**, a group takes **-li**, and a neuter subject takes **-lo**.
-infokratko: Man **-o**, woman **-la**, group **-li**, neuter **-lo**.
+info: Ein Tipp pro Satz, und fast jeder Satz stammt aus den vier Texten. Finde zuerst das Subjekt: Ein Mann oder *Marko* nimmt **-o**, eine Frau oder *Ana* **-la**, eine Gruppe **-li**, und ein neutrales Subjekt **-lo**.
+infokratko: Mann **-o**, Frau **-la**, Gruppe **-li**, neutral **-lo**.
 nastavci: o | la | li | lo
-opis: Almost every sentence came out of the four texts. One tap completes the participle.
-- Spava___ sam dugo. (kaže muškarac) | I slept for a long time. | o
-- Poslije sam pi___ kavu. (kaže muškarac) | Afterwards I drank coffee. | o
-- Iš___ smo u kino. | We went to the cinema. | li
-- Gleda___ smo film. | We watched a film. | li
-- Film je bi___ odličan. | The film was excellent. | o
-- Voda je bi___ savršena. | The water was perfect. | la
-- Sve je bi___ savršeno. | Everything was perfect. | lo
-- Uči___ sam cijeli dan. (kaže žena) | I studied all day. | la
-- Ima___ sam ispit. (kaže žena) | I had an exam. | la
-- Sestra je pjeva___ na koncertu. | My sister sang at the concert. | la
-- Mama i tata su kuha___ ručak. | Mom and dad cooked lunch. | li
-- Baka je doš___ u nedjelju. | Grandma came on Sunday. | la
-- Naš klub je pobijedi___ . | Our club won. | o
-- Vikend je bi___ kratak. | The weekend was short. | o
-- Marko je pliva___ cijeli dan. | Marko swam all day. | o
-- Ana nije gleda___ film. | Ana didn't watch a film. | la
+opis: Fast jeder Satz stammt aus den vier Texten. Ein Tipp vollendet das Partizip.
+- Spava___ sam dugo. (kaže muškarac) | Ich habe lange geschlafen. | o
+- Poslije sam pi___ kavu. (kaže muškarac) | Danach habe ich Kaffee getrunken. | o
+- Iš___ smo u kino. | Wir sind ins Kino gegangen. | li
+- Gleda___ smo film. | Wir haben einen Film geschaut. | li
+- Film je bi___ odličan. | Der Film war ausgezeichnet. | o
+- Voda je bi___ savršena. | Das Wasser war perfekt. | la
+- Sve je bi___ savršeno. | Alles war perfekt. | lo
+- Uči___ sam cijeli dan. (kaže žena) | Ich habe den ganzen Tag gelernt. | la
+- Ima___ sam ispit. (kaže žena) | Ich hatte eine Prüfung. | la
+- Sestra je pjeva___ na koncertu. | Meine Schwester hat beim Konzert gesungen. | la
+- Mama i tata su kuha___ ručak. | Mama und Papa haben Mittagessen gekocht. | li
+- Baka je doš___ u nedjelju. | Oma ist am Sonntag gekommen. | la
+- Naš klub je pobijedi___ . | Unser Verein hat gewonnen. | o
+- Vikend je bi___ kratak. | Das Wochenende war kurz. | o
+- Marko je pliva___ cijeli dan. | Marko ist den ganzen Tag geschwommen. | o
+- Ana nije gleda___ film. | Ana hat keinen Film geschaut. | la
 
-## Now or yesterday?
+## Jetzt oder gestern?
 format: razvrstavanje
-info: Sorting sentences by tense. A verb with a personal ending is the present; a participle with *sam*, *je* or *smo* beside it is the past. The negative works the same way — *ne voli* is now, *nije gledala* is yesterday.
-infokratko: Personal ending = now; participle + helper = past. *ne voli* / *nije gledala*.
-opis: Sort the sentences by when they happen.
+info: Sätze nach Zeitform sortieren. Ein Verb mit Personalendung ist Präsens; ein Partizip mit *sam*, *je* oder *smo* daneben ist Vergangenheit. Die Verneinung funktioniert genauso – *ne voli* ist jetzt, *nije gledala* ist gestern.
+infokratko: Personalendung = jetzt; Partizip + Hilfswort = Vergangenheit. *ne voli* / *nije gledala*.
+opis: Sortiere die Sätze danach, wann sie passieren.
 stupci: SADA | JUČER
 - Spavao sam dugo. | JUČER
 - Ana ne voli kino. | SADA
@@ -203,11 +203,11 @@ stupci: SADA | JUČER
 - Ana nije gledala film. | JUČER
 - Baka kuha ručak. | SADA
 
-## So how was your Saturday?
+## Und, wie war dein Samstag?
 format: dijalog
-info: A conversation about your own weekend, so every reply is in the past. Petra speaks to you as *ti*; answer with *sam* and a participle in your own gender — the first option is the man's form, the second the woman's, and both are correct.
-infokratko: Answer with *sam* + participle in your gender.
-opis: Petra wants to hear about your Saturday. Choose your replies — pick the form that matches you. Passive words: *na moru* (at the seaside), *baš* (really), *dogovoreno* (agreed).
+info: Ein Gespräch über dein eigenes Wochenende, also steht jede Antwort in der Vergangenheit. Petra duzt dich; antworte mit *sam* und einem Partizip in deinem eigenen Genus – die erste Option ist die männliche Form, die zweite die weibliche, und beide sind richtig.
+infokratko: Antworte mit *sam* + Partizip in deinem Genus.
+opis: Petra will von deinem Samstag hören. Wähle deine Antworten – nimm die Form, die zu dir passt. Passive Wörter: *na moru* (am Meer), *baš* (wirklich), *dogovoreno* (abgemacht).
 - npc | Bok! Kako je bilo u subotu?
 - ti | Bilo je super. Bio sam na moru. | Bilo je super. Bila sam na moru.
 - npc | Baš lijepo! Je li more bilo toplo?
@@ -221,11 +221,11 @@ opis: Petra wants to hear about your Saturday. Choose your replies — pick the 
 - npc | Ha! Onda smo oboje imali dobar vikend.
 - ti | Jesmo. Vidimo se! | Dogovoreno, sljedeći put idemo zajedno!
 
-## A Saturday, in order
+## Ein Samstag, der Reihe nach
 format: poredak
-info: Sequence seven moments of one day. No times are given, so follow the sense: getting up comes before the coffee, the cinema before the pizza, and the book at the end of the evening.
-infokratko: Order by sense: up, coffee, cinema, pizza, book.
-opis: Seven moments from the Saturday in Text 1, shuffled. Put them in the order they happened.
+info: Ordne sieben Momente eines Tages. Uhrzeiten gibt es keine, also folge dem Sinn: Aufstehen kommt vor dem Kaffee, das Kino vor der Pizza, und das Buch am Ende des Abends.
+infokratko: Ordne nach Sinn: aufstehen, Kaffee, Kino, Pizza, Buch.
+opis: Sieben Momente aus dem Samstag in Text 1, durcheinandergewürfelt. Bring sie in die Reihenfolge, in der sie passiert sind.
 - Ustao sam kasno jer je bila subota.
 - Pio sam kavu i jeo sam kruh.
 - Prijatelj je zvao.
@@ -236,33 +236,33 @@ opis: Seven moments from the Saturday in Text 1, shuffled. Put them in the order
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the four texts. The helper can never be the first tile, and where two halves are joined by *a* or *ali* each half keeps its own helper.
-infokratko: Helper never first; each half keeps its own.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
-- Jučer je bila subota. | en: Yesterday was Saturday.
-- Spavao sam dugo. | en: I slept for a long time.
-- Išli smo u kino. | en: We went to the cinema.
-- Film je bio dug, ali je bio odličan. | en: The film was long, but it was excellent.
-- Poslije smo jeli pizzu. | en: Afterwards we ate pizza.
-- Nisam radio jer je bila subota. | en: I didn't work because it was Saturday.
-- Bio sam na moru. | en: I was at the seaside.
-- Voda je bila savršena. | en: The water was perfect.
-- Učila sam cijeli dan. | en: I studied all day.
-- Sve sam znala! | en: I knew everything!
-- Naš klub je pobijedio! | en: Our club won!
-- U subotu sam igrao tenis. | en: On Saturday I played tennis.
-- Sestra je pjevala na koncertu. | en: My sister sang at the concert.
-- Mama i tata su kuhali ručak. | en: Mom and dad cooked lunch.
-- Baka je došla u nedjelju. | en: Grandma came on Sunday.
-- Vikend je bio kratak, ali smo bili sretni. | en: The weekend was short, but we were happy.
-- Ana nije gledala film. | en: Ana didn't watch a film.
-- Bilo je savršeno. | en: It was perfect.
+info: Deutsch rein, Kroatisch raus, gebaut aus Kärtchen aus den vier Texten. Das Hilfswort kann nie das erste Kärtchen sein, und wo zwei Hälften mit *a* oder *ali* verbunden sind, behält jede Hälfte ihr eigenes Hilfswort.
+infokratko: Hilfswort nie zuerst; jede Hälfte behält ihr eigenes.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den vier Texten.
+- Jučer je bila subota. | en: Gestern war Samstag.
+- Spavao sam dugo. | en: Ich habe lange geschlafen.
+- Išli smo u kino. | en: Wir sind ins Kino gegangen.
+- Film je bio dug, ali je bio odličan. | en: Der Film war lang, aber er war ausgezeichnet.
+- Poslije smo jeli pizzu. | en: Danach haben wir Pizza gegessen.
+- Nisam radio jer je bila subota. | en: Ich habe nicht gearbeitet, weil Samstag war.
+- Bio sam na moru. | en: Ich war am Meer.
+- Voda je bila savršena. | en: Das Wasser war perfekt.
+- Učila sam cijeli dan. | en: Ich habe den ganzen Tag gelernt.
+- Sve sam znala! | en: Ich wusste alles!
+- Naš klub je pobijedio! | en: Unser Verein hat gewonnen!
+- U subotu sam igrao tenis. | en: Am Samstag habe ich Tennis gespielt.
+- Sestra je pjevala na koncertu. | en: Meine Schwester hat beim Konzert gesungen.
+- Mama i tata su kuhali ručak. | en: Mama und Papa haben Mittagessen gekocht.
+- Baka je došla u nedjelju. | en: Oma ist am Sonntag gekommen.
+- Vikend je bio kratak, ali smo bili sretni. | en: Das Wochenende war kurz, aber wir waren glücklich.
+- Ana nije gledala film. | en: Ana hat keinen Film geschaut.
+- Bilo je savršeno. | en: Es war perfekt.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over the things that turned up in the four texts. Everything is in its naming form; for extra value, say *Gledao sam…* or *Jeo sam…* in your head as you tap.
-infokratko: Naming forms. Think *Gledao sam...* as you tap.
-opis: The weekend is over. A picture appears — tap the balloon with its word before it floats away.
+info: Ein Bild-Wort-Tippen auf Zeit über die Dinge aus den vier Texten. Alles steht in der Benennungsform; als Extra sag beim Tippen im Kopf *Gledao sam …* oder *Jeo sam …*.
+infokratko: Benennungsformen. Denk beim Tippen *Gledao sam …*.
+opis: Das Wochenende ist vorbei. Ein Bild erscheint – tippe auf den Ballon mit seinem Wort, bevor er davonschwebt.
 - kino | Kino
 - film | Film
 - koncert | Konzert
@@ -271,7 +271,7 @@ opis: The weekend is over. A picture appears — tap the balloon with its word b
 - kava | Kaffee
 - kruh | Brot
 - sladoled | Eis
-- lopta | ball
+- lopta | Ball
 - gitara | Gitarre
 - sunce | Sonne
 - pas | Hund

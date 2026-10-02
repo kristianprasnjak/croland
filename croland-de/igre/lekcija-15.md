@@ -1,22 +1,22 @@
-# Going Out: The Instrumental
+# Ausgehen: Der Instrumental
 cjelina: Lesson 15
 
-## Friday night!
+## Freitagabend!
 format: tekst
-info: A short read to open the lesson. Today's case, the instrumental, answers two questions: *with whom?* and *by what?* Company takes *s* or *sa* in front (*s Markom*), while the vehicle you travel in stands alone (*vlakom*). It is the last case of Module C.
-infokratko: The instrumental: *s Markom* (with Marko), *vlakom* (by train). Last case of Module C.
-opis: Read it through — by the end you can plan a whole Friday night.
-- Friday night! You're going out — but *with whom*, and *how* are you getting there?
-- *S Markom* (with Marko), *sa sestrom* (with my sister), *vlakom* (by train), *kava s mlijekom* (coffee with milk)... Today's case is the instrumental — the case of company and means, and the last case of this module.
-- **One ending, two jobs.** With *s* or *sa* in front, the instrumental says who is with you: *Idem u kino **s Markom**.* With nothing in front, it says how you travel: *Idem **vlakom**.*
-- By the end of this lesson you can say who you go out with, how you get there, and ask *S kim ideš?* — who are you going with?
+info: Ein kurzer Text zum Einstieg. Der Fall von heute, der Instrumental, antwortet auf zwei Fragen: *mit wem?* und *womit?* Begleitung bekommt *s* oder *sa* davor (*s Markom*), das Verkehrsmittel, mit dem du fährst, steht dagegen allein (*vlakom*). Im Deutschen sagst du in beiden Fällen *mit* – im Kroatischen nicht. Es ist der letzte Fall von Modul C.
+infokratko: Der Instrumental: *s Markom* (mit Marko), *vlakom* (mit dem Zug). Letzter Fall von Modul C.
+opis: Lies es durch – am Ende kannst du einen ganzen Freitagabend planen.
+- Freitagabend! Du gehst aus – aber *mit wem*, und *wie* kommst du hin?
+- *S Markom* (mit Marko), *sa sestrom* (mit meiner Schwester), *vlakom* (mit dem Zug), *kava s mlijekom* (Kaffee mit Milch) ... Der Fall von heute ist der Instrumental – der Fall der Begleitung und des Mittels und der letzte Fall dieses Moduls.
+- **Eine Endung, zwei Aufgaben.** Mit *s* oder *sa* davor sagt der Instrumental, wer bei dir ist: *Idem u kino **s Markom**.* Ohne etwas davor sagt er, womit du fährst: *Idem **vlakom**.*
+- Am Ende dieser Lektion kannst du sagen, mit wem du ausgehst, wie du hinkommst, und fragen: *S kim ideš?* – mit wem gehst du?
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on the dative from Lesson 14. The person who receives something turns **-a** into **-i** (*mami, tati*), and a consonant or **-o** takes **-u** (*bratu, Marku*). *Pas* drops its *a*: *psu*. *Komu?* asks about the receiver.
-infokratko: Lesson 14 against the clock: **-a → -i**, consonant or **-o** → **-u**. *pas → psu*, *Komu?*
+info: Ein zeitgebundenes Aufwärmen zum Dativ aus Lektion 14. Wer etwas bekommt, macht aus **-a** ein **-i** (*mami, tati*), und ein Konsonant oder **-o** bekommt **-u** (*bratu, Marku*). *Pas* verliert sein *a*: *psu*. *Komu?* fragt nach dem Empfänger.
+infokratko: Lektion 14 gegen die Uhr: **-a → -i**, Konsonant oder **-o** → **-u**. *pas → psu*, *Komu?*
 trajanje: 60
-opis: Dative sprint from Lesson 14 — tap the receiver's form before the timer runs out.
+opis: Dativ-Sprint aus Lektion 14 – tippe die Empfängerform, bevor die Zeit abläuft.
 - mama | mami
 - brat | bratu
 - sestra | sestri
@@ -30,76 +30,76 @@ opis: Dative sprint from Lesson 14 — tap the receiver's form before the timer 
 - Nosim novine ___ . (susjed) | susjedu
 - ___ pišeš? — Baki. | Komu
 
-## Words for a night out
+## Wörter für einen Abend in der Stadt
 format: kartice
-info: The places, drinks and verbs for going out. Most are from earlier levels — *kino, koncert, kafić, šećer* — and come back because today they take the instrumental. New are *izlazak*, *večera* (dinner), *prijevoz* (transport) and *izlaziti*. *S kim?* asks who you are going with.
-infokratko: Places, drinks and verbs for going out. New: *izlazak, večera, prijevoz, izlaziti*. *S kim?* = with whom?
-opis: Where you go, what you drink there and what you do. Tap a card to reveal the meaning.
-- izlazak | a night out
+info: Die Orte, Getränke und Verben fürs Ausgehen. Die meisten kennst du aus früheren Stufen – *kino, koncert, kafić, šećer* – und sie kommen wieder, weil sie heute im Instrumental stehen. Neu sind *izlazak*, *večera* (Abendessen), *prijevoz* (Verkehrsmittel) und *izlaziti*. *S kim?* fragt, mit wem du gehst.
+infokratko: Orte, Getränke und Verben fürs Ausgehen. Neu: *izlazak, večera, prijevoz, izlaziti*. *S kim?* = mit wem?
+opis: Wohin du gehst, was du dort trinkst und was du machst. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- izlazak | ein Abend in der Stadt, Ausgehen
 - koncert | Konzert
 - kino | Kino
-- kazalište | theatre
-- klub | club
+- kazalište | Theater
+- klub | Verein, Klub
 - kafić | Café
-- večera | dinner
-- prijevoz | transport
-- mlijeko | milk
-- šećer | sugar
-- limun | lemon
-- šalica | cup
-- izlaziti → izlazim | to go out
-- ići → idem | to go
-- putovati → putujem | to travel
+- večera | Abendessen
+- prijevoz | Verkehrsmittel, Transport
+- mlijeko | Milch
+- šećer | Zucker
+- limun | Zitrone
+- šalica | Tasse
+- izlaziti → izlazim | ausgehen
+- ići → idem | gehen
+- putovati → putujem | reisen
 - hodati → hodam | gehen, spazieren
 - večerati → večeram | zu Abend essen
 - razgovarati → razgovaram | reden, plaudern
-- plesati → plešem | to dance
+- plesati → plešem | tanzen
 - sjediti → sjedim | sitzen
-- s / sa | with
-- S kim? | With whom?
+- s / sa | mit
+- S kim? | Mit wem?
 
-## With whom? By what?
+## Mit wem? Womit?
 format: kartice
-info: Every word here is shown twice: as you name it, and in the instrumental. A consonant adds **-om** (*vlakom, s bratom*), **-a** turns into **-om** (*sa sestrom*), and a soft ending such as **-j** or **-lj** takes **-em** (*tramvajem, s prijateljem*). *Taksi* adds a *j* first: *taksijem*. People come with *s*, vehicles without it.
-infokratko: **-om** after a consonant or for **-a**; **-em** after a soft sound. People with *s*, vehicles without.
-opis: People you go out with and ways to get there, each with its instrumental form. Tap a card to reveal the meaning.
-- brat → s bratom | brother → with my brother
-- sestra → sa sestrom | sister → with my sister
-- mama → s mamom | mum → with Mum
-- tata → s tatom | dad → with Dad
-- Marko → s Markom | Marko → with Marko
-- Ana → s Anom | Ana → with Ana
-- prijatelj → s prijateljem | friend → with a friend
-- vlak → vlakom | train → by train
-- autobus → autobusom | bus → by bus
-- tramvaj → tramvajem | tram → by tram
-- auto → autom | car → by car
-- bicikl → biciklom | bicycle → by bike
-- taksi → taksijem | taxi → by taxi
-- pješice | on foot
+info: Jedes Wort steht hier zweimal: in der Grundform und im Instrumental. Ein Konsonant hängt **-om** an (*vlakom, s bratom*), **-a** wird zu **-om** (*sa sestrom*), und eine weiche Endung wie **-j** oder **-lj** bekommt **-em** (*tramvajem, s prijateljem*). *Taksi* fügt zuerst ein *j* ein: *taksijem*. Personen kommen mit *s*, Fahrzeuge ohne.
+infokratko: **-om** nach einem Konsonanten oder für **-a**; **-em** nach einem weichen Laut. Personen mit *s*, Fahrzeuge ohne.
+opis: Menschen, mit denen du ausgehst, und Wege, wie du hinkommst, jeweils mit der Instrumentalform. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- brat → s bratom | Bruder → mit meinem Bruder
+- sestra → sa sestrom | Schwester → mit meiner Schwester
+- mama → s mamom | Mama → mit Mama
+- tata → s tatom | Papa → mit Papa
+- Marko → s Markom | Marko → mit Marko
+- Ana → s Anom | Ana → mit Ana
+- prijatelj → s prijateljem | Freund → mit einem Freund
+- vlak → vlakom | Zug → mit dem Zug
+- autobus → autobusom | Bus → mit dem Bus
+- tramvaj → tramvajem | Straßenbahn → mit der Straßenbahn
+- auto → autom | Auto → mit dem Auto
+- bicikl → biciklom | Fahrrad → mit dem Fahrrad
+- taksi → taksijem | Taxi → mit dem Taxi
+- pješice | zu Fuß
 
-## The company endings
+## Die Endungen der Begleitung
 format: tekst
-info: The first rule of the lesson. With *s* in front, the person who is with you takes the instrumental: a consonant or **-o** adds **-om** (*s bratom, s Markom*), **-a** turns into **-om** (*sa sestrom*), and after a soft sound the ending is **-em** (*s prijateljem*). Before s, š, z, ž the preposition is *sa*.
-infokratko: *s* + **-om** (*s bratom, sa sestrom*); after a soft sound **-em** (*s prijateljem*). *sa* before s, š, z, ž.
+info: Die erste Regel der Lektion. Mit *s* davor steht die Person, die bei dir ist, im Instrumental: Ein Konsonant oder **-o** hängt **-om** an (*s bratom, s Markom*), **-a** wird zu **-om** (*sa sestrom*), und nach einem weichen Laut ist die Endung **-em** (*s prijateljem*). Vor s, š, z, ž heißt die Präposition *sa*.
+infokratko: *s* + **-om** (*s bratom, sa sestrom*); nach einem weichen Laut **-em** (*s prijateljem*). *sa* vor s, š, z, ž.
 infoodmah: da
-opis: One preposition, two endings. Read the table and fill in the last line.
-- **With someone = s / sa + instrumental.** The person after *s* takes a new ending: *Idem u kino **s Markom**.* — I'm going to the cinema with Marko.
-- tab: Naming form ends in | The person | With them
-- tab: consonant | brat, Ivan | s brat**om**, s Ivan**om**
+opis: Eine Präposition, zwei Endungen. Lies die Tabelle und ergänze die letzte Zeile.
+- **Mit jemandem = s / sa + Instrumental.** Die Person nach *s* bekommt eine neue Endung: *Idem u kino **s Markom**.* – Ich gehe mit Marko ins Kino.
+- tab: Grundform endet auf | Die Person | Mit ihr
+- tab: Konsonant | brat, Ivan | s brat**om**, s Ivan**om**
 - tab: -o | Marko | s Mark**om**
 - tab: -a | sestra, Ana, tata | sa sestr**om**, s An**om**, s tat**om**
-- tab: soft sound (j, lj, nj, č, ć, š, ž) | prijatelj, muž | s prijatelj**em**, s muž**em**
-- **The last sound decides.** Most words take **-om**. Only after a soft sound does the ending become **-em**: *s prijateljem, s mužem*, and in the same way *s kolačem*.
-- **Things that come along take the same form.** Milk in the coffee is company too: *kava **s mlijekom**, čaj **s limunom***. A neuter word in **-o** takes **-om** like a masculine one: *mlijeko → s mlijekom*.
-- **s or sa?** Before a word that starts with s, š, z or ž, *s* becomes *sa*: ***sa** sestrom, čaj **sa** šećerom*. Everywhere else it is *s*: *s bratom, s Anom*.
-- **Now you write them.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom].
+- tab: weicher Laut (j, lj, nj, č, ć, š, ž) | prijatelj, muž | s prijatelj**em**, s muž**em**
+- **Der letzte Laut entscheidet.** Die meisten Wörter bekommen **-om**. Nur nach einem weichen Laut wird die Endung zu **-em**: *s prijateljem, s mužem* und ebenso *s kolačem*.
+- **Dinge, die dazukommen, nehmen dieselbe Form.** Milch im Kaffee ist auch Begleitung: *kava **s mlijekom**, čaj **s limunom***. Ein Neutrum auf **-o** bekommt **-om** wie ein Maskulinum: *mlijeko → s mlijekom*.
+- **s oder sa?** Vor einem Wort, das mit s, š, z oder ž beginnt, wird *s* zu *sa*: ***sa** sestrom, čaj **sa** šećerom*. Überall sonst heißt es *s*: *s bratom, s Anom*.
+- **Jetzt schreibst du sie.** Idem u kino s [Markom]. Idem u grad sa [sestrom]. Pijem kavu s [mlijekom].
 
-## Who are you going with?
+## Mit wem gehst du?
 format: parovi
-info: Each person beside the form that follows *s*. The last letter of the naming form decides: **-a** turns into **-om** (*s Anom, s bakom*), a consonant or **-o** adds **-om** (*s Markom, s djedom*), and a soft *lj* or *ž* takes **-em** (*s prijateljem, s mužem*). *Sestra* takes *sa*, because it starts with *s*.
-infokratko: **-a → -om**, consonant or **-o** + **-om**, soft sound + **-em**. *sa sestrom*.
-opis: Match each person with the "with" form.
+info: Jede Person neben der Form, die auf *s* folgt. Der letzte Buchstabe der Grundform entscheidet: **-a** wird zu **-om** (*s Anom, s bakom*), ein Konsonant oder **-o** hängt **-om** an (*s Markom, s djedom*), und ein weiches *lj* oder *ž* bekommt **-em** (*s prijateljem, s mužem*). *Sestra* bekommt *sa*, weil es mit *s* beginnt.
+infokratko: **-a → -om**, Konsonant oder **-o** + **-om**, weicher Laut + **-em**. *sa sestrom*.
+opis: Ordne jeder Person die „mit“-Form zu.
 - Marko | s Markom
 - sestra | sa sestrom
 - brat | s bratom
@@ -113,72 +113,72 @@ opis: Match each person with the "with" form.
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap completes the instrumental. Most words take **-om**: a consonant adds it and **-a** turns into it, so *sestra* becomes *sestrom*. After a soft sound — **j, lj, nj, č, ć, š, ž** — the ending is **-em**: *prijateljem, tramvajem, kolačem*. The vehicles take the same endings, only without *s*.
-infokratko: **-om** after most sounds and for **-a**; **-em** after j, lj, nj, č, ć, š, ž: *prijateljem, tramvajem*.
+info: Ein Tippen vervollständigt den Instrumental. Die meisten Wörter bekommen **-om**: Ein Konsonant hängt es an, und **-a** wird dazu, also wird *sestra* zu *sestrom*. Nach einem weichen Laut – **j, lj, nj, č, ć, š, ž** – ist die Endung **-em**: *prijateljem, tramvajem, kolačem*. Die Fahrzeuge bekommen dieselben Endungen, nur ohne *s*.
+infokratko: **-om** nach den meisten Lauten und für **-a**; **-em** nach j, lj, nj, č, ć, š, ž: *prijateljem, tramvajem*.
 nastavci: om | em
-opis: English above, Croatian below. One tap puts the word in the instrumental.
-- Idem u kino s brat___. | I'm going to the cinema with my brother. | om
-- Izlazim s prijatelj___. | I'm going out with a friend. | em
-- Pijem kavu s mlijek___. | I drink coffee with milk. | om
-- Putujemo vlak___. | We're travelling by train. | om
-- Idem na koncert sa sestr___. | I'm going to the concert with my sister. | om
-- Idemo u grad tramvaj___. | We're going into town by tram. | em
-- S Mark___ igram šah. | I play chess with Marko. | om
-- Pijem kavu s kolač___. | I'm having coffee with a cake. | em
-- Ana ide na posao autobus___. | Ana goes to work by bus. | om
-- Petra ide u kazalište s muž___. | Petra is going to the theatre with her husband. | em
-- Pijem čaj s limun___. | I drink tea with lemon. | om
-- Idem na posao bicikl___. | I go to work by bike. | om
-- Razgovaram s konobar___. | I'm talking with the waiter. | om
-- Večeram s An___. | I'm having dinner with Ana. | om
-- Sjedim u kafiću s učitelj___. | I'm sitting in a café with the teacher. | em
-- Baka pije čaj sa šećer___. | Grandma drinks tea with sugar. | om
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen bringt das Wort in den Instrumental.
+- Idem u kino s brat___. | Ich gehe mit meinem Bruder ins Kino. | om
+- Izlazim s prijatelj___. | Ich gehe mit einem Freund aus. | em
+- Pijem kavu s mlijek___. | Ich trinke Kaffee mit Milch. | om
+- Putujemo vlak___. | Wir fahren mit dem Zug. | om
+- Idem na koncert sa sestr___. | Ich gehe mit meiner Schwester aufs Konzert. | om
+- Idemo u grad tramvaj___. | Wir fahren mit der Straßenbahn in die Stadt. | em
+- S Mark___ igram šah. | Ich spiele mit Marko Schach. | om
+- Pijem kavu s kolač___. | Ich trinke Kaffee mit einem Stück Kuchen. | em
+- Ana ide na posao autobus___. | Ana fährt mit dem Bus zur Arbeit. | om
+- Petra ide u kazalište s muž___. | Petra geht mit ihrem Mann ins Theater. | em
+- Pijem čaj s limun___. | Ich trinke Tee mit Zitrone. | om
+- Idem na posao bicikl___. | Ich fahre mit dem Fahrrad zur Arbeit. | om
+- Razgovaram s konobar___. | Ich spreche mit dem Kellner. | om
+- Večeram s An___. | Ich esse mit Ana zu Abend. | om
+- Sjedim u kafiću s učitelj___. | Ich sitze mit der Lehrerin im Café. | em
+- Baka pije čaj sa šećer___. | Oma trinkt Tee mit Zucker. | om
 
-## By train, by bus: means without "s"
+## Mit dem Zug, mit dem Bus: Verkehrsmittel ohne „s“
 format: tekst
-info: The second rule, and the second job of the instrumental. For the way you travel, the vehicle takes the same ending with nothing in front: *Idem vlakom*, never *s vlakom*. Ask *S kim?* about company and *Kako?* about the way. On foot is one fixed word: *pješice*.
-infokratko: Vehicle: instrumental, no *s*: *Idem vlakom.* *S kim?* for company, *Kako?* for the way.
+info: Die zweite Regel und die zweite Aufgabe des Instrumentals. Für die Art, wie du reist, bekommt das Fahrzeug dieselbe Endung ohne etwas davor: *Idem vlakom*, nie *s vlakom* – obwohl man im Deutschen *mit dem Zug* sagt. Frag *S kim?* nach Begleitung und *Kako?* nach dem Weg. Zu Fuß ist ein festes Wort: *pješice*.
+infokratko: Fahrzeug: Instrumental, ohne *s*: *Idem vlakom.* *S kim?* für Begleitung, *Kako?* für den Weg.
 infoodmah: da
-opis: Same endings, no preposition. Read the table and fill in the last line.
-- **Company keeps the *s*, means drops it.** For *how* you travel, the vehicle takes the instrumental with no preposition in front.
-- tab: Company — with someone | Means — by something
+opis: Dieselben Endungen, keine Präposition. Lies die Tabelle und ergänze die letzte Zeile.
+- **Begleitung behält das *s*, das Mittel verliert es.** Für das *Wie* deiner Reise steht das Fahrzeug im Instrumental ohne Präposition davor. Das deutsche *mit* hat hier also zwei Entsprechungen.
+- tab: Begleitung – mit jemandem | Mittel – mit etwas
 - tab: Idem s bratom. | Idem vlakom.
 - tab: Idem sa sestrom. | Idem autobusom.
 - tab: Idem s Markom. | Idem biciklom.
 - tab: Idem s prijateljem. | Idem tramvajem.
-- **The vehicle is the instrument.** That is where the case gets its name: the thing you use takes the instrumental. Small tools work the same way: *Jedem juhu **žlicom**. Pišem **olovkom**. Plaćam **karticom**.*
-- **Idem s vlakom is wrong.** With *s*, the train would be your companion. A person takes *s*, a vehicle takes nothing, and both fit in one sentence: *Idem **s Markom vlakom**.* — I'm going by train with Marko.
-- **Two questions.** ***S kim?*** — with whom? — asks about company: *S kim ideš? — S Anom.* ***Kako?*** — how? — asks about the way: *Kako ideš? — Vlakom.* On foot is one fixed word, not a case form: *Idem **pješice**.*
-- **Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]? [S] kim ideš na koncert?
+- **Das Fahrzeug ist das Instrument.** Daher hat der Fall seinen Namen: Das Ding, das du benutzt, steht im Instrumental. Kleine Werkzeuge funktionieren genauso: *Jedem juhu **žlicom**. Pišem **olovkom**. Plaćam **karticom**.* – mit dem Löffel, mit dem Stift, mit der Karte.
+- **Idem s vlakom ist falsch.** Mit *s* wäre der Zug dein Begleiter. Eine Person bekommt *s*, ein Fahrzeug nichts, und beides passt in einen Satz: *Idem **s Markom vlakom**.* – Ich fahre mit Marko mit dem Zug.
+- **Zwei Fragen.** ***S kim?*** – mit wem? – fragt nach Begleitung: *S kim ideš? — S Anom.* ***Kako?*** – wie? – fragt nach dem Weg: *Kako ideš? — Vlakom.* Zu Fuß ist ein festes Wort, keine Fallform: *Idem **pješice**.*
+- **Jetzt schreibst du sie.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]? [S] kim ideš na koncert?
 
-## s or no s?
+## s oder kein s?
 format: razvrstavanje
-info: Sorting phrases by whether they need *s* or *sa*. People, and the things that come along with you or with your drink, take *s*: *s Anom, čaj s limunom*. A vehicle or a tool you use takes the instrumental alone: *vlakom, žlicom*.
-infokratko: Company (people, milk in the coffee): *s / sa*. Vehicle or tool: nothing in front.
-stupci: WITH s/sa (company) | NO PREPOSITION (means)
-opis: Company or means? Does the phrase need *s* or *sa*? (Coffee with milk counts as company — the milk comes along.)
-- ___ sestrom | WITH s/sa (company)
-- ___ vlakom | NO PREPOSITION (means)
-- ___ Markom | WITH s/sa (company)
-- ___ autobusom | NO PREPOSITION (means)
-- ___ prijateljem | WITH s/sa (company)
-- ___ autom | NO PREPOSITION (means)
-- kava ___ mlijekom | WITH s/sa (company)
-- ___ biciklom | NO PREPOSITION (means)
-- ___ Anom | WITH s/sa (company)
-- ___ tramvajem | NO PREPOSITION (means)
-- čaj ___ limunom | WITH s/sa (company)
-- jedem juhu ___ žlicom | NO PREPOSITION (means)
-- ___ tatom | WITH s/sa (company)
-- ___ taksijem | NO PREPOSITION (means)
-- ___ mužem | WITH s/sa (company)
-- pišem ___ olovkom | NO PREPOSITION (means)
+info: Wendungen danach sortieren, ob sie *s* oder *sa* brauchen. Personen und Dinge, die mit dir oder mit deinem Getränk kommen, bekommen *s*: *s Anom, čaj s limunom*. Ein Fahrzeug oder ein Werkzeug, das du benutzt, steht im Instrumental allein: *vlakom, žlicom*.
+infokratko: Begleitung (Personen, Milch im Kaffee): *s / sa*. Fahrzeug oder Werkzeug: nichts davor.
+stupci: MIT s/sa (Begleitung) | OHNE PRÄPOSITION (Mittel)
+opis: Begleitung oder Mittel? Braucht die Wendung *s* oder *sa*? (Kaffee mit Milch zählt als Begleitung – die Milch kommt mit.)
+- ___ sestrom | MIT s/sa (Begleitung)
+- ___ vlakom | OHNE PRÄPOSITION (Mittel)
+- ___ Markom | MIT s/sa (Begleitung)
+- ___ autobusom | OHNE PRÄPOSITION (Mittel)
+- ___ prijateljem | MIT s/sa (Begleitung)
+- ___ autom | OHNE PRÄPOSITION (Mittel)
+- kava ___ mlijekom | MIT s/sa (Begleitung)
+- ___ biciklom | OHNE PRÄPOSITION (Mittel)
+- ___ Anom | MIT s/sa (Begleitung)
+- ___ tramvajem | OHNE PRÄPOSITION (Mittel)
+- čaj ___ limunom | MIT s/sa (Begleitung)
+- jedem juhu ___ žlicom | OHNE PRÄPOSITION (Mittel)
+- ___ tatom | MIT s/sa (Begleitung)
+- ___ taksijem | OHNE PRÄPOSITION (Mittel)
+- ___ mužem | MIT s/sa (Begleitung)
+- pišem ___ olovkom | OHNE PRÄPOSITION (Mittel)
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing the correct instrumental. The two usual mistakes are the naming form after *s* (*s Marko*) and an *s* in front of a vehicle (*s vlakom*). Watch the soft endings too: *s prijateljem* and *tramvajem*, never *s prijateljom* or *tramvajom*.
-infokratko: Not *s Marko*, not *s vlakom*. Soft endings: *s prijateljem, tramvajem*.
-opis: Choose the correct form.
+info: Den richtigen Instrumental wählen. Die zwei üblichen Fehler sind die Grundform nach *s* (*s Marko*) und ein *s* vor einem Fahrzeug (*s vlakom*). Achte auch auf die weichen Endungen: *s prijateljem* und *tramvajem*, nie *s prijateljom* oder *tramvajom*.
+infokratko: Nicht *s Marko*, nicht *s vlakom*. Weiche Endungen: *s prijateljem, tramvajem*.
+opis: Wähle die richtige Form.
 - Idem u kino ___ . | s Markom | s Marko | s Marka
 - Putujemo ___ . | vlakom | s vlakom | vlak
 - Pijem čaj ___ . | s limunom | s limun | limunom
@@ -192,11 +192,11 @@ opis: Choose the correct form.
 - Baka pije čaj ___ . | sa šećerom | sa šećer | šećerom
 - Jedem juhu ___ . | žlicom | žlica | žlicu
 
-## Type the instrumental
+## Schreib den Instrumental
 format: upis
-info: You type the instrumental, and you decide what goes in front. People and things that come along take *s* (*s bratom, s limunom*), *sa* before s, š, z, ž (*sa sestrom*), and a vehicle takes nothing (*vlakom*). After a soft sound the ending is **-em**.
-infokratko: Company: *s* or *sa* + instrumental. Vehicle: instrumental alone. Soft sound: **-em**.
-opis: Type the "with" form — add *s* or *sa* where it is needed.
+info: Du schreibst den Instrumental und entscheidest, was davor steht. Personen und Dinge, die mitkommen, bekommen *s* (*s bratom, s limunom*), *sa* vor s, š, z, ž (*sa sestrom*), und ein Fahrzeug bekommt nichts (*vlakom*). Nach einem weichen Laut ist die Endung **-em**.
+infokratko: Begleitung: *s* oder *sa* + Instrumental. Fahrzeug: Instrumental allein. Weicher Laut: **-em**.
+opis: Schreib die „mit“-Form – füge *s* oder *sa* hinzu, wo es nötig ist.
 - (brat) Idem u kino ___ . | s bratom
 - (vlak) Putujem ___ . | vlakom
 - (sestra) Idem na koncert ___ . | sa sestrom
@@ -210,11 +210,11 @@ opis: Type the "with" form — add *s* or *sa* where it is needed.
 - (šećer) Baka pije čaj ___ . | sa šećerom
 - (Ana) Plešem ___ . | s Anom
 
-## Build the night out
+## Bau den Abend
 format: slaganje
-info: Whole sentences about a night out, built from tiles. *S* or *sa* stands directly in front of the person, a vehicle has no tile in front of it, and a comma comes before *a* and *nego*.
-infokratko: *s / sa* before the person, nothing before the vehicle. Comma before *a* and *nego*.
-opis: Arrange the tiles to build the sentence.
+info: Ganze Sätze über einen Abend in der Stadt, aus Kacheln gebaut. *S* oder *sa* steht direkt vor der Person, ein Fahrzeug hat keine Kachel davor, und vor *a* und *nego* steht ein Komma.
+infokratko: *s / sa* vor der Person, nichts vor dem Fahrzeug. Komma vor *a* und *nego*.
+opis: Ordne die Kärtchen, um den Satz zu bauen.
 - Izlazim s prijateljem.
 - S Markom idem u kino.
 - Ana pije kavu s mlijekom, a ja pijem čaj s limunom.
@@ -227,12 +227,12 @@ opis: Arrange the tiles to build the sentence.
 - Baka pije čaj sa šećerom.
 - Petra večera s mužem u restoranu.
 
-## Instrumental sprint
+## Instrumental-Sprint
 format: brzina
-info: A timed sprint from the naming form to the instrumental. People and drinks come with *s* or *sa* (*s bratom, sa sestrom, s mlijekom*), vehicles come alone (*vlakom*). The soft endings take **-em**: *s prijateljem, tramvajem*, and *taksi* adds a *j*: *taksijem*.
-infokratko: Naming form → instrumental. People with *s*, vehicles alone; soft sound **-em**.
+info: Ein zeitgebundener Sprint von der Grundform zum Instrumental. Personen und Getränke kommen mit *s* oder *sa* (*s bratom, sa sestrom, s mlijekom*), Fahrzeuge allein (*vlakom*). Die weichen Endungen bekommen **-em**: *s prijateljem, tramvajem*, und *taksi* fügt ein *j* ein: *taksijem*.
+infokratko: Grundform → Instrumental. Personen mit *s*, Fahrzeuge allein; weicher Laut **-em**.
 trajanje: 45
-opis: A word flashes — tap its instrumental: with *s* for company, alone for a vehicle.
+opis: Ein Wort blinkt auf – tippe seinen Instrumental: mit *s* für Begleitung, allein für ein Fahrzeug.
 - brat | s bratom
 - sestra | sa sestrom
 - Marko | s Markom
@@ -247,11 +247,11 @@ opis: A word flashes — tap its instrumental: with *s* for company, alone for a
 - bicikl | biciklom
 - taksi | taksijem
 
-## Concert plans
+## Konzertpläne
 format: dijalog
-info: A chat about Saturday's concert, built on the instrumental. You say who you are going with (*sa sestrom, s bratom*) and how you get there (*vlakom*), and your friend reacts to your answer. Both options are always correct Croatian, so pick the one you like.
-infokratko: Say who with (*sa sestrom*) and how (*vlakom*). Your friend reacts to your answer.
-opis: Saturday's concert is coming up. Sort out the plans with your friend. Passive words: *već* (already), *još* (still, yet), *zajedno* (together), *zna sve pjesme* (knows all the songs), *poslije* (afterwards).
+info: Ein Chat über das Konzert am Samstag, aufgebaut auf dem Instrumental. Du sagst, mit wem du gehst (*sa sestrom, s bratom*) und wie du hinkommst (*vlakom*), und dein Freund reagiert auf deine Antwort. Beide Optionen sind immer korrektes Kroatisch, also nimm die, die dir gefällt.
+infokratko: Sag, mit wem (*sa sestrom*) und wie (*vlakom*). Dein Freund reagiert auf deine Antwort.
+opis: Das Konzert am Samstag steht bevor. Kläre die Pläne mit deinem Freund. Passive Wörter: *već* (schon), *još* (noch), *zajedno* (zusammen), *zna sve pjesme* (kennt alle Lieder), *poslije* (danach).
 - npc | Bok! Ideš li u subotu na koncert?
 - ti | Idem! Već imam kartu. | Idem, ali još nemam kartu.
 - npc | Dobro! S kim ideš?
@@ -266,12 +266,12 @@ opis: Saturday's concert is coming up. Sort out the plans with your friend. Pass
 - ti | Može! Ja pijem kavu s mlijekom. | Može, ali ja pijem samo čaj s limunom.
 - npc | Ha-ha! Onda se vidimo u subotu na kolodvoru!
 
-## Read: Friday night & train rides
+## Lesen: Freitagabend & Zugfahrten
 format: izbor
-info: Read the story, then answer in Croatian. Almost every sentence has an instrumental, so ask the same two questions as the lesson: *s kim?* points to a person with *s*, *kako?* to a vehicle with nothing in front.
-infokratko: Read, then answer. *s kim?* → a person with *s*; *kako?* → a vehicle alone.
+info: Lies die Geschichte und antworte dann auf Kroatisch. Fast jeder Satz hat einen Instrumental, also stell dieselben zwei Fragen wie in der Lektion: *s kim?* zeigt auf eine Person mit *s*, *kako?* auf ein Fahrzeug ohne etwas davor.
+infokratko: Lesen, dann antworten. *s kim?* → eine Person mit *s*; *kako?* → ein Fahrzeug allein.
 tekst: U petak navečer Ana izlazi s Markom. U grad idu tramvajem. Prvo večeraju u restoranu s Petrom. Onda idu u kafić. Ana pije kavu s mlijekom, a Marko čaj s limunom. U subotu Ana putuje vlakom u Split. Vlak je spor, ali Ana sjedi s knjigom i s kavom. Na kolodvoru Anu čeka baka s djedom. Doma idu autom. Djed vozi, a Ana razgovara s bakom.
-opis: Read the story, then answer the questions. Passive words: *prvo* (first), *onda* (then), *spor* (slow), *doma* (home).
+opis: Lies die Geschichte und beantworte dann die Fragen. Passive Wörter: *prvo* (zuerst), *onda* (dann), *spor* (langsam), *doma* (nach Hause).
 - S kim Ana izlazi u petak? | s Markom | s Petrom | s bakom
 - Kako idu u grad? | tramvajem | autom | vlakom
 - S kim večeraju u restoranu? | s Petrom | s Markom | s djedom
@@ -281,9 +281,9 @@ opis: Read the story, then answer the questions. Passive words: *prvo* (first), 
 
 ## Memory
 format: memorija
-info: A pairs game over naming forms and their instrumentals. Two patterns cover every pair: people and drinks come with *s* or *sa* (*s bratom, s mlijekom*), and vehicles come alone (*vlakom*). Three pairs take **-em**: *s prijateljem, tramvajem, taksijem*.
-infokratko: Naming form with instrumental: *s bratom*, *vlakom*; **-em** in *s prijateljem, tramvajem*.
-opis: Flip the cards and match each word with its instrumental.
+info: Ein Paarspiel mit Grundformen und ihren Instrumentalformen. Zwei Muster decken jedes Paar ab: Personen und Getränke kommen mit *s* oder *sa* (*s bratom, s mlijekom*), und Fahrzeuge kommen allein (*vlakom*). Drei Paare bekommen **-em**: *s prijateljem, tramvajem, taksijem*.
+infokratko: Grundform mit Instrumental: *s bratom*, *vlakom*; **-em** in *s prijateljem, tramvajem*.
+opis: Dreh die Karten um und ordne jedem Wort seinen Instrumental zu.
 - brat | s bratom
 - sestra | sa sestrom
 - prijatelj | s prijateljem
@@ -294,22 +294,22 @@ opis: Flip the cards and match each word with its instrumental.
 - autobus | autobusom
 - taksi | taksijem
 
-## Module C checkpoint
+## Checkpoint Modul C
 format: provjera
-info: The scored mix of the lesson and of Module C, and 80% opens Vocabulary 15. Most of the points sit on the instrumental — *s* for company, nothing for a vehicle — and four questions come back from Lessons 11 to 14: a question word, a negation, a place and a receiver.
-infokratko: Lesson 15 plus Module C; 80% opens Vocabulary 15. *s* for company, nothing for a vehicle.
+info: Die bewertete Mischung aus der Lektion und Modul C, und 80 % schalten Wortschatz 15 frei. Die meisten Punkte hängen am Instrumental – *s* für Begleitung, nichts für ein Fahrzeug –, und vier Fragen kommen aus den Lektionen 11 bis 14 zurück: ein Fragewort, eine Verneinung, ein Ort und ein Empfänger.
+infokratko: Lektion 15 plus Modul C; 80 % schalten Wortschatz 15 frei. *s* für Begleitung, nichts für ein Fahrzeug.
 prag: 80
-opis: Module checkpoint! The instrumental, plus questions, negation and the cases from Lessons 13 and 14. Score 80% to be ready for Vocabulary 15.
-- slaganje | Idem na koncert sa sestrom. | en: I'm going to a concert with my sister.
+opis: Modul-Checkpoint! Der Instrumental, dazu Fragen, Verneinung und die Fälle aus Lektion 13 und 14. Erreiche 80 %, um bereit für Wortschatz 15 zu sein.
+- slaganje | Idem na koncert sa sestrom. | en: Ich gehe mit meiner Schwester auf ein Konzert.
 - izbor | Putujemo ___ . | vlakom | s vlakom | vlak
 - upis | Pijem kavu ___ . (mlijeko) | s mlijekom
 - upis | ___ ideš na koncert? — Sa sestrom. | S kim
 - izbor | Izlazim ___ . (prijatelj) | s prijateljem | s prijateljom | s prijatelj
-- izbor | Što znači "putovati"? | to travel | gehen, spazieren | to go out
+- izbor | Što znači "putovati"? | reisen | gehen, spazieren | ausgehen
 - upis | Idemo u grad ___ . (tramvaj) | tramvajem
-- slaganje | Baka pije čaj sa šećerom. | en: Grandma drinks tea with sugar.
+- slaganje | Baka pije čaj sa šećerom. | en: Oma trinkt Tee mit Zucker.
 - izbor | Koja je rečenica točna? | Idem vlakom s Markom. | Idem s vlakom s Markom. | Idem vlakom Markom.
-- slaganje | S kim ideš u kino? | en: Who are you going to the cinema with?
+- slaganje | S kim ideš u kino? | en: Mit wem gehst du ins Kino?
 - izbor | ___ košta karta za koncert? — Deset eura. | Koliko | Kako | Koji
 - upis | Negiraj: Imamo auto. → | Nemamo auto
 - izbor | Vidimo se ___ . | na koncertu | na koncert | na koncerta
@@ -317,9 +317,9 @@ opis: Module checkpoint! The instrumental, plus questions, negation and the case
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You can now say who you are with and how you travel: *s* or *sa* with the instrumental for company, the instrumental alone for a vehicle, and *s kim?* to ask about company. With it, Module C is complete.
-infokratko: *s / sa* + instrumental for company, instrumental alone for a vehicle. Module C complete.
-opis: Read what you can do now, and what comes next.
-- ČESTITAMO! Module C is complete. You can ask, refuse, say where things are, say who gets what — and now who you are with and how you get there. That makes five of the seven Croatian cases.
-- **Next up:** Vocabulary 15 brings more words for a night out, new vehicles such as *trajekt* and *skuter*, and the weather: *kiša, vjetar, sunčan*. Grammar 15 adds the short company words *sa mnom, s tobom, s njim, s njom*: *Ideš li **sa mnom**?*
-- **Then Lesson 16:** grandma's house and the genitive — whose something is, what is missing, and where it comes from.
+info: Eine abschließende Zusammenfassung. Jetzt kannst du sagen, mit wem du bist und wie du reist: *s* oder *sa* mit dem Instrumental für Begleitung, der Instrumental allein für ein Fahrzeug, und *s kim?*, um nach Begleitung zu fragen. Damit ist Modul C abgeschlossen.
+infokratko: *s / sa* + Instrumental für Begleitung, Instrumental allein für ein Fahrzeug. Modul C abgeschlossen.
+opis: Lies, was du jetzt kannst und was als Nächstes kommt.
+- ČESTITAMO! Modul C ist abgeschlossen. Du kannst fragen, ablehnen, sagen, wo Dinge sind, wer was bekommt – und jetzt, mit wem du bist und wie du hinkommst. Das sind fünf der sieben kroatischen Fälle.
+- **Als Nächstes:** Wortschatz 15 bringt mehr Wörter fürs Ausgehen, neue Fahrzeuge wie *trajekt* und *skuter* und das Wetter: *kiša, vjetar, sunčan*. Grammatik 15 fügt die kurzen Begleitungswörter *sa mnom, s tobom, s njim, s njom* hinzu: *Ideš li **sa mnom**?*
+- **Dann Lektion 16:** Omas Haus und der Genitiv – wem etwas gehört, was fehlt und woher es kommt.

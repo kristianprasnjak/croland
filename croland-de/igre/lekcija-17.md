@@ -1,22 +1,22 @@
-# Take Command: The Imperative
+# Befehle geben: Der Imperativ
 cjelina: Lesson 17
 
-## Time to give orders
+## Zeit für Anweisungen
 format: tekst
-info: A short read to open the lesson. The imperative gives orders, instructions and directions. You build it from the *ti* form of the present: *gledaš → gledaj, uzmeš → uzmi, piješ → pij*, and for a group or a polite *vi* you add **-te**: *uzmite*.
-infokratko: The imperative, from the *ti* form: *gledaj, uzmi, pij*. Groups and polite *vi*: **+te**.
-opis: Read it through — by the end you can make pancakes and send a tourist to the station.
-- Time to give orders — politely, of course. Recipes, directions, a football coach: they all use the **imperative**.
-- Croatian commands are short: *Uzmi!* (take!), *Idi!* (go!), *Miješaj!* (mix!). For a group, or for someone you call *vi*, they get **-te**: *Uzmite! Idite!*
-- **You already know the ti form.** The imperative is built from it, so every verb you have learned since Lesson 3 can now give an order.
-- By the end of this lesson you can follow and write a recipe, give directions in town, and say *don't* two ways: *Ne trči!* and *Nemoj trčati!*
+info: Ein kurzer Text zum Einstieg. Der Imperativ gibt Befehle, Anweisungen und Wegbeschreibungen. Du bildest ihn aus der *ti*-Form des Präsens – ähnlich wie im Deutschen *du nimmst → nimm!*: *gledaš → gledaj, uzmeš → uzmi, piješ → pij*, und für eine Gruppe oder ein höfliches *vi* hängst du **-te** an: *uzmite*.
+infokratko: Der Imperativ, aus der *ti*-Form: *gledaj, uzmi, pij*. Gruppen und höfliches *vi*: **+te**.
+opis: Lies es durch – am Ende kannst du Pfannkuchen machen und einen Touristen zum Bahnhof schicken.
+- Zeit für Anweisungen – natürlich höflich. Rezepte, Wegbeschreibungen, ein Fußballtrainer: Sie alle benutzen den **Imperativ**.
+- Kroatische Befehle sind kurz: *Uzmi!* (nimm!), *Idi!* (geh!), *Miješaj!* (rühr!). Für eine Gruppe oder für jemanden, den du mit *vi* ansprichst, bekommen sie **-te**: *Uzmite! Idite!*
+- **Die ti-Form kennst du schon.** Der Imperativ wird aus ihr gebildet, also kann jedes Verb, das du seit Lektion 3 gelernt hast, jetzt einen Befehl geben.
+- Am Ende dieser Lektion kannst du einem Rezept folgen und eins schreiben, in der Stadt den Weg beschreiben und auf zwei Arten *nicht* sagen: *Ne trči!* und *Nemoj trčati!*
 
 ## Schnelles Abrufen
 format: brzina
 trajanje: 60
-info: A timed warm-up on the genitive from Lesson 16. After *bez, iz, kod, pokraj* and *nema* a masculine or neuter word takes **-a** (*šećera, mora*), and a feminine word in **-a** takes **-e** (*bake, kuće*).
-infokratko: Lesson 16 against the clock: **+a** (*šećera, mora*), **-a → -e** (*bake, kuće*).
-opis: Genitive sprint from Lesson 16 — tap the correct form before the timer runs out.
+info: Ein zeitgebundenes Aufwärmen zum Genitiv aus Lektion 16. Nach *bez, iz, kod, pokraj* und *nema* bekommt ein maskulines oder neutrales Wort **-a** (*šećera, mora*), und ein feminines Wort auf **-a** bekommt **-e** (*bake, kuće*).
+infokratko: Lektion 16 gegen die Uhr: **+a** (*šećera, mora*), **-a → -e** (*bake, kuće*).
+opis: Genitiv-Sprint aus Lektion 16 – tippe die richtige Form, bevor die Zeit abläuft.
 - bez (šećer) | šećera
 - iz (Zagreb) | Zagreba
 - kod (baka) | bake
@@ -30,89 +30,89 @@ opis: Genitive sprint from Lesson 16 — tap the correct form before the timer r
 - miris (kava) | kave
 - ___ si? — Iz Splita. | Odakle
 
-## Kitchen & street words
+## Wörter für Küche und Straße
 format: kartice
-info: The words for a recipe and for finding your way. The kitchen half is new — *brašno, tava, ulje, tijesto* — and the street half brings the three directions *lijevo, desno, ravno* with *naprijed* and *natrag*. *Kolodvor, cesta* and *semafor* come back from Vocabulary 6.
-infokratko: Recipe words (*brašno, tava, ulje*) and directions (*lijevo, desno, ravno, naprijed, natrag*).
-opis: What you cook with and how you get there. Tap a card to reveal the meaning.
-- jaje → jaja | egg → eggs
-- brašno | flour
-- sol | salt
-- tava | pan
-- ulje | oil
-- vrhnje | cream
-- tijesto | dough
+info: Die Wörter für ein Rezept und um den Weg zu finden. Die Küchenhälfte ist neu – *brašno, tava, ulje, tijesto* –, und die Straßenhälfte bringt die drei Richtungen *lijevo, desno, ravno* mit *naprijed* und *natrag*. *Kolodvor, cesta* und *semafor* kommen aus Wortschatz 6 zurück.
+infokratko: Rezeptwörter (*brašno, tava, ulje*) und Richtungen (*lijevo, desno, ravno, naprijed, natrag*).
+opis: Womit du kochst und wie du hinkommst. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- jaje → jaja | Ei → Eier
+- brašno | Mehl
+- sol | Salz
+- tava | Pfanne
+- ulje | Öl
+- vrhnje | Sahne
+- tijesto | Teig
 - marmelada | Marmelade
-- minuta | minute
-- kolodvor | train station
-- cesta | road
-- semafor | traffic lights
-- raskrižje | crossroads
-- lijevo | left
-- desno | right
-- ravno | straight ahead
-- naprijed | forward
-- natrag | back, backwards
-- daleko | far
+- minuta | Minute
+- kolodvor | Bahnhof
+- cesta | Straße (Landstraße)
+- semafor | Ampel
+- raskrižje | Kreuzung
+- lijevo | links
+- desno | rechts
+- ravno | geradeaus
+- naprijed | vorwärts, nach vorn
+- natrag | zurück
+- daleko | weit
 
-## Verbs and their commands
+## Verben und ihre Befehle
 format: kartice
-info: Each verb is shown three times: the infinitive, the *ti* form and the order. Compare the last two — the imperative is the *ti* form with a new ending. *Peci* (bake!) changes *č* back to *c*, and *dođi* and *idi* are worth learning whole.
-infokratko: infinitive → *ti* form → order: *uzeti → uzmeš → uzmi!* *peci, dođi, idi*: learn whole.
-opis: Infinitive, *ti* form, command. Tap a card to reveal the meaning.
-- uzeti → uzmeš → uzmi! | to take → take!
-- dodati → dodaš → dodaj! | to add → add!
-- miješati → miješaš → miješaj! | to mix → mix!
-- zagrijati → zagriješ → zagrij! | to heat up → heat up!
-- staviti → staviš → stavi! | to put → put!
-- okrenuti → okreneš → okreni! | to flip, to turn over → flip!
-- peći → pečeš → peci! | to bake, to fry → bake!
-- podijeliti → podijeliš → podijeli! | to share → share!
-- skrenuti → skreneš → skreni! | to turn (left or right) → turn!
-- prijeći → prijeđeš → prijeđi! | to cross → cross!
-- požuriti → požuriš → požuri! | to hurry → hurry!
-- doći → dođeš → dođi! | to come → come!
-- ići → ideš → idi! | to go → go!
-- nemoj / nemojte | don't (softer)
+info: Jedes Verb steht dreimal da: der Infinitiv, die *ti*-Form und der Befehl. Vergleich die letzten zwei – der Imperativ ist die *ti*-Form mit einer neuen Endung. *Peci* (back!) macht aus *č* wieder *c*, und *dođi* und *idi* lernt man am besten als Ganzes.
+infokratko: Infinitiv → *ti*-Form → Befehl: *uzeti → uzmeš → uzmi!* *peci, dođi, idi*: als Ganzes lernen.
+opis: Infinitiv, *ti*-Form, Befehl. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- uzeti → uzmeš → uzmi! | nehmen → nimm!
+- dodati → dodaš → dodaj! | hinzufügen → füg hinzu!
+- miješati → miješaš → miješaj! | rühren, mischen → rühr!
+- zagrijati → zagriješ → zagrij! | erhitzen → erhitze!
+- staviti → staviš → stavi! | legen, stellen → leg!
+- okrenuti → okreneš → okreni! | wenden, umdrehen → wende!
+- peći → pečeš → peci! | backen, braten → back!
+- podijeliti → podijeliš → podijeli! | teilen → teil!
+- skrenuti → skreneš → skreni! | abbiegen → bieg ab!
+- prijeći → prijeđeš → prijeđi! | überqueren → überquere!
+- požuriti → požuriš → požuri! | sich beeilen → beeil dich!
+- doći → dođeš → dođi! | kommen → komm!
+- ići → ideš → idi! | gehen → geh!
+- nemoj / nemojte | nicht (sanfter)
 
-## Making commands
+## Befehle bilden
 format: tekst
-info: The first rule of the lesson. Take the *ti* form and change its ending: **-aš** becomes **-aj** (*gledaj*), **-eš** or **-iš** becomes **-i** (*uzmi, stavi*), and after a **j** the ending is dropped (*piješ → pij*). For a group or the polite *vi*, add **-te**.
-infokratko: **-aš → -aj**, **-eš / -iš → -i**, *-ješ* → **-j** (*pij*). Group or polite: **+te**.
+info: Die erste Regel der Lektion. Nimm die *ti*-Form und ändere ihre Endung: **-aš** wird zu **-aj** (*gledaj*), **-eš** oder **-iš** wird zu **-i** (*uzmi, stavi*), und nach einem **j** fällt die Endung weg (*piješ → pij*). Für eine Gruppe oder das höfliche *vi* hängst du **-te** an.
+infokratko: **-aš → -aj**, **-eš / -iš → -i**, *-ješ* → **-j** (*pij*). Gruppe oder höflich: **+te**.
 infoodmah: da
-opis: One form, three endings. Read the table and fill in the last line.
-- **Take the *ti* form and change the ending.**
-- tab: The ti form ends in | You say (ti) | The order (ti) | The order (vi)
+opis: Eine Form, drei Endungen. Lies die Tabelle und ergänze die letzte Zeile.
+- **Nimm die *ti*-Form und ändere die Endung.**
+- tab: Die ti-Form endet auf | Du sagst (ti) | Der Befehl (ti) | Der Befehl (vi)
 - tab: -aš | gledaš, dodaš | gled**aj**!, dod**aj**! | gled**ajte**!, dod**ajte**!
 - tab: -eš, -iš | uzmeš, staviš | uzm**i**!, stav**i**! | uzm**ite**!, stav**ite**!
-- tab: -ješ (a j before -eš) | piješ, zagriješ | pi**j**!, zagri**j**! | pi**jte**!, zagri**jte**!
-- **Three steps.** Say the *ti* form, drop **-š**, and look at what is left: *dodaš → doda- → dodaj*, *uzmeš → uzme- → uzmi*, *piješ → pije- → pij*. The same works for every verb you know: *kupuješ → kupuj, trčiš → trči, pišeš → piši*.
-- **For a group or for vi, add -te.** *Uzmi!* to a friend, ***Uzmite!*** to two friends or to a stranger. You have heard it since the early lessons: *Izvoli**te**!*
-- **Two to learn whole.** *Ići* and *doći* have present forms that do not look like the infinitive (*ideš, dođeš*), so learn their orders as a pair: ***idi / idite*** and ***dođi / dođite***. *Peći* gives ***peci***.
-- **Now you write them.** [Gledaj] me! [Uzmi] jednu! [Pij] vodu! [Uzmite] kartu!
+- tab: -ješ (ein j vor -eš) | piješ, zagriješ | pi**j**!, zagri**j**! | pi**jte**!, zagri**jte**!
+- **Drei Schritte.** Sag die *ti*-Form, lass **-š** weg und schau, was übrig bleibt: *dodaš → doda- → dodaj*, *uzmeš → uzme- → uzmi*, *piješ → pije- → pij*. Das funktioniert bei jedem Verb, das du kennst: *kupuješ → kupuj, trčiš → trči, pišeš → piši*.
+- **Für eine Gruppe oder für vi hängst du -te an.** *Uzmi!* zu einem Freund, ***Uzmite!*** zu zwei Freunden oder zu einem Fremden – wie *nimm!*, *nehmt!* und *nehmen Sie!*. Du hörst es seit den ersten Lektionen: *Izvoli**te**!*
+- **Zwei zum Auswendiglernen.** *Ići* und *doći* haben Präsensformen, die nicht wie der Infinitiv aussehen (*ideš, dođeš*), also lern ihre Befehle als Paar: ***idi / idite*** und ***dođi / dođite***. *Peći* ergibt ***peci***.
+- **Jetzt schreibst du sie.** [Gledaj] me! [Uzmi] jednu! [Pij] vodu! [Uzmite] kartu!
 
-## Spot the command
+## Erkenne den Befehl
 format: parovi
-info: Each command beside its meaning. The endings show the three groups: **-aj** from verbs in *-aš* (*dodaj, miješaj*), **-i** from verbs in *-eš* or *-iš* (*uzmi, skreni, stavi*), and **-j** after a *j* (*pij*). *Idi* and *dođi* are the two to learn whole.
-infokratko: **-aj** (*dodaj*), **-i** (*uzmi, skreni*), **-j** (*pij*). *idi, dođi* whole.
-opis: Match the command with its meaning.
-- Uzmi! | Take!
-- Dodaj! | Add!
-- Miješaj! | Mix!
-- Idi! | Go!
-- Skreni! | Turn!
-- Gledaj! | Look!
-- Požuri! | Hurry!
-- Dođi! | Come!
-- Stavi! | Put!
-- Pij! | Drink!
+info: Jeder Befehl neben seiner Bedeutung. Die Endungen zeigen die drei Gruppen: **-aj** von Verben auf *-aš* (*dodaj, miješaj*), **-i** von Verben auf *-eš* oder *-iš* (*uzmi, skreni, stavi*) und **-j** nach einem *j* (*pij*). *Idi* und *dođi* sind die zwei, die man als Ganzes lernt.
+infokratko: **-aj** (*dodaj*), **-i** (*uzmi, skreni*), **-j** (*pij*). *idi, dođi* als Ganzes.
+opis: Ordne jedem Befehl seine Bedeutung zu.
+- Uzmi! | Nimm!
+- Dodaj! | Füg hinzu!
+- Miješaj! | Rühr um!
+- Idi! | Geh!
+- Skreni! | Bieg ab!
+- Gledaj! | Schau!
+- Požuri! | Beeil dich!
+- Dođi! | Komm!
+- Stavi! | Leg hin!
+- Pij! | Trink!
 
-## One friend or a group?
+## Ein Freund oder eine Gruppe?
 format: razvrstavanje
-info: Sorting commands by who they are for. The plain form is for one person you call *ti*: *uzmi, idi, pij*. With **-te** it is for a group, or for one person you call *vi*: *uzmite, idite, pijte*. *Nemoj* and *nemojte* work the same way.
-infokratko: No **-te** → one friend (*ti*). **-te** → a group or polite *vi*.
+info: Befehle danach sortieren, für wen sie sind. Die einfache Form ist für eine Person, die du mit *ti* ansprichst: *uzmi, idi, pij*. Mit **-te** ist sie für eine Gruppe oder für eine Person, die du mit *vi* ansprichst: *uzmite, idite, pijte*. *Nemoj* und *nemojte* funktionieren genauso.
+infokratko: Kein **-te** → ein Freund (*ti*). **-te** → eine Gruppe oder höfliches *vi*.
 stupci: JEDNOM (ti) | GRUPI ILI VI
-opis: Is the command for one friend, or for a group (or someone you call *vi*)?
+opis: Ist der Befehl für einen Freund oder für eine Gruppe (oder jemanden, den du mit *vi* ansprichst)?
 - Uzmi tri jaja! | JEDNOM (ti)
 - Idi ravno! | JEDNOM (ti)
 - Pij vodu! | JEDNOM (ti)
@@ -131,9 +131,9 @@ opis: Is the command for one friend, or for a group (or someone you call *vi*)?
 ## Tippe auf die Endung
 format: nastavak
 nastavci: aj | i | j
-info: One tap turns the verb into an order for one friend. Verbs whose *ti* form ends in **-aš** take **-aj**, verbs in **-eš** or **-iš** take **-i**, and when a **j** comes before *-eš* the order ends in that **j**: *piješ → pij, kupuješ → kupuj*.
+info: Ein Tippen macht aus dem Verb einen Befehl an einen Freund. Verben, deren *ti*-Form auf **-aš** endet, bekommen **-aj**, Verben auf **-eš** oder **-iš** bekommen **-i**, und wenn vor *-eš* ein **j** steht, endet der Befehl auf diesem **j**: *piješ → pij, kupuješ → kupuj*.
 infokratko: *-aš* → **-aj**; *-eš / -iš* → **-i**; *-ješ* → **-j**.
-opis: The *ti* form is in the English line. One tap makes the order.
+opis: Die *ti*-Form steht in der deutschen Zeile. Ein Tippen macht den Befehl.
 - Gled___ me! | Look at me! (gledaš) | aj
 - Uzm___ tri jaja! | Take three eggs! (uzmeš) | i
 - Pi___ vodu! | Drink water! (piješ) | j
@@ -141,7 +141,7 @@ opis: The *ti* form is in the English line. One tap makes the order.
 - Skren___ lijevo! | Turn left! (skreneš) | i
 - Zagri___ tavu! | Heat up the pan! (zagriješ) | j
 - Miješ___ dvije minute! | Mix for two minutes! (miješaš) | aj
-- Stav___ marmeladu! | Put on the jam! (staviš) | i
+- Stav___ marmeladu! | Gib die Marmelade drauf! (staviš) | i
 - Kupu___ kruh! | Buy bread! (kupuješ) | j
 - Sluš___ učiteljicu! | Listen to the teacher! (slušaš) | aj
 - Okren___ palačinku! | Flip the pancake! (okreneš) | i
@@ -153,9 +153,9 @@ opis: The *ti* form is in the English line. One tap makes the order.
 
 ## Wähle die Form
 format: izbor
-info: Choosing the correct imperative. The wrong options take the wrong ending: **-aj** on a verb in *-eš*, **-i** on a verb in *-aš*, or an extra *-j* where none belongs. The label in brackets tells you who gets the order: one friend, or a group.
-infokratko: Not *uzmaj*, not *dodi*, not *uzmij*. One friend: no **-te**; group: **+te**.
-opis: One friend or a group? Choose the right command.
+info: Den richtigen Imperativ wählen. Die falschen Optionen haben die falsche Endung: **-aj** bei einem Verb auf *-eš*, **-i** bei einem Verb auf *-aš* oder ein zusätzliches *-j*, wo keins hingehört. Die Angabe in Klammern sagt dir, wer den Befehl bekommt: ein Freund oder eine Gruppe.
+infokratko: Nicht *uzmaj*, nicht *dodi*, nicht *uzmij*. Ein Freund: kein **-te**; Gruppe: **+te**.
+opis: Ein Freund oder eine Gruppe? Wähle den richtigen Befehl.
 - (prijatelju) ___ tri jaja! | Uzmi | Uzmaj | Uzmij
 - (grupi) ___ ravno do semafora! | Idite | Idajte | Idijte
 - (prijatelju) ___ malo soli! | Dodaj | Dodi | Dodij
@@ -169,11 +169,11 @@ opis: One friend or a group? Choose the right command.
 - (grupi) ___ ! Vlak kreće! | Požurite | Požurajte | Požurijte
 - (prijatelju) ___ pismo! | Piši | Pišaj | Pišij
 
-## Type the order
+## Schreib den Befehl
 format: upis
-info: You type the order yourself, for one friend or for a group. Start from the *ti* form: **-aš** gives **-aj**, **-eš** and **-iš** give **-i**, and *-ješ* gives **-j**. For the group add **-te**. *Idi* and *dođi* are the two learned whole.
-infokratko: *ti* form → **-aj / -i / -j**; group **+te**. *idi, dođi*.
-opis: Type the command. (ti) = one friend, (vi) = a group.
+info: Du schreibst den Befehl selbst, für einen Freund oder für eine Gruppe. Geh von der *ti*-Form aus: **-aš** ergibt **-aj**, **-eš** und **-iš** ergeben **-i**, und *-ješ* ergibt **-j**. Für die Gruppe hängst du **-te** an. *Idi* und *dođi* sind die zwei, die man als Ganzes lernt.
+infokratko: *ti*-Form → **-aj / -i / -j**; Gruppe **+te**. *idi, dođi*.
+opis: Schreib den Befehl. (ti) = ein Freund, (vi) = eine Gruppe.
 - (ti) uzeti → | Uzmi
 - (vi) uzeti → | Uzmite
 - (ti) dodati → | Dodaj
@@ -187,26 +187,26 @@ opis: Type the command. (ti) = one friend, (vi) = a group.
 - (ti) staviti → | Stavi
 - (vi) gledati → | Gledajte
 
-## Saying "don't"
+## „Nicht“ sagen
 format: tekst
-info: The second rule: two ways to say *don't*. Put *ne* in front of the order (*Ne trči!*), or use *nemoj* / *nemojte* with the infinitive (*Nemoj trčati!*). Both are correct; *nemoj* sounds softer. A *don't* is usually about an ongoing action, so it takes a verb like *trčati* or *gledati*.
-infokratko: *Ne* + order (*Ne trči!*) or *nemoj / nemojte* + infinitive (*Nemoj trčati!*).
+info: Die zweite Regel: zwei Arten, *nicht* zu sagen. Setz *ne* vor den Befehl (*Ne trči!*) oder benutze *nemoj* / *nemojte* mit dem Infinitiv (*Nemoj trčati!*). Beides ist richtig; *nemoj* klingt sanfter. Ein Verbot betrifft meist eine laufende Handlung, also nimmt es ein Verb wie *trčati* oder *gledati*.
+infokratko: *Ne* + Befehl (*Ne trči!*) oder *nemoj / nemojte* + Infinitiv (*Nemoj trčati!*).
 infoodmah: da
-opis: Two ways to say *don't*. Read the table and fill in the last line.
-- **Two kinds of *don't*.**
-- tab: Style | How | Example
-- tab: direct | **ne** + order | Ne trči! Ne gledaj telefon!
-- tab: softer | **nemoj / nemojte** + infinitive | Nemoj trčati! Nemojte spavati!
-- **Both are correct**, and *nemoj* sounds friendlier — it is the one you want with people you have just met. *Nemoj* is for one friend, *nemojte* for a group or for *vi*, just like *uzmi / uzmite*.
-- **After *nemoj*, the verb stays in the infinitive:** *Nemoj **gledati** telefon!* — not *Nemoj gledaj*.
-- **Don't, while something is going on.** A *don't* usually stops an activity, so it uses a verb for an ongoing action: *Ne trči! Nemoj piti kavu navečer!*
-- **Now you write them.** [Ne] trči! [Nemoj] trčati! [Nemojte] spavati!
+opis: Zwei Arten, *nicht* zu sagen. Lies die Tabelle und ergänze die letzte Zeile.
+- **Zwei Arten von Verbot.**
+- tab: Stil | Wie | Beispiel
+- tab: direkt | **ne** + Befehl | Ne trči! Ne gledaj telefon!
+- tab: sanfter | **nemoj / nemojte** + Infinitiv | Nemoj trčati! Nemojte spavati!
+- **Beides ist richtig**, und *nemoj* klingt freundlicher – das willst du bei Leuten, die du gerade kennengelernt hast. *Nemoj* ist für einen Freund, *nemojte* für eine Gruppe oder für *vi*, genau wie *uzmi / uzmite*.
+- **Nach *nemoj* bleibt das Verb im Infinitiv:** *Nemoj **gledati** telefon!* – nicht *Nemoj gledaj*.
+- **Nicht, während etwas läuft.** Ein Verbot stoppt meist eine Tätigkeit, also benutzt es ein Verb für eine laufende Handlung: *Ne trči! Nemoj piti kavu navečer!*
+- **Jetzt schreibst du sie.** [Ne] trči! [Nemoj] trčati! [Nemojte] spavati!
 
 ## Verneine es
 format: upis
-info: You turn each order into a *don't*, and both ways are accepted: *ne* in front of the order, or *nemoj / nemojte* with the infinitive. Keep the person: an order with **-te** needs *nemojte*.
-infokratko: *Ne* + order, or *nemoj(te)* + infinitive. **-te** → *nemojte*.
-opis: Tell them NOT to do it — both ways work.
+info: Du machst aus jedem Befehl ein Verbot, und beide Arten werden akzeptiert: *ne* vor dem Befehl oder *nemoj / nemojte* mit dem Infinitiv. Behalte die Person bei: Ein Befehl mit **-te** braucht *nemojte*.
+infokratko: *Ne* + Befehl oder *nemoj(te)* + Infinitiv. **-te** → *nemojte*.
+opis: Sag ihnen, dass sie es NICHT tun sollen – beide Arten funktionieren.
 - Trči! → | Ne trči / Nemoj trčati
 - Gledaj telefon! → | Ne gledaj telefon / Nemoj gledati telefon
 - Spavajte! → | Ne spavajte / Nemojte spavati
@@ -218,11 +218,11 @@ opis: Tell them NOT to do it — both ways work.
 - Trčite preko ceste! → | Ne trčite preko ceste / Nemojte trčati preko ceste
 - Pjevaj tako glasno! → | Ne pjevaj tako glasno / Nemoj pjevati tako glasno
 
-## The recipe
+## Das Rezept
 format: poredak
-info: Sequence the pancake recipe. Ingredients come first, then salt and mixing; the pan is heated before anything is fried, and a pancake is flipped only after it has been in the pan. Jam and sharing come last.
-infokratko: Ingredients, mixing, the hot pan, frying, flipping, jam, sharing.
-opis: The pancake recipe got scrambled! Put the steps in order.
+info: Ordne das Pfannkuchenrezept. Zuerst kommen die Zutaten, dann Salz und Rühren; die Pfanne wird erhitzt, bevor etwas gebraten wird, und ein Pfannkuchen wird erst gewendet, nachdem er in der Pfanne war. Marmelade und Teilen kommen zuletzt.
+infokratko: Zutaten, Rühren, die heiße Pfanne, Braten, Wenden, Marmelade, Teilen.
+opis: Das Pfannkuchenrezept ist durcheinandergeraten! Bring die Schritte in die richtige Reihenfolge.
 - Uzmi tri jaja, brašno i mlijeko.
 - Dodaj malo soli.
 - Miješaj dvije minute.
@@ -232,11 +232,11 @@ opis: The pancake recipe got scrambled! Put the steps in order.
 - Stavi marmeladu ili čokoladu.
 - Podijeli sa sestrom!
 
-## Build the instructions
+## Bau die Anweisungen
 format: slaganje
-info: Whole instructions from tiles. The order usually opens the sentence (*Uzmi, Idite, Skrenite*), *ne* stands directly in front of it, and after *nemoj* the verb is an infinitive. Two orders can be joined with *i*.
-infokratko: The order first; *ne* right before it; *nemoj* + infinitive.
-opis: Arrange the tiles.
+info: Ganze Anweisungen aus Kacheln. Der Befehl eröffnet meist den Satz (*Uzmi, Idite, Skrenite*), *ne* steht direkt davor, und nach *nemoj* ist das Verb ein Infinitiv. Zwei Befehle können mit *i* verbunden werden.
+infokratko: Der Befehl zuerst; *ne* direkt davor; *nemoj* + Infinitiv.
+opis: Ordne die Kacheln.
 - Idite ravno do semafora.
 - Na semaforu skrenite lijevo.
 - Uzmi tri jaja i dodaj brašno.
@@ -249,12 +249,12 @@ opis: Arrange the tiles.
 - Požurite, vlak kreće za deset minuta!
 - Nemojte ići lijevo, skrenite desno!
 
-## Command sprint
+## Befehls-Sprint
 format: brzina
 trajanje: 45
-info: A timed sprint from the *ti* form to the order. **-aš** becomes **-aj** (*gledaš → gledaj*), **-eš** or **-iš** becomes **-i** (*uzmeš → uzmi, staviš → stavi*), and *-ješ* becomes **-j** (*piješ → pij*). *Ideš → idi* and *dođeš → dođi* are the two learned whole.
-infokratko: *ti* form → order: **-aj**, **-i**, **-j**. *idi, dođi*.
-opis: A *ti* form flashes — tap the order before the timer runs out.
+info: Ein zeitgebundener Sprint von der *ti*-Form zum Befehl. **-aš** wird zu **-aj** (*gledaš → gledaj*), **-eš** oder **-iš** wird zu **-i** (*uzmeš → uzmi, staviš → stavi*), und *-ješ* wird zu **-j** (*piješ → pij*). *Ideš → idi* und *dođeš → dođi* sind die zwei, die man als Ganzes lernt.
+infokratko: *ti*-Form → Befehl: **-aj**, **-i**, **-j**. *idi, dođi*.
+opis: Eine *ti*-Form blinkt auf – tippe den Befehl, bevor die Zeit abläuft.
 - gledaš | gledaj
 - uzmeš | uzmi
 - piješ | pij
@@ -268,11 +268,11 @@ opis: A *ti* form flashes — tap the order before the timer runs out.
 - zagriješ | zagrij
 - pišeš | piši
 
-## Lost in town
+## Verlaufen in der Stadt
 format: dijalog
-info: A tourist asks you the way, so you use the *vi* orders: *idite, skrenite, hodajte*. The tourist reacts to what you say, and both of your options are correct directions. Nothing in your lines depends on your gender.
-infokratko: Polite *vi* orders: *idite, skrenite, hodajte*. The tourist reacts.
-opis: A tourist asks you for directions. Be the local hero! Passive words: *Oprostite* (Excuse me), *Hvala vam puno* (Thank you very much), *za deset minuta* (in ten minutes), *Sretan put* (Have a good trip).
+info: Ein Tourist fragt dich nach dem Weg, also benutzt du die *vi*-Befehle: *idite, skrenite, hodajte*. Der Tourist reagiert auf das, was du sagst, und beide Optionen sind richtige Wegbeschreibungen. Nichts in deinen Zeilen hängt von deinem Geschlecht ab.
+infokratko: Höfliche *vi*-Befehle: *idite, skrenite, hodajte*. Der Tourist reagiert.
+opis: Ein Tourist fragt dich nach dem Weg. Sei der Held vor Ort! Passive Wörter: *Oprostite* (Entschuldigung), *Hvala vam puno* (Vielen Dank), *za deset minuta* (in zehn Minuten), *Sretan put* (Gute Reise).
 - npc | Oprostite, gdje je kolodvor?
 - ti | Idite ravno do semafora. | Idite ravno do raskrižja.
 - npc | Ravno? Dobro. A onda?
@@ -286,12 +286,12 @@ opis: A tourist asks you for directions. Be the local hero! Passive words: *Opro
 - npc | Neću! Hvala vam puno!
 - ti | Nema problema. Sretan put! | Molim. Sretan put!
 
-## Read: Coach Zvone
+## Lesen: Trainer Zvone
 format: izbor
-info: Read the training session, then answer in Croatian. Zvone speaks almost only in orders: to one child the order has no **-te** (*dodaj, skoči*), to the whole team it has **-te** (*trčite, pijte*). Watch who each order is for.
-infokratko: Read, then answer. No **-te** → one child; **-te** → the whole team.
+info: Lies das Training und antworte dann auf Kroatisch. Zvone spricht fast nur in Befehlen: An ein Kind hat der Befehl kein **-te** (*dodaj, skoči*), an die ganze Mannschaft hat er **-te** (*trčite, pijte*). Achte darauf, für wen jeder Befehl ist.
+infokratko: Lesen, dann antworten. Kein **-te** → ein Kind; **-te** → die ganze Mannschaft.
 tekst: U subotu ujutro trener Zvone trenira djecu. "Dobro jutro! Prvo trčite pet minuta!" Djeca trče. Onda Zvone daje upute: "Ana, dodaj loptu Marku! Marko, skoči! Petra, ne gledaj telefon, ti si golman!" Poslije sat vremena Zvone kaže: "Sada pijte vodu. Nemojte piti sok!" Na kraju kaže: "Bravo! Dođite sutra u devet. Sutra je utakmica!"
-opis: Read the story, then answer the questions. Passive words: *daje upute* (gives instructions), *skoči* (jump!), *sat vremena* (an hour), *na kraju* (at the end), *u devet* (at nine).
+opis: Lies die Geschichte und beantworte dann die Fragen. Passive Wörter: *daje upute* (gibt Anweisungen), *skoči* (spring!), *sat vremena* (eine Stunde), *na kraju* (am Ende), *u devet* (um neun).
 - Tko je Zvone? | trener | golman | učitelj
 - Što djeca prvo rade? | trče pet minuta | piju vodu | igraju utakmicu
 - Komu Ana dodaje loptu? | Marku | Petri | Ivanu
@@ -301,28 +301,28 @@ opis: Read the story, then answer the questions. Passive words: *daje upute* (gi
 
 ## Lektionscheck
 format: provjera
-info: The scored mix of the lesson, and 80% opens Vocabulary 17. Most of the points sit on the three endings — **-aj**, **-i**, **-j** — with **-te** for a group, and on the two ways of saying *don't*: *ne* + order and *nemoj* + infinitive.
-infokratko: Lesson 17; 80% opens Vocabulary 17. **-aj / -i / -j**, **+te**; *ne* or *nemoj*.
+info: Die bewertete Mischung der Lektion, und 80 % schalten Wortschatz 17 frei. Die meisten Punkte hängen an den drei Endungen – **-aj**, **-i**, **-j** – mit **-te** für eine Gruppe, und an den zwei Arten, *nicht* zu sagen: *ne* + Befehl und *nemoj* + Infinitiv.
+infokratko: Lektion 17; 80 % schalten Wortschatz 17 frei. **-aj / -i / -j**, **+te**; *ne* oder *nemoj*.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 17.
-- slaganje | Na semaforu skrenite lijevo. | en: At the traffic lights, turn left.
+opis: Letzter Check! Erreiche 80 %, um bereit für Wortschatz 17 zu sein.
+- slaganje | Na semaforu skrenite lijevo. | en: Bieg an der Ampel links ab.
 - izbor | (grupi) ___ sutra! | Dođite | Dođajte | Doćite
 - upis | Napravi naredbu: ti ideš → | Idi
 - upis | Reci "nemoj": Gledaj telefon! → | Nemoj gledati telefon / Ne gledaj telefon
-- izbor | Što znači "ravno"? | straight ahead | left | right
+- izbor | Što znači "ravno"? | geradeaus | links | rechts
 - izbor | Prvi korak recepta je... | Uzmi jaja, brašno i mlijeko. | Peci palačinku. | Okreni palačinku.
 - izbor | Naredba grupi je... | Pijte vodu! | Piju vodu! | Pijajte vodu!
-- slaganje | Uzmite kartu i idite na kolodvor. | en: Take a ticket and go to the station.
+- slaganje | Uzmite kartu i idite na kolodvor. | en: Nimm eine Fahrkarte und geh zum Bahnhof.
 - upis | (ti) dodati → ___ malo soli! | Dodaj
 - izbor | (prijatelju) ___ tavu! | Zagrij | Zagriji | Zagrijaj
 - upis | (vi) uzeti → ___ tri jaja! | Uzmite
-- slaganje | Nemoj trčati preko ceste! | en: Don't run across the road!
+- slaganje | Nemoj trčati preko ceste! | en: Lauf nicht über die Straße!
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You can now give orders and instructions: the *ti* form turns into **-aj**, **-i** or **-j**, a group or a polite *vi* adds **-te**, and *don't* is *ne* + order or *nemoj* + infinitive.
+info: Eine abschließende Zusammenfassung. Jetzt kannst du Befehle und Anweisungen geben: Die *ti*-Form wird zu **-aj**, **-i** oder **-j**, eine Gruppe oder ein höfliches *vi* bekommt **-te** dazu, und *nicht* ist *ne* + Befehl oder *nemoj* + Infinitiv.
 infokratko: **-aj / -i / -j**, **+te**; *Ne trči! Nemoj trčati!*
-opis: Read what you can do now, and what comes next.
-- Odlično! You can now give directions, run a kitchen and coach a football team — all in Croatian.
-- **Next up:** Vocabulary 17 brings the rest of the kitchen — *pećnica, štednjak, papar* — and the four sides of the map: *sjever, jug, istok, zapad*. Grammar 17 shows how to make an order softer, with *možeš li* and *molim te*.
-- **Then Lesson 18:** we dream big — *Kupio bih kuću pokraj mora…* — the conditional, the grammar of wishes and million-euro questions.
+opis: Lies, was du jetzt kannst und was als Nächstes kommt.
+- Odlično! Jetzt kannst du den Weg beschreiben, eine Küche leiten und eine Fußballmannschaft trainieren – alles auf Kroatisch.
+- **Als Nächstes:** Wortschatz 17 bringt den Rest der Küche – *pećnica, štednjak, papar* – und die vier Himmelsrichtungen: *sjever, jug, istok, zapad*. Grammatik 17 zeigt, wie man einen Befehl sanfter macht, mit *možeš li* und *molim te*.
+- **Dann Lektion 18:** Wir träumen groß – *Kupio bih kuću pokraj mora…* – der Konditional, die Grammatik der Wünsche und Millionen-Euro-Fragen.

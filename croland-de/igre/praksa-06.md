@@ -1,27 +1,27 @@
-# Reading: City Life
+# Lesen: Stadtleben
 cjelina: Practice 6
 
-## Text 1: The tram
+## Text 1: Die Straßenbahn
 format: tekst
-info: A short story with a translation beside it. Read it for the accusative at work: *vidi prijatelja* and *zove Marka* mark living targets with **-a**, while *čeka tramvaj* leaves the thing untouched. Names bend too, so *Ana* becomes *Anu*.
-infokratko: Living targets **-a** (*vidi prijatelja, zove Marka*), things unchanged (*čeka tramvaj*). *Ana → Anu*.
-- City life, written the way Croatians actually write it.
-- Passive words: *oprostite* (excuse me), *maše* (waves), *kroz* (through), *još jednom* (once more), *Sretan put!* (have a good trip!), *žuri* (hurries).
-- Ana ide u grad. | Ana is going to the city.
-- Ona čeka tramvaj. | She is waiting for the tram.
-- Tramvaj je pun. | The tram is full.
-- Ana vidi prijatelja. | Ana sees a friend.
+info: Eine kurze Geschichte mit einer Übersetzung daneben. Lies sie auf den Akkusativ hin: *vidi prijatelja* und *zove Marka* markieren belebte Ziele mit **-a**, während *čeka tramvaj* das Ding unberührt lässt. Auch Namen biegen sich, also wird *Ana* zu *Anu*.
+infokratko: Belebte Ziele **-a** (*vidi prijatelja, zove Marka*), Dinge unverändert (*čeka tramvaj*). *Ana → Anu*.
+- Stadtleben, so geschrieben, wie Kroaten wirklich schreiben.
+- Passive Wörter: *oprostite* (Entschuldigung), *maše* (winkt), *kroz* (durch), *još jednom* (noch einmal), *Sretan put!* (Gute Reise!), *žuri* (eilt).
+- Ana ide u grad. | Ana fährt in die Stadt.
+- Ona čeka tramvaj. | Sie wartet auf die Straßenbahn.
+- Tramvaj je pun. | Die Straßenbahn ist voll.
+- Ana vidi prijatelja. | Ana sieht einen Freund.
 - "Marko! Bok!" | "Marko! Hi!"
-- Marko ne čuje Anu jer sluša glazbu. | Marko doesn't hear Ana because he is listening to music.
-- Ana zove Marka još jednom. "Marko!" | Ana calls Marko once more. "Marko!"
-- Sad Marko vidi Anu i maše. | Now Marko sees Ana and waves.
-- Oni gledaju grad kroz prozor i pričaju. | They look at the city through the window and chat.
-- Marko fotografira most, a Ana fotografira Marka. | Marko photographs the bridge, and Ana photographs Marko.
+- Marko ne čuje Anu jer sluša glazbu. | Marko hört Ana nicht, weil er Musik hört.
+- Ana zove Marka još jednom. "Marko!" | Ana ruft Marko noch einmal. „Marko!“
+- Sad Marko vidi Anu i maše. | Jetzt sieht Marko Ana und winkt.
+- Oni gledaju grad kroz prozor i pričaju. | Sie schauen durchs Fenster auf die Stadt und plaudern.
+- Marko fotografira most, a Ana fotografira Marka. | Marko fotografiert die Brücke, und Ana fotografiert Marko.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension questions on the tram text. The question word *koga* means *whom*, the target, so its answer must carry the ending: *Koga Ana vidi?* is answered with *prijatelja*, never with *prijatelj*.
-infokratko: *koga* = whom, so the answer has **-a**: *prijatelja*.
+info: Verständnisfragen zum Straßenbahntext. Das Fragewort *koga* bedeutet *wen*, das Ziel, also muss seine Antwort die Endung tragen: *Koga Ana vidi?* wird mit *prijatelja* beantwortet, nie mit *prijatelj*.
+infokratko: *koga* = wen, also hat die Antwort **-a**: *prijatelja*.
 tekst: Ana ide u grad. Ona čeka tramvaj. Tramvaj je pun. Ana vidi prijatelja. "Marko! Bok!" Marko ne čuje Anu jer sluša glazbu. Ana zove Marka još jednom. Sad Marko vidi Anu i maše. Oni gledaju grad kroz prozor i pričaju. Marko fotografira most, a Ana fotografira Marka.
 opis: Antworte aus dem Text.
 - Što Ana čeka? | tramvaj | autobus | taksi
@@ -31,25 +31,25 @@ opis: Antworte aus dem Text.
 - Što Marko fotografira? | most | spomenik | tramvaj
 - Koga Ana fotografira? | Marka | prijatelja | vozača
 
-## Text 2: Who sees whom?
+## Text 2: Wer sieht wen?
 format: tekst
-info: A chain puzzle rather than a story. The ending is your only clue to who does what, so read each **-a** as the one being watched: in *Policajac gleda turista* the police officer looks and the tourist is looked at.
-infokratko: The **-a** marks who is watched: *Policajac gleda turista*.
-- A puzzle, not a story. Everybody on this street is looking at something — but nobody is looking back. Read it twice before you answer. Passive words: *nitko* (nobody), *svi* (everyone), *nešto* (something), *smije se* (laughs), *ali* you already know.
-- Ulica je puna. Svi nešto gledaju. | The street is full. Everyone is looking at something.
-- Turist fotografira spomenik. | The tourist is photographing the monument.
-- Policajac gleda turista, ali turist ne vidi policajca. | The police officer is watching the tourist, but the tourist doesn't see the police officer.
-- Konobar gleda policajca jer kava čeka. | The waiter is watching the police officer because the coffee is waiting.
-- Pas gleda konobara jer konobar nosi kruh. | The dog is watching the waiter because the waiter is carrying bread.
-- Dječak gleda psa i smije se. | The boy is watching the dog and laughing.
-- Nitko ne gleda dječaka. | Nobody is watching the boy.
+info: Ein Kettenrätsel statt einer Geschichte. Die Endung ist dein einziger Hinweis, wer was tut, also lies jedes **-a** als den, der angeschaut wird: In *Policajac gleda turista* schaut der Polizist, und der Tourist wird angeschaut.
+infokratko: Das **-a** markiert, wer angeschaut wird: *Policajac gleda turista*.
+- Ein Rätsel, keine Geschichte. Jeder auf dieser Straße schaut etwas an – aber niemand schaut zurück. Lies es zweimal, bevor du antwortest. Passive Wörter: *nitko* (niemand), *svi* (alle), *nešto* (etwas), *smije se* (lacht), *ali* kennst du schon.
+- Ulica je puna. Svi nešto gledaju. | Die Straße ist voll. Alle schauen etwas an.
+- Turist fotografira spomenik. | Der Tourist fotografiert das Denkmal.
+- Policajac gleda turista, ali turist ne vidi policajca. | Der Polizist beobachtet den Touristen, aber der Tourist sieht den Polizisten nicht.
+- Konobar gleda policajca jer kava čeka. | Der Kellner beobachtet den Polizisten, weil der Kaffee wartet.
+- Pas gleda konobara jer konobar nosi kruh. | Der Hund beobachtet den Kellner, weil der Kellner Brot trägt.
+- Dječak gleda psa i smije se. | Der Junge beobachtet den Hund und lacht.
+- Nitko ne gleda dječaka. | Niemand beobachtet den Jungen.
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Questions that follow the chain. Every *koga* question asks for the target, so the answer is the form ending in **-a**; work backwards from the last line, where nobody is watching *dječaka*.
-infokratko: *koga* asks for the target (**-a**). Start from the last line.
+info: Fragen, die der Kette folgen. Jede *koga*-Frage fragt nach dem Ziel, die Antwort ist also die Form auf **-a**; arbeite dich von der letzten Zeile rückwärts, wo niemand den *dječaka* beobachtet.
+infokratko: *koga* fragt nach dem Ziel (**-a**). Fang mit der letzten Zeile an.
 tekst: Ulica je puna. Turist fotografira spomenik. Policajac gleda turista, ali turist ne vidi policajca. Konobar gleda policajca jer kava čeka. Pas gleda konobara jer konobar nosi kruh. Dječak gleda psa i smije se. Nitko ne gleda dječaka.
-opis: Work the chain out from the end. Every answer is somewhere in the line.
+opis: Arbeite die Kette vom Ende her aus. Jede Antwort steht irgendwo in der Zeile.
 - Koga gleda policajac? | turista | konobara | psa
 - Koga gleda konobar? | policajca | turista | dječaka
 - Koga gleda pas? | konobara | dječaka | policajca
@@ -57,12 +57,12 @@ opis: Work the chain out from the end. Every answer is somewhere in the line.
 - Tko ne vidi policajca? | turist | konobar | pas
 - Koga nitko ne gleda? | dječaka | psa | turista
 
-## Changed or not?
+## Verändert oder nicht?
 format: razvrstavanje
-info: Sorting words exactly as they appeared in the texts. A living masculine gained **-a** (*psa*, *policajca*) and a feminine word gained **-u** (*Anu*, *glazbu*), while things like *most* and *kruh* came through completely untouched.
-infokratko: As in the texts: beings **-a** (*psa*), feminine **-u** (*Anu*), things unchanged (*most*).
+info: Wörter genau so sortieren, wie sie in den Texten standen. Ein belebtes Maskulinum hat **-a** bekommen (*psa*, *policajca*) und ein feminines Wort **-u** (*Anu*, *glazbu*), während Dinge wie *most* und *kruh* völlig unberührt durchgekommen sind.
+infokratko: Wie in den Texten: Lebewesen **-a** (*psa*), feminin **-u** (*Anu*), Dinge unverändert (*most*).
 stupci: PROMIJENJENO | NEPROMIJENJENO
-opis: Every word here appears in one of the texts. Did it take an ending, or did it stay exactly as its naming form?
+opis: Jedes Wort hier kommt in einem der Texte vor. Hat es eine Endung bekommen, oder ist es genau in seiner Benennungsform geblieben?
 - čovjeka | PROMIJENJENO
 - psa | PROMIJENJENO
 - konobara | PROMIJENJENO
@@ -80,25 +80,25 @@ opis: Every word here appears in one of the texts. Did it take an ending, or did
 - grad | NEPROMIJENJENO
 - kruh | NEPROMIJENJENO
 
-## Text 3: Lost and found
+## Text 3: Verloren und gefunden
 format: tekst
-info: A public notice, not a narrative. Watch its two accusatives: *Ako vidite psa* uses the living ending, and *Obično ga vodim* replaces the same dog with the short pronoun, tucked in neatly after the verb.
-infokratko: *Ako vidite psa*; *Obično ga vodim* replaces the dog.
-- A notice on the wall at the tram stop. No story, no dialogue — just somebody who has had a bad morning. Passive words: *izgubljen* (lost), *molim vas* (please), *ako* (if), *zovite* (call), *nagrada* (reward), *smeđ* (brown), *zove se* (is called).
-- IZGUBLJEN PAS | LOST DOG
-- Zove se Riko. Smeđ je i brz. | He is called Riko. He is brown and fast.
-- Nosi crven ključ na vratu. | He is wearing a red key on his neck.
-- Obično ga vodim kod mosta. | I usually walk him by the bridge.
-- Ako vidite psa, molim vas, zovite broj 091 234 567. | If you see the dog, please call the number 091 234 567.
-- Nagrada: jedna torta i jedna kava! | Reward: one cake and one coffee!
-- Riko voli kruh, ali ne voli tramvaj. | Riko loves bread, but he doesn't love the tram.
+info: Ein öffentlicher Aushang, keine Erzählung. Achte auf seine zwei Akkusative: *Ako vidite psa* verwendet die Endung für Lebewesen, und *Obično ga vodim* ersetzt denselben Hund durch das kurze Pronomen, ordentlich nach dem Verb eingefügt.
+infokratko: *Ako vidite psa*; *Obično ga vodim* ersetzt den Hund.
+- Ein Aushang an der Wand bei der Straßenbahnhaltestelle. Keine Geschichte, kein Dialog – nur jemand, der einen schlechten Morgen hatte. Passive Wörter: *izgubljen* (verloren), *molim vas* (bitte), *ako* (wenn), *zovite* (ruft an / rufen Sie an), *nagrada* (Belohnung), *smeđ* (braun), *zove se* (heißt).
+- IZGUBLJEN PAS | VERMISSTER HUND
+- Zove se Riko. Smeđ je i brz. | Er heißt Riko. Er ist braun und schnell.
+- Nosi crven ključ na vratu. | Er trägt einen roten Schlüssel am Hals.
+- Obično ga vodim kod mosta. | Normalerweise führe ich ihn an der Brücke aus.
+- Ako vidite psa, molim vas, zovite broj 091 234 567. | Wenn Sie den Hund sehen, rufen Sie bitte die Nummer 091 234 567 an.
+- Nagrada: jedna torta i jedna kava! | Belohnung: eine Torte und ein Kaffee!
+- Riko voli kruh, ali ne voli tramvaj. | Riko liebt Brot, aber er mag die Straßenbahn nicht.
 
-## About the notice
+## Zum Aushang
 format: izbor
-info: Questions about the lost-dog notice, some stated and some you have to work out. Note that *pas* shows up as *psa* whenever it is the target — that ending is your signal for what is being seen.
-infokratko: *pas* as target = *psa*.
+info: Fragen zum Aushang über den vermissten Hund, manche stehen drin, manche musst du herleiten. Beachte, dass *pas* als *psa* auftaucht, wann immer er das Ziel ist – diese Endung ist dein Signal dafür, was gesehen wird.
+infokratko: *pas* als Ziel = *psa*.
 tekst: IZGUBLJEN PAS. Zove se Riko. Smeđ je i brz. Nosi crven ključ na vratu. Obično ga vodim kod mosta. Ako vidite psa, molim vas, zovite broj 091 234 567. Nagrada: jedna torta i jedna kava! Riko voli kruh, ali ne voli tramvaj.
-opis: Some of these are in the notice, and some you have to work out.
+opis: Manche davon stehen im Aushang, manche musst du herleiten.
 - Tko je Riko? | pas | dječak | konobar
 - Kakav je Riko? | smeđ i brz | velik i star | crn i miran
 - Što Riko nosi? | ključ | kartu | kruh
@@ -106,11 +106,11 @@ opis: Some of these are in the notice, and some you have to work out.
 - Nagrada je... | torta i kava | novac | ključ
 - Gdje ga vlasnik obično vodi? | kod mosta | na trgu | u parku
 
-## Answer without repeating
+## Antworte, ohne zu wiederholen
 format: dijalog
-info: A conversation answered with pronouns. Take the gender from the noun in the question — *tramvaj* gives *ga*, *knjigu* gives *je* — and keep the little word after the verb, as in *Da, čujem je*.
-infokratko: Gender from the question: *tramvaj → ga*, *knjigu → je*. *Da, čujem je.*
-opis: A neighbour is asking a lot of questions. Answer him — but never say the noun twice. Every reply on the right uses the pronoun instead.
+info: Ein Gespräch, das mit Pronomen beantwortet wird. Nimm das Genus vom Nomen in der Frage – *tramvaj* ergibt *ga*, *knjigu* ergibt *je* – und lass das kleine Wort nach dem Verb, wie in *Da, čujem je*.
+infokratko: Genus aus der Frage: *tramvaj → ga*, *knjigu → je*. *Da, čujem je.*
+opis: Ein Nachbar stellt viele Fragen. Antworte ihm – aber sag das Nomen nie zweimal. Jede Antwort rechts verwendet stattdessen das Pronomen.
 - npc | Bok! Čekaš li tramvaj?
 - ti | Da, čekam ga. | Ne, čekam autobus.
 - npc | Vidiš li crven auto?
@@ -126,51 +126,51 @@ opis: A neighbour is asking a lot of questions. Answer him — but never say the
 - npc | Dobro! Sretan put!
 - ti | Hvala! Doviđenja! | Hvala! Vidimo se!
 
-## Text 4: Traffic
+## Text 4: Verkehr
 format: tekst
-info: A street snapshot to be read for endings. *Čovjek vodi psa* and *pas vuče čovjeka* use the very same two words in swapped roles, and only the **-a** tells you who is pulling whom.
-infokratko: Same words, swapped roles: *Čovjek vodi psa. Pas vuče čovjeka.*
-- Passive words: *vodi* (walks, leads), *vuče* (pulls), *golub* (pigeon), *leti* (flies), *pozdravlja* (greets), *živ* (alive).
-- Ulica je puna. | The street is full.
-- Vidim auto, autobus i tramvaj. | I see a car, a bus and a tram.
-- Vidim čovjeka i psa. | I see a man and a dog.
-- Čovjek vodi psa, a pas vuče čovjeka! | The man is walking the dog, and the dog is pulling the man!
-- Policajac gleda promet. | The police officer is watching the traffic.
-- Mačka gleda goluba, ali golub leti. | The cat is watching the pigeon, but the pigeon flies away.
-- Turist fotografira spomenik i konobara. | The tourist is photographing the monument and the waiter.
-- Konobar pozdravlja turista. | The waiter greets the tourist.
-- Vozač čeka semafor jer je promet velik. | The driver is waiting for the traffic light because the traffic is heavy.
-- Grad je živ! | The city is alive!
+info: Ein Straßenschnappschuss, der auf die Endungen hin gelesen werden will. *Čovjek vodi psa* und *pas vuče čovjeka* verwenden genau dieselben zwei Wörter in vertauschten Rollen, und nur das **-a** sagt dir, wer wen zieht.
+infokratko: Gleiche Wörter, vertauschte Rollen: *Čovjek vodi psa. Pas vuče čovjeka.*
+- Passive Wörter: *vodi* (führt aus, führt), *vuče* (zieht), *golub* (Taube), *leti* (fliegt), *pozdravlja* (grüßt), *živ* (lebendig).
+- Ulica je puna. | Die Straße ist voll.
+- Vidim auto, autobus i tramvaj. | Ich sehe ein Auto, einen Bus und eine Straßenbahn.
+- Vidim čovjeka i psa. | Ich sehe einen Mann und einen Hund.
+- Čovjek vodi psa, a pas vuče čovjeka! | Der Mann führt den Hund aus, und der Hund zieht den Mann!
+- Policajac gleda promet. | Der Polizist beobachtet den Verkehr.
+- Mačka gleda goluba, ali golub leti. | Die Katze beobachtet die Taube, aber die Taube fliegt davon.
+- Turist fotografira spomenik i konobara. | Der Tourist fotografiert das Denkmal und den Kellner.
+- Konobar pozdravlja turista. | Der Kellner grüßt den Touristen.
+- Vozač čeka semafor jer je promet velik. | Der Fahrer wartet an der Ampel, weil viel Verkehr ist.
+- Grad je živ! | Die Stadt lebt!
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
-info: Ending taps drawn from the four texts. A being takes **-a**, a thing takes the dash, and animals count as beings, so *pas* becomes *psa* while *semafor* and *kruh* stay exactly as they are.
-infokratko: Being **-a**, thing the dash. *pas → psa*, *semafor* stays.
+info: Endungs-Tipps aus den vier Texten. Ein Lebewesen nimmt **-a**, ein Ding den Strich, und Tiere zählen als Lebewesen, also wird *pas* zu *psa*, während *semafor* und *kruh* genau bleiben, wie sie sind.
+infokratko: Lebewesen **-a**, Ding der Strich. *pas → psa*, *semafor* bleibt.
 nastavci: a | -
-opis: Almost every sentence came out of the four texts. A being takes **-a**, a thing takes nothing.
-- Ana vidi prijatelj___ . | Ana sees a friend. | a
-- Ana čeka tramvaj___ . | Ana is waiting for the tram. | -
-- Policajac gleda turist___ . | The police officer is watching the tourist. | a
-- Turist fotografira spomenik___ . | The tourist is photographing the monument. | -
-- Pas gleda konobar___ . | The dog is watching the waiter. | a
-- Konobar nosi kruh___ . | The waiter is carrying bread. | -
-- Mačka gleda golub___ . | The cat is watching the pigeon. | a
-- Vidim auto___ . | I see a car. | -
-- Ana zove Mark___ . | Ana is calling Marko. | a
-- Marko fotografira most___ . | Marko is photographing the bridge. | -
-- Konobar pozdravlja turist___ . | The waiter greets the tourist. | a
-- Vozač čeka semafor___ . | The driver is waiting for the traffic light. | -
-- Vidim čovjek___ . | I see a man. | a
-- Vidim autobus___ . | I see a bus. | -
-- Turist fotografira konobar___ . | The tourist is photographing the waiter. | a
-- Ana gleda grad___ . | Ana is looking at the city. | -
+opis: Fast jeder Satz stammt aus den vier Texten. Ein Lebewesen nimmt **-a**, ein Ding nimmt nichts.
+- Ana vidi prijatelj___ . | Ana sieht einen Freund. | a
+- Ana čeka tramvaj___ . | Ana wartet auf die Straßenbahn. | -
+- Policajac gleda turist___ . | Der Polizist beobachtet den Touristen. | a
+- Turist fotografira spomenik___ . | Der Tourist fotografiert das Denkmal. | -
+- Pas gleda konobar___ . | Der Hund beobachtet den Kellner. | a
+- Konobar nosi kruh___ . | Der Kellner trägt Brot. | -
+- Mačka gleda golub___ . | Die Katze beobachtet die Taube. | a
+- Vidim auto___ . | Ich sehe ein Auto. | -
+- Ana zove Mark___ . | Ana ruft Marko. | a
+- Marko fotografira most___ . | Marko fotografiert die Brücke. | -
+- Konobar pozdravlja turist___ . | Der Kellner grüßt den Touristen. | a
+- Vozač čeka semafor___ . | Der Fahrer wartet an der Ampel. | -
+- Vidim čovjek___ . | Ich sehe einen Mann. | a
+- Vidim autobus___ . | Ich sehe einen Bus. | -
+- Turist fotografira konobar___ . | Der Tourist fotografiert den Kellner. | a
+- Ana gleda grad___ . | Ana schaut die Stadt an. | -
 
-## Type the accusative
+## Tippe den Akkusativ
 format: upis
-info: Typing the target form back into sentences you have read. Beings add **-a** (*konobar* to *konobara*, *turist* to *turista*), while things such as *semafor*, *spomenik* and *promet* are typed in unchanged.
-infokratko: Beings **+a** (*konobara, turista*); things unchanged (*semafor*).
+info: Die Zielform in Sätze zurücktippen, die du gelesen hast. Lebewesen hängen **-a** an (*konobar* zu *konobara*, *turist* zu *turista*), während Dinge wie *semafor*, *spomenik* und *promet* unverändert eingetippt werden.
+infokratko: Lebewesen **+a** (*konobara, turista*); Dinge unverändert (*semafor*).
 tekst: Vidim čovjeka i psa. Čovjek vodi psa, a pas vuče čovjeka! Turist fotografira spomenik i konobara. Konobar pozdravlja turista. Vozač čeka semafor jer je promet velik.
-opis: Fill in the accusative from the text.
+opis: Ergänze den Akkusativ aus dem Text.
 - Vidim ___ i psa. (čovjek) | čovjeka
 - Turist fotografira ___ . (konobar) | konobara
 - Konobar pozdravlja ___ . (turist) | turista
@@ -180,11 +180,11 @@ opis: Fill in the accusative from the text.
 - Turist fotografira ___ . (spomenik) | spomenik
 - Policajac gleda ___ . (promet) | promet
 
-## Say it with a pronoun
+## Sag es mit einem Pronomen
 format: upis
-info: Swapping a named target for its pronoun. Gender rules the choice — masculine and neuter give **ga**, feminine gives **je** — so *Anu* becomes *je* and *psa* becomes *ga*, each sitting in front of the verb here.
+info: Ein genanntes Ziel gegen sein Pronomen tauschen. Das Genus regelt die Wahl – Maskulinum und Neutrum ergeben **ga**, Femininum ergibt **je** –, also wird *Anu* zu *je* und *psa* zu *ga*, jeweils hier vor dem Verb.
 infokratko: m/n → **ga**, f → **je**: *Anu → je*, *psa → ga*.
-opis: Say the sentence again, but swap the noun for its little word. *ga* for masculine and neuter, *je* for feminine.
+opis: Sag den Satz noch einmal, aber tausche das Nomen gegen sein kleines Wort. *ga* für Maskulinum und Neutrum, *je* für Femininum.
 - Ana čeka tramvaj. → Ana ___ čeka. | ga
 - Marko sluša glazbu. → Marko ___ sluša. | je
 - Turist fotografira spomenik. → Turist ___ fotografira. | ga
@@ -194,11 +194,11 @@ opis: Say the sentence again, but swap the noun for its little word. *ga* for ma
 - Čovjek vodi psa. → Čovjek ___ vodi. | ga
 - Vozač čeka kartu. → Vozač ___ čeka. | je
 
-## Ana's tram ride, in order
+## Anas Straßenbahnfahrt, der Reihe nach
 format: poredak
-info: Ordering the events of the tram story. The clues are in the sense of the sentences rather than the endings, but notice that a target keeps its ending wherever the sentence lands: *Ana vidi prijatelja*.
-infokratko: Order by sense. The target keeps its ending: *Ana vidi prijatelja*.
-opis: Seven moments from a morning in the city, shuffled. Nobody wrote this down — put it in the order it would actually happen.
+info: Die Ereignisse der Straßenbahngeschichte ordnen. Die Hinweise stecken im Sinn der Sätze statt in den Endungen, aber beachte, dass ein Ziel seine Endung behält, wo auch immer der Satz landet: *Ana vidi prijatelja*.
+infokratko: Ordne nach Sinn. Das Ziel behält seine Endung: *Ana vidi prijatelja*.
+opis: Sieben Momente eines Morgens in der Stadt, durcheinandergewürfelt. Niemand hat das aufgeschrieben – bring es in die Reihenfolge, in der es wirklich passieren würde.
 - Ana ide u grad.
 - Ana čeka tramvaj.
 - Tramvaj dolazi i Ana ulazi.
@@ -209,50 +209,50 @@ opis: Seven moments from a morning in the city, shuffled. Nobody wrote this down
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English into Croatian, built from tiles. Two things decide the order: a living target ends in **-a** while a thing does not, and a short pronoun can never take the first slot, so *Ana ga čeka* is the only possibility.
-infokratko: Living target **-a**, thing no ending; pronoun never first: *Ana ga čeka*.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the four texts.
-- Ana ide u grad. | en: Ana is going to the city.
-- Ana čeka tramvaj. | en: Ana is waiting for the tram.
-- Tramvaj je pun. | en: The tram is full.
-- Ana vidi prijatelja. | en: Ana sees a friend.
-- Ana zove Marka. | en: Ana is calling Marko.
-- Marko vidi Anu. | en: Marko sees Ana.
-- Vidim čovjeka i psa. | en: I see a man and a dog.
-- Policajac gleda promet. | en: The police officer is watching the traffic.
-- Ana zove prijatelja. | en: Ana is calling a friend.
-- Turist fotografira spomenik. | en: The tourist is photographing the monument.
-- Konobar pozdravlja turista. | en: The waiter greets the tourist.
-- Policajac gleda turista. | en: The police officer is watching the tourist.
-- Pas gleda konobara. | en: The dog is watching the waiter.
-- Dječak gleda psa. | en: The boy is watching the dog.
-- Nitko ne gleda dječaka. | en: Nobody is watching the boy.
-- Čovjek vodi psa. | en: The man is walking the dog.
-- Marko fotografira most. | en: Marko is photographing the bridge.
-- Vozač čeka semafor. | en: The driver is waiting for the traffic light.
-- Vidim tramvaj, ali ne vidim autobus. | en: I see the tram, but I don't see the bus.
-- Grad je živ! | en: The city is alive!
-- Da, čekam ga. | en: Yes, I'm waiting for it.
-- Da, vidim je. | en: Yes, I see her.
-- Ana ga čeka. | en: Ana is waiting for it.
-- Marko je vidi. | en: Marko sees her.
-- Riko voli kruh, ali ne voli tramvaj. | en: Riko loves bread, but he doesn't love the tram.
-- Ulica je puna. | en: The street is full.
+info: Deutsch ins Kroatische, aus Kärtchen gebaut. Zwei Dinge entscheiden die Reihenfolge: Ein belebtes Ziel endet auf **-a**, ein Ding nicht, und ein kurzes Pronomen kann nie den ersten Platz nehmen, also ist *Ana ga čeka* die einzige Möglichkeit.
+infokratko: Belebtes Ziel **-a**, Ding ohne Endung; Pronomen nie zuerst: *Ana ga čeka*.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den vier Texten.
+- Ana ide u grad. | en: Ana fährt in die Stadt.
+- Ana čeka tramvaj. | en: Ana wartet auf die Straßenbahn.
+- Tramvaj je pun. | en: Die Straßenbahn ist voll.
+- Ana vidi prijatelja. | en: Ana sieht einen Freund.
+- Ana zove Marka. | en: Ana ruft Marko.
+- Marko vidi Anu. | en: Marko sieht Ana.
+- Vidim čovjeka i psa. | en: Ich sehe einen Mann und einen Hund.
+- Policajac gleda promet. | en: Der Polizist beobachtet den Verkehr.
+- Ana zove prijatelja. | en: Ana ruft einen Freund.
+- Turist fotografira spomenik. | en: Der Tourist fotografiert das Denkmal.
+- Konobar pozdravlja turista. | en: Der Kellner grüßt den Touristen.
+- Policajac gleda turista. | en: Der Polizist beobachtet den Touristen.
+- Pas gleda konobara. | en: Der Hund beobachtet den Kellner.
+- Dječak gleda psa. | en: Der Junge beobachtet den Hund.
+- Nitko ne gleda dječaka. | en: Niemand beobachtet den Jungen.
+- Čovjek vodi psa. | en: Der Mann führt den Hund aus.
+- Marko fotografira most. | en: Marko fotografiert die Brücke.
+- Vozač čeka semafor. | en: Der Fahrer wartet an der Ampel.
+- Vidim tramvaj, ali ne vidim autobus. | en: Ich sehe die Straßenbahn, aber ich sehe den Bus nicht.
+- Grad je živ! | en: Die Stadt lebt!
+- Da, čekam ga. | en: Ja, ich warte auf ihn.
+- Da, vidim je. | en: Ja, ich sehe sie.
+- Ana ga čeka. | en: Ana wartet auf ihn.
+- Marko je vidi. | en: Marko sieht sie.
+- Riko voli kruh, ali ne voli tramvaj. | en: Riko liebt Brot, aber er mag die Straßenbahn nicht.
+- Ulica je puna. | en: Die Straße ist voll.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word game over the city vocabulary. Everything is a naming form with no endings; for extra value, whisper the target form as you tap, remembering that only *policajac* shifts, to *policajca*.
-infokratko: Naming forms. Only *policajac → policajca* shifts.
-opis: Rush hour is over. A picture appears — tap the balloon with its word before it floats away.
-- tramvaj | tram
-- autobus | bus
+info: Ein Bild-Wort-Spiel auf Zeit mit dem Stadtwortschatz. Alles sind Benennungsformen ohne Endungen; als Extra flüstere beim Tippen die Zielform und denk dran, dass sich nur *policajac* verschiebt, zu *policajca*.
+infokratko: Benennungsformen. Nur *policajac → policajca* verschiebt sich.
+opis: Die Rushhour ist vorbei. Ein Bild erscheint – tippe auf den Ballon mit seinem Wort, bevor er davonschwebt.
+- tramvaj | Straßenbahn
+- autobus | Bus
 - auto | Auto
-- vlak | train
-- bicikl | bicycle
-- brod | boat
-- avion | airplane
+- vlak | Zug
+- bicikl | Fahrrad
+- brod | Boot
+- avion | Flugzeug
 - taksi | Taxi
-- most | bridge
-- trg | square
-- muzej | museum
+- most | Brücke
+- trg | Platz
+- muzej | Museum
 - policajac | Polizist

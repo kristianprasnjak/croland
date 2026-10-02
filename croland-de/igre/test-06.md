@@ -1,4 +1,4 @@
-# Test 6: The City & the Full Accusative
+# Test 6: Die Stadt & der vollständige Akkusativ
 cjelina: Test 6
 
 ## Ordne die Wörter zu
@@ -6,42 +6,42 @@ format: parovi
 trajanje: 1260
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- tramvaj | tram
-- autobus | bus
+- tramvaj | Straßenbahn
+- autobus | Bus
 - auto | Auto
-- vlak | train
-- bicikl | bicycle
-- brod | boat
-- avion | airplane
+- vlak | Zug
+- bicikl | Fahrrad
+- brod | Boot
+- avion | Flugzeug
 - taksi | Taxi
-- karta | ticket
-- benzin | gasoline
-- gorivo | fuel
-- promet | traffic
+- karta | Fahrkarte
+- benzin | Benzin
+- gorivo | Kraftstoff
+- promet | Verkehr
 - grad | Stadt
-- ulica | street
-- cesta | road
-- trg | square
-- most | bridge
-- park | park
-- kolodvor | station
-- stanica | stop
-- kiosk | kiosk
-- muzej | museum
-- galerija | gallery
-- katedrala | cathedral
-- banka | bank
-- bolnica | hospital
-- knjižnica | library
-- zgrada | building
-- ured | office
-- tunel | tunnel
-- semafor | traffic light
-- spomenik | monument
-- kvart | neighborhood
-- kat | floor
-- ključ | key
-- čovjek | man
+- ulica | Straße
+- cesta | Straße (Landstraße)
+- trg | Platz
+- most | Brücke
+- park | Park
+- kolodvor | Bahnhof
+- stanica | Haltestelle
+- kiosk | Kiosk
+- muzej | Museum
+- galerija | Galerie
+- katedrala | Kathedrale
+- banka | Bank
+- bolnica | Krankenhaus
+- knjižnica | Bibliothek
+- zgrada | Gebäude
+- ured | Büro
+- tunel | Tunnel
+- semafor | Ampel
+- spomenik | Denkmal
+- kvart | Viertel
+- kat | Stockwerk
+- ključ | Schlüssel
+- čovjek | Mann
 - prijatelj | Freund
 - konobar | Kellner
 - policajac | Polizist
@@ -51,107 +51,107 @@ opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
 - student | Student
 - učenik | Schüler
 - vozač | Fahrer
-- poštar | postman
+- poštar | Briefträger
 - dječak | Junge
-- kupac | customer
-- konj | horse
-- golub | pigeon
-- čekati | to wait for
-- vidjeti | to see
-- čuti | to hear
-- zvati | to call
-- voziti | to drive
-- pričati | to chat
-- ulaziti | to enter
-- prelaziti | to cross
-- žuriti | to hurry
+- kupac | Kunde
+- konj | Pferd
+- golub | Taube
+- čekati | warten auf
+- vidjeti | sehen
+- čuti | hören
+- zvati | rufen, anrufen
+- voziti | fahren
+- pričati | plaudern
+- ulaziti | eintreten
+- prelaziti | überqueren
+- žuriti | sich beeilen
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- tramvaj | tram | bus | train
-- autobus | bus | tram | Taxi
-- vlak | train | tram | boat
-- bicikl | bicycle | motorbike | Auto
-- brod | boat | airplane | bridge
-- avion | airplane | boat | train
-- taksi | Taxi | bus | Auto
-- karta | ticket | key | bill
-- benzin | gasoline | fuel | oil
-- gorivo | fuel | gasoline | traffic
-- promet | traffic | street | road
-- grad | Stadt | square | building
-- ulica | street | road | bridge
-- cesta | road | street | tunnel
-- trg | square | park | market
-- most | bridge | tunnel | road
-- kolodvor | station | stop | kiosk
-- stanica | stop | station | office
-- muzej | museum | gallery | theater
-- galerija | gallery | museum | library
-- katedrala | cathedral | church | monument
-- banka | bank | office | shop
-- bolnica | hospital | pharmacy | Arzt
-- knjižnica | library | bookshop | school
-- zgrada | building | floor | office
-- ured | office | building | bank
-- semafor | traffic light | traffic | Lampe
-- spomenik | monument | statue | square
-- kvart | neighborhood | Stadt | street
-- kat | floor | key | number
-- ključ | key | floor | ticket
-- čovjek | man | Junge | Freund
+- tramvaj | Straßenbahn | Bus | Zug
+- autobus | Bus | Straßenbahn | Taxi
+- vlak | Zug | Straßenbahn | Boot
+- bicikl | Fahrrad | Motorrad | Auto
+- brod | Boot | Flugzeug | Brücke
+- avion | Flugzeug | Boot | Zug
+- taksi | Taxi | Bus | Auto
+- karta | Fahrkarte | Schlüssel | Rechnung
+- benzin | Benzin | Kraftstoff | Öl
+- gorivo | Kraftstoff | Benzin | Verkehr
+- promet | Verkehr | Straße | Straße (Landstraße)
+- grad | Stadt | Platz | Gebäude
+- ulica | Straße | Straße (Landstraße) | Brücke
+- cesta | Straße (Landstraße) | Straße | Tunnel
+- trg | Platz | Park | Markt
+- most | Brücke | Tunnel | Straße (Landstraße)
+- kolodvor | Bahnhof | Haltestelle | Kiosk
+- stanica | Haltestelle | Bahnhof | Büro
+- muzej | Museum | Galerie | Theater
+- galerija | Galerie | Museum | Bibliothek
+- katedrala | Kathedrale | Kirche | Denkmal
+- banka | Bank | Büro | Geschäft, Laden
+- bolnica | Krankenhaus | Apotheke | Arzt
+- knjižnica | Bibliothek | Buchhandlung | Schule
+- zgrada | Gebäude | Stockwerk | Büro
+- ured | Büro | Gebäude | Bank
+- semafor | Ampel | Verkehr | Lampe
+- spomenik | Denkmal | Statue | Platz
+- kvart | Viertel | Stadt | Straße
+- kat | Stockwerk | Schlüssel | Nummer
+- ključ | Schlüssel | Stockwerk | Fahrkarte
+- čovjek | Mann | Junge | Freund
 - prijatelj | Freund | Nachbar | Kollege
-- konobar | Kellner | Koch | customer
-- policajac | Polizist | postman | Fahrer
+- konobar | Kellner | Koch | Kunde
+- policajac | Polizist | Briefträger | Fahrer
 - turist | Tourist | Student | Gast
 - susjed | Nachbar | Freund | Verwandter
-- vozač | Fahrer | passenger | mechanic
-- poštar | postman | Polizist | Kellner
+- vozač | Fahrer | Fahrgast | Mechaniker
+- poštar | Briefträger | Polizist | Kellner
 - učenik | Schüler | Lehrer | Student
 - dječak | Junge | Mädchen | Kind
-- kupac | customer | seller | Kellner
-- konj | horse | Hund | pigeon
-- golub | pigeon | horse | crow
-- čekati | to wait for | to call | to hurry
-- vidjeti | to see | to hear | to look for
-- čuti | to hear | to see | sprechen
-- zvati | to call | to hear | to ask
-- voziti | to drive | gehen, spazieren | to carry
-- pričati | to chat | to shout | lesen
-- ulaziti | to enter | to exit | to cross
-- prelaziti | to cross | to enter | warten
-- žuriti | to hurry | stehen | to drive
-- tram | tramvaj | autobus | vlak
-- bus | autobus | tramvaj | taksi
-- train | vlak | brod | avion
-- ticket | karta | ključ | račun
-- traffic | promet | ulica | cesta
-- street | ulica | cesta | trg
-- bridge | most | tunel | kvart
-- station | kolodvor | stanica | kiosk
-- museum | muzej | galerija | katedrala
-- bank | banka | bolnica | knjižnica
-- hospital | bolnica | banka | ured
-- library | knjižnica | galerija | muzej
-- building | zgrada | kat | ured
-- traffic light | semafor | spomenik | tunel
-- key | ključ | karta | broj
+- kupac | Kunde | Verkäufer | Kellner
+- konj | Pferd | Hund | Taube
+- golub | Taube | Pferd | Krähe
+- čekati | warten auf | rufen, anrufen | sich beeilen
+- vidjeti | sehen | hören | suchen
+- čuti | hören | sehen | sprechen
+- zvati | rufen, anrufen | hören | fragen
+- voziti | fahren | gehen, spazieren | tragen
+- pričati | plaudern | schreien | lesen
+- ulaziti | eintreten | hinausgehen | überqueren
+- prelaziti | überqueren | eintreten | warten
+- žuriti | sich beeilen | stehen | fahren
+- Straßenbahn | tramvaj | autobus | vlak
+- Bus | autobus | tramvaj | taksi
+- Zug | vlak | brod | avion
+- Fahrkarte | karta | ključ | račun
+- Verkehr | promet | ulica | cesta
+- Straße | ulica | cesta | trg
+- Brücke | most | tunel | kvart
+- Bahnhof | kolodvor | stanica | kiosk
+- Museum | muzej | galerija | katedrala
+- Bank | banka | bolnica | knjižnica
+- Krankenhaus | bolnica | banka | ured
+- Bibliothek | knjižnica | galerija | muzej
+- Gebäude | zgrada | kat | ured
+- Ampel | semafor | spomenik | tunel
+- Schlüssel | ključ | karta | broj
 - Kellner | konobar | kupac | vozač
 - Polizist | policajac | poštar | student
 - Tourist | turist | susjed | učenik
 - Fahrer | vozač | poštar | konobar
-- to wait for | čekati | zvati | žuriti
-- to see | vidjeti | čuti | gledati
-- to hear | čuti | vidjeti | pričati
-- to call | zvati | čekati | pitati
-- to drive | voziti | hodati | nositi
-- to hurry | žuriti | stajati | ulaziti
+- warten auf | čekati | zvati | žuriti
+- sehen | vidjeti | čuti | gledati
+- hören | čuti | vidjeti | pričati
+- rufen, anrufen | zvati | čekati | pitati
+- fahren | voziti | hodati | nositi
+- sich beeilen | žuriti | stajati | ulaziti
 
-## Does it change after "vidim"?
+## Ändert es sich nach „vidim“?
 format: razvrstavanje
 stupci: MIJENJA SE | OSTAJE ISTO
-opis: The complete accusative map. Feminine -a and living masculines change; things and neuters don't.
+opis: Die vollständige Akkusativ-Karte. Feminines -a und belebte Maskulina ändern sich; Dinge und Neutra nicht.
 - čovjek | MIJENJA SE
 - prijatelj | MIJENJA SE
 - konobar | MIJENJA SE
@@ -183,10 +183,10 @@ opis: The complete accusative map. Feminine -a and living masculines change; thi
 - kino | OSTAJE ISTO
 - gorivo | OSTAJE ISTO
 
-## Does it squeeze?
+## Schrumpft es?
 format: razvrstavanje
 stupci: STEŽE SE | NE STEŽE SE
-opis: The fleeting *a*. Anything ending in **-ac** almost certainly loses a letter when the ending arrives.
+opis: Das flüchtige *a*. Alles auf **-ac** verliert fast sicher einen Buchstaben, wenn die Endung kommt.
 - policajac | STEŽE SE
 - kupac | STEŽE SE
 - Amerikanac | STEŽE SE
@@ -204,10 +204,10 @@ opis: The fleeting *a*. Anything ending in **-ac** almost certainly loses a lett
 - susjed | NE STEŽE SE
 - student | NE STEŽE SE
 
-## Which pronoun replaces it?
+## Welches Pronomen ersetzt es?
 format: razvrstavanje
 stupci: GA | JE
-opis: *ga* stands in for masculine and neuter, *je* for feminine. The gender decides — not whether it is alive.
+opis: *ga* steht für Maskulinum und Neutrum, *je* für Femininum. Das Genus entscheidet – nicht, ob es lebendig ist.
 - tramvaj | GA
 - autobus | GA
 - prijatelj | GA
@@ -233,60 +233,60 @@ opis: *ga* stands in for masculine and neuter, *je* for feminine. The gender dec
 - banka | JE
 - zgrada | JE
 
-## Tap the ending: living or thing?
+## Tippe auf die Endung: belebt oder Ding?
 format: nastavak
 nastavci: a | -
-opis: Masculine words only. A being takes **-a**, a thing takes nothing.
-- Vidim konobar___ . | I see the waiter. | a
-- Vidim autobus___ . | I see the bus. | -
-- Čekam doktor___ . | I'm waiting for the doctor. | a
-- Čekam vlak___ . | I'm waiting for the train. | -
-- Zovem susjed___ . | I'm calling my neighbour. | a
-- Zovem taksi___ . | I'm calling a taxi. | -
-- Gledam turist___ . | I'm watching the tourist. | a
-- Gledam semafor___ . | I'm looking at the traffic light. | -
-- Fotografiram spomenik___ . | I'm photographing the monument. | -
-- Fotografiram vozač___ . | I'm photographing the driver. | a
-- Čujem čovjek___ . | I hear a man. | a
-- Čujem tramvaj___ . | I hear the tram. | -
-- Vidim student___ . | I see a student. | a
-- Vidim bicikl___ . | I see a bicycle. | -
-- Vidim golub___ . | I see a pigeon. | a
-- Vidim kiosk___ . | I see a kiosk. | -
-- Čekam poštar___ . | I'm waiting for the postman. | a
-- Vidim dječak___ . | I see a boy. | a
-- Vidim park___ . | I see a park. | -
-- Vidim most___ . | I see the bridge. | -
+opis: Nur maskuline Wörter. Ein Lebewesen nimmt **-a**, ein Ding nimmt nichts.
+- Vidim konobar___ . | Ich sehe den Kellner. | a
+- Vidim autobus___ . | Ich sehe den Bus. | -
+- Čekam doktor___ . | Ich warte auf den Arzt. | a
+- Čekam vlak___ . | Ich warte auf den Zug. | -
+- Zovem susjed___ . | Ich rufe meinen Nachbarn an. | a
+- Zovem taksi___ . | Ich rufe ein Taxi. | -
+- Gledam turist___ . | Ich beobachte den Touristen. | a
+- Gledam semafor___ . | Ich schaue auf die Ampel. | -
+- Fotografiram spomenik___ . | Ich fotografiere das Denkmal. | -
+- Fotografiram vozač___ . | Ich fotografiere den Fahrer. | a
+- Čujem čovjek___ . | Ich höre einen Mann. | a
+- Čujem tramvaj___ . | Ich höre die Straßenbahn. | -
+- Vidim student___ . | Ich sehe einen Studenten. | a
+- Vidim bicikl___ . | Ich sehe ein Fahrrad. | -
+- Vidim golub___ . | Ich sehe eine Taube. | a
+- Vidim kiosk___ . | Ich sehe einen Kiosk. | -
+- Čekam poštar___ . | Ich warte auf den Briefträger. | a
+- Vidim dječak___ . | Ich sehe einen Jungen. | a
+- Vidim park___ . | Ich sehe einen Park. | -
+- Vidim most___ . | Ich sehe die Brücke. | -
 
-## The whole map in one tap
+## Die ganze Karte mit einem Tipp
 format: nastavak
 nastavci: a | u | -
-opis: Three buttons, three outcomes. Feminine takes **-u**, a masculine being takes **-a**, a masculine thing takes nothing.
-- Pijem kav___ . | I'm drinking coffee. | u
-- Vidim konobar___ . | I see the waiter. | a
-- Čekam tramvaj___ . | I'm waiting for the tram. | -
-- Kupujem rib___ . | I'm buying fish. | u
-- Zovem doktor___ . | I'm calling the doctor. | a
-- Vozim auto___ . | I'm driving the car. | -
-- Jedem jabuk___ . | I'm eating an apple. | u
-- Čekam prijatelj___ . | I'm waiting for a friend. | a
-- Gledam most___ . | I'm looking at the bridge. | -
-- Tražim tržnic___ . | I'm looking for the market. | u
-- Vidim čovjek___ . | I see a man. | a
-- Čujem autobus___ . | I hear the bus. | -
-- Čitam knjig___ . | I'm reading a book. | u
-- Fotografiram turist___ . | I'm photographing the tourist. | a
-- Fotografiram spomenik___ . | I'm photographing the monument. | -
-- Nosim vrećic___ . | I'm carrying the bag. | u
-- Gledam golub___ . | I'm looking at the pigeon. | a
-- Vidim semafor___ . | I see the traffic light. | -
-- Kupujem kart___ . | I'm buying a ticket. | u
-- Tražim stanic___ . | I'm looking for the stop. | u
-- Čekam vozač___ . | I'm waiting for the driver. | a
+opis: Drei Knöpfe, drei Ergebnisse. Feminin nimmt **-u**, ein maskulines Lebewesen nimmt **-a**, ein maskulines Ding nimmt nichts.
+- Pijem kav___ . | Ich trinke Kaffee. | u
+- Vidim konobar___ . | Ich sehe den Kellner. | a
+- Čekam tramvaj___ . | Ich warte auf die Straßenbahn. | -
+- Kupujem rib___ . | Ich kaufe Fisch. | u
+- Zovem doktor___ . | Ich rufe den Arzt. | a
+- Vozim auto___ . | Ich fahre das Auto. | -
+- Jedem jabuk___ . | Ich esse einen Apfel. | u
+- Čekam prijatelj___ . | Ich warte auf einen Freund. | a
+- Gledam most___ . | Ich schaue die Brücke an. | -
+- Tražim tržnic___ . | Ich suche den Markt. | u
+- Vidim čovjek___ . | Ich sehe einen Mann. | a
+- Čujem autobus___ . | Ich höre den Bus. | -
+- Čitam knjig___ . | Ich lese ein Buch. | u
+- Fotografiram turist___ . | Ich fotografiere den Touristen. | a
+- Fotografiram spomenik___ . | Ich fotografiere das Denkmal. | -
+- Nosim vrećic___ . | Ich trage die Tüte. | u
+- Gledam golub___ . | Ich schaue die Taube an. | a
+- Vidim semafor___ . | Ich sehe die Ampel. | -
+- Kupujem kart___ . | Ich kaufe eine Fahrkarte. | u
+- Tražim stanic___ . | Ich suche die Haltestelle. | u
+- Čekam vozač___ . | Ich warte auf den Fahrer. | a
 
-## Type the accusative
+## Tippe den Akkusativ
 format: upis
-opis: Type the accusative form. Watch the *-ac* words.
+opis: Tippe die Akkusativform. Achte auf die *-ac*-Wörter.
 - prijatelj → | prijatelja
 - čovjek → | čovjeka
 - konobar → | konobara
@@ -314,9 +314,9 @@ opis: Type the accusative form. Watch the *-ac* words.
 - stanica → | stanicu
 - banka → | banku
 
-## Replace the target
+## Ersetze das Ziel
 format: upis
-opis: Say the same sentence again, with a pronoun instead of the noun.
+opis: Sag denselben Satz noch einmal, mit einem Pronomen statt des Nomens.
 - Vidim tramvaj. → | Vidim ga
 - Čekam prijatelja. → | Čekam ga
 - Čitam knjigu. → | Čitam je
@@ -332,21 +332,21 @@ opis: Say the same sentence again, with a pronoun instead of the noun.
 - Vidim konobara. → | Vidim ga
 - Vozim auto. → | Vozim ga
 
-## Where does the pronoun go?
+## Wohin kommt das Pronomen?
 format: izbor
-opis: Only one of these is a sentence a Croatian would actually say. The short pronoun never comes first.
-- I see him. | Vidim ga. | Ga vidim.
-- Ana is waiting for me. | Ana me čeka. | Ana čeka me.
-- I love you. | Volim te. | Te volim.
-- The waiter sees us. | Konobar nas vidi. | Konobar nam vidi.
-- I'm calling them. | Zovem ih. | Ih zovem.
-- It's HIM I see, not you. | Njega vidim, ne tebe. | Ga vidim, ne te.
-- I'm reading it. (the book) | Čitam je. | Je čitam.
-- It's YOU I'm waiting for. | Tebe čekam. | Te čekam.
+opis: Nur einer davon ist ein Satz, den ein Kroate wirklich sagen würde. Das kurze Pronomen kommt nie zuerst.
+- Ich sehe ihn. | Vidim ga. | Ga vidim.
+- Ana wartet auf mich. | Ana me čeka. | Ana čeka me.
+- Ich liebe dich. | Volim te. | Te volim.
+- Der Kellner sieht uns. | Konobar nas vidi. | Konobar nam vidi.
+- Ich rufe sie an. (Plural) | Zovem ih. | Ih zovem.
+- IHN sehe ich, nicht dich. | Njega vidim, ne tebe. | Ga vidim, ne te.
+- Ich lese es. (das Buch = knjiga) | Čitam je. | Je čitam.
+- Auf DICH warte ich. | Tebe čekam. | Te čekam.
 
-## Answer without repeating
+## Antworte, ohne zu wiederholen
 format: upis
-opis: Answer *Da*, but don't say the noun again — swap it for its pronoun.
+opis: Antworte mit *Da*, aber sag das Nomen nicht noch einmal – tausche es gegen sein Pronomen.
 - Čekaš li prijatelja? → Da, ___ . | čekam ga
 - Vidiš li tramvaj? → Da, ___ . | vidim ga
 - Čitaš li knjigu? → Da, ___ . | čitam je
@@ -360,7 +360,7 @@ opis: Answer *Da*, but don't say the noun again — swap it for its pronoun.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about level 6 — everything here comes from the levels before it.
+opis: Nicht über Level 6 – alles hier stammt aus den Levels davor.
 - Pijem ___ . (kava) | kavu | kava | kave
 - Ana kupuje ___ . (jabuka) | jabuku | jabuka | jabuke
 - Mama kuha ___ . (juha) | juhu | juha | juhe
@@ -374,58 +374,58 @@ opis: Not about level 6 — everything here comes from the levels before it.
 - Ja ___ sok. (piti) | pijem | piješ | pije
 - Ona ___ doktorica. | je | sam | su
 - Kuća je ___ . (groß) | velika | velik | veliko
-- Što znači "trebam"? | I need | I buy | I love
-- Što znači "tržnica"? | market | shop | bakery
+- Što znači "trebam"? | ich brauche | ich kaufe | ich liebe
+- Što znači "tržnica"? | Markt | Geschäft, Laden | Bäckerei
 - Negiraj: Kupujem kruh. | Ne kupujem kruh. | Nisam kupujem kruh.
 
 ## Bau den Satz
 format: slaganje
 opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
-- Čekam tramvaj. | en: I'm waiting for the tram.
-- Čekam prijatelja. | en: I'm waiting for a friend.
-- Vidim čovjeka i psa. | en: I see a man and a dog.
-- Ana vidi prijatelja. | en: Ana sees a friend.
-- Marko zove konobara. | en: Marko is calling the waiter.
-- Turist fotografira spomenik. | en: The tourist is photographing the monument.
-- Policajac gleda promet. | en: The police officer is watching the traffic.
-- Policajac gleda turista. | en: The police officer is watching the tourist.
-- Čovjek vodi psa. | en: The man is walking the dog.
-- Vozač čeka semafor. | en: The driver is waiting for the traffic light.
-- Vidim tramvaj, ali ne vidim autobus. | en: I see the tram, but I don't see the bus.
-- Vidim policajca. | en: I see the police officer.
-- Kupujem kartu. | en: I'm buying a ticket.
-- Tražim stanicu. | en: I'm looking for the stop.
-- Vidim ga. | en: I see him.
-- Čitam je. | en: I'm reading it. (the book)
-- Ana me čeka. | en: Ana is waiting for me.
-- Volim te. | en: I love you.
-- Konobar nas vidi. | en: The waiter sees us.
-- Zovem ih. | en: I'm calling them.
-- Njega vidim, ne tebe. | en: It's him I see, not you.
-- Čekam prijatelja jer on vozi auto. | en: I'm waiting for a friend because he drives a car.
+- Čekam tramvaj. | en: Ich warte auf die Straßenbahn.
+- Čekam prijatelja. | en: Ich warte auf einen Freund.
+- Vidim čovjeka i psa. | en: Ich sehe einen Mann und einen Hund.
+- Ana vidi prijatelja. | en: Ana sieht einen Freund.
+- Marko zove konobara. | en: Marko ruft den Kellner.
+- Turist fotografira spomenik. | en: Der Tourist fotografiert das Denkmal.
+- Policajac gleda promet. | en: Der Polizist beobachtet den Verkehr.
+- Policajac gleda turista. | en: Der Polizist beobachtet den Touristen.
+- Čovjek vodi psa. | en: Der Mann führt den Hund aus.
+- Vozač čeka semafor. | en: Der Fahrer wartet an der Ampel.
+- Vidim tramvaj, ali ne vidim autobus. | en: Ich sehe die Straßenbahn, aber ich sehe den Bus nicht.
+- Vidim policajca. | en: Ich sehe den Polizisten.
+- Kupujem kartu. | en: Ich kaufe eine Fahrkarte.
+- Tražim stanicu. | en: Ich suche die Haltestelle.
+- Vidim ga. | en: Ich sehe ihn.
+- Čitam je. | en: Ich lese es. (das Buch = knjiga)
+- Ana me čeka. | en: Ana wartet auf mich.
+- Volim te. | en: Ich liebe dich.
+- Konobar nas vidi. | en: Der Kellner sieht uns.
+- Zovem ih. | en: Ich rufe sie an. (Plural)
+- Njega vidim, ne tebe. | en: IHN sehe ich, nicht dich.
+- Čekam prijatelja jer on vozi auto. | en: Ich warte auf einen Freund, weil er Auto fährt.
 
 ## Schreib es auf Kroatisch
 format: upis
 opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz. Bei *ja* und *ti* ist das Pronomen optional, dort zählen also beide Fassungen; bei *on* und *ona* behalte es.
-- I'm waiting for the tram. | Čekam tramvaj. / Ja čekam tramvaj.
-- I'm waiting for a friend. | Čekam prijatelja. / Ja čekam prijatelja.
-- I see a man. | Vidim čovjeka. / Ja vidim čovjeka.
-- I see a man and a dog. | Vidim čovjeka i psa. / Ja vidim čovjeka i psa.
-- Ana sees a friend. | Ana vidi prijatelja.
-- Marko is calling the waiter. | Marko zove konobara.
-- The tourist is photographing the monument. | Turist fotografira spomenik.
-- The police officer is watching the traffic. | Policajac gleda promet.
-- The police officer is watching the tourist. | Policajac gleda turista.
-- The man is walking the dog. | Čovjek vodi psa.
-- I'm buying a ticket. | Kupujem kartu. / Ja kupujem kartu.
-- I'm looking for the stop. | Tražim stanicu. / Ja tražim stanicu.
-- I see the police officer. | Vidim policajca. / Ja vidim policajca.
-- I'm driving a car. | Vozim auto. / Ja vozim auto.
-- I see him. | Vidim ga. / Ja ga vidim.
-- I'm reading it. (the book) | Čitam je. / Ja je čitam.
-- Ana is waiting for me. | Ana me čeka.
-- I love you. | Volim te. / Ja te volim.
-- The waiter sees us. | Konobar nas vidi.
-- I'm calling them. | Zovem ih. / Ja ih zovem.
-- The street is full. | Ulica je puna.
-- The tram is full. | Tramvaj je pun.
+- Ich warte auf die Straßenbahn. | Čekam tramvaj. / Ja čekam tramvaj.
+- Ich warte auf einen Freund. | Čekam prijatelja. / Ja čekam prijatelja.
+- Ich sehe einen Mann. | Vidim čovjeka. / Ja vidim čovjeka.
+- Ich sehe einen Mann und einen Hund. | Vidim čovjeka i psa. / Ja vidim čovjeka i psa.
+- Ana sieht einen Freund. | Ana vidi prijatelja.
+- Marko ruft den Kellner. | Marko zove konobara.
+- Der Tourist fotografiert das Denkmal. | Turist fotografira spomenik.
+- Der Polizist beobachtet den Verkehr. | Policajac gleda promet.
+- Der Polizist beobachtet den Touristen. | Policajac gleda turista.
+- Der Mann führt den Hund aus. | Čovjek vodi psa.
+- Ich kaufe eine Fahrkarte. | Kupujem kartu. / Ja kupujem kartu.
+- Ich suche die Haltestelle. | Tražim stanicu. / Ja tražim stanicu.
+- Ich sehe den Polizisten. | Vidim policajca. / Ja vidim policajca.
+- Ich fahre Auto. | Vozim auto. / Ja vozim auto.
+- Ich sehe ihn. | Vidim ga. / Ja ga vidim.
+- Ich lese es. (das Buch = knjiga) | Čitam je. / Ja je čitam.
+- Ana wartet auf mich. | Ana me čeka.
+- Ich liebe dich. | Volim te. / Ja te volim.
+- Der Kellner sieht uns. | Konobar nas vidi.
+- Ich rufe sie an. (Plural) | Zovem ih. / Ja ih zovem.
+- Die Straße ist voll. | Ulica je puna.
+- Die Straßenbahn ist voll. | Tramvaj je pun.

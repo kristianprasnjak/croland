@@ -1,169 +1,169 @@
-# Sport & Hobbies
+# Sport & Hobbys
 cjelina: Vocabulary 9
 
-## Sport & hobbies (cognates)
+## Sport & Hobbys (Internationalismen)
 format: kartice
-info: Flashcards for the sport words, and most of them are international: *hobi, klub, trener, kapetan, gol, tenis, joga, šah* are spelled the Croatian way but mean what you expect. Read each one aloud once, because the spelling is the only new information here.
-infokratko: Mostly international: *hobi, klub, trener, gol, tenis, šah*. Read them aloud.
-opis: Sport vocabulary is international — you can guess most of these before you flip the card. Tap a card to reveal its meaning.
-- hobi | hobby
-- klub | club
+info: Karteikarten für die Sportwörter, und die meisten sind international: *hobi, klub, trener, kapetan, gol, tenis, joga, šah* werden kroatisch geschrieben, bedeuten aber, was du erwartest. Lies jedes einmal laut, denn die Schreibung ist hier die einzige neue Information.
+infokratko: Meist international: *hobi, klub, trener, gol, tenis, šah*. Lies sie laut.
+opis: Sportwortschatz ist international – die meisten errätst du, bevor du die Karte umdrehst. Tippe auf eine Karte, um ihre Bedeutung aufzudecken.
+- hobi | Hobby
+- klub | Verein, Klub
 - momčad | Team
-- trener | coach
-- kapetan | captain
-- igrač | player
-- golman | goalkeeper
-- gol | goal
-- obrana | defence
-- pozicija | position
-- dres | jersey
-- trening | training
-- stadion | stadium
-- košarka | basketball
-- tenis | tennis
-- šah | chess
-- joga | yoga
-- fotografija | photography
-- fotoaparat | camera
+- trener | Trainer
+- kapetan | Kapitän
+- igrač | Spieler
+- golman | Torwart
+- gol | Tor
+- obrana | Verteidigung
+- pozicija | Position
+- dres | Trikot
+- trening | Training
+- stadion | Stadion
+- košarka | Basketball
+- tenis | Tennis
+- šah | Schach
+- joga | Yoga
+- fotografija | Fotografie
+- fotoaparat | Kamera
 
-## The body
+## Der Körper
 format: kartice
-info: The parts of the body, with the last letter as the thing to notice. A consonant (*zub, vrat, prst*) is masculine, **-a** (*glava, ruka, noga*) is feminine, **-o** or **-e** (*koljeno, srce, rame, lice*) is neuter. That letter decides which form of *moj* the word takes on the next pages. Two words exist only in the plural, like English *trousers*: *usta* (mouth) and *leđa* (back).
-infokratko: Consonant m (*zub*), **-a** f (*ruka*), **-o/-e** n (*koljeno, srce*). *usta* and *leđa* are plural.
-opis: From head to foot. Watch the last letter of each word — it decides almost everything in Grammar 9.
-- tijelo | body
-- glava | head
-- kosa | hair
-- lice | face
-- usta | mouth
-- zub | tooth
-- vrat | neck
-- rame | shoulder
-- ruka | arm, hand
-- prst | finger
-- leđa | back
-- srce | heart
-- noga | leg, foot
-- koljeno | knee
-- koža | skin
-- krv | blood
-- kost | bone
+info: Die Körperteile, mit dem letzten Buchstaben als Merkpunkt. Ein Konsonant (*zub, vrat, prst*) ist maskulin, **-a** (*glava, ruka, noga*) feminin, **-o** oder **-e** (*koljeno, srce, rame, lice*) neutral. Dieser Buchstabe entscheidet, welche Form von *moj* das Wort auf den nächsten Seiten nimmt. Zwei Wörter gibt es nur im Plural: *usta* (Mund) und *leđa* (Rücken) – anders als im Deutschen.
+infokratko: Konsonant m (*zub*), **-a** f (*ruka*), **-o/-e** n (*koljeno, srce*). *usta* und *leđa* sind Plural.
+opis: Von Kopf bis Fuß. Achte auf den letzten Buchstaben jedes Wortes – er entscheidet fast alles in Grammatik 9.
+- tijelo | Körper
+- glava | Kopf
+- kosa | Haar
+- lice | Gesicht
+- usta | Mund
+- zub | Zahn
+- vrat | Hals, Nacken
+- rame | Schulter
+- ruka | Arm, Hand
+- prst | Finger
+- leđa | Rücken
+- srce | Herz
+- noga | Bein, Fuß
+- koljeno | Knie
+- koža | Haut
+- krv | Blut
+- kost | Knochen
 
-## Possessives & describing words
+## Possessivpronomen & beschreibende Wörter
 format: kartice
-info: The seven possessives, each in three forms, plus the adjectives you need to describe a team. A possessive changes its ending like an adjective: *moj klub*, *moja momčad*, *moje koljeno*. Grammar 9 drills the rule; here only the words are to be learned.
-infokratko: Possessives work like adjectives: *moj klub, moja momčad, moje koljeno*.
-opis: Whose is it, and what is it like? The possessive is shown in its three forms (m. / f. / n.).
-- moj / moja / moje | my
-- tvoj / tvoja / tvoje | your (one person)
-- njegov / njegova / njegovo | his
-- njezin / njezina / njezino | her
-- naš / naša / naše | our
-- vaš / vaša / vaše | your (plural or polite)
-- njihov / njihova / njihovo | their
-- svoj / svoja / svoje | one's own
-- čiji / čija / čije | whose
-- strog / stroga | strict
-- pošten / poštena | fair, honest
-- slobodan / slobodna | free
-- različit / različita | different
-- omiljen / omiljena | favorite
-- svaki dan | every day
-- vani | outside
+info: Die sieben Possessivpronomen, jedes in drei Formen, plus die Adjektive, die du brauchst, um eine Mannschaft zu beschreiben. Ein Possessivpronomen ändert seine Endung wie ein Adjektiv: *moj klub*, *moja momčad*, *moje koljeno*. Grammatik 9 übt die Regel; hier sind nur die Wörter zu lernen.
+infokratko: Possessivpronomen funktionieren wie Adjektive: *moj klub, moja momčad, moje koljeno*.
+opis: Wem gehört es, und wie ist es? Das Possessivpronomen steht in seinen drei Formen (m. / f. / n.).
+- moj / moja / moje | mein
+- tvoj / tvoja / tvoje | dein
+- njegov / njegova / njegovo | sein
+- njezin / njezina / njezino | ihr (von ihr)
+- naš / naša / naše | unser
+- vaš / vaša / vaše | euer, Ihr
+- njihov / njihova / njihovo | ihr (von ihnen)
+- svoj / svoja / svoje | sein eigenes, ihr eigenes
+- čiji / čija / čije | wessen
+- strog / stroga | streng
+- pošten / poštena | fair, ehrlich
+- slobodan / slobodna | frei
+- različit / različita | verschieden
+- omiljen / omiljena | Lieblings-
+- svaki dan | jeden Tag
+- vani | draußen
 
-## Phrases you will use
+## Wendungen, die du benutzen wirst
 format: kartice
-info: Five new verbs first, each with its *ja*, *ti* and *on/ona* form. One of them changes a consonant: *skakati → skačem*. *pobijediti* and *izgubiti* keep their **-i-**: *pobijedim*, *izgubim*. Then whole phrases, to be learned as they are. Three use grammar that comes later — *Boli me koljeno* (my knee hurts), *Navijam za Hajduk* (I support Hajduk) and *Naš klub je pobijedio!* (our club won) — so treat them as fixed expressions for now.
-infokratko: Learn the *ja* form: *skačem, navijam, pobijedim*. Then fixed phrases: *Boli me koljeno*, *Navijam za Hajduk*.
-opis: Five verbs for the match and the hobby, then sentences you will say at a match, at training or about your hobby. Take each phrase as a whole.
-- skakati → skačem, skačeš, skače | to jump
-- navijati → navijam, navijaš, navija | to cheer, to support
-- pobijediti → pobijedim, pobijediš, pobijedi | to win
-- izgubiti → izgubim, izgubiš, izgubi | to lose
-- slikati → slikam, slikaš, slika | to paint, to take pictures
-- Moj hobi je fotografija. | My hobby is photography.
-- Igram nogomet. | I play football.
-- Sviram gitaru. | I play the guitar.
-- Treniram svaki dan. | I train every day.
-- Navijam za Hajduk. | I support Hajduk.
-- Naš klub je pobijedio! | Our club won!
-- Čija je ovo lopta? | Whose ball is this?
-- Boli me koljeno. | My knee hurts.
-- Moja pozicija je golman. | My position is goalkeeper.
-- Idemo na utakmicu! | Let's go to the match!
-- Imam slobodan dan. | I have a free day.
+info: Zuerst fünf neue Verben, jedes mit seiner Form für *ja*, *ti* und *on/ona*. Eines davon tauscht einen Konsonanten: *skakati → skačem*. *pobijediti* und *izgubiti* behalten ihr **-i-**: *pobijedim*, *izgubim*. Dann ganze Wendungen, so zu lernen, wie sie sind. Drei verwenden Grammatik, die später kommt – *Boli me koljeno* (mein Knie tut weh), *Navijam za Hajduk* (ich bin Fan von Hajduk) und *Naš klub je pobijedio!* (unser Verein hat gewonnen) –, also behandle sie vorerst als feste Ausdrücke.
+infokratko: Lerne die *ja*-Form: *skačem, navijam, pobijedim*. Dann feste Wendungen: *Boli me koljeno*, *Navijam za Hajduk*.
+opis: Fünf Verben fürs Spiel und das Hobby, dann Sätze, die du bei einem Spiel, beim Training oder über dein Hobby sagst. Nimm jede Wendung als Ganzes.
+- skakati → skačem, skačeš, skače | springen
+- navijati → navijam, navijaš, navija | anfeuern, Fan sein
+- pobijediti → pobijedim, pobijediš, pobijedi | gewinnen
+- izgubiti → izgubim, izgubiš, izgubi | verlieren
+- slikati → slikam, slikaš, slika | malen, fotografieren
+- Moj hobi je fotografija. | Mein Hobby ist Fotografie.
+- Igram nogomet. | Ich spiele Fußball.
+- Sviram gitaru. | Ich spiele Gitarre.
+- Treniram svaki dan. | Ich trainiere jeden Tag.
+- Navijam za Hajduk. | Ich bin Fan von Hajduk.
+- Naš klub je pobijedio! | Unser Verein hat gewonnen!
+- Čija je ovo lopta? | Wessen Ball ist das?
+- Boli me koljeno. | Mein Knie tut weh.
+- Moja pozicija je golman. | Meine Position ist Torwart.
+- Idemo na utakmicu! | Gehen wir zum Spiel!
+- Imam slobodan dan. | Ich habe einen freien Tag.
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word recognition, with no English on the page. Every word is in its naming form, so the last letter is visible: use it to say the matching *moj / moja / moje* in your head as you tap.
-infokratko: Picture and word. Say *moj / moja / moje* in your head.
+info: Bild-Wort-Wiedererkennen, ohne Deutsch auf der Seite. Jedes Wort steht in seiner Benennungsform, also ist der letzte Buchstabe sichtbar: Sag beim Tippen im Kopf das passende *moj / moja / moje*.
+infokratko: Bild und Wort. Sag im Kopf *moj / moja / moje*.
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- dres | jersey
-- košarka | basketball
-- tenis | tennis
-- šah | chess
-- fotoaparat | camera
-- glava | head
-- lice | face
-- zub | tooth
-- ruka | arm
-- noga | leg
-- srce | heart
-- rame | shoulder
+- dres | Trikot
+- košarka | Basketball
+- tenis | Tennis
+- šah | Schach
+- fotoaparat | Kamera
+- glava | Kopf
+- lice | Gesicht
+- zub | Zahn
+- ruka | Arm
+- noga | Bein
+- srce | Herz
+- rame | Schulter
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Verbs are wanted as infinitives, ending in **-ti**: *skakati*, not *skačem*. The diacritics are full letters: *momčad* and *igrač* have **č**, *šah* starts with **š**, *leđa* has **đ**, and *koljeno* has **lj**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once; verbs as infinitives (*skakati*). Diacritics count: *momčad, igrač, šah, leđa*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Verben werden als Infinitive gesucht, auf **-ti**: *skakati*, nicht *skačem*. Die diakritischen Zeichen sind vollwertige Buchstaben: *momčad* und *igrač* haben **č**, *šah* beginnt mit **š**, *leđa* hat **đ**, und *koljeno* hat **lj**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal; Verben als Infinitive (*skakati*). Diakritische Zeichen zählen: *momčad, igrač, šah, leđa*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
 - Team | momčad
-- player | igrač
-- goalkeeper | golman
-- jersey | dres
-- stadium | stadion
-- chess | šah
-- head | glava
-- face | lice
-- tooth | zub
-- shoulder | rame
-- heart | srce
-- knee | koljeno
-- back | leđa
-- to jump | skakati
-- to win | pobijediti
+- Spieler | igrač
+- Torwart | golman
+- Trikot | dres
+- Stadion | stadion
+- Schach | šah
+- Kopf | glava
+- Gesicht | lice
+- Zahn | zub
+- Schulter | rame
+- Herz | srce
+- Knie | koljeno
+- Rücken | leđa
+- springen | skakati
+- gewinnen | pobijediti
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–7, half and half. The cognates cost no time — *hobi, klub, kapetan, biologija* — so spend the seconds on the rest. Two pairs to keep apart: *kosa* is hair and *vrat* the neck; *misliti* is to think, while *brojati* is to count.
-infokratko: New and old words against the clock. *kosa* hair, *vrat* neck; *misliti* think, *brojati* count.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Lektion 0 und Wortschatz 1–7, halb und halb. Die Internationalismen kosten keine Zeit – *hobi, klub, kapetan, biologija* –, also verwende die Sekunden auf den Rest. Zwei Paare zum Auseinanderhalten: *kosa* ist das Haar und *vrat* der Hals; *misliti* heißt denken, *brojati* dagegen zählen.
+infokratko: Neue und alte Wörter gegen die Uhr. *kosa* Haar, *vrat* Hals; *misliti* denken, *brojati* zählen.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- hobi | hobby
+- hobi | Hobby
 - posao | Arbeit
-- klub | club
+- klub | Verein, Klub
 - miran | ruhig
-- kapetan | captain
-- ići | to go
-- obrana | defence
-- biologija | biology
-- trening | training
+- kapetan | Kapitän
+- ići | gehen
+- obrana | Verteidigung
+- biologija | Biologie
+- trening | Training
 - mekan | weich
-- košarka | basketball
+- košarka | Basketball
 - misliti | denken
-- kosa | hair
-- benzin | gasoline
-- vrat | neck
-- brojati | to count
-- navijati | to cheer
+- kosa | Haar
+- benzin | Benzin
+- vrat | Hals, Nacken
+- brojati | zählen
+- navijati | anfeuern
 - susjed | Nachbar
-- omiljen | favorite
+- omiljen | Lieblings-
 - mobitel | Handy
 
-## moj, moja or moje?
+## moj, moja oder moje?
 format: razvrstavanje
-info: Sorting nouns by the form of *moj* they take, and the last letter of the noun is your guide. A consonant takes **moj** (*dres*, *lav*), **-a** takes **moja** (*glava*, *banka*), **-o** or **-e** takes **moje** (*koljeno*, *jaje*). One trap: *momčad* ends in a consonant but is feminine, so it takes *moja*. The owner is the same in every case, so the owner does not affect the ending.
-infokratko: Consonant **moj**, **-a** **moja**, **-o/-e** **moje**. *momčad* is feminine: *moja*.
-opis: Which form of *my* does each noun take? The last letter of the noun decides.
+info: Nomen nach der Form von *moj* sortieren, die sie nehmen, und der letzte Buchstabe des Nomens ist dein Wegweiser. Ein Konsonant nimmt **moj** (*dres*, *lav*), **-a** nimmt **moja** (*glava*, *banka*), **-o** oder **-e** nimmt **moje** (*koljeno*, *jaje*). Eine Falle: *momčad* endet auf einen Konsonanten, ist aber feminin, nimmt also *moja*. Der Besitzer ist in jedem Fall derselbe, also beeinflusst er die Endung nicht.
+infokratko: Konsonant **moj**, **-a** **moja**, **-o/-e** **moje**. *momčad* ist feminin: *moja*.
+opis: Welche Form von *mein* nimmt jedes Nomen? Der letzte Buchstabe des Nomens entscheidet.
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ
 - zub | MOJ
@@ -184,18 +184,18 @@ stupci: MOJ | MOJA | MOJE
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Verbs as infinitives again, adjectives in the short form (*strog*, *moderan*). The diacritics count: *koža* has **ž**, and *mali* and *more* are written just as they sound. *brzo* is the adverb (*quickly*); the adjective *brz* is not wanted here.
-infokratko: Mixed final round. Verbs as infinitives, adjectives short (*strog*). Diacritics count: *koža*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren. Verben wieder als Infinitive, Adjektive in der Kurzform (*strog*, *moderan*). Die diakritischen Zeichen zählen: *koža* hat **ž**, und *mali* und *more* werden genau so geschrieben, wie sie klingen. *brzo* ist das Adverb (*schnell* im Sinne von „auf schnelle Weise“); das Adjektiv *brz* ist hier nicht gefragt.
+infokratko: Gemischte Schlussrunde. Verben als Infinitive, Adjektive kurz (*strog*). Diakritische Zeichen zählen: *koža*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- finger | prst
+- Finger | prst
 - klein | mali
-- skin | koža
+- Haut | koža
 - Meer | more
-- bone | kost
+- Knochen | kost
 - modern | moderan
-- strict | strog
+- streng | strog
 - Zuhause | dom
-- to lose | izgubiti
-- bicycle | bicikl
-- outside | vani
-- quickly | brzo
+- verlieren | izgubiti
+- Fahrrad | bicikl
+- draußen | vani
+- schnell | brzo

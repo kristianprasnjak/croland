@@ -1,4 +1,4 @@
-# Test 7: The Plural System
+# Test 7: Das Pluralsystem
 cjelina: Test 7
 
 ## Ordne die Wörter zu
@@ -6,10 +6,10 @@ format: parovi
 trajanje: 1380
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- škola | school
+- škola | Schule
 - učenik | Schüler
 - učitelj | Lehrer
-- učiteljica | teacher (f.)
+- učiteljica | Lehrerin
 - profesor | Professor
 - dječak | Junge
 - djevojčica | Mädchen
@@ -18,131 +18,131 @@ opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
 - roditelj | Elternteil
 - knjiga | Buch
 - udžbenik | Lehrbuch
-- olovka | pencil
-- kemijska | pen
-- torba | bag
-- zadaća | homework
-- ocjena | grade
-- ispit | exam
-- pauza | break
-- odmor | break
-- lekcija | lesson
-- odgovor | answer
-- riječ | word
-- pitanje | question
-- iskustvo | experience
-- izvještaj | report
-- dokument | document
-- jezik | language
-- godina | year
-- pjesma | song
+- olovka | Bleistift
+- kemijska | Stift, Kuli
+- torba | Tüte
+- zadaća | Hausaufgabe
+- ocjena | Note
+- ispit | Prüfung
+- pauza | Pause
+- odmor | Pause
+- lekcija | Unterrichtsstunde
+- odgovor | Antwort
+- riječ | Wort
+- pitanje | Frage
+- iskustvo | Erfahrung
+- izvještaj | Bericht
+- dokument | Dokument
+- jezik | Sprache
+- godina | Jahr
+- pjesma | Lied
 - gitara | Gitarre
-- klavir | piano
-- lopta | ball
-- nogomet | football
-- matematika | mathematics
-- geografija | geography
-- biologija | biology
-- fizika | physics
-- kemija | chemistry
-- povijest | history
-- glazba | music
-- pjevati | to sing
-- igrati | to play a game
-- svirati | to play an instrument
-- pitati | to ask
-- vježbati | to practice
-- znati | to know
-- brojati | to count
-- plesati | to dance
-- ponavljati | to repeat
-- odgovarati | to answer
-- glasno | loudly
-- tiho | quietly
-- brzo | quickly
-- polako | slowly
-- zanimljiv | interesting
-- dosadan | boring
+- klavir | Klavier
+- lopta | Ball
+- nogomet | Fußball
+- matematika | Mathematik
+- geografija | Erdkunde
+- biologija | Biologie
+- fizika | Physik
+- kemija | Chemie
+- povijest | Geschichte
+- glazba | Musik
+- pjevati | singen
+- igrati | ein Spiel spielen
+- svirati | ein Instrument spielen
+- pitati | fragen
+- vježbati | üben
+- znati | wissen, können
+- brojati | zählen
+- plesati | tanzen
+- ponavljati | wiederholen
+- odgovarati | antworten
+- glasno | laut
+- tiho | leise
+- brzo | schnell
+- polako | langsam
+- zanimljiv | interessant
+- dosadan | langweilig
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- škola | school | class | lesson
-- učenik | Schüler | Lehrer | classmate
+- škola | Schule | Klasse | Unterrichtsstunde
+- učenik | Schüler | Lehrer | Mitschüler
 - učitelj | Lehrer | Schüler | Elternteil
 - dječak | Junge | Mädchen | Kind
-- djevojčica | Mädchen | Junge | woman
+- djevojčica | Mädchen | Junge | Frau
 - dijete | Kind | Kinder | Junge
 - roditelj | Elternteil | Verwandter | Lehrer
-- knjiga | Buch | Lehrbuch | notebook
-- udžbenik | Lehrbuch | Buch | report
-- olovka | pencil | pen | ruler
-- kemijska | pen | pencil | chemistry
-- torba | bag | box | desk
-- zadaća | homework | exam | grade
-- ocjena | grade | exam | answer
-- ispit | exam | break | lesson
-- pauza | break | lesson | hour
-- lekcija | lesson | reading | class
-- odgovor | answer | question | word
-- riječ | word | sentence | answer
-- pitanje | question | answer | Problem
-- iskustvo | experience | knowledge | report
-- izvještaj | report | document | Brief
-- dokument | document | report | Text
-- jezik | language | word | mouth
-- godina | year | hour | morning
-- pjesma | song | dance | choir
-- gitara | Gitarre | piano | violin
-- klavir | piano | Gitarre | keyboard
-- lopta | ball | game | field
-- matematika | mathematics | physics | chemistry
-- geografija | geography | history | biology
-- povijest | history | geography | story
-- glazba | music | song | choir
-- pjevati | to sing | to play | to dance
-- igrati | to play a game | to play music | laufen, rennen
-- svirati | to play an instrument | to sing | hören, zuhören
-- vježbati | to practice | to repeat | to learn
-- znati | to know | denken | to ask
-- brojati | to count | lesen | schreiben
-- plesati | to dance | to sing | to jump
-- ponavljati | to repeat | to answer | to practice
-- odgovarati | to answer | to ask | sprechen
-- glasno | loudly | quietly | quickly
-- tiho | quietly | loudly | slowly
-- polako | slowly | quickly | quietly
-- zanimljiv | interesting | boring | difficult
-- dosadan | boring | interesting | müde
-- school | škola | razred | lekcija
+- knjiga | Buch | Lehrbuch | Heft
+- udžbenik | Lehrbuch | Buch | Bericht
+- olovka | Bleistift | Stift, Kuli | Lineal
+- kemijska | Stift, Kuli | Bleistift | Chemie
+- torba | Tüte | Schachtel, Kiste | Schreibtisch, Pult
+- zadaća | Hausaufgabe | Prüfung | Note
+- ocjena | Note | Prüfung | Antwort
+- ispit | Prüfung | Pause | Unterrichtsstunde
+- pauza | Pause | Unterrichtsstunde | Stunde
+- lekcija | Unterrichtsstunde | Lesen | Klasse
+- odgovor | Antwort | Frage | Wort
+- riječ | Wort | Satz | Antwort
+- pitanje | Frage | Antwort | Problem
+- iskustvo | Erfahrung | Wissen | Bericht
+- izvještaj | Bericht | Dokument | Brief
+- dokument | Dokument | Bericht | Text
+- jezik | Sprache | Wort | Mund
+- godina | Jahr | Stunde | Morgen
+- pjesma | Lied | Tanz | Chor
+- gitara | Gitarre | Klavier | Geige
+- klavir | Klavier | Gitarre | Tastatur
+- lopta | Ball | Spiel | Feld
+- matematika | Mathematik | Physik | Chemie
+- geografija | Erdkunde | Geschichte | Biologie
+- povijest | Geschichte | Erdkunde | Geschichte
+- glazba | Musik | Lied | Chor
+- pjevati | singen | spielen | tanzen
+- igrati | ein Spiel spielen | musizieren | laufen, rennen
+- svirati | ein Instrument spielen | singen | hören, zuhören
+- vježbati | üben | wiederholen | lernen
+- znati | wissen, können | denken | fragen
+- brojati | zählen | lesen | schreiben
+- plesati | tanzen | singen | springen
+- ponavljati | wiederholen | antworten | üben
+- odgovarati | antworten | fragen | sprechen
+- glasno | laut | leise | schnell
+- tiho | leise | laut | langsam
+- polako | langsam | schnell | leise
+- zanimljiv | interessant | langweilig | schwierig
+- dosadan | langweilig | interessant | müde
+- Schule | škola | razred | lekcija
 - Schüler | učenik | učitelj | dijete
 - Lehrer | učitelj | učenik | roditelj
 - Junge | dječak | djevojčica | dijete
 - Mädchen | djevojčica | dječak | žena
 - Buch | knjiga | udžbenik | torba
-- pencil | olovka | kemijska | knjiga
-- pen | kemijska | olovka | ocjena
-- homework | zadaća | ispit | ocjena
-- grade | ocjena | ispit | odgovor
-- exam | ispit | zadaća | pauza
-- break | pauza | ocjena | lekcija
-- answer | odgovor | pitanje | riječ
-- word | riječ | pitanje | odgovor
-- question | pitanje | odgovor | riječ
-- experience | iskustvo | izvještaj | dokument
-- language | jezik | riječ | glazba
-- song | pjesma | glazba | gitara
-- to sing | pjevati | svirati | plesati
-- to practice | vježbati | ponavljati | znati
-- to count | brojati | pitati | plesati
-- to dance | plesati | pjevati | trčati
-- loudly | glasno | tiho | brzo
-- interesting | zanimljiv | dosadan | težak
+- Bleistift | olovka | kemijska | knjiga
+- Stift, Kuli | kemijska | olovka | ocjena
+- Hausaufgabe | zadaća | ispit | ocjena
+- Note | ocjena | ispit | odgovor
+- Prüfung | ispit | zadaća | pauza
+- Pause | pauza | ocjena | lekcija
+- Antwort | odgovor | pitanje | riječ
+- Wort | riječ | pitanje | odgovor
+- Frage | pitanje | odgovor | riječ
+- Erfahrung | iskustvo | izvještaj | dokument
+- Sprache | jezik | riječ | glazba
+- Lied | pjesma | glazba | gitara
+- singen | pjevati | svirati | plesati
+- üben | vježbati | ponavljati | znati
+- zählen | brojati | pitati | plesati
+- tanzen | plesati | pjevati | trčati
+- laut | glasno | tiho | brzo
+- interessant | zanimljiv | dosadan | težak
 
-## Regular, -ovi or rebel?
+## Regelmäßig, -ovi oder Rebell?
 format: razvrstavanje
 stupci: PRAVILNO | -OVI | IZNIMKA
-opis: Most words follow the trio, one-syllable masculines pad with **-ovi**, and four do their own thing entirely.
+opis: Die meisten Wörter folgen dem Trio, einsilbige Maskulina polstern mit **-ovi** auf, und vier machen ganz ihr eigenes Ding.
 - učenik | PRAVILNO
 - knjiga | PRAVILNO
 - pismo | PRAVILNO
@@ -163,10 +163,10 @@ opis: Most words follow the trio, one-syllable masculines pad with **-ovi**, and
 - čovjek | IZNIMKA
 - riječ | IZNIMKA
 
-## What do THEY do?
+## Was tun SIE?
 format: razvrstavanje
 stupci: -AJU | -E | -U
-opis: The *oni* form, sorted by verb family. **-am** verbs say **-aju**, **-im** verbs say **-e**, **-em** verbs say **-u**.
+opis: Die *oni*-Form, sortiert nach Verbfamilie. **-am**-Verben sagen **-aju**, **-im**-Verben **-e**, **-em**-Verben **-u**.
 - čitati | -AJU
 - gledati | -AJU
 - slušati | -AJU
@@ -190,31 +190,31 @@ opis: The *oni* form, sorted by verb family. **-am** verbs say **-aju**, **-im**
 - čuti | -U
 - zvati | -U
 
-## Tap what THEY do
+## Tippe, was SIE tun
 format: nastavak
 nastavci: aju | e | u
-opis: Only the *oni* form. The *ja* form is in brackets — let the family decide: **-am → -aju**, **-im → -e**, **-em → -u**.
-- Djeca čit___ knjige. (čitam) | The children read books. | aju
-- Učenici uč___ hrvatski. (učim) | The pupils study Croatian. | e
-- Dječaci jed___ kruh. (jedem) | The boys eat bread. | u
-- Djevojčice pjev___ pjesme. (pjevam) | The girls sing songs. | aju
-- Roditelji rad___ puno. (radim) | The parents work a lot. | e
-- Oni piš___ pisma. (pišem) | They write letters. | u
-- Prijatelji gled___ film. (gledam) | The friends watch a film. | aju
-- Vozači voz___ brzo. (vozim) | The drivers drive fast. | e
-- Djeca pleš___ zajedno. (plešem) | The children dance together. | u
-- Učenici sluš___ tiho. (slušam) | The pupils listen quietly. | aju
-- Ivan i Luka broj___ minute. (brojim) | Ivan and Luka count the minutes. | e
-- Turisti vid___ spomenik. (vidim) | The tourists see the monument. | e
-- Dječaci igr___ nogomet. (igram) | The boys play football. | aju
-- Roditelji čuj___ glazbu. (čujem) | The parents hear the music. | u
-- Prijatelji zov___ konobara. (zovem) | The friends call the waiter. | u
-- Djeca ponavlj___ lekciju. (ponavljam) | The children repeat the lesson. | aju
+opis: Nur die *oni*-Form. Die *ja*-Form steht in Klammern – lass die Familie entscheiden: **-am → -aju**, **-im → -e**, **-em → -u**.
+- Djeca čit___ knjige. (čitam) | Die Kinder lesen Bücher. | aju
+- Učenici uč___ hrvatski. (učim) | Die Schüler lernen Kroatisch. | e
+- Dječaci jed___ kruh. (jedem) | Die Jungen essen Brot. | u
+- Djevojčice pjev___ pjesme. (pjevam) | Die Mädchen singen Lieder. | aju
+- Roditelji rad___ puno. (radim) | Die Eltern arbeiten viel. | e
+- Oni piš___ pisma. (pišem) | Sie schreiben Briefe. | u
+- Prijatelji gled___ film. (gledam) | Die Freunde schauen einen Film. | aju
+- Vozači voz___ brzo. (vozim) | Die Fahrer fahren schnell. | e
+- Djeca pleš___ zajedno. (plešem) | Die Kinder tanzen zusammen. | u
+- Učenici sluš___ tiho. (slušam) | Die Schüler hören leise zu. | aju
+- Ivan i Luka broj___ minute. (brojim) | Ivan und Luka zählen die Minuten. | e
+- Turisti vid___ spomenik. (vidim) | Die Touristen sehen das Denkmal. | e
+- Dječaci igr___ nogomet. (igram) | Die Jungen spielen Fußball. | aju
+- Roditelji čuj___ glazbu. (čujem) | Die Eltern hören die Musik. | u
+- Prijatelji zov___ konobara. (zovem) | Die Freunde rufen den Kellner. | u
+- Djeca ponavlj___ lekciju. (ponavljam) | Die Kinder wiederholen die Lektion. | aju
 
-## Does it change in the plural?
+## Ändert es sich im Plural?
 format: razvrstavanje
 stupci: MIJENJA SE | OSTAJE ISTO
-opis: After *vidim* — does the plural form change, or is it identical to the naming form?
+opis: Nach *vidim* – ändert sich die Pluralform, oder ist sie identisch mit der Benennungsform?
 - učenici | MIJENJA SE
 - gradovi | MIJENJA SE
 - prijatelji | MIJENJA SE
@@ -234,80 +234,80 @@ opis: After *vidim* — does the plural form change, or is it identical to the n
 - djevojčice | OSTAJE ISTO
 - ocjene | OSTAJE ISTO
 
-## Tap the plural ending
+## Tippe auf die Pluralendung
 format: nastavak
 nastavci: i | e | a
-opis: One tap. Masculine takes **-i**, feminine **-e**, neuter **-a**.
-- Učenic___ su mladi. | The pupils are young. | i
-- Knjig___ su nove. | The books are new. | e
-- Pism___ su duga. | The letters are long. | a
-- Prozor___ su veliki. | The windows are big. | i
-- Pjesm___ su lijepe. | The songs are beautiful. | e
-- Iskustv___ su zanimljiva. | The experiences are interesting. | a
-- Udžbenic___ su teški. | The textbooks are heavy. | i
-- Olovk___ su nove. | The pencils are new. | e
-- Mor___ su topla. | The seas are warm. | a
-- Dječac___ igraju. | The boys are playing. | i
-- Ocjen___ su dobre. | The grades are good. | e
-- Pitanj___ su kratka. | The questions are short. | a
-- Stolov___ su stari. | The tables are old. | i
-- Torb___ su male. | The bags are small. | e
-- Sel___ su mala. | The villages are small. | a
-- Gradov___ su lijepi. | The cities are beautiful. | i
-- Djevojčic___ pjevaju. | The girls are singing. | e
-- Jutr___ su hladna. | The mornings are cold. | a
-- Zadać___ su duge. | The homework is long. | e
-- Ispit___ su teški. | The exams are hard. | i
+opis: Ein Tipp. Maskulin nimmt **-i**, feminin **-e**, neutral **-a**.
+- Učenic___ su mladi. | Die Schüler sind jung. | i
+- Knjig___ su nove. | Die Bücher sind neu. | e
+- Pism___ su duga. | Die Briefe sind lang. | a
+- Prozor___ su veliki. | Die Fenster sind groß. | i
+- Pjesm___ su lijepe. | Die Lieder sind schön. | e
+- Iskustv___ su zanimljiva. | Die Erfahrungen sind interessant. | a
+- Udžbenic___ su teški. | Die Lehrbücher sind schwer. | i
+- Olovk___ su nove. | Die Bleistifte sind neu. | e
+- Mor___ su topla. | Die Meere sind warm. | a
+- Dječac___ igraju. | Die Jungen spielen. | i
+- Ocjen___ su dobre. | Die Noten sind gut. | e
+- Pitanj___ su kratka. | Die Fragen sind kurz. | a
+- Stolov___ su stari. | Die Tische sind alt. | i
+- Torb___ su male. | Die Taschen sind klein. | e
+- Sel___ su mala. | Die Dörfer sind klein. | a
+- Gradov___ su lijepi. | Die Städte sind schön. | i
+- Djevojčic___ pjevaju. | Die Mädchen singen. | e
+- Jutr___ su hladna. | Die Morgen sind kalt. | a
+- Zadać___ su duge. | Die Hausaufgaben sind lang. | e
+- Ispit___ su teški. | Die Prüfungen sind schwer. | i
 
-## Tap the person
+## Tippe auf die Person
 format: nastavak
 nastavci: mo | te | ju
-opis: Who is doing it? **-mo** is us, **-te** is you all, **-ju** is them. Every verb here belongs to the -am family.
-- Mi pjeva___ pjesme. | We sing songs. | mo
-- Vi pjeva___ pjesme. | You all sing songs. | te
-- Oni pjeva___ pjesme. | They sing songs. | ju
-- Mi igra___ nogomet. | We play football. | mo
-- Vi igra___ nogomet. | You all play football. | te
-- Dječaci igra___ nogomet. | The boys play football. | ju
-- Mi svira___ klavir. | We play the piano. | mo
-- Vi svira___ gitaru. | You all play the guitar. | te
-- Oni svira___ klavir. | They play the piano. | ju
-- Mi čita___ knjige. | We read books. | mo
-- Vi čita___ knjige. | You all read books. | te
-- Djeca čita___ knjige. | The children read books. | ju
-- Mi sluša___ učiteljicu. | We listen to the teacher. | mo
-- Vi gleda___ film. | You all watch a film. | te
-- Učenici sluša___ tiho. | The pupils listen quietly. | ju
-- Mi ponavlja___ lekciju. | We are repeating the lesson. | mo
-- Vi odgovara___ brzo. | You all answer quickly. | te
-- Učenici vježba___ svaki dan. | The pupils practice every day. | ju
+opis: Wer tut es? **-mo** sind wir, **-te** seid ihr, **-ju** sind sie. Jedes Verb hier gehört zur -am-Familie.
+- Mi pjeva___ pjesme. | Wir singen Lieder. | mo
+- Vi pjeva___ pjesme. | Ihr singt Lieder. | te
+- Oni pjeva___ pjesme. | Sie singen Lieder. | ju
+- Mi igra___ nogomet. | Wir spielen Fußball. | mo
+- Vi igra___ nogomet. | Ihr spielt Fußball. | te
+- Dječaci igra___ nogomet. | Die Jungen spielen Fußball. | ju
+- Mi svira___ klavir. | Wir spielen Klavier. | mo
+- Vi svira___ gitaru. | Ihr spielt Gitarre. | te
+- Oni svira___ klavir. | Sie spielen Klavier. | ju
+- Mi čita___ knjige. | Wir lesen Bücher. | mo
+- Vi čita___ knjige. | Ihr lest Bücher. | te
+- Djeca čita___ knjige. | Die Kinder lesen Bücher. | ju
+- Mi sluša___ učiteljicu. | Wir hören der Lehrerin zu. | mo
+- Vi gleda___ film. | Ihr schaut einen Film. | te
+- Učenici sluša___ tiho. | Die Schüler hören leise zu. | ju
+- Mi ponavlja___ lekciju. | Wir wiederholen die Lektion. | mo
+- Vi odgovara___ brzo. | Ihr antwortet schnell. | te
+- Učenici vježba___ svaki dan. | Die Schüler üben jeden Tag. | ju
 
-## Tap the plural target
+## Tippe auf das Ziel im Plural
 format: nastavak
 nastavci: i | e
-opis: The same word twice — once naming, once as the target. Only masculine plurals move, and watch the **c** turn back into a **k**.
-- Učenic___ pjevaju. | The pupils are singing. | i
-- Vidim učenik___ . | I see the pupils. | e
-- Dječac___ igraju nogomet. | The boys play football. | i
-- Vidim dječak___ . | I see the boys. | e
-- Gradov___ su stari. | The cities are old. | i
-- Vidim gradov___ . | I see the cities. | e
-- Prijatelj___ čekaju. | The friends are waiting. | i
-- Čekam prijatelj___ . | I'm waiting for the friends. | e
-- Prozor___ su veliki. | The windows are big. | i
-- Gledam prozor___ . | I'm looking at the windows. | e
-- Udžbenic___ su teški. | The textbooks are heavy. | i
-- Nosim udžbenik___ . | I'm carrying the textbooks. | e
-- Tramvaj___ su puni. | The trams are full. | i
-- Čekam tramvaj___ . | I'm waiting for the trams. | e
-- Stolov___ su stari. | The tables are old. | i
-- Vidim stolov___ . | I see the tables. | e
-- Roditelj___ slušaju. | The parents are listening. | i
-- Zovem roditelj___ . | I'm calling the parents. | e
+opis: Dasselbe Wort zweimal – einmal benennend, einmal als Ziel. Nur maskuline Plurale bewegen sich, und achte darauf, wie das **c** wieder zum **k** wird.
+- Učenic___ pjevaju. | Die Schüler singen. | i
+- Vidim učenik___ . | Ich sehe die Schüler. | e
+- Dječac___ igraju nogomet. | Die Jungen spielen Fußball. | i
+- Vidim dječak___ . | Ich sehe die Jungen. | e
+- Gradov___ su stari. | Die Städte sind alt. | i
+- Vidim gradov___ . | Ich sehe die Städte. | e
+- Prijatelj___ čekaju. | Die Freunde warten. | i
+- Čekam prijatelj___ . | Ich warte auf die Freunde. | e
+- Prozor___ su veliki. | Die Fenster sind groß. | i
+- Gledam prozor___ . | Ich schaue die Fenster an. | e
+- Udžbenic___ su teški. | Die Lehrbücher sind schwer. | i
+- Nosim udžbenik___ . | Ich trage die Lehrbücher. | e
+- Tramvaj___ su puni. | Die Straßenbahnen sind voll. | i
+- Čekam tramvaj___ . | Ich warte auf die Straßenbahnen. | e
+- Stolov___ su stari. | Die Tische sind alt. | i
+- Vidim stolov___ . | Ich sehe die Tische. | e
+- Roditelj___ slušaju. | Die Eltern hören zu. | i
+- Zovem roditelj___ . | Ich rufe die Eltern. | e
 
-## Type the plural
+## Tippe den Plural
 format: upis
-opis: Type the plural. Watch the *k → c* words and the one-syllable ones.
+opis: Tippe den Plural. Achte auf die Wörter mit *k → c* und die einsilbigen.
 - učenik → | učenici
 - dječak → | dječaci
 - udžbenik → | udžbenici
@@ -337,9 +337,9 @@ opis: Type the plural. Watch the *k → c* words and the one-syllable ones.
 - brat → | braća
 - čovjek → | ljudi
 
-## The adjective follows the noun
+## Das Adjektiv folgt dem Nomen
 format: izbor
-opis: Choose the matching adjective. Same trio as the nouns: -i / -e / -a.
+opis: Wähle das passende Adjektiv. Dasselbe Trio wie bei den Nomen: -i / -e / -a.
 - Pjesme su ___ . | stare | stari | stara
 - Učenici su ___ . | veseli | vesele | vesela
 - Pisma su ___ . | duga | dugi | duge
@@ -355,7 +355,7 @@ opis: Choose the matching adjective. Same trio as the nouns: -i / -e / -a.
 
 ## Tippe das Verb
 format: upis
-opis: Type the verb form.
+opis: Tippe die Verbform.
 - Mi ___ pjesme. (pjevati) | pjevamo
 - Oni ___ nogomet. (igrati) | igraju
 - Vi ___ sok. (piti) | pijete
@@ -372,9 +372,9 @@ opis: Type the verb form.
 - Vi ___ brzo. (odgovarati) | odgovarate
 - Ivan i Luka ___ minute. (brojati) | broje
 
-## Type the plural target
+## Tippe das Ziel im Plural
 format: upis
-opis: Put the plural into the target form — after *vidim*.
+opis: Setz den Plural in die Zielform – nach *vidim*.
 - učenici → Vidim ___ | učenike
 - gradovi → Vidim ___ | gradove
 - knjige → Čitam ___ | knjige
@@ -392,7 +392,7 @@ opis: Put the plural into the target form — after *vidim*.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about level 7 — everything here comes from the levels before it.
+opis: Nicht über Level 7 – alles hier stammt aus den Levels davor.
 - Čekam ___ . (prijatelj) | prijatelja | prijatelj | prijatelje
 - Vidim ___ . (tramvaj) | tramvaj | tramvaja | tramvaju
 - Ana zove ___ . (konobar) | konobara | konobar
@@ -406,58 +406,58 @@ opis: Not about level 7 — everything here comes from the levels before it.
 - Mama radi ___ čita. | i | a | ali
 - Ja ___ hrvatski. (učiti) | učim | učiš | uči
 - Mi ___ prijatelji. | smo | ste | su
-- Što znači "stanica"? | stop | street | traffic
-- Što znači "ključ"? | key | floor | number
+- Što znači "stanica"? | Haltestelle | Straße | Verkehr
+- Što znači "ključ"? | Schlüssel | Stockwerk | Nummer
 - Mijenja li se "autobus" nakon "vidim"? | ostaje isto | mijenja se
 
 ## Bau den Satz
 format: slaganje
 opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
-- Učenici su mladi i veseli. | en: The pupils are young and cheerful.
-- Knjige su nove, ali stolovi su stari. | en: The books are new, but the tables are old.
-- Djevojčice pjevaju pjesme. | en: The girls are singing songs.
-- Dječaci igraju nogomet. | en: The boys play football.
-- Djeca jedu jabuke. | en: The children are eating apples.
-- Gradovi su stari, ali su lijepi. | en: The cities are old, but they are beautiful.
-- Mi pjevamo, a vi svirate. | en: We sing, and you play.
-- Učenici pjevaju nove pjesme. | en: The pupils are singing new songs.
-- Prozori su veliki. | en: The windows are big.
-- Udžbenici su teški, ali su zanimljivi. | en: The textbooks are heavy, but they are interesting.
-- Čitam nove knjige. | en: I'm reading new books.
-- Vidim stare gradove. | en: I see the old cities.
-- Čekam prijatelje. | en: I'm waiting for my friends.
-- Vidim učenike i zovem ih. | en: I see the pupils and I call them.
-- Mi čekamo prijatelje. | en: We are waiting for our friends.
-- Vi odgovarate brzo. | en: You all answer quickly.
-- Roditelji slušaju i plješću. | en: The parents listen and applaud.
-- Ispiti su u srijedu. | en: The exams are on Wednesday.
-- Nitko ne voli fiziku. | en: Nobody likes physics.
-- Oni su braća. | en: They are brothers.
-- Dani su dugi, ali su lijepi. | en: The days are long, but they are beautiful.
-- Mi trebamo brze igrače. | en: We need fast players.
+- Učenici su mladi i veseli. | en: Die Schüler sind jung und fröhlich.
+- Knjige su nove, ali stolovi su stari. | en: Die Bücher sind neu, aber die Tische sind alt.
+- Djevojčice pjevaju pjesme. | en: Die Mädchen singen Lieder.
+- Dječaci igraju nogomet. | en: Die Jungen spielen Fußball.
+- Djeca jedu jabuke. | en: Die Kinder essen Äpfel.
+- Gradovi su stari, ali su lijepi. | en: Die Städte sind alt, aber sie sind schön.
+- Mi pjevamo, a vi svirate. | en: Wir singen, und ihr spielt.
+- Učenici pjevaju nove pjesme. | en: Die Schüler singen neue Lieder.
+- Prozori su veliki. | en: Die Fenster sind groß.
+- Udžbenici su teški, ali su zanimljivi. | en: Die Lehrbücher sind schwer, aber sie sind interessant.
+- Čitam nove knjige. | en: Ich lese neue Bücher.
+- Vidim stare gradove. | en: Ich sehe die alten Städte.
+- Čekam prijatelje. | en: Ich warte auf meine Freunde.
+- Vidim učenike i zovem ih. | en: Ich sehe die Schüler und rufe sie.
+- Mi čekamo prijatelje. | en: Wir warten auf unsere Freunde.
+- Vi odgovarate brzo. | en: Ihr antwortet schnell.
+- Roditelji slušaju i plješću. | en: Die Eltern hören zu und applaudieren.
+- Ispiti su u srijedu. | en: Die Prüfungen sind am Mittwoch.
+- Nitko ne voli fiziku. | en: Niemand mag Physik.
+- Oni su braća. | en: Sie sind Brüder.
+- Dani su dugi, ali su lijepi. | en: Die Tage sind lang, aber sie sind schön.
+- Mi trebamo brze igrače. | en: Wir brauchen schnelle Spieler.
 
 ## Schreib es auf Kroatisch
 format: upis
 opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz. Bei *ja* und *ti* ist das Pronomen optional, dort zählen also beide Fassungen; bei *on* und *ona* behalte es.
-- The pupils are young and cheerful. | Učenici su mladi i veseli.
-- The books are new. | Knjige su nove.
-- The tables are old. | Stolovi su stari.
-- The girls are singing songs. | Djevojčice pjevaju pjesme.
-- The boys play football. | Dječaci igraju nogomet.
-- The children are eating apples. | Djeca jedu jabuke.
-- The windows are big. | Prozori su veliki.
-- The letters are long. | Pisma su duga.
-- The cities are old. | Gradovi su stari.
-- We sing songs. | Pjevamo pjesme. / Mi pjevamo pjesme.
-- You all read books. | Čitate knjige. / Vi čitate knjige.
-- They play the piano. | Sviraju klavir. / Oni sviraju klavir.
-- I'm reading new books. | Čitam nove knjige. / Ja čitam nove knjige.
-- I see the old cities. | Vidim stare gradove. / Ja vidim stare gradove.
-- I'm waiting for my friends. | Čekam prijatelje. / Ja čekam prijatelje.
-- I see the pupils. | Vidim učenike. / Ja vidim učenike.
-- We are waiting for our friends. | Čekamo prijatelje. / Mi čekamo prijatelje.
-- The parents listen. | Roditelji slušaju.
-- The exams are on Wednesday. | Ispiti su u srijedu.
-- Nobody likes physics. | Nitko ne voli fiziku.
-- They are brothers. | Oni su braća.
-- The days are long. | Dani su dugi.
+- Die Schüler sind jung und fröhlich. | Učenici su mladi i veseli.
+- Die Bücher sind neu. | Knjige su nove.
+- Die Tische sind alt. | Stolovi su stari.
+- Die Mädchen singen Lieder. | Djevojčice pjevaju pjesme.
+- Die Jungen spielen Fußball. | Dječaci igraju nogomet.
+- Die Kinder essen Äpfel. | Djeca jedu jabuke.
+- Die Fenster sind groß. | Prozori su veliki.
+- Die Briefe sind lang. | Pisma su duga.
+- Die Städte sind alt. | Gradovi su stari.
+- Wir singen Lieder. | Pjevamo pjesme. / Mi pjevamo pjesme.
+- Ihr lest Bücher. | Čitate knjige. / Vi čitate knjige.
+- Sie spielen Klavier. | Sviraju klavir. / Oni sviraju klavir.
+- Ich lese neue Bücher. | Čitam nove knjige. / Ja čitam nove knjige.
+- Ich sehe die alten Städte. | Vidim stare gradove. / Ja vidim stare gradove.
+- Ich warte auf meine Freunde. | Čekam prijatelje. / Ja čekam prijatelje.
+- Ich sehe die Schüler. | Vidim učenike. / Ja vidim učenike.
+- Wir warten auf unsere Freunde. | Čekamo prijatelje. / Mi čekamo prijatelje.
+- Die Eltern hören zu. | Roditelji slušaju.
+- Die Prüfungen sind am Mittwoch. | Ispiti su u srijedu.
+- Niemand mag Physik. | Nitko ne voli fiziku.
+- Sie sind Brüder. | Oni su braća.
+- Die Tage sind lang. | Dani su dugi.

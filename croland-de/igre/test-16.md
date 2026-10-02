@@ -1,112 +1,112 @@
-# Test 16: The Genitive
+# Test 16: Der Genitiv
 cjelina: Test 16
 
 ## Ordne die Wörter zu
 format: parovi
 trajanje: 1380
 prag: 70
-info: The words of Level 16: the house, the garden, the little words that take the genitive, and ten verbs. Nouns are in their naming form, verbs in the infinitive. Watch the pairs that look alike: *iznad* and *ispod*, *ispred* and *iza*.
-infokratko: Level 16 words. Watch *iznad / ispod*, *ispred / iza*.
+info: Die Wörter von Stufe 16: das Haus, der Garten, die kleinen Wörter mit dem Genitiv und zehn Verben. Substantive stehen in der Grundform, Verben im Infinitiv. Achte auf die Paare, die sich ähneln: *iznad* und *ispod*, *ispred* und *iza*.
+infokratko: Wörter von Stufe 16. Achte auf *iznad / ispod*, *ispred / iza*.
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- miris | smell
-- komad | piece
-- svijet | world
-- boja | colour
-- slika | picture
-- zavjesa | curtain
+- miris | Geruch, Duft
+- komad | Stück
+- svijet | Welt
+- boja | Farbe
+- slika | Bild
+- zavjesa | Vorhang
 - svjetlo | Licht
-- namještaj | furniture
-- perilica | washing machine
-- sudoper | sink
-- lonac | pot
-- zdjela | bowl
-- čajnik | teapot
-- zvono | doorbell
-- brava | lock
-- ograda | fence
-- trava | grass
-- cvijet | flower
-- biljka | plant
-- kamen | stone
-- bez | without
-- iz | from, out of
-- od | from, of
-- do | to, until
-- kod | at someone's place
-- pokraj | next to
-- ispred | in front of
-- iza | behind
-- iznad | above
-- ispod | under
-- između | between
-- preko | over, across
-- nakon | after
-- tijekom | during
-- osim | except
-- umjesto | instead of
-- izvan | outside (of)
-- Odakle? | From where?
-- rasti | to grow
-- visjeti | to hang
-- čuvati | to look after, to keep
-- popraviti | to repair
-- ostaviti | to leave (behind)
-- naći | to find
-- zaključati | to lock
-- mijenjati | to change
-- dolaziti | to come
-- paliti | to turn on
-- drven | wooden
-- stoljeće | century
-- zvuk | sound
-- početak | beginning
-- kraj | end
-- autocesta | highway
-- menta | mint
-- kamilica | chamomile
+- namještaj | Möbel
+- perilica | Waschmaschine
+- sudoper | Spüle, Waschbecken
+- lonac | Topf
+- zdjela | Schüssel
+- čajnik | Teekanne
+- zvono | Türklingel
+- brava | Schloss
+- ograda | Zaun
+- trava | Gras
+- cvijet | Blume
+- biljka | Pflanze
+- kamen | Stein
+- bez | ohne
+- iz | aus
+- od | von, aus
+- do | bis, zu
+- kod | bei jemandem
+- pokraj | neben
+- ispred | vor
+- iza | hinter
+- iznad | über, oberhalb
+- ispod | unter
+- između | zwischen
+- preko | über, quer durch
+- nakon | nach
+- tijekom | während
+- osim | außer
+- umjesto | statt, anstelle von
+- izvan | außerhalb (von)
+- Odakle? | Woher?
+- rasti | wachsen
+- visjeti | hängen
+- čuvati | aufpassen auf, aufbewahren
+- popraviti | reparieren
+- ostaviti | (zurück)lassen
+- naći | finden
+- zaključati | abschließen, zusperren
+- mijenjati | ändern, wechseln
+- dolaziti | kommen
+- paliti | einschalten
+- drven | hölzern, aus Holz
+- stoljeće | Jahrhundert
+- zvuk | Klang, Geräusch
+- početak | Anfang
+- kraj | Ende
+- autocesta | Autobahn
+- menta | Minze
+- kamilica | Kamille
 
 ## Was bedeutet das?
 format: izbor
-info: Recognition of the Level 16 words, with three meanings to choose from. The wrong options come from the same group — little words, kitchen things, verbs — so the pairs that look alike are the real test.
-infokratko: Level 16 words; the wrong options come from the same group.
+info: Wiedererkennen der Wörter von Stufe 16, mit drei Bedeutungen zur Auswahl. Die falschen Optionen stammen aus derselben Gruppe – kleine Wörter, Küchendinge, Verben –, also sind die ähnlichen Paare der eigentliche Test.
+infokratko: Wörter von Stufe 16; die falschen Optionen stammen aus derselben Gruppe.
 opis: Wähle die richtige Bedeutung.
-- bez | without | from | behind
-- iz | from, out of | without | next to
-- kod | at someone's place | from | until
-- pokraj | next to | behind | under
-- ispred | in front of | behind | above
-- iza | behind | in front of | between
-- iznad | above | under | outside
-- ispod | under | above | instead of
-- između | between | during | except
-- nakon | after | during | before
-- tijekom | during | after | until
-- osim | except | instead of | without
-- umjesto | instead of | except | over
-- izvan | outside (of) | inside | behind
-- preko | over, across | under | between
-- Odakle? | From where? | Where to? | Where?
-- miris | smell | sound | colour
-- zvuk | sound | smell | Licht
-- komad | piece | bowl | end
-- početak | beginning | end | century
-- kraj | end | beginning | fence
-- stoljeće | century | year | world
-- zavjesa | curtain | fence | lock
-- sudoper | sink | pot | washing machine
-- zdjela | bowl | teapot | pot
-- brava | lock | doorbell | key
-- rasti | to grow | to hang | to find
-- čuvati | to look after, to keep | to change | to lock
-- zaključati | to lock | to repair | to leave (behind)
-- paliti | to turn on | to grow | to change
+- bez | ohne | aus | hinter
+- iz | aus | ohne | neben
+- kod | bei jemandem | aus | bis
+- pokraj | neben | hinter | unter
+- ispred | vor | hinter | über, oberhalb
+- iza | hinter | vor | zwischen
+- iznad | über, oberhalb | unter | draußen
+- ispod | unter | über, oberhalb | statt, anstelle von
+- između | zwischen | während | außer
+- nakon | nach | während | vorher, früher
+- tijekom | während | nach | bis
+- osim | außer | statt, anstelle von | ohne
+- umjesto | statt, anstelle von | außer | über
+- izvan | außerhalb (von) | drinnen | hinter
+- preko | über, quer durch | unter | zwischen
+- Odakle? | Woher? | Wohin? | Wo?
+- miris | Geruch, Duft | Klang, Geräusch | Farbe
+- zvuk | Klang, Geräusch | Geruch, Duft | Licht
+- komad | Stück | Schüssel | Ende
+- početak | Anfang | Ende | Jahrhundert
+- kraj | Ende | Anfang | Zaun
+- stoljeće | Jahrhundert | Jahr | Welt
+- zavjesa | Vorhang | Zaun | Schloss
+- sudoper | Spüle, Waschbecken | Topf | Waschmaschine
+- zdjela | Schüssel | Teekanne | Topf
+- brava | Schloss | Türklingel | Schlüssel
+- rasti | wachsen | hängen | finden
+- čuvati | aufpassen auf, aufbewahren | ändern, wechseln | abschließen, zusperren
+- zaključati | abschließen, zusperren | reparieren | (zurück)lassen
+- paliti | einschalten | wachsen | ändern, wechseln
 
-## -A, -E or -I?
+## -A, -E oder -I?
 format: razvrstavanje
-info: Sorting nouns by their genitive ending. Masculine and neuter nouns take **-a** — also those in **-o** and **-e**. Feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**.
-infokratko: m./n. **-a**; f. in **-a** **-e**; f. on a consonant **-i**.
+info: Substantive nach ihrer Genitivendung sortieren. Maskuline und neutrale Substantive bekommen **-a** – auch die auf **-o** und **-e**. Feminine Substantive auf **-a** bekommen **-e**, und feminine Substantive, die auf einen Konsonanten enden, bekommen **-i**.
+infokratko: m./n. **-a**; f. auf **-a** **-e**; f. auf Konsonant **-i**.
 stupci: -A | -E | -I
-opis: Which ending does each noun take in the genitive?
+opis: Welche Endung bekommt jedes Substantiv im Genitiv?
 - miris | -A
 - lonac | -A
 - zvono | -A
@@ -124,57 +124,57 @@ opis: Which ending does each noun take in the genitive?
 - obitelj | -I
 - ljubav | -I
 
-## Which job?
+## Welche Aufgabe?
 format: razvrstavanje
-info: Sorting sentences by the job of the genitive. The owner after a thing is belonging; a genitive after *bez, iz, kod, ispod…* follows a little word; after *nema* something is missing; and after 2, 3 or 4 it follows a number.
-infokratko: Owner → belonging; after *bez, iz…*; after *nema*; after 2–4.
-stupci: BELONGING | LITTLE WORD | NEMA | NUMBER
-opis: What is the genitive doing in each sentence? Sort them.
-- Miris kave je u kuhinji. | BELONGING
-- Boja zavjese je plava. | BELONGING
-- Zvono kuće ne radi. | BELONGING
-- Kuća moje bake je stara. | BELONGING
-- Pijem čaj bez šećera. | LITTLE WORD
-- Mačka spava ispod kreveta. | LITTLE WORD
-- Nakon ručka čitam. | LITTLE WORD
-- Dolazim iz Splita. | LITTLE WORD
+info: Sätze nach der Aufgabe des Genitivs sortieren. Der Besitzer nach einer Sache ist Zugehörigkeit; ein Genitiv nach *bez, iz, kod, ispod…* folgt einem kleinen Wort; nach *nema* fehlt etwas; und nach 2, 3 oder 4 folgt er einer Zahl.
+infokratko: Besitzer → Zugehörigkeit; nach *bez, iz…*; nach *nema*; nach 2–4.
+stupci: ZUGEHÖRIGKEIT | KLEINES WORT | NEMA | ZAHL
+opis: Was macht der Genitiv in jedem Satz? Sortiere sie.
+- Miris kave je u kuhinji. | ZUGEHÖRIGKEIT
+- Boja zavjese je plava. | ZUGEHÖRIGKEIT
+- Zvono kuće ne radi. | ZUGEHÖRIGKEIT
+- Kuća moje bake je stara. | ZUGEHÖRIGKEIT
+- Pijem čaj bez šećera. | KLEINES WORT
+- Mačka spava ispod kreveta. | KLEINES WORT
+- Nakon ručka čitam. | KLEINES WORT
+- Dolazim iz Splita. | KLEINES WORT
 - Nema mlijeka. | NEMA
 - U kući nema interneta. | NEMA
 - Danas nema kamilice. | NEMA
 - Nema problema! | NEMA
-- Imam dva brata. | NUMBER
-- Tri kave, molim. | NUMBER
-- Kuća ima četiri sobe. | NUMBER
-- Kuća je stara dva stoljeća. | NUMBER
+- Imam dva brata. | ZAHL
+- Tri kave, molim. | ZAHL
+- Kuća ima četiri sobe. | ZAHL
+- Kuća je stara dva stoljeća. | ZAHL
 
 ## Tippe auf die Endung
 format: nastavak
 nastavci: a | e | i
-info: One tap for the genitive. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**. A word that has lost its *a* only needs the ending: *lonc___, ručk___*.
-infokratko: m./n. **-a**, f. **-e**, f. on a consonant **-i**.
-opis: The English is above. One tap puts the word in the genitive.
-- Kava bez mlijek___, molim. | Coffee without milk, please. | a
-- Slika visi iznad sudoper___. | The picture hangs above the sink. | a
-- Ključ je ispod zdjel___. | The key is under the bowl. | e
-- Tijekom noć___ pada kiša. | During the night it rains. | i
-- Čaj od kamilic___, molim. | Chamomile tea, please. | e
-- Komad kamen___ je na stolu. | A piece of stone is on the table. | a
-- Nakon ručk___ baka spava. | After lunch Grandma sleeps. | a
-- Juha bez sol___ nije ukusna. | Soup without salt isn't tasty. | i
-- Iza ograd___ raste trava. | Behind the fence grass grows. | e
-- Kuća je stara dva stoljeć___. | The house is two centuries old. | a
-- Poklon je od obitelj___. | The present is from the family. | i
-- Miris juh___ je u kuhinji. | The smell of soup is in the kitchen. | e
-- Pijem sok umjesto kav___. | I drink juice instead of coffee. | e
-- Boja lonc___ je crvena. | The colour of the pot is red. | a
-- Na zabavi smo do ponoć___. | We're at the party until midnight. | i
-- Vrt je pokraj kuć___. | The garden is next to the house. | e
+info: Ein Tippen für den Genitiv. Maskuline und neutrale Substantive bekommen **-a**, feminine Substantive auf **-a** bekommen **-e**, und feminine Substantive, die auf einen Konsonanten enden, bekommen **-i**. Ein Wort, das sein *a* verloren hat, braucht nur die Endung: *lonc___, ručk___*.
+infokratko: m./n. **-a**, f. **-e**, f. auf Konsonant **-i**.
+opis: Oben steht das Deutsche. Ein Tippen bringt das Wort in den Genitiv.
+- Kava bez mlijek___, molim. | Kaffee ohne Milch, bitte. | a
+- Slika visi iznad sudoper___. | Das Bild hängt über der Spüle. | a
+- Ključ je ispod zdjel___. | Der Schlüssel ist unter der Schüssel. | e
+- Tijekom noć___ pada kiša. | Während der Nacht regnet es. | i
+- Čaj od kamilic___, molim. | Kamillentee, bitte. | e
+- Komad kamen___ je na stolu. | Ein Stück Stein liegt auf dem Tisch. | a
+- Nakon ručk___ baka spava. | Nach dem Mittagessen schläft Oma. | a
+- Juha bez sol___ nije ukusna. | Suppe ohne Salz schmeckt nicht. | i
+- Iza ograd___ raste trava. | Hinter dem Zaun wächst Gras. | e
+- Kuća je stara dva stoljeć___. | Das Haus ist zwei Jahrhunderte alt. | a
+- Poklon je od obitelj___. | Das Geschenk ist von der Familie. | i
+- Miris juh___ je u kuhinji. | Der Duft der Suppe ist in der Küche. | e
+- Pijem sok umjesto kav___. | Ich trinke Saft statt Kaffee. | e
+- Boja lonc___ je crvena. | Die Farbe des Topfes ist rot. | a
+- Na zabavi smo do ponoć___. | Wir sind bis Mitternacht auf der Party. | i
+- Vrt je pokraj kuć___. | Der Garten ist neben dem Haus. | e
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing the correct genitive. The wrong options put the naming form or a form from another case after the little word — the target form, the place form or the company form. Only the genitive fits after *bez, iz, kod, ispod* and *nema*.
-infokratko: After *bez, iz, kod, ispod…* and *nema*: only the genitive.
-opis: Choose the correct form.
+info: Den richtigen Genitiv wählen. Die falschen Optionen setzen nach dem kleinen Wort die Grundform oder eine Form aus einem anderen Fall – die Zielform, die Ortsform oder die Begleitungsform. Nur der Genitiv passt nach *bez, iz, kod, ispod* und *nema*.
+infokratko: Nach *bez, iz, kod, ispod…* und *nema*: nur der Genitiv.
+opis: Wähle die richtige Form.
 - Pijem kavu bez ___ . | šećera | šećer | šećerom
 - Dolazim iz ___ . | Zagreba | Zagreb | Zagrebu
 - Ručamo kod ___ . | bake | baku | baki
@@ -188,33 +188,33 @@ opis: Choose the correct form.
 - Ključ je kod ___ . (ja) | mene | meni | ja
 - Sjedim pokraj ___ . (ona) | nje | nju | njoj
 
-## Pick the little word
+## Wähle das kleine Wort
 format: izbor
-info: Choosing the little word from its English meaning. All of them take the genitive, so the ending does not help: the meaning in brackets decides. Keep *iznad* and *ispod*, *ispred* and *iza*, *osim* and *umjesto* apart.
-infokratko: The meaning decides. *iznad / ispod*, *ispred / iza*, *osim / umjesto*.
-opis: Choose the little word that matches the English in brackets.
-- Slika visi ___ stola. (above) | iznad | ispod | ispred
-- Mačka spava ___ kreveta. (under) | ispod | iznad | iza
-- Auto je ___ kuće. (in front of) | ispred | iza | ispod
-- Vrt je ___ kuće. (behind) | iza | ispred | iznad
-- Pijem čaj ___ kave. (instead of) | umjesto | osim | nakon
-- Nitko ne zna ___ Marka. (except) | osim | umjesto | kod
-- ___ ručka spavam. (after) | Nakon | Tijekom | Osim
-- ___ noći pada snijeg. (during) | Tijekom | Nakon | Umjesto
-- Park je ___ škole i pošte. (between) | između | preko | izvan
-- Kuća je ___ grada. (outside) | izvan | između | iznad
+info: Das kleine Wort nach seiner deutschen Bedeutung wählen. Alle nehmen den Genitiv, also hilft die Endung nicht: Die Bedeutung in Klammern entscheidet. Halte *iznad* und *ispod*, *ispred* und *iza*, *osim* und *umjesto* auseinander.
+infokratko: Die Bedeutung entscheidet. *iznad / ispod*, *ispred / iza*, *osim / umjesto*.
+opis: Wähle das kleine Wort, das zum Deutschen in Klammern passt.
+- Slika visi ___ stola. (über) | iznad | ispod | ispred
+- Mačka spava ___ kreveta. (unter) | ispod | iznad | iza
+- Auto je ___ kuće. (vor) | ispred | iza | ispod
+- Vrt je ___ kuće. (hinter) | iza | ispred | iznad
+- Pijem čaj ___ kave. (statt) | umjesto | osim | nakon
+- Nitko ne zna ___ Marka. (außer) | osim | umjesto | kod
+- ___ ručka spavam. (nach) | Nakon | Tijekom | Osim
+- ___ noći pada snijeg. (während) | Tijekom | Nakon | Umjesto
+- Park je ___ škole i pošte. (zwischen) | između | preko | izvan
+- Kuća je ___ grada. (außerhalb) | izvan | između | iznad
 
-## After the number
+## Nach der Zahl
 format: izbor
-info: Choosing the form after a number. After 2, 3 and 4 the noun takes the genitive singular (*dvije kave, tri soka*), and from 5 up the genitive plural (*pet kava, deset sokova*). *Dva* goes with masculine and neuter words, *dvije* with feminine ones.
-infokratko: 2–4: genitive singular; 5+: genitive plural. *dva* m./n., *dvije* f.
-opis: Two-three-four, or five and up? The number decides.
+info: Die Form nach einer Zahl wählen. Nach 2, 3 und 4 steht das Substantiv im Genitiv Singular (*dvije kave, tri soka*), ab 5 im Genitiv Plural (*pet kava, deset sokova*). *Dva* gehört zu maskulinen und neutralen Wörtern, *dvije* zu femininen.
+infokratko: 2–4: Genitiv Singular; 5+: Genitiv Plural. *dva* m./n., *dvije* f.
+opis: Zwei-drei-vier oder ab fünf? Die Zahl entscheidet.
 - dvije ___ | kave | kava | kavu
 - pet ___ | kava | kave | kavu
 - tri ___ | brata | braća | brat
 - šest ___ | prijatelja | prijatelji | prijatelju
-- ___ sestre (two) | dvije | dva | dvoje
-- ___ brata (two) | dva | dvije | dvoje
+- ___ sestre (zwei) | dvije | dva | dvoje
+- ___ brata (zwei) | dva | dvije | dvoje
 - četiri ___ | sobe | soba | sobu
 - deset ___ | sokova | soka | sokovi
 - dva ___ | stoljeća | stoljeće | stoljećima
@@ -222,11 +222,11 @@ opis: Two-three-four, or five and up? The number decides.
 - tri ___ | lonca | lonaca | lonac
 - ___ kava piješ na dan? | Koliko | Kakva | Koja
 
-## Which case is it?
+## Welcher Fall ist es?
 format: izbor
-info: Telling the genitive apart from the other cases. The same ending can belong to two cases — *brata* is the target in *Čekam brata* and the genitive in *kod brata* — so ask the question the sentence answers: *čega?*, *koga?*, *komu?*, *gdje?* or *s kim?*
-infokratko: Ask the question: *čega? / koga?* genitive; *komu?* dative; *gdje?* locative; *s kim?* instrumental.
-opis: Which case is the word in quotation marks?
+info: Den Genitiv von den anderen Fällen unterscheiden. Dieselbe Endung kann zu zwei Fällen gehören – *brata* ist das Ziel in *Čekam brata* und der Genitiv in *kod brata* –, also stell die Frage, auf die der Satz antwortet: *čega?*, *koga?*, *komu?*, *gdje?* oder *s kim?*
+infokratko: Stell die Frage: *čega? / koga?* Genitiv; *komu?* Dativ; *gdje?* Lokativ; *s kim?* Instrumental.
+opis: In welchem Fall steht das Wort in Anführungszeichen?
 - Kava bez šećera. — "šećera" je... | genitiv | akuzativ | dativ
 - Čekam brata. — "brata" je... | akuzativ | genitiv | dativ
 - Ručam kod brata. — "brata" je... | genitiv | akuzativ | lokativ
@@ -238,11 +238,11 @@ opis: Which case is the word in quotation marks?
 - Nema kave. — "kave" je... | genitiv | akuzativ | nominativ
 - Dvije kave, molim. — "kave" je... | genitiv | nominativ | akuzativ
 
-## Type the genitive
+## Schreib den Genitiv
 format: upis
-info: You type the genitive after the little word, *nema* or the owned thing. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns on a consonant take **-i**. Watch the words that lose an *a*: *lonac → lonca*.
+info: Du schreibst den Genitiv nach dem kleinen Wort, *nema* oder der Sache, zu der er gehört. Maskuline und neutrale Substantive bekommen **-a**, feminine Substantive auf **-a** bekommen **-e**, und feminine Substantive auf Konsonant bekommen **-i**. Achte auf die Wörter, die ein *a* verlieren: *lonac → lonca*.
 infokratko: **-a / -e / -i**. *lonac → lonca, ručak → ručka*.
-opis: Type the genitive of the word in brackets.
+opis: Schreib den Genitiv des Worts in Klammern.
 - Pijem kavu bez ___ . (mlijeko) | mlijeka
 - Dolazim iz ___ . (Split) | Splita
 - Ručamo kod ___ . (teta) | tete
@@ -256,11 +256,11 @@ opis: Type the genitive of the word in brackets.
 - Boja ___ je plava. (zavjesa) | zavjese
 - Nitko ne dolazi osim ___ . (Marko) | Marka
 
-## With me, without you
+## Mit mir, ohne dich
 format: upis
-info: The pronoun after a little word takes its long form, the same as the long target form: *mene, tebe, njega, nas, vas, njih*. Only *ona* has its own genitive, *nje*. The last two items ask for the question words *koga* and *čega*.
+info: Das Pronomen nach einem kleinen Wort nimmt seine lange Form, dieselbe wie die lange Zielform: *mene, tebe, njega, nas, vas, njih*. Nur *ona* hat einen eigenen Genitiv, *nje*. Die letzten zwei Aufgaben verlangen die Fragewörter *koga* und *čega*.
 infokratko: *kod mene, bez tebe, iza njega, pokraj nje, kod nas, bez vas, kod njih*. *Koga? Čega?*
-opis: Type the pronoun in the form that follows the little word.
+opis: Schreib das Pronomen in der Form, die auf das kleine Wort folgt.
 - (ja) Ključ je kod ___ . | mene
 - (ti) Ne idem bez ___ . | tebe
 - (on) Sjedim iza ___ . | njega
@@ -272,12 +272,12 @@ opis: Type the pronoun in the form that follows the little word.
 - Kod ___ si? — Kod bake. | koga
 - Bez ___ piješ kavu? — Bez šećera. | čega
 
-## Read: the key to the cellar
+## Lesen: der Kellerschlüssel
 format: izbor
-info: A short story with the genitive in almost every sentence: places after little words, a number, *nema* and a thing that belongs to something. Find the little word from the question in the text before you answer.
-infokratko: Find the little word from the question in the text.
+info: Eine kurze Geschichte mit dem Genitiv in fast jedem Satz: Orte nach kleinen Wörtern, eine Zahl, *nema* und eine Sache, die zu etwas gehört. Finde das kleine Wort aus der Frage im Text, bevor du antwortest.
+infokratko: Finde das kleine Wort aus der Frage im Text.
 tekst: U subotu je Petra kod bake. Baka živi u kući blizu mora. Kuća je stara dva stoljeća. Pokraj kuće je vrt, a u vrtu rastu menta, kamilica i dva limuna. Nakon ručka baka i Petra piju čaj od kamilice bez šećera. Onda baka traži ključ od podruma, ali ključa nema. Nema ga ni ispod stola ni iza vrata. Na kraju ga Petra nađe: ključ je u loncu, pokraj sudopera!
-opis: Read the text, then answer. Passive words: *rastu* (grow), *ključ od podruma* (the cellar key), *ga* (it), *na kraju* (in the end), *nađe* (finds).
+opis: Lies den Text und antworte dann. Passive Wörter: *rastu* (wachsen), *ključ od podruma* (der Kellerschlüssel), *ga* (ihn), *na kraju* (am Ende), *nađe* (findet).
 - Gdje je Petra u subotu? | kod bake | kod tete | kod Marka
 - Koliko je stara kuća? | dva stoljeća | sto godina | dvije godine
 - Što je pokraj kuće? | vrt | more | podrum
@@ -287,12 +287,12 @@ opis: Read the text, then answer. Passive words: *rastu* (grow), *ključ od podr
 
 ## Aus den früheren Levels
 format: izbor
-info: A review of Module C and the perfect: the instrumental, the dative, the locative, questions and negation. Each item comes from a level you have finished, so read the brackets carefully.
-infokratko: Review: instrumental, dative, locative, questions, negation, the perfect.
-opis: Not about the genitive — everything here comes from levels 8 to 15.
+info: Eine Wiederholung von Modul C und dem Perfekt: der Instrumental, der Dativ, der Lokativ, Fragen und Verneinung. Jede Aufgabe stammt aus einer Stufe, die du abgeschlossen hast, also lies die Klammern genau.
+infokratko: Wiederholung: Instrumental, Dativ, Lokativ, Fragen, Verneinung, das Perfekt.
+opis: Nicht zum Genitiv – alles hier stammt aus den Stufen 8 bis 15.
 - Idem u kino ___ . (Marko) | s Markom | s Marko | s Marku
 - Putujemo na otok ___ . (trajekt) | trajektom | trajekt | trajektu
-- Ideš li ___ ? (with me) | sa mnom | s ja | sa meni
+- Ideš li ___ ? (mit mir) | sa mnom | s ja | sa meni
 - Pizza ___ , molim. (gljive) | s gljivama | s gljive | s gljivima
 - Šaljem pismo ___ . (baka) | baki | baku | bakom
 - ___ pomažeš? — Mami. | Komu | Koga | S kim
@@ -311,45 +311,45 @@ opis: Not about the genitive — everything here comes from levels 8 to 15.
 - Vidim ___ . (pas) | psa | pas | psu
 - Koja je rečenica točna? | Kupujem kartu jer je koncert u subotu. | Kupujem kartu jer koncert je u subotu. | Kupujem kartu je jer koncert u subotu.
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-info: Whole sentences with the genitive in all its jobs, built from tiles. The genitive follows the thing it belongs to, the little word, *nema* or the number, and a comma comes before *a* and *ali*.
-infokratko: Genitive after the thing, the little word, *nema* or 2–4. Comma before *a, ali*.
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- Kuća moje bake je stara. | en: My grandma's house is old.
-- Pijem kavu bez šećera i bez mlijeka. | en: I drink coffee without sugar and without milk.
-- Putujemo iz Zagreba do mora. | en: We're travelling from Zagreb to the sea.
-- Pokraj kuće je vrt, a iza kuće je ograda. | en: Next to the house there's a garden, and behind the house a fence.
-- Odakle si? — Iz Splita. | en: Where are you from? — From Split.
-- Kod bake nema interneta, ali nema ni žurbe. | en: At Grandma's there's no internet, but there's no hurry either.
-- Mačka spava ispod kreveta. | en: The cat sleeps under the bed.
-- Slika visi iznad sudopera. | en: The picture hangs above the sink.
-- Nakon ručka pijem čaj od mente. | en: After lunch I drink mint tea.
-- Ključ je kod mene. | en: The key is with me.
-- Dvije kave i tri soka, molim. | en: Two coffees and three juices, please.
-- Imam dva brata i dvije sestre. | en: I have two brothers and two sisters.
-- Koliko kava piješ na dan? | en: How many coffees do you drink a day?
-- Umjesto kave pijem čaj. | en: Instead of coffee I drink tea.
-- Kuća je stara dva stoljeća. | en: The house is two centuries old.
+info: Ganze Sätze mit dem Genitiv in all seinen Aufgaben, aus Kacheln gebaut. Der Genitiv folgt der Sache, zu der er gehört, dem kleinen Wort, *nema* oder der Zahl, und vor *a* und *ali* steht ein Komma.
+infokratko: Genitiv nach der Sache, dem kleinen Wort, *nema* oder 2–4. Komma vor *a, ali*.
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- Kuća moje bake je stara. | en: Das Haus meiner Oma ist alt.
+- Pijem kavu bez šećera i bez mlijeka. | en: Ich trinke Kaffee ohne Zucker und ohne Milch.
+- Putujemo iz Zagreba do mora. | en: Wir fahren von Zagreb ans Meer.
+- Pokraj kuće je vrt, a iza kuće je ograda. | en: Neben dem Haus ist ein Garten und hinter dem Haus ein Zaun.
+- Odakle si? — Iz Splita. | en: Woher kommst du? – Aus Split.
+- Kod bake nema interneta, ali nema ni žurbe. | en: Bei Oma gibt es kein Internet, aber auch keine Eile.
+- Mačka spava ispod kreveta. | en: Die Katze schläft unter dem Bett.
+- Slika visi iznad sudopera. | en: Das Bild hängt über der Spüle.
+- Nakon ručka pijem čaj od mente. | en: Nach dem Mittagessen trinke ich Pfefferminztee.
+- Ključ je kod mene. | en: Der Schlüssel ist bei mir.
+- Dvije kave i tri soka, molim. | en: Zwei Kaffee und drei Säfte, bitte.
+- Imam dva brata i dvije sestre. | en: Ich habe zwei Brüder und zwei Schwestern.
+- Koliko kava piješ na dan? | en: Wie viele Kaffee trinkst du am Tag?
+- Umjesto kave pijem čaj. | en: Statt Kaffee trinke ich Tee.
+- Kuća je stara dva stoljeća. | en: Das Haus ist zwei Jahrhunderte alt.
 
 ## Schreib es auf Kroatisch
 format: upis
-info: Free production from English. The genitive follows little words, *nema* and numbers, and the owner comes after the thing. A pronoun after a little word takes its long form. Where Croatian allows more than one word order, the usual ones are accepted.
-infokratko: Genitive after little words, *nema*, numbers; owner after the thing. *kod mene*.
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- Coffee without sugar, please. | Kava bez šećera, molim / Kavu bez šećera, molim
-- I come from Split. | Dolazim iz Splita / Ja sam iz Splita
+info: Freie Produktion aus dem Deutschen. Der Genitiv folgt kleinen Wörtern, *nema* und Zahlen, und der Besitzer steht nach der Sache. Ein Pronomen nach einem kleinen Wort nimmt seine lange Form. Wo das Kroatische mehr als eine Wortstellung erlaubt, werden die üblichen akzeptiert.
+infokratko: Genitiv nach kleinen Wörtern, *nema*, Zahlen; Besitzer nach der Sache. *kod mene*.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Kaffee ohne Zucker, bitte. | Kava bez šećera, molim / Kavu bez šećera, molim
+- Ich komme aus Split. | Dolazim iz Splita / Ja sam iz Splita
 - Woher kommst du? | Odakle si / Odakle ste
-- There's no milk. | Nema mlijeka
-- My grandma's house is old. | Kuća moje bake je stara
-- The cat is under the table. | Mačka je ispod stola
-- The garden is behind the house. | Vrt je iza kuće
-- The key is with me. | Ključ je kod mene
-- I'm not going without you. | Ne idem bez tebe
-- After lunch I sleep. | Nakon ručka spavam / Spavam nakon ručka
-- Mint tea, please. | Čaj od mente, molim
-- I have two brothers. | Imam dva brata
-- Three coffees, please. | Tri kave, molim
-- Five juices, please. | Pet sokova, molim
-- A piece of cake, please. | Komad torte, molim
-- No problem! | Nema problema
+- Es gibt keine Milch. | Nema mlijeka
+- Das Haus meiner Oma ist alt. | Kuća moje bake je stara
+- Die Katze ist unter dem Tisch. | Mačka je ispod stola
+- Der Garten ist hinter dem Haus. | Vrt je iza kuće
+- Der Schlüssel ist bei mir. | Ključ je kod mene
+- Ich gehe nicht ohne dich. | Ne idem bez tebe
+- Nach dem Mittagessen schlafe ich. | Nakon ručka spavam / Spavam nakon ručka
+- Pfefferminztee, bitte. | Čaj od mente, molim
+- Ich habe zwei Brüder. | Imam dva brata
+- Drei Kaffee, bitte. | Tri kave, molim
+- Fünf Säfte, bitte. | Pet sokova, molim
+- Ein Stück Kuchen, bitte. | Komad torte, molim
+- Kein Problem! | Nema problema

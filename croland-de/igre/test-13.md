@@ -1,4 +1,4 @@
-# Test 13: Where Are You? The Locative
+# Test 13: Wo bist du? Der Lokativ
 cjelina: Test 13
 
 ## Ordne die Wörter zu
@@ -6,103 +6,103 @@ format: parovi
 trajanje: 1380
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- pošta | post office
-- teretana | gym
-- rijeka | river
-- ljekarna | pharmacy
-- fakultet | university (faculty)
-- klinika | clinic
-- crkva | church
-- vrtić | kindergarten
-- bazen | swimming pool
-- tvornica | factory
-- parkiralište | parking lot
-- luka | harbor
-- centar | center (of town)
-- kvart | neighborhood
-- zgrada | building
-- kat | floor, level
-- kupaonica | bathroom
+- pošta | Post, Postamt
+- teretana | Fitnessstudio
+- rijeka | Fluss
+- ljekarna | Apotheke
+- fakultet | Universität (Fakultät)
+- klinika | Klinik
+- crkva | Kirche
+- vrtić | Kindergarten
+- bazen | Schwimmbad
+- tvornica | Fabrik
+- parkiralište | Parkplatz
+- luka | Hafen
+- centar | Zentrum (der Stadt)
+- kvart | Viertel
+- zgrada | Gebäude
+- kat | Stockwerk, Etage
+- kupaonica | Badezimmer
 - kuhinja | Küche
-- spavaća soba | bedroom
-- dnevni boravak | living room
-- hodnik | hallway
-- podrum | basement
-- tavan | attic
-- garaža | garage
-- krov | roof
-- stepenice | stairs
-- dizalo | elevator
-- dvorište | yard
-- hladnjak | fridge
-- ormar | wardrobe
-- polica | shelf
-- kauč | sofa
-- fotelja | armchair
-- tepih | rug
-- ogledalo | mirror
-- tuš | shower
-- stanovati | to reside
+- spavaća soba | Schlafzimmer
+- dnevni boravak | Wohnzimmer
+- hodnik | Flur
+- podrum | Keller
+- tavan | Dachboden
+- garaža | Garage
+- krov | Dach
+- stepenice | Treppe
+- dizalo | Aufzug
+- dvorište | Hof
+- hladnjak | Kühlschrank
+- ormar | Kleiderschrank
+- polica | Regal
+- kauč | Sofa
+- fotelja | Sessel
+- tepih | Teppich
+- ogledalo | Spiegel
+- tuš | Dusche
+- stanovati | wohnen, ansässig sein
 - stajati | stehen
-- spremati | to tidy up
-- posjetiti | to visit
-- parkirati | to park
-- otvarati | to open
-- zatvarati | to close
-- sresti | to meet
-- ostati | to stay
-- graditi | to build
-- otvoren | open
-- zatvoren | closed
-- gore | upstairs
-- dolje | downstairs
-- tamo | there
-- kamo | where to
-- o | about
-- mir | peace, quiet
-- podne | noon
-- poslijepodne | afternoon
+- spremati | aufräumen
+- posjetiti | besuchen
+- parkirati | parken
+- otvarati | öffnen
+- zatvarati | schließen
+- sresti | treffen
+- ostati | bleiben
+- graditi | bauen
+- otvoren | offen
+- zatvoren | geschlossen
+- gore | oben
+- dolje | unten
+- tamo | dort
+- kamo | wohin
+- o | über
+- mir | Ruhe, Stille
+- podne | Mittag
+- poslijepodne | Nachmittag
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- pošta | post office | pharmacy | bank
-- ljekarna | pharmacy | post office | hospital
-- teretana | gym | swimming pool | stadium
-- rijeka | river | harbor | Meer
-- luka | harbor | river | island
-- fakultet | university (faculty) | kindergarten | school
-- vrtić | kindergarten | factory | school
-- tvornica | factory | shop | office
-- klinika | clinic | church | pharmacy
-- parkiralište | parking lot | garage | yard
-- kupaonica | bathroom | Küche | bedroom
-- hodnik | hallway | basement | attic
-- podrum | basement | attic | roof
-- tavan | attic | basement | Balkon
-- dvorište | yard | stairs | roof
-- stepenice | stairs | elevator | hallway
-- dizalo | elevator | stairs | garage
-- hladnjak | fridge | wardrobe | shelf
-- ormar | wardrobe | fridge | armchair
-- polica | shelf | rug | mirror
-- fotelja | armchair | sofa | rug
-- ogledalo | mirror | Fenster | shower
-- stanovati | to reside | stehen | to stay
-- stajati | stehen | to stay | sitzen
-- ostati | to stay | stehen | to open
-- posjetiti | to visit | to build | to meet
-- graditi | to build | to visit | to park
-- sresti | to meet | to visit | to close
-- zatvoren | closed | open | quiet
-- gore | upstairs | downstairs | there
-- kamo | where to | where | when
-- mir | peace, quiet | noon | afternoon
+- pošta | Post, Postamt | Apotheke | Bank
+- ljekarna | Apotheke | Post, Postamt | Krankenhaus
+- teretana | Fitnessstudio | Schwimmbad | Stadion
+- rijeka | Fluss | Hafen | Meer
+- luka | Hafen | Fluss | Insel
+- fakultet | Universität (Fakultät) | Kindergarten | Schule
+- vrtić | Kindergarten | Fabrik | Schule
+- tvornica | Fabrik | Geschäft, Laden | Büro
+- klinika | Klinik | Kirche | Apotheke
+- parkiralište | Parkplatz | Garage | Hof
+- kupaonica | Badezimmer | Küche | Schlafzimmer
+- hodnik | Flur | Keller | Dachboden
+- podrum | Keller | Dachboden | Dach
+- tavan | Dachboden | Keller | Balkon
+- dvorište | Hof | Treppe | Dach
+- stepenice | Treppe | Aufzug | Flur
+- dizalo | Aufzug | Treppe | Garage
+- hladnjak | Kühlschrank | Kleiderschrank | Regal
+- ormar | Kleiderschrank | Kühlschrank | Sessel
+- polica | Regal | Teppich | Spiegel
+- fotelja | Sessel | Sofa | Teppich
+- ogledalo | Spiegel | Fenster | Dusche
+- stanovati | wohnen, ansässig sein | stehen | bleiben
+- stajati | stehen | bleiben | sitzen
+- ostati | bleiben | stehen | öffnen
+- posjetiti | besuchen | bauen | treffen
+- graditi | bauen | besuchen | parken
+- sresti | treffen | besuchen | schließen
+- zatvoren | geschlossen | offen | still
+- gore | oben | unten | dort
+- kamo | wohin | wo | wann
+- mir | Ruhe, Stille | Mittag | Nachmittag
 
-## Where to, where, or about?
+## Wohin, wo oder worüber?
 format: razvrstavanje
-stupci: KAMO? | GDJE? | O (ABOUT)
-opis: Going there, being there, or talking about it? Read the verb and the preposition.
+stupci: KAMO? | GDJE? | O (ÜBER)
+opis: Hingehen, dort sein oder darüber sprechen? Lies Verb und Präposition.
 - Idem u ljekarnu. | KAMO?
 - Djeca idu u vrtić. | KAMO?
 - Tata ide u garažu. | KAMO?
@@ -115,17 +115,17 @@ opis: Going there, being there, or talking about it? Read the verb and the prepo
 - Mačka spava na krovu. | GDJE?
 - Sjedimo na rijeci. | GDJE?
 - Stanujem u centru. | GDJE?
-- Knjiga je o rijeci. | O (ABOUT)
-- Razgovaramo o fakultetu. | O (ABOUT)
-- Pišem pismo o baki. | O (ABOUT)
-- Baka govori o tebi. | O (ABOUT)
-- Pričamo o Splitu. | O (ABOUT)
+- Knjiga je o rijeci. | O (ÜBER)
+- Razgovaramo o fakultetu. | O (ÜBER)
+- Pišem pismo o baki. | O (ÜBER)
+- Baka govori o tebi. | O (ÜBER)
+- Pričamo o Splitu. | O (ÜBER)
 - Ostajem u uredu. | GDJE?
 
-## In or on?
+## In oder auf?
 format: razvrstavanje
 stupci: U | NA
-opis: The ending is already there. Which preposition goes in front of each place?
+opis: Die Endung steht schon da. Welche Präposition kommt vor jeden Ort?
 - ___ kuhinji | U
 - ___ podrumu | U
 - ___ crkvi | U
@@ -148,29 +148,29 @@ opis: The ending is already there. Which preposition goes in front of each place
 ## Tippe auf die Endung
 format: nastavak
 nastavci: u | i | ci | zi | ki
-opis: The English is above. One tap finishes the locative — watch the feminine words in *-ka* and *-ga*.
-- Tata je u podrum___. | Dad is in the basement. | u
-- Mama je u ban___. | Mum is at the bank. | ci
-- Baka je u ljekarn___. | Grandma is at the pharmacy. | i
-- Brod je u lu___. | The boat is in the harbor. | ci
-- Pričamo o ba___. | We're talking about Grandma. | ki
-- Mlijeko je u hladnjak___. | The milk is in the fridge. | u
-- Pismo je u knji___. | The letter is in the book. | zi
-- Ana radi u klini___. | Ana works at the clinic. | ci
-- Djeca su u vrtić___. | The children are at the kindergarten. | u
-- Knjige su na polic___. | The books are on the shelf. | i
-- Pišem pismo o mač___. | I'm writing a letter about the cat. | ki
-- Pas spava na kauč___. | The dog is sleeping on the sofa. | u
-- Djeca su na rije___. | The children are at the river. | ci
-- Auto je u garaž___. | The car is in the garage. | i
-- Marko ima ključ u ru___. | Marko has a key in his hand. | ci
-- Studenti su na fakultet___. | The students are at the university. | u
-- Ogledalo je u kupaonic___. | The mirror is in the bathroom. | i
-- Auto je na parkirališt___. | The car is in the parking lot. | u
+opis: Oben steht das Deutsche. Ein Tippen vollendet den Lokativ – achte auf die femininen Wörter auf *-ka* und *-ga*.
+- Tata je u podrum___. | Papa ist im Keller. | u
+- Mama je u ban___. | Mama ist in der Bank. | ci
+- Baka je u ljekarn___. | Oma ist in der Apotheke. | i
+- Brod je u lu___. | Das Boot ist im Hafen. | ci
+- Pričamo o ba___. | Wir sprechen über Oma. | ki
+- Mlijeko je u hladnjak___. | Die Milch ist im Kühlschrank. | u
+- Pismo je u knji___. | Der Brief ist im Buch. | zi
+- Ana radi u klini___. | Ana arbeitet in der Klinik. | ci
+- Djeca su u vrtić___. | Die Kinder sind im Kindergarten. | u
+- Knjige su na polic___. | Die Bücher sind im Regal. | i
+- Pišem pismo o mač___. | Ich schreibe einen Brief über die Katze. | ki
+- Pas spava na kauč___. | Der Hund schläft auf dem Sofa. | u
+- Djeca su na rije___. | Die Kinder sind am Fluss. | ci
+- Auto je u garaž___. | Das Auto ist in der Garage. | i
+- Marko ima ključ u ru___. | Marko hat einen Schlüssel in der Hand. | ci
+- Studenti su na fakultet___. | Die Studenten sind an der Universität. | u
+- Ogledalo je u kupaonic___. | Der Spiegel ist im Bad. | i
+- Auto je na parkirališt___. | Das Auto ist auf dem Parkplatz. | u
 
 ## Wähle die richtige Form
 format: izbor
-opis: Going there or already there? Read the verb, then choose the form.
+opis: Hingehen oder schon dort? Lies das Verb und wähle dann die Form.
 - Idem ___ . (pošta) | u poštu | u pošti | u pošta
 - Baka je ___ . (pošta) | u pošti | u poštu | u pošta
 - Djeca idu ___ . (vrtić) | u vrtić | u vrtiću | u vrtići
@@ -185,9 +185,9 @@ opis: Going there or already there? Read the verb, then choose the form.
 - Sjedimo ___ . (rijeka) | na rijeci | na rijeku | na rijeki
 - Stanujem ___ . (centar) | u centru | u centaru | u centar
 
-## About me, about you
+## Über mich, über dich
 format: izbor
-opis: After *o* only the locative is correct. Choose the form.
+opis: Nach *o* ist nur der Lokativ richtig. Wähle die Form.
 - Pričamo o ___ . (ja) | meni | mene | ja
 - Govore o ___ . (ti) | tebi | tebe | ti
 - Sve znam o ___ . (on) | njemu | njega | on
@@ -201,9 +201,9 @@ opis: After *o* only the locative is correct. Choose the form.
 - Mama priča o ___ . (baka) | baki | baci | baku
 - Film je o ___ . (rijeka) | rijeci | rijeki | rijeka
 
-## One place or many?
+## Ein Ort oder viele?
 format: izbor
-opis: The bracket says one place or several. Pick the right form.
+opis: Die Klammer sagt: ein Ort oder mehrere. Wähle die richtige Form.
 - Turisti su na ___ . (islands) | otocima | otokima | otoku
 - Djeca su u ___ . (schools) | školama | školima | školi
 - Turisti su u ___ . (cities) | gradovima | gradima | gradu
@@ -215,11 +215,11 @@ opis: The bracket says one place or several. Pick the right form.
 - Pričamo o ___ . (rivers) | rijekama | rijecama | rijeci
 - Brodovi su u ___ . (harbors) | lukama | lucama | luci
 - Djeca su na ___ . (beaches) | plažama | plažima | plaži
-- Mama je u ___ . (bank, one) | banci | bankama | banki
+- Mama je u ___ . (Bank, eine) | banci | bankama | banki
 
-## Type the locative
+## Tippe den Lokativ
 format: upis
-opis: Type the place in the locative. The preposition is already there.
+opis: Schreib den Ort im Lokativ. Die Präposition steht schon da.
 - škola → u ___ | školi
 - ured → u ___ | uredu
 - more → na ___ | moru
@@ -236,9 +236,9 @@ opis: Type the place in the locative. The preposition is already there.
 - centar → u ___ | centru
 - Hrvatska → u ___ | Hrvatskoj
 
-## Now they are there
+## Jetzt sind sie dort
 format: upis
-opis: They went — now they are there. Type the preposition and the place.
+opis: Sie sind hingegangen – jetzt sind sie dort. Schreib die Präposition und den Ort.
 - Ana ide u teretanu. → Ana je ___ | u teretani
 - Idemo na tržnicu. → Mi smo ___ | na tržnici
 - Marko ide na fakultet. → Marko je ___ | na fakultetu
@@ -250,10 +250,10 @@ opis: They went — now they are there. Type the preposition and the place.
 - Idemo na rijeku. → Mi smo ___ | na rijeci
 - Turisti idu u luku. → Turisti su ___ | u luci
 
-## Read: the lost key
+## Lesen: der verlorene Schlüssel
 format: izbor
 tekst: Ponedjeljak je, a Petra traži ključ. Ključ nije u torbi, nije u kuhinji i nije na polici. Petra zove Marka: "Gdje si? Imaš li moj ključ?" Marko je na fakultetu i ne zna ništa o ključu. Onda Petra zove baku. Baka je u ljekarni, ali odmah kaže: "Ključ je u ormaru, u hodniku. Uvijek je tamo!" Petra otvara ormar u hodniku — i ključ je tamo. Baka uvijek zna sve o Petri.
-opis: Read the text, then answer. Every word you need is in the text itself.
+opis: Lies den Text und antworte dann. Jedes Wort, das du brauchst, steht im Text selbst.
 - Što Petra traži? | ključ | torbu | ormar
 - Gdje je Marko? | na fakultetu | u ljekarni | u hodniku
 - Što Marko zna o ključu? | ništa | sve | gdje je
@@ -263,17 +263,17 @@ opis: Read the text, then answer. Every word you need is in the text itself.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about the locative — everything here comes from levels 8 to 12.
+opis: Nicht zum Lokativ – alles hier stammt aus den Stufen 8 bis 12.
 - Ja ___ plivati. | ću | ćeš | će
 - Koja je rečenica točna? | Plivat ću. | Plivati ću. | Plivaću.
-- ___ gitara je nova. (her) | Njezina | Njezin | Njezino
-- ___ koljeno boli. (my) | Moje | Moj | Moja
-- Čija je ovo lopta? — ___ . (mine) | Moja | Moj | Moje
+- ___ gitara je nova. (ihr – von ihr) | Njezina | Njezin | Njezino
+- ___ koljeno boli. (mein) | Moje | Moj | Moja
+- Čija je ovo lopta? — ___ . (meiner) | Moja | Moj | Moje
 - Ana je ___ na koncertu. (pjevati) | pjevala | pjevao | pjevali
 - Sve je ___ savršeno. (biti) | bilo | bio | bila
 - Marko i Ivan su ___ u kino. (ići) | išli | išla | išao
 - Koja je rečenica točna? | Gledao sam film. | Sam gledao film. | Gledao film sam.
-- Ana ___ pjevala. (not) | nije | ne je | nisu
+- Ana ___ pjevala. (nicht) | nije | ne je | nisu
 - ___ živiš? — U Splitu. | Gdje | Kada | Tko
 - ___ čekaš? — Prijatelja. | Koga | Tko | Što
 - Koja je rečenica točna? | Voliš li kavu? | Li voliš kavu? | Voliš kavu li?
@@ -285,43 +285,43 @@ opis: Not about the locative — everything here comes from levels 8 to 12.
 - Koja je rečenica točna? | Nitko ne kuha. | Nitko kuha. | Ne nitko kuha.
 - Ne pijem kavu, ___ čaj. | nego | ali | i
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- Ja sam u gradu. | en: I'm in town.
-- Ana je u teretani, a Marko je u kinu. | en: Ana is at the gym, and Marko is at the cinema.
-- Mama je u banci, a tata je u uredu. | en: Mum is at the bank, and Dad is at the office.
-- Mlijeko je u hladnjaku. | en: The milk is in the fridge.
-- Baka stanuje u centru. | en: Grandma lives in the center.
-- Idem u ljekarnu jer je mama u ljekarni. | en: I'm going to the pharmacy because Mum is at the pharmacy.
-- Auto je u garaži, a mačka je na krovu. | en: The car is in the garage, and the cat is on the roof.
-- Pričamo o baki i o djedu. | en: We're talking about Grandma and Grandpa.
-- Oni govore o tebi. | en: They're talking about you.
-- O čemu razgovarate? | en: What are you talking about?
-- Turisti su na otocima. | en: The tourists are on the islands.
-- Ključ je u ormaru, u hodniku. | en: The key is in the wardrobe, in the hallway.
-- Živim u Hrvatskoj. | en: I live in Croatia.
-- Ujutro sam u pekari, a navečer u kazalištu. | en: In the morning I'm at the bakery, and in the evening at the theater.
-- Marko je na fakultetu, a Petra je u knjižnici. | en: Marko is at the university, and Petra is at the library.
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- Ja sam u gradu. | en: Ich bin in der Stadt.
+- Ana je u teretani, a Marko je u kinu. | en: Ana ist im Fitnessstudio, und Marko ist im Kino.
+- Mama je u banci, a tata je u uredu. | en: Mama ist in der Bank, und Papa ist im Büro.
+- Mlijeko je u hladnjaku. | en: Die Milch ist im Kühlschrank.
+- Baka stanuje u centru. | en: Oma wohnt im Zentrum.
+- Idem u ljekarnu jer je mama u ljekarni. | en: Ich gehe in die Apotheke, weil Mama in der Apotheke ist.
+- Auto je u garaži, a mačka je na krovu. | en: Das Auto ist in der Garage, und die Katze ist auf dem Dach.
+- Pričamo o baki i o djedu. | en: Wir sprechen über Oma und Opa.
+- Oni govore o tebi. | en: Sie sprechen über dich.
+- O čemu razgovarate? | en: Worüber sprecht ihr?
+- Turisti su na otocima. | en: Die Touristen sind auf den Inseln.
+- Ključ je u ormaru, u hodniku. | en: Der Schlüssel ist im Schrank, im Flur.
+- Živim u Hrvatskoj. | en: Ich wohne in Kroatien.
+- Ujutro sam u pekari, a navečer u kazalištu. | en: Morgens bin ich in der Bäckerei und abends im Theater.
+- Marko je na fakultetu, a Petra je u knjižnici. | en: Marko ist an der Universität, und Petra ist in der Bibliothek.
 
 ## Schreib es auf Kroatisch
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- I'm in town. | Ja sam u gradu / U gradu sam
-- Ana is at the gym. | Ana je u teretani
-- Dad is in the basement. | Tata je u podrumu
-- The milk is in the fridge. | Mlijeko je u hladnjaku
-- The cat is on the roof. | Mačka je na krovu
-- We live in the center. | Živimo u centru / Mi živimo u centru / Stanujemo u centru / Mi stanujemo u centru
-- Grandma is at the bank. | Baka je u banci
-- The children are at the river. | Djeca su na rijeci
-- Marko is at the university. | Marko je na fakultetu
-- The boat is in the harbor. | Brod je u luci
-- I'm going to the post office. | Idem u poštu / Ja idem u poštu
-- We're talking about Grandma. | Pričamo o baki / Razgovaramo o baki / Mi pričamo o baki / Mi razgovaramo o baki
-- They're talking about you. | Govore o tebi / Pričaju o tebi / Oni govore o tebi / Oni pričaju o tebi / Govore o vama / Pričaju o vama / Oni govore o vama / Oni pričaju o vama
-- What are you talking about? | O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate
-- Who are you talking about? | O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate
-- The tourists are on the islands. | Turisti su na otocima
-- We were at the seaside. | Bili smo na moru / Bile smo na moru / Mi smo bili na moru / Mi smo bile na moru
-- I live in Croatia. | Živim u Hrvatskoj / Ja živim u Hrvatskoj
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Ich bin in der Stadt. | Ja sam u gradu / U gradu sam
+- Ana ist im Fitnessstudio. | Ana je u teretani
+- Papa ist im Keller. | Tata je u podrumu
+- Die Milch ist im Kühlschrank. | Mlijeko je u hladnjaku
+- Die Katze ist auf dem Dach. | Mačka je na krovu
+- Wir wohnen im Zentrum. | Živimo u centru / Mi živimo u centru / Stanujemo u centru / Mi stanujemo u centru
+- Oma ist in der Bank. | Baka je u banci
+- Die Kinder sind am Fluss. | Djeca su na rijeci
+- Marko ist an der Universität. | Marko je na fakultetu
+- Das Boot ist im Hafen. | Brod je u luci
+- Ich gehe zur Post. | Idem u poštu / Ja idem u poštu
+- Wir sprechen über Oma. | Pričamo o baki / Razgovaramo o baki / Mi pričamo o baki / Mi razgovaramo o baki
+- Sie sprechen über dich. | Govore o tebi / Pričaju o tebi / Oni govore o tebi / Oni pričaju o tebi / Govore o vama / Pričaju o vama / Oni govore o vama / Oni pričaju o vama
+- Worüber sprecht ihr? | O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate
+- Über wen sprecht ihr? | O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate
+- Die Touristen sind auf den Inseln. | Turisti su na otocima
+- Wir waren am Meer. | Bili smo na moru / Bile smo na moru / Mi smo bili na moru / Mi smo bile na moru
+- Ich wohne in Kroatien. | Živim u Hrvatskoj / Ja živim u Hrvatskoj

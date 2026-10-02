@@ -1,153 +1,153 @@
-# Giving & Receivers
+# Geben & Empfänger
 cjelina: Vocabulary 14
 
-## Presents & things to give
+## Geschenke & Dinge zum Verschenken
 format: kartice
-info: New things you can give somebody, from small to special. You already know some gifts from earlier levels: *poklon, dar, šal, cvijeće, buket, kolač, parfem*. With a giving verb, the thing goes into the target form from Lesson 5: *Mami kupujem ogrlicu.* *novine* is always plural, like *hlače*: *Tata čita novine.*
-infokratko: Gifts and small things to give. The gift takes the target form: *Mami kupujem ogrlicu.*
-opis: Presents big and small, from a candy to a ring. Tap a card to reveal the meaning.
-- paket | package
-- novine (mn.) | newspaper
-- bombon | candy
-- suvenir | souvenir
-- poster | poster
-- igračka | toy
-- ogrlica | necklace
-- prsten | ring
-- novčanik | wallet
-- kišobran | umbrella
-- kapa | cap
-- rukavice (mn.) | gloves
-- jakna | jacket
-- sapun | soap
-- papir | paper
-- razglednica | postcard
-- kartica | card
-- vaza | vase
-- kravata | tie
+info: Neue Dinge, die du jemandem schenken kannst, von klein bis besonders. Einige Geschenke kennst du schon aus früheren Stufen: *poklon, dar, šal, cvijeće, buket, kolač, parfem*. Mit einem Verb des Gebens geht die Sache in die Zielform aus Lektion 5: *Mami kupujem ogrlicu.* *novine* ist immer Plural, wie *hlače*: *Tata čita novine.*
+infokratko: Geschenke und kleine Dinge zum Verschenken. Das Geschenk steht in der Zielform: *Mami kupujem ogrlicu.*
+opis: Große und kleine Geschenke, vom Bonbon bis zum Ring. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- paket | Paket
+- novine (mn.) | Zeitung
+- bombon | Bonbon
+- suvenir | Souvenir
+- poster | Poster
+- igračka | Spielzeug
+- ogrlica | Halskette
+- prsten | Ring
+- novčanik | Geldbörse
+- kišobran | Regenschirm
+- kapa | Mütze, Kappe
+- rukavice (mn.) | Handschuhe
+- jakna | Jacke
+- sapun | Seife
+- papir | Papier
+- razglednica | Postkarte
+- kartica | Karte
+- vaza | Vase
+- kravata | Krawatte
 
-## Receivers (with the dative) & verbs
+## Empfänger (mit dem Dativ) & Verben
 format: kartice
-info: The person who gets something is the *receiver*, and Lesson 14 gives the receiver the same endings as the locative: **-a** turns into **-i** (*susjeda → susjedi*), a consonant takes **-u** (*nećak → nećaku*). Ask about the receiver with **Komu?** (to whom?). All the verbs here can take a receiver: *Baki šaljem razglednicu. Nećaku dajem poster. Vjerujem mami.* **primati** is the other side of giving: *Primam paket.* *nositi* (to carry, to bring) is from Vocabulary 5 and works the same way.
-infokratko: Receiver: **-a → -i** (*susjedi*), consonant **+u** (*nećaku*). **Komu?** — to whom? *Baki šaljem razglednicu.*
-opis: The people who get presents, and the verbs for giving. Tap a card to reveal the meaning.
-- susjeda → susjedi | neighbour (f.)
-- unuka → unuki | granddaughter
-- nećak → nećaku | nephew
-- nećakinja → nećakinji | niece
-- rođakinja → rođakinji | cousin (f.)
-- kum → kumu | godfather, best man
-- kolegica → kolegici | colleague (f.)
-- šefica → šefici | boss (f.)
-- Komu? | To whom?
-- davati → dajem | to give
-- slati → šaljem | to send
-- donijeti → donesem | to bring
-- pokazati → pokažem | to show
-- objasniti → objasnim | to explain
-- vjerovati → vjerujem | to believe, to trust
-- zahvaliti → zahvalim | to thank
-- posuditi → posudim | to lend
-- vratiti → vratim | to give back, to return
-- primati → primam | to receive
+info: Wer etwas bekommt, ist der *Empfänger*, und Lektion 14 gibt dem Empfänger dieselben Endungen wie dem Lokativ: **-a** wird zu **-i** (*susjeda → susjedi*), ein Konsonant bekommt **-u** (*nećak → nećaku*). Nach dem Empfänger fragst du mit **Komu?** (wem?). Alle Verben hier können einen Empfänger haben: *Baki šaljem razglednicu. Nećaku dajem poster. Vjerujem mami.* – wie *glauben*, *danken*, *zeigen* im Deutschen. **primati** ist die andere Seite des Gebens: *Primam paket.* *nositi* (tragen, bringen) kennst du aus Wortschatz 5, und es funktioniert genauso.
+infokratko: Empfänger: **-a → -i** (*susjedi*), Konsonant **+u** (*nećaku*). **Komu?** – wem? *Baki šaljem razglednicu.*
+opis: Die Menschen, die Geschenke bekommen, und die Verben des Gebens. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- susjeda → susjedi | Nachbarin
+- unuka → unuki | Enkelin
+- nećak → nećaku | Neffe
+- nećakinja → nećakinji | Nichte
+- rođakinja → rođakinji | Cousine
+- kum → kumu | Pate, Trauzeuge
+- kolegica → kolegici | Kollegin
+- šefica → šefici | Chefin
+- Komu? | Wem?
+- davati → dajem | geben
+- slati → šaljem | schicken
+- donijeti → donesem | bringen
+- pokazati → pokažem | zeigen
+- objasniti → objasnim | erklären
+- vjerovati → vjerujem | glauben, vertrauen
+- zahvaliti → zahvalim | danken
+- posuditi → posudim | leihen
+- vratiti → vratim | zurückgeben
+- primati → primam | bekommen, empfangen
 
-## Messages, wishes & December
+## Nachrichten, Wünsche & Dezember
 format: kartice
-info: Words for December, for writing to somebody and for the things you give that are not in a box: *savjet, osmijeh, pomoć, ljubav*. *vijest* and *pomoć* end in a consonant but are feminine, like *jesen*: *dobra vijest*. **besplatno** means it costs nothing: *Dajem savjet — besplatno!* **svatko** is everyone, one by one: *Svatko ima jednu želju.*
-infokratko: December, messages and gifts without a box. *vijest, pomoć*: feminine. *besplatno* — for free.
-opis: Wishes, messages and good news for the end of the year. Tap a card to reveal the meaning.
-- prosinac | December
-- Božić | Christmas
-- blagdan | holiday
-- snijeg | snow
-- želja | wish
-- vijest | news
-- savjet | advice
-- osmijeh | smile
-- pomoć | help
-- ljubav | love
-- dogovor | agreement, deal
-- dozvola | permission
-- poruka | message
-- adresa | address
-- potpis | signature
-- poseban | special
-- koristan | useful
-- praktičan | practical
-- besplatno | for free
-- svatko | everyone
+info: Wörter für den Dezember, fürs Schreiben an jemanden und für Dinge, die man schenkt und die nicht in eine Schachtel passen: *savjet, osmijeh, pomoć, ljubav*. *vijest* und *pomoć* enden auf einen Konsonanten, sind aber feminin, wie *jesen*: *dobra vijest*. **besplatno** heißt, dass es nichts kostet: *Dajem savjet — besplatno!* **svatko** ist jeder, einer nach dem anderen: *Svatko ima jednu želju.*
+infokratko: Dezember, Nachrichten und Geschenke ohne Schachtel. *vijest, pomoć*: feminin. *besplatno* – kostenlos.
+opis: Wünsche, Nachrichten und gute Neuigkeiten zum Jahresende. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- prosinac | Dezember
+- Božić | Weihnachten
+- blagdan | Urlaub
+- snijeg | Schnee
+- želja | Wunsch
+- vijest | Nachricht, Neuigkeit
+- savjet | Rat, Ratschlag
+- osmijeh | Lächeln
+- pomoć | Hilfe
+- ljubav | Liebe
+- dogovor | Abmachung, Vereinbarung
+- dozvola | Erlaubnis
+- poruka | Nachricht, Botschaft
+- adresa | Adresse
+- potpis | Unterschrift
+- poseban | besonders
+- koristan | nützlich
+- praktičan | praktisch
+- besplatno | kostenlos
+- svatko | jeder
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Most of these can go in a box under the tree, and the last two go on a letter. Say who gets each one: *Nećaku poster. Susjedi sapun.*
-infokratko: Say who gets it: *Nećaku poster. Susjedi sapun.*
+info: Bild-zu-Wort-Zuordnung, ohne Deutsch auf der Seite. Die meisten davon passen in eine Schachtel unter dem Baum, und die letzten zwei kommen auf einen Brief. Sag, wer was bekommt: *Nećaku poster. Susjedi sapun.*
+infokratko: Sag, wer es bekommt: *Nećaku poster. Susjedi sapun.*
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- bombon | candy
-- suvenir | souvenir
-- poster | poster
-- novčanik | wallet
-- kišobran | umbrella
-- kapa | cap
-- jakna | jacket
-- sapun | soap
-- novine | newspaper
-- papir | paper
-- paket | package
-- potpis | signature
+- bombon | Bonbon
+- suvenir | Souvenir
+- poster | Poster
+- novčanik | Geldbörse
+- kišobran | Regenschirm
+- kapa | Mütze, Kappe
+- jakna | Jacke
+- sapun | Seife
+- novine | Zeitung
+- papir | Papier
+- paket | Paket
+- potpis | Unterschrift
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Nouns go in their naming form (*nećak*, not *nećaku*) and verbs as an infinitive. The diacritics are full letters: *igračka* has **č**, *kišobran* has **š**, *nećakinja* has **ć** and the single letter **nj**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once: naming form, infinitive. Diacritics count: *igračka, kišobran, nećakinja*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Substantive in der Grundform (*nećak*, nicht *nećaku*) und Verben im Infinitiv. Die diakritischen Zeichen sind vollwertige Buchstaben: *igračka* hat **č**, *kišobran* hat **š**, *nećakinja* hat **ć** und den Einzelbuchstaben **nj**. Das ist die einzige Seite nur mit neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Schreib jedes neue Wort einmal: Grundform, Infinitiv. Diakritische Zeichen zählen: *igračka, kišobran, nećakinja*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- toy | igračka
-- necklace | ogrlica
-- ring | prsten
-- umbrella | kišobran
-- postcard | razglednica
-- vase | vaza
-- wish | želja
-- message | poruka
-- snow | snijeg
-- niece | nećakinja
-- nephew | nećak
-- to send | slati
-- to show | pokazati
-- to explain | objasniti
-- to thank | zahvaliti
+- Spielzeug | igračka
+- Halskette | ogrlica
+- Ring | prsten
+- Regenschirm | kišobran
+- Postkarte | razglednica
+- Vase | vaza
+- Wunsch | želja
+- Nachricht, Botschaft | poruka
+- Schnee | snijeg
+- Nichte | nećakinja
+- Neffe | nećak
+- schicken | slati
+- zeigen | pokazati
+- erklären | objasniti
+- danken | zahvaliti
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–13, half and half. December words — *prosinac, blagdan, vijest* — sit next to words you already know, like *hobi, roman, kamp*. Watch the verbs: *posuditi* is to lend, *vratiti* is to give back, *primati* is to receive.
-infokratko: New and old words against the clock. *posuditi* lend, *vratiti* give back, *primati* receive.
+info: Zeitgebundenes Wiedererkennen der heutigen Wörter, halb und halb gemischt mit Wörtern aus Wortschatz 1–13. Dezemberwörter – *prosinac, blagdan, vijest* – stehen neben Wörtern, die du schon kennst, wie *hobi, roman, kamp*. Achte auf die Verben: *posuditi* ist leihen, *vratiti* ist zurückgeben, *primati* ist bekommen.
+infokratko: Neue und alte Wörter gegen die Uhr. *posuditi* leihen, *vratiti* zurückgeben, *primati* bekommen.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- prosinac | December
+- prosinac | Dezember
 - zauzet | beschäftigt
-- vijest | news
+- vijest | Nachricht, Neuigkeit
 - rijetko | selten
-- savjet | advice
-- iskustvo | experience
-- besplatno | for free
-- alergičan | allergic
-- blagdan | holiday
+- savjet | Rat, Ratschlag
+- iskustvo | Erfahrung
+- besplatno | kostenlos
+- alergičan | allergisch
+- blagdan | Urlaub
 - šešir | Hut
-- vjerovati | to believe
+- vjerovati | glauben
 - taksi | Taxi
-- posuditi | to lend
+- posuditi | leihen
 - roman | Roman
-- vratiti | to give back
-- kamp | campsite
-- primati | to receive
-- hobi | hobby
-- donijeti | to bring
-- dokumentarac | documentary
+- vratiti | zurückgeben
+- kamp | Campingplatz
+- primati | bekommen, empfangen
+- hobi | Hobby
+- donijeti | bringen
+- dokumentarac | Dokumentarfilm
 
-## -i or -u for the receiver?
+## -i oder -u für den Empfänger?
 format: razvrstavanje
-info: Sorting nouns by the ending they take as the receiver — the dative from Lesson 14. In the singular it is the same ending as the locative from Lesson 13: **-a** becomes **-i** (*susjedi, kutiji, čestitki*), a consonant or **-o** takes **-u** (*nećaku, stolu, drvu*). Look at the last letter of the naming form and you know the answer.
-infokratko: **-a** → **-i** (*susjedi, kutiji*). Consonant, **-o** → **-u** (*nećaku, drvu*).
-opis: Which ending does each noun take as the receiver? The last letter of the naming form decides.
+info: Substantive nach der Endung sortieren, die sie als Empfänger bekommen – der Dativ aus Lektion 14. Im Singular ist es dieselbe Endung wie beim Lokativ aus Lektion 13: **-a** wird zu **-i** (*susjedi, kutiji, čestitki*), ein Konsonant oder **-o** bekommt **-u** (*nećaku, stolu, drvu*). Schau auf den letzten Buchstaben der Grundform, und du kennst die Antwort.
+infokratko: **-a** → **-i** (*susjedi, kutiji*). Konsonant, **-o** → **-u** (*nećaku, drvu*).
+opis: Welche Endung bekommt jedes Substantiv als Empfänger? Der letzte Buchstabe der Grundform entscheidet.
 stupci: -I | -U
 - susjeda | -I
 - nećakinja | -I
@@ -168,18 +168,18 @@ stupci: -I | -U
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Nouns go in their naming form and verbs as infinitives. The diacritics count as always: *osmijeh* has **ij**, *žedan* has **ž**, *doći* has **ć**.
-infokratko: Mixed final round. Naming form, infinitive. Diacritics count: *žedan, doći*.
+info: Die letzte Schreibrunde mischt die heutigen Wörter mit älteren. Substantive in der Grundform und Verben im Infinitiv. Die diakritischen Zeichen zählen wie immer: *osmijeh* hat **ij**, *žedan* hat **ž**, *doći* hat **ć**.
+infokratko: Gemischte Schlussrunde. Grundform, Infinitiv. Diakritische Zeichen zählen: *žedan, doći*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- to give | davati
+- geben | davati
 - durstig | žedan
-- smile | osmijeh
-- lemon | limun
-- love | ljubav
-- exam | ispit
-- address | adresa
+- Lächeln | osmijeh
+- Zitrone | limun
+- Liebe | ljubav
+- Prüfung | ispit
+- Adresse | adresa
 - Familie | obitelj
-- special | poseban
-- to come | doći
-- useful | koristan
-- autumn | jesen
+- besonders | poseban
+- kommen | doći
+- nützlich | koristan
+- Herbst | jesen

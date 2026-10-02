@@ -1,153 +1,153 @@
-# The City & Traffic
+# Die Stadt & der Verkehr
 cjelina: Vocabulary 6
 
-## People — the ones that change
+## Menschen – die, die sich ändern
 format: kartice
-info: Flashcards of living masculine nouns, each shown with its target form. Because they are alive, every one adds **-a** (*učenik* to *učenika*, *konj* to *konja*); *kupac* drops a vowel first and becomes **kupca**. *osoba* is feminine, so it follows the Lesson 5 rule instead: **osobu**. The verbs below often take a person as their target (*Čekam poštara*, *Vidim dječaka*, *Zovem kupca*), and *Oprostite!* is the polite opener before you ask a stranger anything.
-infokratko: Living masculine nouns add **-a**: *učenik → učenika*. *kupac → kupca*. *osoba → osobu* (feminine).
-opis: Living masculine nouns, each shown with its target form, plus the city verbs that so often point at them. One of them squeezes a letter out on the way: **kupac → kupca**.
+info: Karteikarten belebter maskuliner Nomen, jedes mit seiner Zielform. Weil sie lebendig sind, hängt jedes **-a** an (*učenik* zu *učenika*, *konj* zu *konja*); *kupac* verliert zuerst einen Vokal und wird zu **kupca**. *osoba* ist feminin, folgt also stattdessen der Regel aus Lektion 5: **osobu**. Die Verben darunter nehmen oft eine Person als Ziel (*Čekam poštara*, *Vidim dječaka*, *Zovem kupca*), und *Oprostite!* ist der höfliche Einstieg, bevor du einen Fremden etwas fragst.
+infokratko: Belebte maskuline Nomen hängen **-a** an: *učenik → učenika*. *kupac → kupca*. *osoba → osobu* (feminin).
+opis: Belebte maskuline Nomen, jedes mit seiner Zielform, plus die Stadtverben, die so oft auf sie zeigen. Eines davon drückt unterwegs einen Buchstaben heraus: **kupac → kupca**.
 - učenik → učenika | Schüler
 - dječak → dječaka | Junge
-- poštar → poštara | postman
-- kupac → kupca | customer
-- konj → konja | horse
-- golub → goluba | pigeon
+- poštar → poštara | Briefträger
+- kupac → kupca | Kunde
+- konj → konja | Pferd
+- golub → goluba | Taube
 - osoba → osobu | Mensch
-- vidjeti → vidim, vidiš, vidi | to see
-- čuti → čujem, čuješ, čuje | to hear
-- zvati → zovem, zoveš, zove | to call
-- voziti → vozim, voziš, vozi | to drive
-- pričati → pričam, pričaš, priča | to chat, to talk
-- fotografirati → fotografiram, fotografiraš, fotografira | to photograph
-- ulaziti → ulazim, ulaziš, ulazi | to enter, to get on
-- prelaziti → prelazim, prelaziš, prelazi | to cross
-- žuriti → žurim, žuriš, žuri | to hurry
-- Oprostite! | Excuse me!
+- vidjeti → vidim, vidiš, vidi | sehen
+- čuti → čujem, čuješ, čuje | hören
+- zvati → zovem, zoveš, zove | rufen, anrufen
+- voziti → vozim, voziš, vozi | fahren
+- pričati → pričam, pričaš, priča | plaudern, reden
+- fotografirati → fotografiram, fotografiraš, fotografira | fotografieren
+- ulaziti → ulazim, ulaziš, ulazi | eintreten, einsteigen
+- prelaziti → prelazim, prelaziš, prelazi | überqueren
+- žuriti → žurim, žuriš, žuri | sich beeilen
+- Oprostite! | Entschuldigung!
 
-## Transport — nothing changes
+## Verkehrsmittel – nichts ändert sich
 format: kartice
-info: Vehicle flashcards, and the easy half of the rule. A vehicle is a thing, so it looks identical as a target: *Vozim bicikl*, *Vidim tramvaj*. The same goes for *kat*, *ključ* and *broj*. Only *karta* and *glazba* move, and only because they end in **-a** (the Lesson 5 rule): *kartu*, *glazbu*. The adjective *pun* agrees with its noun: *pun autobus*, *puna ulica*.
-infokratko: Vehicles and other things, no change: *Vozim bicikl*. **-a** words → **-u**: *kartu, glazbu*. *pun / puna* agrees.
-opis: Vehicles are things, so they never move an inch as a target. *Vozim bicikl. Vidim tramvaj.* Only **karta** and **glazba** shift, and only because they end in -a. *Sretan put!* sends someone off on a journey.
-- tramvaj | tram
-- autobus | bus
+info: Fahrzeug-Karteikarten und die leichte Hälfte der Regel. Ein Fahrzeug ist ein Ding, sieht als Ziel also identisch aus: *Vozim bicikl*, *Vidim tramvaj*. Dasselbe gilt für *kat*, *ključ* und *broj*. Nur *karta* und *glazba* bewegen sich, und nur weil sie auf **-a** enden (die Regel aus Lektion 5): *kartu*, *glazbu*. Das Adjektiv *pun* stimmt mit seinem Nomen überein: *pun autobus*, *puna ulica*.
+infokratko: Fahrzeuge und andere Dinge, keine Änderung: *Vozim bicikl*. **-a**-Wörter → **-u**: *kartu, glazbu*. *pun / puna* stimmt überein.
+opis: Fahrzeuge sind Dinge, sie bewegen sich als Ziel also keinen Millimeter. *Vozim bicikl. Vidim tramvaj.* Nur **karta** und **glazba** verschieben sich, und nur weil sie auf -a enden. *Sretan put!* schickt jemanden auf die Reise.
+- tramvaj | Straßenbahn
+- autobus | Bus
 - auto | Auto
-- vlak | train
-- bicikl | bicycle
-- brod | boat
-- avion | airplane
-- motor | motorbike
-- karta → kartu | ticket
-- benzin | gasoline
-- gorivo | fuel
-- promet | traffic
-- Sretan put! | Have a good trip!
-- kat | floor, level
-- ključ | key
-- broj | number
-- glazba → glazbu | music
-- pun / puna | full
-- blizu | near, nearby
-- sad | now
+- vlak | Zug
+- bicikl | Fahrrad
+- brod | Boot
+- avion | Flugzeug
+- motor | Motorrad
+- karta → kartu | Fahrkarte
+- benzin | Benzin
+- gorivo | Kraftstoff
+- promet | Verkehr
+- Sretan put! | Gute Reise!
+- kat | Stockwerk, Etage
+- ključ | Schlüssel
+- broj | Nummer
+- glazba → glazbu | Musik
+- pun / puna | voll
+- blizu | nah, in der Nähe
+- sad | jetzt
 
-## Places in the city
+## Orte in der Stadt
 format: kartice
-info: City places to learn. Places are things, so masculine ones never change (*most*, *trg*, *muzej*), but any word ending in **-a** still follows the feminine rule and turns into **-u**: *ulica* to *ulicu*, *banka* to *banku*.
-infokratko: Masculine places stay (*most, trg*); **-a** places → **-u** (*ulicu, banku*).
-opis: Your map of a Croatian town. Watch which ones end in **-a** — those still follow the Lesson 5 rule.
-- ulica → ulicu | street
-- cesta → cestu | road
-- trg | square
-- most | bridge
-- park | park
-- kolodvor | station
-- stanica → stanicu | stop
-- kiosk | kiosk
-- muzej | museum
-- galerija → galeriju | gallery
-- katedrala → katedralu | cathedral
-- banka → banku | bank
-- bolnica → bolnicu | hospital
-- knjižnica → knjižnicu | library
-- zgrada → zgradu | building
-- ured | office
-- tunel | tunnel
-- semafor | traffic light
-- spomenik | monument
-- kvart | neighborhood
+info: Stadtorte zum Lernen. Orte sind Dinge, maskuline ändern sich also nie (*most*, *trg*, *muzej*), aber jedes Wort auf **-a** folgt weiterhin der femininen Regel und wird zu **-u**: *ulica* zu *ulicu*, *banka* zu *banku*.
+infokratko: Maskuline Orte bleiben (*most, trg*); Orte auf **-a** → **-u** (*ulicu, banku*).
+opis: Deine Karte einer kroatischen Stadt. Achte darauf, welche auf **-a** enden – die folgen weiterhin der Regel aus Lektion 5.
+- ulica → ulicu | Straße
+- cesta → cestu | Straße (Landstraße)
+- trg | Platz
+- most | Brücke
+- park | Park
+- kolodvor | Bahnhof
+- stanica → stanicu | Haltestelle
+- kiosk | Kiosk
+- muzej | Museum
+- galerija → galeriju | Galerie
+- katedrala → katedralu | Kathedrale
+- banka → banku | Bank
+- bolnica → bolnicu | Krankenhaus
+- knjižnica → knjižnicu | Bibliothek
+- zgrada → zgradu | Gebäude
+- ured | Büro
+- tunel | Tunnel
+- semafor | Ampel
+- spomenik | Denkmal
+- kvart | Viertel
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching for the city set. Everything is in the naming form, so no endings appear here; *konj* and *poštar* are the two cards on the board that would take **-a** the moment they became a target (*konja*, *poštara*).
-infokratko: Naming forms. *konj* and *poštar* would take **-a** as a target.
+info: Bild-Wort-Zuordnung für das Stadtset. Alles steht in der Benennungsform, hier erscheinen also keine Endungen; *konj* und *poštar* sind die zwei Karten auf dem Brett, die **-a** nehmen würden, sobald sie zum Ziel werden (*konja*, *poštara*).
+infokratko: Benennungsformen. *konj* und *poštar* würden als Ziel **-a** nehmen.
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- tramvaj | tram
-- autobus | bus
-- vlak | train
-- bicikl | bicycle
-- brod | boat
-- avion | airplane
-- most | bridge
-- trg | square
-- muzej | museum
-- semafor | traffic light
-- konj | horse
-- poštar | postman
+- tramvaj | Straßenbahn
+- autobus | Bus
+- vlak | Zug
+- bicikl | Fahrrad
+- brod | Boot
+- avion | Flugzeug
+- most | Brücke
+- trg | Platz
+- muzej | Museum
+- semafor | Ampel
+- konj | Pferd
+- poštar | Briefträger
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning, in the naming form: *ulica*, not *ulicu*. Verbs are wanted as infinitives, ending in **-ti**: *vidjeti*, not *vidim*. The diacritics are full letters: *knjižnica* has **ž**, *ključ* has **č**, *čuti* and *žuriti* start with them. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once. Naming forms (*ulica*), verbs as infinitives (*vidjeti*). Diacritics count: *knjižnica, ključ, čuti*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung, in der Benennungsform: *ulica*, nicht *ulicu*. Verben werden als Infinitive gesucht, auf **-ti**: *vidjeti*, nicht *vidim*. Die diakritischen Zeichen sind vollwertige Buchstaben: *knjižnica* hat **ž**, *ključ* hat **č**, *čuti* und *žuriti* beginnen damit. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal. Benennungsformen (*ulica*), Verben als Infinitive (*vidjeti*). Diakritische Zeichen zählen: *knjižnica, ključ, čuti*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- street | ulica
-- road | cesta
-- station | kolodvor
-- bank | banka
-- hospital | bolnica
-- library | knjižnica
-- building | zgrada
-- monument | spomenik
-- ticket | karta
-- key | ključ
-- customer | kupac
-- to see | vidjeti
-- to hear | čuti
-- to drive | voziti
-- to hurry | žuriti
+- Straße | ulica
+- Straße (Landstraße) | cesta
+- Bahnhof | kolodvor
+- Bank | banka
+- Krankenhaus | bolnica
+- Bibliothek | knjižnica
+- Gebäude | zgrada
+- Denkmal | spomenik
+- Fahrkarte | karta
+- Schlüssel | ključ
+- Kunde | kupac
+- sehen | vidjeti
+- hören | čuti
+- fahren | voziti
+- sich beeilen | žuriti
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–3, half and half. Two pairs to keep apart: *pričati* is to chat, while *gledati* is to watch; *brz* means fast, while *pun* means full.
-infokratko: New and old words against the clock. *pričati* to chat, *gledati* to watch; *brz* fast, *pun* full.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Wortschatz 1–3, halb und halb. Zwei Paare zum Auseinanderhalten: *pričati* heißt plaudern, *gledati* dagegen schauen; *brz* heißt schnell, *pun* dagegen voll.
+infokratko: Neue und alte Wörter gegen die Uhr. *pričati* plaudern, *gledati* schauen; *brz* schnell, *pun* voll.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- motor | motorbike
+- motor | Motorrad
 - brz | schnell
-- promet | traffic
+- promet | Verkehr
 - crn | schwarz
-- galerija | gallery
+- galerija | Galerie
 - ljut | wütend
-- tunel | tunnel
+- tunel | Tunnel
 - e-mail | E-Mail
-- kvart | neighborhood
+- kvart | Viertel
 - crven | rot
-- pričati | to chat
+- pričati | plaudern
 - naravno | natürlich
-- zvati | to call
+- zvati | rufen, anrufen
 - gledati | schauen, ansehen
-- prelaziti | to cross
+- prelaziti | überqueren
 - dan | Tag
-- glazba | music
+- glazba | Musik
 - dobar | gut
-- pun | full
+- pun | voll
 - nizak | klein (Person)
 
-## Does it change after "vidim"?
+## Ändert es sich nach „vidim“?
 format: razvrstavanje
-info: A sort across the whole target form, with today's words and older ones. Exactly two groups change: feminine words in **-a** (*ulica → ulicu*, *baka → baku*) and masculine living beings (*brat → brata*, *Nijemac → Nijemca*). Everything else — things and neuters like *gorivo* and *uho* — stays precisely as it is.
-infokratko: Only two groups change: feminine **-a** and masculine living beings.
+info: Eine Sortierung über die ganze Zielform, mit Wörtern von heute und älteren. Genau zwei Gruppen ändern sich: feminine Wörter auf **-a** (*ulica → ulicu*, *baka → baku*) und maskuline Lebewesen (*brat → brata*, *Nijemac → Nijemca*). Alles andere – Dinge und Neutra wie *gorivo* und *uho* – bleibt genau, wie es ist.
+infokratko: Nur zwei Gruppen ändern sich: feminin **-a** und maskuline Lebewesen.
 stupci: MIJENJA SE | OSTAJE ISTO
-opis: The whole target-form map in one sort. Feminine -a and living masculines change; things and neuters don't.
+opis: Die ganze Zielform-Karte in einer Sortierung. Feminines -a und belebte Maskulina ändern sich; Dinge und Neutra nicht.
 - učenik | MIJENJA SE
 - golub | MIJENJA SE
 - kupac | MIJENJA SE
@@ -167,18 +167,18 @@ opis: The whole target-form map in one sort. Feminine -a and living masculines c
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones, all in the naming form: *katedrala*, not *katedralu*. Verbs as infinitives again, adjectives in the short form (*ljubazan*). The diacritics count: *žaba* starts with **ž**, *džem* with **dž**, and *cijeli* is written with **ije**, just as it sounds.
-infokratko: Mixed final round. Naming forms, verbs as infinitives. Diacritics count: *žaba, džem*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren, alle in der Benennungsform: *katedrala*, nicht *katedralu*. Verben wieder als Infinitive, Adjektive in der Kurzform (*ljubazan*). Die diakritischen Zeichen zählen: *žaba* beginnt mit **ž**, *džem* mit **dž**, und *cijeli* wird mit **ije** geschrieben, genau wie es klingt.
+infokratko: Gemischte Schlussrunde. Benennungsformen, Verben als Infinitive. Diakritische Zeichen zählen: *žaba, džem*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- now | traurig
+- jetzt | traurig
 - Frosch | žaba
-- number | broj
+- Nummer | broj
 - Marmelade | džem
-- cathedral | katedrala
+- Kathedrale | katedrala
 - sprechen | govoriti
-- to photograph | fotografirati
+- fotografieren | fotografirati
 - gehen, spazieren | hodati
-- office | ured
+- Büro | ured
 - höflich | ljubazan
-- gasoline | benzin
+- Benzin | benzin
 - ganz | cijeli

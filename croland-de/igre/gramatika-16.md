@@ -1,28 +1,28 @@
-# The Genitive
+# Der Genitiv
 cjelina: Grammar 16
 
-## The rule: the busiest case
+## Die Regel: der fleißigste Fall
 format: tekst
-info: The reference page for the genitive singular. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i** (*noć → noći*). The case answers *koga?* and *čega?* and has three jobs: belonging, the little words, and *nema*.
-infokratko: m./n. **-a**, f. **-a → -e**, f. consonant **-i** (*noći*). *Koga? Čega?* Three jobs.
-- The genitive answers ***koga?*** (of whom?) and ***čega?*** (of what?) — and it is the busiest case in Croatian.
-- tab: Naming form ends in | Example | Genitive | Ending
-- tab: consonant (m.) | grad, šećer, brat | grad**a**, šećer**a**, brat**a** | **+a**
+info: Die Übersichtsseite zum Genitiv Singular. Maskuline und neutrale Substantive bekommen **-a**, feminine Substantive auf **-a** bekommen **-e**, und feminine Substantive, die auf einen Konsonanten enden, bekommen **-i** (*noć → noći*). Der Fall antwortet auf *koga?* und *čega?* und hat drei Aufgaben: Zugehörigkeit, die kleinen Wörter und *nema*.
+infokratko: m./n. **-a**, f. **-a → -e**, f. Konsonant **-i** (*noći*). *Koga? Čega?* Drei Aufgaben.
+- Der Genitiv antwortet auf ***koga?*** (wessen? / von wem?) und ***čega?*** (wovon?) – und er ist der fleißigste Fall im Kroatischen.
+- tab: Grundform endet auf | Beispiel | Genitiv | Endung
+- tab: Konsonant (m.) | grad, šećer, brat | grad**a**, šećer**a**, brat**a** | **+a**
 - tab: -o, -e (m., n.) | Marko, mlijeko, more | Mark**a**, mlijek**a**, mor**a** | **-o / -e → -a**
-- tab: -a (f., also tata) | kava, baka, tata | kav**e**, bak**e**, tat**e** | **-a → -e**
-- tab: consonant (f.) | noć, obitelj, sol | noć**i**, obitelj**i**, sol**i** | **+i**
-- **Words that lose an a.** Words that lose an **a** in the target form lose it here too: *pas → psa, ručak → ručka, lonac → lonca, početak → početka*. For people and animals the masculine genitive looks exactly like the target form from Grammar 6: *Čekam brata.* — *kod brata*.
-- **Job one — belonging.** The owner or the whole comes after the thing and takes the genitive: *vrata **kuće**, miris **kave**, komad **kruha**, početak **filma***. With a family word and *moja*, *moje* takes **-e** too: *kuća **moje bake***.
-- **Job two — after the little words** on the next rule page: *kava bez **mlijeka**, vlak iz **Splita**, ručak kod **bake**, čaj od **mente***.
-- **Job three — nema.** *Nema* means *there is no*, and the missing thing takes the genitive: *Nema **šećera**. Nema **problema**!*
-- **The case count:** nominative, accusative, locative, dative, instrumental — and now the genitive. That makes six of the seven cases.
-- **Now you write them.** Ovo je kuća moje [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Do [ponoći] smo na zabavi.
+- tab: -a (f., auch tata) | kava, baka, tata | kav**e**, bak**e**, tat**e** | **-a → -e**
+- tab: Konsonant (f.) | noć, obitelj, sol | noć**i**, obitelj**i**, sol**i** | **+i**
+- **Wörter, die ein a verlieren.** Wörter, die in der Zielform ein **a** verlieren, verlieren es auch hier: *pas → psa, ručak → ručka, lonac → lonca, početak → početka*. Bei Personen und Tieren sieht der maskuline Genitiv genauso aus wie die Zielform aus Grammatik 6: *Čekam brata.* — *kod brata*.
+- **Aufgabe eins – Zugehörigkeit.** Der Besitzer oder das Ganze steht nach der Sache im Genitiv: *vrata **kuće**, miris **kave**, komad **kruha**, početak **filma*** – wie *die Tür des Hauses*. Bei einem Familienwort mit *moja* bekommt auch *moje* **-e**: *kuća **moje bake***.
+- **Aufgabe zwei – nach den kleinen Wörtern** auf der nächsten Regelseite: *kava bez **mlijeka**, vlak iz **Splita**, ručak kod **bake**, čaj od **mente***.
+- **Aufgabe drei – nema.** *Nema* heißt *es gibt kein*, und das Fehlende steht im Genitiv: *Nema **šećera**. Nema **problema**!*
+- **Die Fallbilanz:** Nominativ, Akkusativ, Lokativ, Dativ, Instrumental – und jetzt der Genitiv. Das sind sechs der sieben Fälle.
+- **Jetzt schreibst du sie.** Ovo je kuća moje [bake]. Kava bez [šećera]. Dolazim iz [Zagreba]. Do [ponoći] smo na zabavi.
 
-## Type the genitive
+## Schreib den Genitiv
 format: upis
-info: The genitive of single words, old and new. Masculine and neuter nouns take **-a** (*grada, mora*), feminine nouns in **-a** take **-e** (*kuće*), and a feminine word on a consonant takes **-i** (*noći*). Watch the words that lose an **a**: *ručak → ručka*.
-infokratko: **-a** (*grada, mora*), **-e** (*kuće*), f. consonant **-i** (*noći*). *ručak → ručka*.
-opis: Type the genitive after the little word.
+info: Der Genitiv einzelner Wörter, alt und neu. Maskuline und neutrale Substantive bekommen **-a** (*grada, mora*), feminine Substantive auf **-a** bekommen **-e** (*kuće*), und ein feminines Wort auf Konsonant bekommt **-i** (*noći*). Achte auf die Wörter, die ein **a** verlieren: *ručak → ručka*.
+infokratko: **-a** (*grada, mora*), **-e** (*kuće*), f. Konsonant **-i** (*noći*). *ručak → ručka*.
+opis: Schreib den Genitiv nach dem kleinen Wort.
 - mlijeko → bez ___ | mlijeka
 - jabuka → sok od ___ | jabuke
 - Zagreb → iz ___ | Zagreba
@@ -38,11 +38,11 @@ opis: Type the genitive after the little word.
 - lonac → komad ___ | lonca
 - more → blizu ___ | mora
 
-## Which case is it?
+## Welcher Fall ist es?
 format: izbor
-info: Recognising the genitive among the other cases. Ask the question for the word: *bez čega?* or *čiji?* points to the genitive, *komu?* to the dative, *gdje?* to the locative, *s kim?* or *čime?* to the instrumental. The same ending can do two jobs, so read the whole sentence.
-infokratko: Ask the question: *čega? / koga?* genitive, *komu?* dative, *gdje?* locative, *s kim?* instrumental.
-opis: Which case is the word in quotation marks?
+info: Den Genitiv unter den anderen Fällen erkennen. Stell die Frage zum Wort: *bez čega?* oder *čiji?* zeigt auf den Genitiv, *komu?* auf den Dativ, *gdje?* auf den Lokativ, *s kim?* oder *čime?* auf den Instrumental. Dieselbe Endung kann zwei Aufgaben haben, also lies den ganzen Satz.
+infokratko: Stell die Frage: *čega? / koga?* Genitiv, *komu?* Dativ, *gdje?* Lokativ, *s kim?* Instrumental.
+opis: In welchem Fall steht das Wort in Anführungszeichen?
 - Pijem kavu bez šećera. — "šećera" je... | genitiv | dativ | akuzativ
 - Šaljem pismo baki. — "baki" je... | dativ | genitiv | lokativ
 - Kupujem kavu. — "kavu" je... | akuzativ | genitiv | dativ
@@ -56,12 +56,12 @@ opis: Which case is the word in quotation marks?
 - Mlijeko je na stolu. — "stolu" je... | lokativ | dativ | genitiv
 - Idemo vlakom do mora. — "mora" je... | genitiv | akuzativ | lokativ
 
-## -A, -E or -I?
+## -A, -E oder -I?
 format: razvrstavanje
-info: Sorting nouns by their genitive ending. Masculine and neuter nouns take **-a**, also those in **-o** and **-e** (*Marka, mora*). Feminine nouns in **-a** take **-e**, and so does *tata*. Feminine nouns that end in a consonant — *noć, obitelj, sol, ljubav* — take **-i**.
-infokratko: m./n. **-a**; f. in **-a** **-e** (also *tata*); f. on a consonant **-i**.
+info: Substantive nach ihrer Genitivendung sortieren. Maskuline und neutrale Substantive bekommen **-a**, auch die auf **-o** und **-e** (*Marka, mora*). Feminine Substantive auf **-a** bekommen **-e**, und *tata* auch. Feminine Substantive, die auf einen Konsonanten enden – *noć, obitelj, sol, ljubav* –, bekommen **-i**.
+infokratko: m./n. **-a**; f. auf **-a** **-e** (auch *tata*); f. auf Konsonant **-i**.
 stupci: -A | -E | -I
-opis: Which ending does each noun take in the genitive? Look at the naming form, and remember the feminine words that end in a consonant.
+opis: Welche Endung bekommt jedes Substantiv im Genitiv? Schau auf die Grundform und denk an die femininen Wörter, die auf einen Konsonanten enden.
 - grad | -A
 - šećer | -A
 - Marko | -A
@@ -79,76 +79,76 @@ opis: Which ending does each noun take in the genitive? Look at the naming form,
 - ljubav | -I
 - jesen | -I
 
-## The rule: little words that take the genitive
+## Die Regel: kleine Wörter mit dem Genitiv
 format: tekst
-info: The second rule: the little words that are always followed by the genitive, grouped by meaning. Most describe a place — *ispred, iza, iznad, ispod, između, pokraj* — and some a time or a choice: *nakon, tijekom, osim, umjesto*. After them, a pronoun uses its long form: *kod mene, bez tebe*.
-infokratko: Place, time and choice words + genitive. Pronouns: *kod mene, bez tebe, pokraj nje*.
+info: Die zweite Regel: die kleinen Wörter, auf die immer der Genitiv folgt, nach Bedeutung gruppiert. Die meisten beschreiben einen Ort – *ispred, iza, iznad, ispod, između, pokraj* –, einige eine Zeit oder eine Wahl: *nakon, tijekom, osim, umjesto*. Danach nimmt ein Pronomen seine lange Form: *kod mene, bez tebe*.
+infokratko: Orts-, Zeit- und Wahlwörter + Genitiv. Pronomen: *kod mene, bez tebe, pokraj nje*.
 infoodmah: da
-- **Where something is.** Every one of these is followed by the genitive.
-- tab: Little word | Meaning | Example
-- tab: pokraj | next to | pokraj **kuće**
-- tab: ispred / iza | in front of / behind | ispred **škole**, iza **zida**
-- tab: iznad / ispod | above / under | iznad **stola**, ispod **kreveta**
-- tab: između … i … | between … and … | između **kuće** i **mora**
-- tab: kod | at someone's place | kod **bake**
-- tab: blizu / izvan | near / outside | blizu **mora**, izvan **grada**
-- **From, to, when, instead.**
-- tab: Little word | Meaning | Example
-- tab: iz / od … do … | from, out of / from … to … | iz **Splita**, od **jutra** do **ponoći**
-- tab: bez / osim | without / except | bez **šećera**, osim **Marka**
-- tab: umjesto | instead of | umjesto **kave**
-- tab: nakon / tijekom | after / during | nakon **ručka**, tijekom **noći**
-- **od has three jobs.** Where something comes from (*pismo od bake*), what it is made of or tastes of (*torta od čokolade, čaj od mente*), and where a stretch starts (*od Zagreba do mora*).
-- **Pronouns: the long forms from Grammar 6.** After a little word the pronoun takes the same long form as the target: ***kod mene, bez tebe, iza njega, kod nas, bez vas, pokraj njih***. Only *ona* is different: the target is *nju*, but the genitive is ***nje***: *Sjedim pokraj nje.*
-- **The two questions.** *Koga?* asks about a person (*Kod koga si? — Kod bake.*) and *čega?* about a thing (*Bez čega piješ kavu? — Bez šećera.*).
-- **Now you write them.** Mačka spava ispod [kreveta]. Pijem čaj umjesto [kave]. Ključ je kod [mene]. [Čega] nema? — Mlijeka.
+- **Wo etwas ist.** Auf jedes dieser Wörter folgt der Genitiv.
+- tab: Kleines Wort | Bedeutung | Beispiel
+- tab: pokraj | neben | pokraj **kuće**
+- tab: ispred / iza | vor / hinter | ispred **škole**, iza **zida**
+- tab: iznad / ispod | über / unter | iznad **stola**, ispod **kreveta**
+- tab: između … i … | zwischen … und … | između **kuće** i **mora**
+- tab: kod | bei jemandem | kod **bake**
+- tab: blizu / izvan | in der Nähe von / außerhalb | blizu **mora**, izvan **grada**
+- **Von, bis, wann, statt.**
+- tab: Kleines Wort | Bedeutung | Beispiel
+- tab: iz / od … do … | aus / von … bis … | iz **Splita**, od **jutra** do **ponoći**
+- tab: bez / osim | ohne / außer | bez **šećera**, osim **Marka**
+- tab: umjesto | statt | umjesto **kave**
+- tab: nakon / tijekom | nach / während | nakon **ručka**, tijekom **noći**
+- **od hat drei Aufgaben.** Woher etwas kommt (*pismo od bake*), woraus es gemacht ist oder wonach es schmeckt (*torta od čokolade, čaj od mente*) und wo eine Strecke beginnt (*od Zagreba do mora*).
+- **Pronomen: die langen Formen aus Grammatik 6.** Nach einem kleinen Wort nimmt das Pronomen dieselbe lange Form wie das Ziel: ***kod mene, bez tebe, iza njega, kod nas, bez vas, pokraj njih***. Nur *ona* ist anders: Das Ziel ist *nju*, der Genitiv aber ***nje***: *Sjedim pokraj nje.*
+- **Die zwei Fragen.** *Koga?* fragt nach einer Person (*Kod koga si? — Kod bake.*) und *čega?* nach einer Sache (*Bez čega piješ kavu? — Bez šećera.*).
+- **Jetzt schreibst du sie.** Mačka spava ispod [kreveta]. Pijem čaj umjesto [kave]. Ključ je kod [mene]. [Čega] nema? — Mlijeka.
 
-## Pick the preposition
+## Wähle die Präposition
 format: izbor
-info: Choosing the little word from its English meaning. All of them are followed by the genitive, so the ending does not help — the meaning in brackets decides. *Kod* is someone's place, *iz* is out of a place, and *od* is from a person or what something is made of.
-infokratko: The meaning decides: *kod* at someone's, *iz* out of, *od* from a person or made of.
-opis: Choose the little word that matches the English in brackets.
-- Kava ___ mlijeka, molim. (without) | bez | iz | kod
-- Putujem ___ Splita. (from) | iz | bez | pokraj
-- Večeras smo ___ bake. (at … 's place) | kod | do | od
-- ___ kuće je vrt. (next to) | Pokraj | Bez | Iz
-- Mačka spava ___ kreveta. (under) | ispod | iznad | između
-- Svjetlo visi ___ stola. (above) | iznad | ispod | iza
-- ___ ručka spavam. (after) | Nakon | Tijekom | Umjesto
-- Pijem čaj ___ kave. (instead of) | umjesto | osim | nakon
-- Park je ___ škole i pošte. (between) | između | ispred | osim
-- Torta ___ čokolade, molim. (made of) | od | iz | bez
-- Nitko ne zna ___ Marka. (except) | osim | umjesto | kod
-- Auto je ___ kuće. (in front of) | ispred | iznad | između
+info: Das kleine Wort nach seiner deutschen Bedeutung wählen. Auf alle folgt der Genitiv, also hilft die Endung nicht – die Bedeutung in Klammern entscheidet. *Kod* ist bei jemandem, *iz* ist aus einem Ort heraus, und *od* ist von einer Person oder woraus etwas gemacht ist.
+infokratko: Die Bedeutung entscheidet: *kod* bei jemandem, *iz* aus, *od* von einer Person oder aus (Material).
+opis: Wähle das kleine Wort, das zum Deutschen in Klammern passt.
+- Kava ___ mlijeka, molim. (ohne) | bez | iz | kod
+- Putujem ___ Splita. (aus) | iz | bez | pokraj
+- Večeras smo ___ bake. (bei) | kod | do | od
+- ___ kuće je vrt. (neben) | Pokraj | Bez | Iz
+- Mačka spava ___ kreveta. (unter) | ispod | iznad | između
+- Svjetlo visi ___ stola. (über) | iznad | ispod | iza
+- ___ ručka spavam. (nach) | Nakon | Tijekom | Umjesto
+- Pijem čaj ___ kave. (statt) | umjesto | osim | nakon
+- Park je ___ škole i pošte. (zwischen) | između | ispred | osim
+- Torta ___ čokolade, molim. (aus) | od | iz | bez
+- Nitko ne zna ___ Marka. (außer) | osim | umjesto | kod
+- Auto je ___ kuće. (vor) | ispred | iznad | između
 
 ## Tippe auf die Endung
 format: nastavak
 nastavci: a | e | i
-info: One tap for the genitive after a little word. Masculine and neuter nouns take **-a**, feminine nouns in **-a** take **-e**, and feminine nouns that end in a consonant take **-i**: *noći, obitelji, soli*. *Ručk___* has already lost its *a* — it only needs the ending.
-infokratko: m./n. **-a**, f. **-e**, f. on a consonant **-i** (*noći, soli*).
-opis: English above, Croatian below. One tap puts the word in the genitive.
-- Pijem kavu bez šećer___. | I drink coffee without sugar. | a
-- Kod bak___ nema interneta. | There's no internet at Grandma's. | e
-- Tijekom noć___ pada kiša. | During the night it rains. | i
-- Čaj od ment___, molim. | Mint tea, please. | e
-- Nakon ručk___ spavam. | After lunch I sleep. | a
-- Ručamo kod obitelj___. | We have lunch with the family. | i
-- Sok od jabuk___, molim. | Apple juice, please. | e
-- Kuća je blizu mor___. | The house is near the sea. | a
-- Juha bez sol___ nije ukusna. | Soup without salt isn't tasty. | i
-- Osim Mark___ nitko ne zna. | Nobody knows except Marko. | a
-- Umjesto kav___ pijem čaj. | Instead of coffee I drink tea. | e
-- Iznad stol___ visi svjetlo. | A light hangs above the table. | a
-- Do ponoć___ smo na zabavi. | We're at the party until midnight. | i
-- Između kuć___ i škole je park. | Between the house and the school there's a park. | e
-- Mačka spava ispod krevet___. | The cat sleeps under the bed. | a
-- Pismo je od prijateljic___. | The letter is from a friend. | e
+info: Ein Tippen für den Genitiv nach einem kleinen Wort. Maskuline und neutrale Substantive bekommen **-a**, feminine Substantive auf **-a** bekommen **-e**, und feminine Substantive, die auf einen Konsonanten enden, bekommen **-i**: *noći, obitelji, soli*. *Ručk___* hat sein *a* schon verloren – es braucht nur die Endung.
+infokratko: m./n. **-a**, f. **-e**, f. auf Konsonant **-i** (*noći, soli*).
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen bringt das Wort in den Genitiv.
+- Pijem kavu bez šećer___. | Ich trinke Kaffee ohne Zucker. | a
+- Kod bak___ nema interneta. | Bei Oma gibt es kein Internet. | e
+- Tijekom noć___ pada kiša. | Während der Nacht regnet es. | i
+- Čaj od ment___, molim. | Pfefferminztee, bitte. | e
+- Nakon ručk___ spavam. | Nach dem Mittagessen schlafe ich. | a
+- Ručamo kod obitelj___. | Wir essen mit der Familie zu Mittag. | i
+- Sok od jabuk___, molim. | Apfelsaft, bitte. | e
+- Kuća je blizu mor___. | Das Haus ist in der Nähe des Meeres. | a
+- Juha bez sol___ nije ukusna. | Suppe ohne Salz schmeckt nicht. | i
+- Osim Mark___ nitko ne zna. | Niemand weiß es außer Marko. | a
+- Umjesto kav___ pijem čaj. | Statt Kaffee trinke ich Tee. | e
+- Iznad stol___ visi svjetlo. | Über dem Tisch hängt eine Lampe. | a
+- Do ponoć___ smo na zabavi. | Wir sind bis Mitternacht auf der Party. | i
+- Između kuć___ i škole je park. | Zwischen dem Haus und der Schule ist ein Park. | e
+- Mačka spava ispod krevet___. | Die Katze schläft unter dem Bett. | a
+- Pismo je od prijateljic___. | Der Brief ist von einem Freund. | e
 
-## Answer with a pronoun
+## Antworte mit einem Pronomen
 format: upis
-info: The pronoun after a little word takes its long form, the same as the target form from Grammar 6: *mene, tebe, njega, nas, vas, njih*. Only *ona* has a genitive of its own: *nje*. The last two items ask for the question words *koga* and *čega*.
+info: Das Pronomen nach einem kleinen Wort nimmt seine lange Form, dieselbe wie die Zielform aus Grammatik 6: *mene, tebe, njega, nas, vas, njih*. Nur *ona* hat einen eigenen Genitiv: *nje*. Die letzten zwei Aufgaben verlangen die Fragewörter *koga* und *čega*.
 infokratko: *kod mene, bez tebe, iza njega, pokraj nje, kod nas, bez vas, kod njih*. *Koga? Čega?*
-opis: Type the pronoun in the form that follows the little word.
+opis: Schreib das Pronomen in der Form, die auf das kleine Wort folgt.
 - (ja) Ključ je kod ___ . | mene
 - (ti) Ne idem na koncert bez ___ . | tebe
 - (on) Sjedim iza ___ . | njega
@@ -161,34 +161,34 @@ opis: Type the pronoun in the form that follows the little word.
 - Kod ___ si? — Kod bake. | koga
 - Bez ___ piješ kavu? — Bez šećera. | čega
 
-## The rule: counting reaches for the genitive
+## Die Regel: Zählen greift zum Genitiv
 format: tekst
-info: The third rule: numbers decide the form of the noun. After *jedan* the noun stays as it is, after 2, 3 and 4 it takes the genitive singular (*dvije kave*), and from 5 up the genitive plural (*pet kava*). *Koliko?* takes the genitive plural too. *Dva* is masculine and neuter, *dvije* feminine.
-infokratko: 1: as it is. 2–4: genitive singular (*dvije kave*). 5+ and *koliko*: genitive plural (*pet kava*).
+info: Die dritte Regel: Zahlen bestimmen die Form des Substantivs. Nach *jedan* bleibt das Substantiv, wie es ist, nach 2, 3 und 4 steht es im Genitiv Singular (*dvije kave*), und ab 5 im Genitiv Plural (*pet kava*). Auch *Koliko?* nimmt den Genitiv Plural. *Dva* ist maskulin und neutral, *dvije* feminin.
+infokratko: 1: wie es ist. 2–4: Genitiv Singular (*dvije kave*). 5+ und *koliko*: Genitiv Plural (*pet kava*).
 infoodmah: da
-- A number in Croatian decides the form of the noun after it. There are three groups.
-- tab: Number | What follows | Example
-- tab: 1 | the usual form | jedn**a** kav**a**, jedan sok
-- tab: 2, 3, 4 | genitive **singular** | dvije kav**e**, tri sok**a**, četiri brat**a**
-- tab: 5 and up | genitive **plural** | pet kav**a**, deset sokov**a**, šest jabuk**a**
-- **Dva or dvije?** *Dva* goes with masculine and neuter words (*dva soka, dva brata*), *dvije* with feminine ones (*dvije kave, dvije sestre*). *Tri* and *četiri* stay the same for all.
-- **The genitive plural: take the plural from Grammar 7 and end it in -a.** *kave → kava, prijatelji → prijatelja, sokovi → sokova, stolovi → stolova, mjesta → mjesta.* A short masculine word keeps its **-ov-**: *sokova, gradova*.
-- **You already know some.** *Imam dvadeset **godina**. Karta košta deset **eura**.* Both are the genitive plural after a number. Take a few whole: *pet **sati*** (five hours), *pet **ljudi*** (five people).
-- **Koliko? takes the genitive plural too:** *Koliko **kava** piješ na dan? — Dvije.*
-- **Ordering, the practical side:** *Dvije kave i tri soka, molim.* *Jednu kavu, molim* — after *jedan* the noun keeps the target form.
-- **Now you write them.** dvije [kave], pet [kava], tri [soka], deset [sokova]. [Koliko] kava piješ na dan?
+- Eine Zahl bestimmt im Kroatischen die Form des Substantivs danach. Es gibt drei Gruppen.
+- tab: Zahl | Was folgt | Beispiel
+- tab: 1 | die übliche Form | jedn**a** kav**a**, jedan sok
+- tab: 2, 3, 4 | Genitiv **Singular** | dvije kav**e**, tri sok**a**, četiri brat**a**
+- tab: ab 5 | Genitiv **Plural** | pet kav**a**, deset sokov**a**, šest jabuk**a**
+- **Dva oder dvije?** *Dva* gehört zu maskulinen und neutralen Wörtern (*dva soka, dva brata*), *dvije* zu femininen (*dvije kave, dvije sestre*). *Tri* und *četiri* bleiben für alle gleich.
+- **Der Genitiv Plural: Nimm den Plural aus Grammatik 7 und lass ihn auf -a enden.** *kave → kava, prijatelji → prijatelja, sokovi → sokova, stolovi → stolova, mjesta → mjesta.* Ein kurzes maskulines Wort behält sein **-ov-**: *sokova, gradova*.
+- **Einige kennst du schon.** *Imam dvadeset **godina**. Karta košta deset **eura**.* Beides ist Genitiv Plural nach einer Zahl. Lern ein paar als Ganzes: *pet **sati*** (fünf Stunden), *pet **ljudi*** (fünf Leute).
+- **Auch Koliko? nimmt den Genitiv Plural:** *Koliko **kava** piješ na dan? — Dvije.*
+- **Bestellen, die praktische Seite:** *Dvije kave i tri soka, molim.* *Jednu kavu, molim* – nach *jedan* behält das Substantiv die Zielform.
+- **Jetzt schreibst du sie.** dvije [kave], pet [kava], tri [soka], deset [sokova]. [Koliko] kava piješ na dan?
 
-## Which form after the number?
+## Welche Form nach der Zahl?
 format: izbor
-info: Choosing the form after a number. Two, three and four take the genitive singular (*dvije kave, tri soka*), five and up the genitive plural (*pet kava, deset sokova*). *Dva* is for masculine and neuter words, *dvije* for feminine ones.
-infokratko: 2–4: genitive singular (*dvije kave*); 5+: genitive plural (*pet kava*). *dva* m./n., *dvije* f.
-opis: Two-three-four, or five and up? The number decides.
+info: Die Form nach einer Zahl wählen. Zwei, drei und vier nehmen den Genitiv Singular (*dvije kave, tri soka*), ab fünf den Genitiv Plural (*pet kava, deset sokova*). *Dva* ist für maskuline und neutrale Wörter, *dvije* für feminine.
+infokratko: 2–4: Genitiv Singular (*dvije kave*); 5+: Genitiv Plural (*pet kava*). *dva* m./n., *dvije* f.
+opis: Zwei-drei-vier oder ab fünf? Die Zahl entscheidet.
 - dvije ___ , molim | kave | kava | kavu
 - pet ___ , molim | kava | kave | kavu
 - tri ___ | soka | sokova | sok
 - deset ___ | sokova | soka | sokovi
-- ___ kave (two) | dvije | dva | dvoje
-- ___ soka (two) | dva | dvije | dvoje
+- ___ kave (zwei) | dvije | dva | dvoje
+- ___ soka (zwei) | dva | dvije | dvoje
 - četiri ___ | brata | bratom | brat
 - šest ___ | jabuka | jabuke | jabuku
 - dva ___ | stola | stolova | stol
@@ -196,11 +196,11 @@ opis: Two-three-four, or five and up? The number decides.
 - tri ___ | sestre | sestra | sestru
 - ___ kava piješ na dan? | Koliko | Kakva | Koja
 
-## Order it
+## Bestell es
 format: upis
-info: You type the noun in the form the number needs. After 2, 3 and 4 it is the genitive singular — **-a** for masculine words, **-e** for feminine ones — and from 5 up the genitive plural, which ends in **-a**: *pet kava, deset sokova*.
-infokratko: 2–4: **-a** / **-e**; 5+: genitive plural in **-a** (*kava, sokova*).
-opis: Type the noun in the form the number wants.
+info: Du schreibst das Substantiv in der Form, die die Zahl verlangt. Nach 2, 3 und 4 ist es der Genitiv Singular – **-a** für maskuline Wörter, **-e** für feminine – und ab 5 der Genitiv Plural, der auf **-a** endet: *pet kava, deset sokova*.
+infokratko: 2–4: **-a** / **-e**; 5+: Genitiv Plural auf **-a** (*kava, sokova*).
+opis: Schreib das Substantiv in der Form, die die Zahl will.
 - kava (2) → dvije ___ | kave
 - kava (5) → pet ___ | kava
 - sok (3) → tri ___ | soka
@@ -216,9 +216,9 @@ opis: Type the noun in the form the number wants.
 
 ## Bau den Satz
 format: slaganje
-info: Whole sentences from tiles, each using a different job of the genitive. The genitive follows the thing it belongs to (*miris kave*), the little word (*bez šećera*), *nema* or the number (*dvije kave*). *Kod mene* and *bez tebe* use the long pronoun forms.
-infokratko: Genitive after the thing, the little word, *nema* or a number. *kod mene, bez tebe*.
-opis: Build the sentence.
+info: Ganze Sätze aus Kacheln, jeder mit einer anderen Aufgabe des Genitivs. Der Genitiv folgt der Sache, zu der er gehört (*miris kave*), dem kleinen Wort (*bez šećera*), *nema* oder der Zahl (*dvije kave*). *Kod mene* und *bez tebe* benutzen die langen Pronomenformen.
+infokratko: Genitiv nach der Sache, dem kleinen Wort, *nema* oder einer Zahl. *kod mene, bez tebe*.
+opis: Bau den Satz.
 - Miris kave je u kuhinji.
 - Idemo od kuće do mora.
 - Kod bake nema interneta, ali ima kolača!
@@ -234,28 +234,28 @@ opis: Build the sentence.
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English. The genitive follows the little word, *nema* and the number, and the owner comes after the thing. A pronoun after a little word takes its long form. Several word orders are accepted where Croatian allows them.
-infokratko: Genitive after little words, *nema*, numbers; owner after the thing. *kod mene*.
-opis: The last step — the English sentence, and you write the Croatian.
-- I drink coffee without sugar. | Pijem kavu bez šećera
-- I come from Zagreb. | Dolazim iz Zagreba / Ja sam iz Zagreba
-- There's no milk. | Nema mlijeka
-- My grandma's house is old. | Kuća moje bake je stara
-- The key is with me. | Ključ je kod mene
-- A piece of cake, please. | Komad torte, molim
-- Mint tea, please. | Čaj od mente, molim
-- After lunch I sleep. | Nakon ručka spavam / Spavam nakon ručka
-- The cat is under the bed. | Mačka je ispod kreveta
-- Two coffees and three juices, please. | Dvije kave i tri soka, molim
-- I have two brothers. | Imam dva brata
-- Five coffees, please. | Pet kava, molim
-- How many coffees do you drink a day? | Koliko kava piješ na dan
-- No problem! | Nema problema
+info: Freie Produktion aus dem Deutschen. Der Genitiv folgt dem kleinen Wort, *nema* und der Zahl, und der Besitzer steht nach der Sache. Ein Pronomen nach einem kleinen Wort nimmt seine lange Form. Mehrere Wortstellungen werden akzeptiert, wo das Kroatische sie erlaubt.
+infokratko: Genitiv nach kleinen Wörtern, *nema*, Zahlen; Besitzer nach der Sache. *kod mene*.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen.
+- Ich trinke Kaffee ohne Zucker. | Pijem kavu bez šećera
+- Ich komme aus Zagreb. | Dolazim iz Zagreba / Ja sam iz Zagreba
+- Es gibt keine Milch. | Nema mlijeka
+- Das Haus meiner Oma ist alt. | Kuća moje bake je stara
+- Der Schlüssel ist bei mir. | Ključ je kod mene
+- Ein Stück Kuchen, bitte. | Komad torte, molim
+- Pfefferminztee, bitte. | Čaj od mente, molim
+- Nach dem Mittagessen schlafe ich. | Nakon ručka spavam / Spavam nakon ručka
+- Die Katze ist unter dem Bett. | Mačka je ispod kreveta
+- Zwei Kaffee und drei Säfte, bitte. | Dvije kave i tri soka, molim
+- Ich habe zwei Brüder. | Imam dva brata
+- Fünf Kaffee, bitte. | Pet kava, molim
+- Wie viele Kaffee trinkst du am Tag? | Koliko kava piješ na dan
+- Kein Problem! | Nema problema
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary. The genitive at this level comes down to three endings (**-a**, **-e**, **-i**), three jobs (belonging, the little words, *nema*) and one rule for counting: 2–4 take the genitive singular, 5 and up the genitive plural.
-infokratko: **-a / -e / -i**; belonging, little words, *nema*; 2–4 singular, 5+ plural.
-- **Bravo.** You can now say whose something is, where it is and where it comes from, what is missing — and how many of it you want.
-- And you did it with a small set of rules: **-a** for masculine and neuter words, **-e** for feminine words in **-a**, **-i** for feminine words on a consonant; **the genitive after the little words and *nema***; and **2–4 + genitive singular, 5 and up + genitive plural**.
-- **Next up:** Practice 16 takes you to Grandma's house and down the road from Zagreb to the sea, and Test 16 checks the whole level. Then Lesson 17: the imperative — *Uzmi! Dodaj! Miješaj!*
+info: Eine abschließende Zusammenfassung. Der Genitiv auf dieser Stufe lässt sich auf drei Endungen (**-a**, **-e**, **-i**), drei Aufgaben (Zugehörigkeit, die kleinen Wörter, *nema*) und eine Zählregel bringen: 2–4 nehmen den Genitiv Singular, ab 5 den Genitiv Plural.
+infokratko: **-a / -e / -i**; Zugehörigkeit, kleine Wörter, *nema*; 2–4 Singular, 5+ Plural.
+- **Bravo.** Jetzt kannst du sagen, wem etwas gehört, wo es ist und woher es kommt, was fehlt – und wie viel du davon willst.
+- Und das mit wenigen Regeln: **-a** für maskuline und neutrale Wörter, **-e** für feminine Wörter auf **-a**, **-i** für feminine Wörter auf Konsonant; **der Genitiv nach den kleinen Wörtern und *nema***; und **2–4 + Genitiv Singular, ab 5 + Genitiv Plural**.
+- **Als Nächstes:** Praxis 16 führt dich zu Omas Haus und auf die Straße von Zagreb ans Meer, und Test 16 prüft die ganze Stufe. Dann Lektion 17: der Imperativ – *Uzmi! Dodaj! Miješaj!*

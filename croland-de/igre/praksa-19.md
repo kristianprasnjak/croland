@@ -1,25 +1,25 @@
-# Reading: The Letter & the Homework Interrogation
+# Lesen: Der Brief & das Hausaufgabenverhör
 cjelina: Practice 19
 
-## Text 1: The letter
+## Text 1: Der Brief
 format: tekst
-info: A read-along story that uses both twins side by side. The imperfective shows what went on for a while — *pisao je cijelo poslijepodne, kupovao je* — and the perfective what got finished: *napisao je, kupio je, poslao je, pročitala je*.
-infokratko: Going on: *pisao, kupovao, čitala*. Finished: *napisao, kupio, poslao, pročitala*.
-opis: A letter that took all afternoon, a stamp that took three shops, and a happy grandmother. Tap **EN** next to any sentence to see its translation.
-- Passive words: *brisao* (erased), *usput* (along the way), *plakala od sreće* (cried with joy).
-- Marko je pisao pismo cijelo poslijepodne. | Marko was writing a letter all afternoon.
-- Pisao je, brisao i opet pisao. | He wrote, erased and wrote again.
-- Napokon je napisao pismo! | Finally he finished writing the letter!
-- Usput je popio tri kave i pojeo je cijelu čokoladu. | Along the way he drank three coffees and ate a whole chocolate bar.
-- Zatim je kupovao marku — tri trgovine! — i napokon je kupio jednu. | Then he was shopping for a stamp — three shops! — and finally he bought one.
-- Poslao je pismo u podne. Komu? Baki, naravno. | He sent the letter at noon. To whom? To Grandma, of course.
-- Baka je čitala pismo polako. | Grandma read the letter slowly.
-- Pročitala je pismo dva puta i plakala je od sreće. | She read the letter through twice and cried with joy.
+info: Eine Geschichte zum Mitlesen, die beide Zwillinge nebeneinander benutzt. Der Imperfektiv zeigt, was eine Weile lief – *pisao je cijelo poslijepodne, kupovao je* –, und der Perfektiv, was fertig wurde: *napisao je, kupio je, poslao je, pročitala je*.
+infokratko: Lief: *pisao, kupovao, čitala*. Fertig: *napisao, kupio, poslao, pročitala*.
+opis: Ein Brief, der den ganzen Nachmittag gedauert hat, eine Briefmarke, die drei Läden gekostet hat, und eine glückliche Oma. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+- Passive Wörter: *brisao* (wischte weg), *usput* (nebenbei), *plakala od sreće* (weinte vor Freude).
+- Marko je pisao pismo cijelo poslijepodne. | Marko hat den ganzen Nachmittag an einem Brief geschrieben.
+- Pisao je, brisao i opet pisao. | Er schrieb, löschte und schrieb wieder.
+- Napokon je napisao pismo! | Endlich hat er den Brief fertig geschrieben!
+- Usput je popio tri kave i pojeo je cijelu čokoladu. | Nebenbei hat er drei Kaffee getrunken und eine ganze Tafel Schokolade aufgegessen.
+- Zatim je kupovao marku — tri trgovine! — i napokon je kupio jednu. | Dann war er auf Briefmarkensuche – drei Läden! – und hat endlich eine gekauft.
+- Poslao je pismo u podne. Komu? Baki, naravno. | Er hat den Brief mittags abgeschickt. An wen? An Oma natürlich.
+- Baka je čitala pismo polako. | Oma las den Brief langsam.
+- Pročitala je pismo dva puta i plakala je od sreće. | Sie hat den Brief zweimal durchgelesen und vor Freude geweint.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on the letter. Some questions ask how long something went on — the answer is next to an imperfective (*pisao je cijelo poslijepodne*) — and some ask what got done: *popio je, poslao je, pročitala je*.
-infokratko: How long → next to *pisao*. What got done → *popio, poslao, pročitala*.
+info: Verständnis zum Brief. Manche Fragen fragen, wie lange etwas lief – die Antwort steht neben einem Imperfektiv (*pisao je cijelo poslijepodne*) –, und manche, was fertig wurde: *popio je, poslao je, pročitala je*.
+infokratko: Wie lange → neben *pisao*. Was fertig wurde → *popio, poslao, pročitala*.
 opis: Antworte aus dem Text.
 tekst: Marko je pisao pismo cijelo poslijepodne. Pisao je, brisao i opet pisao. Napokon je napisao pismo! Usput je popio tri kave i pojeo je cijelu čokoladu. Zatim je kupovao marku — tri trgovine! — i napokon je kupio jednu. Poslao je pismo u podne. Baka je čitala pismo polako. Pročitala je pismo dva puta i plakala je od sreće.
 - Koliko dugo je Marko pisao pismo? | cijelo poslijepodne | dvije minute | cijelu noć
@@ -29,45 +29,45 @@ tekst: Marko je pisao pismo cijelo poslijepodne. Pisao je, brisao i opet pisao. 
 - Kako je baka čitala pismo? | polako | brzo | nije ga čitala
 - Koliko puta je baka pročitala pismo? | dva puta | jedan put | tri puta
 
-## Process or done?
+## Ablauf oder fertig?
 format: razvrstavanje
-info: Sorting the verbs from the text by their twin. The imperfective describes something that went on (*pisao je, kupovao je, čitala je*); the perfective one finished action (*napisao je, kupio je, poslao je*).
-infokratko: Going on → PROCESS. Finished → DONE.
-stupci: PROCESS | DONE
-opis: Process or done? Sort the verbs from the text.
-- pisao je | PROCESS
-- napisao je | DONE
-- kupovao je | PROCESS
-- kupio je | DONE
-- čitala je | PROCESS
-- pročitala je | DONE
-- učila je | PROCESS
-- naučila je | DONE
-- pila je | PROCESS
-- popio je | DONE
-- jela sam | PROCESS
-- pojeo je | DONE
-- čitala sam | PROCESS
-- poslao je | DONE
+info: Die Verben aus dem Text nach ihrem Zwilling sortieren. Der Imperfektiv beschreibt etwas, das lief (*pisao je, kupovao je, čitala je*); der Perfektiv eine abgeschlossene Handlung (*napisao je, kupio je, poslao je*).
+infokratko: Lief → ABLAUF. Abgeschlossen → FERTIG.
+stupci: ABLAUF | FERTIG
+opis: Ablauf oder fertig? Sortiere die Verben aus dem Text.
+- pisao je | ABLAUF
+- napisao je | FERTIG
+- kupovao je | ABLAUF
+- kupio je | FERTIG
+- čitala je | ABLAUF
+- pročitala je | FERTIG
+- učila je | ABLAUF
+- naučila je | FERTIG
+- pila je | ABLAUF
+- popio je | FERTIG
+- jela sam | ABLAUF
+- pojeo je | FERTIG
+- čitala sam | ABLAUF
+- poslao je | FERTIG
 
-## Text 2: Two verbs, one day
+## Text 2: Zwei Verben, ein Tag
 format: tekst
-info: A short text built on pairs: in every sentence one person takes their time and another finishes. The narrator is a woman (*jela sam, čitala sam*), and the endings of *učila, naučila, pila, popio* show who did what.
-infokratko: Every sentence: one twin takes its time, the other finishes.
-opis: A family, a table and two kinds of verbs. Tap **EN** to see any line in English.
-- Passive words: *dolaze u parovima* (come in pairs), *razlika* (difference), *važna* (important), *traje* (lasts), *završava posao* (finishes the job).
-- Hrvatski glagoli dolaze u parovima. | Croatian verbs come in pairs.
-- Ana je učila cijelu večer — i naučila je sve! | Ana was studying all evening — and she learned everything!
-- Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute. | I was eating soup for half an hour, while my brother finished his soup in two minutes.
-- Mama je pila kavu polako, a tata je popio kavu odmah. | Mum drank her coffee slowly, while Dad drank his up right away.
-- Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan. | I was reading a book all week, while my sister read her book through in one day.
-- Razlika je mala, ali važna: jedan glagol traje, a drugi završava posao! | The difference is small, but important: one verb lasts, and the other finishes the job!
+info: Ein kurzer Text, der auf Paaren aufgebaut ist: In jedem Satz lässt sich eine Person Zeit, und eine andere wird fertig. Die Erzählerin ist eine Frau (*jela sam, čitala sam*), und die Endungen von *učila, naučila, pila, popio* zeigen, wer was gemacht hat.
+infokratko: Jeder Satz: Ein Zwilling lässt sich Zeit, der andere wird fertig.
+opis: Eine Familie, ein Tisch und zwei Arten von Verben. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *dolaze u parovima* (kommen in Paaren), *razlika* (Unterschied), *važna* (wichtig), *traje* (dauert), *završava posao* (beendet die Arbeit).
+- Hrvatski glagoli dolaze u parovima. | Kroatische Verben kommen in Paaren.
+- Ana je učila cijelu večer — i naučila je sve! | Ana hat den ganzen Abend gelernt – und sie kann jetzt alles!
+- Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute. | Ich habe eine halbe Stunde an meiner Suppe gegessen, mein Bruder hat seine in zwei Minuten aufgegessen.
+- Mama je pila kavu polako, a tata je popio kavu odmah. | Mama hat ihren Kaffee langsam getrunken, Papa hat seinen sofort ausgetrunken.
+- Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan. | Ich habe die ganze Woche an einem Buch gelesen, meine Schwester hat ihres an einem Tag durchgelesen.
+- Razlika je mala, ali važna: jedan glagol traje, a drugi završava posao! | Der Unterschied ist klein, aber wichtig: Ein Verb dauert, und das andere beendet die Arbeit!
 
-## Who did it how?
+## Wer hat es wie gemacht?
 format: parovi
-info: Each person from Text 2 beside what they did. Some took their time (*pila kavu polako, jela juhu pola sata*) and some finished quickly (*pojeo juhu za dvije minute, popio kavu odmah*). The ending of the participle matches the person.
-infokratko: Taking time: *pila polako*. Finished fast: *pojeo za dvije minute*.
-opis: Who did it how? Match from the text.
+info: Jede Person aus Text 2 neben dem, was sie gemacht hat. Manche haben sich Zeit gelassen (*pila kavu polako, jela juhu pola sata*), und manche sind schnell fertig geworden (*pojeo juhu za dvije minute, popio kavu odmah*). Die Partizipendung passt zur Person.
+infokratko: Zeit gelassen: *pila polako*. Schnell fertig: *pojeo za dvije minute*.
+opis: Wer hat es wie gemacht? Ordne nach dem Text zu.
 - Ana | učila i naučila sve
 - brat | pojeo juhu za dvije minute
 - tata | popio kavu odmah
@@ -75,11 +75,11 @@ opis: Who did it how? Match from the text.
 - mama | pila kavu polako
 - ja | čitala knjigu cijeli tjedan
 
-## Type the right twin
+## Schreib den richtigen Zwilling
 format: upis
-info: Copy the right twin back into its line. The bracket gives the infinitive of the twin you need; the time words in the sentence confirm it — *cijelu večer, polako, cijeli tjedan* for the imperfective, *odmah, za dvije minute, za jedan dan* for the perfective.
-infokratko: *cijelu večer, polako* → imperfective; *odmah, za dvije minute* → perfective.
-opis: Fill in the right twin from the text.
+info: Schreib den richtigen Zwilling zurück in seine Zeile. Die Klammer gibt den Infinitiv des Zwillings an, den du brauchst; die Zeitwörter im Satz bestätigen es – *cijelu večer, polako, cijeli tjedan* für den Imperfektiv, *odmah, za dvije minute, za jedan dan* für den Perfektiv.
+infokratko: *cijelu večer, polako* → Imperfektiv; *odmah, za dvije minute* → Perfektiv.
+opis: Setz den richtigen Zwilling aus dem Text ein.
 tekst: Ana je učila cijelu večer — i naučila je sve! Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute. Mama je pila kavu polako, a tata je popio kavu odmah. Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan.
 - Ana je ___ cijelu večer. (učiti) | učila
 - I ___ je sve! (naučiti) | naučila
@@ -90,28 +90,28 @@ tekst: Ana je učila cijelu večer — i naučila je sve! Ja sam jela juhu pola 
 - Sestra je ___ knjigu za jedan dan. (pročitati) | pročitala
 - Ja sam ___ knjigu cijeli tjedan. (čitati) | čitala
 
-## Text 3: Did you finish your homework?
+## Text 3: Hast du deine Hausaufgaben fertig?
 format: tekst
-info: A mother questions Marko about his homework, and every answer depends on the twin. *Pisao sam* means he was at it; *napisao sam pola* means half is done. The last line is a perfective in the present for something he always does to the end: *pogledaš do kraja*.
-infokratko: *Pisao sam* — at it. *Napisao sam pola* — half done. *Pogledaš do kraja* — always to the end.
-opis: A mother, a son and a very long evening. Tap **EN** to see any line in English.
-- Passive words: *završio* (finished), *Koliko?* (How much?), *do kraja* (to the end).
-- — Marko, jesi li napisao zadaću? | — Marko, have you finished your homework?
-- — Pisao sam zadaću cijelu večer... | — I was writing my homework all evening...
-- — Ali jesi li završio? | — But did you finish?
-- — Skoro! Napisao sam pola. | — Almost! I've written half.
-- — A lektira? Jesi li pročitao knjigu? | — And the assigned reading? Did you read the book?
-- — Čitao sam... | — I was reading...
-- — Koliko? | — How much?
-- — Jednu stranicu. | — One page.
-- — Marko! A film za školu? Jesi li pogledao film? | — Marko! And the film for school? Did you watch the film?
-- — Film sam pogledao! Dva puta! | — The film I watched! Twice!
-- — Naravno... Filmove uvijek pogledaš do kraja! | — Of course... Films you always watch to the end!
+info: Eine Mutter befragt Marko zu seinen Hausaufgaben, und jede Antwort hängt vom Zwilling ab. *Pisao sam* heißt, dass er dran war; *napisao sam pola* heißt, dass die Hälfte fertig ist. Die letzte Zeile ist ein Perfektiv im Präsens für etwas, das er immer bis zum Ende macht: *pogledaš do kraja*.
+infokratko: *Pisao sam* – dran gewesen. *Napisao sam pola* – halb fertig. *Pogledaš do kraja* – immer bis zum Ende.
+opis: Eine Mutter, ein Sohn und ein sehr langer Abend. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *završio* (beendet), *Koliko?* (Wie viel?), *do kraja* (bis zum Ende).
+- — Marko, jesi li napisao zadaću? | — Marko, hast du deine Hausaufgaben fertig?
+- — Pisao sam zadaću cijelu večer... | — Ich habe den ganzen Abend an den Hausaufgaben geschrieben ...
+- — Ali jesi li završio? | — Aber bist du fertig geworden?
+- — Skoro! Napisao sam pola. | — Fast! Die Hälfte habe ich geschrieben.
+- — A lektira? Jesi li pročitao knjigu? | — Und die Pflichtlektüre? Hast du das Buch durchgelesen?
+- — Čitao sam... | — Ich habe gelesen ...
+- — Koliko? | — Wie viel?
+- — Jednu stranicu. | — Eine Seite.
+- — Marko! A film za školu? Jesi li pogledao film? | — Marko! Und der Film für die Schule? Hast du den Film angeschaut?
+- — Film sam pogledao! Dva puta! | — Den Film habe ich angeschaut! Zweimal!
+- — Naravno... Filmove uvijek pogledaš do kraja! | — Natürlich ... Filme schaust du immer bis zum Ende!
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against the interrogation. The twins carry the facts: *pisao sam* and *čitao sam* mean the work is not finished, *napisao sam pola* means half is done, and *pogledao sam* means the film was watched to the end — twice.
-infokratko: *pisao, čitao* → not finished. *napisao pola* → half. *pogledao* → the whole film.
+info: Prüf jede Aussage am Verhör. Die Zwillinge tragen die Fakten: *pisao sam* und *čitao sam* heißen, dass die Arbeit nicht fertig ist, *napisao sam pola* heißt, dass die Hälfte fertig ist, und *pogledao sam* heißt, dass der Film bis zum Ende angeschaut wurde – zweimal.
+infokratko: *pisao, čitao* → nicht fertig. *napisao pola* → die Hälfte. *pogledao* → der ganze Film.
 opis: Tippe auf richtig oder falsch.
 tekst: — Marko, jesi li napisao zadaću? — Pisao sam zadaću cijelu večer... — Ali jesi li završio? — Skoro! Napisao sam pola. — A lektira? Jesi li pročitao knjigu? — Čitao sam... jednu stranicu. — A film za školu? — Film sam pogledao! Dva puta!
 - Marko je napisao cijelu zadaću. | FALSCH | RICHTIG
@@ -121,11 +121,11 @@ tekst: — Marko, jesi li napisao zadaću? — Pisao sam zadaću cijelu večer..
 - Film je pogledao dva puta. | RICHTIG | FALSCH
 - Marko je pisao zadaću cijelu večer. | RICHTIG | FALSCH
 
-## What does it really mean?
+## Was bedeutet es wirklich?
 format: izbor
-info: What each answer really says. The imperfective (*pisao sam, čitao sam*) describes the activity and says nothing about finishing it. The perfective (*napisao sam pola, pogledao sam*) states a finished result — here, half of the homework and the whole film.
-infokratko: *pisao, čitao* → the activity, not finished. *napisao pola, pogledao* → a finished result.
-opis: The aspect tells the story — what does each answer really mean?
+info: Was jede Antwort wirklich sagt. Der Imperfektiv (*pisao sam, čitao sam*) beschreibt die Tätigkeit und sagt nichts darüber, ob sie fertig ist. Der Perfektiv (*napisao sam pola, pogledao sam*) nennt ein fertiges Ergebnis – hier die Hälfte der Hausaufgaben und den ganzen Film.
+infokratko: *pisao, čitao* → die Tätigkeit, nicht fertig. *napisao pola, pogledao* → ein fertiges Ergebnis.
+opis: Der Aspekt erzählt die Geschichte – was bedeutet jede Antwort wirklich?
 - "Pisao sam zadaću cijelu večer..." znači: | radio je, ali nije gotovo | sve je gotovo | nije ništa radio
 - "Napisao sam pola." znači: | pola je gotovo | sve je gotovo | piše upravo sada
 - "Film sam pogledao!" znači: | gledao je film do kraja | gleda film sada | nije gledao film
@@ -133,26 +133,26 @@ opis: The aspect tells the story — what does each answer really mean?
 - "Napokon je napisao pismo!" znači: | pismo je gotovo | piše pismo sada | nije počeo pisati
 - "Baka je čitala pismo polako." znači: | čitala ga je dugo | pročitala ga je za minutu | nije ga čitala
 
-## Text 4: Saturday's list
+## Text 4: Die Samstagsliste
 format: tekst
-info: A real to-do list on the fridge, and Mum's note at the bottom. Each task is a perfective infinitive — the job has to be finished: *oprati auto, skuhati ručak, poslati e-mail*. A tick means done, a cross means not done yet.
-infokratko: A real list: *oprati, skuhati, poslati*. ✓ = done, ✗ = not done.
-opis: Marko's list for Saturday, with ticks. Tap **EN** to see any line in English.
-- Passive words: *popis* (list), *zalijevao* (watered), *nije još* (not yet), *Bravo, ali…* (Well done, but…).
+info: Eine echte To-do-Liste am Kühlschrank und Mamas Notiz darunter. Jede Aufgabe ist ein perfektiver Infinitiv – die Arbeit muss fertig werden: *oprati auto, skuhati ručak, poslati e-mail*. Ein Haken heißt erledigt, ein Kreuz heißt noch nicht erledigt.
+infokratko: Eine echte Liste: *oprati, skuhati, poslati*. ✓ = erledigt, ✗ = nicht erledigt.
+opis: Markos Liste für Samstag, mit Haken. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *popis* (Liste), *zalijevao* (goss), *nije još* (noch nicht), *Bravo, ali…* (Gut gemacht, aber …).
 - SUBOTA — POPIS ZA MARKA | SATURDAY — MARKO'S LIST
-- ✓ oprati auto | ✓ wash the car
-- ✓ skuhati ručak | ✓ cook lunch
-- ✗ poslati e-mail baki | ✗ send Grandma an e-mail
-- ✓ kupiti kruh i mlijeko | ✓ buy bread and milk
-- ✗ napisati zadaću | ✗ write the homework
-- ✓ pročitati deset stranica lektire | ✓ read ten pages of the book
-- Mama: "Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!" | Mum: "Well done, you washed the car and cooked lunch. But you haven't written your homework, and Grandma is still waiting for the e-mail!"
+- ✓ oprati auto | ✓ Auto waschen
+- ✓ skuhati ručak | ✓ Mittagessen kochen
+- ✗ poslati e-mail baki | ✗ Oma eine E-Mail schicken
+- ✓ kupiti kruh i mlijeko | ✓ Brot und Milch kaufen
+- ✗ napisati zadaću | ✗ Hausaufgaben schreiben
+- ✓ pročitati deset stranica lektire | ✓ zehn Seiten der Pflichtlektüre lesen
+- Mama: "Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!" | Mama: „Gut gemacht, du hast das Auto gewaschen und das Mittagessen gekocht. Aber die Hausaufgaben hast du nicht geschrieben, und Oma wartet immer noch auf die E-Mail!“
 
-## What did Marko do?
+## Was hat Marko gemacht?
 format: izbor
-info: Reading the list for what is finished. A tick means the perfective happened — *oprao je auto* — and a cross means it did not: *nije napisao zadaću*. Mum's note at the bottom confirms the two tasks that are still open.
-infokratko: ✓ → *oprao je*. ✗ → *nije napisao*. Mum's note confirms it.
-opis: Answer from the list.
+info: Die Liste danach lesen, was fertig ist. Ein Haken heißt, dass der Perfektiv passiert ist – *oprao je auto* –, und ein Kreuz, dass er nicht passiert ist: *nije napisao zadaću*. Mamas Notiz unten bestätigt die zwei Aufgaben, die noch offen sind.
+infokratko: ✓ → *oprao je*. ✗ → *nije napisao*. Mamas Notiz bestätigt es.
+opis: Antworte anhand der Liste.
 tekst: SUBOTA — POPIS ZA MARKA. ✓ oprati auto. ✓ skuhati ručak. ✗ poslati e-mail baki. ✓ kupiti kruh i mlijeko. ✗ napisati zadaću. ✓ pročitati deset stranica lektire. Mama: "Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!"
 - Je li Marko oprao auto? | da, oprao je auto | ne, nije ga oprao | prao ga je, ali nije gotov
 - Što je Marko skuhao? | ručak | juhu za baku | kavu
@@ -161,26 +161,26 @@ tekst: SUBOTA — POPIS ZA MARKA. ✓ oprati auto. ✓ skuhati ručak. ✗ posla
 - Što je Marko kupio? | kruh i mlijeko | marku | knjigu
 - Koliko stranica je pročitao? | deset | jednu | cijelu knjigu
 
-## Text 5: Who finished what?
+## Text 5: Wer hat was erledigt?
 format: tekst
-info: A puzzle rather than a story. Four friends each finished one job on Saturday, and every clue rules something out. Petra's clues decide her job first; after that, one more clue about Ana is enough.
-infokratko: Every clue rules something out. Start with Petra.
-opis: Four friends, four finished jobs, no labels. Read it twice before you answer.
-- Passive words: *svatko* (each one), *jedan posao* (one job), *ne zna kuhati* (can't cook).
-- U subotu su Ana, Marko, Petra i Ivan radili doma. | On Saturday Ana, Marko, Petra and Ivan were working at home.
-- Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto. | Each finished one job: someone wrote a letter, someone read a book, someone cooked soup and someone washed the car.
-- Ana nije ni kuhala ni prala. | Ana neither cooked nor washed.
-- Marko je cijeli dan čitao, ali knjigu nije pročitao. | Marko was reading all day, but he didn't finish the book.
-- Ivan nije napisao pismo i nije oprao auto. | Ivan didn't write the letter and didn't wash the car.
-- Petra ne zna kuhati i nije ni pisala ni čitala. | Petra can't cook, and she neither wrote nor read.
-- Ana nije pročitala knjigu. | Ana didn't finish the book.
-- Tko je što napravio? | Who did what?
+info: Eher ein Rätsel als eine Geschichte. Vier Freunde haben am Samstag jeweils eine Arbeit erledigt, und jeder Hinweis schließt etwas aus. Petras Hinweise entscheiden zuerst ihre Arbeit; danach reicht ein weiterer Hinweis über Ana.
+infokratko: Jeder Hinweis schließt etwas aus. Fang mit Petra an.
+opis: Vier Freunde, vier erledigte Arbeiten, keine Etiketten. Lies den Text zweimal, bevor du antwortest.
+- Passive Wörter: *svatko* (jeder), *jedan posao* (eine Arbeit), *ne zna kuhati* (kann nicht kochen).
+- U subotu su Ana, Marko, Petra i Ivan radili doma. | Am Samstag haben Ana, Marko, Petra und Ivan zu Hause gearbeitet.
+- Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto. | Jeder hat eine Arbeit erledigt: Jemand hat einen Brief geschrieben, jemand ein Buch durchgelesen, jemand Suppe gekocht, und jemand hat das Auto gewaschen.
+- Ana nije ni kuhala ni prala. | Ana hat weder gekocht noch gewaschen.
+- Marko je cijeli dan čitao, ali knjigu nije pročitao. | Marko hat den ganzen Tag gelesen, aber das Buch nicht fertig gelesen.
+- Ivan nije napisao pismo i nije oprao auto. | Ivan hat den Brief nicht geschrieben und das Auto nicht gewaschen.
+- Petra ne zna kuhati i nije ni pisala ni čitala. | Petra kann nicht kochen, und sie hat weder geschrieben noch gelesen.
+- Ana nije pročitala knjigu. | Ana hat das Buch nicht durchgelesen.
+- Tko je što napravio? | Wer hat was erledigt?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the clues. Petra did not cook, write or read, so she washed the car. Ana did not cook or finish the book, so she wrote the letter. Marko did not finish the book, so he cooked the soup, and Ivan read the book.
-infokratko: Petra first (the car), then Ana (the letter), Marko (the soup), Ivan (the book).
-opis: Nobody says who did what. Work it out from the text.
+info: Schlussfolgern aus den Hinweisen. Petra hat weder gekocht noch geschrieben noch gelesen, also hat sie das Auto gewaschen. Ana hat nicht gekocht und das Buch nicht durchgelesen, also hat sie den Brief geschrieben. Marko hat das Buch nicht durchgelesen, also hat er die Suppe gekocht, und Ivan hat das Buch gelesen.
+infokratko: Zuerst Petra (das Auto), dann Ana (der Brief), Marko (die Suppe), Ivan (das Buch).
+opis: Niemand sagt, wer was getan hat. Finde es aus dem Text heraus.
 tekst: Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto. Ana nije ni kuhala ni prala. Marko je cijeli dan čitao, ali knjigu nije pročitao. Ivan nije napisao pismo i nije oprao auto. Petra ne zna kuhati i nije ni pisala ni čitala. Ana nije pročitala knjigu.
 - Tko je oprao auto? | Petra | Ana | Ivan
 - Tko je napisao pismo? | Ana | Marko | Petra
@@ -189,34 +189,34 @@ tekst: Svatko je završio jedan posao: netko je napisao pismo, netko je pročita
 - Što je Marko radio cijeli dan? | čitao je | kuhao je | prao je auto
 - Zašto Petra nije skuhala juhu? | jer ne zna kuhati | jer je čitala | jer je pisala pismo
 
-## Tap the prefix from the texts
+## Tippe die Vorsilbe aus den Texten
 format: nastavak
 nastavci: na | po | pro | -
-info: One tap in front of the verb decides the twin, and almost every sentence comes from the five texts. Add *na-, po-* or *pro-* for one finished action (*napokon, odmah, za jedan dan, dva puta*); leave it out, with the dash, for an action that went on (*cijelo poslijepodne, polako, cijeli tjedan*).
-infokratko: finished once → *na- / po- / pro-*; going on → dash.
-opis: Almost every sentence came out of the five texts. One tap adds a prefix — or none.
-- Marko je ___pisao pismo cijelo poslijepodne. | Marko was writing a letter all afternoon. | -
-- Napokon je ___pisao pismo! | Finally he finished writing the letter! | na
-- Usput je ___pio tri kave. | Along the way he drank three coffees. | po
-- Baka je ___čitala pismo polako. | Grandma read the letter slowly. | -
-- Pismo je ___čitala dva puta. | She read the letter through twice. | pro
-- Ana je ___učila sve! | Ana learned everything! | na
-- Mama je ___pila kavu polako. | Mum drank her coffee slowly. | -
-- Tata je ___pio kavu odmah. | Dad drank up his coffee right away. | po
-- Brat je ___jeo juhu za dvije minute. | My brother ate up his soup in two minutes. | po
-- Sestra je ___čitala knjigu za jedan dan. | My sister read the book in one day. | pro
-- Ja sam ___čitala knjigu cijeli tjedan. | I was reading a book all week. | -
-- Skoro! Pola sam ___pisao. | Almost! I've written half. | na
-- Film sam ___gledao! Dva puta! | I watched the film! Twice! | po
-- Pisao sam zadaću cijelu večer, ali je nisam ___pisao. | I was writing my homework all evening, but I didn't finish it. | na
-- Marko je cijeli dan ___čitao. | Marko was reading all day. | -
-- Ivan je ___čitao knjigu. | Ivan finished reading the book. | pro
+info: Ein Tippen vor dem Verb entscheidet den Zwilling, und fast jeder Satz stammt aus den fünf Texten. Füg *na-, po-* oder *pro-* für eine abgeschlossene Handlung hinzu (*napokon, odmah, za jedan dan, dva puta*); lass sie weg, mit dem Strich, für eine Handlung, die lief (*cijelo poslijepodne, polako, cijeli tjedan*).
+infokratko: einmal abgeschlossen → *na- / po- / pro-*; lief → Strich.
+opis: Fast jeder Satz stammt aus den fünf Texten. Ein Tippen fügt eine Vorsilbe hinzu – oder keine.
+- Marko je ___pisao pismo cijelo poslijepodne. | Marko hat den ganzen Nachmittag an einem Brief geschrieben. | -
+- Napokon je ___pisao pismo! | Endlich hat er den Brief fertig geschrieben! | na
+- Usput je ___pio tri kave. | Nebenbei hat er drei Kaffee getrunken. | po
+- Baka je ___čitala pismo polako. | Oma las den Brief langsam. | -
+- Pismo je ___čitala dva puta. | Sie hat den Brief zweimal durchgelesen. | pro
+- Ana je ___učila sve! | Ana kann jetzt alles! | na
+- Mama je ___pila kavu polako. | Mama hat ihren Kaffee langsam getrunken. | -
+- Tata je ___pio kavu odmah. | Papa hat seinen Kaffee sofort ausgetrunken. | po
+- Brat je ___jeo juhu za dvije minute. | Mein Bruder hat seine Suppe in zwei Minuten aufgegessen. | po
+- Sestra je ___čitala knjigu za jedan dan. | Meine Schwester hat das Buch an einem Tag durchgelesen. | pro
+- Ja sam ___čitala knjigu cijeli tjedan. | Ich habe die ganze Woche an einem Buch gelesen. | -
+- Skoro! Pola sam ___pisao. | Fast! Die Hälfte habe ich geschrieben. | na
+- Film sam ___gledao! Dva puta! | Ich habe den Film angeschaut! Zweimal! | po
+- Pisao sam zadaću cijelu večer, ali je nisam ___pisao. | Ich habe den ganzen Abend an den Hausaufgaben geschrieben, bin aber nicht fertig geworden. | na
+- Marko je cijeli dan ___čitao. | Marko hat den ganzen Tag gelesen. | -
+- Ivan je ___čitao knjigu. | Ivan hat das Buch durchgelesen. | pro
 
-## Now YOU explain
+## Jetzt erklärst DU
 format: dijalog
-info: Your turn: the teacher asks about your homework and the book, and your answers depend on the twin — finished (*napisao / napisala sam*) or still going (*pisao / pisala sam*). The teacher reacts to what you say and does not assume your gender.
-infokratko: Finished: *napisao / napisala sam*. Still going: *pisao / pisala sam*. The teacher reacts.
-opis: Monday morning, and the teacher is checking. Choose your replies. Passive words: *do srijede* (by Wednesday), *vidjet ćemo* (we'll see), *u redu* (all right), *pokaži mi* (show me), *O čemu je…?* (What is … about?).
+info: Du bist dran: Die Lehrerin fragt nach deinen Hausaufgaben und dem Buch, und deine Antworten hängen vom Zwilling ab – fertig (*napisao / napisala sam*) oder noch dran (*pisao / pisala sam*). Die Lehrerin reagiert auf das, was du sagst, und setzt kein Geschlecht voraus.
+infokratko: Fertig: *napisao / napisala sam*. Noch dran: *pisao / pisala sam*. Die Lehrerin reagiert.
+opis: Montagmorgen, und die Lehrerin kontrolliert. Wähle deine Antworten. Passive Wörter: *do srijede* (bis Mittwoch), *vidjet ćemo* (wir werden sehen), *u redu* (in Ordnung), *pokaži mi* (zeig mir), *O čemu je…?* (Worum geht es in …?).
 - npc | Dobro jutro! Je li zadaća gotova?
 - ti | Da, napisao sam zadaću. | Da, napisala sam zadaću. | Pisao sam, ali nisam gotov. | Pisala sam, ali nisam gotova.
 - npc | Gotova ili ne — pokaži mi bilježnicu. A lektira?
@@ -231,40 +231,40 @@ opis: Monday morning, and the teacher is checking. Choose your replies. Passive 
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the five texts. The imperfective goes with *cijelo poslijepodne, polako, cijeli tjedan*; the perfective with *napokon, odmah, za dvije minute, dva puta*. *Je, sam* take the second place.
-infokratko: imperfective with *cijelo…, polako*; perfective with *napokon, odmah, za…*.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
-- Marko je pisao pismo cijelo poslijepodne. | en: Marko was writing a letter all afternoon.
-- Napokon je napisao pismo! | en: Finally he finished writing the letter!
-- Usput je popio tri kave. | en: Along the way he drank three coffees.
-- Baka je pročitala pismo dva puta. | en: Grandma read the letter through twice.
-- Ana je učila cijelu večer i naučila je sve. | en: Ana was studying all evening and she learned everything.
-- Mama je pila kavu polako, a tata je popio kavu odmah. | en: Mum drank her coffee slowly, and Dad drank his up right away.
-- Brat je pojeo juhu za dvije minute. | en: My brother ate up his soup in two minutes.
-- Jesi li napisao zadaću? | en: Have you finished your homework? (to a boy)
-- Pisao sam zadaću cijelu večer. | en: I was writing my homework all evening. (a boy)
-- Skoro! Napisao sam pola. | en: Almost! I've written half.
-- Film sam pogledao dva puta! | en: I watched the film twice!
-- Auto si oprao i ručak si skuhao. | en: You washed the car and cooked lunch.
-- Zadaću nisi napisao. | en: You haven't written your homework.
-- Petra je oprala auto. | en: Petra washed the car.
-- Marko je cijeli dan čitao. | en: Marko was reading all day.
-- Ivan je pročitao knjigu. | en: Ivan read the book.
+info: Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten. Der Imperfektiv gehört zu *cijelo poslijepodne, polako, cijeli tjedan*; der Perfektiv zu *napokon, odmah, za dvije minute, dva puta*. *Je, sam* nehmen die zweite Stelle ein.
+infokratko: Imperfektiv mit *cijelo…, polako*; Perfektiv mit *napokon, odmah, za…*.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den fünf Texten.
+- Marko je pisao pismo cijelo poslijepodne. | en: Marko hat den ganzen Nachmittag an einem Brief geschrieben.
+- Napokon je napisao pismo! | en: Endlich hat er den Brief fertig geschrieben!
+- Usput je popio tri kave. | en: Nebenbei hat er drei Kaffee getrunken.
+- Baka je pročitala pismo dva puta. | en: Oma hat den Brief zweimal durchgelesen.
+- Ana je učila cijelu večer i naučila je sve. | en: Ana hat den ganzen Abend gelernt, und sie kann jetzt alles.
+- Mama je pila kavu polako, a tata je popio kavu odmah. | en: Mama hat ihren Kaffee langsam getrunken, und Papa hat seinen sofort ausgetrunken.
+- Brat je pojeo juhu za dvije minute. | en: Mein Bruder hat seine Suppe in zwei Minuten aufgegessen.
+- Jesi li napisao zadaću? | en: Hast du deine Hausaufgaben fertig? (zu einem Jungen)
+- Pisao sam zadaću cijelu večer. | en: Ich habe den ganzen Abend an den Hausaufgaben geschrieben. (ein Junge)
+- Skoro! Napisao sam pola. | en: Fast! Die Hälfte habe ich geschrieben.
+- Film sam pogledao dva puta! | en: Ich habe den Film zweimal angeschaut!
+- Auto si oprao i ručak si skuhao. | en: Du hast das Auto gewaschen und das Mittagessen gekocht.
+- Zadaću nisi napisao. | en: Die Hausaufgaben hast du nicht geschrieben.
+- Petra je oprala auto. | en: Petra hat das Auto gewaschen.
+- Marko je cijeli dan čitao. | en: Marko hat den ganzen Tag gelesen.
+- Ivan je pročitao knjigu. | en: Ivan hat das Buch durchgelesen.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over the things from the five texts. Everything is in its naming form; say a finished action with it in your head as you tap — *napisao pismo, popio kavu, pojeo čokoladu, oprao auto*.
-infokratko: Naming forms. Think *napisao pismo, popio kavu*.
-opis: The post office is closing! A picture appears — tap the balloon with its word before it floats away.
+info: Ein zeitgebundenes Bild-zu-Wort-Tippen mit den Dingen aus den fünf Texten. Alles steht in der Grundform; sag beim Tippen im Kopf eine abgeschlossene Handlung damit – *napisao pismo, popio kavu, pojeo čokoladu, oprao auto*.
+infokratko: Grundformen. Denk *napisao pismo, popio kavu*.
+opis: Die Post schließt gleich! Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
 - pismo | Brief
-- marka | stamp
-- pošta | post office
+- marka | Briefmarke
+- pošta | Post, Postamt
 - knjiga | Buch
-- olovka | pencil
+- olovka | Bleistift
 - kava | Kaffee
 - čokolada | Schokolade
-- juha | soup
+- juha | Suppe
 - auto | Auto
 - kolač | Torte
 - film | Film
-- sat | clock
+- sat | Uhr

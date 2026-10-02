@@ -1,29 +1,29 @@
-# Possessive Pronouns
+# Possessivpronomen
 cjelina: Grammar 9
 
-## The rule: the ending comes from the thing owned
+## Die Regel: Die Endung kommt von der besessenen Sache
 format: tekst
-info: The reference page for all seven possessives. Each one has the same three endings as an adjective, and the ending is chosen by the **noun that follows it**, not by the owner: *njegova gitara* because *gitara* is feminine, *njezin dres* because *dres* is masculine.
-infokratko: Seven possessives, adjective endings, chosen by the **thing owned**: *njegova gitara*, *njezin dres*.
-- A possessive takes the same endings as an adjective: it stands in front of a noun and matches that noun's gender.
-- **The whole set, in three forms.**
-- tab: Owner | m. (dres) | f. (lopta) | n. (koljeno)
-- tab: my | moj | moja | moje
-- tab: your (one person) | tvoj | tvoja | tvoje
-- tab: his | njegov | njegova | njegovo
-- tab: her | njezin | njezina | njezino
-- tab: our | naš | naša | naše
-- tab: your (plural, polite) | vaš | vaša | vaše
-- tab: their | njihov | njihova | njihovo
-- **The ending is chosen by the noun, not by the owner.** *Marko i **njegova** gitara* — *gitara* is feminine, so the ending is **-a**, although Marko is a man. ***Njezin** dres* — *dres* is masculine, so there is no ending, although the owner is a woman. For English speakers this is the one place to slow down.
-- **The neuter ending is -o or -e.** After a hard consonant it is **-o**: *njegov**o** koljeno*, *njezin**o** srce*, *njihov**o** more*. After **j** and **š** it is **-e**: *moj**e** koljeno*, *tvoj**e** srce*, *naš**e** more*, *vaš**e** tijelo*.
-- **Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
+info: Die Referenzseite für alle sieben Possessivpronomen. Jedes hat dieselben drei Endungen wie ein Adjektiv, und die Endung wird vom **Nomen, das folgt**, gewählt, nicht vom Besitzer: *njegova gitara*, weil *gitara* feminin ist, *njezin dres*, weil *dres* maskulin ist.
+infokratko: Sieben Possessivpronomen, Adjektivendungen, gewählt von der **besessenen Sache**: *njegova gitara*, *njezin dres*.
+- Ein Possessivpronomen nimmt dieselben Endungen wie ein Adjektiv: Es steht vor einem Nomen und passt sich dessen Genus an.
+- **Der ganze Satz, in drei Formen.**
+- tab: Besitzer | m. (dres) | f. (lopta) | n. (koljeno)
+- tab: mein | moj | moja | moje
+- tab: dein | tvoj | tvoja | tvoje
+- tab: sein | njegov | njegova | njegovo
+- tab: ihr (von ihr) | njezin | njezina | njezino
+- tab: unser | naš | naša | naše
+- tab: euer, Ihr | vaš | vaša | vaše
+- tab: ihr (von ihnen) | njihov | njihova | njihovo
+- **Die Endung wird vom Nomen gewählt, nicht vom Besitzer.** *Marko i **njegova** gitara* – *gitara* ist feminin, also ist die Endung **-a**, obwohl Marko ein Mann ist. ***Njezin** dres* – *dres* ist maskulin, also gibt es keine Endung, obwohl die Besitzerin eine Frau ist. Das funktioniert wie im Deutschen (*seine Gitarre, ihr Trikot*) – nur musst du das kroatische Genus nehmen, nicht das deutsche.
+- **Die neutrale Endung ist -o oder -e.** Nach einem harten Konsonanten ist sie **-o**: *njegov**o** koljeno*, *njezin**o** srce*, *njihov**o** more*. Nach **j** und **š** ist sie **-e**: *moj**e** koljeno*, *tvoj**e** srce*, *naš**e** more*, *vaš**e** tijelo*.
+- **Jetzt schreibst du.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
 
-## Sort by the gender of the thing owned
+## Nach dem Genus der besessenen Sache sortieren
 format: razvrstavanje
-info: Sorting by the noun alone. A consonant at the end of the noun gives the bare form (*moj klub*), **-a** gives **moja**, **-o** or **-e** gives **moje**. Note *momčad*: it ends in a consonant but is feminine, so it takes *moja*.
-infokratko: By the noun: consonant *moj*, **-a** *moja*, **-o/-e** *moje*. *momčad* is feminine: *moja*.
-opis: Which form of *moj* does each noun take? Read the last letter of the noun. One word here ends in a consonant and is still feminine — *momčad*.
+info: Sortieren allein nach dem Nomen. Ein Konsonant am Ende des Nomens ergibt die Grundform (*moj klub*), **-a** ergibt **moja**, **-o** oder **-e** ergibt **moje**. Beachte *momčad*: Es endet auf einen Konsonanten, ist aber feminin, nimmt also *moja*.
+infokratko: Nach dem Nomen: Konsonant *moj*, **-a** *moja*, **-o/-e** *moje*. *momčad* ist feminin: *moja*.
+opis: Welche Form von *moj* nimmt jedes Nomen? Lies den letzten Buchstaben des Nomens. Ein Wort hier endet auf einen Konsonanten und ist trotzdem feminin – *momčad*.
 stupci: MOJ | MOJA | MOJE
 - dres | MOJ
 - klub | MOJ
@@ -46,88 +46,88 @@ stupci: MOJ | MOJA | MOJE
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap completes the possessive. The base is given; a masculine noun takes no ending, a feminine noun takes **-a**, and a neuter noun takes **-o** after a hard consonant (*njegovo*, *njezino*, *njihovo*) or **-e** after *j* and *š* (*moje*, *tvoje*, *naše*, *vaše*).
-infokratko: m nothing, f **-a**, n **-o** (*njegovo*) or **-e** after *j/š* (*moje, naše*).
+info: Ein Tipp vervollständigt das Possessivpronomen. Der Stamm ist vorgegeben; ein maskulines Nomen nimmt keine Endung, ein feminines **-a**, und ein neutrales **-o** nach einem harten Konsonanten (*njegovo*, *njezino*, *njihovo*) oder **-e** nach *j* und *š* (*moje*, *tvoje*, *naše*, *vaše*).
+infokratko: m nichts, f **-a**, n **-o** (*njegovo*) oder **-e** nach *j/š* (*moje, naše*).
 nastavci: - | a | e | o
-opis: English above, Croatian below. One tap completes the possessive. Read the Croatian noun, not the English.
-- Moj___ dres je plav. | My jersey is blue. | -
-- Moj___ lopta je crvena. | My ball is red. | a
-- Moj___ koljeno boli. | My knee hurts. | e
-- Tvoj___ klub je star. | Your club is old. | -
-- Tvoj___ gitara je nova. | Your guitar is new. | a
-- Tvoj___ oko je crveno. | Your eye is red. | e
-- Naš___ trener je strog. | Our coach is strict. | -
-- Naš___ momčad je jaka. | Our team is strong. | a
-- Naš___ more je toplo. | Our sea is warm. | e
-- Vaš___ park je velik. | Your park is big. | -
-- Vaš___ obrana je dobra. | Your defence is good. | a
-- Vaš___ tijelo je umorno. | Your body is tired. | e
-- Njegov___ hobi je šah. | His hobby is chess. | -
-- Njegov___ sestra pjeva. | His sister sings. | a
-- Njegov___ srce je jako. | His heart is strong. | o
-- Njezin___ fotoaparat je star. | Her camera is old. | -
-- Njezin___ pozicija je golman. | Her position is goalkeeper. | a
-- Njezin___ koljeno boli. | Her knee hurts. | o
-- Njihov___ kapetan je brz. | Their captain is fast. | -
-- Njihov___ obrana je jaka. | Their defence is strong. | a
-- Njihov___ selo je malo. | Their village is small. | o
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp vervollständigt das Possessivpronomen. Lies das kroatische Nomen, nicht das Deutsche.
+- Moj___ dres je plav. | Mein Trikot ist blau. | -
+- Moj___ lopta je crvena. | Mein Ball ist rot. | a
+- Moj___ koljeno boli. | Mein Knie tut weh. | e
+- Tvoj___ klub je star. | Dein Verein ist alt. | -
+- Tvoj___ gitara je nova. | Deine Gitarre ist neu. | a
+- Tvoj___ oko je crveno. | Dein Auge ist rot. | e
+- Naš___ trener je strog. | Unser Trainer ist streng. | -
+- Naš___ momčad je jaka. | Unsere Mannschaft ist stark. | a
+- Naš___ more je toplo. | Unser Meer ist warm. | e
+- Vaš___ park je velik. | Dein Park ist groß. | -
+- Vaš___ obrana je dobra. | Eure Verteidigung ist gut. | a
+- Vaš___ tijelo je umorno. | Dein Körper ist müde. | e
+- Njegov___ hobi je šah. | Sein Hobby ist Schach. | -
+- Njegov___ sestra pjeva. | Seine Schwester singt. | a
+- Njegov___ srce je jako. | Sein Herz ist stark. | o
+- Njezin___ fotoaparat je star. | Ihre Kamera ist alt. | -
+- Njezin___ pozicija je golman. | Ihre Position ist Torwart. | a
+- Njezin___ koljeno boli. | Ihr Knie tut weh. | o
+- Njihov___ kapetan je brz. | Ihr Kapitän ist schnell. | -
+- Njihov___ obrana je jaka. | Ihre Verteidigung ist stark. | a
+- Njihov___ selo je malo. | Ihr Dorf ist klein. | o
 
 ## Wähle die Form
 format: izbor
-info: Choose the possessive that fits the noun beside it. The English hint names the owner, but the owner does not change the ending — *his guitar* and *her guitar* are both *gitara*, so both take **-a**: *njegova gitara*, *njezina gitara*.
-infokratko: The owner doesn't change the ending: *njegova gitara*, *njezina gitara*.
-opis: Choose the form that fits the noun. Cover the English and decide from the Croatian noun.
-- ___ lopta je crvena. (my) | moja | moj | moje
-- ___ klub je dobar. (our) | naš | naša | naše
-- ___ gitara je stara. (his) | njegova | njegov | njegovo
-- ___ dres je plav. (their) | njihov | njihova | njihovo
-- ___ koljeno boli. (my) | moje | moj | moja
-- ___ momčad je jaka. (our) | naša | naš | naše
-- ___ trener je strog. (their) | njihov | njihova | njihovo
-- ___ srce je veliko. (her) | njezino | njezin | njezina
-- ___ pozicija je golman. (his) | njegova | njegov | njegovo
-- ___ tijelo je umorno. (my) | moje | moj | moja
-- ___ obrana je brza. (your, plural) | vaša | vaš | vaše
-- ___ fotoaparat je nov. (your, one person) | tvoj | tvoja | tvoje
+info: Wähle das Possessivpronomen, das zum Nomen daneben passt. Der deutsche Hinweis nennt den Besitzer, aber der Besitzer ändert nicht die Endung – *seine Gitarre* und *ihre Gitarre* sind beide *gitara*, also nehmen beide **-a**: *njegova gitara*, *njezina gitara*.
+infokratko: Der Besitzer ändert die Endung nicht: *njegova gitara*, *njezina gitara*.
+opis: Wähle die Form, die zum Nomen passt. Deck das Deutsche ab und entscheide nach dem kroatischen Nomen.
+- ___ lopta je crvena. (mein) | moja | moj | moje
+- ___ klub je dobar. (unser) | naš | naša | naše
+- ___ gitara je stara. (sein) | njegova | njegov | njegovo
+- ___ dres je plav. (ihr – von ihnen) | njihov | njihova | njihovo
+- ___ koljeno boli. (mein) | moje | moj | moja
+- ___ momčad je jaka. (unser) | naša | naš | naše
+- ___ trener je strog. (ihr – von ihnen) | njihov | njihova | njihovo
+- ___ srce je veliko. (ihr – von ihr) | njezino | njezin | njezina
+- ___ pozicija je golman. (sein) | njegova | njegov | njegovo
+- ___ tijelo je umorno. (mein) | moje | moj | moja
+- ___ obrana je brza. (euer) | vaša | vaš | vaše
+- ___ fotoaparat je nov. (dein) | tvoj | tvoja | tvoje
 
-## Type the possessive
+## Tippe das Possessivpronomen
 format: upis
-info: Typed production. The bracket names the owner, the noun sets the ending. Build it in two steps: take the base from the bracket (*moj-, naš-, njegov-, njezin-, njihov-*), then add the ending that matches the noun.
-infokratko: Base from the bracket (*moj-, naš-, njegov-*...), ending from the noun.
-opis: Type the possessive. The bracket says who, the noun decides the ending.
-- ___ hobi je fotografija. (my) | Moj
-- ___ sestra svira gitaru. (my) | Moja
-- ___ koljeno boli. (my) | Moje
-- ___ klub trenira danas. (our) | Naš
-- ___ momčad pobjeđuje. (our) | Naša
-- ___ more je toplo. (our) | Naše
-- ___ dres je nov. (his) | Njegov
-- ___ pozicija je golman. (his) | Njegova
-- ___ srce je jako. (his) | Njegovo
-- ___ fotoaparat je star. (her) | Njezin
-- ___ gitara je nova. (her) | Njezina
-- ___ trener je pošten. (their) | Njihov
-- ___ obrana je brza. (their) | Njihova
-- ___ park je velik. (your, plural) | Vaš
+info: Getippte Produktion. Die Klammer nennt den Besitzer, das Nomen legt die Endung fest. Bau es in zwei Schritten: Nimm den Stamm aus der Klammer (*moj-, naš-, njegov-, njezin-, njihov-*), dann häng die Endung an, die zum Nomen passt.
+infokratko: Stamm aus der Klammer (*moj-, naš-, njegov-* …), Endung vom Nomen.
+opis: Tippe das Possessivpronomen. Die Klammer sagt wem, das Nomen entscheidet die Endung.
+- ___ hobi je fotografija. (mein) | Moj
+- ___ sestra svira gitaru. (mein) | Moja
+- ___ koljeno boli. (mein) | Moje
+- ___ klub trenira danas. (unser) | Naš
+- ___ momčad pobjeđuje. (unser) | Naša
+- ___ more je toplo. (unser) | Naše
+- ___ dres je nov. (sein) | Njegov
+- ___ pozicija je golman. (sein) | Njegova
+- ___ srce je jako. (sein) | Njegovo
+- ___ fotoaparat je star. (ihr – von ihr) | Njezin
+- ___ gitara je nova. (ihr – von ihr) | Njezina
+- ___ trener je pošten. (ihr – von ihnen) | Njihov
+- ___ obrana je brza. (ihr – von ihnen) | Njihova
+- ___ park je velik. (euer) | Vaš
 
-## The rule: more than one thing
+## Die Regel: mehr als eine Sache
 format: tekst
-info: The plural endings, and they are the same trio as in Lesson 7: **-i** for masculine, **-e** for feminine, **-a** for neuter. The owner still does not matter — *njihovi hobiji* has **-i** because *hobiji* is a masculine plural.
+info: Die Pluralendungen, und es ist dasselbe Trio wie in Lektion 7: **-i** für maskulin, **-e** für feminin, **-a** für neutral. Der Besitzer spielt weiterhin keine Rolle – *njihovi hobiji* hat **-i**, weil *hobiji* ein maskuliner Plural ist.
 infokratko: Plural: m **-i**, f **-e**, n **-a**. *njihovi hobiji*.
-- One thing or many, the rule is unchanged: the ending is chosen by the noun that follows.
-- tab: Plural noun | Ending | Example
-- tab: masculine | **-i** | moj**i** hobiji · naš**i** igrači
-- tab: feminine | **-e** | moj**e** lopte · njihov**e** pjesme
-- tab: neuter | **-a** | moj**a** koljena · naš**a** mora
-- **The same three endings as adjectives.** *Naši hobiji su različit**i**. Njihove pjesme su lijep**e**.* The possessive and the adjective take the same ending, because both of them match the noun.
-- **Watch the middle form.** *moje* is the neuter singular (*moje koljeno*) and also the feminine plural (*moje lopte*). The noun beside it shows which one is meant.
-- **Now you write them.** Ovo su [moji] hobiji. Ovo su [moje] lopte. Ovo su [moja] koljena.
+- Eine Sache oder viele, die Regel bleibt gleich: Die Endung wird vom folgenden Nomen gewählt.
+- tab: Nomen im Plural | Endung | Beispiel
+- tab: maskulin | **-i** | moj**i** hobiji · naš**i** igrači
+- tab: feminin | **-e** | moj**e** lopte · njihov**e** pjesme
+- tab: neutral | **-a** | moj**a** koljena · naš**a** mora
+- **Dieselben drei Endungen wie bei Adjektiven.** *Naši hobiji su različit**i**. Njihove pjesme su lijep**e**.* Possessivpronomen und Adjektiv nehmen dieselbe Endung, weil beide zum Nomen passen.
+- **Achte auf die mittlere Form.** *moje* ist das Neutrum Singular (*moje koljeno*) und auch das Femininum Plural (*moje lopte*). Das Nomen daneben zeigt, welches gemeint ist.
+- **Jetzt schreibst du.** Ovo su [moji] hobiji. Ovo su [moje] lopte. Ovo su [moja] koljena.
 
-## One or many?
+## Eins oder viele?
 format: razvrstavanje
-info: Sorting whole phrases by the form of the possessive. A masculine plural takes **-i**, a feminine plural **-e**, a neuter plural **-a**. Compare the columns with the singular you drilled above: *naše more* is one sea, *naša mora* several.
-infokratko: m pl **-i**, f pl **-e**, n pl **-a**: *naše more*, *naša mora*.
-opis: Sort each phrase by the ending on the possessive.
+info: Ganze Wendungen nach der Form des Possessivpronomens sortieren. Ein maskuliner Plural nimmt **-i**, ein femininer Plural **-e**, ein neutraler Plural **-a**. Vergleich die Spalten mit dem Singular, den du oben geübt hast: *naše more* ist ein Meer, *naša mora* mehrere.
+infokratko: m Pl **-i**, f Pl **-e**, n Pl **-a**: *naše more*, *naša mora*.
+opis: Sortiere jede Wendung nach der Endung am Possessivpronomen.
 stupci: -I (m. mn.) | -E (ž. mn.) | -A (s. mn.)
 - naši hobiji | -I (m. mn.)
 - moji prijatelji | -I (m. mn.)
@@ -144,61 +144,61 @@ stupci: -I (m. mn.) | -E (ž. mn.) | -A (s. mn.)
 - njegova pisma | -A (s. mn.)
 - njihova sela | -A (s. mn.)
 
-## Pick the plural form
+## Wähle die Pluralform
 format: izbor
-info: Agreement in the plural, where the possessive and the adjective take the same ending. A masculine plural noun gives *naši hobiji su različiti*, a feminine plural gives *njihove pjesme su lijepe*.
-infokratko: Possessive and adjective share the ending: *naši hobiji su različiti*.
-opis: Choose the form that fits the plural noun.
-- ___ hobiji su različiti. (our) | Naši | Naše | Naša
-- ___ pjesme su lijepe. (their) | Njihove | Njihovi | Njihova
-- ___ koljena su umorna. (my) | Moja | Moji | Moje
-- ___ prijatelji su veseli. (my) | Moji | Moje | Moja
-- ___ knjige su nove. (her) | Njezine | Njezini | Njezina
-- ___ igrači su brzi. (our) | Naši | Naše | Naša
-- ___ dresovi su plavi. (your, plural) | Vaši | Vaše | Vaša
-- ___ sestre su mlade. (their) | Njihove | Njihovi | Njihova
-- ___ pisma su duga. (his) | Njegova | Njegovi | Njegove
-- ___ olovke su male. (your, one person) | Tvoje | Tvoji | Tvoja
+info: Übereinstimmung im Plural, wo Possessivpronomen und Adjektiv dieselbe Endung nehmen. Ein maskulines Nomen im Plural ergibt *naši hobiji su različiti*, ein feminines im Plural *njihove pjesme su lijepe*.
+infokratko: Possessivpronomen und Adjektiv teilen die Endung: *naši hobiji su različiti*.
+opis: Wähle die Form, die zum Nomen im Plural passt.
+- ___ hobiji su različiti. (unser) | Naši | Naše | Naša
+- ___ pjesme su lijepe. (ihr – von ihnen) | Njihove | Njihovi | Njihova
+- ___ koljena su umorna. (mein) | Moja | Moji | Moje
+- ___ prijatelji su veseli. (mein) | Moji | Moje | Moja
+- ___ knjige su nove. (ihr – von ihr) | Njezine | Njezini | Njezina
+- ___ igrači su brzi. (unser) | Naši | Naše | Naša
+- ___ dresovi su plavi. (euer) | Vaši | Vaše | Vaša
+- ___ sestre su mlade. (ihr – von ihnen) | Njihove | Njihovi | Njihova
+- ___ pisma su duga. (sein) | Njegova | Njegovi | Njegove
+- ___ olovke su male. (dein) | Tvoje | Tvoji | Tvoja
 
-## The rule: svoj
+## Die Regel: svoj
 format: tekst
-info: The eighth possessive, and English has no single word for it. **Svoj** is used when the owner is the subject of the same sentence: *Marko voli svoju sestru* means his own sister, while *Marko voli njegovu sestru* means someone else's.
-infokratko: Owner = subject → **svoj**: *Marko voli svoju sestru* (his own).
+info: Das achte Possessivpronomen, und das Deutsche hat kein eigenes Wort dafür. **Svoj** steht, wenn der Besitzer das Subjekt desselben Satzes ist: *Marko voli svoju sestru* heißt seine eigene Schwester, während *Marko voli njegovu sestru* die eines anderen heißt.
+infokratko: Besitzer = Subjekt → **svoj**: *Marko voli svoju sestru* (seine eigene).
 infoodmah: da
-- Croatian has one more possessive: **svoj**. It is used when the owner is the **subject of the sentence**.
-- tab: Sentence | What it means
-- tab: Marko voli **svoju** sestru. | his own sister
-- tab: Marko voli **njegovu** sestru. | somebody else's sister
-- tab: Ana nosi **svoj** dres. | her own jersey
-- tab: Ana nosi **njezin** dres. | somebody else's jersey
-- **It takes the same endings as the others**, because it also matches the noun: *svoj dres · svoja lopta · svoje koljeno · svoji hobiji*.
-- **With *ja* and *ti* both versions are used.** *Volim svoj klub* and *Volim moj klub* both mean my own club, and nobody can misread them. In the third person the difference is real, so *njegov* and *njezin* point at another person.
-- **The short version.** If the sentence is about Ana and Ana's thing, or about Marko and Marko's thing, use *svoj*. Use *njegov* or *njezin* only when the thing belongs to somebody else.
-- **Now you write them.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu.
+- Das Kroatische hat noch ein Possessivpronomen: **svoj**. Es steht, wenn der Besitzer das **Subjekt des Satzes** ist.
+- tab: Satz | Was es bedeutet
+- tab: Marko voli **svoju** sestru. | seine eigene Schwester
+- tab: Marko voli **njegovu** sestru. | die Schwester von jemand anderem
+- tab: Ana nosi **svoj** dres. | ihr eigenes Trikot
+- tab: Ana nosi **njezin** dres. | das Trikot von jemand anderem
+- **Es nimmt dieselben Endungen wie die anderen**, weil es ebenfalls zum Nomen passt: *svoj dres · svoja lopta · svoje koljeno · svoji hobiji*.
+- **Bei *ja* und *ti* werden beide Fassungen verwendet.** *Volim svoj klub* und *Volim moj klub* bedeuten beide meinen eigenen Verein, und niemand kann sie missverstehen. In der dritten Person ist der Unterschied echt, also zeigen *njegov* und *njezin* auf eine andere Person.
+- **Die Kurzfassung.** Geht es im Satz um Ana und Anas Sache oder um Marko und Markos Sache, nimm *svoj*. Nimm *njegov* oder *njezin* nur, wenn die Sache jemand anderem gehört.
+- **Jetzt schreibst du.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu.
 
-## svoj or njegov?
+## svoj oder njegov?
 format: izbor
-info: One question settles each item: does the thing belong to the subject of the sentence? If it does, the answer is **svoj**; if it belongs to someone else, the answer is *njegov* or *njezin*. The bracket says which situation is meant.
-infokratko: Belongs to the subject? **svoj**. Someone else? *njegov / njezin*.
-opis: Does the thing belong to the person doing the action? Then it is *svoj*.
-- Marko voli ___ klub. (his own) | svoj | njegov
-- Marko gleda ___ gitaru. (Ana's guitar) | njezinu | svoju
-- Ana nosi ___ dres. (her own) | svoj | njezin
-- Ana zove ___ sestru. (her own) | svoju | njezinu
-- Ana zove ___ sestru. (Marko's sister) | njegovu | svoju
-- Igrači vole ___ klub. (their own) | svoj | njihov
-- Trener gleda ___ momčad. (his own) | svoju | njegovu
-- Djeca nose ___ dresove. (their own) | svoje | njihove
-- Ona vozi ___ auto. (her own) | svoj | njezin
-- On nosi ___ dres. (Marko's jersey) | njegov | svoj
-- Sestra slika ___ mamu. (her own) | svoju | njezinu
-- Ivan voli ___ grad. (his own) | svoj | njegov
+info: Eine Frage klärt jeden Punkt: Gehört die Sache dem Subjekt des Satzes? Wenn ja, ist die Antwort **svoj**; gehört sie jemand anderem, ist die Antwort *njegov* oder *njezin*. Die Klammer sagt, welche Situation gemeint ist.
+infokratko: Gehört es dem Subjekt? **svoj**. Jemand anderem? *njegov / njezin*.
+opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
+- Marko voli ___ klub. (seinen eigenen) | svoj | njegov
+- Marko gleda ___ gitaru. (Anas Gitarre) | njezinu | svoju
+- Ana nosi ___ dres. (ihr eigenes) | svoj | njezin
+- Ana zove ___ sestru. (ihre eigene) | svoju | njezinu
+- Ana zove ___ sestru. (Markos Schwester) | njegovu | svoju
+- Igrači vole ___ klub. (ihren eigenen) | svoj | njihov
+- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
+- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
+- On nosi ___ dres. (Markos Trikot) | njegov | svoj
+- Sestra slika ___ mamu. (ihre eigene) | svoju | njezinu
+- Ivan voli ___ grad. (seine eigene) | svoj | njegov
 
-## Type svoj
+## Tippe svoj
 format: upis
-info: Typed production of *svoj* in the form that matches the noun. The endings are the ones you have drilled above — bare for masculine, **-a** for feminine, **-e** for neuter — and after a verb a feminine noun is in the accusative, so the possessive takes **-u** with it: *svoju sestru*.
-infokratko: *svoj* agrees with the noun; after a verb, feminine **-u**: *svoju sestru*.
-opis: Type the right form of *svoj*.
+info: Getippte Produktion von *svoj* in der Form, die zum Nomen passt. Die Endungen sind die, die du oben geübt hast – nackt für maskulin, **-a** für feminin, **-e** für neutral –, und nach einem Verb steht ein feminines Nomen im Akkusativ, also nimmt das Possessivpronomen mit ihm **-u**: *svoju sestru*.
+infokratko: *svoj* stimmt mit dem Nomen überein; nach einem Verb feminin **-u**: *svoju sestru*.
+opis: Tippe die richtige Form von *svoj*.
 - Marko voli ___ klub. | svoj
 - Ana voli ___ sestru. | svoju
 - Trener gleda ___ momčad. | svoju
@@ -210,26 +210,26 @@ opis: Type the right form of *svoj*.
 - Pjevamo ___ pjesme. | svoje
 - Ivan trenira ___ momčad. | svoju
 
-## The rule: čiji, and one word from a name
+## Die Regel: čiji, und ein Wort aus einem Namen
 format: tekst
-info: Two ways of naming an owner. **Čiji / čija / čije** asks *whose* and copies the noun like every possessive. And from a name Croatian builds a word of its own: a word in **-a** takes **-in**, any other takes **-ov** or **-ev** — *Anin fotoaparat*, *tatin klub*, *Markov dres*.
-infokratko: *čiji / čija / čije* = whose. From a name: **-a** word → **-in** (*Anin*), others **-ov/-ev** (*Markov*).
-- **To ask, use *čiji*.** It matches the noun, exactly like the answer will: *Čij**i** je ovo dres? Čij**a** je ovo lopta? Čij**e** je ovo koljeno?*
-- **To name the owner, Croatian builds a word from the name itself.**
-- tab: Owner | Ending | Example
-- tab: a word ending in -a (Ana, sestra, tata, Luka) | **-in** | Anin fotoaparat · tatin klub
-- tab: any other word (Marko, Ivan, brat) | **-ov** | Markov dres · Ivanov gol
-- tab: a word ending in a soft sound (č, ć, j…) | **-ev** | Igračev dres
-- **These words then match the noun as usual:** *Markov dres*, *Markov**a** lopta*, *Markov**o** koljeno*; *Anin dres*, *Anin**a** lopta*, *Anin**o** koljeno*.
-- **A capital letter for a name.** *Markov*, *Anin*, *Ivanov* keep the capital of the name they are built from. A word built from an ordinary noun does not: *sestrina gitara*, *bakina kuća*, *trenerov plan*.
-- **English word order is the other way round.** English says *Marko's jersey*, Croatian says *Markov dres* — the owner first, and the ending on the owner's word.
-- **Now you write them.** [Čiji] je ovo dres? To je [Markov] dres. To je [Anin] fotoaparat.
+info: Zwei Arten, einen Besitzer zu nennen. **Čiji / čija / čije** fragt *wessen* und ahmt das Nomen nach wie jedes Possessivpronomen. Und aus einem Namen baut das Kroatische ein eigenes Wort: Ein Wort auf **-a** nimmt **-in**, jedes andere **-ov** oder **-ev** – *Anin fotoaparat*, *tatin klub*, *Markov dres*.
+infokratko: *čiji / čija / čije* = wessen. Aus einem Namen: Wort auf **-a** → **-in** (*Anin*), andere **-ov/-ev** (*Markov*).
+- **Zum Fragen nimm *čiji*.** Es passt zum Nomen, genau wie die Antwort es tun wird: *Čij**i** je ovo dres? Čij**a** je ovo lopta? Čij**e** je ovo koljeno?*
+- **Um den Besitzer zu nennen, baut das Kroatische ein Wort aus dem Namen selbst.**
+- tab: Besitzer | Endung | Beispiel
+- tab: ein Wort auf -a (Ana, sestra, tata, Luka) | **-in** | Anin fotoaparat · tatin klub
+- tab: jedes andere Wort (Marko, Ivan, brat) | **-ov** | Markov dres · Ivanov gol
+- tab: ein Wort auf einen weichen Laut (č, ć, j …) | **-ev** | Igračev dres
+- **Diese Wörter passen sich dann wie gewohnt dem Nomen an:** *Markov dres*, *Markov**a** lopta*, *Markov**o** koljeno*; *Anin dres*, *Anin**a** lopta*, *Anin**o** koljeno*.
+- **Großbuchstabe bei einem Namen.** *Markov*, *Anin*, *Ivanov* behalten den Großbuchstaben des Namens, aus dem sie gebaut sind. Ein Wort aus einem gewöhnlichen Nomen nicht: *sestrina gitara*, *bakina kuća*, *trenerov plan*.
+- **Fast wie im Deutschen.** Deutsch sagt *Markos Trikot*, Kroatisch *Markov dres* – der Besitzer zuerst, und die Endung am Wort des Besitzers. Nur passt sich das kroatische Wort zusätzlich der Sache an.
+- **Jetzt schreibst du.** [Čiji] je ovo dres? To je [Markov] dres. To je [Anin] fotoaparat.
 
-## Build the owner's word
+## Bau das Wort des Besitzers
 format: upis
-info: Type the word built from the owner's name. A word ending in **-a** takes **-in** (*Ana → Anin*, *sestra → sestrin*, *tata → tatin*), any other word takes **-ov** (*Marko → Markov*, *brat → bratov*), and the result then takes the ending that matches its noun.
-infokratko: **-a** → **-in** (*Anin, tatin*), others → **-ov** (*Markov, bratov*); then the noun's ending.
-opis: Type the owner's word — a word in **-a** takes **-in**, any other takes **-ov**. Then let the noun finish it.
+info: Tippe das Wort, das aus dem Namen des Besitzers gebaut ist. Ein Wort auf **-a** nimmt **-in** (*Ana → Anin*, *sestra → sestrin*, *tata → tatin*), jedes andere Wort nimmt **-ov** (*Marko → Markov*, *brat → bratov*), und das Ergebnis nimmt dann die Endung, die zu seinem Nomen passt.
+infokratko: **-a** → **-in** (*Anin, tatin*), andere → **-ov** (*Markov, bratov*); dann die Endung des Nomens.
+opis: Tippe das Wort des Besitzers – ein Wort auf **-a** nimmt **-in**, jedes andere **-ov**. Dann lass das Nomen es vollenden.
 - Marko + dres → | Markov dres
 - Ivan + gol → | Ivanov gol
 - Ana + fotoaparat → | Anin fotoaparat
@@ -241,27 +241,27 @@ opis: Type the owner's word — a word in **-a** takes **-in**, any other takes 
 - trener + plan → | trenerov plan
 - Ivan + koljeno → | Ivanovo koljeno
 
-## Whose is it?
+## Wem gehört es?
 format: izbor
-info: Choose the correct sentence. Two things decide it: *čiji* matches the noun it asks about (*Čija je ovo lopta?*), and the possessive in the answer matches that same noun, whoever the owner turns out to be.
-infokratko: *čiji* matches the noun (*Čija je ovo lopta?*), and so does the possessive in the answer.
+info: Wähle den richtigen Satz. Zwei Dinge entscheiden: *čiji* passt zum Nomen, nach dem es fragt (*Čija je ovo lopta?*), und das Possessivpronomen in der Antwort passt zu demselben Nomen, wer auch immer der Besitzer ist.
+infokratko: *čiji* passt zum Nomen (*Čija je ovo lopta?*), und das Possessivpronomen in der Antwort auch.
 opis: Einer davon ist so, wie ein Kroate es sagen würde.
-- Whose ball is this? | Čija je ovo lopta? | Čiji je ovo lopta?
-- Whose jersey is this? | Čiji je ovo dres? | Čija je ovo dres?
-- Whose knee is this? | Čije je ovo koljeno? | Čiji je ovo koljeno?
-- It is Marko's jersey. | To je Markov dres. | To je Markova dres.
-- It is Ana's guitar. | To je Anina gitara. | To je Anin gitara.
-- It is my sister's guitar. | To je sestrina gitara. | To je sestrin gitara.
-- His guitar is new. | Njegova gitara je nova. | Njegov gitara je nova.
-- Her jersey is blue. | Njezin dres je plav. | Njezina dres je plav.
-- Our team is strong. | Naša momčad je jaka. | Naš momčad je jaka.
-- Their hobbies are different. | Njihovi hobiji su različiti. | Njihove hobiji su različiti.
+- Wessen Ball ist das? | Čija je ovo lopta? | Čiji je ovo lopta?
+- Wessen Trikot ist das? | Čiji je ovo dres? | Čija je ovo dres?
+- Wessen Knie ist das? | Čije je ovo koljeno? | Čiji je ovo koljeno?
+- Das ist Markos Trikot. | To je Markov dres. | To je Markova dres.
+- Das ist Anas Gitarre. | To je Anina gitara. | To je Anin gitara.
+- Das ist die Gitarre meiner Schwester. | To je sestrina gitara. | To je sestrin gitara.
+- Seine Gitarre ist neu. | Njegova gitara je nova. | Njegov gitara je nova.
+- Ihr Trikot ist blau. | Njezin dres je plav. | Njezina dres je plav.
+- Unsere Mannschaft ist stark. | Naša momčad je jaka. | Naš momčad je jaka.
+- Ihre Hobbys sind verschieden. | Njihovi hobiji su različiti. | Njihove hobiji su različiti.
 
-## Naming or target?
+## Benennung oder Ziel?
 format: izbor
-info: A possessive follows its noun into the accusative from Lesson 5. As a subject the pair ends in **-a** twice (*Moja lopta je crvena*), and after a verb both words end in **-u** (*Tražim moj**u** lopt**u***).
-infokratko: Possessive goes into the accusative too: *Moja lopta je crvena. Tražim moju loptu.*
-opis: Both words have to end the same way. Choose the phrase that fits the sentence.
+info: Ein Possessivpronomen folgt seinem Nomen in den Akkusativ aus Lektion 5. Als Subjekt endet das Paar zweimal auf **-a** (*Moja lopta je crvena*), und nach einem Verb enden beide Wörter auf **-u** (*Tražim moj**u** lopt**u***).
+infokratko: Das Possessivpronomen geht auch in den Akkusativ: *Moja lopta je crvena. Tražim moju loptu.*
+opis: Beide Wörter müssen gleich enden. Wähle die Wendung, die zum Satz passt.
 - ___ je crvena. | Moja lopta | Moju loptu
 - Tražim ___ . | moju loptu | moja lopta
 - Nosim ___ na trening. | svoju loptu | svoja lopta
@@ -275,9 +275,9 @@ opis: Both words have to end the same way. Choose the phrase that fits the sente
 
 ## Bau den Satz
 format: slaganje
-info: Sentence building from tiles, so the possessive has to land in the right place and the right form. It stands in front of the noun it belongs to, and where two halves are joined by *a* or *ali* each half keeps its own possessive and a comma comes before the connector.
-infokratko: Possessive before its noun; each half keeps its own; comma before *a* and *ali*.
-opis: Build the sentence.
+info: Sätze aus Kärtchen bauen, also muss das Possessivpronomen an der richtigen Stelle und in der richtigen Form landen. Es steht vor dem Nomen, zu dem es gehört, und wo zwei Hälften mit *a* oder *ali* verbunden sind, behält jede Hälfte ihr eigenes Possessivpronomen, und vor dem Bindewort steht ein Komma.
+infokratko: Possessivpronomen vor seinem Nomen; jede Hälfte behält ihr eigenes; Komma vor *a* und *ali*.
+opis: Bau den Satz.
 - Moja sestra svira gitaru.
 - Naši hobiji su različiti.
 - Njegov dres je plav, a moj je crven.
@@ -293,8 +293,8 @@ opis: Build the sentence.
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary of the unit. The whole system is one sentence long: read the noun, and give the possessive the ending that matches it. *Svoj* is the one extra word, used when the owner is the subject of the sentence.
-infokratko: Read the noun, match the ending. *svoj* when the owner is the subject.
-- **Bravo.** You can now say what belongs to whom — with seven possessives, a plural set, *svoj*, *čiji*, and a word built straight from a name.
-- And you did it with one rule: **read the noun, and give the possessive the ending that matches it.**
-- **Next up:** Practice 9 puts all of this into short texts about a club and a hobby, and Test 9 closes the unit. Then Lesson 10 opens the past tense, so you can say what you did yesterday.
+info: Eine Abschlusszusammenfassung der Einheit. Das ganze System ist einen Satz lang: Lies das Nomen und gib dem Possessivpronomen die Endung, die dazu passt. *Svoj* ist das eine zusätzliche Wort, wenn der Besitzer das Subjekt des Satzes ist.
+infokratko: Lies das Nomen, pass die Endung an. *svoj*, wenn der Besitzer das Subjekt ist.
+- **Bravo.** Du kannst jetzt sagen, was wem gehört – mit sieben Possessivpronomen, einem Pluralsatz, *svoj*, *čiji* und einem Wort, das direkt aus einem Namen gebaut ist.
+- Und das mit einer Regel: **Lies das Nomen und gib dem Possessivpronomen die Endung, die dazu passt.**
+- **Als Nächstes:** Praxis 9 bringt das alles in kurze Texte über einen Verein und ein Hobby, und Test 9 schließt die Einheit ab. Dann eröffnet Lektion 10 die Vergangenheit, damit du sagen kannst, was du gestern gemacht hast.

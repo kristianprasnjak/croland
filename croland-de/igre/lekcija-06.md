@@ -1,20 +1,20 @@
-# In the City: Accusative for Living Things
+# In der Stadt: Akkusativ für Lebewesen
 cjelina: Lesson 6
 
-## Things vs. beings
+## Dinge gegen Lebewesen
 format: tekst
-info: A short read that opens the masculine accusative. After verbs like *vidim* and *čekam*, a masculine **living being** takes **-a** (*Vidim prijatelja*), while a **thing** stays exactly as it is (*Vidim tramvaj*). That single split is the whole lesson.
-infokratko: Masculine target: a **living being** takes **-a** (*Vidim prijatelja*), a **thing** stays (*Vidim tramvaj*).
-- Last lesson you mastered the *-a → -u* trick for feminine words. Today you take the accusative to the city — and discover something charming about Croatian: it treats *living beings* differently from *things*.
-- *Čekam tramvaj.* — I'm waiting for the tram. (no change!) *Čekam prijatelj**a**.* — I'm waiting for a friend. (new ending!)
-- Things stay the same. People and animals get **-a**. Let's catch that tram.
+info: Ein kurzer Text, der den maskulinen Akkusativ eröffnet. Nach Verben wie *vidim* und *čekam* nimmt ein maskulines **Lebewesen** **-a** (*Vidim prijatelja*), während ein **Ding** genau bleibt, wie es ist (*Vidim tramvaj*). Diese eine Trennung ist die ganze Lektion.
+infokratko: Maskulines Ziel: Ein **Lebewesen** nimmt **-a** (*Vidim prijatelja*), ein **Ding** bleibt (*Vidim tramvaj*).
+- In der letzten Lektion hast du den Trick *-a → -u* für feminine Wörter gemeistert. Heute nimmst du den Akkusativ mit in die Stadt – und entdeckst etwas Charmantes am Kroatischen: Es behandelt *Lebewesen* anders als *Dinge*.
+- *Čekam tramvaj.* — Ich warte auf die Straßenbahn. (keine Änderung!) *Čekam prijatelj**a**.* — Ich warte auf einen Freund. (neue Endung!)
+- Dinge bleiben gleich. Menschen und Tiere bekommen **-a**. Erwischen wir die Straßenbahn.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on last lesson's feminine rule. A feminine noun in **-a** swaps it for **-u** when it is the target of the verb, so *kava* becomes *kavu* and *tržnica* becomes *tržnicu*. Tap fast and trust the ending.
-infokratko: Lesson 5 against the clock: feminine **-a → -u**. *kava → kavu, tržnica → tržnicu*.
+info: Ein Aufwärmen auf Zeit mit der femininen Regel der letzten Lektion. Ein feminines Nomen auf **-a** tauscht es gegen **-u**, wenn es das Ziel des Verbs ist, also wird *kava* zu *kavu* und *tržnica* zu *tržnicu*. Tippe schnell und vertrau der Endung.
+infokratko: Lektion 5 gegen die Uhr: feminin **-a → -u**. *kava → kavu, tržnica → tržnicu*.
 trajanje: 60
-opis: Accusative warm-up from Lesson 5 — tap the target form before it disappears.
+opis: Akkusativ-Aufwärmen aus Lektion 5 – tippe auf die Zielform, bevor sie verschwindet.
 - kava | kavu
 - riba | ribu
 - jabuka | jabuku
@@ -31,27 +31,27 @@ opis: Accusative warm-up from Lesson 5 — tap the target form before it disappe
 - pekara | pekaru
 - knjiga | knjigu
 
-## City words
+## Stadtwörter
 format: kartice
-info: New city vocabulary, grouped on purpose. Vehicles and places are **things**, so they never change as a target; people and animals are **living**, so they will take **-a**, as in *konobar* to *konobara*. Learn each word together with its group.
-infokratko: City words in groups. Things never change as targets; people and animals take **-a**: *konobar → konobara*.
-opis: The city vocabulary — plus seven new verbs for urban life. Notice the two groups: vehicles and places on one side, people and animals on the other. Today that line matters.
-- tramvaj | tram
-- autobus | bus
+info: Neuer Stadtwortschatz, absichtlich gruppiert. Fahrzeuge und Orte sind **Dinge**, ändern sich als Ziel also nie; Menschen und Tiere sind **lebendig**, nehmen also **-a**, wie bei *konobar* zu *konobara*. Lerne jedes Wort zusammen mit seiner Gruppe.
+infokratko: Stadtwörter in Gruppen. Dinge ändern sich als Ziel nie; Menschen und Tiere nehmen **-a**: *konobar → konobara*.
+opis: Der Stadtwortschatz – plus sieben neue Verben fürs Stadtleben. Achte auf die zwei Gruppen: Fahrzeuge und Orte auf der einen Seite, Menschen und Tiere auf der anderen. Heute zählt diese Linie.
+- tramvaj | Straßenbahn
+- autobus | Bus
 - auto | Auto
-- vlak | train
-- bicikl | bicycle
-- karta | ticket
-- stanica | stop
-- ulica | street
-- promet | traffic
-- broj | number
+- vlak | Zug
+- bicikl | Fahrrad
+- karta | Fahrkarte
+- stanica | Haltestelle
+- ulica | Straße
+- promet | Verkehr
+- broj | Nummer
 - grad | Stadt
-- most | bridge
-- trg | square
-- semafor | traffic light
-- spomenik | monument
-- čovjek | man, person
+- most | Brücke
+- trg | Platz
+- semafor | Ampel
+- spomenik | Denkmal
+- čovjek | Mensch, Mann
 - prijatelj | Freund
 - konobar | Kellner
 - policajac | Polizist
@@ -59,33 +59,33 @@ opis: The city vocabulary — plus seven new verbs for urban life. Notice the tw
 - doktor | Arzt
 - susjed | Nachbar
 - pas | Hund
-- čekati → čekam | to wait for
-- vidjeti → vidim | to see
-- čuti → čujem | to hear
-- zvati → zovem | to call
-- voziti → vozim | to drive
-- pričati → pričam | to chat
-- fotografirati → fotografiram | to photograph
+- čekati → čekam | warten auf
+- vidjeti → vidim | sehen
+- čuti → čujem | hören
+- zvati → zovem | rufen, anrufen
+- voziti → vozim | fahren
+- pričati → pričam | plaudern
+- fotografirati → fotografiram | fotografieren
 
-## Things vs. living beings
+## Dinge gegen Lebewesen
 format: tekst
-info: The rule in one line: a masculine **being** adds **-a**, a masculine **thing** adds nothing. Two spellings to notice right now — *pas* squeezes to **psa** and *policajac* to **policajca**, both losing a vowel before the ending.
-infokratko: Masculine being **+a**, masculine thing unchanged. Watch *pas → psa*, *policajac → policajca*.
-- Watch the difference:
-- **Things stay put, beings take -a.**
-- tab: On its own | As the target | Why
-- tab: tramvaj | Vidim tramvaj. | a thing — no change
-- tab: prijatelj | Vidim prijatelja. | a being — add **-a**
-- tab: čovjek | Vidim čovjeka. | a being — add **-a**
-- **Two quirks to meet today.** *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**.
-- **Now you write them.** Vidim [tramvaj]. Vidim [prijatelja]. Gledam [psa].
+info: Die Regel in einer Zeile: Ein maskulines **Lebewesen** bekommt **-a**, ein maskulines **Ding** bekommt nichts. Zwei Schreibweisen, auf die du gleich achten solltest – *pas* schrumpft zu **psa** und *policajac* zu **policajca**, beide verlieren vor der Endung einen Vokal.
+infokratko: Maskulines Lebewesen **+a**, maskulines Ding unverändert. Achte auf *pas → psa*, *policajac → policajca*.
+- Schau dir den Unterschied an:
+- **Dinge bleiben, Lebewesen nehmen -a.** Im Deutschen wechselt beim Maskulinum der Artikel (*der Freund → den Freund*, aber auch *der Bus → den Bus*); das Kroatische ändert nur die Lebewesen.
+- tab: Allein | Als Ziel | Warum
+- tab: tramvaj | Vidim tramvaj. | ein Ding – keine Änderung
+- tab: prijatelj | Vidim prijatelja. | ein Lebewesen – **-a** anhängen
+- tab: čovjek | Vidim čovjeka. | ein Lebewesen – **-a** anhängen
+- **Zwei Eigenheiten für heute.** *pas* schrumpft zu **psa** (*Gledam psa*), und *policajac* verliert einen Buchstaben: **policajca**.
+- **Jetzt schreibst du.** Vidim [tramvaj]. Vidim [prijatelja]. Gledam [psa].
 
-## Does it change?
+## Ändert es sich?
 format: razvrstavanje
-info: A sorting drill on animacy. Ask one question about each masculine word: can it be alive? People and animals go to the changing side and take **-a** (*susjeda*, *psa*); vehicles, bridges and buildings stay untouched.
-infokratko: Can it be alive? Yes → **-a** (*susjeda, psa*). No → no change.
+info: Eine Sortierübung zur Belebtheit. Stell bei jedem maskulinen Wort eine Frage: Kann es lebendig sein? Menschen und Tiere kommen auf die Seite, die sich ändert, und nehmen **-a** (*susjeda*, *psa*); Fahrzeuge, Brücken und Gebäude bleiben unberührt.
+infokratko: Kann es lebendig sein? Ja → **-a** (*susjeda, psa*). Nein → keine Änderung.
 stupci: MIJENJA SE (živo) | OSTAJE ISTO (stvar)
-opis: You see all of these on the street. Does the word change after "vidim", or stay exactly as it is?
+opis: All das siehst du auf der Straße. Ändert sich das Wort nach „vidim“, oder bleibt es genau, wie es ist?
 - prijatelj | MIJENJA SE (živo)
 - čovjek | MIJENJA SE (živo)
 - konobar | MIJENJA SE (živo)
@@ -107,36 +107,36 @@ opis: You see all of these on the street. Does the word change after "vidim", or
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap chooses the ending. A living being takes **-a** (*Čekam konobara*); a thing takes nothing at all, so the dash is a real answer (*Čekam autobus*). The verb is identical either way — only the noun decides.
-infokratko: Being: **-a** (*Čekam konobara*). Thing: the dash (*Čekam autobus*).
+info: Ein Tipp wählt die Endung. Ein Lebewesen nimmt **-a** (*Čekam konobara*); ein Ding nimmt gar nichts, der Strich ist also eine echte Antwort (*Čekam autobus*). Das Verb ist in beiden Fällen gleich – nur das Nomen entscheidet.
+infokratko: Lebewesen: **-a** (*Čekam konobara*). Ding: der Strich (*Čekam autobus*).
 nastavci: a | -
-opis: English above, Croatian below. One tap: a living being takes **-a**, a thing takes nothing at all. The **—** button means "no ending".
-- Vidim tramvaj___ . | I see the tram. | -
-- Vidim prijatelj___ . | I see a friend. | a
-- Čekam autobus___ . | I'm waiting for the bus. | -
-- Čekam konobar___ . | I'm waiting for the waiter. | a
-- Zovem doktor___ . | I'm calling the doctor. | a
-- Vozim auto___ . | I'm driving the car. | -
-- Gledam turist___ . | I'm watching the tourist. | a
-- Gledam most___ . | I'm looking at the bridge. | -
-- Fotografiram spomenik___ . | I'm photographing the monument. | -
-- Fotografiram susjed___ . | I'm photographing my neighbour. | a
-- Čujem tramvaj___ . | I hear the tram. | -
-- Čujem čovjek___ . | I hear a man. | a
-- Vidim semafor___ . | I see the traffic light. | -
-- Vidim čovjek___ . | I see a man. | a
-- Čekam vlak___ . | I'm waiting for the train. | -
-- Ana zove konobar___ . | Ana is calling the waiter. | a
-- Vidim bicikl___ . | I see a bicycle. | -
-- Vidim susjed___ . | I see my neighbour. | a
-- Gledam trg___ . | I'm looking at the square. | -
-- Marko gleda prijatelj___ . | Marko is looking at a friend. | a
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp: Ein Lebewesen nimmt **-a**, ein Ding gar nichts. Der Knopf **—** bedeutet „keine Endung“.
+- Vidim tramvaj___ . | Ich sehe die Straßenbahn. | -
+- Vidim prijatelj___ . | Ich sehe einen Freund. | a
+- Čekam autobus___ . | Ich warte auf den Bus. | -
+- Čekam konobar___ . | Ich warte auf den Kellner. | a
+- Zovem doktor___ . | Ich rufe den Arzt. | a
+- Vozim auto___ . | Ich fahre das Auto. | -
+- Gledam turist___ . | Ich beobachte den Touristen. | a
+- Gledam most___ . | Ich schaue die Brücke an. | -
+- Fotografiram spomenik___ . | Ich fotografiere das Denkmal. | -
+- Fotografiram susjed___ . | Ich fotografiere meinen Nachbarn. | a
+- Čujem tramvaj___ . | Ich höre die Straßenbahn. | -
+- Čujem čovjek___ . | Ich höre einen Mann. | a
+- Vidim semafor___ . | Ich sehe die Ampel. | -
+- Vidim čovjek___ . | Ich sehe einen Mann. | a
+- Čekam vlak___ . | Ich warte auf den Zug. | -
+- Ana zove konobar___ . | Ana ruft den Kellner. | a
+- Vidim bicikl___ . | Ich sehe ein Fahrrad. | -
+- Vidim susjed___ . | Ich sehe meinen Nachbarn. | a
+- Gledam trg___ . | Ich schaue den Platz an. | -
+- Marko gleda prijatelj___ . | Marko schaut einen Freund an. | a
 
-## Transformation drill
+## Verwandlungsübung
 format: upis
-info: Here you type the target form yourself. Beings gain **-a** (*doktor* to *doktora*), things are typed back unchanged (*most* stays *most*), *pas* becomes **psa**, and feminine words still turn their **-a** into **-u**.
-infokratko: Type the target: *doktor → doktora*, *most → most*, *pas → psa*, feminine **-a → -u**.
-opis: Type the target form — remember, only living beings change.
+info: Hier tippst du die Zielform selbst. Lebewesen bekommen **-a** (*doktor* zu *doktora*), Dinge werden unverändert zurückgetippt (*most* bleibt *most*), *pas* wird zu **psa**, und feminine Wörter machen ihr **-a** weiterhin zu **-u**.
+infokratko: Tippe das Ziel: *doktor → doktora*, *most → most*, *pas → psa*, feminin **-a → -u**.
+opis: Tippe die Zielform – denk dran, nur Lebewesen ändern sich.
 - prijatelj → | prijatelja
 - čovjek → | čovjeka
 - konobar → | konobara
@@ -156,9 +156,9 @@ opis: Type the target form — remember, only living beings change.
 
 ## Wähle die richtige Form
 format: izbor
-info: Pick between the plain word and the **-a** form. One trap runs through the whole drill: a thing like *tramvaj* never becomes *tramvaja*, however natural that extra letter looks standing next to *vidim*.
-infokratko: Plain or **-a**? A thing never adds it: *Vidim tramvaj*, not *tramvaja*.
-opis: Choose the correct form.
+info: Wähle zwischen dem einfachen Wort und der **-a**-Form. Eine Falle zieht sich durch die ganze Übung: Ein Ding wie *tramvaj* wird nie zu *tramvaja*, so natürlich dieser zusätzliche Buchstabe neben *vidim* auch aussieht.
+infokratko: Einfach oder **-a**? Ein Ding bekommt es nie: *Vidim tramvaj*, nicht *tramvaja*.
+opis: Wähle die richtige Form.
 - Čekam ___ . | prijatelja | prijatelj
 - Vidim ___ . | tramvaj | tramvaja
 - Ana zove ___ . | konobara | konobar
@@ -172,11 +172,11 @@ opis: Choose the correct form.
 - Čujem ___ . | tramvaj | tramvaja
 - Ana vidi ___ . | susjeda | susjed
 
-## Build the street scene
+## Bau die Straßenszene
 format: slaganje
-info: You build whole sentences from tiles. Order stays subject, verb, target, and the target carries the ending: *Ana vidi prijatelja* but *Čekam tramvaj*. The comma still goes before *ali* and *a*; before *jer* Croatian usually leaves it out.
-infokratko: Subject, verb, target: *Ana vidi prijatelja*, *Čekam tramvaj*. Comma before *a* and *ali*, usually not before *jer*.
-opis: Arrange the tiles to build the sentence.
+info: Du baust ganze Sätze aus Kärtchen. Die Reihenfolge bleibt Subjekt, Verb, Ziel, und das Ziel trägt die Endung: *Ana vidi prijatelja*, aber *Čekam tramvaj*. Das Komma steht weiterhin vor *ali* und *a*; vor *jer* lässt das Kroatische es meist weg.
+infokratko: Subjekt, Verb, Ziel: *Ana vidi prijatelja*, *Čekam tramvaj*. Komma vor *a* und *ali*, meist nicht vor *jer*.
+opis: Ordne die Kärtchen, um den Satz zu bauen.
 - Čekam tramvaj.
 - Ana vidi prijatelja.
 - Marko zove konobara.
@@ -188,11 +188,11 @@ opis: Arrange the tiles to build the sentence.
 - Ana čeka doktora jer je bolesna.
 - Vozim auto, a ti voziš bicikl.
 
-## At the stop
+## An der Haltestelle
 format: dijalog
-info: A street conversation where you choose each reply. Every answer keeps the accusative alive — *čekam autobus* for a thing, *čekam prijatelja* for a person. Read the other speaker's line first; it usually contains the word you need.
-infokratko: Keep the accusative: *čekam autobus*, *čekam prijatelja*. The other line often has the word you need.
-opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — choose your replies. Passive words: *Čekate li?* (Are you waiting?), *pun* (full), *žurim* (I'm in a hurry), *jedan* (one).
+info: Ein Straßengespräch, in dem du jede Antwort wählst. Jede Antwort hält den Akkusativ am Leben – *čekam autobus* für ein Ding, *čekam prijatelja* für eine Person. Lies zuerst die Zeile des anderen; sie enthält meist das Wort, das du brauchst.
+infokratko: Halte den Akkusativ: *čekam autobus*, *čekam prijatelja*. Die andere Zeile hat oft das Wort, das du brauchst.
+opis: Du wartest an einer Haltestelle in Zagreb. Ein freundlicher Einheimischer fängt ein Gespräch an – wähle deine Antworten. Passive Wörter: *Čekate li?* (Warten Sie?), *pun* (voll), *žurim* (ich bin in Eile), *jedan* (ein).
 - npc | Dobar dan! Čekate li autobus?
 - ti | Da, čekam autobus broj pet. | Ne, čekam tramvaj.
 - npc | Ja čekam autobus. Promet je danas velik.
@@ -206,12 +206,12 @@ opis: You're waiting at a stop in Zagreb. A friendly local starts a chat — cho
 - npc | Hvala! A sad vidim i autobus broj pet.
 - ti | Odlično! Hvala i doviđenja! | Super! Doviđenja!
 
-## Living-beings sprint
+## Lebewesen-Sprint
 format: brzina
-info: A timed sprint over living beings only, so the answer always ends in **-a**. What the clock really tests is the two squeezers: *pas* becomes **psa** and *policajac* becomes **policajca**. The rest simply add the letter.
-infokratko: Living beings only, so always **-a**. Watch *pas → psa*, *policajac → policajca*.
+info: Ein Sprint auf Zeit nur mit Lebewesen, die Antwort endet also immer auf **-a**. Was die Uhr wirklich prüft, sind die zwei Schrumpfer: *pas* wird zu **psa** und *policajac* zu **policajca**. Der Rest hängt einfach den Buchstaben an.
+infokratko: Nur Lebewesen, also immer **-a**. Achte auf *pas → psa*, *policajac → policajca*.
 trajanje: 45
-opis: A person or animal flashes in its naming form — tap the target form before it disappears.
+opis: Ein Mensch oder Tier blitzt in seiner Benennungsform auf – tippe auf die Zielform, bevor es verschwindet.
 - čovjek | čovjeka
 - prijatelj | prijatelja
 - konobar | konobara
@@ -221,12 +221,12 @@ opis: A person or animal flashes in its naming form — tap the target form befo
 - susjed | susjeda
 - pas | psa
 
-## A street in Zagreb
+## Eine Straße in Zagreb
 format: izbor
-info: Read the street scene, then answer. Look for who is the target of each verb, because the **-a** marks it: *vidi policajca*, *zove turista*. A word standing after the verb without **-a** is a thing, like *spomenik*.
-infokratko: Read, then answer. **-a** marks the person acted on: *vidi policajca*. No **-a** after the verb means a thing.
+info: Lies die Straßenszene und antworte dann. Such, wer das Ziel jedes Verbs ist, denn das **-a** markiert es: *vidi policajca*, *zove turista*. Ein Wort nach dem Verb ohne **-a** ist ein Ding, wie *spomenik*.
+infokratko: Lies, dann antworte. **-a** markiert die Person, auf die eingewirkt wird: *vidi policajca*. Kein **-a** nach dem Verb heißt ein Ding.
 tekst: Ulica je puna. Ana čeka tramvaj broj pet. Ona vidi policajca i psa. Policajac gleda promet, a pas gleda goluba. Turist fotografira spomenik. Konobar zove turista jer kava čeka. Sad Ana vidi tramvaj i žuri.
-opis: Read the street scene, then answer the questions. Passive words: *golub* (pigeon), *žuri* (hurries).
+opis: Lies die Straßenszene und beantworte dann die Fragen. Passive Wörter: *golub* (Taube), *žuri* (eilt).
 - Što Ana čeka? | tramvaj | autobus | taksi
 - Ana vidi... | policajca i psa | konobara i turista | prijatelja
 - Što gleda pas? | goluba | promet | spomenik
@@ -235,26 +235,26 @@ opis: Read the street scene, then answer the questions. Passive words: *golub* (
 
 ## Lektionscheck
 format: provjera
-info: The mixed check on this whole lesson. One sentence covers most of it: a masculine being takes **-a**, a masculine thing stays put, and a feminine **-a** turns into **-u**. Watch *pas* to *psa* and *policajac* to *policajca*.
-infokratko: The whole lesson: being **-a**, thing unchanged, feminine **-a → -u**. *pas → psa*.
+info: Der gemischte Check zur ganzen Lektion. Ein Satz deckt das meiste ab: Ein maskulines Lebewesen nimmt **-a**, ein maskulines Ding bleibt, und ein feminines **-a** wird zu **-u**. Achte auf *pas* zu *psa* und *policajac* zu *policajca*.
+infokratko: Die ganze Lektion: Lebewesen **-a**, Ding unverändert, feminin **-a → -u**. *pas → psa*.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 6.
-- slaganje | Čekam prijatelja. | en: I am waiting for a friend.
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 6 zu sein.
+- slaganje | Čekam prijatelja. | en: Ich warte auf einen Freund.
 - izbor | Vidim ___ . | čovjeka | čovjek
 - izbor | Čekam ___ . | tramvaj | tramvaja
 - upis | Napiši ciljni oblik: pas → | psa
-- izbor | Što znači "stanica"? | stop | street | traffic
+- izbor | Što znači "stanica"? | Haltestelle | Straße | Verkehr
 - izbor | Koja je rečenica točna? | Ana zove konobara. | Ana zove konobar.
 - izbor | Mijenja li se "prijatelj" nakon "vidim"? | mijenja se | ostaje isto
 - upis | Turist fotografira ___ . (policajac) | policajca
-- slaganje | Vidim čovjeka i psa. | en: I see a man and a dog.
+- slaganje | Vidim čovjeka i psa. | en: Ich sehe einen Mann und einen Hund.
 - izbor | Mijenja li se "autobus" nakon "vidim"? | ostaje isto | mijenja se
 - upis | Napiši ciljni oblik: konobar → | konobara
 - izbor | Što znači "vozač"? | Fahrer | Kellner | Tourist
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing page with no task. It marks the moment your accusative singular is complete — feminine **-u**, masculine being **-a**, masculine thing and neuter unchanged — and points at what the next pages add.
-infokratko: Your accusative singular is complete: feminine **-u**, masculine being **-a**, thing and neuter unchanged.
-- Bravo! You now handle the accusative for *everything* in the singular — things, food, people and pets.
-- **Next up:** Vocabulary 6 brings the city in full — people, vehicles, places. Then Grammar 6 finishes the map and then hands you the seven little words that stop your Croatian sounding like a robot — *me, te, ga, je, nas, vas, ih*. After that, Lesson 7 goes to school and teaches you to talk about more than one of anything.
+info: Eine Abschlussseite ohne Aufgabe. Sie markiert den Moment, in dem dein Akkusativ Singular vollständig ist – feminin **-u**, maskulines Lebewesen **-a**, maskulines Ding und Neutrum unverändert – und zeigt, was die nächsten Seiten hinzufügen.
+infokratko: Dein Akkusativ Singular ist vollständig: feminin **-u**, maskulines Lebewesen **-a**, Ding und Neutrum unverändert.
+- Bravo! Du beherrschst jetzt den Akkusativ für *alles* im Singular – Dinge, Essen, Menschen und Haustiere.
+- **Als Nächstes:** Wortschatz 6 bringt die Stadt komplett – Menschen, Fahrzeuge, Orte. Dann vervollständigt Grammatik 6 die Karte und gibt dir die sieben kleinen Wörter, mit denen dein Kroatisch nicht mehr wie ein Roboter klingt – *me, te, ga, je, nas, vas, ih*. Danach geht Lektion 7 in die Schule und bringt dir bei, über mehr als eins von allem zu sprechen.

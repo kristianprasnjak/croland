@@ -1,28 +1,28 @@
-# The Dative
+# Der Dativ
 cjelina: Grammar 14
 
-## The rule: the receiver
+## Die Regel: der Empfänger
 format: tekst
-info: The reference page for the dative. The receiver takes **-i** after a word in **-a** and **-u** after a consonant or **-o**; in the plural it takes **-ima** or **-ama**. These are exactly the locative endings from Grammar 13, now without a preposition. The question is *komu?*
-infokratko: Receiver: **-i / -u**, plural **-ima / -ama** — the locative endings, no preposition. *Komu?*
-- **The dative marks the receiver** — the person something goes to or is done for. The thing itself keeps the target form: ***Sestri** šaljem paket.*
-- tab: Naming form | Receiver (singular) | Receiver (plural)
+info: Die Übersichtsseite zum Dativ. Der Empfänger bekommt **-i** nach einem Wort auf **-a** und **-u** nach einem Konsonanten oder **-o**; im Plural bekommt er **-ima** oder **-ama**. Das sind genau die Lokativendungen aus Grammatik 13, jetzt ohne Präposition. Die Frage ist *komu?* (wem?)
+infokratko: Empfänger: **-i / -u**, Plural **-ima / -ama** – die Lokativendungen, ohne Präposition. *Komu?*
+- **Der Dativ kennzeichnet den Empfänger** – die Person, die etwas bekommt oder für die etwas getan wird. Die Sache selbst behält die Zielform: ***Sestri** šaljem paket.*
+- tab: Grundform | Empfänger (Singular) | Empfänger (Plural)
 - tab: mama | mam**i** | mam**ama**
 - tab: kolegica | kolegic**i** | kolegic**ama**
 - tab: tata | tat**i** | tat**ama**
 - tab: prijatelj | prijatelj**u** | prijatelj**ima**
 - tab: susjed | susjed**u** | susjed**ima**
 - tab: Marko | Mark**u** | —
-- **The same endings as the locative.** One set of forms, two jobs: after *u* or *na* the form says where (*u školi*); without a preposition it says to whom (*sestri*). The plural works the same way: *u gradovima* and *prijateljima*.
-- **The last letter decides, not the gender.** *Tata* is masculine but ends in **-a**, so it takes *tati*. *Pas* drops its *a*, as in *psa*: *psu*. Family words keep their k, as in *o baki*: *baki*.
-- **The question word is *komu?*** *Komu šalješ paket? — Sestri.* For things there is *čemu?*, which you will rarely need.
-- **Now you write them.** Your sister gets a package: [Sestri] šaljem paket. Your friends get an e-mail: [Prijateljima] pišem e-mail. The neighbour gets the newspaper: Nosim novine [susjedu].
+- **Dieselben Endungen wie beim Lokativ.** Eine Reihe Formen, zwei Aufgaben: Nach *u* oder *na* sagt die Form, wo (*u školi*); ohne Präposition sagt sie, wem (*sestri*). Der Plural funktioniert genauso: *u gradovima* und *prijateljima*.
+- **Der letzte Buchstabe entscheidet, nicht das Genus.** *Tata* ist maskulin, endet aber auf **-a**, also heißt es *tati*. *Pas* verliert sein *a*, wie in *psa*: *psu*. Familienwörter behalten ihr k, wie in *o baki*: *baki*.
+- **Das Fragewort ist *komu?*** *Komu šalješ paket? — Sestri.* Für Sachen gibt es *čemu?*, das du selten brauchen wirst.
+- **Jetzt schreibst du sie.** Deine Schwester bekommt ein Paket: [Sestri] šaljem paket. Deine Freunde bekommen eine E-Mail: [Prijateljima] pišem e-mail. Der Nachbar bekommt die Zeitung: Nosim novine [susjedu].
 
-## Dative or locative?
+## Dativ oder Lokativ?
 format: izbor
-info: One form, two jobs, and the sentence tells you which. Without a preposition the form names the receiver — *komu?* After *u* or *na* it names the place — *gdje?* After *o* it names the topic — *o kome? o čemu?* Look for the little word in front first.
-infokratko: No preposition → *komu?* (dative). *u, na* → *gdje?* *o* → *o kome? o čemu?*
-opis: Same ending, different job. Which question does the form in **-i** or **-u** answer?
+info: Eine Form, zwei Aufgaben, und der Satz verrät dir, welche. Ohne Präposition nennt die Form den Empfänger – *komu?* Nach *u* oder *na* nennt sie den Ort – *gdje?* Nach *o* nennt sie das Thema – *o kome? o čemu?* Schau zuerst nach dem kleinen Wort davor.
+infokratko: Keine Präposition → *komu?* (Dativ). *u, na* → *gdje?* *o* → *o kome? o čemu?*
+opis: Gleiche Endung, andere Aufgabe. Auf welche Frage antwortet die Form auf **-i** oder **-u**?
 - Pišem sestri. | komu? (dativ) | gdje? (lokativ) | o kome? (lokativ)
 - Ana je u školi. | gdje? (lokativ) | komu? (dativ) | o kome? (lokativ)
 - Nosim kolače baki. | komu? (dativ) | gdje? (lokativ) | o kome? (lokativ)
@@ -36,11 +36,11 @@ opis: Same ending, different job. Which question does the form in **-i** or **-u
 - Vjerujem prijatelju. | komu? (dativ) | gdje? (lokativ) | o kome? (lokativ)
 - Djeca su na moru. | gdje? (lokativ) | komu? (dativ) | o kome? (lokativ)
 
-## Type the dative
+## Schreib den Dativ
 format: upis
-info: Typed production of the receiver. A word in **-a** turns it into **-i** (*susjedi, tati*), a consonant or **-o** takes **-u** (*nećaku, Marku*), and *pas* drops its *a*. The last two are plural: swap the last vowel for **-ima** or **-ama**.
-infokratko: **-a → -i**, consonant or **-o** → **-u**, *psu*. Plural: **-ima / -ama**.
-opis: Type the receiver's form. The last two are plural.
+info: Geschriebene Produktion des Empfängers. Ein Wort auf **-a** macht daraus **-i** (*susjedi, tati*), ein Konsonant oder **-o** bekommt **-u** (*nećaku, Marku*), und *pas* verliert sein *a*. Die letzten zwei sind Plural: Tausch den letzten Vokal gegen **-ima** oder **-ama**.
+infokratko: **-a → -i**, Konsonant oder **-o** → **-u**, *psu*. Plural: **-ima / -ama**.
+opis: Schreib die Empfängerform. Die letzten zwei sind Plural.
 - baka → | baki
 - djed → | djedu
 - prijateljica → | prijateljici
@@ -58,9 +58,9 @@ opis: Type the receiver's form. The last two are plural.
 
 ## Wähle die Form
 format: izbor
-info: Choosing the receiver's form in a sentence. The mistakes to avoid are the naming form (*brat*), the target form (*brata, prijateljicu*) and a plural with the wrong vowel (*sestrima*). *Pomagati, vjerovati* and *zahvaliti* take the dative, although English has no *to*.
-infokratko: Not *brat*, not *brata*: *bratu*. Plural f. **-ama**. *pomagati, vjerovati, zahvaliti* + dative.
-opis: Choose the correct form. The bracket gives the naming form where you need it.
+info: Die Empfängerform im Satz wählen. Zu vermeiden sind die Grundform (*brat*), die Zielform (*brata, prijateljicu*) und ein Plural mit dem falschen Vokal (*sestrima*). *Pomagati, vjerovati* und *zahvaliti* nehmen den Dativ – wie im Deutschen *helfen, vertrauen, danken*.
+infokratko: Nicht *brat*, nicht *brata*: *bratu*. Plural f. **-ama**. *pomagati, vjerovati, zahvaliti* + Dativ.
+opis: Wähle die richtige Form. Die Klammer gibt die Grundform an, wo du sie brauchst.
 - ___ šaljem pismo. | Bratu | Brat | Brata
 - ___ dajem novine. | Susjedu | Susjed | Susjeda
 - Kupujem kartu ___ . | prijateljici | prijateljica | prijateljicu
@@ -74,57 +74,57 @@ opis: Choose the correct form. The bracket gives the naming form where you need 
 - ___ kupuješ parfem? — Mami. | Komu | Koga | Tko
 - ___ dajem vodu. (pas) | Psu | Pasu | Psa
 
-## The rule: more receivers
+## Die Regel: mehr Empfänger
 format: tekst
-info: Two additions. In the plural the receiver takes **-ima** (masculine) or **-ama** (feminine), the same as the plural locative. And several verbs take a receiver where English has no *to*: *pomagati, vjerovati, zahvaliti*. The person is still the receiver, so it takes the dative.
-infokratko: Plural **-ima / -ama**. *pomagati, vjerovati, zahvaliti* take the dative.
+info: Zwei Ergänzungen. Im Plural bekommt der Empfänger **-ima** (maskulin) oder **-ama** (feminin), wie im Lokativ Plural. Und einige Verben haben einen Empfänger im Dativ, genau wie im Deutschen: *pomagati* (helfen), *vjerovati* (vertrauen), *zahvaliti* (danken). Die Person ist der Empfänger, also steht sie im Dativ.
+infokratko: Plural **-ima / -ama**. *pomagati, vjerovati, zahvaliti* nehmen den Dativ.
 infoodmah: da
-- **Plural: -ima and -ama.** Start from the plural of Lesson 7 and swap its last vowel, exactly as in Grammar 13.
-- tab: Singular | Plural | Plural receiver
+- **Plural: -ima und -ama.** Geh vom Plural aus Lektion 7 aus und tausch seinen letzten Vokal, genau wie in Grammatik 13.
+- tab: Singular | Plural | Empfänger Plural
 - tab: prijatelj | prijatelji | prijatelj**ima**
 - tab: susjed | susjedi | susjed**ima**
 - tab: turist | turisti | turist**ima**
 - tab: sestra | sestre | sestr**ama**
 - tab: kolegica | kolegice | kolegic**ama**
-- **A receiver without *to* in English.** With these verbs the person takes the dative, and the English has no preposition at all.
+- **Dativ wie im Deutschen.** Bei diesen Verben steht die Person im Dativ – wie bei *helfen, vertrauen, danken*.
 - tab: Kroatisch | Deutsch
-- tab: Pomažem **mami**. | I help Mum.
-- tab: Vjerujem **prijatelju**. | I trust my friend.
-- tab: Zahvalit ću **učiteljici**. | I'll thank the teacher.
-- **A receiver and a thing.** With *davati, slati, donijeti, posuditi, vratiti, pokazati* and *objasniti* the person takes the dative and the thing the target form: *Nećaku ću posuditi knjigu.* · *Vratit ću Ivanu kišobran.*
-- ***Za* + the target form** means the same with buying: *Kupujem poklon **za mamu**.* = *Kupujem **mami** poklon.* You met *za koga?* in Lesson 11.
-- **Now you write them.** Your friends get an e-mail: Pišem e-mail [prijateljima]. You help Mum: Pomažem [mami]. You trust your sisters: Vjerujem [sestrama].
+- tab: Pomažem **mami**. | Ich helfe Mama.
+- tab: Vjerujem **prijatelju**. | Ich vertraue meinem Freund.
+- tab: Zahvalit ću **učiteljici**. | Ich werde der Lehrerin danken.
+- **Ein Empfänger und eine Sache.** Bei *davati, slati, donijeti, posuditi, vratiti, pokazati* und *objasniti* steht die Person im Dativ und die Sache in der Zielform: *Nećaku ću posuditi knjigu.* · *Vratit ću Ivanu kišobran.*
+- ***Za* + Zielform** bedeutet beim Kaufen dasselbe: *Kupujem poklon **za mamu**.* = *Kupujem **mami** poklon.* – wie *für Mama* und *der Mama*. *Za koga?* kennst du aus Lektion 11.
+- **Jetzt schreibst du sie.** Deine Freunde bekommen eine E-Mail: Pišem e-mail [prijateljima]. Du hilfst Mama: Pomažem [mami]. Du vertraust deinen Schwestern: Vjerujem [sestrama].
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap completes the receiver, and the English decides singular or plural. In the singular **-a** gives **-i** and a consonant or **-o** gives **-u**; in the plural masculine words take **-ima**, feminine words **-ama**. Watch *tata* (**-i**) and *Marko* (**-u**).
-infokratko: Singular **-i / -u**; plural **-ima** (m.), **-ama** (f.). *tati, Marku*.
+info: Ein Tippen vervollständigt den Empfänger, und das Deutsche entscheidet über Singular oder Plural. Im Singular ergibt **-a** ein **-i** und ein Konsonant oder **-o** ein **-u**; im Plural bekommen Maskulina **-ima**, Feminina **-ama**. Achte auf *tata* (**-i**) und *Marko* (**-u**).
+infokratko: Singular **-i / -u**; Plural **-ima** (m.), **-ama** (f.). *tati, Marku*.
 nastavci: i | u | ima | ama
-opis: English above, Croatian below. One tap finishes the receiver — one person or several?
-- Mam___ kupujem parfem. | I'm buying Mum perfume. | i
-- Nećak___ šaljem poster. | I'm sending my nephew a poster. | u
-- Prijatelj___ pišem e-mail. | I'm writing my friends an e-mail. | ima
-- Sestr___ šaljem razglednice. | I'm sending my sisters postcards. | ama
-- Tat___ pomažem u vrtu. | I'm helping Dad in the garden. | i
-- Kum___ nosim kolače. | I'm bringing my godfather cakes. | u
-- Kolegic___ kupujem kavu. | I'm buying my colleagues coffee. | ama
-- Turist___ ću pokazati grad. | I'll show the tourists the town. | ima
-- Vratit ću Mark___ loptu. | I'll give Marko back his ball. | u
-- Zahvalit ću učiteljic___. | I'll thank the teacher. | i
-- Nećakinj___ šaljem igračku. | I'm sending my niece a toy. | i
-- Vjerujem prijatelj___. | I trust my friend. | u
-- Susjed___ nosimo kolače. | We're bringing the neighbours cakes. | ima
-- Šefic___ šaljem poruku. | I'm sending the boss a message. | i
-- Učiteljic___ nosimo cvijeće. | We're bringing the teachers flowers. | ama
-- Posudit ću kišobran kolegic___. | I'll lend my colleague an umbrella. | i
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen vollendet den Empfänger – eine Person oder mehrere?
+- Mam___ kupujem parfem. | Ich kaufe Mama Parfüm. | i
+- Nećak___ šaljem poster. | Ich schicke meinem Neffen ein Poster. | u
+- Prijatelj___ pišem e-mail. | Ich schreibe meinen Freunden eine E-Mail. | ima
+- Sestr___ šaljem razglednice. | Ich schicke meinen Schwestern Postkarten. | ama
+- Tat___ pomažem u vrtu. | Ich helfe Papa im Garten. | i
+- Kum___ nosim kolače. | Ich bringe meinem Paten Kuchen. | u
+- Kolegic___ kupujem kavu. | Ich kaufe meinen Kolleginnen Kaffee. | ama
+- Turist___ ću pokazati grad. | Ich werde den Touristen die Stadt zeigen. | ima
+- Vratit ću Mark___ loptu. | Ich werde Marko seinen Ball zurückgeben. | u
+- Zahvalit ću učiteljic___. | Ich werde der Lehrerin danken. | i
+- Nećakinj___ šaljem igračku. | Ich schicke meiner Nichte ein Spielzeug. | i
+- Vjerujem prijatelj___. | Ich vertraue meinem Freund. | u
+- Susjed___ nosimo kolače. | Wir bringen den Nachbarn Kuchen. | ima
+- Šefic___ šaljem poruku. | Ich schicke der Chefin eine Nachricht. | i
+- Učiteljic___ nosimo cvijeće. | Wir bringen den Lehrerinnen Blumen. | ama
+- Posudit ću kišobran kolegic___. | Ich werde meiner Kollegin einen Regenschirm leihen. | i
 
-## The rule: the receiver in one syllable
+## Die Regel: der Empfänger in einer Silbe
 format: tekst
-info: The short receiver words. When the receiver is already known, a pronoun replaces the name: *mi, ti, mu, joj, nam, vam, im*. Like *sam* and *ga*, they are unstressed and stand in second place — also after *da, jer, ako, kad* — and never open a sentence.
-infokratko: *mi, ti, mu, joj, nam, vam, im* replace a known receiver; second place, never first.
+info: Die kurzen Empfängerwörter. Wenn der Empfänger schon bekannt ist, ersetzt ein Pronomen den Namen: *mi, ti, mu, joj, nam, vam, im*. Wie *sam* und *ga* sind sie unbetont und stehen an zweiter Stelle – auch nach *da, jer, ako, kad* – und eröffnen nie einen Satz.
+infokratko: *mi, ti, mu, joj, nam, vam, im* ersetzen einen bekannten Empfänger; zweite Stelle, nie die erste.
 infoodmah: da
-- **A pronoun replaces a known receiver.** *Dajem bratu loptu.* → *Dajem **mu** loptu.* In everyday speech this short form is the normal one.
-- tab: Person | Receiver (short) | Example
+- **Ein Pronomen ersetzt einen bekannten Empfänger.** *Dajem bratu loptu.* → *Dajem **mu** loptu.* – wie *dem Bruder* → *ihm*. Im Alltag ist diese kurze Form die normale.
+- tab: Person | Empfänger (kurz) | Beispiel
 - tab: ja | **mi** | Baka **mi** šalje paket.
 - tab: ti | **ti** | Mama **ti** šalje razglednicu.
 - tab: on, ono | **mu** | Dajem **mu** loptu.
@@ -132,16 +132,16 @@ infoodmah: da
 - tab: mi | **nam** | Poštar **nam** nosi novine.
 - tab: vi | **vam** | Kupujem **vam** karte.
 - tab: oni, one, ona | **im** | Šaljem **im** poklon.
-- **Mi and ti have two meanings.** *Mi* is also *we*, and *ti* is also *you*. The position shows which: at the start of the sentence it is the subject (*Mi radimo.*), in second place after another word it is the receiver (*Mama **mi** kuha ručak.*).
-- **Second place, as with sam and ga.** The short form comes after the first word or phrase, also after *da, jer, ako, kad*: *Znam da **mu** šalješ paket.* It never opens a sentence: *Mu dajem loptu* is wrong.
-- **Receiver first, then the target.** When a receiver pronoun and a target pronoun meet, the dative comes first: *Dajem **mu ga**.* — I'm giving it to him. *Šaljem **joj ga**.* — I'm sending it to her.
-- **Now you write them.** Dajem loptu bratu → Dajem [mu] loptu. Pišem sestri → Pišem [joj]. Dajem mu loptu → Dajem mu [je].
+- **Mi und ti haben zwei Bedeutungen.** *Mi* heißt auch *wir*, und *ti* heißt auch *du*. Die Stellung zeigt, welches: Am Satzanfang ist es das Subjekt (*Mi radimo.*), an zweiter Stelle nach einem anderen Wort der Empfänger (*Mama **mi** kuha ručak.*).
+- **Zweite Stelle, wie bei sam und ga.** Die kurze Form kommt nach dem ersten Wort oder der ersten Wortgruppe, auch nach *da, jer, ako, kad*: *Znam da **mu** šalješ paket.* Sie eröffnet nie einen Satz: *Mu dajem loptu* ist falsch.
+- **Erst der Empfänger, dann das Ziel.** Wenn ein Empfängerpronomen und ein Zielpronomen zusammentreffen, kommt der Dativ zuerst: *Dajem **mu ga**.* – Ich gebe ihn ihm. *Šaljem **joj ga**.* – Ich schicke ihn ihr. Achtung: Im Deutschen steht hier der Akkusativ zuerst.
+- **Jetzt schreibst du sie.** Dajem loptu bratu → Dajem [mu] loptu. Pišem sestri → Pišem [joj]. Dajem mu loptu → Dajem mu [je].
 
-## Replace the receiver
+## Ersetze den Empfänger
 format: upis
-info: Rewriting each sentence with the short form. The receiver disappears from its place and the short word takes the second position: after the verb here, or after *ću* in the future (*Posudit ću mu*). Everything else in the sentence stays as it was.
-infokratko: Short form in second place, after *ću* in the future: *Posudit ću mu kišobran.*
-opis: Say it again, with the short form instead of the name.
+info: Jeden Satz mit der kurzen Form neu schreiben. Der Empfänger verschwindet von seinem Platz, und das kurze Wort nimmt die zweite Stelle ein: hier nach dem Verb oder im Futur nach *ću* (*Posudit ću mu*). Alles andere im Satz bleibt, wie es war.
+infokratko: Kurze Form an zweiter Stelle, im Futur nach *ću*: *Posudit ću mu kišobran.*
+opis: Sag es noch einmal, mit der kurzen Form statt des Namens.
 - Dajem bratu loptu. → | Dajem mu loptu
 - Pišem sestri pismo. → | Pišem joj pismo
 - Baka šalje meni paket. → | Baka mi šalje paket
@@ -155,11 +155,11 @@ opis: Say it again, with the short form instead of the name.
 - Posudit ću nećaku kišobran. → | Posudit ću mu kišobran
 - Vratit ću sestrama knjige. → | Vratit ću im knjige
 
-## Which little word?
+## Welches kleine Wort?
 format: izbor
-info: Replacing the receiver in capitals. Three checks decide it: the receiver needs the dative form (*mu*, not *ga*), the short form stands in second place and never first, and when two short forms meet, the dative comes before the target and after *ću*.
-infokratko: Dative (*mu*, not *ga*); second place, never first; *ću* → dative → target.
-opis: Replace the receiver in CAPITALS — and remember the short form can never open the sentence.
+info: Den Empfänger in Großbuchstaben ersetzen. Drei Prüfungen entscheiden: Der Empfänger braucht die Dativform (*mu*, nicht *ga*), die kurze Form steht an zweiter Stelle und nie an erster, und wenn zwei kurze Formen zusammentreffen, kommt der Dativ vor dem Ziel und nach *ću*.
+infokratko: Dativ (*mu*, nicht *ga*); zweite Stelle, nie die erste; *ću* → Dativ → Ziel.
+opis: Ersetze den Empfänger in GROSSBUCHSTABEN – und denk daran, dass die kurze Form nie den Satz eröffnen kann.
 - Dajem loptu BRATU. | Dajem mu loptu. | Mu dajem loptu. | Dajem ga loptu.
 - Pišem SESTRI. | Pišem joj. | Joj pišem.
 - Baka šalje paket MENI. | Baka mi šalje paket. | Baka šalje mi paket. | Mi baka šalje paket.
@@ -168,18 +168,18 @@ opis: Replace the receiver in CAPITALS — and remember the short form can never
 - Poštar nosi novine NAMA. | Poštar nam nosi novine. | Poštar nas nosi novine. | Poštar nosi nam novine.
 - Pomažem MAMI. | Pomažem joj. | Pomažem je. | Joj pomažem.
 - Vjerujem MARKU. | Vjerujem mu. | Vjerujem ga. | Mu vjerujem.
-- Dajem loptu bratu. (both as pronouns) | Dajem mu je. | Dajem je mu. | Mu je dajem.
-- Šaljem paket sestri. (both as pronouns) | Šaljem joj ga. | Šaljem ga joj. | Joj ga šaljem.
+- Dajem loptu bratu. (beide als Pronomen) | Dajem mu je. | Dajem je mu. | Mu je dajem.
+- Šaljem paket sestri. (beide als Pronomen) | Šaljem joj ga. | Šaljem ga joj. | Joj ga šaljem.
 - Kupit ću parfem MAMI. | Kupit ću joj parfem. | Kupit joj ću parfem. | Joj ću kupiti parfem.
 - Mama kuha ručak MENI. | Mama mi kuha ručak. | Mi mama kuha ručak. | Mama kuha mi ručak.
 
-## The rule: long forms and the order
+## Die Regel: lange Formen und die Reihenfolge
 format: tekst
-info: The long receiver forms and the order of short words. *Meni, tebi, njemu, njoj, nama, vama, njima* — the forms you used after *o* in Grammar 13 — carry stress, so they are used for contrast and one-word answers. In a cluster the helper comes first, then the dative, then the target.
-infokratko: Long forms for contrast and answers: *Meni, ne tebi!* Order: helper → dative → target; *je* last.
+info: Die langen Empfängerformen und die Reihenfolge der kurzen Wörter. *Meni, tebi, njemu, njoj, nama, vama, njima* – die Formen, die du in Grammatik 13 nach *o* benutzt hast – sind betont, deshalb verwendet man sie für Kontrast und Ein-Wort-Antworten. In einer Gruppe kommt zuerst das Hilfsverb, dann der Dativ, dann das Ziel.
+infokratko: Lange Formen für Kontrast und Antworten: *Meni, ne tebi!* Reihenfolge: Hilfsverb → Dativ → Ziel; *je* zuletzt.
 infoodmah: da
-- **Each short form has a long twin.** The long form is stressed, so it can open a sentence or stand alone.
-- tab: Short | Long | Example with the long form
+- **Jede kurze Form hat einen langen Zwilling.** Die lange Form ist betont, also kann sie einen Satz eröffnen oder allein stehen.
+- tab: Kurz | Lang | Beispiel mit der langen Form
 - tab: mi | **meni** | **Meni** šalje paket, ne tebi!
 - tab: ti | **tebi** | Kupujem cvijeće **tebi**, a ne Ani.
 - tab: mu | **njemu** | Pišem **njemu**, a ne sestri.
@@ -187,22 +187,22 @@ infoodmah: da
 - tab: nam | **nama** | Poštar nosi novine **nama**, a ne susjedu.
 - tab: vam | **vama** | **Vama** šaljem poruku.
 - tab: im | **njima** | Komu pišeš? — **Njima**.
-- **A one-word answer is always long.** *Komu pišeš? — **Njoj**.* A short form cannot stand alone.
-- **The same forms as the locative.** *Meni, tebi, njemu* are the forms from *o meni, o tebi, o njemu* in Grammar 13 — one form, two jobs again.
-- **The order of short words.** First *li* or the helper (*sam, si, ću, ćeš…*), then the dative, then the target. The helper *je* is the exception and goes last.
+- **Eine Ein-Wort-Antwort ist immer lang.** *Komu pišeš? — **Njoj**.* Eine kurze Form kann nicht allein stehen.
+- **Dieselben Formen wie beim Lokativ.** *Meni, tebi, njemu* sind die Formen aus *o meni, o tebi, o njemu* in Grammatik 13 – wieder eine Form, zwei Aufgaben.
+- **Die Reihenfolge der kurzen Wörter.** Zuerst *li* oder das Hilfsverb (*sam, si, ću, ćeš…*), dann der Dativ, dann das Ziel. Das Hilfsverb *je* ist die Ausnahme und kommt zuletzt.
 - tab: Kroatisch | Deutsch
-- tab: Kupit ću **joj** šal. | I'll buy her a scarf.
-- tab: Šalješ li **mi** poruku? | Are you sending me a message?
-- tab: Poslali smo **mu ga**. | We sent it to him.
-- tab: Baka **mu je** poslala paket. | Grandma sent him a package.
-- **Now you write them.** Komu šalješ paket? Not to him — to her: [Njoj]! Grandma sent him a package: Baka [mu] je poslala paket. You'll buy her a scarf: Kupit ću [joj] šal.
+- tab: Kupit ću **joj** šal. | Ich werde ihr einen Schal kaufen.
+- tab: Šalješ li **mi** poruku? | Schickst du mir eine Nachricht?
+- tab: Poslali smo **mu ga**. | Wir haben es ihm geschickt.
+- tab: Baka **mu je** poslala paket. | Oma hat ihm ein Paket geschickt.
+- **Jetzt schreibst du sie.** Komu šalješ paket? Nicht ihm – ihr: [Njoj]! Oma hat ihm ein Paket geschickt: Baka [mu] je poslala paket. Du wirst ihr einen Schal kaufen: Kupit ću [joj] šal.
 
-## Komu or koga?
+## Komu oder koga?
 format: razvrstavanje
-info: Sorting pronouns by their job. The receiver forms answer *komu?* (*mi, mu, joj, nam, vam, im* and the long *meni, njoj*); the target forms from Grammar 6 answer *koga?* (*me, ga, nas, vas, ih* and the long *mene, njega, nju*). *Mu* and *ga* are the pair most often mixed up.
+info: Pronomen nach ihrer Aufgabe sortieren. Die Empfängerformen antworten auf *komu?* – wem? (*mi, mu, joj, nam, vam, im* und die langen *meni, njoj*); die Zielformen aus Grammatik 6 antworten auf *koga?* – wen? (*me, ga, nas, vas, ih* und die langen *mene, njega, nju*). *Mu* und *ga* werden am häufigsten verwechselt – wie *ihm* und *ihn*.
 infokratko: *komu?* → *mi, mu, joj, nam, vam, im, meni, njoj*. *koga?* → *me, ga, nas, vas, ih, mene, njega, nju*.
 stupci: KOMU? (DATIV) | KOGA? (AKUZATIV)
-opis: Receiver or target? Sort each pronoun.
+opis: Empfänger oder Ziel? Sortiere jedes Pronomen.
 - mi | KOMU? (DATIV)
 - mu | KOMU? (DATIV)
 - joj | KOMU? (DATIV)
@@ -220,27 +220,27 @@ opis: Receiver or target? Sort each pronoun.
 - njega | KOGA? (AKUZATIV)
 - nju | KOGA? (AKUZATIV)
 
-## Long or short?
+## Lang oder kurz?
 format: izbor
-info: Choosing between the long and the short receiver form. The short form goes in second place in an ordinary sentence; the long one opens the sentence, stands in contrast or answers alone. The target forms *me, ga, nas* are the mistake to avoid.
-infokratko: Second place → short (*mi, mu*). First, contrast, alone → long (*meni, njemu*). Not *ga, nas*.
-opis: Choose the form that fits. The bracket tells you who the receiver is.
+info: Zwischen der langen und der kurzen Empfängerform wählen. Die kurze Form steht in einem normalen Satz an zweiter Stelle; die lange eröffnet den Satz, steht im Kontrast oder antwortet allein. Die Zielformen *me, ga, nas* sind der Fehler, den du vermeiden musst.
+infokratko: Zweite Stelle → kurz (*mi, mu*). Erste Stelle, Kontrast, allein → lang (*meni, njemu*). Nicht *ga, nas*.
+opis: Wähle die passende Form. Die Klammer sagt dir, wer der Empfänger ist.
 - Komu pišeš? — ___ . (him) | Njemu | Mu | Njega
 - Baka ___ šalje paket. (to me) | mi | me | mene
 - ___ šalje paket, ne tebi! (to me) | Meni | Mi | Mene
 - Dajem ___ loptu. (to him) | mu | ga | njega
-- Kupujem cvijeće ___, a ne Ani. (to her) | njoj | joj | nju
+- Kupujem cvijeće ___, a ne Ani. (ihr) | njoj | joj | nju
 - Poštar ___ nosi novine. (to us) | nam | nas | ih
-- Šaljem ___ poruku. (to you, plural) | vam | vas | vi
+- Šaljem ___ poruku. (euch) | vam | vas | vi
 - Komu daješ ključ? — ___ . (to them) | Njima | Im | Ih
-- Kupit ću ___ šal. (to her) | joj | je | nju
+- Kupit ću ___ šal. (ihr) | joj | je | nju
 - Mama ___ je poslala paket. (to him) | mu | ga | njega
 
 ## Bau den Satz
 format: slaganje
-info: Whole sentences from tiles, each using a different piece of this unit. The receiver takes **-i, -u, -ima** or **-ama**, a short form such as *mi* or *joj* takes the second tile, and a long form such as *meni* may take the first.
-infokratko: Receiver **-i, -u, -ima, -ama**; short forms second; long forms may come first.
-opis: Build the sentence.
+info: Ganze Sätze aus Kacheln, jeder mit einem anderen Teil dieser Einheit. Der Empfänger bekommt **-i, -u, -ima** oder **-ama**, eine kurze Form wie *mi* oder *joj* nimmt die zweite Kachel, und eine lange Form wie *meni* darf die erste nehmen.
+infokratko: Empfänger **-i, -u, -ima, -ama**; kurze Formen an zweiter Stelle; lange Formen dürfen zuerst kommen.
+opis: Bau den Satz.
 - Mami kupujem cvijeće, a tati knjigu.
 - Poštar nosi susjedu novine.
 - Komu šalješ paket?
@@ -256,28 +256,28 @@ opis: Build the sentence.
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English, the hardest step here. Put the receiver in the dative — **-i, -u, -ima, -ama**, or a short form in second place — and the thing in the target form. Where the word order may vary, the common orders are all accepted.
-infokratko: Receiver in the dative or a short form in second place; the thing in the target form.
-opis: The last step — the English sentence, and you write the Croatian.
-- I'm buying Mum flowers. | Mami kupujem cvijeće / Kupujem mami cvijeće / Kupujem cvijeće mami
-- I'm sending my sister a package. | Sestri šaljem paket / Šaljem sestri paket / Šaljem paket sestri
-- I'm helping Dad. | Pomažem tati
-- I trust my friend. (m.) | Vjerujem prijatelju
-- To whom are you writing? | Komu pišeš
-- I'm writing an e-mail to my friends. | Pišem e-mail prijateljima / Prijateljima pišem e-mail / Pišem prijateljima e-mail
-- Grandma is sending me a package. | Baka mi šalje paket
-- I'm giving him the ball. | Dajem mu loptu
-- I'm writing her a letter. | Pišem joj pismo
-- The postman brings us the newspaper. | Poštar nam nosi novine
-- I'm sending them a present. | Šaljem im poklon / Šaljem im dar
-- I'm giving it to him. (the ball) | Dajem mu je
-- I'll buy her a scarf. | Kupit ću joj šal
-- He's sending the package to me, not to you! | Meni šalje paket, ne tebi / Meni šalje paket, a ne tebi
+info: Freie Produktion aus dem Deutschen, der schwierigste Schritt hier. Setz den Empfänger in den Dativ – **-i, -u, -ima, -ama** oder eine kurze Form an zweiter Stelle – und die Sache in die Zielform. Wo die Wortstellung variieren kann, werden die üblichen Reihenfolgen alle akzeptiert.
+infokratko: Empfänger im Dativ oder als kurze Form an zweiter Stelle; die Sache in der Zielform.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen.
+- Ich kaufe Mama Blumen. | Mami kupujem cvijeće / Kupujem mami cvijeće / Kupujem cvijeće mami
+- Ich schicke meiner Schwester ein Paket. | Sestri šaljem paket / Šaljem sestri paket / Šaljem paket sestri
+- Ich helfe Papa. | Pomažem tati
+- Ich vertraue meinem Freund. (m.) | Vjerujem prijatelju
+- Wem schreibst du? | Komu pišeš
+- Ich schreibe meinen Freunden eine E-Mail. | Pišem e-mail prijateljima / Prijateljima pišem e-mail / Pišem prijateljima e-mail
+- Oma schickt mir ein Paket. | Baka mi šalje paket
+- Ich gebe ihm den Ball. | Dajem mu loptu
+- Ich schreibe ihr einen Brief. | Pišem joj pismo
+- Der Briefträger bringt uns die Zeitung. | Poštar nam nosi novine
+- Ich schicke ihnen ein Geschenk. | Šaljem im poklon / Šaljem im dar
+- Ich gebe ihn ihm. (den Ball) | Dajem mu je
+- Ich werde ihr einen Schal kaufen. | Kupit ću joj šal
+- Er schickt das Paket mir, nicht dir! | Meni šalje paket, ne tebi / Meni šalje paket, a ne tebi
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary. The dative at this level comes down to three facts: the receiver takes the locative endings without a preposition, a known receiver becomes a short form in second place, and the long form is kept for contrast and one-word answers.
-infokratko: Locative endings without a preposition; short forms second; long forms for contrast.
-- **Bravo.** You can now say who gets what — one person or many, by name or with a single short word.
-- And you did it with one rule for each: **the receiver takes the locative endings without a preposition**, **a short form such as *mu* or *joj* stands in second place**, and **the long form — *meni, njoj* — is for contrast and one-word answers.**
-- **Next up:** Practice 14 fills a December of presents, letters and a busy postman, and Test 14 closes the unit. Then Lesson 15 takes you out *with friends* — the instrumental.
+info: Eine abschließende Zusammenfassung. Der Dativ auf dieser Stufe lässt sich auf drei Fakten bringen: Der Empfänger bekommt die Lokativendungen ohne Präposition, ein bekannter Empfänger wird zu einer kurzen Form an zweiter Stelle, und die lange Form bleibt für Kontrast und Ein-Wort-Antworten.
+infokratko: Lokativendungen ohne Präposition; kurze Formen an zweiter Stelle; lange Formen für Kontrast.
+- **Bravo.** Jetzt kannst du sagen, wer was bekommt – eine Person oder viele, mit Namen oder mit einem einzigen kurzen Wort.
+- Und das mit je einer Regel: **Der Empfänger bekommt die Lokativendungen ohne Präposition**, **eine kurze Form wie *mu* oder *joj* steht an zweiter Stelle**, und **die lange Form – *meni, njoj* – ist für Kontrast und Ein-Wort-Antworten.**
+- **Als Nächstes:** Praxis 14 füllt einen Dezember mit Geschenken, Briefen und einem fleißigen Briefträger, und Test 14 schließt die Einheit ab. Dann geht es in Lektion 15 *mit Freunden* aus – der Instrumental.

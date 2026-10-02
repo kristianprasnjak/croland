@@ -1,151 +1,151 @@
-# School & Songs
+# Schule & Lieder
 cjelina: Vocabulary 7
 
-## Masculine — one becomes many with -i
+## Maskulin – aus eins wird viele mit -i
 format: kartice
-info: Flashcards with the plural attached. Masculine nouns take **-i**: *jezik* to *jezici* (a final *k* softens to *c*), *odgovor* to *odgovori*. Short one-syllable ones pad it to **-ovi**: *zid* to *zidovi*, *test* to *testovi*. Neuter nouns in *-o* or *-e* take **-a**: *selo* to *sela*, *pitanje* to *pitanja*. Three words simply have to be memorised: *brat* to **braća**, *čovjek* to **ljudi**, and *riječ* to **riječi**.
-infokratko: Masculine **-i** (*jezik → jezici*), short ones **-ovi** (*zid → zidovi*), neuter **-a** (*selo → sela*). Memorise *braća, ljudi, riječi*.
-opis: Masculine nouns take **-i**, short ones grow **-ovi**, neuter nouns take **-a**. Three at the end play by their own rules.
-- jezik → jezici | language
-- ispit → ispiti | exam
-- odmor → odmori | break
-- dokument → dokumenti | document
-- izvještaj → izvještaji | report
-- odgovor → odgovori | answer
+info: Karteikarten mit angehängtem Plural. Maskuline Nomen nehmen **-i**: *jezik* zu *jezici* (ein *k* am Ende wird weich zu *c*), *odgovor* zu *odgovori*. Kurze einsilbige polstern es zu **-ovi** auf: *zid* zu *zidovi*, *test* zu *testovi*. Neutrale Nomen auf *-o* oder *-e* nehmen **-a**: *selo* zu *sela*, *pitanje* zu *pitanja*. Drei Wörter muss man einfach auswendig lernen: *brat* zu **braća**, *čovjek* zu **ljudi** und *riječ* zu **riječi**.
+infokratko: Maskulin **-i** (*jezik → jezici*), kurze **-ovi** (*zid → zidovi*), neutral **-a** (*selo → sela*). Auswendig: *braća, ljudi, riječi*.
+opis: Maskuline Nomen nehmen **-i**, kurze bekommen **-ovi**, neutrale Nomen nehmen **-a**. Drei am Ende spielen nach eigenen Regeln.
+- jezik → jezici | Sprache
+- ispit → ispiti | Prüfung
+- odmor → odmori | Pause
+- dokument → dokumenti | Dokument
+- izvještaj → izvještaji | Bericht
+- odgovor → odgovori | Antwort
 - zid → zidovi | Wand
-- test → testovi | test
-- iskustvo → iskustva | experience
-- mjesto → mjesta | place
-- pitanje → pitanja | question
-- jutro → jutra | morning
-- selo → sela | village
-- riječ → riječi | word → words
-- brat → braća | brother → brothers
-- čovjek → ljudi | person → people
+- test → testovi | Test
+- iskustvo → iskustva | Erfahrung
+- mjesto → mjesta | Ort
+- pitanje → pitanja | Frage
+- jutro → jutra | Morgen
+- selo → sela | Dorf
+- riječ → riječi | Wort → Wörter
+- brat → braća | Bruder → Brüder
+- čovjek → ljudi | Mensch → Menschen
 
-## Feminine — -a becomes -e
+## Feminin – aus -a wird -e
 format: kartice
-info: The easy group. Feminine nouns in *-a* simply swap it for **-e** in the plural: *škola* to *škole*, *olovka* to *olovke*. No softening and no padding — the *k* in *olovka* stays a *k*. The school subjects at the end are shown in the singular only; almost all are feminine *-a* words too. *povijest* is the odd one: feminine, but it ends in a consonant.
-infokratko: Feminine **-a → -e**: *škola → škole, olovka → olovke*. Subjects in the singular.
-opis: The easiest group: swap the final **-a** for **-e** and you're done. Then the school subjects — nearly all cognates you can read already.
-- škola → škole | school
-- učiteljica → učiteljice | teacher (f.)
-- profesorica → profesorice | teacher (f.)
+info: Die leichte Gruppe. Feminine Nomen auf *-a* tauschen es im Plural einfach gegen **-e**: *škola* zu *škole*, *olovka* zu *olovke*. Keine Erweichung, kein Polster – das *k* in *olovka* bleibt ein *k*. Die Schulfächer am Ende stehen nur im Singular; fast alle sind ebenfalls feminine *-a*-Wörter. *povijest* ist der Sonderfall: feminin, endet aber auf einen Konsonanten.
+infokratko: Feminin **-a → -e**: *škola → škole, olovka → olovke*. Fächer im Singular.
+opis: Die leichteste Gruppe: Tausche das letzte **-a** gegen **-e**, und du bist fertig. Dann die Schulfächer – fast alles Wörter, die du schon lesen kannst.
+- škola → škole | Schule
+- učiteljica → učiteljice | Lehrerin
+- profesorica → profesorice | Lehrerin
 - djevojčica → djevojčice | Mädchen
-- olovka → olovke | pencil
-- kemijska → kemijske | pen
-- torba → torbe | bag
-- zadaća → zadaće | homework
-- ocjena → ocjene | grade
-- pauza → pauze | break
-- lekcija → lekcije | lesson
-- pjesma → pjesme | song
-- lopta → lopte | ball
-- godina → godine | year
-- matematika | mathematics
-- geografija | geography
-- biologija | biology
-- fizika | physics
-- kemija | chemistry
-- povijest | history
+- olovka → olovke | Bleistift
+- kemijska → kemijske | Stift, Kuli
+- torba → torbe | Tüte
+- zadaća → zadaće | Hausaufgabe
+- ocjena → ocjene | Note
+- pauza → pauze | Pause
+- lekcija → lekcije | Unterrichtsstunde
+- pjesma → pjesme | Lied
+- lopta → lopte | Ball
+- godina → godine | Jahr
+- matematika | Mathematik
+- geografija | Erdkunde
+- biologija | Biologie
+- fizika | Physik
+- kemija | Chemie
+- povijest | Geschichte
 
-## Ten new verbs
+## Zehn neue Verben
 format: kartice
-info: Verbs with their plural persons attached. **-mo** and **-te** never vary; only the *they* form follows the family — *pjevaju* for *-am* verbs, *broje* for *brojati*, *plešu* for *plesati*. Below them are words for how things are done. Adverbs like *glasno* and *brzo* never change shape; the adjectives *kratak* and *težak* show their plural form, *kratki* and *teški*.
-infokratko: **-mo**, **-te** always; *they* by family: *pjevaju, broje, plešu*. Adverbs never change (*glasno, brzo*).
-opis: School verbs, each with the three plural forms, then the words for how the day goes. *Dobro došli!* greets a whole class.
-- pjevati → pjevamo, pjevate, pjevaju | to sing
-- igrati → igramo, igrate, igraju | to play (a game)
-- svirati → sviramo, svirate, sviraju | to play (an instrument)
-- pitati → pitamo, pitate, pitaju | to ask
-- vježbati → vježbamo, vježbate, vježbaju | to practice
-- znati → znamo, znate, znaju | to know
-- ponavljati → ponavljamo, ponavljate, ponavljaju | to repeat
-- odgovarati → odgovaramo, odgovarate, odgovaraju | to answer
-- brojati → brojimo, brojite, broje | to count
-- plesati → plešemo, plešete, plešu | to dance
-- glasno | loudly
-- tiho | quietly
-- brzo | quickly
-- polako | slowly
+info: Verben mit angehängten Personen im Plural. **-mo** und **-te** ändern sich nie; nur die *sie*-Form folgt der Familie – *pjevaju* bei *-am*-Verben, *broje* bei *brojati*, *plešu* bei *plesati*. Darunter stehen Wörter dafür, wie Dinge getan werden. Adverbien wie *glasno* und *brzo* ändern nie ihre Form; die Adjektive *kratak* und *težak* zeigen ihre Pluralform, *kratki* und *teški*.
+infokratko: **-mo**, **-te** immer; *sie* nach Familie: *pjevaju, broje, plešu*. Adverbien ändern sich nie (*glasno, brzo*).
+opis: Schulverben, jedes mit den drei Pluralformen, dann die Wörter dafür, wie der Tag läuft. *Dobro došli!* begrüßt eine ganze Klasse.
+- pjevati → pjevamo, pjevate, pjevaju | singen
+- igrati → igramo, igrate, igraju | spielen (ein Spiel)
+- svirati → sviramo, svirate, sviraju | spielen (ein Instrument)
+- pitati → pitamo, pitate, pitaju | fragen
+- vježbati → vježbamo, vježbate, vježbaju | üben
+- znati → znamo, znate, znaju | wissen, können
+- ponavljati → ponavljamo, ponavljate, ponavljaju | wiederholen
+- odgovarati → odgovaramo, odgovarate, odgovaraju | antworten
+- brojati → brojimo, brojite, broje | zählen
+- plesati → plešemo, plešete, plešu | tanzen
+- glasno | laut
+- tiho | leise
+- brzo | schnell
+- polako | langsam
 - kratak / kratki | klein (Person)
-- težak / teški | hard, heavy
-- zanimljiv | interesting
-- dosadan | boring
-- Dobro došli! | Welcome!
+- težak / teški | schwer
+- zanimljiv | interessant
+- dosadan | langweilig
+- Dobro došli! | Willkommen!
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word recognition, all in the singular. Fix each word's final letter in mind as you go — it is the gender clue that decides which plural ending the word will take.
-infokratko: Singular forms. The last letter tells the plural ending.
+info: Bild-Wort-Wiedererkennen, alles im Singular. Merk dir bei jedem Wort den letzten Buchstaben – er ist der Genus-Hinweis, der entscheidet, welche Pluralendung das Wort nimmt.
+infokratko: Singularformen. Der letzte Buchstabe verrät die Pluralendung.
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- škola | school
+- škola | Schule
 - učiteljica | Lehrer
 - djevojčica | Mädchen
-- olovka | pencil
-- torba | bag
-- pjesma | song
-- lopta | ball
+- olovka | Bleistift
+- torba | Tüte
+- pjesma | Lied
+- lopta | Ball
 - zid | Wand
-- test | test
-- dokument | document
-- jutro | morning
-- selo | village
+- test | Test
+- dokument | Dokument
+- jutro | Morgen
+- selo | Dorf
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning, in the **singular**: *škola*, not *škole*. Verbs are wanted as infinitives, ending in **-ti**: *pjevati*, not *pjevamo*. The diacritics are full letters: *zadaća* has **ć**, *djevojčica* and *riječ* have **č**, and *pitanje* has **nj**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once, in the singular (*škola*); verbs as infinitives (*pjevati*). Diacritics count: *zadaća, riječ, pitanje*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung, im **Singular**: *škola*, nicht *škole*. Verben werden als Infinitive gesucht, auf **-ti**: *pjevati*, nicht *pjevamo*. Die diakritischen Zeichen sind vollwertige Buchstaben: *zadaća* hat **ć**, *djevojčica* und *riječ* haben **č**, und *pitanje* hat **nj**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal, im Singular (*škola*); Verben als Infinitive (*pjevati*). Diakritische Zeichen zählen: *zadaća, riječ, pitanje*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- exam | ispit
-- answer | odgovor
-- language | jezik
+- Prüfung | ispit
+- Antwort | odgovor
+- Sprache | jezik
 - Wand | zid
-- school | škola
+- Schule | škola
 - Mädchen | djevojčica
-- pencil | olovka
-- homework | zadaća
-- grade | ocjena
-- song | pjesma
-- question | pitanje
-- village | selo
-- word | riječ
-- to sing | pjevati
-- to dance | plesati
+- Bleistift | olovka
+- Hausaufgabe | zadaća
+- Note | ocjena
+- Lied | pjesma
+- Frage | pitanje
+- Dorf | selo
+- Wort | riječ
+- singen | pjevati
+- tanzen | plesati
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–5, half and half. Two pairs to keep apart: *đak* is a pupil, while *dečko* is a boy; *svirati* is to play an instrument, while *birati* is to choose.
-infokratko: New and old words against the clock. *đak* pupil, *dečko* boy; *svirati* to play, *birati* to choose.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Lektion 0 und Wortschatz 1–5, halb und halb. Zwei Paare zum Auseinanderhalten: *đak* ist ein Schüler, *dečko* dagegen ein Junge; *svirati* heißt ein Instrument spielen, *birati* dagegen wählen.
+infokratko: Neue und alte Wörter gegen die Uhr. *đak* Schüler, *dečko* Junge; *svirati* spielen, *birati* wählen.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- kemijska | pen
+- kemijska | Stift, Kuli
 - đak | Schüler
-- lekcija | lesson
+- lekcija | Unterrichtsstunde
 - film | Film
-- godina | year
-- birati | to choose
-- jutro | morning
+- godina | Jahr
+- birati | wählen, aussuchen
+- jutro | Morgen
 - grad | Stadt
-- ljudi | people
+- ljudi | Menschen, Leute
 - jesti | essen
-- odmor | break
+- odmor | Pause
 - farma | Bauernhof
-- svirati | to play (an instrument)
+- svirati | spielen (ein Instrument)
 - jogurt | Joghurt
-- brojati | to count
+- brojati | zählen
 - dama | Dame
-- glasno | loudly
+- glasno | laut
 - kava | Kaffee
-- dosadan | boring
+- dosadan | langweilig
 - dečko | Junge, Freund (Partner)
 
-## Which plural ending?
+## Welche Pluralendung?
 format: razvrstavanje
-info: Predict the plural from the singular, with today's words and older ones. The clue is the last letter: a consonant means masculine **-i** (*novinar → novinari*), *-a* means feminine **-e** (*boca → boce*), *-o* or *-e* means neuter **-a** (*kino → kina*). Find the gender and the ending follows.
-infokratko: Consonant **-i**, *-a* **-e**, *-o/-e* **-a**.
+info: Sag den Plural aus dem Singular voraus, mit Wörtern von heute und älteren. Der Hinweis ist der letzte Buchstabe: Ein Konsonant heißt maskulin **-i** (*novinar → novinari*), *-a* heißt feminin **-e** (*boca → boce*), *-o* oder *-e* heißt neutral **-a** (*kino → kina*). Finde das Genus, und die Endung folgt.
+infokratko: Konsonant **-i**, *-a* **-e**, *-o/-e* **-a**.
 stupci: -I | -E | -A
-opis: Sort by the ending each word takes in the plural. Masculine takes -i, feminine -e, neuter -a.
+opis: Sortiere nach der Endung, die jedes Wort im Plural nimmt. Maskulin nimmt -i, feminin -e, neutral -a.
 - ispit | -I
 - odgovor | -I
 - izvještaj | -I
@@ -165,18 +165,18 @@ opis: Sort by the ending each word takes in the plural. Masculine takes -i, femi
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones, all in the **singular**: *torba*, not *torbe*. Verbs as infinitives again, adjectives in the short form (*težak*, *hladan*). The diacritics count: *čekati* and *čistiti* start with **č**, *težak* has **ž**, *Njemica* starts with **Nj**, and *povijest* is written with **ije**, just as it sounds.
-infokratko: Mixed final round. Singular forms, verbs as infinitives. Diacritics count: *čekati, težak, Njemica*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren, alle im **Singular**: *torba*, nicht *torbe*. Verben wieder als Infinitive, Adjektive in der Kurzform (*težak*, *hladan*). Die diakritischen Zeichen zählen: *čekati* und *čistiti* beginnen mit **č**, *težak* hat **ž**, *Njemica* beginnt mit **Nj**, und *povijest* wird mit **ije** geschrieben, genau wie es klingt.
+infokratko: Gemischte Schlussrunde. Singularformen, Verben als Infinitive. Diakritische Zeichen zählen: *čekati, težak, Njemica*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- bag | torba
+- Tüte | torba
 - warten | čekati
-- history | povijest
+- Geschichte | povijest
 - Gitarre | gitara
-- place | mjesto
+- Ort | mjesto
 - putzen | čistiti
-- heavy | težak
+- schwer | težak
 - kalt | hladan
-- slowly | polako
+- langsam | polako
 - woher | odakle
-- to repeat | ponavljati
+- wiederholen | ponavljati
 - Deutsche | Njemica

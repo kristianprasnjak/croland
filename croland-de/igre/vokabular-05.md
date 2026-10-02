@@ -1,148 +1,148 @@
-# Shopping & Food
+# Einkaufen & Essen
 cjelina: Vocabulary 5
 
-## Feminine food — the ones that change
+## Feminine Lebensmittel – die, die sich ändern
 format: kartice
-info: Flashcards learned as pairs. The left form names the thing, the right form is what you say after a verb that acts on it: *jagoda → jedem jagod**u***. Only the last letter differs, so store the pair as one item. The same goes for the shop words at the end: *Idem u trgovin**u***, *Trebam vrećic**u***.
-infokratko: Learn in pairs: name and target. *jagoda → jedem jagodu*, *trgovina → idem u trgovinu*.
-opis: Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it, buy it or go into it. Read the English, say the pair aloud, then flip to check. Tap + to save a word to your dictionary.
-- voda → vodu | water
-- juha → juhu | soup
-- salata → salatu | salad, lettuce
-- pita → pitu | pie
-- jagoda → jagodu | strawberry
-- breskva → breskvu | peach
-- kruška → krušku | pear
-- naranča → naranču | orange
-- rajčica → rajčicu | tomato
-- mrkva → mrkvu | carrot
-- riža → rižu | rice
-- tržnica → tržnicu | market
-- trgovina → trgovinu | shop, store
-- pekara → pekaru | bakery
-- vrećica → vrećicu | bag
-- boca → bocu | bottle
-- cijena → cijenu | price
-- kutija → kutiju | box
+info: Karteikarten, als Paare gelernt. Die linke Form benennt die Sache, die rechte ist das, was du nach einem Verb sagst, das darauf wirkt: *jagoda → jedem jagod**u***. Nur der letzte Buchstabe unterscheidet sich, also merk dir das Paar als eine Einheit. Dasselbe gilt für die Ladenwörter am Ende: *Idem u trgovin**u***, *Trebam vrećic**u***.
+infokratko: Lerne in Paaren: Name und Ziel. *jagoda → jedem jagodu*, *trgovina → idem u trgovinu*.
+opis: Jedes Wort hier endet auf **-a**, und jedes macht aus diesem -a ein **-u**, sobald du es trinkst, isst, kaufst oder hineingehst. Lies das Deutsche, sag das Paar laut und dreh dann um, um zu prüfen. Tippe auf +, um ein Wort in dein Wörterbuch zu speichern.
+- voda → vodu | Wasser
+- juha → juhu | Suppe
+- salata → salatu | Salat
+- pita → pitu | Pita (gefüllter Teigkuchen)
+- jagoda → jagodu | Erdbeere
+- breskva → breskvu | Pfirsich
+- kruška → krušku | Birne
+- naranča → naranču | Orange
+- rajčica → rajčicu | Tomate
+- mrkva → mrkvu | Karotte
+- riža → rižu | Reis
+- tržnica → tržnicu | Markt
+- trgovina → trgovinu | Geschäft, Laden
+- pekara → pekaru | Bäckerei
+- vrećica → vrećicu | Tüte
+- boca → bocu | Flasche
+- cijena → cijenu | Preis
+- kutija → kutiju | Schachtel, Kiste
 
-## The quiet ones — no change at all
+## Die Stillen – überhaupt keine Änderung
 format: kartice
-info: Flashcards for nouns that end in a consonant or in *-o* or *-e*. They look the same whether they name or are the target: *Šećer je u kutiji* and *Trebam šećer*. There is no ending to add here, only the meaning to learn. *dućan*, *kafić*, *račun* and *novac* belong here too.
-infokratko: Consonant or *-o/-e*: same as name or target. *Trebam šećer. Plaćam račun.*
-opis: These don't end in -a, so nothing happens to them. *Jedem meso. Pijem mlijeko. Plaćam račun.* **dućan** and **trgovina** are both a shop, and Croatians use them interchangeably.
-- šećer | sugar
-- luk | onion
-- grah | beans
-- krumpir | potato
-- kolač | cake, pastry
-- limun | lemon
-- jaje | egg
-- meso | meat
-- mlijeko | milk
-- povrće | vegetables
-- voće | fruit
-- dućan | shop, store
+info: Karteikarten für Nomen, die auf einen Konsonanten oder auf *-o* bzw. *-e* enden. Sie sehen gleich aus, ob sie benennen oder Ziel sind: *Šećer je u kutiji* und *Trebam šećer*. Hier gibt es keine Endung anzuhängen, nur die Bedeutung zu lernen. Auch *dućan*, *kafić*, *račun* und *novac* gehören hierher.
+infokratko: Konsonant oder *-o/-e*: gleich als Name oder Ziel. *Trebam šećer. Plaćam račun.*
+opis: Diese enden nicht auf -a, also passiert mit ihnen nichts. *Jedem meso. Pijem mlijeko. Plaćam račun.* **dućan** und **trgovina** heißen beide Laden, und Kroaten verwenden sie austauschbar.
+- šećer | Zucker
+- luk | Zwiebel
+- grah | Bohnen
+- krumpir | Kartoffel
+- kolač | Kuchen, Gebäck
+- limun | Zitrone
+- jaje | Ei
+- meso | Fleisch
+- mlijeko | Milch
+- povrće | Gemüse
+- voće | Obst
+- dućan | Geschäft, Laden
 - kafić | Café
-- račun | bill, receipt
-- novac | money
+- račun | Rechnung, Kassenbon
+- novac | Geld
 
-## Ten new verbs
+## Zehn neue Verben
 format: kartice
-info: Ten verbs with their present-tense forms, then the words you need at the counter. Eight verbs take a target, so a feminine noun after them ends in **-u**: *Kupujem krušk**u***, *Tražim vrećic**u***. Notice *kupovati → kupujem*, where infinitive and ja-form differ. The adjectives come in both shapes (*svjež / svježa*) because they agree with their noun: *svježa riba*, but *svjež kruh*.
-infokratko: Feminine target **-u**: *Kupujem krušku*. *kupovati → kupujem*. Adjectives agree: *svjež / svježa*.
-opis: Eight of the verbs take a target — *ići* and *koštati* do not. *Izvolite?* is the single most useful word in a Croatian shop: it means both "How can I help you?" and "Here you are."
-- kupovati → kupujem, kupuješ, kupuje | to buy
-- trebati → trebam, trebaš, treba | to need
-- ići → idem, ideš, ide | to go
-- plaćati → plaćam, plaćaš, plaća | to pay
-- tražiti → tražim, tražiš, traži | to look for
-- birati → biram, biraš, bira | to choose
-- nositi → nosim, nosiš, nosi | to carry, to wear
-- uzimati → uzimam, uzimaš, uzima | to take
-- prodavati → prodajem, prodaješ, prodaje | to sell
-- koštati → košta | to cost
-- Izvolite? | How can I help you? / Here you are.
-- molim | please
-- svjež / svježa | fresh
-- skup / skupa | expensive
-- jeftin / jeftina | cheap
-- ukusan / ukusna | tasty
-- subota | Saturday
-- danas | today
-- jedna | one (feminine)
+info: Zehn Verben mit ihren Präsensformen, dann die Wörter, die du an der Theke brauchst. Acht Verben nehmen ein Ziel, also endet ein feminines Nomen danach auf **-u**: *Kupujem krušk**u***, *Tražim vrećic**u***. Beachte *kupovati → kupujem*, wo Infinitiv und ja-Form sich unterscheiden. Die Adjektive kommen in beiden Formen (*svjež / svježa*), weil sie mit ihrem Nomen übereinstimmen: *svježa riba*, aber *svjež kruh*.
+infokratko: Feminines Ziel **-u**: *Kupujem krušku*. *kupovati → kupujem*. Adjektive stimmen überein: *svjež / svježa*.
+opis: Acht der Verben nehmen ein Ziel – *ići* und *koštati* nicht. *Izvolite?* ist das nützlichste Wort in einem kroatischen Laden: Es bedeutet sowohl „Was darf es sein?“ als auch „Bitte schön.“
+- kupovati → kupujem, kupuješ, kupuje | kaufen
+- trebati → trebam, trebaš, treba | brauchen
+- ići → idem, ideš, ide | gehen
+- plaćati → plaćam, plaćaš, plaća | bezahlen
+- tražiti → tražim, tražiš, traži | suchen
+- birati → biram, biraš, bira | wählen, aussuchen
+- nositi → nosim, nosiš, nosi | tragen
+- uzimati → uzimam, uzimaš, uzima | nehmen
+- prodavati → prodajem, prodaješ, prodaje | verkaufen
+- koštati → košta | kosten
+- Izvolite? | Was darf es sein? / Bitte schön.
+- molim | bitte
+- svjež / svježa | frisch
+- skup / skupa | teuer
+- jeftin / jeftina | billig
+- ukusan / ukusna | lecker
+- subota | Samstag
+- danas | heute
+- jedna | eine (feminin)
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching, all in the naming form. That is why the feminine ones end in **-a** here; the **-u** appears only once a verb acts on them, as in *Kupujem krušk**u***.
-infokratko: Naming forms here; **-u** only after a verb.
+info: Bild-Wort-Zuordnung, alles in der Benennungsform. Deshalb enden die femininen hier auf **-a**; das **-u** erscheint erst, wenn ein Verb auf sie wirkt, wie in *Kupujem krušk**u***.
+infokratko: Hier Benennungsformen; **-u** erst nach einem Verb.
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- jagoda | strawberry
-- kruška | pear
-- naranča | orange
-- rajčica | tomato
-- mrkva | carrot
-- juha | soup
-- jaje | egg
-- mlijeko | milk
-- krumpir | potato
-- limun | lemon
-- pekara | bakery
-- vrećica | bag
+- jagoda | Erdbeere
+- kruška | Birne
+- naranča | Orange
+- rajčica | Tomate
+- mrkva | Karotte
+- juha | Suppe
+- jaje | Ei
+- mlijeko | Milch
+- krumpir | Kartoffel
+- limun | Zitrone
+- pekara | Bäckerei
+- vrećica | Tüte
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning, in the naming form: *voda*, not *vodu*. Verbs are wanted as infinitives, ending in **-ti**: *kupovati*, not *kupujem*. The diacritics are full letters: *tržnica* has **ž**, *šećer* has **š** and **ć**, *povrće* has **ć**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once. Naming forms (*voda*), verbs as infinitives (*kupovati*). Diacritics count: *tržnica, šećer, povrće*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung, in der Benennungsform: *voda*, nicht *vodu*. Verben werden als Infinitive gesucht, auf **-ti**: *kupovati*, nicht *kupujem*. Die diakritischen Zeichen sind vollwertige Buchstaben: *tržnica* hat **ž**, *šećer* hat **š** und **ć**, *povrće* hat **ć**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal. Benennungsformen (*voda*), Verben als Infinitive (*kupovati*). Diakritische Zeichen zählen: *tržnica, šećer, povrće*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- water | voda
-- salad | salata
-- peach | breskva
-- rice | riža
-- market | tržnica
-- bottle | boca
-- price | cijena
-- sugar | šećer
-- onion | luk
-- meat | meso
-- vegetables | povrće
-- money | novac
-- to buy | kupovati
-- to sell | prodavati
-- today | danas
+- Wasser | voda
+- Salat | salata
+- Pfirsich | breskva
+- Reis | riža
+- Markt | tržnica
+- Flasche | boca
+- Preis | cijena
+- Zucker | šećer
+- Zwiebel | luk
+- Fleisch | meso
+- Gemüse | povrće
+- Geld | novac
+- kaufen | kupovati
+- verkaufen | prodavati
+- heute | danas
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Lesson 0 and Vocabulary 1–3, half and half. Two pairs to keep apart: *crtati* is to draw and *crtić* a cartoon; *čaj* is tea, while *kafić* is the café where you drink it.
-infokratko: New and old words against the clock. *crtati* to draw, *crtić* cartoon; *čaj* tea, *kafić* café.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Lektion 0 und Wortschatz 1–3, halb und halb. Zwei Paare zum Auseinanderhalten: *crtati* heißt zeichnen und *crtić* Zeichentrickfilm; *čaj* ist Tee, während *kafić* das Café ist, in dem du ihn trinkst.
+infokratko: Neue und alte Wörter gegen die Uhr. *crtati* zeichnen, *crtić* Zeichentrickfilm; *čaj* Tee, *kafić* Café.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- pita | pie
+- pita | Pita (gefüllter Teigkuchen)
 - cipela | Schuh
-- grah | beans
+- grah | Bohnen
 - topao | warm
-- voće | fruit
+- voće | Obst
 - Hrvat | Kroate
-- dućan | shop
+- dućan | Geschäft, Laden
 - crtati | zeichnen
 - kafić | Café
 - velik | groß
-- račun | bill
+- račun | Rechnung
 - crtić | Zeichentrickfilm
-- trebati | to need
+- trebati | brauchen
 - zelen | grün
-- nositi | to carry
+- nositi | tragen
 - čaj | Tee
-- birati | to choose
+- birati | wählen, aussuchen
 - žut | gelb
-- skup | expensive
+- skup | teuer
 - časopis | Zeitschrift
 
-## Does it change?
+## Ändert es sich?
 format: razvrstavanje
-info: Sorting by ending, with new words and old ones. Ends in **-a** → it becomes **-u** as the target of a verb: *čokolada → čokoladu*, *Hrvatska → u Hrvatsku*. Anything else — a consonant, *-o*, *-e* — keeps the identical form, which is why *šešir* and *drvo* sit in the quiet column.
-infokratko: **-a** → **-u** as a target; everything else stays (*šešir, drvo*).
+info: Sortieren nach Endung, mit neuen und alten Wörtern. Endet auf **-a** → wird zu **-u** als Ziel eines Verbs: *čokolada → čokoladu*, *Hrvatska → u Hrvatsku*. Alles andere – ein Konsonant, *-o*, *-e* – behält die identische Form, deshalb stehen *šešir* und *drvo* in der stillen Spalte.
+infokratko: **-a** → **-u** als Ziel; alles andere bleibt (*šešir, drvo*).
 stupci: MIJENJA SE (-a → -u) | OSTAJE ISTO
-opis: The single most useful sort on this level. Ends in **-a** → it changes. Anything else → it stays exactly as it is.
+opis: Die nützlichste Sortierung auf diesem Level. Endet auf **-a** → es ändert sich. Alles andere → es bleibt genau, wie es ist.
 - juha | MIJENJA SE (-a → -u)
 - kruška | MIJENJA SE (-a → -u)
 - vrećica | MIJENJA SE (-a → -u)
@@ -162,18 +162,18 @@ opis: The single most useful sort on this level. Ends in **-a** → it changes. 
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones, all in the naming form: *naranča*, not *naranču*. Verbs as infinitives again, adjectives in the short form (*jeftin*, *bijel*). The diacritics count: *naranča* and *rajčica* have **č**, *kafić* and *ćevapi* have **ć**, and *često* starts with **č**.
-infokratko: Mixed final round. Naming forms, verbs as infinitives. Diacritics count: *naranča, kafić, ćevapi, često*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren, alle in der Benennungsform: *naranča*, nicht *naranču*. Verben wieder als Infinitive, Adjektive in der Kurzform (*jeftin*, *bijel*). Die diakritischen Zeichen zählen: *naranča* und *rajčica* haben **č**, *kafić* und *ćevapi* haben **ć**, und *često* beginnt mit **č**.
+infokratko: Gemischte Schlussrunde. Benennungsformen, Verben als Infinitive. Diakritische Zeichen zählen: *naranča, kafić, ćevapi, često*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- orange | naranča
+- Orange | naranča
 - gegrilltes Fleisch | ćevapi
-- tomato | rajčica
+- Tomate | rajčica
 - sehr | jako
 - Café | kafić
 - oft | često
-- to go | ići
+- gehen | ići
 - weiß | bijel
-- to take | uzimati
+- nehmen | uzimati
 - lesen | čitati
-- cheap | jeftin
+- billig | jeftin
 - Koch | kuhar

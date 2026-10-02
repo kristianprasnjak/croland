@@ -1,23 +1,23 @@
-# The Perfekt (Past Tense)
+# Das Perfekt (Vergangenheit)
 cjelina: Grammar 10
 
-## The rule: the past tense formula
+## Die Regel: die Formel der Vergangenheit
 format: tekst
-info: The reference page for the whole unit. One past tense covers everything English splits into three, and it is built from two pieces: a form of **biti** and the participle. The participle carries the gender, *biti* carries the person.
-infokratko: One past tense: **biti** + participle. Participle = gender, *biti* = person.
-- One past tense covers everything in spoken Croatian: *I watched, I was watching, I have watched* — all simply **gledao sam**.
-- **The formula:** biti (sam/si/je/smo/ste/su) + past participle. The participle: drop **-ti**, add the ending — he (or male ja/ti) → **-o** (gledao, pio, bio) · she (or female ja/ti) → **-la** (gledala, pila, bila) · they/we → **-li** (gledali, pili, bili) · women only → **-le** (*Ana i Petra su gledale*) · neuter plural → **-la** (*Sela su bila mala*) · neuter subject → **-lo** (bilo). Sound note: *jesti → jeo*, where the *d* is dropped.
-- **The speaker's gender matters:** a man says *Spavao sam dugo*; a woman says *Spavala sam dugo*. The verb form alone shows which of the two is speaking — English has no equivalent.
-- **Djeca and braća take -la**, not -li: they mean many people, but each behaves like one feminine word — *Djeca su spava**la***, *Braća su doš**la***, exactly like *Vidim djecu* in Lesson 7.
-- **Word order — the leaning rule:** *sam/si/je...* never stands first: *Gledao **sam** film. · Ja **sam** gledao film. · Jučer **sam** gledao film.* You know this from the future (*ću*).
-- **The past of "to be":** *Bio sam na moru. Voda je bila topla. Bilo je savršeno!*
-- **Now you write them.** Ja sam [bio] na moru — kaže muškarac. Voda je [bila] topla. Sve je [bilo] savršeno.
+info: Die Referenzseite für die ganze Einheit. Eine Vergangenheitsform deckt alles ab, was das Deutsche auf Präteritum und Perfekt verteilt, und sie ist aus zwei Teilen gebaut: einer Form von **biti** und dem Partizip. Das Partizip trägt das Genus, *biti* die Person.
+infokratko: Eine Vergangenheit: **biti** + Partizip. Partizip = Genus, *biti* = Person.
+- Eine Vergangenheitsform deckt im gesprochenen Kroatisch alles ab: *ich schaute, ich habe geschaut, ich war am Schauen* – alles einfach **gledao sam**.
+- **Die Formel:** biti (sam/si/je/smo/ste/su) + Partizip Perfekt. Das Partizip: **-ti** weg, Endung dran – er (oder männliches ja/ti) → **-o** (gledao, pio, bio) · sie (oder weibliches ja/ti) → **-la** (gledala, pila, bila) · sie/wir → **-li** (gledali, pili, bili) · nur Frauen → **-le** (*Ana i Petra su gledale*) · Neutrum Plural → **-la** (*Sela su bila mala*) · neutrales Subjekt → **-lo** (bilo). Lauthinweis: *jesti → jeo*, wobei das *d* wegfällt.
+- **Das Geschlecht des Sprechers zählt:** Ein Mann sagt *Spavao sam dugo*; eine Frau sagt *Spavala sam dugo*. Die Verbform allein zeigt, wer von beiden spricht – im Deutschen gibt es nichts Vergleichbares.
+- **Djeca und braća nehmen -la**, nicht -li: Sie bedeuten viele Menschen, aber jedes verhält sich wie ein feminines Einzelwort – *Djeca su spava**la***, *Braća su doš**la***, genau wie *Vidim djecu* in Lektion 7.
+- **Wortstellung – die Anlehnungsregel:** *sam/si/je …* steht nie zuerst: *Gledao **sam** film. · Ja **sam** gledao film. · Jučer **sam** gledao film.* Das kennst du vom Futur (*ću*).
+- **Die Vergangenheit von „sein“:** *Bio sam na moru. Voda je bila topla. Bilo je savršeno!*
+- **Jetzt schreibst du.** Ja sam [bio] na moru — kaže muškarac. Voda je [bila] topla. Sve je [bilo] savršeno.
 
-## Sort the participles
+## Sortiere die Partizipien
 format: razvrstavanje
-info: Sorting by the ending alone, so read only the last letters. **-o** is a man or boy, **-la** a woman or girl, **-li** any group, **-lo** a neuter subject. The front of the word never says who — *pio* and *pjevao* land in the same column.
-infokratko: **-o** he, **-la** she, **-li** group, **-lo** neuter.
-opis: Who could say this, or what is it said about? Sort the forms by their ending.
+info: Sortieren allein nach der Endung, also lies nur die letzten Buchstaben. **-o** ist ein Mann oder Junge, **-la** eine Frau oder ein Mädchen, **-li** jede Gruppe, **-lo** ein neutrales Subjekt. Der Anfang des Wortes sagt nie, wer – *pio* und *pjevao* landen in derselben Spalte.
+infokratko: **-o** er, **-la** sie, **-li** Gruppe, **-lo** neutral.
+opis: Wer könnte das sagen, oder worüber wird es gesagt? Sortiere die Formen nach ihrer Endung.
 stupci: ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)
 - gledao | ON (-o)
 - čitao | ON (-o)
@@ -40,114 +40,114 @@ stupci: ON (-o) | ONA (-la) | MI / ONI (-li) | ONO (-lo)
 - spavalo | ONO (-lo)
 - čitalo | ONO (-lo)
 
-## Tap the participle ending
+## Tippe auf die Partizipendung
 format: nastavak
-info: One tap finishes the participle. Find the subject first: *Marko* and a man speaking take **-o**, *Ana* and a woman speaking take **-la**, *mi*, *oni* and any pair take **-li** (but *djeca* and *braća* take **-la**), and a neuter noun such as *more*, *sunce* or *vrijeme* takes **-lo**.
-infokratko: Man **-o**, woman **-la**, group **-li** (*djeca, braća* **-la**), neuter **-lo**.
+info: Ein Tipp vollendet das Partizip. Finde zuerst das Subjekt: *Marko* und ein sprechender Mann nehmen **-o**, *Ana* und eine sprechende Frau nehmen **-la**, *mi*, *oni* und jedes Paar nehmen **-li** (aber *djeca* und *braća* nehmen **-la**), und ein neutrales Nomen wie *more*, *sunce* oder *vrijeme* nimmt **-lo**.
+infokratko: Mann **-o**, Frau **-la**, Gruppe **-li** (*djeca, braća* **-la**), neutral **-lo**.
 nastavci: o | la | li | le | lo
-opis: English above, Croatian below. One tap completes the participle.
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp vollendet das Partizip.
 - Marko je gleda___ film. | Marko watched a film. | o
-- Ana je gleda___ film. | Ana watched a film. | la
-- Mi smo gleda___ film. | We watched a film. | li
-- Jučer sam spava___ dugo. (a man) | Yesterday I slept for a long time. | o
-- Jučer sam spava___ dugo. (a woman) | Yesterday I slept for a long time. | la
-- Dječaci su spava___ dugo. | The boys slept for a long time. | li
-- Marko je pi___ kavu. | Marko drank coffee. | o
-- Petra je pi___ sok. | Petra drank juice. | la
-- Pi___ smo kavu i pričali smo. | We drank coffee and talked. | li
-- More je bi___ toplo. | The sea was warm. | lo
-- Film je bi___ odličan. | The film was excellent. | o
-- Pizza je bi___ dobra. | The pizza was good. | la
-- Ana i Marko su bi___ u kinu. | Ana and Marko were at the cinema. | li
-- Sve je bi___ savršeno. | Everything was perfect. | lo
-- Tata je kuha___ ručak. | Dad cooked lunch. | o
-- Sestra je pjeva___ na koncertu. | My sister sang at the concert. | la
-- Učenici su uči___ cijeli dan. | The pupils studied all day. | li
-- Sunce je bi___ toplo. | The sun was warm. | lo
-- Ja sam iša___ u kino. (a man) | I went to the cinema. | o
-- Ja sam iš___ u kino. (a woman) | I went to the cinema. | la
-- Djevojčice su pjeva___ . | The girls sang. | le
-- Mama i baka su kuha___ ručak. | Mom and grandma cooked lunch. | le
+- Ana je gleda___ film. | Ana hat einen Film geschaut. | la
+- Mi smo gleda___ film. | Wir haben einen Film geschaut. | li
+- Jučer sam spava___ dugo. (a man) | Gestern habe ich lange geschlafen. | o
+- Jučer sam spava___ dugo. (a woman) | Gestern habe ich lange geschlafen. | la
+- Dječaci su spava___ dugo. | Die Jungen haben lange geschlafen. | li
+- Marko je pi___ kavu. | Marko hat Kaffee getrunken. | o
+- Petra je pi___ sok. | Petra hat Saft getrunken. | la
+- Pi___ smo kavu i pričali smo. | Wir haben Kaffee getrunken und geplaudert. | li
+- More je bi___ toplo. | Das Meer war warm. | lo
+- Film je bi___ odličan. | Der Film war ausgezeichnet. | o
+- Pizza je bi___ dobra. | Die Pizza war gut. | la
+- Ana i Marko su bi___ u kinu. | Ana und Marko waren im Kino. | li
+- Sve je bi___ savršeno. | Alles war perfekt. | lo
+- Tata je kuha___ ručak. | Papa hat Mittagessen gekocht. | o
+- Sestra je pjeva___ na koncertu. | Meine Schwester hat beim Konzert gesungen. | la
+- Učenici su uči___ cijeli dan. | Die Schüler haben den ganzen Tag gelernt. | li
+- Sunce je bi___ toplo. | Die Sonne war warm. | lo
+- Ja sam iša___ u kino. (a man) | Ich bin ins Kino gegangen. | o
+- Ja sam iš___ u kino. (a woman) | Ich bin ins Kino gegangen. | la
+- Djevojčice su pjeva___ . | Die Mädchen haben gesungen. | le
+- Mama i baka su kuha___ ručak. | Mama und Oma haben Mittagessen gekocht. | le
 
-## Tap the helper
+## Tippe auf das Hilfswort
 format: nastavak
-info: Now the participle is written and the form of **biti** is missing. It comes from the person, exactly as in Lesson 2: *ja sam*, *ti si*, *on* and *ona je*, *mi smo*, *vi ste*, *oni su*. A name behaves like *on* or *ona*, so it takes *je*.
-infokratko: *biti* from the person: *ja sam, ti si, on/ona je, mi smo, vi ste, oni su*.
+info: Jetzt steht das Partizip da, und die Form von **biti** fehlt. Sie kommt von der Person, genau wie in Lektion 2: *ja sam*, *ti si*, *on* und *ona je*, *mi smo*, *vi ste*, *oni su*. Ein Name verhält sich wie *on* oder *ona*, nimmt also *je*.
+infokratko: *biti* nach der Person: *ja sam, ti si, on/ona je, mi smo, vi ste, oni su*.
 nastavci: sam | si | je | smo | ste | su
-opis: English above, Croatian below. One tap gives the sentence its helper.
-- Ja ___ gledao film. | I watched a film. | sam
-- Ti ___ gledao film. | You watched a film. | si
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp gibt dem Satz sein Hilfswort.
+- Ja ___ gledao film. | Ich habe einen Film geschaut. | sam
+- Ti ___ gledao film. | Du hast einen Film geschaut. | si
 - Marko ___ gledao film. | Marko watched a film. | je
-- Mi ___ gledali film. | We watched a film. | smo
-- Vi ___ gledali film. | You all watched a film. | ste
-- Oni ___ gledali film. | They watched a film. | su
-- Ja ___ pila kavu. | I drank coffee. | sam
-- Ana ___ pjevala na koncertu. | Ana sang at the concert. | je
-- Djeca ___ spavala dugo. | The children slept for a long time. | su
-- Voda ___ bila topla. | The water was warm. | je
-- Sve ___ bilo savršeno. | Everything was perfect. | je
-- Mi ___ bili na moru. | We were at the sea. | smo
-- Ti ___ imao ispit. | You had an exam. | si
-- Vi ___ došli kasno. | You all came late. | ste
-- Ja ___ ustao rano. | I got up early. | sam
-- Naš klub ___ pobijedio. | Our club won. | je
+- Mi ___ gledali film. | Wir haben einen Film geschaut. | smo
+- Vi ___ gledali film. | Ihr habt einen Film geschaut. | ste
+- Oni ___ gledali film. | Sie haben einen Film geschaut. | su
+- Ja ___ pila kavu. | Ich habe Kaffee getrunken. | sam
+- Ana ___ pjevala na koncertu. | Ana hat beim Konzert gesungen. | je
+- Djeca ___ spavala dugo. | Die Kinder haben lange geschlafen. | su
+- Voda ___ bila topla. | Das Wasser war warm. | je
+- Sve ___ bilo savršeno. | Alles war perfekt. | je
+- Mi ___ bili na moru. | Wir waren am Meer. | smo
+- Ti ___ imao ispit. | Du hattest eine Prüfung. | si
+- Vi ___ došli kasno. | Ihr seid spät gekommen. | ste
+- Ja ___ ustao rano. | Ich bin früh aufgestanden. | sam
+- Naš klub ___ pobijedio. | Unser Verein hat gewonnen. | je
 
-## Type the participle
+## Tippe das Partizip
 format: upis
-info: Typed production, so spelling counts. Drop **-ti**, add the ending named in the bracket, and keep the diacritics of the infinitive: *čitati → čitala*. Four verbs change more than the ending: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.
-infokratko: Drop **-ti**, add the ending: *čitati → čitala*. Irregular: *išao, došao, vidio, jeo*.
-opis: Type the participle.
-- čitati (he) → | čitao
-- kuhati (she) → | kuhala
-- igrati (they) → | igrali
-- biti (she) → | bila
-- biti (it) → | bilo
-- jesti (he) → | jeo
-- piti (she) → | pila
-- spavati (they) → | spavali
-- ići (he) → | išao
-- ići (she) → | išla
-- doći (they) → | došli
-- vidjeti (he) → | vidio
-- vidjeti (she) → | vidjela
-- ustati (he) → | ustao
-- putovati (they) → | putovali
-- znati (she) → | znala
+info: Getippte Produktion, also zählt die Schreibung. Lass **-ti** weg, häng die Endung aus der Klammer an und behalte die diakritischen Zeichen des Infinitivs: *čitati → čitala*. Vier Verben ändern mehr als die Endung: *ići → išao*, *doći → došao*, *vidjeti → vidio*, *jesti → jeo*.
+infokratko: **-ti** weg, Endung dran: *čitati → čitala*. Unregelmäßig: *išao, došao, vidio, jeo*.
+opis: Tippe das Partizip.
+- čitati (er) → | čitao
+- kuhati (sie) → | kuhala
+- igrati (sie, Pl.) → | igrali
+- biti (sie) → | bila
+- biti (es) → | bilo
+- jesti (er) → | jeo
+- piti (sie) → | pila
+- spavati (sie, Pl.) → | spavali
+- ići (er) → | išao
+- ići (sie) → | išla
+- doći (sie, Pl.) → | došli
+- vidjeti (er) → | vidio
+- vidjeti (sie) → | vidjela
+- ustati (er) → | ustao
+- putovati (sie, Pl.) → | putovali
+- znati (sie) → | znala
 
 ## Der richtige Satz
 format: izbor
-info: Two things have to agree at once: the helper with the person (*je* for Ana, *smo* for us) and the participle with the gender (*pjevala* for her, *pjevao* for him). Each wrong option gets the helper, the gender, the case or the word order wrong.
-infokratko: Helper matches the person, participle the gender: *Ana je pjevala*.
-opis: Choose the correct sentence.
-- I watched a film. (a man speaking) | Gledao sam film. | Sam gledao film. | Gledala sam film.
-- Ana sang. | Ana je pjevala. | Ana je pjevao. | Ana su pjevale.
-- We swam yesterday. | Jučer smo plivali. | Jučer smo plivala. | Jučer plivali smo.
-- The pizza was excellent. | Pizza je bila odlična. | Pizza je bio odličan. | Pizza je bilo odlično.
-- Everything was perfect. | Sve je bilo savršeno. | Sve je bio savršen. | Sve su bila savršena.
-- I went to the cinema. (a woman speaking) | Išla sam u kino. | Išao sam u kino. | Sam išla u kino.
-- They came late. | Oni su došli kasno. | Oni je došao kasno. | Oni su došla kasno.
-- Our club won. | Naš klub je pobijedio. | Naš klub su pobijedili. | Naš klub je pobijedila.
-- The children slept for a long time. | Djeca su spavala dugo. | Djeca je spavalo dugo. | Djeca su spavali dugo.
-- I saw the match. (a man speaking) | Vidio sam utakmicu. | Vidjela sam utakmicu. | Vidio sam utakmica.
+info: Zwei Dinge müssen gleichzeitig stimmen: das Hilfswort mit der Person (*je* für Ana, *smo* für uns) und das Partizip mit dem Genus (*pjevala* für sie, *pjevao* für ihn). Jede falsche Option hat das Hilfswort, das Genus, den Fall oder die Wortstellung falsch.
+infokratko: Hilfswort passt zur Person, Partizip zum Genus: *Ana je pjevala*.
+opis: Wähle den richtigen Satz.
+- Ich habe einen Film geschaut. (ein Mann spricht) | Gledao sam film. | Sam gledao film. | Gledala sam film.
+- Ana hat gesungen. | Ana je pjevala. | Ana je pjevao. | Ana su pjevale.
+- Wir sind gestern geschwommen. | Jučer smo plivali. | Jučer smo plivala. | Jučer plivali smo.
+- Die Pizza war ausgezeichnet. | Pizza je bila odlična. | Pizza je bio odličan. | Pizza je bilo odlično.
+- Alles war perfekt. | Sve je bilo savršeno. | Sve je bio savršen. | Sve su bila savršena.
+- Ich bin ins Kino gegangen. (eine Frau spricht) | Išla sam u kino. | Išao sam u kino. | Sam išla u kino.
+- Sie sind spät gekommen. | Oni su došli kasno. | Oni je došao kasno. | Oni su došla kasno.
+- Unser Verein hat gewonnen. | Naš klub je pobijedio. | Naš klub su pobijedili. | Naš klub je pobijedila.
+- Die Kinder haben lange geschlafen. | Djeca su spavala dugo. | Djeca je spavalo dugo. | Djeca su spavali dugo.
+- Ich habe das Spiel gesehen. (ein Mann spricht) | Vidio sam utakmicu. | Vidjela sam utakmicu. | Vidio sam utakmica.
 
-## The rule: where the helper stands
+## Die Regel: wo das Hilfswort steht
 format: tekst
-info: The word-order half of the tense. *Sam, si, je…* are unstressed, so they attach to the first word of the sentence and can never open it. Put a pronoun, a time word or the participle itself in front, and the sentence works.
-infokratko: *sam, si, je* never open a sentence. Something goes first.
+info: Die Wortstellungshälfte der Zeitform. *Sam, si, je …* sind unbetont, also hängen sie sich an das erste Wort des Satzes und können ihn nie eröffnen. Stell ein Pronomen, ein Zeitwort oder das Partizip selbst davor, und der Satz funktioniert.
+infokratko: *sam, si, je* eröffnen nie einen Satz. Etwas steht davor.
 infoodmah: da
-- The helper is unstressed, so it needs a word in front of it to attach to. That is the only rule about its position.
-- tab: Correct | Correct | Correct | Not Croatian
+- Das Hilfswort ist unbetont, braucht also ein Wort davor, an das es sich hängen kann. Das ist die einzige Regel zu seiner Stellung.
+- tab: Richtig | Richtig | Richtig | Kein Kroatisch
 - tab: Gledao **sam** film. | Ja **sam** gledao film. | Jučer **sam** gledao film. | ✗ Sam gledao film.
-- **Three correct versions, one impossible one.** All three on the left mean the same thing; the difference is only which word you put first. What you can never do is start the sentence with *sam*.
-- **This is the third time you meet this rule.** *je* in Lesson 2, *ću* in Lesson 8, *sam* here. The same family of small unstressed words, the same restriction.
-- **A time word is the easiest opener.** *Jučer…*, *Sinoć…*, *Prošli vikend…*, *Poslije…* — drop one in front and the helper sits behind it: *Prošli vikend **smo** bili na moru.*
-- **Now you write them.** Jučer [sam] spavao dugo. Ti [si] gledao film. Ona [je] čitala knjigu. Bilo [je] savršeno.
+- **Drei richtige Fassungen, eine unmögliche.** Alle drei links bedeuten dasselbe; der Unterschied ist nur, welches Wort du zuerst stellst. Was du nie tun kannst, ist den Satz mit *sam* zu beginnen.
+- **Das ist das dritte Mal, dass du diese Regel triffst.** *je* in Lektion 2, *ću* in Lektion 8, *sam* hier. Dieselbe Familie kleiner unbetonter Wörter, dieselbe Einschränkung.
+- **Ein Zeitwort ist der einfachste Eröffner.** *Jučer …*, *Sinoć …*, *Prošli vikend …*, *Poslije …* – setz eins davor, und das Hilfswort sitzt dahinter: *Prošli vikend **smo** bili na moru.*
+- **Jetzt schreibst du.** Jučer [sam] spavao dugo. Ti [si] gledao film. Ona [je] čitala knjigu. Bilo [je] savršeno.
 
-## Now or yesterday?
+## Jetzt oder gestern?
 format: razvrstavanje
-info: Sorting by tense. A verb carrying a personal ending is the present (*pijem*, *gledaš*, *radi*); a participle with a form of *biti* beside it is the past (*pio sam*, *gledali smo*). The helper is what you are looking for.
-infokratko: Personal ending = present (*pijem*); participle + *biti* = past (*pio sam*).
-opis: Is it happening now, or did it happen yesterday? Sort the sentences.
+info: Sortieren nach Zeitform. Ein Verb mit Personalendung ist Präsens (*pijem*, *gledaš*, *radi*); ein Partizip mit einer Form von *biti* daneben ist Vergangenheit (*pio sam*, *gledali smo*). Das Hilfswort ist das, wonach du suchst.
+infokratko: Personalendung = Präsens (*pijem*); Partizip + *biti* = Vergangenheit (*pio sam*).
+opis: Passiert es jetzt, oder ist es gestern passiert? Sortiere die Sätze.
 stupci: SADA | JUČER
 - Pijem kavu. | SADA
 - Pio sam kavu. | JUČER
@@ -166,11 +166,11 @@ stupci: SADA | JUČER
 - Radim cijeli dan. | SADA
 - Radio sam cijeli dan. | JUČER
 
-## The yesterday version
+## Die Gestern-Fassung
 format: upis
-info: Turn a present sentence into a past one. Build the participle, then put the right form of *biti* behind the first word. Where *ja* or *ti* is the subject, both genders are accepted.
-infokratko: Participle + *biti* after the first word. Both genders for *ja* and *ti*.
-opis: Yesterday version, please! Where the subject is *I* or *you*, either gender is accepted.
+info: Mach aus einem Satz im Präsens einen in der Vergangenheit. Bilde das Partizip und setz dann die richtige Form von *biti* hinter das erste Wort. Wo *ja* oder *ti* das Subjekt ist, werden beide Genera akzeptiert.
+infokratko: Partizip + *biti* nach dem ersten Wort. Beide Genera für *ja* und *ti*.
+opis: Die Gestern-Fassung, bitte! Wo das Subjekt *ich* oder *du* ist, wird jedes Genus akzeptiert.
 - Pijem kavu. → | Pio sam kavu / Pila sam kavu
 - Radimo puno. → | Radili smo puno
 - Marko sluša glazbu. → | Marko je slušao glazbu
@@ -184,26 +184,26 @@ opis: Yesterday version, please! Where the subject is *I* or *you*, either gende
 - Naš klub pobjeđuje. → | Naš klub je pobijedio
 - Putujemo na more. → | Putovali smo na more
 
-## The rule: the past that didn't happen
+## Die Regel: die Vergangenheit, die nicht passiert ist
 format: tekst
-info: The negative. The participle does not move a letter; only the helper flips, into the forms you already know from Grammar 2 — *nisam, nisi, nije, nismo, niste, nisu*. Those are stressed, so unlike *sam* they may open a sentence.
-infokratko: Negative: only the helper changes, *nisam, nije, nisu*. These can come first.
-- The participle stays exactly as it is. **Only the helper flips**, and you know the flipped forms from Grammar 2.
-- tab: Positive | Negative
+info: Die Verneinung. Das Partizip bewegt keinen Buchstaben; nur das Hilfswort dreht sich um, in die Formen, die du aus Grammatik 2 kennst – *nisam, nisi, nije, nismo, niste, nisu*. Die sind betont, dürfen also anders als *sam* einen Satz eröffnen.
+infokratko: Verneinung: Nur das Hilfswort ändert sich, *nisam, nije, nisu*. Die dürfen zuerst stehen.
+- Das Partizip bleibt genau, wie es ist. **Nur das Hilfswort dreht sich um**, und die umgedrehten Formen kennst du aus Grammatik 2.
+- tab: Bejaht | Verneint
 - tab: Gledao **sam** film. | **Nisam** gledao film.
 - tab: Ana **je** pjevala. | Ana **nije** pjevala.
 - tab: Plivali **smo**. | **Nismo** plivali.
 - tab: Bilo **je** savršeno. | **Nije** bilo savršeno.
-- **And the word order relaxes.** *sam* had to attach to a first word; *nisam* is stressed and may open the sentence: ***Nisam** spavao dugo.* Both *Nisam spavao* and *Jučer nisam spavao* are correct.
-- **Gender survives negation:** a man says *Nisam spavao*, a woman *Nisam spavala*, a group *Nismo spavali*.
-- **The surprised question:** ***Nisi li** gledao utakmicu?* — "Didn't you watch the match?" A negative question, with a note of disbelief. Very common in speech.
-- **Now you write them.** Ja [nisam] gledao utakmicu. [Nisi] li gledao utakmicu?
+- **Und die Wortstellung entspannt sich.** *sam* musste sich an ein erstes Wort hängen; *nisam* ist betont und darf den Satz eröffnen: ***Nisam** spavao dugo.* Sowohl *Nisam spavao* als auch *Jučer nisam spavao* sind richtig.
+- **Das Genus überlebt die Verneinung:** Ein Mann sagt *Nisam spavao*, eine Frau *Nisam spavala*, eine Gruppe *Nismo spavali*.
+- **Die überraschte Frage:** ***Nisi li** gledao utakmicu?* – „Hast du das Spiel etwa nicht gesehen?“ Eine verneinte Frage mit einem Hauch Ungläubigkeit. Im Gespräch sehr häufig.
+- **Jetzt schreibst du.** Ja [nisam] gledao utakmicu. [Nisi] li gledao utakmicu?
 
-## Say it didn't happen
+## Sag, dass es nicht passiert ist
 format: upis
-info: Negating the past. Swap the helper for its negative twin — *sam → nisam*, *je → nije*, *smo → nismo* — and leave the participle untouched, with its gender ending exactly as it was.
-infokratko: *sam → nisam, je → nije*; the participle stays.
-opis: Negate the past. The participle stays exactly as it is.
+info: Die Vergangenheit verneinen. Tausche das Hilfswort gegen seinen verneinten Zwilling – *sam → nisam*, *je → nije*, *smo → nismo* – und lass das Partizip unberührt, mit seiner Genusendung genau wie vorher.
+infokratko: *sam → nisam, je → nije*; das Partizip bleibt.
+opis: Verneine die Vergangenheit. Das Partizip bleibt genau, wie es ist.
 - Gledao sam film. → | Nisam gledao film
 - Ana je pjevala. → | Ana nije pjevala
 - Plivali smo jučer. → | Nismo plivali jučer
@@ -217,45 +217,45 @@ opis: Negate the past. The participle stays exactly as it is.
 - Imao sam vremena. → | Nisam imao vremena
 - Oni su došli. → | Oni nisu došli
 
-## The correct negative
+## Die richtige Verneinung
 format: izbor
-info: The negative of *biti* is always one word — there is no *ne sam* and no *ne je* — and the participle still agrees with the speaker. *Nisi li…?* is the surprised question, with the negative helper in front and *li* right behind it.
-infokratko: No *ne sam* or *ne je*. *Nisi li...?* = surprised question.
-opis: Choose the grammatical sentence.
-- I didn't watch the film. (a man speaking) | Nisam gledao film. | Ne sam gledao film. | Nisam gledala film.
-- She didn't sing. | Ana nije pjevala. | Ana ne je pjevala. | Ana nije pjevao.
-- We didn't swim. | Nismo plivali. | Ne smo plivali. | Nismo plivala.
-- It wasn't perfect. | Nije bilo savršeno. | Ne je bilo savršeno. | Nije bio savršeno.
-- Didn't you watch the match? | Nisi li gledao utakmicu? | Li nisi gledao utakmicu? | Ne si li gledao utakmicu?
-- They didn't come. | Oni nisu došli. | Oni ne su došli. | Oni nisu došla.
-- I didn't have time. (a woman speaking) | Nisam imala vremena. | Nisam imao vremena. | Ne sam imala vremena.
-- The film wasn't long. | Film nije bio dug. | Film ne je bio dug. | Film nije bila duga.
+info: Die Verneinung von *biti* ist immer ein Wort – es gibt kein *ne sam* und kein *ne je* –, und das Partizip stimmt weiterhin mit dem Sprecher überein. *Nisi li …?* ist die überraschte Frage, mit dem verneinten Hilfswort vorn und *li* direkt dahinter.
+infokratko: Kein *ne sam* oder *ne je*. *Nisi li …?* = überraschte Frage.
+opis: Wähle den grammatisch richtigen Satz.
+- Ich habe den Film nicht geschaut. (ein Mann spricht) | Nisam gledao film. | Ne sam gledao film. | Nisam gledala film.
+- Sie hat nicht gesungen. | Ana nije pjevala. | Ana ne je pjevala. | Ana nije pjevao.
+- Wir sind nicht geschwommen. | Nismo plivali. | Ne smo plivali. | Nismo plivala.
+- Es war nicht perfekt. | Nije bilo savršeno. | Ne je bilo savršeno. | Nije bio savršeno.
+- Hast du das Spiel etwa nicht geschaut? | Nisi li gledao utakmicu? | Li nisi gledao utakmicu? | Ne si li gledao utakmicu?
+- Sie sind nicht gekommen. | Oni nisu došli. | Oni ne su došli. | Oni nisu došla.
+- Ich hatte keine Zeit. (eine Frau spricht) | Nisam imala vremena. | Nisam imao vremena. | Ne sam imala vremena.
+- Der Film war nicht lang. | Film nije bio dug. | Film ne je bio dug. | Film nije bila duga.
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English, the hardest step in the unit. Build it as a participle plus a form of *biti*, never letting the helper stand first. Where the English says *I* or *you*, both genders are accepted.
-infokratko: Participle + *biti*, helper never first. Both genders for *I / you*.
-opis: The last step — the English sentence, and you write the Croatian. Word order is free as long as the helper is not first, and either gender is accepted for *I* and *you*.
-- I watched a film. | Gledao sam film. / Gledala sam film. / Ja sam gledao film. / Ja sam gledala film.
-- Yesterday I slept for a long time. | Jučer sam spavao dugo. / Jučer sam spavala dugo.
-- Ana sang at the concert. | Ana je pjevala na koncertu.
-- We were at the sea. | Bili smo na moru. / Mi smo bili na moru.
-- The water was warm. | Voda je bila topla.
-- It was perfect. | Bilo je savršeno.
-- The film was excellent. | Film je bio odličan.
-- They watched a match. | Oni su gledali utakmicu. / Gledali su utakmicu.
-- I didn't watch the film. | Nisam gledao film. / Nisam gledala film.
-- She didn't sing. | Ona nije pjevala. / Nije pjevala.
-- We didn't swim. | Nismo plivali. / Mi nismo plivali.
-- Our club won. | Naš klub je pobijedio.
-- I went to the cinema. | Išao sam u kino. / Išla sam u kino.
-- Didn't you watch the match? | Nisi li gledao utakmicu? / Nisi li gledala utakmicu?
+info: Freie Produktion aus dem Deutschen, der schwierigste Schritt der Einheit. Bau es als Partizip plus eine Form von *biti* und lass das Hilfswort nie zuerst stehen. Wo im Deutschen *ich* oder *du* steht, werden beide Genera akzeptiert.
+infokratko: Partizip + *biti*, Hilfswort nie zuerst. Beide Genera bei *ich / du*.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen. Die Wortstellung ist frei, solange das Hilfswort nicht zuerst steht, und für *ich* und *du* wird jedes Genus akzeptiert.
+- Ich habe einen Film geschaut. | Gledao sam film. / Gledala sam film. / Ja sam gledao film. / Ja sam gledala film.
+- Gestern habe ich lange geschlafen. | Jučer sam spavao dugo. / Jučer sam spavala dugo.
+- Ana hat beim Konzert gesungen. | Ana je pjevala na koncertu.
+- Wir waren am Meer. | Bili smo na moru. / Mi smo bili na moru.
+- Das Wasser war warm. | Voda je bila topla.
+- Es war perfekt. | Bilo je savršeno.
+- Der Film war ausgezeichnet. | Film je bio odličan.
+- Sie haben ein Spiel geschaut. | Oni su gledali utakmicu. / Gledali su utakmicu.
+- Ich habe den Film nicht geschaut. | Nisam gledao film. / Nisam gledala film.
+- Sie hat nicht gesungen. | Ona nije pjevala. / Nije pjevala.
+- Wir sind nicht geschwommen. | Nismo plivali. / Mi nismo plivali.
+- Unser Verein hat gewonnen. | Naš klub je pobijedio.
+- Ich bin ins Kino gegangen. | Išao sam u kino. / Išla sam u kino.
+- Hast du das Spiel etwa nicht geschaut? | Nisi li gledao utakmicu? / Nisi li gledala utakmicu?
 
-## Build the story
+## Bau die Geschichte
 format: slaganje
-info: Whole sentences from tiles, so the helper has to land in the right place — never first, always behind the opening word. Where two halves are joined by *a* or *ali*, each half keeps its own helper and a comma comes before the connector.
-infokratko: Helper never first; each half keeps its own; comma before *a*, *ali*.
-opis: Build the story.
+info: Ganze Sätze aus Kärtchen, also muss das Hilfswort an der richtigen Stelle landen – nie zuerst, immer hinter dem Eröffnungswort. Wo zwei Hälften mit *a* oder *ali* verbunden sind, behält jede Hälfte ihr eigenes Hilfswort, und vor dem Bindewort steht ein Komma.
+infokratko: Hilfswort nie zuerst; jede Hälfte behält ihr eigenes; Komma vor *a*, *ali*.
+opis: Bau die Geschichte.
 - Jučer je bila subota.
 - Spavao sam dugo, a poslije sam pio kavu.
 - Gledali smo film i jeli smo pizzu.
@@ -271,8 +271,8 @@ opis: Build the story.
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary. The tense is one formula — a form of **biti** plus a participle whose ending names the speaker — plus one restriction on where the helper may stand, and one flip for the negative.
-infokratko: **biti** + participle; helper never first; negative flips the helper.
-- **Bravo.** You can now tell a story about yesterday: what you did, what it was like, and what did not happen.
-- And you did it with one formula: **biti + the participle**, where the participle ending names the speaker and the helper never opens the sentence.
-- **Next up:** Practice 10 puts the past tense into real texts about a weekend, and Test 10 closes the unit. Then Lesson 11 turns the question words from Lesson 4 — *tko, što, gdje, kada, zašto* — into questions of your own, so a conversation can go both ways.
+info: Eine Abschlusszusammenfassung. Die Zeitform ist eine Formel – eine Form von **biti** plus ein Partizip, dessen Endung den Sprecher nennt –, dazu eine Einschränkung, wo das Hilfswort stehen darf, und ein Umdrehen für die Verneinung.
+infokratko: **biti** + Partizip; Hilfswort nie zuerst; Verneinung dreht das Hilfswort um.
+- **Bravo.** Du kannst jetzt eine Geschichte über gestern erzählen: was du getan hast, wie es war und was nicht passiert ist.
+- Und das mit einer Formel: **biti + das Partizip**, wobei die Partizipendung den Sprecher nennt und das Hilfswort nie den Satz eröffnet.
+- **Als Nächstes:** Praxis 10 bringt die Vergangenheit in echte Texte über ein Wochenende, und Test 10 schließt die Einheit ab. Dann macht Lektion 11 aus den Fragewörtern aus Lektion 4 – *tko, što, gdje, kada, zašto* – deine eigenen Fragen, damit ein Gespräch in beide Richtungen laufen kann.

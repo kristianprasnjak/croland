@@ -900,6 +900,39 @@
     .dictOkvir.zbijen .dictAlat .segment .segKratko { display: inline; }
   }
 
+  /* ---- Dictionary na mobitelu: zasebna mala traka ----
+     Na uskom ekranu puni alat NE putuje u traku — ostaje u toku i odlazi gore
+     sa stranicom. Mala traka je zasebna kopija (tražilica, smjer, favoriti,
+     opseg) koja se pojavljuje čim prva riječ prođe vrh ekrana i postupno
+     dobiva neprozirnost kroz idućih par riječi; na putu gore jednako se gasi
+     i nestaje prije nego se prva riječ vrati, pa nas na vrhu dočeka puni alat.
+     Neprozirnost računa dictMobFade() izravno iz pomaka — nema CSS prijelaza. */
+  .dictMobTraka { display: none; }
+  @media (max-width: 639.98px) {
+    .dictMobTraka {
+      display: flex; position: fixed; top: var(--dictVrh, 0px); left: 1rem; z-index: 6;
+      margin: 0; flex-wrap: nowrap; gap: 0.3rem; padding: 0.25rem 0;
+      background: var(--bg); box-shadow: 0 1px 0 var(--rub);
+      opacity: 0; visibility: hidden; pointer-events: none; transition: none;
+    }
+    .dictMobTraka[hidden] { display: none; }
+    .dictMobTraka .rjecnikTraka { flex: 1 1 4rem; }
+    .dictMobTraka .rjecnikTraka input {
+      padding: 0.25rem 0.6rem 0.25rem 1.9rem; font-size: var(--t-s); min-height: 2rem;
+    }
+    .dictMobTraka .rjecnikTraka .ikTrazi { left: 0.6rem; width: 0.9em; height: 0.9em; }
+    .dictMobTraka .smjerG {
+      flex: 0 0 auto; white-space: nowrap; gap: 0.25rem;
+      padding: 0.15rem 0.4rem; font-size: var(--t-xs); min-height: 2rem;
+    }
+    .dictMobTraka .segment { margin-left: auto; flex: 0 0 auto; width: auto; padding: 0.125rem; }
+    .dictMobTraka .segment button {
+      flex: none; padding: 0.15rem 0.45rem; font-size: var(--t-xs); min-height: 1.75rem;
+    }
+    .dictMobTraka .segment .segDugo { display: none; }
+    .dictMobTraka .segment .segKratko { display: inline; }
+  }
+
   /* ---- Dictionary: abecedna traka uz desni rub popisa ----
      Jedna kontrola, ne dvadeset i šest njih: prst ili miš klize po traci, a
      popis ide za njima. Dodirna meta je CIJELA traka, slova su u njoj samo
@@ -11092,6 +11125,19 @@
           '<button type="button" class="testG" id="dictTestG">Test your words</button>' +
         '</div>' +
       '</div>' +
+      // Mobitel: zasebna mala traka (v. .dictMobTraka i dictMobFade)
+      '<div class="dictAlat dictMobTraka" id="dictMob">' +
+        '<div class="rjecnikTraka">' + IK('trazi', 'ikTrazi') +
+          '<input id="traziM" type="text" placeholder="Search" aria-label="Search"></div>' +
+        '<button type="button" class="smjerG" id="dictSmjerGM">' +
+          '<span id="dictSmjerTM"></span><span class="zam">⇄</span></button>' +
+        '<button type="button" class="zvjFilterG" id="dictZvjGM" title="Show favourites only" aria-pressed="false">' +
+          IK('zvijezda') + '</button>' +
+        segmentHtml('dictOpsegM', 'data-opseg', [
+          { v: 'moje', t: 'My words', k: 'Mine' },
+          { v: 'sve', t: 'Full dictionary', k: 'All' }
+        ], dictOpseg) +
+      '</div>' +
       '<div class="dictTijelo">' +
         '<div id="popisRijeci"></div>' +
         '<div class="abcTraka" id="abcTraka" tabindex="0" role="navigation" ' +
@@ -11141,12 +11187,18 @@
       zg.classList.toggle('da', dictFav); zg.setAttribute('aria-pressed', String(dictFav));
       zg.title = dictFav ? 'Show all words' : 'Show favourites only';
       zg.setAttribute('aria-label', zg.title);
+      var zm = $('dictZvjGM');
+      if (zm) {
+        zm.classList.toggle('da', dictFav); zm.setAttribute('aria-pressed', String(dictFav));
+        zm.title = zg.title; zm.setAttribute('aria-label', zg.title);
+      }
       $('dictBrojac').textContent = dictFav
         ? (l.length ? l.length + (l.length === 1 ? ' favourite' : ' favourites') : 'no favourites yet')
         : dictOpseg === 'sve'
         ? (l.length ? l.length + ' entries in the full dictionary' : 'dictionary not loaded')
         : (l.length ? l.length + (l.length === 1 ? ' word added' : ' words added') : 'nothing saved yet');
       $('dictAlat').hidden = praznoStanje;
+      if ($('dictMob')) $('dictMob').hidden = praznoStanje;
       // Opseg u zbijenom stanju živi u alatu; ako alat nestane, mora natrag u
       // naslov — inače bi s njim nestao i jedini put do punog rječnika.
       if (praznoStanje && dictZbijen) dictNaPomak();
@@ -11317,6 +11369,11 @@
         ? 'Croatian first — switch to English first'
         : 'English first — switch to Croatian first';
       $('dictSmjerG').classList.toggle('okrenut', !hrPrvi);
+      if ($('dictSmjerTM')) {
+        $('dictSmjerTM').textContent = $('dictSmjerT').textContent;
+        $('dictSmjerGM').title = $('dictSmjerG').title;
+        $('dictSmjerGM').classList.toggle('okrenut', !hrPrvi);
+      }
     }
     function postaviOpseg(novi) {
       if (novi === dictOpseg) return;
@@ -11326,6 +11383,7 @@
       var slovo = abcSlovoNaVrhu();
       dictOpseg = novi;
       segmentOznaci($('dictOpsegP'), 'data-opseg', dictOpseg);
+      segmentOznaci($('dictOpsegM'), 'data-opseg', dictOpseg);
       crtaj($('trazi').value);
       if (slovo) abcSkoci(slovo, false);
     }
@@ -11339,6 +11397,12 @@
       oznaciSmjer(); crtaj($('trazi').value);
     };
     $('dictTestG').onclick = wtPokreni;
+    // Mala traka na mobitelu samo prosljeđuje velikoj — stanje je jedno.
+    $('dictOpsegM').onclick = $('dictOpsegP').onclick;
+    $('dictSmjerGM').onclick = function () { $('dictSmjerG').click(); };
+    $('dictZvjGM').onclick = function () { $('dictZvjG').click(); };
+    $('traziM').oninput = function () { $('trazi').value = this.value; crtaj(this.value); };
+    $('traziM').onfocus = $('traziM').onblur = function () { dictMobFade(); };
     $('dictZvjG').onclick = function () { dictFav = !dictFav; crtaj($('trazi').value); };
     // Zvjezdica odznačena u popisu favorita mora iz njega nestati odmah.
     dictOsvjeziFav = function () {
@@ -11355,7 +11419,10 @@
       if (c === 'sve') postaviOpseg('sve'); else idi(c);
     });
     vezeKlikPopisa($('popisRijeci'));
-    $('trazi').oninput = function () { crtaj(this.value); };
+    $('trazi').oninput = function () {
+      if ($('traziM')) $('traziM').value = this.value;
+      crtaj(this.value);
+    };
     abcVezi();
     oznaciSmjer(); crtaj('');
     segmentiPostavi(VIEW);
@@ -12667,6 +12734,10 @@
     if (dictZbijen && alat && !alat.hidden) {
       pokrov = Math.max(pokrov, alat.getBoundingClientRect().bottom);
     }
+    // Mobitel: mala traka stoji uvijek na istom mjestu, pa je i pokrov stalan
+    // (ne raste s njezinom neprozirnošću — abecedna traka inače bi skakala).
+    var mob = $('dictMob');
+    if (dictJeMob() && mob && !mob.hidden) pokrov = Math.max(pokrov, zagl + mob.offsetHeight);
     okvir.style.setProperty('--dictLjepilo', Math.round(pokrov) + 'px');
   }
   // Fiksna traka ne zna sirinu stupca iz kojeg je izasla — mjeri se s mjesta
@@ -12678,12 +12749,49 @@
     okvir.style.setProperty('--dictAlatL', Math.round(r.left) + 'px');
     okvir.style.setProperty('--dictAlatW', Math.round(r.width) + 'px');
   }
+  function dictJeMob() {
+    return !!(window.matchMedia && window.matchMedia('(max-width: 639.98px)').matches);
+  }
+  // Mobitel: neprozirnost male trake ide za pomakom. 0 dok prva riječ ne prođe
+  // vrh ekrana, 1 kad ga prođe treća — između raste ravnomjerno. Isti račun
+  // vrijedi i prema gore, pa se traka ugasi prije nego se prva riječ vrati.
+  function dictMobFade() {
+    var okvir = $('dictOkvir'), mob = $('dictMob');
+    if (!okvir || !mob) return;
+    var p = 0;
+    if (dictJeMob() && !mob.hidden) {
+      var k = $('popisRijeci').querySelectorAll('.rijecKart');
+      if (k.length) {
+        var vrh = parseFloat(getComputedStyle(okvir).getPropertyValue('--dictVrh')) || 0;
+        var b1 = k[0].getBoundingClientRect().bottom;
+        var b3 = k[Math.min(2, k.length - 1)].getBoundingClientRect().bottom;
+        p = (vrh - b1) / Math.max(1, b3 - b1);
+      }
+      // Dok se u maloj traci tipka, ona ne smije izblijedjeti ispod prsta
+      // (kraći popis zna sam vratiti stranicu na vrh).
+      if (document.activeElement === $('traziM')) p = 1;
+    }
+    p = Math.max(0, Math.min(1, p));
+    mob.style.opacity = String(p);
+    mob.style.visibility = p > 0 ? 'visible' : 'hidden';
+    mob.style.pointerEvents = p > 0.5 ? 'auto' : 'none';
+    mob.style.transform = p < 1 ? 'translateY(' + (-(1 - p) * 6).toFixed(2) + 'px)' : '';
+    if (p > 0) {
+      var mj = okvir.querySelector('.dictAlatMj');
+      if (mj) {
+        var r = mj.getBoundingClientRect();
+        if (r.width) { mob.style.left = Math.round(r.left) + 'px'; mob.style.width = Math.round(r.width) + 'px'; }
+      }
+    }
+  }
   function dictNaPomak() {
     var okvir = $('dictOkvir'), alat = $('dictAlat'), seg = $('dictOpsegP');
     if (!okvir || !alat || !seg) { dictZbijen = false; return; }
+    dictMobFade();
     var mj = okvir.querySelector('.dictAlatMj'), zag = okvir.querySelector('.dictZag');
     var y = window.pageYOffset || document.documentElement.scrollTop || 0;
-    var zbij = alat.hidden ? false : (dictZbijen ? y > 24 : y > 72);
+    // Na mobitelu se puna traka ne zbija — ondje dolazi zasebna mala traka.
+    var zbij = (alat.hidden || dictJeMob()) ? false : (dictZbijen ? y > 24 : y > 72);
     if (zbij === dictZbijen) return;
     dictZbijen = zbij;
     if (zbij) {
@@ -12718,7 +12826,7 @@
     setTimeout(function () { segmentKlizac(seg); dictLjepilo(); }, 400);
   }
   window.addEventListener('scroll', dictNaPomak, { passive: true });
-  window.addEventListener('resize', function () { dictStupac(); dictLjepilo(); });
+  window.addEventListener('resize', function () { dictNaPomak(); dictStupac(); dictLjepilo(); dictMobFade(); });
 
   VIEW = $('view');
   postaviTemu(temaSad());  // nasumicna pocetna tema; boja se prije hidratacije — bez bljeska

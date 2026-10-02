@@ -1,29 +1,325 @@
-0	— Dobar dan! | — Guten Tag!
-1	— Dobar dan! Kava, molim. | — Guten Tag! Einen Kaffee, bitte.
-2	— Velika, molim. | — Einen großen, bitte.
-3	**Jetzt schreibst du.** Ja [sam] Ana. Ti [si] student. Ona [je] doktorica. Mi [smo] turisti.
-4	**Jetzt schreibst du.** Ja [sam] student. Ti [si] gladan. Mi [smo] turisti. Oni [su] doma.
-5	**Jetzt schreibst du.** On je [visok]. Ona je [visoka]. Oni su [visoki].
-6	Ja sam Ana. | Ich bin Ana.
-7	Ja sam studentica. | Ich bin Studentin.
-8	— Bok! Ja sam Maja. | — Hallo! Ich bin Maja.
-9	— Ne, ja sam učiteljica. A ti? | — Nein, ich bin Lehrerin. Und du?
-10	— Ja sam pilot. | — Ich bin Pilot.
-11	— Pilot? To je super! | — Pilot? Das ist super!
-12	— Ja sam Talijanka, ali sam sada u Zagrebu. | — Ich bin Italienerin, aber ich bin jetzt in Zagreb.
-13	— Drago mi je, Maja! | — Freut mich, Maja!
-14	— Dobar dan! Kako ste? | — Guten Tag! Wie geht es Ihnen?
-15	— I ja sam dobro. Vi ste turisti? | — Mir geht's auch gut. Sind Sie Touristen?
-16	— Da, molim. Ja sam jako žedan. | — Ja, bitte. Ich bin sehr durstig.
-17	**Jetzt schreibst du.** Ja [čitam] udžbenik. Ti [piješ] sok. Ona [jede] kruh.
-18	**Jetzt schreibst du.** Ja [čitam] udžbenik. Ti [čitaš] udžbenik. Ona [čita] udžbenik.
-19	**Jetzt schreibst du.** pisati → ja [pišem]. raditi → ja [radim]. gledati → ja [gledam].
-20	— Je li film dobar? | — Ist der Film gut?
-21	**Jetzt schreibst du.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao.
-22	**Eine *zašto*-Frage wird mit *jer*** (*weil*) **beantwortet** – das vierte Bindewort, das in der Grammatik dieses Levels auf dich wartet. *Zašto baka kuha? — **Jer** je subota.*
-23	**Jetzt schreibst du.** Ne plivam [jer] je more hladno. Zašto baka kuha? [Jer] je subota.
-24	**Jetzt schreibst du alle vier.** Mama radi [i] čita. Tata kuha, [a] brat uči. Stan je mali, [ali] je dom topao. Ne plivam [jer] je more hladno.
-25	— Ha! To je savršen vikend. | — Ha! Das ist ein perfektes Wochenende.
-26	Sestra ne uči jer je subota. | Meine Schwester lernt nicht, weil Samstag ist.
-27	Ja ne šetam jer sam umoran. | Ich gehe nicht spazieren, weil ich müde bin.
-28	Ja sjedim i čekam jer sam gladan. | Ich sitze und warte, weil ich hungrig bin.
+0	Komplexe Sätze
+1	Die Regel: alles zusammen
+2	Die Übersichtsseite zu verbundenen Sätzen. *Jer / zato što, kad, ako, dok, iako* verbinden zwei Ereignisse; der Teil mit dem Bindewort bekommt ein Komma, wenn er zuerst kommt; kurze Wörter nehmen die zweite Stelle nach dem Bindewort ein; und *koji* richtet sich nach seinem Substantiv und nimmt den Fall, den sein eigener Satz braucht.
+3	*jer, kad, ako, dok, iako*; Komma, wenn dieser Teil zuerst kommt; *jer je*; *koji / koja / koje / koju*.
+4	Die letzte Grammatikseite – auf der alles, was du gelernt hast, zusammenarbeitet.
+5	tab: Grund | jer, zato što | Ostajem doma **jer** pada kiša.
+6	tab: Zeit | kad | **Kad** dođeš, zovi me.
+7	tab: gleichzeitig | dok | **Dok** ja kuham, ti biraš film.
+8	tab: Gegensatz | iako | **Iako** je spor, vlak je ugodan.
+9	**Das Komma.** Wenn der Bindewort-Teil *zuerst* kommt, setz ein Komma danach: *Ako pada kiša**,** ostat ćemo doma.* Wenn er an zweiter Stelle steht, braucht man vor *kad* und *ako* kein Komma; vor *jer* und *iako* ist ein Komma üblich.
+10	**Kurze Wörter nach dem Bindewort.** Das Bindewort zählt als erstes Wort, also kommen *je, sam, ću, ga, se* direkt danach: *jer **je** dan lijep, kad **sam** bila mala, ako **ga** vidiš*.
+11	**koji richtet sich wie ein Adjektiv.** *grad **koji** je star, pjesma **koja** je lijepa, more **koje** je toplo, knjiga **koju** čitam* – das letzte ist das Ziel von *čitam*, also **-a → -u**.
+12	**Der ganze Kurs in einem Satz:** *Kava je dobra.* → *Kava je dobra i topla.* → *Je li kava dobra?* → *Kava nije dobra.* → *Pijem kavu **koja** je dobra **jer** je dan lijep.*
+13	**Jetzt schreibst du sie.** Kava [je] dobra. Kava je dobra [i] topla. [Je] li kava dobra? Kava [nije] dobra. Pijem kavu [koja] je dobra [jer] je dan lijep.
+14	Das Bindewort wählen, das zu beiden Hälften passt. Ein Grund nimmt *jer*, eine Bedingung *ako*, ein Gegensatz *iako*, eine Zeit *kad*, zwei Dinge gleichzeitig *dok*. *Kao* kann keinen Satz einleiten, also ist es hier nie die Antwort.
+15	Grund *jer*, Bedingung *ako*, Gegensatz *iako*, Zeit *kad*, gleichzeitig *dok*.
+16	koji, koja, koje oder koju?
+17	Die Form von *koji* im Nominativ und in der Zielform wählen. Das Substantiv davor entscheidet Genus und Zahl; das Verb danach entscheidet den Fall. Nur das feminine Singular hat eine eigene Zielform, *koju*; maskuline Sachen und Neutra sehen in beiden Aufgaben gleich aus.
+18	m. *koji*, f. *koja*, n. *koje*; f. Ziel *koju*.
+19	Ordne das Relativpronomen zu.
+20	Mit einem Bindewort verbinden
+21	Du verbindest zwei Sätze mit dem Bindewort in Klammern. Setz das Bindewort vor seinen eigenen Satz und behalte die Wortstellung beider Hälften bei; wenn der Bindewort-Teil zuerst kommt, folgt ihm ein Komma. Beide Reihenfolgen werden akzeptiert, wo sie Sinn ergeben.
+22	Bindewort + sein Satz; Komma, wenn dieser Teil zuerst kommt.
+23	Verbinde mit dem Bindewort in Klammern.
+24	Die Regel: da – das Bindewort, das alles trägt
+25	Die zweite Regel. *Da* verbindet einen Satz mit einem Verb des Sagens, Denkens oder Wissens: *Znam da je Zagreb velik.* Davor steht kein Komma, und die Zeitform ändert sich nicht. *Da* + Präsens ersetzt auch den Infinitiv, wenn die Subjekte verschieden sind: *Želim da dođeš.* Und *koji* nimmt jetzt jeden Fall.
+26	*Znam da…, Mislim da…, Rekao je da…* Kein Komma, keine Zeitverschiebung. *Želim da dođeš.* *koji* in allen Fällen.
+27	*Jer, kad, ako, dok, iako* verbinden zwei **Ereignisse**. ***Da*** verbindet einen Satz mit einem **Verb des Sagens, Denkens, Wissens oder Hoffens** – und es ist das häufigste Bindewort im Kroatischen.
+28	tab: Verb | Beispiel | Deutsch
+29	tab: znati | Znam **da** je Zagreb velik. | Ich weiß, dass Zagreb groß ist.
+30	tab: misliti | Mislim **da** ćeš doći. | Ich glaube, dass du kommst.
+31	tab: reći | Rekao je **da** nema vremena. / Rekla je **da** nema vremena. | Er / Sie hat gesagt, dass er / sie keine Zeit hat.
+32	tab: nadati se | Nadam se **da** je sve u redu. | Ich hoffe, dass alles in Ordnung ist.
+33	**Keine Zeitverschiebung.** Das Deutsche macht aus *Er sagte: Ich bin müde* oft *Er sagte, er sei müde*. Das Kroatische behält einfach die ursprüngliche Zeitform: *Rekao je **da je** umoran.*
+34	**Da + Präsens, wenn die Subjekte verschieden sind.** *Želim **doći**.* = Ich will kommen (selbst). *Želim **da dođeš**.* = Ich will, dass *du* kommst.
+35	**koji in den anderen Fällen.** Es nimmt den Fall, den sein eigener Satz braucht, mit den Adjektivendungen: *čovjek **kojeg** čekam* (Ziel, eine Person), *grad u **kojem** živim* (Ort), *vlak **kojim** putujem* (Mittel), *prijatelj **kojem** pišem* (Empfänger), *kuća u **kojoj** živim* (Ort, feminin) – wie *den, in dem, mit dem, dem, in der* im Deutschen.
+36	**Jetzt schreibst du sie.** Film [koji] traje tri sata. Knjiga [koju] čitam. Grad u [kojem] živim.
+37	Zwischen *da* und den anderen Bindewörtern wählen. Nach *znam, mislim, nadam se, rekao je* wird der folgende Satz mit *da* angeschlossen. Ein Grund nimmt *jer*, eine Bedingung *ako*, ein Gegensatz *iako*. *Da* heißt nie *weil*.
+38	nach *znam, mislim, nadam se, rekao je* → *da*; Grund *jer*; Bedingung *ako*.
+39	Ein Ereignis, ein Grund, eine Bedingung – oder ein wiedergegebener Gedanke?
+40	koji im richtigen Fall
+41	Den Fall von *koji* aus seinem eigenen Satz wählen. Eine Person als Ziel nimmt *kojeg*, ein Ort nach *u* oder *na* nimmt *kojem* (oder *kojoj* bei einem femininen Substantiv), ein Fahrzeug nimmt *kojim* und ein Empfänger *kojem*. Stell die Frage innerhalb des *koji*-Satzes: *koga? gdje? čime? komu?*
+42	Person als Ziel *kojeg*; Ort *u kojem / u kojoj*; Mittel *kojim*; Empfänger *kojem*.
+43	Das Relativpronomen nimmt den Fall, den sein eigener Satz braucht.
+44	In welchem Fall steht koji?
+45	*koji*-Formen nach Fall sortieren. Die Grundform (*koji, koja, koje*) ist das Subjekt ihres Satzes; das Ziel hat *kojeg* für eine Person und *koju* für ein feminines Substantiv; *kojem / kojoj* nach *u* ist ein Ort; *kojim* ist Begleitung oder Mittel.
+46	Grundform *koji / koja*; Ziel *kojeg / koju*; Ort *u kojem / u kojoj*; Mittel *kojim*.
+47	SUBJEKT
+48	ZIEL
+49	ORT
+50	MITTEL
+51	Welche Aufgabe hat *koji* in seinem eigenen Satz?
+52	Ein Tippen vollendet *koj___* in dem Fall, den sein eigener Satz braucht. Subjekt: **-i** oder **-a**. Ziel: **-eg** für eine Person, **-u** für ein feminines Substantiv. Ort nach *u*: **-em**, oder **-oj** für ein feminines Substantiv. Mittel: **-im**, oder **-om** für ein feminines Substantiv. Ein Empfänger bekommt **-em**.
+53	Subjekt **-i / -a**; Ziel **-eg / -u**; Ort **-em / -oj**; Mittel **-im / -om**; Empfänger **-em**.
+54	Der Film, den wir schauen, dauert drei Stunden.
+55	Das Buch, das ich lese, ist neu.
+56	Das ist der Mann, auf den ich warte.
+57	Die Stadt, in der ich wohne, ist alt.
+58	Der Zug, mit dem ich fahre, ist langsam.
+59	Das Haus, in dem Oma wohnt, ist in der Nähe des Meeres.
+60	Das Lied, das schön ist.
+61	Der Freund, dem ich schreibe, wohnt in Split.
+62	Der Bruder, den ich jeden Tag sehe.
+63	Der Bus, mit dem ich zur Arbeit fahre, hat immer Verspätung.
+64	Die Straße, in der die Post ist, ist klein.
+65	Das Mädchen, das singt, ist meine Schwester.
+66	Der Kaffee, den ich trinke, ist stark.
+67	Leute, die auf der Insel wohnen, haben Zeit.
+68	Das Dorf, in dem wir waren, ist klein.
+69	Der Bleistift, mit dem ich schreibe, ist rot.
+70	Wohin gehören die kurzen Wörter?
+71	Den Satz wählen, in dem die kurzen Wörter an der richtigen Stelle stehen. Nach einem Bindewort – *jer, kad, ako, da, koji* – kommen die kurzen Wörter *je, sam, ću, ga, se* direkt danach, weil das Bindewort als erstes Wort zählt.
+72	Bindewort + kurzes Wort: *jer je, da ćeš, kad sam, koji se*.
+73	weil das Konzert am Samstag ist
+74	ich glaube, dass du kommst
+75	als ich klein war
+76	wenn du ihn siehst
+77	obwohl es spät ist
+78	er sagte, er sei müde
+79	der Mann, der lacht
+80	weil ich zu spät kommen werde
+81	ich hoffe, es ist in Ordnung
+82	wenn ich zurückkomme
+83	Verbinde es mit da
+84	Du gibst einen Gedanken oder eine Aussage wieder, indem du die zwei Hälften mit *da* verbindest. Kein Komma vor *da*, keine Änderung der Zeitform, und die kurzen Wörter kommen direkt danach: *da je, da ćeš*. Bei einem anderen Subjekt folgt auf *želim* ein *da* + Präsens.
+85	*Znam da…, Mislim da ćeš…, Rekao je da…, Želim da dođeš.* Kein Komma.
+86	Gib den Gedanken wieder – verbinde die Hälften mit „da“.
+87	Der letzte Satz
+88	Die letzten Sätze des Kurses, aus Kacheln gebaut. Jeder verbindet mindestens zwei Gedanken: *koji* nach seinem Substantiv, *da* nach einem Verb des Denkens, *jer, ako, iako* vor ihrer eigenen Hälfte und kurze Wörter direkt nach dem Bindewort.
+89	*koji* nach seinem Substantiv; *da* nach *mislim*; kurze Wörter direkt nach dem Bindewort.
+90	Die Abschlusssätze!
+91	Freie Produktion aus dem Deutschen und der letzte Schritt der Grammatik. Verbinde die Hälften mit dem richtigen Bindewort, setz die kurzen Wörter direkt danach, benutze *da* nach Verben des Sagens und Denkens und gib *koji* den Fall, den sein eigener Satz braucht. Wo das Geschlecht des Sprechers sichtbar wird, werden beide Formen akzeptiert.
+92	Bindewort + Satz; *da* nach *mislim, znam*; *koji* in seinem Fall. Beide Geschlechter akzeptiert.
+93	Ich lerne Kroatisch, weil ich das Meer liebe.
+94	Wenn es sonnig ist, gehen wir an den Strand.
+95	Obwohl der Zug langsam ist, ist er angenehm.
+96	Während ich koche, suchst du den Film aus.
+97	Wenn du kommst, ruf mich an.
+98	Ich weiß, dass Zagreb groß ist.
+99	Ich glaube, dass du kommst.
+100	Ich hoffe, dass alles in Ordnung ist.
+101	Ich will, dass du kommst.
+102	Er hat gesagt, dass er keine Zeit hat.
+103	Der Mann, auf den ich warte, hat Verspätung.
+104	Ich habe eine Sprache gelernt, die wie Musik klingt.
+105	Eine abschließende Zusammenfassung der Grammatik des Kurses. Zwei Sätze werden mit *jer, kad, ako, dok, iako* oder *da* zu einem; die kurzen Wörter folgen dem Bindewort; und *koji* hängt einem Substantiv einen Satz an, in dem Fall, den sein eigener Satz braucht.
+106	*jer, kad, ako, dok, iako, da*; kurze Wörter nach dem Bindewort; *koji* in jedem Fall.
+107	**Bravo.** Jetzt kannst du warum, wann, wenn, obwohl und *dass* sagen – und mit *koji* jedem Substantiv eine Beschreibung anhängen.
+108	Und das mit denselben Regeln, die du den ganzen Kurs über benutzt hast: **Kurze Wörter nehmen die zweite Stelle ein**, **jedes Substantiv nimmt den Fall, den seine Aufgabe braucht**, und **das Bindewort eröffnet seinen eigenen Satz**.
+109	**Als Nächstes:** Praxis 20 liest den Sommer, an den du dich erinnerst, und Emmas Aufsatz, und der Abschlusstest schließt den Kurs ab. Čestitamo!
+110	Lesen: Der Sommer, an den ich mich erinnere
+111	Text 1: Der Sommer, an den ich mich erinnere
+112	Eine Erinnerung, erzählt von Ana, und jeder Satz verbindet zwei Gedanken. Lies sie zweimal: einmal für die Geschichte, einmal für die Bindewörter – *kad* für die Zeit, *dok* für zwei Dinge gleichzeitig, *jer* und *zato što* für den Grund, *ako* für den Plan und *koji / koje* für eine Beschreibung.
+113	*kad, dok, jer, zato što, ako* + *koji / koje*. Ana spricht: *imala sam, plivala sam*.
+114	Ana erinnert sich an ihren ersten Sommer auf einer Insel. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+115	Passive Wörter: *postoji* (es gibt), *zaboraviti* (vergessen), *plovio* (fuhr, segelte), *izgledao* (sah aus), *postao* (wurde), *dok sunce nije zašlo* (bis die Sonne unterging), *neka mjesta* (manche Orte).
+116	Postoji ljeto koje nikad neću zaboraviti. | Es gibt einen Sommer, den ich nie vergessen werde.
+117	Imala sam deset godina kad smo prvi put putovali na otok. | Ich war zehn Jahre alt, als wir zum ersten Mal auf die Insel fuhren.
+118	Dok je trajekt plovio, ja sam stajala i gledala galebove. | Während die Fähre fuhr, stand ich da und schaute den Möwen zu.
+119	Otok, koji je izgledao malen, postao je cijeli moj svijet. | Die Insel, die klein aussah, wurde meine ganze Welt.
+120	Plivala sam dok sunce nije zašlo, jer je more bilo toplo kao juha. | Ich schwamm, bis die Sonne unterging, weil das Meer so warm war wie Suppe.
+121	Ako jednog dana imam djecu, vodit ću i njih na isti otok. | Wenn ich eines Tages Kinder habe, werde ich auch sie auf dieselbe Insel mitnehmen.
+122	Zato što neka mjesta nisu samo mjesta. Ona su uspomene. | Denn manche Orte sind nicht nur Orte. Sie sind Erinnerungen.
+123	Verständnis zu Anas Erinnerung. Die Bindewörter führen zu den Antworten: *kad* sagt dir, wie alt sie war, *dok*, was sie auf der Fähre machte, *jer*, warum sie so lange schwamm, und die letzte Zeile, was manche Orte wirklich sind.
+124	*kad* → ihr Alter; *dok* → auf der Fähre; *jer* → warum sie schwamm.
+125	Schreib jedes Bindewort zurück in seine Zeile. *Koje* beschreibt den Sommer (ein neutrales Substantiv), *kad* gibt die Zeit an, *dok* zwei Dinge gleichzeitig, *jer* den Grund und *ako* den Plan. Lies die ganze Zeile, bevor du wählst.
+126	*koje* (der Sommer), *kad* Zeit, *dok* gleichzeitig, *jer* Grund, *ako* Plan.
+127	Setz das Bindewort aus dem Text ein.
+128	Text 2: Wenn es sonnig ist
+129	Ana und Marko planen morgen, und fast jede Zeile ist eine Bedingung mit *ako*: *ako je sunčano… ako pada kiša…* Auch die anderen Bindewörter kommen vor – *koji* für den Film, *iako* für den Gegensatz und *dok* für zwei Dinge gleichzeitig.
+130	*ako je sunčano, ako pada kiša*; *film koji…, iako je dug, dok ti biraš*.
+131	Ana und Marko planen das Wochenende. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+132	Passive Wörter: *htio* (wollte), *onaj* (jener), *baš taj* (genau der), *kažu da* (man sagt, dass), *mislim* (ich denke).
+133	— Marko, što radimo sutra ako je sunčano? | — Marko, was machen wir morgen, wenn es sonnig ist?
+134	— Ako je sunčano, idemo na rijeku! | — Wenn es sonnig ist, gehen wir an den Fluss!
+135	— A ako pada kiša? | — Und wenn es regnet?
+136	— Ako pada kiša, ostat ćemo doma i gledat ćemo film koji si htjela. | — Wenn es regnet, bleiben wir zu Hause und schauen den Film, den du wolltest.
+137	— Onaj koji traje tri sata? | — Den, der drei Stunden dauert?
+138	— Da, baš taj! Iako je dug, kažu da je odličan. | — Ja, genau den! Obwohl er lang ist, soll er großartig sein.
+139	— Dobro. A ja kuham ručak dok ti biraš film. | — Gut. Und ich koche das Mittagessen, während du den Film aussuchst.
+140	— Dogovoreno! Vidiš zašto smo dobar tim: ti kuhaš, a ja mislim! | — Abgemacht! Siehst du, warum wir ein gutes Team sind: Du kochst, und ich denke!
+141	Ordne Bedingung & Plan zu
+142	Jede Bedingung oder Zeit aus Text 2 neben dem Plan, der dazugehört. *Ako* gibt die Bedingung an, *dok* zwei Dinge gleichzeitig und *iako* etwas, das trotz der anderen Hälfte wahr ist.
+143	*ako* → der Plan; *dok* → gleichzeitig; *iako* → trotzdem.
+144	Ordne jeder Bedingung den Plan zu.
+145	=
+146	=
+147	=
+148	=
+149	=
+150	Bau den Plan Zeile für Zeile wieder auf. Der Sonnenplan kommt vor dem Regenplan, der Film taucht nur im Regenplan auf, und das Mittagessen wird nach dem Film entschieden. Die Abmachung ist die letzte Zeile.
+151	Sonne, dann Regen, dann der Film, dann das Mittagessen, dann die Abmachung.
+152	Bau die Wochenendverhandlung wieder auf.
+153	Text 3: Warum ich Kroatisch lerne (ein Aufsatz)
+154	Bens Aufsatz über das Kroatischlernen, der längste Text des Kurses. Fast jeder Satz benutzt ein Bindewort – *jer, kad, dok, ako* – oder *koji* in mehreren Formen (*koji zvuči, koje je plavo, koji su stariji*). *Da* nach *mislio sam* und *otkrio sam* heißt *dass*.
+155	*jer, kad, dok, ako*; *koji / koje / koji*; *mislio sam da* = ich dachte, dass.
+156	Ben, der aus Kanada kommt, schreibt über sein Kroatisch. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+157	Passive Wörter: *pretežak* (zu schwer), *otkrio* (entdeckte), *otkrivam* (ich entdecke), *stariji od mnogih država* (älter als viele Staaten), *stajao* (stand), *učenja* (des Lernens), *imao smisla* (hatte Sinn).
+158	Zovem se Ben i dolazim iz Kanade. | Ich heiße Ben und komme aus Kanada.
+159	Učim hrvatski jer volim jezik koji zvuči kao glazba. | Ich lerne Kroatisch, weil ich eine Sprache liebe, die wie Musik klingt.
+160	Kad sam prvi put čuo hrvatski, mislio sam da je pretežak. | Als ich zum ersten Mal Kroatisch hörte, dachte ich, dass es zu schwer ist.
+161	Ali otkrio sam da već znam mnogo riječi: banana, hotel, film, čokolada... | Aber ich habe entdeckt, dass ich schon viele Wörter kenne: Banane, Hotel, Film, Schokolade ...
+162	Dok učim jezik, otkrivam i zemlju: more koje je plavo kao na slikama, gradove koji su stariji od mnogih država i ljude koji uvijek imaju vremena za kavu. | Während ich die Sprache lerne, entdecke ich auch das Land: ein Meer, das so blau ist wie auf den Bildern, Städte, die älter sind als viele Staaten, und Menschen, die immer Zeit für einen Kaffee haben.
+163	Ako jednog dana na rivi naručim kavu bez greške, znat ću da je svaki sat učenja imao smisla. | Wenn ich eines Tages auf der Riva ohne Fehler einen Kaffee bestelle, werde ich wissen, dass jede Stunde Lernen Sinn hatte.
+164	A vi? Zašto vi učite hrvatski? | Und ihr? Warum lernt ihr Kroatisch?
+165	Prüf jede Aussage an Bens Aufsatz. *Mislio sam da je pretežak* ist, was er am Anfang dachte, *otkrio sam da već znam mnogo riječi* ist, was er herausgefunden hat, und die *koji*-Teile beschreiben das Land.
+166	Am Anfang: *pretežak*. Dann: *već znam mnogo riječi*. *koji* beschreibt das Land.
+167	Der Schlüsselsatz des Aufsatzes
+168	Schreib die Bindewörter zurück in Bens Schlüsselsätze. *Jer* gibt seinen Grund an, *koji / koje* beschreiben die Sprache, das Meer und die Städte, *kad* und *dok* geben die Zeit an, und *da* folgt auf *mislio sam* und *znat ću*.
+169	*jer* Grund; *koji / koje* Beschreibung; *kad, dok* Zeit; *da* nach *mislio sam*.
+170	Setz die Bindewörter ein.
+171	Text 4: Eine Postkarte von der Insel
+172	Eine echte Postkarte, wie man sie von einer kroatischen Insel noch verschickt. Sie hat eine Anrede, ein paar lange Sätze mit *koju, iako, kad* und *da*, eine Unterschrift und eine Adresse. Lies sie wie eine Postkarte: wer schreibt, an wen, von wo.
+173	Eine echte Postkarte: Anrede, *koju, iako, kad, da*, Unterschrift, Adresse.
+174	Petra schreibt Oma von Brač. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+175	Passive Wörter: *Pozdrav s otoka* (Grüße von der Insel), *prekrasno* (wunderschön), *vraćamo se* (wir kommen zurück), *jedva čekam* (ich kann es kaum erwarten), *puno pozdrava* (viele Grüße).
+176	POZDRAV S OTOKA BRAČA! | GRÜSSE VON DER INSEL BRAČ!
+177	Draga bako, | Liebe Oma,
+178	ovdje je prekrasno! More je toplo kao juha, a plaža koju vidiš na slici je blizu naše kuće. | hier ist es wunderschön! Das Meer ist so warm wie Suppe, und der Strand, den du auf dem Bild siehst, ist in der Nähe unseres Hauses.
+179	Svaki dan plivam, iako je voda ujutro hladna. | Ich schwimme jeden Tag, obwohl das Wasser morgens kalt ist.
+180	Kad pada kiša, čitamo knjige i pijemo čaj. | Wenn es regnet, lesen wir Bücher und trinken Tee.
+181	Mama kaže da se vraćamo u subotu. Jedva čekam tvoje palačinke! | Mama sagt, dass wir am Samstag zurückkommen. Ich kann deine Pfannkuchen kaum erwarten!
+182	Puno pozdrava, tvoja Petra | Viele Grüße, deine Petra
+183	Hast du die Postkarte gelesen?
+184	Die Postkarte nach den Fakten lesen. Jede Antwort steht in einem Satz: *koju* sagt dir, welcher Strand, *iako*, was trotz des Schwimmens wahr ist, *kad*, was an Regentagen passiert, und *da*, was Mama sagt.
+185	*koju* → der Strand; *iako* → das kalte Wasser; *kad* → Regentage; *da* → Mamas Plan.
+186	Antworte anhand der Postkarte.
+187	Text 5: Vier Sommer
+188	Eher ein Rätsel als eine Geschichte. Vier Freunde haben den Sommer an vier verschiedenen Orten verbracht, und jeder Hinweis verbindet zwei Gedanken mit *jer, iako* oder *ali*. Fang mit Marko an: Zwei Hinweise reichen, um ihn zuzuordnen.
+189	Vier Freunde, vier Sommer, keine Etiketten. Lies den Text zweimal, bevor du antwortest.
+190	Passive Wörter: *svatko* (jeder), *negdje drugdje* (woanders), *ove godine* (dieses Jahr), *tamo* (dort).
+191	Ana, Marko, Petra i Ivan su ljeto proveli na četiri mjesta: na otoku, na planini, u Splitu i u Zagrebu. | Ana, Marko, Petra und Ivan haben den Sommer an vier Orten verbracht: auf einer Insel, in den Bergen, in Split und in Zagreb.
+192	Svatko je bio negdje drugdje. | Jeder war woanders.
+193	Ana nije bila na moru, jer ne voli more. | Ana war nicht am Meer, weil sie das Meer nicht mag.
+194	Marko je plivao svaki dan. | Marko ist jeden Tag geschwommen.
+195	Iako Marko voli Split, ove godine nije bio tamo. | Obwohl Marko Split mag, war er dieses Jahr nicht dort.
+196	Petra nije bila ni u Zagrebu ni na otoku. | Petra war weder in Zagreb noch auf der Insel.
+197	Petra cijelo ljeto nije plivala. | Petra ist den ganzen Sommer nicht geschwommen.
+198	Ivan je bio u gradu, ali ne u Zagrebu. | Ivan war in einer Stadt, aber nicht in Zagreb.
+199	Tko je bio gdje? | Wer war wo?
+200	Schlussfolgern aus den Hinweisen. Marko ist jeden Tag geschwommen, war aber nicht in Split, also war er auf der Insel. Ivan war in einer Stadt, aber nicht in Zagreb, also war er in Split. Petra ist nicht geschwommen und war nicht in Zagreb, also war sie in den Bergen, und Ana war in Zagreb.
+201	Zuerst Marko (die Insel), dann Ivan (Split), Petra (die Berge), Ana (Zagreb).
+202	Niemand sagt, wer wo war. Finde es aus dem Text heraus.
+203	Ein Tippen vollendet *koj___*, und fast jeder Satz stammt aus den fünf Texten. Ein maskulines Substantiv und eine Gruppe von Menschen bekommen **-i**, ein feminines Substantiv **-a**, ein neutrales Substantiv und ein femininer Plural **-e**, und ein feminines Substantiv, das in seinem eigenen Satz das Ziel ist, **-u**.
+204	Fast jeder Satz stammt aus den fünf Texten. Ein Tippen vollendet *koji*.
+205	Es gibt einen Sommer, den ich nie vergessen werde.
+206	Die Insel, die klein aussah, wurde meine Welt.
+207	Wir schauen den Film, den du wolltest.
+208	Den, der drei Stunden dauert?
+209	Ich liebe eine Sprache, die wie Musik klingt.
+210	Ein Meer, das so blau ist wie auf den Bildern.
+211	Menschen, die immer Zeit für einen Kaffee haben.
+212	Der Strand, den du auf dem Bild siehst, ist in der Nähe des Hauses.
+213	Städte, die älter sind als viele Staaten.
+214	Das ist die Postkarte, die Petra geschickt hat.
+215	Petra hat einen Hund, der gern schwimmt.
+216	Das Wasser, das morgens kalt ist.
+217	Die Bücher, die wir lesen, wenn es regnet.
+218	Die Pfannkuchen, die Oma macht, sind großartig.
+219	Eine Erinnerung, die ich nie vergessen werde.
+220	Warum, wann, wenn oder obwohl?
+221	Sätze aus den Texten nach der Bedeutung ihres Bindeworts sortieren. *Jer* und *zato što* geben einen Grund an; *kad* und *dok* die Zeit; *ako* eine Bedingung; *iako* einen Gegensatz – etwas, das trotz der anderen Hälfte wahr ist.
+222	Warum, wann, wenn oder obwohl? Sortiere die Sätze aus den Texten.
+223	Jetzt erinnerst DU dich
+224	Du bist dran: Ein Freund fragt nach dem Sommer, den du nie vergessen wirst. Deine Antworten benutzen *kad, jer, koji* und *iako*, und wo dein Geschlecht sichtbar wird (*bio / bila*), werden beide Formen angeboten. Der Freund reagiert auf den Ort, den du wählst.
+225	*kad, jer, koji, iako*; *bio / bila* in beiden Formen. Dein Freund reagiert.
+226	Ein Café, ein Freund und alte Erinnerungen. Wähle deine Antworten. Passive Wörter: *zaboraviti* (vergessen), *sjećam se* (ich erinnere mich), *još uvijek* (immer noch), *Idemo zajedno!* (Gehen wir zusammen!).
+227	Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten – deine Abschlusssätze. Das Bindewort eröffnet seine eigene Hälfte, kurze Wörter nehmen die zweite Stelle direkt danach ein, und *koji* steht direkt nach seinem Substantiv.
+228	Bindewort eröffnet seine Hälfte; kurze Wörter direkt danach; *koji* nach seinem Substantiv.
+229	Lies den deutschen Satz und bau dann seine kroatische Übersetzung – deine Abschlusssätze!
+230	en: Ich lerne Kroatisch, weil ich eine Sprache liebe, die wie Musik klingt.
+231	en: Wenn es regnet, bleiben wir zu Hause.
+232	en: Manche Orte sind nicht nur Orte.
+233	en: Es gibt einen Sommer, den ich nie vergessen werde.
+234	en: Ich war zehn Jahre alt, als wir zum ersten Mal auf die Insel fuhren.
+235	en: Während die Fähre fuhr, schaute ich den Möwen zu.
+236	en: Wenn es sonnig ist, gehen wir an den Fluss!
+237	en: Obwohl der Film lang ist, soll er großartig sein.
+238	en: Ich koche das Mittagessen, während du den Film aussuchst.
+239	en: Als ich zum ersten Mal Kroatisch hörte, dachte ich, dass es zu schwer ist.
+240	en: Der Strand, den du auf dem Bild siehst, ist in der Nähe unseres Hauses.
+241	en: Ich schwimme jeden Tag, obwohl das Wasser kalt ist.
+242	en: Mama sagt, dass wir am Samstag zurückkommen.
+243	en: Ana war nicht am Meer, weil sie das Meer nicht mag.
+244	en: Und ihr? Warum lernt ihr Kroatisch?
+245	Ein letztes zeitgebundenes Bild-zu-Wort-Tippen über einen kroatischen Sommer. Alles steht in der Grundform; bilde beim Tippen im Kopf einen Satz damit – *Ljeto koje nikad neću zaboraviti… Trajekt koji plovi na otok…*
+246	Grundformen. Denk *trajekt koji plovi, more koje je plavo*.
+247	Die letzte Fähre des Sommers legt ab! Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
+248	Letzte Herausforderung
+249	Die letzte Leseseite des Kurses. Sag deine eigene Antwort auf die Frage des Aufsatzes laut, in einem Satz mit *jer* oder *koji* – hier gibt es keine falsche Antwort, nur dein eigenes Kroatisch.
+250	Deine eigene Antwort, laut: ein Satz mit *jer* oder *koji*.
+251	Und jetzt – sag DEINE Antwort laut: **Zašto vi učite hrvatski?**
+252	Ein Satz mit *jer* oder *koji*. Es gibt keine falsche Antwort – nur deinen eigenen ersten echten kroatischen Gedanken.
+253	Test 20: Der Abschlusstest
+254	Die Wörter von Stufe 20: Bindewörter, Erinnerungen, das Meer und die Wörter fürs Sprachenlernen. Substantive stehen in der Grundform und Verben im Infinitiv. Mehrere Bindewörter sehen sich ähnlich – *kad, ako, dok, iako* –, also lies das Deutsche genau.
+255	Wörter von Stufe 20: Bindewörter, Erinnerungen, das Meer, Lernen.
+256	dass
+257	existieren
+258	Wiedererkennen der Wörter von Stufe 20, mit drei Bedeutungen zur Auswahl. Die falschen Optionen stammen aus derselben Gruppe – Bindewörter, das Meer oder Lernen –, also sind bedeutungsähnliche Wörter der eigentliche Test.
+259	Wörter von Stufe 20; die falschen Optionen stammen aus derselben Gruppe.
+260	trotzdem
+261	also
+262	viele
+263	Bedeutung
+264	scheinen
+265	Das Bindewort wählen, das zu beiden Hälften passt. Nach *znam, mislim, nadam se, rekao je* ist die Antwort *da*; ein Grund nimmt *jer*, eine Bedingung *ako*, ein Gegensatz *iako*, eine Zeit *kad* oder *dok*. *Kao* kann keinen Satz einleiten.
+266	*da* nach *znam, mislim*; Grund *jer*; Bedingung *ako*; Gegensatz *iako*; Zeit *kad / dok*.
+267	Ein Tippen vollendet *koj___* in dem Fall, den sein eigener Satz braucht. Subjekt: **-i** (maskulin, Menschen), **-a** (feminin), **-e** (neutral, femininer Plural). Ziel: **-u** für ein feminines Substantiv, **-eg** für eine Person. Ort nach *u*: **-em**. Mittel: **-im**.
+268	Subjekt **-i / -a / -e**; Ziel **-u / -eg**; Ort **-em**; Mittel **-im**.
+269	Ein Meer, das blau ist.
+270	Ein Lied, das schön ist.
+271	Menschen, die am Meer wohnen.
+272	Der Strand, den du auf dem Bild siehst.
+273	Die Bücher, die auf dem Tisch liegen.
+274	Das Dorf, in dem wir waren.
+275	Der Bus, mit dem ich zur Arbeit fahre.
+276	Den Fall von *koji* aus seinem eigenen Satz wählen. Stell die Frage innerhalb dieses Satzes: *tko? / što?* ergibt *koji, koja, koje*; das Ziel ergibt *koju* oder *kojeg*; *gdje?* nach *u* ergibt *kojem* oder *kojoj*; *čime?* ergibt *kojim*.
+277	Subjekt *koji / koja / koje*; Ziel *koju / kojeg*; Ort *u kojem / u kojoj*; Mittel *kojim*.
+278	Den Satz wählen, in dem die kurzen Wörter an der richtigen Stelle stehen. Nach einem Bindewort – *jer, kad, ako, da, iako, koji* – kommen die kurzen Wörter *je, sam, ću, ga, se* direkt danach, weil das Bindewort als erstes Wort zählt.
+279	weil es spät ist
+280	obwohl es kalt ist
+281	sie sagte, sie sei müde
+282	Die Fälle, ein letztes Mal
+283	Eine Wiederholung aller sechs Fälle aus dem Kurs. Die Frage hinter dem Wort entscheidet die Endung: *kamo?* Akkusativ nach *u / na*, *gdje?* Lokativ, *komu?* Dativ, *s kim? / čime?* Instrumental, *čiji? / bez čega? / nema* Genitiv, und das Ziel des Verbs Akkusativ.
+284	Akkusativ, Lokativ, Dativ, Instrumental, Genitiv – die Frage entscheidet.
+285	Die Grundform steht in Klammern. Wähle die Form, die passt.
+286	Die Verben, ein letztes Mal
+287	Eine Wiederholung jeder Verbform aus dem Kurs: das Präsens, das Perfekt mit beiden Geschlechtern, das Futur, der Imperativ, der Konditional und die zwei Aspekte. Lies die Klammer für Person und Zeit, bevor du wählst.
+288	Präsens, Perfekt (beide Geschlechter), Futur, Imperativ, Konditional, Aspekt.
+289	Jučer sam ___ u kinu. (biti, eine Frau spricht)
+290	Lesen: der letzte Brief
+291	Ein Brief, der fast alles aus dem Kurs benutzt: die Vergangenheit, die Zukunft, den Konditional, die Fälle und die Bindewörter. Finde den Satz, der jede Frage beantwortet – das Bindewort darin (*jer, kad, iako, ako*) weist meist den Weg.
+292	Alles aus dem Kurs. Das Bindewort im Satz zeigt zur Antwort.
+293	Lies den Brief und antworte dann. Passive Wörter: *mjesec dana* (einen Monat), *stigla* (angekommen), *svako jutro* (jeden Morgen), *mi se sviđa* (mir gefällt), *u kolovozu* (im August).
+294	Der Anfang des Kurses, ein letztes Mal: Genus und Adjektive, *biti*, das Präsens, die Familie und Bindewörter, die ersten Akkusative, der Plural, das Futur, Possessive und das Perfekt. Jede Aufgabe stammt aus den Stufen 1 bis 10.
+295	Stufen 1 bis 10: Genus, *biti*, Präsens, Akkusativ, Plural, Futur, Possessive, Perfekt.
+296	Alles hier stammt aus den Stufen 1 bis 10.
+297	Njegov dres je plav, a ___ je crven. (meins)
+298	Jučer sam ___ film. (gledati, ein Mann spricht)
+299	Die Schlüsselsätze des ganzen Kurses, einer pro Stufengruppe, aus Kacheln gebaut. Kurze Wörter nehmen in jeder Hälfte die zweite Stelle ein, das Bindewort eröffnet seine eigene Hälfte, und jedes Substantiv nimmt den Fall, den seine Aufgabe braucht.
+300	Die Schlüsselsätze des Kurses. Kurze Wörter an zweiter Stelle; Bindewort eröffnet seine Hälfte.
+301	en: Die Wohnung ist klein, aber das Zuhause ist warm.
+302	en: Mama kocht frischen Fisch, und ich esse einen süßen Kuchen.
+303	en: Ana hat gesungen, und Marko hat Gitarre gespielt.
+304	en: Sie hat ihren Kaffee langsam getrunken, und er hat seinen sofort ausgetrunken.
+305	en: Ich glaube, das war ein guter Anfang.
+306	en: Die Stadt, in der ich wohne, ist alt.
+307	Freie Produktion aus dem Deutschen, die letzte Aufgabe des Kurses. Jeder Satz benutzt einen anderen Teil der kroatischen Grammatik: Fälle, Zeitformen, den Imperativ, den Konditional, den Aspekt und verbundene Sätze. Wo das Geschlecht des Sprechers sichtbar wird, werden beide Formen akzeptiert.
+308	Der ganze Kurs in sechzehn Sätzen. Beide Geschlechter akzeptiert.
+309	Ich trinke Kaffee ohne Zucker.
+310	Ich gehe mit meiner Schwester ins Kino.
+311	Ich schreibe Oma einen Brief.
+312	Gestern habe ich einen Film gesehen.
+313	Morgen werde ich schwimmen.
+314	Obwohl es kalt ist, schwimme ich.
+315	Niemand weiß es.
+316	Sortiere die Adjektive – Lektion 1
+317	Jedes Substantiv mag Adjektive, die so klingen wie es selbst. Tippe ein Wort an, dann die Spalte, in die es gehört!
+318	=
+319	=
+320	=
+321	=
+322	=
+323	=
+324	=

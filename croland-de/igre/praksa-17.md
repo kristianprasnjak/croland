@@ -1,27 +1,27 @@
-# Reading: Recipes, Directions & Coach Zvone
+# Lesen: Rezepte, Wegbeschreibungen & Trainer Zvone
 cjelina: Practice 17
 
-## Text 1: Pancakes (a recipe)
+## Text 1: Pfannkuchen (ein Rezept)
 format: tekst
-info: A real recipe, and every step is an order for one person. Read it twice: once for the pancakes, once for the endings — **-aj** (*dodaj, miješaj*), **-i** (*uzmi, stavi, okreni*), **-j** (*zagrij*) — and *peci*, the one learned whole.
-infokratko: One order per step: *dodaj, miješaj* · *uzmi, stavi, okreni* · *zagrij* · *peci*.
-opis: A recipe for pancakes, step by step. Tap **EN** next to any sentence to see its translation.
-- Passive words: *recept* (recipe), *smotaj* (roll it up), *posluži* (serve), *najvažnije* (most importantly).
-- Recept za palačinke. | A recipe for pancakes.
-- Uzmi tri jaja, brašno i mlijeko. | Take three eggs, flour and milk.
-- Dodaj malo soli. | Add a little salt.
-- Miješaj dvije minute. | Mix for two minutes.
-- Zagrij tavu i stavi malo ulja. | Heat the pan and put in a little oil.
-- Peci palačinku jednu minutu, a onda je okreni! | Fry the pancake for one minute, and then flip it!
-- Stavi marmeladu ili čokoladu. | Put on jam or chocolate.
-- Smotaj, posluži i — najvažnije — podijeli sa sestrom! | Roll it up, serve and — most importantly — share with your sister!
-- Dobar tek! | Enjoy your meal!
+info: Ein echtes Rezept, und jeder Schritt ist ein Befehl an eine Person. Lies es zweimal: einmal für die Pfannkuchen, einmal für die Endungen – **-aj** (*dodaj, miješaj*), **-i** (*uzmi, stavi, okreni*), **-j** (*zagrij*) – und *peci*, das man als Ganzes lernt.
+infokratko: Ein Befehl pro Schritt: *dodaj, miješaj* · *uzmi, stavi, okreni* · *zagrij* · *peci*.
+opis: Ein Rezept für Pfannkuchen, Schritt für Schritt. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+- Passive Wörter: *recept* (Rezept), *smotaj* (roll ihn auf), *posluži* (servier), *najvažnije* (das Wichtigste).
+- Recept za palačinke. | Ein Rezept für Pfannkuchen.
+- Uzmi tri jaja, brašno i mlijeko. | Nimm drei Eier, Mehl und Milch.
+- Dodaj malo soli. | Füg ein bisschen Salz hinzu.
+- Miješaj dvije minute. | Rühr zwei Minuten lang.
+- Zagrij tavu i stavi malo ulja. | Erhitze die Pfanne und gib ein bisschen Öl hinein.
+- Peci palačinku jednu minutu, a onda je okreni! | Back den Pfannkuchen eine Minute und wende ihn dann!
+- Stavi marmeladu ili čokoladu. | Gib Marmelade oder Schokolade darauf.
+- Smotaj, posluži i — najvažnije — podijeli sa sestrom! | Roll ihn auf, servier ihn und – das Wichtigste – teil ihn mit deiner Schwester!
+- Dobar tek! | Guten Appetit!
 
-## Put the recipe in order
+## Bring das Rezept in die richtige Reihenfolge
 format: poredak
-info: Sequence the recipe from Text 1. The ingredients come first and the sharing last. Between them, the salt goes into the mixture before it is mixed, the pan is heated before anything is fried, and a pancake is flipped only after its first minute.
-infokratko: Ingredients, salt, mixing, the pan, frying, flipping, jam, sharing.
-opis: Put the recipe steps in order.
+info: Ordne das Rezept aus Text 1. Die Zutaten kommen zuerst und das Teilen zuletzt. Dazwischen kommt das Salz in die Mischung, bevor gerührt wird, die Pfanne wird erhitzt, bevor etwas gebacken wird, und ein Pfannkuchen wird erst nach seiner ersten Minute gewendet.
+infokratko: Zutaten, Salz, Rühren, die Pfanne, Backen, Wenden, Marmelade, Teilen.
+opis: Bring die Schritte des Rezepts in die richtige Reihenfolge.
 - uzmi jaja, brašno i mlijeko
 - dodaj sol
 - miješaj
@@ -31,11 +31,11 @@ opis: Put the recipe steps in order.
 - stavi marmeladu
 - podijeli!
 
-## Type the command
+## Schreib den Befehl
 format: upis
-info: Copy each order back into the recipe. The bracket gives the infinitive; think of the *ti* form first: *dodaš → dodaj, uzmeš → uzmi, zagriješ → zagrij*. *Peći* gives *peci*, the form learned whole.
-infokratko: Via the *ti* form: *dodaj, uzmi, zagrij*. *peći → peci*.
-opis: Fill in the command from the recipe.
+info: Schreib jeden Befehl zurück ins Rezept. Die Klammer gibt den Infinitiv an; denk zuerst an die *ti*-Form: *dodaš → dodaj, uzmeš → uzmi, zagriješ → zagrij*. *Peći* ergibt *peci*, die Form, die man als Ganzes lernt.
+infokratko: Über die *ti*-Form: *dodaj, uzmi, zagrij*. *peći → peci*.
+opis: Setz den Befehl aus dem Rezept ein.
 tekst: Uzmi tri jaja, brašno i mlijeko. Dodaj malo soli. Miješaj dvije minute. Zagrij tavu i stavi malo ulja. Peci palačinku jednu minutu, a onda je okreni! Stavi marmeladu ili čokoladu. Podijeli sa sestrom!
 - ___ tri jaja. (uzeti) | Uzmi
 - ___ malo soli. (dodati) | Dodaj
@@ -46,26 +46,26 @@ tekst: Uzmi tri jaja, brašno i mlijeko. Dodaj malo soli. Miješaj dvije minute.
 - ___ marmeladu ili čokoladu. (staviti) | Stavi
 - ___ sa sestrom! (podijeliti) | Podijeli
 
-## Text 2: Directions
+## Text 2: Wegbeschreibung
 format: tekst
-info: A tourist asks the way, so every order is for *vi* and ends in **-te**: *idite, skrenite, prijeđite, hodajte, požurite*. The last line is a *don't* with *ne*: *Ne trčite preko ceste!*
-infokratko: Polite *vi* orders: *idite, skrenite, prijeđite, hodajte*. *Ne trčite!*
-opis: A tourist, a map and ten minutes to the train. Tap **EN** to see any line in English.
-- Passive words: *Oprostite* (Excuse me), *pogledajte* (look), *odmah tu* (right there), *za deset minuta* (in ten minutes), *Sretan put* (Have a good trip).
-- — Oprostite, gdje je kolodvor? | — Excuse me, where is the station?
-- — Idite ravno do semafora. Na semaforu skrenite lijevo. | — Go straight to the traffic lights. At the lights turn left.
-- — Lijevo. Dobro. | — Left. Okay.
-- — Zatim prijeđite most i hodajte pokraj parka. | — Then cross the bridge and walk past the park.
-- — A onda? | — And then?
-- — Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta! | — Look right — the station is right there. But hurry, the train leaves in ten minutes!
-- — Hvala vam puno! | — Thank you very much!
-- — Sretan put! I ne trčite preko ceste! | — Have a good trip! And don't run across the road!
+info: Ein Tourist fragt nach dem Weg, also ist jeder Befehl für *vi* und endet auf **-te**: *idite, skrenite, prijeđite, hodajte, požurite*. Die letzte Zeile ist ein Verbot mit *ne*: *Ne trčite preko ceste!*
+infokratko: Höfliche *vi*-Befehle: *idite, skrenite, prijeđite, hodajte*. *Ne trčite!*
+opis: Ein Tourist, ein Stadtplan und zehn Minuten bis zum Zug. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Oprostite* (Entschuldigung), *pogledajte* (schauen Sie), *odmah tu* (gleich da), *za deset minuta* (in zehn Minuten), *Sretan put* (Gute Reise).
+- — Oprostite, gdje je kolodvor? | — Entschuldigung, wo ist der Bahnhof?
+- — Idite ravno do semafora. Na semaforu skrenite lijevo. | — Gehen Sie geradeaus bis zur Ampel. An der Ampel biegen Sie links ab.
+- — Lijevo. Dobro. | — Links. Gut.
+- — Zatim prijeđite most i hodajte pokraj parka. | — Dann gehen Sie über die Brücke und am Park entlang.
+- — A onda? | — Und dann?
+- — Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta! | — Schauen Sie nach rechts – der Bahnhof ist gleich da. Aber beeilen Sie sich, der Zug fährt in zehn Minuten ab!
+- — Hvala vam puno! | — Vielen Dank!
+- — Sretan put! I ne trčite preko ceste! | — Gute Reise! Und laufen Sie nicht über die Straße!
 
-## Put the route in order
+## Bring den Weg in die richtige Reihenfolge
 format: poredak
-info: Trace the route from Text 2. Straight on to the lights comes first, the turn happens at the lights, the bridge comes before the park, and the station appears when you look right at the end.
-infokratko: Lights, turn, bridge, park, look right, station.
-opis: Trace the route — put the directions in order.
+info: Verfolge den Weg aus Text 2. Geradeaus bis zur Ampel kommt zuerst, das Abbiegen passiert an der Ampel, die Brücke kommt vor dem Park, und der Bahnhof erscheint, wenn man am Ende nach rechts schaut.
+infokratko: Ampel, abbiegen, Brücke, Park, nach rechts schauen, Bahnhof.
+opis: Verfolge den Weg – bring die Anweisungen in die richtige Reihenfolge.
 - ravno do semafora
 - skrenite lijevo
 - prijeđite most
@@ -75,8 +75,8 @@ opis: Trace the route — put the directions in order.
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against the directions. The turn at the lights is to the left, the station comes after the park, and the train leaves in ten minutes — so *požurite* is good advice, but *ne trčite preko ceste*.
-infokratko: Left at the lights, the station after the park, ten minutes to the train.
+info: Prüf jede Aussage an der Wegbeschreibung. An der Ampel geht es nach links, der Bahnhof kommt nach dem Park, und der Zug fährt in zehn Minuten ab – also ist *požurite* ein guter Rat, aber *ne trčite preko ceste*.
+infokratko: Links an der Ampel, der Bahnhof nach dem Park, zehn Minuten bis zum Zug.
 opis: Tippe auf richtig oder falsch.
 tekst: — Oprostite, gdje je kolodvor? — Idite ravno do semafora. Na semaforu skrenite lijevo. Zatim prijeđite most i hodajte pokraj parka. Pogledajte desno — kolodvor je odmah tu. Ali požurite, vlak kreće za deset minuta! — Hvala vam puno! — Sretan put! I ne trčite preko ceste!
 - Na semaforu treba skrenuti desno. | FALSCH | RICHTIG
@@ -86,76 +86,76 @@ tekst: — Oprostite, gdje je kolodvor? — Idite ravno do semafora. Na semaforu
 - Kolodvor je pokraj semafora. | FALSCH | RICHTIG
 - Turist treba trčati preko ceste. | FALSCH | RICHTIG
 
-## Text 3: The coach
+## Text 3: Der Trainer
 format: tekst
-info: Coach Zvone speaks in short orders. To the whole team they end in **-te** (*trčite, skočite, dodajte*); to one player they have no **-te** (*pij, ne gledaj*). The team's own sentences are in the present: *trčimo, skačemo, dodajemo*.
-infokratko: Team: **-te** (*trčite, dodajte*). One player: *pij, ne gledaj*. The team: *trčimo* (present).
-opis: A coach, a team and a lot of running. Tap **EN** to see any line in English.
-- Passive words: *legenda* (legend), *njegove riječi* (his words), *kaže* (says), *na kraju treninga* (at the end of training), *isto* (the same), *bez njega* (without him).
-- Trener Zvone je legenda. | Coach Zvone is a legend.
-- Njegove riječi su kratke: "Trčite! Skočite! Dodajte loptu! Ne spavajte!" | His words are short: "Run! Jump! Pass the ball! Don't sleep!"
-- Mi trčimo, skačemo i dodajemo. | We run, jump and pass.
-- "Pij vodu!" kaže Ivanu. | "Drink water!" he says to Ivan.
-- "Ne gledaj telefon!" kaže Maji. | "Don't look at your phone!" he says to Maja.
-- "Nemoj kasniti!" kaže Marku. | "Don't be late!" he says to Marko.
-- Na kraju treninga uvijek kaže isto: "Jedite dobro, spavajte i dođite sutra." | At the end of training he always says the same: "Eat well, sleep and come tomorrow."
-- Strog je, ali bez njega nismo tim. | He is strict, but without him we are not a team.
+info: Trainer Zvone spricht in kurzen Befehlen. An die ganze Mannschaft enden sie auf **-te** (*trčite, skočite, dodajte*); an einen Spieler haben sie kein **-te** (*pij, ne gledaj*). Die eigenen Sätze der Mannschaft stehen im Präsens: *trčimo, skačemo, dodajemo*.
+infokratko: Mannschaft: **-te** (*trčite, dodajte*). Ein Spieler: *pij, ne gledaj*. Die Mannschaft: *trčimo* (Präsens).
+opis: Ein Trainer, eine Mannschaft und viel Laufen. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *legenda* (Legende), *njegove riječi* (seine Worte), *kaže* (sagt), *na kraju treninga* (am Ende des Trainings), *isto* (dasselbe), *bez njega* (ohne ihn).
+- Trener Zvone je legenda. | Trainer Zvone ist eine Legende.
+- Njegove riječi su kratke: "Trčite! Skočite! Dodajte loptu! Ne spavajte!" | Seine Worte sind kurz: „Lauft! Springt! Spielt den Ball ab! Schlaft nicht!“
+- Mi trčimo, skačemo i dodajemo. | Wir laufen, springen und spielen ab.
+- "Pij vodu!" kaže Ivanu. | „Trink Wasser!“, sagt er zu Ivan.
+- "Ne gledaj telefon!" kaže Maji. | „Schau nicht aufs Handy!“, sagt er zu Maja.
+- "Nemoj kasniti!" kaže Marku. | „Komm nicht zu spät!“, sagt er zu Marko.
+- Na kraju treninga uvijek kaže isto: "Jedite dobro, spavajte i dođite sutra." | Am Ende des Trainings sagt er immer dasselbe: „Esst gut, schlaft und kommt morgen.“
+- Strog je, ali bez njega nismo tim. | Er ist streng, aber ohne ihn sind wir keine Mannschaft.
 
-## Who gets which order?
+## Wer bekommt welchen Befehl?
 format: parovi
-info: Each receiver from Text 3 beside the order Zvone gives. The receivers are in the dative (*Ivanu, Maji, Marku*), and the orders show who they are for: no **-te** for one player, **-te** for the whole team.
-infokratko: Receiver in the dative; no **-te** for one player, **-te** for the team.
-opis: Who does Zvone tell what? Match from the text.
+info: Jeder Empfänger aus Text 3 neben dem Befehl, den Zvone gibt. Die Empfänger stehen im Dativ (*Ivanu, Maji, Marku*), und die Befehle zeigen, für wen sie sind: kein **-te** für einen Spieler, **-te** für die ganze Mannschaft.
+infokratko: Empfänger im Dativ; kein **-te** für einen Spieler, **-te** für die Mannschaft.
+opis: Wem sagt Zvone was? Ordne nach dem Text zu.
 - Ivanu | "Pij vodu!"
 - Maji | "Ne gledaj telefon!"
 - Marku | "Nemoj kasniti!"
 - timu na treningu | "Trčite! Skočite!"
 - timu na kraju | "Jedite dobro i dođite sutra."
 
-## One person or a group?
+## Eine Person oder eine Gruppe?
 format: razvrstavanje
-info: Sorting orders from the texts by who they are for. Without **-te** the order is for one person you call *ti*: *pij, uzmi, ne gledaj*. With **-te** it is for a group or a polite *vi*: *trčite, skrenite, požurite*. *Nemoj* and *nemojte* follow the same split.
-infokratko: No **-te** → one person (*ti*). **-te** → a group or polite *vi*.
-stupci: ONE PERSON (ti) | A GROUP (vi)
-opis: Singular or plural command? Sort the orders from the texts.
-- Trčite! | A GROUP (vi)
-- Pij vodu! | ONE PERSON (ti)
-- Skočite! | A GROUP (vi)
-- Ne gledaj telefon! | ONE PERSON (ti)
-- Dođite sutra! | A GROUP (vi)
-- Nemoj kasniti! | ONE PERSON (ti)
-- Uzmi tri jaja! | ONE PERSON (ti)
-- Dodaj malo soli! | ONE PERSON (ti)
-- Zagrij tavu! | ONE PERSON (ti)
-- Podijeli sa sestrom! | ONE PERSON (ti)
-- Skrenite lijevo! | A GROUP (vi)
-- Prijeđite most! | A GROUP (vi)
-- Požurite! | A GROUP (vi)
-- Ne trčite preko ceste! | A GROUP (vi)
+info: Befehle aus den Texten danach sortieren, für wen sie sind. Ohne **-te** ist der Befehl für eine Person, die du mit *ti* ansprichst: *pij, uzmi, ne gledaj*. Mit **-te** ist er für eine Gruppe oder ein höfliches *vi*: *trčite, skrenite, požurite*. *Nemoj* und *nemojte* folgen derselben Aufteilung.
+infokratko: Kein **-te** → eine Person (*ti*). **-te** → eine Gruppe oder höfliches *vi*.
+stupci: EINE PERSON (ti) | EINE GRUPPE (vi)
+opis: Befehl im Singular oder Plural? Sortiere die Befehle aus den Texten.
+- Trčite! | EINE GRUPPE (vi)
+- Pij vodu! | EINE PERSON (ti)
+- Skočite! | EINE GRUPPE (vi)
+- Ne gledaj telefon! | EINE PERSON (ti)
+- Dođite sutra! | EINE GRUPPE (vi)
+- Nemoj kasniti! | EINE PERSON (ti)
+- Uzmi tri jaja! | EINE PERSON (ti)
+- Dodaj malo soli! | EINE PERSON (ti)
+- Zagrij tavu! | EINE PERSON (ti)
+- Podijeli sa sestrom! | EINE PERSON (ti)
+- Skrenite lijevo! | EINE GRUPPE (vi)
+- Prijeđite most! | EINE GRUPPE (vi)
+- Požurite! | EINE GRUPPE (vi)
+- Ne trčite preko ceste! | EINE GRUPPE (vi)
 
-## Text 4: A note on the fridge
+## Text 4: Ein Zettel am Kühlschrank
 format: tekst
-info: A real note left on the fridge, and every line is an order for one person: *zagrij, jedi, nemoj, zaključaj, čekaj*. Read it as a to-do list — the questions ask what Marko has to do, and what he must not do.
-infokratko: A real note, all orders for one person: *zagrij, jedi, nemoj, zaključaj*.
-opis: Mum has gone to work, and Marko finds a note. Tap **EN** to see any line in English.
-- Passive words: *Dragi* (Dear), *do* (until), *posebno* (especially), *Vraćam se* (I'll be back), *van* (out), *tepih* (mat, rug).
+info: Ein echter Zettel am Kühlschrank, und jede Zeile ist ein Befehl an eine Person: *zagrij, jedi, nemoj, zaključaj, čekaj*. Lies ihn wie eine To-do-Liste – die Fragen fragen, was Marko tun muss und was er nicht tun darf.
+infokratko: Ein echter Zettel, alles Befehle an eine Person: *zagrij, jedi, nemoj, zaključaj*.
+opis: Mama ist zur Arbeit gegangen, und Marko findet einen Zettel. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Dragi* (Lieber), *do* (bis), *posebno* (besonders), *Vraćam se* (ich komme zurück), *van* (raus), *tepih* (Fußmatte, Teppich).
 - Dragi Marko, | Dear Marko,
-- idem na posao. Vraćam se u šest. | I'm going to work. I'll be back at six.
-- Ručak je u hladnjaku. | Lunch is in the fridge.
-- Zagrij juhu pet minuta. | Heat up the soup for five minutes.
-- Jedi i kruh, ne samo kolače! | Eat some bread too, not only cakes!
-- Nemoj gledati telefon do ponoći. | Don't look at your phone until midnight.
-- Uči za test — posebno matematiku! | Study for the test — especially maths!
-- Kad ideš van, zaključaj vrata. | When you go out, lock the door.
-- Ključ stavi ispod tepiha. | Put the key under the mat.
-- Čekaj me za večeru. | Wait for me for dinner.
-- Mama | Mum
+- idem na posao. Vraćam se u šest. | ich gehe zur Arbeit. Ich komme um sechs zurück.
+- Ručak je u hladnjaku. | Das Mittagessen ist im Kühlschrank.
+- Zagrij juhu pet minuta. | Wärm die Suppe fünf Minuten auf.
+- Jedi i kruh, ne samo kolače! | Iss auch Brot, nicht nur Kuchen!
+- Nemoj gledati telefon do ponoći. | Schau nicht bis Mitternacht aufs Handy.
+- Uči za test — posebno matematiku! | Lern für den Test – besonders Mathe!
+- Kad ideš van, zaključaj vrata. | Wenn du rausgehst, schließ die Tür ab.
+- Ključ stavi ispod tepiha. | Leg den Schlüssel unter die Fußmatte.
+- Čekaj me za večeru. | Warte mit dem Abendessen auf mich.
+- Mama | Mama
 
-## What does Mum want?
+## Was will Mama?
 format: izbor
-info: Reading the note for what Marko has to do. Each question has its answer on one line; the orders say what to do, and *nemoj* says what not to do. Watch the details: the soup, not the lunch, gets five minutes.
-infokratko: Orders say what to do; *nemoj* what not to do. One line per answer.
-opis: Answer from the note.
+info: Den Zettel danach lesen, was Marko tun muss. Jede Frage hat ihre Antwort in einer Zeile; die Befehle sagen, was zu tun ist, und *nemoj* sagt, was nicht. Achte auf die Details: Die Suppe, nicht das Mittagessen, bekommt fünf Minuten.
+infokratko: Befehle sagen, was zu tun ist; *nemoj*, was nicht. Eine Zeile pro Antwort.
+opis: Antworte anhand des Zettels.
 tekst: Dragi Marko, idem na posao. Vraćam se u šest. Ručak je u hladnjaku. Zagrij juhu pet minuta. Jedi i kruh, ne samo kolače! Nemoj gledati telefon do ponoći. Uči za test — posebno matematiku! Kad ideš van, zaključaj vrata. Ključ stavi ispod tepiha. Čekaj me za večeru. Mama
 - Gdje je ručak? | u hladnjaku | na stolu | u pećnici
 - Što Marko treba zagrijati? | juhu | kruh | kolače
@@ -164,26 +164,26 @@ tekst: Dragi Marko, idem na posao. Vraćam se u šest. Ručak je u hladnjaku. Za
 - Gdje treba staviti ključ? | ispod tepiha | u hladnjak | na stol
 - Kada se mama vraća? | u šest | u ponoć | za pet minuta
 
-## Text 5: Who said what?
+## Text 5: Wer hat was gesagt?
 format: tekst
-info: A puzzle rather than a story. Four people make pancakes and each one gives a single order, but nobody says who gave which. Every clue rules something out; start with Marko, because one extra clue decides his order, and the rest follows.
-infokratko: Every clue rules something out. Start with Marko.
-opis: Four cooks, four orders, no names. Read it twice before you answer.
-- Passive words: *svatko* (each one), *jednu naredbu* (one order), *ne voli miješati* (doesn't like mixing).
-- U nedjelju mama, tata, baka i Marko peku palačinke. | On Sunday Mum, Dad, Grandma and Marko are making pancakes.
-- Svatko kaže jednu naredbu: "Miješaj!", "Zagrij tavu!", "Dodaj sol!" i "Okreni palačinku!" | Each one gives one order: "Mix!", "Heat up the pan!", "Add salt!" and "Flip the pancake!"
-- Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". | Grandma says neither "Mix!" nor "Add salt!".
-- Marko ne kaže ni "Dodaj sol!" ni "Zagrij tavu!". | Marko says neither "Add salt!" nor "Heat up the pan!".
-- Mama ne kaže ni "Okreni palačinku!" ni "Zagrij tavu!". | Mum says neither "Flip the pancake!" nor "Heat up the pan!".
-- Tata ne kaže ni "Miješaj!" ni "Okreni palačinku!". | Dad says neither "Mix!" nor "Flip the pancake!".
+info: Eher ein Rätsel als eine Geschichte. Vier Leute machen Pfannkuchen, und jeder gibt einen einzigen Befehl, aber niemand sagt, wer welchen gegeben hat. Jeder Hinweis schließt etwas aus; fang mit Marko an, denn ein zusätzlicher Hinweis entscheidet seinen Befehl, und der Rest folgt.
+infokratko: Jeder Hinweis schließt etwas aus. Fang mit Marko an.
+opis: Vier Köche, vier Befehle, keine Namen. Lies den Text zweimal, bevor du antwortest.
+- Passive Wörter: *svatko* (jeder), *jednu naredbu* (einen Befehl), *ne voli miješati* (rührt nicht gern).
+- U nedjelju mama, tata, baka i Marko peku palačinke. | Am Sonntag backen Mama, Papa, Oma und Marko Pfannkuchen.
+- Svatko kaže jednu naredbu: "Miješaj!", "Zagrij tavu!", "Dodaj sol!" i "Okreni palačinku!" | Jeder gibt einen Befehl: „Rühr!“, „Erhitze die Pfanne!“, „Füg Salz hinzu!“ und „Wende den Pfannkuchen!“
+- Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". | Oma sagt weder „Rühr!“ noch „Füg Salz hinzu!“.
+- Marko ne kaže ni "Dodaj sol!" ni "Zagrij tavu!". | Marko sagt weder „Füg Salz hinzu!“ noch „Erhitze die Pfanne!“.
+- Mama ne kaže ni "Okreni palačinku!" ni "Zagrij tavu!". | Mama sagt weder „Wende den Pfannkuchen!“ noch „Erhitze die Pfanne!“.
+- Tata ne kaže ni "Miješaj!" ni "Okreni palačinku!". | Papa sagt weder „Rühr!“ noch „Wende den Pfannkuchen!“.
 - Marko ne voli miješati. | Marko doesn't like mixing.
-- Tko kaže što? | Who says what?
+- Tko kaže što? | Wer sagt was?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the clues. Marko cannot say the salt or the pan, and he does not like mixing, so his order is *Okreni palačinku!* Grandma is then left with the pan, Dad with the salt, and Mum with *Miješaj!*
-infokratko: Marko first: *Okreni palačinku!* Then Grandma, Dad and Mum.
-opis: Nobody says who gave which order. Work it out from the text.
+info: Schlussfolgern aus den Hinweisen. Marko kann weder das Salz noch die Pfanne sagen, und er rührt nicht gern, also ist sein Befehl *Okreni palačinku!* Oma bleibt dann die Pfanne, Papa das Salz und Mama *Miješaj!*
+infokratko: Zuerst Marko: *Okreni palačinku!* Dann Oma, Papa und Mama.
+opis: Niemand sagt, wer welchen Befehl gegeben hat. Finde es aus dem Text heraus.
 tekst: U nedjelju mama, tata, baka i Marko peku palačinke. Svatko kaže jednu naredbu: "Miješaj!", "Zagrij tavu!", "Dodaj sol!" i "Okreni palačinku!" Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". Marko ne kaže ni "Dodaj sol!" ni "Zagrij tavu!". Mama ne kaže ni "Okreni palačinku!" ni "Zagrij tavu!". Tata ne kaže ni "Miješaj!" ni "Okreni palačinku!". Marko ne voli miješati.
 - Tko kaže "Okreni palačinku!"? | Marko | baka | mama
 - Tko kaže "Zagrij tavu!"? | baka | tata | mama
@@ -192,34 +192,34 @@ tekst: U nedjelju mama, tata, baka i Marko peku palačinke. Svatko kaže jednu n
 - Što kaže baka? | "Zagrij tavu!" | "Okreni palačinku!" | "Dodaj sol!"
 - Što kaže tata? | "Dodaj sol!" | "Miješaj!" | "Zagrij tavu!"
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
 nastavci: aj | i | ajte | ite
-info: One tap per order, and almost every order comes from the five texts. The English says whether it is for one person or for a group. Verbs in *-aš* take **-aj** or **-ajte**; verbs in *-eš* and *-iš* take **-i** or **-ite**.
-infokratko: *-aš* verbs: **-aj / -ajte**; *-eš / -iš* verbs: **-i / -ite**.
-opis: Almost every order came out of the five texts. One tap finishes it.
-- Uzm___ tri jaja! | (one person) Take three eggs! | i
-- Dod___ malo soli! | (one person) Add a little salt! | aj
-- Miješ___ dvije minute! | (one person) Mix for two minutes! | aj
-- Stav___ marmeladu! | (one person) Put on the jam! | i
-- Okren___ palačinku! | (one person) Flip the pancake! | i
-- Skren___ lijevo! | (a tourist, polite) Turn left! | ite
-- Prijeđ___ most! | (a tourist, polite) Cross the bridge! | ite
-- Hod___ pokraj parka! | (a tourist, polite) Walk past the park! | ajte
-- Požur___! | (a tourist, polite) Hurry! | ite
-- Trč___! | (the team) Run! | ite
-- Dod___ loptu! | (the team) Pass the ball! | ajte
-- Ne spav___! | (the team) Don't sleep! | ajte
-- Ne gled___ telefon! | (one player) Don't look at your phone! | aj
-- Zaključ___ vrata! | (Marko) Lock the door! | aj
-- Ček___ me za večeru! | (Marko) Wait for me for dinner! | aj
-- Podijel___ sa sestrom! | (one person) Share with your sister! | i
+info: Ein Tippen pro Befehl, und fast jeder Befehl stammt aus den fünf Texten. Das Deutsche sagt, ob er für eine Person oder für eine Gruppe ist. Verben auf *-aš* bekommen **-aj** oder **-ajte**; Verben auf *-eš* und *-iš* bekommen **-i** oder **-ite**.
+infokratko: Verben auf *-aš*: **-aj / -ajte**; Verben auf *-eš / -iš*: **-i / -ite**.
+opis: Fast jeder Befehl stammt aus den fünf Texten. Ein Tippen vollendet ihn.
+- Uzm___ tri jaja! | (eine Person) Nimm drei Eier! | i
+- Dod___ malo soli! | (eine Person) Füg ein bisschen Salz hinzu! | aj
+- Miješ___ dvije minute! | (eine Person) Rühr zwei Minuten lang! | aj
+- Stav___ marmeladu! | (eine Person) Gib die Marmelade darauf! | i
+- Okren___ palačinku! | (eine Person) Wende den Pfannkuchen! | i
+- Skren___ lijevo! | (ein Tourist, höflich) Biegen Sie links ab! | ite
+- Prijeđ___ most! | (ein Tourist, höflich) Gehen Sie über die Brücke! | ite
+- Hod___ pokraj parka! | (ein Tourist, höflich) Gehen Sie am Park entlang! | ajte
+- Požur___! | (ein Tourist, höflich) Beeilen Sie sich! | ite
+- Trč___! | (die Mannschaft) Lauft! | ite
+- Dod___ loptu! | (die Mannschaft) Spielt den Ball ab! | ajte
+- Ne spav___! | (die Mannschaft) Schlaft nicht! | ajte
+- Ne gled___ telefon! | (ein Spieler) Schau nicht aufs Handy! | aj
+- Zaključ___ vrata! | (Marko) Schließ die Tür ab! | aj
+- Ček___ me za večeru! | (Marko) Warte mit dem Abendessen auf mich! | aj
+- Podijel___ sa sestrom! | (eine Person) Teil mit deiner Schwester! | i
 
-## Now YOU cook
+## Jetzt kochst DU
 format: dijalog
-info: Your turn: a friend wants to make pancakes and asks you what to do. You answer with orders for one person — *uzmi, dodaj, miješaj, zagrij, okreni* — and your friend reacts to each step. Every option is correct Croatian, and nothing depends on your gender.
-infokratko: Orders for one friend: *uzmi, dodaj, miješaj, zagrij, okreni*. Your friend reacts.
-opis: Your friend is hungry and the kitchen is ready. Choose your replies. Passive words: *Što prvo?* (What first?), *gotovo* (done), *vruća* (hot), *Hop!* (Hup!), *Uspjelo je!* (It worked!), *Dobar tek* (Enjoy your meal).
+info: Du bist dran: Ein Freund will Pfannkuchen machen und fragt dich, was er tun soll. Du antwortest mit Befehlen an eine Person – *uzmi, dodaj, miješaj, zagrij, okreni* –, und dein Freund reagiert auf jeden Schritt. Jede Option ist korrektes Kroatisch, und nichts hängt von deinem Geschlecht ab.
+infokratko: Befehle an einen Freund: *uzmi, dodaj, miješaj, zagrij, okreni*. Dein Freund reagiert.
+opis: Dein Freund hat Hunger, und die Küche ist bereit. Wähle deine Antworten. Passive Wörter: *Što prvo?* (Was zuerst?), *gotovo* (fertig), *vruća* (heiß), *Hop!* (Hopp!), *Uspjelo je!* (Es hat geklappt!), *Dobar tek* (Guten Appetit).
 - npc | Bok! Hoću peći palačinke, ali ne znam kako. Što prvo?
 - ti | Uzmi tri jaja, brašno i mlijeko. | Prvo uzmi jaja, brašno i mlijeko.
 - npc | Imam sve. A sol?
@@ -236,40 +236,40 @@ opis: Your friend is hungry and the kitchen is ready. Choose your replies. Passi
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the five texts. The order usually takes the first tile, *ne* stands directly in front of it, *nemoj* is followed by an infinitive, and a short word such as *je* comes after the first part: *a onda je okreni*.
-infokratko: The order first; *ne* right before it; *nemoj* + infinitive; *je* after the first part.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
-- Uzmi tri jaja, brašno i mlijeko. | en: Take three eggs, flour and milk.
-- Dodaj malo soli. | en: Add a little salt.
-- Zagrij tavu i stavi malo ulja. | en: Heat the pan and put in a little oil.
-- Peci palačinku jednu minutu, a onda je okreni! | en: Fry the pancake for one minute, and then flip it!
-- Podijeli sa sestrom! | en: Share with your sister!
-- Na semaforu skrenite lijevo. | en: At the traffic lights turn left.
-- Zatim prijeđite most i hodajte pokraj parka. | en: Then cross the bridge and walk past the park.
-- Ne trčite preko ceste! | en: Don't run across the road!
-- Trčite, skočite i dodajte loptu! | en: Run, jump and pass the ball!
-- Ne gledaj telefon! | en: Don't look at your phone!
-- Nemoj kasniti! | en: Don't be late!
-- Jedite dobro, spavajte i dođite sutra. | en: Eat well, sleep and come tomorrow.
-- Zagrij juhu pet minuta. | en: Heat up the soup for five minutes.
-- Kad ideš van, zaključaj vrata. | en: When you go out, lock the door.
-- Čekaj me za večeru. | en: Wait for me for dinner.
-- Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". | en: Grandma says neither "Mix!" nor "Add salt!".
+info: Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten. Der Befehl nimmt meist die erste Kachel, *ne* steht direkt davor, auf *nemoj* folgt ein Infinitiv, und ein kurzes Wort wie *je* kommt nach dem ersten Teil: *a onda je okreni*.
+infokratko: Der Befehl zuerst; *ne* direkt davor; *nemoj* + Infinitiv; *je* nach dem ersten Teil.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den fünf Texten.
+- Uzmi tri jaja, brašno i mlijeko. | en: Nimm drei Eier, Mehl und Milch.
+- Dodaj malo soli. | en: Füg ein bisschen Salz hinzu.
+- Zagrij tavu i stavi malo ulja. | en: Erhitze die Pfanne und gib ein bisschen Öl hinein.
+- Peci palačinku jednu minutu, a onda je okreni! | en: Back den Pfannkuchen eine Minute und wende ihn dann!
+- Podijeli sa sestrom! | en: Teil mit deiner Schwester!
+- Na semaforu skrenite lijevo. | en: An der Ampel biegen Sie links ab.
+- Zatim prijeđite most i hodajte pokraj parka. | en: Dann gehen Sie über die Brücke und am Park entlang.
+- Ne trčite preko ceste! | en: Lauf nicht über die Straße!
+- Trčite, skočite i dodajte loptu! | en: Lauft, springt und spielt den Ball ab!
+- Ne gledaj telefon! | en: Schau nicht aufs Handy!
+- Nemoj kasniti! | en: Komm nicht zu spät!
+- Jedite dobro, spavajte i dođite sutra. | en: Esst gut, schlaft und kommt morgen.
+- Zagrij juhu pet minuta. | en: Wärm die Suppe fünf Minuten auf.
+- Kad ideš van, zaključaj vrata. | en: Wenn du rausgehst, schließ die Tür ab.
+- Čekaj me za večeru. | en: Warte mit dem Abendessen auf mich.
+- Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". | en: Oma sagt weder „Rühr!“ noch „Füg Salz hinzu!“.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over the kitchen. Everything is in its naming form; say an order with it in your head as you tap — *Uzmi jaje! Dodaj šećer! Zagrij tavu!* — and remember that a feminine word takes **-u**: *tavu, juhu*.
-infokratko: Naming forms. Think *Uzmi jaje! Zagrij tavu!*
-opis: The pancakes are burning! A picture appears — tap the balloon with its word before it floats away.
-- jaje | egg
-- mlijeko | milk
-- brašno | flour
-- tava | pan
-- šećer | sugar
-- sol | salt
+info: Ein zeitgebundenes Bild-zu-Wort-Tippen in der Küche. Alles steht in der Grundform; sag beim Tippen im Kopf einen Befehl damit – *Uzmi jaje! Dodaj šećer! Zagrij tavu!* – und denk daran, dass ein feminines Wort **-u** bekommt: *tavu, juhu*.
+infokratko: Grundformen. Denk *Uzmi jaje! Zagrij tavu!*
+opis: Die Pfannkuchen brennen an! Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
+- jaje | Ei
+- mlijeko | Milch
+- brašno | Mehl
+- tava | Pfanne
+- šećer | Zucker
+- sol | Salz
 - čokolada | Schokolade
-- žlica | spoon
-- nož | knife
-- tanjur | plate
-- palačinke | pancakes
-- hladnjak | fridge
+- žlica | Löffel
+- nož | Messer
+- tanjur | Teller
+- palačinke | Pfannkuchen
+- hladnjak | Kühlschrank

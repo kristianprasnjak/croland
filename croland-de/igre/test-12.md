@@ -1,4 +1,4 @@
-# Test 12: Negation & Food
+# Test 12: Verneinung & Essen
 cjelina: Test 12
 
 ## Ordne die Wörter zu
@@ -6,95 +6,95 @@ format: parovi
 trajanje: 1380
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- ništa | nothing
-- nitko | nobody
-- nikoga | nobody (target)
-- nigdje | nowhere
+- ništa | nichts
+- nitko | niemand
+- nikoga | niemanden
+- nigdje | nirgends
 - nikad | nie
-- nešto | something
-- netko | somebody
-- negdje | somewhere
+- nešto | etwas
+- netko | jemand
+- negdje | irgendwo
 - nekad | manchmal
-- nijedan | not a single one
-- ni… ni… | neither… nor…
-- nego | but rather
-- više ne | no longer
-- još ne | not yet
-- uopće | at all
-- nažalost | unfortunately
-- piletina | chicken
-- govedina | beef
-- šunka | ham
-- kobasica | sausage
-- tjestenina | pasta
-- gljive | mushrooms
-- češnjak | garlic
-- krastavac | cucumber
-- kupus | cabbage
-- grašak | peas
-- med | honey
-- maslac | butter
-- palačinke | pancakes
-- okus | taste
-- slan | salty
-- kiseo | sour
+- nijedan | kein einziger
+- ni… ni… | weder … noch …
+- nego | sondern
+- više ne | nicht mehr
+- još ne | noch nicht
+- uopće | überhaupt
+- nažalost | leider
+- piletina | Hähnchen
+- govedina | Rindfleisch
+- šunka | Schinken
+- kobasica | Wurst
+- tjestenina | Nudeln
+- gljive | Pilze
+- češnjak | Knoblauch
+- krastavac | Gurke
+- kupus | Kohl
+- grašak | Erbsen
+- med | Honig
+- maslac | Butter
+- palačinke | Pfannkuchen
+- okus | Geschmack
+- slan | salzig
+- kiseo | sauer
 - gorak | bitter
-- ljut | spicy
-- bljutav | bland
-- mastan | greasy
-- sirov | raw
-- jelovnik | menu
-- tanjur | plate
-- čaša | glass
-- šalica | cup
-- žlica | spoon
-- vilica | fork
-- nož | knife
-- napojnica | tip
-- naručiti | to order
-- platiti | to pay
-- kušati | to taste
-- mrziti | to hate
-- dijeliti | to share
+- ljut | scharf
+- bljutav | fade
+- mastan | fettig
+- sirov | roh
+- jelovnik | Speisekarte
+- tanjur | Teller
+- čaša | Glas
+- šalica | Tasse
+- žlica | Löffel
+- vilica | Gabel
+- nož | Messer
+- napojnica | Trinkgeld
+- naručiti | bestellen
+- platiti | bezahlen
+- kušati | probieren, kosten
+- mrziti | hassen
+- dijeliti | teilen
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- ništa | nothing | something | nobody
-- nešto | something | nothing | somewhere
-- nitko | nobody | somebody | nothing
-- netko | somebody | nobody | manchmal
-- nigdje | nowhere | somewhere | nie
-- nikad | nie | manchmal | nowhere
-- nekad | manchmal | nie | somewhere
-- još ne | not yet | no longer | not even
-- više ne | no longer | not yet | more
-- nego | but rather | und | weil
-- nažalost | unfortunately | natürlich | maybe
-- uopće | at all | also | only
-- nijedan | not a single one | nobody | neither
-- češnjak | garlic | onion | cabbage
-- krastavac | cucumber | carrot | pepper
-- gljive | mushrooms | peas | walnuts
-- šunka | ham | sausage | chicken
-- maslac | butter | honey | Käse
-- slan | salty | süß | sour
-- kiseo | sour | bitter | spicy
-- gorak | bitter | sour | bland
-- ljut | spicy | salty | greasy
-- bljutav | bland | juicy | raw
-- jelovnik | menu | bill | tip
-- vilica | fork | spoon | knife
-- šalica | cup | glass | plate
-- napojnica | tip | portion | dessert
-- naručiti | to order | to pay | to taste
-- mrziti | to hate | wollen | to share
-- dijeliti | to share | to cut | to fry
+- ništa | nichts | etwas | niemand
+- nešto | etwas | nichts | irgendwo
+- nitko | niemand | jemand | nichts
+- netko | jemand | niemand | manchmal
+- nigdje | nirgends | irgendwo | nie
+- nikad | nie | manchmal | nirgends
+- nekad | manchmal | nie | irgendwo
+- još ne | noch nicht | nicht mehr | nicht einmal
+- više ne | nicht mehr | noch nicht | more
+- nego | sondern | und | weil
+- nažalost | leider | natürlich | vielleicht
+- uopće | überhaupt | auch | nur
+- nijedan | kein einziger | niemand | weder
+- češnjak | Knoblauch | Zwiebel | Kohl
+- krastavac | Gurke | Karotte | Paprika
+- gljive | Pilze | Erbsen | Walnüsse
+- šunka | Schinken | Wurst | Hähnchen
+- maslac | Butter | Honig | Käse
+- slan | salzig | süß | sauer
+- kiseo | sauer | bitter | scharf
+- gorak | bitter | sauer | fade
+- ljut | scharf | salzig | fettig
+- bljutav | fade | saftig | roh
+- jelovnik | Speisekarte | Rechnung | Trinkgeld
+- vilica | Gabel | Löffel | Messer
+- šalica | Tasse | Glas | Teller
+- napojnica | Trinkgeld | Portion | Nachtisch
+- naručiti | bestellen | bezahlen | probieren, kosten
+- mrziti | hassen | wollen | teilen
+- dijeliti | teilen | schneiden | braten
 
-## Sort the forms
+## Sortiere die Formen
 format: razvrstavanje
 stupci: BITI | IMATI | HTJETI | NE + GLAGOL
-opis: Which verb is inside the negative form? Sort each one.
+opis: Welches Verb steckt in der verneinten Form? Sortiere jede.
 - nisam | BITI
 - nisi | BITI
 - nije | BITI
@@ -117,7 +117,7 @@ opis: Which verb is inside the negative form? Sort each one.
 ## Bejaht oder verneint?
 format: razvrstavanje
 stupci: ✓ POZITIVNO | ✗ NEGATIVNO
-opis: Sort the forms. Watch out — *nešto* and *netko* start with *ne-* but are positive.
+opis: Sortiere die Formen. Pass auf – *nešto* und *netko* beginnen mit *ne-*, sind aber bejaht.
 - ima | ✓ POZITIVNO
 - jedem | ✓ POZITIVNO
 - ćemo | ✓ POZITIVNO
@@ -140,29 +140,29 @@ opis: Sort the forms. Watch out — *nešto* and *netko* start with *ne-* but ar
 ## Tippe auf die Endung
 format: nastavak
 nastavci: ni | ne | -
-opis: The English is above. One tap in front of the word — or none, if the sentence is positive.
-- Marko ___što ne jede. | Marko eats nothing. | ni
-- Marko ___što jede. | Marko is eating something. | ne
-- Juha ___je ljuta. | The soup is spicy. | -
-- Danas ___tko ne kuha. | Nobody is cooking today. | ni
-- Danas ___tko kuha. | Somebody is cooking today. | ne
-- Baka ___će doći. | Grandma will come. | -
-- Ja ___koga ne čekam. | I'm not waiting for anybody. | ni
-- Oni ___će platiti. | They won't pay. | ne
-- Marko ___je vegetarijanac. | Marko is a vegetarian. | -
-- Ana ___gdje ne ide. | Ana isn't going anywhere. | ni
-- Mi ___mamo vremena. | We don't have time. | ne
-- Riba ___je slana. | The fish isn't salty. | ni
-- Baka ___kad ne pije kavu. | Grandma never drinks coffee. | ni
-- Ključ je ___gdje u kuhinji. | The key is somewhere in the kitchen. | ne
-- Ti ___si platio! | You didn't pay! | ni
-- Nitko ___ voli luk. | Nobody likes onion. | ne
-- Ne pijem ___ vodu. | I don't even drink water. | ni
-- Djeca ___ jedu gljive. | The children don't eat mushrooms. | ne
+opis: Oben steht das Deutsche. Ein Tipp vor dem Wort – oder keiner, wenn der Satz bejaht ist.
+- Marko ___što ne jede. | Marko isst nichts. | ni
+- Marko ___što jede. | Marko isst etwas. | ne
+- Juha ___je ljuta. | Die Suppe ist scharf. | -
+- Danas ___tko ne kuha. | Heute kocht niemand. | ni
+- Danas ___tko kuha. | Heute kocht jemand. | ne
+- Baka ___će doći. | Oma wird kommen. | -
+- Ja ___koga ne čekam. | Ich warte auf niemanden. | ni
+- Oni ___će platiti. | Sie werden nicht bezahlen. | ne
+- Marko ___je vegetarijanac. | Marko ist Vegetarier. | -
+- Ana ___gdje ne ide. | Ana geht nirgendwohin. | ni
+- Mi ___mamo vremena. | Wir haben keine Zeit. | ne
+- Riba ___je slana. | Der Fisch ist nicht salzig. | ni
+- Baka ___kad ne pije kavu. | Oma trinkt nie Kaffee. | ni
+- Ključ je ___gdje u kuhinji. | Der Schlüssel ist irgendwo in der Küche. | ne
+- Ti ___si platio! | Du hast nicht bezahlt! | ni
+- Nitko ___ voli luk. | Niemand mag Zwiebeln. | ne
+- Ne pijem ___ vodu. | Ich trinke nicht einmal Wasser. | ni
+- Djeca ___ jedu gljive. | Die Kinder essen keine Pilze. | ne
 
 ## Wähle die richtige Form
 format: izbor
-opis: Choose the correct negative form.
+opis: Wähle die richtige verneinte Form.
 - Ja ___ gladan. | nisam | ne sam | nemam
 - Mama ___ doma. | nije | ne je | nema
 - Mi ___ vremena. | nemamo | ne imamo | nismo
@@ -174,23 +174,23 @@ opis: Choose the correct negative form.
 - Djeca ___ jedu gljive. | ne | nisu | ni
 - Vi ___ gladni. | niste | ne ste | nemate
 
-## Stack the negatives
+## Stapel die Verneinungen
 format: izbor
-opis: Choose the correct Croatian sentence.
-- I never eat soup. | Nikad ne jedem juhu. | Nikad jedem juhu. | Ne nikad jedem juhu.
-- He eats nothing. | On ništa ne jede. | On ništa jede. | On nešto ne jede.
-- Nobody is cooking. | Nitko ne kuha. | Nitko kuha. | Netko ne kuha.
-- I drink neither coffee nor tea. | Ne pijem ni kavu ni čaj. | Pijem ni kavu ni čaj. | Ne pijem i kavu i čaj.
-- I'm not waiting for anybody. | Nikoga ne čekam. | Nitko ne čekam. | Nikoga čekam.
-- I didn't eat anything. (a woman speaking) | Ništa nisam jela. | Ništa sam jela. | Ništa nisam jeo.
-- Nobody will come. | Nitko neće doći. | Nitko će doći. | Netko neće doći.
-- Somebody is eating my pizza! | Netko jede moju pizzu! | Nitko jede moju pizzu! | Nitko ne jede moju pizzu!
-- I no longer eat meat. | Više ne jedem meso. | Još ne jedem meso. | Više jedem meso.
-- She hasn't paid yet. | Još nije platila. | Više nije platila. | Još je platila.
+opis: Wähle den richtigen kroatischen Satz.
+- Ich esse nie Suppe. | Nikad ne jedem juhu. | Nikad jedem juhu. | Ne nikad jedem juhu.
+- Er isst nichts. | On ništa ne jede. | On ništa jede. | On nešto ne jede.
+- Niemand kocht. | Nitko ne kuha. | Nitko kuha. | Netko ne kuha.
+- Ich trinke weder Kaffee noch Tee. | Ne pijem ni kavu ni čaj. | Pijem ni kavu ni čaj. | Ne pijem i kavu i čaj.
+- Ich warte auf niemanden. | Nikoga ne čekam. | Nitko ne čekam. | Nikoga čekam.
+- Ich habe nichts gegessen. (eine Frau spricht) | Ništa nisam jela. | Ništa sam jela. | Ništa nisam jeo.
+- Niemand wird kommen. | Nitko neće doći. | Nitko će doći. | Netko neće doći.
+- Jemand isst meine Pizza! | Netko jede moju pizzu! | Nitko jede moju pizzu! | Nitko ne jede moju pizzu!
+- Ich esse kein Fleisch mehr. | Više ne jedem meso. | Još ne jedem meso. | Više jedem meso.
+- Sie hat noch nicht bezahlt. | Još nije platila. | Više nije platila. | Još je platila.
 
-## ali or nego?
+## ali oder nego?
 format: izbor
-opis: Is the first half still true (ali), or is it being corrected (nego)?
+opis: Ist die erste Hälfte noch wahr (ali), oder wird sie korrigiert (nego)?
 - To nije čaj, ___ kava. | nego | ali
 - Kava nije dobra, ___ je topla. | ali | nego
 - Ne jedem ribu, ___ meso. | nego | ali
@@ -204,7 +204,7 @@ opis: Is the first half still true (ali), or is it being corrected (nego)?
 
 ## Verneine es
 format: upis
-opis: Negate each sentence.
+opis: Verneine jeden Satz.
 - Volim juhu. → | Ne volim juhu
 - Gladan sam. → | Nisam gladan
 - Imam vilicu. → | Nemam vilicu
@@ -216,9 +216,9 @@ opis: Negate each sentence.
 - Oni imaju jelovnik. → | Oni nemaju jelovnik
 - Marko nešto jede. → | Marko ništa ne jede / Marko ne jede ništa
 
-## Answer with a negative word
+## Antworte mit einem Verneinungswort
 format: upis
-opis: Answer each question with one negative word.
+opis: Beantworte jede Frage mit einem Verneinungswort.
 - Što jedeš? — ___ . | Ništa
 - Tko kuha? — ___ . | Nitko
 - Gdje ideš? — ___ . | Nigdje
@@ -228,9 +228,9 @@ opis: Answer each question with one negative word.
 - Jesi li gladan? — Ne, ___ . | nisam
 - Hoćeš li juhu? — Ne, ___ . | neću
 
-## Correct it with nego
+## Korrigiere mit nego
 format: upis
-opis: Cancel the wrong half and give the right one.
+opis: Streich die falsche Hälfte und gib die richtige.
 - Ne pijem kavu, ___ čaj. | nego
 - To nije juha, ___ salata. | nego
 - Ne govorim samo engleski, ___ i hrvatski. | nego
@@ -240,10 +240,10 @@ opis: Cancel the wrong half and give the right one.
 - Nisam naručila pizzu, nego ___ . (tjestenina) | tjesteninu
 - Juha nije slana, nego ___ . (bljutav) | bljutava
 
-## Read: the empty fridge
+## Lesen: der leere Kühlschrank
 format: izbor
 tekst: Subota je i Petra je gladna. Otvara hladnjak, ali u hladnjaku nema ništa. Nema mlijeka, nema sira, nema ni jaja. Petra zove Ivana: "Imaš li nešto za jelo?" Ivan kaže: "Nažalost, nemam ništa. Ja nikad ne kuham!" Petra zove baku, ali baka nije doma. Nitko ne odgovara. Onda Petra ide u pekaru. Kruh više nemaju, ali imaju palačinke. Petra ne voli slatko, ali danas jede palačinke — i više nije gladna.
-opis: Read the text, then answer. Passive words: *otvara* (opens), *hladnjak* (fridge), *nema mlijeka, sira, jaja* (there is no milk, cheese, eggs), *za jelo* (to eat), *odgovara* (answers).
+opis: Lies den Text und antworte dann. Passive Wörter: *otvara* (öffnet), *hladnjak* (Kühlschrank), *nema mlijeka, sira, jaja* (es gibt keine Milch, keinen Käse, keine Eier), *za jelo* (zum Essen), *odgovara* (antwortet).
 - Kakva je Petra u subotu? | gladna | umorna | sretna
 - Što je u hladnjaku? | ništa | mlijeko i sir | jaja
 - Zašto Ivan nema ništa? | jer nikad ne kuha | jer nije doma | jer ne voli jaja
@@ -253,16 +253,16 @@ opis: Read the text, then answer. Passive words: *otvara* (opens), *hladnjak* (f
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about negation — everything here comes from levels 7 to 11.
+opis: Nicht über Verneinung – alles hier stammt aus den Levels 7 bis 11.
 - Množina od "stol" je... | stolovi | stoli | stole
 - Množina od "dijete" je... | djeca | djeti | djetovi
 - Knjige su ___ . | nove | novi | nova
 - Vidim ___ . (učenici) | učenike | učenici | učenika
 - Ja ___ plivati. | ću | ćeš | će
 - Koja je rečenica točna? | Plivat ću. | Plivati ću. | Plivaću.
-- ___ gitara je nova. (her) | Njezina | Njezin | Njezino
-- Marko voli ___ klub. (his own) | svoj | njegov | njegova
-- ___ koljeno boli. (my) | Moje | Moj | Moja
+- ___ gitara je nova. (ihr – von ihr) | Njezina | Njezin | Njezino
+- Marko voli ___ klub. (seinen eigenen) | svoj | njegov | njegova
+- ___ koljeno boli. (mein) | Moje | Moj | Moja
 - Jučer sam ___ film. (gledati, m.) | gledao | gledala | gledali
 - Ana je ___ na koncertu. (pjevati) | pjevala | pjevao | pjevali
 - Sve je ___ savršeno. (biti) | bilo | bio | bila
@@ -275,41 +275,41 @@ opis: Not about negation — everything here comes from levels 7 to 11.
 - ___ je kava? — Jaka. | Kakva | Koja | Čija
 - Koliko je "petnaest"? | 15 | 5 | 50
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- Ne volim juhu. | en: I don't like soup.
-- Nisam gladan. | en: I'm not hungry.
-- Danas nemamo ribu. | en: We don't have fish today.
-- Neću naručiti pizzu. | en: I won't order pizza.
-- Nikad ne pijem mlijeko. | en: I never drink milk.
-- Marko ništa ne jede. | en: Marko eats nothing.
-- Nitko ne voli gorku kavu. | en: Nobody likes bitter coffee.
-- Nikoga ne čekam. | en: I'm not waiting for anybody.
-- Ne jedem ni meso ni ribu. | en: I eat neither meat nor fish.
-- Ne pijem kavu, nego čaj. | en: I don't drink coffee, I drink tea.
-- Kava nije jaka, ali je topla. | en: The coffee isn't strong, but it's warm.
-- Više ne jedem meso. | en: I no longer eat meat.
-- Još nisam platila račun. | en: I haven't paid the bill yet.
-- Ova juha nije ukusna. | en: This soup isn't tasty.
-- Nažalost, ništa ne želim. | en: Unfortunately, I don't want anything.
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- Ne volim juhu. | en: Ich mag keine Suppe.
+- Nisam gladan. | en: Ich bin nicht hungrig.
+- Danas nemamo ribu. | en: Wir haben heute keinen Fisch.
+- Neću naručiti pizzu. | en: Ich werde keine Pizza bestellen.
+- Nikad ne pijem mlijeko. | en: Ich trinke nie Milch.
+- Marko ništa ne jede. | en: Marko isst nichts.
+- Nitko ne voli gorku kavu. | en: Niemand mag bitteren Kaffee.
+- Nikoga ne čekam. | en: Ich warte auf niemanden.
+- Ne jedem ni meso ni ribu. | en: Ich esse weder Fleisch noch Fisch.
+- Ne pijem kavu, nego čaj. | en: Ich trinke keinen Kaffee, sondern Tee.
+- Kava nije jaka, ali je topla. | en: Der Kaffee ist nicht stark, aber er ist warm.
+- Više ne jedem meso. | en: Ich esse kein Fleisch mehr.
+- Još nisam platila račun. | en: Ich habe die Rechnung noch nicht bezahlt.
+- Ova juha nije ukusna. | en: Diese Suppe ist nicht lecker.
+- Nažalost, ništa ne želim. | en: Leider will ich nichts.
 
 ## Schreib es auf Kroatisch
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- I don't like onion. | Ne volim luk
-- I'm not hungry. | Nisam gladan / Nisam gladna
-- We don't have a menu. | Nemamo jelovnik
-- I won't pay. | Neću platiti
-- She didn't come. | Nije došla / Ona nije došla
-- Nobody is cooking. | Nitko ne kuha
-- I never drink milk. | Nikad ne pijem mlijeko
-- Marko eats nothing. | Marko ništa ne jede / Marko ne jede ništa
-- I'm not waiting for anybody. | Nikoga ne čekam / Ne čekam nikoga
-- Ana isn't going anywhere. | Ana nigdje ne ide / Ana ne ide nigdje
-- I eat neither meat nor fish. | Ne jedem ni meso ni ribu
-- I don't drink coffee, I drink tea. | Ne pijem kavu, nego čaj
-- I no longer eat meat. | Više ne jedem meso
-- The soup isn't salty, it's bland. | Juha nije slana, nego bljutava
-- Somebody is eating my pizza. | Netko jede moju pizzu
-- Enjoy your meal! | Dobar tek
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Ich mag keine Zwiebeln. | Ne volim luk
+- Ich habe keinen Hunger. | Nisam gladan / Nisam gladna
+- Wir haben keine Speisekarte. | Nemamo jelovnik
+- Ich werde nicht bezahlen. | Neću platiti
+- Sie ist nicht gekommen. | Nije došla / Ona nije došla
+- Niemand kocht. | Nitko ne kuha
+- Ich trinke nie Milch. | Nikad ne pijem mlijeko
+- Marko isst nichts. | Marko ništa ne jede / Marko ne jede ništa
+- Ich warte auf niemanden. | Nikoga ne čekam / Ne čekam nikoga
+- Ana geht nirgendwohin. | Ana nigdje ne ide / Ana ne ide nigdje
+- Ich esse weder Fleisch noch Fisch. | Ne jedem ni meso ni ribu
+- Ich trinke keinen Kaffee, sondern Tee. | Ne pijem kavu, nego čaj
+- Ich esse kein Fleisch mehr. | Više ne jedem meso
+- Die Suppe ist nicht salzig, sondern fade. | Juha nije slana, nego bljutava
+- Jemand isst meine Pizza. | Netko jede moju pizzu
+- Guten Appetit! | Dobar tek

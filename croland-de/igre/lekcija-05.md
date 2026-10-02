@@ -1,21 +1,21 @@
-# Shopping & Your First Case: Feminine Accusative
+# Einkaufen & dein erster Fall: Akkusativ feminin
 cjelina: Lesson 5
 
-## A big day
+## Ein großer Tag
 format: tekst
-info: This page introduces your first Croatian case in a single letter. A feminine noun ends in **-a** when it simply names something, but **-u** when it is the target of the verb: *Kava je dobra* becomes *Pijem kav**u***.
-infokratko: Your first case: **-a** names a thing, **-u** marks what the verb acts on. *Kava je dobra. Pijem kavu.*
-- Today is a big day. You're going shopping at a Croatian market — and on the way, you'll unlock the thing Croatian is famous for: **cases**.
-- Don't worry. Your first case changes exactly *one letter*. Watch:
-- *Kava je dobra.* — The coffee is good. *Pijem kav**u**.* — I'm drinking coffee.
-- When a feminine word (ending in **-a**) becomes the *target* of an action — the thing you drink, buy, or love — its **-a** turns into **-u**. That's the whole rule — and the two masculine words that end in **-a**, *tata* and *kolega*, swap the same way: *Čekam tat**u***. Let's go shopping.
+info: Diese Seite stellt deinen ersten kroatischen Fall in einem einzigen Buchstaben vor. Ein feminines Nomen endet auf **-a**, wenn es etwas einfach benennt, aber auf **-u**, wenn es das Ziel des Verbs ist: Aus *Kava je dobra* wird *Pijem kav**u***.
+infokratko: Dein erster Fall: **-a** benennt eine Sache, **-u** markiert, worauf das Verb wirkt. *Kava je dobra. Pijem kavu.*
+- Heute ist ein großer Tag. Du gehst auf einem kroatischen Markt einkaufen – und unterwegs schaltest du das frei, wofür das Kroatische berühmt ist: **Fälle**.
+- Keine Sorge. Dein erster Fall ändert genau *einen Buchstaben*. Schau:
+- *Kava je dobra.* — Der Kaffee ist gut. *Pijem kav**u**.* — Ich trinke Kaffee.
+- Wenn ein feminines Wort (auf **-a**) zum *Ziel* einer Handlung wird – das, was du trinkst, kaufst oder liebst –, wird sein **-a** zu **-u**. Das ist die ganze Regel – und die zwei maskulinen Wörter auf **-a**, *tata* und *kolega*, tauschen genauso: *Čekam tat**u***. Auf zum Einkaufen.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on the Lesson 4 connectors. ***i*** adds, ***a*** sets two halves side by side, ***ali*** twists against expectation, and ***jer*** gives the reason; a comma goes before *a* and *ali*.
-infokratko: Warm-up on Lesson 4: ***i*** adds, ***a*** contrasts, ***ali*** twists, ***jer*** gives the reason. Comma before *a* and *ali*.
+info: Ein Aufwärmen auf Zeit mit den Bindewörtern aus Lektion 4. ***i*** fügt hinzu, ***a*** stellt zwei Hälften nebeneinander, ***ali*** wendet gegen die Erwartung, und ***jer*** nennt den Grund; ein Komma steht vor *a* und *ali*.
+infokratko: Aufwärmen mit Lektion 4: ***i*** fügt hinzu, ***a*** stellt gegenüber, ***ali*** wendet, ***jer*** nennt den Grund. Komma vor *a* und *ali*.
 trajanje: 60
-opis: Warm-up from Lesson 4 — tap the right connector before the timer runs out. Four buttons, four jobs: **i** adds, **a** contrasts, **ali** twists, **jer** explains.
+opis: Aufwärmen aus Lektion 4 – tippe auf das richtige Bindewort, bevor die Zeit abläuft. Vier Knöpfe, vier Aufgaben: **i** fügt hinzu, **a** stellt gegenüber, **ali** wendet, **jer** erklärt.
 - Tata kuha, ___ brat uči. | a
 - Stan je mali, ___ je dom topao. | ali
 - Mama radi ___ čita. | i
@@ -29,39 +29,39 @@ opis: Warm-up from Lesson 4 — tap the right connector before the timer runs ou
 - Ja radim, ___ ti spavaš. | a
 - Volim ljeto ___ je more toplo. | jer
 
-## Market words
+## Marktwörter
 format: kartice
-info: Flashcards for a market trip. Words ending in **-a** are feminine and will swap that -a for **-u** the moment you buy or drink them, while *kruh*, *sok* and *sir* end in a consonant and stay exactly as they are.
-infokratko: Market words. The ones ending in **-a** will turn into **-u** when you buy or drink them; *kruh*, *sok* and *sir* stay the same.
-opis: Everything you need for a trip to the market. Notice how many end in **-a** — those are the ones today's rule is about. The last four don't, and that turns out to matter.
+info: Karteikarten für einen Marktbesuch. Wörter auf **-a** sind feminin und tauschen dieses -a gegen **-u**, sobald du sie kaufst oder trinkst, während *kruh*, *sok* und *sir* auf einen Konsonanten enden und genau bleiben, wie sie sind.
+infokratko: Marktwörter. Die auf **-a** werden zu **-u**, wenn du sie kaufst oder trinkst; *kruh*, *sok* und *sir* bleiben gleich.
+opis: Alles, was du für einen Marktbesuch brauchst. Achte darauf, wie viele auf **-a** enden – um genau die geht es in der heutigen Regel. Die letzten vier nicht, und das wird sich als wichtig erweisen.
 - kava | Kaffee
-- voda | water
+- voda | Wasser
 - jabuka | Apfel
 - banana | Banane
 - čokolada | Schokolade
-- juha | soup
-- salata | salad, lettuce
+- juha | Suppe
+- salata | Salat
 - riba | Fisch
-- pita | pie
+- pita | Pita (gefüllter Teigkuchen)
 - torta | Torte
-- kruška | pear
-- rajčica | tomato
-- tržnica | market
-- trgovina | shop
-- vrećica | bag
+- kruška | Birne
+- rajčica | Tomate
+- tržnica | Markt
+- trgovina | Geschäft, Laden
+- vrećica | Tüte
 - kruh | Brot
 - sok | Saft
 - sir | Käse
-- kupovati → kupujem | to buy
-- trebati → trebam | to need
-- plaćati → plaćam | to pay
+- kupovati → kupujem | kaufen
+- trebati → trebam | brauchen
+- plaćati → plaćam | bezahlen
 
-## Spot the pattern
+## Erkenne das Muster
 format: razvrstavanje
-info: Sorting by job, before anyone states the rule. If the word is merely being named it keeps **-a** (*Kava je dobra*); if a verb acts on it, the ending turns into **-u** (*Pijem kavu*). One word, two roles, two endings.
-infokratko: Sort by role: just named → **-a** (*Kava je dobra*), acted on by a verb → **-u** (*Pijem kavu*).
+info: Sortieren nach Aufgabe, bevor jemand die Regel nennt. Wird das Wort nur benannt, behält es **-a** (*Kava je dobra*); wirkt ein Verb darauf, wird die Endung zu **-u** (*Pijem kavu*). Ein Wort, zwei Rollen, zwei Endungen.
+infokratko: Sortiere nach Rolle: nur benannt → **-a** (*Kava je dobra*), Ziel eines Verbs → **-u** (*Pijem kavu*).
 stupci: FORM -A | FORM -U
-opis: Is the word naming something, or is it the target of the action? Sort the sentences and see if you can feel the rule before anyone tells it to you.
+opis: Benennt das Wort etwas, oder ist es das Ziel der Handlung? Sortiere die Sätze und schau, ob du die Regel spürst, bevor sie dir jemand sagt.
 - Kava je dobra. | FORM -A
 - Pijem kavu. | FORM -U
 - Jabuka je crvena. | FORM -A
@@ -79,56 +79,56 @@ opis: Is the word naming something, or is it the target of the action? Sort the 
 - Torta je velika. | FORM -A
 - Ana plaća tortu. | FORM -U
 
-## The one-letter rule
+## Die Ein-Buchstaben-Regel
 format: tekst
-info: The rule in plain words: a feminine **-a** becomes **-u** whenever the noun is the target of a verb such as *pijem*, *jedem*, *kupujem* or *trebam*. Things like *sok* and *kruh* do not change at all yet.
-infokratko: Feminine **-a** becomes **-u** after verbs like *pijem, jedem, kupujem, trebam*. *Sok* and *kruh* don't change.
-- You just discovered it yourself: **-a → -u** when the word is on the receiving end of the action. Grammarians call this the *accusative case* — you can just call it the target form.
-- **The whole rule in three rows.**
-- tab: On its own | As the target
+info: Die Regel in einfachen Worten: Ein feminines **-a** wird zu **-u**, sobald das Nomen das Ziel eines Verbs wie *pijem*, *jedem*, *kupujem* oder *trebam* ist. Dinge wie *sok* und *kruh* ändern sich vorerst überhaupt nicht.
+infokratko: Feminines **-a** wird zu **-u** nach Verben wie *pijem, jedem, kupujem, trebam*. *Sok* und *kruh* ändern sich nicht.
+- Du hast es gerade selbst entdeckt: **-a → -u**, wenn das Wort die Handlung abbekommt. Grammatiker nennen das den *Akkusativ* – denselben Fall, der im Deutschen *der Kaffee* zu *den Kaffee* macht. Nur zeigt das Kroatische ihn am Nomen selbst, nicht am Artikel.
+- **Die ganze Regel in drei Zeilen.**
+- tab: Allein | Als Ziel
 - tab: kava | Pijem kavu.
 - tab: riba | Kupujem ribu.
 - tab: knjiga | Čitam knjigu.
-- **Which words does it touch?** Only the ones ending in **-a**. *kruh, sok, sir* end in a consonant and simply don't move — which is why *Pijem sok* worked all the way back in Lesson 3 without anyone mentioning cases.
-- **Which verbs trigger it?** Any verb with a target: *pijem, jedem, kuham, kupujem, trebam, plaćam, volim, gledam*.
-- **Now you write them.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok].
+- **Welche Wörter betrifft es?** Nur die auf **-a**. *kruh, sok, sir* enden auf einen Konsonanten und bewegen sich einfach nicht – deshalb hat *Pijem sok* schon in Lektion 3 funktioniert, ohne dass jemand Fälle erwähnt hat.
+- **Welche Verben lösen es aus?** Jedes Verb mit einem Ziel: *pijem, jedem, kuham, kupujem, trebam, plaćam, volim, gledam*.
+- **Jetzt schreibst du.** Kava je dobra, pijem [kavu]. Riba je svježa, kupujem [ribu]. Sok je hladan, pijem [sok].
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap supplies the missing final letter. Ask what the noun is doing: naming takes **-a**, being acted on takes **-u**. Compare *Jabuk**a** je crvena* with *Jedem jabuk**u***.
-infokratko: Named: **-a**. Acted on: **-u**. *Jabuka je crvena. Jedem jabuku.*
+info: Ein Tipp ergänzt den fehlenden letzten Buchstaben. Frag, was das Nomen tut: Benennen nimmt **-a**, Ziel sein nimmt **-u**. Vergleiche *Jabuk**a** je crvena* mit *Jedem jabuk**u***.
+infokratko: Benannt: **-a**. Ziel: **-u**. *Jabuka je crvena. Jedem jabuku.*
 nastavci: a | u
-opis: English above, Croatian below. The word is waiting for its last letter — one tap. Naming takes **-a**, target takes **-u**. Read the pairs and the rule writes itself.
+opis: Oben Deutsch, unten Kroatisch. Das Wort wartet auf seinen letzten Buchstaben – ein Tipp. Benennen nimmt **-a**, Ziel nimmt **-u**. Lies die Paare, und die Regel schreibt sich von selbst.
 - Kav___ je dobra. | Der Kaffee ist gut. | a
-- Pijem kav___ . | I'm drinking coffee. | u
-- Jabuk___ je crvena. | The apple is red. | a
-- Jedem jabuk___ . | I'm eating an apple. | u
-- Rib___ je svježa. | The fish is fresh. | a
-- Ana kupuje rib___ . | Ana is buying fish. | u
+- Pijem kav___ . | Ich trinke Kaffee. | u
+- Jabuk___ je crvena. | Der Apfel ist rot. | a
+- Jedem jabuk___ . | Ich esse einen Apfel. | u
+- Rib___ je svježa. | Der Fisch ist frisch. | a
+- Ana kupuje rib___ . | Ana kauft Fisch. | u
 - Čokolad___ je slatka. | Die Schokolade ist süß. | a
-- Volim čokolad___ . | I love chocolate. | u
-- Juh___ je topla. | The soup is warm. | a
-- Mama kuha juh___ . | Mom is cooking soup. | u
-- Vod___ je hladna. | The water is cold. | a
-- Trebam vod___ . | I need water. | u
-- Salat___ je svježa. | The salad is fresh. | a
-- Kupujem salat___ . | I'm buying salad. | u
-- Pit___ je slatka. | The pie is sweet. | a
-- Jedem pit___ . | I'm eating pie. | u
-- Tort___ je velika. | The cake is big. | a
-- Ana plaća tort___ . | Ana is paying for the cake. | u
-- Krušk___ je žuta. | The pear is yellow. | a
-- Jedem krušk___ . | I'm eating a pear. | u
-- Rajčic___ je crvena. | The tomato is red. | a
-- Kupujem rajčic___ . | I'm buying a tomato. | u
+- Volim čokolad___ . | Ich liebe Schokolade. | u
+- Juh___ je topla. | Die Suppe ist warm. | a
+- Mama kuha juh___ . | Mama kocht Suppe. | u
+- Vod___ je hladna. | Das Wasser ist kalt. | a
+- Trebam vod___ . | Ich brauche Wasser. | u
+- Salat___ je svježa. | Der Salat ist frisch. | a
+- Kupujem salat___ . | Ich kaufe Salat. | u
+- Pit___ je slatka. | Die Pita ist süß. | a
+- Jedem pit___ . | Ich esse Pita. | u
+- Tort___ je velika. | Die Torte ist groß. | a
+- Ana plaća tort___ . | Ana bezahlt die Torte. | u
+- Krušk___ je žuta. | Die Birne ist gelb. | a
+- Jedem krušk___ . | Ich esse eine Birne. | u
+- Rajčic___ je crvena. | Die Tomate ist rot. | a
+- Kupujem rajčic___ . | Ich kaufe eine Tomate. | u
 - Banan___ je slatka. | Die Banane ist süß. | a
-- Jedem banan___ . | I'm eating a banana. | u
+- Jedem banan___ . | Ich esse eine Banane. | u
 
-## Transformation drill
+## Verwandlungsübung
 format: upis
-info: You type the full target form yourself. Only the last letter moves: *voda → vod**u***, *kruška → krušk**u***. Nothing else shifts — no extra syllable, no changed consonant, diacritics stay put.
-infokratko: Type the target form. Only the last letter changes: *voda → vodu, kruška → krušku*.
-opis: Turn each word into its target form — type the whole new word.
+info: Du tippst die ganze Zielform selbst. Nur der letzte Buchstabe bewegt sich: *voda → vod**u***, *kruška → krušk**u***. Sonst verschiebt sich nichts – keine zusätzliche Silbe, kein veränderter Konsonant, die diakritischen Zeichen bleiben.
+infokratko: Tippe die Zielform. Nur der letzte Buchstabe ändert sich: *voda → vodu, kruška → krušku*.
+opis: Verwandle jedes Wort in seine Zielform – tippe das ganze neue Wort.
 - kava → | kavu
 - jabuka → | jabuku
 - banana → | bananu
@@ -147,9 +147,9 @@ opis: Turn each word into its target form — type the whole new word.
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing between the naming and the target form. After a verb that acts on the noun, pick **-u**; for a subject sitting before *je*, pick **-a**. Watch the *kruh* and *sok* items — as targets they keep exactly the same shape.
-infokratko: After a verb that acts on it: **-u**. Before *je*: **-a**. *Kruh* and *sok* keep their shape.
-opis: Choose the correct form to complete the sentence.
+info: Wähle zwischen Benennungs- und Zielform. Nach einem Verb, das auf das Nomen wirkt, nimm **-u**; für ein Subjekt vor *je* nimm **-a**. Achte auf *kruh* und *sok* – als Ziel behalten sie genau dieselbe Form.
+infokratko: Nach einem Verb, das darauf wirkt: **-u**. Vor *je*: **-a**. *Kruh* und *sok* behalten ihre Form.
+opis: Wähle die richtige Form, um den Satz zu vervollständigen.
 - Ana kupuje ___ . | jabuku | jabuka | jabuke
 - Trebam ___ . | vodu | voda | vode
 - ___ je svježa. | Riba | Ribu | Ribe
@@ -163,11 +163,11 @@ opis: Choose the correct form to complete the sentence.
 - Pijem ___ . | sok | soku | soke
 - Trebam ___ . | vrećicu | vrećica | vrećice
 
-## Build your shopping sentences
+## Bau deine Einkaufssätze
 format: slaganje
-info: Building whole sentences from tiles. Any noun in **-a** after *trebam*, *kupujem*, *volim* or *jedem* has to land on **-u**, and a comma comes before *a* and *ali*: *Mama kuha juhu, a ja jedem pitu*.
-infokratko: Nouns in **-a** after *trebam, kupujem, volim, jedem* end in **-u**. Comma before *a* and *ali*.
-opis: Arrange the tiles to build the sentence.
+info: Ganze Sätze aus Kärtchen bauen. Jedes Nomen auf **-a** nach *trebam*, *kupujem*, *volim* oder *jedem* muss auf **-u** landen, und ein Komma steht vor *a* und *ali*: *Mama kuha juhu, a ja jedem pitu*.
+infokratko: Nomen auf **-a** nach *trebam, kupujem, volim, jedem* enden auf **-u**. Komma vor *a* und *ali*.
+opis: Ordne die Kärtchen, um den Satz zu bauen.
 - Trebam vodu i kavu.
 - Ana kupuje jabuku i bananu.
 - Volim čokoladu.
@@ -179,27 +179,27 @@ opis: Arrange the tiles to build the sentence.
 - Jedem krušku, a ti jedeš bananu.
 - Tržnica je velika, ali je trgovina mala.
 
-## Asking a yes-or-no question: li
+## Eine Ja-Nein-Frage stellen: li
 format: tekst
-info: This page hands you the yes-or-no question. Verb first, then ***li***, then the rest: *Trebate **li** vrećicu?* With *biti* you use *jesi li* and *je li*, and you answer by repeating the verb — *Trebam* or *Ne trebam*.
-infokratko: Yes-or-no question: verb + ***li*** + the rest. *Trebate li vrećicu?* Answer with the verb: *Trebam* or *Ne trebam*.
-- A shop assistant is about to ask you something, so you need the one word that turns any statement into a question: **li**.
-- **The recipe: verb first, then *li*, then the rest.** Nothing else changes — no helper word, no new endings.
-- tab: Statement | Question
-- tab: Trebate vrećicu. | **Trebate li** vrećicu? — Do you need a bag?
-- tab: Čekaš prijatelja. | **Čekaš li** prijatelja? — Are you waiting for a friend?
-- tab: Kupuješ ribu. | **Kupuješ li** ribu? — Are you buying fish?
-- ***li* leans, like *sam* and *je*.** It has no stress of its own, so it can never open a sentence and never stands alone — it always sits right behind the verb. That's the same clitic rule you met in Lesson 2, doing a second job.
-- **With *biti* the long forms come back.** Not *si li*, but ***jesi li***: *Jesi li umoran?* — Are you tired? And for *je*: ***Je li*** *film dobar?* — Is the film good?
-- **Answering: repeat the verb.** A bare *da* sounds abrupt in Croatian; the natural answer echoes the verb. *Trebate li vrećicu? — **Trebam**.* / *— **Ne trebam**.* Same with *biti*: *Jesi li umoran? — **Nisam**.*
-- **Now you write them.** Trebate [li] vrećicu? Kupuješ [li] ribu? [Jesi] li umoran?
-- That is the whole of *li*. Lesson 11 adds the other ways to ask — question words in full, and the *…, zar ne?* tag.
+info: Diese Seite gibt dir die Ja-Nein-Frage. Verb zuerst, dann ***li***, dann der Rest: *Trebate **li** vrećicu?* Bei *biti* nimmst du *jesi li* und *je li*, und du antwortest, indem du das Verb wiederholst – *Trebam* oder *Ne trebam*.
+infokratko: Ja-Nein-Frage: Verb + ***li*** + Rest. *Trebate li vrećicu?* Antworte mit dem Verb: *Trebam* oder *Ne trebam*.
+- Gleich fragt dich eine Verkäuferin etwas, also brauchst du das eine Wort, das jede Aussage in eine Frage verwandelt: **li**.
+- **Das Rezept: Verb zuerst, dann *li*, dann der Rest.** Sonst ändert sich nichts – kein Hilfswort, keine neuen Endungen. Das kennst du vom Deutschen: *Brauchen Sie …?* – auch dort kommt das Verb nach vorn; das Kroatische hängt nur noch *li* an.
+- tab: Aussage | Frage
+- tab: Trebate vrećicu. | **Trebate li** vrećicu? — Brauchen Sie eine Tüte?
+- tab: Čekaš prijatelja. | **Čekaš li** prijatelja? — Wartest du auf einen Freund?
+- tab: Kupuješ ribu. | **Kupuješ li** ribu? — Kaufst du Fisch?
+- ***li* lehnt sich an, wie *sam* und *je*.** Es hat keine eigene Betonung, kann also nie einen Satz eröffnen und nie allein stehen – es sitzt immer direkt hinter dem Verb. Das ist dieselbe Klitik-Regel aus Lektion 2, in einer zweiten Aufgabe.
+- **Bei *biti* kommen die langen Formen zurück.** Nicht *si li*, sondern ***jesi li***: *Jesi li umoran?* — Bist du müde? Und für *je*: ***Je li*** *film dobar?* — Ist der Film gut?
+- **Antworten: Wiederhole das Verb.** Ein bloßes *da* klingt im Kroatischen schroff; die natürliche Antwort wiederholt das Verb. *Trebate li vrećicu? — **Trebam**.* / *— **Ne trebam**.* Genauso bei *biti*: *Jesi li umoran? — **Nisam**.*
+- **Jetzt schreibst du.** Trebate [li] vrećicu? Kupuješ [li] ribu? [Jesi] li umoran?
+- Das ist alles zu *li*. Lektion 11 fügt die anderen Fragearten hinzu – Fragewörter komplett und das Anhängsel *…, zar ne?*.
 
-## At the shop
+## Im Laden
 format: dijalog
-info: A live shop conversation where you pick your replies. Everything you ask for is a target, so feminine words end in **-u** (*Trebam vod**u***), and the assistant's *Trebate li vrećicu?* is verb plus *li*.
-infokratko: Everything you ask for ends in **-u**: *Trebam vodu*. *Trebate li vrećicu?* is verb + *li*.
-opis: You walk into a small shop in Split. Choose your replies and do your first shopping in Croatian! Passive words: *odličnu* (excellent), *jednu* (one), *Vidimo se!* (See you!) — whole phrases for now.
+info: Ein lebendiges Ladengespräch, in dem du deine Antworten wählst. Alles, was du verlangst, ist ein Ziel, also enden feminine Wörter auf **-u** (*Trebam vod**u***), und das *Trebate li vrećicu?* der Verkäuferin ist Verb plus *li*.
+infokratko: Alles, was du verlangst, endet auf **-u**: *Trebam vodu*. *Trebate li vrećicu?* ist Verb + *li*.
+opis: Du betrittst einen kleinen Laden in Split. Wähle deine Antworten und erledige deinen ersten Einkauf auf Kroatisch! Passive Wörter: *odličnu* (ausgezeichnete), *jednu* (eine), *Vidimo se!* (Bis bald!) – vorerst ganze Wendungen.
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Trebam vodu, kavu i čokoladu. | Dobar dan! Trebam sok.
 - npc | Imamo odličnu čokoladu danas.
@@ -211,12 +211,12 @@ opis: You walk into a small shop in Split. Choose your replies and do your first
 - npc | Izvolite. Hvala!
 - ti | Hvala! Doviđenja! | Hvala! Vidimo se!
 
-## Accusative sprint
+## Akkusativ-Sprint
 format: brzina
-info: A timed swap from naming form to target form. Only the final letter changes: *kava → kav**u***, *tržnica → tržnic**u***. Speed comes from trusting that one swap instead of rebuilding the word.
-infokratko: Against the clock: swap the last letter, *kava → kavu, tržnica → tržnicu*.
+info: Ein Tausch auf Zeit von der Benennungs- zur Zielform. Nur der letzte Buchstabe ändert sich: *kava → kav**u***, *tržnica → tržnic**u***. Tempo kommt davon, diesem einen Tausch zu vertrauen, statt das Wort neu aufzubauen.
+infokratko: Gegen die Uhr: Tausche den letzten Buchstaben, *kava → kavu, tržnica → tržnicu*.
 trajanje: 45
-opis: A word flashes in its naming form — tap its target form before it disappears! How many can you get?
+opis: Ein Wort blitzt in seiner Benennungsform auf – tippe auf seine Zielform, bevor es verschwindet! Wie viele schaffst du?
 - kava | kavu
 - voda | vodu
 - jabuka | jabuku
@@ -233,12 +233,12 @@ opis: A word flashes in its naming form — tap its target form before it disapp
 - trgovina | trgovinu
 - vrećica | vrećicu
 
-## Saturday at the market
+## Samstag auf dem Markt
 format: izbor
-info: Read the market scene, then answer. Let the endings guide you: the **-u** words (*kavu*, *pitu*, *jabuku*) are what Ana buys and consumes, while the **-a** words are the ones being described.
-infokratko: Read, then answer. The **-u** words are what Ana buys and eats; the **-a** words are only described.
+info: Lies die Marktszene und antworte dann. Lass dich von den Endungen leiten: Die **-u**-Wörter (*kavu*, *pitu*, *jabuku*) sind das, was Ana kauft und verzehrt, die **-a**-Wörter sind die, die beschrieben werden.
+infokratko: Lies, dann antworte. Die **-u**-Wörter kauft und isst Ana; die **-a**-Wörter werden nur beschrieben.
 tekst: Subota je. Ana je gladna i žedna. Ona pije kavu i jede pitu. Kava je jaka, a pita je slatka. Poslije Ana kupuje jabuku, krušku i rajčicu. Voće je svježe, ali je skupo. Ana bira vrećicu i plaća račun. Tržnica je velika i šarena.
-opis: Read the market scene, then answer the questions. Passive words: *gladan* (hungry), *žedan* (thirsty), *jak* (strong), *šaren* (colorful), *bira* (chooses), *račun* (bill).
+opis: Lies die Marktszene und beantworte dann die Fragen. Passive Wörter: *gladan* (hungrig), *žedan* (durstig), *jak* (stark), *šaren* (bunt), *bira* (wählt aus), *račun* (Rechnung).
 - Što Ana pije? | kavu | vodu | sok
 - Što Ana jede? | pitu | tortu | juhu
 - Što Ana kupuje? | jabuku, krušku i rajčicu | ribu i salatu | kruh i sir
@@ -247,26 +247,26 @@ opis: Read the market scene, then answer the questions. Passive words: *gladan* 
 
 ## Lektionscheck
 format: provjera
-info: The mixed final check on the whole lesson. One rule carries most of the points: a feminine **-a** turns into **-u** as the target of the verb, while *kruh* and *sok* stay untouched in every sentence.
-infokratko: The whole lesson, mixed. Main rule: feminine **-a → -u** after the verb; *kruh* and *sok* stay the same.
+info: Der gemischte Abschlusscheck zur ganzen Lektion. Eine Regel bringt die meisten Punkte: Ein feminines **-a** wird als Ziel des Verbs zu **-u**, während *kruh* und *sok* in jedem Satz unberührt bleiben.
+infokratko: Die ganze Lektion gemischt. Hauptregel: feminines **-a → -u** nach dem Verb; *kruh* und *sok* bleiben gleich.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 5.
-- slaganje | Trebam vodu i kavu. | en: I need water and coffee.
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 5 zu sein.
+- slaganje | Trebam vodu i kavu. | en: Ich brauche Wasser und Kaffee.
 - izbor | Ana kupuje ___ . | bananu | banana | banane
 - upis | Napiši ciljni oblik: jabuka → | jabuku
 - izbor | ___ je skupa. | Riba | Ribu
-- izbor | Što znači "trebam"? | I need | I buy | I love
+- izbor | Što znači "trebam"? | ich brauche | ich kaufe | ich liebe
 - izbor | Koja je rečenica točna? | Volim čokoladu. | Volim čokolada.
-- slaganje | Pijem kavu. | en: I drink coffee.
+- slaganje | Pijem kavu. | en: Ich trinke Kaffee.
 - upis | Napiši ciljni oblik: tržnica → | tržnicu
 - izbor | Mama kuha ___ . | juhu | juha | juhe
-- slaganje | Ana kupuje ribu i salatu. | en: Ana buys fish and salad.
+- slaganje | Ana kupuje ribu i salatu. | en: Ana kauft Fisch und Salat.
 - izbor | Koja se riječ NE mijenja? | kruh | jabuka | riba
 - upis | Napiši ciljni oblik: kruška → | krušku
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing page with nothing to tap. What you now own is one swap — feminine **-a** to **-u** for whatever the verb acts on — plus the *li* question, built by putting the verb first and *li* right behind it.
-infokratko: What you now know: feminine **-a → -u** after the verb, and the yes-or-no question with *li*.
-- Čestitamo! You just learned your first Croatian case — and survived. One letter changed, a whole grammar door opened.
-- **Next up:** Vocabulary 5 fills the basket — food, shops and ten new verbs. Then Grammar 5 puts the adjective on the same leash (*crna kava → crnu kavu*) and teaches you how to say where you're *going*. Then Lesson 6 brings the same trick to masculine words — and explains why Croatian treats *people* differently from *things*.
+info: Eine Abschlussseite ohne etwas zum Antippen. Was du jetzt besitzt, ist ein Tausch – feminines **-a** zu **-u** für das, worauf das Verb wirkt – plus die *li*-Frage, gebaut, indem du das Verb nach vorn stellst und *li* direkt dahinter.
+infokratko: Was du jetzt kannst: feminines **-a → -u** nach dem Verb und die Ja-Nein-Frage mit *li*.
+- Čestitamo! Du hast gerade deinen ersten kroatischen Fall gelernt – und überlebt. Ein Buchstabe hat sich geändert, eine ganze Grammatiktür ist aufgegangen.
+- **Als Nächstes:** Wortschatz 5 füllt den Korb – Essen, Geschäfte und zehn neue Verben. Dann nimmt Grammatik 5 das Adjektiv mit an dieselbe Leine (*crna kava → crnu kavu*) und zeigt dir, wie man sagt, wohin man *geht*. Dann bringt Lektion 6 denselben Trick zu den maskulinen Wörtern – und erklärt, warum das Kroatische *Menschen* anders behandelt als *Dinge*.

@@ -1,27 +1,27 @@
-# Reading: December Gifts
+# Lesen: Dezembergeschenke
 cjelina: Practice 14
 
-## Text 1: Presents
+## Text 1: Geschenke
 format: tekst
-info: A read-along list of who gets what, and almost every line opens with a receiver. Read it twice: once for the story, once to spot the pattern — **-i** after a word in **-a** (*mami, baki*), **-u** after a consonant (*bratu, djedu*), and *svima* in the plural.
-infokratko: Nearly every line opens with a receiver: *mami, baki* (**-i**), *bratu, djedu* (**-u**), *svima*.
-opis: Ana, a shopping list and a whole family. Tap **EN** next to any sentence to see its translation.
-- Passive words: *svi* (everyone), *svima* (to everyone), *pas ima sve* (the dog has everything).
-- Prosinac je i Ana kupuje poklone. | It's December and Ana is buying presents.
-- Mami kupuje parfem, a tati knjigu. | She's buying Mum perfume and Dad a book.
-- Bratu Marku kupuje loptu. | She's buying her brother Marko a ball.
-- Baki šalje čokoladu, a djedu piše pismo. | She's sending Grandma chocolate, and she's writing Grandpa a letter.
-- Prijateljici Maji daje kartu za koncert. | She's giving her friend Maja a concert ticket.
-- Susjedi nosi kolače, jer joj susjeda uvijek pomaže. | She's bringing her neighbour cakes, because the neighbour always helps her.
-- A psu? Psu ništa — pas ima sve! | And the dog? Nothing for the dog — the dog has everything!
-- A tko kupuje poklon Ani? Svi! | And who is buying Ana a present? Everyone!
-- Jer je Ana dobra svima. | Because Ana is good to everyone.
+info: Eine Liste zum Mitlesen, wer was bekommt, und fast jede Zeile beginnt mit einem Empfänger. Lies sie zweimal: einmal für die Geschichte, einmal, um das Muster zu erkennen – **-i** nach einem Wort auf **-a** (*mami, baki*), **-u** nach einem Konsonanten (*bratu, djedu*) und *svima* im Plural.
+infokratko: Fast jede Zeile beginnt mit einem Empfänger: *mami, baki* (**-i**), *bratu, djedu* (**-u**), *svima*.
+opis: Ana, eine Einkaufsliste und eine ganze Familie. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+- Passive Wörter: *svi* (alle), *svima* (allen), *pas ima sve* (der Hund hat alles).
+- Prosinac je i Ana kupuje poklone. | Es ist Dezember, und Ana kauft Geschenke.
+- Mami kupuje parfem, a tati knjigu. | Sie kauft Mama Parfüm und Papa ein Buch.
+- Bratu Marku kupuje loptu. | Ihrem Bruder Marko kauft sie einen Ball.
+- Baki šalje čokoladu, a djedu piše pismo. | Oma schickt sie Schokolade, und Opa schreibt sie einen Brief.
+- Prijateljici Maji daje kartu za koncert. | Ihrer Freundin Maja gibt sie eine Konzertkarte.
+- Susjedi nosi kolače, jer joj susjeda uvijek pomaže. | Der Nachbarin bringt sie Kuchen, weil die Nachbarin ihr immer hilft.
+- A psu? Psu ništa — pas ima sve! | Und dem Hund? Dem Hund nichts – der Hund hat alles!
+- A tko kupuje poklon Ani? Svi! | Und wer kauft Ana ein Geschenk? Alle!
+- Jer je Ana dobra svima. | Weil Ana zu allen gut ist.
 
-## Who gets what?
+## Wer bekommt was?
 format: parovi
-info: Each receiver from Text 1 beside the present Ana has for them. The receiver is in the dative, with **-i** or **-u**, and the present is given in its naming form. One receiver gets nothing at all.
-infokratko: Receiver in the dative, present in the naming form. One gets nothing.
-opis: Who gets what? Match each receiver with the present from Text 1.
+info: Jeder Empfänger aus Text 1 neben dem Geschenk, das Ana für ihn hat. Der Empfänger steht im Dativ, mit **-i** oder **-u**, und das Geschenk in seiner Grundform. Ein Empfänger bekommt gar nichts.
+infokratko: Empfänger im Dativ, Geschenk in der Grundform. Einer bekommt nichts.
+opis: Wer bekommt was? Ordne jedem Empfänger das Geschenk aus Text 1 zu.
 - mami | parfem
 - tati | knjiga
 - bratu Marku | lopta
@@ -31,11 +31,11 @@ opis: Who gets what? Match each receiver with the present from Text 1.
 - susjedi | kolači
 - psu | ništa
 
-## Type the dative
+## Schreib den Dativ
 format: upis
-info: Copy each receiver back into its line. The bracket gives the naming form: a word in **-a** turns it into **-i** (*mami, susjedi, prijateljici*), a consonant takes **-u** (*bratu, djedu*), and *svi* becomes *svima*.
-infokratko: **-a → -i**, consonant **+u**, *svi → svima*.
-opis: Fill in the receiver from the text.
+info: Schreib jeden Empfänger zurück in seine Zeile. Die Klammer gibt die Grundform an: Ein Wort auf **-a** macht daraus **-i** (*mami, susjedi, prijateljici*), ein Konsonant bekommt **-u** (*bratu, djedu*), und *svi* wird zu *svima*.
+infokratko: **-a → -i**, Konsonant **+u**, *svi → svima*.
+opis: Setz den Empfänger aus dem Text ein.
 tekst: Mami kupuje parfem, a tati knjigu. Bratu Marku kupuje loptu. Baki šalje čokoladu, a djedu piše pismo. Prijateljici Maji daje kartu za koncert. Susjedi nosi kolače. Jer je Ana dobra svima.
 - ___ kupuje parfem. (mama) | Mami
 - ___ kupuje knjigu. (tata) | Tati
@@ -46,29 +46,29 @@ tekst: Mami kupuje parfem, a tati knjigu. Bratu Marku kupuje loptu. Baki šalje 
 - ___ nosi kolače. (susjeda) | Susjedi
 - Ana je dobra ___ . (svi) | svima
 
-## Text 2: Who are you writing to?
+## Text 2: Wem schreibst du?
 format: tekst
-info: A conversation between two friends, and it starts with *Komu pišeš?* — to whom are you writing? The answers use both kinds of receiver: nouns in the dative (*baki, djedu, sestri*) and the short forms from Grammar 14 (*joj, ti*).
-infokratko: *Komu pišeš?* Answers with nouns (*baki, sestri*) and short forms (*joj, ti*).
-opis: A card, some cakes and a package for the whole family. Tap **EN** to see any line in English.
-- Passive words: *Baš lijepo od tebe!* (How nice of you!), *slatko* (sweet things), *i to* (and what's more).
-- — Komu pišeš? | — Who are you writing to?
-- — Pišem baki. Sutra je njezin rođendan. | — I'm writing to Grandma. Tomorrow is her birthday.
-- — Lijepo! Što ćeš joj kupiti? | — Nice! What will you buy her?
-- — Kupit ću joj cvijeće. | — I'll buy her flowers.
-- — A što kupuješ djedu? | — And what are you buying Grandpa?
-- — Djedu nosim kolače. On voli slatko. | — I'm bringing Grandpa cakes. He likes sweet things.
-- — Šalješ li nešto sestri? | — Are you sending your sister anything?
-- — Da, sestri šaljem paket. Ona živi u Zagrebu. | — Yes, I'm sending my sister a package. She lives in Zagreb.
-- — Baš lijepo od tebe! | — How nice of you!
-- — Znam! Ali tko što daje meni? | — I know! But who gives anything to me?
-- — Ja ti dajem savjet — i to besplatno! | — I'm giving you advice — and for free!
+info: Ein Gespräch zwischen zwei Freunden, das mit *Komu pišeš?* beginnt – wem schreibst du? Die Antworten benutzen beide Arten von Empfängern: Substantive im Dativ (*baki, djedu, sestri*) und die kurzen Formen aus Grammatik 14 (*joj, ti*).
+infokratko: *Komu pišeš?* Antworten mit Substantiven (*baki, sestri*) und kurzen Formen (*joj, ti*).
+opis: Eine Karte, ein paar Kuchen und ein Paket für die ganze Familie. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Baš lijepo od tebe!* (Wie nett von dir!), *slatko* (Süßes), *i to* (und zwar).
+- — Komu pišeš? | — Wem schreibst du?
+- — Pišem baki. Sutra je njezin rođendan. | — Ich schreibe Oma. Morgen hat sie Geburtstag.
+- — Lijepo! Što ćeš joj kupiti? | — Schön! Was wirst du ihr kaufen?
+- — Kupit ću joj cvijeće. | — Ich werde ihr Blumen kaufen.
+- — A što kupuješ djedu? | — Und was kaufst du Opa?
+- — Djedu nosim kolače. On voli slatko. | — Opa bringe ich Kuchen. Er mag Süßes.
+- — Šalješ li nešto sestri? | — Schickst du deiner Schwester etwas?
+- — Da, sestri šaljem paket. Ona živi u Zagrebu. | — Ja, meiner Schwester schicke ich ein Paket. Sie wohnt in Zagreb.
+- — Baš lijepo od tebe! | — Wie nett von dir!
+- — Znam! Ali tko što daje meni? | — Ich weiß! Aber wer gibt mir etwas?
+- — Ja ti dajem savjet — i to besplatno! | — Ich gebe dir einen Rat – und zwar kostenlos!
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on the dialogue above. Each person gets something different, so match the receiver to the present: *joj* in *Kupit ću joj cvijeće* is Grandma, and *ti* in *Ja ti dajem savjet* is the one who asked for a present.
-infokratko: Match the receiver to the present: *joj* = Grandma, *ti* = the one asking.
-opis: Answer from the dialogue.
+info: Verständnis zum Dialog oben. Jede Person bekommt etwas anderes, also ordne den Empfänger dem Geschenk zu: *joj* in *Kupit ću joj cvijeće* ist Oma, und *ti* in *Ja ti dajem savjet* ist die Person, die nach einem Geschenk gefragt hat.
+infokratko: Ordne den Empfänger dem Geschenk zu: *joj* = Oma, *ti* = wer fragt.
+opis: Antworte aus dem Dialog.
 tekst: — Komu pišeš? — Pišem baki. Sutra je njezin rođendan. — Lijepo! Što ćeš joj kupiti? — Kupit ću joj cvijeće. — A što kupuješ djedu? — Djedu nosim kolače. On voli slatko. — Šalješ li nešto sestri? — Da, sestri šaljem paket. Ona živi u Zagrebu. — Baš lijepo od tebe! — Znam! Ali tko što daje meni? — Ja ti dajem savjet — i to besplatno!
 - Komu piše? | baki | sestri | djedu
 - Zašto piše baki? | jer je sutra njezin rođendan | jer baka živi u Zagrebu | jer baka voli slatko
@@ -79,9 +79,9 @@ tekst: — Komu pišeš? — Pišem baki. Sutra je njezin rođendan. — Lijepo!
 
 ## Bring den Dialog in Ordnung
 format: poredak
-info: Rebuild the conversation line by line. Each answer follows its question: *Komu pišeš?* is answered by *Pišem baki*, *A što kupuješ djedu?* by *Djedu nosim kolače*, and *Šalješ li nešto sestri?* by the package for Zagreb.
-infokratko: Each answer follows its question: *Komu pišeš? — Pišem baki.*
-opis: Rebuild the first eight lines of the conversation.
+info: Bau das Gespräch Zeile für Zeile wieder auf. Jede Antwort folgt ihrer Frage: Auf *Komu pišeš?* antwortet *Pišem baki*, auf *A što kupuješ djedu?* antwortet *Djedu nosim kolače*, und auf *Šalješ li nešto sestri?* das Paket nach Zagreb.
+infokratko: Jede Antwort folgt ihrer Frage: *Komu pišeš? — Pišem baki.*
+opis: Bau die ersten acht Zeilen des Gesprächs wieder auf.
 - — Komu pišeš?
 - — Pišem baki. Sutra je njezin rođendan.
 - — Lijepo! Što ćeš joj kupiti?
@@ -91,25 +91,25 @@ opis: Rebuild the first eight lines of the conversation.
 - — Šalješ li nešto sestri?
 - — Da, sestri šaljem paket. Ona živi u Zagrebu.
 
-## Text 3: The postman
+## Text 3: Der Briefträger
 format: tekst
-info: A day on the postman's round, and every stop has a receiver. Most are nouns with a name beside them — *susjedu Marku, učiteljici Ani* — and both words take the dative. The last line uses the short plural form: *jer im Ivo nosi*.
-infokratko: Noun and name both in the dative: *susjedu Marku, učiteljici Ani*. *im* = to them.
-opis: Ivo carries the whole town's post. Tap **EN** to see any line in English.
-- Passive words: *djeci* (to the children), *laje* (barks), *cijeli* (whole), *poznaje* (knows), *dobre vijesti* (good news).
-- Poštar Ivo radi svaki dan. | Ivo the postman works every day.
-- Nosi pisma i pakete. | He carries letters and packages.
-- Susjedu Marku daje novine. | He gives the newspaper to Marko, the neighbour.
-- Učiteljici Ani nosi pismo. | He brings a letter to Ana, the teacher.
-- Doktoru daje paket. | He gives the doctor a package.
-- Baki Mariji uvijek kaže: "Dobro jutro!" | To Grandma Marija he always says: "Good morning!"
-- Djeci daje osmijeh, a psu... psu ne daje ništa, jer pas laje! | He gives the children a smile, and the dog... the dog gets nothing, because the dog barks!
-- Cijeli grad poznaje Ivu i svi su sretni, jer im Ivo nosi dobre vijesti. | The whole town knows Ivo and everyone is happy, because Ivo brings them good news.
+info: Ein Tag auf der Runde des Briefträgers, und jeder Halt hat einen Empfänger. Meist sind es Substantive mit einem Namen daneben – *susjedu Marku, učiteljici Ani* –, und beide Wörter stehen im Dativ. Die letzte Zeile benutzt die kurze Pluralform: *jer im Ivo nosi*.
+infokratko: Substantiv und Name beide im Dativ: *susjedu Marku, učiteljici Ani*. *im* = ihnen.
+opis: Ivo trägt die Post der ganzen Stadt aus. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *djeci* (den Kindern), *laje* (bellt), *cijeli* (ganz), *poznaje* (kennt), *dobre vijesti* (gute Nachrichten).
+- Poštar Ivo radi svaki dan. | Briefträger Ivo arbeitet jeden Tag.
+- Nosi pisma i pakete. | Er trägt Briefe und Pakete aus.
+- Susjedu Marku daje novine. | Dem Nachbarn Marko gibt er die Zeitung.
+- Učiteljici Ani nosi pismo. | Der Lehrerin Ana bringt er einen Brief.
+- Doktoru daje paket. | Dem Arzt gibt er ein Paket.
+- Baki Mariji uvijek kaže: "Dobro jutro!" | Zu Oma Marija sagt er immer: „Guten Morgen!“
+- Djeci daje osmijeh, a psu... psu ne daje ništa, jer pas laje! | Den Kindern schenkt er ein Lächeln, und dem Hund ... dem Hund gibt er nichts, weil der Hund bellt!
+- Cijeli grad poznaje Ivu i svi su sretni, jer im Ivo nosi dobre vijesti. | Die ganze Stadt kennt Ivo, und alle sind glücklich, weil Ivo ihnen gute Nachrichten bringt.
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against Ivo's round. The receivers carry the information: *Doktoru daje paket* means the doctor gets a package, not a letter, and *psu ne daje ništa* rules out anything for the dog.
-infokratko: The receiver decides: the doctor gets a package; the dog gets nothing.
+info: Prüf jede Aussage an Ivos Runde. Die Empfänger tragen die Information: *Doktoru daje paket* heißt, dass der Arzt ein Paket bekommt, keinen Brief, und *psu ne daje ništa* schließt alles für den Hund aus.
+infokratko: Der Empfänger entscheidet: Der Arzt bekommt ein Paket; der Hund bekommt nichts.
 opis: Tippe auf richtig oder falsch.
 tekst: Poštar Ivo radi svaki dan. Nosi pisma i pakete. Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket. Psu ne daje ništa, jer pas laje! Svi su sretni, jer im Ivo nosi dobre vijesti.
 - Ivo susjedu daje novine. | RICHTIG | FALSCH
@@ -119,11 +119,11 @@ tekst: Poštar Ivo radi svaki dan. Nosi pisma i pakete. Susjedu Marku daje novin
 - Ivo radi samo u subotu. | FALSCH | RICHTIG
 - Svi su sretni, jer im Ivo nosi dobre vijesti. | RICHTIG | FALSCH
 
-## Type the receiver
+## Schreib den Empfänger
 format: upis
-info: Copy each receiver back into Ivo's round. A noun with a name beside it takes the dative just like the name: *susjed → susjedu*, *učiteljica → učiteljici*. The last item asks for the short plural form, *im* — to them.
-infokratko: *susjedu Marku, učiteljici Ani*; the last one is *im*.
-opis: Fill in the receivers from the text.
+info: Schreib jeden Empfänger zurück in Ivos Runde. Ein Substantiv mit einem Namen daneben steht genau wie der Name im Dativ: *susjed → susjedu*, *učiteljica → učiteljici*. Das letzte Feld verlangt die kurze Pluralform, *im* – ihnen.
+infokratko: *susjedu Marku, učiteljici Ani*; das letzte ist *im*.
+opis: Setz die Empfänger aus dem Text ein.
 tekst: Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket. Baki Mariji uvijek kaže: "Dobro jutro!" Psu ne daje ništa. Svi su sretni, jer im Ivo nosi dobre vijesti.
 - ___ Marku daje novine. (susjed) | Susjedu
 - ___ Ani nosi pismo. (učiteljica) | Učiteljici
@@ -132,29 +132,29 @@ tekst: Susjedu Marku daje novine. Učiteljici Ani nosi pismo. Doktoru daje paket
 - ___ ne daje ništa. (pas) | Psu
 - Svi su sretni, jer ___ Ivo nosi dobre vijesti. (to them) | im
 
-## Text 4: A card from Grandma
+## Text 4: Eine Karte von Oma
 format: tekst
-info: A real Christmas card, the reply to the package the Horvats sent to Split in Lesson 14. Read it as a card: the greeting on top, one line per receiver, the signature at the bottom and the address last. *Vama* is the long form, used for contrast: now it is Grandma's turn.
-infokratko: A real card: greeting, one receiver per line, signature, address. *vama* for contrast.
-opis: Grandma writes back from Split. Tap **EN** to see any line in English.
-- Passive words: *Dragi / Draga* (Dear), *Sretan Božić* (Merry Christmas), *hvala vam na…* (thank you for…), *pozdrav* (greetings), *vaša* (your), *Za:* (To:).
-- Dragi Marko, draga Ana! | Dear Marko, dear Ana!
-- Sretan Božić iz Splita! | Merry Christmas from Split!
-- Hvala vam na paketu i na pismu. | Thank you for the package and the letter.
-- Djed čita Markovo pismo svaki dan. | Grandpa reads Marko's letter every day.
-- Sada ja vama šaljem paket. | Now I'm sending you a package.
-- Marku šaljem rukavice, a Ani šal. | I'm sending Marko gloves and Ana a scarf.
-- Mami i tati šaljem kolače. | I'm sending Mum and Dad cakes.
-- A psu? Psu šaljem jedan kolač — ali samo jedan! | And the dog? I'm sending the dog one cake — but only one!
-- Djed vam šalje veliki pozdrav. | Grandpa sends you his warmest greetings.
-- Vaša baka | Your Grandma
-- Za: obitelj Horvat, Zagreb | To: the Horvat family, Zagreb
+info: Eine echte Weihnachtskarte, die Antwort auf das Paket, das die Horvats in Lektion 14 nach Split geschickt haben. Lies sie wie eine Karte: oben die Anrede, eine Zeile pro Empfänger, unten die Unterschrift und zuletzt die Adresse. *Vama* ist die lange Form, für den Kontrast: Jetzt ist Oma an der Reihe.
+infokratko: Eine echte Karte: Anrede, ein Empfänger pro Zeile, Unterschrift, Adresse. *vama* für den Kontrast.
+opis: Oma schreibt aus Split zurück. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Dragi / Draga* (Lieber / Liebe), *Sretan Božić* (Frohe Weihnachten), *hvala vam na…* (danke euch für …), *pozdrav* (Gruß), *vaša* (eure), *Za:* (An:).
+- Dragi Marko, draga Ana! | Lieber Marko, liebe Ana!
+- Sretan Božić iz Splita! | Frohe Weihnachten aus Split!
+- Hvala vam na paketu i na pismu. | Danke euch für das Paket und den Brief.
+- Djed čita Markovo pismo svaki dan. | Opa liest Markos Brief jeden Tag.
+- Sada ja vama šaljem paket. | Jetzt schicke ich euch ein Paket.
+- Marku šaljem rukavice, a Ani šal. | Marko schicke ich Handschuhe und Ana einen Schal.
+- Mami i tati šaljem kolače. | Mama und Papa schicke ich Kuchen.
+- A psu? Psu šaljem jedan kolač — ali samo jedan! | Und dem Hund? Dem Hund schicke ich einen Kuchen – aber nur einen!
+- Djed vam šalje veliki pozdrav. | Opa schickt euch liebe Grüße.
+- Vaša baka | Eure Oma
+- Za: obitelj Horvat, Zagreb | An: Familie Horvat, Zagreb
 
-## Did you read the card?
+## Hast du die Karte gelesen?
 format: izbor
-info: Comprehension on Grandma's card. Each question asks who gets what, and the answer is on a single line of the card. Where the card does not say it outright — where Grandma lives — the greeting at the top answers it.
-infokratko: One line per receiver. The greeting tells you where Grandma lives.
-opis: Answer from the card.
+info: Verständnis zu Omas Karte. Jede Frage fragt, wer was bekommt, und die Antwort steht in einer einzigen Zeile der Karte. Wo die Karte es nicht direkt sagt – wo Oma wohnt –, beantwortet es die Anrede oben.
+infokratko: Eine Zeile pro Empfänger. Die Anrede verrät dir, wo Oma wohnt.
+opis: Antworte anhand der Karte.
 tekst: Dragi Marko, draga Ana! Sretan Božić iz Splita! Hvala vam na paketu i na pismu. Djed čita Markovo pismo svaki dan. Sada ja vama šaljem paket. Marku šaljem rukavice, a Ani šal. Mami i tati šaljem kolače. A psu? Psu šaljem jedan kolač — ali samo jedan! Djed vam šalje veliki pozdrav. Vaša baka
 - Tko piše čestitku? | baka | djed | mama
 - Gdje živi baka? | u Splitu | u Zagrebu | na moru
@@ -163,27 +163,27 @@ tekst: Dragi Marko, draga Ana! Sretan Božić iz Splita! Hvala vam na paketu i n
 - Komu baka šalje šal? | Ani | mami | Marku
 - Što baka šalje psu? | jedan kolač | ništa | rukavice
 
-## Text 5: Four parcels
+## Text 5: Vier Pakete
 format: tekst
-info: A puzzle rather than a story. Ivo has four parcels and four receivers, and nobody says which parcel is whose. Every clue says what somebody does **not** get, so work by elimination, starting with the parcel that only one person can take.
-infokratko: Every clue is negative: work by elimination.
-opis: Four parcels, four people, no labels. Read it twice before you answer.
-- Passive words: *u paketima* (in the parcels), *alergičan na* (allergic to), *dobiva* (gets).
-- Danas poštar Ivo nosi pakete. | Today Ivo the postman is delivering parcels.
-- U paketima su knjiga, cvijeće, parfem i lopta. | In the parcels there is a book, flowers, perfume and a ball.
-- Paketi su za doktora, za baku Mariju, za susjeda Marka i za učiteljicu Anu. | The parcels are for the doctor, Grandma Marija, Marko the neighbour and Ana the teacher.
-- Doktoru Ivo ne nosi ni cvijeće ni parfem. | Ivo is bringing the doctor neither flowers nor perfume.
-- Doktor ne igra nogomet. | The doctor doesn't play football.
-- Susjed Marko je alergičan na cvijeće. | Marko the neighbour is allergic to flowers.
-- Učiteljici Ani Ivo ne nosi ni cvijeće ni loptu. | Ivo is bringing Ana the teacher neither flowers nor a ball.
-- Baka Marija ne igra nogomet. | Grandma Marija doesn't play football.
-- Tko dobiva koji paket? | Who gets which parcel?
+info: Eher ein Rätsel als eine Geschichte. Ivo hat vier Pakete und vier Empfänger, und niemand sagt, welches Paket wem gehört. Jeder Hinweis sagt, was jemand **nicht** bekommt, also arbeite nach dem Ausschlussprinzip, beginnend mit dem Paket, das nur eine Person nehmen kann.
+infokratko: Jeder Hinweis ist verneint: Arbeite durch Ausschluss.
+opis: Vier Pakete, vier Personen, keine Etiketten. Lies den Text zweimal, bevor du antwortest.
+- Passive Wörter: *u paketima* (in den Paketen), *alergičan na* (allergisch gegen), *dobiva* (bekommt).
+- Danas poštar Ivo nosi pakete. | Heute bringt Briefträger Ivo Pakete.
+- U paketima su knjiga, cvijeće, parfem i lopta. | In den Paketen sind ein Buch, Blumen, Parfüm und ein Ball.
+- Paketi su za doktora, za baku Mariju, za susjeda Marka i za učiteljicu Anu. | Die Pakete sind für den Arzt, für Oma Marija, für den Nachbarn Marko und für die Lehrerin Ana.
+- Doktoru Ivo ne nosi ni cvijeće ni parfem. | Dem Arzt bringt Ivo weder Blumen noch Parfüm.
+- Doktor ne igra nogomet. | Der Arzt spielt nicht Fußball.
+- Susjed Marko je alergičan na cvijeće. | Der Nachbar Marko ist allergisch gegen Blumen.
+- Učiteljici Ani Ivo ne nosi ni cvijeće ni loptu. | Der Lehrerin Ana bringt Ivo weder Blumen noch einen Ball.
+- Baka Marija ne igra nogomet. | Oma Marija spielt nicht Fußball.
+- Tko dobiva koji paket? | Wer bekommt welches Paket?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the negatives. The flowers can only go to Grandma Marija, because the doctor, Marko and the teacher are all ruled out. The doctor then takes the book, since he gets no perfume and plays no football, which leaves the perfume for the teacher and the ball for Marko.
-infokratko: Flowers first: only one person is left for them. Then the doctor, then the rest.
-opis: Nobody says who gets which parcel. Work it out from the text.
+info: Schlussfolgern aus den Verneinungen. Die Blumen können nur an Oma Marija gehen, denn der Arzt, Marko und die Lehrerin sind alle ausgeschlossen. Der Arzt nimmt dann das Buch, da er kein Parfüm bekommt und nicht Fußball spielt; damit bleibt das Parfüm für die Lehrerin und der Ball für Marko.
+infokratko: Zuerst die Blumen: Für sie bleibt nur eine Person. Dann der Arzt, dann der Rest.
+opis: Niemand sagt, wer welches Paket bekommt. Finde es aus dem Text heraus.
 tekst: Danas poštar Ivo nosi pakete. U paketima su knjiga, cvijeće, parfem i lopta. Paketi su za doktora, za baku Mariju, za susjeda Marka i za učiteljicu Anu. Doktoru Ivo ne nosi ni cvijeće ni parfem. Doktor ne igra nogomet. Susjed Marko je alergičan na cvijeće. Učiteljici Ani Ivo ne nosi ni cvijeće ni loptu. Baka Marija ne igra nogomet.
 - Komu Ivo nosi cvijeće? | baki Mariji | učiteljici Ani | doktoru
 - Komu Ivo nosi knjigu? | doktoru | susjedu Marku | učiteljici Ani
@@ -192,35 +192,35 @@ tekst: Danas poštar Ivo nosi pakete. U paketima su knjiga, cvijeće, parfem i l
 - Zašto Marko ne dobiva cvijeće? | jer je alergičan na cvijeće | jer ne igra nogomet | jer ne čita knjige
 - Što Ivo ne nosi učiteljici Ani? | ni cvijeće ni loptu | ni knjigu ni parfem | ni cvijeće ni parfem
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
-info: One tap per sentence, and almost every sentence comes from the five texts. A word in **-a** takes **-i**, a consonant or **-o** takes **-u**, and a plural takes **-ima**. One plural is a place, not a receiver: *u paketima* — the same ending in its locative job.
-infokratko: **-i** after **-a**, **-u** after a consonant, **-ima** in the plural — also *u paketima*.
+info: Ein Tippen pro Satz, und fast jeder Satz stammt aus den fünf Texten. Ein Wort auf **-a** bekommt **-i**, ein Konsonant oder **-o** bekommt **-u**, und ein Plural bekommt **-ima**. Ein Plural ist ein Ort, kein Empfänger: *u paketima* – dieselbe Endung in ihrer Lokativ-Aufgabe.
+infokratko: **-i** nach **-a**, **-u** nach einem Konsonanten, **-ima** im Plural – auch *u paketima*.
 nastavci: i | u | ima
-opis: Almost every sentence came out of the five texts. One tap finishes the word.
-- Mam___ kupuje parfem. | She's buying Mum perfume. | i
-- Brat___ Marku kupuje loptu. | She's buying her brother Marko a ball. | u
-- Bak___ šalje čokoladu. | She's sending Grandma chocolate. | i
-- Djed___ piše pismo. | She's writing Grandpa a letter. | u
-- Prijateljic___ Maji daje kartu. | She's giving her friend Maja a ticket. | i
-- Ana je dobra sv___. | Ana is good to everyone. | ima
-- Sestr___ šaljem paket. | I'm sending my sister a package. | i
-- Susjed___ Marku daje novine. | He gives Marko, the neighbour, the newspaper. | u
-- Učiteljic___ Ani nosi pismo. | He brings Ana, the teacher, a letter. | i
-- Doktor___ daje paket. | He gives the doctor a package. | u
-- U paket___ su knjiga i lopta. | In the parcels there is a book and a ball. | ima
-- Mark___ šaljem rukavice. | I'm sending Marko gloves. | u
-- Tat___ kupuje knjigu. | She's buying Dad a book. | i
-- Ps___ šaljem jedan kolač. | I'm sending the dog one cake. | u
-- Djed___ nosim kolače. | I'm bringing Grandpa cakes. | u
-- Susjed___ nosi kolače. | She's bringing her neighbour (f.) cakes. | i
+opis: Fast jeder Satz stammt aus den fünf Texten. Ein Tippen vollendet das Wort.
+- Mam___ kupuje parfem. | Sie kauft Mama Parfüm. | i
+- Brat___ Marku kupuje loptu. | Sie kauft ihrem Bruder Marko einen Ball. | u
+- Bak___ šalje čokoladu. | Sie schickt Oma Schokolade. | i
+- Djed___ piše pismo. | Sie schreibt Opa einen Brief. | u
+- Prijateljic___ Maji daje kartu. | Sie gibt ihrer Freundin Maja eine Karte. | i
+- Ana je dobra sv___. | Ana ist zu allen gut. | ima
+- Sestr___ šaljem paket. | Ich schicke meiner Schwester ein Paket. | i
+- Susjed___ Marku daje novine. | Er gibt dem Nachbarn Marko die Zeitung. | u
+- Učiteljic___ Ani nosi pismo. | Er bringt der Lehrerin Ana einen Brief. | i
+- Doktor___ daje paket. | Er gibt dem Arzt ein Paket. | u
+- U paket___ su knjiga i lopta. | In den Paketen sind ein Buch und ein Ball. | ima
+- Mark___ šaljem rukavice. | Ich schicke Marko Handschuhe. | u
+- Tat___ kupuje knjigu. | Sie kauft Papa ein Buch. | i
+- Ps___ šaljem jedan kolač. | Ich schicke dem Hund einen Kuchen. | u
+- Djed___ nosim kolače. | Ich bringe Opa Kuchen. | u
+- Susjed___ nosi kolače. | Sie bringt ihrer Nachbarin Kuchen. | i
 
-## Receiver or place?
+## Empfänger oder Ort?
 format: razvrstavanje
-info: Sorting sentences by the job of the **-i**, **-u** or **-ima** form. Without a preposition it names the receiver and answers *komu?*; after *u* or *na* it names the place and answers *gdje?* The ending alone does not decide it — look for *u* and *na*.
-infokratko: No preposition → *komu?* (dative). After *u / na* → *gdje?* (locative).
+info: Sätze nach der Aufgabe der Form auf **-i**, **-u** oder **-ima** sortieren. Ohne Präposition nennt sie den Empfänger und antwortet auf *komu?*; nach *u* oder *na* nennt sie den Ort und antwortet auf *gdje?* Die Endung allein entscheidet es nicht – such nach *u* und *na*.
+infokratko: Keine Präposition → *komu?* (Dativ). Nach *u / na* → *gdje?* (Lokativ).
 stupci: KOMU? (DATIV) | GDJE? (LOKATIV)
-opis: Does the form say who gets something, or where something is?
+opis: Sagt die Form, wer etwas bekommt, oder wo etwas ist?
 - Mami kupuje parfem. | KOMU? (DATIV)
 - Baki šalje čokoladu. | KOMU? (DATIV)
 - Susjedu Marku daje novine. | KOMU? (DATIV)
@@ -236,11 +236,11 @@ opis: Does the form say who gets something, or where something is?
 - Djed je u vrtu. | GDJE? (LOKATIV)
 - Pas spava na krovu. | GDJE? (LOKATIV)
 
-## Now YOU send a parcel
+## Jetzt schickst DU ein Paket
 format: dijalog
-info: Your turn at the post office, and the clerk uses the polite *vi*. Every receiver you name takes the dative — *baki, prijatelju, sestri* — and the clerk reacts to what you put in the parcel. All options are correct Croatian.
-infokratko: Polite *vi*. Name the receiver in the dative: *baki, prijatelju, sestri*.
-opis: A parcel, a card and a queue at the post office. Choose your replies. Passive words: *Izvolite* (can I help you / here you are), *naravno* (of course), *ih šaljemo* (we send them), *trebam* (I need), *Sretan Božić* (Merry Christmas), *i vama* (to you too).
+info: Du bist an der Reihe auf der Post, und der Beamte benutzt das höfliche *vi*. Jeder Empfänger, den du nennst, steht im Dativ – *baki, prijatelju, sestri* –, und der Beamte reagiert darauf, was du ins Paket legst. Alle Optionen sind korrektes Kroatisch.
+infokratko: Höfliches *vi*. Nenn den Empfänger im Dativ: *baki, prijatelju, sestri*.
+opis: Ein Paket, eine Karte und eine Schlange auf der Post. Wähle deine Antworten. Passive Wörter: *Izvolite* (bitte schön / was darf es sein), *naravno* (natürlich), *ih šaljemo* (wir schicken sie), *trebam* (ich brauche), *Sretan Božić* (Frohe Weihnachten), *i vama* (Ihnen auch).
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Šaljem paket. | Dobar dan! Šaljem paket i razglednicu.
 - npc | Naravno. Komu šaljete paket?
@@ -258,40 +258,40 @@ opis: A parcel, a card and a queue at the post office. Choose your replies. Pass
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the five texts. The receiver takes **-i**, **-u** or **-ima** and often the first tile; a short form such as *joj, ti, im* takes the second place, also after *jer*.
-infokratko: Receiver **-i, -u, -ima**, often first; *joj, ti, im* in second place, also after *jer*.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
-- Mami kupuje parfem, a tati knjigu. | en: She's buying Mum perfume and Dad a book.
-- Baki šalje čokoladu, a djedu piše pismo. | en: She's sending Grandma chocolate, and she's writing Grandpa a letter.
-- Prijateljici Maji daje kartu za koncert. | en: She's giving her friend Maja a concert ticket.
-- Jer je Ana dobra svima. | en: Because Ana is good to everyone.
-- Komu pišeš? | en: Who are you writing to?
-- Kupit ću joj cvijeće. | en: I'll buy her flowers.
-- Djedu nosim kolače. | en: I'm bringing Grandpa cakes.
-- Sestri šaljem paket. | en: I'm sending my sister a package.
-- Ja ti dajem savjet. | en: I'm giving you advice.
-- Susjedu Marku daje novine. | en: He gives Marko, the neighbour, the newspaper.
-- Psu ne daje ništa! | en: He gives the dog nothing!
-- Svi su sretni, jer im Ivo nosi dobre vijesti. | en: Everyone is happy, because Ivo brings them good news.
-- Sada ja vama šaljem paket. | en: Now I'm sending you a package.
-- Marku šaljem rukavice, a Ani šal. | en: I'm sending Marko gloves and Ana a scarf.
-- Doktoru Ivo ne nosi ni cvijeće ni parfem. | en: Ivo is bringing the doctor neither flowers nor perfume.
-- Komu šaljete paket? | en: Who are you sending the parcel to?
+info: Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten. Der Empfänger bekommt **-i**, **-u** oder **-ima** und oft die erste Kachel; eine kurze Form wie *joj, ti, im* nimmt die zweite Stelle ein, auch nach *jer*.
+infokratko: Empfänger **-i, -u, -ima**, oft zuerst; *joj, ti, im* an zweiter Stelle, auch nach *jer*.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den fünf Texten.
+- Mami kupuje parfem, a tati knjigu. | en: Sie kauft Mama Parfüm und Papa ein Buch.
+- Baki šalje čokoladu, a djedu piše pismo. | en: Sie schickt Oma Schokolade, und sie schreibt Opa einen Brief.
+- Prijateljici Maji daje kartu za koncert. | en: Sie gibt ihrer Freundin Maja eine Konzertkarte.
+- Jer je Ana dobra svima. | en: Weil Ana zu allen gut ist.
+- Komu pišeš? | en: Wem schreibst du?
+- Kupit ću joj cvijeće. | en: Ich werde ihr Blumen kaufen.
+- Djedu nosim kolače. | en: Ich bringe Opa Kuchen.
+- Sestri šaljem paket. | en: Ich schicke meiner Schwester ein Paket.
+- Ja ti dajem savjet. | en: Ich gebe dir einen Rat.
+- Susjedu Marku daje novine. | en: Er gibt dem Nachbarn Marko die Zeitung.
+- Psu ne daje ništa! | en: Dem Hund gibt er nichts!
+- Svi su sretni, jer im Ivo nosi dobre vijesti. | en: Alle sind glücklich, weil Ivo ihnen gute Nachrichten bringt.
+- Sada ja vama šaljem paket. | en: Jetzt schicke ich euch ein Paket.
+- Marku šaljem rukavice, a Ani šal. | en: Ich schicke Marko Handschuhe und Ana einen Schal.
+- Doktoru Ivo ne nosi ni cvijeće ni parfem. | en: Ivo bringt dem Arzt weder Blumen noch Parfüm.
+- Komu šaljete paket? | en: Wem schickst du das Paket?
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over the presents and the post. Everything is in its naming form; say *Šaljem baki…* in your head as you tap, remembering that the present takes the target form: *Šaljem baki knjigu.*
-infokratko: Naming forms. Think *Šaljem baki...*; the present takes the target form.
-opis: The post office is closing. A picture appears — tap the balloon with its word before it floats away.
-- parfem | perfume
+info: Ein zeitgebundenes Bild-zu-Wort-Tippen mit den Geschenken und der Post. Alles steht in der Grundform; sag beim Tippen im Kopf *Šaljem baki…* und denk daran, dass das Geschenk in der Zielform steht: *Šaljem baki knjigu.*
+infokratko: Grundformen. Denk *Šaljem baki...*; das Geschenk steht in der Zielform.
+opis: Die Post schließt gleich. Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
+- parfem | Parfüm
 - knjiga | Buch
-- lopta | ball
-- cvijeće | flowers
+- lopta | Ball
+- cvijeće | Blumen
 - kolač | Torte
 - pismo | Brief
-- paket | package
-- novine | newspaper
-- kišobran | umbrella
-- kapa | cap
-- bombon | candy
+- paket | Paket
+- novine | Zeitung
+- kišobran | Regenschirm
+- kapa | Mütze, Kappe
+- bombon | Bonbon
 - gitara | Gitarre

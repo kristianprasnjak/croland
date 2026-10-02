@@ -1,181 +1,181 @@
-# Food We (Don't) Like
+# Essen, das wir (nicht) mögen
 cjelina: Vocabulary 12
 
-## Food
+## Essen
 format: kartice
-info: New food words, on top of the market words from Vocabulary 5. Two of them are normally used in the plural — *gljive* and *palačinke* — so the verb and the adjective take plural forms too: *Palačinke su slatke.* Feminine words take **-u** as a target: *Ne jedem piletinu.*
-infokratko: New food words. *gljive, palačinke* are plural: *Palačinke su slatke.* Target **-u**: *Ne jedem piletinu.*
-opis: Meat, vegetables, fruit and things you put on bread. Tap a card to reveal the meaning.
-- piletina | chicken (meat)
-- govedina | beef
-- šunka | ham
-- kobasica | sausage
-- tjestenina | pasta
-- gljive (mn.) | mushrooms
-- češnjak | garlic
-- krastavac | cucumber
-- kupus | cabbage
-- paprika | pepper (vegetable)
-- grašak | peas
-- orah | walnut
-- trešnja | cherry
-- grožđe | grapes
-- med | honey
+info: Neue Essenswörter, zusätzlich zu den Marktwörtern aus Wortschatz 5. Zwei davon werden normalerweise im Plural verwendet – *gljive* und *palačinke* –, also nehmen auch Verb und Adjektiv Pluralformen: *Palačinke su slatke.* Feminine Wörter nehmen als Ziel **-u**: *Ne jedem piletinu.*
+infokratko: Neue Essenswörter. *gljive, palačinke* sind Plural: *Palačinke su slatke.* Ziel **-u**: *Ne jedem piletinu.*
+opis: Fleisch, Gemüse, Obst und Dinge aufs Brot. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- piletina | Hähnchen (Fleisch)
+- govedina | Rindfleisch
+- šunka | Schinken
+- kobasica | Wurst
+- tjestenina | Nudeln
+- gljive (mn.) | Pilze
+- češnjak | Knoblauch
+- krastavac | Gurke
+- kupus | Kohl
+- paprika | Paprika
+- grašak | Erbsen
+- orah | Walnuss
+- trešnja | Kirsche
+- grožđe | Weintrauben
+- med | Honig
 - džem | Marmelade
-- maslac | butter
-- palačinke (mn.) | pancakes
-- čips | potato chips
-- pomfrit | French fries
+- maslac | Butter
+- palačinke (mn.) | Pfannkuchen
+- čips | Chips
+- pomfrit | Pommes frites
 
-## Tastes & textures
+## Geschmack & Beschaffenheit
 format: kartice
-info: How food tastes, what goes on it, and what you do with it in the kitchen. Adjectives are shown in the masculine and feminine form. Three drop the vowel in the feminine — *gorak → gorka*, *mastan → masna*, *sočan → sočna* — like *sladak → slatka* from Vocabulary 1, and *kiseo* turns its **o** back into **l**: *kisela*. *Ljut* is the *angry* from Vocabulary 2; for food it means *spicy*. *Peći* and *rezati* change their stem — *pečem*, *režem* — and the third form is the food after it: *pečen* (baked), *pržen* (fried).
-infokratko: m and f forms: *gorak → gorka, kiseo → kisela*. *ljut* = spicy. *peći → pečem → pečen*.
-opis: How food tastes, and how it is made. Tap a card to reveal the meaning.
-- okus | taste, flavor
-- slan / slana | salty
-- kiseo / kisela | sour
+info: Wie Essen schmeckt, was darauf kommt und was du in der Küche damit machst. Adjektive stehen in der maskulinen und femininen Form. Drei verlieren im Femininum den Vokal – *gorak → gorka*, *mastan → masna*, *sočan → sočna* –, wie *sladak → slatka* aus Wortschatz 1, und *kiseo* macht sein **o** wieder zu **l**: *kisela*. *Ljut* ist das *wütend* aus Wortschatz 2; beim Essen heißt es *scharf*. *Peći* und *rezati* ändern ihren Stamm – *pečem*, *režem* –, und die dritte Form ist das Essen danach: *pečen* (gebacken), *pržen* (gebraten).
+infokratko: m- und f-Formen: *gorak → gorka, kiseo → kisela*. *ljut* = scharf. *peći → pečem → pečen*.
+opis: Wie Essen schmeckt und wie es gemacht wird. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- okus | Geschmack
+- slan / slana | salzig
+- kiseo / kisela | sauer
 - gorak / gorka | bitter
-- ljut / ljuta | spicy (also: angry)
-- začinjen / začinjena | seasoned
-- bljutav / bljutava | bland
-- sočan / sočna | juicy
-- mastan / masna | greasy, fatty
-- zdrav / zdrava | healthy
-- vruć / vruća | hot
-- sirov / sirova | raw
-- sol | salt
-- ocat | vinegar
-- kušati → kušam | to taste
-- probati → probam | to try
-- peći → pečem → pečen | to bake (baked, roasted)
-- pržiti → pržim → pržen | to fry (fried)
-- rezati → režem | to cut
-- recept | recipe
+- ljut / ljuta | scharf (auch: wütend)
+- začinjen / začinjena | gewürzt
+- bljutav / bljutava | fade
+- sočan / sočna | saftig
+- mastan / masna | fettig
+- zdrav / zdrava | gesund
+- vruć / vruća | heiß
+- sirov / sirova | roh
+- sol | Salz
+- ocat | Essig
+- kušati → kušam | probieren, kosten
+- probati → probam | versuchen, probieren
+- peći → pečem → pečen | backen (gebacken, gebraten)
+- pržiti → pržim → pržen | braten (gebraten)
+- rezati → režem | schneiden
+- recept | Rezept
 
-## At the table
+## Am Tisch
 format: kartice
-info: The things on a restaurant table, the verbs around a meal and two phrases. *Dobar tek!* is said before anyone starts eating, and *Račun, molim.* is how the meal ends: you *naručiti* at the start and *platiti* at the end. *Platiti* is the one-time *pay the bill*; *plaćati* from Vocabulary 5 is paying in general.
-infokratko: Table words. *Dobar tek!* before eating, *Račun, molim.* at the end. *naručiti* order, *platiti* pay.
-opis: Everything from the menu to the tip. Tap a card to reveal the meaning.
-- jelovnik | menu
-- tanjur | plate
-- čaša | glass
-- šalica | cup
-- žlica | spoon
-- vilica | fork
-- nož | knife
-- salveta | napkin
-- obrok | meal
-- predjelo | starter
-- glavno jelo | main course
-- desert | dessert
-- porcija | portion
-- napojnica | tip
-- naručiti → naručim | to order
-- platiti → platim | to pay
-- dijeliti → dijelim | to share
-- dijeta | diet
-- Dobar tek! | Enjoy your meal!
-- Račun, molim. | The bill, please.
+info: Die Dinge auf einem Restauranttisch, die Verben rund um eine Mahlzeit und zwei Wendungen. *Dobar tek!* sagt man, bevor jemand zu essen anfängt, und *Račun, molim.* ist das Ende der Mahlzeit: Am Anfang *naručiti*, am Ende *platiti*. *Platiti* ist das einmalige *die Rechnung bezahlen*; *plaćati* aus Wortschatz 5 ist bezahlen allgemein.
+infokratko: Tischwörter. *Dobar tek!* vor dem Essen, *Račun, molim.* am Ende. *naručiti* bestellen, *platiti* bezahlen.
+opis: Alles von der Speisekarte bis zum Trinkgeld. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- jelovnik | Speisekarte
+- tanjur | Teller
+- čaša | Glas
+- šalica | Tasse
+- žlica | Löffel
+- vilica | Gabel
+- nož | Messer
+- salveta | Serviette
+- obrok | Mahlzeit
+- predjelo | Vorspeise
+- glavno jelo | Hauptgericht
+- desert | Nachtisch
+- porcija | Portion
+- napojnica | Trinkgeld
+- naručiti → naručim | bestellen
+- platiti → platim | bezahlen
+- dijeliti → dijelim | teilen
+- dijeta | Diät
+- Dobar tek! | Guten Appetit!
+- Račun, molim. | Die Rechnung, bitte.
 
-## Negation & more
+## Verneinung & mehr
 format: kartice
-info: The words for saying no, and for what you won't eat. The negative words start with **ni-** and always keep *ne* on the verb: *Ništa ne jedem.* Their positive twins start with **ne-** and take no *ne*: *Nešto jedem.* *Nikad* (never) you know from Vocabulary 3; it works the same way. *Nego* is used only after a negative, to correct it: *Ne jedem meso, nego ribu.*
-infokratko: **ni-** words keep *ne*: *Ništa ne jedem.* **ne-** words don't: *Nešto jedem.* *nego* after a negative.
-opis: The complete toolkit for saying no. Tap a card to reveal the meaning.
-- ništa | nothing
-- nitko → nikoga | nobody
-- nigdje | nowhere
-- nijedan / nijedna / nijedno | not a single one
-- ni · ni… ni… | not even · neither… nor…
-- nego | but (rather), after a negative
-- nešto | something
-- netko → nekoga | somebody
-- negdje | somewhere
-- nekad | sometimes, at some time
-- više ne | no longer
-- još ne | not yet
-- uopće | at all
-- nažalost | unfortunately
-- također | also, too
-- samo | only
-- mrziti → mrzim | to hate
-- željeti → želim | to want, to wish
-- vegetarijanac / vegetarijanka | vegetarian
-- alergičan / alergična | allergic
+info: Die Wörter zum Neinsagen und für das, was du nicht isst. Die Verneinungswörter beginnen mit **ni-** und behalten immer *ne* am Verb: *Ništa ne jedem.* Ihre bejahten Zwillinge beginnen mit **ne-** und nehmen kein *ne*: *Nešto jedem.* *Nikad* (nie) kennst du aus Wortschatz 3; es funktioniert genauso. *Nego* steht nur nach einer Verneinung, um sie zu korrigieren: *Ne jedem meso, nego ribu.*
+infokratko: **ni-**-Wörter behalten *ne*: *Ništa ne jedem.* **ne-**-Wörter nicht: *Nešto jedem.* *nego* nach einer Verneinung.
+opis: Das komplette Werkzeug zum Neinsagen. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- ništa | nichts
+- nitko → nikoga | niemand
+- nigdje | nirgends
+- nijedan / nijedna / nijedno | kein einziger
+- ni · ni… ni… | nicht einmal · weder … noch …
+- nego | sondern (nach einer Verneinung)
+- nešto | etwas
+- netko → nekoga | jemand
+- negdje | irgendwo
+- nekad | manchmal, irgendwann
+- više ne | nicht mehr
+- još ne | noch nicht
+- uopće | überhaupt
+- nažalost | leider
+- također | auch
+- samo | nur
+- mrziti → mrzim | hassen
+- željeti → želim | wünschen, wollen
+- vegetarijanac / vegetarijanka | Vegetarier
+- alergičan / alergična | allergisch
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Half of these are food and half are things on the table. Every one of them can be refused in one sentence: *Ne jedem kupus.* A feminine word takes **-u**: *Nemam žlicu.*
-infokratko: Refuse in one sentence: *Ne jedem kupus.* Feminine **-u**: *Nemam žlicu.*
+info: Bild-Wort-Zuordnung, ohne Deutsch auf der Seite. Die Hälfte ist Essen und die Hälfte sind Dinge auf dem Tisch. Jedes davon lässt sich in einem Satz ablehnen: *Ne jedem kupus.* Ein feminines Wort nimmt **-u**: *Nemam žlicu.*
+infokratko: Ablehnen in einem Satz: *Ne jedem kupus.* Feminin **-u**: *Nemam žlicu.*
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- palačinke | pancakes
-- kupus | cabbage
+- palačinke | Pfannkuchen
+- kupus | Kohl
 - džem | Marmelade
-- trešnja | cherry
-- orah | walnut
-- grožđe | grapes
-- sol | salt
-- tanjur | plate
-- žlica | spoon
-- nož | knife
-- čaša | glass
-- šalica | cup
+- trešnja | Kirsche
+- orah | Walnuss
+- grožđe | Weintrauben
+- sol | Salz
+- tanjur | Teller
+- žlica | Löffel
+- nož | Messer
+- čaša | Glas
+- šalica | Tasse
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Nouns go in their naming form, *gljive* in the plural, the adjectives in the masculine and the verb as an infinitive. The diacritics are full letters: *šunka* has **š**, *češnjak* has **č** and the single letter **nj**, *ništa* has **š**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once: naming form, masculine, infinitive. Diacritics count: *šunka, češnjak, ništa*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Nomen in ihrer Benennungsform, *gljive* im Plural, die Adjektive im Maskulinum und das Verb als Infinitiv. Die diakritischen Zeichen sind vollwertige Buchstaben: *šunka* hat **š**, *češnjak* hat **č** und den einzelnen Buchstaben **nj**, *ništa* hat **š**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal: Benennungsform, Maskulinum, Infinitiv. Diakritische Zeichen zählen: *šunka, češnjak, ništa*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- chicken (meat) | piletina
-- beef | govedina
-- ham | šunka
-- sausage | kobasica
-- garlic | češnjak
-- cucumber | krastavac
-- mushrooms | gljive
-- honey | med
-- butter | maslac
-- salty | slan
+- Hähnchen (Fleisch) | piletina
+- Rindfleisch | govedina
+- Schinken | šunka
+- Wurst | kobasica
+- Knoblauch | češnjak
+- Gurke | krastavac
+- Pilze | gljive
+- Honig | med
+- Butter | maslac
+- salzig | slan
 - bitter | gorak
-- napkin | salveta
-- nothing | ništa
-- nobody | nitko
-- to order | naručiti
+- Serviette | salveta
+- nichts | ništa
+- niemand | nitko
+- bestellen | naručiti
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–11, half and half. The tastes come in pairs you can picture — *sladak* and *kiseo*, *ljut* and *bljutav* — and *nigdje* and *nešto* show the two families: **ni-** is the negative, **ne-** the positive.
-infokratko: New and old words against the clock. *sladak / kiseo*, *ljut / bljutav*; **ni-** no, **ne-** some.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Wortschatz 1–11, halb und halb. Die Geschmäcker kommen in Paaren, die man sich vorstellen kann – *sladak* und *kiseo*, *ljut* und *bljutav* –, und *nigdje* und *nešto* zeigen die zwei Familien: **ni-** ist das Verneinte, **ne-** das Bejahte.
+infokratko: Neue und alte Wörter gegen die Uhr. *sladak / kiseo*, *ljut / bljutav*; **ni-** nein, **ne-** etwas.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- kiseo | sour
+- kiseo | sauer
 - sladak | süß
-- ljut | spicy
-- koštati | to cost
-- bljutav | bland
-- geografija | geography
-- sirov | raw
-- akcija | action film
-- nigdje | nowhere
+- ljut | scharf
+- koštati | kosten
+- bljutav | fade
+- geografija | Erdkunde
+- sirov | roh
+- akcija | Actionfilm
+- nigdje | nirgends
 - sladoled | Eis
-- nešto | something
+- nešto | etwas
 - radio | Radio
-- nažalost | unfortunately
+- nažalost | leider
 - kolega | Kollege
-- obrok | meal
-- glasno | loudly
-- tjestenina | pasta
-- fotografija | photography
-- kušati | to taste
-- biti | to be
+- obrok | Mahlzeit
+- glasno | laut
+- tjestenina | Nudeln
+- fotografija | Fotografie
+- kušati | probieren, kosten
+- biti | sein
 
-## nijedan, nijedna or nijedno?
+## nijedan, nijedna oder nijedno?
 format: razvrstavanje
-info: Sorting nouns by the form of *nijedan* they take, and the last letter of the noun is your guide. A consonant takes **nijedan** (*nijedan tanjur*, *nijedan vozač*), **-a** takes **nijedna** (*nijedna žlica*, *nijedna soba*), **-o** or **-e** takes **nijedno** (*nijedno predjelo*, *nijedno sunce*). It is the same pattern as *koji, koja, koje* from Vocabulary 11. In a sentence the verb keeps its *ne*: *Nijedan nož ne reže.*
-infokratko: Consonant **nijedan**, **-a** **nijedna**, **-o/-e** **nijedno**: *nijedan tanjur, nijedna žlica, nijedno sunce*.
-opis: Which form of *not a single one* does each noun take? The last letter of the noun decides.
+info: Nomen nach der Form von *nijedan* sortieren, die sie nehmen, und der letzte Buchstabe des Nomens ist dein Wegweiser. Ein Konsonant nimmt **nijedan** (*nijedan tanjur*, *nijedan vozač*), **-a** nimmt **nijedna** (*nijedna žlica*, *nijedna soba*), **-o** oder **-e** nimmt **nijedno** (*nijedno predjelo*, *nijedno sunce*). Das ist dasselbe Muster wie *koji, koja, koje* aus Wortschatz 11. Im Satz behält das Verb sein *ne*: *Nijedan nož ne reže.*
+infokratko: Konsonant **nijedan**, **-a** **nijedna**, **-o/-e** **nijedno**: *nijedan tanjur, nijedna žlica, nijedno sunce*.
+opis: Welche Form von *kein einziger* nimmt jedes Nomen? Der letzte Buchstabe des Nomens entscheidet.
 stupci: NIJEDAN | NIJEDNA | NIJEDNO
 - tanjur | NIJEDAN
 - jelovnik | NIJEDAN
@@ -196,18 +196,18 @@ stupci: NIJEDAN | NIJEDNA | NIJEDNO
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Nouns go in their naming form (*hlače* is always plural), adjectives in the masculine and verbs as infinitives. The diacritics count as always: *sočan* with **č**, *kći* with **ć**, *uopće* with **ć**, *hlače* with **č**.
-infokratko: Mixed final round. Naming form, masculine, infinitive. Diacritics count: *sočan, kći, uopće*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren. Nomen in ihrer Benennungsform (*hlače* immer im Plural), Adjektive im Maskulinum und Verben als Infinitive. Die diakritischen Zeichen zählen wie immer: *sočan* mit **č**, *kći* mit **ć**, *uopće* mit **ć**, *hlače* mit **č**.
+infokratko: Gemischte Schlussrunde. Benennungsform, Maskulinum, Infinitiv. Diakritische Zeichen zählen: *sočan, kći, uopće*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
 - Fisch | riba
-- peas | grašak
+- Erbsen | grašak
 - waschen | prati
-- juicy | sočan
+- saftig | sočan
 - Tochter | kći
-- dessert | desert
-- to hear | čuti
-- somewhere | negdje
-- trousers | hlače
-- at all | uopće
-- camera | fotoaparat
-- to hate | mrziti
+- Nachtisch | desert
+- hören | čuti
+- irgendwo | negdje
+- Hose | hlače
+- überhaupt | uopće
+- Kamera | fotoaparat
+- hassen | mrziti

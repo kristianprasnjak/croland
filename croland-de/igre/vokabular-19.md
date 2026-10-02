@@ -1,83 +1,83 @@
-# Stories & Events
+# Geschichten & Ereignisse
 cjelina: Vocabulary 19
 
-## Verb twins (process → done)
+## Verbzwillinge (Ablauf → fertig)
 format: kartice
-info: The heart of this level: almost every verb has a twin. The first verb on each card is one you know; it tells the **process**, the doing (*pisati*, to be writing). The second is its new twin; it tells that the job got **done** (*napisati*, to get it written). Most twins are made with a prefix: **na-** (*napisati, naučiti, nacrtati*), **po-** (*popiti, pojesti, pogledati, poslati*), **pro-** (*pročitati*), **s-** (*skuhati*), **o-** (*oprati, očistiti*). Some pairs change the ending instead: *odgovarati → odgovoriti*, *završavati → završiti*, *nastavljati → nastaviti*, *objašnjavati → objasniti*; and *kupovati → kupiti*, *počinjati → početi* are two different shapes. The *ja*-form of a done twin sounds like a present, but it talks about the finish: *napišem, pročitam, popijem, pojedem, kupim, pošaljem, počnem*.
-infokratko: Known verb = process (*pisati*), new twin = done (*napisati*). Prefixes **na-, po-, pro-, s-, o-**; or a new ending: *završavati → završiti*.
-opis: Eighteen pairs: the process verb, then its "done" twin. Tap a card to reveal the meaning.
-- pisati → napisati | write → finish writing
-- čitati → pročitati | read → read through
-- piti → popiti | drink → drink up
-- jesti → pojesti | eat → eat up
-- učiti → naučiti | study → learn
-- gledati → pogledati | watch → take a look
-- kupovati → kupiti | shop for → buy
-- slati → poslati | send → send off
-- kuhati → skuhati | cook → get it cooked
-- crtati → nacrtati | draw → finish drawing
-- prati → oprati | wash → get it washed
-- čistiti → očistiti | clean → clean up
-- odgovarati → odgovoriti | answer → give an answer
-- završavati → završiti | be finishing → finish
-- dovršavati → dovršiti | be finishing off → finish off
-- počinjati → početi | be starting → start
-- nastavljati → nastaviti | keep going → continue
-- objašnjavati → objasniti | be explaining → explain
+info: Das Herz dieser Stufe: Fast jedes Verb hat einen Zwilling. Das erste Verb auf jeder Karte kennst du; es erzählt den **Ablauf**, das Tun (*pisati*, am Schreiben sein). Das zweite ist sein neuer Zwilling; es sagt, dass die Arbeit **fertig** ist (*napisati*, fertig schreiben). Die meisten Zwillinge werden mit einer Vorsilbe gebildet: **na-** (*napisati, naučiti, nacrtati*), **po-** (*popiti, pojesti, pogledati, poslati*), **pro-** (*pročitati*), **s-** (*skuhati*), **o-** (*oprati, očistiti*). Einige Paare ändern stattdessen die Endung: *odgovarati → odgovoriti*, *završavati → završiti*, *nastavljati → nastaviti*, *objašnjavati → objasniti*; und *kupovati → kupiti*, *počinjati → početi* haben zwei verschiedene Formen. Die *ja*-Form eines Fertig-Zwillings klingt wie ein Präsens, spricht aber vom Abschluss: *napišem, pročitam, popijem, pojedem, kupim, pošaljem, počnem*.
+infokratko: Bekanntes Verb = Ablauf (*pisati*), neuer Zwilling = fertig (*napisati*). Vorsilben **na-, po-, pro-, s-, o-**; oder eine neue Endung: *završavati → završiti*.
+opis: Achtzehn Paare: das Ablaufverb, dann sein „fertig“-Zwilling. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- pisati → napisati | schreiben → fertig schreiben
+- čitati → pročitati | lesen → durchlesen
+- piti → popiti | trinken → austrinken
+- jesti → pojesti | essen → aufessen
+- učiti → naučiti | lernen → erlernen
+- gledati → pogledati | schauen → anschauen
+- kupovati → kupiti | einkaufen → kaufen
+- slati → poslati | schicken → abschicken
+- kuhati → skuhati | kochen → fertig kochen
+- crtati → nacrtati | zeichnen → fertig zeichnen
+- prati → oprati | waschen → fertig waschen
+- čistiti → očistiti | putzen → sauber machen
+- odgovarati → odgovoriti | antworten → eine Antwort geben
+- završavati → završiti | am Beenden sein → beenden
+- dovršavati → dovršiti | am Abschließen sein → abschließen
+- počinjati → početi | am Anfangen sein → anfangen
+- nastavljati → nastaviti | weitermachen → fortsetzen
+- objašnjavati → objasniti | am Erklären sein → erklären
 
-## Time signals & more
+## Zeitsignale & mehr
 format: kartice
-info: Little words tell you which twin to pick. **napokon** (finally), **odjednom** (suddenly), **jednom** (once) and **dva puta** (twice) point to the done twin: *Napokon je napisao pismo!* Known words do the same job: *odmah, za dvije minute*. On the process side stand *polako, dugo, cijeli dan, svaki dan*. **skoro** means almost: *Skoro! Napisao sam pola.* **već** is already, **opet** again, **upravo** just (right now), **usput** along the way. Then the words from Marko's homework and letter: **stranica, lektira** (the book the school tells you to read), **marka** (a stamp for the letter), **rečenica, bilježnica, zadatak**. **gotov** means finished, ready: *Sve je gotovo.*
-infokratko: *napokon, odjednom, jednom, dva puta* → done twin. *polako, dugo, cijeli dan* → process twin. *gotov* = finished, ready.
-opis: Time signals, school words and a few more. Tap a card to reveal the meaning.
-- napokon | finally
-- skoro | almost
-- opet | again
-- jednom → dva puta | once → twice
-- usput | along the way
-- upravo | just, right now
-- već | already
-- odjednom | suddenly
-- trenutak | moment
-- stranica | page
-- lektira | assigned reading
-- marka | stamp
-- rečenica | sentence
-- bilježnica | notebook
-- zadatak | task
-- razlika | difference
-- važan | important
-- gotov | finished, ready
+info: Kleine Wörter sagen dir, welchen Zwilling du wählen sollst. **napokon** (endlich), **odjednom** (plötzlich), **jednom** (einmal) und **dva puta** (zweimal) zeigen auf den Fertig-Zwilling: *Napokon je napisao pismo!* Bekannte Wörter tun dasselbe: *odmah, za dvije minute*. Auf der Ablauf-Seite stehen *polako, dugo, cijeli dan, svaki dan*. **skoro** heißt fast: *Skoro! Napisao sam pola.* **već** ist schon, **opet** wieder, **upravo** gerade (eben jetzt), **usput** nebenbei. Dann die Wörter aus Markos Hausaufgaben und Brief: **stranica, lektira** (das Buch, das die Schule dir zu lesen aufgibt), **marka** (eine Briefmarke), **rečenica, bilježnica, zadatak**. **gotov** heißt fertig: *Sve je gotovo.*
+infokratko: *napokon, odjednom, jednom, dva puta* → Fertig-Zwilling. *polako, dugo, cijeli dan* → Ablauf-Zwilling. *gotov* = fertig.
+opis: Zeitsignale, Schulwörter und ein paar mehr. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- napokon | endlich
+- skoro | fast
+- opet | wieder
+- jednom → dva puta | einmal → zweimal
+- usput | nebenbei, unterwegs
+- upravo | gerade, eben jetzt
+- već | schon
+- odjednom | plötzlich
+- trenutak | Moment, Augenblick
+- stranica | Seite
+- lektira | Pflichtlektüre
+- marka | Briefmarke
+- rečenica | Satz
+- bilježnica | Heft
+- zadatak | Aufgabe
+- razlika | Unterschied
+- važan | wichtig
+- gotov | fertig
 
-## Ten verbs & race words
+## Zehn Verben & Wettkampfwörter
 format: kartice
-info: Ten verbs with their *ja*-form. Four are built on *pisati*, but the prefix changes the meaning, so they are new verbs, not twins: **opisati** (to describe), **potpisati** (to sign), **zapisati** (to note down), **prepisati** (to copy out). *pričati* (to chat) gets a new meaning in **ispričati**: to tell a whole story. **sjetiti se** keeps its **se**: *Sjetim se.* Watch the sounds: *plakati → plačem*, *brisati → brišem*. Last come the words of a race, where process and done meet: the **start**, the **sprint**, the **finiš**, the **rezultat**, and with luck a **pobjeda** and a **medalja**. A **maraton** is the best picture of the process twin.
-infokratko: Infinitive → *ja*-form: *plakati → plačem*. *opisati, potpisati, zapisati, prepisati* are new verbs, not twins. Race words: *start, finiš, rezultat, pobjeda*.
-opis: Ten verbs and eight words from the race track. Tap a card to reveal the meaning.
-- plakati → plačem | to cry
-- brisati → brišem | to erase
-- odlučiti → odlučim | to decide
-- sjetiti se → sjetim se | to remember
-- ispričati → ispričam | to tell (a story)
-- napraviti → napravim | to make, to do
-- opisati → opišem | to describe
-- potpisati → potpišem | to sign
-- zapisati → zapišem | to note down
-- prepisati → prepišem | to copy out
-- maraton | marathon
-- sprint | sprint
-- start | start
-- finiš | finish (of a race)
-- proces | process
-- rezultat | result
-- pobjeda | victory
-- medalja | medal
+info: Zehn Verben mit ihrer *ja*-Form. Vier sind auf *pisati* aufgebaut, aber die Vorsilbe ändert die Bedeutung, also sind es neue Verben, keine Zwillinge: **opisati** (beschreiben), **potpisati** (unterschreiben), **zapisati** (aufschreiben), **prepisati** (abschreiben) – wie im Deutschen *beschreiben, unterschreiben, aufschreiben*. *pričati* (plaudern) bekommt in **ispričati** eine neue Bedeutung: eine ganze Geschichte erzählen. **sjetiti se** behält sein **se**: *Sjetim se.* Achte auf die Laute: *plakati → plačem*, *brisati → brišem*. Zuletzt kommen die Wörter eines Rennens, wo Ablauf und Fertig sich treffen: der **start**, der **sprint**, der **finiš**, der **rezultat** und mit Glück eine **pobjeda** und eine **medalja**. Ein **maraton** ist das beste Bild für den Ablauf-Zwilling.
+infokratko: Infinitiv → *ja*-Form: *plakati → plačem*. *opisati, potpisati, zapisati, prepisati* sind neue Verben, keine Zwillinge. Wettkampfwörter: *start, finiš, rezultat, pobjeda*.
+opis: Zehn Verben und acht Wörter von der Rennstrecke. Tippe auf eine Karte, um die Bedeutung zu sehen.
+- plakati → plačem | weinen
+- brisati → brišem | löschen, wegwischen
+- odlučiti → odlučim | entscheiden
+- sjetiti se → sjetim se | sich erinnern
+- ispričati → ispričam | erzählen
+- napraviti → napravim | machen, erledigen
+- opisati → opišem | beschreiben
+- potpisati → potpišem | unterschreiben
+- zapisati → zapišem | aufschreiben, notieren
+- prepisati → prepišem | abschreiben
+- maraton | Marathon
+- sprint | Sprint
+- start | Start
+- finiš | Ziel, Zieleinlauf
+- proces | Prozess, Ablauf
+- rezultat | Ergebnis
+- pobjeda | Sieg
+- medalja | Medaille
 
-## Match the pairs (twins)
+## Ordne die Paare zu (Zwillinge)
 format: parovi
-info: Twelve pairs from the first page. Find the done twin for each process verb. The prefix is usually the clue: *na-, po-, pro-, s-*. Two pairs change the ending: *nastavljati → nastaviti*, and *počinjati → početi* changes almost the whole word. Say both aloud: *Pisao sam... Napisao sam!*
-infokratko: Process verb ↔ done twin. Look for the prefix: *pisati → napisati*.
-opis: Pair the twins: process with its "done" version.
+info: Zwölf Paare von der ersten Seite. Finde für jedes Ablaufverb den Fertig-Zwilling. Die Vorsilbe ist meist der Hinweis: *na-, po-, pro-, s-*. Zwei Paare ändern die Endung: *nastavljati → nastaviti*, und *počinjati → početi* ändert fast das ganze Wort. Sag beide laut: *Pisao sam... Napisao sam!*
+infokratko: Ablaufverb ↔ Fertig-Zwilling. Such die Vorsilbe: *pisati → napisati*.
+opis: Bilde die Zwillingspaare: Ablauf mit seiner „fertig“-Version.
 - pisati | napisati
 - čitati | pročitati
 - piti | popiti
@@ -93,56 +93,56 @@ opis: Pair the twins: process with its "done" version.
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Verbs go in as an infinitive (*napisati*, not *napišem*). When the English says "finish" or "up", it asks for the done twin: *to drink up* is *popiti*, not *piti*. The diacritics are full letters: *plakati* is plain, but *pročitati* has **č** and *već* has **ć**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once, as an infinitive. "finish", "up", "through" = the done twin. Diacritics count: *pročitati, već*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Verben im Infinitiv (*napisati*, nicht *napišem*). Wenn das Deutsche „fertig“, „auf-“, „aus-“ oder „durch-“ sagt, ist der Fertig-Zwilling gefragt: *austrinken* ist *popiti*, nicht *piti*. Die diakritischen Zeichen sind vollwertige Buchstaben: *plakati* ist schlicht, aber *pročitati* hat **č** und *već* hat **ć**. Das ist die einzige Seite nur mit neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Schreib jedes neue Wort einmal, im Infinitiv. „fertig“, „auf-“, „aus-“, „durch-“ = der Fertig-Zwilling. Diakritische Zeichen zählen: *pročitati, već*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- to finish writing | napisati
-- to drink up | popiti
-- to eat up | pojesti
-- to read through | pročitati
-- to cry | plakati
-- to erase | brisati
-- to decide | odlučiti
-- to describe | opisati
-- to sign | potpisati
-- finally | napokon
-- already | već
-- moment | trenutak
-- page | stranica
-- sentence | rečenica
-- notebook | bilježnica
+- fertig schreiben | napisati
+- austrinken | popiti
+- aufessen | pojesti
+- durchlesen | pročitati
+- weinen | plakati
+- löschen, wegwischen | brisati
+- entscheiden | odlučiti
+- beschreiben | opisati
+- unterschreiben | potpisati
+- endlich | napokon
+- schon | već
+- Moment, Augenblick | trenutak
+- Seite | stranica
+- Satz | rečenica
+- Heft | bilježnica
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–18, half and half. Time signals sit next to words you already know, like *jučer, sin, gitara*. Watch **šutjeti** and **sjediti**: they look alike, but *šutjeti* is to be silent and *sjediti* is to sit. And **skoro** is almost, while **upravo** is just, right now.
-infokratko: New and old words against the clock. *šutjeti* to be silent, *sjediti* to sit.
+info: Zeitgebundenes Wiedererkennen der heutigen Wörter, halb und halb gemischt mit Wörtern aus Wortschatz 1–18. Zeitsignale stehen neben Wörtern, die du schon kennst, wie *jučer, sin, gitara*. Achte auf **šutjeti** und **sjediti**: Sie sehen sich ähnlich, aber *šutjeti* heißt schweigen und *sjediti* sitzen. Und **skoro** ist fast, während **upravo** gerade, eben jetzt heißt.
+infokratko: Neue und alte Wörter gegen die Uhr. *šutjeti* schweigen, *sjediti* sitzen.
 trajanje: 60
-opis: A Croatian word appears. Tap its English meaning before the timer runs out!
-- napokon | finally
-- jučer | yesterday
-- skoro | almost
+opis: Ein kroatisches Wort erscheint. Tippe seine deutsche Bedeutung, bevor die Zeit abläuft!
+- napokon | endlich
+- jučer | gestern
+- skoro | fast
 - šutjeti | schweigen
-- odjednom | suddenly
-- koljeno | knee
-- usput | along the way
+- odjednom | plötzlich
+- koljeno | Knie
+- usput | nebenbei, unterwegs
 - crn | schwarz
-- upravo | just, right now
-- desert | dessert
-- opet | again
-- bombon | candy
-- pogledati | to take a look
-- bez | without
-- ispričati | to tell (a story)
+- upravo | gerade, eben jetzt
+- desert | Nachtisch
+- opet | wieder
+- bombon | Bonbon
+- pogledati | anschauen, einen Blick werfen
+- bez | ohne
+- ispričati | erzählen
 - gitara | Gitarre
-- prepisati | to copy out
+- prepisati | abschreiben
 - crven | rot
-- sjetiti se | to remember
+- sjetiti se | sich erinnern
 - sjediti | sitzen
 
 ## Nach Genus sortieren
 format: razvrstavanje
-info: Sort nouns into masculine and feminine by the last letter, the rule from Grammar 1: a consonant is masculine (*maraton*, *sin*), **-a** is feminine (*stranica*, *lopta*). The gender shows up in the past tense, too: *Rezultat je napokon došao*, but *Pobjeda je napokon došla*. None of today's nouns is neuter, so there are only two columns. *zadatak* and *trenutak* lose their second **a** in other forms (*zadatka*), but the naming form still ends in a consonant.
-infokratko: Consonant = masculine (*maraton*), **-a** = feminine (*stranica*). *Rezultat je došao, pobjeda je došla.*
+info: Sortiere Substantive nach dem letzten Buchstaben in maskulin und feminin, die Regel aus Grammatik 1: Ein Konsonant ist maskulin (*maraton*, *sin*), **-a** ist feminin (*stranica*, *lopta*). Das Genus zeigt sich auch in der Vergangenheit: *Rezultat je napokon došao*, aber *Pobjeda je napokon došla*. Keins der heutigen Substantive ist neutral, also gibt es nur zwei Spalten. *zadatak* und *trenutak* verlieren in anderen Formen ihr zweites **a** (*zadatka*), aber die Grundform endet trotzdem auf einen Konsonanten.
+infokratko: Konsonant = maskulin (*maraton*), **-a** = feminin (*stranica*). *Rezultat je došao, pobjeda je došla.*
 stupci: maskulin | feminin
 opis: Schau auf den letzten Buchstaben jedes Wortes und zieh es in die richtige Spalte.
 - maraton | maskulin
@@ -164,18 +164,18 @@ opis: Schau auf den letzten Buchstaben jedes Wortes und zieh es in die richtige 
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Nouns and adjectives go in their naming form and verbs as infinitives. **dnevni boravak** is two words, with a space. The diacritics count as always: *važan* has **ž**, and *Hrvatica* starts with a capital letter, like every nationality.
-infokratko: Mixed final round. Naming form, infinitive. *dnevni boravak* is two words. Diacritics count: *važan*.
-opis: The final challenge: type each word in Croatian. Remember: Croatian is written exactly as it sounds.
-- stamp | marka
-- living room | dnevni boravak
-- important | važan
-- flour | brašno
-- difference | razlika
-- to arrange | dogovoriti
-- assigned reading | lektira
+info: Die letzte Schreibrunde mischt die heutigen Wörter mit älteren. Substantive und Adjektive in der Grundform und Verben im Infinitiv. **dnevni boravak** sind zwei Wörter, mit Leerzeichen. Die diakritischen Zeichen zählen wie immer: *važan* hat **ž**, und *Hrvatica* beginnt mit einem Großbuchstaben, wie jede Nationalität.
+infokratko: Gemischte Schlussrunde. Grundform, Infinitiv. *dnevni boravak* sind zwei Wörter. Diakritische Zeichen zählen: *važan*.
+opis: Die letzte Herausforderung: Schreib jedes Wort auf Kroatisch. Denk daran: Kroatisch wird genau so geschrieben, wie es klingt.
+- Briefmarke | marka
+- Wohnzimmer | dnevni boravak
+- wichtig | važan
+- Mehl | brašno
+- Unterschied | razlika
+- vereinbaren, abmachen | dogovoriti
+- Pflichtlektüre | lektira
 - Kroatin | Hrvatica
-- once | jednom
+- einmal | jednom
 - Text | tekst
-- to note down | zapisati
-- pie | pita
+- aufschreiben, notieren | zapisati
+- Pita (gefüllter Teigkuchen) | pita

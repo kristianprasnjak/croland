@@ -1,22 +1,22 @@
-# The Perfect Present: Asking Questions
+# Das perfekte Geschenk: Fragen stellen
 cjelina: Lesson 11
 
-## Time to ask
+## Zeit zu fragen
 format: tekst
-info: A short read to open the lesson. Croatian asks a question with no helper word: there is no equivalent of English *do*, so *Što kupuješ?* is the whole question. You already own one way of asking — *li* from Lesson 5 — and today the rest of the set arrives.
-infokratko: No *do* in Croatian questions: *Što kupuješ?* is the whole question.
-opis: Read it through — by the end you can ask about anything.
-- So far you've mostly been *telling* — now you'll start *asking*. Today's mission: buy the perfect birthday present. To do that, you need questions: *What does she like? Who is it for? How much does it cost?*
-- **Croatian needs no helper word.** English builds a question with *do*: *what **do** you buy?* Croatian puts the question word in front of the ordinary present tense and stops there: *Što kupuješ?*
-- **You already ask one kind of question.** In Lesson 5 you learned *li* — *Trebate li vrećicu?* — and Lesson 4 gave you six question words for reading. Today they come back to be used, with two more and the tag *zar ne?*
-- By the end of this lesson you can ask who, what, where, when, why, how, how much and which.
+info: Ein kurzer Text zum Einstieg. Das Kroatische fragt ohne Hilfswort – genau wie das Deutsche: *Što kupuješ?* ist die ganze Frage, wie *Was kaufst du?*. Eine Art zu fragen besitzt du schon – *li* aus Lektion 5 –, und heute kommt der Rest des Satzes.
+infokratko: Kein Hilfswort in kroatischen Fragen: *Što kupuješ?* ist die ganze Frage.
+opis: Lies es durch – am Ende kannst du nach allem fragen.
+- Bisher hast du meist *erzählt* – jetzt fängst du an zu *fragen*. Die heutige Mission: das perfekte Geburtstagsgeschenk kaufen. Dafür brauchst du Fragen: *Was mag sie? Für wen ist es? Wie viel kostet es?*
+- **Das Kroatische braucht kein Hilfswort.** Das Englische baut Fragen mit *do*; das Kroatische stellt – wie das Deutsche – das Fragewort vor das gewöhnliche Präsens, und das war's: *Što kupuješ?* – *Was kaufst du?*
+- **Eine Art Frage stellst du schon.** In Lektion 5 hast du *li* gelernt – *Trebate li vrećicu?* –, und Lektion 4 hat dir sechs Fragewörter zum Lesen gegeben. Heute kommen sie zurück, um benutzt zu werden, dazu zwei weitere und das Anhängsel *zar ne?*.
+- Am Ende dieser Lektion kannst du nach wer, was, wo, wann, warum, wie, wie viel und welcher fragen.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on the past tense from Lesson 10. The participle takes **-o** for a man, **-la** for a woman and **-li** for a group, while the form of *biti* comes from the person. Answer from the subject and the bracket.
-infokratko: Lesson 10 against the clock: **-o** he, **-la** she, **-li** group; *biti* from the person.
+info: Ein Aufwärmen auf Zeit mit der Vergangenheit aus Lektion 10. Das Partizip nimmt **-o** für einen Mann, **-la** für eine Frau und **-li** für eine Gruppe, während die Form von *biti* von der Person kommt. Antworte nach dem Subjekt und der Klammer.
+infokratko: Lektion 10 gegen die Uhr: **-o** er, **-la** sie, **-li** Gruppe; *biti* nach der Person.
 trajanje: 60
-opis: Past sprint from Lesson 10 — tap the correct participle before the timer runs out.
+opis: Vergangenheits-Sprint aus Lektion 10 – tippe auf das richtige Partizip, bevor die Zeit abläuft.
 - Ana je ___ (pjevati) | pjevala
 - Mi smo ___ film (gledati) | gledali
 - Marko je ___ kavu (piti) | pio
@@ -30,62 +30,62 @@ opis: Past sprint from Lesson 10 — tap the correct participle before the timer
 - Baka je ___ u nedjelju (doći) | došla
 - Naš klub je ___ (pobijediti) | pobijedio
 
-## The question words
+## Die Fragewörter
 format: kartice
-info: The full set. Most never change shape — *tko, što, gdje, kada, zašto, kako, koliko* — while *koji*, *kakav* and *čiji* take endings, because they stand in front of a noun. *Koga* is the target form of *tko*, the same **-a** you learned for living beings in Lesson 6.
-infokratko: *tko, što, gdje, kada, zašto, kako, koliko* never change. *koji, kakav, čiji* agree with the noun. *koga* = whom.
-opis: The words that open a question. Tap a card to reveal the meaning.
-- tko? | who?
-- koga? | whom? (as the target)
-- što? | what?
-- gdje? | where?
-- kada? | when?
-- zašto? | why?
-- kako? | how?
-- koliko? | how much, how many?
-- koji / koja / koje? | which?
-- kakav / kakva / kakvo? | what kind of?
-- čiji / čija / čije? | whose?
-- za koga? | for whom?
-- zar ne? | ...right? isn't it?
-- Ne znam. | I don't know.
+info: Der ganze Satz. Die meisten ändern nie ihre Gestalt – *tko, što, gdje, kada, zašto, kako, koliko* –, während *koji*, *kakav* und *čiji* Endungen nehmen, weil sie vor einem Nomen stehen. *Koga* ist die Zielform von *tko*, dasselbe **-a**, das du in Lektion 6 für Lebewesen gelernt hast – wie *wer → wen*.
+infokratko: *tko, što, gdje, kada, zašto, kako, koliko* ändern sich nie. *koji, kakav, čiji* stimmen mit dem Nomen überein. *koga* = wen.
+opis: Die Wörter, die eine Frage eröffnen. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- tko? | wer?
+- koga? | wen?
+- što? | was?
+- gdje? | wo?
+- kada? | wann?
+- zašto? | warum?
+- kako? | wie?
+- koliko? | wie viel, wie viele?
+- koji / koja / koje? | welcher?
+- kakav / kakva / kakvo? | was für ein?
+- čiji / čija / čije? | wessen?
+- za koga? | für wen?
+- zar ne? | … nicht wahr? oder?
+- Ne znam. | Ich weiß nicht.
 
-## Numbers 1–20
+## Zahlen 1–20
 format: kartice
-info: The numbers, and you need them for the two most common questions of all: *Koliko godina imaš?* and *Koliko košta?* The teens are built from the units — *jedan* plus *-naest* gives *jedanaest* — so once you have one to ten, the rest is nearly a pattern; *dvanaest*, *četrnaest* and *šesnaest* trim the unit a little.
-infokratko: Numbers 1–20: *Koliko godina imaš? Koliko košta?* Teens: *jedan + -naest → jedanaest*.
-opis: One to twenty, plus the round numbers you need for ages and prices.
-- jedan / jedna | one
-- dva / dvije | two
-- tri | three
-- četiri | four
-- pet | five
-- šest | six
-- sedam | seven
-- osam | eight
-- devet | nine
-- deset | ten
-- jedanaest | eleven
-- dvanaest | twelve
-- trinaest | thirteen
-- četrnaest | fourteen
-- petnaest | fifteen
-- šesnaest | sixteen
-- sedamnaest | seventeen
-- osamnaest | eighteen
-- devetnaest | nineteen
-- dvadeset | twenty
-- trideset | thirty
-- sto | a hundred
-- koštati → košta | to cost
-- Koliko košta? | How much does it cost?
-- Koliko godina imaš? | How old are you?
+info: Die Zahlen, und du brauchst sie für die zwei häufigsten Fragen überhaupt: *Koliko godina imaš?* und *Koliko košta?* Die Zehner bis zwanzig werden aus den Einern gebaut – *jedan* plus *-naest* ergibt *jedanaest*, wie *-zehn* im Deutschen –, wenn du also eins bis zehn hast, ist der Rest fast ein Muster; *dvanaest*, *četrnaest* und *šesnaest* kürzen den Einer ein bisschen.
+infokratko: Zahlen 1–20: *Koliko godina imaš? Koliko košta?* 11–19: *jedan + -naest → jedanaest*.
+opis: Eins bis zwanzig, plus die runden Zahlen, die du für Alter und Preise brauchst.
+- jedan / jedna | eins
+- dva / dvije | zwei
+- tri | drei
+- četiri | vier
+- pet | fünf
+- šest | sechs
+- sedam | sieben
+- osam | acht
+- devet | neun
+- deset | zehn
+- jedanaest | elf
+- dvanaest | zwölf
+- trinaest | dreizehn
+- četrnaest | vierzehn
+- petnaest | fünfzehn
+- šesnaest | sechzehn
+- sedamnaest | siebzehn
+- osamnaest | achtzehn
+- devetnaest | neunzehn
+- dvadeset | zwanzig
+- trideset | dreißig
+- sto | hundert
+- koštati → košta | kosten
+- Koliko košta? | Wie viel kostet das?
+- Koliko godina imaš? | Wie alt bist du?
 
-## Question match
+## Fragen zuordnen
 format: parovi
-info: Each question beside the answer it calls for. The answer is what identifies the question word: a name answers *tko*, a place answers *gdje*, a *jer*-clause answers *zašto*, and a number answers *koliko*.
-infokratko: The answer shows the word: name *tko*, place *gdje*, *jer* *zašto*, number *koliko*.
-opis: Match each question with its logical answer. Passive words: *u Splitu* (in Split), *ovaj* (this one).
+info: Jede Frage neben die Antwort, die sie verlangt. Die Antwort verrät das Fragewort: Ein Name antwortet auf *tko*, ein Ort auf *gdje*, ein *jer*-Satz auf *zašto* und eine Zahl auf *koliko*.
+infokratko: Die Antwort zeigt das Wort: Name *tko*, Ort *gdje*, *jer* *zašto*, Zahl *koliko*.
+opis: Ordne jeder Frage ihre logische Antwort zu. Passive Wörter: *u Splitu* (in Split), *ovaj* (dieser).
 - Tko je to? | To je Marko.
 - Što kupuješ? | Kupujem poklon.
 - Gdje je Ana? | Ana je u Splitu.
@@ -97,28 +97,28 @@ opis: Match each question with its logical answer. Passive words: *u Splitu* (in
 - Koji film gledamo? | Ovaj novi.
 - Čija je ovo gitara? | Moja.
 
-## The rule: the question word goes first
+## Die Regel: Das Fragewort kommt zuerst
 format: tekst
-info: The core rule, and it is shorter than the English one. Put the question word first, then the ordinary present tense — no *do*, no reordering, nothing else added. *Zašto* is answered with *jer*, and the answer may be that half alone.
-infokratko: Question word first, then the present, nothing added. *Zašto?* → *jer...*
+info: Die Kernregel, und sie ist dieselbe wie im Deutschen. Stell das Fragewort an den Anfang, dann das gewöhnliche Präsens – nichts weiter dazu. *Zašto* wird mit *jer* beantwortet, und die Antwort darf diese Hälfte allein sein.
+infokratko: Fragewort zuerst, dann das Präsens, nichts dazu. *Zašto?* → *jer …*
 infoodmah: da
-opis: One rule, no helper word. Read the table and say the last line out loud.
-- **Question word first, then the sentence you already know.**
-- tab: Statement | Question | English
-- tab: Kupuješ poklon. | **Što** kupuješ? | What are you buying?
-- tab: Ana je u Splitu. | **Gdje** je Ana? | Where is Ana?
-- tab: Rođendan je sutra. | **Kada** je rođendan? | When is the birthday?
-- tab: Volim šah. | **Zašto** voliš šah? | Why do you love chess?
-- **No word for "do".** English needs a helper to ask: *what **do** you buy?* Croatian adds nothing at all — the question word plus the present tense is the whole question.
-- **A *zašto* question is answered with *jer*,** and that half is a complete answer on its own: *Zašto voliš šah? — **Jer** je zanimljiv.*
-- **Three of them take endings.** *Koji*, *kakav* and *čiji* stand in front of a noun, so they copy it: *koj**i** film*, *kakv**a** kava*, *čij**e** pismo*. Grammar 11 drills that.
-- **Now you write them.** [Što] kupuješ? [Gdje] je Ana? [Zašto] voliš šah?
+opis: Eine Regel, kein Hilfswort. Lies die Tabelle und sag die letzte Zeile laut.
+- **Fragewort zuerst, dann der Satz, den du schon kennst.**
+- tab: Aussage | Frage | Deutsch
+- tab: Kupuješ poklon. | **Što** kupuješ? | Was kaufst du?
+- tab: Ana je u Splitu. | **Gdje** je Ana? | Wo ist Ana?
+- tab: Rođendan je sutra. | **Kada** je rođendan? | Wann ist der Geburtstag?
+- tab: Volim šah. | **Zašto** voliš šah? | Warum liebst du Schach?
+- **Kein Hilfswort.** Das Englische braucht zum Fragen ein *do*; das Kroatische fügt – wie das Deutsche – gar nichts hinzu: Fragewort plus Präsens ist die ganze Frage.
+- **Eine *zašto*-Frage wird mit *jer* beantwortet,** und diese Hälfte ist allein eine vollständige Antwort: *Zašto voliš šah? — **Jer** je zanimljiv.*
+- **Drei davon nehmen Endungen.** *Koji*, *kakav* und *čiji* stehen vor einem Nomen, also ahmen sie es nach: *koj**i** film*, *kakv**a** kava*, *čij**e** pismo* – wie *welcher, welche, welches*. Grammatik 11 übt das.
+- **Jetzt schreibst du.** [Što] kupuješ? [Gdje] je Ana? [Zašto] voliš šah?
 
-## Which kind of question?
+## Welche Art Frage?
 format: razvrstavanje
-info: Three ways to ask, sorted. A question word opens the first kind, *li* sits behind the verb in the second, and the third is an ordinary statement with *zar ne?* attached at the end.
-infokratko: Three kinds: question word first, verb + *li*, statement + *zar ne?*
-opis: Sort each question by the way it is built.
+info: Drei Arten zu fragen, sortiert. Ein Fragewort eröffnet die erste Art, *li* steht in der zweiten hinter dem Verb, und die dritte ist eine gewöhnliche Aussage mit angehängtem *zar ne?*.
+infokratko: Drei Arten: Fragewort zuerst, Verb + *li*, Aussage + *zar ne?*
+opis: Sortiere jede Frage danach, wie sie gebaut ist.
 stupci: UPITNA RIJEČ | LI | ZAR NE
 - Gdje je pošta? | UPITNA RIJEČ
 - Tko pjeva? | UPITNA RIJEČ
@@ -137,46 +137,46 @@ stupci: UPITNA RIJEČ | LI | ZAR NE
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap for the three question words that agree. They copy the noun that follows: a masculine noun gives the bare form or **-i**, a feminine noun **-a**, a neuter noun **-e** or **-o**. *Kakav* keeps its masculine form whole (*Kakav je film?*), so here it turns up only with feminine and neuter nouns. Two items ask about a target, where the feminine ending is **-u**: *Koj**u** knjigu čitaš?*
-infokratko: *koji / kakav / čiji* agree with the noun: m bare or **-i**, f **-a**, n **-e/-o**. Target f: *Koju knjigu čitaš?*
+info: Ein Tipp für die drei Fragewörter, die übereinstimmen. Sie ahmen das folgende Nomen nach: Ein maskulines Nomen ergibt die Grundform oder **-i**, ein feminines **-a**, ein neutrales **-e** oder **-o**. *Kakav* behält seine maskuline Form ganz (*Kakav je film?*), deshalb taucht es hier nur mit femininen und neutralen Nomen auf. Zwei Punkte fragen nach einem Ziel, wo die feminine Endung **-u** ist: *Koj**u** knjigu čitaš?*
+infokratko: *koji / kakav / čiji* stimmen mit dem Nomen überein: m Grundform oder **-i**, f **-a**, n **-e/-o**. Ziel f: *Koju knjigu čitaš?*
 nastavci: i | a | e | o | u
-opis: English above, Croatian below. One tap makes the question word match its noun.
-- Koj___ film gledamo? | Which film are we watching? | i
-- Koj___ knjigu čitaš? | Which book are you reading? | u
-- Koj___ pismo pišeš? | Which letter are you writing? | e
-- Čij___ je ovo dres? | Whose jersey is this? | i
-- Čij___ je ovo lopta? | Whose ball is this? | a
-- Čij___ je ovo koljeno? | Whose knee is this? | e
-- Kakv___ je kava? | What is the coffee like? | a
-- Kakv___ je more? | What is the sea like? | o
-- Koj___ je tvoja sestra? | Which one is your sister? | a
-- Čij___ je ovo gitara? | Whose guitar is this? | a
-- Koj___ vlak ide u Split? | Which train goes to Split? | i
-- Kakv___ je vrijeme danas? | What is the weather like today? | o
-- Čij___ su ovo knjige? | Whose books are these? | e
-- Koj___ pjesmu pjevaš? | Which song are you singing? | u
+opis: Oben Deutsch, unten Kroatisch. Ein Tipp lässt das Fragewort zu seinem Nomen passen.
+- Koj___ film gledamo? | Welchen Film schauen wir? | i
+- Koj___ knjigu čitaš? | Welches Buch liest du? | u
+- Koj___ pismo pišeš? | Welchen Brief schreibst du? | e
+- Čij___ je ovo dres? | Wessen Trikot ist das? | i
+- Čij___ je ovo lopta? | Wessen Ball ist das? | a
+- Čij___ je ovo koljeno? | Wessen Knie ist das? | e
+- Kakv___ je kava? | Wie ist der Kaffee? | a
+- Kakv___ je more? | Wie ist das Meer? | o
+- Koj___ je tvoja sestra? | Welche ist deine Schwester? | a
+- Čij___ je ovo gitara? | Wessen Gitarre ist das? | a
+- Koj___ vlak ide u Split? | Welcher Zug fährt nach Split? | i
+- Kakv___ je vrijeme danas? | Wie ist das Wetter heute? | o
+- Čij___ su ovo knjige? | Wessen Bücher sind das? | e
+- Koj___ pjesmu pjevaš? | Welches Lied singst du? | u
 
-## Build the question
+## Bau die Frage
 format: izbor
-info: Choosing the correctly built question. *Li* always stands directly behind the verb and never opens a sentence, and with *biti* the long forms come back: *jesi li*, *je li*, *jeste li*.
-infokratko: *li* right after the verb, never first. With *biti*: *jesi li, je li, jeste li*.
-opis: Choose the correct question.
-- Do you like fish? | Voliš li ribu? | Li voliš ribu?
-- Do you have a brother? | Imaš li brata? | Imaš brata li?
-- Is Ana at home? | Je li Ana doma? | Ana je li doma?
-- Are you a student? | Jesi li student? | Si li student?
-- Are you tired? | Jesi li umoran? | Si li umoran?
+info: Wähle die richtig gebaute Frage. *Li* steht immer direkt hinter dem Verb und eröffnet nie einen Satz, und bei *biti* kommen die langen Formen zurück: *jesi li*, *je li*, *jeste li*.
+infokratko: *li* direkt nach dem Verb, nie zuerst. Bei *biti*: *jesi li, je li, jeste li*.
+opis: Wähle die richtige Frage.
+- Magst du Fisch? | Voliš li ribu? | Li voliš ribu?
+- Hast du einen Bruder? | Imaš li brata? | Imaš brata li?
+- Ist Ana zu Hause? | Je li Ana doma? | Ana je li doma?
+- Bist du Student? | Jesi li student? | Si li student?
+- Bist du müde? | Jesi li umoran? | Si li umoran?
 - Seid ihr Touristen? | Jeste li turisti? | Ste li turisti?
-- Did you watch the film? | Jesi li gledao film? | Si li gledao film?
-- Are you going to the concert? | Ideš li na koncert? | Li ideš na koncert?
-- Is the film good? | Je li film dobar? | Film li je dobar?
-- Do you know? | Znaš li? | Li znaš?
+- Hast du den Film geschaut? | Jesi li gledao film? | Si li gledao film?
+- Gehst du zum Konzert? | Ideš li na koncert? | Li ideš na koncert?
+- Ist der Film gut? | Je li film dobar? | Film li je dobar?
+- Weißt du es? | Znaš li? | Li znaš?
 
-## Make a li-question
+## Bilde eine li-Frage
 format: upis
-info: Turning a statement into a yes-or-no question. Put *li* directly behind the verb and change nothing else — except with *biti*, where the short form grows back into *jesam, jesi, je, jesmo, jeste*.
-infokratko: Verb + *li*, nothing else changes: *Čitaš li?* With *biti*: *Jesi li...?*
-opis: Turn each statement into a *li* question.
+info: Aus einer Aussage eine Ja-Nein-Frage machen. Setz *li* direkt hinter das Verb und ändere sonst nichts – außer bei *biti*, wo die kurze Form wieder zu *jesam, jesi, je, jesmo, jeste* wächst.
+infokratko: Verb + *li*, sonst ändert sich nichts: *Čitaš li?* Bei *biti*: *Jesi li …?*
+opis: Mach aus jeder Aussage eine *li*-Frage.
 - Voliš čokoladu. → | Voliš li čokoladu
 - Imaš psa. → | Imaš li psa
 - Ana je doma. → | Je li Ana doma
@@ -188,26 +188,26 @@ opis: Turn each statement into a *li* question.
 - Znaš odgovor. → | Znaš li odgovor
 - Kupuješ poklon. → | Kupuješ li poklon
 
-## The rule: li, and the friendly tag
+## Die Regel: li und das freundliche Anhängsel
 format: tekst
-info: The second rule page, and mostly a reminder. *Li* is the yes-or-no question from Lesson 5: verb first, *li* second. With *biti* the long forms are used, and *zar ne?* turns any statement into a question without touching its word order.
-infokratko: Verb + *li*; long forms with *biti*. *zar ne?* turns any statement into a question.
-- You met **li** back in Lesson 5, at the shop counter: *Trebate **li** vrećicu?* The recipe has not changed — verb first, *li* second, nothing else moved.
-- tab: Statement | Question
+info: Die zweite Regelseite, und meist eine Erinnerung. *Li* ist die Ja-Nein-Frage aus Lektion 5: Verb zuerst, *li* an zweiter Stelle. Bei *biti* werden die langen Formen verwendet, und *zar ne?* macht aus jeder Aussage eine Frage, ohne ihre Wortstellung anzurühren.
+infokratko: Verb + *li*; lange Formen bei *biti*. *zar ne?* macht aus jeder Aussage eine Frage.
+- **li** hast du schon in Lektion 5 an der Ladentheke getroffen: *Trebate **li** vrećicu?* Das Rezept hat sich nicht geändert – Verb zuerst, *li* an zweiter Stelle, sonst nichts bewegt.
+- tab: Aussage | Frage
 - tab: Voliš čokoladu. | Voliš **li** čokoladu?
 - tab: Imaš psa. | Imaš **li** psa?
 - tab: Umoran si. | **Jesi li** umoran?
 - tab: To je poklon. | **Je li** to poklon?
-- **With *biti*, the long forms come back.** The short *sam, si, je* cannot carry a question, so Croatian uses *jesam, jesi, jesmo, jeste* instead — and for the third person the fixed pair **je li**: *Jesi li umoran? Je li to poklon?*
-- **The friendly tag.** Attach *zar ne?* to any statement and it becomes a question, with the sentence itself untouched: *Voliš glazbu, **zar ne**?*
-- **Answer by repeating the verb.** A bare *da* sounds abrupt: *Voliš li kavu? — **Volim**.* / *— **Ne volim**.* With *biti*: *Jesi li umoran? — **Nisam**.*
-- **Now you write them.** Voliš [li] čokoladu? [Jesi] li umoran? Lijepo je, [zar] ne?
+- **Bei *biti* kommen die langen Formen zurück.** Die kurzen *sam, si, je* können keine Frage tragen, also verwendet das Kroatische stattdessen *jesam, jesi, jesmo, jeste* – und für die dritte Person das feste Paar **je li**: *Jesi li umoran? Je li to poklon?*
+- **Das freundliche Anhängsel.** Häng *zar ne?* an eine beliebige Aussage, und sie wird zur Frage, wobei der Satz selbst unberührt bleibt – wie *…, oder?* oder *…, nicht wahr?*: *Voliš glazbu, **zar ne**?*
+- **Antworte, indem du das Verb wiederholst.** Ein bloßes *da* klingt schroff: *Voliš li kavu? — **Volim**.* / *— **Ne volim**.* Bei *biti*: *Jesi li umoran? — **Nisam**.*
+- **Jetzt schreibst du.** Voliš [li] čokoladu? [Jesi] li umoran? Lijepo je, [zar] ne?
 
-## Pick the question word
+## Wähle das Fragewort
 format: izbor
-info: The answer is your clue. A name calls for *tko*, a thing for *što*, a place for *gdje*, a time for *kada*, a reason for *zašto*, a number for *koliko*, and a description for *kakav*.
-infokratko: The answer is the clue: name *tko*, thing *što*, place *gdje*, time *kada*, reason *zašto*, number *koliko*.
-opis: Which question word fits? Read the answer first.
+info: Die Antwort ist dein Hinweis. Ein Name verlangt *tko*, eine Sache *što*, ein Ort *gdje*, eine Zeit *kada*, ein Grund *zašto*, eine Zahl *koliko* und eine Beschreibung *kakav*.
+infokratko: Die Antwort ist der Hinweis: Name *tko*, Sache *što*, Ort *gdje*, Zeit *kada*, Grund *zašto*, Zahl *koliko*.
+opis: Welches Fragewort passt? Lies zuerst die Antwort.
 - ___ je poslao poklon? — Baka! | Tko | Što | Gdje
 - ___ kupuješ? — Parfem. | Što | Tko | Kada
 - ___ živiš? — U Splitu. | Gdje | Zašto | Koliko
@@ -219,11 +219,11 @@ opis: Which question word fits? Read the answer first.
 - ___ je ovo lopta? — Moja. | Čija | Koja | Kakva
 - ___ čekaš? — Prijatelja. | Koga | Tko | Što
 
-## Type the question word
+## Tippe das Fragewort
 format: upis
-info: You type the word, with the answer given. Three need an ending that matches the noun — *koji*, *kakav* and *čiji* — and one is the target form of *tko*: *Koga čekaš?*
-infokratko: *koji, kakav, čiji* agree with the noun; *koga* for a person as target: *Koga čekaš?*
-opis: The answer is given — type the question word.
+info: Du tippst das Wort, die Antwort ist gegeben. Drei brauchen eine Endung, die zum Nomen passt – *koji*, *kakav* und *čiji* –, und eines ist die Zielform von *tko*: *Koga čekaš?*
+infokratko: *koji, kakav, čiji* stimmen mit dem Nomen überein; *koga* für eine Person als Ziel: *Koga čekaš?*
+opis: Die Antwort ist gegeben – tippe das Fragewort.
 - ___ je to? — To je moja sestra. | Tko
 - ___ je gitara? — Gitara je u sobi. | Gdje
 - ___ ćeš kupiti? — Kupit ću knjigu. | Što
@@ -235,11 +235,11 @@ opis: The answer is given — type the question word.
 - ___ je kava? — Jaka i dobra. | Kakva
 - ___ je ovo dres? — Markov. | Čiji
 
-## The interview
+## Das Interview
 format: slaganje
-info: Building whole questions from tiles. The question word is the first tile, *li* goes directly behind the verb, and *zar ne* closes the sentence after a comma.
-infokratko: Question word first, *li* after the verb, *zar ne* after a comma.
-opis: Arrange the tiles to build the question.
+info: Ganze Fragen aus Kärtchen bauen. Das Fragewort ist das erste Kärtchen, *li* kommt direkt hinter das Verb, und *zar ne* schließt den Satz nach einem Komma ab.
+infokratko: Fragewort zuerst, *li* nach dem Verb, *zar ne* nach einem Komma.
+opis: Ordne die Kärtchen, um die Frage zu bauen.
 - Tko je poslao poklon?
 - Što ona voli?
 - Imaš li sestru?
@@ -253,11 +253,11 @@ opis: Arrange the tiles to build the question.
 - Koga čekaš?
 - Jesi li gledao utakmicu?
 
-## The present hunt
+## Die Geschenkjagd
 format: dijalog
-info: A shop conversation built on questions. Everything you ask uses this lesson: *Što…?*, *Koliko košta…?*, *Imate li…?* The assistant uses *vi*, so answer politely and keep the verb in the *vi* form when you ask her something.
-infokratko: Ask with *Što...?*, *Koliko košta...?*, *Imate li...?* Use the *vi* form.
-opis: You're buying a birthday present for your sister. Choose your replies. Passive words: *Izvolite?* (What would you like?), *tražim* (I'm looking for), *parfem* (perfume), *jeftinije* (cheaper), *savršen* (perfect).
+info: Ein Ladengespräch, das auf Fragen aufgebaut ist. Alles, was du fragst, verwendet diese Lektion: *Što …?*, *Koliko košta …?*, *Imate li …?* Die Verkäuferin siezt dich (*vi*), also antworte höflich und lass das Verb in der *vi*-Form, wenn du sie etwas fragst.
+infokratko: Frag mit *Što …?*, *Koliko košta …?*, *Imate li …?* Nimm die *vi*-Form.
+opis: Du kaufst ein Geburtstagsgeschenk für deine Schwester. Wähle deine Antworten. Passive Wörter: *Izvolite?* (Was darf es sein?), *tražim* (ich suche), *parfem* (Parfüm), *jeftinije* (billiger), *savršen* (perfekt).
 - npc | Dobar dan! Izvolite?
 - ti | Dobar dan! Kupujem poklon za sestru. | Dobar dan! Tražim poklon za sestru, ali ne znam što.
 - npc | Lijepo! Što ona voli?
@@ -271,12 +271,12 @@ opis: You're buying a birthday present for your sister. Choose your replies. Pas
 - npc | Onda je gitara savršen poklon!
 - ti | Super, kupujem gitaru! | Hvala, ali kupujem knjigu.
 
-## Read: a birthday
+## Lesen: ein Geburtstag
 format: izbor
-info: Read the story, then answer in Croatian. Every question in the text is built the way this lesson describes, so use the question word to find the line that answers it: *tko* points to a person, *što* to a thing, *koliko* to a number.
-infokratko: Read, then answer. *tko* person, *što* thing, *koliko* number.
+info: Lies die Geschichte und antworte dann auf Kroatisch. Jede Frage im Text ist so gebaut, wie diese Lektion es beschreibt, also nutze das Fragewort, um die Zeile zu finden, die sie beantwortet: *tko* zeigt auf eine Person, *što* auf eine Sache, *koliko* auf eine Zahl.
+infokratko: Lies, dann antworte. *tko* Person, *što* Sache, *koliko* Zahl.
 tekst: Danas je Anin rođendan. Ana ima dvadeset godina. Jutros je na stolu bio poklon. Tko je poslao poklon? Ana ne zna. Kutija je bila velika i teška. Što je unutra? Ana otvara kutiju — unutra je gitara! Koliko košta takva gitara? Sto eura, možda i više. Ana zove baku. "Bako, jesi li ti poslala gitaru?" Baka se smije: "Jesam! Ti voliš glazbu, zar ne?"
-opis: Read the story, then answer the questions. Passive words: *unutra* (inside), *teška* (heavy), *takva* (such a), *možda* (maybe), *se smije* (laughs).
+opis: Lies die Geschichte und beantworte dann die Fragen. Passive Wörter: *unutra* (drinnen), *teška* (schwer), *takva* (so eine), *možda* (vielleicht), *se smije* (lacht).
 - Koliko godina ima Ana? | dvadeset | trideset | petnaest
 - Što je bilo na stolu? | poklon | torta | knjiga
 - Kakva je bila kutija? | velika i teška | mala i lagana | stara
@@ -286,44 +286,44 @@ opis: Read the story, then answer the questions. Passive words: *unutra* (inside
 
 ## Memory
 format: memorija
-info: A pairs game over the question words. Use it to separate the two that English blurs: *koji* picks one out of a known set, while *kakav* asks what something is like.
-infokratko: *koji* = which one, *kakav* = what kind.
-opis: Flip the cards and find each question word's English partner.
+info: Ein Paarspiel mit den Fragewörtern. Nutze es, um die zwei auseinanderzuhalten: *koji* wählt eins aus einer bekannten Menge, während *kakav* fragt, wie etwas ist – wie *welcher* gegen *was für ein*.
+infokratko: *koji* = welcher, *kakav* = was für ein.
+opis: Dreh die Karten um und finde zu jedem Fragewort seinen deutschen Partner.
 - tko | wer
-- što | what
-- gdje | where
-- kada | when
+- što | was
+- gdje | wo
+- kada | wann
 - zašto | warum
 - kako | wie
-- koliko | how much
-- koji | which
-- kakav | what kind of
-- čiji | whose
+- koliko | wie viel
+- koji | welcher
+- kakav | was für ein
+- čiji | wessen
 
 ## Lektionscheck
 format: provjera
-info: The scored mix of the whole lesson, and 80% opens Vocabulary 11. Most of the points sit on two things: the question word comes first with no helper added, and *li* comes directly after the verb.
-infokratko: The whole lesson, mixed; 80% opens Vocabulary 11. Question word first, *li* after the verb.
+info: Die bewertete Mischung der ganzen Lektion, und 80 % öffnen Wortschatz 11. Die meisten Punkte stecken in zwei Dingen: Das Fragewort kommt zuerst, ohne Hilfswort, und *li* kommt direkt nach dem Verb.
+infokratko: Die ganze Lektion gemischt; 80 % öffnen Wortschatz 11. Fragewort zuerst, *li* nach dem Verb.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 11.
-- slaganje | Tko je to? | en: Who is that?
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 11 zu sein.
+- slaganje | Tko je to? | en: Wer ist das?
 - izbor | ___ živiš? — U Zagrebu. | Gdje | Kada | Tko
 - upis | Napravi li-pitanje: Voliš kavu. → | Voliš li kavu
-- izbor | Što znači "zašto"? | warum | how much | when
+- izbor | Što znači "zašto"? | warum | wie viel | wann
 - izbor | Koja je rečenica točna? | Je li Marko doma? | Marko li je doma?
 - upis | ___ je poslao tortu? — Baka. | Tko
 - izbor | "li" ide odmah iza glagola. | točno | netočno
-- slaganje | Za koga kupuješ poklon? | en: Who are you buying a present for?
+- slaganje | Za koga kupuješ poklon? | en: Für wen kaufst du ein Geschenk?
 - izbor | ___ je kava? — Jaka. | Kakva | Koja | Čija
 - upis | ___ košta karta? — Deset eura. | Koliko
 - izbor | Koliko je "petnaest"? | 15 | 5 | 50
-- slaganje | Koliko godina ima tvoj brat? | en: How old is your brother?
+- slaganje | Koliko godina ima tvoj brat? | en: Wie alt ist dein Bruder?
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You can now ask in all three ways — with a question word, with *li*, and with the tag *zar ne?* — and you have the numbers you need for ages and prices.
-infokratko: Three ways to ask, plus numbers for ages and prices.
-opis: Read what you can do now, and what comes next.
-- Izvrsno! You can now ask about anything — who, what, where, when, why, how much and which. Conversations are officially two-way.
-- **Next up:** Vocabulary 11 collects the question words, the presents and the numbers, and Grammar 11 shows how *koji*, *kakav* and *čiji* change with the noun.
-- **Then Lesson 12:** the art of saying no — *ne volim, nisam, nemam, nikad.*
+info: Eine Abschlusszusammenfassung. Du kannst jetzt auf alle drei Arten fragen – mit einem Fragewort, mit *li* und mit dem Anhängsel *zar ne?* –, und du hast die Zahlen, die du für Alter und Preise brauchst.
+infokratko: Drei Arten zu fragen, plus Zahlen für Alter und Preise.
+opis: Lies, was du jetzt kannst und was als Nächstes kommt.
+- Izvrsno! Du kannst jetzt nach allem fragen – wer, was, wo, wann, warum, wie viel und welcher. Gespräche laufen offiziell in beide Richtungen.
+- **Als Nächstes:** Wortschatz 11 sammelt die Fragewörter, die Geschenke und die Zahlen, und Grammatik 11 zeigt, wie sich *koji*, *kakav* und *čiji* mit dem Nomen ändern.
+- **Dann Lektion 12:** die Kunst, Nein zu sagen – *ne volim, nisam, nemam, nikad.*

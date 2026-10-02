@@ -1,50 +1,50 @@
-# The Locative
+# Der Lokativ
 cjelina: Grammar 13
 
-## The rule: where? — always with a preposition
+## Die Regel: wo? – immer mit Präposition
 format: tekst
-info: The reference page for the unit. The locative answers *gdje?* and always comes after a preposition — *u*, *na* or *o*. Masculine and neuter nouns take **-u**, feminine **-a** becomes **-i**. The preposition is the same one you use for motion; only the ending changes.
+info: Die Übersichtsseite der Einheit. Der Lokativ antwortet auf *gdje?* (wo?) und steht immer nach einer Präposition – *u*, *na* oder *o*. Maskulina und Neutra bekommen **-u**, das feminine **-a** wird zu **-i**. Die Präposition ist dieselbe wie bei der Bewegung; nur die Endung ändert sich – wie im Deutschen *in die Schule* / *in der Schule*.
 infokratko: *gdje?* + *u/na/o*: m./n. **-u** (*u gradu, u kinu*), f. **-a → -i** (*u školi*).
 - **The locative answers *gdje?* (where?)** and never stands alone: it always comes after a preposition — *u*, *na* or *o*. Without a preposition a place stays in the naming form: *Ovo je škola.*
-- tab: Gender | Naming form | Locative
-- tab: m. (consonant) → **+u** | grad, ured, Split | u grad**u**, u ured**u**, u Split**u**
+- tab: Genus | Grundform | Lokativ
+- tab: m. (Konsonant) → **+u** | grad, ured, Split | u grad**u**, u ured**u**, u Split**u**
 - tab: n. (-o / -e) → **-u** | kino, more, kazalište | u kin**u**, na mor**u**, u kazališt**u**
 - tab: f. (-a) → **-i** | škola, pekara, soba | u škol**i**, u pekar**i**, u sob**i**
-- **Motion vs. location:** *kamo?* (where to?) takes the accusative from Lessons 5 and 6: *Idem u školu.* · *gdje?* (where?) takes the locative: *Ja sam u školi.* Same preposition, different ending — the ending carries the meaning.
-- **The verb gives the first hint.** *ići* and *putovati* ask *kamo?*; *biti, živjeti, stanovati, raditi, sjediti, stajati, spavati* and *ostati* ask *gdje?*.
-- **u or na?** The same choice as for motion: **u** for rooms and buildings (*u kući, u školi, u uredu*), **na** for open places, surfaces and events (*na trgu, na tržnici, na stadionu, na koncertu, na moru*). A few are conventions — learn them as phrases.
-- **o + locative = about.** *Razgovaramo o filmu. Pričam o školi.* Same endings, and no place involved.
-- **One trap: days of the week.** *u subotu, u petak* (on Saturday, on Friday) keep the Lesson 8 form — a day is a point in time, not a place.
-- **Now you write them.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Razgovaramo o [filmu].
+- **Bewegung oder Ort:** *kamo?* (wohin?) nimmt den Akkusativ aus Lektion 5 und 6: *Idem u školu.* · *gdje?* (wo?) nimmt den Lokativ: *Ja sam u školi.* Gleiche Präposition, andere Endung – genau wie bei den deutschen Wechselpräpositionen: *in die Schule* (wohin?) und *in der Schule* (wo?).
+- **Das Verb gibt den ersten Hinweis.** *ići* und *putovati* fragen *kamo?*; *biti, živjeti, stanovati, raditi, sjediti, stajati, spavati* und *ostati* fragen *gdje?*.
+- **u oder na?** Dieselbe Wahl wie bei der Bewegung: **u** für Räume und Gebäude (*u kući, u školi, u uredu*), **na** für offene Orte, Flächen und Veranstaltungen (*na trgu, na tržnici, na stadionu, na koncertu, na moru*). Einige sind Konventionen – lern sie als feste Wendungen.
+- **o + Lokativ = über.** *Razgovaramo o filmu. Pričam o školi.* Dieselben Endungen, und kein Ort im Spiel.
+- **Eine Falle: Wochentage.** *u subotu, u petak* (am Samstag, am Freitag) behalten die Form aus Lektion 8 – ein Tag ist ein Zeitpunkt, kein Ort.
+- **Jetzt schreibst du sie.** Idem u grad — sada sam u [gradu]. Idem u školu — sada sam u [školi]. Razgovaramo o [filmu].
 
-## kamo, gdje or o?
+## kamo, gdje oder o?
 format: razvrstavanje
-info: Sorting by the question each sentence answers. A verb of motion keeps the accusative: *idem u ured*. Being, living or sleeping somewhere takes the locative: *radim u uredu*. After *o* the locative means *about*: *pričamo o uredu*. The last two share the ending, so the verb and the preposition decide.
-infokratko: Motion → *u ured* (kamo?); being → *u uredu* (gdje?); *o uredu* = about.
-stupci: KAMO? | GDJE? | O (ABOUT)
-opis: Where to, where, or about what? Sort the sentences.
+info: Sortieren nach der Frage, auf die jeder Satz antwortet. Ein Verb der Bewegung behält den Akkusativ: *idem u ured*. Irgendwo sein, wohnen oder schlafen nimmt den Lokativ: *radim u uredu*. Nach *o* bedeutet der Lokativ *über*: *pričamo o uredu*. Die letzten beiden haben dieselbe Endung, also entscheiden Verb und Präposition.
+infokratko: Bewegung → *u ured* (kamo?); Sein → *u uredu* (gdje?); *o uredu* = über.
+stupci: KAMO? | GDJE? | O (ÜBER)
+opis: Wohin, wo oder worüber? Sortiere die Sätze.
 - Idem u ured. | KAMO?
 - Tata radi u uredu. | GDJE?
-- Tata često priča o uredu. | O (ABOUT)
+- Tata često priča o uredu. | O (ÜBER)
 - Ana ide na tržnicu. | KAMO?
 - Ana je na tržnici. | GDJE?
 - Djeca idu na more. | KAMO?
 - Djeca su na moru. | GDJE?
-- Razgovaramo o moru. | O (ABOUT)
+- Razgovaramo o moru. | O (ÜBER)
 - Putujemo u Split. | KAMO?
 - Živimo u Splitu. | GDJE?
-- Baka čita knjigu o Splitu. | O (ABOUT)
+- Baka čita knjigu o Splitu. | O (ÜBER)
 - Mačka ide na krov. | KAMO?
 - Mačka spava na krovu. | GDJE?
-- Pišem pismo o školi. | O (ABOUT)
+- Pišem pismo o školi. | O (ÜBER)
 - Sjedimo u kafiću. | GDJE?
 - Idemo u kino. | KAMO?
 
-## Type the locative
+## Tippe den Lokativ
 format: upis
-info: Typed production of the basic endings. A consonant takes **-u**, **-o** and **-e** turn into **-u**, and **-a** turns into **-i**. Masculine words in **-k** and **-g** keep their last letter, because their ending is **-u**: *u parku, na trgu, na otoku*.
-infokratko: Consonant **+u**, **-o/-e → -u**, **-a → -i**. *u parku, na trgu* keep the k and g.
-opis: Type the locative. The preposition is already there.
+info: Geschriebene Produktion der Grundendungen. Ein Konsonant bekommt **-u**, **-o** und **-e** werden zu **-u**, und **-a** wird zu **-i**. Maskulina auf **-k** und **-g** behalten ihren letzten Buchstaben, denn ihre Endung ist **-u**: *u parku, na trgu, na otoku*.
+infokratko: Konsonant **+u**, **-o/-e → -u**, **-a → -i**. *u parku, na trgu* behalten k und g.
+opis: Schreib den Lokativ. Die Präposition steht schon da.
 - park → u ___ | parku
 - trgovina → u ___ | trgovini
 - more → na ___ | moru
@@ -60,11 +60,11 @@ opis: Type the locative. The preposition is already there.
 - plaža → na ___ | plaži
 - koncert → na ___ | koncertu
 
-## Accusative or locative?
+## Akkusativ oder Lokativ?
 format: izbor
-info: Choosing the form that fits the verb. After *idem, idemo, putujemo* the place takes the accusative: *u grad, u školu*. After *je, živim, radi, sjedimo, ostajem* it takes the locative: *u gradu, u školi*. The third option puts a feminine **-i** on a masculine word or leaves the naming form, which is never correct.
-infokratko: Motion → *u grad*; being → *u gradu*. Never *u gradi*.
-opis: Motion or location? Read the verb, then choose the right form.
+info: Die Form wählen, die zum Verb passt. Nach *idem, idemo, putujemo* steht der Ort im Akkusativ: *u grad, u školu*. Nach *je, živim, radi, sjedimo, ostajem* steht er im Lokativ: *u gradu, u školi*. Die dritte Option hängt ein feminines **-i** an ein maskulines Wort oder lässt die Grundform stehen – das ist nie richtig.
+infokratko: Bewegung → *u grad*; Sein → *u gradu*. Nie *u gradi*.
+opis: Bewegung oder Ort? Lies das Verb und wähle dann die richtige Form.
 - Idem ___ . | u grad | u gradu | u gradi
 - Živim ___ . | u gradu | u grad | u gradi
 - Ana je ___ . | na tržnici | na tržnicu | na tržnica
@@ -78,11 +78,11 @@ opis: Motion or location? Read the verb, then choose the right form.
 - Ostajem ___ . | u kafiću | u kafić | u kafići
 - Sjedimo ___ . | u parku | u park | u parki
 
-## u or na?
+## u oder na?
 format: izbor
-info: Choosing the preposition, with the ending already in place. **u** goes with rooms and buildings (*u uredu, u kinu, u podrumu*); **na** goes with open places, surfaces and events (*na trgu, na koncertu, na utakmici*). *Na fakultetu* and *na plaži* are conventions to learn whole.
-infokratko: Rooms, buildings → **u**. Open places, events → **na**. *na fakultetu*.
-opis: Inside, or at an open place or event? Choose the preposition.
+info: Die Präposition wählen, die Endung steht schon. **u** gehört zu Räumen und Gebäuden (*u uredu, u kinu, u podrumu*); **na** zu offenen Orten, Flächen und Veranstaltungen (*na trgu, na koncertu, na utakmici*). *Na fakultetu* und *na plaži* sind Konventionen, die man als Ganzes lernt.
+infokratko: Räume, Gebäude → **u**. Offene Orte, Veranstaltungen → **na**. *na fakultetu*.
+opis: Drinnen oder an einem offenen Ort bzw. bei einer Veranstaltung? Wähle die Präposition.
 - ___ stadionu | na | u
 - ___ uredu | u | na
 - ___ koncertu | na | u
@@ -96,54 +96,54 @@ opis: Inside, or at an open place or event? Choose the preposition.
 - ___ kazalištu | u | na
 - ___ utakmici | na | u
 
-## The rule: k and g before -i
+## Die Regel: k und g vor -i
 format: tekst
-info: The sound change of the unit. In feminine words ending in **-ka** and **-ga**, the **k** becomes **c** and the **g** becomes **z** before the locative **-i**: *banka → u banci*, *knjiga → u knjizi*. Masculine words do not change, because their ending is **-u**. Family words like *baka* keep the k.
-infokratko: f. **-ka → -ci**, **-ga → -zi**: *u banci, u knjizi*. Masculine and *baka* do not change.
+info: Der Lautwandel der Einheit. Bei femininen Wörtern auf **-ka** und **-ga** wird **k** zu **c** und **g** zu **z** vor dem Lokativ-**-i**: *banka → u banci*, *knjiga → u knjizi*. Maskulina ändern sich nicht, denn ihre Endung ist **-u**. Familienwörter wie *baka* behalten das k.
+infokratko: f. **-ka → -ci**, **-ga → -zi**: *u banci, u knjizi*. Maskulina und *baka* ändern sich nicht.
 infoodmah: da
-- **Only feminine words in -ka and -ga change.** Before the locative **-i**, **k** becomes **c** and **g** becomes **z**. You met the same change in the plural in Lesson 7: *otok → otoci*.
-- tab: Naming form | Locative | Change
+- **Nur feminine Wörter auf -ka und -ga ändern sich.** Vor dem Lokativ-**-i** wird **k** zu **c** und **g** zu **z**. Denselben Wandel kennst du aus dem Plural in Lektion 7: *otok → otoci*.
+- tab: Grundform | Lokativ | Wandel
 - tab: banka | u ban**ci** | k → c
 - tab: rijeka | na rije**ci** | k → c
 - tab: luka | u lu**ci** | k → c
 - tab: ruka | u ru**ci** | k → c
 - tab: knjiga | u knji**zi** | g → z
 - tab: noga | na no**zi** | g → z
-- **Masculine words keep their k and g.** Their ending is **-u**, not **-i**, so nothing changes: *u parku, u hodniku, na otoku, na trgu.*
-- **A few feminine words keep the k.** Family words — *baka → o baki* — and words in **-čka** — *mačka → o mački*. Without the k the word would be hard to recognise, so it stays.
-- **The dropped a from Grammars 2 and 6 drops here too.** *centar → u centru*, *ručak → na ručku*, *doručak → na doručku.*
-- ***u Hrvatskoj* — take it whole.** *Hrvatska* has the form of an adjective, so its locative ends in **-oj**: *Živim u Hrvatskoj.* Adjectives in the locative come later; for now, learn this one phrase.
-- **Now you write them.** Idem u banku — sada sam u [banci]. Ana je na [rijeci]. Pričamo o [baki].
+- **Maskulina behalten ihr k und g.** Ihre Endung ist **-u**, nicht **-i**, also ändert sich nichts: *u parku, u hodniku, na otoku, na trgu.*
+- **Einige feminine Wörter behalten das k.** Familienwörter – *baka → o baki* – und Wörter auf **-čka** – *mačka → o mački*. Ohne das k wäre das Wort schwer zu erkennen, also bleibt es.
+- **Das wegfallende a aus Grammatik 2 und 6 fällt auch hier weg.** *centar → u centru*, *ručak → na ručku*, *doručak → na doručku.*
+- ***u Hrvatskoj* – als Ganzes lernen.** *Hrvatska* hat die Form eines Adjektivs, deshalb endet sein Lokativ auf **-oj**: *Živim u Hrvatskoj.* Adjektive im Lokativ kommen später; lern vorerst nur diese eine Wendung.
+- **Jetzt schreibst du sie.** Idem u banku — sada sam u [banci]. Ana je na [rijeci]. Pričamo o [baki].
 
 ## Tippe auf die Endung
 format: nastavak
-info: One tap completes the place. Where the **k** or **g** of a feminine word is missing, choose between the changed ending (**-ci**, **-zi**) and **-ki** for *baka* and *mačka*, which keep the k. Where the whole stem is written, it is the ordinary **-u** or **-i** — masculine *park* and *otok* never change.
-infokratko: f. **-ka → -ci**, **-ga → -zi**; *baka, mačka* → **-ki**; otherwise **-u** or **-i**.
+info: Ein Tippen vervollständigt den Ort. Wo das **k** oder **g** eines femininen Worts fehlt, wählst du zwischen der veränderten Endung (**-ci**, **-zi**) und **-ki** für *baka* und *mačka*, die das k behalten. Wo der ganze Stamm dasteht, ist es das normale **-u** oder **-i** – maskulines *park* und *otok* ändern sich nie.
+infokratko: f. **-ka → -ci**, **-ga → -zi**; *baka, mačka* → **-ki**; sonst **-u** oder **-i**.
 nastavci: u | i | ci | zi | ki
-opis: English above, Croatian below. One tap finishes the locative. Passive words: *Amerika* (America).
-- Mama je u ban___. | Mum is at the bank. | ci
-- Ana je u škol___. | Ana is at school. | i
-- Sjedimo u park___. | We're sitting in the park. | u
-- Djeca su na rije___. | The children are at the river. | ci
-- Pričamo o ba___. | We're talking about Grandma. | ki
-- Brod je u lu___. | The boat is in the harbor. | ci
-- U knji___ je pismo. | There's a letter in the book. | zi
-- Marko ima loptu u ru___. | Marko has a ball in his hand. | ci
-- Pas spava u hodnik___. | The dog is sleeping in the hallway. | u
-- Pišem pismo o mač___. | I'm writing a letter about the cat. | ki
-- Mi smo na otok___. | We are on the island. | u
-- Mama je u kuhinj___. | Mum is in the kitchen. | i
-- Kafić je na trg___. | The café is on the square. | u
-- Marko radi u klini___. | Marko works at the clinic. | ci
-- Mama i tata pričaju o ba___. | Mum and Dad are talking about Grandma. | ki
-- Ana živi u Ameri___. | Ana lives in America. | ci
-- Petra je u teretan___. | Petra is at the gym. | i
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen vollendet den Lokativ. Passive Wörter: *Amerika* (Amerika).
+- Mama je u ban___. | Mama ist in der Bank. | ci
+- Ana je u škol___. | Ana ist in der Schule. | i
+- Sjedimo u park___. | Wir sitzen im Park. | u
+- Djeca su na rije___. | Die Kinder sind am Fluss. | ci
+- Pričamo o ba___. | Wir sprechen über Oma. | ki
+- Brod je u lu___. | Das Boot ist im Hafen. | ci
+- U knji___ je pismo. | Im Buch ist ein Brief. | zi
+- Marko ima loptu u ru___. | Marko hat einen Ball in der Hand. | ci
+- Pas spava u hodnik___. | Der Hund schläft im Flur. | u
+- Pišem pismo o mač___. | Ich schreibe einen Brief über die Katze. | ki
+- Mi smo na otok___. | Wir sind auf der Insel. | u
+- Mama je u kuhinj___. | Mama ist in der Küche. | i
+- Kafić je na trg___. | Das Café ist auf dem Platz. | u
+- Marko radi u klini___. | Marko arbeitet in der Klinik. | ci
+- Mama i tata pričaju o ba___. | Mama und Papa sprechen über Oma. | ki
+- Ana živi u Ameri___. | Ana wohnt in Amerika. | ci
+- Petra je u teretan___. | Petra ist im Fitnessstudio. | i
 
-## Type the changed form
+## Schreib die veränderte Form
 format: upis
-info: Typed production of the special forms. Feminine **-ka** gives **-ci** and **-ga** gives **-zi**, but *baka* and *mačka* keep the k. Masculine words never change a letter. *Centar* and *ručak* drop their **a**, and *Hrvatska* takes **-oj**.
+info: Geschriebene Produktion der Sonderformen. Feminines **-ka** ergibt **-ci** und **-ga** ergibt **-zi**, aber *baka* und *mačka* behalten das k. Maskulina ändern nie einen Buchstaben. *Centar* und *ručak* verlieren ihr **a**, und *Hrvatska* bekommt **-oj**.
 infokratko: **-ka → -ci**, **-ga → -zi**; *baki, mački*; *u centru, na ručku, u Hrvatskoj*.
-opis: Type the locative. Watch the last consonant of the naming form.
+opis: Schreib den Lokativ. Achte auf den letzten Konsonanten der Grundform.
 - banka → u ___ | banci
 - rijeka → na ___ | rijeci
 - luka → u ___ | luci
@@ -159,12 +159,12 @@ opis: Type the locative. Watch the last consonant of the naming form.
 - ručak → na ___ | ručku
 - Hrvatska → u ___ | Hrvatskoj
 
-## The rule: about me, about you
+## Die Regel: über mich, über dich
 format: tekst
-info: The pronouns in the locative, which you mostly hear after *o* — *about*. Each person has one form: *meni, tebi, njemu, njoj, nama, vama, njima*. The question words become *o kome?* for people and *o čemu?* for things, and names take the ordinary noun endings: *o Marku, o Ani*.
+info: Die Pronomen im Lokativ, die du meist nach *o* – *über* – hörst. Jede Person hat eine Form: *meni, tebi, njemu, njoj, nama, vama, njima*. Die Fragewörter werden zu *o kome?* für Personen und *o čemu?* für Dinge, und Namen bekommen die normalen Substantivendungen: *o Marku, o Ani*.
 infokratko: *o meni, o tebi, o njemu, o njoj, o nama, o vama, o njima*; *o kome? o čemu?*
-- Pronouns take the locative too — and this is the shape you'll hear every time somebody is being talked about.
-- tab: Pronoun | Locative | Example
+- Auch Pronomen stehen im Lokativ – und in dieser Form hörst du sie jedes Mal, wenn über jemanden gesprochen wird.
+- tab: Pronomen | Lokativ | Beispiel
 - tab: ja | **meni** | Govore o **meni**.
 - tab: ti | **tebi** | Pričam o **tebi**.
 - tab: on / ono | **njemu** | Sve znam o **njemu**.
@@ -172,17 +172,17 @@ infokratko: *o meni, o tebi, o njemu, o njoj, o nama, o vama, o njima*; *o kome?
 - tab: mi | **nama** | Govore o **nama**.
 - tab: vi | **vama** | Pitam o **vama**.
 - tab: oni, one, ona | **njima** | Ne znam ništa o **njima**.
-- **The question words:** *tko → o **kome**?* (about whom?), *što → o **čemu**?* (about what?): *O kome pričaš? — O Marku.* · *O čemu razgovarate? — O filmu.*
-- **Names are ordinary nouns.** *Marko → o Mark**u***, *Ivan → o Ivan**u***, *Ana → o An**i***, *Petra → o Petr**i***.
-- **No preposition, no locative** — the rule holds for pronouns too. There is no bare *meni* meaning "in me"; it's always *o meni, u meni, na njemu*.
-- **Watch out: *meni* is also the dative** (Lesson 14 — *Daj meni!*). Same form, two jobs, exactly like the nouns: *u školi* (locative) and *sestri* (dative) share their ending.
-- **Now you write them.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu]. O [čemu] razgovarate?
+- **Die Fragewörter:** *tko → o **kome**?* (über wen?), *što → o **čemu**?* (worüber?): *O kome pričaš? — O Marku.* · *O čemu razgovarate? — O filmu.*
+- **Namen sind normale Substantive.** *Marko → o Mark**u***, *Ivan → o Ivan**u***, *Ana → o An**i***, *Petra → o Petr**i***.
+- **Keine Präposition, kein Lokativ** – die Regel gilt auch für Pronomen. Es gibt kein alleinstehendes *meni* im Sinne von „in mir“; es heißt immer *o meni, u meni, na njemu*.
+- **Achtung: *meni* ist auch der Dativ** (Lektion 14 – *Daj meni!*). Eine Form, zwei Aufgaben, genau wie bei den Substantiven: *u školi* (Lokativ) und *sestri* (Dativ) haben dieselbe Endung.
+- **Jetzt schreibst du sie.** Razgovaramo o [meni]. Razgovaramo o [tebi]. Razgovaramo o [njemu]. O [čemu] razgovarate?
 
-## Type the pronoun
+## Schreib das Pronomen
 format: upis
-info: Typed production of the pronoun forms. Every form after *o* is the long one: *meni, tebi, njemu, njoj, nama, vama, njima*. *On* and *ono* share *njemu*, and every plural *oni, one, ona* gives *njima*. *Tko* becomes *kome*, *što* becomes *čemu*.
+info: Geschriebene Produktion der Pronomenformen. Jede Form nach *o* ist die lange: *meni, tebi, njemu, njoj, nama, vama, njima*. *On* und *ono* teilen sich *njemu*, und jeder Plural *oni, one, ona* ergibt *njima*. *Tko* wird zu *kome*, *što* zu *čemu*.
 infokratko: *meni, tebi, njemu, njoj, nama, vama, njima*; *kome, čemu*; *o Marku, o Ani*.
-opis: Put the pronoun, the question word or the name into the locative.
+opis: Setz das Pronomen, das Fragewort oder den Namen in den Lokativ.
 - ja → Govore o ___ | meni
 - ti → Pričam o ___ | tebi
 - on → Sve znam o ___ | njemu
@@ -197,63 +197,63 @@ opis: Put the pronoun, the question word or the name into the locative.
 - Marko → Pričamo o ___ | Marku
 - Ana → Pričamo o ___ | Ani
 
-## The right form after o
+## Die richtige Form nach o
 format: izbor
-info: Choosing the form that follows *o*. The wrong options use the naming form (*o ja, o Marko*) or the target form from Lesson 6 and Grammar 11 (*o mene, o njega, o koga*). After *o* only the locative is correct: *o meni, o njemu, o kome, o Marku*.
-infokratko: After *o* only the locative: *o meni, o njemu, o kome*. Never *o mene, o ja*.
-opis: Choose the correct sentence.
-- They're talking about me. | Govore o meni. | Govore o mene. | Govore o ja.
-- I know everything about him. | Sve znam o njemu. | Sve znam o njega. | Sve znam o on.
-- We're writing about her. | Pišemo o njoj. | Pišemo o nju. | Pišemo o ona.
-- Are they talking about us? | Govore li o nama? | Govore li o nas? | Govore li o mi?
-- I don't know anything about them. | Ne znam ništa o njima. | Ne znam ništa o njih. | Ne znam ništa o oni.
-- Grandma is talking about you. (vi) | Baka priča o vama. | Baka priča o vas. | Baka priča o vi.
-- What are you talking about? | O čemu pričaš? | O što pričaš? | O čega pričaš?
-- Who are you talking about? | O kome pričaš? | O tko pričaš? | O koga pričaš?
-- We're talking about Marko. | Pričamo o Marku. | Pričamo o Marko. | Pričamo o Marka.
-- We're talking about Ana. | Pričamo o Ani. | Pričamo o Ana. | Pričamo o Anu.
-- The book is about the river. | Knjiga je o rijeci. | Knjiga je o rijeki. | Knjiga je o rijeka.
-- Mum is talking about Grandma. | Mama priča o baki. | Mama priča o baci. | Mama priča o baku.
+info: Die Form wählen, die auf *o* folgt. Die falschen Optionen nehmen die Grundform (*o ja, o Marko*) oder die Zielform aus Lektion 6 und Grammatik 11 (*o mene, o njega, o koga*). Nach *o* ist nur der Lokativ richtig: *o meni, o njemu, o kome, o Marku*.
+infokratko: Nach *o* nur der Lokativ: *o meni, o njemu, o kome*. Nie *o mene, o ja*.
+opis: Wähle den richtigen Satz.
+- Sie sprechen über mich. | Govore o meni. | Govore o mene. | Govore o ja.
+- Ich weiß alles über ihn. | Sve znam o njemu. | Sve znam o njega. | Sve znam o on.
+- Wir schreiben über sie. (ona) | Pišemo o njoj. | Pišemo o nju. | Pišemo o ona.
+- Sprechen sie über uns? | Govore li o nama? | Govore li o nas? | Govore li o mi?
+- Ich weiß nichts über sie. (oni) | Ne znam ništa o njima. | Ne znam ništa o njih. | Ne znam ništa o oni.
+- Oma spricht über euch. (vi) | Baka priča o vama. | Baka priča o vas. | Baka priča o vi.
+- Worüber sprecht ihr? | O čemu pričaš? | O što pričaš? | O čega pričaš?
+- Über wen sprecht ihr? | O kome pričaš? | O tko pričaš? | O koga pričaš?
+- Wir sprechen über Marko. | Pričamo o Marku. | Pričamo o Marko. | Pričamo o Marka.
+- Wir sprechen über Ana. | Pričamo o Ani. | Pričamo o Ana. | Pričamo o Anu.
+- Das Buch handelt vom Fluss. | Knjiga je o rijeci. | Knjiga je o rijeki. | Knjiga je o rijeka.
+- Mama spricht über Oma. | Mama priča o baki. | Mama priča o baci. | Mama priča o baku.
 
-## The rule: many places
+## Die Regel: viele Orte
 format: tekst
-info: The plural locative, which has only two endings. Masculine and neuter nouns take **-ima**, feminine nouns take **-ama**. Start from the plural you learned in Lesson 7: whatever it added, such as **-ov-** or the **c** of *otoci*, stays in the locative.
+info: Der Lokativ Plural, der nur zwei Endungen hat. Maskulina und Neutra bekommen **-ima**, Feminina **-ama**. Geh vom Plural aus Lektion 7 aus: Was er hinzugefügt hat, etwa **-ov-** oder das **c** von *otoci*, bleibt im Lokativ.
 infokratko: Plural: m./n. **-ima** (*u gradovima*), f. **-ama** (*u školama*).
-- **Two endings for every plural place:** masculine and neuter → **-ima**, feminine → **-ama**. Take the plural from Lesson 7 and swap its last vowel.
-- tab: Singular | Plural | Plural locative
+- **Zwei Endungen für jeden Ort im Plural:** Maskulina und Neutra → **-ima**, Feminina → **-ama**. Nimm den Plural aus Lektion 7 und tausche seinen letzten Vokal.
+- tab: Singular | Plural | Lokativ Plural
 - tab: grad | gradovi | u grad**ovima**
 - tab: park | parkovi | u park**ovima**
 - tab: otok | otoci | na oto**cima**
 - tab: kino | kina | u kin**ima**
 - tab: škola | škole | u škol**ama**
 - tab: ulica | ulice | na ulic**ama**
-- **What the plural added, the locative keeps.** The **-ov-** of *gradovi* and the **c** of *otoci* stay: *u gradovima, na otocima* — never *u gradima, na otokima*.
-- **No sound change in -ama.** Feminine words keep their k and g, because the ending starts with **a**: *u bankama, na rijekama, u knjigama.*
-- **Now you write them.** Turisti su u [gradovima]. Djeca su u [školama]. Bili smo na [otocima].
+- **Was der Plural hinzugefügt hat, behält der Lokativ.** Das **-ov-** von *gradovi* und das **c** von *otoci* bleiben: *u gradovima, na otocima* – nie *u gradima, na otokima*.
+- **Kein Lautwandel bei -ama.** Feminina behalten ihr k und g, denn die Endung beginnt mit **a**: *u bankama, na rijekama, u knjigama.*
+- **Jetzt schreibst du sie.** Turisti su u [gradovima]. Djeca su u [školama]. Bili smo na [otocima].
 
-## Singular or plural place?
+## Ein Ort oder mehrere?
 format: izbor
-info: One place or several, and the bracket tells you which. The singular takes **-u** or **-i**; the plural takes **-ima** for masculine and neuter and **-ama** for feminine. The wrong options drop the **-ov-** (*gradima*), undo the **c** (*otokima*) or give a feminine word **-ima**.
-infokratko: Singular **-u / -i**; plural **-ima** (m./n.), **-ama** (f.). Keep *-ov-* and *c*.
-opis: One place or many? Pick the right form.
-- Živim u ___ . (city, singular) | gradu | gradovima | gradi
-- Turisti su u ___ . (cities, plural) | gradovima | gradu | gradima
-- Djeca su u ___ . (school, singular) | školi | školama | školu
-- Turisti su na ___ . (islands, plural) | otocima | otoku | otokima
-- Bili smo na ___ . (streets, plural) | ulicama | ulici | ulicima
-- Knjige su u ___ . (bags, plural) | torbama | torbi | torbima
-- Djeca su u ___ . (parks, plural) | parkovima | parku | parkima
-- Petra je u ___ . (kitchen, singular) | kuhinji | kuhinjama | kuhinjima
-- Filmovi su u ___ . (cinemas, plural) | kinima | kinu | kinama
-- Pričamo o ___ . (books, plural) | knjigama | knjizi | knjizima
-- Ana je na ___ . (beach, singular) | plaži | plažama | plažu
-- Mama je u ___ . (bank, singular) | banci | bankama | banki
+info: Ein Ort oder mehrere – die Klammer sagt dir, welches. Der Singular nimmt **-u** oder **-i**; der Plural **-ima** für Maskulina und Neutra und **-ama** für Feminina. Die falschen Optionen lassen das **-ov-** weg (*gradima*), machen das **c** rückgängig (*otokima*) oder geben einem femininen Wort **-ima**.
+infokratko: Singular **-u / -i**; Plural **-ima** (m./n.), **-ama** (f.). *-ov-* und *c* bleiben.
+opis: Ein Ort oder viele? Wähle die richtige Form.
+- Živim u ___ . (Stadt, Singular) | gradu | gradovima | gradi
+- Turisti su u ___ . (Städte, Plural) | gradovima | gradu | gradima
+- Djeca su u ___ . (Schule, Singular) | školi | školama | školu
+- Turisti su na ___ . (Inseln, Plural) | otocima | otoku | otokima
+- Bili smo na ___ . (Straßen, Plural) | ulicama | ulici | ulicima
+- Knjige su u ___ . (Taschen, Plural) | torbama | torbi | torbima
+- Djeca su u ___ . (Parks, Plural) | parkovima | parku | parkima
+- Petra je u ___ . (Küche, Singular) | kuhinji | kuhinjama | kuhinjima
+- Filmovi su u ___ . (Kinos, Plural) | kinima | kinu | kinama
+- Pričamo o ___ . (Bücher, Plural) | knjigama | knjizi | knjizima
+- Ana je na ___ . (Strand, Singular) | plaži | plažama | plažu
+- Mama je u ___ . (Bank, Singular) | banci | bankama | banki
 
 ## Bau den Satz
 format: slaganje
-info: Whole sentences from tiles, each using a different piece of the unit: the basic endings, a sound change, a pronoun after *o* and the plural. *Je, sam, su* stay in second place, and a comma comes before *a* and *ali*.
-infokratko: Locative after *u, na, o*; *je, sam* second; comma before *a, ali*.
-opis: Build the sentence. Passive words: *svi* (everybody).
+info: Ganze Sätze aus Kacheln, jeder mit einem anderen Teil der Einheit: die Grundendungen, ein Lautwandel, ein Pronomen nach *o* und der Plural. *Je, sam, su* bleiben an zweiter Stelle, und vor *a* und *ali* steht ein Komma.
+infokratko: Lokativ nach *u, na, o*; *je, sam* an zweiter Stelle; Komma vor *a, ali*.
+opis: Bau den Satz. Passive Wörter: *svi* (alle).
 - Radim u uredu, a treniram u teretani.
 - Bili smo na moru cijeli vikend.
 - Razgovaramo o filmu u kafiću.
@@ -269,29 +269,29 @@ opis: Build the sentence. Passive words: *svi* (everybody).
 
 ## Schreib den ganzen Satz
 format: upis
-info: Free production from English, the hardest step in the unit. Choose *u* or *na*, then the ending: **-u**, **-i**, a changed **-ci** or **-zi**, or a plural **-ima / -ama**. After *about* use *o* with the locative. Where the gender of *we* shows, both forms are accepted.
-infokratko: *u/na* + **-u / -i / -ci / -zi / -ima / -ama**; *about* = *o* + locative.
-opis: The last step — the English sentence, and you write the Croatian.
-- I'm in town. | Ja sam u gradu / U gradu sam
-- Ana is at the gym. | Ana je u teretani
-- We live in Zagreb. | Živimo u Zagrebu / Mi živimo u Zagrebu
-- Dad works in an office. | Tata radi u uredu
-- The children are at the seaside. | Djeca su na moru
-- Mum is at the bank. | Mama je u banci
-- The book is on the table. | Knjiga je na stolu
-- Grandma lives in the center. | Baka živi u centru / Baka stanuje u centru
-- We're talking about the film. | Razgovaramo o filmu / Pričamo o filmu
-- They're talking about me. | Govore o meni / Pričaju o meni / Oni govore o meni / Oni pričaju o meni
-- What are you talking about? | O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate
-- Who are you talking about? | O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate
-- The tourists are on the islands. | Turisti su na otocima
-- I live in Croatia. | Živim u Hrvatskoj / Ja živim u Hrvatskoj
-- We were at the concert. | Bili smo na koncertu / Bile smo na koncertu / Mi smo bili na koncertu / Mi smo bile na koncertu
+info: Freie Produktion aus dem Deutschen, der schwierigste Schritt der Einheit. Wähle *u* oder *na*, dann die Endung: **-u**, **-i**, ein verändertes **-ci** oder **-zi** oder ein Plural **-ima / -ama**. Nach *über* nimm *o* mit dem Lokativ. Wo bei *wir* das Geschlecht sichtbar wird, werden beide Formen akzeptiert.
+infokratko: *u/na* + **-u / -i / -ci / -zi / -ima / -ama**; *über* = *o* + Lokativ.
+opis: Der letzte Schritt – der deutsche Satz, und du schreibst den kroatischen.
+- Ich bin in der Stadt. | Ja sam u gradu / U gradu sam
+- Ana ist im Fitnessstudio. | Ana je u teretani
+- Wir wohnen in Zagreb. | Živimo u Zagrebu / Mi živimo u Zagrebu
+- Papa arbeitet in einem Büro. | Tata radi u uredu
+- Die Kinder sind am Meer. | Djeca su na moru
+- Mama ist in der Bank. | Mama je u banci
+- Das Buch ist auf dem Tisch. | Knjiga je na stolu
+- Oma wohnt im Zentrum. | Baka živi u centru / Baka stanuje u centru
+- Wir sprechen über den Film. | Razgovaramo o filmu / Pričamo o filmu
+- Sie sprechen über mich. | Govore o meni / Pričaju o meni / Oni govore o meni / Oni pričaju o meni
+- Worüber sprecht ihr? | O čemu pričaš / O čemu razgovaraš / O čemu pričate / O čemu razgovarate
+- Über wen sprecht ihr? | O kome pričaš / O kome razgovaraš / O kome pričate / O kome razgovarate
+- Die Touristen sind auf den Inseln. | Turisti su na otocima
+- Ich wohne in Kroatien. | Živim u Hrvatskoj / Ja živim u Hrvatskoj
+- Wir waren auf dem Konzert. | Bili smo na koncertu / Bile smo na koncertu / Mi smo bili na koncertu / Mi smo bile na koncertu
 
 ## Das kannst du jetzt
 format: tekst
-info: A closing summary. The locative is two endings after a preposition — **-u** and **-i** — plus one sound change for **-ka** and **-ga**, one set of pronouns after *o*, and two plural endings. Motion keeps the accusative; being somewhere takes the locative.
-infokratko: **-u / -i** after *u, na, o*; *-ci, -zi*; *o meni*; plural **-ima / -ama**.
-- **Bravo.** You can now say where anybody is, in one place or in many, and what or whom people are talking about.
-- And you did it with one rule for each: **being somewhere takes -u or -i after *u* or *na***, ***k* and *g* become *c* and *z* before -i in feminine words**, and ***o* + locative means *about*: *o meni, o čemu, o Marku*.**
-- **Next up:** Practice 13 takes you around town — a neighbourhood, a phone call and a day in the city — and Test 13 closes the unit. Then Lesson 14 gives things to people — *Mami kupujem šal* — with the dative, whose singular endings you already know from today.
+info: Eine abschließende Zusammenfassung. Der Lokativ besteht aus zwei Endungen nach einer Präposition – **-u** und **-i** –, dazu ein Lautwandel bei **-ka** und **-ga**, eine Reihe Pronomen nach *o* und zwei Pluralendungen. Bewegung behält den Akkusativ; irgendwo sein nimmt den Lokativ.
+infokratko: **-u / -i** nach *u, na, o*; *-ci, -zi*; *o meni*; Plural **-ima / -ama**.
+- **Bravo.** Jetzt kannst du sagen, wo jemand ist – an einem Ort oder an vielen – und worüber oder über wen gesprochen wird.
+- Und das mit je einer Regel: **irgendwo sein heißt -u oder -i nach *u* oder *na***, ***k* und *g* werden vor -i in femininen Wörtern zu *c* und *z***, und ***o* + Lokativ bedeutet *über*: *o meni, o čemu, o Marku*.**
+- **Als Nächstes:** Praxis 13 führt dich durch die Stadt – ein Viertel, ein Telefonat und ein Tag in der Stadt –, und Test 13 schließt die Einheit ab. Dann gibt Lektion 14 Menschen etwas – *Mami kupujem šal* – mit dem Dativ, dessen Singularendungen du schon von heute kennst.

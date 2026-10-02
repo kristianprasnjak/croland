@@ -1,137 +1,137 @@
-# Test 15: Module C — Four Cases
+# Test 15: Modul C – Vier Fälle
 cjelina: Test 15
 
 ## Ordne die Wörter zu
 format: parovi
 trajanje: 1500
 prag: 70
-info: The words of Level 15: going out, getting there and the weather. Nouns are in their naming form and verbs in the infinitive. Watch the look-alike pair *polazak* and *dolazak*, and *vrijeme*, which is both the weather and the time.
-infokratko: Level 15 words: going out, transport, weather. *polazak / dolazak*.
+info: Die Wörter von Stufe 15: Ausgehen, Hinkommen und das Wetter. Substantive stehen in der Grundform und Verben im Infinitiv. Achte auf das ähnliche Paar *polazak* und *dolazak* und auf *vrijeme*, das sowohl Wetter als auch Zeit heißt.
+infokratko: Wörter von Stufe 15: Ausgehen, Verkehr, Wetter. *polazak / dolazak*.
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- izlazak | a night out
-- večera | dinner
-- zabava | party
-- ples | dance
-- priča | story
-- balon | balloon
-- mladić | young man
-- par | couple, pair
-- gužva | crowd
-- sastanak | meeting
-- noć | night
-- ponoć | midnight
-- doma | (at/to) home
-- bolje | better
-- manje | less
-- S kim? | With whom?
-- prijevoz | transport
-- skuter | scooter
-- trajekt | ferry
-- kombi | van
-- kamion | truck
-- pješice | on foot
-- pješak | pedestrian
-- polazak | departure
-- dolazak | arrival
-- spor | slow
-- kazalište | theatre
-- šalica | cup
-- izlaziti | to go out
-- upoznati | to meet, to get to know
-- dogovoriti | to arrange
-- kasniti | to be late
-- slaviti | to celebrate
-- pozvati | to invite
-- voditi | to take (someone), to lead
-- krenuti | to set off
-- ući | to enter, to go in
-- padati | to fall
-- putovati | to travel
+- izlazak | ein Abend in der Stadt, Ausgehen
+- večera | Abendessen
+- zabava | Party
+- ples | Tanz
+- priča | Geschichte
+- balon | Luftballon
+- mladić | junger Mann
+- par | Paar
+- gužva | Gedränge, Menschenmenge
+- sastanak | Treffen
+- noć | Nacht
+- ponoć | Mitternacht
+- doma | zu Hause, nach Hause
+- bolje | besser
+- manje | weniger
+- S kim? | Mit wem?
+- prijevoz | Verkehrsmittel, Transport
+- skuter | Roller
+- trajekt | Fähre
+- kombi | Kleinbus, Transporter
+- kamion | Lastwagen
+- pješice | zu Fuß
+- pješak | Fußgänger
+- polazak | Abfahrt
+- dolazak | Ankunft
+- spor | langsam
+- kazalište | Theater
+- šalica | Tasse
+- izlaziti | ausgehen
+- upoznati | treffen, kennenlernen
+- dogovoriti | vereinbaren, abmachen
+- kasniti | sich verspäten, zu spät kommen
+- slaviti | feiern
+- pozvati | einladen
+- voditi | (jemanden) mitnehmen, führen
+- krenuti | aufbrechen, losfahren
+- ući | eintreten, hineingehen
+- padati | fallen
+- putovati | reisen
 - hodati | gehen, spazieren
-- vrijeme | weather, time
-- kiša | rain
-- oblak | cloud
-- vjetar | wind
-- magla | fog
-- oluja | storm
-- grmljavina | thunder
-- pljusak | downpour
-- duga | rainbow
-- led | ice
-- prognoza | forecast
-- godišnje doba | season
-- sunčan | sunny
-- oblačan | cloudy
-- kišovit | rainy
-- vjetrovit | windy
+- vrijeme | Wetter, Zeit
+- kiša | Regen
+- oblak | Wolke
+- vjetar | Wind
+- magla | Nebel
+- oluja | Sturm, Unwetter
+- grmljavina | Donner
+- pljusak | Regenguss, Platzregen
+- duga | Regenbogen
+- led | Eis
+- prognoza | Vorhersage
+- godišnje doba | Jahreszeit
+- sunčan | sonnig
+- oblačan | bewölkt
+- kišovit | regnerisch
+- vjetrovit | windig
 - hladnoća | kalt
-- vrućina | heat
+- vrućina | Hitze
 
 ## Was bedeutet das?
 format: izbor
-info: Recognition of the Level 15 words, with three meanings to choose from. The wrong options come from the same group of words — weather, transport, going out — so read the whole list before you tap.
-infokratko: Level 15 words; the wrong options come from the same group.
+info: Wiedererkennen der Wörter von Stufe 15, mit drei Bedeutungen zur Auswahl. Die falschen Optionen stammen aus derselben Wortgruppe – Wetter, Verkehr, Ausgehen –, also lies die ganze Liste, bevor du tippst.
+infokratko: Wörter von Stufe 15; die falschen Optionen stammen aus derselben Gruppe.
 opis: Wähle die richtige Bedeutung.
-- izlazak | a night out | a dinner | a meeting
-- zabava | party | dance | story
-- gužva | crowd | couple | meeting
-- sastanak | meeting | party | departure
-- ponoć | midnight | night | noon
-- mladić | young man | pedestrian | Kellner
-- par | couple, pair | crowd | party
-- pješice | on foot | by bike | slowly
-- polazak | departure | arrival | transport
-- dolazak | arrival | departure | delay
-- spor | slow | late | cloudy
-- trajekt | ferry | truck | van
-- kamion | truck | scooter | ferry
-- prijevoz | transport | journey | arrival
-- kasniti | to be late | to set off | to arrange
-- krenuti | to set off | to enter | to invite
-- ući | to enter, to go in | to go out | to fall
-- pozvati | to invite | to celebrate | to meet
-- dogovoriti | to arrange | to invite | to lead
-- upoznati | to meet, to get to know | to arrange | gehen, spazieren
-- slaviti | to celebrate | to invite | to dance
-- voditi | to take (someone), to lead | to drive | to travel
-- padati | to fall | gehen, spazieren | to be late
-- magla | fog | cloud | storm
-- oluja | storm | downpour | thunder
-- pljusak | downpour | rainbow | wind
-- duga | rainbow | cloud | ice
-- prognoza | forecast | season | temperature
-- oblačan | cloudy | rainy | windy
-- vrućina | heat | kalt | Sonne
+- izlazak | ein Abend in der Stadt, Ausgehen | ein Abendessen | ein Treffen
+- zabava | Party | Tanz | Geschichte
+- gužva | Gedränge, Menschenmenge | Paar | Treffen
+- sastanak | Treffen | Party | Abfahrt
+- ponoć | Mitternacht | Nacht | Mittag
+- mladić | junger Mann | Fußgänger | Kellner
+- par | Paar | Gedränge, Menschenmenge | Party
+- pješice | zu Fuß | mit dem Fahrrad | langsam
+- polazak | Abfahrt | Ankunft | Verkehrsmittel, Transport
+- dolazak | Ankunft | Abfahrt | Verspätung
+- spor | langsam | spät | bewölkt
+- trajekt | Fähre | Lastwagen | Kleinbus, Transporter
+- kamion | Lastwagen | Roller | Fähre
+- prijevoz | Verkehrsmittel, Transport | Reise | Ankunft
+- kasniti | sich verspäten, zu spät kommen | aufbrechen, losfahren | vereinbaren, abmachen
+- krenuti | aufbrechen, losfahren | eintreten | einladen
+- ući | eintreten, hineingehen | ausgehen | fallen
+- pozvati | einladen | feiern | treffen
+- dogovoriti | vereinbaren, abmachen | einladen | führen
+- upoznati | treffen, kennenlernen | vereinbaren, abmachen | gehen, spazieren
+- slaviti | feiern | einladen | tanzen
+- voditi | (jemanden) mitnehmen, führen | fahren | reisen
+- padati | fallen | gehen, spazieren | sich verspäten, zu spät kommen
+- magla | Nebel | Wolke | Sturm, Unwetter
+- oluja | Sturm, Unwetter | Regenguss, Platzregen | Donner
+- pljusak | Regenguss, Platzregen | Regenbogen | Wind
+- duga | Regenbogen | Wolke | Eis
+- prognoza | Vorhersage | Jahreszeit | Temperatur
+- oblačan | bewölkt | regnerisch | windig
+- vrućina | Hitze | kalt | Sonne
 
-## Company or means?
+## Begleitung oder Mittel?
 format: razvrstavanje
-info: Sorting instrumentals by their job. With *s* or *sa* in front the form means company — a person, or something that comes along. Alone it is the way you travel or the tool you use. The little word in front decides it.
-infokratko: *s / sa* → company. Alone → vehicle or tool.
-stupci: COMPANY (s/sa) | MEANS (no preposition)
-opis: Company or means? Sort each sentence.
-- Idem u kino s Petrom. | COMPANY (s/sa)
-- Pijem čaj s medom. | COMPANY (s/sa)
-- Ana pleše s mladićem. | COMPANY (s/sa)
-- Izlazim s prijateljima. | COMPANY (s/sa)
-- Idem na zabavu sa sestrom. | COMPANY (s/sa)
-- Ideš li sa mnom? | COMPANY (s/sa)
-- Pizza s gljivama, molim. | COMPANY (s/sa)
-- Večeram s njom. | COMPANY (s/sa)
-- Putujemo na otok trajektom. | MEANS (no preposition)
-- Ivan ide na posao skuterom. | MEANS (no preposition)
-- Idemo u grad tramvajem. | MEANS (no preposition)
-- Doma idemo taksijem. | MEANS (no preposition)
-- Plaćam karticom. | MEANS (no preposition)
-- Pišem olovkom. | MEANS (no preposition)
-- Marko putuje kombijem. | MEANS (no preposition)
-- Ana ide na posao biciklom. | MEANS (no preposition)
+info: Instrumentale nach ihrer Aufgabe sortieren. Mit *s* oder *sa* davor bedeutet die Form Begleitung – eine Person oder etwas, das mitkommt. Allein ist es die Art, wie man reist, oder das Werkzeug, das man benutzt. Das kleine Wort davor entscheidet.
+infokratko: *s / sa* → Begleitung. Allein → Fahrzeug oder Werkzeug.
+stupci: BEGLEITUNG (s/sa) | MITTEL (ohne Präposition)
+opis: Begleitung oder Mittel? Sortiere jeden Satz.
+- Idem u kino s Petrom. | BEGLEITUNG (s/sa)
+- Pijem čaj s medom. | BEGLEITUNG (s/sa)
+- Ana pleše s mladićem. | BEGLEITUNG (s/sa)
+- Izlazim s prijateljima. | BEGLEITUNG (s/sa)
+- Idem na zabavu sa sestrom. | BEGLEITUNG (s/sa)
+- Ideš li sa mnom? | BEGLEITUNG (s/sa)
+- Pizza s gljivama, molim. | BEGLEITUNG (s/sa)
+- Večeram s njom. | BEGLEITUNG (s/sa)
+- Putujemo na otok trajektom. | MITTEL (ohne Präposition)
+- Ivan ide na posao skuterom. | MITTEL (ohne Präposition)
+- Idemo u grad tramvajem. | MITTEL (ohne Präposition)
+- Doma idemo taksijem. | MITTEL (ohne Präposition)
+- Plaćam karticom. | MITTEL (ohne Präposition)
+- Pišem olovkom. | MITTEL (ohne Präposition)
+- Marko putuje kombijem. | MITTEL (ohne Präposition)
+- Ana ide na posao biciklom. | MITTEL (ohne Präposition)
 
-## Which question?
+## Welche Frage?
 format: razvrstavanje
-info: The four cases of Module C side by side. The question word shows the case: *kamo?* takes the accusative after *u / na*, *gdje?* the locative, *komu?* the dative, and *s kim?* or *čime?* the instrumental. Ask each sentence its question before you sort it.
-infokratko: *Kamo?* accusative, *Gdje?* locative, *Komu?* dative, *S kim? Čime?* instrumental.
+info: Die vier Fälle von Modul C nebeneinander. Das Fragewort zeigt den Fall: *kamo?* nimmt den Akkusativ nach *u / na*, *gdje?* den Lokativ, *komu?* den Dativ und *s kim?* oder *čime?* den Instrumental. Stell jedem Satz seine Frage, bevor du ihn sortierst.
+infokratko: *Kamo?* Akkusativ, *Gdje?* Lokativ, *Komu?* Dativ, *S kim? Čime?* Instrumental.
 stupci: KAMO? | GDJE? | KOMU? | S KIM? ČIME?
-opis: Which question does the last word answer? Sort each sentence.
+opis: Auf welche Frage antwortet das letzte Wort? Sortiere jeden Satz.
 - Idem u kino. | KAMO?
 - Idemo na koncert. | KAMO?
 - Putujem u Split. | KAMO?
@@ -152,31 +152,31 @@ opis: Which question does the last word answer? Sort each sentence.
 ## Tippe auf die Endung
 format: nastavak
 nastavci: om | em | ima | ama
-info: One tap for the instrumental. In the singular most words take **-om** and a soft ending takes **-em**; in the plural the ending is **-ima**, or **-ama** for words in **-a**. The English shows whether it is one or many.
-infokratko: Singular **-om / -em**, plural **-ima / -ama**. The English shows one or many.
-opis: The English is above. One tap puts the word in the instrumental.
-- Idem na zabavu s Ivan___. | I'm going to the party with Ivan. | om
-- Putujemo na otok trajekt___. | We're travelling to the island by ferry. | om
-- Ana pleše s mladić___. | Ana is dancing with a young man. | em
-- Sjedim u kafiću sa susjed___. | I'm sitting in a café with the neighbours. | ima
-- Pijem čaj s med___. | I drink tea with honey. | om
-- Palačinke s jagod___, molim. | Pancakes with strawberries, please. | ama
-- Ivan ide na posao skuter___. | Ivan goes to work by scooter. | om
-- Petra večera s muž___. | Petra is having dinner with her husband. | em
-- Mama ide u kino s kolegic___. | Mum is going to the cinema with her colleagues. | ama
-- Razgovaram s konobar___. | I'm talking with the waiter. | om
-- Idemo u grad tramvaj___. | We're going into town by tram. | em
-- Izlazim s prijatelj___. | I'm going out with friends. | ima
-- Kava s mlijek___, molim. | Coffee with milk, please. | om
-- Marko putuje kombij___. | Marko is travelling by van. | em
-- Baka putuje sa sestr___. | Grandma is travelling with her sisters. | ama
-- Dijete trči s balon___. | The child is running with a balloon. | om
+info: Ein Tippen für den Instrumental. Im Singular bekommen die meisten Wörter **-om** und eine weiche Endung **-em**; im Plural ist die Endung **-ima**, oder **-ama** für Wörter auf **-a**. Das Deutsche zeigt, ob es eins oder viele sind.
+infokratko: Singular **-om / -em**, Plural **-ima / -ama**. Das Deutsche zeigt eins oder viele.
+opis: Oben steht das Deutsche. Ein Tippen bringt das Wort in den Instrumental.
+- Idem na zabavu s Ivan___. | Ich gehe mit Ivan auf die Party. | om
+- Putujemo na otok trajekt___. | Wir fahren mit der Fähre auf die Insel. | om
+- Ana pleše s mladić___. | Ana tanzt mit einem jungen Mann. | em
+- Sjedim u kafiću sa susjed___. | Ich sitze mit den Nachbarn im Café. | ima
+- Pijem čaj s med___. | Ich trinke Tee mit Honig. | om
+- Palačinke s jagod___, molim. | Pfannkuchen mit Erdbeeren, bitte. | ama
+- Ivan ide na posao skuter___. | Ivan fährt mit dem Roller zur Arbeit. | om
+- Petra večera s muž___. | Petra isst mit ihrem Mann zu Abend. | em
+- Mama ide u kino s kolegic___. | Mama geht mit ihren Kolleginnen ins Kino. | ama
+- Razgovaram s konobar___. | Ich spreche mit dem Kellner. | om
+- Idemo u grad tramvaj___. | Wir fahren mit der Straßenbahn in die Stadt. | em
+- Izlazim s prijatelj___. | Ich gehe mit Freunden aus. | ima
+- Kava s mlijek___, molim. | Kaffee mit Milch, bitte. | om
+- Marko putuje kombij___. | Marko fährt mit dem Transporter. | em
+- Baka putuje sa sestr___. | Oma reist mit ihren Schwestern. | ama
+- Dijete trči s balon___. | Das Kind rennt mit einem Luftballon. | om
 
 ## Wähle die richtige Form
 format: izbor
-info: Choosing the correct instrumental. The wrong options keep the naming form after *s*, use the ending of another case, or give a soft word the hard ending *-om*. The word in brackets gives you the naming form.
-infokratko: No naming form after *s*; soft words take **-em**; plural **-ima / -ama**.
-opis: Choose the correct form.
+info: Den richtigen Instrumental wählen. Die falschen Optionen behalten die Grundform nach *s*, benutzen die Endung eines anderen Falls oder geben einem weichen Wort die harte Endung *-om*. Das Wort in Klammern gibt dir die Grundform.
+infokratko: Keine Grundform nach *s*; weiche Wörter bekommen **-em**; Plural **-ima / -ama**.
+opis: Wähle die richtige Form.
 - Idem u kino ___ . (Petra) | s Petrom | s Petra | s Petri
 - Putujemo na otok ___ . (trajekt) | trajektom | trajekt | trajektu
 - Ana pleše ___ . (mladić) | s mladićem | s mladićom | s mladić
@@ -190,11 +190,11 @@ opis: Choose the correct form.
 - Plešem ___ . (Ivan) | s Ivanom | s Ivan | s Ivanu
 - Idem u kazalište ___ . (kolegice) | s kolegicama | s kolegicima | s kolegice
 
-## Which question word?
+## Welches Fragewort?
 format: izbor
-info: Choosing the question that fits the answer. *S kim?* asks for a person with *s*, *čime?* for a vehicle or a tool, *komu?* for a receiver and *gdje?* for a place. *Kamo?* asks about a direction, and *o kome?* about the person you talk about.
-infokratko: *S kim?* person; *Čime?* vehicle, tool; *Komu?* receiver; *Gdje?* place; *Kamo?* direction.
-opis: Read the answer, then choose the question word.
+info: Die Frage wählen, die zur Antwort passt. *S kim?* fragt nach einer Person mit *s*, *čime?* nach einem Fahrzeug oder Werkzeug, *komu?* nach einem Empfänger und *gdje?* nach einem Ort. *Kamo?* fragt nach einer Richtung und *o kome?* nach der Person, über die man spricht.
+infokratko: *S kim?* Person; *Čime?* Fahrzeug, Werkzeug; *Komu?* Empfänger; *Gdje?* Ort; *Kamo?* Richtung.
+opis: Lies die Antwort und wähle dann das Fragewort.
 - ___ ideš u kino? — S bratom. | S kim | Komu | Gdje
 - ___ putuješ na otok? — Trajektom. | Čime | S kim | Komu
 - ___ pišeš? — Baki. | Komu | Koga | S kim
@@ -206,27 +206,27 @@ opis: Read the answer, then choose the question word.
 - ___ je koncert? — U subotu. | Kada | Gdje | Kamo
 - ___ košta karta? — Deset eura. | Koliko | Kada | Čime
 
-## With me, with you
+## Mit mir, mit dir
 format: izbor
-info: The company forms of the pronouns from Grammar 15. *Ja* gives *sa mnom*; every other pronoun takes plain *s*: *s tobom, s njim, s njom, s nama, s vama, s njima*. The wrong options put the naming form or the dative after *s*.
+info: Die Begleitungsformen der Pronomen aus Grammatik 15. *Ja* ergibt *sa mnom*; jedes andere Pronomen bekommt einfaches *s*: *s tobom, s njim, s njom, s nama, s vama, s njima*. Die falschen Optionen setzen die Grundform oder den Dativ nach *s*.
 infokratko: *sa mnom, s tobom, s njim, s njom, s nama, s vama, s njima*.
-opis: Choose the company form of the pronoun.
-- Ideš li ___ u kino? (with me) | sa mnom | s ja | sa meni
-- Idem ___ . (with you, a friend) | s tobom | s ti | s tebi
+opis: Wähle die Begleitungsform des Pronomens.
+- Ideš li ___ u kino? (mit mir) | sa mnom | s ja | sa meni
+- Idem ___ . (mit dir) | s tobom | s ti | s tebi
 - Marko ide na koncert. Idem ___ . | s njim | s on | s njemu
 - Ana ide na zabavu. Idem ___ . | s njom | s ona | s njoj
-- Idete li ___ ? (with us) | s nama | s mi | s nas
-- Večeramo ___ . (with them) | s njima | s oni | s njih
-- Putujem ___ . (with you, polite) | s vama | s vi | s vas
-- S kim plešeš? — ___ . (with him) | S njim | S on | S njemu
-- Tko putuje ___ ? (with me) | sa mnom | s mene | s ja
+- Idete li ___ ? (mit uns) | s nama | s mi | s nas
+- Večeramo ___ . (mit ihnen) | s njima | s oni | s njih
+- Putujem ___ . (mit Ihnen, höflich) | s vama | s vi | s vas
+- S kim plešeš? — ___ . (mit ihm) | S njim | S on | S njemu
+- Tko putuje ___ ? (mit mir) | sa mnom | s mene | s ja
 - Petra i Ana idu u kino. Idem ___ . | s njima | s one | s njih
 
-## One word, four cases
+## Ein Wort, vier Fälle
 format: izbor
-info: The same noun in four jobs, the core of Module C. After *u / na* a direction takes the accusative and a place the locative; a receiver takes the dative; company and means take the instrumental. The question in your head decides the ending.
-infokratko: *Kamo?* accusative, *Gdje?* locative, *Komu?* dative, *S kim? Čime?* instrumental.
-opis: The naming form is in brackets. Choose the form that fits the sentence.
+info: Dasselbe Substantiv in vier Aufgaben, der Kern von Modul C. Nach *u / na* nimmt eine Richtung den Akkusativ und ein Ort den Lokativ; ein Empfänger nimmt den Dativ; Begleitung und Mittel nehmen den Instrumental. Die Frage in deinem Kopf entscheidet die Endung.
+infokratko: *Kamo?* Akkusativ, *Gdje?* Lokativ, *Komu?* Dativ, *S kim? Čime?* Instrumental.
+opis: Die Grundform steht in Klammern. Wähle die Form, die in den Satz passt.
 - Idem u ___ . (kino) | kino | kinu | kinom
 - Sjedim u ___ . (kino) | kinu | kino | kinom
 - Idem na koncert s ___ . (Ana) | Anom | Ani | Anu
@@ -240,11 +240,11 @@ opis: The naming form is in brackets. Choose the form that fits the sentence.
 - Putujem s ___ . (brat) | bratom | bratu | brata
 - Kupujem poklon ___ . (mama) | mami | mamom | mamu
 
-## Type the instrumental
+## Schreib den Instrumental
 format: upis
-info: You type the instrumental and decide what goes in front. People and things that come along take *s*, or *sa* before s, š, z, ž; a vehicle or a tool takes nothing. A pronoun takes its company form, and a group takes **-ima** or **-ama**.
-infokratko: Company *s / sa* + instrumental; vehicle or tool alone; *sa mnom*; plural **-ima / -ama**.
-opis: Type the "with" form — add *s* or *sa* where it is needed.
+info: Du schreibst den Instrumental und entscheidest, was davor steht. Personen und Dinge, die mitkommen, bekommen *s*, oder *sa* vor s, š, z, ž; ein Fahrzeug oder Werkzeug bekommt nichts. Ein Pronomen bekommt seine Begleitungsform, und eine Gruppe bekommt **-ima** oder **-ama**.
+infokratko: Begleitung *s / sa* + Instrumental; Fahrzeug oder Werkzeug allein; *sa mnom*; Plural **-ima / -ama**.
+opis: Schreib die „mit“-Form – füge *s* oder *sa* hinzu, wo es nötig ist.
 - (sestra) Idem na koncert ___ . | sa sestrom
 - (trajekt) Putujemo na otok ___ . | trajektom
 - (mladić) Ana pleše ___ . | s mladićem
@@ -258,11 +258,11 @@ opis: Type the "with" form — add *s* or *sa* where it is needed.
 - (ja) Ideš li ___ ? | sa mnom
 - (kartica) Plaćam ___ . | karticom
 
-## Answer the question
+## Beantworte die Frage
 format: upis
-info: Short answers across the four cases of Module C. The question word decides the form: *s kim?* and *čime?* the instrumental, *komu?* the dative, *gdje?* and *o kome?* the locative, *kamo?* the accusative. The word in brackets is your answer.
-infokratko: *S kim? Čime?* instrumental; *Komu?* dative; *Gdje? O kome?* locative; *Kamo?* accusative.
-opis: Answer in one or two words. The word in brackets is your answer.
+info: Kurze Antworten über die vier Fälle von Modul C. Das Fragewort entscheidet die Form: *s kim?* und *čime?* den Instrumental, *komu?* den Dativ, *gdje?* und *o kome?* den Lokativ, *kamo?* den Akkusativ. Das Wort in Klammern ist deine Antwort.
+infokratko: *S kim? Čime?* Instrumental; *Komu?* Dativ; *Gdje? O kome?* Lokativ; *Kamo?* Akkusativ.
+opis: Antworte mit einem oder zwei Wörtern. Das Wort in Klammern ist deine Antwort.
 - S kim ideš na koncert? (sestra) → | Sa sestrom
 - Čime putuješ? (vlak) → | Vlakom
 - Komu pišeš? (baka) → | Baki
@@ -274,12 +274,12 @@ opis: Answer in one or two words. The word in brackets is your answer.
 - Gdje živi baka? (Split) → | U Splitu
 - Čime ideš na posao? (tramvaj) → | Tramvajem
 
-## Read: Grandma's birthday trip
+## Lesen: Omas Geburtstagsreise
 format: izbor
-info: A short story with all four cases of Module C. Before you answer, find the key word in the question — *s kim, kako, komu, gdje* — and look for the same kind of form in the text.
-infokratko: Find the question word, then the matching form in the text.
+info: Eine kurze Geschichte mit allen vier Fällen von Modul C. Bevor du antwortest, such das Schlüsselwort in der Frage – *s kim, kako, komu, gdje* – und such dieselbe Art von Form im Text.
+infokratko: Such das Fragewort, dann die passende Form im Text.
 tekst: U nedjelju Ana putuje vlakom u Rijeku. Putuje s bakom, jer baka ima rođendan. U vlaku baka pije čaj s limunom, a Ana čita knjigu. Vani pada kiša. U Rijeci ih na kolodvoru čeka Ivan s kišobranom. Ivan baki daje cvijeće, a Ani kišobran. Onda idu autobusom u restoran. U restoranu sjede dugo i razgovaraju o putovanju. Baka kaže: "Ovo je moj najljepši rođendan!"
-opis: Read the text, then answer. Passive words: *ih* (them), *najljepši* (most beautiful).
+opis: Lies den Text und antworte dann. Passive Wörter: *ih* (sie), *najljepši* (der schönste).
 - S kim Ana putuje u Rijeku? | s bakom | s Ivanom | s mamom
 - Kako putuju u Rijeku? | vlakom | autobusom | autom
 - Što baka pije u vlaku? | čaj s limunom | kavu s mlijekom | čaj s medom
@@ -289,16 +289,16 @@ opis: Read the text, then answer. Passive words: *ih* (them), *najljepši* (most
 
 ## Aus den früheren Levels
 format: izbor
-info: The rest of Module C and a little from before it: question words, negation, the locative, the dative and the perfect. Each item comes from a lesson you have finished, so read the brackets and the English carefully.
-infokratko: Module C review: questions, negation, locative, dative, plus the perfect.
-opis: Not only the instrumental — everything here comes from levels 8 to 14.
+info: Der Rest von Modul C und ein bisschen von davor: Fragewörter, Verneinung, der Lokativ, der Dativ und das Perfekt. Jede Aufgabe stammt aus einer Lektion, die du abgeschlossen hast, also lies die Klammern und das Deutsche genau.
+infokratko: Wiederholung Modul C: Fragen, Verneinung, Lokativ, Dativ, dazu das Perfekt.
+opis: Nicht nur der Instrumental – alles hier stammt aus den Stufen 8 bis 14.
 - ___ je ovo torba? — Moja. | Čija | Čiji | Čije
 - Koliko ___ karta? — Deset eura. | košta | koštaju | koštam
 - ___ ideš na koncert? — U subotu. | Kada | Koliko | Tko
 - Koja je rečenica točna? | Ideš li sa mnom? | Li ideš sa mnom? | Ideš sa mnom li?
-- Danas ___ ne ide u kino. (nobody) | nitko | nikoga | ni
+- Danas ___ ne ide u kino. (niemand) | nitko | nikoga | ni
 - Ne idem autom, ___ vlakom. | nego | ali | i
-- Mi ___ auto. (we don't have) | nemamo | ne imamo | nismo
+- Mi ___ auto. (wir haben kein) | nemamo | ne imamo | nismo
 - Koja je rečenica točna? | Nikad ne idem taksijem. | Nikad idem taksijem. | Ne nikad idem taksijem.
 - Koncert je na ___ . (trg) | trgu | trg | trga
 - Vidimo se u ___ . (kafić) | kafiću | kafić | kafića
@@ -313,45 +313,45 @@ opis: Not only the instrumental — everything here comes from levels 8 to 14.
 - Sutra ___ putovati trajektom. (mi) | ćemo | ćete | ću
 - Koja je rečenica točna? | Putovat ćemo vlakom. | Putovati ćemo vlakom. | Ćemo putovati vlakom.
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-info: Whole sentences from Module C, built from tiles. *S* or *sa* stands directly before the company, a vehicle has nothing in front of it, a receiver often takes the first tile, and short words such as *je* and *li* take the second place.
-infokratko: *s / sa* before the company; nothing before a vehicle; *je, li* second.
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- S kim ideš na koncert? | en: Who are you going to the concert with?
-- U petak navečer izlazim s prijateljima. | en: On Friday evening I'm going out with friends.
-- Putujemo na otok trajektom. | en: We're travelling to the island by ferry.
-- Ana pije kavu s mlijekom, a Marko čaj s limunom. | en: Ana drinks coffee with milk, and Marko tea with lemon.
-- Ideš li sa mnom u kino? | en: Are you coming to the cinema with me?
-- Ne idem autom, nego vlakom. | en: I'm not going by car, but by train.
-- S Markom putujem vlakom. | en: I'm travelling by train with Marko.
-- Idemo taksijem, jer pada kiša. | en: We're going by taxi, because it's raining.
-- Večeram s njom u restoranu. | en: I'm having dinner with her in a restaurant.
-- Pizza s gljivama i sok, molim. | en: A pizza with mushrooms and a juice, please.
-- Baki šaljem čokoladu, a djedu pišem pismo. | en: I'm sending Grandma chocolate, and I'm writing Grandpa a letter.
-- Ana je u teretani, a Marko je u kinu. | en: Ana is at the gym, and Marko is at the cinema.
-- Marko nikad ništa ne jede. | en: Marko never eats anything.
-- Koliko godina ima tvoj brat? | en: How old is your brother?
-- Čekam te na kolodvoru. | en: I'm waiting for you at the station.
+info: Ganze Sätze aus Modul C, aus Kacheln gebaut. *S* oder *sa* steht direkt vor der Begleitung, ein Fahrzeug hat nichts davor, ein Empfänger nimmt oft die erste Kachel, und kurze Wörter wie *je* und *li* nehmen die zweite Stelle ein.
+infokratko: *s / sa* vor der Begleitung; nichts vor einem Fahrzeug; *je, li* an zweiter Stelle.
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- S kim ideš na koncert? | en: Mit wem gehst du aufs Konzert?
+- U petak navečer izlazim s prijateljima. | en: Am Freitagabend gehe ich mit Freunden aus.
+- Putujemo na otok trajektom. | en: Wir fahren mit der Fähre auf die Insel.
+- Ana pije kavu s mlijekom, a Marko čaj s limunom. | en: Ana trinkt Kaffee mit Milch und Marko Tee mit Zitrone.
+- Ideš li sa mnom u kino? | en: Kommst du mit mir ins Kino?
+- Ne idem autom, nego vlakom. | en: Ich fahre nicht mit dem Auto, sondern mit dem Zug.
+- S Markom putujem vlakom. | en: Ich fahre mit Marko mit dem Zug.
+- Idemo taksijem, jer pada kiša. | en: Wir fahren mit dem Taxi, weil es regnet.
+- Večeram s njom u restoranu. | en: Ich esse mit ihr im Restaurant zu Abend.
+- Pizza s gljivama i sok, molim. | en: Eine Pizza mit Pilzen und einen Saft, bitte.
+- Baki šaljem čokoladu, a djedu pišem pismo. | en: Ich schicke Oma Schokolade, und ich schreibe Opa einen Brief.
+- Ana je u teretani, a Marko je u kinu. | en: Ana ist im Fitnessstudio, und Marko ist im Kino.
+- Marko nikad ništa ne jede. | en: Marko isst nie etwas.
+- Koliko godina ima tvoj brat? | en: Wie alt ist dein Bruder?
+- Čekam te na kolodvoru. | en: Ich warte am Bahnhof auf dich.
 
 ## Schreib es auf Kroatisch
 format: upis
-info: Free production from English, the hardest step. Company takes *s* or *sa* with the instrumental, a vehicle takes the instrumental alone, a receiver the dative and a place the locative. Where the speaker's gender shows, both forms are accepted.
-infokratko: Company *s / sa*; vehicle alone; receiver dative; place locative. Both genders accepted.
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- I'm going to the cinema with my brother. | Idem u kino s bratom / S bratom idem u kino / Idem s bratom u kino
-- We travel by train. | Putujemo vlakom / Vlakom putujemo
-- Tea with lemon, please. | Čaj s limunom, molim
-- Who are you going with? | S kim ideš
-- Are you coming with me? | Ideš li sa mnom
-- I'm going out with friends. | Izlazim s prijateljima
-- She goes to work by bus. | Ona ide na posao autobusom / Ide na posao autobusom / Ona ide autobusom na posao / Ide autobusom na posao
-- I'm going on foot. | Idem pješice / Idem pješke
-- I'm not going by car, but by tram. | Ne idem autom, nego tramvajem
-- I'm dancing with him. | Plešem s njim
-- I'm sending Grandma a package. | Šaljem baki paket / Baki šaljem paket / Šaljem paket baki
-- Ana is in the café. | Ana je u kafiću
-- We were at the concert. | Bili smo na koncertu / Bile smo na koncertu
-- I was late. | Kasnio sam / Kasnila sam
-- It's raining. | Pada kiša / Kiša pada
-- Nobody goes by taxi. | Nitko ne ide taksijem
+info: Freie Produktion aus dem Deutschen, der schwierigste Schritt. Begleitung bekommt *s* oder *sa* mit dem Instrumental, ein Fahrzeug den Instrumental allein, ein Empfänger den Dativ und ein Ort den Lokativ. Wo das Geschlecht des Sprechers sichtbar wird, werden beide Formen akzeptiert.
+infokratko: Begleitung *s / sa*; Fahrzeug allein; Empfänger Dativ; Ort Lokativ. Beide Geschlechter akzeptiert.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Ich gehe mit meinem Bruder ins Kino. | Idem u kino s bratom / S bratom idem u kino / Idem s bratom u kino
+- Wir fahren mit dem Zug. | Putujemo vlakom / Vlakom putujemo
+- Tee mit Zitrone, bitte. | Čaj s limunom, molim
+- Mit wem gehst du? | S kim ideš
+- Kommst du mit mir? | Ideš li sa mnom
+- Ich gehe mit Freunden aus. | Izlazim s prijateljima
+- Sie fährt mit dem Bus zur Arbeit. | Ona ide na posao autobusom / Ide na posao autobusom / Ona ide autobusom na posao / Ide autobusom na posao
+- Ich gehe zu Fuß. | Idem pješice / Idem pješke
+- Ich fahre nicht mit dem Auto, sondern mit der Straßenbahn. | Ne idem autom, nego tramvajem
+- Ich tanze mit ihm. | Plešem s njim
+- Ich schicke Oma ein Paket. | Šaljem baki paket / Baki šaljem paket / Šaljem paket baki
+- Ana ist im Café. | Ana je u kafiću
+- Wir waren auf dem Konzert. | Bili smo na koncertu / Bile smo na koncertu
+- Ich bin zu spät gekommen. | Kasnio sam / Kasnila sam
+- Es regnet. | Pada kiša / Kiša pada
+- Niemand fährt mit dem Taxi. | Nitko ne ide taksijem

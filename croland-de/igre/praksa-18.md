@@ -1,25 +1,25 @@
-# Reading: A Million Euros & the Perfect Day
+# Lesen: Eine Million Euro & der perfekte Tag
 cjelina: Practice 18
 
-## Text 1: A million euros
+## Text 1: Eine Million Euro
 format: tekst
-info: A read-along daydream by Marko, and nearly every line is a conditional. Read it twice: once for the story, once for the pattern — the participle with *bih* for Marko (*kupio bih*), *bi* for the others (*mama bi dobila*), and *Bih li…?* for a question.
-infokratko: Marko: *kupio bih*. Others: *mama bi dobila*. Question: *Bih li radio?*
-opis: Marko imagines a million euros. Tap **EN** next to any sentence to see its translation.
-- Passive words: *zamislite* (imagine), *veliki* (big), *sve dao* (gave it all away).
-- Zamislite: milijun eura! Što bih kupio? | Imagine: a million euros! What would I buy?
-- Prvo bih kupio kuću pokraj mora. | First I would buy a house by the sea.
-- Onda bih kupio brod. | Then I would buy a boat.
-- Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor. | Mum would get a new car, and Dad would get peace — and a big television.
-- Putovao bih cijelu godinu. | I would travel the whole year.
-- Bih li radio? Možda... ali samo ponedjeljkom! | Would I work? Maybe... but only on Mondays!
-- A možda bih sve dao i ostao isti. | And maybe I would give it all away and stay the same.
-- Jer sreća ne košta milijun eura. | Because happiness doesn't cost a million euros.
+info: Ein Tagtraum von Marko zum Mitlesen, und fast jede Zeile ist ein Konditional. Lies ihn zweimal: einmal für die Geschichte, einmal für das Muster – das Partizip mit *bih* für Marko (*kupio bih*), *bi* für die anderen (*mama bi dobila*) und *Bih li…?* für eine Frage.
+infokratko: Marko: *kupio bih*. Andere: *mama bi dobila*. Frage: *Bih li radio?*
+opis: Marko stellt sich eine Million Euro vor. Tippe neben einem Satz auf **DE**, um die Übersetzung zu sehen.
+- Passive Wörter: *zamislite* (stellt euch vor), *veliki* (groß), *sve dao* (alles weggeben).
+- Zamislite: milijun eura! Što bih kupio? | Stellt euch vor: eine Million Euro! Was würde ich kaufen?
+- Prvo bih kupio kuću pokraj mora. | Zuerst würde ich ein Haus am Meer kaufen.
+- Onda bih kupio brod. | Dann würde ich ein Boot kaufen.
+- Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor. | Mama würde ein neues Auto bekommen, und Papa würde Ruhe bekommen – und einen großen Fernseher.
+- Putovao bih cijelu godinu. | Ich würde das ganze Jahr reisen.
+- Bih li radio? Možda... ali samo ponedjeljkom! | Würde ich arbeiten? Vielleicht ... aber nur montags!
+- A možda bih sve dao i ostao isti. | Und vielleicht würde ich alles weggeben und derselbe bleiben.
+- Jer sreća ne košta milijun eura. | Denn Glück kostet keine Million Euro.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on Marko's daydream. Each question uses the conditional too, so the answer is on the line with the same verb: *Što bi prvo kupio?* matches *Prvo bih kupio…*, and *Što bi mama dobila?* matches *Mama bi dobila…*
-infokratko: Find the same verb: *Što bi kupio?* → *Prvo bih kupio…*
+info: Verständnis zu Markos Tagtraum. Auch jede Frage benutzt den Konditional, also steht die Antwort in der Zeile mit demselben Verb: *Što bi prvo kupio?* passt zu *Prvo bih kupio…*, und *Što bi mama dobila?* passt zu *Mama bi dobila…*
+infokratko: Finde dasselbe Verb: *Što bi kupio?* → *Prvo bih kupio…*
 opis: Antworte aus dem Text.
 tekst: Zamislite: milijun eura! Što bih kupio? Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila novi auto, a tata bi dobio mir — i veliki televizor. Putovao bih cijelu godinu. Bih li radio? Možda... ali samo ponedjeljkom! A možda bih sve dao i ostao isti. Jer sreća ne košta milijun eura.
 - Što bi Marko prvo kupio? | kuću pokraj mora | brod | auto
@@ -29,11 +29,11 @@ tekst: Zamislite: milijun eura! Što bih kupio? Prvo bih kupio kuću pokraj mora
 - Bi li Marko radio? | možda, samo ponedjeljkom | nikad | svaki dan
 - Što ne košta milijun eura? | sreća | kuća | brod
 
-## Type the conditional
+## Schreib den Konditional
 format: upis
-info: Copy each helper back into its line. Marko speaks about himself, so he uses *bih*; Mum, Dad and happiness are third persons and take *bi*. The helper is never first — it follows the first word or the participle.
-infokratko: Marko: *bih*. Mum, Dad: *bi*. The helper is second.
-opis: Fill in the conditional from the text.
+info: Schreib jeden Helfer zurück in seine Zeile. Marko spricht über sich selbst, also benutzt er *bih*; Mama, Papa und das Glück sind dritte Personen und nehmen *bi*. Der Helfer steht nie zuerst – er folgt dem ersten Wort oder dem Partizip.
+infokratko: Marko: *bih*. Mama, Papa: *bi*. Der Helfer steht an zweiter Stelle.
+opis: Setz den Konditional aus dem Text ein.
 tekst: Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila novi auto, a tata bi dobio mir. Putovao bih cijelu godinu. Bih li radio? A možda bih sve dao i ostao isti.
 - Prvo ___ kupio kuću. | bih
 - Onda ___ kupio brod. | bih
@@ -44,25 +44,25 @@ tekst: Prvo bih kupio kuću pokraj mora. Onda bih kupio brod. Mama bi dobila nov
 - A možda bih sve dao i ___ isti. (ostati) | ostao
 - Mama bi ___ novi auto. (dobiti) | dobila
 
-## Text 2: Where would you live?
+## Text 2: Wo würdest du leben?
 format: tekst
-info: A phone call between Petra and Ivan about the city and the sea. Petra's forms end in **-la** (*plivala bih, čitala*), Ivan's in **-o** (*ostao bih, dolazio*), so the participle tells you who is speaking even without names. *Ne bih mogao* uses the participle of *moći*.
+info: Ein Telefonat zwischen Petra und Ivan über Stadt und Meer. Petras Formen enden auf **-la** (*plivala bih, čitala*), Ivans auf **-o** (*ostao bih, dolazio*), also verrät dir das Partizip auch ohne Namen, wer spricht. *Ne bih mogao* benutzt das Partizip von *moći*.
 infokratko: Petra: **-la** (*plivala bih*). Ivan: **-o** (*ostao bih*). *ne bih mogao*.
-opis: Petra and Ivan can't agree: city or sea? Tap **EN** to see any line in English.
-- Passive words: *Ovdje Ivan* (It's Ivan, on the phone), *k meni* (to my place), *ljeti* (in summer), *i grad i more* (both the city and the sea).
-- — Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora? | — Hi, Petra, it's Ivan! Where would you live: in the city or by the sea?
-- — Pokraj mora, naravno! Svaki dan bih plivala. | — By the sea, of course! I would swim every day.
-- — A što bi radila zimi? | — And what would you do in winter?
-- — Zimi bih čitala, kuhala i gledala valove. A ti? | — In winter I would read, cook and watch the waves. And you?
-- — Ja bih ostao u gradu. Ne bih mogao bez kina i kafića. | — I would stay in the city. I couldn't live without the cinema and cafés.
-- — A bi li dolazio k meni ljeti? | — And would you come to my place in summer?
-- — Dolazio bih svaki vikend! | — I would come every weekend!
-- — Onda dogovoreno: ja bih imala more, a ti bi imao i grad i more! | — Then it's a deal: I would have the sea, and you would have both the city and the sea!
+opis: Petra und Ivan können sich nicht einigen: Stadt oder Meer? Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *Ovdje Ivan* (hier ist Ivan, am Telefon), *k meni* (zu mir), *ljeti* (im Sommer), *i grad i more* (sowohl die Stadt als auch das Meer).
+- — Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora? | — Hallo, Petra, hier ist Ivan! Wo würdest du leben: in der Stadt oder am Meer?
+- — Pokraj mora, naravno! Svaki dan bih plivala. | — Am Meer, natürlich! Ich würde jeden Tag schwimmen.
+- — A što bi radila zimi? | — Und was würdest du im Winter machen?
+- — Zimi bih čitala, kuhala i gledala valove. A ti? | — Im Winter würde ich lesen, kochen und die Wellen beobachten. Und du?
+- — Ja bih ostao u gradu. Ne bih mogao bez kina i kafića. | — Ich würde in der Stadt bleiben. Ohne Kino und Cafés könnte ich nicht leben.
+- — A bi li dolazio k meni ljeti? | — Und würdest du im Sommer zu mir kommen?
+- — Dolazio bih svaki vikend! | — Ich würde jedes Wochenende kommen!
+- — Onda dogovoreno: ja bih imala more, a ti bi imao i grad i more! | — Dann abgemacht: Ich hätte das Meer, und du hättest sowohl die Stadt als auch das Meer!
 
 ## Richtig oder falsch?
 format: izbor
-info: Check each statement against the call. Keep the two speakers apart: Petra would live by the sea and read in winter, Ivan would stay in the city and visit every weekend. The endings help — *-la* is Petra, *-o* is Ivan.
-infokratko: Petra: sea, reading in winter. Ivan: city, every weekend.
+info: Prüf jede Aussage am Telefonat. Halte die zwei Sprecher auseinander: Petra würde am Meer leben und im Winter lesen, Ivan würde in der Stadt bleiben und jedes Wochenende zu Besuch kommen. Die Endungen helfen – *-la* ist Petra, *-o* ist Ivan.
+infokratko: Petra: Meer, im Winter lesen. Ivan: Stadt, jedes Wochenende.
 opis: Tippe auf richtig oder falsch.
 tekst: — Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora? — Pokraj mora, naravno! Svaki dan bih plivala. — A što bi radila zimi? — Zimi bih čitala, kuhala i gledala valove. A ti? — Ja bih ostao u gradu. Ne bih mogao bez kina i kafića. — A bi li dolazio k meni ljeti? — Dolazio bih svaki vikend!
 - Petra bi živjela pokraj mora. | RICHTIG | FALSCH
@@ -74,9 +74,9 @@ tekst: — Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora? �
 
 ## Bring den Dialog in Ordnung
 format: poredak
-info: Rebuild the call line by line. Each answer follows its question: *Gdje bi živjela?* is answered by *Pokraj mora*, *Što bi radila zimi?* by the winter plans, and *Bi li dolazio k meni ljeti?* by *Dolazio bih svaki vikend*. The deal comes last.
-infokratko: Each answer follows its question; the deal comes last.
-opis: Rebuild the debate.
+info: Bau das Telefonat Zeile für Zeile wieder auf. Jede Antwort folgt ihrer Frage: Auf *Gdje bi živjela?* antwortet *Pokraj mora*, auf *Što bi radila zimi?* die Winterpläne, und auf *Bi li dolazio k meni ljeti?* antwortet *Dolazio bih svaki vikend*. Die Abmachung kommt zuletzt.
+infokratko: Jede Antwort folgt ihrer Frage; die Abmachung kommt zuletzt.
+opis: Bau die Diskussion wieder auf.
 - — Bok, Petra, ovdje Ivan! Gdje bi živjela: u gradu ili pokraj mora?
 - — Pokraj mora, naravno! Svaki dan bih plivala.
 - — A što bi radila zimi?
@@ -86,26 +86,26 @@ opis: Rebuild the debate.
 - — Dolazio bih svaki vikend!
 - — Onda dogovoreno: ja bih imala more, a ti bi imao i grad i more!
 
-## Text 3: The perfect day
+## Text 3: Der perfekte Tag
 format: tekst
-info: Ana describes her perfect day, from morning to night. Her own forms end in **-la** (*ustala bih, pila bih*); when her friends join, the helper becomes *bismo* and the participle *-li* (*jeli bismo, išli bismo*). *Sunce bi sjalo* is a third person.
-infokratko: Ana: *ustala bih*. With friends: *jeli bismo*. *Sunce bi sjalo*.
-opis: Ana's perfect day, hour by hour. Tap **EN** to see any line in English.
-- Passive words: *izgledao* (would look), *ovako* (like this), *bez alarma* (without an alarm), *sjalo* (would shine), *još duže* (even longer), *ništa posebno* (nothing special), *baš zato* (exactly for that reason).
-- Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma. | My perfect day would look like this: I would get up late, without an alarm.
-- Pila bih kavu na balkonu. | I would drink coffee on the balcony.
-- Sunce bi sjalo, a ja ne bih žurila. | The sun would shine, and I wouldn't hurry.
-- Prijatelji bi došli na ručak. | Friends would come for lunch.
-- Jeli bismo dugo, a pričali bismo još duže. | We would eat for a long time, and talk even longer.
-- Poslijepodne bismo išli na rijeku. | In the afternoon we would go to the river.
-- Navečer bih gledala zvijezde. | In the evening I would watch the stars.
-- Ništa posebno — i baš zato savršeno. | Nothing special — and exactly for that reason, perfect.
+info: Ana beschreibt ihren perfekten Tag, von morgens bis abends. Ihre eigenen Formen enden auf **-la** (*ustala bih, pila bih*); wenn ihre Freunde dazukommen, wird der Helfer zu *bismo* und das Partizip zu *-li* (*jeli bismo, išli bismo*). *Sunce bi sjalo* ist eine dritte Person.
+infokratko: Ana: *ustala bih*. Mit Freunden: *jeli bismo*. *Sunce bi sjalo*.
+opis: Anas perfekter Tag, Stunde für Stunde. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *izgledao* (würde aussehen), *ovako* (so), *bez alarma* (ohne Wecker), *sjalo* (würde scheinen), *još duže* (noch länger), *ništa posebno* (nichts Besonderes), *baš zato* (genau deshalb).
+- Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma. | Mein perfekter Tag würde so aussehen: Ich würde spät aufstehen, ohne Wecker.
+- Pila bih kavu na balkonu. | Ich würde auf dem Balkon Kaffee trinken.
+- Sunce bi sjalo, a ja ne bih žurila. | Die Sonne würde scheinen, und ich hätte es nicht eilig.
+- Prijatelji bi došli na ručak. | Freunde würden zum Mittagessen kommen.
+- Jeli bismo dugo, a pričali bismo još duže. | Wir würden lange essen und noch länger reden.
+- Poslijepodne bismo išli na rijeku. | Am Nachmittag würden wir an den Fluss gehen.
+- Navečer bih gledala zvijezde. | Am Abend würde ich die Sterne anschauen.
+- Ništa posebno — i baš zato savršeno. | Nichts Besonderes – und genau deshalb perfekt.
 
-## Put the perfect day in order
+## Bring den perfekten Tag in die richtige Reihenfolge
 format: poredak
-info: Sequence Ana's day from Text 3. The day runs from a late morning to the stars: coffee comes before the friends arrive, the long lunch before the afternoon at the river, and the stars at the very end.
-infokratko: Late morning, coffee, lunch, the river, the stars.
-opis: Put the perfect day in order.
+info: Ordne Anas Tag aus Text 3. Der Tag läuft von einem späten Morgen bis zu den Sternen: Der Kaffee kommt, bevor die Freunde ankommen, das lange Mittagessen vor dem Nachmittag am Fluss und die Sterne ganz am Ende.
+infokratko: Später Morgen, Kaffee, Mittagessen, der Fluss, die Sterne.
+opis: Bring den perfekten Tag in die richtige Reihenfolge.
 - Ustala bih kasno.
 - Pila bih kavu na balkonu.
 - Prijatelji bi došli na ručak.
@@ -115,8 +115,8 @@ opis: Put the perfect day in order.
 
 ## Hast du's verstanden?
 format: izbor
-info: Comprehension on Ana's day. The questions ask *when, where* and *what*, and each answer is on one line. Watch the times of day: coffee is in the morning on the balcony, the river in the afternoon, the stars in the evening.
-infokratko: Morning: balcony. Afternoon: river. Evening: stars.
+info: Verständnis zu Anas Tag. Die Fragen fragen *wann, wo* und *was*, und jede Antwort steht in einer Zeile. Achte auf die Tageszeiten: Der Kaffee ist morgens auf dem Balkon, der Fluss am Nachmittag, die Sterne am Abend.
+infokratko: Morgens: Balkon. Nachmittags: Fluss. Abends: Sterne.
 opis: Antworte aus dem Text.
 tekst: Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma. Pila bih kavu na balkonu. Sunce bi sjalo, a ja ne bih žurila. Prijatelji bi došli na ručak. Jeli bismo dugo, a pričali bismo još duže. Poslijepodne bismo išli na rijeku. Navečer bih gledala zvijezde.
 - Kako bi Ana ustala? | kasno, bez alarma | rano, s alarmom | u podne
@@ -126,23 +126,23 @@ tekst: Moj savršen dan bi izgledao ovako: ustala bih kasno, bez alarma. Pila bi
 - Što bi Ana gledala navečer? | zvijezde | film | valove
 - Bi li Ana žurila? | ne bi | bi | možda
 
-## Text 4: Street survey
+## Text 4: Straßenumfrage
 format: tekst
-info: A real newspaper street survey: one question, four people, four answers. Each person answers for themselves, so the participle shows who is speaking — *putovao* (Luka), *kupila* (Vesna, Maja), *kupio* (Zoran). The question itself uses *biste*, the polite *vi*.
-infokratko: A real survey. *Što biste radili…?* Answers: *putovao bih, kupila bih, ne bih kupio*.
-opis: A newspaper asks people in the street one question. Tap **EN** to see any line in English.
-- Passive words: *pitali smo* (we asked), *oko svijeta* (around the world), *više ne* (no longer), *za unuke* (for the grandchildren), *pola* (half), *dala* (would give), *bolnici* (to the hospital).
-- PITALI SMO VAS: Što biste radili s milijun eura? | WE ASKED YOU: What would you do with a million euros?
-- Luka (19), student: "Putovao bih oko svijeta. Prvo u Japan!" | Luka (19), student: "I would travel around the world. Japan first!"
-- Vesna (45), učiteljica: "Kupila bih kuću na otoku. I više ne bih radila!" | Vesna (45), teacher: "I would buy a house on an island. And I wouldn't work any more!"
-- Zoran (70), djed: "Ništa ne bih kupio. Štedio bih za unuke." | Zoran (70), grandfather: "I wouldn't buy anything. I would save for my grandchildren."
-- Maja (28), doktorica: "Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu." | Maja (28), doctor: "I would give half to the hospital, and with the other half I would buy a flat in Zagreb."
+info: Eine echte Straßenumfrage aus der Zeitung: eine Frage, vier Leute, vier Antworten. Jede Person antwortet für sich selbst, also zeigt das Partizip, wer spricht – *putovao* (Luka), *kupila* (Vesna, Maja), *kupio* (Zoran). Die Frage selbst benutzt *biste*, das höfliche *vi*.
+infokratko: Eine echte Umfrage. *Što biste radili…?* Antworten: *putovao bih, kupila bih, ne bih kupio*.
+opis: Eine Zeitung stellt Leuten auf der Straße eine Frage. Tippe auf **DE**, um eine Zeile auf Deutsch zu sehen.
+- Passive Wörter: *pitali smo* (wir haben gefragt), *oko svijeta* (um die Welt), *više ne* (nicht mehr), *za unuke* (für die Enkel), *pola* (die Hälfte), *dala* (würde geben), *bolnici* (dem Krankenhaus).
+- PITALI SMO VAS: Što biste radili s milijun eura? | WIR HABEN SIE GEFRAGT: Was würden Sie mit einer Million Euro machen?
+- Luka (19), student: "Putovao bih oko svijeta. Prvo u Japan!" | Luka (19), Student: „Ich würde um die Welt reisen. Zuerst nach Japan!“
+- Vesna (45), učiteljica: "Kupila bih kuću na otoku. I više ne bih radila!" | Vesna (45), Lehrerin: „Ich würde ein Haus auf einer Insel kaufen. Und ich würde nicht mehr arbeiten!“
+- Zoran (70), djed: "Ništa ne bih kupio. Štedio bih za unuke." | Zoran (70), Großvater: „Ich würde nichts kaufen. Ich würde für meine Enkel sparen.“
+- Maja (28), doktorica: "Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu." | Maja (28), Ärztin: „Die Hälfte würde ich dem Krankenhaus geben, und für die andere Hälfte würde ich eine Wohnung in Zagreb kaufen.“
 
-## Who said it?
+## Wer hat es gesagt?
 format: izbor
-info: Reading the survey for who said what. Each person has one line, and the participle confirms the answer: *Putovao bih* is a man, *Kupila bih* a woman. Two people are women, so read the whole answer, not only the ending.
-infokratko: One line per person. *-o* a man, *-la* a woman — then read the rest.
-opis: Answer from the survey.
+info: Die Umfrage danach lesen, wer was gesagt hat. Jede Person hat eine Zeile, und das Partizip bestätigt die Antwort: *Putovao bih* ist ein Mann, *Kupila bih* eine Frau. Zwei Personen sind Frauen, also lies die ganze Antwort, nicht nur die Endung.
+infokratko: Eine Zeile pro Person. *-o* ein Mann, *-la* eine Frau – dann lies den Rest.
+opis: Antworte anhand der Umfrage.
 tekst: PITALI SMO VAS: Što biste radili s milijun eura? Luka (19), student: "Putovao bih oko svijeta. Prvo u Japan!" Vesna (45), učiteljica: "Kupila bih kuću na otoku. I više ne bih radila!" Zoran (70), djed: "Ništa ne bih kupio. Štedio bih za unuke." Maja (28), doktorica: "Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu."
 - Tko bi putovao oko svijeta? | Luka | Zoran | Maja
 - Kamo bi Luka išao prvo? | u Japan | na otok | u Zagreb
@@ -151,26 +151,26 @@ tekst: PITALI SMO VAS: Što biste radili s milijun eura? Luka (19), student: "Pu
 - Tko više ne bi radio? | Vesna | Maja | Luka
 - Gdje bi Maja kupila stan? | u Zagrebu | na otoku | u Japanu
 
-## Text 5: Four dreams
+## Text 5: Vier Träume
 format: tekst
-info: A puzzle rather than a story. Four friends would each do something different with the lottery money, and every clue rules something out. Start with Marko: after two clues only one thing is left for him, and the rest follows.
-infokratko: Every clue rules something out. Start with Marko.
-opis: Four friends, a lottery ticket and four different dreams. Read it twice before you answer.
-- Passive words: *svatko* (each one), *nešto drugo* (something different), *se boji mora* (is afraid of the sea).
-- Ana, Marko, Petra i Ivan imaju kartu za lutriju. | Ana, Marko, Petra and Ivan have a lottery ticket.
-- Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, jedan auto, a jedan bi štedio. | Each would do something different with the money: one would buy a villa, one a boat, one a car, and one would save.
-- Ana se boji mora. Ne bi kupila brod. | Ana is afraid of the sea. She wouldn't buy a boat.
-- Marko ne bi kupio ni auto ni vilu. | Marko would buy neither a car nor a villa.
-- Petra ne bi štedjela. | Petra wouldn't save.
-- Ivan ne vozi i ne bi kupio auto. | Ivan doesn't drive and wouldn't buy a car.
-- Ni Marko ni Ivan ne bi kupili brod. | Neither Marko nor Ivan would buy a boat.
-- Tko bi što radio? | Who would do what?
+info: Eher ein Rätsel als eine Geschichte. Vier Freunde würden mit dem Lottogeld jeweils etwas anderes machen, und jeder Hinweis schließt etwas aus. Fang mit Marko an: Nach zwei Hinweisen bleibt für ihn nur eine Sache übrig, und der Rest folgt.
+infokratko: Jeder Hinweis schließt etwas aus. Fang mit Marko an.
+opis: Vier Freunde, ein Lottoschein und vier verschiedene Träume. Lies den Text zweimal, bevor du antwortest.
+- Passive Wörter: *svatko* (jeder), *nešto drugo* (etwas anderes), *se boji mora* (hat Angst vor dem Meer).
+- Ana, Marko, Petra i Ivan imaju kartu za lutriju. | Ana, Marko, Petra und Ivan haben einen Lottoschein.
+- Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, jedan auto, a jedan bi štedio. | Jeder würde mit dem Geld etwas anderes machen: Einer würde eine Villa kaufen, einer ein Boot, einer ein Auto, und einer würde sparen.
+- Ana se boji mora. Ne bi kupila brod. | Ana hat Angst vor dem Meer. Sie würde kein Boot kaufen.
+- Marko ne bi kupio ni auto ni vilu. | Marko würde weder ein Auto noch eine Villa kaufen.
+- Petra ne bi štedjela. | Petra würde nicht sparen.
+- Ivan ne vozi i ne bi kupio auto. | Ivan fährt nicht Auto und würde kein Auto kaufen.
+- Ni Marko ni Ivan ne bi kupili brod. | Weder Marko noch Ivan würden ein Boot kaufen.
+- Tko bi što radio? | Wer würde was machen?
 
-## Solve the puzzle
+## Löse das Rätsel
 format: izbor
-info: Deduction from the clues. Marko would buy neither the car, the villa nor the boat, so he would save. Ivan cannot take the car or the boat, and saving is Marko's, so he would buy the villa. Ana is left with the car, and Petra with the boat.
-infokratko: Marko first: he would save. Then Ivan, Ana and Petra.
-opis: Nobody says who would do what. Work it out from the text.
+info: Schlussfolgern aus den Hinweisen. Marko würde weder das Auto noch die Villa noch das Boot kaufen, also würde er sparen. Ivan kann weder das Auto noch das Boot nehmen, und das Sparen gehört Marko, also würde er die Villa kaufen. Ana bleibt das Auto und Petra das Boot.
+infokratko: Zuerst Marko: Er würde sparen. Dann Ivan, Ana und Petra.
+opis: Niemand sagt, wer was machen würde. Finde es aus dem Text heraus.
 tekst: Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, jedan auto, a jedan bi štedio. Ana se boji mora. Ne bi kupila brod. Marko ne bi kupio ni auto ni vilu. Petra ne bi štedjela. Ivan ne vozi i ne bi kupio auto. Ni Marko ni Ivan ne bi kupili brod.
 - Tko bi štedio? | Marko | Ivan | Ana
 - Što bi kupio Ivan? | vilu | brod | auto
@@ -179,35 +179,35 @@ tekst: Svatko bi s novcem radio nešto drugo: jedan bi kupio vilu, jedan brod, j
 - Zašto Ana ne bi kupila brod? | jer se boji mora | jer ne vozi | jer bi štedjela
 - Tko ne vozi? | Ivan | Marko | Petra
 
-## Tap the ending from the texts
+## Tippe die Endung aus den Texten
 format: nastavak
 nastavci: o | la | li | le
-info: One tap finishes the participle, and almost every sentence comes from the five texts. **-o** is a man (Marko, Ivan, Luka), **-la** a woman (Ana, Petra, Vesna), **-li** a group, **-le** a group of women.
-infokratko: **-o** man, **-la** woman, **-li** group, **-le** only women.
-opis: Almost every sentence came out of the five texts. One tap finishes the participle.
-- Prvo bih kupi___ kuću. | First I would buy a house. (Marko) | o
-- Mama bi dobi___ novi auto. | Mum would get a new car. | la
-- Svaki dan bih pliva___. | I would swim every day. (Petra) | la
-- Ja bih osta___ u gradu. | I would stay in the city. (Ivan) | o
-- Prijatelji bi doš___ na ručak. | Friends would come for lunch. | li
-- Pi___ bih kavu na balkonu. | I would drink coffee on the balcony. (Ana) | la
-- Jeli bismo dugo, a priča___ bismo još duže. | We would eat for a long time and talk even longer. | li
-- Putova___ bih oko svijeta. | I would travel around the world. (Luka) | o
-- Više ne bih radi___! | I wouldn't work any more! (Vesna) | la
-- Štedi___ bih za unuke. | I would save for my grandchildren. (Zoran) | o
-- Ana i Petra bi kupi___ brod. | Ana and Petra would buy a boat. | le
-- Navečer bih gleda___ zvijezde. | In the evening I would watch the stars. (Ana) | la
-- Tata bi dobi___ mir. | Dad would get peace. | o
-- Ni Marko ni Ivan ne bi kupi___ brod. | Neither Marko nor Ivan would buy a boat. | li
-- Petra ne bi štedje___. | Petra wouldn't save. | la
-- Vesna i Maja bi kupi___ kuću. | Vesna and Maja would buy a house. | le
+info: Ein Tippen vollendet das Partizip, und fast jeder Satz stammt aus den fünf Texten. **-o** ist ein Mann (Marko, Ivan, Luka), **-la** eine Frau (Ana, Petra, Vesna), **-li** eine Gruppe, **-le** eine Gruppe von Frauen.
+infokratko: **-o** Mann, **-la** Frau, **-li** Gruppe, **-le** nur Frauen.
+opis: Fast jeder Satz stammt aus den fünf Texten. Ein Tippen vollendet das Partizip.
+- Prvo bih kupi___ kuću. | Zuerst würde ich ein Haus kaufen. (Marko) | o
+- Mama bi dobi___ novi auto. | Mama würde ein neues Auto bekommen. | la
+- Svaki dan bih pliva___. | Ich würde jeden Tag schwimmen. (Petra) | la
+- Ja bih osta___ u gradu. | Ich würde in der Stadt bleiben. (Ivan) | o
+- Prijatelji bi doš___ na ručak. | Freunde würden zum Mittagessen kommen. | li
+- Pi___ bih kavu na balkonu. | Ich würde auf dem Balkon Kaffee trinken. (Ana) | la
+- Jeli bismo dugo, a priča___ bismo još duže. | Wir würden lange essen und noch länger reden. | li
+- Putova___ bih oko svijeta. | Ich würde um die Welt reisen. (Luka) | o
+- Više ne bih radi___! | Ich würde nicht mehr arbeiten! (Vesna) | la
+- Štedi___ bih za unuke. | Ich würde für meine Enkel sparen. (Zoran) | o
+- Ana i Petra bi kupi___ brod. | Ana und Petra würden ein Boot kaufen. | le
+- Navečer bih gleda___ zvijezde. | Am Abend würde ich die Sterne anschauen. (Ana) | la
+- Tata bi dobi___ mir. | Papa würde Ruhe bekommen. | o
+- Ni Marko ni Ivan ne bi kupi___ brod. | Weder Marko noch Ivan würden ein Boot kaufen. | li
+- Petra ne bi štedje___. | Petra würde nicht sparen. | la
+- Vesna i Maja bi kupi___ kuću. | Vesna und Maja würden ein Haus kaufen. | le
 
-## A man or a woman?
+## Ein Mann oder eine Frau?
 format: razvrstavanje
-info: Sorting sentences by who is speaking. In the past tense and in the conditional, the participle shows the speaker's gender: **-o** for a man (*kupio bih*), **-la** for a woman (*kupila bih*). *Bih* itself is the same for both.
-infokratko: *kupio bih* → a man; *kupila bih* → a woman. *bih* is the same.
+info: Sätze danach sortieren, wer spricht. In der Vergangenheit und im Konditional zeigt das Partizip das Geschlecht des Sprechers: **-o** für einen Mann (*kupio bih*), **-la** für eine Frau (*kupila bih*). *Bih* selbst ist für beide gleich.
+infokratko: *kupio bih* → ein Mann; *kupila bih* → eine Frau. *bih* ist gleich.
 stupci: MUŠKARAC | ŽENA
-opis: Is the speaker a man or a woman? Look at the participle.
+opis: Ist der Sprecher ein Mann oder eine Frau? Schau auf das Partizip.
 - Prvo bih kupio kuću pokraj mora. | MUŠKARAC
 - Putovao bih cijelu godinu. | MUŠKARAC
 - Ja bih ostao u gradu. | MUŠKARAC
@@ -223,11 +223,11 @@ opis: Is the speaker a man or a woman? Look at the participle.
 - Više ne bih radila! | ŽENA
 - Ja ne bih žurila. | ŽENA
 
-## Now YOU dream
+## Jetzt träumst DU
 format: dijalog
-info: Your turn: a friend asks what you would do with a million euros. Every answer is a conditional, and where your gender shows you pick your own form (*kupio / kupila bih*). The friend asks without assuming your gender and reacts to your choice.
-infokratko: Pick your form: *kupio / kupila bih*. Your friend reacts.
-opis: A lottery ticket, a friend and a big question. Choose your replies. Passive words: *Da imaš* (if you had), *Stvarno?* (Really?), *s tobom* (with you).
+info: Du bist dran: Ein Freund fragt, was du mit einer Million Euro machen würdest. Jede Antwort ist ein Konditional, und wo dein Geschlecht sichtbar wird, wählst du deine eigene Form (*kupio / kupila bih*). Der Freund fragt, ohne ein Geschlecht vorauszusetzen, und reagiert auf deine Wahl.
+infokratko: Wähl deine Form: *kupio / kupila bih*. Dein Freund reagiert.
+opis: Ein Lottoschein, ein Freund und eine große Frage. Wähle deine Antworten. Passive Wörter: *Da imaš* (wenn du hättest), *Stvarno?* (Wirklich?), *s tobom* (mit dir).
 - npc | Imam kartu za lutriju! Da imaš milijun eura, što bi kupio ili kupila?
 - ti | Kupio bih kuću pokraj mora. | Kupila bih kuću pokraj mora. | Kupio bih brod. | Kupila bih brod.
 - npc | More! I ja bih živjela pokraj mora. A bi li još radio ili radila?
@@ -242,40 +242,40 @@ opis: A lottery ticket, a friend and a big question. Choose your replies. Passiv
 
 ## Übersetze durch Bauen
 format: slaganje
-info: English in, Croatian out, built from tiles taken from the five texts. The helper *bih, bi, bismo* takes the second place — after the first word or after the participle — and the participle shows who is speaking.
-infokratko: The helper second; the participle shows who speaks.
-opis: Read the English sentence, then build its Croatian translation from the tiles. Almost everything comes from the five texts.
-- Prvo bih kupio kuću pokraj mora. | en: First I would buy a house by the sea.
-- Mama bi dobila novi auto. | en: Mum would get a new car.
-- Putovao bih cijelu godinu. | en: I would travel the whole year.
-- Sreća ne košta milijun eura. | en: Happiness doesn't cost a million euros.
-- Gdje bi živjela? | en: Where would you live? (to a woman)
-- Svaki dan bih plivala. | en: I would swim every day. (a woman)
-- Ne bih mogao bez kina i kafića. | en: I couldn't live without the cinema and cafés. (a man)
-- Bi li dolazio k meni ljeti? | en: Would you come to my place in summer? (to a man)
-- Pila bih kavu na balkonu. | en: I would drink coffee on the balcony. (a woman)
-- Prijatelji bi došli na ručak. | en: Friends would come for lunch.
-- Poslijepodne bismo išli na rijeku. | en: In the afternoon we would go to the river.
-- Što biste radili s milijun eura? | en: What would you do with a million euros?
-- Kupila bih kuću na otoku. | en: I would buy a house on an island. (a woman)
-- Ništa ne bih kupio. | en: I wouldn't buy anything. (a man)
-- Ana se boji mora. | en: Ana is afraid of the sea.
-- Ni Marko ni Ivan ne bi kupili brod. | en: Neither Marko nor Ivan would buy a boat.
+info: Deutsch rein, Kroatisch raus, gebaut aus Kacheln aus den fünf Texten. Der Helfer *bih, bi, bismo* nimmt die zweite Stelle ein – nach dem ersten Wort oder nach dem Partizip –, und das Partizip zeigt, wer spricht.
+infokratko: Der Helfer an zweiter Stelle; das Partizip zeigt, wer spricht.
+opis: Lies den deutschen Satz und bau dann seine kroatische Übersetzung aus den Kärtchen. Fast alles stammt aus den fünf Texten.
+- Prvo bih kupio kuću pokraj mora. | en: Zuerst würde ich ein Haus am Meer kaufen.
+- Mama bi dobila novi auto. | en: Mama würde ein neues Auto bekommen.
+- Putovao bih cijelu godinu. | en: Ich würde das ganze Jahr reisen.
+- Sreća ne košta milijun eura. | en: Glück kostet keine Million Euro.
+- Gdje bi živjela? | en: Wo würdest du leben? (zu einer Frau)
+- Svaki dan bih plivala. | en: Ich würde jeden Tag schwimmen. (eine Frau)
+- Ne bih mogao bez kina i kafića. | en: Ohne Kino und Cafés könnte ich nicht leben. (ein Mann)
+- Bi li dolazio k meni ljeti? | en: Würdest du im Sommer zu mir kommen? (zu einem Mann)
+- Pila bih kavu na balkonu. | en: Ich würde auf dem Balkon Kaffee trinken. (eine Frau)
+- Prijatelji bi došli na ručak. | en: Freunde würden zum Mittagessen kommen.
+- Poslijepodne bismo išli na rijeku. | en: Am Nachmittag würden wir an den Fluss gehen.
+- Što biste radili s milijun eura? | en: Was würdest du mit einer Million Euro machen?
+- Kupila bih kuću na otoku. | en: Ich würde ein Haus auf einer Insel kaufen. (eine Frau)
+- Ništa ne bih kupio. | en: Ich würde nichts kaufen. (ein Mann)
+- Ana se boji mora. | en: Ana hat Angst vor dem Meer.
+- Ni Marko ni Ivan ne bi kupili brod. | en: Weder Marko noch Ivan würden ein Boot kaufen.
 
 ## Lass den richtigen Ballon platzen
 format: baloni
-info: A timed picture-to-word tap over the things a million euros could buy — and the ones it cannot. Everything is in its naming form; say *Kupio bih…* or *Kupila bih…* in your head as you tap, with **-u** on a feminine word: *Kupila bih vilu.*
-infokratko: Naming forms. Think *Kupio / Kupila bih…*; *vilu, kuću*.
-opis: The lottery numbers are coming! A picture appears — tap the balloon with its word before it floats away.
-- brod | boat
+info: Ein zeitgebundenes Bild-zu-Wort-Tippen mit den Dingen, die man mit einer Million Euro kaufen könnte – und denen, die man nicht kaufen kann. Alles steht in der Grundform; sag beim Tippen im Kopf *Kupio bih…* oder *Kupila bih…*, mit **-u** bei einem femininen Wort: *Kupila bih vilu.*
+infokratko: Grundformen. Denk *Kupio / Kupila bih…*; *vilu, kuću*.
+opis: Gleich kommen die Lottozahlen! Ein Bild erscheint – tippe den Ballon mit seinem Wort, bevor er wegschwebt.
+- brod | Boot
 - kuća | Haus
-- vila | villa
-- jahta | yacht
+- vila | Villa
+- jahta | Jacht
 - auto | Auto
-- avion | plane
+- avion | Flugzeug
 - more | Meer
-- plaža | beach
-- val | wave
+- plaža | Strand
+- val | Welle
 - sunce | Sonne
 - zvijezda | star
-- novac | money
+- novac | Geld

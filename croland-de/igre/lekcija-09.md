@@ -1,22 +1,22 @@
-# Sport & Hobbies: Making It Yours
+# Sport & Hobbys: Dinge zu deinen machen
 cjelina: Lesson 9
 
-## Words you already know
+## Wörter, die du schon kennst
 format: tekst
-info: Sport is where Croatian gives you the most words for free. *Hobi, klub, trener, kapetan, gol, tenis, joga* — you can read all of them right now, without learning anything. **Start every new word by asking whether it looks like English**, because in this lesson it usually does. The one new idea is small: how to say that something is *yours*.
-infokratko: Sport words you can already read: *hobi, klub, trener, gol, tenis*. New idea: saying something is *yours*.
+info: Beim Sport schenkt dir das Kroatische die meisten Wörter. *Hobi, klub, trener, kapetan, gol, tenis, joga* – die kannst du alle sofort lesen, ohne etwas zu lernen. **Frag dich bei jedem neuen Wort zuerst, ob es wie ein deutsches oder internationales Wort aussieht**, denn in dieser Lektion tut es das meistens. Die eine neue Idee ist klein: wie man sagt, dass etwas *deins* ist.
+infokratko: Sportwörter, die du schon lesen kannst: *hobi, klub, trener, gol, tenis*. Neue Idee: sagen, dass etwas *deins* ist.
 infoodmah: da
-opis: Read it through — the whole lesson rests on one rule, and you already own half of it.
-- Today's lesson is full of words you already know: *hobi, gitara, klub, trener, kapetan, gol, tenis, joga, šah...* Sport is international, and so is its vocabulary.
-- The new bit is making things **yours**. *Moj klub. Tvoja gitara. Naš trener.* Three words, three shapes — and the shape does not come from the owner.
-- It comes from the **thing owned**. That is the whole lesson: *moj dres*, but *moja lopta*, because *dres* and *lopta* are different genders. You have done this dance twice already, with adjectives in Lesson 1 and again in Lesson 5.
+opis: Lies es durch – die ganze Lektion ruht auf einer Regel, und die Hälfte davon besitzt du schon.
+- Die heutige Lektion ist voller Wörter, die du schon kennst: *hobi, gitara, klub, trener, kapetan, gol, tenis, joga, šah …* Sport ist international, und sein Wortschatz auch.
+- Das Neue ist, Dinge zu **deinen** zu machen. *Moj klub. Tvoja gitara. Naš trener.* Drei Wörter, drei Gestalten – und die Gestalt kommt nicht vom Besitzer.
+- Sie kommt von der **besessenen Sache**. Das ist die ganze Lektion: *moj dres*, aber *moja lopta*, weil *dres* und *lopta* verschiedene Genera haben. Wie im Deutschen *mein Trikot*, aber *meine Tasche*. Diesen Tanz hast du schon zweimal getanzt, mit Adjektiven in Lektion 1 und wieder in Lektion 5.
 
 ## Schnelles Abrufen
 format: brzina
-info: A timed warm-up on last lesson's future before anything new arrives. The helper takes its shape from the subject, never from the verb — *ja* takes *ću*, *ti* takes *ćeš*, and any group with *ja* in it takes *ćemo*. **Answer from the subject alone** and you will never need to read the rest.
-infokratko: Lesson 8 against the clock: *ja ću, ti ćeš*, any group with *ja* → *ćemo*.
+info: Ein Aufwärmen auf Zeit mit dem Futur der letzten Lektion, bevor etwas Neues kommt. Das Hilfswort richtet seine Gestalt nach dem Subjekt, nie nach dem Verb – *ja* nimmt *ću*, *ti* nimmt *ćeš*, und jede Gruppe mit *ja* nimmt *ćemo*. **Antworte allein nach dem Subjekt**, und du musst den Rest nie lesen.
+infokratko: Lektion 8 gegen die Uhr: *ja ću, ti ćeš*, jede Gruppe mit *ja* → *ćemo*.
 trajanje: 60
-opis: Future sprint from Lesson 8 — tap the helper before the timer runs out.
+opis: Futur-Sprint aus Lektion 8 – tippe auf das Hilfswort, bevor die Zeit abläuft.
 - Ja ___ trenirati | ću
 - Mi ___ igrati | ćemo
 - Oni ___ plivati | će
@@ -30,104 +30,104 @@ opis: Future sprint from Lesson 8 — tap the helper before the timer runs out.
 - Djeca ___ plesati | će
 - Vi ___ kuhati | ćete
 
-## Sport & hobby words
+## Sport- & Hobbywörter
 format: kartice
-info: Eighteen words, and most of them are gifts: *hobi, klub, trener, kapetan, gol, tenis, joga, fitnes, šah* all arrived in Croatian from the same places they arrived in English. **Read each one out loud before you look at the translation** — Croatian is spelled exactly as it sounds, so hearing yourself say it is half the learning. Nothing here has to be memorised in one pass.
-infokratko: Mostly familiar words: *hobi, klub, trener, šah*. Read each one aloud.
-opis: Sport vocabulary is international — you can guess most of these before you flip the card.
-- hobi | hobby
-- klub | club
-- trener | coach
-- kapetan | captain
+info: Achtzehn Wörter, und die meisten sind Geschenke: *hobi, klub, trener, kapetan, gol, tenis, joga, fitnes, šah* sind aus denselben Quellen ins Kroatische gekommen wie ins Deutsche. **Lies jedes laut, bevor du auf die Übersetzung schaust** – Kroatisch wird genau so geschrieben, wie es klingt, also ist das Hören deiner eigenen Stimme schon das halbe Lernen. Nichts hier muss beim ersten Durchgang sitzen.
+infokratko: Meist vertraute Wörter: *hobi, klub, trener, šah*. Lies jedes laut.
+opis: Sportwortschatz ist international – die meisten errätst du, bevor du die Karte umdrehst.
+- hobi | Hobby
+- klub | Verein, Klub
+- trener | Trainer
+- kapetan | Kapitän
 - momčad | Team
-- pozicija | position
-- obrana | defence
-- gol | goal
-- golman | goalkeeper
-- lopta | ball
-- dres | jersey
-- trening | training
-- utakmica | match
-- nogomet | football
-- košarka | basketball
-- tenis | tennis
-- šah | chess
-- joga | yoga
+- pozicija | Position
+- obrana | Verteidigung
+- gol | Tor
+- golman | Torwart
+- lopta | Ball
+- dres | Trikot
+- trening | Training
+- utakmica | Spiel, Match
+- nogomet | Fußball
+- košarka | Basketball
+- tenis | Tennis
+- šah | Schach
+- joga | Yoga
 
-## The body
+## Der Körper
 format: kartice
-info: The parts of the body you will need to talk about sport. Notice the endings as they go past, because the next page turns them into a rule: *dres* ends in a consonant, *ruka* in **-a**, *koljeno* in **-o**. **That last letter almost always decides** which shape *moj* takes.
-infokratko: Body words. Note the last letter: *dres*, *ruka* (**-a**), *koljeno* (**-o**). It decides *moj*'s shape.
-opis: From head to knee. Watch the last letter of each word — you will need it in a minute.
-- glava | head
-- kosa | hair
+info: Die Körperteile, über die du beim Sport sprechen musst. Achte auf die Endungen, denn die nächste Seite macht daraus eine Regel: *dres* endet auf einen Konsonanten, *ruka* auf **-a**, *koljeno* auf **-o**. **Dieser letzte Buchstabe entscheidet fast immer**, welche Gestalt *moj* annimmt.
+infokratko: Körperwörter. Merk dir den letzten Buchstaben: *dres*, *ruka* (**-a**), *koljeno* (**-o**). Er entscheidet über die Gestalt von *moj*.
+opis: Vom Kopf bis zum Knie. Achte auf den letzten Buchstaben jedes Wortes – du brauchst ihn gleich.
+- glava | Kopf
+- kosa | Haar
 - oko | Auge
 - uho | Ohr
 - nos | Nase
-- zub | tooth
-- ruka | arm, hand
-- prst | finger
-- noga | leg, foot
-- koljeno | knee
-- leđa | back
-- rame | shoulder
-- srce | heart
-- tijelo | body
+- zub | Zahn
+- ruka | Arm, Hand
+- prst | Finger
+- noga | Bein, Fuß
+- koljeno | Knie
+- leđa | Rücken
+- rame | Schulter
+- srce | Herz
+- tijelo | Körper
 
-## Ten new verbs
+## Zehn neue Verben
 format: kartice
-info: Ten verbs of sport and free time, each shown with its *ja* form. That form is the one worth storing, because from *trčim* you can build *trčiš* and *trči* without being told how — the pattern from Lesson 3 has not changed. **Two are worth a second look:** *skakati → skačem* and *plesati → plešem* both swap a consonant.
-infokratko: Ten verbs with their *ja* form: *trčim → trčiš, trči*. Note *skakati → skačem*, *plesati → plešem*.
-opis: Ten new verbs, each with its *ja* form — the shape everything else is built from.
+info: Zehn Verben für Sport und Freizeit, jedes mit seiner *ja*-Form. Diese Form lohnt sich zu merken, denn aus *trčim* kannst du *trčiš* und *trči* bilden, ohne dass es dir jemand sagt – das Muster aus Lektion 3 hat sich nicht geändert. **Zwei verdienen einen zweiten Blick:** *skakati → skačem* und *plesati → plešem* tauschen beide einen Konsonanten.
+infokratko: Zehn Verben mit ihrer *ja*-Form: *trčim → trčiš, trči*. Beachte *skakati → skačem*, *plesati → plešem*.
+opis: Zehn neue Verben, jedes mit seiner *ja*-Form – der Gestalt, aus der alles andere gebaut wird.
 - trčati → trčim | laufen, rennen
-- skakati → skačem | to jump
-- vježbati → vježbam | to exercise
-- trenirati → treniram | to train
-- navijati → navijam | to cheer, to support
-- pobijediti → pobijedim | to win
-- izgubiti → izgubim | to lose
-- plesati → plešem | to dance
+- skakati → skačem | springen
+- vježbati → vježbam | trainieren, üben
+- trenirati → treniram | trainieren
+- navijati → navijam | anfeuern, Fan sein
+- pobijediti → pobijedim | gewinnen
+- izgubiti → izgubim | verlieren
+- plesati → plešem | tanzen
 - crtati → crtam | zeichnen
-- slikati → slikam | to paint, to take pictures
+- slikati → slikam | malen, fotografieren
 
 ## Ordne die Bilder zu
 format: spajanje
-info: The same words again, this time without English to lean on — a picture and a word, nothing in between. **Tap the picture first, then hunt for the word**, because recognising the thing is faster than reading. A wrong pair just shakes and comes straight back; nothing here can be lost.
-infokratko: Picture and word, no English. Tap the picture first.
-opis: Picture to word. No English this time — you do not need it any more.
-- lopta | ball
-- dres | jersey
+info: Dieselben Wörter noch einmal, diesmal ohne Deutsch als Stütze – ein Bild und ein Wort, nichts dazwischen. **Tippe zuerst auf das Bild, dann such das Wort**, denn das Ding zu erkennen geht schneller als Lesen. Ein falsches Paar wackelt nur und kommt sofort zurück; hier kann nichts verloren gehen.
+infokratko: Bild und Wort, kein Deutsch. Tippe zuerst auf das Bild.
+opis: Bild zu Wort. Diesmal kein Deutsch – du brauchst es nicht mehr.
+- lopta | Ball
+- dres | Trikot
 - gitara | Gitarre
-- glava | head
-- ruka | arm
+- glava | Kopf
+- ruka | Arm
 - oko | Auge
 - uho | Ohr
 - nos | Nase
-- šah | chess
-- utakmica | match
+- šah | Schach
+- utakmica | Spiel, Match
 
-## The rule: it follows the thing, not the owner
+## Die Regel: Es folgt der Sache, nicht dem Besitzer
 format: tekst
-info: The single rule of this lesson, and it runs opposite to English. In *her jersey* the English word *her* tells you about the owner; in *njezin dres* the Croatian word tells you about the **jersey**. **Look at the noun, never at the owner** — *dres* ends in a consonant, so nothing is added, no matter who owns it.
-infokratko: The possessive follows the **thing**, not the owner: *njezin dres* (consonant, nothing added).
+info: Die einzige Regel dieser Lektion – und du kennst sie aus dem Deutschen. Bei *ihr Trikot* sagt das Wort *ihr*, wem es gehört; die Endung (*ihr* gegen *ihre*) richtet sich nach der Sache. Im Kroatischen genauso: Das Wort (*njegov*, *njezin*) wählt den Besitzer, die Endung folgt der **Sache**. **Für die Endung schau aufs Nomen, nie auf den Besitzer** – *dres* endet auf einen Konsonanten, also kommt nichts dazu, egal wem es gehört.
+infokratko: Das Possessivpronomen folgt der **Sache**, nicht dem Besitzer: *njezin dres* (Konsonant, nichts dazu).
 infoodmah: da
-opis: One rule, three endings. Read the table, then say the last line out loud.
-- English only tells you about the owner: *his* jersey, *her* jersey. Croatian picks the word by the owner (*njegov*, *njezin*) and the **ending** by the thing: *njegov dres*, *njegova lopta*. The ending doesn't care who owns it.
-- tab: The thing | What you say
-- tab: dres (consonant) | **moj** dres · **njegov** dres · **naš** dres
+opis: Eine Regel, drei Endungen. Lies die Tabelle, dann sag die letzte Zeile laut.
+- Das Kroatische wählt das Wort nach dem Besitzer (*njegov*, *njezin*) und die **Endung** nach der Sache: *njegov dres*, *njegova lopta*. Genau wie deutsch *sein Trikot*, *seine Tasche*. Die Endung kümmert sich nicht darum, wem es gehört.
+- tab: Die Sache | Was du sagst
+- tab: dres (Konsonant) | **moj** dres · **njegov** dres · **naš** dres
 - tab: lopta (-a) | **moja** lopta · **njegova** lopta · **naša** lopta
 - tab: koljeno (-o) | **moje** koljeno · **njegovo** koljeno · **naše** koljeno
-- The full set: **moj/moja/moje** (my) · **tvoj/tvoja/tvoje** (your, one person) · **njegov/njegova/njegovo** (his) · **njezin/njezina/njezino** (her) · **naš/naša/naše** (our) · **vaš/vaša/vaše** (your, plural or polite) · **njihov/njihova/njihovo** (their).
-- **One wrinkle to watch.** For a neuter thing you add **-o** after a hard consonant — *njegovo koljeno*, *njezino srce*, *njihovo more* — but **-e** after *j* and *š*: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Your mouth will pick this up before your head does.
-- **To ask, use *čiji*.** *Čiji je ovo dres?* — *Whose jersey is this?* It agrees too: *Čija je ovo lopta? Čije je ovo koljeno?*
+- Der volle Satz: **moj/moja/moje** (mein) · **tvoj/tvoja/tvoje** (dein) · **njegov/njegova/njegovo** (sein) · **njezin/njezina/njezino** (ihr – von ihr) · **naš/naša/naše** (unser) · **vaš/vaša/vaše** (euer, Ihr) · **njihov/njihova/njihovo** (ihr – von ihnen).
+- **Eine Falte, auf die du achten solltest.** Bei einer neutralen Sache hängst du nach einem harten Konsonanten **-o** an – *njegovo koljeno*, *njezino srce*, *njihovo more* –, aber nach *j* und *š* **-e**: *moje koljeno*, *tvoje srce*, *naše more*, *vaše tijelo*. Dein Mund lernt das, bevor dein Kopf es tut.
+- **Zum Fragen nimm *čiji*.** *Čiji je ovo dres?* – *Wessen Trikot ist das?* Es stimmt auch überein: *Čija je ovo lopta? Čije je ovo koljeno?*
 - *Njegov dres je plav, a moj je crven.*
-- **Now you write them.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
+- **Jetzt schreibst du.** Ovo je [moj] dres. Ovo je [moja] lopta. Ovo je [moje] koljeno.
 
-## Whose is it?
+## Wem gehört es?
 format: parovi
-info: English on one side, Croatian on the other, so you can watch the rule work in whole sentences. **Read the Croatian noun first and check its last letter** — that letter, not the English, tells you which of the two possessives on offer is the right partner.
-infokratko: Check the Croatian noun's last letter: it picks the possessive.
-opis: Match each English sentence with its Croatian partner.
+info: Deutsch auf der einen Seite, Kroatisch auf der anderen, damit du die Regel in ganzen Sätzen arbeiten siehst. **Lies zuerst das kroatische Nomen und prüf seinen letzten Buchstaben** – dieser Buchstabe, nicht das Deutsche, sagt dir, welches der zwei angebotenen Possessivpronomen der richtige Partner ist. Vorsicht: Das deutsche Genus führt oft in die Irre (*die Mannschaft*, aber *momčad* ist auch feminin; *das Knie*, *koljeno* neutral – aber *der Ball*, *lopta* feminin).
+infokratko: Prüf den letzten Buchstaben des kroatischen Nomens: Er wählt das Possessivpronomen.
+opis: Ordne jedem deutschen Satz seinen kroatischen Partner zu.
 - My ball is red. | Moja lopta je crvena.
 - His jersey is blue. | Njegov dres je plav.
 - Her guitar is new. | Njezina gitara je nova.
@@ -139,12 +139,12 @@ opis: Match each English sentence with its Croatian partner.
 - His position is goalkeeper. | Njegova pozicija je golman.
 - Whose ball is this? | Čija je ovo lopta?
 
-## Sort by the thing
+## Nach der Sache sortieren
 format: razvrstavanje
-info: Eighteen nouns, three columns, and the sorting is done entirely on the last letter. A consonant sends the word to **MOJ**, an *-a* to **MOJA**, an *-o* or *-e* to **MOJE**. **Say *moj*, *moja*, *moje* under your breath as you drag** — the wrong one will sound wrong before you finish it.
-infokratko: Consonant → **MOJ**, **-a** → **MOJA**, **-o/-e** → **MOJE**.
+info: Achtzehn Nomen, drei Spalten, und sortiert wird ganz nach dem letzten Buchstaben. Ein Konsonant schickt das Wort zu **MOJ**, ein *-a* zu **MOJA**, ein *-o* oder *-e* zu **MOJE**. **Sag beim Ziehen leise *moj*, *moja*, *moje* vor dich hin** – das falsche klingt falsch, bevor du es zu Ende gesagt hast.
+infokratko: Konsonant → **MOJ**, **-a** → **MOJA**, **-o/-e** → **MOJE**.
 stupci: MOJ | MOJA | MOJE
-opis: Which form does each noun take? Go by the last letter of the noun.
+opis: Welche Form nimmt jedes Nomen? Richte dich nach dem letzten Buchstaben des Nomens.
 - dres | MOJ
 - lopta | MOJA
 - koljeno | MOJE
@@ -166,9 +166,9 @@ opis: Which form does each noun take? Go by the last letter of the noun.
 
 ## Wähle die richtige Form
 format: izbor
-info: Choose the possessive that fits the noun beside it. The owner in the English hint never changes the ending — only the noun does — so *her guitar* and *his guitar* are both *gitara*, both take *-a*: *njezina*, *njegova*. **Cover the English and decide from the Croatian noun alone.**
-infokratko: The noun decides, not the owner: *njezina gitara*, *njegova gitara*.
-opis: Choose the form that fits the noun.
+info: Wähle das Possessivpronomen, das zum Nomen daneben passt. Der Besitzer im deutschen Hinweis ändert nie die Endung – nur das Nomen tut es –, also sind *ihre Gitarre* und *seine Gitarre* beide *gitara*, beide nehmen *-a*: *njezina*, *njegova*. **Deck das Deutsche ab und entscheide allein nach dem kroatischen Nomen.**
+infokratko: Das Nomen entscheidet, nicht der Besitzer: *njezina gitara*, *njegova gitara*.
+opis: Wähle die Form, die zum Nomen passt.
 - ___ lopta je crvena. | moja | moj | moje
 - ___ klub je dobar. | naš | naša | naše
 - ___ gitara je stara, ali svira lijepo. | njegova | njegov | njegovo
@@ -182,85 +182,85 @@ opis: Choose the form that fits the noun.
 - ___ tijelo je umorno. | moje | moj | moja
 - ___ obrana je brza. | vaša | vaš | vaše
 
-## One tap decides it
+## Ein Tipp entscheidet
 format: nastavak
-info: The whole rule reduced to a single tap. The base of the possessive is given; you add nothing for a consonant, **-a** for a word in *-a*, and for a neuter word **-o** or **-e** — *-o* after a hard consonant (*njegovo*), *-e* after *j* or *š* (*moje*, *naše*). **Read the Croatian noun, not the English.**
-infokratko: Consonant: nothing; **-a**: **-a**; neuter: **-o** (*njegovo*) or **-e** after *j/š* (*moje, naše*).
+info: Die ganze Regel auf einen einzigen Tipp reduziert. Der Stamm des Possessivpronomens ist vorgegeben; du hängst bei einem Konsonanten nichts an, bei einem Wort auf *-a* **-a**, und bei einem neutralen Wort **-o** oder **-e** – *-o* nach einem harten Konsonanten (*njegovo*), *-e* nach *j* oder *š* (*moje*, *naše*). **Lies das kroatische Nomen, nicht das Deutsche.**
+infokratko: Konsonant: nichts; **-a**: **-a**; neutral: **-o** (*njegovo*) oder **-e** nach *j/š* (*moje, naše*).
 nastavci: - | a | e | o
-opis: The noun decides the ending. One tap — and a wrong tap costs nothing.
-- Moj___ dres je plav. | My jersey is blue. | -
-- Moj___ lopta je crvena. | My ball is red. | a
-- Moj___ koljeno boli. | My knee hurts. | e
-- Naš___ trener je strog. | Our coach is strict. | -
-- Naš___ momčad je jaka. | Our team is strong. | a
-- Naš___ more je toplo. | Our sea is warm. | e
-- Njegov___ klub je star. | His club is old. | -
-- Njegov___ gitara je nova. | His guitar is new. | a
-- Njegov___ srce je jako. | His heart is strong. | o
-- Tvoj___ hobi je fotografija. | Your hobby is photography. | -
-- Tvoj___ ruka je jaka. | Your arm is strong. | a
-- Tvoj___ oko je crveno. | Your eye is red. | e
-- Njezin___ trening je težak. | Her training is hard. | -
-- Njezin___ pozicija je golman. | Her position is goalkeeper. | a
-- Njezin___ tijelo je umorno. | Her body is tired. | o
-- Vaš___ obrana je dobra. | Your defence is good. | a
+opis: Das Nomen entscheidet die Endung. Ein Tipp – und ein falscher Tipp kostet nichts.
+- Moj___ dres je plav. | Mein Trikot ist blau. | -
+- Moj___ lopta je crvena. | Mein Ball ist rot. | a
+- Moj___ koljeno boli. | Mein Knie tut weh. | e
+- Naš___ trener je strog. | Unser Trainer ist streng. | -
+- Naš___ momčad je jaka. | Unsere Mannschaft ist stark. | a
+- Naš___ more je toplo. | Unser Meer ist warm. | e
+- Njegov___ klub je star. | Sein Verein ist alt. | -
+- Njegov___ gitara je nova. | Seine Gitarre ist neu. | a
+- Njegov___ srce je jako. | Sein Herz ist stark. | o
+- Tvoj___ hobi je fotografija. | Dein Hobby ist Fotografie. | -
+- Tvoj___ ruka je jaka. | Dein Arm ist stark. | a
+- Tvoj___ oko je crveno. | Dein Auge ist rot. | e
+- Njezin___ trening je težak. | Ihr Training ist hart. | -
+- Njezin___ pozicija je golman. | Ihre Position ist Torwart. | a
+- Njezin___ tijelo je umorno. | Ihr Körper ist müde. | o
+- Vaš___ obrana je dobra. | Eure Verteidigung ist gut. | a
 
-## Type the possessive
+## Tippe das Possessivpronomen
 format: upis
-info: Now you write it instead of tapping it. The English in brackets tells you *who*; the Croatian noun tells you *which ending* — and only the second one changes what you type. **Build it in two steps:** pick the base from the brackets, then let the noun finish it.
-infokratko: Brackets say *whose*; the noun says *which ending*: *(her) + gitara → njezina*.
-opis: Type the possessive. The bracket says who, the noun says how it ends.
-- ___ hobi je fotografija. (my) | Moj
-- ___ sestra svira gitaru. (my) | Moja
-- ___ koljeno boli. (my) | Moje
-- ___ klub trenira danas. (our) | Naš
-- ___ momčad pobjeđuje. (our) | Naša
-- ___ more je toplo. (our) | Naše
-- ___ pozicija je golman. (his) | Njegova
-- ___ dres je nov. (his) | Njegov
-- ___ srce je jako. (his) | Njegovo
-- ___ gitara je stara. (her) | Njezina
-- ___ trening je težak. (their) | Njihov
-- ___ obrana je brza. (their) | Njihova
+info: Jetzt schreibst du es, statt es anzutippen. Das Deutsche in Klammern sagt dir, *wem*; das kroatische Nomen sagt dir, *welche Endung* – und nur das Zweite ändert, was du tippst. **Bau es in zwei Schritten:** Nimm den Stamm aus den Klammern, dann lass das Nomen ihn vollenden.
+infokratko: Klammern sagen *wem*; das Nomen sagt *welche Endung*: *(ihr) + gitara → njezina*.
+opis: Tippe das Possessivpronomen. Die Klammer sagt wem, das Nomen sagt, wie es endet.
+- ___ hobi je fotografija. (mein) | Moj
+- ___ sestra svira gitaru. (mein) | Moja
+- ___ koljeno boli. (mein) | Moje
+- ___ klub trenira danas. (unser) | Naš
+- ___ momčad pobjeđuje. (unser) | Naša
+- ___ more je toplo. (unser) | Naše
+- ___ pozicija je golman. (sein) | Njegova
+- ___ dres je nov. (sein) | Njegov
+- ___ srce je jako. (sein) | Njegovo
+- ___ gitara je stara. (ihr – von ihr) | Njezina
+- ___ trening je težak. (ihr – von ihnen) | Njihov
+- ___ obrana je brza. (ihr – von ihnen) | Njihova
 
-## The rule: *svoj*, the one English is missing
+## Die Regel: *svoj*, das Wort, das dem Deutschen fehlt
 format: tekst
-info: A word English simply does not have, so it has to be learned by contrast rather than by translation. **When the owner is the same person as the subject of the sentence, Croatian uses *svoj*.** *Marko voli svoju sestru* is his own sister; *Marko voli njegovu sestru* is someone else's — one word apart, two different families.
-infokratko: Owner = subject → *svoj*. *Marko voli svoju sestru* (his own) vs. *njegovu sestru* (someone else's).
+info: Ein Wort, das das Deutsche schlicht nicht hat, also muss man es durch Gegenüberstellung lernen statt durch Übersetzung. **Wenn der Besitzer dieselbe Person ist wie das Subjekt des Satzes, verwendet das Kroatische *svoj*.** *Marko voli svoju sestru* ist seine eigene Schwester; *Marko voli njegovu sestru* ist die eines anderen – ein Wort Unterschied, zwei verschiedene Familien. Im Deutschen ist *Marko liebt seine Schwester* mehrdeutig; das Kroatische ist es nicht.
+infokratko: Besitzer = Subjekt → *svoj*. *Marko voli svoju sestru* (seine eigene) gegen *njegovu sestru* (die eines anderen).
 infoodmah: da
-opis: The one possessive English cannot translate. Read both sentences in the table slowly.
-- There is one more possessive, and English has no word for it: **svoj**.
-- Use **svoj** when the owner is the same person as the one doing the action.
-- tab: What you say | What it means
-- tab: Marko voli **svoju** sestru. | his own sister
-- tab: Marko voli **njegovu** sestru. | someone else's sister
-- It changes shape like all the others, following the thing owned: **svoj** dres · **svoja** lopta · **svoje** koljeno.
+opis: Das Possessivpronomen, das das Deutsche nicht übersetzen kann. Lies beide Sätze in der Tabelle langsam.
+- Es gibt noch ein Possessivpronomen, und das Deutsche hat kein Wort dafür: **svoj**.
+- Nimm **svoj**, wenn der Besitzer dieselbe Person ist wie der Handelnde.
+- tab: Was du sagst | Was es bedeutet
+- tab: Marko voli **svoju** sestru. | seine eigene Schwester
+- tab: Marko voli **njegovu** sestru. | die Schwester eines anderen
+- Es ändert seine Gestalt wie alle anderen und folgt der besessenen Sache: **svoj** dres · **svoja** lopta · **svoje** koljeno.
 - *Ja treniram u **svom** klubu. Ti voliš **svoj** hobi. Ana slika **svoju** sestru.*
-- **The short version:** if the sentence is about me and my thing, or you and your thing, or Ana and Ana's thing — use *svoj*. Only reach for *njegov* or *njezin* when the thing belongs to somebody else.
-- **Now you write them.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu.
-- Croatian speakers hear the difference immediately, and it is one of the few places where the wrong word says something you did not mean.
+- **Die Kurzfassung:** Geht es im Satz um mich und meine Sache, oder dich und deine Sache, oder Ana und Anas Sache – nimm *svoj*. Greif nur zu *njegov* oder *njezin*, wenn die Sache jemand anderem gehört.
+- **Jetzt schreibst du.** Marko voli [svoju] sestru — vlastitu. Marko voli [njegovu] sestru — tuđu.
+- Kroatische Sprecher hören den Unterschied sofort, und es ist eine der wenigen Stellen, an denen das falsche Wort etwas sagt, was du nicht gemeint hast.
 
-## *svoj* or *njegov*?
+## *svoj* oder *njegov*?
 format: izbor
-info: One question decides every item here: does the thing belong to the person doing the action? **Yes → *svoj*. No → *njegov* or *njezin*.** Look for the subject at the front of the sentence and compare it with the owner, and the choice makes itself.
-infokratko: Does it belong to the subject? Yes → *svoj*. No → *njegov / njezin*.
-opis: Does the thing belong to the person doing the action? Then it is *svoj*.
-- Marko voli ___ sestru. (his own) | svoju | njegovu
+info: Eine Frage entscheidet jeden Punkt hier: Gehört die Sache der Person, die handelt? **Ja → *svoj*. Nein → *njegov* oder *njezin*.** Such das Subjekt am Satzanfang und vergleich es mit dem Besitzer, dann ergibt sich die Wahl von selbst.
+infokratko: Gehört es dem Subjekt? Ja → *svoj*. Nein → *njegov / njezin*.
+opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
+- Marko voli ___ sestru. (seine eigene) | svoju | njegovu
 - Marko voli ___ sestru. (Ivan's) | njegovu | svoju
-- Ana čita ___ knjigu. (her own) | svoju | njezinu
-- Maja voli ___ hobi. (her own) | svoj | njezin
-- Luka nosi ___ loptu. (his own) | svoju | njegovu
-- Ana slika ___ mačku. (her own) | svoju | njezinu
-- Trener gleda ___ momčad. (his own) | svoju | njegovu
-- Djeca nose ___ dresove. (their own) | svoje | njihove
-- Ona vozi ___ auto. (her own) | svoj | njezin
+- Ana čita ___ knjigu. (ihr eigenes) | svoju | njezinu
+- Maja voli ___ hobi. (ihr eigenes) | svoj | njezin
+- Luka nosi ___ loptu. (seinen eigenen) | svoju | njegovu
+- Ana slika ___ mačku. (ihre eigene) | svoju | njezinu
+- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
+- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
 - On nosi ___ dres. (Marko's) | njegov | svoj
 
-## Build it
+## Bau es
 format: slaganje
-info: Whole sentences from tiles, so the possessive has to land in the right place as well as the right shape. It stands **in front of** the thing it belongs to — *moj dres*, never *dres moj* — and the two halves joined by *a* each keep their own possessive.
-infokratko: The possessive goes in front: *moj dres*.
-opis: Arrange the tiles into a sentence.
+info: Ganze Sätze aus Kärtchen, also muss das Possessivpronomen an der richtigen Stelle und in der richtigen Gestalt landen. Es steht **vor** der Sache, zu der es gehört – *moj dres*, nie *dres moj* –, und die zwei Hälften, die *a* verbindet, behalten jede ihr eigenes Possessivpronomen.
+infokratko: Das Possessivpronomen steht vorn: *moj dres*.
+opis: Ordne die Kärtchen zu einem Satz.
 - Moj hobi je fotografija.
 - Njezina gitara je nova.
 - Naš klub je mali, ali je dobar.
@@ -274,11 +274,11 @@ opis: Arrange the tiles into a sentence.
 - Vaša momčad će pobijediti.
 - Tvoje oko je crveno.
 
-## Is this your ball?
+## Ist das dein Ball?
 format: dijalog
-info: A ball lands at your feet in the park, and every reply needs a possessive in the right shape. Two words are worth having in advance: *čiji* (whose) and *naravno* (of course). **Read your two options out loud before choosing** — the wrong ending is easier to hear than to see.
-infokratko: *čiji* = whose, *naravno* = of course. Match the ending to the noun.
-opis: A ball rolls up to you in the park. Choose your replies. Passive words: *čiji* (whose), *naravno* (of course), *super* (great).
+info: Ein Ball landet im Park vor deinen Füßen, und jede Antwort braucht ein Possessivpronomen in der richtigen Gestalt. Zwei Wörter lohnen sich vorab: *čiji* (wessen) und *naravno* (natürlich). **Lies deine zwei Optionen laut, bevor du wählst** – die falsche Endung hört man leichter, als man sie sieht.
+infokratko: *čiji* = wessen, *naravno* = natürlich. Pass die Endung ans Nomen an.
+opis: Ein Ball rollt im Park auf dich zu. Wähle deine Antworten. Passive Wörter: *čiji* (wessen), *naravno* (natürlich), *super* (super).
 - npc | Bok! Marko i ja igramo ovdje. Je li ovo tvoja lopta?
 - ti | Ne, moja lopta je crvena. To je njegova lopta. | Da, to je moja lopta! Hvala!
 - npc | A čiji je ovaj dres?
@@ -294,12 +294,12 @@ opis: A ball rolls up to you in the park. Choose your replies. Passive words: *�
 - npc | Svi ovdje vole svoj klub. Vidimo se na treningu!
 - ti | Vidimo se! | Hvala! Vidimo se!
 
-## Read: our club
+## Lesen: unser Verein
 format: izbor
-info: A short text where almost every sentence carries a possessive. Read it once for the story and once for the endings, and watch what happens in the last line: *svoj klub* is used because the people who love the club are the same people doing the loving.
-infokratko: Read for the story, then the endings. *svoj klub*: the owners are the subject.
+info: Ein kurzer Text, in dem fast jeder Satz ein Possessivpronomen trägt. Lies ihn einmal für die Geschichte und einmal für die Endungen, und achte darauf, was in der letzten Zeile passiert: *svoj klub* steht da, weil die Menschen, die den Verein lieben, dieselben sind, die lieben.
+infokratko: Lies für die Geschichte, dann für die Endungen. *svoj klub*: Die Besitzer sind das Subjekt.
 tekst: Naš klub je mali. Naš trener je strog, ali je pošten. Njegova momčad trenira svaki dan. Ana je kapetan i njezina pozicija je golman. Njezin dres je zelen, a moj je plav. Marko voli svoju loptu i nosi je na svaki trening. Danas je utakmica. Njihova obrana je jaka, ali naša momčad je brza. Mi ćemo pobijediti! Svi u ovom gradu vole svoj klub.
-opis: Read the text, then answer. Passive words: *svaki dan* (every day), *nosi* (carries), *svi* (everyone).
+opis: Lies den Text und antworte dann. Passive Wörter: *svaki dan* (jeden Tag), *nosi* (trägt), *svi* (alle).
 - Kakav je naš trener? | strog, ali pošten | mlad i brz | umoran
 - Koja je Anina pozicija? | golman | kapetan obrane | trener
 - Koje je boje njezin dres? | zelen | plav | crven
@@ -309,27 +309,27 @@ opis: Read the text, then answer. Passive words: *svaki dan* (every day), *nosi*
 
 ## Lektionscheck
 format: provjera
-info: A mixed check on the whole lesson. Two things decide nearly every answer: the ending comes from the **thing owned**, never from the owner, and *svoj* appears whenever the owner is also the one doing the action.
-infokratko: The ending follows the thing owned; *svoj* when the owner is the subject.
+info: Ein gemischter Check über die ganze Lektion. Zwei Dinge entscheiden fast jede Antwort: Die Endung kommt von der **besessenen Sache**, nie vom Besitzer, und *svoj* erscheint, wann immer der Besitzer auch der Handelnde ist.
+infokratko: Die Endung folgt der besessenen Sache; *svoj*, wenn der Besitzer das Subjekt ist.
 prag: 80
-opis: Final check! Score 80% to be ready for Vocabulary 9.
-- slaganje | Moj hobi je fotografija. | en: My hobby is photography.
+opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 9 zu sein.
+- slaganje | Moj hobi je fotografija. | en: Mein Hobby ist Fotografie.
 - izbor | ___ gitara je nova. | moja | moj | moje
-- upis | ___ klub je dobar. (our) | Naš
-- izbor | Što znači "trener"? | coach | jersey | ball
+- upis | ___ klub je dobar. (unser) | Naš
+- izbor | Što znači "trener"? | Trainer | Trikot | Ball
 - izbor | ___ more je toplo. | naše | naš | naša
 - izbor | Koja je rečenica točna? | Njezina gitara je nova. | Njezin gitara je nova.
-- izbor | "njegov" means "her". | FALSCH | RICHTIG
-- upis | ___ koljeno boli. (my) | Moje
-- izbor | Marko voli ___ sestru. (his own) | svoju | njegovu
-- izbor | Što znači "čiji"? | whose | which | whether
-- slaganje | Njihova obrana je jaka, ali naš kapetan je brz. | en: Their defence is strong, but our captain is fast.
-- upis | Prevedi: my ball → | moja lopta
+- izbor | „njegov“ bedeutet „ihr“ (von ihr). | FALSCH | RICHTIG
+- upis | ___ koljeno boli. (mein) | Moje
+- izbor | Marko voli ___ sestru. (seine eigene) | svoju | njegovu
+- izbor | Što znači "čiji"? | wessen | welcher | ob
+- slaganje | Njihova obrana je jaka, ali naš kapetan je brz. | en: Ihre Verteidigung ist stark, aber unser Kapitän ist schnell.
+- upis | Prevedi: mein Ball → | moja lopta
 
 ## Belohnung & Ausblick
 format: tekst
-info: A closing summary. You now have the whole possessive set, the *-o* / *-e* wrinkle, and *svoj* — the one Croatian has and English does not. What comes next is the last piece of Module B, and it is the big one: the past.
-infokratko: Possessives, *-o / -e*, and *svoj*. Next: the past.
-opis: Module B is nearly done. One lesson to go.
-- Bravo! Things are officially *yours* now — your club, your guitar, your Croatian. And with *svoj* you can say something English cannot say in one word.
-- **Next up:** Vocabulary 9 collects sport, hobbies and the body, and Grammar 9 drills the possessive endings. Then the grand finale of Module B: in Lesson 10 you tell stories about *yesterday* — the past tense: *Gledao sam film. Bio je odličan!*
+info: Eine Abschlusszusammenfassung. Du hast jetzt den ganzen Satz Possessivpronomen, die Falte *-o* / *-e* und *svoj* – das, was das Kroatische hat und das Deutsche nicht. Was als Nächstes kommt, ist das letzte Stück von Modul B, und es ist das große: die Vergangenheit.
+infokratko: Possessivpronomen, *-o / -e* und *svoj*. Als Nächstes: die Vergangenheit.
+opis: Modul B ist fast fertig. Noch eine Lektion.
+- Bravo! Die Dinge sind jetzt offiziell *deine* – dein Verein, deine Gitarre, dein Kroatisch. Und mit *svoj* kannst du etwas sagen, wofür das Deutsche kein eigenes Wort hat.
+- **Als Nächstes:** Wortschatz 9 sammelt Sport, Hobbys und den Körper, und Grammatik 9 übt die Endungen der Possessivpronomen. Dann das große Finale von Modul B: In Lektion 10 erzählst du Geschichten über *gestern* – die Vergangenheit: *Gledao sam film. Bio je odličan!*

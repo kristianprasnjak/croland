@@ -1,128 +1,128 @@
-# Test 18: The Conditional
+# Test 18: Der Konditional
 cjelina: Test 18
 
 ## Ordne die Wörter zu
 format: parovi
 trajanje: 1380
 prag: 70
-info: The words of Level 18: dreams, feelings and the verbs that go with them. Nouns are in their naming form and verbs in the infinitive. Several verbs have *se*: *nadati se, bojati se, brinuti se, ljutiti se, smijati se*.
-infokratko: Level 18 words: dreams and feelings. Verbs with *se*: *nadati se, bojati se…*
+info: Die Wörter von Stufe 18: Träume, Gefühle und die passenden Verben. Substantive stehen in der Grundform und Verben im Infinitiv. Mehrere Verben haben *se*: *nadati se, bojati se, brinuti se, ljutiti se, smijati se*.
+infokratko: Wörter von Stufe 18: Träume und Gefühle. Verben mit *se*: *nadati se, bojati se…*
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- san | dream
-- val | wave
+- san | Traum
+- val | Welle
 - zvijezda | star
-- jahta | yacht
-- vila | villa
-- dvorac | castle
-- palma | palm tree
-- pijesak | sand
-- obala | coast
-- ocean | ocean
-- budućnost | future
-- cilj | aim, goal
-- uspjeh | success
+- jahta | Jacht
+- vila | Villa
+- dvorac | Schloss, Burg
+- palma | Palme
+- pijesak | Sand
+- obala | Küste
+- ocean | Ozean
+- budućnost | Zukunft
+- cilj | Ziel
+- uspjeh | Erfolg
 - bogat | reich
-- siromašan | poor
+- siromašan | arm
 - slavan | berühmt
-- nadati se | to hope
-- bojati se | to be afraid
-- brinuti se | to worry
-- ljutiti se | to be angry
-- sanjati | to dream
-- smijati se | to laugh
-- osjećati | to feel
-- zamisliti | to imagine
-- dobiti | to get
-- štedjeti | to save (money)
-- milijun | million
-- lutrija | lottery
-- isti | the same
-- ovako | like this
-- ako | if
-- Dogovoreno! | Deal!
-- sreća | happiness, luck
-- nada | hope
-- strah | fear
-- briga | worry
-- radost | joy
-- tuga | sadness
-- osjećaj | feeling
-- ljutnja | anger
-- smijeh | laughter
-- suza | tear (from your eye)
-- ponosan | proud
-- zadovoljan | satisfied, pleased
-- nervozan | nervous
-- uplašen | scared
-- iznenađen | surprised
-- razočaran | disappointed
-- uzbuđen | excited
-- ljubomoran | jealous
+- nadati se | hoffen
+- bojati se | Angst haben, sich fürchten
+- brinuti se | sich Sorgen machen
+- ljutiti se | sich ärgern, wütend sein
+- sanjati | träumen
+- smijati se | lachen
+- osjećati | fühlen
+- zamisliti | sich vorstellen
+- dobiti | bekommen
+- štedjeti | sparen (Geld)
+- milijun | Million
+- lutrija | Lotterie, Lotto
+- isti | derselbe, gleich
+- ovako | so
+- ako | wenn, falls
+- Dogovoreno! | Abgemacht!
+- sreća | Glück
+- nada | Hoffnung
+- strah | Angst
+- briga | Sorge
+- radost | Freude
+- tuga | Traurigkeit
+- osjećaj | Gefühl
+- ljutnja | Wut, Ärger
+- smijeh | Lachen
+- suza | Träne
+- ponosan | stolz
+- zadovoljan | zufrieden
+- nervozan | nervös
+- uplašen | ängstlich, erschrocken
+- iznenađen | überrascht
+- razočaran | enttäuscht
+- uzbuđen | aufgeregt
+- ljubomoran | eifersüchtig
 
 ## Was bedeutet das?
 format: izbor
-info: Recognition of the Level 18 words, with three meanings to choose from. The wrong options come from the same group — feelings, dreams or verbs with *se* — so words that are close in meaning are the real test.
-infokratko: Level 18 words; the wrong options come from the same group.
+info: Wiedererkennen der Wörter von Stufe 18, mit drei Bedeutungen zur Auswahl. Die falschen Optionen stammen aus derselben Gruppe – Gefühle, Träume oder Verben mit *se* –, also sind bedeutungsähnliche Wörter der eigentliche Test.
+infokratko: Wörter von Stufe 18; die falschen Optionen stammen aus derselben Gruppe.
 opis: Wähle die richtige Bedeutung.
-- san | dream | star | wave
-- obala | coast | sand | ocean
-- pijesak | sand | coast | stone
-- budućnost | future | success | aim, goal
-- uspjeh | success | future | luck
-- cilj | aim, goal | success | hope
-- siromašan | poor | reich | berühmt
-- slavan | berühmt | reich | proud
-- nadati se | to hope | to worry | to dream
-- bojati se | to be afraid | to be angry | to hope
-- brinuti se | to worry | to be afraid | to laugh
-- ljutiti se | to be angry | to worry | to feel
-- smijati se | to laugh | to dream | to be angry
-- osjećati | to feel | to imagine | to hope
-- zamisliti | to imagine | to feel | to get
-- štedjeti | to save (money) | to get | to spend
-- lutrija | lottery | million | success
-- ovako | like this | the same | if
-- isti | the same | like this | reich
-- sreća | happiness, luck | hope | joy
-- strah | fear | worry | anger
-- briga | worry | fear | sadness
-- tuga | sadness | anger | fear
-- ljutnja | anger | sadness | laughter
-- suza | tear (from your eye) | laughter | fear
-- ponosan | proud | satisfied, pleased | jealous
-- zadovoljan | satisfied, pleased | proud | excited
-- uplašen | scared | surprised | nervous
-- razočaran | disappointed | surprised | jealous
-- ljubomoran | jealous | nervous | disappointed
+- san | Traum | star | Welle
+- obala | Küste | Sand | Ozean
+- pijesak | Sand | Küste | Stein
+- budućnost | Zukunft | Erfolg | Ziel
+- uspjeh | Erfolg | Zukunft | Glück
+- cilj | Ziel | Erfolg | Hoffnung
+- siromašan | arm | reich | berühmt
+- slavan | berühmt | reich | stolz
+- nadati se | hoffen | sich Sorgen machen | träumen
+- bojati se | Angst haben, sich fürchten | sich ärgern, wütend sein | hoffen
+- brinuti se | sich Sorgen machen | Angst haben, sich fürchten | lachen
+- ljutiti se | sich ärgern, wütend sein | sich Sorgen machen | fühlen
+- smijati se | lachen | träumen | sich ärgern, wütend sein
+- osjećati | fühlen | sich vorstellen | hoffen
+- zamisliti | sich vorstellen | fühlen | bekommen
+- štedjeti | sparen (Geld) | bekommen | ausgeben
+- lutrija | Lotterie, Lotto | Million | Erfolg
+- ovako | so | derselbe, gleich | wenn, falls
+- isti | derselbe, gleich | so | reich
+- sreća | Glück | Hoffnung | Freude
+- strah | Angst | Sorge | Wut, Ärger
+- briga | Sorge | Angst | Traurigkeit
+- tuga | Traurigkeit | Wut, Ärger | Angst
+- ljutnja | Wut, Ärger | Traurigkeit | Lachen
+- suza | Träne | Lachen | Angst
+- ponosan | stolz | zufrieden | eifersüchtig
+- zadovoljan | zufrieden | stolz | aufgeregt
+- uplašen | ängstlich, erschrocken | überrascht | nervös
+- razočaran | enttäuscht | überrascht | eifersüchtig
+- ljubomoran | eifersüchtig | nervös | enttäuscht
 
-## Past, future or dream?
+## Vergangenheit, Zukunft oder Traum?
 format: razvrstavanje
-info: Sorting sentences by tense. The past has *sam, je, smo* with the participle, the future has *ću, ćeš, ćemo*, and the conditional has *bih, bi, bismo, biste* with the participle. Look at the helper — the participle alone does not decide.
-infokratko: *sam / je* → past; *ću / ćemo* → future; *bih / bi / bismo* → conditional.
-stupci: PAST | FUTURE | CONDITIONAL
-opis: Sort the sentences.
-- Dobio sam poklon. | PAST
-- Dobit ću poklon. | FUTURE
-- Dobio bih poklon. | CONDITIONAL
-- Štedjeli smo. | PAST
-- Štedjet ćemo. | FUTURE
-- Štedjeli bismo. | CONDITIONAL
-- Ana je sanjala o moru. | PAST
-- Ana će sanjati o moru. | FUTURE
-- Ana bi sanjala o moru. | CONDITIONAL
-- Bojala sam se. | PAST
-- Neću se bojati. | FUTURE
-- Ne bih se bojala. | CONDITIONAL
-- Putovali ste. | PAST
-- Putovat ćete. | FUTURE
-- Putovali biste. | CONDITIONAL
+info: Sätze nach der Zeitform sortieren. Die Vergangenheit hat *sam, je, smo* mit dem Partizip, die Zukunft hat *ću, ćeš, ćemo*, und der Konditional hat *bih, bi, bismo, biste* mit dem Partizip. Schau auf den Helfer – das Partizip allein entscheidet nicht.
+infokratko: *sam / je* → Vergangenheit; *ću / ćemo* → Zukunft; *bih / bi / bismo* → Konditional.
+stupci: VERGANGENHEIT | ZUKUNFT | KONDITIONAL
+opis: Sortiere die Sätze.
+- Dobio sam poklon. | VERGANGENHEIT
+- Dobit ću poklon. | ZUKUNFT
+- Dobio bih poklon. | KONDITIONAL
+- Štedjeli smo. | VERGANGENHEIT
+- Štedjet ćemo. | ZUKUNFT
+- Štedjeli bismo. | KONDITIONAL
+- Ana je sanjala o moru. | VERGANGENHEIT
+- Ana će sanjati o moru. | ZUKUNFT
+- Ana bi sanjala o moru. | KONDITIONAL
+- Bojala sam se. | VERGANGENHEIT
+- Neću se bojati. | ZUKUNFT
+- Ne bih se bojala. | KONDITIONAL
+- Putovali ste. | VERGANGENHEIT
+- Putovat ćete. | ZUKUNFT
+- Putovali biste. | KONDITIONAL
 
-## Real or unreal?
+## Real oder irreal?
 format: razvrstavanje
-info: Sorting conditions by whether they can happen. *Ako* with a present or future in the other half is a real possibility; *da* or *kad bih* with a conditional in the other half is a dream.
-infokratko: *ako* … future / present → possible. *da / kad bih* … conditional → a dream.
+info: Bedingungen danach sortieren, ob sie passieren können. *Ako* mit einem Präsens oder Futur in der anderen Hälfte ist eine reale Möglichkeit; *da* oder *kad bih* mit einem Konditional in der anderen Hälfte ist ein Traum.
+infokratko: *ako* … Futur / Präsens → möglich. *da / kad bih* … Konditional → ein Traum.
 stupci: MOGUĆE (ako) | SAN (da, kad bih)
-opis: Could it really happen, or is it a daydream?
+opis: Könnte es wirklich passieren, oder ist es ein Tagtraum?
 - Ako imam vremena, doći ću. | MOGUĆE (ako)
 - Ako je sunčano, idemo na plažu. | MOGUĆE (ako)
 - Ako Ana štedi, kupit će auto. | MOGUĆE (ako)
@@ -139,31 +139,31 @@ opis: Could it really happen, or is it a daydream?
 ## Tippe auf die Endung
 format: nastavak
 nastavci: o | la | li | le
-info: One tap finishes the participle. It shows gender and number as in the past tense: **-o** for a man, **-la** for a woman (and for neuter plural like *djeca*), **-li** for a group with a man in it, **-le** for a group of women.
-infokratko: **-o** man, **-la** woman (and *djeca*), **-li** group, **-le** only women.
-opis: English above, Croatian below. One tap finishes the participle.
-- Kupi___ bih jahtu. | I would buy a yacht. (a man) | o
-- Kupi___ bih vilu. | I would buy a villa. (a woman) | la
-- Štedje___ bismo. | We would save. (Marko and I) | li
-- Sanja___ bismo o moru. | We would dream of the sea. (Ana and I, two women) | le
-- Petra bi dobi___ poklon. | Petra would get a present. | la
-- Ivan bi zamisli___ dvorac. | Ivan would imagine a castle. | o
-- Djeca bi pliva___ cijeli dan. | The children would swim all day. | la
-- Vi biste osta___ doma. | You would stay at home. (a group) | li
-- Ana i Maja bi putova___. | Ana and Maja would travel. | le
-- Htje___ bih kavu. | I would like a coffee. (a man) | o
-- Ne bih se boja___. | I wouldn't be afraid. (a woman) | la
-- Oni bi se smija___. | They would laugh. | li
-- Sestre bi se nada___. | The sisters would hope. | le
-- Ti bi živje___ na obali. | You would live on the coast. (a friend, a man) | o
-- Baka bi se brinu___. | Grandma would worry. | la
-- Mama i tata bi doš___. | Mum and Dad would come. | li
+info: Ein Tippen vollendet das Partizip. Es zeigt Geschlecht und Zahl wie in der Vergangenheit: **-o** für einen Mann, **-la** für eine Frau (und für Neutrum Plural wie *djeca*), **-li** für eine Gruppe mit einem Mann darin, **-le** für eine Gruppe von Frauen.
+infokratko: **-o** Mann, **-la** Frau (und *djeca*), **-li** Gruppe, **-le** nur Frauen.
+opis: Oben Deutsch, unten Kroatisch. Ein Tippen vollendet das Partizip.
+- Kupi___ bih jahtu. | Ich würde eine Jacht kaufen. (ein Mann) | o
+- Kupi___ bih vilu. | Ich würde eine Villa kaufen. (eine Frau) | la
+- Štedje___ bismo. | Wir würden sparen. (Marko und ich) | li
+- Sanja___ bismo o moru. | Wir würden vom Meer träumen. (Ana und ich, zwei Frauen) | le
+- Petra bi dobi___ poklon. | Petra würde ein Geschenk bekommen. | la
+- Ivan bi zamisli___ dvorac. | Ivan würde sich ein Schloss vorstellen. | o
+- Djeca bi pliva___ cijeli dan. | Die Kinder würden den ganzen Tag schwimmen. | la
+- Vi biste osta___ doma. | Ihr würdet zu Hause bleiben. | li
+- Ana i Maja bi putova___. | Ana und Maja würden reisen. | le
+- Htje___ bih kavu. | Ich möchte einen Kaffee. (ein Mann) | o
+- Ne bih se boja___. | Ich hätte keine Angst. (eine Frau) | la
+- Oni bi se smija___. | Sie würden lachen. | li
+- Sestre bi se nada___. | Die Schwestern würden hoffen. | le
+- Ti bi živje___ na obali. | Du würdest an der Küste leben. (ein Freund) | o
+- Baka bi se brinu___. | Oma würde sich Sorgen machen. | la
+- Mama i tata bi doš___. | Mama und Papa würden kommen. | li
 
-## Pick the helper
+## Wähle das Hilfswort
 format: izbor
-info: Choosing the helper that matches the person. *Ja* takes *bih*, *mi* takes *bismo*, *vi* takes *biste*, and every other person takes *bi*. In writing, *bi* is never used for *ja, mi* or *vi*.
-infokratko: *ja bih, mi bismo, vi biste*; everyone else *bi*.
-opis: Choose the correct helper.
+info: Den Helfer wählen, der zur Person passt. *Ja* nimmt *bih*, *mi* nimmt *bismo*, *vi* nimmt *biste*, und jede andere Person nimmt *bi*. Schriftlich wird *bi* nie für *ja, mi* oder *vi* benutzt.
+infokratko: *ja bih, mi bismo, vi biste*; alle anderen *bi*.
+opis: Wähle das richtige Hilfswort.
 - Ja ___ kupio vilu. | bih | bismo | biste
 - Mama ___ dobila novi auto. | bi | bih | biste
 - Mi ___ putovali cijelu godinu. | bismo | bih | biste
@@ -179,23 +179,23 @@ opis: Choose the correct helper.
 
 ## Der grammatisch richtige Satz
 format: izbor
-info: Choosing the sentence with the right word order. The helper takes the second place, *ne bih* stays together, *li* follows *bi*, and in a verb with *se* the helper comes first: *bojao bih se*.
-infokratko: Helper second; *ne bih* together; *bi li*; *bih se*.
-opis: Choose the grammatical sentence.
-- I would buy a villa. | Kupio bih vilu. | Bih kupio vilu. | Kupio vilu bih.
-- I wouldn't worry. | Ne bih se brinula. | Ne se bih brinula. | Bih se ne brinula.
-- Would you come? | Biste li došli? | Li biste došli? | Biste došli li?
-- I would be afraid of the sea. | Bojao bih se mora. | Bojao se bih mora. | Bih se bojao mora.
-- We would travel. | Mi bismo putovali. | Mi putovali bismo. | Bismo mi putovali.
-- She would laugh. | Smijala bi se. | Smijala se bi. | Bi se smijala.
-- Tomorrow I would save. | Sutra bih štedio. | Sutra štedio bih. | Bih sutra štedio.
-- Would he come? | Bi li došao? | Li bi došao? | Došao li bi?
+info: Den Satz mit der richtigen Wortstellung wählen. Der Helfer nimmt die zweite Stelle ein, *ne bih* bleibt zusammen, *li* folgt auf *bi*, und bei einem Verb mit *se* kommt zuerst der Helfer: *bojao bih se*.
+infokratko: Helfer an zweiter Stelle; *ne bih* zusammen; *bi li*; *bih se*.
+opis: Wähle den grammatisch richtigen Satz.
+- Ich würde eine Villa kaufen. | Kupio bih vilu. | Bih kupio vilu. | Kupio vilu bih.
+- Ich würde mir keine Sorgen machen. | Ne bih se brinula. | Ne se bih brinula. | Bih se ne brinula.
+- Würdest du kommen? | Biste li došli? | Li biste došli? | Biste došli li?
+- Ich hätte Angst vor dem Meer. | Bojao bih se mora. | Bojao se bih mora. | Bih se bojao mora.
+- Wir würden reisen. | Mi bismo putovali. | Mi putovali bismo. | Bismo mi putovali.
+- Sie würde lachen. | Smijala bi se. | Smijala se bi. | Bi se smijala.
+- Morgen würde ich sparen. | Sutra bih štedio. | Sutra štedio bih. | Bih sutra štedio.
+- Würde er kommen? | Bi li došao? | Li bi došao? | Došao li bi?
 
-## ako or da?
+## ako oder da?
 format: izbor
-info: Choosing the *if* from the other half of the sentence. A future, a present or an order in the other half means a real condition and *ako*; a conditional (*bih, bi, bismo*) means a dream and *da*.
-infokratko: future / present / order → *ako*; conditional → *da*.
-opis: The second half tells you which "if" the sentence needs.
+info: Das *wenn* nach der anderen Satzhälfte wählen. Ein Futur, ein Präsens oder ein Befehl in der anderen Hälfte bedeutet eine reale Bedingung und *ako*; ein Konditional (*bih, bi, bismo*) bedeutet einen Traum und *da*.
+infokratko: Futur / Präsens / Befehl → *ako*; Konditional → *da*.
+opis: Die zweite Hälfte verrät dir, welches „wenn“ der Satz braucht.
 - ___ je sunčano, ići ćemo na plažu. | Ako | Da
 - ___ imam milijun eura, kupila bih jahtu. | Da | Ako
 - ___ pada kiša, ostat ću doma. | Ako | Da
@@ -207,11 +207,11 @@ opis: The second half tells you which "if" the sentence needs.
 - ___ dođeš u osam, idemo u kino. | Ako | Da
 - ___ znam kuhati, kuhao bih svaki dan. | Da | Ako
 
-## Today → in your dreams
+## Heute → in deinen Träumen
 format: upis
-info: You turn a present-tense sentence into a conditional. Make the participle from the verb, add the helper for the person, and keep the rest. Where the speaker is *ja* or *mi*, both genders are accepted.
-infokratko: participle + helper. *ja*: both *-o* and *-la* accepted.
-opis: Rewrite the sentence in the conditional.
+info: Du verwandelst einen Satz im Präsens in einen Konditional. Bilde das Partizip aus dem Verb, füg den Helfer für die Person hinzu und behalte den Rest. Wo der Sprecher *ja* oder *mi* ist, werden beide Geschlechter akzeptiert.
+infokratko: Partizip + Helfer. *ja*: sowohl *-o* als auch *-la* akzeptiert.
+opis: Schreib den Satz im Konditional neu.
 - Kupujem jahtu. → | Kupio bih jahtu / Kupila bih jahtu
 - Mi štedimo. → | Mi bismo štedjeli / Mi bismo štedjele / Štedjeli bismo / Štedjele bismo
 - Ana sanja o moru. → | Ana bi sanjala o moru
@@ -223,26 +223,26 @@ opis: Rewrite the sentence in the conditional.
 - Želim kavu. → | Htio bih kavu / Htjela bih kavu
 - Djeca plivaju. → | Djeca bi plivala
 
-## Make it softer
+## Mach es sanfter
 format: upis
-info: You make a request more polite with the conditional. *Možete li…?* becomes *Biste li mogli…?*, *Možeš li…?* becomes *Bi li mogao…?* or *Bi li mogla…?*, and *Želim* becomes *Htio / Htjela bih*.
+info: Du machst eine Bitte mit dem Konditional höflicher. *Možete li…?* wird zu *Biste li mogli…?*, *Možeš li…?* wird zu *Bi li mogao…?* oder *Bi li mogla…?*, und *Želim* wird zu *Htio / Htjela bih*.
 infokratko: *Možete li…?* → *Biste li mogli…?*; *Želim* → *Htio / Htjela bih*.
-opis: Make it softer with the conditional.
+opis: Mach es mit dem Konditional sanfter.
 - Možete li doći u osam? → | Biste li mogli doći u osam
 - Želim komad torte. → | Htio bih komad torte / Htjela bih komad torte
 - Možete li čekati? → | Biste li mogli čekati
-- Možeš li dodati sol? (a friend, a man) → | Bi li mogao dodati sol
-- Možeš li dodati sol? (a friend, a woman) → | Bi li mogla dodati sol
+- Možeš li dodati sol? (ein Freund) → | Bi li mogao dodati sol
+- Možeš li dodati sol? (eine Freundin) → | Bi li mogla dodati sol
 - Želimo dvije kave. → | Htjeli bismo dvije kave / Htjele bismo dvije kave
 - Možete li skrenuti lijevo? → | Biste li mogli skrenuti lijevo
 - Želim živjeti na obali. → | Htio bih živjeti na obali / Htjela bih živjeti na obali
 
-## Read: the lottery ticket
+## Lesen: der Lottoschein
 format: izbor
-info: A short story in which three people dream out loud. Their participles show who is speaking — *-o* for Grandpa, *-la* for Grandma and Petra — and one of them is a real plan with *ako*, not a dream. Find the speaker before you answer.
-infokratko: The participle shows the speaker. One line is a real plan with *ako*.
+info: Eine kurze Geschichte, in der drei Leute laut träumen. Ihre Partizipien zeigen, wer spricht – *-o* für Opa, *-la* für Oma und Petra –, und eine davon ist ein realer Plan mit *ako*, kein Traum. Finde den Sprecher, bevor du antwortest.
+infokratko: Das Partizip zeigt den Sprecher. Eine Zeile ist ein realer Plan mit *ako*.
 tekst: Djed ima kartu za lutriju. "Da dobijem milijun eura, kupio bih brod," kaže djed. "Plovio bih po obali cijelo ljeto." Baka se smije: "Ja ne bih kupila ništa. Štedjela bih za unuke." Petra kaže: "A ja bih putovala oko svijeta!" Navečer čitaju brojeve. Djed nema sreće — nije dobio ništa. "Nema veze," kaže baka. "Ako je sutra sunčano, idemo na plažu. To je besplatno!"
-opis: Read the text, then answer. Passive words: *plovio* (would sail), *po obali* (along the coast), *brojeve* (numbers), *nema veze* (never mind), *besplatno* (free).
+opis: Lies den Text und antworte dann. Passive Wörter: *plovio* (würde segeln), *po obali* (an der Küste entlang), *brojeve* (Zahlen), *nema veze* (macht nichts), *besplatno* (kostenlos).
 - Što bi djed kupio? | brod | vilu | jahtu
 - Što bi baka radila s novcem? | štedjela bi za unuke | kupila bi brod | putovala bi
 - Tko bi putovao oko svijeta? | Petra | djed | baka
@@ -252,9 +252,9 @@ opis: Read the text, then answer. Passive words: *plovio* (would sail), *po obal
 
 ## Aus den früheren Levels
 format: izbor
-info: A review of Levels 13 to 17: the imperative, the genitive, the instrumental, the dative and the locative, plus the perfect with both genders. Each item comes from a level you have finished, so read the brackets carefully.
-infokratko: Review: imperative, genitive, instrumental, dative, locative, the perfect.
-opis: Not about the conditional — everything here comes from levels 10 to 17.
+info: Eine Wiederholung der Stufen 13 bis 17: der Imperativ, der Genitiv, der Instrumental, der Dativ und der Lokativ, dazu das Perfekt mit beiden Geschlechtern. Jede Aufgabe stammt aus einer Stufe, die du abgeschlossen hast, also lies die Klammern genau.
+infokratko: Wiederholung: Imperativ, Genitiv, Instrumental, Dativ, Lokativ, das Perfekt.
+opis: Nicht zum Konditional – alles hier stammt aus den Stufen 10 bis 17.
 - (prijatelju) ___ tri jaja! | Uzmi | Uzmaj | Uzmij
 - (grupi) ___ lijevo! | Skrenite | Skrenajte | Skrenijte
 - (prijatelju) | Nemoj kasniti! | Nemoj kasni! | Nemoj kasniš!
@@ -264,57 +264,57 @@ opis: Not about the conditional — everything here comes from levels 10 to 17.
 - Mačka je ispod ___ . | kreveta | krevet | krevetu
 - Ključ je kod ___ . (ona) | nje | nju | njoj
 - Idem na koncert ___ . (prijatelji) | s prijateljima | s prijatelji | s prijateljama
-- Ideš li ___ ? (with me) | sa mnom | s ja | sa meni
+- Ideš li ___ ? (mit mir) | sa mnom | s ja | sa meni
 - Šaljem paket ___ . (sestra) | sestri | sestru | sestrom
-- Kupit ću ___ cvijeće. (to her) | joj | je | nju
+- Kupit ću ___ cvijeće. (ihr) | joj | je | nju
 - Živim u ___ . (Rijeka) | Rijeci | Rijeki | Rijeku
 - Pričamo o ___ . (on) | njemu | njega | on
 - Ana i Petra su ___ na moru. (biti) | bile | bio | bila
-- Jučer sam ___ film. (gledati, a woman speaking) | gledala | gledao | gledale
+- Jučer sam ___ film. (gledati, eine Frau spricht) | gledala | gledao | gledale
 - Koja je rečenica točna? | Nisam pio kavu. | Ne sam pio kavu. | Nisam pili kavu.
 - Nitko ___ zna. | ne | ni | nije
 - Sutra ___ putovati. (mi) | ćemo | ćete | će
 - Koja je rečenica točna? | Idem u knjižnicu jer je Ana u knjižnici. | Idem u knjižnicu jer Ana je u knjižnici. | Idem u knjižnici jer je Ana u knjižnicu.
 
-## Build the sentences
+## Bau die Sätze
 format: slaganje
-info: Whole sentences with the conditional, built from tiles. The helper takes the second place, *se* comes right after it, a comma separates the condition from the other half, and the participle shows the speaker's gender.
-infokratko: Helper second, *se* after it; comma after the condition.
-opis: The English is above — tap the tiles to build the Croatian sentence.
-- Kupio bih kuću pokraj mora. | en: I would buy a house by the sea.
-- Mi bismo putovali cijelu godinu. | en: We would travel the whole year.
-- Htjela bih komad torte, molim. | en: I would like a piece of cake, please.
-- Da imam milijun eura, kupila bih jahtu. | en: If I had a million euros, I would buy a yacht.
-- Ako je sunčano, ići ćemo na plažu. | en: If it's sunny, we'll go to the beach.
-- Kad bih imao vremena, putovao bih. | en: If I had time, I would travel.
-- Ne bih se bojala mora. | en: I wouldn't be afraid of the sea.
-- Biste li mogli doći u osam? | en: Could you come at eight?
-- Što biste radili s milijun eura? | en: What would you do with a million euros?
-- Djeca bi plivala cijeli dan. | en: The children would swim all day.
-- Baka bi štedjela za unuke. | en: Grandma would save for her grandchildren.
-- Bi li dolazio k meni ljeti? | en: Would you come to my place in summer?
-- Da je ljeto, plivali bismo. | en: If it were summer, we would swim.
-- Baka i djed se smiju. | en: Grandma and Grandpa are laughing.
-- Ne bih mogao bez kina. | en: I couldn't live without the cinema.
+info: Ganze Sätze mit dem Konditional, aus Kacheln gebaut. Der Helfer nimmt die zweite Stelle ein, *se* kommt direkt danach, ein Komma trennt die Bedingung von der anderen Hälfte, und das Partizip zeigt das Geschlecht des Sprechers.
+infokratko: Helfer an zweiter Stelle, *se* danach; Komma nach der Bedingung.
+opis: Oben steht das Deutsche – tippe auf die Kärtchen, um den kroatischen Satz zu bauen.
+- Kupio bih kuću pokraj mora. | en: Ich würde ein Haus am Meer kaufen.
+- Mi bismo putovali cijelu godinu. | en: Wir würden das ganze Jahr reisen.
+- Htjela bih komad torte, molim. | en: Ich möchte bitte ein Stück Kuchen.
+- Da imam milijun eura, kupila bih jahtu. | en: Wenn ich eine Million Euro hätte, würde ich eine Jacht kaufen.
+- Ako je sunčano, ići ćemo na plažu. | en: Wenn es sonnig ist, gehen wir an den Strand.
+- Kad bih imao vremena, putovao bih. | en: Wenn ich Zeit hätte, würde ich reisen.
+- Ne bih se bojala mora. | en: Ich hätte keine Angst vor dem Meer.
+- Biste li mogli doći u osam? | en: Könnten Sie um acht kommen?
+- Što biste radili s milijun eura? | en: Was würdest du mit einer Million Euro machen?
+- Djeca bi plivala cijeli dan. | en: Die Kinder würden den ganzen Tag schwimmen.
+- Baka bi štedjela za unuke. | en: Oma würde für ihre Enkel sparen.
+- Bi li dolazio k meni ljeti? | en: Würdest du im Sommer zu mir kommen?
+- Da je ljeto, plivali bismo. | en: Wenn Sommer wäre, würden wir schwimmen.
+- Baka i djed se smiju. | en: Oma und Opa lachen.
+- Ne bih mogao bez kina. | en: Ohne Kino könnte ich nicht leben.
 
 ## Schreib es auf Kroatisch
 format: upis
-info: Free production from English. The conditional is the participle plus *bih, bi, bismo, biste*, always in the second place; a real *if* is *ako*, a dream is *da* or *kad bih*. Where the speaker's gender shows, both forms are accepted.
-infokratko: participle + helper; *ako* real, *da / kad bih* dream. Both genders accepted.
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- I would buy a villa. | Kupio bih vilu / Kupila bih vilu
-- We would save. | Štedjeli bismo / Štedjele bismo / Mi bismo štedjeli / Mi bismo štedjele
-- She would stay at home. | Ostala bi doma / Ona bi ostala doma
-- I would like a coffee. | Htio bih kavu / Htjela bih kavu
-- I wouldn't be afraid. | Ne bih se bojao / Ne bih se bojala
-- Would you come? (to a group) | Biste li došli
-- Could you wait? (polite) | Biste li mogli čekati
-- If it rains, I'll stay at home. | Ako pada kiša, ostat ću doma
-- If I had a million euros, I would travel. | Da imam milijun eura, putovao bih / Da imam milijun eura, putovala bih / Kad bih imao milijun eura, putovao bih / Kad bih imala milijun eura, putovala bih
-- If it were summer, we would swim. | Da je ljeto, plivali bismo / Da je ljeto, plivale bismo
-- The children would laugh. | Djeca bi se smijala
-- They would come for lunch. | Došli bi na ručak / Oni bi došli na ručak
-- I hope so. | Nadam se
-- What would you do? (to a friend) | Što bi radio / Što bi radila / Što bi ti radio / Što bi ti radila
-- Deal! | Dogovoreno
-- I would live by the sea. | Živio bih pokraj mora / Živjela bih pokraj mora
+info: Freie Produktion aus dem Deutschen. Der Konditional ist das Partizip plus *bih, bi, bismo, biste*, immer an zweiter Stelle; ein reales *wenn* ist *ako*, ein Traum ist *da* oder *kad bih*. Wo das Geschlecht des Sprechers sichtbar wird, werden beide Formen akzeptiert.
+infokratko: Partizip + Helfer; *ako* real, *da / kad bih* Traum. Beide Geschlechter akzeptiert.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Ich würde eine Villa kaufen. | Kupio bih vilu / Kupila bih vilu
+- Wir würden sparen. | Štedjeli bismo / Štedjele bismo / Mi bismo štedjeli / Mi bismo štedjele
+- Sie würde zu Hause bleiben. | Ostala bi doma / Ona bi ostala doma
+- Ich möchte einen Kaffee. | Htio bih kavu / Htjela bih kavu
+- Ich hätte keine Angst. | Ne bih se bojao / Ne bih se bojala
+- Würdet ihr kommen? | Biste li došli
+- Könnten Sie warten? (höflich) | Biste li mogli čekati
+- Wenn es regnet, bleibe ich zu Hause. | Ako pada kiša, ostat ću doma
+- Wenn ich eine Million Euro hätte, würde ich reisen. | Da imam milijun eura, putovao bih / Da imam milijun eura, putovala bih / Kad bih imao milijun eura, putovao bih / Kad bih imala milijun eura, putovala bih
+- Wenn Sommer wäre, würden wir schwimmen. | Da je ljeto, plivali bismo / Da je ljeto, plivale bismo
+- Die Kinder würden lachen. | Djeca bi se smijala
+- Sie würden zum Mittagessen kommen. | Došli bi na ručak / Oni bi došli na ručak
+- Das hoffe ich. | Nadam se
+- Was würdest du tun? (zu einem Freund) | Što bi radio / Što bi radila / Što bi ti radio / Što bi ti radila
+- Abgemacht! | Dogovoreno
+- Ich würde am Meer leben. | Živio bih pokraj mora / Živjela bih pokraj mora

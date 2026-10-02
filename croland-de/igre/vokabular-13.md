@@ -1,150 +1,150 @@
-# Places & Institutions
+# Orte & Einrichtungen
 cjelina: Vocabulary 13
 
-## Places (with the locative)
+## Orte (mit dem Lokativ)
 format: kartice
-info: New places in town, each with its "being there" form from Lesson 13. Masculine and neuter words take **-u** (*u centru, na parkiralištu*), feminine **-a** turns into **-i** (*u pošti, u crkvi*). Three of them soften **k** to **c** before the **-i**: *rijeka → na rijeci, luka → u luci, klinika → u klinici*. You may hear *apoteka* too; the standard Croatian word is *ljekarna*.
-infokratko: Places with the locative: m./n. **-u** (*u centru*), f. **-i** (*u pošti*). *rijeka → na rijeci*.
-opis: Your map of the town, with the "being there" form on every card. Tap a card to reveal the meaning.
-- pošta → u pošti | post office
-- teretana → u teretani | gym
-- rijeka → na rijeci | river
-- ljekarna → u ljekarni | pharmacy
-- fakultet → na fakultetu | university (faculty)
-- klinika → u klinici | clinic
-- crkva → u crkvi | church
-- vrtić → u vrtiću | kindergarten
-- bazen → na bazenu | swimming pool
-- tvornica → u tvornici | factory
-- parkiralište → na parkiralištu | parking lot
-- luka → u luci | harbor
-- centar → u centru | center (of town)
-- studio → u studiju | studio
+info: Neue Orte in der Stadt, jeder mit seiner Da-sein-Form aus Lektion 13. Maskuline und neutrale Wörter nehmen **-u** (*u centru, na parkiralištu*), feminines **-a** wird zu **-i** (*u pošti, u crkvi*). Drei davon machen vor dem **-i** aus **k** ein **c**: *rijeka → na rijeci, luka → u luci, klinika → u klinici*. Du hörst vielleicht auch *apoteka*; das standardkroatische Wort ist *ljekarna*.
+infokratko: Orte mit dem Lokativ: m./n. **-u** (*u centru*), f. **-i** (*u pošti*). *rijeka → na rijeci*.
+opis: Deine Karte der Stadt, mit der Da-sein-Form auf jeder Karte. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- pošta → u pošti | Post, Postamt
+- teretana → u teretani | Fitnessstudio
+- rijeka → na rijeci | Fluss
+- ljekarna → u ljekarni | Apotheke
+- fakultet → na fakultetu | Universität (Fakultät)
+- klinika → u klinici | Klinik
+- crkva → u crkvi | Kirche
+- vrtić → u vrtiću | Kindergarten
+- bazen → na bazenu | Schwimmbad
+- tvornica → u tvornici | Fabrik
+- parkiralište → na parkiralištu | Parkplatz
+- luka → u luci | Hafen
+- centar → u centru | Zentrum (der Stadt)
+- studio → u studiju | Studio
 
-## At home: rooms & furniture
+## Zu Hause: Zimmer & Möbel
 format: kartice
-info: The rooms of a flat or a house, and the things in them. The same two endings work indoors: *u kuhinji, u hodniku, na krovu, u ormaru*. **u** is inside something (*u hladnjaku*), **na** is on top of it (*na polici, na kauču*). *stepenice* is always plural, and *spavaća soba* and *dnevni boravak* are learned as two-word names.
-infokratko: Rooms and furniture: *u kuhinji, na krovu*. **u** inside, **na** on top: *u ormaru, na polici*.
-opis: Room by room, from the basement to the roof. Tap a card to reveal the meaning.
-- kupaonica → u kupaonici | bathroom
+info: Die Zimmer einer Wohnung oder eines Hauses und die Dinge darin. Dieselben zwei Endungen funktionieren drinnen: *u kuhinji, u hodniku, na krovu, u ormaru*. **u** heißt in etwas drin (*u hladnjaku*), **na** obendrauf (*na polici, na kauču*). *stepenice* ist immer Plural, und *spavaća soba* und *dnevni boravak* lernt man als zweiteilige Namen.
+infokratko: Zimmer und Möbel: *u kuhinji, na krovu*. **u** drinnen, **na** obendrauf: *u ormaru, na polici*.
+opis: Zimmer für Zimmer, vom Keller bis zum Dach. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- kupaonica → u kupaonici | Badezimmer
 - kuhinja → u kuhinji | Küche
-- spavaća soba | bedroom
-- dnevni boravak | living room
-- hodnik → u hodniku | hallway
-- podrum → u podrumu | basement
-- tavan → na tavanu | attic
-- garaža → u garaži | garage
-- krov → na krovu | roof
-- stepenice (mn.) | stairs
-- dizalo → u dizalu | elevator
-- dvorište → u dvorištu | yard
-- hladnjak → u hladnjaku | fridge
-- ormar → u ormaru | wardrobe
-- polica → na polici | shelf
-- kauč → na kauču | sofa, couch
-- fotelja → u fotelji | armchair
-- tepih → na tepihu | rug
-- ogledalo → u ogledalu | mirror
-- tuš | shower
+- spavaća soba | Schlafzimmer
+- dnevni boravak | Wohnzimmer
+- hodnik → u hodniku | Flur
+- podrum → u podrumu | Keller
+- tavan → na tavanu | Dachboden
+- garaža → u garaži | Garage
+- krov → na krovu | Dach
+- stepenice (mn.) | Treppe
+- dizalo → u dizalu | Aufzug
+- dvorište → u dvorištu | Hof
+- hladnjak → u hladnjaku | Kühlschrank
+- ormar → u ormaru | Kleiderschrank
+- polica → na polici | Regal
+- kauč → na kauču | Sofa, Couch
+- fotelja → u fotelji | Sessel
+- tepih → na tepihu | Teppich
+- ogledalo → u ogledalu | Spiegel
+- tuš | Dusche
 
-## Ten new verbs & little words
+## Zehn neue Verben & kleine Wörter
 format: kartice
-info: Ten verbs for places — where you live, what you open and close, who you meet — with the *ja*-form. Two change their stem: *stajati → stojim*, *stanovati → stanujem*. *Stanovati* is living at an address; *živjeti* from Vocabulary 4 is living in general. The little words point to a place: *gore* (upstairs), *dolje* (downstairs), *tamo* (there). **o** means *about* and takes the same locative: *Pričamo o gradu.*
-infokratko: Verbs with the *ja*-form: *stajati → stojim*. *gore / dolje / tamo*. **o** + locative: *o gradu*.
-opis: Verbs for places and the little words around them. Tap a card to reveal the meaning.
-- stanovati → stanujem | to live, to reside
+info: Zehn Verben für Orte – wo du wohnst, was du öffnest und schließt, wen du triffst – mit der *ja*-Form. Zwei ändern ihren Stamm: *stajati → stojim*, *stanovati → stanujem*. *Stanovati* ist an einer Adresse wohnen; *živjeti* aus Wortschatz 4 ist leben allgemein. Die kleinen Wörter zeigen auf einen Ort: *gore* (oben), *dolje* (unten), *tamo* (dort). **o** heißt *über* und nimmt denselben Lokativ: *Pričamo o gradu.*
+infokratko: Verben mit der *ja*-Form: *stajati → stojim*. *gore / dolje / tamo*. **o** + Lokativ: *o gradu*.
+opis: Verben für Orte und die kleinen Wörter darum herum. Tippe auf eine Karte, um die Bedeutung aufzudecken.
+- stanovati → stanujem | wohnen
 - stajati → stojim | stehen
-- spremati → spremam | to tidy up
-- posjetiti → posjetim | to visit
-- parkirati → parkiram | to park
-- otvarati → otvaram | to open
-- zatvarati → zatvaram | to close
-- sresti → sretnem | to meet
-- ostati → ostanem | to stay
-- graditi → gradim | to build
-- otvoren / otvorena | open
-- zatvoren / zatvorena | closed
-- gore | up, upstairs
-- dolje | down, downstairs
-- tamo | there
-- kamo? | where to?
-- o | about
-- mir | peace, quiet
-- podne → u podne | noon
-- poslijepodne | afternoon, in the afternoon
-- Halo! | Hello! (on the phone)
+- spremati → spremam | aufräumen
+- posjetiti → posjetim | besuchen
+- parkirati → parkiram | parken
+- otvarati → otvaram | öffnen
+- zatvarati → zatvaram | schließen
+- sresti → sretnem | treffen
+- ostati → ostanem | bleiben
+- graditi → gradim | bauen
+- otvoren / otvorena | offen
+- zatvoren / zatvorena | geschlossen
+- gore | oben
+- dolje | unten
+- tamo | dort
+- kamo? | wohin?
+- o | über
+- mir | Ruhe, Stille
+- podne → u podne | Mittag
+- poslijepodne | Nachmittag, nachmittags
+- Halo! | Hallo! (am Telefon)
 
 ## Ordne die Bilder zu
 format: spajanje
-info: Picture-to-word matching, with no English on the page. Half are places in town and half are rooms and furniture at home. Each one can tell somebody where you are: *Ja sam u kuhinji.* *Ana je u ljekarni.*
-infokratko: Say where you are: *Ja sam u kuhinji. Ana je u ljekarni.*
+info: Bild-Wort-Zuordnung, ohne Deutsch auf der Seite. Die Hälfte sind Orte in der Stadt und die Hälfte Zimmer und Möbel zu Hause. Jedes davon kann jemandem sagen, wo du bist: *Ja sam u kuhinji.* *Ana je u ljekarni.*
+infokratko: Sag, wo du bist: *Ja sam u kuhinji. Ana je u ljekarni.*
 opis: Zwölf Bilder, zwölf Wörter. Unsicher? Öffne das Wörterbuch – das schwebende Symbol rechts.
-- pošta | post office
-- rijeka | river
-- ljekarna | pharmacy
-- fakultet | university (faculty)
-- parkiralište | parking lot
-- kupaonica | bathroom
+- pošta | Post, Postamt
+- rijeka | Fluss
+- ljekarna | Apotheke
+- fakultet | Universität (Fakultät)
+- parkiralište | Parkplatz
+- kupaonica | Badezimmer
 - kuhinja | Küche
-- spavaća soba | bedroom
-- krov | roof
-- hladnjak | fridge
-- ormar | wardrobe
-- polica | shelf
+- spavaća soba | Schlafzimmer
+- krov | Dach
+- hladnjak | Kühlschrank
+- ormar | Kleiderschrank
+- polica | Regal
 
 ## Erstes Schreiben: die neuen Wörter
 format: upis
-info: You write each new word once, from its English meaning. Nouns go in their naming form (*pošta*, not *u pošti*) and verbs as an infinitive. The diacritics are full letters: *pošta* has **š**, *kuhinja* has the single letter **nj**, *ljekarna* starts with the single letter **lj**. This is the only page with new words alone; after it they mix with older words.
-infokratko: Type each new word once: naming form, infinitive. Diacritics count: *pošta, kuhinja, ljekarna*.
+info: Du schreibst jedes neue Wort einmal, ausgehend von seiner deutschen Bedeutung. Nomen in ihrer Benennungsform (*pošta*, nicht *u pošti*) und Verben als Infinitiv. Die diakritischen Zeichen sind vollwertige Buchstaben: *pošta* hat **š**, *kuhinja* hat den einzelnen Buchstaben **nj**, *ljekarna* beginnt mit dem einzelnen Buchstaben **lj**. Das ist die einzige Seite mit nur neuen Wörtern; danach mischen sie sich mit älteren.
+infokratko: Tippe jedes neue Wort einmal: Benennungsform, Infinitiv. Diakritische Zeichen zählen: *pošta, kuhinja, ljekarna*.
 opis: Deutsche Bedeutung rein, kroatisches Wort raus. Sag es laut, bevor du tippst.
-- gym | teretana
-- post office | pošta
-- pharmacy | ljekarna
-- bathroom | kupaonica
+- Fitnessstudio | teretana
+- Post, Postamt | pošta
+- Apotheke | ljekarna
+- Badezimmer | kupaonica
 - Küche | kuhinja
-- hallway | hodnik
-- basement | podrum
-- fridge | hladnjak
-- mirror | ogledalo
-- armchair | fotelja
+- Flur | hodnik
+- Keller | podrum
+- Kühlschrank | hladnjak
+- Spiegel | ogledalo
+- Sessel | fotelja
 - stehen | stajati
-- to tidy up | spremati
-- to park | parkirati
-- to open | otvarati
-- to close | zatvarati
+- aufräumen | spremati
+- parken | parkirati
+- öffnen | otvarati
+- schließen | zatvarati
 
 ## Tempo-Challenge: alt und neu
 format: brzina
-info: Timed recognition of today's words mixed with words from Vocabulary 1–12, half and half. Places from today — *crkva, luka, vrtić, tvornica* — sit next to words you already know, like *sport, kruška, gol*. Watch the two verbs: *posjetiti* is to visit, *graditi* is to build.
-infokratko: New and old words against the clock. *posjetiti* visit, *graditi* build.
+info: Zeitgebundenes Wiedererkennen der Wörter von heute, gemischt mit Wörtern aus Wortschatz 1–12, halb und halb. Orte von heute – *crkva, luka, vrtić, tvornica* – stehen neben Wörtern, die du schon kennst, wie *sport, kruška, gol*. Achte auf die zwei Verben: *posjetiti* heißt besuchen, *graditi* bauen.
+infokratko: Neue und alte Wörter gegen die Uhr. *posjetiti* besuchen, *graditi* bauen.
 trajanje: 60
 opis: Ein kroatisches Wort erscheint – tippe auf seine deutsche Bedeutung, bevor die Zeit abläuft!
-- crkva | church
+- crkva | Kirche
 - sport | Sport
-- luka | harbor
-- kruška | pear
-- vrtić | kindergarten
-- buket | bouquet
-- tvornica | factory
-- gol | goal
-- tavan | attic
+- luka | Hafen
+- kruška | Birne
+- vrtić | Kindergarten
+- buket | Blumenstrauß
+- tvornica | Fabrik
+- gol | Tor
+- tavan | Dachboden
 - star | alt
-- stepenice | stairs
+- stepenice | Treppe
 - zabavan | lustig, unterhaltsam
-- podne | noon
+- podne | Mittag
 - vrijedan | fleißig
-- zatvoren | closed
-- fotografirati | to photograph
-- posjetiti | to visit
-- kupovati | to buy
-- graditi | to build
-- cijeli sat | a whole hour
+- zatvoren | geschlossen
+- fotografirati | fotografieren
+- posjetiti | besuchen
+- kupovati | kaufen
+- graditi | bauen
+- cijeli sat | eine ganze Stunde
 
-## -u or -i?
+## -u oder -i?
 format: razvrstavanje
-info: Sorting nouns by the ending they take when you are *in* or *at* them — the locative from Lesson 13. A consonant, **-o** or **-e** takes **-u** (*u hodniku, u dizalu, u cvijeću, na izletu*). **-a** becomes **-i** (*u kuhinji, u pošti, o mami*). Look at the last letter of the naming form and you know the answer.
-infokratko: Consonant, **-o**, **-e** → **-u** (*u hodniku, u dizalu*). **-a** → **-i** (*u kuhinji, o mami*).
-opis: Which locative ending does each noun take? The last letter of the naming form decides.
+info: Nomen nach der Endung sortieren, die sie nehmen, wenn du *in* oder *an* ihnen bist – der Lokativ aus Lektion 13. Ein Konsonant, **-o** oder **-e** nimmt **-u** (*u hodniku, u dizalu, u cvijeću, na izletu*). **-a** wird zu **-i** (*u kuhinji, u pošti, o mami*). Schau auf den letzten Buchstaben der Benennungsform, und du kennst die Antwort.
+infokratko: Konsonant, **-o**, **-e** → **-u** (*u hodniku, u dizalu*). **-a** → **-i** (*u kuhinji, o mami*).
+opis: Welche Lokativendung nimmt jedes Nomen? Der letzte Buchstabe der Benennungsform entscheidet.
 stupci: -U | -I
 - hodnik | -U
 - podrum | -U
@@ -165,18 +165,18 @@ stupci: -U | -I
 
 ## Schreib es auf Kroatisch
 format: upis
-info: The final writing round mixes today's words with older ones. Nouns go in their naming form (*ćevapi* is always plural), verbs as infinitives, and *cijeli dan* is two words. The diacritics count as always: *kauč* with **č**, *ćevapi* with **ć**.
-infokratko: Mixed final round. Naming form, infinitive. Diacritics count: *kauč, ćevapi*.
+info: Die letzte Schreibrunde mischt die Wörter von heute mit älteren. Nomen in ihrer Benennungsform (*ćevapi* immer im Plural), Verben als Infinitive, und *cijeli dan* sind zwei Wörter. Die diakritischen Zeichen zählen wie immer: *kauč* mit **č**, *ćevapi* mit **ć**.
+infokratko: Gemischte Schlussrunde. Benennungsform, Infinitiv. Diakritische Zeichen zählen: *kauč, ćevapi*.
 opis: Die letzte Challenge – tippe jedes Wort auf Kroatisch. Denk dran: Kroatisch wird genau so geschrieben, wie es klingt.
-- there | tamo
+- dort | tamo
 - arbeiten | raditi
-- downstairs | dolje
+- unten | dolje
 - kochen | kuhati
-- rug | tepih
+- Teppich | tepih
 - verstehen | razumjeti
-- sofa | kauč
-- to play (a game) | igrati
-- to stay | ostati
+- Sofa | kauč
+- spielen (ein Spiel) | igrati
+- bleiben | ostati
 - gegrilltes Fleisch | ćevapi
-- swimming pool | bazen
-- the whole day | cijeli dan
+- Schwimmbad | bazen
+- den ganzen Tag | cijeli dan

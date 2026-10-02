@@ -1,4 +1,4 @@
-# Test 9: Possessives
+# Test 9: Possessivpronomen
 cjelina: Test 9
 
 ## Ordne die Wörter zu
@@ -6,101 +6,101 @@ format: parovi
 trajanje: 1320
 prag: 70
 opis: Ordne jedem kroatischen Wort seine deutsche Bedeutung zu.
-- hobi | hobby
-- klub | club
+- hobi | Hobby
+- klub | Verein, Klub
 - momčad | Team
-- trener | coach
-- kapetan | captain
-- igrač | player
-- golman | goalkeeper
-- gol | goal
-- obrana | defence
-- pozicija | position
-- lopta | ball
-- dres | jersey
-- trening | training
-- utakmica | match
-- stadion | stadium
-- nogomet | football
-- košarka | basketball
-- tenis | tennis
-- šah | chess
-- joga | yoga
-- fotografija | photography
-- fotoaparat | camera
-- glazba | music
-- tijelo | body
-- glava | head
-- kosa | hair
-- lice | face
+- trener | Trainer
+- kapetan | Kapitän
+- igrač | Spieler
+- golman | Torwart
+- gol | Tor
+- obrana | Verteidigung
+- pozicija | Position
+- lopta | Ball
+- dres | Trikot
+- trening | Training
+- utakmica | Spiel, Match
+- stadion | Stadion
+- nogomet | Fußball
+- košarka | Basketball
+- tenis | Tennis
+- šah | Schach
+- joga | Yoga
+- fotografija | Fotografie
+- fotoaparat | Kamera
+- glazba | Musik
+- tijelo | Körper
+- glava | Kopf
+- kosa | Haar
+- lice | Gesicht
 - oko | Auge
 - uho | Ohr
 - nos | Nase
-- usta | mouth
-- zub | tooth
-- vrat | neck
-- rame | shoulder
-- ruka | arm
-- prst | finger
-- leđa | back
-- srce | heart
-- noga | leg
-- koljeno | knee
-- koža | skin
-- krv | blood
-- kost | bone
-- strog | strict
+- usta | Mund
+- zub | Zahn
+- vrat | Hals, Nacken
+- rame | Schulter
+- ruka | Arm
+- prst | Finger
+- leđa | Rücken
+- srce | Herz
+- noga | Bein
+- koljeno | Knie
+- koža | Haut
+- krv | Blut
+- kost | Knochen
+- strog | streng
 - pošten | fair
-- slobodan | free
-- različit | different
-- omiljen | favorite
+- slobodan | frei
+- različit | verschieden
+- omiljen | Lieblings-
 
 ## Was bedeutet das?
 format: izbor
 opis: Wähle die richtige Bedeutung.
-- moj | my | your | his
-- tvoj | your (one person) | our | their
-- njegov | his | her | their
-- njezin | her | his | our
-- naš | our | your | their
-- vaš | your (plural or polite) | our | his
-- njihov | their | our | her
-- svoj | one's own | somebody else's | nobody's
-- čiji | whose | which | what
-- trčati | laufen, rennen | to jump | to dance
-- skakati | to jump | laufen, rennen | to swim
-- vježbati | to exercise | to lose | to cheer
-- trenirati | to train | zeichnen | to sing
-- navijati | to cheer | to train | to win
-- pobijediti | to win | to lose | to play
-- izgubiti | to lose | to win | to jump
-- plesati | to dance | zeichnen | laufen, rennen
-- crtati | zeichnen | to paint | schreiben
-- slikati | to take pictures | lesen | laufen, rennen
-- svirati | to play an instrument | to play a game | schauen, ansehen
-- igrač | player | coach | captain
-- momčad | Team | match | club
-- obrana | defence | goal | position
-- koljeno | knee | shoulder | elbow
-- leđa | back | chest | neck
-- koža | skin | bone | blood
-- kost | bone | skin | heart
-- krv | blood | skin | hair
-- rame | shoulder | knee | finger
-- prst | finger | arm | leg
-- usta | mouth | Auge | Ohr
-- vrat | neck | back | head
-- strog | strict | fair | free
-- pošten | fair | strict | different
-- različit | different | same | favorite
-- slobodan | free | beschäftigt | müde
-- stadion | stadium | club | park
-- trening | training | match | goal
+- moj | mein | dein | sein
+- tvoj | dein | unser | ihr (von ihnen)
+- njegov | sein | ihr (von ihr) | ihr (von ihnen)
+- njezin | ihr (von ihr) | sein | unser
+- naš | unser | dein | ihr (von ihnen)
+- vaš | euer, Ihr | unser | sein
+- njihov | ihr (von ihnen) | unser | ihr (von ihr)
+- svoj | sein eigenes, ihr eigenes | fremd, von jemand anderem | niemandes
+- čiji | wessen | welcher | was
+- trčati | laufen, rennen | springen | tanzen
+- skakati | springen | laufen, rennen | schwimmen
+- vježbati | trainieren, üben | verlieren | anfeuern
+- trenirati | trainieren | zeichnen | singen
+- navijati | anfeuern | trainieren | gewinnen
+- pobijediti | gewinnen | verlieren | spielen
+- izgubiti | verlieren | gewinnen | springen
+- plesati | tanzen | zeichnen | laufen, rennen
+- crtati | zeichnen | malen | schreiben
+- slikati | fotografieren | lesen | laufen, rennen
+- svirati | ein Instrument spielen | ein Spiel spielen | schauen, ansehen
+- igrač | Spieler | Trainer | Kapitän
+- momčad | Team | Spiel, Match | Verein, Klub
+- obrana | Verteidigung | Tor | Position
+- koljeno | Knie | Schulter | Ellbogen
+- leđa | Rücken | Brust | Hals, Nacken
+- koža | Haut | Knochen | Blut
+- kost | Knochen | Haut | Herz
+- krv | Blut | Haut | Haar
+- rame | Schulter | Knie | Finger
+- prst | Finger | Arm | Bein
+- usta | Mund | Auge | Ohr
+- vrat | Hals, Nacken | Rücken | Kopf
+- strog | streng | fair | frei
+- pošten | fair | streng | verschieden
+- različit | verschieden | gleich | Lieblings-
+- slobodan | frei | beschäftigt | müde
+- stadion | Stadion | Verein, Klub | Park
+- trening | Training | Spiel, Match | Tor
 
-## Sort by the gender of the thing owned
+## Nach dem Genus der besessenen Sache sortieren
 format: razvrstavanje
 stupci: MOJ | MOJA | MOJE
-opis: Which form of *moj* does each noun take? The last letter of the noun decides. One word ends in a consonant and is still feminine — *momčad*.
+opis: Welche Form von *moj* nimmt jedes Nomen? Der letzte Buchstabe des Nomens entscheidet. Ein Wort endet auf einen Konsonanten und ist trotzdem feminin – *momčad*.
 - dres | MOJ
 - klub | MOJ
 - trener | MOJ
@@ -130,10 +130,10 @@ opis: Which form of *moj* does each noun take? The last letter of the noun decid
 - lice | MOJE
 - more | MOJE
 
-## One or many?
+## Eins oder viele?
 format: razvrstavanje
 stupci: JEDNINA | MNOŽINA
-opis: Is the possessive standing in front of one thing or several? The ending on both words tells you.
+opis: Steht das Possessivpronomen vor einer Sache oder vor mehreren? Die Endung an beiden Wörtern verrät es.
 - moj dres | JEDNINA
 - moja lopta | JEDNINA
 - moje koljeno | JEDNINA
@@ -156,89 +156,89 @@ opis: Is the possessive standing in front of one thing or several? The ending on
 ## Tippe auf die Endung
 format: nastavak
 nastavci: - | a | e | o
-opis: The English is above. One tap completes the possessive — read the Croatian noun, not the English.
-- Moj___ dres je plav. | My jersey is blue. | -
-- Moj___ lopta je crvena. | My ball is red. | a
-- Moj___ koljeno boli. | My knee hurts. | e
-- Tvoj___ klub je star. | Your club is old. | -
-- Tvoj___ gitara je nova. | Your guitar is new. | a
-- Tvoj___ oko je crveno. | Your eye is red. | e
-- Naš___ trener je strog. | Our coach is strict. | -
-- Naš___ momčad je jaka. | Our team is strong. | a
-- Naš___ more je toplo. | Our sea is warm. | e
-- Vaš___ stadion je velik. | Your stadium is big. | -
-- Vaš___ obrana je dobra. | Your defence is good. | a
-- Vaš___ tijelo je umorno. | Your body is tired. | e
-- Njegov___ hobi je šah. | His hobby is chess. | -
-- Njegov___ sestra pjeva. | His sister sings. | a
-- Njegov___ srce je jako. | His heart is strong. | o
-- Njezin___ fotoaparat je star. | Her camera is old. | -
-- Njezin___ pozicija je golman. | Her position is goalkeeper. | a
-- Njezin___ koljeno boli. | Her knee hurts. | o
-- Njihov___ kapetan je brz. | Their captain is fast. | -
-- Njihov___ obrana je jaka. | Their defence is strong. | a
-- Njihov___ selo je malo. | Their village is small. | o
-- Moj___ ruka je jaka. | My arm is strong. | a
-- Naš___ klub pobjeđuje. | Our club is winning. | -
-- Njegov___ lice je tužno. | His face is sad. | o
+opis: Oben steht das Deutsche. Ein Tipp vervollständigt das Possessivpronomen – lies das kroatische Nomen, nicht das Deutsche.
+- Moj___ dres je plav. | Mein Trikot ist blau. | -
+- Moj___ lopta je crvena. | Mein Ball ist rot. | a
+- Moj___ koljeno boli. | Mein Knie tut weh. | e
+- Tvoj___ klub je star. | Dein Verein ist alt. | -
+- Tvoj___ gitara je nova. | Deine Gitarre ist neu. | a
+- Tvoj___ oko je crveno. | Dein Auge ist rot. | e
+- Naš___ trener je strog. | Unser Trainer ist streng. | -
+- Naš___ momčad je jaka. | Unsere Mannschaft ist stark. | a
+- Naš___ more je toplo. | Unser Meer ist warm. | e
+- Vaš___ stadion je velik. | Euer Stadion ist groß. | -
+- Vaš___ obrana je dobra. | Eure Verteidigung ist gut. | a
+- Vaš___ tijelo je umorno. | Dein Körper ist müde. | e
+- Njegov___ hobi je šah. | Sein Hobby ist Schach. | -
+- Njegov___ sestra pjeva. | Seine Schwester singt. | a
+- Njegov___ srce je jako. | Sein Herz ist stark. | o
+- Njezin___ fotoaparat je star. | Ihre Kamera ist alt. | -
+- Njezin___ pozicija je golman. | Ihre Position ist Torwart. | a
+- Njezin___ koljeno boli. | Ihr Knie tut weh. | o
+- Njihov___ kapetan je brz. | Ihr Kapitän ist schnell. | -
+- Njihov___ obrana je jaka. | Ihre Verteidigung ist stark. | a
+- Njihov___ selo je malo. | Ihr Dorf ist klein. | o
+- Moj___ ruka je jaka. | Mein Arm ist stark. | a
+- Naš___ klub pobjeđuje. | Unser Verein gewinnt. | -
+- Njegov___ lice je tužno. | Sein Gesicht ist traurig. | o
 
-## svoj or njegov?
+## svoj oder njegov?
 format: izbor
-opis: Does the thing belong to the person doing the action? Then it is *svoj*.
-- Marko voli ___ klub. (his own) | svoj | njegov
-- Marko gleda ___ gitaru. (Ana's guitar) | njezinu | svoju
-- Ana nosi ___ dres. (her own) | svoj | njezin
-- Ana zove ___ sestru. (her own) | svoju | njezinu
-- Ana zove ___ sestru. (Marko's sister) | njegovu | svoju
-- Igrači vole ___ klub. (their own) | svoj | njihov
-- Trener gleda ___ momčad. (his own) | svoju | njegovu
-- Djeca nose ___ dresove. (their own) | svoje | njihove
-- Ona vozi ___ auto. (her own) | svoj | njezin
-- On nosi ___ dres. (Marko's jersey) | njegov | svoj
-- Ivan voli ___ grad. (his own) | svoj | njegov
-- Svaki igrač nosi ___ loptu. (his own) | svoju | njegovu
+opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
+- Marko voli ___ klub. (seinen eigenen) | svoj | njegov
+- Marko gleda ___ gitaru. (Anas Gitarre) | njezinu | svoju
+- Ana nosi ___ dres. (ihr eigenes) | svoj | njezin
+- Ana zove ___ sestru. (ihre eigene) | svoju | njezinu
+- Ana zove ___ sestru. (Markos Schwester) | njegovu | svoju
+- Igrači vole ___ klub. (ihren eigenen) | svoj | njihov
+- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
+- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
+- On nosi ___ dres. (Markos Trikot) | njegov | svoj
+- Ivan voli ___ grad. (seine eigene) | svoj | njegov
+- Svaki igrač nosi ___ loptu. (seinen eigenen) | svoju | njegovu
 
-## Whose is it?
+## Wem gehört es?
 format: izbor
 opis: Einer davon ist so, wie ein Kroate es sagen würde.
-- Whose ball is this? | Čija je ovo lopta? | Čiji je ovo lopta?
-- Whose jersey is this? | Čiji je ovo dres? | Čija je ovo dres?
-- Whose knee is this? | Čije je ovo koljeno? | Čiji je ovo koljeno?
-- It is Marko's jersey. | To je Markov dres. | To je Markova dres.
-- It is Ana's guitar. | To je Anina gitara. | To je Anin gitara.
-- It is my sister's guitar. | To je sestrina gitara. | To je sestrin gitara.
-- It is grandma's house. | To je bakina kuća. | To je bakin kuća.
-- His guitar is new. | Njegova gitara je nova. | Njegov gitara je nova.
-- Her jersey is blue. | Njezin dres je plav. | Njezina dres je plav.
-- Our team is strong. | Naša momčad je jaka. | Naš momčad je jaka.
-- Their hobbies are different. | Njihovi hobiji su različiti. | Njihove hobiji su različiti.
-- My knee hurts. | Moje koljeno boli. | Moj koljeno boli.
+- Wessen Ball ist das? | Čija je ovo lopta? | Čiji je ovo lopta?
+- Wessen Trikot ist das? | Čiji je ovo dres? | Čija je ovo dres?
+- Wessen Knie ist das? | Čije je ovo koljeno? | Čiji je ovo koljeno?
+- Das ist Markos Trikot. | To je Markov dres. | To je Markova dres.
+- Das ist Anas Gitarre. | To je Anina gitara. | To je Anin gitara.
+- Das ist die Gitarre meiner Schwester. | To je sestrina gitara. | To je sestrin gitara.
+- Das ist Omas Haus. | To je bakina kuća. | To je bakin kuća.
+- Seine Gitarre ist neu. | Njegova gitara je nova. | Njegov gitara je nova.
+- Ihr Trikot ist blau. | Njezin dres je plav. | Njezina dres je plav.
+- Unsere Mannschaft ist stark. | Naša momčad je jaka. | Naš momčad je jaka.
+- Ihre Hobbys sind verschieden. | Njihovi hobiji su različiti. | Njihove hobiji su različiti.
+- Mein Knie tut weh. | Moje koljeno boli. | Moj koljeno boli.
 
-## Type the possessive
+## Tippe das Possessivpronomen
 format: upis
-opis: Type the possessive. The bracket says who, the noun decides the ending.
-- ___ hobi je fotografija. (my) | Moj
-- ___ sestra svira gitaru. (my) | Moja
-- ___ koljeno boli. (my) | Moje
-- ___ hobiji su različiti. (my) | Moji
-- ___ klub trenira danas. (our) | Naš
-- ___ momčad pobjeđuje. (our) | Naša
-- ___ more je toplo. (our) | Naše
-- ___ igrači su brzi. (our) | Naši
-- ___ dres je nov. (his) | Njegov
-- ___ pozicija je golman. (his) | Njegova
-- ___ srce je jako. (his) | Njegovo
-- ___ fotoaparat je star. (her) | Njezin
-- ___ gitara je nova. (her) | Njezina
-- ___ knjige su nove. (her) | Njezine
-- ___ trener je pošten. (their) | Njihov
-- ___ obrana je brza. (their) | Njihova
-- ___ stadion je velik. (your, plural) | Vaš
-- ___ lopta je crvena. (your, one person) | Tvoja
+opis: Tippe das Possessivpronomen. Die Klammer sagt wem, das Nomen entscheidet die Endung.
+- ___ hobi je fotografija. (mein) | Moj
+- ___ sestra svira gitaru. (mein) | Moja
+- ___ koljeno boli. (mein) | Moje
+- ___ hobiji su različiti. (mein) | Moji
+- ___ klub trenira danas. (unser) | Naš
+- ___ momčad pobjeđuje. (unser) | Naša
+- ___ more je toplo. (unser) | Naše
+- ___ igrači su brzi. (unser) | Naši
+- ___ dres je nov. (sein) | Njegov
+- ___ pozicija je golman. (sein) | Njegova
+- ___ srce je jako. (sein) | Njegovo
+- ___ fotoaparat je star. (ihr – von ihr) | Njezin
+- ___ gitara je nova. (ihr – von ihr) | Njezina
+- ___ knjige su nove. (ihr – von ihr) | Njezine
+- ___ trener je pošten. (ihr – von ihnen) | Njihov
+- ___ obrana je brza. (ihr – von ihnen) | Njihova
+- ___ stadion je velik. (euer) | Vaš
+- ___ lopta je crvena. (dein) | Tvoja
 
-## Build the owner's word
+## Bau das Wort des Besitzers
 format: upis
-opis: A word in **-a** takes **-in**, any other takes **-ov**. Then the noun finishes the word.
+opis: Ein Wort auf **-a** nimmt **-in**, jedes andere **-ov**. Dann vollendet das Nomen das Wort.
 - Marko + dres → | Markov dres
 - Ivan + gol → | Ivanov gol
 - Ana + fotoaparat → | Anin fotoaparat
@@ -252,9 +252,9 @@ opis: A word in **-a** takes **-in**, any other takes **-ov**. Then the noun fin
 - Maja + lopta → | Majina lopta
 - Marko + koljeno → | Markovo koljeno
 
-## Type svoj
+## Tippe svoj
 format: upis
-opis: Type the right form of *svoj*.
+opis: Tippe die richtige Form von *svoj*.
 - Marko voli ___ klub. | svoj
 - Ana voli ___ sestru. | svoju
 - Trener gleda ___ momčad. | svoju
@@ -266,10 +266,10 @@ opis: Type the right form of *svoj*.
 - Pjevamo ___ pjesme. | svoje
 - Ivan trenira ___ momčad. | svoju
 
-## Read: the Kovač family
+## Lesen: die Familie Kovač
 format: izbor
 tekst: Ovo je obitelj Kovač. Njihova kuća je mala, ali je vesela. Tata je trener i njegov klub trenira svaki dan. Mama slika — njezin fotoaparat je nov. Njihov sin Luka igra košarku i njegova lopta je uvijek vani. Njihova kći Maja svira gitaru. Njezina gitara je stara, ali svira lijepo. Svi u obitelji vole svoj hobi.
-opis: Read the text, then answer. Every word you need is in the text itself.
+opis: Lies den Text und antworte dann. Jedes Wort, das du brauchst, steht im Text selbst.
 - Kakva je njihova kuća? | mala, ali vesela | velika i nova | stara i hladna
 - Čiji klub trenira svaki dan? | tatin | mamin | Lukin
 - Kakav je mamin fotoaparat? | nov | star | crven
@@ -279,7 +279,7 @@ opis: Read the text, then answer. Every word you need is in the text itself.
 
 ## Aus den früheren Levels
 format: izbor
-opis: Not about possessives — everything here comes from levels 5 to 8.
+opis: Nicht über Possessivpronomen – alles hier stammt aus den Levels 5 bis 8.
 - Pijem ___ . (kava) | kavu | kava | kave
 - Volim ___ . (čokolada) | čokoladu | čokolada | čokolade
 - Mama kuha ___ . (juha) | juhu | juha | juhe
@@ -304,47 +304,47 @@ opis: Not about possessives — everything here comes from levels 5 to 8.
 ## Bau den Satz
 format: slaganje
 opis: Oben steht der deutsche Satz – tippe auf die Kärtchen, um dasselbe auf Kroatisch zu sagen.
-- Moj hobi je fotografija. | en: My hobby is photography.
-- Moja sestra svira gitaru. | en: My sister plays the guitar.
-- Njezina gitara je nova. | en: Her guitar is new.
-- Njegov dres je plav, a moj je crven. | en: His jersey is blue, and mine is red.
-- Naš klub je mali, ali je dobar. | en: Our club is small, but it is good.
-- Naš trener je strog, ali je pošten. | en: Our coach is strict, but he is fair.
-- Naši hobiji su različiti. | en: Our hobbies are different.
-- Njihova obrana je jaka. | en: Their defence is strong.
-- Moje koljeno boli. | en: My knee hurts.
-- Čija je ovo lopta? | en: Whose ball is this?
-- To je Markov dres. | en: That is Marko's jersey.
-- To je Anin fotoaparat. | en: That is Ana's camera.
-- Marko voli svoj klub. | en: Marko loves his own club.
-- Svaki igrač nosi svoj dres. | en: Every player brings his own jersey.
-- Ana nosi svoju loptu na trening. | en: Ana brings her own ball to training.
-- Vaša momčad igra dobro. | en: Your team plays well.
-- Njezine pjesme su lijepe. | en: Her songs are beautiful.
-- Naši roditelji gledaju i navijaju. | en: Our parents watch and cheer.
-- Bakina kuća je stara. | en: Grandma's house is old.
-- Svi vole svoj klub. | en: Everyone loves their own club.
+- Moj hobi je fotografija. | en: Mein Hobby ist Fotografie.
+- Moja sestra svira gitaru. | en: Meine Schwester spielt Gitarre.
+- Njezina gitara je nova. | en: Ihre Gitarre ist neu.
+- Njegov dres je plav, a moj je crven. | en: Sein Trikot ist blau, und meins ist rot.
+- Naš klub je mali, ali je dobar. | en: Unser Verein ist klein, aber er ist gut.
+- Naš trener je strog, ali je pošten. | en: Unser Trainer ist streng, aber er ist fair.
+- Naši hobiji su različiti. | en: Unsere Hobbys sind verschieden.
+- Njihova obrana je jaka. | en: Ihre Verteidigung ist stark.
+- Moje koljeno boli. | en: Mein Knie tut weh.
+- Čija je ovo lopta? | en: Wessen Ball ist das?
+- To je Markov dres. | en: Das ist Markos Trikot.
+- To je Anin fotoaparat. | en: Das ist Anas Kamera.
+- Marko voli svoj klub. | en: Marko liebt seinen eigenen Verein.
+- Svaki igrač nosi svoj dres. | en: Jeder Spieler bringt sein eigenes Trikot mit.
+- Ana nosi svoju loptu na trening. | en: Ana bringt ihren eigenen Ball zum Training mit.
+- Vaša momčad igra dobro. | en: Deine Mannschaft spielt gut.
+- Njezine pjesme su lijepe. | en: Ihre Lieder sind schön.
+- Naši roditelji gledaju i navijaju. | en: Unsere Eltern schauen zu und feuern an.
+- Bakina kuća je stara. | en: Omas Haus ist alt.
+- Svi vole svoj klub. | en: Alle lieben ihren eigenen Verein.
 
 ## Schreib es auf Kroatisch
 format: upis
-opis: No tiles, no options. Read the English and write the whole Croatian sentence.
-- My hobby is photography. | Moj hobi je fotografija.
-- My ball is red. | Moja lopta je crvena.
-- My knee hurts. | Moje koljeno boli.
-- Her guitar is new. | Njezina gitara je nova.
-- His jersey is blue. | Njegov dres je plav.
-- Our club is small. | Naš klub je mali.
-- Our team is strong. | Naša momčad je jaka.
-- Their defence is strong. | Njihova obrana je jaka.
-- Our hobbies are different. | Naši hobiji su različiti.
-- Whose ball is this? | Čija je ovo lopta?
-- Whose jersey is this? | Čiji je ovo dres?
-- That is Marko's jersey. | To je Markov dres.
-- That is Ana's camera. | To je Anin fotoaparat.
-- Grandma's house is old. | Bakina kuća je stara.
-- Marko loves his own club. | Marko voli svoj klub.
-- Ana brings her own ball. | Ana nosi svoju loptu.
-- Our coach is strict. | Naš trener je strog.
-- My sister plays the guitar. | Moja sestra svira gitaru.
-- Her songs are beautiful. | Njezine pjesme su lijepe.
-- Everyone loves their own club. | Svi vole svoj klub.
+opis: Keine Kärtchen, keine Auswahl. Lies das Deutsche und schreib den ganzen kroatischen Satz.
+- Mein Hobby ist Fotografie. | Moj hobi je fotografija.
+- Mein Ball ist rot. | Moja lopta je crvena.
+- Mein Knie tut weh. | Moje koljeno boli.
+- Ihre Gitarre ist neu. | Njezina gitara je nova.
+- Sein Trikot ist blau. | Njegov dres je plav.
+- Unser Verein ist klein. | Naš klub je mali.
+- Unsere Mannschaft ist stark. | Naša momčad je jaka.
+- Ihre Verteidigung ist stark. | Njihova obrana je jaka.
+- Unsere Hobbys sind verschieden. | Naši hobiji su različiti.
+- Wessen Ball ist das? | Čija je ovo lopta?
+- Wessen Trikot ist das? | Čiji je ovo dres?
+- Das ist Markos Trikot. | To je Markov dres.
+- Das ist Anas Kamera. | To je Anin fotoaparat.
+- Omas Haus ist alt. | Bakina kuća je stara.
+- Marko liebt seinen eigenen Verein. | Marko voli svoj klub.
+- Ana bringt ihren eigenen Ball mit. | Ana nosi svoju loptu.
+- Unser Trainer ist streng. | Naš trener je strog.
+- Meine Schwester spielt Gitarre. | Moja sestra svira gitaru.
+- Ihre Lieder sind schön. | Njezine pjesme su lijepe.
+- Alle lieben ihren eigenen Verein. | Svi vole svoj klub.

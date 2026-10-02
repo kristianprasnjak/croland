@@ -1,52 +1,52 @@
 # Futur I
 cjelina: Grammar 8
 
-## The rule: helpers & two word orders
+## Die Regel: Hilfswörter & zwei Wortstellungen
 format: tekst
-info: The core of the future on one page: a helper plus the infinitive. If anything else comes first, the verb stays whole (*Ja ću **plivati***); if the verb comes first, it drops its final *-i* and the helper follows (***Plivat** ću*).
-infokratko: Future = helper + infinitive. *Ja ću plivati*; verb first drops *-i*: *Plivat ću*.
-- The Croatian future: one set of helpers + the infinitive.
-- **The helpers:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. These are short forms of *htjeti* (to want) — historically, "I will swim" grew out of "I want to swim". English did exactly the same with *will*!
-- **Order A — with the pronoun (or any first word):** helper comes second. *Ja ću plivati. Sutra ću plivati. Mi ćemo putovati.*
-- **Order B — verb first:** infinitive loses its final **-i**, helper follows. *Plivat ću. Putovat ćemo. Gledat ćeš.*
-- tab: Order | Shape of the verb | Example
-- tab: something else first | full infinitive | Ja ću **plivati**. · Sutra ću **plivati**.
-- tab: verb first | drops the **-i** | **Plivat** ću. · **Putovat** ćemo.
-- **Now you write them.** Ja [ću] plivati. Mi [ćemo] putovati. Bez zamjenice: [Plivat] ću.
+info: Der Kern des Futurs auf einer Seite: ein Hilfswort plus der Infinitiv. Kommt etwas anderes zuerst, bleibt das Verb ganz (*Ja ću **plivati***); kommt das Verb zuerst, verliert es sein letztes *-i*, und das Hilfswort folgt (***Plivat** ću*).
+infokratko: Futur = Hilfswort + Infinitiv. *Ja ću plivati*; Verb zuerst verliert *-i*: *Plivat ću*.
+- Das kroatische Futur: ein Satz Hilfswörter + der Infinitiv – genau wie das deutsche *werden* + Infinitiv.
+- **Die Hilfswörter:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. Das sind Kurzformen von *htjeti* (wollen) – historisch ist „ich werde schwimmen“ aus „ich will schwimmen“ entstanden. Das Englische hat mit *will* genau dasselbe gemacht!
+- **Stellung A – mit dem Pronomen (oder einem anderen ersten Wort):** Das Hilfswort kommt an zweiter Stelle. *Ja ću plivati. Sutra ću plivati. Mi ćemo putovati.*
+- **Stellung B – Verb zuerst:** Der Infinitiv verliert sein letztes **-i**, das Hilfswort folgt. *Plivat ću. Putovat ćemo. Gledat ćeš.*
+- tab: Stellung | Gestalt des Verbs | Beispiel
+- tab: etwas anderes zuerst | voller Infinitiv | Ja ću **plivati**. · Sutra ću **plivati**.
+- tab: Verb zuerst | verliert das **-i** | **Plivat** ću. · **Putovat** ćemo.
+- **Jetzt schreibst du.** Ja [ću] plivati. Mi [ćemo] putovati. Bez zamjenice: [Plivat] ću.
 
-## The rule: the third time you meet this
+## Die Regel: das dritte Mal, dass du das triffst
 format: tekst
-info: The *why* behind that word order. *ću* is a **clitic**, unstressed like *sam* and *ga*, and an unstressed word cannot open a Croatian sentence — it needs something in front to lean on. So the verb gives up its *-i* to become that something.
-infokratko: *ću* is a clitic like *sam* and *ga*: it can't open a sentence, so something goes before it.
-- **Why can't the helper go first?** Because it is a **clitic** — the same restless family you have now met three times.
-- tab: Lesson | The clitic | Never says
+info: Das *Warum* hinter dieser Wortstellung. *ću* ist ein **Klitikon**, unbetont wie *sam* und *ga*, und ein unbetontes Wort kann keinen kroatischen Satz eröffnen – es braucht etwas davor, an das es sich lehnen kann. Also gibt das Verb sein *-i* auf, um dieses Etwas zu werden.
+infokratko: *ću* ist ein Klitikon wie *sam* und *ga*: Es kann keinen Satz eröffnen, also steht etwas davor.
+- **Warum darf das Hilfswort nicht zuerst stehen?** Weil es ein **Klitikon** ist – dieselbe unruhige Familie, die du jetzt schon dreimal getroffen hast.
+- tab: Lektion | Das Klitikon | Sagt nie
 - tab: 2 | sam · si · je | *Sam student.*
 - tab: 6 | me · te · ga · je | *Ga vidim.*
 - tab: 8 | ću · ćeš · će | *Ću plivati.*
-- Rule of thumb: the helper *never* stands first — it's shy, it always leans on another word.
-- Every one of them is unstressed, and an unstressed word cannot open a Croatian sentence — there is nothing in front for it to lean on. That single fact explains *Ja sam student*, *Vidim ga* and *Plivat ću* all at once.
-- **So when the verb has to go first, it takes the hit** and gives up its final letter: *plivati → plivat ću*. The helper gets something to lean on, and the sentence works.
-- **Write it as two words.** *Plivat ću*, never *Plivaću*. You will see the fused spelling in Serbian and in casual chat; standard Croatian keeps them apart.
-- **Verbs ending in -ći keep their full shape:** *Ići ću na more. Doći ćeš sutra.* There is no *-i* to drop — the whole *-ći* is part of the stem.
-- **Now you write them.** plivati → [Plivat] ću. ići → [Ići] ću. doći → [Doći] ćeš.
+- Faustregel: Das Hilfswort steht *nie* zuerst – es ist schüchtern und lehnt sich immer an ein anderes Wort.
+- Jedes davon ist unbetont, und ein unbetontes Wort kann keinen kroatischen Satz eröffnen – es gibt nichts davor, an das es sich lehnen könnte. Diese eine Tatsache erklärt *Ja sam student*, *Vidim ga* und *Plivat ću* auf einmal.
+- **Wenn also das Verb zuerst stehen muss, steckt es den Schlag ein** und gibt seinen letzten Buchstaben auf: *plivati → plivat ću*. Das Hilfswort hat etwas zum Anlehnen, und der Satz funktioniert.
+- **Schreib es als zwei Wörter.** *Plivat ću*, niemals *Plivaću*. Die zusammengezogene Schreibung siehst du im Serbischen und in lockeren Chats; das Standardkroatische hält sie getrennt.
+- **Verben auf -ći behalten ihre volle Gestalt:** *Ići ću na more. Doći ćeš sutra.* Es gibt kein *-i* zum Weglassen – das ganze *-ći* gehört zum Stamm.
+- **Jetzt schreibst du.** plivati → [Plivat] ću. ići → [Ići] ću. doći → [Doći] ćeš.
 
-## Match pronoun & helper
+## Ordne Pronomen & Hilfswort zu
 format: parovi
-info: Pair each subject with its helper. The full set is *ću, ćeš, će, ćemo, ćete, će*, and *će* is the one form doing double duty: it covers *on/ona* and *oni/one* alike.
-infokratko: *ću, ćeš, će, ćemo, ćete, će*. *će* covers *on/ona* and *oni*.
-opis: Match pronoun and helper.
+info: Ordne jedem Subjekt sein Hilfswort zu. Der volle Satz ist *ću, ćeš, će, ćemo, ćete, će*, und *će* ist die eine Form mit Doppelaufgabe: Sie deckt *on/ona* und *oni/one* gleichermaßen ab.
+infokratko: *ću, ćeš, će, ćemo, ćete, će*. *će* deckt *on/ona* und *oni* ab.
+opis: Ordne Pronomen und Hilfswort zu.
 - ja | ću
 - ti | ćeš
 - on | će
 - mi | ćemo
 - vi | ćete
 
-## Who will it be?
+## Wer wird es sein?
 format: razvrstavanje
-info: Sort the subjects by helper. Any single person or thing takes **će**, names and nouns included (*Marko će*, *avion će*), and any group containing *ja* takes **ćemo**, even when *mi* is left unsaid (*brat i ja ćemo*).
-infokratko: One person or thing → **će**; any group with *ja* → **ćemo**.
+info: Sortiere die Subjekte nach Hilfswort. Jede einzelne Person oder Sache nimmt **će**, auch Namen und Nomen (*Marko će*, *avion će*), und jede Gruppe mit *ja* nimmt **ćemo**, auch wenn *mi* ungesagt bleibt (*brat i ja ćemo*).
+infokratko: Eine Person oder Sache → **će**; jede Gruppe mit *ja* → **ćemo**.
 stupci: ĆU | ĆEŠ | ĆE | ĆEMO
-opis: Which helper does each subject take? Any single person or thing takes **će**; a group that includes *ja* takes **ćemo**.
+opis: Welches Hilfswort nimmt jedes Subjekt? Jede einzelne Person oder Sache nimmt **će**; eine Gruppe, die *ja* einschließt, nimmt **ćemo**.
 - ja | ĆU
 - ti | ĆEŠ
 - on | ĆE
@@ -64,54 +64,54 @@ opis: Which helper does each subject take? Any single person or thing takes **ć
 - Marko | ĆE
 - avion | ĆE
 
-## Long or short?
+## Lang oder kurz?
 format: nastavak
-info: One tap per sentence, and word order alone decides it. The verb loses its final *-i* only when it stands directly in front of the helper: *Bit će savršeno*, but *To će **biti** savršeno*.
-infokratko: *-i* drops only right before the helper: *Bit će savršeno*, *To će biti savršeno*.
+info: Ein Tipp pro Satz, und allein die Wortstellung entscheidet. Das Verb verliert sein letztes *-i* nur, wenn es direkt vor dem Hilfswort steht: *Bit će savršeno*, aber *To će **biti** savršeno*.
+infokratko: *-i* fällt nur direkt vor dem Hilfswort weg: *Bit će savršeno*, *To će biti savršeno*.
 nastavci: t | ti
-opis: The verb changes shape depending on where it stands. **In front of ću** it drops the final -i. **Anywhere else** it keeps it.
-- Pliva___ ću svaki dan. | I will swim every day. | t
-- Ja ću pliva___ svaki dan. | I will swim every day. | ti
-- Putova___ ćemo na more. | We will travel to the sea. | t
-- Mi ćemo putova___ na more. | We will travel to the sea. | ti
-- Uči___ ćeš navečer. | You will study in the evening. | t
-- Ti ćeš uči___ navečer. | You will study in the evening. | ti
-- Gleda___ ću utakmicu. | I will watch the match. | t
-- Sutra ću gleda___ utakmicu. | Tomorrow I will watch the match. | ti
-- Usta___ ću rano. | I will get up early. | t
-- Sutra ću usta___ rano. | Tomorrow I will get up early. | ti
-- Ruča___ ćemo zajedno. | We will have lunch together. | t
-- Poslije ćemo ruča___ zajedno. | Afterwards we will have lunch together. | ti
-- Radi___ će cijeli dan. | He will work all day. | t
-- On će radi___ cijeli dan. | He will work all day. | ti
-- Bi___ će savršeno. | It will be perfect. | t
-- To će bi___ savršeno. | That will be perfect. | ti
-- Čita___ ću knjigu. | I will read a book. | t
-- Navečer ću čita___ knjigu. | In the evening I will read a book. | ti
-- Vidje___ ćemo more. | We will see the sea. | t
-- Sutra ćemo vidje___ more. | Tomorrow we will see the sea. | ti
+opis: Das Verb ändert seine Gestalt je nachdem, wo es steht. **Vor ću** verliert es das letzte -i. **Überall sonst** behält es es.
+- Pliva___ ću svaki dan. | Ich werde jeden Tag schwimmen. | t
+- Ja ću pliva___ svaki dan. | Ich werde jeden Tag schwimmen. | ti
+- Putova___ ćemo na more. | Wir werden ans Meer reisen. | t
+- Mi ćemo putova___ na more. | Wir werden ans Meer reisen. | ti
+- Uči___ ćeš navečer. | Du wirst abends lernen. | t
+- Ti ćeš uči___ navečer. | Du wirst abends lernen. | ti
+- Gleda___ ću utakmicu. | Ich werde das Spiel anschauen. | t
+- Sutra ću gleda___ utakmicu. | Morgen werde ich das Spiel anschauen. | ti
+- Usta___ ću rano. | Ich werde früh aufstehen. | t
+- Sutra ću usta___ rano. | Morgen werde ich früh aufstehen. | ti
+- Ruča___ ćemo zajedno. | Wir werden zusammen zu Mittag essen. | t
+- Poslije ćemo ruča___ zajedno. | Danach werden wir zusammen zu Mittag essen. | ti
+- Radi___ će cijeli dan. | Er wird den ganzen Tag arbeiten. | t
+- On će radi___ cijeli dan. | Er wird den ganzen Tag arbeiten. | ti
+- Bi___ će savršeno. | Es wird perfekt sein. | t
+- To će bi___ savršeno. | Das wird perfekt sein. | ti
+- Čita___ ću knjigu. | Ich werde ein Buch lesen. | t
+- Navečer ću čita___ knjigu. | Abends werde ich ein Buch lesen. | ti
+- Vidje___ ćemo more. | Wir werden das Meer sehen. | t
+- Sutra ćemo vidje___ more. | Morgen werden wir das Meer sehen. | ti
 
-## The correctly written sentence
+## Der richtig geschriebene Satz
 format: izbor
-info: Spot the correctly written sentence. Three things must hold at once: two separate words (*Plivat ću*, never *Plivaću*), the *-i* dropped only in front of the helper, and *-ći* verbs left untouched (*Ići ću*, not *Ić ću*).
-infokratko: Two words (*Plivat ću*), *-i* dropped only before the helper, *-ći* kept (*Ići ću*).
-opis: Choose the correctly written sentence.
-- swimming, verb first | Plivat ću. | Plivati ću. | Plivaću.
-- studying, pronoun first | Ja ću učiti. | Ću ja učiti. | Ja ću učit.
-- lunch tomorrow | Sutra ćemo ručati. | Ćemo sutra ručati. | Sutra ćemo ručat.
-- going to the sea | Ići ću na more. | Ić ću na more. | Ićiću na more.
-- travelling, verb first | Putovat ćemo. | Putovati ćemo. | Putovaćemo.
-- getting up early | Ustat ću rano. | Ustati ću rano. | Ću ustati rano.
-- he will work | On će raditi. | Će on raditi. | On će radit.
-- it will be perfect | Bit će savršeno. | Biti će savršeno. | Biće savršeno.
-- coming tomorrow | Doći ćeš sutra. | Doć ćeš sutra. | Dočićeš sutra.
-- we will watch | Gledat ćemo film. | Gledati ćemo film. | Ćemo gledati film.
+info: Finde den richtig geschriebenen Satz. Drei Dinge müssen gleichzeitig stimmen: zwei getrennte Wörter (*Plivat ću*, nie *Plivaću*), das *-i* nur vor dem Hilfswort weggelassen, und Verben auf *-ći* unangetastet (*Ići ću*, nicht *Ić ću*).
+infokratko: Zwei Wörter (*Plivat ću*), *-i* nur vor dem Hilfswort weg, *-ći* bleibt (*Ići ću*).
+opis: Wähle den richtig geschriebenen Satz.
+- schwimmen, Verb zuerst | Plivat ću. | Plivati ću. | Plivaću.
+- lernen, Pronomen zuerst | Ja ću učiti. | Ću ja učiti. | Ja ću učit.
+- morgen Mittagessen | Sutra ćemo ručati. | Ćemo sutra ručati. | Sutra ćemo ručat.
+- ans Meer fahren | Ići ću na more. | Ić ću na more. | Ićiću na more.
+- reisen, Verb zuerst | Putovat ćemo. | Putovati ćemo. | Putovaćemo.
+- früh aufstehen | Ustat ću rano. | Ustati ću rano. | Ću ustati rano.
+- er wird arbeiten | On će raditi. | Će on raditi. | On će radit.
+- es wird perfekt sein | Bit će savršeno. | Biti će savršeno. | Biće savršeno.
+- morgen kommen | Doći ćeš sutra. | Doć ćeš sutra. | Dočićeš sutra.
+- wir werden schauen | Gledat ćemo film. | Gledati ćemo film. | Ćemo gledati film.
 
-## The second word order
+## Die zweite Wortstellung
 format: upis
-info: Rewrite each sentence in the other word order. Moving the verb in front of the helper costs it a final *-i* (*Ja ću gledati → **Gledat** ću*); moving it back behind the helper gives the *-i* straight back.
-infokratko: Verb before helper loses *-i* (*Gledat ću*); after it gets it back (*Ja ću gledati*).
-opis: Rewrite in the other word order.
+info: Schreib jeden Satz in der anderen Wortstellung. Rückt das Verb vor das Hilfswort, kostet es ein letztes *-i* (*Ja ću gledati → **Gledat** ću*); rückt es wieder hinter das Hilfswort, bekommt es das *-i* sofort zurück.
+infokratko: Verb vor Hilfswort verliert *-i* (*Gledat ću*); danach bekommt es es zurück (*Ja ću gledati*).
+opis: Schreib es in der anderen Wortstellung.
 - Ja ću gledati film. → | Gledat ću film
 - Putovat ćemo sutra. → | Mi ćemo putovati sutra
 - Ti ćeš trenirati. → | Trenirat ćeš
@@ -121,11 +121,11 @@ opis: Rewrite in the other word order.
 - Ja ću ustati rano. → | Ustat ću rano
 - Radit će cijeli dan. → | On će raditi cijeli dan
 
-## Put it in the future
+## Setz es ins Futur
 format: upis
-info: Build a future from a subject and a dictionary verb. Both orders count as correct, but they are not free: with the pronoun the verb is whole (*Mi ćemo biti*), verb-first it is trimmed (*Bit ćemo*), and *ići* never trims.
-infokratko: Both orders: *Mi ćemo biti* / *Bit ćemo*. *ići* never trims.
-opis: Put the verb in the future — both word orders are accepted.
+info: Bilde ein Futur aus einem Subjekt und einem Verb in Wörterbuchform. Beide Stellungen zählen als richtig, aber sie sind nicht beliebig: Mit Pronomen ist das Verb ganz (*Mi ćemo biti*), mit dem Verb zuerst gekürzt (*Bit ćemo*), und *ići* wird nie gekürzt.
+infokratko: Beide Stellungen: *Mi ćemo biti* / *Bit ćemo*. *ići* wird nie gekürzt.
+opis: Setz das Verb ins Futur – beide Wortstellungen werden akzeptiert.
 - (ja, plivati) | Ja ću plivati / Plivat ću
 - (mi, ručati) | Mi ćemo ručati / Ručat ćemo
 - (oni, putovati) | Oni će putovati / Putovat će
@@ -137,27 +137,27 @@ opis: Put the verb in the future — both word orders are accepted.
 - (ja, ići) | Ja ću ići / Ići ću
 - (mi, biti) | Mi ćemo biti / Bit ćemo
 
-## The rule: the future that won't
+## Die Regel: das Futur, das nicht will
 format: tekst
-info: The negative future. *ne* fuses with the helper into one stressed word — **neću, nećeš, neće** — which, unlike *ću*, is free to open a sentence, and the verb after it returns to its full form: *Neću **plivati***.
-infokratko: **neću, nećeš, neće**: one word, can open a sentence; the verb is whole: *Neću plivati*.
-- The negative future is a single word, exactly like *nisam*: **neću, nećeš, neće, nećemo, nećete, neće**.
-- tab: Positive | Negative
+info: Das verneinte Futur. *ne* verschmilzt mit dem Hilfswort zu einem betonten Wort – **neću, nećeš, neće** –, das anders als *ću* einen Satz eröffnen darf, und das Verb danach kehrt zu seiner vollen Form zurück: *Neću **plivati***.
+infokratko: **neću, nećeš, neće**: ein Wort, darf einen Satz eröffnen; das Verb ist ganz: *Neću plivati*.
+- Das verneinte Futur ist ein einziges Wort, genau wie *nisam*: **neću, nećeš, neće, nećemo, nećete, neće**.
+- tab: Bejaht | Verneint
 - tab: Plivat ću. / Ja ću plivati. | **Neću** plivati.
 - tab: Putovat ćemo. | **Nećemo** putovati.
 - tab: Gledat ćeš film. | **Nećeš** gledati film.
 - tab: Ona će raditi. | Ona **neće** raditi.
-- **Word order gets simpler, not harder.** The positive helper is shy and leans on the first word; the negative one is stressed and cheerfully opens the sentence. There is no *Plivat neću*.
-- **The infinitive comes back whole.** You trimmed *plivati → plivat* only because the verb went first. After *neću* the verb is second again, so it keeps its *-i*: *neću **plivati***.
-- **Same trick, third time.** *je → nije*, *sam → nisam*, *ću → neću*. Croatian fuses *ne* into exactly three verbs: *biti*, *htjeti* and *imati* (*nemam*). Everything else keeps *ne* separate.
-- **Now you write them.** Ja [neću] plivati. On [neće] doći. Mi [nećemo] raditi.
+- **Die Wortstellung wird einfacher, nicht schwerer.** Das bejahte Hilfswort ist schüchtern und lehnt sich an das erste Wort; das verneinte ist betont und eröffnet fröhlich den Satz. Ein *Plivat neću* gibt es nicht.
+- **Der Infinitiv kommt ganz zurück.** Du hast *plivati → plivat* nur gekürzt, weil das Verb zuerst stand. Nach *neću* steht das Verb wieder an zweiter Stelle, also behält es sein *-i*: *neću **plivati***.
+- **Derselbe Trick, zum dritten Mal.** *je → nije*, *sam → nisam*, *ću → neću*. Das Kroatische verschmilzt *ne* mit genau drei Verben: *biti*, *htjeti* und *imati* (*nemam*). Alles andere hält *ne* getrennt.
+- **Jetzt schreibst du.** Ja [neću] plivati. On [neće] doći. Mi [nećemo] raditi.
 
-## Leans or opens?
+## Lehnt sich an oder eröffnet?
 format: razvrstavanje
-info: Sort the words by whether they can start a sentence. Anything unstressed leans and cannot (*ću, sam, ga*), while the stressed forms open freely (*neću, nisam, njega*). It is the same split you have now met three times.
-infokratko: Unstressed can't start (*ću, sam, ga*); stressed can (*neću, nisam, njega*).
+info: Sortiere die Wörter danach, ob sie einen Satz beginnen können. Alles Unbetonte lehnt sich an und kann es nicht (*ću, sam, ga*), während die betonten Formen frei eröffnen (*neću, nisam, njega*). Es ist dieselbe Trennung, die du jetzt schon dreimal getroffen hast.
+infokratko: Unbetont kann nicht anfangen (*ću, sam, ga*); betont kann es (*neću, nisam, njega*).
 stupci: NASLANJA SE | OTVARA REČENICU
-opis: Which of these can stand at the very beginning of a sentence, and which needs something in front of it to lean on?
+opis: Welche davon können ganz am Anfang eines Satzes stehen, und welche brauchen etwas davor, an das sie sich lehnen können?
 - ću | NASLANJA SE
 - ćeš | NASLANJA SE
 - će | NASLANJA SE
@@ -175,25 +175,25 @@ opis: Which of these can stand at the very beginning of a sentence, and which ne
 - njega | OTVARA REČENICU
 - mene | OTVARA REČENICU
 
-## Positive or negative future?
+## Bejahtes oder verneintes Futur?
 format: izbor
-info: Choose the correctly written sentence. *Neću* is always one word, never *ne ću*, and the verb behind it keeps its full *-i* — so *Neću plivati* is right, and *Plivat neću* does not exist.
-infokratko: *Neću* is one word; verb stays whole: *Neću plivati*.
-opis: Choose the correctly written sentence.
-- I won't swim. | Neću plivati. | Ne ću plivati. | Plivat neću.
-- We won't travel. | Nećemo putovati. | Ne ćemo putovati. | Nećemo putovat.
-- She won't work tomorrow. | Sutra neće raditi. | Sutra ne će raditi. | Sutra neće radit.
-- You won't watch the film. | Nećeš gledati film. | Nećeš gledat film. | Ne ćeš gledati film.
-- I will swim. | Plivat ću. | Plivati ću. | Ću plivati.
-- They won't get up early. | Neće ustati rano. | Ne će ustati rano. | Neće ustat rano.
-- I won't go to the sea. | Neću ići na more. | Neću ić na more. | Ne ću ići na more.
-- We won't be tired. | Nećemo biti umorni. | Nećemo bit umorni. | Ne ćemo biti umorni.
+info: Wähle den richtig geschriebenen Satz. *Neću* ist immer ein Wort, nie *ne ću*, und das Verb dahinter behält sein volles *-i* – also ist *Neću plivati* richtig, und *Plivat neću* gibt es nicht.
+infokratko: *Neću* ist ein Wort; das Verb bleibt ganz: *Neću plivati*.
+opis: Wähle den richtig geschriebenen Satz.
+- Ich werde nicht schwimmen. | Neću plivati. | Ne ću plivati. | Plivat neću.
+- Wir werden nicht reisen. | Nećemo putovati. | Ne ćemo putovati. | Nećemo putovat.
+- Sie wird morgen nicht arbeiten. | Sutra neće raditi. | Sutra ne će raditi. | Sutra neće radit.
+- Du wirst den Film nicht schauen. | Nećeš gledati film. | Nećeš gledat film. | Ne ćeš gledati film.
+- Ich werde schwimmen. | Plivat ću. | Plivati ću. | Ću plivati.
+- Sie werden nicht früh aufstehen. | Neće ustati rano. | Ne će ustati rano. | Neće ustat rano.
+- Ich werde nicht ans Meer fahren. | Neću ići na more. | Neću ić na more. | Ne ću ići na more.
+- Wir werden nicht müde sein. | Nećemo biti umorni. | Nećemo bit umorni. | Ne ćemo biti umorni.
 
-## Say you won't
+## Sag, dass du es nicht tust
 format: upis
-info: Turn plans into refusals, which means two changes at once: the helper becomes the fused *neću / nećeš / neće*, and the trimmed verb is restored to its dictionary form — *Plivat ću* becomes *Neću **plivati***.
-infokratko: *ću* → *neću*, verb back to full form: *Plivat ću → Neću plivati*.
-opis: Turn each plan into a refusal.
+info: Mach aus Plänen Absagen, das heißt zwei Änderungen auf einmal: Das Hilfswort wird zum verschmolzenen *neću / nećeš / neće*, und das gekürzte Verb bekommt seine Wörterbuchform zurück – aus *Plivat ću* wird *Neću **plivati***.
+infokratko: *ću* → *neću*, Verb zurück in die volle Form: *Plivat ću → Neću plivati*.
+opis: Mach aus jedem Plan eine Absage.
 - Plivat ću. → | Neću plivati
 - Putovat ćemo. → | Nećemo putovati
 - Gledat ćeš film. → | Nećeš gledati film
@@ -205,37 +205,37 @@ opis: Turn each plan into a refusal.
 - Učit ćeš navečer. → | Nećeš učiti navečer
 - Ručat ću danas. → | Neću ručati danas
 
-## The rule: the helper's stressed twin
+## Die Regel: der betonte Zwilling des Hilfsworts
 format: tekst
-info: The full, stressed form of the helper: *hoću, hoćeš, hoće*. Use it exactly where a leaning word cannot go — asking (*Hoćeš li doći?*) and answering (*Hoću.*) — just as *njega* stands where *ga* cannot.
-infokratko: Stressed *hoću, hoćeš, hoće* for asking and answering: *Hoćeš li doći? — Hoću.*
-- Just like *ga* has *njega* and *me* has *mene*, the future helper has a full, stressed twin: **hoću, hoćeš, hoće, hoćemo, hoćete, hoće**.
-- tab: Short (leans) | Full (stressed) | When you need the full one
-- tab: ću | **hoću** | answering a question: *Hoćeš li doći? — **Hoću**.*
-- tab: ćeš | **hoćeš** | asking one: ***Hoćeš** li gledati film?*
-- tab: će | **hoće** | contrast: *On **hoće**, ali ja neću.*
-- **This is where *neću* comes from.** *ne + hoću* fused into one word centuries ago — which is why the negative can open a sentence while the positive cannot. The long form was always the stressed one.
-- **You will hear it constantly as a question:** *Hoćeš li kavu?* — "Will you have a coffee?" It is the single most common invitation in Croatia. Lesson 11 takes the *li* apart properly; for now take the phrase whole.
-- **One-word answers work.** *Hoćeš li plivati? — **Hoću**.* / *— **Neću**.* Short, complete, perfectly natural. You cannot answer with *ću*.
-- **Now you write them.** Hoćeš li plivati? — [Hoću]. Hoćeš li raditi? — [Neću].
+info: Die volle, betonte Form des Hilfsworts: *hoću, hoćeš, hoće*. Nimm sie genau dort, wo ein angelehntes Wort nicht hinkann – beim Fragen (*Hoćeš li doći?*) und Antworten (*Hoću.*) –, so wie *njega* dort steht, wo *ga* nicht stehen kann.
+infokratko: Betontes *hoću, hoćeš, hoće* zum Fragen und Antworten: *Hoćeš li doći? — Hoću.*
+- So wie *ga* sein *njega* und *me* sein *mene* hat, hat das Futur-Hilfswort einen vollen, betonten Zwilling: **hoću, hoćeš, hoće, hoćemo, hoćete, hoće**.
+- tab: Kurz (lehnt sich an) | Voll (betont) | Wann du die volle brauchst
+- tab: ću | **hoću** | eine Frage beantworten: *Hoćeš li doći? — **Hoću**.*
+- tab: ćeš | **hoćeš** | eine stellen: ***Hoćeš** li gledati film?*
+- tab: će | **hoće** | Gegensatz: *On **hoće**, ali ja neću.*
+- **Daher kommt *neću*.** *ne + hoću* sind vor Jahrhunderten zu einem Wort verschmolzen – deshalb kann die Verneinung einen Satz eröffnen, die Bejahung aber nicht. Die lange Form war schon immer die betonte.
+- **Du hörst es ständig als Frage:** *Hoćeš li kavu?* – „Möchtest du einen Kaffee?“ Das ist die häufigste Einladung in Kroatien. Lektion 11 nimmt das *li* richtig auseinander; vorerst nimm die Wendung als Ganzes.
+- **Antworten mit einem Wort funktionieren.** *Hoćeš li plivati? — **Hoću**.* / *— **Neću**.* Kurz, vollständig, völlig natürlich. Mit *ću* kannst du nicht antworten.
+- **Jetzt schreibst du.** Hoćeš li plivati? — [Hoću]. Hoćeš li raditi? — [Neću].
 
-## Short or full form?
+## Kurze oder volle Form?
 format: izbor
-info: Pick the right form for the job. A plain statement takes the short helper (*Sutra ću plivati*); asking, answering or contrasting takes the stressed one (*Hoćeš li doći? — **Hoću**.*); and refusing takes *Neću*.
-infokratko: Statement *ću*; asking or answering *hoću*; refusing *neću*.
-opis: The short helper leans and never stands alone. The full one is stressed — use it to answer, to ask, or to contrast.
+info: Wähle die richtige Form für die Aufgabe. Eine einfache Aussage nimmt das kurze Hilfswort (*Sutra ću plivati*); Fragen, Antworten oder Gegensätze nehmen das betonte (*Hoćeš li doći? — **Hoću**.*); und Absagen nehmen *Neću*.
+infokratko: Aussage *ću*; Fragen oder Antworten *hoću*; Absage *neću*.
+opis: Das kurze Hilfswort lehnt sich an und steht nie allein. Das volle ist betont – nimm es zum Antworten, zum Fragen oder für einen Gegensatz.
 - Answering "Hoćeš li doći?" | Hoću. | Ću. | Ću doći.
-- Asking whether someone will come | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
-- I will swim tomorrow. | Sutra ću plivati. | Sutra ću plivat. | Sutra plivati ću.
-- He wants to, but I won't. | On hoće, ali ja neću. | On će, ali ja neću. | On hoće, ali ja ne ću.
+- Fragen, ob jemand kommt | Hoćeš li doći? | Ćeš li doći? | Doći ćeš li?
+- Ich werde morgen schwimmen. | Sutra ću plivati. | Sutra ću plivat. | Sutra plivati ću.
+- Er will, aber ich nicht. | On hoće, ali ja neću. | On će, ali ja neću. | On hoće, ali ja ne ću.
 - Refusing "Hoćeš li raditi?" | Neću. | Ne ću. | Ne hoću.
-- We will travel on Saturday. | Putovat ćemo u subotu. | Ćemo putovati u subotu. | Putovati ćemo u subotu.
+- Wir werden am Samstag reisen. | Putovat ćemo u subotu. | Ćemo putovati u subotu. | Putovati ćemo u subotu.
 
 ## Bau den Satz
 format: slaganje
-info: Build each sentence from tiles, positive and negative mixed. The order tests one thing: *ću* can never be the first tile, but *neću* can — so *Plivat ću svaki dan* and *Neću trenirati danas* are both well formed.
-infokratko: *ću* never first; *neću* can be: *Neću trenirati danas.*
-opis: Build the sentence.
+info: Bau jeden Satz aus Kärtchen, bejaht und verneint gemischt. Die Reihenfolge prüft eins: *ću* kann nie das erste Kärtchen sein, *neću* aber schon – also sind *Plivat ću svaki dan* und *Neću trenirati danas* beide richtig gebaut.
+infokratko: *ću* nie zuerst; *neću* kann es sein: *Neću trenirati danas.*
+opis: Bau den Satz.
 - Plivat ću svaki dan.
 - Mi ćemo putovati na more.
 - Sutra ću ustati rano.

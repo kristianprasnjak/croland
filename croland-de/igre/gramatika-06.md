@@ -1,27 +1,27 @@
-# The Accusative (Masculine): Living vs. Non-living
+# Der Akkusativ (maskulin): belebt gegen unbelebt
 cjelina: Grammar 6
 
-## The rule: living & non-living
+## Die Regel: belebt & unbelebt
 format: tekst
-info: The page that completes your accusative singular. Masculine nouns split by animacy: a living one adds **-a** (*Čekam prijatelja*), a thing adds nothing (*Čekam autobus*). *Tko* counts as living, so it becomes **koga**.
-infokratko: Masculine: living **+a** (*Čekam prijatelja*), thing unchanged (*Čekam autobus*). *tko → koga*.
-- With this page, you complete the accusative singular — the whole map of "target forms".
-- **The animacy rule:** masculine nouns split in two. Non-living (things) — no change: *Vidim tramvaj. Čekam autobus.* Living (people, animals) — add **-a**: *Vidim čovjeka. Čekam prijatelja.* Croatian likes to mark *who can be affected* by an action. Things can't care; beings can.
-- tab: Word | Naming | Target | Changes?
-- tab: feminine (-a) | kava | kav**u** | yes
-- tab: masculine living | prijatelj | prijatelj**a** | yes
-- tab: masculine thing | tramvaj | tramvaj | no
-- tab: neuter | pismo | pismo | no
-- This is why Lesson 3 felt easy: almost every object there was a "no change" word. Sneaky, right?
-- **One more word worth having:** *tko* (who) becomes **koga** in the accusative, exactly like every other living thing. *Koga čekaš? — Čekam prijatelja.* You'll meet the rest of the question words in Lesson 11; this one is just the case you already know.
-- **Now you write them.** Vidim [tramvaj] — stvar. Vidim [prijatelja] — biće. [Koga] čekaš?
+info: Die Seite, die deinen Akkusativ Singular vervollständigt. Maskuline Nomen teilen sich nach Belebtheit: Ein belebtes hängt **-a** an (*Čekam prijatelja*), ein Ding hängt nichts an (*Čekam autobus*). *Tko* zählt als belebt, wird also zu **koga**.
+infokratko: Maskulin: belebt **+a** (*Čekam prijatelja*), Ding unverändert (*Čekam autobus*). *tko → koga*.
+- Mit dieser Seite vervollständigst du den Akkusativ Singular – die ganze Karte der „Zielformen“.
+- **Die Belebtheitsregel:** Maskuline Nomen teilen sich in zwei. Unbelebt (Dinge) – keine Änderung: *Vidim tramvaj. Čekam autobus.* Belebt (Menschen, Tiere) – **-a** anhängen: *Vidim čovjeka. Čekam prijatelja.* Das Kroatische markiert gern, *wer von einer Handlung betroffen sein kann*. Dingen ist es egal; Lebewesen nicht.
+- tab: Wort | Benennung | Ziel | Ändert sich?
+- tab: feminin (-a) | kava | kav**u** | ja
+- tab: maskulin belebt | prijatelj | prijatelj**a** | ja
+- tab: maskulin Ding | tramvaj | tramvaj | nein
+- tab: neutral | pismo | pismo | nein
+- Deshalb kam dir Lektion 3 so leicht vor: Fast jedes Objekt dort war ein Wort „ohne Änderung“. Raffiniert, oder?
+- **Noch ein Wort, das sich lohnt:** *tko* (wer) wird im Akkusativ zu **koga** – genau wie jedes andere Lebewesen, und genau wie deutsch *wer → wen*. *Koga čekaš? — Čekam prijatelja.* Die restlichen Fragewörter triffst du in Lektion 11; dieses ist nur der Fall, den du schon kennst.
+- **Jetzt schreibst du.** Vidim [tramvaj] — stvar. Vidim [prijatelja] — biće. [Koga] čekaš?
 
-## Does it change or not?
+## Ändert es sich oder nicht?
 format: razvrstavanje
-info: A sort testing the finished map. Feminine **-a** words become **-u** and masculine beings add **-a**, while masculine things and neuters such as *pismo* and *more* never move. *Mačka* changes for the feminine reason, not animacy.
-infokratko: Feminine **-u**, masculine being **-a**; masculine things and neuters stay. *mačka* is feminine.
+info: Eine Sortierung, die die fertige Karte prüft. Feminine Wörter auf **-a** werden zu **-u** und maskuline Lebewesen hängen **-a** an, während maskuline Dinge und Neutra wie *pismo* und *more* sich nie bewegen. *Mačka* ändert sich aus dem femininen Grund, nicht wegen der Belebtheit.
+infokratko: Feminin **-u**, maskulines Lebewesen **-a**; maskuline Dinge und Neutra bleiben. *mačka* ist feminin.
 stupci: MIJENJA SE | OSTAJE ISTO
-opis: Sort by whether the word changes after *vidim*. Careful — *mačka* is feminine, so it changes by the Lesson 5 rule, not this one.
+opis: Sortiere danach, ob sich das Wort nach *vidim* ändert. Vorsicht – *mačka* ist feminin, ändert sich also nach der Regel aus Lektion 5, nicht nach dieser.
 - doktor | MIJENJA SE
 - čovjek | MIJENJA SE
 - konobar | MIJENJA SE
@@ -43,55 +43,55 @@ opis: Sort by whether the word changes after *vidim*. Careful — *mačka* is fe
 - kino | OSTAJE ISTO
 - gorivo | OSTAJE ISTO
 
-## Tap the ending: living or thing?
+## Tippe auf die Endung: belebt oder Ding?
 format: nastavak
-info: Masculine words only, one tap each. Alive means **-a** (*Vidim studenta*); a thing means the dash (*Vidim kiosk*). Animals count as alive, so *golub* becomes *goluba* exactly like a person does.
-infokratko: Masculine only: alive **-a** (*studenta, goluba*), thing the dash (*kiosk*).
+info: Nur maskuline Wörter, ein Tipp pro Wort. Lebendig heißt **-a** (*Vidim studenta*); ein Ding heißt der Strich (*Vidim kiosk*). Tiere zählen als lebendig, also wird *golub* zu *goluba*, genau wie eine Person.
+infokratko: Nur maskulin: lebendig **-a** (*studenta, goluba*), Ding der Strich (*kiosk*).
 nastavci: a | -
-opis: Masculine words only. A being takes **-a**; a thing takes nothing. The **—** button is "no ending".
-- Vidim konobar___ . | I see the waiter. | a
-- Vidim autobus___ . | I see the bus. | -
-- Čekam doktor___ . | I'm waiting for the doctor. | a
-- Čekam vlak___ . | I'm waiting for the train. | -
-- Zovem susjed___ . | I'm calling my neighbour. | a
-- Zovem taksi___ . | I'm calling a taxi. | -
-- Gledam turist___ . | I'm watching the tourist. | a
-- Gledam semafor___ . | I'm looking at the traffic light. | -
-- Fotografiram spomenik___ . | I'm photographing the monument. | -
-- Fotografiram vozač___ . | I'm photographing the driver. | a
-- Čujem čovjek___ . | I hear a man. | a
-- Čujem tramvaj___ . | I hear the tram. | -
-- Vidim student___ . | I see a student. | a
-- Vidim bicikl___ . | I see a bicycle. | -
-- Vidim golub___ . | I see a pigeon. | a
-- Vidim kiosk___ . | I see a kiosk. | -
-- Čekam poštar___ . | I'm waiting for the postman. | a
-- Čekam broj___ pet. | I'm waiting for number five. | -
-- Vidim dječak___ . | I see a boy. | a
-- Vidim park___ . | I see a park. | -
+opis: Nur maskuline Wörter. Ein Lebewesen nimmt **-a**; ein Ding nimmt nichts. Der Knopf **—** heißt „keine Endung“.
+- Vidim konobar___ . | Ich sehe den Kellner. | a
+- Vidim autobus___ . | Ich sehe den Bus. | -
+- Čekam doktor___ . | Ich warte auf den Arzt. | a
+- Čekam vlak___ . | Ich warte auf den Zug. | -
+- Zovem susjed___ . | Ich rufe meinen Nachbarn an. | a
+- Zovem taksi___ . | Ich rufe ein Taxi. | -
+- Gledam turist___ . | Ich beobachte den Touristen. | a
+- Gledam semafor___ . | Ich schaue auf die Ampel. | -
+- Fotografiram spomenik___ . | Ich fotografiere das Denkmal. | -
+- Fotografiram vozač___ . | Ich fotografiere den Fahrer. | a
+- Čujem čovjek___ . | Ich höre einen Mann. | a
+- Čujem tramvaj___ . | Ich höre die Straßenbahn. | -
+- Vidim student___ . | Ich sehe einen Studenten. | a
+- Vidim bicikl___ . | Ich sehe ein Fahrrad. | -
+- Vidim golub___ . | Ich sehe eine Taube. | a
+- Vidim kiosk___ . | Ich sehe einen Kiosk. | -
+- Čekam poštar___ . | Ich warte auf den Briefträger. | a
+- Čekam broj___ pet. | Ich warte auf die Fünf. | -
+- Vidim dječak___ . | Ich sehe einen Jungen. | a
+- Vidim park___ . | Ich sehe einen Park. | -
 
-## The rule: the letter that falls out
+## Die Regel: der Buchstabe, der herausfällt
 format: tekst
-info: The spelling rule behind the odd-looking forms. A fleeting **a** lives only in the naming form and vanishes the moment an ending arrives: *policajac* to *policajca*. Words in -er, -ik, -aj, -ač and most in -ar don't squeeze.
-infokratko: A fleeting **a** drops when an ending comes: *policajac → policajca*. -er, -ik, -aj, -ač, most -ar keep it.
-- You already met this in Lesson 2, under a different name. **Nepostojano a** — the fleeting *a* — is the letter that only exists in the naming form and disappears the moment an ending is added.
-- tab: Naming | Target | What fell out
-- tab: polic**a**jac | policajca | the **a** before -c
-- tab: kup**a**c | kupca | the **a** before -c
-- tab: Amerik**a**nac | Amerikanca | the **a** before -c
-- tab: pas | psa | the **a** in the middle
-- **It is not random.** Almost every masculine noun ending in **-ac** does it: *policajac, kupac, Amerikanac, Austrijanac, otac*. Spot the *-ac* and you can predict the squeeze before you learn the word.
-- **Words ending in -er, -ik, -aj, -ač, and most in -ar, do not squeeze:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. They simply take the **-a** and keep everything else.
-- *Pas → psa* is an exception of its own — no *-ac* in sight, it just loses the vowel. There are only a handful like it, and this one you will use every day.
-- **Names ending in -o swap that -o for the -a:** *Marko → Mark**a***, *Ivo → Iv**a***. The ending is the same one, it simply replaces a letter instead of being added.
-- **Now you write them.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka].
+info: Die Schreibregel hinter den seltsam aussehenden Formen. Ein flüchtiges **a** lebt nur in der Benennungsform und verschwindet, sobald eine Endung kommt: *policajac* zu *policajca*. Wörter auf -er, -ik, -aj, -ač und die meisten auf -ar schrumpfen nicht.
+infokratko: Ein flüchtiges **a** fällt weg, wenn eine Endung kommt: *policajac → policajca*. -er, -ik, -aj, -ač, die meisten -ar behalten es.
+- Das hast du schon in Lektion 2 getroffen, unter anderem Namen. **Nepostojano a** – das flüchtige *a* – ist der Buchstabe, der nur in der Benennungsform existiert und verschwindet, sobald eine Endung angehängt wird.
+- tab: Benennung | Ziel | Was herausgefallen ist
+- tab: polic**a**jac | policajca | das **a** vor -c
+- tab: kup**a**c | kupca | das **a** vor -c
+- tab: Amerik**a**nac | Amerikanca | das **a** vor -c
+- tab: pas | psa | das **a** in der Mitte
+- **Das ist kein Zufall.** Fast jedes maskuline Nomen auf **-ac** macht es: *policajac, kupac, Amerikanac, Austrijanac, otac*. Erkenne das *-ac*, und du kannst das Schrumpfen vorhersagen, bevor du das Wort lernst.
+- **Wörter auf -er, -ik, -aj, -ač und die meisten auf -ar schrumpfen nicht:** *konobar → konobara*, *trener → trenera*, *učenik → učenika*, *vozač → vozača*. Sie nehmen einfach das **-a** und behalten alles andere.
+- *Pas → psa* ist eine eigene Ausnahme – kein *-ac* in Sicht, es verliert einfach den Vokal. Es gibt nur eine Handvoll solcher Wörter, und dieses benutzt du jeden Tag.
+- **Namen auf -o tauschen dieses -o gegen das -a:** *Marko → Mark**a***, *Ivo → Iv**a***. Die Endung ist dieselbe, sie ersetzt nur einen Buchstaben, statt angehängt zu werden.
+- **Jetzt schreibst du.** pas → Gledam [psa]. policajac → Vidim [policajca]. Marko → Čekam [Marka].
 
-## Does it squeeze?
+## Schrumpft es?
 format: razvrstavanje
-info: A sort about the fleeting **a**. The reliable signal is the ending **-ac**, which nearly always loses its vowel (*kupac* to *kupca*), while -er, -ik, -ač and most -ar words keep everything (*konobar* to *konobara*). *Pas* to *psa* is one of the few exceptions.
-infokratko: **-ac** loses its vowel (*kupac → kupca*); -er, -ik, -ač, most -ar don't. *pas → psa*.
+info: Eine Sortierung zum flüchtigen **a**. Das verlässliche Signal ist die Endung **-ac**, die fast immer ihren Vokal verliert (*kupac* zu *kupca*), während Wörter auf -er, -ik, -ač und die meisten auf -ar alles behalten (*konobar* zu *konobara*). *Pas* zu *psa* ist eine der wenigen Ausnahmen.
+infokratko: **-ac** verliert seinen Vokal (*kupac → kupca*); -er, -ik, -ač, die meisten -ar nicht. *pas → psa*.
 stupci: STEŽE SE | NE STEŽE SE
-opis: Say the target form in your head before you drop the tile. Anything ending in **-ac** almost certainly squeezes.
+opis: Sag die Zielform im Kopf, bevor du das Kärtchen ablegst. Alles auf **-ac** schrumpft fast sicher.
 - policajac | STEŽE SE
 - kupac | STEŽE SE
 - Amerikanac | STEŽE SE
@@ -109,11 +109,11 @@ opis: Say the target form in your head before you drop the tile. Anything ending
 - susjed | NE STEŽE SE
 - student | NE STEŽE SE
 
-## Type the accusative
+## Tippe den Akkusativ
 format: upis
-info: Typed accusatives with the squeezers mixed in. Check the ending before you type: **-ac** drops its vowel (*Amerikanac* to *Amerikanca*), other beings simply add **-a**, and things come back exactly as they went in.
-infokratko: **-ac** drops the vowel (*Amerikanca*), other beings add **-a**, things stay.
-opis: Type the accusative form. Watch the *-ac* words.
+info: Getippte Akkusative mit eingestreuten Schrumpfern. Prüf die Endung, bevor du tippst: **-ac** verliert seinen Vokal (*Amerikanac* zu *Amerikanca*), andere Lebewesen hängen einfach **-a** an, und Dinge kommen genau so zurück, wie sie hineingingen.
+infokratko: **-ac** verliert den Vokal (*Amerikanca*), andere Lebewesen hängen **-a** an, Dinge bleiben.
+opis: Tippe die Akkusativform. Achte auf die *-ac*-Wörter.
 - prijatelj → | prijatelja
 - policajac → | policajca
 - kupac → | kupca
@@ -133,70 +133,70 @@ opis: Type the accusative form. Watch the *-ac* words.
 - jabuka → | jabuku
 - ulica → | ulicu
 
-## The whole map in one tap
+## Die ganze Karte mit einem Tipp
 format: nastavak
-info: Three buttons for the complete accusative singular. Feminine takes **-u** (*kavu*), a masculine being takes **-a** (*konobara*), a masculine thing takes nothing (*tramvaj*). Settle the gender first, then ask about animacy.
-infokratko: Feminine **-u**, masculine being **-a**, masculine thing nothing. Gender first, then alive or not.
+info: Drei Knöpfe für den vollständigen Akkusativ Singular. Feminin nimmt **-u** (*kavu*), ein maskulines Lebewesen nimmt **-a** (*konobara*), ein maskulines Ding nimmt nichts (*tramvaj*). Klär zuerst das Genus, dann frag nach der Belebtheit.
+infokratko: Feminin **-u**, maskulines Lebewesen **-a**, maskulines Ding nichts. Erst das Genus, dann lebendig oder nicht.
 nastavci: a | u | -
-opis: Three buttons, three outcomes — everything you have learned about the accusative singular in one place. Feminine takes **-u**, a masculine being takes **-a**, a masculine thing takes nothing.
-- Pijem kav___ . | I'm drinking coffee. | u
-- Vidim konobar___ . | I see the waiter. | a
-- Čekam tramvaj___ . | I'm waiting for the tram. | -
-- Kupujem rib___ . | I'm buying fish. | u
-- Zovem doktor___ . | I'm calling the doctor. | a
-- Vozim auto___ . | I'm driving the car. | -
-- Jedem jabuk___ . | I'm eating an apple. | u
-- Čekam prijatelj___ . | I'm waiting for a friend. | a
-- Gledam most___ . | I'm looking at the bridge. | -
-- Tražim tržnic___ . | I'm looking for the market. | u
-- Vidim čovjek___ . | I see a man. | a
-- Čujem autobus___ . | I hear the bus. | -
-- Čitam knjig___ . | I'm reading a book. | u
-- Fotografiram turist___ . | I'm photographing the tourist. | a
-- Fotografiram spomenik___ . | I'm photographing the monument. | -
-- Nosim vrećic___ . | I'm carrying the bag. | u
-- Gledam konj___ . | I'm looking at the horse. | a
-- Vidim semafor___ . | I see the traffic light. | -
+opis: Drei Knöpfe, drei Ergebnisse – alles, was du über den Akkusativ Singular gelernt hast, an einem Ort. Feminin nimmt **-u**, ein maskulines Lebewesen nimmt **-a**, ein maskulines Ding nimmt nichts.
+- Pijem kav___ . | Ich trinke Kaffee. | u
+- Vidim konobar___ . | Ich sehe den Kellner. | a
+- Čekam tramvaj___ . | Ich warte auf die Straßenbahn. | -
+- Kupujem rib___ . | Ich kaufe Fisch. | u
+- Zovem doktor___ . | Ich rufe den Arzt. | a
+- Vozim auto___ . | Ich fahre das Auto. | -
+- Jedem jabuk___ . | Ich esse einen Apfel. | u
+- Čekam prijatelj___ . | Ich warte auf einen Freund. | a
+- Gledam most___ . | Ich schaue die Brücke an. | -
+- Tražim tržnic___ . | Ich suche den Markt. | u
+- Vidim čovjek___ . | Ich sehe einen Mann. | a
+- Čujem autobus___ . | Ich höre den Bus. | -
+- Čitam knjig___ . | Ich lese ein Buch. | u
+- Fotografiram turist___ . | Ich fotografiere den Touristen. | a
+- Fotografiram spomenik___ . | Ich fotografiere das Denkmal. | -
+- Nosim vrećic___ . | Ich trage die Tüte. | u
+- Gledam konj___ . | Ich schaue das Pferd an. | a
+- Vidim semafor___ . | Ich sehe die Ampel. | -
 
 ## Der richtige Satz
 format: izbor
-info: Two whole sentences, one right. The wrong one usually adds **-a** to a thing (*Vidim tramvaja*) or leaves a being bare (*Čekam prijatelj*). Remember that *policajca* has one *a* fewer than you would expect.
-infokratko: The wrong one adds **-a** to a thing or leaves a being bare. *policajca*.
-opis: Choose the correct sentence.
-- waiting for a friend | Čekam prijatelja. | Čekam prijatelj.
-- seeing a tram | Vidim tramvaj. | Vidim tramvaja.
-- watching a dog | Ana gleda psa. | Ana gleda pas.
-- calling the waiter | Marko zove konobara. | Marko zove konobar.
-- photographing the monument | Turist fotografira spomenik. | Turist fotografira spomenika.
-- seeing a police officer | Vidim policajca. | Vidim policajaca.
-- driving a car | Vozim auto. | Vozim autoa.
-- hearing a man | Čujem čovjeka. | Čujem čovjek.
-- waiting for the bus | Čekam autobus. | Čekam autobusa.
-- seeing the customer | Vidim kupca. | Vidim kupaca.
+info: Zwei ganze Sätze, einer richtig. Der falsche hängt meist **-a** an ein Ding (*Vidim tramvaja*) oder lässt ein Lebewesen nackt (*Čekam prijatelj*). Denk dran, dass *policajca* ein *a* weniger hat, als du erwarten würdest.
+infokratko: Der falsche hängt **-a** an ein Ding oder lässt ein Lebewesen nackt. *policajca*.
+opis: Wähle den richtigen Satz.
+- auf einen Freund warten | Čekam prijatelja. | Čekam prijatelj.
+- eine Straßenbahn sehen | Vidim tramvaj. | Vidim tramvaja.
+- einen Hund anschauen | Ana gleda psa. | Ana gleda pas.
+- den Kellner rufen | Marko zove konobara. | Marko zove konobar.
+- das Denkmal fotografieren | Turist fotografira spomenik. | Turist fotografira spomenika.
+- einen Polizisten sehen | Vidim policajca. | Vidim policajaca.
+- ein Auto fahren | Vozim auto. | Vozim autoa.
+- einen Mann hören | Čujem čovjeka. | Čujem čovjek.
+- auf den Bus warten | Čekam autobus. | Čekam autobusa.
+- den Kunden sehen | Vidim kupca. | Vidim kupaca.
 
-## The rule: replacing the target with one small word
+## Die Regel: das Ziel durch ein kleines Wort ersetzen
 format: tekst
-info: Your first pronouns: **me, te, ga, je, nas, vas, ih** stand in for a target already named. Gender decides, not life, so *film* and *tramvaj* both become *ga*, while *knjigu* becomes *je*.
-infokratko: **me, te, ga, je, nas, vas, ih**. Gender decides: *film → ga*, *knjigu → je*.
-- Once everyone knows *who* or *what* you mean, Croatian doesn't repeat the noun. It swaps the whole thing for a one-syllable pronoun — in the accusative, because it's still the target.
-- tab: Instead of | Say | Example
-- tab: me (as target) | **me** | Ana **me** čeka.
-- tab: you | **te** | Volim **te**.
-- tab: him / it (m., n.) | **ga** | Vidim **ga**.
-- tab: her (f.) | **je** | Vidim **je**.
-- tab: us | **nas** | Konobar **nas** vidi.
-- tab: you (plural) | **vas** | Čekam **vas**.
-- tab: them | **ih** | Zovem **ih**.
-- **It copies the gender of the noun it replaced** — and things count too: *Gledam film → Gledam **ga**.* *Čitam knjigu → Čitam **je**.* *Čekam tramvaj → Čekam **ga**.*
-- **Why this matters now:** without it every Croatian answer sounds like a robot repeating the question. *Čekaš li prijatelja? — Da, čekam **ga**.*
-- **Now you write them.** Čekaš li prijatelja? — Da, čekam [ga]. Vidiš li Anu? — Da, vidim [je].
+info: Deine ersten Pronomen: **me, te, ga, je, nas, vas, ih** stehen für ein Ziel, das schon genannt wurde. Das Genus entscheidet, nicht das Leben, also werden *film* und *tramvaj* beide zu *ga*, während *knjigu* zu *je* wird.
+infokratko: **me, te, ga, je, nas, vas, ih**. Das Genus entscheidet: *film → ga*, *knjigu → je*.
+- Sobald alle wissen, *wen* oder *was* du meinst, wiederholt das Kroatische das Nomen nicht. Es tauscht das Ganze gegen ein einsilbiges Pronomen – im Akkusativ, weil es immer noch das Ziel ist. Genau wie deutsch *mich, dich, ihn, sie, uns, euch, sie*.
+- tab: Statt | Sag | Beispiel
+- tab: mich | **me** | Ana **me** čeka.
+- tab: dich | **te** | Volim **te**.
+- tab: ihn / es (m., n.) | **ga** | Vidim **ga**.
+- tab: sie (f.) | **je** | Vidim **je**.
+- tab: uns | **nas** | Konobar **nas** vidi.
+- tab: euch / Sie | **vas** | Čekam **vas**.
+- tab: sie (Plural) | **ih** | Zovem **ih**.
+- **Es übernimmt das Genus des ersetzten Nomens** – und Dinge zählen auch, wie im Deutschen: *Gledam film → Gledam **ga**.* *Čitam knjigu → Čitam **je**.* *Čekam tramvaj → Čekam **ga**.* Achtung: Das kroatische Genus ist oft anders als das deutsche – *tramvaj* (die Straßenbahn) ist maskulin, also *ga*.
+- **Warum das jetzt wichtig ist:** Ohne es klingt jede kroatische Antwort wie ein Roboter, der die Frage wiederholt. *Čekaš li prijatelja? — Da, čekam **ga**.*
+- **Jetzt schreibst du.** Čekaš li prijatelja? — Da, čekam [ga]. Vidiš li Anu? — Da, vidim [je].
 
-## Which pronoun replaces it?
+## Welches Pronomen ersetzt es?
 format: razvrstavanje
-info: Sorting nouns by the pronoun that replaces them. Masculine and neuter both go to **ga** (*most*, *pismo*), feminine goes to **je** (*kava*, *karta*). Whether the noun is alive makes no difference here at all.
-infokratko: Masculine and neuter → **ga**; feminine → **je**. Alive or not doesn't matter.
+info: Nomen nach dem Pronomen sortieren, das sie ersetzt. Maskulinum und Neutrum gehen beide zu **ga** (*most*, *pismo*), Femininum geht zu **je** (*kava*, *karta*). Ob das Nomen lebendig ist, spielt hier überhaupt keine Rolle.
+infokratko: Maskulin und neutral → **ga**; feminin → **je**. Lebendig oder nicht, spielt keine Rolle.
 stupci: GA | JE
-opis: *ga* stands in for masculine and neuter, *je* for feminine. The noun's gender decides — not whether it is alive.
+opis: *ga* steht für Maskulinum und Neutrum, *je* für Femininum. Das Genus des Nomens entscheidet – nicht, ob es lebendig ist.
 - tramvaj | GA
 - autobus | GA
 - prijatelj | GA
@@ -218,11 +218,11 @@ opis: *ga* stands in for masculine and neuter, *je* for feminine. The noun's gen
 - torta | JE
 - tržnica | JE
 
-## Replace the target
+## Ersetze das Ziel
 format: upis
-info: Rewriting a sentence with a pronoun instead of the noun. Copy the gender of the word you removed — *Zovem doktora* becomes *Zovem ga*, *Pijem kavu* becomes *Pijem je* — and leave the pronoun sitting after the verb.
-infokratko: Copy the gender: *Zovem ga. Pijem je.*
-opis: Say the same sentence again, with a pronoun instead of the noun. Watch the gender of the word you're replacing.
+info: Einen Satz mit einem Pronomen statt des Nomens umschreiben. Übernimm das Genus des Wortes, das du entfernt hast – aus *Zovem doktora* wird *Zovem ga*, aus *Pijem kavu* wird *Pijem je* –, und lass das Pronomen nach dem Verb stehen.
+infokratko: Übernimm das Genus: *Zovem ga. Pijem je.*
+opis: Sag denselben Satz noch einmal, mit einem Pronomen statt des Nomens. Achte auf das Genus des Wortes, das du ersetzt.
 - Vidim tramvaj. → | Vidim ga
 - Čekam prijatelja. → | Čekam ga
 - Čitam knjigu. → | Čitam je
@@ -240,11 +240,11 @@ opis: Say the same sentence again, with a pronoun instead of the noun. Watch the
 - Vozim auto. → | Vozim ga
 - Nosim vrećicu. → | Nosim je
 
-## Pick the pronoun
+## Wähle das Pronomen
 format: izbor
-info: Choosing the right little word and the right slot. **ga** covers masculine and neuter, **je** covers feminine, and the short pronoun sits right after the first word or phrase, so it is *Ana me čeka*, not *Ana čeka me*.
-infokratko: **ga** m/n, **je** f; after the first word: *Ana me čeka*.
-opis: Which little word replaces the noun in CAPITALS?
+info: Das richtige kleine Wort und den richtigen Platz wählen. **ga** deckt Maskulinum und Neutrum ab, **je** Femininum, und das kurze Pronomen steht direkt nach dem ersten Wort oder der ersten Wortgruppe, es heißt also *Ana me čeka*, nicht *Ana čeka me*.
+infokratko: **ga** m/n, **je** f; nach dem ersten Wort: *Ana me čeka*.
+opis: Welches kleine Wort ersetzt das Nomen in GROSSBUCHSTABEN?
 - Čekam AUTOBUS. | Čekam ga. | Čekam je. | Čekam ih.
 - Vidim STANICU. | Vidim je. | Vidim ga. | Vidim ih.
 - Ana čeka MENE. | Ana me čeka. | Ana čeka me. | Ana ga čeka.
@@ -256,40 +256,40 @@ opis: Which little word replaces the noun in CAPITALS?
 - Policajac gleda VAS. | Policajac vas gleda. | Policajac vam gleda. | Policajac ih gleda.
 - Fotografiram MOST. | Fotografiram ga. | Fotografiram je. | Fotografiram ih.
 
-## The rule: they lean
+## Die Regel: Sie lehnen sich an
 format: tekst
-info: Why these pronouns are so fussy about position. They are clitics, like *sam* and *je*: unstressed, leaning on the word in front, and unable to start a sentence. For first place or emphasis use *mene, tebe, njega, nju*.
-infokratko: Short pronouns never start a sentence. For first place or emphasis: *mene, tebe, njega, nju*.
-- These seven words are **clitics** — the same restless family as *sam, si, je* from Lesson 2. They carry no stress of their own, so they lean on the word in front of them.
-- **The consequence:** a clitic can never open a sentence. *Vidim ga* — always. *Ga vidim* — never.
-- **If you really want to start with the pronoun**, Croatian hands you a longer, stressed twin: *Njega vidim, ne tebe.* — "It's *him* I see, not you." Long forms are for emphasis and contrast; the short ones are for everything else.
-- tab: Short (leans) | Long (stressed) | Use the long one when
-- tab: me | mene | it starts the sentence or is contrasted
+info: Warum diese Pronomen so wählerisch mit ihrer Stellung sind. Sie sind Klitika, wie *sam* und *je*: unbetont, angelehnt an das Wort davor und unfähig, einen Satz zu beginnen. Für die erste Stelle oder zur Betonung nimm *mene, tebe, njega, nju*.
+infokratko: Kurze Pronomen beginnen nie einen Satz. Für die erste Stelle oder Betonung: *mene, tebe, njega, nju*.
+- Diese sieben Wörter sind **Klitika** – dieselbe unruhige Familie wie *sam, si, je* aus Lektion 2. Sie tragen keine eigene Betonung, also lehnen sie sich an das Wort davor.
+- **Die Folge:** Ein Klitikon kann nie einen Satz eröffnen. *Vidim ga* – immer. *Ga vidim* – nie.
+- **Wenn du wirklich mit dem Pronomen anfangen willst**, gibt dir das Kroatische einen längeren, betonten Zwilling: *Njega vidim, ne tebe.* – „*Ihn* sehe ich, nicht dich.“ Lange Formen sind für Betonung und Gegensatz; die kurzen für alles andere.
+- tab: Kurz (lehnt sich an) | Lang (betont) | Nimm die lange, wenn
+- tab: me | mene | sie den Satz beginnt oder im Gegensatz steht
 - tab: te | tebe | Tebe čekam, ne njega.
 - tab: ga | njega | Njega vidim.
 - tab: je | nju | Nju zovem.
-- **"her" has a spare form: *ju*.** Use it when *je* the verb is standing right next to *je* the pronoun, because *je je* is unsayable: *Ana **ju** je vidjela.* Everywhere else both work, and you'll hear *ju* a lot in speech even where the rule doesn't demand it.
-- **Now you write them.** Ana [ga] je vidjela. Ana [ju] je vidjela — nikad *je je*.
+- **„sie“ hat eine Ersatzform: *ju*.** Nimm sie, wenn *je* das Verb direkt neben *je* dem Pronomen steht, denn *je je* ist unaussprechlich: *Ana **ju** je vidjela.* Überall sonst gehen beide, und *ju* hörst du im Gespräch oft, auch wo die Regel es nicht verlangt.
+- **Jetzt schreibst du.** Ana [ga] je vidjela. Ana [ju] je vidjela — nikad *je je*.
 
-## Where does the pronoun go?
+## Wohin kommt das Pronomen?
 format: izbor
-info: A pure position drill. Only the short forms are banned from first place, so *Vidim ga* is right and *Ga vidim* is impossible; when you want the pronoun up front, its stressed twin takes over, as in *Njega vidim*.
-infokratko: *Vidim ga*, never *Ga vidim*. Up front: *Njega vidim*.
-opis: Only one of these is a sentence a Croatian would actually say. The short pronoun never comes first.
-- I see him. | Vidim ga. | Ga vidim.
-- Ana is waiting for me. | Ana me čeka. | Ana čeka me.
-- I love you. | Volim te. | Te volim.
-- The waiter sees us. | Konobar nas vidi. | Konobar nam vidi.
-- I'm calling them. | Zovem ih. | Ih zovem.
-- It's HIM I see, not you. | Njega vidim, ne tebe. | Ga vidim, ne te.
-- I'm reading it. (the book) | Čitam je. | Je čitam.
-- It's YOU I'm waiting for. | Tebe čekam. | Te čekam.
+info: Eine reine Stellungsübung. Nur die kurzen Formen sind von der ersten Stelle verbannt, also ist *Vidim ga* richtig und *Ga vidim* unmöglich; wenn du das Pronomen vorne haben willst, übernimmt sein betonter Zwilling, wie in *Njega vidim*.
+infokratko: *Vidim ga*, nie *Ga vidim*. Vorne: *Njega vidim*.
+opis: Nur einer davon ist ein Satz, den ein Kroate wirklich sagen würde. Das kurze Pronomen kommt nie zuerst.
+- Ich sehe ihn. | Vidim ga. | Ga vidim.
+- Ana wartet auf mich. | Ana me čeka. | Ana čeka me.
+- Ich liebe dich. | Volim te. | Te volim.
+- Der Kellner sieht uns. | Konobar nas vidi. | Konobar nam vidi.
+- Ich rufe sie an. (Plural) | Zovem ih. | Ih zovem.
+- IHN sehe ich, nicht dich. | Njega vidim, ne tebe. | Ga vidim, ne te.
+- Ich lese es. (das Buch = knjiga) | Čitam je. | Je čitam.
+- Auf DICH warte ich. | Tebe čekam. | Te čekam.
 
-## Answer without repeating
+## Antworte, ohne zu wiederholen
 format: upis
-info: Short answers that drop the noun. Say *Da*, then the verb, then the pronoun — *Da, čekam ga* — taking **ga** or **je** from the gender of the noun in the question rather than naming that noun again.
-infokratko: *Da* + verb + pronoun: *Da, čekam ga*.
-opis: Answer *Da*, but don't say the noun again — swap it for its pronoun. Two words after *Da,*.
+info: Kurze Antworten, die das Nomen weglassen. Sag *Da*, dann das Verb, dann das Pronomen – *Da, čekam ga* –, wobei du **ga** oder **je** nach dem Genus des Nomens in der Frage nimmst, statt dieses Nomen noch einmal zu nennen.
+infokratko: *Da* + Verb + Pronomen: *Da, čekam ga*.
+opis: Antworte mit *Da*, aber sag das Nomen nicht noch einmal – tausche es gegen sein Pronomen. Zwei Wörter nach *Da,*.
 - Čekaš li prijatelja? → Da, ___ . | čekam ga
 - Vidiš li tramvaj? → Da, ___ . | vidim ga
 - Čitaš li knjigu? → Da, ___ . | čitam je
@@ -303,9 +303,9 @@ opis: Answer *Da*, but don't say the noun again — swap it for its pronoun. Two
 
 ## Bau den Satz
 format: slaganje
-info: Sentence building that mixes everything on this page. Full nouns keep their accusative ending, and a short pronoun can never take the opening tile: *Ana me čeka*, while *Njega vidim* uses the stressed form instead.
-infokratko: Nouns keep the accusative; short pronouns never first: *Ana me čeka*.
-opis: Build the sentence.
+info: Sätze bauen, die alles auf dieser Seite mischen. Volle Nomen behalten ihre Akkusativendung, und ein kurzes Pronomen kann nie das erste Kärtchen nehmen: *Ana me čeka*, während *Njega vidim* stattdessen die betonte Form verwendet.
+infokratko: Nomen behalten den Akkusativ; kurze Pronomen nie zuerst: *Ana me čeka*.
+opis: Bau den Satz.
 - Zovem doktora.
 - Čovjek čeka autobus.
 - Vidim konobara i čujem glazbu.
