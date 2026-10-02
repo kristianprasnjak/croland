@@ -13,7 +13,9 @@ const ROOT = path.join(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ZASTICENO = path.join(ROOT, 'zasticeno');
 
-const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html'];
+const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html',
+  // njemacka verzija (croland-de/): ista aplikacija, druga stranica, isti kljucevi napretka
+  'index-de.html', 'rjecnik-de.js', 'pregledi-de.js'];
 const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily'];
 
 fs.rmSync(DIST, { recursive: true, force: true });
@@ -32,21 +34,22 @@ for (const name of DIRS) {
 }
 
 // ---- podjela sadržaja ----
-const izvor = path.join(ROOT, 'data.js');
-if (!fs.existsSync(izvor)) throw new Error('build: missing required file data.js');
+function podijeliIProvjeri(izvorIme, javniIme, placeniIme) {
+const izvor = path.join(ROOT, izvorIme);
+if (!fs.existsSync(izvor)) throw new Error('build: missing required file ' + izvorIme);
 const rezultat = podijeli(ucitajPodatke(izvor));
-zapisi({ javniDir: DIST, placeniDir: ZASTICENO }, rezultat);
+zapisi({ javniDir: DIST, placeniDir: ZASTICENO }, rezultat, { javni: javniIme, placeni: placeniIme });
 
 // ---- brava ----
 // Zadnja provjera nad onim što stvarno ide van: ni jedna rečenica iz plaćenih vježbi ne
-// smije se naći u dist/data.js. Radije neuspio build nego tiho objavljen sadržaj.
-const javniTekst = fs.readFileSync(path.join(DIST, 'data.js'), 'utf8');
-const javniPodaci = ucitajPodatke(path.join(DIST, 'data.js'));
+// smije se naći u javnoj datoteci (dist/data.js, dist/data-de.js). Radije neuspio build nego tiho objavljen sadržaj.
+const javniTekst = fs.readFileSync(path.join(DIST, javniIme), 'utf8');
+const javniPodaci = ucitajPodatke(path.join(DIST, javniIme));
 
 // (a) strukturno: zaključana vježba u javnom dijelu mora biti prazna ljuštura
 for (const igra of javniPodaci.igre) {
   if (igra.zakljucano && (igra.stavke || []).length) {
-    throw new Error('build: zakljucana vjezba ima sadrzaj u dist/data.js — ' + igra.naslov);
+    throw new Error('build: zakljucana vjezba ima sadrzaj u dist/' + javniIme + ' — ' + igra.naslov);
   }
 }
 // (b) strukturno: ni jedan skriveni zvuk ne smije stajati u javnoj mapi
@@ -63,7 +66,7 @@ for (const igra of rezultat.placeni.igre) {
   if (stavke.length < 2) continue;
   const otisak = JSON.stringify(stavke);
   if (otisak.length > 40 && javniTekst.includes(otisak)) {
-    throw new Error('build: zadaci placene vjezbe su u dist/data.js — ' + igra.naslov);
+    throw new Error('build: zadaci placene vjezbe su u dist/' + javniIme + ' — ' + igra.naslov);
   }
 }
 
@@ -77,6 +80,10 @@ const spojeniZvukovi = Object.assign({}, javniPodaci.zvukovi, rezultat.placeni.z
 if (Object.keys(spojeniZvukovi).length !== Object.keys(izvorni.zvukovi || {}).length) {
   throw new Error('build: podjela je izgubila zvukove');
 }
+return rezultat;
+}
+const rezultat = podijeliIProvjeri('data.js', 'data.js', 'data-plus.json');
+const rezultatDe = podijeliIProvjeri('data-de.js', 'data-de.js', 'data-plus-de.json');
 
 // GitHub Pages inače provuče objavljeno kroz Jekyll, koji preskače datoteke i mape s donjom
 // crtom na početku (npr. mini-igre/_sadrzaj). Deploy preko Actions to ne radi, ali .nojekyll
@@ -89,4 +96,6 @@ console.log('  dist/data.js (javno)      ', kb(path.join(DIST, 'data.js')),
   '·', rezultat.brojke.besplatnih, 'vjezbi,', rezultat.brojke.zvukovaJavno, 'zvukova');
 console.log('  zasticeno/data-plus.json  ', kb(path.join(ZASTICENO, 'data-plus.json')),
   '·', rezultat.brojke.placenih, 'vjezbi,', rezultat.brojke.zvukovaSkriveno, 'zvukova');
-console.log('  -> zasticeno/data-plus.json uploadaj u Supabase Storage bucket "sadrzaj"');
+console.log('  dist/data-de.js (javno)   ', kb(path.join(DIST, 'data-de.js')), '·', rezultatDe.brojke.besplatnih, 'vjezbi');
+console.log('  zasticeno/data-plus-de.json', kb(path.join(ZASTICENO, 'data-plus-de.json')), '·', rezultatDe.brojke.placenih, 'vjezbi');
+console.log('  -> zasticeno/data-plus.json i data-plus-de.json uploadaj u Supabase Storage bucket "sadrzaj"');

@@ -19,10 +19,10 @@ const path = require('path');
 const https = require('https');
 
 const ROOT = __dirname;
-const DATOTEKA = path.join(ROOT, 'zasticeno', 'data-plus.json');
+// svaki jezik ima svoj placeni dio; oba moraju biti u bucketu prije objave dist/
+const DATOTEKE = ['data-plus.json', 'data-plus-de.json'];
 const LOG = path.join(ROOT, 'zadnji-upload-log.txt');
 const BUCKET = 'sadrzaj';
-const OBJEKT = 'data-plus.json';
 
 const redci = [];
 function zapisi(poruka) {
@@ -78,23 +78,19 @@ function posalji(metoda, url, kljuc, tijelo) {
   });
 }
 
-(async () => {
-  zapisi('--- upload zasticenog sadrzaja ---');
+async function uploadaj(OBJEKT, env) {
+  const DATOTEKA = path.join(ROOT, 'zasticeno', OBJEKT);
+  zapisi('--- upload: ' + OBJEKT + ' ---');
 
   if (!fs.existsSync(DATOTEKA)) odustani('nema ' + DATOTEKA + ' — pokreni prvo "npm run build".');
-
-  const env = citajEnv();
-  if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY) {
-    odustani('u .env nedostaje SUPABASE_URL ili SUPABASE_SERVICE_ROLE_KEY.');
-  }
 
   const tijelo = fs.readFileSync(DATOTEKA);
   try {
     const podaci = JSON.parse(tijelo.toString('utf8'));
     if (!(podaci.igre || []).length) throw new Error('nema ni jedne vjezbe');
-    zapisi('data-plus.json: ' + podaci.igre.length + ' placenih vjezbi, generirano ' + podaci.generirano);
+    zapisi(OBJEKT + ': ' + podaci.igre.length + ' placenih vjezbi, generirano ' + podaci.generirano);
   } catch (e) {
-    odustani('data-plus.json nije ispravan (' + e.message + ') — upload prekinut.');
+    odustani(OBJEKT + ' nije ispravan (' + e.message + ') — upload prekinut.');
   }
 
   const url = env.SUPABASE_URL.replace(/\/+$/, '') + '/storage/v1/object/' + BUCKET + '/' + OBJEKT;
@@ -117,10 +113,18 @@ function posalji(metoda, url, kljuc, tijelo) {
   }
 
   if (r.status >= 200 && r.status < 300) {
-    zapisi('OK — sadrzaj je u bucketu.');
-    spremiLog();
+    zapisi('OK — ' + OBJEKT + ' je u bucketu.');
   } else {
     zapisi('odgovor Supabasea: ' + r.tekst.slice(0, 500));
     odustani('Supabase je odbio upload (HTTP ' + r.status + ').');
   }
+}
+
+(async () => {
+  const env = citajEnv();
+  if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_ROLE_KEY) {
+    odustani('u .env nedostaje SUPABASE_URL ili SUPABASE_SERVICE_ROLE_KEY.');
+  }
+  for (const objekt of DATOTEKE) await uploadaj(objekt, env);
+  spremiLog();
 })();

@@ -1,988 +1,994 @@
 en	de	izvor	redak
-Croland · info-v1	Croland · info-v1	html	6
-Home	Start	html	3093
-Lessons	Lektionen	html	3094
-Dictionary	Wörterbuch	html	3095
-Games & Extras	Spiele & Extras	html	3096
-Daily challenge	Tägliche Challenge	html	3097
-Progress	Fortschritt	html	3098
-User account	Benutzerkonto	html	3099
-Options	Optionen	html	3100
-This lesson	Diese Lektion	html	3131
-All so far	Alles bisher	html	3132
-Word game	Wortspiel	html	3140
-HR → EN	HR → DE	html	3145
-EN → HR	DE → HR	html	3146
-Mixed	Gemischt	html	3147
-Choose	Auswählen	html	3150
-Type	Tippen	html	3151
-Reset	Zurücksetzen	html	3158
-Why this works	Warum das funktioniert	html	3164
-Croland	Croland	html-attr	3091
-Open Progress	Fortschritt öffnen	html-attr	3104
-Smaller interface	Kleinere Oberfläche	html-attr	3106
-Bigger interface	Größere Oberfläche	html-attr	3107
-Show favourites only	Nur Favoriten anzeigen	html-attr	3125
-Smaller icon	Kleineres Symbol	html-attr	3126
-Bigger icon	Größeres Symbol	html-attr	3127
-Close	Schließen	html-attr	3128
-Skip this word	Dieses Wort überspringen	html-attr	3141
-Add a sticky note	Haftnotiz hinzufügen	html-attr	3170
-use strict	=	js	3179
-Lesson	Lektion	js	3184
-Vocabulary	Wortschatz	js	3184
-Grammar	Grammatik	js	3184
-Practice	Praxis	js	3184
-Test	Test	js	3184
-Authorization	=	js	3216
-Bearer 	=	js	3216
-YOUR-PROJECT	=	js	3218
-error_code	=	js	3240
-error_description	=	js	3245
-aria-label	=	js	3266
-Dismiss	Ausblenden	js	3266
-Weekly challenge	Wöchentliche Challenge	js	3312
-daily challenge	=	js	3352
-weekly challenge	=	js	3359
-January	Januar	js	3394
-February	Februar	js	3394
-March	März	js	3394
-April	April	js	3394
-May	Mai	js	3394
-June	Juni	js	3394
-July	Juli	js	3395
-August	August	js	3395
-September	September	js	3395
-October	Oktober	js	3395
-November	November	js	3395
-December	Dezember	js	3395
- day streak · 	 Tage in Folge · 	js	3403
-today: 	heute: 	js	3408
-no challenge today	heute keine Challenge	js	3410
-Daily challenge 	Tägliche Challenge 	js	3416
-Grad	=	js	3441
-Town	Stadt	js	3441
-Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.	Lauf durch die Stadt, sprich mit Leuten, löse fünf Aufgaben: Einkaufen, Lieferung, Quiz und ein Plausch an der Kasse.	js	3442
-Pamti pa piši	=	js	3443
-Remember & Write	Merken & Schreiben	js	3443
-Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.	Bilder blitzen auf, du schreibst sie aus dem Gedächtnis auf – streng, mit allen diakritischen Zeichen. Hundert Level, drei Herzen.	js	3444
-Fortress	Festung	js	3445
-The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.	Der Burgvogt liegt im Krankenhaus, und jeder Schlüssel ist versteckt. Zwölf Räume, ein Schlüssel nach dem anderen – bevor der Stadtrat über den Verkauf der Festung abstimmt.	js	3446
-Konoba	=	js	3447
-Tavern	Taverne	js	3447
-Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.	Gäste bestellen im Akkusativ, du servierst nach Bildern. Acht Schichten, jedes Mal mehr Gerichte und Adjektive.	js	3448
-Warehouse	Lagerhaus	js	3449
-You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.	Du wählst den Einsatz. Schieb Wortkisten in die Garage ihrer Kategorie. Höherer Einsatz, größeres Lager.	js	3450
-Poštanski vlak	=	js	3451
-Mail Train	Postzug	js	3451
-Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.	Füll die Waggons vor der Abfahrt. Die Regel ändert sich ständig: Kategorie, Geschlecht, Anfangsbuchstabe, Übersetzung.	js	3452
-Labirint	=	js	3453
-Maze	Labyrinth	js	3453
-Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.	Sammle nur die Wörter der vorgegebenen Kategorie. Eindringlinge kosten Herzen, Geister jagen dich.	js	3454
-Zmija	=	js	3455
-Snake	Schlange	js	3455
-Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.	Friss die Buchstaben in der richtigen Reihenfolge, um das Wort zum Bild zu schreiben. Ein falscher Buchstabe kostet ein Herz.	js	3456
-Portal	Portal	js	3457
-Platformer	Jump 'n' Run	js	3457
-Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.	Zwei Ufer und ein Leuchtturm. Spring in die Wolke mit dem richtigen Wort, kletter zum Portal und wechsle auf die andere Seite. Krabben klettern auch.	js	3458
-Preživljavanje	=	js	3459
-Survival	Überleben	js	3459
-Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.	Zwanzig richtige Antworten gegen die Uhr. Treffer landen in deiner Liste der beherrschten Wörter, Fehler in der Wiederholungsliste.	js	3460
-Obrana baze	=	js	3461
-Base Defense	Basisverteidigung	js	3461
-Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.	Wörter fallen auf deine Basis zu, du klickst die Übersetzung an. Fünfzehn Wellen, beide Richtungen, vier Antworten am unteren Rand.	js	3462
-Gradovi Hrvatske	=	js	3463
-Croatian Towns	Kroatische Städte	js	3463
-All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.	Alle 128 Städte Kroatiens, von Ilok an der Donau bis Dubrovnik. In jeder spricht dich jemand auf Kroatisch an, und nur eine von drei Antworten passt. Drei Herzen, die nie zurückkommen.	js	3464
-The market	Der Markt	js	3476
-Tap anything on the market stall and type its Croatian name.	Tippe auf irgendetwas am Marktstand und schreib seinen kroatischen Namen.	js	3479
-Five things at the market	Fünf Dinge auf dem Markt	js	3500
-Tap five things in the picture and type their Croatian names.	Tippe auf fünf Dinge im Bild und schreib ihre kroatischen Namen.	js	3503
-Kupaonica	=	js	3505
-Seven things in the bathroom	Sieben Dinge im Badezimmer	js	3505
-Name seven things in the picture, then match a short story with its English.	Benenne sieben Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3508
-Radni stol	=	js	3509
-A desk by the window	Ein Schreibtisch am Fenster	js	3509
-Name six things in the picture, then match a short story with its English.	Benenne sechs Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3512
-Balkon	=	js	3513
-A morning on the balcony	Ein Morgen auf dem Balkon	js	3513
-Stanica	=	js	3517
-At the bus stop	An der Bushaltestelle	js	3517
-Dnevni boravak	=	js	3521
-A quiet living room	Ein ruhiges Wohnzimmer	js	3521
-Piknik	=	js	3525
-A picnic in the park	Ein Picknick im Park	js	3525
-A birthday table	Ein Geburtstagstisch	js	3529
-Ribolov	=	js	3533
-Fishing on a calm sea	Angeln auf ruhiger See	js	3533
-Kofer	=	js	3537
-Packing for a holiday	Koffer packen für den Urlaub	js	3537
-Football in the backyard	Fußball im Hinterhof	js	3541
-Glazbena soba	=	js	3545
-A small music room	Ein kleines Musikzimmer	js	3545
-Trg	=	js	3549
-A sunny town square	Ein sonniger Marktplatz	js	3549
-A table set for dinner	Ein gedeckter Tisch zum Abendessen	js	3553
-Planinska koliba	=	js	3557
-A hut in the mountains	Eine Hütte in den Bergen	js	3557
-The postman at the door	Der Briefträger an der Tür	js	3561
-Taksi	=	js	3565
-A taxi by the river	Ein Taxi am Fluss	js	3565
-A hot day on the beach	Ein heißer Tag am Strand	js	3569
-Aerodrom	=	js	3573
-Waiting at the airport	Warten am Flughafen	js	3573
-Ispred kuće	=	js	3577
-A sunny corner in front of the house	Ein sonniges Eckchen vor dem Haus	js	3577
-2026-10-16-peron.html	=	js	3581
-Peron	=	js	3581
-A quiet railway platform	Ein ruhiger Bahnsteig	js	3581
-croland.daily.peron.2026-10-16	=	js	3583
-Doručak na terasi	=	js	3585
-Breakfast outside	Frühstück draußen	js	3585
-Name five things in the picture, then match a short story with its English.	Benenne fünf Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3588
-A surprise on the table	Eine Überraschung auf dem Tisch	js	3589
-Listen Read Write Speak	Hören Lesen Schreiben Sprechen	js	3657
-Notebook	Notizbuch	js	3658
-Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.	Füge einen beliebigen Text ein – ein Lied, ein Gedicht, einen Artikel. Er wird in Zeilen aufgeteilt: Hör dir jede an, prüf sie mit Google Übersetzer, schreib deine eigene Übersetzung und sprich sie dann laut aus, um zu sehen, was das Mikrofon gehört hat.	js	3659
- earned	 verdient	js	3716
-best 	bestes 	js	3717
-level 	Stufe 	js	3718
-place 	Platz 	js	3719
-Zasticeni sadrzaj nije ucitan:	=	js	3872
-on je	=	js	4036
-Htio bih... / Htjela bih...	=	js	4037
-zato što	=	js	4041
-Vocabulary 1	=	js	4048
-Vocabulary 2	=	js	4048
-Vocabulary 3	=	js	4048
-Sign-in isn\'t configured yet.	Die Anmeldung ist noch nicht eingerichtet.	js	4361
-Login failed	Anmeldung fehlgeschlagen	js	4363
-Sign-up failed	Registrierung fehlgeschlagen	js	4369
-Sign-in is unavailable — the app could not load its login library. 	Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. 	js	4381
-Check your connection or any content blocker, then reload the page.	Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.	js	4382
-Sign-in failed: 	Anmeldung fehlgeschlagen: 	js	4389
-No data — run osvježi.bat to generate data.js.	Keine Daten – führe osvježi.bat aus, um data.js zu erzeugen.	js-html	4441
-Sign-in did not complete. If you opened Croland from inside another app 	Die Anmeldung wurde nicht abgeschlossen. Wenn du Croland in einer anderen App geöffnet hast 	js	4477
-(Messenger, Instagram, Facebook), open it in your browser instead — Google blocks 	(Messenger, Instagram, Facebook), öffne es stattdessen in deinem Browser – Google blockiert 	js	4478
-sign-in in embedded browsers.	die Anmeldung in eingebetteten Browsern.	js	4479
-Play pronunciation — then say it out loud	Aussprache abspielen – dann laut nachsprechen	js	4687
-Play pronunciation	Aussprache abspielen	js	4689
-Enter	Eingabe	js	4692
-Insert 	Einfügen 	js	4736
-ease-out	=	js	4837
-New units unlocked!	Neue Einheiten freigeschaltet!	js	4888
-New unit unlocked!	Neue Einheit freigeschaltet!	js	4888
-You\'ve earned enough points — nicely done! 🎉	Du hast genug Punkte gesammelt – gut gemacht! 🎉	js-html	4889
-Now open:	Jetzt offen:	js-html	4890
-▶ Next: 	▶ Weiter: 	js	4893
-Keep exploring	Weiter erkunden	js	4902
-Create your free account	Erstelle dein kostenloses Konto	js	4927
-Welcome back	Willkommen zurück	js	4927
-A free account opens Level 1 across every track, plus daily challenges and mini games.	Ein kostenloses Konto öffnet Level 1 in allen Bereichen, dazu tägliche Challenges und Minispiele.	js	4929
-Log in to carry on where you left off.	Melde dich an, um dort weiterzumachen, wo du aufgehört hast.	js	4930
-Continue with Google	Weiter mit Google	js-html	4933
-Email	E-Mail	js-html	4935
-Password	Passwort	js-html	4937
-new-password	=	js	4939
-at least 6 characters	mindestens 6 Zeichen	js	4940
-your password	dein Passwort	js	4940
-Create account	Konto erstellen	js	4942
-Log in	Anmelden	js	4942
-Already have an account?	Du hast schon ein Konto?	js-html	4944
-New here?	Neu hier?	js-html	4945
-Create a free account	Kostenloses Konto erstellen	js-html	4945
-Not now	Nicht jetzt	js-html	4946
-Enter an email and a password of at least 6 characters.	Gib eine E-Mail-Adresse und ein Passwort mit mindestens 6 Zeichen ein.	js	4969
-Almost there — check your inbox and click the confirmation link, then log in.	Fast geschafft – schau in dein Postfach, klick auf den Bestätigungslink und melde dich dann an.	js	4976
-Enter an email and password.	Gib eine E-Mail-Adresse und ein Passwort ein.	js	4982
-Croland Plus	Croland Plus	js-html	5014
-Level 2 and above need an active subscription. Manage it from your account page.	Ab Level 2 brauchst du ein aktives Abo. Du verwaltest es auf deiner Kontoseite.	js-html	5015
-Go to account	Zum Konto	js	5016
-Grammar 1	=	js	5032
-Practice 1	=	js	5032
-Account created!	Konto erstellt!	js-html	5038
-The course is open. Alongside Lesson 1 you can now play:	Der Kurs ist offen. Neben Lektion 1 kannst du jetzt spielen:	js-html	5039
-Yes	Ja	js	5089
-Cancel	Abbrechen	js	5091
-Great job! 🎉	Super gemacht! 🎉	js	5141
-Well done! 👍	Gut gemacht! 👍	js	5141
-Keep going! 💪	Weiter so! 💪	js	5141
-new word	neues Wort	js-html	5149
-new words	neue Wörter	js-html	5149
-saved to your dictionary — the word game can use them now.	in deinem Wörterbuch gespeichert – das Wortspiel kann sie jetzt verwenden.	js-html	5150
- mistake	 Fehler	js	5159
- mistakes	 Fehler	js	5159
-Day	Tag	js-html	5164
- points to every currency	 Punkte in jeder Währung	js	5165
-Come back tomorrow for +	Komm morgen wieder für +	js-html	5166
-Welcome to your first real Croatian lesson!	@blobby	js	5205
-Here's a secret: you already speak some Croatian	@blobby	js	5206
-By the end of this lesson you'll describe houses	@blobby	js	5207
-To say anything about anything, Croatian needs	@blobby	js	5208
-Notice what's missing?	@blobby	js	5209
-Bravo! You just built your first Croatian	@blobby	js	5210
-You've already used everything on this page	@blobby	js	5211
-Every noun has a gender.	@blobby	js	5212
-One exception worth knowing.	@blobby	js	5213
-Time to read real Croatian!	@blobby	js	5214
-In Lesson 1 you described houses and coffee	@blobby	js	5215
-One verb, six forms — and you already know	@blobby	js	5216
-Spot the pattern:	@blobby	js	5217
-Odlično! You can now introduce yourself	@blobby	js	5218
-Here's the complete map of the verb you've been	@blobby	js	5219
-When in doubt in Croatia: start with	@blobby	js	5220
-Four people introduce themselves	@blobby	js	5221
-So far you can describe the world	@blobby	js	5222
-And notice something: you often don't even need	@blobby	js	5223
-The ending is the name tag:	@blobby	js	5224
-Sjajno! You can now say what you and others	@blobby	js	5225
-In Lesson 3 your ear learned the endings	@blobby	js	5226
-Drop the pronoun:	@blobby	js	5227
-A whole day of actions	@blobby	js	5228
-You can describe things, introduce people	@blobby	js	5229
-Today you get three tiny connector words	@blobby	js	5230
-You'll practice them on the warmest topic	@blobby	js	5231
-English uses	@blobby	js	5232
-Izvrsno! Your Croatian now flows in full	@blobby	js	5233
-The test: if English	@blobby	js	5234
-A family in one page	@blobby	js	5235
-Today is a big day	@blobby	js	5236
-Don't worry. Your first case changes exactly	@blobby	js	5237
-When a feminine word (ending in	@blobby	js	5238
-You just discovered it yourself:	@blobby	js	5239
-Čestitamo! You just learned your first Croatian	@blobby	js	5240
-"What a \""case\"" is:"	@blobby	js	5241
-Your accusative in action	@blobby	js	5242
-Last lesson you mastered the	@blobby	js	5243
-Things stay the same. People and animals get	@blobby	js	5244
-Two quirks to meet today:	@blobby	js	5245
-Bravo! You now handle the accusative for	@blobby	js	5246
-Croatian likes to mark	@blobby	js	5247
-This is why Lesson 3 felt easy	@blobby	js	5248
-City life, written the way Croatians actually	@blobby	js	5249
-One coffee, one friend, one tram	@blobby	js	5250
-We'll practice in the liveliest place possible	@blobby	js	5251
-One exception today:	@blobby	js	5252
-Sjajno! You can now talk about many things	@blobby	js	5253
-With this page your present tense is	@blobby	js	5254
-Learn them as words, not rules.	@blobby	js	5255
-A school day in the plural	@blobby	js	5256
-Summer is coming	@blobby	js	5257
-The Croatian future is refreshingly simple	@blobby	js	5258
-Recognize the rhythm?	@blobby	js	5259
-Odlično! Past lessons gave you the present	@blobby	js	5260
-Rule of thumb: the helper	@blobby	js	5261
-Summer plans — the kind of message	@blobby	js	5262
-Today's lesson is full of words you already know	@blobby	js	5263
-The new bit: making things	@blobby	js	5264
-The familiar trio again	@blobby	js	5265
-Bravo! Things are officially	@blobby	js	5266
-The possessives are adjectives at heart	@blobby	js	5267
-English speakers: this is the one trap.	@blobby	js	5268
-A club, a hobby, and a few people	@blobby	js	5269
-You can describe, ask, plan and dream in Croatian	@blobby	js	5270
-Good news: the past tense recycles something	@blobby	js	5271
-Let's talk about yesterday.	@blobby	js	5272
-All three are fine	@blobby	js	5273
-ČESTITAMO! Lessons 1–10 complete	@blobby	js	5274
-The participle shows the speaker's gender	@blobby	js	5275
-Your perfekt in the wild	@blobby	js	5276
-So far you've mostly been	@blobby	js	5277
-Seven little question words and one magic	@blobby	js	5278
-And the friendly tag at the end:	@blobby	js	5279
-Izvrsno! You can now ask about anything	@blobby	js	5280
-No question word? Use	@blobby	js	5281
-A present arrives, and nobody will say	@blobby	js	5282
-You've been suspiciously agreeable	@blobby	js	5283
-Today you learn to refuse soup	@blobby	js	5284
-English teachers hate this.	@blobby	js	5285
-Bravo! You can now refuse, deny and protest	@blobby	js	5286
-In Croatian, negatives stack	@blobby	js	5287
-A family of picky eaters	@blobby	js	5288
-Since Lesson 5 you can say where you're	@blobby	js	5289
-One tiny ending	@blobby	js	5290
-Same u/na logic as before:	@blobby	js	5291
-Sjajno! You now know where you're going AND	@blobby	js	5292
-Everyone is somewhere different	@blobby	js	5293
-December in Croatia: presents for everyone!	@blobby	js	5294
-Those endings	@blobby	js	5295
-Word order is flexible	@blobby	js	5296
-Divno! You can now give, send and bring	@blobby	js	5297
-The dative marks the	@blobby	js	5298
-December, and everyone is buying something	@blobby	js	5299
-Friday night! You're going out	@blobby	js	5300
-Today's case is the instrumental	@blobby	js	5301
-Think of it as: the vehicle is your instrument	@blobby	js	5302
-ČESTITAMO! Module C complete	@blobby	js	5303
-The most common English-speaker mistake	@blobby	js	5304
-Five down, two to go	@blobby	js	5305
-A night out and a train ride	@blobby	js	5306
-Whose house? Grandma's.	@blobby	js	5307
-All three answers live in one case	@blobby	js	5308
-Nema + genitive says something's missing	@blobby	js	5309
-Bravo! Belonging, origin and absence	@blobby	js	5310
-The genitive answers	@blobby	js	5311
-Case toolkit — complete!	@blobby	js	5312
-Grandma's house, and the road that leads	@blobby	js	5313
-Time to give orders — politely, of course	@blobby	js	5314
-Croatian commands are short and punchy	@blobby	js	5315
-Odlično! You can now give directions	@blobby	js	5316
-Familiar faces:	@blobby	js	5317
-A recipe, a set of directions, and a coach	@blobby	js	5318
-Imagine: a million euros lands in your account	@blobby	js	5319
-Croatian dreams run on the	@blobby	js	5320
-Krasno! You can now dream, wish and order	@blobby	js	5321
-The politeness machine:	@blobby	js	5322
-every teacher will thank you	@blobby	js	5323
-A million euros, and a perfect day	@blobby	js	5324
-Here's Croatian's deepest secret	@blobby	js	5325
-One twin describes the	@blobby	js	5326
-The tell-tale words:	@blobby	js	5327
-Fantastično! You've cracked aspect	@blobby	js	5328
-Every Croatian verb carries a built-in answer	@blobby	js	5329
-The homework trap:	@blobby	js	5330
-A letter that took all afternoon	@blobby	js	5331
-Twenty lessons ago, your first sentence was	@blobby	js	5332
-The final ingredients: five little connectors	@blobby	js	5333
-You did it. Twenty lessons ago you knew	@blobby	js	5334
-Your last text is someone remembering a summer	@blobby	js	5335
-Check answers	Antworten prüfen	js	5437
-✓ Done reading	✓ Fertig gelesen	js	5437
-Fill in the gaps	Füll die Lücken	js	5442
-Read	Lesen	js	5446
-Correct: 	Richtig: 	js	5490
- correct	 richtig	js	5496
- gaps filled — the missing word is always one you just read above.	 Lücken gefüllt – das fehlende Wort ist immer eines, das du gerade oben gelesen hast.	js	5500
-Blobby	=	js	5571
-Missing word	Fehlendes Wort	js	5632
-Read: 	Gelesen: 	js	5695
-tap every card	tippe jede Karte an	js	5695
-In dictionary: 	Im Wörterbuch: 	js	5696
- · Added to dictionary: 	 · Ins Wörterbuch aufgenommen: 	js	5705
-Tap a card to **flip it**: the Croatian word, a picture and 	Tippe auf eine Karte, um sie **umzudrehen**: Auf der Rückseite findest du das kroatische Wort, ein Bild und 	js	5712
- are on the back. Play it, **say the word out loud**, then tap **+** to put it in your dictionary (tap it again to star it). 	. Spiel es ab, **sprich das Wort laut aus** und tippe dann auf **+**, um es in dein Wörterbuch aufzunehmen (noch einmal tippen setzt einen Stern). 	js	5712
- shows all its forms.	 zeigt alle seine Formen.	js	5712
-Added to dictionary	Ins Wörterbuch aufgenommen	js	5726
-Flip card: 	Karte umdrehen: 	js	5734
-tap to flip	zum Umdrehen tippen	js	5743
-✓ already yours	✓ schon deins	js	5768
-Add 	 	js	5783
- words to dictionary	 Wörter ins Wörterbuch aufnehmen	js	5783
-Add to dictionary	Ins Wörterbuch aufnehmen	js	5783
-Remove from favourites	Aus Favoriten entfernen	js	5789
-Add to favourites	Zu Favoriten hinzufügen	js	5789
-All forms in the dictionary	Alle Formen im Wörterbuch	js	5823
-Conversation	Gespräch	js	5859
-choose your reply	wähle deine Antwort	js	5859
-Every line has a 	Jede Zeile hat ein 	js	5861
- — play it, then **read your reply out loud** before you tap it.	 – spiel es ab und **lies deine Antwort laut vor**, bevor du sie antippst.	js	5861
-conversation: 	Gespräch: 	js	5865
-conversation finished	Gespräch beendet	js	5874
-Matched: 	Zugeordnet: 	js	5888
- · Mistakes: 	 · Fehler: 	js	5888
-Tap 	Tippe bei einem kroatischen Wort auf 	js	5890
- on a Croatian word and **say it back** before you look for its pair.	 und **sprich es nach**, bevor du sein Paar suchst.	js	5890
-Mistakes: 	Fehler: 	js	5908
-Extra flips: 0	Extra-Umdrehungen: 0	js	5952
-Pairs: 	Paare: 	js	5954
- · Extra flips: 	 · Extra-Umdrehungen: 	js	5954
-Extra flips: 	Extra-Umdrehungen: 	js	5985
-All 	Alle 	js	5987
- pairs found	 Paare gefunden	js	5987
-Score: 	Punkte: 	js	6014
- next to the word and **say it out loud** before you answer — the clock can wait one second.	 neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.	js	6018
-data-ik	=	js	6028
-Time: 	Zeit: 	js	6035
- correct with 	 richtig mit 	js	6064
-Question: 	Frage: 	js	6099
-Type **only the missing word** — not the whole sentence. Tap the speaker first and say it out loud.	Schreib **nur das fehlende Wort** – nicht den ganzen Satz. Tippe zuerst auf den Lautsprecher und sprich es laut aus.	js	6141
-Write the **whole sentence** in Croatian. Tap the speaker first and say it out loud.	Schreib den **ganzen Satz** auf Kroatisch. Tippe zuerst auf den Lautsprecher und sprich ihn laut aus.	js	6142
-Check	Prüfen	js	6148
-Task: 	Aufgabe: 	js	6155
-Almost — only the marks are missing (č, ć, š, ž, đ). Correct answer: 	Fast – nur die Zeichen fehlen (č, ć, š, ž, đ). Richtige Antwort: 	js	6175
-Correct answer: 	Richtige Antwort: 	js	6176
-Sentence: 	Satz: 	js	6201
-In place: 	Am richtigen Platz: 	js	6277
-no ending	keine Endung	js	6352
-Check when ready	Prüfen, wenn du bereit bist	js	6418
-Result: 	Ergebnis: 	js	6533
- · below the 	 · unter der 	js	6537
-Build the sentence:	Bau den Satz:	js	6603
-Show all words	Alle Wörter anzeigen	js	6817
-No favourites yet. Tap 	Noch keine Favoriten. Tippe auf 	js	6824
- next to any word to keep it here.	 neben einem Wort, um es hier zu behalten.	js	6824
-Your dictionary is still empty.	Dein Wörterbuch ist noch leer.	js	6828
-No Croatian words on this page.	Auf dieser Seite gibt es keine kroatischen Wörter.	js	6829
-Stuck? The	Hängst du fest? Das	js-html	6932
-holds every word on this page.	enthält jedes Wort auf dieser Seite.	js-html	6932
-New words? The	Neue Wörter? Das	js-html	6945
-lists every word on this page, with	listet jedes Wort auf dieser Seite auf, mit	js-html	6945
- — and the 	 – und das Spiel 	js	6946
- game right under it drills the ones you saved.	 direkt darunter übt die Wörter, die du gespeichert hast.	js	6946
-Any word in the examples you do not recognise is in the	Jedes Wort in den Beispielen, das du nicht kennst, steht im	js-html	6947
-Blanking on a word? Open the	Ein Wort fällt dir nicht ein? Öffne das	js-html	6948
-— it holds every word on this page.	– es enthält jedes Wort auf dieser Seite.	js-html	6948
-The	Das	js-html	6949
-stays open during the checkpoint too. Nothing here is a trap.	bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen.	js-html	6949
-Not sure which word is which? The	Nicht sicher, welches Wort welches ist? Das	js-html	6950
-has them all, with	hat sie alle, mit	js-html	6950
-Every word on this page is in the	Jedes Wort auf dieser Seite steht im	js-html	6954
-, with	, mit	js-html	6954
- — it opens right here, without leaving the exercise.	 – es öffnet sich direkt hier, ohne dass du die Übung verlässt.	js	6954
-Not sure what a picture means? Tap here — every word on this page is listed, with 	Nicht sicher, was ein Bild bedeutet? Tippe hier – jedes Wort auf dieser Seite ist aufgelistet, mit 	js	6958
-The dictionary follows you around. Drag the icon wherever it suits you. 	Das Wörterbuch begleitet dich. Zieh das Symbol, wohin es dir passt. 	js	6959
-Digraphs tripping you up? Open the dictionary and hear the word first. 	Stolperst du über Doppelbuchstaben? Öffne das Wörterbuch und hör dir das Wort zuerst an. 	js	6960
-Your points collect up here.	Deine Punkte sammeln sich hier oben.	js-html	6976
-Nothing is ever lost	Nichts geht je verloren	js-html	6976
-— every exercise can be	– jede Übung kann	js-html	6976
-replayed as often as you like, and only your best attempt is kept. Relax and try things.	so oft wiederholt werden, wie du willst, und nur dein bester Versuch zählt. Entspann dich und probier aus.	js	6977
-Not happy with that score?	Nicht zufrieden mit dem Ergebnis?	js-html	6979
-Play again	Nochmal spielen	js-html	6979
-— as many times as you want.	– so oft du willst.	js-html	6979
-Your best result is the one that counts.	Dein bestes Ergebnis ist das, was zählt.	js	6980
-The clock is not an exam. When it runs out you simply keep the points you earned — 	Die Uhr ist keine Prüfung. Wenn sie abläuft, behältst du einfach die Punkte, die du verdient hast – 	js	6982
-then play again if you want more.	dann spiel noch einmal, wenn du mehr willst.	js-html	6983
-No penalty, ever.	Keine Strafe, niemals.	js-html	6983
-No words yet.	Noch keine Wörter.	js-html	7095
-Words from this lesson appear here as soon as you add them to your dictionary 	Wörter aus dieser Lektion erscheinen hier, sobald du sie in dein Wörterbuch aufnimmst 	js	7096
-“+ Add to dictionary”	„+ Zum Wörterbuch hinzufügen“	js-html	7097
-Croatian → English	Kroatisch → Deutsch	js	7113
-English → Croatian	Deutsch → Kroatisch	js	7113
-in English…	auf Deutsch…	js	7155
-Correct answer:	Richtige Antwort:	js-html	7182
-Next word →	Nächstes Wort →	js	7191
- · page 	 · Seite 	js	7232
-This exercise has no note yet. If you expected one here, the app is running on an older 	Für diese Übung gibt es noch keine Notiz. Wenn du hier eine erwartet hast, läuft die App mit einer älteren 	js	7237
-— regenerate it and reload the page.	– erzeuge sie neu und lade die Seite neu.	js-html	7238
-Europe/Zagreb	=	js	7263
-Ask about this page	Frag zu dieser Seite	js-html	7305
-Start over	Neu anfangen	js-html	7306
-Stuck, or wondering why? Ask in your own words — the helper can see this page.	Hängst du fest oder fragst dich, warum? Frag in deinen eigenen Worten – der Helfer sieht diese Seite.	js-html	7309
-Your free question for today is used. Subscribers get 20 a day.	Deine kostenlose Frage für heute ist verbraucht. Abonnenten bekommen 20 pro Tag.	js	7318
-One free question a day. Subscribers get 20.	Eine kostenlose Frage pro Tag. Abonnenten bekommen 20.	js	7319
-No questions left today. You get 	Für heute keine Fragen mehr. Morgen bekommst du 	js	7320
- new ones tomorrow.	 neue.	js	7320
- of 	 von 	js	7321
- questions left today	 Fragen für heute übrig	js	7321
-"<button type=""button"" class=""aiSalji"" id=""aiSalji"""	=	js	7326
-Ask	Fragen	js-html	7326
-Start over?	Neu anfangen?	js	7340
-This deletes the conversation about this page. Your points are not affected.	Damit wird das Gespräch über diese Seite gelöscht. Deine Punkte sind davon nicht betroffen.	js	7340
-Content-Type	=	js	7365
-The helper is very busy today. Please try again later.	Der Helfer ist heute sehr beschäftigt. Bitte versuch es später noch einmal.	js	7376
-The helper did not answer this time. Your question was not counted — try again.	Der Helfer hat diesmal nicht geantwortet. Deine Frage wurde nicht gezählt – versuch es noch einmal.	js	7378
-No connection. Your question was not counted — try again.	Keine Verbindung. Deine Frage wurde nicht gezählt – versuch es noch einmal.	js	7381
-aria-hidden	=	js	7558
-These icons are not stuck here.	Diese Symbole kleben hier nicht fest.	js-html	7652
-Drag any of them	Zieh eines davon	js-html	7652
-to the left edge, the right edge, or up into the top bar.	an den linken Rand, den rechten Rand oder nach oben in die Kopfzeile.	js	7653
-Lined	Liniert	js	7716
-Squared	Kariert	js	7717
-Plain	Blanko	js	7718
-All four note spots are taken	Alle vier Notizplätze sind belegt	js	7881
-""" data-red="""	=	js	7900
-""" spellcheck=""false"" "	=	js	7905
-""" aria-label=""Sticky note"" "	=	js	7906
-"placeholder=""Write here…"">"	=	js	7907
-"<button type=""button"" data-papir="""	=	js	7910
-""" data-slot="""	=	js	7910
-" paper"">"	=	js	7912
-"<button type=""button"" class=""cedBrisi"" data-slot="""	=	js	7914
-"<button type=""button"" class=""cedPrazno"" data-slot="""	=	js	7918
-sticky note here	hier eine Haftnotiz	js-html	7919
-Delete this note?	Diese Notiz löschen?	js	8010
-What is written on it is gone for good. 	Was darauf steht, ist dann endgültig weg. 	js	8010
-The other notes stay where they are.	Die anderen Notizen bleiben, wo sie sind.	js	8011
-Matched all 	Alle zugeordnet: 	js	8080
-Popped all 	Alle geplatzt: 	js	8102
-Words: 	Wörter: 	js	8154
-Built 	Gebaut: 	js	8157
-Remember these three — round 	Merk dir diese drei – Runde 	js	8240
-they disappear in	sie verschwinden in	js	8268
-gone — now rebuild the order	weg – jetzt bau die Reihenfolge nach	js	8268
-Which three, in that order?	Welche drei, in dieser Reihenfolge?	js	8287
-Everything you met	Alles, was du getroffen hast	js	8330
-header nav a[data-view]	=	js	8366
-data-view	=	js	8368
-"header nav a[data-view=""daily""]"	=	js	8417
-Zagreb	=	js	8443
-Warm paper and brick red — the default.	Warmes Papier und Ziegelrot – die Standardeinstellung.	js	8443
-Adriatic	Adria	js	8445
-Cool paper and deep sea blue.	Kühles Papier und tiefes Meeresblau.	js	8445
-Olive	Olive	js	8447
-Greenish paper and olive green.	Grünliches Papier und Olivgrün.	js	8447
-Ink	Tinte	js	8449
-Grey and black, no accent colour.	Grau und Schwarz, ohne Akzentfarbe.	js	8449
-Plum	Pflaume	js	8451
-Faintly pink paper and plum.	Zart rosa Papier und Pflaume.	js	8451
-System	System	js	8497
-Inter	=	js	8498
-Space Grotesk	=	js	8499
-Atkinson Hyperlegible	=	js	8500
-Lexend	=	js	8501
-Literata	=	js	8502
-&display=swap	=	js	8513
-Compact	Kompakt	js	8547
-More fits on screen.	Mehr passt auf den Bildschirm.	js	8547
-Default	Standard	js	8548
-Recommended.	Empfohlen.	js	8548
-Large	Groß	js	8549
-Easier on the eyes.	Schonender für die Augen.	js	8549
-Interface size: 	Größe der Oberfläche: 	js	8602
-Color scheme	Farbschema	js-html	8616
-\u2713 in use	✓ aktiv	js-html	8619
-Reading font	Leseschrift	js-html	8627
-" style=""font-family:\'"	=	js	8629
-Interface size	Größe der Oberfläche	js-html	8640
-"<span class=""uzorakV"" style=""font-size:"	=	js	8644
-Aa	Aa	js-html	8644
-Header	Kopfzeile	js-html	8653
-"<button type=""button"" class=""sklopkaRed"" role=""switch"" aria-checked="""	=	js	8654
-Show your points in the header	Punkte in der Kopfzeile anzeigen	js-html	8657
-LP · VP · GP · PP next to the menu. Off by default —	LP · VP · GP · PP neben dem Menü. Standardmäßig aus –	js-html	8658
-Progress shows the same numbers with more of the story.	Der Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.	js-html	8659
-Instructions	Anleitungen	js-html	8663
-Shorter instructions	Kürzere Anleitungen	js-html	8667
-The hint behind the info icon comes in a shorter version where one exists:	Der Hinweis hinter dem Info-Symbol gibt es in einer kürzeren Fassung, wo eine existiert:	js-html	8668
-the rule and an example, without the explanation. Rule pages stay as they are.	die Regel und ein Beispiel, ohne Erklärung. Regelseiten bleiben, wie sie sind.	js-html	8669
-Sticky notes	Haftnotizen	js-html	8675
-Show sticky notes	Haftnotizen anzeigen	js-html	8679
-Puts	Setzt	js-html	8680
-among the floating icons.	zu den schwebenden Symbolen hinzu.	js-html	8680
-Four paper spots wait in the empty space beside the content \u2014 two on the left, 	Vier Papierplätze warten im freien Raum neben dem Inhalt – zwei links, 	js	8681
-two on the right \u2014 and each note can be lined, squared or plain. A note belongs to 	zwei rechts –, und jede Notiz kann liniert, kariert oder blanko sein. Eine Notiz gehört zu 	js	8682
-the lesson or mini game you wrote it on and stays there until you delete it. 	der Lektion oder dem Minispiel, in dem du sie geschrieben hast, und bleibt dort, bis du sie löschst. 	js	8683
-Wide screens only: a phone or a tablet has no margin to put paper in. 	Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. 	js	8684
-Switching this off hides your notes, never deletes them.	Wenn du das ausschaltest, werden deine Notizen nur ausgeblendet, nie gelöscht.	js	8685
- You have 	 Du hast 	js	8686
- note	 Notiz	js	8686
- saved.	 gespeichert.	js	8686
-Preview	Vorschau	js-html	8691
-Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.	=	js-html	8692
-Kupujem	=	js-html	8693
-Croatian marks the object of a sentence with its ending, not with word order. 	Das Kroatische markiert das Objekt eines Satzes mit seiner Endung, nicht mit der Wortstellung. 	js	8700
-Jabuka	=	js-html	8701
-is the apple somebody	ist der Apfel, mit dem jemand	js-html	8701
-is doing something to. Change the ending and you change who is acting on what.	etwas macht. Ändere die Endung, und du änderst, wer was womit tut.	js-html	8702
-Checking your session…	Sitzung wird geprüft …	js-html	8712
- exercise	 Übung	js	8843
-points waiting	Punkte warten	js-html	8844
-nothing done here yet	hier noch nichts erledigt	js-html	8846
-Start	Start	js-html	8847
-points earned	Punkte verdient	js-html	8849
-done so far	bisher erledigt	js-html	8851
-Continue	Weiter	js-html	8852
-"<div class=""slajd"" role=""button"" tabindex=""0"" data-cilj=""view:lessons"" "	=	js	8859
- and this opens	 und das hier öffnet sich	js	8864
-finish this row to open it	beende diese Reihe, um es zu öffnen	js	8865
-See the map	Karte ansehen	js-html	8868
-" class=""on"""	=	js	8882
-""" role=""button"" tabindex=""0"" "	=	js	8889
-Pick up where you left off	Mach dort weiter, wo du aufgehört hast	js	8914
-Start something new	Fang etwas Neues an	js	8918
-Start here	Fang hier an	js	8918
-Next to unlock	Als Nächstes freischalten	js	8922
-Nothing waiting	Nichts wartet	js	8929
-All clear	Alles erledigt	js-html	8931
-Everything open is finished	Alles Offene ist abgeschlossen	js-html	8932
-Earn points anywhere and the next level opens by itself.	Sammle irgendwo Punkte, und das nächste Level öffnet sich von selbst.	js-html	8933
-Open the map	Karte öffnen	js-html	8934
-view:dictTest	=	js	8947
-Test your words	Teste deine Wörter	js	8947
- word	 Wort	js	8948
- · practice only, no points	 · nur Übung, keine Punkte	js	8948
-view:daily	=	js	8950
-Mini games	Minispiele	js	8956
-all 	alle 	js	8958
- finished · replay any time	 abgeschlossen · jederzeit wiederholbar	js	8958
- finished	 abgeschlossen	js	8959
-any text · hear, translate, write, say	beliebiger Text · hören, übersetzen, schreiben, sprechen	js	8963
-Quick practice	Schnell üben	js-html	8965
- learned	 gelernt	js	8972
-words you meet get saved here	Wörter, die dir begegnen, werden hier gespeichert	js	8972
-signed in · progress is saved	angemeldet · Fortschritt wird gespeichert	js	8977
-save your progress across devices	speichere deinen Fortschritt auf allen Geräten	js	8978
-(prefers-reduced-motion: reduce)	=	js	9019
-""" onclick=""miniDodir(this,\'"	=	js	9146
- — up to 	 – bis zu 	js	9147
-" points in each currency"">"	=	js	9147
-Extras	Extras	js-html	9195
-The long form. One sitting, all four skills.	Die lange Form. Eine Sitzung, alle vier Fertigkeiten.	js-html	9196
-" onclick=""miniDodir(this,\'"	=	js	9201
-no points — your own text	keine Punkte – dein eigener Text	js-html	9207
-coming soon	demnächst	js	9208
-short ones. Each is its own prototype, each pays out once.	kurze. Jedes ist ein eigener Prototyp, jedes zahlt einmal aus.	js-html	9215
-each game pays the same amount into	jedes Spiel zahlt denselben Betrag in	js-html	9223
-all four currencies	alle vier Währungen	js-html	9223
-Each game is a standalone prototype with its own built-in vocabulary of 246 words. 	Jedes Spiel ist ein eigenständiger Prototyp mit einem eingebauten Wortschatz von 246 Wörtern. 	js	9227
-Progress is saved separately per game, and points count towards unlocking lessons.	Der Fortschritt wird pro Spiel separat gespeichert, und Punkte zählen zum Freischalten von Lektionen.	js-html	9228
-"<button class=""miniPoster"" onclick=""miniCijeliUdi()"" aria-label=""Play "	=	js	9438
-" full screen"">"	=	js	9438
-Play full screen · turn your phone sideways	Im Vollbild spielen · Handy quer halten	js-html	9441
-⛶ Full screen	⛶ Vollbild	js-html	9448
-Exit full screen	Vollbild verlassen	js	9527
-Full screen	Vollbild	js	9527
-Lesson 0 — Welcome to Croatian	Lektion 0 – Willkommen im Kroatischen	js-html	9570
-the whole alphabet is yours · replay any time	das ganze Alphabet gehört dir · jederzeit wiederholen	js	9572
- of 30 letters unlocked	 von 30 Buchstaben freigeschaltet	js	9573
-free intro, no account, about 5 minutes	kostenlose Einführung, kein Konto, etwa 5 Minuten	js	9573
-Vocab	Wort	js	9603
-Gram	Gram	js	9603
-Pract	Prax	js	9603
-"<th class=""glavaF"" style=""color:"	=	js	9625
-"<circle class=""puni"" id="""	=	js	9658
-"<td class="""	=	js	9669
- — needs Croland Plus	 – braucht Croland Plus	js	9670
- — complete	 – abgeschlossen	js	9670
-Plus	Plus	js-html	9674
-Lesson 	Lektion 	js	9705
-Level 	Level 	js	9706
-"style=""--boja:"	=	js	9715
-Locked	Gesperrt	js-html	9727
-"<button class=""fazaRed"	=	js	9737
-" aria-label=""Level "	=	js	9758
-Level	Level	js-html	9765
- parts	 Teile	js	9825
- steps	 Schritte	js	9825
-% to pass	% zum Bestehen	js	9827
-Complete	Abgeschlossen	js-html	9831
-"class=""gotov"""	=	js	9835
-" class=""gl"""	=	js	9853
-"<div class=""pregled"" role=""dialog"" aria-modal=""true"" aria-label="""	=	js	9865
-""" style=""--boja:"	=	js	9865
-Overview	Überblick	js-html	9873
-Cheat sheet	Spickzettel	js-html	9874
-Escape	=	js	9920
-Exercise 	Übung 	js	9963
-"<button class="""	=	js	9967
-"<button class=""vnav vfin"	=	js	9978
-""" title=""Lesson summary — "	=	js	9979
-Test 	Test 	js	10029
-Before you start	Bevor du anfängst	js-html	10036
- points — everything from level 	 Punkte – alles ab Stufe 	js	10038
-for the whole test. The clock runs across all exercises.	für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.	js-html	10039
-One sitting: exercises follow one another and you cannot go back.	Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.	js-html	10040
-No scores in between — your result appears only at the end.	Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.	js-html	10041
-Pause whenever you like. The clock stops with you.	Pausiere, wann du willst. Die Uhr hält mit dir an.	js-html	10042
-No dictionary. Where a word is needed, the English is written into the question.	Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.	js-html	10043
-Your best so far:	Dein bisher bestes Ergebnis:	js-html	10045
-points. Only a better result replaces it.	Punkte. Nur ein besseres Ergebnis ersetzt es.	js-html	10045
-Start the test →	Test starten →	js-html	10046
-Leaving before the end means this attempt does not count.	Wenn du vor dem Ende gehst, zählt dieser Versuch nicht.	js-html	10047
-Pause	Pause	js-html	10084
-Skip this exercise	Diese Übung überspringen	js-html	10094
-Quit the test?	Test abbrechen?	js	10099
-The test is graded in one sitting. If you leave now, this attempt does not count and nothing is recorded.	Der Test wird in einer Sitzung bewertet. Wenn du jetzt gehst, zählt dieser Versuch nicht und nichts wird gespeichert.	js	10100
-Skip this exercise?	Diese Übung überspringen?	js	10106
-It is scored with whatever you have answered so far, and the test moves on. You cannot come back to it.	Sie wird mit dem bewertet, was du bisher beantwortet hast, und der Test geht weiter. Du kannst nicht zurückkehren.	js	10107
-Unknown format: 	Unbekanntes Format: 	js	10118
-Paused	Pausiert	js-html	10153
-The clock is stopped.	Die Uhr ist angehalten.	js-html	10154
-left when you come back.	übrig, wenn du zurückkommst.	js-html	10154
-Next exercise →	Nächste Übung →	js	10178
-Adding up your result.	Dein Ergebnis wird berechnet.	js	10180
- · your score comes at the end	 · dein Ergebnis kommt am Ende	js	10181
-ran out of time	Zeit abgelaufen	js	10202
-not reached	nicht erreicht	js	10210
-Exercise	Übung	js	10223
- — not yet 💪	 – noch nicht 💪	js	10231
-Time ran out — everything you answered still counts.	Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.	js	10233
-Whole test, one sitting. Here is how it went.	Ganzer Test, eine Sitzung. So ist es gelaufen.	js	10234
-Only your best test result is kept — retake it any time.	Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.	js-html	10238
-↻ Take the test again	↻ Test wiederholen	js-html	10239
-← Back to lessons	← Zurück zu den Lektionen	js-html	10240
-Vjezbe bez para u data-plus.json (	=	js	10272
-This unit is temporarily unavailable —	Diese Einheit ist vorübergehend nicht verfügbar –	js-html	10274
-its content is out of date on the server. Please try again later.	ihr Inhalt ist auf dem Server veraltet. Bitte versuch es später noch einmal.	js-html	10275
-Loading this unit…	Diese Einheit wird geladen …	js-html	10278
-This unit could not be loaded.	Diese Einheit konnte nicht geladen werden.	js-html	10281
-Check your connection and try again.	Prüfe deine Verbindung und versuch es noch einmal.	js-html	10282
-‹ Explore the app	‹ App erkunden	js	10311
-Lesson 0	Lektion 0	js	10312
-Next →	Weiter →	js-html	10323
-↻ Play again	↻ Noch einmal spielen	js-html	10324
-Skip →	Überspringen →	js	10326
-Finish now	Jetzt beenden	js	10326
-↻ Try again	↻ Noch einmal versuchen	js-html	10327
-Finish now?	Jetzt beenden?	js	10338
-The exercise ends and you take the points earned so far.	Die Übung endet, und du bekommst die bisher gesammelten Punkte.	js	10338
-submitted early	vorzeitig abgegeben	js	10340
-Try again?	Nochmal versuchen?	js	10346
-Current progress in this exercise will be lost.	Der aktuelle Fortschritt in dieser Übung geht verloren.	js	10346
-The whole alphabet is yours. 🎉	Das ganze Alphabet gehört dir. 🎉	js	10404
-Nice work! 🎉	Gut gemacht! 🎉	js	10404
-You can read Croatian.	Du kannst Kroatisch lesen.	js-html	10405
-Five minutes ago these were strange letters.	Vor fünf Minuten waren das noch fremde Buchstaben.	js-html	10406
-words from this lesson are now in your	Wörter aus dieser Lektion sind jetzt in deinem	js-html	10410
-words from this lesson are already in your	Wörter aus dieser Lektion sind schon in deinem	js-html	10411
-All 30 letters unlocked.	Alle 30 Buchstaben freigeschaltet.	js-html	10414
-letters still dark — replay any exercise to light them up.	Buchstaben sind noch dunkel – wiederhole eine beliebige Übung, um sie aufleuchten zu lassen.	js-html	10416
-Lesson 1 starts the course itself — 13 exercises, still free.	Lektion 1 beginnt den eigentlichen Kurs – 13 Übungen, weiterhin kostenlos.	js-html	10419
-▶ Start Lesson 1	▶ Lektion 1 starten	js-html	10420
-‹ Explore the app first	‹ Erst die App erkunden	js-html	10421
-")"">Next: "	=	js	10433
- — needs 	 – nötig: 	js	10437
-"<li class="""	=	js	10458
-"title=""Replay this exercise"">"	"title=""Diese Übung wiederholen"">"	js	10459
-not played	nicht gespielt	js-html	10461
-Everything in this unit is yours — all	Alles in dieser Einheit gehört dir – alle	js-html	10467
-points earned. Nothing left to win here.	Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.	js-html	10468
- still waiting in 	 warten noch in 	js	10469
-— summary	– Zusammenfassung	js-html	10475
-Unit mastered! 🏆	Einheit gemeistert! 🏆	js	10481
-Unit complete! 🎉	Einheit abgeschlossen! 🎉	js	10481
-"\')"">‹ Back to "	"\')"">‹ Zurück zu "	js	10494
-""" aria-hidden=""true"">"	=	js	10534
-"<use href=""#ik-"	=	js	10535
-Nom	Nom	js	10749
-Gen	Gen	js	10749
-Dat	Dat	js	10749
-Acc	Akk	js	10749
-Voc	Vok	js	10749
-Loc	Lok	js	10749
-Ins	Ins	js	10749
-Singular	Singular	js	10765
-Plural	Plural	js	10765
-Present	Präsens	js	10803
-Imperative	Imperativ	js	10803
-Past participle	Partizip Perfekt	js-html	10807
-Future stem	Futurstamm	js-html	10810
-plural only	nur Plural	js	10825
-Comparison	Steigerung	js-html	10839
-Aspect pair	Aspektpaar	js-html	10844
-Form of:	Form von:	js-html	10846
-Variant of:	Variante von:	js-html	10847
-Other forms	Weitere Formen	js-html	10878
-Pronunciation	Aussprache	js-html	10882
-Added from	Hinzugefügt aus	js-html	10888
-Picture	Bild	js-html	10894
-"<button type=""button"" class=""zvjRj"	=	js	10925
-""" aria-label="""	=	js	10925
-No match for “	Kein Treffer für „	js	10938
-Nothing here yet.	Hier ist noch nichts.	js	10939
-Not in the grammar database.	Nicht in der Grammatikdatenbank.	js-html	10974
-"<button type=""button"" "	=	js	11058
-" class=""aktivan"""	=	js	11058
-button.aktivan	=	js	11066
-My words	Meine Wörter	js	11113
-Mine	Meine	js	11113
-Full dictionary	Ganzes Wörterbuch	js	11114
-All	Alle	js	11114
-The dictionary file is missing	Die Wörterbuchdatei fehlt	js-html	11162
-rjecnik.js was not generated — run osvježi.bat and reload the page.	rjecnik.js wurde nicht erzeugt – führe osvježi.bat aus und lade die Seite neu.	js-html	11163
-No words saved yet	Noch keine Wörter gespeichert	js-html	11166
-Every word you meet in a lesson can be kept here — tap	Jedes Wort aus einer Lektion kannst du hier behalten – tippe auf	js-html	11167
-+ Add to dictionary	+ Zum Wörterbuch hinzufügen	js-html	11168
-underneath it. This list is what the word test drills.	darunter. Diese Liste übt der Worttest.	js-html	11168
-Open a lesson	Lektion öffnen	js-html	11170
-Browse the full dictionary	Ganzes Wörterbuch durchsuchen	js-html	11171
-no favourites yet	noch keine Favoriten	js	11196
- entries in the full dictionary	 Einträge im ganzen Wörterbuch	js	11198
-dictionary not loaded	Wörterbuch nicht geladen	js	11198
- word added	 Wort hinzugefügt	js	11199
- words added	 Wörter hinzugefügt	js	11199
-nothing saved yet	noch nichts gespeichert	js	11199
-Nothing matches that search.	Nichts passt zu dieser Suche.	js	11213
-End	Ende	js	11354
-Croatian first — switch to English first	Kroatisch zuerst – auf Deutsch zuerst umschalten	js	11369
-English first — switch to Croatian first	Deutsch zuerst – auf Kroatisch zuerst umschalten	js	11370
-Word test	Worttest	js-html	11530
-Filter	Filter	js-html	11535
-Exit test	Test beenden	js-html	11540
-Favourites	Favoriten	js	11565
-By lesson	Nach Lektion	js	11566
-Tap one or more lesson numbers — 0 to	Tippe auf eine oder mehrere Lektionsnummern – 0 bis	js-html	11570
-Every entry in the dictionary, not just your own words.	Jeder Eintrag im Wörterbuch, nicht nur deine eigenen Wörter.	js-html	11578
-Only the words you starred	Nur die Wörter mit Stern	js-html	11580
-Every word you have added, all lessons together.	Jedes Wort, das du hinzugefügt hast, alle Lektionen zusammen.	js-html	11582
-My Dictionary	Mein Wörterbuch	js	11609
-No lesson selected	Keine Lektion ausgewählt	js	11612
- words	 Wörter	js	11615
- right so far	 bisher richtig	js	11616
-Pick at least one lesson in the Filter.	Wähle im Filter mindestens eine Lektion.	js	11625
-No word pairs in the selected lessons yet.	In den ausgewählten Lektionen gibt es noch keine Wortpaare.	js	11626
-No favourites yet — tap 	Noch keine Favoriten – tippe auf 	js	11628
- next to a word in the dictionary or on a card.	 neben einem Wort im Wörterbuch oder auf einer Karte.	js	11628
-The dictionary file is missing — run osvježi.bat to generate rjecnik.js.	Die Wörterbuchdatei fehlt – führe osvježi.bat aus, um rjecnik.js zu erzeugen.	js	11630
-Your dictionary is empty — open a lesson and add words first.	Dein Wörterbuch ist leer – öffne eine Lektion und füge zuerst Wörter hinzu.	js	11631
-Write it in Croatian…	Schreib es auf Kroatisch …	js	11646
-Write it in English…	Schreib es auf Deutsch …	js	11646
-— mind the accents:	– achte auf die Akzente:	js-html	11674
-— the answer is:	– die Antwort ist:	js-html	11675
-also accepted:	auch akzeptiert:	js-html	11677
-Day streak	Tage in Folge	js-html	11701
-streak points earned · counts toward LP, VP, GP and PP	Serienpunkte erreicht · zählen für LP, VP, GP und PP	js-html	11702
-Done for today — come back tomorrow to make it 	Für heute fertig – komm morgen wieder und mach daraus 	js	11704
-Play today\'s challenge for +	Spiel die heutige Challenge für +	js	11705
- and keep the streak alive.	 und halte die Serie am Leben.	js	11706
- and start a streak.	 und starte eine Serie.	js	11706
-Today	Heute	js-html	11714
-One picture a day. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Tag. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11716
-Today\'s challenge is not ready yet. Check back soon.	Die heutige Challenge ist noch nicht fertig. Schau bald wieder vorbei.	js-html	11718
-You have reached the end of the daily challenges. 🎉 New ones are on the way.	Du bist am Ende der täglichen Challenges angekommen. 🎉 Neue sind unterwegs.	js-html	11721
-One challenge per day. A new one unlocks tomorrow.	Eine Challenge pro Tag. Morgen wird eine neue freigeschaltet.	js-html	11732
-Weekly challenges are coming soon.	Wöchentliche Challenges kommen bald.	js-html	11737
-Week	Woche	js-html	11745
-One picture a week. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Woche. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11748
-← Daily challenge	← Tägliche Challenge	js-html	11769
-Takes a minute, and no card. Here is what it opens:	Dauert eine Minute, keine Karte nötig. Das wird freigeschaltet:	js	11822
-Log in and pick up exactly where you left off.	Melde dich an und mach genau dort weiter, wo du aufgehört hast.	js	11823
-Level 1, the daily challenge and all mini games — free.	Level 1, die tägliche Challenge und alle Minispiele – kostenlos.	js-html	11843
-Points and dictionary follow you to any device.	Punkte und Wörterbuch begleiten dich auf jedes Gerät.	js-html	11844
-Lesson 0 needs no account at all — it is open right now.	Lektion 0 braucht überhaupt kein Konto – sie ist sofort offen.	js-html	11845
-Lesson points	Lektionspunkte	js	11907
-Vocabulary points	Wortschatzpunkte	js	11907
-Grammar points	Grammatikpunkte	js	11908
-Practice points	Praxispunkte	js	11908
-Everything you have earned, and the shortest way to more of it. 	Alles, was du erreicht hast, und der kürzeste Weg zu mehr. 	js	11930
-Click any unit to see it exercise by exercise.	Klicke auf eine Einheit, um sie Übung für Übung zu sehen.	js-html	11931
-You	Du	js-html	11933
-Friends & groups	Freunde & Gruppen	js-html	11935
- waiting	 warten	js	11936
-every level open	jede Stufe offen	js	11967
-Daily streak ·	Tägliche Serie ·	js-html	11983
-Words in your dictionary	Wörter in deinem Wörterbuch	js-html	11985
-Exercises played	Gespielte Übungen	js-html	11987
-Mini game points	Minispielpunkte	js-html	11989
-Where you stand	Wo du stehst	js-html	11993
-One square per unit. Click one to open it exercise by exercise — that is where	Ein Feld pro Einheit. Klick eines an, um es Übung für Übung zu öffnen – dort	js-html	11994
-you see which single exercise is still holding points, and jump straight back into it.	siehst du, welche einzelne Übung noch Punkte hält, und springst direkt wieder hinein.	js-html	11995
-"<div class=""progGlava"" style=""color:"	=	js	11998
-needs all four types at level 	braucht alle vier Arten auf Level 	js	12014
-"<div class="""	=	js	12024
-Show all	Alle anzeigen	js-html	12035
-Show less ▴	Weniger anzeigen ▴	js-html	12039
-not started	nicht begonnen	js-html	12042
-in progress	in Arbeit	js-html	12043
-everything earned	alles verdient	js-html	12044
-locked — hover to see what it needs	gesperrt – fahr mit der Maus darüber, um zu sehen, was nötig ist	js-html	12045
-en-US	de-DE	js	12057
-The whole course	Der ganze Kurs	js-html	12059
- points from all units of the 	 Punkte aus allen Einheiten der 	js	12061
-levels (mini games and challenges not included)	Level (Minispiele und Challenges nicht mitgerechnet)	js-html	12062
-All your points together:	Alle deine Punkte zusammen:	js-html	12064
-— units, games, challenges and streak	– Einheiten, Spiele, Challenges und Serie	js-html	12065
-Worth going back to	Lohnt sich zu wiederholen	js-html	12071
-The unlocked exercises holding the most points. Only your best attempt ever	Die freigeschalteten Übungen mit den meisten offenen Punkten. Nur dein bester Versuch	js-html	12072
-counts, so replaying one can add points but never take them away.	zählt, also kann Wiederholen Punkte bringen, aber nie welche kosten.	js-html	12073
-never played	nie gespielt	js	12078
-best so far 	bisher bestes 	js	12078
-"<i class="""	=	js	12091
-""" title=""Day "	=	js	12091
-Daily challenges	Tägliche Challenges	js-html	12093
- finished, 	 abgeschlossen, 	js	12094
- partly done, 	 teilweise erledigt, 	js	12094
- days — 	 Tage – 	js	12095
-day 	Tag 	js	12096
- will be worth 	 sind wert 	js	12096
-points in every currency.	Punkte in jeder Währung.	js-html	12097
-"title=""Open "	=	js	12106
-Each one pays out once, the same amount into all four currencies.	Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen.	js-html	12111
-Click one to open it.	Klick eine an, um sie zu öffnen.	js-html	12112
-""" title=""Open this exercise"">"	""" title=""Diese Übung öffnen"">"	js	12181
-are still waiting in this unit.	warten noch in dieser Einheit.	js-html	12201
-Everything here is yours — all	Alles hier gehört dir – alle	js-html	12202
-points earned.	Punkte verdient.	js-html	12202
-Click any exercise to replay it.	Klick auf eine Übung, um sie zu wiederholen.	js-html	12203
-Open this exercise?	Diese Übung öffnen?	js	12251
-You will leave Progress and go straight into the exercise. You have not played it yet — all 	Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle 	js	12255
- points are still there.	 Punkte sind noch da.	js	12256
-You will leave Progress and go straight into the exercise. Your best result (	Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (	js	12257
-) is kept: a weaker run can never cost you points.	) bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.	js	12258
-Open exercise	Übung öffnen	js	12259
-You have already earned all 	Du hast bereits alle 	js	12268
- points from this one. The payout happens once, so 	 Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also 	js	12268
-playing it again is purely for the fun of it.	ist erneutes Spielen reiner Spaß.	js	12269
-You have earned 	Du hast hier 	js	12271
- points here. The rest is still waiting, and points 	 Punkte erreicht. Der Rest wartet noch, und Punkte, die 	js	12271
-already earned cannot be lost.	du schon hast, können nicht verloren gehen.	js	12272
- points are still there. They go into every currency at once.	 Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.	js	12273
-Open this game?	Dieses Spiel öffnen?	js	12274
-Open 	Öffnen: 	js	12276
-This part could not be loaded.	Dieser Teil konnte nicht geladen werden.	js-html	12312
-Try again	Nochmal versuchen	js-html	12313
-Your ID	Deine ID	js-html	12326
-Copy	Kopieren	js-html	12329
-The only way anyone can find you. Your e-mail is	Nur so kann dich jemand finden. Deine E-Mail-Adresse wird	js-html	12330
-never shown — not to friends, not to whoever pays for your access.	nie angezeigt – nicht Freunden, nicht dem, der für deinen Zugang bezahlt.	js-html	12331
-"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""the name others see"" value="""	"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""der Name, den andere sehen"" value="""	js	12334
-Save name	Namen speichern	js-html	12336
-Until you set one, people see only your ID.	Bis du einen festlegst, sehen andere nur deine ID.	js	12338
-Add someone	Jemanden hinzufügen	js-html	12342
-Five characters. No zero and no letter O, so there is nothing to mistype.	Fünf Zeichen. Keine Null und kein Buchstabe O, damit man sich nicht vertippen kann.	js-html	12343
-Sending a request means you will both see each other once they accept.	Wenn du eine Anfrage sendest, seht ihr euch gegenseitig, sobald sie angenommen wird.	js-html	12344
-Send request	Anfrage senden	js-html	12347
-Waiting	Wartet	js-html	12352
-Someone	Jemand	js	12355
-wants to see your points	möchte deine Punkte sehen	js-html	12357
-Accept	Annehmen	js-html	12359
-Decline	Ablehnen	js-html	12360
-your request — not answered yet	deine Anfrage – noch nicht beantwortet	js-html	12366
-Everyone you added	Alle, die du hinzugefügt hast	js-html	12373
-Nobody yet. Share your ID, or type someone else\'s above.	Noch niemand. Teile deine ID oder gib oben die ID von jemand anderem ein.	js-html	12375
-Points are always visible. Everything else only if that person set their	Punkte sind immer sichtbar. Alles andere nur, wenn die Person ihren	js-html	12377
-progress to public — those rows open up when you click them.	Fortschritt öffentlich gemacht hat – diese Zeilen öffnen sich, wenn du darauf klickst.	js-html	12378
-Who	Wer	js-html	12386
-Total	Gesamt	js-html	12387
-Shares	Teilt	js-html	12387
-Updated	Aktualisiert	js-html	12387
-"<tr class="""	=	js	12391
-full progress	voller Fortschritt	js	12401
-points only	nur Punkte	js	12401
-What others see of you	Was andere von dir sehen	js-html	12407
-This applies to everyone in the list above, and to nobody else.	Das gilt für alle in der Liste oben und für niemanden sonst.	js-html	12408
-"<label class=""progIzbor"	=	js	12410
-Points only	Nur Punkte	js-html	12412
-Your four totals and nothing else.	Deine vier Summen und sonst nichts.	js-html	12412
-This is the default and it never changes on its own.	Das ist die Standardeinstellung, und sie ändert sich nie von selbst.	js-html	12413
-Full progress	Voller Fortschritt	js-html	12416
-Every unit with its points — the same	Jede Einheit mit ihren Punkten – dieselbe	js-html	12416
-map you see under You.	Karte, die du unter „Du“ siehst.	js-html	12417
-just now	gerade eben	js	12429
- min ago	 Min. her	js	12430
- h ago	 Std. her	js	12432
- days ago	 Tage her	js	12435
-over a month ago	vor über einem Monat	js	12436
-Copied	Kopiert	js	12444
-Could not save — try again.	Speichern fehlgeschlagen – versuch es noch einmal.	js	12451
-Saved.	Gespeichert.	js	12453
-Cleared — people see only your ID.	Gelöscht – andere sehen nur deine ID.	js	12453
-An ID is exactly five characters.	Eine ID hat genau fünf Zeichen.	js	12461
-Could not send it — try again later.	Senden fehlgeschlagen – versuch es später noch einmal.	js	12464
-No one has that ID.	Niemand hat diese ID.	js	12465
-to si ti	=	js	12466
-That is your own ID.	Das ist deine eigene ID.	js	12466
-Request sent to 	Anfrage gesendet an 	js	12467
-public progress	öffentlicher Fortschritt	js-html	12543
-points in total	Punkte insgesamt	js-html	12546
-Read-only, and never their e-mail.	Nur lesbar, und nie ihre E-Mail-Adresse.	js-html	12550
-Last updated 	Zuletzt aktualisiert 	js	12551
-Everything unlocked ✓	Alles freigeschaltet ✓	js-html	12604
-Every level is open to	Jedes Level ist offen für	js-html	12605
-all accounts right now	alle Konten, gerade jetzt	js	12606
-, until 	, bis 	js	12606
-YOUR-PORTAL-LINK	=	js	12610
-Croland Plus ✓	Croland Plus ✓	js-html	12612
-Active	Aktiv	js-html	12613
-Manage subscription	Abo verwalten	js-html	12617
-Subscription management link not set up yet	Link zur Abo-Verwaltung noch nicht eingerichtet	js-html	12618
-(STRIPE_PORTAL_URL in index.html) — contact us to change or cancel for now.	(STRIPE_PORTAL_URL in index.html) – kontaktiere uns vorerst, um zu ändern oder zu kündigen.	js-html	12619
-Redirecting to checkout…	Weiterleitung zur Kasse …	js-html	12623
-Free account — Level 1, daily	Kostenloses Konto – Level 1, tägliche	js-html	12627
-challenges and mini games unlocked. Subscribe for Level 2 and above.	Challenges und Minispiele freigeschaltet. Abonniere für Level 2 und höher.	js-html	12628
-Subscribe	Abonnieren	js-html	12629
-Confirming your subscription…	Dein Abo wird bestätigt …	js-html	12634
-Log out	Abmelden	js-html	12640
-Exercises played:	Gespielte Übungen:	js-html	12647
- · Words learned: 	 · Gelernte Wörter: 	js	12647
-Daily streak:	Tägliche Serie:	js-html	12648
-streak points (added to each currency)	Serienpunkte (zu jeder Währung addiert)	js-html	12650
-Want a copy of your data, or want it	Möchtest du eine Kopie deiner Daten oder willst du sie	js-html	12652
-deleted? See our	löschen lassen? In unserer	js-html	12653
-Privacy Policy	Datenschutzerklärung	js-html	12653
-for how to request that.	steht, wie du das beantragst.	js-html	12653
-data-slot	=	js	12951
-nisi unutar vježbe	=	js	12981
+Croland · info-v1	Croland · info-v1	html	18
+Home	Start	html	3105
+Lessons	Lektionen	html	3106
+Dictionary	Wörterbuch	html	3107
+Games & Extras	Spiele & Extras	html	3108
+Daily challenge	Tägliche Challenge	html	3109
+Progress	Fortschritt	html	3110
+User account	Benutzerkonto	html	3111
+Options	Optionen	html	3112
+This lesson	Diese Lektion	html	3143
+All so far	Alles bisher	html	3144
+Word game	Wortspiel	html	3152
+HR → EN	HR → DE	html	3157
+EN → HR	DE → HR	html	3158
+Mixed	Gemischt	html	3159
+Choose	Auswählen	html	3162
+Type	Tippen	html	3163
+Reset	Zurücksetzen	html	3170
+Why this works	Warum das funktioniert	html	3176
+Croland	Croland	html-attr	3103
+Open Progress	Fortschritt öffnen	html-attr	3116
+Smaller interface	Kleinere Oberfläche	html-attr	3118
+Bigger interface	Größere Oberfläche	html-attr	3119
+Show favourites only	Nur Favoriten anzeigen	html-attr	3137
+Smaller icon	Kleineres Symbol	html-attr	3138
+Bigger icon	Größeres Symbol	html-attr	3139
+Close	Schließen	html-attr	3140
+Skip this word	Dieses Wort überspringen	html-attr	3153
+Add a sticky note	Haftnotiz hinzufügen	html-attr	3182
+use strict	=	js	3191
+Lesson	Lektion	js	3196
+Vocabulary	Wortschatz	js	3196
+Grammar	Grammatik	js	3196
+Practice	Praxis	js	3196
+Test	Test	js	3196
+English	=	js	3203
+Explanations, hints and translations in English.	=	js	3203
+Deutsch	=	js	3204
+Erklärungen, Hinweise und Übersetzungen auf Deutsch.	=	js	3204
+Authorization	=	js	3264
+Bearer 	=	js	3264
+YOUR-PROJECT	=	js	3266
+error_code	=	js	3288
+error_description	=	js	3293
+aria-label	=	js	3314
+Dismiss	Ausblenden	js	3314
+Weekly challenge	Wöchentliche Challenge	js	3360
+daily challenge	=	js	3400
+weekly challenge	=	js	3407
+January	Januar	js	3442
+February	Februar	js	3442
+March	März	js	3442
+April	April	js	3442
+May	Mai	js	3442
+June	Juni	js	3442
+July	Juli	js	3443
+August	August	js	3443
+September	September	js	3443
+October	Oktober	js	3443
+November	November	js	3443
+December	Dezember	js	3443
+ day streak · 	 Tage in Folge · 	js	3451
+today: 	heute: 	js	3456
+no challenge today	heute keine Challenge	js	3458
+Daily challenge 	Tägliche Challenge 	js	3464
+Grad	=	js	3489
+Town	Stadt	js	3489
+Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.	Lauf durch die Stadt, sprich mit Leuten, löse fünf Aufgaben: Einkaufen, Lieferung, Quiz und ein Plausch an der Kasse.	js	3490
+Pamti pa piši	=	js	3491
+Remember & Write	Merken & Schreiben	js	3491
+Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.	Bilder blitzen auf, du schreibst sie aus dem Gedächtnis auf – streng, mit allen diakritischen Zeichen. Hundert Level, drei Herzen.	js	3492
+Fortress	Festung	js	3493
+The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.	Der Burgvogt liegt im Krankenhaus, und jeder Schlüssel ist versteckt. Zwölf Räume, ein Schlüssel nach dem anderen – bevor der Stadtrat über den Verkauf der Festung abstimmt.	js	3494
+Konoba	=	js	3495
+Tavern	Taverne	js	3495
+Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.	Gäste bestellen im Akkusativ, du servierst nach Bildern. Acht Schichten, jedes Mal mehr Gerichte und Adjektive.	js	3496
+Warehouse	Lagerhaus	js	3497
+You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.	Du wählst den Einsatz. Schieb Wortkisten in die Garage ihrer Kategorie. Höherer Einsatz, größeres Lager.	js	3498
+Poštanski vlak	=	js	3499
+Mail Train	Postzug	js	3499
+Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.	Füll die Waggons vor der Abfahrt. Die Regel ändert sich ständig: Kategorie, Geschlecht, Anfangsbuchstabe, Übersetzung.	js	3500
+Labirint	=	js	3501
+Maze	Labyrinth	js	3501
+Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.	Sammle nur die Wörter der vorgegebenen Kategorie. Eindringlinge kosten Herzen, Geister jagen dich.	js	3502
+Zmija	=	js	3503
+Snake	Schlange	js	3503
+Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.	Friss die Buchstaben in der richtigen Reihenfolge, um das Wort zum Bild zu schreiben. Ein falscher Buchstabe kostet ein Herz.	js	3504
+Portal	Portal	js	3505
+Platformer	Jump 'n' Run	js	3505
+Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.	Zwei Ufer und ein Leuchtturm. Spring in die Wolke mit dem richtigen Wort, kletter zum Portal und wechsle auf die andere Seite. Krabben klettern auch.	js	3506
+Preživljavanje	=	js	3507
+Survival	Überleben	js	3507
+Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.	Zwanzig richtige Antworten gegen die Uhr. Treffer landen in deiner Liste der beherrschten Wörter, Fehler in der Wiederholungsliste.	js	3508
+Obrana baze	=	js	3509
+Base Defense	Basisverteidigung	js	3509
+Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.	Wörter fallen auf deine Basis zu, du klickst die Übersetzung an. Fünfzehn Wellen, beide Richtungen, vier Antworten am unteren Rand.	js	3510
+Gradovi Hrvatske	=	js	3511
+Croatian Towns	Kroatische Städte	js	3511
+All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.	Alle 128 Städte Kroatiens, von Ilok an der Donau bis Dubrovnik. In jeder spricht dich jemand auf Kroatisch an, und nur eine von drei Antworten passt. Drei Herzen, die nie zurückkommen.	js	3512
+The market	Der Markt	js	3524
+Tap anything on the market stall and type its Croatian name.	Tippe auf irgendetwas am Marktstand und schreib seinen kroatischen Namen.	js	3527
+Five things at the market	Fünf Dinge auf dem Markt	js	3548
+Tap five things in the picture and type their Croatian names.	Tippe auf fünf Dinge im Bild und schreib ihre kroatischen Namen.	js	3551
+Kupaonica	=	js	3553
+Seven things in the bathroom	Sieben Dinge im Badezimmer	js	3553
+Name seven things in the picture, then match a short story with its English.	Benenne sieben Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3556
+Radni stol	=	js	3557
+A desk by the window	Ein Schreibtisch am Fenster	js	3557
+Name six things in the picture, then match a short story with its English.	Benenne sechs Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3560
+Balkon	=	js	3561
+A morning on the balcony	Ein Morgen auf dem Balkon	js	3561
+Stanica	=	js	3565
+At the bus stop	An der Bushaltestelle	js	3565
+Dnevni boravak	=	js	3569
+A quiet living room	Ein ruhiges Wohnzimmer	js	3569
+Piknik	=	js	3573
+A picnic in the park	Ein Picknick im Park	js	3573
+A birthday table	Ein Geburtstagstisch	js	3577
+Ribolov	=	js	3581
+Fishing on a calm sea	Angeln auf ruhiger See	js	3581
+Kofer	=	js	3585
+Packing for a holiday	Koffer packen für den Urlaub	js	3585
+Football in the backyard	Fußball im Hinterhof	js	3589
+Glazbena soba	=	js	3593
+A small music room	Ein kleines Musikzimmer	js	3593
+Trg	=	js	3597
+A sunny town square	Ein sonniger Marktplatz	js	3597
+A table set for dinner	Ein gedeckter Tisch zum Abendessen	js	3601
+Planinska koliba	=	js	3605
+A hut in the mountains	Eine Hütte in den Bergen	js	3605
+The postman at the door	Der Briefträger an der Tür	js	3609
+Taksi	=	js	3613
+A taxi by the river	Ein Taxi am Fluss	js	3613
+A hot day on the beach	Ein heißer Tag am Strand	js	3617
+Aerodrom	=	js	3621
+Waiting at the airport	Warten am Flughafen	js	3621
+Ispred kuće	=	js	3625
+A sunny corner in front of the house	Ein sonniges Eckchen vor dem Haus	js	3625
+2026-10-16-peron.html	=	js	3629
+Peron	=	js	3629
+A quiet railway platform	Ein ruhiger Bahnsteig	js	3629
+croland.daily.peron.2026-10-16	=	js	3631
+Doručak na terasi	=	js	3633
+Breakfast outside	Frühstück draußen	js	3633
+Name five things in the picture, then match a short story with its English.	Benenne fünf Dinge im Bild und ordne dann eine kurze Geschichte ihrer deutschen Übersetzung zu.	js	3636
+A surprise on the table	Eine Überraschung auf dem Tisch	js	3637
+Listen Read Write Speak	Hören Lesen Schreiben Sprechen	js	3705
+Notebook	Notizbuch	js	3706
+Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.	Füge einen beliebigen Text ein – ein Lied, ein Gedicht, einen Artikel. Er wird in Zeilen aufgeteilt: Hör dir jede an, prüf sie mit Google Übersetzer, schreib deine eigene Übersetzung und sprich sie dann laut aus, um zu sehen, was das Mikrofon gehört hat.	js	3707
+ earned	 verdient	js	3764
+best 	bestes 	js	3765
+level 	Stufe 	js	3766
+place 	Platz 	js	3767
+Zasticeni sadrzaj nije ucitan:	=	js	3920
+on je	=	js	4084
+Htio bih... / Htjela bih...	=	js	4085
+zato što	=	js	4089
+Vocabulary 1	=	js	4096
+Vocabulary 2	=	js	4096
+Vocabulary 3	=	js	4096
+Sign-in isn\'t configured yet.	Die Anmeldung ist noch nicht eingerichtet.	js	4409
+Login failed	Anmeldung fehlgeschlagen	js	4411
+Sign-up failed	Registrierung fehlgeschlagen	js	4417
+Sign-in is unavailable — the app could not load its login library. 	Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. 	js	4429
+Check your connection or any content blocker, then reload the page.	Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.	js	4430
+Sign-in failed: 	Anmeldung fehlgeschlagen: 	js	4437
+No data — run osvježi.bat to generate data.js.	Keine Daten – führe osvježi.bat aus, um data.js zu erzeugen.	js-html	4498
+Sign-in did not complete. If you opened Croland from inside another app 	Die Anmeldung wurde nicht abgeschlossen. Wenn du Croland in einer anderen App geöffnet hast 	js	4534
+(Messenger, Instagram, Facebook), open it in your browser instead — Google blocks 	(Messenger, Instagram, Facebook), öffne es stattdessen in deinem Browser – Google blockiert 	js	4535
+sign-in in embedded browsers.	die Anmeldung in eingebetteten Browsern.	js	4536
+Play pronunciation — then say it out loud	Aussprache abspielen – dann laut nachsprechen	js	4744
+Play pronunciation	Aussprache abspielen	js	4746
+Enter	Eingabe	js	4749
+Insert 	Einfügen 	js	4793
+ease-out	=	js	4894
+New units unlocked!	Neue Einheiten freigeschaltet!	js	4945
+New unit unlocked!	Neue Einheit freigeschaltet!	js	4945
+You\'ve earned enough points — nicely done! 🎉	Du hast genug Punkte gesammelt – gut gemacht! 🎉	js-html	4946
+Now open:	Jetzt offen:	js-html	4947
+▶ Next: 	▶ Weiter: 	js	4950
+Keep exploring	Weiter erkunden	js	4959
+Create your free account	Erstelle dein kostenloses Konto	js	4984
+Welcome back	Willkommen zurück	js	4984
+A free account opens Level 1 across every track, plus daily challenges and mini games.	Ein kostenloses Konto öffnet Level 1 in allen Bereichen, dazu tägliche Challenges und Minispiele.	js	4986
+Log in to carry on where you left off.	Melde dich an, um dort weiterzumachen, wo du aufgehört hast.	js	4987
+Continue with Google	Weiter mit Google	js-html	4990
+Email	E-Mail	js-html	4992
+Password	Passwort	js-html	4994
+new-password	=	js	4996
+at least 6 characters	mindestens 6 Zeichen	js	4997
+your password	dein Passwort	js	4997
+Create account	Konto erstellen	js	4999
+Log in	Anmelden	js	4999
+Already have an account?	Du hast schon ein Konto?	js-html	5001
+New here?	Neu hier?	js-html	5002
+Create a free account	Kostenloses Konto erstellen	js-html	5002
+Not now	Nicht jetzt	js-html	5003
+Enter an email and a password of at least 6 characters.	Gib eine E-Mail-Adresse und ein Passwort mit mindestens 6 Zeichen ein.	js	5026
+Almost there — check your inbox and click the confirmation link, then log in.	Fast geschafft – schau in dein Postfach, klick auf den Bestätigungslink und melde dich dann an.	js	5033
+Enter an email and password.	Gib eine E-Mail-Adresse und ein Passwort ein.	js	5039
+Croland Plus	Croland Plus	js-html	5071
+Level 2 and above need an active subscription. Manage it from your account page.	Ab Level 2 brauchst du ein aktives Abo. Du verwaltest es auf deiner Kontoseite.	js-html	5072
+Go to account	Zum Konto	js	5073
+Grammar 1	=	js	5089
+Practice 1	=	js	5089
+Account created!	Konto erstellt!	js-html	5095
+The course is open. Alongside Lesson 1 you can now play:	Der Kurs ist offen. Neben Lektion 1 kannst du jetzt spielen:	js-html	5096
+Yes	Ja	js	5146
+Cancel	Abbrechen	js	5148
+Great job! 🎉	Super gemacht! 🎉	js	5198
+Well done! 👍	Gut gemacht! 👍	js	5198
+Keep going! 💪	Weiter so! 💪	js	5198
+new word	neues Wort	js-html	5206
+new words	neue Wörter	js-html	5206
+saved to your dictionary — the word game can use them now.	in deinem Wörterbuch gespeichert – das Wortspiel kann sie jetzt verwenden.	js-html	5207
+ mistake	 Fehler	js	5216
+ mistakes	 Fehler	js	5216
+Day	Tag	js-html	5221
+ points to every currency	 Punkte in jeder Währung	js	5222
+Come back tomorrow for +	Komm morgen wieder für +	js-html	5223
+Welcome to your first real Croatian lesson!	@blobby	js	5262
+Here's a secret: you already speak some Croatian	@blobby	js	5263
+By the end of this lesson you'll describe houses	@blobby	js	5264
+To say anything about anything, Croatian needs	@blobby	js	5265
+Notice what's missing?	@blobby	js	5266
+Bravo! You just built your first Croatian	@blobby	js	5267
+You've already used everything on this page	@blobby	js	5268
+Every noun has a gender.	@blobby	js	5269
+One exception worth knowing.	@blobby	js	5270
+Time to read real Croatian!	@blobby	js	5271
+In Lesson 1 you described houses and coffee	@blobby	js	5272
+One verb, six forms — and you already know	@blobby	js	5273
+Spot the pattern:	@blobby	js	5274
+Odlično! You can now introduce yourself	@blobby	js	5275
+Here's the complete map of the verb you've been	@blobby	js	5276
+When in doubt in Croatia: start with	@blobby	js	5277
+Four people introduce themselves	@blobby	js	5278
+So far you can describe the world	@blobby	js	5279
+And notice something: you often don't even need	@blobby	js	5280
+The ending is the name tag:	@blobby	js	5281
+Sjajno! You can now say what you and others	@blobby	js	5282
+In Lesson 3 your ear learned the endings	@blobby	js	5283
+Drop the pronoun:	@blobby	js	5284
+A whole day of actions	@blobby	js	5285
+You can describe things, introduce people	@blobby	js	5286
+Today you get three tiny connector words	@blobby	js	5287
+You'll practice them on the warmest topic	@blobby	js	5288
+English uses	@blobby	js	5289
+Izvrsno! Your Croatian now flows in full	@blobby	js	5290
+The test: if English	@blobby	js	5291
+A family in one page	@blobby	js	5292
+Today is a big day	@blobby	js	5293
+Don't worry. Your first case changes exactly	@blobby	js	5294
+When a feminine word (ending in	@blobby	js	5295
+You just discovered it yourself:	@blobby	js	5296
+Čestitamo! You just learned your first Croatian	@blobby	js	5297
+"What a \""case\"" is:"	@blobby	js	5298
+Your accusative in action	@blobby	js	5299
+Last lesson you mastered the	@blobby	js	5300
+Things stay the same. People and animals get	@blobby	js	5301
+Two quirks to meet today:	@blobby	js	5302
+Bravo! You now handle the accusative for	@blobby	js	5303
+Croatian likes to mark	@blobby	js	5304
+This is why Lesson 3 felt easy	@blobby	js	5305
+City life, written the way Croatians actually	@blobby	js	5306
+One coffee, one friend, one tram	@blobby	js	5307
+We'll practice in the liveliest place possible	@blobby	js	5308
+One exception today:	@blobby	js	5309
+Sjajno! You can now talk about many things	@blobby	js	5310
+With this page your present tense is	@blobby	js	5311
+Learn them as words, not rules.	@blobby	js	5312
+A school day in the plural	@blobby	js	5313
+Summer is coming	@blobby	js	5314
+The Croatian future is refreshingly simple	@blobby	js	5315
+Recognize the rhythm?	@blobby	js	5316
+Odlično! Past lessons gave you the present	@blobby	js	5317
+Rule of thumb: the helper	@blobby	js	5318
+Summer plans — the kind of message	@blobby	js	5319
+Today's lesson is full of words you already know	@blobby	js	5320
+The new bit: making things	@blobby	js	5321
+The familiar trio again	@blobby	js	5322
+Bravo! Things are officially	@blobby	js	5323
+The possessives are adjectives at heart	@blobby	js	5324
+English speakers: this is the one trap.	@blobby	js	5325
+A club, a hobby, and a few people	@blobby	js	5326
+You can describe, ask, plan and dream in Croatian	@blobby	js	5327
+Good news: the past tense recycles something	@blobby	js	5328
+Let's talk about yesterday.	@blobby	js	5329
+All three are fine	@blobby	js	5330
+ČESTITAMO! Lessons 1–10 complete	@blobby	js	5331
+The participle shows the speaker's gender	@blobby	js	5332
+Your perfekt in the wild	@blobby	js	5333
+So far you've mostly been	@blobby	js	5334
+Seven little question words and one magic	@blobby	js	5335
+And the friendly tag at the end:	@blobby	js	5336
+Izvrsno! You can now ask about anything	@blobby	js	5337
+No question word? Use	@blobby	js	5338
+A present arrives, and nobody will say	@blobby	js	5339
+You've been suspiciously agreeable	@blobby	js	5340
+Today you learn to refuse soup	@blobby	js	5341
+English teachers hate this.	@blobby	js	5342
+Bravo! You can now refuse, deny and protest	@blobby	js	5343
+In Croatian, negatives stack	@blobby	js	5344
+A family of picky eaters	@blobby	js	5345
+Since Lesson 5 you can say where you're	@blobby	js	5346
+One tiny ending	@blobby	js	5347
+Same u/na logic as before:	@blobby	js	5348
+Sjajno! You now know where you're going AND	@blobby	js	5349
+Everyone is somewhere different	@blobby	js	5350
+December in Croatia: presents for everyone!	@blobby	js	5351
+Those endings	@blobby	js	5352
+Word order is flexible	@blobby	js	5353
+Divno! You can now give, send and bring	@blobby	js	5354
+The dative marks the	@blobby	js	5355
+December, and everyone is buying something	@blobby	js	5356
+Friday night! You're going out	@blobby	js	5357
+Today's case is the instrumental	@blobby	js	5358
+Think of it as: the vehicle is your instrument	@blobby	js	5359
+ČESTITAMO! Module C complete	@blobby	js	5360
+The most common English-speaker mistake	@blobby	js	5361
+Five down, two to go	@blobby	js	5362
+A night out and a train ride	@blobby	js	5363
+Whose house? Grandma's.	@blobby	js	5364
+All three answers live in one case	@blobby	js	5365
+Nema + genitive says something's missing	@blobby	js	5366
+Bravo! Belonging, origin and absence	@blobby	js	5367
+The genitive answers	@blobby	js	5368
+Case toolkit — complete!	@blobby	js	5369
+Grandma's house, and the road that leads	@blobby	js	5370
+Time to give orders — politely, of course	@blobby	js	5371
+Croatian commands are short and punchy	@blobby	js	5372
+Odlično! You can now give directions	@blobby	js	5373
+Familiar faces:	@blobby	js	5374
+A recipe, a set of directions, and a coach	@blobby	js	5375
+Imagine: a million euros lands in your account	@blobby	js	5376
+Croatian dreams run on the	@blobby	js	5377
+Krasno! You can now dream, wish and order	@blobby	js	5378
+The politeness machine:	@blobby	js	5379
+every teacher will thank you	@blobby	js	5380
+A million euros, and a perfect day	@blobby	js	5381
+Here's Croatian's deepest secret	@blobby	js	5382
+One twin describes the	@blobby	js	5383
+The tell-tale words:	@blobby	js	5384
+Fantastično! You've cracked aspect	@blobby	js	5385
+Every Croatian verb carries a built-in answer	@blobby	js	5386
+The homework trap:	@blobby	js	5387
+A letter that took all afternoon	@blobby	js	5388
+Twenty lessons ago, your first sentence was	@blobby	js	5389
+The final ingredients: five little connectors	@blobby	js	5390
+You did it. Twenty lessons ago you knew	@blobby	js	5391
+Your last text is someone remembering a summer	@blobby	js	5392
+Check answers	Antworten prüfen	js	5494
+✓ Done reading	✓ Fertig gelesen	js	5494
+Fill in the gaps	Füll die Lücken	js	5499
+Read	Lesen	js	5503
+Correct: 	Richtig: 	js	5547
+ correct	 richtig	js	5553
+ gaps filled — the missing word is always one you just read above.	 Lücken gefüllt – das fehlende Wort ist immer eines, das du gerade oben gelesen hast.	js	5557
+Blobby	=	js	5628
+Missing word	Fehlendes Wort	js	5689
+Read: 	Gelesen: 	js	5752
+tap every card	tippe jede Karte an	js	5752
+In dictionary: 	Im Wörterbuch: 	js	5753
+ · Added to dictionary: 	 · Ins Wörterbuch aufgenommen: 	js	5762
+Tap a card to **flip it**: the Croatian word, a picture and 	Tippe auf eine Karte, um sie **umzudrehen**: Auf der Rückseite findest du das kroatische Wort, ein Bild und 	js	5769
+ are on the back. Play it, **say the word out loud**, then tap **+** to put it in your dictionary (tap it again to star it). 	. Spiel es ab, **sprich das Wort laut aus** und tippe dann auf **+**, um es in dein Wörterbuch aufzunehmen (noch einmal tippen setzt einen Stern). 	js	5769
+ shows all its forms.	 zeigt alle seine Formen.	js	5769
+Added to dictionary	Ins Wörterbuch aufgenommen	js	5783
+Flip card: 	Karte umdrehen: 	js	5791
+tap to flip	zum Umdrehen tippen	js	5800
+✓ already yours	✓ schon deins	js	5825
+Add 	 	js	5840
+ words to dictionary	 Wörter ins Wörterbuch aufnehmen	js	5840
+Add to dictionary	Ins Wörterbuch aufnehmen	js	5840
+Remove from favourites	Aus Favoriten entfernen	js	5846
+Add to favourites	Zu Favoriten hinzufügen	js	5846
+All forms in the dictionary	Alle Formen im Wörterbuch	js	5880
+Conversation	Gespräch	js	5916
+choose your reply	wähle deine Antwort	js	5916
+Every line has a 	Jede Zeile hat ein 	js	5918
+ — play it, then **read your reply out loud** before you tap it.	 – spiel es ab und **lies deine Antwort laut vor**, bevor du sie antippst.	js	5918
+conversation: 	Gespräch: 	js	5922
+conversation finished	Gespräch beendet	js	5931
+Matched: 	Zugeordnet: 	js	5945
+ · Mistakes: 	 · Fehler: 	js	5945
+Tap 	Tippe bei einem kroatischen Wort auf 	js	5947
+ on a Croatian word and **say it back** before you look for its pair.	 und **sprich es nach**, bevor du sein Paar suchst.	js	5947
+Mistakes: 	Fehler: 	js	5965
+Extra flips: 0	Extra-Umdrehungen: 0	js	6009
+Pairs: 	Paare: 	js	6011
+ · Extra flips: 	 · Extra-Umdrehungen: 	js	6011
+Extra flips: 	Extra-Umdrehungen: 	js	6042
+All 	Alle 	js	6044
+ pairs found	 Paare gefunden	js	6044
+Score: 	Punkte: 	js	6071
+ next to the word and **say it out loud** before you answer — the clock can wait one second.	 neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.	js	6075
+data-ik	=	js	6085
+Time: 	Zeit: 	js	6092
+ correct with 	 richtig mit 	js	6121
+Question: 	Frage: 	js	6156
+Type **only the missing word** — not the whole sentence. Tap the speaker first and say it out loud.	Schreib **nur das fehlende Wort** – nicht den ganzen Satz. Tippe zuerst auf den Lautsprecher und sprich es laut aus.	js	6198
+Write the **whole sentence** in Croatian. Tap the speaker first and say it out loud.	Schreib den **ganzen Satz** auf Kroatisch. Tippe zuerst auf den Lautsprecher und sprich ihn laut aus.	js	6199
+Check	Prüfen	js	6205
+Task: 	Aufgabe: 	js	6212
+Almost — only the marks are missing (č, ć, š, ž, đ). Correct answer: 	Fast – nur die Zeichen fehlen (č, ć, š, ž, đ). Richtige Antwort: 	js	6232
+Correct answer: 	Richtige Antwort: 	js	6233
+Sentence: 	Satz: 	js	6258
+In place: 	Am richtigen Platz: 	js	6334
+no ending	keine Endung	js	6409
+Check when ready	Prüfen, wenn du bereit bist	js	6475
+Result: 	Ergebnis: 	js	6590
+ · below the 	 · unter der 	js	6594
+Build the sentence:	Bau den Satz:	js	6660
+Show all words	Alle Wörter anzeigen	js	6874
+No favourites yet. Tap 	Noch keine Favoriten. Tippe auf 	js	6881
+ next to any word to keep it here.	 neben einem Wort, um es hier zu behalten.	js	6881
+Your dictionary is still empty.	Dein Wörterbuch ist noch leer.	js	6885
+No Croatian words on this page.	Auf dieser Seite gibt es keine kroatischen Wörter.	js	6886
+Stuck? The	Hängst du fest? Das	js-html	6989
+holds every word on this page.	enthält jedes Wort auf dieser Seite.	js-html	6989
+New words? The	Neue Wörter? Das	js-html	7002
+lists every word on this page, with	listet jedes Wort auf dieser Seite auf, mit	js-html	7002
+ — and the 	 – und das Spiel 	js	7003
+ game right under it drills the ones you saved.	 direkt darunter übt die Wörter, die du gespeichert hast.	js	7003
+Any word in the examples you do not recognise is in the	Jedes Wort in den Beispielen, das du nicht kennst, steht im	js-html	7004
+Blanking on a word? Open the	Ein Wort fällt dir nicht ein? Öffne das	js-html	7005
+— it holds every word on this page.	– es enthält jedes Wort auf dieser Seite.	js-html	7005
+The	Das	js-html	7006
+stays open during the checkpoint too. Nothing here is a trap.	bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen.	js-html	7006
+Not sure which word is which? The	Nicht sicher, welches Wort welches ist? Das	js-html	7007
+has them all, with	hat sie alle, mit	js-html	7007
+Every word on this page is in the	Jedes Wort auf dieser Seite steht im	js-html	7011
+, with	, mit	js-html	7011
+ — it opens right here, without leaving the exercise.	 – es öffnet sich direkt hier, ohne dass du die Übung verlässt.	js	7011
+Not sure what a picture means? Tap here — every word on this page is listed, with 	Nicht sicher, was ein Bild bedeutet? Tippe hier – jedes Wort auf dieser Seite ist aufgelistet, mit 	js	7015
+The dictionary follows you around. Drag the icon wherever it suits you. 	Das Wörterbuch begleitet dich. Zieh das Symbol, wohin es dir passt. 	js	7016
+Digraphs tripping you up? Open the dictionary and hear the word first. 	Stolperst du über Doppelbuchstaben? Öffne das Wörterbuch und hör dir das Wort zuerst an. 	js	7017
+Your points collect up here.	Deine Punkte sammeln sich hier oben.	js-html	7033
+Nothing is ever lost	Nichts geht je verloren	js-html	7033
+— every exercise can be	– jede Übung kann	js-html	7033
+replayed as often as you like, and only your best attempt is kept. Relax and try things.	so oft wiederholt werden, wie du willst, und nur dein bester Versuch zählt. Entspann dich und probier aus.	js	7034
+Not happy with that score?	Nicht zufrieden mit dem Ergebnis?	js-html	7036
+Play again	Nochmal spielen	js-html	7036
+— as many times as you want.	– so oft du willst.	js-html	7036
+Your best result is the one that counts.	Dein bestes Ergebnis ist das, was zählt.	js	7037
+The clock is not an exam. When it runs out you simply keep the points you earned — 	Die Uhr ist keine Prüfung. Wenn sie abläuft, behältst du einfach die Punkte, die du verdient hast – 	js	7039
+then play again if you want more.	dann spiel noch einmal, wenn du mehr willst.	js-html	7040
+No penalty, ever.	Keine Strafe, niemals.	js-html	7040
+No words yet.	Noch keine Wörter.	js-html	7152
+Words from this lesson appear here as soon as you add them to your dictionary 	Wörter aus dieser Lektion erscheinen hier, sobald du sie in dein Wörterbuch aufnimmst 	js	7153
+“+ Add to dictionary”	„+ Zum Wörterbuch hinzufügen“	js-html	7154
+Croatian → English	Kroatisch → Deutsch	js	7170
+English → Croatian	Deutsch → Kroatisch	js	7170
+in English…	auf Deutsch…	js	7212
+Correct answer:	Richtige Antwort:	js-html	7239
+Next word →	Nächstes Wort →	js	7248
+ · page 	 · Seite 	js	7289
+This exercise has no note yet. If you expected one here, the app is running on an older 	Für diese Übung gibt es noch keine Notiz. Wenn du hier eine erwartet hast, läuft die App mit einer älteren 	js	7294
+— regenerate it and reload the page.	– erzeuge sie neu und lade die Seite neu.	js-html	7295
+Europe/Zagreb	=	js	7320
+Ask about this page	Frag zu dieser Seite	js-html	7362
+Start over	Neu anfangen	js-html	7363
+Stuck, or wondering why? Ask in your own words — the helper can see this page.	Hängst du fest oder fragst dich, warum? Frag in deinen eigenen Worten – der Helfer sieht diese Seite.	js-html	7366
+Your free question for today is used. Subscribers get 20 a day.	Deine kostenlose Frage für heute ist verbraucht. Abonnenten bekommen 20 pro Tag.	js	7375
+One free question a day. Subscribers get 20.	Eine kostenlose Frage pro Tag. Abonnenten bekommen 20.	js	7376
+No questions left today. You get 	Für heute keine Fragen mehr. Morgen bekommst du 	js	7377
+ new ones tomorrow.	 neue.	js	7377
+ of 	 von 	js	7378
+ questions left today	 Fragen für heute übrig	js	7378
+"<button type=""button"" class=""aiSalji"" id=""aiSalji"""	=	js	7383
+Ask	Fragen	js-html	7383
+Start over?	Neu anfangen?	js	7397
+This deletes the conversation about this page. Your points are not affected.	Damit wird das Gespräch über diese Seite gelöscht. Deine Punkte sind davon nicht betroffen.	js	7397
+Content-Type	=	js	7422
+The helper is very busy today. Please try again later.	Der Helfer ist heute sehr beschäftigt. Bitte versuch es später noch einmal.	js	7433
+The helper did not answer this time. Your question was not counted — try again.	Der Helfer hat diesmal nicht geantwortet. Deine Frage wurde nicht gezählt – versuch es noch einmal.	js	7435
+No connection. Your question was not counted — try again.	Keine Verbindung. Deine Frage wurde nicht gezählt – versuch es noch einmal.	js	7438
+aria-hidden	=	js	7615
+These icons are not stuck here.	Diese Symbole kleben hier nicht fest.	js-html	7709
+Drag any of them	Zieh eines davon	js-html	7709
+to the left edge, the right edge, or up into the top bar.	an den linken Rand, den rechten Rand oder nach oben in die Kopfzeile.	js	7710
+Lined	Liniert	js	7773
+Squared	Kariert	js	7774
+Plain	Blanko	js	7775
+All four note spots are taken	Alle vier Notizplätze sind belegt	js	7938
+""" data-red="""	=	js	7957
+""" spellcheck=""false"" "	=	js	7962
+""" aria-label=""Sticky note"" "	=	js	7963
+"placeholder=""Write here…"">"	=	js	7964
+"<button type=""button"" data-papir="""	=	js	7967
+""" data-slot="""	=	js	7967
+" paper"">"	=	js	7969
+"<button type=""button"" class=""cedBrisi"" data-slot="""	=	js	7971
+"<button type=""button"" class=""cedPrazno"" data-slot="""	=	js	7975
+sticky note here	hier eine Haftnotiz	js-html	7976
+Delete this note?	Diese Notiz löschen?	js	8067
+What is written on it is gone for good. 	Was darauf steht, ist dann endgültig weg. 	js	8067
+The other notes stay where they are.	Die anderen Notizen bleiben, wo sie sind.	js	8068
+Matched all 	Alle zugeordnet: 	js	8137
+Popped all 	Alle geplatzt: 	js	8159
+Words: 	Wörter: 	js	8211
+Built 	Gebaut: 	js	8214
+Remember these three — round 	Merk dir diese drei – Runde 	js	8297
+they disappear in	sie verschwinden in	js	8325
+gone — now rebuild the order	weg – jetzt bau die Reihenfolge nach	js	8325
+Which three, in that order?	Welche drei, in dieser Reihenfolge?	js	8344
+Everything you met	Alles, was du getroffen hast	js	8387
+header nav a[data-view]	=	js	8423
+data-view	=	js	8425
+"header nav a[data-view=""daily""]"	=	js	8474
+Zagreb	=	js	8500
+Warm paper and brick red — the default.	Warmes Papier und Ziegelrot – die Standardeinstellung.	js	8500
+Adriatic	Adria	js	8502
+Cool paper and deep sea blue.	Kühles Papier und tiefes Meeresblau.	js	8502
+Olive	Olive	js	8504
+Greenish paper and olive green.	Grünliches Papier und Olivgrün.	js	8504
+Ink	Tinte	js	8506
+Grey and black, no accent colour.	Grau und Schwarz, ohne Akzentfarbe.	js	8506
+Plum	Pflaume	js	8508
+Faintly pink paper and plum.	Zart rosa Papier und Pflaume.	js	8508
+System	System	js	8554
+Inter	=	js	8555
+Space Grotesk	=	js	8556
+Atkinson Hyperlegible	=	js	8557
+Lexend	=	js	8558
+Literata	=	js	8559
+&display=swap	=	js	8570
+Compact	Kompakt	js	8604
+More fits on screen.	Mehr passt auf den Bildschirm.	js	8604
+Default	Standard	js	8605
+Recommended.	Empfohlen.	js	8605
+Large	Groß	js	8606
+Easier on the eyes.	Schonender für die Augen.	js	8606
+Interface size: 	Größe der Oberfläche: 	js	8659
+Language	Sprache	js-html	8673
+Your progress stays exactly where it is — only the language of the explanations changes.	Dein Fortschritt bleibt genau, wo er ist – nur die Sprache der Erklärungen ändert sich.	js-html	8680
+Color scheme	Farbschema	js-html	8684
+\u2713 in use	✓ aktiv	js-html	8687
+Reading font	Leseschrift	js-html	8695
+" style=""font-family:\'"	=	js	8697
+Interface size	Größe der Oberfläche	js-html	8708
+"<span class=""uzorakV"" style=""font-size:"	=	js	8712
+Aa	Aa	js-html	8712
+Header	Kopfzeile	js-html	8721
+"<button type=""button"" class=""sklopkaRed"" role=""switch"" aria-checked="""	=	js	8722
+Show your points in the header	Punkte in der Kopfzeile anzeigen	js-html	8725
+LP · VP · GP · PP next to the menu. Off by default —	LP · VP · GP · PP neben dem Menü. Standardmäßig aus –	js-html	8726
+Progress shows the same numbers with more of the story.	Der Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.	js-html	8727
+Instructions	Anleitungen	js-html	8731
+Shorter instructions	Kürzere Anleitungen	js-html	8735
+The hint behind the info icon comes in a shorter version where one exists:	Der Hinweis hinter dem Info-Symbol gibt es in einer kürzeren Fassung, wo eine existiert:	js-html	8736
+the rule and an example, without the explanation. Rule pages stay as they are.	die Regel und ein Beispiel, ohne Erklärung. Regelseiten bleiben, wie sie sind.	js-html	8737
+Sticky notes	Haftnotizen	js-html	8743
+Show sticky notes	Haftnotizen anzeigen	js-html	8747
+Puts	Setzt	js-html	8748
+among the floating icons.	zu den schwebenden Symbolen hinzu.	js-html	8748
+Four paper spots wait in the empty space beside the content \u2014 two on the left, 	Vier Papierplätze warten im freien Raum neben dem Inhalt – zwei links, 	js	8749
+two on the right \u2014 and each note can be lined, squared or plain. A note belongs to 	zwei rechts –, und jede Notiz kann liniert, kariert oder blanko sein. Eine Notiz gehört zu 	js	8750
+the lesson or mini game you wrote it on and stays there until you delete it. 	der Lektion oder dem Minispiel, in dem du sie geschrieben hast, und bleibt dort, bis du sie löschst. 	js	8751
+Wide screens only: a phone or a tablet has no margin to put paper in. 	Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. 	js	8752
+Switching this off hides your notes, never deletes them.	Wenn du das ausschaltest, werden deine Notizen nur ausgeblendet, nie gelöscht.	js	8753
+ You have 	 Du hast 	js	8754
+ note	 Notiz	js	8754
+ saved.	 gespeichert.	js	8754
+Preview	Vorschau	js-html	8759
+Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.	=	js-html	8760
+Kupujem	=	js-html	8761
+Croatian marks the object of a sentence with its ending, not with word order. 	Das Kroatische markiert das Objekt eines Satzes mit seiner Endung, nicht mit der Wortstellung. 	js	8768
+Jabuka	=	js-html	8769
+is the apple somebody	ist der Apfel, mit dem jemand	js-html	8769
+is doing something to. Change the ending and you change who is acting on what.	etwas macht. Ändere die Endung, und du änderst, wer was womit tut.	js-html	8770
+Checking your session…	Sitzung wird geprüft …	js-html	8780
+ exercise	 Übung	js	8911
+points waiting	Punkte warten	js-html	8912
+nothing done here yet	hier noch nichts erledigt	js-html	8914
+Start	Start	js-html	8915
+points earned	Punkte verdient	js-html	8917
+done so far	bisher erledigt	js-html	8919
+Continue	Weiter	js-html	8920
+"<div class=""slajd"" role=""button"" tabindex=""0"" data-cilj=""view:lessons"" "	=	js	8927
+ and this opens	 und das hier öffnet sich	js	8932
+finish this row to open it	beende diese Reihe, um es zu öffnen	js	8933
+See the map	Karte ansehen	js-html	8936
+" class=""on"""	=	js	8950
+""" role=""button"" tabindex=""0"" "	=	js	8957
+Pick up where you left off	Mach dort weiter, wo du aufgehört hast	js	8982
+Start something new	Fang etwas Neues an	js	8986
+Start here	Fang hier an	js	8986
+Next to unlock	Als Nächstes freischalten	js	8990
+Nothing waiting	Nichts wartet	js	8997
+All clear	Alles erledigt	js-html	8999
+Everything open is finished	Alles Offene ist abgeschlossen	js-html	9000
+Earn points anywhere and the next level opens by itself.	Sammle irgendwo Punkte, und das nächste Level öffnet sich von selbst.	js-html	9001
+Open the map	Karte öffnen	js-html	9002
+view:dictTest	=	js	9015
+Test your words	Teste deine Wörter	js	9015
+ word	 Wort	js	9016
+ · practice only, no points	 · nur Übung, keine Punkte	js	9016
+view:daily	=	js	9018
+Mini games	Minispiele	js	9024
+all 	alle 	js	9026
+ finished · replay any time	 abgeschlossen · jederzeit wiederholbar	js	9026
+ finished	 abgeschlossen	js	9027
+any text · hear, translate, write, say	beliebiger Text · hören, übersetzen, schreiben, sprechen	js	9031
+Quick practice	Schnell üben	js-html	9033
+ learned	 gelernt	js	9040
+words you meet get saved here	Wörter, die dir begegnen, werden hier gespeichert	js	9040
+signed in · progress is saved	angemeldet · Fortschritt wird gespeichert	js	9045
+save your progress across devices	speichere deinen Fortschritt auf allen Geräten	js	9046
+(prefers-reduced-motion: reduce)	=	js	9087
+""" onclick=""miniDodir(this,\'"	=	js	9214
+ — up to 	 – bis zu 	js	9215
+" points in each currency"">"	=	js	9215
+Extras	Extras	js-html	9263
+The long form. One sitting, all four skills.	Die lange Form. Eine Sitzung, alle vier Fertigkeiten.	js-html	9264
+" onclick=""miniDodir(this,\'"	=	js	9269
+no points — your own text	keine Punkte – dein eigener Text	js-html	9275
+coming soon	demnächst	js	9276
+short ones. Each is its own prototype, each pays out once.	kurze. Jedes ist ein eigener Prototyp, jedes zahlt einmal aus.	js-html	9283
+each game pays the same amount into	jedes Spiel zahlt denselben Betrag in	js-html	9291
+all four currencies	alle vier Währungen	js-html	9291
+Each game is a standalone prototype with its own built-in vocabulary of 246 words. 	Jedes Spiel ist ein eigenständiger Prototyp mit einem eingebauten Wortschatz von 246 Wörtern. 	js	9295
+Progress is saved separately per game, and points count towards unlocking lessons.	Der Fortschritt wird pro Spiel separat gespeichert, und Punkte zählen zum Freischalten von Lektionen.	js-html	9296
+"<button class=""miniPoster"" onclick=""miniCijeliUdi()"" aria-label=""Play "	=	js	9506
+" full screen"">"	=	js	9506
+Play full screen · turn your phone sideways	Im Vollbild spielen · Handy quer halten	js-html	9509
+⛶ Full screen	⛶ Vollbild	js-html	9516
+Exit full screen	Vollbild verlassen	js	9595
+Full screen	Vollbild	js	9595
+Lesson 0 — Welcome to Croatian	Lektion 0 – Willkommen im Kroatischen	js-html	9638
+the whole alphabet is yours · replay any time	das ganze Alphabet gehört dir · jederzeit wiederholen	js	9640
+ of 30 letters unlocked	 von 30 Buchstaben freigeschaltet	js	9641
+free intro, no account, about 5 minutes	kostenlose Einführung, kein Konto, etwa 5 Minuten	js	9641
+Vocab	Wort	js	9671
+Gram	Gram	js	9671
+Pract	Prax	js	9671
+"<th class=""glavaF"" style=""color:"	=	js	9693
+"<circle class=""puni"" id="""	=	js	9726
+"<td class="""	=	js	9737
+ — needs Croland Plus	 – braucht Croland Plus	js	9738
+ — complete	 – abgeschlossen	js	9738
+Plus	Plus	js-html	9742
+Lesson 	Lektion 	js	9773
+Level 	Level 	js	9774
+"style=""--boja:"	=	js	9783
+Locked	Gesperrt	js-html	9795
+"<button class=""fazaRed"	=	js	9805
+" aria-label=""Level "	=	js	9826
+Level	Level	js-html	9833
+ parts	 Teile	js	9893
+ steps	 Schritte	js	9893
+% to pass	% zum Bestehen	js	9895
+Complete	Abgeschlossen	js-html	9899
+"class=""gotov"""	=	js	9903
+" class=""gl"""	=	js	9921
+"<div class=""pregled"" role=""dialog"" aria-modal=""true"" aria-label="""	=	js	9933
+""" style=""--boja:"	=	js	9933
+Overview	Überblick	js-html	9941
+Cheat sheet	Spickzettel	js-html	9942
+Escape	=	js	9988
+Exercise 	Übung 	js	10031
+"<button class="""	=	js	10035
+"<button class=""vnav vfin"	=	js	10046
+""" title=""Lesson summary — "	=	js	10047
+Test 	Test 	js	10097
+Before you start	Bevor du anfängst	js-html	10104
+ points — everything from level 	 Punkte – alles ab Stufe 	js	10106
+for the whole test. The clock runs across all exercises.	für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.	js-html	10107
+One sitting: exercises follow one another and you cannot go back.	Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.	js-html	10108
+No scores in between — your result appears only at the end.	Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.	js-html	10109
+Pause whenever you like. The clock stops with you.	Pausiere, wann du willst. Die Uhr hält mit dir an.	js-html	10110
+No dictionary. Where a word is needed, the English is written into the question.	Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.	js-html	10111
+Your best so far:	Dein bisher bestes Ergebnis:	js-html	10113
+points. Only a better result replaces it.	Punkte. Nur ein besseres Ergebnis ersetzt es.	js-html	10113
+Start the test →	Test starten →	js-html	10114
+Leaving before the end means this attempt does not count.	Wenn du vor dem Ende gehst, zählt dieser Versuch nicht.	js-html	10115
+Pause	Pause	js-html	10152
+Skip this exercise	Diese Übung überspringen	js-html	10162
+Quit the test?	Test abbrechen?	js	10167
+The test is graded in one sitting. If you leave now, this attempt does not count and nothing is recorded.	Der Test wird in einer Sitzung bewertet. Wenn du jetzt gehst, zählt dieser Versuch nicht und nichts wird gespeichert.	js	10168
+Skip this exercise?	Diese Übung überspringen?	js	10174
+It is scored with whatever you have answered so far, and the test moves on. You cannot come back to it.	Sie wird mit dem bewertet, was du bisher beantwortet hast, und der Test geht weiter. Du kannst nicht zurückkehren.	js	10175
+Unknown format: 	Unbekanntes Format: 	js	10186
+Paused	Pausiert	js-html	10221
+The clock is stopped.	Die Uhr ist angehalten.	js-html	10222
+left when you come back.	übrig, wenn du zurückkommst.	js-html	10222
+Next exercise →	Nächste Übung →	js	10246
+Adding up your result.	Dein Ergebnis wird berechnet.	js	10248
+ · your score comes at the end	 · dein Ergebnis kommt am Ende	js	10249
+ran out of time	Zeit abgelaufen	js	10270
+not reached	nicht erreicht	js	10278
+Exercise	Übung	js	10291
+ — not yet 💪	 – noch nicht 💪	js	10299
+Time ran out — everything you answered still counts.	Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.	js	10301
+Whole test, one sitting. Here is how it went.	Ganzer Test, eine Sitzung. So ist es gelaufen.	js	10302
+Only your best test result is kept — retake it any time.	Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.	js-html	10306
+↻ Take the test again	↻ Test wiederholen	js-html	10307
+← Back to lessons	← Zurück zu den Lektionen	js-html	10308
+Vjezbe bez para u data-plus.json (	=	js	10340
+This unit is temporarily unavailable —	Diese Einheit ist vorübergehend nicht verfügbar –	js-html	10342
+its content is out of date on the server. Please try again later.	ihr Inhalt ist auf dem Server veraltet. Bitte versuch es später noch einmal.	js-html	10343
+Loading this unit…	Diese Einheit wird geladen …	js-html	10346
+This unit could not be loaded.	Diese Einheit konnte nicht geladen werden.	js-html	10349
+Check your connection and try again.	Prüfe deine Verbindung und versuch es noch einmal.	js-html	10350
+‹ Explore the app	‹ App erkunden	js	10379
+Lesson 0	Lektion 0	js	10380
+Next →	Weiter →	js-html	10391
+↻ Play again	↻ Noch einmal spielen	js-html	10392
+Skip →	Überspringen →	js	10394
+Finish now	Jetzt beenden	js	10394
+↻ Try again	↻ Noch einmal versuchen	js-html	10395
+Finish now?	Jetzt beenden?	js	10406
+The exercise ends and you take the points earned so far.	Die Übung endet, und du bekommst die bisher gesammelten Punkte.	js	10406
+submitted early	vorzeitig abgegeben	js	10408
+Try again?	Nochmal versuchen?	js	10414
+Current progress in this exercise will be lost.	Der aktuelle Fortschritt in dieser Übung geht verloren.	js	10414
+The whole alphabet is yours. 🎉	Das ganze Alphabet gehört dir. 🎉	js	10472
+Nice work! 🎉	Gut gemacht! 🎉	js	10472
+You can read Croatian.	Du kannst Kroatisch lesen.	js-html	10473
+Five minutes ago these were strange letters.	Vor fünf Minuten waren das noch fremde Buchstaben.	js-html	10474
+words from this lesson are now in your	Wörter aus dieser Lektion sind jetzt in deinem	js-html	10478
+words from this lesson are already in your	Wörter aus dieser Lektion sind schon in deinem	js-html	10479
+All 30 letters unlocked.	Alle 30 Buchstaben freigeschaltet.	js-html	10482
+letters still dark — replay any exercise to light them up.	Buchstaben sind noch dunkel – wiederhole eine beliebige Übung, um sie aufleuchten zu lassen.	js-html	10484
+Lesson 1 starts the course itself — 13 exercises, still free.	Lektion 1 beginnt den eigentlichen Kurs – 13 Übungen, weiterhin kostenlos.	js-html	10487
+▶ Start Lesson 1	▶ Lektion 1 starten	js-html	10488
+‹ Explore the app first	‹ Erst die App erkunden	js-html	10489
+")"">Next: "	=	js	10501
+ — needs 	 – nötig: 	js	10505
+"<li class="""	=	js	10526
+"title=""Replay this exercise"">"	"title=""Diese Übung wiederholen"">"	js	10527
+not played	nicht gespielt	js-html	10529
+Everything in this unit is yours — all	Alles in dieser Einheit gehört dir – alle	js-html	10535
+points earned. Nothing left to win here.	Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.	js-html	10536
+ still waiting in 	 warten noch in 	js	10537
+— summary	– Zusammenfassung	js-html	10543
+Unit mastered! 🏆	Einheit gemeistert! 🏆	js	10549
+Unit complete! 🎉	Einheit abgeschlossen! 🎉	js	10549
+"\')"">‹ Back to "	"\')"">‹ Zurück zu "	js	10562
+""" aria-hidden=""true"">"	=	js	10602
+"<use href=""#ik-"	=	js	10603
+Nom	Nom	js	10817
+Gen	Gen	js	10817
+Dat	Dat	js	10817
+Acc	Akk	js	10817
+Voc	Vok	js	10817
+Loc	Lok	js	10817
+Ins	Ins	js	10817
+Singular	Singular	js	10833
+Plural	Plural	js	10833
+Present	Präsens	js	10871
+Imperative	Imperativ	js	10871
+Past participle	Partizip Perfekt	js-html	10875
+Future stem	Futurstamm	js-html	10878
+plural only	nur Plural	js	10893
+Comparison	Steigerung	js-html	10907
+Aspect pair	Aspektpaar	js-html	10912
+Form of:	Form von:	js-html	10914
+Variant of:	Variante von:	js-html	10915
+Other forms	Weitere Formen	js-html	10946
+Pronunciation	Aussprache	js-html	10950
+Added from	Hinzugefügt aus	js-html	10956
+Picture	Bild	js-html	10962
+"<button type=""button"" class=""zvjRj"	=	js	10993
+""" aria-label="""	=	js	10993
+No match for “	Kein Treffer für „	js	11006
+Nothing here yet.	Hier ist noch nichts.	js	11007
+Not in the grammar database.	Nicht in der Grammatikdatenbank.	js-html	11042
+"<button type=""button"" "	=	js	11126
+" class=""aktivan"""	=	js	11126
+button.aktivan	=	js	11134
+My words	Meine Wörter	js	11181
+Mine	Meine	js	11181
+Full dictionary	Ganzes Wörterbuch	js	11182
+All	Alle	js	11182
+The dictionary file is missing	Die Wörterbuchdatei fehlt	js-html	11230
+rjecnik.js was not generated — run osvježi.bat and reload the page.	rjecnik.js wurde nicht erzeugt – führe osvježi.bat aus und lade die Seite neu.	js-html	11231
+No words saved yet	Noch keine Wörter gespeichert	js-html	11234
+Every word you meet in a lesson can be kept here — tap	Jedes Wort aus einer Lektion kannst du hier behalten – tippe auf	js-html	11235
++ Add to dictionary	+ Zum Wörterbuch hinzufügen	js-html	11236
+underneath it. This list is what the word test drills.	darunter. Diese Liste übt der Worttest.	js-html	11236
+Open a lesson	Lektion öffnen	js-html	11238
+Browse the full dictionary	Ganzes Wörterbuch durchsuchen	js-html	11239
+no favourites yet	noch keine Favoriten	js	11264
+ entries in the full dictionary	 Einträge im ganzen Wörterbuch	js	11266
+dictionary not loaded	Wörterbuch nicht geladen	js	11266
+ word added	 Wort hinzugefügt	js	11267
+ words added	 Wörter hinzugefügt	js	11267
+nothing saved yet	noch nichts gespeichert	js	11267
+Nothing matches that search.	Nichts passt zu dieser Suche.	js	11281
+End	Ende	js	11422
+Croatian first — switch to English first	Kroatisch zuerst – auf Deutsch zuerst umschalten	js	11437
+English first — switch to Croatian first	Deutsch zuerst – auf Kroatisch zuerst umschalten	js	11438
+Word test	Worttest	js-html	11606
+Filter	Filter	js-html	11611
+Exit test	Test beenden	js-html	11616
+Favourites	Favoriten	js	11641
+By lesson	Nach Lektion	js	11642
+Tap one or more lesson numbers — 0 to	Tippe auf eine oder mehrere Lektionsnummern – 0 bis	js-html	11646
+Every entry in the dictionary, not just your own words.	Jeder Eintrag im Wörterbuch, nicht nur deine eigenen Wörter.	js-html	11654
+Only the words you starred	Nur die Wörter mit Stern	js-html	11656
+Every word you have added, all lessons together.	Jedes Wort, das du hinzugefügt hast, alle Lektionen zusammen.	js-html	11658
+My Dictionary	Mein Wörterbuch	js	11685
+No lesson selected	Keine Lektion ausgewählt	js	11688
+ words	 Wörter	js	11691
+ right so far	 bisher richtig	js	11692
+Pick at least one lesson in the Filter.	Wähle im Filter mindestens eine Lektion.	js	11701
+No word pairs in the selected lessons yet.	In den ausgewählten Lektionen gibt es noch keine Wortpaare.	js	11702
+No favourites yet — tap 	Noch keine Favoriten – tippe auf 	js	11704
+ next to a word in the dictionary or on a card.	 neben einem Wort im Wörterbuch oder auf einer Karte.	js	11704
+The dictionary file is missing — run osvježi.bat to generate rjecnik.js.	Die Wörterbuchdatei fehlt – führe osvježi.bat aus, um rjecnik.js zu erzeugen.	js	11706
+Your dictionary is empty — open a lesson and add words first.	Dein Wörterbuch ist leer – öffne eine Lektion und füge zuerst Wörter hinzu.	js	11707
+Write it in Croatian…	Schreib es auf Kroatisch …	js	11722
+Write it in English…	Schreib es auf Deutsch …	js	11722
+— mind the accents:	– achte auf die Akzente:	js-html	11750
+— the answer is:	– die Antwort ist:	js-html	11751
+also accepted:	auch akzeptiert:	js-html	11753
+Day streak	Tage in Folge	js-html	11777
+streak points earned · counts toward LP, VP, GP and PP	Serienpunkte erreicht · zählen für LP, VP, GP und PP	js-html	11778
+Done for today — come back tomorrow to make it 	Für heute fertig – komm morgen wieder und mach daraus 	js	11780
+Play today\'s challenge for +	Spiel die heutige Challenge für +	js	11781
+ and keep the streak alive.	 und halte die Serie am Leben.	js	11782
+ and start a streak.	 und starte eine Serie.	js	11782
+Today	Heute	js-html	11790
+One picture a day. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Tag. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11792
+Today\'s challenge is not ready yet. Check back soon.	Die heutige Challenge ist noch nicht fertig. Schau bald wieder vorbei.	js-html	11794
+You have reached the end of the daily challenges. 🎉 New ones are on the way.	Du bist am Ende der täglichen Challenges angekommen. 🎉 Neue sind unterwegs.	js-html	11797
+One challenge per day. A new one unlocks tomorrow.	Eine Challenge pro Tag. Morgen wird eine neue freigeschaltet.	js-html	11808
+Weekly challenges are coming soon.	Wöchentliche Challenges kommen bald.	js-html	11813
+Week	Woche	js-html	11821
+One picture a week. Tap an object, type the Croatian word — no list, no answers given away.	Ein Bild pro Woche. Tippe auf einen Gegenstand, schreib das kroatische Wort – keine Liste, keine verratenen Antworten.	js-html	11824
+← Daily challenge	← Tägliche Challenge	js-html	11845
+Takes a minute, and no card. Here is what it opens:	Dauert eine Minute, keine Karte nötig. Das wird freigeschaltet:	js	11898
+Log in and pick up exactly where you left off.	Melde dich an und mach genau dort weiter, wo du aufgehört hast.	js	11899
+Level 1, the daily challenge and all mini games — free.	Level 1, die tägliche Challenge und alle Minispiele – kostenlos.	js-html	11919
+Points and dictionary follow you to any device.	Punkte und Wörterbuch begleiten dich auf jedes Gerät.	js-html	11920
+Lesson 0 needs no account at all — it is open right now.	Lektion 0 braucht überhaupt kein Konto – sie ist sofort offen.	js-html	11921
+Lesson points	Lektionspunkte	js	11983
+Vocabulary points	Wortschatzpunkte	js	11983
+Grammar points	Grammatikpunkte	js	11984
+Practice points	Praxispunkte	js	11984
+Everything you have earned, and the shortest way to more of it. 	Alles, was du erreicht hast, und der kürzeste Weg zu mehr. 	js	12006
+Click any unit to see it exercise by exercise.	Klicke auf eine Einheit, um sie Übung für Übung zu sehen.	js-html	12007
+You	Du	js-html	12009
+Friends & groups	Freunde & Gruppen	js-html	12011
+ waiting	 warten	js	12012
+every level open	jede Stufe offen	js	12043
+Daily streak ·	Tägliche Serie ·	js-html	12059
+Words in your dictionary	Wörter in deinem Wörterbuch	js-html	12061
+Exercises played	Gespielte Übungen	js-html	12063
+Mini game points	Minispielpunkte	js-html	12065
+Where you stand	Wo du stehst	js-html	12069
+One square per unit. Click one to open it exercise by exercise — that is where	Ein Feld pro Einheit. Klick eines an, um es Übung für Übung zu öffnen – dort	js-html	12070
+you see which single exercise is still holding points, and jump straight back into it.	siehst du, welche einzelne Übung noch Punkte hält, und springst direkt wieder hinein.	js-html	12071
+"<div class=""progGlava"" style=""color:"	=	js	12074
+needs all four types at level 	braucht alle vier Arten auf Level 	js	12090
+"<div class="""	=	js	12100
+Show all	Alle anzeigen	js-html	12111
+Show less ▴	Weniger anzeigen ▴	js-html	12115
+not started	nicht begonnen	js-html	12118
+in progress	in Arbeit	js-html	12119
+everything earned	alles verdient	js-html	12120
+locked — hover to see what it needs	gesperrt – fahr mit der Maus darüber, um zu sehen, was nötig ist	js-html	12121
+en-US	de-DE	js	12133
+The whole course	Der ganze Kurs	js-html	12135
+ points from all units of the 	 Punkte aus allen Einheiten der 	js	12137
+levels (mini games and challenges not included)	Level (Minispiele und Challenges nicht mitgerechnet)	js-html	12138
+All your points together:	Alle deine Punkte zusammen:	js-html	12140
+— units, games, challenges and streak	– Einheiten, Spiele, Challenges und Serie	js-html	12141
+Worth going back to	Lohnt sich zu wiederholen	js-html	12147
+The unlocked exercises holding the most points. Only your best attempt ever	Die freigeschalteten Übungen mit den meisten offenen Punkten. Nur dein bester Versuch	js-html	12148
+counts, so replaying one can add points but never take them away.	zählt, also kann Wiederholen Punkte bringen, aber nie welche kosten.	js-html	12149
+never played	nie gespielt	js	12154
+best so far 	bisher bestes 	js	12154
+"<i class="""	=	js	12167
+""" title=""Day "	=	js	12167
+Daily challenges	Tägliche Challenges	js-html	12169
+ finished, 	 abgeschlossen, 	js	12170
+ partly done, 	 teilweise erledigt, 	js	12170
+ days — 	 Tage – 	js	12171
+day 	Tag 	js	12172
+ will be worth 	 sind wert 	js	12172
+points in every currency.	Punkte in jeder Währung.	js-html	12173
+"title=""Open "	=	js	12182
+Each one pays out once, the same amount into all four currencies.	Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen.	js-html	12187
+Click one to open it.	Klick eine an, um sie zu öffnen.	js-html	12188
+""" title=""Open this exercise"">"	""" title=""Diese Übung öffnen"">"	js	12257
+are still waiting in this unit.	warten noch in dieser Einheit.	js-html	12277
+Everything here is yours — all	Alles hier gehört dir – alle	js-html	12278
+points earned.	Punkte verdient.	js-html	12278
+Click any exercise to replay it.	Klick auf eine Übung, um sie zu wiederholen.	js-html	12279
+Open this exercise?	Diese Übung öffnen?	js	12327
+You will leave Progress and go straight into the exercise. You have not played it yet — all 	Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle 	js	12331
+ points are still there.	 Punkte sind noch da.	js	12332
+You will leave Progress and go straight into the exercise. Your best result (	Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (	js	12333
+) is kept: a weaker run can never cost you points.	) bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.	js	12334
+Open exercise	Übung öffnen	js	12335
+You have already earned all 	Du hast bereits alle 	js	12344
+ points from this one. The payout happens once, so 	 Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also 	js	12344
+playing it again is purely for the fun of it.	ist erneutes Spielen reiner Spaß.	js	12345
+You have earned 	Du hast hier 	js	12347
+ points here. The rest is still waiting, and points 	 Punkte erreicht. Der Rest wartet noch, und Punkte, die 	js	12347
+already earned cannot be lost.	du schon hast, können nicht verloren gehen.	js	12348
+ points are still there. They go into every currency at once.	 Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.	js	12349
+Open this game?	Dieses Spiel öffnen?	js	12350
+Open 	Öffnen: 	js	12352
+This part could not be loaded.	Dieser Teil konnte nicht geladen werden.	js-html	12388
+Try again	Nochmal versuchen	js-html	12389
+Your ID	Deine ID	js-html	12402
+Copy	Kopieren	js-html	12405
+The only way anyone can find you. Your e-mail is	Nur so kann dich jemand finden. Deine E-Mail-Adresse wird	js-html	12406
+never shown — not to friends, not to whoever pays for your access.	nie angezeigt – nicht Freunden, nicht dem, der für deinen Zugang bezahlt.	js-html	12407
+"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""the name others see"" value="""	"<input class=""progIme"" id=""progNadimak"" maxlength=""40"" placeholder=""der Name, den andere sehen"" value="""	js	12410
+Save name	Namen speichern	js-html	12412
+Until you set one, people see only your ID.	Bis du einen festlegst, sehen andere nur deine ID.	js	12414
+Add someone	Jemanden hinzufügen	js-html	12418
+Five characters. No zero and no letter O, so there is nothing to mistype.	Fünf Zeichen. Keine Null und kein Buchstabe O, damit man sich nicht vertippen kann.	js-html	12419
+Sending a request means you will both see each other once they accept.	Wenn du eine Anfrage sendest, seht ihr euch gegenseitig, sobald sie angenommen wird.	js-html	12420
+Send request	Anfrage senden	js-html	12423
+Waiting	Wartet	js-html	12428
+Someone	Jemand	js	12431
+wants to see your points	möchte deine Punkte sehen	js-html	12433
+Accept	Annehmen	js-html	12435
+Decline	Ablehnen	js-html	12436
+your request — not answered yet	deine Anfrage – noch nicht beantwortet	js-html	12442
+Everyone you added	Alle, die du hinzugefügt hast	js-html	12449
+Nobody yet. Share your ID, or type someone else\'s above.	Noch niemand. Teile deine ID oder gib oben die ID von jemand anderem ein.	js-html	12451
+Points are always visible. Everything else only if that person set their	Punkte sind immer sichtbar. Alles andere nur, wenn die Person ihren	js-html	12453
+progress to public — those rows open up when you click them.	Fortschritt öffentlich gemacht hat – diese Zeilen öffnen sich, wenn du darauf klickst.	js-html	12454
+Who	Wer	js-html	12462
+Total	Gesamt	js-html	12463
+Shares	Teilt	js-html	12463
+Updated	Aktualisiert	js-html	12463
+"<tr class="""	=	js	12467
+full progress	voller Fortschritt	js	12477
+points only	nur Punkte	js	12477
+What others see of you	Was andere von dir sehen	js-html	12483
+This applies to everyone in the list above, and to nobody else.	Das gilt für alle in der Liste oben und für niemanden sonst.	js-html	12484
+"<label class=""progIzbor"	=	js	12486
+Points only	Nur Punkte	js-html	12488
+Your four totals and nothing else.	Deine vier Summen und sonst nichts.	js-html	12488
+This is the default and it never changes on its own.	Das ist die Standardeinstellung, und sie ändert sich nie von selbst.	js-html	12489
+Full progress	Voller Fortschritt	js-html	12492
+Every unit with its points — the same	Jede Einheit mit ihren Punkten – dieselbe	js-html	12492
+map you see under You.	Karte, die du unter „Du“ siehst.	js-html	12493
+just now	gerade eben	js	12505
+ min ago	 Min. her	js	12506
+ h ago	 Std. her	js	12508
+ days ago	 Tage her	js	12511
+over a month ago	vor über einem Monat	js	12512
+Copied	Kopiert	js	12520
+Could not save — try again.	Speichern fehlgeschlagen – versuch es noch einmal.	js	12527
+Saved.	Gespeichert.	js	12529
+Cleared — people see only your ID.	Gelöscht – andere sehen nur deine ID.	js	12529
+An ID is exactly five characters.	Eine ID hat genau fünf Zeichen.	js	12537
+Could not send it — try again later.	Senden fehlgeschlagen – versuch es später noch einmal.	js	12540
+No one has that ID.	Niemand hat diese ID.	js	12541
+to si ti	=	js	12542
+That is your own ID.	Das ist deine eigene ID.	js	12542
+Request sent to 	Anfrage gesendet an 	js	12543
+public progress	öffentlicher Fortschritt	js-html	12619
+points in total	Punkte insgesamt	js-html	12622
+Read-only, and never their e-mail.	Nur lesbar, und nie ihre E-Mail-Adresse.	js-html	12626
+Last updated 	Zuletzt aktualisiert 	js	12627
+Everything unlocked ✓	Alles freigeschaltet ✓	js-html	12680
+Every level is open to	Jedes Level ist offen für	js-html	12681
+all accounts right now	alle Konten, gerade jetzt	js	12682
+, until 	, bis 	js	12682
+YOUR-PORTAL-LINK	=	js	12686
+Croland Plus ✓	Croland Plus ✓	js-html	12688
+Active	Aktiv	js-html	12689
+Manage subscription	Abo verwalten	js-html	12693
+Subscription management link not set up yet	Link zur Abo-Verwaltung noch nicht eingerichtet	js-html	12694
+(STRIPE_PORTAL_URL in index.html) — contact us to change or cancel for now.	(STRIPE_PORTAL_URL in index.html) – kontaktiere uns vorerst, um zu ändern oder zu kündigen.	js-html	12695
+Redirecting to checkout…	Weiterleitung zur Kasse …	js-html	12699
+Free account — Level 1, daily	Kostenloses Konto – Level 1, tägliche	js-html	12703
+challenges and mini games unlocked. Subscribe for Level 2 and above.	Challenges und Minispiele freigeschaltet. Abonniere für Level 2 und höher.	js-html	12704
+Subscribe	Abonnieren	js-html	12705
+Confirming your subscription…	Dein Abo wird bestätigt …	js-html	12710
+Log out	Abmelden	js-html	12716
+Exercises played:	Gespielte Übungen:	js-html	12723
+ · Words learned: 	 · Gelernte Wörter: 	js	12723
+Daily streak:	Tägliche Serie:	js-html	12724
+streak points (added to each currency)	Serienpunkte (zu jeder Währung addiert)	js-html	12726
+Want a copy of your data, or want it	Möchtest du eine Kopie deiner Daten oder willst du sie	js-html	12728
+deleted? See our	löschen lassen? In unserer	js-html	12729
+Privacy Policy	Datenschutzerklärung	js-html	12729
+for how to request that.	steht, wie du das beantragst.	js-html	12729
+data-slot	=	js	13027
+nisi unutar vježbe	=	js	13057
 Lesson 1	=	pregledi.js	14
 Your first Croatian sentences	Deine ersten kroatischen Sätze	pregledi.js	14
 Kava je dobra.	=	pregledi.js	15

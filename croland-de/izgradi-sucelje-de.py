@@ -109,6 +109,9 @@ DE_FUNKCIJE = (
     " 'Daily challenge': 'Tägliche Challenge', 'Weekly challenge': 'Wöchentliche Challenge' })[t] || t; }\n"
     "  function deCjelina(c) { return String(c == null ? '' : c).replace(/^(Lesson|Vocabulary|Grammar|Practice|Test|Daily challenge|Weekly challenge)\\b/, function (m) { return deTip(m); }); }\n")
 ZAKRPE = [  # (staro, novo, ocekivani broj pojavljivanja)
+    ("var JEZIK_STRANICE = 'en',", "var JEZIK_STRANICE = 'de',", 1),
+    ("  var JEZIK_APP = 'en';", "  var JEZIK_APP = 'de';", 1),
+    ("'/sadrzaj?f=data-plus.json'", "'/sadrzaj?f=data-plus-de.json'", 1),
     ("  var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];\n",
      "  var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];\n" + DE_FUNKCIJE, 1),
     ("var imena = lista.map(function (c) { return c.tip + ' ' + c.razina; });",

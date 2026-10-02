@@ -46,16 +46,24 @@ node croland-de/osvjezi-de.js           # data-de.js + rjecnik-de.js (iz croland
 python3 croland-de/izgradi-sucelje-de.py # index-de.html + pregledi-de.js (iz sucelje-de.tsv)
 ```
 
-Otvaranje: `pokreni-lokalno.bat`, pa `http://localhost:8000/index-de.html`.
+Otvaranje: `pokreni-lokalno.bat`, pa u aplikaciji Options → Language → Deutsch (ili izravno `http://localhost:8000/index-de.html`).
 
 - `osvjezi-de.js` učita `osvjezi.js` kao tekst i samo preusmjeri ulaz/izlaz — svaka promjena bodovanja ili formata u originalu automatski vrijedi i za DE.
 - `izgradi-sucelje-de.py` mijenja samo stringove izvučene u `sucelje-de.tsv`; JS se tokenizira pravim parserom (acorn u `_alati/`), pa kod, regexi i ključevi ostaju netaknuti.
 - **Interni ključevi ostaju engleski** (`Lesson 1`, `Daily challenge`, tipke `Enter/Escape`, `Authorization`…) jer se po njima sprema napredak u Supabase — korisnik koji promijeni jezik zadržava napredak. Prikaz imena tipova ide kroz `deTip()` / `deCjelina()` koje build ubacuje na ~30 mjesta (popis `ZAKRPE` u skripti; ako se izvorni redak promijeni, build stane s porukom umjesto da tiho propusti mjesto).
 - Novi tekst u `index.html` → `python3 croland-de/izvuci-sucelje.py` (doda nove retke u `sucelje-de.tsv`, stari prijevodi ostaju), prevesti prazne retke (`=` = ne mijenjaj, za kod), pa ponovno build.
 
-Što još nije riješeno:
-1. **Objava**: `objavi.bat` / `scripts/build.js` znaju samo za EN. Za DE treba odluka: zaseban put (npr. `/de/`) ili izbor jezika u istoj aplikaciji, i zaseban `data-plus-de.json` u Supabase bucketu.
-2. Nekoliko rečenica u kodu gradi se gramatički na engleski način (npr. `' point</strong> is'`); prijevod fragmenata je mjestimično nespretan.
+**Izbor jezika u aplikaciji** (Options → Language / Sprache): svaki jezik je svoja stranica (`index.html`, `index-de.html`) s istim kodom i istim ključevima napretka, pa se jezik može mijenjati tijekom tečaja bez gubitka napretka.
+- Izbor se sprema u `localStorage` (`croland.jezik`) i u račun (`PROGRESS.postavke.jezik`), pa vrijedi i na drugom uređaju.
+- Skripta na vrhu `<head>` odmah prebaci na stranicu odabranog jezika, prije učitavanja podataka; nakon promjene jezika korisnik ostaje na istom ekranu.
+
+**Objava** (`objavi.bat`) sada radi oba jezika: korak 1b gradi `data-de.js` i `index-de.html` (treba Python: `python` ili `py`), `scripts/build.js` dijeli i `data-de.js` → `dist/data-de.js` + `zasticeno/data-plus-de.json`, a `uploadaj-sadrzaj.js` šalje obje plaćene datoteke u bucket. GitHub Actions gradi DE iz commitanih datoteka (`index-de.html`, `data-de.js`, `rjecnik-de.js`, `pregledi-de.js` moraju biti u repozitoriju).
+
+**Supabase je pripremljen (02.10.2026.):** Edge Function `sadrzaj` je redeployana s `data-plus-de.json` na popisu dozvoljenih datoteka. Redirect URLs već imaju zamjenske znakove (`https://kristianprasnjak.github.io/croland/**`, `http://localhost:8888/**`), pa pokrivaju i `index-de.html`. Ako se ikad deploya iz lokalne mape (`supabase functions deploy sadrzaj`), lokalni `index.ts` već ima istu izmjenu.
+
+Poznata ograničenja:
+1. Nekoliko rečenica u kodu gradi se gramatički na engleski način (npr. `' point</strong> is'`); prijevod fragmenata je mjestimično nespretan.
+2. Riječi koje je korisnik sam spremio u rječnik prije promjene jezika zadržavaju prijevod na jeziku na kojem su spremljene.
 3. BLOBBY_RECI: 58 starih odsječaka ne postoji ni u engleskim lekcijama — ostaju neprevedeni i bez učinka.
 
 ## Odluke o prijevodu

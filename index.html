@@ -2,6 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script>
+  // Jezik uputa (Options → Language). Svaki jezik je svoja stranica (index.html, index-de.html);
+  // napredak je zajednicki jer su kljucevi isti. Ovdje se samo prebaci na pravu stranicu,
+  // prije nego se ucitaju veliki podaci.
+  (function () {
+    var JEZIK_STRANICE = 'en', STRANICE = { en: 'index.html', de: 'index-de.html' };
+    try {
+      var j = localStorage.getItem('croland.jezik');
+      if (j && j !== JEZIK_STRANICE && STRANICE[j]) location.replace(STRANICE[j] + location.search + location.hash);
+    } catch (e) {}
+  })();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Croland · info-v1</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -3182,6 +3194,42 @@
 
   // ================= PODACI =================
   var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];
+  // ---- jezik uputa ----
+  // Svaki jezik je zasebna stranica s istim kodom i istim kljucevima napretka (Lesson 1,
+  // Daily challenge...). Promjena jezika = spremi izbor, pa otvori drugu stranicu na istom mjestu.
+  var JEZIK_APP = 'en';
+  var JEZIK_STRANICA = { en: 'index.html', de: 'index-de.html' };
+  var JEZICI = [
+    { id: 'en', ime: 'English', opis: 'Explanations, hints and translations in English.' },
+    { id: 'de', ime: 'Deutsch', opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' }
+  ];
+  function odaberiJezik(j) {
+    if (!JEZIK_STRANICA[j] || j === JEZIK_APP) return;
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    PROGRESS.postavke.jezik = j;
+    try { localStorage.setItem('croland.jezik', j); } catch (e) {}
+    try { sessionStorage.setItem('croland.nakonJezika', JSON.stringify(ZADNJI_VIEW || { view: 'options' })); } catch (e) {}
+    var otisao = false;
+    var otvori = function () { if (otisao) return; otisao = true; window.location.href = JEZIK_STRANICA[j]; };
+    if (imaRacun()) {
+      // izbor mora stici u racun prije odlaska, inace bi ga ucitani napredak vratio natrag
+      if (SPREMI_TAJMER) { clearTimeout(SPREMI_TAJMER); SPREMI_TAJMER = null; }
+      upisiProgress(redakOdPROGRESS()).then(otvori, otvori);
+      setTimeout(otvori, 4000);
+    } else {
+      spremiProgress();
+      otvori();
+    }
+  }
+  // Izbor jezika spremljen u racun vrijedi i na drugom uredaju. Vraca true ako se stranica mijenja.
+  function provjeriJezikRacuna() {
+    var j = PROGRESS.postavke && PROGRESS.postavke.jezik;
+    if (!j || j === JEZIK_APP || !JEZIK_STRANICA[j]) return false;
+    try { localStorage.setItem('croland.jezik', j); } catch (e) {}
+    try { if (ZADNJI_VIEW) sessionStorage.setItem('croland.nakonJezika', JSON.stringify(ZADNJI_VIEW)); } catch (e) {}
+    window.location.replace(JEZIK_STRANICA[j]);
+    return true;
+  }
   var VALUTA_TIPA = { Lesson: 'LP', Vocabulary: 'VP', Grammar: 'GP', Practice: 'PP' };
   // Udio dotad dostupnih bodova koji treba skupiti za otključavanje razine.
   // Krivulja raste od 0.50 (razina 2) do 0.80 i ondje STAJE.
@@ -4424,11 +4472,20 @@
       } catch (e) {}
       if (sirovo) { try { ZADNJI_VIEW = JSON.parse(sirovo); izGooglePreusmjerenja = true; } catch (e) {} }
     }
+    // dolazak s promjene jezika: nastavi na istom mjestu (obicno Options)
+    if (!ZADNJI_VIEW) {
+      try {
+        var nj = sessionStorage.getItem('croland.nakonJezika');
+        sessionStorage.removeItem('croland.nakonJezika');
+        if (nj) ZADNJI_VIEW = JSON.parse(nj);
+      } catch (e) {}
+    }
     var novoPrijavljen = !imaRacun() && !!(session && session.user);
     SESSION = session;
     SESSION_SPREMNA = true;
     if (!session) javiNeuspjeluPrijavu(izGooglePreusmjerenja);
     ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
+      if (provjeriJezikRacuna()) return;
       postaviTemu(temaSad());
       postaviFont(fontSad());
       var svjez = session && session.user && session.user.created_at &&
@@ -8490,6 +8547,7 @@
     renderOptions();
   }
   window.odaberiTemu = odaberiTemu;
+  window.odaberiJezik = odaberiJezik;
 
   // ================= READING FONTS =================
   // Isti put kao teme: izbor živi u PROGRESS.postavke, postaviFont() samo crta.
@@ -8610,8 +8668,19 @@
     // tek ovdje, kad je Options otvoren, a ne pri svakom pokretanju appa
     FONTOVI.forEach(function (f) { ucitajFont(f.id); });
 
-    var html = '<h1 class="sekcija">Options</h1>' +
-      '<div class="postavkeDva" style="margin-top:16px">';
+    var html = '<h1 class="sekcija">Options</h1>';
+
+    // Jezik uputa: hrvatski je isti u svim jezicima, mijenjaju se objasnjenja i prijevodi
+    html += '<div class="velicinaBlok"><div class="nasP">Language</div><div class="velicinaMreza">';
+    JEZICI.forEach(function (j) {
+      var sad = j.id === JEZIK_APP;
+      html += '<div class="velicinaK' + (sad ? ' aktivna' : '') + '" lang="' + j.id + '" onclick="odaberiJezik(\'' + j.id + '\')">' +
+        '<span class="imeV">' + esc(j.ime) + (sad ? ' ✓' : '') + '</span>' +
+        '<span class="opisV">' + esc(j.opis) + '</span></div>';
+    });
+    html += '</div><p style="margin-top:8px;color:var(--muted);font-size:var(--t-s)">Your progress stays exactly where it is — only the language of the explanations changes.</p></div>';
+
+    html += '<div class="postavkeDva" style="margin-top:16px">';
 
     html += '<div><div class="nasP">Color scheme</div><div class="stupacP">';
     TEME.forEach(function (t) {
@@ -11375,12 +11444,20 @@
         $('dictSmjerGM').classList.toggle('okrenut', !hrPrvi);
       }
     }
+    function dictPopisKrenuo() {
+      var prva = $('popisRijeci').querySelector('.rijecKart');
+      if (!prva) return false;
+      var crta = parseFloat(getComputedStyle($('dictOkvir')).getPropertyValue('--dictLjepilo')) || 0;
+      return prva.getBoundingClientRect().top < crta;
+    }
     function postaviOpseg(novi) {
       if (novi === dictOpseg) return;
       // Popis se mijenja pod nogama, ali mjesto u abecedi ostaje: zapamti se
       // slovo koje je bilo na vrhu i drugi popis se otvori na njemu (ako toga
       // slova ondje nema, abcCilj vodi na najbliže koje ima).
-      var slovo = abcSlovoNaVrhu();
+      // Samo ako je popis već krenuo ispod trake: dok je prva riječ još
+      // ispod nje (stranica na vrhu), ništa se ne pamti i stranica ostaje gdje je.
+      var slovo = dictPopisKrenuo() ? abcSlovoNaVrhu() : '';
       dictOpseg = novi;
       segmentOznaci($('dictOpsegP'), 'data-opseg', dictOpseg);
       segmentOznaci($('dictOpsegM'), 'data-opseg', dictOpseg);

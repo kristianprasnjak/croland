@@ -158,17 +158,19 @@ function podijeli(podaci) {
   };
 }
 
-function zapisi(izlaz, rezultat) {
+function zapisi(izlaz, rezultat, imena) {
+  // imena: { javni: 'data.js', placeni: 'data-plus.json' } — DE verzija koristi data-de.js / data-plus-de.json
+  imena = Object.assign({ javni: 'data.js', placeni: 'data-plus.json' }, imena || {});
   const zaglavlje = '// Automatski generirano — ne uredjivati rucno.\n' +
     '// Javni dio sadrzaja. Placene vjezbe su ovdje samo kao kosturi, bez sadrzaja.\n';
   fs.writeFileSync(
-    path.join(izlaz.javniDir, 'data.js'),
+    path.join(izlaz.javniDir, imena.javni),
     zaglavlje + 'window.PODACI = ' + JSON.stringify(rezultat.javni) + ';\n',
     'utf8'
   );
   fs.mkdirSync(izlaz.placeniDir, { recursive: true });
   fs.writeFileSync(
-    path.join(izlaz.placeniDir, 'data-plus.json'),
+    path.join(izlaz.placeniDir, imena.placeni),
     JSON.stringify(rezultat.placeni),
     'utf8'
   );
