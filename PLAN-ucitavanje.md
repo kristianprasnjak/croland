@@ -1,6 +1,6 @@
 # Plan: ekran za učitavanje (loading screen)
 
-Status: **prijedlog, ništa nije implementirano.**
+Status: **ekran je implementiran** (odjeljci 3, 4 i 6). Ubrzanje (odjeljak 5) je sljedeći, zaseban korak.
 
 ## 1. Što se danas događa u te 2–3 sekunde
 
@@ -34,58 +34,35 @@ Posljedice:
 - Bez dodatnih zahtjeva prema mreži i bez knjižnica: čisti inline HTML i CSS.
 - Ako se nešto zaglavi, korisnik nije zarobljen: dobije poruku i gumb za ponovni pokušaj.
 
-## 3. Prijedlog dizajna
+## 3. Dizajn (odabrano: neutralno)
 
-Puni zaslon u boji `--bg` aktivne teme, na sredini:
+Zasad ništa grafički složeno. Na pozadini `--bg` aktivne teme stoji samo:
 
 ```
-            ┌───────────┐
-            │   Blobby  │   ← slike/Blobby1.webp (5 KB), lagano "diše" (scale 1 → 1.04)
-            └───────────┘
-              Croland        ← Space Grotesk 600, boja --ink
-      ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   ← tanka traka napretka u --plava (boja teme)
-     "Dobar dan!" · Good day ← jedna nasumična hrvatska fraza s prijevodom (mijenja se)
+                 ┌───┐
+                 │ C │      ← isti kvadratić s logom kao u zaglavlju, 3rem
+                 └───┘
+            ──────────────   ← traka 2 px, 7.5rem, u --plava na --rub
 ```
 
-Detalji:
-- **Blobby** kao maskota: korisnici ga već poznaju iz lekcija, pa je to toplije od spinnera.
-  Slika se učita odmah jer `<img>` stoji u HTML-u prije skripti.
-- **Traka napretka** s pravim fazama (ne lažnim postotkom):
-  | faza | otprilike | okidač |
-  |---|---|---|
-  | HTML i CSS nacrtani | 10 % | inline skripta odmah nakon ekrana |
-  | `data.js` stigao | 50 % | `<script>` s jednom linijom odmah nakon `data.js` |
-  | `rjecnik.js` + `supabase.js` | 70 % | isto, nakon njih |
-  | sesija gotova (`SESSION_SPREMNA`) | 85 % | u `poslijeAuthPromjene` |
-  | prvi render | 100 % → nestaje | na kraju `nastavi()` |
-
-  Između faza traka polako puzi (CSS `transition` od nekoliko sekundi), da nikad ne stoji.
-- **Hrvatska fraza dana**: 8–10 kratkih fraza upisanih ravno u inline skriptu ("Dobar dan!",
-  "Hvala lijepa", "Polako, polako"…). Ne smije čitati `data.js`, jer on još nije stigao.
-  Za `index-de.html` prijevod na njemački. Tako 2 s čekanja postanu mini-lekcija.
-- **Odgoda pojavljivanja ~300 ms**: ako se aplikacija otvori iz cachea za 200 ms, ekran se
-  uopće ne vidi (inače bi kratko bljesnuo). Rješava se CSS animacijom `opacity` s
-  `animation-delay`, bez JS-a.
-- **Izlaz**: `opacity` 1 → 0 kroz ~250 ms, zatim `remove()` iz DOM-a.
-- `prefers-reduced-motion`: bez disanja i bez fadea, traka skače bez animacije.
-- Pristupačnost: `role="status"`, `aria-live="polite"`, tekst "Loading Croland…";
-  ekran ima `aria-busy` dok traje, a `#view` dobije fokus kad nestane.
+- Nema teksta ni slike. Čitačima ekrana se najavi "Loading Croland…" (`role="status"`).
+- **Pozadina je neprozirna od prvog crtanja** i prekriva zaglavlje (`z-index: 2000`).
+  Logo i traka pojave se tek nakon **300 ms**, pa kod brzog otvaranja nema bljeska,
+  nego samo boja pozadine.
+- **Traka prati stvarne faze**: 10 % ekran nacrtan, 45 % `data.js`, 65 % `rjecnik.js`,
+  70 % `pregledi.js`, 80 % `supabase.js`, 90 % sesija gotova, 100 % prvi pogled.
+- **Izlaz**: `opacity` 1 → 0 kroz 250 ms, zatim `remove()` iz DOM-a.
+- `prefers-reduced-motion`: bez prijelaza i bez fadea.
+- Blobby, fraza dana i "disanje" su odgođeni. Mogu se kasnije dodati u isti element
+  bez mijenjanja logike.
 
 ### Tema bez skoka
 
-- Pri svakom `postaviTemu(id)` dodatno spremiti `localStorage['croland.tema'] = id`
-  (i isto za font ako treba).
-- Mala inline skripta na samom vrhu `<body>` pročita taj ključ i odmah postavi
-  `document.body.dataset.tema`, prije nego se išta nacrta. Tada su i ekran za učitavanje
-  i zaglavlje od prve sekunde u korisnikovoj boji, a kasniji `postaviTemu()` ne mijenja ništa.
-- Prvi posjet (nema ključa): zadana tema; ako `croland-pocetni-izgled` već postoji,
-  uzeti temu iz njega.
-
-### Zaglavlje
-
-Preporuka: ekran za učitavanje **prekriva i zaglavlje** (`position: fixed; inset: 0;
-z-index` iznad svega). Zaglavlje bez sadržaja i valuta (`#valuteHeader` je prazan dok
-progres ne stigne) izgleda nedovršeno, a klik na navigaciju prije gotovog JS-a ionako ne radi.
+- `postaviTemu(id)` sprema `localStorage['croland.tema']`.
+- Inline skripta ekrana na vrhu `<body>` čita taj ključ (ili temu iz
+  `croland-pocetni-izgled` ako ključa još nema) i odmah postavlja `data-tema`.
+- Prvi posjet ikad: zadane boje iz `:root`, jer se sjeme teme stvara tek u glavnoj skripti.
+- Na novom uređaju, nakon prijave, tema se može promijeniti jednom, kad stigne progres.
 
 ## 4. Sigurnosne mreže
 
@@ -121,24 +98,27 @@ Ekran skriva čekanje; ovo ga stvarno skraćuje. Može ići u isti ili u zaseban
 6. Kasnije: service worker koji cachira `data.js` i `rjecnik.js` (verzija u imenu ili
    hash). Drugo otvaranje postaje skoro trenutno. To je veći posao, ne za prvu verziju.
 
-## 6. Koraci implementacije
+## 6. Implementacija (napravljeno)
 
-1. **Markup i CSS ekrana** odmah nakon `<body>` u `index.html` i `index-de.html`:
-   `<div id="ucitavanje">` s Blobbyjem, naslovom, trakom i frazom. CSS inline u
-   postojećem `<style>`, samo na tokenima (`--bg`, `--ink`, `--plava`, `--muted`), tako da
-   sve teme rade same.
-2. **Inline skripta** odmah iza: tema iz `localStorage`, nasumična fraza, `window.CROLAND_UCITAVANJE`
-   s metodama `faza(postotak)`, `gotovo()` i `greska(poruka)`, timeout 12 s i `error` slušač.
-3. **Oznake faza**: jednolinijske `<script>CROLAND_UCITAVANJE.faza(50)</script>` između
-   postojećih `<script src>` (ili, uz `defer`, `onload` na svakoj skripti).
-4. **Gašenje**: `CROLAND_UCITAVANJE.gotovo()` u `poslijeAuthPromjene` → `nastavi()` (i
-   prije `proslaviRegistraciju`), te u grani "No data".
-5. **Spremanje teme** u `postaviTemu()` (i `postaviFont()` ako ima smisla).
-6. Ukloniti ili zadržati `renderUcitavanje()`: ostaje za navigaciju unutar aplikacije, ali
-   može dobiti isti mali Blobby da izgleda dosljedno.
-7. **Ubrzanja iz odjeljka 5**, točke 1–3 (jednostavne); 4–6 kasnije, zasebno.
-8. `scripts/build.js`: ništa novo ako ostaje Blobby iz `slike/` (već se kopira). Ako se
-   Supabase preseli lokalno, dodati ga u `FILES`.
+Isto u `index.html` i `index-de.html` (njemački tekst za poruku i gumb):
+
+1. **CSS** `#ucitavanje` na kraju glavnog `<style>`, samo na tokenima teme.
+2. **Markup i inline skripta** odmah nakon `<body>`. Skripta postavlja temu i izlaže
+   `window.CROLAND_UCITAVANJE` s metodama `faza(p)` i `gotovo()`. Pokreće i timeout od
+   12 s; nakon JS greške timeout se skraćuje na 4 s.
+3. **Oznake faza**: `<script>CROLAND_UCITAVANJE.faza(n)</script>` iza svake velike skripte.
+4. `poslijeAuthPromjene`: `faza(90)` kad je sesija gotova, a `gotovo()` odmah nakon
+   `nastavi()` / `proslaviRegistraciju()`. Crtanje je sinkrono, pa je pogled tada već
+   nacrtan. `gotovo()` se smije zvati više puta, a svaka iduća promjena prijave ga zove
+   bez učinka.
+5. `postaviTemu()` sprema temu u `localStorage`.
+6. `renderUcitavanje()` ("Checking your session…") ostaje za navigaciju unutar aplikacije.
+7. `scripts/build.js`: bez promjena, jer je sve inline.
+
+Provjereno u Chromiumu (Playwright, usporena mreža, 390 px): ekran se odmah vidi u
+spremljenoj temi, traka napreduje, ekran nestaje s prvim pogledom (Lesson 0), bez JS
+grešaka, za obje stranice. Kad `data.js` nikad ne stigne, nakon 12 s pojavi se
+"This is taking longer than usual." i gumb Reload.
 
 ## 7. Provjera
 
@@ -152,10 +132,8 @@ Ekran skriva čekanje; ovo ga stvarno skraćuje. Može ići u isti ili u zaseban
   "Forgot password", dolazak s promjenom jezika.
 - `index-de.html`: isto, s njemačkim prijevodom fraze.
 
-## 8. Otvorena pitanja
+## 8. Odluke
 
-1. Blobby + fraza (prijedlog) ili samo logo "C" i traka (minimalističnije)?
-2. Prekriti zaglavlje (prijedlog) ili ga ostaviti vidljivim iznad ekrana?
-3. Ide li ubrzanje (odjeljak 5) u istu promjenu ili zasebno nakon ekrana?
-4. Fraze na ekranu: fiksni popis u kodu ili kasnije iz `data.js` (tek kad su skripte
-   `defer` i rječnik stiže kasnije, to nema smisla za prvo otvaranje)?
+Odlučeno: neutralni ekran (logo + traka), prekriva zaglavlje, ubrzanje ide zasebno.
+
+Otvoreno za kasnije: dodati Blobbyja i frazu dana kad bude vremena za grafiku.

@@ -3291,9 +3291,98 @@
     .accRed { flex-wrap: wrap; }
     .accKodNas { flex-basis: 100%; }
   }
+  /* ================= EKRAN ZA UČITAVANJE =================
+     Stoji od prvog crtanja do prvog pravog pogleda (vidi PLAN-ucitavanje.md).
+     Pozadina je neprozirna odmah, pa se zaglavlje bez sadržaja nikad ne vidi;
+     logo i traka se pojave tek nakon 300 ms, da brzo otvaranje (iz cachea)
+     ne bljesne. Samo tokeni teme — svaka tema radi sama. */
+  #ucitavanje {
+    position: fixed; inset: 0; z-index: 2000; background: var(--bg);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1.25rem; padding: 1rem; transition: opacity .25s;
+  }
+  #ucitavanje.gotovo { opacity: 0; pointer-events: none; }
+  #ucitavanje .ucitSadrzaj {
+    display: flex; flex-direction: column; align-items: center; gap: 1.25rem;
+    animation: ucitPojava .3s .3s both;
+  }
+  @keyframes ucitPojava { from { opacity: 0; } to { opacity: 1; } }
+  #ucitavanje .ucitLogo {
+    width: 3rem; height: 3rem; border-radius: var(--rad-m);
+    background: var(--plava); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--naslov); font-weight: 700; font-size: 1.5rem; line-height: 1;
+  }
+  #ucitavanje .ucitTraka {
+    width: 7.5rem; height: 2px; border-radius: 1px; overflow: hidden;
+    background: var(--rub);
+  }
+  #ucitavanje .ucitTraka span {
+    display: block; height: 100%; background: var(--plava);
+    transform-origin: left; transform: scaleX(0); transition: transform .6s ease-out;
+  }
+  #ucitavanje .ucitPoruka { display: none; text-align: center; color: var(--muted); font-size: var(--t-s); }
+  #ucitavanje.zapelo .ucitPoruka { display: block; }
+  #ucitavanje .ucitPoruka button {
+    margin-top: 0.75rem; padding: 0.5rem 1rem; border: 1px solid var(--rub);
+    border-radius: var(--rad-s); background: var(--card); color: var(--ink);
+    font: inherit; cursor: pointer;
+  }
+  #ucitavanje .ucitSkriveno {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #ucitavanje, #ucitavanje .ucitTraka span { transition: none; }
+    #ucitavanje .ucitSadrzaj { animation-duration: 0s; }
+  }
 </style>
 </head>
 <body>
+<div id="ucitavanje" role="status" aria-live="polite" aria-busy="true">
+  <div class="ucitSadrzaj">
+    <div class="ucitLogo" aria-hidden="true">C</div>
+    <div class="ucitTraka" aria-hidden="true"><span></span></div>
+    <span class="ucitSkriveno">Loading Croland…</span>
+  </div>
+  <div class="ucitPoruka">This is taking longer than usual.<br><button type="button" onclick="location.reload()">Reload</button></div>
+</div>
+<script>
+  // Ekran za učitavanje. Mora stajati prije velikih skripti: one blokiraju crtanje.
+  // Tema se postavlja odmah, iz zadnje viđene (postaviTemu je sprema), da boja ne
+  // skoči kad stigne progres. faza(p) pomiče traku, gotovo() je gasi.
+  (function () {
+    var TEME = ['zagreb', 'jadran', 'maslina', 'tinta', 'sljiva'];
+    try {
+      var t = localStorage.getItem('croland.tema');
+      if (TEME.indexOf(t) === -1) t = (JSON.parse(localStorage.getItem('croland-pocetni-izgled') || 'null') || {}).tema;
+      if (TEME.indexOf(t) !== -1) document.body.setAttribute('data-tema', t);
+    } catch (e) {}
+    var el = document.getElementById('ucitavanje');
+    var traka = el.querySelector('.ucitTraka span');
+    var zavrseno = false, sat = null;
+    function zapni(ms) {
+      clearTimeout(sat);
+      sat = setTimeout(function () { if (!zavrseno) el.classList.add('zapelo'); }, ms);
+    }
+    zapni(12000);
+    // Greška prije prvog pogleda obično znači da ga neće ni biti — ne čeka se punih 12 s.
+    window.addEventListener('error', function () { if (!zavrseno) zapni(4000); });
+    window.CROLAND_UCITAVANJE = {
+      faza: function (p) { if (!zavrseno) traka.style.transform = 'scaleX(' + p / 100 + ')'; },
+      gotovo: function () {
+        if (zavrseno) return;
+        zavrseno = true;
+        clearTimeout(sat);
+        traka.style.transform = 'scaleX(1)';
+        el.setAttribute('aria-busy', 'false');
+        el.classList.add('gotovo');
+        setTimeout(function () { el.remove(); }, 300);
+      }
+    };
+    window.CROLAND_UCITAVANJE.faza(10);
+  })();
+</script>
 <header>
   <div class="logo" id="logoBtn" onclick="klikLogo()" title="Croland">C</div>
   <nav>
@@ -3378,9 +3467,13 @@
 <div id="ceduljeSloj"></div>
 
 <script src="data.js"></script>
+<script>CROLAND_UCITAVANJE.faza(45)</script>
 <script src="rjecnik.js"></script>
+<script>CROLAND_UCITAVANJE.faza(65)</script>
 <script src="pregledi.js"></script>
+<script>CROLAND_UCITAVANJE.faza(70)</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script>CROLAND_UCITAVANJE.faza(80)</script>
 <script>
 (function () {
   'use strict';
@@ -4682,6 +4775,7 @@
     var novoPrijavljen = !imaRacun() && !!(session && session.user);
     SESSION = session;
     SESSION_SPREMNA = true;
+    window.CROLAND_UCITAVANJE.faza(90);
     if (!session) javiNeuspjeluPrijavu(izGooglePreusmjerenja);
     ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
       if (provjeriJezikRacuna()) return;
@@ -4704,6 +4798,8 @@
         }
       };
       if (celebriraj) proslaviRegistraciju(nastavi); else nastavi();
+      // Prvi pogled je nacrtan (crtanje je sinkrono) — ekran za učitavanje može van.
+      window.CROLAND_UCITAVANJE.gotovo();
       provjeriKodIzAdrese();
       osvjeziHeader();
       // Zaštićeni sadržaj se povlači u pozadini, da prvo otvaranje lekcije 2 ne čeka mrežu.
@@ -8764,6 +8860,8 @@
   }
   function postaviTemu(id) {
     document.body.setAttribute('data-tema', id);
+    // Ekran za učitavanje čita ovo pri sljedećem otvaranju, prije nego progres stigne.
+    try { localStorage.setItem('croland.tema', id); } catch (e) {}
   }
   function odaberiTemu(id) {
     postaviTemu(id);
