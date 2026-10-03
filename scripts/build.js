@@ -16,7 +16,8 @@ const ZASTICENO = path.join(ROOT, 'zasticeno');
 const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html',
   // njemacka verzija (croland-de/): ista aplikacija, druga stranica, isti kljucevi napretka
   'index-de.html', 'rjecnik-de.js', 'pregledi-de.js'];
-const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily'];
+// vendor/: supabase-js s vlastite domene (verzija zaključana u imenu datoteke), ne s CDN-a
+const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
 
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });

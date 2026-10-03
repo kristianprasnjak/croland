@@ -16,6 +16,10 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Croland · info-v1</title>
+<!-- Veza prema Supabaseu (TLS) se otvara dok stižu skripte, pa prvi poziv nakon njih
+     ne čeka rukovanje. Preload za data.js/rjecnik.js je isproban i nije ubrzao ništa:
+     usko grlo su bajtovi, ne trenutak kad preuzimanje krene. -->
+<link rel="preconnect" href="https://krunohdgohuebmafepmb.supabase.co" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -3472,7 +3476,7 @@
 <script>CROLAND_UCITAVANJE.faza(65)</script>
 <script src="pregledi-de.js"></script>
 <script>CROLAND_UCITAVANJE.faza(70)</script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="vendor/supabase-2.117.2.js"></script>
 <script>CROLAND_UCITAVANJE.faza(80)</script>
 <script>
 (function () {
@@ -4719,7 +4723,8 @@
   }
   function prijaviGoogle() {
     // Bez knjižnice je ovo prije bio prazan `return`: klik na gumb nije radio baš ništa i
-    // korisnik nije imao što prijaviti. Najčešći uzrok je blokiran cdn.jsdelivr.net.
+    // korisnik nije imao što prijaviti. Najčešći uzrok je bio blokiran
+    // cdn.jsdelivr.net; od kad je knjižnica u vendor/, to je blokator sadržaja ili prekid veze.
     if (!supa) {
       banerPoruka('Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. ' +
         'Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.');
@@ -4780,7 +4785,14 @@
     SESSION_SPREMNA = true;
     window.CROLAND_UCITAVANJE.faza(90);
     if (!session) javiNeuspjeluPrijavu(izGooglePreusmjerenja);
-    ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
+    // Tri dohvata ne ovise jedan o drugome, pa idu paralelno: jedan krug do Supabasea
+    // umjesto tri zaredom.
+    var ceka = 3;
+    var sviStigli = function () { if (--ceka === 0) poslijeUcitavanja(); };
+    ucitajPostavke(sviStigli);
+    ucitajEntitlement(sviStigli);
+    ucitajProgress(sviStigli);
+    function poslijeUcitavanja() {
       if (provjeriJezikRacuna()) return;
       postaviTemu(temaSad());
       postaviFont(fontSad());
@@ -4812,7 +4824,7 @@
         // može, pa je vrijedi osvježiti ako je korisnik još na njoj.
         if (uspjeh && ZADNJI_VIEW && ZADNJI_VIEW.view === 'main') renderMain();
       });
-    }); }); });
+    }
   }
   // Zove se kad se sesija nije uspostavila. Poruka o kvaru vrijedi više od tihog povratka
   // na istu stranicu — bez nje se svaki neuspjeh prijave prijavljuje kao "ništa se ne dogodi",

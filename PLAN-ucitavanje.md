@@ -1,6 +1,6 @@
 # Plan: ekran za učitavanje (loading screen)
 
-Status: **ekran je implementiran** (odjeljci 3, 4 i 6). Ubrzanje (odjeljak 5) je sljedeći, zaseban korak.
+Status: **ekran je implementiran** (odjeljci 3, 4 i 6), **ubrzanje djelomično** (odjeljak 5).
 
 ## 1. Što se danas događa u te 2–3 sekunde
 
@@ -78,25 +78,53 @@ Zasad ništa grafički složeno. Na pozadini `--bg` aktivne teme stoji samo:
 - **Preusmjeravanje na drugi jezik** (skripta u `<head>`): ne dira ekran, jer se stranica
   ionako zamijeni.
 
-## 5. Ubrzanje samog čekanja (neovisno o izgledu, ali isplati se)
+## 5. Ubrzanje samog čekanja
 
-Ekran skriva čekanje; ovo ga stvarno skraćuje. Može ići u isti ili u zaseban korak.
+### Napravljeno
 
-1. **`defer` na četiri skripte** + glavna skripta u `DOMContentLoaded`. Preglednik tada
-   preuzima `data.js`, `rjecnik.js` i `supabase.js` **paralelno** dok crta ekran.
-   Treba provjeriti da ništa u tijelu ne zove funkcije prije toga (`onclick` atributi su u
-   redu jer se izvršavaju tek na klik).
-2. **`<link rel="preload">`** za `data.js` i `rjecnik.js` u `<head>`, da preuzimanje krene
-   prije nego se parsira 3000 redaka CSS-a.
-3. **`ucitajPostavke` i `ucitajEntitlement` paralelno** umjesto u nizu, ako ne ovise
-   jedno o drugome (provjeriti). Ušteda jedan krug do Supabasea (~100–300 ms).
-4. **`rjecnik.js` nakon prvog rendera**: rječnik treba tek u vježbama i na stranici
-   Dictionary. Učitati ga u pozadini nakon prvog rendera (uz kratki "učitavam" ako netko
-   baš tad otvori rječnik). Najveća pojedinačna ušteda nakon `data.js`.
-5. **Supabase s vlastite domene**: kopirati `supabase.js` u `dist/` (verzija zaključana)
-   umjesto jsDelivr. Jedan DNS/TLS manje i nema ovisnosti o tuđem CDN-u.
-6. Kasnije: service worker koji cachira `data.js` i `rjecnik.js` (verzija u imenu ili
-   hash). Drugo otvaranje postaje skoro trenutno. To je veći posao, ne za prvu verziju.
+1. **Tri dohvata iz Supabasea paralelno** (`ucitajPostavke`, `ucitajEntitlement`,
+   `ucitajProgress` u `poslijeAuthPromjene`). Međusobno ne ovise, a prije su išli zaredom.
+   Prijavljeni korisnik štedi dva kruga do Supabasea (procjena ~0,2–0,6 s). Gost radi
+   samo jedan stvarni poziv, pa za njega nema razlike.
+2. **`supabase-js` s vlastite domene**: `vendor/supabase-2.117.2.js` (MIT, licenca uz njega),
+   umjesto `cdn.jsdelivr.net/...@2`. Jedna veza (DNS + TLS) manje, verzija zaključana i
+   nema ovisnosti o tuđem CDN-u. `scripts/build.js` kopira `vendor/` u `dist/`.
+   Nadogradnja: `npm pack @supabase/supabase-js@<verzija>`, kopirati `dist/umd/supabase.js`
+   u `vendor/` pod novim imenom i promijeniti `<script src>` u obje stranice.
+3. **`preconnect` prema Supabaseu** u `<head>`: TLS rukovanje se obavi dok stižu skripte.
+
+### Isprobano i odbačeno
+
+- **`preload` za `data.js` / `rjecnik.js`**: izmjereno bez ikakvog dobitka (1,23 s prije i
+  poslije). Usko grlo su bajtovi, ne trenutak kad preuzimanje krene. Usto bi njemačkim
+  korisnicima koji uđu preko `index.html` uzalud vukao engleske podatke prije preusmjeravanja.
+- **`defer`**: iz istog razloga ne bi donio ništa, a traži premještanje glavne skripte u
+  `DOMContentLoaded`.
+
+### Mjerenje (Chromium, 6 Mbit/s, 150 ms latencija, gzip kao na GitHub Pagesu, gost)
+
+| | komprimirano | stiglo do |
+|---|---|---|
+| `index.html` (inline CSS + glavna skripta) | 205 KB | 0,75 s |
+| `rjecnik.js` | 202 KB | 0,92 s |
+| `data.js` (javni dio) | 78 KB | 0,73 s |
+| `supabase-2.117.2.js` | 54 KB | 0,64 s |
+| `pregledi.js` | 9 KB | 0,47 s |
+
+Prvi pogled: **1,25 s** (procesor kao računalo), **1,73 s** (procesor 4× sporiji, kao
+slabiji mobitel). Oko 0,9 s je preuzimanje, ostatak izvršavanje JS-a i jedan poziv
+Supabaseu. Na stvarnoj mobilnoj mreži i s prijavom to naraste na 2–3 s.
+
+### Sljedeći veliki dobitak (nije napravljeno)
+
+- **`rjecnik.js` nakon prvog pogleda**: to je 37 % svih bajtova. Treba ga u vježbama
+  (indeks `LEME`/`OBLICI` gradi se pri pokretanju) i na stranici Dictionary. Naslovnici
+  ne treba. Posao: učitati ga u pozadini nakon prvog rendera, indeks graditi kad stigne, a
+  vježbe i Dictionary pričekati ga ako netko uđe prije. Procjena ~0,3 s na 6 Mbit/s i
+  manje JS-a za izvršiti. Za novog korisnika nema dobitka, jer je njegov prvi pogled
+  Lekcija 0, koja rječnik treba.
+- **Service worker** koji drži `data.js`, `rjecnik.js` i `vendor/` u cacheu: drugo
+  otvaranje bez ijednog zahtjeva. Veći posao, s rizikom zastarjelih podataka nakon objave.
 
 ## 6. Implementacija (napravljeno)
 
@@ -126,7 +154,7 @@ grešaka, za obje stranice. Kad `data.js` nikad ne stigne, nakon 12 s pojavi se
   kroz faze, ekran nestane točno s prvim renderom, nema skoka teme.
 - Brza veza / cache: ekran se **ne** vidi (odgoda 300 ms).
 - Blokirati `krunohdgohuebmafepmb.supabase.co` u DevToolsima: nakon 12 s poruka + Reload.
-- Blokirati `cdn.jsdelivr.net`: aplikacija radi bez prijave i ekran se gasi.
+- Blokirati `vendor/supabase-2.117.2.js`: aplikacija radi bez prijave i ekran se gasi.
 - Svih 5 tema, svijetlo, mobitel (360 px) i desktop, `prefers-reduced-motion`.
 - Prijava preko Googlea (povratak s preusmjeravanja), registracija (proslava), link
   "Forgot password", dolazak s promjenom jezika.
