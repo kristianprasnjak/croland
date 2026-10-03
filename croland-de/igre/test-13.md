@@ -268,7 +268,7 @@ opis: Nicht zum Lokativ – alles hier stammt aus den Stufen 8 bis 12.
 - Koja je rečenica točna? | Plivat ću. | Plivati ću. | Plivaću.
 - ___ gitara je nova. (ihr – von ihr) | Njezina | Njezin | Njezino
 - ___ koljeno boli. (mein) | Moje | Moj | Moja
-- Čija je ovo lopta? — ___ . (meiner) | Moja | Moj | Moje
+- Čija je ovo lopta? — ___ . (meins) | Moja | Moj | Moje
 - Ana je ___ na koncertu. (pjevati) | pjevala | pjevao | pjevali
 - Sve je ___ savršeno. (biti) | bilo | bio | bila
 - Marko i Ivan su ___ u kino. (ići) | išli | išla | išao

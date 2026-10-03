@@ -55,6 +55,12 @@ def prevedi_js(js):
         novi = None
         if '<' in s and '>' in s:
             novi = re.sub(r'>([^<>]+)<', lambda t: '>' + zamijeni_tekst_cvora(t.group(1), 'jshtml', q) + '<', '>' + s + '<')[1:-1]
+            def _attr(t):
+                v = html.unescape(t.group(2))
+                if v not in TR: return t.group(0)
+                stat['attr'] += 1
+                return t.group(1) + '="' + esc_js(html.escape(TR[v], quote=True), q) + '"'
+            novi = re.sub(r'\b(placeholder|title|aria-label|alt|data-tip)="([^"]+)"', _attr, novi)
         elif s in TR:
             if s in KOD:
                 # identifikator (tip vjezbe, tipka, zaglavlje, font): prevedi samo kao

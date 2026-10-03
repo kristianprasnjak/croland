@@ -192,7 +192,7 @@ opis: Mach aus jeder Aussage eine *li*-Frage.
 format: tekst
 info: Die zweite Regelseite, und meist eine Erinnerung. *Li* ist die Ja-Nein-Frage aus Lektion 5: Verb zuerst, *li* an zweiter Stelle. Bei *biti* werden die langen Formen verwendet, und *zar ne?* macht aus jeder Aussage eine Frage, ohne ihre Wortstellung anzurühren.
 infokratko: Verb + *li*; lange Formen bei *biti*. *zar ne?* macht aus jeder Aussage eine Frage.
-- **li** hast du schon in Lektion 5 an der Ladentheke getroffen: *Trebate **li** vrećicu?* Das Rezept hat sich nicht geändert – Verb zuerst, *li* an zweiter Stelle, sonst nichts bewegt.
+- **li** hast du schon in Lektion 5 an der Ladentheke kennengelernt: *Trebate **li** vrećicu?* Das Rezept hat sich nicht geändert – Verb zuerst, *li* an zweiter Stelle, sonst nichts bewegt.
 - tab: Aussage | Frage
 - tab: Voliš čokoladu. | Voliš **li** čokoladu?
 - tab: Imaš psa. | Imaš **li** psa?

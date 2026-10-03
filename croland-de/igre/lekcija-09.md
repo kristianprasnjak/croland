@@ -245,15 +245,15 @@ format: izbor
 info: Eine Frage entscheidet jeden Punkt hier: Gehört die Sache der Person, die handelt? **Ja → *svoj*. Nein → *njegov* oder *njezin*.** Such das Subjekt am Satzanfang und vergleich es mit dem Besitzer, dann ergibt sich die Wahl von selbst.
 infokratko: Gehört es dem Subjekt? Ja → *svoj*. Nein → *njegov / njezin*.
 opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
-- Marko voli ___ sestru. (seine eigene) | svoju | njegovu
+- Marko voli ___ sestru. (sein eigen-) | svoju | njegovu
 - Marko voli ___ sestru. (Ivan's) | njegovu | svoju
-- Ana čita ___ knjigu. (ihr eigenes) | svoju | njezinu
-- Maja voli ___ hobi. (ihr eigenes) | svoj | njezin
-- Luka nosi ___ loptu. (seinen eigenen) | svoju | njegovu
-- Ana slika ___ mačku. (ihre eigene) | svoju | njezinu
-- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
-- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
-- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
+- Ana čita ___ knjigu. (ihr eigen-) | svoju | njezinu
+- Maja voli ___ hobi. (ihr eigen-) | svoj | njezin
+- Luka nosi ___ loptu. (sein eigen-) | svoju | njegovu
+- Ana slika ___ mačku. (ihr eigen-) | svoju | njezinu
+- Trener gleda ___ momčad. (sein eigen-) | svoju | njegovu
+- Djeca nose ___ dresove. (ihr eigen-, von ihnen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigen-) | svoj | njezin
 - On nosi ___ dres. (Marko's) | njegov | svoj
 
 ## Bau es
@@ -321,7 +321,7 @@ opis: Abschlusscheck! Erreiche 80 %, um bereit für Wortschatz 9 zu sein.
 - izbor | Koja je rečenica točna? | Njezina gitara je nova. | Njezin gitara je nova.
 - izbor | „njegov“ bedeutet „ihr“ (von ihr). | FALSCH | RICHTIG
 - upis | ___ koljeno boli. (mein) | Moje
-- izbor | Marko voli ___ sestru. (seine eigene) | svoju | njegovu
+- izbor | Marko voli ___ sestru. (sein eigen-) | svoju | njegovu
 - izbor | Što znači "čiji"? | wessen | welcher | ob
 - slaganje | Njihova obrana je jaka, ali naš kapetan je brz. | en: Ihre Verteidigung ist stark, aber unser Kapitän ist schnell.
 - upis | Prevedi: mein Ball → | moja lopta

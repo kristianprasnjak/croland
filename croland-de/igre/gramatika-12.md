@@ -133,8 +133,8 @@ opis: Die Bedeutung steht in Klammern. Wähle das Wort, das dazu passt – und z
 - Marko ___ jede. (etwas) | nešto | ništa | netko
 - ___ ne kuha. (niemand) | Nitko | Netko | Nikoga
 - ___ pjeva u kuhinji. (jemand) | Netko | Nitko | Nekoga
-- ___ ne čekam. (niemanden) | Nikoga | Nitko | Nekoga
-- Čekaš li ___? (jemanden) | nekoga | nikoga | netko
+- ___ ne čekam. (niemand) | Nikoga | Nitko | Nekoga
+- Čekaš li ___? (jemand) | nekoga | nikoga | netko
 - Ana ___ ne ide. (nirgendwohin) | nigdje | negdje | nikad
 - Ključ je ___ u kuhinji. (irgendwo) | negdje | nigdje | nešto
 - Baka ___ ne pije kavu. (nie) | nikad | nekad | nigdje

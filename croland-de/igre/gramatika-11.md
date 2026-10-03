@@ -131,14 +131,14 @@ infokratko: *čiji, koji*: m **-i**, f **-a**, n **-e**. *kakav* nackt im Maskul
 opis: Ein Wort – und es muss zum Nomen passen.
 - ___ je ovo dres? (wessen) | Čiji
 - ___ je more danas? (was für ein) | Kakvo
-- ___ vlak ide u Split? (welcher) | Koji
+- ___ vlak ide u Split? (welch-) | Koji
 - ___ je ovo pismo? (wessen) | Čije
-- ___ pjesmu pjevaš? (welcher) | Koju
+- ___ pjesmu pjevaš? (welch-) | Koju
 - ___ je tvoja sestra? (was für ein) | Kakva
 - ___ je ovo lopta? (wessen) | Čija
-- ___ film gledamo? (welcher) | Koji
+- ___ film gledamo? (welch-) | Koji
 - ___ je kava? (was für ein) | Kakva
-- ___ knjigu čitaš? (welcher) | Koju
+- ___ knjigu čitaš? (welch-) | Koju
 - ___ su ovo knjige? (wessen) | Čije
 - ___ je poklon? (was für ein) | Kakav
 

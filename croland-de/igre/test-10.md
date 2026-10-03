@@ -292,7 +292,7 @@ opis: Nicht über die Vergangenheit – alles hier stammt aus den Levels 5 bis 9
 - Plivat ću. → negativno | Neću plivati. | Ne ću plivati. | Plivat neću.
 - ___ gitara je nova. (ihr – von ihr) | Njezina | Njezin | Njezino
 - ___ klub je dobar. (unser) | Naš | Naša | Naše
-- Marko voli ___ klub. (seinen eigenen) | svoj | njegov | njegova
+- Marko voli ___ klub. (sein eigen-) | svoj | njegov | njegova
 - Čija je ovo lopta? | Moja. | Moj. | Moje.
 - ___ koljeno boli. (mein) | Moje | Moj | Moja
 

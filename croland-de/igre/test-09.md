@@ -185,18 +185,18 @@ opis: Oben steht das Deutsche. Ein Tipp vervollständigt das Possessivpronomen �
 ## svoj oder njegov?
 format: izbor
 opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
-- Marko voli ___ klub. (seinen eigenen) | svoj | njegov
+- Marko voli ___ klub. (sein eigen-) | svoj | njegov
 - Marko gleda ___ gitaru. (Anas Gitarre) | njezinu | svoju
-- Ana nosi ___ dres. (ihr eigenes) | svoj | njezin
-- Ana zove ___ sestru. (ihre eigene) | svoju | njezinu
+- Ana nosi ___ dres. (ihr eigen-) | svoj | njezin
+- Ana zove ___ sestru. (ihr eigen-) | svoju | njezinu
 - Ana zove ___ sestru. (Markos Schwester) | njegovu | svoju
-- Igrači vole ___ klub. (ihren eigenen) | svoj | njihov
-- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
-- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
-- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
+- Igrači vole ___ klub. (ihr eigen-, von ihnen) | svoj | njihov
+- Trener gleda ___ momčad. (sein eigen-) | svoju | njegovu
+- Djeca nose ___ dresove. (ihr eigen-, von ihnen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigen-) | svoj | njezin
 - On nosi ___ dres. (Markos Trikot) | njegov | svoj
-- Ivan voli ___ grad. (seine eigene) | svoj | njegov
-- Svaki igrač nosi ___ loptu. (seinen eigenen) | svoju | njegovu
+- Ivan voli ___ grad. (sein eigen-) | svoj | njegov
+- Svaki igrač nosi ___ loptu. (sein eigen-) | svoju | njegovu
 
 ## Wem gehört es?
 format: izbor

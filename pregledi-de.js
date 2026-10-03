@@ -22,12 +22,12 @@ window.PREGLEDI = {
   'Grammar 1': { h: 'Endungen, die zusammenpassen',
     ex: [['Kuća je velika.', 'Das Haus ist groß.'], ['Kava nije dobra.', "Der Kaffee ist nicht gut."]],
     p2: [{ g: [['grad', 'kuća', 'more'], ['velik', 'velika', 'veliko']] },
-         { w: [['je', 'is'], ['nije', "isn't"]] }] },
+         { w: [['je', 'wartet'], ['nije', "isn't"]] }] },
   'Practice 1': { h: 'Lies deine ersten Texte', s: 'Eine Stadt, ein Zimmer und ein Café.',
     p2: [{ t: [['Kava, molim.', 'Einen Kaffee, bitte.'], ['Izvolite.', 'Bitte schön.'], ['Hvala!', 'Danke!']] }] },
   'Test 1': { h: 'Zeig, was du kannst', s: 'Wörter, Endungen und einfache Sätze.',
     p2: [{ g: [['grad', 'kuća', 'more'], ['star', 'stara', 'staro']] },
-         { w: [['je', 'is'], ['nije', "isn't"]] }] },
+         { w: [['je', 'wartet'], ['nije', "isn't"]] }] },
 
   // ---------- 2 ----------
   'Lesson 2': { h: 'Über Menschen sprechen',

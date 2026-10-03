@@ -262,7 +262,7 @@ opis: Nicht über Fragen – alles hier stammt aus den Levels 6 bis 10.
 - Koja je rečenica točna? | Plivat ću. | Plivati ću. | Plivaću.
 - Plivat ću. → negativno | Neću plivati. | Ne ću plivati. | Plivat neću.
 - ___ gitara je nova. (ihr – von ihr) | Njezina | Njezin | Njezino
-- Marko voli ___ klub. (seinen eigenen) | svoj | njegov | njegova
+- Marko voli ___ klub. (sein eigen-) | svoj | njegov | njegova
 - ___ koljeno boli. (mein) | Moje | Moj | Moja
 - Jučer sam ___ film. (gledati, m.) | gledao | gledala | gledali
 - Ana je ___ na koncertu. (pjevati) | pjevala | pjevao | pjevali

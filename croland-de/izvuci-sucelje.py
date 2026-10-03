@@ -19,14 +19,20 @@ def _vokab():
         elif r['jezik'] == 'hr': hr.update(ws)
     return {w for w, n in en.items() if (n >= 3 and w not in hr and len(w) > 1) or (n >= 1 and len(w) > 3 and w not in hr)} | {'of', 'to', 'in', 'on', 'at', 'by', 'or', 'and', 'the', 'is', 'up', 'no', 'ago'}
 VOK = _vokab()
+# + UI rijeci kojih nema u lekcijama
+VOK |= {'threshold', 'passed', 'mark', 'points', 'streak', 'restarts', 'chose'}
 
 def eng(s):
     t = s.strip()
+    w0 = re.findall(r"[A-Za-z']+", t)
+    if (len(w0) >= 3 and not re.search(r'[{}]|=>|\bfunction\b|\breturn\b|\bvar\b|\(\)|rgba?\(|^https?:|^[#/]|^\.\w', t)
+            and sum(x.lower() in VOK for x in w0) >= 0.6 * len(w0)):
+        return True
     if re.search(r'[{};]|=>|\bfunction\b|\breturn\b|rgba?\(|^https?:|^[.#/]', t): return False
     w0 = re.findall(r"[A-Za-z']+", t)
     if w0 and len(t) < 200 and re.search(r'[A-Za-z]{2}', t):
         # tekst s barem jednom engleskom rijeci iz lekcija, a nije identifikator
-        frag = s != s.strip() or re.search(r'[:→↻‹›]\s*$|^\s*[·—–]', s)
+        frag = s != s.strip() or re.search(r'[:→↻‹›]\s*$|^\s*[·—–%.,]', s)
         if (len(w0) >= 2 or frag or re.search(r'^[A-Z][a-z]+( \d+)?[:!?.]?$', t)) and sum(x.lower() in VOK for x in w0) >= max(1, (len(w0) + 1) // 2):
             return True
     t = s.strip()
@@ -63,8 +69,11 @@ for m in re.finditer(r'<(script|style)[^>]*>(.*?)</\1>', src, re.S):
             # u JS-u stringovi s HTML-om: izvuci tekst izmedu tagova
             if '<' in s and '>' in s:
                 for tt in re.finditer(r'>([^<>]+)<', '>' + s + '<'):
-                    x = html.unescape(tt.group(1)).strip()
-                    if x and eng(x): rez.append((re.sub(r'\s+', ' ', x), 'js-html', b2 + js[:a].count('\n') + 1))
+                    x0 = html.unescape(tt.group(1)); x = x0.strip()
+                    if x and eng(x0): rez.append((re.sub(r'\s+', ' ', x), 'js-html', b2 + js[:a].count('\n') + 1))
+                for tt in re.finditer(r'\b(placeholder|title|aria-label|alt|data-tip)="([^"]+)"', s):
+                    x = html.unescape(tt.group(2))
+                    if eng(x): rez.append((x, 'js-attr', b2 + js[:a].count('\n') + 1))
             elif eng(s):
                 rez.append((s, 'js', b2 + js[:a].count('\n') + 1))
     poz = m.end()

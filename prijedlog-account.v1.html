@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Croland — Account (prijedlog)</title>
+<style>
+  :root {
+    --t-xs: 0.75rem; --t-s: 0.82rem; --t-m: 0.9rem; --t-l: 1rem;
+    --t-xl: 1.15rem; --t-2xl: 1.35rem; --t-3xl: 1.6rem; --t-4xl: 2.1rem;
+    --rad-s: 0.5rem; --rad-m: 0.625rem; --rad-l: 0.875rem; --rad-xl: 1.125rem;
+    --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
+    --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
+    --zlatna: #8a6d1f; --plavaVok: #23407a; --tinta: #1d1b17; --tiho: #f0ece4; --papir: #faf7f1;
+    --tekst: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--tekst);
+    font-size: var(--t-l); line-height: 1.55; }
+
+  /* ---------- traka za mockup (nije dio dizajna) ---------- */
+  .mockTraka { position: sticky; top: 0; z-index: 20; background: var(--tinta); color: #fff;
+    display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; padding: .6rem 1rem; font-size: var(--t-s); }
+  .mockTraka b { margin-right: .5rem; opacity: .7; font-weight: 500; }
+  .mockTraka button { font: inherit; color: #fff; background: transparent; border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px; padding: .25rem .8rem; cursor: pointer; }
+  .mockTraka button[aria-pressed="true"] { background: #fff; color: var(--tinta); border-color: #fff; }
+
+  header { display: flex; align-items: center; gap: 1.25rem; padding: .875rem 1.5rem;
+    background: var(--card); border-bottom: 1px solid var(--rub); }
+  header .logo { width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--tinta); color: #fff;
+    display: grid; place-items: center; font-weight: 700; font-size: var(--t-m); flex: none; }
+  header nav { display: flex; gap: .25rem; flex-wrap: wrap; flex: 1; }
+  header nav a { padding: .375rem .625rem; border-radius: var(--rad-s); color: var(--muted); font-size: var(--t-m); }
+  header nav a.aktivna { color: var(--plava); background: var(--tiho); font-weight: 600; }
+
+  main { max-width: 52rem; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+  h1 { font-size: var(--t-3xl); margin: 0 0 .25rem; letter-spacing: -.01em; }
+  h2 { font-size: var(--t-xl); margin: 0 0 .75rem; }
+  .muted { color: var(--muted); }
+  .sitno { font-size: var(--t-s); }
+  .ploca { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 1.25rem 1.4rem; margin-bottom: 1.1rem; }
+  .gumb { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; font: inherit; font-weight: 600;
+    background: var(--tinta); color: #fff; border: 0; border-radius: var(--rad-s); padding: .7rem 1.2rem; cursor: pointer; }
+  .gumb.sivi { background: var(--tiho); color: var(--ink); border: 1px solid var(--rub); }
+  .gumb.obrub { background: transparent; color: var(--ink); border: 1px solid var(--rub); }
+  .gumb.opasno { background: transparent; color: var(--crvena); border: 1px solid #e8c3c1; }
+  .gumb.puni { width: 100%; }
+  .veza { color: var(--plavaVok); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; background: none; border: 0; font: inherit; padding: 0; }
+
+  /* ---------- identitet ---------- */
+  .ja { display: flex; gap: 1rem; align-items: center; }
+  .avatar { width: 3.5rem; height: 3.5rem; border-radius: 50%; background: var(--plava); color: #fff; flex: none;
+    display: grid; place-items: center; font-size: var(--t-2xl); font-weight: 700; }
+  .ja .ime { font-size: var(--t-2xl); font-weight: 700; line-height: 1.2; }
+  .znacka { display: inline-flex; align-items: center; gap: .3rem; font-size: var(--t-xs); font-weight: 600;
+    padding: .15rem .55rem; border-radius: 999px; background: var(--tiho); color: var(--muted); vertical-align: middle; }
+  .znacka.plus { background: #f3ead2; color: var(--zlatna); }
+  .ja .odjava { margin-left: auto; }
+
+  /* ---------- plan / pretplata ---------- */
+  .plan { border-width: 2px; }
+  .plan.jePlus { border-color: #e2cf97; background: linear-gradient(180deg, #fcf6e6, var(--card) 60%); }
+  .planVrh { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+  .planIme { font-size: var(--t-2xl); font-weight: 700; }
+  .redovi { display: grid; grid-template-columns: auto 1fr; gap: .35rem 1.25rem; margin: 1rem 0 1.1rem; font-size: var(--t-m); }
+  .redovi dt { color: var(--muted); }
+  .redovi dd { margin: 0; font-weight: 500; }
+
+  .cijene { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; margin: 1rem 0; }
+  .cijena { position: relative; text-align: left; background: var(--card); border: 1.5px solid var(--rub);
+    border-radius: var(--rad-l); padding: 1rem 1rem 1.1rem; cursor: pointer; font: inherit; color: inherit; }
+  .cijena:hover { border-color: var(--muted); }
+  .cijena[aria-pressed="true"] { border-color: var(--tinta); box-shadow: 0 0 0 1px var(--tinta); }
+  .cijena .naz { font-size: var(--t-s); color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+  .cijena .iznos { font-size: var(--t-4xl); font-weight: 700; line-height: 1.1; margin: .3rem 0 .1rem; }
+  .cijena .iznos small { font-size: var(--t-m); font-weight: 500; color: var(--muted); }
+  .cijena .pod { font-size: var(--t-s); color: var(--muted); }
+  .cijena .vrpca { position: absolute; top: -.65rem; right: .8rem; background: var(--zelena); color: #fff;
+    font-size: var(--t-xs); font-weight: 700; padding: .12rem .55rem; border-radius: 999px; }
+
+  .usporedba { width: 100%; border-collapse: collapse; font-size: var(--t-m); margin-top: .25rem; }
+  .usporedba th, .usporedba td { padding: .55rem .4rem; border-bottom: 1px solid var(--rub); text-align: center; }
+  .usporedba th:first-child, .usporedba td:first-child { text-align: left; }
+  .usporedba thead th { font-size: var(--t-s); color: var(--muted); font-weight: 600; }
+  .usporedba thead th.plusSt { color: var(--zlatna); }
+  .da { color: var(--zelena); font-weight: 700; } .ne { color: #c9c1b4; }
+
+  /* ---------- gost: prijava ---------- */
+  .dvaStupca { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.1rem; align-items: start; }
+  .gumbGoogle { width: 100%; display: flex; align-items: center; justify-content: center; gap: .6rem; font: inherit; font-weight: 600;
+    background: #fff; border: 1px solid var(--rub); border-radius: var(--rad-s); padding: .7rem; cursor: pointer; }
+  .gZnak { width: 18px; height: 18px; border-radius: 50%;
+    background: conic-gradient(#ea4335 0 25%, #fbbc05 0 50%, #34a853 0 75%, #4285f4 0); }
+  .ili { display: flex; align-items: center; gap: .75rem; color: var(--muted); font-size: var(--t-s); margin: .9rem 0; }
+  .ili::before, .ili::after { content: ""; flex: 1; height: 1px; background: var(--rub); }
+  label { display: block; font-size: var(--t-s); font-weight: 600; margin: .6rem 0 .25rem; }
+  input { width: 100%; font: inherit; padding: .6rem .75rem; border: 1px solid var(--rub); border-radius: var(--rad-m); background: #fff; }
+
+  /* ---------- postavke ---------- */
+  .stavka { display: flex; align-items: center; gap: 1rem; padding: .85rem 0; border-top: 1px solid var(--rub); }
+  .stavka:first-of-type { border-top: 0; padding-top: 0; }
+  .stavka .txt { flex: 1; min-width: 0; }
+  .stavka .nasl { font-weight: 600; }
+  .stavka .opis { font-size: var(--t-s); color: var(--muted); }
+  .opasnaZona { border-color: #ecd0ce; }
+  .opasnaZona h2 { color: var(--crvena); }
+  .statRed { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; font-size: var(--t-m); }
+
+  .banner { border-radius: var(--rad-l); padding: 1rem 1.25rem; margin-bottom: 1.1rem; font-size: var(--t-m);
+    background: #e6f0ea; color: #22513a; border: 1px solid #c6dccf; }
+
+  /* ---------- modal ---------- */
+  .zastor { position: fixed; inset: 0; background: rgba(25,23,19,.45); display: none; place-items: center; z-index: 30; padding: 1rem; }
+  .zastor.otvoren { display: grid; }
+  .modal { background: var(--card); border-radius: var(--rad-xl); max-width: 28rem; width: 100%; padding: 1.5rem; }
+  .modal ul { padding-left: 1.1rem; font-size: var(--t-m); color: var(--muted); }
+  .modal .gumbi { display: flex; gap: .6rem; justify-content: flex-end; margin-top: 1rem; }
+
+  /* ---------- bilješke za razgovor ---------- */
+  .biljeska { font-family: "Segoe Script", "Bradley Hand", cursive; background: #fdf2bf; border: 1px solid #eadd9d;
+    color: #2a3147; padding: .6rem .8rem; border-radius: 4px; font-size: var(--t-s); margin: -.4rem 0 1.1rem; transform: rotate(-.4deg); }
+  body.bezBiljeski .biljeska { display: none; }
+
+  [hidden] { display: none !important; }
+  @media (max-width: 640px) {
+    .cijene { grid-template-columns: 1fr; }
+    .dvaStupca { grid-template-columns: 1fr; }
+    header nav { display: none; }
+    .ja { flex-wrap: wrap; }
+    .stavka { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<div class="mockTraka">
+  <b>Stanje:</b>
+  <button data-st="gost" aria-pressed="true">Neprijavljen</button>
+  <button data-st="free" aria-pressed="false">Free račun</button>
+  <button data-st="plus" aria-pressed="false">Plus (godišnji)</button>
+  <button data-st="akcija" aria-pressed="false">Akcija „sve otključano"</button>
+  <span style="flex:1"></span>
+  <button id="tBilj" aria-pressed="true">Bilješke</button>
+</div>
+
+<header>
+  <div class="logo">C</div>
+  <nav><a>Home</a><a>Lessons</a><a>Dictionary</a><a>Daily challenge</a><a>Progress</a><a>Options</a><a class="aktivna">Account</a></nav>
+</header>
+
+<main>
+
+  <!-- ===================== GOST ===================== -->
+  <section data-za="gost">
+    <h1>Learn Croatian with Croland Plus</h1>
+    <p class="muted" style="margin:0 0 1.25rem">Every level, every track, every game. Start free — upgrade whenever you're ready.</p>
+    <div class="biljeska">Gost prvo vidi ponudu, tek onda formu. Klik na paket → registracija → odmah Stripe checkout za taj paket (paket se pamti kroz prijavu).</div>
+
+    <div class="cijene" data-cijene></div>
+
+    <div class="dvaStupca">
+      <div class="ploca">
+        <h2>Free vs Plus</h2>
+        <table class="usporedba" data-usporedba></table>
+      </div>
+      <div class="ploca">
+        <h2 style="margin-bottom:.9rem">Create your free account</h2>
+        <button class="gumbGoogle"><span class="gZnak"></span>Continue with Google</button>
+        <div class="ili">or</div>
+        <label>Email</label><input placeholder="you@example.com">
+        <label>Password</label><input type="password" placeholder="at least 6 characters">
+        <button class="gumb puni" style="margin-top:1rem">Create account</button>
+        <p class="sitno muted" style="text-align:center;margin:.8rem 0 0">Already have an account? <button class="veza">Log in</button></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRIJAVLJEN ===================== -->
+  <section data-za="free plus akcija" hidden>
+
+    <!-- identitet -->
+    <div class="ploca">
+      <div class="ja">
+        <div class="avatar">K</div>
+        <div>
+          <div class="ime">Kristian <span class="znacka" data-za="free akcija">Free</span><span class="znacka plus" data-za="plus">★ Plus</span></div>
+          <div class="muted sitno">kristian@example.com · signed in with Google · member since March 2026</div>
+        </div>
+        <button class="gumb obrub odjava">Log out</button>
+      </div>
+    </div>
+
+    <div class="banner" data-za="akcija">
+      <b>Everything is unlocked right now</b> — every level is open to all accounts until 15 Oct 2026. No subscription needed.
+    </div>
+    <div class="biljeska" data-za="akcija">Pitanje: za vrijeme akcije sakriti cijene (kao sad) ili ih pokazati tiše, „lock in before the offer ends"?</div>
+
+    <!-- plan: FREE -->
+    <div class="ploca plan" data-za="free">
+      <div class="planVrh">
+        <div><div class="planIme">Free plan</div>
+          <div class="muted sitno">Level 1 on every track, daily challenges and mini games.</div></div>
+      </div>
+      <h2 style="margin:1.25rem 0 0">Upgrade to Plus</h2>
+      <div class="cijene" data-cijene></div>
+      <details><summary class="sitno muted" style="cursor:pointer">What's included in Plus?</summary>
+        <table class="usporedba" data-usporedba style="margin-top:.5rem"></table></details>
+    </div>
+
+    <!-- plan: PLUS -->
+    <div class="ploca plan jePlus" data-za="plus">
+      <div class="planVrh">
+        <div><div class="planIme">Croland Plus</div>
+          <div class="muted sitno">All levels, all tracks, everything unlocked.</div></div>
+        <span class="znacka" style="background:#e6f0ea;color:var(--zelena)">● Active</span>
+      </div>
+      <dl class="redovi">
+        <dt>Plan</dt><dd>Yearly · 60 €</dd>
+        <dt>Renews</dt><dd>3 Oct 2027</dd>
+        <dt>Payment</dt><dd>Visa ···· 4242</dd>
+      </dl>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <button class="gumb">Manage subscription</button>
+        <button class="gumb obrub">Invoices</button>
+      </div>
+      <p class="sitno muted" style="margin:.8rem 0 0">Change plan, update your card or cancel — opens Stripe's secure billing page.</p>
+    </div>
+    <div class="biljeska" data-za="plus">Sve 3 tipke mogu voditi na isti Stripe Customer Portal — on sam radi promjenu paketa, karticu, račune i otkazivanje. Nama ostaje samo prikaz.</div>
+
+    <!-- mali red statistike -->
+    <div class="ploca" style="padding:.9rem 1.4rem">
+      <div class="statRed muted">
+        <span>🔥 <b style="color:var(--ink)">12</b> day streak</span>
+        <span><b style="color:var(--ink)">348</b> words learned</span>
+        <span style="margin-left:auto"><button class="veza">See your progress →</button></span>
+      </div>
+    </div>
+    <div class="biljeska">Ili i ovo izbaciti skroz? Rekao si da Progress nema što raditi ovdje — ostavio sam samo jedan red kao vezu. Lako maknuti.</div>
+
+    <!-- profil i sigurnost -->
+    <div class="ploca">
+      <h2>Account settings</h2>
+      <div class="stavka"><div class="txt"><div class="nasl">Display name</div><div class="opis">Kristian — shown to friends and on the leaderboard</div></div><button class="gumb sivi">Edit</button></div>
+      <div class="stavka"><div class="txt"><div class="nasl">Email</div><div class="opis">kristian@example.com</div></div><button class="gumb sivi">Change</button></div>
+      <div class="stavka"><div class="txt"><div class="nasl">Password</div><div class="opis">You sign in with Google — no password needed. <button class="veza">Set a password</button></div></div></div>
+      <div class="stavka"><div class="txt"><div class="nasl">Sessions</div><div class="opis">Signed in on this device and 1 other</div></div><button class="gumb sivi">Log out everywhere</button></div>
+    </div>
+
+    <!-- podaci -->
+    <div class="ploca opasnaZona">
+      <h2>Your data</h2>
+      <div class="stavka"><div class="txt"><div class="nasl">Download your data</div><div class="opis">Progress, points, dictionary and account details as a JSON file.</div></div><button class="gumb sivi">Download</button></div>
+      <div class="stavka"><div class="txt"><div class="nasl">Delete account</div><div class="opis">Permanently removes your account and all progress. This can't be undone.</div></div><button class="gumb opasno" id="btnBrisi">Delete account</button></div>
+    </div>
+    <p class="sitno muted" style="text-align:center"><a href="#" style="color:inherit">Privacy Policy</a> · <a href="#" style="color:inherit">Terms</a> · <a href="#" style="color:inherit">Contact</a></p>
+  </section>
+</main>
+
+<div class="zastor" id="zastor">
+  <div class="modal">
+    <h2>Delete your account?</h2>
+    <ul>
+      <li>All progress, points, streak and saved words are erased.</li>
+      <li data-za="plus">Your Plus subscription is cancelled immediately, with no further charges.</li>
+      <li>You can sign up again later, but you'll start from zero.</li>
+    </ul>
+    <label>Type <b>DELETE</b> to confirm</label>
+    <input id="potvrda" autocomplete="off">
+    <div class="gumbi">
+      <button class="gumb obrub" id="odustani">Cancel</button>
+      <button class="gumb" style="background:var(--crvena)" id="potvrdiBrisanje" disabled>Delete forever</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  var PAKETI = [
+    { id: 'w', naz: 'Weekly',  iznos: 5,  po: '/ week',  pod: 'Try it for a week' },
+    { id: 'm', naz: 'Monthly', iznos: 10, po: '/ month', pod: 'Cancel anytime' },
+    { id: 'y', naz: 'Yearly',  iznos: 60, po: '/ year',  pod: 'Just 5 € a month', vrpca: 'Save 50%' }
+  ];
+  var ODABRAN = 'y';
+  function crtajCijene() {
+    document.querySelectorAll('[data-cijene]').forEach(function (el) {
+      el.innerHTML = PAKETI.map(function (p) {
+        return '<button class="cijena" data-p="' + p.id + '" aria-pressed="' + (p.id === ODABRAN) + '">' +
+          (p.vrpca ? '<span class="vrpca">' + p.vrpca + '</span>' : '') +
+          '<div class="naz">' + p.naz + '</div>' +
+          '<div class="iznos">' + p.iznos + ' €<small> ' + p.po + '</small></div>' +
+          '<div class="pod">' + p.pod + '</div></button>';
+      }).join('') + '<button class="gumb puni" style="grid-column:1/-1">Continue with ' +
+        PAKETI.filter(function (p) { return p.id === ODABRAN; })[0].naz.toLowerCase() + ' →</button>';
+      el.querySelectorAll('.cijena').forEach(function (b) {
+        b.onclick = function () { ODABRAN = b.dataset.p; crtajCijene(); };
+      });
+    });
+  }
+  var REDOVI = [['Lesson 0 & Level 1, every track', 1, 1], ['Daily challenge & mini games', 1, 1],
+    ['Level 2 and above', 0, 1], ['Weekly challenge', 0, 1], ['AI help on exercises', 0, 1]];
+  document.querySelectorAll('[data-usporedba]').forEach(function (t) {
+    t.innerHTML = '<thead><tr><th></th><th>Free</th><th class="plusSt">Plus</th></tr></thead><tbody>' +
+      REDOVI.map(function (r) {
+        return '<tr><td>' + r[0] + '</td>' + [r[1], r[2]].map(function (x) {
+          return '<td class="' + (x ? 'da">✓' : 'ne">—') + '</td>'; }).join('') + '</tr>';
+      }).join('') + '</tbody>';
+  });
+  crtajCijene();
+
+  function stanje(st) {
+    document.querySelectorAll('.mockTraka [data-st]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.st === st); });
+    document.querySelectorAll('[data-za]').forEach(function (el) {
+      el.hidden = el.dataset.za.split(' ').indexOf(st) === -1;
+    });
+  }
+  document.querySelectorAll('.mockTraka [data-st]').forEach(function (b) { b.onclick = function () { stanje(b.dataset.st); }; });
+  document.getElementById('tBilj').onclick = function () {
+    var on = document.body.classList.toggle('bezBiljeski');
+    this.setAttribute('aria-pressed', !on);
+  };
+  var z = document.getElementById('zastor'), pot = document.getElementById('potvrda');
+  document.getElementById('btnBrisi').onclick = function () { pot.value = ''; document.getElementById('potvrdiBrisanje').disabled = true; z.classList.add('otvoren'); };
+  document.getElementById('odustani').onclick = function () { z.classList.remove('otvoren'); };
+  pot.oninput = function () { document.getElementById('potvrdiBrisanje').disabled = pot.value.trim() !== 'DELETE'; };
+  stanje('gost');
+</script>
+</body>
+</html>

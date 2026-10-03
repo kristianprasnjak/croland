@@ -181,18 +181,18 @@ format: izbor
 info: Eine Frage klärt jeden Punkt: Gehört die Sache dem Subjekt des Satzes? Wenn ja, ist die Antwort **svoj**; gehört sie jemand anderem, ist die Antwort *njegov* oder *njezin*. Die Klammer sagt, welche Situation gemeint ist.
 infokratko: Gehört es dem Subjekt? **svoj**. Jemand anderem? *njegov / njezin*.
 opis: Gehört die Sache der Person, die handelt? Dann ist es *svoj*.
-- Marko voli ___ klub. (seinen eigenen) | svoj | njegov
+- Marko voli ___ klub. (sein eigen-) | svoj | njegov
 - Marko gleda ___ gitaru. (Anas Gitarre) | njezinu | svoju
-- Ana nosi ___ dres. (ihr eigenes) | svoj | njezin
-- Ana zove ___ sestru. (ihre eigene) | svoju | njezinu
+- Ana nosi ___ dres. (ihr eigen-) | svoj | njezin
+- Ana zove ___ sestru. (ihr eigen-) | svoju | njezinu
 - Ana zove ___ sestru. (Markos Schwester) | njegovu | svoju
-- Igrači vole ___ klub. (ihren eigenen) | svoj | njihov
-- Trener gleda ___ momčad. (seine eigene) | svoju | njegovu
-- Djeca nose ___ dresove. (ihre eigenen) | svoje | njihove
-- Ona vozi ___ auto. (ihr eigenes) | svoj | njezin
+- Igrači vole ___ klub. (ihr eigen-, von ihnen) | svoj | njihov
+- Trener gleda ___ momčad. (sein eigen-) | svoju | njegovu
+- Djeca nose ___ dresove. (ihr eigen-, von ihnen) | svoje | njihove
+- Ona vozi ___ auto. (ihr eigen-) | svoj | njezin
 - On nosi ___ dres. (Markos Trikot) | njegov | svoj
-- Sestra slika ___ mamu. (ihre eigene) | svoju | njezinu
-- Ivan voli ___ grad. (seine eigene) | svoj | njegov
+- Sestra slika ___ mamu. (ihr eigen-) | svoju | njezinu
+- Ivan voli ___ grad. (sein eigen-) | svoj | njegov
 
 ## Tippe svoj
 format: upis

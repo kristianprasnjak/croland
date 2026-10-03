@@ -74,7 +74,7 @@ opis: Nur maskuline Wörter. Ein Lebewesen nimmt **-a**; ein Ding nimmt nichts. 
 format: tekst
 info: Die Schreibregel hinter den seltsam aussehenden Formen. Ein flüchtiges **a** lebt nur in der Benennungsform und verschwindet, sobald eine Endung kommt: *policajac* zu *policajca*. Wörter auf -er, -ik, -aj, -ač und die meisten auf -ar schrumpfen nicht.
 infokratko: Ein flüchtiges **a** fällt weg, wenn eine Endung kommt: *policajac → policajca*. -er, -ik, -aj, -ač, die meisten -ar behalten es.
-- Das hast du schon in Lektion 2 getroffen, unter anderem Namen. **Nepostojano a** – das flüchtige *a* – ist der Buchstabe, der nur in der Benennungsform existiert und verschwindet, sobald eine Endung angehängt wird.
+- Das hast du schon in Lektion 2 kennengelernt, unter anderem Namen. **Nepostojano a** – das flüchtige *a* – ist der Buchstabe, der nur in der Benennungsform existiert und verschwindet, sobald eine Endung angehängt wird.
 - tab: Benennung | Ziel | Was herausgefallen ist
 - tab: polic**a**jac | policajca | das **a** vor -c
 - tab: kup**a**c | kupca | das **a** vor -c

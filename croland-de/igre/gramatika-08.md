@@ -6,7 +6,7 @@ format: tekst
 info: Der Kern des Futurs auf einer Seite: ein Hilfswort plus der Infinitiv. Kommt etwas anderes zuerst, bleibt das Verb ganz (*Ja ću **plivati***); kommt das Verb zuerst, verliert es sein letztes *-i*, und das Hilfswort folgt (***Plivat** ću*).
 infokratko: Futur = Hilfswort + Infinitiv. *Ja ću plivati*; Verb zuerst verliert *-i*: *Plivat ću*.
 - Das kroatische Futur: ein Satz Hilfswörter + der Infinitiv – genau wie das deutsche *werden* + Infinitiv.
-- **Die Hilfswörter:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. Das sind Kurzformen von *htjeti* (wollen) – historisch ist „ich werde schwimmen“ aus „ich will schwimmen“ entstanden. Das Englische hat mit *will* genau dasselbe gemacht!
+- **Die Hilfswörter:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. Das sind Kurzformen von *htjeti* (wollen) – historisch ist das kroatische „plivat ću“ aus „ich will schwimmen“ entstanden. Das Englische hat mit *will* genau dasselbe gemacht!
 - **Stellung A – mit dem Pronomen (oder einem anderen ersten Wort):** Das Hilfswort kommt an zweiter Stelle. *Ja ću plivati. Sutra ću plivati. Mi ćemo putovati.*
 - **Stellung B – Verb zuerst:** Der Infinitiv verliert sein letztes **-i**, das Hilfswort folgt. *Plivat ću. Putovat ćemo. Gledat ćeš.*
 - tab: Stellung | Gestalt des Verbs | Beispiel
@@ -18,7 +18,7 @@ infokratko: Futur = Hilfswort + Infinitiv. *Ja ću plivati*; Verb zuerst verlier
 format: tekst
 info: Das *Warum* hinter dieser Wortstellung. *ću* ist ein **Klitikon**, unbetont wie *sam* und *ga*, und ein unbetontes Wort kann keinen kroatischen Satz eröffnen – es braucht etwas davor, an das es sich lehnen kann. Also gibt das Verb sein *-i* auf, um dieses Etwas zu werden.
 infokratko: *ću* ist ein Klitikon wie *sam* und *ga*: Es kann keinen Satz eröffnen, also steht etwas davor.
-- **Warum darf das Hilfswort nicht zuerst stehen?** Weil es ein **Klitikon** ist – dieselbe unruhige Familie, die du jetzt schon dreimal getroffen hast.
+- **Warum darf das Hilfswort nicht zuerst stehen?** Weil es ein **Klitikon** ist – dieselbe unruhige Familie, die du jetzt schon dreimal kennengelernt hast.
 - tab: Lektion | Das Klitikon | Sagt nie
 - tab: 2 | sam · si · je | *Sam student.*
 - tab: 6 | me · te · ga · je | *Ga vidim.*
@@ -154,7 +154,7 @@ infokratko: **neću, nećeš, neće**: ein Wort, darf einen Satz eröffnen; das 
 
 ## Lehnt sich an oder eröffnet?
 format: razvrstavanje
-info: Sortiere die Wörter danach, ob sie einen Satz beginnen können. Alles Unbetonte lehnt sich an und kann es nicht (*ću, sam, ga*), während die betonten Formen frei eröffnen (*neću, nisam, njega*). Es ist dieselbe Trennung, die du jetzt schon dreimal getroffen hast.
+info: Sortiere die Wörter danach, ob sie einen Satz beginnen können. Alles Unbetonte lehnt sich an und kann es nicht (*ću, sam, ga*), während die betonten Formen frei eröffnen (*neću, nisam, njega*). Es ist dieselbe Trennung, die du jetzt schon dreimal kennengelernt hast.
 infokratko: Unbetont kann nicht anfangen (*ću, sam, ga*); betont kann es (*neću, nisam, njega*).
 stupci: NASLANJA SE | OTVARA REČENICU
 opis: Welche davon können ganz am Anfang eines Satzes stehen, und welche brauchen etwas davor, an das sie sich lehnen können?

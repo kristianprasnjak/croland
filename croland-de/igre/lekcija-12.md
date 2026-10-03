@@ -95,7 +95,7 @@ infokratko: *ne* steht vor dem Verb. Nur *biti, imati, htjeti* verschmelzen: *ni
 infoodmah: da
 opis: Ein Wort vor dem Verb und drei Verben, die damit verschmelzen. Lies die Tabellen und sag die letzte Zeile laut.
 - **Ne steht direkt vor dem Verb, als eigenes Wort.** Der Rest des Satzes bleibt, wie er war: *Volim luk.* → ***Ne** volim luk.*
-- **Drei Verben verschmelzen ne zu einem Wort.** Du hast sie in Grammatik 2, 3 und 8 getroffen; hier stehen sie nebeneinander.
+- **Drei Verben verschmelzen ne zu einem Wort.** Du hast sie in Grammatik 2, 3 und 8 kennengelernt; hier stehen sie nebeneinander.
 - tab: Person | biti | imati | htjeti
 - tab: ja | nisam | nemam | neću
 - tab: ti | nisi | nemaš | nećeš

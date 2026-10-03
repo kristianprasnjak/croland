@@ -70,7 +70,7 @@ opis: Wähle das Adjektiv, das mit dem Nomen übereinstimmt.
 format: tekst
 info: Die Seite, die den zusätzlichen Vokal in *dobar*, *hladan* und *topao* erklärt: Er gehört nur zur maskulinen Form und fällt weg, sobald eine Endung dazukommt – so entstehen *dobra*, *hladna*, *topla*. *sladak* geht noch einen Schritt weiter und wird zu *slatka*, während *mekan* seinen Vokal die ganze Zeit behält.
 infokratko: *dobar, hladan, topao* verlieren den Vokal mit einer Endung: *dobra, hladna, topla*. *mekan* behält ihn.
-- Gerade hast du ein seltsames Paar getroffen: *dobar dan*, aber *dobra kava*. Wo ist das **a** hin?
+- Gerade hast du ein seltsames Paar kennengelernt: *dobar dan*, aber *dobra kava*. Wo ist das **a** hin?
 - **Manche maskulinen Formen tragen einen zusätzlichen Vokal** – und der fällt weg, sobald eine Endung kommt. Nur das Maskulinum macht das. Die **-a**- und **-o**-Formen sind völlig regelmäßig und zeigen dir immer den echten Stamm.
 - tab: Maskulin | Feminin | Neutral
 - tab: dob**a**r | dobra | dobro

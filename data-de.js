@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-10-02 20:02:57",
+  "generirano": "2026-10-03 19:23:32",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",
@@ -8229,7 +8229,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "Gerade hast du ein seltsames Paar getroffen: *dobar dan*, aber *dobra kava*. Wo ist das **a** hin?"
+          "Gerade hast du ein seltsames Paar kennengelernt: *dobar dan*, aber *dobra kava*. Wo ist das **a** hin?"
         ],
         [
           "**Manche maskulinen Formen tragen einen zusätzlichen Vokal** – und der fällt weg, sobald eine Endung kommt. Nur das Maskulinum macht das. Die **-a**- und **-o**-Formen sind völlig regelmäßig und zeigen dir immer den echten Stamm."
@@ -32840,7 +32840,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "Das hast du schon in Lektion 2 getroffen, unter anderem Namen. **Nepostojano a** – das flüchtige *a* – ist der Buchstabe, der nur in der Benennungsform existiert und verschwindet, sobald eine Endung angehängt wird."
+          "Das hast du schon in Lektion 2 kennengelernt, unter anderem Namen. **Nepostojano a** – das flüchtige *a* – ist der Buchstabe, der nur in der Benennungsform existiert und verschwindet, sobald eine Endung angehängt wird."
         ],
         [
           "tab: Benennung",
@@ -44050,7 +44050,7 @@ window.PODACI = {
           "Odlično! Die vergangenen Lektionen haben dir das Präsens gegeben; jetzt gehört dir auch die Zukunft. Deine Sommerpläne sind offiziell auf Kroatisch."
         ],
         [
-          "**Als Nächstes:** Wortschatz 8 packt den Koffer – Reisen, Kleidung und zehn neue Verben. Dann erklärt Grammatik 8, *warum* das Hilfswort nie einen Satz eröffnen darf – dieselbe Regel, die du schon zweimal getroffen hast –, und gibt dir das Futur, das ablehnt: *neću, nećeš, neće*. Dann bringt Lektion 9 Sport, Hobbys und die kleinen Wörter, die Dinge zu *deinen* machen."
+          "**Als Nächstes:** Wortschatz 8 packt den Koffer – Reisen, Kleidung und zehn neue Verben. Dann erklärt Grammatik 8, *warum* das Hilfswort nie einen Satz eröffnen darf – dieselbe Regel, die du schon zweimal kennengelernt hast –, und gibt dir das Futur, das ablehnt: *neću, nećeš, neće*. Dann bringt Lektion 9 Sport, Hobbys und die kleinen Wörter, die Dinge zu *deinen* machen."
         ]
       ],
       "sortkljuc": 801017,
@@ -44710,7 +44710,7 @@ window.PODACI = {
           "Das kroatische Futur: ein Satz Hilfswörter + der Infinitiv – genau wie das deutsche *werden* + Infinitiv."
         ],
         [
-          "**Die Hilfswörter:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. Das sind Kurzformen von *htjeti* (wollen) – historisch ist „ich werde schwimmen“ aus „ich will schwimmen“ entstanden. Das Englische hat mit *will* genau dasselbe gemacht!"
+          "**Die Hilfswörter:** ja ću · ti ćeš · on/ona/ono će · mi ćemo · vi ćete · oni će. Das sind Kurzformen von *htjeti* (wollen) – historisch ist das kroatische „plivat ću“ aus „ich will schwimmen“ entstanden. Das Englische hat mit *will* genau dasselbe gemacht!"
         ],
         [
           "**Stellung A – mit dem Pronomen (oder einem anderen ersten Wort):** Das Hilfswort kommt an zweiter Stelle. *Ja ću plivati. Sutra ću plivati. Mi ćemo putovati.*"
@@ -44753,7 +44753,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "**Warum darf das Hilfswort nicht zuerst stehen?** Weil es ein **Klitikon** ist – dieselbe unruhige Familie, die du jetzt schon dreimal getroffen hast."
+          "**Warum darf das Hilfswort nicht zuerst stehen?** Weil es ein **Klitikon** ist – dieselbe unruhige Familie, die du jetzt schon dreimal kennengelernt hast."
         ],
         [
           "tab: Lektion",
@@ -45276,7 +45276,7 @@ window.PODACI = {
       "format": "razvrstavanje",
       "naslov": "Lehnt sich an oder eröffnet?",
       "meta": {
-        "info": "Sortiere die Wörter danach, ob sie einen Satz beginnen können. Alles Unbetonte lehnt sich an und kann es nicht (*ću, sam, ga*), während die betonten Formen frei eröffnen (*neću, nisam, njega*). Es ist dieselbe Trennung, die du jetzt schon dreimal getroffen hast.",
+        "info": "Sortiere die Wörter danach, ob sie einen Satz beginnen können. Alles Unbetonte lehnt sich an und kann es nicht (*ću, sam, ga*), während die betonten Formen frei eröffnen (*neću, nisam, njega*). Es ist dieselbe Trennung, die du jetzt schon dreimal kennengelernt hast.",
         "infokratko": "Unbetont kann nicht anfangen (*ću, sam, ga*); betont kann es (*neću, nisam, njega*).",
         "stupci": "NASLANJA SE | OTVARA REČENICU",
         "opis": "Welche davon können ganz am Anfang eines Satzes stehen, und welche brauchen etwas davor, an das sie sich lehnen können?"
@@ -49393,7 +49393,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "Marko voli ___ sestru. (seine eigene)",
+          "Marko voli ___ sestru. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
@@ -49403,37 +49403,37 @@ window.PODACI = {
           "svoju"
         ],
         [
-          "Ana čita ___ knjigu. (ihr eigenes)",
+          "Ana čita ___ knjigu. (ihr eigen-)",
           "svoju",
           "njezinu"
         ],
         [
-          "Maja voli ___ hobi. (ihr eigenes)",
+          "Maja voli ___ hobi. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
         [
-          "Luka nosi ___ loptu. (seinen eigenen)",
+          "Luka nosi ___ loptu. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
         [
-          "Ana slika ___ mačku. (ihre eigene)",
+          "Ana slika ___ mačku. (ihr eigen-)",
           "svoju",
           "njezinu"
         ],
         [
-          "Trener gleda ___ momčad. (seine eigene)",
+          "Trener gleda ___ momčad. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
         [
-          "Djeca nose ___ dresove. (ihre eigenen)",
+          "Djeca nose ___ dresove. (ihr eigen-, von ihnen)",
           "svoje",
           "njihove"
         ],
         [
-          "Ona vozi ___ auto. (ihr eigenes)",
+          "Ona vozi ___ auto. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
@@ -49697,7 +49697,7 @@ window.PODACI = {
         ],
         [
           "izbor",
-          "Marko voli ___ sestru. (seine eigene)",
+          "Marko voli ___ sestru. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
@@ -51191,7 +51191,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "Marko voli ___ klub. (seinen eigenen)",
+          "Marko voli ___ klub. (sein eigen-)",
           "svoj",
           "njegov"
         ],
@@ -51201,12 +51201,12 @@ window.PODACI = {
           "svoju"
         ],
         [
-          "Ana nosi ___ dres. (ihr eigenes)",
+          "Ana nosi ___ dres. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
         [
-          "Ana zove ___ sestru. (ihre eigene)",
+          "Ana zove ___ sestru. (ihr eigen-)",
           "svoju",
           "njezinu"
         ],
@@ -51216,22 +51216,22 @@ window.PODACI = {
           "svoju"
         ],
         [
-          "Igrači vole ___ klub. (ihren eigenen)",
+          "Igrači vole ___ klub. (ihr eigen-, von ihnen)",
           "svoj",
           "njihov"
         ],
         [
-          "Trener gleda ___ momčad. (seine eigene)",
+          "Trener gleda ___ momčad. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
         [
-          "Djeca nose ___ dresove. (ihre eigenen)",
+          "Djeca nose ___ dresove. (ihr eigen-, von ihnen)",
           "svoje",
           "njihove"
         ],
         [
-          "Ona vozi ___ auto. (ihr eigenes)",
+          "Ona vozi ___ auto. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
@@ -51241,12 +51241,12 @@ window.PODACI = {
           "svoj"
         ],
         [
-          "Sestra slika ___ mamu. (ihre eigene)",
+          "Sestra slika ___ mamu. (ihr eigen-)",
           "svoju",
           "njezinu"
         ],
         [
-          "Ivan voli ___ grad. (seine eigene)",
+          "Ivan voli ___ grad. (sein eigen-)",
           "svoj",
           "njegov"
         ]
@@ -53485,7 +53485,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "Marko voli ___ klub. (seinen eigenen)",
+          "Marko voli ___ klub. (sein eigen-)",
           "svoj",
           "njegov"
         ],
@@ -53495,12 +53495,12 @@ window.PODACI = {
           "svoju"
         ],
         [
-          "Ana nosi ___ dres. (ihr eigenes)",
+          "Ana nosi ___ dres. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
         [
-          "Ana zove ___ sestru. (ihre eigene)",
+          "Ana zove ___ sestru. (ihr eigen-)",
           "svoju",
           "njezinu"
         ],
@@ -53510,22 +53510,22 @@ window.PODACI = {
           "svoju"
         ],
         [
-          "Igrači vole ___ klub. (ihren eigenen)",
+          "Igrači vole ___ klub. (ihr eigen-, von ihnen)",
           "svoj",
           "njihov"
         ],
         [
-          "Trener gleda ___ momčad. (seine eigene)",
+          "Trener gleda ___ momčad. (sein eigen-)",
           "svoju",
           "njegovu"
         ],
         [
-          "Djeca nose ___ dresove. (ihre eigenen)",
+          "Djeca nose ___ dresove. (ihr eigen-, von ihnen)",
           "svoje",
           "njihove"
         ],
         [
-          "Ona vozi ___ auto. (ihr eigenes)",
+          "Ona vozi ___ auto. (ihr eigen-)",
           "svoj",
           "njezin"
         ],
@@ -53535,12 +53535,12 @@ window.PODACI = {
           "svoj"
         ],
         [
-          "Ivan voli ___ grad. (seine eigene)",
+          "Ivan voli ___ grad. (sein eigen-)",
           "svoj",
           "njegov"
         ],
         [
-          "Svaki igrač nosi ___ loptu. (seinen eigenen)",
+          "Svaki igrač nosi ___ loptu. (sein eigen-)",
           "svoju",
           "njegovu"
         ]
@@ -59573,7 +59573,7 @@ window.PODACI = {
           "Naše"
         ],
         [
-          "Marko voli ___ klub. (seinen eigenen)",
+          "Marko voli ___ klub. (sein eigen-)",
           "svoj",
           "njegov",
           "njegova"
@@ -60447,7 +60447,7 @@ window.PODACI = {
       },
       "stavke": [
         [
-          "**li** hast du schon in Lektion 5 an der Ladentheke getroffen: *Trebate **li** vrećicu?* Das Rezept hat sich nicht geändert – Verb zuerst, *li* an zweiter Stelle, sonst nichts bewegt."
+          "**li** hast du schon in Lektion 5 an der Ladentheke kennengelernt: *Trebate **li** vrećicu?* Das Rezept hat sich nicht geändert – Verb zuerst, *li* an zweiter Stelle, sonst nichts bewegt."
         ],
         [
           "tab: Aussage",
@@ -62221,7 +62221,7 @@ window.PODACI = {
           "Kakvo"
         ],
         [
-          "___ vlak ide u Split? (welcher)",
+          "___ vlak ide u Split? (welch-)",
           "Koji"
         ],
         [
@@ -62229,7 +62229,7 @@ window.PODACI = {
           "Čije"
         ],
         [
-          "___ pjesmu pjevaš? (welcher)",
+          "___ pjesmu pjevaš? (welch-)",
           "Koju"
         ],
         [
@@ -62241,7 +62241,7 @@ window.PODACI = {
           "Čija"
         ],
         [
-          "___ film gledamo? (welcher)",
+          "___ film gledamo? (welch-)",
           "Koji"
         ],
         [
@@ -62249,7 +62249,7 @@ window.PODACI = {
           "Kakva"
         ],
         [
-          "___ knjigu čitaš? (welcher)",
+          "___ knjigu čitaš? (welch-)",
           "Koju"
         ],
         [
@@ -64801,7 +64801,7 @@ window.PODACI = {
           "Njezino"
         ],
         [
-          "Marko voli ___ klub. (seinen eigenen)",
+          "Marko voli ___ klub. (sein eigen-)",
           "svoj",
           "njegov",
           "njegova"
@@ -65337,7 +65337,7 @@ window.PODACI = {
           "**Ne steht direkt vor dem Verb, als eigenes Wort.** Der Rest des Satzes bleibt, wie er war: *Volim luk.* → ***Ne** volim luk.*"
         ],
         [
-          "**Drei Verben verschmelzen ne zu einem Wort.** Du hast sie in Grammatik 2, 3 und 8 getroffen; hier stehen sie nebeneinander."
+          "**Drei Verben verschmelzen ne zu einem Wort.** Du hast sie in Grammatik 2, 3 und 8 kennengelernt; hier stehen sie nebeneinander."
         ],
         [
           "tab: Person",
@@ -67647,13 +67647,13 @@ window.PODACI = {
           "Nekoga"
         ],
         [
-          "___ ne čekam. (niemanden)",
+          "___ ne čekam. (niemand)",
           "Nikoga",
           "Nitko",
           "Nekoga"
         ],
         [
-          "Čekaš li ___? (jemanden)",
+          "Čekaš li ___? (jemand)",
           "nekoga",
           "nikoga",
           "netko"
@@ -70380,7 +70380,7 @@ window.PODACI = {
           "Njezino"
         ],
         [
-          "Marko voli ___ klub. (seinen eigenen)",
+          "Marko voli ___ klub. (sein eigen-)",
           "svoj",
           "njegov",
           "njegova"
@@ -75924,7 +75924,7 @@ window.PODACI = {
           "Moja"
         ],
         [
-          "Čija je ovo lopta? — ___ . (meiner)",
+          "Čija je ovo lopta? — ___ . (meins)",
           "Moja",
           "Moj",
           "Moje"
@@ -109235,7 +109235,7 @@ window.PODACI = {
       "format": "kartice",
       "naslov": "Bindewörter",
       "meta": {
-        "info": "Die letzte Stufe verbindet ganze Gedanken zu einem großen Satz. Fünf dieser Bindewörter hast du schon getroffen, und hier bekommen sie ihre große Aufgabe: **jer** (weil), **kad** (wenn, als – die kurze Form von *kada*), **ako** (wenn, falls), **koji / koja / koje** (der, die, das; welcher) und **da** (dass), das Wort, das du als „ja“ kennst. Die neuen sind **zato što**, ein längeres *weil* (*Učim hrvatski zato što volim jezik*), **dok** (während), **iako** (obwohl) und **kao** (wie, als): *jezik koji zvuči kao glazba*. **koji** nimmt das Genus des Substantivs an, das es beschreibt: *film koji*, *knjiga koja*, *more koje*. **da** folgt auf Verben wie *znati, misliti, reći*: *Znam da je Zagreb velik.* Dann kommen kleine Wörter für eine Geschichte: **čak** (sogar), **ipak** (trotzdem, doch), **dakle** (also), **mnogo** (viel, viele), **neki** (einige), **onaj** (jener dort), und zwei Wendungen, **prvi put** (das erste Mal) und **jednog dana** (eines Tages).",
+        "info": "Die letzte Stufe verbindet ganze Gedanken zu einem großen Satz. Fünf dieser Bindewörter hast du schon kennengelernt, und hier bekommen sie ihre große Aufgabe: **jer** (weil), **kad** (wenn, als – die kurze Form von *kada*), **ako** (wenn, falls), **koji / koja / koje** (der, die, das; welcher) und **da** (dass), das Wort, das du als „ja“ kennst. Die neuen sind **zato što**, ein längeres *weil* (*Učim hrvatski zato što volim jezik*), **dok** (während), **iako** (obwohl) und **kao** (wie, als): *jezik koji zvuči kao glazba*. **koji** nimmt das Genus des Substantivs an, das es beschreibt: *film koji*, *knjiga koja*, *more koje*. **da** folgt auf Verben wie *znati, misliti, reći*: *Znam da je Zagreb velik.* Dann kommen kleine Wörter für eine Geschichte: **čak** (sogar), **ipak** (trotzdem, doch), **dakle** (also), **mnogo** (viel, viele), **neki** (einige), **onaj** (jener dort), und zwei Wendungen, **prvi put** (das erste Mal) und **jednog dana** (eines Tages).",
         "infokratko": "*jer, kad, ako, koji, da* in ihrer Aufgabe für große Sätze; neu: *zato što, dok, iako, kao*. *koji* richtet sich nach dem Genus des Substantivs: *film koji, knjiga koja, more koje*.",
         "opis": "Die Wörter, die Gedanken verbinden, und kleine Wörter für eine Geschichte. Tippe auf eine Karte, um die Bedeutung zu sehen."
       },
