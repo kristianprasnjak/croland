@@ -3098,122 +3098,198 @@
   .fazaRed.pretplata .fazaDesno { color: var(--zlatna); }
 
   /* ================= ACCOUNT ================= */
-  .acc { max-width: 46rem; margin: 0 auto; }
-  .acc button.gumb, .accModal button.gumb { width: auto; margin-top: 0; padding: 0.65rem 1.1rem; font-size: var(--t-m); }
+  .acc { max-width: 44rem; margin: 0 auto; }
   .acc a { color: inherit; }
-  .accPloca { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
-    padding: 1.1rem 1.25rem; margin-bottom: 1rem; }
-  .accNaslov { font-size: var(--t-xl); margin: 0 0 0.75rem; font-family: var(--naslov); }
-  .accSitno { font-size: var(--t-s); color: var(--muted); margin: 0.6rem 0 0; }
+  .accNasP { margin-top: 2rem; }
+  .accTiho { font-size: var(--t-s); color: var(--muted); }
   .accSredina { text-align: center; }
-  .accSOpis { font-size: var(--t-s); color: var(--muted); }
-  .accSNas { font-weight: 600; }
+  .accPrazno { color: var(--muted); font-style: italic; }
+  .accSitno { font-size: var(--t-s); color: var(--muted); margin: .6rem 0 0; }
 
-  .accKodTraka { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-bottom: 1rem;
-    border: 1px dashed var(--muted); border-radius: var(--rad-l); padding: 0.7rem 0.9rem; background: var(--card); }
-  .accKodTraka label { font-weight: 600; }
-  .accKodTraka input { flex: 1 1 10rem; min-width: 0; font: inherit; font-family: ui-monospace, Consolas, monospace;
-    letter-spacing: 0.06em; text-transform: uppercase; padding: 0.55rem 0.7rem; border: 1px solid var(--rub);
-    border-radius: var(--rad-m); background: var(--bg); color: var(--ink); }
-  .accKodGreska { flex-basis: 100%; margin: 0; color: var(--crvena); font-size: var(--t-s); }
+  /* gumbi: jedan primarni, jedan obrubljeni, i veza — ništa više */
+  .accBtn { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; height: 2.5rem;
+    padding: 0 1.1rem; border-radius: var(--rad-m); border: 1px solid var(--plava); background: var(--plava);
+    color: #fff; font: inherit; font-size: var(--t-m); font-weight: 600; cursor: pointer; white-space: nowrap;
+    transition: filter .15s, background .15s; }
+  .accBtn:hover { filter: brightness(1.08); }
+  .accBtn2 { background: transparent; color: var(--ink); border-color: var(--rub); }
+  .accBtn2:hover { background: var(--tiho); filter: none; }
+  .accBtn:disabled { opacity: .5; cursor: default; filter: none; }
+  .accSiroki { width: 100%; }
+  .accSiroki + .accSiroki { margin-top: .5rem; }
+  .accVeza { background: none; border: 0; padding: 0; font: inherit; font-size: var(--t-s); font-weight: 600;
+    color: var(--plava); cursor: pointer; }
+  .accVeza:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .accVezaOpasno { color: var(--crvena); }
 
-  .accJa { display: flex; align-items: center; gap: 0.9rem; flex-wrap: wrap; }
+  /* (i) i njegov oblačić */
+  .accInfo { display: inline-grid; place-items: center; width: 1.05rem; height: 1.05rem; padding: 0; margin: 0 0 0 .15rem;
+    border-radius: 50%; border: 1px solid currentColor; background: none; color: var(--muted); cursor: pointer;
+    font: italic 700 .68rem/1 Georgia, 'Times New Roman', serif; vertical-align: .08em; opacity: .75; }
+  .accInfo:hover { opacity: 1; color: var(--ink); }
+  .accOblacic { position: absolute; z-index: 300; max-width: 17rem; padding: .6rem .75rem; border-radius: var(--rad-m);
+    background: var(--ink); color: var(--card); font-size: var(--t-s); line-height: 1.45;
+    box-shadow: 0 8px 24px rgba(0,0,0,.18); animation: accPojava .12s ease-out; }
+  @keyframes accPojava { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+
+  .accKartica { background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 1.25rem 1.4rem; }
+  .accKartica + .accKartica, .accKartica + details.accKartica, details.accKartica + .accKartica { margin-top: .75rem; }
+
+  .accZaglavlje { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+  .accZaglavlje h1 { margin-bottom: 0; }
+
+  .accJa { display: flex; align-items: center; gap: .9rem; margin-top: 1.25rem; }
   .accAvatar { width: 3rem; height: 3rem; flex: none; border-radius: 50%; background: var(--plava); color: #fff;
     display: grid; place-items: center; font-weight: 700; font-size: var(--t-xl); }
-  .accJaTxt { flex: 1 1 14rem; min-width: 0; }
-  .accJaIme { font-size: var(--t-xl); font-weight: 700; line-height: 1.25; }
-  .accOdjava { margin-left: auto; }
-  .accZnacka { display: inline-block; vertical-align: middle; font-size: var(--t-xs); font-weight: 600;
-    padding: 0.1rem 0.55rem; border-radius: 999px; background: var(--tiho); color: var(--muted); }
-  .accZnPlus { background: color-mix(in srgb, var(--zlatna) 18%, transparent); color: var(--zlatna); }
-  .accZnOk { background: color-mix(in srgb, var(--zelena) 15%, transparent); color: var(--zelena); }
-  .accZnUpoz { background: color-mix(in srgb, var(--crvena) 15%, transparent); color: var(--crvena); }
+  .accJaTxt { min-width: 0; }
+  .accJaIme { font-size: var(--t-xl); font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
 
-  .accPlan { border-width: 2px; }
-  .accJePlus { border-color: color-mix(in srgb, var(--zlatna) 45%, var(--rub)); }
-  .accPlanVrh { display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; }
+  .accZnacka { display: inline-block; vertical-align: middle; font-size: var(--t-xs); font-weight: 700;
+    padding: .12rem .55rem; border-radius: 999px; background: var(--tiho); color: var(--muted); letter-spacing: .02em; }
+  .accZnPlus { background: color-mix(in srgb, var(--zlatna) 16%, transparent); color: var(--zlatna); }
+  .accZnOk { background: color-mix(in srgb, var(--zelena) 14%, transparent); color: var(--zelena); }
+  .accZnUpoz { background: color-mix(in srgb, var(--crvena) 14%, transparent); color: var(--crvena); }
+
+  .accPlan { padding: 1.4rem 1.5rem; }
+  .accJePlus { border-color: color-mix(in srgb, var(--zlatna) 40%, var(--rub));
+    background: linear-gradient(180deg, color-mix(in srgb, var(--zlatna) 6%, var(--card)), var(--card) 70%); }
+  .accPlanVrh { display: flex; align-items: center; gap: .6rem; }
+  .accPlanVrh .accZnacka { margin-left: auto; }
   .accPlanIme { font-size: var(--t-2xl); font-weight: 700; font-family: var(--naslov); }
-  .accRedovi { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 1.25rem; margin: 0.9rem 0 1rem; font-size: var(--t-m); }
-  .accRedovi dt { color: var(--muted); }
-  .accRedovi dd { margin: 0; font-weight: 500; }
-  .accUpozorenje { margin: 0.75rem 0 0; padding: 0.6rem 0.8rem; border-radius: var(--rad-m); font-size: var(--t-s);
-    background: color-mix(in srgb, var(--crvena) 10%, transparent); color: var(--crvena); }
-  .accGumbiL { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.9rem; }
-  .accGumbi { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: flex-end; margin-top: 1rem; }
-  .accSiroki { display: block; width: 100% !important; margin-top: 0.9rem !important; }
+  .accPlanOpis { margin: .3rem 0 0; color: var(--muted); font-size: var(--t-m); }
+  .accPodnaslov { font-weight: 700; margin-bottom: .9rem; }
+  .accRazdjel { height: 1px; background: var(--rub); margin: 1.25rem 0; }
+  .accAkcija { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem 1rem; margin-top: 1.1rem; }
+  .accUpozorenje { margin: .9rem 0 0; padding: .65rem .85rem; border-radius: var(--rad-m); font-size: var(--t-s);
+    background: color-mix(in srgb, var(--crvena) 9%, transparent); color: var(--crvena); }
 
-  .accCijene { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; }
-  .accCijena { position: relative; display: flex; flex-direction: column; text-align: left; font: inherit; color: var(--ink);
-    background: var(--card); border: 1.5px solid var(--rub); border-radius: var(--rad-l); padding: 0.9rem; cursor: pointer; }
+  .accCijene { display: grid; grid-template-columns: repeat(3, 1fr); gap: .65rem; }
+  .accCijena { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; text-align: left;
+    font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    padding: 1rem 1.05rem; cursor: pointer; transition: border-color .15s, box-shadow .15s; }
   .accCijena:hover { border-color: var(--muted); }
-  .accCijena[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
-  .accCNaz { font-size: var(--t-xs); color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
-  .accCIznos { font-size: var(--t-3xl); font-weight: 700; line-height: 1.15; margin: 0.25rem 0 0.1rem; }
-  .accCIznos small { font-size: var(--t-s); font-weight: 500; color: var(--muted); }
+  .accCijena[aria-pressed="true"] { border-color: var(--plava); box-shadow: 0 0 0 1px var(--plava); }
+  .accCNaz { font-size: var(--t-s); color: var(--muted); font-weight: 600; }
+  .accCIznos { font-size: var(--t-3xl); font-weight: 700; line-height: 1.15; font-family: var(--naslov); }
   .accCPod { font-size: var(--t-s); color: var(--muted); }
-  .accVrpca { position: absolute; top: -0.65rem; right: 0.7rem; background: var(--zelena); color: #fff;
-    font-size: var(--t-xs); font-weight: 700; padding: 0.1rem 0.5rem; border-radius: 999px; }
+  .accVrpca { position: absolute; top: -.6rem; right: .75rem; background: var(--zelena); color: #fff;
+    font-size: var(--t-2xs); font-weight: 700; padding: .12rem .5rem; border-radius: 999px; letter-spacing: .02em; }
 
-  .accVrste { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin: 0.75rem 0 0.9rem; }
-  .accVrsta { font: inherit; color: var(--ink); text-align: left; padding: 0.55rem 0.7rem; background: var(--card);
-    border: 1.5px solid var(--rub); border-radius: var(--rad-m); cursor: pointer; }
-  .accVrsta b { display: block; } .accVrsta small { color: var(--muted); }
-  .accVrsta[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
-  .accVrsta:disabled { opacity: 0.5; cursor: default; }
-  .accKolicina { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
-  .accKolicina label { font-weight: 600; font-size: var(--t-s); }
-  .accKolicina input[type=number] { width: 6rem; font: inherit; padding: 0.45rem 0.6rem; border: 1px solid var(--rub);
-    border-radius: var(--rad-m); background: var(--bg); color: var(--ink); }
-  .accKolicina input[type=range] { flex: 1 1 10rem; accent-color: var(--plava); }
-  .accZbroj { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; flex-wrap: wrap;
-    margin-top: 0.9rem; padding-top: 0.9rem; border-top: 1px solid var(--rub); }
-  .accZbroj .accSitno { margin: 0; }
-  .accUkupno { font-size: var(--t-3xl); font-weight: 700; line-height: 1.1; }
-  .accPopust { color: var(--zelena); font-weight: 600; }
+  /* kod: jedan red, bez okvira oko okvira */
+  .accKodTraka { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem .75rem; margin-top: 1.1rem; }
+  .accKartica > .accKodTraka:first-child { margin-top: 0; }
+  .accKodNas { white-space: nowrap; }
+  .accKodTraka label { font-weight: 600; font-size: var(--t-m); }
+  .accKodPolje { display: flex; flex: 1 1 16rem; min-width: 0; gap: .5rem; }
+  .accKodPolje input { flex: 1; min-width: 0; height: 2.5rem; padding: 0 .75rem; font: inherit; font-size: var(--t-m);
+    font-family: ui-monospace, Consolas, monospace; letter-spacing: .05em; text-transform: uppercase;
+    border: 1px solid var(--rub); border-radius: var(--rad-m); background: var(--bg); color: var(--ink); }
+  .accKodPolje input:focus { outline: 2px solid color-mix(in srgb, var(--plava) 40%, transparent); outline-offset: 1px; }
+  .accKodGreska { flex-basis: 100%; margin: 0; color: var(--crvena); font-size: var(--t-s); }
 
-  .accSklop > summary { cursor: pointer; font-weight: 600; list-style: revert; }
-  .accSklop[open] > summary { margin-bottom: 0.75rem; }
+  /* sklopivi odjeljci */
+  .accSklop { padding: 0; margin-top: .75rem; }
+  .accSklop > summary { list-style: none; cursor: pointer; padding: 1rem 1.4rem; display: flex; flex-direction: column; gap: .1rem;
+    position: relative; padding-right: 3rem; }
+  .accSklop > summary::-webkit-details-marker { display: none; }
+  .accSklop > summary::after { content: ''; position: absolute; right: 1.4rem; top: 50%; width: .5rem; height: .5rem;
+    border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: translateY(-70%) rotate(45deg);
+    transition: transform .15s; }
+  .accSklop[open] > summary::after { transform: translateY(-30%) rotate(-135deg); }
+  .accSklopNas { font-weight: 700; }
+  .accSklopTijelo { padding: 0 1.4rem 1.3rem; }
 
-  .accStavka { display: flex; align-items: center; gap: 1rem; padding: 0.8rem 0; border-top: 1px solid var(--rub); flex-wrap: wrap; }
-  .accPloca > .accNaslov + .accStavka, .accPloca > .accNaslov + * > .accStavka:first-child { border-top: 0; padding-top: 0; }
-  .accStavkaStup { flex-direction: column; align-items: stretch; gap: 0.4rem; }
-  .accTxt { flex: 1 1 16rem; min-width: 0; }
-  .accRed { display: flex; gap: 0.5rem; margin-top: 0.45rem; flex-wrap: wrap; }
-  .accRed input { flex: 1 1 12rem; min-width: 0; font: inherit; padding: 0.5rem 0.7rem; border: 1px solid var(--rub);
-    border-radius: var(--rad-m); background: var(--bg); color: var(--ink); }
-  .accKvacica { display: flex; align-items: flex-start; gap: 0.5rem; font-size: var(--t-s); margin-top: 0.35rem; cursor: pointer; text-align: left; }
-  .accKvacica input { margin-top: 0.2rem; }
-  .accDariv { padding: 0.5rem 0; border-top: 1px dashed var(--rub); }
-  .accOpasno { border-color: color-mix(in srgb, var(--crvena) 35%, var(--rub)); }
-  .accOpasno .accNaslov { color: var(--crvena); }
-  .acc button.gumb.accGumbOpasno { background: transparent; color: var(--crvena); border: 1px solid color-mix(in srgb, var(--crvena) 45%, transparent); }
-  .accModal button.gumb.accGumbOpasnoPun { background: var(--crvena); }
-  .accModal button.gumb:disabled, .acc button.gumb:disabled { opacity: 0.5; cursor: default; filter: none; }
+  .accVrste { display: inline-flex; padding: .2rem; gap: .2rem; border-radius: var(--rad-m); background: var(--tiho); margin-bottom: 1rem; }
+  .accVrsta { font: inherit; font-size: var(--t-s); font-weight: 600; color: var(--muted); padding: .45rem .9rem; border: 0;
+    border-radius: calc(var(--rad-m) - .15rem); background: transparent; cursor: pointer; }
+  .accVrsta[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .accVrsta:disabled { opacity: .45; cursor: default; }
+  .accKolicina { display: flex; align-items: center; gap: .9rem; }
+  .accKolicina input[type=number] { width: 5.5rem; height: 2.5rem; padding: 0 .6rem; font: inherit; font-weight: 600;
+    border: 1px solid var(--rub); border-radius: var(--rad-m); background: var(--bg); color: var(--ink); }
+  .accKolicina input[type=range] { flex: 1; min-width: 0; accent-color: var(--plava); }
+  .accZbroj { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
+    margin-top: 1.1rem; padding-top: 1.1rem; border-top: 1px solid var(--rub); }
+  .accUkupno { font-size: var(--t-2xl); font-weight: 700; font-family: var(--naslov); line-height: 1.1; }
+  .accPopust { color: var(--zelena); font-weight: 700; }
 
-  .accTablicaOkvir { overflow-x: auto; }
+  /* popis postavki */
+  .accLista { padding: .25rem 1.4rem; }
+  .accRed { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem 0;
+    border-top: 1px solid var(--rub); }
+  .accLista > .accRed:first-child, .accLista > div:first-child .accRed { border-top: 0; }
+  .accRedTxt { min-width: 0; }
+  .accRedNas { font-weight: 600; font-size: var(--t-m); }
+  .accRedVr { font-size: var(--t-s); color: var(--muted); overflow-wrap: anywhere; }
+
+  /* moji kodovi */
+  .accTablicaOkvir { overflow-x: auto; margin: 0 -.2rem; }
   .accKodoviT { width: 100%; border-collapse: collapse; font-size: var(--t-s); }
-  .accKodoviT th, .accKodoviT td { padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--rub); text-align: left; }
-  .accKodoviT th { color: var(--muted); font-weight: 600; font-size: var(--t-xs); }
-  .accKodoviT code { font-family: ui-monospace, Consolas, monospace; white-space: nowrap; }
-  .accKodoviT .accGrupa td { color: var(--muted); font-size: var(--t-xs); padding-top: 0.8rem; border-bottom: 0; }
+  .accKodoviT th, .accKodoviT td { padding: .55rem .3rem; border-bottom: 1px solid var(--rub); text-align: left; }
+  .accKodoviT th { color: var(--muted); font-weight: 600; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .06em; }
+  .accKodoviT tr:last-child td { border-bottom: 0; }
+  .accKodoviT code { font-family: ui-monospace, Consolas, monospace; white-space: nowrap; font-size: var(--t-s); }
+  .accKodoviT .accGrupa td { color: var(--muted); font-size: var(--t-xs); padding-top: 1rem; }
   .accAkcije { white-space: nowrap; text-align: right !important; }
-  .accStKod { font-size: var(--t-xs); font-weight: 600; padding: 0.05rem 0.45rem; border-radius: 999px; background: var(--tiho); }
-  .accSlob { background: color-mix(in srgb, var(--zelena) 15%, transparent); color: var(--zelena); }
-  .accVeza { background: none; border: 0; padding: 0; font: inherit; color: var(--plavaVok); text-decoration: underline;
-    text-underline-offset: 2px; cursor: pointer; }
+  .accStKod { font-size: var(--t-xs); font-weight: 700; padding: .1rem .5rem; border-radius: 999px; background: var(--tiho); color: var(--muted); }
+  .accSlob { background: color-mix(in srgb, var(--zelena) 14%, transparent); color: var(--zelena); }
+  .accKodoviDno { display: flex; gap: 1.25rem; margin-top: .9rem; }
 
+  .accDariv { display: flex; flex-direction: column; gap: .3rem; padding: .7rem 0; border-top: 1px solid var(--rub); }
+  .accDariv:first-of-type { border-top: 0; }
+  .accKvacica { display: flex; align-items: flex-start; gap: .5rem; font-size: var(--t-s); cursor: pointer; text-align: left; }
+  .accKvacica input { margin-top: .2rem; accent-color: var(--plava); }
+
+  .accDno { display: flex; justify-content: center; gap: 1.5rem; margin: 2.5rem 0 0; font-size: var(--t-s); color: var(--muted); }
+  .accDno a { color: var(--muted); text-decoration: none; }
+  .accDno a:hover { color: var(--ink); text-decoration: underline; }
+
+  /* gost */
+  .accHero { text-align: center; margin-bottom: 1.6rem; }
+  .accHero h1 { margin-bottom: .35rem; }
+  .accUvod { color: var(--muted); font-size: var(--t-l); margin: 0; }
+  .accPilula { display: inline-block; margin: .9rem 0 0; padding: .3rem .8rem; border-radius: 999px; font-size: var(--t-s); font-weight: 600;
+    background: color-mix(in srgb, var(--zelena) 12%, transparent); color: var(--zelena); }
+  .accGostRed { display: grid; grid-template-columns: 1.35fr 1fr; gap: .75rem; margin-top: .75rem; }
+  .accGostRed > .accKartica { margin-top: 0 !important; }
+  .accGostRed + .accKartica { margin-top: .75rem; }
+  .accStart { display: flex; flex-direction: column; }
+  .accStart .accPodnaslov { margin-bottom: .4rem; }
+  .accUsporedba { width: 100%; border-collapse: collapse; font-size: var(--t-s); }
+  .accUsporedba th, .accUsporedba td { padding: .5rem .3rem; border-bottom: 1px solid var(--rub); text-align: center; }
+  .accUsporedba tr:last-child td { border-bottom: 0; }
+  .accUsporedba th:first-child, .accUsporedba td:first-child { text-align: left; }
+  .accUsporedba thead th { font-size: var(--t-xs); color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .accUsporedba .accUsPlus { color: var(--zlatna); }
+  .accDa { color: var(--zelena); }
+  .accDa .ikn { width: 1rem; height: 1rem; }
+  .accNe { color: var(--muted); }
+
+  /* prozori na ovoj stranici */
   .accModal { text-align: left; }
+  .accModal h2 { font-size: var(--t-xl); }
   .accModal .poljeP input { width: 100%; }
-  .accPopis { padding-left: 1.1rem; color: var(--muted); font-size: var(--t-m); margin: 0.5rem 0 0.75rem; }
-  .accPopis li { margin-bottom: 0.3rem; }
+  .accModal button.gumb { width: auto; margin-top: 0; height: 2.5rem; padding: 0 1.1rem; font-size: var(--t-m); }
+  .accModal button.gumb.gumbSivi { background: transparent; color: var(--ink); border: 1px solid var(--rub); }
+  .accModal button.gumb.accGumbOpasnoPun { background: var(--crvena); }
+  .accModal button.gumb:disabled { opacity: .5; cursor: default; filter: none; }
+  .accGumbi { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: flex-end; margin-top: 1.25rem; }
+  .accPopis { padding-left: 1.1rem; color: var(--muted); font-size: var(--t-m); margin: .5rem 0 .75rem; }
+  .accPopis li { margin-bottom: .3rem; }
 
   @media (max-width: 639.98px) {
     .accCijene { grid-template-columns: 1fr; }
+    .accCijena { flex-direction: row; align-items: baseline; flex-wrap: wrap; column-gap: .6rem; }
+    .accCNaz { width: 100%; }
+    .accGostRed { grid-template-columns: 1fr; }
     .accSkrijMob { display: none; }
-    .accOdjava { margin-left: 0; }
-    .accKodTraka label { flex-basis: 100%; }
-    .accKodTraka input { flex-basis: 0; }
-    .accJaTxt { flex: 1 1 0; min-width: 9rem; }
+    .accKartica, .accPlan { padding: 1.1rem 1.1rem; }
+    .accLista { padding: .1rem 1.1rem; }
+    .accSklop > summary { padding: .95rem 1.1rem; padding-right: 2.75rem; }
+    .accSklop > summary::after { right: 1.1rem; }
+    .accSklopTijelo { padding: 0 1.1rem 1.1rem; }
+    .accRed { flex-wrap: wrap; }
+    .accKodNas { flex-basis: 100%; }
   }
 </style>
 </head>
@@ -8953,9 +9029,8 @@
       if (!SESSION_SPREMNA) { renderUcitavanje(); return; }
       if (!imaRacun()) { prikaziModalPrijava({ view: view }); return; }
     } else if (view === 'account') {
-      // Bez računa nema što vidjeti: odmah prozor za prijavu, pa nakon prijave Account.
+      // Gost vidi cjenik i upute za prijavu; sve radnje (kupnja, kod) traže prijavu.
       if (!SESSION_SPREMNA) { renderUcitavanje(); return; }
-      if (!imaRacun()) { prikaziModalPrijava({ view: view }); return; }
     }
     if (timer) { clearInterval(timer); timer = null; }
     // svaki odlazak drugamo gasi test u tijeku — sat ne smije trčati u pozadini
@@ -9195,10 +9270,10 @@
         (rj ? rj + ' word' + (rj === 1 ? '' : 's') + ' learned' : 'words you meet get saved here') +
         '</div></div>' +
       '<div class="malaP" role="button" tabindex="0" data-cilj="view:account">' +
-        '<div class="imeM">' + (imaRacun() ? 'User account' : 'Log in') + '</div>' +
+        '<div class="imeM">' + (imaRacun() ? 'User account' : 'Sign up & plans') + '</div>' +
         '<div class="podM">' + (imaRacun()
           ? 'signed in · progress is saved'
-          : 'save your progress across devices') + '</div></div>' +
+          : 'free account, plans and codes') + '</div></div>' +
       '</div>';
 
     html += '</div></div>';
@@ -12971,174 +13046,264 @@
     var kod = null;
     try { kod = sessionStorage.getItem(ACC_KOD_KLJUC); } catch (e) {}
     if (!kod) return;
-    if (!imaRacun()) { prikaziModalPrijava({ view: 'account' }); return; }
     if (!ZADNJI_VIEW || ZADNJI_VIEW.view !== 'account') idi('account');
   }
 
   // ---- crtanje ----
+  // Izgled prati Options: sitni naslovi odjeljaka (.nasP), mirne kartice, a objašnjenja
+  // koja ne treba čitati svaki put stoje iza ikone (i).
+  function accInfo(tekst) {
+    return '<button type="button" class="accInfo" aria-label="More information" data-info="' + esc(tekst) + '">i</button>';
+  }
+  // Jedan oblačić za cijelu stranicu: klik na (i) ga otvara uz ikonu, klik bilo gdje drugdje zatvara.
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.accInfo') : null;
+    var star = $('accOblacic');
+    if (star) { var bio = star._za; star.remove(); if (bio === b) return; }
+    if (!b) return;
+    e.preventDefault();
+    var o = document.createElement('div');
+    o.id = 'accOblacic'; o.className = 'accOblacic'; o.textContent = b.getAttribute('data-info');
+    o._za = b;
+    document.body.appendChild(o);
+    var r = b.getBoundingClientRect(), w = o.offsetWidth;
+    var lijevo = Math.max(8, Math.min(window.innerWidth - w - 8, r.left + r.width / 2 - w / 2));
+    o.style.left = (lijevo + window.scrollX) + 'px';
+    o.style.top = (r.bottom + window.scrollY + 8) + 'px';
+  });
+
   function accPaketi() {
     var c = accCijene();
-    var godisnjeMjesecno = Math.round((1 - c.godina / (c.mjesec * 12)) * 100);
-    var kartice = ['tjedan', 'mjesec', 'godina'].map(function (k) {
-      var pod = k === 'tjedan' ? 'Renews weekly' : k === 'mjesec' ? 'Renews monthly'
-        : 'Just ' + accNovac(c.godina / 12) + ' a month';
-      return '<button type="button" class="accCijena" data-paket="' + k + '" aria-pressed="' + (ACC.paket === k) + '">' +
-        (k === 'godina' && godisnjeMjesecno > 0 ? '<span class="accVrpca">Save ' + godisnjeMjesecno + '%</span>' : '') +
-        '<span class="accCNaz">' + ACC_IME[k] + '</span>' +
-        '<span class="accCIznos">' + accNovac(c[k]) + '<small> / ' + ACC_JED[k] + '</small></span>' +
-        '<span class="accCPod">' + pod + '</span></button>';
-    }).join('');
-    return '<div class="accCijene">' + kartice + '</div>' +
-      '<button class="gumb accSiroki" id="accKupiPaket">Continue with ' + ACC_IME[ACC.paket].toLowerCase() + '</button>' +
-      '<p class="accSitno accSredina">Cancel anytime. Prices include VAT. Payments by Paddle.</p>';
+    var usteda = Math.round((1 - c.godina / (c.mjesec * 12)) * 100);
+    return '<div class="accCijene">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
+        return '<button type="button" class="accCijena" data-paket="' + k + '" aria-pressed="' + (ACC.paket === k) + '">' +
+          (k === 'godina' && usteda > 0 ? '<span class="accVrpca">Save ' + usteda + '%</span>' : '') +
+          '<span class="accCNaz">' + ACC_IME[k] + '</span>' +
+          '<span class="accCIznos">' + accNovac(c[k]) + '</span>' +
+          '<span class="accCPod">' + (k === 'godina' ? accNovac(c.godina / 12) + ' a month' : 'per ' + ACC_JED[k]) + '</span>' +
+        '</button>';
+      }).join('') + '</div>' +
+      '<div class="accAkcija"><button class="accBtn" id="accKupiPaket">Continue with ' + ACC_IME[ACC.paket].toLowerCase() + '</button>' +
+      '<span class="accTiho">Cancel anytime ' + accInfo('Plans renew automatically until you cancel. You can cancel on this page in two clicks and keep Plus until the end of the period you paid for. Prices include VAT. Payments are handled by Paddle, our reseller.') + '</span></div>';
   }
   function accCustom() {
     var c = accCijene();
     var r = accCijenaKodova(ACC.vrsta, ACC.n);
     var klizac = Math.round(Math.log(ACC.n) / Math.log(c.max) * 1000);
-    return '<p class="accSitno" style="margin-top:0">Pick a length and how many. You get codes to use yourself, give away or sell — ' +
-      'the more you take, the less each one costs. Codes can be redeemed within 2 years.</p>' +
-      '<div class="accVrste">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
+    return '<div class="accVrste">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
         return '<button type="button" class="accVrsta" data-vrsta="' + k + '" aria-pressed="' + (ACC.vrsta === k) + '">' +
-          '<b>1 ' + ACC_JED[k] + '</b><small>' + accNovac(c[k]) + '</small></button>';
+          '1 ' + ACC_JED[k] + '</button>';
       }).join('') + '</div>' +
-      '<div class="accKolicina"><label for="accN">Codes</label>' +
-        '<input type="number" id="accN" min="1" max="' + c.max + '" value="' + ACC.n + '">' +
+      '<div class="accKolicina"><input type="number" id="accN" min="1" max="' + c.max + '" value="' + ACC.n + '" aria-label="Number of codes">' +
         '<input type="range" id="accNR" min="0" max="1000" value="' + klizac + '" aria-label="Number of codes"></div>' +
       '<div class="accZbroj"><div><div class="accUkupno">' + accNovac(r.ukupno) + '</div>' +
-        '<div class="accSitno">' + ACC.n + ' × ' + accNovac(r.poKodu) +
-        (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '') + ' · one-time payment</div></div>' +
-        '<button class="gumb" id="accKupiKodove">Buy ' + ACC.n + (ACC.n === 1 ? ' code' : ' codes') + '</button></div>';
+        '<div class="accTiho" id="accZbrojOpis">' + ACC.n + ' × ' + accNovac(r.poKodu) +
+        (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '') + '</div></div>' +
+        '<button class="accBtn" id="accKupiKodove">Buy ' + ACC.n + (ACC.n === 1 ? ' code' : ' codes') + '</button></div>';
+  }
+  function accKodoviOdjeljak(otvoren) {
+    return '<details class="accKartica accSklop"' + (otvoren ? ' open' : '') + '><summary>' +
+        '<span class="accSklopNas">Codes for others</span>' +
+        '<span class="accTiho">Give Plus as a gift, or buy in bulk and resell</span></summary>' +
+        '<div class="accSklopTijelo"><p class="accTiho" style="margin:0 0 .9rem">One-time payment, no renewal. The more codes, ' +
+        'the lower the price per code. ' + accInfo('Anyone can redeem a code within 2 years of purchase. Codes add Plus time on top of whatever the person already has. You can give them away or resell them.') + '</p>' +
+        accCustom() + '</div></details>';
+  }
+  function accKodTraka(gost) {
+    return '<div class="accKodTraka"><div class="accKodNas"><label for="accKodUnos">Have a code?</label> ' +
+      accInfo(gost ? 'You\'ll log in or create a free account first — the code is kept for you.'
+        : 'A code adds Plus time. If you have a plan, your next payment simply moves later.') + '</div>' +
+      '<div class="accKodPolje"><input id="accKodUnos" placeholder="CRO-XXXX-XXXX" autocomplete="off" spellcheck="false" value="' +
+        esc(ACC.kodIzAdrese || '') + '"><button class="accBtn accBtn2" id="accKodGumb">Redeem</button></div>' +
+      '<p class="accKodGreska" id="accKodGreska" hidden></p></div>';
   }
   function accPlan() {
     var st = accStanje();
     var p = accPretplata();
-    var c = accCijene();
     if (st === 'komplimentarno') {
-      return '<div class="accPloca accPlan accJePlus"><div class="accPlanIme">Croland Plus</div>' +
-        '<p class="accSitno" style="margin:.25rem 0 0">A gift from Croland — no end date, nothing to pay.</p></div>';
+      return '<div class="accKartica accPlan accJePlus"><div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
+        '<span class="accZnacka accZnPlus">Gift</span></div>' +
+        '<p class="accPlanOpis">Everything unlocked, with no end date.</p>' + accKodTraka() + '</div>';
     }
     if (st === 'pretplata') {
       var dalje = p.placeni_paket && p.paket && p.placeni_paket !== p.paket;
       var trenutni = p.placeni_paket || p.paket;
-      var red =
-        '<dt>Plan</dt><dd>' + (ACC_IME[trenutni] || 'Plus') + (p.cijena_iznos && !dalje ? ' · ' + accNovac(Number(p.cijena_iznos)) +
-          ' / ' + ACC_JED[trenutni] : '') + '</dd>' +
-        (p.status === 'paused' ? '<dt>Status</dt><dd>Paused</dd>'
-          : p.auto_obnova ? '<dt>Renews</dt><dd>' + accDatum(p.vrijedi_do) + '</dd>'
-          : '<dt>Ends</dt><dd>' + accDatum(p.vrijedi_do) + ' · won\'t renew</dd>') +
-        (dalje ? '<dt>Then</dt><dd>' + ACC_IME[p.paket] + (p.cijena_iznos ? ' · ' + accNovac(Number(p.cijena_iznos)) + ' / ' + ACC_JED[p.paket] : '') + '</dd>' : '');
-      return '<div class="accPloca accPlan accJePlus">' +
+      var opis = (ACC_IME[trenutni] || 'Plus') +
+        (p.cijena_iznos && !dalje ? ' · ' + accNovac(Number(p.cijena_iznos)) + ' / ' + ACC_JED[trenutni] : '') + ' · ' +
+        (p.status === 'paused' ? 'paused' : p.auto_obnova ? 'renews ' + accDatum(p.vrijedi_do)
+          : 'ends ' + accDatum(p.vrijedi_do)) +
+        (dalje ? ' · then ' + ACC_IME[p.paket].toLowerCase() : '');
+      return '<div class="accKartica accPlan accJePlus">' +
         '<div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
-          '<span class="accZnacka ' + (p.status === 'past_due' ? 'accZnUpoz">Payment issue' : 'accZnOk">Active') + '</span></div>' +
-        (p.status === 'past_due' ? '<p class="accUpozorenje">We couldn\'t take your last payment. Please update your card ' +
-          'under Manage subscription — you keep Plus in the meantime.</p>' : '') +
-        '<dl class="accRedovi">' + red + '</dl>' +
-        '<div class="accGumbiL">' +
-          (p.auto_obnova ? '<button class="gumb" id="accPromjena">Change plan</button>'
-            : '<button class="gumb" id="accNastavi">Keep my subscription</button>') +
-          '<button class="gumb gumbSivi" id="accPortal">Manage subscription</button></div>' +
-        '<p class="accSitno">Cancel, update your card or download invoices on Paddle\'s secure page.</p></div>' +
-        '<details class="accPloca accSklop"><summary>Buy codes for others</summary>' + accCustom() + '</details>';
+          (p.status === 'past_due' ? '<span class="accZnacka accZnUpoz">Payment issue</span>'
+            : p.auto_obnova ? '<span class="accZnacka accZnOk">Active</span>' : '<span class="accZnacka">Cancelled</span>') + '</div>' +
+        '<p class="accPlanOpis">' + opis + '</p>' +
+        (p.status === 'past_due' ? '<p class="accUpozorenje">We couldn\'t take your last payment. Update your card under ' +
+          'Manage — you keep Plus in the meantime.</p>' : '') +
+        '<div class="accAkcija">' +
+          (p.auto_obnova ? '<button class="accBtn accBtn2" id="accPromjena">Change plan</button>'
+            : '<button class="accBtn" id="accNastavi">Keep my subscription</button>') +
+          '<button class="accBtn accBtn2" id="accPortal">Manage</button>' +
+          accInfo('Cancel, update your card or download invoices on Paddle\'s secure page.') + '</div>' +
+        accKodTraka() + '</div>';
     }
     if (st === 'kod') {
-      return '<div class="accPloca accPlan accJePlus"><div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
+      return '<div class="accKartica accPlan accJePlus"><div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
           '<span class="accZnacka accZnOk">Active</span></div>' +
-        '<dl class="accRedovi"><dt>From</dt><dd>Codes</dd><dt>Until</dt><dd>' + accDatum(ENTITLEMENT.kod_do) +
-          ' · doesn\'t renew</dd></dl></div>' +
-        '<details class="accPloca accSklop"><summary>Keep Plus after ' + accDatum(ENTITLEMENT.kod_do) + '</summary>' +
-          '<p class="accSitno" style="margin-top:0">Start a plan now and your remaining code time is added to it — ' +
-          'nothing is lost.</p>' + accPaketi() + '</details>' +
-        '<details class="accPloca accSklop"><summary>Buy codes (Custom)</summary>' + accCustom() + '</details>';
+        '<p class="accPlanOpis">From codes · until ' + accDatum(ENTITLEMENT.kod_do) + ' · doesn\'t renew</p>' +
+        accKodTraka() + '</div>' +
+        '<details class="accKartica accSklop"><summary><span class="accSklopNas">Keep Plus after ' + accDatum(ENTITLEMENT.kod_do) + '</span>' +
+          '<span class="accTiho">Start a plan — your remaining code time is added to it</span></summary>' +
+          '<div class="accSklopTijelo">' + accPaketi() + '</div></details>';
     }
-    return '<div class="accPloca accPlan">' +
-        '<div class="accPlanIme">Free plan</div>' +
-        '<p class="accSitno" style="margin:.25rem 0 1.1rem">Level 1 on every track, daily challenges and mini games. ' +
-          'Croland Plus opens every level.</p>' +
-        accPaketi() + '</div>' +
-      '<div class="accPloca"><h2 class="accNaslov">Custom</h2>' + accCustom() + '</div>';
+    return '<div class="accKartica accPlan">' +
+        '<div class="accPlanVrh"><div class="accPlanIme">Free plan</div>' +
+          accInfo('Level 1 on every track, daily challenges and mini games. Croland Plus opens every level.') + '</div>' +
+        accKodTraka() +
+        '<div class="accRazdjel"></div>' +
+        '<div class="accPodnaslov">Upgrade to Croland Plus</div>' + accPaketi() + '</div>';
+  }
+  function accRed(naslov, vrijednost, desno, info, id) {
+    return '<div class="accRed"' + (id ? ' id="' + id + '"' : '') + '><div class="accRedTxt"><div class="accRedNas">' + naslov +
+      (info ? ' ' + accInfo(info) : '') + '</div>' + (vrijednost ? '<div class="accRedVr">' + vrijednost + '</div>' : '') +
+      '</div>' + (desno || '') + '</div>';
   }
   function accMojiKodovi() {
     if (!(ENTITLEMENT && ENTITLEMENT.ima_kupnje)) return '';
-    return '<div class="accPloca" id="accKodovi"><h2 class="accNaslov">My codes</h2>' +
-      '<p class="accSitno">Loading…</p></div>';
+    return '<div class="nasP accNasP">My codes</div><div class="accKartica" id="accKodovi"><p class="accTiho">Loading…</p></div>';
   }
   function accPostavke() {
     var u = SESSION.user;
     var pr = ((u.app_metadata && u.app_metadata.providers) || []);
-    var imaLozinku = pr.indexOf('email') !== -1;
-    return '<div class="accPloca"><h2 class="accNaslov">Account settings</h2>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Display name</div>' +
-        '<div class="accSOpis">Shown to friends and to whoever gave you a code. Never your email.</div>' +
-        '<div class="accRed"><input id="accIme" maxlength="40" placeholder="the name others see" value="' +
-          esc((ACC.javni && ACC.javni.nadimak) || '') + '"><button class="gumb gumbSivi" id="accSpremiIme">Save</button></div>' +
-        '<div class="accSOpis" id="accImePoruka"></div></div></div>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Email</div><div class="accSOpis">' + esc(u.email || '') +
-        '</div></div><button class="gumb gumbSivi" id="accEmail">Change</button></div>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Password</div><div class="accSOpis">' +
-        (imaLozinku ? 'Used to log in with your email.' : 'You log in with Google. You can also set a password.') +
-        '</div></div><button class="gumb gumbSivi" id="accLozinka">' + (imaLozinku ? 'Change' : 'Set a password') + '</button></div>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Sessions</div><div class="accSOpis">' +
-        'Log out on every device where you\'re signed in.</div></div>' +
-        '<button class="gumb gumbSivi" id="accSvuda">Log out everywhere</button></div>' +
-      '<div id="accDarivatelji"></div>' +
+    var lozinka = pr.indexOf('email') !== -1;
+    var ime = (ACC.javni && ACC.javni.nadimak) || '';
+    return '<div class="nasP accNasP">Account</div><div class="accKartica accLista">' +
+      accRed('Display name', ime ? '<span id="accImeVr">' + esc(ime) + '</span>' : '<span id="accImeVr" class="accPrazno">Not set</span>',
+        '<button class="accVeza" id="accIme">Edit</button>',
+        'Shown to friends and to whoever gave you a code. Never your email.') +
+      accRed('Email', esc(u.email || ''), '<button class="accVeza" id="accEmail">Change</button>') +
+      accRed('Password', lozinka ? '••••••••' : '<span class="accPrazno">You log in with Google</span>',
+        '<button class="accVeza" id="accLozinka">' + (lozinka ? 'Change' : 'Set a password') + '</button>') +
+      '<div id="accDarivateljiRed"></div>' +
+      accRed('Sessions', 'Signed in on this device', '<button class="accVeza" id="accSvuda">Log out everywhere</button>') +
       '</div>';
   }
   function accPodaci() {
-    return '<div class="accPloca accOpasno"><h2 class="accNaslov">Your data</h2>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Download your data</div><div class="accSOpis">' +
-        'Account, progress, points, saved words, friends, codes and AI help conversations, as a JSON file.</div></div>' +
-        '<button class="gumb gumbSivi" id="accIzvoz">Download</button></div>' +
-      '<div class="accStavka"><div class="accTxt"><div class="accSNas">Delete account</div><div class="accSOpis">' +
-        'Permanently removes your account and all progress.</div></div>' +
-        '<button class="gumb accGumbOpasno" id="accBrisi">Delete account</button></div></div>';
+    return '<div class="nasP accNasP">Privacy and data</div><div class="accKartica accLista">' +
+      accRed('Download my data', '', '<button class="accVeza" id="accIzvoz">Download</button>',
+        'Account, progress, points, saved words, friends, codes and AI help conversations, as a JSON file.') +
+      accRed('Delete account', '', '<button class="accVeza accVezaOpasno" id="accBrisi">Delete</button>',
+        'Permanently removes your account and all progress. Codes you bought stay valid.') +
+      '</div>';
   }
 
   function renderAccount() {
-    if (!imaRacun()) { prikaziModalPrijava({ view: 'account' }); return; }
+    if (!imaRacun()) { renderAccountGost(); return; }
     var u = SESSION.user;
     var st = accStanje();
     var ime = (ACC.javni && ACC.javni.nadimak) || (u.email || '').split('@')[0];
     var pr = ((u.app_metadata && u.app_metadata.providers) || []);
-    var nacin = pr.indexOf('google') !== -1 ? 'signed in with Google' : 'signed in with email';
-    var kodIzAdrese = null;
-    try { kodIzAdrese = sessionStorage.getItem(ACC_KOD_KLJUC); } catch (e) {}
+    ACC.kodIzAdrese = null;
+    try { ACC.kodIzAdrese = sessionStorage.getItem(ACC_KOD_KLJUC); } catch (e) {}
+    var oRacunu = (pr.indexOf('google') !== -1 ? 'Signed in with Google' : 'Signed in with email') +
+      (u.created_at ? ' · member since ' + new Date(u.created_at).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }) : '');
 
     VIEW.innerHTML = '<div class="acc">' +
-      '<h1 class="sekcija">Account</h1>' +
-      '<div class="accKodTraka"><label for="accKodUnos">Have a code?</label>' +
-        '<input id="accKodUnos" placeholder="CRO-XXXX-XXXX" autocomplete="off" spellcheck="false" value="' + esc(kodIzAdrese || '') + '">' +
-        '<button class="gumb" id="accKodGumb">Redeem</button>' +
-        '<p class="accKodGreska" id="accKodGreska" hidden></p></div>' +
-      '<div class="accPloca accJa"><div class="accAvatar" id="accAvatar">' + esc((ime || '?').charAt(0).toUpperCase()) + '</div>' +
+      '<div class="accZaglavlje"><h1 class="sekcija">Account</h1>' +
+        '<button class="accVeza" id="btnOdjava">Log out</button></div>' +
+      '<div class="accJa"><div class="accAvatar" id="accAvatar">' + esc((ime || '?').charAt(0).toUpperCase()) + '</div>' +
         '<div class="accJaTxt"><div class="accJaIme"><span id="accJaIme">' + esc(ime) + '</span>' +
-          (st === 'free' ? ' <span class="accZnacka">Free</span>' : ' <span class="accZnacka accZnPlus">Plus</span>') + '</div>' +
-          '<div class="accSOpis">' + esc(u.email || '') + ' · ' + nacin +
-            (u.created_at ? ' · member since ' + new Date(u.created_at).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }) : '') +
-          '</div></div>' +
-        '<button class="gumb gumbSivi accOdjava" id="btnOdjava">Log out</button></div>' +
-      accPlan() +
+          (st === 'free' ? '' : ' <span class="accZnacka accZnPlus">Plus</span>') + '</div>' +
+          '<div class="accTiho">' + esc(u.email || '') + ' ' + accInfo(oRacunu) + '</div></div></div>' +
+      '<div class="nasP accNasP">Plan</div>' + accPlan() +
+      accKodoviOdjeljak(false) +
       accMojiKodovi() +
       accPostavke() +
       accPodaci() +
-      '<p class="accSitno accSredina"><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>' +
+      '<p class="accDno"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></p>' +
       '</div>';
 
     accVezi();
-    if (kodIzAdrese) accPokreniKod(kodIzAdrese);
+    if (ACC.kodIzAdrese) accPokreniKod(ACC.kodIzAdrese);
     if (!ACC.javni) {
       supa.rpc('moj_javni_racun').then(function (res) {
         ACC.javni = (res.data && res.data[0]) || { nadimak: null };
-        var n = ACC.javni.nadimak;
-        if (!n) return;
-        // Na mjestu, bez ponovnog crtanja — unos koda i otvoreni dijalog ostaju netaknuti.
-        var e1 = $('accJaIme'); if (e1) e1.textContent = n;
-        var e2 = $('accAvatar'); if (e2) e2.textContent = n.charAt(0).toUpperCase();
-        var e3 = $('accIme'); if (e3 && !e3.value && document.activeElement !== e3) e3.value = n;
+        accOsvjeziIme();
       });
     }
     accCrtajKodove();
     accCrtajDarivatelje();
+  }
+  function accOsvjeziIme() {
+    var n = ACC.javni && ACC.javni.nadimak;
+    var v = $('accImeVr');
+    if (v) { v.textContent = n || 'Not set'; v.className = n ? '' : 'accPrazno'; }
+    if (!n) return;
+    var e1 = $('accJaIme'); if (e1) e1.textContent = n;
+    var e2 = $('accAvatar'); if (e2) e2.textContent = n.charAt(0).toUpperCase();
+  }
+
+  // ---- gost: cjenik i upute za prijavu ----
+  // Paddle za odobrenje traži da cijene budu vidljive bez prijave, a gost tako vidi što
+  // dobiva prije nego napravi račun. Svaka radnja vodi u prozor za prijavu, s povratkom ovamo.
+  function accUsporedba() {
+    var redovi = [
+      ['Lesson 0', true, true],
+      ['Level 1 on every track', true, true],
+      ['Daily challenges and mini games', true, true],
+      ['Level 2 and above', false, true],
+      ['AI help on exercises', '1/day', '20/day']
+    ];
+    var celija = function (x) {
+      return x === true ? '<td class="accDa">' + IK('kvaka') + '</td>' : x === false ? '<td class="accNe">—</td>' : '<td>' + x + '</td>';
+    };
+    return '<table class="accUsporedba"><thead><tr><th></th><th>Free</th><th class="accUsPlus">Plus</th></tr></thead><tbody>' +
+      redovi.map(function (r) { return '<tr><td>' + r[0] + '</td>' + celija(r[1]) + celija(r[2]) + '</tr>'; }).join('') +
+      '</tbody></table>';
+  }
+  function renderAccountGost() {
+    ACC.kodIzAdrese = null;
+    try { ACC.kodIzAdrese = sessionStorage.getItem(ACC_KOD_KLJUC); } catch (e) {}
+    var besplatno = accBesplatnoDo();
+    VIEW.innerHTML = '<div class="acc">' +
+      '<div class="accHero"><h1 class="sekcija">Croland Plus</h1>' +
+        '<p class="accUvod">Every level, every track — all of Croatian, unlocked.</p>' +
+        (besplatno ? '<p class="accPilula">Free for everyone until ' + accDatum(besplatno) + '</p>' : '') + '</div>' +
+      '<div class="accKartica accPlan">' + accPaketi() + '</div>' +
+      '<div class="accGostRed">' +
+        '<div class="accKartica"><div class="accPodnaslov">Free or Plus</div>' + accUsporedba() + '</div>' +
+        '<div class="accKartica accStart"><div class="accPodnaslov">Start free</div>' +
+          '<p class="accTiho" style="margin:0 0 1rem">A free account takes a minute and opens Level 1. Upgrade any time.</p>' +
+          '<button class="accBtn accSiroki" id="accRegistracija">Create a free account</button>' +
+          '<button class="accBtn accBtn2 accSiroki" id="accPrijava">Log in</button>' +
+          '<p class="accTiho accSredina" style="margin:.8rem 0 0"><button class="accVeza" id="accL0">Try Lesson 0</button> — no account needed</p>' +
+        '</div></div>' +
+      '<div class="accKartica">' + accKodTraka(true) + '</div>' +
+      accKodoviOdjeljak(false) +
+      '<p class="accDno"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></p>' +
+      '</div>';
+
+    var prijava = function () { prikaziModalPrijava({ view: 'account' }); };
+    var unos = $('accKodUnos');
+    var kod = function () {
+      var k = String(unos.value || '').trim();
+      if (k) { try { sessionStorage.setItem(ACC_KOD_KLJUC, k); } catch (e) {} }
+      prijava();
+    };
+    $('accKodGumb').onclick = kod;
+    unos.onkeydown = function (e) { if (e.key === 'Enter') kod(); };
+    Array.prototype.forEach.call(document.querySelectorAll('.accCijena'), function (b) {
+      b.onclick = function () { ACC.paket = b.getAttribute('data-paket'); accOsvjeziPakete(); };
+    });
+    $('accKupiPaket').onclick = prijava;
+    accVeziCustom();
+    $('accKupiKodove').onclick = prijava;
+    $('accRegistracija').onclick = prijava;
+    $('accPrijava').onclick = function () {
+      prijava();
+      var p = $('prPrebaci'); if (p) p.click();   // prozor se otvara na "Create", ovdje treba "Log in"
+    };
+    $('accL0').onclick = function () { idi('unit', L0_TIP, L0_RAZINA); };
   }
 
   function accVezi() {
@@ -13171,17 +13336,7 @@
       });
     };
 
-    $('accSpremiIme').onclick = function () {
-      var ime = $('accIme').value.trim().slice(0, 40);
-      var por = $('accImePoruka'); por.textContent = 'Saving…';
-      supa.from('javni_bodovi').update({ nadimak: ime || null, updated_at: new Date().toISOString() })
-        .eq('user_id', SESSION.user.id).then(function (res) {
-          if (res.error) { por.textContent = 'Could not save — try again.'; return; }
-          if (ACC.javni) ACC.javni.nadimak = ime || null;
-          if (typeof DRUSTVO !== 'undefined' && DRUSTVO.ja) DRUSTVO.ja.nadimak = ime || null;
-          por.textContent = ime ? 'Saved.' : 'Cleared — people see only your ID.';
-        });
-    };
+    $('accIme').onclick = accPromjenaImena;
     $('accEmail').onclick = accPromjenaEmaila;
     $('accLozinka').onclick = function () { accNovaLozinka(false); };
     $('accSvuda').onclick = function () {
@@ -13193,6 +13348,26 @@
     $('accIzvoz').onclick = accIzvoz;
     $('accBrisi').onclick = accBrisanje;
   }
+  function accPromjenaImena() {
+    var m = accModal('<h2>Display name</h2><p class="otkljPod">Shown to friends and to whoever gave you a code. Never your email.</p>' +
+      '<div class="poljeP"><label for="accNovoIme">Name</label><input id="accNovoIme" maxlength="40" value="' +
+        esc((ACC.javni && ACC.javni.nadimak) || '') + '"></div>' +
+      '<p class="greskaP" id="accImePoruka"></p>' +
+      '<div class="accGumbi"><button class="accBtn accBtn2" data-zatvori>Cancel</button><button class="accBtn" id="accImeDa">Save</button></div>');
+    setTimeout(function () { var f = $('accNovoIme'); if (f) { f.focus(); f.select(); } }, 60);
+    $('accImeDa').onclick = function () {
+      var ime = $('accNovoIme').value.trim().slice(0, 40);
+      this.disabled = true;
+      supa.from('javni_bodovi').update({ nadimak: ime || null, updated_at: new Date().toISOString() })
+        .eq('user_id', SESSION.user.id).then(function (res) {
+          if (res.error) { $('accImePoruka').textContent = 'Could not save — try again.'; $('accImeDa').disabled = false; return; }
+          ACC.javni = ACC.javni || {}; ACC.javni.nadimak = ime || null;
+          if (typeof DRUSTVO !== 'undefined' && DRUSTVO.ja) DRUSTVO.ja.nadimak = ime || null;
+          m.zatvori(); accOsvjeziIme();
+        });
+    };
+  }
+
   function accOsvjeziPakete() {
     Array.prototype.forEach.call(document.querySelectorAll('.accCijena'), function (b) {
       b.setAttribute('aria-pressed', String(b.getAttribute('data-paket') === ACC.paket));
@@ -13210,8 +13385,8 @@
       var z = document.querySelector('.accZbroj');
       if (z) {
         z.querySelector('.accUkupno').textContent = accNovac(r.ukupno);
-        z.querySelector('.accSitno').innerHTML = ACC.n + ' × ' + accNovac(r.poKodu) +
-          (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '') + ' · one-time payment';
+        $('accZbrojOpis').innerHTML = ACC.n + ' × ' + accNovac(r.poKodu) +
+          (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '');
       }
       $('accKupiKodove').textContent = 'Buy ' + ACC.n + (ACC.n === 1 ? ' code' : ' codes');
     };
@@ -13241,10 +13416,10 @@
     var crtaj = function () {
       return '<h2>Change plan</h2><p class="otkljPod">You\'re on <b>' + ACC_IME[p.placeni_paket || trenutni] +
         '</b>, paid until <b>' + accDatum(p.vrijedi_do) + '</b>. The new plan starts then — you keep everything you\'ve paid for.</p>' +
-        '<div class="accVrste">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
-          return '<button type="button" class="accVrsta" data-pk="' + k + '" aria-pressed="' + (izbor === k) + '"' +
-            (k === trenutni ? ' disabled' : '') + '><b>' + ACC_IME[k] + '</b><small>' +
-            (k === trenutni ? 'current' : accNovac(c[k]) + ' / ' + ACC_JED[k]) + '</small></button>';
+        '<div class="accCijene" style="margin-top:1rem">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
+          return '<button type="button" class="accCijena" data-pk="' + k + '" aria-pressed="' + (izbor === k) + '"' +
+            (k === trenutni ? ' disabled style="opacity:.5;cursor:default"' : '') + '><span class="accCNaz">' + ACC_IME[k] + '</span>' +
+            '<span class="accCPod">' + (k === trenutni ? 'current plan' : accNovac(c[k]) + ' / ' + ACC_JED[k]) + '</span></button>';
         }).join('') + '</div>' +
         '<div class="accGumbi"><button class="gumb gumbSivi" data-zatvori>Cancel</button>' +
         '<button class="gumb" id="accPromjenaDa">Switch to ' + ACC_IME[izbor] + ' on ' + accDatum(p.vrijedi_do) + '</button></div>';
@@ -13316,11 +13491,10 @@
     var crtaj = function () {
       okvir = $('accKodovi'); if (!okvir) return;
       var redovi = ACC.kodovi || [];
-      if (!redovi.length) { okvir.innerHTML = '<h2 class="accNaslov">My codes</h2><p class="accSitno">No codes yet.</p>'; return; }
+      if (!redovi.length) { okvir.innerHTML = '<p class="accTiho" style="margin:0">No codes yet.</p>'; return; }
       var slobodni = redovi.filter(function (r) { return r.stanje === 'slobodan'; }).length;
-      var html = '<h2 class="accNaslov">My codes</h2>' +
-        '<p class="accSitno" style="margin-top:-.4rem">' + redovi.length + ' codes · ' + slobodni + ' unused. ' +
-        'Anyone with a code can redeem it — share them however you like.</p>' +
+      var html = '<p class="accTiho" style="margin:0 0 .5rem">' + redovi.length + ' codes · ' + slobodni + ' unused ' +
+        accInfo('Anyone with a code can redeem it. Share a code or its link however you like; unused codes stay valid for 2 years from purchase.') + '</p>' +
         '<div class="accTablicaOkvir"><table class="accKodoviT"><thead><tr><th>Code</th><th>Status</th><th class="accSkrijMob">Points</th><th></th></tr></thead><tbody>';
       var zadnjiDan = null;
       redovi.forEach(function (r) {
@@ -13340,8 +13514,8 @@
             '<button class="accVeza" data-link="' + esc(r.kod) + '">Link</button>' : '') + '</td></tr>';
       });
       html += '</tbody></table></div>' +
-        '<div class="accGumbiL"><button class="gumb gumbSivi" id="accCsv">Download CSV</button>' +
-        '<button class="gumb gumbSivi" id="accIspis">Print unused codes</button></div>';
+        '<div class="accKodoviDno"><button class="accVeza" id="accCsv">Download CSV</button>' +
+        '<button class="accVeza" id="accIspis">Print unused codes</button></div>';
       okvir.innerHTML = html;
       var kopiraj = function (t, b) {
         try { navigator.clipboard.writeText(t); } catch (e) {}
@@ -13384,34 +13558,50 @@
       '</div><script>window.onload=function(){window.print()}<\/script></body></html>');
     w.document.close();
   }
+  // Ljudi čije je kodove korisnik iskoristio: jedan red u postavkama, a pojedinosti u prozoru.
   function accCrtajDarivatelje() {
     var crtaj = function () {
-      var okvir = $('accDarivatelji'); if (!okvir) return;
+      var okvir = $('accDarivateljiRed'); if (!okvir) return;
       var ljudi = ACC.darivatelji || [];
       if (!ljudi.length) { okvir.innerHTML = ''; return; }
-      okvir.innerHTML = '<div class="accStavka accStavkaStup"><div class="accSNas">People who gave you codes</div>' +
-        ljudi.map(function (p, i) {
-          return '<div class="accDariv"><b>' + esc(p.nadimak) + '</b>' +
-            '<label class="accKvacica"><input type="checkbox" data-sakrij="' + i + '"' + (p.skriveno ? ' checked' : '') +
-              '> Hide my name and points from them</label>' +
-            '<label class="accKvacica"><input type="checkbox" data-vise="' + i + '"' + (p.vise ? ' checked' : '') +
-              (p.skriveno ? ' disabled' : '') + '> Also share my lessons and activity dates</label></div>';
-        }).join('') + '</div>';
+      var vide = ljudi.filter(function (p) { return !p.skriveno; }).length;
+      okvir.innerHTML = accRed('Shared with code givers', vide + ' of ' + ljudi.length + ' can see your name and points',
+        '<button class="accVeza" id="accDarivBtn">Manage</button>',
+        'People whose codes you redeemed see your display name and points, unless you hide it. You can also let them see your lessons and activity dates.');
+      $('accDarivBtn').onclick = prozor;
+    };
+    var prozor = function () {
+      var ljudi = ACC.darivatelji || [];
+      var html = function () {
+        return '<h2>Shared with code givers</h2><p class="otkljPod">They see your display name and points unless you hide it.</p>' +
+          ljudi.map(function (p, i) {
+            return '<div class="accDariv"><b>' + esc(p.nadimak) + '</b>' +
+              '<label class="accKvacica"><input type="checkbox" data-sakrij="' + i + '"' + (p.skriveno ? ' checked' : '') +
+                '> Hide my name and points</label>' +
+              '<label class="accKvacica"><input type="checkbox" data-vise="' + i + '"' + (p.vise ? ' checked' : '') +
+                (p.skriveno ? ' disabled' : '') + '> Also share my lessons and activity dates</label></div>';
+          }).join('') + '<div class="accGumbi"><button class="accBtn" data-zatvori>Done</button></div>';
+      };
+      var m = accModal(html(), crtaj);
       var spremi = function (i) {
         var p = ljudi[i];
         supa.rpc('postavi_vidljivost_kupcu', { p_kupac: p.kupac, p_skriveno: p.skriveno, p_vise: p.vise }).then(function () {});
       };
-      Array.prototype.forEach.call(okvir.querySelectorAll('[data-sakrij]'), function (c) {
-        c.onchange = function () { var i = +c.getAttribute('data-sakrij'); ljudi[i].skriveno = c.checked; if (c.checked) ljudi[i].vise = false; spremi(i); crtaj(); };
-      });
-      Array.prototype.forEach.call(okvir.querySelectorAll('[data-vise]'), function (c) {
-        c.onchange = function () { var i = +c.getAttribute('data-vise'); ljudi[i].vise = c.checked; spremi(i); };
-      });
+      var vezi = function () {
+        Array.prototype.forEach.call(m.el.querySelectorAll('[data-sakrij]'), function (c) {
+          c.onchange = function () { var i = +c.getAttribute('data-sakrij'); ljudi[i].skriveno = c.checked; if (c.checked) ljudi[i].vise = false;
+            spremi(i); m.el.innerHTML = html(); vezi(); };
+        });
+        Array.prototype.forEach.call(m.el.querySelectorAll('[data-vise]'), function (c) {
+          c.onchange = function () { var i = +c.getAttribute('data-vise'); ljudi[i].vise = c.checked; spremi(i); };
+        });
+        Array.prototype.forEach.call(m.el.querySelectorAll('[data-zatvori]'), function (b) { b.onclick = m.zatvori; });
+      };
+      vezi();
     };
     if (ACC.darivatelji) { crtaj(); return; }
     supa.rpc('moji_darivatelji').then(function (res) { ACC.darivatelji = res.error ? [] : (res.data || []); crtaj(); });
   }
-
   function accPreuzmi(ime, sadrzaj, tip) {
     var blob = new Blob([sadrzaj], { type: tip + ';charset=utf-8' });
     var a = document.createElement('a');
