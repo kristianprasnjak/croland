@@ -16,6 +16,10 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Croland · info-v1</title>
+<!-- Veza prema Supabaseu (TLS) se otvara dok stižu skripte, pa prvi poziv nakon njih
+     ne čeka rukovanje. Preload za data.js/rjecnik.js je isproban i nije ubrzao ništa:
+     usko grlo su bajtovi, ne trenutak kad preuzimanje krene. -->
+<link rel="preconnect" href="https://krunohdgohuebmafepmb.supabase.co" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -3291,9 +3295,98 @@
     .accRed { flex-wrap: wrap; }
     .accKodNas { flex-basis: 100%; }
   }
+  /* ================= EKRAN ZA UČITAVANJE =================
+     Stoji od prvog crtanja do prvog pravog pogleda (vidi PLAN-ucitavanje.md).
+     Pozadina je neprozirna odmah, pa se zaglavlje bez sadržaja nikad ne vidi;
+     logo i traka se pojave tek nakon 300 ms, da brzo otvaranje (iz cachea)
+     ne bljesne. Samo tokeni teme — svaka tema radi sama. */
+  #ucitavanje {
+    position: fixed; inset: 0; z-index: 2000; background: var(--bg);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1.25rem; padding: 1rem; transition: opacity .25s;
+  }
+  #ucitavanje.gotovo { opacity: 0; pointer-events: none; }
+  #ucitavanje .ucitSadrzaj {
+    display: flex; flex-direction: column; align-items: center; gap: 1.25rem;
+    animation: ucitPojava .3s .3s both;
+  }
+  @keyframes ucitPojava { from { opacity: 0; } to { opacity: 1; } }
+  #ucitavanje .ucitLogo {
+    width: 3rem; height: 3rem; border-radius: var(--rad-m);
+    background: var(--plava); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--naslov); font-weight: 700; font-size: 1.5rem; line-height: 1;
+  }
+  #ucitavanje .ucitTraka {
+    width: 7.5rem; height: 2px; border-radius: 1px; overflow: hidden;
+    background: var(--rub);
+  }
+  #ucitavanje .ucitTraka span {
+    display: block; height: 100%; background: var(--plava);
+    transform-origin: left; transform: scaleX(0); transition: transform .6s ease-out;
+  }
+  #ucitavanje .ucitPoruka { display: none; text-align: center; color: var(--muted); font-size: var(--t-s); }
+  #ucitavanje.zapelo .ucitPoruka { display: block; }
+  #ucitavanje .ucitPoruka button {
+    margin-top: 0.75rem; padding: 0.5rem 1rem; border: 1px solid var(--rub);
+    border-radius: var(--rad-s); background: var(--card); color: var(--ink);
+    font: inherit; cursor: pointer;
+  }
+  #ucitavanje .ucitSkriveno {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #ucitavanje, #ucitavanje .ucitTraka span { transition: none; }
+    #ucitavanje .ucitSadrzaj { animation-duration: 0s; }
+  }
 </style>
 </head>
 <body>
+<div id="ucitavanje" role="status" aria-live="polite" aria-busy="true">
+  <div class="ucitSadrzaj">
+    <div class="ucitLogo" aria-hidden="true">C</div>
+    <div class="ucitTraka" aria-hidden="true"><span></span></div>
+    <span class="ucitSkriveno">Croland wird geladen…</span>
+  </div>
+  <div class="ucitPoruka">Das dauert länger als üblich.<br><button type="button" onclick="location.reload()">Neu laden</button></div>
+</div>
+<script>
+  // Ekran za učitavanje. Mora stajati prije velikih skripti: one blokiraju crtanje.
+  // Tema se postavlja odmah, iz zadnje viđene (postaviTemu je sprema), da boja ne
+  // skoči kad stigne progres. faza(p) pomiče traku, gotovo() je gasi.
+  (function () {
+    var TEME = ['zagreb', 'jadran', 'maslina', 'tinta', 'sljiva'];
+    try {
+      var t = localStorage.getItem('croland.tema');
+      if (TEME.indexOf(t) === -1) t = (JSON.parse(localStorage.getItem('croland-pocetni-izgled') || 'null') || {}).tema;
+      if (TEME.indexOf(t) !== -1) document.body.setAttribute('data-tema', t);
+    } catch (e) {}
+    var el = document.getElementById('ucitavanje');
+    var traka = el.querySelector('.ucitTraka span');
+    var zavrseno = false, sat = null;
+    function zapni(ms) {
+      clearTimeout(sat);
+      sat = setTimeout(function () { if (!zavrseno) el.classList.add('zapelo'); }, ms);
+    }
+    zapni(12000);
+    // Greška prije prvog pogleda obično znači da ga neće ni biti — ne čeka se punih 12 s.
+    window.addEventListener('error', function () { if (!zavrseno) zapni(4000); });
+    window.CROLAND_UCITAVANJE = {
+      faza: function (p) { if (!zavrseno) traka.style.transform = 'scaleX(' + p / 100 + ')'; },
+      gotovo: function () {
+        if (zavrseno) return;
+        zavrseno = true;
+        clearTimeout(sat);
+        traka.style.transform = 'scaleX(1)';
+        el.setAttribute('aria-busy', 'false');
+        el.classList.add('gotovo');
+        setTimeout(function () { el.remove(); }, 300);
+      }
+    };
+    window.CROLAND_UCITAVANJE.faza(10);
+  })();
+</script>
 <header>
   <div class="logo" id="logoBtn" onclick="klikLogo()" title="Croland">C</div>
   <nav>
@@ -3378,9 +3471,13 @@
 <div id="ceduljeSloj"></div>
 
 <script src="data-de.js"></script>
+<script>CROLAND_UCITAVANJE.faza(45)</script>
 <script src="rjecnik-de.js"></script>
+<script>CROLAND_UCITAVANJE.faza(65)</script>
 <script src="pregledi-de.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script>CROLAND_UCITAVANJE.faza(70)</script>
+<script src="vendor/supabase-2.117.2.js"></script>
+<script>CROLAND_UCITAVANJE.faza(80)</script>
 <script>
 (function () {
   'use strict';
@@ -4626,7 +4723,8 @@
   }
   function prijaviGoogle() {
     // Bez knjižnice je ovo prije bio prazan `return`: klik na gumb nije radio baš ništa i
-    // korisnik nije imao što prijaviti. Najčešći uzrok je blokiran cdn.jsdelivr.net.
+    // korisnik nije imao što prijaviti. Najčešći uzrok je bio blokiran
+    // cdn.jsdelivr.net; od kad je knjižnica u vendor/, to je blokator sadržaja ili prekid veze.
     if (!supa) {
       banerPoruka('Anmeldung nicht verfügbar – die App konnte ihre Login-Bibliothek nicht laden. ' +
         'Prüfe deine Verbindung oder einen Inhaltsblocker und lade die Seite neu.');
@@ -4685,8 +4783,16 @@
     var novoPrijavljen = !imaRacun() && !!(session && session.user);
     SESSION = session;
     SESSION_SPREMNA = true;
+    window.CROLAND_UCITAVANJE.faza(90);
     if (!session) javiNeuspjeluPrijavu(izGooglePreusmjerenja);
-    ucitajPostavke(function () { ucitajEntitlement(function () { ucitajProgress(function () {
+    // Tri dohvata ne ovise jedan o drugome, pa idu paralelno: jedan krug do Supabasea
+    // umjesto tri zaredom.
+    var ceka = 3;
+    var sviStigli = function () { if (--ceka === 0) poslijeUcitavanja(); };
+    ucitajPostavke(sviStigli);
+    ucitajEntitlement(sviStigli);
+    ucitajProgress(sviStigli);
+    function poslijeUcitavanja() {
       if (provjeriJezikRacuna()) return;
       postaviTemu(temaSad());
       postaviFont(fontSad());
@@ -4707,6 +4813,8 @@
         }
       };
       if (celebriraj) proslaviRegistraciju(nastavi); else nastavi();
+      // Prvi pogled je nacrtan (crtanje je sinkrono) — ekran za učitavanje može van.
+      window.CROLAND_UCITAVANJE.gotovo();
       provjeriKodIzAdrese();
       osvjeziHeader();
       // Zaštićeni sadržaj se povlači u pozadini, da prvo otvaranje lekcije 2 ne čeka mrežu.
@@ -4716,7 +4824,7 @@
         // može, pa je vrijedi osvježiti ako je korisnik još na njoj.
         if (uspjeh && ZADNJI_VIEW && ZADNJI_VIEW.view === 'main') renderMain();
       });
-    }); }); });
+    }
   }
   // Zove se kad se sesija nije uspostavila. Poruka o kvaru vrijedi više od tihog povratka
   // na istu stranicu — bez nje se svaki neuspjeh prijave prijavljuje kao "ništa se ne dogodi",
@@ -8767,6 +8875,8 @@
   }
   function postaviTemu(id) {
     document.body.setAttribute('data-tema', id);
+    // Ekran za učitavanje čita ovo pri sljedećem otvaranju, prije nego progres stigne.
+    try { localStorage.setItem('croland.tema', id); } catch (e) {}
   }
   function odaberiTemu(id) {
     postaviTemu(id);
