@@ -1,0 +1,288 @@
+#!/usr/bin/env node
+/**
+ * osvjezi.js — Node inačica osvjezi.ps1 (isti ulaz, isti izlaz).
+ * Postoji jer poslužitelji nisu Windows: isti data.js se može generirati u CI-ju.
+ *
+ * Pokretanje:  node osvjezi.js
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+
+// FRANCUSKI TEČAJ — čita francais/igre, piše francais/data-fr.js (poziva ga izgradi-fr.js).
+// Kopija deutsch/lokalno/osvjezi-de.js; mijenjaju se samo putanje i članovi.
+const root = path.join(__dirname, '..');
+const igreDir = path.join(__dirname, 'igre');
+
+const tipRang = { lesson: 1, vocabulary: 2, grammar: 3, practice: 4, test: 5 };
+
+// ============ BODOVANJE ============
+// Tri sastojka, tim redom:
+//   1. baza po formatu    — koliko posla trazi sama mehanika
+//   2. kolicina sadrzaja  — uska korekcija (±20 %), NE glavni pokretac
+//   3. razina             — glavni pokretac, geometrijski rast
+// Zbog uskog pojasa pod 2. rast po razini je zajamceno monoton: najgori omjer
+// izmedu iste vrste vjezbe na razini 10 i razini 1 je 0.8/1.2 × 2.56 = 1.71.
+
+// osnovni bodovi po formatu (moze se pregaziti s "bodovi: N" u odjeljku md-a)
+const bazaBodova = {
+  tekst: 4, kartice: 5, dijalog: 5, parovi: 5, memorija: 5,
+  brzina: 6, izbor: 6, slaganje: 6, razvrstavanje: 6, poredak: 6,
+  nastavak: 6,
+  upis: 7, provjera: 10,
+  // mehanike lekcije 0
+  spajanje: 5, baloni: 6, vlak: 6, slova: 6, pamti: 6, zid: 2
+};
+
+// Ocekivana kolicina po vjezbi. Za mehanike koje uzorkuju to je velicina uzorka
+// (vidi uzorak(...) u app.html), za ostale razumna referenca.
+const ocekivanoStavki = {
+  izbor: 5, upis: 5, slaganje: 5, parovi: 5, memorija: 8, provjera: 10,
+  razvrstavanje: 12, nastavak: 8, spajanje: 12, pamti: 3, baloni: 6,
+  tekst: 6, kartice: 12, dijalog: 8, poredak: 8, slova: 3, zid: 30
+};
+const POJAS_DOLJE = 0.8, POJAS_GORE = 1.2;   // koliko kolicina sadrzaja smije pomaknuti bazu
+
+// "Kava [je] dobra." u formatu tekst = polje koje se upisuje. Stranica s barem
+// jednom takvom prazninom je zadatak i boduje se kao zadatak; ona bez njih nije.
+function imaPraznina(g) {
+  return (g.stavke || []).some(st => (st || []).some(polje => /\[[^\[\]]+\]/.test(String(polje))));
+}
+
+// Rast po razini. Geometrijski, jer kasne cjeline moraju nositi ozbiljne bodove:
+//   R1 ×1.00 · R5 ×1.52 · R10 ×2.56 · R15 ×4.31 · R19 ×6.54 · R20 ×7.26
+const RAST_PO_RAZINI = 1.11;
+// Daily challenge se NE skalira: u valute() se pretvara preko udjela
+// (tezina × osvojeno/maksimum), pa apsolutni bodovi ionako otpadaju —
+// svaki dnevni izazov vrijedi TEZINA_DAILY u svakoj valuti bez obzira na njih.
+
+// ============ CILJANI ZBROJ PO CJELINI ============
+// Do sada je zbroj cjeline bio ono sto ispadne: broj vjezbi × baza × rast. Zato je
+// Vocabulary 13 s pet vjezbi nosio petinu Vocabularyja 12 sa sedamnaest, iako gradiva
+// nije manje. Sada je zbroj ZADAN, a racun gore samo dijeli te bodove unutar cjeline
+// (upis i dalje nosi vise od kartica, veca vjezba vise od manje).
+//
+// Sve cetiri vrste nose isto po razini; Test nosi koliko i jedna cjelina — i dalje se
+// u valute() dijeli na cetvrtine, pa gura sva cetvora vrata istodobno.
+// Rast je ×1,125 po razini: od toga ×1,10 nosi pojedina vjezba, a ostatak je to sto
+// svake razine vjezbi treba biti malo vise (13 na razini 1 → 20 na razini 20).
+// Zbroj razina 1..19 iznosi 100 000, a to je ujedno prag za ulaz u razinu 20.
+const CILJ_CJELINE = {
+  1: 1500, 2: 1700, 3: 1900, 4: 2150, 5: 2400, 6: 2700, 7: 3050, 8: 3400, 9: 3850, 10: 4300,
+  11: 4850, 12: 5450, 13: 6150, 14: 6900, 15: 7750, 16: 8700, 17: 9800, 18: 11000, 19: 12450, 20: 14000
+};
+// Stranica objasnjenja bez ijedne praznine: procitati je se isplati, ali se time ne
+// zaraduje. Stoji IZVAN skaliranja, pa ne jede bodove pravih vjezbi.
+const CITANJE_BODOVI = 20;
+// Vrste koje se skaliraju. Lesson 0 (razina 0) namjerno nije medu njima — ona je
+// besplatni izlog i u aplikaciji ionako ne nosi bodove.
+const SKALIRA_SE = { lesson: 1, vocabulary: 1, grammar: 1, practice: 1, test: 1 };
+
+function parseBlok(linije) {
+  const r = { format: null, meta: {}, stavke: [], naslov: null, broj: null, cjelina: null };
+  for (const line of linije) {
+    const t = String(line).trim();
+    if (/^[-\s|:>]*$/.test(t)) continue;                       // prazno / separatori / citati
+    let m;
+    if ((m = t.match(/^#\s+(.+)$/))) { r.naslov = m[1].trim(); continue; }
+    if ((m = t.match(/^[-*]\s+(.+)$/))) {
+      const parts = m[1].split('|').map(x => x.trim()).filter(Boolean);
+      if (parts.length) r.stavke.push(parts);
+      continue;
+    }
+    if ((m = t.match(/^format:\s*(\S+)/))) { r.format = m[1].trim(); continue; }
+    if ((m = t.match(/^broj:\s*(\d+)/))) { r.broj = parseInt(m[1], 10); continue; }
+    if ((m = t.match(/^cjelina:\s*(.+)$/))) { r.cjelina = m[1].trim(); continue; }
+    if ((m = t.match(/^(\w+):\s*(.+)$/))) { r.meta[m[1].toLowerCase()] = m[2].trim(); continue; }
+  }
+  return r;
+}
+
+const igre = [];
+for (const naziv of fs.readdirSync(igreDir).filter(f => f.toLowerCase().endsWith('.md')).sort()) {
+  const puni = path.join(igreDir, naziv);
+  const lines = fs.readFileSync(puni, 'utf8').split(/\r?\n/);
+
+  const blokovi = [];
+  let cur = { naslov: null, linije: [] };
+  blokovi.push(cur);
+  for (const line of lines) {
+    const m = line.match(/^##\s+(.+)$/);
+    if (m) { cur = { naslov: m[1].trim(), linije: [] }; blokovi.push(cur); }
+    else cur.linije.push(line);
+  }
+
+  const header = parseBlok(blokovi[0].linije);
+  const cjelina = header.cjelina;
+  const cjelinaNaslov = header.naslov;
+  const brojFile = header.broj !== null ? header.broj : 9999;
+
+  const sekcije = blokovi.slice(1);
+  if (sekcije.length === 0) {
+    if (header.format && header.stavke.length) {
+      igre.push({
+        cjelina, cjelinanaslov: null, stranica: 1, broj: brojFile,
+        format: header.format, naslov: header.naslov || path.basename(naziv, '.md'),
+        meta: header.meta, stavke: header.stavke
+      });
+    }
+  } else {
+    let str = 0;
+    for (const s of sekcije) {
+      const g = parseBlok(s.linije);
+      if (g.format && g.stavke.length) {
+        str++;
+        igre.push({
+          cjelina: g.cjelina || cjelina, cjelinanaslov: cjelinaNaslov, stranica: str, broj: brojFile,
+          format: g.format, naslov: s.naslov, meta: g.meta, stavke: g.stavke
+        });
+      }
+    }
+  }
+}
+
+// sortiranje + bodovi
+for (const g of igre) {
+  let kljuc = 100000000 + g.broj * 100 + g.stranica;
+  const m = g.cjelina ? g.cjelina.match(/^(.+?)\s*(\d+)$/) : null;
+  if (m) {
+    const tip = m[1].trim().toLowerCase();
+    const razina = parseInt(m[2], 10);
+    if (tipRang[tip]) kljuc = razina * 100000 + tipRang[tip] * 1000 + g.stranica;
+    else if (tip === 'daily challenge') kljuc = 50000000 + razina * 1000 + g.stranica;
+    else kljuc = 90000000 + razina * 1000 + g.stranica;
+  }
+  g.sortkljuc = kljuc;
+
+  let b;
+  if (Object.prototype.hasOwnProperty.call(g.meta, 'bodovi')) {
+    b = parseInt(g.meta.bodovi, 10);
+  } else if (g.format === 'tekst' && !imaPraznina(g)) {
+    // Stranica objasnjenja bez ijedne praznine ne rjesava se — prelistava se.
+    // Cetiri boda pomnozena razinom davala su joj tezinu prave vjezbe za jedan
+    // klik na "Done reading". Jedan bod je koliko vrijedi: procitati je se
+    // isplati, ali se time ne zaraduje. Cim stranica dobije "[je]" negdje u
+    // recenici, postaje zadatak i boduje se normalno (v. takeTekst u index.html).
+    b = CITANJE_BODOVI;
+    g._citanje = true;          // izvan skaliranja cjeline
+  } else {
+    const n = g.stavke.length;
+    // 1. baza po formatu
+    let baza = bazaBodova[g.format] !== undefined ? bazaBodova[g.format] : 5;
+    // 2. kolicina sadrzaja — samo uska korekcija, da veca vjezba vrijedi malo vise
+    const ocek = ocekivanoStavki[g.format];
+    if (ocek) {
+      const f = Math.min(POJAS_GORE, Math.max(POJAS_DOLJE, n / ocek));
+      baza = baza * f;
+    }
+    // 3. razina — glavni pokretac
+    let mn = 1.0;
+    if (m) {
+      const tip2 = m[1].trim().toLowerCase();
+      const raz = parseInt(m[2], 10);
+      // daily/weekly challenge namjerno ostaju bez rasta (v. komentar uz RAST_PO_RAZINI)
+      // Lesson 0 je nebodovana uvodna cjelina — nikad ispod baze
+      if (tipRang[tip2]) mn = Math.pow(RAST_PO_RAZINI, Math.max(0, raz - 1));
+    }
+    // PowerShell [Math]::Round koristi banker's rounding
+    const v = baza * mn;
+    const dolje = Math.floor(v), ost = v - dolje;
+    let zaokr;
+    if (Math.abs(ost - 0.5) < 1e-9) zaokr = (dolje % 2 === 0) ? dolje : dolje + 1;
+    else zaokr = Math.round(v);
+    b = Math.max(1, zaokr);
+  }
+  g.bodovi = b;
+}
+
+// ============ skaliranje cjelina na CILJ_CJELINE ============
+// Racun gore dao je RELATIVNE tezine unutar cjeline. Ovdje se cijela cjelina razvlaci
+// ili steze da pogodi zadani zbroj. Posljedica: cjelina od pet vjezbi i cjelina od
+// dvadeset na istoj razini vrijede jednako, pa kraca ima vrjednije vjezbe.
+(function skalirajCjeline() {
+  const grupe = new Map();
+  for (const g of igre) {
+    const m = g.cjelina ? g.cjelina.match(/^(.+?)\s*(\d+)$/) : null;
+    if (!m) continue;
+    const tip = m[1].trim().toLowerCase(), raz = parseInt(m[2], 10);
+    if (!SKALIRA_SE[tip] || !CILJ_CJELINE[raz]) continue;   // Lesson 0, daily, weekly
+    if (g._citanje) continue;                               // stranice za citanje stoje izvan
+    const k = tip + '|' + raz;
+    if (!grupe.has(k)) grupe.set(k, []);
+    grupe.get(k).push(g);
+  }
+  for (const [k, lista] of grupe) {
+    const cilj = CILJ_CJELINE[parseInt(k.split('|')[1], 10)];
+    let sirovo = 0;
+    for (const g of lista) sirovo += g.bodovi;
+    if (sirovo <= 0) continue;
+    const f = cilj / sirovo;
+    for (const g of lista) g.bodovi = Math.max(1, Math.round(g.bodovi * f));
+    // Zaokruzivanje odnese ili doda koji bod; visak/manjak se namiri na najvecim
+    // vjezbama, po jedan, da zbroj cjeline bude TOCNO cilj.
+    let zbroj = 0;
+    for (const g of lista) zbroj += g.bodovi;
+    let razlika = cilj - zbroj;
+    if (razlika !== 0) {
+      const red = lista.slice().sort((a, b) => b.bodovi - a.bodovi);
+      let i = 0;
+      while (razlika !== 0 && red.length) {
+        const g = red[i % red.length];
+        if (razlika > 0) { g.bodovi++; razlika--; }
+        else if (g.bodovi > 1) { g.bodovi--; razlika++; }
+        i++;
+        if (i > red.length * 1000) break;   // zastita od beskonacne petlje
+      }
+    }
+  }
+  for (const g of igre) delete g._citanje;
+})();
+
+igre.sort((a, b) => (a.sortkljuc - b.sortkljuc) || String(a.naslov).localeCompare(String(b.naslov)));
+
+// slike: naziv datoteke = hrvatska rijec/fraza
+const slike = {};
+const slikeDir = path.join(root, 'slike');
+if (fs.existsSync(slikeDir)) {
+  for (const f of fs.readdirSync(slikeDir).sort()) {
+    if (!/\.(jpe?g|png|gif|webp|bmp|avif|svg)$/i.test(f)) continue;
+    const k = path.basename(f, path.extname(f)).toLowerCase().trim().replace(/[\s.!?]+$/, '');
+    if (k && !(k in slike)) slike[k] = '../croland/slike/' + f;   // slike se ne kopiraju: isti origin, Croland ih vec posluzuje
+  }
+}
+
+// zvukovi: NFC, mala slova, sazeti razmaci, bez zavrsne interpunkcije
+const zvukovi = {};
+const zvukDir = path.join(__dirname, 'zvuk');
+if (fs.existsSync(zvukDir)) {
+  for (const f of fs.readdirSync(zvukDir).sort()) {
+    if (!/\.(mp3|wav|ogg|m4a|webm)$/i.test(f)) continue;
+    let k = path.basename(f, path.extname(f)).normalize('NFC').toLowerCase().trim();
+    k = k.replace(/\s+/g, ' ').replace(/[\s.!?…]+$/, '');
+    if (k && !(k in zvukovi)) zvukovi[k] = 'zvuk/' + f;
+  }
+}
+
+// ---- njemačke slikovne riječi: dodaj ih u mapu slika (ključ = njemačka riječ) ----
+const SLIKOVNE = { spajanje: 1, baloni: 1, pamti: 1, slova: 1, zid: 1 };
+function kljuc(s) { return String(s).toLowerCase().trim().replace(/[\s.!?…]+$/, ''); }
+let dodano = 0;
+for (const g of igre) {
+  if (!SLIKOVNE[g.format]) continue;
+  for (const st of g.stavke || []) {
+    if (st.length < 3) continue;
+    const put = slike[kljuc(st[2])];
+    if (!put) continue;
+    for (const k of [kljuc(st[0]), kljuc(String(st[0]).replace(/^(le|la|les|l'|un|une|des)\s*/i, ''))])
+      if (k && !(k in slike)) { slike[k] = put; dodano++; }
+  }
+}
+
+function dvije(n) { return String(n).padStart(2, '0'); }
+const d = new Date();
+const generirano = d.getFullYear() + '-' + dvije(d.getMonth() + 1) + '-' + dvije(d.getDate()) + ' ' +
+  dvije(d.getHours()) + ':' + dvije(d.getMinutes()) + ':' + dvije(d.getSeconds());
+const obj = { generirano, slike, zvukovi, igre };
+fs.writeFileSync(path.join(__dirname, 'data-fr.js'),
+  '\ufeff// FRANCUSKI TEČAJ — generira francais/osvjezi-fr.js\r\nwindow.PODACI = ' + JSON.stringify(obj) + ';\r\n', 'utf8');
+console.log('data-fr.js: ' + igre.length + ' stranica, +' + dodano + ' francuskih ključeva slika');

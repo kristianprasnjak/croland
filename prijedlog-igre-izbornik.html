@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prijedlog — izbornik igara</title>
+<!--
+  PROTOTIP: samo izbornik Games & Extras s novim prozorom igre.
+  Mora stajati u korijenu projekta (uz index.html) jer slike čita iz slike/mini-igre/.
+  Računalo (>= 640 px): klik na karticu → prozor srednje veličine izraste iz kartice.
+  Mobitel (< 640 px): klik proširuje karticu u mreži; igra se pokreće gumbom Play.
+  Zaključano (bez računa): prozor se ne otvara.
+-->
+<style>
+  :root {
+    --t-2xs: 0.66rem; --t-xs: 0.75rem; --t-s: 0.82rem; --t-m: 0.9rem; --t-l: 1rem;
+    --t-xl: 1.15rem; --t-2xl: 1.35rem; --t-3xl: 1.6rem;
+    --rad-xs: 0.1875rem; --rad-s: 0.5rem; --rad-m: 0.625rem; --rad-l: 0.875rem; --rad-xl: 1.125rem;
+    --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
+    --plava: #9a5b52; --zelena: #2f6d4f; --rub: #e3ddd2; --tiho: #f0ece4;
+    --tekst: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --naslov: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--tekst); font-size: var(--t-l); line-height: 1.5; background: var(--bg); color: var(--ink); min-height: 100dvh; }
+  main { max-width: 64rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+
+  /* ---- traka samo za prototip ---- */
+  .proto {
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center;
+    background: #fdf2bf; border: 1px solid #eadd9d; border-radius: var(--rad-m);
+    padding: 0.5rem 0.875rem; font-size: var(--t-s); margin-bottom: 1.25rem;
+  }
+  .proto b { font-weight: 700; }
+  .proto label { display: inline-flex; gap: 0.375rem; align-items: center; cursor: pointer; }
+
+  /* ================= postojeća mreža (preslikano iz index.html) ================= */
+  .miniNas { font-family: var(--naslov); font-size: var(--t-2xl); letter-spacing: -.01em; margin: 1.75rem 0 0.25rem; }
+  .miniNas:first-of-type { margin-top: 0; }
+  .miniPod { color: var(--muted); font-size: var(--t-s); line-height: 1.5; margin: 0 0 0.75rem; }
+  .miniMreza { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.875rem; margin-top: 1.25rem; }
+  .miniKart, .extraKart {
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
+    cursor: pointer; position: relative; transition: transform .15s, border-color .15s, box-shadow .15s;
+  }
+  .miniKart { padding: 0.75rem 0.875rem 0.625rem; display: flex; flex-direction: column; gap: 0.25rem; }
+  .miniKart:hover, .extraKart:hover { transform: translateY(-2px); border-color: var(--plava); box-shadow: 0 6px 18px rgba(154,91,82,.10); }
+  .miniKart.gotovo { border-color: var(--zelena); background: #f4f9f5; }
+  .miniKart .sl {
+    position: relative; display: block; margin: -0.75rem -0.875rem 0.4375rem; aspect-ratio: 800 / 537;
+    border-radius: var(--rad-l) var(--rad-l) 0 0; overflow: hidden; background: var(--rub);
+  }
+  .sl img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .miniKart .broj {
+    position: absolute; right: 0.5rem; top: 0.5rem; font-size: var(--t-xs); font-weight: 700;
+    color: #fff; background: rgba(0,0,0,.45); border-radius: var(--rad-s); padding: 0.125rem 0.375rem; letter-spacing: .5px;
+  }
+  .miniKart .ime { font-family: var(--naslov); font-weight: 600; font-size: var(--t-l); letter-spacing: -.01em; }
+  .stil { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
+  .miniKart .opis { font-size: var(--t-s); color: var(--muted); line-height: 1.45; flex: 1; margin: 0.375rem 0 0.125rem; }
+  .podnozje {
+    font-size: var(--t-xs); color: var(--muted); border-top: 1px dashed var(--rub);
+    padding-top: 0.5rem; margin-top: 0.25rem; display: flex; justify-content: space-between; gap: 0.5rem;
+  }
+  .podnozje .st { font-weight: 700; color: var(--zelena); }
+
+  .extraKart { overflow: hidden; display: flex; flex-direction: column; }
+  .extraKart .sl { display: block; aspect-ratio: 2912 / 1440; background: var(--rub); }
+  .extraKart .tekst { display: grid; grid-template-columns: 14rem 1fr; column-gap: 1.5rem; padding: 1rem 1.25rem 0.875rem; }
+  .extraKart .ime { font-family: var(--naslov); font-weight: 600; font-size: var(--t-2xl); letter-spacing: -.01em; grid-column: 1; }
+  .extraKart .stil { grid-column: 1; }
+  .extraKart .opis { grid-column: 2; grid-row: 1 / 3; font-size: var(--t-s); color: var(--muted); line-height: 1.5; align-self: center; }
+  .extraKart .podnozje { grid-column: 1 / -1; margin-top: 0.625rem; }
+  .extraKart .podnozje .st { color: var(--plava); text-transform: uppercase; letter-spacing: .5px; }
+
+  /* zaključano: kartica ostaje, ali bez prozora */
+  .zakljucano .miniKart, .zakljucano .extraKart { cursor: default; }
+  .zakljucano .miniKart:hover, .zakljucano .extraKart:hover { transform: none; border-color: var(--rub); box-shadow: none; }
+  .lokot { display: none; }
+  .zakljucano .lokot {
+    display: flex; position: absolute; left: 0.5rem; top: 0.5rem; width: 1.75rem; height: 1.75rem;
+    align-items: center; justify-content: center; border-radius: 50%; background: rgba(0,0,0,.5); color: #fff;
+  }
+  .lokot svg { width: 0.9rem; height: 0.9rem; fill: currentColor; }
+  .zakljucano .sl img { filter: grayscale(.5) brightness(.92); }
+
+  /* ================= NOVO: sastav po skici =================
+     Kutija ima stalan omjer, pa se sve mjeri u postocima njezine širine i
+     isto izgleda u prozoru i u proširenoj kartici na mobitelu.
+       profilna slika: 84 % širine (omjer 800:537 → visina 0,564 W)
+       traka napretka: stupac desno od slike, od vrha do malo iznad screenshota
+       screenshot:     46 % širine (800:500 → 0,2875 W), gornji rub na 0,40 W,
+                       desni rub poravnat s trakom, prelazi donji desni kut slike
+       naziv:          ispod slike lijevo, uz screenshot */
+  .sastav { position: relative; width: 100%; aspect-ratio: 1 / 0.6875; }
+  .sastav .profil {
+    position: absolute; left: 0; top: 0; width: 84%; aspect-ratio: 800 / 537;
+    border-radius: var(--rad-l); overflow: hidden; background: var(--rub);
+    box-shadow: 0 0 0 1px var(--rub);
+  }
+  .sastav .profil img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .sastav .shot {
+    position: absolute; right: 0; top: 58.2%; width: 46%; aspect-ratio: 800 / 500;
+    border-radius: var(--rad-m); overflow: hidden; background: var(--rub);
+    border: 3px solid var(--card);
+    box-shadow: 0 10px 28px rgba(25,23,19,.28), 0 0 0 1px var(--rub);
+  }
+  .sastav .shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .napredak {
+    position: absolute; left: 86.5%; right: 0; top: 0; height: 53%;
+    display: flex; flex-direction: column; align-items: center; gap: 0.375rem;
+  }
+  .napredak .trak {
+    flex: 1 1 auto; width: 0.75rem; border-radius: 999px; background: var(--tiho);
+    box-shadow: inset 0 0 0 1px var(--rub); position: relative; overflow: hidden;
+  }
+  .napredak .trak i {
+    position: absolute; left: 0; right: 0; bottom: 0; border-radius: 999px;
+    background: var(--plava); height: var(--p); transition: height .7s cubic-bezier(.22,1,.36,1) .15s;
+  }
+  .napredak.puno .trak i { background: var(--zelena); }
+  .napredak .br { font-weight: 700; font-size: var(--t-s); line-height: 1; font-variant-numeric: tabular-nums; }
+  .napredak .od { font-size: var(--t-2xs); color: var(--muted); line-height: 1; margin-top: -0.125rem; }
+  .napredak.puno .br { color: var(--zelena); }
+  .nazivIgre {
+    width: 52%; margin-top: -9.4%; position: relative;   /* -9,4 % širine = od dna slike do dna kutije, minus razmak */
+  }
+  .nazivIgre .ime { display: block; font-family: var(--naslov); font-weight: 700; font-size: var(--t-2xl); line-height: 1.15; letter-spacing: -.01em; }
+  .nazivIgre .stil { display: block; margin-top: 0.25rem; }
+
+  /* Extras: samo slika, bez trake i screenshota */
+  .sastav.extra { aspect-ratio: auto; }
+  .sastav.extra .profil { position: relative; width: 100%; aspect-ratio: 2912 / 1440; }
+  .sastav.extra .profil img { object-fit: contain; }
+  .sastav.extra + .nazivIgre { width: auto; margin-top: 0.875rem; }
+
+  .tijelo .opis { color: var(--muted); font-size: var(--t-m); line-height: 1.55; margin: 0.875rem 0 0; }
+  .tijelo .meta {
+    display: flex; justify-content: space-between; gap: 0.5rem; margin-top: 0.75rem; padding-top: 0.625rem;
+    border-top: 1px dashed var(--rub); font-size: var(--t-xs); color: var(--muted);
+  }
+  .tijelo .meta .st { font-weight: 700; color: var(--zelena); }
+  .igraj {
+    margin-top: 1rem; width: 100%; min-height: 3rem; border: 0; border-radius: var(--rad-l);
+    background: var(--zelena); color: #fff; font: inherit; font-weight: 600; font-size: var(--t-l);
+    display: flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer;
+  }
+  .igraj:hover { filter: brightness(1.08); }
+  .igraj svg { width: 0.85em; height: 0.85em; fill: currentColor; }
+
+  /* ================= prozor (računalo) ================= */
+  #sloj {
+    position: fixed; inset: 0; z-index: 900; background: rgba(25,23,19,.45);
+    display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+  }
+  .prozor {
+    background: var(--card); border-radius: var(--rad-xl); width: 100%; max-width: 36rem;
+    max-height: calc(100dvh - 3rem); overflow-y: auto;
+    box-shadow: 0 24px 64px rgba(0,0,0,.28); transform-origin: 0 0;
+  }
+  .prozor .glava { display: flex; align-items: center; justify-content: space-between; padding: 0.875rem 1.25rem 0.625rem; }
+  .prozor .vrsta { font-size: var(--t-xs); font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--plava); }
+  .prozor .x {
+    width: 2rem; height: 2rem; border: 0; background: none; cursor: pointer; color: var(--muted);
+    font-size: 1.6rem; line-height: 1; border-radius: var(--rad-s);
+  }
+  .prozor .x:focus:not(:focus-visible) { outline: none; }
+  .prozor .x:hover { color: var(--ink); background: var(--tiho); }
+  .prozor .tijelo { padding: 0 1.25rem 1.25rem; }
+
+  /* ================= proširena kartica (mobitel) ================= */
+  .prosireno { display: none; }
+  .zatvoriKart {
+    position: absolute; left: 1.25rem; top: 1.25rem; z-index: 2; width: 2rem; height: 2rem; border: 0;
+    border-radius: 50%; background: rgba(255,253,250,.92); color: var(--ink); font-size: 1.3rem; line-height: 1;
+    box-shadow: 0 1px 4px rgba(0,0,0,.18); cursor: pointer;
+  }
+
+  #poruka {
+    position: fixed; left: 50%; bottom: 1.5rem; transform: translateX(-50%) translateY(150%);
+    background: var(--ink); color: #fff; font-size: var(--t-s); padding: 0.625rem 1rem; border-radius: var(--rad-m);
+    transition: transform .25s, visibility .25s; visibility: hidden; z-index: 1000; max-width: calc(100vw - 2rem); text-align: center;
+  }
+  #poruka.vidi { transform: translateX(-50%) translateY(0); visibility: visible; }
+
+  @media (max-width: 639.98px) {
+    :root { --t-l: 1.05rem; }
+    main { padding: 1rem 1rem 3rem; }
+    .miniMreza { grid-template-columns: repeat(2, 1fr); gap: 0.625rem; margin-top: 1rem; }
+    .miniPod, .podnozje, .miniKart .opis, .miniKart .broj, .extraKart .opis { display: none; }
+    .miniKart { padding: 0.5rem 0.625rem; gap: 0.125rem; }
+    .miniKart .sl { margin: -0.5rem -0.625rem 0.375rem; }
+    .miniKart .ime { font-size: var(--t-m); line-height: 1.25; }
+    .miniKart .stil { font-size: var(--t-2xs); }
+    .extraKart .tekst { display: flex; flex-direction: column; gap: 0.125rem; padding: 0.75rem 0.875rem; }
+    .extraKart .ime { font-size: var(--t-xl); }
+
+    /* otvorena kartica: zauzme redak i pokaže isti sastav kao prozor */
+    .miniKart.otvoren, .extraKart.otvoren {
+      grid-column: 1 / -1; padding: 0.875rem; cursor: default; transform: none;
+      border-color: var(--plava); box-shadow: 0 8px 24px rgba(154,91,82,.14);
+    }
+    .otvoren > .sl, .otvoren > .ime, .otvoren > .stil, .otvoren > .tekst { display: none; }
+    .otvoren .prosireno { display: block; animation: rasti .32s cubic-bezier(.22,1,.36,1); }
+    .prosireno .nazivIgre .ime { font-size: var(--t-xl); }
+    .prosireno .napredak .br { font-size: var(--t-xs); }
+    .prosireno .napredak .trak { width: 0.625rem; }
+    .otvoren .tijelo .opis { display: block; font-size: var(--t-s); }
+  }
+  @keyframes rasti { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    .otvoren .prosireno { animation: none; }
+    .napredak .trak i { transition: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="proto">
+    <b>Prototip</b>
+    <label><input type="checkbox" id="racun" checked> prijavljen (makni kvačicu = zaključano)</label>
+    <span style="color:var(--muted)">napredak je izmišljen za prikaz</span>
+  </div>
+
+  <div id="pogled"></div>
+</main>
+<div id="poruka" role="status"></div>
+
+<script>
+(function () {
+  'use strict';
+  var SLIKE = 'slike/mini-igre/';
+  var MAKS = 1500;
+
+  var EXTRA = [
+    { id: 'lrws', slika: 'lrws.webp', ime: 'Listen Read Write Speak', stil: 'Notebook',
+      opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' }
+  ];
+  var IGRE = [
+    { id: 'grad', slika: 'grad.webp', br: '01', ime: 'Grad', stil: 'Town',
+      opis: 'Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.' },
+    { id: 'pamti', slika: 'pamti.webp', br: '03', ime: 'Pamti pa piši', stil: 'Remember & Write',
+      opis: 'Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.' },
+    { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', ime: 'Tvrđava', stil: 'Fortress',
+      opis: 'The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.' },
+    { id: 'konoba', slika: 'konoba.webp', br: '05', ime: 'Konoba', stil: 'Tavern',
+      opis: 'Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.' },
+    { id: 'skladiste', slika: 'skladiste.webp', br: '06', ime: 'Skladište', stil: 'Warehouse',
+      opis: 'You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.' },
+    { id: 'vlak', slika: 'vlak.webp', br: '07', ime: 'Poštanski vlak', stil: 'Mail Train',
+      opis: 'Fill the wagons before departure. The rule keeps changing: category, gender, first letter, translation.' },
+    { id: 'labirint', slika: 'labirint.webp', br: '08', ime: 'Labirint', stil: 'Maze',
+      opis: 'Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.' },
+    { id: 'zmija', slika: 'zmija.webp', br: '09', ime: 'Zmija', stil: 'Snake',
+      opis: 'Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.' },
+    { id: 'mario', slika: 'mario.webp', br: '10', ime: 'Portal', stil: 'Platformer',
+      opis: 'Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.' },
+    { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', ime: 'Preživljavanje', stil: 'Survival',
+      opis: 'Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.' },
+    { id: 'obrana', slika: 'obrana.webp', br: '12', ime: 'Obrana baze', stil: 'Base Defense',
+      opis: 'Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.' },
+    { id: 'gradovi', slika: 'gradovi.webp', br: '13', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns',
+      opis: 'All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.' }
+  ];
+  // izmišljen napredak, samo da se vide sva stanja trake
+  var NAPLACENO = { grad: 1500, pamti: 780, tvrdjava: 0, konoba: 1240, skladiste: 160, vlak: 420,
+    labirint: 0, zmija: 1500, mario: 60, prezivljavanje: 900, obrana: 300, gradovi: 25 };
+
+  var pogled = document.getElementById('pogled');
+  var racun = document.getElementById('racun');
+  var LOKOT = '<span class="lokot" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 9h-1V7a4 4 0 0 0-8 0v2H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2zm-7-2a2 2 0 0 1 4 0v2h-4V7z"/></svg></span>';
+  var PLAY = '<svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg>';
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function mobitel() { return window.matchMedia('(max-width: 639.98px)').matches; }
+  function poId(id) {
+    for (var i = 0; i < IGRE.length; i++) if (IGRE[i].id === id) return IGRE[i];
+    for (var j = 0; j < EXTRA.length; j++) if (EXTRA[j].id === id) return Object.assign({ extra: true }, EXTRA[j]);
+    return null;
+  }
+  function stanje(g) {
+    var n = NAPLACENO[g.id] || 0;
+    if (n >= MAKS) return '✓ complete';
+    if (n) return '✓ ' + n + ' earned';
+    return 'not started';
+  }
+
+  // ---- sastav po skici: isti HTML za prozor i za proširenu karticu ----
+  function sastavHtml(g) {
+    if (g.extra) {
+      return '<div class="sastav extra"><div class="profil"><img src="' + SLIKE + g.slika + '" alt=""></div></div>' +
+        '<div class="nazivIgre"><span class="ime">' + esc(g.ime) + '</span><span class="stil">' + esc(g.stil) + '</span></div>';
+    }
+    var n = NAPLACENO[g.id] || 0, puno = n >= MAKS;
+    var p = Math.round(Math.min(n, MAKS) / MAKS * 100);
+    return '<div class="sastav">' +
+        '<div class="profil"><img src="' + SLIKE + g.slika + '" alt=""></div>' +
+        '<div class="napredak' + (puno ? ' puno' : '') + '" title="' + n + ' of ' + MAKS + ' points">' +
+          '<span class="trak"><i style="--p:0%" data-p="' + p + '%"></i></span>' +
+          '<span class="br">' + (puno ? '✓' : n) + '</span>' +
+          (puno ? '' : '<span class="od">/' + MAKS + '</span>') +
+        '</div>' +
+        '<div class="shot"><img src="' + SLIKE + 'shot/' + g.slika + '" alt="Screenshot of ' + esc(g.ime) + '"></div>' +
+      '</div>' +
+      '<div class="nazivIgre"><span class="ime">' + esc(g.ime) + '</span><span class="stil">' + esc(g.stil) + '</span></div>';
+  }
+  function tijeloHtml(g) {
+    return '<p class="opis">' + esc(g.opis) + '</p>' +
+      '<div class="meta">' + (g.extra
+        ? '<span>no points — your own text</span><span></span>'
+        : '<span>' + MAKS + ' pts ×4</span><span class="st">' + esc(stanje(g)) + '</span>') + '</div>' +
+      '<button class="igraj" data-igraj="' + g.id + '">' + PLAY + ' Play</button>';
+  }
+  // traka se puni tek kad je u dokumentu, da se vidi rast
+  function napuni(korijen) {
+    requestAnimationFrame(function () { requestAnimationFrame(function () {
+      korijen.querySelectorAll('.trak i').forEach(function (i) { i.style.setProperty('--p', i.dataset.p); });
+    }); });
+  }
+
+  // ---- mreža ----
+  function render() {
+    var zak = !racun.checked;
+    var h = '<h2 class="miniNas">Extras</h2><p class="miniPod">The long form. One sitting, all four skills.</p>';
+    EXTRA.forEach(function (g) {
+      var e = Object.assign({ extra: true }, g);
+      h += '<div class="extraKart" data-id="' + g.id + '">' +
+        '<span class="sl"><img src="' + SLIKE + g.slika + '" alt="" loading="lazy">' + LOKOT + '</span>' +
+        '<span class="tekst"><span class="ime">' + esc(g.ime) + '</span><span class="stil">' + esc(g.stil) + '</span>' +
+        '<span class="opis">' + esc(g.opis) + '</span>' +
+        '<span class="podnozje"><span>no points — your own text</span><span class="st"></span></span></span>' +
+        '<div class="prosireno"><button class="zatvoriKart" aria-label="Close">×</button>' + sastavHtml(e) + '<div class="tijelo">' + tijeloHtml(e) + '</div></div>' +
+        '</div>';
+    });
+    h += '<h2 class="miniNas">Mini games</h2><p class="miniPod">' + IGRE.length + ' short ones. Each is its own prototype, each pays out once.</p><div class="miniMreza">';
+    IGRE.forEach(function (g) {
+      var puno = (NAPLACENO[g.id] || 0) >= MAKS;
+      h += '<div class="miniKart' + (puno ? ' gotovo' : '') + '" data-id="' + g.id + '">' +
+        '<span class="sl"><img src="' + SLIKE + g.slika + '" alt="" loading="lazy"><span class="broj">' + g.br + '</span>' + LOKOT + '</span>' +
+        '<span class="ime">' + esc(g.ime) + '</span><span class="stil">' + esc(g.stil) + '</span>' +
+        '<span class="opis">' + esc(g.opis) + '</span>' +
+        '<span class="podnozje"><span>' + MAKS + ' pts ×4</span><span class="st">' + esc(stanje(g).replace('not started', '')) + '</span></span>' +
+        '<div class="prosireno"><button class="zatvoriKart" aria-label="Close">×</button>' + sastavHtml(g) + '<div class="tijelo">' + tijeloHtml(g) + '</div></div>' +
+        '</div>';
+    });
+    h += '</div>';
+    pogled.innerHTML = h;
+    pogled.classList.toggle('zakljucano', zak);
+  }
+
+  // ---- prozor na računalu: izraste iz kartice ----
+  var otvoreno = null;   // { sloj, prozor, izvor }
+  function otvoriProzor(g, kartica) {
+    var sloj = document.createElement('div');
+    sloj.id = 'sloj';
+    sloj.innerHTML =
+      '<div class="prozor" role="dialog" aria-modal="true" aria-label="' + esc(g.ime) + '">' +
+        '<div class="glava"><span class="vrsta">' + (g.extra ? 'Extras' : 'Mini game ' + g.br) + '</span>' +
+        '<button class="x" aria-label="Close">×</button></div>' +
+        '<div class="tijelo">' + sastavHtml(g) + tijeloHtml(g) + '</div>' +
+      '</div>';
+    document.body.appendChild(sloj);
+    var prozor = sloj.querySelector('.prozor');
+    var izvor = kartica.querySelector('.sl');
+    otvoreno = { sloj: sloj, prozor: prozor, izvor: izvor };
+    animiraj(true);
+    napuni(prozor);
+  }
+  function pomak(izvor, prozor) {
+    var a = izvor.getBoundingClientRect(), b = prozor.getBoundingClientRect();
+    var s = a.width / b.width;
+    return 'translate(' + (a.left - b.left) + 'px,' + (a.top - b.top) + 'px) scale(' + s + ')';
+  }
+  function animiraj(otvaranje, gotovo) {
+    var o = otvoreno, mirno = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (mirno || !o.prozor.animate) { if (gotovo) gotovo(); return; }
+    var t = pomak(o.izvor, o.prozor);
+    var okviri = [{ transform: t, opacity: 0.4, borderRadius: '2.5rem' }, { transform: 'none', opacity: 1, borderRadius: '1.125rem' }];
+    var sjena = [{ backgroundColor: 'rgba(25,23,19,0)' }, { backgroundColor: 'rgba(25,23,19,.45)' }];
+    if (!otvaranje) { okviri.reverse(); sjena.reverse(); }
+    var opc = { duration: otvaranje ? 340 : 220, easing: otvaranje ? 'cubic-bezier(.22,1,.36,1)' : 'cubic-bezier(.4,0,1,1)', fill: 'forwards' };
+    o.sloj.animate(sjena, opc);
+    var an = o.prozor.animate(okviri, opc);
+    if (gotovo) an.onfinish = gotovo;
+  }
+  function zatvoriProzor() {
+    if (!otvoreno) return;
+    var o = otvoreno;
+    animiraj(false, function () { o.sloj.remove(); });
+    otvoreno = null;
+  }
+
+  // ---- proširenje na mobitelu ----
+  function prosiri(kartica) {
+    pogled.querySelectorAll('.otvoren').forEach(function (k) { k.classList.remove('otvoren'); });
+    // otvorena zauzme cijeli redak; desna iz para ide ispred lijeve da ostane na mjestu
+    var sve = pogled.querySelectorAll('.miniKart');
+    for (var j = 0; j < sve.length; j++) {
+      sve[j].style.order = 2 * j;
+      if (sve[j] === kartica && j % 2 === 1) sve[j].style.order = 2 * j - 3;
+    }
+    kartica.classList.add('otvoren');
+    napuni(kartica);
+    setTimeout(function () { kartica.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }, 60);
+  }
+  function skupi(kartica) {
+    kartica.classList.remove('otvoren');
+    kartica.querySelectorAll('.trak i').forEach(function (i) { i.style.setProperty('--p', '0%'); });
+  }
+
+  var tPoruka;
+  function poruka(t) {
+    var el = document.getElementById('poruka');
+    el.textContent = t; el.classList.add('vidi');
+    clearTimeout(tPoruka); tPoruka = setTimeout(function () { el.classList.remove('vidi'); }, 2200);
+  }
+
+  document.addEventListener('click', function (e) {
+    var igraj = e.target.closest('[data-igraj]');
+    if (igraj) { poruka('Would start: ' + poId(igraj.dataset.igraj).ime); return; }
+    if (otvoreno) {
+      if (e.target.closest('.x') || e.target === otvoreno.sloj) zatvoriProzor();
+      return;
+    }
+    var zatvori = e.target.closest('.zatvoriKart');
+    if (zatvori) { skupi(zatvori.closest('.otvoren')); return; }
+    var kartica = e.target.closest('.miniKart, .extraKart');
+    if (!kartica || kartica.classList.contains('otvoren')) return;
+    if (!racun.checked) return;               // zaključano: nema prozora ni proširenja
+    var g = poId(kartica.dataset.id);
+    if (mobitel()) prosiri(kartica); else otvoriProzor(g, kartica);
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') zatvoriProzor(); });
+  racun.addEventListener('change', render);
+  // prijelaz preko granice (okretanje mobitela) zatvara oboje
+  window.matchMedia('(max-width: 639.98px)').addEventListener('change', function () {
+    if (otvoreno) { otvoreno.sloj.remove(); otvoreno = null; }
+    pogled.querySelectorAll('.otvoren').forEach(skupi);
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

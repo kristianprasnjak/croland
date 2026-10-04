@@ -11,7 +11,8 @@ import { getSupabaseAdmin, imaPravoPristupa, korisnikIzZahtjeva, corsZaglavlja, 
 
 const BUCKET = 'sadrzaj';
 // Zatvoreni popis — bez njega bi se kroz ?f= moglo tražiti bilo što iz bucketa.
-const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json']);
+// data-plus-fr.json: francuski tečaj (zasebna stranica, isti račun i ista pretplata)
+const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json', 'data-plus-fr.json']);
 const TRAJANJE_SEK = 300;
 
 Deno.serve(async (req) => {

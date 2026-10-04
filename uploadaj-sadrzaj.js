@@ -20,7 +20,9 @@ const https = require('https');
 
 const ROOT = __dirname;
 // svaki jezik ima svoj placeni dio; oba moraju biti u bucketu prije objave dist/
-const DATOTEKE = ['data-plus.json', 'data-plus-de.json'];
+// Bez argumenata: Croland (EN + DE sučelje). S argumentima samo te datoteke, npr.
+//   node uploadaj-sadrzaj.js data-plus-fr.json   (francuski tečaj, vidi francais/)
+const DATOTEKE = process.argv.length > 2 ? process.argv.slice(2) : ['data-plus.json', 'data-plus-de.json'];
 const LOG = path.join(ROOT, 'zadnji-upload-log.txt');
 const BUCKET = 'sadrzaj';
 

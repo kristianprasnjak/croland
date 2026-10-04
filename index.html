@@ -1872,6 +1872,97 @@
   .miniSaz strong { color: var(--ink); }
   .miniDno { margin-top: 2rem; }
   .miniNas:first-child { margin-top: 0; }
+
+  /* ================= PROZOR IGRE =================
+     Klik na igru otvara sastav po skici: velika profilna slika, uz nju okomita
+     traka napretka, screenshot preko donjeg desnog kuta slike, naziv ispod.
+     Na računalu i tabletu to je prozor srednje veličine koji izraste iz kartice,
+     na mobitelu ista kompozicija unutar proširene kartice u mreži.
+     Kutija ima stalan omjer, pa se sve mjeri u postocima njezine širine:
+       profil   84 % širine, 800:537  → visina 0,564 W
+       shot     46 % širine, 800:500  → 0,2875 W, gornji rub na 0,40 W
+       traka    stupac desno od profila, od vrha do malo iznad screenshota
+       naziv    ispod profila lijevo; -9,4 % = od dna profila do dna kutije
+     Extras nema bodova ni screenshota — samo slika, naziv, opis i gumb. */
+  .igSastav { position: relative; width: 100%; aspect-ratio: 1 / 0.6875; }
+  .igProfil {
+    position: absolute; left: 0; top: 0; width: 84%; aspect-ratio: 800 / 537;
+    border-radius: var(--rad-l); overflow: hidden; background: var(--rub); box-shadow: 0 0 0 1px var(--rub);
+  }
+  .igProfil img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .igShot {
+    position: absolute; right: 0; top: 58.2%; width: 46%; aspect-ratio: 800 / 500;
+    border-radius: var(--rad-m); overflow: hidden; background: var(--rub); border: 3px solid var(--card);
+    box-shadow: 0 10px 28px rgba(25,23,19,.28), 0 0 0 1px var(--rub);
+  }
+  .igShot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .igNapredak {
+    position: absolute; left: 86.5%; right: 0; top: 0; height: 53%;
+    display: flex; flex-direction: column; align-items: center; gap: 0.375rem;
+  }
+  .igTrak {
+    flex: 1 1 auto; width: 0.75rem; border-radius: 999px; background: var(--tiho);
+    box-shadow: inset 0 0 0 1px var(--rub); position: relative; overflow: hidden;
+  }
+  .igTrak i {
+    position: absolute; left: 0; right: 0; bottom: 0; border-radius: 999px; background: var(--plava);
+    height: var(--p, 0%); transition: height .7s cubic-bezier(.22,1,.36,1) .15s;
+  }
+  .igNapredak.puno .igTrak i { background: var(--zelena); }
+  .igNapredak .br { font-weight: 700; font-size: var(--t-s); line-height: 1; font-variant-numeric: tabular-nums; }
+  .igNapredak .od { font-size: var(--t-2xs); color: var(--muted); line-height: 1; margin-top: -0.125rem; }
+  .igNapredak.puno .br { color: var(--zelena); }
+  .igNaziv { width: 52%; margin-top: -9.4%; position: relative; }
+  .igNaziv .ime { display: block; font-family: var(--naslov); font-weight: 700; font-size: var(--t-2xl); line-height: 1.15; letter-spacing: -.01em; }
+  .igNaziv .stil { display: block; margin-top: 0.25rem; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
+  /* bez screenshota naziv smije cijelom širinom */
+  .igSastav.bezShota + .igNaziv { width: auto; }
+  .igSastav.extra { aspect-ratio: auto; }
+  .igSastav.extra .igProfil { position: relative; width: 100%; aspect-ratio: 2912 / 1440; }
+  .igSastav.extra .igProfil img { object-fit: contain; }
+  .igSastav.extra + .igNaziv { width: auto; margin-top: 0.875rem; }
+  .igOpis { color: var(--muted); font-size: var(--t-m); line-height: 1.55; margin: 0.875rem 0 0; }
+  .igMeta {
+    display: flex; justify-content: space-between; gap: 0.5rem; margin-top: 0.75rem; padding-top: 0.625rem;
+    border-top: 1px dashed var(--rub); font-size: var(--t-xs); color: var(--muted);
+  }
+  .igMeta .st { font-weight: 700; color: var(--zelena); }
+  button.igPlay {
+    margin-top: 1rem; width: 100%; min-height: 3rem; border: 0; border-radius: var(--rad-l);
+    background: var(--zelena); color: #fff; font: inherit; font-weight: 600; font-size: var(--t-l);
+    display: flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer;
+  }
+  button.igPlay:hover { filter: brightness(1.08); }
+  button.igPlay:disabled { background: var(--muted); cursor: default; filter: none; }
+  .igPlay svg { width: 0.85em; height: 0.85em; fill: currentColor; }
+
+  #igraSloj {
+    position: fixed; inset: 0; z-index: 900; background: rgba(25,23,19,.45);
+    display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+  }
+  .igraProzor {
+    background: var(--card); border-radius: var(--rad-xl); width: 100%; max-width: 36rem;
+    max-height: calc(100dvh - 3rem); overflow-y: auto; box-shadow: 0 24px 64px rgba(0,0,0,.28); transform-origin: 0 0;
+  }
+  .igraProzor .igGlava { display: flex; align-items: center; justify-content: space-between; padding: 0.875rem 1.25rem 0.625rem; }
+  .igraProzor .igVrsta { font-size: var(--t-xs); font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--plava); }
+  .igraProzor .igX {
+    width: 2rem; height: 2rem; border: 0; background: none; cursor: pointer; color: var(--muted);
+    font-size: 1.6rem; line-height: 1; border-radius: var(--rad-s); font-family: inherit;
+  }
+  .igraProzor .igX:hover { color: var(--ink); background: var(--tiho); }
+  .igraProzor .igX:focus:not(:focus-visible) { outline: none; }
+  .igraProzor .igTijelo { padding: 0 1.25rem 1.25rem; }
+
+  /* proširena kartica (samo mobitel; drugdje se .igProsireno ne stvara) */
+  .igProsireno { display: none; }
+  .igZatvori {
+    position: absolute; left: 1.25rem; top: 1.25rem; z-index: 2; width: 2rem; height: 2rem; border: 0;
+    border-radius: 50%; background: rgba(255,253,250,.92); color: var(--ink); font-size: 1.3rem; line-height: 1;
+    box-shadow: 0 1px 4px rgba(0,0,0,.18); cursor: pointer; font-family: inherit;
+  }
+  @keyframes igRasti { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .igTrak i { transition: none; } }
   #miniIgreNas { scroll-margin-top: calc(var(--visinaZaglavlja, 64px) + 16px); }
   /* Okvir nema svoju visinu — uzima je od igre (miniUskladiVisinu). Naslov i
      podaci idu odmah u nastavku, s razmakom koliko treba da se ne slijepe. */
@@ -2613,12 +2704,18 @@
     .miniKart .sl { margin: -0.5rem -0.625rem 0.375rem; }
     .miniKart .ime { font-size: var(--t-m); line-height: 1.25; }
     .miniKart .stil { font-size: var(--t-2xs); }
-    .miniKart.otvoren { grid-column: 1 / -1; padding: 1rem 1rem 0.875rem; gap: 0.25rem; }
-    .miniKart.otvoren .sl { margin: -1rem -1rem 0.5rem; }
-    .miniKart.otvoren .ime { font-size: var(--t-l); }
-    .miniKart.otvoren .stil { font-size: var(--t-xs); }
-    .miniKart.otvoren .opis, .extraKart.otvoren .opis { display: block; }
-    .miniKart.otvoren .broj { display: inline; }
+    /* Otvorena kartica zauzme redak i pokaže isti sastav kao prozor na računalu
+       (PROZOR IGRE); igra se pokreće samo gumbom, ne drugim dodirom. */
+    .miniKart.otvoren, .extraKart.otvoren {
+      grid-column: 1 / -1; padding: 0.875rem; gap: 0; cursor: default; transform: none;
+      border-color: var(--plava); box-shadow: 0 8px 24px rgba(154,91,82,.14);
+    }
+    .miniKart.otvoren > :not(.igProsireno), .extraKart.otvoren > :not(.igProsireno) { display: none; }
+    .otvoren > .igProsireno { display: block; animation: igRasti .32s cubic-bezier(.22,1,.36,1); }
+    .igProsireno .igNaziv .ime { font-size: var(--t-xl); }
+    .igProsireno .igNapredak .br { font-size: var(--t-xs); }
+    .igProsireno .igTrak { width: 0.625rem; }
+    .igProsireno .igOpis { font-size: var(--t-s); }
     /* Jedan stupac znaci da je svaka kartica siroka kao ekran: slika bi u 3:2
        pojela pola zaslona po igri, pa je ovdje plica i dijeli redak s nicim
        drugim. Extras ostaje slozen okomito — palac lista, ne gleda ustranu. */
@@ -9119,6 +9216,7 @@
   function idi(view, arg1, arg2, arg3) {
     ZADNJI_VIEW = { view: view, arg1: arg1, arg2: arg2, arg3: arg3 };
     if (PREGLED) zatvoriPregled();
+    if (IGRA_PROZOR) zatvoriIgraProzor(true);
     oznaciNav(view);
     zatvoriIzbornik();
     var jeNulaCilj = (view === 'unit' && arg1 === L0_TIP && arg2 === L0_RAZINA);
@@ -9571,29 +9669,142 @@
     return '<img src="' + MINI_SLIKE + g.slika + '" alt="" loading="lazy" decoding="async">';
   }
 
-  // Na mobitelu je kartica sazeta (slika, naslov, podnaslov). Prvi dodir je
-  // prosiruje i pokazuje opis, drugi dodir na prosirenoj otvara igru.
+  // Klik na igru: na računalu i tabletu prozor srednje veličine izraste iz
+  // kartice, na mobitelu se kartica proširi u mreži. Oboje pokazuju isti sastav
+  // (slika, okomita traka napretka, screenshot, opis) i igru pokreće samo gumb.
+  // Bez računa nema ni prozora ni proširenja — idi() otvara prijavu kao i prije.
+  var IGRA_PLAY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>';
+  var IGRA_PROZOR = null;   // { sloj, prozor, izvor } dok je prozor otvoren
+
+  function igraSastavHtml(g) {
+    var naziv = '<div class="igNaziv"><span class="ime">' + esc(g.ime) + '</span><span class="stil">' + esc(g.stil) + '</span></div>';
+    var profil = '<div class="igProfil">' + miniSlikaHtml(g) + '</div>';
+    if (!g.maks) return '<div class="igSastav extra">' + profil + '</div>' + naziv;
+    var n = miniIsplata(g), puno = n >= g.maks;
+    var p = Math.round(n / g.maks * 100);
+    // Screenshot ako ga nema: maknemo ga i naziv dobije cijelu širinu.
+    var shot = g.slika ? '<div class="igShot"><img src="' + MINI_SLIKE + 'shot/' + g.slika + '" alt="Screenshot of ' + esc(g.ime) + '" ' +
+      'onerror="var s=this.parentNode,k=s.parentNode;s.remove();k.classList.add(\'bezShota\')"></div>' : '';
+    return '<div class="igSastav' + (shot ? '' : ' bezShota') + '">' + profil +
+        '<div class="igNapredak' + (puno ? ' puno' : '') + '" title="' + n + ' of ' + g.maks + ' points">' +
+          '<span class="igTrak"><i data-p="' + p + '%"></i></span>' +
+          '<span class="br">' + (puno ? '✓' : n) + '</span>' +
+          (puno ? '' : '<span class="od">/' + g.maks + '</span>') +
+        '</div>' + shot +
+      '</div>' + naziv;
+  }
+  function igraTijeloHtml(g) {
+    var uskoro = !g.dat;
+    var meta = g.maks
+      ? '<span>' + g.maks + ' pts ×4</span><span class="st">' + esc(miniOpisStanja(g)) + '</span>'
+      : '<span>no points — your own text</span><span></span>';
+    return '<p class="igOpis">' + esc(g.opis) + '</p><div class="igMeta">' + meta + '</div>' +
+      '<button class="igPlay"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
+      (uskoro ? 'coming soon' : IGRA_PLAY_SVG + 'Play') + '</button>';
+  }
+  // trake krenu s nule i narastu u sljedećem kadru
+  function igraNapuni(korijen) {
+    requestAnimationFrame(function () { requestAnimationFrame(function () {
+      var tr = korijen.querySelectorAll('.igTrak i');
+      for (var i = 0; i < tr.length; i++) tr[i].style.setProperty('--p', tr[i].getAttribute('data-p'));
+    }); });
+  }
+
   function miniDodir(el, id, uskoro) {
-    if (window.matchMedia('(max-width: 639.98px)').matches && !el.classList.contains('otvoren')) {
-      var sve = VIEW.querySelectorAll('.miniKart.otvoren, .extraKart.otvoren');
-      for (var i = 0; i < sve.length; i++) sve[i].classList.remove('otvoren');
-      // Prosirena kartica uzima svoj redak, a susjed iz tog retka ide ispod nje —
-      // i kad je bila lijeva i kad je bila desna. Desnu se zato redom stavlja
-      // ispred lijeve; ostale kartice zadrzavaju svoj poredak.
-      if (el.classList.contains('miniKart')) {
-        var kart = el.parentNode.querySelectorAll('.miniKart');
-        for (var j = 0; j < kart.length; j++) {
-          kart[j].style.order = 2 * j;
-          if (kart[j] === el && j % 2 === 1) kart[j].style.order = 2 * j - 3;
-        }
-      }
-      el.classList.add('otvoren');
-      el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      return;
-    }
-    if (!uskoro) idi('miniIgra', id);
+    if (el.classList.contains('otvoren')) return;      // unutra rade samo gumbi
+    if (imaPristup('MiniGame', 0) !== 'ok') { if (!uskoro) idi('miniIgra', id); return; }
+    var g = miniPoId(id) || extraPoId(id);
+    if (!g) return;
+    if (window.matchMedia('(max-width: 639.98px)').matches) miniProsiri(el, g);
+    else otvoriIgraProzor(g, el);
   }
   window.miniDodir = miniDodir;
+
+  function miniProsiri(el, g) {
+    var sve = VIEW.querySelectorAll('.miniKart.otvoren, .extraKart.otvoren');
+    for (var i = 0; i < sve.length; i++) miniSkupi(sve[i]);
+    // Prosirena kartica uzima svoj redak, a susjed iz tog retka ide ispod nje —
+    // i kad je bila lijeva i kad je bila desna. Desnu se zato redom stavlja
+    // ispred lijeve; ostale kartice zadrzavaju svoj poredak.
+    if (el.classList.contains('miniKart')) {
+      var kart = el.parentNode.querySelectorAll('.miniKart');
+      for (var j = 0; j < kart.length; j++) {
+        kart[j].style.order = 2 * j;
+        if (kart[j] === el && j % 2 === 1) kart[j].style.order = 2 * j - 3;
+      }
+    }
+    var p = document.createElement('div');
+    p.className = 'igProsireno';
+    p.innerHTML = '<button class="igZatvori" aria-label="Close" onclick="event.stopPropagation();miniSkupi(this.closest(\'.otvoren\'))">×</button>' +
+      igraSastavHtml(g) + igraTijeloHtml(g);
+    el.appendChild(p);
+    el.classList.add('otvoren');
+    igraNapuni(p);
+    setTimeout(function () { if (el.isConnected) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }, 60);
+  }
+  function miniSkupi(el) {
+    if (!el) return;
+    el.classList.remove('otvoren');
+    var p = el.querySelector('.igProsireno'); if (p) p.remove();
+  }
+  window.miniSkupi = miniSkupi;
+
+  function otvoriIgraProzor(g, kartica) {
+    zatvoriIgraProzor(true);
+    var sloj = document.createElement('div');
+    sloj.id = 'igraSloj';
+    sloj.innerHTML =
+      '<div class="igraProzor" role="dialog" aria-modal="true" aria-label="' + esc(g.ime) + '">' +
+        '<div class="igGlava"><span class="igVrsta">' + (g.maks ? 'Mini game ' + esc(g.br || '') : 'Extras') + '</span>' +
+        '<button class="igX" aria-label="Close">×</button></div>' +
+        '<div class="igTijelo">' + igraSastavHtml(g) + igraTijeloHtml(g) + '</div>' +
+      '</div>';
+    document.body.appendChild(sloj);
+    var prozor = sloj.querySelector('.igraProzor');
+    IGRA_PROZOR = { sloj: sloj, prozor: prozor, izvor: kartica.querySelector('.sl') || kartica };
+    sloj.addEventListener('click', function (e) {
+      if (e.target === sloj || e.target.closest('.igX')) zatvoriIgraProzor();
+    });
+    igraAnimiraj(IGRA_PROZOR, true);
+    igraNapuni(prozor);
+    var x = prozor.querySelector('.igX'); if (x) x.focus({ preventScroll: true });
+  }
+  // Prozor izraste iz slike kartice: kreće s njezina mjesta i veličine.
+  function igraAnimiraj(o, otvaranje, gotovo) {
+    if (!o || window.matchMedia('(prefers-reduced-motion: reduce)').matches || !o.prozor.animate || !o.izvor.isConnected) {
+      if (gotovo) gotovo(); return;
+    }
+    var a = o.izvor.getBoundingClientRect(), b = o.prozor.getBoundingClientRect();
+    var t = 'translate(' + (a.left - b.left) + 'px,' + (a.top - b.top) + 'px) scale(' + (a.width / b.width) + ')';
+    var okviri = [{ transform: t, opacity: 0.4 }, { transform: 'none', opacity: 1 }];
+    var sjena = [{ backgroundColor: 'rgba(25,23,19,0)' }, { backgroundColor: 'rgba(25,23,19,.45)' }];
+    if (!otvaranje) { okviri.reverse(); sjena.reverse(); }
+    var opc = { duration: otvaranje ? 340 : 220, easing: otvaranje ? 'cubic-bezier(.22,1,.36,1)' : 'cubic-bezier(.4,0,1,1)', fill: 'forwards' };
+    o.sloj.animate(sjena, opc);
+    var an = o.prozor.animate(okviri, opc);
+    if (gotovo) an.onfinish = gotovo;
+  }
+  function zatvoriIgraProzor(odmah) {
+    var o = IGRA_PROZOR;
+    if (!o) return;
+    IGRA_PROZOR = null;
+    if (odmah) { o.sloj.remove(); return; }
+    o.sloj.style.pointerEvents = 'none';
+    igraAnimiraj(o, false, function () { o.sloj.remove(); });
+  }
+  function miniIgraj(id) {
+    zatvoriIgraProzor(true);
+    idi('miniIgra', id);
+  }
+  window.miniIgraj = miniIgraj;
+  document.addEventListener('keydown', function (e) {
+    if (IGRA_PROZOR && e.key === 'Escape') { zatvoriIgraProzor(); e.preventDefault(); }
+  });
+  // prelazak preko granice mobitela (okretanje ekrana) zatvara oboje
+  window.matchMedia('(max-width: 639.98px)').addEventListener('change', function () {
+    zatvoriIgraProzor(true);
+    if (VIEW) { var sve = VIEW.querySelectorAll('.otvoren'); for (var i = 0; i < sve.length; i++) miniSkupi(sve[i]); }
+  });
 
   function renderMini(skok) {
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();

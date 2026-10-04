@@ -38,3 +38,7 @@ preslusaj-skupine.html
 zvuk-gemini-plan.txt
 zvuk-gemini-ponovi.txt
 zvuk-gemini-provjera.csv
+
+# francuski tecaj: stranica je zaseban repo (kristianprasnjak/francais), data-fr.js je medjukorak
+francais/stranica/
+francais/data-fr.js
