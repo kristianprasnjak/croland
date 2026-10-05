@@ -6,7 +6,7 @@ echo ====================================================
 echo   OBJAVA CROLANDA - sve u jednom
 echo ====================================================
 echo.
-echo   1. osvjezavam data.js (EN) i data-de.js + index-de.html (DE)
+echo   1. osvjezavam data.js (EN) i ostale jezike (DE: data-de.js + index-de.html)
 echo   2. dijelim na javni i placeni dio
 echo   3. uploadam placeni dio u Supabase
 echo   4. saljem na GitHub (stranica se osvjezi za 1-2 min)
@@ -21,15 +21,13 @@ echo --- 1/4  data.js -----------------------------------
 call node osvjezi.js
 if errorlevel 1 goto :greska
 
-echo --- 1b/4  njemacka verzija (data-de.js, index-de.html) ---
-call node croland-de\osvjezi-de.js
-if errorlevel 1 goto :greska
+echo --- 1b/4  ostali jezici (croland-jezici\jezici.json: data-XX.js, index-XX.html) ---
 set PYTHONIOENCODING=utf-8
 where python >nul 2>&1
 if %errorlevel%==0 (
-  python croland-de\izgradi-sucelje-de.py
+  python croland-jezici\alati\izgradi-jezike.py
 ) else (
-  py croland-de\izgradi-sucelje-de.py
+  py croland-jezici\alati\izgradi-jezike.py
 )
 if errorlevel 1 goto :greska
 

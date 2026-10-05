@@ -2,6 +2,9 @@
 
 Napisano 01.10.2026. Brief za sesiju koja nastavlja prijevod. Sve je u `croland-de/` — prvo pročitaj `croland-de/PROCITAJ-ME.md`.
 
+Od 05.10.2026. alati su zajednički za sve jezike (`croland-jezici/alati/`, `--jezik de|es`). Naredbe niže i
+dalje rade (skripte u `croland-de/` su omotači); za drugi jezik isto s `python3 croland-jezici/alati/posao.py --jezik es …`.
+
 ## Postupak (jedna razina po krugu)
 
 Razina N = `lekcija-NN.md`, `vokabular-NN.md`, `gramatika-NN.md`, `praksa-NN.md`, `test-NN.md`. Redom: L4, L5, … L20, na kraju `daily-*.md` i ostalo.

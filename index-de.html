@@ -3680,13 +3680,22 @@
 
   // ================= PODACI =================
   var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test'];
-  // [DE] prikazna imena tipova i cjelina; interni kljucevi (Lesson 1 ...) ostaju engleski
-  function deTip(t) { return ({ Lesson: 'Lektion', Vocabulary: 'Wortschatz', Grammar: 'Grammatik', Practice: 'Praxis', Test: 'Test', 'Tägliche Challenge': 'Tägliche Challenge', 'Wöchentliche Challenge': 'Wöchentliche Challenge' })[t] || t; }
-  function deCjelina(c) { return String(c == null ? '' : c).replace(/^(Lesson|Vocabulary|Grammar|Practice|Test|Daily challenge|Weekly challenge)\b/, function (m) { return deTip(m); }); }
+  // Prikazna imena tipova i cjelina. Interni kljucevi (Lesson 1, Daily challenge 5 ...) ostaju
+  // engleski jer se po njima sprema napredak; na zaslon idu kroz tipIme() / cjelinaIme().
+  // Build prevodi vrijednosti (T_), pa za engleski obje funkcije vracaju tocno ono sto dobiju.
+  var IME_TIPA = { Lesson: T_('Lektion'), Vocabulary: T_('Wortschatz'), Grammar: T_('Grammatik'), Practice: T_('Praxis'),
+    Test: T_('Test'), 'Daily challenge': T_('Tägliche Challenge'), 'Weekly challenge': T_('Wöchentliche Challenge') };
+  function tipIme(t) { return IME_TIPA[t] || t; }
+  function cjelinaIme(c) {
+    return String(c == null ? '' : c).replace(/^(Lesson|Vocabulary|Grammar|Practice|Test|Daily challenge|Weekly challenge)\b/,
+      function (m) { return tipIme(m); });
+  }
+  function kljucCjeline(tip, razina) { return tip + ' ' + razina; }
   // ---- jezik uputa ----
   // Svaki jezik je zasebna stranica s istim kodom i istim kljucevima napretka (Lesson 1,
   // Daily challenge...). Promjena jezika = spremi izbor, pa otvori drugu stranicu na istom mjestu.
-  var JEZIK_APP = 'de';
+  // jezik ove stranice dolazi iz registra u <head> (build mijenja samo JEZIK_STRANICE ondje)
+  var JEZIK_APP = window.CROLAND_JEZIK_STRANICE || 'en';
   // oblik datuma, brojeva i cijena prati jezik sucelja (engleski ostaje tocno kakav je bio)
   // Tekst sucelja s mjestima %1, %2...: cijela recenica je jedan string, pa je prijevod moze
   // presloziti (red rijeci). Build prevodi cijeli literal unutar T_( ... ) odjednom, i s HTML-om.
@@ -3749,6 +3758,11 @@
     }, function () { TIHA_PROMJENA_KORISNIKA = false; });
   }
   var VALUTA_TIPA = { Lesson: 'LP', Vocabulary: 'VP', Grammar: 'GP', Practice: 'PP' };
+  // LP/VP/GP/PP su interni kljucevi valuta (napredak, javni_bodovi). Na zaslon idu kratice
+  // na jeziku stranice (build prevodi T_); za engleski su iste.
+  var KRATICA_VALUTE = { LP: T_('LP'), VP: T_('WP'), GP: T_('GP'), PP: T_('PP') };
+  function valutaKratica(k) { return KRATICA_VALUTE[k] || k; }
+  var VALUTE = ['LP', 'VP', 'GP', 'PP'];
   // Udio dotad dostupnih bodova koji treba skupiti za otključavanje razine.
   // Krivulja raste od 0.50 (razina 2) do 0.80 i ondje STAJE.
   //
@@ -3899,6 +3913,8 @@
       cjelina: g.cjelina || null, cjelinaNaslov: g.cjelinanaslov || null,
       tip: pc ? pc.tip : null, razina: pc ? pc.razina : 0,
       stranica: g.stranica || 0, format: g.format, naslov: g.naslov,
+      // kljuc napretka: engleski naslov (samo u data-XX.js drugih jezika; vidi kljucIgre)
+      kljuc: g.kljuc || null,
       meta: g.meta || {}, stavke: stavke, bodovi: g.bodovi || 5,
       // true dok je ovo samo kostur iz javnog data.js — sadržaj stiže iz zaštićenog dijela
       zakljucano: !!g.zakljucano
@@ -3973,7 +3989,7 @@
     }
     if (dailySlikaEra()) return pre + 'heute keine Challenge';
     var n = dailyDanasnji();
-    var igre = n === null ? [] : igreCjeline('Tägliche Challenge', n);
+    var igre = n === null ? [] : igreCjeline('Daily challenge', n);
     if (igre.length === 0) return pre + 'heute keine Challenge';
     var maks = 0, osv = 0;
     igre.forEach(function (g) { maks += g.bodovi; osv += najbolji(g); });
@@ -4425,7 +4441,7 @@
       red.forEach(function (f) { f(uspjeh); });
     };
 
-    fetch(FUNKCIJE_URL + '/sadrzaj?f=data-plus-de.json', {
+    fetch(FUNKCIJE_URL + '/sadrzaj?f=data-plus' + (JEZIK_APP === 'en' ? '' : '-' + JEZIK_APP) + '.json', {
       headers: zaglavljaFunkcije()
     }).then(function (r) {
       if (!r.ok) throw new Error('sadrzaj ' + r.status);
@@ -4459,6 +4475,7 @@
         if (lok) { var p = JSON.parse(lok); if (p && typeof p === 'object') PROGRESS = Object.assign(PROGRESS_PRAZAN(), p); }
       } catch (e) {}
       migrirajSkalu();
+      migrirajKljuceVjezbi();
       migrirajRjecnik();
       if (cb) cb();
       return;
@@ -4469,6 +4486,7 @@
         spojiPredracunskoStanje();
         posijiMiniIgre();
         migrirajSkalu();
+        migrirajKljuceVjezbi();
         migrirajRjecnik();
         if (cb) cb();
       });
@@ -4517,7 +4535,27 @@
       SPREMI_TAJMER = setTimeout(function () { SPREMI_TAJMER = null; posaljiProgress(); }, 1000);
     }
   }
-  function kljucIgre(g) { return (g.cjelina || '') + '|' + g.stranica + '|' + g.naslov; }
+  // Napredak vjezbe se sprema pod cjelina|stranica|naslov, uvijek s ENGLESKIM naslovom: verzija na
+  // drugom jeziku ga ima u g.kljuc (prevedeni je naslov samo za prikaz). Tako se napredak ne gubi
+  // kad korisnik promijeni jezik. Engleski data.js nema kljuc, pa je ondje sve kao prije.
+  function kljucIgre(g) { return (g.cjelina || '') + '|' + g.stranica + '|' + (g.kljuc || g.naslov); }
+  // Jednokratno: bodovi spremljeni pod prevedenim naslovom (njemacka verzija prije 05.10.2026.)
+  // prelaze na engleski kljuc; ako postoje oba, vrijedi bolji rezultat.
+  function migrirajKljuceVjezbi() {
+    var v = PROGRESS.vjezbe;
+    if (!v || typeof v !== 'object') return;
+    var promjena = false;
+    IGRE.forEach(function (g) {
+      if (!g.kljuc || g.kljuc === g.naslov) return;
+      var stari = (g.cjelina || '') + '|' + g.stranica + '|' + g.naslov;
+      if (typeof v[stari] !== 'number') return;
+      var novi = kljucIgre(g);
+      if (!(v[novi] >= v[stari])) v[novi] = v[stari];
+      delete v[stari];
+      promjena = true;
+    });
+    if (promjena) spremiProgress();
+  }
   function najbolji(g) { return PROGRESS.vjezbe[kljucIgre(g)] || 0; }
   function zabiljezi(g, osvojeno) {
     var k = kljucIgre(g);
@@ -5404,7 +5442,7 @@
     // Raspored zaglavlja ovisi o tome je li brojac vidljiv — vidi TRI UREDAJA.
     document.body.classList.add('imaBrojac');
     var v = valute();
-    el.textContent = v.LP + ' LP · ' + v.VP + ' VP · ' + v.GP + ' GP · ' + v.PP + ' PP';
+    el.textContent = VALUTE.map(function (k) { return v[k] + ' ' + valutaKratica(k); }).join(' · ');
   }
 
   // ================= NAGRADE I OTKLJUČAVANJA =================
@@ -5486,19 +5524,19 @@
     var m = document.createElement('div'); m.className = 'otkljModal';
     var dalje = odakle ? sljedecaFaza(odakle.tip, odakle.razina) : null;
     if (dalje && !otkljucano(dalje.tip, dalje.razina)) dalje = null;
-    var imena = lista.map(function (c) { return deTip(c.tip) + ' ' + c.razina; });
+    var imena = lista.map(function (c) { return tipIme(c.tip) + ' ' + c.razina; });
     m.innerHTML = '<div class="otkljIkona">' + IK('otvorena', 'krupna') + '</div>' +
       '<h2>' + (lista.length > 1 ? 'Neue Einheiten freigeschaltet!' : 'Neue Einheit freigeschaltet!') + '</h2>' +
       '<p class="otkljPod">Du hast genug Punkte gesammelt – gut gemacht! 🎉' +
       (dalje ? '<br>Jetzt offen: <strong>' + esc(imena.join(' · ')) + '</strong>' : '') + '</p>';
     if (dalje) {
       var bd = document.createElement('button'); bd.className = 'gumb';
-      bd.textContent = '▶ Weiter: ' + deTip(dalje.tip) + ' ' + dalje.razina;
+      bd.textContent = T_('▶ Weiter: %1', tipIme(dalje.tip) + ' ' + dalje.razina);
       bd.onclick = function () { ov.remove(); idi('unit', dalje.tip, dalje.razina); };
       m.appendChild(bd);
     } else lista.forEach(function (c) {
       var b = document.createElement('button'); b.className = 'gumb';
-      b.textContent = '▶ Start ' + deTip(c.tip) + ' ' + c.razina;
+      b.textContent = T_('▶ Start %1', tipIme(c.tip) + ' ' + c.razina);
       b.onclick = function () { ov.remove(); idi('unit', c.tip, c.razina); };
       m.appendChild(b);
     });
@@ -5777,9 +5815,8 @@
     // streak se zaključuje prvom odigranom vježbom današnjeg challengea
     if (streakNovi) {
       var nz = streakNiz();
-      html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + '<strong>Tag ' + nz + ' in Folge</strong> · +' + nz +
-        ' Punkte in jeder Währung' +
-        '<span class="opusti">Komm morgen wieder für +' + (nz + 1) + '. Lässt du einen Tag aus, beginnt die Serie von vorn.</span></div>';
+      html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + T_('<strong>Tag %1 in Folge</strong> · +%1 Punkte in jeder Währung', nz) +
+        '<span class="opusti">' + T_('Komm morgen wieder für +%1. Lässt du einen Tag aus, beginnt die Serie von vorn.', nz + 1) + '</span></div>';
     }
     $('rezDetalji').innerHTML = html;
     var rezBar = $('rezDetalji').querySelector('.rezBar > div');
@@ -6198,7 +6235,7 @@
         // hrvatska rečenica | engleski prijevod -> EN gumb pali/gasi prijevod
         var hr = document.createElement('span'); hr.appendChild(elTekst(st[0])); p.appendChild(hr);
         var zvT = zvucnik(bezPraznina(st[0])); if (zvT) p.appendChild(zvT);
-        var tg = document.createElement('span'); tg.className = 'prijevodGumb'; tg.textContent = 'DE';
+        var tg = document.createElement('span'); tg.className = 'prijevodGumb'; tg.textContent = JEZIK_APP.toUpperCase();
         var tr = document.createElement('span'); tr.className = 'prijevodTekst';
         tr.innerHTML = mdInline(st[1]); tr.style.display = 'none';
         tg.onclick = function () {
@@ -6329,14 +6366,14 @@
       }
       var d = brojDodanih();
       return {
-        s: 'Gelesen: ' + brojProcitanih() + '/' + ukupno + ' · Ins Wörterbuch aufgenommen: ' + d + '/' + ukupnoRj,
+        s: T_('Gelesen: %1/%2 · Ins Wörterbuch aufgenommen: %3/%4', brojProcitanih(), ukupno, d, ukupnoRj),
         pct: ukupnoRj ? (brojProcitanih() / ukupno + d / ukupnoRj) / 2 : brojProcitanih() / ukupno
       };
     };
     var s = $('sadrzaj'); s.innerHTML = '';
     // Kartice su mjesto gdje se rijec prvi put SLUSA, ne samo cita. Bez ovoga
     // vecina prode cijelu lekciju ne pokrenuvsi nijednu snimku.
-    s.appendChild(trakaSlusanja('Tippe auf eine Karte, um sie **umzudrehen**: Auf der Rückseite findest du das kroatische Wort, ein Bild und ' + IK('zvuk') + '. Spiel es ab, **sprich das Wort laut aus** und tippe dann auf **+**, um es in dein Wörterbuch aufzunehmen (noch einmal tippen setzt einen Stern). ' + IK('knjiga') + ' zeigt alle seine Formen.'));
+    s.appendChild(trakaSlusanja(T_('Tippe auf eine Karte, um sie **umzudrehen**: Auf der Rückseite findest du das kroatische Wort, ein Bild und %1. Spiel es ab, **sprich das Wort laut aus** und tippe dann auf **+**, um es in dein Wörterbuch aufzunehmen (noch einmal tippen setzt einen Stern). %2 zeigt alle seine Formen.', IK('zvuk'), IK('knjiga'))));
     var m = document.createElement('div'); m.className = 'mrezaVok'; s.appendChild(m);
     // Oblačić "Added to dictionary" objašnjava što se dogodilo — treba samo dok je
     // to novo, u razinama 1 i 2 (Lesson/Vocabulary 1–2). Poslije je šum.
@@ -6407,7 +6444,7 @@
           var n = natuknice(st[0], '').length;
           btn.classList.remove('zvj', 'da');
           btn.textContent = '+';
-          btn.title = n > 1 ? ' ' + n + ' Wörter ins Wörterbuch aufnehmen' : 'Ins Wörterbuch aufnehmen';
+          btn.title = n > 1 ? T_('%1 Wörter ins Wörterbuch aufnehmen', n) : 'Ins Wörterbuch aufnehmen';
           btn.removeAttribute('aria-pressed');
         } else {
           var f = jeFavorit(st[0]);
@@ -6476,7 +6513,7 @@
         return;
       }
       var dod = brojDodanih();
-      kraj('Gelesen: ' + brojProcitanih() + '/' + ukupno + ' · Ins Wörterbuch aufgenommen: ' + dod + '/' + ukupnoRj,
+      kraj(T_('Gelesen: %1/%2 · Ins Wörterbuch aufgenommen: %3/%4', brojProcitanih(), ukupno, dod, ukupnoRj),
         ukupnoRj ? (brojProcitanih() / ukupno + dod / ukupnoRj) / 2 : brojProcitanih() / ukupno);
     };
     s.appendChild(b);
@@ -6485,7 +6522,7 @@
   function takeDijalog() {
     setStat('Gespräch', 'wähle deine Antwort');
     var s = $('sadrzaj'); s.innerHTML = '';
-    s.appendChild(trakaSlusanja('Jede Zeile hat ein ' + IK('zvuk') + ' – spiel es ab und **lies deine Antwort laut vor**, bevor du sie antippst.'));
+    s.appendChild(trakaSlusanja(T_('Jede Zeile hat ein %1 – spiel es ab und **lies deine Antwort laut vor**, bevor du sie antippst.', IK('zvuk'))));
     var chat = document.createElement('div'); chat.className = 'chat'; s.appendChild(chat);
     var ops = document.createElement('div'); ops.className = 'opcije'; s.appendChild(ops);
     var i = 0;
@@ -6512,9 +6549,9 @@
     var parovi = uzorakSvjez(igra.stavke, 5).map(function (s) { return { hr: s[0], en: s[1] }; });
     var spojeno = 0, greske = 0, odL = null, odR = null;
     setStat('Zugeordnet: 0/' + parovi.length, 'Fehler: 0');
-    predaja = function () { return { s: 'Zugeordnet: ' + spojeno + '/' + parovi.length + ' · Fehler: ' + greske, pct: spojeno / (parovi.length + greske) }; };
+    predaja = function () { return { s: T_('Zugeordnet: %1/%2 · Fehler: %3', spojeno, parovi.length, greske), pct: spojeno / (parovi.length + greske) }; };
     var s = $('sadrzaj'); s.innerHTML = '';
-    s.appendChild(trakaSlusanja('Tippe bei einem kroatischen Wort auf ' + IK('zvuk') + ' und **sprich es nach**, bevor du sein Paar suchst.'));
+    s.appendChild(trakaSlusanja(T_('Tippe bei einem kroatischen Wort auf %1 und **sprich es nach**, bevor du sein Paar suchst.', IK('zvuk'))));
     var red = document.createElement('div'); red.className = 'stupci';
     var kolL = document.createElement('div'); kolL.className = 'stupac';
     var kolR = document.createElement('div'); kolR.className = 'stupac';
@@ -6611,7 +6648,7 @@
           rijeseno++;
           setStat('Paare: ' + rijeseno + '/' + parovi.length, statD('Extra-Umdrehungen: ' + kazna));
           if (rijeseno === parovi.length) {
-            kraj(uL0() ? 'Alle ' + parovi.length + ' Paare gefunden' : 'Extra-Umdrehungen: ' + kazna,
+            kraj(uL0() ? T_('Alle %1 Paare gefunden', parovi.length) : 'Extra-Umdrehungen: ' + kazna,
                  parovi.length / (parovi.length + kazna));
           }
         } else {
@@ -6638,11 +6675,11 @@
     var trajanje = parseInt(igra.meta && igra.meta.trajanje, 10) || 60;
     var cilj = parseInt(igra.meta && igra.meta.cilj, 10) || 15;
     var bodovi = 0, greske = 0, preostalo = trajanje, trenutna = null, ceka = false;
-    predaja = function () { return { s: 'Punkte: ' + bodovi + '/' + cilj + ' · Fehler: ' + greske, pct: bodovi / cilj }; };
+    predaja = function () { return { s: T_('Punkte: %1/%2 · Fehler: %3', bodovi, cilj, greske), pct: bodovi / cilj }; };
     var s = $('sadrzaj'); s.innerHTML = '';
     // Utrka je najbrza vjezba u tecaju i bas zato mjesto gdje se izgovor najlakse
     // preskoci. Traka stoji iznad sata: rijec se cuje, pa tek onda tapka.
-    s.appendChild(trakaSlusanja('Tippe bei einem kroatischen Wort auf ' + IK('zvuk') + ' neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.'));
+    s.appendChild(trakaSlusanja(T_('Tippe auf %1 neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.', IK('zvuk'))));
     var hud = document.createElement('div');
     hud.style.cssText = 'display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px;padding:12px 18px;border-radius:14px;background:rgba(0,0,0,.05);font-weight:800;';
     var hudVrijeme = document.createElement('div'); hudVrijeme.style.cssText = 'font-size:1.7em;font-variant-numeric:tabular-nums;';
@@ -6665,7 +6702,7 @@
     timer = setInterval(function () {
       preostalo--; hudOsvjezi();
       if (preostalo <= 0) {
-        kraj('Punkte: ' + bodovi + '/' + cilj + ' · Fehler: ' + greske, bodovi / cilj);
+        kraj(T_('Punkte: %1/%2 · Fehler: %3', bodovi, cilj, greske), bodovi / cilj);
       }
     }, 1000);
     function novoPitanje() {
@@ -6688,7 +6725,7 @@
           if (o === par[1]) {
             bodovi++; e.classList.add('tocno'); hudOsvjezi();
             if (bodovi >= cilj) {
-              kraj('Alle ' + cilj + ' richtig mit ' + preostalo + ' s übrig · Fehler: ' + greske, 1);
+              kraj(T_('Alle %1 richtig mit %2 s übrig · Fehler: %3', cilj, preostalo, greske), 1);
               return;
             }
             ceka = true;
@@ -6901,7 +6938,7 @@
     predaja = function () {
       var n = 0;
       slozeneLinije().forEach(function (t, k) { if (t === linije[k]) n++; });
-      return { s: 'Am richtigen Platz: ' + n + '/' + linije.length + ' · Fehler: ' + greske, pct: n / linije.length };
+      return { s: T_('Am richtigen Platz: %1/%2 · Fehler: %3', n, linije.length, greske), pct: n / linije.length };
     };
     function provjeri() {
       var slozeno = slozeneLinije();
@@ -7161,7 +7198,7 @@
     var s = $('sadrzaj');
     function zavrsi() {
       var post = Math.round(tocno / zadaci.length * 100);
-      kraj('Ergebnis: ' + tocno + '/' + zadaci.length + ' (' + post + '%)' + (post >= prg ? ' · BESTANDEN ✓' : ' · unter der Schwelle von ' + prg + '%'), tocno / zadaci.length);
+      kraj(T_('Ergebnis: %1/%2 (%3%)', tocno, zadaci.length, post) + (post >= prg ? ' · BESTANDEN ✓' : T_(' · unter der Schwelle von %1%', prg)), tocno / zadaci.length);
     }
     function prikazi() {
       if (i >= zadaci.length) { setStat('Aufgabe: ' + zadaci.length + '/' + zadaci.length, 'Richtig: ' + tocno); zavrsi(); return; }
@@ -7448,7 +7485,7 @@
       // favoriti iz cijelog rječnika, bez obzira na opseg
       p.innerHTML = htmlPopisRijeci(rjecnikRijeci().filter(function (r) { return jeFavorit(r.hr); }),
         polje ? polje.value : '',
-        { izvor: true, prazno: 'Noch keine Favoriten. Tippe auf ' + IK('zvijezda') + ' neben einem Wort, um es hier zu behalten.' });
+        { izvor: true, prazno: T_('Noch keine Favoriten. Tippe auf %1 neben einem Wort, um es hier zu behalten.', IK('zvijezda')) });
       return;
     }
     var prazno = rjOpseg === 'sve'
@@ -7556,7 +7593,7 @@
     gresakaUVjezbi++;
     if (gresakaUVjezbi !== 2 && gresakaUVjezbi !== 5) return;
     setTimeout(function () {
-      pokaziSavjetRj('Hängst du fest? Das <strong>dictionary</strong> enthält jedes Wort auf dieser Seite. ' + IK('knjiga'));
+      pokaziSavjetRj(T_('Hängst du fest? Das <strong>Wörterbuch</strong> enthält jedes Wort auf dieser Seite. %1', IK('knjiga')));
     }, 600);
   }
   // ---- podsjetnik na rjecnik izvan lekcije 0 ----
@@ -7569,20 +7606,20 @@
   // Nigdje se ne nudi dvaput za istu stranicu, a pokaziOblacic() ionako sam
   // preskace sve unutar 12 sekundi od zadnjeg oblacica.
   var PODSJETNIK_RJ = {
-    kartice: 'Neue Wörter? Das <strong>dictionary</strong> listet jedes Wort auf dieser Seite auf, mit ' + IK('zvuk') +
-      ' – und das Spiel ' + IK('igra') + ' direkt darunter übt die Wörter, die du gespeichert hast.',
-    tekst: 'Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>dictionary</strong>. ' + IK('knjiga'),
-    upis: 'Ein Wort fällt dir nicht ein? Öffne das <strong>dictionary</strong> – es enthält jedes Wort auf dieser Seite. ' + IK('knjiga'),
-    provjera: 'Das <strong>dictionary</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. ' + IK('knjiga'),
-    slaganje: 'Nicht sicher, welches Wort welches ist? Das <strong>dictionary</strong> hat sie alle, mit ' + IK('zvuk') + '.'
+    kartice: T_('Neue Wörter? Das <strong>Wörterbuch</strong> listet jedes Wort auf dieser Seite auf, mit %1 – und das Spiel %2 direkt darunter übt die Wörter, die du gespeichert hast.',
+      IK('zvuk'), IK('igra')),
+    tekst: T_('Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>Wörterbuch</strong>. %1', IK('knjiga')),
+    upis: T_('Ein Wort fällt dir nicht ein? Öffne das <strong>Wörterbuch</strong> – es enthält jedes Wort auf dieser Seite. %1', IK('knjiga')),
+    provjera: T_('Das <strong>Wörterbuch</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. %1', IK('knjiga')),
+    slaganje: T_('Nicht sicher, welches Wort welches ist? Das <strong>Wörterbuch</strong> hat sie alle, mit %1.', IK('zvuk'))
   };
   function podsjetnikRjecnika(format, indeks) {
     if (indeks === 0) return PODSJETNIK_RJ[format] ||
-      'Jedes Wort auf dieser Seite steht im <strong>dictionary</strong>, mit ' + IK('zvuk') + ' – es öffnet sich direkt hier, ohne dass du die Übung verlässt.';
+      T_('Jedes Wort auf dieser Seite steht im <strong>Wörterbuch</strong>, mit %1 – es öffnet sich direkt hier, ohne dass du die Übung verlässt.', IK('zvuk'));
     return PODSJETNIK_RJ[format] || null;
   }
   var SAVJETI_L0 = {
-    1: 'Nicht sicher, was ein Bild bedeutet? Tippe hier – jedes Wort auf dieser Seite ist aufgelistet, mit ' + IK('zvuk') + '.',
+    1: T_('Nicht sicher, was ein Bild bedeutet? Tippe hier – jedes Wort auf dieser Seite ist aufgelistet, mit %1.', IK('zvuk')),
     4: 'Das Wörterbuch begleitet dich. Zieh das Symbol, wohin es dir passt. ' + IK('knjiga'),
     7: 'Stolperst du über Doppelbuchstaben? Öffne das Wörterbuch und hör dir das Wort zuerst an. ' + IK('zvuk')
   };
@@ -7944,8 +7981,8 @@
     if (!pretplata) limitTxt = ostalo === 0
       ? 'Deine kostenlose Frage für heute ist verbraucht. Abonnenten bekommen 20 pro Tag.'
       : 'Eine kostenlose Frage pro Tag. Abonnenten bekommen 20.';
-    else if (ostalo === 0) limitTxt = 'Für heute keine Fragen mehr. Morgen bekommst du ' + AI_LIMIT + ' neue.';
-    else if (AI_ISKORISTENO !== null && AI_ISKORISTENO >= AI_PRIKAZI_OD) limitTxt = ostalo + ' von ' + AI_LIMIT + ' Fragen für heute übrig';
+    else if (ostalo === 0) limitTxt = T_('Für heute keine Fragen mehr. Morgen bekommst du %1 neue.', AI_LIMIT);
+    else if (AI_ISKORISTENO !== null && AI_ISKORISTENO >= AI_PRIKAZI_OD) limitTxt = T_('%1 von %2 Fragen für heute übrig', ostalo, AI_LIMIT);
     var zakljucano = ceka || ostalo === 0;
     h += '<div class="aiUnos"><textarea id="aiPitanje" maxlength="500" rows="2" placeholder="Deine Frage …"' +
       (ostalo === 0 ? ' disabled' : '') + '></textarea>' +
@@ -8530,8 +8567,8 @@
         var papir = papirCedulje(c);
         html += '<div class="cedulja" data-papir="' + papir + '">' +
           '<textarea class="cedText" data-slot="' + m.id + '" spellcheck="false" ' +
-            'maxlength="' + CED_NAJVISE_ZNAKOVA + '" aria-label="Haftnotiz" ' +
-            'placeholder="Hier schreiben …">' + esc(c.t || '') + '</textarea>' +
+            'maxlength="' + CED_NAJVISE_ZNAKOVA + '" aria-label="' + esc(T_('Haftnotiz')) + '" ' +
+            'placeholder="' + esc(T_('Hier schreiben …')) + '">' + esc(c.t || '') + '</textarea>' +
           '<div class="cedAlat">' +
           CED_PAPIRI.map(function (p) {
             return '<button type="button" data-papir="' + p.id + '" data-slot="' + m.id +
@@ -8864,7 +8901,7 @@
       var s = $('sadrzaj'); s.innerHTML = '';
       var naslov = document.createElement('div');
       naslov.style.cssText = 'text-align:center;font-weight:600;margin-bottom:10px';
-      naslov.textContent = 'Merk dir diese drei – Runde ' + (n + 1) + ' von ' + krugova;
+      naslov.textContent = T_('Merk dir diese drei – Runde %1 von %2', n + 1, krugova);
       s.appendChild(naslov);
 
       var odbr = document.createElement('div'); odbr.className = 'odbrojavanje';
@@ -9032,7 +9069,7 @@
   // kriterij kao streakOznaci() — bilo koja vježba današnjeg challengea)
   function dailyCeka() {
     var s = PROGRESS.streak;
-    return imaPristup('Tägliche Challenge', 0) === 'ok' && !(s && s.zadnji === datumKljuc());
+    return imaPristup('Daily challenge', 0) === 'ok' && !(s && s.zadnji === datumKljuc());
   }
   // Na Daily stranici i usred challengea poziv je suvišan; u testu bi ga klik
   // prekinuo, a Lesson 0 zaglavlje namjerno drži tihim (v. skrijValute).
@@ -9296,8 +9333,8 @@
         (bodoviGore ? 'true' : 'false') + '" onclick="prebaciBodoveUZaglavlju()">' +
       '<span class="sklopkaTekst">' +
         '<span class="imeSk">Punkte in der Kopfzeile anzeigen</span>' +
-        '<span class="opisSk">LP · VP · GP · PP neben dem Menü. Standardmäßig aus – ' +
-        'Der Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.</span>' +
+        '<span class="opisSk">' + T_('%1 neben dem Menü. Standardmäßig aus – der Fortschritt zeigt dieselben Zahlen mit mehr Hintergrund.',
+          VALUTE.map(valutaKratica).join(' · ')) + '</span>' +
       '</span><span class="sklopka"></span></button></div>';
 
     var kratko = kratkeUpute();
@@ -9324,7 +9361,7 @@
         'der Lektion oder dem Minispiel, in dem du sie geschrieben hast, und bleibt dort, bis du sie löschst. ' +
         'Nur auf breiten Bildschirmen: Ein Handy oder Tablet hat keinen Rand für Papier. ' +
         'Wenn du das ausschaltest, werden deine Notizen nur ausgeblendet, nie gelöscht.' +
-        (cedBroj ? ' Du hast ' + cedBroj + (cedBroj === 1 ? ' Notiz' : ' Notizen') + ' gespeichert.' : '') +
+        (cedBroj ? ' ' + (cedBroj === 1 ? T_('Du hast %1 Notiz gespeichert.', cedBroj) : T_('Du hast %1 Notizen gespeichert.', cedBroj)) : '') +
         '</span>' +
       '</span><span class="sklopka"></span></button></div>';
 
@@ -9424,7 +9461,7 @@
     var pok = (PROGRESS.pokrenute || {})[(igre[0] && igre[0].cjelina) || (tip + ' ' + razina)] || 0;
     return {
       tip: tip, razina: razina, broj: igre.length, maks: maks, osv: osv,
-      naslov: (igre[0] && igre[0].cjelinaNaslov) || (deTip(tip) + ' ' + razina),
+      naslov: (igre[0] && igre[0].cjelinaNaslov) || (tipIme(tip) + ' ' + razina),
       pct: maks ? Math.round(osv / maks * 100) : 0,
       otklj: otkljucano(tip, razina),
       pokrenuta: (typeof pok === 'number' ? pok : 1)
@@ -9472,7 +9509,7 @@
       if (!otkljucano(tip, r)) {
         var igre = igreCjeline(tip, r);
         return { razina: r, prag: prag(tip, r),
-          naslov: (igre[0] && igre[0].cjelinaNaslov) || (deTip(tip) + ' ' + r) };
+          naslov: (igre[0] && igre[0].cjelinaNaslov) || (tipIme(tip) + ' ' + r) };
       }
     }
     return null;
@@ -9481,17 +9518,17 @@
   // ---- gradivni dijelovi naslovnice ----
   function slajdHtml(z, vrsta) {
     var h = '<div class="slajd" role="button" tabindex="0" data-cilj="unit:' + z.tip + ':' + z.razina + '" ' +
-      'title="' + esc(z.naslov + ' — ' + deTip(z.tip) + ' ' + z.razina) + '">' +
-      '<div class="tipS">' + esc(deTip(z.tip) + ' ' + z.razina) + '</div>' +
+      'title="' + esc(z.naslov + ' — ' + tipIme(z.tip) + ' ' + z.razina) + '">' +
+      '<div class="tipS">' + esc(tipIme(z.tip) + ' ' + z.razina) + '</div>' +
       '<div class="imeS">' + esc(z.naslov) + '</div>';
     if (vrsta === 'novo') {
-      h += '<div class="metaS">' + z.broj + (z.broj === 1 ? ' Übung' : ' Übungen') +
+      h += '<div class="metaS">' + (z.broj === 1 ? T_('%1 Übung', z.broj) : T_('%1 Übungen', z.broj)) +
         ' · ' + z.maks + ' Punkte warten</div>' +
         '<div class="barS"><i data-pct="0"></i></div>' +
         '<div class="podBar"><span>hier noch nichts erledigt</span></div>' +
         '<div class="ctaS">Start</div>';
     } else {
-      h += '<div class="metaS">' + z.osv + ' von ' + z.maks + ' Punkte verdient</div>' +
+      h += '<div class="metaS">' + T_('%1 von %2 Punkte verdient', z.osv, z.maks) + '</div>' +
         '<div class="barS"><i data-pct="' + z.pct + '"></i></div>' +
         '<div class="podBar"><span>bisher erledigt</span><b>' + z.pct + '%</b></div>' +
         '<div class="ctaS">Weiter</div>';
@@ -9503,10 +9540,10 @@
     var m = manjkaZa(z);
     return '<div class="slajd" role="button" tabindex="0" data-cilj="view:lessons" ' +
       'title="' + esc(z.naslov + ' – gesperrt') + '">' +
-      '<div class="tipS">' + IK('brava', 'uz') + esc(deTip(z.tip) + ' ' + z.razina) + '</div>' +
+      '<div class="tipS">' + IK('brava', 'uz') + esc(tipIme(z.tip) + ' ' + z.razina) + '</div>' +
       '<div class="imeS">' + esc(z.naslov) + '</div>' +
       '<div class="metaS">' + (m
-        ? m.treba + ' more ' + m.val + ' und das hier öffnet sich'
+        ? T_('Noch %1 %2, dann öffnet sich das hier', m.treba, valutaKratica(m.val))
         : 'beende diese Reihe, um es zu öffnen') + '</div>' +
       '<div class="barS"><i data-pct="' + (m ? m.pct : 0) + '"></i></div>' +
       '<div class="podBar"><span>bis zur Freischaltung</span><b>' + (m ? m.pct : 0) + '%</b></div>' +
@@ -9590,9 +9627,9 @@
     var rj = brojRijeci();
     if (rj > 0) {
       brze.push(brzaKarticaHtml('view:dictTest', IK('meta'), 'Teste deine Wörter',
-        rj + (rj === 1 ? ' Wort' : ' Wörter') + ' · nur Übung, keine Punkte', true));
+        (rj === 1 ? T_('%1 Wort · nur Übung, keine Punkte', rj) : T_('%1 Wörter · nur Übung, keine Punkte', rj)), true));
     }
-    brze.push(brzaKarticaHtml('view:daily', IK('kalendar'), 'Tägliche Challenge', dailyPodnaslov(), false));
+    brze.push(brzaKarticaHtml('view:daily', IK('kalendar'), T_('Tägliche Challenge'), dailyPodnaslov(), false));
     // Mini igre i LRWS su dvije zasebne kartice: prva vodi na Games & Extras i
     // spusti stranicu do mreze mini igara, druga otvara LRWS izravno.
     var gotovih = imaRacun() ? MINI_IGRE.filter(function (g) {
@@ -9600,8 +9637,8 @@
     }).length : 0;
     brze.push(brzaKarticaHtml('view:mini:igre', IK('igra'), 'Minispiele',
       gotovih >= MINI_IGRE.length
-        ? 'alle ' + MINI_IGRE.length + ' abgeschlossen · jederzeit wiederholbar'
-        : gotovih + ' von ' + MINI_IGRE.length + ' abgeschlossen', false));
+        ? T_('alle %1 abgeschlossen · jederzeit wiederholbar', MINI_IGRE.length)
+        : T_('%1 von %2 abgeschlossen', gotovih, MINI_IGRE.length), false));
     var lrws = extraPoId('lrws');
     if (lrws && lrws.dat) {
       brze.push(brzaKarticaHtml('view:miniIgra:lrws', IK('zvuk'), lrws.ime,
@@ -9614,7 +9651,7 @@
     html += '<div class="maleP">' +
       '<div class="malaP" role="button" tabindex="0" data-cilj="view:dictionary">' +
         '<div class="imeM">Wörterbuch</div><div class="podM">' +
-        (rj ? rj + (rj === 1 ? ' Wort' : ' Wörter') + ' gelernt' : 'Wörter, die dir begegnen, werden hier gespeichert') +
+        (rj ? (rj === 1 ? T_('%1 Wort gelernt', rj) : T_('%1 Wörter gelernt', rj)) : 'Wörter, die dir begegnen, werden hier gespeichert') +
         '</div></div>' +
       '<div class="malaP" role="button" tabindex="0" data-cilj="view:account">' +
         '<div class="imeM">' + (imaRacun() ? 'Benutzerkonto' : 'Registrieren & Pläne') + '</div>' +
@@ -9789,7 +9826,7 @@
     var pun = (st.naplaceno || 0) >= g.maks;
     var stanje = miniOpisStanja(g);
     return '<div class="miniKart' + (pun ? ' gotovo' : '') + '" onclick="miniDodir(this,\'' + g.id + '\')" ' +
-      'title="' + esc(g.ime) + ' – bis zu ' + g.maks + ' Punkte in jeder Währung">' +
+      'title="' + esc(T_('%1 – bis zu %2 Punkte in jeder Währung', g.ime, g.maks)) + '">' +
       '<span class="sl">' + miniSlikaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
       '<span class="ime">' + esc(g.ime) + '</span>' +
       '<span class="stil">' + esc(g.stil) + '</span>' +
@@ -9976,9 +10013,9 @@
     // Naslov i zbroj bodova idu na dno: stranica pocinje slikama, brojke su za kraj.
     var sazetak = '<h1 class="sekcija">Spiele & Extras ' + IK('igra') + '</h1>' +
       '<div class="miniSaz">' +
-      '<span><strong>' + uk + '</strong> von ' + maks + ' Punkte verdient</span>' +
+      '<span>' + T_('<strong>%1</strong> von %2 Punkte verdient', uk, maks) + '</span>' +
       '<span>·</span><span><strong>' + gotovih + '</strong> ' + T_('von %1 abgeschlossen', sveIgre().length) + '</span>' +
-      '<span>·</span><span>' + T_('jedes Spiel zahlt einmal denselben Betrag in <strong>alle vier Währungen</strong> (LP · VP · GP · PP)') + '</span>' +
+      '<span>·</span><span>' + T_('jedes Spiel zahlt einmal denselben Betrag in <strong>alle vier Währungen</strong> (%1)', VALUTE.map(valutaKratica).join(' · ')) + '</span>' +
       '</div>';
     html += '</div>' + '<div class="miniDno">' + sazetak + '</div>' +
       '<p style="color:var(--muted);font-size:var(--t-s);line-height:1.6;margin-top:16px">' +
@@ -10193,7 +10230,7 @@
           '<iframe id="miniOkno" data-polozeno src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" allow="fullscreen; microphone; clipboard-read; clipboard-write" allowfullscreen></iframe>' +
           '<button class="miniCijeliTipka" id="miniCijeliTipka" onclick="miniCijeliPrebaci()" title="Vollbild" aria-label="Vollbild">⛶</button>' +
         '</div>' +
-        '<button class="miniPoster" onclick="miniCijeliUdi()" aria-label="' + esc(g.ime) + ' im Vollbild spielen">' +
+        '<button class="miniPoster" onclick="miniCijeliUdi()" aria-label="' + esc(T_('%1 im Vollbild spielen', g.ime)) + '">' +
           (g.slika ? '<img src="' + MINI_SLIKE + g.slika + '" alt="">' : '') +
           '<span class="igraj">▶</span>' +
           '<span class="tekst">Im Vollbild spielen · Handy quer halten</span>' +
@@ -10358,7 +10395,7 @@
   }
 
   // kratka imena vrsta za zaglavlje mreže na mobitelu (pet stupaca na 360px)
-  var KRATKO_TIPA = { Lesson: 'Lektion', Vocabulary: 'Wortsch.', Grammar: 'Gram', Practice: 'Prax', Test: 'Test' };
+  var KRATKO_TIPA = { Lesson: T_('Lektion'), Vocabulary: T_('Wortsch.'), Grammar: T_('Gram'), Practice: T_('Prax'), Test: T_('Test') };
 
   function renderLessons() {
     var vv = valute();
@@ -10381,7 +10418,7 @@
       '<div class="mrezaOkvir"><table class="mreza"><thead><tr><th class="razF"></th>';
     TIPOVI.forEach(function (tip) {
       html += '<th class="glavaF" style="color:' + BOJA_TIPA[tip] + '">' +
-        '<span class="dugo">' + deTip(tip) + '</span><span class="kratko">' + KRATKO_TIPA[tip] + '</span></th>';
+        '<span class="dugo">' + tipIme(tip) + '</span><span class="kratko">' + KRATKO_TIPA[tip] + '</span></th>';
     });
     html += '</tr></thead><tbody>';
     var trake = [];   // trake se pune tek nakon umetanja u DOM, da se animiraju
@@ -10409,8 +10446,8 @@
             pct = n / 4;
           }
           trake.push({ id: id, pct: pct, luk: true });
-          html += '<td class="faza zakljucano" title="' + esc(deTip(tip) + ' ' + r + ' – gesperrt') + '">' +
-            '<div class="imeF">' + deTip(tip) + ' ' + r + '</div>' +
+          html += '<td class="faza zakljucano" title="' + esc(tipIme(tip) + ' ' + r + ' – gesperrt') + '">' +
+            '<div class="imeF">' + tipIme(tip) + ' ' + r + '</div>' +
             '<div class="lukOkvir"><svg class="lukZ" viewBox="0 0 36 36" aria-hidden="true">' +
               '<circle class="podloga" cx="18" cy="18" r="15" pathLength="100"/>' +
               '<circle class="puni" id="' + id + '" cx="18" cy="18" r="15" pathLength="100"/></svg>' +
@@ -10424,10 +10461,10 @@
         var trebaPretplatu = r >= 2 && imaPristup(tip, r) === 'needsSubscription';
         var klase = 'faza' + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '');
         trake.push({ id: id, pct: maks > 0 ? Math.min(1, osv / maks) : 0 });
-        html += '<td class="' + klase + '" title="' + esc(deTip(tip) + ' ' + r +
+        html += '<td class="' + klase + '" title="' + esc(tipIme(tip) + ' ' + r +
             (trebaPretplatu ? ' – braucht Croland Plus' : (pun ? ' – abgeschlossen' : ''))) + '" ' +
           'onclick="pregledCjeline(\'' + tip + '\',' + r + ')">' +
-          '<div class="imeF">' + deTip(tip) + ' ' + r + (pun ? ' ✓' : '') + '</div>' +
+          '<div class="imeF">' + tipIme(tip) + ' ' + r + (pun ? ' ✓' : '') + '</div>' +
           '<div class="tr"><i id="' + id + '"></i></div>' +
           (trebaPretplatu ? '<div class="plusF">' + IK('brava', 'uz') + 'Plus</div>' : '') +
           '</td>';
@@ -10453,14 +10490,14 @@
     if (MQ_LESSONS.addEventListener) MQ_LESSONS.addEventListener('change', naPromjenuLessons);
     else if (MQ_LESSONS.addListener) MQ_LESSONS.addListener(naPromjenuLessons);
   }
-  var IME_TIPA_DUGO = { Lesson: 'Lektion', Vocabulary: 'Wortschatz', Grammar: 'Grammatik', Practice: 'Praxis', Test: 'Test' };
+  var IME_TIPA_DUGO = IME_TIPA;
   var ZNAK_TIPA = { Lesson: 'L', Vocabulary: 'V', Grammar: 'G', Practice: 'P', Test: 'T' };
 
   function naslovRazine(r) {
     var g = igreCjeline('Lesson', r)[0];
     var n = g && g.cjelinaNaslov ? String(g.cjelinaNaslov) : '';
     if (n) return n.split(':')[0].trim();
-    var P = window.PREGLEDI && window.PREGLEDI['Lektion ' + r];
+    var P = window.PREGLEDI && window.PREGLEDI[kljucCjeline('Lesson', r)];
     return P ? P.h : ('Level ' + r);
   }
 
@@ -10479,7 +10516,7 @@
         else { var n = 0; TIPOVI.slice(0, 4).forEach(function (t2) { if (otkljucano(t2, r)) n++; }); pct = n / 4; }
         trake.push({ id: id, pct: pct });
       }
-      return '<div class="fazaRed zakljucano" ' + boja + ' title="' + esc(deTip(tip) + ' ' + r + ' – gesperrt') + '">' +
+      return '<div class="fazaRed zakljucano" ' + boja + ' title="' + esc(tipIme(tip) + ' ' + r + ' – gesperrt') + '">' +
         '<span class="fazaZnak">' + IK('brava') + '</span>' +
         '<span class="fazaTekst"><span class="fazaIme">' + IME_TIPA_DUGO[tip] + '</span>' +
           (vidljivPostotak ? '<span class="fazaTr"><i id="' + id + '"></i></span>' : '<span class="fazaPod">Gesperrt</span>') +
@@ -10620,9 +10657,9 @@
     var sloj = document.createElement('div');
     sloj.id = 'pregledSloj';
     sloj.innerHTML =
-      '<div class="pregled" role="dialog" aria-modal="true" aria-label="' + esc(deTip(tip) + ' ' + r) + '" style="--boja:' + BOJA_TIPA[tip] + '">' +
+      '<div class="pregled" role="dialog" aria-modal="true" aria-label="' + esc(tipIme(tip) + ' ' + r) + '" style="--boja:' + BOJA_TIPA[tip] + '">' +
         '<div class="pregledVrh">' +
-          '<div class="pregledRed1"><span class="pregledVrsta"><i></i>' + esc(deTip(tip) + ' ' + r) + '</span>' +
+          '<div class="pregledRed1"><span class="pregledVrsta"><i></i>' + esc(tipIme(tip) + ' ' + r) + '</span>' +
           '<button class="pregledX" aria-label="Schließen">×</button></div>' +
           '<h2>' + esc(P.h) + '</h2>' +
           (cipHtml ? '<div class="pregledCipovi">' + cipHtml + '</div>' : '') +
@@ -10734,7 +10771,7 @@
     var idF = 'vt' + razina + '_fin';
     trake.push({ id: idF, pct: uk > 0 ? Math.min(1, sad / uk) : 0 });
     html += '<button class="vnav vfin' + (indeks >= igre.length ? ' aktivna' : '') +
-      (sviPuni ? ' zavrsena' : '') + '" title="Lektionsübersicht – ' + sad + '/' + uk + ' Pkt." ' +
+      (sviPuni ? ' zavrsena' : '') + '" title="' + esc(T_('Lektionsübersicht – %1/%2 Pkt.', sad, uk)) + '" ' +
       'onclick="idi(\'unit\',\'' + tip + '\',' + razina + ',' + igre.length + ')">' +
       '<span>' + IK('zastava') + '</span><span class="vtr"><i id="' + idF + '"></i></span></button>';
     html += '</div>';
@@ -10793,14 +10830,14 @@
       '<div class="testUvod">' +
       '<h2>Bevor du anfängst</h2>' +
       '<ul>' +
-      '<li><span class="ik">' + IK('popis') + '</span><span><strong>' + igre.length + ' Übungen</strong>, ' + maks + ' Punkte – alles ab Level ' + razina + '.</span></li>' +
-      '<li><span class="ik">' + IK('sat') + '</span><span><strong>' + Math.round(sek / 60) + ' Minuten</strong> für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.</span></li>' +
+      '<li><span class="ik">' + IK('popis') + '</span><span>' + T_('<strong>%1 Übungen</strong>, %2 Punkte – alles ab Level %3.', igre.length, maks, razina) + '</span></li>' +
+      '<li><span class="ik">' + IK('sat') + '</span><span>' + T_('<strong>%1 Minuten</strong> für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.', Math.round(sek / 60)) + '</span></li>' +
       '<li><span class="ik">' + IK('strelica') + '</span><span>Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.</span></li>' +
       '<li><span class="ik">' + IK('zastava') + '</span><span>Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.</span></li>' +
       '<li><span class="ik">' + IK('pauza') + '</span><span>Pausiere, wann du willst. Die Uhr hält mit dir an.</span></li>' +
       '<li><span class="ik">' + IK('knjiga') + '</span><span>Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.</span></li>' +
       '</ul>' +
-      (prije > 0 ? '<div class="testUpozorenje">Dein bisher bestes Ergebnis: <strong>' + prije + '</strong>/' + maks + ' Punkte. Nur ein besseres Ergebnis ersetzt es.</div>' : '') +
+      (prije > 0 ? '<div class="testUpozorenje">' + T_('Dein bisher bestes Ergebnis: <strong>%1</strong>/%2 Punkte. Nur ein besseres Ergebnis ersetzt es.', prije, maks) + '</div>' : '') +
       '<button class="gumb" id="btnTestStart">Test starten →</button>' +
       '<div class="testUpozorenje">Wenn du vor dem Ende gehst, zählt dieser Versuch nicht.</div>' +
       '</div>';
@@ -10909,7 +10946,7 @@
     z.className = 'testZastor'; z.id = 'testZastor';
     z.innerHTML =
       '<div class="naslovP">' + IK('pauza', 'uz') + 'Pausiert</div>' +
-      '<div class="podP">Die Uhr ist angehalten. <strong>' + mmss(TEST.preostalo) + '</strong> übrig, wenn du zurückkommst.</div>' +
+      '<div class="podP">' + T_('Die Uhr ist angehalten. <strong>%1</strong> übrig, wenn du zurückkommst.', mmss(TEST.preostalo)) + '</div>' +
       '<button class="gumb" id="btnTestNastavi">▶ Fortsetzen</button>';
     document.body.appendChild(z);
     $('btnTestNastavi').onclick = testNastavi;
@@ -10936,7 +10973,7 @@
       $('rezNaslov').textContent = zadnja ? 'Wird abgeschlossen …' : 'Nächste Übung →';
       $('rezDetalji').textContent = zadnja
         ? 'Dein Ergebnis wird berechnet.'
-        : 'Übung ' + (T.i + 1) + ' von ' + T.igre.length + ' · dein Ergebnis kommt am Ende';
+        : T_('Übung %1 von %2 · dein Ergebnis kommt am Ende', T.i + 1, T.igre.length);
       rez.style.display = 'block';
       rez.classList.remove('pokazi'); void rez.offsetWidth; rez.classList.add('pokazi');
     }
@@ -10986,12 +11023,12 @@
     var razina = T.razina;
     VIEW.innerHTML =
       '<div class="sazetak">' +
-      '<h2>' + (prosao ? 'Test ' + razina + ' bestanden! 🎉' : 'Test ' + razina + ' – noch nicht 💪') + '</h2>' +
+      '<h2>' + (prosao ? T_('Test %1 bestanden! 🎉', razina) : T_('Test %1 – noch nicht 💪', razina)) + '</h2>' +
       '<div style="color:var(--muted)">' +
         (razlog === 'time' ? 'Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.'
                            : 'Ganzer Test, eine Sitzung. So ist es gelaufen.') + '</div>' +
       '<div class="velikiBroj">' + pct + '%</div>' +
-      '<div style="color:var(--muted)">' + osv + ' / ' + maks + ' Punkte · Bestehensgrenze ' + T.prag + '%</div>' +
+      '<div style="color:var(--muted)">' + T_('%1 / %2 Punkte · Bestehensgrenze %3%', osv, maks, T.prag) + '</div>' +
       '<ul>' + redci + '</ul>' +
       '<div style="color:var(--muted);font-size:var(--t-s)">Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.</div>' +
       '<button class="gumb" id="btnTestOpet">↻ Test wiederholen</button>' +
@@ -11051,7 +11088,7 @@
     gotovo = false; start = Date.now();
     // svaka vježba kreće s čistim brojačem grešaka i bez naslijeđenog oblačića
     gresakaUVjezbi = 0; sakrijSavjetRj();
-    var naslovC = (tip === 'Daily challenge' ? 'Tägliche Challenge' : deTip(tip) + ' ' + razina) +
+    var naslovC = (tip === 'Daily challenge' ? tipIme(tip) : tipIme(tip) + ' ' + razina) +
       (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '');
     // iz Lesson 0 se izlazi na naslovnicu — i pri prvom ulasku
     var jeNula = (tip === L0_TIP && razina === L0_RAZINA);
@@ -11165,8 +11202,8 @@
         htmlSkupljenihSlova() +
         '<div style="color:var(--zelena);margin-top:12px">' + IK('knjiga', 'uz') + 
           (novihRijeci > 0
-            ? 'Alle ' + ukupnoL0 + ' Wörter aus dieser Lektion sind jetzt in deinem <strong>Wörterbuch</strong>.'
-            : 'Alle ' + ukupnoL0 + ' Wörter aus dieser Lektion sind schon in deinem <strong>Wörterbuch</strong>.') +
+            ? T_('Alle %1 Wörter aus dieser Lektion sind jetzt in deinem <strong>Wörterbuch</strong>.', ukupnoL0)
+            : T_('Alle %1 Wörter aus dieser Lektion sind schon in deinem <strong>Wörterbuch</strong>.', ukupnoL0)) +
         '</div>' +
         (sve
           ? '<div style="color:var(--zelena);margin-top:12px">Alle 30 Buchstaben freigeschaltet. <strong>Hvala!</strong></div>'
@@ -11188,11 +11225,12 @@
     var btnNext = '';
     if (sljedeci) {
       if (otkljucano(sljedeci.tip, sljedeci.razina)) {
-        btnNext = '<button class="gumb" onclick="idi(\'unit\',\'' + sljedeci.tip + '\',' + sljedeci.razina + ')">Weiter: ' + deTip(sljedeci.tip) + ' ' + sljedeci.razina + ' →</button>';
+        btnNext = '<button class="gumb" onclick="idi(\'unit\',\'' + sljedeci.tip + '\',' + sljedeci.razina + ')">' + T_('Weiter: %1 →', tipIme(sljedeci.tip) + ' ' + sljedeci.razina) + '</button>';
       } else {
         var val = VALUTA_TIPA[sljedeci.tip];
-        btnNext = '<div style="color:var(--muted);margin-top:12px">' + IK('brava', 'uz') + deTip(sljedeci.tip) + ' ' + sljedeci.razina +
-          (val ? ' – nötig: ' + prag(sljedeci.tip, sljedeci.razina) + ' ' + val : '') + '. Geh zurück und verbessere deine Ergebnisse!</div>';
+        btnNext = '<div style="color:var(--muted);margin-top:12px">' + IK('brava', 'uz') +
+          (val ? T_('%1 – nötig: %2 %3. Geh zurück und verbessere deine Ergebnisse!', tipIme(sljedeci.tip) + ' ' + sljedeci.razina, prag(sljedeci.tip, sljedeci.razina), valutaKratica(val))
+            : T_('%1. Geh zurück und verbessere deine Ergebnisse!', tipIme(sljedeci.tip) + ' ' + sljedeci.razina)) + '</div>';
       }
     }
     // ---- završna stranica lekcije ----
@@ -11200,7 +11238,7 @@
     var ostalo = Math.max(0, maks - osv);
     var sve = (maks > 0 && ostalo === 0);
     var boja = sve ? ' zeleno' : (pct >= 60 ? '' : ' zlato');
-    var naslovC = (tip === 'Daily challenge' ? 'Tägliche Challenge' : deTip(tip) + ' ' + razina) +
+    var naslovC = (tip === 'Daily challenge' ? tipIme(tip) : tipIme(tip) + ' ' + razina) +
       (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '');
     var natragView = (VALUTA_TIPA[tip] || tip === 'Test') ? 'lessons' : 'daily';
     var R = 76, C = 2 * Math.PI * R;
@@ -11222,10 +11260,9 @@
     });
 
     var kutija = sve
-      ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + 'Alles in dieser Einheit gehört dir – alle <strong>' + maks +
-        '</strong> Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.</div>'
-      : '<div class="preostaloBox">' + IK('munja', 'uz') + (ostalo === 1 ? T_('<strong>%1 Punkt</strong> wartet noch in %2', ostalo, deTip(tip) + ' ' + razina)
-          : T_('<strong>%1 Punkte</strong> warten noch in %2', ostalo, deTip(tip) + ' ' + razina)) +
+      ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + T_('Alles in dieser Einheit gehört dir – alle <strong>%1</strong> Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.', maks) + '</div>'
+      : '<div class="preostaloBox">' + IK('munja', 'uz') + (ostalo === 1 ? T_('<strong>%1 Punkt</strong> wartet noch in %2', ostalo, tipIme(tip) + ' ' + razina)
+          : T_('<strong>%1 Punkte</strong> warten noch in %2', ostalo, tipIme(tip) + ' ' + razina)) +
         '. Wiederhole eine beliebige Übung oben – nur dein bester Versuch zählt, ein schwächerer Durchgang kostet dich also nie Punkte.</div>';
 
     VIEW.innerHTML =
@@ -11251,7 +11288,7 @@
       kutija +
       btnNext +
       '<button class="gumb gumbSivi" onclick="idi(\'' + natragView + '\')">‹ Zurück zu ' +
-      (natragView === 'daily' ? 'Tägliche Challenge' : 'Lektionen') + '</button></div>';
+      (natragView === 'daily' ? T_('Tägliche Challenge') : 'Lektionen') + '</button></div>';
 
     animirajTrake(navTrakeCekaju); navTrakeCekaju = null;
 
@@ -11816,7 +11853,7 @@
     if (_sveEnHr) return _sveEnHr;
     var enHr = (window.RJECNIK || {}).enHr || {};
     _sveEnHr = Object.keys(enHr).map(function (k) { return { en: k, hr: enHr[k] }; })
-      .sort(function (a, b) { return a.en.localeCompare(b.en, 'en'); });
+      .sort(function (a, b) { return a.en.localeCompare(b.en, JEZIK_APP); });
     return _sveEnHr;
   }
   function mojeNatukniceEn() {
@@ -11828,7 +11865,7 @@
       if (karta[en].indexOf(hr) < 0) karta[en].push(hr);
     });
     return Object.keys(karta).map(function (k) { return { en: k, hr: karta[k] }; })
-      .sort(function (a, b) { return a.en.localeCompare(b.en, 'en'); });
+      .sort(function (a, b) { return a.en.localeCompare(b.en, JEZIK_APP); });
   }
 
   // ---- Dictionary ----
@@ -12000,7 +12037,7 @@
         slikaUDetalju: dictSmjer === 'hr-en' && dictOpseg === 'moje',
         izvor: false,
         prazno: (dictFav && !filter)
-          ? 'Noch keine Favoriten. Tippe auf ' + IK('zvijezda') + ' neben einem Wort, um es hier zu behalten.'
+          ? T_('Noch keine Favoriten. Tippe auf %1 neben einem Wort, um es hier zu behalten.', IK('zvijezda'))
           : 'Nichts passt zu dieser Suche.'
       });
       abcOsvjezi();
@@ -12028,7 +12065,7 @@
       }
       // Ispod dvadesetak kartica popis stane na dva ekrana — traka bi bila ukras.
       if (kartice.length < 24) { traka.hidden = true; traka.innerHTML = ''; abcRed = []; return; }
-      var jezik = (dictSmjer === 'en-hr') ? 'en' : 'hr';
+      var jezik = (dictSmjer === 'en-hr') ? JEZIK_APP : 'hr';
       abcRed = (dictSmjer === 'en-hr' ? ABC_EN : ABC_HR).slice();
       Object.keys(abcMapa).forEach(function (s) { if (abcRed.indexOf(s) < 0) abcRed.push(s); });
       abcRed.sort(function (a, b) {
@@ -12409,8 +12446,8 @@
       : wtOpseg === 'sve' ? 'Ganzes Wörterbuch'
       : wtOpseg === 'fav' ? 'Favoriten'
       : (wtLekcije.length === 0 ? 'Keine Lektion ausgewählt'
-        : 'Lesson' + (wtLekcije.length > 1 ? 's' : '') + ' ' +
-          wtLekcije.slice().sort(function (a, b) { return a - b; }).join(', '));
+        : (wtLekcije.length > 1 ? T_('Lektionen %1', wtLekcije.slice().sort(function (a, b) { return a - b; }).join(', '))
+          : T_('Lektion %1', wtLekcije.join(', '))));
     el.textContent = opis + ' · ' + wtNiz.length + (wtNiz.length === 1 ? ' Wort' : ' Wörter') +
       (wtVidjeno ? ' · ' + wtTocno + '/' + wtVidjeno + ' bisher richtig' : '');
   }
@@ -12424,7 +12461,7 @@
           ? 'Wähle im Filter mindestens eine Lektion.'
           : 'In den ausgewählten Lektionen gibt es noch keine Wortpaare.')
         : wtOpseg === 'fav'
-          ? 'Noch keine Favoriten – tippe auf ' + IK('zvijezda') + ' neben einem Wort im Wörterbuch oder auf einer Karte.'
+          ? T_('Noch keine Favoriten – tippe auf %1 neben einem Wort im Wörterbuch oder auf einer Karte.', IK('zvijezda'))
         : wtOpseg === 'sve'
           ? 'Die Wörterbuchdatei fehlt – führe osvježi.bat aus, um rjecnik.js zu erzeugen.'
           : 'Dein Wörterbuch ist leer – öffne eine Lektion und füge zuerst Wörter hinzu.') + '</div>';
@@ -12493,12 +12530,13 @@
   function renderDaily() {
     var html = '<h1 class="sekcija">Tägliche Challenge</h1>';
     var n = dailyDanasnji();
-    var igre = n === null ? [] : igreCjeline('Tägliche Challenge', n);
+    var igre = n === null ? [] : igreCjeline('Daily challenge', n);
     var niz = streakNiz(), danasOdradjen = (streakRazmak() === 0);
     html += '<div class="streakK">' +
       '<div class="streakBroj">' + IK('plamen', 'uz') + niz + '</div>' +
       '<div class="streakOpis"><strong>Tage in Folge</strong>' +
-      '<div>' + streakBodovi() + ' Serienpunkte erreicht · zählen für LP, VP, GP und PP</div>' +
+      '<div>' + T_('%1 Serienpunkte erreicht · zählen für %2, %3, %4 und %5', streakBodovi(),
+        valutaKratica('LP'), valutaKratica('VP'), valutaKratica('GP'), valutaKratica('PP')) + '</div>' +
       '<div>' + (danasOdradjen
         ? 'Für heute fertig – komm morgen wieder und mach daraus ' + (niz + 1) + '.'
         : 'Spiel die heutige Challenge für +' + streakSljedeciBodovi() + ' Punkte' +
@@ -12642,7 +12680,7 @@
       var val = VALUTA_TIPA[tip], sp = sljedeciPrag(tip), ima = v[val];
       var pct = sp ? (sp.prag > 0 ? Math.min(1, ima / sp.prag) : 1) : 1;
       var doKud = sp
-        ? '<b>' + Math.max(0, sp.prag - ima) + '</b> noch bis ' + deTip(tip) + ' ' + sp.razina
+        ? T_('<b>%1</b> noch bis %2', Math.max(0, sp.prag - ima), tipIme(tip) + ' ' + sp.razina)
         : 'jedes Level offen';
       var id = 'pv_' + tip;
       trake.push({ id: id, pct: pct });
@@ -12674,7 +12712,7 @@
         'siehst du, welche einzelne Übung noch Punkte hält, und springst direkt wieder hinein.</p>' +
       '<div class="progMrezaOkvir"><div class="progMreza"><div class="progKut"></div>';
     TIPOVI.forEach(function (t) {
-      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + deTip(t) + '</div>';
+      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + tipIme(t) + '</div>';
     });
     var progPrvaZ = prvaZakljucanaRazina();
     var progGranica = progSveRazine ? MAX_RAZINA : Math.min(MAX_RAZINA, progPrvaZ + 3);
@@ -12690,7 +12728,7 @@
         var boja = BOJA_TIPA[tip];
         if (!otkljucano(tip, r)) {
           var val2 = VALUTA_TIPA[tip], p = prag(tip, r);
-          var opis = val2 ? (v[val2] + ' / ' + p + ' ' + val2) : 'braucht alle vier Arten auf Level ' + r;
+          var opis = val2 ? (v[val2] + ' / ' + p + ' ' + valutaKratica(val2)) : 'braucht alle vier Arten auf Level ' + r;
           h += '<div class="progCelija zakljucana" style="--boja:' + boja + '" ' +
             'title="' + T_('Gesperrt – %1', esc(opis)) + '">' +
             '<div class="pct">' + T_('gesperrt') + '</div><div class="odn">' + esc(opis) + '</div></div>';
@@ -12701,7 +12739,7 @@
             (PROG_LADICA === tip + ' ' + r ? ' odabrana' : '');
           var nas = progNaslovCjeline(tip, r);
           h += '<div class="' + kl + '" style="--boja:' + boja + '" data-pcjelina="' + esc(tip + '|' + r) + '" ' +
-            'title="' + esc(deTip(tip) + ' ' + r + (nas ? ' — ' + nas : '')) + '">' +
+            'title="' + esc(tipIme(tip) + ' ' + r + (nas ? ' — ' + nas : '')) + '">' +
             (pct >= 100 ? '<span class="kvaka">' + IK('kvaka') + '</span>' : '') +
             '<div><div class="pct">' + pct + '%</div>' +
             '<div class="odn">' + osv + ' / ' + maks + '</div></div>' +
@@ -12711,9 +12749,8 @@
     }
     h += '</div></div>';
     if (progGranica < MAX_RAZINA) {
-      h += '<button class="viseRazina" onclick="prekloputiProgRazine()">Alle anzeigen ' + MAX_RAZINA +
-        ' Level ▾ <span style="opacity:.7">(' + (MAX_RAZINA - progGranica) +
-        ' weitere, noch gesperrt)</span></button>';
+      h += '<button class="viseRazina" onclick="prekloputiProgRazine()">' +
+        T_('Alle %1 Level anzeigen ▾ <span style="opacity:.7">(%2 weitere, noch gesperrt)</span>', MAX_RAZINA, MAX_RAZINA - progGranica) + '</button>';
     } else if (progSveRazine && MAX_RAZINA > progPrvaZ + 3) {
       h += '<button class="viseRazina" onclick="prekloputiProgRazine()">Weniger anzeigen ▴</button>';
     }
@@ -12737,8 +12774,8 @@
       trake.push({ id: 'pv_cijeli', pct: Math.min(1, cijeliOsv / cijeliMaks) });
       h += '<div class="progCijeli"><div class="red"><span>Der ganze Kurs</span><b>' + cijeliTxt + '</b></div>' +
         '<div class="progStaza"><i id="pv_cijeli"></i></div>' +
-        '<div class="pod">' + broj(cijeliOsv) + ' von ' + broj(cijeliMaks) + ' Punkte aus allen Einheiten der ' +
-          MAX_RAZINA + ' Level (Minispiele und Challenges nicht mitgerechnet)</div>' +
+        '<div class="pod">' + T_('%1 von %2 Punkte aus allen Einheiten der %3 Level (Minispiele und Challenges nicht mitgerechnet)',
+          broj(cijeliOsv), broj(cijeliMaks), MAX_RAZINA) + '</div>' +
         // Svi bodovi zajedno = zbroj četiri valute, isto kao "ukupno" u tabu Friends & groups.
         '<div class="pod">Alle deine Punkte zusammen: <b style="color:var(--ink)">' +
           broj(v.LP + v.VP + v.GP + v.PP) + '</b> – Einheiten, Spiele, Challenges und Serie</div></div>';
@@ -12752,9 +12789,9 @@
           'zählt, also kann Wiederholen Punkte bringen, aber nie welche kosten.</p>' +
         '<ul class="progPopravi">' + popravi.map(function (x) {
           return '<li style="--boja:' + BOJA_TIPA[x.tip] + '" data-pvjezba="' + esc(x.k) + '">' +
-            '<span class="gdje">' + esc(deCjelina(x.cjelina)) + '</span>' +
+            '<span class="gdje">' + esc(cjelinaIme(x.cjelina)) + '</span>' +
             '<span class="sto">' + esc(x.ime) +
-              '<small>' + (x.o === 0 ? 'nie gespielt' : 'Bestwert bisher: ' + x.o + ' von ' + x.m) + '</small></span>' +
+              '<small>' + (x.o === 0 ? 'nie gespielt' : T_('Bestwert bisher: %1 von %2', x.o, x.m)) + '</small></span>' +
             '<span class="koliko">+' + x.ost + '<small>Punkte warten</small></span></li>';
         }).join('') + '</ul>';
     }
@@ -12764,16 +12801,14 @@
     if (dani.length) {
       var dOdr = 0, dDio = 0, tock = '';
       dani.forEach(function (n) {
-        var m = maksCjeline('Tägliche Challenge', n), o = progOsv('Tägliche Challenge', n);
+        var m = maksCjeline('Daily challenge', n), o = progOsv('Daily challenge', n);
         var kls = o <= 0 ? '' : (m > 0 && o >= m ? 'd' : 'p');
         if (m > 0 && o >= m) dOdr++; else if (o > 0) dDio++;
-        tock += '<i class="' + kls + '" data-pdaily="' + n + '" title="Tag ' + n + ' – ' + o + '/' + m + '"></i>';
+        tock += '<i class="' + kls + '" data-pdaily="' + n + '" title="' + esc(T_('Tag %1 – %2/%3', n, o, m)) + '"></i>';
       });
       h += '<h2 class="progNas">Tägliche Challenges</h2>' +
-        '<p class="progOpis">' + dOdr + ' abgeschlossen, ' + dDio + ' teilweise erledigt, ' +
-          (dani.length - dOdr - dDio) + ' unberührt. Aktuelle Serie: ' + (st.niz || 0) + ' Tage – ' +
-          'Tag ' + ((st.niz || 0) + 1) + ' bringt ' + ((st.niz || 0) + 1) +
-          ' Punkte in jeder Währung.</p>' +
+        '<p class="progOpis">' + T_('%1 abgeschlossen, %2 teilweise erledigt, %3 unberührt. Aktuelle Serie: %4 Tage – Tag %5 bringt %5 Punkte in jeder Währung.',
+          dOdr, dDio, dani.length - dOdr - dDio, st.niz || 0, (st.niz || 0) + 1) + '</p>' +
         '<div class="progPloca"><div class="progTockice">' + tock + '</div></div>';
     }
 
@@ -12782,7 +12817,7 @@
     sveIgre().forEach(function (g) {
       var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks), pun = o >= g.maks;
       mh += '<div class="progMiniR' + (o ? (pun ? ' pun' : '') : ' nula') + '" data-pmini="' + g.id + '" ' +
-        'title="' + esc(g.ime) + ' öffnen"><div class="e">' + g.emo + '</div>' +
+        'title="' + esc(T_('%1 öffnen', g.ime)) + '"><div class="e">' + g.emo + '</div>' +
         '<div class="n">' + esc(g.ime) + '<small>' + esc(g.stil) + '</small></div>' +
         '<div class="p">' + o + '<small>/' + g.maks + '</small></div></div>';
     });
@@ -12869,16 +12904,16 @@
     cilj.innerHTML =
       '<div class="progLadica" style="--boja:' + boja + '">' +
         '<div class="progLadicaGlava">' +
-          '<span class="znak">' + esc(tip) + ' ' + razina + '</span>' +
-          '<h3>' + esc(nas || (deTip(tip) + ' ' + razina)) + '</h3>' +
+          '<span class="znak">' + esc(tipIme(tip)) + ' ' + razina + '</span>' +
+          '<h3>' + esc(nas || (tipIme(tip) + ' ' + razina)) + '</h3>' +
           '<span class="rez">' + osv + ' <small>/ ' + maks + ' pts · ' + pct + '%</small></span>' +
           '<button class="x" id="progLadicaX" title="Schließen">✕</button>' +
         '</div>' +
         '<ul class="progVjezbe">' + redci + '</ul>' +
         '<div class="progLadicaPod">' +
           (preostalo > 0
-            ? '<span><b>' + preostalo + ' Punkte</b> warten noch in dieser Einheit.</span>'
-            : '<span>Alles hier gehört dir – alle <b>' + maks + '</b> Punkte verdient.</span>') +
+            ? '<span>' + T_('<b>%1 Punkte</b> warten noch in dieser Einheit.', preostalo) + '</span>'
+            : '<span>' + T_('Alles hier gehört dir – alle <b>%1</b> Punkte verdient.', maks) + '</span>') +
           '<span style="margin-left:auto">Klick auf eine Übung, um sie zu wiederholen.</span>' +
         '</div>' +
       '</div>';
@@ -12928,13 +12963,11 @@
     if (!meta) return;
     var o = najbolji(meta), m = meta.bodovi || 0;
     progPotvrda('Diese Übung öffnen?',
-      '<b>' + esc(deTip(meta.tip) + ' ' + meta.razina) + '</b> · ' + esc((meta.stranica ? meta.stranica + '. ' : '') +
+      '<b>' + esc(tipIme(meta.tip) + ' ' + meta.razina) + '</b> · ' + esc((meta.stranica ? meta.stranica + '. ' : '') +
         (meta.naslov || '')),
       o === 0
-        ? 'Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle ' +
-          m + ' Punkte sind noch da.'
-        : 'Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (' + o + ' von ' + m +
-          ') bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.',
+        ? T_('Du verlässt den Fortschritt und gehst direkt in die Übung. Du hast sie noch nicht gespielt – alle %1 Punkte sind noch da.', m)
+        : T_('Du verlässt den Fortschritt und gehst direkt in die Übung. Dein bestes Ergebnis (%1 von %2) bleibt erhalten: Ein schwächerer Durchgang kann dich nie Punkte kosten.', o, m),
       'Übung öffnen',
       function () { idi('unit', meta.tip, meta.razina, Math.max(0, indeks)); });
   }
@@ -12944,12 +12977,10 @@
     if (!g) return;
     var o = Math.min(miniStanje(g.id).naplaceno || 0, g.maks);
     var tekst = o >= g.maks
-      ? 'Du hast bereits alle ' + g.maks + ' Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also ' +
-        'ist erneutes Spielen reiner Spaß.'
+      ? T_('Du hast bereits alle %1 Punkte aus dieser Übung erreicht. Die Auszahlung passiert einmal, also ist erneutes Spielen reiner Spaß.', g.maks)
       : (o > 0
-          ? 'Du hast hier ' + o + ' von ' + g.maks + ' Punkte erreicht. Der Rest wartet noch, und Punkte, die ' +
-            'du schon hast, können nicht verloren gehen.'
-          : 'Alle ' + g.maks + ' Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.');
+          ? T_('Du hast hier %1 von %2 Punkte erreicht. Der Rest wartet noch, und Punkte, die du schon hast, können nicht verloren gehen.', o, g.maks)
+          : T_('Alle %1 Punkte sind noch da. Sie gehen gleichzeitig in jede Währung.', g.maks));
     progPotvrda('Dieses Spiel öffnen?',
       g.emo + ' <b>' + esc(g.ime) + '</b> · ' + esc(g.stil), tekst,
       'Öffnen: ' + g.ime, function () { idi('miniIgra', g.id); });
@@ -13063,7 +13094,7 @@
              progres_javan: javan, zadnja_aktivnost: new Date().toISOString() } });
       redci.sort(function (a, b) { return b.uk - a.uk; });
       h += '<table class="progLjudi"><thead><tr><th>Wer</th>' +
-        '<th>LP</th><th>VP</th><th>GP</th><th>PP</th><th>Gesamt</th><th>Teilt</th><th>Aktualisiert</th>' +
+        VALUTE.map(function (k) { return '<th>' + valutaKratica(k) + '</th>'; }).join('') + '<th>Gesamt</th><th>Teilt</th><th>Aktualisiert</th>' +
         '</tr></thead><tbody>';
       redci.forEach(function (x) {
         var p = x.p, otvoren = !!p.progres_javan;
@@ -13143,7 +13174,7 @@
         if (res.error) { $('progUnosPoruka').textContent = 'Senden fehlgeschlagen – versuch es später noch einmal.'; return; }
         if (res.data === 'nema') { $('progUnosPoruka').textContent = 'Niemand hat diese ID.'; return; }
         if (res.data === 'to si ti') { $('progUnosPoruka').textContent = 'Das ist deine eigene ID.'; return; }
-        DRUSTVO.poruka = 'Anfrage gesendet an ' + kod + '. Die Person sieht nur den Namen, den du gewählt hast.';
+        DRUSTVO.poruka = T_('Anfrage gesendet an %1. Die Person sieht nur den Namen, den du gewählt hast.', kod);
         DRUSTVO.stanje = 'ne';
         renderProgress();
       });
@@ -13194,7 +13225,7 @@
     var saz = osoba.sazetak || {}, trake = [];
     var h = '<div class="progMrezaOkvir"><div class="progMreza"><div class="progKut"></div>';
     TIPOVI.forEach(function (t) {
-      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + deTip(t) + '</div>';
+      h += '<div class="progGlava" style="color:' + BOJA_TIPA[t] + '">' + tipIme(t) + '</div>';
     });
     for (var r = 1; r <= MAX_RAZINA; r++) {
       var imaIsta = false;
@@ -13479,10 +13510,8 @@
     var p = accPretplata();
     var html;
     var odKoga = r.od_koga
-      ? '<p class="accSitno">Dieser Code ist von <b>' + esc(r.od_koga) + '</b>. Diese Person sieht deinen Anzeigenamen und deine Punkte – ' +
-        'du kannst das jederzeit in den Kontoeinstellungen ausblenden.</p>' +
-        '<label class="accKvacica"><input type="checkbox" id="accVise"> Auch ' + esc(r.od_koga) +
-        ' meine Lektionen und Aktivitätsdaten sehen lassen</label>'
+      ? '<p class="accSitno">' + T_('Dieser Code ist von <b>%1</b>. Diese Person sieht deinen Anzeigenamen und deine Punkte – du kannst das jederzeit in den Kontoeinstellungen ausblenden.', esc(r.od_koga)) + '</p>' +
+        '<label class="accKvacica"><input type="checkbox" id="accVise"> ' + T_('Auch %1 meine Lektionen und Aktivitätsdaten sehen lassen', esc(r.od_koga)) + '</label>'
       : '';
     if (p && p.auto_obnova && p.status !== 'paused' && p.vrijedi_do) {
       var stara = new Date(p.vrijedi_do), nova = accDodaj(stara, r.vrsta);
@@ -13955,8 +13984,7 @@
       this.disabled = true;
       supa.auth.updateUser({ email: e }, { emailRedirectTo: POVRATAK_PRIJAVE }).then(function (res) {
         if (res.error) { por.textContent = res.error.message || 'Die E-Mail-Adresse konnte nicht geändert werden.'; $('accEmailDa').disabled = false; return; }
-        m.el.innerHTML = '<h2>Schau in dein Postfach</h2><p class="otkljPod">Klicke auf den Link, den wir an <b>' + esc(e) +
-          '</b> geschickt haben (und, falls verlangt, auf den an deine bisherige Adresse), um die Änderung abzuschließen.</p>' +
+        m.el.innerHTML = '<h2>Schau in dein Postfach</h2><p class="otkljPod">' + T_('Klicke auf den Link, den wir an <b>%1</b> geschickt haben (und, falls verlangt, auf den an deine bisherige Adresse), um die Änderung abzuschließen.', esc(e)) + '</p>' +
           '<div class="accGumbi"><button class="gumb" id="accOk">OK</button></div>';
         $('accOk').onclick = m.zatvori;
       });

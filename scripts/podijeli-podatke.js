@@ -40,6 +40,7 @@ function kostur(igra) {
     stranica: igra.stranica,
     format: igra.format,
     naslov: igra.naslov,
+    kljuc: igra.kljuc,   // kljuc napretka (engleski naslov) u verzijama na drugim jezicima; u engleskoj ga nema
     bodovi: igra.bodovi,
     stavke: [],
     zakljucano: true,

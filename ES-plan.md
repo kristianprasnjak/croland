@@ -13,6 +13,9 @@ Napisano 05.10.2026. Brief za sesije koje rade španjolsku verziju. Prije počet
 | alati | **poopćiti** postojeće DE alate u jedan skup s parametrom jezika (faza 0), ne kopirati |
 | tko radi | svaku sesiju (prijevod, recenziju, build) radi **Opus 5.5**; nijedan korak se ne prepušta slabijem modelu |
 | standard | „besprijekorno“: svaki string prolazi prijevod, automatske provjere i neovisnu recenziju (vidi §6) |
+| valute | **kratice na jeziku stranice**: interni ključevi ostaju LP/VP/GP/PP (napredak, javni_bodovi), a prikaz ide kroz `valutaKratica()` i redove `LP`, `VP`, `GP`, `PP` u `sucelje-XX.tsv`. DE: LP · **WP** · GP · PP (od 05.10.2026.). ES: **PL · PV · PG · PP** (*puntos de lección / vocabulario / gramática / práctica*) |
+| Daily challenge | **Desafío diario** (množina *Desafíos diarios*); Weekly challenge → *Desafío semanal* |
+| streak | **racha** (*racha de 5 días*, *puntos de racha*) |
 
 **Načelo:** sve što korisnik čita ili s čime komunicira je na španjolskom (sučelje, objašnjenja,
 upute, AI pomoć, naplata, e-mailovi); jedino što je hrvatsko je ono što se uči. Isto načelo vrijedi
@@ -69,6 +72,72 @@ Sve što build danas krpa regexom prebaciti u sam original, tako da engleski izg
 - DE build prije i poslije: `index-de.html` daje iste prikazane tekstove (razlike samo tamo gdje su fragmenti postali cijele rečenice, i te razlike ručno pregledati).
 - Ručno u pregledniku: EN i DE — naslovnica, lekcija, rječnik, napredak, račun, promjena jezika.
 
+### 2d. Stanje faze 0 — GOTOVO (05.10.2026.)
+
+**Alati (2a).** `croland-jezici/` postoji: `jezici.json` (de aktivan, es upisan, neaktivan), `alati/` s
+`izvuci.py, primijeni.py, provjeri.py, posao.py, izvuci-sucelje.py, izgradi-sucelje.py, spoji-rjecnik.py,
+osvjezi-jezik.js, izgradi-jezike.py, novi-jezik.py, jezici_lib.py, _alati/` — sve s `--jezik de|es`, stupac u
+memorijama je kod jezika. Skripte u `croland-de/` su tanki omotači (stare naredbe rade). `objavi.bat` korak 1b
+zove `izgradi-jezike.py` (gradi sve aktivne jezike). Upute: `croland-jezici/PROCITAJ-ME.md`.
+Usput: `izvuci.py` je bio nedeterministički kod izjednačenog glasanja hr/en (ovisio o `PYTHONHASHSEED`); sad
+izjednačeno = en. Za DE to mijenja 2 retka memorije (`strip`, `popis`, oba `=`), lekcije su bajt po bajt iste.
+
+**Kostur ES** (`novi-jezik.py --jezik es`): `croland-es/` s `iznimke.tsv` (kopija DE), praznim
+`prijevod-es.tsv` (11 685 stringova), `sucelje-es.tsv` (1 936), `pregledi-es.tsv` (588), `segmenti.tsv`.
+Ništa nije prevedeno. Suhi prolaz ES (primijeni, provjeri, build) radi: 0 grešaka strukture, build bez prijevoda
+daje `index-es.html` = `index.html` (samo jezik i datoteke) — taj izlaz nije spremljen.
+
+**i18n kuke (2b)** u `index.html` — build više ne krpa kod (nestali `ZAKRPE`, `deTip/deCjelina`, `MNOZINA`, `KRATKO`):
+1. registar: `JEZIK_APP` čita `JEZIK_STRANICE` iz `<head>`; build mijenja samo taj redak, `<html lang>` i
+   `<script src>`; `data-plus-XX.json` iz `JEZIK_APP`;
+2. `tipIme()`, `cjelinaIme()`, `kljucCjeline()` i `IME_TIPA` (vrijednosti kroz `T_`); riječi-ključevi (`Daily
+   challenge`, `Lesson`…) prevode se samo unutar `T_( )`;
+3. množina: oba oblika kao cijeli `T_` (umjesto `mn()`; isto rješenje, bez posebnih pravila u kodu);
+4. ~80 rečenica s brojem/imenom u sredini → cijeli `T_('…%1…')`. Nakon toga detektor lanaca `+` nalazi još samo
+   natpise oblika „broj + riječ“ (*8 short ones*, *400 streak points*) i oznaku + vrijednost u zasebnim elementima,
+   što je za ES isti red riječi; ako ih recenzija faze 2 nađe nespretnima, prebacuju se istim postupkom;
+5. HTML atributi u JS-u (`aria-label`, `title`, `placeholder`) kao cijeli `T_`, `data-kratko` kao atribut;
+6. sortiranje `localeCompare(…, JEZIK_APP)` (rječnik EN→XX i traka slova);
+7. gumb prijevoda = `JEZIK_APP.toUpperCase()`.
+
+**Regresijski test (2c)** — `croland-jezici/test/`, rezultat u `test/faza0/rezultat-testa.txt`:
+- Preglednik (Playwright, lažni Supabase: prvo otvaranje, gost, prijavljen s pretplatom i napretkom; 124 ekrana:
+  naslovnica, lekcije, pregledi cjelina, vježbe 8 cjelina svih formata, uvod testa, rječnik, test riječi, igre,
+  daily, napredak, račun, opcije, mobitel, promjena jezika EN↔DE). Svaka verzija 2×, šum (animirani brojači) izdvojen.
+  **EN: 0 razlika** u tekstu i atributima. **DE: samo namjerni ispravci** (vidi niže).
+- Izrazi: svaka od 92 pretvorbe izvršena staro/novo s istim vrijednostima (N = 1 i 3): **EN 182/182 isto**;
+  DE razlike samo na namjernim ispravcima. Pokriva i ekrane do kojih test ne dolazi (kraj igre, kraj testa, AI pomoć,
+  račun/kodovi, promjena e-maila).
+- acorn: JS u `index.html`, `index-de.html`, `pregledi-de.js` se parsira (build to sad provjerava sam i staje).
+- Lekcije: `croland-de/igre/*.md` i igre u `data-de.js` bajt po bajt iste; `rjecnik-de.js`, `prijevodi-de.jsonl`,
+  `rjecnik-de-hr.jsonl`, `pregledi-de.js` (sadržaj) isti; `provjeri.py --jezik de`: 0 grešaka; DE 16 914/16 914.
+
+DE razlike (sve su ispravci starih grešaka zakrpa, pregledane ručno):
+- „Tippe bei einem kroatischen Wort auf 🔊 neben dem Wort …“ → „Tippe auf 🔊 neben dem Wort …“ (dio `Tap ` bio je
+  dijeljen između dvije rečenice);
+- „Alle anzeigen 20 Level ▾“ → „Alle 20 Level anzeigen ▾“;
+- `<strong>dictionary</strong>` u 7 savjeta o rječniku → `<strong>Wörterbuch</strong>`;
+- „Lesson 4“ / „Lessons 2, 5“ u testu riječi i „Lesson 3“ u ladici napretka → „Lektion …“;
+- „Daily challenge 12“ u „gdje“ popisu napretka → „Tägliche Challenge 12“;
+- točkice dnevnih izazova u napretku „Tag 5 – 0/0“ → „0/55“: stari build je ključ `'Daily challenge'` prevodio
+  i u kodu (`igreCjeline/maksCjeline/progOsv('Tägliche Challenge')`), pa DE nije nalazio dnevne vježbe;
+- `title` „ 3 Wörter ins Wörterbuch aufnehmen“ bez razmaka na početku; rezervni ključ `PREGLEDI['Lektion 3']` → `'Lesson 3'`.
+
+**Ključ napretka — riješeno 05.10.2026. (dodatak fazi 0).** Napredak vježbe sprema se pod
+`cjelina|stranica|naslov`, a `naslov` je bio preveden (u DE različit za 1 557 od 1 613 vježbi), pa je korisnik
+nakon promjene jezika vidio vježbe kao neodigrane (u testu: 76 odigranih → 3). Sada je ključ uvijek **engleski
+naslov**: to je ključ pod kojim je već spremljen napredak svih engleskih korisnika, pa za njih nema nikakve
+migracije (brojevi bi tražili prepisivanje svih računa i mijenjali bi se pri svakom umetanju vježbe; hrvatskih
+naslova nema). `osvjezi-jezik.js` svakoj vježbi u `data-XX.js` upiše `kljuc` = engleski naslov (sparuje po redu iz
+istog izvora i staje ako se cjelina, stranica ili format ne poklope), `kostur()` u `scripts/podijeli-podatke.js` ga
+zadržava, a `kljucIgre()` u `index.html` ga koristi. `migrirajKljuceVjezbi()` jednom prepiše bodove spremljene pod
+njemačkim naslovom (vrijedi bolji rezultat). Test: EN → DE i DE → EN daju iste brojke u napretku; EN prikaz i
+engleska podjela javno/plaćeno nepromijenjeni. Razgovori s AI pomoći ostaju vezani uz naslov na jeziku stranice
+(razgovor je ionako na tom jeziku).
+
+§7: točka 1 (AI pomoć po jeziku, `jezik: JEZIK_APP` + upute za en/de/es u `pomoc/index.ts`), 2 (Paddle
+`locale: JEZIK_APP`) i 5 (rječnik po jeziku, `prijevodZapisa`) već su bile napravljene prije faze 0; provjereno u kodu.
+
 ## 3. Pravila španjolskog (stil)
 
 **Obraćanje i oblici**
@@ -115,7 +184,7 @@ Sve što build danas krpa regexom prebaciti u sam original, tako da engleski izg
 - [ ] `scripts/build.js`: `FILES` + `podijeliIProvjeri('data-es.js', 'data-es.js', 'data-plus-es.json')`.
 - [ ] `uploadaj-sadrzaj.js`: `data-plus-es.json` na zadani popis.
 - [ ] Edge Function `sadrzaj`: dopustiti `data-plus-es.json` i redeployati (lokalni `index.ts` isto).
-- [ ] `objavi.bat` korak 1b: gradi sve jezike iz `jezici.json` (ne samo DE).
+- [x] `objavi.bat` korak 1b: gradi sve jezike iz `jezici.json` (ne samo DE) — faza 0, `izgradi-jezike.py`.
 - [ ] GitHub Actions: commitane ES datoteke moraju biti u repozitoriju.
 - [ ] Redirect URLs u Supabaseu već imaju `**`, pa pokrivaju `index-es.html` — samo provjeriti.
 
@@ -123,7 +192,7 @@ Sve što build danas krpa regexom prebaciti u sam original, tako da engleski izg
 
 | faza | posao | izlaz |
 |---|---|---|
-| 0 | poopćenje alata + i18n kuke + regresijski test | DE build radi preko novih alata, EN nepromijenjen |
+| 0 | poopćenje alata + i18n kuke + regresijski test | DE build radi preko novih alata, EN nepromijenjen — **gotovo 05.10.2026.** (§2d) |
 | 1 | `glosar-es.tsv`: ključni pojmovi (Lesson, Practice, streak, points, nazivi padeža, gramatički termini, nazivi mini-igara) + popis zabranjenih španjolskih regionalizama | glosar koji poštuju sve iduće sesije |
 | 2 | sučelje (`sucelje-es.tsv`) + pravni/računski tekstovi u sučelju | `index-es.html` koji se može otvoriti |
 | 3 | rječnik 2 401 lema (`croland-es/rjecnik/es-*.tsv`) | `prijevodi-es.jsonl`, `rjecnik-es-hr.jsonl` |
@@ -132,6 +201,7 @@ Sve što build danas krpa regexom prebaciti u sam original, tako da engleski izg
 | 6 | završna QA (§6) i ispravci | izvještaj `croland-es/IZVJESTAJ.md` |
 | 7 | build, lokalna proba, objava | ES uživo |
 
+**Radne upute i promptovi za sesije: `UPUTE-prijevod-es.md`; stanje: `croland-es/STANJE.md`.**
 Postupak jednog kruga u fazi 4 isti je kao u `UPUTE-prijevod-de.md` (`posao.py dump/upis`, `primijeni`, `provjeri`), samo s `--jezik es`.
 Razina se ne smatra gotovom dok ne prođe recenziju (§6b).
 

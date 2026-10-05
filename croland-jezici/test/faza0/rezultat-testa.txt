@@ -1,0 +1,208 @@
+===== EN: index.html prije -> poslije (124 ekrana, 2 prolaza svake verzije)
+
+[plus | progress]
+   tekst - 17980
+   tekst - 18670
+   tekst - 34302
+
+koraka: 124 | koraka s razlikom (bez suma): 1
+
+===== DE: index-de.html prije -> poslije
+
+[plus | progress]
+   atr   - title=Tag 1 – 0/0
+   atr   - title=Tag 10 – 0/0
+   atr   - title=Tag 11 – 0/0
+   atr   - title=Tag 12 – 0/0
+   atr   - title=Tag 13 – 0/0
+   atr   - title=Tag 14 – 0/0
+   atr   - title=Tag 15 – 0/0
+   atr   - title=Tag 16 – 0/0
+   atr   - title=Tag 17 – 0/0
+   atr   - title=Tag 18 – 0/0
+   atr   - title=Tag 19 – 0/0
+   atr   - title=Tag 2 – 0/0
+   atr   - title=Tag 20 – 0/0
+   atr   - title=Tag 21 – 0/0
+   atr   - title=Tag 22 – 0/0
+   atr   - title=Tag 23 – 0/0
+   atr   - title=Tag 24 – 0/0
+   atr   - title=Tag 25 – 0/0
+   atr   - title=Tag 26 – 0/0
+   atr   - title=Tag 27 – 0/0
+   atr   - title=Tag 28 – 0/0
+   atr   - title=Tag 29 – 0/0
+   atr   - title=Tag 3 – 0/0
+   atr   - title=Tag 30 – 0/0
+   atr   - title=Tag 31 – 0/0
+   atr   - title=Tag 32 – 0/0
+   atr   - title=Tag 33 – 0/0
+   atr   - title=Tag 34 – 0/0
+   atr   - title=Tag 35 – 0/0
+   atr   - title=Tag 36 – 0/0
+   atr   - title=Tag 37 – 0/0
+   atr   - title=Tag 38 – 0/0
+   atr   - title=Tag 39 – 0/0
+   atr   - title=Tag 4 – 0/0
+   atr   - title=Tag 40 – 0/0
+   atr   - title=Tag 41 – 0/0
+   atr   - title=Tag 42 – 0/0
+   atr   - title=Tag 43 – 0/0
+   atr   - title=Tag 5 – 0/0
+   atr   - title=Tag 6 – 0/0
+   atr   - title=Tag 7 – 0/0
+   atr   - title=Tag 8 – 0/0
+   atr   - title=Tag 9 – 0/0
+   atr   + title=Tag 1 – 0/55
+   atr   + title=Tag 10 – 0/56
+   atr   + title=Tag 11 – 0/54
+   atr   + title=Tag 12 – 0/54
+   atr   + title=Tag 13 – 0/55
+   atr   + title=Tag 14 – 0/54
+   atr   + title=Tag 15 – 0/55
+   atr   + title=Tag 16 – 0/52
+   atr   + title=Tag 17 – 0/56
+   atr   + title=Tag 18 – 0/72
+   atr   + title=Tag 19 – 0/55
+   atr   + title=Tag 2 – 0/55
+   atr   + title=Tag 20 – 0/55
+   atr   + title=Tag 21 – 0/60
+   atr   + title=Tag 22 – 0/57
+   atr   + title=Tag 23 – 0/55
+   atr   + title=Tag 24 – 0/57
+   atr   + title=Tag 25 – 0/55
+   atr   + title=Tag 26 – 0/55
+   atr   + title=Tag 27 – 0/54
+   atr   + title=Tag 28 – 0/55
+   atr   + title=Tag 29 – 0/60
+   atr   + title=Tag 3 – 0/53
+   atr   + title=Tag 30 – 0/54
+   atr   + title=Tag 31 – 0/56
+   atr   + title=Tag 32 – 0/54
+   atr   + title=Tag 33 – 0/72
+   atr   + title=Tag 34 – 0/55
+   atr   + title=Tag 35 – 0/56
+   atr   + title=Tag 36 – 0/54
+   atr   + title=Tag 37 – 0/57
+   atr   + title=Tag 38 – 0/55
+   atr   + title=Tag 39 – 0/55
+   atr   + title=Tag 4 – 0/54
+   atr   + title=Tag 40 – 0/57
+   atr   + title=Tag 41 – 0/56
+   atr   + title=Tag 42 – 0/56
+   atr   + title=Tag 43 – 0/72
+   atr   + title=Tag 5 – 0/57
+   atr   + title=Tag 6 – 0/55
+   atr   + title=Tag 7 – 0/57
+   atr   + title=Tag 8 – 0/53
+   atr   + title=Tag 9 – 0/55
+   tekst - Alle anzeigen 20 Level ▾ (8 weitere, noch gesperrt)
+   tekst + 15542
+   tekst + 18726
+   tekst + 19444
+   tekst + Alle 20 Level anzeigen ▾ (8 weitere, noch gesperrt)
+
+[plus | Lesson 1 #1]
+   tekst - Tippe bei einem kroatischen Wort auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+   tekst + Tippe auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+
+[plus | Vocabulary 2 #5]
+   tekst - Tippe bei einem kroatischen Wort auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+   tekst + Tippe auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+
+[plus | Lesson 7 #1]
+   tekst - Tippe bei einem kroatischen Wort auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+   tekst + Tippe auf  neben dem Wort und sprich es laut aus, bevor du antwortest – die Uhr kann eine Sekunde warten.
+
+koraka: 124 | koraka s razlikom (bez suma): 4
+
+===== Provjera na razini izraza (provjeri_kuke.py)
+DE razlika N=1: "(null) || (tip + ' ' + r)"
+   staro: 'Lesson [object Object]'
+   novo:  'Lektion [object Object]'
+DE razlika N=3: "(null) || (tip + ' ' + r)"
+   staro: 'Lesson [object Object]'
+   novo:  'Lektion [object Object]'
+DE razlika N=1: '\'<span class="znak">\' + esc(tip) + \' \' + razina + \'</span>\''
+   staro: '<span class="znak">Lesson 1</span>'
+   novo:  '<span class="znak">Lektion 1</span>'
+DE razlika N=3: '\'<span class="znak">\' + esc(tip) + \' \' + razina + \'</span>\''
+   staro: '<span class="znak">Lesson 3</span>'
+   novo:  '<span class="znak">Lektion 3</span>'
+DE razlika N=1: '\'<span class="gdje">\' + esc(x.cjelina) + \'</span>\''
+   staro: '<span class="gdje">Daily challenge 12</span>'
+   novo:  '<span class="gdje">Tägliche Challenge 12</span>'
+DE razlika N=3: '\'<span class="gdje">\' + esc(x.cjelina) + \'</span>\''
+   staro: '<span class="gdje">Daily challenge 12</span>'
+   novo:  '<span class="gdje">Tägliche Challenge 12</span>'
+DE razlika N=1: "'Lesson' + (wtLekcije.length > 1 ? 's' : '') + ' ' + wtLekcije.slice().sort(func"
+   staro: 'Lesson 4'
+   novo:  'Lektion 4'
+DE razlika N=3: "'Lesson' + (wtLekcije.length > 1 ? 's' : '') + ' ' + wtLekcije.slice().sort(func"
+   staro: 'Lessons 2, 5, 9'
+   novo:  'Lektionen 2, 5, 9'
+DE razlika N=3: "btn.title = n > 1 ? 'Add ' + n + ' words to dictionary' : 'Add to dictionary';"
+   staro: ' 3 Wörter ins Wörterbuch aufnehmen'
+   novo:  '3 Wörter ins Wörterbuch aufnehmen'
+DE razlika N=1: "trakaSlusanja('Tap ' + IK('zvuk') + ' next to the word and **say it out loud** b"
+   staro: 'TRAKA(Tippe bei einem kroatischen Wort auf [IK:zvuk] neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.)'
+   novo:  'TRAKA(Tippe auf [IK:zvuk] neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.)'
+DE razlika N=3: "trakaSlusanja('Tap ' + IK('zvuk') + ' next to the word and **say it out loud** b"
+   staro: 'TRAKA(Tippe bei einem kroatischen Wort auf [IK:zvuk] neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.)'
+   novo:  'TRAKA(Tippe auf [IK:zvuk] neben dem Wort und **sprich es laut aus**, bevor du antwortest – die Uhr kann eine Sekunde warten.)'
+DE razlika N=1: "kartice: 'New words? The <strong>dictionary</strong> lists every word on this pa"
+   staro: 'Neue Wörter? Das <strong>dictionary</strong> listet jedes Wort auf dieser Seite auf, mit [IK:zvuk] – und das Spiel [IK:igra] direkt darunter übt die Wörter, die du gespeichert hast.'
+   novo:  'Neue Wörter? Das <strong>Wörterbuch</strong> listet jedes Wort auf dieser Seite auf, mit [IK:zvuk] – und das Spiel [IK:igra] direkt darunter übt die Wörter, die du gespeichert hast.'
+DE razlika N=3: "kartice: 'New words? The <strong>dictionary</strong> lists every word on this pa"
+   staro: 'Neue Wörter? Das <strong>dictionary</strong> listet jedes Wort auf dieser Seite auf, mit [IK:zvuk] – und das Spiel [IK:igra] direkt darunter übt die Wörter, die du gespeichert hast.'
+   novo:  'Neue Wörter? Das <strong>Wörterbuch</strong> listet jedes Wort auf dieser Seite auf, mit [IK:zvuk] – und das Spiel [IK:igra] direkt darunter übt die Wörter, die du gespeichert hast.'
+DE razlika N=1: "pokaziSavjetRj('Stuck? The <strong>dictionary</strong> holds every word on this "
+   staro: 'SAVJET(Hängst du fest? Das <strong>dictionary</strong> enthält jedes Wort auf dieser Seite. [IK:knjiga])'
+   novo:  'SAVJET(Hängst du fest? Das <strong>Wörterbuch</strong> enthält jedes Wort auf dieser Seite. [IK:knjiga])'
+DE razlika N=3: "pokaziSavjetRj('Stuck? The <strong>dictionary</strong> holds every word on this "
+   staro: 'SAVJET(Hängst du fest? Das <strong>dictionary</strong> enthält jedes Wort auf dieser Seite. [IK:knjiga])'
+   novo:  'SAVJET(Hängst du fest? Das <strong>Wörterbuch</strong> enthält jedes Wort auf dieser Seite. [IK:knjiga])'
+DE razlika N=1: "tekst: 'Any word in the examples you do not recognise is in the <strong>dictiona"
+   staro: 'Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>dictionary</strong>. [IK:knjiga]'
+   novo:  'Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>Wörterbuch</strong>. [IK:knjiga]'
+DE razlika N=3: "tekst: 'Any word in the examples you do not recognise is in the <strong>dictiona"
+   staro: 'Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>dictionary</strong>. [IK:knjiga]'
+   novo:  'Jedes Wort in den Beispielen, das du nicht kennst, steht im <strong>Wörterbuch</strong>. [IK:knjiga]'
+DE razlika N=1: "upis: 'Blanking on a word? Open the <strong>dictionary</strong> — it holds every"
+   staro: 'Ein Wort fällt dir nicht ein? Öffne das <strong>dictionary</strong> – es enthält jedes Wort auf dieser Seite. [IK:knjiga]'
+   novo:  'Ein Wort fällt dir nicht ein? Öffne das <strong>Wörterbuch</strong> – es enthält jedes Wort auf dieser Seite. [IK:knjiga]'
+DE razlika N=3: "upis: 'Blanking on a word? Open the <strong>dictionary</strong> — it holds every"
+   staro: 'Ein Wort fällt dir nicht ein? Öffne das <strong>dictionary</strong> – es enthält jedes Wort auf dieser Seite. [IK:knjiga]'
+   novo:  'Ein Wort fällt dir nicht ein? Öffne das <strong>Wörterbuch</strong> – es enthält jedes Wort auf dieser Seite. [IK:knjiga]'
+DE razlika N=1: "provjera: 'The <strong>dictionary</strong> stays open during the checkpoint too."
+   staro: 'Das <strong>dictionary</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. [IK:knjiga]'
+   novo:  'Das <strong>Wörterbuch</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. [IK:knjiga]'
+DE razlika N=3: "provjera: 'The <strong>dictionary</strong> stays open during the checkpoint too."
+   staro: 'Das <strong>dictionary</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. [IK:knjiga]'
+   novo:  'Das <strong>Wörterbuch</strong> bleibt auch während des Checkpoints offen. Hier gibt es keine Fallen. [IK:knjiga]'
+DE razlika N=1: "slaganje: 'Not sure which word is which? The <strong>dictionary</strong> has the"
+   staro: 'Nicht sicher, welches Wort welches ist? Das <strong>dictionary</strong> hat sie alle, mit [IK:zvuk].'
+   novo:  'Nicht sicher, welches Wort welches ist? Das <strong>Wörterbuch</strong> hat sie alle, mit [IK:zvuk].'
+DE razlika N=3: "slaganje: 'Not sure which word is which? The <strong>dictionary</strong> has the"
+   staro: 'Nicht sicher, welches Wort welches ist? Das <strong>dictionary</strong> hat sie alle, mit [IK:zvuk].'
+   novo:  'Nicht sicher, welches Wort welches ist? Das <strong>Wörterbuch</strong> hat sie alle, mit [IK:zvuk].'
+DE razlika N=1: "'Every word on this page is in the <strong>dictionary</strong>, with ' + IK('zvu"
+   staro: 'Jedes Wort auf dieser Seite steht im <strong>dictionary</strong>, mit [IK:zvuk] – es öffnet sich direkt hier, ohne dass du die Übung verlässt.'
+   novo:  'Jedes Wort auf dieser Seite steht im <strong>Wörterbuch</strong>, mit [IK:zvuk] – es öffnet sich direkt hier, ohne dass du die Übung verlässt.'
+DE razlika N=3: "'Every word on this page is in the <strong>dictionary</strong>, with ' + IK('zvu"
+   staro: 'Jedes Wort auf dieser Seite steht im <strong>dictionary</strong>, mit [IK:zvuk] – es öffnet sich direkt hier, ohne dass du die Übung verlässt.'
+   novo:  'Jedes Wort auf dieser Seite steht im <strong>Wörterbuch</strong>, mit [IK:zvuk] – es öffnet sich direkt hier, ohne dass du die Übung verlässt.'
+DE razlika N=1: '\'<button class="viseRazina" onclick="prekloputiProgRazine()">Show all \' + MAX_RA'
+   staro: '<button class="viseRazina" onclick="prekloputiProgRazine()">Alle anzeigen 20 Level ▾ <span style="opacity:.7">(17 weitere, noch gesperrt)</span></button>'
+   novo:  '<button class="viseRazina" onclick="prekloputiProgRazine()">Alle 20 Level anzeigen ▾ <span style="opacity:.7">(17 weitere, noch gesperrt)</span></button>'
+DE razlika N=3: '\'<button class="viseRazina" onclick="prekloputiProgRazine()">Show all \' + MAX_RA'
+   staro: '<button class="viseRazina" onclick="prekloputiProgRazine()">Alle anzeigen 20 Level ▾ <span style="opacity:.7">(15 weitere, noch gesperrt)</span></button>'
+   novo:  '<button class="viseRazina" onclick="prekloputiProgRazine()">Alle 20 Level anzeigen ▾ <span style="opacity:.7">(15 weitere, noch gesperrt)</span></button>'
+
+provjereno (izraz x N): 182, EN razlika: 0, DE razlika: 27, preskoceno (nije izraz): 6
+  - ("      .sort(function (a, b) { return a.en.localeCompare(b.en, 'en'); });", "GRESKA: Unexpected token '.'")
+  - ("      var jezik = (dictSmjer === 'en-hr') ? 'en' : 'hr';", 'GRESKA: dictSmjer is not defined')
+  - ("  var JEZIK_APP = 'en'; ", "GRESKA: Unexpected token 'var'")
+  - ("  var TIPOVI = ['Lesson', 'Vocabulary', 'Grammar', 'Practice', 'Test']; ", "GRESKA: Unexpected token ';'")
+  - ("fetch(FUNKCIJE_URL + '/sadrzaj?f=data-plus.json', {", "GRESKA: Unexpected token ')'")
+  - ("tg.className = 'prijevodGumb'; tg.textContent = 'EN';", "GRESKA: Unexpected token ';'")
