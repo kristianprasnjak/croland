@@ -1,0 +1,16 @@
+<!-- Croland: promjena-emaila. Jezik iz user_metadata.jezik (upisuje ga aplikacija pri registraciji i prijavi).
+     Novi jezik = novi blok "else if eq $j" s kodom jezika. Bez jezika ili nepoznat jezik = engleski. -->
+{{ $j := "" }}{{ with .Data.jezik }}{{ $j = printf "%v" . }}{{ end }}
+<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:520px;margin:0 auto;padding:24px;color:#2a2420;line-height:1.55">
+{{ if eq $j "de" }}
+<h1 style="font-size:22px;margin:0 0 12px">Neue E-Mail-Adresse bestätigen</h1>
+<p>Bitte bestätige, dass du diese Adresse für dein Croland-Konto verwenden möchtest: {{ .NewEmail }}</p>
+<p style="margin:24px 0"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#b3452c;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:600">Neue E-Mail bestätigen</a></p>
+<p style="color:#7a6f62;font-size:13px">Wenn du diese Änderung nicht angefordert hast, schreib uns bitte an kristian.prasnjak@gmail.com.</p>
+{{ else }}
+<h1 style="font-size:22px;margin:0 0 12px">Confirm your new email</h1>
+<p>Please confirm that you want to use this address for your Croland account: {{ .NewEmail }}</p>
+<p style="margin:24px 0"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#b3452c;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:600">Confirm new email</a></p>
+<p style="color:#7a6f62;font-size:13px">If you didn't ask for this change, please contact us at kristian.prasnjak@gmail.com.</p>
+{{ end }}
+</div>

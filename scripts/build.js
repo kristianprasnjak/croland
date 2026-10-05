@@ -13,9 +13,9 @@ const ROOT = path.join(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ZASTICENO = path.join(ROOT, 'zasticeno');
 
-const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html',
+const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html', 'refund.html',
   // njemacka verzija (croland-de/): ista aplikacija, druga stranica, isti kljucevi napretka
-  'index-de.html', 'rjecnik-de.js', 'pregledi-de.js'];
+  'index-de.html', 'rjecnik-de.js', 'pregledi-de.js', 'terms-de.html', 'privacy-de.html', 'refund-de.html'];
 // vendor/: supabase-js s vlastite domene (verzija zaključana u imenu datoteke), ne s CDN-a
 const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
 

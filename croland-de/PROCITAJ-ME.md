@@ -51,6 +51,9 @@ Otvaranje: `pokreni-lokalno.bat`, pa u aplikaciji Options → Language → Deuts
 - `osvjezi-de.js` učita `osvjezi.js` kao tekst i samo preusmjeri ulaz/izlaz — svaka promjena bodovanja ili formata u originalu automatski vrijedi i za DE.
 - `izgradi-sucelje-de.py` mijenja samo stringove izvučene u `sucelje-de.tsv`; JS se tokenizira pravim parserom (acorn u `_alati/`), pa kod, regexi i ključevi ostaju netaknuti.
 - **Interni ključevi ostaju engleski** (`Lesson 1`, `Daily challenge`, tipke `Enter/Escape`, `Authorization`…) jer se po njima sprema napredak u Supabase — korisnik koji promijeni jezik zadržava napredak. Prikaz imena tipova ide kroz `deTip()` / `deCjelina()` koje build ubacuje na ~30 mjesta (popis `ZAKRPE` u skripti; ako se izvorni redak promijeni, build stane s porukom umjesto da tiho propusti mjesto).
+- **Tekst sučelja koji se slaže od dijelova piše se kao jedna rečenica s `T_()`** (od 05.10.2026.): `T_('Your next payment is now on %1.', datum)`. U engleskom `T_` samo umetne vrijednosti; build cijeli literal unutar `T_( )` prevodi odjednom (može i s HTML-om), pa njemački smije presložiti red riječi. Mjesta `%1`, `%2` moraju ostati u prijevodu (build inače stane). Redak koji postoji samo kao `T_` (izvor `js-t`) prevodi se **samo unutar `T_( )`** — isti string drugdje u kodu može biti ključ (npr. status `'paused'`). Gola riječ koja je tekst sučelja (`'days'`, `'locked'`) također ide u `T_()`.
+- `izvuci-sucelje.py` uz staru heuristiku koristi i popis engleskih riječi `_alati/engleske-rijeci.txt` (iz wordfreq), pa hvata i kratke poruke sa simbolima (`▶ Continue`, `Saving…`).
+- **`pregledi.js` prevodi se po položaju**, iz `pregledi-de.tsv` (`en | hr | de`): naslov, opis, drugi član para u `ex`/`t`/`w` i engleske ćelije zaglavlja u `g` (popis u `sucelje_lib.PREGLEDI_ENG_G`). Ne ide kroz globalnu tablicu, jer je npr. `more` u pregledima hrvatska riječ, a `is` je u sučelju bio dio druge rečenice. Isti engleski s različitim hrvatskim (npr. *you* = *ti* / *te*) ima svoj redak.
 - Novi tekst u `index.html` → `python3 croland-de/izvuci-sucelje.py` (doda nove retke u `sucelje-de.tsv`, stari prijevodi ostaju), prevesti prazne retke (`=` = ne mijenjaj, za kod), pa ponovno build.
 
 **Izbor jezika u aplikaciji** (Options → Language / Sprache): svaki jezik je svoja stranica (`index.html`, `index-de.html`) s istim kodom i istim ključevima napretka, pa se jezik može mijenjati tijekom tečaja bez gubitka napretka.
@@ -62,8 +65,8 @@ Otvaranje: `pokreni-lokalno.bat`, pa u aplikaciji Options → Language → Deuts
 **Supabase je pripremljen (02.10.2026.):** Edge Function `sadrzaj` je redeployana s `data-plus-de.json` na popisu dozvoljenih datoteka. Redirect URLs već imaju zamjenske znakove (`https://kristianprasnjak.github.io/croland/**`, `http://localhost:8888/**`), pa pokrivaju i `index-de.html`. Ako se ikad deploya iz lokalne mape (`supabase functions deploy sadrzaj`), lokalni `index.ts` već ima istu izmjenu.
 
 Poznata ograničenja:
-1. Nekoliko rečenica u kodu gradi se gramatički na engleski način (npr. `' point</strong> is'`); prijevod fragmenata je mjestimično nespretan.
-2. Riječi koje je korisnik sam spremio u rječnik prije promjene jezika zadržavaju prijevod na jeziku na kojem su spremljene.
+1. Poneka starija rečenica u kodu još se gradi od dijelova; novi tekst piši s `T_()`, a stare prebacuj kad naiđeš (račun, rječnik i napredak su već prebačeni).
+2. ~~Riječi u rječniku zadržavaju jezik spremanja~~ — riješeno 05.10.2026.: zapis pamti `jez`, a prikaz uzima prijevod iz podataka trenutnog jezika (`prijevodZapisa`).
 3. BLOBBY_RECI: 58 starih odsječaka ne postoji ni u engleskim lekcijama — ostaju neprevedeni i bez učinka.
 
 ## Odluke o prijevodu

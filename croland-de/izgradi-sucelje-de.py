@@ -11,11 +11,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.dirname(os.path.abspath(__file__))
 
 def ucitaj_tsv():
-    d = {}
+    d, t = {}, {}
     for r in csv.DictReader(open(os.path.join(OUT, 'sucelje-de.tsv'), encoding='utf-8'), delimiter='\t'):
-        if r['de'] and r['de'] not in ('@blobby', '='): d[r['en']] = r['de']
-    return d
-TR = ucitaj_tsv()
+        if r['de'] and r['de'] not in ('@blobby', '='):
+            t[r['en']] = r['de']
+            # redak koji postoji samo kao T_('...') prevodi se SAMO unutar T_( ): isti string drugdje
+            # u kodu moze biti kljuc (npr. status 'paused')
+            if r['izvor'] != 'js-t': d[r['en']] = r['de']
+    return d, t
+TR, TT = ucitaj_tsv()
 stat = {'html': 0, 'attr': 0, 'js': 0, 'jshtml': 0}
 
 def norm(s): return re.sub(r'\s+', ' ', s).strip()
@@ -53,6 +57,16 @@ def prevedi_js(js):
     for a, b, q in js_literali(js):
         s = js[a:b]
         novi = None
+        if js[max(0, a - 4):a - 1].endswith('T_('):
+            # oznaceni tekst sucelja: cijeli literal odjednom (mjesta %1, %2 moraju ostati ista)
+            if s in TT:
+                if sorted(re.findall(r'%\d', s)) != sorted(re.findall(r'%\d', TT[s])):
+                    raise SystemExit(f'T_: prijevod ne cuva mjesta %n: {s!r} -> {TT[s]!r}')
+                stat['t'] = stat.get('t', 0) + 1
+                dijelovi.append(js[poz:a]); dijelovi.append(esc_js(TT[s], q)); poz = b
+            else:
+                stat['t_fali'] = stat.get('t_fali', 0) + 1
+            continue
         if '<' in s and '>' in s:
             novi = re.sub(r'>([^<>]+)<', lambda t: '>' + zamijeni_tekst_cvora(t.group(1), 'jshtml', q) + '<', '>' + s + '<')[1:-1]
             def _attr(t):
@@ -133,16 +147,25 @@ ZAKRPE = [  # (staro, novo, ocekivani broj pojavljivanja)
     ("esc(tip + ' ' + r", "esc(deTip(tip) + ' ' + r", 6),
     ("'<div class=\"imeF\">' + tip + ' ' + r", "'<div class=\"imeF\">' + deTip(tip) + ' ' + r", 2),
     ("'Daily challenge' : tip + ' ' + razina)", "'Daily challenge' : deTip(tip) + ' ' + razina)", 2),
-    ("')\">Next: ' + sljedeci.tip + ' '", "')\">Next: ' + deTip(sljedeci.tip) + ' '", 1),
+    ("')\">Next: ' + sljedeci.tip + ' '", "')\">Weiter: ' + deTip(sljedeci.tip) + ' '", 1),
     ("IK('brava', 'uz') + sljedeci.tip + ' '", "IK('brava', 'uz') + deTip(sljedeci.tip) + ' '", 1),
-    ("' still waiting in ' + tip + ' '", "' still waiting in ' + deTip(tip) + ' '", 1),
-    ("'</b> more → ' + tip + ' '", "'</b> more → ' + deTip(tip) + ' '", 1),
+    ("ostalo, tip + ' ' + razina)", "ostalo, deTip(tip) + ' ' + razina)", 2),
+    ("'</b> more → ' + tip + ' '", "'</b> noch bis ' + deTip(tip) + ' '", 1),
     ("esc(nas || (tip + ' ' + razina))", "esc(nas || (deTip(tip) + ' ' + razina))", 1),
     ("esc(meta.tip + ' ' + meta.razina)", "esc(deTip(meta.tip) + ' ' + meta.razina)", 1),
     ("'<span class=\"dugo\">' + tip + '", "'<span class=\"dugo\">' + deTip(tip) + '", 1),
     ("'<div class=\"progGlava\" style=\"color:' + BOJA_TIPA[t] + '\">' + t + '</div>'",
      "'<div class=\"progGlava\" style=\"color:' + BOJA_TIPA[t] + '\">' + deTip(t) + '</div>'", 2),
     ("'<span class=\"gdje\">' + esc(x.cjelina) + '</span>'", "'<span class=\"gdje\">' + esc(deCjelina(x.cjelina)) + '</span>'", 1),
+]
+# [DE] dijelovi HTML-a unutar JS stringova koje izvuci-sucelje.py oznaci kao kod ('=')
+ZAKRPE += [
+    ("'\" aria-label=\"Sticky note\" '", "'\" aria-label=\"Haftnotiz\" '", 1),
+    ("'placeholder=\"Write here…\">'", "'placeholder=\"Hier schreiben …\">'", 1),
+    ("aria-label=\"Play ' + esc(g.ime) + ' full screen\">'", "aria-label=\"' + esc(g.ime) + ' im Vollbild spielen\">'", 1),
+    ("'\" title=\"Lesson summary — ' + sad + '/' + uk + ' pts\" '", "'\" title=\"Lektionsübersicht – ' + sad + '/' + uk + ' Pkt.\" '", 1),
+    ("'\" title=\"Day ' + n + ' — '", "'\" title=\"Tag ' + n + ' – '", 1),
+    ("'title=\"Open ' + esc(g.ime) + '\"", "'title=\"' + esc(g.ime) + ' öffnen\"", 1),
 ]
 MNOZINA = {'note': ('Notiz', 'Notizen'), 'exercise': ('Übung', 'Übungen'), 'word': ('Wort', 'Wörter')}
 def zakrpaj(src):
@@ -181,6 +204,21 @@ for staro, novo in [('<script src="data.js"></script>', '<script src="data-de.js
     out = out.replace(staro, novo)
 open(os.path.join(ROOT, 'index-de.html'), 'w', encoding='utf-8').write(out)
 
+# ---- pregledi.js: prevodi se po POLOZAJU (naslov, opis, drugi clan para), iz pregledi-de.tsv ----
+# Ne ide kroz globalni TR: kratki stringovi (npr. 'is', 'more') znace razlicito u sucelju i u
+# pregledima, a 'more' je u pregledima hrvatska rijec.
+from sucelje_lib import pregledi_mjesta
+PT = {}
+for r in csv.DictReader(open(os.path.join(OUT, 'pregledi-de.tsv'), encoding='utf-8'), delimiter='\t'):
+    if r['de']: PT[(r['en'], r['hr'])] = r['de']
 pj = open(os.path.join(ROOT, 'pregledi.js'), encoding='utf-8').read()
-open(os.path.join(ROOT, 'pregledi-de.js'), 'w', encoding='utf-8').write(prevedi_js(pj))
+dij, poz, pfali = [], 0, []
+for m in sorted(pregledi_mjesta(pj), key=lambda x: x['s']):
+    de = PT.get((m['v'], m['hr']))
+    if not de: pfali.append(m['v']); continue
+    q = pj[m['s'] - 1]
+    dij.append(pj[poz:m['s']]); dij.append(esc_js(de, q)); poz = m['e']
+dij.append(pj[poz:])
+open(os.path.join(ROOT, 'pregledi-de.js'), 'w', encoding='utf-8').write(''.join(dij))
+if pfali: print('UPOZORENJE: pregledi bez prijevoda (pregledi-de.tsv):', pfali[:20], len(pfali))
 print('zamjene:', stat, '| blobby:', blob_ok, 'prevedeno, fali:', blob_fali)

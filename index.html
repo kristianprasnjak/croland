@@ -3,15 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <script>
-  // Jezik uputa (Options → Language). Svaki jezik je svoja stranica (index.html, index-de.html);
-  // napredak je zajednicki jer su kljucevi isti. Ovdje se samo prebaci na pravu stranicu,
-  // prije nego se ucitaju veliki podaci.
+  // Jezik uputa. Svaki jezik je svoja stranica (index.html, index-de.html, ...) s istim kodom i
+  // istim kljucevima napretka. Ovo je JEDINI popis jezika: koriste ga preusmjeravanje ovdje,
+  // izbor jezika pri prvom otvaranju (odmah iza <body>) i Options → Language.
+  //   izbor = "Choose your language" na tom jeziku (prvi zaslon pokazuje sve odjednom)
+  //   pravno = postoje prevedeni terms-XX.html i privacy-XX.html (inace se otvara engleska verzija)
   (function () {
-    var JEZIK_STRANICE = 'en', STRANICE = { en: 'index.html', de: 'index-de.html' };
+    var JEZIK_STRANICE = 'en', JEZICI = [
+      { id: 'en', ime: 'English', stranica: 'index.html', izbor: 'Choose your language',
+        opis: 'Explanations, hints and translations in English.' },
+      { id: 'de', ime: 'Deutsch', stranica: 'index-de.html', izbor: 'Wähle deine Sprache', pravno: true,
+        opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' }
+    ];
+    window.CROLAND_JEZICI = JEZICI;
+    window.CROLAND_JEZIK_STRANICE = JEZIK_STRANICE;
+    var stranica = {};
+    JEZICI.forEach(function (x) { stranica[x.id] = x.stranica; });
+    var j = null, smije = false;
     try {
-      var j = localStorage.getItem('croland.jezik');
-      if (j && j !== JEZIK_STRANICE && STRANICE[j]) location.replace(STRANICE[j] + location.search + location.hash);
+      j = localStorage.getItem('croland.jezik');
+      localStorage.setItem('croland.proba', '1'); localStorage.removeItem('croland.proba');
+      smije = true;
     } catch (e) {}
+    if (j && j !== JEZIK_STRANICE && stranica[j]) { location.replace(stranica[j] + location.search + location.hash); return; }
+    if (j || !smije) return;
+    // Jezik jos nije izabran. Prijavljeni korisnik ga ima u racunu (provjeriJezikRacuna), pa
+    // se izbor nudi samo onome tko nema ni izbor ni sesiju — pri prvom otvaranju, dok se ucitava.
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i) || '';
+        if (k.indexOf('sb-') === 0 && k.indexOf('-auth-token') !== -1) return;
+      }
+    } catch (e) { return; }
+    // prijedlog: jezik ove stranice ako nije engleska, inace prvi jezik preglednika koji postoji
+    var prijedlog = JEZIK_STRANICE;
+    if (JEZIK_STRANICE === 'en') {
+      var pj = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
+      for (var n = 0; n < pj.length; n++) {
+        var kod = String(pj[n] || '').slice(0, 2).toLowerCase();
+        if (stranica[kod]) { prijedlog = kod; break; }
+      }
+    }
+    window.CROLAND_BIRAJ_JEZIK = prijedlog;
   })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -3484,6 +3517,70 @@
     window.CROLAND_UCITAVANJE.faza(10);
   })();
 </script>
+<script>
+  // Izbor jezika pri prvom otvaranju. Stoji odmah iza <body>, pa se pokaze dok se jos ucitavaju
+  // veliki podaci (data.js), prije lekcije 0 i prije registracije. Izbor se pamti u
+  // localStorage (croland.jezik), a pri registraciji/prijavi prelazi u racun.
+  (function () {
+    var prijedlog = window.CROLAND_BIRAJ_JEZIK;
+    if (!prijedlog) return;
+    var JEZICI = window.CROLAND_JEZICI, ova = window.CROLAND_JEZIK_STRANICE;
+    var z = document.createElement('div'), zatvori = function () {};
+    z.id = 'biracJezika';
+    z.setAttribute('role', 'dialog');
+    z.setAttribute('aria-modal', 'true');
+    z.setAttribute('aria-labelledby', 'biracJezikaNaslov');
+    var naslov = JEZICI.map(function (x) { return x.izbor; });
+    // prijedlog prvi u naslovu, da ga se procita prvog
+    naslov.sort(function (a, b) {
+      var pa = JEZICI.filter(function (x) { return x.izbor === a; })[0].id === prijedlog ? 0 : 1;
+      var pb = JEZICI.filter(function (x) { return x.izbor === b; })[0].id === prijedlog ? 0 : 1;
+      return pa - pb;
+    });
+    var h = '<style>' +
+      '#biracJezika{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:center;justify-content:center;' +
+      'padding:16px;background:#fbf6ee;color:#2a2420;font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-y:auto}' +
+      '#biracJezika .bjOkvir{width:100%;max-width:420px;text-align:center}' +
+      '#biracJezika .bjLogo{width:56px;height:56px;margin:0 auto 14px;border-radius:16px;background:#b3452c;color:#fff;' +
+      'display:flex;align-items:center;justify-content:center;font:700 30px "Space Grotesk",sans-serif}' +
+      '#biracJezika h1{font:600 1.15rem/1.45 "Space Grotesk",sans-serif;margin:0 0 20px}' +
+      '#biracJezika h1 span{display:block}#biracJezika h1 span+span{color:#7a6f62;font-weight:500}' +
+      '#biracJezika button{display:block;width:100%;margin:0 0 10px;padding:14px 16px;border:2px solid #e3d9c8;border-radius:14px;' +
+      'background:#fff;color:inherit;font:inherit;text-align:left;cursor:pointer}' +
+      '#biracJezika button:hover,#biracJezika button:focus-visible{border-color:#b3452c;outline:none}' +
+      '#biracJezika button.bjPrijedlog{border-color:#b3452c;box-shadow:0 0 0 3px rgba(179,69,44,.12)}' +
+      '#biracJezika .bjIme{display:block;font-weight:700;font-size:1.05rem}' +
+      '#biracJezika .bjOpis{display:block;color:#7a6f62;font-size:.88rem;margin-top:2px}' +
+      '@media (prefers-color-scheme: dark){#biracJezika{background:#1f1b18;color:#f1e9dd}' +
+      '#biracJezika button{background:#2a2420;border-color:#3d352f}#biracJezika h1 span+span,#biracJezika .bjOpis{color:#b5a898}}' +
+      '</style><div class="bjOkvir"><div class="bjLogo" aria-hidden="true">C</div><h1 id="biracJezikaNaslov">';
+    naslov.forEach(function (t) { h += '<span>' + t + '</span>'; });
+    h += '</h1>';
+    JEZICI.forEach(function (x) {
+      h += '<button type="button" lang="' + x.id + '" data-jezik="' + x.id + '"' + (x.id === prijedlog ? ' class="bjPrijedlog"' : '') + '>' +
+        '<span class="bjIme">' + x.ime + '</span><span class="bjOpis">' + x.opis + '</span></button>';
+    });
+    h += '</div>';
+    z.innerHTML = h;
+    z.addEventListener('click', function (e) {
+      var b = e.target.closest ? e.target.closest('button[data-jezik]') : null;
+      if (!b) return;
+      var j = b.getAttribute('data-jezik'), cilj = null;
+      JEZICI.forEach(function (x) { if (x.id === j) cilj = x; });
+      if (!cilj) return;
+      try { localStorage.setItem('croland.jezik', j); } catch (er) {}
+      if (j === ova) { zatvori(); return; }
+      location.replace(cilj.stranica + location.search + location.hash);
+    });
+    document.body.appendChild(z);
+    // traka za klizac (scrollbar-gutter) inace ostane u boji stranice
+    var korijen = document.documentElement, staraBoja = korijen.style.backgroundColor;
+    try { korijen.style.backgroundColor = matchMedia('(prefers-color-scheme: dark)').matches ? '#1f1b18' : '#fbf6ee'; } catch (er) {}
+    zatvori = function () { korijen.style.backgroundColor = staraBoja; z.parentNode && z.parentNode.removeChild(z); };
+    var f = z.querySelector('.bjPrijedlog') || z.querySelector('button');
+    if (f) try { f.focus({ preventScroll: true }); } catch (er) {}
+  })();
+</script>
 <header>
   <div class="logo" id="logoBtn" onclick="klikLogo()" title="Croland">C</div>
   <nav>
@@ -3587,11 +3684,25 @@
   // Svaki jezik je zasebna stranica s istim kodom i istim kljucevima napretka (Lesson 1,
   // Daily challenge...). Promjena jezika = spremi izbor, pa otvori drugu stranicu na istom mjestu.
   var JEZIK_APP = 'en';
-  var JEZIK_STRANICA = { en: 'index.html', de: 'index-de.html' };
-  var JEZICI = [
-    { id: 'en', ime: 'English', opis: 'Explanations, hints and translations in English.' },
-    { id: 'de', ime: 'Deutsch', opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' }
-  ];
+  // oblik datuma, brojeva i cijena prati jezik sucelja (engleski ostaje tocno kakav je bio)
+  // Tekst sucelja s mjestima %1, %2...: cijela recenica je jedan string, pa je prijevod moze
+  // presloziti (red rijeci). Build prevodi cijeli literal unutar T_( ... ) odjednom, i s HTML-om.
+  function T_(s) {
+    var a = arguments;
+    return String(s).replace(/%(\d)/g, function (m, i) { return a[+i] != null ? String(a[+i]) : m; });
+  }
+  var LOKAL_DATUM = ({ en: 'en-GB', de: 'de-DE', es: 'es-419' })[JEZIK_APP] || 'en-GB';
+  var LOKAL_BROJ = JEZIK_APP === 'en' ? 'en-US' : LOKAL_DATUM;
+  var LOKAL_VALUTA = JEZIK_APP === 'en' ? 'en-IE' : LOKAL_DATUM;
+  // popis jezika je jedan, u <head> (window.CROLAND_JEZICI)
+  var JEZICI = window.CROLAND_JEZICI || [{ id: 'en', ime: 'English', stranica: 'index.html', opis: '' }];
+  var JEZIK_STRANICA = {};
+  JEZICI.forEach(function (x) { JEZIK_STRANICA[x.id] = x.stranica; });
+  // Terms / Privacy na jeziku sucelja, ako je prijevod objavljen
+  function pravnaStranica(ime) {
+    var ovaj = JEZICI.filter(function (x) { return x.id === JEZIK_APP; })[0];
+    return (JEZIK_APP !== 'en' && ovaj && ovaj.pravno) ? ime + '-' + JEZIK_APP + '.html' : ime + '.html';
+  }
   function odaberiJezik(j) {
     if (!JEZIK_STRANICA[j] || j === JEZIK_APP) return;
     if (!PROGRESS.postavke) PROGRESS.postavke = {};
@@ -3618,6 +3729,21 @@
     try { if (ZADNJI_VIEW) sessionStorage.setItem('croland.nakonJezika', JSON.stringify(ZADNJI_VIEW)); } catch (e) {}
     window.location.replace(JEZIK_STRANICA[j]);
     return true;
+  }
+  // Racun pamti jezik na dva mjesta: u postavkama napretka (vrijedi na svakom uredaju) i u
+  // user_metadata.jezik (citaju ga e-mail predlosci: potvrda, nova lozinka). Ovdje se oba
+  // dovedu na jezik ove stranice; provjeriJezikRacuna je vec prebacio na jezik iz racuna ako ga ima.
+  var TIHA_PROMJENA_KORISNIKA = false;
+  function uskladiJezikRacuna(session) {
+    if (!session || !session.user) return;
+    if (!PROGRESS.postavke || typeof PROGRESS.postavke !== 'object') PROGRESS.postavke = {};
+    if (!PROGRESS.postavke.jezik) { PROGRESS.postavke.jezik = JEZIK_APP; spremiProgress(); }
+    var meta = session.user.user_metadata || {};
+    if (meta.jezik === JEZIK_APP || !supa) return;
+    TIHA_PROMJENA_KORISNIKA = true;
+    supa.auth.updateUser({ data: { jezik: JEZIK_APP } }).then(function (res) {
+      if (res && res.error) TIHA_PROMJENA_KORISNIKA = false;
+    }, function () { TIHA_PROMJENA_KORISNIKA = false; });
   }
   var VALUTA_TIPA = { Lesson: 'LP', Vocabulary: 'VP', Grammar: 'GP', Practice: 'PP' };
   // Udio dotad dostupnih bodova koji treba skupiti za otključavanje razine.
@@ -4279,6 +4405,7 @@
     // smiju stajati. Stižu zajedno sa sadržajem.
     var z = podaci.zvukovi || {};
     Object.keys(z).forEach(function (k) { ZVUK[k] = z[k]; });
+    _lokalniPrijevodi = null;   // stigle su nove kartice, a s njima i prijevodi
   }
 
   function ucitajPlusSadrzaj(cb) {
@@ -4579,12 +4706,15 @@
       }
       var st = PROGRESS.rjecnik[k];
       if (!st) {
-        PROGRESS.rjecnik[k] = { hr: p.hr, en: p.en || '', rod: p.rod || '', broj: p.broj || '', izvor: izvor || '' };
+        PROGRESS.rjecnik[k] = { hr: p.hr, en: p.en || '', jez: JEZIK_APP, rod: p.rod || '', broj: p.broj || '', izvor: izvor || '' };
         promjena = true; return;
       }
       if (!st.rod && p.rod) { st.rod = p.rod; promjena = true; }
       if (!st.broj && p.broj) { st.broj = p.broj; promjena = true; }
-      if (p.en && String(p.en).length > String(st.en || '').length) { st.en = p.en; promjena = true; }
+      // prijevod spremljen na drugom jeziku sučelja zamjenjuje se trenutnim, inače pobjeđuje bogatiji
+      if (p.en && ((st.jez && st.jez !== JEZIK_APP) || String(p.en).length > String(st.en || '').length)) {
+        st.en = p.en; st.jez = JEZIK_APP; promjena = true;
+      }
       if (p.hr && razlomiHr(p.hr)[1].length > razlomiHr(st.hr || '')[1].length) { st.hr = p.hr; promjena = true; }
       if (!st.izvor && izvor) { st.izvor = izvor; promjena = true; }
     });
@@ -4663,6 +4793,7 @@
       var post = novi[nk];
       if (!post) {
         novi[nk] = { hr: d.hr, en: st.en || '', rod: rod, broj: broj, izvor: st.izvor || '' };
+        if (st.jez) novi[nk].jez = st.jez;
         if (st.fav) novi[nk].fav = 1;
         return;
       }
@@ -4670,7 +4801,7 @@
       if (st.fav) post.fav = 1;
       if (!post.rod && rod) post.rod = rod;
       if (!post.broj && broj) post.broj = broj;
-      if (String(st.en || '').length > String(post.en || '').length) post.en = st.en;
+      if (String(st.en || '').length > String(post.en || '').length) { post.en = st.en; if (st.jez) post.jez = st.jez; else delete post.jez; }
       if (razlomiHr(d.hr)[1].length > razlomiHr(post.hr)[1].length) post.hr = d.hr;
       if (!post.izvor && st.izvor) post.izvor = st.izvor;
     });
@@ -4806,7 +4937,7 @@
   }
   function registrirajEmail(email, lozinka, cb) {
     if (!supa) { cb('Sign-in isn\'t configured yet.'); return; }
-    supa.auth.signUp({ email: email, password: lozinka }).then(function (res) {
+    supa.auth.signUp({ email: email, password: lozinka, options: { data: { jezik: JEZIK_APP } } }).then(function (res) {
       if (res.error) { cb(res.error.message || 'Sign-up failed'); return; }
       // "Confirm email" on in Supabase: signUp succeeds but grants no session until the
       // user clicks the emailed link — onAuthStateChange never fires, so callers must
@@ -4888,6 +5019,7 @@
     ucitajProgress(sviStigli);
     function poslijeUcitavanja() {
       if (provjeriJezikRacuna()) return;
+      uskladiJezikRacuna(session);
       postaviTemu(temaSad());
       postaviFont(fontSad());
       var svjez = session && session.user && session.user.created_at &&
@@ -4945,6 +5077,8 @@
   function initAuth() {
     if (!supa) { SESSION_SPREMNA = true; poslijeAuthPromjene(null); return; }
     supa.auth.onAuthStateChange(function (event, session) {
+      // upis jezika u user_metadata (uskladiJezikRacuna) ne smije ponovno ucitati i nacrtati sve
+      if (event === 'USER_UPDATED' && TIHA_PROMJENA_KORISNIKA) { TIHA_PROMJENA_KORISNIKA = false; SESSION = session; return; }
       poslijeAuthPromjene(session);
       // Dolazak preko linka "Forgot password" iz maila: korisnik je privremeno prijavljen
       // i odmah bira novu lozinku.
@@ -5429,7 +5563,7 @@
         if (!supa) return;
         supa.auth.resetPasswordForEmail(e, { redirectTo: POVRATAK_PRIJAVE }).then(function (res) {
           if (res.error) { poruka(res.error.message || 'Could not send the email.'); return; }
-          poruka('If there is an account for ' + e + ', we\'ve sent a link to reset the password.', true);
+          poruka(T_('If there is an account for %1, we\'ve sent a link to reset the password.', e), true);
         });
       };
       $('prPrebaci').onclick = function () {
@@ -5588,7 +5722,9 @@
   // tocnih i ukupnih u sazecima tipa "Correct: 7/10". Ako se ne da iscitati, null.
   function brojGresaka(sazetak, pct) {
     var s = String(sazetak || '');
-    var m = s.match(/Mistakes:\s*(\d+)/);
+    // oznaka se prevodi (DE: 'Fehler:'), pa se trazi prevedena, a engleska ostaje kao rezerva
+    var oz = T_('Mistakes:').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    var m = s.match(new RegExp(oz + '\\s*(\\d+)')) || s.match(/Mistakes:\s*(\d+)/);
     if (m) return +m[1];
     m = s.match(/:\s*(\d+)\s*\/\s*(\d+)/);
     if (m) return Math.max(0, +m[2] - +m[1]);
@@ -5921,12 +6057,12 @@
       osvjeziBrojac();
     } else {
       setStat('Read', '');
-      predaja = function () { return { s: 'read', pct: 1 }; };
+      predaja = function () { return { s: T_('read'), pct: 1 }; };
       bezKontrola();
     }
 
     function zavrsi() {
-      if (!praznine.length) { kraj('read', 1); return; }
+      if (!praznine.length) { kraj(T_('read'), 1); return; }
       if (!provjereno) {
         var prazno = null;
         praznine.forEach(function (p) { if (!prazno && !p.inp.value.trim()) prazno = p; });
@@ -7538,7 +7674,7 @@
       var st = rj[k];
       if (!st) return;                                    // još nije dodana u rječnik
       var hr = razlomiHr(st.hr || w.hr)[0];
-      var en = razlomiEn(st.en || w.en)[0];
+      var en = razlomiEn(prijevodZapisa(st) || w.en)[0];
       if (!hr || !en) return;
       vidjeno[k] = 1;
       out.push({ hr: hr, en: en });
@@ -7851,7 +7987,7 @@
     fetch(FUNKCIJE_URL + '/pomoc', {
       method: 'POST',
       headers: Object.assign({ 'Content-Type': 'application/json' }, zaglavljaFunkcije()),
-      body: JSON.stringify({ kljuc: k, poruka: pitanje, ekran: ekran })
+      body: JSON.stringify({ kljuc: k, poruka: pitanje, ekran: ekran, jezik: JEZIK_APP })
     }).then(function (r) {
       return r.json().catch(function () { return {}; }).then(function (d) { return { status: r.status, d: d }; });
     }).then(function (o) {
@@ -8201,9 +8337,9 @@
     { id: 'dd', strana: 'd', red: 'd' }
   ];
   var CED_PAPIRI = [
-    { id: 'linije',     ime: 'Lined',   ik: 'linije' },
-    { id: 'kvadratici', ime: 'Squared', ik: 'kvadratici' },
-    { id: 'prazno',     ime: 'Plain',   ik: 'prazno' }
+    { id: 'linije',     ime: 'Lined',   ik: 'linije',     naslov: T_('Lined paper') },
+    { id: 'kvadratici', ime: 'Squared', ik: 'kvadratici', naslov: T_('Squared paper') },
+    { id: 'prazno',     ime: 'Plain',   ik: 'prazno',     naslov: T_('Plain paper') }
   ];
   var CED_NAJVISE_ZNAKOVA = 2000;
   var CED_KLJUC = null;        // scena na kojoj smo, ili null ako papirici ovdje ne zive
@@ -8397,7 +8533,7 @@
           CED_PAPIRI.map(function (p) {
             return '<button type="button" data-papir="' + p.id + '" data-slot="' + m.id +
               '" aria-pressed="' + (papir === p.id ? 'true' : 'false') +
-              '" title="' + p.ime + ' paper">' + IK(p.ik) + '</button>';
+              '" title="' + p.naslov + '">' + IK(p.ik) + '</button>';
           }).join('') +
           '<button type="button" class="cedBrisi" data-slot="' + m.id +
             '" title="Delete this note">✕</button>' +
@@ -8816,7 +8952,7 @@
   // ---- mehanika 5: zid (svih 30 odjednom, nagrada na kraju) ----
   function takeZid() {
     setStat('Everything you met', '');
-    predaja = function () { return { s: 'reviewed', pct: 1 }; };
+    predaja = function () { return { s: T_('reviewed'), pct: 1 }; };
     var s = $('sadrzaj'); s.innerHTML = '';
     var z = document.createElement('div'); z.className = 'zidL0'; s.appendChild(z);
     igra.stavke.forEach(function (st) {
@@ -8828,7 +8964,7 @@
       z.appendChild(c);
     });
     var b = document.createElement('button'); b.className = 'gumb'; b.textContent = '✓ Done';
-    b.onclick = function () { if (!gotovo) kraj('reviewed', 1); };
+    b.onclick = function () { if (!gotovo) kraj(T_('reviewed'), 1); };
     s.appendChild(b);
     bezKontrola();
   }
@@ -9683,10 +9819,10 @@
     var n = miniIsplata(g), puno = n >= g.maks;
     var p = Math.round(n / g.maks * 100);
     // Screenshot ako ga nema: maknemo ga i naziv dobije cijelu širinu.
-    var shot = g.slika ? '<div class="igShot"><img src="' + MINI_SLIKE + 'shot/' + g.slika + '" alt="Screenshot of ' + esc(g.ime) + '" ' +
+    var shot = g.slika ? '<div class="igShot"><img src="' + MINI_SLIKE + 'shot/' + g.slika + '" alt="" ' +
       'onerror="var s=this.parentNode,k=s.parentNode;s.remove();k.classList.add(\'bezShota\')"></div>' : '';
     return '<div class="igSastav' + (shot ? '' : ' bezShota') + '">' + profil +
-        '<div class="igNapredak' + (puno ? ' puno' : '') + '" title="' + n + ' of ' + g.maks + ' points">' +
+        '<div class="igNapredak' + (puno ? ' puno' : '') + '" title="' + n + ' / ' + g.maks + '">' +
           '<span class="igTrak"><i data-p="' + p + '%"></i></span>' +
           '<span class="br">' + (puno ? '✓' : n) + '</span>' +
           (puno ? '' : '<span class="od">/' + g.maks + '</span>') +
@@ -9700,7 +9836,7 @@
       : '<span>no points — your own text</span><span></span>';
     return '<p class="igOpis">' + esc(g.opis) + '</p><div class="igMeta">' + meta + '</div>' +
       '<button class="igPlay"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
-      (uskoro ? 'coming soon' : IGRA_PLAY_SVG + 'Play') + '</button>';
+      (uskoro ? 'coming soon' : IGRA_PLAY_SVG + esc('Play')) + '</button>';
   }
   // trake krenu s nule i narastu u sljedećem kadru
   function igraNapuni(korijen) {
@@ -9755,7 +9891,7 @@
     sloj.id = 'igraSloj';
     sloj.innerHTML =
       '<div class="igraProzor" role="dialog" aria-modal="true" aria-label="' + esc(g.ime) + '">' +
-        '<div class="igGlava"><span class="igVrsta">' + (g.maks ? 'Mini game ' + esc(g.br || '') : 'Extras') + '</span>' +
+        '<div class="igGlava"><span class="igVrsta">' + (g.maks ? esc('Mini game') + ' ' + esc(g.br || '') : 'Extras') + '</span>' +
         '<button class="igX" aria-label="Close">×</button></div>' +
         '<div class="igTijelo">' + igraSastavHtml(g) + igraTijeloHtml(g) + '</div>' +
       '</div>';
@@ -9838,8 +9974,8 @@
     var sazetak = '<h1 class="sekcija">Games &amp; Extras ' + IK('igra') + '</h1>' +
       '<div class="miniSaz">' +
       '<span><strong>' + uk + '</strong> of ' + maks + ' points earned</span>' +
-      '<span>·</span><span><strong>' + gotovih + '</strong> of ' + sveIgre().length + ' completed</span>' +
-      '<span>·</span><span>each game pays the same amount into <strong>all four currencies</strong> (LP · VP · GP · PP), once</span>' +
+      '<span>·</span><span><strong>' + gotovih + '</strong> ' + T_('of %1 completed', sveIgre().length) + '</span>' +
+      '<span>·</span><span>' + T_('each game pays the same amount into <strong>all four currencies</strong> (LP · VP · GP · PP), once') + '</span>' +
       '</div>';
     html += '</div>' + '<div class="miniDno">' + sazetak + '</div>' +
       '<p style="color:var(--muted);font-size:var(--t-s);line-height:1.6;margin-top:16px">' +
@@ -11085,7 +11221,8 @@
     var kutija = sve
       ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + 'Everything in this unit is yours — all <strong>' + maks +
         '</strong> points earned. Nothing left to win here.</div>'
-      : '<div class="preostaloBox">' + IK('munja', 'uz') + '<strong>' + ostalo + (ostalo === 1 ? ' point</strong> is' : ' points</strong> are') + ' still waiting in ' + tip + ' ' + razina +
+      : '<div class="preostaloBox">' + IK('munja', 'uz') + (ostalo === 1 ? T_('<strong>%1 point</strong> is still waiting in %2', ostalo, tip + ' ' + razina)
+          : T_('<strong>%1 points</strong> are still waiting in %2', ostalo, tip + ' ' + razina)) +
         '. Replay any exercise above — only your best attempt counts, so a weaker run can never cost you points.</div>';
 
     VIEW.innerHTML =
@@ -11093,7 +11230,7 @@
       '<button class="natrag" onclick="idi(\'' + natragView + '\')">‹ Back</button>' +
       '<h2>' + esc(naslovC) + ' — summary</h2>' +
       '<div class="progresBar"><div style="width:100%"></div></div>' +
-      '<span style="font-size:var(--t-s);color:var(--muted)">' + IK('zastava', 'uz') + 'finish</span>' +
+      '<span style="font-size:var(--t-s);color:var(--muted)">' + IK('zastava', 'uz') + T_('finish') + '</span>' +
       '</div>' +
       navigacijaVjezbi(tip, razina, igre.length, igre) +
       '<div class="sazetak sazUlaz">' +
@@ -11225,6 +11362,38 @@
     });
     return red;
   }
+  // ---- prijevod spremljene riječi na jeziku sučelja ----
+  // Zapis u PROGRESS.rjecnik pamti prijevod iz trenutka spremanja. Korisnik koji promijeni
+  // jezik mora svoje riječi vidjeti na novom jeziku, pa se prijevod pri prikazu uzima iz
+  // podataka ove stranice (kartice cjelina, pa rječnik lema), a spremljeni samo kad ga ondje nema.
+  // Zapis spremljen na ovom jeziku (jez === JEZIK_APP) prikazuje se točno kako je spremljen.
+  var _lokalniPrijevodi = null;
+  function lokalniPrijevodi() {
+    if (_lokalniPrijevodi) return _lokalniPrijevodi;
+    var m = {}, vidjeno = {};
+    IGRE.forEach(function (g) {
+      natukniceIgre(g, vidjeno).forEach(function (r) {
+        var k = kljucRijeci(r.hr);
+        if (k && r.en && !m[k]) m[k] = { en: r.en, izvor: r.izvor };
+      });
+    });
+    var prij = (window.RJECNIK && window.RJECNIK.prijevodi) || {};
+    Object.keys(prij).forEach(function (lema) {
+      var k = kljucRijeci(lema);
+      if (k && !m[k] && prij[lema] && prij[lema].length) m[k] = { en: prij[lema].join(', '), izvor: '' };
+    });
+    return (_lokalniPrijevodi = m);
+  }
+  function prijevodZapisa(st) {
+    if (!st) return '';
+    if (st.jez === JEZIK_APP) return st.en || '';
+    var l = lokalniPrijevodi()[kljucRijeci(st.hr)];
+    if (!l) return st.en || '';
+    var en = l.en;
+    // izgovor ostaje samo u cjelinama u kojima je namjerno zadržan (kao u dodajURjecnik)
+    if (!IZGOVOR_CJELINE[st.izvor || l.izvor] && en.indexOf(' · ') !== -1) en = en.split(' · ')[0].trim();
+    return en;
+  }
   function natukniceCjeline(tip, razina) {
     var vidjeno = {}, red = [];
     igreCjeline(tip, razina).forEach(function (g) {
@@ -11296,7 +11465,7 @@
     Object.keys(r).forEach(function (k) {
       var st = r[k];
       if (!st || !st.hr || !jeNatuknica(st.hr)) return;
-      natuknice(st.hr, st.en).forEach(function (p) {
+      natuknice(st.hr, prijevodZapisa(st)).forEach(function (p) {
         var kp = kljucRijeci(p.hr);
         if (!kp || vidjeno[kp]) return;
         vidjeno[kp] = 1;
@@ -11361,10 +11530,10 @@
     return (OBLICI[k] || []).map(function (l) { return LEME[l]; }).filter(Boolean);
   }
   var IME_VRSTE = {
-    im: 'noun', gl: 'verb', pr: 'adjective', zam: 'pronoun', br: 'numeral',
-    pril: 'adverb', prij: 'preposition', vez: 'conjunction', cest: 'particle', izraz: 'phrase'
+    im: T_('noun'), gl: T_('verb'), pr: T_('adjective'), zam: T_('pronoun'), br: T_('numeral'),
+    pril: T_('adverb'), prij: T_('preposition'), vez: T_('conjunction'), cest: T_('particle'), izraz: T_('phrase')
   };
-  var IME_RODA = { m: 'masculine', z: 'feminine', s: 'neuter' };
+  var IME_RODA = { m: T_('masculine'), z: T_('feminine'), s: T_('neuter') };
   var PADEZI = [['N', 'Nom'], ['G', 'Gen'], ['D', 'Dat'], ['A', 'Acc'], ['V', 'Voc'], ['L', 'Loc'], ['I', 'Ins']];
 
   function celija(v) { return '<td>' + esc(v || '—') + '</td>'; }
@@ -12486,7 +12655,7 @@
     IGRE.forEach(function (g) { if ((g.bodovi || 0) > 0) { ukupnoVj++; if (najbolji(g) > 0) odigrano++; } });
     var st = streakStanje();
     h += '<div class="progStat">' +
-      '<div class="progStatK"><div class="b">' + (st.niz || 0) + ' <small>days</small></div>' +
+      '<div class="progStatK"><div class="b">' + (st.niz || 0) + ' <small>' + T_('days') + '</small></div>' +
         '<div class="l">Daily streak · ' + (st.bodovi || 0) + ' streak points</div></div>' +
       '<div class="progStatK"><div class="b">' + brojRijeci() + '</div>' +
         '<div class="l">Words in your dictionary</div></div>' +
@@ -12520,8 +12689,8 @@
           var val2 = VALUTA_TIPA[tip], p = prag(tip, r);
           var opis = val2 ? (v[val2] + ' / ' + p + ' ' + val2) : 'needs all four types at level ' + r;
           h += '<div class="progCelija zakljucana" style="--boja:' + boja + '" ' +
-            'title="Locked — ' + esc(opis) + '">' +
-            '<div class="pct">locked</div><div class="odn">' + esc(opis) + '</div></div>';
+            'title="' + T_('Locked — %1', esc(opis)) + '">' +
+            '<div class="pct">' + T_('locked') + '</div><div class="odn">' + esc(opis) + '</div></div>';
         } else {
           var id2 = 'pc_' + tip + '_' + r;
           trake.push({ id: id2, pct: maks > 0 ? Math.min(1, osv / maks) : 0 });
@@ -12561,7 +12730,7 @@
     if (cijeliMaks > 0) {
       var cijeliP = cijeliOsv / cijeliMaks * 100;
       var cijeliTxt = cijeliP >= 10 ? Math.floor(cijeliP) + '%' : (Math.floor(cijeliP * 10) / 10).toFixed(1) + '%';
-      var broj = function (x) { return Number(x).toLocaleString('en-US'); };
+      var broj = function (x) { return Number(x).toLocaleString(LOKAL_BROJ); };
       trake.push({ id: 'pv_cijeli', pct: Math.min(1, cijeliOsv / cijeliMaks) });
       h += '<div class="progCijeli"><div class="red"><span>The whole course</span><b>' + cijeliTxt + '</b></div>' +
         '<div class="progStaza"><i id="pv_cijeli"></i></div>' +
@@ -12906,7 +13075,7 @@
           '<td style="font-family:var(--naslov);font-weight:700">' + x.uk + '</td>' +
           '<td><span class="progZnacka ' + (otvoren ? 'otv' : 'zat') + '">' +
             (otvoren ? 'full progress' : 'points only') + '</span></td>' +
-          '<td class="progTiho">' + esc(x.ja ? 'now' : progKada(p.zadnja_aktivnost)) + '</td></tr>';
+          '<td class="progTiho">' + esc(x.ja ? T_('now') : progKada(p.zadnja_aktivnost)) + '</td></tr>';
       });
       h += '</tbody></table><div id="progTudji"></div>';
     }
@@ -12929,18 +13098,18 @@
   }
 
   function progKada(iso) {
-    if (!iso) return 'never';
+    if (!iso) return T_('never');
     var ms = Date.now() - new Date(iso).getTime();
     if (isNaN(ms)) return '';
     var min = Math.floor(ms / 60000);
-    if (min < 2) return 'just now';
-    if (min < 60) return min + ' min ago';
+    if (min < 2) return T_('just now');
+    if (min < 60) return T_('%1 min ago', min);
     var h = Math.floor(min / 60);
-    if (h < 24) return h + ' h ago';
+    if (h < 24) return T_('%1 h ago', h);
     var d = Math.floor(h / 24);
-    if (d === 1) return 'yesterday';
-    if (d < 30) return d + ' days ago';
-    return 'over a month ago';
+    if (d === 1) return T_('yesterday');
+    if (d < 30) return T_('%1 days ago', d);
+    return T_('over a month ago');
   }
 
   function progVeziLjude() {
@@ -13111,8 +13280,12 @@
   // poslije, a pokušaj kupnje javlja do kad je pristup besplatan.
 
   var ACC = { paket: 'godina', vrsta: 'mjesec', n: 10, kodovi: null, darivatelji: null, javni: null };
-  var ACC_IME = { tjedan: 'Weekly', mjesec: 'Monthly', godina: 'Yearly' };
-  var ACC_JED = { tjedan: 'week', mjesec: 'month', godina: 'year' };
+  var ACC_IME = { tjedan: T_('Weekly'), mjesec: T_('Monthly'), godina: T_('Yearly') };
+  var ACC_JED = { tjedan: 'week', mjesec: 'month', godina: 'year' };   // samo za CSV (podaci)
+  var ACC_JEDAN = { tjedan: T_('1 week'), mjesec: T_('1 month'), godina: T_('1 year') };
+  var ACC_PO = { tjedan: T_('per week'), mjesec: T_('per month'), godina: T_('per year') };
+  var ACC_CIJENA_PO = { tjedan: T_('%1 / week'), mjesec: T_('%1 / month'), godina: T_('%1 / year') };
+  var ACC_NASTAVI = { tjedan: T_('Continue with weekly'), mjesec: T_('Continue with monthly'), godina: T_('Continue with yearly') };
   var ACC_KOD_KLJUC = 'croland.kodZaUnos';
 
   function accCijene() {
@@ -13136,14 +13309,14 @@
     var c = accCijene();
     var cijeli = Math.abs(x - Math.round(x)) < 0.005;
     try {
-      return Number(x).toLocaleString('en-IE', { style: 'currency', currency: c.valuta,
+      return Number(x).toLocaleString(LOKAL_VALUTA, { style: 'currency', currency: c.valuta,
         minimumFractionDigits: cijeli ? 0 : 2, maximumFractionDigits: 2 });
     } catch (e) { return x + ' ' + c.valuta; }
   }
   function accDatum(d) {
     var t = (d instanceof Date) ? d : new Date(d);
     if (isNaN(t)) return '';
-    return t.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    return t.toLocaleDateString(LOKAL_DATUM, { day: 'numeric', month: 'short', year: 'numeric' });
   }
   function accDodaj(od, vrsta) {
     var d = new Date(od.getTime());
@@ -13248,8 +13421,8 @@
   function accKupi(tijelo) {
     var besplatno = accBesplatnoDo();
     if (besplatno) {
-      accPoruka('Access is free until ' + accDatum(besplatno),
-        'Everything is unlocked for everyone until then. Plans and codes go on sale on ' + accDatum(besplatno) + '.');
+      accPoruka(T_('Access is free until %1', accDatum(besplatno)),
+        T_('Everything is unlocked for everyone until then. Plans and codes go on sale on %1.', accDatum(besplatno)));
       return;
     }
     if (!POSTAVKE.paddle || !POSTAVKE.paddle.client_token) {
@@ -13265,13 +13438,13 @@
       .then(function (j) {
         if (!j.transaction_id) {
           if (j.error === 'vec-pretplacen') accPoruka('You already have a plan', 'Use “Change plan” to switch.');
-          else if (j.error === 'besplatno') accPoruka('Access is free right now', 'Plans go on sale on ' + accDatum(j.do) + '.');
+          else if (j.error === 'besplatno') accPoruka('Access is free right now', T_('Plans go on sale on %1.', accDatum(j.do)));
           else accPoruka('Not available yet', 'Purchases open soon. Please check back in a few days.');
           return;
         }
         return accUcitajPaddle().then(function (P) {
           var o = $('accOverlay'); if (o) o.remove();
-          P.Checkout.open({ transactionId: j.transaction_id, customer: { email: j.email } });
+          P.Checkout.open({ transactionId: j.transaction_id, customer: { email: j.email }, settings: { locale: JEZIK_APP } });
         });
       })
       .catch(function () { accPoruka('Something went wrong', 'Checkout could not be opened. Please try again.'); });
@@ -13291,7 +13464,7 @@
       var r = res.data || {};
       if (r.stanje === 'nema') return greska('We don\'t recognise this code. Codes look like CRO-XXXX-XXXX.');
       if (r.stanje === 'iskoristen') return greska('This code has already been used.');
-      if (r.stanje === 'istekao') return greska('This code could only be redeemed until ' + accDatum(r.unos_do) + '.');
+      if (r.stanje === 'istekao') return greska(T_('This code could only be redeemed until %1.', accDatum(r.unos_do)));
       if (r.stanje === 'ponisten') return greska('This code is no longer valid.');
       if (r.stanje === 'previse') return greska('Too many attempts today. Please try again tomorrow.');
       if (r.stanje !== 'ok') return greska('This code can\'t be used.');
@@ -13299,7 +13472,7 @@
     });
   }
   function accDijalogKoda(r) {
-    var jed = '1 ' + ACC_JED[r.vrsta];
+    var jed = ACC_JEDAN[r.vrsta];
     var p = accPretplata();
     var html;
     var odKoga = r.od_koga
@@ -13310,11 +13483,11 @@
       : '';
     if (p && p.auto_obnova && p.status !== 'paused' && p.vrijedi_do) {
       var stara = new Date(p.vrijedi_do), nova = accDodaj(stara, r.vrsta);
-      html = '<h2>Extend your Plus by ' + jed + '?</h2>' +
-        '<p class="otkljPod">Your next payment moves from <b>' + accDatum(stara) + '</b> to <b>' + accDatum(nova) +
-        '</b>. Nothing else changes.</p>' + odKoga +
+      html = '<h2>' + T_('Extend your Plus by %1?', jed) + '</h2>' +
+        '<p class="otkljPod">' + T_('Your next payment moves from <b>%1</b> to <b>%2</b>. Nothing else changes.', accDatum(stara), accDatum(nova)) +
+        '</p>' + odKoga +
         '<div class="accGumbi"><button class="gumb gumbSivi" data-zatvori>Not now</button>' +
-        '<button class="gumb" id="accKodDa">Extend to ' + accDatum(nova) + '</button></div>';
+        '<button class="gumb" id="accKodDa">' + T_('Extend to %1', accDatum(nova)) + '</button></div>';
     } else {
       var pocetak = new Date();
       [accBesplatnoDo(), p && p.vrijedi_do ? new Date(p.vrijedi_do) : null,
@@ -13323,10 +13496,10 @@
       });
       var kraj = accDodaj(pocetak, r.vrsta);
       var kasnije = pocetak > new Date(Date.now() + 60000);
-      html = '<h2>' + (kasnije ? 'Add ' + jed + ' of Croland Plus?' : 'Activate ' + jed + ' of Croland Plus?') + '</h2>' +
+      html = '<h2>' + (kasnije ? T_('Add %1 of Croland Plus?', jed) : T_('Activate %1 of Croland Plus?', jed)) + '</h2>' +
         '<p class="otkljPod">' + (kasnije
-          ? 'It starts on <b>' + accDatum(pocetak) + '</b>, when your current access ends, and runs until <b>' + accDatum(kraj) + '</b>.'
-          : 'Everything unlocked until <b>' + accDatum(kraj) + '</b>.') +
+          ? T_('It starts on <b>%1</b>, when your current access ends, and runs until <b>%2</b>.', accDatum(pocetak), accDatum(kraj))
+          : T_('Everything unlocked until <b>%1</b>.', accDatum(kraj))) +
         ' No card needed, and it won\'t renew on its own.</p>' + odKoga +
         '<div class="accGumbi"><button class="gumb gumbSivi" data-zatvori>Not now</button>' +
         '<button class="gumb" id="accKodDa">Activate</button></div>';
@@ -13349,8 +13522,8 @@
           resetirajPlusSadrzaj(); ucitajPlusSadrzaj(); osvjeziHeader();
           renderAccount();
           accPoruka('Done!', j.nacin === 'pretplata'
-            ? 'Your next payment is now on ' + accDatum(j.novi_do) + '.'
-            : 'You have Croland Plus until ' + accDatum(j.novi_do) + '.');
+            ? T_('Your next payment is now on %1.', accDatum(j.novi_do))
+            : T_('You have Croland Plus until %1.', accDatum(j.novi_do)));
         });
       }).catch(function () { m.zatvori(); accPoruka('Something went wrong', 'The code was not used. Please try again.'); });
     };
@@ -13398,13 +13571,13 @@
     var usteda = Math.round((1 - c.godina / (c.mjesec * 12)) * 100);
     return '<div class="accCijene">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
         return '<button type="button" class="accCijena" data-paket="' + k + '" aria-pressed="' + (ACC.paket === k) + '">' +
-          (k === 'godina' && usteda > 0 ? '<span class="accVrpca">Save ' + usteda + '%</span>' : '') +
+          (k === 'godina' && usteda > 0 ? '<span class="accVrpca">' + T_('Save %1%', usteda) + '</span>' : '') +
           '<span class="accCNaz">' + ACC_IME[k] + '</span>' +
           '<span class="accCIznos">' + accNovac(c[k]) + '</span>' +
-          '<span class="accCPod">' + (k === 'godina' ? accNovac(c.godina / 12) + ' a month' : 'per ' + ACC_JED[k]) + '</span>' +
+          '<span class="accCPod">' + (k === 'godina' ? T_('%1 a month', accNovac(c.godina / 12)) : ACC_PO[k]) + '</span>' +
         '</button>';
       }).join('') + '</div>' +
-      '<div class="accAkcija"><button class="accBtn" id="accKupiPaket">Continue with ' + ACC_IME[ACC.paket].toLowerCase() + '</button>' +
+      '<div class="accAkcija"><button class="accBtn" id="accKupiPaket">' + ACC_NASTAVI[ACC.paket] + '</button>' +
       '<span class="accTiho">Cancel anytime ' + accInfo('Plans renew automatically until you cancel. You can cancel on this page in two clicks and keep Plus until the end of the period you paid for. Prices include VAT. Payments are handled by Paddle, our reseller.') + '</span></div>';
   }
   function accCustom() {
@@ -13413,14 +13586,14 @@
     var klizac = Math.round(Math.log(ACC.n) / Math.log(c.max) * 1000);
     return '<div class="accVrste">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
         return '<button type="button" class="accVrsta" data-vrsta="' + k + '" aria-pressed="' + (ACC.vrsta === k) + '">' +
-          '1 ' + ACC_JED[k] + '</button>';
+          ACC_JEDAN[k] + '</button>';
       }).join('') + '</div>' +
       '<div class="accKolicina"><input type="number" id="accN" min="1" max="' + c.max + '" value="' + ACC.n + '" aria-label="Number of codes">' +
         '<input type="range" id="accNR" min="0" max="1000" value="' + klizac + '" aria-label="Number of codes"></div>' +
       '<div class="accZbroj"><div><div class="accUkupno">' + accNovac(r.ukupno) + '</div>' +
         '<div class="accTiho" id="accZbrojOpis">' + ACC.n + ' × ' + accNovac(r.poKodu) +
         (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '') + '</div></div>' +
-        '<button class="accBtn" id="accKupiKodove">Buy ' + ACC.n + (ACC.n === 1 ? ' code' : ' codes') + '</button></div>';
+        '<button class="accBtn" id="accKupiKodove">' + (ACC.n === 1 ? T_('Buy %1 code', ACC.n) : T_('Buy %1 codes', ACC.n)) + '</button></div>';
   }
   function accKodoviOdjeljak(otvoren) {
     return '<details class="accKartica accSklop"' + (otvoren ? ' open' : '') + '><summary>' +
@@ -13450,10 +13623,10 @@
       var dalje = p.placeni_paket && p.paket && p.placeni_paket !== p.paket;
       var trenutni = p.placeni_paket || p.paket;
       var opis = (ACC_IME[trenutni] || 'Plus') +
-        (p.cijena_iznos && !dalje ? ' · ' + accNovac(Number(p.cijena_iznos)) + ' / ' + ACC_JED[trenutni] : '') + ' · ' +
-        (p.status === 'paused' ? 'paused' : p.auto_obnova ? 'renews ' + accDatum(p.vrijedi_do)
-          : 'ends ' + accDatum(p.vrijedi_do)) +
-        (dalje ? ' · then ' + ACC_IME[p.paket].toLowerCase() : '');
+        (p.cijena_iznos && !dalje ? ' · ' + T_(ACC_CIJENA_PO[trenutni], accNovac(Number(p.cijena_iznos))) : '') + ' · ' +
+        (p.status === 'paused' ? T_('paused') : p.auto_obnova ? T_('renews %1', accDatum(p.vrijedi_do))
+          : T_('ends %1', accDatum(p.vrijedi_do))) +
+        (dalje ? T_(' · then %1', ACC_IME[p.paket].toLowerCase()) : '');
       return '<div class="accKartica accPlan accJePlus">' +
         '<div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
           (p.status === 'past_due' ? '<span class="accZnacka accZnUpoz">Payment issue</span>'
@@ -13471,9 +13644,9 @@
     if (st === 'kod') {
       return '<div class="accKartica accPlan accJePlus"><div class="accPlanVrh"><div class="accPlanIme">Croland Plus</div>' +
           '<span class="accZnacka accZnOk">Active</span></div>' +
-        '<p class="accPlanOpis">From codes · until ' + accDatum(ENTITLEMENT.kod_do) + ' · doesn\'t renew</p>' +
+        '<p class="accPlanOpis">' + T_('From codes · until %1 · doesn\'t renew', accDatum(ENTITLEMENT.kod_do)) + '</p>' +
         accKodTraka() + '</div>' +
-        '<details class="accKartica accSklop"><summary><span class="accSklopNas">Keep Plus after ' + accDatum(ENTITLEMENT.kod_do) + '</span>' +
+        '<details class="accKartica accSklop"><summary><span class="accSklopNas">' + T_('Keep Plus after %1', accDatum(ENTITLEMENT.kod_do)) + '</span>' +
           '<span class="accTiho">Start a plan — your remaining code time is added to it</span></summary>' +
           '<div class="accSklopTijelo">' + accPaketi() + '</div></details>';
     }
@@ -13527,7 +13700,7 @@
     ACC.kodIzAdrese = null;
     try { ACC.kodIzAdrese = sessionStorage.getItem(ACC_KOD_KLJUC); } catch (e) {}
     var oRacunu = (pr.indexOf('google') !== -1 ? 'Signed in with Google' : 'Signed in with email') +
-      (u.created_at ? ' · member since ' + new Date(u.created_at).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }) : '');
+      (u.created_at ? T_(' · member since %1', new Date(u.created_at).toLocaleDateString(LOKAL_DATUM, { month: 'long', year: 'numeric' })) : '');
 
     VIEW.innerHTML = '<div class="acc">' +
       '<div class="accZaglavlje"><h1 class="sekcija">Account</h1>' +
@@ -13541,7 +13714,7 @@
       accMojiKodovi() +
       accPostavke() +
       accPodaci() +
-      '<p class="accDno"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></p>' +
+      '<p class="accDno"><a href="' + pravnaStranica('privacy') + '">Privacy</a><a href="' + pravnaStranica('terms') + '">Terms</a></p>' +
       '</div>';
 
     accVezi();
@@ -13573,7 +13746,7 @@
       ['Level 1 on every track', true, true],
       ['Daily challenges and mini games', true, true],
       ['Level 2 and above', false, true],
-      ['AI help on exercises', '1/day', '20/day']
+      ['AI help on exercises', T_('1/day'), T_('20/day')]
     ];
     var celija = function (x) {
       return x === true ? '<td class="accDa">' + IK('kvaka') + '</td>' : x === false ? '<td class="accNe">—</td>' : '<td>' + x + '</td>';
@@ -13589,7 +13762,7 @@
     VIEW.innerHTML = '<div class="acc">' +
       '<div class="accHero"><h1 class="sekcija">Croland Plus</h1>' +
         '<p class="accUvod">Every level, every track — all of Croatian, unlocked.</p>' +
-        (besplatno ? '<p class="accPilula">Free for everyone until ' + accDatum(besplatno) + '</p>' : '') + '</div>' +
+        (besplatno ? '<p class="accPilula">' + T_('Free for everyone until %1', accDatum(besplatno)) + '</p>' : '') + '</div>' +
       '<div class="accKartica accPlan">' + accPaketi() + '</div>' +
       '<div class="accGostRed">' +
         '<div class="accKartica"><div class="accPodnaslov">Free or Plus</div>' + accUsporedba() + '</div>' +
@@ -13601,7 +13774,7 @@
         '</div></div>' +
       '<div class="accKartica">' + accKodTraka(true) + '</div>' +
       accKodoviOdjeljak(false) +
-      '<p class="accDno"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></p>' +
+      '<p class="accDno"><a href="' + pravnaStranica('privacy') + '">Privacy</a><a href="' + pravnaStranica('terms') + '">Terms</a></p>' +
       '</div>';
 
     var prijava = function () { prikaziModalPrijava({ view: 'account' }); };
@@ -13693,7 +13866,7 @@
     Array.prototype.forEach.call(document.querySelectorAll('.accCijena'), function (b) {
       b.setAttribute('aria-pressed', String(b.getAttribute('data-paket') === ACC.paket));
     });
-    var kp = $('accKupiPaket'); if (kp) kp.textContent = 'Continue with ' + ACC_IME[ACC.paket].toLowerCase();
+    var kp = $('accKupiPaket'); if (kp) kp.textContent = ACC_NASTAVI[ACC.paket];
   }
   function accVeziCustom() {
     var n = $('accN'); if (!n) return;
@@ -13709,7 +13882,7 @@
         $('accZbrojOpis').innerHTML = ACC.n + ' × ' + accNovac(r.poKodu) +
           (r.popust > 0 ? ' · <span class="accPopust">−' + r.popust + '%</span>' : '');
       }
-      $('accKupiKodove').textContent = 'Buy ' + ACC.n + (ACC.n === 1 ? ' code' : ' codes');
+      $('accKupiKodove').textContent = ACC.n === 1 ? T_('Buy %1 code', ACC.n) : T_('Buy %1 codes', ACC.n);
     };
     Array.prototype.forEach.call(document.querySelectorAll('.accVrsta'), function (b) {
       b.onclick = function () { ACC.vrsta = b.getAttribute('data-vrsta'); osvjezi(); };
@@ -13735,15 +13908,16 @@
     var izbor = trenutni === 'godina' ? 'mjesec' : 'godina';
     var c = accCijene();
     var crtaj = function () {
-      return '<h2>Change plan</h2><p class="otkljPod">You\'re on <b>' + ACC_IME[p.placeni_paket || trenutni] +
-        '</b>, paid until <b>' + accDatum(p.vrijedi_do) + '</b>. The new plan starts then — you keep everything you\'ve paid for.</p>' +
+      return '<h2>Change plan</h2><p class="otkljPod">' +
+        T_('You\'re on <b>%1</b>, paid until <b>%2</b>. The new plan starts then — you keep everything you\'ve paid for.',
+          ACC_IME[p.placeni_paket || trenutni], accDatum(p.vrijedi_do)) + '</p>' +
         '<div class="accCijene" style="margin-top:1rem">' + ['tjedan', 'mjesec', 'godina'].map(function (k) {
           return '<button type="button" class="accCijena" data-pk="' + k + '" aria-pressed="' + (izbor === k) + '"' +
             (k === trenutni ? ' disabled style="opacity:.5;cursor:default"' : '') + '><span class="accCNaz">' + ACC_IME[k] + '</span>' +
-            '<span class="accCPod">' + (k === trenutni ? 'current plan' : accNovac(c[k]) + ' / ' + ACC_JED[k]) + '</span></button>';
+            '<span class="accCPod">' + (k === trenutni ? T_('current plan') : T_(ACC_CIJENA_PO[k], accNovac(c[k]))) + '</span></button>';
         }).join('') + '</div>' +
         '<div class="accGumbi"><button class="gumb gumbSivi" data-zatvori>Cancel</button>' +
-        '<button class="gumb" id="accPromjenaDa">Switch to ' + ACC_IME[izbor] + ' on ' + accDatum(p.vrijedi_do) + '</button></div>';
+        '<button class="gumb" id="accPromjenaDa">' + T_('Switch to %1 on %2', ACC_IME[izbor], accDatum(p.vrijedi_do)) + '</button></div>';
     };
     var m = accModal(crtaj());
     var vezi = function () {
@@ -13814,7 +13988,7 @@
       var redovi = ACC.kodovi || [];
       if (!redovi.length) { okvir.innerHTML = '<p class="accTiho" style="margin:0">No codes yet.</p>'; return; }
       var slobodni = redovi.filter(function (r) { return r.stanje === 'slobodan'; }).length;
-      var html = '<p class="accTiho" style="margin:0 0 .5rem">' + redovi.length + ' codes · ' + slobodni + ' unused ' +
+      var html = '<p class="accTiho" style="margin:0 0 .5rem">' + T_('%1 codes · %2 unused', redovi.length, slobodni) + ' ' +
         accInfo('Anyone with a code can redeem it. Share a code or its link however you like; unused codes stay valid for 2 years from purchase.') + '</p>' +
         '<div class="accTablicaOkvir"><table class="accKodoviT"><thead><tr><th>Code</th><th>Status</th><th class="accSkrijMob">Points</th><th></th></tr></thead><tbody>';
       var zadnjiDan = null;
@@ -13822,10 +13996,10 @@
         var dan = accDatum(r.kupljeno);
         if (dan !== zadnjiDan) {
           zadnjiDan = dan;
-          html += '<tr class="accGrupa"><td colspan="4">Bought ' + dan + ' · redeem by ' + accDatum(r.unos_do) + '</td></tr>';
+          html += '<tr class="accGrupa"><td colspan="4">' + T_('Bought %1 · redeem by %2', dan, accDatum(r.unos_do)) + '</td></tr>';
         }
-        var stanje = r.stanje === 'slobodan' ? '<span class="accStKod accSlob">Unused</span> · 1 ' + ACC_JED[r.vrsta]
-          : r.stanje === 'iskoristen' ? '<span class="accStKod">Redeemed</span> by <b>' + esc(r.nadimak || 'Someone') + '</b>' +
+        var stanje = r.stanje === 'slobodan' ? '<span class="accStKod accSlob">Unused</span> · ' + ACC_JEDAN[r.vrsta]
+          : r.stanje === 'iskoristen' ? T_('<span class="accStKod">Redeemed</span> by <b>%1</b>', esc(r.nadimak || T_('Someone'))) +
               (r.iskoristeno_at ? ' · ' + accDatum(r.iskoristeno_at) : '')
           : r.stanje === 'istekao' ? '<span class="accStKod">Expired</span>'
           : '<span class="accStKod">Cancelled</span>';
@@ -13867,9 +14041,9 @@
     var w = window.open('', '_blank');
     if (!w) return;
     var kartice = kodovi.map(function (r) {
-      return '<div class="k"><div class="n">Croland Plus</div><div class="t">1 ' + ACC_JED[r.vrsta] + ' of Croatian</div>' +
-        '<div class="c">' + esc(r.kod) + '</div><div class="u">Redeem at ' + esc(POVRATAK_PRIJAVE) + '?redeem=' + esc(r.kod) +
-        '<br>by ' + accDatum(r.unos_do) + '</div></div>';
+      return '<div class="k"><div class="n">Croland Plus</div><div class="t">' + T_('%1 of Croatian', ACC_JEDAN[r.vrsta]) + '</div>' +
+        '<div class="c">' + esc(r.kod) + '</div><div class="u">' +
+        T_('Redeem at %1<br>by %2', esc(POVRATAK_PRIJAVE) + '?redeem=' + esc(r.kod), accDatum(r.unos_do)) + '</div></div>';
     }).join('');
     w.document.write('<!doctype html><html><head><meta charset="utf-8"><title>Croland codes</title><style>' +
       'body{font-family:system-ui,sans-serif;margin:1cm}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:.5cm}' +
@@ -13886,7 +14060,7 @@
       var ljudi = ACC.darivatelji || [];
       if (!ljudi.length) { okvir.innerHTML = ''; return; }
       var vide = ljudi.filter(function (p) { return !p.skriveno; }).length;
-      okvir.innerHTML = accRed('Shared with code givers', vide + ' of ' + ljudi.length + ' can see your name and points',
+      okvir.innerHTML = accRed('Shared with code givers', T_('%1 of %2 can see your name and points', vide, ljudi.length),
         '<button class="accVeza" id="accDarivBtn">Manage</button>',
         'People whose codes you redeemed see your display name and points, unless you hide it. You can also let them see your lessons and activity dates.');
       $('accDarivBtn').onclick = prozor;
@@ -13963,7 +14137,7 @@
         (p ? '<li>Your subscription is cancelled now. The rest of the paid period is not refunded.</li>' : '') +
         (imaKupnje ? '<li>Codes you bought stay valid for whoever has them. <button class="accVeza" id="accBrisiCsv">Download them first</button>.</li>' : '') +
         '<li>This can\'t be undone.</li></ul>' +
-      '<div class="poljeP"><label for="accPotvrda">Type <b>DELETE</b> to confirm</label><input id="accPotvrda" autocomplete="off"></div>' +
+      '<div class="poljeP"><label for="accPotvrda">' + T_('Type <b>DELETE</b> to confirm') + '</label><input id="accPotvrda" autocomplete="off"></div>' +
       '<p class="greskaP" id="accBrisiPoruka"></p>' +
       '<div class="accGumbi"><button class="gumb gumbSivi" data-zatvori>Cancel</button>' +
       '<button class="gumb accGumbOpasnoPun" id="accBrisiDa" disabled>Delete forever</button></div>');

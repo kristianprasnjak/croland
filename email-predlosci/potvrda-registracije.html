@@ -1,0 +1,16 @@
+<!-- Croland: potvrda-registracije. Jezik iz user_metadata.jezik (upisuje ga aplikacija pri registraciji i prijavi).
+     Novi jezik = novi blok "else if eq $j" s kodom jezika. Bez jezika ili nepoznat jezik = engleski. -->
+{{ $j := "" }}{{ with .Data.jezik }}{{ $j = printf "%v" . }}{{ end }}
+<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:520px;margin:0 auto;padding:24px;color:#2a2420;line-height:1.55">
+{{ if eq $j "de" }}
+<h1 style="font-size:22px;margin:0 0 12px">Willkommen bei Croland!</h1>
+<p>Bitte bestätige deine E-Mail-Adresse, um dein Konto fertig einzurichten.</p>
+<p style="margin:24px 0"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#b3452c;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:600">E-Mail bestätigen</a></p>
+<p style="color:#7a6f62;font-size:13px">Wenn du dich nicht bei Croland registriert hast, kannst du diese E-Mail ignorieren.</p>
+{{ else }}
+<h1 style="font-size:22px;margin:0 0 12px">Welcome to Croland!</h1>
+<p>Please confirm your email address to finish creating your account.</p>
+<p style="margin:24px 0"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#b3452c;color:#fff;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:600">Confirm email</a></p>
+<p style="color:#7a6f62;font-size:13px">If you didn't sign up for Croland, you can ignore this email.</p>
+{{ end }}
+</div>
