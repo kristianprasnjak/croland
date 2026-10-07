@@ -1,0 +1,40 @@
+en	pravilo	razlog
+# Stringovi koji namjerno krše pravilo provjeri-stil.py. pravilo: upitnik, usklicnik, navodnici, zabranjeno, glosar, engleski, ime iz "pazi", duljina ili * (sva).
+PP	engleski	kratica Puntos de práctica – ista kao engleska (ES-plan §0)
+**Now you write them.** To a friend: Kako [si]? To a stranger: Kako [ste]? He is *kuhar*, she is [kuharica].	upitnik	hrvatska pitanja u tekstu (Kako [si]?) – bez ¿
+What does "Kako ste?" mean?	upitnik	unutarnji ? pripada hrvatskom pitanju u navodnicima
+"Vi ste odlični!" | "You are excellent!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Ana zove Marka još jednom. "Marko!" | Ana calls Marko once more. "Marko!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+A timed picture-to-word game over the city vocabulary. Everything is a naming form with no endings; for extra value, whisper the target form as you tap, remembering that only *policajac* shifts, to *policajca*.	glosar	„picture-to-word game“ nije igra Word game (Juego de vocabulario)
+Moj prijatelj je zvao: "Idemo u kino!" | My friend called: "Let's go to the cinema!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Mama kaže: "Juha je zdrava!" | Mom says: "Soup is healthy!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Mama nije sretna: "To nije zdravo!" | Mom isn't happy: "That isn't healthy!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+"Ne!" — to je njegova omiljena riječ. | "No!" — that is his favorite word.	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Baki Mariji uvijek kaže: "Dobro jutro!" | To Grandma Marija he always says: "Good morning!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+**Now you write them.** Komu šalješ paket? Not to him — to her: [Njoj]! Grandma sent him a package: Baka [mu] je poslala paket. You'll buy her a scarf: Kupit ću [joj] šal.	usklicnik	hrvatski odgovor [Njoj]! u tekstu – bez ¡
+**Now you write them.** Ideš li sa [mnom]? Idem s [tobom]. Marko is going too: Idem s [njim].	upitnik	hrvatsko pitanje u tekstu (Ideš li sa [mnom]?) – bez ¿
+Ideš li ___ ? (with me)	upitnik	hrvatsko pitanje s prazninom – bez ¿
+Putujete li ___ ? (by car)	upitnik	hrvatsko pitanje s prazninom – bez ¿
+**Now you write them.** Idemo [vlakom]. Putujem [autobusom]. Ideš [autom] ili [biciklom]? [S] kim ideš na koncert?	upitnik	hrvatska pitanja u tekstu – bez ¿
+Idete li ___ ? (with us)	upitnik	hrvatsko pitanje s prazninom – bez ¿
+Tko putuje ___ ? (with me)	upitnik	hrvatsko pitanje s prazninom – bez ¿
+**Now you write them.** Nema [problema]! Nema [interneta]. Dolazim iz [Zagreba].	usklicnik	hrvatski uzvik u tekstu (Nema [problema]!) – bez ¡
+**Now you write them.** gledaš → [Gledaj]! ideš → [Idi]! uzmeš → [Uzmi]! piješ → [Pij]!	usklicnik	hrvatske naredbe u tekstu ([Gledaj]!) – bez ¡
+Njegove riječi su kratke: "Trčite! Skočite! Dodajte loptu! Ne spavajte!" | His words are short: "Run! Jump! Pass the ball! Don't sleep!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+"Pij vodu!" kaže Ivanu. | "Drink water!" he says to Ivan.	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+"Ne gledaj telefon!" kaže Maji. | "Don't look at your phone!" he says to Maja.	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+"Nemoj kasniti!" kaže Marku. | "Don't be late!" he says to Marko.	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Na kraju treninga uvijek kaže isto: "Jedite dobro, spavajte i dođite sutra." | At the end of training he always says the same: "Eat well, sleep and come tomorrow."	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Svatko kaže jednu naredbu: "Miješaj!", "Zagrij tavu!", "Dodaj sol!" i "Okreni palačinku!" | Each one gives one order: "Mix!", "Heat up the pan!", "Add salt!" and "Flip the pancake!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Baka ne kaže ni "Miješaj!" ni "Dodaj sol!". | Grandma says neither "Mix!" nor "Add salt!".	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Marko ne kaže ni "Dodaj sol!" ni "Zagrij tavu!". | Marko says neither "Add salt!" nor "Heat up the pan!".	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Mama ne kaže ni "Okreni palačinku!" ni "Zagrij tavu!". | Mum says neither "Flip the pancake!" nor "Heat up the pan!".	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Tata ne kaže ni "Miješaj!" ni "Okreni palačinku!". | Dad says neither "Mix!" nor "Flip the pancake!".	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Luka (19), student: "Putovao bih oko svijeta. Prvo u Japan!" | Luka (19), student: "I would travel around the world. Japan first!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Vesna (45), učiteljica: "Kupila bih kuću na otoku. I više ne bih radila!" | Vesna (45), teacher: "I would buy a house on an island. And I wouldn't work any more!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Zoran (70), djed: "Ništa ne bih kupio. Štedio bih za unuke." | Zoran (70), grandfather: "I wouldn't buy anything. I would save for my grandchildren."	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+Maja (28), doktorica: "Pola bih dala bolnici, a za pola bih kupila stan u Zagrebu." | Maja (28), doctor: "I would give half to the hospital, and with the other half I would buy a flat in Zagreb."	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+**Now you write them.** Nemoj [pisati]! Svaki dan [čitam]. Napokon sam [pročitao] knjigu.	usklicnik	hrvatska naredba u tekstu (Nemoj [pisati]!) – bez ¡
+Mama: "Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!" | Mum: "Well done, you washed the car and cooked lunch. But you haven't written your homework, and Grandma is still waiting for the e-mail!"	navodnici	hrvatski dio retka s ravnim navodnicima mora ostati isti
+banana → bananas	engleski	banana je ista riječ u španjolskom (i hrvatskom) – namjerno isto
+3 bananas	engleski	bananas je ista riječ u španjolskom – namjerno isto

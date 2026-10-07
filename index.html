@@ -13,7 +13,9 @@
       { id: 'en', ime: 'English', stranica: 'index.html', izbor: 'Choose your language',
         opis: 'Explanations, hints and translations in English.' },
       { id: 'de', ime: 'Deutsch', stranica: 'index-de.html', izbor: 'Wähle deine Sprache', pravno: true,
-        opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' }
+        opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' },
+      { id: 'es', ime: 'Español', stranica: 'index-es.html', izbor: 'Elige tu idioma',
+        opis: 'Explicaciones, pistas y traducciones en español.' }
     ];
     window.CROLAND_JEZICI = JEZICI;
     window.CROLAND_JEZIK_STRANICE = JEZIK_STRANICE;
@@ -1904,6 +1906,38 @@
   }
   .miniSaz strong { color: var(--ink); }
   .miniDno { margin-top: 2rem; }
+  /* Oznaka na slici igre: Free (besplatna) ili lokot + Plus (treba pretplatu). */
+  .extraKart .sl { position: relative; }
+  .igOznaka {
+    position: absolute; left: 0.5rem; top: 0.5rem; z-index: 1; display: inline-flex; align-items: center; gap: 0.25rem;
+    font-size: var(--t-xs); font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+    border-radius: var(--rad-s); padding: 0.125rem 0.4375rem; line-height: 1.5;
+  }
+  .igOznaka.free { background: var(--zelena); color: #fff; }
+  .igOznaka.plus { background: rgba(25,23,19,.62); color: #fff; }
+  .igOznaka .ikn { width: 0.875em; height: 0.875em; }
+  .igPlay.zak .ikn { width: 1.1em; height: 1.1em; margin-right: 0.375rem; vertical-align: -0.15em; }
+  /* Traka "Continue" na vrhu Games & Extras: zadnja odigrana igra, jedan dodir. */
+  .nastaviIgru {
+    display: flex; align-items: center; gap: 0.875rem; margin: 0 0 0.5rem; padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); cursor: pointer;
+    transition: border-color .15s, transform .15s;
+  }
+  .nastaviIgru:hover { border-color: var(--plava); transform: translateY(-1px); }
+  .nastaviIgru:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .nastaviIgru .sl { flex: none; width: 5.5rem; aspect-ratio: 3 / 2; border-radius: var(--rad-m); overflow: hidden; background: var(--rub); }
+  .nastaviIgru .sl img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .nastaviIgru .sl .emoSl > span { font-size: var(--t-xs); }
+  .nastaviIgru .tekst { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.0625rem; }
+  .nastaviIgru .nad { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
+  .nastaviIgru .ime { font-family: var(--naslov); font-weight: 600; font-size: var(--t-l); letter-spacing: -.01em; }
+  .nastaviIgru .pod { font-size: var(--t-s); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nastaviIgru .gumbN {
+    flex: none; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    background: var(--plava); color: #fff;
+  }
+  .nastaviIgru.zak .gumbN { background: var(--muted); }
+  .nastaviIgru .gumbN svg { width: 1.125rem; height: 1.125rem; fill: currentColor; }
   .miniNas:first-child { margin-top: 0; }
 
   /* ================= PROZOR IGRE =================
@@ -3895,6 +3929,22 @@
     return imaPretplatu() ? 'ok' : 'needsSubscription';
   }
 
+  // Pristup jednoj igri (mini igra ili Extras). Besplatne traze samo racun; sve
+  // ostale traze pretplatu. Daily i Weekly ostaju na imaPristup('MiniGame').
+  function pristupIgri(g) {
+    if (!SESSION_SPREMNA) return 'ucitavanje';
+    if (!imaRacun()) return 'needsAccount';
+    if (g && g.besplatno) return 'ok';
+    return imaPretplatu() ? 'ok' : 'needsSubscription';
+  }
+  // Za kartice: treba li igri lokot. Gost vidi lokot na svemu sto nije besplatno.
+  function igraZakljucana(g) { return !!g && !g.besplatno && !imaPretplatu(); }
+  function igraOznakaHtml(g) {
+    if (g.besplatno) return '<span class="igOznaka free">' + esc('Free') + '</span>';
+    if (igraZakljucana(g)) return '<span class="igOznaka plus">' + IK('brava') + 'Plus</span>';
+    return '';
+  }
+
   var IGRE = [];        // sve igre normalizirane
   var SLIKE = (window.PODACI && window.PODACI.slike) ? window.PODACI.slike : {};
   var ZVUK = (window.PODACI && window.PODACI.zvukovi) ? window.PODACI.zvukovi : {};
@@ -4017,6 +4067,8 @@
   // Igra koja danas nema dovoljno sadrzaja da se dodje do 1500 jednostavno placa manje —
   // brojka je narudzba sadrzaja, ne procjena.
   var MINI_MAKS = 1500;           // strop, isti za sve igre
+  // `besplatno: true` = igra trazi samo racun (kao Daily i Weekly). Sve ostale igre i
+  // svi Extras traze Croland Plus, isto kao razina 2 i vise — vidi pristupIgri().
   var MINI_IGRE = [
     { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Town', /* razmjerno: 5 zadataka */ maks: 1500, zaslon: 'polozeno',
       opis: 'Walk around town, talk to people, solve five tasks: shopping, delivery, quiz and a chat at the till.' },
@@ -4024,7 +4076,7 @@
       opis: 'Pictures flash, you write them down from memory — strictly, diacritics included. A hundred levels, three hearts.' },
     { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'Fortress', /* razmjerno: 12 soba */ maks: 1500,
       opis: 'The castellan is in hospital and every key is hidden. Twelve rooms, one key at a time, before the town council votes to sell the fortress.' },
-    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Tavern', stopa: 10, /* 150 narudžbi */ maks: 1500,
+    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Tavern', besplatno: true, stopa: 10, /* 150 narudžbi */ maks: 1500,
       opis: 'Guests order in the accusative, you serve from pictures. Eight shifts, more items and adjectives each time.' },
     { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Warehouse', stopa: 10, /* posao 150 */ maks: 1500,
       opis: 'You pick the stake. Push word crates into the garage of their category. Bigger stake, bigger warehouse.' },
@@ -4034,13 +4086,13 @@
       opis: 'Collect only the words of the given category. Intruders cost you hearts, ghosts chase you.' },
     { id: 'zmija', slika: 'zmija.webp', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Snake', stopa: 20, /* 75 riječi */ maks: 1500,
       opis: 'Eat letters in the right order to spell the word on the picture. A wrong letter costs a heart.' },
-    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Platformer', stopa: 20, /* 75 razina */ maks: 1500,
+    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Platformer', besplatno: true, stopa: 20, /* 75 razina */ maks: 1500,
       opis: 'Two shores and a lighthouse. Jump into the cloud with the right word, climb to the portal and cross to the other side. Crabs climb too.' },
     { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Survival', stopa: 20, /* 75 odgovora */ maks: 1500,
       opis: 'Twenty correct answers against the clock. Hits go to your mastered list, misses to the review list.' },
     { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Base Defense', stopa: 20, /* 75 meta */ maks: 1500, zaslon: 'polozeno',
       opis: 'Words fall towards your base, you click the translation. Fifteen waves, both directions, four answers along the bottom.' },
-    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', /* razmjerno: 128 gradova */ maks: 1500,
+    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Croatian Towns', besplatno: true, /* razmjerno: 128 gradova */ maks: 1500,
       opis: 'All 128 towns of Croatia, from Ilok on the Danube to Dubrovnik. In each one a person talks to you in Croatian and only one of three replies fits. Three hearts that never come back.' }
   ];
   var MINI_MAPA = 'mini-igre/';
@@ -4235,6 +4287,7 @@
   // razine. Igra ostaje, bez bodova; `maks` je zato 0 i sveIgre() je ne obuhvaca.
   var EXTRA_IGRE = [
     { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Listen Read Write Speak', maks: 0,
+      podnozje: 'no points — your own text',
       stil: 'Notebook',
       opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' }
   ];
@@ -5655,7 +5708,7 @@
     crtaj();
     setTimeout(function () { var f = $('prEmail'); if (f) f.focus(); }, 60);
   }
-  function prikaziModalPretplata() {
+  function prikaziModalPretplata(tekst) {
     var star = $('pretplataOverlay'); if (star) star.remove();
     var ov = document.createElement('div'); ov.id = 'pretplataOverlay';
     ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
@@ -5664,7 +5717,7 @@
     m.innerHTML =
       '<div class="otkljIkona">' + IK('brava', 'krupna') + '</div>' +
       '<h2>Croland Plus</h2>' +
-      '<p class="otkljPod">Level 2 and above are part of Croland Plus. See plans and codes on your account page.</p>';
+      '<p class="otkljPod">' + (tekst || 'Level 2 and above are part of Croland Plus. See plans and codes on your account page.') + '</p>';
     var idi_ = document.createElement('button'); idi_.className = 'gumb'; idi_.textContent = 'See plans';
     idi_.onclick = function () { ov.remove(); idi('account'); };
     var zatvori = document.createElement('button'); zatvori.className = 'gumb gumbSivi'; zatvori.textContent = 'Not now';
@@ -5859,13 +5912,13 @@
     "Here's a secret: you already speak some Croatian",
     "By the end of this lesson you'll describe houses",
     "To say anything about anything, Croatian needs",
-    "Notice what's missing?",
+    "Notice what's missing.",
     "Bravo! You just built your first Croatian",
     "You've already used everything on this page",
     "Every noun has a gender.",
     "One exception worth knowing.",
     "Time to read real Croatian!",
-    "In Lesson 1 you described houses and coffee",
+    "In Lesson 1 you described houses, coffee and the sea",
     "One verb, six forms — and you already know",
     "Spot the pattern:",
     "Odlično! You can now introduce yourself",
@@ -5874,7 +5927,7 @@
     "Four people introduce themselves",
     "So far you can describe the world",
     "And notice something: you often don't even need",
-    "The ending is the name tag:",
+    "The ending is the name tag.",
     "Sjajno! You can now say what you and others",
     "In Lesson 3 your ear learned the endings",
     "Drop the pronoun:",
@@ -5895,31 +5948,31 @@
     "Your accusative in action",
     "Last lesson you mastered the",
     "Things stay the same. People and animals get",
-    "Two quirks to meet today:",
+    "Two quirks to meet today.",
     "Bravo! You now handle the accusative for",
     "Croatian likes to mark",
     "This is why Lesson 3 felt easy",
     "City life, written the way Croatians actually",
     "One coffee, one friend, one tram",
     "We'll practice in the liveliest place possible",
-    "One exception today:",
+    "Two exceptions today.",
     "Sjajno! You can now talk about many things",
     "With this page your present tense is",
     "Learn them as words, not rules.",
     "A school day in the plural",
     "Summer is coming",
     "The Croatian future is refreshingly simple",
-    "Recognize the rhythm?",
+    "Recognise the rhythm?",
     "Odlično! Past lessons gave you the present",
     "Rule of thumb: the helper",
     "Summer plans — the kind of message",
     "Today's lesson is full of words you already know",
-    "The new bit: making things",
+    "The new bit is making things",
     "The familiar trio again",
     "Bravo! Things are officially",
-    "The possessives are adjectives at heart",
+    "Possessives are adjectives at heart",
     "English speakers: this is the one trap.",
-    "A club, a hobby, and a few people",
+    "A club, a hobby, and a family that cannot agree",
     "You can describe, ask, plan and dream in Croatian",
     "Good news: the past tense recycles something",
     "Let's talk about yesterday.",
@@ -5936,46 +5989,46 @@
     "You've been suspiciously agreeable",
     "Today you learn to refuse soup",
     "English teachers hate this.",
-    "Bravo! You can now refuse, deny and protest",
-    "In Croatian, negatives stack",
+    "Bravo! You can now refuse, complain and order",
+    "Croatian negative words need a second ne.",
     "A family of picky eaters",
     "Since Lesson 5 you can say where you're",
     "One tiny ending",
-    "Same u/na logic as before:",
+    "Same u/na logic as before.",
     "Sjajno! You now know where you're going AND",
     "Everyone is somewhere different",
     "December in Croatia: presents for everyone!",
     "Those endings",
     "Word order is flexible",
-    "Divno! You can now give, send and bring",
+    "Divno! You can now give, send, bring and write things to anyone",
     "The dative marks the",
     "December, and everyone is buying something",
     "Friday night! You're going out",
     "Today's case is the instrumental",
     "Think of it as: the vehicle is your instrument",
-    "ČESTITAMO! Module C complete",
+    "ČESTITAMO! Module C is complete",
     "The most common English-speaker mistake",
     "Five down, two to go",
     "A night out and a train ride",
     "Whose house? Grandma's.",
-    "All three answers live in one case",
-    "Nema + genitive says something's missing",
+    "All three answers use one case",
+    "There is no = nema + genitive.",
     "Bravo! Belonging, origin and absence",
     "The genitive answers",
     "Case toolkit — complete!",
     "Grandma's house, and the road that leads",
     "Time to give orders — politely, of course",
-    "Croatian commands are short and punchy",
+    "Croatian commands are short:",
     "Odlično! You can now give directions",
     "Familiar faces:",
     "A recipe, a set of directions, and a coach",
     "Imagine: a million euros lands in your account",
-    "Croatian dreams run on the",
+    "Croatian dreams use the",
     "Krasno! You can now dream, wish and order",
     "The politeness machine:",
     "every teacher will thank you",
     "A million euros, and a perfect day",
-    "Here's Croatian's deepest secret",
+    "Almost every Croatian verb has a twin.",
     "One twin describes the",
     "The tell-tale words:",
     "Fantastično! You've cracked aspect",
@@ -9404,9 +9457,14 @@
       if (pristup === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
       if (pristup === 'needsSubscription') { prikaziModalPretplata(); return; }
     } else if (view === 'miniIgra' || view === 'weekly' || view === 'dailySlika') {
-      var pristupM = imaPristup('MiniGame', 0);
+      var igraM = view === 'miniIgra' ? (miniPoId(arg1) || extraPoId(arg1)) : null;
+      var pristupM = igraM ? pristupIgri(igraM) : imaPristup('MiniGame', 0);
       if (pristupM === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristupM === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
+      if (pristupM === 'needsSubscription') {
+        prikaziModalPretplata(T_('%1 is part of Croland Plus. Portal, Konoba and Gradovi Hrvatske are free with any account. See plans and codes on your account page.', esc(igraM.ime)));
+        return;
+      }
     } else if (view === 'progress') {
       // Progress trazi racun, ali NIKAD pretplatu: i onaj tko placa drugima, i onaj
       // tko je odigrao jednu vjezbu, vide sve sto o sebi imaju.
@@ -9624,6 +9682,11 @@
 
     // --- brza vjezba ---
     var brze = [];
+    var zg = zadnjaIgra();
+    if (zg) {
+      brze.push(brzaKarticaHtml('view:miniIgra:' + zg.id, igraZakljucana(zg) ? IK('brava') : IK('igra'),
+        T_('Continue: %1', zg.ime), (zg.maks && miniOpisStanja(zg)) || zg.stil, false));
+    }
     var rj = brojRijeci();
     if (rj > 0) {
       brze.push(brzaKarticaHtml('view:dictTest', IK('meta'), 'Test your words',
@@ -9827,7 +9890,7 @@
     var stanje = miniOpisStanja(g);
     return '<div class="miniKart' + (pun ? ' gotovo' : '') + '" onclick="miniDodir(this,\'' + g.id + '\')" ' +
       'title="' + esc(T_('%1 — up to %2 points in each currency', g.ime, g.maks)) + '">' +
-      '<span class="sl">' + miniSlikaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
+      '<span class="sl">' + miniSlikaHtml(g) + igraOznakaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
       '<span class="ime">' + esc(g.ime) + '</span>' +
       '<span class="stil">' + esc(g.stil) + '</span>' +
       '<span class="opis">' + esc(g.opis) + '</span>' +
@@ -9870,13 +9933,13 @@
       '</div>' + naziv;
   }
   function igraTijeloHtml(g) {
-    var uskoro = !g.dat;
+    var uskoro = !g.dat, zak = igraZakljucana(g);
     var meta = g.maks
       ? '<span>' + g.maks + ' pts ×4</span><span class="st">' + esc(miniOpisStanja(g)) + '</span>'
-      : '<span>no points — your own text</span><span></span>';
+      : '<span>' + esc(g.podnozje || '') + '</span><span></span>';
     return '<p class="igOpis">' + esc(g.opis) + '</p><div class="igMeta">' + meta + '</div>' +
-      '<button class="igPlay"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
-      (uskoro ? 'coming soon' : IGRA_PLAY_SVG + esc('Play')) + '</button>';
+      '<button class="igPlay' + (zak ? ' zak' : '') + '"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
+      (uskoro ? 'coming soon' : zak ? IK('brava') + esc('Unlock with Plus') : IGRA_PLAY_SVG + esc('Play')) + '</button>';
   }
   // trake krenu s nule i narastu u sljedećem kadru
   function igraNapuni(korijen) {
@@ -9968,6 +10031,36 @@
     o.sloj.style.pointerEvents = 'none';
     igraAnimiraj(o, false, function () { o.sloj.remove(); });
   }
+  // ---- zadnja odigrana igra ----
+  // Zivi u PROGRESS.postavke (postojeci JSON stupac), pa je ista na svakom uredaju.
+  // mini_igre se ne dira: tamo je samo stanje igara, iz kojeg se racunaju bodovi.
+  function zapamtiZadnjuIgru(id) {
+    if (!imaRacun() || !PROGRESS) return;
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    var z = PROGRESS.postavke.zadnjaIgra;
+    if (z && z.id === id && Date.now() - (z.kad || 0) < 60000) return;   // isti ulaz, ne spremaj opet
+    PROGRESS.postavke.zadnjaIgra = { id: id, kad: Date.now() };
+    spremiProgress();
+  }
+  function zadnjaIgra() {
+    if (!imaRacun() || !PROGRESS || !PROGRESS.postavke) return null;
+    var z = PROGRESS.postavke.zadnjaIgra;
+    var g = z && (miniPoId(z.id) || extraPoId(z.id));
+    return (g && g.dat) ? g : null;
+  }
+  function nastaviIgruHtml() {
+    var g = zadnjaIgra();
+    if (!g) return '';
+    var zak = igraZakljucana(g), st = g.maks ? miniOpisStanja(g) : '';
+    return '<div class="nastaviIgru' + (zak ? ' zak' : '') + '" role="button" tabindex="0" ' +
+      'onclick="miniIgraj(\'' + g.id + '\')" onkeydown="if(event.key===\'Enter\')miniIgraj(\'' + g.id + '\')">' +
+      '<span class="sl">' + miniSlikaHtml(g) + '</span>' +
+      '<span class="tekst"><span class="nad">' + esc('Continue') + '</span>' +
+      '<span class="ime">' + esc(g.ime) + '</span>' +
+      '<span class="pod">' + esc(g.stil) + (st ? ' · ' + esc(st) : '') + '</span></span>' +
+      '<span class="gumbN">' + (zak ? IK('brava') : IGRA_PLAY_SVG) + '</span></div>';
+  }
+
   function miniIgraj(id) {
     zatvoriIgraProzor(true);
     idi('miniIgra', id);
@@ -9986,6 +10079,8 @@
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();
     var html = '';
 
+    // --- zadnja igra: jedan dodir do nastavka ---
+    html += nastaviIgruHtml();
     // --- Extras: kratko, siroko, prvo ---
     html += '<h2 class="miniNas">Extras</h2>' +
       '<p class="miniPod">The long form. One sitting, all four skills.</p>' +
@@ -9994,12 +10089,12 @@
       var uskoro = !g.dat;
       html += '<div class="extraKart' + (uskoro ? ' uskoro' : '') + '"' +
         ' onclick="miniDodir(this,\'' + g.id + '\',' + uskoro + ')">' +
-        '<span class="sl">' + miniSlikaHtml(g) + '</span>' +
+        '<span class="sl">' + miniSlikaHtml(g) + igraOznakaHtml(g) + '</span>' +
         '<span class="tekst">' +
         '<span class="ime">' + esc(g.ime) + '</span>' +
         '<span class="stil">' + esc(g.stil) + '</span>' +
         '<span class="opis">' + esc(g.opis) + '</span>' +
-        '<span class="podnozje"><span>no points — your own text</span>' +
+        '<span class="podnozje"><span>' + esc(g.podnozje || '') + '</span>' +
         '<span class="st">' + (uskoro ? 'coming soon' : '') + '</span></span>' +
         '</span></div>';
     });
@@ -10059,7 +10154,8 @@
   function renderMiniIgra(id) {
     var g = miniPoId(id);
     if (!g) { renderMini(); return; }
-    if (imaPristup('MiniGame', 0) !== 'ok') { renderMini(); return; }
+    if (pristupIgri(g) !== 'ok') { renderMini(); return; }
+    zapamtiZadnjuIgru(g.id);
     // Zadnji upis prethodne igre mora ići prije sijanja ispod — inače bi novo sijanje moglo
     // pregaziti stanje koje još nije otišlo na server.
     miniSatStop();

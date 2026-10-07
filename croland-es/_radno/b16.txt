@@ -1,0 +1,7 @@
+  - L16 genitiv: most *de* (*la casa de mi abuela*, *el olor del café* – vlasnik iza stvari kao u španjolskom; *al lado de, cerca de, detrás de* nose *de*);
+    *nema* ↔ *no hay* (ne mijenja se po osobi). Prijedlozi: *pokraj* → *al lado de*, *ispred/iza* → *delante de / detrás de*, *iznad/ispod* → *encima de / debajo de*,
+    *kod* → *en casa de*, *iz* → *de, desde (un lugar)*, *od* → *de (alguien, un material)*, *preko* → *por encima de*, *umjesto* → *en vez de*, *osim* → *excepto*,
+    *izvan* → *fuera de*; nagovještaji u zagradi isti oblici (*(made of)* → *(hecho de)*, *(at … 's place)* → *(en casa de …)*). Riječi: *ograda* → *cerca*, *trava* → *pasto*,
+    *slika* → *cuadro, imagen*, *sudoper* → *fregadero*, *zdjela* → *tazón*, *autocesta* → *autopista*, *šipak* → *rosa mosqueta*, *ručak* → *almuerzo*, *upaliti* → *encender, prender*;
+    oglas: *Alquilo*, *habitaciones*, *estacionamiento*. *Ključ je kod mene* → „La llave la tengo yo.“ Kategorije PERTENENCIA / DESPUÉS DE UNA PALABRITA / DESPUÉS DE NEMA /
+    PALABRITA / NÚMERO. 3 retka čisto hrvatska → `=`; `stil-iznimke.tsv` +1 (*Nema [problema]!* bez ¡).

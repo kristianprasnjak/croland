@@ -15,7 +15,9 @@ const ZASTICENO = path.join(ROOT, 'zasticeno');
 
 const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html', 'refund.html',
   // njemacka verzija (croland-de/): ista aplikacija, druga stranica, isti kljucevi napretka
-  'index-de.html', 'rjecnik-de.js', 'pregledi-de.js', 'terms-de.html', 'privacy-de.html', 'refund-de.html'];
+  'index-de.html', 'rjecnik-de.js', 'pregledi-de.js', 'terms-de.html', 'privacy-de.html', 'refund-de.html',
+  // spanjolska verzija (croland-es/): pravni tekstovi zasad samo engleski (pravno nije postavljeno u <head>)
+  'index-es.html', 'rjecnik-es.js', 'pregledi-es.js'];
 // vendor/: supabase-js s vlastite domene (verzija zaključana u imenu datoteke), ne s CDN-a
 const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
 
@@ -85,6 +87,7 @@ return rezultat;
 }
 const rezultat = podijeliIProvjeri('data.js', 'data.js', 'data-plus.json');
 const rezultatDe = podijeliIProvjeri('data-de.js', 'data-de.js', 'data-plus-de.json');
+const rezultatEs = podijeliIProvjeri('data-es.js', 'data-es.js', 'data-plus-es.json');
 
 // GitHub Pages inače provuče objavljeno kroz Jekyll, koji preskače datoteke i mape s donjom
 // crtom na početku (npr. mini-igre/_sadrzaj). Deploy preko Actions to ne radi, ali .nojekyll
@@ -99,4 +102,6 @@ console.log('  zasticeno/data-plus.json  ', kb(path.join(ZASTICENO, 'data-plus.j
   '·', rezultat.brojke.placenih, 'vjezbi,', rezultat.brojke.zvukovaSkriveno, 'zvukova');
 console.log('  dist/data-de.js (javno)   ', kb(path.join(DIST, 'data-de.js')), '·', rezultatDe.brojke.besplatnih, 'vjezbi');
 console.log('  zasticeno/data-plus-de.json', kb(path.join(ZASTICENO, 'data-plus-de.json')), '·', rezultatDe.brojke.placenih, 'vjezbi');
-console.log('  -> zasticeno/data-plus.json i data-plus-de.json uploadaj u Supabase Storage bucket "sadrzaj"');
+console.log('  dist/data-es.js (javno)   ', kb(path.join(DIST, 'data-es.js')), '·', rezultatEs.brojke.besplatnih, 'vjezbi');
+console.log('  zasticeno/data-plus-es.json', kb(path.join(ZASTICENO, 'data-plus-es.json')), '·', rezultatEs.brojke.placenih, 'vjezbi');
+console.log('  -> zasticeno/data-plus.json, data-plus-de.json i data-plus-es.json uploadaj u Supabase Storage bucket "sadrzaj"');

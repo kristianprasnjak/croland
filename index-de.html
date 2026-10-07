@@ -13,7 +13,9 @@
       { id: 'en', ime: 'English', stranica: 'index.html', izbor: 'Choose your language',
         opis: 'Explanations, hints and translations in English.' },
       { id: 'de', ime: 'Deutsch', stranica: 'index-de.html', izbor: 'Wähle deine Sprache', pravno: true,
-        opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' }
+        opis: 'Erklärungen, Hinweise und Übersetzungen auf Deutsch.' },
+      { id: 'es', ime: 'Español', stranica: 'index-es.html', izbor: 'Elige tu idioma',
+        opis: 'Explicaciones, pistas y traducciones en español.' }
     ];
     window.CROLAND_JEZICI = JEZICI;
     window.CROLAND_JEZIK_STRANICE = JEZIK_STRANICE;
@@ -1904,6 +1906,38 @@
   }
   .miniSaz strong { color: var(--ink); }
   .miniDno { margin-top: 2rem; }
+  /* Oznaka na slici igre: Free (besplatna) ili lokot + Plus (treba pretplatu). */
+  .extraKart .sl { position: relative; }
+  .igOznaka {
+    position: absolute; left: 0.5rem; top: 0.5rem; z-index: 1; display: inline-flex; align-items: center; gap: 0.25rem;
+    font-size: var(--t-xs); font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+    border-radius: var(--rad-s); padding: 0.125rem 0.4375rem; line-height: 1.5;
+  }
+  .igOznaka.free { background: var(--zelena); color: #fff; }
+  .igOznaka.plus { background: rgba(25,23,19,.62); color: #fff; }
+  .igOznaka .ikn { width: 0.875em; height: 0.875em; }
+  .igPlay.zak .ikn { width: 1.1em; height: 1.1em; margin-right: 0.375rem; vertical-align: -0.15em; }
+  /* Traka "Continue" na vrhu Games & Extras: zadnja odigrana igra, jedan dodir. */
+  .nastaviIgru {
+    display: flex; align-items: center; gap: 0.875rem; margin: 0 0 0.5rem; padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+    background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l); cursor: pointer;
+    transition: border-color .15s, transform .15s;
+  }
+  .nastaviIgru:hover { border-color: var(--plava); transform: translateY(-1px); }
+  .nastaviIgru:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .nastaviIgru .sl { flex: none; width: 5.5rem; aspect-ratio: 3 / 2; border-radius: var(--rad-m); overflow: hidden; background: var(--rub); }
+  .nastaviIgru .sl img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .nastaviIgru .sl .emoSl > span { font-size: var(--t-xs); }
+  .nastaviIgru .tekst { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.0625rem; }
+  .nastaviIgru .nad { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .6px; color: var(--plava); font-weight: 700; }
+  .nastaviIgru .ime { font-family: var(--naslov); font-weight: 600; font-size: var(--t-l); letter-spacing: -.01em; }
+  .nastaviIgru .pod { font-size: var(--t-s); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nastaviIgru .gumbN {
+    flex: none; width: 2.5rem; height: 2.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    background: var(--plava); color: #fff;
+  }
+  .nastaviIgru.zak .gumbN { background: var(--muted); }
+  .nastaviIgru .gumbN svg { width: 1.125rem; height: 1.125rem; fill: currentColor; }
   .miniNas:first-child { margin-top: 0; }
 
   /* ================= PROZOR IGRE =================
@@ -3895,6 +3929,22 @@
     return imaPretplatu() ? 'ok' : 'needsSubscription';
   }
 
+  // Pristup jednoj igri (mini igra ili Extras). Besplatne traze samo racun; sve
+  // ostale traze pretplatu. Daily i Weekly ostaju na imaPristup('MiniGame').
+  function pristupIgri(g) {
+    if (!SESSION_SPREMNA) return 'ucitavanje';
+    if (!imaRacun()) return 'needsAccount';
+    if (g && g.besplatno) return 'ok';
+    return imaPretplatu() ? 'ok' : 'needsSubscription';
+  }
+  // Za kartice: treba li igri lokot. Gost vidi lokot na svemu sto nije besplatno.
+  function igraZakljucana(g) { return !!g && !g.besplatno && !imaPretplatu(); }
+  function igraOznakaHtml(g) {
+    if (g.besplatno) return '<span class="igOznaka free">' + esc('Kostenlos') + '</span>';
+    if (igraZakljucana(g)) return '<span class="igOznaka plus">' + IK('brava') + 'Plus</span>';
+    return '';
+  }
+
   var IGRE = [];        // sve igre normalizirane
   var SLIKE = (window.PODACI && window.PODACI.slike) ? window.PODACI.slike : {};
   var ZVUK = (window.PODACI && window.PODACI.zvukovi) ? window.PODACI.zvukovi : {};
@@ -4017,6 +4067,8 @@
   // Igra koja danas nema dovoljno sadrzaja da se dodje do 1500 jednostavno placa manje —
   // brojka je narudzba sadrzaja, ne procjena.
   var MINI_MAKS = 1500;           // strop, isti za sve igre
+  // `besplatno: true` = igra trazi samo racun (kao Daily i Weekly). Sve ostale igre i
+  // svi Extras traze Croland Plus, isto kao razina 2 i vise — vidi pristupIgri().
   var MINI_IGRE = [
     { id: 'grad', slika: 'grad.webp', br: '01', dat: '01-grad.html', emo: '🏙', ime: 'Grad', stil: 'Stadt', /* razmjerno: 5 zadataka */ maks: 1500, zaslon: 'polozeno',
       opis: 'Lauf durch die Stadt, sprich mit Leuten, löse fünf Aufgaben: Einkaufen, Lieferung, Quiz und ein Plausch an der Kasse.' },
@@ -4024,7 +4076,7 @@
       opis: 'Bilder blitzen auf, du schreibst sie aus dem Gedächtnis auf – streng, mit allen diakritischen Zeichen. Hundert Level, drei Herzen.' },
     { id: 'tvrdjava', slika: 'tvrdjava.webp', br: '04', dat: '04-tvrdjava.html', emo: '🏰', ime: 'Tvrđava', stil: 'Festung', /* razmjerno: 12 soba */ maks: 1500,
       opis: 'Der Burgvogt liegt im Krankenhaus, und jeder Schlüssel ist versteckt. Zwölf Räume, ein Schlüssel nach dem anderen – bevor der Stadtrat über den Verkauf der Festung abstimmt.' },
-    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Taverne', stopa: 10, /* 150 narudžbi */ maks: 1500,
+    { id: 'konoba', slika: 'konoba.webp', br: '05', dat: '05-konoba.html', emo: '🍽', ime: 'Konoba', stil: 'Taverne', besplatno: true, stopa: 10, /* 150 narudžbi */ maks: 1500,
       opis: 'Gäste bestellen im Akkusativ, du servierst nach Bildern. Acht Schichten, jedes Mal mehr Gerichte und Adjektive.' },
     { id: 'skladiste', slika: 'skladiste.webp', br: '06', dat: '06-skladiste.html', emo: '📦', ime: 'Skladište', stil: 'Lagerhaus', stopa: 10, /* posao 150 */ maks: 1500,
       opis: 'Du wählst den Einsatz. Schieb Wortkisten in die Garage ihrer Kategorie. Höherer Einsatz, größeres Lager.' },
@@ -4034,13 +4086,13 @@
       opis: 'Sammle nur die Wörter der vorgegebenen Kategorie. Eindringlinge kosten Herzen, Geister jagen dich.' },
     { id: 'zmija', slika: 'zmija.webp', br: '09', dat: '09-zmija.html', emo: '🐍', ime: 'Zmija', stil: 'Schlange', stopa: 20, /* 75 riječi */ maks: 1500,
       opis: 'Friss die Buchstaben in der richtigen Reihenfolge, um das Wort zum Bild zu schreiben. Ein falscher Buchstabe kostet ein Herz.' },
-    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Jump \'n\' Run', stopa: 20, /* 75 razina */ maks: 1500,
+    { id: 'mario', slika: 'mario.webp', br: '10', dat: '10-mario.html', emo: '🦀', ime: 'Portal', stil: 'Jump \'n\' Run', besplatno: true, stopa: 20, /* 75 razina */ maks: 1500,
       opis: 'Zwei Ufer und ein Leuchtturm. Spring in die Wolke mit dem richtigen Wort, kletter zum Portal und wechsle auf die andere Seite. Krabben klettern auch.' },
     { id: 'prezivljavanje', slika: 'prezivljavanje.webp', br: '11', dat: '11-prezivljavanje.html', emo: '💀', ime: 'Preživljavanje', stil: 'Überleben', stopa: 20, /* 75 odgovora */ maks: 1500,
       opis: 'Zwanzig richtige Antworten gegen die Uhr. Treffer landen in deiner Liste der beherrschten Wörter, Fehler in der Wiederholungsliste.' },
     { id: 'obrana', slika: 'obrana.webp', br: '12', dat: '12-obrana-baze.html', emo: '🛡', ime: 'Obrana baze', stil: 'Basisverteidigung', stopa: 20, /* 75 meta */ maks: 1500, zaslon: 'polozeno',
       opis: 'Wörter fallen auf deine Basis zu, du klickst die Übersetzung an. Fünfzehn Wellen, beide Richtungen, vier Antworten am unteren Rand.' },
-    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Kroatische Städte', /* razmjerno: 128 gradova */ maks: 1500,
+    { id: 'gradovi', slika: 'gradovi.webp', br: '13', dat: '13-gradovi.html', emo: '🗺', ime: 'Gradovi Hrvatske', stil: 'Kroatische Städte', besplatno: true, /* razmjerno: 128 gradova */ maks: 1500,
       opis: 'Alle 128 Städte Kroatiens, von Ilok an der Donau bis Dubrovnik. In jeder spricht dich jemand auf Kroatisch an, und nur eine von drei Antworten passt. Drei Herzen, die nie zurückkommen.' }
   ];
   var MINI_MAPA = 'mini-igre/';
@@ -4235,6 +4287,7 @@
   // razine. Igra ostaje, bez bodova; `maks` je zato 0 i sveIgre() je ne obuhvaca.
   var EXTRA_IGRE = [
     { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Hören Lesen Schreiben Sprechen', maks: 0,
+      podnozje: 'keine Punkte – dein eigener Text',
       stil: 'Notizbuch',
       opis: 'Füge einen beliebigen Text ein – ein Lied, ein Gedicht, einen Artikel. Er wird in Zeilen aufgeteilt: Hör dir jede an, prüf sie mit Google Übersetzer, schreib deine eigene Übersetzung und sprich sie dann laut aus, um zu sehen, was das Mikrofon gehört hat.' }
   ];
@@ -5655,7 +5708,7 @@
     crtaj();
     setTimeout(function () { var f = $('prEmail'); if (f) f.focus(); }, 60);
   }
-  function prikaziModalPretplata() {
+  function prikaziModalPretplata(tekst) {
     var star = $('pretplataOverlay'); if (star) star.remove();
     var ov = document.createElement('div'); ov.id = 'pretplataOverlay';
     ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
@@ -5664,7 +5717,7 @@
     m.innerHTML =
       '<div class="otkljIkona">' + IK('brava', 'krupna') + '</div>' +
       '<h2>Croland Plus</h2>' +
-      '<p class="otkljPod">Ab Level 2 gehört alles zu Croland Plus. Pläne und Codes findest du auf deiner Kontoseite.</p>';
+      '<p class="otkljPod">' + (tekst || 'Ab Level 2 gehört alles zu Croland Plus. Pläne und Codes findest du auf deiner Kontoseite.') + '</p>';
     var idi_ = document.createElement('button'); idi_.className = 'gumb'; idi_.textContent = 'Pläne ansehen';
     idi_.onclick = function () { ov.remove(); idi('account'); };
     var zatvori = document.createElement('button'); zatvori.className = 'gumb gumbSivi'; zatvori.textContent = 'Nicht jetzt';
@@ -5859,13 +5912,13 @@
     "here's a secret: you already speak some croatian",
     "am ende dieser lektion beschreibst du häuser, autos, das meer und deinen kaffee – auf kroatisch.",
     "um irgendetwas über irgendetwas zu sagen, braucht das kroatische nur ein kleines wort: je (ist). es steht zwischen der sache und dem, was du über sie sagst.",
-    "notice what's missing?",
+    "merkst du, was fehlt? kein der/die/das, kein ein. das kroatische lässt artikel komplett weg. gern geschehen.",
     "bravo! du hast gerade deine ersten kroatischen sätze gebaut – ohne artikel, um die du dir sorgen machen müsstest, und mit einer schreibung, auf die du dich immer verlassen kannst.",
     "alles auf dieser seite hast du schon benutzt – jetzt geben wir ihm einen namen.",
     "jedes nomen hat ein genus – wie im deutschen gibt es drei. der große unterschied: du musst es nicht auswendig lernen – der letzte buchstabe des wortes verrät es fast immer. und das kroatische genus stimmt oft nicht mit dem deutschen überein: sunce (die sonne) ist neutral, more (das meer) auch, aber kuća (das haus) ist feminin.",
     "one exception worth knowing.",
     "zeit, echtes kroatisch zu lesen! diese kurzen texte verwenden, was du in lektion 1 gelernt hast – plus ein paar passive wörter: ali (aber), ili (oder), da (ja), vani (draußen), jako (sehr), savršen (perfekt), zid (wand), kafić (café), molim (bitte), hvala (danke), izvolite (bitte schön). tippe neben einem satz auf de, um seine übersetzung zu sehen.",
-    "in lesson 1 you described houses and coffee",
+    "in lektion 1 hast du häuser, kaffee und das meer beschrieben. jetzt ist es zeit, über menschen zu sprechen.",
     "one verb, six forms — and you already know",
     "spot the pattern:",
     "odlično! du kannst dich jetzt vorstellen, menschen beschreiben und mit dem wichtigsten verb der sprache umgehen – mit allen sechs formen.",
@@ -5874,7 +5927,7 @@
     "four people introduce themselves",
     "bisher kannst du die welt beschreiben: der kaffee ist gut, der tag ist schön. jetzt lässt du darin dinge geschehen.",
     "und fällt dir etwas auf: oft brauchst du ja gar nicht. die verbendung sagt schon allen, wer es tut. effizient, oder?",
-    "the ending is the name tag:",
+    "die endung ist das namensschild. -m = ich, -š = du, nichts extra = er oder sie. das kennst du vom deutschen: lese, liest, liest – nur dass im kroatischen die endung so deutlich ist, dass man das pronomen weglässt.",
     "sjajno! du kannst jetzt sagen, was du und andere tun – und du hast den code der verbendungen geknackt, der die ganze sprache antreibt.",
     "in lesson 3 your ear learned the endings",
     "drop the pronoun:",
@@ -5895,31 +5948,31 @@
     "dein akkusativ in aktion – passive wörter: šarena (bunt), poslije (danach), jaka (stark), ujutro (morgens), u podne (mittags), navečer (abends), svaki dan (jeden tag), imamo (wir haben), onda (dann), gladna (hungrig), žedna (durstig).",
     "in der letzten lektion hast du den trick -a → -u für feminine wörter gemeistert. heute nimmst du den akkusativ mit in die stadt – und entdeckst etwas charmantes am kroatischen: es behandelt lebewesen anders als dinge.",
     "dinge bleiben gleich. menschen und tiere bekommen -a. erwischen wir die straßenbahn.",
-    "two quirks to meet today:",
+    "zwei eigenheiten für heute. pas schrumpft zu psa (gledam psa), und policajac verliert einen buchstaben: policajca.",
     "bravo! du beherrschst jetzt den akkusativ für alles im singular – dinge, essen, menschen und haustiere.",
     "die belebtheitsregel: maskuline nomen teilen sich in zwei. unbelebt (dinge) – keine änderung: vidim tramvaj. čekam autobus. belebt (menschen, tiere) – -a anhängen: vidim čovjeka. čekam prijatelja. das kroatische markiert gern, wer von einer handlung betroffen sein kann. dingen ist es egal; lebewesen nicht.",
     "deshalb kam dir lektion 3 so leicht vor: fast jedes objekt dort war ein wort „ohne änderung“. raffiniert, oder?",
     "stadtleben, so geschrieben, wie kroaten wirklich schreiben.",
     "ein kaffee, ein freund, eine straßenbahn – bisher kam alles einzeln. heute vervielfacht sich die welt: aus knjiga wird knjige, aus učenik wird učenici, und verben bekommen ihre formen für wir, ihr und sie – die, die du in den praxistexten schon gelesen hast.",
     "wir üben am lebendigsten ort, den es gibt: einer kroatischen schule voller kinder und lieder.",
-    "one exception today:",
+    "zwei ausnahmen heute. dijete → djeca (kinder) und brat → braća (brüder). manche wörter sind zu wichtig, um regeln zu folgen.",
     "sjajno! du kannst jetzt über viele dinge auf einmal sprechen – und deine verben haben endlich ihre ganze präsensfamilie.",
     "mit dieser seite ist dein präsens vollständig – alle sechs personen –, und nomen können endlich in gruppen kommen.",
     "die rebellen. vier wörter ignorieren alles oben: dijete → djeca, brat → braća, čovjek → ljudi, riječ → riječi. lerne sie als wörter, nicht als regeln.",
     "ein schultag im plural – mitschüler, bücher und alles.",
     "der sommer kommt!",
     "das kroatische futur ist erfrischend einfach – und funktioniert genau wie das deutsche werden + infinitiv: nimm ein winziges hilfswort (ću – „ich werde“), häng die wörterbuchform des verbs an, fertig. plivat ću! – ich werde schwimmen! keine neuen endungen zu lernen – und den verneinten zwilling des hilfsworts, neću, kennst du schon aus grammatik 3.",
-    "recognize the rhythm?",
+    "erkennst du den rhythmus? ću–ćeš–će–ćemo–ćete–će wiederholt sam–si–je–smo–ste–su aus lektion 2. dieselben sechs personen, dieselbe reihenfolge, derselbe rhythmus.",
     "odlično! die vergangenen lektionen haben dir das präsens gegeben; jetzt gehört dir auch die zukunft. deine sommerpläne sind offiziell auf kroatisch.",
     "faustregel: das hilfswort steht nie zuerst – es ist schüchtern und lehnt sich immer an ein anderes wort.",
     "sommerpläne – die art nachricht, die du im juni von einem kroatischen freund bekommst.",
     "die heutige lektion ist voller wörter, die du schon kennst: hobi, gitara, klub, trener, kapetan, gol, tenis, joga, šah … sport ist international, und sein wortschatz auch.",
-    "the new bit: making things",
+    "das neue ist, dinge zu deinen zu machen. moj klub. tvoja gitara. naš trener. drei wörter, drei gestalten – und die gestalt kommt nicht vom besitzer.",
     "the familiar trio again",
     "bravo! die dinge sind jetzt offiziell deine – dein verein, deine gitarre, dein kroatisch. und mit svoj kannst du etwas sagen, wofür das deutsche kein eigenes wort hat.",
-    "the possessives are adjectives at heart",
+    "possessivpronomen sind im herzen adjektive, also machen sie es auch: moja sestra → tražim moju sestru. die possessivpronomen lernst du richtig in lektion 9 kennen; die endung gehört dir schon.",
     "english speakers: this is the one trap.",
-    "a club, a hobby, and a few people",
+    "ein verein, ein hobby und eine familie, die sich über nichts davon einigen kann.",
     "you can describe, ask, plan and dream in croatian",
     "gute nachricht: die vergangenheit verwendet etwas wieder, das du seit lektion 2 kennst – das verb biti. sam, si, je … plus eine neue wortform, und plötzlich: gledao sam film. bio je odličan! – ich habe einen film geschaut. er war ausgezeichnet! das ist gebaut wie das deutsche perfekt: hilfsverb + partizip.",
     "reden wir über gestern.",
@@ -5936,46 +5989,46 @@
     "you've been suspiciously agreeable",
     "today you learn to refuse soup",
     "english teachers hate this.",
-    "bravo! you can now refuse, deny and protest",
-    "in croatian, negatives stack",
+    "bravo! du kannst jetzt ablehnen, dich beschweren und bestellen – in präsens, vergangenheit und futur – und nitko, ništa, nikad auf kroatische art stapeln.",
+    "kroatische verneinungswörter brauchen ein zweites ne. ništa (nichts), nitko (niemand), nigdje (nirgends) und nikad (nie) ersetzen das ne am verb nicht – sie kommen zusätzlich dazu.",
     "als nächstes: praxis 12 bringt alles in eine familie heikler esser und ein restaurant mit leerer küche, und test 12 schließt die einheit ab. dann zeigt lektion 13, wo dinge sind – u gradu, u kinu, na tržnici.",
     "seit lektion 5 kannst du sagen, wohin du gehst: idem u grad. heute lernst du, wo du bist: ja sam u gradu.",
     "eine winzige endung – -u für die meisten wörter, -i für feminine –, und die ganze stadt lässt sich beschreiben: im café, im park, freitagabend im büro (hoffentlich nicht).",
-    "same u/na logic as before:",
+    "dieselbe u/na-logik wie vorher. u = drinnen, na = auf oder an offenen orten und bei veranstaltungen. die präposition ändert sich zwischen kamo? und gdje? nicht – nur die endung. genau wie bei den deutschen wechselpräpositionen.",
     "sjajno! du weißt jetzt, wohin du gehst und wo du bist – die stadt gehört ganz dir.",
     "everyone is somewhere different",
     "dezember in kroatien: geschenke für alle! aber wer bekommt was? mami einen schal, bratu einen ball, sestri ein buch ...",
     "diese endungen – -i und -u – kennzeichnen den empfänger, die person, die etwas bekommt. diese form ist der dativ – wie im deutschen der mama, dem bruder.",
     "freie produktion nach einer deutschen vorgabe. zwei rahmen decken alles ab: nomen plus je oder nije plus adjektiv, und ovo je plus nomen. die wortstellung ist flexibel, kuća je velika und velika je kuća sind beide in ordnung – nur darf je nie den satz eröffnen.",
-    "divno! you can now give, send and bring",
+    "divno! jetzt kannst du jedem etwas geben, schicken, bringen und schreiben – die ganze familie ist für weihnachten versorgt.",
     "der dativ kennzeichnet den empfänger – die person, die etwas bekommt oder für die etwas getan wird. die sache selbst behält die zielform: sestri šaljem paket.",
     "december, and everyone is buying something",
     "freitagabend! du gehst aus – aber mit wem, und wie kommst du hin?",
     "s markom (mit marko), sa sestrom (mit meiner schwester), vlakom (mit dem zug), kava s mlijekom (kaffee mit milch) ... der fall von heute ist der instrumental – der fall der begleitung und des mittels und der letzte fall dieses moduls.",
     "think of it as: the vehicle is your instrument",
-    "čestitamo! module c complete",
+    "čestitamo! modul c ist abgeschlossen. du kannst fragen, ablehnen, sagen, wo dinge sind, wer was bekommt – und jetzt, mit wem du bist und wie du hinkommst. das sind fünf der sieben kroatischen fälle.",
     "the most common english-speaker mistake",
     "five down, two to go",
     "a night out and a train ride",
     "wessen haus? omas. kaffee ohne was? ohne zucker. woher? aus zagreb.",
-    "all three answers live in one case",
-    "nema + genitive says something's missing",
+    "alle drei antworten benutzen einen fall – den genitiv: kuća moje bake (das haus meiner oma), kava bez šećera (kaffee ohne zucker), iz zagreba (aus zagreb).",
+    "es gibt kein = nema + genitiv. wenn etwas fehlt, steht nema davor, und das fehlende steht im genitiv: šećer je na stolu. → nema šećera. es ändert sich nicht mit der person – es heißt immer nema.",
     "bravo! zugehörigkeit, herkunft und fehlen – du kannst omas haus beschreiben, sagen, woher du kommst, und kaffee bez šećera bestellen.",
     "der genitiv antwortet auf koga? (wessen? / von wem?) und čega? (wovon?) – und er ist der fleißigste fall im kroatischen.",
     "case toolkit — complete!",
     "grandma's house, and the road that leads",
     "zeit für anweisungen – natürlich höflich. rezepte, wegbeschreibungen, ein fußballtrainer: sie alle benutzen den imperativ.",
-    "croatian commands are short and punchy",
+    "kroatische befehle sind kurz: uzmi! (nimm!), idi! (geh!), miješaj! (rühr!). für eine gruppe oder für jemanden, den du mit vi ansprichst, bekommen sie -te: uzmite! idite!",
     "odlično! jetzt kannst du den weg beschreiben, eine küche leiten und eine fußballmannschaft trainieren – alles auf kroatisch.",
     "familiar faces:",
     "a recipe, a set of directions, and a coach",
     "stell dir vor: eine million euro landet auf deinem konto. was würdest du tun?",
-    "croatian dreams run on the",
+    "kroatische träume benutzen den konditional: kupio bih kuću pokraj mora. putovala bih cijelu godinu. die hälfte davon kennst du schon – das partizip aus lektion 10 (kupio, putovala).",
     "krasno! jetzt kannst du träumen, wünschen und höflich bestellen: htio bih… / htjela bih…",
     "the politeness machine:",
     "every teacher will thank you",
     "a million euros, and a perfect day",
-    "here's croatian's deepest secret",
+    "fast jedes kroatische verb hat einen zwilling.",
     "ein zwilling beschreibt die tätigkeit, der andere das fertige ergebnis. das deutsche braucht dafür oft ein extrawort oder eine vorsilbe – fertig, auf-, aus-, durch- (aufessen, austrinken, durchlesen) –, das kroatische setzt eine kleine vorsilbe vor das verb.",
     "the tell-tale words:",
     "fantastično! you've cracked aspect",
@@ -9404,9 +9457,14 @@
       if (pristup === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
       if (pristup === 'needsSubscription') { prikaziModalPretplata(); return; }
     } else if (view === 'miniIgra' || view === 'weekly' || view === 'dailySlika') {
-      var pristupM = imaPristup('MiniGame', 0);
+      var igraM = view === 'miniIgra' ? (miniPoId(arg1) || extraPoId(arg1)) : null;
+      var pristupM = igraM ? pristupIgri(igraM) : imaPristup('MiniGame', 0);
       if (pristupM === 'ucitavanje') { renderUcitavanje(); return; }
       if (pristupM === 'needsAccount') { prikaziModalPrijava({ view: view, arg1: arg1, arg2: arg2, arg3: arg3 }); return; }
+      if (pristupM === 'needsSubscription') {
+        prikaziModalPretplata(T_('%1 gehört zu Croland Plus. Portal, Konoba und Gradovi Hrvatske sind mit jedem Konto kostenlos. Pläne und Codes findest du auf deiner Kontoseite.', esc(igraM.ime)));
+        return;
+      }
     } else if (view === 'progress') {
       // Progress trazi racun, ali NIKAD pretplatu: i onaj tko placa drugima, i onaj
       // tko je odigrao jednu vjezbu, vide sve sto o sebi imaju.
@@ -9624,6 +9682,11 @@
 
     // --- brza vjezba ---
     var brze = [];
+    var zg = zadnjaIgra();
+    if (zg) {
+      brze.push(brzaKarticaHtml('view:miniIgra:' + zg.id, igraZakljucana(zg) ? IK('brava') : IK('igra'),
+        T_('Weiter: %1', zg.ime), (zg.maks && miniOpisStanja(zg)) || zg.stil, false));
+    }
     var rj = brojRijeci();
     if (rj > 0) {
       brze.push(brzaKarticaHtml('view:dictTest', IK('meta'), 'Teste deine Wörter',
@@ -9827,7 +9890,7 @@
     var stanje = miniOpisStanja(g);
     return '<div class="miniKart' + (pun ? ' gotovo' : '') + '" onclick="miniDodir(this,\'' + g.id + '\')" ' +
       'title="' + esc(T_('%1 – bis zu %2 Punkte in jeder Währung', g.ime, g.maks)) + '">' +
-      '<span class="sl">' + miniSlikaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
+      '<span class="sl">' + miniSlikaHtml(g) + igraOznakaHtml(g) + '<span class="broj">' + g.br + '</span></span>' +
       '<span class="ime">' + esc(g.ime) + '</span>' +
       '<span class="stil">' + esc(g.stil) + '</span>' +
       '<span class="opis">' + esc(g.opis) + '</span>' +
@@ -9870,13 +9933,13 @@
       '</div>' + naziv;
   }
   function igraTijeloHtml(g) {
-    var uskoro = !g.dat;
+    var uskoro = !g.dat, zak = igraZakljucana(g);
     var meta = g.maks
       ? '<span>' + g.maks + ' pts ×4</span><span class="st">' + esc(miniOpisStanja(g)) + '</span>'
-      : '<span>keine Punkte – dein eigener Text</span><span></span>';
+      : '<span>' + esc(g.podnozje || '') + '</span><span></span>';
     return '<p class="igOpis">' + esc(g.opis) + '</p><div class="igMeta">' + meta + '</div>' +
-      '<button class="igPlay"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
-      (uskoro ? 'demnächst' : IGRA_PLAY_SVG + esc('Spielen')) + '</button>';
+      '<button class="igPlay' + (zak ? ' zak' : '') + '"' + (uskoro ? ' disabled' : '') + ' onclick="event.stopPropagation();miniIgraj(\'' + g.id + '\')">' +
+      (uskoro ? 'demnächst' : zak ? IK('brava') + esc('Mit Plus freischalten') : IGRA_PLAY_SVG + esc('Spielen')) + '</button>';
   }
   // trake krenu s nule i narastu u sljedećem kadru
   function igraNapuni(korijen) {
@@ -9968,6 +10031,36 @@
     o.sloj.style.pointerEvents = 'none';
     igraAnimiraj(o, false, function () { o.sloj.remove(); });
   }
+  // ---- zadnja odigrana igra ----
+  // Zivi u PROGRESS.postavke (postojeci JSON stupac), pa je ista na svakom uredaju.
+  // mini_igre se ne dira: tamo je samo stanje igara, iz kojeg se racunaju bodovi.
+  function zapamtiZadnjuIgru(id) {
+    if (!imaRacun() || !PROGRESS) return;
+    if (!PROGRESS.postavke) PROGRESS.postavke = {};
+    var z = PROGRESS.postavke.zadnjaIgra;
+    if (z && z.id === id && Date.now() - (z.kad || 0) < 60000) return;   // isti ulaz, ne spremaj opet
+    PROGRESS.postavke.zadnjaIgra = { id: id, kad: Date.now() };
+    spremiProgress();
+  }
+  function zadnjaIgra() {
+    if (!imaRacun() || !PROGRESS || !PROGRESS.postavke) return null;
+    var z = PROGRESS.postavke.zadnjaIgra;
+    var g = z && (miniPoId(z.id) || extraPoId(z.id));
+    return (g && g.dat) ? g : null;
+  }
+  function nastaviIgruHtml() {
+    var g = zadnjaIgra();
+    if (!g) return '';
+    var zak = igraZakljucana(g), st = g.maks ? miniOpisStanja(g) : '';
+    return '<div class="nastaviIgru' + (zak ? ' zak' : '') + '" role="button" tabindex="0" ' +
+      'onclick="miniIgraj(\'' + g.id + '\')" onkeydown="if(event.key===\'Enter\')miniIgraj(\'' + g.id + '\')">' +
+      '<span class="sl">' + miniSlikaHtml(g) + '</span>' +
+      '<span class="tekst"><span class="nad">' + esc('Weiter') + '</span>' +
+      '<span class="ime">' + esc(g.ime) + '</span>' +
+      '<span class="pod">' + esc(g.stil) + (st ? ' · ' + esc(st) : '') + '</span></span>' +
+      '<span class="gumbN">' + (zak ? IK('brava') : IGRA_PLAY_SVG) + '</span></div>';
+  }
+
   function miniIgraj(id) {
     zatvoriIgraProzor(true);
     idi('miniIgra', id);
@@ -9986,6 +10079,8 @@
     var uk = miniBodovi(), maks = miniMaks(), gotovih = miniPrijedena();
     var html = '';
 
+    // --- zadnja igra: jedan dodir do nastavka ---
+    html += nastaviIgruHtml();
     // --- Extras: kratko, siroko, prvo ---
     html += '<h2 class="miniNas">Extras</h2>' +
       '<p class="miniPod">Die lange Form. Eine Sitzung, alle vier Fertigkeiten.</p>' +
@@ -9994,12 +10089,12 @@
       var uskoro = !g.dat;
       html += '<div class="extraKart' + (uskoro ? ' uskoro' : '') + '"' +
         ' onclick="miniDodir(this,\'' + g.id + '\',' + uskoro + ')">' +
-        '<span class="sl">' + miniSlikaHtml(g) + '</span>' +
+        '<span class="sl">' + miniSlikaHtml(g) + igraOznakaHtml(g) + '</span>' +
         '<span class="tekst">' +
         '<span class="ime">' + esc(g.ime) + '</span>' +
         '<span class="stil">' + esc(g.stil) + '</span>' +
         '<span class="opis">' + esc(g.opis) + '</span>' +
-        '<span class="podnozje"><span>keine Punkte – dein eigener Text</span>' +
+        '<span class="podnozje"><span>' + esc(g.podnozje || '') + '</span>' +
         '<span class="st">' + (uskoro ? 'demnächst' : '') + '</span></span>' +
         '</span></div>';
     });
@@ -10059,7 +10154,8 @@
   function renderMiniIgra(id) {
     var g = miniPoId(id);
     if (!g) { renderMini(); return; }
-    if (imaPristup('MiniGame', 0) !== 'ok') { renderMini(); return; }
+    if (pristupIgri(g) !== 'ok') { renderMini(); return; }
+    zapamtiZadnjuIgru(g.id);
     // Zadnji upis prethodne igre mora ići prije sijanja ispod — inače bi novo sijanje moglo
     // pregaziti stanje koje još nije otišlo na server.
     miniSatStop();

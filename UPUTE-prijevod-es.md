@@ -82,11 +82,25 @@ Pravila koja se najčešće krše (sva su u ES-plan §3):
 ### Korak 5 — Blobby i ostalo
 BLOBBY se gradi sam iz memorije lekcija (build javlja koliko fali). Provjeri `nedostaje.tsv` = prazno.
 
-## 3. Recenzija (svaka razina i svaki korak 1–3)
-Recenziju radi **nova sesija** bez konteksta prevoditelja (prompt na dnu). Nalazi idu u
-`croland-es/recenzija/<korak-ili-razina>.md` kao tablica `# | gdje | en | es sada | problem | prijedlog`.
-Prevoditelj ih u svojoj sljedećoj sesiji ispravi ili obrazloži (stupac `odluka`). Korak/razina je gotov tek kad
-recenzija nema otvorenih nalaza — tada se označi u `STANJE.md`.
+## 3. Uloga sesije i recenzija
+
+> **Izmjena 06.10.2026. (odluka korisnika): recenzije su ukinute.** Svaka sesija je prevoditelj. Kad su korak/razina
+> prevedeni i provjere 0, korak je **gotovo**, a `Sljedeće: prijevod — <sljedeći korak/razina>`. Ostatak ovog odjeljka
+> o recenzentu više ne vrijedi.
+
+Svaka sesija ima **točno jednu ulogu**, koju bira prema retku `Sljedeće:` na vrhu `croland-es/STANJE.md`:
+- `Sljedeće: prijevod — <korak/razina>` → **prevoditelj**: prvo ispravi ili obrazloži otvorene nalaze recenzije
+  (stupac `odluka`), zatim prevodi. Kad je korak/razina potpuno preveden(a) i provjere su 0, označi
+  „čeka recenziju“ i postavi `Sljedeće: recenzija — <isto>`. Ako nije stigao do kraja, `Sljedeće` ostaje prijevod.
+- `Sljedeće: recenzija — <korak/razina>` → **recenzent**: ne ispravlja ništa. Usporedi engleski izvor i
+  španjolski (memorija za tu razinu, `croland-es/igre/*.md`, `sucelje-es.tsv`, rječnik), pokrene `provjeri.py` i
+  `provjeri-stil.py`, i nalaze upiše u `croland-es/recenzija/<korak-ili-razina>.md` kao tablicu
+  `# | gdje | en | es sada | problem | prijedlog | odluka`. Traži: smisao, prirodnost i regionalizme, *vosotros*/voseo,
+  ton (*tú*, toplo, kratko), gramatiku i pravopis (¿? ¡! “ ”), glosar, mostove, *usted/ustedes*, **odavanje
+  rješenja** i hrvatsko koje je prevedeno (ili obrnuto). Zatim:
+  - 0 nalaza → korak/razina **gotovo**, `Sljedeće: prijevod — <sljedeći korak/razina>`;
+  - ima nalaza → „recenzija: N nalaza“, `Sljedeće: prijevod — <isto> (ispravci)`.
+- Sesija nikad ne recenzira ono što je sama prevela u istoj sesiji. Svaka sesija je nova, pa je recenzija neovisna.
 
 ## 4. Regresija
 Svaka izmjena `index.html` (rijetko, samo za kuke): `croland-jezici/test/snimi.js` i `usporedi.py` za EN i DE
@@ -95,28 +109,17 @@ prije/poslije (upute u `croland-jezici/PROCITAJ-ME.md`). EN mora biti bez razlik
 ## 5. Kraj svake sesije
 - Ažuriraj `croland-es/STANJE.md`: što je gotovo, brojke (`posao.py stanje`, greške provjera), otvorene odluke.
 - Ne objavljuj ništa i ne diraj `jezici.json` (`es` ostaje `"aktivan": false`) ni `<head>` popis jezika — to je faza 7.
-- Korisniku na kraju: 2–3 rečenice o tome što je gotovo i koji je sljedeći prompt (prevoditelj ili recenzent).
+- Postavi redak `Sljedeće:` u `STANJE.md` (vidi §3).
+- Korisniku na kraju: 2–3 rečenice o tome što je gotovo i što piše u `Sljedeće:`.
 
 ---
 
-## Prompt: prevoditelj (kopiraj u novu sesiju)
+## Prompt (uvijek isti, kopiraj u novu sesiju)
 
-> Nastavljamo španjolsku verziju Crolanda (hrvatski za govornike španjolskog). U mapi projekta pročitaj redom
-> `ES-plan.md`, `UPUTE-prijevod-es.md`, `croland-es/STANJE.md` i `croland-es/glosar-es.tsv` (ako postoji).
-> Zatim napravi **sljedeći neodrađeni korak** iz `STANJE.md` točno po uputama: prvo ispravi otvorene nalaze
-> recenzije za taj korak ako ih ima, onda prevodi. Radi koliko god stigneš u ovoj sesiji, ali korak (ili razinu)
-> ostavi u stanju u kojem prolaze `provjeri.py` i `provjeri-stil.py`. Prije izmjena napravi `.bak` kopije.
-> Ništa ne objavljuj. Na kraju ažuriraj `croland-es/STANJE.md` i reci mi ukratko što je gotovo.
+> Nastavljamo španjolsku verziju Crolanda (hrvatski za govornike latinoameričkog španjolskog). U mapi projekta
+> pročitaj redom `ES-plan.md`, `UPUTE-prijevod-es.md`, `croland-es/STANJE.md` i `croland-es/glosar-es.tsv`
+> (ako postoji). Redak `Sljedeće:` u `STANJE.md` određuje tvoju ulogu u ovoj sesiji — prevoditelj ili recenzent —
+> i što radiš; drži se točno §3 uputa i samo te jedne uloge. Prije izmjena napravi `.bak` kopije, ništa ne
+> objavljuj. Na kraju ažuriraj `STANJE.md` (i redak `Sljedeće:`) i reci mi ukratko što je gotovo.
 
-## Prompt: recenzent (kopiraj u novu sesiju, nakon svakog koraka/razine)
-
-> Ti si neovisni recenzent španjolske verzije Crolanda (hrvatski za govornike latinoameričkog španjolskog).
-> Nisi prevodio ovaj dio. U mapi projekta pročitaj `ES-plan.md` (osobito §3 i §6b), `UPUTE-prijevod-es.md`,
-> `croland-es/glosar-es.tsv` i `croland-es/STANJE.md`, pa recenziraj **zadnji korak ili razinu označenu kao
-> „čeka recenziju“**: usporedi engleski izvor s španjolskim (memorija `croland-es/prijevod-es.tsv` za tu razinu,
-> generirane `croland-es/igre/*.md`, ili `sucelje-es.tsv` / rječnik). Traži: krivi smisao, neprirodan ili
-> regionalni španjolski, *vosotros*/voseo, ton (*tú*, toplo, kratko), gramatiku i pravopis (¿? ¡! “ ”), glosar,
-> mostove prema španjolskom, *usted/ustedes*, i posebno **odavanje rješenja** (rod/broj u odgovorima) te dijelove
-> koji su hrvatski a prevedeni su (ili obrnuto). Pokreni i `provjeri.py` i `provjeri-stil.py --jezik es`.
-> Ništa ne ispravljaj sam — nalaze upiši u `croland-es/recenzija/<razina-ili-korak>.md` po formatu iz uputa i
-> u `STANJE.md` označi „recenzija: N nalaza“. Na kraju mi reci broj nalaza po vrsti.
+Isti prompt se lijepi svaki put; sesija sama zna je li na redu prijevod ili recenzija.

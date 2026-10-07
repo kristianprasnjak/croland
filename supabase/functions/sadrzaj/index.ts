@@ -1,4 +1,4 @@
-// GET https://<projekt>.supabase.co/functions/v1/sadrzaj?f=data-plus.json  (ili data-plus-de.json)
+// GET https://<projekt>.supabase.co/functions/v1/sadrzaj?f=data-plus.json  (ili data-plus-de.json, data-plus-es.json)
 // Auth: Authorization: Bearer <supabase access token>
 //
 // Izdaje potpisani link na datoteku u privatnom Supabase Storage bucketu, i to samo ako
@@ -12,7 +12,7 @@ import { getSupabaseAdmin, imaPravoPristupa, korisnikIzZahtjeva, corsZaglavlja, 
 const BUCKET = 'sadrzaj';
 // Zatvoreni popis — bez njega bi se kroz ?f= moglo tražiti bilo što iz bucketa.
 // data-plus-fr.json: francuski tečaj (zasebna stranica, isti račun i ista pretplata)
-const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json', 'data-plus-fr.json']);
+const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json', 'data-plus-es.json', 'data-plus-fr.json']);
 const TRAJANJE_SEK = 300;
 
 Deno.serve(async (req) => {

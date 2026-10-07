@@ -1,0 +1,7 @@
+  - L17 imperativ: most *miras → mira* (tú imperativ iz prezenta bez -s), *dođi / idi* ↔ *ven / ve* (nepravilni, učiti cijele), *-mo* ↔ *¡Cantemos!*,
+    modal + infinitiv kao *puedo / tengo que*. Osoba u španjolskom prati hrvatsku: *ti* → tú (*¡Toma!*), *vi* grupa → ustedes (*¡Agreguen!*), *vi* uljudno → usted
+    (*¡Gire a la izquierda!*); oznake *(a un amigo) (a un grupo) (formal) (una persona) (un turista, formal) (el equipo)*. Isti EN string s *ti* i *vi* rješenjem
+    (*Don't run across the road!* = *Nemoj trčati* / *Ne trčite*) → neutralno „¡Nada de cruzar la calle corriendo!“. *skrenuti* → *girar, doblar* (u rečenicama *girar*),
+    *tava* → *sartén*, *štednjak* → *estufa*, *kružni tok* → *glorieta, rotonda*, *ravno* → *derecho*, *požuriti* → *apurarse*, *tepih* (pred vratima) → *tapete*, *Pij!* → *¡Bebe!*;
+    modali u zagradi *(poder) (tener que) (querer)*; *don't* → „no lo hagas“. Kategorije ORDEN / AFIRMACIÓN / PETICIÓN AMABLE / UNA PERSONA (ti) / UN GRUPO (vi).
+    6 redaka `=`; `stil-iznimke.tsv` +11 (10 ravnih navodnika u hrvatskom dijelu, 1 usklicnik).

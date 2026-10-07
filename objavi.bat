@@ -6,7 +6,7 @@ echo ====================================================
 echo   OBJAVA CROLANDA - sve u jednom
 echo ====================================================
 echo.
-echo   1. osvjezavam data.js (EN) i ostale jezike (DE: data-de.js + index-de.html)
+echo   1. osvjezavam data.js (EN) i ostale jezike (DE, ES: data-XX.js + index-XX.html)
 echo   2. dijelim na javni i placeni dio
 echo   3. uploadam placeni dio u Supabase
 echo   4. saljem na GitHub (stranica se osvjezi za 1-2 min)

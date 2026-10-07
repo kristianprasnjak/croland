@@ -1,0 +1,6 @@
+  - L18 kondicional: most „gdje španjolski mijenja završetak (*compré / compraría*), hrvatski mijenja pomoćni (*sam / bih*)“; *Htio / Htjela bih* ↔ *quisiera*;
+    *ako* + prezent ↔ *si tengo…*, *da* + prezent / *kad bih* ↔ *si tuviera…, compraría*. Španjolski kondicional ne pokazuje rod, pa oznake ostaju:
+    *(habla un hombre / una mujer) (solo mujeres) (dos mujeres) (Marko y yo) (a un grupo) (a un amigo / a una amiga) (a un hombre / a una mujer)*; *(possible)* → *(posible)*,
+    *(a dream)* → *(un sueño)*. Riječi: *alarm* → *despertador*, *ljutiti se* → *enojarse*, *smijati se* → *reírse*, *nadati se* → *esperar (tener esperanza)*, *Dogovoreno!* → *¡Trato hecho!*,
+    *k meni* → *a mi casa*, *stan* → *departamento*, *Zamislite* → *Imagínense*, *PITALI SMO VAS* → *LES PREGUNTAMOS*. Kartica *bih, bi…* → „auxiliares del condicional (como -ría en compraría)“.
+    Kategorije PASÓ (pasado) / DESEO (condicional) / PASADO / FUTURO / CONDICIONAL. 3 retka `=`; `stil-iznimke.tsv` +4 (anketa, ravni navodnici u hrvatskom dijelu).

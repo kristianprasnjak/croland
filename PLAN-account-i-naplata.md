@@ -1,6 +1,6 @@
 # Account i naplata — cjeloviti plan
 
-**Stanje: 3. 10. 2026. Verzija 1, za raspravu.** Nadovezuje se na `OBRT-odluke-i-koraci.md` i mockup `prijedlog-account.html`. Ovo nije porezni ni pravni savjet: točke s oznakom **(potvrdi)** treba provjeriti s knjigovođom ili HOK-om.
+**Stanje: 3. 10. 2026. Verzija 1, za raspravu. Dopuna 7. 10. 2026.: program za kreatore i promo kodovi (sekcija 3d).** Nadovezuje se na `OBRT-odluke-i-koraci.md` i mockup `prijedlog-account.html`. Ovo nije porezni ni pravni savjet: točke s oznakom **(potvrdi)** treba provjeriti s knjigovođom ili HOK-om.
 
 ---
 
@@ -55,6 +55,11 @@ Ažurira se nakon svake tvoje odluke. Datum, odluka, posljedica.
 | 3. 10. | **Gost vidi Account kao cjenik** (paketi, Custom, Free vs Plus, upute za prijavu); svaka radnja otvara prijavu | Izvedeno; ujedno zadovoljava Paddleov uvjet javno vidljivih cijena |
 | 3. 10. | **Baza i funkcije postavljene u produkciji** (Claude preko preglednika) | Vidi sekciju 10 |
 | 3. 10. | Osim kupnje za sebe postoje **kodovi (licence)**: više komada uz popust na količinu, može ih iskoristiti bilo tko, kupac uz pristanak vidi napredak korisnika koda | Nova sekcija 3b; model iz `cjenik.html` uzet kao polazište |
+| 7. 10. | **Program za kreatore (YouTube):** kreator dobiva **15–30 mjesečnih kodova** i radi s njima što hoće (koristi, dijeli, prodaje). Bez novca, provizije, isplata i besplatne godine. Format videa se ne uvjetuje. | Nova sekcija 3d; `KREATORI.md` |
+| 7. 10. | **Promo kod kreatora:** upisuje se **isključivo pri registraciji** (ručno ili preko linka `?promo=`), daje **20 % popusta na prvu uplatu** za paket, vrijedi **1 godinu** od registracije | Sekcija 3d; Terms i Privacy (nacrt) dopunjeni |
+| 7. 10. | **Nagrada kreatoru:** 1 mjesečni kod za svakog korisnika koji se registrirao s njegovim promo kodom i prvi put platio (bilo koji paket) | Sekcija 3d |
+| 7. 10. | Promo kod i kod za pristup su **odvojeni**: promo pri registraciji, kod za produžetak pod Account („Have a code?") | Sekcija 3d |
+| 7. 10. | Promo kodovi na stranicama s kuponima **nisu problem** (besplatna reklama); bez ograničenja nagrada po kreatoru | Sekcija 3d |
 
 ---
 
@@ -133,7 +138,7 @@ Ako korisnik već ima aktivan Plus iz jednog kanala, ostali kanali **ne nude kup
 
 - **Viša cijena u aplikacijama** pokriva veću proviziju. Apple i Google to dopuštaju, a smjer prema webu ostaje primamljiv bez reklamiranja. **Odluka D3.**
 - **Cijene u aplikacijama dolaze iz trgovine** i prilagođene su zemlji. Ne pišu se u kod.
-- **Probno razdoblje** od 7 dana na godišnjem paketu najčešći je pokretač konverzije. Apple i Google to imaju ugrađeno kao "introductory offer", a Paddle kao "trial". **Odluka D4.**
+- **Probno razdoblje: ne postoji i neće postojati** (O1, potvrđeno 7. 10.). Prijedlog D4 je odbačen.
 - **Tjedni paket:** u `OBRT-odluke-i-koraci.md` dosad su bili samo mjesečni i godišnji. Ako ostaje, treba ga dopisati i tamo. **Odluka D2.**
 
 ---
@@ -190,6 +195,48 @@ Ako korisnik već ima aktivan Plus iz jednog kanala, ostali kanali **ne nude kup
 - **Već prodani kodovi se ne mijenjaju.** Kod nosi trajanje, a ne cijenu. Zato je najava poskupljenja ujedno i prodajni poticaj za kodove ("kupi sad po staroj cijeni, iskoristi do 2 godine").
 - **Promjena stope PDV-a** u nekoj zemlji ne mijenja cijenu (ista za sve, s PDV-om), nego samo tvoj neto iznos iz te zemlje.
 - **Cijene se ne pišu u kod stranice.** Paketi se čitaju iz Paddlea, a osnovice za Custom iz `postavke` u Supabaseu. Poskupljenje je tako promjena jednog retka, bez novog izdanja aplikacije.
+
+---
+
+## 3d. Program za kreatore i promo kodovi (7. 10. 2026.)
+
+**Cilj:** što više malih YouTube kanala (expati, dijaspora, polygloti, ljudi koji uče jezike, travel) snima o Crolandu, ti kanali rastu, a kad stignu novi jezici, isti kreatori nastavljaju. Kreatorima se ne nameće format. Popis kandidata i poruka za prvi kontakt: `KREATORI.md`.
+
+### Ponuda kreatoru
+- **15–30 mjesečnih kodova** (vrijednost 150–300 € po cijeni od 10 €). Kreator ih smije sam koristiti, poklanjati ili prodavati (u skladu s 3b: preprodaja je poželjna).
+- **15** za kanale ispod ~500 pregleda po videu, **30** za veće i one čija publika stvarno uči hrvatski.
+- **Bez novca:** nema provizije, praga, isplata ni poreznih pitanja oko isplata strancima. Nema besplatne godine.
+- Kodove izdaješ ručno (SQL), kao i ostale besplatne kodove.
+
+### Promo kod kreatora
+- Svaki kreator ima svoj **promo kod** = njegovo ime (npr. `NASTYA`). Vizualno se razlikuje od koda za pristup, koji počinje s `CRO-`.
+- Upisuje se **isključivo pri registraciji**. Postojeći korisnici ga ne mogu naknadno upisati: kreator je nagrađen samo za ljude koje je doveo.
+- Dva puta do registracije: **link** `?promo=NASTYA` (pamti se kroz prijavu, isto kao `?redeem=`) ili **ručni unos** u polje na obrascu za registraciju, i za Google i za email.
+- Daje **20 % popusta na prvu uplatu za paket** (tjedni, mjesečni ili godišnji), ako je uplata unutar **1 godine** od registracije. Ne vrijedi za obnove.
+- **Kodovi za produžetak** se i dalje upisuju samo pod Account („Have a code?"). Promo kod tamo ne radi, i obrnuto.
+
+### Nagrada za kreatora
+- Kad korisnik registriran s promo kodom **prvi put plati** (bilo koji paket), kreator automatski dobiva **1 mjesečni kod**. Svaki korisnik se broji jednom.
+- Kreator ne vidi ime ni email tog korisnika.
+- Ako Paddle vrati novac za tu uplatu, vrijedi pravilo O5: neiskorišteni nagradni kod se poništava, iskorišteni ostaje.
+- Bez ograničenja broja nagrada. Promo kodovi koji završe na stranicama s kuponima su besplatna reklama.
+
+### Računica po kupcu (kupac iz HR, s PDV-om 25 %)
+| Paket | Normalno ti ostane | S 20 % popusta |
+|---|---|---|
+| Godišnji 60 € → 48 € | ~45 € | ~36 € |
+| Mjesečni 10 € → 8 € | ~7,1 € | ~5,6 € (samo prvi mjesec) |
+| Tjedni 5 € → 4 € | ~3,3 € | ~2,6 € |
+
+Nagradni kod te ne košta ništa. Na svakom kupcu zarađuješ, a riječ je o kupcima koji bez kreatora ne bi došli.
+
+### Tehničke posljedice
+- **Profil:** novi stupci `promo_kod` (tekst), `promo_upisan_at` (datum registracije) i `promo_iskoristen` (bool). Upisuju se samo pri prvoj prijavi novog računa.
+- **Nova tablica `kreatori`:** `promo_kod` (jedinstven), ime, kanal (URL), jezik, napomena, aktivan. Promo kod se pri registraciji provjerava protiv ove tablice.
+- **`paddle-checkout`:** ako korisnik ima važeći, neiskorišten promo kod (manje od 1 godine) i kupuje paket, transakciji se dodaje Paddle popust od 20 % s `recur: false`. Klijent nikad ne šalje popust.
+- **`paddle-webhook`:** pri prvoj potvrđenoj uplati takvog korisnika postavlja `promo_iskoristen = true` i izdaje 1 mjesečni kod kreatoru (tablica `kodovi`, izvor `nagrada`).
+- **Kreator vidi svoje kodove** kao i svaki kupac kodova (3b), uključujući nadimak i bodove onih koji ih iskoriste, ako to dopuste.
+- **Registracija:** polje „Promo code (optional)" iznad tipki Google / email; vrijednost se pamti kroz OAuth preusmjeravanje.
 
 ---
 
@@ -305,7 +352,7 @@ Statistika (bodovi, streak, riječi) **ne ide** na ovu stranicu, ni kao link. Pr
 
 - Sve iz `OBRT-odluke-i-koraci.md` vrijedi.
 - **Odobrenje domene u Paddleu:** traži javno dostupne cijene, Terms, Privacy i Refund policy. Javni cjenik za goste na Account stranici tome izravno pomaže.
-- **Proizvodi:** Croland Plus s tri cijene (tjedna, mjesečna, godišnja), opcionalno trial.
+- **Proizvodi:** Croland Plus s tri cijene (tjedna, mjesečna, godišnja), bez triala (O1). Uz to jednokratni popust od 20 % za promo kodove (sekcija 3d).
 - Uključiti customer portal i webhook prema RevenueCatu.
 
 ### 7.2 Apple
@@ -408,6 +455,7 @@ Zatvorene odluke su u Dnevniku na vrhu.
 | # | Pitanje | Preporuka |
 |---|---|---|
 | O15 | Domena: naziv | — (što prije: o njoj ovise Paddle, mail i Google prijava) |
+| O16 | Vrijedi li promo kod i za prvu Custom kupnju kodova? | U nacrtu Terms zasad piše da ne vrijedi (samo prva uplata za paket) |
 
 ### Kontrolni popis prije početka naplate
 - [ ] Domena kupljena, stranica prebačena, HTTPS
@@ -415,8 +463,8 @@ Zatvorene odluke su u Dnevniku na vrhu.
 - [ ] Brevo spojen kao SMTP u Supabaseu; predlošci mailova (potvrda, reset lozinke) prevedeni i s brendom
 - [ ] „Forgot password" tok na stranici prijave
 - [ ] Adresa za podršku na domeni (npr. hello@…) — traže je Paddle i Terms
-- [ ] Terms: pretplate i automatska obnova, kodovi (vrijede 2 godine od kupnje, prenosivi, preprodaja dopuštena), povrati preko Paddlea, promjena paketa na kraju razdoblja
-- [ ] Privacy: Paddle i Brevo kao obrađivači, Stripe uklonjen, vidljivost nadimka i bodova kupcu koda, izvoz i brisanje
+- [ ] Terms: pretplate i automatska obnova, kodovi (vrijede 2 godine od kupnje, prenosivi, preprodaja dopuštena), povrati preko Paddlea, promjena paketa na kraju razdoblja, **promo kodovi (dopisano u nacrt 7. 10., EN i DE)**
+- [ ] Privacy: Paddle i Brevo kao obrađivači, Stripe uklonjen, vidljivost nadimka i bodova kupcu koda, izvoz i brisanje, **promo kod pri registraciji (dopisano u nacrt 7. 10., EN i DE)**
 - [ ] Refund policy (Paddle je traži kao zasebnu stranicu)
 - [ ] Nacrte iz `pravni-tekstovi-nacrt/` popuniti (žuta polja: naziv obrta, adresa, OIB, datum, web host), kopirati preko postojećih i dodati `refund.html` u `scripts/build.js`
 - [ ] Podaci obrta u podnožju
@@ -432,6 +480,7 @@ Aplikacije (D3, D5, D10) · njemačka verzija
 - Promjena paketa **na kraju razdoblja** (scheduled change), a ne odmah
 - Zadržavanje stare cijene postojećim pretplatnicima
 - Ime na izvodu kartice
+- Jednokratni popust od 20 % (`recur: false`) na prvu transakciju pretplate, dodan na poslužitelju
 
 ### Tehničke napomene za izvedbu
 - `_shared/lib.ts → imaPravoPristupa()` (funkcija `sadrzaj` koja čuva plaćeni sadržaj) mora čitati novu tablicu `pretplate`.
@@ -465,3 +514,4 @@ Aplikacije (D3, D5, D10) · njemačka verzija
 **Preostaje:**
 1. `objavi.bat` (nova stranica).
 2. Paddle sandbox (SETUP.md, korak 3) — kad stigneš.
+3. Promo kodovi i program za kreatore (sekcija 3d): stupci u profilu, tablica `kreatori`, polje na registraciji, `?promo=` link, popust u `paddle-checkout`, nagradni kod u `paddle-webhook`.

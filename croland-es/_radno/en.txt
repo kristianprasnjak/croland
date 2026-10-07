@@ -1,0 +1,473 @@
+0	Intro
+1	Good morning! ☀️ Today's challenge takes 2 minutes — or as long as your coffee does.
+2	Six words, one cozy morning scene. Learn them, match them, done. Tomorrow they'll still be here in your Dictionary.
+3	Words of the day
+4	Tap a card to reveal the meaning.
+5	Match the morning
+6	Match each Croatian word with its English meaning. All six belong on one breakfast table.
+7	Finish the scene
+8	Complete the morning scene — pick the right word.
+9	Reward
+10	You just had breakfast in Croatian. 🥐 **+10 points · streak +1**
+11	*Sutra: idemo na more.* — Tomorrow: we head to the sea.
+12	Postcard from the Croatian coast! 🏖️
+13	Today's challenge: six beach words — and one tiny pattern that unlocks the gender of almost every Croatian noun. Spot it once, use it forever.
+14	Croatian nouns have a gender, and the ending usually gives it away: ends in **-a** → feminine (*plaža*), ends in a **consonant** → masculine (*brod*), ends in **-o / -e** → neuter (*more*).
+15	Sort the postcard
+16	M (consonant)
+17	Sort each beach word into its gender group. Look at the last letter — it's telling you the answer.
+18	Speed round
+19	A word flashes — tap its gender. Beat the clock!
+20	You can now guess the gender of thousands of Croatian nouns from one letter. Not bad for a day at the beach. 🐟 **+10 points · streak +1**
+21	*Sutra: piće u kafiću.* — Tomorrow: a drink at the café.
+22	You walk into a café in Split. The waiter looks at you. 😅
+23	Good news: you already know almost every word you need. Today you'll *build* your first café conversation — word by word.
+24	bill / check
+25	Build the conversation
+26	Translate each line by tapping the words in the right order. Extra words are there to trick you!
+27	Quick replay
+28	Now play the scene. The waiter speaks — choose your reply. (Some options are deliberately silly!)
+29	You just ordered a drink and paid the bill — in Croatian, in a café in Split. The waiter is impressed. 🇭🇷 **+10 points · streak +1**
+30	*Sutra: novi izazov te čeka.* — Tomorrow: a new challenge is waiting for you.
+31	Saturday morning, a Croatian market. 🧺 Colors, noise, and fruit everywhere.
+32	Six words today — and one of them you already know. Fill your basket!
+33	Fill the basket
+34	Match each fruit to its name — every correct pair lands in your basket.
+35	Market memory
+36	Flip the cards — find each fruit and its Croatian name.
+37	Your basket is full — and your Croatian fruit vocabulary too. 🍐 **+10 points · streak +1**
+38	Remember the gender trick from the beach? 🌊 Today it pays off.
+39	Adjectives in Croatian *dress to match* their noun: **crven** auto, **crvena** kuća, **crveno** sunce. Same word, three outfits.
+40	The adjective copies the noun's ending: auto je **crven** (M — suglasnik) · kuća je **crvena** (Ž — -a) · sunce je **crveno** (S — -o).
+41	Same word, three outfits — tap to reveal.
+42	Color the town
+43	Pick the right form — the adjective has to match!
+44	Type the ending
+45	Type the whole adjective — sometimes there's nothing to add after the base form!
+46	You didn't learn a single new word today — and yet your Croatian just leveled up. That's grammar for you. 🖌️ **+10 points · streak +1**
+47	Time to meet the family! 📸
+48	Here's a family photo. Six people, six words — and two of them you can already guess. (Croatian kids say *mama* and *tata* too.)
+49	Who is who?
+50	Match each family member with the English word.
+51	Introduce them
+52	Someone steps out of the photo — introduce them!
+53	The whole family knows your name now. Well — you know theirs. 👵 **+10 points · streak +1**
+54	It's somebody's birthday! 🎉 The cake is here, the candles are lit — but how many are there?
+55	Today: count to six in Croatian. By the end, you'll do it without thinking.
+56	one (1)
+57	two (2)
+58	three (3)
+59	four (4)
+60	five (5)
+61	six (6)
+62	Count the candles
+63	How many candles? Tap the Croatian number.
+64	Number rush
+65	A digit appears — tap the Croatian number. Faster every round!
+66	**Jedan, dva, tri** — you're counting in Croatian! And yes, there's cake. 🍰 **+10 points · streak +1**
+67	The party from yesterday is still going — and people want to meet you. 🥳
+68	Four tiny word-pairs are all you need: **ja sam** (I am), **ti si** (you are), **on je** (he is), **ona je** (she is). Let's mingle.
+69	The verb changes with the person — that's why Croatians often drop the pronoun entirely: *Ja sam Ana. Ti si brat. On je konobar. Ona je sestra.*
+70	I am
+71	you are
+72	he is
+73	she is
+74	Each pronoun has its partner — match them. No mixing allowed at this party!
+75	Introduce the guests
+76	Build each introduction from the words below — extra words are traps!
+77	**Ja sam...** — you can introduce yourself in Croatian. The party's a success. 🎈 **+10 points · streak +1**
+78	You're the weather reporter today. 🎙️ The map of Croatia is behind you, the camera is on.
+79	Six weather words and you're ready to go live.
+80	Tap a card to reveal the meaning. (Fun fact — "vrijeme" also means "time".)
+81	Weather map
+82	Match each symbol on the map with its Croatian word.
+83	Read the forecast
+84	You're live! Pick the correct line for each city.
+85	Clear skies, perfect Croatian. Your forecast career is off to a great start. 🌤 **+10 points · streak +1**
+86	Something's wrong today. The coffee is cold, the snow is warm, the sea is... red? 🤨
+87	Time to learn the most useful little word in Croatian: **nije** (is not). One word, and you can correct *anything*.
+88	To say something is NOT — just swap **je** for **nije**: Kava **je** topla. → Kava **nije** topla. That's the whole rule. No extra words, no word-order tricks.
+89	Look at the scene, read the sentence — is it TRUE or FALSE?
+90	Fix the world
+91	Now correct every false sentence — type the missing word.
+92	Hard mode
+93	Build the corrected sentence — extra words are traps!
+94	The world makes sense again — thanks to you and one little word. **Nije** loše! 😉 **+10 points · streak +1**
+95	Welcome to a Croatian farm! 🚜 The animals are loud today — and fun fact: they "speak" Croatian. A dog here says *vau-vau*, not *woof-woof*.
+96	Six animals, six words. Listen carefully.
+97	cow
+98	bird
+99	Who said that?
+100	Match each sound to the right animal.
+101	Farm memory
+102	Find all six pairs. The animals are hiding!
+103	The farm is fed, the words are yours. **Vau-vau!** 🐶 **+10 points · streak +1**
+104	Remember the café in Split? Tonight you're back — but this time it's dinner. 🌅
+105	The waiter recognizes you. The menu is in Croatian. Good thing you know exactly five new words...
+106	Order dinner
+107	Translate each line — tap the words in order. The waiter is waiting! Extra words are traps.
+108	Dinner dialogue
+109	Play the scene — choose your replies. (Neki odgovori citiraju prošle challengee — čisto za zabavu.)
+110	Dinner ordered, small talk survived, bill paid. You're officially dangerous in a Croatian restaurant. 🧾 **+10 points · streak +1**
+111	Back at the market! 🧺 But today one apple won't cut it — you need two, three, five...
+112	Good news: Croatian plurals follow patterns you can *see*. Two letters do most of the work:
+113	ends in **-a**? Swap it for **-e**: banan**a** → banan**e**, jabuk**a** → jabuk**e**. Ends in a consonant? Add **-i**: telefon → telefon**i**, hotel → hotel**i**.
+114	Singular → plural. Tap to reveal.
+115	banana → bananas
+116	apple → apples
+117	telephone → telephones
+118	hotel → hotels
+119	Sort the words — is it one thing or more?
+120	Shopping list
+121	Type what's in your basket — watch the ending! (After numbers 2–4, masculine words take -a: dva telefona. You'll learn why later.)
+122	**Dvije banane, tri jabuke** — the market ladies are impressed. 🛒 **+10 points · streak +1**
+123	Flip open a diary. 📖 Yesterday's page, today's page, tomorrow's page.
+124	Six little time words today — the kind you'll use in literally every Croatian conversation.
+125	Sort the diary
+126	Three diary pages — put each scene on the right one.
+127	Complete the diary
+128	Finish each diary line.
+129	**Jučer, danas, sutra** — your Croatian now travels in time. ⏳ **+10 points · streak +1**
+130	Pack your bags — today we travel! 🧳
+131	Here's the trick: today you learn six words you *already know*. Croatian borrowed them, you just have to claim them back. This might be your fastest challenge yet — so we're timing you.
+132	Tap a card — you'll see why these look familiar. ("Karta" also means map — one word, two lives.)
+133	Speed run
+134	These words look familiar for a reason. Croatian word appears — tap the English meaning. Go!
+135	The itinerary
+136	Your travel day, in order — build each step. ("tu" = here.) Extra words are traps!
+137	Six words in record time — told you that you already speak Croatian. **Sretan put!** (Have a good trip!) 🌍 **+10 points · streak +1**
+138	A crime has been committed. 🍰❌ The cake is GONE.
+139	Every detective needs three questions: **tko?** (who?), **što?** (what?), **gdje?** (where?).
+140	Croatian questions are beautifully simple — question word + **je**: *Tko je to?* — Who is that? *Što je to?* — What is that? *Gdje je torta?* — Where is the cake? No "do", no "does", no word-order gymnastics.
+141	Question or answer?
+142	Match each question to the only answer that makes sense. Detective logic! ("u kuhinji" = in the kitchen, "u kafiću" = in the café.)
+143	Solve the case
+144	Interrogate the suspects — pick the right question for each clue.
+145	Case closed: **mačka** did it. The bakery of justice thanks you, detective. 🐱⚖️ **+10 points · streak +1**
+146	Today you're an engineer. 🔧 On the table: robot parts. Head, eyes, arms, legs...
+147	Name every part in Croatian and your robot comes to life.
+148	Tap a card to reveal the meaning. ("Ruka" covers both arm and hand — one word for both!)
+149	arm / hand
+150	Assemble the robot
+151	Attach each label to the right part. Wrong label, no robot!
+152	Robot says!
+153	The robot calls out a part in English — tap the Croatian word. Faster every round!
+154	Your robot is alive — and bilingual. **Glava, ruka, noga** — all systems go. 🦾 **+10 points · streak +1**
+155	Two weeks ago, *kava* was your whole vocabulary. Look at you now. 💪
+156	Today, no new words. Instead: one full day in Croatia — and you'll understand every line of it. Ready?
+157	The story
+158	Five questions about the story!
+159	What's the weather like?
+160	What does the hero buy at the market?
+161	2 bananas and 3 apples
+162	3 bananas
+163	lemons
+164	What do they drink at the café?
+165	The restaurant is...
+166	"Račun, molim" means...
+167	The bill, please
+168	The menu, please
+169	More soup, please
+170	Grand speed finale
+171	Everything you've learned, rapid fire. Beat your best!
+172	🏆 **Two-week champion!** You just read a whole story in Croatian — every word of it yours.
+173	New cycle, new you. 🕺 Today: a fashion show — and you're the designer.
+174	Six clothing words walk down the runway. Dress your model, name every piece.
+175	Tap a card to reveal the meaning. ("Hlače" and "cipele" are always plural — just like in English!)
+176	t-shirt
+177	trousers / pants
+178	cap / hat
+179	Dress the model
+180	Attach each label onto the right piece. The show starts when the outfit is complete!
+181	Fashion critic
+182	You're the judge — pick the correct comment. Watch the adjective ending!
+183	The crowd goes wild — your collection (and your Croatian) is a hit. 👗✨ **+10 points · streak +1**
+184	Lazy Sunday. ☕ You read, you eat, you watch the rain — and today you say it all in Croatian.
+185	The trick: Croatian "I"-verbs end in **-m**. *Čitam* = I read. One word — pronoun included, free of charge.
+186	One word = a whole English sentence: **čitam** — I read / I'm reading. **gledam** — I watch. **pijem** — I drink. No "am", no "-ing", often no "ja" needed. The **-m** at the end means *me*.
+187	What am I doing?
+188	Match each scene from your lazy Sunday to the verb.
+189	Narrate your Sunday
+190	Build each sentence about your day. ("čaj" = tea — a preview of tomorrow!) Extra words are traps.
+191	**Čitam, gledam, pijem** — you just survived a whole Sunday in Croatian without leaving the couch. 🛋 **+10 points · streak +1**
+192	Beach bar 🍹
+193	Back at the beach — but today you're thirsty. 🏖️
+194	The beach bar has a chalkboard menu. Six drinks on it, half of them you can already guess.
+195	The chalkboard
+196	Match each drink to its name on the chalkboard menu.
+197	Order up
+198	What are you drinking? Say it like a local.
+199	Say it smoothly
+200	Build the order — extra words are traps!
+201	**Živjeli!** (Cheers!) — the bartender already likes you. 🥂 **+10 points · streak +1**
+202	Tiny detail, big difference. 🔍
+203	On the shelf it's **kava**. But the moment you order it, drink it, or need it — it becomes **kavu**. Croatian words change shape when something *happens* to them.
+204	When a feminine word (-a) is the *target* of the action, **-a turns into -u**: Kav**a** je topla. → Pijem kav**u**. Other words don't change (for now — lucky you): *Pijem čaj. Gledam more.*
+205	Naming form → target form. Tap to reveal.
+206	Shelf or hand?
+207	Pick the right form — is the word just sitting there, or is something happening to it?
+208	Your morning, in order — type the missing part (or the whole word).
+209	Gledam ___ (the house)
+210	One letter — and suddenly you order coffee like you were born in Zagreb. **Kavu, molim!** ☕ **+10 points · streak +1**
+211	You're a tourist today — map in hand, old town ahead. 🧭
+212	Six city words and you'll never be lost in Croatia again. (Okay, *almost* never.)
+213	Pin the map
+214	Six pins on the old-town map — label them all.
+215	Lost tourist
+216	Help the lost tourist — pick the right question or answer. ("na trgu" = on the square.)
+217	Tourist saved, old town conquered. Your map has no blank spots left. 🏛 (Jesi li primijetio? **Molim** je i "please" i odgovor na "hvala"!) **+10 points · streak +1**
+218	Bingo night, Croatian style — **tombola**! 🎉
+219	You know 1–6. Tonight the caller goes higher: seven to twelve. Grab your card.
+220	Tap a card to reveal the meaning. (Spot the pattern — jedanaest = jedan+aest, dvanaest = dva+naest!)
+221	seven (7)
+222	eight (8)
+223	nine (9)
+224	ten (10)
+225	eleven (11)
+226	twelve (12)
+227	Cross it off
+228	The caller shouts a number — cross it off your tombola card!
+229	Number rush II
+230	Now the full range 1–12. See the digit, tap the word. The caller speeds up!
+231	**TOMBOLA!** You won the round — and twelve Croatian numbers. 🏆 **+10 points · streak +1**
+232	Match day! ⚽ Your team warms up, the rivals arrive, the fans are loud.
+233	You know *ja, ti, on, ona*. Today, the plural squad: **mi** (we), **vi** (you all), **oni** (they). Whole teams in one word.
+234	Same trick as before — each pronoun has its verb partner: **mi smo** (*Mi smo tim!*), **vi ste** (*Vi ste dobri.*), **oni su** (*Oni su tu.*)
+235	we are
+236	you (all) are
+237	they are
+238	Match the squads
+239	Full roster check — match every pronoun to its partner. Old players included!
+240	Stadium announcer
+241	You're on the mic — build each line for the crowd. ("tim" = team, "glasni" = loud, "nismo" = we are not.) Extra words are traps!
+242	Final whistle: **mi smo tim** — and you're the captain of all six pronouns now. 🏅 **+10 points · streak +1**
+243	The park is packed today — a game on every court. 🌳
+244	Six sports words, half of them already yours. (Croatian fans watch *tenis* and play *nogomet* — and *nogomet* hides a word you know: **noga** + met!)
+245	football / soccer
+246	swimming
+247	running
+248	I play
+249	Court by court
+250	Walk through the park — name the game on every court.
+251	What do you play?
+252	Tell us your game. (Spotted the -u in "košarku"? That's the target-form rule in action!)
+253	"I play football and tennis."
+254	Game, set, match. **Igram nogomet, igram tenis** — the park is yours. 🥇 **+10 points · streak +1**
+255	The most useful sentence in any language: *I like...* ❤️
+256	In Croatian it's one word — **volim**. And *I don't like*? Just add **ne**: **ne volim**. Today you sort your whole world into hearts and crosses.
+257	**Volim more.** — I like the sea. **Ne volim kišu.** — I don't like rain. *(spotted the -u? kiša → kišu)* **Volim kavu, ne volim čaj.** — both in one breath.
+258	I like / I love
+259	I don't like
+260	I like coffee
+261	I don't like rain
+262	Hearts and crosses
+263	Does this person like it or not? Sort fast! (Nitko ne voli ponedjeljak. 😩)
+264	Your turn
+265	Now your taste — build each confession. The wrong endings are the traps!
+266	**Volim hrvatski!** — go on, say it, you've earned it. ❤️🇭🇷 **+10 points · streak +1**
+267	Tonight we go out. 🎶 There's a concert on the main square — you have just enough Croatian to get in, sing along, and dance.
+268	Six words. Doors open now.
+269	Tap a card to reveal the meaning. ("Karta" — also map, also ticket. One word, two lives.)
+270	Backstage pass
+271	Match all six and the bouncer lets you in.
+272	At the show
+273	You're in! Now act like you belong. (karta → kartu — you're buying it, so it changes!)
+274	"I like the song!"
+275	Encore! You bought the ticket, loved the song, joined the dance — all in Croatian. 🎤 **+10 points · streak +1**
+276	City noise off, boots on. 🥾 Today: a hike through Croatia's postcard side — mountains, rivers, lakes (yes, Plitvice counts).
+277	Six nature words. The view is the reward.
+278	Tap a card to reveal the meaning. ("Drvo" also means wood.)
+279	The panorama
+280	Label the view — six pins on one panorama.
+281	Gender check at the summit
+282	Quick gender check — the last letter is telling you the answer.
+283	Describe the view
+284	Then describe what you see — endings matter!
+285	"I like the forest."
+286	Summit reached. **Planina, rijeka, jezero** — and not a single wrong ending. 🏔 **+10 points · streak +1**
+287	Remember the cake thief? 😼 Bad news: someone struck again. The guitar from last night's concert — GONE.
+288	You already ask *tko, što, gdje*. A real detective needs three more: **kada?** (when?), **koliko?** (how much?), **zašto?** (why?).
+289	**Kada?** → *Kada je koncert?* **Koliko?** → *Koliko je karta?* **Zašto?!** — and the answer starts with **zato** (because).
+290	how much / how many
+291	The interrogation board
+292	Pin each question to its answer on the detective board. All six question words — old and new.
+293	Crack the case
+294	Question the suspect — pick the right question for each moment.
+295	Case closed again. The cat keeps the guitar — some criminals can't be stopped, only understood. 🎶😼 **+10 points · streak +1**
+296	**"Kako si?"** — How are you? You'll hear this ten times a day in Croatia. 😊
+297	Today you finally answer like a human, not a tourist: happy, tired, hungry... Six feelings, six emojis.
+298	Fraza dana: *Kako si? — Dobro sam!* (How are you? — I'm fine!)
+299	happy 😊
+300	sad 😢
+301	tired 🥱
+302	hungry 😋
+303	thirsty 🥤
+304	angry 😠
+305	Emoji match
+306	Six faces, six feelings — match them all.
+307	How is everyone?
+308	Look at each person and pick the right sentence. Watch the ending — he and she feel differently!
+309	**Kako si? — Sretan sam!** And you should be — you can talk about feelings now. 💬 **+10 points · streak +1**
+310	One challenge, one whole week. 📅 Today you learn all seven days — and yes, **ponedjeljak** (Monday) is just as unpopular in Croatian.
+311	Bonus: Croatians don't capitalize day names. One rule less!
+312	Tap a card — the mnemonics are built in!
+313	Monday ("po nedjelji" — after Sunday)
+314	Tuesday
+315	Wednesday (sredina — the middle!)
+316	Thursday (četiri — 4th day!)
+317	Friday (pet — 5th day!)
+318	Saturday (≈ Sabbath)
+319	Sunday ("ne djelati" — no working 😴)
+320	Sort the week
+321	The week fell apart! Tap the days back into order, Monday to Sunday.
+322	The planner
+323	Fill in your planner — what day is it? ("u srijedu" = on Wednesday.)
+324	**Ponedjeljak, utorak, srijeda...** — your calendar speaks Croatian now. See you **sutra** — it's the grand finale! 🗓 **+10 points · streak +1**
+325	Cycle two, complete. Two weeks ago you couldn't say *I like coffee* — now watch yourself spend a whole weekend in Croatian. 😎
+326	No new words today. Just you, a story, and everything you've learned.
+327	Did you live it?
+328	Five questions about your weekend — from memory!
+329	How does the hero feel on Friday?
+330	What do they buy at the concert?
+331	a ticket
+332	a guitar
+333	Where do they go on Saturday?
+334	the mountain
+335	the market
+336	the cinema
+337	Sunday morning = ?
+338	coffee and a book
+339	football and beer
+340	tombola
+341	What don't they like?
+342	Grand speed finale II
+343	Everything from both cycles, rapid fire. New personal best or bust!
+344	I like
+345	🏆 **Two cycles down!** You order in cafés, ask questions like a detective, talk about feelings and survive Mondays — in Croatian.
+346	Someone just handed you the keys to a house in Croatia. 🔑 Nobody's home. You have five minutes to learn what every room is called before the neighbours knock.
+347	Six words, one house. Walk in.
+348	Tap a card to open that door.
+349	Which room?
+350	You hear a sound somewhere in the house. Which room is it coming from?
+351	Show me around
+352	The neighbours came in anyway. Give them the tour — one sentence at a time. ("vrata" is plural in Croatian, so it takes **su**.) Extra words are traps!
+353	The neighbours left impressed and you didn't say a single word of English. **Dobro došli!** (Welcome!) 🏠 **+10 points · streak +1**
+354	The cat is hiding. 🐱 Somewhere in this house, behind something, and she is *not* coming when called.
+355	To find her you need one tiny word: **u** = in. And here's the catch — the word after **u** changes its ending. *Kuhinja* → **u kuhinji**. *Soba* → **u sobi**. The word moved, so it changed shape.
+356	Feminine words swap **-a** for **-i**. Masculine and neuter words take **-u**: *vrt* → **u vrtu**, *auto* → **u autu**. That's the whole rule. Now go find her.
+357	The pattern
+358	Tap a card — same word, two shapes. Left is the thing, right is being *inside* it.
+359	u kuhinji — in the kitchen
+360	u sobi — in the room
+361	u kući — in the house
+362	u vrtu — in the garden
+363	u autu — in the car
+364	u kinu — at the cinema
+365	Change the shape
+366	Match every place to the shape it takes after **u**. Six matches, one cat.
+367	The search
+368	Follow the clues. Where is she?
+369	"The cat is in the house."
+370	😼 Found her — **u vrtu**, of course, pretending she was never lost. You just bent five Croatian words into a new shape and the world didn't end. **+10 points · streak +1**
+371	Moving day. 🚚 The truck is outside, the boxes are heavy, and the movers only speak Croatian.
+372	Six things to carry. Learn their names or they go in the wrong room.
+373	Tap a card to see what's inside the box.
+374	Unpack the boxes
+375	Every box has a twin. Flip and match all six before the movers lose patience.
+376	Where does it go?
+377	The movers are waiting. Point them to the right room.
+378	Everything landed in the right room and nobody dropped the lamp. 📦 **Bravo!** **+10 points · streak +1**
+379	Airport security. 🛃 The officer points at your bag and says one word: *Otvorite.*
+380	You'll need the verb **imati** — to have. **Imam** = I have. **Imaš** = you have. **Ima** = he/she/it has. Notice the endings doing all the work: **-m** is me, **-š** is you, nothing is him or her.
+381	Open the bag.
+382	Tap a card. Three forms, three things — everything you need for an inspection.
+383	I have
+384	you have
+385	he / she / it has
+386	Fill the form
+387	Type the missing form of **imati**. Look at who's doing the having!
+388	The inspection
+389	Play the scene. Choose your replies — the officer is not in a joking mood.
+390	Bag closed, stamp in the passport, and you argued your way through customs in Croatian. 🛄 **Sretan put!** **+10 points · streak +1**
+391	September. New shoes, new bag, and a classroom where everything has a Croatian name. 🏫
+392	The bell goes in six words. Sit down.
+393	Tap a card — the answer's on the other side. No copying.
+394	People or things?
+395	Sort the classroom. Living things on the left, everything you can drop on the right.
+396	The lesson
+397	Class is in session. Answer before she calls someone else.
+398	"The school is big."
+399	"I have a pencil."
+400	Bell rings, nobody got called to the board, and your pencil survived. 🔔 **Odličan!** (Excellent!) **+10 points · streak +1**
+401	Small town, Monday morning. ☀️ Six people are already at work and every one of them is about to talk to you.
+402	Learn who's who before you need one of them.
+403	Tap a card to meet them.
+404	doctor (m.)
+405	doctor (f.)
+406	Who do you need?
+407	Something's happening in town. Match each situation to the person who fixes it.
+408	At the doctor's
+409	You didn't feel great this morning. Play the scene.
+410	Diagnosis: too little sleep, too much Croatian. 💊 The prescription is water and a nap. **+10 points · streak +1**
+411	You've been handed a microphone. 🎤 Croatian radio, live, and your job today is to *ask* the questions.
+412	Asking means switching the ending. **Čitam** (I read) → **čitaš** (you read). **Volim** → **voliš**. **Imam** → **imaš**.
+413	The **-m** is me. The **-š** is you. Swap one letter and the question is done — no *do*, no *does*, no word shuffling. Three, two, one, you're on air.
+414	Tap a card — my side, your side.
+415	you like / you love
+416	On air
+417	Type the **you** form. One letter does all the work.
+418	Ask the guest
+419	Your guest is waiting. Pick the question that actually asks *them*.
+420	And that's a wrap. 📻 You asked six questions on live radio and the guest never once switched to English. **+10 points · streak +1**
+421	23:47. The last tram leaves in thirteen minutes and you're on the wrong side of town. 🌃
+422	Six words stand between you and a very long walk home. Move.
+423	Tap fast — the clock is running.
+424	stop / station
+425	terminal / main station
+426	Rush hour
+427	Croatian word appears — tap the English. Everything that moves, all at once. Go!
+428	Thirteen minutes
+429	Build each thought as you run. ("na" = on / at — same shape change as **u**.) Extra words are traps!
+430	23:59 — you made it, ticket in hand, and the driver even nodded. 🚋 **+10 points · streak +1**
+431	Your phone is dead and you have a train to catch. ⏰ Time to ask a stranger — in Croatian.
+432	Six words that put the day in order.
+433	Tap a card and watch the day go by.
+434	hour / clock
+435	in the afternoon
+436	Around the clock
+437	Match every moment of the day to its Croatian name.
+438	Catching the train
+439	The station clock says 19:58. Ask, answer, run.
+440	"I drink coffee in the morning."
+441	"The concert is in the evening."
+442	19:59, doors closing, and you're on it. ⏰ **Točno na vrijeme!** (Right on time!) **+10 points · streak +1**
+443	No new words today. 📖 Instead: one day, one city, one story — and you read all of it in Croatian.
+444	Coffee, a tram, a search for a missing cat, and an evening on the square. Press play.
+445	Did you follow?
+446	Five questions about your day in the city. From memory!
+447	What do you drink in the morning?
+448	Where is the cat?
+449	What do you have for the tram?
+450	What do you eat in the afternoon?
+451	How do you feel at night?
+452	City speed run
+453	Everything from the story, rapid fire. Croatian appears — tap the English meaning. New personal best!
+454	Morning coffee to good night — a whole day, start to finish, in Croatian. 🌆 **Laku noć!** **+15 points · streak +1**
+455	Pick the right one — Lesson 1
+456	Choose the word that correctly completes the sentence.
+457	More je plavo. — true or false? | TRUE | FALSE
+458	Sunce je hladno. — true or false? | FALSE | TRUE
+459	Sort the adjectives — Lesson 1
+460	Each noun likes adjectives that sound like it. Tap a word, then the column it belongs to!
+461	Build the sentence — Lesson 1
+462	Arrange the tiles in the right order to build the sentence.
+463	Type the word — Lesson 1
+464	Type the missing word (the whole word).
+465	Kava je ___ (good) | dobra
+466	Nebo je ___ (blue) | plavo
+467	Grad je ___ (old) | star
+468	Kuća je ___ (big) | velika
+469	Sunce je ___ (warm) | toplo
+470	Knjiga je ___ (new) | nova
+471	Sladoled je ___ (cold) | hladan
+472	Krevet je ___ (big) | velik

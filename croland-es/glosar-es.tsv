@@ -1,0 +1,275 @@
+# Croland ES — glosar (korak 1). Obavezan za sve iduće sesije (sučelje, rječnik, lekcije, recenzija).
+# Varijanta: neutralni latinoamerički španjolski, tú, ustedes, bez vosotros i voseo (ES-plan §0, §3).
+# Dva dijela: (1) en | es | napomena  (2) zabranjeno | koristi | razlog.  Retci s # su komentari/naslovi odjeljaka.
+# Provjera: croland-jezici/alati/provjeri-stil.py --jezik es (pravila u croland-es/pravila.json; zabranjene riječi
+# iz dijela 2 čita ravno odavde). Ako je neki izbor ovdje kriv, promijeni ga OVDJE i u pravila.json, pa javi u STANJE.md.
+en	es	napomena
+# --- Tipovi cjelina (IME_TIPA) i struktura tečaja ---
+Lesson	Lección	tip cjeline; „Lesson 3“ → „Lección 3“, „Lessons 1–10“ → „Lecciones 1–10“ (veliko slovo uz broj, kao ime)
+Vocabulary	Vocabulario	tip cjeline
+Grammar	Gramática	tip cjeline
+Practice	Práctica	tip cjeline
+Test	Prueba	tip cjeline; „Test 3 passed!“ → „¡Prueba 3 aprobada!“ (ženski rod!); ne „examen“ ni „test“
+Word test	Prueba de palabras	rječnik → test riječi
+Daily challenge	Desafío diario	odluka §0; množina „Desafíos diarios“; u rečenici malim slovom: „el desafío diario de hoy“
+Weekly challenge	Desafío semanal	odluka §0; množina „Desafíos semanales“
+Daily (navigacija, data-kratko)	Desafío	kratki natpis u traci; ne „Diario“ (= novine/dnevnik)
+Level	Nivel	„Level 2“ → „Nivel 2“; „levels 10 to 18“ → „niveles 10 a 18“
+Unit	unidad	cjelina (lekcija/vokabular/… jedne razine); „Unit complete!“ → „¡Unidad completada!“
+Module	Módulo	„Module B“ → „Módulo B“ (veliko slovo uz slovo modula, kao ime)
+track	área	„Level 1 on every track“ → „Nivel 1 en todas las áreas“ (lekcija/vokabular/gramatika/praksa)
+course	curso
+exercise	ejercicio
+checkpoint	punto de control	„Lesson checkpoint“ → „Punto de control de la lección“; „Module B final checkpoint“ → „Punto de control final del Módulo B“; „THE FINAL CHECKPOINT“ → „EL PUNTO DE CONTROL FINAL“
+pass mark	mínimo para aprobar	„pass mark 70%“ → „mínimo para aprobar: 70 %“
+passed / PASSED	aprobado / APROBADO	test; „not yet“ → „todavía no“
+Lesson 0	Lección 0	abeceda
+# --- Bodovi i valute (odluka §0) ---
+points	puntos	„+10 points · streak +1“ → „+10 puntos · racha +1“
+Lesson points	Puntos de lección	kratica PL (redak LP u sucelje-es.tsv)
+Vocabulary points	Puntos de vocabulario	kratica PV (redak VP)
+Grammar points	Puntos de gramática	kratica PG (redak GP)
+Practice points	Puntos de práctica	kratica PP (redak PP)
+LP · VP · GP · PP	PL · PV · PG · PP	samo kroz valutaKratica(); nikad kraticu ravno u tekst
+Mini game points	Puntos de minijuegos
+streak	racha	odluka §0; „a 5-day streak“ → „una racha de 5 días“; „keep the streak alive“ → „mantén viva tu racha“
+Day streak	Días de racha	natpis uz broj
+streak points	puntos de racha
+score	puntaje	latinoamerički (ne „puntuación“); „Score: 8/10“ → „Puntaje: 8/10“
+mistake(s)	error / errores	„Mistakes: 2“ → „Errores: 2“
+How much is it? / How much does it cost?	¿Cuánto cuesta?	cijena; ne „¿Cuánto vale?“ (ispravno, ali „cuesta“ je neutralnije i dosljedno)
+best (score)	mejor puntaje	„best so far 8 of 10“ → „mejor hasta ahora: 8 de 10“
+reward	recompensa	„Reward & preview“ → „Recompensa y adelanto“
+# --- Rječnik, bilješke, sučelje ---
+dictionary	diccionario	„My Dictionary“ → „Mi diccionario“; „Add to dictionary“ → „Agregar al diccionario“ (LatAm „agregar“, ne „añadir“)
+favourites	favoritos	„Add to favourites“ → „Agregar a favoritos“
+My words	Mis palabras
+sticky note	nota adhesiva	množina „notas adhesivas“
+Notebook	Cuaderno
+mini game	minijuego	jedna riječ (RAE); množina „minijuegos“
+Games & Extras	Juegos y extras
+Word game	Juego de vocabulario	natpis igre („Games & Extras“, „the word game can use them now“); ne „Juego de palabras“ (= igra riječi, kalambur)
+Home	Inicio	navigacija
+Lessons	Lecciones	navigacija
+Progress	Progreso	navigacija
+Options	Opciones
+You (navigacija)	Tú
+Words / Games (navigacija)	Palabras / Juegos
+AI help	ayuda de IA	„AI help on exercises“ → „Ayuda de IA en los ejercicios“
+helper (AI pomoć, sučelje)	asistente	„The helper is very busy today.“ → „El asistente está muy ocupado hoy.“; „the helper can see this page“ → „el asistente puede ver esta página“; gramatički helper → auxiliar (niže)
+Blobby	Blobby	ime maskote, ne prevodi se
+Croland	Croland	ime, ne prevodi se
+en-US	es-419	oznaka jezika za datume (Intl); latinoamerički španjolski
+# --- Račun i naplata ---
+Croland Plus	Croland Plus	ime, ne prevodi se; „your Plus“ → „tu Plus“
+Free / Free plan	Gratis / Plan gratuito
+plan	plan	„Change plan“ → „Cambiar de plan“; „See plans“ → „Ver planes“
+Weekly / Monthly / Yearly	Semanal / Mensual / Anual	planovi; „Continue with monthly“ → „Continuar con el plan mensual“
+subscription	suscripción
+checkout	pago	„Opening checkout…“ → „Abriendo el pago…“
+code	código	„Codes for others“ → „Códigos para otros“
+redeem	canjear	„Redeem“ → „Canjear“
+gift	regalo
+account	cuenta	„Create account“ → „Crear cuenta“; „Delete account“ → „Eliminar cuenta“
+Log in / Log out	Iniciar sesión / Cerrar sesión
+Sign up	Registrarse	„Create a free account“ → „Crear una cuenta gratis“
+email	correo electrónico	kratko „correo“; „Change email“ → „Cambiar correo electrónico“
+password	contraseña
+Display name	Nombre visible
+Privacy / Terms	Privacidad / Términos
+Delete	Eliminar	(ne „Borrar“ u sučelju računa; „Undo“ → „Deshacer“)
+# --- Česti glagoli uputa (imperativ tú) ---
+Tap	Toca	„Tap the ending“ → „Toca la terminación“
+Type	Escribe	tipkanje odgovora; isto kao Write
+Write	Escribe	„Write it in Croatian“ / „Type it in Croatian“ → „Escríbelo en croata“
+Pick / Choose	Elige	„Pick the correct meaning.“ → „Elige el significado correcto.“
+Match	Une	„Match the words“ → „Une las palabras“; „Matched: 3/8“ → „Unidas: 3/8“
+Sort	Clasifica	razvrstavanje u kategorije; „Sort the forms“ → „Clasifica las formas“
+Order / Put in order	Ordena	redoslijed; „Order the dialogue“ → „Ordena el diálogo“
+Drag	Arrastra
+Build	Arma	„Build the sentence“ → „Arma la oración“; „Translate by building“ → „Traduce armando la oración“
+Fill in the gaps	Completa los espacios
+Flip (card)	Voltea (la tarjeta)	„tap to flip“ → „toca para voltear“
+Check	Comprobar	gumb
+Next / Continue	Siguiente / Continuar
+Play again / Try again	Jugar de nuevo / Intentar de nuevo
+Skip	Saltar
+Done	Listo	gumb; „✓ Done reading“ → „✓ Terminé de leer“
+Say it aloud	Dilo en voz alta
+# --- Naslovi vježbi koji se ponavljaju ---
+TRUE / FALSE	VERDADERO / FALSO	ES-plan §3
+True or false?	¿Verdadero o falso?
+Intro	Introducción
+Words of the day	Palabras del día
+Did you get it?	¿Lo entendiste?
+You can do this now	Ahora ya puedes hacer esto
+From the earlier levels	De los niveles anteriores
+Pop the right balloon	Revienta el globo correcto
+Solve the puzzle	Resuelve el rompecabezas
+Rapid recall	Repaso relámpago
+Speed round / Speed challenge	Ronda rápida / Desafío de velocidad
+Match the pictures	Une las imágenes
+Write the whole sentence	Escribe la oración completa
+Pick the right form	Elige la forma correcta
+Answer from the text.	Responde a partir del texto.
+the English meaning	el significado en español	ES-plan §3: „Tap the English meaning“ → „Toca el significado en español“
+English above, Croatian below	Arriba en español, abajo en croata	ES-plan §3
+in English	en español	samo upute i smjer prijevoda: „Write it in English…“ → „Escríbelo en español…“; „Croatian → English“ → „Croata → Español“. Kad se USPOREĐUJE s engleskim jezikom („just like in English!“, „No helper verb like English do“): most prema španjolskom (ES-plan §3) ako vrijedi, inače „en inglés“ ili preformulirati – nikad slijepo „en español“ (bila bi netočna tvrdnja o španjolskom)
+flashcard / card	tarjeta
+memory (igra parova)	juego de memoria
+sentence	oración	ne „frase“ za cijelu rečenicu (frase = izraz)
+meaning	significado
+word order	orden de las palabras
+# --- Mini-igre (MINI_IGRE.stil, tjedni izazovi) ---
+Town	Ciudad
+Remember & Write	Recuerda y escribe
+Fortress	Fortaleza
+Tavern	Taberna
+Warehouse	Almacén	ne „Bodega“ (regionalno različito značenje)
+Mail Train	Tren postal
+Maze	Laberinto
+Snake	Serpiente
+Portal	Portal
+Platformer	Plataformas
+Survival	Supervivencia
+Base Defense	Defensa de la base
+Croatian Towns	Ciudades de Croacia
+The market	El mercado	tjedni izazov
+# --- Padeži ---
+case	caso	„Your first case“ → „Tu primer caso“
+nominative	nominativo	kratica Nom
+genitive	genitivo	kratica Gen
+dative	dativo	kratica Dat
+accusative	acusativo	kratica Ac (DE Akk)
+vocative	vocativo	kratica Voc
+locative	locativo	kratica Loc
+instrumental	instrumental	kratica Ins
+Nom / Gen / Dat / Acc / Voc / Loc / Ins	Nom / Gen / Dat / Ac / Voc / Loc / Ins	tablice u rječniku
+# --- Vlastiti nazivi tečaja za oblike (moraju biti dosljedni; DE je tu bio nedosljedan) ---
+naming form	forma base	nominativ; „Naming form → target form“ → „Forma base → forma objetivo“; „base form“ (osnovni oblik, npr. pridjeva) → isto „forma base“
+target form	forma objetivo	akuzativ (objekt i smjer)
+receiver form	forma receptora	dativ
+company form	forma de compañía	instrumental sa s/sa
+place form	forma de lugar	lokativ
+NAMING (-a)	BASE (-a)	kategorija razvrstavanja (engleska oznaka; hrvatske ostaju hrvatske); paralelno s OBJETIVO (-u), bez „FORMA“ u obje
+TARGET (-u)	OBJETIVO (-u)	kategorija
+COMPANY (s/sa)	COMPAÑÍA (s/sa)	kategorija; „WITH s/sa (company)“ → „CON s/sa (compañía)“
+MEANS (no preposition)	MEDIO (sin preposición)	kategorija; „NO PREPOSITION (means)“ → „SIN PREPOSICIÓN (medio)“
+BELONGING	PERTENENCIA	kategorija (genitiv)
+PLACE	LUGAR	kategorija
+little word	palabrita	riječce poput bez, od, do, iz; „AFTER A LITTLE WORD“ → „DESPUÉS DE UNA PALABRITA“
+helper	auxiliar	samo gramatika: pomoćni glagol (ću, sam, bih); „the helper is missing“ → „falta el auxiliar“; AI „helper“ u sučelju → asistente (gore)
+short form / long form	forma corta / forma larga	zamjenice (mu / njemu)
+# --- Glagoli: vremena, vid, oblici ---
+infinitive	infinitivo
+participle	participio	glagolski pridjev radni (-l); most: kao „comido“ u „he comido“, ali se slaže u rodu
+the perfect (Croatian perfekt)	el perfecto	jedino hrvatsko prošlo vrijeme; most prema pretérito perfecto (auxiliar + participio), ali se koristi za SVA prošla vremena — ne obećavati podudarnost
+present tense	presente
+past tense / PAST	pasado / PASADO
+future / FUTURE	futuro / FUTURO
+conditional / CONDITIONAL	condicional / CONDICIONAL	„WISH (conditional)“ → „DESEO (condicional)“
+imperative	imperativo
+Future stem	Raíz del futuro	rječnik
+Past participle	Participio pasado	rječnik
+aspect	aspecto	„Verbal Aspect“ → „Aspecto verbal“
+perfective / imperfective	perfectivo / imperfectivo
+Aspect pair	Par aspectual	rječnik
+verb twins / twin	verbos gemelos / gemelo	„TWIN (same meaning)“ → „GEMELO (mismo significado)“
+PROCESS / DONE	PROCESO / TERMINADO	kategorije vida; „DONE!“ → „¡TERMINADO!“; „PROCESS (imperfective)“ → „PROCESO (imperfectivo)“
+signal word	palabra señal
+modal (verb)	verbo modal	„Modal + infinitive“ → „Modal + infinitivo“
+COMMAND	ORDEN	kategorija
+POLITE REQUEST	PETICIÓN AMABLE	kategorija
+STATEMENT	AFIRMACIÓN	kategorija
+HAPPENED (past)	PASÓ (pasado)	kategorija
+NEW VERB (new meaning)	VERBO NUEVO (significado nuevo)	kategorija
+# --- Vrste riječi i ostali gramatički pojmovi ---
+noun	sustantivo
+verb	verbo
+adjective	adjetivo
+pronoun	pronombre
+possessive	posesivo
+numeral	numeral
+adverb	adverbio
+preposition	preposición
+conjunction	conjunción
+particle	partícula
+phrase	expresión	vrsta riječi u rječniku
+masculine / feminine / neuter	masculino / femenino / neutro	most: srednji rod je novost (ES-plan §3)
+gender	género
+singular / plural	singular / plural	„plural only“ → „solo plural“
+ending	terminación	ne „desinencia“ (prestručno)
+stem	raíz
+subject / object	sujeto / objeto
+question word / QUESTION WORD	palabra interrogativa / PALABRA INTERROGATIVA
+negation	negación
+vowel / consonant / syllable	vocal / consonante / sílaba
+diacritics	diacríticos	„Diacritics count“ → „Los diacríticos cuentan“; č, ć, š, ž, đ nisu „tildes“
+pronunciation	pronunciación
+ONE PERSON (ti) / A GROUP (vi)	UNA PERSONA (ti) / UN GRUPO (vi)	kategorije
+(formal) / (plural)	(formal) / (plural)	oznaka uz vi/Vi gdje o tome ovisi odgovor: usted vs. ustedes (ES-plan §3)
+# --- Riječi iz lekcija s regionalnom zamkom (jedna odluka za cijeli tečaj) ---
+cake / cakes	pastel / pasteles	61× u lekcijama; ne „tarta“ (Španjolska) ni „torta“ (MX = sendvič, u AR/CL/UY kolač); mali kolači (hr. kolači) po potrebi „pastelitos“; rječnik: kolač → pastel, torta → pastel (de varias capas). Provjera: pazi (pravila.json)
+driving licence	licencia de conducir	standard u većini Latinske Amerike (uz „licencia de manejo“); glagol je ipak „manejar“ („I'm driving“ → „Estoy manejando“) – provjera propušta samo „licencia(s) de conducir“
+# --- Pravopis (podsjetnik) ---
+“…”	“…”	navodnici “ ”, unutarnji ‘ ’; nikad ravni " u tekstu
+– (crtica s razmacima)	–	kao u DE: „a – b“
+dates	14 de septiembre de 2026	mjeseci i dani malim slovom (enero, lunes)
+solo / este / guion	solo / este / guion	bez naglaska (RAE 2010)
+
+zabranjeno	koristi	razlog
+vosotros	ustedes	nema vosotros (ES-plan §3)
+vosotras	ustedes	nema vosotros
+vuestro	su / de ustedes	nema vosotros
+vuestra	su / de ustedes	nema vosotros
+vuestros	sus / de ustedes	nema vosotros
+vuestras	sus / de ustedes	nema vosotros
+os	los / les / se	zamjenica vosotros — provjera regexom u pravila.json
+-áis / -éis	-an / -en (ustedes)	glagolski oblici vosotros — provjera regexom u pravila.json
+vos	tú	bez voseo — provjera regexom u pravila.json (i tenés, querés, podés, fijate…)
+ordenador	computadora	Španjolska
+ordenadores	computadoras	Španjolska
+móvil	celular	Španjolska
+móviles	celulares	Španjolska
+coche	auto	Španjolska (auto = isto kao hrvatski „auto“)
+coches	autos	Španjolska
+zumo	jugo	Španjolska
+zumos	jugos	Španjolska
+patata	papa	Španjolska
+patatas	papas	Španjolska
+melocotón	durazno	Španjolska
+melocotones	duraznos	Španjolska
+conducir	manejar	Španjolska (i conduzco, conduje, condujera, conducí… regex u pravila.json); „licencia de conducir“ je u redu, conductor/conducta/conducción isto
+guay	genial	Španjolska, žargon
+vale	está bien / de acuerdo	kao uzvik („¡Vale!“) — regex u pravila.json; „vale la pena“ je u redu
+coger	tomar / agarrar	vulgarno u dijelu Latinske Amerike (i cojo, coge… regex)
+gafas	lentes	Španjolska
+nevera	refrigerador	Španjolska
+frigorífico	refrigerador	Španjolska
+chaval	chico / muchacho	Španjolska
+chavales	chicos / muchachos	Španjolska
+mola	genial / me encanta	Španjolska, žargon
+echar de menos	extrañar	Španjolska (echo de menos, echas… regex u pravila.json)
+enfadar(se) / enfadado	enojar(se) / enojado / enojo	Španjolska (sve s enfad- – regex u pravila.json)
+jersey	suéter	Španjolska
+jerséis	suéteres	Španjolska
+gamba	camarón	Španjolska
+gambas	camarones	Španjolska
+judías	frijoles	Španjolska (grah); ako je ikad „Židovke“ → iznimka u stil-iznimke.tsv
+judía verde	ejotes (vainitas)	Španjolska (mahune); „ejotes“ uz objašnjenje („vainitas“) ili opisno; ne „frijoles verdes“ (kalk s engleskog). Regionalno: chauchas (AR, UY), porotos verdes (CL), habichuelas (CO, Karibi)
+cacahuete	maní	Španjolska (Meksiko: cacahuate – za neutralnost maní)
+cacahuetes	maníes	Španjolska
+aparcar	estacionar	Španjolska (i aparcamiento → estacionamiento – regex u pravila.json)
+vaqueros	jeans	Španjolska (traperice); „vaqueros“ = kauboji je u redu → iznimka u stil-iznimke.tsv
+vale la pena	(u redu)	nije zabranjeno — samo bilješka uz „vale“
+piso (stan)	departamento	upozorenje, ne greška: „piso“ = kat je u redu
+billete (karta)	boleto	upozorenje, ne greška: „billete“ = novčanica je u redu
+añadir	agregar	upozorenje, ne greška: u sučelju i uputama „agregar“
+puntuación	puntaje	upozorenje, ne greška: glosar score → puntaje (pravila.json „pazi“)
+ - (crtica bez duljine)	 – 	upozorenje, ne greška: crtica s razmacima je „–“ (pravila.json „pazi“)
+albaricoque	damasco / chabacano	upozorenje, ne greška: Španjolska
+bocadillo	sándwich	upozorenje, ne greška: Španjolska (sendvič); u LatAm bocadillo = zalogaj/slatkiš
+tarta	pastel	upozorenje, ne greška: Španjolska; glosar cake → pastel
+torta	pastel	upozorenje, ne greška: MX = sendvič, AR/CL/UY = kolač; glosar cake → pastel; hrvatska riječ *torta* u primjerima je u redu
+zapatillas	tenis / zapatos deportivos; pantuflas	upozorenje, ne greška: Španjolska (tenisice; papuče)
+camarero / camarera	mesero / mesera	upozorenje, ne greška: Španjolska

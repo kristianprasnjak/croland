@@ -2,6 +2,6 @@
   "_opis": "Popis jezika uputa za alate prijevoda (croland-jezici/alati). Kod jezika je i naziv stupca u memorijama (prijevod-XX.tsv, sucelje-XX.tsv, pregledi-XX.tsv) i nastavak izlaznih datoteka (index-XX.html, data-XX.js, rjecnik-XX.js, pregledi-XX.js). aktivan = gradi ga izgradi-jezike.py (objavi.bat). Popis koji vidi aplikacija (izbor jezika) je u <head> od index.html.",
   "jezici": {
     "de": { "mapa": "croland-de", "ime": "Deutsch", "aktivan": true },
-    "es": { "mapa": "croland-es", "ime": "Español", "aktivan": false }
+    "es": { "mapa": "croland-es", "ime": "Español", "aktivan": true }
   }
 }

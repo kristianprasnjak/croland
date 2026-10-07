@@ -1,0 +1,328 @@
+{
+  "_opis": "Pravila za croland-jezici/alati/provjeri-stil.py --jezik es (ES-plan §6a, točke 2–5 i 7). Zabranjene riječi iz glosar-es.tsv (dio 'zabranjeno') provjeravaju se automatski kao cijele riječi; ovdje su samo pravila koja trebaju regex. 'greske' moraju biti 0; 'pazi' i 'duljina' su popis za ručnu provjeru. Iznimke (string koji namjerno krši pravilo): stil-iznimke.tsv (en <TAB> pravilo <TAB> razlog). Test alata: croland-jezici/test/stil/test-provjeri-stil.py.",
+  "glosar": "glosar-es.tsv",
+  "iznimke": "stil-iznimke.tsv",
+  "obrnuti_upitnik": true,
+  "obrnuti_usklicnik": true,
+  "navodnici": [
+    "“",
+    "”"
+  ],
+  "zabranjeni_navodnici": [
+    "«",
+    "»",
+    "„",
+    "‚"
+  ],
+  "ravni_navodnici": true,
+  "zaostali_engleski": true,
+  "rjecnik_izvor": "prijevodi.jsonl",
+  "isto_kao_engleski": [
+    "actor", "animal", "auto", "bar", "banana", "bus", "capital", "central", "chef", "chocolate", "club", "color",
+    "doctor", "error", "festival", "final", "general", "golf", "hobby", "horrible", "hospital", "hotel", "ideal",
+    "idea", "internet", "jeans", "kiwi", "local", "mango", "me", "metro", "motor", "natural", "no", "normal",
+    "original", "panda", "piano", "pizza", "plan", "popular", "radio", "real", "regular", "similar", "simple",
+    "social", "taxi", "terrible", "total", "tractor", "virus", "web", "gas", "singular", "plural", "extras", "ferry", "scooter", "villa", "numeral", "aroma", "atlas", "banjo", "cactus", "café", "coral", "diploma", "director", "drama", "euro", "interior", "mimosa", "particular", "pasta", "perfume", "protector", "tuba", "ukulele", "video", "visa", "yoga", "fan", "app", "laptop"
+  ],
+  "duljina": {
+    "faktor": 1.5,
+    "do_znakova": 30
+  },
+  "zabranjeno": [
+    {
+      "ime": "vosotros-os",
+      "regex": "(?i)(?<![\\w-])os(?![\\w-])",
+      "koristi": "los / les / se",
+      "razlog": "zamjenica vosotros"
+    },
+    {
+      "ime": "vosotros-glagol",
+      "regex": "(?i)\\b(?!(?:dieci|veinti)séis\\b)\\w+(?:áis|éis)\\b",
+      "koristi": "-an / -en (ustedes)",
+      "razlog": "glagolski oblik vosotros"
+    },
+    {
+      "ime": "vosotros-imperativ",
+      "regex": "(?i)\\b(?:elegid|tocad|escribid|arrastrad|leed|escuchad|mirad|unid|completad|ordenad|clasificad|responded|decid|haced|poned|traducid|armad|venid|comprobad|pensad|buscad|usad|repetid|jugad|intentad|empezad|seguid|practicad|aprended|hablad|preguntad|contestad|marcad|sentaos|fijaos|acordaos|daos)\\b",
+      "koristi": "imperativ tú (Elige, Toca…) ili ustedes (Elijan…)",
+      "razlog": "imperativ vosotros"
+    },
+    {
+      "ime": "voseo-vos",
+      "regex": "(?i)(?<![\\w-])vos(?![\\w-])",
+      "koristi": "tú",
+      "razlog": "voseo"
+    },
+    {
+      "ime": "voseo-glagol",
+      "regex": "(?i)\\b(?:tenés|querés|podés|sabés|hacés|sentís|decís|venís|vivís|escribís|elegís|sos|fijate|mirá|vení|tocá|escuchá|decime|pensá|probá|andá|contame)\\b",
+      "koristi": "oblik za tú",
+      "razlog": "voseo"
+    },
+    {
+      "ime": "conducir",
+      "regex": "(?i)(?<!licencia de )(?<!licencias de )(?<!licencia \\(de )(?<!licencias \\(de )\\bcondu(?:c(?:ir|í|e|imos|iendo|ido|ió|iste)\\w*|zc\\w*|j\\w+)\\b",
+      "koristi": "manejar",
+      "razlog": "Španjolska (glagol; conductor, conducta, conducto, conducción i „licencia de conducir“ su u redu)"
+    },
+    {
+      "ime": "coger",
+      "regex": "(?i)\\b(?:coger|cojo|coges|coge|cogemos|cogen|cogí|cogió|cogido|cogiendo|coja|cojas|cojan|cógelo|cógela)\\b",
+      "koristi": "tomar / agarrar",
+      "razlog": "vulgarno u Latinskoj Americi"
+    },
+    {
+      "ime": "vale-uzvik",
+      "regex": "(?i)(?:^|[¡¿\\s(—–-])(?<!cuánto )(?<!cuanto )(?<!esto )(?<!eso )(?<!no )(?<!que )(?<!qué )(?<!lo )(?<!más )(?<!menos )(?<!ya no )vale(?=\\s*[!.,?)]|\\s*$)",
+      "koristi": "está bien / de acuerdo",
+      "razlog": "Španjolska (uzvik; glagol valer – ¿Cuánto vale?, No vale – je u redu)"
+    },
+    {
+      "ime": "echar-de-menos",
+      "regex": "(?i)\\bech\\w*\\s+de\\s+menos\\b",
+      "koristi": "extrañar",
+      "razlog": "Španjolska"
+    },
+    {
+      "ime": "enfadar",
+      "regex": "(?i)\\benfad\\w*",
+      "koristi": "enojar(se) / enojado / enojo",
+      "razlog": "Španjolska"
+    },
+    {
+      "ime": "aparcar",
+      "regex": "(?i)\\baparc\\w*",
+      "koristi": "estacionar / estacionamiento",
+      "razlog": "Španjolska"
+    }
+  ],
+  "pazi": [
+    {
+      "ime": "piso",
+      "regex": "(?i)\\bpisos?\\b",
+      "koristi": "departamento (ako je stan)",
+      "razlog": "piso = kat je u redu"
+    },
+    {
+      "ime": "billete",
+      "regex": "(?i)\\bbilletes?\\b",
+      "koristi": "boleto (ako je karta)",
+      "razlog": "billete = novčanica je u redu"
+    },
+    {
+      "ime": "añadir",
+      "regex": "(?i)\\bañad\\w*",
+      "koristi": "agregar",
+      "razlog": "LatAm sučelje i upute: agregar"
+    },
+    {
+      "ime": "puntuación",
+      "regex": "(?i)\\bpuntuaci(?:ón|ones)\\b",
+      "koristi": "puntaje",
+      "razlog": "glosar: score → puntaje"
+    },
+    {
+      "ime": "crtica",
+      "regex": "(?<=[^\\W\\d_]) - (?=[^\\W\\d_])",
+      "koristi": " – (crtica s razmacima)",
+      "razlog": "ES-plan §3"
+    },
+    {
+      "ime": "albaricoque",
+      "regex": "(?i)\\balbaricoques?\\b",
+      "koristi": "damasco / chabacano",
+      "razlog": "Španjolska"
+    },
+    {
+      "ime": "bocadillo",
+      "regex": "(?i)\\bbocadillos?\\b",
+      "koristi": "sándwich",
+      "razlog": "Španjolska (sendvič); u LatAm bocadillo = slatkiš/zalogaj"
+    },
+    {
+      "ime": "tarta",
+      "regex": "(?i)\\btartas?\\b",
+      "koristi": "pastel",
+      "razlog": "Španjolska; glosar: cake → pastel"
+    },
+    {
+      "ime": "torta",
+      "regex": "(?i)\\btortas?\\b",
+      "koristi": "pastel",
+      "razlog": "glosar: cake → pastel; torta = sendvič u Meksiku (kolač u AR/CL/UY)"
+    },
+    {
+      "ime": "zapatillas",
+      "regex": "(?i)\\bzapatillas?\\b",
+      "koristi": "tenis / zapatos deportivos (tenisice); pantuflas (papuče)",
+      "razlog": "Španjolska"
+    },
+    {
+      "ime": "camarero",
+      "regex": "(?i)\\bcamarer[oa]s?\\b",
+      "koristi": "mesero / mesera",
+      "razlog": "Španjolska"
+    },
+    {
+      "ime": "usted-u-uputi",
+      "regex": "(?i)\\b(?:usted|ustedes)\\b",
+      "koristi": "tú u uputama",
+      "razlog": "provjeri: smije samo kao objašnjenje/oznaka (formal, plural) ili u dijalogu"
+    },
+    {
+      "ime": "naslov-velika-slova",
+      "naslov": true,
+      "koristi": "Desafío diario (malim slovima osim prvog)",
+      "razlog": "ES-plan §3: naslovi malim slovima osim prvog"
+    }
+  ],
+  "glosar_provjera": [
+    {
+      "en": "(?i)\\bdaily challenges?\\b",
+      "es": "(?i)desaf[íi]os? diarios?"
+    },
+    {
+      "en": "(?i)\\bweekly challenges?\\b",
+      "es": "(?i)desaf[íi]os? semanal(?:es)?"
+    },
+    {
+      "en": "(?i)\\bstreaks?\\b",
+      "es": "(?i)\\brachas?\\b"
+    },
+    {
+      "en": "(?i)\\bdictionary\\b",
+      "es": "(?i)\\bdiccionario"
+    },
+    {
+      "en": "(?i)\\bfavou?rites?\\b",
+      "es": "(?i)\\bfavorit[oa]s?\\b"
+    },
+    {
+      "en": "(?i)\\bsticky notes?\\b",
+      "es": "(?i)\\bnotas? adhesivas?\\b"
+    },
+    {
+      "en": "(?i)\\bmini[ -]?games?\\b",
+      "es": "(?i)\\bminijuegos?\\b"
+    },
+    {
+      "en": "(?i)\\bcheckpoints?\\b",
+      "es": "(?i)\\bpuntos? de control\\b"
+    },
+    {
+      "en": "(?i)\\b(?:naming|base) forms?\\b",
+      "es": "(?i)\\bformas? base\\b"
+    },
+    {
+      "en": "(?i)\\btarget forms?\\b",
+      "es": "(?i)\\bformas? objetivo\\b"
+    },
+    {
+      "en": "(?i)\\breceiver forms?\\b",
+      "es": "(?i)\\bformas? receptoras?\\b"
+    },
+    {
+      "en": "(?i)\\bcompany forms?\\b",
+      "es": "(?i)\\bformas? de compañía\\b"
+    },
+    {
+      "en": "(?i)\\bplace forms?\\b",
+      "es": "(?i)\\bformas? de lugar\\b"
+    },
+    {
+      "en": "(?i)\\bnominative\\b",
+      "es": "(?i)\\bnominativo"
+    },
+    {
+      "en": "(?i)\\bgenitive\\b",
+      "es": "(?i)\\bgenitivo"
+    },
+    {
+      "en": "(?i)\\bdative\\b",
+      "es": "(?i)\\bdativo"
+    },
+    {
+      "en": "(?i)\\baccusative\\b",
+      "es": "(?i)\\bacusativo"
+    },
+    {
+      "en": "(?i)\\blocative\\b",
+      "es": "(?i)\\blocativo"
+    },
+    {
+      "en": "(?i)\\binstrumental\\b",
+      "es": "(?i)\\binstrumental"
+    },
+    {
+      "en": "(?i)\\bvocative\\b",
+      "es": "(?i)\\bvocativo"
+    },
+    {
+      "en": "(?i)\\binfinitives?\\b",
+      "es": "(?i)\\binfinitivos?\\b"
+    },
+    {
+      "en": "(?i)\\bparticiples?\\b",
+      "es": "(?i)\\bparticipios?\\b"
+    },
+    {
+      "en": "(?i)\\bimperfective\\b",
+      "es": "(?i)\\bimperfectiv[oa]s?\\b"
+    },
+    {
+      "en": "(?i)\\b(?<!im)perfective\\b",
+      "es": "(?i)\\b(?<!im)perfectiv[oa]s?\\b"
+    },
+    {
+      "en": "(?i)\\bconditional\\b",
+      "es": "(?i)\\bcondicional"
+    },
+    {
+      "en": "(?i)\\bimperative\\b",
+      "es": "(?i)\\bimperativ[oa]"
+    },
+    {
+      "en": "(?i)\\b(?:verb )?twins?\\b",
+      "es": "(?i)\\bgemel[oa]s?\\b"
+    },
+    {
+      "en": "(?i)\\bhelpers?\\b",
+      "es": "(?i)\\b(?:auxiliar(?:es)?|asistentes?)\\b",
+      "razina": "pazi"
+    },
+    {
+      "en": "(?i)\\blittle words?\\b",
+      "es": "(?i)\\bpalabritas?\\b"
+    },
+    {
+      "en": "(?i)\\bendings?\\b",
+      "es": "(?i)\\bterminaci(?:ón|ones)\\b"
+    },
+    {
+      "en": "(?i)\\bsentences?\\b",
+      "es": "(?i)\\boraci(?:ón|ones)\\b",
+      "razina": "pazi"
+    },
+    {
+      "en": "\\bTRUE\\b",
+      "es": "\\bVERDADERO\\b"
+    },
+    {
+      "en": "\\bFALSE\\b",
+      "es": "\\bFALSO\\b"
+    },
+    {
+      "en": "(?i)\\bEnglish meaning\\b",
+      "es": "(?i)significados? en español"
+    },
+    {
+      "en": "(?i)\\bcakes?\\b",
+      "es": "(?i)\\bpastel(?:es|it[oa]s?)?\\b",
+      "razina": "pazi"
+    },
+    {
+      "en": "(?i)\\bword game\\b",
+      "es": "(?i)\\bjuegos? de vocabulario\\b"
+    }
+  ]
+}

@@ -1,0 +1,2401 @@
+{"lema": "aerodrom", "es": ["aeropuerto"]}
+{"lema": "alarm", "es": ["alarma", "despertador"]}
+{"lema": "ananas", "es": ["piña"]}
+{"lema": "auto", "es": ["auto", "carro", "automóvil"]}
+{"lema": "autobus", "es": ["autobús", "camión (MX)"]}
+{"lema": "avion", "es": ["avión"]}
+{"lema": "badminton", "es": ["bádminton"]}
+{"lema": "balkon", "es": ["balcón"]}
+{"lema": "balon", "es": ["globo"]}
+{"lema": "bicikl", "es": ["bicicleta", "bici"]}
+{"lema": "bombon", "es": ["dulce", "caramelo", "bombón"]}
+{"lema": "brat", "es": ["hermano"]}
+{"lema": "brod", "es": ["barco", "buque"]}
+{"lema": "broj", "es": ["número", "cifra"]}
+{"lema": "buket", "es": ["ramo", "ramo de flores"]}
+{"lema": "centar", "es": ["centro"]}
+{"lema": "certifikat", "es": ["certificado"]}
+{"lema": "čaj", "es": ["té"]}
+{"lema": "ćevap", "es": ["ćevap (rollito de carne picada a la parrilla)"]}
+{"lema": "četvrtak", "es": ["jueves"]}
+{"lema": "čovjek", "es": ["hombre", "persona", "ser humano"]}
+{"lema": "dan", "es": ["día"]}
+{"lema": "datum", "es": ["fecha"]}
+{"lema": "dečko", "es": ["chico", "muchacho", "novio"]}
+{"lema": "djed", "es": ["abuelo"]}
+{"lema": "dječak", "es": ["niño", "chico"]}
+{"lema": "doktor", "es": ["doctor", "médico"]}
+{"lema": "dokumentarac", "es": ["documental"]}
+{"lema": "dom", "es": ["hogar", "casa"]}
+{"lema": "doručak", "es": ["desayuno"]}
+{"lema": "dres", "es": ["camiseta (deportiva)", "uniforme"]}
+{"lema": "džem", "es": ["mermelada"]}
+{"lema": "đak", "es": ["alumno", "estudiante"]}
+{"lema": "e-mail", "es": ["correo electrónico", "e-mail"]}
+{"lema": "ekran", "es": ["pantalla"]}
+{"lema": "euro", "es": ["euro"]}
+{"lema": "fakultet", "es": ["facultad", "universidad"]}
+{"lema": "film", "es": ["película", "filme"]}
+{"lema": "finiš", "es": ["final", "recta final"]}
+{"lema": "fitnes", "es": ["ejercicio físico", "gimnasio"]}
+{"lema": "fotoaparat", "es": ["cámara de fotos"]}
+{"lema": "galeb", "es": ["gaviota"]}
+{"lema": "gol", "es": ["gol"]}
+{"lema": "golman", "es": ["portero", "arquero"]}
+{"lema": "golub", "es": ["paloma"]}
+{"lema": "gost", "es": ["invitado", "huésped", "cliente"]}
+{"lema": "grad", "es": ["ciudad"]}
+{"lema": "hobi", "es": ["pasatiempo", "hobby"]}
+{"lema": "horor", "es": ["terror", "película de terror"]}
+{"lema": "hotel", "es": ["hotel"]}
+{"lema": "igrač", "es": ["jugador"]}
+{"lema": "instrument", "es": ["instrumento", "instrumento musical"]}
+{"lema": "interijer", "es": ["interior"]}
+{"lema": "internet", "es": ["internet"]}
+{"lema": "intervju", "es": ["entrevista"]}
+{"lema": "ispit", "es": ["examen", "prueba"]}
+{"lema": "izlazak", "es": ["salida (de noche)", "salida", "amanecer"]}
+{"lema": "jelovnik", "es": ["menú", "carta"]}
+{"lema": "jezik", "es": ["idioma", "lengua"]}
+{"lema": "kafić", "es": ["café", "cafetería"]}
+{"lema": "kakao", "es": ["cacao", "chocolate caliente"]}
+{"lema": "kamp", "es": ["campamento", "camping"]}
+{"lema": "kapetan", "es": ["capitán"]}
+{"lema": "kilometar", "es": ["kilómetro"]}
+{"lema": "kiosk", "es": ["quiosco", "puesto de periódicos"]}
+{"lema": "kišobran", "es": ["paraguas"]}
+{"lema": "klavir", "es": ["piano"]}
+{"lema": "klub", "es": ["club"]}
+{"lema": "kofer", "es": ["maleta"]}
+{"lema": "kolač", "es": ["pastel", "pastelito", "galleta"]}
+{"lema": "kolodvor", "es": ["estación", "estación de tren", "estación de autobuses"]}
+{"lema": "komad", "es": ["pedazo", "pieza", "rebanada"]}
+{"lema": "koncert", "es": ["concierto"]}
+{"lema": "konj", "es": ["caballo"]}
+{"lema": "konobar", "es": ["mesero"]}
+{"lema": "kraj", "es": ["fin", "final", "zona", "región"]}
+{"lema": "krevet", "es": ["cama"]}
+{"lema": "kruh", "es": ["pan"]}
+{"lema": "kupac", "es": ["cliente", "comprador"]}
+{"lema": "kvart", "es": ["barrio", "colonia (MX)"]}
+{"lema": "kviz", "es": ["concurso de preguntas", "trivia"]}
+{"lema": "lav", "es": ["león"]}
+{"lema": "led", "es": ["hielo"]}
+{"lema": "limun", "es": ["limón"]}
+{"lema": "luk", "es": ["cebolla", "arco"]}
+{"lema": "maraton", "es": ["maratón"]}
+{"lema": "metar", "es": ["metro"]}
+{"lema": "metro", "es": ["metro", "subterráneo"]}
+{"lema": "milijun", "es": ["millón"]}
+{"lema": "mir", "es": ["paz", "tranquilidad", "calma"]}
+{"lema": "miris", "es": ["olor", "aroma", "fragancia"]}
+{"lema": "misterij", "es": ["misterio"]}
+{"lema": "mladić", "es": ["joven", "muchacho"]}
+{"lema": "most", "es": ["puente"]}
+{"lema": "motor", "es": ["moto", "motocicleta", "motor"]}
+{"lema": "muškarac", "es": ["hombre", "varón"]}
+{"lema": "muzej", "es": ["museo"]}
+{"lema": "nogomet", "es": ["fútbol"]}
+{"lema": "nos", "es": ["nariz"]}
+{"lema": "novac", "es": ["dinero"]}
+{"lema": "odgovor", "es": ["respuesta"]}
+{"lema": "osmijeh", "es": ["sonrisa"]}
+{"lema": "otok", "es": ["isla"]}
+{"lema": "paket", "es": ["paquete"]}
+{"lema": "parfem", "es": ["perfume"]}
+{"lema": "park", "es": ["parque"]}
+{"lema": "pas", "es": ["perro"]}
+{"lema": "petak", "es": ["viernes"]}
+{"lema": "pilot", "es": ["piloto"]}
+{"lema": "plan", "es": ["plan"]}
+{"lema": "početak", "es": ["comienzo", "inicio", "principio"]}
+{"lema": "poklon", "es": ["regalo"]}
+{"lema": "policajac", "es": ["policía", "agente de policía"]}
+{"lema": "ponedjeljak", "es": ["lunes"]}
+{"lema": "posao", "es": ["trabajo", "empleo", "negocio"]}
+{"lema": "poster", "es": ["póster", "cartel"]}
+{"lema": "poštar", "es": ["cartero"]}
+{"lema": "prijatelj", "es": ["amigo"]}
+{"lema": "problem", "es": ["problema"]}
+{"lema": "proces", "es": ["proceso"]}
+{"lema": "program", "es": ["programa", "canal"]}
+{"lema": "promet", "es": ["tráfico", "tránsito"]}
+{"lema": "prosinac", "es": ["diciembre"]}
+{"lema": "prozor", "es": ["ventana"]}
+{"lema": "put", "es": ["camino", "carretera", "viaje", "vez"]}
+{"lema": "račun", "es": ["cuenta", "recibo", "factura"]}
+{"lema": "radio", "es": ["radio"]}
+{"lema": "recept", "es": ["receta", "receta médica"]}
+{"lema": "restoran", "es": ["restaurante"]}
+{"lema": "rezultat", "es": ["resultado", "marcador"]}
+{"lema": "roditelj", "es": ["padre o madre", "progenitor"]}
+{"lema": "rođendan", "es": ["cumpleaños"]}
+{"lema": "ručak", "es": ["almuerzo", "comida"]}
+{"lema": "san", "es": ["sueño"]}
+{"lema": "sat", "es": ["hora", "reloj", "clase"]}
+{"lema": "savjet", "es": ["consejo"]}
+{"lema": "semafor", "es": ["semáforo"]}
+{"lema": "sendvič", "es": ["sándwich"]}
+{"lema": "sir", "es": ["queso"]}
+{"lema": "skuter", "es": ["scooter", "motoneta"]}
+{"lema": "sladoled", "es": ["helado"]}
+{"lema": "snijeg", "es": ["nieve"]}
+{"lema": "sok", "es": ["jugo"]}
+{"lema": "specijalitet", "es": ["especialidad", "plato típico"]}
+{"lema": "spomenik", "es": ["monumento"]}
+{"lema": "sport", "es": ["deporte", "deportes"]}
+{"lema": "sportaš", "es": ["deportista", "atleta"]}
+{"lema": "sprint", "es": ["esprint", "carrera corta"]}
+{"lema": "stadion", "es": ["estadio"]}
+{"lema": "stan", "es": ["departamento", "apartamento"]}
+{"lema": "start", "es": ["salida", "arranque"]}
+{"lema": "stol", "es": ["mesa", "escritorio"]}
+{"lema": "strip", "es": ["historieta", "cómic"]}
+{"lema": "student", "es": ["estudiante", "estudiante universitario"]}
+{"lema": "studio", "es": ["estudio"]}
+{"lema": "susjed", "es": ["vecino"]}
+{"lema": "suvenir", "es": ["recuerdo"]}
+{"lema": "svjedok", "es": ["testigo"]}
+{"lema": "šah", "es": ["ajedrez"]}
+{"lema": "šal", "es": ["bufanda"]}
+{"lema": "šećer", "es": ["azúcar"]}
+{"lema": "šešir", "es": ["sombrero"]}
+{"lema": "šipak", "es": ["escaramujo", "granada"]}
+{"lema": "taksi", "es": ["taxi"]}
+{"lema": "tekst", "es": ["texto", "letra (de canción)"]}
+{"lema": "telefon", "es": ["teléfono"]}
+{"lema": "televizor", "es": ["televisor", "tele"]}
+{"lema": "tenis", "es": ["tenis"]}
+{"lema": "test", "es": ["prueba", "examen"]}
+{"lema": "tim", "es": ["equipo"]}
+{"lema": "tjedan", "es": ["semana"]}
+{"lema": "trajekt", "es": ["ferry", "transbordador"]}
+{"lema": "tramvaj", "es": ["tranvía"]}
+{"lema": "trener", "es": ["entrenador", "director técnico"]}
+{"lema": "trening", "es": ["entrenamiento", "práctica"]}
+{"lema": "trg", "es": ["plaza", "plaza principal", "mercado"]}
+{"lema": "tunel", "es": ["túnel"]}
+{"lema": "turist", "es": ["turista"]}
+{"lema": "udžbenik", "es": ["libro de texto"]}
+{"lema": "ured", "es": ["oficina"]}
+{"lema": "utorak", "es": ["martes"]}
+{"lema": "val", "es": ["ola", "onda"]}
+{"lema": "vegetarijanac", "es": ["vegetariano"]}
+{"lema": "vikend", "es": ["fin de semana"]}
+{"lema": "vjetar", "es": ["viento"]}
+{"lema": "vlak", "es": ["tren"]}
+{"lema": "vokabular", "es": ["vocabulario"]}
+{"lema": "vrt", "es": ["jardín", "huerto"]}
+{"lema": "zid", "es": ["pared", "muro"]}
+{"lema": "zvuk", "es": ["sonido"]}
+{"lema": "život", "es": ["vida"]}
+{"lema": "akcija", "es": ["acción", "oferta", "promoción"]}
+{"lema": "alergija", "es": ["alergia"]}
+{"lema": "apoteka", "es": ["farmacia"]}
+{"lema": "aroma", "es": ["aroma", "sabor"]}
+{"lema": "autocesta", "es": ["autopista"]}
+{"lema": "avantura", "es": ["aventura"]}
+{"lema": "baka", "es": ["abuela"]}
+{"lema": "banana", "es": ["plátano", "banana"]}
+{"lema": "biblioteka", "es": ["biblioteca"]}
+{"lema": "biologija", "es": ["biología"]}
+{"lema": "boja", "es": ["color", "pintura"]}
+{"lema": "braća", "es": ["hermanos"]}
+{"lema": "cesta", "es": ["carretera", "camino"]}
+{"lema": "cipela", "es": ["zapato"]}
+{"lema": "crkva", "es": ["iglesia"]}
+{"lema": "čarapa", "es": ["calcetín", "media"]}
+{"lema": "čestitka", "es": ["tarjeta de felicitación", "felicitación", "tarjeta"]}
+{"lema": "čokolada", "es": ["chocolate"]}
+{"lema": "destinacija", "es": ["destino"]}
+{"lema": "dijeta", "es": ["dieta"]}
+{"lema": "diploma", "es": ["diploma", "título"]}
+{"lema": "djevojčica", "es": ["niña"]}
+{"lema": "doktorica", "es": ["doctora", "médica"]}
+{"lema": "drama", "es": ["drama"]}
+{"lema": "država", "es": ["país", "estado"]}
+{"lema": "farma", "es": ["granja"]}
+{"lema": "fantazija", "es": ["fantasía", "imaginación"]}
+{"lema": "fizika", "es": ["física"]}
+{"lema": "fotografija", "es": ["fotografía", "foto"]}
+{"lema": "galerija", "es": ["galería"]}
+{"lema": "garaža", "es": ["garaje", "cochera"]}
+{"lema": "garderoba", "es": ["ropero", "guardarropa", "vestidor"]}
+{"lema": "geografija", "es": ["geografía"]}
+{"lema": "gitara", "es": ["guitarra"]}
+{"lema": "glava", "es": ["cabeza"]}
+{"lema": "glazba", "es": ["música"]}
+{"lema": "godina", "es": ["año"]}
+{"lema": "gospođa", "es": ["señora"]}
+{"lema": "gramatika", "es": ["gramática"]}
+{"lema": "greška", "es": ["error", "equivocación"]}
+{"lema": "hlača", "es": ["pierna del pantalón", "pantalones (pl.)"]}
+{"lema": "ideja", "es": ["idea"]}
+{"lema": "igla", "es": ["aguja", "alfiler"]}
+{"lema": "informacija", "es": ["información", "dato"]}
+{"lema": "instrukcija", "es": ["instrucción", "clase particular"]}
+{"lema": "jabuka", "es": ["manzana"]}
+{"lema": "jahta", "es": ["yate"]}
+{"lema": "jakna", "es": ["chaqueta", "chamarra (MX)"]}
+{"lema": "joga", "es": ["yoga"]}
+{"lema": "juha", "es": ["sopa"]}
+{"lema": "kamilica", "es": ["manzanilla"]}
+{"lema": "kapa", "es": ["gorra", "gorro"]}
+{"lema": "karta", "es": ["boleto", "mapa", "carta (de juego)", "tarjeta"]}
+{"lema": "katedrala", "es": ["catedral"]}
+{"lema": "kava", "es": ["café"]}
+{"lema": "kemija", "es": ["química"]}
+{"lema": "kiša", "es": ["lluvia"]}
+{"lema": "klinika", "es": ["clínica"]}
+{"lema": "knjiga", "es": ["libro"]}
+{"lema": "kolekcija", "es": ["colección"]}
+{"lema": "komedija", "es": ["comedia"]}
+{"lema": "košarka", "es": ["básquetbol", "baloncesto"]}
+{"lema": "krava", "es": ["vaca"]}
+{"lema": "kruška", "es": ["pera"]}
+{"lema": "kuća", "es": ["casa"]}
+{"lema": "kuhinja", "es": ["cocina"]}
+{"lema": "kutija", "es": ["caja"]}
+{"lema": "lampa", "es": ["lámpara"]}
+{"lema": "lekcija", "es": ["lección"]}
+{"lema": "lektira", "es": ["lectura obligatoria"]}
+{"lema": "limunada", "es": ["limonada"]}
+{"lema": "lopta", "es": ["pelota", "balón"]}
+{"lema": "lutrija", "es": ["lotería"]}
+{"lema": "mačka", "es": ["gato", "gata"]}
+{"lema": "majica", "es": ["camiseta", "playera (MX)", "remera (AR)"]}
+{"lema": "mama", "es": ["mamá", "madre"]}
+{"lema": "mapa", "es": ["mapa", "carpeta"]}
+{"lema": "marka", "es": ["estampilla", "marca"]}
+{"lema": "marmelada", "es": ["mermelada"]}
+{"lema": "matematika", "es": ["matemáticas"]}
+{"lema": "melodija", "es": ["melodía"]}
+{"lema": "menta", "es": ["menta", "hierbabuena"]}
+{"lema": "minuta", "es": ["minuto"]}
+{"lema": "mrkva", "es": ["zanahoria"]}
+{"lema": "muha", "es": ["mosca"]}
+{"lema": "muzika", "es": ["música"]}
+{"lema": "naranča", "es": ["naranja"]}
+{"lema": "nedjelja", "es": ["domingo"]}
+{"lema": "noga", "es": ["pierna", "pie"]}
+{"lema": "novine", "es": ["periódico", "prensa"]}
+{"lema": "njuška", "es": ["hocico"]}
+{"lema": "obitelj", "es": ["familia"]}
+{"lema": "obrana", "es": ["defensa"]}
+{"lema": "osoba", "es": ["persona", "individuo"]}
+{"lema": "palačinka", "es": ["panqueque", "crepa"]}
+{"lema": "pauza", "es": ["pausa", "descanso", "recreo"]}
+{"lema": "pekara", "es": ["panadería"]}
+{"lema": "pita", "es": ["pastel salado", "empanada"]}
+{"lema": "pizza", "es": ["pizza"]}
+{"lema": "pjesma", "es": ["canción", "poema"]}
+{"lema": "planina", "es": ["montaña"]}
+{"lema": "plaža", "es": ["playa"]}
+{"lema": "pošta", "es": ["oficina de correos", "correo"]}
+{"lema": "pozicija", "es": ["posición"]}
+{"lema": "priča", "es": ["historia", "cuento"]}
+{"lema": "prijateljica", "es": ["amiga"]}
+{"lema": "profesorica", "es": ["profesora", "maestra"]}
+{"lema": "ptica", "es": ["pájaro", "ave"]}
+{"lema": "rajčica", "es": ["tomate", "jitomate (MX)"]}
+{"lema": "razlika", "es": ["diferencia"]}
+{"lema": "rezervacija", "es": ["reservación", "reserva"]}
+{"lema": "riba", "es": ["pez", "pescado"]}
+{"lema": "riječ", "es": ["palabra"]}
+{"lema": "rijeka", "es": ["río"]}
+{"lema": "riva", "es": ["malecón", "paseo marítimo"]}
+{"lema": "ruka", "es": ["brazo", "mano"]}
+{"lema": "salata", "es": ["ensalada", "lechuga"]}
+{"lema": "sekunda", "es": ["segundo"]}
+{"lema": "serija", "es": ["serie", "serie de televisión"]}
+{"lema": "sestra", "es": ["hermana", "enfermera"]}
+{"lema": "slika", "es": ["imagen", "cuadro", "pintura", "fotografía"]}
+{"lema": "soba", "es": ["habitación", "cuarto", "recámara (MX)"]}
+{"lema": "sol", "es": ["sal"]}
+{"lema": "sreća", "es": ["felicidad", "suerte", "fortuna"]}
+{"lema": "srijeda", "es": ["miércoles"]}
+{"lema": "stanica", "es": ["parada", "estación", "célula"]}
+{"lema": "stranica", "es": ["página", "sitio web"]}
+{"lema": "studentica", "es": ["estudiante (mujer)", "estudiante"]}
+{"lema": "subota", "es": ["sábado"]}
+{"lema": "škola", "es": ["escuela"]}
+{"lema": "šuma", "es": ["bosque"]}
+{"lema": "tava", "es": ["sartén"]}
+{"lema": "televizija", "es": ["televisión", "tele"]}
+{"lema": "teretana", "es": ["gimnasio"]}
+{"lema": "teta", "es": ["tía"]}
+{"lema": "torta", "es": ["pastel", "pastel de capas"]}
+{"lema": "trgovina", "es": ["tienda", "comercio"]}
+{"lema": "tržnica", "es": ["mercado"]}
+{"lema": "tura", "es": ["recorrido", "excursión"]}
+{"lema": "turistica", "es": ["turista (mujer)", "turista"]}
+{"lema": "učiteljica", "es": ["maestra", "profesora"]}
+{"lema": "ulica", "es": ["calle"]}
+{"lema": "uspomena", "es": ["recuerdo"]}
+{"lema": "utakmica", "es": ["partido"]}
+{"lema": "večer", "es": ["noche", "tarde-noche"]}
+{"lema": "vijest", "es": ["noticia"]}
+{"lema": "vila", "es": ["villa", "hada"]}
+{"lema": "vožnja", "es": ["viaje", "paseo (en auto)", "manejo"]}
+{"lema": "vrećica", "es": ["bolsa", "bolsa de plástico"]}
+{"lema": "zadaća", "es": ["tarea", "deberes"]}
+{"lema": "zebra", "es": ["cebra"]}
+{"lema": "zemlja", "es": ["país", "tierra", "suelo"]}
+{"lema": "zgrada", "es": ["edificio"]}
+{"lema": "zima", "es": ["invierno", "frío"]}
+{"lema": "zvijezda", "es": ["estrella"]}
+{"lema": "žaba", "es": ["rana"]}
+{"lema": "žena", "es": ["mujer", "esposa"]}
+{"lema": "žurba", "es": ["prisa", "apuro"]}
+{"lema": "brašno", "es": ["harina"]}
+{"lema": "cvijeće", "es": ["flores"]}
+{"lema": "dijete", "es": ["niño", "niña", "hijo"]}
+{"lema": "drvo", "es": ["árbol", "madera"]}
+{"lema": "grožđe", "es": ["uvas"]}
+{"lema": "jaje", "es": ["huevo"]}
+{"lema": "jezero", "es": ["lago"]}
+{"lema": "jutro", "es": ["mañana"]}
+{"lema": "kazalište", "es": ["teatro"]}
+{"lema": "kino", "es": ["cine"]}
+{"lema": "ljeto", "es": ["verano"]}
+{"lema": "meso", "es": ["carne"]}
+{"lema": "mjesto", "es": ["lugar", "sitio", "asiento", "pueblo", "espacio"]}
+{"lema": "mlijeko", "es": ["leche"]}
+{"lema": "more", "es": ["mar"]}
+{"lema": "nebo", "es": ["cielo"]}
+{"lema": "oko", "es": ["ojo"]}
+{"lema": "piće", "es": ["bebida"]}
+{"lema": "pismo", "es": ["carta"]}
+{"lema": "pitanje", "es": ["pregunta"]}
+{"lema": "pivo", "es": ["cerveza"]}
+{"lema": "plivanje", "es": ["natación"]}
+{"lema": "podne", "es": ["mediodía"]}
+{"lema": "poslijepodne", "es": ["tarde"]}
+{"lema": "povrće", "es": ["verduras"]}
+{"lema": "putovanje", "es": ["viaje"]}
+{"lema": "sunce", "es": ["sol"]}
+{"lema": "svijet", "es": ["mundo"]}
+{"lema": "trčanje", "es": ["correr", "carrera"]}
+{"lema": "učenje", "es": ["aprendizaje", "estudio"]}
+{"lema": "uho", "es": ["oreja", "oído"]}
+{"lema": "vino", "es": ["vino"]}
+{"lema": "voće", "es": ["fruta"]}
+{"lema": "vrata", "es": ["puerta", "portón"]}
+{"lema": "vrijeme", "es": ["tiempo", "clima"]}
+{"lema": "ljudi", "es": ["gente", "personas"]}
+{"lema": "djeca", "es": ["niños", "hijos"]}
+{"lema": "protein", "es": ["proteína"]}
+{"lema": "vitamin", "es": ["vitamina"]}
+{"lema": "birati", "es": ["elegir", "escoger", "seleccionar"]}
+{"lema": "biti", "es": ["ser", "estar"]}
+{"lema": "brisati", "es": ["limpiar", "borrar", "eliminar"]}
+{"lema": "čekati", "es": ["esperar"]}
+{"lema": "čitati", "es": ["leer"]}
+{"lema": "čuti", "es": ["oír", "escuchar"]}
+{"lema": "davati", "es": ["dar"]}
+{"lema": "dolaziti", "es": ["venir", "llegar"]}
+{"lema": "fotografirati", "es": ["fotografiar", "tomar fotos"]}
+{"lema": "gledati", "es": ["mirar", "ver"]}
+{"lema": "gubiti", "es": ["perder"]}
+{"lema": "hodati", "es": ["caminar", "andar"]}
+{"lema": "igrati", "es": ["jugar"]}
+{"lema": "imati", "es": ["tener"]}
+{"lema": "izgledati", "es": ["verse", "parecer"]}
+{"lema": "izlaziti", "es": ["salir"]}
+{"lema": "jesti", "es": ["comer"]}
+{"lema": "kazati", "es": ["decir"]}
+{"lema": "koštati", "es": ["costar"]}
+{"lema": "kretati", "es": ["ponerse en camino", "moverse", "salir"]}
+{"lema": "kuhati", "es": ["cocinar", "hervir"]}
+{"lema": "kupovati", "es": ["comprar", "ir de compras"]}
+{"lema": "lajati", "es": ["ladrar"]}
+{"lema": "letjeti", "es": ["volar"]}
+{"lema": "mahati", "es": ["saludar con la mano", "agitar"]}
+{"lema": "miješati", "es": ["mezclar", "revolver"]}
+{"lema": "misliti", "es": ["pensar"]}
+{"lema": "moći", "es": ["poder"]}
+{"lema": "naručivati", "es": ["pedir", "ordenar"]}
+{"lema": "navijati", "es": ["animar", "apoyar a un equipo"]}
+{"lema": "nositi", "es": ["llevar", "cargar", "traer puesto"]}
+{"lema": "otkrivati", "es": ["descubrir", "destapar"]}
+{"lema": "otvarati", "es": ["abrir"]}
+{"lema": "padati", "es": ["caer", "llover"]}
+{"lema": "pamtiti", "es": ["recordar", "memorizar"]}
+{"lema": "pisati", "es": ["escribir"]}
+{"lema": "piti", "es": ["beber", "tomar"]}
+{"lema": "pjevati", "es": ["cantar"]}
+{"lema": "plakati", "es": ["llorar"]}
+{"lema": "planirati", "es": ["planear", "planificar"]}
+{"lema": "plivati", "es": ["nadar"]}
+{"lema": "pljeskati", "es": ["aplaudir"]}
+{"lema": "ploviti", "es": ["navegar"]}
+{"lema": "pozdravljati", "es": ["saludar"]}
+{"lema": "poznavati", "es": ["conocer"]}
+{"lema": "pričati", "es": ["hablar", "platicar", "contar"]}
+{"lema": "putovati", "es": ["viajar"]}
+{"lema": "raditi", "es": ["trabajar", "hacer"]}
+{"lema": "rasti", "es": ["crecer"]}
+{"lema": "razgovarati", "es": ["conversar", "hablar", "platicar"]}
+{"lema": "ručati", "es": ["almorzar"]}
+{"lema": "sjati", "es": ["brillar"]}
+{"lema": "sjediti", "es": ["estar sentado"]}
+{"lema": "slati", "es": ["enviar", "mandar"]}
+{"lema": "slušati", "es": ["escuchar"]}
+{"lema": "spavati", "es": ["dormir"]}
+{"lema": "stajati", "es": ["estar de pie"]}
+{"lema": "svirati", "es": ["tocar (un instrumento)"]}
+{"lema": "šetati", "es": ["pasear", "caminar"]}
+{"lema": "trajati", "es": ["durar", "tardar"]}
+{"lema": "trčati", "es": ["correr"]}
+{"lema": "trebati", "es": ["necesitar", "deber", "hacer falta", "tener que"]}
+{"lema": "trenirati", "es": ["entrenar", "practicar"]}
+{"lema": "učiti", "es": ["estudiar", "aprender", "enseñar"]}
+{"lema": "vidjeti", "es": ["ver"]}
+{"lema": "visjeti", "es": ["colgar", "estar colgado"]}
+{"lema": "voditi", "es": ["guiar", "llevar", "dirigir"]}
+{"lema": "voljeti", "es": ["amar", "querer", "gustar"]}
+{"lema": "voziti", "es": ["manejar", "ir en (auto, bici)"]}
+{"lema": "vući", "es": ["tirar de", "arrastrar"]}
+{"lema": "zaboravljati", "es": ["olvidar"]}
+{"lema": "zvati", "es": ["llamar", "nombrar"]}
+{"lema": "zvučati", "es": ["sonar"]}
+{"lema": "željeti", "es": ["desear", "querer"]}
+{"lema": "živjeti", "es": ["vivir"]}
+{"lema": "žuriti", "es": ["apurarse", "tener prisa"]}
+{"lema": "dati", "es": ["dar"]}
+{"lema": "dobiti", "es": ["recibir", "obtener", "ganar"]}
+{"lema": "doći", "es": ["venir", "llegar"]}
+{"lema": "dodati", "es": ["agregar", "pasar"]}
+{"lema": "kupiti", "es": ["comprar"]}
+{"lema": "napisati", "es": ["escribir", "terminar de escribir"]}
+{"lema": "naručiti", "es": ["pedir", "ordenar"]}
+{"lema": "naučiti", "es": ["aprender", "enseñar"]}
+{"lema": "odmoriti", "es": ["descansar"]}
+{"lema": "okrenuti", "es": ["girar", "voltear", "darse vuelta"]}
+{"lema": "ostati", "es": ["quedarse", "permanecer"]}
+{"lema": "otkriti", "es": ["descubrir", "enterarse", "revelar"]}
+{"lema": "pasti", "es": ["caer"]}
+{"lema": "peći", "es": ["hornear", "asar", "freír"]}
+{"lema": "početi", "es": ["empezar", "comenzar"]}
+{"lema": "pobijediti", "es": ["ganar", "vencer", "derrotar"]}
+{"lema": "podijeliti", "es": ["compartir", "dividir", "repartir"]}
+{"lema": "pogledati", "es": ["mirar", "echar un vistazo", "ver"]}
+{"lema": "pojesti", "es": ["comerse todo", "terminar de comer", "comer"]}
+{"lema": "popiti", "es": ["beberse todo", "terminar de beber", "beber"]}
+{"lema": "poslati", "es": ["enviar", "mandar"]}
+{"lema": "poslužiti", "es": ["servir"]}
+{"lema": "postati", "es": ["llegar a ser", "convertirse en", "volverse"]}
+{"lema": "požuriti", "es": ["apurarse", "darse prisa"]}
+{"lema": "prijeći", "es": ["cruzar", "pasar"]}
+{"lema": "pročitati", "es": ["leer completo", "terminar de leer", "leer"]}
+{"lema": "reći", "es": ["decir"]}
+{"lema": "skočiti", "es": ["saltar", "brincar"]}
+{"lema": "skrenuti", "es": ["girar", "doblar"]}
+{"lema": "smotati", "es": ["enrollar", "envolver"]}
+{"lema": "staviti", "es": ["poner", "colocar"]}
+{"lema": "stići", "es": ["llegar", "llegar a tiempo"]}
+{"lema": "ustati", "es": ["levantarse", "ponerse de pie"]}
+{"lema": "uzeti", "es": ["tomar", "agarrar"]}
+{"lema": "zaboraviti", "es": ["olvidar"]}
+{"lema": "zaći", "es": ["ponerse (el sol)", "pasar por detrás"]}
+{"lema": "zagrijati", "es": ["calentar"]}
+{"lema": "zamisliti", "es": ["imaginar", "imaginarse"]}
+{"lema": "završiti", "es": ["terminar", "acabar", "completar"]}
+{"lema": "htjeti", "es": ["querer", "(auxiliar del futuro)"]}
+{"lema": "ići", "es": ["ir"]}
+{"lema": "bijel", "es": ["blanco"]}
+{"lema": "brz", "es": ["rápido", "veloz"]}
+{"lema": "cijeli", "es": ["entero", "completo", "todo"]}
+{"lema": "crn", "es": ["negro"]}
+{"lema": "crven", "es": ["rojo"]}
+{"lema": "dobar", "es": ["bueno", "amable"]}
+{"lema": "drven", "es": ["de madera"]}
+{"lema": "dug", "es": ["largo"]}
+{"lema": "glasan", "es": ["ruidoso", "fuerte (sonido)"]}
+{"lema": "gladan", "es": ["hambriento", "con hambre"]}
+{"lema": "gotov", "es": ["terminado", "hecho", "listo"]}
+{"lema": "hladan", "es": ["frío", "fresco"]}
+{"lema": "hrabar", "es": ["valiente"]}
+{"lema": "isti", "es": ["mismo", "idéntico"]}
+{"lema": "jak", "es": ["fuerte", "poderoso"]}
+{"lema": "kratak", "es": ["corto", "breve"]}
+{"lema": "lijep", "es": ["bonito", "lindo", "hermoso"]}
+{"lema": "ljut", "es": ["enojado", "picante"]}
+{"lema": "malen", "es": ["pequeño", "chiquito"]}
+{"lema": "mali", "es": ["pequeño", "chico"]}
+{"lema": "mekan", "es": ["suave", "blando"]}
+{"lema": "miran", "es": ["tranquilo", "calmado", "pacífico"]}
+{"lema": "mlad", "es": ["joven"]}
+{"lema": "moderan", "es": ["moderno", "de moda"]}
+{"lema": "nov", "es": ["nuevo"]}
+{"lema": "odličan", "es": ["excelente", "buenísimo"]}
+{"lema": "omiljen", "es": ["favorito", "preferido", "popular"]}
+{"lema": "pametan", "es": ["listo", "inteligente"]}
+{"lema": "plav", "es": ["azul", "rubio"]}
+{"lema": "popularan", "es": ["popular"]}
+{"lema": "pošten", "es": ["honesto", "justo"]}
+{"lema": "prošli", "es": ["pasado", "anterior"]}
+{"lema": "pun", "es": ["lleno"]}
+{"lema": "različit", "es": ["diferente", "distinto", "variado"]}
+{"lema": "savršen", "es": ["perfecto"]}
+{"lema": "sjajan", "es": ["genial", "brillante"]}
+{"lema": "sladak", "es": ["dulce", "tierno", "lindo"]}
+{"lema": "skup", "es": ["caro"]}
+{"lema": "slobodan", "es": ["libre", "disponible", "desocupado"]}
+{"lema": "smiješan", "es": ["gracioso", "chistoso", "ridículo"]}
+{"lema": "spor", "es": ["lento"]}
+{"lema": "star", "es": ["viejo", "antiguo"]}
+{"lema": "strog", "es": ["estricto", "severo"]}
+{"lema": "sretan", "es": ["feliz", "afortunado"]}
+{"lema": "svjež", "es": ["fresco"]}
+{"lema": "šaren", "es": ["colorido", "de colores"]}
+{"lema": "težak", "es": ["pesado", "difícil"]}
+{"lema": "topao", "es": ["cálido", "caliente", "tibio"]}
+{"lema": "tužan", "es": ["triste"]}
+{"lema": "ukusan", "es": ["sabroso", "rico", "delicioso"]}
+{"lema": "umoran", "es": ["cansado"]}
+{"lema": "važan", "es": ["importante"]}
+{"lema": "velik", "es": ["grande"]}
+{"lema": "veseo", "es": ["alegre"]}
+{"lema": "visok", "es": ["alto"]}
+{"lema": "zadnji", "es": ["último"]}
+{"lema": "zanimljiv", "es": ["interesante"]}
+{"lema": "zdrav", "es": ["sano", "saludable"]}
+{"lema": "zelen", "es": ["verde"]}
+{"lema": "živ", "es": ["vivo", "animado"]}
+{"lema": "žedan", "es": ["sediento", "con sed"]}
+{"lema": "žut", "es": ["amarillo"]}
+{"lema": "ja", "es": ["yo"]}
+{"lema": "ti", "es": ["tú"]}
+{"lema": "on", "es": ["él"]}
+{"lema": "ona", "es": ["ella"]}
+{"lema": "ono", "es": ["ello", "eso"]}
+{"lema": "mi", "es": ["nosotros"]}
+{"lema": "vi", "es": ["ustedes", "usted (formal)"]}
+{"lema": "oni", "es": ["ellos"]}
+{"lema": "se", "es": ["se", "a sí mismo"]}
+{"lema": "moj", "es": ["mi", "mío"]}
+{"lema": "tvoj", "es": ["tu", "tuyo"]}
+{"lema": "njegov", "es": ["su (de él)", "suyo"]}
+{"lema": "njezin", "es": ["su (de ella)", "suyo"]}
+{"lema": "naš", "es": ["nuestro"]}
+{"lema": "vaš", "es": ["su (de ustedes, de usted)", "suyo"]}
+{"lema": "njihov", "es": ["su (de ellos)", "suyo"]}
+{"lema": "tko", "es": ["quién"]}
+{"lema": "što", "es": ["qué"]}
+{"lema": "koji", "es": ["cuál", "que", "quien"]}
+{"lema": "čiji", "es": ["de quién"]}
+{"lema": "ovaj", "es": ["este"]}
+{"lema": "taj", "es": ["ese"]}
+{"lema": "onaj", "es": ["aquel"]}
+{"lema": "nešto", "es": ["algo"]}
+{"lema": "ništa", "es": ["nada"]}
+{"lema": "netko", "es": ["alguien"]}
+{"lema": "sav", "es": ["todo"]}
+{"lema": "svaki", "es": ["cada", "todo"]}
+{"lema": "neki", "es": ["algún", "cierto"]}
+{"lema": "drugi", "es": ["otro", "segundo"]}
+{"lema": "jedan", "es": ["uno", "un"]}
+{"lema": "dva", "es": ["dos"]}
+{"lema": "tri", "es": ["tres"]}
+{"lema": "četiri", "es": ["cuatro"]}
+{"lema": "pet", "es": ["cinco"]}
+{"lema": "šest", "es": ["seis"]}
+{"lema": "sedam", "es": ["siete"]}
+{"lema": "osam", "es": ["ocho"]}
+{"lema": "devet", "es": ["nueve"]}
+{"lema": "deset", "es": ["diez"]}
+{"lema": "jedanaest", "es": ["once"]}
+{"lema": "dvanaest", "es": ["doce"]}
+{"lema": "dvadeset", "es": ["veinte"]}
+{"lema": "trideset", "es": ["treinta"]}
+{"lema": "sto", "es": ["cien", "ciento"]}
+{"lema": "prvi", "es": ["primero"]}
+{"lema": "treći", "es": ["tercero"]}
+{"lema": "baš", "es": ["justo", "exactamente", "realmente"]}
+{"lema": "besplatno", "es": ["gratis"]}
+{"lema": "blizu", "es": ["cerca"]}
+{"lema": "bolje", "es": ["mejor"]}
+{"lema": "brzo", "es": ["rápido", "pronto"]}
+{"lema": "često", "es": ["a menudo", "seguido", "frecuentemente"]}
+{"lema": "dakle", "es": ["entonces", "así que", "por lo tanto"]}
+{"lema": "daleko", "es": ["lejos"]}
+{"lema": "danas", "es": ["hoy"]}
+{"lema": "desno", "es": ["a la derecha", "derecha"]}
+{"lema": "dosadno", "es": ["aburrido"]}
+{"lema": "doma", "es": ["en casa", "a casa"]}
+{"lema": "dugo", "es": ["mucho tiempo"]}
+{"lema": "gle", "es": ["¡mira!"]}
+{"lema": "glasno", "es": ["en voz alta", "fuerte"]}
+{"lema": "hladno", "es": ["frío", "con frialdad"]}
+{"lema": "ipak", "es": ["sin embargo", "aun así", "después de todo"]}
+{"lema": "jako", "es": ["muy", "fuerte", "realmente"]}
+{"lema": "jučer", "es": ["ayer"]}
+{"lema": "jutros", "es": ["esta mañana"]}
+{"lema": "kamo", "es": ["adónde"]}
+{"lema": "kasno", "es": ["tarde"]}
+{"lema": "lijevo", "es": ["a la izquierda", "izquierda"]}
+{"lema": "ljeti", "es": ["en verano"]}
+{"lema": "malo", "es": ["un poco", "poco"]}
+{"lema": "mnogo", "es": ["mucho", "muchos"]}
+{"lema": "možda", "es": ["quizás", "tal vez"]}
+{"lema": "napokon", "es": ["por fin", "finalmente"]}
+{"lema": "naravno", "es": ["claro", "por supuesto"]}
+{"lema": "navečer", "es": ["por la noche"]}
+{"lema": "nažalost", "es": ["lamentablemente", "por desgracia"]}
+{"lema": "nikad", "es": ["nunca"]}
+{"lema": "odmah", "es": ["enseguida", "de inmediato", "ahora mismo"]}
+{"lema": "opet", "es": ["otra vez", "de nuevo"]}
+{"lema": "pješice", "es": ["a pie"]}
+{"lema": "pola", "es": ["mitad", "medio"]}
+{"lema": "polako", "es": ["despacio", "con calma"]}
+{"lema": "ponekad", "es": ["a veces"]}
+{"lema": "poslije", "es": ["después", "luego"]}
+{"lema": "prvo", "es": ["primero"]}
+{"lema": "puno", "es": ["mucho", "muchos"]}
+{"lema": "rano", "es": ["temprano"]}
+{"lema": "ravno", "es": ["recto", "derecho"]}
+{"lema": "sada", "es": ["ahora"]}
+{"lema": "samo", "es": ["solo", "nada más"]}
+{"lema": "skoro", "es": ["casi"]}
+{"lema": "sutra", "es": ["mañana"]}
+{"lema": "također", "es": ["también"]}
+{"lema": "tamo", "es": ["allí", "allá"]}
+{"lema": "tiho", "es": ["en voz baja", "en silencio"]}
+{"lema": "toplo", "es": ["calor", "cálidamente"]}
+{"lema": "ujutro", "es": ["por la mañana"]}
+{"lema": "unutra", "es": ["adentro"]}
+{"lema": "usput", "es": ["por cierto", "de paso"]}
+{"lema": "uvijek", "es": ["siempre"]}
+{"lema": "vani", "es": ["afuera"]}
+{"lema": "večeras", "es": ["esta noche"]}
+{"lema": "zajedno", "es": ["juntos"]}
+{"lema": "zato", "es": ["por eso"]}
+{"lema": "zatim", "es": ["luego", "después"]}
+{"lema": "zimi", "es": ["en invierno"]}
+{"lema": "bez", "es": ["sin"]}
+{"lema": "do", "es": ["hasta", "junto a"]}
+{"lema": "ispred", "es": ["delante de", "enfrente de"]}
+{"lema": "iz", "es": ["de", "desde"]}
+{"lema": "k", "es": ["hacia"]}
+{"lema": "kod", "es": ["en casa de", "con", "junto a"]}
+{"lema": "kroz", "es": ["a través de", "por"]}
+{"lema": "na", "es": ["en", "sobre"]}
+{"lema": "o", "es": ["sobre", "acerca de"]}
+{"lema": "od", "es": ["de", "desde"]}
+{"lema": "pokraj", "es": ["junto a", "al lado de"]}
+{"lema": "preko", "es": ["por encima de", "al otro lado de", "a través de"]}
+{"lema": "s", "es": ["con", "desde (de encima de)"]}
+{"lema": "u", "es": ["en", "dentro de", "hacia"]}
+{"lema": "za", "es": ["para", "por", "detrás de", "dentro de (tiempo)"]}
+{"lema": "i", "es": ["y", "también"]}
+{"lema": "a", "es": ["y", "mientras que", "pero"]}
+{"lema": "ali", "es": ["pero"]}
+{"lema": "jer", "es": ["porque"]}
+{"lema": "zato što", "es": ["porque"]}
+{"lema": "kada", "es": ["cuando", "cuándo"]}
+{"lema": "ako", "es": ["si"]}
+{"lema": "dok", "es": ["mientras", "hasta que"]}
+{"lema": "iako", "es": ["aunque"]}
+{"lema": "kao", "es": ["como"]}
+{"lema": "onda", "es": ["entonces", "luego"]}
+{"lema": "ni", "es": ["ni", "ni siquiera"]}
+{"lema": "li", "es": ["partícula de pregunta (sí/no)"]}
+{"lema": "ne", "es": ["no"]}
+{"lema": "da", "es": ["sí", "que"]}
+{"lema": "zar", "es": ["¿acaso?", "¿de verdad?"]}
+{"lema": "nemoj", "es": ["no (prohibición: no lo hagas)"]}
+{"lema": "sin", "es": ["hijo"]}
+{"lema": "muž", "es": ["esposo", "marido"]}
+{"lema": "ujak", "es": ["tío (hermano de la madre)", "tío"]}
+{"lema": "stric", "es": ["tío (hermano del padre)", "tío"]}
+{"lema": "nećak", "es": ["sobrino"]}
+{"lema": "unuk", "es": ["nieto"]}
+{"lema": "rođak", "es": ["primo", "pariente"]}
+{"lema": "gospodin", "es": ["señor", "caballero"]}
+{"lema": "momak", "es": ["joven", "muchacho", "novio"]}
+{"lema": "kolega", "es": ["colega", "compañero de trabajo"]}
+{"lema": "šef", "es": ["jefe"]}
+{"lema": "radnik", "es": ["trabajador", "obrero"]}
+{"lema": "liječnik", "es": ["médico", "doctor"]}
+{"lema": "učitelj", "es": ["maestro", "profesor"]}
+{"lema": "vozač", "es": ["chofer", "conductor"]}
+{"lema": "pjevač", "es": ["cantante"]}
+{"lema": "glumac", "es": ["actor"]}
+{"lema": "pisac", "es": ["escritor", "autor"]}
+{"lema": "vojnik", "es": ["soldado"]}
+{"lema": "zub", "es": ["diente"]}
+{"lema": "prst", "es": ["dedo"]}
+{"lema": "vrat", "es": ["cuello"]}
+{"lema": "mozak", "es": ["cerebro"]}
+{"lema": "krov", "es": ["techo", "tejado"]}
+{"lema": "pod", "es": ["suelo", "debajo de"]}
+{"lema": "kat", "es": ["piso", "planta"]}
+{"lema": "ključ", "es": ["llave"]}
+{"lema": "ormar", "es": ["clóset", "ropero", "armario"]}
+{"lema": "jastuk", "es": ["almohada", "cojín"]}
+{"lema": "ručnik", "es": ["toalla"]}
+{"lema": "sapun", "es": ["jabón"]}
+{"lema": "nož", "es": ["cuchillo"]}
+{"lema": "tanjur", "es": ["plato"]}
+{"lema": "kut", "es": ["esquina", "rincón", "ángulo"]}
+{"lema": "podrum", "es": ["sótano"]}
+{"lema": "namještaj", "es": ["muebles"]}
+{"lema": "krumpir", "es": ["papa"]}
+{"lema": "grah", "es": ["frijoles"]}
+{"lema": "kupus", "es": ["repollo", "col"]}
+{"lema": "orah", "es": ["nuez"]}
+{"lema": "umak", "es": ["salsa"]}
+{"lema": "obrok", "es": ["comida"]}
+{"lema": "mjesec", "es": ["mes", "luna"]}
+{"lema": "trenutak", "es": ["momento", "instante"]}
+{"lema": "vijek", "es": ["siglo", "época"]}
+{"lema": "rok", "es": ["plazo", "fecha límite"]}
+{"lema": "siječanj", "es": ["enero"]}
+{"lema": "veljača", "es": ["febrero"]}
+{"lema": "ožujak", "es": ["marzo"]}
+{"lema": "travanj", "es": ["abril"]}
+{"lema": "svibanj", "es": ["mayo"]}
+{"lema": "lipanj", "es": ["junio"]}
+{"lema": "srpanj", "es": ["julio"]}
+{"lema": "kolovoz", "es": ["agosto"]}
+{"lema": "rujan", "es": ["septiembre"]}
+{"lema": "listopad", "es": ["octubre"]}
+{"lema": "studeni", "es": ["noviembre"]}
+{"lema": "kamen", "es": ["piedra", "roca"]}
+{"lema": "pijesak", "es": ["arena"]}
+{"lema": "oblak", "es": ["nube"]}
+{"lema": "zrak", "es": ["aire"]}
+{"lema": "vrh", "es": ["cima", "cumbre", "punta"]}
+{"lema": "vuk", "es": ["lobo"]}
+{"lema": "medvjed", "es": ["oso"]}
+{"lema": "zec", "es": ["conejo", "liebre"]}
+{"lema": "miš", "es": ["ratón"]}
+{"lema": "strah", "es": ["miedo"]}
+{"lema": "uspjeh", "es": ["éxito"]}
+{"lema": "razlog", "es": ["razón", "motivo"]}
+{"lema": "cilj", "es": ["meta", "objetivo"]}
+{"lema": "izbor", "es": ["elección", "selección", "opción"]}
+{"lema": "red", "es": ["orden", "fila", "cola", "renglón"]}
+{"lema": "rat", "es": ["guerra"]}
+{"lema": "zakon", "es": ["ley"]}
+{"lema": "dogovor", "es": ["acuerdo", "trato"]}
+{"lema": "način", "es": ["manera", "modo", "forma"]}
+{"lema": "dio", "es": ["parte", "pedazo", "sección"]}
+{"lema": "trošak", "es": ["costo", "gasto"]}
+{"lema": "smisao", "es": ["sentido", "significado"]}
+{"lema": "pokušaj", "es": ["intento"]}
+{"lema": "kći", "es": ["hija"]}
+{"lema": "supruga", "es": ["esposa"]}
+{"lema": "unuka", "es": ["nieta"]}
+{"lema": "djevojka", "es": ["chica", "muchacha", "novia"]}
+{"lema": "kosa", "es": ["cabello", "pelo"]}
+{"lema": "koža", "es": ["piel", "cuero"]}
+{"lema": "krv", "es": ["sangre"]}
+{"lema": "kost", "es": ["hueso"]}
+{"lema": "kupaonica", "es": ["baño"]}
+{"lema": "spavaonica", "es": ["dormitorio", "recámara (MX)"]}
+{"lema": "polica", "es": ["estante", "repisa"]}
+{"lema": "zavjesa", "es": ["cortina"]}
+{"lema": "žlica", "es": ["cuchara"]}
+{"lema": "vilica", "es": ["tenedor", "mandíbula"]}
+{"lema": "šalica", "es": ["taza"]}
+{"lema": "boca", "es": ["botella"]}
+{"lema": "čaša", "es": ["vaso", "copa"]}
+{"lema": "četka", "es": ["cepillo"]}
+{"lema": "škare", "es": ["tijeras"]}
+{"lema": "breskva", "es": ["durazno"]}
+{"lema": "šljiva", "es": ["ciruela"]}
+{"lema": "trešnja", "es": ["cereza"]}
+{"lema": "jagoda", "es": ["fresa", "frutilla"]}
+{"lema": "tjestenina", "es": ["pasta"]}
+{"lema": "riža", "es": ["arroz"]}
+{"lema": "prošlost", "es": ["pasado"]}
+{"lema": "budućnost", "es": ["futuro"]}
+{"lema": "jesen", "es": ["otoño"]}
+{"lema": "trava", "es": ["pasto", "hierba"]}
+{"lema": "magla", "es": ["niebla", "neblina"]}
+{"lema": "oluja", "es": ["tormenta"]}
+{"lema": "munja", "es": ["relámpago", "rayo"]}
+{"lema": "grana", "es": ["rama"]}
+{"lema": "livada", "es": ["pradera", "prado"]}
+{"lema": "obala", "es": ["costa", "orilla"]}
+{"lema": "pčela", "es": ["abeja"]}
+{"lema": "ovca", "es": ["oveja"]}
+{"lema": "koza", "es": ["cabra"]}
+{"lema": "svinja", "es": ["cerdo", "puerco"]}
+{"lema": "kokoš", "es": ["gallina"]}
+{"lema": "lisica", "es": ["zorro"]}
+{"lema": "ljubav", "es": ["amor"]}
+{"lema": "nada", "es": ["esperanza"]}
+{"lema": "istina", "es": ["verdad"]}
+{"lema": "laž", "es": ["mentira"]}
+{"lema": "moć", "es": ["poder"]}
+{"lema": "snaga", "es": ["fuerza", "energía"]}
+{"lema": "pomoć", "es": ["ayuda"]}
+{"lema": "promjena", "es": ["cambio"]}
+{"lema": "potreba", "es": ["necesidad"]}
+{"lema": "mogućnost", "es": ["posibilidad", "opción", "oportunidad"]}
+{"lema": "prilika", "es": ["oportunidad", "ocasión"]}
+{"lema": "navika", "es": ["costumbre", "hábito"]}
+{"lema": "misao", "es": ["pensamiento", "idea"]}
+{"lema": "briga", "es": ["preocupación", "cuidado"]}
+{"lema": "tuga", "es": ["tristeza"]}
+{"lema": "radost", "es": ["alegría"]}
+{"lema": "sloboda", "es": ["libertad"]}
+{"lema": "pravda", "es": ["justicia"]}
+{"lema": "vlada", "es": ["gobierno"]}
+{"lema": "vojska", "es": ["ejército"]}
+{"lema": "bolnica", "es": ["hospital"]}
+{"lema": "plaća", "es": ["sueldo", "salario"]}
+{"lema": "cijena", "es": ["precio", "costo"]}
+{"lema": "banka", "es": ["banco"]}
+{"lema": "kartica", "es": ["tarjeta", "tarjeta bancaria"]}
+{"lema": "nastava", "es": ["clases", "enseñanza"]}
+{"lema": "ocjena", "es": ["calificación", "nota"]}
+{"lema": "vježba", "es": ["ejercicio", "práctica"]}
+{"lema": "znanost", "es": ["ciencia"]}
+{"lema": "umjetnost", "es": ["arte"]}
+{"lema": "povijest", "es": ["historia"]}
+{"lema": "srce", "es": ["corazón"]}
+{"lema": "tijelo", "es": ["cuerpo"]}
+{"lema": "lice", "es": ["cara", "rostro"]}
+{"lema": "čelo", "es": ["frente"]}
+{"lema": "koljeno", "es": ["rodilla"]}
+{"lema": "rame", "es": ["hombro"]}
+{"lema": "usta", "es": ["boca"]}
+{"lema": "leđa", "es": ["espalda"]}
+{"lema": "proljeće", "es": ["primavera"]}
+{"lema": "sjećanje", "es": ["recuerdo", "memoria"]}
+{"lema": "znanje", "es": ["conocimiento", "saber"]}
+{"lema": "iskustvo", "es": ["experiencia"]}
+{"lema": "pravilo", "es": ["regla"]}
+{"lema": "rješenje", "es": ["solución", "respuesta"]}
+{"lema": "mišljenje", "es": ["opinión"]}
+{"lema": "društvo", "es": ["sociedad", "compañía"]}
+{"lema": "prijateljstvo", "es": ["amistad"]}
+{"lema": "djetinjstvo", "es": ["infancia", "niñez"]}
+{"lema": "selo", "es": ["pueblo", "aldea", "campo"]}
+{"lema": "polje", "es": ["campo"]}
+{"lema": "brdo", "es": ["colina", "cerro"]}
+{"lema": "krilo", "es": ["ala", "regazo"]}
+{"lema": "gnijezdo", "es": ["nido"]}
+{"lema": "računalo", "es": ["computadora"]}
+{"lema": "veselje", "es": ["alegría", "diversión"]}
+{"lema": "razumjeti", "es": ["entender", "comprender"]}
+{"lema": "objasniti", "es": ["explicar"]}
+{"lema": "pitati", "es": ["preguntar"]}
+{"lema": "odgovoriti", "es": ["responder", "contestar"]}
+{"lema": "pokazati", "es": ["mostrar", "señalar"]}
+{"lema": "obećati", "es": ["prometer"]}
+{"lema": "zahvaliti", "es": ["agradecer", "dar las gracias"]}
+{"lema": "javiti se", "es": ["comunicarse", "contestar (el teléfono)", "avisar"]}
+{"lema": "nazvati", "es": ["llamar", "llamar por teléfono", "nombrar"]}
+{"lema": "dogovoriti", "es": ["acordar", "quedar en", "ponerse de acuerdo"]}
+{"lema": "upoznati", "es": ["conocer", "presentar"]}
+{"lema": "ponoviti", "es": ["repetir", "repasar"]}
+{"lema": "nadati se", "es": ["esperar (tener esperanza)"]}
+{"lema": "bojati se", "es": ["tener miedo", "temer"]}
+{"lema": "brinuti se", "es": ["preocuparse", "cuidar de"]}
+{"lema": "smijati se", "es": ["reírse"]}
+{"lema": "šaliti se", "es": ["bromear", "estar bromeando"]}
+{"lema": "ljutiti se", "es": ["enojarse", "estar enojado"]}
+{"lema": "sjetiti se", "es": ["acordarse", "recordar"]}
+{"lema": "vjerovati", "es": ["creer", "confiar"]}
+{"lema": "sumnjati", "es": ["dudar", "sospechar"]}
+{"lema": "razmišljati", "es": ["pensar", "reflexionar", "considerar"]}
+{"lema": "sanjati", "es": ["soñar"]}
+{"lema": "mrziti", "es": ["odiar"]}
+{"lema": "osjećati", "es": ["sentir"]}
+{"lema": "tražiti", "es": ["buscar", "pedir"]}
+{"lema": "pronaći", "es": ["encontrar"]}
+{"lema": "izgubiti", "es": ["perder"]}
+{"lema": "čuvati", "es": ["guardar", "cuidar", "vigilar"]}
+{"lema": "pomoći", "es": ["ayudar"]}
+{"lema": "popraviti", "es": ["reparar", "arreglar"]}
+{"lema": "pokvariti", "es": ["descomponer", "estropear", "arruinar"]}
+{"lema": "čistiti", "es": ["limpiar"]}
+{"lema": "prati", "es": ["lavar"]}
+{"lema": "rezati", "es": ["cortar", "rebanar"]}
+{"lema": "graditi", "es": ["construir"]}
+{"lema": "otvoriti", "es": ["abrir"]}
+{"lema": "zatvoriti", "es": ["cerrar"]}
+{"lema": "uključiti", "es": ["encender", "prender", "incluir"]}
+{"lema": "isključiti", "es": ["apagar", "excluir"]}
+{"lema": "ostaviti", "es": ["dejar"]}
+{"lema": "platiti", "es": ["pagar"]}
+{"lema": "prodati", "es": ["vender"]}
+{"lema": "posuditi", "es": ["prestar", "pedir prestado"]}
+{"lema": "vratiti", "es": ["devolver", "regresar"]}
+{"lema": "donijeti", "es": ["traer"]}
+{"lema": "primiti", "es": ["recibir", "aceptar", "tomar"]}
+{"lema": "odlučiti", "es": ["decidir"]}
+{"lema": "pokušati", "es": ["intentar", "tratar de"]}
+{"lema": "uspjeti", "es": ["lograr", "conseguir", "tener éxito"]}
+{"lema": "promijeniti", "es": ["cambiar"]}
+{"lema": "nastaviti", "es": ["continuar", "seguir"]}
+{"lema": "prestati", "es": ["dejar de", "parar"]}
+{"lema": "vježbati", "es": ["practicar", "hacer ejercicio", "entrenar"]}
+{"lema": "brojati", "es": ["contar"]}
+{"lema": "računati", "es": ["calcular", "contar con"]}
+{"lema": "morati", "es": ["deber", "tener que"]}
+{"lema": "smjeti", "es": ["poder (tener permiso)"]}
+{"lema": "kasniti", "es": ["llegar tarde", "retrasarse"]}
+{"lema": "ući", "es": ["entrar"]}
+{"lema": "lagan", "es": ["ligero", "liviano", "fácil"]}
+{"lema": "jednostavan", "es": ["sencillo", "simple", "fácil"]}
+{"lema": "složen", "es": ["complejo", "complicado"]}
+{"lema": "siguran", "es": ["seguro"]}
+{"lema": "opasan", "es": ["peligroso"]}
+{"lema": "čist", "es": ["limpio", "puro"]}
+{"lema": "prljav", "es": ["sucio"]}
+{"lema": "suh", "es": ["seco"]}
+{"lema": "mokar", "es": ["mojado"]}
+{"lema": "prazan", "es": ["vacío"]}
+{"lema": "otvoren", "es": ["abierto"]}
+{"lema": "zatvoren", "es": ["cerrado"]}
+{"lema": "širok", "es": ["ancho", "amplio"]}
+{"lema": "uzak", "es": ["estrecho", "angosto"]}
+{"lema": "dubok", "es": ["profundo"]}
+{"lema": "debeo", "es": ["grueso", "gordo"]}
+{"lema": "tanak", "es": ["delgado", "fino"]}
+{"lema": "oštar", "es": ["afilado", "filoso", "duro"]}
+{"lema": "gorak", "es": ["amargo"]}
+{"lema": "kiseo", "es": ["agrio", "ácido"]}
+{"lema": "slan", "es": ["salado"]}
+{"lema": "svijetao", "es": ["claro", "luminoso"]}
+{"lema": "taman", "es": ["oscuro"]}
+{"lema": "jasan", "es": ["claro", "evidente"]}
+{"lema": "koristan", "es": ["útil"]}
+{"lema": "moguć", "es": ["posible"]}
+{"lema": "potreban", "es": ["necesario"]}
+{"lema": "spreman", "es": ["listo", "preparado"]}
+{"lema": "ozbiljan", "es": ["serio"]}
+{"lema": "čudan", "es": ["raro", "extraño"]}
+{"lema": "običan", "es": ["común", "normal", "sencillo"]}
+{"lema": "poseban", "es": ["especial", "particular", "aparte"]}
+{"lema": "poznat", "es": ["conocido", "famoso"]}
+{"lema": "bogat", "es": ["rico"]}
+{"lema": "jeftin", "es": ["barato"]}
+{"lema": "gore", "es": ["arriba"]}
+{"lema": "dolje", "es": ["abajo"]}
+{"lema": "naprijed", "es": ["adelante"]}
+{"lema": "natrag", "es": ["atrás", "de vuelta"]}
+{"lema": "ovdje", "es": ["aquí", "acá"]}
+{"lema": "uskoro", "es": ["pronto", "dentro de poco"]}
+{"lema": "nedavno", "es": ["hace poco", "recientemente"]}
+{"lema": "rijetko", "es": ["rara vez", "casi nunca"]}
+{"lema": "obično", "es": ["normalmente", "por lo general"]}
+{"lema": "sigurno", "es": ["seguramente", "seguro", "con seguridad"]}
+{"lema": "vjerojatno", "es": ["probablemente"]}
+{"lema": "dovoljno", "es": ["suficiente", "bastante"]}
+{"lema": "između", "es": ["entre"]}
+{"lema": "ispod", "es": ["debajo de", "abajo de"]}
+{"lema": "iznad", "es": ["encima de", "sobre"]}
+{"lema": "prema", "es": ["hacia", "según"]}
+{"lema": "oko (prijedlog)", "es": ["alrededor de", "aproximadamente", "cerca de"]}
+{"lema": "protiv", "es": ["contra"]}
+{"lema": "zbog", "es": ["por", "debido a", "a causa de"]}
+{"lema": "nakon", "es": ["después de"]}
+{"lema": "prije", "es": ["antes", "antes de", "hace"]}
+{"lema": "ili", "es": ["o"]}
+{"lema": "nego", "es": ["que (en comparaciones)", "sino"]}
+{"lema": "pa", "es": ["así que", "y luego", "bueno"]}
+{"lema": "tisuća", "es": ["mil"]}
+{"lema": "bolest", "es": ["enfermedad"]}
+{"lema": "bol", "es": ["dolor"]}
+{"lema": "lijek", "es": ["medicina", "medicamento", "remedio"]}
+{"lema": "kašalj", "es": ["tos"]}
+{"lema": "prehlada", "es": ["resfriado", "resfrío"]}
+{"lema": "groznica", "es": ["fiebre"]}
+{"lema": "ozljeda", "es": ["lesión", "herida"]}
+{"lema": "pregled", "es": ["revisión", "chequeo", "examen"]}
+{"lema": "zdravlje", "es": ["salud"]}
+{"lema": "bolestan", "es": ["enfermo"]}
+{"lema": "boljeti", "es": ["doler"]}
+{"lema": "ozdraviti", "es": ["recuperarse", "sanar", "curarse"]}
+{"lema": "sastanak", "es": ["reunión", "cita"]}
+{"lema": "projekt", "es": ["proyecto"]}
+{"lema": "zadatak", "es": ["tarea", "ejercicio", "problema"]}
+{"lema": "ugovor", "es": ["contrato", "acuerdo"]}
+{"lema": "izvještaj", "es": ["informe", "reporte"]}
+{"lema": "prijava", "es": ["solicitud", "inscripción", "denuncia"]}
+{"lema": "potpis", "es": ["firma"]}
+{"lema": "dokument", "es": ["documento"]}
+{"lema": "pisač", "es": ["impresora"]}
+{"lema": "zaposlenik", "es": ["empleado"]}
+{"lema": "direktor", "es": ["director", "gerente", "jefe"]}
+{"lema": "odjel", "es": ["departamento", "sección"]}
+{"lema": "otkaz", "es": ["despido", "renuncia"]}
+{"lema": "sastati se", "es": ["reunirse", "verse"]}
+{"lema": "putovnica", "es": ["pasaporte"]}
+{"lema": "viza", "es": ["visa"]}
+{"lema": "prtljaga", "es": ["equipaje"]}
+{"lema": "peron", "es": ["andén"]}
+{"lema": "gorivo", "es": ["combustible", "gasolina"]}
+{"lema": "guma", "es": ["llanta", "neumático", "goma"]}
+{"lema": "kotač", "es": ["rueda"]}
+{"lema": "benzin", "es": ["gasolina", "nafta", "combustible"]}
+{"lema": "parkiralište", "es": ["estacionamiento"]}
+{"lema": "raskrižje", "es": ["cruce", "intersección"]}
+{"lema": "pješak", "es": ["peatón"]}
+{"lema": "dozvola", "es": ["permiso", "licencia (de conducir)"]}
+{"lema": "kazna", "es": ["multa", "castigo", "sanción"]}
+{"lema": "smjer", "es": ["dirección", "rumbo"]}
+{"lema": "štednjak", "es": ["estufa", "cocina"]}
+{"lema": "pećnica", "es": ["horno"]}
+{"lema": "hladnjak", "es": ["refrigerador"]}
+{"lema": "sudoper", "es": ["fregadero", "lavaplatos"]}
+{"lema": "lonac", "es": ["olla"]}
+{"lema": "poklopac", "es": ["tapa"]}
+{"lema": "daska", "es": ["tabla", "tabla de picar"]}
+{"lema": "ubrus", "es": ["servilleta"]}
+{"lema": "začin", "es": ["especia", "condimento"]}
+{"lema": "kvasac", "es": ["levadura"]}
+{"lema": "tijesto", "es": ["masa"]}
+{"lema": "okus", "es": ["sabor", "gusto"]}
+{"lema": "porcija", "es": ["porción", "ración"]}
+{"lema": "sastojak", "es": ["ingrediente"]}
+{"lema": "haljina", "es": ["vestido"]}
+{"lema": "suknja", "es": ["falda", "pollera"]}
+{"lema": "košulja", "es": ["camisa"]}
+{"lema": "džemper", "es": ["suéter"]}
+{"lema": "kaput", "es": ["abrigo"]}
+{"lema": "remen", "es": ["cinturón", "correa"]}
+{"lema": "torba", "es": ["bolsa", "bolso", "cartera"]}
+{"lema": "novčanik", "es": ["billetera", "cartera"]}
+{"lema": "popust", "es": ["descuento"]}
+{"lema": "veličina", "es": ["tamaño", "talla"]}
+{"lema": "poruka", "es": ["mensaje", "mensaje de texto"]}
+{"lema": "poziv", "es": ["llamada", "invitación"]}
+{"lema": "razgovor", "es": ["conversación", "plática", "entrevista"]}
+{"lema": "novinar", "es": ["periodista", "reportero"]}
+{"lema": "članak", "es": ["artículo"]}
+{"lema": "reklama", "es": ["anuncio", "comercial", "publicidad"]}
+{"lema": "mreža", "es": ["red"]}
+{"lema": "lozinka", "es": ["contraseña"]}
+{"lema": "zaposliti", "es": ["contratar", "dar empleo"]}
+{"lema": "parkirati", "es": ["estacionar"]}
+{"lema": "presjesti", "es": ["transbordar", "cambiar de tren o autobús"]}
+{"lema": "prijaviti", "es": ["denunciar", "registrar", "inscribirse"]}
+{"lema": "potpisati", "es": ["firmar"]}
+{"lema": "pržiti", "es": ["freír"]}
+{"lema": "kušati", "es": ["probar"]}
+{"lema": "probati", "es": ["probar", "probarse (ropa)"]}
+{"lema": "obući se", "es": ["vestirse"]}
+{"lema": "svući se", "es": ["desvestirse"]}
+{"lema": "žaliti se", "es": ["quejarse"]}
+{"lema": "preporučiti", "es": ["recomendar"]}
+{"lema": "otkazati", "es": ["cancelar", "suspender"]}
+{"lema": "odgoditi", "es": ["posponer", "aplazar"]}
+{"lema": "naplatiti", "es": ["cobrar"]}
+{"lema": "zamijeniti", "es": ["reemplazar", "cambiar", "intercambiar"]}
+{"lema": "zauzet", "es": ["ocupado"]}
+{"lema": "hitan", "es": ["urgente", "de emergencia"]}
+{"lema": "uredan", "es": ["ordenado", "prolijo"]}
+{"lema": "neuredan", "es": ["desordenado"]}
+{"lema": "začinjen", "es": ["condimentado", "sazonado", "picante"]}
+{"lema": "udoban", "es": ["cómodo", "acogedor"]}
+{"lema": "praktičan", "es": ["práctico"]}
+{"lema": "besplatan", "es": ["gratis", "gratuito"]}
+{"lema": "umjesto", "es": ["en lugar de", "en vez de"]}
+{"lema": "osim", "es": ["excepto", "además de", "aparte de"]}
+{"lema": "tijekom", "es": ["durante"]}
+{"lema": "čim", "es": ["en cuanto", "apenas"]}
+{"lema": "automobil", "es": ["auto", "automóvil", "carro"]}
+{"lema": "cvijet", "es": ["flor"]}
+{"lema": "dar", "es": ["regalo", "don"]}
+{"lema": "dodir", "es": ["toque", "contacto"]}
+{"lema": "dućan", "es": ["tienda"]}
+{"lema": "izlet", "es": ["excursión", "paseo"]}
+{"lema": "mobitel", "es": ["celular", "teléfono"]}
+{"lema": "odmor", "es": ["descanso", "vacaciones"]}
+{"lema": "papir", "es": ["papel"]}
+{"lema": "plakat", "es": ["cartel", "póster"]}
+{"lema": "podatak", "es": ["dato", "información"]}
+{"lema": "profesor", "es": ["profesor", "maestro"]}
+{"lema": "rad", "es": ["trabajo"]}
+{"lema": "slatkiš", "es": ["dulce", "golosina"]}
+{"lema": "stav", "es": ["opinión", "actitud"]}
+{"lema": "suprug", "es": ["esposo"]}
+{"lema": "šport", "es": ["deporte"]}
+{"lema": "tulum", "es": ["fiesta"]}
+{"lema": "ugao", "es": ["esquina", "ángulo"]}
+{"lema": "učenik", "es": ["alumno", "estudiante"]}
+{"lema": "vratar", "es": ["portero", "arquero"]}
+{"lema": "zaslon", "es": ["pantalla"]}
+{"lema": "završetak", "es": ["final", "fin"]}
+{"lema": "čamac", "es": ["bote", "lancha"]}
+{"lema": "otac", "es": ["padre", "papá"]}
+{"lema": "tata", "es": ["papá"]}
+{"lema": "kopno", "es": ["tierra firme", "continente"]}
+{"lema": "ime", "es": ["nombre"]}
+{"lema": "prezime", "es": ["apellido"]}
+{"lema": "pamćenje", "es": ["memoria"]}
+{"lema": "značenje", "es": ["significado"]}
+{"lema": "stanje", "es": ["estado", "situación"]}
+{"lema": "područje", "es": ["zona", "región", "área"]}
+{"lema": "sjedalo", "es": ["asiento"]}
+{"lema": "stopalo", "es": ["pie"]}
+{"lema": "staklo", "es": ["vidrio"]}
+{"lema": "stablo", "es": ["árbol"]}
+{"lema": "slovo", "es": ["letra"]}
+{"lema": "svjetlo", "es": ["luz"]}
+{"lema": "stoljeće", "es": ["siglo"]}
+{"lema": "sveučilište", "es": ["universidad"]}
+{"lema": "buka", "es": ["ruido"]}
+{"lema": "dama", "es": ["dama", "señora"]}
+{"lema": "hrana", "es": ["comida", "alimento"]}
+{"lema": "knjižnica", "es": ["biblioteca"]}
+{"lema": "konobarica", "es": ["mesera"]}
+{"lema": "majka", "es": ["madre", "mamá"]}
+{"lema": "mašta", "es": ["imaginación", "fantasía"]}
+{"lema": "nafta", "es": ["petróleo"]}
+{"lema": "narudžba", "es": ["pedido", "orden"]}
+{"lema": "olovka", "es": ["lápiz", "bolígrafo"]}
+{"lema": "pjevačica", "es": ["cantante"]}
+{"lema": "pogreška", "es": ["error", "equivocación"]}
+{"lema": "polovica", "es": ["mitad"]}
+{"lema": "potvrda", "es": ["certificado", "comprobante", "confirmación"]}
+{"lema": "priroda", "es": ["naturaleza", "campo"]}
+{"lema": "prostorija", "es": ["habitación", "sala", "cuarto"]}
+{"lema": "regija", "es": ["región"]}
+{"lema": "rođakinja", "es": ["prima", "pariente"]}
+{"lema": "salveta", "es": ["servilleta"]}
+{"lema": "sezona", "es": ["temporada", "estación"]}
+{"lema": "spisateljica", "es": ["escritora", "autora"]}
+{"lema": "sredina", "es": ["centro", "medio"]}
+{"lema": "stolica", "es": ["silla"]}
+{"lema": "stotina", "es": ["centenar", "cien"]}
+{"lema": "strana", "es": ["lado", "página"]}
+{"lema": "strina", "es": ["tía (esposa del hermano del padre)", "tía"]}
+{"lema": "susjeda", "es": ["vecina"]}
+{"lema": "tvrtka", "es": ["empresa", "compañía"]}
+{"lema": "ujna", "es": ["tía (esposa del hermano de la madre)", "tía"]}
+{"lema": "uputa", "es": ["instrucción", "indicación"]}
+{"lema": "vegetarijanka", "es": ["vegetariana"]}
+{"lema": "voda", "es": ["agua"]}
+{"lema": "zabava", "es": ["fiesta", "diversión", "entretenimiento"]}
+{"lema": "zbirka", "es": ["colección"]}
+{"lema": "životinja", "es": ["animal"]}
+{"lema": "temperatura", "es": ["temperatura", "fiebre"]}
+{"lema": "svjetiljka", "es": ["lámpara", "linterna"]}
+{"lema": "web-stranica", "es": ["sitio web", "página web"]}
+{"lema": "novost", "es": ["novedad", "noticia"]}
+{"lema": "susjedstvo", "es": ["vecindario", "barrio"]}
+{"lema": "odredište", "es": ["destino"]}
+{"lema": "momčad", "es": ["equipo"]}
+{"lema": "stvar", "es": ["cosa"]}
+{"lema": "noć", "es": ["noche"]}
+{"lema": "piletina", "es": ["pollo"]}
+{"lema": "ulaznica", "es": ["entrada", "boleto"]}
+{"lema": "umivaonik", "es": ["lavabo", "lavamanos"]}
+{"lema": "rječnik", "es": ["diccionario", "vocabulario"]}
+{"lema": "ulje", "es": ["aceite"]}
+{"lema": "kemijska", "es": ["bolígrafo", "pluma"]}
+{"lema": "brbljati", "es": ["charlar", "parlotear"]}
+{"lema": "buditi se", "es": ["despertarse"]}
+{"lema": "probuditi se", "es": ["despertarse"]}
+{"lema": "dijeliti", "es": ["dividir", "compartir"]}
+{"lema": "dobivati", "es": ["recibir", "obtener"]}
+{"lema": "dodavati", "es": ["agregar"]}
+{"lema": "donositi", "es": ["traer"]}
+{"lema": "dovršiti", "es": ["terminar", "acabar"]}
+{"lema": "govoriti", "es": ["hablar", "decir"]}
+{"lema": "imenovati", "es": ["nombrar", "designar"]}
+{"lema": "ispeći", "es": ["hornear", "asar"]}
+{"lema": "ispričati", "es": ["contar", "relatar"]}
+{"lema": "ispržiti", "es": ["freír"]}
+{"lema": "izabrati", "es": ["elegir", "escoger"]}
+{"lema": "izaći", "es": ["salir"]}
+{"lema": "izgraditi", "es": ["construir"]}
+{"lema": "izmiješati", "es": ["mezclar"]}
+{"lema": "izračunati", "es": ["calcular"]}
+{"lema": "javiti", "es": ["avisar", "informar"]}
+{"lema": "kišiti", "es": ["llover"]}
+{"lema": "krenuti", "es": ["ponerse en marcha", "salir", "arrancar"]}
+{"lema": "mahnuti", "es": ["saludar con la mano", "agitar la mano"]}
+{"lema": "metnuti", "es": ["poner"]}
+{"lema": "mijenjati", "es": ["cambiar"]}
+{"lema": "nalaziti", "es": ["encontrar"]}
+{"lema": "naći", "es": ["encontrar"]}
+{"lema": "naljutiti se", "es": ["enojarse"]}
+{"lema": "naplaćivati", "es": ["cobrar"]}
+{"lema": "napraviti", "es": ["hacer"]}
+{"lema": "narasti", "es": ["crecer"]}
+{"lema": "nasmijati se", "es": ["reírse", "echarse a reír"]}
+{"lema": "nastavljati", "es": ["continuar", "seguir"]}
+{"lema": "objašnjavati", "es": ["explicar"]}
+{"lema": "objesiti", "es": ["colgar"]}
+{"lema": "oblačiti se", "es": ["vestirse"]}
+{"lema": "obući", "es": ["ponerse", "vestir"]}
+{"lema": "odabrati", "es": ["elegir", "escoger"]}
+{"lema": "odgađati", "es": ["retrasar", "posponer"]}
+{"lema": "odgovarati", "es": ["responder", "contestar", "convenir"]}
+{"lema": "odlučivati", "es": ["decidir"]}
+{"lema": "odmarati se", "es": ["descansar"]}
+{"lema": "odrezati", "es": ["cortar"]}
+{"lema": "odsanjati", "es": ["soñar"]}
+{"lema": "odvesti", "es": ["llevar (en auto)", "llevarse"]}
+{"lema": "okretati", "es": ["girar", "dar vuelta"]}
+{"lema": "oporaviti se", "es": ["recuperarse"]}
+{"lema": "oprati", "es": ["lavar"]}
+{"lema": "osjetiti", "es": ["sentir"]}
+{"lema": "ostajati", "es": ["quedarse", "permanecer"]}
+{"lema": "ostavljati", "es": ["dejar"]}
+{"lema": "otići", "es": ["irse", "marcharse", "ir"]}
+{"lema": "otkazivati", "es": ["cancelar"]}
+{"lema": "otpjevati", "es": ["cantar"]}
+{"lema": "otputovati", "es": ["viajar", "partir", "irse de viaje"]}
+{"lema": "očistiti", "es": ["limpiar"]}
+{"lema": "plaćati", "es": ["pagar"]}
+{"lema": "plašiti se", "es": ["tener miedo", "asustarse"]}
+{"lema": "plesati", "es": ["bailar"]}
+{"lema": "podučavati", "es": ["enseñar"]}
+{"lema": "pokazivati", "es": ["mostrar"]}
+{"lema": "poletjeti", "es": ["despegar", "echar a volar"]}
+{"lema": "pomagati", "es": ["ayudar"]}
+{"lema": "ponavljati", "es": ["repetir"]}
+{"lema": "popravljati", "es": ["reparar", "arreglar"]}
+{"lema": "posjetiti", "es": ["visitar"]}
+{"lema": "posjećivati", "es": ["visitar"]}
+{"lema": "poslušati", "es": ["escuchar", "obedecer"]}
+{"lema": "posluživati", "es": ["servir"]}
+{"lema": "postajati", "es": ["volverse", "llegar a ser"]}
+{"lema": "posumnjati", "es": ["dudar", "sospechar"]}
+{"lema": "posuđivati", "es": ["prestar", "pedir prestado"]}
+{"lema": "potpisivati", "es": ["firmar"]}
+{"lema": "potražiti", "es": ["buscar"]}
+{"lema": "potrčati", "es": ["echar a correr", "correr"]}
+{"lema": "povesti", "es": ["llevar", "llevar consigo"]}
+{"lema": "povjerovati", "es": ["creer"]}
+{"lema": "povući", "es": ["tirar de", "jalar"]}
+{"lema": "pozdraviti", "es": ["saludar"]}
+{"lema": "pozvati", "es": ["llamar", "invitar"]}
+{"lema": "počinjati", "es": ["empezar", "comenzar"]}
+{"lema": "požaliti se", "es": ["quejarse"]}
+{"lema": "praviti", "es": ["hacer"]}
+{"lema": "prebrojati", "es": ["contar"]}
+{"lema": "predavati", "es": ["enseñar", "dar clases", "entregar"]}
+{"lema": "predstaviti", "es": ["presentar"]}
+{"lema": "prelaziti", "es": ["cruzar"]}
+{"lema": "preporučivati", "es": ["recomendar"]}
+{"lema": "pretraživati", "es": ["buscar"]}
+{"lema": "prijavljivati", "es": ["registrar", "inscribir", "denunciar"]}
+{"lema": "primati", "es": ["recibir"]}
+{"lema": "pristati", "es": ["aceptar", "estar de acuerdo"]}
+{"lema": "pričekati", "es": ["esperar"]}
+{"lema": "prodavati", "es": ["vender"]}
+{"lema": "razbiti", "es": ["romper", "quebrar"]}
+{"lema": "sagraditi", "es": ["construir"]}
+{"lema": "sačuvati", "es": ["guardar", "conservar"]}
+{"lema": "shvatiti", "es": ["entender", "darse cuenta"]}
+{"lema": "sijati", "es": ["brillar", "sembrar"]}
+{"lema": "sjesti", "es": ["sentarse"]}
+{"lema": "sjećati se", "es": ["recordar", "acordarse"]}
+{"lema": "sjeći", "es": ["cortar"]}
+{"lema": "skakati", "es": ["saltar"]}
+{"lema": "skuhati", "es": ["cocinar", "preparar"]}
+{"lema": "slikati", "es": ["fotografiar", "pintar"]}
+{"lema": "slomiti", "es": ["romper", "quebrar"]}
+{"lema": "smatrati", "es": ["considerar", "pensar"]}
+{"lema": "spasiti", "es": ["salvar", "rescatar"]}
+{"lema": "stanovati", "es": ["vivir", "residir"]}
+{"lema": "stati", "es": ["pararse", "detenerse"]}
+{"lema": "stavljati", "es": ["poner"]}
+{"lema": "studirati", "es": ["estudiar (en la universidad)"]}
+{"lema": "sviđati se", "es": ["gustar"]}
+{"lema": "sresti", "es": ["encontrarse con"]}
+{"lema": "telefonirati", "es": ["llamar por teléfono"]}
+{"lema": "ugasiti", "es": ["apagar"]}
+{"lema": "ulaziti", "es": ["entrar"]}
+{"lema": "upaliti", "es": ["encender", "prender"]}
+{"lema": "upitati", "es": ["preguntar"]}
+{"lema": "uspijevati", "es": ["lograr", "tener éxito"]}
+{"lema": "ustajati", "es": ["levantarse"]}
+{"lema": "uzimati", "es": ["tomar"]}
+{"lema": "vratiti se", "es": ["volver", "regresar"]}
+{"lema": "vraćati", "es": ["devolver", "regresar"]}
+{"lema": "zabrinuti se", "es": ["preocuparse"]}
+{"lema": "zadržati", "es": ["quedarse con", "conservar"]}
+{"lema": "zagrijavati", "es": ["calentar"]}
+{"lema": "zahvaljivati", "es": ["agradecer"]}
+{"lema": "zakasniti", "es": ["llegar tarde"]}
+{"lema": "zamišljati", "es": ["imaginar"]}
+{"lema": "zamrziti", "es": ["odiar", "llegar a odiar"]}
+{"lema": "zapamtiti", "es": ["recordar", "memorizar"]}
+{"lema": "zaplakati", "es": ["echarse a llorar", "llorar"]}
+{"lema": "zaplivati", "es": ["ponerse a nadar", "nadar"]}
+{"lema": "zapošljavati", "es": ["contratar"]}
+{"lema": "zatražiti", "es": ["pedir", "solicitar"]}
+{"lema": "zatvarati", "es": ["cerrar"]}
+{"lema": "zaustaviti", "es": ["detener", "parar"]}
+{"lema": "zavoljeti", "es": ["encariñarse con", "enamorarse de"]}
+{"lema": "završavati", "es": ["terminar", "acabar"]}
+{"lema": "zaželjeti", "es": ["desear"]}
+{"lema": "znati", "es": ["saber", "conocer"]}
+{"lema": "činiti se", "es": ["parecer"]}
+{"lema": "štedjeti", "es": ["ahorrar"]}
+{"lema": "bistar", "es": ["claro", "despierto (listo)"]}
+{"lema": "bučan", "es": ["ruidoso"]}
+{"lema": "dobrodošao", "es": ["bienvenido"]}
+{"lema": "dopušten", "es": ["permitido"]}
+{"lema": "dosadan", "es": ["aburrido"]}
+{"lema": "dostupan", "es": ["disponible"]}
+{"lema": "drag", "es": ["querido", "simpático"]}
+{"lema": "fin", "es": ["fino", "amable", "agradable"]}
+{"lema": "golem", "es": ["enorme", "gigante"]}
+{"lema": "iskren", "es": ["sincero", "honesto"]}
+{"lema": "izvrstan", "es": ["excelente"]}
+{"lema": "kasan", "es": ["tardío"]}
+{"lema": "kompliciran", "es": ["complicado"]}
+{"lema": "krasan", "es": ["precioso", "hermoso"]}
+{"lema": "kriv", "es": ["equivocado", "culpable"]}
+{"lema": "mračan", "es": ["oscuro"]}
+{"lema": "mršav", "es": ["flaco", "delgado"]}
+{"lema": "nizak", "es": ["bajo"]}
+{"lema": "nužan", "es": ["necesario"]}
+{"lema": "ogroman", "es": ["enorme"]}
+{"lema": "pogrešan", "es": ["equivocado", "incorrecto"]}
+{"lema": "prekrasan", "es": ["precioso", "bellísimo"]}
+{"lema": "preplašen", "es": ["asustado"]}
+{"lema": "radostan", "es": ["alegre"]}
+{"lema": "ružan", "es": ["feo"]}
+{"lema": "slab", "es": ["débil"]}
+{"lema": "slavan", "es": ["famoso"]}
+{"lema": "snažan", "es": ["fuerte", "poderoso"]}
+{"lema": "suvremen", "es": ["moderno", "contemporáneo"]}
+{"lema": "tih", "es": ["silencioso", "callado"]}
+{"lema": "uplašen", "es": ["asustado"]}
+{"lema": "zadovoljan", "es": ["contento", "satisfecho"]}
+{"lema": "sam", "es": ["solo"]}
+{"lema": "drukčiji", "es": ["diferente", "distinto"]}
+{"lema": "desni", "es": ["derecho"]}
+{"lema": "lijevi", "es": ["izquierdo"]}
+{"lema": "jedini", "es": ["único"]}
+{"lema": "ostali", "es": ["demás", "restante"]}
+{"lema": "prijašnji", "es": ["anterior", "antiguo"]}
+{"lema": "obilazak", "es": ["recorrido", "visita turística"]}
+{"lema": "hlače", "es": ["pantalones"]}
+{"lema": "dobro", "es": ["bien"]}
+{"lema": "gotovo", "es": ["casi"]}
+{"lema": "konačno", "es": ["finalmente", "por fin"]}
+{"lema": "ponovno", "es": ["otra vez", "de nuevo"]}
+{"lema": "sporo", "es": ["lentamente", "despacio"]}
+{"lema": "stvarno", "es": ["de verdad", "realmente"]}
+{"lema": "točno", "es": ["exactamente", "justo"]}
+{"lema": "previše", "es": ["demasiado"]}
+{"lema": "vrlo", "es": ["muy"]}
+{"lema": "upravo", "es": ["justo", "ahora mismo"]}
+{"lema": "još", "es": ["todavía", "aún", "más"]}
+{"lema": "tada", "es": ["entonces", "en ese momento"]}
+{"lema": "tako", "es": ["así", "tan"]}
+{"lema": "tu", "es": ["aquí", "acá"]}
+{"lema": "ondje", "es": ["allí", "allá"]}
+{"lema": "gdje", "es": ["dónde"]}
+{"lema": "kako", "es": ["cómo"]}
+{"lema": "koliko", "es": ["cuánto", "cuántos"]}
+{"lema": "zašto", "es": ["por qué"]}
+{"lema": "noćas", "es": ["esta noche", "anoche"]}
+{"lema": "kući", "es": ["a casa"]}
+{"lema": "već", "es": ["ya"]}
+{"lema": "nekoliko", "es": ["algunos", "unos cuantos", "varios"]}
+{"lema": "super", "es": ["genial", "súper"]}
+{"lema": "iza", "es": ["detrás de", "después de"]}
+{"lema": "izvan", "es": ["fuera de"]}
+{"lema": "među", "es": ["entre"]}
+{"lema": "niti", "es": ["ni"]}
+{"lema": "bok", "es": ["hola", "chao"]}
+{"lema": "hvala", "es": ["gracias"]}
+{"lema": "molim", "es": ["por favor", "de nada", "¿perdón?"]}
+{"lema": "zdravo", "es": ["hola"]}
+{"lema": "dobar dan", "es": ["buenos días", "buenas tardes", "hola"]}
+{"lema": "dobro došli", "es": ["bienvenidos"]}
+{"lema": "medicinska sestra", "es": ["enfermera"]}
+{"lema": "godišnje doba", "es": ["estación del año"]}
+{"lema": "za vrijeme", "es": ["durante"]}
+{"lema": "bolji", "es": ["mejor"]}
+{"lema": "dvije", "es": ["dos"]}
+{"lema": "svi", "es": ["todos"]}
+{"lema": "sve", "es": ["todo"]}
+{"lema": "one", "es": ["ellas"]}
+{"lema": "nju", "es": ["la", "a ella"]}
+{"lema": "joj", "es": ["le", "a ella"]}
+{"lema": "ovo", "es": ["esto"]}
+{"lema": "vijesti", "es": ["noticias"]}
+{"lema": "novosti", "es": ["novedades", "noticias"]}
+{"lema": "sad", "es": ["ahora"]}
+{"lema": "sa", "es": ["con"]}
+{"lema": "kad", "es": ["cuando"]}
+{"lema": "šta", "es": ["qué"]}
+{"lema": "narančast", "es": ["anaranjado", "naranja"]}
+{"lema": "porasti", "es": ["crecer", "aumentar"]}
+{"lema": "zasjati", "es": ["brillar", "empezar a brillar"]}
+{"lema": "odsvirati", "es": ["tocar"]}
+{"lema": "prošetati", "es": ["dar un paseo"]}
+{"lema": "zazvučati", "es": ["sonar"]}
+{"lema": "proživjeti", "es": ["vivir", "pasar por"]}
+{"lema": "odmarati", "es": ["descansar"]}
+{"lema": "odmoriti se", "es": ["descansar", "tomar un descanso"]}
+{"lema": "pobjeđivati", "es": ["ganar", "vencer"]}
+{"lema": "skretati", "es": ["girar", "doblar"]}
+{"lema": "motati", "es": ["enrollar", "enredar"]}
+{"lema": "stizati", "es": ["llegar"]}
+{"lema": "zalaziti", "es": ["ponerse (el sol)", "bajar"]}
+{"lema": "javljati se", "es": ["comunicarse", "contestar"]}
+{"lema": "javljati", "es": ["avisar", "informar"]}
+{"lema": "nazivati", "es": ["llamar", "nombrar"]}
+{"lema": "dogovarati", "es": ["acordar", "ponerse de acuerdo"]}
+{"lema": "upoznavati", "es": ["conocer", "ir conociendo"]}
+{"lema": "uplašiti se", "es": ["asustarse"]}
+{"lema": "razmisliti", "es": ["pensarlo", "considerar"]}
+{"lema": "pronalaziti", "es": ["encontrar"]}
+{"lema": "kvariti", "es": ["estropear", "descomponer"]}
+{"lema": "razrezati", "es": ["cortar en pedazos"]}
+{"lema": "uključivati", "es": ["encender", "incluir"]}
+{"lema": "isključivati", "es": ["apagar", "excluir"]}
+{"lema": "pokušavati", "es": ["intentar"]}
+{"lema": "prestajati", "es": ["dejar de", "parar"]}
+{"lema": "uvježbati", "es": ["practicar", "dominar"]}
+{"lema": "izbrojati", "es": ["contar"]}
+{"lema": "ozdravljati", "es": ["recuperarse", "sanar"]}
+{"lema": "sastajati se", "es": ["reunirse", "verse"]}
+{"lema": "presjedati", "es": ["transbordar", "cambiar de tren o autobús"]}
+{"lema": "svlačiti se", "es": ["desvestirse"]}
+{"lema": "zamjenjivati", "es": ["reemplazar", "intercambiar"]}
+{"lema": "dovršavati", "es": ["terminar"]}
+{"lema": "metati", "es": ["poner"]}
+{"lema": "vješati", "es": ["colgar"]}
+{"lema": "oblačiti", "es": ["vestir"]}
+{"lema": "odabirati", "es": ["elegir"]}
+{"lema": "odvoziti", "es": ["llevar (en auto)", "llevarse"]}
+{"lema": "oporavljati se", "es": ["recuperarse"]}
+{"lema": "odlaziti", "es": ["irse", "marcharse"]}
+{"lema": "podučiti", "es": ["enseñar"]}
+{"lema": "pozivati", "es": ["llamar", "invitar"]}
+{"lema": "predati", "es": ["entregar"]}
+{"lema": "predstavljati", "es": ["presentar", "representar"]}
+{"lema": "pretražiti", "es": ["buscar"]}
+{"lema": "pristajati", "es": ["aceptar", "quedar bien (ropa)"]}
+{"lema": "razbijati", "es": ["romper", "quebrar"]}
+{"lema": "shvaćati", "es": ["entender"]}
+{"lema": "sjedati", "es": ["sentarse"]}
+{"lema": "odsjeći", "es": ["cortar"]}
+{"lema": "naslikati", "es": ["pintar"]}
+{"lema": "lomiti", "es": ["romper", "quebrar"]}
+{"lema": "spašavati", "es": ["salvar", "rescatar"]}
+{"lema": "svidjeti se", "es": ["gustar"]}
+{"lema": "sretati", "es": ["encontrarse con"]}
+{"lema": "gasiti", "es": ["apagar"]}
+{"lema": "paliti", "es": ["encender", "prender"]}
+{"lema": "vraćati se", "es": ["volver", "regresar"]}
+{"lema": "zadržavati", "es": ["conservar", "retener"]}
+{"lema": "zaustavljati", "es": ["detener", "parar"]}
+{"lema": "uštedjeti", "es": ["ahorrar"]}
+{"lema": "zaboljeti", "es": ["empezar a doler", "doler"]}
+{"lema": "obrisati", "es": ["limpiar", "borrar", "eliminar"]}
+{"lema": "odigrati", "es": ["jugar"]}
+{"lema": "pomisliti", "es": ["pensar"]}
+{"lema": "porazgovarati", "es": ["conversar", "platicar"]}
+{"lema": "odspavati", "es": ["dormir", "echarse una siesta"]}
+{"lema": "našaliti se", "es": ["bromear"]}
+{"lema": "otplesati", "es": ["bailar"]}
+{"lema": "saznati", "es": ["enterarse", "averiguar"]}
+{"lema": "saznavati", "es": ["enterarse", "ir averiguando"]}
+{"lema": "ponijeti", "es": ["llevar", "llevarse"]}
+{"lema": "prohodati", "es": ["empezar a caminar"]}
+{"lema": "zalajati", "es": ["ladrar"]}
+{"lema": "zaploviti", "es": ["zarpar"]}
+{"lema": "pljesnuti", "es": ["aplaudir", "dar una palmada"]}
+{"lema": "svoj", "es": ["propio", "su propio"]}
+{"lema": "kakav", "es": ["qué tipo de", "cómo (es)"]}
+{"lema": "prepisati", "es": ["copiar", "transcribir"]}
+{"lema": "zapisati", "es": ["anotar", "apuntar"]}
+{"lema": "opisati", "es": ["describir"]}
+{"lema": "odjeća", "es": ["ropa"]}
+{"lema": "prijevoz", "es": ["transporte"]}
+{"lema": "zbor", "es": ["coro"]}
+{"lema": "fan", "es": ["fan", "aficionado"]}
+{"lema": "jogurt", "es": ["yogur"]}
+{"lema": "časopis", "es": ["revista"]}
+{"lema": "roman", "es": ["novela"]}
+{"lema": "crtić", "es": ["caricatura", "dibujos animados"]}
+{"lema": "legenda", "es": ["leyenda"]}
+{"lema": "foka", "es": ["foca"]}
+{"lema": "jelo", "es": ["plato", "comida"]}
+{"lema": "izvoliti", "es": ["aquí tiene", "adelante"]}
+{"lema": "oprostiti", "es": ["perdonar", "disculpar"]}
+{"lema": "postojati", "es": ["existir", "haber"]}
+{"lema": "crtati", "es": ["dibujar"]}
+{"lema": "večerati", "es": ["cenar"]}
+{"lema": "šutjeti", "es": ["callar", "quedarse callado"]}
+{"lema": "organski", "es": ["orgánico"]}
+{"lema": "ovako", "es": ["así", "de esta manera"]}
+{"lema": "tek", "es": ["apenas", "recién", "solo"]}
+{"lema": "dobar tek", "es": ["buen provecho"]}
+{"lema": "halo", "es": ["¿aló?", "¿bueno? (al teléfono)"]}
+{"lema": "doviđenja", "es": ["adiós", "hasta luego"]}
+{"lema": "moga", "es": ["de mi", "mi"]}
+{"lema": "mog", "es": ["de mi", "mi"]}
+{"lema": "mom", "es": ["a mi", "mi"]}
+{"lema": "jednog", "es": ["de uno", "uno"]}
+{"lema": "jednom", "es": ["a uno", "una vez"]}
+{"lema": "nemojte", "es": ["no (prohibición, ustedes o usted)"]}
+{"lema": "duže", "es": ["más tiempo", "más largo"]}
+{"lema": "pretežak", "es": ["demasiado difícil", "demasiado pesado"]}
+{"lema": "nigdje", "es": ["en ninguna parte"]}
+{"lema": "negdje", "es": ["en algún lugar"]}
+{"lema": "svugdje", "es": ["en todas partes"]}
+{"lema": "posvuda", "es": ["por todos lados"]}
+{"lema": "nikamo", "es": ["a ninguna parte"]}
+{"lema": "ovamo", "es": ["(hacia) acá"]}
+{"lema": "onamo", "es": ["(hacia) allá"]}
+{"lema": "odavde", "es": ["de aquí"]}
+{"lema": "odande", "es": ["de allí"]}
+{"lema": "nazad", "es": ["atrás", "de vuelta"]}
+{"lema": "izvana", "es": ["desde afuera"]}
+{"lema": "okolo", "es": ["alrededor"]}
+{"lema": "prekjučer", "es": ["anteayer"]}
+{"lema": "prekosutra", "es": ["pasado mañana"]}
+{"lema": "sinoć", "es": ["anoche"]}
+{"lema": "popodne", "es": ["por la tarde"]}
+{"lema": "uvečer", "es": ["por la noche"]}
+{"lema": "oduvijek", "es": ["desde siempre"]}
+{"lema": "dosad", "es": ["hasta ahora"]}
+{"lema": "odjednom", "es": ["de repente"]}
+{"lema": "ubrzo", "es": ["poco después", "pronto"]}
+{"lema": "istovremeno", "es": ["al mismo tiempo"]}
+{"lema": "redovito", "es": ["regularmente"]}
+{"lema": "svakodnevno", "es": ["a diario"]}
+{"lema": "tjedno", "es": ["semanalmente"]}
+{"lema": "mjesečno", "es": ["mensualmente"]}
+{"lema": "godišnje", "es": ["anualmente", "al año"]}
+{"lema": "dvaput", "es": ["dos veces"]}
+{"lema": "barem", "es": ["al menos", "por lo menos"]}
+{"lema": "jedva", "es": ["apenas"]}
+{"lema": "čak", "es": ["incluso", "hasta"]}
+{"lema": "otprilike", "es": ["aproximadamente"]}
+{"lema": "uglavnom", "es": ["en general", "principalmente"]}
+{"lema": "posebno", "es": ["especialmente"]}
+{"lema": "uopće", "es": ["en absoluto", "para nada"]}
+{"lema": "zapravo", "es": ["en realidad"]}
+{"lema": "valjda", "es": ["supongo", "seguramente"]}
+{"lema": "navodno", "es": ["supuestamente"]}
+{"lema": "nikako", "es": ["de ninguna manera"]}
+{"lema": "svakako", "es": ["sin falta", "por supuesto"]}
+{"lema": "manje", "es": ["menos"]}
+{"lema": "više", "es": ["más"]}
+{"lema": "najviše", "es": ["lo más", "la mayor parte"]}
+{"lema": "najmanje", "es": ["lo menos"]}
+{"lema": "prilično", "es": ["bastante"]}
+{"lema": "potpuno", "es": ["completamente"]}
+{"lema": "djelomično", "es": ["en parte", "parcialmente"]}
+{"lema": "pod (prijedlog)", "es": ["debajo de", "bajo"]}
+{"lema": "nad", "es": ["sobre", "encima de"]}
+{"lema": "pred", "es": ["delante de"]}
+{"lema": "po", "es": ["por", "a lo largo de", "según"]}
+{"lema": "uz", "es": ["junto a", "con", "subiendo por"]}
+{"lema": "niz", "es": ["bajando por"]}
+{"lema": "nasred", "es": ["en medio de"]}
+{"lema": "nasuprot", "es": ["enfrente de"]}
+{"lema": "unatoč", "es": ["a pesar de"]}
+{"lema": "usprkos", "es": ["a pesar de"]}
+{"lema": "radi", "es": ["por", "por el bien de"]}
+{"lema": "poput", "es": ["como"]}
+{"lema": "duž", "es": ["a lo largo de"]}
+{"lema": "mimo", "es": ["al lado de", "pasando por"]}
+{"lema": "krajem", "es": ["a fines de"]}
+{"lema": "početkom", "es": ["a principios de"]}
+{"lema": "sredinom", "es": ["a mediados de"]}
+{"lema": "blizu (prijedlog)", "es": ["cerca de"]}
+{"lema": "da (veznik)", "es": ["que"]}
+{"lema": "te", "es": ["y"]}
+{"lema": "no", "es": ["pero"]}
+{"lema": "stoga", "es": ["por eso", "por lo tanto"]}
+{"lema": "premda", "es": ["aunque"]}
+{"lema": "ukoliko", "es": ["si", "en caso de que"]}
+{"lema": "otkako", "es": ["desde que"]}
+{"lema": "budući da", "es": ["ya que", "puesto que"]}
+{"lema": "odnosno", "es": ["es decir", "respectivamente"]}
+{"lema": "nego što", "es": ["que (en comparaciones)"]}
+{"lema": "kao da", "es": ["como si"]}
+{"lema": "evo", "es": ["aquí está", "aquí tienes"]}
+{"lema": "eto", "es": ["ahí está", "ya ves"]}
+{"lema": "eno", "es": ["allá está"]}
+{"lema": "neka", "es": ["que (+ subjuntivo)", "deja que"]}
+{"lema": "pak", "es": ["en cambio", "sin embargo"]}
+{"lema": "dobro jutro", "es": ["buenos días"]}
+{"lema": "dobra večer", "es": ["buenas noches (saludo)", "buenas tardes"]}
+{"lema": "laku noć", "es": ["buenas noches (despedida)"]}
+{"lema": "vidimo se", "es": ["nos vemos"]}
+{"lema": "drago mi je", "es": ["mucho gusto", "encantado"]}
+{"lema": "kako si", "es": ["¿cómo estás?"]}
+{"lema": "kako ste", "es": ["¿cómo está?", "¿cómo están?"]}
+{"lema": "žao mi je", "es": ["lo siento"]}
+{"lema": "nema na čemu", "es": ["de nada"]}
+{"lema": "oprostite", "es": ["disculpe", "perdón"]}
+{"lema": "izvolite", "es": ["aquí tiene", "adelante"]}
+{"lema": "sretno", "es": ["suerte", "buena suerte"]}
+{"lema": "čestitam", "es": ["felicidades"]}
+{"lema": "sretan rođendan", "es": ["feliz cumpleaños"]}
+{"lema": "sretan put", "es": ["buen viaje"]}
+{"lema": "živjeli", "es": ["salud"]}
+{"lema": "nema problema", "es": ["no hay problema"]}
+{"lema": "u redu", "es": ["está bien", "de acuerdo"]}
+{"lema": "samo malo", "es": ["un momento"]}
+{"lema": "nema veze", "es": ["no importa"]}
+{"lema": "hvala lijepa", "es": ["muchas gracias"]}
+{"lema": "na zdravlje", "es": ["salud"]}
+{"lema": "ne razumijem", "es": ["no entiendo"]}
+{"lema": "koliko je sati", "es": ["¿qué hora es?"]}
+{"lema": "koliko košta", "es": ["¿cuánto cuesta?"]}
+{"lema": "kako se zoveš", "es": ["¿cómo te llamas?"]}
+{"lema": "možete li ponoviti", "es": ["¿puede repetirlo?"]}
+{"lema": "govorite li engleski", "es": ["¿habla inglés?"]}
+{"lema": "polako molim", "es": ["más despacio, por favor"]}
+{"lema": "što znači", "es": ["¿qué significa?"]}
+{"lema": "nula", "es": ["cero"]}
+{"lema": "trinaest", "es": ["trece"]}
+{"lema": "četrnaest", "es": ["catorce"]}
+{"lema": "petnaest", "es": ["quince"]}
+{"lema": "šesnaest", "es": ["dieciséis"]}
+{"lema": "sedamnaest", "es": ["diecisiete"]}
+{"lema": "osamnaest", "es": ["dieciocho"]}
+{"lema": "devetnaest", "es": ["diecinueve"]}
+{"lema": "četrdeset", "es": ["cuarenta"]}
+{"lema": "pedeset", "es": ["cincuenta"]}
+{"lema": "šezdeset", "es": ["sesenta"]}
+{"lema": "sedamdeset", "es": ["setenta"]}
+{"lema": "osamdeset", "es": ["ochenta"]}
+{"lema": "devedeset", "es": ["noventa"]}
+{"lema": "dvjesto", "es": ["doscientos"]}
+{"lema": "tristo", "es": ["trescientos"]}
+{"lema": "četvrti", "es": ["cuarto"]}
+{"lema": "peti", "es": ["quinto"]}
+{"lema": "šesti", "es": ["sexto"]}
+{"lema": "sedmi", "es": ["séptimo"]}
+{"lema": "osmi", "es": ["octavo"]}
+{"lema": "deveti", "es": ["noveno"]}
+{"lema": "deseti", "es": ["décimo"]}
+{"lema": "dvadeseti", "es": ["vigésimo"]}
+{"lema": "oboje", "es": ["ambos", "los dos"]}
+{"lema": "nitko", "es": ["nadie"]}
+{"lema": "nijedan", "es": ["ninguno"]}
+{"lema": "nikakav", "es": ["ningún tipo de"]}
+{"lema": "ničiji", "es": ["de nadie"]}
+{"lema": "svatko", "es": ["todos", "cada uno"]}
+{"lema": "svašta", "es": ["de todo"]}
+{"lema": "itko", "es": ["alguien", "cualquiera"]}
+{"lema": "išta", "es": ["algo", "cualquier cosa"]}
+{"lema": "sebe", "es": ["sí mismo", "a sí mismo"]}
+{"lema": "takav", "es": ["tal", "así"]}
+{"lema": "ovakav", "es": ["así", "como este"]}
+{"lema": "onakav", "es": ["así", "como aquel"]}
+{"lema": "siv", "es": ["gris"]}
+{"lema": "smeđ", "es": ["café", "marrón"]}
+{"lema": "ljubičast", "es": ["morado", "violeta"]}
+{"lema": "ružičast", "es": ["rosa", "rosado"]}
+{"lema": "zlatan", "es": ["dorado", "de oro"]}
+{"lema": "srebrn", "es": ["plateado", "de plata"]}
+{"lema": "tamnoplav", "es": ["azul oscuro"]}
+{"lema": "okrugao", "es": ["redondo"]}
+{"lema": "četvrtast", "es": ["cuadrado"]}
+{"lema": "ravan", "es": ["plano", "recto"]}
+{"lema": "gladak", "es": ["liso", "suave"]}
+{"lema": "tup", "es": ["sin filo", "desafilado"]}
+{"lema": "lak", "es": ["ligero", "fácil"]}
+{"lema": "vruć", "es": ["caliente"]}
+{"lema": "mlak", "es": ["tibio"]}
+{"lema": "prohladan", "es": ["fresco"]}
+{"lema": "leden", "es": ["helado"]}
+{"lema": "sunčan", "es": ["soleado"]}
+{"lema": "oblačan", "es": ["nublado"]}
+{"lema": "vjetrovit", "es": ["ventoso"]}
+{"lema": "kišovit", "es": ["lluvioso"]}
+{"lema": "snježan", "es": ["nevado"]}
+{"lema": "strpljiv", "es": ["paciente"]}
+{"lema": "nestrpljiv", "es": ["impaciente"]}
+{"lema": "ponosan", "es": ["orgulloso"]}
+{"lema": "ljubomoran", "es": ["celoso"]}
+{"lema": "sramežljiv", "es": ["tímido"]}
+{"lema": "lijen", "es": ["flojo", "perezoso"]}
+{"lema": "uporan", "es": ["persistente", "constante"]}
+{"lema": "tvrdoglav", "es": ["terco"]}
+{"lema": "pristojan", "es": ["educado", "cortés"]}
+{"lema": "nervozan", "es": ["nervioso"]}
+{"lema": "uzbuđen", "es": ["emocionado"]}
+{"lema": "razočaran", "es": ["decepcionado"]}
+{"lema": "iznenađen", "es": ["sorprendido"]}
+{"lema": "zbunjen", "es": ["confundido"]}
+{"lema": "znatiželjan", "es": ["curioso"]}
+{"lema": "posljednji", "es": ["último"]}
+{"lema": "roza", "es": ["rosa", "rosado"]}
+{"lema": "trbuh", "es": ["panza", "vientre", "barriga"]}
+{"lema": "prsa", "es": ["pecho"]}
+{"lema": "grlo", "es": ["garganta"]}
+{"lema": "brada", "es": ["barbilla", "barba"]}
+{"lema": "obraz", "es": ["mejilla"]}
+{"lema": "usna", "es": ["labio"]}
+{"lema": "obrva", "es": ["ceja"]}
+{"lema": "trepavica", "es": ["pestaña"]}
+{"lema": "nokat", "es": ["uña"]}
+{"lema": "lakat", "es": ["codo"]}
+{"lema": "gležanj", "es": ["tobillo"]}
+{"lema": "dlan", "es": ["palma de la mano"]}
+{"lema": "palac", "es": ["pulgar"]}
+{"lema": "peta", "es": ["talón"]}
+{"lema": "bok (dio tijela)", "es": ["costado", "cadera"]}
+{"lema": "mišić", "es": ["músculo"]}
+{"lema": "želudac", "es": ["estómago"]}
+{"lema": "pluća", "es": ["pulmones"]}
+{"lema": "kralježnica", "es": ["columna vertebral"]}
+{"lema": "hodnik", "es": ["pasillo"]}
+{"lema": "stubište", "es": ["escalera"]}
+{"lema": "dizalo", "es": ["elevador", "ascensor"]}
+{"lema": "terasa", "es": ["terraza"]}
+{"lema": "dvorište", "es": ["patio"]}
+{"lema": "tuš", "es": ["regadera", "ducha"]}
+{"lema": "kada (imenica)", "es": ["tina", "bañera"]}
+{"lema": "zahod", "es": ["baño", "inodoro"]}
+{"lema": "ogledalo", "es": ["espejo"]}
+{"lema": "tepih", "es": ["tapete", "alfombra"]}
+{"lema": "deka", "es": ["cobija", "manta"]}
+{"lema": "plahta", "es": ["sábana"]}
+{"lema": "madrac", "es": ["colchón"]}
+{"lema": "ladica", "es": ["cajón"]}
+{"lema": "perilica", "es": ["lavadora"]}
+{"lema": "usisavač", "es": ["aspiradora"]}
+{"lema": "žarulja", "es": ["foco", "bombilla"]}
+{"lema": "utičnica", "es": ["enchufe", "tomacorriente"]}
+{"lema": "prekidač", "es": ["interruptor"]}
+{"lema": "brava", "es": ["cerradura"]}
+{"lema": "strop", "es": ["techo"]}
+{"lema": "grijanje", "es": ["calefacción"]}
+{"lema": "smeće", "es": ["basura"]}
+{"lema": "kanta", "es": ["bote de basura", "cubeta"]}
+{"lema": "maslac", "es": ["mantequilla"]}
+{"lema": "vrhnje", "es": ["crema"]}
+{"lema": "med", "es": ["miel"]}
+{"lema": "papar", "es": ["pimienta"]}
+{"lema": "ocat", "es": ["vinagre"]}
+{"lema": "češnjak", "es": ["ajo"]}
+{"lema": "krastavac", "es": ["pepino"]}
+{"lema": "paprika", "es": ["pimiento", "chile morrón"]}
+{"lema": "gljiva", "es": ["hongo", "champiñón"]}
+{"lema": "grašak", "es": ["chícharos", "arvejas"]}
+{"lema": "lubenica", "es": ["sandía"]}
+{"lema": "dinja", "es": ["melón"]}
+{"lema": "marelica", "es": ["chabacano", "damasco"]}
+{"lema": "borovnica", "es": ["arándano"]}
+{"lema": "smokva", "es": ["higo"]}
+{"lema": "badem", "es": ["almendra"]}
+{"lema": "kobasica", "es": ["salchicha", "embutido"]}
+{"lema": "šunka", "es": ["jamón"]}
+{"lema": "govedina", "es": ["carne de res"]}
+{"lema": "tuna", "es": ["atún"]}
+{"lema": "keks", "es": ["galleta"]}
+{"lema": "napojnica", "es": ["propina"]}
+{"lema": "predjelo", "es": ["entrada", "entremés"]}
+{"lema": "desert", "es": ["postre"]}
+{"lema": "prilog", "es": ["guarnición", "adverbio"]}
+{"lema": "blagajna", "es": ["caja"]}
+{"lema": "košarica", "es": ["canasta", "cesta"]}
+{"lema": "traperice", "es": ["jeans"]}
+{"lema": "odijelo", "es": ["traje"]}
+{"lema": "kravata", "es": ["corbata"]}
+{"lema": "rukavica", "es": ["guante"]}
+{"lema": "čizma", "es": ["bota"]}
+{"lema": "tenisica", "es": ["tenis", "zapato deportivo"]}
+{"lema": "sandala", "es": ["sandalia"]}
+{"lema": "papuča", "es": ["pantufla"]}
+{"lema": "pidžama", "es": ["pijama"]}
+{"lema": "naočale", "es": ["lentes", "anteojos"]}
+{"lema": "prsten", "es": ["anillo"]}
+{"lema": "ogrlica", "es": ["collar"]}
+{"lema": "naušnica", "es": ["arete", "arracada"]}
+{"lema": "ruksak", "es": ["mochila"]}
+{"lema": "rublje", "es": ["ropa para lavar", "ropa interior"]}
+{"lema": "proba", "es": ["prueba (de ropa)", "ensayo"]}
+{"lema": "sako", "es": ["saco"]}
+{"lema": "grmljavina", "es": ["truenos"]}
+{"lema": "tuča", "es": ["granizo"]}
+{"lema": "mraz", "es": ["helada"]}
+{"lema": "duga", "es": ["arcoíris"]}
+{"lema": "vrućina", "es": ["calor"]}
+{"lema": "hladnoća", "es": ["frío"]}
+{"lema": "vlaga", "es": ["humedad"]}
+{"lema": "bura", "es": ["bura (viento frío del noreste)"]}
+{"lema": "jugo", "es": ["viento del sur (jugo croata)"]}
+{"lema": "prognoza", "es": ["pronóstico"]}
+{"lema": "sjever", "es": ["norte"]}
+{"lema": "jug", "es": ["sur"]}
+{"lema": "istok", "es": ["este"]}
+{"lema": "zapad", "es": ["oeste"]}
+{"lema": "dolina", "es": ["valle"]}
+{"lema": "uvala", "es": ["cala", "ensenada"]}
+{"lema": "zaljev", "es": ["bahía", "golfo"]}
+{"lema": "poluotok", "es": ["península"]}
+{"lema": "špilja", "es": ["cueva"]}
+{"lema": "potok", "es": ["arroyo"]}
+{"lema": "vodopad", "es": ["cascada", "catarata"]}
+{"lema": "izvor", "es": ["manantial", "fuente"]}
+{"lema": "pustinja", "es": ["desierto"]}
+{"lema": "granica", "es": ["frontera"]}
+{"lema": "kontinent", "es": ["continente"]}
+{"lema": "ocean", "es": ["océano"]}
+{"lema": "list", "es": ["hoja"]}
+{"lema": "korijen", "es": ["raíz"]}
+{"lema": "sjeme", "es": ["semilla"]}
+{"lema": "ljekarna", "es": ["farmacia"]}
+{"lema": "bankomat", "es": ["cajero automático"]}
+{"lema": "gotovina", "es": ["efectivo"]}
+{"lema": "kusur", "es": ["cambio", "vuelto"]}
+{"lema": "novčanica", "es": ["billete"]}
+{"lema": "kovanica", "es": ["moneda"]}
+{"lema": "gužva", "es": ["multitud", "embotellamiento", "tráfico"]}
+{"lema": "znak", "es": ["señal", "letrero"]}
+{"lema": "adresa", "es": ["dirección"]}
+{"lema": "polazak", "es": ["salida"]}
+{"lema": "dolazak", "es": ["llegada"]}
+{"lema": "kašnjenje", "es": ["retraso"]}
+{"lema": "sniženje", "es": ["rebaja", "descuento"]}
+{"lema": "blagdan", "es": ["día festivo"]}
+{"lema": "glavobolja", "es": ["dolor de cabeza"]}
+{"lema": "gripa", "es": ["gripe", "gripa"]}
+{"lema": "upala", "es": ["inflamación"]}
+{"lema": "tableta", "es": ["pastilla"]}
+{"lema": "zavoj", "es": ["venda", "vendaje"]}
+{"lema": "cjepivo", "es": ["vacuna"]}
+{"lema": "uputnica", "es": ["pase al especialista"]}
+{"lema": "zubar", "es": ["dentista"]}
+{"lema": "ordinacija", "es": ["consultorio"]}
+{"lema": "čekaonica", "es": ["sala de espera"]}
+{"lema": "simptom", "es": ["síntoma"]}
+{"lema": "operacija", "es": ["operación", "cirugía"]}
+{"lema": "umor", "es": ["cansancio"]}
+{"lema": "ljutnja", "es": ["enojo"]}
+{"lema": "bijes", "es": ["furia", "rabia"]}
+{"lema": "ponos", "es": ["orgullo"]}
+{"lema": "sram", "es": ["vergüenza"]}
+{"lema": "iznenađenje", "es": ["sorpresa"]}
+{"lema": "dosada", "es": ["aburrimiento"]}
+{"lema": "strpljenje", "es": ["paciencia"]}
+{"lema": "povjerenje", "es": ["confianza"]}
+{"lema": "poštovanje", "es": ["respeto"]}
+{"lema": "aplikacija", "es": ["aplicación", "app"]}
+{"lema": "punjač", "es": ["cargador"]}
+{"lema": "baterija", "es": ["batería", "pila"]}
+{"lema": "tipkovnica", "es": ["teclado"]}
+{"lema": "datoteka", "es": ["archivo"]}
+{"lema": "objava", "es": ["publicación"]}
+{"lema": "komentar", "es": ["comentario"]}
+{"lema": "profil", "es": ["perfil"]}
+{"lema": "korisnik", "es": ["usuario"]}
+{"lema": "snimka", "es": ["grabación"]}
+{"lema": "pretraga", "es": ["búsqueda"]}
+{"lema": "obavijest", "es": ["notificación", "aviso"]}
+{"lema": "slušalice", "es": ["audífonos", "auriculares"]}
+{"lema": "prijenosnik", "es": ["computadora portátil", "laptop"]}
+{"lema": "milijarda", "es": ["mil millones"]}
+{"lema": "polovina", "es": ["mitad"]}
+{"lema": "četvrtina", "es": ["cuarto (fracción)"]}
+{"lema": "trećina", "es": ["tercio"]}
+{"lema": "par", "es": ["par", "pareja"]}
+{"lema": "obojica", "es": ["ambos (hombres)"]}
+{"lema": "brza hrana", "es": ["comida rápida"]}
+{"lema": "kupaći kostim", "es": ["traje de baño"]}
+{"lema": "glavni grad", "es": ["capital"]}
+{"lema": "pješački prijelaz", "es": ["paso peatonal", "cruce peatonal"]}
+{"lema": "kružni tok", "es": ["glorieta", "rotonda"]}
+{"lema": "benzinska postaja", "es": ["gasolinera"]}
+{"lema": "povratna karta", "es": ["boleto de ida y vuelta"]}
+{"lema": "hitna pomoć", "es": ["servicio de emergencias", "ambulancia"]}
+{"lema": "baciti", "es": ["tirar", "lanzar", "aventar"]}
+{"lema": "bacati", "es": ["tirar", "lanzar"]}
+{"lema": "uhvatiti", "es": ["atrapar", "agarrar"]}
+{"lema": "hvatati", "es": ["atrapar", "agarrar"]}
+{"lema": "držati", "es": ["sostener", "tener agarrado"]}
+{"lema": "gurnuti", "es": ["empujar"]}
+{"lema": "gurati", "es": ["empujar"]}
+{"lema": "dodirnuti", "es": ["tocar"]}
+{"lema": "poljubiti", "es": ["besar", "dar un beso"]}
+{"lema": "zagrliti", "es": ["abrazar"]}
+{"lema": "viknuti", "es": ["gritar"]}
+{"lema": "vikati", "es": ["gritar"]}
+{"lema": "šaptati", "es": ["susurrar"]}
+{"lema": "smiriti se", "es": ["calmarse"]}
+{"lema": "opustiti se", "es": ["relajarse"]}
+{"lema": "radovati se", "es": ["alegrarse", "tener ganas de"]}
+{"lema": "zaspati", "es": ["dormirse", "quedarse dormido"]}
+{"lema": "tuširati se", "es": ["bañarse", "ducharse"]}
+{"lema": "kupati se", "es": ["bañarse", "nadar"]}
+{"lema": "obuti se", "es": ["ponerse los zapatos"]}
+{"lema": "izuti se", "es": ["quitarse los zapatos"]}
+{"lema": "spremiti", "es": ["ordenar", "preparar", "guardar"]}
+{"lema": "spremati", "es": ["ordenar", "preparar", "guardar"]}
+{"lema": "počistiti", "es": ["limpiar"]}
+{"lema": "zaključati", "es": ["cerrar con llave"]}
+{"lema": "otključati", "es": ["abrir (con llave)"]}
+{"lema": "sakriti", "es": ["esconder"]}
+{"lema": "pokriti", "es": ["cubrir", "tapar"]}
+{"lema": "premjestiti", "es": ["mover", "cambiar de lugar"]}
+{"lema": "oduzeti", "es": ["restar", "quitar"]}
+{"lema": "zbrojiti", "es": ["sumar"]}
+{"lema": "mjeriti", "es": ["medir"]}
+{"lema": "žvakati", "es": ["masticar"]}
+{"lema": "progutati", "es": ["tragar"]}
+{"lema": "natočiti", "es": ["servir (bebida)", "verter"]}
+{"lema": "proliti", "es": ["derramar"]}
+{"lema": "rezervirati", "es": ["reservar"]}
+{"lema": "potvrditi", "es": ["confirmar"]}
+{"lema": "odbiti", "es": ["rechazar", "negarse"]}
+{"lema": "predložiti", "es": ["proponer", "sugerir"]}
+{"lema": "savjetovati", "es": ["aconsejar"]}
+{"lema": "ponuditi", "es": ["ofrecer"]}
+{"lema": "primijetiti", "es": ["notar", "darse cuenta"]}
+{"lema": "prepoznati", "es": ["reconocer"]}
+{"lema": "ispričati se", "es": ["disculparse", "pedir perdón"]}
+{"lema": "doručkovati", "es": ["desayunar"]}
+{"lema": "zvoniti", "es": ["sonar", "tocar el timbre"]}
+{"lema": "ples", "es": ["baile"]}
+{"lema": "Amerikanac", "es": ["estadounidense", "americano"]}
+{"lema": "Amerikanka", "es": ["estadounidense (mujer)", "americana"]}
+{"lema": "Austrijanac", "es": ["austriaco"]}
+{"lema": "Austrijanka", "es": ["austriaca"]}
+{"lema": "direktorica", "es": ["directora", "gerente"]}
+{"lema": "Engleskinja", "es": ["inglesa"]}
+{"lema": "Englez", "es": ["inglés"]}
+{"lema": "Francuskinja", "es": ["francesa"]}
+{"lema": "Francuz", "es": ["francés"]}
+{"lema": "frizer", "es": ["peluquero", "barbero"]}
+{"lema": "frizerka", "es": ["peluquera"]}
+{"lema": "glumica", "es": ["actriz"]}
+{"lema": "Hrvat", "es": ["croata"]}
+{"lema": "Hrvatica", "es": ["croata (mujer)"]}
+{"lema": "Hrvatska", "es": ["Croacia"]}
+{"lema": "kolegica", "es": ["colega (mujer)", "compañera de trabajo"]}
+{"lema": "kuhar", "es": ["cocinero", "chef"]}
+{"lema": "kuharica", "es": ["cocinera", "libro de cocina"]}
+{"lema": "ljubazan", "es": ["amable", "atento"]}
+{"lema": "Nijemac", "es": ["alemán"]}
+{"lema": "Njemica", "es": ["alemana"]}
+{"lema": "novinarka", "es": ["periodista (mujer)", "reportera"]}
+{"lema": "odakle", "es": ["de dónde"]}
+{"lema": "odvjetnica", "es": ["abogada"]}
+{"lema": "odvjetnik", "es": ["abogado"]}
+{"lema": "pilotkinja", "es": ["piloto (mujer)"]}
+{"lema": "policajka", "es": ["policía (mujer)"]}
+{"lema": "radnica", "es": ["trabajadora", "obrera"]}
+{"lema": "simpatičan", "es": ["simpático", "agradable"]}
+{"lema": "Talijan", "es": ["italiano"]}
+{"lema": "Talijanka", "es": ["italiana"]}
+{"lema": "turistkinja", "es": ["turista (mujer)"]}
+{"lema": "vozačica", "es": ["chofer (mujer)", "conductora"]}
+{"lema": "vratarka", "es": ["portera", "arquera"]}
+{"lema": "vrijedan", "es": ["trabajador", "aplicado", "valioso"]}
+{"lema": "zabavan", "es": ["divertido", "entretenido"]}
+{"lema": "šefica", "es": ["jefa"]}
+{"lema": "Španjolac", "es": ["español"]}
+{"lema": "Španjolka", "es": ["española"]}
+{"lema": "gutati", "es": ["tragar"]}
+{"lema": "izuvati se", "es": ["quitarse los zapatos"]}
+{"lema": "natakati", "es": ["servir (bebida)", "verter"]}
+{"lema": "nuditi", "es": ["ofrecer"]}
+{"lema": "obuvati se", "es": ["ponerse los zapatos"]}
+{"lema": "odbijati", "es": ["rechazar"]}
+{"lema": "oduzimati", "es": ["restar", "quitar"]}
+{"lema": "otključavati", "es": ["abrir (con llave)"]}
+{"lema": "pokrivati", "es": ["cubrir", "tapar"]}
+{"lema": "potvrđivati", "es": ["confirmar"]}
+{"lema": "predlagati", "es": ["proponer", "sugerir"]}
+{"lema": "premještati", "es": ["mover", "trasladar"]}
+{"lema": "prepoznavati", "es": ["reconocer"]}
+{"lema": "prolijevati", "es": ["derramar"]}
+{"lema": "skrivati", "es": ["esconder"]}
+{"lema": "zaključavati", "es": ["cerrar con llave"]}
+{"lema": "zbrajati", "es": ["sumar"]}
+{"lema": "izmjeriti", "es": ["medir"]}
+{"lema": "okupati se", "es": ["bañarse"]}
+{"lema": "zazvoniti", "es": ["sonar", "tocar el timbre"]}
+{"lema": "opisivati", "es": ["describir"]}
+{"lema": "opraštati", "es": ["perdonar"]}
+{"lema": "prepisivati", "es": ["copiar", "transcribir"]}
+{"lema": "zapisivati", "es": ["anotar", "apuntar"]}
+{"lema": "nacrtati", "es": ["dibujar"]}
+{"lema": "tuljan", "es": ["foca"]}
+{"lema": "zrcalo", "es": ["espejo"]}
+{"lema": "pokrivač", "es": ["cobija", "manta", "cubierta"]}
+{"lema": "sag", "es": ["alfombra", "tapete"]}
+{"lema": "zrakoplov", "es": ["avión", "aeronave"]}
+{"lema": "zračna luka", "es": ["aeropuerto"]}
+{"lema": "struk", "es": ["cintura"]}
+{"lema": "kikiriki", "es": ["maní", "cacahuate"]}
+{"lema": "maslina", "es": ["aceituna", "olivo"]}
+{"lema": "večera", "es": ["cena"]}
+{"lema": "šampanjac", "es": ["champán", "champaña"]}
+{"lema": "rakija", "es": ["aguardiente (rakija)"]}
+{"lema": "napitak", "es": ["bebida"]}
+{"lema": "kapučino", "es": ["capuchino"]}
+{"lema": "čajnik", "es": ["tetera"]}
+{"lema": "slamka", "es": ["popote", "pajita"]}
+{"lema": "gutljaj", "es": ["sorbo", "trago"]}
+{"lema": "burek", "es": ["burek (pastel de hojaldre relleno)"]}
+{"lema": "fritula", "es": ["buñuelo"]}
+{"lema": "lignja", "es": ["calamar"]}
+{"lema": "gulaš", "es": ["gulash"]}
+{"lema": "jelen", "es": ["ciervo", "venado"]}
+{"lema": "patka", "es": ["pato"]}
+{"lema": "guska", "es": ["ganso"]}
+{"lema": "pijetao", "es": ["gallo"]}
+{"lema": "slon", "es": ["elefante"]}
+{"lema": "majmun", "es": ["mono", "chango"]}
+{"lema": "tigar", "es": ["tigre"]}
+{"lema": "žirafa", "es": ["jirafa"]}
+{"lema": "krokodil", "es": ["cocodrilo"]}
+{"lema": "zmija", "es": ["serpiente", "víbora"]}
+{"lema": "kornjača", "es": ["tortuga"]}
+{"lema": "puž", "es": ["caracol"]}
+{"lema": "leptir", "es": ["mariposa"]}
+{"lema": "mrav", "es": ["hormiga"]}
+{"lema": "pauk", "es": ["araña"]}
+{"lema": "dupin", "es": ["delfín"]}
+{"lema": "kit", "es": ["ballena"]}
+{"lema": "rak", "es": ["cangrejo", "langostino de río"]}
+{"lema": "hobotnica", "es": ["pulpo"]}
+{"lema": "sova", "es": ["búho", "lechuza"]}
+{"lema": "orao", "es": ["águila"]}
+{"lema": "vjeverica", "es": ["ardilla"]}
+{"lema": "jež", "es": ["erizo"]}
+{"lema": "šišmiš", "es": ["murciélago"]}
+{"lema": "janje", "es": ["cordero"]}
+{"lema": "mače", "es": ["gatito"]}
+{"lema": "štene", "es": ["cachorro"]}
+{"lema": "štakor", "es": ["rata"]}
+{"lema": "bratić", "es": ["primo"]}
+{"lema": "sestrična", "es": ["prima"]}
+{"lema": "starac", "es": ["anciano", "viejo"]}
+{"lema": "skupina", "es": ["grupo"]}
+{"lema": "narod", "es": ["pueblo", "nación"]}
+{"lema": "beba", "es": ["bebé"]}
+{"lema": "tinejdžer", "es": ["adolescente"]}
+{"lema": "tetak", "es": ["tío (esposo de la tía)"]}
+{"lema": "nećakinja", "es": ["sobrina"]}
+{"lema": "svekar", "es": ["suegro (padre del esposo)"]}
+{"lema": "svekrva", "es": ["suegra (madre del esposo)"]}
+{"lema": "punac", "es": ["suegro (padre de la esposa)"]}
+{"lema": "punica", "es": ["suegra (madre de la esposa)"]}
+{"lema": "zet", "es": ["yerno", "cuñado (esposo de la hermana)"]}
+{"lema": "snaha", "es": ["nuera", "cuñada (esposa del hermano)"]}
+{"lema": "šogor", "es": ["cuñado"]}
+{"lema": "kum", "es": ["padrino", "testigo de boda"]}
+{"lema": "pekar", "es": ["panadero"]}
+{"lema": "slikar", "es": ["pintor"]}
+{"lema": "ribar", "es": ["pescador"]}
+{"lema": "mesar", "es": ["carnicero"]}
+{"lema": "zidar", "es": ["albañil"]}
+{"lema": "stolar", "es": ["carpintero"]}
+{"lema": "mehaničar", "es": ["mecánico"]}
+{"lema": "električar", "es": ["electricista"]}
+{"lema": "inženjer", "es": ["ingeniero"]}
+{"lema": "programer", "es": ["programador"]}
+{"lema": "vodoinstalater", "es": ["plomero"]}
+{"lema": "prodavač", "es": ["vendedor", "dependiente"]}
+{"lema": "krojač", "es": ["sastre"]}
+{"lema": "navijač", "es": ["aficionado", "hincha"]}
+{"lema": "vodič", "es": ["guía"]}
+{"lema": "odgojitelj", "es": ["educador de preescolar"]}
+{"lema": "vatrogasac", "es": ["bombero"]}
+{"lema": "seljak", "es": ["campesino"]}
+{"lema": "poljoprivrednik", "es": ["agricultor", "granjero"]}
+{"lema": "arhitekt", "es": ["arquitecto"]}
+{"lema": "znanstvenik", "es": ["científico"]}
+{"lema": "sudac", "es": ["árbitro", "juez"]}
+{"lema": "luka", "es": ["puerto"]}
+{"lema": "tvornica", "es": ["fábrica"]}
+{"lema": "vrtić", "es": ["jardín de niños", "kínder"]}
+{"lema": "dvorana", "es": ["sala", "salón", "gimnasio"]}
+{"lema": "fontana", "es": ["fuente"]}
+{"lema": "akvarij", "es": ["acuario"]}
+{"lema": "tvrđava", "es": ["fortaleza"]}
+{"lema": "dvorac", "es": ["castillo"]}
+{"lema": "svjetionik", "es": ["faro"]}
+{"lema": "tavan", "es": ["ático", "desván"]}
+{"lema": "kauč", "es": ["sofá", "sillón"]}
+{"lema": "stepenice", "es": ["escaleras"]}
+{"lema": "blagovaonica", "es": ["comedor"]}
+{"lema": "predsoblje", "es": ["recibidor", "vestíbulo"]}
+{"lema": "prag", "es": ["umbral"]}
+{"lema": "zvono", "es": ["campana", "timbre"]}
+{"lema": "lift", "es": ["elevador", "ascensor"]}
+{"lema": "pekarnica", "es": ["panadería"]}
+{"lema": "policija", "es": ["policía"]}
+{"lema": "kavana", "es": ["café", "cafetería"]}
+{"lema": "groblje", "es": ["cementerio"]}
+{"lema": "bazen", "es": ["alberca", "piscina", "pileta"]}
+{"lema": "tržni centar", "es": ["centro comercial"]}
+{"lema": "spavaća soba", "es": ["dormitorio", "recámara"]}
+{"lema": "dnevna soba", "es": ["sala", "living"]}
+{"lema": "dnevni boravak", "es": ["sala", "estancia"]}
+{"lema": "kamion", "es": ["camión"]}
+{"lema": "romobil", "es": ["monopatín", "patín del diablo"]}
+{"lema": "helikopter", "es": ["helicóptero"]}
+{"lema": "volan", "es": ["volante"]}
+{"lema": "traktor", "es": ["tractor"]}
+{"lema": "bager", "es": ["excavadora"]}
+{"lema": "vagon", "es": ["vagón"]}
+{"lema": "gliser", "es": ["lancha rápida"]}
+{"lema": "motocikl", "es": ["motocicleta", "moto"]}
+{"lema": "kombi", "es": ["camioneta", "furgoneta"]}
+{"lema": "raketa", "es": ["cohete"]}
+{"lema": "sidro", "es": ["ancla"]}
+{"lema": "jedro", "es": ["vela"]}
+{"lema": "kolica", "es": ["carrito", "carriola"]}
+{"lema": "jedrilica", "es": ["velero", "planeador"]}
+{"lema": "skija", "es": ["esquí"]}
+{"lema": "koturaljka", "es": ["patín (de ruedas)"]}
+{"lema": "sanjke", "es": ["trineo"]}
+{"lema": "žičara", "es": ["teleférico"]}
+{"lema": "kamp-kućica", "es": ["casa rodante", "caravana"]}
+{"lema": "kanu", "es": ["canoa"]}
+{"lema": "podmornica", "es": ["submarino"]}
+{"lema": "češalj", "es": ["peine"]}
+{"lema": "četkica", "es": ["cepillo de dientes", "cepillito"]}
+{"lema": "svijeća", "es": ["vela"]}
+{"lema": "ljepilo", "es": ["pegamento"]}
+{"lema": "bilježnica", "es": ["cuaderno"]}
+{"lema": "kist", "es": ["pincel"]}
+{"lema": "zdjela", "es": ["tazón", "bol"]}
+{"lema": "metla", "es": ["escoba"]}
+{"lema": "alat", "es": ["herramienta", "herramientas"]}
+{"lema": "čekić", "es": ["martillo"]}
+{"lema": "ljestve", "es": ["escalera (de mano)"]}
+{"lema": "uže", "es": ["cuerda", "soga"]}
+{"lema": "lanac", "es": ["cadena"]}
+{"lema": "zemljovid", "es": ["mapa"]}
+{"lema": "zastava", "es": ["bandera"]}
+{"lema": "igračka", "es": ["juguete"]}
+{"lema": "kocka", "es": ["dado", "cubo"]}
+{"lema": "naljepnica", "es": ["calcomanía", "etiqueta"]}
+{"lema": "kutlača", "es": ["cucharón"]}
+{"lema": "vaza", "es": ["florero", "jarrón"]}
+{"lema": "pila", "es": ["sierra"]}
+{"lema": "odvijač", "es": ["desarmador", "destornillador"]}
+{"lema": "kliješta", "es": ["pinzas", "alicates"]}
+{"lema": "bušilica", "es": ["taladro"]}
+{"lema": "čavao", "es": ["clavo"]}
+{"lema": "vijak", "es": ["tornillo"]}
+{"lema": "lopata", "es": ["pala"]}
+{"lema": "sjekira", "es": ["hacha"]}
+{"lema": "pladanj", "es": ["charola", "bandeja"]}
+{"lema": "sito", "es": ["colador", "tamiz"]}
+{"lema": "cjedilo", "es": ["colador", "escurridor"]}
+{"lema": "brusilica", "es": ["esmeriladora", "lijadora"]}
+{"lema": "turpija", "es": ["lima (herramienta)"]}
+{"lema": "grablje", "es": ["rastrillo"]}
+{"lema": "vile", "es": ["horquilla", "bieldo"]}
+{"lema": "motika", "es": ["azadón"]}
+{"lema": "kosilica", "es": ["podadora", "cortadora de pasto"]}
+{"lema": "pumpa", "es": ["bomba"]}
+{"lema": "dizalica", "es": ["grúa", "gato (de auto)"]}
+{"lema": "traka", "es": ["cinta", "tira", "listón"]}
+{"lema": "valjak", "es": ["rodillo", "cilindro"]}
+{"lema": "vrč", "es": ["jarra"]}
+{"lema": "žličica", "es": ["cucharita"]}
+{"lema": "kalup", "es": ["molde"]}
+{"lema": "lijevak", "es": ["embudo"]}
+{"lema": "lopatica", "es": ["espátula", "palita"]}
+{"lema": "ribež", "es": ["rallador"]}
+{"lema": "otvarač", "es": ["abridor"]}
+{"lema": "pjenjača", "es": ["batidor"]}
+{"lema": "džezva", "es": ["cafetera turca"]}
+{"lema": "termosica", "es": ["termo"]}
+{"lema": "krpa", "es": ["trapo"]}
+{"lema": "spužva", "es": ["esponja"]}
+{"lema": "glačalo", "es": ["plancha (de ropa)"]}
+{"lema": "vješalica", "es": ["gancho", "percha"]}
+{"lema": "koš", "es": ["canasta", "cesto", "bote de basura"]}
+{"lema": "fotelja", "es": ["sillón"]}
+{"lema": "komoda", "es": ["cómoda"]}
+{"lema": "klupa", "es": ["banca", "pupitre"]}
+{"lema": "ležaljka", "es": ["camastro", "silla de playa"]}
+{"lema": "ograda", "es": ["cerca", "reja"]}
+{"lema": "ručni sat", "es": ["reloj de pulsera"]}
+{"lema": "baterijska svjetiljka", "es": ["linterna"]}
+{"lema": "daska za rezanje", "es": ["tabla de picar"]}
+{"lema": "produžni kabel", "es": ["extensión (eléctrica)"]}
+{"lema": "aluminijska folija", "es": ["papel aluminio"]}
+{"lema": "pojas", "es": ["cinturón"]}
+{"lema": "džep", "es": ["bolsillo", "bolsa (MX)"]}
+{"lema": "gumb", "es": ["botón"]}
+{"lema": "prsluk", "es": ["chaleco"]}
+{"lema": "ogrtač", "es": ["capa", "bata"]}
+{"lema": "trenirka", "es": ["conjunto deportivo", "pants (MX)"]}
+{"lema": "japanka", "es": ["chancla", "sandalia de playa"]}
+{"lema": "gležnjača", "es": ["botín"]}
+{"lema": "kratke hlače", "es": ["pantalones cortos", "short"]}
+{"lema": "grom", "es": ["trueno", "rayo"]}
+{"lema": "vatra", "es": ["fuego"]}
+{"lema": "slap", "es": ["cascada"]}
+{"lema": "biljka", "es": ["planta"]}
+{"lema": "školjka", "es": ["concha"]}
+{"lema": "koralj", "es": ["coral"]}
+{"lema": "ruža", "es": ["rosa"]}
+{"lema": "hrast", "es": ["roble"]}
+{"lema": "bor", "es": ["pino"]}
+{"lema": "breza", "es": ["abedul"]}
+{"lema": "vrba", "es": ["sauce"]}
+{"lema": "palma", "es": ["palmera"]}
+{"lema": "djetelina", "es": ["trébol"]}
+{"lema": "kopriva", "es": ["ortiga"]}
+{"lema": "mahovina", "es": ["musgo"]}
+{"lema": "mimoza", "es": ["mimosa"]}
+{"lema": "lavanda", "es": ["lavanda"]}
+{"lema": "stijena", "es": ["roca"]}
+{"lema": "litica", "es": ["acantilado"]}
+{"lema": "ravnica", "es": ["llanura"]}
+{"lema": "močvara", "es": ["pantano"]}
+{"lema": "rosa", "es": ["rocío"]}
+{"lema": "poplava", "es": ["inundación"]}
+{"lema": "lipa", "es": ["tilo", "lipa (moneda croata)"]}
+{"lema": "tratinčica", "es": ["margarita"]}
+{"lema": "ljubičica", "es": ["violeta"]}
+{"lema": "metvica", "es": ["menta", "hierbabuena"]}
+{"lema": "orhideja", "es": ["orquídea"]}
+{"lema": "kesten", "es": ["castaña", "castaño"]}
+{"lema": "tulipan", "es": ["tulipán"]}
+{"lema": "ljiljan", "es": ["lirio", "azucena"]}
+{"lema": "suncokret", "es": ["girasol"]}
+{"lema": "karanfil", "es": ["clavel"]}
+{"lema": "kaktus", "es": ["cactus"]}
+{"lema": "bršljan", "es": ["hiedra"]}
+{"lema": "maslačak", "es": ["diente de león"]}
+{"lema": "bosiljak", "es": ["albahaca"]}
+{"lema": "ružmarin", "es": ["romero"]}
+{"lema": "peršin", "es": ["perejil"]}
+{"lema": "paprat", "es": ["helecho"]}
+{"lema": "ponoć", "es": ["medianoche"]}
+{"lema": "praznik", "es": ["día festivo", "feriado"]}
+{"lema": "raspored", "es": ["horario"]}
+{"lema": "zora", "es": ["amanecer", "alba"]}
+{"lema": "sumrak", "es": ["atardecer", "crepúsculo"]}
+{"lema": "pljusak", "es": ["aguacero", "chubasco"]}
+{"lema": "nevrijeme", "es": ["temporal", "mal tiempo"]}
+{"lema": "sjena", "es": ["sombra"]}
+{"lema": "suša", "es": ["sequía"]}
+{"lema": "blato", "es": ["lodo", "barro"]}
+{"lema": "želja", "es": ["deseo"]}
+{"lema": "osjećaj", "es": ["sentimiento", "sensación"]}
+{"lema": "hrabrost", "es": ["valor", "valentía"]}
+{"lema": "smijeh", "es": ["risa"]}
+{"lema": "suza", "es": ["lágrima"]}
+{"lema": "zagrljaj", "es": ["abrazo"]}
+{"lema": "poljubac", "es": ["beso"]}
+{"lema": "tjeskoba", "es": ["ansiedad", "angustia"]}
+{"lema": "ljubomora", "es": ["celos"]}
+{"lema": "zavist", "es": ["envidia"]}
+{"lema": "znatiželja", "es": ["curiosidad"]}
+{"lema": "lijenost", "es": ["flojera", "pereza"]}
+{"lema": "samoća", "es": ["soledad"]}
+{"lema": "mržnja", "es": ["odio"]}
+{"lema": "krivnja", "es": ["culpa"]}
+{"lema": "upornost", "es": ["persistencia", "constancia"]}
+{"lema": "poštenje", "es": ["honestidad"]}
+{"lema": "dobrota", "es": ["bondad"]}
+{"lema": "skromnost", "es": ["modestia"]}
+{"lema": "samopouzdanje", "es": ["confianza en sí mismo", "autoestima"]}
+{"lema": "e-pošta", "es": ["correo electrónico"]}
+{"lema": "igrica", "es": ["videojuego", "jueguito"]}
+{"lema": "zvučnik", "es": ["bocina", "parlante", "altavoz"]}
+{"lema": "kamera", "es": ["cámara"]}
+{"lema": "tipka", "es": ["tecla", "botón"]}
+{"lema": "video", "es": ["video"]}
+{"lema": "struja", "es": ["electricidad", "corriente"]}
+{"lema": "mikrofon", "es": ["micrófono"]}
+{"lema": "smještaj", "es": ["alojamiento", "hospedaje"]}
+{"lema": "recepcija", "es": ["recepción"]}
+{"lema": "razgledavanje", "es": ["recorrido turístico"]}
+{"lema": "šator", "es": ["tienda de campaña", "carpa"]}
+{"lema": "osiguranje", "es": ["seguro"]}
+{"lema": "razglednica", "es": ["postal"]}
+{"lema": "prijevod", "es": ["traducción"]}
+{"lema": "književnost", "es": ["literatura"]}
+{"lema": "informatika", "es": ["informática", "computación"]}
+{"lema": "razred", "es": ["clase", "grado", "año escolar"]}
+{"lema": "učionica", "es": ["salón de clases", "aula"]}
+{"lema": "ploča", "es": ["pizarrón", "pizarra"]}
+{"lema": "kreda", "es": ["gis", "tiza"]}
+{"lema": "predavanje", "es": ["conferencia", "clase (universitaria)"]}
+{"lema": "rečenica", "es": ["oración"]}
+{"lema": "raspust", "es": ["vacaciones escolares"]}
+{"lema": "gumica", "es": ["goma de borrar", "liga"]}
+{"lema": "šiljilo", "es": ["sacapuntas"]}
+{"lema": "ravnalo", "es": ["regla"]}
+{"lema": "pernica", "es": ["estuche", "lapicera"]}
+{"lema": "bojica", "es": ["lápiz de color", "crayón"]}
+{"lema": "flomaster", "es": ["plumón", "marcador"]}
+{"lema": "šestar", "es": ["compás"]}
+{"lema": "blok", "es": ["bloc", "cuaderno de dibujo", "bloque"]}
+{"lema": "atlas", "es": ["atlas"]}
+{"lema": "dnevnik", "es": ["diario", "lista de clase", "noticiero"]}
+{"lema": "rukomet", "es": ["balonmano"]}
+{"lema": "odbojka", "es": ["voleibol"]}
+{"lema": "biciklizam", "es": ["ciclismo"]}
+{"lema": "skijanje", "es": ["esquí"]}
+{"lema": "ronjenje", "es": ["buceo"]}
+{"lema": "planinarenje", "es": ["senderismo", "montañismo"]}
+{"lema": "medalja", "es": ["medalla"]}
+{"lema": "pobjeda", "es": ["victoria", "triunfo"]}
+{"lema": "poraz", "es": ["derrota"]}
+{"lema": "teren", "es": ["cancha", "campo"]}
+{"lema": "atletika", "es": ["atletismo"]}
+{"lema": "gimnastika", "es": ["gimnasia"]}
+{"lema": "boks", "es": ["boxeo"]}
+{"lema": "klizanje", "es": ["patinaje"]}
+{"lema": "veslanje", "es": ["remo"]}
+{"lema": "reket", "es": ["raqueta"]}
+{"lema": "palica", "es": ["palo", "bate"]}
+{"lema": "kaciga", "es": ["casco"]}
+{"lema": "štitnik", "es": ["protector"]}
+{"lema": "uteg", "es": ["pesa"]}
+{"lema": "strunjača", "es": ["colchoneta"]}
+{"lema": "violina", "es": ["violín"]}
+{"lema": "flauta", "es": ["flauta"]}
+{"lema": "truba", "es": ["trompeta"]}
+{"lema": "mandolina", "es": ["mandolina"]}
+{"lema": "tuba", "es": ["tuba"]}
+{"lema": "tamburica", "es": ["tamburica (laúd croata)"]}
+{"lema": "harmonika", "es": ["acordeón"]}
+{"lema": "harfa", "es": ["arpa"]}
+{"lema": "frula", "es": ["flauta dulce", "flauta pastoril"]}
+{"lema": "zvečka", "es": ["sonaja", "sonajero"]}
+{"lema": "bas-gitara", "es": ["bajo eléctrico"]}
+{"lema": "saksofon", "es": ["saxofón"]}
+{"lema": "ksilofon", "es": ["xilófono"]}
+{"lema": "klarinet", "es": ["clarinete"]}
+{"lema": "trombon", "es": ["trombón"]}
+{"lema": "kontrabas", "es": ["contrabajo"]}
+{"lema": "sintesajzer", "es": ["sintetizador"]}
+{"lema": "triangl", "es": ["triángulo (instrumento)"]}
+{"lema": "bubanj", "es": ["tambor"]}
+{"lema": "bendžo", "es": ["banjo"]}
+{"lema": "ukulele", "es": ["ukulele"]}
+{"lema": "činele", "es": ["platillos"]}
+{"lema": "orgulje", "es": ["órgano (instrumento)"]}
+{"lema": "gajde", "es": ["gaita"]}
+{"lema": "usna harmonika", "es": ["armónica"]}
+{"lema": "dimnjak", "es": ["chimenea"]}
+{"lema": "šaka", "es": ["puño", "mano"]}
+{"lema": "loš", "es": ["malo"]}
+{"lema": "mek", "es": ["suave", "blando"]}
+{"lema": "tvrd", "es": ["duro"]}
+{"lema": "siromašan", "es": ["pobre"]}
+{"lema": "sličan", "es": ["parecido", "similar"]}
+{"lema": "pikantan", "es": ["picante"]}
+{"lema": "prevoditi", "es": ["traducir"]}
+{"lema": "prevesti", "es": ["traducir"]}
+{"lema": "penjati se", "es": ["trepar", "escalar", "subir"]}
+{"lema": "popeti se", "es": ["subir", "trepar"]}
+{"lema": "slaviti", "es": ["celebrar", "festejar"]}
+{"lema": "proslaviti", "es": ["celebrar", "festejar"]}
+{"lema": "pripremiti", "es": ["preparar"]}
+{"lema": "pripremati", "es": ["preparar"]}

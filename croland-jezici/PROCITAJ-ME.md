@@ -14,6 +14,7 @@ croland-XX/
   sucelje-XX.tsv       tekst sučelja       en | XX | izvor | redak
   pregledi-XX.tsv      pregledi.js         en | hr | XX | gdje
   iznimke.tsv          ručne iznimke prepoznavanja jezika (id <TAB> hr|en)
+  glosar-XX.tsv        ključni pojmovi i zabranjeni oblici (ES); pravila.json + stil-iznimke.tsv za provjeri-stil.py
   segmenti.tsv         generira izvuci.py
   igre/                generirane lekcije na jeziku XX (commitaju se)
   rjecnik/             XX-*.tsv -> prijevodi-XX.jsonl, rjecnik-XX-hr.jsonl
@@ -29,6 +30,7 @@ ime, kod), `@blobby` = generira se iz memorije lekcija.
 | `izvuci.py` | `igre/*.md` → `segmenti.tsv` + novi retci u `prijevod-XX.tsv` (stari prijevodi ostaju). Nakon svake izmjene hrvatskih lekcija. |
 | `primijeni.py [datoteke…]` | gradi `croland-XX/igre/*.md` iz izvora + memorije; neprevedeno → `nedostaje.tsv` |
 | `provjeri.py` | struktura: stranice, stavke, polja, `[praznine]`, `en:` prefiks, kategorije. Mora biti 0 grešaka. |
+| `provjeri-stil.py [--samo lekcije,sucelje,pregledi,rjecnik] [--datoteke F…] [--sve]` | stil prijevoda (ES-plan §6a, 2–5 i 7): ¿? ¡!, navodnici “ ”, zabranjeni oblici (vosotros, voseo, regionalizmi), glosar, zaostali engleski; popis „pazi“ i duljina gumba za ručnu provjeru. Pravila u `croland-XX/pravila.json` (nema ga = prazna pravila, DE), zabranjene riječi i iz `glosar-XX.tsv`, iznimke u `stil-iznimke.tsv`. Greške moraju biti 0 (izlaz 1 inače). Test alata: `croland-jezici/test/stil/test-provjeri-stil.py` (pokreni nakon svake izmjene pravila). |
 | `posao.py dump F… / upis F / stanje` | prevođenje po datotekama (vidi `UPUTE-prijevod-de.md`; `_radno/` je u mapi jezika) |
 | `izvuci-sucelje.py` | tekst iz `index.html` i `pregledi.js` → `sucelje-XX.tsv`, `pregledi-XX.tsv` |
 | `izgradi-sucelje.py` | `index.html` → `index-XX.html`, `pregledi.js` → `pregledi-XX.js` |

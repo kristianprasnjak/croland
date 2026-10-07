@@ -1,0 +1,7 @@
+  - L19 vid: most oprezno (ES-plan §3) – „el español lo dice con palabras extra (*terminar de, todo, estar + -ndo*) ili sa *se* (*comerse, tomarse*)“, i
+    „parecido a *escribía / escribí*, ali vid je u glagolu, ne u vremenu, i postoji i u prezentu i futuru“. Prijevodi rečenica: nesvršeni → *estuve + gerundio* /
+    imperfecto (*Estuve escribiendo…*, *La abuela leía…*), svršeni → pretérito, *se* (*se comió, se tomó, se lo aprendió*), *terminar de*, *completo*. Kartice parova:
+    *escribir → terminar de escribir*, *beber → bebérselo todo*, *cocinar → dejar cocinado*, *mandar → dejar enviado*, *estar comprando → comprar* itd. *Pij! / Popij!* ↔
+    *¡Bebe agua! / ¡Tómate el agua!*. *zadaća* → *tarea*, *lektira* → *lectura obligatoria*, *marka* → *estampilla, sello*, *opisati/potpisati/zapisati/prepisati* →
+    *describir / firmar / anotar / copiar*; ✓ → *palomita*. Oznake *(a un chico) (a una chica) (con suavidad)*. Kategorije PROCESO / ¡TERMINADO! / PROCESO (imperfectivo) /
+    TERMINADO (perfectivo) / GEMELO (mismo significado) / VERBO NUEVO (significado nuevo). 1 redak `=`; `stil-iznimke.tsv` +2.

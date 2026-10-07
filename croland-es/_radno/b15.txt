@@ -1,0 +1,6 @@
+  - L15 instrumental: most *con* (društvo, alat: *escribo con lápiz*, *café con leche*) ↔ *s/sa*, ali vozilo *en tren* ↔ *vlakom* bez prijedloga
+    („en español tampoco dices *con tren*“); *sa mnom / s tobom* ↔ *conmigo / contigo*. Nagovještaji: *(conmigo) (contigo) (con usted) (con nosotros)
+    (con ellos) (con él/ella)*, vozila *(en tren) (en auto) (en ferry)*; *(with you, a friend)* → *(contigo)*, *(with you, polite)* → *(con usted)*.
+    *vrijeme* = *tiempo* (oba značenja, most); *kombi* → *camioneta*, *skuter* → *scooter, motoneta*, *trajekt* → *ferry, transbordador*, *mladić* → *muchacho*,
+    *kolegice* → *compañeras de trabajo*, *gljive* → *champiñones*, *sendvič sa sirom* → *sándwich de queso*, *konobar* → *mesero*; kategorije
+    CON s/sa (compañía) / SIN PREPOSICIÓN (medio), COMPAÑÍA (s/sa) / MEDIO (sin preposición); „ČESTITAMO!“ ostaje hrvatski. `stil-iznimke.tsv` +6 (hrvatska pitanja bez ¿).

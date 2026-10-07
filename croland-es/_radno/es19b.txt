@@ -1,0 +1,268 @@
+163 Diez verbos con su forma de *ja*. Cuatro están formados sobre *pisati*, pero el prefijo cambia el significado, así que son verbos nuevos, no gemelos: **opisati** (describir), **potpisati** (firmar), **zapisati** (anotar), **prepisati** (copiar) – algo parecido a *escribir, describir, transcribir* en español. *pričati* (conversar) toma un significado nuevo en **ispričati**: contar toda una historia. **sjetiti se** conserva su **se**: *Sjetim se.* Fíjate en los sonidos: *plakati → plačem*, *brisati → brišem*. Al final vienen las palabras de una carrera, donde se encuentran el proceso y lo terminado: el **start**, el **sprint**, el **finiš**, el **rezultat**, y con suerte una **pobjeda** y una **medalja**. Un **maraton** es la mejor imagen del gemelo de proceso.
+280 Elige el prefijo
+281 Elegir el verbo con prefijo a partir de su significado. Los cinco vienen de *pisati*, así que solo el prefijo marca la diferencia: *potpisati* firma, *zapisati* anota, *opisati* describe, *prepisati* copia, y *napisati* termina de escribir.
+282 *potpisati* firmar, *zapisati* anotar, *opisati* describir, *prepisati* copiar, *napisati* terminar.
+283 Un verbo base, cinco trabajos. Elige el prefijo que pide el significado.
+284 firmar un contrato
+285 escribir una carta y terminarla
+286 anotar un número
+287 describir una ciudad
+288 copiar el texto
+289 firmar la postal
+290 describir a tu familia
+291 anotar la dirección
+292 ¿Qué orden?
+293 Elegir la orden que pide lo correcto. La orden imperfectiva pide una actividad o un hábito (*Pij vodu svaki dan!*); la perfectiva pide una sola acción terminada, ya (*Popij vodu!*). Después de *nemoj* el verbo es un infinitivo imperfectivo.
+294 hábito o actividad → *Pij!*; una acción terminada ya → *Popij!*; *Nemoj pisati!*
+295 ¿Proceso o resultado – qué está pidiendo quien habla?
+296 ¡Tómate el agua, ya!
+297 Bebe agua todos los días, es sano.
+298 ¡Lee todo el libro – completo!
+299 Lee un poco cada noche.
+300 ¡No escribas! (con suavidad)
+301 ¡Cómete la sopa!
+302 ¡Cocina todos los días, no solo los domingos!
+303 ¡Manda la carta hoy!
+304 ¡No comas el pastel! (con suavidad)
+305 ¡Termina la tarea!
+306 Oraciones con los dos aspectos, armadas con fichas. El imperfectivo va con *polako, svaki dan, tri dana*; el perfectivo con *odmah, napokon, sada*. *Je, sam* van en segundo lugar, y antes de *a* y *ali* va una coma.
+307 imperfectivo con *polako, svaki dan*; perfectivo con *odmah, napokon, sada*.
+308 Producción libre a partir del español. Lo que dura o se repite lleva el imperfectivo, una sola acción terminada el perfectivo, y el participio muestra el género de quien habla. Cuando quien habla es *yo*, se aceptan las dos formas.
+309 Lo que dura → imperfectivo; lo terminado → perfectivo. Para *yo* se aceptan los dos géneros.
+310 Estuve escribiendo una carta toda la tarde.
+311 Se tomó el café enseguida.
+312 Ella leyó el libro en un día.
+313 Tomo café todos los días.
+314 La abuela cocinó la sopa.
+315 La película empezó a las ocho.
+316 Firme aquí, por favor. (formal)
+317 ¡Anota mi número! (a un amigo)
+318 ¡Describe tu casa! (a un amigo)
+319 ¡Tómate el agua! (a un amigo)
+320 ¡No comas el pastel! (a un amigo)
+321 ¿Terminaste la tarea? (a una chica)
+322 Terminamos la tarea.
+323 Un resumen final. El gemelo imperfectivo describe una actividad que dura o se repite, el gemelo perfectivo una sola acción terminada; los prefijos forman la mayoría de los pares, y algunos prefijos crean verbos nuevos como *potpisati* y *opisati*.
+324 Imperfectivo: dura, se repite. Perfectivo: terminado. *potpisati, opisati* = verbos nuevos.
+325 **Bravo.** Ya puedes decir no solo lo que pasó, sino cómo lo ves: en curso, o terminado.
+326 Y lo lograste con pocas reglas: **el imperfectivo para la actividad, la duración y el hábito**, **el perfectivo para una sola acción terminada**, **las palabras de tiempo muestran cuál va**, y **un prefijo puede terminar un verbo o cambiar su significado**.
+327 **Lo que sigue:** Práctica 19 lee una carta y un interrogatorio sobre la tarea, y la Prueba 19 revisa todo el nivel. Después, la Lección 20, el gran final: *jer, kad, ako, dok, iako, koji*.
+328 Lectura: la carta y el interrogatorio de la tarea
+329 Texto 1: La carta
+330 Una historia para leer que usa los dos gemelos lado a lado. El imperfectivo muestra lo que duró un rato – *pisao je cijelo poslijepodne, kupovao je* – y el perfectivo lo que quedó terminado: *napisao je, kupio je, poslao je, pročitala je*.
+331 En curso: *pisao, kupovao, čitala*. Terminado: *napisao, kupio, poslao, pročitala*.
+332 Una carta que llevó toda la tarde, una estampilla que llevó tres tiendas, y una abuela feliz. Toca **ES** junto a cualquier oración para ver su traducción.
+333 Palabras pasivas: *brisao* (borraba), *usput* (de paso), *plakala od sreće* (lloró de felicidad).
+334 Marko je pisao pismo cijelo poslijepodne. | Marko estuvo escribiendo una carta toda la tarde.
+335 Pisao je, brisao i opet pisao. | Escribía, borraba y volvía a escribir.
+336 Napokon je napisao pismo! | ¡Por fin terminó de escribir la carta!
+337 Usput je popio tri kave i pojeo je cijelu čokoladu. | De paso se tomó tres cafés y se comió todo un chocolate.
+338 Zatim je kupovao marku — tri trgovine! — i napokon je kupio jednu. | Luego estuvo buscando una estampilla – ¡tres tiendas! – y por fin compró una.
+339 Poslao je pismo u podne. Komu? Baki, naravno. | Mandó la carta al mediodía. ¿A quién? A la abuela, claro.
+340 Baka je čitala pismo polako. | La abuela leía la carta despacio.
+341 Pročitala je pismo dva puta i plakala je od sreće. | Leyó la carta completa dos veces y lloró de felicidad.
+342 Comprensión sobre la carta. Algunas preguntas piden cuánto tiempo duró algo – la respuesta está junto a un imperfectivo (*pisao je cijelo poslijepodne*) – y otras qué quedó hecho: *popio je, poslao je, pročitala je*.
+343 Cuánto tiempo → junto a *pisao*. Qué quedó hecho → *popio, poslao, pročitala*.
+344 Clasificar los verbos del texto según su gemelo. El imperfectivo describe algo que duró (*pisao je, kupovao je, čitala je*); el perfectivo una sola acción terminada (*napisao je, kupio je, poslao je*).
+345 En curso → PROCESO. Terminado → TERMINADO.
+346 TERMINADO
+347 ¿Proceso o terminado? Clasifica los verbos del texto.
+348 Texto 2: Dos verbos, un día
+349 Un texto corto armado con pares: en cada oración una persona se toma su tiempo y otra termina. Quien narra es una mujer (*jela sam, čitala sam*), y las terminaciones de *učila, naučila, pila, popio* muestran quién hizo qué.
+350 En cada oración: un gemelo se toma su tiempo, el otro termina.
+351 Una familia, una mesa y dos tipos de verbos. Toca **ES** para ver cualquier línea en español.
+352 Palabras pasivas: *dolaze u parovima* (vienen en pares), *razlika* (diferencia), *važna* (importante), *traje* (dura), *završava posao* (termina el trabajo).
+353 Hrvatski glagoli dolaze u parovima. | Los verbos croatas vienen en pares.
+354 Ana je učila cijelu večer — i naučila je sve! | Ana estuvo estudiando toda la noche – ¡y se lo aprendió todo!
+355 Ja sam jela juhu pola sata, a brat je pojeo juhu za dvije minute. | Yo estuve comiendo sopa media hora, mientras que mi hermano se terminó la sopa en dos minutos.
+356 Mama je pila kavu polako, a tata je popio kavu odmah. | Mamá tomaba el café despacio, mientras que papá se lo tomó enseguida.
+357 Ja sam čitala knjigu cijeli tjedan, a sestra je pročitala knjigu za jedan dan. | Yo estuve leyendo un libro toda la semana, mientras que mi hermana leyó su libro completo en un día.
+358 Razlika je mala, ali važna: jedan glagol traje, a drugi završava posao! | La diferencia es pequeña, pero importante: ¡un verbo dura, y el otro termina el trabajo!
+359 ¿Quién lo hizo y cómo?
+360 Cada persona del Texto 2 junto a lo que hizo. Unos se tomaron su tiempo (*pila kavu polako, jela juhu pola sata*) y otros terminaron rápido (*pojeo juhu za dvije minute, popio kavu odmah*). La terminación del participio concuerda con la persona.
+361 Tomándose su tiempo: *pila polako*. Terminó rápido: *pojeo za dvije minute*.
+362 ¿Quién lo hizo y cómo? Une según el texto.
+363 Escribe el gemelo correcto
+364 Copia el gemelo correcto de vuelta en su línea. El paréntesis da el infinitivo del gemelo que necesitas; las palabras de tiempo de la oración lo confirman – *cijelu večer, polako, cijeli tjedan* para el imperfectivo, *odmah, za dvije minute, za jedan dan* para el perfectivo.
+365 *cijelu večer, polako* → imperfectivo; *odmah, za dvije minute* → perfectivo.
+366 Completa el gemelo correcto a partir del texto.
+367 Texto 3: ¿Terminaste la tarea?
+368 Una mamá le pregunta a Marko por su tarea, y cada respuesta depende del gemelo. *Pisao sam* significa que estuvo en eso; *napisao sam pola* significa que la mitad está hecha. La última línea es un perfectivo en presente para algo que siempre hace hasta el final: *pogledaš do kraja*.
+369 *Pisao sam* – en eso. *Napisao sam pola* – la mitad hecha. *Pogledaš do kraja* – siempre hasta el final.
+370 Una mamá, un hijo y una tarde muy larga. Toca **ES** para ver cualquier línea en español.
+371 Palabras pasivas: *završio* (terminaste), *Koliko?* (¿Cuánto?), *do kraja* (hasta el final).
+372 — Marko, jesi li napisao zadaću? | — Marko, ¿terminaste la tarea?
+373 — Pisao sam zadaću cijelu večer... | — Estuve haciendo la tarea toda la noche...
+374 — Ali jesi li završio? | — Pero ¿la terminaste?
+375 — Skoro! Napisao sam pola. | — ¡Casi! Hice la mitad.
+376 — A lektira? Jesi li pročitao knjigu? | — ¿Y la lectura obligatoria? ¿Leíste el libro?
+377 — Čitao sam... | — Estuve leyendo...
+378 — Koliko? | — ¿Cuánto?
+379 — Jednu stranicu. | — Una página.
+380 — Marko! A film za školu? Jesi li pogledao film? | — ¡Marko! ¿Y la película para la escuela? ¿Viste la película?
+381 — Film sam pogledao! Dva puta! | — ¡La película sí la vi! ¡Dos veces!
+382 — Naravno... Filmove uvijek pogledaš do kraja! | — Claro... ¡Las películas siempre las ves hasta el final!
+383 Compara cada afirmación con el interrogatorio. Los gemelos llevan los hechos: *pisao sam* y *čitao sam* significan que el trabajo no está terminado, *napisao sam pola* que la mitad está hecha, y *pogledao sam* que la película se vio hasta el final – dos veces.
+384 *pisao, čitao* → no terminado. *napisao pola* → la mitad. *pogledao* → toda la película.
+385 ¿Qué significa de verdad?
+386 Lo que de verdad dice cada respuesta. El imperfectivo (*pisao sam, čitao sam*) describe la actividad y no dice nada sobre terminarla. El perfectivo (*napisao sam pola, pogledao sam*) afirma un resultado terminado – aquí, la mitad de la tarea y toda la película.
+387 *pisao, čitao* → la actividad, sin terminar. *napisao pola, pogledao* → un resultado terminado.
+388 El aspecto cuenta la historia – ¿qué significa de verdad cada respuesta?
+389 Texto 4: La lista del sábado
+390 Una lista real de pendientes en el refrigerador, y la nota de mamá al final. Cada tarea es un infinitivo perfectivo – el trabajo tiene que quedar terminado: *oprati auto, skuhati ručak, poslati e-mail*. Una palomita significa hecho, una cruz significa todavía no.
+391 Una lista real: *oprati, skuhati, poslati*. ✓ = hecho, ✗ = no hecho.
+392 La lista de Marko para el sábado, con palomitas. Toca **ES** para ver cualquier línea en español.
+393 Palabras pasivas: *popis* (lista), *zalijevao* (regaba), *nije još* (todavía no), *Bravo, ali…* (Bien hecho, pero…).
+394 ✓ oprati auto | ✓ lavar el auto
+395 ✓ skuhati ručak | ✓ cocinar el almuerzo
+396 ✗ poslati e-mail baki | ✗ mandarle un correo a la abuela
+397 ✓ kupiti kruh i mlijeko | ✓ comprar pan y leche
+398 ✗ napisati zadaću | ✗ hacer la tarea
+399 ✓ pročitati deset stranica lektire | ✓ leer diez páginas del libro
+400 Mama: "Bravo, auto si oprao i ručak si skuhao. Ali zadaću nisi napisao, a baka još čeka e-mail!" | Mamá: “Bien hecho, lavaste el auto y cocinaste el almuerzo. Pero no hiciste la tarea, ¡y la abuela todavía espera el correo!”
+401 ¿Qué hizo Marko?
+402 Leer la lista buscando lo que está terminado. Una palomita significa que el perfectivo pasó – *oprao je auto* – y una cruz que no: *nije napisao zadaću*. La nota de mamá al final confirma las dos tareas que siguen pendientes.
+403 ✓ → *oprao je*. ✗ → *nije napisao*. La nota de mamá lo confirma.
+404 Responde a partir de la lista.
+405 Texto 5: ¿Quién terminó qué?
+406 Un acertijo más que una historia. Cuatro amigos terminaron cada uno un trabajo el sábado, y cada pista descarta algo. Las pistas de Petra deciden primero su trabajo; después, basta una pista más sobre Ana.
+407 Cada pista descarta algo. Empieza por Petra.
+408 Cuatro amigos, cuatro trabajos terminados, sin etiquetas. Léelo dos veces antes de responder.
+409 Palabras pasivas: *svatko* (cada uno), *jedan posao* (un trabajo), *ne zna kuhati* (no sabe cocinar).
+410 U subotu su Ana, Marko, Petra i Ivan radili doma. | El sábado Ana, Marko, Petra e Ivan estuvieron trabajando en casa.
+411 Svatko je završio jedan posao: netko je napisao pismo, netko je pročitao knjigu, netko je skuhao juhu, a netko je oprao auto. | Cada uno terminó un trabajo: alguien escribió una carta, alguien leyó un libro, alguien cocinó una sopa y alguien lavó el auto.
+412 Ana nije ni kuhala ni prala. | Ana no cocinó ni lavó.
+413 Marko je cijeli dan čitao, ali knjigu nije pročitao. | Marko estuvo leyendo todo el día, pero no terminó el libro.
+414 Ivan nije napisao pismo i nije oprao auto. | Ivan no escribió la carta y no lavó el auto.
+415 Petra ne zna kuhati i nije ni pisala ni čitala. | Petra no sabe cocinar, y no escribió ni leyó.
+416 Ana nije pročitala knjigu. | Ana no terminó el libro.
+417 Tko je što napravio? | ¿Quién hizo qué?
+418 Deducción a partir de las pistas. Petra no cocinó, ni escribió, ni leyó, así que lavó el auto. Ana no cocinó ni terminó el libro, así que escribió la carta. Marko no terminó el libro, así que cocinó la sopa, e Ivan leyó el libro.
+419 Primero Petra (el auto), luego Ana (la carta), Marko (la sopa), Ivan (el libro).
+420 Toca el prefijo de los textos
+421 Un toque delante del verbo decide el gemelo, y casi todas las oraciones vienen de los cinco textos. Agrega *na-, po-* o *pro-* para una sola acción terminada (*napokon, odmah, za jedan dan, dva puta*); déjalo fuera, con la raya, para una acción que duró (*cijelo poslijepodne, polako, cijeli tjedan*).
+422 terminada una vez → *na- / po- / pro-*; en curso → raya.
+423 Casi todas las oraciones salieron de los cinco textos. Un toque agrega un prefijo – o ninguno.
+424 Marko estuvo escribiendo una carta toda la tarde.
+425 ¡Por fin terminó de escribir la carta!
+426 De paso se tomó tres cafés.
+427 La abuela leía la carta despacio.
+428 Leyó la carta completa dos veces.
+429 ¡Ana se lo aprendió todo!
+430 Mamá tomaba el café despacio.
+431 Papá se tomó el café enseguida.
+432 Mi hermano se terminó la sopa en dos minutos.
+433 Mi hermana leyó el libro en un día.
+434 Estuve leyendo un libro toda la semana.
+435 ¡Casi! Hice la mitad.
+436 ¡Vi la película! ¡Dos veces!
+437 Estuve haciendo la tarea toda la noche, pero no la terminé.
+438 Marko estuvo leyendo todo el día.
+439 Ivan terminó de leer el libro.
+440 Ahora explicas TÚ
+441 Te toca: la maestra te pregunta por tu tarea y por el libro, y tus respuestas dependen del gemelo – terminado (*napisao / napisala sam*) o todavía en curso (*pisao / pisala sam*). La maestra reacciona a lo que dices y no supone tu género.
+442 Terminado: *napisao / napisala sam*. En curso: *pisao / pisala sam*. La maestra reacciona.
+443 Lunes en la mañana, y la maestra está revisando. Elige tus respuestas. Palabras pasivas: *do srijede* (para el miércoles), *vidjet ćemo* (ya veremos), *u redu* (está bien), *pokaži mi* (muéstrame), *O čemu je…?* (¿De qué trata…?).
+444 Español de entrada, croata de salida, armado con fichas tomadas de los cinco textos. El imperfectivo va con *cijelo poslijepodne, polako, cijeli tjedan*; el perfectivo con *napokon, odmah, za dvije minute, dva puta*. *Je, sam* van en segundo lugar.
+445 imperfectivo con *cijelo…, polako*; perfectivo con *napokon, odmah, za…*.
+446 en: Marko estuvo escribiendo una carta toda la tarde.
+447 en: ¡Por fin terminó de escribir la carta!
+448 en: De paso se tomó tres cafés.
+449 en: La abuela leyó la carta completa dos veces.
+450 en: Ana estuvo estudiando toda la noche y se lo aprendió todo.
+451 en: Mamá tomaba el café despacio, y papá se lo tomó enseguida.
+452 en: Mi hermano se terminó la sopa en dos minutos.
+453 en: Estuve haciendo la tarea toda la noche. (un chico)
+454 en: ¡Casi! Hice la mitad.
+455 en: ¡Vi la película dos veces!
+456 en: Lavaste el auto y cocinaste el almuerzo.
+457 en: No hiciste la tarea.
+458 en: Petra lavó el auto.
+459 en: Marko estuvo leyendo todo el día.
+460 en: Ivan leyó el libro.
+461 Un juego contra reloj de imagen y palabra con las cosas de los cinco textos. Todo está en su forma base; di una acción terminada con cada palabra en tu cabeza mientras tocas – *napisao pismo, popio kavu, pojeo čokoladu, oprao auto*.
+462 Formas base. Piensa *napisao pismo, popio kavu*.
+463 ¡Ya va a cerrar el correo! Aparece una imagen – toca el globo con su palabra antes de que se vaya flotando.
+464 Prueba 19: El aspecto verbal
+465 Las palabras del Nivel 19: verbos gemelos, señales de tiempo, palabras de la escuela y de carreras. Los verbos están en infinitivo; en los gemelos, el imperfectivo y el perfectivo se unen por separado, así que lee el español con cuidado.
+466 Palabras del Nivel 19: gemelos, señales de tiempo, escuela y carreras.
+467 aprender (dominar)
+468 dejar enviado
+469 dejar cocinado
+470 terminar de dibujar
+471 dejar lavado
+472 dejar limpio
+473 dar la respuesta
+474 terminar
+475 empezar
+476 continuar
+477 Reconocimiento de las palabras del Nivel 19, con tres significados para elegir. Las opciones incorrectas vienen del mismo grupo, y varias se parecen: *opisati, potpisati, zapisati, prepisati* vienen todas de *pisati*.
+478 Palabras del Nivel 19. Fíjate en la familia de *-pisati*.
+479 olvidar
+480 Clasificar oraciones según el aspecto. Una acción que dura o se repite – con *cijeli dan, dugo, svaki dan, polako* – lleva el imperfectivo. Una sola acción terminada – con *napokon, odmah, već, za dvije minute* – lleva el perfectivo.
+481 Dura, se repite → PROCESO. Una acción terminada → ¡TERMINADO!
+482 Clasificar verbos con prefijo según lo que hace el prefijo. Si solo se agrega *terminado* y la traducción queda igual, el verbo es un gemelo. Si la traducción cambia – *potpisati* (firmar), *opisati* (describir) –, es un verbo nuevo.
+483 Un toque delante del verbo decide el gemelo. Agrega *na-, po-* o *pro-* para una sola acción terminada (*napokon, odmah, za jedan dan*); déjalo fuera, con la raya, para una acción que dura o se repite (*cijeli dan, dugo, svaki dan*).
+484 Por fin terminó de escribir la carta.
+485 Estuvo escribiendo la carta mucho tiempo.
+486 Se tomó el jugo en un minuto.
+487 Estuve leyendo el periódico todo el día.
+488 Leí el libro en un día.
+489 Los niños se comieron los pasteles enseguida.
+490 Ana ya se aprendió la canción.
+491 Vemos la tele toda la tarde.
+492 Petra terminó de dibujar la casa.
+493 Marko mandó la carta al mediodía.
+494 Estudio todo el día.
+495 Se comió el sándwich en dos minutos.
+496 Papá leyó la carta completa dos veces.
+497 Estuvimos haciendo la tarea mucho tiempo.
+498 Elegir el gemelo que va con la oración. Las palabras de tiempo lo deciden: *cijelu večer, dugo, polako, svaki dan* llevan el imperfectivo; *napokon, za dvije minute, odmah, već* llevan el perfectivo. La terminación del participio también tiene que concordar con la persona.
+499 *cijelu večer, dugo, polako* → imperfectivo; *napokon, za…, odmah* → perfectivo.
+500 Elegir el verbo a partir de su significado. Los cinco vienen de *pisati*, y el prefijo marca la diferencia: *potpisati* firma, *zapisati* anota, *opisati* describe, *prepisati* copia, y *napisati* termina de escribir.
+501 =
+502 firmar el documento
+503 terminar de escribir la carta
+504 copiar la tarea
+505 firmar una postal
+506 anotar una dirección
+507 Elegir la orden que pide lo correcto. Una orden imperfectiva pide una actividad o un hábito (*Pij vodu svaki dan!*); una orden perfectiva pide una sola acción terminada, ya (*Popij vodu!*). Después de *nemoj* el verbo es un infinitivo imperfectivo.
+508 hábito → *Pij!*; una acción terminada ya → *Popij!*; *Nemoj pisati!*
+509 ¡Tómate el jugo, ya!
+510 Bebe agua todos los días.
+511 Escribes el participio del gemelo correcto. El paréntesis da los dos infinitivos y quién habla; las palabras de tiempo deciden el gemelo, y quien habla decide la terminación: **-o** para un hombre, **-la** para una mujer, **-li** para un grupo.
+512 Palabras de tiempo → gemelo; quien habla → **-o / -la / -li**.
+513 Napokon sam ___ sve riječi. (učiti / naučiti, habla un hombre)
+514 Jesi li ___ zadaću? (pisati / napisati, a una chica)
+515 Escribes el gemelo perfectivo de cada verbo. La mayoría toman un prefijo – *na-, po-, pro-, s-, o-* – y conservan el resto; los pares con terminación acortan el verbo: *kupovati → kupiti, završavati → završiti*. *Raditi* forma pareja con *napraviti*.
+516 pares con prefijo y pares con terminación; *raditi → napraviti*.
+517 Lectura: el maratón
+518 Una historia corta sobre una carrera, con los dos gemelos. El imperfectivo cuenta lo que duró mucho tiempo (*trčao je, trenirao je*); el perfectivo lo que quedó terminado (*završio je, dobio je, napisao je*). Busca las palabras de tiempo antes de responder.
+519 En curso: *trčao, trenirao*. Terminado: *završio, dobio, napisao*.
+520 Lee el texto y luego responde. Palabras pasivas: *prvih dvadeset kilometara* (los primeros veinte kilómetros), *lako* (fácil), *nije stao* (no se detuvo), *za četiri sata* (en cuatro horas).
+521 Un repaso de los Niveles 14 a 18: el condicional, el imperativo, el genitivo, el instrumental y el dativo, más el perfecto con los dos géneros. Cada pregunta viene de un nivel que ya terminaste.
+522 Repaso: condicional, imperativo, genitivo, instrumental, dativo, el perfecto.
+523 No es sobre el aspecto – todo aquí viene de los niveles 10 a 18.
+524 Jučer sam ___ kolač. (jesti, habla una mujer)
+525 Oraciones completas con los dos gemelos, armadas con fichas. El imperfectivo va con *cijelo poslijepodne, dugo, svaki dan, polako*; el perfectivo con *napokon, odmah, za jedan dan*. *Je, sam, ga* van en segundo lugar, y antes de *a* va una coma.
+526 imperfectivo con *dugo, svaki dan*; perfectivo con *napokon, odmah*. *je, sam, ga* en segundo lugar.
+527 en: Estuvo escribiendo una carta toda la tarde.
+528 en: ¡Por fin terminó de escribir la carta!
+529 en: Ella tomaba el café despacio, y él se lo tomó enseguida.
+530 en: Leí el libro en un día.
+531 en: Leo el periódico todos los días.
+532 en: Estuvo buscando un regalo todo el día y por fin lo compró.
+533 en: La abuela ya cocinó el almuerzo.
+534 en: Por favor, firme aquí.
+535 en: ¡Anota mi número!
+536 en: Describe tu casa.
+537 en: ¡Tómate el jugo!
+538 en: La película empezó a las ocho.
+539 en: Los niños lloraron toda la noche.
+540 en: ¿Terminaste la tarea? (a una chica)
+541 en: De repente empezó a llover.
+542 La abuela cocinó el almuerzo.
+543 De repente empezó a llover.
+544 Ya me aprendí las palabras.
+545 ¿Terminaste la tarea? (a un chico)
+546 Los niños lloraron toda la noche.
