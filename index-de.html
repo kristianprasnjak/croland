@@ -458,6 +458,22 @@
 
   .upisInput { width: 100%; padding: 0.75rem; font-size: var(--t-l); border: 2px solid var(--rub); border-radius: var(--rad-m); text-align: center; margin-bottom: 0.625rem; }
   .upisInput:focus { outline: none; border-color: var(--plava); }
+  /* Upis u samoj recenici: polje stoji na mjestu praznine i izgleda kao crta
+     za upis, pa je jasno da se upisuje samo ta jedna rijec. Siri se dok se pise. */
+  .upisInput.uRecenici {
+    display: inline-block; width: 6.5em; min-width: 6.5em; max-width: 100%;
+    padding: 0.0625rem 0.375rem; margin: 0 0.125rem 0 0.25rem; font: inherit; font-weight: 700;
+    color: var(--plava); border: 0; border-bottom: 2px solid var(--plava);
+    border-radius: var(--rad-xs) var(--rad-xs) 0 0; background: rgba(154,91,82,.07);
+    vertical-align: baseline; text-align: center;
+  }
+  .upisInput.uRecenici:focus { background: rgba(154,91,82,.13); }
+  .upisInput.uRecenici.tocno { border-width: 0 0 2px; color: var(--zelena); }
+  .upisInput.uRecenici.krivo { border-width: 0 0 2px; color: var(--crvena); }
+  /* Ponudeni oblici (topao/topla/toplo) ispod recenice, uz diskretne oznake roda. */
+  .oblici { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.25rem 1.5rem; margin-top: 0.5rem; font-size: var(--t-l); color: var(--ink); }
+  .oblici .oblik { white-space: nowrap; }
+  .oblici .rod { font-size: 0.7em; color: var(--muted); margin-right: 0.3em; letter-spacing: 0.02em; }
   /* hrvatska slova kojih nema na engleskoj tipkovnici */
   .tipkeHr { display: flex; flex-wrap: wrap; gap: 0.375rem; justify-content: center; margin-bottom: 0.75rem; }
   .tipkaHr {
@@ -5527,6 +5543,51 @@
     var zv = zvucnik(txt);
     if (zv) el.appendChild(zv);
   }
+  // Pitanje za upis: praznina "___" postaje polje za upis u samoj recenici.
+  // Ponudeni oblici "topao/topla/toplo" sele se ispod recenice (tri oblika =
+  // muski, zenski, srednji rod: m, f, n), a na njihovo mjesto dolazi praznina.
+  // Slika i zvuk i dalje se traze po izvornom tekstu zadatka.
+  // "kava →" (a odgovor je jedna rijec): polje dolazi odmah iza strelice.
+  // Vraca true kad je polje stavljeno u recenicu.
+  function postaviPitanjeUpis(el, txt, input, jednaRijec) {
+    el.innerHTML = '';
+    var im = elSlikaIgre(txt, 'slikaIgra'); if (im) el.appendChild(im);
+    var prikaz = String(txt), oblici = null;
+    var mo = prikaz.match(/[^\s\/(),.!?]+(?:\/[^\s\/(),.!?]+)+/);
+    if (mo) { oblici = mo[0].split('/'); prikaz = prikaz.replace(mo[0], '___'); }
+    if (prikaz.indexOf('___') === -1 && jednaRijec && /→\s*$/.test(prikaz)) prikaz = prikaz.replace(/\s*$/, ' ___');
+    var k = prikaz.indexOf('___');
+    if (k !== -1) {
+      var prije = prikaz.slice(0, k).replace(/\s+$/, '');
+      var poslije = prikaz.slice(k).replace(/^_+/, '');
+      // "Restoran je ___ ." -> "Restoran je [   ]." (bez razmaka pred interpunkcijom)
+      if (/^\s+[.!?,…]/.test(poslije)) poslije = poslije.replace(/^\s+/, '');
+      else poslije = poslije.replace(/^\s+/, ' ');
+      if (prije) el.appendChild(document.createTextNode(prije + ' '));
+      el.appendChild(input);
+      if (poslije) el.appendChild(document.createTextNode(poslije));
+    } else {
+      el.appendChild(document.createTextNode(prikaz));
+    }
+    var zv = zvucnik(txt);
+    if (zv) el.appendChild(zv);
+    if (oblici) {
+      var rodovi = oblici.length === 3 ? ['m', 'f', 'n'] : null;
+      var red = document.createElement('div'); red.className = 'oblici';
+      oblici.forEach(function (o, j) {
+        var sp = document.createElement('span'); sp.className = 'oblik';
+        if (rodovi) {
+          var r = document.createElement('span'); r.className = 'rod'; r.textContent = rodovi[j];
+          r.title = ['masculine', 'feminine', 'neuter'][j];
+          sp.appendChild(r);
+        }
+        sp.appendChild(document.createTextNode(o));
+        red.appendChild(sp);
+      });
+      el.appendChild(red);
+    }
+    return k !== -1;
+  }
   function ukrasi(el, txt, klasa) {
     var im = elSlikaIgre(txt, klasa || 'slikaMala'); if (im) el.insertBefore(im, el.firstChild);
     return el;
@@ -6950,15 +7011,24 @@
     var jednaRijec = function (p) { return !/\s/.test(String(p[1] || '').split('/')[0].trim()); };
     var recenicni = pitanja.some(function (p) { return /\s/.test(String(p[0] || '').trim()) && jednaRijec(p); });
     var cijele = pitanja.every(function (p) { return !jednaRijec(p); });
-    if (recenicni) s.appendChild(trakaSlusanja('Schreib **nur das fehlende Wort** – nicht den ganzen Satz. Tippe zuerst auf den Lautsprecher und sprich es laut aus.'));
+    if (recenicni) s.appendChild(trakaSlusanja('Schreib **das fehlende Wort**. Tippe zuerst auf den Lautsprecher und sprich es laut aus.'));
     else if (cijele) s.appendChild(trakaSlusanja('Schreib den **ganzen Satz** auf Kroatisch. Tippe zuerst auf den Lautsprecher und sprich ihn laut aus.'));
     var pit = document.createElement('div'); pit.className = 'pitanjeText'; s.appendChild(pit);
     var input = document.createElement('input'); input.className = 'upisInput'; input.type = 'text'; input.autocomplete = 'off';
-    s.appendChild(input);
+    input.setAttribute('autocapitalize', 'off'); input.spellcheck = false;
+    // Polje stoji ili u samoj recenici (na mjestu ___), ili ispod nje kad
+    // praznine nema (prijevod, "kava →", cijela recenica kao odgovor).
+    var drzac = document.createElement('div'); s.appendChild(drzac);
     s.appendChild(tipkeSlova(input));
     var otkr = document.createElement('div'); otkr.className = 'otkriveno'; s.appendChild(otkr);
     var btn = document.createElement('button'); btn.className = 'gumb'; btn.style.marginTop = '0'; btn.textContent = 'Prüfen';
     s.appendChild(btn);
+    // Polje u recenici raste s upisanim tekstom (sirina ne odaje duljinu odgovora).
+    function prilagodiSirinu() {
+      if (!input.classList.contains('uRecenici')) { input.style.width = ''; return; }
+      input.style.width = Math.max(6.5, input.value.length * 0.62 + 1.5) + 'em';
+    }
+    input.addEventListener('input', prilagodiSirinu);
     function prikazi() {
       if (i >= pitanja.length) {
         kraj('Richtig: ' + tocno + '/' + pitanja.length, tocno / pitanja.length);
@@ -6966,9 +7036,11 @@
       }
       setStat('Aufgabe: ' + (i + 1) + '/' + pitanja.length, 'Richtig: ' + tocno);
       rijeseno = false;
-      postaviPitanje(pit, pitanja[i][0]);
+      var uRecenici = postaviPitanjeUpis(pit, pitanja[i][0], input, jednaRijec(pitanja[i]));
+      input.classList.toggle('uRecenici', uRecenici);
+      if (!uRecenici) drzac.appendChild(input);
       otkr.textContent = '';
-      input.value = ''; input.classList.remove('krivo', 'tocno'); input.focus();
+      input.value = ''; input.classList.remove('krivo', 'tocno'); prilagodiSirinu(); input.focus();
     }
     function provjeri() {
       if (gotovo || rijeseno || i >= pitanja.length) return;
