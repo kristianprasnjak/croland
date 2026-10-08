@@ -106,6 +106,12 @@
     --rad-l:   0.875rem;   /* ploče, veće kartice */
     --rad-xl:  1.125rem;   /* modali, bočni paneli */
 
+    /* SLIKE U VJEŽBAMA — najmanja veličina slike uz riječ u vježbi.
+       Slike se ne smanjuju ispod ovoga: premala slika nema smisla. Promijeni
+       samo ovaj broj i sve slike u vježbama narastu zajedno. Lokalno (localhost,
+       file://) svaka manja slika dobije crveni okvir — vidi KONTROLA VELIČINE SLIKA. */
+    --slika-min: 6rem;     /* 96 px */
+
     --bg: #f6f3ee; --card: #fffdfa; --ink: #191713; --muted: #8b8377;
     --plava: #9a5b52; --zelena: #2f6d4f; --crvena: #c2413c; --rub: #e3ddd2;
     --zlatna: #8a6d1f;
@@ -383,6 +389,43 @@
   .tocno { border-color: var(--zelena) !important; background: #eaf3ec !important; color: var(--zelena); cursor: default; }
   .krivo { border-color: var(--crvena) !important; background: #fbeceb !important; animation: tres .3s; }
   @keyframes tres { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+
+  /* ---- Spajanje parova (takeParovi) ----
+     Kartica ostaje svijetla u svakom stanju: slike imaju bijelu pozadinu, pa
+     bi zelena ili crvena pozadina kartice oko njih izgledala prljavo. Stanje
+     se vidi po rubu i znački (✓ / ✕). Riješeni par nakon trena seli u traku
+     ispod stupaca, pa gore ostaje samo ono što još treba spojiti. */
+  .stupci .rijec { position: relative; transition: background .15s, border-color .15s, box-shadow .15s, transform .15s, opacity .25s; }
+  .stupci.saSlikama .rijec { min-height: calc(var(--slika-min) + 4rem); }
+  .stupci.saSlikama .rijec:not(:has(img)) { display: flex; align-items: center; justify-content: center; font-size: var(--t-xl); }
+  .stupci .rijec.odabrano {
+    background: var(--card) !important; border-color: var(--plava) !important;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--plava) 22%, transparent); transform: translateY(-2px);
+  }
+  .stupci .rijec.tocno, .stupci .rijec.krivo { background: var(--card) !important; color: var(--ink); }
+  .stupci .rijec.tocno::after, .stupci .rijec.krivo::after {
+    position: absolute; top: -0.5rem; right: -0.5rem; width: 1.625rem; height: 1.625rem; border-radius: 50%; border: 2px solid var(--card); z-index: 1;
+    display: grid; place-items: center; color: #fff; font-size: 0.85rem; font-weight: 700; line-height: 1;
+  }
+  .stupci .rijec.tocno::after { content: '✓'; background: var(--zelena); }
+  .stupci .rijec.krivo::after { content: '✕'; background: var(--crvena); }
+  .stupci .rijec.odlazi { opacity: 0; transform: scale(.96); }
+  .spojeniParovi {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.625rem;
+    margin-top: 1rem; padding-top: 1rem; border-top: 2px dashed var(--rub);
+  }
+  .spojeniParovi:empty { display: none; }
+  .spojenPar {
+    display: flex; align-items: center; gap: 0.875rem; padding: 0.5rem 0.75rem;
+    border: 1px solid var(--rub); border-left: 4px solid var(--zelena); border-radius: var(--rad-m);
+    background: var(--papir); animation: dolazi .3s ease-out;
+  }
+  .spojenPar .slikaMala { margin: 0; }
+  .spojenPar .parTekst { display: flex; flex-direction: column; gap: 0.125rem; min-width: 0; }
+  .spojenPar .parHr { display: flex; align-items: center; gap: 0.375rem; font-size: var(--t-l); color: var(--ink); }
+  .spojenPar .parEn { font-size: var(--t-m); color: var(--muted); }
+  @keyframes dolazi { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .stupci .rijec, .spojenPar { transition: none; animation: none; } }
 
   .pitanjeText { font-size: var(--t-xl); text-align: center; margin-bottom: 1rem; line-height: 1.5; }
   .opcije { display: flex; flex-direction: column; gap: 0.625rem; }
@@ -713,7 +756,17 @@
   .msgNpc { background: #f0ece4; align-self: flex-start; border-bottom-left-radius: var(--rad-xs); }
   .msgTi { background: #f4ebe9; align-self: flex-end; border-bottom-right-radius: var(--rad-xs); }
   .slikaIgra { display: block; max-width: 100%; max-height: 10rem; margin: 0 auto 0.625rem; border-radius: var(--rad-m); object-fit: contain; }
-  .slikaMala { display: block; max-width: 100%; max-height: 4rem; margin: 0 auto 0.375rem; border-radius: var(--rad-s); object-fit: contain; }
+  /* Slika uz riječ stoji na vlastitoj bijeloj pločici istog kvadrata, pa slike s
+     bijelom i s prozirnom pozadinom izgledaju jednako, i jednako su velike. */
+  .slikaMala {
+    /* visina je fiksna, širina prati sliku: široka slika (npr. lampa 512x279)
+       smije biti šira, ali nikad uža od kvadrata --slika-min */
+    display: block; flex: none; height: var(--slika-min); width: auto;
+    min-width: var(--slika-min); max-width: 100%;
+    margin: 0 auto 0.5rem; padding: 0.375rem; object-fit: contain;
+    background: #fff; border-radius: var(--rad-m);
+    box-shadow: inset 0 0 0 1px var(--rub), 0 1px 2px rgba(0,0,0,.06);
+  }
   .slikaMem { display: block; max-width: 90%; max-height: 2.5rem; margin: 0 auto 0.125rem; border-radius: var(--rad-xs); object-fit: contain; }
   .rijecMem { font-size: var(--t-s); font-weight: 600; line-height: 1.15; word-break: break-word; }
   .rijecMem.samo { font-size: var(--t-l); }
@@ -5295,6 +5348,31 @@
   }
   // isto kao elSlika, ali poštuje pravilo "sve ili nijedna" — koriste ga mehanike
   function elSlikaIgre(txt, klasa) { return slikeVjezbe ? elSlika(txt, klasa) : null; }
+  // ---- KONTROLA VELIČINE SLIKA (samo lokalno) ----
+  // Na localhostu i file:// svaka slika vježbe prikazana manjom od --slika-min
+  // dobije crveni okvir i poruku "[slika premala]" u konzoli. Na objavljenoj
+  // stranici ne radi ništa — korisnici je nikad ne vide.
+  (function () {
+    var h = location.hostname;
+    if (!(location.protocol === 'file:' || h === 'localhost' || h === '127.0.0.1' || h === '')) return;
+    function minPx() {
+      var root = getComputedStyle(document.documentElement);
+      var v = root.getPropertyValue('--slika-min').trim(), rem = parseFloat(root.fontSize) || 16;
+      return /rem$/.test(v) ? parseFloat(v) * rem : (parseFloat(v) || 96);
+    }
+    function provjeri(im) {
+      if (!im.isConnected || !im.offsetParent) return;
+      var r = im.getBoundingClientRect(), m = minPx() - 1;
+      if (r.width < m && r.height < m) {
+        im.style.outline = '3px solid red';
+        console.warn('[slika premala]', Math.round(r.width) + 'x' + Math.round(r.height) + ' px', im.className, im.getAttribute('src'));
+      }
+    }
+    document.addEventListener('load', function (e) {
+      var im = e.target;
+      if (im && im.tagName === 'IMG' && /(^|\s)slika/.test(im.className)) setTimeout(function () { provjeri(im); }, 300);
+    }, true);
+  })();
   // ---- zvuk: izgovor riječi (zvuk/<rijec>.mp3) ----
   // Samo pojedinačne riječi (rečenice još nemaju snimke). Bez automatskog puštanja.
   var audioTren = null;
@@ -6609,6 +6687,20 @@
     var kolL = document.createElement('div'); kolL.className = 'stupac';
     var kolR = document.createElement('div'); kolR.className = 'stupac';
     red.appendChild(kolL); red.appendChild(kolR); s.appendChild(red);
+    // Traka riješenih parova ispod stupaca (vidi CSS "Spajanje parova").
+    var traka = document.createElement('div'); traka.className = 'spojeniParovi'; s.appendChild(traka);
+    function uTraku(l, d) {
+      var par = document.createElement('div'); par.className = 'spojenPar';
+      var im = l.querySelector('img') || d.querySelector('img'); if (im) par.appendChild(im);
+      var t = document.createElement('div'); t.className = 'parTekst';
+      var h = document.createElement('div'); h.className = 'parHr'; h.textContent = l.dataset.r;
+      var zv = zvucnik(l.dataset.r); if (zv) h.appendChild(zv);
+      var e = document.createElement('div'); e.className = 'parEn'; e.textContent = d.dataset.r;
+      t.appendChild(h); t.appendChild(e); par.appendChild(t);
+      traka.appendChild(par);
+      if (l.parentNode) l.parentNode.removeChild(l);
+      if (d.parentNode) d.parentNode.removeChild(d);
+    }
     function klik(el, strana) {
       if (gotovo || el.classList.contains('tocno')) return;
       if (strana === 'hr') { if (odL) odL.classList.remove('odabrano'); odL = el; }
@@ -6621,6 +6713,8 @@
         if (ok) {
           l.classList.remove('odabrano'); d.classList.remove('odabrano');
           l.classList.add('tocno'); d.classList.add('tocno');
+          setTimeout(function () { l.classList.add('odlazi'); d.classList.add('odlazi'); }, 550);
+          setTimeout(function () { uTraku(l, d); }, 800);
           spojeno++;
           setStat('Unidas: ' + spojeno + '/' + parovi.length, 'Errores: ' + greske);
           if (spojeno === parovi.length) {
@@ -6645,6 +6739,7 @@
       e.dataset.r = en;
       e.onclick = function () { klik(e, 'en'); }; kolR.appendChild(e);
     });
+    if (red.querySelector('img')) red.classList.add('saSlikama');
   }
   function takeMemorija() {
     var parovi = uzorakSvjez(igra.stavke, 8);

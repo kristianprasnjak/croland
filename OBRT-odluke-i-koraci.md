@@ -1,13 +1,14 @@
 # Obrt za Croland — odluke i koraci
 
-**Stanje: 27. 9. 2026.** Sažetak razgovora s Claudeom. Nije porezni savjet; točke s oznakom **(potvrdi)** pitati HOK ili knjigovođu.
+**Stanje: 8. 10. 2026.** Sažetak razgovora s Claudeom. Nije porezni savjet; točke s oznakom **(potvrdi)** pitati HOK ili knjigovođu.
 
 ## Donesene odluke
 
 - **Paušalni obrt kao druga djelatnost**, uz posao u školi. Doprinosi se plaćaju jednom godišnje po rješenju.
-- **Djelatnost: izrada i izdavanje softvera (web aplikacija), a ne edukacija.** Prijedlog šifri iz NKD 2025:
-  - **62.10** Računalno programiranje
-  - **58.29** Izdavanje ostalog softvera — Croland je vlastiti softver koji se prodaje kao pretplata
+- **Djelatnost: izdavanje softvera, a ne edukacija.** Potvrđeno 8. 10. prema objašnjenjima NACE Rev. 2.1, na kojima se temelji NKD 2025:
+  - **58.29 Ostalo izdavanje softvera — PRETEŽITA.** Skupina 58.2 obuhvaća izdavanje vlastitog softvera i aplikacija te njihov razvoj i održavanje. Pod 60.39 ide samo online softver koji nije povezan s izdavanjem, dakle tuđi. Isto vrijedi za web, Android i iOS te za modele naplate pretplatom i reklamama.
+  - **62.10 Računalno programiranje — dodatna** (samo za eventualni rad po narudžbi)
+  - Ako jednom izdaš **igru**, dodaje se **58.21 Izdavanje videoigara**. Djelatnosti **58.1x (knjige, časopisi) ne upisivati**, jer povlače turističku članarinu.
 - **Naplata isključivo preko Paddlea**, koji je posrednik u prodaji (merchant of record):
   - Paddle kupcima prodaje, obračunava PDV u cijelom svijetu i izdaje im račune.
   - Ja izdajem jedan račun mjesečno Paddleu (Paddle.com Market Ltd, UK). Nema fiskalizacije, nema e-računa, ne treba obrazac ZP.
@@ -20,8 +21,8 @@
 ## Koraci
 
 ### A. Prije otvaranja
-1. Suglasnost škole u pisanom obliku. Traži je i uz djelatnost softvera, jer je Croland po sadržaju obrazovni proizvod.
-2. Podaci obrta: naziv, sjedište, djelatnosti 62.10 i 58.29.
+1. ~~Suglasnost škole~~ **zakonski nije potrebna** (MRMS, čl. 101 Zakona o radu). Zabrana natjecanja odnosi se samo na poslove iz djelatnosti poslodavca, a to je obrazovanje, ne izdavanje softvera. TKU za javne službe nema posebnu odredbu o tome. Preporuka: kratka pisana obavijest ravnatelju. Ne raditi u radno vrijeme ni na školskoj opremi i ne prodavati vlastitim učenicima.
+2. Podaci obrta: naziv **„Web n Apps”** (odluka 8. 10.; puni: *WEB N APPS, obrt za izdavanje softvera, vl. Kristian Prašnjak, [mjesto]*). Naziv obrta je neutralan i odvojen od branda: Croland i buduće aplikacije mogu se zvati kako god, bez promjene obrta. „Cro” u nazivu obrta tražio bi odobrenje Ministarstva pravosuđa. Sjedište je u stanu roditelja (adresa će biti javno vidljiva na webu i u trgovinama aplikacija), djelatnosti 58.29 (pretežita) i 62.10. Ako sjedište nije u tvojoj nekretnini, treba izjava vlasnika ili ugovor o zakupu.
 3. Paddle u testnom načinu rada (sandbox) dok se prebacuje kod.
 
 ### B. Tjedan otvaranja
@@ -49,7 +50,7 @@
 ### E. Godišnje
 20. PO-SD do 15. siječnja
 21. Doprinosi po rješenju, u 1. razredu ≈ 297 €
-22. Turistička članarina: plaća li se za 62.10 i 58.29? **(potvrdi)**
+22. ~~Turistička članarina~~: **ne plaća se.** U popisu iz čl. 5 Zakona o članarinama u TZ nema ni 58.2x ni 62.xx; od izdavaštva su tamo samo 58.11–58.19.
 23. Članarina HOK-u od treće godine, ≈ 137 € godišnje
 
 ### Pratiti
@@ -61,5 +62,5 @@
 ## Otvorena pitanja
 1. Porezna uprava: može li paušalist iznad 10.000 € prodaje u EU koristiti OSS bez ulaska u sustav PDV-a? Kod Paddlea to pitanje ne nastaje, ali odgovor treba znati.
 2. Knjigovođa: upisuje li se u KPR Paddleova isplata ili nešto drugo, i po kojem tečaju?
-3. Knjigovođa: HZMO i HZZO kod druge djelatnosti (točka 9), turistička članarina (točka 22)
+3. Knjigovođa: HZMO i HZZO kod druge djelatnosti (točka 9)
 4. Paddle: dopuštaju li uvjeti prodaju istog proizvoda i drugdje? (važno samo ako se kasnije uvodi Stripe)
