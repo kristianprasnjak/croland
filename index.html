@@ -1265,7 +1265,7 @@
     position: fixed; inset: 0; background: rgba(29,27,23,.5); z-index: 100;
     display: flex; align-items: center; justify-content: center; padding: 1rem;
   }
-  #kontrole { display: flex; gap: 0.625rem; justify-content: center; margin-top: 1.25rem; }
+  #kontrole { display: flex; flex-wrap: wrap; gap: 0.625rem; justify-content: center; margin-top: 1.25rem; }
   #kontrole .gumb { font-size: .85em; padding: 0.5rem 0.875rem; margin: 0; }
 
   /* ============ LESSON 0 — mehanike, traka abecede, lebdeći rječnik ============ */
@@ -11089,7 +11089,6 @@
     var naslovC = 'Test ' + razina + (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '');
     VIEW.innerHTML =
       '<div class="traka">' +
-      '<button class="natrag" onclick="idi(\'lessons\')">‹ Back</button>' +
       '<h2>' + naslovC + '</h2>' +
       '</div>' +
       '<div class="testUvod">' +
@@ -11104,7 +11103,7 @@
       '</ul>' +
       (prije > 0 ? '<div class="testUpozorenje">' + T_('Your best so far: <strong>%1</strong>/%2 points. Only a better result replaces it.', prije, maks) + '</div>' : '') +
       '<button class="gumb" id="btnTestStart">Start the test →</button>' +
-      '<div class="testUpozorenje">Leaving before the end means this attempt does not count.</div>' +
+      '<div class="testUpozorenje">Need to stop early? Press <strong>Finish test</strong> and everything you answered still counts. Leaving the page any other way discards the attempt.</div>' +
       '</div>';
     $('btnTestStart').onclick = function () { testPokreni(razina); };
   }
@@ -11136,12 +11135,10 @@
     trakaVidljiva(false); rjecnikVidljiv(false);
     VIEW.innerHTML =
       '<div class="traka">' +
-      '<button class="natrag" id="btnTestIzlaz">‹ Quit</button>' +
       '<h2>Test ' + T.razina + '</h2>' +
       '<div class="progresBar"><div style="width:' + Math.round(T.i / T.igre.length * 100) + '%"></div></div>' +
       '<span style="font-size:var(--t-s);color:var(--muted)">' + (T.i + 1) + '/' + T.igre.length + '</span>' +
       '<span class="testSat" id="testSat">' + mmss(T.preostalo) + '</span>' +
-      '<button class="testPauza" id="btnTestPauza">' + IK('pauza', 'uz') + 'Pause</button>' +
       '</div>' +
       '<div id="opisIgre"></div>' +
       '<div id="ploca">' +
@@ -11151,14 +11148,16 @@
       '<button class="gumb" id="btnDalje" style="display:none"></button>' +
       '<button class="gumb gumbSivi" id="btnPonovno" style="display:none"></button></div>' +
       '<div id="kontrole">' +
+      '<button class="gumb gumbSivi" id="btnTestPauza">' + IK('pauza', 'uz') + 'Pause</button>' +
       '<button class="gumb gumbSivi" id="btnPredaj">' + IK('preskoci', 'uz') + 'Skip this exercise</button>' +
+      '<button class="gumb gumbSivi" id="btnTestKraj">' + IK('zastava', 'uz') + 'Finish test</button>' +
       '</div></div>';
     $('opisIgre').innerHTML = (igra.naslov ? esc(igra.naslov) + (igra.meta && igra.meta.opis ? ' — ' : '') : '') +
       ((igra.meta && igra.meta.opis) ? mdInline(igra.meta.opis) : '');
-    $('btnTestIzlaz').onclick = function () {
-      potvrdi('Quit the test?',
-        'The test is graded in one sitting. If you leave now, this attempt does not count and nothing is recorded.',
-        function () { testPrekini(); idi('lessons'); });
+    $('btnTestKraj').onclick = function () {
+      potvrdi('Finish the test now?',
+        'Your result is calculated now. This exercise is scored with what you have answered so far; exercises you have not reached score 0.',
+        function () { if (uTestu()) testZavrsi('finish'); });
     };
     $('btnTestPauza').onclick = testPauziraj;
     $('btnPredaj').onclick = function () {
@@ -11257,9 +11256,9 @@
     var z = $('testZastor'); if (z) z.remove();
     T.pauza = false;
     // vrijeme je isteklo usred vježbe — plati ono što je stvarno riješeno
-    if (razlog === 'time' && !gotovo && igra && T.rez.length < T.igre.length) {
+    if ((razlog === 'time' || razlog === 'finish') && !gotovo && igra && T.rez.length < T.igre.length) {
       gotovo = true;
-      var p = predaja ? predaja() : { s: 'ran out of time', pct: 0 };
+      var p = predaja ? predaja() : { s: razlog === 'finish' ? 'finished early' : 'ran out of time', pct: 0 };
       var pc = Math.max(0, Math.min(1, p.pct || 0));
       T.rez.push({ igra: igra, sazetak: p.s, pct: pc, osvojeno: Math.round(igra.bodovi * pc) });
     }
@@ -11290,7 +11289,8 @@
       '<div class="sazetak">' +
       '<h2>' + (prosao ? T_('Test %1 passed! 🎉', razina) : T_('Test %1 — not yet 💪', razina)) + '</h2>' +
       '<div style="color:var(--muted)">' +
-        (razlog === 'time' ? 'Time ran out — everything you answered still counts.'
+        (razlog === 'finish' ? 'You finished early — everything you answered still counts.'
+                           : razlog === 'time' ? 'Time ran out — everything you answered still counts.'
                            : 'Whole test, one sitting. Here is how it went.') + '</div>' +
       '<div class="velikiBroj">' + pct + '%</div>' +
       '<div style="color:var(--muted)">' + T_('%1 / %2 points · pass mark %3%', osv, maks, T.prag) + '</div>' +
@@ -11368,7 +11368,7 @@
     if (!jeNula) ponudiSavjetPomaka();
     VIEW.innerHTML =
       '<div class="traka">' +
-      '<button class="natrag" onclick="idi(\'' + natragView + '\')">' + (jeNula ? '‹ Explore the app' : '‹ Back') + '</button>' +
+      (jeNula ? '<button class="natrag" onclick="idi(\'' + natragView + '\')">‹ Explore the app</button>' : '') +
       '<h2>' + (jeNula ? 'Lesson 0' + (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '') : naslovC) + '</h2>' +
       (jeNula ? '' :
         '<div class="progresBar"><div style="width:' + Math.round(indeks / igre.length * 100) + '%"></div></div>' +
@@ -11532,7 +11532,6 @@
 
     VIEW.innerHTML =
       '<div class="traka">' +
-      '<button class="natrag" onclick="idi(\'' + natragView + '\')">‹ Back</button>' +
       '<h2>' + esc(naslovC) + ' — summary</h2>' +
       '<div class="progresBar"><div style="width:100%"></div></div>' +
       '<span style="font-size:var(--t-s);color:var(--muted)">' + IK('zastava', 'uz') + T_('finish') + '</span>' +
