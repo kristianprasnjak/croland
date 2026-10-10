@@ -181,89 +181,96 @@ input.upis{border:0;margin:3px;font-family:var(--tekst);
 }
 /*[/CL-STIL]*/
 
-/* ==== Konoba ==== */
+/* ==== Konoba ====
+   Raspored: gore dva stola (uvijek ista visina), dolje pult. Pločice na
+   pultu su kvadratne i velike koliko ekran dopušta (računa rasporediPult). */
 
-.konobaOmot{display:grid;grid-template-columns:1fr;gap:14px;flex:1}
-.gosti{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;min-height:150px}
-.gost{border:var(--crta);border-radius:0;background:#fff;padding:12px;width:min(320px,100%);
-  box-shadow:0 3px 0 var(--tinta);display:flex;flex-direction:column;gap:6px}
-.gost.gotov{background:#DFF3D2}
-.gost.ljut{background:#FBDCD5}
-.gost .glavaG{font-size:34px}
-.gost .narudzba{font-size:17px;font-weight:700;line-height:1.35}
-.gost .prijevodG{font-size:12px;color:var(--meko);font-style:italic}
-.gost .strpljenje{height:10px;background:var(--papir2);border:2px solid var(--tinta);border-radius:999px;overflow:hidden}
-.gost .strpljenje i{display:block;height:100%;background:var(--zelena);width:100%}
-.gost .stol{font-size:11px;font-weight:800;letter-spacing:.7px;text-transform:uppercase;color:var(--koralj)}
-.gost .doneseno{display:flex;gap:4px;flex-wrap:wrap;min-height:26px}
-.gost .doneseno span{background:var(--papir2);border:2px solid var(--tinta);border-radius:999px;padding:1px 8px;font-size:12px;font-weight:700}
-.pult{border:var(--crta);border-radius:0;background:var(--papir2);padding:12px}
-.pult h3{font-size:13px;text-transform:uppercase;letter-spacing:.8px;color:var(--meko);margin-bottom:8px}
-.pult h3 .spektar{float:right;text-transform:none;letter-spacing:0;font-weight:600;font-size:12px}
-.jela{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
-.jelo{display:flex;flex-direction:column;align-items:center;gap:3px;background:#fff;border:2px solid var(--tinta);
-  border-radius:0;padding:7px 4px;cursor:pointer;font-weight:700;font-size:12px;box-shadow:0 3px 0 var(--tinta)}
-.jelo:hover{background:var(--zut)}
-.jelo:active{transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
-.smjenaTraka{display:flex;gap:10px;align-items:center;font-size:13px;font-weight:700;flex-wrap:wrap}
-.smjenaTraka .oznakaS{background:var(--zut);border:2px solid var(--tinta);border-radius:0;padding:2px 10px}
+.konobaOmot{display:flex;flex-direction:column;gap:10px}
 
-@media (max-width:640px){
-  .konobaOmot{gap:8px}
-  .gosti{gap:6px;min-height:0}
-  .gost{padding:8px;gap:4px}
-  .gost .glavaG{font-size:24px}
-  .gost .narudzba{font-size:14px}
-  .gost .prijevodG{font-size:11px}
-  .gost .doneseno{min-height:20px}
-  .pult{padding:8px}
-  .pult h3{font-size:11px;margin-bottom:5px}
-  .pult h3 .spektar{float:none;display:block;font-size:10px}
-  .jela{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:5px}
-  .jelo{padding:5px 3px;font-size:11px}
-  .smjenaTraka{font-size:12px;gap:6px}
-}
-
-
-/* ---- skriveni prijevod: otkriva se klikom ---- */
-.otkrijEN{font:inherit;font-size:.94em;font-weight:600;line-height:inherit;color:var(--meko);
-  background:transparent;border:0;border-bottom:2px dotted currentColor;border-radius:0;
-  padding:0 2px;margin:0;cursor:pointer;opacity:.7;letter-spacing:.2px;text-align:left}
-.otkrijEN:hover{opacity:1;color:var(--tinta);border-bottom-color:var(--zut)}
-.otkrijEN.otkriven{border-bottom:0;cursor:default;opacity:1;color:inherit;padding:0}
-
-/* ---- pixel izgled ---- */
-.gosti{padding:10px;margin:-2px;min-height:170px;align-items:flex-end;
+/* stolovi */
+.gosti{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;margin:-2px;
   background:url("mini games media/konoba-interijer.png") center bottom/cover,
     linear-gradient(#C58747 0 0) bottom/100% 6px no-repeat,
     repeating-linear-gradient(90deg,#8A5A2E 0 46px,#7A4E27 46px 48px);
   image-rendering:pixelated}
-.gost{border:0;border-radius:0;margin:3px;background:var(--krem);
-  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta),0 7px 0 rgba(43,33,24,.45)}
+.stolMjesto{height:var(--visinaStola,150px);min-width:0;padding:3px}
+.prazanStol{height:100%;background:rgba(255,241,210,.18);
+  box-shadow:0 -2px 0 rgba(43,33,24,.25),0 2px 0 rgba(43,33,24,.25),-2px 0 0 rgba(43,33,24,.25),2px 0 0 rgba(43,33,24,.25)}
+.gost{height:100%;display:flex;flex-direction:column;gap:5px;padding:8px 10px;background:var(--krem);
+  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta),0 7px 0 rgba(43,33,24,.45);
+  animation:blijedi .25s}
 .gost.gotov{background:#DFF3D2}
 .gost.ljut{background:#FBDCD5}
-.gost .stol{font-family:var(--pix);font-weight:600;letter-spacing:.5px}
-.gostLik{flex:none;width:48px;height:48px;background:url("mini games media/konoba-gosti.png") 0 0/576px 48px no-repeat;
-  background-position:calc(var(--gi) * -48px) 0;image-rendering:pixelated}
+.gostVrh{display:flex;align-items:center;gap:7px;flex:none;min-width:0}
+.gost .stol{font-family:var(--pix);font-weight:600;font-size:13px;letter-spacing:.5px;text-transform:uppercase;
+  color:var(--koralj);white-space:nowrap}
+.tipZnak{margin-left:auto;font-size:16px;line-height:1}
+.gostLik{flex:none;width:40px;height:40px;background:url("mini games media/konoba-gosti.png") 0 0/480px 40px no-repeat;
+  background-position:calc(var(--gi) * -40px) 0;image-rendering:pixelated}
 .gostLik b{font-size:0}
 .gostLik.zrcalo{transform:scaleX(-1)}
-.gost .strpljenje{border-radius:0;height:10px}
-.gost .strpljenje i{background:repeating-linear-gradient(90deg,var(--zelena) 0 8px,#6A9E36 8px 10px)}
-.gost .doneseno span{border-radius:0}
-.pult{border:12px solid transparent;border-radius:0;padding:4px;
+.gostTekst{flex:1;min-height:0;overflow:hidden;--vel:17px}
+.gost .narudzba{font-size:var(--vel);font-weight:700;line-height:1.28}
+.gost .prijevodG{font-size:calc(var(--vel) * .8);color:var(--meko);margin-top:4px;line-height:1.3}
+.bezPrijevoda{font-size:.92em}
+.gostDno{display:flex;align-items:center;gap:6px;flex:none;height:24px}
+.gost .strpljenje{flex:1;height:10px;background:var(--papir2);border:2px solid var(--tinta);overflow:hidden}
+.gost .strpljenje i{display:block;height:100%;width:100%;transition:width .3s linear}
+.doneseno{display:flex;gap:3px;flex:none}
+.doneseno .mini{position:relative;display:block;width:24px;height:24px;background:#fff;
+  box-shadow:0 0 0 2px var(--tinta)}
+.doneseno .mini img{width:100%;height:100%;object-fit:contain;display:block}
+.doneseno .mini b{display:none}
+.doneseno .mini.bezSlike b{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;font-size:16px;font-weight:400}
+
+/* pult */
+.pult{border:12px solid transparent;border-radius:0;padding:6px;
   border-image:url("mini games media/ui-okvir-tamni.png") 8 fill / 12px stretch;image-rendering:pixelated}
-.pult h3{font-family:var(--pix);color:#FFF1D2}
-.pult h3 .spektar{font-family:var(--tekst);color:#FFF1D2}
-.jelo{border:0;border-radius:0;margin:3px;background:var(--krem);
-  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta),0 5px 0 rgba(43,33,24,.55)}
-.jelo:hover{background:var(--zut)}
-.jelo:active{transform:translateY(2px);box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta)}
-.smjenaTraka .oznakaS{border-radius:0;font-family:var(--pix);font-weight:600}
-@media (max-width:640px){
-  .gosti{min-height:0;padding:6px}
-  .gostLik{width:32px;height:32px;background-size:384px 32px;background-position:calc(var(--gi) * -32px) 0}
-  .pult{border-width:10px;border-image-width:10px;padding:2px}
+.jela{display:grid;grid-auto-flow:column;gap:var(--razmak,8px);justify-content:center;
+  grid-template-columns:repeat(4,var(--plocica,72px))}
+.jelo{width:var(--plocica,72px);height:var(--plocica,72px);display:block;padding:3px;margin:0;border:0;border-radius:0;
+  background:#fff;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;
+  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta),0 5px 0 rgba(0,0,0,.45)}
+.jelo:active{transform:translateY(2px);
+  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta)}
+.jelo.dobro{box-shadow:0 0 0 4px var(--zelena),0 5px 0 rgba(0,0,0,.45)}
+.slikaJela{position:relative;display:block;width:100%;height:100%;pointer-events:none}
+.slikaJela img{width:100%;height:100%;object-fit:contain;display:block;-webkit-user-drag:none;user-select:none}
+.slikaJela b{display:none}
+.slikaJela.bezSlike b{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;
+  font-weight:400;font-size:calc(var(--plocica,72px) * .58);line-height:1}
+/* hover samo gdje postoji miš — na mobitelu se boja ne "zalijepi" nakon dodira */
+@media (hover:hover){
+  .jelo:hover{box-shadow:0 0 0 4px var(--zut),0 5px 0 rgba(0,0,0,.45)}
 }
+
+/* mobitel: tanji okviri i manji razmaci, da pultu ostane što više mjesta */
+@media (max-width:640px){
+  .omot{padding:4px 4px 6px}
+  .hud,.ploha{border-width:8px;border-image-width:8px}
+  .hud{margin-bottom:4px;padding:0 2px;flex-wrap:nowrap;gap:3px}
+  /* HUD u jednom redu, inače bi narastao čim brojke postanu dvoznamenkaste */
+  .hud .ime{font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .hud .znak{padding:2px 5px;font-size:11.5px;gap:3px;flex:none}
+  .ploha{padding:0}
+  .ploha{gap:0}
+  .konobaOmot{gap:6px}
+  .gosti{gap:4px;padding:4px;--visinaStola:150px}
+  .stolMjesto{padding:3px}
+  .gost{padding:6px 7px;gap:3px}
+  .gost .stol{font-size:11px}
+  .tipZnak{font-size:14px}
+  .gostLik{width:28px;height:28px;background-size:336px 28px;background-position:calc(var(--gi) * -28px) 0}
+  .gostDno{height:20px}
+  .doneseno .mini{width:18px;height:18px}
+  .doneseno .mini.bezSlike b{font-size:12px}
+  .pult{border-width:8px;border-image-width:8px;padding:4px}
+}
+
+/* poruke idu na vrh (preko HUD-a), da ne prekrivaju pult dok se klika */
+.poruka{top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px)}
+.poruka.vidi{transform:translateX(-50%) translateY(0)}
+@media (max-width:640px){ .poruka{top:2px;font-size:13px;padding:7px 14px} }
 </style>
 <script>
 /* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
@@ -647,119 +654,549 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Konoba — posluživanje: 20 smjena, veliki jelovnik, četiri tipa gostiju
-   Mehanika: gost naručuje na hrvatskom (akuzativ + pridjevi), posluživanje
-             klikom po pultu, sat strpljenja. Neki gosti žure, neki se
-             predomisle, a neki ne daju prijevod.
-   Maksimum (skriveno od igrača): 50 bodova × 4 valute
+   Konoba — posluživanje: 20 smjena od doručka do zadnje runde
+   Gost naručuje unaprijed napisanom hrvatskom rečenicom; igrač klikne jela
+   na pultu prije nego gostu ponestane strpljenja. Za stolom su najviše dva
+   gosta. Na pultu su jela iz narudžbi cijele smjene i nekoliko nasumičnih,
+   poredana od pića preko biljaka do životinja, a dva slična jela nikad
+   nisu zajedno. Cijela igra stane na jedan ekran.
+   Maksimum (skriveno od igrača): 10 bodova po narudžbi, strop 1500.
    ===================================================================== */
-
-/* Jelovnik s akuzativom i rodom — narudžbe moraju biti gramatički točne.
-   "v" je mjesto na spektru pulta: niže lijevo, više desno. Pult se ne dijeli
-   u odvojene skupine — sve stoji u jednom nizu koji teče od pića (voda, mlijeko,
-   sokovi, topli napitci, alkohol) preko biljaka (povrće, voće, ugljikohidrati,
-   slatko) do životinja (jaja i mliječno, riba, meso). Miješana jela sjedaju
-   uz svoj glavni sastojak. Zato je isto jelo uvijek na istom mjestu pulta. */
+/* ---------------------------------------------------------------------
+   Jelovnik. "v" je mjesto na pultu: pića, pa biljke, pa životinje —
+   isto jelo uvijek stoji na istom mjestu u nizu.
+   "sk" je skupina sličnih jela: dva jela iz iste skupine nikad nisu
+   zajedno na pultu (ni u narudžbama, ni kao nasumični dodatak).
+   Slika: ../slike/<Ime>.webp (npr. Čaj.webp, Gulaš.webp). Dok slike
+   nema, na pločici stoji emoji.
+   --------------------------------------------------------------------- */
 var JELOVNIK = [
-  /* --- pića --- */
-  {id:'voda',      nom:'voda',      ak:'vodu',      rod:'z',  en:'water',       emo:'💧', v:1},
-  {id:'mlijeko',   nom:'mlijeko',   ak:'mlijeko',   rod:'s',  en:'milk',        emo:'🥛', v:10},
-  {id:'sok',       nom:'sok',       ak:'sok',       rod:'m',  en:'juice',       emo:'🧃', v:20},
-  {id:'limunada',  nom:'limunada',  ak:'limunadu',  rod:'z',  en:'lemonade',    emo:'🍋', v:30},
-  {id:'caj',       nom:'čaj',       ak:'čaj',       rod:'m',  en:'tea',         emo:'🍵', v:40},
-  {id:'kava',      nom:'kava',      ak:'kavu',      rod:'z',  en:'coffee',      emo:'☕', v:50},
-  {id:'kapucino',  nom:'kapučino',  ak:'kapučino',  rod:'m',  en:'cappuccino',  emo:'☕', v:55},
-  {id:'cokolada',  nom:'čokolada',  ak:'čokoladu',  rod:'z',  en:'chocolate',   emo:'🍫', v:60},
-  {id:'vino',      nom:'vino',      ak:'vino',      rod:'s',  en:'wine',        emo:'🍷', v:70},
-  {id:'pivo',      nom:'pivo',      ak:'pivo',      rod:'s',  en:'beer',        emo:'🍺', v:80},
-  {id:'rakija',    nom:'rakija',    ak:'rakiju',    rod:'z',  en:'brandy',      emo:'🥃', v:90},
+  {id:'voda',       nom:'voda',       en:'water',      emo:'💧', v:1},
+  {id:'mlijeko',    nom:'mlijeko',    en:'milk',       emo:'🥛', v:10},
+  {id:'sok',        nom:'sok',        en:'juice',      emo:'🧃', v:20,  sk:'hladnoPice'},
+  {id:'limunada',   nom:'limunada',   en:'lemonade',   emo:'🍋', v:30,  sk:'hladnoPice'},
+  {id:'caj',        nom:'čaj',        en:'tea',        emo:'🍵', v:40,  sk:'soljica'},
+  {id:'kava',       nom:'kava',       en:'coffee',     emo:'☕', v:50,  sk:'soljica'},
+  {id:'kapucino',   nom:'kapučino',   en:'cappuccino', emo:'☕', v:55,  sk:'soljica'},
+  {id:'vino',       nom:'vino',       en:'wine',       emo:'🍷', v:70},
+  {id:'pivo',       nom:'pivo',       en:'beer',       emo:'🍺', v:80},
+  {id:'rakija',     nom:'rakija',     en:'brandy',     emo:'🥃', v:90},
 
-  /* --- biljke: povrće --- */
-  {id:'povrce',    nom:'povrće',    ak:'povrće',    rod:'s',  en:'vegetables',  emo:'🥦', v:110},
-  {id:'salata',    nom:'salata',    ak:'salatu',    rod:'z',  en:'salad',       emo:'🥗', v:120},
-  {id:'krumpir',   nom:'krumpir',   ak:'krumpir',   rod:'m',  en:'potato',      emo:'🥔', v:130},
-  {id:'juha',      nom:'juha',      ak:'juhu',      rod:'z',  en:'soup',        emo:'🍲', v:140},
+  {id:'povrce',     nom:'povrće',     en:'vegetables', emo:'🥦', v:110, sk:'plodovi'},
+  {id:'salata',     nom:'salata',     en:'salad',      emo:'🥗', v:120},
+  {id:'krumpir',    nom:'krumpir',    en:'potatoes',   emo:'🥔', v:130},
+  {id:'juha',       nom:'juha',       en:'soup',       emo:'🍲', v:140, sk:'zdjela'},
+  {id:'voce',       nom:'voće',       en:'fruit',      emo:'🍇', v:150, sk:'plodovi'},
+  {id:'kruh',       nom:'kruh',       en:'bread',      emo:'🍞', v:160, sk:'kruh'},
+  {id:'riza',       nom:'riža',       en:'rice',       emo:'🍚', v:170, sk:'zdjela'},
+  {id:'tjestenina', nom:'tjestenina', en:'pasta',      emo:'🍝', v:180},
+  {id:'pizza',      nom:'pizza',      en:'pizza',      emo:'🍕', v:190},
+  {id:'burek',      nom:'burek',      en:'burek',      emo:'🥟', v:200, sk:'pecivo'},
+  {id:'pita',       nom:'pita',       en:'pie',        emo:'🥧', v:210, sk:'pecivo'},
+  {id:'sendvic',    nom:'sendvič',    en:'sandwich',   emo:'🥪', v:220, sk:'kruh'},
+  {id:'palacinke',  nom:'palačinke',  en:'pancakes',   emo:'🥞', v:230},
+  {id:'fritule',    nom:'fritule',    en:'fritters',   emo:'🍩', v:240},
+  {id:'kolac',      nom:'kolač',      en:'pastry',     emo:'🧁', v:250, sk:'kolac'},
+  {id:'torta',      nom:'torta',      en:'cake',       emo:'🎂', v:260, sk:'kolac'},
+  {id:'cokolada',   nom:'čokolada',   en:'chocolate',  emo:'🍫', v:265},
+  {id:'sladoled',   nom:'sladoled',   en:'ice cream',  emo:'🍦', v:270},
 
-  /* --- biljke: voće --- */
-  {id:'voce',      nom:'voće',      ak:'voće',      rod:'s',  en:'fruit',       emo:'🍇', v:150},
-
-  /* --- biljke: ugljikohidrati --- */
-  {id:'kruh',      nom:'kruh',      ak:'kruh',      rod:'m',  en:'bread',       emo:'🍞', v:160},
-  {id:'riza',      nom:'riža',      ak:'rižu',      rod:'z',  en:'rice',        emo:'🍚', v:170},
-  {id:'tjestenina',nom:'tjestenina',ak:'tjesteninu',rod:'z',  en:'pasta',       emo:'🍝', v:180},
-  {id:'pizza',     nom:'pizza',     ak:'pizzu',     rod:'z',  en:'pizza',       emo:'🍕', v:190},
-  {id:'burek',     nom:'burek',     ak:'burek',     rod:'m',  en:'burek',       emo:'🥟', v:200},
-  {id:'pita',      nom:'pita',      ak:'pitu',      rod:'z',  en:'pie',         emo:'🥧', v:210},
-  {id:'sendvic',   nom:'sendvič',   ak:'sendvič',   rod:'m',  en:'sandwich',    emo:'🥪', v:220},
-
-  /* --- biljke: slatko --- */
-  {id:'palacinke', nom:'palačinke', ak:'palačinke', rod:'mn', en:'pancakes',    emo:'🥞', v:230},
-  {id:'fritule',   nom:'fritule',   ak:'fritule',   rod:'mn', en:'fritters',    emo:'🍩', v:240},
-  {id:'kolac',     nom:'kolač',     ak:'kolač',     rod:'m',  en:'pastry',      emo:'🧁', v:250},
-  {id:'torta',     nom:'torta',     ak:'tortu',     rod:'z',  en:'cake',        emo:'🎂', v:260},
-  {id:'sladoled',  nom:'sladoled',  ak:'sladoled',  rod:'m',  en:'ice cream',   emo:'🍦', v:270},
-
-  /* --- životinje: jaja i mliječno --- */
-  {id:'jaje',      nom:'jaje',      ak:'jaje',      rod:'s',  en:'egg',         emo:'🥚', v:310},
-  {id:'sir',       nom:'sir',       ak:'sir',       rod:'m',  en:'cheese',      emo:'🧀', v:320},
-
-  /* --- životinje: riba --- */
-  {id:'riba',      nom:'riba',      ak:'ribu',      rod:'z',  en:'fish',        emo:'🐟', v:330},
-  {id:'lignje',    nom:'lignje',    ak:'lignje',    rod:'mn', en:'squid',       emo:'🦑', v:340},
-
-  /* --- životinje: meso --- */
-  {id:'piletina',  nom:'piletina',  ak:'piletinu',  rod:'z',  en:'chicken',     emo:'🍗', v:350},
-  {id:'meso',      nom:'meso',      ak:'meso',      rod:'s',  en:'meat',        emo:'🥩', v:360},
-  {id:'gulas',     nom:'gulaš',     ak:'gulaš',     rod:'m',  en:'goulash',     emo:'🍲', v:370},
-  {id:'cevapi',    nom:'ćevapi',    ak:'ćevape',    rod:'mn', en:'ćevapi',      emo:'🍢', v:380},
-  {id:'sunka',     nom:'šunka',     ak:'šunku',     rod:'z',  en:'ham',         emo:'🥓', v:390},
-  {id:'kobasica',  nom:'kobasica',  ak:'kobasicu',  rod:'z',  en:'sausage',     emo:'🌭', v:400}
+  {id:'jaje',       nom:'jaje',       en:'eggs',       emo:'🥚', v:310},
+  {id:'sir',        nom:'sir',        en:'cheese',     emo:'🧀', v:320},
+  {id:'riba',       nom:'riba',       en:'fish',       emo:'🐟', v:330},
+  {id:'lignje',     nom:'lignje',     en:'squid',      emo:'🦑', v:340},
+  {id:'piletina',   nom:'piletina',   en:'chicken',    emo:'🍗', v:350},
+  {id:'meso',       nom:'meso',       en:'meat',       emo:'🥩', v:360},
+  {id:'gulas',      nom:'gulaš',      en:'goulash',    emo:'🍲', v:370, sk:'zdjela'},
+  {id:'cevapi',     nom:'ćevapi',     en:'ćevapi',     emo:'🍢', v:380},
+  {id:'sunka',      nom:'šunka',      en:'ham',        emo:'🥓', v:390},
+  {id:'kobasica',   nom:'kobasica',   en:'sausage',    emo:'🌭', v:400}
 ];
-/* granica izmedu pica i hrane na spektru */
-var GRANICA_PICA = 100;
 
-var PRIDJEVI = [
-  {m:'veliki', z:'veliku', s:'veliko', mn:'velike', en:'big'},
-  {m:'mali',   z:'malu',   s:'malo',   mn:'male',   en:'small'},
-  {m:'hladni', z:'hladnu', s:'hladno', mn:'hladne', en:'cold'},
-  {m:'topli',  z:'toplu',  s:'toplo',  mn:'tople',  en:'warm'},
-  {m:'svježi', z:'svježu', s:'svježe', mn:'svježe', en:'fresh'},
-  {m:'dobri',  z:'dobru',  s:'dobro',  mn:'dobre',  en:'good'},
-  {m:'ukusni', z:'ukusnu', s:'ukusno', mn:'ukusne', en:'tasty'},
-  {m:'domaći', z:'domaću', s:'domaće', mn:'domaće', en:'home-made'},
-  {m:'slatki', z:'slatku', s:'slatko', mn:'slatke', en:'sweet'},
-  {m:'jaki',   z:'jaku',   s:'jako',   mn:'jake',   en:'strong'},
-  {m:'lagani', z:'laganu', s:'lagano', mn:'lagane', en:'light'},
-  {m:'vrući',  z:'vruću',  s:'vruće',  mn:'vruće',  en:'hot'}
-];
-var BROJ = {m:'jedan', z:'jednu', s:'jedno', mn:'dvije'};
+/* ---------------------------------------------------------------------
+   Narudžbe. Svaka je konkretna, unaprijed napisana rečenica.
+   [hrvatski, engleski, jela (id-ovi), doba dana, težina]
+   Doba: j jutro · r ručak · p popodne/kava · v večera · n noć · s slavlje
+   Težina: 1 vrlo kratko · 2 uobičajeno · 3 dulje, s kontekstom
+   U rečenici se spominju samo jela koja se stvarno naručuju.
+   Jedan klik po jelu — i kad gost traži dvije kave.
+   --------------------------------------------------------------------- */
+var NARUDZBE = [
+  /* ===== jedno jelo ===== */
+  ['Kavu, molim.', 'A coffee, please.', 'kava', 'jp', 1],
+  ['Jednu kavu, molim.', 'One coffee, please.', 'kava', 'jp', 1],
+  ['Dobro jutro! Kavu, molim.', 'Good morning! A coffee, please.', 'kava', 'j', 1],
+  ['Može jedna kava?', 'Can I get a coffee?', 'kava', 'jp', 1],
+  ['Za mene jedna kava.', 'A coffee for me.', 'kava', 'jp', 1],
+  ['Ja bih kavu, molim.', 'I would like a coffee, please.', 'kava', 'jp', 1],
+  ['Jednu veliku kavu, molim.', 'One large coffee, please.', 'kava', 'jp', 2],
+  ['Malu kavu bez šećera, molim.', 'A small coffee without sugar, please.', 'kava', 'jp', 2],
+  ['Jednu crnu kavu, molim.', 'One black coffee, please.', 'kava', 'jp', 2],
+  ['Možete li mi donijeti jednu kavu?', 'Could you bring me a coffee?', 'kava', 'jp', 2],
+  ['Bez kave ne mogu. Jednu, molim!', 'I can\'t do without coffee. One, please!', 'kava', 'j', 3],
+  ['Dvije kave, molim. Čekam prijatelja.', 'Two coffees, please. I\'m waiting for a friend.', 'kava', 'p', 3],
+  ['Treba mi jaka kava. Jutro je bilo dugo.', 'I need a strong coffee. It\'s been a long morning.', 'kava', 'j', 3],
 
-var UZORCI = [
-  {hr:'Molim {a}.',                 en:'{A}, please.'},
-  {hr:'Za mene {a}, molim.',        en:'For me {A}, please.'},
-  {hr:'Ja bih {a}.',                en:'I would like {A}.'},
-  {hr:'Može {a}?',                  en:'Can I get {A}?'},
-  {hr:'Donesite mi {a}, molim.',    en:'Bring me {A}, please.'},
-  {hr:'Imate li {a}?',              en:'Do you have {A}?'},
-  {hr:'Htio bih {a}, ako može.',    en:'I would like {A}, if possible.'},
-  {hr:'Danas mi se jede {a}.',      en:'Today I feel like {A}.'},
-  {hr:'Preporučujete {a}?',         en:'Do you recommend {A}?'},
-  {hr:'Samo {a}, hvala.',           en:'Just {A}, thank you.'}
+  ['Kapučino, molim.', 'A cappuccino, please.', 'kapucino', 'jp', 1],
+  ['Jedan kapučino, molim.', 'One cappuccino, please.', 'kapucino', 'jp', 1],
+  ['Može jedan veliki kapučino?', 'Can I get a large cappuccino?', 'kapucino', 'jp', 2],
+  ['Ja bih kapučino, ali bez šećera.', 'I\'d like a cappuccino, but without sugar.', 'kapucino', 'jp', 2],
+  ['Imate li kapučino? Onda jedan, molim.', 'Do you have cappuccino? Then one, please.', 'kapucino', 'jp', 3],
+
+  ['Čaj, molim.', 'A tea, please.', 'caj', 'jp', 1],
+  ['Jedan čaj, molim.', 'One tea, please.', 'caj', 'jp', 1],
+  ['Topli čaj, molim. Malo mi je hladno.', 'A hot tea, please. I\'m a little cold.', 'caj', 'jp', 2],
+  ['Ja bih čaj od kamilice.', 'I\'d like a chamomile tea.', 'caj', 'jpn', 2],
+  ['Imate li zeleni čaj?', 'Do you have green tea?', 'caj', 'jp', 2],
+  ['Čaj od mente, molim, i to vruć.', 'A mint tea, please, and hot.', 'caj', 'jp', 3],
+  ['Grlo me boli. Jedan čaj od kamilice, molim.', 'My throat hurts. A chamomile tea, please.', 'caj', 'jpvn', 3],
+
+  ['Mlijeko, molim.', 'Milk, please.', 'mlijeko', 'j', 1],
+  ['Čašu mlijeka, molim.', 'A glass of milk, please.', 'mlijeko', 'j', 1],
+  ['Za dijete čašu toplog mlijeka.', 'A glass of warm milk for the child.', 'mlijeko', 'jv', 2],
+  ['Može čaša hladnog mlijeka?', 'Can I get a glass of cold milk?', 'mlijeko', 'jp', 2],
+  ['Imate li mlijeko bez laktoze?', 'Do you have lactose-free milk?', 'mlijeko', 'jp', 3],
+
+  ['Vodu, molim.', 'Water, please.', 'voda', 'jrpvn', 1],
+  ['Čašu vode, molim.', 'A glass of water, please.', 'voda', 'jrpvn', 1],
+  ['Može boca vode?', 'Can I get a bottle of water?', 'voda', 'rpvn', 2],
+  ['Bocu negazirane vode, molim.', 'A bottle of still water, please.', 'voda', 'rpv', 2],
+  ['Gaziranu vodu, molim. Hladnu.', 'Sparkling water, please. Cold.', 'voda', 'rpvn', 2],
+  ['Bocu vode za stol, molim.', 'A bottle of water for the table, please.', 'voda', 'rvs', 2],
+  ['Vruće je danas. Čašu hladne vode, molim!', 'It\'s hot today. A glass of cold water, please!', 'voda', 'rp', 3],
+  ['Samo vodu, hvala. Vozim.', 'Just water, thanks. I\'m driving.', 'voda', 'vn', 3],
+
+  ['Sok, molim.', 'A juice, please.', 'sok', 'jrp', 1],
+  ['Jedan sok, molim.', 'One juice, please.', 'sok', 'jrp', 1],
+  ['Može hladan sok?', 'Can I get a cold juice?', 'sok', 'jrp', 2],
+  ['Sok od naranče, molim.', 'Orange juice, please.', 'sok', 'jp', 2],
+  ['Prirodni sok od naranče, ako imate.', 'Fresh orange juice, if you have it.', 'sok', 'jp', 3],
+  ['Za malu jedan sok od jabuke.', 'An apple juice for the little one.', 'sok', 'jrp', 3],
+
+  ['Limunadu, molim.', 'A lemonade, please.', 'limunada', 'rp', 1],
+  ['Jednu limunadu, molim.', 'One lemonade, please.', 'limunada', 'rp', 1],
+  ['Domaću limunadu, molim.', 'Homemade lemonade, please.', 'limunada', 'rp', 2],
+  ['Imate li limunadu? Jednu veliku, molim.', 'Do you have lemonade? A large one, please.', 'limunada', 'rp', 2],
+  ['Vruće je! Hladnu limunadu, s puno leda.', 'It\'s hot! A cold lemonade, with lots of ice.', 'limunada', 'rp', 3],
+
+  ['Vino, molim.', 'Wine, please.', 'vino', 'vns', 1],
+  ['Čašu vina, molim.', 'A glass of wine, please.', 'vino', 'rvns', 1],
+  ['Čašu crnog vina, molim.', 'A glass of red wine, please.', 'vino', 'vns', 2],
+  ['Može čaša bijelog vina?', 'Can I get a glass of white wine?', 'vino', 'rvns', 2],
+  ['Bocu domaćeg vina za stol.', 'A bottle of house wine for the table.', 'vino', 'vs', 2],
+  ['Pola litre bijelog vina, molim.', 'Half a litre of white wine, please.', 'vino', 'vns', 2],
+  ['Koje vino preporučujete? Donesite mi čašu.', 'Which wine do you recommend? Bring me a glass.', 'vino', 'vns', 3],
+  ['Slavimo! Bocu vašeg najboljeg vina!', 'We\'re celebrating! A bottle of your best wine!', 'vino', 's', 3],
+
+  ['Pivo, molim.', 'A beer, please.', 'pivo', 'vns', 1],
+  ['Jedno pivo, molim.', 'One beer, please.', 'pivo', 'rvns', 1],
+  ['Veliko pivo, molim.', 'A large beer, please.', 'pivo', 'vns', 1],
+  ['Malo pivo, molim.', 'A small beer, please.', 'pivo', 'rvn', 1],
+  ['Jedno hladno pivo, molim.', 'One cold beer, please.', 'pivo', 'rvns', 2],
+  ['Imate li točeno pivo?', 'Do you have draught beer?', 'pivo', 'vn', 2],
+  ['Kriglu hladnog piva, molim!', 'A mug of cold beer, please!', 'pivo', 'vns', 2],
+  ['Dug dan... Jedno veliko pivo, molim.', 'Long day... One large beer, please.', 'pivo', 'vn', 3],
+  ['Utakmica počinje! Jedno pivo, brzo!', 'The match is starting! A beer, quick!', 'pivo', 'vn', 3],
+
+  ['Rakiju, molim.', 'A brandy, please.', 'rakija', 'ns', 1],
+  ['Jednu rakiju, molim.', 'One brandy, please.', 'rakija', 'ns', 1],
+  ['Čašicu domaće rakije, molim.', 'A shot of homemade brandy, please.', 'rakija', 'nsv', 2],
+  ['Imate li domaću rakiju?', 'Do you have homemade brandy?', 'rakija', 'nsv', 2],
+  ['Živjeli! Rakiju za mene, molim.', 'Cheers! A brandy for me, please.', 'rakija', 's', 2],
+  ['Za kraj večeri jednu rakiju.', 'One brandy to end the evening.', 'rakija', 'vn', 3],
+
+  ['Juhu, molim.', 'Soup, please.', 'juha', 'rv', 1],
+  ['Jednu juhu, molim.', 'One soup, please.', 'juha', 'rv', 1],
+  ['Tanjur juhe, molim.', 'A bowl of soup, please.', 'juha', 'rv', 2],
+  ['Domaću juhu, molim.', 'Homemade soup, please.', 'juha', 'rv', 2],
+  ['Kakva je juha dana? Može jedna.', 'What\'s the soup of the day? I\'ll have one.', 'juha', 'rv', 3],
+  ['Toplu juhu, molim. Vani je hladno.', 'A hot soup, please. It\'s cold outside.', 'juha', 'rv', 3],
+
+  ['Salatu, molim.', 'A salad, please.', 'salata', 'rv', 1],
+  ['Zelenu salatu, molim.', 'A green salad, please.', 'salata', 'rv', 2],
+  ['Miješanu salatu, molim.', 'A mixed salad, please.', 'salata', 'rv', 2],
+  ['Jednu veliku salatu, molim.', 'One large salad, please.', 'salata', 'rv', 2],
+  ['Danas samo salatu. Pazim na liniju.', 'Just a salad today. I\'m watching my figure.', 'salata', 'rv', 3],
+
+  ['Povrće, molim.', 'Vegetables, please.', 'povrce', 'rv', 1],
+  ['Grilano povrće, molim.', 'Grilled vegetables, please.', 'povrce', 'rv', 2],
+  ['Tanjur kuhanog povrća, molim.', 'A plate of boiled vegetables, please.', 'povrce', 'rv', 2],
+  ['Danas ništa teško. Povrće na žaru, molim.', 'Nothing heavy today. Grilled vegetables, please.', 'povrce', 'rv', 3],
+
+  ['Krumpir, molim.', 'Potatoes, please.', 'krumpir', 'rv', 1],
+  ['Pečeni krumpir, molim.', 'Roast potatoes, please.', 'krumpir', 'rv', 2],
+  ['Porciju pečenog krumpira, molim.', 'A portion of roast potatoes, please.', 'krumpir', 'rv', 2],
+  ['Imate li pire krumpir?', 'Do you have mashed potatoes?', 'krumpir', 'rv', 2],
+
+  ['Voće, molim.', 'Fruit, please.', 'voce', 'jp', 1],
+  ['Zdjelicu voća, molim.', 'A bowl of fruit, please.', 'voce', 'jp', 2],
+  ['Imate li svježe voće?', 'Do you have fresh fruit?', 'voce', 'jpr', 2],
+  ['Za desert samo voće.', 'Just fruit for dessert.', 'voce', 'rv', 2],
+  ['Nešto lagano... Malo voća, molim.', 'Something light... A little fruit, please.', 'voce', 'jpv', 3],
+
+  ['Kruh, molim.', 'Bread, please.', 'kruh', 'jrv', 1],
+  ['Košaricu kruha, molim.', 'A basket of bread, please.', 'kruh', 'rv', 2],
+  ['Imate li domaći kruh?', 'Do you have homemade bread?', 'kruh', 'jrv', 2],
+  ['Komad toplog kruha, molim.', 'A piece of warm bread, please.', 'kruh', 'jrv', 2],
+  ['Možete li donijeti još kruha?', 'Could you bring some more bread?', 'kruh', 'rv', 3],
+
+  ['Rižu, molim.', 'Rice, please.', 'riza', 'rv', 1],
+  ['Porciju riže, molim.', 'A portion of rice, please.', 'riza', 'rv', 2],
+  ['Rižu kao prilog, molim.', 'Rice as a side, please.', 'riza', 'rv', 2],
+
+  ['Tjesteninu, molim.', 'Pasta, please.', 'tjestenina', 'rv', 1],
+  ['Tjesteninu carbonara, molim.', 'Pasta carbonara, please.', 'tjestenina', 'rv', 2],
+  ['Tjesteninu s plodovima mora, molim.', 'Seafood pasta, please.', 'tjestenina', 'rv', 2],
+  ['Tjesteninu s umakom od rajčice.', 'Pasta with tomato sauce.', 'tjestenina', 'rv', 2],
+  ['Dijete bi tjesteninu, ali bez umaka.', 'The child would like pasta, but without sauce.', 'tjestenina', 'rv', 3],
+
+  ['Pizzu, molim.', 'A pizza, please.', 'pizza', 'rvn', 1],
+  ['Jednu pizzu, molim.', 'One pizza, please.', 'pizza', 'rvn', 1],
+  ['Pizzu margaritu, molim.', 'A margherita pizza, please.', 'pizza', 'rvn', 2],
+  ['Jednu veliku pizzu, molim.', 'One large pizza, please.', 'pizza', 'vn', 2],
+  ['Pizzu s gljivama, molim.', 'A pizza with mushrooms, please.', 'pizza', 'rvn', 2],
+  ['Umirem od gladi! Veliku pizzu, molim.', 'I\'m starving! A large pizza, please.', 'pizza', 'vn', 3],
+
+  ['Burek, molim.', 'A burek, please.', 'burek', 'jn', 1],
+  ['Jedan burek, molim.', 'One burek, please.', 'burek', 'jn', 1],
+  ['Komad bureka, molim.', 'A piece of burek, please.', 'burek', 'jn', 2],
+  ['Je li burek topao? Onda jedan.', 'Is the burek warm? Then one.', 'burek', 'jn', 3],
+  ['Poslije izlaska – jedan burek, molim!', 'After a night out – one burek, please!', 'burek', 'n', 3],
+
+  ['Pitu, molim.', 'A pie, please.', 'pita', 'jp', 1],
+  ['Komad pite, molim.', 'A piece of pie, please.', 'pita', 'jp', 1],
+  ['Pitu od jabuka, molim.', 'Apple pie, please.', 'pita', 'p', 2],
+  ['Domaću pitu, molim, ako je topla.', 'Homemade pie, please, if it\'s warm.', 'pita', 'jp', 3],
+
+  ['Sendvič, molim.', 'A sandwich, please.', 'sendvic', 'jrn', 1],
+  ['Jedan sendvič, molim.', 'One sandwich, please.', 'sendvic', 'jrn', 1],
+  ['Topli sendvič, molim.', 'A toasted sandwich, please.', 'sendvic', 'jn', 2],
+  ['Žurim. Samo jedan sendvič za van.', 'I\'m in a hurry. Just one sandwich to go.', 'sendvic', 'jrn', 3],
+
+  ['Palačinke, molim.', 'Pancakes, please.', 'palacinke', 'pj', 1],
+  ['Dvije palačinke, molim.', 'Two pancakes, please.', 'palacinke', 'pj', 1],
+  ['Palačinke s orasima, molim.', 'Pancakes with walnuts, please.', 'palacinke', 'pjv', 2],
+  ['Za desert palačinke s marmeladom.', 'Pancakes with jam for dessert.', 'palacinke', 'rv', 2],
+
+  ['Fritule, molim.', 'Fritters, please.', 'fritule', 'ps', 1],
+  ['Porciju fritula, molim.', 'A portion of fritters, please.', 'fritule', 'ps', 2],
+  ['Tople fritule, molim. Mirišu do ulice!', 'Warm fritters, please. You can smell them from the street!', 'fritule', 'ps', 3],
+
+  ['Kolač, molim.', 'A pastry, please.', 'kolac', 'pj', 1],
+  ['Jedan kolač, molim.', 'One pastry, please.', 'kolac', 'pj', 1],
+  ['Nešto slatko... Jedan kolač, molim.', 'Something sweet... One pastry, please.', 'kolac', 'pv', 2],
+  ['Koji je kolač dana? Može jedan.', 'What\'s the pastry of the day? I\'ll have one.', 'kolac', 'p', 3],
+
+  ['Tortu, molim.', 'Cake, please.', 'torta', 'ps', 1],
+  ['Komad torte, molim.', 'A piece of cake, please.', 'torta', 'ps', 1],
+  ['Dva komada torte, molim.', 'Two pieces of cake, please.', 'torta', 'ps', 2],
+  ['Imamo rođendan! Tortu, molim.', 'It\'s a birthday! A cake, please.', 'torta', 's', 2],
+  ['Može komad torte sa svjećicom? Moja kći ima rođendan.', 'Can I get a piece of cake with a candle? My daughter has a birthday.', 'torta', 's', 3],
+
+  ['Sladoled, molim.', 'Ice cream, please.', 'sladoled', 'pv', 1],
+  ['Kuglu sladoleda, molim.', 'A scoop of ice cream, please.', 'sladoled', 'pv', 1],
+  ['Dvije kugle sladoleda, molim.', 'Two scoops of ice cream, please.', 'sladoled', 'pvs', 2],
+  ['Sladoled od vanilije, molim.', 'Vanilla ice cream, please.', 'sladoled', 'pv', 2],
+  ['Kakav sladoled imate? Može vanilija.', 'What ice cream do you have? Vanilla is fine.', 'sladoled', 'p', 3],
+
+  ['Čokoladu, molim.', 'A chocolate bar, please.', 'cokolada', 'pn', 1],
+  ['Imate li čokoladu?', 'Do you have chocolate?', 'cokolada', 'pn', 1],
+  ['Jednu tamnu čokoladu, molim.', 'One dark chocolate, please.', 'cokolada', 'pn', 2],
+  ['Treba mi nešto slatko. Čokoladu, molim!', 'I need something sweet. Chocolate, please!', 'cokolada', 'pn', 3],
+
+  ['Jaja, molim.', 'Eggs, please.', 'jaje', 'j', 1],
+  ['Dva jaja na oko, molim.', 'Two fried eggs, please.', 'jaje', 'j', 2],
+  ['Jedno kuhano jaje, molim.', 'One boiled egg, please.', 'jaje', 'j', 2],
+  ['Za doručak jaja, molim.', 'Eggs for breakfast, please.', 'jaje', 'j', 2],
+  ['Jaja na oko, ali dobro pečena.', 'Fried eggs, but well done.', 'jaje', 'j', 3],
+
+  ['Sir, molim.', 'Cheese, please.', 'sir', 'jvn', 1],
+  ['Komad sira, molim.', 'A piece of cheese, please.', 'sir', 'jvn', 1],
+  ['Paški sir, molim.', 'Pag cheese, please.', 'sir', 'vn', 2],
+  ['Imate li domaći sir?', 'Do you have homemade cheese?', 'sir', 'jvn', 2],
+
+  ['Ribu, molim.', 'Fish, please.', 'riba', 'rv', 1],
+  ['Ribu na žaru, molim.', 'Grilled fish, please.', 'riba', 'rv', 2],
+  ['Imate li svježu ribu?', 'Do you have fresh fish?', 'riba', 'rv', 2],
+  ['Petak je. Ribu, molim.', 'It\'s Friday. Fish, please.', 'riba', 'rv', 2],
+  ['Koja je riba danas svježa? Može ona.', 'Which fish is fresh today? That one, please.', 'riba', 'rv', 3],
+
+  ['Lignje, molim.', 'Squid, please.', 'lignje', 'rv', 1],
+  ['Porciju lignji, molim.', 'A portion of squid, please.', 'lignje', 'rv', 1],
+  ['Pohane lignje, molim.', 'Fried squid, please.', 'lignje', 'rv', 2],
+  ['Lignje na žaru, molim.', 'Grilled squid, please.', 'lignje', 'rv', 2],
+
+  ['Piletinu, molim.', 'Chicken, please.', 'piletina', 'rv', 1],
+  ['Piletinu na žaru, molim.', 'Grilled chicken, please.', 'piletina', 'rv', 2],
+  ['Pohanu piletinu, molim.', 'Breaded chicken, please.', 'piletina', 'rv', 2],
+  ['Za dijete malu porciju piletine.', 'A small portion of chicken for the child.', 'piletina', 'rv', 3],
+
+  ['Meso, molim.', 'Meat, please.', 'meso', 'rv', 1],
+  ['Meso na žaru, molim.', 'Grilled meat, please.', 'meso', 'rvs', 2],
+  ['Meso ispod peke, molim.', 'Meat baked under the bell, please.', 'meso', 'vs', 2],
+  ['Miješano meso za dvoje, molim.', 'A mixed grill for two, please.', 'meso', 'vs', 2],
+  ['Što preporučujete? Meso? Može.', 'What do you recommend? The meat? Sure.', 'meso', 'rv', 3],
+
+  ['Gulaš, molim.', 'Goulash, please.', 'gulas', 'rv', 1],
+  ['Tanjur gulaša, molim.', 'A plate of goulash, please.', 'gulas', 'rv', 2],
+  ['Gulaš od divljači, molim.', 'Game goulash, please.', 'gulas', 'v', 2],
+  ['Vani je hladno. Topli gulaš, molim.', 'It\'s cold outside. A hot goulash, please.', 'gulas', 'rv', 3],
+
+  ['Ćevape, molim.', 'Ćevapi, please.', 'cevapi', 'rvn', 1],
+  ['Porciju ćevapa, molim.', 'A portion of ćevapi, please.', 'cevapi', 'rvn', 1],
+  ['Deset ćevapa, molim.', 'Ten ćevapi, please.', 'cevapi', 'rvn', 2],
+  ['Malu porciju ćevapa, molim.', 'A small portion of ćevapi, please.', 'cevapi', 'rvn', 2],
+  ['Ćevapi su ovdje najbolji u gradu! Jednu porciju.', 'The ćevapi here are the best in town! One portion.', 'cevapi', 'vn', 3],
+
+  ['Šunku, molim.', 'Ham, please.', 'sunka', 'j', 1],
+  ['Malo šunke, molim.', 'A little ham, please.', 'sunka', 'j', 2],
+  ['Tanjur domaće šunke, molim.', 'A plate of homemade ham, please.', 'sunka', 'jv', 2],
+
+  ['Kobasicu, molim.', 'A sausage, please.', 'kobasica', 'rn', 1],
+  ['Dvije kobasice, molim.', 'Two sausages, please.', 'kobasica', 'rn', 1],
+  ['Kobasicu s roštilja, molim.', 'A grilled sausage, please.', 'kobasica', 'rnv', 2],
+  ['Imate li još nešto za jelo? Može kobasica.', 'Do you still have something to eat? A sausage is fine.', 'kobasica', 'n', 3],
+
+  /* ===== dva jela ===== */
+  /* jutro */
+  ['Kavu i burek, molim.', 'A coffee and a burek, please.', 'kava,burek', 'j', 1],
+  ['Jednu kavu i jedan burek, molim.', 'One coffee and one burek, please.', 'kava,burek', 'j', 1],
+  ['Burek i kavu za van, molim.', 'A burek and a coffee to go, please.', 'burek,kava', 'j', 2],
+  ['Za doručak kavu i sendvič.', 'A coffee and a sandwich for breakfast.', 'kava,sendvic', 'j', 2],
+  ['Kapučino i komad pite, molim.', 'A cappuccino and a piece of pie, please.', 'kapucino,pita', 'jp', 2],
+  ['Čaj i palačinke, molim.', 'Tea and pancakes, please.', 'caj,palacinke', 'jp', 1],
+  ['Jaja na oko i kavu, molim.', 'Fried eggs and a coffee, please.', 'jaje,kava', 'j', 2],
+  ['Dva jaja i komad kruha, molim.', 'Two eggs and a piece of bread, please.', 'jaje,kruh', 'j', 2],
+  ['Kruh i sir, molim.', 'Bread and cheese, please.', 'kruh,sir', 'jv', 1],
+  ['Šunku i jaja, molim.', 'Ham and eggs, please.', 'sunka,jaje', 'j', 1],
+  ['Sendvič i sok, molim.', 'A sandwich and a juice, please.', 'sendvic,sok', 'jrn', 1],
+  ['Čašu mlijeka i jedan kolač, molim.', 'A glass of milk and a pastry, please.', 'mlijeko,kolac', 'jp', 2],
+  ['Sok od naranče i palačinke, molim.', 'Orange juice and pancakes, please.', 'sok,palacinke', 'j', 2],
+  ['Kavu i malo voća, molim.', 'A coffee and some fruit, please.', 'kava,voce', 'j', 2],
+  ['Čaj i zdjelicu voća, molim.', 'Tea and a bowl of fruit, please.', 'caj,voce', 'jp', 2],
+  ['Za mene burek, a za dijete mlijeko.', 'A burek for me, and milk for the child.', 'burek,mlijeko', 'j', 3],
+  ['Šunku i sir za doručak, molim.', 'Ham and cheese for breakfast, please.', 'sunka,sir', 'j', 2],
+  ['Ja bih kapučino, a prijatelj burek.', 'I\'d like a cappuccino, and my friend a burek.', 'kapucino,burek', 'j', 3],
+  ['Jedan sok i jedno kuhano jaje, molim.', 'One juice and one boiled egg, please.', 'sok,jaje', 'j', 2],
+  ['Kavu, molim, i komad domaće pite.', 'A coffee, please, and a piece of homemade pie.', 'kava,pita', 'jp', 2],
+  ['Brzo, molim: kavu i sendvič. Kasnim na posao!', 'Quickly, please: a coffee and a sandwich. I\'m late for work!', 'kava,sendvic', 'j', 3],
+  ['Imate li topli kruh? Onda kruh i čašu mlijeka.', 'Do you have warm bread? Then bread and a glass of milk.', 'kruh,mlijeko', 'j', 3],
+  ['Malo šunke i komad kruha, molim.', 'A little ham and a piece of bread, please.', 'sunka,kruh', 'j', 2],
+  ['Čaj od mente i komad pite, molim.', 'A mint tea and a piece of pie, please.', 'caj,pita', 'jp', 2],
+  ['Kapučino i jaja na oko, molim.', 'A cappuccino and fried eggs, please.', 'kapucino,jaje', 'j', 2],
+  ['Čašu mlijeka i palačinke, molim.', 'A glass of milk and pancakes, please.', 'mlijeko,palacinke', 'jp', 1],
+
+  /* popodne, kava */
+  ['Kavu i kolač, molim.', 'A coffee and a pastry, please.', 'kava,kolac', 'p', 1],
+  ['Kapučino i komad torte, molim.', 'A cappuccino and a piece of cake, please.', 'kapucino,torta', 'p', 1],
+  ['Čaj i kolač, molim.', 'A tea and a pastry, please.', 'caj,kolac', 'p', 1],
+  ['Limunadu i sladoled, molim.', 'A lemonade and an ice cream, please.', 'limunada,sladoled', 'p', 1],
+  ['Sok i palačinke, molim.', 'A juice and pancakes, please.', 'sok,palacinke', 'p', 1],
+  ['Fritule i kapučino, molim.', 'Fritters and a cappuccino, please.', 'fritule,kapucino', 'p', 1],
+  ['Fritule i kavu, molim.', 'Fritters and a coffee, please.', 'fritule,kava', 'sp', 1],
+  ['Kuglu sladoleda i čašu vode, molim.', 'A scoop of ice cream and a glass of water, please.', 'sladoled,voda', 'p', 2],
+  ['Dvije kave i dva komada torte, molim.', 'Two coffees and two pieces of cake, please.', 'kava,torta', 'ps', 2],
+  ['Sok za dijete i kavu za mene.', 'A juice for the child and a coffee for me.', 'sok,kava', 'jp', 2],
+  ['Kavu i palačinke s orasima, molim.', 'A coffee and pancakes with walnuts, please.', 'kava,palacinke', 'p', 2],
+  ['Limunadu i komad torte, molim.', 'A lemonade and a piece of cake, please.', 'limunada,torta', 'ps', 2],
+  ['Dvije kugle sladoleda i jednu kavu, molim.', 'Two scoops of ice cream and one coffee, please.', 'sladoled,kava', 'p', 2],
+  ['Topli čaj i porciju fritula, molim.', 'A hot tea and a portion of fritters, please.', 'caj,fritule', 'p', 2],
+  ['Čašu vode i komad pite, molim.', 'A glass of water and a piece of pie, please.', 'voda,pita', 'p', 2],
+  ['Može jedan kapučino i jedna čokolada?', 'Can I get a cappuccino and a chocolate?', 'kapucino,cokolada', 'p', 2],
+  ['Mlijeko i kolač za dijete, molim.', 'Milk and a pastry for the child, please.', 'mlijeko,kolac', 'p', 2],
+  ['Sladoled od vanilije i kapučino, molim.', 'Vanilla ice cream and a cappuccino, please.', 'sladoled,kapucino', 'p', 2],
+  ['Za mene čaj, a za prijatelja čokoladu.', 'A tea for me, and a chocolate for my friend.', 'caj,cokolada', 'p', 3],
+  ['Vruće je! Hladnu limunadu i sladoled.', 'It\'s hot! A cold lemonade and an ice cream.', 'limunada,sladoled', 'p', 3],
+  ['Kavu, a uz nju kolač dana.', 'A coffee, and the pastry of the day with it.', 'kava,kolac', 'p', 3],
+  ['Kavu i čokoladu, molim. Treba mi energije.', 'A coffee and a chocolate, please. I need energy.', 'kava,cokolada', 'p', 3],
+  ['Čaj i malo voća, molim. Nešto lagano.', 'Tea and a little fruit, please. Something light.', 'caj,voce', 'p', 3],
+  ['Sok od jabuke i komad pite, molim.', 'An apple juice and a piece of pie, please.', 'sok,pita', 'p', 2],
+
+  /* ručak */
+  ['Juhu i meso, molim.', 'Soup and meat, please.', 'juha,meso', 'rv', 1],
+  ['Juhu i salatu, molim.', 'Soup and a salad, please.', 'juha,salata', 'rv', 1],
+  ['Ribu i krumpir, molim.', 'Fish and potatoes, please.', 'riba,krumpir', 'rv', 1],
+  ['Piletinu i rižu, molim.', 'Chicken and rice, please.', 'piletina,riza', 'rv', 1],
+  ['Tjesteninu i čašu vode, molim.', 'Pasta and a glass of water, please.', 'tjestenina,voda', 'rv', 1],
+  ['Pizzu i sok, molim.', 'A pizza and a juice, please.', 'pizza,sok', 'rv', 1],
+  ['Lignje i krumpir, molim.', 'Squid and potatoes, please.', 'lignje,krumpir', 'rv', 1],
+  ['Tjesteninu i salatu, molim.', 'Pasta and a salad, please.', 'tjestenina,salata', 'rv', 1],
+  ['Ćevape i limunadu, molim.', 'Ćevapi and a lemonade, please.', 'cevapi,limunada', 'rv', 1],
+  ['Kobasicu i krumpir, molim.', 'A sausage and potatoes, please.', 'kobasica,krumpir', 'rn', 1],
+  ['Piletinu i čašu vode, molim.', 'Chicken and a glass of water, please.', 'piletina,voda', 'rv', 1],
+  ['Meso na žaru i pečeni krumpir, molim.', 'Grilled meat and roast potatoes, please.', 'meso,krumpir', 'rv', 2],
+  ['Ribu na žaru i zelenu salatu, molim.', 'Grilled fish and a green salad, please.', 'riba,salata', 'rv', 2],
+  ['Gulaš i komad kruha, molim.', 'Goulash and a piece of bread, please.', 'gulas,kruh', 'rv', 2],
+  ['Porciju ćevapa i jedno pivo, molim.', 'A portion of ćevapi and a beer, please.', 'cevapi,pivo', 'rvn', 2],
+  ['Pohanu piletinu i krumpir, molim.', 'Breaded chicken and potatoes, please.', 'piletina,krumpir', 'rv', 2],
+  ['Juhu za početak, a onda ribu.', 'Soup to start, and then fish.', 'juha,riba', 'rv', 2],
+  ['Salatu i čašu bijelog vina, molim.', 'A salad and a glass of white wine, please.', 'salata,vino', 'rv', 2],
+  ['Povrće na žaru i rižu, molim.', 'Grilled vegetables and rice, please.', 'povrce,riza', 'rv', 2],
+  ['Pizzu margaritu i pivo, molim.', 'A margherita pizza and a beer, please.', 'pizza,pivo', 'rvn', 2],
+  ['Gulaš i čašu crnog vina, molim.', 'Goulash and a glass of red wine, please.', 'gulas,vino', 'rv', 2],
+  ['Piletinu na žaru i povrće, molim.', 'Grilled chicken and vegetables, please.', 'piletina,povrce', 'rv', 2],
+  ['Lignje na žaru i čašu vina, molim.', 'Grilled squid and a glass of wine, please.', 'lignje,vino', 'rv', 2],
+  ['Juhu i jedan sendvič, molim.', 'Soup and a sandwich, please.', 'juha,sendvic', 'r', 2],
+  ['Ribu i bocu vode, molim.', 'Fish and a bottle of water, please.', 'riba,voda', 'rv', 2],
+  ['Za dijete tjesteninu, a za mene ribu.', 'Pasta for the child, and fish for me.', 'tjestenina,riba', 'rv', 3],
+  ['Imate li juhu dana? Juhu i kruh, molim.', 'Do you have a soup of the day? Soup and bread, please.', 'juha,kruh', 'rv', 3],
+  ['Pečenu piletinu, a uz nju rižu.', 'Roast chicken, with rice on the side.', 'piletina,riza', 'rv', 3],
+  ['Petak je! Ribu i krumpir, molim.', 'It\'s Friday! Fish and potatoes, please.', 'riba,krumpir', 'rv', 3],
+
+  /* večera */
+  ['Ribu i bijelo vino, molim.', 'Fish and white wine, please.', 'riba,vino', 'v', 1],
+  ['Lignje i pivo, molim.', 'Squid and a beer, please.', 'lignje,pivo', 'vn', 1],
+  ['Tjesteninu i čašu vina, molim.', 'Pasta and a glass of wine, please.', 'tjestenina,vino', 'v', 1],
+  ['Sir i čašu vina, molim.', 'Cheese and a glass of wine, please.', 'sir,vino', 'vn', 1],
+  ['Gulaš i pivo, molim.', 'Goulash and a beer, please.', 'gulas,pivo', 'vn', 1],
+  ['Pizzu i čašu crnog vina, molim.', 'A pizza and a glass of red wine, please.', 'pizza,vino', 'vn', 2],
+  ['Meso na žaru i crno vino, molim.', 'Grilled meat and red wine, please.', 'meso,vino', 'vs', 2],
+  ['Večeras ribu i domaće vino, molim.', 'Fish and house wine tonight, please.', 'riba,vino', 'v', 2],
+  ['Ćevape i čašu crnog vina, molim.', 'Ćevapi and a glass of red wine, please.', 'cevapi,vino', 'v', 2],
+  ['Palačinke i čašu mlijeka, molim.', 'Pancakes and a glass of milk, please.', 'palacinke,mlijeko', 'vp', 2],
+  ['Meso ispod peke i bocu vode, molim.', 'Meat under the bell and a bottle of water, please.', 'meso,voda', 'v', 2],
+  ['Bijelo vino i pohane lignje, molim.', 'White wine and fried squid, please.', 'vino,lignje', 'nv', 2],
+  ['Salatu i komad sira, molim. Ništa teško.', 'A salad and a piece of cheese, please. Nothing heavy.', 'salata,sir', 'v', 3],
+  ['Za desert sladoled, a uz to kavu.', 'Ice cream for dessert, and a coffee with it.', 'sladoled,kava', 'v', 3],
+  ['Pizzu za dijete, a za mene lignje.', 'A pizza for the child, and squid for me.', 'pizza,lignje', 'v', 3],
+  ['Za kraj komad torte i jednu rakiju.', 'To finish, a piece of cake and a brandy.', 'torta,rakija', 'vs', 3],
+
+  /* noć */
+  ['Pivo i pizzu, molim.', 'A beer and a pizza, please.', 'pivo,pizza', 'n', 1],
+  ['Rakiju i čašu vode, molim.', 'A brandy and a glass of water, please.', 'rakija,voda', 'ns', 1],
+  ['Kobasicu i pivo, molim.', 'A sausage and a beer, please.', 'kobasica,pivo', 'n', 1],
+  ['Vino i sir, molim.', 'Wine and cheese, please.', 'vino,sir', 'n', 1],
+  ['Jednu rakiju i jedno pivo, molim.', 'One brandy and one beer, please.', 'rakija,pivo', 'ns', 1],
+  ['Čokoladu i čaj, molim.', 'A chocolate and a tea, please.', 'cokolada,caj', 'n', 1],
+  ['Kobasicu i kruh, molim.', 'A sausage and bread, please.', 'kobasica,kruh', 'n', 1],
+  ['Dva piva i porciju ćevapa, molim.', 'Two beers and a portion of ćevapi, please.', 'pivo,cevapi', 'n', 2],
+  ['Sendvič i hladno pivo, molim.', 'A sandwich and a cold beer, please.', 'sendvic,pivo', 'n', 2],
+  ['Čašu vode i jedan burek, molim.', 'A glass of water and a burek, please.', 'voda,burek', 'n', 2],
+  ['Pizzu za van i dvije limunade.', 'A pizza to go and two lemonades.', 'pizza,limunada', 'n', 2],
+  ['Rakiju i komad sira, molim.', 'A brandy and a piece of cheese, please.', 'rakija,sir', 'n', 2],
+  ['Gaziranu vodu i sendvič, molim.', 'Sparkling water and a sandwich, please.', 'voda,sendvic', 'n', 2],
+  ['Bocu vina i malo sira, molim.', 'A bottle of wine and a little cheese, please.', 'vino,sir', 'nv', 2],
+  ['Još jedno pivo i nešto za jelo... kobasicu!', 'Another beer and something to eat... a sausage!', 'pivo,kobasica', 'n', 3],
+  ['Čaj od kamilice i komad pite, molim. Ne mogu spavati.', 'A chamomile tea and a piece of pie, please. I can\'t sleep.', 'caj,pita', 'n', 3],
+  ['Kasno je, a gladni smo. Pizzu i pivo!', 'It\'s late and we\'re hungry. A pizza and a beer!', 'pizza,pivo', 'n', 3],
+  ['Burek i čašu vode, molim. Dug je put do kuće.', 'A burek and a glass of water, please. It\'s a long way home.', 'burek,voda', 'n', 3],
+
+  /* slavlje */
+  ['Tortu i bocu vina, molim!', 'A cake and a bottle of wine, please!', 'torta,vino', 's', 2],
+  ['Fritule i rakiju, molim.', 'Fritters and a brandy, please.', 'fritule,rakija', 's', 2],
+  ['Rođendan je! Tortu i sladoled, molim.', 'It\'s a birthday! Cake and ice cream, please.', 'torta,sladoled', 's', 2],
+  ['Miješano meso i pivo za sve!', 'A mixed grill and beer for everyone!', 'meso,pivo', 's', 2],
+  ['Bocu vina i tanjur sira, molim.', 'A bottle of wine and a plate of cheese, please.', 'vino,sir', 'sv', 2],
+  ['Meso ispod peke i domaće vino, molim.', 'Meat under the bell and house wine, please.', 'meso,vino', 'sv', 2],
+  ['Dvije kugle sladoleda i komad torte!', 'Two scoops of ice cream and a piece of cake!', 'sladoled,torta', 's', 2],
+  ['Kobasice i pivo za cijeli stol!', 'Sausages and beer for the whole table!', 'kobasica,pivo', 's', 2],
+  ['Lignje i bocu bijelog vina, molim.', 'Squid and a bottle of white wine, please.', 'lignje,vino', 'sv', 2],
+  ['Ćevape za cijelo društvo i pivo!', 'Ćevapi for the whole group, and beer!', 'cevapi,pivo', 's', 3],
+  ['Slavimo! Tortu i limunadu za djecu.', 'We\'re celebrating! Cake and lemonade for the kids.', 'torta,limunada', 's', 3],
+  ['Rakiju za sve i porciju fritula!', 'Brandy for everyone and a portion of fritters!', 'rakija,fritule', 's', 3],
+  ['Diplomirali smo! Bocu vina i tortu!', 'We graduated! A bottle of wine and a cake!', 'vino,torta', 's', 3],
+
+  /* ===== tri jela ===== */
+  ['Kavu, sok i burek, molim.', 'A coffee, a juice and a burek, please.', 'kava,sok,burek', 'j', 1],
+  ['Jaja, šunku i kavu, molim.', 'Eggs, ham and a coffee, please.', 'jaje,sunka,kava', 'j', 1],
+  ['Kapučino, kolač i čašu vode, molim.', 'A cappuccino, a pastry and a glass of water, please.', 'kapucino,kolac,voda', 'p', 1],
+  ['Pitu, kapučino i čašu vode, molim.', 'Pie, a cappuccino and a glass of water, please.', 'pita,kapucino,voda', 'jp', 1],
+  ['Kruh, sir i čašu mlijeka, molim.', 'Bread, cheese and a glass of milk, please.', 'kruh,sir,mlijeko', 'j', 2],
+  ['Čaj, palačinke i malo voća, molim.', 'Tea, pancakes and a little fruit, please.', 'caj,palacinke,voce', 'jp', 2],
+  ['Kavu, sladoled i limunadu, molim.', 'A coffee, an ice cream and a lemonade, please.', 'kava,sladoled,limunada', 'p', 2],
+  ['Jaja na oko, kruh i sok, molim.', 'Fried eggs, bread and a juice, please.', 'jaje,kruh,sok', 'j', 2],
+  ['Čaj, komad torte i čokoladu, molim.', 'A tea, a piece of cake and a chocolate, please.', 'caj,torta,cokolada', 'p', 2],
+  ['Palačinke, mlijeko i voće za djecu.', 'Pancakes, milk and fruit for the kids.', 'palacinke,mlijeko,voce', 'jp', 2],
+  ['Kavu, fritule i jednu limunadu, molim.', 'A coffee, fritters and a lemonade, please.', 'kava,fritule,limunada', 'p', 2],
+  ['Za mene kavu, za kćer sladoled, a za sina sok.', 'A coffee for me, ice cream for my daughter, and a juice for my son.', 'kava,sladoled,sok', 'p', 3],
+
+  ['Juhu, ribu i salatu, molim.', 'Soup, fish and a salad, please.', 'juha,riba,salata', 'rv', 1],
+  ['Meso, krumpir i salatu, molim.', 'Meat, potatoes and a salad, please.', 'meso,krumpir,salata', 'rv', 1],
+  ['Salatu, kruh i bocu vode, molim.', 'A salad, bread and a bottle of water, please.', 'salata,kruh,voda', 'rv', 1],
+  ['Kobasicu, krumpir i pivo, molim.', 'A sausage, potatoes and a beer, please.', 'kobasica,krumpir,pivo', 'rvn', 1],
+  ['Lignje, krumpir i čašu vode, molim.', 'Squid, potatoes and a glass of water, please.', 'lignje,krumpir,voda', 'rvn', 1],
+  ['Gulaš, kruh i jedno pivo, molim.', 'Goulash, bread and a beer, please.', 'gulas,kruh,pivo', 'rv', 1],
+  ['Ribu, povrće i limunadu, molim.', 'Fish, vegetables and a lemonade, please.', 'riba,povrce,limunada', 'r', 1],
+  ['Meso, rižu i salatu, molim.', 'Meat, rice and a salad, please.', 'meso,riza,salata', 'rv', 1],
+  ['Ćevape, salatu i limunadu, molim.', 'Ćevapi, a salad and a lemonade, please.', 'cevapi,salata,limunada', 'r', 1],
+  ['Sir, kruh i čašu crnog vina, molim.', 'Cheese, bread and a glass of red wine, please.', 'sir,kruh,vino', 'vn', 1],
+  ['Tjesteninu, kruh i čašu vode, molim.', 'Pasta, bread and a glass of water, please.', 'tjestenina,kruh,voda', 'rv', 1],
+  ['Pivo, pizzu i čašu vode, molim.', 'A beer, a pizza and a glass of water, please.', 'pivo,pizza,voda', 'n', 1],
+  ['Ćevape, kruh i pivo, molim.', 'Ćevapi, bread and a beer, please.', 'cevapi,kruh,pivo', 'n', 1],
+  ['Pizzu, salatu i bocu vode, molim.', 'A pizza, a salad and a bottle of water, please.', 'pizza,salata,voda', 'nv', 1],
+  ['Piletinu, rižu i čašu vode, molim.', 'Chicken, rice and a glass of water, please.', 'piletina,riza,voda', 'rv', 2],
+  ['Ribu na žaru, krumpir i bijelo vino.', 'Grilled fish, potatoes and white wine.', 'riba,krumpir,vino', 'v', 2],
+  ['Lignje, salatu i jedno pivo, molim.', 'Squid, a salad and a beer, please.', 'lignje,salata,pivo', 'rv', 2],
+  ['Tjesteninu, salatu i čašu vina, molim.', 'Pasta, a salad and a glass of wine, please.', 'tjestenina,salata,vino', 'v', 2],
+  ['Pizzu, salatu i dva soka, molim.', 'A pizza, a salad and two juices, please.', 'pizza,salata,sok', 'rv', 2],
+  ['Ćevape, krumpir i pivo, molim.', 'Ćevapi, potatoes and a beer, please.', 'cevapi,krumpir,pivo', 'rvn', 2],
+  ['Gulaš, kruh i čašu crnog vina, molim.', 'Goulash, bread and a glass of red wine, please.', 'gulas,kruh,vino', 'v', 2],
+  ['Piletinu, povrće na žaru i limunadu.', 'Chicken, grilled vegetables and a lemonade.', 'piletina,povrce,limunada', 'r', 2],
+  ['Meso ispod peke, krumpir i bocu vina.', 'Meat under the bell, potatoes and a bottle of wine.', 'meso,krumpir,vino', 'vs', 2],
+  ['Ribu, rižu i čašu bijelog vina, molim.', 'Fish, rice and a glass of white wine, please.', 'riba,riza,vino', 'v', 2],
+  ['Pizzu, pivo i za desert sladoled.', 'A pizza, a beer and ice cream for dessert.', 'pizza,pivo,sladoled', 'v', 2],
+  ['Pohanu piletinu, krumpir i sok za dijete.', 'Breaded chicken, potatoes and a juice for the child.', 'piletina,krumpir,sok', 'r', 2],
+  ['Za stol: ribu, lignje i bocu vina.', 'For the table: fish, squid and a bottle of wine.', 'riba,lignje,vino', 'vs', 2],
+  ['Dva piva, kobasicu i kruh, molim.', 'Two beers, a sausage and bread, please.', 'pivo,kobasica,kruh', 'n', 2],
+  ['Vino, sir i šunku, molim.', 'Wine, cheese and ham, please.', 'vino,sir,sunka', 'nv', 2],
+  ['Pizzu, dvije limunade i jedno pivo.', 'A pizza, two lemonades and a beer.', 'pizza,limunada,pivo', 'n', 2],
+  ['Zadnja runda: pivo, vino i rakija!', 'Last round: a beer, a wine and a brandy!', 'pivo,vino,rakija', 'n', 2],
+  ['Kobasicu, sir i čašu crnog vina.', 'A sausage, cheese and a glass of red wine.', 'kobasica,sir,vino', 'n', 2],
+  ['Tri stvari: pivo, ćevape i kruh.', 'Three things: a beer, ćevapi and bread.', 'pivo,cevapi,kruh', 'n', 2],
+  ['Čaj od kamilice, čokoladu i čašu vode.', 'A chamomile tea, a chocolate and a glass of water.', 'caj,cokolada,voda', 'n', 2],
+  ['Dva sendviča, pivo i limunadu za van.', 'Two sandwiches, a beer and a lemonade to go.', 'sendvic,pivo,limunada', 'n', 2],
+  ['Lignje, pivo i čašu vode, molim.', 'Squid, a beer and a glass of water, please.', 'lignje,pivo,voda', 'nv', 1],
+  ['Za početak juhu, zatim meso, a za kraj sladoled.', 'Soup to start, then meat, and ice cream to finish.', 'juha,meso,sladoled', 'rv', 3],
+  ['Za mene ribu, za prijatelja lignje, a za stol vino.', 'Fish for me, squid for my friend, and wine for the table.', 'riba,lignje,vino', 'v', 3],
+  ['Juhu, piletinu i komad torte za kraj.', 'Soup, chicken and a piece of cake to finish.', 'juha,piletina,torta', 'rv', 3],
+  ['Tjesteninu za dijete, meso za mene i vodu.', 'Pasta for the child, meat for me, and water.', 'tjestenina,meso,voda', 'rv', 3],
+  ['Rakiju, pivo i nešto za jelo – sendvič!', 'A brandy, a beer and something to eat – a sandwich!', 'rakija,pivo,sendvic', 'n', 3],
+  ['Burek, sok i bocu vode za put.', 'A burek, a juice and a bottle of water for the road.', 'burek,sok,voda', 'n', 3],
+  ['Radi li još kuhinja? Šunku, sir i kruh, molim.', 'Is the kitchen still open? Ham, cheese and bread, please.', 'sunka,sir,kruh', 'n', 3],
+  ['Sendvič, čokoladu i čaj, molim. Dug je put.', 'A sandwich, a chocolate and a tea, please. It\'s a long trip.', 'sendvic,cokolada,caj', 'n', 3],
+  ['Za dečke pivo, za cure vino, a za sve ćevape!', 'Beer for the guys, wine for the girls, and ćevapi for everyone!', 'pivo,vino,cevapi', 'ns', 3],
+
+  ['Tortu, sladoled i limunadu za djecu!', 'Cake, ice cream and lemonade for the kids!', 'torta,sladoled,limunada', 's', 2],
+  ['Miješano meso, krumpir i pivo za sve.', 'A mixed grill, potatoes and beer for everyone.', 'meso,krumpir,pivo', 's', 2],
+  ['Bocu vina, tanjur sira i kruh, molim.', 'A bottle of wine, a plate of cheese and bread, please.', 'vino,sir,kruh', 'sv', 2],
+  ['Rođendan je! Tortu, kavu i sok.', 'It\'s a birthday! Cake, coffee and juice.', 'torta,kava,sok', 'sp', 2],
+  ['Ćevape, pivo i rakiju za kraj!', 'Ćevapi, beer, and a brandy to finish!', 'cevapi,pivo,rakija', 'sn', 2],
+  ['Meso ispod peke, salatu i crno vino.', 'Meat under the bell, a salad and red wine.', 'meso,salata,vino', 'sv', 2],
+  ['Slavimo! Lignje, ribu i bijelo vino!', 'We\'re celebrating! Squid, fish and white wine!', 'lignje,riba,vino', 's', 2],
+  ['Za slavlje: tortu, sladoled i vino!', 'For the celebration: cake, ice cream and wine!', 'torta,sladoled,vino', 's', 2],
+  ['Kobasice, kruh i pivo za cijeli stol!', 'Sausages, bread and beer for the whole table!', 'kobasica,kruh,pivo', 'sn', 2],
+  ['Ćevape, krumpir i limunadu za djecu.', 'Ćevapi, potatoes and lemonade for the kids.', 'cevapi,krumpir,limunada', 's', 2],
+  ['Komad torte, kapučino i čašu vode.', 'A piece of cake, a cappuccino and a glass of water.', 'torta,kapucino,voda', 'sp', 2],
+  ['Fritule, sladoled i dvije kave!', 'Fritters, ice cream and two coffees!', 'fritule,sladoled,kava', 'sp', 2],
+  ['Bocu vina, lignje i salatu, molim.', 'A bottle of wine, squid and a salad, please.', 'vino,lignje,salata', 'sv', 2],
+  ['Meso, rižu i pivo za sve!', 'Meat, rice and beer for everyone!', 'meso,riza,pivo', 's', 2],
+  ['Fritule, kavu i rakiju, kao kod bake!', 'Fritters, coffee and brandy, just like at grandma\'s!', 'fritule,kava,rakija', 's', 3],
+  ['Pizzu, pivo i rakiju! Danas slavimo!', 'Pizza, beer and brandy! We\'re celebrating today!', 'pizza,pivo,rakija', 'sn', 3]
 ];
-var UZORCI2 = [
-  {hr:'Molim {a} i {b}.',                        en:'{A} and {B}, please.'},
-  {hr:'Ja bih {a}, a za prijatelja {b}.',        en:'I would like {A}, and {B} for my friend.'},
-  {hr:'Dvije stvari: {a} i {b}.',                en:'Two things: {A} and {B}.'},
-  {hr:'Prvo {a}, pa onda {b}.',                  en:'First {A}, then {B}.'},
-  {hr:'Uz {a} bih još i {b}.',                   en:'With {A} I would also like {B}.'},
-  {hr:'Nama dvoje: {a} i {b}, molim.',           en:'For the two of us: {A} and {B}, please.'}
+
+/* Neodlučan gost na pola čekanja doda još nešto. Dodaci su pisani tako da
+   pristaju uz bilo koju narudžbu svog doba dana. */
+var DODACI = [
+  ['Ah, i čašu vode, molim!', 'Oh, and a glass of water, please!', 'voda', 'jrpvns'],
+  ['Samo trenutak... i bocu vode za stol!', 'Just a moment... and a bottle of water for the table!', 'voda', 'rvs'],
+  ['Ah, i sok za prijatelja!', 'Oh, and a juice for my friend!', 'sok', 'jrp'],
+  ['Ah, i limunadu za dijete!', 'Oh, and a lemonade for the child!', 'limunada', 'rpvs'],
+  ['Joj, i kavu, molim!', 'Oh, and a coffee, please!', 'kava', 'jp'],
+  ['Ah, i čaj za prijatelja!', 'Oh, and a tea for my friend!', 'caj', 'jpn'],
+  ['A može i jedan kolač?', 'And can I also get a pastry?', 'kolac', 'jp'],
+  ['Ah, i kuglu sladoleda!', 'Oh, and a scoop of ice cream!', 'sladoled', 'pv'],
+  ['A za desert sladoled, molim!', 'And ice cream for dessert, please!', 'sladoled', 'rv'],
+  ['Ah, i malo kruha, molim!', 'Oh, and some bread, please!', 'kruh', 'rv'],
+  ['I jednu salatu, molim!', 'And a salad as well, please!', 'salata', 'rv'],
+  ['I porciju krumpira, molim!', 'And a portion of potatoes, please!', 'krumpir', 'rv'],
+  ['A za desert komad torte!', 'And a piece of cake for dessert!', 'torta', 'vs'],
+  ['I rakiju za kraj!', 'And a brandy to finish!', 'rakija', 'vns'],
+  ['Ah, i pivo za prijatelja!', 'Oh, and a beer for my friend!', 'pivo', 'vns'],
+  ['I čašu vina za prijateljicu!', 'And a glass of wine for my friend!', 'vino', 'vns'],
+  ['Ah, i čokoladu za put!', 'Oh, and a chocolate for the road!', 'cokolada', 'pn'],
+  ['I porciju fritula za stol!', 'And a portion of fritters for the table!', 'fritule', 'ps']
 ];
-var UZORCI3 = [
-  {hr:'Za stol: {a}, {b} i {c}.',                en:'For the table: {A}, {B} and {C}.'},
-  {hr:'Molim {a}, {b} i {c}. Hvala!',            en:'{A}, {B} and {C}, please. Thank you!'},
-  {hr:'Uzet ćemo {a}, {b} i {c}.',               en:'We will take {A}, {B} and {C}.'},
-  {hr:'Tri stvari: {a}, {b}, i naravno {c}.',    en:'Three things: {A}, {B}, and of course {C}.'}
-];
+
 var GLAVE = ['🧑','👩','👴','👵','🧔','👧','🧑‍💼','👨‍🎤','👩‍🦰','🧓','🧑‍🎓','👨‍🌾','👩‍⚕️','🧑‍✈️'];
 /* gost je pixel lik iz konoba-gosti.png (12 likova po 16 px); 13. i 14. su
    zrcaljeni 1. i 2. Emoji ostaje kao oznaka i zamjena ako slike nema. */
@@ -769,324 +1206,419 @@ function glavaGosta(emo){
 }
 
 var TIPOVI = {
-  obican:    {oznaka:'',            opis:'',                                   mnozitelj:1.0, bonus:0},
-  zurba:     {oznaka:'⏩ in a hurry', opis:'less patience, more points',          mnozitelj:0.6, bonus:1},
-  neodlucan: {oznaka:'🤔 indecisive',opis:'adds one more item along the way',    mnozitelj:1.25, bonus:1},
-  tih:       {oznaka:'🤫 no translation', opis:'the order comes in Croatian only', mnozitelj:1.15, bonus:1}
+  obican:    {znak:'',   oznaka:'',                  opis:'',                                   mnozitelj:1.0,  bonus:0},
+  zurba:     {znak:'⏩', oznaka:'⏩ in a hurry',      opis:'less patience',                      mnozitelj:0.6,  bonus:1},
+  neodlucan: {znak:'🤔', oznaka:'🤔 indecisive',      opis:'adds one more item along the way',   mnozitelj:1.25, bonus:1},
+  tih:       {znak:'🤫', oznaka:'🤫 no translation',  opis:'the order comes in Croatian only',   mnozitelj:1.15, bonus:1}
 };
 
+/* Smjene. doba = koje narudžbe pašu tom dijelu dana (vidi NARUDZBE),
+   tezina = najveća težina rečenice, redovi = koliko redova pult smije imati
+   (po 4 jela) — ako ekran ima mjesta. Za stolom su najviše dva gosta. */
 var SMJENE = [
-  {ime:'Early morning',    gostiju:3, stavki:1, pridjev:false, odjednom:1, strpljenje:28, jelovnik:12, tipovi:['obican']},
-  {ime:'Morning',         gostiju:3, stavki:1, pridjev:true,  odjednom:1, strpljenje:26, jelovnik:14, tipovi:['obican']},
-  {ime:'Late morning',    gostiju:4, stavki:1, pridjev:true,  odjednom:2, strpljenje:26, jelovnik:16, tipovi:['obican','zurba']},
-  {ime:'Coffee at 11',     gostiju:4, stavki:2, pridjev:false, odjednom:2, strpljenje:28, jelovnik:16, tipovi:['obican','zurba']},
-  {ime:'Noon',         gostiju:4, stavki:2, pridjev:true,  odjednom:2, strpljenje:26, jelovnik:18, tipovi:['obican']},
-  {ime:'Lunch',         gostiju:5, stavki:2, pridjev:true,  odjednom:2, strpljenje:26, jelovnik:20, tipovi:['obican','neodlucan']},
-  {ime:'Afternoon',  gostiju:4, stavki:2, pridjev:true,  odjednom:2, strpljenje:24, jelovnik:20, tipovi:['obican','zurba']},
-  {ime:'Coffee at 5',      gostiju:4, stavki:1, pridjev:true,  odjednom:3, strpljenje:22, jelovnik:18, tipovi:['obican','zurba']},
-  {ime:'Early evening',   gostiju:4, stavki:2, pridjev:true,  odjednom:2, strpljenje:24, jelovnik:22, tipovi:['obican','tih']},
-  {ime:'Dinner',        gostiju:5, stavki:3, pridjev:false, odjednom:2, strpljenje:28, jelovnik:22, tipovi:['obican','neodlucan']},
-  {ime:'The rush',         gostiju:5, stavki:2, pridjev:true,  odjednom:3, strpljenje:24, jelovnik:24, tipovi:['obican','zurba','tih']},
-  {ime:'Tourists',       gostiju:4, stavki:2, pridjev:true,  odjednom:2, strpljenje:24, jelovnik:24, tipovi:['tih']},
-  {ime:'Late dinner',  gostiju:5, stavki:3, pridjev:true,  odjednom:2, strpljenje:26, jelovnik:26, tipovi:['obican','neodlucan']},
-  {ime:'A big party',       gostiju:5, stavki:3, pridjev:true,  odjednom:3, strpljenje:26, jelovnik:26, tipovi:['obican','zurba']},
-  {ime:'Celebration',       gostiju:5, stavki:3, pridjev:true,  odjednom:3, strpljenje:24, jelovnik:28, tipovi:['obican','neodlucan','tih']},
-  {ime:'Night',           gostiju:4, stavki:2, pridjev:true,  odjednom:3, strpljenje:22, jelovnik:28, tipovi:['zurba','tih']},
-  {ime:'Last round',   gostiju:5, stavki:3, pridjev:true,  odjednom:3, strpljenje:24, jelovnik:30, tipovi:['obican','neodlucan']},
-  {ime:'Closing time',    gostiju:4, stavki:3, pridjev:true,  odjednom:3, strpljenje:22, jelovnik:32, tipovi:['zurba','neodlucan','tih']},
-  {ime:'After midnight',gostiju:4, stavki:2, pridjev:true,  odjednom:4, strpljenje:22, jelovnik:34, tipovi:['zurba','tih']},
-  {ime:'The last guests',  gostiju:4, stavki:3, pridjev:true,  odjednom:3, strpljenje:24, jelovnik:36, tipovi:['obican','zurba','neodlucan','tih']}
+  {ime:'Early morning',   gostiju:3, stavki:1, doba:'j',  tezina:1, redovi:2, odjednom:1, strpljenje:28, tipovi:['obican']},
+  {ime:'Morning',         gostiju:3, stavki:1, doba:'j',  tezina:2, redovi:2, odjednom:1, strpljenje:26, tipovi:['obican']},
+  {ime:'Late morning',    gostiju:4, stavki:1, doba:'jp', tezina:2, redovi:2, odjednom:2, strpljenje:26, tipovi:['obican','zurba']},
+  {ime:'Coffee at 11',    gostiju:4, stavki:2, doba:'p',  tezina:1, redovi:3, odjednom:2, strpljenje:28, tipovi:['obican','zurba']},
+  {ime:'Noon',            gostiju:4, stavki:2, doba:'r',  tezina:2, redovi:3, odjednom:2, strpljenje:26, tipovi:['obican']},
+  {ime:'Lunch',           gostiju:5, stavki:2, doba:'r',  tezina:2, redovi:3, odjednom:2, strpljenje:26, tipovi:['obican','neodlucan']},
+  {ime:'Afternoon',       gostiju:4, stavki:2, doba:'p',  tezina:2, redovi:3, odjednom:2, strpljenje:24, tipovi:['obican','zurba']},
+  {ime:'Coffee at 5',     gostiju:4, stavki:1, doba:'p',  tezina:3, redovi:3, odjednom:2, strpljenje:22, tipovi:['obican','zurba']},
+  {ime:'Early evening',   gostiju:4, stavki:2, doba:'pv', tezina:3, redovi:3, odjednom:2, strpljenje:24, tipovi:['obican','tih']},
+  {ime:'Dinner',          gostiju:5, stavki:3, doba:'v',  tezina:1, redovi:4, odjednom:2, strpljenje:28, tipovi:['obican','neodlucan']},
+  {ime:'The rush',        gostiju:5, stavki:2, doba:'rv', tezina:3, redovi:4, odjednom:2, strpljenje:22, tipovi:['obican','zurba','tih']},
+  {ime:'Tourists',        gostiju:4, stavki:2, doba:'rv', tezina:3, redovi:4, odjednom:2, strpljenje:24, tipovi:['tih']},
+  {ime:'Late dinner',     gostiju:5, stavki:3, doba:'v',  tezina:3, redovi:4, odjednom:2, strpljenje:26, tipovi:['obican','neodlucan']},
+  {ime:'A big party',     gostiju:5, stavki:3, doba:'sv', tezina:3, redovi:4, odjednom:2, strpljenje:24, tipovi:['obican','zurba']},
+  {ime:'Celebration',     gostiju:5, stavki:3, doba:'s',  tezina:3, redovi:5, odjednom:2, strpljenje:24, tipovi:['obican','neodlucan','tih']},
+  {ime:'Night',           gostiju:4, stavki:2, doba:'n',  tezina:3, redovi:4, odjednom:2, strpljenje:20, tipovi:['zurba','tih']},
+  {ime:'Last round',      gostiju:5, stavki:3, doba:'n',  tezina:3, redovi:5, odjednom:2, strpljenje:24, tipovi:['obican','neodlucan']},
+  {ime:'Closing time',    gostiju:4, stavki:3, doba:'n',  tezina:3, redovi:5, odjednom:2, strpljenje:22, tipovi:['zurba','neodlucan','tih']},
+  {ime:'After midnight',  gostiju:4, stavki:2, doba:'n',  tezina:3, redovi:5, odjednom:2, strpljenje:20, tipovi:['zurba','tih']},
+  {ime:'The last guests', gostiju:4, stavki:3, doba:'ns', tezina:3, redovi:5, odjednom:2, strpljenje:22, tipovi:['obican','zurba','neodlucan','tih']}
 ];
 var UKUPNO_GOSTIJU = SMJENE.reduce(function(a,s){ return a + s.gostiju; }, 0);
+var BROJ_STOLOVA = 2;
 
-var S = {smjena:0, uSmjeni:0, posluzeno:0, izgubljeno:0, bodovi:0, aktivni:[], brojac:1,
-         sat:null, pult:[], bez:false, bezSmjena:0};
+var PO_ID = {};
+JELOVNIK.forEach(function(j){ PO_ID[j.id] = j; });
+var RECENICE_K = NARUDZBE.map(function(r){ return {hr:r[0], en:r[1], j:r[2].split(','), doba:r[3], t:r[4]}; });
+var DODACI_K = DODACI.map(function(d){ return {hr:d[0], en:d[1], id:d[2], doba:d[3]}; });
 
+var S = {smjena:0, posluzeno:0, izgubljeno:0, bodovi:0, brojac:1,
+         red:[], stolovi:[], pult:[], vidjeno:{}, sat:null};
+for (var _i = 0; _i < BROJ_STOLOVA; _i++) S.stolovi.push(null);
+
+/* ---------- slike ---------- */
+function putSlike(j){
+  var f = CL.FOTO && CL.FOTO['rijec-' + j.id + '.png'];
+  if (f) return f;
+  return '../slike/' + encodeURIComponent(j.nom.charAt(0).toUpperCase() + j.nom.slice(1)) + '.webp';
+}
+function slikaJela(j, klasa){
+  return '<span class="' + klasa + '"><img src="' + putSlike(j) + '" alt="" draggable="false" ' +
+    'onerror="this.parentNode.classList.add(\'bezSlike\');this.remove()"><b>' + j.emo + '</b></span>';
+}
+
+/* ---------- kostur ---------- */
 var O = CL.el('omot');
 O.appendChild(CL.hud({
-  ime:'The Tavern (Konoba)', podnaslov:'serving · 20 shifts · then endless',
+  ime:'Konoba', podnaslov:'The Tavern · serving',
   znakovi:[
-    {id:'zSmjena', html:'🕑 <b>Early morning</b>'},
-    {id:'zGosti', html:'🧑 <b>0</b>/' + UKUPNO_GOSTIJU},
-    {id:'zBod', html:'⭐ <b>0</b>'}
+    {id:'zSmjena', html:'🕑 <b>1</b>/' + SMJENE.length},
+    {id:'zGosti',  html:'🧑 <b>0</b>/' + UKUPNO_GOSTIJU},
+    {id:'zBod',    html:'⭐ <b>0</b>'}
   ]
 }));
 var ploha = document.createElement('div');
-ploha.className='ploha';
+ploha.className = 'ploha';
+var stoloviHtml = '';
+for (var _s = 0; _s < BROJ_STOLOVA; _s++) stoloviHtml += '<div class="stolMjesto" id="stol' + _s + '"></div>';
 ploha.innerHTML =
-  '<div class="smjenaTraka"><span class="oznakaS" id="oznakaS">Shift 1</span>' +
-  '<span id="uputaK">Click a dish on the counter and serve the guest before their patience runs out.</span></div>' +
-  '<div class="konobaOmot"><div class="gosti" id="gosti"></div>' +
-  '<div class="pult"><h3>Counter <span class="spektar">💧 drinks → 🌿 plants → 🥩 animals</span></h3>' +
-  '<div class="jela" id="jela"></div></div></div>';
+  '<div class="konobaOmot">' +
+    '<div class="gosti" id="gosti">' + stoloviHtml + '</div>' +
+    '<div class="pult"><div class="jela" id="jela"></div></div>' +
+  '</div>';
 O.appendChild(ploha);
 
-function cfgSmjene(){
-  if (!S.bez) return SMJENE[Math.min(S.smjena, SMJENE.length-1)];
-  var n = S.bezSmjena;
-  return {
-    ime:'Night shift ' + (n+1),
-    gostiju: 5 + Math.min(5, Math.floor(n/2)),
-    stavki: 2 + (n % 2),
-    pridjev: true,
-    odjednom: Math.min(5, 3 + Math.floor(n/4)),
-    strpljenje: Math.max(15, 24 - n),
-    jelovnik: JELOVNIK.length,
-    tipovi: ['obican','zurba','neodlucan','tih']
-  };
+function cfgSmjene(){ return SMJENE[Math.min(S.smjena, SMJENE.length - 1)]; }
+function usko(){ return window.matchMedia('(max-width:640px)').matches; }
+
+/* ---------- mjere ekrana ----------
+   U aplikaciji je igra u okviru koji je visok točno koliko i sadržaj, pa
+   prava visina ekrana dolazi od roditelja: prozor minus zaglavlje. */
+function visinaEkrana(){
+  try {
+    if (window.frameElement && window.parent && window.parent !== window){
+      var p = window.parent, zag = p.document.querySelector('header');
+      var dno = zag ? Math.max(0, zag.getBoundingClientRect().bottom) : 0;
+      return p.innerHeight - dno;
+    }
+  } catch (e) {}
+  return window.innerHeight;
+}
+function mjeriPult(){
+  var el = CL.el('jela');
+  var u = usko(), razmak = u ? 5 : 8;
+  var W = el.clientWidth || 300;
+  var stupaca = u ? 4 : Math.max(4, Math.min(8, Math.floor((W + razmak) / (104 + razmak))));
+  var ostalo = document.body.getBoundingClientRect().height - el.getBoundingClientRect().height;
+  var prostor = visinaEkrana() - ostalo - 6;
+  var MIN = u ? 56 : 72;
+  var kapRedova = Math.max(2, Math.floor((prostor + razmak) / (MIN + razmak)));
+  return {usko:u, razmak:razmak, W:W, stupaca:stupaca, prostor:prostor, kapRedova:kapRedova};
 }
 
-function oblik(j, pridjev){
-  var rod = j.rod;
-  return (pridjev ? pridjev[rod] : BROJ[rod]) + ' ' + j.ak;
+/* Pult: jela teku po stupcima (prvi stupac odozgo dolje, pa drugi…), od pića
+   preko biljaka do životinja. Pločice su kvadratne i velike koliko ekran
+   dopušta, tako da cijela igra stane bez pomicanja stranice. */
+function rasporediPult(){
+  var el = CL.el('jela'), n = S.pult.length;
+  if (!el || !n) return;
+  var m = mjeriPult();
+  var redova = Math.ceil(n / m.stupaca);
+  var stupaca = Math.ceil(n / redova);
+  var sir = Math.floor((m.W - m.razmak * (stupaca - 1)) / stupaca);
+  var vis = Math.floor((m.prostor - m.razmak * (redova - 1)) / redova);
+  var p = Math.max(44, Math.min(sir, vis, m.usko ? 112 : 120));
+  el.style.setProperty('--plocica', p + 'px');
+  el.style.setProperty('--razmak', m.razmak + 'px');
+  el.style.gridTemplateRows = 'repeat(' + redova + ',var(--plocica))';
+  el.style.gridTemplateColumns = 'repeat(' + stupaca + ',var(--plocica))';
 }
-function opisEn(j, pridjev){
-  return (pridjev ? 'a ' + pridjev.en + ' ' : 'a ') + j.en;
+window.addEventListener('resize', function(){ rasporediPult(); S.stolovi.forEach(function(g, i){ if (g) prilagodiTekst(i); }); });
+try { if (window.frameElement) window.parent.addEventListener('resize', function(){ try { rasporediPult(); } catch (e) {} }); } catch (e) {}
+
+/* ---------- plan smjene ----------
+   Na početku smjene unaprijed se odrede svi gosti i njihove narudžbe (i ono
+   što će neodlučni dodati). Pult = sva jela iz tih narudžbi + nekoliko
+   nasumičnih, nikad dva slična jela zajedno. */
+function skupinaSlobodna(id, skup){
+  var sk = PO_ID[id].sk;
+  if (!sk) return true;
+  for (var x in skup) if (x !== id && PO_ID[x].sk === sk) return false;
+  return true;
+}
+function stane(ids, skup){
+  for (var i = 0; i < ids.length; i++) if (!skup[ids[i]] && !skupinaSlobodna(ids[i], skup)) return false;
+  return true;
+}
+function novih(ids, skup){ var n = 0; ids.forEach(function(x){ if (!skup[x]) n++; }); return n; }
+function velicina(skup){ return Object.keys(skup).length; }
+function dobaPase(doba, cfgDoba){
+  for (var i = 0; i < doba.length; i++) if (cfgDoba.indexOf(doba[i]) >= 0) return true;
+  return false;
 }
 
-function tekstNarudzbe(stavke, pridjevi){
-  var uzorak = stavke.length === 1 ? CL.rand(UZORCI)
-             : stavke.length === 2 ? CL.rand(UZORCI2) : CL.rand(UZORCI3);
-  var mali = ['{a}','{b}','{c}'], veliki = ['{A}','{B}','{C}'];
-  var hr = uzorak.hr, en = uzorak.en;
-  stavke.forEach(function(j,i){
-    hr = hr.replace(mali[i], oblik(j, pridjevi[i]));
-    en = en.replace(veliki[i], opisEn(j, pridjevi[i]));
-  });
-  return {hr:hr, en: en.charAt(0).toUpperCase() + en.slice(1)};
+function pokusajPlana(cfg, granica, strogo){
+  var skup = {}, uSmjeni = {}, red = [];
+  for (var i = 0; i < cfg.gostiju; i++){
+    var tip = CL.rand(cfg.tipovi);
+    var mjesta = granica - velicina(skup);
+    var ostaje = cfg.gostiju - i;
+    var izbor = null;
+    for (var n = cfg.stavki; n >= 1 && !izbor; n--){
+      var lista = RECENICE_K.filter(function(r){
+        return r.j.length === n && r.t <= cfg.tezina && dobaPase(r.doba, cfg.doba) &&
+          !uSmjeni[r.hr] && (!strogo || !S.vidjeno[r.hr]) &&
+          stane(r.j, skup) && novih(r.j, skup) <= mjesta - (tip === 'neodlucan' ? 1 : 0);
+      });
+      if (!lista.length) continue;
+      /* kad je mjesta malo, prednost imaju narudžbe s jelima koja su već na pultu */
+      var udio = Math.max(1, Math.floor(mjesta / ostaje) + 1);
+      var stedljive = lista.filter(function(r){ return novih(r.j, skup) <= udio; });
+      izbor = CL.rand(stedljive.length ? stedljive : lista);
+    }
+    if (!izbor) return null;
+    uSmjeni[izbor.hr] = true;
+    izbor.j.forEach(function(x){ skup[x] = true; });
+    var dodatak = null;
+    if (tip === 'neodlucan'){
+      var dl = DODACI_K.filter(function(d){
+        return dobaPase(d.doba, cfg.doba) && izbor.j.indexOf(d.id) < 0 &&
+          stane([d.id], skup) && novih([d.id], skup) <= granica - velicina(skup);
+      });
+      if (dl.length){ dodatak = CL.rand(dl); skup[dodatak.id] = true; }
+      else tip = 'obican';
+    }
+    red.push({r:izbor, tip:tip, dodatak:dodatak});
+  }
+  return {red:red, skup:skup};
 }
 
-function novaNarudzba(cfg){
-  var stavke = CL.uzmi(S.pult, Math.min(cfg.stavki, S.pult.length));
-  var pridjevi = stavke.map(function(){ return cfg.pridjev ? CL.rand(PRIDJEVI) : null; });
-  var t = tekstNarudzbe(stavke, pridjevi);
-  var tip = CL.rand(cfg.tipovi || ['obican']);
-  var def = TIPOVI[tip];
-  var strpljenje = Math.round(cfg.strpljenje * def.mnozitelj);
-  return {
-    stol: S.brojac++, glava: CL.rand(GLAVE), tip:tip,
-    trazi: stavke.map(function(j){ return j.id; }),
-    doneseno: [], hr:t.hr, en:t.en,
-    strpljenje: strpljenje, maks: strpljenje, gotov:false,
-    dopunio: tip !== 'neodlucan', cfg:cfg
-  };
+function planirajSmjenu(cfg){
+  var m = mjeriPult();
+  var kapacitet = m.kapRedova * m.stupaca;
+  var granica = Math.min(cfg.redovi * 4, kapacitet) - 2;
+  var plan = null;
+  for (var k = 0; k < 160 && !plan; k++){
+    var g = granica + (k >= 80 ? Math.floor((k - 80) / 20) + 1 : 0);
+    plan = pokusajPlana(cfg, g, k < 40);
+  }
+  if (!plan) plan = pokusajPlana(cfg, 99, false);
+
+  /* nasumični dodaci na pultu: dopuni do punog reda, barem 2, ako ima mjesta */
+  var n0 = velicina(plan.skup);
+  var dodatno = Math.ceil((n0 + 2) / m.stupaca) * m.stupaca - n0;
+  if (dodatno > 5) dodatno = 2;
+  dodatno = Math.max(0, Math.min(dodatno, kapacitet - n0));
+  var ostala = CL.mix(JELOVNIK.filter(function(j){ return !plan.skup[j.id]; }));
+  for (var i = 0; i < ostala.length && dodatno > 0; i++){
+    if (skupinaSlobodna(ostala[i].id, plan.skup)){ plan.skup[ostala[i].id] = true; dodatno--; }
+  }
+  plan.red.forEach(function(x){ S.vidjeno[x.r.hr] = true; });
+  S.red = plan.red;
+  S.pult = JELOVNIK.filter(function(j){ return plan.skup[j.id]; })
+    .sort(function(a, b){ return a.v - b.v; });
+  crtajPult();
 }
 
-function dopuni(g){
-  g.dopunio = true;
-  var dodatna = CL.rand(S.pult.filter(function(j){ return g.trazi.indexOf(j.id) < 0; }));
-  if (!dodatna) return;
-  var pr = g.cfg.pridjev ? CL.rand(PRIDJEVI) : null;
-  g.trazi.push(dodatna.id);
-  g.hr += ' Ah, i još ' + oblik(dodatna, pr) + '!';
-  g.en += ' Oh, and also ' + opisEn(dodatna, pr) + '!';
-  g.strpljenje = Math.min(g.maks, g.strpljenje + 6);
-  CL.poruka('Table ' + g.stol + ' changed their mind!', 'lose');
-  crtajGoste();
-}
-
+/* ---------- pult ---------- */
 function crtajPult(){
   CL.el('jela').innerHTML = S.pult.map(function(j){
-    return '<button class="jelo" data-id="' + j.id + '">' +
-      CL.slika('rijec-' + j.id + '.png', j.emo, 44, 'mrlja-hrana') +
-      '<span>' + CL.esc(j.nom) + '</span></button>';
+    return '<button type="button" class="jelo" data-id="' + j.id + '" aria-label="' + CL.esc(j.nom) + '">' +
+      slikaJela(j, 'slikaJela') + '</button>';
   }).join('');
   rasporediPult();
 }
-/* Spektar teče po stupcima: prvi stupac odozgo prema dolje, pa drugi, pa treći.
-   CSS grid to ne zna sam uz auto-fill, pa broj stupaca i redaka računamo iz
-   širine pulta (ista minimalna širina i razmak kao u CSS-u). */
-function rasporediPult(){
-  var el = CL.el('jela'), n = S.pult ? S.pult.length : 0;
-  if (!el || !n) return;
-  var usko = window.matchMedia('(max-width:640px)').matches;
-  var min = usko ? 72 : 92, razmak = usko ? 5 : 8;
-  var stane = Math.max(1, Math.floor((el.clientWidth + razmak) / (min + razmak)));
-  var redaka = Math.ceil(n / Math.min(stane, n));
-  var stupaca = Math.ceil(n / redaka);
-  el.style.gridAutoFlow = 'column';
-  el.style.gridTemplateRows = 'repeat(' + redaka + ',auto)';
-  el.style.gridTemplateColumns = 'repeat(' + stupaca + ',minmax(0,1fr))';
-}
-window.addEventListener('resize', rasporediPult);
 CL.el('jela').addEventListener('click', function(e){
   var b = e.target.closest('.jelo'); if (!b) return;
   posluzi(b.dataset.id, b);
 });
 
-function crtajGoste(){
-  CL.el('gosti').innerHTML = S.aktivni.map(function(g, i){
-    var def = TIPOVI[g.tip];
-    return '<div class="gost' + (g.gotov?' gotov':'') + (g.strpljenje < g.maks*0.3 ? ' ljut':'') + '" data-i="' + i + '">' +
-      '<div class="stol">Table ' + g.stol + (def.oznaka ? ' · ' + def.oznaka : '') + '</div>' +
-      '<div style="display:flex;gap:8px;align-items:flex-start">' +
-      glavaGosta(g.glava) +
-      '<span><span class="narudzba">' + CL.esc(g.hr) + '</span>' +
-      '<div class="prijevodG">' + (g.tip === 'tih' ? '<i>no translation — you are on your own</i>' : CL.skritEN(g.en)) + '</div></span></div>' +
-      '<div class="doneseno">' + g.doneseno.map(function(id){
-        var j = JELOVNIK.filter(function(x){return x.id===id;})[0];
-        return '<span>' + j.emo + ' ' + CL.esc(j.nom) + '</span>';
-      }).join('') + '</div>' +
-      '<div class="strpljenje"><i style="width:' + Math.max(0, g.strpljenje/g.maks*100) + '%;background:' +
-      (g.strpljenje < g.maks*0.3 ? 'var(--koralj)' : g.strpljenje < g.maks*0.6 ? 'var(--zut)' : 'var(--zelena)') + '"></i></div>' +
-      '</div>';
-  }).join('');
+/* ---------- gosti ---------- */
+function novaNarudzba(stavka, cfg){
+  var def = TIPOVI[stavka.tip];
+  var strpljenje = Math.round(cfg.strpljenje * def.mnozitelj);
+  return {
+    stol: S.brojac++, glava: CL.rand(GLAVE), tip: stavka.tip,
+    trazi: stavka.r.j.slice(), doneseno: [], hr: stavka.r.hr, en: stavka.r.en,
+    dodatak: stavka.dodatak, dopunio: !stavka.dodatak, enOtvoren: false,
+    strpljenje: strpljenje, maks: strpljenje, gotov: false
+  };
+}
+
+function bojaStrpljenja(g){
+  return g.strpljenje < g.maks * 0.3 ? 'var(--koralj)' : g.strpljenje < g.maks * 0.6 ? 'var(--zut)' : 'var(--zelena)';
+}
+function htmlGosta(g){
+  var def = TIPOVI[g.tip];
+  var en = g.tip === 'tih' ? '<i class="bezPrijevoda">no translation</i>'
+    : g.enOtvoren ? '<span class="otkrijEN otkriven">' + CL.esc(g.en) + '</span>'
+    : '<button type="button" class="otkrijEN" data-prijevod="1">👁 translation</button>';
+  return '<div class="gost' + (g.gotov ? ' gotov' : '') + (g.strpljenje < g.maks * 0.3 ? ' ljut' : '') + '">' +
+    '<div class="gostVrh">' + glavaGosta(g.glava) +
+      '<span class="stol">Table ' + g.stol + '</span>' +
+      (def.znak ? '<span class="tipZnak" title="' + CL.esc(def.oznaka) + '">' + def.znak + '</span>' : '') +
+    '</div>' +
+    '<div class="gostTekst"><div class="narudzba">' + CL.esc(g.hr) + '</div>' +
+      '<div class="prijevodG">' + en + '</div></div>' +
+    '<div class="gostDno"><div class="strpljenje"><i style="width:' + Math.max(0, g.strpljenje / g.maks * 100) + '%;background:' + bojaStrpljenja(g) + '"></i></div>' +
+      '<span class="doneseno">' + g.doneseno.map(function(id){ return slikaJela(PO_ID[id], 'mini'); }).join('') + '</span></div>' +
+  '</div>';
+}
+function crtajStol(i){
+  var el = CL.el('stol' + i), g = S.stolovi[i];
+  if (!g){ el.innerHTML = '<div class="prazanStol"></div>'; return; }
+  el.innerHTML = htmlGosta(g);
+  prilagodiTekst(i);
+}
+/* Kartica je uvijek iste visine. Ako je narudžba duga, slova se malo smanje
+   — kartica nikad ne raste i ništa ispod nje ne poskakuje. */
+function prilagodiTekst(i){
+  var t = CL.el('stol' + i).querySelector('.gostTekst');
+  if (!t) return;
+  var vel = usko() ? 14.5 : 17;
+  t.style.setProperty('--vel', vel + 'px');
+  while (t.scrollHeight > t.clientHeight + 1 && vel > 10){
+    vel -= 0.5;
+    t.style.setProperty('--vel', vel + 'px');
+  }
+}
+function osvjeziStrpljenje(i){
+  var g = S.stolovi[i]; if (!g) return;
+  var el = CL.el('stol' + i);
+  var bar = el.querySelector('.strpljenje i'), k = el.querySelector('.gost');
+  if (bar){ bar.style.width = Math.max(0, g.strpljenje / g.maks * 100) + '%'; bar.style.background = bojaStrpljenja(g); }
+  if (k) k.classList.toggle('ljut', !g.gotov && g.strpljenje < g.maks * 0.3);
+}
+CL.el('gosti').addEventListener('click', function(e){
+  var b = e.target.closest('[data-prijevod]'); if (!b) return;
+  var m = e.target.closest('.stolMjesto'); if (!m) return;
+  var i = +m.id.replace('stol', ''), g = S.stolovi[i];
+  if (g){ g.enOtvoren = true; crtajStol(i); }
+});
+
+function dopuni(i){
+  var g = S.stolovi[i];
+  g.dopunio = true;
+  if (!g.dodatak) return;
+  g.trazi.push(g.dodatak.id);
+  g.hr += ' ' + g.dodatak.hr;
+  g.en += ' ' + g.dodatak.en;
+  g.strpljenje = Math.min(g.maks, g.strpljenje + 6);
+  CL.poruka('Table ' + g.stol + ' changed their mind!', 'lose');
+  crtajStol(i);
 }
 
 function posluzi(id, gumb){
-  for (var i=0;i<S.aktivni.length;i++){
-    var g = S.aktivni[i];
-    if (g.gotov) continue;
+  for (var i = 0; i < S.stolovi.length; i++){
+    var g = S.stolovi[i];
+    if (!g || g.gotov) continue;
     var trebaJos = g.trazi.filter(function(t){ return g.doneseno.indexOf(t) < 0; });
     if (trebaJos.indexOf(id) >= 0){
       g.doneseno.push(id);
       CL.pip(true); CL.zvuk('rijec-' + id + '.mp3');
-      if (g.trazi.every(function(t){ return g.doneseno.indexOf(t)>=0; })){
+      if (gumb){ gumb.classList.add('dobro'); setTimeout(function(){ gumb.classList.remove('dobro'); }, 260); }
+      if (g.trazi.every(function(t){ return g.doneseno.indexOf(t) >= 0; })){
         g.gotov = true; S.posluzeno++;
         S.bodovi = Math.min(window.IGRA_MAKS, S.bodovi + 10);   // 10 po izdanoj narudzbi
         var bonus = TIPOVI[g.tip].bonus;
         CL.poruka('Table ' + g.stol + ' is happy!' + (bonus ? ' A tough guest — nice work!' : ''), 'dobro');
-        setTimeout(function(){ makniGosta(g); }, 700);
+        (function(i, g){ setTimeout(function(){ makniGosta(i, g); }, 700); })(i, g);
       }
-      crtajGoste(); osvjezi();
+      crtajStol(i); osvjezi();
       return;
     }
   }
   CL.pip(false);
   if (gumb){ gumb.classList.add('tresi'); setTimeout(function(){ gumb.classList.remove('tresi'); }, 350); }
-  S.aktivni.forEach(function(g){ if(!g.gotov) g.strpljenje -= 3; });
+  S.stolovi.forEach(function(g, i){ if (g && !g.gotov){ g.strpljenje -= 3; osvjeziStrpljenje(i); } });
   CL.poruka('Nobody ordered that.', 'lose');
-  crtajGoste();
 }
 
-function makniGosta(g){
-  var i = S.aktivni.indexOf(g); if (i>=0) S.aktivni.splice(i,1);
-  crtajGoste(); napuni();
+function makniGosta(i, g){
+  if (S.stolovi[i] !== g) return;
+  S.stolovi[i] = null;
+  crtajStol(i);
+  setTimeout(napuni, 450);
 }
 
 function napuni(){
+  if (S.izmedju) return;
   var cfg = cfgSmjene();
-  while (S.aktivni.length < cfg.odjednom && S.uSmjeni < cfg.gostiju){
-    S.uSmjeni++;
-    S.aktivni.push(novaNarudzba(cfg));
+  var zauzeto = S.stolovi.filter(Boolean).length;
+  var najvise = Math.min(BROJ_STOLOVA, cfg.odjednom);
+  for (var i = 0; i < S.stolovi.length && zauzeto < najvise && S.red.length; i++){
+    if (S.stolovi[i]) continue;
+    S.stolovi[i] = novaNarudzba(S.red.shift(), cfg);
+    zauzeto++;
     CL.zvuk('gost-dolazi.mp3');
+    crtajStol(i);
   }
-  crtajGoste();
-  if (S.aktivni.length === 0 && S.uSmjeni >= cfg.gostiju) krajSmjene();
-}
-
-function pripremiPult(){
-  var cfg = cfgSmjene();
-  var n = Math.min(JELOVNIK.length, cfg.jelovnik);
-  /* uvijek ostavi barem nekoliko pića */
-  var pica = JELOVNIK.filter(function(j){ return j.v < GRANICA_PICA; });
-  var jela = JELOVNIK.filter(function(j){ return j.v >= GRANICA_PICA; });
-  var brojPica = Math.max(4, Math.round(n * 0.3));
-  /* izbor je slučajan, ali raspored nije: pult je jedan neprekinut spektar
-     od pića preko biljaka do životinja, pa igrač zna gdje što tražiti */
-  S.pult = CL.uzmi(pica, Math.min(brojPica, pica.length))
-    .concat(CL.uzmi(jela, Math.max(0, n - brojPica)))
-    .sort(function(a, b){ return a.v - b.v; });
-  crtajPult();
+  if (!zauzeto && !S.red.length) krajSmjene();
 }
 
 function krajSmjene(){
-  if (S.bez){
-    S.bezSmjena++;
-    S.uSmjeni = 0;
-    pripremiPult(); osvjezi();
-    var zz = CL.zastor('<h3>Night shift ' + S.bezSmjena + ' done</h3>' +
-      '<p>Guests served so far: <b>' + S.posluzeno + '</b>. The next shift is busier.</p>' +
-      '<div class="tipke"><button class="g glavni" id="_d">Open the doors</button></div>');
-    return zz.querySelector('#_d').onclick = function(){ zz.remove(); napuni(); };
-  }
+  S.izmedju = true;
   S.smjena++;
   if (S.smjena >= SMJENE.length) return kraj();
-  S.uSmjeni = 0;
   var cfg = SMJENE[S.smjena];
-  pripremiPult(); osvjezi();
+  planirajSmjenu(cfg); osvjezi();
   var novi = (cfg.tipovi || []).filter(function(t){ return t !== 'obican'; })
     .map(function(t){ return '<b>' + TIPOVI[t].oznaka + '</b> — ' + TIPOVI[t].opis; });
-  var z = CL.zastor('<h3>Shift ' + (S.smjena+1) + '/' + SMJENE.length + ': ' + CL.esc(cfg.ime) + '</h3>' +
-    '<p>' + cfg.gostiju + ' guests · up to ' + cfg.odjednom + ' at a time · ' +
-    cfg.stavki + ' item' + (cfg.stavki === 1 ? '' : 's') + ' per order<br>' +
-    'On the counter: <b>' + Math.min(JELOVNIK.length, cfg.jelovnik) + '</b> items' +
-    (cfg.pridjev ? ' · guests use <b>adjectives</b>' : '') + '</p>' +
+  var z = CL.zastor('<h3>Shift ' + (S.smjena + 1) + '/' + SMJENE.length + ': ' + CL.esc(cfg.ime) + '</h3>' +
+    '<p>' + cfg.gostiju + ' guests · up to ' + Math.min(BROJ_STOLOVA, cfg.odjednom) + ' at a time · ' +
+    'up to ' + cfg.stavki + ' item' + (cfg.stavki === 1 ? '' : 's') + ' per order<br>' +
+    'On the counter: <b>' + S.pult.length + '</b> items</p>' +
     (novi.length ? '<p style="font-size:13px;text-align:left">' + novi.join('<br>') + '</p>' : '') +
     '<div class="tipke"><button class="g glavni" id="_d">Open the doors</button></div>');
   z.querySelector('#_d').onclick = function(){
     z.remove();
+    S.izmedju = false;
     if (S.smjena % 5 === 0) CL.savjetZastor(napuni);
     else napuni();
   };
 }
 
 function osvjezi(){
-  var cfg = cfgSmjene();
-  CL.el('zSmjena').innerHTML = '🕑 <b>' + CL.esc(cfg.ime) + '</b>';
-  CL.el('zGosti').innerHTML = S.bez
-    ? '🧑 <b>' + S.posluzeno + '</b>'
-    : '🧑 <b>' + S.posluzeno + '</b>/' + UKUPNO_GOSTIJU;
+  CL.el('zSmjena').innerHTML = '🕑 <b>' + Math.min(S.smjena + 1, SMJENE.length) + '</b>/' + SMJENE.length;
+  CL.el('zGosti').innerHTML = '🧑 <b>' + S.posluzeno + '</b>/' + UKUPNO_GOSTIJU;
   CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>';
-  CL.el('oznakaS').textContent = S.bez
-    ? 'Endless ' + (S.bezSmjena+1)
-    : 'Shift ' + Math.min(S.smjena+1, SMJENE.length) + '/' + SMJENE.length;
 }
 
 /* ---- sat strpljenja ---- */
 S.sat = setInterval(function(){
   if (document.querySelector('.zastor')) return;
-  var promjena = false;
-  S.aktivni.slice().forEach(function(g){
-    if (g.gotov) return;
-    g.strpljenje -= 0.35; promjena = true;
-    if (!g.dopunio && g.strpljenje < g.maks * 0.6) dopuni(g);
+  S.stolovi.forEach(function(g, i){
+    if (!g || g.gotov) return;
+    g.strpljenje -= 0.35;
+    if (!g.dopunio && g.strpljenje < g.maks * 0.6) dopuni(i);
     if (g.strpljenje <= 0){
       g.strpljenje = 0;
       S.izgubljeno++;
       CL.pip(false);
       CL.poruka('Table ' + g.stol + ' left without their food.', 'lose');
-      var i = S.aktivni.indexOf(g); if (i>=0) S.aktivni.splice(i,1);
-      napuni();
+      S.stolovi[i] = null;
+      crtajStol(i);
+      setTimeout(napuni, 450);
+      return;
     }
+    osvjeziStrpljenje(i);
   });
-  if (promjena) crtajGoste();
 }, 300);
 
-function pokreniBezKraja(){
-  CL.zatvoriZastore();
-  S.bez = true; S.bezSmjena = 0; S.uSmjeni = 0; S.aktivni = []; S.bodovi = 50;
-  pripremiPult(); osvjezi();
-  CL.poruka('The tavern never closes — the guests keep coming as long as you last.', 'dobro');
-  napuni();
-}
-
 function kraj(){
-  if (S.bez){
-    return CL.kraj({
-      naslov:'The tavern is closing',
-      tekst:'Across the night shifts you served <b>' + S.posluzeno + '</b> guests over ' +
-        S.bezSmjena + ' shifts.',
-      bodovi:bodoviKonobe(), maks:window.IGRA_MAKS,
-      ponovno:pokreniBezKraja
-    });
-  }
   clearInterval(S.sat);
   CL.kraj({
     naslov: S.posluzeno >= UKUPNO_GOSTIJU ? 'A perfect day!' : 'The tavern is closing',
-    tekst:'Served: <b>' + S.posluzeno + '</b> of ' + UKUPNO_GOSTIJU + ' guests across twenty shifts. ' +
-      'Left without their food: ' + S.izgubljeno + '. From a single coffee to a rush of three-item orders, adjectives and guests who give you no translation.',
-    bodovi:bodoviKonobe(), maks:window.IGRA_MAKS,
-    ponovno:function(){ location.reload(); }
+    tekst: 'Served: <b>' + S.posluzeno + '</b> of ' + UKUPNO_GOSTIJU + ' guests across twenty shifts. ' +
+      'Left without their food: ' + S.izgubljeno + '.',
+    bodovi: bodoviKonobe(), maks: window.IGRA_MAKS,
+    ponovno: function(){ location.reload(); }
   });
 }
 
 (function(){
-  pripremiPult(); osvjezi();
+  for (var i = 0; i < BROJ_STOLOVA; i++) crtajStol(i);
+  osvjezi();
+  /* plan prve smjene tek kad se raspored slegne, da mjere ekrana budu točne */
+  requestAnimationFrame(function(){ planirajSmjenu(SMJENE[0]); });
   var z = CL.zastor(
     '<h3>The Tavern (Konoba)</h3>' +
-    '<p>Twenty shifts, a menu of ' + JELOVNIK.length + ' items and four types of guest. ' +
-    'Read the order, click the right dish on the counter and get there before the guest runs out of patience.</p>' +
+    '<p>Twenty shifts from breakfast to the last round. Read each order in Croatian, tap the right dishes on the counter ' +
+    'and serve the guest before their patience runs out.</p>' +
+    '<p style="font-size:13px">One tap per dish — even when a guest asks for two coffees.</p>' +
     '<div class="tipke" style="margin-top:14px"><button class="g glavni" id="_k">Open the doors</button></div>');
   z.querySelector('#_k').onclick = function(){ z.remove(); napuni(); };
 })();
