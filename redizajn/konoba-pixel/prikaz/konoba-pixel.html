@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Konoba — pixel smjer (statični prikaz)</title>
+<style>
+@font-face{font-family:"Geist";font-weight:400 700;src:url("fonts/geist-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:400 700;src:url("fonts/geist-latin-ext-600-normal.woff2") format("woff2");unicode-range:U+0100-024F}
+@font-face{font-family:"GPix";src:url("fonts/geist-pixel-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"GPix";src:url("fonts/geist-pixel-latin-ext-400-normal.woff2") format("woff2");unicode-range:U+0100-024F}
+/* Jedan „art piksel“ = --u CSS piksela (2 na mobitelu). Sve mjere su višekratnici. */
+:root{--u:2px;--tinta:#2B2118;--krem:#FFFDF8;--placemat:#F1E6D3;--siva:#8E7E6C;--zelena:#6E9A43;--zuta:#D9A441;--crvena:#C8553D}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:"Geist",system-ui,sans-serif;color:var(--tinta);
+  background:#E9DDCB url("kit/zid.png") 0 0/calc(48*var(--u)) auto;image-rendering:pixelated;
+  -webkit-font-smoothing:antialiased}
+img{image-rendering:pixelated;display:block}
+.omot{max-width:420px;margin:0 auto;padding:calc(4*var(--u)) calc(3*var(--u));display:flex;flex-direction:column;gap:calc(4*var(--u))}
+/* „pixel“ okvir: obrub od jednog art piksela s odsječenim kutovima */
+.pxo{box-shadow:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta)}
+
+/* ploča na vrhu */
+.ploca{display:flex;align-items:center;gap:calc(3*var(--u));padding:calc(3*var(--u)) calc(5*var(--u));
+  background:#3E2C20 url("kit/ploca.png") 0 0/calc(32*var(--u)) auto;color:#F3E7D3;margin:var(--u)}
+.ploca .ime{font-family:"GPix";font-size:20px;letter-spacing:1px;margin-right:auto}
+.ploca .br{font-family:"GPix";font-size:16px;display:flex;align-items:center;gap:6px}
+.ploca .br i{font-style:normal;color:#BFA88C;font-size:13px}
+
+/* gosti */
+.gosti{display:grid;grid-template-columns:1fr 1fr;gap:calc(4*var(--u))}
+.gost{display:flex;flex-direction:column;min-width:0}
+.oblacic{position:relative;background:var(--krem);margin:var(--u);padding:calc(4*var(--u)) calc(5*var(--u));min-height:calc(52*var(--u))}
+.oblacic .stol{font-family:"GPix";font-size:12px;color:var(--siva);letter-spacing:.5px;display:flex;justify-content:space-between}
+.oblacic .rec{font-size:15.5px;font-weight:600;line-height:1.3;margin-top:4px}
+.oblacic .en{margin-top:6px;font-size:12px;color:var(--siva);border:1.5px solid #E6DCCB;border-radius:6px;display:inline-block;padding:0 6px}
+.oblacic::after{content:"";position:absolute;left:calc(8*var(--u));bottom:calc(-6*var(--u) + 0px);width:calc(7*var(--u));height:calc(6*var(--u));
+  background:url("kit/rep.png") 0 0/100% 100%;image-rendering:pixelated}
+.lik{display:flex;align-items:flex-end;gap:calc(3*var(--u));margin-top:calc(6*var(--u));padding-left:calc(3*var(--u))}
+.lik img{width:calc(40*var(--u));height:calc(40*var(--u))}
+.strp{display:flex;gap:var(--u);margin-bottom:calc(3*var(--u))}
+.strp b{width:calc(4*var(--u));height:calc(3*var(--u));background:#D9CDBA}
+.strp b.p{background:var(--zelena)} .strp.srednje b.p{background:var(--zuta)} .strp.malo b.p{background:var(--crvena)}
+.stolic{height:calc(12*var(--u));background:#77543A url("kit/drvo.png") 0 0/calc(64*var(--u)) auto;margin:0 var(--u);
+  box-shadow:0 var(--u) 0 #4A3324;display:flex;align-items:flex-end;gap:var(--u);padding:0 calc(4*var(--u))}
+.stolic img{width:calc(16*var(--u));height:calc(16*var(--u));margin-bottom:calc(2*var(--u))}
+
+/* šank */
+.sank{background:#6B4A33 url("kit/drvo.png") 0 0/calc(64*var(--u)) auto;padding:calc(5*var(--u)) calc(4*var(--u));margin:var(--u);
+  box-shadow:0 calc(-1*var(--u)) 0 #4A3324,0 var(--u) 0 #4A3324,inset 0 calc(2*var(--u)) 0 rgba(255,255,255,.08)}
+.jela{display:grid;grid-template-columns:repeat(4,calc(34*var(--u)));grid-auto-flow:column;grid-template-rows:repeat(3,calc(34*var(--u)));
+  gap:calc(3*var(--u));justify-content:center}
+.jelo{background:var(--placemat);margin:var(--u);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 calc(-1*var(--u)) 0 #3B2A1E,0 var(--u) 0 #3B2A1E,calc(-1*var(--u)) 0 0 #3B2A1E,var(--u) 0 0 #3B2A1E,0 calc(3*var(--u)) 0 rgba(0,0,0,.25)}
+.jelo img{width:calc(32*var(--u));height:calc(32*var(--u))}
+.jelo.dobro{box-shadow:0 calc(-2*var(--u)) 0 var(--zelena),0 calc(2*var(--u)) 0 var(--zelena),calc(-2*var(--u)) 0 0 var(--zelena),calc(2*var(--u)) 0 0 var(--zelena)}
+.oznaka{position:fixed;left:6px;bottom:6px;font:600 11px Geist,sans-serif;background:rgba(43,33,24,.75);color:#fff;padding:3px 8px;border-radius:99px}
+</style>
+</head>
+<body>
+<div class="omot" id="omot"></div>
+<div class="oznaka" id="oznaka"></div>
+<script>
+/* Statični prikaz: ?stil=A ili ?stil=B. Sprajtovi: sprajtovi/<id>-<stil>.png */
+var stil = (location.search.match(/stil=(\w)/) || [0, 'A'])[1];
+var DPR = window.devicePixelRatio || 1;
+/* cjelobrojno povećanje u PIKSELIMA UREĐAJA: 1 art piksel = k piksela zaslona */
+var k = Math.max(1, Math.round(2 * DPR));
+document.documentElement.style.setProperty('--u', (k / DPR) + 'px');
+
+var JELA = (window.JELA_PRIKAZ || ['voda','vino','pivo','kava','juha','salata','kruh','pizza','riba','cevapi','sladoled','torta']);
+var GOSTI = window.GOSTI_PRIKAZ || [
+  {id:'gost03', izraz:'sretan', stol:7, rec:'Ćevape, pivo i rakiju za kraj!', strp:7, doneseno:['cevapi']},
+  {id:'gost09', izraz:'ljut', stol:8, rec:'Juhu za početak, a onda ribu.', strp:2, doneseno:[], zurba:true}
+];
+function spr(id){ return 'sprajtovi/' + id + '-' + stil + '.png'; }
+function sprLik(g){ return 'sprajtovi/' + g.id + '-' + stil + (g.izraz ? '-' + g.izraz : '') + '.png'; }
+function strp(n){ var s=''; for (var i=0;i<8;i++) s+='<b class="'+(i<n?'p':'')+'"></b>'; return '<div class="strp '+(n<=2?'malo':n<=4?'srednje':'')+'">'+s+'</div>'; }
+
+document.getElementById('omot').innerHTML =
+  '<div class="ploca pxo"><span class="ime">KONOBA</span>' +
+    '<span class="br"><i>SHIFT</i>6/20</span><span class="br"><i>GUESTS</i>17/85</span><span class="br"><i>★</i>170</span></div>' +
+  '<div class="gosti">' + GOSTI.map(function(g){
+    return '<div class="gost"><div class="oblacic pxo"><div class="stol"><span>TABLE ' + g.stol + '</span><span>' + (g.zurba ? '⏩' : '') + '</span></div>' +
+      '<div class="rec">' + g.rec + '</div><span class="en">👁 translation</span></div>' +
+      '<div class="lik"><img src="' + sprLik(g) + '" alt="">' + strp(g.strp) + '</div>' +
+      '<div class="stolic">' + g.doneseno.map(function(d){ return '<img src="' + spr(d) + '" alt="">'; }).join('') + '</div></div>';
+  }).join('') + '</div>' +
+  '<div class="sank"><div class="jela">' + JELA.map(function(j, i){
+    return '<div class="jelo' + (i === 9 ? ' dobro' : '') + '"><img src="' + spr(j) + '" alt=""></div>';
+  }).join('') + '</div></div>';
+document.getElementById('oznaka').textContent = 'stil ' + stil + ' · 1 art px = ' + k + ' px zaslona';
+</script>
+</body>
+</html>

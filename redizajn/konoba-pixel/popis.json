@@ -1,0 +1,327 @@
+{
+ "model": "gemini-nano-banana-2.1",
+ "velicina": "1K",
+ "izlaz": "redizajn/konoba-pixel/novo",
+ "stavke": [
+  {
+   "ime": "voda-A",
+   "prompt": "Pixel art game item sprite: a glass carafe of water. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "vino-A",
+   "prompt": "Pixel art game item sprite: a glass of red wine next to a dark wine bottle. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "pivo-A",
+   "prompt": "Pixel art game item sprite: a glass beer mug with golden beer and white foam. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "kava-A",
+   "prompt": "Pixel art game item sprite: a small white espresso cup of black coffee on a saucer. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "juha-A",
+   "prompt": "Pixel art game item sprite: a white bowl of vegetable soup. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "salata-A",
+   "prompt": "Pixel art game item sprite: a bowl of fresh green mixed salad with tomato slices. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "kruh-A",
+   "prompt": "Pixel art game item sprite: a big loaf of bread with two slices cut off, filling most of the frame. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "pizza-A",
+   "prompt": "Pixel art game item sprite: a whole round pizza with tomato sauce and salami slices. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "riba-A",
+   "prompt": "Pixel art game item sprite: a whole grilled fish on a plate with a lemon wedge. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "cevapi-A",
+   "prompt": "Pixel art game item sprite: a plate of ćevapi: several small grilled minced-meat sausages with chopped onion. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "sladoled-A",
+   "prompt": "Pixel art game item sprite: a scoop of vanilla ice cream in a waffle cone. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "torta-A",
+   "prompt": "Pixel art game item sprite: a slice of layered cream cake with a strawberry on top. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost03-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of an elderly man with a white moustache and a dark flat cap, wearing a brown waistcoat over a cream shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost03-A-sretan",
+   "iz": "gost03-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost03-A-ljut",
+   "iz": "gost03-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost09-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a young woman with long wavy red hair and freckles, wearing a white blouse. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost09-A-sretan",
+   "iz": "gost09-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost09-A-ljut",
+   "iz": "gost09-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "mlijeko-A",
+   "prompt": "Pixel art game item sprite: a glass of milk next to a small milk carton. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "sok-A",
+   "prompt": "Pixel art game item sprite: a tall glass of orange juice with an orange slice on the rim. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "limunada-A",
+   "prompt": "Pixel art game item sprite: a glass of pale yellow lemonade with ice cubes, a lemon slice and a straw. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "caj-A",
+   "prompt": "Pixel art game item sprite: a clear glass mug of amber tea with a tea-bag string and small paper tag hanging over the rim. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "kapucino-A",
+   "prompt": "Pixel art game item sprite: a wide cup of cappuccino on a saucer, white milk foam with a heart pattern. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "rakija-A",
+   "prompt": "Pixel art game item sprite: a small shot glass of pale golden fruit brandy next to a small glass bottle with a cork. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "povrce-A",
+   "prompt": "Pixel art game item sprite: a small wicker basket of vegetables: carrots, a red tomato and broccoli. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "krumpir-A",
+   "prompt": "Pixel art game item sprite: two whole brown potatoes. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "voce-A",
+   "prompt": "Pixel art game item sprite: a bowl of fruit: a red apple, a banana and a bunch of purple grapes. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "riza-A",
+   "prompt": "Pixel art game item sprite: a bowl of white cooked rice. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "tjestenina-A",
+   "prompt": "Pixel art game item sprite: a plate of spaghetti with red tomato sauce and a fork twirled in it. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "burek-A",
+   "prompt": "Pixel art game item sprite: a round coiled Balkan burek pie of golden flaky pastry with one wedge cut out. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "pita-A",
+   "prompt": "Pixel art game item sprite: a round apple pie with a golden lattice crust. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "sendvic-A",
+   "prompt": "Pixel art game item sprite: a sandwich with lettuce, tomato and cheese, cut diagonally in half. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "palacinke-A",
+   "prompt": "Pixel art game item sprite: a plate of rolled thin pancakes (crêpes) with red jam. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "fritule-A",
+   "prompt": "Pixel art game item sprite: a small plate of round golden fried dough balls dusted with powdered sugar. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "kolac-A",
+   "prompt": "Pixel art game item sprite: a square slice of cream cake: thick vanilla cream between two thin layers of puff pastry, dusted with sugar. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "cokolada-A",
+   "prompt": "Pixel art game item sprite: a bar of dark chocolate partly unwrapped from a red wrapper. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "jaje-A",
+   "prompt": "Pixel art game item sprite: a fried egg in a small black frying pan next to a whole brown egg. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "sir-A",
+   "prompt": "Pixel art game item sprite: a wedge of yellow cheese with round holes. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "lignje-A",
+   "prompt": "Pixel art game item sprite: a plate of golden fried squid rings with a lemon wedge. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "piletina-A",
+   "prompt": "Pixel art game item sprite: a roasted chicken drumstick on a white plate. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "meso-A",
+   "prompt": "Pixel art game item sprite: a grilled steak with dark grill marks on a white plate. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gulas-A",
+   "prompt": "Pixel art game item sprite: a deep bowl of thick red-brown goulash with chunks of beef. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "sunka-A",
+   "prompt": "Pixel art game item sprite: several slices of pink ham fanned out on a small wooden board. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "kobasica-A",
+   "prompt": "Pixel art game item sprite: two grilled sausages with grill marks on a white plate. Three-quarter top-down view, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost01-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a young man in his twenties with short brown hair, wearing a plain orange T-shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost01-A-sretan",
+   "iz": "gost01-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost01-A-ljut",
+   "iz": "gost01-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost02-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a woman in her thirties with dark hair in a bun, wearing a teal blouse. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost02-A-sretan",
+   "iz": "gost02-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost02-A-ljut",
+   "iz": "gost02-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost04-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of an elderly woman with short grey hair and round glasses, wearing a lilac cardigan. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost04-A-sretan",
+   "iz": "gost04-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost04-A-ljut",
+   "iz": "gost04-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost05-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a man in his forties with a full dark beard, wearing a green checked shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost05-A-sretan",
+   "iz": "gost05-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost05-A-ljut",
+   "iz": "gost05-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost06-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a girl about ten years old with two pigtails, wearing a yellow T-shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost06-A-sretan",
+   "iz": "gost06-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost06-A-ljut",
+   "iz": "gost06-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost07-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a businesswoman in her forties with shoulder-length blond hair, wearing a navy blazer. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost07-A-sretan",
+   "iz": "gost07-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost07-A-ljut",
+   "iz": "gost07-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost08-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a young musician with messy black hair and headphones around his neck, wearing a red hoodie. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost08-A-sretan",
+   "iz": "gost08-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost08-A-ljut",
+   "iz": "gost08-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost10-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a weathered fisherman in his sixties with a grey beard and a navy knitted cap, wearing a striped sailor shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost10-A-sretan",
+   "iz": "gost10-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost10-A-ljut",
+   "iz": "gost10-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost11-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a university student with curly brown hair and rectangular glasses, wearing a light blue shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost11-A-sretan",
+   "iz": "gost11-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost11-A-ljut",
+   "iz": "gost11-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost12-A",
+   "prompt": "Pixel art character portrait, head and shoulders, of a smiling tourist in his fifties with a straw sun hat, wearing a colourful summer shirt. Facing the viewer, neutral friendly expression, centred, shoulders cut off by the bottom edge. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the subject. No text, no letters, no frame, no border, no drop shadow on the background. Style: classic cozy 16-bit game look — a clean 1-pixel dark brown outline around the whole subject, warm but muted colours, simple two-tone shading with light coming from the top left."
+  },
+  {
+   "ime": "gost12-A-sretan",
+   "iz": "gost12-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: a warm, open smile — happy and satisfied, eyes slightly squinted with joy. Every pixel outside the face stays exactly the same."
+  },
+  {
+   "ime": "gost12-A-ljut",
+   "iz": "gost12-A",
+   "prompt": "Edit this pixel art portrait. Keep the same character, the same pixel grid, the same palette, the same framing and the same white background — change ONLY the facial expression to: impatient and annoyed — frowning, eyebrows angled down, mouth a flat tight line. Every pixel outside the face stays exactly the same."
+  }
+ ]
+}

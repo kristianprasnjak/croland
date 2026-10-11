@@ -17,6 +17,7 @@ Izvorni paketi čuvaju se u `../../kenney/<paket>/` (uz njihov `License.txt`). L
 | `font-pixelify-sans.ttf` | Pixelify Sans · https://github.com/google/fonts/tree/main/ofl/pixelifysans | OFL 1.1 | 26. 9. 2026. |
 | `font-nunito.ttf` | Nunito · https://github.com/google/fonts/tree/main/ofl/nunito | OFL 1.1 | 26. 9. 2026. |
 | `font-geist-latin-*.woff2`, `font-geist-latin-ext-*.woff2` (400, 600, 700) | Geist (Vercel) · https://github.com/vercel/geist-font, preko paketa @fontsource/geist 5.3.0 | OFL 1.1 | 11. 10. 2026. |
+| `font-geist-pixel-latin-400.woff2`, `font-geist-pixel-latin-ext-400.woff2` | Geist Pixel (Vercel) · https://github.com/vercel/geist-font, preko paketa @fontsource/geist-pixel | OFL 1.1 | 11. 10. 2026. |
 
 Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rezerva:
 - Pixel Platformer · https://kenney.nl/assets/pixel-platformer
@@ -32,3 +33,5 @@ Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rez
 | `vlak-*.png` | vlastite slike |
 | Gemini slike (`tvr-*`, `konoba-interijer`, `vlak-kolodvor`, `portal-pozadina-*`, `obrana-nebo*`) | izrađuje korisnik, vidi `../MINI-gemini-promptovi.md` |
 | `konoba-gost-01.webp` … `-12.webp` | Gemini (Nano Banana 2.1), `redizajn/konoba/generiraj.js`, 11. 10. 2026.; izrezani portreti |
+| `konoba/*.png` (38 jela, 38 `-mini`, 12 gostiju × 3 izraza) | Gemini (Nano Banana 2.1), `redizajn/konoba-pixel/popis.json`, 11. 10. 2026.; svedeno na pravi pixel art s `redizajn/pikseli.py` (jela 32×32, gosti 40×40, zajednička paleta) |
+| `konoba/zid.png`, `drvo.png`, `ploca.png`, `rep.png` | vlastite pixel teksture, izrađene za ovu igru |
