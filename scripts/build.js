@@ -19,7 +19,8 @@ const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy
   // spanjolska verzija (croland-es/): pravni tekstovi zasad samo engleski (pravno nije postavljeno u <head>)
   'index-es.html', 'rjecnik-es.js', 'pregledi-es.js'];
 // vendor/: supabase-js s vlastite domene (verzija zaključana u imenu datoteke), ne s CDN-a
-const DIRS = ['slike', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
+// slike-cisto/: ilustracije bez mrlje u pozadini (redizajn/mrlje.py) — mini igre ih traže prve
+const DIRS = ['slike', 'slike-cisto', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
 
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });

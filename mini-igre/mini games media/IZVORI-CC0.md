@@ -16,6 +16,7 @@ Izvorni paketi čuvaju se u `../../kenney/<paket>/` (uz njihov `License.txt`). L
 | `kenney-rogue.png`, `kenney-urban.png` (Grad) | Kenney — Roguelike RPG Pack, Roguelike Modern City | CC0 | kolovoz 2026. |
 | `font-pixelify-sans.ttf` | Pixelify Sans · https://github.com/google/fonts/tree/main/ofl/pixelifysans | OFL 1.1 | 26. 9. 2026. |
 | `font-nunito.ttf` | Nunito · https://github.com/google/fonts/tree/main/ofl/nunito | OFL 1.1 | 26. 9. 2026. |
+| `font-geist-latin-*.woff2`, `font-geist-latin-ext-*.woff2` (400, 600, 700) | Geist (Vercel) · https://github.com/vercel/geist-font, preko paketa @fontsource/geist 5.3.0 | OFL 1.1 | 11. 10. 2026. |
 
 Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rezerva:
 - Pixel Platformer · https://kenney.nl/assets/pixel-platformer
@@ -30,3 +31,4 @@ Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rez
 | `tvr-hrana-*.png` (10 kom) | smanjene kopije ilustracija iz `slike/` |
 | `vlak-*.png` | vlastite slike |
 | Gemini slike (`tvr-*`, `konoba-interijer`, `vlak-kolodvor`, `portal-pozadina-*`, `obrana-nebo*`) | izrađuje korisnik, vidi `../MINI-gemini-promptovi.md` |
+| `konoba-gost-01.webp` … `-12.webp` | Gemini (Nano Banana 2.1), `redizajn/konoba/generiraj.js`, 11. 10. 2026.; izrezani portreti |

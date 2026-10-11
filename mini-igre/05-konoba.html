@@ -181,96 +181,137 @@ input.upis{border:0;margin:3px;font-family:var(--tekst);
 }
 /*[/CL-STIL]*/
 
-/* ==== Konoba ====
+/* ==== Konoba — izgled „čisto i mirno“ ====
+   Bijele kartice bez obruba, blage sjene, font Geist. Ovaj blok namjerno
+   pregazi zajednički pixel stil (CL-STIL) samo u ovoj igri — kad se smjer
+   potvrdi, isto ide u _sadrzaj/stil.css za sve igre.
    Raspored: gore dva stola (uvijek ista visina), dolje pult. Pločice na
    pultu su kvadratne i velike koliko ekran dopušta (računa rasporediPult). */
 
-.konobaOmot{display:flex;flex-direction:column;gap:10px}
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-400.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-600.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-700.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-ext-600.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-ext-700.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
+:root{
+  --pix:"Geist","Nunito",system-ui,sans-serif;
+  --tekst:"Geist","Nunito",system-ui,sans-serif;
+  --pozadina:#F6F3EE; --kartica:#FFFFFF; --kartica2:#FFFBF4; --crtica:#E8E1D6; --siva:#9A8B7A;
+  --mekaSjena:0 1px 2px rgba(43,33,24,.06),0 4px 16px rgba(43,33,24,.06);
+}
+body{font-family:var(--tekst);background:var(--pozadina);background-image:none}
+
+/* zajednički dijelovi, prepisani iz pixel stila */
+.hud,.ploha,.zastor .kut{border:0;border-image:none;border-radius:16px;background:var(--kartica);box-shadow:var(--mekaSjena)}
+.hud{padding:8px 14px;margin-bottom:10px;gap:6px}
+.hud .ime{font-family:var(--pix);font-weight:700;font-size:19px;letter-spacing:-.2px}
+.hud .ime small{font-family:var(--tekst);font-weight:600;letter-spacing:.6px;color:var(--siva)}
+.znak{font-family:var(--pix);font-weight:600;border:0;border-radius:999px;background:#F3EEE6;box-shadow:none;margin:0;padding:4px 11px;font-size:14px}
+.ploha{padding:12px;gap:0}
+.zastor{background:rgba(43,33,24,.55)}
+.zastor .kut{padding:24px 22px}
+.zastor h3{font-family:var(--pix);font-weight:700;letter-spacing:-.3px}
+.g{font-family:var(--pix);border:0;border-radius:12px;margin:0;background:#F3EEE6;color:var(--tinta);
+  box-shadow:none;font-weight:600;padding:11px 20px}
+.g:hover{background:#ECE5DA}
+.g:active{transform:translateY(1px);box-shadow:none}
+.g.glavni{background:var(--tinta);color:#fff;font-weight:600;letter-spacing:0}
+.g.glavni:hover{background:#43362B}
+.zastor .g{font-family:var(--pix);font-weight:600}
+.valuta{border:0;border-radius:12px;background:#F3EEE6;box-shadow:none}
+.valuta b{font-family:var(--pix)}
+.poruka{font-family:var(--pix);font-weight:600;border-radius:999px;box-shadow:0 4px 16px rgba(43,33,24,.18)}
+.otkrijEN{font-family:var(--tekst);border:1.5px solid var(--crtica);border-radius:8px;background:#fff;padding:1px 7px;opacity:1;color:var(--siva)}
+.otkrijEN:hover{border-color:var(--siva);color:var(--tinta)}
+.otkrijEN.otkriven{border:0;background:none;padding:0;color:var(--siva)}
+
+.konobaOmot{display:flex;flex-direction:column;gap:12px}
+/* na računalu igra ne ide preko cijele širine — dva stola i pult od četiri
+   stupca tada stoje u skladnom omjeru umjesto da se razvuku */
+.omot{max-width:760px}
 
 /* stolovi */
-.gosti{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;margin:-2px;
-  background:url("mini games media/konoba-interijer.png") center bottom/cover,
-    linear-gradient(#C58747 0 0) bottom/100% 6px no-repeat,
-    repeating-linear-gradient(90deg,#8A5A2E 0 46px,#7A4E27 46px 48px);
-  image-rendering:pixelated}
-.stolMjesto{height:var(--visinaStola,150px);min-width:0;padding:3px}
-.prazanStol{height:100%;background:rgba(255,241,210,.18);
-  box-shadow:0 -2px 0 rgba(43,33,24,.25),0 2px 0 rgba(43,33,24,.25),-2px 0 0 rgba(43,33,24,.25),2px 0 0 rgba(43,33,24,.25)}
-.gost{height:100%;display:flex;flex-direction:column;gap:5px;padding:8px 10px;background:var(--krem);
-  box-shadow:0 -3px 0 var(--tinta),0 3px 0 var(--tinta),-3px 0 0 var(--tinta),3px 0 0 var(--tinta),0 7px 0 rgba(43,33,24,.45);
-  animation:blijedi .25s}
-.gost.gotov{background:#DFF3D2}
-.gost.ljut{background:#FBDCD5}
-.gostVrh{display:flex;align-items:center;gap:7px;flex:none;min-width:0}
-.gost .stol{font-family:var(--pix);font-weight:600;font-size:13px;letter-spacing:.5px;text-transform:uppercase;
-  color:var(--koralj);white-space:nowrap}
-.tipZnak{margin-left:auto;font-size:16px;line-height:1}
-.gostLik{flex:none;width:40px;height:40px;background:url("mini games media/konoba-gosti.png") 0 0/480px 40px no-repeat;
-  background-position:calc(var(--gi) * -40px) 0;image-rendering:pixelated}
-.gostLik b{font-size:0}
-.gostLik.zrcalo{transform:scaleX(-1)}
+.gosti{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stolMjesto{height:var(--visinaStola,164px);min-width:0}
+.prazanStol{height:100%;border-radius:12px;border:1.5px dashed #DDD5C8;background:#FBF9F6}
+.gost{height:100%;display:flex;flex-direction:column;gap:6px;padding:10px 12px;border-radius:12px;
+  background:var(--kartica2);border:1.5px solid var(--crtica);animation:blijedi .25s;transition:background .3s,border-color .3s}
+.gost.gotov{background:#EEF7E6;border-color:#C9E3B3}
+.gost.ljut{background:#FFF0EB;border-color:#F5C2B0}
+.gostVrh{display:flex;align-items:center;gap:8px;flex:none;min-width:0}
+.gost .stol{font-family:var(--pix);font-weight:600;font-size:11px;letter-spacing:.7px;text-transform:uppercase;
+  color:var(--siva);white-space:nowrap}
+.tipZnak{margin-left:auto;font-size:15px;line-height:1}
+.gostLik{position:relative;flex:none;width:36px;height:36px;border-radius:50%;overflow:hidden;background:#F3EEE6;
+  display:flex;align-items:center;justify-content:center}
+.gostLik img{width:100%;height:100%;object-fit:cover;display:block}
+.gostLik b{display:none;font-size:21px;font-weight:400;line-height:1}
+.gostLik.bezSlike b{display:block}
 .gostTekst{flex:1;min-height:0;overflow:hidden;--vel:17px}
-.gost .narudzba{font-size:var(--vel);font-weight:700;line-height:1.28}
-.gost .prijevodG{font-size:calc(var(--vel) * .8);color:var(--meko);margin-top:4px;line-height:1.3}
+.gost .narudzba{font-size:var(--vel);font-weight:600;line-height:1.3;letter-spacing:-.1px}
+.gost .prijevodG{font-size:calc(var(--vel) * .8);color:var(--siva);margin-top:5px;line-height:1.3}
 .bezPrijevoda{font-size:.92em}
-.gostDno{display:flex;align-items:center;gap:6px;flex:none;height:24px}
-.gost .strpljenje{flex:1;height:10px;background:var(--papir2);border:2px solid var(--tinta);overflow:hidden}
-.gost .strpljenje i{display:block;height:100%;width:100%;transition:width .3s linear}
-.doneseno{display:flex;gap:3px;flex:none}
-.doneseno .mini{position:relative;display:block;width:24px;height:24px;background:#fff;
-  box-shadow:0 0 0 2px var(--tinta)}
+.gostDno{display:flex;align-items:center;gap:8px;flex:none;height:24px}
+.gost .strpljenje{flex:1;height:6px;background:#EFE9E0;border-radius:99px;overflow:hidden}
+.gost .strpljenje i{display:block;height:100%;width:100%;border-radius:99px;transition:width .3s linear,background .3s}
+.doneseno{display:flex;gap:4px;flex:none}
+.doneseno .mini{position:relative;display:block;width:24px;height:24px;background:#fff;border-radius:6px;
+  border:1px solid var(--crtica);overflow:hidden}
 .doneseno .mini img{width:100%;height:100%;object-fit:contain;display:block}
 .doneseno .mini b{display:none}
-.doneseno .mini.bezSlike b{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;font-size:16px;font-weight:400}
+.doneseno .mini.bezSlike b{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;font-size:15px;font-weight:400}
 
 /* pult */
-.pult{border:12px solid transparent;border-radius:0;padding:6px;
-  border-image:url("mini games media/ui-okvir-tamni.png") 8 fill / 12px stretch;image-rendering:pixelated}
-.jela{display:grid;grid-auto-flow:column;gap:var(--razmak,8px);justify-content:center;
+.pult{padding:0}
+.jela{display:grid;grid-auto-flow:column;gap:var(--razmak,10px);justify-content:center;
   grid-template-columns:repeat(4,var(--plocica,72px))}
-.jelo{width:var(--plocica,72px);height:var(--plocica,72px);display:block;padding:3px;margin:0;border:0;border-radius:0;
+.jelo{width:var(--plocica,72px);height:var(--plocica,72px);display:block;padding:5px;margin:0;border:0;border-radius:14px;
   background:#fff;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;
-  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta),0 5px 0 rgba(0,0,0,.45)}
-.jelo:active{transform:translateY(2px);
-  box-shadow:0 -2px 0 var(--tinta),0 2px 0 var(--tinta),-2px 0 0 var(--tinta),2px 0 0 var(--tinta)}
-.jelo.dobro{box-shadow:0 0 0 4px var(--zelena),0 5px 0 rgba(0,0,0,.45)}
+  box-shadow:0 0 0 1.5px var(--crtica);transition:transform .08s,box-shadow .15s}
+.jelo:active{transform:scale(.96)}
+.jelo.dobro{box-shadow:0 0 0 3px var(--zelena)}
+.jelo.tresi{box-shadow:0 0 0 3px var(--koralj)}
 .slikaJela{position:relative;display:block;width:100%;height:100%;pointer-events:none}
 .slikaJela img{width:100%;height:100%;object-fit:contain;display:block;-webkit-user-drag:none;user-select:none}
 .slikaJela b{display:none}
 .slikaJela.bezSlike b{display:flex;position:absolute;inset:0;align-items:center;justify-content:center;
-  font-weight:400;font-size:calc(var(--plocica,72px) * .58);line-height:1}
+  font-weight:400;font-size:calc(var(--plocica,72px) * .56);line-height:1}
 /* hover samo gdje postoji miš — na mobitelu se boja ne "zalijepi" nakon dodira */
 @media (hover:hover){
-  .jelo:hover{box-shadow:0 0 0 4px var(--zut),0 5px 0 rgba(0,0,0,.45)}
-}
-
-/* mobitel: tanji okviri i manji razmaci, da pultu ostane što više mjesta */
-@media (max-width:640px){
-  .omot{padding:4px 4px 6px}
-  .hud,.ploha{border-width:8px;border-image-width:8px}
-  .hud{margin-bottom:4px;padding:0 2px;flex-wrap:nowrap;gap:3px}
-  /* HUD u jednom redu, inače bi narastao čim brojke postanu dvoznamenkaste */
-  .hud .ime{font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .hud .znak{padding:2px 5px;font-size:11.5px;gap:3px;flex:none}
-  .ploha{padding:0}
-  .ploha{gap:0}
-  .konobaOmot{gap:6px}
-  .gosti{gap:4px;padding:4px;--visinaStola:150px}
-  .stolMjesto{padding:3px}
-  .gost{padding:6px 7px;gap:3px}
-  .gost .stol{font-size:11px}
-  .tipZnak{font-size:14px}
-  .gostLik{width:28px;height:28px;background-size:336px 28px;background-position:calc(var(--gi) * -28px) 0}
-  .gostDno{height:20px}
-  .doneseno .mini{width:18px;height:18px}
-  .doneseno .mini.bezSlike b{font-size:12px}
-  .pult{border-width:8px;border-image-width:8px;padding:4px}
+  .jelo:hover{box-shadow:0 0 0 2px var(--siva)}
 }
 
 /* poruke idu na vrh (preko HUD-a), da ne prekrivaju pult dok se klika */
 .poruka{top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px)}
 .poruka.vidi{transform:translateX(-50%) translateY(0)}
-@media (max-width:640px){ .poruka{top:2px;font-size:13px;padding:7px 14px} }
+
+/* mobitel: manji razmaci, da pultu ostane što više mjesta */
+@media (max-width:640px){
+  .omot{padding:6px 6px 8px}
+  .hud,.ploha{border-width:0}
+  .hud{margin-bottom:6px;padding:6px 10px;flex-wrap:nowrap;gap:4px;border-radius:14px}
+  /* HUD u jednom redu, inače bi narastao čim brojke postanu dvoznamenkaste */
+  .hud .ime{font-size:16px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .hud .znak{padding:3px 7px;font-size:12px;gap:3px;flex:none}
+  .ploha{padding:8px;border-radius:14px}
+  .konobaOmot{gap:8px}
+  .gosti{gap:6px;--visinaStola:150px}
+  .gost{padding:7px 8px;gap:4px;border-radius:10px}
+  .gost .stol{font-size:10px;letter-spacing:.5px}
+  .tipZnak{font-size:13px}
+  .gostLik{width:28px;height:28px}
+  .gostLik b{font-size:17px}
+  .gostDno{height:20px}
+  .doneseno .mini{width:18px;height:18px;border-radius:4px}
+  .doneseno .mini.bezSlike b{font-size:12px}
+  .jelo{border-radius:12px;padding:4px}
+  .poruka{top:4px;font-size:13px;padding:7px 14px}
+}
 </style>
 <script>
 /* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
@@ -1197,12 +1238,14 @@ var DODACI = [
   ['I porciju fritula za stol!', 'And a portion of fritters for the table!', 'fritule', 'ps']
 ];
 
-var GLAVE = ['🧑','👩','👴','👵','🧔','👧','🧑‍💼','👨‍🎤','👩‍🦰','🧓','🧑‍🎓','👨‍🌾','👩‍⚕️','🧑‍✈️'];
-/* gost je pixel lik iz konoba-gosti.png (12 likova po 16 px); 13. i 14. su
-   zrcaljeni 1. i 2. Emoji ostaje kao oznaka i zamjena ako slike nema. */
+var GLAVE = ['🧑','👩','👴','👵','🧔','👧','👩‍💼','👨‍🎤','👩‍🦰','🧓','🧑‍🎓','🧑‍✈️'];
+/* gost je portret mini games media/konoba-gost-01.webp … -12.webp (redom kao
+   GLAVE); dok portreta nema, u krugu stoji emoji */
 function glavaGosta(emo){
   var i = GLAVE.indexOf(emo); if (i < 0) i = 0;
-  return '<span class="glavaG gostLik' + (i >= 12 ? ' zrcalo' : '') + '" style="--gi:' + (i % 12) + '"><b>' + emo + '</b></span>';
+  var br = (i < 9 ? '0' : '') + (i + 1);
+  return '<span class="glavaG gostLik"><img src="mini games media/konoba-gost-' + br + '.webp" alt="" draggable="false" ' +
+    'onerror="this.parentNode.classList.add(\'bezSlike\');this.remove()"><b>' + emo + '</b></span>';
 }
 
 var TIPOVI = {
@@ -1249,15 +1292,19 @@ var S = {smjena:0, posluzeno:0, izgubljeno:0, bodovi:0, brojac:1,
          red:[], stolovi:[], pult:[], vidjeno:{}, sat:null};
 for (var _i = 0; _i < BROJ_STOLOVA; _i++) S.stolovi.push(null);
 
-/* ---------- slike ---------- */
-function putSlike(j){
+/* ---------- slike ----------
+   Prvo se traži očišćena slika (bez mrlje) u ../slike-cisto/, pa izvorna u
+   ../slike/, a ako nema ni nje, na pločici ostaje emoji. Za nova jela dovoljno
+   je spremiti <Ime>.webp u jednu od tih mapa. */
+function imeSlike(j){ return encodeURIComponent(j.nom.charAt(0).toUpperCase() + j.nom.slice(1)) + '.webp'; }
+function putSlike(j){ return '../slike-cisto/' + imeSlike(j); }
+function rezervaSlike(j){
   var f = CL.FOTO && CL.FOTO['rijec-' + j.id + '.png'];
-  if (f) return f;
-  return '../slike/' + encodeURIComponent(j.nom.charAt(0).toUpperCase() + j.nom.slice(1)) + '.webp';
+  return f || ('../slike/' + imeSlike(j));
 }
 function slikaJela(j, klasa){
-  return '<span class="' + klasa + '"><img src="' + putSlike(j) + '" alt="" draggable="false" ' +
-    'onerror="this.parentNode.classList.add(\'bezSlike\');this.remove()"><b>' + j.emo + '</b></span>';
+  return '<span class="' + klasa + '"><img src="' + putSlike(j) + '" data-rezerva="' + rezervaSlike(j) + '" alt="" draggable="false" ' +
+    'onerror="if(this.dataset.rezerva){this.src=this.dataset.rezerva;this.removeAttribute(\'data-rezerva\')}else{this.parentNode.classList.add(\'bezSlike\');this.remove()}"><b>' + j.emo + '</b></span>';
 }
 
 /* ---------- kostur ---------- */
@@ -1265,8 +1312,8 @@ var O = CL.el('omot');
 O.appendChild(CL.hud({
   ime:'Konoba', podnaslov:'The Tavern · serving',
   znakovi:[
-    {id:'zSmjena', html:'🕑 <b>1</b>/' + SMJENE.length},
-    {id:'zGosti',  html:'🧑 <b>0</b>/' + UKUPNO_GOSTIJU},
+    {id:'zSmjena', html:'🕑 <span><b>1</b>/' + SMJENE.length + '</span>'},
+    {id:'zGosti',  html:'🧑 <span><b>0</b>/' + UKUPNO_GOSTIJU + '</span>'},
     {id:'zBod',    html:'⭐ <b>0</b>'}
   ]
 }));
@@ -1299,9 +1346,9 @@ function visinaEkrana(){
 }
 function mjeriPult(){
   var el = CL.el('jela');
-  var u = usko(), razmak = u ? 5 : 8;
+  var u = usko(), razmak = u ? 6 : 10;
   var W = el.clientWidth || 300;
-  var stupaca = u ? 4 : Math.max(4, Math.min(8, Math.floor((W + razmak) / (104 + razmak))));
+  var stupaca = 4;   /* i na računalu četiri u redu — pult ostaje mreža, ne dugačka traka */
   var ostalo = document.body.getBoundingClientRect().height - el.getBoundingClientRect().height;
   var prostor = visinaEkrana() - ostalo - 6;
   var MIN = u ? 56 : 72;
@@ -1320,13 +1367,17 @@ function rasporediPult(){
   var stupaca = Math.ceil(n / redova);
   var sir = Math.floor((m.W - m.razmak * (stupaca - 1)) / stupaca);
   var vis = Math.floor((m.prostor - m.razmak * (redova - 1)) / redova);
-  var p = Math.max(44, Math.min(sir, vis, m.usko ? 112 : 120));
+  var p = Math.max(44, Math.min(sir, vis, m.usko ? 112 : 128));
   el.style.setProperty('--plocica', p + 'px');
   el.style.setProperty('--razmak', m.razmak + 'px');
   el.style.gridTemplateRows = 'repeat(' + redova + ',var(--plocica))';
   el.style.gridTemplateColumns = 'repeat(' + stupaca + ',var(--plocica))';
 }
 window.addEventListener('resize', function(){ rasporediPult(); S.stolovi.forEach(function(g, i){ if (g) prilagodiTekst(i); }); });
+/* kad se font učita, tekst je drukčije širine — ponovno odmjeri kartice */
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(function(){
+  S.stolovi.forEach(function(g, i){ if (g) prilagodiTekst(i); }); rasporediPult();
+});
 try { if (window.frameElement) window.parent.addEventListener('resize', function(){ try { rasporediPult(); } catch (e) {} }); } catch (e) {}
 
 /* ---------- plan smjene ----------
@@ -1572,8 +1623,8 @@ function krajSmjene(){
 }
 
 function osvjezi(){
-  CL.el('zSmjena').innerHTML = '🕑 <b>' + Math.min(S.smjena + 1, SMJENE.length) + '</b>/' + SMJENE.length;
-  CL.el('zGosti').innerHTML = '🧑 <b>' + S.posluzeno + '</b>/' + UKUPNO_GOSTIJU;
+  CL.el('zSmjena').innerHTML = '🕑 <span><b>' + Math.min(S.smjena + 1, SMJENE.length) + '</b>/' + SMJENE.length + '</span>';
+  CL.el('zGosti').innerHTML = '🧑 <span><b>' + S.posluzeno + '</b>/' + UKUPNO_GOSTIJU + '</span>';
   CL.el('zBod').innerHTML = '⭐ <b>' + S.bodovi + '</b>';
 }
 

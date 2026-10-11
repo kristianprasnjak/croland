@@ -1,0 +1,35 @@
+{
+  "model": "gemini-nano-banana-2.1",
+  "velicina": "1K",
+  "varijanti": 2,
+  "stil_jelo": "Draw a single illustration for a vocabulary card in a language-learning app. Subject: {opis}. Match the drawing style of the reference images exactly: hand-drawn cartoon, clean black ink outlines of medium weight, flat warm colours with soft simple shading and small highlights, friendly and appetising. One subject only, centred, filling about 80% of a square frame. Plain pure white background (#FFFFFF). No coloured blob or splash behind the subject, no table, no ground shadow, no text, no letters, no labels, no border.",
+  "stil_gost": "Draw a head-and-shoulders portrait of a restaurant guest for a language-learning game. The person: {opis}. Match the drawing style of the reference images exactly: hand-drawn cartoon, clean black ink outlines of medium weight, flat warm colours with soft simple shading. Friendly, relaxed expression, looking slightly towards the viewer, centred, shoulders cut off by the bottom edge, head filling the upper half of a square frame. Plain pure white background (#FFFFFF). No coloured blob or splash behind the person, no text, no letters, no border.",
+  "uzori_jelo": ["slike-cisto/Kava.webp", "slike-cisto/Sir.webp", "slike-cisto/Ćevapi.webp"],
+  "uzori_gost": ["slike/Konobar.webp", "slike/Baka.webp", "slike/Student.webp"],
+  "stavke": [
+    {"ime": "Čaj",        "vrsta": "jelo", "opis": "a clear glass mug of hot amber tea with a tea-bag string and small paper tag hanging over the rim, a little steam rising"},
+    {"ime": "Kapučino",   "vrsta": "jelo", "opis": "a cappuccino in a wide white cup on a saucer, thick milk foam on top with a latte-art heart and a light dusting of cocoa"},
+    {"ime": "Rakija",     "vrsta": "jelo", "opis": "a small traditional stemless shot glass filled with clear fruit brandy, next to a small glass bottle of the same clear brandy with a cork stopper"},
+    {"ime": "Tjestenina", "vrsta": "jelo", "opis": "a plate of spaghetti with red tomato sauce and a fork twirled into the pasta"},
+    {"ime": "Burek",      "vrsta": "jelo", "opis": "a round Balkan burek: a large coil of flaky golden phyllo pastry, one wedge cut out showing the thin layers, on a sheet of baking paper"},
+    {"ime": "Fritule",    "vrsta": "jelo", "opis": "a small plate of Croatian fritule: about eight small round golden fried dough balls dusted with powdered sugar"},
+    {"ime": "Lignje",     "vrsta": "jelo", "opis": "a plate of fried squid rings (golden breaded calamari) with a wedge of lemon"},
+    {"ime": "Piletina",   "vrsta": "jelo", "opis": "a roasted chicken leg with golden-brown crispy skin on a small white plate"},
+    {"ime": "Gulaš",      "vrsta": "jelo", "opis": "a deep bowl of thick goulash: rich red-brown paprika stew with chunks of beef, glossy and hearty, a spoon resting in it"},
+    {"ime": "Šunka",      "vrsta": "jelo", "opis": "several thin slices of pink cooked ham fanned out on a small wooden board"},
+    {"ime": "Kobasica",   "vrsta": "jelo", "opis": "two grilled pork sausages with dark grill marks, side by side on a small plate"},
+
+    {"ime": "gost-01", "vrsta": "gost", "opis": "a young man in his twenties with short brown hair, wearing a plain orange T-shirt"},
+    {"ime": "gost-02", "vrsta": "gost", "opis": "a woman in her thirties with dark hair in a bun, wearing a teal blouse"},
+    {"ime": "gost-03", "vrsta": "gost", "opis": "an elderly man with a white moustache and a flat cap, wearing a brown waistcoat"},
+    {"ime": "gost-04", "vrsta": "gost", "opis": "an elderly woman with short grey hair and round glasses, wearing a lilac cardigan"},
+    {"ime": "gost-05", "vrsta": "gost", "opis": "a man in his forties with a full dark beard, wearing a green checked shirt"},
+    {"ime": "gost-06", "vrsta": "gost", "opis": "a girl about ten years old with two pigtails, wearing a yellow T-shirt"},
+    {"ime": "gost-07", "vrsta": "gost", "opis": "a businesswoman in her forties with shoulder-length blond hair, wearing a navy blazer"},
+    {"ime": "gost-08", "vrsta": "gost", "opis": "a young musician with messy black hair and headphones around his neck, wearing a red hoodie"},
+    {"ime": "gost-09", "vrsta": "gost", "opis": "a young woman with long red hair and freckles, wearing a white blouse"},
+    {"ime": "gost-10", "vrsta": "gost", "opis": "a weathered fisherman in his sixties with a grey beard and a navy knitted cap, wearing a striped sailor shirt"},
+    {"ime": "gost-11", "vrsta": "gost", "opis": "a university student with curly hair and rectangular glasses, wearing a light blue shirt and backpack straps"},
+    {"ime": "gost-12", "vrsta": "gost", "opis": "a smiling tourist in his fifties with a straw sun hat and sunglasses pushed up on his head, wearing a colourful summer shirt"}
+  ]
+}
