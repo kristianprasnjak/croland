@@ -1,0 +1,124 @@
+/* ==== Pixel temelj (CL-PIXEL) — zajednički za pixel igre ====
+   Izvor: _sadrzaj/pixel.css — u igre ga ubacuje `node _sadrzaj/ugradi.js`,
+   ali SAMO u igre koje već imaju oznaku CL-PIXEL (igra se uključuje ručno,
+   kad dobije svoj pixel svijet). Uzor je Konoba.
+
+   Mjerilo: jedan „art piksel“ = --u CSS piksela. --u je uvijek cijeli broj
+   piksela ZASLONA (računa PX.prilagodi iz pixel.js), pa su svi pikseli
+   jednako veliki i oštri. Sve mjere pixel dijelova su višekratnici --u.
+
+   ZAJEDNIČKO svim svjetovima (ne mijenja se po igri):
+     tinta za obrube, krem za tekstualna polja, boje stanja (dobro,
+     upozorenje, loše), logika svjetla i sjene, fontovi.
+   SVIJET (svaka igra prepisuje u svom :root, ispod ovog bloka):
+     --svijet-*, --ploca-*, --gumb-*, --zastor-*, --omot-sirina.
+     Zadane vrijednosti su Konobine.
+
+   Pomoćni obrubi (box-shadow), za bilo koji element:
+     .pxo                  obrub od 1 art piksela u tinti, odsječeni kutovi
+     var(--obrub)          isto, za vlastita pravila
+     var(--obrub-dobro)    2 art piksela, zelena (točan odabir)
+     var(--obrub-lose)     2 art piksela, crvena (krivi odabir)
+     var(--sjena)          tvrda sjena 3 art piksela ispod (gumbi, pločice)
+   Fontovi: Geist za tekst (var(--tekst)), Geist Pixel za HUD, naslove,
+   gumbe i kratke oznake (var(--pix)). Hrvatski sadržaj uvijek u Geistu. */
+
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-400.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-600.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-700.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-ext-600.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-ext-700.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist Pixel";font-display:swap;src:url("mini games media/font-geist-pixel-latin-400.woff2") format("woff2")}
+@font-face{font-family:"Geist Pixel";font-display:swap;src:url("mini games media/font-geist-pixel-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
+:root{
+  --u:2px;
+  --pix:"Geist Pixel","Geist",system-ui,sans-serif;
+  --tekst:"Geist","Nunito",system-ui,sans-serif;
+
+  /* zajedničko — isto u svim svjetovima */
+  --tinta:#2B2118;          /* obrubi i tekst */
+  --krem:#FFFDF8;           /* tekstualna polja, oblačići, prozori */
+  --siva:#8E7E6C;           /* sporedni tekst na kremi */
+  --zelena:#6E9A43;         /* stanje: dobro */
+  --zuta:#D9A441;           /* stanje: upozorenje */
+  --crvena:#C8553D;         /* stanje: loše */
+  --poruka-dobro:#4F6B33;   /* tamna inačica za traku s porukom */
+  --poruka-lose:#8E3B2A;
+
+  /* svijet — zadano Konoba; igra prepisuje */
+  --omot-sirina:560px;
+  --svijet:#E9DDCB;                 /* temeljni ton pozadine */
+  --svijet-slika:none;              /* tekstura pozadine, url(...) */
+  --svijet-slika-vel:calc(48*var(--u));
+  --ploca:#3E2C20;                  /* ploča s rezultatom (HUD) */
+  --ploca-slika:none;
+  --ploca-slika-vel:calc(32*var(--u));
+  --ploca-tekst:#F3E7D3;
+  --ploca-tekst2:#BFA88C;           /* oznake na ploči (SHIFT, GUESTS…) */
+  --gumb:#F1E6D3; --gumb-hover:#F8F0E2;
+  --gumb-glavni:var(--ploca); --gumb-glavni-hover:#4A3628; --gumb-glavni-tekst:var(--ploca-tekst);
+  --zastor-tama:rgba(43,33,24,.6);  /* zatamnjenje iza prozora */
+  --zastor-tekst:#6F6153;
+
+  /* obrubi (ne prepisivati) */
+  --obrub:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta);
+  --obrub-dobro:0 calc(-2*var(--u)) 0 var(--zelena),0 calc(2*var(--u)) 0 var(--zelena),calc(-2*var(--u)) 0 0 var(--zelena),calc(2*var(--u)) 0 0 var(--zelena);
+  --obrub-lose:0 calc(-2*var(--u)) 0 var(--crvena),0 calc(2*var(--u)) 0 var(--crvena),calc(-2*var(--u)) 0 0 var(--crvena),calc(2*var(--u)) 0 0 var(--crvena);
+  --sjena:0 calc(3*var(--u)) 0 rgba(0,0,0,.25);
+}
+
+/* „pixel“ obrub: jedan art piksel, odsječeni kutovi */
+.pxo,.hud,.zastor .kut,.poruka{box-shadow:var(--obrub)}
+
+body{font-family:var(--tekst);background:var(--svijet) var(--svijet-slika) 0 0/var(--svijet-slika-vel) auto;
+  image-rendering:pixelated}
+.omot{max-width:var(--omot-sirina);padding:calc(3*var(--u)) calc(3*var(--u)) calc(4*var(--u))}
+img{image-rendering:pixelated}
+
+/* ploča s rezultatom */
+.hud{border:0;border-image:none;border-radius:0;margin:var(--u) var(--u) calc(5*var(--u));padding:calc(3*var(--u)) calc(5*var(--u));
+  background:var(--ploca) var(--ploca-slika) 0 0/var(--ploca-slika-vel) auto;color:var(--ploca-tekst);flex-wrap:nowrap;gap:calc(3*var(--u))}
+.hud .ime{font-family:var(--pix);font-weight:400;font-size:20px;letter-spacing:1px;text-transform:uppercase;margin-right:auto;white-space:nowrap}
+.hud .ime small{display:none}
+.hud .znak{font-family:var(--pix);font-weight:400;font-size:16px;background:none;border:0;box-shadow:none;margin:0;padding:0;
+  color:var(--ploca-tekst);gap:5px;white-space:nowrap}
+.hud .znak i{font-style:normal;color:var(--ploca-tekst2);font-size:12px;letter-spacing:.5px}
+.hud .znak b{font-weight:400}
+
+/* ploha igre: bez starog okvira — scena je sama igra */
+.ploha{border:0;border-image:none;background:none;box-shadow:none;padding:0;gap:0}
+
+/* prozori, gumbi, poruke */
+.zastor{background:var(--zastor-tama)}
+.zastor .kut{border:0;border-image:none;border-radius:0;background:var(--krem);padding:20px 20px 18px;margin:var(--u)}
+.zastor h3{font-family:var(--pix);font-weight:400;font-size:22px;letter-spacing:.5px}
+.zastor p{color:var(--zastor-tekst)}
+.g{font-family:var(--pix);font-weight:400;font-size:16px;border:0;border-radius:0;margin:var(--u);padding:10px 18px;
+  background:var(--gumb);color:var(--tinta);box-shadow:var(--obrub),var(--sjena)}
+.g:hover{background:var(--gumb-hover)}
+.g:active{transform:translateY(var(--u))}
+.g.glavni{background:var(--gumb-glavni);color:var(--gumb-glavni-tekst)}
+.g.glavni:hover{background:var(--gumb-glavni-hover)}
+.zastor .g{font-family:var(--pix);font-weight:400}
+.valuta{border:0;border-radius:0;background:var(--gumb);box-shadow:none}
+.valuta b{font-family:var(--pix);font-weight:400}
+.poruka{font-family:var(--pix);font-weight:400;border-radius:0;top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px);
+  background:var(--ploca);color:var(--ploca-tekst)}
+.poruka.vidi{transform:translateX(-50%) translateY(0)}
+.poruka.dobro{background:var(--poruka-dobro)}
+.poruka.lose{background:var(--poruka-lose)}
+
+@media (max-width:640px){
+  .omot{padding:calc(2*var(--u)) calc(2*var(--u)) calc(3*var(--u))}
+  .hud{margin-bottom:calc(4*var(--u));padding:calc(3*var(--u)) calc(4*var(--u))}
+  .hud .ime{font-size:17px}
+  .hud .znak{font-size:14px}
+  .hud .znak i{display:none}
+  .poruka{top:4px;font-size:13px;padding:7px 14px}
+}

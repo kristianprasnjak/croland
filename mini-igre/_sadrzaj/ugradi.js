@@ -127,6 +127,11 @@ var SLIKA_STARO = [
 
 var BLOK_STIL = '/*[CL-STIL]*/\n' + fs.readFileSync(path.join(DIR, 'stil.css'), 'utf8').trim() + '\n/*[/CL-STIL]*/\n';
 
+/* pixel temelj (uzor Konoba) — samo za igre koje već imaju oznake
+   CL-PIXEL (u <style>) i CL-PIXEL-JS (u <script>); ostale se ne diraju */
+var BLOK_PIXEL = '/*[CL-PIXEL]*/\n' + fs.readFileSync(path.join(DIR, 'pixel.css'), 'utf8').trim() + '\n/*[/CL-PIXEL]*/';
+var BLOK_PIXEL_JS = '/*[CL-PIXEL-JS]*/\n' + fs.readFileSync(path.join(DIR, 'pixel.js'), 'utf8').trim() + '\n/*[/CL-PIXEL-JS]*/';
+
 var BLOK_DODATAK = [
   '  /*[CL-DODATAK]*/',
   '  /* ---------- rečenice, praznine, dijalozi, savjeti ---------- */',
@@ -272,6 +277,12 @@ function ugradi(dat) {
     t = t.slice(0, s1 + 1) + BLOK_STIL + '\n' + t.slice(s1 + 1);
   }
 
+  /* --- pixel temelj: samo gdje igra već ima oznake --- */
+  if (t.indexOf('/*[CL-PIXEL]*/') >= 0)
+    t = t.replace(/\/\*\[CL-PIXEL\]\*\/[\s\S]*?\/\*\[\/CL-PIXEL\]\*\//, function () { return BLOK_PIXEL; });
+  if (t.indexOf('/*[CL-PIXEL-JS]*/') >= 0)
+    t = t.replace(/\/\*\[CL-PIXEL-JS\]\*\/[\s\S]*?\/\*\[\/CL-PIXEL-JS\]\*\//, function () { return BLOK_PIXEL_JS; });
+
   /* --- slika(): samo postojeće slike --- */
   if (t.indexOf('/*[CL-SLIKA]*/') >= 0) {
     t = t.replace(/[ \t]*\/\*\[CL-SLIKA\]\*\/[\s\S]*?\/\*\[\/CL-SLIKA\]\*\//, function () { return BLOK_SLIKA; });
@@ -305,7 +316,7 @@ function ugradi(dat) {
   }
 
   if (t !== prije) fs.writeFileSync(p, t, 'utf8');
-  return { dat: dat, kb: Math.round(Buffer.byteLength(t, 'utf8') / 1024) };
+  return { dat: dat, kb: Math.round(Buffer.byteLength(t, 'utf8') / 1024), pixel: t.indexOf('/*[CL-PIXEL]*/') >= 0 };
 }
 
 var IGRE = fs.readdirSync(IGRE_DIR)
@@ -323,7 +334,7 @@ console.log('');
 
 IGRE.forEach(function (f) {
   var r = ugradi(f);
-  console.log('  ✓ ' + r.dat.padEnd(28) + r.kb + ' kB');
+  console.log('  ✓ ' + r.dat.padEnd(28) + r.kb + ' kB' + (r.pixel ? '  · pixel temelj' : ''));
 });
 
 console.log('\nGotovo — ' + IGRE.length + ' igara ažurirano.');

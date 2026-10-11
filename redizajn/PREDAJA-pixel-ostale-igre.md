@@ -72,6 +72,19 @@ Ovaj dokument služi kao početak novog razgovora. Opisuje što je odlučeno i n
 - **Gradovi** već imaju vlastiti sustav slika. Ne prebacuje se na pixel; treba ga dovršiti i po potrebi malo dotjerati.
 - **Grad** korisniku je ružan i kandidat je za potpuni redizajn.
 
+## Postupak po igri (korisnik odobrio 11. 10. 2026.)
+
+1. **Što vidimo.** Popis svega na ekranu igre te prijedlog što postaje pixel slika, a što ostaje tekst. Korisnik to pregleda.
+2. **Karta svijeta.** Prije cijelog seta slika napraviti:
+   - paletu svijeta od 8–10 boja,
+   - 2–3 probne Gemini slike svedene na pravi pixel art,
+   - jednu snimku ekrana igre s pravim tekstom (mobitel).
+
+   Korisnik odobri ili traži izmjene. Tu se hvata kič i provjerava čitljivost.
+3. **Cijeli set.** Tek nakon toga: popis slika, Gemini, obrada, pregled svake slike uz original, ugradnja, test (360, 390 i 1280 px), objava.
+
+Prije prve igre treba izvući zajednički pixel temelj iz Konobe (mjerilo `--u`, okviri `.pxo`, ploča s rezultatom, prozor/gumb/poruka, fontovi) i prebaciti Konobu na njega. Predloženi redoslijed je zatim tvrđava, jer je noć najteži test srodnih paleta.
+
 ## Tehnička pravila projekta
 
 - Objava ide preko `objavi.bat`. `scripts/build.js` kopira u `dist/` samo mape s popisa `DIRS`, pa svaku novu mapu sa slikama treba dodati na taj popis.
@@ -100,3 +113,25 @@ Ovaj dokument služi kao početak novog razgovora. Opisuje što je odlučeno i n
 | 13 | gradovi |
 
 Neke već imaju vlastite slike: grad (atlas i karta), gradovi (likovi i dijalozi), tvrđava, vlak, portal i obrana (Gemini pozadine), te ručno nacrtane sprajtove u `_sadrzaj/sprajtovi.js`.
+
+## Pixel temelj (napravljen 11. 10. 2026.)
+
+Zajednički dio pixel igara izvučen je iz Konobe u dvije datoteke:
+
+- `mini-igre/_sadrzaj/pixel.css` (blok `CL-PIXEL`): fontovi Geist i Geist Pixel, mjerilo `--u`, okvir `.pxo`, ploča s rezultatom, prozor, gumbi, poruka, mobilni izgled. Zajedničke boje: `--tinta`, `--krem`, `--siva`, stanja `--zelena`, `--zuta`, `--crvena`. Obrubi za vlastita pravila: `var(--obrub)`, `var(--obrub-dobro)`, `var(--obrub-lose)`, `var(--sjena)`.
+- `mini-igre/_sadrzaj/pixel.js` (blok `CL-PIXEL-JS`): objekt `PX` za mjerilo. Igra pozove `PX.mjerilo({sirina, omot, kMax, kMaxUsko, kMin, nakon})`, a zatim `PX.prilagodi()` kad se raspored promijeni.
+
+**Svijet igre** se zadaje u igrinom `:root`, ispod bloka `CL-PIXEL`: `--svijet`, `--svijet-slika`, `--ploca`, `--ploca-slika`, `--ploca-tekst`, `--ploca-tekst2`, `--gumb`, `--gumb-hover`, `--gumb-glavni-hover`, `--zastor-tama`, `--zastor-tekst`, `--omot-sirina`.
+
+**Uključivanje igre:** u `<style>` iza bloka `CL-STIL` dodati prazne oznake `/*[CL-PIXEL]*/` i `/*[/CL-PIXEL]*/`, a u zasebni `<script>` prije skripte igre `/*[CL-PIXEL-JS]*/` i `/*[/CL-PIXEL-JS]*/`. Zatim pokrenuti `node _sadrzaj/ugradi.js`. Igre bez oznaka ugradnja ne dira. Konoba je prebačena na temelj i izgleda isto kao prije (provjereno snimkama na 360, 390 i 1280 px).
+
+## 04 Tvrđava → Dvorac Vrana (gotovo 12. 10. 2026.)
+
+- Nova igra u `mini-igre/04-tvrdjava.html` (id i ime datoteke ostali su `tvrdjava`, u aplikaciji se zove „Dvorac / Castle"). Stara tvrđava: `04-tvrdjava.html.bak-prije-dvorca`.
+- Escape room u 10 soba, jedna soba = dvije lekcije tečaja. U svakoj sobi je Klarina poruka (5 inačica, jedna nasumično) koja kaže u kojem je predmetu ključ. Krivi predmet gasi svijeću (3 ili 1), a zadnja svijeća završava igru. Bodovi: 120 po sobi i 300 za kraj.
+- Slike: `redizajn/dvorac/` (popis, obrada, README) i `generiraj-dvorac.bat` → `mini games media/dvorac/`. Predmeti su zasebni sprajtovi na praznim pozadinama soba, iste gustoće piksela i iste palete.
+- Pouke:
+  - Gemini ne crta precizan raspored predmeta u sceni, pa su predmeti zasebni, a mjesta im određuje kod.
+  - Parovi koji se razlikuju samo u jednome rade se kao izmjena istog crteža (`iz`).
+  - Ono o čemu ovisi odgovor (znakovi na knjigama, puna/prazna bačva, brojevi) treba dorisati pikselima.
+  - Mreža se ne traži automatski: predmet se uzorkuje izravno iz originala na zadanu veličinu.

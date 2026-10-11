@@ -1,0 +1,475 @@
+{
+ "model": "gemini-nano-banana-2.1",
+ "velicina": "1K",
+ "izlaz": "redizajn/dvorac/novo",
+ "stavke": [
+  {
+   "ime": "poz-predvorje-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the entrance hall — big rough grey stone blocks, an iron candle sconce high on each side, worn stone slab floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-blagovaonica-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the dining room — dark wooden wall panelling below, faded dark red wallpaper above, stone floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-kuhinja-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the old kitchen — whitewashed plaster wall darkened by soot, worn red brick floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-spremiste-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: a storeroom — rough uneven stone wall with cobwebs in the upper corners, wooden plank floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-knjiznica-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the library — dark green wallpaper with a faint pattern above dark wooden panelling, dark carpet floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-sat-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the clock room — blue-grey plaster wall with a thin painted border, wooden parquet floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-spavaca-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the bedroom — faded lilac wallpaper with a tiny pattern, wooden floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-podrum-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the wine cellar — low vaulted dark brick walls, damp, very dim, uneven stone floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-oruzarnica-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: the armoury — heavy dark stone wall, a few empty iron hooks high up, stone floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "poz-tajna-A",
+   "prompt": "Pixel art background for a point-and-click adventure game: a small secret room — deep red damask wallpaper, a dark wooden skirting board, wooden floor. Straight front view of the back wall of an EMPTY room, like a theatre stage. The floor is only a narrow strip along the bottom tenth of the picture; everything above it is the wall. No furniture, no objects, no shelves, no people, no doors, no windows in the lower two thirds — the game places objects in front of this wall, so keep the lower two thirds of the wall calm and even. Night inside an old castle in Zagorje, Croatia: cool blue-grey shadows and a soft warm glow of candlelight from above. True low-resolution pixel art on a 128×128 grid, every art pixel a crisp equal square block, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square edge to edge, no border, no frame, no text."
+  },
+  {
+   "ime": "naslovna-A",
+   "prompt": "Pixel art title picture for a point-and-click adventure game: an old castle on a wooded hill in Zagorje, Croatia, at night, a full moon, a few warm lit windows, dark blue sky, quiet and mysterious but not scary. The lower third is a calm dark hillside (a title will go there). True low-resolution pixel art on a 128×128 grid, crisp equal square pixels, no anti-aliasing, no gradients, no blur, about 16–20 muted colours. Fill the whole square, no border, no text."
+  },
+  {
+   "ime": "vaza-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall, big blue ceramic vase, plain blue with no pattern. Seen from the front, very slightly from above, centred, filling about 85% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-plava-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small blue wooden box with a lid and a little brass latch. Seen from the front, very slightly from above, centred, filling about 55% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kaput-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an old, worn black coat hanging from a hook: frayed edges, a few patches and small holes. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "sesir-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a brand-new shiny black top hat with a black band, gleaming highlights. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "ogledalo-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a big old standing mirror in a tarnished gold frame, the glass cloudy and with a crack. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "fotelja-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red velvet armchair with an open book lying on the seat. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "pisaci-stol-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small wooden writing desk with a sheet of paper, an ink pot and a feather quill on it. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "klavir-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an upright dark wooden piano with sheet music on the stand, keys visible. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "stolic-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small round wooden side table with a white teacup on a saucer, a thin wisp of steam above the tea. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "stol-kolac-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small square wooden table with a round cake on a white plate. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "salica-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red cup with a handle. Seen from the front, very slightly from above, centred, filling about 55% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "lonac-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red enamel cooking pot with a lid and two side handles. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "zdjela-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an empty blue bowl. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "vrc-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a blue jug with a handle and a spout. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "vjedro-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a white enamel bucket with a metal wire handle. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "tava-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a white enamel frying pan with a dark wooden handle, seen from the side. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijece-nove-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: three tall new white candles standing side by side in one long brass holder, not lit. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijece-stare-A",
+   "prompt": "Edit this pixel art sprite. Make the candles OLD: burned down to short stubs, melted wax dripping down their sides, yellowed wax, blackened wicks, the brass holder dull and tarnished. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "svijece-nove-A"
+  },
+  {
+   "ime": "tanjuri-novi-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a neat stack of five new white plates with a thin blue rim, seen from the side. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "tanjuri-stari-A",
+   "prompt": "Edit this pixel art sprite. Make the plates OLD: yellowed, chipped edges, a crack, the blue rim faded almost to grey. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "tanjuri-novi-A"
+  },
+  {
+   "ime": "ogledala-stara-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: three small old hand mirrors standing side by side, tarnished brass frames, cloudy dark glass. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "knjiga-more-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a closed hardback book standing upright facing us, plain blue cover with one simple white wave symbol in the middle. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "knjiga-ptice-A",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to green and the symbol to a simple white bird. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-A"
+  },
+  {
+   "ime": "knjiga-konji-A",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to brown and the symbol to a simple white horse head. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-A"
+  },
+  {
+   "ime": "knjiga-zvijezde-A",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to purple and the symbol to a simple white five-pointed star. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-A"
+  },
+  {
+   "ime": "knjiga-cvijece-A",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to red and the symbol to a simple white flower. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-A"
+  },
+  {
+   "ime": "kutija-broj-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a plain wooden box with a lid and a small blank cream-coloured label plate on the front. Seen from the front, very slightly from above, centred, filling about 70% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "sat-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall wooden grandfather clock with a white clock face and a brass pendulum. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "ormar-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall dark wooden wardrobe with two closed doors and small brass knobs. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-sesir-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a round green hat box with a lid. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "skrinja-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a wooden chest with dark iron bands and a brass lock, lid closed. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "jastuk-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a plump white cushion. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "krevet-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a wooden bed seen from the side, a purple blanket and a white pillow, headboard on the left. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "boca-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a dark green wine bottle with a cork, standing upright. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "bacva-puna-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an upright wooden wine barrel with iron hoops and a tap at the front; red wine drips from the tap into a small glass on the floor. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "bacva-prazna-A",
+   "prompt": "Edit this pixel art sprite. Make the barrel EMPTY and abandoned: remove the glass and the dripping wine, the tap is dry, the top lid is off so we see it is empty and dark inside, cobwebs on it. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "bacva-puna-A"
+  },
+  {
+   "ime": "stit-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red wooden shield with a round gold boss in the middle. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "mac-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a sword standing upright, point up, steel blade and a brown leather grip. Seen from the front, very slightly from above, centred, filling about 85% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kaciga-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a medieval steel helmet with a visor slit. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "koplje-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a long spear standing upright, steel point at the top, wooden shaft. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "oklop-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a suit of steel plate armour on a wooden stand. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-drvena-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small wooden jewellery box with a lid and a tiny brass clasp. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-srebrna-A",
+   "prompt": "Edit this pixel art sprite. Make the box out of shiny silver instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-A"
+  },
+  {
+   "ime": "kutija-zlatna-A",
+   "prompt": "Edit this pixel art sprite. Make the box out of shiny gold instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-A"
+  },
+  {
+   "ime": "kutija-plavazl-A",
+   "prompt": "Edit this pixel art sprite. Paint the box a plain blue instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-A"
+  },
+  {
+   "ime": "kutija-glazbena-A",
+   "prompt": "Edit this pixel art sprite. Make it a music box: red lacquer, a small brass winding key on its side, one tiny gold musical note painted on the lid. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-A"
+  },
+  {
+   "ime": "kljuc-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an old ornate golden key, lying horizontally. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "prsten-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a gold ring with one blue gemstone. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijeca-A",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: one lit white candle in a small brass holder with a warm flame. Seen from the front, very slightly from above, centred, filling about 70% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijeca-ugasena-A",
+   "prompt": "Edit this pixel art sprite. Blow the candle out: no flame, only a thin grey wisp of smoke above the black wick. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "svijeca-A"
+  },
+  {
+   "ime": "vaza-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall, big blue ceramic vase, plain blue with no pattern. Seen from the front, very slightly from above, centred, filling about 85% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-plava-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small blue wooden box with a lid and a little brass latch. Seen from the front, very slightly from above, centred, filling about 55% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kaput-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an old, worn black coat hanging from a hook: frayed edges, a few patches and small holes. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "sesir-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a brand-new shiny black top hat with a black band, gleaming highlights. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "ogledalo-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a big old standing mirror in a tarnished gold frame, the glass cloudy and with a crack. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "fotelja-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red velvet armchair with an open book lying on the seat. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "pisaci-stol-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small wooden writing desk with a sheet of paper, an ink pot and a feather quill on it. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "klavir-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an upright dark wooden piano with sheet music on the stand, keys visible. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "stolic-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small round wooden side table with a white teacup on a saucer, a thin wisp of steam above the tea. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "stol-kolac-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small square wooden table with a round cake on a white plate. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "salica-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red cup with a handle. Seen from the front, very slightly from above, centred, filling about 55% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "lonac-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red enamel cooking pot with a lid and two side handles. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "zdjela-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an empty blue bowl. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "vrc-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a blue jug with a handle and a spout. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "vjedro-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a white enamel bucket with a metal wire handle. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "tava-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a white enamel frying pan with a dark wooden handle, seen from the side. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijece-nove-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: three tall new white candles standing side by side in one long brass holder, not lit. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijece-stare-B",
+   "prompt": "Edit this pixel art sprite. Make the candles OLD: burned down to short stubs, melted wax dripping down their sides, yellowed wax, blackened wicks, the brass holder dull and tarnished. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "svijece-nove-B"
+  },
+  {
+   "ime": "tanjuri-novi-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a neat stack of five new white plates with a thin blue rim, seen from the side. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "tanjuri-stari-B",
+   "prompt": "Edit this pixel art sprite. Make the plates OLD: yellowed, chipped edges, a crack, the blue rim faded almost to grey. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "tanjuri-novi-B"
+  },
+  {
+   "ime": "ogledala-stara-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: three small old hand mirrors standing side by side, tarnished brass frames, cloudy dark glass. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "knjiga-more-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a closed hardback book standing upright facing us, plain blue cover with one simple white wave symbol in the middle. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "knjiga-ptice-B",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to green and the symbol to a simple white bird. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-B"
+  },
+  {
+   "ime": "knjiga-konji-B",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to brown and the symbol to a simple white horse head. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-B"
+  },
+  {
+   "ime": "knjiga-zvijezde-B",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to purple and the symbol to a simple white five-pointed star. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-B"
+  },
+  {
+   "ime": "knjiga-cvijece-B",
+   "prompt": "Edit this pixel art sprite. Change the cover colour to red and the symbol to a simple white flower. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "knjiga-more-B"
+  },
+  {
+   "ime": "kutija-broj-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a plain wooden box with a lid and a small blank cream-coloured label plate on the front. Seen from the front, very slightly from above, centred, filling about 70% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "sat-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall wooden grandfather clock with a white clock face and a brass pendulum. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "ormar-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a tall dark wooden wardrobe with two closed doors and small brass knobs. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-sesir-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a round green hat box with a lid. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "skrinja-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a wooden chest with dark iron bands and a brass lock, lid closed. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "jastuk-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a plump white cushion. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "krevet-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a wooden bed seen from the side, a purple blanket and a white pillow, headboard on the left. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "boca-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a dark green wine bottle with a cork, standing upright. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "bacva-puna-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an upright wooden wine barrel with iron hoops and a tap at the front; red wine drips from the tap into a small glass on the floor. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "bacva-prazna-B",
+   "prompt": "Edit this pixel art sprite. Make the barrel EMPTY and abandoned: remove the glass and the dripping wine, the tap is dry, the top lid is off so we see it is empty and dark inside, cobwebs on it. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "bacva-puna-B"
+  },
+  {
+   "ime": "stit-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a red wooden shield with a round gold boss in the middle. Seen from the front, very slightly from above, centred, filling about 80% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "mac-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a sword standing upright, point up, steel blade and a brown leather grip. Seen from the front, very slightly from above, centred, filling about 85% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kaciga-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a medieval steel helmet with a visor slit. Seen from the front, very slightly from above, centred, filling about 65% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "koplje-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a long spear standing upright, steel point at the top, wooden shaft. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "oklop-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a suit of steel plate armour on a wooden stand. Seen from the front, very slightly from above, centred, filling about 90% of a square frame. True low-resolution pixel art on a 48×48 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-drvena-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a small wooden jewellery box with a lid and a tiny brass clasp. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "kutija-srebrna-B",
+   "prompt": "Edit this pixel art sprite. Make the box out of shiny silver instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-B"
+  },
+  {
+   "ime": "kutija-zlatna-B",
+   "prompt": "Edit this pixel art sprite. Make the box out of shiny gold instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-B"
+  },
+  {
+   "ime": "kutija-plavazl-B",
+   "prompt": "Edit this pixel art sprite. Paint the box a plain blue instead of wood. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-B"
+  },
+  {
+   "ime": "kutija-glazbena-B",
+   "prompt": "Edit this pixel art sprite. Make it a music box: red lacquer, a small brass winding key on its side, one tiny gold musical note painted on the lid. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "kutija-drvena-B"
+  },
+  {
+   "ime": "kljuc-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: an old ornate golden key, lying horizontally. Seen from the front, very slightly from above, centred, filling about 75% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "prsten-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: a gold ring with one blue gemstone. Seen from the front, very slightly from above, centred, filling about 60% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijeca-B",
+   "prompt": "Pixel art game object sprite for a point-and-click adventure: one lit white candle in a small brass holder with a warm flame. Seen from the front, very slightly from above, centred, filling about 70% of a square frame. True low-resolution pixel art on a 32×32 pixel grid, shown enlarged so that every art pixel is a crisp, equal-sized square block; no anti-aliasing, no gradients, no blur, no noise dithering. About 10–14 colours in total. Solid flat pure white background (#FFFFFF) filling everything around the object. No text, no letters, no numbers, no frame, no border, no drop shadow on the background. Style: cozy 16-bit point-and-click adventure game, inside an old castle at night — a clean 1-pixel very dark brown outline (#241C15) around the whole object, muted natural colours (nothing neon or oversaturated), simple two-tone shading with warm candlelight coming from the top left."
+  },
+  {
+   "ime": "svijeca-ugasena-B",
+   "prompt": "Edit this pixel art sprite. Blow the candle out: no flame, only a thin grey wisp of smoke above the black wick. Keep exactly the same pixel grid, size, position, angle, outline and style; change nothing else. Keep the solid flat pure white background (#FFFFFF). No text.",
+   "iz": "svijeca-B"
+  }
+ ]
+}

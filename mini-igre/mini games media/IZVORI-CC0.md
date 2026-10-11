@@ -35,3 +35,4 @@ Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rez
 | `konoba-gost-01.webp` … `-12.webp` | Gemini (Nano Banana 2.1), `redizajn/konoba/generiraj.js`, 11. 10. 2026.; izrezani portreti |
 | `konoba/*.png` (38 jela, 38 `-mini`, 12 gostiju × 3 izraza) | Gemini (Nano Banana 2.1), `redizajn/konoba-pixel/popis.json`, 11. 10. 2026.; svedeno na pravi pixel art s `redizajn/pikseli.py` (jela 32×32, gosti 40×40, zajednička paleta) |
 | `konoba/zid.png`, `drvo.png`, `ploca.png`, `rep.png` | vlastite pixel teksture, izrađene za ovu igru |
+| `dvorac/*.png` (10 pozadina soba, naslovna, 50 predmeta) | Gemini (Nano Banana 2.1), `redizajn/dvorac/popis.json`, 12. 10. 2026.; svedeno na pravi pixel art s `redizajn/dvorac/obradi.py` (zajednička paleta, iste gustoće piksela); znakovi na knjigama i oznake bačava dorisani pikselima |

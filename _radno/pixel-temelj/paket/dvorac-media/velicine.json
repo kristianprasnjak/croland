@@ -1,0 +1,246 @@
+{
+"vaza": [
+21,
+34
+],
+"kutija-plava": [
+18,
+15
+],
+"kaput": [
+18,
+30
+],
+"sesir": [
+18,
+18
+],
+"ogledalo": [
+31,
+44
+],
+"fotelja": [
+30,
+30
+],
+"pisaci-stol": [
+30,
+29
+],
+"klavir": [
+34,
+33
+],
+"stolic": [
+21,
+24
+],
+"stol-kolac": [
+24,
+23
+],
+"salica": [
+13,
+10
+],
+"lonac": [
+22,
+17
+],
+"zdjela": [
+18,
+16
+],
+"vrc": [
+19,
+20
+],
+"vjedro": [
+16,
+20
+],
+"tava": [
+24,
+18
+],
+"svijece-nove": [
+22,
+21
+],
+"svijece-stare": [
+22,
+12
+],
+"tanjuri-novi": [
+20,
+19
+],
+"tanjuri-stari": [
+20,
+19
+],
+"ogledala-stara": [
+28,
+21
+],
+"knjiga-more": [
+25,
+32
+],
+"knjiga-ptice": [
+25,
+32
+],
+"knjiga-konji": [
+25,
+32
+],
+"knjiga-zvijezde": [
+25,
+32
+],
+"knjiga-cvijece": [
+25,
+32
+],
+"kutija-broj": [
+22,
+21
+],
+"sat": [
+17,
+40
+],
+"ormar": [
+44,
+52
+],
+"kutija-sesir": [
+18,
+15
+],
+"skrinja": [
+30,
+26
+],
+"jastuk": [
+18,
+17
+],
+"krevet": [
+54,
+41
+],
+"boca": [
+5,
+15
+],
+"bacva-puna": [
+33,
+32
+],
+"bacva-prazna": [
+30,
+32
+],
+"stit": [
+22,
+26
+],
+"mac": [
+11,
+30
+],
+"kaciga": [
+17,
+18
+],
+"koplje": [
+8,
+52
+],
+"oklop": [
+23,
+48
+],
+"kutija-drvena": [
+20,
+17
+],
+"kutija-srebrna": [
+20,
+17
+],
+"kutija-zlatna": [
+20,
+17
+],
+"kutija-plavazl": [
+20,
+17
+],
+"kutija-glazbena": [
+20,
+16
+],
+"kljuc": [
+22,
+10
+],
+"prsten": [
+14,
+16
+],
+"svijeca": [
+11,
+16
+],
+"svijeca-ugasena": [
+11,
+16
+],
+"poz-blagovaonica": [
+160,
+96
+],
+"poz-knjiznica": [
+160,
+96
+],
+"poz-kuhinja": [
+160,
+96
+],
+"poz-oruzarnica": [
+160,
+96
+],
+"poz-podrum": [
+160,
+96
+],
+"poz-predvorje": [
+160,
+96
+],
+"poz-sat": [
+160,
+96
+],
+"poz-spavaca": [
+160,
+96
+],
+"poz-spremiste": [
+160,
+96
+],
+"poz-tajna": [
+160,
+96
+],
+"naslovna": [
+128,
+128
+]
+}

@@ -181,12 +181,31 @@ input.upis{border:0;margin:3px;font-family:var(--tekst);
 }
 /*[/CL-STIL]*/
 
-/* ==== Konoba — pixel izgled (stil A) ====
-   Načelo: pixel svijet, čist sadržaj. Šank, jela, gosti, ploča i okviri su
-   pixel art; narudžba je u bijelom oblačiću, u čitljivom fontu.
-   Jedan „art piksel“ = --u CSS piksela. --u je uvijek cijeli broj piksela
-   ZASLONA (računa prilagodiMjerilo), pa su svi pikseli jednako veliki i oštri.
-   Sve mjere pixel dijelova su višekratnici --u. */
+/*[CL-PIXEL]*/
+/* ==== Pixel temelj (CL-PIXEL) — zajednički za pixel igre ====
+   Izvor: _sadrzaj/pixel.css — u igre ga ubacuje `node _sadrzaj/ugradi.js`,
+   ali SAMO u igre koje već imaju oznaku CL-PIXEL (igra se uključuje ručno,
+   kad dobije svoj pixel svijet). Uzor je Konoba.
+
+   Mjerilo: jedan „art piksel“ = --u CSS piksela. --u je uvijek cijeli broj
+   piksela ZASLONA (računa PX.prilagodi iz pixel.js), pa su svi pikseli
+   jednako veliki i oštri. Sve mjere pixel dijelova su višekratnici --u.
+
+   ZAJEDNIČKO svim svjetovima (ne mijenja se po igri):
+     tinta za obrube, krem za tekstualna polja, boje stanja (dobro,
+     upozorenje, loše), logika svjetla i sjene, fontovi.
+   SVIJET (svaka igra prepisuje u svom :root, ispod ovog bloka):
+     --svijet-*, --ploca-*, --gumb-*, --zastor-*, --omot-sirina.
+     Zadane vrijednosti su Konobine.
+
+   Pomoćni obrubi (box-shadow), za bilo koji element:
+     .pxo                  obrub od 1 art piksela u tinti, odsječeni kutovi
+     var(--obrub)          isto, za vlastita pravila
+     var(--obrub-dobro)    2 art piksela, zelena (točan odabir)
+     var(--obrub-lose)     2 art piksela, crvena (krivi odabir)
+     var(--sjena)          tvrda sjena 3 art piksela ispod (gumbi, pločice)
+   Fontovi: Geist za tekst (var(--tekst)), Geist Pixel za HUD, naslove,
+   gumbe i kratke oznake (var(--pix)). Hrvatski sadržaj uvijek u Geistu. */
 
 @font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-400.woff2") format("woff2")}
 @font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-600.woff2") format("woff2")}
@@ -205,30 +224,104 @@ input.upis{border:0;margin:3px;font-family:var(--tekst);
   --u:2px;
   --pix:"Geist Pixel","Geist",system-ui,sans-serif;
   --tekst:"Geist","Nunito",system-ui,sans-serif;
-  --tinta:#2B2118; --krem:#FFFDF8; --podmetac:#F1E6D3; --siva:#8E7E6C;
-  --zelena:#6E9A43; --zuta:#D9A441; --crvena:#C8553D;
-  --drvoTamno:#3B2A1E;
-  --visinaOblacica:118px;
-}
-/* „pixel“ obrub: jedan art piksel, odsječeni kutovi */
-.pxo,.hud,.zastor .kut,.oblacic,.poruka{box-shadow:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta)}
 
-body{font-family:var(--tekst);background:#E9DDCB url("mini games media/konoba/zid.png") 0 0/calc(48*var(--u)) auto;
+  /* zajedničko — isto u svim svjetovima */
+  --tinta:#2B2118;          /* obrubi i tekst */
+  --krem:#FFFDF8;           /* tekstualna polja, oblačići, prozori */
+  --siva:#8E7E6C;           /* sporedni tekst na kremi */
+  --zelena:#6E9A43;         /* stanje: dobro */
+  --zuta:#D9A441;           /* stanje: upozorenje */
+  --crvena:#C8553D;         /* stanje: loše */
+  --poruka-dobro:#4F6B33;   /* tamna inačica za traku s porukom */
+  --poruka-lose:#8E3B2A;
+
+  /* svijet — zadano Konoba; igra prepisuje */
+  --omot-sirina:560px;
+  --svijet:#E9DDCB;                 /* temeljni ton pozadine */
+  --svijet-slika:none;              /* tekstura pozadine, url(...) */
+  --svijet-slika-vel:calc(48*var(--u));
+  --ploca:#3E2C20;                  /* ploča s rezultatom (HUD) */
+  --ploca-slika:none;
+  --ploca-slika-vel:calc(32*var(--u));
+  --ploca-tekst:#F3E7D3;
+  --ploca-tekst2:#BFA88C;           /* oznake na ploči (SHIFT, GUESTS…) */
+  --gumb:#F1E6D3; --gumb-hover:#F8F0E2;
+  --gumb-glavni:var(--ploca); --gumb-glavni-hover:#4A3628; --gumb-glavni-tekst:var(--ploca-tekst);
+  --zastor-tama:rgba(43,33,24,.6);  /* zatamnjenje iza prozora */
+  --zastor-tekst:#6F6153;
+
+  /* obrubi (ne prepisivati) */
+  --obrub:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta);
+  --obrub-dobro:0 calc(-2*var(--u)) 0 var(--zelena),0 calc(2*var(--u)) 0 var(--zelena),calc(-2*var(--u)) 0 0 var(--zelena),calc(2*var(--u)) 0 0 var(--zelena);
+  --obrub-lose:0 calc(-2*var(--u)) 0 var(--crvena),0 calc(2*var(--u)) 0 var(--crvena),calc(-2*var(--u)) 0 0 var(--crvena),calc(2*var(--u)) 0 0 var(--crvena);
+  --sjena:0 calc(3*var(--u)) 0 rgba(0,0,0,.25);
+}
+
+/* „pixel“ obrub: jedan art piksel, odsječeni kutovi */
+.pxo,.hud,.zastor .kut,.poruka{box-shadow:var(--obrub)}
+
+body{font-family:var(--tekst);background:var(--svijet) var(--svijet-slika) 0 0/var(--svijet-slika-vel) auto;
   image-rendering:pixelated}
-.omot{max-width:560px;padding:calc(3*var(--u)) calc(3*var(--u)) calc(4*var(--u))}
+.omot{max-width:var(--omot-sirina);padding:calc(3*var(--u)) calc(3*var(--u)) calc(4*var(--u))}
 img{image-rendering:pixelated}
 
-/* ploča na vrhu */
+/* ploča s rezultatom */
 .hud{border:0;border-image:none;border-radius:0;margin:var(--u) var(--u) calc(5*var(--u));padding:calc(3*var(--u)) calc(5*var(--u));
-  background:#3E2C20 url("mini games media/konoba/ploca.png") 0 0/calc(32*var(--u)) auto;color:#F3E7D3;flex-wrap:nowrap;gap:calc(3*var(--u))}
+  background:var(--ploca) var(--ploca-slika) 0 0/var(--ploca-slika-vel) auto;color:var(--ploca-tekst);flex-wrap:nowrap;gap:calc(3*var(--u))}
 .hud .ime{font-family:var(--pix);font-weight:400;font-size:20px;letter-spacing:1px;text-transform:uppercase;margin-right:auto;white-space:nowrap}
 .hud .ime small{display:none}
 .hud .znak{font-family:var(--pix);font-weight:400;font-size:16px;background:none;border:0;box-shadow:none;margin:0;padding:0;
-  color:#F3E7D3;gap:5px;white-space:nowrap}
-.hud .znak i{font-style:normal;color:#BFA88C;font-size:12px;letter-spacing:.5px}
+  color:var(--ploca-tekst);gap:5px;white-space:nowrap}
+.hud .znak i{font-style:normal;color:var(--ploca-tekst2);font-size:12px;letter-spacing:.5px}
 .hud .znak b{font-weight:400}
 
+/* ploha igre: bez starog okvira — scena je sama igra */
 .ploha{border:0;border-image:none;background:none;box-shadow:none;padding:0;gap:0}
+
+/* prozori, gumbi, poruke */
+.zastor{background:var(--zastor-tama)}
+.zastor .kut{border:0;border-image:none;border-radius:0;background:var(--krem);padding:20px 20px 18px;margin:var(--u)}
+.zastor h3{font-family:var(--pix);font-weight:400;font-size:22px;letter-spacing:.5px}
+.zastor p{color:var(--zastor-tekst)}
+.g{font-family:var(--pix);font-weight:400;font-size:16px;border:0;border-radius:0;margin:var(--u);padding:10px 18px;
+  background:var(--gumb);color:var(--tinta);box-shadow:var(--obrub),var(--sjena)}
+.g:hover{background:var(--gumb-hover)}
+.g:active{transform:translateY(var(--u))}
+.g.glavni{background:var(--gumb-glavni);color:var(--gumb-glavni-tekst)}
+.g.glavni:hover{background:var(--gumb-glavni-hover)}
+.zastor .g{font-family:var(--pix);font-weight:400}
+.valuta{border:0;border-radius:0;background:var(--gumb);box-shadow:none}
+.valuta b{font-family:var(--pix);font-weight:400}
+.poruka{font-family:var(--pix);font-weight:400;border-radius:0;top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px);
+  background:var(--ploca);color:var(--ploca-tekst)}
+.poruka.vidi{transform:translateX(-50%) translateY(0)}
+.poruka.dobro{background:var(--poruka-dobro)}
+.poruka.lose{background:var(--poruka-lose)}
+
+@media (max-width:640px){
+  .omot{padding:calc(2*var(--u)) calc(2*var(--u)) calc(3*var(--u))}
+  .hud{margin-bottom:calc(4*var(--u));padding:calc(3*var(--u)) calc(4*var(--u))}
+  .hud .ime{font-size:17px}
+  .hud .znak{font-size:14px}
+  .hud .znak i{display:none}
+  .poruka{top:4px;font-size:13px;padding:7px 14px}
+}
+/*[/CL-PIXEL]*/
+
+/* ==== Konoba — pixel svijet (stil A) ====
+   Zajednički dio (mjerilo --u, obrubi, ploča, prozori, gumbi, poruke,
+   fontovi) je u bloku CL-PIXEL iznad (_sadrzaj/pixel.css). Ovdje je samo
+   Konobin svijet: topla unutrašnjost, drvo i žbukani zid — i njezini
+   dijelovi: gosti s oblačićima, stolovi, šank s jelima. */
+:root{
+  --svijet:#E9DDCB; --svijet-slika:url("mini games media/konoba/zid.png"); --svijet-slika-vel:calc(48*var(--u));
+  --ploca:#3E2C20; --ploca-slika:url("mini games media/konoba/ploca.png"); --ploca-slika-vel:calc(32*var(--u));
+  --ploca-tekst:#F3E7D3; --ploca-tekst2:#BFA88C;
+  --gumb:#F1E6D3; --gumb-hover:#F8F0E2; --gumb-glavni-hover:#4A3628;
+  --zastor-tama:rgba(43,33,24,.6); --zastor-tekst:#6F6153;
+  --podmetac:#F1E6D3; --drvoTamno:#3B2A1E;
+  --visinaOblacica:118px;
+}
 .konobaOmot{display:flex;flex-direction:column;gap:calc(5*var(--u))}
 
 /* gosti: oblačić s narudžbom, ispod lik iza svog stola */
@@ -279,8 +372,8 @@ img{image-rendering:pixelated}
   cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;display:block;
   box-shadow:0 calc(-1*var(--u)) 0 var(--drvoTamno),0 var(--u) 0 var(--drvoTamno),calc(-1*var(--u)) 0 0 var(--drvoTamno),var(--u) 0 0 var(--drvoTamno),0 calc(3*var(--u)) 0 rgba(0,0,0,.25)}
 .jelo:active{transform:translateY(var(--u))}
-.jelo.dobro{box-shadow:0 calc(-2*var(--u)) 0 var(--zelena),0 calc(2*var(--u)) 0 var(--zelena),calc(-2*var(--u)) 0 0 var(--zelena),calc(2*var(--u)) 0 0 var(--zelena)}
-.jelo.tresi{box-shadow:0 calc(-2*var(--u)) 0 var(--crvena),0 calc(2*var(--u)) 0 var(--crvena),calc(-2*var(--u)) 0 0 var(--crvena),calc(2*var(--u)) 0 0 var(--crvena)}
+.jelo.dobro{box-shadow:var(--obrub-dobro)}
+.jelo.tresi{box-shadow:var(--obrub-lose)}
 .slikaJela{position:relative;display:block;width:100%;height:100%;pointer-events:none}
 .slikaJela img{width:100%;height:100%;display:block;-webkit-user-drag:none;user-select:none}
 .slikaJela img.glatko{image-rendering:auto;padding:calc(2*var(--u))}
@@ -290,37 +383,11 @@ img{image-rendering:pixelated}
   .jelo:hover{background:#F8F0E2}
 }
 
-/* prozori, gumbi, poruke */
-.zastor{background:rgba(43,33,24,.6)}
-.zastor .kut{border:0;border-image:none;border-radius:0;background:var(--krem);padding:20px 20px 18px;margin:var(--u)}
-.zastor h3{font-family:var(--pix);font-weight:400;font-size:22px;letter-spacing:.5px}
-.zastor p{color:#6F6153}
-.g{font-family:var(--pix);font-weight:400;font-size:16px;border:0;border-radius:0;margin:var(--u);padding:10px 18px;
-  background:#F1E6D3;color:var(--tinta);
-  box-shadow:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta),0 calc(3*var(--u)) 0 rgba(0,0,0,.25)}
-.g:hover{background:#F8F0E2}
-.g:active{transform:translateY(var(--u))}
-.g.glavni{background:#3E2C20;color:#F3E7D3}
-.g.glavni:hover{background:#4A3628}
-.zastor .g{font-family:var(--pix);font-weight:400}
-.valuta{border:0;border-radius:0;background:#F1E6D3;box-shadow:none}
-.valuta b{font-family:var(--pix);font-weight:400}
-.poruka{font-family:var(--pix);font-weight:400;border-radius:0;top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px);background:#3E2C20;color:#F3E7D3}
-.poruka.vidi{transform:translateX(-50%) translateY(0)}
-.poruka.dobro{background:#4F6B33}
-.poruka.lose{background:#8E3B2A}
-
 @media (max-width:640px){
   :root{--visinaOblacica:118px}
-  .omot{padding:calc(2*var(--u)) calc(2*var(--u)) calc(3*var(--u))}
-  .hud{margin-bottom:calc(4*var(--u));padding:calc(3*var(--u)) calc(4*var(--u))}
-  .hud .ime{font-size:17px}
-  .hud .znak{font-size:14px}
-  .hud .znak i{display:none}
   .oblacic{padding:calc(3*var(--u)) calc(3*var(--u))}
   .oblacic .glava{font-size:11px}
   .gostTekst{--vel:14.5px}
-  .poruka{top:4px;font-size:13px;padding:7px 14px}
 }
 </style>
 <script>
@@ -330,6 +397,82 @@ img{image-rendering:pixelated}
 </head>
 <body>
 <div class="omot" id="omot"></div>
+<script>
+/*[CL-PIXEL-JS]*/
+/* ==== Pixel temelj (CL-PIXEL-JS) — mjerilo art piksela ====
+   Izvor: _sadrzaj/pixel.js — u igre ga ubacuje `node _sadrzaj/ugradi.js`,
+   samo u igre koje već imaju oznaku CL-PIXEL-JS. Uzor je Konoba.
+
+   Jedan art piksel = k piksela ZASLONA (cijeli broj), pa su svi pikseli
+   jednako veliki i oštri; u CSS-u je to --u = k / devicePixelRatio.
+   PX.prilagodi() bira najveći k pri kojem cijela igra stane na ekran:
+   u širinu (igra je široka `sirina` art piksela) i u visinu.
+
+   U aplikaciji je igra u okviru (iframe) visokom koliko i sadržaj, pa prava
+   visina ekrana dolazi od roditelja: prozor minus zaglavlje.
+
+   Uporaba u igri:
+     PX.mjerilo({
+       sirina: 158,               // širina igre u art pikselima (+ rub)
+       omot: function(){ return O; },   // element čija se širina mjeri
+       kMax: 3, kMaxUsko: 2.5,    // najveći k / DPR (široko / mobitel)
+       kMin: 1.34,                // najmanji k / DPR
+       nakon: function(){ ... }   // poziva se nakon svake promjene mjerila
+     });
+     PX.prilagodi();              // kad se raspored promijeni
+   Ostalo: PX.u() (trenutni --u u CSS px), PX.k(), PX.postavi(k),
+   PX.kMin(), PX.kMax(), PX.kPoSirini(), PX.usko(), PX.visinaEkrana(), PX.DPR. */
+var PX = (function () {
+  var DPR = window.devicePixelRatio || 1;
+  var cfg = { sirina: 158, omot: null, kMax: 3, kMaxUsko: 2.5, kMin: 1.34, nakon: null };
+  var k = 0, slusa = false;
+
+  function usko() { return window.matchMedia('(max-width:640px)').matches; }
+  function visinaEkrana() {
+    try {
+      if (window.frameElement && window.parent && window.parent !== window) {
+        var p = window.parent, zag = p.document.querySelector('header');
+        var dno = zag ? Math.max(0, zag.getBoundingClientRect().bottom) : 0;
+        return p.innerHeight - dno;
+      }
+    } catch (e) {}
+    return window.innerHeight;
+  }
+  function kMax() { return Math.floor((usko() ? cfg.kMaxUsko : cfg.kMax) * DPR); }
+  function kMin() { return Math.max(1, Math.ceil(cfg.kMin * DPR)); }
+  function postavi(n) { k = n; document.documentElement.style.setProperty('--u', (n / DPR) + 'px'); }
+  function omot() {
+    var o = typeof cfg.omot === 'function' ? cfg.omot() : cfg.omot;
+    return o || document.body;
+  }
+  function kPoSirini() { return Math.floor((omot().clientWidth - 8) * DPR / cfg.sirina); }
+  function prilagodi() {
+    var ekran = visinaEkrana();
+    var n = Math.max(kMin(), Math.min(kMax(), kPoSirini()));
+    for (; n > kMin(); n--) {
+      postavi(n);
+      if (document.body.getBoundingClientRect().height <= ekran) break;
+    }
+    postavi(Math.max(kMin(), n));
+    if (cfg.nakon) cfg.nakon();
+  }
+  function mjerilo(o) {
+    for (var x in o) if (Object.prototype.hasOwnProperty.call(o, x)) cfg[x] = o[x];
+    if (slusa) return;
+    slusa = true;
+    window.addEventListener('resize', prilagodi);
+    /* kad se font učita, tekst je drukčije širine — ponovno odmjeri */
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(prilagodi);
+    try { if (window.frameElement) window.parent.addEventListener('resize', function () { try { prilagodi(); } catch (e) {} }); } catch (e) {}
+  }
+  return {
+    DPR: DPR, usko: usko, visinaEkrana: visinaEkrana, kMax: kMax, kMin: kMin,
+    k: function () { return k; }, u: function () { return k / DPR; },
+    postavi: postavi, kPoSirini: kPoSirini, prilagodi: prilagodi, mjerilo: mjerilo
+  };
+})();
+/*[/CL-PIXEL-JS]*/
+</script>
 <script>
 window.IGRA_ID = "konoba";
 /* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
@@ -1340,48 +1483,25 @@ ploha.innerHTML =
 O.appendChild(ploha);
 
 function cfgSmjene(){ return SMJENE[Math.min(S.smjena, SMJENE.length - 1)]; }
-function usko(){ return window.matchMedia('(max-width:640px)').matches; }
+function usko(){ return PX.usko(); }
 
 /* ---------- mjere ekrana ----------
-   U aplikaciji je igra u okviru koji je visok točno koliko i sadržaj, pa
-   prava visina ekrana dolazi od roditelja: prozor minus zaglavlje. */
-function visinaEkrana(){
-  try {
-    if (window.frameElement && window.parent && window.parent !== window){
-      var p = window.parent, zag = p.document.querySelector('header');
-      var dno = zag ? Math.max(0, zag.getBoundingClientRect().bottom) : 0;
-      return p.innerHeight - dno;
-    }
-  } catch (e) {}
-  return window.innerHeight;
-}
-/* Mjerilo: jedan art piksel = k piksela ZASLONA (cijeli broj), pa su svi
-   pikseli jednako veliki i oštri. Bira se najveće k pri kojem cijela igra
-   stane na ekran (i u širinu: šank je širok 155 art piksela). */
-var DPR = window.devicePixelRatio || 1;
-var K_MAX = function(){ return Math.floor((usko() ? 2.5 : 3) * DPR); };
-var K_MIN = function(){ return Math.max(1, Math.ceil(1.34 * DPR)); };
-var S_K = 0;
-function postaviK(k){ S_K = k; document.documentElement.style.setProperty('--u', (k / DPR) + 'px'); }
-function kPoSirini(){ return Math.floor((O.clientWidth - 8) * DPR / 158); }
-function prilagodiMjerilo(){
-  var ekran = visinaEkrana();
-  var k = Math.max(K_MIN(), Math.min(K_MAX(), kPoSirini()));
-  for (; k > K_MIN(); k--){
-    postaviK(k);
-    if (document.body.getBoundingClientRect().height <= ekran) break;
-  }
-  postaviK(Math.max(K_MIN(), k));
-  S.stolovi.forEach(function(g, i){ if (g) prilagodiTekst(i); });
-}
+   Mjerilo art piksela je zajedničko (PX, blok CL-PIXEL-JS). Šank je širok
+   155 art piksela, pa se igra mjeri na 158. */
+function visinaEkrana(){ return PX.visinaEkrana(); }
+PX.mjerilo({
+  sirina: 158, omot: function(){ return O; }, kMax: 3, kMaxUsko: 2.5, kMin: 1.34,
+  nakon: function(){ S.stolovi.forEach(function(g, i){ if (g) prilagodiTekst(i); }); }
+});
+function prilagodiMjerilo(){ PX.prilagodi(); }
 /* koliko redova šanka stane na ekran pri najmanjem mjerilu — za plan smjene */
 function mjeriPult(){
-  var staro = S_K || K_MAX();
-  postaviK(Math.max(K_MIN(), Math.min(K_MAX(), kPoSirini(), K_MIN())));
-  var u = S_K / DPR, el = CL.el('jela');
+  var staro = PX.k() || PX.kMax();
+  PX.postavi(Math.max(PX.kMin(), Math.min(PX.kMax(), PX.kPoSirini(), PX.kMin())));
+  var u = PX.u(), el = CL.el('jela');
   var ostalo = document.body.getBoundingClientRect().height - el.getBoundingClientRect().height;
   var kapRedova = Math.max(2, Math.floor((visinaEkrana() - ostalo + 3 * u) / (37 * u)));
-  postaviK(staro);
+  PX.postavi(staro);
   return {stupaca:4, kapRedova:Math.min(kapRedova, 5)};
 }
 function rasporediPult(){
@@ -1389,10 +1509,6 @@ function rasporediPult(){
   if (el && n) el.style.gridTemplateRows = 'repeat(' + Math.ceil(n / 4) + ',calc(34*var(--u)))';
   prilagodiMjerilo();
 }
-window.addEventListener('resize', prilagodiMjerilo);
-/* kad se font učita, tekst je drukčije širine — ponovno odmjeri */
-if (document.fonts && document.fonts.ready) document.fonts.ready.then(prilagodiMjerilo);
-try { if (window.frameElement) window.parent.addEventListener('resize', function(){ try { prilagodiMjerilo(); } catch (e) {} }); } catch (e) {}
 
 /* ---------- plan smjene ----------
    Na početku smjene unaprijed se odrede svi gosti i njihove narudžbe (i ono

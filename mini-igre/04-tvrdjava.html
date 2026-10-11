@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="color-scheme" content="light">
-<title>Croland — The Fortress</title>
+<title>Croland — The Castle</title>
 <style>
 
 *{box-sizing:border-box;margin:0;padding:0}
@@ -181,195 +181,228 @@ input.upis{border:0;margin:3px;font-family:var(--tekst);
 }
 /*[/CL-STIL]*/
 
-/* ==== Tvrđava — pixel izgled ==== */
+/*[CL-PIXEL]*/
+/* ==== Pixel temelj (CL-PIXEL) — zajednički za pixel igre ====
+   Izvor: _sadrzaj/pixel.css — u igre ga ubacuje `node _sadrzaj/ugradi.js`,
+   ali SAMO u igre koje već imaju oznaku CL-PIXEL (igra se uključuje ručno,
+   kad dobije svoj pixel svijet). Uzor je Konoba.
+
+   Mjerilo: jedan „art piksel“ = --u CSS piksela. --u je uvijek cijeli broj
+   piksela ZASLONA (računa PX.prilagodi iz pixel.js), pa su svi pikseli
+   jednako veliki i oštri. Sve mjere pixel dijelova su višekratnici --u.
+
+   ZAJEDNIČKO svim svjetovima (ne mijenja se po igri):
+     tinta za obrube, krem za tekstualna polja, boje stanja (dobro,
+     upozorenje, loše), logika svjetla i sjene, fontovi.
+   SVIJET (svaka igra prepisuje u svom :root, ispod ovog bloka):
+     --svijet-*, --ploca-*, --gumb-*, --zastor-*, --omot-sirina.
+     Zadane vrijednosti su Konobine.
+
+   Pomoćni obrubi (box-shadow), za bilo koji element:
+     .pxo                  obrub od 1 art piksela u tinti, odsječeni kutovi
+     var(--obrub)          isto, za vlastita pravila
+     var(--obrub-dobro)    2 art piksela, zelena (točan odabir)
+     var(--obrub-lose)     2 art piksela, crvena (krivi odabir)
+     var(--sjena)          tvrda sjena 3 art piksela ispod (gumbi, pločice)
+   Fontovi: Geist za tekst (var(--tekst)), Geist Pixel za HUD, naslove,
+   gumbe i kratke oznake (var(--pix)). Hrvatski sadržaj uvijek u Geistu. */
+
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-400.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-600.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-700.woff2") format("woff2")}
+@font-face{font-family:"Geist";font-weight:400;font-display:swap;src:url("mini games media/font-geist-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:600;font-display:swap;src:url("mini games media/font-geist-latin-ext-600.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist";font-weight:700;font-display:swap;src:url("mini games media/font-geist-latin-ext-700.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Geist Pixel";font-display:swap;src:url("mini games media/font-geist-pixel-latin-400.woff2") format("woff2")}
+@font-face{font-family:"Geist Pixel";font-display:swap;src:url("mini games media/font-geist-pixel-latin-ext-400.woff2") format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 
 :root{
-  --pix:"Nunito","Segoe UI",system-ui,-apple-system,sans-serif;
-  --pix2:"Pixelify Sans","Nunito",system-ui,sans-serif;   /* lokalni font (radi bez interneta) */
-  --kamen:#3A332C; --kamen2:#26211C; --noc:#1B1712; --svijeca:#F4B942;
-  --pergament:#F3E6C8; --pergament2:#E6D3A8;
+  --u:2px;
+  --pix:"Geist Pixel","Geist",system-ui,sans-serif;
+  --tekst:"Geist","Nunito",system-ui,sans-serif;
+
+  /* zajedničko — isto u svim svjetovima */
+  --tinta:#2B2118;          /* obrubi i tekst */
+  --krem:#FFFDF8;           /* tekstualna polja, oblačići, prozori */
+  --siva:#8E7E6C;           /* sporedni tekst na kremi */
+  --zelena:#6E9A43;         /* stanje: dobro */
+  --zuta:#D9A441;           /* stanje: upozorenje */
+  --crvena:#C8553D;         /* stanje: loše */
+  --poruka-dobro:#4F6B33;   /* tamna inačica za traku s porukom */
+  --poruka-lose:#8E3B2A;
+
+  /* svijet — zadano Konoba; igra prepisuje */
+  --omot-sirina:560px;
+  --svijet:#E9DDCB;                 /* temeljni ton pozadine */
+  --svijet-slika:none;              /* tekstura pozadine, url(...) */
+  --svijet-slika-vel:calc(48*var(--u));
+  --ploca:#3E2C20;                  /* ploča s rezultatom (HUD) */
+  --ploca-slika:none;
+  --ploca-slika-vel:calc(32*var(--u));
+  --ploca-tekst:#F3E7D3;
+  --ploca-tekst2:#BFA88C;           /* oznake na ploči (SHIFT, GUESTS…) */
+  --gumb:#F1E6D3; --gumb-hover:#F8F0E2;
+  --gumb-glavni:var(--ploca); --gumb-glavni-hover:#4A3628; --gumb-glavni-tekst:var(--ploca-tekst);
+  --zastor-tama:rgba(43,33,24,.6);  /* zatamnjenje iza prozora */
+  --zastor-tekst:#6F6153;
+
+  /* obrubi (ne prepisivati) */
+  --obrub:0 calc(-1*var(--u)) 0 var(--tinta),0 var(--u) 0 var(--tinta),calc(-1*var(--u)) 0 0 var(--tinta),var(--u) 0 0 var(--tinta);
+  --obrub-dobro:0 calc(-2*var(--u)) 0 var(--zelena),0 calc(2*var(--u)) 0 var(--zelena),calc(-2*var(--u)) 0 0 var(--zelena),calc(2*var(--u)) 0 0 var(--zelena);
+  --obrub-lose:0 calc(-2*var(--u)) 0 var(--crvena),0 calc(2*var(--u)) 0 var(--crvena),calc(-2*var(--u)) 0 0 var(--crvena),calc(2*var(--u)) 0 0 var(--crvena);
+  --sjena:0 calc(3*var(--u)) 0 rgba(0,0,0,.25);
 }
-body{font-family:var(--pix);background-color:#EDE3D0;
-  background-image:linear-gradient(rgba(36,28,21,.05) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(36,28,21,.05) 1px,transparent 1px);
-  background-size:8px 8px}
-img{image-rendering:pixelated;image-rendering:crisp-edges}
-.omot{max-width:960px;gap:12px}
-.hud,.ploha,.g,.znak,.zastor .kut,.valuta,input.upis,.dijakritik{border-radius:0}
-.hud{border-width:4px;box-shadow:0 5px 0 var(--tinta);margin-bottom:0}
-.hud .ime{font-family:var(--pix2);font-size:17px;line-height:1.7}
-.hud .ime small{font-family:var(--pix);font-size:11px}
-.znak{font-family:var(--pix2);font-size:14px;padding:6px 9px}
-.g{font-family:var(--pix);font-weight:800;border-width:3px;box-shadow:0 4px 0 var(--tinta)}
-.g.glavni{background:var(--svijeca)}
-.zastor .kut{border-width:4px;background:var(--pergament)}
-.zastor h3{font-family:var(--pix2);font-size:22px;line-height:1.6}
-.ploha{border:0;box-shadow:none;background:transparent;padding:0;gap:12px;overflow:visible}
 
-/* ---- karta tvrđave ---- */
-.karta{background:var(--kamen2);border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);padding:8px;
-  display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(44px,auto);gap:6px}
-.soba{position:relative;border:3px solid #000;background:#5B5046;color:#F3E6C8;cursor:pointer;
-  font-weight:800;font-size:12px;padding:5px 6px 5px 30px;display:flex;align-items:center;line-height:1.15;
-  box-shadow:inset 0 -4px 0 rgba(0,0,0,.25)}
-.soba i{position:absolute;left:6px;top:50%;transform:translateY(-50%);font-style:normal;font-size:17px}
-.soba small{display:block;font-weight:600;font-size:10px;opacity:.7}
-.soba.zatvorena{background:#2E2823;color:#7D7163;cursor:default}
-.soba.rijesena{background:#4E6B3A}
-.soba.tu{background:var(--svijeca);color:var(--tinta);box-shadow:inset 0 -4px 0 rgba(0,0,0,.18)}
-.soba:not(.zatvorena):hover{filter:brightness(1.12)}
+/* „pixel“ obrub: jedan art piksel, odsječeni kutovi */
+.pxo,.hud,.zastor .kut,.poruka{box-shadow:var(--obrub)}
 
-/* ---- scena ---- */
-.pozornica{position:relative;border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);background:var(--noc)}
-.scena{position:relative;width:100%;max-width:calc(50vh * 16 / 9);margin:0 auto;aspect-ratio:16/9;overflow:hidden;background:var(--kamen)}
-.scena > img.poz{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.scena .zamjena{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-  font-size:min(22vw,150px);opacity:.28;filter:grayscale(.3)}
-.scena.imaSliku .zamjena,.scena.imaSliku .dekor{display:none}
-.plocica{position:absolute;left:10px;top:10px;background:var(--pergament);border:3px solid var(--tinta);
-  font-family:var(--pix2);font-size:14px;line-height:1.6;padding:4px 8px;z-index:3}
-.plocica small{font-family:var(--pix);font-size:12px;font-weight:700;color:var(--meko);margin-left:6px}
-.razinaZ{position:absolute;right:10px;top:10px;background:var(--tinta);color:var(--svijeca);
-  font-family:var(--pix2);font-size:13px;padding:6px 8px;z-index:3}
-.dekor,.tocka{position:absolute;display:flex;align-items:center;justify-content:center}
-.dekor{border:2px dashed rgba(243,230,200,.25);color:rgba(243,230,200,.55);font-size:clamp(14px,3vw,28px);pointer-events:none}
-.tocka{cursor:pointer;z-index:2;font-size:clamp(12px,2.4vw,22px);border:3px solid transparent}
-.scena:not(.imaSliku) .tocka{border:3px solid rgba(0,0,0,.6);box-shadow:inset 0 0 0 2px rgba(255,255,255,.25)}
-.tocka:hover{border-color:var(--svijeca)!important;background:rgba(244,185,66,.18)}
-.tocka.prazna{opacity:.35;pointer-events:none}
+body{font-family:var(--tekst);background:var(--svijet) var(--svijet-slika) 0 0/var(--svijet-slika-vel) auto;
+  image-rendering:pixelated}
+.omot{max-width:var(--omot-sirina);padding:calc(3*var(--u)) calc(3*var(--u)) calc(4*var(--u))}
+img{image-rendering:pixelated}
 
-/* ---- govor (RPG okvir) ---- */
-.govor{display:flex;gap:12px;align-items:flex-start;background:var(--noc);color:#F3E6C8;
-  border-top:4px solid var(--tinta);padding:12px 14px;min-height:92px}
-.portret{flex:none;width:72px;height:72px;border:3px solid #F3E6C8;background:#3A332C;position:relative;overflow:hidden}
-.portret img{position:absolute;inset:0;width:100%;height:100%}
-.portret span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:40px}
-.govor .tko{font-family:var(--pix2);font-size:13px;color:var(--svijeca);letter-spacing:.5px;margin-bottom:6px;line-height:1.5}
-.govor .rec{font-size:18px;font-weight:700;line-height:1.4}
-.govor .pr{font-size:13px;margin-top:4px}
-.govor .otkrijEN{color:#B9A98E}
-.govor .otkrijEN.otkriven{color:#B9A98E;font-style:italic}
+/* ploča s rezultatom */
+.hud{border:0;border-image:none;border-radius:0;margin:var(--u) var(--u) calc(5*var(--u));padding:calc(3*var(--u)) calc(5*var(--u));
+  background:var(--ploca) var(--ploca-slika) 0 0/var(--ploca-slika-vel) auto;color:var(--ploca-tekst);flex-wrap:nowrap;gap:calc(3*var(--u))}
+.hud .ime{font-family:var(--pix);font-weight:400;font-size:20px;letter-spacing:1px;text-transform:uppercase;margin-right:auto;white-space:nowrap}
+.hud .ime small{display:none}
+.hud .znak{font-family:var(--pix);font-weight:400;font-size:16px;background:none;border:0;box-shadow:none;margin:0;padding:0;
+  color:var(--ploca-tekst);gap:5px;white-space:nowrap}
+.hud .znak i{font-style:normal;color:var(--ploca-tekst2);font-size:12px;letter-spacing:.5px}
+.hud .znak b{font-weight:400}
 
-/* ---- ploča zadatka ---- */
-.zad{background:var(--pergament);border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);padding:14px;
-  display:flex;flex-direction:column;gap:10px}
-.zad h3{font-family:var(--pix2);font-size:16px;line-height:1.7}
-.zad .mala{font-size:14px;color:var(--meko)}
-.red{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
-.red.lijevo{justify-content:flex-start}
-.opcije{display:flex;flex-direction:column;gap:8px}
-.opcije .g{text-align:left}
+/* ploha igre: bez starog okvira — scena je sama igra */
+.ploha{border:0;border-image:none;background:none;box-shadow:none;padding:0;gap:0}
 
-/* dokument: poruka, dnevnik, pismo, statut */
-.dok{background:#FFF9EA;border:3px solid var(--tinta);padding:14px 16px;font-size:17px;line-height:1.6;
-  box-shadow:6px 6px 0 rgba(36,28,21,.18);font-family:"Segoe Print","Bradley Hand","Comic Sans MS",var(--pix)}
-.dok.tiskano{font-family:Georgia,"Times New Roman",serif}
-.dok.statut{background:#EAD9AE;font-family:Georgia,serif}
-.dok .naslovDok{font-family:var(--pix2);font-size:13px;color:var(--meko);margin-bottom:8px;line-height:1.6}
-.dok p{margin:0 0 6px}
-.rjecnik{font-size:13px;color:var(--meko)}
-.rjecnik b{color:var(--tinta)}
-
-/* ključevi (Vrata, Radionica) */
-.kljucevi{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.kljucevi.tri{grid-template-columns:repeat(3,1fr)}
-.kljucK{border:3px solid var(--tinta);background:#fff;cursor:pointer;padding:8px 4px;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:4px;min-height:96px;font:inherit;font-weight:700;font-size:13px}
-.kljucK:hover{background:#FFF2CC}
-.kljucK svg{display:block}
-.kljucK.krivo{background:#F6C9BD}
-
-/* smočnica */
-.smocnica{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;background:#8A6A48;border:3px solid var(--tinta);padding:8px}
-.namirnica{border:3px solid var(--tinta);background:#F3E6C8;cursor:pointer;aspect-ratio:1;display:flex;align-items:center;justify-content:center;
-  font-size:28px;position:relative;padding:0}
-.namirnica img{width:70%;height:70%;image-rendering:auto;background:#F3E6C8}   /* ilustracija pokriva zamjenski emoji */
-.namirnica:hover{background:#fff}
-.kosara{display:flex;gap:6px;flex-wrap:wrap;min-height:56px;align-items:center;background:#fff;border:3px dashed var(--meko);padding:6px}
-.uKosari{display:flex;align-items:center;gap:4px;border:2px solid var(--tinta);background:var(--pergament);padding:2px 4px 2px 6px;font-size:22px}
-.uKosari b{font-family:var(--pix2);font-size:14px}
-.uKosari button{font:inherit;font-size:13px;font-weight:800;border:2px solid var(--tinta);background:#fff;width:24px;height:24px;cursor:pointer}
-
-/* knjižnica */
-.knjige{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
-.knjiga{border:3px solid var(--tinta);cursor:pointer;padding:8px 10px;font:inherit;font-weight:800;font-size:14px;color:#fff;
-  text-shadow:1px 1px 0 rgba(0,0,0,.5);max-width:210px;text-align:left;line-height:1.25}
-.knjiga.oznacena{outline:4px solid var(--svijeca);outline-offset:1px}
-.police{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-.polica{border:3px solid var(--tinta);background:#6B4E33;color:#F3E6C8;padding:6px;cursor:pointer;min-height:92px;font-size:12px}
-.polica b{display:block;font-family:var(--pix2);font-size:13px;line-height:1.6;color:var(--svijeca);margin-bottom:4px}
-.polica div{border-top:2px solid #3E2C1C;padding-top:3px;margin-top:3px;line-height:1.25}
-.polica:hover{filter:brightness(1.15)}
-
-/* sat */
-.satOkvir{display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap}
-.satOkvir svg{width:180px;height:180px;background:#F3E6C8;border:4px solid var(--tinta);shape-rendering:crispEdges}
-.kontrole{display:grid;grid-template-columns:auto auto auto;gap:6px;align-items:center;font-weight:800}
-.kontrole .g{padding:6px 12px}
-
-/* zidine */
-.zidine{display:grid;gap:3px;background:#2F6F9E;border:3px solid var(--tinta);padding:6px;max-width:460px;margin:0 auto;width:100%}
-.more{grid-column:1/-1;text-align:center;font-family:var(--pix2);font-size:13px;color:#DCEEFF;padding:4px}
-.polje{aspect-ratio:1;background:#7CA05A;position:relative;display:flex;align-items:center;justify-content:center}
-.polje.zid{background:#B9AC98;box-shadow:inset 0 -3px 0 #8C7F6C}
-.polje.bio{background:#D8CBB4}
-.polje.start::after{content:"🔭";position:absolute;font-size:12px;left:1px;top:0;opacity:.8}
-.igracZ{font-size:clamp(14px,4vw,26px);line-height:1;color:var(--tinta);font-weight:900;transition:transform .15s}
-.plan{counter-reset:k}
-.plan li{margin-left:22px;font-size:16px;line-height:1.5}
-
-/* lokot */
-.lokot{display:flex;gap:8px;justify-content:center}
-.kotac{display:flex;flex-direction:column;align-items:center;gap:4px}
-.kotac b{font-family:var(--pix2);font-size:38px;background:var(--tinta);color:var(--svijeca);width:54px;height:60px;display:flex;align-items:center;justify-content:center;border:3px solid #000}
-.kotac button{font:inherit;font-weight:900;border:3px solid var(--tinta);background:#fff;width:54px;height:30px;cursor:pointer}
-
-/* zagonetke */
-.brave{display:flex;gap:10px;justify-content:center;font-size:26px}
-.brave span{border:3px solid var(--tinta);background:#fff;width:46px;height:46px;display:flex;align-items:center;justify-content:center}
-.brave span.otvorena{background:#CFE8B8}
-
-/* ključ dobiven */
-.nagrada{display:flex;gap:14px;align-items:center;background:#fff;border:3px solid var(--tinta);padding:12px}
-.nagrada .privjesak{font-family:var(--pix2);font-size:13px;background:var(--pergament2);border:2px solid var(--tinta);padding:5px 7px;display:inline-block;margin-top:4px;line-height:1.5}
-.privjesci{display:flex;gap:4px;flex-wrap:wrap;align-items:center;font-size:12px;font-weight:700;color:var(--meko)}
-.privjesci span{font-family:var(--pix2);font-size:12px;background:var(--pergament);color:var(--tinta);border:2px solid var(--tinta);padding:4px 5px;line-height:1.4}
-
-/* uvod */
-.uvod{display:flex;flex-direction:column;gap:14px}
-.uvod .naslovna{position:relative;aspect-ratio:16/9;background:linear-gradient(#2B3A55,#6A5A7A 55%,#C98C5A 56%,#3A332C 57%);
-  border:4px solid var(--tinta);box-shadow:0 5px 0 var(--tinta);overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
-.uvod .naslovna img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.uvod .naslovna h1{position:relative;font-family:var(--pix2);font-size:clamp(16px,4vw,34px);color:var(--svijeca);
-  text-shadow:4px 4px 0 var(--tinta);margin-bottom:6%;text-align:center;line-height:1.5}
-.uvod .naslovna h1 small{display:block;font-size:.4em;color:#F3E6C8}
+/* prozori, gumbi, poruke */
+.zastor{background:var(--zastor-tama)}
+.zastor .kut{border:0;border-image:none;border-radius:0;background:var(--krem);padding:20px 20px 18px;margin:var(--u)}
+.zastor h3{font-family:var(--pix);font-weight:400;font-size:22px;letter-spacing:.5px}
+.zastor p{color:var(--zastor-tekst)}
+.g{font-family:var(--pix);font-weight:400;font-size:16px;border:0;border-radius:0;margin:var(--u);padding:10px 18px;
+  background:var(--gumb);color:var(--tinta);box-shadow:var(--obrub),var(--sjena)}
+.g:hover{background:var(--gumb-hover)}
+.g:active{transform:translateY(var(--u))}
+.g.glavni{background:var(--gumb-glavni);color:var(--gumb-glavni-tekst)}
+.g.glavni:hover{background:var(--gumb-glavni-hover)}
+.zastor .g{font-family:var(--pix);font-weight:400}
+.valuta{border:0;border-radius:0;background:var(--gumb);box-shadow:none}
+.valuta b{font-family:var(--pix);font-weight:400}
+.poruka{font-family:var(--pix);font-weight:400;border-radius:0;top:8px;bottom:auto;transform:translateX(-50%) translateY(-12px);
+  background:var(--ploca);color:var(--ploca-tekst)}
+.poruka.vidi{transform:translateX(-50%) translateY(0)}
+.poruka.dobro{background:var(--poruka-dobro)}
+.poruka.lose{background:var(--poruka-lose)}
 
 @media (max-width:640px){
-  .karta{grid-auto-rows:minmax(34px,auto);gap:4px;padding:5px}
-  .soba{font-size:10px;padding:3px 3px 3px 20px}
-  .soba i{font-size:12px;left:3px}
-  .soba small{display:none}
-  .govor{padding:8px;gap:8px;min-height:0}
-  .portret{width:48px;height:48px}
-  .portret span{font-size:26px}
-  .govor .rec{font-size:15px}
-  .zad{padding:10px}
-  .dok{font-size:15px;padding:10px}
-  .kljucevi{grid-template-columns:repeat(2,1fr)}
-  .smocnica{grid-template-columns:repeat(4,1fr)}
-  .police{grid-template-columns:repeat(2,1fr)}
-  .plocica{font-size:8px;left:6px;top:6px}
-  .plocica small{display:none}
-  .razinaZ{font-size:7px;right:6px;top:6px}
-  .satOkvir svg{width:140px;height:140px}
+  .omot{padding:calc(2*var(--u)) calc(2*var(--u)) calc(3*var(--u))}
+  .hud{margin-bottom:calc(4*var(--u));padding:calc(3*var(--u)) calc(4*var(--u))}
+  .hud .ime{font-size:17px}
+  .hud .znak{font-size:14px}
+  .hud .znak i{display:none}
+  .poruka{top:4px;font-size:13px;padding:7px 14px}
+}
+/*[/CL-PIXEL]*/
+
+/* ==== Dvorac — pixel svijet: noć ====
+   Zajednički dio je u bloku CL-PIXEL iznad. Ovdje je svijet dvorca:
+   hladan noćni kamen i modro-siva tama; topla su samo svjetla (svijeće,
+   zlato, papir). Tinta, krem i boje stanja su zajedničke s Konobom. */
+:root{
+  --svijet:#1E2130; --svijet-slika:none;
+  --ploca:#2A2D3B; --ploca-tekst:#EDE6D8; --ploca-tekst2:#9AA0B4;
+  --gumb:#ECE3D0; --gumb-hover:#F6EFE2;
+  --gumb-glavni:#6B4A2E; --gumb-glavni-hover:#7A5636; --gumb-glavni-tekst:#F6EBD6;
+  --zastor-tama:rgba(10,12,20,.72); --zastor-tekst:#6F6153;
+  --zlato:#F2C46B;
+}
+body{background:var(--svijet) radial-gradient(ellipse at 50% -10%,rgba(120,130,170,.18),transparent 60%) no-repeat}
+.hud .znak .svijecaZ{width:calc(5*var(--u));height:calc(9*var(--u));display:block}
+.hud #zSvijece{gap:calc(2*var(--u))}
+
+/* kartice (uvod, kraj) */
+.kartica{margin:var(--u);background:var(--krem);box-shadow:var(--obrub);padding:calc(6*var(--u)) calc(6*var(--u));text-align:center}
+.kartica h2{font-family:var(--pix);font-weight:400;font-size:26px;letter-spacing:1px;margin:6px 0 10px}
+.kartica .enTekst{font-size:15px;line-height:1.5;color:#4E4338;text-align:left;margin-bottom:14px}
+.kartica .ukras svg{width:calc(13*3*var(--u));height:calc(6*3*var(--u))}
+.kartica .ukras.velik svg,.kartica .ukras.velik img{width:calc(14*4*var(--u));height:calc(16*4*var(--u));object-fit:contain}
+.kartica .naslovna{margin:calc(-6*var(--u)) calc(-6*var(--u)) 0;height:calc(84*var(--u));overflow:hidden;box-shadow:0 var(--u) 0 var(--tinta)}
+.kartica .naslovna img{display:block;width:100%;height:calc(128*var(--u) * 3.5 / 3.5);object-fit:cover;object-position:50% 0}
+.kartica .mala{font-size:13px;color:var(--siva);margin-top:10px}
+.izbor{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.izbor .g{display:inline-flex;align-items:center;gap:8px}
+.izbor .g .svijecaZ{width:10px;height:18px}
+
+/* scena: zid, pod, predmeti */
+.scena{position:relative;width:calc(160*var(--u));height:calc(96*var(--u));margin:var(--u) auto calc(4*var(--u));overflow:hidden;
+  background:
+    radial-gradient(ellipse calc(90*var(--u)) calc(60*var(--u)) at 50% 0%,rgba(246,177,61,.16),transparent 70%),
+    repeating-linear-gradient(0deg,rgba(0,0,0,.22) 0 var(--u),transparent var(--u) calc(8*var(--u))),
+    repeating-linear-gradient(90deg,rgba(0,0,0,.14) 0 var(--u),transparent var(--u) calc(16*var(--u))),
+    var(--zid);
+  box-shadow:var(--obrub);transition:filter .8s}
+.scena .pod{position:absolute;left:0;right:0;bottom:0;height:calc(14*var(--u));background:
+  repeating-linear-gradient(90deg,rgba(0,0,0,.25) 0 var(--u),transparent var(--u) calc(20*var(--u))),var(--pod);
+  box-shadow:inset 0 var(--u) 0 rgba(0,0,0,.45)}
+.scena .daska{position:absolute;height:calc(3*var(--u));background:#6E4A31;box-shadow:inset 0 calc(-1*var(--u)) 0 #4A3020,0 var(--u) 0 #241C15}
+.scena .dekor{position:absolute;pointer-events:none}
+.scena .lik{display:block;position:relative;width:100%;height:100%}
+.scena img.lik,.scena .lik img{-webkit-user-drag:none;user-select:none}
+.scena .pr{position:absolute;padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.scena .pr.odabran .lik{filter:drop-shadow(var(--u) 0 0 var(--zlato)) drop-shadow(calc(-1*var(--u)) 0 0 var(--zlato)) drop-shadow(0 var(--u) 0 var(--zlato)) drop-shadow(0 calc(-1*var(--u)) 0 var(--zlato))}
+.scena .pr.prazno{opacity:.38;filter:grayscale(1);cursor:default}
+.scena .pr.pogodak .lik{filter:drop-shadow(var(--u) 0 0 var(--zelena)) drop-shadow(calc(-1*var(--u)) 0 0 var(--zelena)) drop-shadow(0 var(--u) 0 var(--zelena)) drop-shadow(0 calc(-1*var(--u)) 0 var(--zelena))}
+.scena .pr.tresi{animation:tresi .3s}
+@keyframes tresi{25%{transform:translateX(calc(-2*var(--u)))}75%{transform:translateX(calc(2*var(--u)))}}
+.scena .iskoci{position:absolute;left:50%;top:calc(-14*var(--u));transform:translateX(-50%);width:calc(13*2*var(--u));height:calc(6*2*var(--u));animation:iskoci .5s}
+.scena .iskoci svg,.scena .iskoci img{width:100%;height:100%;object-fit:contain}
+@keyframes iskoci{from{transform:translate(-50%,calc(8*var(--u)));opacity:0}}
+.scena .kap{position:absolute;bottom:calc(-4*var(--u));width:calc(2*var(--u));height:calc(3*var(--u));background:#7A1F2E;box-shadow:0 calc(2*var(--u)) 0 #5A1622}
+.scena .nota{position:absolute;right:calc(-3*var(--u));top:calc(-9*var(--u));font-style:normal;color:var(--zlato);font-size:calc(9*var(--u));line-height:1}
+.scena .natpis{position:absolute;left:calc(3*var(--u));top:calc(3*var(--u));background:rgba(20,22,32,.82);color:var(--ploca-tekst);
+  padding:calc(1*var(--u)) calc(3*var(--u));box-shadow:var(--obrub);pointer-events:none}
+.scena .natpis b{display:block;font-family:var(--pix);font-weight:400;font-size:13px;letter-spacing:1px}
+.scena .natpis span{display:block;font-size:10px;color:var(--ploca-tekst2)}
+.scena.mrak{filter:brightness(.15)}
+/* prava pozadina sobe (Gemini → pixel): zid i pod su na slici */
+.scena.imaPoz{background:
+    radial-gradient(ellipse calc(90*var(--u)) calc(60*var(--u)) at 50% 0%,rgba(246,177,61,.12),transparent 70%),
+    var(--poz) 0 0/100% 100% no-repeat,var(--zid);image-rendering:pixelated}
+.scena.imaPoz .pod{display:none}
+.scena .daskaP{position:absolute;left:0;right:0;height:calc(3*var(--u));background:#6E4A31;box-shadow:inset 0 calc(-1*var(--u)) 0 #4A3020,0 var(--u) 0 #241C15}
+.scena .broj{position:absolute;width:calc(12*var(--u));height:calc(7*var(--u));background:#F1E6CF;box-shadow:var(--obrub);
+  font-family:var(--pix);font-size:calc(7*var(--u));line-height:calc(7*var(--u));text-align:center;color:var(--tinta);pointer-events:none}
+
+/* Klarina poruka */
+.pismo{margin:var(--u) var(--u) calc(4*var(--u));background:#F3E9D2;box-shadow:var(--obrub);padding:calc(4*var(--u)) calc(5*var(--u));text-align:left}
+.pismo .od{font-family:var(--pix);font-size:12px;letter-spacing:.5px;color:#8C7A62;text-transform:uppercase;margin-bottom:4px}
+.pismo p{font-size:18px;font-weight:600;line-height:1.4;color:var(--tinta)}
+.pismo .rijeci{font-size:13px;color:#7A6A55;margin-top:8px;line-height:1.5}
+.pismo .rijeci b{color:var(--tinta);font-weight:600}
+.pismo .enRed{margin-top:6px;font-size:14px;color:var(--siva)}
+
+/* traka s radnjom ispod poruke */
+.radnja{margin:var(--u);min-height:calc(18*var(--u));display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:calc(2*var(--u)) calc(4*var(--u));background:var(--ploca);box-shadow:var(--obrub);color:var(--ploca-tekst)}
+.radnja .uputa{font-size:14px;color:var(--ploca-tekst2)}
+.radnja .imePr b{font-size:20px;font-weight:700;margin-right:8px}
+.radnja .otkrijEN{background:none;border-color:#4A4E60;color:var(--ploca-tekst2);font-size:13px}
+.radnja .g{margin:var(--u)}
+.radnja .nadjeno{display:flex;align-items:center;gap:10px}
+.radnja .nadjeno svg,.radnja .nadjeno img{width:calc(22*var(--u));height:calc(16*var(--u));object-fit:contain;flex:none}
+.radnja .nadjeno b{display:block;font-family:var(--pix);font-weight:400;font-size:16px;color:var(--zlato)}
+.radnja .nadjeno span{font-size:13px;color:var(--ploca-tekst2)}
+
+@media (max-width:640px){
+  .pismo p{font-size:16px}
+  .radnja .imePr b{font-size:18px}
+  .kartica h2{font-size:22px}
 }
 
-/* ---- skriveni prijevod: otkriva se klikom ---- */
-.otkrijEN{font:inherit;font-size:.94em;font-weight:600;line-height:inherit;color:var(--meko);
-  background:transparent;border:0;border-bottom:2px dotted currentColor;border-radius:0;
-  padding:0 2px;margin:0;cursor:pointer;opacity:.8;letter-spacing:.2px;text-align:left}
-.otkrijEN:hover{opacity:1;border-bottom-color:var(--zut)}
-.otkrijEN.otkriven{border-bottom:0;cursor:default;opacity:1;padding:0}
 </style>
 <script>
 /* Igra u aplikaciji ide u okvir (iframe). Tada otpada poveznica na popis igara
@@ -379,11 +412,88 @@ img{image-rendering:pixelated;image-rendering:crisp-edges}
 <body>
 <div class="omot" id="omot"></div>
 <script>
+/*[CL-PIXEL-JS]*/
+/* ==== Pixel temelj (CL-PIXEL-JS) — mjerilo art piksela ====
+   Izvor: _sadrzaj/pixel.js — u igre ga ubacuje `node _sadrzaj/ugradi.js`,
+   samo u igre koje već imaju oznaku CL-PIXEL-JS. Uzor je Konoba.
+
+   Jedan art piksel = k piksela ZASLONA (cijeli broj), pa su svi pikseli
+   jednako veliki i oštri; u CSS-u je to --u = k / devicePixelRatio.
+   PX.prilagodi() bira najveći k pri kojem cijela igra stane na ekran:
+   u širinu (igra je široka `sirina` art piksela) i u visinu.
+
+   U aplikaciji je igra u okviru (iframe) visokom koliko i sadržaj, pa prava
+   visina ekrana dolazi od roditelja: prozor minus zaglavlje.
+
+   Uporaba u igri:
+     PX.mjerilo({
+       sirina: 158,               // širina igre u art pikselima (+ rub)
+       omot: function(){ return O; },   // element čija se širina mjeri
+       kMax: 3, kMaxUsko: 2.5,    // najveći k / DPR (široko / mobitel)
+       kMin: 1.34,                // najmanji k / DPR
+       nakon: function(){ ... }   // poziva se nakon svake promjene mjerila
+     });
+     PX.prilagodi();              // kad se raspored promijeni
+   Ostalo: PX.u() (trenutni --u u CSS px), PX.k(), PX.postavi(k),
+   PX.kMin(), PX.kMax(), PX.kPoSirini(), PX.usko(), PX.visinaEkrana(), PX.DPR. */
+var PX = (function () {
+  var DPR = window.devicePixelRatio || 1;
+  var cfg = { sirina: 158, omot: null, kMax: 3, kMaxUsko: 2.5, kMin: 1.34, nakon: null };
+  var k = 0, slusa = false;
+
+  function usko() { return window.matchMedia('(max-width:640px)').matches; }
+  function visinaEkrana() {
+    try {
+      if (window.frameElement && window.parent && window.parent !== window) {
+        var p = window.parent, zag = p.document.querySelector('header');
+        var dno = zag ? Math.max(0, zag.getBoundingClientRect().bottom) : 0;
+        return p.innerHeight - dno;
+      }
+    } catch (e) {}
+    return window.innerHeight;
+  }
+  function kMax() { return Math.floor((usko() ? cfg.kMaxUsko : cfg.kMax) * DPR); }
+  function kMin() { return Math.max(1, Math.ceil(cfg.kMin * DPR)); }
+  function postavi(n) { k = n; document.documentElement.style.setProperty('--u', (n / DPR) + 'px'); }
+  function omot() {
+    var o = typeof cfg.omot === 'function' ? cfg.omot() : cfg.omot;
+    return o || document.body;
+  }
+  function kPoSirini() { return Math.floor((omot().clientWidth - 8) * DPR / cfg.sirina); }
+  function prilagodi() {
+    var ekran = visinaEkrana();
+    var n = Math.max(kMin(), Math.min(kMax(), kPoSirini()));
+    for (; n > kMin(); n--) {
+      postavi(n);
+      if (document.body.getBoundingClientRect().height <= ekran) break;
+    }
+    postavi(Math.max(kMin(), n));
+    if (cfg.nakon) cfg.nakon();
+  }
+  function mjerilo(o) {
+    for (var x in o) if (Object.prototype.hasOwnProperty.call(o, x)) cfg[x] = o[x];
+    if (slusa) return;
+    slusa = true;
+    window.addEventListener('resize', prilagodi);
+    /* kad se font učita, tekst je drukčije širine — ponovno odmjeri */
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(prilagodi);
+    try { if (window.frameElement) window.parent.addEventListener('resize', function () { try { prilagodi(); } catch (e) {} }); } catch (e) {}
+  }
+  return {
+    DPR: DPR, usko: usko, visinaEkrana: visinaEkrana, kMax: kMax, kMin: kMin,
+    k: function () { return k; }, u: function () { return k / DPR; },
+    postavi: postavi, kPoSirini: kPoSirini, prilagodi: prilagodi, mjerilo: mjerilo
+  };
+})();
+/*[/CL-PIXEL-JS]*/
+</script>
+<script>
 window.IGRA_ID = "tvrdjava";
 /* Bodovi: linearno po ucinjenom, strop 1500. Broji se najbolja partija — slabija
    ne oduzima nista. Beskonacni nacin je uklonjen: tko dosegne strop, krece ispocetka
    ako zeli. window.IGRA_MAKS mora biti jednak `maks` u MINI_IGRE (korijenski index.html). */
 window.IGRA_MAKS = 1500;
+// 120 bodova po sobi + 300 za cijeli dvorac (vidi igru ispod).
 
 /* =========================================================================
    Croland mini igre — zajednička jezgra
@@ -751,859 +861,521 @@ var CL = (function () {
 </script>
 <script>
 /* =====================================================================
-   Tvrđava Galebnjak — pustolovina u dvanaest soba
+   Dvorac Vrana — deset soba, jedna poruka i jedan ključ u svakoj
    ---------------------------------------------------------------------
-   Priča: kaštelan Ivo je u bolnici, a ključevi tvrđave su skriveni jedan
-   za drugim. Svaka soba daje ključ sljedeće. U petak gradsko vijeće glasa
-   o prodaji tvrđave hotelu; spašava je samo stari statut.
+   Grofica Klara sakrila je prsten u tajnoj sobi. U svakoj sobi ostavila je
+   poruku koja kaže gdje je ključ sljedeće sobe. Igrač otvara predmete;
+   krivi predmet gasi svijeću. Kad se ugasi zadnja, igra je gotova.
 
-   Težina raste sa sobama (razina 1 → 5). Svaki zadatak ima razlog u priči.
-   Detaljan opis i popis slika: TVRDJAVA-DIZAJN.md
-   Maksimum (skriveno od igrača): 100 bodova × 4 valute
+   Svaka soba ima pet inačica poruke. Na početku partije za svaku sobu
+   nasumično se bira jedna, pa raspored soba i predmeta može se zapamtiti,
+   ali gdje je ključ treba svaki put pročitati.
+
+   Sobe prate tečaj: soba N provjerava lekcije 2N-1 i 2N.
+   Predmeti se zasad crtaju kodom (maske ispod); poslije ih zamjenjuju
+   pixel slike iz mini games media/dvorac/.
+   Bodovi: 120 po sobi + 300 za cijeli dvorac = 1500 (IGRA_MAKS).
    ===================================================================== */
 
-var MED = CL.MEDIJ + 'tvr-';
-
-var LIKOVI = {
-  lucija:{ime:'Lucija · Ivo’s granddaughter', emo:'👩'},
-  ivo:   {ime:'Ivo · a note',                 emo:'📝'},
-  ivoZiv:{ime:'Ivo · back from hospital, on crutches', emo:'👴'},
-  jela:  {ime:'Jela · the cook',              emo:'👩‍🍳'},
-  rok:   {ime:'Rok · the clock keeper',       emo:'👴'},
-  nika:  {ime:'Nika · the architect',         emo:'👷‍♀️'},
-  jure:  {ime:'Jure · the restorer',          emo:'🧔'},
-  marin: {ime:'Don Marin · the priest',       emo:'🧑‍🦳'},
-  lovro: {ime:'Lovro · the town archivist',   emo:'🧑‍💼'},
-  horvat:{ime:'Davor Horvat · a lawyer',      emo:'🕴'},
-  mira:  {ime:'Mira Kovač · the mayor',       emo:'👩‍💼'},
-  ti:    {ime:'You',                          emo:'🙂'}
+/* ---------- boje ---------- */
+var BOJE = {
+  plava:  {a:'#4672B0', b:'#2D4F80', c:'#86A9D8'},
+  crvena: {a:'#B8432F', b:'#83301F', c:'#DE7A5F'},
+  crna:   {a:'#3B3A40', b:'#222126', c:'#605E68'},
+  bijela: {a:'#E7E1D4', b:'#B5AC9B', c:'#FFFFFF'},
+  zelena: {a:'#5B8A4A', b:'#3C6232', c:'#8DB879'},
+  smeda:  {a:'#8A5A3B', b:'#5C3B27', c:'#B07E57'},
+  srebrna:{a:'#AEB6BC', b:'#7A848C', c:'#E1E6E9'},
+  zlatna: {a:'#D9A441', b:'#A4762B', c:'#F2CF7A'},
+  ljubic: {a:'#7A5A8C', b:'#553E63', c:'#A486B4'},
+  krem:   {a:'#E8DDC0', b:'#B9AA88', c:'#FFF6DE'}
+};
+var STALNE = {
+  k:'#241C15', w:'#F4EEE2', p:'#E9DDC3', y:'#D9A441', Y:'#A4762B', n:'#8A5A3B', d:'#5C3B27',
+  e:'#BFD8E0', E:'#8FB2BE', s:'#F1E3BE', f:'#F6B13D', o:'#9C8A6E', m:'#8D9096', M:'#5F6166',
+  z:'#4F7A45', Z:'#34552E', r:'#B8432F', g:'#AEB6BC', G:'#7A848C', v:'#6E2335'
 };
 
-/* kljuc: soba se otvara ključem s tim natpisom (prva soba nema bravu)
-   polje: položaj na karti tvrđave [stupac, redak, širina]            */
-var SOBE = [
-  {id:'vrata',     ime:'The Gate',       hr:'Vrata',       raz:1, bodovi:6,  emo:'🚪', polje:[2,4,2]},
-  {id:'dvoriste',  ime:'Courtyard',      hr:'Dvorište',    raz:1, bodovi:6,  emo:'🪣', polje:[2,2,2]},
-  {id:'kuhinja',   ime:'Kitchen',        hr:'Kuhinja',     raz:2, bodovi:7,  emo:'🍳', polje:[2,3,1]},
-  {id:'knjiznica', ime:'Library',        hr:'Knjižnica',   raz:2, bodovi:7,  emo:'📚', polje:[1,3,1]},
-  {id:'toranj',    ime:'Clock Tower',    hr:'Toranj',      raz:2, bodovi:8,  emo:'🕰', polje:[2,1,1]},
-  {id:'straza',    ime:'Watchtower',     hr:'Stražarnica', raz:3, bodovi:8,  emo:'🔭', polje:[1,1,1]},
-  {id:'radionica', ime:'Workshop',       hr:'Radionica',   raz:3, bodovi:8,  emo:'🔨', polje:[1,2,1]},
-  {id:'kapelica',  ime:'Chapel',         hr:'Kapelica',    raz:3, bodovi:8,  emo:'🕯', polje:[3,1,1]},
-  {id:'pisarnica', ime:'Archive Office', hr:'Pisarnica',   raz:4, bodovi:9,  emo:'✒', polje:[4,2,1]},
-  {id:'tamnica',   ime:'Old Dungeon',    hr:'Tamnica',     raz:4, bodovi:9,  emo:'⛓', polje:[4,3,1]},
-  {id:'podrum',    ime:'Wine Cellar',    hr:'Podrum',      raz:4, bodovi:10, emo:'🍷', polje:[3,3,1]},
-  {id:'dvorana',   ime:'Great Hall',     hr:'Dvorana',     raz:5, bodovi:14, emo:'🏛', polje:[4,1,1]}
-];
-function sobaPo(id){ return SOBE.filter(function(s){ return s.id === id; })[0]; }
-function sljedeca(s){ return SOBE[SOBE.indexOf(s) + 1]; }
-
-/* ---------- stanje (sprema se, igra se nastavlja gdje je stala) ---------- */
-/* Bodovi: svaka soba nosi svoju tezinu iz SOBE × 15 (tezine zbrajaju 100, dakle svih
-   12 soba = 1500). Racuna se iz rijesenih soba, ne iz zbroja, pa i stara spremljena
-   prica odmah pokaze tocan broj. */
-function bodoviTvrdjave(){
-  var n = 0;
-  SOBE.forEach(function(x){ if (S && S.rijesene && S.rijesene[x.id]) n += (x.bodovi || 0) * 15; });
-  return Math.min(window.IGRA_MAKS, n);
-}
-function novoStanje(){ return {soba:'vrata', rijesene:{}, kljucevi:[], bodovi:0}; }
-var S = (function(){
-  var p = CL.stanje().prica;
-  return p && p.kljucevi ? p : novoStanje();
-})();
-function spremiPricu(){ var s = CL.stanje(); s.prica = S; CL.spremi(s); }
-function otvorena(s){ return s.id === 'vrata' || S.kljucevi.indexOf(s.id) >= 0; }
-
-/* ---------- okvir ---------- */
-var O = CL.el('omot');
-O.appendChild(CL.hud({
-  ime:'The Fortress', podnaslov:'Tvrđava Galebnjak · twelve rooms, twelve keys',
-  znakovi:[{id:'zBod', html:'⭐ 0'},{id:'zKlj', html:'🗝 0/12'}]
-}));
-var ploha = document.createElement('div');
-ploha.className = 'ploha';
-O.appendChild(ploha);
-
-function osvjeziHud(){
-  CL.el('zBod').innerHTML = '⭐ ' + bodoviTvrdjave();
-  CL.el('zKlj').innerHTML = '🗝 ' + Object.keys(S.rijesene).length + '/' + SOBE.length;
-}
-
-function postaviIgru(){
-  ploha.innerHTML =
-    '<nav class="karta" id="karta"></nav>' +
-    '<section class="pozornica"><div class="scena" id="scena"></div><div class="govor" id="govor"></div></section>' +
-    '<section class="zad" id="zad"></section>';
-  CL.el('karta').addEventListener('click', function(e){
-    var b = e.target.closest('.soba'); if (!b) return;
-    var s = sobaPo(b.dataset.id);
-    if (!otvorena(s)) return CL.poruka('Locked. You need the key “' + s.hr.toUpperCase() + '”.', 'lose');
-    udi(s);
-  });
+/* ---------- maske predmeta (1 znak = 1 art piksel; razmak = prozirno) ----------
+   a/b/c = glavna boja predmeta (srednja / tamna / svijetla), ostalo STALNE */
+var M = {
+  vaza:['   kkkkk   ','   kcaak   ','    kak    ','   kcaak   ','  kcaaabk  ',' kcaaaaabk ','kcaaaaaaabk','kcaaaaaaabk','kcaaaaaaabk','kcaaaaaaabk',' kcaaaaabk ','  kcaaabk  ','   kaaak   ','  kkkkkkk  '],
+  kutija:['kkkkkkkkkkkk','kcccccccccbk','kkkkkkkkkkkk','kaaaaayyaabk','kaaaaayyaabk','kaaaaaaaaabk','kbbbbbbbbbbk','kkkkkkkkkkkk'],
+  kaput:['    kkkk    ','   k    k   ','  kkkkkkkk  ',' kcaawwaabk ','kcaaakkaaabk','kcaaakkaaabk','kcaaakkaaabk','kcaaaakaaabk','kcaaaayaaabk','kkaaaakaaakk',' kaaaayaaak ',' kaaaakaaak ',' kaaaakaaak ',' kaaaakaaak ',' kbbbbkbbbk ',' kkkkkkkkkk '],
+  sesir:['   kkkkkk   ','   kcaabk   ','   kcaabk   ','   kcaabk   ','   kyyyyk   ','   kcaabk   ','kkkkkkkkkkkk','kcaaaaaaaabk','kkkkkkkkkkkk'],
+  ogledalo:['  kkkkkk  ',' kaaaaaak ','kaeweeeeak','kaewweeeak','kaeeweeeak','kaeeeeeeak','kaeeeeeEak','kaeeeeEEak','kaeeeeeeak','kaeeeeeeak','kaeeeeeeak',' kaaaaaak ','  kkkkkk  ','   kbbk   ','  kkkkkk  '],
+  fotelja:['  kkkkkkkkkk  ',' kcaaaaaaaabk ',' kcaaaaaaaabk ',' kcaaaaaaaabk ','kkcaaaaaaaabkk','kckkkkkkkkkkbk','kcakwwwwkaaabk','kcakrrrrkaaabk','kkkkkkkkkkkkkk',' kd        dk ',' kk        kk '],
+  pisaci:['         k     ','        kwk    ','  kpppppkwk    ','  kpkkkpkwk    ','  kpppppppk    ','kkkkkkkkkkkkkkk','knnnnnnnnnnnnnk','kdkkkkkkkkkkkdk','kdk         kdk','kdk         kdk','kkk         kkk'],
+  klavir:['kkkkkkkkkkkkkkkk','kddddddddddddddk','kdddpppddddddddk','kdddpppddddddddk','kkkkkkkkkkkkkkkk','kwkwwkwkwwkwkwwk','kwkwwkwkwwkwkwwk','kwwwwwwwwwwwwwwk','kkkkkkkkkkkkkkkk','kdk          kdk','kdk          kdk','kkk          kkk'],
+  stolic:['   w  w     ','    ww      ','  kkkkk     ','  kwwwkk    ','  kwwwk k   ','  kwwwkk    ',' kkkkkkk    ','kkkkkkkkkkkk','knnnnnnnnnnk','kkkkkkkkkkkk','  kdk  kdk  ','  kdk  kdk  ','  kkk  kkk  '],
+  stol:['   kkkkkkk    ','  kpppppppk   ','  krrrrrrrk   ','  kpppppppk   ',' kkkkkkkkkkk  ','kkkkkkkkkkkkkk','knnnnnnnnnnnnk','kkkkkkkkkkkkkk',' kdk      kdk ',' kdk      kdk ',' kkk      kkk '],
+  salica:['kkkkkkk   ','kcaaabkkk ','kcaaabk k ','kcaaabk k ','kcaaabkkk ',' kaaabk   ','kkkkkkkk  '],
+  lonac:['    kkkkkk    ','   kbbbbbbk   ','kkkkkkkkkkkkkk','k kcaaaaaabk k','kkkcaaaaaabkkk','  kcaaaaaabk  ','  kcaaaaaabk  ','  kbaaaaaabk  ','   kkkkkkkk   '],
+  zdjela:['kkkkkkkkkkkkkk','kcaaaaaaaaaabk',' kcaaaaaaaabk ','  kcaaaaaabk  ','   kkkkkkkk   ','    kkkkkk    '],
+  vrc:['  kkkkk    ',' kkcaabk   ','  kcaabk   ',' kcaaaabkkk','kcaaaaaabkk','kcaaaaaabk k','kcaaaaaabk k','kcaaaaaabkk ','kcaaaaaabk  ',' kaaaaabk   ',' kkkkkkkk   '],
+  vjedro:['  kkkkkkkk  ',' k        k ','k          k','kkkkkkkkkkkk','kcaaaaaaaabk',' kcmaaaaamk ',' kcaaaaaabk ',' kcaaaaaabk ',' kcmmmmmmmk ','  kkkkkkkk  '],
+  tava:['kkkkkkkkk       ','kcaaaaaabk      ','kcaaaaaabkkkkkkk','kcaaaaaabkdddddk',' kaaaaabk kkkkkk','  kkkkkk        '],
+  svijeceNove:['  f    f    f ','  k    k    k ',' kwk  kwk  kwk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' kkk  kkk  kkk','kkkkkkkkkkkkkk','kyyyyyyyyyyyyk','kkkkkkkkkkkkkk'],
+  svijeceStare:['  k    k    k ',' kok  kok  kok',' kok  kok  kok',' kok  kok  kok','kook kook kook','kkkkkkkkkkkkkk','kYYYYYYYYYYYYk','kkkkkkkkkkkkkk'],
+  tanjuriNovi:[' kkkkkkkkkkkk ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kkkkkkkkkkkk '],
+  tanjuriStari:[' kkkkkk kkkkk ','kooooookoooook',' kbbbbbbbbbbk ','koooo ooooooo ',' kbbbbbbbbbbk ','kooooooooo  ok',' kbbbbbbbbbbk ','kooooooooooook',' kkkkkkkkkkkk '],
+  ogledalaStara:[' kkkk  kkkk  kkkk ','kYooYkkYooYkkYooYk','kYoeYkkYeoYkkYooYk','kYeoYkkYooYkkYoeYk','kYooYkkYoeYkkYeoYk','kYYYYkkYYYYkkYYYYk',' kkkk  kkkk  kkkk '],
+  knjiga:['kkkkkkkkkk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kpppppppkk','kkkkkkkkkk'],
+  ormar:['kkkkkkkkkkkkkkkk','kddddddddddddddk','kkkkkkkkkkkkkkkk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnykkynnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','kkkkkkkkkkkkkkkk','kddddddddddddddk','kkkkkkkkkkkkkkkk','kdk          kdk','kkk          kkk'],
+  kutijaZaSesir:['  kkkkkkkkkk  ',' kccccccccccbk','kkkkkkkkkkkkkk','kaaaaaaaaaaabk','kaayyyyyyyyabk','kaaaaaaaaaaabk','kbbbbbbbbbbbbk','kkkkkkkkkkkkkk'],
+  skrinja:[' kkkkkkkkkkkkkk ','kdnnnnnnnnnnnndk','kdnnnnnnnnnnnndk','kkkkkkkkkkkkkkkk','knnnnnnyynnnnnnk','knnnnnnyynnnnnnk','kmnnnnnnnnnnnnmk','kmnnnnnnnnnnnnmk','kkkkkkkkkkkkkkkk'],
+  jastuk:['  kkkkkkkkkk  ',' kwwwwwwwwwwk ','kwwcccccccwwwk','kwwwwwwwwwwwwk',' kwwwwwwwwwwk ','  kkkkkkkkkk  '],
+  krevet:['kkkk                    ','kddk                    ','kddkkkkkkkkkkkkkkkkkkkkk','kddkwwwwkcaaaaaaaaaaaabk','kddkwwwwkcaaaaaaaaaaaabk','kddkkkkkkcaaaaaaaaaaaabk','kddkaaaaaaaaaaaaaaaaaabk','kddkbbbbbbbbbbbbbbbbbbbk','kddkkkkkkkkkkkkkkkkkkkkk','kddnnnnnnnnnnnnnnnnnnndk','kkkkkkkkkkkkkkkkkkkkkkkk','kdk                  kdk','kkk                  kkk'],
+  bacva:['  kkkkkkkk  ',' kddddddddk ','kkkkkkkkkkkk','knnnnnnnnnnk','kmmmmmmmmmmk','knnnnnnnnnnk','knnnnnnnnnnk','knnnnnnnnnnk','knnnnnnnnnnk','kmmmmmmmmmmk','knnnnnnnnnnk','kkkkkkkkkkkk'],
+  stit:['kkkkkkkkkkkk','kcaaaaaaaabk','kcaaaaaaaabk','kcaaayyaaabk','kcaayyyyaabk','kcaaayyaaabk','kcaaaaaaaabk',' kcaaaaaabk ',' kcaaaaaabk ','  kcaaaabk  ','   kcaabk   ','    kkkk    '],
+  mac:['  k  ',' kwk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ','kkkkk','kyyyk','kkkkk',' kdk ',' kdk ',' kyk ',' kkk '],
+  kaciga:['   kkkkkk   ','  kgggggGk  ',' kgggggggGk ','kggggggggggk','kggkkkkkkggk','kggkMMMMkggk','kggkkkkkkggk','kgggggggggGk',' kGGGGGGGGk ','  kkkkkkkk  '],
+  koplje:[' k ','kgk','kgk','kgk','kkk',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' k '],
+  oklop:['  kkk  kkk  ',' kgggkkgggk ','kggggggggggk','kggggggggggk','kgggkkkkgggk','kgggggggggGk',' kggggggggk ',' kgggkkgggk ',' kggggggggk ',' kggggggggk ',' kGGGGGGGGk ',' kkkkkkkkkk '],
+  kljuc:[' kkk         ','kyyyk        ','ky kykkkkkkkk','kyyykyyyyyyyk',' kkk kkkkykyk','          kk '],
+  prsten:['   kkk   ','  keewk  ','   kkk   ','  kkkkk  ',' kyyyyyk ','kyykkkyyk','kyk   kyk','kyk   kyk','kyykkkyyk',' kyyyyyk ','  kkkkk  '],
+  sat:['   kkkkkk   ','  kddddddk  ',' kdwwwwwwdk ','kdwwwkwwwwdk','kdwwwkwwwwdk','kdwwwkkkkwdk','kdwwwwwwwwdk',' kdwwwwwwdk ','  kddddddk  ','   kdddddk  ','   kdyyydk  ','   kdyyydk  ','   kdddddk  ','  kkkkkkkk  ']
+};
+/* ikone na koricama knjiga (6×6, crtaju se svijetlom bojom) */
+var IKONE = {
+  ptica:['      ',' w  w ','  ww  ',' wwww ','  ww  ','      '],
+  more: ['      ',' w  w ','w ww w','      ','w  w w','      '],
+  konj: [' ww   ','wwww  ','  www ','  wwww','  w  w','      '],
+  zvijezda:['  w   ',' www  ','wwwww ',' www  ',' w w  ','      '],
+  cvijet:[' w w  ','  w   ',' w w  ','  w   ','  w   ',' www  ']
+};
+function polica(n){
+  /* polica s n boca (dvije do šest) */
+  var w = 3 + n * 4, i;
+  var r0 = ' ', r1 = ' ', r2 = ' ', r3 = ' ';
+  for (i = 0; i < n; i++){ r0 += ' kk '; r1 += ' kk '; r2 += 'kzzk'; r3 += 'kZzk'; }
+  var linija = 'k' + Array(w - 1).join('n') + 'k', okv = Array(w + 1).join('k');
+  return [r0 + '  ', r1 + '  ', r2 + '  ', r3 + '  ', r3 + '  ', r3 + '  ', r2 + '  ', okv, linija, okv,
+    'kd' + Array(w - 3).join(' ') + 'dk', 'kk' + Array(w - 3).join(' ') + 'kk'];
 }
 
-function crtajKartu(){
-  CL.el('karta').innerHTML = SOBE.map(function(s){
-    var ot = otvorena(s), rj = S.rijesene[s.id];
-    var kl = 'soba' + (ot ? '' : ' zatvorena') + (rj ? ' rijesena' : '') + (S.soba === s.id ? ' tu' : '');
-    return '<button class="' + kl + '" data-id="' + s.id + '" style="grid-column:' + s.polje[0] + ' / span ' + s.polje[2] +
-      ';grid-row:' + s.polje[1] + '"><i>' + (rj ? '✔' : ot ? s.emo : '🔒') + '</i><span>' +
-      (ot ? CL.esc(s.hr) : '? ? ?') + '<small>' + (ot ? CL.esc(s.ime) : 'locked') + '</small></span></button>';
-  }).join('');
-}
+/* ---------- pixel slike (mini games media/dvorac/) ----------
+   VEL: koje slike postoje i koliko su velike (art pikseli). Predmet bez slike
+   crta se maskom iznad, pa igra radi i dok set nije potpun. */
+var MED_D = CL.MEDIJ + 'dvorac/';
+var VEL = /*[VEL]*/{"vaza":[21,34],"kutija-plava":[18,15],"kaput":[18,30],"sesir":[18,18],"ogledalo":[31,44],"fotelja":[30,30],"pisaci-stol":[30,29],"klavir":[34,33],"stolic":[21,24],"stol-kolac":[24,23],"salica":[13,10],"lonac":[22,17],"zdjela":[18,16],"vrc":[19,20],"vjedro":[16,20],"tava":[24,18],"svijece-nove":[22,21],"svijece-stare":[22,12],"tanjuri-novi":[20,19],"tanjuri-stari":[20,19],"ogledala-stara":[28,21],"knjiga-more":[25,32],"knjiga-ptice":[25,32],"knjiga-konji":[25,32],"knjiga-zvijezde":[25,32],"knjiga-cvijece":[25,32],"kutija-broj":[22,21],"sat":[17,40],"ormar":[44,52],"kutija-sesir":[18,15],"skrinja":[30,26],"jastuk":[18,17],"krevet":[54,41],"boca":[5,15],"bacva-puna":[33,32],"bacva-prazna":[30,32],"stit":[22,26],"mac":[11,30],"kaciga":[17,18],"koplje":[8,52],"oklop":[23,48],"kutija-drvena":[20,17],"kutija-srebrna":[20,17],"kutija-zlatna":[20,17],"kutija-plavazl":[20,17],"kutija-glazbena":[20,16],"kljuc":[22,10],"prsten":[14,16],"svijeca":[11,16],"svijeca-ugasena":[11,16],"poz-blagovaonica":[160,96],"poz-knjiznica":[160,96],"poz-kuhinja":[160,96],"poz-oruzarnica":[160,96],"poz-podrum":[160,96],"poz-predvorje":[160,96],"poz-sat":[160,96],"poz-spavaca":[160,96],"poz-spremiste":[160,96],"poz-tajna":[160,96],"naslovna":[128,128]}/*[/VEL]*/;
+function imaSliku(ime){ return !!(ime && VEL[ime]); }
+function sprite(ime, klasa){ return '<img class="' + (klasa || 'lik') + '" src="' + MED_D + ime + '.png" alt="" draggable="false">'; }
 
-/* ---------- scena ---------- */
-function crtajScenu(s, tocke, dekor){
-  var sc = CL.el('scena');
-  sc.className = 'scena';
-  sc.innerHTML =
-    '<img class="poz" alt="" src="' + MED + 'soba-' + s.id + '.png">' +
-    '<div class="zamjena">' + s.emo + '</div>' +
-    (dekor || []).map(function(d){ return '<div class="dekor" style="' + okvir(d.b) + '">' + d.emo + '</div>'; }).join('') +
-    '<div class="plocica">' + CL.esc(s.hr) + '<small>' + CL.esc(s.ime) + '</small></div>' +
-    '<div class="razinaZ">LVL ' + s.raz + '</div>';
-  var img = sc.querySelector('img.poz');
-  img.onload = function(){ sc.classList.add('imaSliku'); };
-  img.onerror = function(){ img.remove(); };
-  (tocke || []).forEach(function(t){
-    var d = document.createElement('div');
-    d.className = 'tocka'; d.style.cssText = okvir(t.b) + (t.boja ? ';background:' + t.boja : '');
-    d.innerHTML = t.emo || '';
-    d.onclick = function(){ t.klik(d); };
-    sc.appendChild(d);
-  });
-}
-/* koordinate su u pikselima slike 320×180 */
-function okvir(b){
-  return 'left:' + (b[0]/3.2) + '%;top:' + (b[1]/1.8) + '%;width:' + ((b[2]-b[0])/3.2) + '%;height:' + ((b[3]-b[1])/1.8) + '%';
-}
-
-function govori(lik, hr, en){
-  var L = LIKOVI[lik];
-  CL.el('govor').innerHTML =
-    '<div class="portret"><span>' + L.emo + '</span><img alt="" src="' + MED + 'lik-' + lik + '.png" onerror="this.remove()"></div>' +
-    '<div><div class="tko">' + CL.esc(L.ime) + '</div>' +
-    '<div class="rec">' + CL.esc(hr) + '</div>' +
-    (en ? '<div class="pr">' + CL.skritEN(en) + '</div>' : '') + '</div>';
-}
-function zad(html){ CL.el('zad').innerHTML = html; return CL.el('zad'); }
-
-/* ---------- slijed koraka ---------- */
-function niz(koraci, gotovo){
-  var i = 0;
-  (function dalje(){
-    if (i >= koraci.length) return gotovo && gotovo();
-    koraci[i++](dalje);
-  })();
-}
-/* replika s gumbom „Next" */
-function R(lik, hr, en){
-  return function(dalje){
-    govori(lik, hr, en);
-    zad('<div class="red"><button class="g glavni" id="dalje">Next ▶</button></div>');
-    CL.el('dalje').onclick = dalje;
-  };
-}
-/* pitanje s ponuđenim odgovorima; opcije: [[tekst, točno?], ...] */
-function P(lik, hr, en, opcije, iznad, krivo){
-  return function(dalje){
-    govori(lik, hr, en);
-    var z = zad((iznad || '') + '<div class="mala">Choose the answer:</div><div class="opcije" id="op"></div>');
-    CL.mix(opcije).forEach(function(o){
-      var b = document.createElement('button'); b.className = 'g'; b.textContent = o[0];
-      b.onclick = function(){
-        if (o[1]){ CL.pip(true); b.classList.add('tocno'); setTimeout(dalje, 450); }
-        else { CL.pip(false); b.classList.add('krivo'); b.disabled = true;
-          CL.poruka(krivo || 'That is not what it says.', 'lose'); }
-      };
-      CL.el('op').appendChild(b);
-    });
-  };
-}
-function dokument(vrsta, naslov, redci, rjecnik){
-  return '<div class="dok ' + (vrsta || '') + '"><div class="naslovDok">' + CL.esc(naslov) + '</div>' +
-    redci.map(function(r){ return '<p>' + CL.esc(r) + '</p>'; }).join('') + '</div>' +
-    (rjecnik ? '<div class="rjecnik">Words: ' + rjecnik.map(function(w){
-      return '<b>' + CL.esc(w[0]) + '</b> – ' + CL.esc(w[1]); }).join(' · ') + '</div>' : '');
-}
-function D(lik, hr, en, vrsta, naslov, redci, rjecnik){
-  return function(dalje){
-    govori(lik, hr, en);
-    zad(dokument(vrsta, naslov, redci, rjecnik) + '<div class="red"><button class="g glavni" id="dalje">Next ▶</button></div>');
-    CL.el('dalje').onclick = dalje;
-  };
-}
-function krivoTrese(el){ el.classList.add('tresi'); setTimeout(function(){ el.classList.remove('tresi'); }, 350); }
-
-/* ---------- ulazak u sobu i kraj sobe ---------- */
-function udi(s){
-  S.soba = s.id; spremiPricu();
-  osvjeziHud(); crtajKartu();
-  crtajScenu(s);
-  if (S.rijesene[s.id]){
-    var n = sljedeca(s);
-    govori('lucija', 'Ovdje smo već sve napravili.', 'We have already done everything here.');
-    zad('<h3>Room done ✔</h3><div class="mala">' + (n ? 'Your next key opens: ' + n.hr + ' (' + n.ime + ').' : 'The story is over.') + '</div>' +
-      (n ? '<div class="red"><button class="g glavni" id="dalje">Go to ' + CL.esc(n.hr) + ' ▶</button></div>' : ''));
-    if (n) CL.el('dalje').onclick = function(){ udi(n); };
-    return;
+/* ---------- crtanje maske u SVG ---------- */
+function svgPredmet(p){
+  var maska = p.m === 'polica' ? polica(p.n) : M[p.m];
+  var boja = BOJE[p.boja || 'smeda'];
+  var rows = maska.map(function(r){ return r.split(''); });
+  var w = Math.max.apply(null, rows.map(function(r){ return r.length; })), h = rows.length;
+  /* staro: mrlje i pukotine na plohi; novo: odsjaj */
+  var plohe = [];
+  rows.forEach(function(r, y){ r.forEach(function(ch, x){ if (ch === 'a' || ch === 'e') plohe.push([x, y]); }); });
+  if (p.star) plohe.forEach(function(t, i){ if (i % 9 === 4) rows[t[1]][t[0]] = 'o'; });
+  if (p.nov) plohe.forEach(function(t, i){ if (i === 1 || i === 2 || i === 9) rows[t[1]][t[0]] = 'w'; });
+  if (p.otvorena){ rows[0] = '  kkkkkkkk  '.split(''); rows[1] = ' kkMMMMMMkk '.split(''); }
+  if (p.ikona){
+    var ik = IKONE[p.ikona];
+    ik.forEach(function(r, y){ r.split('').forEach(function(ch, x){ if (ch === 'w') rows[y + 3][x + 2] = 'w'; }); });
   }
-  SOBA[s.id](s);
-  window.scrollTo({top:0, behavior:'smooth'});
-}
-
-function sobaGotova(s, poruka){
-  var n = sljedeca(s);
-  if (!S.rijesene[s.id]){ S.rijesene[s.id] = true; S.bodovi = bodoviTvrdjave(); }
-  if (n && S.kljucevi.indexOf(n.id) < 0) S.kljucevi.push(n.id);
-  spremiPricu(); osvjeziHud(); crtajKartu();
-  CL.pip(true); CL.konfeti(24);
-  if (!n) return kraj();
-  zad('<div class="nagrada"><div style="font-size:44px">🗝</div><div><h3>' + CL.esc(poruka || 'You found a key!') + '</h3>' +
-    '<div class="mala">The tag on it says:</div><span class="privjesak">' + CL.esc(n.hr.toUpperCase()) + '</span></div></div>' +
-    '<div class="privjesci">Key ring: ' + S.kljucevi.map(function(k){ return '<span>' + CL.esc(sobaPo(k).hr.toUpperCase()) + '</span>'; }).join('') + '</div>' +
-    '<div class="red"><button class="g glavni veliki" id="dalje">Go to ' + CL.esc(n.hr) + ' ▶</button></div>');
-  CL.el('dalje').onclick = function(){ udi(n); };
+  var rect = '';
+  rows.forEach(function(r, y){
+    var x = 0;
+    while (x < w){
+      var ch = r[x] || ' ';
+      if (ch === ' ' || ch === '.'){ x++; continue; }
+      var x0 = x; while (x < w && r[x] === ch) x++;
+      var col = ch === 'a' ? boja.a : ch === 'b' ? boja.b : ch === 'c' ? boja.c : STALNE[ch];
+      rect += '<rect x="' + x0 + '" y="' + y + '" width="' + (x - x0) + '" height="1" fill="' + col + '"/>';
+    }
+  });
+  var tekst = p.broj != null ? '<text x="' + (w / 2) + '" y="' + (h - 2.2) + '" text-anchor="middle" font-size="4.6" font-family="Geist Pixel, monospace" fill="#241C15">' + p.broj + '</text>' : '';
+  return {w:w, h:h, svg:'<svg viewBox="0 0 ' + w + ' ' + h + '" shape-rendering="crispEdges">' + rect + tekst + '</svg>'};
 }
 
 /* =====================================================================
    SOBE
+   Svaki predmet: id, m (maska), boja, s (mjerilo), x, dno (art pikseli u
+   sceni 160×96), ime (hrvatski naziv koji igrač vidi), en.
+   inacice: pet poruka; t = predmet u kojem je ključ.
    ===================================================================== */
-var SOBA = {};
+var SOBE = [
+  { hr:'Predvorje', en:'Entrance hall', lekcije:'1–2', poz:'predvorje', zid:'#3C4254', pod:'#3A302B',
+    predmeti:[
+      {id:'vaza',    slika:'vaza',        m:'vaza',    boja:'plava', s:3, x:8,   dno:92, ime:'vaza', en:'vase'},
+      {id:'kutija',  slika:'kutija-plava',m:'kutija',  boja:'plava', s:2, x:38,  dno:92, ime:'kutija', en:'box'},
+      {id:'kaput',   slika:'kaput',       m:'kaput',   boja:'crna',  s:2, x:64,  dno:57, ime:'kaput', en:'coat', star:true},
+      {id:'sesir',   slika:'sesir',       m:'sesir',   boja:'crna',  s:2, x:93,  dno:44, ime:'šešir', en:'hat', nov:true},
+      {id:'ogledalo',slika:'ogledalo',    m:'ogledalo',boja:'zlatna',s:3, x:122, dno:92, ime:'ogledalo', en:'mirror', star:true}
+    ],
+    polica:[{x:60, y:26, w:26}, {x:88, y:44, w:28}],
+    rijeci:[['ključ','key'],['ondje','there'],['Što je to?','What is it?']],
+    inacice:[
+      {t:'vaza',     hr:'Ključ je ondje. Što je to? Ona je velika i plava.'},
+      {t:'kutija',   hr:'Ključ je ondje. Što je to? Ona je mala i plava.'},
+      {t:'kaput',    hr:'Ključ je ondje. Što je to? On je crn i star.'},
+      {t:'sesir',    hr:'Ključ je ondje. Što je to? On je crn i nov.'},
+      {t:'ogledalo', hr:'Ključ je ondje. Što je to? Ono je staro i veliko.'}
+    ]},
 
-/* ---------- 1. VRATA · razina 1 · pridjevi uz „ključ" ---------- */
-var K_VELICINA = [['velik','big'],['malen','small']];
-var K_BOJA = [['žut','#D9A520'],['siv','#9AA3AB'],['crn','#2B2B2B']];
-var K_STANJE = [['star','old'],['nov','new']];
+  { hr:'Blagovaonica', en:'Dining room', lekcije:'3–4', poz:'blagovaonica', zid:'#46384A', pod:'#3A2C26',
+    predmeti:[
+      {id:'fotelja', slika:'fotelja',    m:'fotelja', boja:'crvena', s:2, x:2,   dno:92, ime:'fotelja', en:'armchair'},
+      {id:'pisaci',  slika:'pisaci-stol',m:'pisaci',  s:2, x:34,  dno:92, ime:'pisaći stol', en:'writing desk'},
+      {id:'klavir',  slika:'klavir',     m:'klavir',  s:2, x:67,  dno:92, ime:'klavir', en:'piano'},
+      {id:'stolic',  slika:'stolic',     m:'stolic',  s:2, x:104, dno:92, ime:'stolić', en:'small table'},
+      {id:'stol',    slika:'stol-kolac', m:'stol',    s:2, x:128, dno:92, ime:'stol', en:'table'}
+    ],
+    rijeci:[['muž','husband'],['kći','daughter'],['sin','son'],['sjediti','to sit'],['navečer','in the evening']],
+    inacice:[
+      {t:'fotelja', hr:'Navečer moj muž čita, a ja pišem. Ključ je ondje gdje sjedi moj muž.'},
+      {t:'pisaci',  hr:'Navečer moj muž čita, a ja pišem. Ključ je ondje gdje sjedim ja.'},
+      {t:'klavir',  hr:'Moja kći svira, a moj sin pije čaj. Ključ je ondje gdje sjedi moja kći.'},
+      {t:'stolic',  hr:'Moja kći svira, a moj sin pije čaj. Ključ je ondje gdje sjedi moj sin.'},
+      {t:'stol',    hr:'Moj sin ne pije čaj. On jede kolač. Ključ je ondje gdje on sjedi.'}
+    ]},
 
-function svgKljuc(v, boja, star){
-  /* pikselni ključ na mreži 20×9; velik ključ je dvostruko veći */
-  var px = v === 0 ? 5 : 3, c = K_BOJA[boja][1], r = [];
-  function p(x, y, col){ r.push('<rect x="' + x*px + '" y="' + y*px + '" width="' + px + '" height="' + px + '" fill="' + (col || c) + '"/>'); }
-  [[1,2],[2,1],[3,1],[4,1],[5,2],[1,3],[5,3],[1,4],[5,4],[1,5],[5,5],[1,6],[5,6],[2,7],[3,7],[4,7]].forEach(function(t){ p(t[0], t[1]); });
-  for (var x = 6; x < 19; x++) p(x, 4);
-  [[16,5],[16,6],[18,5],[18,6],[18,7],[13,5]].forEach(function(t){ p(t[0], t[1]); });
-  if (star) [[3,1,'#8B4A22'],[9,4,'#8B4A22'],[12,4,'#A0582A'],[5,5,'#8B4A22'],[18,6,'#A0582A']].forEach(function(t){ p(t[0], t[1], t[2]); });
-  else [[2,2,'#fff'],[8,4,'#fff'],[9,4,'#fff']].forEach(function(t){ p(t[0], t[1], t[2]); });
-  return '<svg width="' + 20*px + '" height="' + 9*px + '" viewBox="0 0 ' + 20*px + ' ' + 9*px + '">' + r.join('') + '</svg>';
+  { hr:'Kuhinja', en:'Kitchen', lekcije:'5–6', poz:'kuhinja', zid:'#4A4038', pod:'#3B302A',
+    predmeti:[
+      {id:'salica', slika:'salica', m:'salica', boja:'crvena', s:2, x:10,  dno:52, ime:'šalica', en:'cup'},
+      {id:'lonac',  slika:'lonac',  m:'lonac',  boja:'crvena', s:2, x:22,  dno:92, ime:'lonac', en:'pot'},
+      {id:'zdjela', slika:'zdjela', m:'zdjela', boja:'plava',  s:2, x:38,  dno:52, ime:'zdjela', en:'bowl'},
+      {id:'vrc',    slika:'vrc',    m:'vrc',    boja:'plava',  s:2, x:64,  dno:92, ime:'vrč', en:'jug'},
+      {id:'vjedro', slika:'vjedro', m:'vjedro', boja:'bijela', s:2, x:96,  dno:92, ime:'vjedro', en:'bucket'},
+      {id:'tava',   slika:'tava',   m:'tava',   boja:'bijela', s:2, x:120, dno:40, ime:'tava', en:'pan'}
+    ],
+    polica:[{x:4, y:52, w:64}, {x:110, y:40, w:44}],
+    rijeci:[['posuda','container'],['tražiti','to look for']],
+    inacice:[
+      {t:'salica', hr:'Ključ je u jednoj posudi. Ne tražite crveni. Tražite crvenu.'},
+      {t:'lonac',  hr:'Ključ je u jednoj posudi. Ne tražite crvenu. Tražite crveni.'},
+      {t:'zdjela', hr:'Ključ je u jednoj posudi. Ne tražite plavi. Tražite plavu.'},
+      {t:'vrc',    hr:'Ključ je u jednoj posudi. Ne tražite plavu. Tražite plavi.'},
+      {t:'vjedro', hr:'Ključ je u jednoj posudi. Ne tražite bijelu. Tražite bijelo.'}
+    ]},
+
+  { hr:'Spremište', en:'Storeroom', lekcije:'7–8', poz:'spremiste', zid:'#3E4448', pod:'#33302C',
+    predmeti:[
+      {id:'svStare', slika:'svijece-stare', m:'svijeceStare', s:2, x:10,  dno:48, ime:'svijeće', en:'candles'},
+      {id:'svNove',  slika:'svijece-nove',  m:'svijeceNove',  s:2, x:52,  dno:48, ime:'svijeće', en:'candles'},
+      {id:'tStari',  slika:'tanjuri-stari', m:'tanjuriStari', boja:'krem', s:2, x:12, dno:92, ime:'tanjuri', en:'plates'},
+      {id:'tNovi',   slika:'tanjuri-novi',  m:'tanjuriNovi',  boja:'plava', s:2, x:54, dno:92, ime:'tanjuri', en:'plates'},
+      {id:'ogStara', slika:'ogledala-stara',m:'ogledalaStara', s:2, x:116, dno:60, ime:'ogledala', en:'mirrors'}
+    ],
+    polica:[{x:4, y:48, w:84}, {x:110, y:60, w:40}],
+    rijeci:[['sutra','tomorrow'],['sakriti','to hide'],['iza njih','behind them']],
+    inacice:[
+      {t:'svStare', hr:'Sutra ću sakriti ključ iza njih. One su stare.'},
+      {t:'svNove',  hr:'Sutra ću sakriti ključ iza njih. One su nove.'},
+      {t:'tStari',  hr:'Sutra ću sakriti ključ iza njih. Oni su stari.'},
+      {t:'tNovi',   hr:'Sutra ću sakriti ključ iza njih. Oni su novi.'},
+      {t:'ogStara', hr:'Sutra ću sakriti ključ iza njih. Ona su stara.'}
+    ]},
+
+  { hr:'Knjižnica', en:'Library', lekcije:'9–10', poz:'knjiznica', zid:'#3B3A4E', pod:'#352C27',
+    predmeti:[
+      {id:'kMore',  slika:'knjiga-more',     m:'knjiga', boja:'plava',  ikona:'more',     s:2, x:14,  dno:70, ime:'knjiga', en:'book'},
+      {id:'kPtice', slika:'knjiga-ptice',    m:'knjiga', boja:'zelena', ikona:'ptica',    s:2, x:42,  dno:70, ime:'knjiga', en:'book'},
+      {id:'kKonji', slika:'knjiga-konji',    m:'knjiga', boja:'smeda',  ikona:'konj',     s:2, x:70,  dno:70, ime:'knjiga', en:'book'},
+      {id:'kZvij',  slika:'knjiga-zvijezde', m:'knjiga', boja:'ljubic', ikona:'zvijezda', s:2, x:98,  dno:70, ime:'knjiga', en:'book'},
+      {id:'kCvij',  slika:'knjiga-cvijece',  m:'knjiga', boja:'crvena', ikona:'cvijet',   s:2, x:126, dno:70, ime:'knjiga', en:'book'}
+    ],
+    polica:[{x:6, y:70, w:148}],
+    rijeci:[['jučer','yesterday'],['more','sea'],['ptica','bird'],['konj','horse'],['zvijezda','star'],['cvijeće','flowers']],
+    inacice:[
+      {t:'kPtice', hr:'Jučer smo muž i ja čitali. Ja sam čitala o moru, a on je čitao o pticama. Ključ je u njegovoj knjizi.'},
+      {t:'kMore',  hr:'Jučer smo muž i ja čitali. Ja sam čitala o moru, a on je čitao o pticama. Ključ je u mojoj knjizi.'},
+      {t:'kKonji', hr:'Jučer su djeca čitala. Kći je čitala o konjima, a sin je čitao o zvijezdama. Ključ je u njezinoj knjizi.'},
+      {t:'kZvij',  hr:'Jučer su djeca čitala. Kći je čitala o konjima, a sin je čitao o zvijezdama. Ključ je u njegovoj knjizi.'},
+      {t:'kCvij',  hr:'Jučer sam čitala o cvijeću, a moj muž nije čitao ništa. Ključ je u mojoj knjizi.'}
+    ]},
+
+  { hr:'Soba sa satom', en:'Clock room', lekcije:'11–12', poz:'sat', zid:'#3A4150', pod:'#30302F',
+    predmeti:[
+      {id:'b4',  slika:'kutija-broj', m:'kutija', boja:'krem', broj:4,  s:2, x:4,   dno:92, ime:'kutija', en:'box'},
+      {id:'b11', slika:'kutija-broj', m:'kutija', boja:'krem', broj:11, s:2, x:29,  dno:92, ime:'kutija', en:'box'},
+      {id:'b13', slika:'kutija-broj', m:'kutija', boja:'krem', broj:13, s:2, x:54,  dno:92, ime:'kutija', en:'box'},
+      {id:'b17', slika:'kutija-broj', m:'kutija', boja:'krem', broj:17, s:2, x:107, dno:92, ime:'kutija', en:'box'},
+      {id:'b19', slika:'kutija-broj', m:'kutija', boja:'krem', broj:19, s:2, x:132, dno:92, ime:'kutija', en:'box'}
+    ],
+    dekor:[{slika:'sat', m:'sat', s:3, x:83, dno:92}],
+    rijeci:[['kutija','box'],['ni','nor, not even']],
+    inacice:[
+      {t:'b4',  hr:'Gdje je ključ? Nije u kutiji jedanaest. Nije ni u kutiji trinaest. Nije u kutiji sedamnaest ni u kutiji devetnaest.'},
+      {t:'b11', hr:'Gdje je ključ? Nije u kutiji četiri. Nije ni u kutiji devetnaest. Nije u kutiji trinaest ni u kutiji sedamnaest.'},
+      {t:'b13', hr:'Gdje je ključ? Nije u kutiji sedamnaest. Nije ni u kutiji četiri. Nije u kutiji jedanaest ni u kutiji devetnaest.'},
+      {t:'b17', hr:'Gdje je ključ? Nije u kutiji devetnaest. Nije ni u kutiji jedanaest. Nije u kutiji četiri ni u kutiji trinaest.'},
+      {t:'b19', hr:'Gdje je ključ? Nije u kutiji trinaest. Nije ni u kutiji sedamnaest. Nije u kutiji četiri ni u kutiji jedanaest.'}
+    ]},
+
+  { hr:'Spavaća soba', en:'Bedroom', lekcije:'13–14', poz:'spavaca', zid:'#433C52', pod:'#382D29',
+    predmeti:[
+      {id:'ormar',    slika:'ormar',        m:'ormar',        s:2, x:2,   dno:92, ime:'ormar', en:'wardrobe'},
+      {id:'naOrmaru', slika:'kutija-sesir', m:'kutijaZaSesir', boja:'zelena', s:2, x:14, dno:41, ime:'kutija', en:'box'},
+      {id:'skrinja',  slika:'skrinja',      m:'skrinja',      s:2, x:50,  dno:92, ime:'škrinja', en:'chest'},
+      {id:'naSkrinji',slika:'jastuk',       m:'jastuk',       s:2, x:56,  dno:69, ime:'jastuk', en:'cushion'},
+      {id:'krevet',   slika:'krevet',       m:'krevet', boja:'ljubic', s:2, x:102, dno:92, ime:'krevet', en:'bed'}
+    ],
+    rijeci:[],
+    inacice:[
+      {t:'ormar',    hr:'Ključ nije na ormaru. On je u ormaru.'},
+      {t:'naOrmaru', hr:'Ključ nije u ormaru. On je na ormaru.'},
+      {t:'skrinja',  hr:'Ključ nije na škrinji. On je u škrinji.'},
+      {t:'naSkrinji',hr:'Ključ nije u škrinji. On je na škrinji.'},
+      {t:'krevet',   hr:'Ključ nije ni u ormaru ni u škrinji. On je u krevetu.'}
+    ]},
+
+  { hr:'Podrum', en:'Cellar', lekcije:'15–16', poz:'podrum', zid:'#33363D', pod:'#2B2724',
+    predmeti:[
+      {id:'p2', m:'polica', n:2, s:2, x:6,   dno:46, ime:'polica', en:'shelf'},
+      {id:'p3', m:'polica', n:3, s:2, x:36,  dno:46, ime:'polica', en:'shelf'},
+      {id:'p5', m:'polica', n:5, s:2, x:74,  dno:46, ime:'polica', en:'shelf'},
+      {id:'p6', m:'polica', n:6, s:2, x:6,   dno:88, ime:'polica', en:'shelf'},
+      {id:'bPuna',  slika:'bacva-puna',   m:'bacva', s:2, x:70,  dno:92, ime:'bačva', en:'barrel', vino:true},
+      {id:'bPrazna',slika:'bacva-prazna', m:'bacva', s:2, x:104, dno:92, ime:'bačva', en:'barrel', otvorena:true}
+    ],
+    rijeci:[['iza','behind'],['polica','shelf'],['boca','bottle'],['bačva','barrel'],['vino','wine'],['bez','without']],
+    inacice:[
+      {t:'p2', hr:'Ključ nije iza police s tri boce. On je iza police s dvije boce.'},
+      {t:'p3', hr:'Ključ nije iza police s pet boca. On je iza police s tri boce.'},
+      {t:'p5', hr:'Ključ nije iza police sa šest boca. On je iza police s pet boca.'},
+      {t:'p6', hr:'Ključ nije iza police s dvije boce. On je iza police sa šest boca.'},
+      {t:'bPrazna', hr:'Ključ nije u bačvi s vinom. On je u bačvi bez vina.'}
+    ]},
+
+  { hr:'Oružarnica', en:'Armoury', lekcije:'17–18', poz:'oruzarnica', zid:'#40414A', pod:'#33302C',
+    predmeti:[
+      {id:'stit',   slika:'stit',   m:'stit',   boja:'crvena', s:2, x:10,  dno:58, ime:'štit', en:'shield'},
+      {id:'mac',    slika:'mac',    m:'mac',    s:2, x:42,  dno:62, ime:'mač', en:'sword'},
+      {id:'kaciga', slika:'kaciga', m:'kaciga', s:2, x:66,  dno:40, ime:'kaciga', en:'helmet'},
+      {id:'koplje', slika:'koplje', m:'koplje', s:2, x:100, dno:92, ime:'koplje', en:'spear'},
+      {id:'oklop',  slika:'oklop',  m:'oklop',  s:3, x:124, dno:92, ime:'oklop', en:'armour'}
+    ],
+    polica:[{x:60, y:40, w:30}],
+    rijeci:[['dirati','to touch'],['iza','behind'],['ispod','under']],
+    inacice:[
+      {t:'mac',    hr:'Nemojte gledati iza štita. Ne dirajte kacigu. Pogledajte iza mača.'},
+      {t:'kaciga', hr:'Nemojte dirati mač ni koplje. Pogledajte ispod kacige.'},
+      {t:'stit',   hr:'Ja ne bih tražila iza koplja. Ja bih tražila iza štita.'},
+      {t:'koplje', hr:'Na vašem mjestu ne bih dirala oklop. Pogledala bih iza koplja.'},
+      {t:'oklop',  hr:'Nemojte gledati iza mača ni iza štita. Otvorite oklop.'}
+    ]},
+
+  { hr:'Tajna soba', en:'Secret room', lekcije:'19–20', poz:'tajna', zid:'#4A3A3A', pod:'#3A2B26',
+    predmeti:[
+      {id:'drvena',  slika:'kutija-drvena',   m:'kutija', boja:'smeda',   s:2, x:8,   dno:92, ime:'drvena kutija', en:'wooden box'},
+      {id:'srebrna', slika:'kutija-srebrna',  m:'kutija', boja:'srebrna', s:2, x:38,  dno:92, ime:'srebrna kutija', en:'silver box'},
+      {id:'zlatna',  slika:'kutija-zlatna',   m:'kutija', boja:'zlatna',  s:2, x:68,  dno:92, ime:'zlatna kutija', en:'golden box'},
+      {id:'glazbena',slika:'kutija-glazbena', m:'kutija', boja:'crvena',  s:2, x:98,  dno:92, ime:'glazbena kutija', en:'music box', glazba:true},
+      {id:'plava',   slika:'kutija-plavazl',  m:'kutija', boja:'plava',   s:2, x:128, dno:92, ime:'plava kutija', en:'blue box'}
+    ],
+    rijeci:[['prsten','ring'],['udati se','to get married'],['pismo','letter']],
+    inacice:[
+      {t:'srebrna', hr:'Glazbenu kutiju otvarala sam svaki dan. Srebrnu sam otvorila samo jednom, kad sam se udala. Prsten je u kutiji koju sam otvorila samo jednom.'},
+      {t:'glazbena',hr:'Glazbenu kutiju otvarala sam svaki dan. Srebrnu sam otvorila samo jednom, kad sam se udala. Prsten je u kutiji koju sam otvarala svaki dan.'},
+      {t:'zlatna',  hr:'U drvenu kutiju stavljala sam pisma svake godine. U zlatnu sam stavila samo jedno pismo. Prsten je u kutiji u koju sam stavila samo jedno pismo.'},
+      {t:'drvena',  hr:'U drvenu kutiju stavljala sam pisma svake godine. U zlatnu sam stavila samo jedno pismo. Prsten je u kutiji u koju sam stavljala pisma svake godine.'},
+      {t:'plava',   hr:'Glazbenu kutiju otvarala sam svaki dan, a plavu nikad nisam otvorila. Prsten je u kutiji koju nikad nisam otvorila.'}
+    ]}
+];
+
+/* ---------- stanje partije ---------- */
+var BOD_SOBA = 120, BOD_KRAJ = 300;
+var S = null;
+function novaPartija(svijece){
+  S = {soba:0, svijece:svijece, max:svijece, rijeseno:0,
+       inacica:SOBE.map(function(){ return CL.cijeli(5); }),
+       prazno:{}, odabran:null, nadjen:false};
+}
+function bodovi(){ return Math.min(window.IGRA_MAKS, S.rijeseno * BOD_SOBA + (S.rijeseno >= SOBE.length ? BOD_KRAJ : 0)); }
+
+/* ---------- okvir ---------- */
+var O = CL.el('omot');
+O.appendChild(CL.hud({ ime:'The Castle', podnaslov:'Dvorac Vrana',
+  znakovi:[{id:'zSoba', html:''}, {id:'zSvijece', html:''}, {id:'zBod', html:''}] }));
+var ploha = document.createElement('div');
+ploha.className = 'ploha';
+O.appendChild(ploha);
+
+function svijecaSvg(gori){
+  return '<svg class="svijecaZ" viewBox="0 0 5 9" shape-rendering="crispEdges">' +
+    (gori ? '<rect x="2" y="0" width="1" height="1" fill="#F6B13D"/><rect x="1" y="1" width="3" height="1" fill="#F6B13D"/>'
+          : '<rect x="2" y="1" width="1" height="1" fill="#6F6A62"/>') +
+    '<rect x="2" y="2" width="1" height="1" fill="#241C15"/><rect x="1" y="3" width="3" height="6" fill="' + (gori ? '#F1E3BE' : '#9C9284') + '"/></svg>';
+}
+function osvjeziHud(){
+  if (!S) { CL.el('zSoba').innerHTML = ''; CL.el('zSvijece').innerHTML = ''; CL.el('zBod').innerHTML = ''; return; }
+  CL.el('zSoba').innerHTML = '<i>ROOM</i><span><b>' + Math.min(S.soba + 1, SOBE.length) + '</b>/' + SOBE.length + '</span>';
+  var sv = ''; for (var i = 0; i < S.max; i++) sv += svijecaSvg(i < S.svijece);
+  CL.el('zSvijece').innerHTML = sv;
+  CL.el('zBod').innerHTML = '★ <b>' + bodovi() + '</b>';
 }
 
-function zadKljuc(lik, uvod, uvodEn, sto, stoEn){
-  return function(dalje){
-    var cilj = [CL.cijeli(2), CL.cijeli(3), CL.cijeli(2)];
-    /* tri lažna ključa: svaki se od pravoga razlikuje u točno jednom svojstvu */
-    var ponuda = [cilj.slice(),
-      [1-cilj[0], cilj[1], cilj[2]],
-      [cilj[0], (cilj[1] + 1 + CL.cijeli(2)) % 3, cilj[2]],
-      [cilj[0], cilj[1], 1-cilj[2]]];
-    var opis = sto + ' je ' + K_VELICINA[cilj[0]][0] + ', ' + K_BOJA[cilj[1]][0] + ' i ' + K_STANJE[cilj[2]][0] + '.';
-    govori(lik, uvod + ' ' + opis, uvodEn + ' ' + stoEn + ' is ' + K_VELICINA[cilj[0]][1] + ', ' +
-      ['yellow','grey','black'][cilj[1]] + ' and ' + K_STANJE[cilj[2]][1] + '.');
-    zad('<h3>Which key?</h3><div class="mala">Listen to Lucija and pick the one key that matches every word.</div><div class="kljucevi" id="kk"></div>');
-    CL.mix(ponuda).forEach(function(k){
-      var b = document.createElement('button'); b.className = 'kljucK';
-      b.innerHTML = svgKljuc(k[0], k[1], k[2] === 0);
-      b.onclick = function(){
-        if (k.join() === cilj.join()){ CL.pip(true); b.style.background = '#CFE8B8'; setTimeout(dalje, 500); }
-        else { CL.pip(false); b.classList.add('krivo'); krivoTrese(b); CL.poruka('It does not fit the lock.', 'lose'); }
-      };
-      CL.el('kk').appendChild(b);
-    });
-  };
-}
-
-SOBA.vrata = function(s){
-  niz([
-    R('lucija','Bok! Ti si ovdje zbog muzeja? Ja sam Lucija.','Hi! Are you here for the museum? I’m Lucija.'),
-    R('lucija','Moj djed Ivo je kaštelan. Jučer je pao s ljestava. Sada je u bolnici.','My grandpa Ivo is the castellan. Yesterday he fell off a ladder. Now he is in hospital.'),
-    R('lucija','Ovo su njegovi ključevi. Ali na njima nema natpisa.','These are his keys. But there are no labels on them.'),
-    zadKljuc('lucija','Hm.','Hm.','Ključ od glavnih vrata','The key to the main gate'),
-    R('lucija','Otvoreno! Djed uvijek ostavlja poruke u poštanskom sandučiću.','Open! Grandpa always leaves notes in the letterbox.'),
-    zadKljuc('lucija','Sandučić je malo zahrđao.','The letterbox is a bit rusty.','Ključ od sandučića','The key to the letterbox'),
-    R('lucija','Evo poruke! I još jedan ključ — piše na njemu „DVORIŠTE".','Here’s a note! And one more key — it says “COURTYARD”.')
-  ], function(){ sobaGotova(s, 'The letterbox had a key in it'); });
-};
-
-/* ---------- 2. DVORIŠTE · razina 1 · boje i prijedlozi ---------- */
-var DV_DEKOR = [
-  {b:[16,64,60,150], emo:'🚪'}, {b:[132,100,180,152], emo:'⛲'},
-  {b:[184,18,232,96], emo:'🌳'}, {b:[244,70,306,150], emo:'🪜'}
-];
-var DV_MJESTA = [
-  {id:'crvBunar',  b:[184,132,202,150], boja:'#C8412F', emo:'🪣', hr:'ispod crvene kante pokraj bunara'},
-  {id:'plaBunar',  b:[110,132,128,150], boja:'#2F6FB0', emo:'🪣', hr:'ispod plave kante pokraj bunara'},
-  {id:'crvVrata',  b:[64,132,82,150],   boja:'#C8412F', emo:'🪣', hr:'ispod crvene kante pokraj vrata'},
-  {id:'plaStepen', b:[262,96,280,114],  boja:'#2F6FB0', emo:'🪣', hr:'ispod plave kante na stepenicama'},
-  {id:'crvStepen', b:[282,124,300,142], boja:'#C8412F', emo:'🪣', hr:'ispod crvene kante na stepenicama'},
-  {id:'kosara',    b:[198,98,218,114],  boja:'#B98B4E', emo:'🧺', hr:'u košaru ispod stabla'}
-];
-SOBA.dvoriste = function(s){
-  var cilj = CL.rand(DV_MJESTA);
-  var poruka = ['Lucija,','ne brini, dobro sam. Noga me boli, ali liječnici su ljubazni.',
-    'Ključ od kuhinje nisam ponio sa sobom. Stavio sam ga ' + cilj.hr + '.',
-    'Nikome ne daj ključeve. Nikome!','Djed'];
-  niz([
-    R('lucija','Dvorište. Ovdje je djed proveo četrdeset godina.','The courtyard. Grandpa spent forty years here.'),
-    D('lucija','Pročitaj ti. Ja ne vidim dobro njegov rukopis.','You read it. I can’t make out his handwriting.',
-      '', 'IVO’S NOTE', poruka, [['ne brini','don’t worry'],['kanta','bucket'],['bunar','well'],['stepenice','stairs'],['košara','basket']]),
-    function(dalje){
-      govori('lucija','Gdje je ključ? Pokaži mi.','Where is the key? Show me.');
-      zad(dokument('', 'IVO’S NOTE', [poruka[2]]) + '<div class="mala">Click the right spot in the courtyard above.</div>');
-      crtajScenu(s, DV_MJESTA.map(function(m){
-        return {b:m.b, boja:m.boja, emo:m.emo, klik:function(el){
-          if (m === cilj){ CL.pip(true); dalje(); }
-          else { CL.pip(false); el.classList.add('prazna'); CL.poruka('Nothing there.', 'lose'); }
-        }};
-      }), DV_DEKOR);
-    },
-    R('lucija','Tu je! Kuhinja je lijevo od bunara. Jela je sigurno već ondje.','There it is! The kitchen is left of the well. Jela is surely there already.')
-  ], function(){ sobaGotova(s, 'You found the kitchen key'); });
-};
-
-/* ---------- 3. KUHINJA · razina 2 · brojevi i množina ---------- */
-var NAMIRNICE = [
-  ['jaje','🥚'],['kruh','🍞'],['rajcica','🍅'],['luk','🧅'],['paprika','🫑'],['krumpir','🥔'],
-  ['limun','🍋'],['mlijeko','🥛'],['sir','🧀'],['jabuka','🍎'],['riba','🐟'],['med','🍯']
-];
-var NARUDZBE = [
-  [ [{jaje:2, kruh:1}, 'Trebam dva jaja i jedan kruh.', 'I need two eggs and one loaf of bread.'],
-    [{jabuka:3, sir:1}, 'Trebam tri jabuke i jedan sir.', 'I need three apples and one cheese.'] ],
-  [ [{rajcica:3, luk:1, paprika:2}, 'Sad trebam tri rajčice, jedan luk i dvije paprike.', 'Now I need three tomatoes, one onion and two peppers.'],
-    [{krumpir:4, limun:1, mlijeko:2}, 'Sad trebam četiri krumpira, jedan limun i dvije boce mlijeka.', 'Now I need four potatoes, one lemon and two bottles of milk.'] ],
-  [ [{krumpir:5, jaje:4, limun:2}, 'Za ručak trebam pet krumpira, četiri jaja i dva limuna. Luk ne trebam, imam ga dosta.', 'For lunch I need five potatoes, four eggs and two lemons. I don’t need onions, I have plenty.'],
-    [{jabuka:6, sir:2, rajcica:5}, 'Za ručak trebam šest jabuka, dva sira i pet rajčica. Kruha imam, njega ne donosi.', 'For lunch I need six apples, two cheeses and five tomatoes. I have bread, don’t bring any.'] ]
-];
-function zadSmocnica(narudzba){
-  return function(dalje){
-    var n = CL.rand(narudzba), kosara = {};
-    govori('jela', n[1], n[2]);
-    function crtaj(){
-      zad('<h3>The pantry</h3><div class="mala">Click food to put it in the basket. Then give the basket to Jela.</div>' +
-        '<div class="smocnica" id="smo"></div><div class="kosara" id="kos"></div>' +
-        '<div class="red"><button class="g glavni" id="predaj">Give to Jela ▶</button></div>');
-      NAMIRNICE.forEach(function(nm){
-        var b = document.createElement('button'); b.className = 'namirnica';
-        b.innerHTML = nm[1] + '<img alt="" src="' + MED + 'hrana-' + nm[0] + '.png" onerror="this.remove()" style="position:absolute">';
-        b.onclick = function(){ kosara[nm[0]] = (kosara[nm[0]] || 0) + 1; CL.pip(true); crtaj(); };
-        CL.el('smo').appendChild(b);
-      });
-      var k = CL.el('kos'), ima = false;
-      NAMIRNICE.forEach(function(nm){
-        if (!kosara[nm[0]]) return; ima = true;
-        var d = document.createElement('span'); d.className = 'uKosari';
-        d.innerHTML = nm[1] + '<b>×' + kosara[nm[0]] + '</b><button title="remove one">−</button>';
-        d.querySelector('button').onclick = function(){ kosara[nm[0]]--; if (!kosara[nm[0]]) delete kosara[nm[0]]; crtaj(); };
-        k.appendChild(d);
-      });
-      if (!ima) k.innerHTML = '<span class="mala">🧺 the basket is empty</span>';
-      CL.el('predaj').onclick = function(){
-        var tr = n[0], dobro = Object.keys(tr).concat(Object.keys(kosara)).every(function(id){ return tr[id] === kosara[id]; });
-        if (dobro){ CL.pip(true); dalje(); }
-        else { CL.pip(false); krivoTrese(CL.el('kos'));
-          govori('jela', 'Nije to što sam tražila. ' + n[1], 'That’s not what I asked for. ' + n[2]); }
-      };
-    }
-    crtaj();
-  };
-}
-SOBA.kuhinja = function(s){
-  niz([
-    R('jela','Lucija! I netko s tobom. Odlično, trebaju mi ruke.','Lucija! And someone with you. Great, I need hands.'),
-    R('jela','Ivo mi je dao jedan ključ. Rekao je: daj ga samo onome tko ti pomogne.','Ivo gave me a key. He said: give it only to someone who helps you.'),
-    zadSmocnica(NARUDZBE[0]), zadSmocnica(NARUDZBE[1]), zadSmocnica(NARUDZBE[2]),
-    R('jela','Bravo. Evo ključa od knjižnice.','Well done. Here is the library key.'),
-    R('jela','I još nešto… Sinoć sam vidjela svjetlo u dvorištu. Netko je hodao s lampom. Ivo je u bolnici. Tko je to bio?','And one more thing… Last night I saw a light in the courtyard. Someone was walking with a lamp. Ivo is in hospital. Who was it?')
-  ], function(){ sobaGotova(s, 'Jela gives you a key'); });
-};
-
-/* ---------- 4. KNJIŽNICA · razina 2 · kategorije i čitanje ---------- */
-var POLICE = [['Povijest','History','#8C3B2E'],['Priroda','Nature','#3F7A3A'],['Kuhanje','Cooking','#B7792B'],['Jedrenje','Sailing','#2F5F8F']];
-var KNJIGE = [
-  ['Kratka povijest Dalmacije', 0], ['Tvrđave jadranske obale', 0],
-  ['Ptice i njihova gnijezda', 1], ['Ljekovito bilje našeg kraja', 1],
-  ['Kolači moje bake', 2], ['Juhe i variva', 2],
-  ['Kako upravljati jedrilicom', 3], ['Čvorovi za mornare', 3],
-  ['Moje bilješke — I. B.', -1]
-];
-SOBA.knjiznica = function(s){
-  niz([
-    R('lucija','Za muzej moramo vratiti sve knjige na police.','For the museum we have to put all the books back on the shelves.'),
-    function(dalje){
-      govori('lucija','Svaka knjiga ima svoju policu. Pogledaj naslove.','Every book has its shelf. Look at the titles.');
-      var knjige = CL.mix(KNJIGE.map(function(k){ return {t:k[0], p:k[1], mjesto:null}; }));
-      var odabrana = null, gotovo = false;
-      function crtaj(){
-        zad('<h3>Shelve the books</h3><div class="mala">Click a book, then its shelf.</div>' +
-          '<div class="knjige" id="kn"></div><div class="police" id="pol"></div>');
-        knjige.forEach(function(k, i){
-          if (k.mjesto !== null) return;
-          var b = document.createElement('button');
-          b.className = 'knjiga' + (odabrana === k ? ' oznacena' : '');
-          b.style.background = ['#6D4C7D','#4A6D7C','#7C5A3A','#5E6B3A','#8A4B4B','#3E5B78','#7A6A3A','#4F4F6F','#6B5B4B'][i];
-          b.textContent = k.t;
-          b.onclick = function(){ odabrana = k; crtaj(); };
-          CL.el('kn').appendChild(b);
-        });
-        POLICE.forEach(function(p, pi){
-          var d = document.createElement('div'); d.className = 'polica';
-          d.innerHTML = '<b>' + CL.esc(p[0]) + '</b>' + knjige.filter(function(k){ return k.mjesto === pi; })
-            .map(function(k){ return '<div>' + CL.esc(k.t) + '</div>'; }).join('');
-          d.onclick = function(){
-            if (!odabrana) return CL.poruka('Pick a book first.');
-            if (odabrana.p === pi){ odabrana.mjesto = pi; odabrana = null; CL.pip(true); crtaj(); }
-            else if (odabrana.p === -1){ CL.pip(false); krivoTrese(d);
-              govori('lucija','Čekaj… To nije knjiga iz knjižnice. To je nečiji dnevnik.','Wait… That’s not a library book. That’s someone’s diary.'); }
-            else { CL.pip(false); krivoTrese(d); CL.poruka('That book does not belong on this shelf.', 'lose'); }
-            if (!gotovo && knjige.every(function(k){ return k.mjesto !== null || k.p === -1; })){ gotovo = true; setTimeout(dalje, 500); }
-          };
-          CL.el('pol').appendChild(d);
-        });
-      }
-      crtaj();
-    },
-    R('lucija','Ostala je samo jedna. „Moje bilješke — I. B." Ivo Babić. To je djedov dnevnik!','Only one is left. “My notes — I. B.” Ivo Babić. That’s grandpa’s diary!'),
-    D('lucija','U dnevniku je ključ. I zadnja stranica…','There is a key in the diary. And the last page…', '', 'IVO’S DIARY — WEDNESDAY EVENING', [
-      'Gospodin Horvat opet je došao u tvrđavu. Bio je vrlo ljubazan.',
-      'Pitao je gdje je stari statut. Rekao sam mu da ne znam.',
-      'To nije istina. Znam gdje je, ali njemu to neću reći.',
-      'Ključ od tornja stavljam u ovu bilježnicu. Rok zna što dalje.'],
-      [['statut','charter'],['istina','truth'],['bilježnica','notebook']]),
-    P('lucija','Što je gospodin Horvat htio znati?','What did Mr Horvat want to know?', [
-      ['Gdje je stari statut.', true], ['Kada se otvara muzej.', false], ['Koliko košta ulaznica.', false]],
-      dokument('', 'IVO’S DIARY', ['Pitao je gdje je stari statut. Rekao sam mu da ne znam. To nije istina.'])),
-    P('lucija','Dobro. A što je djed rekao Horvatu?','Good. And what did grandpa tell Horvat?', [
-      ['Rekao mu je nešto što nije istina.', true], ['Pokazao mu je gdje je statut.', false], ['Dao mu je ključ od tornja.', false]])
-  ], function(){ sobaGotova(s, 'The diary held a key'); });
-};
-
-/* ---------- 5. TORANJ · razina 2 · vrijeme na satu ---------- */
-var BROJ = ['nula','jedan','dva','tri','četiri','pet','šest','sedam','osam','devet','deset','jedanaest','dvanaest'];
-var BROJ_EN = ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve'];
-function sati(h){ return h === 1 ? 'sat' : (h <= 4 ? 'sata' : 'sati'); }
-function svgSat(h, m){
-  var kut = function(st){ return (st - 90) * Math.PI / 180; };
-  var km = kut(m * 6), kh = kut((h % 12) * 30 + m / 2);
-  var t = '';
-  for (var i = 0; i < 12; i++){ var a = kut(i * 30);
-    t += '<rect x="' + (48 + Math.cos(a)*38 - 2) + '" y="' + (48 + Math.sin(a)*38 - 2) + '" width="4" height="4" fill="#241C15"/>'; }
-  return '<svg viewBox="0 0 96 96">' + t +
-    '<line x1="48" y1="48" x2="' + (48 + Math.cos(kh)*22) + '" y2="' + (48 + Math.sin(kh)*22) + '" stroke="#241C15" stroke-width="6"/>' +
-    '<line x1="48" y1="48" x2="' + (48 + Math.cos(km)*34) + '" y2="' + (48 + Math.sin(km)*34) + '" stroke="#C8412F" stroke-width="3"/>' +
-    '<rect x="44" y="44" width="8" height="8" fill="#241C15"/></svg>';
-}
-function zadSat(vrsta, uvod, uvodEn){
-  return function(dalje){
-    var h = 1 + CL.cijeli(11), n = h % 12 + 1, cilj, hr, en;
-    if (vrsta === 0){ cilj = [h, 0]; hr = BROJ[h] + ' ' + sati(h); en = BROJ_EN[h] + ' o’clock'; }
-    else if (vrsta === 1){ cilj = [h, 30]; hr = 'pola ' + BROJ[n]; en = 'half past ' + BROJ_EN[h]; }
-    else if (CL.cijeli(2)){ cilj = [h, 45]; hr = 'četvrt do ' + BROJ[n]; en = 'quarter to ' + BROJ_EN[n]; }
-    else { cilj = [h, 15]; hr = BROJ[h] + ' i petnaest'; en = 'quarter past ' + BROJ_EN[h]; }
-    var st = [12, 0];
-    govori('rok', uvod.replace('#', hr), uvodEn.replace('#', en));
-    function crtaj(){
-      zad('<h3>Set the tower clock</h3><div class="satOkvir">' + svgSat(st[0], st[1]) +
-        '<div class="kontrole"><button class="g" data-k="h-">◀</button><span>hour hand</span><button class="g" data-k="h+">▶</button>' +
-        '<button class="g" data-k="m-">◀</button><span>minute hand</span><button class="g" data-k="m+">▶</button></div></div>' +
-        '<div class="red"><button class="g glavni" id="gotovo">Done ▶</button></div>');
-      Array.prototype.forEach.call(document.querySelectorAll('[data-k]'), function(b){
-        b.onclick = function(){
-          var k = b.dataset.k;
-          if (k === 'h+') st[0] = st[0] % 12 + 1;
-          if (k === 'h-') st[0] = (st[0] + 10) % 12 + 1;
-          if (k === 'm+'){ st[1] += 15; if (st[1] === 60){ st[1] = 0; st[0] = st[0] % 12 + 1; } }
-          if (k === 'm-'){ st[1] -= 15; if (st[1] < 0){ st[1] = 45; st[0] = (st[0] + 10) % 12 + 1; } }
-          crtaj();
-        };
-      });
-      CL.el('gotovo').onclick = function(){
-        if (st[0] === cilj[0] && st[1] === cilj[1]){ CL.pip(true); dalje(); }
-        else { CL.pip(false); CL.poruka('Rok squints: “Ne, to nije ' + hr + '.”', 'lose'); }
-      };
-    }
-    crtaj();
-  };
-}
-SOBA.toranj = function(s){
-  niz([
-    R('rok','Tko to dolazi gore? A, Lucija. I netko novi.','Who is coming up? Ah, Lucija. And someone new.'),
-    R('rok','Sat na tornju stoji već tri dana. Ivo ga je navijao svako jutro.','The tower clock has been stopped for three days. Ivo wound it every morning.'),
-    R('rok','Ja više ne vidim dobro kazaljke. Ti ćeš ih pomicati, a ja ću ti reći kamo.','I can’t see the hands well any more. You move them, and I’ll tell you where.'),
-    zadSat(0, 'Prvo samo provjerimo mehanizam. Namjesti ga na #.', 'First let’s just test the mechanism. Set it to #.'),
-    zadSat(1, 'Radi! Sada ga namjesti na #.', 'It works! Now set it to #.'),
-    zadSat(2, 'I zadnje, pravo vrijeme. Trajekt je upravo stigao, a trajekt uvijek stiže u #.', 'And last, the real time. The ferry has just arrived, and the ferry always arrives at #.'),
-    R('rok','Čuješ? Zvono opet zvoni. Ivo mi je rekao: ključ daj onome tko popravi sat.','Hear that? The bell rings again. Ivo told me: give the key to whoever fixes the clock.'),
-    R('rok','Ivo nije izgubio ključeve. Sakrio ih je, jedan za drugim. Do kraja stigne samo strpljiv čovjek.','Ivo didn’t lose the keys. He hid them, one after another. Only a patient person gets to the end.')
-  ], function(){ sobaGotova(s, 'Rok hands you a key'); });
-};
-
-/* ---------- 6. STRAŽARNICA · razina 3 · upute za kretanje ---------- */
-var ZID_S = 9, ZID_V = 6;
-function jeZid(x, y){ return x >= 0 && y >= 0 && x < ZID_S && y < ZID_V && (x === 0 || y === 0 || x === ZID_S-1 || y === ZID_V-1 || y === 2 || x === 4); }
-var POLJA = ['','jedno polje','dva polja','tri polja','četiri polja','pet polja','šest polja','sedam polja','osam polja'];
-var RUTE = [
-  [['f',3],['d'],['f',4],['l'],['f',2]],
-  [['f',5],['d'],['f',8],['d'],['f',2],['d'],['f',2]],
-  [['f',3],['d'],['f',8],['d'],['f',3],['d'],['f',2]]
-];
-SOBA.straza = function(s){
-  var ruta = CL.rand(RUTE), cilj = [0, 5], smjer = 0;
-  ruta.forEach(function(k){
-    if (k[0] === 'd') smjer = (smjer + 1) % 4; else if (k[0] === 'l') smjer = (smjer + 3) % 4;
-    else { cilj[0] += [0,1,0,-1][smjer]*k[1]; cilj[1] += [-1,0,1,0][smjer]*k[1]; }
-  });
-  var plan = ['Stani ispred stražarnice, licem prema moru.'].concat(ruta.map(function(k){
-    return k[0] === 'f' ? 'Idi naprijed ' + POLJA[k[1]] + '.' : k[0] === 'd' ? 'Skreni desno.' : 'Skreni lijevo.';
-  })).concat(['Ondje je ispod kamena nešto skriveno.']);
-
-  niz([
-    R('nika','Bok, ja sam Nika, arhitektica. Mjerim zidine za muzej.','Hi, I’m Nika, the architect. I’m measuring the walls for the museum.'),
-    R('nika','Sinoć sam kroz ovaj prozor vidjela čovjeka s lampom. Hodao je po zidinama i nešto tražio.','Last night through this window I saw a man with a lamp. He was walking along the walls, looking for something.'),
-    R('nika','Ivo mi je prošli tjedan dao plan. Rekao je: ako mu se nešto dogodi, plan daj Luciji. Ja se ne penjem na zidine — bojim se visine.','Last week Ivo gave me a plan. He said: if anything happens to him, give the plan to Lucija. I don’t go up on the walls — I’m afraid of heights.'),
-    function(dalje){
-      govori('nika','Ti idi. Ja ću gledati odavde.','You go. I’ll watch from here.');
-      var x = 0, y = 5, sm = 0, bio = {'0,5':1};
-      function crtaj(){
-        var polja = '';
-        for (var yy = 0; yy < ZID_V; yy++) for (var xx = 0; xx < ZID_S; xx++){
-          var z = jeZid(xx, yy);
-          polja += '<div class="polje' + (z ? ' zid' : '') + (bio[xx+','+yy] ? ' bio' : '') + (xx === 0 && yy === 5 ? ' start' : '') + '">' +
-            (xx === x && yy === y ? '<span class="igracZ" style="transform:rotate(' + sm*90 + 'deg)">▲</span>' : '') + '</div>';
-        }
-        zad('<h3>Ivo’s plan</h3>' +
-          '<div class="dok"><ol class="plan">' + plan.map(function(p){ return '<li>' + CL.esc(p) + '</li>'; }).join('') + '</ol></div>' +
-          '<div class="rjecnik"><b>naprijed</b> – forward · <b>skreni</b> – turn · <b>polje</b> – square</div>' +
-          '<div class="zidine" style="grid-template-columns:repeat(' + ZID_S + ',1fr)"><div class="more">〰 SEA 〰</div>' + polja + '</div>' +
-          '<div class="red"><button class="g" data-a="l">↰ turn left</button><button class="g" data-a="f">▲ step forward</button>' +
-          '<button class="g" data-a="d">turn right ↱</button></div>' +
-          '<div class="red"><button class="g glavni" data-a="t">🔍 look under the stone</button><button class="g" data-a="r">↺ back to start</button></div>');
-        Array.prototype.forEach.call(document.querySelectorAll('[data-a]'), function(b){
-          b.onclick = function(){
-            var a = b.dataset.a;
-            if (a === 'l') sm = (sm + 3) % 4;
-            if (a === 'd') sm = (sm + 1) % 4;
-            if (a === 'f'){
-              var nx = x + [0,1,0,-1][sm], ny = y + [-1,0,1,0][sm];
-              if (!jeZid(nx, ny)){ CL.pip(false); return CL.poruka('No wall that way — only a long drop.', 'lose'); }
-              x = nx; y = ny; bio[x+','+y] = 1;
-            }
-            if (a === 'r'){ x = 0; y = 5; sm = 0; bio = {'0,5':1}; }
-            if (a === 't'){
-              if (x === cilj[0] && y === cilj[1]){ CL.pip(true); return dalje(); }
-              CL.pip(false); CL.poruka('Just an ordinary stone.', 'lose');
-            }
-            crtaj();
-          };
-        });
-      }
-      crtaj();
-    },
-    R('nika','Vidim te! Što je ispod kamena?','I can see you! What’s under the stone?'),
-    R('nika','Ključ i papirić: „Jure zna koji je pravi." Onaj čovjek s lampom tražio je baš na tim zidinama. Nije našao.','A key and a slip of paper: “Jure knows which one is real.” That man with the lamp was searching on those very walls. He didn’t find it.')
-  ], function(){ sobaGotova(s, 'Under the stone: a key'); });
-};
-
-/* ---------- 7. RADIONICA · razina 3 · rod pridjeva, usporedba ---------- */
-var NATPISI = [
-  ['mač','m',['stari','stara','staro'],'old sword'], ['kaciga','ž',['željezni','željezna','željezno'],'iron helmet'],
-  ['koplje','s',['dugi','duga','dugo'],'long spear'], ['štit','m',['drveni','drvena','drveno'],'wooden shield'],
-  ['sjekira','ž',['teški','teška','teško'],'heavy axe'], ['zvono','s',['brončani','brončana','brončano'],'bronze bell'],
-  ['sedlo','s',['kožnati','kožnata','kožnato'],'leather saddle'], ['strijela','ž',['stari','stara','staro'],'old arrow'],
-  ['top','m',['teški','teška','teško'],'heavy cannon']
-];
-function zadNatpisi(dalje){
-  var mete = CL.uzmi(NATPISI, 5), k = 0;
-  function krug(){
-    if (k >= mete.length) return dalje();
-    var n = mete[k];
-    zad('<h3>Exhibition labels · ' + (k+1) + '/' + mete.length + '</h3><div class="mala">Jure lost the first word of each label. Which form fits?</div>' +
-      '<div class="dok tiskano" style="text-align:center;font-size:22px"><u>&nbsp;?&nbsp;</u> ' + CL.esc(n[0]) + '</div>' +
-      '<div class="red" id="op"></div>');
-    n[2].forEach(function(o, i){
-      var b = document.createElement('button'); b.className = 'g'; b.textContent = o;
-      b.onclick = function(){
-        if (['m','ž','s'][i] === n[1]){ CL.pip(true); k++; krug(); }
-        else { CL.pip(false); b.classList.add('krivo'); b.disabled = true; }
-      };
-      CL.el('op').appendChild(b);
-    });
-  }
-  krug();
-}
-var UVJETI = [
-  ['Pravi ključ je najduži, ali nije najteži.', function(k, a){ return a.d === mx(k,'d') && a.t !== mx(k,'t'); }],
-  ['Pravi ključ je najlakši, ali nije najkraći.', function(k, a){ return a.t === mn(k,'t') && a.d !== mn(k,'d'); }],
-  ['Pravi ključ nije ni najduži ni najkraći, ali je najteži.', function(k, a){ return a.d !== mx(k,'d') && a.d !== mn(k,'d') && a.t === mx(k,'t'); }],
-  ['Pravi ključ je kraći od zelenog, ali teži od crvenog.', function(k, a){ return a.b !== 'zeleni' && a.b !== 'crveni' && a.d < po(k,'zeleni').d && a.t > po(k,'crveni').t; }]
-];
-function mx(k, p){ return Math.max.apply(null, k.map(function(x){ return x[p]; })); }
-function mn(k, p){ return Math.min.apply(null, k.map(function(x){ return x[p]; })); }
-function po(k, b){ return k.filter(function(x){ return x.b === b; })[0]; }
-function zadUsporedba(dalje){
-  var uv = CL.rand(UVJETI), kljucevi, pravi;
-  do {
-    var d = CL.uzmi([8,9,10,11,12,13,14], 3), t = CL.uzmi([40,50,60,70,80,90,100,110], 3);
-    kljucevi = ['crveni','plavi','zeleni'].map(function(b, i){ return {b:b, d:d[i], t:t[i]}; });
-    pravi = kljucevi.filter(function(a){ return uv[1](kljucevi, a); });
-  } while (pravi.length !== 1);
-  govori('jure','Ivo mi je ostavio tri ključa. Dva su lažna. Na papiru piše: „' + uv[0] + '"',
-    'Ivo left me three keys. Two are fakes. The paper says: “…”');
-  zad('<h3>Measure and weigh</h3><div class="mala">Every key has a painted ribbon. Pick the real one.</div>' +
-    dokument('', 'IVO’S SLIP', [uv[0]], [['duži / kraći','longer / shorter'],['teži / lakši','heavier / lighter'],['naj-','the most']]) +
-    '<div class="kljucevi tri" id="kk"></div>');
-  CL.mix(kljucevi).forEach(function(a){
-    var b = document.createElement('button'); b.className = 'kljucK';
-    b.innerHTML = '<span style="font-size:22px">🗝</span><span style="display:block;width:70%;height:8px;border:2px solid #241C15;background:' +
-      {crveni:'#C8412F', plavi:'#2F6FB0', zeleni:'#4E8B3A'}[a.b] + '"></span>📏 ' + a.d + ' cm<br>⚖ ' + a.t + ' g';
-    b.onclick = function(){
-      if (a === pravi[0]){ CL.pip(true); b.style.background = '#CFE8B8'; setTimeout(dalje, 500); }
-      else { CL.pip(false); b.classList.add('krivo'); krivoTrese(b); CL.poruka('Jure tries it: it doesn’t turn.', 'lose'); }
-    };
-    CL.el('kk').appendChild(b);
-  });
-}
-SOBA.radionica = function(s){
-  niz([
-    R('jure','Uđi, ali pazi — pod je pun alata.','Come in, but careful — the floor is full of tools.'),
-    R('jure','Ovdje je nekad bila oružarnica. Sada popravljam staro oružje za izložbu.','This used to be the armoury. Now I restore old weapons for the exhibition.'),
-    function(dalje){ govori('jure','Pomozi mi s natpisima, a onda ćemo o ključu.','Help me with the labels, and then we’ll talk about the key.'); zadNatpisi(dalje); },
-    zadUsporedba,
-    R('jure','Okrenuo se! Ivo mi je rekao još nešto: don Marin zna priču o statutu.','It turned! Ivo told me one more thing: Don Marin knows the story of the charter.')
-  ], function(){ sobaGotova(s, 'The real key turns'); });
-};
-
-/* ---------- 8. KAPELICA · razina 3 · padeži u natpisu ---------- */
-var NATPIS = [
-  ['Godine 1618. ___ Male Luke sagradili su ovu kapelicu.', ['ribari','ribare','ribarima'], 'In 1618 the fishermen of Mala Luka built this chapel.'],
-  ['Iste godine knez je potpisao ___ grada.', ['statut','statuta','statutom'], 'The same year the prince signed the town charter.'],
-  ['Statut kaže da tvrđava pripada ___.', ['svim ljudima','sve ljude','svih ljudi'], 'The charter says the fortress belongs to all the people.'],
-  ['Neka je čuvaju ___ ovoga grada.', ['stanovnici','stanovnike','stanovnicima'], 'Let the inhabitants of this town look after it.']
-];
-SOBA.kapelica = function(s){
-  niz([
-    R('marin','Dobro došli. Ova kapelica je starija od tornja i od zidina.','Welcome. This chapel is older than the tower and the walls.'),
-    R('marin','Na podu je bila kamena ploča s natpisom. Prošle zime mraz ju je razbio.','There was a stone slab with an inscription on the floor. Last winter the frost broke it.'),
-    function(dalje){
-      govori('marin','Komadi s riječima su tu, ali ne znam koji kamo ide.','The pieces with words are here, but I don’t know which goes where.');
-      var k = 0;
-      function krug(){
-        if (k >= NATPIS.length) return dalje();
-        var n = NATPIS[k];
-        zad('<h3>The broken slab · line ' + (k+1) + '/' + NATPIS.length + '</h3>' +
-          '<div class="dok statut">' + NATPIS.slice(0, k).map(function(p){ return '<p>' + CL.esc(p[0].replace('___', p[1][0])) + '</p>'; }).join('') +
-          '<p><b>' + CL.esc(n[0]).replace('___', '<u>&nbsp;?&nbsp;</u>') + '</b></p></div>' +
-          '<div class="mala">' + CL.skritEN(n[2]) + '</div><div class="red" id="op"></div>');
-        CL.mix(n[1]).forEach(function(o){
-          var b = document.createElement('button'); b.className = 'g'; b.textContent = o;
-          b.onclick = function(){
-            if (o === n[1][0]){ CL.pip(true); k++; krug(); }
-            else { CL.pip(false); b.classList.add('krivo'); b.disabled = true; CL.poruka('The stone piece doesn’t fit.', 'lose'); }
-          };
-          CL.el('op').appendChild(b);
-        });
-      }
-      krug();
-    },
-    R('marin','Eto. Sada znate zašto Horvat traži statut. Dok postoji, tvrđava nije na prodaju.','There. Now you know why Horvat wants the charter. As long as it exists, the fortress is not for sale.'),
-    P('marin','Recite mi, kome pripada tvrđava prema natpisu?','Tell me, who does the fortress belong to according to the inscription?', [
-      ['Svim ljudima ovoga grada.', true], ['Knezu i njegovoj obitelji.', false], ['Ribarima iz drugog grada.', false]],
-      '', 'Read the slab again.'),
-    R('marin','Ivo mi je ostavio ključ od pisarnice. Lovro, gradski arhivist, radi ondje.','Ivo left me the key to the archive office. Lovro, the town archivist, works there.')
-  ], function(){ sobaGotova(s, 'Don Marin gives you a key'); });
-};
-
-/* ---------- 9. PISARNICA · razina 4 · razumijevanje službenog pisma ---------- */
-var PISMO = [
-  'Poštovana gospođo gradonačelnice,',
-  'tvrtka Adria Resort želi kupiti tvrđavu Galebnjak. Nudimo dva milijuna eura. U tvrđavi ćemo otvoriti hotel s bazenom i restoranom.',
-  'Znamo da neki građani žele muzej. Ali muzej gradu ne donosi novac, a hotel će dati posao za pedeset ljudi.',
-  'Molimo gradsko vijeće da o prodaji glasa ovaj petak. Ako grad do tada ne pokaže dokument koji zabranjuje prodaju, prodaja je zakonita.',
-  'S poštovanjem, Davor Horvat, odvjetnik'
-];
-SOBA.pisarnica = function(s){
-  var gore = dokument('tiskano', 'LETTER TO THE MAYOR', PISMO, [['glasati','to vote'],['zabranjivati','to forbid'],['zakonit','legal'],['posao','job']]);
-  niz([
-    R('lovro','Lucija, dobro da si došla. Vijeće u petak glasa o tvrđavi.','Lucija, good that you came. On Friday the council votes on the fortress.'),
-    D('lovro','Ovo pismo je jutros stiglo gradonačelnici. Pročitajte ga.','This letter reached the mayor this morning. Read it.', 'tiskano', 'LETTER TO THE MAYOR', PISMO,
-      [['glasati','to vote'],['zabranjivati','to forbid'],['zakonit','legal'],['posao','job']]),
-    P('lovro','Što Adria Resort želi napraviti u tvrđavi?','What does Adria Resort want to do in the fortress?', [
-      ['Hotel s bazenom i restoranom.', true], ['Muzej starog oružja.', false], ['Školu za mlade mornare.', false]], gore),
-    P('lovro','Koliko ljudi bi radilo u hotelu?','How many people would work in the hotel?', [
-      ['Pedeset.', true], ['Petnaest.', false], ['Dvjesto.', false]], gore),
-    P('lovro','Kada vijeće glasa?','When does the council vote?', [
-      ['Ovaj petak.', true], ['Sljedeće godine.', false], ['Prošli ponedjeljak.', false]], gore),
-    P('lovro','I najvažnije: što može zaustaviti prodaju?','And most important: what can stop the sale?', [
-      ['Dokument koji zabranjuje prodaju.', true], ['Novac od ulaznica za muzej.', false], ['Drugo pismo gospodina Horvata.', false]], gore),
-    R('lovro','Točno. Trebamo statut, i to do petka. Svi stari dokumenti su dolje, u tamnici. Evo ključa.','Exactly. We need the charter, and by Friday. All the old documents are downstairs, in the dungeon. Here is the key.')
-  ], function(){ sobaGotova(s, 'Lovro gives you a key'); });
-};
-
-/* ---------- 10. TAMNICA · razina 4 · zagonetke, strogi upis ---------- */
-var ZAGONETKE = [
-  ['Imam lice, a nemam oči. Imam kazaljke, a nemam ruke. Što sam?', ['sat','ura'], 'I have a face but no eyes. I have hands but no arms. What am I?', ['sat','kist','prozor']],
-  ['Puna sam rupa, a ipak držim vodu. Što sam?', ['spužva'], 'I am full of holes, yet I hold water. What am I?', ['spužva','kanta','mreža']],
-  ['Imam zube, a ne jedem. Ne govorim, a otvaram vrata. Što sam?', ['ključ'], 'I have teeth but don’t eat. I don’t speak, yet I open doors. What am I?', ['ključ','češalj','pila']]
-];
-SOBA.tamnica = function(s){
-  niz([
-    R('lucija','Ovdje je nekad bila tamnica. Danas je skladište. Hladno je.','This used to be the dungeon. Today it is a storeroom. It’s cold.'),
-    R('lucija','Gledaj — djedova kutija. Tri brave, i uz svaku zagonetka. Djed obožava zagonetke.','Look — grandpa’s box. Three locks, and a riddle by each one. Grandpa loves riddles.'),
-    function(dalje){
-      var k = 0, promasaji = 0;
-      function krug(){
-        if (k >= ZAGONETKE.length) return dalje();
-        var z = ZAGONETKE[k];
-        govori('ivo', z[0], z[2]);
-        var brave = '<div class="brave">' + ZAGONETKE.map(function(_, i){ return '<span class="' + (i < k ? 'otvorena' : '') + '">' + (i < k ? '🔓' : '🔒') + '</span>'; }).join('') + '</div>';
-        if (promasaji >= 2){
-          zad(brave + '<h3>Riddle ' + (k+1) + '/3</h3><div class="mala">Lucija has an idea: it is one of these.</div><div class="red" id="op"></div>');
-          CL.mix(z[3]).forEach(function(o){
-            var b = document.createElement('button'); b.className = 'g'; b.textContent = o;
-            b.onclick = function(){ if (o === z[3][0]){ CL.pip(true); k++; promasaji = 0; krug(); } else { CL.pip(false); b.classList.add('krivo'); b.disabled = true; } };
-            CL.el('op').appendChild(b);
-          });
-          return;
-        }
-        zad(brave + '<h3>Riddle ' + (k+1) + '/3</h3><div class="mala">Write the answer in Croatian' +
-          (promasaji ? ' — it starts with <b>' + z[1][0][0].toUpperCase() + '</b>' : '') + '.</div>' +
-          '<div class="red"><input class="upis" id="upis" autocomplete="off" spellcheck="false"></div><div id="dij"></div>' +
-          '<div class="red"><button class="g glavni" id="ok">Try the lock</button></div>');
-        var inp = CL.el('upis'); CL.el('dij').appendChild(CL.tipkeDijakritika(inp)); inp.focus();
-        function provjeri(){
-          if (z[1].indexOf(CL.norm(inp.value)) >= 0){ CL.pip(true); k++; promasaji = 0; krug(); }
-          else { CL.pip(false); promasaji++; CL.poruka('The lock doesn’t move.', 'lose'); krug(); }
-        }
-        CL.el('ok').onclick = provjeri;
-        inp.onkeydown = function(e){ if (e.key === 'Enter') provjeri(); };
-      }
-      krug();
-    },
-    D('lucija','Otvorila se! Unutra je ključ i pismo.','It opened! Inside there’s a key and a letter.', '', 'IVO’S LETTER', [
-      'Lucija, ako ovo čitaš, prešla si pola puta.',
-      'Statut nije u ovoj kutiji. Ovdje je ključ od podruma.',
-      'U podrumu je škrinja s lokotom. Šifru nisam nikamo zapisao — zapisao sam samo zagonetku. Nalazi se na dnu ovog pisma.',
-      'Budi pažljiva. Ne vjeruj ljubaznim ljudima u lijepim odijelima.'],
-      [['šifra','code'],['lokot','padlock'],['vjerovati','to trust'],['odijelo','suit']]),
-    P('lucija','Na koga djed misli, što ti se čini?','Who do you think grandpa means?', [
-      ['Na gospodina Horvata.', true], ['Na don Marina.', false], ['Na kuharicu Jelu.', false]], '', 'Think of the diary and the letter to the mayor.')
-  ], function(){ sobaGotova(s, 'The box opens'); });
-};
-
-/* ---------- 11. PODRUM · razina 4 · brojevi i logika ---------- */
-var SIFRE = [
-  ['4602', ['Šifra ima četiri različite znamenke.','Treća znamenka je nula.','Prva je dva puta veća od zadnje.','Druga je zbroj prve i zadnje.','Druga je manja od osam.','Nijedna znamenka nije jedan.']],
-  ['8420', ['Šifra ima četiri različite znamenke.','Sve su znamenke parne.','Zadnja je nula, a prva je najveća.','Druga je pola prve.','Treća je za dva manja od druge.']]
-];
-SOBA.podrum = function(s){
-  var sf = CL.rand(SIFRE);
-  niz([
-    R('lucija','Podrum. Miriše na staro vino i vlagu.','The cellar. It smells of old wine and damp.'),
-    function(dalje){
-      govori('lucija','Evo škrinje. Lokot ima četiri kotačića s brojevima.','Here’s the chest. The padlock has four number wheels.');
-      var z = [0,0,0,0];
-      function crtaj(){
-        zad('<h3>The padlock</h3>' + dokument('', 'THE BOTTOM OF IVO’S LETTER', sf[1],
-          [['znamenka','digit'],['zbroj','sum'],['dva puta veća','twice as big'],['za dva manja','two less'],['parna','even']]) +
-          '<div class="lokot">' + z.map(function(v, i){
-            return '<div class="kotac"><button data-i="' + i + '" data-s="1">▲</button><b>' + v + '</b><button data-i="' + i + '" data-s="-1">▼</button></div>';
-          }).join('') + '</div><div class="red"><button class="g glavni" id="otvori">Open the padlock</button></div>');
-        Array.prototype.forEach.call(document.querySelectorAll('.kotac button'), function(b){
-          b.onclick = function(){ var i = +b.dataset.i; z[i] = (z[i] + 10 + (+b.dataset.s)) % 10; crtaj(); };
-        });
-        CL.el('otvori').onclick = function(){
-          if (z.join('') === sf[0]){ CL.pip(true); dalje(); }
-          else { CL.pip(false); krivoTrese(document.querySelector('.lokot')); CL.poruka('Click. Nothing happens.', 'lose'); }
-        };
-      }
-      crtaj();
-    },
-    D('lucija','Otvoreno… Ali statuta nema! Samo ključ i još jedna poruka.','Open… But there’s no charter! Just a key and one more note.', '', 'IVO’S LAST NOTE', [
-      'Statut nije ovdje. Podrum bi svatko pretražio.',
-      'Statut je ondje gdje je knez nekad sudio ljudima.',
-      'Ispod kamena na kojem je uklesan galeb.'],
-      [['suditi','to judge'],['uklesan','carved'],['galeb','seagull']]),
-    R('horvat','Dobar dan, gospođice Lucija. I vi ste u podrumu? Tražite nešto zanimljivo?','Good afternoon, Miss Lucija. You’re in the cellar too? Looking for something interesting?'),
-    R('lucija','Samo staro vino, gospodine Horvat. Za otvorenje muzeja.','Just old wine, Mr Horvat. For the museum opening.'),
-    R('horvat','Muzej… Naravno. Vidimo se u petak.','The museum… Of course. See you on Friday.'),
-    P('lucija','Gdje je knez nekad sudio ljudima? Kamo idemo?','Where did the prince once judge people? Where are we going?', [
-      ['U veliku dvoranu.', true], ['U vinski podrum.', false], ['U kuhinju kod Jele.', false]], '', 'Think about the room a prince would sit in.')
-  ], function(){ sobaGotova(s, 'The chest held the last key'); });
-};
-
-/* ---------- 12. DVORANA · razina 5 · statut i vijeće ---------- */
-var STATUT = [
-  'Članak 12.',
-  'Tvrđava Galebnjak i zemlja oko nje pripadaju svim stanovnicima Male Luke.',
-  'Nitko je ne smije prodati ni pokloniti: ni knez, ni gradsko vijeće, ni stranac.',
-  'Stanovnici grada čuvaju i popravljaju tvrđavu, a vijeće o tome brine svake godine.'
-];
-var KAMENI = [
-  {b:[36,140,80,170], emo:'🐟'}, {b:[104,140,148,170], emo:'🕊'},
-  {b:[172,140,216,170], emo:'⚓'}, {b:[240,140,284,170], emo:'🗝'}
-];
-SOBA.dvorana = function(s){
-  var gore = dokument('statut', 'CHARTER OF MALA LUKA, 1618', STATUT,
-    [['pripadati','to belong'],['stanovnik','inhabitant'],['pokloniti','to give away'],['čuvati','to look after']]);
-  niz([
-    R('lucija','Velika dvorana. Ovdje je knez sudio ljudima. U petak ovdje zasjeda vijeće.','The great hall. The prince judged people here. On Friday the council sits here.'),
-    function(dalje){
-      govori('lucija','Na podu su četiri kamena s uklesanim znakovima. Koji je pravi?','There are four stones on the floor with carved signs. Which is the right one?');
-      zad(dokument('', 'IVO’S LAST NOTE', ['Ispod kamena na kojem je uklesan galeb.']) + '<div class="mala">Click the stone in the hall above.</div>');
-      crtajScenu(s, KAMENI.map(function(k, i){
-        return {b:k.b, emo:k.emo, boja:'#8C8273', klik:function(el){
-          if (i === 1){ CL.pip(true); dalje(); } else { CL.pip(false); el.classList.add('prazna'); CL.poruka('Solid stone. Nothing underneath.', 'lose'); }
-        }};
-      }), [{b:[136,36,184,120], emo:'🪑'}]);
-    },
-    D('lucija','Kamen se miče… Kutija od olova. Unutra je — statut!','The stone moves… A lead box. Inside is — the charter!', 'statut', 'CHARTER OF MALA LUKA, 1618', STATUT,
-      [['pripadati','to belong'],['stanovnik','inhabitant'],['pokloniti','to give away'],['čuvati','to look after']]),
-    R('mira','Petak je. Otvaram sjednicu gradskog vijeća. Lucija, rekli ste da imate dokument.','It is Friday. I open the session of the town council. Lucija, you said you had a document.'),
-    P('mira','Vi ste ga pronašli. Recite vijeću: kome pripada tvrđava?','You found it. Tell the council: who does the fortress belong to?', [
-      ['Pripada svim stanovnicima grada.', true], ['Pripada knezu i njegovim nasljednicima.', false], ['Pripada onome tko je kupi.', false]], gore),
-    P('horvat','Dobro, ali vijeće ima pravo odlučiti drukčije. Vijeće smije prodati tvrđavu.','Fine, but the council has the right to decide otherwise. The council may sell the fortress.', [
-      ['Statut kaže da je ni vijeće ne smije prodati.', true], ['Statut kaže da je vijeće smije prodati strancu.', false],
-      ['Statut kaže da se o prodaji glasa svake godine.', false]], gore, 'The charter doesn’t say that.'),
-    R('horvat','To je samo stari papir. Tko zna je li uopće pravi?','That’s just an old piece of paper. Who knows if it is even genuine?'),
-    R('lovro','Pečat je pravi. U gradskom arhivu imamo isti pečat na drugim dokumentima iz 1618.','The seal is genuine. In the town archive we have the same seal on other documents from 1618.'),
-    P('mira','Hvala, Lovro. Još jedno pitanje: tko se prema statutu brine o tvrđavi?','Thank you, Lovro. One more question: who, according to the charter, looks after the fortress?', [
-      ['Stanovnici grada, a vijeće o tome brine.', true], ['Tvrtka koja kupi tvrđavu, a ne grad.', false], ['Knez i njegovi vojnici, bez vijeća.', false]], gore),
-    R('mira','Vijeće je glasalo. Tvrđava Galebnjak se ne prodaje. Muzej se otvara u subotu.','The council has voted. Galebnjak fortress is not for sale. The museum opens on Saturday.'),
-    R('ivoZiv','Znao sam da će netko strpljiv stići do kraja. Hvala ti.','I knew someone patient would reach the end. Thank you.')
-  ], function(){ sobaGotova(s); });
-};
-
-/* ---------- kraj i uvod ---------- */
-function kraj(){
-  CL.kraj({
-    naslov:'Galebnjak is saved',
-    tekst:'Twelve rooms, twelve keys: from a ring of unlabelled keys to a town council vote. ' +
-      'The charter stays with the town, and the museum opens on Saturday.',
-    bodovi:bodoviTvrdjave(), maks:window.IGRA_MAKS,
-    ponovno:function(){ S = novoStanje(); spremiPricu(); postaviIgru(); udi(SOBE[0]); }
-  });
-}
-
+/* ---------- uvod ---------- */
+var PISMO_UVOD = 'Dragi gosti, ja sam Klara Vranić. Ovo je moj dvorac. U zadnjoj sobi je moj prsten. ' +
+  'U svakoj sobi je jedna poruka i jedan ključ. Čitajte pažljivo!';
 function uvod(){
-  var nastavak = Object.keys(S.rijesene).length > 0;
+  S = null; osvjeziHud();
   ploha.innerHTML =
-    '<div class="uvod"><div class="naslovna"><img alt="" src="' + MED + 'naslovna.png" onerror="this.remove()">' +
-    '<h1>THE FORTRESS<small>Tvrđava Galebnjak</small></h1></div>' +
-    '<div class="zad"><h3>The story</h3>' +
-    '<p>High above the little town of <b>Mala Luka</b> stands Galebnjak fortress. For forty years its castellan, old <b>Ivo</b>, ' +
-    'kept every key on one ring. Yesterday he fell off a ladder and went to hospital — and the keys are hidden, one after another.</p>' +
-    '<p>On Friday the town council votes on selling the fortress to a hotel company. Find the keys, room by room, with Ivo’s granddaughter ' +
-    '<b>Lucija</b>. Everyone in the fortress speaks Croatian, and it gets harder the deeper you go.</p>' +
-    '<div class="red">' + (nastavak
-      ? '<button class="g glavni veliki" id="nastavi">Continue ▶</button><button class="g" id="ispocetka">New story</button>'
-      : '<button class="g glavni veliki" id="nastavi">Enter the fortress ▶</button>') + '</div></div></div>';
-  CL.el('nastavi').onclick = function(){ postaviIgru(); udi(sobaPo(S.soba) || SOBE[0]); };
-  if (nastavak) CL.el('ispocetka').onclick = function(){
-    if (!confirm('Start the story from the beginning? Your keys will be lost.')) return;
-    S = novoStanje(); spremiPricu(); postaviIgru(); udi(SOBE[0]);
-  };
-  osvjeziHud();
+    '<div class="kartica uvod">' +
+      (imaSliku('naslovna') ? '<div class="naslovna">' + sprite('naslovna', 'nasl') + '</div>' : '<div class="ukras">' + svgPredmet({m:'kljuc'}).svg + '</div>') +
+      '<h2>Dvorac Vrana</h2>' +
+      '<p class="enTekst">Countess Klara hid her ring in the secret room of her castle. In every room she left a note in Croatian: ' +
+      'it tells you where the key to the next room is. Open the wrong thing and a candle goes out. When the last candle goes out, ' +
+      'the castle is dark and the game is over.</p>' +
+      '<div class="pismo"><div class="od">A note on the door</div><p>' + CL.esc(PISMO_UVOD) + '</p>' +
+      '<div class="enRed">' + CL.skritEN('Dear guests, I am Klara Vranić. This is my castle. My ring is in the last room. ' +
+        'In every room there is one note and one key. Read carefully!') + '</div></div>' +
+      '<div class="izbor">' +
+        '<button class="g glavni" id="sv3">' + svijecaSvg(true) + svijecaSvg(true) + svijecaSvg(true) + ' Three candles</button>' +
+        '<button class="g" id="sv1">' + svijecaSvg(true) + ' One candle</button>' +
+      '</div>' +
+      '<p class="mala">Every game picks new notes, so the key is never where it was last time.</p>' +
+    '</div>';
+  CL.el('sv3').onclick = function(){ novaPartija(3); crtajSobu(); };
+  CL.el('sv1').onclick = function(){ novaPartija(1); crtajSobu(); };
+  PX.prilagodi();
 }
 
+/* ---------- soba ---------- */
+function crtajSobu(){
+  var soba = SOBE[S.soba], inac = soba.inacice[S.inacica[S.soba]];
+  S.prazno = {}; S.odabran = null; S.nadjen = false;
+  osvjeziHud();
+  var police = (soba.polica || []).map(function(p){
+    return '<div class="daska" style="left:calc(' + p.x + '*var(--u));top:calc(' + p.y + '*var(--u));width:calc(' + p.w + '*var(--u))"></div>';
+  }).join('');
+  var dekor = (soba.dekor || []).map(function(d){ return predmetHtml(d, true); }).join('');
+  ploha.innerHTML =
+    '<div class="scena' + (imaSliku('poz-' + soba.poz) ? ' imaPoz' : '') + '" id="scena" style="--zid:' + soba.zid + ';--pod:' + soba.pod +
+      (imaSliku('poz-' + soba.poz) ? ';--poz:url(&quot;' + MED_D + 'poz-' + soba.poz + '.png&quot;)' : '') + '">' +
+      '<div class="pod"></div>' + police + dekor +
+      soba.predmeti.map(function(p){ return predmetHtml(p, false); }).join('') +
+      '<div class="natpis"><b>' + CL.esc(soba.hr.toUpperCase()) + '</b><span>' + CL.esc(soba.en) + ' · Lessons ' + soba.lekcije + '</span></div>' +
+    '</div>' +
+    '<div class="pismo"><div class="od">Klara’s note</div><p>' + CL.esc(inac.hr) + '</p>' +
+      (soba.rijeci.length ? '<div class="rijeci">' + soba.rijeci.map(function(r){
+        return '<b>' + CL.esc(r[0]) + '</b> ' + CL.esc(r[1]); }).join(' · ') + '</div>' : '') +
+    '</div>' +
+    '<div class="radnja" id="radnja"></div>';
+  Array.prototype.forEach.call(document.querySelectorAll('#scena .pr'), function(b){
+    b.onclick = function(){ odaberi(b.dataset.id); };
+  });
+  radnja();
+  PX.prilagodi();
+}
+function predmetHtml(p, dekor){
+  var w, h, lik, dodatak = '';
+  if (p.m === 'polica' && imaSliku('boca')){
+    /* polica s n boca: boce su sprajt, daska je kod */
+    var bw = VEL.boca[0], bh = VEL.boca[1], kor = bw + 2;
+    w = p.n * kor + 4; h = bh + 4;
+    lik = '<div class="lik">' + Array.apply(null, Array(p.n)).map(function(_, i){
+      return '<img src="' + MED_D + 'boca.png" alt="" draggable="false" style="position:absolute;left:calc(' + (3 + i * kor) + '*var(--u));top:0;width:calc(' + bw + '*var(--u));height:calc(' + bh + '*var(--u))">';
+    }).join('') + '<i class="daskaP" style="top:calc(' + (bh + 1) + '*var(--u))"></i></div>';
+  } else if (imaSliku(p.slika)){
+    w = VEL[p.slika][0]; h = VEL[p.slika][1]; lik = sprite(p.slika);
+    if (p.broj != null) dodatak = '<span class="broj" style="left:calc(' + (w / 2 - 6) + '*var(--u));top:calc(' + Math.round(h * 0.52) + '*var(--u))">' + p.broj + '</span>';
+  } else {
+    var r = svgPredmet(p), s = p.s || 2;
+    w = r.w * s; h = r.h * s; lik = r.svg.replace('<svg', '<svg class="lik"');
+    if (p.vino) dodatak = '<i class="kap" style="left:calc(' + (w / 2 - 1) + '*var(--u))"></i>';
+    if (p.glazba) dodatak = '<i class="nota">♪</i>';
+  }
+  var y = (p.dno || 92) - h;
+  var stil = 'left:calc(' + p.x + '*var(--u));top:calc(' + y + '*var(--u));width:calc(' + w + '*var(--u));height:calc(' + h + '*var(--u))';
+  if (dekor) return '<div class="dekor" style="' + stil + '">' + lik + '</div>';
+  return '<button class="pr" data-id="' + p.id + '" style="' + stil + '" aria-label="' + CL.esc(p.ime) + '">' + lik + dodatak + '</button>';
+}
+function nagrada(prsten){
+  var ime = prsten ? 'prsten' : 'kljuc';
+  return imaSliku(ime) ? sprite(ime, 'nagrada') : svgPredmet({m:ime}).svg;
+}
+function predmetPo(id){ return SOBE[S.soba].predmeti.filter(function(p){ return p.id === id; })[0]; }
+function odaberi(id){
+  if (S.nadjen || S.prazno[id]) return;
+  S.odabran = id;
+  Array.prototype.forEach.call(document.querySelectorAll('#scena .pr'), function(b){
+    b.classList.toggle('odabran', b.dataset.id === id);
+  });
+  radnja();
+}
+function radnja(){
+  var r = CL.el('radnja');
+  if (S.nadjen){
+    var zadnja = S.soba >= SOBE.length - 1;
+    r.innerHTML = '<div class="nadjeno">' + nagrada(zadnja) +
+      '<div><b>' + (zadnja ? 'Klara’s ring!' : 'You found the key!') + '</b><span>' +
+      (zadnja ? 'It was in the ' + CL.esc(predmetPo(S.nadjenId).en) + '.' : 'It opens: ' + CL.esc(SOBE[S.soba + 1].hr) + ' (' + CL.esc(SOBE[S.soba + 1].en) + ')') +
+      '</span></div></div>' +
+      '<button class="g glavni" id="dalje">' + (zadnja ? 'Read Klara’s letter ▶' : 'Open the door ▶') + '</button>';
+    CL.el('dalje').onclick = zadnja ? finale : function(){ S.soba++; crtajSobu(); window.scrollTo(0, 0); };
+    return;
+  }
+  if (!S.odabran){
+    r.innerHTML = '<span class="uputa">Tap a thing in the room to look at it.</span>';
+    return;
+  }
+  var p = predmetPo(S.odabran);
+  r.innerHTML = '<div class="imePr"><b>' + CL.esc(p.ime) + '</b>' + CL.skritEN(p.en) + '</div>' +
+    '<button class="g glavni" id="trazi">Search it</button>';
+  CL.el('trazi').onclick = function(){ trazi(p); };
+}
+function trazi(p){
+  var soba = SOBE[S.soba], cilj = soba.inacice[S.inacica[S.soba]].t;
+  var el = document.querySelector('#scena .pr[data-id="' + p.id + '"]');
+  if (p.id === cilj){
+    S.nadjen = true; S.nadjenId = p.id; S.rijeseno++;
+    CL.pip(true);
+    el.classList.remove('odabran'); el.classList.add('pogodak');
+    el.insertAdjacentHTML('beforeend', '<span class="iskoci">' + nagrada(S.soba >= SOBE.length - 1) + '</span>');
+    osvjeziHud(); radnja();
+    return;
+  }
+  S.prazno[p.id] = true; S.odabran = null; S.svijece--;
+  CL.pip(false);
+  el.classList.remove('odabran'); el.classList.add('prazno', 'tresi');
+  setTimeout(function(){ el.classList.remove('tresi'); }, 350);
+  osvjeziHud();
+  if (S.svijece <= 0){
+    CL.poruka('Nothing there. The last candle goes out.', 'lose');
+    CL.el('radnja').innerHTML = '<span class="uputa">It is dark.</span>';
+    document.getElementById('scena').classList.add('mrak');
+    setTimeout(krajTame, 1100);
+    return;
+  }
+  CL.poruka('Nothing there. A candle goes out.', 'lose');
+  radnja();
+}
+
+/* ---------- kraj ---------- */
+var PISMO_KRAJ = 'Pronašli ste moj prsten. Nosila sam ga pedeset godina. Sada je vaš, jer ste razumjeli moj jezik. Hvala vam. — Klara';
+function finale(){
+  ploha.innerHTML =
+    '<div class="kartica uvod">' +
+      '<div class="ukras velik">' + nagrada(true) + '</div>' +
+      '<h2>Klara’s ring</h2>' +
+      '<div class="pismo"><div class="od">The last letter</div><p>' + CL.esc(PISMO_KRAJ) + '</p>' +
+      '<div class="enRed">' + CL.skritEN('You found my ring. I wore it for fifty years. Now it is yours, because you understood my language. Thank you. — Klara') + '</div></div>' +
+      '<div class="izbor"><button class="g glavni" id="gotovo">Finish</button></div>' +
+    '</div>';
+  CL.el('gotovo').onclick = function(){
+    CL.kraj({ naslov:'The castle is yours', bodovi:bodovi(), maks:window.IGRA_MAKS,
+      tekst:'Ten rooms, ten notes, ' + S.svijece + ' of ' + S.max + ' candle' + (S.max === 1 ? '' : 's') + ' still burning.',
+      ponovno:uvod });
+  };
+  PX.prilagodi();
+}
+function krajTame(){
+  var soba = SOBE[S.soba];
+  CL.kraj({ naslov:'The last candle went out', bodovi:bodovi(), maks:window.IGRA_MAKS,
+    tekst:'You got as far as the ' + CL.esc(soba.en.toLowerCase()) + ' (room ' + (S.soba + 1) + ' of ' + SOBE.length + '). ' +
+      'Next time the notes will be different.',
+    ponovno:uvod });
+}
+
+/* ---------- mjerilo ---------- */
+PX.mjerilo({ sirina:166, omot:function(){ return O; }, kMax:3, kMaxUsko:2.5, kMin:1.34 });
 uvod();
 </script>
 </body>
