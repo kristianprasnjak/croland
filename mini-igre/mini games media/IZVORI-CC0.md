@@ -36,3 +36,4 @@ Preuzeti su i ovi paketi, ali se trenutno ne koriste; ostaju u `kenney/` kao rez
 | `konoba/*.png` (38 jela, 38 `-mini`, 12 gostiju × 3 izraza) | Gemini (Nano Banana 2.1), `redizajn/konoba-pixel/popis.json`, 11. 10. 2026.; svedeno na pravi pixel art s `redizajn/pikseli.py` (jela 32×32, gosti 40×40, zajednička paleta) |
 | `konoba/zid.png`, `drvo.png`, `ploca.png`, `rep.png` | vlastite pixel teksture, izrađene za ovu igru |
 | `dvorac/*.png` (10 pozadina soba, naslovna, 50 predmeta) | Gemini (Nano Banana 2.1), `redizajn/dvorac/popis.json`, 12. 10. 2026.; svedeno na pravi pixel art s `redizajn/dvorac/obradi.py` (zajednička paleta, iste gustoće piksela); znakovi na knjigama i oznake bačava dorisani pikselima |
+| `dvorac2/*.png`, `*.jpg` (predmeti, pozadine soba, naslovna) | isti Gemini originali kao `dvorac/`; izrezani u većoj veličini s `redizajn/dvorac/izrezi2.py` (12. 10. 2026., izgled v2) |

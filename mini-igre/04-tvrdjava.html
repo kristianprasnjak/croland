@@ -308,98 +308,110 @@ img{image-rendering:pixelated}
 }
 /*[/CL-PIXEL]*/
 
-/* ==== Dvorac — pixel svijet: noć ====
-   Zajednički dio je u bloku CL-PIXEL iznad. Ovdje je svijet dvorca:
-   hladan noćni kamen i modro-siva tama; topla su samo svjetla (svijeće,
-   zlato, papir). Tinta, krem i boje stanja su zajedničke s Konobom. */
+/* ==== Dvorac — izgled v2 (12. 10. 2026.) ====
+   Predmeti su izrezani iz Gemini originala u punoj veličini (ne svode se
+   na sitnu pixel mrežu), scena je preko cijele širine (4:3), s toplim
+   svjetlom svijeće, sjenama i dubinom (dva reda predmeta).
+   Blok CL-PIXEL iznad daje fontove i boje stanja; ovdje se HUD, prozori
+   i gumbi prepisuju u mekši izgled koji se slaže sa slikama. */
 :root{
-  --svijet:#1E2130; --svijet-slika:none;
-  --ploca:#2A2D3B; --ploca-tekst:#EDE6D8; --ploca-tekst2:#9AA0B4;
-  --gumb:#ECE3D0; --gumb-hover:#F6EFE2;
-  --gumb-glavni:#6B4A2E; --gumb-glavni-hover:#7A5636; --gumb-glavni-tekst:#F6EBD6;
-  --zastor-tama:rgba(10,12,20,.72); --zastor-tekst:#6F6153;
-  --zlato:#F2C46B;
+  --svijet:#16130F; --papir:#F4EADA; --zlato:#F2C46B; --zlatoT:#A67F35;
+  --ploca:#241E18; --ploca-tekst:#EDE3D1; --ploca-tekst2:#A8987F;
+  --gumb:#EFE4D0; --gumb-hover:#F7EFE1; --gumb-glavni:#F2C46B; --gumb-glavni-hover:#F6D07F; --gumb-glavni-tekst:#2B2118;
+  --zastor-tama:rgba(10,8,6,.74); --zastor-tekst:#6F6153;
 }
-body{background:var(--svijet) radial-gradient(ellipse at 50% -10%,rgba(120,130,170,.18),transparent 60%) no-repeat}
-.hud .znak .svijecaZ{width:calc(5*var(--u));height:calc(9*var(--u));display:block}
-.hud #zSvijece{gap:calc(2*var(--u))}
+body{background:radial-gradient(ellipse at 50% 0%,#2A2219 0%,#16130F 70%) fixed,#16130F;color:var(--ploca-tekst)}
+.omot{max-width:620px;padding:10px}
 
-/* kartice (uvod, kraj) */
-.kartica{margin:var(--u);background:var(--krem);box-shadow:var(--obrub);padding:calc(6*var(--u)) calc(6*var(--u));text-align:center}
-.kartica h2{font-family:var(--pix);font-weight:400;font-size:26px;letter-spacing:1px;margin:6px 0 10px}
-.kartica .enTekst{font-size:15px;line-height:1.5;color:#4E4338;text-align:left;margin-bottom:14px}
-.kartica .ukras svg{width:calc(13*3*var(--u));height:calc(6*3*var(--u))}
-.kartica .ukras.velik svg,.kartica .ukras.velik img{width:calc(14*4*var(--u));height:calc(16*4*var(--u));object-fit:contain}
-.kartica .naslovna{margin:calc(-6*var(--u)) calc(-6*var(--u)) 0;height:calc(84*var(--u));overflow:hidden;box-shadow:0 var(--u) 0 var(--tinta)}
-.kartica .naslovna img{display:block;width:100%;height:calc(128*var(--u) * 3.5 / 3.5);object-fit:cover;object-position:50% 0}
-.kartica .mala{font-size:13px;color:var(--siva);margin-top:10px}
-.izbor{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
-.izbor .g{display:inline-flex;align-items:center;gap:8px}
-.izbor .g .svijecaZ{width:10px;height:18px}
+/* ploča na vrhu */
+.hud{background:none;box-shadow:none;margin:0 0 8px;padding:4px 4px 6px;gap:14px}
+.hud .ime{font-size:19px;color:#F3E7D3}
+.hud .znak{color:#D9CDB8;font-size:15px}
+.hud .znak i{color:#8E8170;font-size:11px}
+.hud #zSvijece{display:flex;gap:4px;align-items:flex-end}
+.hud .svijecaZ{width:8px;height:15px;display:block;filter:drop-shadow(0 0 4px rgba(246,177,61,.5))}
 
-/* scena: zid, pod, predmeti */
-.scena{position:relative;width:calc(160*var(--u));height:calc(96*var(--u));margin:var(--u) auto calc(4*var(--u));overflow:hidden;
-  background:
-    radial-gradient(ellipse calc(90*var(--u)) calc(60*var(--u)) at 50% 0%,rgba(246,177,61,.16),transparent 70%),
-    repeating-linear-gradient(0deg,rgba(0,0,0,.22) 0 var(--u),transparent var(--u) calc(8*var(--u))),
-    repeating-linear-gradient(90deg,rgba(0,0,0,.14) 0 var(--u),transparent var(--u) calc(16*var(--u))),
-    var(--zid);
-  box-shadow:var(--obrub);transition:filter .8s}
-.scena .pod{position:absolute;left:0;right:0;bottom:0;height:calc(14*var(--u));background:
-  repeating-linear-gradient(90deg,rgba(0,0,0,.25) 0 var(--u),transparent var(--u) calc(20*var(--u))),var(--pod);
-  box-shadow:inset 0 var(--u) 0 rgba(0,0,0,.45)}
-.scena .daska{position:absolute;height:calc(3*var(--u));background:#6E4A31;box-shadow:inset 0 calc(-1*var(--u)) 0 #4A3020,0 var(--u) 0 #241C15}
-.scena .dekor{position:absolute;pointer-events:none}
-.scena .lik{display:block;position:relative;width:100%;height:100%}
-.scena img.lik,.scena .lik img{-webkit-user-drag:none;user-select:none}
-.scena .pr{position:absolute;padding:0;border:0;background:none;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
-.scena .pr.odabran .lik{filter:drop-shadow(var(--u) 0 0 var(--zlato)) drop-shadow(calc(-1*var(--u)) 0 0 var(--zlato)) drop-shadow(0 var(--u) 0 var(--zlato)) drop-shadow(0 calc(-1*var(--u)) 0 var(--zlato))}
-.scena .pr.prazno{opacity:.38;filter:grayscale(1);cursor:default}
-.scena .pr.pogodak .lik{filter:drop-shadow(var(--u) 0 0 var(--zelena)) drop-shadow(calc(-1*var(--u)) 0 0 var(--zelena)) drop-shadow(0 var(--u) 0 var(--zelena)) drop-shadow(0 calc(-1*var(--u)) 0 var(--zelena))}
-.scena .pr.tresi{animation:tresi .3s}
-@keyframes tresi{25%{transform:translateX(calc(-2*var(--u)))}75%{transform:translateX(calc(2*var(--u)))}}
-.scena .iskoci{position:absolute;left:50%;top:calc(-14*var(--u));transform:translateX(-50%);width:calc(13*2*var(--u));height:calc(6*2*var(--u));animation:iskoci .5s}
-.scena .iskoci svg,.scena .iskoci img{width:100%;height:100%;object-fit:contain}
-@keyframes iskoci{from{transform:translate(-50%,calc(8*var(--u)));opacity:0}}
-.scena .kap{position:absolute;bottom:calc(-4*var(--u));width:calc(2*var(--u));height:calc(3*var(--u));background:#7A1F2E;box-shadow:0 calc(2*var(--u)) 0 #5A1622}
-.scena .nota{position:absolute;right:calc(-3*var(--u));top:calc(-9*var(--u));font-style:normal;color:var(--zlato);font-size:calc(9*var(--u));line-height:1}
-.scena .natpis{position:absolute;left:calc(3*var(--u));top:calc(3*var(--u));background:rgba(20,22,32,.82);color:var(--ploca-tekst);
-  padding:calc(1*var(--u)) calc(3*var(--u));box-shadow:var(--obrub);pointer-events:none}
-.scena .natpis b{display:block;font-family:var(--pix);font-weight:400;font-size:13px;letter-spacing:1px}
-.scena .natpis span{display:block;font-size:10px;color:var(--ploca-tekst2)}
-.scena.mrak{filter:brightness(.15)}
-/* prava pozadina sobe (Gemini → pixel): zid i pod su na slici */
-.scena.imaPoz{background:
-    radial-gradient(ellipse calc(90*var(--u)) calc(60*var(--u)) at 50% 0%,rgba(246,177,61,.12),transparent 70%),
-    var(--poz) 0 0/100% 100% no-repeat,var(--zid);image-rendering:pixelated}
-.scena.imaPoz .pod{display:none}
-.scena .daskaP{position:absolute;left:0;right:0;height:calc(3*var(--u));background:#6E4A31;box-shadow:inset 0 calc(-1*var(--u)) 0 #4A3020,0 var(--u) 0 #241C15}
-.scena .broj{position:absolute;width:calc(12*var(--u));height:calc(7*var(--u));background:#F1E6CF;box-shadow:var(--obrub);
-  font-family:var(--pix);font-size:calc(7*var(--u));line-height:calc(7*var(--u));text-align:center;color:var(--tinta);pointer-events:none}
+/* natpis sobe iznad scene */
+.natpisSobe{display:flex;align-items:baseline;gap:10px;margin:2px 2px 8px;flex-wrap:wrap}
+.natpisSobe b{font-family:var(--pix);font-weight:400;font-size:16px;letter-spacing:1.5px;color:#F3E7D3}
+.natpisSobe span{font-size:12px;color:#A8987F}
+
+/* scena */
+.scena{position:relative;width:100%;aspect-ratio:4/3;border-radius:6px;overflow:hidden;background:#221C16 center/cover no-repeat;
+  box-shadow:0 0 0 2px #0B0907,0 10px 30px rgba(0,0,0,.5);transition:filter .9s}
+.scena::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:50;
+  background:radial-gradient(ellipse 70% 55% at 50% 20%,rgba(255,196,110,.22),transparent 70%),
+             radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(8,6,4,.55) 100%)}
+.scena.mrak{filter:brightness(.12)}
+.scena .pr,.scena .dekor{position:absolute;transform:translateX(-50%);border:0;background:none;padding:0;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.scena .dekor{pointer-events:none}
+.scena .lik{display:block;position:relative;width:100%;height:100%;object-fit:contain;-webkit-user-drag:none;user-select:none;
+  filter:drop-shadow(0 0 1px rgba(0,0,0,.9)) drop-shadow(0 0 6px rgba(255,214,150,.16));transition:filter .15s}
+.scena .pr:hover .lik{filter:drop-shadow(0 0 1px rgba(0,0,0,.9)) drop-shadow(0 0 8px rgba(255,214,150,.45))}
+.scena .pr.odabran .lik{filter:drop-shadow(2px 0 0 var(--zlato)) drop-shadow(-2px 0 0 var(--zlato)) drop-shadow(0 2px 0 var(--zlato)) drop-shadow(0 -2px 0 var(--zlato)) drop-shadow(0 0 10px rgba(242,196,107,.7))}
+.scena .pr.pogodak .lik{filter:drop-shadow(2px 0 0 #8FC46A) drop-shadow(-2px 0 0 #8FC46A) drop-shadow(0 2px 0 #8FC46A) drop-shadow(0 -2px 0 #8FC46A) drop-shadow(0 0 12px rgba(143,196,106,.7))}
+.scena .pr.prazno{opacity:.35;filter:grayscale(1);cursor:default}
+.scena .pr.tresi{animation:tresiD .3s}
+@keyframes tresiD{25%{transform:translateX(calc(-50% - 5px))}75%{transform:translateX(calc(-50% + 5px))}}
+.scena .sjena{position:absolute;transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(0,0,0,.6),rgba(0,0,0,.25) 60%,transparent)}
+.scena .daska{position:absolute;height:2.2%;background:linear-gradient(#8A6142,#5E3F2A);border-radius:2px;box-shadow:0 4px 8px rgba(0,0,0,.55)}
+.scena .daskaP{position:absolute;left:0;right:0;bottom:0;height:14%;background:linear-gradient(#8A6142,#5E3F2A);border-radius:2px;box-shadow:0 4px 8px rgba(0,0,0,.55)}
+.scena .klin{position:absolute;width:2.4%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#C9A46A,#6B4A2E);box-shadow:0 2px 3px rgba(0,0,0,.6)}
+.scena .broj{position:absolute;left:50%;top:50%;transform:translate(-50%,-10%);min-width:38%;padding:0 4%;
+  background:#F1E6CF;border:2px solid #3A2A1C;border-radius:3px;font-family:var(--pix);font-size:clamp(12px,3.6vw,20px);
+  line-height:1.25;text-align:center;color:#2B2118;pointer-events:none}
+.scena .iskoci{position:absolute;left:50%;bottom:100%;transform:translateX(-50%);width:min(110%,90px);animation:iskoci .5s;z-index:60}
+.scena .iskoci img{width:100%;display:block;filter:drop-shadow(0 0 8px rgba(242,196,107,.8))}
+@keyframes iskoci{from{transform:translate(-50%,30px);opacity:0}}
 
 /* Klarina poruka */
-.pismo{margin:var(--u) var(--u) calc(4*var(--u));background:#F3E9D2;box-shadow:var(--obrub);padding:calc(4*var(--u)) calc(5*var(--u));text-align:left}
-.pismo .od{font-family:var(--pix);font-size:12px;letter-spacing:.5px;color:#8C7A62;text-transform:uppercase;margin-bottom:4px}
-.pismo p{font-size:18px;font-weight:600;line-height:1.4;color:var(--tinta)}
-.pismo .rijeci{font-size:13px;color:#7A6A55;margin-top:8px;line-height:1.5}
+.pismo{margin:14px 0 0;background:var(--papir);color:var(--tinta);border-radius:6px;padding:14px 16px;text-align:left;box-shadow:0 6px 18px rgba(0,0,0,.35);
+  background-image:linear-gradient(rgba(140,110,70,.06) 1px,transparent 1px);background-size:100% 26px}
+.pismo .od{font-family:var(--pix);font-size:12px;letter-spacing:.5px;color:#8C7A62;text-transform:uppercase;margin-bottom:5px}
+.pismo p{font-size:19px;font-weight:600;line-height:1.4}
+.pismo .rijeci{margin-top:8px;font-size:13px;color:#7A6A55;line-height:1.5}
 .pismo .rijeci b{color:var(--tinta);font-weight:600}
 .pismo .enRed{margin-top:6px;font-size:14px;color:var(--siva)}
 
-/* traka s radnjom ispod poruke */
-.radnja{margin:var(--u);min-height:calc(18*var(--u));display:flex;align-items:center;justify-content:space-between;gap:10px;
-  padding:calc(2*var(--u)) calc(4*var(--u));background:var(--ploca);box-shadow:var(--obrub);color:var(--ploca-tekst)}
-.radnja .uputa{font-size:14px;color:var(--ploca-tekst2)}
-.radnja .imePr b{font-size:20px;font-weight:700;margin-right:8px}
-.radnja .otkrijEN{background:none;border-color:#4A4E60;color:var(--ploca-tekst2);font-size:13px}
-.radnja .g{margin:var(--u)}
-.radnja .nadjeno{display:flex;align-items:center;gap:10px}
-.radnja .nadjeno svg,.radnja .nadjeno img{width:calc(22*var(--u));height:calc(16*var(--u));object-fit:contain;flex:none}
+/* traka s radnjom */
+.radnja{margin-top:10px;min-height:62px;display:flex;align-items:center;gap:10px;justify-content:space-between;
+  background:#2A231C;border:1px solid #3B3128;border-radius:6px;padding:10px 12px;color:#F3E7D3}
+.radnja .uputa{font-size:14px;color:#A8987F}
+.radnja .imePr{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.radnja .imePr b{font-size:21px;font-weight:700}
+.radnja .otkrijEN{background:none;border:1px solid #4A3E33;border-radius:5px;color:#A8987F;font-size:13px;padding:1px 7px}
+.radnja .nadjeno{display:flex;align-items:center;gap:12px}
+.radnja .nadjeno img{width:54px;height:40px;object-fit:contain;flex:none}
 .radnja .nadjeno b{display:block;font-family:var(--pix);font-weight:400;font-size:16px;color:var(--zlato)}
-.radnja .nadjeno span{font-size:13px;color:var(--ploca-tekst2)}
+.radnja .nadjeno span{font-size:13px;color:#A8987F}
+
+/* gumbi i prozori: meko, toplo */
+.g{font-family:var(--pix);font-size:16px;border-radius:5px;border:0;padding:11px 18px;margin:0;
+  background:var(--gumb);color:var(--tinta);box-shadow:0 3px 0 #B9A98C}
+.g.glavni{background:var(--zlato);color:#2B2118;box-shadow:0 3px 0 var(--zlatoT)}
+.g:active{transform:translateY(2px)}
+.zastor .kut{border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+.poruka{border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.45)}
+
+/* uvod i kraj */
+.kartica{background:var(--papir);color:var(--tinta);border-radius:8px;overflow:hidden;padding:0 18px 18px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.kartica .naslovna{margin:0 -18px 6px;aspect-ratio:3/2;background:#111 center 30%/cover no-repeat}
+.kartica h2{font-family:var(--pix);font-weight:400;font-size:26px;letter-spacing:1px;margin:10px 0}
+.kartica .enTekst{font-size:15px;line-height:1.5;color:#4E4338;text-align:left;margin-bottom:12px}
+.kartica .pismo{box-shadow:none;border:1px solid #E2D3B8}
+.kartica .ukras.velik img{width:120px;height:120px;object-fit:contain;margin-top:18px;filter:drop-shadow(0 0 12px rgba(242,196,107,.6))}
+.kartica .mala{font-size:13px;color:var(--siva);margin-top:10px}
+.izbor{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+.izbor .g{display:inline-flex;align-items:center;gap:8px}
+.izbor .g .svijecaZ{width:8px;height:15px}
 
 @media (max-width:640px){
-  .pismo p{font-size:16px}
-  .radnja .imePr b{font-size:18px}
+  .omot{padding:8px}
+  .pismo p{font-size:17px}
+  .radnja .imePr b{font-size:19px}
   .kartica h2{font-size:22px}
 }
 
@@ -877,121 +889,14 @@ var CL = (function () {
    Bodovi: 120 po sobi + 300 za cijeli dvorac = 1500 (IGRA_MAKS).
    ===================================================================== */
 
-/* ---------- boje ---------- */
-var BOJE = {
-  plava:  {a:'#4672B0', b:'#2D4F80', c:'#86A9D8'},
-  crvena: {a:'#B8432F', b:'#83301F', c:'#DE7A5F'},
-  crna:   {a:'#3B3A40', b:'#222126', c:'#605E68'},
-  bijela: {a:'#E7E1D4', b:'#B5AC9B', c:'#FFFFFF'},
-  zelena: {a:'#5B8A4A', b:'#3C6232', c:'#8DB879'},
-  smeda:  {a:'#8A5A3B', b:'#5C3B27', c:'#B07E57'},
-  srebrna:{a:'#AEB6BC', b:'#7A848C', c:'#E1E6E9'},
-  zlatna: {a:'#D9A441', b:'#A4762B', c:'#F2CF7A'},
-  ljubic: {a:'#7A5A8C', b:'#553E63', c:'#A486B4'},
-  krem:   {a:'#E8DDC0', b:'#B9AA88', c:'#FFF6DE'}
-};
-var STALNE = {
-  k:'#241C15', w:'#F4EEE2', p:'#E9DDC3', y:'#D9A441', Y:'#A4762B', n:'#8A5A3B', d:'#5C3B27',
-  e:'#BFD8E0', E:'#8FB2BE', s:'#F1E3BE', f:'#F6B13D', o:'#9C8A6E', m:'#8D9096', M:'#5F6166',
-  z:'#4F7A45', Z:'#34552E', r:'#B8432F', g:'#AEB6BC', G:'#7A848C', v:'#6E2335'
-};
-
-/* ---------- maske predmeta (1 znak = 1 art piksel; razmak = prozirno) ----------
-   a/b/c = glavna boja predmeta (srednja / tamna / svijetla), ostalo STALNE */
-var M = {
-  vaza:['   kkkkk   ','   kcaak   ','    kak    ','   kcaak   ','  kcaaabk  ',' kcaaaaabk ','kcaaaaaaabk','kcaaaaaaabk','kcaaaaaaabk','kcaaaaaaabk',' kcaaaaabk ','  kcaaabk  ','   kaaak   ','  kkkkkkk  '],
-  kutija:['kkkkkkkkkkkk','kcccccccccbk','kkkkkkkkkkkk','kaaaaayyaabk','kaaaaayyaabk','kaaaaaaaaabk','kbbbbbbbbbbk','kkkkkkkkkkkk'],
-  kaput:['    kkkk    ','   k    k   ','  kkkkkkkk  ',' kcaawwaabk ','kcaaakkaaabk','kcaaakkaaabk','kcaaakkaaabk','kcaaaakaaabk','kcaaaayaaabk','kkaaaakaaakk',' kaaaayaaak ',' kaaaakaaak ',' kaaaakaaak ',' kaaaakaaak ',' kbbbbkbbbk ',' kkkkkkkkkk '],
-  sesir:['   kkkkkk   ','   kcaabk   ','   kcaabk   ','   kcaabk   ','   kyyyyk   ','   kcaabk   ','kkkkkkkkkkkk','kcaaaaaaaabk','kkkkkkkkkkkk'],
-  ogledalo:['  kkkkkk  ',' kaaaaaak ','kaeweeeeak','kaewweeeak','kaeeweeeak','kaeeeeeeak','kaeeeeeEak','kaeeeeEEak','kaeeeeeeak','kaeeeeeeak','kaeeeeeeak',' kaaaaaak ','  kkkkkk  ','   kbbk   ','  kkkkkk  '],
-  fotelja:['  kkkkkkkkkk  ',' kcaaaaaaaabk ',' kcaaaaaaaabk ',' kcaaaaaaaabk ','kkcaaaaaaaabkk','kckkkkkkkkkkbk','kcakwwwwkaaabk','kcakrrrrkaaabk','kkkkkkkkkkkkkk',' kd        dk ',' kk        kk '],
-  pisaci:['         k     ','        kwk    ','  kpppppkwk    ','  kpkkkpkwk    ','  kpppppppk    ','kkkkkkkkkkkkkkk','knnnnnnnnnnnnnk','kdkkkkkkkkkkkdk','kdk         kdk','kdk         kdk','kkk         kkk'],
-  klavir:['kkkkkkkkkkkkkkkk','kddddddddddddddk','kdddpppddddddddk','kdddpppddddddddk','kkkkkkkkkkkkkkkk','kwkwwkwkwwkwkwwk','kwkwwkwkwwkwkwwk','kwwwwwwwwwwwwwwk','kkkkkkkkkkkkkkkk','kdk          kdk','kdk          kdk','kkk          kkk'],
-  stolic:['   w  w     ','    ww      ','  kkkkk     ','  kwwwkk    ','  kwwwk k   ','  kwwwkk    ',' kkkkkkk    ','kkkkkkkkkkkk','knnnnnnnnnnk','kkkkkkkkkkkk','  kdk  kdk  ','  kdk  kdk  ','  kkk  kkk  '],
-  stol:['   kkkkkkk    ','  kpppppppk   ','  krrrrrrrk   ','  kpppppppk   ',' kkkkkkkkkkk  ','kkkkkkkkkkkkkk','knnnnnnnnnnnnk','kkkkkkkkkkkkkk',' kdk      kdk ',' kdk      kdk ',' kkk      kkk '],
-  salica:['kkkkkkk   ','kcaaabkkk ','kcaaabk k ','kcaaabk k ','kcaaabkkk ',' kaaabk   ','kkkkkkkk  '],
-  lonac:['    kkkkkk    ','   kbbbbbbk   ','kkkkkkkkkkkkkk','k kcaaaaaabk k','kkkcaaaaaabkkk','  kcaaaaaabk  ','  kcaaaaaabk  ','  kbaaaaaabk  ','   kkkkkkkk   '],
-  zdjela:['kkkkkkkkkkkkkk','kcaaaaaaaaaabk',' kcaaaaaaaabk ','  kcaaaaaabk  ','   kkkkkkkk   ','    kkkkkk    '],
-  vrc:['  kkkkk    ',' kkcaabk   ','  kcaabk   ',' kcaaaabkkk','kcaaaaaabkk','kcaaaaaabk k','kcaaaaaabk k','kcaaaaaabkk ','kcaaaaaabk  ',' kaaaaabk   ',' kkkkkkkk   '],
-  vjedro:['  kkkkkkkk  ',' k        k ','k          k','kkkkkkkkkkkk','kcaaaaaaaabk',' kcmaaaaamk ',' kcaaaaaabk ',' kcaaaaaabk ',' kcmmmmmmmk ','  kkkkkkkk  '],
-  tava:['kkkkkkkkk       ','kcaaaaaabk      ','kcaaaaaabkkkkkkk','kcaaaaaabkdddddk',' kaaaaabk kkkkkk','  kkkkkk        '],
-  svijeceNove:['  f    f    f ','  k    k    k ',' kwk  kwk  kwk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' ksk  ksk  ksk',' kkk  kkk  kkk','kkkkkkkkkkkkkk','kyyyyyyyyyyyyk','kkkkkkkkkkkkkk'],
-  svijeceStare:['  k    k    k ',' kok  kok  kok',' kok  kok  kok',' kok  kok  kok','kook kook kook','kkkkkkkkkkkkkk','kYYYYYYYYYYYYk','kkkkkkkkkkkkkk'],
-  tanjuriNovi:[' kkkkkkkkkkkk ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kaaaaaaaaaak ','kwwwwwwwwwwwwk',' kkkkkkkkkkkk '],
-  tanjuriStari:[' kkkkkk kkkkk ','kooooookoooook',' kbbbbbbbbbbk ','koooo ooooooo ',' kbbbbbbbbbbk ','kooooooooo  ok',' kbbbbbbbbbbk ','kooooooooooook',' kkkkkkkkkkkk '],
-  ogledalaStara:[' kkkk  kkkk  kkkk ','kYooYkkYooYkkYooYk','kYoeYkkYeoYkkYooYk','kYeoYkkYooYkkYoeYk','kYooYkkYoeYkkYeoYk','kYYYYkkYYYYkkYYYYk',' kkkk  kkkk  kkkk '],
-  knjiga:['kkkkkkkkkk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kcaaaaaabk','kpppppppkk','kkkkkkkkkk'],
-  ormar:['kkkkkkkkkkkkkkkk','kddddddddddddddk','kkkkkkkkkkkkkkkk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnykkynnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','knnnnnnkknnnnnnk','kkkkkkkkkkkkkkkk','kddddddddddddddk','kkkkkkkkkkkkkkkk','kdk          kdk','kkk          kkk'],
-  kutijaZaSesir:['  kkkkkkkkkk  ',' kccccccccccbk','kkkkkkkkkkkkkk','kaaaaaaaaaaabk','kaayyyyyyyyabk','kaaaaaaaaaaabk','kbbbbbbbbbbbbk','kkkkkkkkkkkkkk'],
-  skrinja:[' kkkkkkkkkkkkkk ','kdnnnnnnnnnnnndk','kdnnnnnnnnnnnndk','kkkkkkkkkkkkkkkk','knnnnnnyynnnnnnk','knnnnnnyynnnnnnk','kmnnnnnnnnnnnnmk','kmnnnnnnnnnnnnmk','kkkkkkkkkkkkkkkk'],
-  jastuk:['  kkkkkkkkkk  ',' kwwwwwwwwwwk ','kwwcccccccwwwk','kwwwwwwwwwwwwk',' kwwwwwwwwwwk ','  kkkkkkkkkk  '],
-  krevet:['kkkk                    ','kddk                    ','kddkkkkkkkkkkkkkkkkkkkkk','kddkwwwwkcaaaaaaaaaaaabk','kddkwwwwkcaaaaaaaaaaaabk','kddkkkkkkcaaaaaaaaaaaabk','kddkaaaaaaaaaaaaaaaaaabk','kddkbbbbbbbbbbbbbbbbbbbk','kddkkkkkkkkkkkkkkkkkkkkk','kddnnnnnnnnnnnnnnnnnnndk','kkkkkkkkkkkkkkkkkkkkkkkk','kdk                  kdk','kkk                  kkk'],
-  bacva:['  kkkkkkkk  ',' kddddddddk ','kkkkkkkkkkkk','knnnnnnnnnnk','kmmmmmmmmmmk','knnnnnnnnnnk','knnnnnnnnnnk','knnnnnnnnnnk','knnnnnnnnnnk','kmmmmmmmmmmk','knnnnnnnnnnk','kkkkkkkkkkkk'],
-  stit:['kkkkkkkkkkkk','kcaaaaaaaabk','kcaaaaaaaabk','kcaaayyaaabk','kcaayyyyaabk','kcaaayyaaabk','kcaaaaaaaabk',' kcaaaaaabk ',' kcaaaaaabk ','  kcaaaabk  ','   kcaabk   ','    kkkk    '],
-  mac:['  k  ',' kwk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ',' kgk ','kkkkk','kyyyk','kkkkk',' kdk ',' kdk ',' kyk ',' kkk '],
-  kaciga:['   kkkkkk   ','  kgggggGk  ',' kgggggggGk ','kggggggggggk','kggkkkkkkggk','kggkMMMMkggk','kggkkkkkkggk','kgggggggggGk',' kGGGGGGGGk ','  kkkkkkkk  '],
-  koplje:[' k ','kgk','kgk','kgk','kkk',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' d ',' k '],
-  oklop:['  kkk  kkk  ',' kgggkkgggk ','kggggggggggk','kggggggggggk','kgggkkkkgggk','kgggggggggGk',' kggggggggk ',' kgggkkgggk ',' kggggggggk ',' kggggggggk ',' kGGGGGGGGk ',' kkkkkkkkkk '],
-  kljuc:[' kkk         ','kyyyk        ','ky kykkkkkkkk','kyyykyyyyyyyk',' kkk kkkkykyk','          kk '],
-  prsten:['   kkk   ','  keewk  ','   kkk   ','  kkkkk  ',' kyyyyyk ','kyykkkyyk','kyk   kyk','kyk   kyk','kyykkkyyk',' kyyyyyk ','  kkkkk  '],
-  sat:['   kkkkkk   ','  kddddddk  ',' kdwwwwwwdk ','kdwwwkwwwwdk','kdwwwkwwwwdk','kdwwwkkkkwdk','kdwwwwwwwwdk',' kdwwwwwwdk ','  kddddddk  ','   kdddddk  ','   kdyyydk  ','   kdyyydk  ','   kdddddk  ','  kkkkkkkk  ']
-};
-/* ikone na koricama knjiga (6×6, crtaju se svijetlom bojom) */
-var IKONE = {
-  ptica:['      ',' w  w ','  ww  ',' wwww ','  ww  ','      '],
-  more: ['      ',' w  w ','w ww w','      ','w  w w','      '],
-  konj: [' ww   ','wwww  ','  www ','  wwww','  w  w','      '],
-  zvijezda:['  w   ',' www  ','wwwww ',' www  ',' w w  ','      '],
-  cvijet:[' w w  ','  w   ',' w w  ','  w   ','  w   ',' www  ']
-};
-function polica(n){
-  /* polica s n boca (dvije do šest) */
-  var w = 3 + n * 4, i;
-  var r0 = ' ', r1 = ' ', r2 = ' ', r3 = ' ';
-  for (i = 0; i < n; i++){ r0 += ' kk '; r1 += ' kk '; r2 += 'kzzk'; r3 += 'kZzk'; }
-  var linija = 'k' + Array(w - 1).join('n') + 'k', okv = Array(w + 1).join('k');
-  return [r0 + '  ', r1 + '  ', r2 + '  ', r3 + '  ', r3 + '  ', r3 + '  ', r2 + '  ', okv, linija, okv,
-    'kd' + Array(w - 3).join(' ') + 'dk', 'kk' + Array(w - 3).join(' ') + 'kk'];
-}
-
-/* ---------- pixel slike (mini games media/dvorac/) ----------
-   VEL: koje slike postoje i koliko su velike (art pikseli). Predmet bez slike
-   crta se maskom iznad, pa igra radi i dok set nije potpun. */
-var MED_D = CL.MEDIJ + 'dvorac/';
-var VEL = /*[VEL]*/{"vaza":[21,34],"kutija-plava":[18,15],"kaput":[18,30],"sesir":[18,18],"ogledalo":[31,44],"fotelja":[30,30],"pisaci-stol":[30,29],"klavir":[34,33],"stolic":[21,24],"stol-kolac":[24,23],"salica":[13,10],"lonac":[22,17],"zdjela":[18,16],"vrc":[19,20],"vjedro":[16,20],"tava":[24,18],"svijece-nove":[22,21],"svijece-stare":[22,12],"tanjuri-novi":[20,19],"tanjuri-stari":[20,19],"ogledala-stara":[28,21],"knjiga-more":[25,32],"knjiga-ptice":[25,32],"knjiga-konji":[25,32],"knjiga-zvijezde":[25,32],"knjiga-cvijece":[25,32],"kutija-broj":[22,21],"sat":[17,40],"ormar":[44,52],"kutija-sesir":[18,15],"skrinja":[30,26],"jastuk":[18,17],"krevet":[54,41],"boca":[5,15],"bacva-puna":[33,32],"bacva-prazna":[30,32],"stit":[22,26],"mac":[11,30],"kaciga":[17,18],"koplje":[8,52],"oklop":[23,48],"kutija-drvena":[20,17],"kutija-srebrna":[20,17],"kutija-zlatna":[20,17],"kutija-plavazl":[20,17],"kutija-glazbena":[20,16],"kljuc":[22,10],"prsten":[14,16],"svijeca":[11,16],"svijeca-ugasena":[11,16],"poz-blagovaonica":[160,96],"poz-knjiznica":[160,96],"poz-kuhinja":[160,96],"poz-oruzarnica":[160,96],"poz-podrum":[160,96],"poz-predvorje":[160,96],"poz-sat":[160,96],"poz-spavaca":[160,96],"poz-spremiste":[160,96],"poz-tajna":[160,96],"naslovna":[128,128]}/*[/VEL]*/;
-function imaSliku(ime){ return !!(ime && VEL[ime]); }
-function sprite(ime, klasa){ return '<img class="' + (klasa || 'lik') + '" src="' + MED_D + ime + '.png" alt="" draggable="false">'; }
-
-/* ---------- crtanje maske u SVG ---------- */
-function svgPredmet(p){
-  var maska = p.m === 'polica' ? polica(p.n) : M[p.m];
-  var boja = BOJE[p.boja || 'smeda'];
-  var rows = maska.map(function(r){ return r.split(''); });
-  var w = Math.max.apply(null, rows.map(function(r){ return r.length; })), h = rows.length;
-  /* staro: mrlje i pukotine na plohi; novo: odsjaj */
-  var plohe = [];
-  rows.forEach(function(r, y){ r.forEach(function(ch, x){ if (ch === 'a' || ch === 'e') plohe.push([x, y]); }); });
-  if (p.star) plohe.forEach(function(t, i){ if (i % 9 === 4) rows[t[1]][t[0]] = 'o'; });
-  if (p.nov) plohe.forEach(function(t, i){ if (i === 1 || i === 2 || i === 9) rows[t[1]][t[0]] = 'w'; });
-  if (p.otvorena){ rows[0] = '  kkkkkkkk  '.split(''); rows[1] = ' kkMMMMMMkk '.split(''); }
-  if (p.ikona){
-    var ik = IKONE[p.ikona];
-    ik.forEach(function(r, y){ r.split('').forEach(function(ch, x){ if (ch === 'w') rows[y + 3][x + 2] = 'w'; }); });
-  }
-  var rect = '';
-  rows.forEach(function(r, y){
-    var x = 0;
-    while (x < w){
-      var ch = r[x] || ' ';
-      if (ch === ' ' || ch === '.'){ x++; continue; }
-      var x0 = x; while (x < w && r[x] === ch) x++;
-      var col = ch === 'a' ? boja.a : ch === 'b' ? boja.b : ch === 'c' ? boja.c : STALNE[ch];
-      rect += '<rect x="' + x0 + '" y="' + y + '" width="' + (x - x0) + '" height="1" fill="' + col + '"/>';
-    }
-  });
-  var tekst = p.broj != null ? '<text x="' + (w / 2) + '" y="' + (h - 2.2) + '" text-anchor="middle" font-size="4.6" font-family="Geist Pixel, monospace" fill="#241C15">' + p.broj + '</text>' : '';
-  return {w:w, h:h, svg:'<svg viewBox="0 0 ' + w + ' ' + h + '" shape-rendering="crispEdges">' + rect + tekst + '</svg>'};
-}
+/* ---------- slike (mini games media/dvorac2/) ----------
+   Predmeti su izrezani iz Gemini originala (redizajn/dvorac/izrezi2.py) i
+   postavljaju se u postocima scene 4:3: x = sredina, dno = donji rub,
+   h = visina (sve u % scene). zid = visi na zidu ili stoji na polici (bez sjene). */
+var MED_D = CL.MEDIJ + 'dvorac2/';
+var VEL = /*[VEL]*/{"vaza":[237,384],"kutija-plava":[384,320],"kaput":[250,384],"sesir":[384,375],"ogledalo":[264,384],"fotelja":[379,384],"pisaci-stol":[384,374],"klavir":[384,376],"stolic":[384,352],"stol-kolac":[384,368],"salica":[384,307],"lonac":[384,292],"zdjela":[384,332],"vrc":[358,384],"vjedro":[311,384],"tava":[384,279],"svijece-nove":[384,357],"svijece-stare":[384,213],"tanjuri-novi":[384,365],"tanjuri-stari":[384,365],"ogledala-stara":[384,288],"knjiga-more":[307,384],"knjiga-ptice":[307,384],"knjiga-konji":[307,384],"knjiga-zvijezde":[307,384],"knjiga-cvijece":[307,384],"kutija-broj":[384,361],"sat":[161,384],"ormar":[325,384],"kutija-sesir":[384,313],"skrinja":[384,329],"jastuk":[384,355],"krevet":[384,289],"boca":[123,384],"bacva-puna":[384,359],"bacva-prazna":[305,384],"stit":[328,384],"mac":[141,384],"kaciga":[355,384],"koplje":[55,384],"oklop":[179,384],"kutija-drvena":[384,328],"kutija-srebrna":[384,328],"kutija-zlatna":[384,327],"kutija-plavazl":[384,328],"kutija-glazbena":[384,309],"kljuc":[384,175],"prsten":[343,384],"svijeca":[267,384],"svijeca-ugasena":[362,384],"poz-predvorje":[960,720],"poz-blagovaonica":[960,720],"poz-kuhinja":[960,720],"poz-spremiste":[960,720],"poz-knjiznica":[960,720],"poz-sat":[960,720],"poz-spavaca":[960,720],"poz-podrum":[960,720],"poz-oruzarnica":[960,720],"poz-tajna":[960,720],"naslovna":[960,644]}/*[/VEL]*/;
+function slikaUrl(ime, ext){ return MED_D + ime + (ext || '.png'); }
+function img(ime, klasa){ return '<img class="' + (klasa || 'lik') + '" src="' + slikaUrl(ime) + '" alt="" draggable="false">'; }
 
 /* =====================================================================
    SOBE
@@ -1002,13 +907,13 @@ function svgPredmet(p){
 var SOBE = [
   { hr:'Predvorje', en:'Entrance hall', lekcije:'1–2', poz:'predvorje', zid:'#3C4254', pod:'#3A302B',
     predmeti:[
-      {id:'vaza',    slika:'vaza',        m:'vaza',    boja:'plava', s:3, x:8,   dno:92, ime:'vaza', en:'vase'},
-      {id:'kutija',  slika:'kutija-plava',m:'kutija',  boja:'plava', s:2, x:38,  dno:92, ime:'kutija', en:'box'},
-      {id:'kaput',   slika:'kaput',       m:'kaput',   boja:'crna',  s:2, x:64,  dno:57, ime:'kaput', en:'coat', star:true},
-      {id:'sesir',   slika:'sesir',       m:'sesir',   boja:'crna',  s:2, x:93,  dno:44, ime:'šešir', en:'hat', nov:true},
-      {id:'ogledalo',slika:'ogledalo',    m:'ogledalo',boja:'zlatna',s:3, x:122, dno:92, ime:'ogledalo', en:'mirror', star:true}
+      {id:'vaza',     s:'vaza',         x:13, dno:95, h:40, ime:'vaza', en:'vase'},
+      {id:'kutija',   s:'kutija-plava', x:39, dno:95, h:15, ime:'kutija', en:'box'},
+      {id:'kaput',    s:'kaput',        x:33, dno:56, h:38, zid:1, ime:'kaput', en:'coat'},
+      {id:'sesir',    s:'sesir',        x:68, dno:41, h:15, zid:1, ime:'šešir', en:'hat'},
+      {id:'ogledalo', s:'ogledalo',     x:84, dno:96, h:56, ime:'ogledalo', en:'mirror'}
     ],
-    polica:[{x:60, y:26, w:26}, {x:88, y:44, w:28}],
+    daske:[{x:57, y:41, w:23}], klinovi:[{x:33, y:16}],
     rijeci:[['ključ','key'],['ondje','there'],['Što je to?','What is it?']],
     inacice:[
       {t:'vaza',     hr:'Ključ je ondje. Što je to? Ona je velika i plava.'},
@@ -1020,11 +925,11 @@ var SOBE = [
 
   { hr:'Blagovaonica', en:'Dining room', lekcije:'3–4', poz:'blagovaonica', zid:'#46384A', pod:'#3A2C26',
     predmeti:[
-      {id:'fotelja', slika:'fotelja',    m:'fotelja', boja:'crvena', s:2, x:2,   dno:92, ime:'fotelja', en:'armchair'},
-      {id:'pisaci',  slika:'pisaci-stol',m:'pisaci',  s:2, x:34,  dno:92, ime:'pisaći stol', en:'writing desk'},
-      {id:'klavir',  slika:'klavir',     m:'klavir',  s:2, x:67,  dno:92, ime:'klavir', en:'piano'},
-      {id:'stolic',  slika:'stolic',     m:'stolic',  s:2, x:104, dno:92, ime:'stolić', en:'small table'},
-      {id:'stol',    slika:'stol-kolac', m:'stol',    s:2, x:128, dno:92, ime:'stol', en:'table'}
+      {id:'klavir',  s:'klavir',      x:36, dno:71, h:40, ime:'klavir', en:'piano'},
+      {id:'pisaci',  s:'pisaci-stol', x:72, dno:71, h:28, ime:'pisaći stol', en:'writing desk'},
+      {id:'fotelja', s:'fotelja',     x:16, dno:96, h:33, ime:'fotelja', en:'armchair'},
+      {id:'stolic',  s:'stolic',      x:52, dno:96, h:27, ime:'stolić', en:'small table'},
+      {id:'stol',    s:'stol-kolac',  x:83, dno:96, h:30, ime:'stol', en:'table'}
     ],
     rijeci:[['muž','husband'],['kći','daughter'],['sin','son'],['sjediti','to sit'],['navečer','in the evening']],
     inacice:[
@@ -1037,14 +942,14 @@ var SOBE = [
 
   { hr:'Kuhinja', en:'Kitchen', lekcije:'5–6', poz:'kuhinja', zid:'#4A4038', pod:'#3B302A',
     predmeti:[
-      {id:'salica', slika:'salica', m:'salica', boja:'crvena', s:2, x:10,  dno:52, ime:'šalica', en:'cup'},
-      {id:'lonac',  slika:'lonac',  m:'lonac',  boja:'crvena', s:2, x:22,  dno:92, ime:'lonac', en:'pot'},
-      {id:'zdjela', slika:'zdjela', m:'zdjela', boja:'plava',  s:2, x:38,  dno:52, ime:'zdjela', en:'bowl'},
-      {id:'vrc',    slika:'vrc',    m:'vrc',    boja:'plava',  s:2, x:64,  dno:92, ime:'vrč', en:'jug'},
-      {id:'vjedro', slika:'vjedro', m:'vjedro', boja:'bijela', s:2, x:96,  dno:92, ime:'vjedro', en:'bucket'},
-      {id:'tava',   slika:'tava',   m:'tava',   boja:'bijela', s:2, x:120, dno:40, ime:'tava', en:'pan'}
+      {id:'salica', s:'salica', x:15, dno:40, h:10, zid:1, ime:'šalica', en:'cup'},
+      {id:'zdjela', s:'zdjela', x:34, dno:40, h:11, zid:1, ime:'zdjela', en:'bowl'},
+      {id:'tava',   s:'tava',   x:78, dno:31, h:14, zid:1, ime:'tava', en:'pan'},
+      {id:'lonac',  s:'lonac',  x:19, dno:95, h:19, ime:'lonac', en:'pot'},
+      {id:'vrc',    s:'vrc',    x:50, dno:95, h:22, ime:'vrč', en:'jug'},
+      {id:'vjedro', s:'vjedro', x:79, dno:95, h:23, ime:'vjedro', en:'bucket'}
     ],
-    polica:[{x:4, y:52, w:64}, {x:110, y:40, w:44}],
+    daske:[{x:5, y:40, w:41}, {x:63, y:31, w:31}],
     rijeci:[['posuda','container'],['tražiti','to look for']],
     inacice:[
       {t:'salica', hr:'Ključ je u jednoj posudi. Ne tražite crveni. Tražite crvenu.'},
@@ -1056,13 +961,13 @@ var SOBE = [
 
   { hr:'Spremište', en:'Storeroom', lekcije:'7–8', poz:'spremiste', zid:'#3E4448', pod:'#33302C',
     predmeti:[
-      {id:'svStare', slika:'svijece-stare', m:'svijeceStare', s:2, x:10,  dno:48, ime:'svijeće', en:'candles'},
-      {id:'svNove',  slika:'svijece-nove',  m:'svijeceNove',  s:2, x:52,  dno:48, ime:'svijeće', en:'candles'},
-      {id:'tStari',  slika:'tanjuri-stari', m:'tanjuriStari', boja:'krem', s:2, x:12, dno:92, ime:'tanjuri', en:'plates'},
-      {id:'tNovi',   slika:'tanjuri-novi',  m:'tanjuriNovi',  boja:'plava', s:2, x:54, dno:92, ime:'tanjuri', en:'plates'},
-      {id:'ogStara', slika:'ogledala-stara',m:'ogledalaStara', s:2, x:116, dno:60, ime:'ogledala', en:'mirrors'}
+      {id:'svStare', s:'svijece-stare',  x:19, dno:42, h:13, zid:1, ime:'svijeće', en:'candles'},
+      {id:'svNove',  s:'svijece-nove',   x:47, dno:42, h:20, zid:1, ime:'svijeće', en:'candles'},
+      {id:'ogStara', s:'ogledala-stara', x:82, dno:52, h:17, zid:1, ime:'ogledala', en:'mirrors'},
+      {id:'tStari',  s:'tanjuri-stari',  x:24, dno:95, h:20, ime:'tanjuri', en:'plates'},
+      {id:'tNovi',   s:'tanjuri-novi',   x:52, dno:95, h:20, ime:'tanjuri', en:'plates'}
     ],
-    polica:[{x:4, y:48, w:84}, {x:110, y:60, w:40}],
+    daske:[{x:5, y:42, w:58}, {x:68, y:52, w:28}],
     rijeci:[['sutra','tomorrow'],['sakriti','to hide'],['iza njih','behind them']],
     inacice:[
       {t:'svStare', hr:'Sutra ću sakriti ključ iza njih. One su stare.'},
@@ -1074,13 +979,13 @@ var SOBE = [
 
   { hr:'Knjižnica', en:'Library', lekcije:'9–10', poz:'knjiznica', zid:'#3B3A4E', pod:'#352C27',
     predmeti:[
-      {id:'kMore',  slika:'knjiga-more',     m:'knjiga', boja:'plava',  ikona:'more',     s:2, x:14,  dno:70, ime:'knjiga', en:'book'},
-      {id:'kPtice', slika:'knjiga-ptice',    m:'knjiga', boja:'zelena', ikona:'ptica',    s:2, x:42,  dno:70, ime:'knjiga', en:'book'},
-      {id:'kKonji', slika:'knjiga-konji',    m:'knjiga', boja:'smeda',  ikona:'konj',     s:2, x:70,  dno:70, ime:'knjiga', en:'book'},
-      {id:'kZvij',  slika:'knjiga-zvijezde', m:'knjiga', boja:'ljubic', ikona:'zvijezda', s:2, x:98,  dno:70, ime:'knjiga', en:'book'},
-      {id:'kCvij',  slika:'knjiga-cvijece',  m:'knjiga', boja:'crvena', ikona:'cvijet',   s:2, x:126, dno:70, ime:'knjiga', en:'book'}
+      {id:'kMore',  s:'knjiga-more',     x:15, dno:64, h:28, zid:1, ime:'knjiga', en:'book'},
+      {id:'kPtice', s:'knjiga-ptice',    x:32.5, dno:64, h:28, zid:1, ime:'knjiga', en:'book'},
+      {id:'kKonji', s:'knjiga-konji',    x:50, dno:64, h:28, zid:1, ime:'knjiga', en:'book'},
+      {id:'kZvij',  s:'knjiga-zvijezde', x:67.5, dno:64, h:28, zid:1, ime:'knjiga', en:'book'},
+      {id:'kCvij',  s:'knjiga-cvijece',  x:85, dno:64, h:28, zid:1, ime:'knjiga', en:'book'}
     ],
-    polica:[{x:6, y:70, w:148}],
+    daske:[{x:4, y:64, w:92}],
     rijeci:[['jučer','yesterday'],['more','sea'],['ptica','bird'],['konj','horse'],['zvijezda','star'],['cvijeće','flowers']],
     inacice:[
       {t:'kPtice', hr:'Jučer smo muž i ja čitali. Ja sam čitala o moru, a on je čitao o pticama. Ključ je u njegovoj knjizi.'},
@@ -1092,13 +997,13 @@ var SOBE = [
 
   { hr:'Soba sa satom', en:'Clock room', lekcije:'11–12', poz:'sat', zid:'#3A4150', pod:'#30302F',
     predmeti:[
-      {id:'b4',  slika:'kutija-broj', m:'kutija', boja:'krem', broj:4,  s:2, x:4,   dno:92, ime:'kutija', en:'box'},
-      {id:'b11', slika:'kutija-broj', m:'kutija', boja:'krem', broj:11, s:2, x:29,  dno:92, ime:'kutija', en:'box'},
-      {id:'b13', slika:'kutija-broj', m:'kutija', boja:'krem', broj:13, s:2, x:54,  dno:92, ime:'kutija', en:'box'},
-      {id:'b17', slika:'kutija-broj', m:'kutija', boja:'krem', broj:17, s:2, x:107, dno:92, ime:'kutija', en:'box'},
-      {id:'b19', slika:'kutija-broj', m:'kutija', boja:'krem', broj:19, s:2, x:132, dno:92, ime:'kutija', en:'box'}
+      {id:'b4', s:'kutija-broj', broj:4, x:10, dno:95, h:22, ime:'kutija', en:'box'},
+      {id:'b11', s:'kutija-broj', broj:11, x:27.5, dno:95, h:22, ime:'kutija', en:'box'},
+      {id:'b13', s:'kutija-broj', broj:13, x:45, dno:95, h:22, ime:'kutija', en:'box'},
+      {id:'b17', s:'kutija-broj', broj:17, x:72.5, dno:95, h:22, ime:'kutija', en:'box'},
+      {id:'b19', s:'kutija-broj', broj:19, x:90, dno:95, h:22, ime:'kutija', en:'box'}
     ],
-    dekor:[{slika:'sat', m:'sat', s:3, x:83, dno:92}],
+    dekor:[{s:'sat', x:58.5, dno:78, h:58}],
     rijeci:[['kutija','box'],['ni','nor, not even']],
     inacice:[
       {t:'b4',  hr:'Gdje je ključ? Nije u kutiji jedanaest. Nije ni u kutiji trinaest. Nije u kutiji sedamnaest ni u kutiji devetnaest.'},
@@ -1110,11 +1015,11 @@ var SOBE = [
 
   { hr:'Spavaća soba', en:'Bedroom', lekcije:'13–14', poz:'spavaca', zid:'#433C52', pod:'#382D29',
     predmeti:[
-      {id:'ormar',    slika:'ormar',        m:'ormar',        s:2, x:2,   dno:92, ime:'ormar', en:'wardrobe'},
-      {id:'naOrmaru', slika:'kutija-sesir', m:'kutijaZaSesir', boja:'zelena', s:2, x:14, dno:41, ime:'kutija', en:'box'},
-      {id:'skrinja',  slika:'skrinja',      m:'skrinja',      s:2, x:50,  dno:92, ime:'škrinja', en:'chest'},
-      {id:'naSkrinji',slika:'jastuk',       m:'jastuk',       s:2, x:56,  dno:69, ime:'jastuk', en:'cushion'},
-      {id:'krevet',   slika:'krevet',       m:'krevet', boja:'ljubic', s:2, x:102, dno:92, ime:'krevet', en:'bed'}
+      {id:'ormar',    s:'ormar',        x:19, dno:92, h:58, ime:'ormar', en:'wardrobe'},
+      {id:'naOrmaru', s:'kutija-sesir', x:19, dno:35, h:10, ime:'kutija', en:'box'},
+      {id:'skrinja',  s:'skrinja',      x:51, dno:96, h:22, ime:'škrinja', en:'chest'},
+      {id:'naSkrinji',s:'jastuk',       x:51, dno:77, h:11, ime:'jastuk', en:'cushion'},
+      {id:'krevet',   s:'krevet',       x:80, dno:94, h:32, ime:'krevet', en:'bed'}
     ],
     rijeci:[],
     inacice:[
@@ -1127,12 +1032,12 @@ var SOBE = [
 
   { hr:'Podrum', en:'Cellar', lekcije:'15–16', poz:'podrum', zid:'#33363D', pod:'#2B2724',
     predmeti:[
-      {id:'p2', m:'polica', n:2, s:2, x:6,   dno:46, ime:'polica', en:'shelf'},
-      {id:'p3', m:'polica', n:3, s:2, x:36,  dno:46, ime:'polica', en:'shelf'},
-      {id:'p5', m:'polica', n:5, s:2, x:74,  dno:46, ime:'polica', en:'shelf'},
-      {id:'p6', m:'polica', n:6, s:2, x:6,   dno:88, ime:'polica', en:'shelf'},
-      {id:'bPuna',  slika:'bacva-puna',   m:'bacva', s:2, x:70,  dno:92, ime:'bačva', en:'barrel', vino:true},
-      {id:'bPrazna',slika:'bacva-prazna', m:'bacva', s:2, x:104, dno:92, ime:'bačva', en:'barrel', otvorena:true}
+      {id:'p2', polica:2, x:15, dno:42, h:21, zid:1, ime:'polica', en:'shelf'},
+      {id:'p3', polica:3, x:44, dno:42, h:21, zid:1, ime:'polica', en:'shelf'},
+      {id:'p5', polica:5, x:79, dno:42, h:21, zid:1, ime:'polica', en:'shelf'},
+      {id:'p6', polica:6, x:27, dno:73, h:21, zid:1, ime:'polica', en:'shelf'},
+      {id:'bPuna',  s:'bacva-puna',   x:62, dno:96, h:30, ime:'bačva', en:'barrel'},
+      {id:'bPrazna',s:'bacva-prazna', x:86, dno:96, h:30, ime:'bačva', en:'barrel'}
     ],
     rijeci:[['iza','behind'],['polica','shelf'],['boca','bottle'],['bačva','barrel'],['vino','wine'],['bez','without']],
     inacice:[
@@ -1145,13 +1050,13 @@ var SOBE = [
 
   { hr:'Oružarnica', en:'Armoury', lekcije:'17–18', poz:'oruzarnica', zid:'#40414A', pod:'#33302C',
     predmeti:[
-      {id:'stit',   slika:'stit',   m:'stit',   boja:'crvena', s:2, x:10,  dno:58, ime:'štit', en:'shield'},
-      {id:'mac',    slika:'mac',    m:'mac',    s:2, x:42,  dno:62, ime:'mač', en:'sword'},
-      {id:'kaciga', slika:'kaciga', m:'kaciga', s:2, x:66,  dno:40, ime:'kaciga', en:'helmet'},
-      {id:'koplje', slika:'koplje', m:'koplje', s:2, x:100, dno:92, ime:'koplje', en:'spear'},
-      {id:'oklop',  slika:'oklop',  m:'oklop',  s:3, x:124, dno:92, ime:'oklop', en:'armour'}
+      {id:'stit',   s:'stit',   x:14, dno:52, h:25, zid:1, ime:'štit', en:'shield'},
+      {id:'mac',    s:'mac',    x:33, dno:56, h:32, zid:1, ime:'mač', en:'sword'},
+      {id:'kaciga', s:'kaciga', x:54, dno:37, h:16, zid:1, ime:'kaciga', en:'helmet'},
+      {id:'koplje', s:'koplje', x:72, dno:95, h:72, ime:'koplje', en:'spear'},
+      {id:'oklop',  s:'oklop',  x:88, dno:96, h:58, ime:'oklop', en:'armour'}
     ],
-    polica:[{x:60, y:40, w:30}],
+    daske:[{x:44, y:37, w:21}],
     rijeci:[['dirati','to touch'],['iza','behind'],['ispod','under']],
     inacice:[
       {t:'mac',    hr:'Nemojte gledati iza štita. Ne dirajte kacigu. Pogledajte iza mača.'},
@@ -1163,11 +1068,11 @@ var SOBE = [
 
   { hr:'Tajna soba', en:'Secret room', lekcije:'19–20', poz:'tajna', zid:'#4A3A3A', pod:'#3A2B26',
     predmeti:[
-      {id:'drvena',  slika:'kutija-drvena',   m:'kutija', boja:'smeda',   s:2, x:8,   dno:92, ime:'drvena kutija', en:'wooden box'},
-      {id:'srebrna', slika:'kutija-srebrna',  m:'kutija', boja:'srebrna', s:2, x:38,  dno:92, ime:'srebrna kutija', en:'silver box'},
-      {id:'zlatna',  slika:'kutija-zlatna',   m:'kutija', boja:'zlatna',  s:2, x:68,  dno:92, ime:'zlatna kutija', en:'golden box'},
-      {id:'glazbena',slika:'kutija-glazbena', m:'kutija', boja:'crvena',  s:2, x:98,  dno:92, ime:'glazbena kutija', en:'music box', glazba:true},
-      {id:'plava',   slika:'kutija-plavazl',  m:'kutija', boja:'plava',   s:2, x:128, dno:92, ime:'plava kutija', en:'blue box'}
+      {id:'drvena',  s:'kutija-drvena',   x:11, dno:93, h:21, ime:'drvena kutija', en:'wooden box'},
+      {id:'srebrna', s:'kutija-srebrna',  x:30.5, dno:93, h:21, ime:'srebrna kutija', en:'silver box'},
+      {id:'zlatna',  s:'kutija-zlatna',   x:50, dno:93, h:21, ime:'zlatna kutija', en:'golden box'},
+      {id:'glazbena',s:'kutija-glazbena', x:69.5, dno:93, h:21, ime:'glazbena kutija', en:'music box'},
+      {id:'plava',   s:'kutija-plavazl',  x:89, dno:93, h:21, ime:'plava kutija', en:'blue box'}
     ],
     rijeci:[['prsten','ring'],['udati se','to get married'],['pismo','letter']],
     inacice:[
@@ -1218,7 +1123,7 @@ function uvod(){
   S = null; osvjeziHud();
   ploha.innerHTML =
     '<div class="kartica uvod">' +
-      (imaSliku('naslovna') ? '<div class="naslovna">' + sprite('naslovna', 'nasl') + '</div>' : '<div class="ukras">' + svgPredmet({m:'kljuc'}).svg + '</div>') +
+      '<div class="naslovna" style="background-image:url(&quot;' + slikaUrl('naslovna', '.jpg') + '&quot;)"></div>' +
       '<h2>Dvorac Vrana</h2>' +
       '<p class="enTekst">Countess Klara hid her ring in the secret room of her castle. In every room she left a note in Croatian: ' +
       'it tells you where the key to the next room is. Open the wrong thing and a candle goes out. When the last candle goes out, ' +
@@ -1242,16 +1147,17 @@ function crtajSobu(){
   var soba = SOBE[S.soba], inac = soba.inacice[S.inacica[S.soba]];
   S.prazno = {}; S.odabran = null; S.nadjen = false;
   osvjeziHud();
-  var police = (soba.polica || []).map(function(p){
-    return '<div class="daska" style="left:calc(' + p.x + '*var(--u));top:calc(' + p.y + '*var(--u));width:calc(' + p.w + '*var(--u))"></div>';
-  }).join('');
+  var daske = (soba.daske || []).map(function(d){
+    return '<i class="daska" style="left:' + d.x + '%;top:' + d.y + '%;width:' + d.w + '%"></i>'; }).join('');
+  var klinovi = (soba.klinovi || []).map(function(d){
+    return '<i class="klin" style="left:' + d.x + '%;top:' + d.y + '%"></i>'; }).join('');
   var dekor = (soba.dekor || []).map(function(d){ return predmetHtml(d, true); }).join('');
+  /* straga prema naprijed: što je niže u sceni, crta se kasnije */
+  var red = soba.predmeti.slice().sort(function(a, b){ return a.dno - b.dno; });
   ploha.innerHTML =
-    '<div class="scena' + (imaSliku('poz-' + soba.poz) ? ' imaPoz' : '') + '" id="scena" style="--zid:' + soba.zid + ';--pod:' + soba.pod +
-      (imaSliku('poz-' + soba.poz) ? ';--poz:url(&quot;' + MED_D + 'poz-' + soba.poz + '.png&quot;)' : '') + '">' +
-      '<div class="pod"></div>' + police + dekor +
-      soba.predmeti.map(function(p){ return predmetHtml(p, false); }).join('') +
-      '<div class="natpis"><b>' + CL.esc(soba.hr.toUpperCase()) + '</b><span>' + CL.esc(soba.en) + ' · Lessons ' + soba.lekcije + '</span></div>' +
+    '<div class="natpisSobe"><b>' + CL.esc(soba.hr.toUpperCase()) + '</b><span>' + CL.esc(soba.en) + ' · Lessons ' + soba.lekcije + '</span></div>' +
+    '<div class="scena" id="scena" style="background-image:url(&quot;' + slikaUrl('poz-' + soba.poz, '.jpg') + '&quot;)">' +
+      daske + klinovi + dekor + red.map(function(p){ return predmetHtml(p, false); }).join('') +
     '</div>' +
     '<div class="pismo"><div class="od">Klara’s note</div><p>' + CL.esc(inac.hr) + '</p>' +
       (soba.rijeci.length ? '<div class="rijeci">' + soba.rijeci.map(function(r){
@@ -1264,33 +1170,29 @@ function crtajSobu(){
   radnja();
   PX.prilagodi();
 }
+/* širina u % scene iz visine (scena je 4:3) i omjera slike */
+function sirina(ime, h){ var v = VEL[ime] || [1, 1]; return h * 0.75 * v[0] / v[1]; }
 function predmetHtml(p, dekor){
-  var w, h, lik, dodatak = '';
-  if (p.m === 'polica' && imaSliku('boca')){
-    /* polica s n boca: boce su sprajt, daska je kod */
-    var bw = VEL.boca[0], bh = VEL.boca[1], kor = bw + 2;
-    w = p.n * kor + 4; h = bh + 4;
-    lik = '<div class="lik">' + Array.apply(null, Array(p.n)).map(function(_, i){
-      return '<img src="' + MED_D + 'boca.png" alt="" draggable="false" style="position:absolute;left:calc(' + (3 + i * kor) + '*var(--u));top:0;width:calc(' + bw + '*var(--u));height:calc(' + bh + '*var(--u))">';
-    }).join('') + '<i class="daskaP" style="top:calc(' + (bh + 1) + '*var(--u))"></i></div>';
-  } else if (imaSliku(p.slika)){
-    w = VEL[p.slika][0]; h = VEL[p.slika][1]; lik = sprite(p.slika);
-    if (p.broj != null) dodatak = '<span class="broj" style="left:calc(' + (w / 2 - 6) + '*var(--u));top:calc(' + Math.round(h * 0.52) + '*var(--u))">' + p.broj + '</span>';
+  var h = p.h, w, lik, dodatak = '';
+  if (p.polica){
+    /* polica s n boca: boce su slika, daska je kod */
+    var bw = sirina('boca', h * 0.82), raz = bw * 1.25;
+    w = p.polica * raz + bw * 0.6;
+    lik = '<span class="lik">' + Array.apply(null, Array(p.polica)).map(function(_, i){
+      return '<img src="' + slikaUrl('boca') + '" alt="" draggable="false" style="position:absolute;bottom:14%;height:82%;left:' +
+        ((bw * 0.3 + i * raz) / w * 100) + '%;width:' + (bw / w * 100) + '%">';
+    }).join('') + '<i class="daskaP"></i></span>';
   } else {
-    var r = svgPredmet(p), s = p.s || 2;
-    w = r.w * s; h = r.h * s; lik = r.svg.replace('<svg', '<svg class="lik"');
-    if (p.vino) dodatak = '<i class="kap" style="left:calc(' + (w / 2 - 1) + '*var(--u))"></i>';
-    if (p.glazba) dodatak = '<i class="nota">♪</i>';
+    w = sirina(p.s, h); lik = img(p.s);
+    if (p.broj != null) dodatak = '<span class="broj">' + p.broj + '</span>';
   }
-  var y = (p.dno || 92) - h;
-  var stil = 'left:calc(' + p.x + '*var(--u));top:calc(' + y + '*var(--u));width:calc(' + w + '*var(--u));height:calc(' + h + '*var(--u))';
-  if (dekor) return '<div class="dekor" style="' + stil + '">' + lik + '</div>';
-  return '<button class="pr" data-id="' + p.id + '" style="' + stil + '" aria-label="' + CL.esc(p.ime) + '">' + lik + dodatak + '</button>';
+  var stil = 'left:' + p.x + '%;top:' + (p.dno - h) + '%;width:' + w + '%;height:' + h + '%';
+  var sjena = (!p.zid && !dekor) || (dekor && !p.zid)
+    ? '<i class="sjena" style="left:' + p.x + '%;top:' + (p.dno - 0.8) + '%;width:' + (w * 1.05) + '%;height:' + Math.max(2.5, h * 0.12) + '%"></i>' : '';
+  if (dekor) return sjena + '<div class="dekor" style="' + stil + '">' + lik + '</div>';
+  return sjena + '<button class="pr" data-id="' + p.id + '" style="' + stil + '" aria-label="' + CL.esc(p.ime) + '">' + lik + dodatak + '</button>';
 }
-function nagrada(prsten){
-  var ime = prsten ? 'prsten' : 'kljuc';
-  return imaSliku(ime) ? sprite(ime, 'nagrada') : svgPredmet({m:ime}).svg;
-}
+function nagrada(prsten){ return img(prsten ? 'prsten' : 'kljuc', 'nagrada'); }
 function predmetPo(id){ return SOBE[S.soba].predmeti.filter(function(p){ return p.id === id; })[0]; }
 function odaberi(id){
   if (S.nadjen || S.prazno[id]) return;

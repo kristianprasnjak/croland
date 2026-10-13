@@ -1,0 +1,332 @@
+<title>Croland financije 2027.</title>
+<style>
+  /* Layout: jedna uska kolona kao isplati-li-se.html; model u kartici, izvori kao četiri jednake kartice */
+  :root{
+    --surface:#fcfcfb; --plane:#f4f4f1; --card:#fff;
+    --ink:#0b0b0b; --ink2:#52514e; --muted:#7d7b75;
+    --line:#e1e0d9; --rule:#c3c2b7;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#8a5cc2; --s5:#52514e;
+    --good:#006300; --goodbg:#e3f2e3; --crit:#c03030; --critbg:#fbe7e7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
+      --ink:#fff; --ink2:#c3c2b7; --muted:#9a988f;
+      --line:#2c2c2a; --rule:#383835;
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9d74d6; --s5:#9a988f;
+      --good:#3cc23c; --goodbg:#12301a; --crit:#e66767; --critbg:#3a1a1a;
+      color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
+    --ink:#fff; --ink2:#c3c2b7; --muted:#9a988f;
+    --line:#2c2c2a; --rule:#383835;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9d74d6; --s5:#9a988f;
+    --good:#3cc23c; --goodbg:#12301a; --crit:#e66767; --critbg:#3a1a1a;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--plane);color:var(--ink);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding-inline:18px;padding-block:40px 90px}
+
+  .kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  h1{font-size:clamp(28px,5.5vw,40px);line-height:1.08;letter-spacing:-.03em;margin:8px 0 16px;font-weight:700;text-wrap:balance}
+  h2{font-size:22px;letter-spacing:-.02em;margin:52px 0 4px;font-weight:700;text-wrap:balance}
+  .podnaslov{color:var(--muted);font-size:14px;margin:0 0 18px}
+  p{margin:14px 0;max-width:66ch}
+  .tanko{color:var(--ink2)}
+
+  .presuda{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--s1);
+    border-radius:0 12px 12px 0;padding:18px 22px;margin:24px 0 8px}
+  .presuda p{margin:0 0 10px}
+  .presuda p:last-child{margin-bottom:0}
+
+  .scen{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px;align-items:center}
+  .scen span{font-size:13px;color:var(--muted);margin-right:4px}
+  .scen button{font:inherit;font-size:14px;padding:7px 14px;border-radius:999px;border:1px solid var(--rule);
+    background:var(--card);color:var(--ink);cursor:pointer}
+  .scen button[aria-pressed="true"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
+  .scen button:focus-visible,input:focus-visible{outline:2px solid var(--s1);outline-offset:2px}
+
+  .model{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .hero{font-size:clamp(36px,8vw,54px);line-height:1;letter-spacing:-.035em;font-weight:700;font-variant-numeric:tabular-nums}
+  .hero-note{font-size:14px;color:var(--ink2);margin-top:8px}
+  .kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+  .kpi div{min-width:0}
+  .kpi b{display:block;font-size:22px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .kpi span{display:block;font-size:12.5px;color:var(--ink2);line-height:1.35}
+  .pill{display:inline-block;font-size:13px;font-weight:600;padding:4px 11px;border-radius:999px;margin-top:14px}
+  .pill.da{background:var(--goodbg);color:var(--good)}
+  .pill.ne{background:var(--critbg);color:var(--crit)}
+
+  .izvori{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+  .izvor{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--c);border-radius:4px 4px 12px 12px;padding:16px 18px;min-width:0}
+  .izvor h3{font-size:15.5px;margin:0;font-weight:650}
+  .izvor .opis{font-size:12.5px;color:var(--muted);margin:2px 0 12px;line-height:1.4}
+  .ulaz{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;margin-bottom:8px}
+  .ulaz label{font-size:13.5px;color:var(--ink2)}
+  .ulaz output{font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:600;text-align:right}
+  .ulaz input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--c,var(--s1));height:22px;margin:0}
+  .rez{font-size:13.5px;border-top:1px dashed var(--line);margin-top:8px;padding-top:10px;font-variant-numeric:tabular-nums}
+  .rez b{font-weight:650}
+  .fiks{font-size:11.5px;color:var(--muted);margin-top:4px}
+
+  .zajednicko{display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;margin-top:14px}
+
+  .tbl{overflow-x:auto;margin:14px 0}
+  table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums;min-width:600px}
+  th,td{text-align:right;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  tfoot td{font-weight:700;border-bottom:0;border-top:1px solid var(--rule)}
+  .tocka{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:8px;vertical-align:1px}
+
+  .bars{margin-top:8px}
+  .bar-red{display:grid;grid-template-columns:150px 1fr 82px;gap:12px;align-items:center;margin:8px 0;font-size:13.5px}
+  .bar-ime{color:var(--ink2)}
+  .bar-tr{background:var(--plane);border-radius:4px;height:22px;overflow:hidden}
+  .bar-tr i{display:block;height:100%;border-radius:0 4px 4px 0;transition:width .25s}
+  .bar-val{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+
+  .zak{display:grid;gap:12px;margin-top:14px}
+  .zak div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px}
+  .zak b{display:block;margin-bottom:2px}
+  .zak p{margin:0;font-size:14.5px;color:var(--ink2)}
+
+  .izvori-lit{font-size:12.5px;color:var(--muted);margin-top:40px;border-top:1px solid var(--line);padding-top:14px}
+  .izvori-lit a{color:var(--s1)}
+
+  @media (max-width:640px){
+    .izvori,.zajednicko{grid-template-columns:1fr}
+    .kpi{grid-template-columns:1fr 1fr}
+    .bar-red{grid-template-columns:104px 1fr 70px}
+  }
+  @media (prefers-reduced-motion:reduce){.bar-tr i{transition:none}}
+</style>
+
+<div class="wrap">
+  <div class="kicker">Croland · financijska analiza · 12. 10. 2026.</div>
+  <h1>Koliko Croland može zaraditi do 28. kolovoza 2027.</h1>
+  <p class="tanko">Model od prvog dana naplate (1. 11. 2026.) do datuma odluke iz analize <i>Isplati li se</i>. Za razliku od prošlog modela, posjetitelje dijeli na četiri izvora jer svaki konvertira drukčije. Računa i ono što ti stvarno ostane nakon PDV-a, Paddleove naknade i troškova obrta.</p>
+
+  <div class="presuda">
+    <p><b>Ukratko:</b> uz realne pretpostavke i oko 7.500 posjetitelja Croland dolazi do cilja, ali tijesno. Najviše odlučuje to dovodiš li ljude preko preporuka i sklopiš li barem jedan posao s agencijom ili školom.</p>
+    <p>Jedan institucionalni posao vrijedi koliko oko 25 pojedinačnih kupaca. Jedan posjetitelj iz preporuke vrijedi koliko četiri do pet posjetitelja s YouTubea ili šest iz pretrage.</p>
+  </div>
+
+  <h2>Model</h2>
+  <p class="podnaslov">Odaberi scenarij za postotke pa pomiči broj posjetitelja. Svaki klizač možeš i sam namjestiti.</p>
+
+  <div class="scen" role="group" aria-label="Scenarij konverzije">
+    <span>Konverzija:</span>
+    <button type="button" id="sc-pes" data-sc="pes" aria-pressed="false">Pesimistično</button>
+    <button type="button" id="sc-real" data-sc="real" aria-pressed="true">Realno</button>
+    <button type="button" id="sc-opt" data-sc="opt" aria-pressed="false">Optimistično</button>
+  </div>
+
+  <div class="model">
+    <div class="kicker">Neto isplata od Paddlea do 28. 8. 2027.</div>
+    <div class="hero" id="hero">–</div>
+    <div class="hero-note" id="hero-note">–</div>
+    <div id="cilj" class="pill">–</div>
+    <div class="kpi">
+      <div><b id="k-pos">–</b><span>posjetitelja</span></div>
+      <div><b id="k-reg">–</b><span>registracija</span></div>
+      <div><b id="k-kup">–</b><span>pojedinačnih kupaca</span></div>
+      <div><b id="k-sat">–</b><span>po satu, nakon troškova</span></div>
+    </div>
+  </div>
+
+  <div class="izvori" id="izvori"></div>
+
+  <div class="model" style="margin-top:14px">
+    <div class="kicker">Zajedničke pretpostavke</div>
+    <div class="zajednicko">
+      <div class="ulaz">
+        <label for="mj">Koliko mjeseci prosječno plaća mjesečni pretplatnik</label><output id="o-mj"></output>
+        <input type="range" id="mj" min="1" max="10" step="1" value="3">
+      </div>
+      <div class="ulaz">
+        <label for="sati">Sati koje uložiš do kolovoza</label><output id="o-sati"></output>
+        <input type="range" id="sati" min="50" max="600" step="10" value="300">
+      </div>
+      <div class="ulaz">
+        <label for="inst">Institucionalnih poslova (agencija, škola, poslodavac)</label><output id="o-inst"></output>
+        <input type="range" id="inst" min="0" max="5" step="1" value="1">
+      </div>
+      <div class="ulaz">
+        <label for="lic">Godišnjih licenci po poslu</label><output id="o-lic"></output>
+        <input type="range" id="lic" min="5" max="200" step="5" value="25">
+      </div>
+    </div>
+    <div class="fiks" id="inst-note">–</div>
+  </div>
+
+  <h2>Usporedba izvora</h2>
+  <p class="podnaslov">Isti brojevi kao gore, poredani tako da se vidi koliko vrijedi jedan posjetitelj iz svakog izvora.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Izvor</th><th>Posjetitelji</th><th>Registracije</th><th>Kupci</th><th>Neto</th><th>€ po posjetitelju</th><th>Posjetitelja za 1.000 €</th></tr></thead>
+      <tbody id="tbody"></tbody>
+      <tfoot><tr id="tfoot"></tr></tfoot>
+    </table>
+  </div>
+
+  <h2>Odakle dolazi novac</h2>
+  <p class="podnaslov">Neto isplata po izvoru, prije troškova obrta.</p>
+  <div class="bars" id="bars-izvor"></div>
+
+  <h2>Troškovi i satnica</h2>
+  <p class="podnaslov">Godišnji troškovi obrta u prvom razredu paušala i alata. Računam ih cijele, iako period traje deset mjeseci.</p>
+  <div class="tbl">
+    <table style="min-width:0">
+      <tbody>
+        <tr><td>Paušalni porez (4 × ~51 €)</td><td>204 €</td></tr>
+        <tr><td>Doprinosi po rješenju</td><td>297 €</td></tr>
+        <tr><td>Hosting, domena, Supabase, Gemini</td><td>300 €</td></tr>
+        <tr><td>Naknade kreatorima</td><td>0 € (dobivaju kodove)</td></tr>
+      </tbody>
+      <tfoot><tr><td>Ukupno</td><td>801 €</td></tr></tfoot>
+    </table>
+  </div>
+  <div class="bars" id="bars-sat"></div>
+  <p class="fiks">Usporedba po satu, kao u prošloj analizi. Skala ide do 25 €/h.</p>
+
+  <h2>Što iz ovoga slijedi</h2>
+  <div class="zak">
+    <div><b>Preporuke su najjeftiniji put do cilja</b><p>Instruktor ili učitelj hrvatske nastave dovodi ljude koji već imaju razlog učiti. Pet instruktora s po desetak učenika vrijedi više od tisuća klikova s pretrage.</p></div>
+    <div><b>Jedan posao s agencijom mijenja cijelu računicu</b><p>Agencije koje zapošljavaju radnike iz Filipina, Nepala i Indije moraju im osigurati A1.1. Paket od 25 godišnjih licenci po količinskom popustu donosi koliko oko 25 pojedinaca. Za njih Extras s pripremom za A1.1 mora biti gotov i jasno opisan.</p></div>
+    <div><b>YouTube je za doseg, ne za konverziju</b><p>Po posjetitelju donosi malo, a popust od 20 % dodatno smanjuje prvu uplatu. Isplati se zato što jedan video može dovesti tisuće ljudi, a kreatore plaćaš kodovima.</p></div>
+    <div><b>Pretraga dolazi kasnije</b><p>Stranici treba nekoliko mjeseci da se počne pojavljivati na Googleu. Do kolovoza neće nositi mnogo, ali traje dugo nakon toga.</p></div>
+    <div><b>Satnica je i dalje niska</b><p>U ovom periodu Croland ne plaća sat kao svirka ni kao škola. To je cijena godine u kojoj gradiš. Prava provjera je hoće li nešto plaćati i u drugoj godini, kad godišnje pretplate dođu na obnovu.</p></div>
+  </div>
+
+  <div class="izvori-lit">
+    <p><b>Pretpostavke.</b> Cijene s PDV-om: mjesečna 10 €, godišnja 60 €. Paddle uzima 5 % + 0,50 $ (≈ 0,47 €) po transakciji, a PDV ovisi o zemlji kupca: radnici u Hrvatskoj plaćaju 25 %, dijaspora u prosjeku manje jer je velik dio u SAD-u i Kanadi. Mjesečni pretplatnik plaća svaki mjesec zasebno, pa naknadu plaća više puta. Godišnje pretplate se do kolovoza ne obnavljaju. Institucionalne licence se računaju po formuli iz <code>cjenik.html</code> (60 € × n<sup>−0,1505</sup>), bez PDV-a jer kupuje tvrtka. Postoci konverzije su procjene na temelju mjerila, ne mjerenja. Prve prave brojke dobit ćeš nakon nekoliko tjedana naplate.</p>
+    <p><b>Izvori.</b> <a href="https://www.revenuecat.com/state-of-subscription-apps-2026-education" target="_blank" rel="noopener">RevenueCat, State of Subscription Apps 2026</a> (freemium: medijan 2,1 %, gornja četvrtina 4,5 % plaćenih) · <code>PLAN-account-i-naplata.md</code> · <code>OBRT-odluke-i-koraci.md</code> · <code>cjenik.html</code> · <code>isplati-li-se.html</code></p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var eur = new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',maximumFractionDigits:0});
+  var num = new Intl.NumberFormat('hr-HR',{maximumFractionDigits:0});
+  var dec = function(x,d){ return x.toFixed(d).replace('.',','); };
+  var FEE = 0.47, PCT = 0.05, CILJ = 1000, TROSAK = 801;
+
+  var IZVORI = [
+    {id:'pre', ime:'Preporuke', c:'--s1', opis:'Instruktori, hrvatska nastava u inozemstvu, grupe dijaspore', pos:1500, max:10000, pdv:.12, god:.5, pop:0,
+      sc:{pes:[15,2], real:[22,4], opt:[30,6]}},
+    {id:'yt', ime:'YouTube kreatori', c:'--s2', opis:'Program s kodovima, promo kod daje 20 % na prvu uplatu', pos:3000, max:30000, pdv:.15, god:.5, pop:.2,
+      sc:{pes:[4,2], real:[8,3], opt:[12,5]}},
+    {id:'goo', ime:'Google pretraga', c:'--s3', opis:'„learn Croatian“, „Croatian A1 exam“, oglasi', pos:2000, max:30000, pdv:.15, god:.5, pop:0,
+      sc:{pes:[3,2], real:[5,3], opt:[8,5]}},
+    {id:'a11', ime:'Radnici za A1.1', c:'--s4', opis:'Pojedinci koji se pripremaju za ispit, uglavnom žive u Hrvatskoj', pos:1000, max:10000, pdv:.25, god:.3, pop:0,
+      sc:{pes:[6,5], real:[10,10], opt:[15,15]}}
+  ];
+
+  var host = document.getElementById('izvori');
+  IZVORI.forEach(function(s){
+    var d = document.createElement('div');
+    d.className = 'izvor'; d.style.setProperty('--c','var('+s.c+')');
+    d.innerHTML =
+      '<h3>'+s.ime+'</h3><div class="opis">'+s.opis+'</div>'+
+      '<div class="ulaz"><label for="'+s.id+'-pos">Posjetitelja</label><output id="'+s.id+'-opos"></output>'+
+      '<input type="range" id="'+s.id+'-pos" min="0" max="'+s.max+'" step="100" value="'+s.pos+'"></div>'+
+      '<div class="ulaz"><label for="'+s.id+'-reg">Registrira se</label><output id="'+s.id+'-oreg"></output>'+
+      '<input type="range" id="'+s.id+'-reg" min="1" max="40" step="1" value="'+s.sc.real[0]+'"></div>'+
+      '<div class="ulaz"><label for="'+s.id+'-pl">Od registriranih plaća</label><output id="'+s.id+'-opl"></output>'+
+      '<input type="range" id="'+s.id+'-pl" min="0.5" max="20" step="0.5" value="'+s.sc.real[1]+'"></div>'+
+      '<div class="rez" id="'+s.id+'-rez"></div>'+
+      '<div class="fiks">PDV kupca ~'+Math.round(s.pdv*100)+' % · '+Math.round(s.god*100)+' % uzima godišnju'+(s.pop?' · prva uplata −20 %':'')+'</div>';
+    host.appendChild(d);
+  });
+
+  var el = function(id){ return document.getElementById(id); };
+  function neto(bruto, pdv){ return bruto/(1+pdv)*(1-PCT) - FEE; }
+  function poKupcu(s, mj){
+    var god = neto(60*(1-s.pop), s.pdv);
+    var mjes = neto(10*(1-s.pop), s.pdv) + (mj-1)*neto(10, s.pdv);
+    return s.god*god + (1-s.god)*mjes;
+  }
+  function licenca(n){ return Math.max(60*Math.pow(n,-0.1505), 20); }
+
+  function racun(){
+    var mj = +el('mj').value, sati = +el('sati').value, inst = +el('inst').value, lic = +el('lic').value;
+    el('o-mj').textContent = mj + (mj===1?' mjesec':(mj<5?' mjeseca':' mjeseci'));
+    el('o-sati').textContent = sati + ' h';
+    el('o-inst').textContent = inst;
+    el('o-lic').textContent = lic;
+
+    var tot = {pos:0, reg:0, kup:0, net:0, samo:0};
+    var rows = '', redovi = [];
+    IZVORI.forEach(function(s){
+      var pos = +el(s.id+'-pos').value, reg = +el(s.id+'-reg').value, pl = +el(s.id+'-pl').value;
+      el(s.id+'-opos').textContent = num.format(pos);
+      el(s.id+'-oreg').textContent = reg + ' %';
+      el(s.id+'-opl').textContent = dec(pl, pl%1?1:0) + ' %';
+      var r = pos*reg/100, k = r*pl/100, pk = poKupcu(s, mj), n = k*pk;
+      var poPos = pos ? n/pos : (reg/100)*(pl/100)*pk;
+      var zaCilj = poPos>0 ? CILJ/poPos : Infinity;
+      el(s.id+'-rez').innerHTML = num.format(r)+' reg. → <b>'+dec(k,1)+' kupaca</b> → <b>'+eur.format(n)+'</b>';
+      tot.pos+=pos; tot.reg+=r; tot.kup+=k; tot.samo+=n;
+      rows += '<tr><td><span class="tocka" style="background:var('+s.c+')"></span>'+s.ime+'</td><td>'+num.format(pos)+'</td><td>'+num.format(r)+'</td><td>'+dec(k,1)+'</td><td>'+eur.format(n)+'</td><td>'+dec(poPos,2)+' €</td><td>'+(isFinite(zaCilj)?num.format(Math.round(zaCilj/100)*100):'–')+'</td></tr>';
+      redovi.push({ime:s.ime, c:s.c, v:n});
+    });
+    var cijena = licenca(lic), posao = lic*cijena*(1-PCT) - FEE, instN = inst*posao;
+    el('inst-note').textContent = 'Jedan posao: '+lic+' godišnjih licenci × '+dec(cijena,2)+' € (količinski popust '+Math.round((1-cijena/60)*100)+' %) = '+eur.format(lic*cijena)+', nakon Paddlea '+eur.format(posao)+'.';
+    rows += '<tr><td><span class="tocka" style="background:var(--s5)"></span>Institucije</td><td>–</td><td>–</td><td>'+inst+' posl.</td><td>'+eur.format(instN)+'</td><td>–</td><td>–</td></tr>';
+    redovi.push({ime:'Institucije', c:'--s5', v:instN});
+    el('tbody').innerHTML = rows;
+
+    tot.net = tot.samo + instN;
+    el('tfoot').innerHTML = '<td>Ukupno</td><td>'+num.format(tot.pos)+'</td><td>'+num.format(tot.reg)+'</td><td>'+dec(tot.kup,1)+'</td><td>'+eur.format(tot.net)+'</td><td>'+(tot.pos?dec(tot.samo/tot.pos,2)+' €':'–')+'</td><td></td>';
+
+    var ostaje = tot.net - TROSAK;
+    el('hero').textContent = eur.format(tot.net);
+    el('hero-note').textContent = eur.format(tot.samo)+' od pojedinaca + '+eur.format(instN)+' od institucija · nakon troškova obrta ostaje '+eur.format(ostaje)+(tot.net>11300?' · prelaziš 11.300 €, pa ideš u viši razred paušala':'');
+    el('k-pos').textContent = num.format(tot.pos);
+    el('k-reg').textContent = num.format(tot.reg);
+    el('k-kup').textContent = num.format(tot.kup);
+    var satnica = Math.max(ostaje,0)/sati;
+    el('k-sat').textContent = dec(satnica,1)+' €';
+
+    var ok1 = tot.samo >= CILJ, ok2 = inst >= 1, c = el('cilj');
+    c.className = 'pill ' + (ok1||ok2 ? 'da' : 'ne');
+    c.textContent = ok1 && ok2 ? 'Cilj ispunjen dvaput: 1.000 € od pojedinaca i institucionalni posao'
+      : ok1 ? 'Cilj ispunjen: '+eur.format(tot.samo)+' od pojedinaca'
+      : ok2 ? 'Cilj ispunjen institucionalnim poslom. Od pojedinaca '+eur.format(tot.samo)+' od 1.000 €'
+      : 'Cilj nije ispunjen: od pojedinaca '+eur.format(tot.samo)+' od 1.000 €, bez institucionalnog posla';
+
+    var max = Math.max.apply(null, redovi.map(function(r){return r.v;}).concat([1]));
+    el('bars-izvor').innerHTML = redovi.map(function(r){
+      return '<div class="bar-red"><span class="bar-ime">'+r.ime+'</span><span class="bar-tr"><i style="width:'+(r.v/max*100)+'%;background:var('+r.c+')"></i></span><span class="bar-val">'+eur.format(r.v)+'</span></div>';
+    }).join('');
+
+    var sat = [{ime:'Croland', v:satnica, c:'--s1'},{ime:'Svirke', v:15, c:'--s5'},{ime:'Škola', v:9, c:'--s5'}];
+    el('bars-sat').innerHTML = sat.map(function(r){
+      return '<div class="bar-red"><span class="bar-ime">'+r.ime+'</span><span class="bar-tr"><i style="width:'+Math.min(r.v/25*100,100)+'%;background:var('+r.c+')"></i></span><span class="bar-val">'+dec(r.v,1)+' €/h</span></div>';
+    }).join('');
+  }
+
+  function postaviScen(sc){
+    IZVORI.forEach(function(s){
+      el(s.id+'-reg').value = s.sc[sc][0];
+      el(s.id+'-pl').value = s.sc[sc][1];
+    });
+    document.querySelectorAll('.scen button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.sc===sc ? 'true':'false'); });
+    racun();
+  }
+  document.querySelectorAll('.scen button').forEach(function(b){ b.addEventListener('click', function(){ postaviScen(b.dataset.sc); }); });
+  document.querySelectorAll('input[type=range]').forEach(function(i){
+    i.addEventListener('input', function(){
+      if (/-(reg|pl)$/.test(i.id)) document.querySelectorAll('.scen button').forEach(function(b){ b.setAttribute('aria-pressed','false'); });
+      racun();
+    });
+  });
+  racun();
+})();
+</script>
