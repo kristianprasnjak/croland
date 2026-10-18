@@ -22,7 +22,14 @@ const ROOT = __dirname;
 // svaki jezik ima svoj placeni dio; oba moraju biti u bucketu prije objave dist/
 // Bez argumenata: Croland (EN + DE sučelje). S argumentima samo te datoteke, npr.
 //   node uploadaj-sadrzaj.js data-plus-fr.json   (francuski tečaj, vidi francais/)
-const DATOTEKE = process.argv.length > 2 ? process.argv.slice(2) : ['data-plus.json', 'data-plus-de.json', 'data-plus-es.json'];
+// A1.1: sve zasticeno/a11-*.json (a11-plus.json + a11-upute-XX.json), koliko ih build napravi.
+function a11Datoteke() {
+  const dir = path.join(ROOT, 'zasticeno');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => /^a11-(plus|upute-[a-z]{2,3})\.json$/.test(f)).sort();
+}
+const DATOTEKE = process.argv.length > 2 ? process.argv.slice(2)
+  : ['data-plus.json', 'data-plus-de.json', 'data-plus-es.json'].concat(a11Datoteke());
 const LOG = path.join(ROOT, 'zadnji-upload-log.txt');
 const BUCKET = 'sadrzaj';
 
@@ -89,8 +96,15 @@ async function uploadaj(OBJEKT, env) {
   const tijelo = fs.readFileSync(DATOTEKA);
   try {
     const podaci = JSON.parse(tijelo.toString('utf8'));
+    if (/^a11-/.test(OBJEKT)) {
+      if (!podaci.a11) throw new Error('nije A1.1 datoteka');
+      if (OBJEKT === 'a11-plus.json' && !(podaci.teme || []).length) throw new Error('nema ni jedne teme');
+      if (OBJEKT !== 'a11-plus.json' && !Object.keys(podaci.tekstovi || {}).length) throw new Error('nema uputa');
+      zapisi(OBJEKT + ': A1.1, generirano ' + podaci.generirano);
+    } else {
     if (!(podaci.igre || []).length) throw new Error('nema ni jedne vjezbe');
     zapisi(OBJEKT + ': ' + podaci.igre.length + ' placenih vjezbi, generirano ' + podaci.generirano);
+    }
   } catch (e) {
     odustani(OBJEKT + ' nije ispravan (' + e.message + ') — upload prekinut.');
   }

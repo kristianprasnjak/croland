@@ -90,6 +90,22 @@ const rezultat = podijeliIProvjeri('data.js', 'data.js', 'data-plus.json');
 const rezultatDe = podijeliIProvjeri('data-de.js', 'data-de.js', 'data-plus-de.json');
 const rezultatEs = podijeliIProvjeri('data-es.js', 'data-es.js', 'data-plus-es.json');
 
+// ---- A1.1 (Extras) ----
+// Izvor (a11-sadrzaj/, a11-jezici/) nije u DIRS, pa ne ide u dist/. Gradi se samo u zasticeno/.
+const rezultatA11 = require('./a11-build').izgradi();
+// brava: ni jedan a11 JSON ni izvorna mapa ne smiju zavrsiti u javnom dijelu
+(function provjeriA11(dir) {
+  for (const ime of fs.readdirSync(dir)) {
+    const p = path.join(dir, ime);
+    if (fs.statSync(p).isDirectory()) {
+      if (ime === 'a11-sadrzaj' || ime === 'a11-jezici') throw new Error('build: izvor A1.1 je u dist/ — ' + p);
+      provjeriA11(p);
+    } else if (/^a11-.*\.json$/.test(ime)) {
+      throw new Error('build: zasticeni A1.1 sadrzaj je u dist/ — ' + p);
+    }
+  }
+})(DIST);
+
 // GitHub Pages inače provuče objavljeno kroz Jekyll, koji preskače datoteke i mape s donjom
 // crtom na početku (npr. mini-igre/_sadrzaj). Deploy preko Actions to ne radi, ali .nojekyll
 // je jeftino osiguranje ako se izvor Pagesa ikad vrati na granu.
@@ -105,4 +121,5 @@ console.log('  dist/data-de.js (javno)   ', kb(path.join(DIST, 'data-de.js')), '
 console.log('  zasticeno/data-plus-de.json', kb(path.join(ZASTICENO, 'data-plus-de.json')), '·', rezultatDe.brojke.placenih, 'vjezbi');
 console.log('  dist/data-es.js (javno)   ', kb(path.join(DIST, 'data-es.js')), '·', rezultatEs.brojke.besplatnih, 'vjezbi');
 console.log('  zasticeno/data-plus-es.json', kb(path.join(ZASTICENO, 'data-plus-es.json')), '·', rezultatEs.brojke.placenih, 'vjezbi');
-console.log('  -> zasticeno/data-plus.json, data-plus-de.json i data-plus-es.json uploadaj u Supabase Storage bucket "sadrzaj"');
+console.log('  zasticeno/A1.1             ', rezultatA11.teme, 'tema,', rezultatA11.zadataka, 'zadataka ·', rezultatA11.izlaz.join(', '));
+console.log('  -> zasticeno/data-plus.json, data-plus-de.json, data-plus-es.json i a11-*.json uploadaj u Supabase Storage bucket "sadrzaj"');

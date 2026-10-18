@@ -1,6 +1,6 @@
 ﻿// Automatski generirano putem osvjezi.bat - ne uredjivati rucno
 window.PODACI = {
-  "generirano": "2026-10-13 13:25:58",
+  "generirano": "2026-10-18 16:33:06",
   "slike": {
     "aerodrom": "slike/Aerodrom.webp",
     "alarm": "slike/Alarm.webp",

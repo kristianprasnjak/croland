@@ -1,0 +1,38 @@
+kljuc	en
+# Izvor svih uputa A1.1. Jedan redak = kljuc TAB engleski tekst. %1, %2 = umetnute vrijednosti, moraju ostati u prijevodu.
+# Redci koji pocinju s # i prazni redci se preskacu. Prijevodi idu u upute-XX.tsv (kljuc | en | XX), prazno = engleski.
+naslov	Croatian A1.1
+podnaslov	Practice for the A1.1 Croatian test: work, documents, health and everyday life.
+jezik.izbor	Choose your language
+jezik.uputa	Instructions will be in this language. Croatian words and sentences stay in Croatian.
+jezik.promijeni	Language
+jezik.beta	beta translation
+jezik.beta.opis	This translation was made without a native speaker. If something is unclear, tell us.
+nesluzbeno	The official test format has not been published yet. The practice test follows what is known so far and will be updated.
+teme.naslov	Topics
+teme.opis	Each topic is one workbook page: words with pictures, numbered exercises and a short check at the end.
+tema.latinica	The Latin alphabet: letters, č ć dž đ š ž, spelling your name, "I don't understand"
+tema.osobno	Introducing yourself, personal details
+tema.brojevi	Numbers, dates and the time
+tema.obitelj	Family
+tema.kupovina	Shopping and prices
+tema.grad	Town, directions and transport
+tema.posao	Work: shifts, pay, safety
+tema.zdravlje	Health: doctor, pharmacy, emergency
+tema.dokumenti	Documents and offices
+tema.stanovanje	Housing: rent and bills
+tema.natpisi	Signs and notices
+tema.uskoro	coming soon
+tema.zadataka	%1 exercises
+tema.novo	new
+vjestina.slusanje	Listening
+vjestina.citanje	Reading
+vjestina.pisanje	Writing
+vjestina.govor	Speaking
+ispit.naslov	Practice test
+ispit.opis	About 35–40 minutes. Four parts: listening, reading, writing and speaking.
+ispit.uskoro	The practice test is coming soon.
+greska.ucitavanje	The lessons could not be loaded. Check your connection and try again.
+greska.pokusaj	Try again
+greska.izvan	Open A1.1 from the Croland app.
+ucitavanje	Loading…

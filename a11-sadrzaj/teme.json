@@ -1,0 +1,155 @@
+{
+  "_opis": "Sadrzaj A1.1 (Extras). Ide SAMO u zasticeno/a11-plus.json (privatni bucket), nikad u dist/. Tekst za ucenika je hrvatski; sve upute su kljucevi u a11-jezici/upute-XX.tsv. tecaj = gdje se tema vec obraduje u glavnom tecaju (za preporuke). zadaci se pune u F4.",
+  "verzija": 1,
+  "teme": [
+    {
+      "id": "latinica",
+      "br": 0,
+      "hr": "Latinica i snalaženje",
+      "emo": "🔤",
+      "tecaj": [
+        "L0"
+      ],
+      "novo": true,
+      "zadaci": []
+    },
+    {
+      "id": "osobno",
+      "br": 1,
+      "hr": "Osobni podaci",
+      "emo": "🙋",
+      "tecaj": [
+        "L2"
+      ],
+      "novo": false,
+      "zadaci": []
+    },
+    {
+      "id": "brojevi",
+      "br": 2,
+      "hr": "Brojevi, datum i sat",
+      "emo": "🕒",
+      "tecaj": [
+        "L18"
+      ],
+      "novo": true,
+      "zadaci": []
+    },
+    {
+      "id": "obitelj",
+      "br": 3,
+      "hr": "Obitelj",
+      "emo": "👪",
+      "tecaj": [
+        "L4"
+      ],
+      "novo": false,
+      "zadaci": []
+    },
+    {
+      "id": "kupovina",
+      "br": 4,
+      "hr": "Kupovina i cijene",
+      "emo": "🛒",
+      "tecaj": [
+        "L5",
+        "L18"
+      ],
+      "novo": false,
+      "zadaci": []
+    },
+    {
+      "id": "grad",
+      "br": 5,
+      "hr": "Grad i prijevoz",
+      "emo": "🚌",
+      "tecaj": [
+        "L6",
+        "L13"
+      ],
+      "novo": false,
+      "zadaci": []
+    },
+    {
+      "id": "posao",
+      "br": 6,
+      "hr": "Posao",
+      "emo": "🦺",
+      "tecaj": [],
+      "novo": true,
+      "zadaci": []
+    },
+    {
+      "id": "zdravlje",
+      "br": 7,
+      "hr": "Zdravlje",
+      "emo": "🩺",
+      "tecaj": [],
+      "novo": true,
+      "zadaci": []
+    },
+    {
+      "id": "dokumenti",
+      "br": 8,
+      "hr": "Dokumenti i ured",
+      "emo": "📄",
+      "tecaj": [],
+      "novo": true,
+      "zadaci": []
+    },
+    {
+      "id": "stanovanje",
+      "br": 9,
+      "hr": "Stanovanje",
+      "emo": "🏠",
+      "tecaj": [
+        "L16"
+      ],
+      "novo": false,
+      "zadaci": []
+    },
+    {
+      "id": "natpisi",
+      "br": 10,
+      "hr": "Natpisi",
+      "emo": "🪧",
+      "tecaj": [],
+      "novo": true,
+      "zadaci": []
+    }
+  ],
+  "ispit": {
+    "_opis": "A11_FORMAT: sluzbeni format, bodovi i prag jos nisu objavljeni. Parametrizirano da se promijeni na jednom mjestu.",
+    "sluzbeno": false,
+    "trajanjeMin": [
+      35,
+      40
+    ],
+    "dijelovi": [
+      {
+        "id": "slusanje",
+        "zadataka": 8
+      },
+      {
+        "id": "citanje",
+        "zadataka": 8
+      },
+      {
+        "id": "pisanje",
+        "obrazacPolja": 8,
+        "porukaRecenica": [
+          3,
+          5
+        ]
+      },
+      {
+        "id": "govor",
+        "predstavljanje": true,
+        "pitanja": 3,
+        "zahtjeva": 1
+      }
+    ],
+    "prag": null,
+    "varijante": []
+  }
+}

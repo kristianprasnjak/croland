@@ -4361,7 +4361,13 @@
     { id: 'lrws', slika: 'lrws.webp', dat: 'lrws.html', emo: '🎧', ime: 'Listen Read Write Speak', maks: 0,
       podnozje: 'no points — your own text',
       stil: 'Notebook',
-      opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' }
+      opis: 'Paste any text — a song, a poem, an article. It splits into lines: hear each one, check Google Translate, write your own translation, then say it out loud and see what the microphone heard.' },
+    // A1.1: priprema za ispit iz hrvatskog (Zakon o strancima). Vidi PLAN-A11.md.
+    // Ljuska je javna (mini-igre/a11.html), sadrzaj stize iz bucketa preko crolandA11.dohvati().
+    { id: 'a11', dat: 'a11.html', emo: '📝', ime: 'Croatian A1.1', maks: 0,
+      podnozje: 'exam prep · no points',
+      stil: 'Workbook',
+      opis: 'Get ready for the A1.1 Croatian test for work permits: work, documents, health and everyday life, with a practice test in all four skills. Instructions in your language.' }
   ];
   function extraPoId(id) {
     for (var i = 0; i < EXTRA_IGRE.length; i++) if (EXTRA_IGRE[i].id === id) return EXTRA_IGRE[i];
@@ -4585,6 +4591,25 @@
       gotovo(false);
     });
   }
+  // ---- A1.1 (Extras): zasticeni sadrzaj za mini-igre/a11.html ----
+  // Modul je u istom podrijetlu pa zove window.parent.crolandA11.dohvati(f). Pravo se
+  // provjerava pri svakom pozivu (i ovdje i u edge funkciji); kes drzi samo uspjele odgovore.
+  var A11_KES = {};
+  function a11Dohvati(f) {
+    if (!/^a11-(plus|upute-[a-z]{2,3})\.json$/.test(String(f))) return Promise.reject(new Error('a11: nepoznata datoteka'));
+    if (!imaRacun() || !imaPretplatu()) return Promise.reject(new Error('a11: nema pristupa'));
+    var kljuc = SESSION.user.id + '|' + f;
+    if (A11_KES[kljuc]) return A11_KES[kljuc];
+    var p = fetch(FUNKCIJE_URL + '/sadrzaj?f=' + f, { headers: zaglavljaFunkcije() })
+      .then(function (r) { if (!r.ok) throw new Error('sadrzaj ' + r.status); return r.json(); })
+      .then(function (d) { if (!d || !d.url) throw new Error('nema url'); return fetch(d.url); })
+      .then(function (r) { if (!r.ok) throw new Error('preuzimanje ' + r.status); return r.json(); });
+    A11_KES[kljuc] = p;
+    p.catch(function () { delete A11_KES[kljuc]; });
+    return p;
+  }
+  window.crolandA11 = { dohvati: a11Dohvati };
+
   // Nakon promjene prava (uspjela naplata, istekla akcija) sljedeći pokušaj mora ići ispočetka.
   function resetirajPlusSadrzaj() {
     if (PLUS_STANJE === 'greska') PLUS_STANJE = 'ne';
@@ -9876,6 +9901,11 @@
       brze.push(brzaKarticaHtml('view:miniIgra:lrws', IK('zvuk'), lrws.ime,
         (imaRacun() && miniOpisStanja(lrws)) || 'any text · hear, translate, write, say', false));
     }
+    var a11 = extraPoId('a11');
+    if (a11 && a11.dat) {
+      brze.push(brzaKarticaHtml('view:miniIgra:a11', igraZakljucana(a11) ? IK('brava') : IK('popis'), a11.ime,
+        'exam prep for work permits · Plus', false));
+    }
     html += '<div class="zaglavljeP">Quick practice</div>' +
       '<div class="brza">' + brze.join('') + '</div>';
 
@@ -10350,7 +10380,7 @@
       '<iframe id="miniOkno" src="' + MINI_MAPA + g.dat + '" title="' + esc(g.ime) + '" allow="fullscreen; microphone; clipboard-read; clipboard-write" allowfullscreen style="height:24rem"></iframe>' +
       '<div class="alat">' +
       '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
-      '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
+      '<span class="pod">' + esc(g.stil) + ' · ' + (g.maks ? g.maks + ' pts ×4' : esc(g.podnozje || 'no points')) +
         (stanje ? ' · ' + esc(stanje) : '') + '</span>' +
       '<button class="gumbSitni" onclick="miniPonovno()">↻ Restart</button>' +
       '</div>' +
@@ -10503,7 +10533,7 @@
       '</div>' +
       '<div class="alat">' +
       '<span class="nas">' + g.emo + ' ' + esc(g.ime) + '</span>' +
-      '<span class="pod">' + esc(g.stil) + ' · ' + g.maks + ' pts ×4' +
+      '<span class="pod">' + esc(g.stil) + ' · ' + (g.maks ? g.maks + ' pts ×4' : esc(g.podnozje || 'no points')) +
         (stanje ? ' · ' + esc(stanje) : '') + '</span>' +
       '<button class="gumbSitni" onclick="miniCijeliUdi()">⛶ Full screen</button>' +
       '<button class="gumbSitni" onclick="miniPonovno()">↻ Restart</button>' +

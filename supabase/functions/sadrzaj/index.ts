@@ -12,7 +12,9 @@ import { getSupabaseAdmin, imaPravoPristupa, korisnikIzZahtjeva, corsZaglavlja, 
 const BUCKET = 'sadrzaj';
 // Zatvoreni popis — bez njega bi se kroz ?f= moglo tražiti bilo što iz bucketa.
 // data-plus-fr.json: francuski tečaj (zasebna stranica, isti račun i ista pretplata)
-const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json', 'data-plus-es.json', 'data-plus-fr.json']);
+const DOZVOLJENE = new Set(['data-plus.json', 'data-plus-de.json', 'data-plus-es.json', 'data-plus-fr.json', 'a11-plus.json']);
+// A1.1 (Extras): upute po jeziku, a11-upute-en.json, a11-upute-ne.json... Isti Plus kao sve ostalo.
+const A11_UPUTE = /^a11-upute-[a-z]{2,3}\.json$/;
 const TRAJANJE_SEK = 300;
 
 Deno.serve(async (req) => {
@@ -20,7 +22,7 @@ Deno.serve(async (req) => {
   if (req.method !== 'GET') return json(req, 405, { error: 'Method not allowed' });
 
   const datoteka = new URL(req.url).searchParams.get('f') || '';
-  if (!DOZVOLJENE.has(datoteka)) return json(req, 400, { error: 'Unknown file' });
+  if (!DOZVOLJENE.has(datoteka) && !A11_UPUTE.test(datoteka)) return json(req, 400, { error: 'Unknown file' });
 
   const supabaseAdmin = getSupabaseAdmin();
   const user = await korisnikIzZahtjeva(supabaseAdmin, req);

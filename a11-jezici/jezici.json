@@ -1,0 +1,17 @@
+{
+  "_opis": "Jezici uputa za A1.1 (mini-igre/a11.html). kod = nastavak datoteka (upute-XX.tsv -> zasticeno/a11-upute-XX.json). aktivan = gradi ga scripts/a11-build.js i nudi se u modulu. status: 'izvor' (engleski, izvor svih prijevoda), 'beta' (prijevod + povratni prijevod, bez izvornog govornika), 'provjereno'. dir: 'ltr' ili 'rtl'. font: Noto obitelj za to pismo, ucitava se samo za odabrani jezik (F7); prazno = sistemski font. Redoslijed ovdje je redoslijed zastava u modulu.",
+  "jezici": [
+    { "kod": "en", "ime": "English",          "zastava": "🇬🇧", "dir": "ltr", "font": "",                    "status": "izvor", "aktivan": true },
+    { "kod": "ne", "ime": "नेपाली",            "zastava": "🇳🇵", "dir": "ltr", "font": "Noto Sans Devanagari", "status": "beta",  "aktivan": false },
+    { "kod": "hi", "ime": "हिन्दी",             "zastava": "🇮🇳", "dir": "ltr", "font": "Noto Sans Devanagari", "status": "beta",  "aktivan": false },
+    { "kod": "fil","ime": "Filipino",         "zastava": "🇵🇭", "dir": "ltr", "font": "",                    "status": "beta",  "aktivan": false },
+    { "kod": "bn", "ime": "বাংলা",             "zastava": "🇧🇩", "dir": "ltr", "font": "Noto Sans Bengali",    "status": "beta",  "aktivan": false },
+    { "kod": "uz", "ime": "Oʻzbekcha",        "zastava": "🇺🇿", "dir": "ltr", "font": "",                    "status": "beta",  "aktivan": false },
+    { "kod": "ur", "ime": "اردو",              "zastava": "🇵🇰", "dir": "rtl", "font": "Noto Nastaliq Urdu",   "status": "beta",  "aktivan": false },
+    { "kod": "ar", "ime": "العربية",           "zastava": "🇸🇦", "dir": "rtl", "font": "Noto Sans Arabic",     "status": "beta",  "aktivan": false },
+    { "kod": "id", "ime": "Bahasa Indonesia", "zastava": "🇮🇩", "dir": "ltr", "font": "",                    "status": "beta",  "aktivan": false },
+    { "kod": "si", "ime": "සිංහල",             "zastava": "🇱🇰", "dir": "ltr", "font": "Noto Sans Sinhala",    "status": "beta",  "aktivan": false },
+    { "kod": "tr", "ime": "Türkçe",           "zastava": "🇹🇷", "dir": "ltr", "font": "",                    "status": "beta",  "aktivan": false },
+    { "kod": "ru", "ime": "Русский",          "zastava": "🇷🇺", "dir": "ltr", "font": "",                    "status": "beta",  "aktivan": false }
+  ]
+}

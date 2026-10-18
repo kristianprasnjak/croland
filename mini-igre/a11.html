@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Croland — A1.1</title>
+<!--
+  A1.1 (Extras). Ova datoteka je JAVNA (mini-igre/ ide u dist/) i zato je samo ljuska:
+  teme, zadaci i upute stizu iz privatnog bucketa preko aplikacije —
+  window.parent.crolandA11.dohvati('a11-plus.json' | 'a11-upute-XX.json') -> Promise<JSON>.
+  Aplikacija sama provjerava racun i Plus; bez nje modul pokaze samo poruku.
+
+  Stanje: localStorage 'croland-mini-a11' (aplikacija ga sije iz PROGRESS.mini_igre prije
+  ucitavanja i vraca na server kad se promijeni). A1.1 nema bodova (maks: 0).
+
+  Ljuska se ne prevodi; jezik uputa bira se ovdje, zastavama. CSS koristi samo logicka
+  svojstva (inline/block), da RTL jezici (urdu, arapski) rade bez zasebnih pravila.
+-->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --papir:#FFF8F0; --papir2:#FFEFE0; --tinta:#2B2118; --meko:#7A6A5A;
+  --zut:#F4B942; --koralj:#E8623A; --tirkiz:#2FA8A0; --ljub:#7B5EA7;
+  --zelena:#7CB342; --plava:#3E7CB1; --crta:3px solid #2B2118;
+  --sjena:0 4px 0 #2B2118; --font-upute:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+}
+/* prirodna visina dokumenta: aplikacija okvir izjednacava sa sadrzajem */
+body{
+  font-family:var(--font-upute);
+  background:var(--papir); color:var(--tinta);
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(rgba(43,33,24,.045) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+button{font:inherit;color:inherit}
+.omot{max-inline-size:1100px;margin-inline:auto;padding:14px 14px 40px}
+/* hrvatski tekst uvijek lijevo-desno i latinicom, bez obzira na jezik uputa */
+.hr{direction:ltr;unicode-bidi:isolate;font-family:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif}
+
+/* ---- glava ---- */
+.hud{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  background:#fff;border:var(--crta);border-radius:16px;box-shadow:var(--sjena);
+  padding:10px 14px;margin-block-end:14px}
+.hud .ime{font-weight:800;font-size:18px;margin-inline-end:auto}
+.hud .ime small{display:block;font-weight:600;font-size:12px;color:var(--meko)}
+.jezikG{display:inline-flex;align-items:center;gap:6px;cursor:pointer;background:var(--papir2);
+  border:2px solid var(--tinta);border-radius:999px;padding:4px 12px;font-weight:700;font-size:14px;white-space:nowrap}
+.jezikG:hover{background:#fff}
+.zast{font-size:20px;line-height:1}
+
+/* ---- ploha (stranica bilježnice) ---- */
+.ploha{background:#fff;border:var(--crta);border-radius:20px;box-shadow:var(--sjena);
+  padding:18px;display:flex;flex-direction:column;gap:14px;position:relative}
+.ploha + .ploha{margin-block-start:16px}
+h2.naslov{font-size:21px;font-weight:800}
+p.uputa{font-size:15px;color:var(--meko);line-height:1.5}
+.biljeska{font-size:14px;line-height:1.5;background:#FFF6DA;border:2px dashed var(--zut);
+  border-radius:12px;padding:10px 12px}
+.biljeska.beta{background:#EEF4FB;border-color:var(--plava)}
+
+/* ---- izbor jezika ---- */
+.jezici{display:grid;grid-template-columns:repeat(auto-fill,minmax(10.5rem,1fr));gap:10px}
+.jezikK{display:flex;align-items:center;gap:10px;cursor:pointer;text-align:start;
+  background:#fff;border:var(--crta);border-radius:14px;box-shadow:0 3px 0 var(--tinta);
+  padding:12px 14px;font-weight:700;font-size:16px;transition:transform .06s,box-shadow .06s}
+.jezikK .zast{font-size:28px}
+.jezikK:hover{background:var(--papir2)}
+.jezikK:active{transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
+.jezikK.akt{background:var(--zut)}
+.jezikK small{display:block;font-weight:600;font-size:11px;color:var(--meko)}
+
+/* ---- teme ---- */
+.teme{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:12px}
+.tema{display:grid;grid-template-columns:3.4rem 1fr;gap:4px 12px;align-items:center;text-align:start;
+  background:var(--papir);border:2px solid var(--tinta);border-radius:16px;padding:12px;cursor:pointer;
+  box-shadow:0 3px 0 var(--tinta);transition:transform .06s,box-shadow .06s;position:relative}
+.tema:hover{background:var(--papir2)}
+.tema:active{transform:translateY(2px);box-shadow:0 1px 0 var(--tinta)}
+.tema[aria-disabled="true"]{cursor:default}
+.tema[aria-disabled="true"]:active{transform:none;box-shadow:0 3px 0 var(--tinta)}
+.tema .slika{grid-row:span 2;inline-size:3.4rem;block-size:3.4rem;border-radius:12px;border:2px solid var(--tinta);
+  background:#fff;display:grid;place-items:center;font-size:28px}
+.tema .br{position:absolute;inset-block-start:-9px;inset-inline-start:-9px;inline-size:26px;block-size:26px;border-radius:50%;
+  background:var(--tinta);color:#fff;font-weight:800;font-size:13px;display:grid;place-items:center}
+.tema .hrN{font-weight:800;font-size:17px;line-height:1.2}
+.tema .opis{font-size:13px;color:var(--meko);line-height:1.35}
+.tema .oznake{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-block-start:6px}
+.ozn{font-size:11px;font-weight:800;letter-spacing:.3px;border:2px solid var(--tinta);border-radius:999px;padding:1px 8px;background:#fff}
+.ozn.novo{background:var(--tirkiz);color:#fff;border-color:var(--tirkiz)}
+.ozn.uskoro{color:var(--meko);border-style:dashed;border-color:var(--meko)}
+
+/* ---- ispit ---- */
+.ispit{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.ispit .dijelovi{display:flex;flex-wrap:wrap;gap:8px;flex:1 1 18rem}
+.dio{display:inline-flex;align-items:center;gap:6px;border:2px solid var(--tinta);border-radius:12px;
+  background:var(--papir);padding:6px 10px;font-weight:700;font-size:14px}
+.g{font-weight:700;font-size:15px;cursor:pointer;border:var(--crta);
+  border-radius:12px;background:var(--zut);padding:10px 18px;box-shadow:0 3px 0 var(--tinta);white-space:nowrap}
+.g[disabled]{opacity:.45;cursor:not-allowed;background:#fff}
+
+/* ---- stanja ---- */
+.stanje{text-align:center;padding:40px 14px;display:flex;flex-direction:column;gap:14px;align-items:center}
+.stanje p{font-size:16px;line-height:1.5;max-inline-size:28rem}
+.vrti{inline-size:34px;block-size:34px;border-radius:50%;border:4px solid var(--papir2);border-block-start-color:var(--koralj);animation:vrti 0.9s linear infinite}
+@keyframes vrti{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){.vrti{animation:none}}
+.poruka{font-size:14px;font-weight:600;color:var(--plava);min-block-size:1.2em}
+:focus-visible{outline:3px solid var(--plava);outline-offset:2px}
+
+@media (max-width:480px){
+  .omot{padding:10px 10px 30px}
+  .ploha{padding:14px;border-radius:16px}
+  .teme{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="omot" id="omot">
+  <div class="stanje"><div class="vrti" aria-hidden="true"></div><p>Loading…</p></div>
+</div>
+<script>
+(function () {
+  'use strict';
+  var KLJUC = 'croland-mini-a11';
+  var OMOT = document.getElementById('omot');
+  var PLUS = null;          // a11-plus.json
+  var EN = {};              // engleske upute (uvijek ucitane, zamjena za sve sto nije prevedeno)
+  var UP = {};              // upute odabranog jezika
+  var JEZIK = null;         // { kod, ime, zastava, dir, font, status }
+  var IKONE_VJESTINA = { slusanje: '🎧', citanje: '📖', pisanje: '✏️', govor: '🗣' };
+
+  // ---------- stanje ----------
+  function stanje() {
+    try { return JSON.parse(localStorage.getItem(KLJUC) || '{}') || {}; } catch (e) { return {}; }
+  }
+  function spremi(promjena) {
+    var s = stanje();
+    for (var k in promjena) s[k] = promjena[k];
+    s.v = 1;
+    try { localStorage.setItem(KLJUC, JSON.stringify(s)); } catch (e) {}
+  }
+
+  // ---------- tekst ----------
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  // t('tema.zadataka', 5) -> upute odabranog jezika, inace engleski, inace sam kljuc
+  function t(kljuc) {
+    var prev = UP[kljuc] != null;
+    var s = prev ? UP[kljuc] : (EN[kljuc] != null ? EN[kljuc] : kljuc);
+    var arg = arguments;
+    s = String(s).replace(/%(\d)/g, function (m, n) { return arg[+n] != null ? arg[+n] : m; });
+    // Neprevedeni engleski u RTL jeziku: izoliraj smjer (LRI…PDI), inace tocka skoci na pocetak.
+    if (!prev && JEZIK && JEZIK.dir === 'rtl') s = '⁦' + s + '⁩';
+    return s;
+  }
+
+  // ---------- dohvat (preko aplikacije) ----------
+  function api() {
+    try { return window.parent && window.parent !== window && window.parent.crolandA11; } catch (e) { return null; }
+  }
+  function dohvati(f) {
+    var a = api();
+    if (!a || !a.dohvati) return Promise.reject(new Error('izvan'));
+    return a.dohvati(f);
+  }
+
+  // ---------- jezik ----------
+  function postaviJezik(j) {
+    JEZIK = j;
+    document.documentElement.lang = j.kod;
+    document.documentElement.dir = j.dir === 'rtl' ? 'rtl' : 'ltr';
+    // Noto font za pismo (F7): ucitava se samo za odabrani jezik. Do tada sistemski.
+    document.documentElement.style.setProperty('--font-upute',
+      (j.font ? '"' + j.font + '",' : '') + '"Segoe UI",system-ui,-apple-system,"Helvetica Neue",sans-serif');
+  }
+  function jezikPoKodu(kod) {
+    var l = (PLUS && PLUS.jezici) || [];
+    for (var i = 0; i < l.length; i++) if (l[i].kod === kod) return l[i];
+    return null;
+  }
+  function ucitajUpute(j) {
+    if (j.kod === 'en') { UP = EN; return Promise.resolve(); }
+    return dohvati('a11-upute-' + j.kod + '.json').then(function (d) {
+      UP = (d && d.tekstovi) || {};
+    }, function () { UP = {}; });   // nema prijevoda -> engleski
+  }
+  function odaberiJezik(kod) {
+    var j = jezikPoKodu(kod);
+    if (!j) return;
+    prikaziUcitavanje();
+    ucitajUpute(j).then(function () {
+      postaviJezik(j);
+      spremi({ jezik: j.kod });
+      prikaziPocetnu();
+    });
+  }
+
+  // ---------- prikazi ----------
+  function prikaziUcitavanje() {
+    OMOT.innerHTML = '<div class="stanje"><div class="vrti" aria-hidden="true"></div><p>' + esc(t('ucitavanje')) + '</p></div>';
+  }
+  function prikaziGresku(izvan) {
+    OMOT.innerHTML = '<div class="ploha"><div class="stanje"><p>' +
+      esc(izvan ? 'Open A1.1 from the Croland app.' : t('greska.ucitavanje')) + '</p>' +
+      (izvan ? '' : '<button class="g" id="ponovi">' + esc(t('greska.pokusaj')) + '</button>') +
+      '</div></div>';
+    var b = document.getElementById('ponovi');
+    if (b) b.onclick = pokreni;
+  }
+  function glavaHtml() {
+    return '<div class="hud"><div class="ime">' + esc(t('naslov')) +
+      '<small>' + esc(t('podnaslov')) + '</small></div>' +
+      ((PLUS.jezici || []).length > 1 || JEZIK ? '<button class="jezikG" id="jezikG" aria-label="' + esc(t('jezik.promijeni')) + '">' +
+        '<span class="zast" aria-hidden="true">' + (JEZIK ? JEZIK.zastava : '🌐') + '</span>' +
+        '<span>' + esc(JEZIK ? JEZIK.ime : t('jezik.promijeni')) + '</span></button>' : '') +
+      '</div>';
+  }
+  function vezi() {
+    var g = document.getElementById('jezikG');
+    if (g) g.onclick = prikaziIzborJezika;
+  }
+
+  function prikaziIzborJezika() {
+    var html = (JEZIK ? glavaHtml() : '') +
+      '<div class="ploha"><h2 class="naslov">🌐 ' + esc(t('jezik.izbor')) + '</h2>' +
+      '<p class="uputa">' + esc(t('jezik.uputa')) + '</p><div class="jezici">';
+    (PLUS.jezici || []).forEach(function (j) {
+      html += '<button class="jezikK' + (JEZIK && JEZIK.kod === j.kod ? ' akt' : '') + '" data-kod="' + esc(j.kod) + '"' +
+        ' dir="' + (j.dir === 'rtl' ? 'rtl' : 'ltr') + '" lang="' + esc(j.kod) + '">' +
+        '<span class="zast" aria-hidden="true">' + j.zastava + '</span>' +
+        '<span>' + esc(j.ime) + (j.status === 'beta' ? '<small>beta</small>' : '') + '</span></button>';
+    });
+    html += '</div></div>';
+    OMOT.innerHTML = html;
+    vezi();
+    var k = OMOT.querySelectorAll('.jezikK');
+    for (var i = 0; i < k.length; i++) k[i].onclick = function () { odaberiJezik(this.getAttribute('data-kod')); };
+  }
+
+  function prikaziPocetnu() {
+    var html = glavaHtml();
+    if (JEZIK && JEZIK.status === 'beta') {
+      html += '<div class="biljeska beta" style="margin-block-end:14px">' + esc(t('jezik.beta.opis')) + '</div>';
+    }
+
+    // teme
+    html += '<div class="ploha"><h2 class="naslov">' + esc(t('teme.naslov')) + '</h2>' +
+      '<p class="uputa">' + esc(t('teme.opis')) + '</p><div class="teme">';
+    (PLUS.teme || []).forEach(function (tm) {
+      var n = (tm.zadaci || []).length, ima = n > 0;
+      html += '<div class="tema" role="button" tabindex="0" data-id="' + esc(tm.id) + '"' + (ima ? '' : ' aria-disabled="true"') + '>' +
+        '<span class="br">' + tm.br + '</span>' +
+        '<span class="slika" aria-hidden="true">' + tm.emo + '</span>' +
+        '<span class="hrN hr" lang="hr">' + esc(tm.hr) + '</span>' +
+        '<span class="opis">' + esc(t('tema.' + tm.id)) + '</span>' +
+        '<span class="oznake">' +
+          (tm.novo ? '<span class="ozn novo">' + esc(t('tema.novo')) + '</span>' : '') +
+          (ima ? '<span class="ozn">' + esc(t('tema.zadataka', n)) + '</span>'
+               : '<span class="ozn uskoro">' + esc(t('tema.uskoro')) + '</span>') +
+        '</span></div>';
+    });
+    html += '</div></div>';
+
+    // probni ispit
+    var isp = PLUS.ispit || {}, min = isp.trajanjeMin || [];
+    html += '<div class="ploha"><h2 class="naslov">📝 ' + esc(t('ispit.naslov')) + '</h2>' +
+      '<p class="uputa">' + esc(t('ispit.opis')) + '</p>' +
+      '<div class="ispit"><div class="dijelovi">';
+    (isp.dijelovi || []).forEach(function (d) {
+      html += '<span class="dio"><span aria-hidden="true">' + (IKONE_VJESTINA[d.id] || '•') + '</span>' + esc(t('vjestina.' + d.id)) + '</span>';
+    });
+    html += '</div><button class="g" disabled title="' + esc(t('ispit.uskoro')) + '">' + esc(t('ispit.uskoro')) + '</button></div>' +
+      (isp.sluzbeno ? '' : '<div class="biljeska">' + esc(t('nesluzbeno')) + '</div>') +
+      '</div>';
+
+    OMOT.innerHTML = html;
+    vezi();
+    // Otvaranje teme dolazi u F4 (stranica radne bilježnice). Do tada su kartice samo pregled.
+    var te = OMOT.querySelectorAll('.tema');
+    for (var i = 0; i < te.length; i++) {
+      te[i].onclick = function () { if (this.getAttribute('aria-disabled') !== 'true') otvoriTemu(this.getAttribute('data-id')); };
+      te[i].onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.click(); } };
+    }
+  }
+  function otvoriTemu(id) { /* F4 */ }
+
+  // ---------- pokretanje ----------
+  function pokreni() {
+    if (!api()) { prikaziGresku(true); return; }
+    prikaziUcitavanje();
+    Promise.all([dohvati('a11-plus.json'), dohvati('a11-upute-en.json')]).then(function (r) {
+      PLUS = r[0] || {};
+      EN = (r[1] && r[1].tekstovi) || {};
+      UP = EN;
+      var j = jezikPoKodu(stanje().jezik);
+      if (!j) { prikaziIzborJezika(); return; }       // prvi ulaz: najprije jezik
+      return ucitajUpute(j).then(function () { postaviJezik(j); prikaziPocetnu(); });
+    }).catch(function (e) {
+      if (window.console) console.error('A1.1: sadrzaj nije ucitan', e);
+      prikaziGresku(e && e.message === 'izvan');
+    });
+  }
+  pokreni();
+})();
+</script>
+</body>
+</html>
