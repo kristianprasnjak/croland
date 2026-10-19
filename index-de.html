@@ -367,6 +367,33 @@
   .vnav.zavrsena .vtr i { background: var(--zelena); }
   .vnav.vfin { border-style: dashed; }
   .vnav.vfin.aktivna { border-style: solid; }
+  /* Traka napretka s brojačem je gumb. Na računalu i tabletu samo prikazuje
+     napredak, jer je mreža vježbi ispod nje uvijek vidljiva. Na mobitelu je
+     mreža skrivena (zauzimala je petinu ekrana iznad vježbe) i otvara se
+     dodirom na traku — strelica pokazuje da se traka može otvoriti. */
+  .napredakGumb {
+    flex: 1; min-width: 7.5rem; display: flex; align-items: center; gap: 0.75rem;
+    padding: 0; border: 0; background: none; font: inherit; color: inherit;
+    cursor: default; pointer-events: none;
+  }
+  .napredakBroj { font-size: var(--t-s); color: var(--muted); white-space: nowrap; display: inline-flex; align-items: center; gap: 0.375rem; }
+  .napredakGumb .kvakaNav { display: none; }
+  @media (max-width: 639.98px) {
+    .vjezbeNav:not(.otvorena) { display: none; }
+    .vjezbeNav.otvorena { animation: odlOtvor .22s ease; }
+    .napredakGumb { pointer-events: auto; cursor: pointer; min-height: 2.75rem; margin: -0.375rem 0; padding: 0 0.25rem; border-radius: var(--rad-s); }
+    .napredakGumb:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+    .napredakGumb .kvakaNav {
+      display: inline-block; width: 0.4375rem; height: 0.4375rem; margin: 0 0.125rem 0.1875rem;
+      border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+      transform: rotate(45deg); transition: transform .2s ease;
+    }
+    .napredakGumb[aria-expanded="true"] .kvakaNav { transform: rotate(-135deg); margin-bottom: -0.1875rem; }
+  }
+  @media (max-width: 639.98px) and (prefers-reduced-motion: reduce) {
+    .vjezbeNav.otvorena { animation: none; }
+    .napredakGumb .kvakaNav { transition: none; }
+  }
 
   #ploca {
     background: var(--card); border: 1px solid var(--rub); border-radius: var(--rad-l);
@@ -11043,7 +11070,7 @@
   // ---- navigacija između vježbi unutar cjeline ----
   function navigacijaVjezbi(tip, razina, indeks, igre) {
     if (igre.length <= 1) return '';
-    var html = '<div class="vjezbeNav">';
+    var html = '<div class="vjezbeNav" id="vjezbeNav">';
     var trake = [];
     igre.forEach(function (g, i) {
       var osv = najbolji(g);
@@ -11074,6 +11101,26 @@
     return html;
   }
   var navTrakeCekaju = null;
+
+  // Traka napretka + brojač iznad vježbe. Kad cjelina ima mrežu vježbi, cijela
+  // traka je gumb koji je na mobitelu otvara (vidi .napredakGumb u CSS-u).
+  // Na širem ekranu mreža je uvijek otvorena, pa gumb nije u redoslijedu tabulatora.
+  function napredakTraka(pct, brojHtml, imaNav, oznaka) {
+    var traka = '<div class="progresBar"><div style="width:' + pct + '%"></div></div>';
+    if (!imaNav) return traka + '<span class="napredakBroj">' + brojHtml + '</span>';
+    var mob = !!(window.matchMedia && window.matchMedia('(max-width: 639.98px)').matches);
+    return '<button type="button" class="napredakGumb" aria-controls="vjezbeNav" ' +
+      (mob ? 'aria-expanded="false"' : 'tabindex="-1"') +
+      ' aria-label="' + esc(oznaka) + '" onclick="prebaciNavVjezbi(this)">' + traka +
+      '<span class="napredakBroj">' + brojHtml + '<span class="kvakaNav" aria-hidden="true"></span></span></button>';
+  }
+  function prebaciNavVjezbi(gumb) {
+    var nav = $('vjezbeNav'); if (!nav) return;
+    var otvori = !nav.classList.contains('otvorena');
+    nav.classList.toggle('otvorena', otvori);
+    if (gumb) gumb.setAttribute('aria-expanded', otvori ? 'true' : 'false');
+  }
+  window.prebaciNavVjezbi = prebaciNavVjezbi;
 
   // ================= TEST =================
   // Test nije cjelina s vježbama koje se biraju — to je jedno sjedenje.
@@ -11401,8 +11448,8 @@
       (jeNula ? '<button class="natrag" onclick="idi(\'' + natragView + '\')">‹ App erkunden</button>' : '') +
       '<h2>' + (jeNula ? 'Lektion 0' + (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '') : naslovC) + '</h2>' +
       (jeNula ? '' :
-        '<div class="progresBar"><div style="width:' + Math.round(indeks / igre.length * 100) + '%"></div></div>' +
-        '<span style="font-size:var(--t-s);color:var(--muted)">' + (indeks + 1) + '/' + igre.length + '</span>') +
+        napredakTraka(Math.round(indeks / igre.length * 100), (indeks + 1) + '/' + igre.length, igre.length > 1,
+          T_('Exercise %1 of %2. Show all exercises', indeks + 1, igre.length))) +
       '</div>' +
       navigacijaVjezbi(tip, razina, indeks, igre) +
       '<div id="opisIgre"></div>' +
@@ -11563,8 +11610,8 @@
     VIEW.innerHTML =
       '<div class="traka">' +
       '<h2>' + esc(naslovC) + ' – Zusammenfassung</h2>' +
-      '<div class="progresBar"><div style="width:100%"></div></div>' +
-      '<span style="font-size:var(--t-s);color:var(--muted)">' + IK('zastava', 'uz') + T_('Ziel') + '</span>' +
+      napredakTraka(100, IK('zastava', 'uz') + T_('Ziel'), igre.length > 1,
+        T_('Lesson summary. Show all exercises')) +
       '</div>' +
       navigacijaVjezbi(tip, razina, igre.length, igre) +
       '<div class="sazetak sazUlaz">' +
