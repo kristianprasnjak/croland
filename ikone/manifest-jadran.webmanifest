@@ -1,0 +1,32 @@
+{
+  "id": "../",
+  "name": "Croland",
+  "short_name": "Croland",
+  "description": "Learn Croatian.",
+  "start_url": "../",
+  "scope": "../",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eff3f4",
+  "theme_color": "#eff3f4",
+  "icons": [
+    {
+      "src": "jadran-any-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "jadran-any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "jadran-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

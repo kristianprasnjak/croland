@@ -50,6 +50,27 @@
   })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Croland kao aplikacija na početnom zaslonu. Ikona i manifest prate temu: telefon
+     ikonu kopira u trenutku dodavanja, pa stranica uvijek nudi onu izabrane teme
+     (vidi postaviIkonuAplikacije). Kasnija promjena teme ne mijenja već dodanu ikonu. -->
+<link rel="manifest" id="aplManifest" href="ikone/manifest-zagreb.webmanifest">
+<link rel="apple-touch-icon" id="aplIkona" href="ikone/zagreb-apple-180.png">
+<link rel="icon" type="image/png" sizes="192x192" id="aplFavicon" href="ikone/zagreb-any-192.png">
+<meta name="theme-color" id="aplBoja" content="#f6f3ee">
+<meta name="apple-mobile-web-app-title" content="Croland">
+<script>
+  window.CROLAND_APL_BOJE = { zagreb: '#f6f3ee', jadran: '#eff3f4', maslina: '#f4f4ec', tinta: '#f4f4f5', sljiva: '#f5f1f4' };
+  window.postaviIkonuAplikacije = function (t) {
+    if (!window.CROLAND_APL_BOJE[t]) return;
+    var m = document.getElementById('aplManifest'), i = document.getElementById('aplIkona'),
+        f = document.getElementById('aplFavicon'), b = document.getElementById('aplBoja');
+    if (m) m.setAttribute('href', 'ikone/manifest-' + t + '.webmanifest');
+    if (i) i.setAttribute('href', 'ikone/' + t + '-apple-180.png');
+    if (f) f.setAttribute('href', 'ikone/' + t + '-any-192.png');
+    if (b) b.setAttribute('content', window.CROLAND_APL_BOJE[t]);
+  };
+  try { window.postaviIkonuAplikacije(localStorage.getItem('croland.tema')); } catch (e) {}
+</script>
 <title>Croland · info-v1</title>
 <!-- Veza prema Supabaseu (TLS) se otvara dok stižu skripte, pa prvi poziv nakon njih
      ne čeka rukovanje. Preload za data.js/rjecnik.js je isproban i nije ubrzao ništa:
@@ -1899,6 +1920,23 @@
   .otkljModal .otkljIkona { font-size: var(--t-5xl); margin-bottom: 0.5rem; animation: skokV .8s ease .2s; display: inline-block; }
   .otkljModal h2 { margin-bottom: 0.375rem; }
   .otkljModal .otkljPod { color: var(--muted); font-size: var(--t-m); margin-bottom: 0.875rem; }
+  /* ---- kartica: Croland na početnom zaslonu (prikaziKarticuInstalacije) ---- */
+  .instKartica { max-width: 23rem; }
+  .instKartica .instIkona { width: 4rem; height: 4rem; border-radius: 22%; display: block; margin: 0 auto 0.875rem;
+    box-shadow: 0 4px 14px rgba(25,23,19,.18); }
+  .instKoraci { list-style: none; padding: 0; margin: 0 0 1.25rem; text-align: left; display: grid; gap: 0.625rem; counter-reset: k; }
+  .instKoraci li { display: flex; align-items: center; gap: 0.75rem; counter-increment: k;
+    background: var(--papir); border: 1px solid var(--rub); border-radius: var(--rad-m); padding: 0.625rem 0.75rem; font-size: var(--t-m); line-height: 1.4; }
+  .instKoraci li::before { content: counter(k); flex: none; width: 1.5rem; height: 1.5rem; border-radius: 50%;
+    background: var(--plava); color: #fff; font-weight: 700; font-size: var(--t-s); display: grid; place-items: center; }
+  .instKoraci .instZnak { flex: none; width: 1.375rem; height: 1.375rem; color: var(--plava); }
+  .instKoraci li span { flex: 1; }
+  .instKartica .gumb { width: 100%; margin-top: 0; }
+  .instKartica .gumb + .gumb { margin-top: 0.5rem; }
+  /* odustajanje nije glavna radnja: na iPhoneu je to jedini gumb, pa ne smije vikati */
+  .instKartica .gumbSivi { background: transparent; color: var(--ink); border: 1px solid var(--rub); box-shadow: none; }
+  .instNikad { display: inline-block; margin-top: 0.875rem; background: none; border: 0; padding: 0.25rem;
+    color: var(--muted); font: inherit; font-size: var(--t-s); text-decoration: underline; cursor: pointer; }
   @media (max-width: 639.98px) {
     .naslovnica { grid-template-columns: 1fr; }
     .valutaKartice { grid-template-columns: repeat(2, 1fr); }
@@ -2359,6 +2397,41 @@
   }
   .pregledP .opcija.tocno { border-color: var(--zelena); background: #eaf3ec; color: var(--zelena); }
 
+  /* ---- Options na mobitelu (renderOptionsMob) ----
+     Izgled je na vrhu: tri reda koji se vode vodoravno (boja, pismo, veličina)
+     i odmah ispod njih kratki pregled, pa se svaki dodir vidi bez skrolanja.
+     Kartica teme JEST tema: papir kao pozadina, ime u glavnoj boji — ostale
+     dvije boje (zelena, zlatna) gotovo su iste u svim temama i ništa ne govore.
+     Kartica veličine piše se baš onom veličinom koju daje. Zadnja kartica u
+     redu namjerno viri preko ruba: po tome se vidi da red ide dalje. */
+  .opcMob .nasP { margin-bottom: 0.5rem; }
+  .opcRed {
+    display: flex; gap: 0.5rem; overflow-x: auto; overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; scroll-padding: 0 1rem; scrollbar-width: none;
+    margin: 0 -1rem 1.125rem; padding: 0.1875rem 1rem 0.3125rem;
+  }
+  .opcRed::-webkit-scrollbar { display: none; }
+  .opcK {
+    flex: none; scroll-snap-align: start; display: inline-flex; align-items: center; gap: 0.375rem;
+    min-height: max(3rem, 44px); padding: 0 1rem; border-radius: var(--rad-m);
+    border: 1.5px solid var(--rub); background: var(--card); color: var(--ink);
+    font: inherit; font-size: var(--t-l); font-weight: 600; line-height: 1.2; white-space: nowrap; cursor: pointer;
+  }
+  .opcK[aria-pressed="true"] { border: 2px solid var(--plava); box-shadow: 0 0 0 3px color-mix(in srgb, var(--plava) 14%, transparent); }
+  .opcK:focus-visible { outline: 2px solid var(--plava); outline-offset: 2px; }
+  .opcK .kvaka { font-size: var(--t-s); color: var(--plava); }
+  .opcMob .pregledP { margin-top: 0; }
+  .opcMob .pregledP .opcije { margin-bottom: 0; }
+  .opcOstalo { display: grid; gap: 0.5rem; margin-top: 1.5rem; }
+  .opcOstalo .kvakaJ { flex: none; color: var(--muted); font-size: var(--t-xl); line-height: 1; transition: transform .2s; }
+  .opcOstalo .sklopkaRed[aria-expanded="true"] .kvakaJ { transform: rotate(90deg); }
+  .opcJezici { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.25rem 0 0.5rem; }
+  .opcJezici p { flex-basis: 100%; color: var(--muted); font-size: var(--t-s); margin: 0.25rem 0 0; }
+  @media (prefers-reduced-motion: reduce) { .opcOstalo .kvakaJ { transition: none; } }
+  /* Veličina se na mobitelu bira u Options (kartice u stvarnoj veličini);
+     −/+ u zaglavlju zauzimali su mjesto i lako se dodirnu slučajno. */
+  @media (max-width: 639.98px) { .velicinaG { display: none; } }
+
   /* ---- stranica Options ---- */
   .opcijeMreza { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; max-width: 40rem; }
   .temaK {
@@ -2575,6 +2648,72 @@
     body.izbornikOtvoren #lebdi, body.izbornikOtvoren #lebdiIgra, body.izbornikOtvoren #lebdiInfo { display: none !important; }
   }
 
+  /* ---- mobitel: ☰ otvara izbornik preko cijelog ekrana (varijanta A) ----
+     Ploče jednake širine u bloku na sredini ekrana, pa ikone stoje u ravnom
+     stupcu iako je sve centrirano. Learn (Home…Dictionary) su prave ploče,
+     You (Progress, račun, Options) tiši red ispod. Ikone su CSS maske na
+     ::before, a ne <svg> u linku: tekst izbornika tako ostaje golim tekstom
+     koji alat za prijevod sučelja (izgradi-sucelje.py) nalazi kao i prije.
+     Redoslijed na mobitelu daje --r (order), ne HTML — na računalu ostaje isti. */
+  @media (max-width: 639.98px) {
+    header nav a[data-view="main"] { --r: 0; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8'/%3E%3Cpath d='M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3C/svg%3E"); }
+    header nav a[data-view="lessons"] { --r: 1; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 5v16'/%3E%3Cpath d='M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z'/%3E%3C/svg%3E"); }
+    header nav a[data-view="daily"] { --r: 2; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 2v3'/%3E%3Cpath d='M16 2v3'/%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Cpath d='M3 9h18'/%3E%3Cpath d='M8 13h.01'/%3E%3Cpath d='M12 13h.01'/%3E%3Cpath d='M16 13h.01'/%3E%3Cpath d='M8 17h.01'/%3E%3Cpath d='M12 17h.01'/%3E%3Cpath d='M16 17h.01'/%3E%3C/svg%3E"); }
+    header nav a[data-view="mini"] { --r: 3; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='6' x2='10' y1='11' y2='11'/%3E%3Cline x1='8' x2='8' y1='9' y2='13'/%3E%3Cline x1='15' x2='15.01' y1='12' y2='12'/%3E%3Cline x1='18' x2='18.01' y1='10' y2='10'/%3E%3Cpath d='M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z'/%3E%3C/svg%3E"); }
+    header nav a[data-view="dictionary"] { --r: 4; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'/%3E%3Cpath d='m8 13 4-7 4 7'/%3E%3Cpath d='M9.1 11h5.7'/%3E%3C/svg%3E"); }
+    header nav a[data-view="progress"] { --r: 5; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3v16a2 2 0 0 0 2 2h16'/%3E%3Cpath d='M18 17V9'/%3E%3Cpath d='M13 17V5'/%3E%3Cpath d='M8 17v-3'/%3E%3C/svg%3E"); }
+    header nav a[data-view="account"] { --r: 6; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='12' cy='7' r='4'/%3E%3C/svg%3E"); }
+    header nav a[data-view="options"] { --r: 7; --ik: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 17H5'/%3E%3Cpath d='M19 7h-9'/%3E%3Ccircle cx='17' cy='17' r='3'/%3E%3Ccircle cx='7' cy='7' r='3'/%3E%3C/svg%3E"); }
+    body.izbornikOtvoren { overflow: hidden; }
+    body.izbornikOtvoren header .logo { z-index: 22; }
+    body.izbornikOtvoren header .logo::before { content: "\2715"; font-size: var(--t-l); font-family: inherit; font-weight: 700; }
+    header nav {
+      top: 0; bottom: 0; max-height: none; z-index: 20;
+      padding: calc(4.25rem + env(safe-area-inset-top, 0px)) 1.25rem calc(2rem + env(safe-area-inset-bottom, 0px));
+      background: var(--bg); border-bottom: 0; box-shadow: none;
+      align-items: center; justify-content: center; justify-content: safe center; gap: 0.625rem;
+    }
+    header nav a, header nav a.navPocetna {
+      order: var(--r); width: min(17rem, 100%); display: flex; align-items: center; gap: 0.875rem;
+      min-height: 3.375rem; padding: 0 1.125rem; border-radius: var(--rad-l);
+      background: var(--card); border: 1.5px solid var(--rub); box-shadow: 0 1px 0 var(--rub);
+      color: var(--ink); font-weight: 600; font-size: var(--t-l); text-align: left;
+    }
+    header nav a::before {
+      content: ""; flex: none; width: 1.375rem; height: 1.375rem; background: var(--plava);
+      -webkit-mask: var(--ik) center / contain no-repeat; mask: var(--ik) center / contain no-repeat;
+    }
+    header nav a.aktivna { background: var(--plava); border-color: var(--plava); color: #fff; box-shadow: none; font-weight: 600; }
+    header nav a.aktivna::before { background: #fff; }
+    /* You: tiši red ispod ploča */
+    header nav a[data-view="progress"], header nav a[data-view="account"], header nav a[data-view="options"] {
+      min-height: 2.875rem; background: transparent; border-color: transparent; box-shadow: none;
+      font-size: var(--t-m); color: var(--muted);
+    }
+    header nav a[data-view="progress"] { margin-top: 0.75rem; }
+    header nav a[data-view="progress"]::before, header nav a[data-view="account"]::before,
+    header nav a[data-view="options"]::before { width: 1.25rem; height: 1.25rem; background: var(--muted); }
+    header nav a.aktivna[data-view="progress"], header nav a.aktivna[data-view="account"],
+    header nav a.aktivna[data-view="options"] { background: var(--tiho); color: var(--ink); }
+    header nav a.aktivna[data-view="progress"]::before, header nav a.aktivna[data-view="account"]::before,
+    header nav a.aktivna[data-view="options"]::before { background: var(--plava); }
+    /* u punom izborniku Progress ostaje na svom mjestu i kad je brojač u zaglavlju */
+    body.imaBrojac header nav a[data-view="progress"] { display: flex; }
+    /* Daily nije odigran danas: točka na kraju ploče umjesto natpisa */
+    header nav a[data-view="daily"] > span { flex: 1; }
+    header nav a[data-view="daily"].ceka::after {
+      content: ""; flex: none; width: 0.5625rem; height: 0.5625rem; border-radius: 50%;
+      background: var(--crvena, #c2413c);
+    }
+    body.izbornikOtvoren header nav { animation: meniPod .18s ease both; }
+    body.izbornikOtvoren header nav a { animation: meniUlaz .32s cubic-bezier(.2,.8,.3,1) both; animation-delay: calc(var(--r) * 28ms); }
+  }
+  @keyframes meniPod { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes meniUlaz { from { opacity: 0; transform: translateY(0.5rem) scale(.98); } to { opacity: 1; transform: none; } }
+  @media (max-width: 639.98px) and (prefers-reduced-motion: reduce) {
+    body.izbornikOtvoren header nav, body.izbornikOtvoren header nav a { animation: none; }
+  }
+
   /* ================= PROGRESS ================= */
   .progTabovi { display: flex; gap: 0.25rem; background: var(--tiho); padding: 0.25rem;
     border-radius: var(--rad-m); margin-bottom: 1.5rem; width: fit-content; max-width: 100%; flex-wrap: wrap; }
@@ -2652,6 +2791,8 @@
   .progCelija.puna .kvaka { position: absolute; top: 0.3125rem; right: 0.4375rem; color: var(--boja);
     font-size: var(--t-s); line-height: 1; }
   .progCelija.zakljucana { background: var(--tiho); border-style: dashed; cursor: help; }
+  .progCelija.zakljucana .lukOkvir { width: 1.75rem; height: 1.75rem; margin: auto; }
+  .progCelija.zakljucana .lukBrava { font-size: var(--t-2xs); color: var(--muted); }
   .progCelija.zakljucana .pct { color: var(--muted); font-size: var(--t-2xs); font-weight: 600;
     text-transform: uppercase; letter-spacing: .05em; }
   .progCelija.odabrana { border-color: var(--boja);
@@ -3895,6 +4036,16 @@
   // na jeziku stranice (build prevodi T_); za engleski su iste.
   var KRATICA_VALUTE = { LP: T_('LP'), VP: T_('WP'), GP: T_('GP'), PP: T_('PP') };
   function valutaKratica(k) { return KRATICA_VALUTE[k] || k; }
+  // Bodovi na zaslonu. Od 10 000 navise tisuce dijeli USKI neprelomljivi razmak (U+202F):
+  // zarez je u DE/ES/HR decimalni znak, a tocka u engleskom — razmak nije decimalni ni u
+  // jednom jeziku (SI/ISO), pa radi isto u svim verzijama bez prijevoda. Cetiri znamenke
+  // ostaju bez razmaka (8674), kako standard i dopusta.
+  function bod(n) {
+    n = Math.round(Number(n) || 0);
+    var a = Math.abs(n);
+    if (a < 10000) return String(n);
+    return (n < 0 ? '-' : '') + String(a).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202F');
+  }
   var VALUTE = ['LP', 'VP', 'GP', 'PP'];
   // Udio dotad dostupnih bodova koji treba skupiti za otključavanje razine.
   // Krivulja raste od 0.50 (razina 2) do 0.80 i ondje STAJE.
@@ -5255,6 +5406,7 @@
         } else {
           renderMain();
         }
+        if (!POV.spremna) { povijestPocetak(); instDanas(); }
       };
       if (celebriraj) proslaviRegistraciju(nastavi); else nastavi();
       // Prvi pogled je nacrtan (crtanje je sinkrono) — ekran za učitavanje može van.
@@ -5652,7 +5804,13 @@
   // Brojac bodova u zaglavlju je zadano ugasen: cetiri broja uz izbornik su sum
   // za vecinu, a isti podatak stoji na stranici Progress koja je u izborniku.
   // Tko ga ipak zeli stalno pred ocima, ukljuci ga u Options.
+  // Na mobitelu ih nema uopce, ni kao opcije: zaglavlje je ondje usko, a cetiri peteroznamenkasta
+  // broja uz izbornik guraju sve ostalo. Spremljena postavka ostaje i vrijedi cim je ekran sirok.
+  function uskiEkran() {
+    return !!(window.matchMedia && window.matchMedia('(max-width: 639.98px)').matches);
+  }
   function bodoviUZaglavlju() {
+    if (uskiEkran()) return false;
     return !!(PROGRESS.postavke && PROGRESS.postavke.bodoviUZaglavlju);
   }
   function prebaciBodoveUZaglavlju() {
@@ -5689,7 +5847,7 @@
     // Raspored zaglavlja ovisi o tome je li brojac vidljiv — vidi TRI UREDAJA.
     document.body.classList.add('imaBrojac');
     var v = valute();
-    el.textContent = VALUTE.map(function (k) { return v[k] + ' ' + valutaKratica(k); }).join(' · ');
+    el.textContent = VALUTE.map(function (k) { return bod(v[k]) + ' ' + valutaKratica(k); }).join(' · ');
   }
 
   // ================= NAGRADE I OTKLJUČAVANJA =================
@@ -6062,8 +6220,8 @@
     // streak se zaključuje prvom odigranom vježbom današnjeg challengea
     if (streakNovi) {
       var nz = streakNiz();
-      html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + T_('<strong>Tag %1 in Folge</strong> · +%1 Punkte in jeder Währung', nz) +
-        '<span class="opusti">' + T_('Komm morgen wieder für +%1. Lässt du einen Tag aus, beginnt die Serie von vorn.', nz + 1) + '</span></div>';
+      html += '<div class="stanjeLekcije">' + IK('plamen', 'uz') + T_('<strong>Tag %1 in Folge</strong> · +%2 Punkte in jeder Währung', nz, streakDnevno(nz)) +
+        '<span class="opusti">' + T_('Komm morgen wieder für +%1. Lässt du einen Tag aus, beginnt die Serie von vorn.', streakDnevno(nz + 1)) + '</span></div>';
     }
     $('rezDetalji').innerHTML = html;
     var rezBar = $('rezDetalji').querySelector('.rezBar > div');
@@ -9312,6 +9470,8 @@
   function otvoriIzbornik() {
     document.body.classList.add('izbornikOtvoren');
     $('izbornikPozadina').classList.add('vidi');
+    // točka na Daily ploči: današnji challenge još čeka
+    var nd = natpisDaily(); if (nd) nd.classList.toggle('ceka', dailyCeka());
     // ☰ je mahnuo za Daily — sad kad je popis otvoren, pokaži i koji natpis poziva
     if (POZIV.ceka) {
       POZIV.ceka = false;
@@ -9330,6 +9490,16 @@
   }
   window.zatvoriIzbornik = zatvoriIzbornik;
   window.klikLogo = klikLogo;
+  // Izbornik na mobitelu prekriva cijeli ekran: dodir u prazno ga zatvara, kao i Esc.
+  (function () {
+    var nav = document.querySelector('header nav');
+    if (nav) nav.addEventListener('click', function (e) {
+      if (e.target === nav && document.body.classList.contains('izbornikOtvoren')) zatvoriIzbornik();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && document.body.classList.contains('izbornikOtvoren')) zatvoriIzbornik();
+    });
+  })();
 
   // ---- poziv na Daily challenge ----
   // Dok današnji challenge nije odigran, natpis u izborniku kratko poskoči: nakon
@@ -9419,6 +9589,7 @@
   }
   function postaviTemu(id) {
     document.body.setAttribute('data-tema', id);
+    if (window.postaviIkonuAplikacije) window.postaviIkonuAplikacije(id);
     // Ekran za učitavanje čita ovo pri sljedećem otvaranju, prije nego progres stigne.
     try { localStorage.setItem('croland.tema', id); } catch (e) {}
   }
@@ -9546,6 +9717,7 @@
   window.pomakniVelicinu = pomakniVelicinu;
 
   function renderOptions() {
+    if (window.matchMedia && window.matchMedia('(max-width: 639.98px)').matches) { renderOptionsMob(); return; }
     var sad = temaSad(), sadF = fontSad(), sadV = velicinaSad();
     // nazivi pisama moraju biti ispisani svojim pismom — zato se učitavaju
     // tek ovdje, kad je Options otvoren, a ne pri svakom pokretanju appa
@@ -9657,6 +9829,94 @@
     VIEW.innerHTML = html;
   }
 
+  // ---- Options na mobitelu ----
+  // Isti izbori i iste funkcije kao na računalu (odaberiTemu/Font/Velicinu zovu
+  // renderOptions, koji ovamo skrene), samo drukčije složeno: izgled + pregled na
+  // jednom ekranu, ostalo ispod, jezik sklopljen. Sticky notes se ne nude jer na
+  // mobitelu ne postoje (nema margine za papir).
+  var OPC_JEZIK_OTVOREN = false;
+  function prebaciJezikOpcija() { OPC_JEZIK_OTVOREN = !OPC_JEZIK_OTVOREN; renderOptions(); }
+  window.prebaciJezikOpcija = prebaciJezikOpcija;
+  function renderOptionsMob() {
+    var sad = temaSad(), sadF = fontSad(), sadV = velicinaSad();
+    FONTOVI.forEach(function (f) { ucitajFont(f.id); });
+    // Svaki izbor ponovno crta stranicu; red koji je korisnik odvukao ostaje gdje je bio.
+    var REDOVI = ['opcTeme', 'opcFontovi', 'opcVelicine'], pomak = {};
+    REDOVI.forEach(function (id) { var e = $(id); if (e) pomak[id] = e.scrollLeft; });
+    var mnSad = 1;
+    VELICINE.forEach(function (v) { if (v.id === sadV) mnSad = v.mn; });
+    var kvaka = '<span class="kvaka" aria-hidden="true">\u2713</span>';
+    function kartica(on, klik, stil, tekst, lang) {
+      return '<button type="button" class="opcK" aria-pressed="' + (on ? 'true' : 'false') + '"' +
+        (lang ? ' lang="' + lang + '"' : '') + (stil ? ' style="' + stil + '"' : '') +
+        ' onclick="' + klik + '">' + tekst + (on ? kvaka : '') + '</button>';
+    }
+    function red(id, naslov, sadrzaj) {
+      return '<div class="nasP" id="' + id + 'N">' + naslov + '</div>' +
+        '<div class="opcRed" id="' + id + '" role="group" aria-labelledby="' + id + 'N">' + sadrzaj + '</div>';
+    }
+    var html = '<h1 class="sekcija">Optionen</h1><div class="opcMob">';
+    html += red('opcTeme', 'Farbschema', TEME.map(function (t) {
+      var on = t.id === sad;
+      return kartica(on, 'odaberiTemu(\'' + t.id + '\')',
+        'background:' + t.boje[0] + ';color:' + t.boje[1] + (on ? ';border-color:' + t.boje[1] : ''), esc(t.ime));
+    }).join(''));
+    html += red('opcFontovi', 'Leseschrift', FONTOVI.map(function (f) {
+      return kartica(f.id === sadF, 'odaberiFont(\'' + f.id + '\')',
+        f.css ? 'font-family:\'' + f.ime + '\', system-ui, sans-serif' : 'font-family:system-ui, -apple-system, sans-serif', esc(f.ime));
+    }).join(''));
+    // Cijelo sučelje već stoji u izabranoj veličini, pa je omjer prema njoj
+    // upravo razlika koju bi drugi izbor donio.
+    html += red('opcVelicine', 'Größe der Oberfläche', VELICINE.map(function (v) {
+      return kartica(v.id === sadV, 'odaberiVelicinu(\'' + v.id + '\')',
+        'font-size:calc(var(--t-l) * ' + (v.mn / mnSad).toFixed(3) + ')', esc(v.ime));
+    }).join(''));
+    html += '<div class="pregledP"><div class="ploca">' +
+      '<div class="pricaBox">Na tr\u017Enici je gu\u017Eva. Ana tra\u017Ei ne\u0161to za doru\u010Dak.</div>' +
+      '<div class="pitanjeText">Kupujem <b>___</b> na tr\u017Enici.</div>' +
+      '<div class="opcije"><div class="opcija tocno">jabuku</div></div>' +
+      '</div></div>';
+
+    function sklopka(on, klik, ime, opis) {
+      return '<button type="button" class="sklopkaRed" role="switch" aria-checked="' + (on ? 'true' : 'false') + '" onclick="' + klik + '">' +
+        '<span class="sklopkaTekst"><span class="imeSk">' + ime + '</span><span class="opisSk">' + opis + '</span></span>' +
+        '<span class="sklopka"></span></button>';
+    }
+    var jezikSad = JEZICI.filter(function (j) { return j.id === JEZIK_APP; })[0];
+    html += '<div class="opcOstalo">' +
+      sklopka(kratkeUpute(), 'prebaciKratkeUpute()', 'Kürzere Anleitungen',
+        'The rule and an example, without the explanation.') +
+      (instMoze() ? '<button type="button" class="sklopkaRed" onclick="prikaziKarticuInstalacije()">' +
+        '<span class="sklopkaTekst"><span class="imeSk">Add to home screen</span><span class="opisSk">' +
+        'Open Croland like an app.</span></span><span class="kvakaJ" aria-hidden="true">\u203A</span></button>' : '') +
+      '<button type="button" class="sklopkaRed" aria-expanded="' + (OPC_JEZIK_OTVOREN ? 'true' : 'false') +
+        '" aria-controls="opcJezici" onclick="prebaciJezikOpcija()">' +
+        '<span class="sklopkaTekst"><span class="imeSk">Sprache</span><span class="opisSk">' +
+        esc(jezikSad ? jezikSad.ime : JEZIK_APP) + '</span></span>' +
+        '<span class="kvakaJ" aria-hidden="true">\u203A</span></button>' +
+      (OPC_JEZIK_OTVOREN ? '<div class="opcJezici" id="opcJezici">' +
+        JEZICI.map(function (j) {
+          return kartica(j.id === JEZIK_APP, 'odaberiJezik(\'' + j.id + '\')', '', esc(j.ime), j.id);
+        }).join('') +
+        '<p>Dein Fortschritt bleibt genau, wo er ist – nur die Sprache der Erklärungen ändert sich.</p></div>' : '') +
+      '</div></div>';
+
+    VIEW.innerHTML = html;
+    REDOVI.forEach(function (id) {
+      var e = $(id); if (!e) return;
+      if (pomak[id] != null) { e.scrollLeft = pomak[id]; return; }
+      // prvo otvaranje: izabrana kartica mora biti vidljiva cijela
+      var a = e.querySelector('[aria-pressed="true"]'); if (!a) return;
+      var r = e.getBoundingClientRect(), b = a.getBoundingClientRect();
+      if (b.right > r.right - 16 || b.left < r.left) e.scrollLeft += b.left - r.left - 16;
+    });
+  }
+  // okretanje ekrana preko granice mobitela: Options se presloži u drugi raspored
+  if (window.matchMedia) window.matchMedia('(max-width: 639.98px)').addEventListener('change', function () {
+    if (ZADNJI_VIEW && ZADNJI_VIEW.view === 'options') renderOptions();
+    osvjeziHeader();   // brojac bodova postoji samo na sirokom ekranu
+  });
+
   // ================= VIEWOVI =================
   // posljednja navigacija — omogućuje ponovni idi() čim SESSION_SPREMNA postane true
   var ZADNJI_VIEW = null;
@@ -9721,8 +9981,225 @@
     else if (view === 'options') renderOptions();
     else if (view === 'unit') renderUnit(arg1, arg2, arg3 || 0);
     osvjeziHeader();
+    zabiljeziPovijest(view, arg1, arg2, arg3);
   }
   window.idi = idi;
+
+  // ================= TIPKA NATRAG =================
+  // Croland je jedna stranica, pa bez ovoga telefonska tipka natrag (i natrag u
+  // pregledniku, i povlačenje s ruba u Safariju) izbacuje korisnika iz aplikacije.
+  // Svaki ekran sad ostavlja zapis u povijesti preglednika. Adresa se NE mijenja:
+  // dio iza # treba Supabaseu nakon Google prijave i kodovima iz adrese.
+  // Pravila:
+  //  1. vježbe unutar iste cjeline nisu koraci — jedan natrag izlazi iz lekcije;
+  //  2. ako je nešto otvoreno preko ekrana (☰, ploča, prozor, dijalog), natrag
+  //     zatvara to i ostaje na istom ekranu;
+  //  3. Home je uvijek dno povijesti: natrag s Homea izlazi iz aplikacije, a
+  //     odlazak na Home iz dubine vraća povijest na dno umjesto da je gomila;
+  //  4. kad se aplikacija otvori ravno na nekom ekranu, ispod njega se ubaci Home;
+  //  5. natrag usred testa pita, jer izlazak poništava pokušaj.
+  // Stanje zapisa: { cl: 1, d: dubina iznad Homea, v: { view, arg1, arg2, arg3 } }
+  var POV = { spremna: false, izPovijesti: false, naKorijen: false, testPotvrden: false, sad: null };
+  function povZapis(d, v) { return { cl: 1, d: d, v: v }; }
+  function povijestPocetak() {
+    var z = ZADNJI_VIEW && ZADNJI_VIEW.view ? ZADNJI_VIEW : { view: 'main' };
+    var dno = povZapis(0, { view: 'main' });
+    try {
+      history.replaceState(dno, '');
+      POV.sad = dno;
+      if (z.view !== 'main') { POV.sad = povZapis(1, z); history.pushState(POV.sad, ''); }
+    } catch (e) {}
+    POV.spremna = true;
+  }
+  function zabiljeziPovijest(view, a1, a2, a3) {
+    if (!POV.spremna || POV.izPovijesti) return;
+    var st = (history.state && history.state.cl) ? history.state : povZapis(0, { view: 'main' });
+    var novo = { view: view, arg1: a1, arg2: a2, arg3: a3 };
+    try {
+      if (view === 'main') {
+        if (st.d > 0) { POV.naKorijen = true; history.go(-st.d); }
+        else history.replaceState(povZapis(0, novo), '');
+        POV.sad = povZapis(0, novo);
+        return;
+      }
+      var cur = st.v || {};
+      // isti ekran ili druga vježba iste cjeline (arg3 je samo broj vježbe): zamijeni, ne gomilaj
+      var isti = cur.view === view && cur.arg1 === a1 && cur.arg2 === a2;
+      POV.sad = povZapis(isti ? st.d : st.d + 1, novo);
+      if (isti) history.replaceState(POV.sad, ''); else history.pushState(POV.sad, '');
+    } catch (e) {}
+  }
+  // Zatvara ono što je najgore otvoreno preko ekrana. Vraća true ako je nešto zatvorio.
+  function zatvoriGornjiSloj() {
+    var dijalozi = ['instalOverlay', 'potvrdaOverlay', 'karticaOverlay', 'pretplataOverlay', 'otkljOverlay',
+      'otvorenoOverlay', 'accOverlay', 'progOverlay'];
+    for (var i = 0; i < dijalozi.length; i++) { var d = $(dijalozi[i]); if (d) { d.remove(); return true; } }
+    if (PREGLED) { zatvoriPregled(); return true; }
+    if (IGRA_PROZOR) { zatvoriIgraProzor(); return true; }
+    if (document.body.classList.contains('izbornikOtvoren')) { zatvoriIzbornik(); return true; }
+    var pi = $('panelInfo'), pg = $('panelIgra'), pr = $('panelRj');
+    if (pi && pi.classList.contains('otvoren')) { zatvoriInfo(); return true; }
+    if (pg && pg.classList.contains('otvoren')) { zatvoriIgru(); return true; }
+    if (pr && pr.classList.contains('otvoren')) { zatvoriRj(); return true; }
+    var ig = VIEW && VIEW.querySelector('.igProsireno');
+    if (ig) { miniSkupi(ig.closest('.otvoren')); return true; }
+    return false;
+  }
+  // Natrag je već pomaknuo povijest korak unatrag; ovo vraća zapis ekrana na kojem ostajemo.
+  function ostaniNaEkranu() { try { if (POV.sad) history.pushState(POV.sad, ''); } catch (e) {} }
+  window.addEventListener('popstate', function (e) {
+    if (!POV.spremna) return;
+    if (POV.naKorijen) { POV.naKorijen = false; return; }   // idi('main') je sam spustio povijest
+    if (zatvoriGornjiSloj()) { ostaniNaEkranu(); return; }
+    if (uTestu() && !POV.testPotvrden) {
+      ostaniNaEkranu();
+      potvrdi('Leave the test?',
+        'This attempt will be discarded. To keep what you have answered, press <strong>Finish test</strong> instead.',
+        function () { POV.testPotvrden = true; history.back(); });
+      return;
+    }
+    POV.testPotvrden = false;
+    var st = e.state;
+    if (!st || !st.cl) return;
+    POV.sad = st;
+    var v = st.v || { view: 'main' };
+    POV.izPovijesti = true;
+    try { idi(v.view, v.arg1, v.arg2, v.arg3); } finally { POV.izPovijesti = false; }
+  });
+
+  // ================= CROLAND NA POČETNOM ZASLONU =================
+  // Kartica koja objašnjava kako Croland staviti na početni zaslon telefona.
+  // iPhone nema dijalog za instalaciju, pa kartica pokazuje korake; Android (Chrome)
+  // ima pravi sistemski dijalog koji se otvara gumbom. Kartica se nudi nakon lekcije 0,
+  // lekcije 1 i testa 1 te drugi, peti i deseti dan kad je aplikacija otvorena na ovom
+  // uređaju — svaki trenutak jednom, najviše jednom dnevno, nikad unutar već
+  // instalirane aplikacije. Stanje je po uređaju (localStorage), jer je i instalacija
+  // po uređaju. Options ima redak koji karticu otvara uvijek.
+  var INST_KLJUC = 'croland.instalacija';
+  var INST_PROMPT = null;                       // Android: odgođeni beforeinstallprompt
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();                          // bez Chromeove trake — nudimo u svom trenutku
+    INST_PROMPT = e;
+  });
+  window.addEventListener('appinstalled', function () {
+    var st = instStanje(); st.instalirano = 1; instSpremi(st);
+    var o = $('instalOverlay'); if (o) o.remove();
+  });
+  function instStanje() { try { return JSON.parse(localStorage.getItem(INST_KLJUC)) || {}; } catch (e) { return {}; } }
+  function instSpremi(st) { try { localStorage.setItem(INST_KLJUC, JSON.stringify(st)); } catch (e) {} }
+  function radiKaoAplikacija() {
+    return !!((window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true);
+  }
+  // Safari na iOS-u 26 u nizu preglednika "zamrzava" iOS na 18.6, ali javlja Version/26.
+  function instPlatforma() {
+    var ua = navigator.userAgent || '';
+    var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var unutar = /FBAN|FBAV|FB_IAB|Instagram|Line\/|Twitter|LinkedInApp|Snapchat|musical_ly|TikTok|GSA\//.test(ua);
+    if (ios) {
+      if (unutar) return 'unutar';
+      if (/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua)) return 'iosDrugi';
+      var v = ua.match(/Version\/(\d+)/), o = ua.match(/OS (\d+)_/);
+      return Math.max(v ? +v[1] : 0, o ? +o[1] : 0) >= 26 ? 'ios26' : 'iosStari';
+    }
+    if (/Android/.test(ua)) return unutar ? 'unutar' : 'android';
+    return null;                                 // računalo: kartica se ne nudi
+  }
+  function instMoze() { return !!instPlatforma() && !radiKaoAplikacija(); }
+  function instZnak(ime) {
+    var p = {
+      tri: '<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>',
+      tockice: '<circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/>',
+      dijeli: '<path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/>',
+      dodaj: '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M8 12h8"/><path d="M12 8v8"/>'
+    }[ime];
+    return '<svg class="instZnak" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+      'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + p + '</svg>';
+  }
+  function prikaziKarticuInstalacije() {
+    var pl = instPlatforma();
+    if (!pl || radiKaoAplikacija()) return;
+    var star = $('instalOverlay'); if (star) star.remove();
+    var ov = document.createElement('div'); ov.id = 'instalOverlay';
+    ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
+      'display:flex;align-items:center;justify-content:center;padding:16px;';
+    var ik = $('aplIkona');
+    var korak = function (znak, tekst) { return '<li>' + (znak ? instZnak(znak) : '') + '<span>' + tekst + '</span></li>'; };
+    var koraci = '', gumb = '';
+    if (pl === 'ios26') {
+      koraci = korak('tri', 'Tap <strong>⋯</strong> next to the address.') +
+        korak('dijeli', 'Tap <strong>Share</strong>.') +
+        korak('dodaj', 'Scroll down to <strong>Add to Home Screen</strong>, keep <strong>Open as Web App</strong> on, then tap <strong>Add</strong>.');
+    } else if (pl === 'iosStari') {
+      koraci = korak('dijeli', 'Tap <strong>Share</strong> in the toolbar.') +
+        korak('dodaj', 'Scroll down to <strong>Add to Home Screen</strong>, then tap <strong>Add</strong>.');
+    } else if (pl === 'iosDrugi') {
+      koraci = korak('dijeli', 'Tap <strong>Share</strong> in the address bar.') +
+        korak('dodaj', 'Auswählen <strong>Add to Home Screen</strong>, then tap <strong>Add</strong>.');
+    } else if (pl === 'unutar') {
+      koraci = korak('tri', 'This app’s built-in browser can’t add Croland to your home screen. Open its menu and choose <strong>Open in browser</strong>.') +
+        korak('dodaj', 'Then come back here and add Croland from your browser.');
+    } else if (INST_PROMPT) {
+      gumb = '<button class="gumb" id="instDa">Install app</button>';
+    } else {
+      koraci = korak('tockice', 'Open the browser menu <strong>⋮</strong>.') +
+        korak('dodaj', 'Auswählen <strong>Add to Home screen</strong> or <strong>Install app</strong>.');
+    }
+    var m = document.createElement('div'); m.className = 'otkljModal instKartica';
+    m.setAttribute('role', 'dialog'); m.setAttribute('aria-modal', 'true'); m.setAttribute('aria-labelledby', 'instNaslov');
+    m.innerHTML =
+      (ik ? '<img class="instIkona" src="' + ik.getAttribute('href') + '" alt="">' : '') +
+      '<h2 id="instNaslov">Croland on your home screen</h2>' +
+      '<p class="otkljPod">Opens full screen, like an app — your lessons one tap away.</p>' +
+      (koraci ? '<ol class="instKoraci">' + koraci + '</ol>' : '') +
+      gumb +
+      '<button class="gumb gumbSivi" id="instNe">Nicht jetzt</button>' +
+      '<button class="instNikad" id="instNikad">Don’t ask again</button>';
+    ov.appendChild(m);
+    ov.onclick = function (e) { if (e.target === ov) ov.remove(); };
+    document.body.appendChild(ov);
+    $('instNe').onclick = function () { ov.remove(); };
+    $('instNikad').onclick = function () { var st = instStanje(); st.nikad = 1; instSpremi(st); ov.remove(); };
+    var da = $('instDa');
+    if (da) da.onclick = function () {
+      var pr = INST_PROMPT; INST_PROMPT = null; ov.remove();
+      if (!pr) return;
+      pr.prompt();
+      if (pr.userChoice) pr.userChoice.then(function (r) {
+        if (r && r.outcome === 'accepted') { var st = instStanje(); st.instalirano = 1; instSpremi(st); }
+      });
+    };
+  }
+  window.prikaziKarticuInstalacije = prikaziKarticuInstalacije;
+  // Jedan od dogovorenih trenutaka: 'l0', 'l1', 't1', 'dan2', 'dan5', 'dan10'.
+  function ponudiInstalaciju(trenutak) {
+    if (!instMoze()) return;
+    var st = instStanje();
+    if (st.nikad || st.instalirano) return;
+    st.iskoristeni = st.iskoristeni || [];
+    if (st.iskoristeni.indexOf(trenutak) >= 0) return;
+    var danas = datumKljuc();
+    if (st.dan === danas) return;                // najviše jednom dnevno
+    st.iskoristeni.push(trenutak); st.dan = danas; instSpremi(st);
+    // ne preko drugog dijaloga ni slavlja: pričekaj da se ekran smiri
+    var pokusaj = 0;
+    (function cekaj() {
+      var zauzeto = document.querySelector('[id$="Overlay"]') || document.body.classList.contains('izbornikOtvoren');
+      if (zauzeto && ++pokusaj < 20) { setTimeout(cekaj, 1500); return; }
+      if (!zauzeto) prikaziKarticuInstalacije();
+    })();
+  }
+  // Pri pokretanju: brojač dana kad je aplikacija otvorena na ovom uređaju.
+  function instDanas() {
+    var st = instStanje();
+    if (radiKaoAplikacija()) { if (!st.instalirano) { st.instalirano = 1; instSpremi(st); } return; }
+    var danas = datumKljuc();
+    st.dani = st.dani || { zadnji: '', broj: 0 };
+    if (st.dani.zadnji === danas) return;
+    st.dani.zadnji = danas; st.dani.broj++; instSpremi(st);
+    if (st.dani.broj === 2 || st.dani.broj === 5 || st.dani.broj === 10) {
+      setTimeout(function () { ponudiInstalaciju('dan' + st.dani.broj); }, 2500);
+    }
+  }
 
   // ================= NASLOVNICA =================
   // Dva spila gore (nastavi / kreni novo), tihe police ispod. Svaki tekst ovisi o
@@ -9822,7 +10299,7 @@
       '<div class="tipS">' + IK('brava', 'uz') + esc(tipIme(z.tip) + ' ' + z.razina) + '</div>' +
       '<div class="imeS">' + esc(z.naslov) + '</div>' +
       '<div class="metaS">' + (m
-        ? T_('Noch %1 %2, dann öffnet sich das hier', m.treba, valutaKratica(m.val))
+        ? T_('Noch %1 %2, dann öffnet sich das hier', bod(m.treba), valutaKratica(m.val))
         : 'beende diese Reihe, um es zu öffnen') + '</div>' +
       '<div class="barS"><i data-pct="' + (m ? m.pct : 0) + '"></i></div>' +
       '<div class="podBar"><span>bis zur Freischaltung</span><b>' + (m ? m.pct : 0) + '%</b></div>' +
@@ -10334,7 +10811,7 @@
     // Naslov i zbroj bodova idu na dno: stranica pocinje slikama, brojke su za kraj.
     var sazetak = '<h1 class="sekcija">Spiele & Extras ' + IK('igra') + '</h1>' +
       '<div class="miniSaz">' +
-      '<span>' + T_('<strong>%1</strong> von %2 Punkte verdient', uk, maks) + '</span>' +
+      '<span>' + T_('<strong>%1</strong> von %2 Punkte verdient', bod(uk), bod(maks)) + '</span>' +
       '<span>·</span><span><strong>' + gotovih + '</strong> ' + T_('von %1 abgeschlossen', sveIgre().length) + '</span>' +
       '<span>·</span><span>' + T_('jedes Spiel zahlt einmal denselben Betrag in <strong>alle vier Währungen</strong> (%1)', VALUTE.map(valutaKratica).join(' · ')) + '</span>' +
       '</div>';
@@ -11171,14 +11648,14 @@
       '<div class="testUvod">' +
       '<h2>Bevor du anfängst</h2>' +
       '<ul>' +
-      '<li><span class="ik">' + IK('popis') + '</span><span>' + T_('<strong>%1 Übungen</strong>, %2 Punkte – alles ab Level %3.', igre.length, maks, razina) + '</span></li>' +
+      '<li><span class="ik">' + IK('popis') + '</span><span>' + T_('<strong>%1 Übungen</strong>, %2 Punkte – alles ab Level %3.', igre.length, bod(maks), razina) + '</span></li>' +
       '<li><span class="ik">' + IK('sat') + '</span><span>' + T_('<strong>%1 Minuten</strong> für den ganzen Test. Die Uhr läuft über alle Übungen hinweg.', Math.round(sek / 60)) + '</span></li>' +
       '<li><span class="ik">' + IK('strelica') + '</span><span>Eine Sitzung: Die Übungen folgen aufeinander, und du kannst nicht zurück.</span></li>' +
       '<li><span class="ik">' + IK('zastava') + '</span><span>Keine Zwischenstände – dein Ergebnis erscheint erst am Ende.</span></li>' +
       '<li><span class="ik">' + IK('pauza') + '</span><span>Pausiere, wann du willst. Die Uhr hält mit dir an.</span></li>' +
       '<li><span class="ik">' + IK('knjiga') + '</span><span>Kein Wörterbuch. Wo ein Wort nötig ist, steht die Übersetzung in der Frage.</span></li>' +
       '</ul>' +
-      (prije > 0 ? '<div class="testUpozorenje">' + T_('Dein bisher bestes Ergebnis: <strong>%1</strong>/%2 Punkte. Nur ein besseres Ergebnis ersetzt es.', prije, maks) + '</div>' : '') +
+      (prije > 0 ? '<div class="testUpozorenje">' + T_('Dein bisher bestes Ergebnis: <strong>%1</strong>/%2 Punkte. Nur ein besseres Ergebnis ersetzt es.', bod(prije), bod(maks)) + '</div>' : '') +
       '<button class="gumb" id="btnTestStart">Test starten →</button>' +
       '<div class="testUpozorenje">Need to stop early? Press <strong>Finish test</strong> and everything you answered still counts. Leaving the page any other way discards the attempt.</div>' +
       '</div>';
@@ -11340,6 +11817,7 @@
       T.rez.push({ igra: igra, sazetak: p.s, pct: pc, osvojeno: Math.round(igra.bodovi * pc) });
     }
     T.aktivan = false;
+    if (T.razina === 1) ponudiInstalaciju('t1');
     // vježbe do kojih se nije stiglo vrijede nula
     while (T.rez.length < T.igre.length) {
       var g = T.igre[T.rez.length];
@@ -11370,7 +11848,7 @@
                            : razlog === 'time' ? 'Die Zeit ist abgelaufen – alles, was du beantwortet hast, zählt trotzdem.'
                            : 'Ganzer Test, eine Sitzung. So ist es gelaufen.') + '</div>' +
       '<div class="velikiBroj">' + pct + '%</div>' +
-      '<div style="color:var(--muted)">' + T_('%1 / %2 Punkte · Bestehensgrenze %3%', osv, maks, T.prag) + '</div>' +
+      '<div style="color:var(--muted)">' + T_('%1 / %2 Punkte · Bestehensgrenze %3%', bod(osv), bod(maks), T.prag) + '</div>' +
       '<ul>' + redci + '</ul>' +
       '<div style="color:var(--muted);font-size:var(--t-s)">Nur dein bestes Testergebnis wird behalten – wiederhole ihn jederzeit.</div>' +
       '<button class="gumb" id="btnTestOpet">↻ Test wiederholen</button>' +
@@ -11527,6 +12005,8 @@
       redci += '<li><span>' + g.stranica + '. ' + g.naslov + '</span><span>' + najbolji(g) + '/' + g.bodovi + '</span></li>';
     });
     var pct = maks > 0 ? Math.round(osv / maks * 100) : 0;
+    if (tip === L0_TIP && razina === L0_RAZINA) ponudiInstalaciju('l0');
+    else if (tip === 'Lesson' && razina === 1 && igre.every(function (g) { return najbolji(g) > 0; })) ponudiInstalaciju('l1');
     if (tip === L0_TIP && razina === L0_RAZINA) {
       // bez bodova i postotaka — jedina brojka je koliko je slova skupljeno
       var o = otkljucanaSlova(), imaSlova = 0;
@@ -11571,7 +12051,7 @@
       } else {
         var val = VALUTA_TIPA[sljedeci.tip];
         btnNext = '<div style="color:var(--muted);margin-top:12px">' + IK('brava', 'uz') +
-          (val ? T_('%1 – nötig: %2 %3. Geh zurück und verbessere deine Ergebnisse!', tipIme(sljedeci.tip) + ' ' + sljedeci.razina, prag(sljedeci.tip, sljedeci.razina), valutaKratica(val))
+          (val ? T_('%1 – nötig: %2 %3. Geh zurück und verbessere deine Ergebnisse!', tipIme(sljedeci.tip) + ' ' + sljedeci.razina, bod(prag(sljedeci.tip, sljedeci.razina)), valutaKratica(val))
             : T_('%1. Geh zurück und verbessere deine Ergebnisse!', tipIme(sljedeci.tip) + ' ' + sljedeci.razina)) + '</div>';
       }
     }
@@ -11602,9 +12082,9 @@
     });
 
     var kutija = sve
-      ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + T_('Alles in dieser Einheit gehört dir – alle <strong>%1</strong> Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.', maks) + '</div>'
+      ? '<div class="preostaloBox sve">' + IK('pehar', 'uz') + T_('Alles in dieser Einheit gehört dir – alle <strong>%1</strong> Punkte erreicht. Hier gibt es nichts mehr zu gewinnen.', bod(maks)) + '</div>'
       : '<div class="preostaloBox">' + IK('munja', 'uz') + (ostalo === 1 ? T_('<strong>%1 Punkt</strong> wartet noch in %2', ostalo, tipIme(tip) + ' ' + razina)
-          : T_('<strong>%1 Punkte</strong> warten noch in %2', ostalo, tipIme(tip) + ' ' + razina)) +
+          : T_('<strong>%1 Punkte</strong> warten noch in %2', bod(ostalo), tipIme(tip) + ' ' + razina)) +
         '. Wiederhole eine beliebige Übung oben – nur dein bester Versuch zählt, ein schwächerer Durchgang kostet dich also nie Punkte.</div>';
 
     VIEW.innerHTML =
@@ -11623,7 +12103,7 @@
       'stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + C.toFixed(1) + '"></circle>' +
       '</svg>' +
       '<div class="sredina"><div class="pct" id="prstenPct">0%</div>' +
-      '<div class="bodovi"><span id="prstenBod">0</span> / ' + maks + ' pts</div></div>' +
+      '<div class="bodovi"><span id="prstenBod">0</span> / ' + bod(maks) + ' pts</div></div>' +
       '</div>' +
       '<ul class="sazBarovi">' + barovi + '</ul>' +
       kutija +
@@ -11658,7 +12138,7 @@
       if (t0 === null) t0 = t;
       var k = Math.min(1, (t - t0) / ms);
       var e = 1 - Math.pow(1 - k, 3);            // ease-out, isti osjećaj kao traka
-      el.textContent = Math.round(od + (doK - od) * e) + sufiks;
+      el.textContent = (sufiks === '%' ? Math.round(od + (doK - od) * e) : bod(od + (doK - od) * e)) + sufiks;
       if (k < 1) requestAnimationFrame(kadar);
     }
     requestAnimationFrame(kadar);
@@ -12876,7 +13356,7 @@
     html += '<div class="streakK">' +
       '<div class="streakBroj">' + IK('plamen', 'uz') + niz + '</div>' +
       '<div class="streakOpis"><strong>Tage in Folge</strong>' +
-      '<div>' + T_('%1 Serienpunkte erreicht · zählen für %2, %3, %4 und %5', streakBodovi(),
+      '<div>' + T_('%1 Serienpunkte erreicht · zählen für %2, %3, %4 und %5', bod(streakBodovi()),
         valutaKratica('LP'), valutaKratica('VP'), valutaKratica('GP'), valutaKratica('PP')) + '</div>' +
       '<div>' + (danasOdradjen
         ? 'Für heute fertig – komm morgen wieder und mach daraus ' + (niz + 1) + '.'
@@ -13038,12 +13518,12 @@
     var st = streakStanje();
     h += '<div class="progStat">' +
       '<div class="progStatK"><div class="b">' + (st.niz || 0) + ' <small>' + T_('Tage') + '</small></div>' +
-        '<div class="l">Tägliche Serie · ' + (st.bodovi || 0) + ' Serienpunkte</div></div>' +
+        '<div class="l">Tägliche Serie · ' + bod(st.bodovi || 0) + ' Serienpunkte</div></div>' +
       '<div class="progStatK"><div class="b">' + brojRijeci() + '</div>' +
         '<div class="l">Wörter in deinem Wörterbuch</div></div>' +
       '<div class="progStatK"><div class="b">' + odigrano + ' <small>/ ' + ukupnoVj + '</small></div>' +
         '<div class="l">Gespielte Übungen</div></div>' +
-      '<div class="progStatK"><div class="b">' + miniBodovi() + ' <small>/ ' + miniMaks() + '</small></div>' +
+      '<div class="progStatK"><div class="b">' + bod(miniBodovi()) + ' <small>/ ' + bod(miniMaks()) + '</small></div>' +
         '<div class="l">Minispielpunkte</div></div>' +
       '</div>';
 
@@ -13069,10 +13549,19 @@
         var boja = BOJA_TIPA[tip];
         if (!otkljucano(tip, r)) {
           var val2 = VALUTA_TIPA[tip], p = prag(tip, r);
-          var opis = val2 ? (v[val2] + ' / ' + p + ' ' + valutaKratica(val2)) : 'braucht alle vier Arten auf Level ' + r;
+          var opis = val2 ? (bod(v[val2]) + ' / ' + bod(p) + ' ' + valutaKratica(val2)) : 'braucht alle vier Arten auf Level ' + r;
+          // Brojevi (ima / treba) samo u tooltipu. Na celiji je kruznica s bravom koja se puni od
+          // vrha u smjeru kazaljke — ista kao na karti Lessons. Traka u ovoj mrezi znaci 'koliko je
+          // cjeline rijeseno', pa bi traka u zakljucanoj celiji znacila nesto drugo istim znakom.
+          var idZ = 'pz_' + tip + '_' + r;
+          trake.push({ id: idZ, luk: true, pct: val2 ? (p > 0 ? Math.min(1, v[val2] / p) : 0)
+            : TIPOVI.slice(0, 4).filter(function (t2) { return otkljucano(t2, r); }).length / 4 });
           h += '<div class="progCelija zakljucana" style="--boja:' + boja + '" ' +
-            'title="' + T_('Gesperrt – %1', esc(opis)) + '">' +
-            '<div class="pct">' + T_('gesperrt') + '</div><div class="odn">' + esc(opis) + '</div></div>';
+            'title="' + T_('Gesperrt – %1', esc(opis)) + '" aria-label="' + T_('Gesperrt – %1', esc(opis)) + '">' +
+            '<div class="lukOkvir"><svg class="lukZ" viewBox="0 0 36 36" aria-hidden="true">' +
+              '<circle class="podloga" cx="18" cy="18" r="15" pathLength="100"/>' +
+              '<circle class="puni" id="' + idZ + '" cx="18" cy="18" r="15" pathLength="100"/></svg>' +
+              '<span class="lukBrava">' + IK('brava') + '</span></div></div>';
         } else {
           var id2 = 'pc_' + tip + '_' + r;
           trake.push({ id: id2, pct: maks > 0 ? Math.min(1, osv / maks) : 0 });
@@ -13083,7 +13572,7 @@
             'title="' + esc(tipIme(tip) + ' ' + r + (nas ? ' — ' + nas : '')) + '">' +
             (pct >= 100 ? '<span class="kvaka">' + IK('kvaka') + '</span>' : '') +
             '<div><div class="pct">' + pct + '%</div>' +
-            '<div class="odn">' + osv + ' / ' + maks + '</div></div>' +
+            '<div class="odn">' + bod(osv) + ' / ' + bod(maks) + '</div></div>' +
             '<div class="progStaza"><i id="' + id2 + '"></i></div></div>';
         }
       }
@@ -13111,15 +13600,14 @@
     if (cijeliMaks > 0) {
       var cijeliP = cijeliOsv / cijeliMaks * 100;
       var cijeliTxt = cijeliP >= 10 ? Math.floor(cijeliP) + '%' : (Math.floor(cijeliP * 10) / 10).toFixed(1) + '%';
-      var broj = function (x) { return Number(x).toLocaleString(LOKAL_BROJ); };
+      var broj = bod;
       trake.push({ id: 'pv_cijeli', pct: Math.min(1, cijeliOsv / cijeliMaks) });
       h += '<div class="progCijeli"><div class="red"><span>Der ganze Kurs</span><b>' + cijeliTxt + '</b></div>' +
         '<div class="progStaza"><i id="pv_cijeli"></i></div>' +
         '<div class="pod">' + T_('%1 von %2 Punkte aus allen Einheiten der %3 Level (Minispiele und Challenges nicht mitgerechnet)',
-          broj(cijeliOsv), broj(cijeliMaks), MAX_RAZINA) + '</div>' +
-        // Svi bodovi zajedno = zbroj četiri valute, isto kao "ukupno" u tabu Friends & groups.
-        '<div class="pod">Alle deine Punkte zusammen: <b style="color:var(--ink)">' +
-          broj(v.LP + v.VP + v.GP + v.PP) + '</b> – Einheiten, Spiele, Challenges und Serie</div></div>';
+          broj(cijeliOsv), broj(cijeliMaks), MAX_RAZINA) + '</div></div>';
+        // "All your points together" (zbroj cetiri valute) je uklonjen: igre, daily i streak
+        // ulaze u svaku valutu jednako, pa su se u tom zbroju brojali cetiri puta.
     }
 
     // ---- vrijedi se vratiti ----
@@ -13132,8 +13620,8 @@
           return '<li style="--boja:' + BOJA_TIPA[x.tip] + '" data-pvjezba="' + esc(x.k) + '">' +
             '<span class="gdje">' + esc(cjelinaIme(x.cjelina)) + '</span>' +
             '<span class="sto">' + esc(x.ime) +
-              '<small>' + (x.o === 0 ? 'nie gespielt' : T_('Bestwert bisher: %1 von %2', x.o, x.m)) + '</small></span>' +
-            '<span class="koliko">+' + x.ost + '<small>Punkte warten</small></span></li>';
+              '<small>' + (x.o === 0 ? 'nie gespielt' : T_('Bestwert bisher: %1 von %2', bod(x.o), bod(x.m))) + '</small></span>' +
+            '<span class="koliko">+' + bod(x.ost) + '<small>Punkte warten</small></span></li>';
         }).join('') + '</ul>';
     }
 
@@ -13145,11 +13633,12 @@
         var m = maksCjeline('Daily challenge', n), o = progOsv('Daily challenge', n);
         var kls = o <= 0 ? '' : (m > 0 && o >= m ? 'd' : 'p');
         if (m > 0 && o >= m) dOdr++; else if (o > 0) dDio++;
-        tock += '<i class="' + kls + '" data-pdaily="' + n + '" title="' + esc(T_('Tag %1 – %2/%3', n, o, m)) + '"></i>';
+        tock += '<i class="' + kls + '" data-pdaily="' + n + '" title="' + esc(T_('Tag %1 – %2/%3', n, bod(o), bod(m))) + '"></i>';
       });
       h += '<h2 class="progNas">Tägliche Challenges</h2>' +
-        '<p class="progOpis">' + T_('%1 abgeschlossen, %2 teilweise erledigt, %3 unberührt. Aktuelle Serie: %4 Tage – Tag %5 bringt %5 Punkte in jeder Währung.',
-          dOdr, dDio, dani.length - dOdr - dDio, st.niz || 0, (st.niz || 0) + 1) + '</p>' +
+        '<p class="progOpis">' + (streakNiz() > 0
+          ? T_('Serie: %1 Tage. Der nächste Tag bringt +%2 in jeder Währung.', streakNiz(), streakDnevno(streakNiz() + 1))
+          : T_('Noch keine Serie. Spiel die heutige Challenge, um eine zu starten.')) + '</p>' +
         '<div class="progPloca"><div class="progTockice">' + tock + '</div></div>';
     }
 
@@ -13160,7 +13649,7 @@
       mh += '<div class="progMiniR' + (o ? (pun ? ' pun' : '') : ' nula') + '" data-pmini="' + g.id + '" ' +
         'title="' + esc(T_('%1 öffnen', g.ime)) + '"><div class="e">' + g.emo + '</div>' +
         '<div class="n">' + esc(g.ime) + '<small>' + esc(g.stil) + '</small></div>' +
-        '<div class="p">' + o + '<small>/' + g.maks + '</small></div></div>';
+        '<div class="p">' + bod(o) + '<small>/' + bod(g.maks) + '</small></div></div>';
     });
     h += '<h2 class="progNas">Spiele & Extras</h2>' +
       '<p class="progOpis">Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen. ' +
@@ -13247,14 +13736,14 @@
         '<div class="progLadicaGlava">' +
           '<span class="znak">' + esc(tipIme(tip)) + ' ' + razina + '</span>' +
           '<h3>' + esc(nas || (tipIme(tip) + ' ' + razina)) + '</h3>' +
-          '<span class="rez">' + osv + ' <small>/ ' + maks + ' pts · ' + pct + '%</small></span>' +
+          '<span class="rez">' + bod(osv) + ' <small>/ ' + bod(maks) + ' pts · ' + pct + '%</small></span>' +
           '<button class="x" id="progLadicaX" title="Schließen">✕</button>' +
         '</div>' +
         '<ul class="progVjezbe">' + redci + '</ul>' +
         '<div class="progLadicaPod">' +
           (preostalo > 0
             ? '<span>' + T_('<b>%1 Punkte</b> warten noch in dieser Einheit.', preostalo) + '</span>'
-            : '<span>' + T_('Alles hier gehört dir – alle <b>%1</b> Punkte verdient.', maks) + '</span>') +
+            : '<span>' + T_('Alles hier gehört dir – alle <b>%1</b> Punkte verdient.', bod(maks)) + '</span>') +
           '<span style="margin-left:auto">Klick auf eine Übung, um sie zu wiederholen.</span>' +
         '</div>' +
       '</div>';
@@ -13443,11 +13932,11 @@
           (otvoren && !x.ja ? ' data-ptko="' + esc(p.druga_id) + '"' : '') + '>' +
           '<td><span class="imeC">' + esc(p.nadimak || 'Jemand') +
             '<span class="idC">' + esc(p.javni_id || '') + '</span></span></td>' +
-          '<td style="color:var(--plava)">' + (p.lp || 0) + '</td>' +
-          '<td style="color:var(--plavaVok)">' + (p.vp || 0) + '</td>' +
-          '<td style="color:var(--zlatna)">' + (p.gp || 0) + '</td>' +
-          '<td style="color:var(--zelena)">' + (p.pp || 0) + '</td>' +
-          '<td style="font-family:var(--naslov);font-weight:700">' + x.uk + '</td>' +
+          '<td style="color:var(--plava)">' + bod(p.lp) + '</td>' +
+          '<td style="color:var(--plavaVok)">' + bod(p.vp) + '</td>' +
+          '<td style="color:var(--zlatna)">' + bod(p.gp) + '</td>' +
+          '<td style="color:var(--zelena)">' + bod(p.pp) + '</td>' +
+          '<td style="font-family:var(--naslov);font-weight:700">' + bod(x.uk) + '</td>' +
           '<td><span class="progZnacka ' + (otvoren ? 'otv' : 'zat') + '">' +
             (otvoren ? 'voller Fortschritt' : 'nur Punkte') + '</span></td>' +
           '<td class="progTiho">' + esc(x.ja ? T_('jetzt') : progKada(p.zadnja_aktivnost)) + '</td></tr>';

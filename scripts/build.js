@@ -20,7 +20,8 @@ const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy
   'index-es.html', 'rjecnik-es.js', 'pregledi-es.js'];
 // vendor/: supabase-js s vlastite domene (verzija zaključana u imenu datoteke), ne s CDN-a
 // slike-cisto/: ilustracije bez mrlje u pozadini (redizajn/mrlje.py) — mini igre ih traže prve
-const DIRS = ['slike', 'slike-cisto', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor'];
+// ikone/: ikone i manifesti za Croland na početnom zaslonu (po jedan za svaku temu)
+const DIRS = ['slike', 'slike-cisto', 'zvuk', 'mini-igre', 'weekly', 'izazov', 'daily', 'vendor', 'ikone'];
 
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });

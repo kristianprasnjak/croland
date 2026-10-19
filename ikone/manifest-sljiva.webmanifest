@@ -1,0 +1,32 @@
+{
+  "id": "../",
+  "name": "Croland",
+  "short_name": "Croland",
+  "description": "Learn Croatian.",
+  "start_url": "../",
+  "scope": "../",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f1f4",
+  "theme_color": "#f5f1f4",
+  "icons": [
+    {
+      "src": "sljiva-any-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "sljiva-any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "sljiva-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

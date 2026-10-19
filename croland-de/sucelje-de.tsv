@@ -261,7 +261,7 @@ new words	neue Wörter	js-html	5856
 saved to your dictionary — the word game can use them now.	in deinem Wörterbuch gespeichert – das Wortspiel kann sie jetzt verwenden.	js-html	5857
  mistake	 Fehler	js	5866
  mistakes	 Fehler	js	5866
-<strong>Day %1 streak</strong> · +%1 points to every currency	<strong>Tag %1 in Folge</strong> · +%1 Punkte in jeder Währung	js-t	5871
+<strong>Day %1 streak</strong> · +%2 points to every currency	<strong>Tag %1 in Folge</strong> · +%2 Punkte in jeder Währung	js-t	5871
 Come back tomorrow for +%1. Miss a day and the streak restarts.	Komm morgen wieder für +%1. Lässt du einen Tag aus, beginnt die Serie von vorn.	js-t	5872
 Welcome to your first real Croatian lesson!	@blobby	js	5911
 Here's a secret: you already speak some Croatian	@blobby	js	5912
@@ -981,7 +981,7 @@ best so far %1 of %2	Bestwert bisher: %1 von %2	js-t	12890
 "<i class="""	=	js	12903
 Day %1 — %2/%3	Tag %1 – %2/%3	js-t	12903
 Daily challenges	Tägliche Challenges	js-html	12905
-%1 finished, %2 partly done, %3 untouched. Current streak %4 days — day %5 will be worth %5 points in every currency.	%1 abgeschlossen, %2 teilweise erledigt, %3 unberührt. Aktuelle Serie: %4 Tage – Tag %5 bringt %5 Punkte in jeder Währung.	js-t	12906
+%1 finished, %2 partly done, %3 untouched. Current streak %4 days — day %5 will be worth %6 points in every currency.	%1 abgeschlossen, %2 teilweise erledigt, %3 unberührt. Aktuelle Serie: %4 Tage – Tag %5 bringt %6 Punkte in jeder Währung.	js-t	12906
 Open %1	%1 öffnen	js-t	12916
 Each one pays out once, the same amount into all four currencies.	Jede zahlt einmal aus, derselbe Betrag in alle vier Währungen.	js-html	12921
 Click one to open it.	Klick eine an, um sie zu öffnen.	js-html	12922
@@ -1930,3 +1930,5 @@ I would learn.	Ich würde lernen.	pregledi.js	372
 Dvorac	=	js	4149
 Castle	Burg	js	4149
 Countess Klara hid her ring in her castle. Ten rooms, one note in Croatian in each: read where the key is. A wrong guess blows out a candle.	Gräfin Klara hat ihren Ring in ihrer Burg versteckt. Zehn Räume, in jedem eine Notiz auf Kroatisch: Lies, wo der Schlüssel ist. Ein falscher Griff löscht eine Kerze.	js	4149
+Streak: %1 days. The next one adds +%2 to every currency.	Serie: %1 Tage. Der nächste Tag bringt +%2 in jeder Währung.	js-t	13371
+No streak yet. Play today\'s challenge to start one.	Noch keine Serie. Spiel die heutige Challenge, um eine zu starten.	js-t	13372
