@@ -43,7 +43,12 @@ if (!K || !K.pojmovi || !K.pojmovi.length){
 }
 
 var IMG_W = K.w || 1024, IMG_H = K.h || 572;
-var KLJUC = K.kljuc || ('croland.izazov.' + K.id);
+/* Aplikacija smije predati drugi kljuc (?kljuc=...): kad se popis dailyja potrosi, isti
+   izazov se ponavlja pod novim kljucem i krece od nule, kao da ga igrac nikad nije vidio. */
+var KLJUC = (function(){
+  try { var q = new URLSearchParams(location.search).get('kljuc'); if (q) return q; } catch(e){}
+  return K.kljuc || ('croland.izazov.' + K.id);
+})();
 var MINI  = K.mini  || ('croland-mini-' + K.id);
 var VRSTA = (K.vrsta === 'weekly') ? 'weekly' : 'daily';
 var NASLOV = VRSTA === 'weekly' ? 'Weekly Challenge' : 'Daily Challenge';

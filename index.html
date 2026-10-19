@@ -4077,6 +4077,11 @@
   function zaglavljaFunkcije() {
     return { 'Authorization': 'Bearer ' + SESSION.access_token, 'apikey': SUPABASE_ANON_KEY };
   }
+  // Dolazak iz linka "Confirm your email": Supabase u adresu stavi #...&type=signup. Čita se
+  // prije createClient, jer supabase-js fragment odmah pospremi. Na iPhoneu link otvara
+  // Safari, a ne Croland s početnog zaslona — ondje treba reći da se vrati i prijavi.
+  var DOSAO_IZ_POTVRDE = /(^|[#&])type=signup(&|$)/.test(window.location.hash || '');
+  var KOD_U_MAILU = false;   // vidi prikaziModalPrijava: korak s kodom iz e-maila
   var supa = (window.supabase && SUPABASE_URL.indexOf('YOUR-PROJECT') === -1)
     ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
     : null;
@@ -4482,7 +4487,39 @@
   function dailySlikaDanas() {
     var k = datumKljuc(danasDatum());
     for (var i = 0; i < DAILY_SLIKE.length; i++) if (DAILY_SLIKE[i].datum === k) return DAILY_SLIKE[i];
-    return null;
+    return dailySlikaKrug(k);
+  }
+  // Kad se popis potrosi, izazovi se vrte u krug, tiho: nema napomene da je ponavljanje.
+  // Svaki krug ima svoj kljuc napretka (izvorni + '.krug' + n), pa se izazov otvara prazan,
+  // ponovno nosi bodove i pali streak — ponasa se kao da ga igrac nikad nije vidio.
+  // Dan nakon zadnjeg u popisu je prvi u popisu, krug 1; i tako dalje.
+  function dailySlikaKrug(k) {
+    var n = DAILY_SLIKE.length;
+    if (!n) return null;
+    var zadnji = DAILY_SLIKE[n - 1].datum;
+    if (k <= zadnji) return null;                      // rupa u popisu prije kraja: nema izazova
+    var a = datumIzKljuca(k), z = datumIzKljuca(zadnji);
+    var dana = Math.round((Date.UTC(a.getFullYear(), a.getMonth(), a.getDate()) -
+                           Date.UTC(z.getFullYear(), z.getMonth(), z.getDate())) / 86400000);
+    var izv = DAILY_SLIKE[(dana - 1) % n], krug = 1 + Math.floor((dana - 1) / n);
+    var d = {};
+    Object.keys(izv).forEach(function (x) { d[x] = izv[x]; });
+    d.datum = k;
+    d.kljuc = izv.kljuc + '.krug' + krug;
+    return d;
+  }
+  // Svi dosad odrzani dailyji: popis + ponavljanja do danas (za bodove).
+  function dailySlikePojave() {
+    var sve = DAILY_SLIKE.slice(), n = DAILY_SLIKE.length;
+    if (!n) return sve;
+    var dan = datumIzKljuca(DAILY_SLIKE[n - 1].datum), danas = datumKljuc(danasDatum());
+    for (var i = 0; i < 3660; i++) {
+      dan = new Date(dan.getFullYear(), dan.getMonth(), dan.getDate() + 1);
+      var k = datumKljuc(dan);
+      if (k > danas) break;
+      sve.push(dailySlikaKrug(k));
+    }
+    return sve;
   }
   // Je li danasnji dan vec u slikovnom razdoblju (prije toga vrijedi stari format)
   function dailySlikaEra() { return datumKljuc(danasDatum()) >= DAILY_SLIKE_OD; }
@@ -4501,7 +4538,7 @@
       if (!w.pojmova) return;
       uk += Math.round(Math.min(weeklySlikaNadjeno(w), w.pojmova) / w.pojmova * TEZINA_WEEKLY);
     });
-    DAILY_SLIKE.forEach(function (d) {
+    dailySlikePojave().forEach(function (d) {
       if (!d.pojmova) return;
       uk += Math.round(Math.min(dailySlikaNadjeno(d), d.pojmova) / d.pojmova * TEZINA_DAILY);
     });
@@ -4510,7 +4547,7 @@
   function slikovniMaks() {
     var m = 0;
     WEEKLY_SLIKE.forEach(function (w) { if (w.pojmova) m += TEZINA_WEEKLY; });
-    DAILY_SLIKE.forEach(function (d) { if (d.pojmova) m += TEZINA_DAILY; });
+    dailySlikePojave().forEach(function (d) { if (d.pojmova) m += TEZINA_DAILY; });
     return m;
   }
   function dailySlikaNadjeno(d) {
@@ -5306,7 +5343,12 @@
   }
   function registrirajEmail(email, lozinka, cb) {
     if (!supa) { cb('Sign-in isn\'t configured yet.'); return; }
-    supa.auth.signUp({ email: email, password: lozinka, options: { data: { jezik: JEZIK_APP } } }).then(function (res) {
+    // emailRedirectTo: bez njega Supabase vraća na Referer zahtjeva, a preglednik prema
+    // supabase.co šalje samo domenu (https://kristianprasnjak.github.io/, bez /croland/) —
+    // to je dalo GitHubovu stranicu 404 nakon potvrde (auth log 19.10.2026., /verify 303).
+    // Ista adresa kao kod Google prijave i nove lozinke; mora biti među Redirect URLs.
+    supa.auth.signUp({ email: email, password: lozinka,
+      options: { data: { jezik: JEZIK_APP }, emailRedirectTo: POVRATAK_PRIJAVE } }).then(function (res) {
       if (res.error) { cb(res.error.message || 'Sign-up failed'); return; }
       // "Confirm email" on in Supabase: signUp succeeds but grants no session until the
       // user clicks the emailed link — onAuthStateChange never fires, so callers must
@@ -5406,7 +5448,7 @@
         } else {
           renderMain();
         }
-        if (!POV.spremna) { povijestPocetak(); instDanas(); }
+        if (!POV.spremna) { povijestPocetak(); instDanas(); javiPotvrduNaIphoneu(); }
       };
       if (celebriraj) proslaviRegistraciju(nastavi); else nastavi();
       // Prvi pogled je nacrtan (crtanje je sinkrono) — ekran za učitavanje može van.
@@ -5966,8 +6008,50 @@
     var m = document.createElement('div'); m.className = 'otkljModal prijavaModal';
     // Isti raspored kao stranica prijave: najbrzi put gore, e-mail ispod crte,
     // prebacivanje login/signup je veza, a odustajanje je tiho.
-    var nacin = 'signup';
+    var nacin = 'signup', emailKoda = '';
+    // KOD_U_MAILU: uključiti (true) tek kad predložak "Confirm sign up" u Supabaseu nosi
+    // {{ .Token }} — a to Supabase dopušta tek s vlastitim SMTP-om (Brevo). Dok je false,
+    // korisnik dobije staru poruku "klikni link, pa se prijavi".
+    // Korak koda: mail za potvrdu nosi i 6-znamenkasti kod. Upisan ovdje, prijavljuje u
+    // ovom prozoru — i kad mail otvori Safari, a korisnik je u Crolandu s početnog zaslona,
+    // i kad je poslužitelj pošte link "potrošio" provjeravajući ga.
+    function crtajKod() {
+      m.innerHTML =
+        '<h2>Check your email</h2>' +
+        '<p class="otkljPod">' + T_('We sent a code to <b>%1</b>. Enter it here to finish creating your account.', esc(emailKoda)) + '</p>' +
+        '<div class="poljeP"><label for="prKod">Code</label>' +
+          '<input id="prKod" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="10" ' +
+          'placeholder="123456" style="letter-spacing:.2em;font-size:var(--t-xl);text-align:center"></div>' +
+        '<p class="greskaP" id="prGreska"></p>' +
+        '<button class="gumb" id="prPotvrdi">Confirm</button>' +
+        '<p class="prebaciP">No email? <button type="button" id="prPonovno">Send it again</button></p>' +
+        '<p class="prebaciP"><button type="button" id="prOdustani">Not now</button></p>';
+      var poruka = function (t, dobro) {
+        var e = $('prGreska'); if (!e) return;
+        e.textContent = t || ''; e.classList.toggle('dobro', !!dobro);
+      };
+      $('prOdustani').onclick = function () { ov.remove(); };
+      $('prPotvrdi').onclick = function () {
+        var kod = String(($('prKod') || {}).value || '').replace(/\D/g, '');
+        if (kod.length < 6) { poruka('Enter the code from the email.'); return; }
+        if (!supa) return;
+        PRIJAVA_TIP = 'signup';
+        supa.auth.verifyOtp({ email: emailKoda, token: kod, type: 'email' }).then(function (res) {
+          if (res.error) { PRIJAVA_TIP = null; poruka('That code didn\u2019t work. Check it, or send a new one.'); return; }
+          ov.remove();   // sesija je tu — poslijeAuthPromjene preuzima kao kod svake prijave
+        });
+      };
+      $('prKod').onkeydown = function (e) { if (e.key === 'Enter') $('prPotvrdi').click(); };
+      $('prPonovno').onclick = function () {
+        if (!supa) return;
+        supa.auth.resend({ type: 'signup', email: emailKoda, options: { emailRedirectTo: POVRATAK_PRIJAVE } }).then(function (res) {
+          poruka(res && res.error ? (res.error.message || 'Could not send the email.') : T_('A new email is on its way to %1.', emailKoda), !(res && res.error));
+        });
+      };
+      setTimeout(function () { var f = $('prKod'); if (f) f.focus(); }, 60);
+    }
     function crtaj() {
+      if (nacin === 'kod') { crtajKod(); return; }
       var jeSignup = (nacin === 'signup');
       m.innerHTML =
         '<h2>' + (jeSignup ? 'Create your free account' : 'Welcome back') + '</h2>' +
@@ -6030,6 +6114,7 @@
             if (greska) { PRIJAVA_TIP = null; poruka(greska); return; }
             if (cekaPotvrdu) {
               PRIJAVA_TIP = null;
+              if (KOD_U_MAILU) { emailKoda = p.email; nacin = 'kod'; crtaj(); return; }
               poruka('Almost there — check your inbox and click the confirmation link, then log in.', true);
               return;
             }
@@ -10031,7 +10116,7 @@
   }
   // Zatvara ono što je najgore otvoreno preko ekrana. Vraća true ako je nešto zatvorio.
   function zatvoriGornjiSloj() {
-    var dijalozi = ['instalOverlay', 'potvrdaOverlay', 'karticaOverlay', 'pretplataOverlay', 'otkljOverlay',
+    var dijalozi = ['instalOverlay', 'potvrdenoOverlay', 'potvrdaOverlay', 'karticaOverlay', 'pretplataOverlay', 'otkljOverlay',
       'otvorenoOverlay', 'accOverlay', 'progOverlay'];
     for (var i = 0; i < dijalozi.length; i++) { var d = $(dijalozi[i]); if (d) { d.remove(); return true; } }
     if (PREGLED) { zatvoriPregled(); return true; }
@@ -10187,6 +10272,24 @@
       if (zauzeto && ++pokusaj < 20) { setTimeout(cekaj, 1500); return; }
       if (!zauzeto) prikaziKarticuInstalacije();
     })();
+  }
+  // Potvrda linkom na iPhoneu: korisnik je sad prijavljen u Safariju, ali Croland s
+  // početnog zaslona ima svoju, odvojenu prijavu. Reci mu to jednom, odmah.
+  function javiPotvrduNaIphoneu() {
+    if (!DOSAO_IZ_POTVRDE) return;
+    var pl = instPlatforma();
+    if (!pl || pl === 'android' || radiKaoAplikacija()) return;
+    var ov = document.createElement('div'); ov.id = 'potvrdenoOverlay';
+    ov.style.cssText = 'position:fixed;inset:0;background:rgba(29,27,23,.5);z-index:100;' +
+      'display:flex;align-items:center;justify-content:center;padding:16px;';
+    var m = document.createElement('div'); m.className = 'otkljModal';
+    m.innerHTML = '<h2>Your email is confirmed</h2>' +
+      '<p class="otkljPod">You\u2019re signed in here. If you use Croland from your home screen, open it there and log in with your email and password.</p>';
+    var ok = document.createElement('button'); ok.className = 'gumb'; ok.textContent = 'OK';
+    ok.onclick = function () { ov.remove(); };
+    m.appendChild(ok); ov.appendChild(m);
+    ov.onclick = function (e) { if (e.target === ov) ov.remove(); };
+    document.body.appendChild(ov);
   }
   // Pri pokretanju: brojač dana kad je aplikacija otvorena na ovom uređaju.
   function instDanas() {
@@ -13419,7 +13522,7 @@
     VIEW.innerHTML =
       '<div class="miniOkvir">' +
       '<div class="miniScena"><div class="miniPozornica">' +
-      '<iframe id="weeklyOkno" src="' + mapa + w.dat + '" title="' + esc(w.ime) + '" allow="fullscreen" allowfullscreen></iframe>' +
+      '<iframe id="weeklyOkno" src="' + mapa + w.dat + (w.kljuc ? '?kljuc=' + encodeURIComponent(w.kljuc) : '') + '" title="' + esc(w.ime) + '" allow="fullscreen" allowfullscreen></iframe>' +
       '</div></div>' +
       '<div class="alat">' +
       '<span class="nas">' + w.emo + ' ' + esc(w.ime) + '</span>' +
@@ -13429,7 +13532,11 @@
       '</div>';
   }
   function renderWeekly(id) { renderIzazovSlika(WEEKLY_MAPA, weeklySlikaPoId(id)); }
-  function renderDailySlika(id) { renderIzazovSlika(DAILY_MAPA, dailySlikaPoId(id)); }
+  function renderDailySlika(id) {
+    // danasnji ima prednost: u krugu nosi svoj kljuc napretka, a id mu je isti kao izvornom
+    var d = dailySlikaDanas();
+    renderIzazovSlika(DAILY_MAPA, d && d.id === id ? d : dailySlikaPoId(id));
+  }
 
   // ================= PROGRESS =================
   // Jedna stranica na kojoj stoji sve što je netko zaradio i najkraći put do idućeg.
