@@ -19,10 +19,16 @@ Ne pojavljuje se:
 
 ## Kako progovori
 
-1. Kad oblačić dođe na ekran, **napuše se iz njegovih usta** do konačne veličine. Mjesto je rezervirano unaprijed, pa stranica ne skače.
-2. Tek tada **izraste živi šiljak**. Svaki kadar se izračuna prema njegovim ustima i uvijek ostane malo odmaknut, a prati ga dok se miče.
-3. **Tekst se ispisuje** slovo po slovo, uvijek istim tempom, pri svakom dolasku na stranicu. Usta prate slova. Naglašena (podebljana) riječ kratko podigne obrve.
-4. Kad je tekst ispisan, **šiljak se uvuče** i nestane. Tekst ostaje.
+1. **Dok nije njegov red, nema ga.** Mjesto (i za njega i za oblačić) je rezervirano unaprijed, pa stranica ne skače. Kad dođe na red, **uđe u svoju scenu**:
+   - uz oblačić: izroni iz poda kao duh (prvo sjena, pa on)
+   - na oblačiću: padne odozgo i doskoči (malo se zgnječi pa odskoči)
+   - viri: izviri iza ruba oblačića
+
+   Uz smanjeno gibanje samo se pojavi.
+2. Zatim se oblačić **napuše iz njegovih usta** do konačne veličine.
+3. Tek tada **izraste živi šiljak**. Svaki kadar se izračuna prema njegovim ustima i uvijek ostane malo odmaknut, a prati ga dok se miče.
+4. **Tekst se ispisuje** slovo po slovo, uvijek istim tempom, pri svakom dolasku na stranicu. Usta prate slova. Naglašena (podebljana) riječ kratko podigne obrve.
+5. Kad je tekst ispisan, **šiljak se uvuče** i nestane. Tekst ostaje.
 
 Tempo: slovo 36 ms, razmak 24 ms, zarez i crtica 170 ms, kraj rečenice 320 ms, 0,7 s između odlomaka.
 
@@ -30,19 +36,22 @@ Tempo: slovo 36 ms, razmak 24 ms, zarez i crtica 170 ms, kraj rečenice 320 ms, 
 
 ## Više Blobbyja na stranici
 
-- Govori uvijek samo jedan, a ostali čekaju red.
+- Govori uvijek samo jedan, a ostali čekaju red, i to **uvijek redom odozgo prema dolje**. Kreće kad je trećina retka na ekranu. Ako se gornji Blobby vidi, a još nije progovorio, donji ga čeka (najviše 1,5 s, da se ništa ne zaglavi).
+- Tko još nije došao na red, ne vidi se.
 - Ostali kuliraju: dišu, trepću i povremeno pogledaju onoga koji govori.
 - Blobby koji nije na ekranu ne troši ništa.
 
 ## Raspored prema količini teksta
 
-Izbor ovisi o tekstu i nije nasumičan, pa ista stranica uvijek izgleda isto. Dva Blobbyja za redom na istoj stranici nikad nemaju isti raspored: "uz" se zrcali s lijeve na desnu stranu, a ostali se izmjenjuju.
+Izbor ovisi o tekstu i nije nasumičan, pa ista stranica uvijek izgleda isto. Vrstu rasporeda određuje duljina teksta, a **stranu (lijevo ili desno)** sama rečenica (sažetak njezinog teksta), posebno za računalo i za mobitel. Dva Blobbyja za redom na istoj stranici nikad nemaju isti raspored: ako bi se poklopili, drugi prelazi na drugu stranu.
 
 | tekst | računalo | mobitel |
 |---|---|---|
 | kratak (do 70 znakova) | uz oblačić | uz oblačić |
 | srednji (do 220 znakova) | uz oblačić | stoji na oblačiću, cijeli vidljiv |
 | dugačak | stoji na oblačiću | viri iza gornjeg ruba (jedini slučaj kad se dio njega skriva) |
+
+Svaki raspored postoji u lijevoj i desnoj inačici (`uz`/`uzD`, `stoji`/`stojiD`, `viri`/`viriD`). Završni ekran je uvijek u sredini.
 
 ## Vrste rečenica → gluma
 

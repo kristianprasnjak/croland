@@ -62,9 +62,22 @@
   // ---- oblačić i ispis slovo po slovo ----
 
   // u svakom trenutku govori najviše jedan Blobby; ostali čekaju red
-  const red = []; let govoriNetko = false;
-  function uRed(fn) { red.push(fn); sljedeci(); }
-  function sljedeci() { if (govoriNetko || !red.length) return; govoriNetko = true; red.shift()(() => { govoriNetko = false; setTimeout(sljedeci, 500); }); }
+  // red čekanja: govori jedan po jedan, UVIJEK redom na stranici (odozgo prema dolje)
+  const cekaju = []; let govoriNetko = false;
+  const prije = (a, b) => !!(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
+  function uRed(ja, fn) { cekaju.push({ ja, fn, od: performance.now() }); sljedeci(); }
+  function sljedeci() {
+    if (govoriNetko) return;
+    for (let i = cekaju.length - 1; i >= 0; i--) if (!cekaju[i].ja.kontejner.isConnected) cekaju.splice(i, 1);
+    if (!cekaju.length) return;
+    cekaju.sort((a, b) => prije(a.ja.kontejner, b.ja.kontejner) ? -1 : 1);
+    const c = cekaju[0];
+    // gornji Blobby koji se već vidi, a još nije u redu, ima prednost (čeka se najviše 1,5 s)
+    const gornji = SVI.find(o => o !== c.ja && !o.uRedu && o.vidljiv && o.kontejner.isConnected && prije(o.kontejner, c.ja.kontejner));
+    if (gornji && performance.now() - c.od < 1500) { setTimeout(sljedeci, 200); return; }
+    cekaju.shift(); govoriNetko = true;
+    c.fn(() => { govoriNetko = false; setTimeout(sljedeci, 400); });
+  }
 
   // svi Blobbyji na stranici i onaj koji upravo govori (ostali ga povremeno pogledaju)
   const SVI = []; let GOVORNIK = null;
@@ -546,9 +559,52 @@
       setTimeout(() => { oblacic.classList.remove('napuhuje'); gotovo(); }, 520);
     }
 
+    // ---- ULAZAK: dok nije njegov red, nema ga (mjesto je rezervirano); onda uđe u svoju scenu ----
+    //   uz oblačić  → izroni iz poda kao duh     na oblačiću → padne odozgo i doskoči     viri → izviri iza ruba
+    kontejner.classList.add('blobbySkriven');
+    let ulaz = null;
+    const NSs = 'http://www.w3.org/2000/svg', defs = scena.querySelector('defs');
+    const klipP = document.createElementNS(NSs, 'clipPath'); klipP.id = 'ulaz-' + s;
+    const klipR = document.createElementNS(NSs, 'rect'); klipR.setAttribute('x', -500); klipR.setAttribute('width', 1000);
+    klipP.appendChild(klipR); defs.appendChild(klipP);
+    const omot = document.createElementNS(NSs, 'g'); tijelo.parentNode.insertBefore(omot, tijelo); omot.appendChild(tijelo);
+    function klip(v) {
+      if (!v) { omot.removeAttribute('clip-path'); return; }
+      if (v === 'pod') { klipR.setAttribute('y', -500); klipR.setAttribute('height', 652); }   // ispod poda se ne vidi
+      else { klipR.setAttribute('y', -255); klipR.setAttribute('height', 800); }               // iznad scene se ne vidi
+      omot.setAttribute('clip-path', `url(#ulaz-${s})`);
+    }
+    function udji(gotovo) {
+      if (!kontejner.classList.contains('blobbySkriven')) { gotovo(); return; }
+      const k = red0.className;
+      const vrsta = /\br-stoji/.test(k) ? 'pad' : /\br-viri/.test(k) ? 'viri' : 'izron';
+      kontejner.classList.remove('blobbySkriven');
+      if (smanjeno) { gotovo(); pokreniPetlju(); return; }
+      ulaz = { vrsta, od: performance.now(), ms: vrsta === 'pad' ? 950 : 800 };
+      pokreniPetlju();
+      setTimeout(gotovo, ulaz.ms * (vrsta === 'pad' ? 0.75 : 0.7));
+    }
+    function stanjeUlaza(sad) {
+      const U = { dy: 0, gnj: 0, sjena: 1 };
+      if (!ulaz) return U;
+      const e = Math.min(1, (sad - ulaz.od) / ulaz.ms);
+      if (ulaz.vrsta === 'izron') {
+        const k = 1 - Math.pow(1 - e, 3);
+        U.dy = (1 - k) * 250 - Math.sin(Math.PI * k) * 8; U.sjena = Math.min(1, e * 3); klip('pod');
+      } else if (ulaz.vrsta === 'pad') {
+        if (e < 0.48) { const k = e / 0.48; U.dy = -(1 - k * k) * 320; U.gnj = -0.06 * k; U.sjena = k; }
+        else { const k = (e - 0.48) / 0.52; U.gnj = 0.14 * Math.sin(k * Math.PI * 2.2) * Math.pow(1 - k, 1.6); }
+        klip('vrh');
+      } else {
+        const k = 1 - Math.pow(1 - e, 3); U.dy = (1 - k) * 170;
+      }
+      if (e >= 1) { ulaz = null; klip(null); }
+      return U;
+    }
+
     function izgovori(gotovo) {
       ja.govori = true; GOVORNIK = ja; ja.oslobodi = gotovo;
-      napuhni(() => {
+      udji(() => napuhni(() => {
         siljakCilj = 1; oblacicOtvoren = true;
         if (gumbBrzo) gumbBrzo.hidden = false;
         let i = 0;
@@ -564,7 +620,7 @@
           ispis = { o, k: 0, sljedeci: performance.now() + 250, cues: o.cues.slice(), gotovo: () => setTimeout(dalje, brzo ? 180 : 700) };
         };
         dalje();
-      });
+      }));
     }
     // trajanje jednog znaka (normalni tempo)
     const trajanje = ch => /[.!?]/.test(ch) ? 320 : /[,;:—]/.test(ch) ? 170 : ch === ' ' ? 24 : 36;
@@ -599,12 +655,14 @@
     }
 
     // progovori kad oblačić dođe na ekran (pri svakom dolasku na stranicu)
-    new IntersectionObserver((ul, ob) => {
-      if (ul.some(e => e.isIntersecting) && !izgovoreno) {
-        izgovoreno = true; ob.disconnect();
-        uRed(gotovo => { if (!kontejner.isConnected) { gotovo(); return; } pokreniPetlju(); izgovori(gotovo); });
+    new IntersectionObserver(ul => {
+      const e = ul[ul.length - 1];
+      ja.vidljiv = e.intersectionRatio > 0;
+      if (e.intersectionRatio >= 0.35 && !izgovoreno) {
+        izgovoreno = true; ja.uRedu = true;
+        uRed(ja, gotovo => { if (!kontejner.isConnected) { gotovo(); return; } izgovori(gotovo); });
       }
-    }, { threshold: 0.6 }).observe(oblacic);
+    }, { threshold: [0, 0.35] }).observe(red0);
 
     // raspored: oblačić lijevo ili desno od njega (za šiljak i pokazivanje)
     function osvjeziStranu() {
@@ -651,7 +709,8 @@
     const uD = gore(rukaD), uL = gore(rukaL);
     const lift = ogr(Math.max(uD, uL) * 0.65 + Math.min(uD, uL) * 0.35, 0, 1);
     ist *= 1 + 0.08 * lift; sx /= Math.sqrt(1 + 0.08 * lift);
-    const gnj = g.gnjec || 0, nagib = g.nagib || 0, skok = g.skok || 0;
+    const U = stanjeUlaza(sad);
+    const gnj = (g.gnjec || 0) + U.gnj, nagib = g.nagib || 0, skok = g.skok || 0;
     ist *= 1 - gnj; sx /= Math.sqrt(1 - gnj);           // gnječenje / istezanje (volumen ostaje)
     for (const r of [rukaD, rukaL]) {
       r.debljina = ogr(r.debljina, ...RUKA_GRANICE.debljina); r.duljina = ogr(r.duljina, ...RUKA_GRANICE.duljina);
@@ -685,9 +744,9 @@
     // lice diše zajedno s glavom
     glava.setAttribute('transform', `translate(${f(-15 * (1 - sx) + okret * 7 + nagib * 0.7)} ${f(DNO * (1 - ist))}) scale(${sx.toFixed(4)} ${ist.toFixed(4)})`);
 
-    const visina = amp * 3 * Math.sin(t * 1.1 - 0.5) - 9 * lift - skok;
+    const visina = amp * 3 * Math.sin(t * 1.1 - 0.5) - 9 * lift - skok + U.dy;
     tijelo.setAttribute('transform', `translate(0 ${f(visina)})`);
-    sjena.setAttribute('rx', f(150 * (1 + visina / 200)));
+    sjena.setAttribute('rx', f(150 * Math.max(0.2, 1 + Math.min(0, visina) / 200) * U.sjena));
 
     // pogled: prati pokazivač kad se miče, inače mirno gleda u tebe i ponekad skrene
     if (sad - pokVrijeme < 1500) { ciljGX = ogr(pokX / 260, -0.7, 0.7); ciljGY = ogr((pokY + 50) / 260, -0.6, 0.6); }
@@ -751,7 +810,7 @@
   }
     // petlja radi samo dok je Blobby na ekranu (ili dok govori)
     function pokreniPetlju() { radi = true; if (!vrti) { vrti = true; zadnje = performance.now(); requestAnimationFrame(okvir); } }
-    new IntersectionObserver(ul => { if (ul.some(e => e.isIntersecting)) pokreniPetlju(); else if (!ispis && !ja.govori) radi = false; }).observe(kontejner);
+    new IntersectionObserver(ul => { if (ul.some(e => e.isIntersecting)) { if (!kontejner.classList.contains('blobbySkriven')) pokreniPetlju(); } else if (!ispis && !ja.govori) radi = false; }).observe(kontejner);
     return { izraz: ime => { osnovniIzraz = ime; }, gesta: pokreni };
   }
 

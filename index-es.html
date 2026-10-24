@@ -652,11 +652,15 @@
   .blobbyRed.r-uz  { display: flex; align-items: flex-end; gap: 0.9rem; }
   .blobbyRed.r-uzD { display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: flex-end; gap: 0.9rem; }
   .blobbyRed.r-uz .blobbyLik, .blobbyRed.r-uzD .blobbyLik { margin-bottom: -0.3rem; }
-  .blobbyRed.r-stoji { display: block; padding-top: calc(var(--bl) * 1.2); }
-  .blobbyRed.r-stoji .blobbyLik { position: absolute; top: 0; left: 1.4rem; }
-  .blobbyRed.r-viri { display: block; padding-top: calc(var(--bl) * 0.8); }
-  .blobbyRed.r-viri .blobbyLik { position: absolute; top: 0; left: 1rem; z-index: 0; }
-  .blobbyRed.r-viri .blobbyLik svg [id^="sjena-"] { display: none; }
+  .blobbyRed.r-stoji, .blobbyRed.r-stojiD { display: block; padding-top: calc(var(--bl) * 1.2); }
+  .blobbyRed.r-stoji .blobbyLik, .blobbyRed.r-stojiD .blobbyLik { position: absolute; top: 0; left: 1.4rem; }
+  .blobbyRed.r-stojiD .blobbyLik { left: auto; right: 1.4rem; }
+  .blobbyRed.r-viri, .blobbyRed.r-viriD { display: block; padding-top: calc(var(--bl) * 0.8); }
+  .blobbyRed.r-viri .blobbyLik, .blobbyRed.r-viriD .blobbyLik { position: absolute; top: 0; left: 1rem; z-index: 0; }
+  .blobbyRed.r-viriD .blobbyLik { left: auto; right: 1rem; }
+  .blobbyRed.r-viri .blobbyLik svg [id^="sjena-"], .blobbyRed.r-viriD .blobbyLik svg [id^="sjena-"] { display: none; }
+  /* dok nije njegov red, nema ga (mjesto je rezervirano) */
+  .blobbyLik.blobbySkriven { visibility: hidden; }
   /* završni ekran: veći, u sredini */
   .blobbyRed.kraj { --bl: 5.75rem; justify-content: center; margin: 0.4rem auto 1.4rem; max-width: 34rem; }
   .blobbyRed.kraj .blobbyOblacic { font-size: var(--t-xl); }
@@ -666,6 +670,7 @@
     .blobbyRed.kraj { --bl: 4.6rem; }
     .blobbyRed.r-uz, .blobbyRed.r-uzD { gap: 0.7rem; }
     .blobbyRed.r-stoji .blobbyLik { left: 1rem; }
+    .blobbyRed.r-stojiD .blobbyLik { left: auto; right: 1rem; }
     .blobbyOblacic { padding: 0.75rem 0.95rem 0.2rem; }
   }
   @media (prefers-reduced-motion: reduce) { .blobbyOblacic.napuhuje { transition: none; } }
@@ -6581,12 +6586,19 @@
   var BLOBBY_ZADNJI = null;          // raspored prethodnog Blobbyja na istoj stranici
   var BLOBBY_PRESKOK = false;        // ⏩: račun ima bodove na ovoj ili kasnijoj vježbi cjeline
   var BLOBBY_SESIJA = {};            // najbolji rezultati pri prvom otvaranju cjeline u ovoj sesiji
-  function blobbyRaspored(duljina) {
+  // strana (lijevo/desno) ovisi o samoj rečenici: stabilno (ista stranica uvijek izgleda isto), a ipak raznoliko
+  function blobbyHash(t) { var h = 2166136261; for (var i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  var BLOBBY_DESNO = { uz: 'uzD', uzD: 'uz', stoji: 'stojiD', stojiD: 'stoji', viri: 'viriD', viriD: 'viri' };
+  function blobbyRaspored(duljina, tekst) {
     var kat = duljina <= 70 ? 0 : (duljina <= 220 ? 1 : 2);
     var pc = ['uz', 'uz', 'stoji'][kat], mob = ['uz', 'stoji', 'viri'][kat];
+    var h = blobbyHash(tekst || '');
+    if (h & 1) pc = BLOBBY_DESNO[pc];
+    if (h & 2) mob = BLOBBY_DESNO[mob];
     if (BLOBBY_ZADNJI) {
-      if (BLOBBY_ZADNJI.pc === pc) pc = pc === 'uz' ? 'uzD' : 'uz';
-      if (BLOBBY_ZADNJI.mob === mob) mob = mob === 'stoji' ? (kat === 2 ? 'viri' : 'uz') : 'stoji';
+      // dva za redom nikad isto: najprije druga strana
+      if (BLOBBY_ZADNJI.pc === pc) pc = BLOBBY_DESNO[pc];
+      if (BLOBBY_ZADNJI.mob === mob) mob = BLOBBY_DESNO[mob];
     }
     BLOBBY_ZADNJI = { pc: pc, mob: mob };
     return BLOBBY_ZADNJI;
@@ -6595,7 +6607,7 @@
   window.addEventListener('resize', function () {
     var m = window.innerWidth < 640;
     document.querySelectorAll('.blobbyRed[data-r-pc]').forEach(function (r) {
-      r.classList.remove('r-uz', 'r-uzD', 'r-stoji', 'r-viri');
+      r.classList.remove('r-uz', 'r-uzD', 'r-stoji', 'r-stojiD', 'r-viri', 'r-viriD');
       r.classList.add('r-' + r.getAttribute(m ? 'data-r-mob' : 'data-r-pc'));
     });
   });
@@ -6821,7 +6833,7 @@
       red.appendChild(lik); red.appendChild(bal);
       // raspored prema količini teksta; dva Blobbyja za redom nikad isto (v. BLOBBY-rezija.md)
       var duljina = recenice.reduce(function (n, st) { return n + blobbyNorm(st.join(' ')).length; }, 0);
-      var r = blobbyRaspored(duljina);
+      var r = blobbyRaspored(duljina, recenice.map(function (st) { return st.join(' '); }).join(' '));
       red.classList.add('r-' + (window.innerWidth < 640 ? r.mob : r.pc));
       red.setAttribute('data-r-pc', r.pc); red.setAttribute('data-r-mob', r.mob);
       if (window.BlobbyLik) {
