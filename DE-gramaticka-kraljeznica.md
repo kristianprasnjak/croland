@@ -1,6 +1,6 @@
 # Njemački tečaj (radni naziv) — gramatička kralježnica, 20 razina
 
-Verzija 3, 27.09.2026. Faza 2a iz `VODIC-izrada-i-prijevod.md` (E5, korak 1).
+Verzija 4, 23.10.2026. Faza 2a iz `VODIC-izrada-i-prijevod.md` (E5, korak 1). Verzija 4 prenosi prijedloge ‡ iz `jezici-koncept/de.md` (odluka 23.10.2026., `ODLUKE-VLASNIKA.md`): cilj, L0, nosive L1 / L8 / L10 / L12, fraze L4 / L9 / L11, *konnte* u L11, kratki modul nakon L6, test L19–L20.
 
 **Načelo:** redoslijed gramatike i teme složeni su za njemački, od nule. Iz Crolanda se preuzima
 samo **oblik** (odjeljak 2). Verzija 3 uvodi **vremenski okvir** (odjeljak 1) i prema njemu
@@ -46,7 +46,7 @@ najpunijih Croland razina, ne manje.
 - **Jedna nova ideja po lekciji**; Grammar cjelina smije dodati manje „+“ stavke.
 - **Nosiva rečenica** po razini.
 - **Spirala:** kad se ideja vrati, lekcija to kaže naglas (*„same trick as level 7“*).
-- **Modulni testovi** (ovdje: L12 = kraj A1, L16, L20 = završni).
+- **Modulni testovi** (ovdje: kratki modul nakon L6, L12 = kraj A1, L16, L20 = završni).
 - Pravila kvalitete (C4), glas maskote, revizijski alat, bodovanje.
 
 ---
@@ -57,7 +57,7 @@ najpunijih Croland razina, ne manje.
 |---|---|---|
 | Publika | anglofona, sučelje na engleskom | isti player i tržište kao Croland |
 | Varijanta | njemački iz Njemačke; AT/CH oblici u napomeni | najveće tržište |
-| Cilj | **A1 cijeli (L1–L12), jezgra A2 (L13–L20)** | vremenski okvir, odjeljak 1 |
+| Cilj | **A1 (razumijevanje i osnovna produkcija) do L12 · jezgra A2, pretežno receptivno, do L20** (izmjena 23.10.2026.: ≈ 35–49 h do L12 je ispod Goethe procjene za cijeli A1) | vremenski okvir, odjeljak 1 |
 | Prvi korak | razgovor od prve lekcije (*Ich heiße…, ich komme aus…*) | njemački udžbenici počinju predstavljanjem |
 | *du / Sie* | oba od L1; *Sie* obavezan u situacijama usluge | razlika je u njemačkom stroga |
 | Imenice | uvijek sa članom | rod bez člana se ne pamti |
@@ -115,7 +115,8 @@ odjeljka 6 (uvijek s glosom). Lijek za najčešću grešku iz `NELOGICNOSTI-L0-P
 | dativ kao objekt, *mir/dir/ihm*, *gefallen, helfen* | L15 | *Das gefällt mir* u L13 |
 | **atributni pridjev s nastavkom** (*ein blauer Pullover*) | L16 | do L16 opisuje se samo s *ist* + pridjev |
 | komparativ i superlativ; nastavci pridjeva u dativu | L17 | *größer als* u L16 |
-| povratni glagoli; *konnte, musste, wollte* | L18 | *sich freuen* u L15 |
+| *konnte, musste, wollte* (uz *war / hatte*) | L11 | *konnte* u L10 |
+| povratni glagoli | L18 | *sich freuen* u L15 |
 | Konjunktiv II (osim fraza) | L19 | *Könnten Sie…?* u L7 |
 | odnosne rečenice; *ob* i neizravna pitanja | L20 | *der Mann, der…* u tekstovima |
 
@@ -141,6 +142,9 @@ Uče se kao cjelina i ne raščlanjuju. Kad dođe njihova razina, lekcija ih se 
 | *jeden Tag, jede Woche* | L6 | L16 |
 | *mit dem Bus / Zug / Auto* | L8 | L12 |
 | *Mir tut … weh.* | L9 | L15 |
+| *Herr Schulz → Herrn Schulz* (akuzativ, dativ) | L4 | L15 (kratka napomena o slabim imenicama) |
+| *zum Arzt, beim Arzt, Gute Besserung, Mir ist kalt / warm* | L9 | L12, L15 |
+| *am Bahnhof, zum Bahnhof* | L11 | L12 |
 
 ---
 
@@ -152,7 +156,7 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 
 ### L0 — Sounds & Spelling
 - **Ideja:** njemački se čita predvidljivo kad znaš skupine slova.
-- Sadržaj: abeceda; *ä ö ü ß*; *ei / ie* (*mein / Miete*); *eu / äu*; *sch, sp-, st-*; *ch* (*ich / ach*); *z* = ts, *w* = v, *v* = f, *j* = y; dug i kratak samoglasnik (*Staat / Stadt*); *Hund* zvuči kao „hunt“; **imenice pišu velikim slovom**.
+- Sadržaj: abeceda; *ä ö ü ß*; *ei / ie* (*mein / Miete*); *eu / äu*; *sch, sp-, st-*; *ch* (*ich / ach*); *z* = ts, *w* = v, *v* = f, *j* = y; dug i kratak samoglasnik (*Staat / Stadt*); obezvučenje na kraju riječi (*Hund* zvuči kao „hunt“, *Tag* [k]); *s* ispred samoglasnika = [z]; *eu / äu* = [oj]; **imenice pišu velikim slovom**.
 - Riječi koje „već znaš“: *Hotel, Banane, Taxi, Hand, Haus, Butter, Wasser, Name*.
 - **Zamka:** *ei* i *ie* zamijenjeni; *w* kao engleski *w*.
 
@@ -163,7 +167,7 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 - **+** *du* nasuprot *Sie*; *wer, wie, woher, wo*; *und, aber*; brojevi 0–20; *Wie geht's?* kao fraza.
 - **Treba:** L0. **Vraća se:** L3.
 - **Zamka:** *Sie* malim slovom; *Ich bin Anna heiße*.
-- **Nosiva:** *Ich heiße Anna und komme aus Kanada.*
+- **Nosiva:** *Ich bin Anna und komme aus Kanada. Und wer bist du?*
 
 ### L2 — Things Around Us · „Every Noun Has a Partner“
 - **Ideja:** svaka imenica ima član *der / die / das*, koji se uči zajedno s riječju.
@@ -212,7 +216,7 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 - **+** *auf-, an-, ab-, ein-, aus-, mit-, fern-*; s modalom se prefiks vraća (*Ich muss früh aufstehen*); sat s *halb* i *Viertel* (*halb acht* = 7:30!); *am, um, im* za vrijeme.
 - **Treba:** L7. **Vraća se:** L9, L10 (*aufgestanden*).
 - **Zamka:** prefiks ostavljen uz glagol; *halb acht* kao 8:30.
-- **Nosiva:** *Ich stehe um sechs Uhr auf und fange um acht an.*
+- **Nosiva:** *Ich stehe um sechs Uhr auf und die Arbeit fängt um acht an.*
 
 ### L9 — Health & Body · „Telling People What to Do“
 - **Ideja:** imperativ: *Komm! / Kommt! / Kommen Sie!*
@@ -226,11 +230,11 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 - **+** *ge-…-t* i *ge-…-en*; odvojivi (*eingekauft*); bez *ge-* uz *-ieren* i *be-, ver-*; *war* i *hatte*.
 - **Treba:** L6, L8. **Vraća se:** L11, L13.
 - **Zamka:** *Ich habe geschlafe*; *gegestudiert*.
-- **Nosiva:** *Am Samstag habe ich lange geschlafen und dann Kuchen gebacken.*
+- **Nosiva:** *Am Samstag habe ich lange gefrühstückt und dann Musik gehört.*
 
 ### L11 — Travel · „The Perfekt with sein“
 - **Ideja:** *sein* umjesto *haben* kad se ide nekamo ili nešto postaje (*Ich bin gefahren.*).
-- **+** najčešći jaki participi (*gegangen, gekommen, geblieben, gesehen*); *nach* uz gradove i zemlje; *in die Schweiz* kao iznimka.
+- **+** najčešći jaki participi (*gegangen, gekommen, geblieben, gesehen*); *nach* uz gradove i zemlje; *in die Schweiz* kao iznimka; ***konnte, musste, wollte*** (Präteritum modala, uz *war / hatte* iz L10).
 - **Treba:** L10. **Vraća se:** L13, L20.
 - **Nosiva:** *Wir sind nach Wien gefahren und haben viel gesehen.*
 
@@ -239,8 +243,8 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 - **+** članovi *dem / der / dem / den…-n*; *mit, bei, zu, von, aus, nach* uvijek s dativom; *zum, zur, beim, vom*; fraze iz L3 i L8 (*am Montag, mit dem Bus*) sada raščlanjene.
 - **Treba:** L4, L5. **Vraća se:** L14, L15, L17.
 - **Zamka:** *mit den Bus*; *zu Hause* nasuprot *nach Hause*.
-- **Test:** **Modul A1** — sve A1 gradivo · 30 min · 70 %. Poruka polazniku: *„You've completed A1.“*
-- **Nosiva:** *Ich wohne bei meiner Oma und fahre mit dem Rad zur Schule.*
+- **Test:** **Modul A1** — sve A1 gradivo · 30 min · 70 %. Poruka polazniku: *„You've completed the A1 course.“* (bez tvrdnje o ispitu)
+- **Nosiva:** *Nach der Arbeit fahre ich mit dem Rad zum Supermarkt.*
 
 ### — A2 (jezgra) —
 
@@ -282,7 +286,7 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 
 ### L18 — Feelings & Friends · „Reflexive Verbs“
 - **Ideja:** neki glagoli traže *mich / dich / sich* (*Ich freue mich.*).
-- **+** *sich freuen, sich ärgern, sich treffen, sich interessieren für*; povratni u imperativu (*Beeil dich!*); **+ *konnte, musste, wollte*** (Präteritum modala, kako se i govori).
+- **+** *sich freuen, sich ärgern, sich treffen, sich interessieren für*; povratni u imperativu (*Beeil dich!*); *konnte, musste, wollte* (iz L11) ponavljanje.
 - **Treba:** L6, L9, L15. **Vraća se:** L19.
 - **Zamka:** *Ich freue* bez *mich*; *Ich habe gekonnt*.
 - **Nosiva:** *Früher konnte ich kein Deutsch, aber jetzt freue ich mich über jedes Gespräch.*
@@ -298,7 +302,7 @@ polaznika (za distraktore i `info:`). **Nosiva** = nosiva rečenica.
 - **Ideja:** odnosne rečenice *der, die, das* — imenica dobiva opis cijelom rečenicom.
 - **+** relativne zamjenice u nominativu, akuzativu i dativu; *ob* i neizravna pitanja (*Weißt du, wo…?*); sve zavisne rečenice zajedno.
 - **Treba:** L13, L15.
-- **Test:** **Završni test** · 40 min · 75 %.
+- **Test:** **Završni test** · 40 min · 75 %. Nestvarni *wenn* (L19), odnosne rečenice i *ob* u testu pretežno prepoznavanje (B1 strukture).
 - **Nosiva:** *Deutsch ist eine Sprache, die ich jeden Tag besser verstehe.*
 
 ---

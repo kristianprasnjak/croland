@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blobby – geste</title>
+<style>
+  html, body { margin: 0; height: 100%; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background: #f7f4ec; font-family: system-ui, sans-serif; overflow: hidden;
+    touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  }
+  svg { width: min(92vw, 72vh, 540px); height: auto; display: block; }
+  .geste { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 8px 16px 16px; max-width: 720px; }
+  .geste button {
+    font: 600 14px system-ui, sans-serif; color: #22385a; background: transparent;
+    border: 1.5px solid #22385a; border-radius: 999px; padding: 7px 13px; cursor: pointer; min-height: 36px;
+  }
+  .geste button[aria-pressed="true"] { background: #22385a; color: #f7f4ec; }
+</style>
+</head>
+<body>
+<svg id="scena" viewBox="-215 -255 430 450" aria-label="Blobby">
+  <defs>
+    <clipPath id="klipOkoL"><path class="okoKlip"/></clipPath>
+    <clipPath id="klipOkoD"><path class="okoKlip"/></clipPath>
+    <clipPath id="klipUsta"><path id="ustaKlip"/></clipPath>
+  </defs>
+  <ellipse id="sjena" cx="-15" cy="156" rx="150" ry="10" fill="#ebe5d6"/>
+  <g id="tijelo">
+    <path id="koza" fill="#7eabca"/>
+    <g id="glava">
+      <g id="lice" fill="none" stroke="#22385a" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse id="obrazL" fill="#f1a7c1" stroke="none" rx="15" ry="8" opacity="0"/>
+        <ellipse id="obrazD" fill="#f1a7c1" stroke="none" rx="15" ry="8" opacity="0"/>
+        <path id="obrvaL" stroke-width="6"/>
+        <path id="obrvaD" stroke-width="6"/>
+        <g id="okoL">
+          <path class="bjelo" fill="#fff" stroke="none"/>
+          <g clip-path="url(#klipOkoL)"><g class="zjenica" stroke="none">
+            <circle class="sar" fill="#22385a"/><circle cx="5" cy="-6" r="4.6" fill="#fff"/>
+          </g></g>
+          <path class="zatvoreno" stroke-width="5.5" opacity="0"/>
+        </g>
+        <g id="okoD">
+          <path class="bjelo" fill="#fff" stroke="none"/>
+          <g clip-path="url(#klipOkoD)"><g class="zjenica" stroke="none">
+            <circle class="sar" fill="#22385a"/><circle cx="5" cy="-6" r="4.6" fill="#fff"/>
+          </g></g>
+          <path class="zatvoreno" stroke-width="5.5" opacity="0"/>
+        </g>
+        <g id="usta">
+          <path id="ustaOblik" fill="#22385a" stroke-width="4"/>
+          <g clip-path="url(#klipUsta)" stroke="none"><ellipse id="jezik" fill="#ec8aa3"/></g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+<div class="geste" id="izrazi"></div>
+<div class="geste" id="geste"></div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const scena = $('scena'), tijelo = $('tijelo'), koza = $('koza'), glava = $('glava'), sjena = $('sjena');
+  const smanjeno = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const f = n => n.toFixed(1), ogr = (v, a, b) => Math.max(a, Math.min(b, v));
+  const glatko = (a, b, x) => { const u = ogr((x - a) / (b - a), 0, 1); return u * u * (3 - 2 * u); };
+
+  // ---------- OPUŠTENO TIJELO (silueta prema Blobby9, visina prema originalu) ----------
+  // =====================================================================
+  //  TIJELO kao jedna cjelina: obris se mjeri kao udaljenost od središta
+  //  u svakom smjeru. Ruke mogu samo "nabubriti" taj obris (glatki maksimum),
+  //  pa nikad ne nastaju rupe ni duboke usjekline — koža ih popunjava.
+  // =====================================================================
+  // donji dio tijela malo sužen (glava ostaje ista)
+  const OBRIS = [[-14.3, -140.0], [-22.6, -140.0], [-30.7, -139.0], [-38.9, -137.5], [-46.8, -135.2], [-54.5, -132.3], [-62.1, -128.9], [-69.3, -125.0], [-76.2, -120.4], [-82.6, -115.2], [-88.7, -109.7], [-94.4, -103.7], [-99.4, -97.1], [-103.9, -90.1], [-107.9, -82.9], [-111.5, -75.5], [-114.4, -67.7], [-117.0, -59.9], [-118.8, -51.8], [-120.1, -43.7], [-121.3, -35.5], [-122.6, -27.3], [-124.2, -19.3], [-126.7, -11.4], [-129.6, -3.7], [-133.6, 3.6], [-138.1, 10.5], [-143.3, 17.0], [-148.4, 23.5], [-152.9, 30.4], [-156.8, 37.7], [-159.6, 45.4], [-161.6, 53.5], [-162.5, 61.7], [-162.5, 69.9], [-161.2, 78.1], [-159.1, 86.1], [-156.0, 93.7], [-152.0, 101.0], [-146.8, 107.4], [-140.5, 112.8], [-133.7, 117.3], [-126.2, 120.8], [-118.2, 122.9], [-110.0, 124.1], [-101.8, 123.1], [-93.6, 122.5], [-85.3, 122.5], [-77.2, 124.0], [-69.5, 126.8], [-62.0, 130.3], [-54.5, 133.9], [-46.8, 136.8], [-38.9, 139.1], [-30.7, 140.0], [-22.4, 140.0], [-14.2, 139.8], [-6.1, 138.1], [1.8, 135.6], [9.5, 132.6], [16.8, 128.8], [23.8, 124.4], [30.9, 120.2], [38.3, 116.5], [46.1, 113.9], [54.3, 113.0], [62.6, 113.0], [70.9, 113.0], [79.1, 112.1], [87.1, 110.2], [94.9, 107.6], [102.3, 103.9], [109.1, 99.2], [115.2, 93.6], [120.4, 87.2], [124.6, 80.1], [128.0, 72.6], [130.6, 64.7], [132.2, 56.6], [132.5, 48.4], [132.3, 40.1], [131.1, 31.9], [128.8, 24.0], [125.6, 16.4], [121.4, 9.3], [116.3, 2.8], [110.8, -3.4], [105.1, -9.4], [99.1, -15.1], [93.6, -21.2], [89.0, -28.1], [85.2, -35.4], [82.1, -43.1], [79.8, -51.0], [78.0, -59.1], [75.9, -67.1], [73.4, -74.9], [70.3, -82.6], [66.3, -89.8], [61.9, -96.8], [57.1, -103.6], [51.8, -109.9], [45.8, -115.5], [39.3, -120.7], [32.5, -125.4], [25.3, -129.4], [17.8, -132.8], [10.1, -135.7], [2.1, -137.9], [-6.1, -138.9]].map(([x, y]) => [-15 + (x + 15) * (1 - 0.13 * glatko(-30, 120, y)), y]);
+  const C = [-15, 15], DNO = 140, M = 180;
+  const KUT = i => -Math.PI / 2 + (i / M) * 2 * Math.PI;   // od vrha, u smjeru kazaljke
+  // osnovni polumjer opuštenog tijela u svakom smjeru (zraka iz središta)
+  const R0 = Array.from({ length: M }, (_, i) => {
+    const a = KUT(i), dx = Math.cos(a), dy = Math.sin(a); let best = 0;
+    for (let j = 0; j < OBRIS.length; j++) {
+      const p = OBRIS[j], q = OBRIS[(j + 1) % OBRIS.length];
+      const ex = q[0] - p[0], ey = q[1] - p[1], wx = p[0] - C[0], wy = p[1] - C[1];
+      const den = dx * ey - dy * ex; if (Math.abs(den) < 1e-9) continue;
+      const t = (wx * ey - wy * ex) / den, u = (wx * dy - wy * dx) / den;
+      if (t > 0 && u >= 0 && u <= 1) best = Math.max(best, t);
+    }
+    return best;
+  });
+  // pogled sprijeda: tijelo je simetrično oko svoje osi (x = -15)
+  { const sim = R0.map((r, i) => (r + R0[(M - i) % M]) / 2); sim.forEach((r, i) => { R0[i] = r; }); }
+  const smjerOd = p => Math.atan2(p[1] - C[1], p[0] - C[0]);
+  const kutnaUdalj = (a, b) => { let d = a - b; while (d > Math.PI) d -= 2 * Math.PI; while (d < -Math.PI) d += 2 * Math.PI; return d; };
+  // tri brežuljka na dnu (smjerovi izmjereni iz obrisa)
+  const BREZ = [43, 55, 67].map(j => smjerOd(OBRIS[j]));
+  const smax = (a, b, k) => { const h = Math.max(k - Math.abs(a - b), 0) / k; return Math.max(a, b) + h * h * k * 0.25; };
+  const R0u = a => { const x = ((a + Math.PI / 2) / (2 * Math.PI)) * M; const i = Math.floor(x), u = x - i; return R0[((i % M) + M) % M] * (1 - u) + R0[(((i + 1) % M) + M) % M] * u; };
+
+  // RUKA = deblji kratki "valjak" od 3 kruga, ukorijenjen ispod kože.
+  // rame: smjer iz središta (°, 0 = desno, + = dolje); kut: smjer ruke; duljina: koliko izlazi; debljina: polumjer.
+  // Granice: ruka nikad ne smije biti tanka ni duga.
+  const SPOJ = 24;   // koliko se mekano koža popunjava između ruke i tijela
+  const RUKA_GRANICE = { debljina: [24, 32], duljina: [0, 92] };
+  function rukaPolumjer(a, ruka) {
+    const ps = ruka.rame * Math.PI / 180, ka = ruka.kut * Math.PI / 180;
+    const rb = R0u(ps) - ruka.uvuceno;
+    const B = [C[0] + Math.cos(ps) * rb, C[1] + Math.sin(ps) * rb];
+    const dx = Math.cos(a), dy = Math.sin(a);
+    let r = -1e9;
+    for (const k of [0, 0.5, 1]) {
+      const Q = [B[0] + Math.cos(ka) * ruka.duljina * k, B[1] + Math.sin(ka) * ruka.duljina * k];
+      const qx = Q[0] - C[0], qy = Q[1] - C[1];
+      const tp = qx * dx + qy * dy, dperp = Math.abs(qx * dy - qy * dx), rho = ruka.debljina * (k === 1 ? 0.96 : 1);
+      const s = dperp / rho;
+      const v = s < 1 ? tp + rho * Math.sqrt(1 - s * s) : tp - rho * (s - 1) * 1.6;
+      r = smax(r, v, 6);
+    }
+    return r;
+  }
+  const zrcali = r => ({ ...r, rame: 180 - r.rame, kut: 180 - r.kut });
+
+  // ---- spajanje tijela i ruku kao dvije kapi (glatki minimum udaljenosti) ----
+  const smin = (a, b, k) => { const h = Math.max(k - Math.abs(a - b), 0) / k; return Math.min(a, b) - h * h * k * 0.25; };
+  const KORAK = 5, GX0 = -215, GY0 = -215, GW = Math.ceil(430 / KORAK) + 1, GH = Math.ceil(410 / KORAK) + 1;
+  const polje = new Float32Array(GW * GH);
+  function udaljOdTijela(px, py, tijelo, rU) {
+    let best = 1e9;
+    for (let i = 0; i < tijelo.length; i++) {
+      const a = tijelo[i], b = tijelo[(i + 1) % tijelo.length];
+      const ex = b[0] - a[0], ey = b[1] - a[1], wx = px - a[0], wy = py - a[1];
+      const t = Math.max(0, Math.min(1, (wx * ex + wy * ey) / (ex * ex + ey * ey)));
+      const dx = wx - ex * t, dy = wy - ey * t, d = dx * dx + dy * dy;
+      if (d < best) best = d;
+    }
+    const dd = Math.sqrt(best);
+    const ang = Math.atan2(py - C[1], px - C[0]);
+    return Math.hypot(px - C[0], py - C[1]) < rU(ang) ? -dd : dd;
+  }
+  function udaljOdRuke(px, py, ruka) {
+    const ps = ruka.rame * Math.PI / 180, ka = ruka.kut * Math.PI / 180;
+    const rb = R0u(ps) - ruka.uvuceno;
+    const A = [C[0] + Math.cos(ps) * rb, C[1] + Math.sin(ps) * rb];
+    const B = [A[0] + Math.cos(ka) * ruka.duljina, A[1] + Math.sin(ka) * ruka.duljina];
+    const ex = B[0] - A[0], ey = B[1] - A[1], wx = px - A[0], wy = py - A[1];
+    const L2 = ex * ex + ey * ey;
+    const t = L2 > 0 ? Math.max(0, Math.min(1, (wx * ex + wy * ey) / L2)) : 0;
+    return Math.hypot(wx - ex * t, wy - ey * t) - ruka.debljina * (1 - 0.06 * t);
+  }
+  function obrisIzPolja() {
+    // marching squares -> najdulja zatvorena petlja
+    const veze = new Map(), tocka = new Map();
+    const kljucH = (i, j) => j * GW + i, kljucV = (i, j) => GW * GH + j * GW + i;
+    const v = (i, j) => polje[j * GW + i];
+    const tH = (i, j) => { const a = v(i, j), b = v(i + 1, j), u = a / (a - b); return [GX0 + (i + u) * KORAK, GY0 + j * KORAK]; };
+    const tV = (i, j) => { const a = v(i, j), b = v(i, j + 1), u = a / (a - b); return [GX0 + i * KORAK, GY0 + (j + u) * KORAK]; };
+    const spoji = (k1, p1, k2, p2) => {
+      tocka.set(k1, p1); tocka.set(k2, p2);
+      (veze.get(k1) || veze.set(k1, []).get(k1)).push(k2);
+      (veze.get(k2) || veze.set(k2, []).get(k2)).push(k1);
+    };
+    for (let j = 0; j < GH - 1; j++) for (let i = 0; i < GW - 1; i++) {
+      const a = v(i, j) < 0, b = v(i + 1, j) < 0, c = v(i + 1, j + 1) < 0, d = v(i, j + 1) < 0;
+      const slucaj = (a ? 8 : 0) | (b ? 4 : 0) | (c ? 2 : 0) | (d ? 1 : 0);
+      if (slucaj === 0 || slucaj === 15) continue;
+      const G = [kljucH(i, j), () => tH(i, j)], D = [kljucV(i + 1, j), () => tV(i + 1, j)],
+            Do = [kljucH(i, j + 1), () => tH(i, j + 1)], L = [kljucV(i, j), () => tV(i, j)];
+      const par = (x, y) => spoji(x[0], x[1](), y[0], y[1]());
+      switch (slucaj) {
+        case 1: case 14: par(L, Do); break;
+        case 2: case 13: par(Do, D); break;
+        case 3: case 12: par(L, D); break;
+        case 4: case 11: par(G, D); break;
+        case 6: case 9:  par(G, Do); break;
+        case 7: case 8:  par(L, G); break;
+        case 5: par(L, G); par(Do, D); break;
+        case 10: par(G, D); par(L, Do); break;
+      }
+    }
+    let najbolja = [], vidjeno = new Set();
+    for (const start of veze.keys()) {
+      if (vidjeno.has(start)) continue;
+      const petlja = []; let prev = null, cur = start;
+      while (cur !== undefined && !vidjeno.has(cur)) {
+        vidjeno.add(cur); petlja.push(tocka.get(cur));
+        const n = veze.get(cur); const next = n[0] !== prev ? n[0] : n[1];
+        prev = cur; cur = next;
+      }
+      if (petlja.length > najbolja.length) najbolja = petlja;
+    }
+    return najbolja;
+  }
+
+  // ---------- LICE ----------
+  // =====================================================================
+  //  LICE = nekoliko neovisnih "mišića"; izraz je samo njihova kombinacija.
+  // =====================================================================
+  const LICE = { oci: [[-30, -58], [36, -58]], obrve: [[-32, -94], [38, -94]], usta: [3, -24] };
+  const NEUTRALNO = {
+    otvL: 1, otvD: 1,          // gornji kapak: 1 = otvoreno, 0 = zatvoreno
+    smijehL: 0.12, smijehD: 0.12, // donji kapak / obraz: 1 = oko postane ^
+    kapak: 0,                  // nagib gornjeg kapka: + = odlučno (unutra niže), − = nježno
+    zjenica: 1,                // veličina zjenice
+    gledX: 0, gledY: 0,        // pogled koji traži izraz (dodaje se slobodnom pogledu)
+    obrvaL: 0, obrvaD: 0,      // visina obrva (− = gore)
+    obrvaNagib: 0,             // + = unutarnji krajevi gore (suosjećanje), − = dolje (odlučnost)
+    osmijeh: 1, otvor: 0, sirina: 1, kosina: 0,
+    rumenilo: 0,
+  };
+  const IZRAZI = {
+    osmijeh:     { opis: 'osnovni, prijateljski' },
+    veselo:      { opis: 'otvoren osmijeh', smijehL: 0.35, smijehD: 0.35, osmijeh: 1.1, otvor: 0.45, obrvaL: -4, obrvaD: -4 },
+    smijeh:      { opis: 'smije se na sav glas', smijehL: 1, smijehD: 1, osmijeh: 1.15, otvor: 1, sirina: 1.1, obrvaL: -6, obrvaD: -6, rumenilo: 0.7 },
+    namig:       { opis: 'zaigrano drzak', smijehD: 1, otvD: 0.85, obrvaD: 4, obrvaL: -8, osmijeh: 1.05, kosina: 0.6, smijehL: 0.2 },
+    znatizelja:  { opis: 'jedna obrva gore', obrvaD: -13, obrvaL: 2, zjenica: 1.12, osmijeh: 0.5, otvor: 0.18, sirina: 0.7, kosina: 0.4, smijehL: 0.05, smijehD: 0.05 },
+    iznenaden:   { opis: 'oho!', otvL: 1.12, otvD: 1.12, smijehL: 0, smijehD: 0, zjenica: 0.75, obrvaL: -15, obrvaD: -15, osmijeh: 0.25, otvor: 0.95, sirina: 0.5 },
+    razmislja:   { opis: 'hmm…', gledX: 0.6, gledY: -0.75, obrvaL: -10, obrvaD: 2, osmijeh: 0.12, sirina: 0.55, kosina: -0.9, smijehL: 0.1, smijehD: 0.1, otvL: 0.95, otvD: 0.95 },
+    ponosan:     { opis: 'zadovoljan sobom', smijehL: 1, smijehD: 1, osmijeh: 1.2, obrvaL: -3, obrvaD: -3, rumenilo: 0.6 },
+    suosjecanje: { opis: 'nakon pogreške: nježan, nikad razočaran', obrvaNagib: 1, obrvaL: -3, obrvaD: -3, osmijeh: 0.6, sirina: 0.8, smijehL: 0.22, smijehD: 0.22, kapak: -0.5 },
+    odlucan:     { opis: '"ajmo!"', obrvaNagib: -1, obrvaL: 3, obrvaD: 3, kapak: 0.5, smijehL: 0.25, smijehD: 0.25, osmijeh: 1, otvor: 0.35, sirina: 1.05, kosina: 0.25 },
+    sramezljiv:  { opis: 'pohvaljen pa se srami', gledX: -0.6, gledY: 0.6, rumenilo: 1, osmijeh: 0.75, sirina: 0.6, smijehL: 0.4, smijehD: 0.4, obrvaNagib: 0.6 },
+    ne_znam:     { opis: 'tko zna…', obrvaL: -10, obrvaD: -10, obrvaNagib: 0.7, osmijeh: 0.3, sirina: 0.75, kosina: -0.5 },
+    pospan:      { opis: 'teški kapci', otvL: 0.5, otvD: 0.5, smijehL: 0, smijehD: 0, obrvaL: 3, obrvaD: 3, osmijeh: 0.45, sirina: 0.7 },
+    zijeva:      { opis: 'zijevne', otvL: 0.08, otvD: 0.08, smijehL: 0.5, smijehD: 0.5, obrvaNagib: 0.5, osmijeh: 0.2, otvor: 1.2, sirina: 0.55 },
+    gleda_desno: { opis: 'pogled prema onome što pokazuje', gledX: 0.95, gledY: 0.1, obrvaL: -6, obrvaD: -6, osmijeh: 1.05, otvor: 0.4, smijehL: 0.25, smijehD: 0.25 },
+  };
+  for (const k in IZRAZI) IZRAZI[k] = { ...NEUTRALNO, ...IZRAZI[k] };
+  const F = { ...NEUTRALNO };                      // trenutno stanje lica
+  const BRZINA = { otvL: 14, otvD: 14, smijehL: 10, smijehD: 10, kapak: 10, zjenica: 8, gledX: 14, gledY: 14,
+                   obrvaL: 11, obrvaD: 11, obrvaNagib: 10, osmijeh: 8, otvor: 10, sirina: 8, kosina: 8, rumenilo: 3 };
+
+  // oko: krug ograničen gornjim kapkom (ravna crta) i donjim kapkom (luk koji se diže kod osmijeha)
+  function oko(el, i, otv, smijeh, gx, gy) {
+    const [cx, cy] = LICE.oci[i], r = 22, unutra = i ? -1 : 1;   // unutarnji kut oka je prema nosu
+    const vrh = x => cy - r + 2 * r * (1 - otv) + F.kapak * 7 * ((x - cx) / r) * unutra;
+    const dno = x => cy + r - smijeh * 2 * r * 0.98 * (1 - 0.55 * ((x - cx) / r) ** 2);
+    const pts = [];
+    for (let k = 0; k < 48; k++) {
+      const a = k / 48 * Math.PI * 2, x = cx + r * Math.cos(a);
+      let y = cy + r * Math.sin(a);
+      y = Math.max(y, vrh(x)); y = Math.min(y, Math.max(dno(x), vrh(x)));
+      pts.push([x, y]);
+    }
+    const oblik = 'M' + pts.map(p => f(p[0]) + ' ' + f(p[1])).join('L') + 'Z';
+    const bj = el.querySelector('.bjelo'), zj = el.querySelector('.zjenica'), zatv = el.querySelector('.zatvoreno');
+    bj.setAttribute('d', oblik);
+    document.querySelector(i ? '#klipOkoD .okoKlip' : '#klipOkoL .okoKlip').setAttribute('d', oblik);
+    el.querySelector('.sar').setAttribute('r', f(13 * F.zjenica));
+    // koliko je oko otvoreno u sredini; zjenica sjeda u vidljivi dio oka
+    const gornji = Math.max(vrh(cx), cy - r), donji = Math.min(dno(cx), cy + r), h = donji - gornji;
+    const sredina = ogr(cy + 3, gornji + 13 * F.zjenica * 0.55, donji - 13 * F.zjenica * 0.35);
+    zj.setAttribute('transform', `translate(${f(cx + unutra * 2 + gx * 7)} ${f(sredina + gy * Math.min(6, h * 0.2))})`);
+    const vid = glatko(3, 9, h);
+    bj.setAttribute('opacity', f(vid)); zj.setAttribute('opacity', f(vid)); zatv.setAttribute('opacity', f(1 - vid));
+    const odSmijeha = smijeh > 1 - otv + 0.15;     // zatvorio ga osmijeh (^) ili kapak (‿)
+    zatv.setAttribute('d', odSmijeha
+      ? `M${cx - 17} ${f(cy + 4)}Q${cx} ${f(cy - 14)} ${cx + 17} ${f(cy + 4)}`
+      : `M${cx - 19} ${f(cy)}Q${cx} ${f(cy + 7)} ${cx + 19} ${f(cy)}`);
+  }
+  function obrva(el, i) {
+    const [x, y] = LICE.obrve[i], unutra = i ? -1 : 1, h = (i ? F.obrvaD : F.obrvaL) - Math.max(F.smijehL, F.smijehD) * 3;
+    const xu = x + 14 * unutra, xv = x - 14 * unutra;
+    const yu = y + h - F.obrvaNagib * 7, yv = y + h + F.obrvaNagib * 2;
+    el.setAttribute('d', `M${f(xv)} ${f(yv)}Q${x} ${f(y + h - 7 - F.obrvaNagib * 2)} ${f(xu)} ${f(yu)}`);
+  }
+  function usta() {
+    const [x, y] = LICE.usta, w = 25 * F.sirina, o = F.otvor, k = F.kosina * 6;
+    const dolje = 26 * F.osmijeh + o * 24;
+    const gore = 8 * F.osmijeh * (1 - Math.min(o, 1) * 0.85) - o * Math.max(0, 1 - F.osmijeh) * 12;
+    const d = `M${f(x - w)} ${f(y + k)}Q${x} ${f(y + dolje)} ${f(x + w)} ${f(y - k)}Q${x} ${f(y + gore)} ${f(x - w)} ${f(y + k)}Z`;
+    $('ustaOblik').setAttribute('d', d); $('ustaKlip').setAttribute('d', d);
+    const j = $('jezik'); j.setAttribute('cx', x); j.setAttribute('cy', f(y + dolje * 0.5));
+    j.setAttribute('rx', f(w * 0.5)); j.setAttribute('ry', f(Math.max(0, o - 0.35) * 12));
+  }
+
+  // trenutni osnovni izraz (gumbi) i izraz koji nameće gesta
+  let osnovniIzraz = 'osmijeh', izrazGeste = null, zadnjiIzraz = 'osmijeh';
+  let mikroOd = -1e9, sljedeciMikro = performance.now() + 5000;
+
+  // ---------- pogled ----------
+  let pokX = 0, pokY = 0, pokVrijeme = -1e9;
+  addEventListener('pointermove', e => {
+    const pt = scena.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+    const p = pt.matrixTransform(scena.getScreenCTM().inverse()); pokX = p.x; pokY = p.y; pokVrijeme = performance.now();
+  });
+  // OKRET tijela: -1 = okrenut nama ulijevo, 0 = sprijeda, +1 = udesno
+  let okret = 0, ciljOkret = 0, sljedeciOkret = performance.now() + 3500, fiksniOkret = null;
+  const OKRET_MAKS = 32;      // stupnjeva kod okret = ±1 (više od toga lice izlazi preko ruba glave)
+  const OS_X = -15, GLAVA_R = 100, LICE_POMAK = -18;   // lice je na osi tijela
+  function okreniDio(el, xd) {          // xd = središte dijela u koordinatama crteža lica
+    const xf = xd + LICE_POMAK, fi = Math.asin(ogr((xf - OS_X) / GLAVA_R, -0.95, 0.95));
+    const th = okret * OKRET_MAKS * Math.PI / 180, nf = ogr(fi + th, -1.45, 1.45);
+    const nx = OS_X + GLAVA_R * Math.sin(nf), sk = Math.max(0.15, Math.cos(nf) / Math.cos(fi));
+    el.setAttribute('transform', `translate(${f(nx)} 0) scale(${sk.toFixed(3)} 1) translate(${f(-xd)} 0)`);
+  }
+  let gx = 0, gy = 0, ciljGX = 0, ciljGY = 0, sljedeciPogled = performance.now() + 3000;
+  let treptajOd = -1e9, sljedeciTreptaj = performance.now() + 2000;
+
+  // =====================================================================
+  //  GESTE — niz ključnih poza (t = udio trajanja). Svaka poza nasljeđuje
+  //  prethodnu, a prijelazi su glatki (polako kreće, polako staje).
+  //  D / L = desna / lijeva ruka (lijeva je zrcalna), obje = obje ruke.
+  //  gnjec: + spljošti, − izduži · skok: odlebdi gore · nagib: vrh tijela u stranu · okret: −1…1
+  // =====================================================================
+  const O = { rame: 14, kut: 40, duljina: 8, debljina: 27, uvuceno: 24 };          // ruka u odmoru
+  const RUKA = {
+    gore:     { rame: -4, kut: -72, duljina: 90, debljina: 25, uvuceno: 30 },
+    van:      { rame: 6, kut: -8, duljina: 50, debljina: 27, uvuceno: 24 },
+    uvucena:  { rame: 14, kut: 40, duljina: 0, debljina: 24, uvuceno: 34 },
+    pokazuje: { rame: 0, kut: -16, duljina: 72, debljina: 24, uvuceno: 28 },
+    prst:     { rame: -6, kut: -58, duljina: 62, debljina: 24, uvuceno: 28 },   // podignut "prst": hmm…
+    sleg:     { rame: -10, kut: -48, duljina: 32, debljina: 26, uvuceno: 27 },
+    sake:     { rame: -2, kut: -62, duljina: 58, debljina: 26, uvuceno: 28 },
+  };
+  const GESTE = {
+    pozdrav: { opis: 'maše', ms: 2700, lice: [[0.05, 'veselo'], [0.82, 'osmijeh']], k: [
+      { t: 0.08, gnjec: 0.04 },
+      { t: 0.24, D: RUKA.gore, okret: -0.4, gnjec: -0.03 },
+      { t: 0.33, D: { kut: -50 } }, { t: 0.43, D: { kut: -74 } }, { t: 0.53, D: { kut: -50 } }, { t: 0.63, D: { kut: -74 } },
+      { t: 0.74, D: { kut: -64 } }, { t: 0.82 } ] },
+    juhu: { opis: 'skok od sreće, obje ruke gore', ms: 1700, lice: [[0.02, 'odlucan'], [0.3, 'smijeh'], [0.88, 'veselo']], k: [
+      { t: 0.16, obje: RUKA.uvucena, gnjec: 0.11 },
+      { t: 0.40, obje: RUKA.gore, skok: 42, gnjec: -0.09 },
+      { t: 0.60, skok: 0, gnjec: 0.08 },
+      { t: 0.72, gnjec: -0.02 }, { t: 0.82, gnjec: 0 } ] },
+    pokazuje: { opis: 'pokazuje udesno (na oblačić, gumb…)', ms: 2400, lice: [[0.12, 'gleda_desno'], [0.8, 'osmijeh']], k: [
+      { t: 0.10, gnjec: 0.03, okret: -0.1 },
+      { t: 0.30, D: RUKA.pokazuje, okret: 0.5, nagib: 8 },
+      { t: 0.38, D: { duljina: 80 } },
+      { t: 0.46, D: { duljina: 72 } }, { t: 0.80 } ] },
+    razmislja: { opis: 'hmm… podigne prst, nagne glavu', ms: 3000, lice: [[0.12, 'razmislja'], [0.86, 'osmijeh']], k: [
+      { t: 0.24, D: RUKA.prst, okret: 0.25, nagib: -8 },
+      { t: 0.34, D: { duljina: 54 } }, { t: 0.42, D: { duljina: 62 } }, { t: 0.50, D: { duljina: 54 } }, { t: 0.58, D: { duljina: 62 } },
+      { t: 0.80, nagib: -10 } ] },
+    ne_znam: { opis: 'slegne ramenima', ms: 1400, lice: [[0.08, 'ne_znam'], [0.8, 'osmijeh']], k: [
+      { t: 0.25, obje: RUKA.sleg, gnjec: 0.05, skok: 5 },
+      { t: 0.60 } ] },
+    protegne: { opis: 'lijeno se protegne', ms: 3000, lice: [[0.15, 'zijeva'], [0.72, 'pospan'], [0.92, 'osmijeh']], k: [
+      { t: 0.15, gnjec: 0.04 },
+      { t: 0.50, obje: { ...RUKA.van, duljina: 58, kut: -20 }, gnjec: -0.09, skok: 6 },
+      { t: 0.70 }, { t: 0.85, gnjec: 0.03, skok: 0 } ] },
+    ajmo: { opis: 'bodri: "ajmo!"', ms: 1600, lice: [[0.04, 'odlucan'], [0.78, 'veselo'], [0.95, 'osmijeh']], k: [
+      { t: 0.10, gnjec: 0.05 },
+      { t: 0.22, D: { ...RUKA.gore, duljina: 72, kut: -62 }, skok: 8, gnjec: -0.04, okret: -0.15 },
+      { t: 0.34, D: { duljina: 38 }, skok: 0, gnjec: 0.04 },
+      { t: 0.46, D: { duljina: 78 }, skok: 10, gnjec: -0.05 },
+      { t: 0.60, D: { duljina: 45 }, skok: 0, gnjec: 0.02 }, { t: 0.72 } ] },
+    sramezljiv: { opis: 'pohvaljen pa se srami', ms: 2600, lice: [[0.1, 'sramezljiv'], [0.86, 'osmijeh']], k: [
+      { t: 0.25, obje: RUKA.uvucena, gnjec: 0.06, okret: 0.5, nagib: 6 },
+      { t: 0.80 } ] },
+    evo_me: { opis: 'pojavi se: čučne pa iskoči', ms: 1400, lice: [[0.04, 'iznenaden'], [0.4, 'smijeh'], [0.82, 'veselo']], k: [
+      { t: 0.20, obje: RUKA.uvucena, gnjec: 0.12 },
+      { t: 0.45, obje: RUKA.sake, skok: 30, gnjec: -0.07 },
+      { t: 0.68, skok: 0, gnjec: 0.06 }, { t: 0.80, gnjec: 0 } ] },
+  };
+  // pretvori ključeve u potpune poze (svaka nasljeđuje prethodnu; početak i kraj = odmor)
+  const ODMOR_POZA = { D: { ...O }, L: { ...O }, okret: 0, gnjec: 0, skok: 0, nagib: 0 };
+  for (const G of Object.values(GESTE)) {
+    let pret = ODMOR_POZA; const lista = [{ t: 0, ...ODMOR_POZA }];
+    for (const k of G.k) {
+      const p = { t: k.t, D: { ...pret.D, ...(k.obje || {}), ...(k.D || {}) }, L: { ...pret.L, ...(k.obje || {}), ...(k.L || {}) },
+                  okret: k.okret ?? pret.okret, gnjec: k.gnjec ?? pret.gnjec, skok: k.skok ?? pret.skok, nagib: k.nagib ?? pret.nagib };
+      lista.push(p); pret = p;
+    }
+    lista.push({ t: 1, ...ODMOR_POZA });
+    G.poze = lista;
+  }
+  const lagano = u => u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+  const lr = (a, b, u) => a + (b - a) * u;
+  const lrRuka = (a, b, u) => { const o = {}; for (const k in a) o[k] = lr(a[k], b[k], u); return o; };
+  function pozaGeste(G, u) {
+    const P = G.poze; let i = 0; while (i < P.length - 2 && P[i + 1].t <= u) i++;
+    const a = P[i], b = P[i + 1], w = lagano(ogr((u - a.t) / Math.max(1e-6, b.t - a.t), 0, 1));
+    let iz = null; for (const [tt, ime] of G.lice || []) if (u >= tt) iz = ime;
+    return { D: lrRuka(a.D, b.D, w), L: lrRuka(a.L, b.L, w), okret: lr(a.okret, b.okret, w), gnjec: lr(a.gnjec, b.gnjec, w),
+             skok: lr(a.skok, b.skok, w), nagib: lr(a.nagib, b.nagib, w), aktivna: true, izraz: iz };
+  }
+
+  // ---------- tko pokreće geste ----------
+  let gestaIme = 'pozdrav', gestaOd = performance.now() + 500, sljedecaGesta = performance.now() + 8000, slobodno = true;
+  const SAM_OD_SEBE = ['pozdrav', 'razmislja', 'ne_znam', 'protegne', 'ajmo', 'pokazuje'];
+  function pokreni(ime) { gestaIme = ime; gestaOd = performance.now(); sljedecaGesta = performance.now() + GESTE[ime].ms + 5000 + Math.random() * 4000; oznaci(); }
+  let gesta = function (sad) {
+    if (slobodno && sad > sljedecaGesta) pokreni(SAM_OD_SEBE[Math.floor(Math.random() * SAM_OD_SEBE.length)]);
+    const u = (sad - gestaOd) / GESTE[gestaIme].ms;
+    if (u >= 1 && gumbi.length) oznaci(true);
+    return u >= 0 && u < 1 ? pozaGeste(GESTE[gestaIme], u) : {};
+  };
+  tijelo.addEventListener('pointerdown', () => pokreni('juhu'));
+  // gumbi
+  const gumbi = [], kutija = $('geste');
+  for (const ime in GESTE) {
+    const b = document.createElement('button'); b.textContent = ({ razmislja: 'razmišlja', sramezljiv: 'sramežljiv' })[ime] || ime.replace('_', ' '); b.title = GESTE[ime].opis;
+    b.addEventListener('click', () => pokreni(ime)); kutija.appendChild(b); gumbi.push([ime, b]);
+  }
+  const bS = document.createElement('button'); bS.textContent = 'sam od sebe'; bS.title = 'povremeno sam odabere gestu';
+  bS.addEventListener('click', () => { slobodno = !slobodno; oznaci(); }); kutija.appendChild(bS);
+  const NAZIV = { razmislja: 'razmišlja', sramezljiv: 'sramežljiv', iznenaden: 'iznenađen', znatizelja: 'znatiželja',
+                  suosjecanje: 'suosjećanje', odlucan: 'odlučan', zijeva: 'zijeva', gleda_desno: 'gleda desno', ne_znam: 'ne znam' };
+  const gumbiIzraza = [];
+  for (const ime in IZRAZI) {
+    const b = document.createElement('button'); b.textContent = NAZIV[ime] || ime; b.title = IZRAZI[ime].opis;
+    b.addEventListener('click', () => { osnovniIzraz = ime; oznaci(); }); $('izrazi').appendChild(b); gumbiIzraza.push([ime, b]);
+  }
+  function oznaci(gotovo) {
+    for (const [ime, b] of gumbiIzraza) b.setAttribute('aria-pressed', ime === osnovniIzraz);
+    for (const [ime, b] of gumbi) b.setAttribute('aria-pressed', !gotovo && ime === gestaIme);
+    bS.setAttribute('aria-pressed', slobodno);
+  }
+  if (location.hash.startsWith('#poza=')) {
+    const [ime, u, ok] = location.hash.slice(6).split(':');
+    gesta = () => GESTE[ime] ? pozaGeste(GESTE[ime], +u) : {};
+    if (ok !== undefined) fiksniOkret = +ok;
+  }
+  let STAT_LICE = false;
+  if (location.hash.startsWith('#izraz=')) { osnovniIzraz = location.hash.slice(7); STAT_LICE = true; slobodno = false; gesta = () => ({}); }
+
+  // ---------- petlja ----------
+  let zadnje = performance.now();
+  function okvir(sad) {
+    const dt = Math.min(0.05, (sad - zadnje) / 1000); zadnje = sad;
+    const t = sad / 1000, amp = smanjeno ? 0.25 : 1;
+
+    // opušteno disanje: polako, duboko
+    const dah = amp * Math.sin(t * 1.1);                 // -1..1
+    let ist = 1 + 0.012 * dah, sx = 1 - 0.009 * dah;   // udah: malo viši i uži
+    const g = gesta(sad);
+    const rukaD = { ...O, ...(g.D || {}) };
+    const rukaL = zrcali({ ...O, ...(g.L || {}) });
+    rukaD.rame += amp * 2 * Math.sin(t * 1.1 + 0.5); rukaL.rame -= amp * 2 * Math.sin(t * 1.1 + 1.7);
+    // okret: sam ponekad pogleda u stranu; geste imaju svoj okret
+    if (sad > sljedeciOkret) {
+      const izbor = [0, 0, 0, -0.35, 0.35, -0.6, 0.6];
+      ciljOkret = izbor[Math.floor(Math.random() * izbor.length)];
+      sljedeciOkret = sad + 3500 + Math.random() * 4500;
+    }
+    const zeljeni = fiksniOkret !== null ? fiksniOkret : (g.aktivna ? g.okret + ciljOkret * 0.2 : ciljOkret);
+    okret += (ogr(zeljeni, -1, 1) - okret) * (fiksniOkret !== null ? 1 : 1 - Math.exp(-dt * (g.aktivna ? 12 : 3)));
+    // ruka na udaljenoj strani djelomično se skrije iza tijela
+    const daleka = okret > 0 ? rukaL : rukaD, ao = Math.abs(okret);
+    const mirna = 1 - ogr((daleka.duljina - 8) / 40, 0, 1);   // skriva se samo ruka u mirovanju
+    daleka.uvuceno += 10 * ao * mirna; daleka.duljina *= 1 - 0.25 * ao * mirna;
+    // koliko su ruke podignute (0..1): ruke vuku tijelo prema gore
+    const gore = r => ogr(-Math.sin(r.kut * Math.PI / 180), 0, 1) * ogr((r.duljina - 8) / 70, 0, 1);
+    const uD = gore(rukaD), uL = gore(rukaL);
+    const lift = ogr(Math.max(uD, uL) * 0.65 + Math.min(uD, uL) * 0.35, 0, 1);
+    ist *= 1 + 0.08 * lift; sx /= Math.sqrt(1 + 0.08 * lift);
+    const gnj = g.gnjec || 0, nagib = g.nagib || 0, skok = g.skok || 0;
+    ist *= 1 - gnj; sx /= Math.sqrt(1 - gnj);           // gnječenje / istezanje (volumen ostaje)
+    for (const r of [rukaD, rukaL]) {
+      r.debljina = ogr(r.debljina, ...RUKA_GRANICE.debljina); r.duljina = ogr(r.duljina, ...RUKA_GRANICE.duljina);
+    }
+    const bb = [amp * 2.5 * Math.sin(t * 0.9), amp * 2.5 * Math.sin(t * 0.9 + 2.1), amp * 2.5 * Math.sin(t * 0.9 + 4.2)];
+    // osnovno tijelo (s brežuljcima) u polarnom obliku
+    const RB = R0.map((r, i) => { const a = KUT(i); BREZ.forEach((ab, j) => { const d = kutnaUdalj(a, ab) / 0.11; r += bb[j] * Math.exp(-d * d / 2); }); return r; });
+    const rU = ang => { const x = ((ang + Math.PI / 2) / (2 * Math.PI)) * M; const i = Math.floor(x), u = x - i; return RB[((i % M) + M) % M] * (1 - u) + RB[(((i + 1) % M) + M) % M] * u; };
+    const tijeloPol = RB.map((r, i) => [C[0] + Math.cos(KUT(i)) * r, C[1] + Math.sin(KUT(i)) * r]);
+    for (let j = 0; j < GH; j++) for (let i = 0; i < GW; i++) {
+      const px = GX0 + i * KORAK, py = GY0 + j * KORAK;
+      let dRD = udaljOdRuke(px, py, rukaD), dRL = udaljOdRuke(px, py, rukaL);
+      let dd;
+      if (Math.min(dRD, dRL) > 60) {           // daleko od ruku: dovoljna je gruba procjena
+        const r = Math.hypot(px - C[0], py - C[1]) - rU(Math.atan2(py - C[1], px - C[0]));
+        dd = Math.abs(r) > 25 ? r : udaljOdTijela(px, py, tijeloPol, rU);
+      } else {
+        dd = udaljOdTijela(px, py, tijeloPol, rU);
+        dd = smin(dd, dRD, SPOJ); dd = smin(dd, dRL, SPOJ);
+      }
+      polje[j * GW + i] = dd;
+    }
+    const pts = obrisIzPolja().map(([x, y]) => [-15 + (x + 15) * sx + (okret * 10 + nagib) * glatko(DNO, -150, y), DNO - (DNO - y) * ist]);
+    const NN = pts.length;
+    let d = `M${f(pts[0][0])} ${f(pts[0][1])}`;
+    for (let i = 0; i < NN; i++) {
+      const p0 = pts[(i - 1 + NN) % NN], p1 = pts[i], p2 = pts[(i + 1) % NN], p3 = pts[(i + 2) % NN];
+      d += `C${f(p1[0] + (p2[0] - p0[0]) / 6)} ${f(p1[1] + (p2[1] - p0[1]) / 6)} ${f(p2[0] - (p3[0] - p1[0]) / 6)} ${f(p2[1] - (p3[1] - p1[1]) / 6)} ${f(p2[0])} ${f(p2[1])}`;
+    }
+    koza.setAttribute('d', d + 'Z');
+    // lice diše zajedno s glavom
+    glava.setAttribute('transform', `translate(${f(-15 * (1 - sx) + okret * 7 + nagib * 0.7)} ${f(DNO * (1 - ist))}) scale(${sx.toFixed(4)} ${ist.toFixed(4)})`);
+
+    const visina = amp * 3 * Math.sin(t * 1.1 - 0.5) - 9 * lift - skok;
+    tijelo.setAttribute('transform', `translate(0 ${f(visina)})`);
+    sjena.setAttribute('rx', f(150 * (1 + visina / 200)));
+
+    // pogled: prati pokazivač kad se miče, inače mirno gleda u tebe i ponekad skrene
+    if (sad - pokVrijeme < 1500) { ciljGX = ogr(pokX / 260, -0.7, 0.7); ciljGY = ogr((pokY + 50) / 260, -0.6, 0.6); }
+    else if (sad > sljedeciPogled) {
+      const r = Math.random();
+      if (r < 0.5) { ciljGX = 0; ciljGY = 0; } else { ciljGX = (Math.random() * 2 - 1) * 0.6; ciljGY = (Math.random() * 2 - 1) * 0.3; }
+      sljedeciPogled = sad + 2500 + Math.random() * 3500;
+    }
+    // pogled skače brzo (kao pravo oko), ne klizi
+    const k = 1 - Math.exp(-dt * 22); gx += (ciljGX - gx) * k; gy += (ciljGY - gy) * k;
+
+    // koji izraz vrijedi sad: gesta ima prednost pred osnovnim
+    const ime = (g.aktivna && g.izraz) || osnovniIzraz;
+    if (ime !== zadnjiIzraz) {
+      const a = IZRAZI[zadnjiIzraz], b = IZRAZI[ime];
+      const razlika = Math.abs(a.otvL - b.otvL) + Math.abs(a.smijehL - b.smijehL) + Math.abs(a.obrvaL - b.obrvaL) / 10 + Math.abs(a.otvor - b.otvor);
+      if (razlika > 0.6 && b.otvL > 0.5 && b.smijehL < 0.8 && !STAT_LICE) treptajOd = sad;   // kod velike promjene trepne
+      zadnjiIzraz = ime;
+    }
+    const C2 = { ...IZRAZI[ime] };
+    // sitni život lica: ponekad kratko podigne obrve
+    if (!STAT_LICE && sad > sljedeciMikro) { mikroOd = sad; sljedeciMikro = sad + 4000 + Math.random() * 6000; }
+    const mu = (sad - mikroOd) / 450;
+    if (mu >= 0 && mu < 1 && !g.aktivna) { const v = Math.sin(mu * Math.PI); C2.obrvaL -= 5 * v; C2.obrvaD -= 5 * v; }
+    for (const key in NEUTRALNO) F[key] += (C2[key] - F[key]) * (STAT_LICE ? 1 : 1 - Math.exp(-dt * BRZINA[key]));
+
+    if (sad > sljedeciTreptaj && !STAT_LICE) { treptajOd = sad; sljedeciTreptaj = sad + 2500 + Math.random() * 4000; }
+    const tu = (sad - treptajOd) / 150, treptaj = tu >= 0 && tu < 1 ? 1 - Math.sin(tu * Math.PI) : 1;
+
+    // pogled: slobodni (pokazivač / lutanje) + ono što izraz traži + okret tijela
+    const imaPogled = IZRAZI[ime].gledX !== 0 || IZRAZI[ime].gledY !== 0;
+    const gX = ogr((STAT_LICE ? 0 : imaPogled ? gx * 0.2 : gx) + F.gledX + okret * 0.5, -1, 1);
+    const gY = ogr((STAT_LICE ? 0 : imaPogled ? gy * 0.2 : gy) + F.gledY, -1, 1);
+    oko($('okoL'), 0, F.otvL * treptaj, F.smijehL, gX, gY);
+    oko($('okoD'), 1, F.otvD * treptaj, F.smijehD, gX, gY);
+    obrva($('obrvaL'), 0); obrva($('obrvaD'), 1);
+    usta();
+    // obrazi: rumenilo ispod očiju
+    [$('obrazL'), $('obrazD')].forEach((el, i) => { const r = F.rumenilo; el.setAttribute('cx', LICE.oci[i][0] + (i ? 4 : -4)); el.setAttribute('cy', LICE.oci[i][1] + 30); el.setAttribute('rx', f(15 * Math.sqrt(r))); el.setAttribute('ry', f(8 * Math.sqrt(r))); el.setAttribute('opacity', f(ogr(r * 6, 0, 1))); });
+    // kad se smije, obrazi dignu cijelo lice malo gore
+    $('lice').setAttribute('transform', `translate(0 ${f(-3 * Math.max(F.smijehL, F.smijehD))})`);
+    const L = LICE;
+    okreniDio($('okoL'), L.oci[0][0]); okreniDio($('okoD'), L.oci[1][0]);
+    okreniDio($('obrvaL'), L.obrve[0][0]); okreniDio($('obrvaD'), L.obrve[1][0]);
+    okreniDio($('usta'), L.usta[0]);
+    okreniDio($('obrazL'), L.oci[0][0]); okreniDio($('obrazD'), L.oci[1][0]);
+    requestAnimationFrame(okvir);
+  }
+  requestAnimationFrame(okvir);
+})();
+</script>
+</body>
+</html>

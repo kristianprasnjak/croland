@@ -61,7 +61,7 @@ Deno.serve(async (req) => {
         price: {
           product_id: product,
           name: 'Croland Plus code — 1 ' + IME[vrsta],
-          description: 'Code for 1 ' + IME[vrsta] + ' of Croland Plus. Redeem within 2 years.',
+          description: 'Code for 1 ' + IME[vrsta] + ' of Croland Plus. Redeem within 1 year.',
           unit_price: { amount: String(poKoduCenti), currency_code: String(cijene.valuta || 'EUR') },
           tax_mode: 'internal',              // cijena već sadrži PDV
           quantity: { minimum: 1, maximum: max },

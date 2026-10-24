@@ -304,6 +304,12 @@
   td.faza.zakljucano { cursor: default; background: var(--tiho); border-style: dashed; }
   td.faza.zakljucano:hover { border-color: var(--rub); }
   td.faza.zakljucano .imeF { color: var(--muted); }
+  /* zaključana: ime i mala kružnica u jednom retku — niža od otključanih */
+  td.faza.zakljucano { padding: 0.625rem; }
+  td.faza .zakRed { display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
+  td.faza .zakRed .lukOkvir { width: 1.375rem; height: 1.375rem; margin: 0; flex: none; }
+  td.faza .zakRed .lukZ circle { stroke-width: 4.5; }
+  td.faza .zakRed .lukBrava { font-size: 0.5rem; }
   td.faza.pretplata { opacity: .7; background: #f4f0e9; border-color: var(--zlatna); }
   td.faza.gotovo { border-color: var(--zelena); }
   td.faza .plusF { font-size: var(--t-xs); color: var(--zlatna); }
@@ -355,6 +361,27 @@
   .plocicaNula.gotovo { background: #eaf3ec; border-color: var(--zelena); }
   .plocicaNula.gotovo .imeF { color: var(--zelena); }
   .plocicaNula.gotovo .bod { color: var(--muted); }
+  /* prijeđena Lesson 0: samo sivkasti natpis u kutu ispod svega, bez okvira */
+  .redNula.tiho { margin: 1.25rem 0 0; }
+  .nulaTiho {
+    border: 0; background: none; padding: 0.25rem 0.125rem; cursor: pointer;
+    font: inherit; font-size: var(--t-2xs); color: var(--muted); opacity: .55;
+    transition: opacity .15s;
+  }
+  .nulaTiho:hover, .nulaTiho:focus-visible { opacity: 1; }
+
+  /* Poziv na sljedeću cjelinu: kratak "udah" ćelije (vidi pokreniPozive) */
+  @keyframes pozivUdah {
+    0%   { scale: 1;    box-shadow: 0 0 0 0 rgba(25,23,19,0); }
+    40%  { scale: 1.06; box-shadow: 0 6px 18px -6px rgba(25,23,19,.22); }
+    100% { scale: 1;    box-shadow: 0 0 0 0 rgba(25,23,19,0); }
+  }
+  .poziv { animation: pozivUdah .7s cubic-bezier(.3,.7,.3,1); position: relative; z-index: 1; }
+  .fazaRed.poziv { background: var(--card); border-radius: var(--rad-m); }
+  @keyframes pozivRub { 0%,100% { border-color: var(--rub); } 40% { border-color: var(--plava); } }
+  @media (prefers-reduced-motion: reduce) {
+    .poziv { animation: pozivRub 1s ease; }
+  }
 
   /* Kartica vježbe stoji na sredini, pa i dva retka iznad nje moraju — inače
      naslov i brojevi vise lijevo od sadržaja na koji se odnose. */
@@ -11262,6 +11289,8 @@
     var o = otkljucanaSlova(), imaSlova = 0;
     ABECEDA.forEach(function (s) { if (o[s]) imaSlova++; });
     var sve = (imaSlova >= ABECEDA.length);
+    if (sve || got) return '<div class="redNula tiho"><button class="nulaTiho" ' +
+      'onclick="idi(\'unit\',\'' + L0_TIP + '\',' + L0_RAZINA + ')">Lección 0</button></div>';
     return '<div class="redNula"><div class="plocicaNula' + (sve || got ? ' gotovo' : '') + '" ' +
       'onclick="idi(\'unit\',\'' + L0_TIP + '\',' + L0_RAZINA + ')">' +
       '<div class="imeF">' + (sve ? '✓ ' : IK('iskra', 'uz')) + 'Lección 0: Bienvenida al croata</div>' +
@@ -11348,12 +11377,12 @@
             pct = n / 4;
           }
           trake.push({ id: id, pct: pct, luk: true });
-          html += '<td class="faza zakljucano" title="' + esc(tipIme(tip) + ' ' + r + ' — bloqueado') + '">' +
-            '<div class="imeF">' + tipIme(tip) + ' ' + r + '</div>' +
+          html += '<td class="faza zakljucano" data-tip="' + tip + '" title="' + esc(tipIme(tip) + ' ' + r + ' — bloqueado') + '">' +
+            '<div class="zakRed"><div class="imeF">' + tipIme(tip) + ' ' + r + '</div>' +
             '<div class="lukOkvir"><svg class="lukZ" viewBox="0 0 36 36" aria-hidden="true">' +
               '<circle class="podloga" cx="18" cy="18" r="15" pathLength="100"/>' +
               '<circle class="puni" id="' + id + '" cx="18" cy="18" r="15" pathLength="100"/></svg>' +
-              '<span class="lukBrava">' + IK('brava') + '</span></div></td>';
+              '<span class="lukBrava">' + IK('brava') + '</span></div></div></td>';
           continue;
         }
         var maks = maksCjeline(tip, r), osv = osvojenoCjeline(tip, r);
@@ -11363,7 +11392,7 @@
         var trebaPretplatu = r >= 2 && imaPristup(tip, r) === 'needsSubscription';
         var klase = 'faza' + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '');
         trake.push({ id: id, pct: maks > 0 ? Math.min(1, osv / maks) : 0 });
-        html += '<td class="' + klase + '" title="' + esc(tipIme(tip) + ' ' + r +
+        html += '<td class="' + klase + '" data-tip="' + tip + '" title="' + esc(tipIme(tip) + ' ' + r +
             (trebaPretplatu ? ' — requiere Croland Plus' : (pun ? ' — completado' : ''))) + '" ' +
           'onclick="pregledCjeline(\'' + tip + '\',' + r + ')">' +
           '<div class="imeF">' + tipIme(tip) + ' ' + r + (pun ? ' ✓' : '') + '</div>' +
@@ -11378,6 +11407,59 @@
     VIEW.innerHTML = html;
     pomakniNaLekciju(prvaNedovrsenaLekcija());
     animirajTrake(trake);
+    pokreniPozive();
+  }
+
+  // ---- Pozivi na sljedeće cjeline ----
+  // Na ekranu Lessons ćelije koje su na redu (prva razina s nečim otključanim i
+  // nedovršenim: Lesson, Vocabulary, Grammar, Practice) redom kratko "udahnu",
+  // sve rjeđe: 2 s, pa +5, +10, +20, +30, +60 s, i tu stane. Test samo ako na
+  // razini nije ostalo ništa drugo. Cjeline iza pretplate se ne ističu.
+  var POZIV_TIMER = null;
+  var POZIV_RAZMACI = [2000, 5000, 10000, 20000, 30000, 60000];
+  function pozivCjeline() {
+    for (var r = 1; r <= MAX_RAZINA; r++) {
+      var popis = [];
+      TIPOVI.forEach(function (tip) {
+        if (!igreCjeline(tip, r).length || !otkljucano(tip, r)) return;
+        if (imaPristup(tip, r) === 'needsSubscription') return;
+        var maks = maksCjeline(tip, r);
+        if (maks > 0 && osvojenoCjeline(tip, r) >= maks) return;
+        popis.push(tip);
+      });
+      var bezTesta = popis.filter(function (t) { return t !== 'Test'; });
+      if (bezTesta.length) return { r: r, tipovi: bezTesta };
+      if (popis.length) return { r: r, tipovi: popis };
+    }
+    return null;
+  }
+  var POZIV_KLJUC = '';
+  function pokreniPozive() {
+    var c = pozivCjeline();
+    var kljuc = c ? c.r + ':' + c.tipovi.join(',') : '';
+    // ponovno iscrtavanje istog ekrana (npr. stigao napredak) ne kreće slijed ispočetka
+    if (POZIV_TIMER && kljuc === POZIV_KLJUC) return;
+    if (POZIV_TIMER) { clearTimeout(POZIV_TIMER); POZIV_TIMER = null; }
+    POZIV_KLJUC = kljuc;
+    if (!c) return;
+    var korijen = VIEW, i = 0;
+    function sljedeci() {
+      if (i >= POZIV_RAZMACI.length) return;
+      POZIV_TIMER = setTimeout(function () {
+        POZIV_TIMER = null;
+        if (!korijen || !korijen.isConnected) return;
+        var tip = c.tipovi[i % c.tipovi.length];
+        var el = korijen.querySelector('table.mreza tr[data-r="' + c.r + '"] td[data-tip="' + tip + '"]') ||
+                 korijen.querySelector('.jedinicaKart[data-r="' + c.r + '"] .fazaRed[data-tip="' + tip + '"]');
+        if (!el) return;   // pogled se promijenio
+        if (!document.hidden) {
+          el.classList.remove('poziv'); void el.offsetWidth; el.classList.add('poziv');
+          el.addEventListener('animationend', function k() { el.classList.remove('poziv'); el.removeEventListener('animationend', k); });
+        }
+        i++; sljedeci();
+      }, POZIV_RAZMACI[i]);
+    }
+    sljedeci();
   }
 
   // ---- Lessons na mobitelu: jedna kartica po razini ----
@@ -11431,7 +11513,7 @@
     var udio = maks > 0 ? Math.min(1, osv / maks) : 0;
     trake.push({ id: id, pct: udio });
     var desno = pun ? IK('kvaka') : (trebaPretplatu ? 'Plus' : (udio > 0 ? Math.round(udio * 100) + '%' : ''));
-    return '<button class="fazaRed' + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '') + '" ' + boja +
+    return '<button class="fazaRed' + (pun ? ' gotovo' : '') + (trebaPretplatu ? ' pretplata' : '') + '" data-tip="' + tip + '" ' + boja +
         ' onclick="pregledCjeline(\'' + tip + '\',' + r + ')">' +
       '<span class="fazaZnak">' + (pun ? IK('kvaka') : ZNAK_TIPA[tip]) + '</span>' +
       '<span class="fazaTekst"><span class="fazaIme">' + IME_TIPA_DUGO[tip] + '</span>' +
@@ -11505,6 +11587,7 @@
     });
     idiNa(sad, false);
     animirajTrake(trake);
+    pokreniPozive();
   }
 
   // ================= PREGLED CJELINE =================
@@ -14569,7 +14652,7 @@
         '<span class="accSklopNas">Códigos para otros</span>' +
         '<span class="accTiho">Regala Plus o compra al por mayor para revender</span></summary>' +
         '<div class="accSklopTijelo"><p class="accTiho" style="margin:0 0 .9rem">Pago único, sin renovación. Cuantos más códigos, ' +
-        'menor es el precio por código. ' + accInfo('Cualquier persona puede canjear un código dentro de los 2 años posteriores a la compra. Los códigos suman tiempo de Plus al que la persona ya tenga. Puedes regalarlos o revenderlos.') + '</p>' +
+        'menor es el precio por código. ' + accInfo('Anyone can redeem a code within 1 year of purchase. Codes add Plus time on top of whatever the person already has. You can give them away or resell them.') + '</p>' +
         accCustom() + '</div></details>';
   }
   function accKodTraka(gost) {
@@ -14957,7 +15040,7 @@
       if (!redovi.length) { okvir.innerHTML = '<p class="accTiho" style="margin:0">Todavía no hay códigos.</p>'; return; }
       var slobodni = redovi.filter(function (r) { return r.stanje === 'slobodan'; }).length;
       var html = '<p class="accTiho" style="margin:0 0 .5rem">' + T_('%1 códigos · %2 sin usar', redovi.length, slobodni) + ' ' +
-        accInfo('Cualquier persona con un código puede canjearlo. Comparte un código o su enlace como quieras; los códigos sin usar son válidos durante 2 años desde la compra.') + '</p>' +
+        accInfo('Anyone with a code can redeem it. Share a code or its link however you like; unused codes stay valid for 1 year from purchase.') + '</p>' +
         '<div class="accTablicaOkvir"><table class="accKodoviT"><thead><tr><th>Código</th><th>Estado</th><th class="accSkrijMob">Puntos</th><th></th></tr></thead><tbody>';
       var zadnjiDan = null;
       redovi.forEach(function (r) {

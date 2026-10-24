@@ -72,7 +72,7 @@ create table if not exists public.kodovi (
   kod text primary key,                       -- CRO-XXXX-XXXX
   kupnja_id uuid references public.kupnje_kodova(id) on delete cascade,
   vrsta text not null check (vrsta in ('tjedan', 'mjesec', 'godina')),
-  vrijedi_za_unos_do timestamptz not null,    -- 2 godine od kupnje
+  vrijedi_za_unos_do timestamptz not null,    -- 1 godina od kupnje (bilo 2, promjena 24. 10. 2026.)
   iskoristio uuid references auth.users(id) on delete set null,
   iskoristeno_at timestamptz,
   ponisten boolean not null default false,    -- povrat novca prije unosa
@@ -351,7 +351,7 @@ begin
       exit when not exists (select 1 from public.kodovi where kod = kandidat);
     end loop;
     insert into public.kodovi (kod, kupnja_id, vrsta, vrijedi_za_unos_do)
-    values (kandidat, kid, p_vrsta, now() + interval '2 years');
+    values (kandidat, kid, p_vrsta, now() + interval '1 year');
     izdano := izdano + 1;
   end loop;
   return izdano;

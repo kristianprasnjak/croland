@@ -8,6 +8,27 @@
 - **Provjereno u NN 55/2026 (18. 10.):** zakon na snazi od 4. 6. 2026., čl. 92.a st. 1, 4 i 6 od 4. 6. 2027. (čl. 70). Pravilnik o polaganju (NN 100/21) mora se uskladiti **do 4. 12. 2026.** (čl. 69 st. 3); tada se očekuje format. Detalji u `USKLADENOST-A11.md`.
 - Ispit provodi oko 90 ovlaštenih ustanova. Četiri vještine + latinica. **Format, bodovi i prag još nisu objavljeni**, pa je probni ispit parametriziran (`A11_FORMAT`) i označen kao neslužben. Pratiti ogledne primjere ustanova.
 
+## Vizija (usklađeno 20. 10.)
+
+**Što je A1.1 u ovoj aplikaciji.** Glavni tečaj (L0–L20) je proizvod za pojedince kojima su engleski, njemački ili španjolski prvi ili drugi jezik: dijaspora, partneri i oni koji se sele. A1.1 je **drugi proizvod u istoj aplikaciji**, s drugim korisnikom (radnik iz treće zemlje, često bez engleskog i bez latinice) i drugim kupcem (poslodavac ili agencija, jer zakon kaže da ispit plaća poslodavac). Dijele račun, Plus, kodove, slike, zvuk, prepoznavanje govora i bucket. Dijele i put kroz aplikaciju (englesku ljusku), a razlikuju se u jeziku: upute u A1.1 su na materinjem jeziku radnika.
+
+**Iz toga slijede četiri pravila:**
+
+1. **Radnik prolazi kroz englesku ljusku, sam** (odluka 21. 10.). Sam napravi račun, potvrdi ga **kodom iz maila koji upisuje u aplikaciju** (ne linkom), ukuca kod `CRO-…` (bez sličnih znakova poput O i 0) i otvori Extras → A1.1, ili karticu A1.1 na naslovnici. Tko ne zna, pita kolegu ili šefa. Posebnih uputa i dubokog linka u modul nema. Radnik ima pristup i ostatku aplikacije (tečaj, igre), što je i argument za poslodavca. Kartica A1.1 zato mora biti prepoznatljiva bez čitanja: vlastita slika i krupno "A1.1".
+2. **Jezik bira sam pri prvom ulasku** (odluka 21. 10.), zastavama i nazivima na vlastitom pismu, bez pogađanja prema postavkama mobitela. Zastave su poredane po očekivanoj čestoći (nepalski, hindski, filipinski, bengalski…), ne abecedno. U temama vrijedi slika i zvuk prije teksta. Upute na materinjem jeziku nisu ukras, nego uvjet da modul uopće radi za ciljanu skupinu.
+3. **Latinica je tema 0.** Zakon traži "poznavanje hrvatskog jezika **i latiničnog pisma**", a ciljana skupina je često ne čita. Glavni tečaj to pretpostavlja, A1.1 ne smije.
+4. **Priprema prije ispita.** Format izlazi tek uz usklađivanje pravilnika (rok 4. 12. 2026.). Do tada vrijedi graditi teme i tematske provjere. Probni ispit ima smisla tek kad je format poznat, a parametriziran je (`ispit` u `teme.json`) samo da se onda ne mijenja kod.
+
+**Kalendar koji to diktira:** obveza vrijedi od 4. 6. 2027., a poslodavci će rješenje tražiti od siječnja 2027. Prodaji (vidi razgovore o prodaji) treba **demo do kraja prosinca 2026.**: nešto što poslodavac može dati jednom radniku na mobitelu.
+
+**Tehnički smjer za banku zadataka:**
+- Zadaci koriste postojeću knjižnicu aplikacije: slike (`PODACI.slike`) i zvukove (`ZVUK`), koje modul čita iz roditelja (isto podrijetlo). Novo se snima postojećim Gemini tijekom, a audio smije biti javan.
+- Tipovi zadataka nose imena postojećih formata gdje se poklapaju (`izbor`, `upis`, `parovi`, `poredak`, `dijalog`). Novi su `obrazac`, `natpis`, `slusanje` (slika ili broj na zvuk) i `govor` (Web Speech kao pomoć, ne kao ocjena).
+- Hrvatski tekst ide u `teme.json`, a upute su ključevi u `upute-XX.tsv`. Isti zadatak tako radi na svakom jeziku bez dupliciranja.
+- Bodova nema (`maks: 0`). Napredak (prođene teme, provjere) ide u `croland-mini-a11` i kasnije služi za uvid poslodavca, uz pristanak.
+
+**Ime aplikacije.** Ako Croland postane drugo ime (Parlentia ili slično), mijenjaju se samo vidljivi tekstovi. Ključevi `crolandA11`, `croland-mini-a11` i `croland.tema` ostaju kakvi jesu, inače se gubi spremljeni napredak.
+
 ## Odluke
 
 | Datum | Odluka |
@@ -22,12 +43,16 @@
 | 7. 10. | Izgled **poput udžbenika / radne bilježnice**, puno slika, malo teksta. |
 | 7. 10. | Prepoznavanje govora (Web Speech API) se koristi kao **pomoć, ne kao ocjena**: snimi, preslušaj, usporedi, samoprocjena. Iza jedne funkcije, da se kasnije može zamijeniti plaćenim sustavom (Whisper, Google STT) preko edge funkcije. |
 | 18. 10. | Dodana tema 0 **Latinica i snalaženje**: zakon traži latinično pismo, a ciljana skupina često ne čita latinicu. Redoslijed za F4: Latinica → Dokumenti (obrazac) → Posao → Natpisi → Zdravlje → Brojevi (s mjesecima). Vidi `USKLADENOST-A11.md`. |
-| 7. 10. | B2B: postojeći kodovi `CRO-XXXX-XXXX` (Custom kupnja). Dodati: link `?redeem=…&a11` ravno u modul i, uz pristanak radnika (isključeno po zadanom), uvid poslodavca u napredak A1.1. |
+| 21. 10. | **Ulaz:** radnik prolazi kroz englesku ljusku sam (račun, potvrda **kodom iz maila**, kod `CRO-…`, Extras → A1.1). Pomoć traži od kolege ili šefa. Bez dubokog linka i bez posebnih uputa za radnika. |
+| 21. 10. | **Jezik:** bira se ručno pri prvom ulasku, zastavama; ne prema postavkama mobitela. |
+| 21. 10. | **Preduvjet za demo:** potvrda registracije kodom (`KOD_U_MAILU`), što traži domenu i Brevo. |
+| 7. 10. | B2B: postojeći kodovi `CRO-XXXX-XXXX` (Custom kupnja). Dodati: link `?redeem=…&a11` ravno u modul i, uz pristanak radnika (isključeno po zadanom), uvid poslodavca u napredak A1.1. *(Link ravno u modul otpao 21. 10.)* |
 
-## Sadržaj: 8 tema
+## Sadržaj: 11 tema
 
 | Tema | Pokriveno u tečaju | Novo |
 |---|---|---|
+| **Latinica i snalaženje** (tema 0, dodano 18. 10.) | L0 pretpostavlja latinicu | abeceda, č ć dž đ lj nj š ž, sricanje imena, tiskana slova za obrasce, *Ne razumijem. Ponovite, molim.* |
 | Osobni podaci, predstavljanje | L2 | formule *Zovem se / Dolazim iz / Živim u / Radim kao* |
 | Brojevi, datum, sat | rasuto, L18 | **cijela tema** |
 | Obitelj | L4 | — |
@@ -62,18 +87,24 @@ Svaka tema je rastvorena stranica radne bilježnice: ilustracija scene, okvir s 
 
 ## Faze
 
+Stari redoslijed (F4 banka na engleskom → F5 audio → F6 ispit → F7 jezični stroj → F8 jezici → F9 B2B) bio je horizontalan: svaki sloj do kraja, pa sljedeći. Prema viziji gore to bi značilo da prva stvar koju radnik može stvarno koristiti stiže na samom kraju. **Od 20. 10. ide okomito:** najprije jedan tanki komad koji radi od linka poslodavca do završene teme na materinjem jeziku, pa se širi.
+
 | Faza | Što | Stanje |
 |---|---|---|
-| F1 | Pristup po igri: `besplatno`, `pristupIgri()`, oznake Free/Plus, "Unlock with Plus", modal s imenom igre | **gotovo 7. 10.** |
-| F2 | Zadnja igra: `PROGRESS.postavke.zadnjaIgra`, traka Continue na Games & Extras i kartica u Quick practice | **gotovo 7. 10.** |
-| F3 | Kostur A1.1: unos, `a11.html`, zastave, dohvat iz bucketa, kartica na naslovnici | **gotovo 18. 10.** (edge funkcija objavljena 18. 10.) |
-| F4 | Banka zadataka (EN upute), nove teme prvo | |
-| F5 | Audio (Gemini skupine), preslušavanje | |
-| F6 | Ispit: kvizovi, varijante, nasumični, govor i pisanje, povijest | |
-| F7 | Jezični stroj (`a11-jezici/`, build, fontovi, RTL, povratni prijevod) | |
-| F8 | Jezici redom | |
-| F9 | B2B: `?redeem=…&a11`, uvid poslodavca uz pristanak | |
-| F10 | Test (ai-tester persona: radnik iz Nepala, mobitel) i objava | |
+| F1 | Pristup po igri (Free/Plus, lokot, modal) | **gotovo 7. 10.** |
+| F2 | Zadnja igra (Continue) | **gotovo 7. 10.** |
+| F3 | Kostur: unos u Extras, `a11.html`, zastave, bucket, kartica na naslovnici, edge funkcija | **gotovo 18. 10.**, objavljeno 19. 10. |
+| **M1** | **Stranica teme**: izgled radne bilježnice i tipovi zadataka (`izbor`, `slusanje`, `upis`, `parovi`, `obrazac`, `natpis`, `govor`), čitanje slika i zvuka iz aplikacije, "Provjeri se" na kraju teme, napredak u stanju. **Slika kartice A1.1** (Extras i naslovnica) s krupnim "A1.1" | |
+| **M2** | **Sadržaj MVP-a**: teme Latinica, Dokumenti (obrazac), Posao, Natpisi, po 20–25 zadataka, i popis rečenica za snimanje | |
+| **M3** | **Audio** za M2 (Gemini skupine, preslušavanje) | |
+| **M4** | **Prvi materinji jezik**: jezični stroj (fontovi, povratni prijevod, provjere) i nepalski kao *beta*; redoslijed zastava po čestoći | |
+| ~~M5~~ | ~~Ulaz za poslodavca `?redeem=…&a11`~~: **otpada 21. 10.**, radnik ulazi sam kroz ljusku | |
+| **M6** | **Test i demo**: ai-tester persona (radnik iz Nepala, Android, bez engleskog), pa jedan stvarni radnik preko poslodavca. Cilj je kraj prosinca 2026. **Preduvjet:** domena → Brevo (SMTP) → predložak s kodom u Supabaseu → `KOD_U_MAILU = true` u `index.html`. Bez toga potvrda ide linkom, a to za radnike ne vrijedi. | |
+| P1 | Ostale teme (Zdravlje, Brojevi s mjesecima, Osobno, Kupovina, Grad, Stanovanje, Obitelj) | |
+| P2 | Probni ispit, **kad izađe pravilnik**: varijante, nasumični, govor i pisanje, povijest | |
+| P3 | Jezici redom (HI, FIL, BN, UZ, UR, AR…) | |
+| P4 | Uvid poslodavca uz pristanak radnika (isključeno po zadanom) | |
+| P5 | Glavni tečaj: mjeseci i datumi (L11 ili L18), obrazac kao vježba | |
 
 ## Napomene uz F1 i F2
 

@@ -26,7 +26,8 @@ Ažurira se nakon svake tvoje odluke. Datum, odluka, posljedica.
 | 3. 10. | Ne „Buy for others" nego **„Custom"**: bira vrstu i broj kodova | Sekcija 3b; mockup |
 | 3. 10. | Kupci kodova: roditelji, prijatelji, učitelji, škole, tvrtke i drugi | L2 zatvoren; L3 (plaćanje računom) ostaje otvoren |
 | 3. 10. | Vrste kodova: **tjedan, mjesec, godina** (bez dnevnog) | K1 zatvoren; mockup bez "Day"; `cjenik.html` još ima dnevnu — zastario |
-| 3. 10. | Rok za unos koda: **2 godine** od kupnje | K2 zatvoren |
+| 3. 10. | Rok za unos koda: **2 godine** od kupnje → **24. 10.: 1 godina** | K2 zatvoren |
+| 24. 10. | **Besplatni pristup za sve ugašen** (`svima_pristup_do` = 24. 10. 2026.). Pristup se daje kodom. | Postavke u bazi |
 | 3. 10. | Cijene 5 / 10 / 60 € su **s PDV-om, iste za sve**; ubuduće mogu rasti | K3 zatvoren; nova sekcija 3c (promjena cijena) |
 | 3. 10. | Kod poskupljenja **postojeći pretplatnici zadržavaju staru cijenu** | C1 zatvoren |
 | 3. 10. | **Samo kartično plaćanje**; državne škole koje ne mogu karticom zasad se ne ciljaju | L3 zatvoren |
@@ -192,7 +193,7 @@ Ako korisnik već ima aktivan Plus iz jednog kanala, ostali kanali **ne nude kup
 - **Postojeći pretplatnici:** dvije mogućnosti (**odluka C1**):
   - **a) zadržavaju staru cijenu** dok ne otkažu (grandfathering). Pošteno, dobro za lojalnost, nema pritužbi.
   - **b) prelaze na novu** uz najavu unaprijed. U EU korisnik mora biti obaviješten prije obnove i mora moći otkazati. Paddle mijenja cijenu na postojećoj pretplati preko API-ja.
-- **Već prodani kodovi se ne mijenjaju.** Kod nosi trajanje, a ne cijenu. Zato je najava poskupljenja ujedno i prodajni poticaj za kodove ("kupi sad po staroj cijeni, iskoristi do 2 godine").
+- **Već prodani kodovi se ne mijenjaju.** Kod nosi trajanje, a ne cijenu. Zato je najava poskupljenja ujedno i prodajni poticaj za kodove ("kupi sad po staroj cijeni, iskoristi do 1 godine").
 - **Promjena stope PDV-a** u nekoj zemlji ne mijenja cijenu (ista za sve, s PDV-om), nego samo tvoj neto iznos iz te zemlje.
 - **Cijene se ne pišu u kod stranice.** Paketi se čitaju iz Paddlea, a osnovice za Custom iz `postavke` u Supabaseu. Poskupljenje je tako promjena jednog retka, bez novog izdanja aplikacije.
 
@@ -463,7 +464,7 @@ Zatvorene odluke su u Dnevniku na vrhu.
 - [ ] Brevo spojen kao SMTP u Supabaseu; predlošci mailova (potvrda, reset lozinke) prevedeni i s brendom
 - [ ] „Forgot password" tok na stranici prijave
 - [ ] Adresa za podršku na domeni (npr. hello@…) — traže je Paddle i Terms
-- [ ] Terms: pretplate i automatska obnova, kodovi (vrijede 2 godine od kupnje, prenosivi, preprodaja dopuštena), povrati preko Paddlea, promjena paketa na kraju razdoblja, **promo kodovi (dopisano u nacrt 7. 10., EN i DE)**
+- [ ] Terms: pretplate i automatska obnova, kodovi (vrijede 1 godinu od kupnje, prenosivi, preprodaja dopuštena), povrati preko Paddlea, promjena paketa na kraju razdoblja, **promo kodovi (dopisano u nacrt 7. 10., EN i DE)**
 - [ ] Privacy: Paddle i Brevo kao obrađivači, Stripe uklonjen, vidljivost nadimka i bodova kupcu koda, izvoz i brisanje, **promo kod pri registraciji (dopisano u nacrt 7. 10., EN i DE)**
 - [ ] Refund policy (Paddle je traži kao zasebnu stranicu)
 - [ ] Nacrte iz `pravni-tekstovi-nacrt/` popuniti (žuta polja: naziv obrta, adresa, OIB, datum, web host), kopirati preko postojećih i dodati `refund.html` u `scripts/build.js`

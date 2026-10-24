@@ -1,6 +1,6 @@
 # Njemački tečaj — plan tečaja
 
-Verzija 1, 28.09.2026. Gradi na `DE-gramaticka-kraljeznica.md` (v3): gramatika, zabrane i fraze
+Verzija 2, 23.10.2026. (v1 28.09.2026.; v2 prenosi prihvaćene prijedloge ‡ iz `jezici-koncept/de.md`, odluka 23.10.2026.) Gradi na `DE-gramaticka-kraljeznica.md` (v4): gramatika, zabrane i fraze
 su tamo; ovdje je **sadržaj**: teme, vokabular, priče, testovi, likovi i kulturni sloj.
 Ovaj dokument je za njemački ono što je `popis lekcija.md` za hrvatski, samo detaljniji,
 jer će po njemu raditi više sesija.
@@ -14,10 +14,10 @@ jer će po njemu raditi više sesija.
 | Razine | Lesson 0 + 20 razina × 5 cjelina = **101 cjelina** |
 | Tempo | 1 razina ≥ 1 tjedan, 25–35 min dnevno → **≈ 21 tjedan** |
 | Vrijeme učenja | ≈ 3,5 h po razini, ≈ 75 h ukupno (+ dnevni izazovi i igre ≈ 90–100 h) |
-| Cilj | **A1 cijeli** (L1–L12) · **jezgra A2** (L13–L20) |
+| Cilj | **A1 (razumijevanje i osnovna produkcija)** (L1–L12) · **jezgra A2, pretežno receptivno** (L13–L20). Ne obećavati spremnost za Start Deutsch 1 bez dodatne prakse govora i pisanja |
 | Vokabular | ≈ **700 lema do kraja A1**, ≈ **1350 do kraja tečaja** (okvirno koliko traže popisi riječi za A1 i A2) |
 | Po razini | A1: 50–65 novih riječi · A2: ≈ 80 novih riječi |
-| Modulni testovi | L12 (kraj A1) · L16 (padeži) · L20 (završni) |
+| Modulni testovi | kratki modul L6 (15–20 min) · L12 (kraj A1) · L16 (padeži) · L20 (završni) |
 
 **Tjedni ritam razine:** Lesson (dan 1–2) · Vocabulary (3) · Grammar (4–5) · Practice (6) · Test (7).
 
@@ -49,6 +49,12 @@ Pravila: imena kratka i izgovorljiva; nijedan lik nije karikatura nacije; *du/Si
 svakog lika prema Anni je stalan (Herr Schulz je *Sie* do L18, kad mu Anna pomogne i on
 ponudi *du* — mali trenutak priče i ujedno lekcija o *duzen*).
 
+Dopuna v2 (23.10.2026.): Annin materinski jezik ne ističe se u tekstovima, jer su sva sučelja ravnopravna
+(polaznik s hrvatskim ili španjolskim sučeljem ne prati „englesku govornicu“). Frau Yilmaz dobiva vlastitu
+malu priču izvan uloge prodavačice (npr. kći koja studira, pekara kao obiteljski posao), da ne ostane klišej.
+Sjećanja i pripovijedanje u Practice pišu se **u perfektu**, kao u govoru; jedini Präteritum u tečaju su
+*war, hatte* i modali (*konnte, musste, wollte*).
+
 ---
 
 ## 3. Pregled
@@ -56,24 +62,24 @@ ponudi *du* — mali trenutak priče i ujedno lekcija o *duzen*).
 | # | Lesson (ideja) | Vocabulary | Grammar | Practice | Test | Nosiva rečenica |
 |---|---|---|---|---|---|---|
 | 0 | **Sounds & Spelling** | 36 riječi koje „već znaš“ | – | – | *Aussprache* · 10 min | – |
-| 1 | **Hallo! Me & You** — *ich bin / du bist / Sie sind*, predstavljanje | **Greetings & Countries** — 50 | **sein & the Sie Question** | **Arrival** | *Sich vorstellen* · 15 min · 70 % | *Ich heiße Anna und komme aus Kanada.* |
+| 1 | **Hallo! Me & You** — *ich bin / du bist / Sie sind*, predstavljanje | **Greetings & Countries** — 50 | **sein & the Sie Question** | **Arrival** | *Sich vorstellen* · 15 min · 70 % | *Ich bin Anna und komme aus Kanada. Und wer bist du?* |
 | 2 | **Things Around Us** — *der / die / das* | **The Room & Colours** — 55 | **Gender Clues** + *nicht* | **Anna's Room** | *Der, die, das* · 15 min · 70 % | *Das ist eine Lampe. Sie ist alt, aber schön.* |
 | 3 | **Everyday Life** — prezent, glagol drugi | **Everyday Verbs & the Week** — 55 | **The Present Tense** + *denn* | **A Week in the WG** | *Präsens* · 18 min · 70 % | *Am Montag arbeite ich und am Dienstag lerne ich Deutsch.* |
 | 4 | **Family** — akuzativ: mijenja se samo *der* | **Family & Pets** — 55 | **The Accusative** + *kein*, posvojni | **Oma Hilde Calls** | *Akkusativ* · 18 min · 70 % | *Ich habe einen Bruder, aber keine Schwester.* |
 | 5 | **Shopping & Food** — množina | **Food & the Bakery** — 60 | **The Plural** + brojevi do 100 | **At Frau Yilmaz's** | *Plural & Zahlen* · 18 min · 70 % | *Ich möchte zwei Brötchen und drei Äpfel, bitte.* |
-| 6 | **Free Time & Hobbies** — promjena samoglasnika | **Hobbies & Sport** — 60 | **Vowel-Changing Verbs** + *nicht / kein* | **Jonas's Sunday** | *Starke Verben* · 18 min · 70 % | *Mein Bruder liest gern, aber er spielt nicht gern Fußball.* |
+| 6 | **Free Time & Hobbies** — promjena samoglasnika | **Hobbies & Sport** — 60 | **Vowel-Changing Verbs** + *nicht / kein* | **Jonas's Sunday** | *Starke Verben* · 18 min · 70 % + **kratki modul** (L1–L6) · 15–20 min | *Mein Bruder liest gern, aber er spielt nicht gern Fußball.* |
 | 7 | **Work & Duties** — modali (zagrada #1) | **Jobs & the Office** — 60 | **Modal Verbs** | **Anna's First Day** | *Modalverben* · 18 min · 70 % | *Ich muss heute lange arbeiten, aber morgen kann ich kommen.* |
-| 8 | **Daily Routine** — odvojivi (zagrada #2) | **Routine & Time** — 60 | **Separable Verbs** + sat | **Jonas Oversleeps** | *Trennbare Verben* · 18 min · 70 % | *Ich stehe um sechs Uhr auf und fange um acht an.* |
+| 8 | **Daily Routine** — odvojivi (zagrada #2) | **Routine & Time** — 60 | **Separable Verbs** + sat | **Jonas Oversleeps** | *Trennbare Verben* · 18 min · 70 % | *Ich stehe um sechs Uhr auf und die Arbeit fängt um acht an.* |
 | 9 | **Health & Body** — imperativ | **The Body & the Doctor** — 60 | **The Imperative** | **Anna Is Ill** | *Imperativ* · 18 min · 70 % | *Trink viel Tee und bleib heute zu Hause!* |
-| 10 | **The Weekend** — perfekt s *haben* (zagrada #3) | **Weekend & Past Time** — 60 | **Perfekt with haben** + *war/hatte* | **How Was Your Weekend?** | *Perfekt I* · 18 min · 70 % | *Am Samstag habe ich lange geschlafen und dann Kuchen gebacken.* |
-| 11 | **Travel** — perfekt sa *sein* | **Trains & Trips** — 65 | **haben or sein?** | **A Weekend in Vienna** | *Perfekt II* · 18 min · 70 % | *Wir sind nach Wien gefahren und haben viel gesehen.* |
-| 12 | **In the City** — dativ kao mjesto | **City & Transport** — 65 | **The Dative** + *mit, bei, zu…* | **Errands in Berlin** | **Modul A1** · 30 min · 70 % | *Ich wohne bei meiner Oma und fahre mit dem Rad zur Schule.* |
+| 10 | **The Weekend** — perfekt s *haben* (zagrada #3) | **Weekend & Past Time** — 60 | **Perfekt with haben** + *war/hatte* | **How Was Your Weekend?** | *Perfekt I* · 18 min · 70 % | *Am Samstag habe ich lange gefrühstückt und dann Musik gehört.* |
+| 11 | **Travel** — perfekt sa *sein* | **Trains & Trips** — 65 | **haben or sein?** + *konnte, musste, wollte* | **A Weekend in Vienna** | *Perfekt II* · 18 min · 70 % | *Wir sind nach Wien gefahren und haben viel gesehen.* |
+| 12 | **In the City** — dativ kao mjesto | **City & Transport** — 65 | **The Dative** + *mit, bei, zu…* | **Errands in Berlin** | **Modul A1** · 30 min · 70 % | *Nach der Arbeit fahre ich mit dem Rad zum Supermarkt.* |
 | 13 | **Reasons & Opinions** — *weil, dass, wenn* | **Opinions & Learning** — 80 | **Subordinate Clauses** + *deshalb, trotzdem* | **The WG Meeting** | *Nebensätze* · 20 min · 70 % | *Ich lerne Deutsch, weil ich in Berlin arbeiten möchte.* |
 | 14 | **Home & Moving** — *wo / wohin* | **The Flat & Furniture** — 80 | **Two-Way Prepositions** + *stellen / stehen* | **Moving Day** | *Wechselpräpositionen* · 20 min · 70 % | *Ich stelle den Tisch in die Küche. Jetzt steht er in der Küche.* |
 | 15 | **Gifts & Celebrations** — dativ kao primatelj | **Parties, Presents & Dates** — 80 | **Dative Objects & Pronouns** | **Oma Hilde Turns 80** | *Dativ* · 20 min · 70 % | *Ich schenke meiner Mutter Blumen und sie gefallen ihr sehr.* |
 | 16 | **Clothes & Style** — nastavci pridjeva 1 | **Clothes & Shopping** — 80 | **Adjective Endings I** | **The Interview Outfit** | **Modul B** · 25 min · 70 % | *Ich suche einen blauen Pullover und eine schwarze Hose.* |
 | 17 | **City or Country?** — usporedba | **Town, Village & Nature** — 80 | **Comparing** + nastavci u dativu | **A Weekend in Bamberg** | *Komparation* · 20 min · 70 % | *In der kleinen Stadt ist das Leben ruhiger als in Berlin.* |
-| 18 | **Feelings & Friends** — povratni glagoli | **Feelings & People** — 80 | **Reflexive Verbs** + *konnte, musste* | **Homesick** | *Reflexive Verben* · 20 min · 70 % | *Früher konnte ich kein Deutsch, aber jetzt freue ich mich über jedes Gespräch.* |
+| 18 | **Feelings & Friends** — povratni glagoli | **Feelings & People** — 80 | **Reflexive Verbs** (+ ponavljanje *konnte, musste*) | **Homesick** | *Reflexive Verben* · 20 min · 70 % | *Früher konnte ich kein Deutsch, aber jetzt freue ich mich über jedes Gespräch.* |
 | 19 | **Dreams & Advice** — Konjunktiv II | **Wishes, Plans & Advice** — 80 | **Konjunktiv II** | **If I Won the Lottery** | *Konjunktiv II* · 20 min · 70 % | *Wenn ich mehr Zeit hätte, würde ich mehr reisen.* |
 | 20 | **Grand Finale** — odnosne rečenice | **Memories & the Future** — 80 | **Relative Clauses** + *ob* | **One Year in Berlin** | **Završni test** · 40 min · 75 % | *Deutsch ist eine Sprache, die ich jeden Tag besser verstehe.* |
 
@@ -88,6 +94,7 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 ### L0 — Sounds & Spelling
 - **L:** Six words you already know (*Hotel, Taxi, Banane, Hand, Haus, Butter*) · The dots: *ä ö ü* · *ß* · *ei* or *ie*? · *sch, sp, st* · Two kinds of *ch* · *z, w, v, j* · Long or short? · Nouns wear capitals · Remember three · Everything you met.
 - Mehanike iz Crolandova Lesson 0: baloni, vlak, slova, zid, spajanje (slika ↔ riječ).
+- **L (dopuna v2):** obezvučenje na kraju riječi (*Tag, Hund*), *s* ispred samoglasnika = [z], *eu / äu* = [oj].
 - **Pazi:** samo imenice sa člankom na karticama; nijedna rečenica.
 
 ### L1 — Hallo! Me & You
@@ -120,7 +127,7 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 - **G:** akuzativ (tablica); *kein*; posvojni u nominativu i akuzativu; *Annas Bruder*.
 - **P:** *Oma Hilde calls* · *Who is who?* (obiteljsko stablo kao zagonetka) · *The family photo*.
 - **Kultura:** *Kaffee und Kuchen* u nedjelju popodne.
-- **Pazi:** *die Eltern, die Kinder, die Geschwister* samo kao fraze (množina je L5).
+- **Pazi:** *die Eltern, die Kinder, die Geschwister* samo kao fraze (množina je L5). *Herrn Schulz* (akuzativ, dativ) kao fraza od L4, jer se lik javlja odmah; objašnjenje u L15.
 
 ### L5 — Shopping & Food
 - **L:** At the bakery · One apple, two apples · The plural is always *die* · Five patterns · *Es gibt…* · Numbers to 100 · Prices · Text: the shopping list · Checkpoint.
@@ -136,6 +143,7 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 - **G:** tablica promjena; *nicht* i *kein* sustavno; akuzativne zamjenice.
 - **P:** *Jonas's Sunday* · *The Verein noticeboard* · *Two flatmates, two hobbies*.
 - **Kultura:** *Verein* — Nijemci se učlanjuju u klubove.
+- **T:** test razine + **kratki modul** (15–20 min): L1–L6, radi ujednačenog prikaza napretka s ostalim tečajevima.
 - **Pazi:** *helfen* ne (dativ, L15); *fernsehen* ne (odvojivi, L8).
 
 ### L7 — Work & Duties
@@ -156,7 +164,7 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 
 ### L9 — Health & Body
 - **L:** Anna is ill · *Komm! Kommt! Kommen Sie!* · *Lies! Nimm!* · *sei* · *bitte, mal* · Text: at the doctor's · Checkpoint.
-- **V (60):** tijelo (*der Kopf, der Bauch, der Rücken, der Arm, das Bein, der Hals, das Auge*); bolest (*krank, gesund, das Fieber, die Erkältung, der Husten*); liječnik (*die Praxis, das Rezept, die Tablette, die Apotheke*); *Mir tut … weh* kao fraza.
+- **V (60):** tijelo (*der Kopf, der Bauch, der Rücken, der Arm, das Bein, der Hals, das Auge*); bolest (*krank, gesund, das Fieber, die Erkältung, der Husten*); liječnik (*die Praxis, das Rezept, die Tablette, die Apotheke*); fraze *Mir tut … weh*, *zum Arzt, beim Arzt, Gute Besserung, Mir ist kalt / warm*; bol i kao *Ich habe Kopfschmerzen*.
 - **G:** tri oblika imperativa; nepravilni *sei*; odvojivi u imperativu (*Ruf an!*).
 - **P:** *At the doctor's* · *Oma Hilde's home remedies* · *Jonas the fitness coach*.
 - **Kultura:** *Krankschreibung* — liječnička potvrda za posao; *Apotheke* nije drogerija.
@@ -173,17 +181,17 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 ### L11 — Travel
 - **L:** A weekend in Vienna · *Ich bin gefahren* · *haben* or *sein*? · Strong participles · Text: the postcard · Checkpoint.
 - **V (65):** putovanje (*der Zug, der Bahnhof, die Fahrkarte, der Koffer, das Hotel, die Reise, der Urlaub*); *fliegen, fahren, ankommen, abfahren, bleiben, wandern*; gradovi (Berlin, Hamburg, München, Köln, Wien, Zürich); vrijeme (*sonnig, es regnet*).
-- **G:** *haben* ili *sein* (pravilo i iznimke); popis jakih participa; *nach* + grad; *in die Schweiz*.
+- **G:** *haben* ili *sein* (pravilo i iznimke); popis jakih participa; *nach* + grad; *in die Schweiz*; *konnte, musste, wollte* (prirodan par s *war / hatte* iz L10); fraze *am Bahnhof, zum Bahnhof*.
 - **P:** *A weekend in Vienna* · *The postcard* · *The missed train*.
 - **Kultura:** Deutschlandticket i vlak kao način života.
-- **Pazi:** *im Hotel, am Bahnhof* ne — L12; opis puta samo s *nach*.
+- **Pazi:** *im Hotel* ne — L12 (*am / zum Bahnhof* samo kao fraze); opis puta samo s *nach*.
 
 ### L12 — In the City
 - **L:** Where is Anna? · *dem, der, dem* · *im, am* · *mit, bei, zu, von, aus, nach* · *zum, zur* · Phrases you already know, decoded · Text: errands · Checkpoint.
 - **V (65):** grad (*die Bank, die Post, das Kino, der Park, das Rathaus, das Museum, die Haltestelle, der Supermarkt*); prijevoz (*der Bus, die U-Bahn, die S-Bahn, die Straßenbahn, das Fahrrad*); smjerovi *links, rechts, geradeaus*.
 - **G:** dativ članova i množine (*-n*); dativni prijedlozi; stapanja.
 - **P:** *Errands in Berlin* · *Getting to Oma's* · *Where is everyone?*
-- **T:** **Modul A1** (30 min): sve iz L1–L12. Poruka: *„You've completed A1.“*
+- **T:** **Modul A1** (30 min): sve iz L1–L12. Poruka: *„You've completed the A1 course.“* (bez tvrdnje o ispitu)
 - **Kultura:** *Bürgeramt* i *Anmeldung* — prva njemačka birokracija.
 - **Pazi:** *in die Stadt gehen* ne — akuzativ smjera je L14.
 
@@ -226,9 +234,9 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 - **Kultura:** regije Njemačke — Bavarska nije cijela Njemačka.
 
 ### L18 — Feelings & Friends
-- **L:** Homesick · *Ich freue mich* · *mich, dich, sich* · *sich freuen auf / über* · *Beeil dich!* · *konnte, musste, wollte* · Text: a misunderstanding · Checkpoint.
+- **L:** Homesick · *Ich freue mich* · *mich, dich, sich* · *sich freuen auf / über* · *Beeil dich!* · *konnte, musste* again · Text: a misunderstanding · Checkpoint.
 - **V (80):** osjećaji (*froh, traurig, nervös, wütend, glücklich, einsam*); odnosi (*der Freund, die Freundin, die Beziehung*); povratni glagoli (*sich freuen, sich ärgern, sich treffen, sich verlieben, sich interessieren, sich fühlen, sich beeilen*).
-- **G:** povratni glagoli i zamjenice; s prijedlogom; Präteritum modala.
+- **G:** povratni glagoli i zamjenice; s prijedlogom; Präteritum modala samo ponavljanje (uveden u L11).
 - **P:** *Homesick* · *A misunderstanding* · *Herr Schulz offers du*.
 - **Kultura:** *duzen* — kad i kako se prelazi na *du*.
 - **Pazi:** *der Nachbar* je n-deklinacija — samo u nominativu.
@@ -245,7 +253,7 @@ Za svaku razinu: **L** = Lesson (tijek stranica), **V** = Vocabulary (skupine ri
 - **V (80):** apstraktne imenice (*die Erfahrung, die Erinnerung, die Zukunft, das Ziel, die Heimat, die Kultur*); ponavljanje najčešćih riječi tečaja.
 - **G:** odnosne rečenice (nominativ, akuzativ, dativ); *ob* i neizravna pitanja; sve zavisne rečenice zajedno.
 - **P:** *One year in Berlin* · *Who is it?* (zagonetke s odnosnim rečenicama) · *What comes next* (Anna ostaje u Berlinu).
-- **T:** **Završni test** (40 min, 75 %).
+- **T:** **Završni test** (40 min, 75 %). Nestvarni *wenn*, odnosne rečenice i *ob* pretežno prepoznavanje (B1 strukture).
 - **Kultura:** što dalje — Goethe ispit A2, tandem-partneri, drugi tečaj.
 
 ---
