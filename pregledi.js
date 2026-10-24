@@ -10,6 +10,10 @@
 //        { w: [[hr, en], ...] }       riječi u jednom retku
 // Broj koraka, prag i trajanje testa prozor čita iz data.js.
 window.PREGLEDI = {
+  // ---------- 0 ----------
+  'Lesson 0': { h: 'Welcome to Croatian',
+    s: 'The 30 letters of the Croatian alphabet. Every letter has one sound, so words are read exactly as they are written.',
+    p2: [{ t: [['c', 'ts, as in cats'], ['č', 'ch, as in church'], ['ć', 'a softer ch, as in cheap'], ['dž', 'j, as in jungle'], ['đ', 'a softer j, as in jeans'], ['j', 'y, as in yes'], ['lj', 'lli, as in million'], ['nj', 'ny, as in canyon'], ['š', 'sh, as in shoe'], ['ž', 's, as in measure']] }] },
   // ---------- 1 ----------
   'Lesson 1': { h: 'Your first Croatian sentences',
     ex: [['Kava je dobra.', 'The coffee is good.'], ['More je plavo.', 'The sea is blue.']],
