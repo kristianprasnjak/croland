@@ -3,16 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blobby – geste</title>
+<title>Blobby – režija</title>
 <style>
   html, body { margin: 0; height: 100%; }
   body {
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    background: #f7f4ec; font-family: system-ui, sans-serif; overflow: hidden;
+    display: flex; flex-direction: column; align-items: center;
+    background: #f6f3ee; color: #191713; font-family: "Public Sans", system-ui, sans-serif;
     touch-action: manipulation; -webkit-tap-highlight-color: transparent;
   }
-  svg { width: min(92vw, 72vh, 540px); height: auto; display: block; }
-  .geste { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 8px 16px 16px; max-width: 720px; }
+  /* pozornica: Blobby i njegov oblačić, kao u aplikaciji */
+  .pozornica { display: flex; align-items: flex-end; gap: 6px; width: min(100% - 32px, 760px); margin-top: 8px; min-height: 360px; }
+  .pozornica.zdesna { flex-direction: row-reverse; }
+  .pozornica .lik { flex: 0 0 min(44%, 330px); }
+  svg#scena { width: 100%; height: auto; display: block; }
+  .oblacic { position: relative; flex: 1 1 auto; max-width: 400px; margin-bottom: 70px; background: #e3ecf3; color: #22385a;
+             border-radius: 22px; padding: 14px 18px; font-size: 1.02rem; line-height: 1.55; min-height: 1.55em;
+             transition: opacity .25s, transform .25s; }
+  .oblacic.prazan { opacity: 0; transform: translateY(6px); }
+  .oblacic::before { content: ''; position: absolute; left: -9px; bottom: 26px; width: 20px; height: 20px;
+                     background: #e3ecf3; border-radius: 0 0 0 16px; transform: skewY(28deg); }
+  .zdesna .oblacic::before { left: auto; right: -9px; border-radius: 0 0 16px 0; transform: skewY(-28deg); }
+  .oblacic b { font-family: "Space Grotesk", system-ui, sans-serif; }
+  .oblacic p { margin: 0 0 .7em; } .oblacic p:last-child { margin-bottom: 0; }
+  .oblacic { cursor: pointer; max-height: 60vh; overflow-y: auto; }
+  .kontrole { width: min(100% - 32px, 760px); padding-bottom: 24px; }
+  .kontrole h2 { font: 700 .72rem system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #8b8377; margin: 14px 0 6px; text-align: center; }
+  .kontrole select { font: 600 14px system-ui, sans-serif; color: #22385a; border: 1.5px solid #22385a; border-radius: 999px; padding: 7px 12px; background: transparent; min-height: 36px; }
+  @media (max-width: 560px) { .pozornica { flex-direction: column; align-items: center; } .pozornica.zdesna { flex-direction: column; }
+    .pozornica .lik { flex-basis: auto; width: 70%; } .oblacic { margin-bottom: 0; order: -1; } .oblacic::before { display: none; } }
+  .geste { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
   .geste button {
     font: 600 14px system-ui, sans-serif; color: #22385a; background: transparent;
     border: 1.5px solid #22385a; border-radius: 999px; padding: 7px 13px; cursor: pointer; min-height: 36px;
@@ -21,7 +40,10 @@
 </style>
 </head>
 <body>
-<svg id="scena" viewBox="-215 -255 430 450" aria-label="Blobby">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<div class="pozornica" id="pozornica">
+<div class="lik">
+<svg id="scena" viewBox="-260 -255 520 450" aria-label="Blobby">
   <defs>
     <clipPath id="klipOkoL"><path class="okoKlip"/></clipPath>
     <clipPath id="klipOkoD"><path class="okoKlip"/></clipPath>
@@ -58,8 +80,19 @@
     </g>
   </g>
 </svg>
-<div class="geste" id="izrazi"></div>
-<div class="geste" id="geste"></div>
+</div>
+<div class="oblacic prazan" id="oblacic"></div>
+</div>
+<div class="kontrole">
+  <h2>Režija — Blobby čita svoje rečenice</h2>
+  <div class="geste" id="rezija"></div>
+  <h2>Događaji u aplikaciji</h2>
+  <div class="geste" id="dogadaji"></div>
+  <h2>Izrazi</h2>
+  <div class="geste" id="izrazi"></div>
+  <h2>Geste</h2>
+  <div class="geste" id="geste"></div>
+</div>
 
 <script>
 (() => {
@@ -125,7 +158,7 @@
 
   // ---- spajanje tijela i ruku kao dvije kapi (glatki minimum udaljenosti) ----
   const smin = (a, b, k) => { const h = Math.max(k - Math.abs(a - b), 0) / k; return Math.min(a, b) - h * h * k * 0.25; };
-  const KORAK = 5, GX0 = -215, GY0 = -215, GW = Math.ceil(430 / KORAK) + 1, GH = Math.ceil(410 / KORAK) + 1;
+  const KORAK = 5, GX0 = -260, GY0 = -255, GW = Math.ceil(520 / KORAK) + 1, GH = Math.ceil(450 / KORAK) + 1;
   const polje = new Float32Array(GW * GH);
   function udaljOdTijela(px, py, tijelo, rU) {
     let best = 1e9;
@@ -226,6 +259,7 @@
     pospan:      { opis: 'teški kapci', otvL: 0.5, otvD: 0.5, smijehL: 0, smijehD: 0, obrvaL: 3, obrvaD: 3, osmijeh: 0.45, sirina: 0.7 },
     zijeva:      { opis: 'zijevne', otvL: 0.08, otvD: 0.08, smijehL: 0.5, smijehD: 0.5, obrvaNagib: 0.5, osmijeh: 0.2, otvor: 1.2, sirina: 0.55 },
     gleda_desno: { opis: 'pogled prema onome što pokazuje', gledX: 0.95, gledY: 0.1, obrvaL: -6, obrvaD: -6, osmijeh: 1.05, otvor: 0.4, smijehL: 0.25, smijehD: 0.25 },
+    gleda_lijevo:{ opis: 'pogled ulijevo', gledX: -0.95, gledY: 0.1, obrvaL: -6, obrvaD: -6, osmijeh: 1.05, otvor: 0.4, smijehL: 0.25, smijehD: 0.25 },
   };
   for (const k in IZRAZI) IZRAZI[k] = { ...NEUTRALNO, ...IZRAZI[k] };
   const F = { ...NEUTRALNO };                      // trenutno stanje lica
@@ -279,6 +313,7 @@
   // trenutni osnovni izraz (gumbi) i izraz koji nameće gesta
   let osnovniIzraz = 'osmijeh', izrazGeste = null, zadnjiIzraz = 'osmijeh';
   let mikroOd = -1e9, sljedeciMikro = performance.now() + 5000;
+  let govori = false, govorOtvor = 0;            // dok se tekst ispisuje, usta se miču po slovima
 
   // ---------- pogled ----------
   let pokX = 0, pokY = 0, pokVrijeme = -1e9;
@@ -356,6 +391,15 @@
       { t: 0.45, obje: RUKA.sake, skok: 30, gnjec: -0.07 },
       { t: 0.68, skok: 0, gnjec: 0.06 }, { t: 0.80, gnjec: 0 } ] },
   };
+  // zrcalne geste: lijeva i desna ruka zamijene uloge, okret i nagib idu na drugu stranu
+  function zrcaliGestu(G, opis) {
+    const zr = { gleda_desno: 'gleda_lijevo', gleda_lijevo: 'gleda_desno' };
+    return { opis, ms: G.ms, lice: (G.lice || []).map(([t, i]) => [t, zr[i] || i]),
+             k: G.k.map(k => { const n = { ...k }; delete n.D; delete n.L;
+               if (k.D) n.L = k.D; if (k.L) n.D = k.L;
+               if (k.okret !== undefined) n.okret = -k.okret; if (k.nagib !== undefined) n.nagib = -k.nagib; return n; }) };
+  }
+  GESTE.pokazuje_lijevo = zrcaliGestu(GESTE.pokazuje, 'pokazuje ulijevo');
   // pretvori ključeve u potpune poze (svaka nasljeđuje prethodnu; početak i kraj = odmor)
   const ODMOR_POZA = { D: { ...O }, L: { ...O }, okret: 0, gnjec: 0, skok: 0, nagib: 0 };
   for (const G of Object.values(GESTE)) {
@@ -393,12 +437,12 @@
   // gumbi
   const gumbi = [], kutija = $('geste');
   for (const ime in GESTE) {
-    const b = document.createElement('button'); b.textContent = ({ razmislja: 'razmišlja', sramezljiv: 'sramežljiv' })[ime] || ime.replace('_', ' '); b.title = GESTE[ime].opis;
+    const b = document.createElement('button'); b.textContent = ({ razmislja: 'razmišlja', sramezljiv: 'sramežljiv', pokazuje_lijevo: 'pokazuje lijevo' })[ime] || ime.replace('_', ' '); b.title = GESTE[ime].opis;
     b.addEventListener('click', () => pokreni(ime)); kutija.appendChild(b); gumbi.push([ime, b]);
   }
   const bS = document.createElement('button'); bS.textContent = 'sam od sebe'; bS.title = 'povremeno sam odabere gestu';
   bS.addEventListener('click', () => { slobodno = !slobodno; oznaci(); }); kutija.appendChild(bS);
-  const NAZIV = { razmislja: 'razmišlja', sramezljiv: 'sramežljiv', iznenaden: 'iznenađen', znatizelja: 'znatiželja',
+  const NAZIV = { pokazuje_lijevo: 'pokazuje lijevo', gleda_lijevo: 'gleda lijevo', razmislja: 'razmišlja', sramezljiv: 'sramežljiv', iznenaden: 'iznenađen', znatizelja: 'znatiželja',
                   suosjecanje: 'suosjećanje', odlucan: 'odlučan', zijeva: 'zijeva', gleda_desno: 'gleda desno', ne_znam: 'ne znam' };
   const gumbiIzraza = [];
   for (const ime in IZRAZI) {
@@ -418,11 +462,155 @@
   let STAT_LICE = false;
   if (location.hash.startsWith('#izraz=')) { osnovniIzraz = location.hash.slice(7); STAT_LICE = true; slobodno = false; gesta = () => ({}); }
 
+  // =====================================================================
+  //  REŽIJA — koji tekst i koji događaj izazivaju koju glumu.
+  //  Pravila se čitaju redom; gluma kreće kad ispis dođe do riječi koja ju je izazvala.
+  // =====================================================================
+  const GLAS = [{"naslov": "Lesson 1", "recenice": ["Welcome to your first real Croatian lesson!", "Here's a secret: you already speak some Croatian. *Hotel*, *banana*, *čokolada*, *restoran* — these are all Croatian words, and you just read them perfectly.", "By the end of this lesson you'll describe houses, cars, the sea and your coffee — in Croatian.", "To say anything about anything, Croatian needs just one little word: **je** (*is*).", "Notice what's missing? No *the*, no *a*. Croatian skips articles entirely. You're welcome.", "Bravo! You just built your first Croatian sentences — with no articles to worry about and spelling you can always trust."]}, {"naslov": "Vocabulary 1", "recenice": ["Your first Croatian flashcard deck — every word sounds exactly as it's written. Tap to reveal meaning & pronunciation.", "You just met them — now catch them! Tap the English meaning before the timer runs out.", "One word, one card. How the endings change is Grammar's job — here just learn the words."]}, {"naslov": "Grammar 1", "recenice": ["You've already *used* everything on this page — now let's name it.", "**Every noun has a gender.** You don't have to memorise it — the word's last letter almost always tells you.", "**One exception worth knowing.** *Auto* ends in **-o**, but it is masculine. There are only a handful like it."]}, {"naslov": "Practice 1", "recenice": ["Time to read real Croatian!"]}, {"naslov": "Lesson 2", "recenice": ["In Lesson 1 you described houses and coffee. Now it's time to talk about *people* — including yourself.", "One verb, six forms — and you already know one of them:", "Spot the pattern: *student* is a man, *studentica* is a woman. Same with *profesor/profesorica*, *doktor/doktorica*. Croatian loves this **-ica** ending.", "Odlično! You can now introduce yourself, describe people, and handle the most important verb in Croatian."]}, {"naslov": "Vocabulary 2", "recenice": ["Everything you need to talk about people, starting with yourself. Tap to reveal.", "The most important verb in Croatian.", "The final round mixes this lesson with everything from Lesson 1 — how much do you remember?"]}, {"naslov": "Grammar 2", "recenice": ["Here's the complete map of the verb you've been using — the most important verb in Croatian.", "When in doubt in Croatia: start with **vi** — locals will offer you *ti* quickly."]}, {"naslov": "Practice 2", "recenice": ["Four people introduce themselves. See how far you get before you tap EN."]}, {"naslov": "Lesson 3", "recenice": ["So far you can *describe* the world: the coffee is good, the day is beautiful. Now you'll make things *happen* in it.", "And notice something: you often don't even need *ja*. The verb ending already tells everyone who's doing it. Efficient, right?", "The ending is the name tag: **-m** = me, **-š** = you, no extra ending = he/she. It works the same for *piti* (pijem, piješ, pije) and *jesti* (jedem, jedeš, jede) — the middle changes a bit, but the endings never lie.", "Sjajno! You can now say what you and others are doing — and you've cracked the verb-ending code that runs the whole language."]}, {"naslov": "Vocabulary 3", "recenice": ["Nine verbs that cover most of your day. Tap to reveal."]}, {"naslov": "Grammar 3", "recenice": ["In Lesson 3 your ear learned the endings. Here's the system behind them.", "**Drop the pronoun:** the ending already says who. *Pijem sok.* = *Ja pijem sok.* — both correct, the short one more natural. Keep the pronoun only for emphasis: *JA pijem sok* (me, not you)."]}, {"naslov": "Practice 3", "recenice": ["A whole day of actions — see how much you catch on the first read."]}, {"naslov": "Lesson 4", "recenice": ["You can describe things, introduce people, and say what everyone's doing. But so far, your Croatian comes out one short sentence at a time.", "Today you get three tiny connector words — **i**, **a**, **ali** — and suddenly your sentences flow: *Tata kuha, a brat uči.* Dad cooks, and my brother studies.", "You'll practice them on the warmest topic there is: **obitelj** — the family.", "English uses \"and\" for the first two — Croatian is more precise. If the second part is a contrast-but-not-conflict, use **a**. If it's a real \"but\", use **ali**.", "Izvrsno! Your Croatian now flows in full, connected sentences — and you can talk about the whole family."]}, {"naslov": "Vocabulary 4", "recenice": ["Start with the people closest to you. Notice how many end in **-a** — Croatian family words are mostly short and warm."]}, {"naslov": "Grammar 4", "recenice": ["The test: if English \"and\" could be replaced by \"while/whereas\", Croatian wants **a**. If it's a twist, **ali**."]}, {"naslov": "Practice 4", "recenice": ["A family in one page. See if you can tell who does what."]}, {"naslov": "Lesson 5", "recenice": ["Today is a big day. You're going shopping at a Croatian market — and on the way, you'll unlock the thing Croatian is famous for: **cases**.", "Don't worry. Your first case changes exactly *one letter*. Watch:", "When a feminine word (ending in **-a**) becomes the *target* of an action — the thing you drink, buy, or love — its **-a** turns into **-u**. That's the whole rule. Let's go shopping.", "You just discovered it yourself: **-a → -u** when the word is on the receiving end of the action. Grammarians call this the *accusative case* — you can just call it the target form.", "Čestitamo! You just learned your first Croatian case — and survived. One letter changed, a whole grammar door opened."]}, {"naslov": "Vocabulary 5", "recenice": ["Every word here ends in **-a**, and every one of them turns that -a into **-u** the moment you drink it, eat it or buy it. Learn each one as a pair."]}, {"naslov": "Grammar 5", "recenice": ["**What a \"case\" is:** Croatian shows a word's *role* in the sentence by changing its ending."]}, {"naslov": "Practice 5", "recenice": ["Your accusative in action"]}, {"naslov": "Lesson 6", "recenice": ["Last lesson you mastered the *-a → -u* trick for feminine words. Today you take the accusative to the city — and discover something charming about Croatian: it treats *living beings* differently from *things*.", "Things stay the same. People and animals get **-a**. Let's catch that tram.", "Two quirks to meet today: *pas* squeezes into **psa** (*Gledam psa*), and *policajac* drops a letter: **policajca**.", "Bravo! You now handle the accusative for *everything* in the singular — things, food, people and pets."]}, {"naslov": "Vocabulary 6", "recenice": ["Living masculine nouns, each shown with its target form. Five of them squeeze a letter out on the way: **policajac → policajca**, **kupac → kupca**, **pas → psa**."]}, {"naslov": "Grammar 6", "recenice": ["Croatian likes to mark *who can be affected* by an action. Things can't care; beings can.", "This is why Lesson 3 felt easy: every object there was a \"no change\" word. Sneaky, right?"]}, {"naslov": "Practice 6", "recenice": ["City life, written the way Croatians actually write it."]}, {"naslov": "Lesson 7", "recenice": ["One coffee, one friend, one tram — so far, everything came one at a time. Today the world multiplies: *knjiga* becomes *knjige*, *učenik* becomes *učenici*, and verbs finally learn to say **we**, **you all** and **they**.", "We'll practice in the liveliest place possible: a Croatian school full of children and songs.", "One exception today: *dijete* → **djeca** (children). Some words are too important to follow rules.", "Sjajno! You can now talk about many things at once — and your verbs finally have their full present-tense family."]}, {"naslov": "Vocabulary 7", "recenice": ["Masculine nouns take **-i**. Watch the four where a **k** softens into **c** on the way: *učenik → učenici*."]}, {"naslov": "Grammar 7", "recenice": ["With this page your present tense is *complete* — all six persons — and nouns can finally come in groups.", "**The rebels.** Four words ignore everything above: *dijete → **djeca***, *brat → **braća***, *čovjek → **ljudi***, *riječ → **riječi***. Learn them as words, not rules."]}, {"naslov": "Practice 7", "recenice": ["A school day in the plural — classmates, books and all."]}, {"naslov": "Lesson 8", "recenice": ["Summer is coming — *ljeto dolazi!* Time to make plans: the sea, ice cream, swimming every day...", "The Croatian future is refreshingly simple: take a tiny helper word (**ću** — \"I will\"), add the verb's dictionary form, and you're done. *Plivat ću!* — I will swim! No new endings to learn — and you have already met the helper's negative twin, *neću*, back in Grammar 3.", "Recognize the rhythm? *ću–ćeš–će–ćemo–ćete–će* echoes *sam–si–je–smo–ste–su*.", "Odlično! Past lessons gave you the present; now the future is yours too. Your summer plans are officially in Croatian."]}, {"naslov": "Vocabulary 8", "recenice": ["Croatia in summer, in one deck. **more** is the sea itself; going *na more* is what everyone says for \"to the coast\"."]}, {"naslov": "Grammar 8", "recenice": ["Rule of thumb: the helper *never* stands first — it's shy, it always leans on another word."]}, {"naslov": "Practice 8", "recenice": ["Summer plans — the kind of message you'll get from a Croatian friend in June."]}, {"naslov": "Lesson 9", "recenice": ["Today's lesson is full of words you already know: *hobi, gitara, klub, trener, kapetan, gol...* Sport is international, and so is its vocabulary.", "The new bit: making things *yours*. **Moj** klub, **tvoja** gitara, **naš** trener. And yes — these little words dance with gender exactly like adjectives do. By now, that's your superpower.", "The familiar trio again — consonant / -a / -o(-e). You've done this dance twice already.", "Bravo! Things are officially *yours* now — your club, your guitar, your Croatian."]}, {"naslov": "Vocabulary 9", "recenice": ["Sport speaks Croatian with an accent you'll recognize instantly."]}, {"naslov": "Grammar 9", "recenice": ["The possessives are adjectives at heart — they agree with the *thing owned*, not the owner.", "English speakers: this is the one trap."]}, {"naslov": "Practice 9", "recenice": ["A club, a hobby, and a few people who take theirs seriously."]}, {"naslov": "Lesson 10", "recenice": ["You can describe, ask, plan and dream in Croatian. One thing is missing: telling stories. *What did you do yesterday?*", "Good news: the past tense recycles something you've known since Lesson 2 — the verb *biti*.", "Let's talk about yesterday.", "All three are fine — *sam* just always leans on the first word.", "ČESTITAMO! Lessons 1–10 complete — you're halfway through the course. You can now speak about the present, the future *and* the past. That's the full timeline of a language."]}, {"naslov": "Vocabulary 10", "recenice": ["Everything for telling stories about yesterday.", "The past participles — your storytelling toolkit."]}, {"naslov": "Grammar 10", "recenice": ["The participle shows the speaker's gender."]}, {"naslov": "Practice 10", "recenice": ["Your perfekt in the wild"]}, {"naslov": "Lesson 11", "recenice": ["So far you've mostly been *telling* — now you'll start *asking*. Today's mission: buy the perfect birthday present.", "Seven little question words and one magic particle — **li** — and every conversation opens up.", "And the friendly tag at the end: *Voliš glazbu, **zar ne**?* — You like music, *don't you*?", "Izvrsno! You can now ask about anything — who, what, where, when, why and how. Conversations are officially two-way."]}, {"naslov": "Vocabulary 11", "recenice": ["Everything you need to ask and wonder."]}, {"naslov": "Grammar 11", "recenice": ["No question word? Use **li** — glue it right after the verb."]}, {"naslov": "Practice 11", "recenice": ["A present arrives, and nobody will say who sent it."]}, {"naslov": "Lesson 12", "recenice": ["You've been suspiciously agreeable for eleven lessons. Time to fix that.", "Today you learn to refuse soup, reject onions and declare that you *never* drink milk. Croatian negation is delightfully simple — one little word, **ne**, placed right before the verb. Plus two special verbs with attitude. Let's say no!", "English teachers hate this. Croatian grammar requires it. Enjoy the freedom.", "Bravo! You can now refuse, deny and protest — politely and grammatically."]}, {"naslov": "Vocabulary 12", "recenice": ["The complete toolkit for saying no — plus adjectives and cognates."]}, {"naslov": "Grammar 12", "recenice": ["In Croatian, negatives stack — and they *must*."]}, {"naslov": "Practice 12", "recenice": ["A family of picky eaters. Nobody agrees about dinner."]}, {"naslov": "Lesson 13", "recenice": ["Since Lesson 5 you can say where you're *going*: *Idem u grad.* Today you learn where you *are*: *Ja sam **u gradu**.*", "One tiny ending — **-u** for most words, **-i** for feminine ones — and the whole city becomes describable: at the café, in the park, at the office on a Friday night (hopefully not).", "Same *u/na* logic as before: **u** = inside, **na** = on/at open places & events.", "Sjajno! You now know where you're going AND where you are — the city is fully yours."]}, {"naslov": "Vocabulary 13", "recenice": ["Your map of the town, with the \"being there\" form on every card."]}, {"naslov": "Grammar 13", "recenice": ["Same endings, two jobs — the ending tells you whether you've arrived."]}, {"naslov": "Practice 13", "recenice": ["Everyone is somewhere different, and it's Friday night."]}, {"naslov": "Lesson 14", "recenice": ["December in Croatia: presents for everyone! But who gets what? *Mami* a scarf, *bratu* a ball, *sestri* a guitar...", "Those endings — **-i** and **-u** — mark the *receiver*. It's the dative case, and good news: you've already seen both endings in the locative. Croatian recycles!", "Word order is flexible — the receiver can come first for emphasis: *Mami kupujem šal, a tati knjigu.*", "Divno! You can now give, send and bring things to anyone — Croatian generosity unlocked."]}, {"naslov": "Vocabulary 14", "recenice": ["Receivers with their dative form, plus the giving verbs."]}, {"naslov": "Grammar 14", "recenice": ["The dative marks the *receiver* — the person something goes to."]}, {"naslov": "Practice 14", "recenice": ["December, and everyone is buying something for someone."]}, {"naslov": "Lesson 15", "recenice": ["Friday night! You're going out — but *with whom* and *how*?", "Today's case is the instrumental — the case of company and means. It's the last case of this module, and arguably the most social one.", "Think of it as: the vehicle is your instrument. (That's literally why it's called the instrumental!)", "ČESTITAMO! Module C complete — you can ask, refuse, locate, give and accompany. That's five of Croatia's seven cases already under your belt."]}, {"naslov": "Vocabulary 15", "recenice": ["Friends, outings and ways to get there.", "Means of transport (no preposition!) and new verbs."]}, {"naslov": "Grammar 15", "recenice": ["The most common English-speaker mistake: \"idem s vlakom\" — you're not *accompanying* the train, you're *using* it. No s!", "Five down, two to go — you're past the hardest part."]}, {"naslov": "Practice 15", "recenice": ["A night out and a train ride, both in the instrumental."]}, {"naslov": "Lesson 16", "recenice": ["Whose house? Grandma's. Coffee without what? Without sugar. From where? From Zagreb.", "All three answers live in one case — the **genitive**, the case of *belonging, origin and absence*. It's the last big case of the course, and after dative and locative, its endings will feel like familiar territory.", "*Nema* + genitive says something's missing — one of the most Croatian phrases there is:", "Bravo! Belonging, origin and absence — the genitive completes your everyday case toolkit."]}, {"naslov": "Vocabulary 16", "recenice": ["Grandma's world, with the genitive on every card."]}, {"naslov": "Grammar 16", "recenice": ["The genitive answers **koga? / čega?** — and it's Croatia's busiest case.", "**Case toolkit — complete!** Six of seven — only the vocative remains, and you've been using it in dialogues all along."]}, {"naslov": "Practice 16", "recenice": ["Grandma's house, and the road that leads to the sea."]}, {"naslov": "Lesson 17", "recenice": ["Time to give orders — politely, of course. Recipes, directions, a bossy football coach: they all run on the **imperative**.", "Croatian commands are short and punchy: *Uzmi!* (take!), *Idi!* (go!), *Miješaj!* (mix!). Today you'll learn them the best way there is: by making pancakes.", "Odlično! You can now give directions, run a kitchen and coach a football team — all in Croatian."]}, {"naslov": "Vocabulary 17", "recenice": ["Commands for recipes and directions — plus the soft \"don't\"."]}, {"naslov": "Grammar 17", "recenice": ["**Familiar faces:** you've been obeying imperatives all course long: *Izvolite? Oprostite! Dobro došli!* — all commands in disguise."]}, {"naslov": "Practice 17", "recenice": ["A recipe, a set of directions, and a coach who shouts."]}, {"naslov": "Lesson 18", "recenice": ["Imagine: a million euros lands in your account. What *would* you do?", "Croatian dreams run on the **conditional**. The recipe is sweet and familiar: the past participle you know from Lesson 10 + a tiny new helper. Let's dream.", "Krasno! You can now dream, wish and order coffee like a true gentleman/lady: *Htio bih...*"]}, {"naslov": "Vocabulary 18", "recenice": ["For dreaming out loud."]}, {"naslov": "Grammar 18", "recenice": ["**The politeness machine:** the conditional is Croatian's \"please-mode\".", "You'll hear it — but write *bismo/biste*; every teacher will thank you."]}, {"naslov": "Practice 18", "recenice": ["A million euros, and a perfect day nobody has had yet."]}, {"naslov": "Lesson 19", "recenice": ["Here's Croatian's deepest secret, saved for near the end: almost every verb has a *twin*.", "One twin describes the *doing*, the other the *getting done*. English needs whole phrases for this — Croatian does it with a prefix. Once you see it, you'll see it everywhere.", "The tell-tale words: *cijeli dan / dugo / svaki dan* → process. *Napokon / odmah / za dvije minute* → done.", "Fantastično! You've cracked aspect — the concept that makes Slavic languages famous. You now hear the difference between *doing* and *done*."]}, {"naslov": "Vocabulary 19", "recenice": ["Verb twins and the time words that go with them."]}, {"naslov": "Grammar 19", "recenice": ["Every Croatian verb carries a built-in answer to one question: *is the action complete?*", "**The homework trap:** one prefix, very different conversation."]}, {"naslov": "Practice 19", "recenice": ["A letter that took all afternoon, and a mother who wants to know if it's finished."]}, {"naslov": "Lesson 20", "recenice": ["Twenty lessons ago, your first sentence was *Kava je dobra* — three words.", "The final ingredients: five little connectors and one word — *koji* — that glues whole thoughts together. Let's finish strong.", "You did it. Twenty lessons ago you knew *banana* and *hotel*. Now you can:"]}, {"naslov": "Vocabulary 20", "recenice": ["The vocabulary of memories — the last batch of the course!", "The final sprint of the course — tap the English meaning!"]}, {"naslov": "Grammar 20", "recenice": ["Connectors for big thoughts."]}, {"naslov": "Practice 20", "recenice": ["Your last text is someone remembering a summer. Read it slowly."]}];
+  const PRAVILA = [
+    // vrsta            prepoznaje                                                                                     izraz           gesta        kada
+    { vrsta: 'pohvala_velika', re: /^(ČESTITAMO!|You did it\.)/,                                                       izraz: 'smijeh',     gesta: 'juhu',      kada: 'odmah', poslije: 'ponosan' },
+    { vrsta: 'pohvala',  re: /^(Bravo|Odlično|Sjajno|Izvrsno|Čestitamo|Divno|Krasno|Fantastično)!/,                       izraz: 'smijeh',     gesta: 'juhu',      kada: 'odmah', poslije: 'veselo' },
+    { vrsta: 'pozdrav',  re: /^(Welcome|Hi\b|Hello|There you are)/,                                                      izraz: 'veselo',     gesta: 'pozdrav',   kada: 'odmah' },
+    { vrsta: 'sala',     re: /(You're welcome\.|Sneaky, right\?|Efficient, right\?|hate this|suspiciously|hopefully not|it's shy|Enjoy the freedom|Some words are too important)/, izraz: 'namig', gesta: null, kada: 'na_rijeci' },
+    { vrsta: 'zamka',    re: /(trap|mistake|Careful|careful)/,                                                           izraz: 'iznenaden',  gesta: null,        kada: 'na_rijeci', poslije: 'znatizelja' },
+    { vrsta: 'iznimka',  re: /(exception|rebels|quirks|ignore everything|squeezes)/i,                                    izraz: 'znatizelja', gesta: 'ne_znam',   kada: 'na_rijeci' },
+    { vrsta: 'tajna',    re: /(secret|Notice|notice something|Spot the pattern|Recognize|Watch:|Think of it as|The test:|Rule of thumb)/, izraz: 'znatizelja', gesta: 'pokazuje', kada: 'na_rijeci' },
+    { vrsta: 'mastanje', re: /(Imagine|dream|What \*would\*)/,                                                            izraz: 'razmislja',  gesta: 'razmislja', kada: 'na_rijeci' },
+    { vrsta: 'poziv',    re: /(Let's|Time to|See how far|See if you can|how much do you remember|finish strong|before the timer)/, izraz: 'odlucan', gesta: 'ajmo', kada: 'na_rijeci' },
+    { vrsta: 'uputa',    re: /(Tap to reveal|Tap the|tap EN)/,                                                            izraz: 'veselo',     gesta: 'pokazuje',  kada: 'na_rijeci' },
+    { vrsta: 'umirivanje', re: /(Don't worry|don't have to|Good news|good news|refreshingly simple|delightfully simple|past the hardest part|recycles)/, izraz: 'veselo', gesta: null, kada: 'na_rijeci' },
+    { vrsta: 'uzbudenje', re: /(big day|Summer is coming|Friday night!|December in Croatia)/,                             izraz: 'iznenaden',  gesta: null,        kada: 'odmah', poslije: 'veselo' },
+    { vrsta: 'pitanje',  re: /\?\s*$/,                                                                                     izraz: 'znatizelja', gesta: null,        kada: 'na_kraju' },
+  ];
+  const DOGADAJI = {
+    'dobrodošlica':      { tekst: "Hi! I'm Blobby. I'll be around whenever there's something worth celebrating — or explaining.", glume: [[0, 'veselo', 'evo_me'], [5, 'veselo', 'pozdrav']] },
+    'povratak':          { tekst: 'There you are! Ready to pick up where we left off?', glume: [[0, 'iznenaden', null], [14, 'veselo', 'pozdrav']] },
+    'rezultat 95 %':     { tekst: 'Wow — 19 out of 20! You are flying.', glume: [[0, 'smijeh', 'juhu'], [30, 'ponosan', null]] },
+    'rezultat 75 %':     { tekst: 'Nice work — 15 out of 20. One more round and it is yours.', glume: [[0, 'veselo', null], [28, 'odlucan', 'ajmo']] },
+    'rezultat 50 %':     { tekst: 'Halfway there! Let\'s run it once more — it will stick.', glume: [[0, 'veselo', null], [15, 'odlucan', 'ajmo']] },
+    'rezultat 30 %':     { tekst: 'That one was tough — totally normal. Shall we try it again together?', glume: [[0, 'suosjecanje', null], [36, 'veselo', null], [60, 'znatizelja', null]] },
+    'niz 7 dana':        { tekst: '7 days in a row! That is officially a habit.', glume: [[0, 'smijeh', 'juhu'], [20, 'ponosan', null]] },
+    'niz prekinut':      { tekst: 'Your streak took a little break — no stress. Today is day one of a new one!', glume: [[0, 'suosjecanje', null], [40, 'odlucan', 'ajmo']] },
+  };
+
+  // rečenica -> odsječci (obično / *kurziv* / **podebljano**) i čisti tekst
+  function rastavi(md) {
+    const seg = []; const re = /(\*\*[^*]+\*\*|\*[^*]+\*)/g; let zadnji = 0, m;
+    while ((m = re.exec(md))) {
+      if (m.index > zadnji) seg.push({ t: md.slice(zadnji, m.index) });
+      const b = m[0].startsWith('**'); seg.push({ t: m[0].slice(b ? 2 : 1, b ? -2 : -1), b, i: !b });
+      zadnji = m.index + m[0].length;
+    }
+    if (zadnji < md.length) seg.push({ t: md.slice(zadnji) });
+    return seg;
+  }
+  // koja gluma ide uz rečenicu i kad (položaj u čistom tekstu)
+  let zadnjaGestaBila = false;
+  function rezija(md) {
+    const cist = rastavi(md).map(x => x.t).join(''), cues = [];
+    for (const P of PRAVILA) {
+      const m = P.re.exec(cist.replace(/\*/g, '')); if (!m) continue;
+      const pos = P.kada === 'odmah' ? 0 : P.kada === 'na_kraju' ? Math.max(0, cist.length - 2) : m.index;
+      // najviše jedna gesta po oblačiću, i ne dvije za redom (osim pohvale i pozdrava)
+      let gesta = P.gesta;
+      if (gesta && zadnjaGestaBila && !/pohvala|pozdrav/.test(P.vrsta)) gesta = null;
+      cues.push({ pos, izraz: P.izraz, gesta, vrsta: P.vrsta });
+      if (P.poslije) cues.push({ pos: pos + 12, izraz: P.poslije });
+      break;   // prva pogođena vrsta određuje glumu rečenice
+    }
+    if (!cues.length) cues.push({ pos: 0, izraz: 'osmijeh', vrsta: 'pripovijedanje' });
+    zadnjaGestaBila = cues.some(c => c.gesta);
+    return cues;
+  }
+
+  // ---- oblačić i ispis slovo po slovo ----
+  const oblacic = $('oblacic');
+  let ispis = null, oblacicOtvoren = false, stranaOblacica = 1;   // 1 = oblačić desno od Blobbyja
+  const SAMOGL = 'aeiouyAEIOUYáéíóúàèìòù';
+  // tekst se DODAJE kao novi odlomak; ništa što je već napisano ne nestaje
+  function izgovori(md, cues, gotovo, ocisti) {
+    const seg = rastavi(md); if (ocisti) oblacic.innerHTML = '';
+    const p = document.createElement('p'); oblacic.appendChild(p);
+    const elementi = seg.map(x => { const e = document.createElement(x.b ? 'b' : x.i ? 'i' : 'span'); p.appendChild(e); return e; });
+    oblacic.classList.remove('prazan'); oblacicOtvoren = true;
+    ispis = { seg, elementi, si: 0, ci: 0, pos: 0, sljedeci: performance.now() + 250, cues: cues.slice().sort((a, b) => a.pos - b.pos), gotovo };
+    slobodno = false; oznaci();
+  }
+  function korakIspisa(sad) {
+    if (!ispis) return;
+    while (ispis && sad >= ispis.sljedeci) {
+      // gluma koja čeka ovaj položaj
+      while (ispis.cues.length && ispis.cues[0].pos <= ispis.pos) {
+        const c = ispis.cues.shift();
+        if (c.izraz) osnovniIzraz = c.izraz;
+        if (c.gesta) pokreni(c.gesta === 'pokazuje' && stranaOblacica < 0 ? 'pokazuje_lijevo' : c.gesta);
+        oznaci();
+      }
+      const S = ispis.seg[ispis.si];
+      if (!S) {                                     // kraj rečenice
+        govori = false; govorOtvor = 0; const g = ispis.gotovo; ispis = null; if (g) g(); return;
+      }
+      if (ispis.ci === 0 && S.b) mikroOd = sad;     // naglašena riječ: podigne obrve
+      const z = S.t[ispis.ci];
+      ispis.elementi[ispis.si].textContent += z;
+      ispis.ci++; ispis.pos++;
+      if (ispis.ci >= S.t.length) { ispis.si++; ispis.ci = 0; }
+      govori = true;
+      // usta: samoglasnik otvori, suglasnik skoro zatvori, razmak i interpunkcija zatvore
+      govorOtvor = SAMOGL.includes(z) ? 0.3 + Math.random() * 0.3 : /[a-zčćžšđ]/i.test(z) ? 0.1 : 0;
+      ispis.sljedeci += /[.!?]/.test(z) ? 230 : /[,;:—]/.test(z) ? 120 : z === ' ' ? 14 : 22;
+      if (/[.!?,;:—]/.test(z)) { govorOtvor = 0; }
+    }
+  }
+  // dodir na oblačić: odmah ispiše ostatak (gluma koja je čekala — samo zadnji izraz, bez naknadnih gesta)
+  oblacic.addEventListener('click', () => {
+    if (!ispis) return;
+    for (let i = ispis.si; i < ispis.seg.length; i++) ispis.elementi[i].textContent = ispis.seg[i].t;
+    const zadnjiIzraz = ispis.cues.filter(c => c.izraz).pop(); if (zadnjiIzraz) { osnovniIzraz = zadnjiIzraz.izraz; oznaci(); }
+    govori = false; govorOtvor = 0; const g = ispis.gotovo; ispis = null; if (g) g();
+  });
+  function zatvoriOblacic() { oblacic.classList.add('prazan'); oblacicOtvoren = false; }
+
+  // ---- lekcija: čita svoje rečenice redom ----
+  let red = null;
+  function pustiRed(recenice, naKraju) {
+    red = { recenice, i: 0, prva: true }; zadnjaGestaBila = false; sljedecaURedu(naKraju);
+  }
+  function sljedecaURedu(naKraju) {
+    if (!red) return;
+    if (red.i >= red.recenice.length) { red = null; setTimeout(() => { osnovniIzraz = 'osmijeh'; oznaci(); }, 1800); return; }   // tekst OSTAJE
+    const md = red.recenice[red.i++], prva = red.prva; red.prva = false;
+    izgovori(md, rezija(md), () => {
+      // sljedeća rečenica kreće nakon kratke stanke; prethodne ostaju u oblačiću
+      red && (red.timer = setTimeout(() => { if (red) { osnovniIzraz = 'osmijeh'; sljedecaURedu(naKraju); } }, 1100));
+    }, prva);
+  }
+  function zaustavi() { if (red && red.timer) clearTimeout(red.timer); red = null; ispis = null; govori = false; }
+
+  // gumbi režije
+  const sel = document.createElement('select');
+  GLAS.forEach((o, i) => { const op = document.createElement('option'); op.value = i; op.textContent = o.naslov + ' (' + o.recenice.length + ')'; sel.appendChild(op); });
+  $('rezija').appendChild(sel);
+  const gumbR = (t, fn) => { const b = document.createElement('button'); b.textContent = t; b.addEventListener('click', fn); $('rezija').appendChild(b); return b; };
+  gumbR('▶ pročitaj', () => { zaustavi(); pustiRed(GLAS[+sel.value].recenice); });
+  gumbR('■ stani', () => { zaustavi(); osnovniIzraz = 'osmijeh'; oznaci(); });
+  gumbR('✕ očisti', () => { zaustavi(); oblacic.innerHTML = ''; zatvoriOblacic(); });
+  gumbR('⇄ strana', () => { stranaOblacica *= -1; $('pozornica').classList.toggle('zdesna', stranaOblacica < 0); });
+  for (const ime in DOGADAJI) {
+    const b = document.createElement('button'); b.textContent = ime; $('dogadaji').appendChild(b);
+    b.addEventListener('click', () => {
+      zaustavi(); const D = DOGADAJI[ime];
+      izgovori(D.tekst, D.glume.map(([pos, izraz, gesta]) => ({ pos, izraz, gesta })), () => setTimeout(() => { osnovniIzraz = 'osmijeh'; oznaci(); }, 2600), true);   // tekst ostaje
+    });
+  }
+
   // ---------- petlja ----------
   let zadnje = performance.now();
   function okvir(sad) {
     const dt = Math.min(0.05, (sad - zadnje) / 1000); zadnje = sad;
     const t = sad / 1000, amp = smanjeno ? 0.25 : 1;
+    korakIspisa(sad);
 
     // opušteno disanje: polako, duboko
     const dah = amp * Math.sin(t * 1.1);                 // -1..1
@@ -437,6 +625,7 @@
       ciljOkret = izbor[Math.floor(Math.random() * izbor.length)];
       sljedeciOkret = sad + 3500 + Math.random() * 4500;
     }
+    if (govori || oblacicOtvoren) ciljOkret = 0.18 * stranaOblacica;
     const zeljeni = fiksniOkret !== null ? fiksniOkret : (g.aktivna ? g.okret + ciljOkret * 0.2 : ciljOkret);
     okret += (ogr(zeljeni, -1, 1) - okret) * (fiksniOkret !== null ? 1 : 1 - Math.exp(-dt * (g.aktivna ? 12 : 3)));
     // ruka na udaljenoj strani djelomično se skrije iza tijela
@@ -509,7 +698,11 @@
     if (!STAT_LICE && sad > sljedeciMikro) { mikroOd = sad; sljedeciMikro = sad + 4000 + Math.random() * 6000; }
     const mu = (sad - mikroOd) / 450;
     if (mu >= 0 && mu < 1 && !g.aktivna) { const v = Math.sin(mu * Math.PI); C2.obrvaL -= 5 * v; C2.obrvaD -= 5 * v; }
-    for (const key in NEUTRALNO) F[key] += (C2[key] - F[key]) * (STAT_LICE ? 1 : 1 - Math.exp(-dt * BRZINA[key]));
+    if (govori) { C2.otvor = Math.max(C2.otvor * 0.5, govorOtvor); C2.sirina *= 0.92 + govorOtvor * 0.2; }
+    for (const key in NEUTRALNO) {
+      const brz = govori && (key === 'otvor' || key === 'sirina') ? 30 : BRZINA[key];
+      F[key] += (C2[key] - F[key]) * (STAT_LICE ? 1 : 1 - Math.exp(-dt * brz));
+    }
 
     if (sad > sljedeciTreptaj && !STAT_LICE) { treptajOd = sad; sljedeciTreptaj = sad + 2500 + Math.random() * 4000; }
     const tu = (sad - treptajOd) / 150, treptaj = tu >= 0 && tu < 1 ? 1 - Math.sin(tu * Math.PI) : 1;

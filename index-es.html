@@ -620,27 +620,55 @@
     display: block; color: var(--plava); font-size: var(--t-s); font-weight: 700;
     letter-spacing: .06em; text-transform: uppercase; margin-bottom: 0.375rem;
   }
-  /* ---- Blobby: njegove rečenice izlaze iz oblačića ---- */
-  .blobbyRed { display: flex; align-items: flex-end; gap: 0.75rem; margin: 0.25rem 0 1.5rem; }
-  .blobbySlika { width: 5.5rem; height: auto; flex: 0 0 5.5rem; user-select: none; }
+  /* ---- Blobby: živi lik + njegov oblačić (blobby.js) ----
+     Raspored ovisi o količini teksta i uređaju (data-r-pc / data-r-mob):
+       uz    – Blobby uz oblačić (uzD: s desne strane)   stoji – stoji na oblačiću, cijeli vidljiv
+       viri  – viri iza gornjeg ruba (samo mobitel, dugi tekst)
+     Margine se NE koriste: sve ostaje u glavnom dijelu zaslona. */
+  .blobbyRed { --bl: 4.5rem; position: relative; margin: 0.6rem 0 1.5rem; }
+  .blobbyLik { position: relative; flex: 0 0 var(--bl); width: var(--bl); height: calc(var(--bl) * 1.133); }
+  .blobbyLik svg { position: absolute; width: calc(var(--bl) * 1.926); height: calc(var(--bl) * 1.667);
+                   left: calc(var(--bl) * -0.4074); top: calc(var(--bl) * -0.4259); overflow: visible; pointer-events: none; }
+  .blobbyLik svg [id^="tijelo-"] { pointer-events: auto; cursor: pointer; }
   .blobbyOblacic {
-    position: relative; flex: 1 1 auto; background: #fff;
-    border: 1px solid var(--rub); border-radius: var(--rad-l); padding: 0.875rem 1rem 0.375rem;
-    box-shadow: 0 1px 3px rgba(25,23,19,.05);
+    position: relative; z-index: 1; flex: 0 1 auto; max-width: 40em;
+    background: #e3ecf3; color: #22385a; border-radius: 18px; padding: 0.85rem 1.1rem 0.25rem;
   }
-  /* repić prema Blobbyjevim ustima */
-  .blobbyOblacic::before, .blobbyOblacic::after {
-    content: ''; position: absolute; bottom: 20px; width: 0; height: 0;
-    border-top: 9px solid transparent; border-bottom: 9px solid transparent;
-  }
-  .blobbyOblacic::before { left: -11px; border-right: 11px solid var(--rub); }
-  .blobbyOblacic::after  { left: -10px; border-right: 11px solid #fff; }
   .blobbyOblacic .odlomak { margin-bottom: 0.75rem; }
-  .blobbyOblacic .odlomak:last-child { margin-bottom: 0.5rem; }
+  .blobbyOblacic .odlomak:last-child { margin-bottom: 0.6rem; }
+  .blobbyOblacic.imaBrzo { padding-right: 2.6rem; }
+  /* napuhivanje iz usta: dok ne progovori, oblačić drži svoje mjesto, ali se ne vidi */
+  .blobbyOblacic.blobbyCeka:not(.napuhan) { opacity: 0; transform: scale(0.12); }
+  .blobbyOblacic.napuhuje { transition: transform .5s cubic-bezier(.3, 1.45, .6, 1), opacity .18s ease-out; }
+  .blobbyOblacic .bz { visibility: hidden; } .blobbyOblacic .bz.v { visibility: visible; }
+  .blobbyOblacic .bzSkriveno { visibility: hidden; }
+  .blobbySiljak { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 2; fill: #e3ecf3; }
+  .blobbyBrzo { position: absolute; right: 0.5rem; bottom: 0.45rem; width: 1.9rem; height: 1.9rem; border-radius: 50%;
+                border: 0; padding: 0; background: rgba(34,56,90,.1); color: #22385a; cursor: pointer; display: grid; place-items: center; }
+  .blobbyBrzo:hover { background: rgba(34,56,90,.18); }
+  .blobbyBrzo:focus-visible { outline: 2px solid #22385a; outline-offset: 2px; }
+  .blobbyBrzo svg { width: 0.95rem; height: 0.95rem; fill: currentColor; }
+  /* rasporedi */
+  .blobbyRed.r-uz  { display: flex; align-items: flex-end; gap: 0.9rem; }
+  .blobbyRed.r-uzD { display: flex; flex-direction: row-reverse; justify-content: flex-start; align-items: flex-end; gap: 0.9rem; }
+  .blobbyRed.r-uz .blobbyLik, .blobbyRed.r-uzD .blobbyLik { margin-bottom: -0.3rem; }
+  .blobbyRed.r-stoji { display: block; padding-top: calc(var(--bl) * 1.2); }
+  .blobbyRed.r-stoji .blobbyLik { position: absolute; top: 0; left: 1.4rem; }
+  .blobbyRed.r-viri { display: block; padding-top: calc(var(--bl) * 0.8); }
+  .blobbyRed.r-viri .blobbyLik { position: absolute; top: 0; left: 1rem; z-index: 0; }
+  .blobbyRed.r-viri .blobbyLik svg [id^="sjena-"] { display: none; }
+  /* završni ekran: veći, u sredini */
+  .blobbyRed.kraj { --bl: 5.75rem; justify-content: center; margin: 0.4rem auto 1.4rem; max-width: 34rem; }
+  .blobbyRed.kraj .blobbyOblacic { font-size: var(--t-xl); }
+  .blobbyRed.kraj.r-stoji .blobbyLik { left: calc(50% - var(--bl) / 2); }
   @media (max-width: 639.98px) {
-    .blobbySlika { width: 4rem; flex: 0 0 4rem; }
-    .blobbyRed { gap: 0.625rem; }
+    .blobbyRed { --bl: 3.6rem; }
+    .blobbyRed.kraj { --bl: 4.6rem; }
+    .blobbyRed.r-uz, .blobbyRed.r-uzD { gap: 0.7rem; }
+    .blobbyRed.r-stoji .blobbyLik { left: 1rem; }
+    .blobbyOblacic { padding: 0.75rem 0.95rem 0.2rem; }
   }
+  @media (prefers-reduced-motion: reduce) { .blobbyOblacic.napuhuje { transition: none; } }
   /* tablica u objašnjenju: "- tab: A | B | C" u md-u */
   .tabObjasnjenje {
     width: 100%; border-collapse: collapse; margin: 0.25rem 0 1.5rem; font-size: var(--t-l);
@@ -3995,6 +4023,7 @@
 <script src="rjecnik-es.js"></script>
 <script>CROLAND_UCITAVANJE.faza(65)</script>
 <script src="pregledi-es.js"></script>
+<script src="blobby.js"></script>
 <script>CROLAND_UCITAVANJE.faza(70)</script>
 <script src="vendor/supabase-2.117.2.js"></script>
 <script>CROLAND_UCITAVANJE.faza(80)</script>
@@ -6547,6 +6576,29 @@
     }
     return false;
   }
+  // ---- Blobby: raspored i napredak (blobby.js) ----
+  // kratak tekst: uz oblačić; srednji: uz (PC) / stoji na oblačiću (mobitel); dugačak: stoji (PC) / viri (mobitel)
+  var BLOBBY_ZADNJI = null;          // raspored prethodnog Blobbyja na istoj stranici
+  var BLOBBY_PRESKOK = false;        // ⏩: račun ima bodove na ovoj ili kasnijoj vježbi cjeline
+  var BLOBBY_SESIJA = {};            // najbolji rezultati pri prvom otvaranju cjeline u ovoj sesiji
+  function blobbyRaspored(duljina) {
+    var kat = duljina <= 70 ? 0 : (duljina <= 220 ? 1 : 2);
+    var pc = ['uz', 'uz', 'stoji'][kat], mob = ['uz', 'stoji', 'viri'][kat];
+    if (BLOBBY_ZADNJI) {
+      if (BLOBBY_ZADNJI.pc === pc) pc = pc === 'uz' ? 'uzD' : 'uz';
+      if (BLOBBY_ZADNJI.mob === mob) mob = mob === 'stoji' ? (kat === 2 ? 'viri' : 'uz') : 'stoji';
+    }
+    BLOBBY_ZADNJI = { pc: pc, mob: mob };
+    return BLOBBY_ZADNJI;
+  }
+  // promjena širine (npr. okret mobitela): svaki Blobby uzme raspored za svoj uređaj
+  window.addEventListener('resize', function () {
+    var m = window.innerWidth < 640;
+    document.querySelectorAll('.blobbyRed[data-r-pc]').forEach(function (r) {
+      r.classList.remove('r-uz', 'r-uzD', 'r-stoji', 'r-viri');
+      r.classList.add('r-' + r.getAttribute(m ? 'data-r-mob' : 'data-r-pc'));
+    });
+  });
   function blobbySlucajna() {
     return 'slike/Blobby' + (1 + Math.floor(Math.random() * 9)) + '.webp';
   }
@@ -6569,6 +6621,7 @@
     $('ploca').classList.add('siroka');
     // jedan te isti Blobby kroz cijeli ekran, ali drugi pri sljedećem dolasku
     var blobbySrc = blobbySlucajna();
+    BLOBBY_ZADNJI = null;
     var praznine = [];            // sva polja na stranici, redom kojim se čitaju
     var provjereno = false;
 
@@ -6762,13 +6815,24 @@
     }
     function elBlobby(recenice, src) {
       var red = document.createElement('div'); red.className = 'blobbyRed';
-      var img = document.createElement('img');
-      img.className = 'blobbySlika'; img.src = src; img.alt = 'Blobby';
-      // ako slika nedostaje, oblačić ostaje čitljiv i bez nje
-      img.onerror = function () { red.removeChild(img); };
+      var lik = document.createElement('div'); lik.className = 'blobbyLik';
       var bal = document.createElement('div'); bal.className = 'blobbyOblacic';
       recenice.forEach(function (st) { bal.appendChild(elOdlomak(st)); });
-      red.appendChild(img); red.appendChild(bal);
+      red.appendChild(lik); red.appendChild(bal);
+      // raspored prema količini teksta; dva Blobbyja za redom nikad isto (v. BLOBBY-rezija.md)
+      var duljina = recenice.reduce(function (n, st) { return n + blobbyNorm(st.join(' ')).length; }, 0);
+      var r = blobbyRaspored(duljina);
+      red.classList.add('r-' + (window.innerWidth < 640 ? r.mob : r.pc));
+      red.setAttribute('data-r-pc', r.pc); red.setAttribute('data-r-mob', r.mob);
+      if (window.BlobbyLik) {
+        // engleski izvor svake rečenice (njemačka i španjolska verzija dobivaju istu glumu)
+        var izvori = recenice.map(function (st) {
+          var n = blobbyNorm(st[0]);
+          for (var i = 0; i < BLOBBY_KLJUC.length; i++) if (BLOBBY_KLJUC[i] && n.indexOf(BLOBBY_KLJUC[i]) !== -1) return BlobbyLik.izvorEN(i);
+          return null;
+        });
+        BlobbyLik.novi(lik, bal, { izvori: izvori, preskok: BLOBBY_PRESKOK, natpisBrzo: T_('Más rápido') });
+      }
       return red;
     }
     function elOdlomak(st) {
@@ -12166,6 +12230,10 @@
     postaviScenuCedulja('u|' + tip + '|' + razina);
     if (indeks >= igre.length) { renderSummary(tip, razina); return; }
     igra = igre[indeks];
+    // Blobby: ⏩ samo ako račun ima bodove na ovoj ili bilo kojoj kasnijoj vježbi cjeline
+    BLOBBY_PRESKOK = igre.slice(indeks).some(function (g) { return najbolji(g) > 0; });
+    // Blobby: zapamti rezultate s početka sesije (završni ekran se veseli napretku)
+    igre.forEach(function (g) { var k = kljucIgre(g); if (!(k in BLOBBY_SESIJA)) BLOBBY_SESIJA[k] = najbolji(g); });
     slikeVjezbe = vjezbaImaSveSlike(igra);
     gotovo = false; start = Date.now();
     // svaka vježba kreće s čistim brojačem grešaka i bez naslijeđenog oblačića
@@ -12326,6 +12394,7 @@
       (igre[0].cjelinaNaslov ? ' — ' + igre[0].cjelinaNaslov : '');
     var natragView = (VALUTA_TIPA[tip] || tip === 'Test') ? 'lessons' : 'daily';
     var R = 76, C = 2 * Math.PI * R;
+    var blobbyKraj = blobbyZavrsni(igre, osv, maks, pct, sve);
 
     // stupci po vježbi — svaki vodi natrag na svoju stranicu
     var barovi = '', trake = [];
@@ -12358,6 +12427,7 @@
       navigacijaVjezbi(tip, razina, igre.length, igre) +
       '<div class="sazetak sazUlaz">' +
       '<h2 style="text-align:center">' + (sve ? '¡Unidad dominada! 🏆' : '¡Unidad completada! 🎉') + '</h2>' +
+      blobbyKraj.html +
       '<div class="prsten' + boja + '" id="prstenBox">' +
       '<svg viewBox="0 0 180 180">' +
       '<circle class="pozadina" cx="90" cy="90" r="' + R + '"></circle>' +
@@ -12374,6 +12444,7 @@
       (natragView === 'daily' ? T_('Desafío diario') : 'Lecciones') + '</button></div>';
 
     animirajTrake(navTrakeCekaju); navTrakeCekaju = null;
+    blobbyKraj.pokreni();
 
     // prsten se puni, brojka se broji — animacija kreće tek nakon prvog kadra
     setTimeout(function () {
@@ -12389,6 +12460,47 @@
       }, x.kasni);
     });
     if (sve) setTimeout(function () { konfeti(120); }, 700);
+  }
+
+  // ---- Blobby na završnom ekranu: veseli se više ili manje, prema napretku u sesiji i ukupnom postotku ----
+  function blobbyZavrsni(igre, osv, maks, pct, sve) {
+    var prije = 0;
+    igre.forEach(function (g) { var k = kljucIgre(g); prije += (k in BLOBBY_SESIJA) ? BLOBBY_SESIJA[k] : najbolji(g); });
+    var novo = Math.max(0, osv - prije);
+    var tekst, cues;
+    if (novo > 0 && sve) {
+      tekst = T_('Cada punto de esta unidad es tuyo. ¡La dominaste!');
+      cues = [{ u: 0, izraz: 'smijeh', gesta: 'juhu' }, { u: 0.55, izraz: 'ponosan' }];
+    } else if (novo > 0 && pct >= 80) {
+      tekst = T_('¡+%1 puntos hoy! Esta unidad ya es casi toda tuya.', bod(novo));
+      cues = [{ u: 0, izraz: 'smijeh', gesta: 'juhu' }, { u: 0.5, izraz: 'veselo' }];
+    } else if (novo > 0 && pct >= 50) {
+      tekst = T_('+%1 puntos hoy. Ya tienes más de la mitad: ¡sigue así!', bod(novo));
+      cues = [{ u: 0, izraz: 'veselo' }, { u: 0.55, izraz: 'odlucan', gesta: 'ajmo' }];
+    } else if (novo > 0) {
+      tekst = T_('+%1 puntos hoy. Cada punto cuenta: así se empieza.', bod(novo));
+      cues = [{ u: 0, izraz: 'veselo' }, { u: 0.45, izraz: 'ponosan' }];
+    } else if (sve) {
+      tekst = T_('Todo sigue perfecto. Aquí ya no queda nada por ganar. ¿Pasamos a la siguiente?');
+      cues = [{ u: 0, izraz: 'ponosan' }, { u: 0.6, izraz: 'namig' }];
+    } else if (osv > 0) {
+      tekst = T_('Esta vez no hay puntos nuevos: solo cuenta tu mejor intento, así que no has perdido nada.');
+      cues = [{ u: 0, izraz: 'suosjecanje' }, { u: 0.4, izraz: 'veselo', gesta: 'ajmo' }];
+    } else {
+      tekst = T_("Probemos un ejercicio: los primeros puntos son los más divertidos.");
+      cues = [{ u: 0, izraz: 'odlucan', gesta: 'ajmo' }, { u: 0.6, izraz: 'veselo' }];
+    }
+    var id = 'blobbyKraj' + Date.now();
+    var html = '<div class="blobbyRed kraj" id="' + id + '" data-r-pc="uz" data-r-mob="stoji">' +
+      '<div class="blobbyLik"></div><div class="blobbyOblacic"><p class="odlomak">' + esc(tekst) + '</p></div></div>';
+    return {
+      html: html,
+      pokreni: function () {
+        var r = document.getElementById(id); if (!r) return;
+        r.classList.add('r-' + (window.innerWidth < 640 ? 'stoji' : 'uz'));
+        if (window.BlobbyLik) BlobbyLik.novi(r.querySelector('.blobbyLik'), r.querySelector('.blobbyOblacic'), { cues: [cues] });
+      }
+    };
   }
 
   // brojka koja naraste do cilja — isti tempo kao prsten, da se čita kao jedna stvar

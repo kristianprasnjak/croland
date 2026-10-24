@@ -13,7 +13,7 @@ const ROOT = path.join(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
 const ZASTICENO = path.join(ROOT, 'zasticeno');
 
-const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'terms.html', 'privacy.html', 'refund.html',
+const FILES = ['index.html', 'rjecnik.js', 'pregledi.js', 'blobby.js', 'terms.html', 'privacy.html', 'refund.html',
   // njemacka verzija (croland-de/): ista aplikacija, druga stranica, isti kljucevi napretka
   'index-de.html', 'rjecnik-de.js', 'pregledi-de.js', 'terms-de.html', 'privacy-de.html', 'refund-de.html',
   // spanjolska verzija (croland-es/): pravni tekstovi zasad samo engleski (pravno nije postavljeno u <head>)
